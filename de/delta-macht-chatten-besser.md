@@ -34,10 +34,10 @@ Viele **Gründe** sprechen für Delta Chat. Es bringt Spaß, so mit Freunden so 
 **Was fehlt** (noch)? Delta Chat läuft unter Android. Die Versionen für Apple, Blackberry, etc. benötigen noch Unterstützer. Gleiches gilt für den Einbau der "Ende zu Ende"-Verschlüsselung. Und jede Menge Spielkram - da wird es wohl nie ein "Fertig" geben.  
 
 
-##Weitere Details##
+### Weitere Details
 
-- [Wie Delta Chat Nachrichten verschlüsselt (in Arbeit)](Delta-Chat-mit-Ende-zu-Ende-Verschl%FCsselung)
-- [Das Ausbauziel](Delta-Chat-Das-Ausbauziel)
-- [David gegen Goliath! Wie kam es dazu? ](David-gegen-Goliath)
+- [Wie Delta Chat Nachrichten verschlüsselt (in Arbeit)](delta-chat-mit-ende-zu-ende-verschluesselung)
+- [Das Ausbauziel](delta-chat-das-ausbauziel)
+- [David gegen Goliath! Wie kam es dazu?](david-gegen-goliath)
 
 >PS: Duzen erfolgt nicht aus Respektlosigkeit, sondern weil das Thema allein schon so kompliziert und ernst, ist, dass ein "Sie" es unnötig kälter machen würde. 
