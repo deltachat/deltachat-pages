@@ -3,7 +3,7 @@ title: Hilfe
 layout: default-de
 ---
 
-## Hilfe
+## Hilfe {#top}
 
 - [Allgemein](#allgemein)
 - [Nachrichten an mehrere Personen](#broadcast)

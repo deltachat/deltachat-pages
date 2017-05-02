@@ -2,7 +2,7 @@
 title: Help
 ---
 
-## Frequently Asked Questions
+## Frequently Asked Questions {#top}
 
 [General](#general)  
 [Groups](#groups)  
