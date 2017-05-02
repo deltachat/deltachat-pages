@@ -12,7 +12,7 @@ Delta Chat wird als Open Source für Sie kostenlos zur Verfügung gestellt - und
 
 Die Entwicklung von Delta Chat kostet Geld. Ihre Spende kann die Entwicklung direkt voranbringen.
 
-- Paypal, Kreditkarte oder Lastschrift: [![Paypal](../public/images/donate/paypal-donate.gif)](https://paypal.me/deltachat/10)
+- Paypal, Kreditkarte oder Lastschrift: [paypal.me/deltachat](https://paypal.me/deltachat/10)
 - Bitcoins an [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)  
   ![Bitcoin](../public/images/donate/bitcoin.png)
 
