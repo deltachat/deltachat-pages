@@ -3,7 +3,8 @@ title: Delta Chat mit Ende-zu-Ende-Verschlüsselung
 layout: default-de
 ---
 
-##Delta Chat mit "Ende zu Ende"-Verschlüsselung
+Delta Chat mit "Ende zu Ende"-Verschlüsselung
+=============================================
 
 _(In Arbeit für die nächsten Versionen - voraussichtlich fertig ab April)_  
 
