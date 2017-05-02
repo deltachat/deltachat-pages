@@ -2,7 +2,7 @@
 title: Help
 ---
 
-## Frequently Asked Questions {#top}
+## Frequently Asked Questions
 
 [General](#general)  
 [Groups](#groups)  
@@ -51,7 +51,7 @@ title: Help
 - Yes.  If incoming email lacks a plain text part, we convert HTML-emails to 
   plain text ourself.  Outgoing emails always use plain text. 
 
-[^](#top)
+
 
 
 ## Groups  {#groups}
@@ -76,4 +76,4 @@ title: Help
 - Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.
 - As an alternative, you can also "Mute" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages.
 
-[^](#top)
+

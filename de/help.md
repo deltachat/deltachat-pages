@@ -3,7 +3,7 @@ title: Hilfe
 layout: default-de
 ---
 
-## Hilfe {#top}
+## Hilfe
 
 - [Allgemein](#allgemein)
 - [Nachrichten an mehrere Personen](#broadcast)
@@ -66,7 +66,7 @@ layout: default-de
 
 - Gibt es Delta Chat noch nicht für Ihr Wunschsystem? Delta Chat ist Open Source - [unterstützen Sie uns bei unserer Arbeit](support)!
 
-[^](#top)
+
 
 
 
@@ -76,7 +76,7 @@ layout: default-de
 
 - Entweder über [Gruppen](#gruppen) oder Sie senden die Nachricht zunächst normal an eine Person, drücken die Nachricht dann lang und wählen "Weiterleiten". 
 
-[^](#top)
+
 
 
 
@@ -103,7 +103,7 @@ layout: default-de
 - **Löschen** Sie entweder sich selbst als Gruppenmitglied oder den Chat selbst. Möchten Sie später wieder an der Gruppe teilnehmen, müssen Sie von einem noch aktiven Mitglied hinzugefügt werden.
 - Alternativ können Sie eine Gruppe auch nur **Stummschalten** - Sie erhalten dann alle Nachrichten und können bei Bedarf auch noch schreiben; es erfolgt dann aber keine Benachrichtigung mehr bei neuen Nachrichten.
 
-[^](#top)
+
 
 
 
@@ -125,7 +125,7 @@ layout: default-de
 
 - Aktuell noch nicht, dies ist aber für eine der folgenden Versionen geplant. Das Backup gibt es aber bereits jetzt.
 
-[^](#top)
+
 
 
 
@@ -146,4 +146,4 @@ layout: default-de
 
 
 
-[^](#top)
+
