@@ -6,6 +6,7 @@ title: Help
 
 - [General](#general)  
 - [Groups](#groups)  
+- [Login Issues](#login-issues)  
 
 
 ## General
@@ -77,3 +78,7 @@ title: Help
 - As an alternative, you can also "Mute" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages.
 
 
+## Login Issues  {#login-issues}
+
+- Disroot.org: Select Outbox Security to _STARTTLS_
+- Gmail: Enable "Support less secure apps" and IMAP, you may  receive a mail to grant permission
