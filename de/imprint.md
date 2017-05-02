@@ -1,5 +1,6 @@
 ---
 title: Impressum
+layout: default-de
 ---
 
 ## Impressum

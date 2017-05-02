@@ -1,5 +1,6 @@
 ---
 title: Download
+layout: default-de
 ---
 
 ## Download Delta Chat
@@ -10,7 +11,7 @@ Bei der Verwendung des Programms mit "echten" Daten raten wir dringend zu einem 
 
 * [Download via **F-Droid**](__SNP_FDROID_URL__)
 * [**.apk-Installationsdatei** herunterladen](__SNP_APK_URL__)
-* [Letzte Änderungen anzeigen](__SNP_CHANGELOG_URL__)
+* [Letzte Änderungen anzeigen](https://github.com/r10s/deltachat-android/blob/master/CHANGELOG.md#delta-chat-changelog)
 
 Google Play? iOS? Mac? Windows? Kommt - dauert aber noch einen Moment. Wie Sie uns dabei unterstützen können, finden Sie unter [Support](support).
 

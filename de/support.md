@@ -1,5 +1,6 @@
 ---
 title: Support
+layout: default-de
 ---
 
 ## Wie Sie uns unterstützen können

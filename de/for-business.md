@@ -1,5 +1,6 @@
 ---
 title: Für Firmen
+layout: default-de
 ---
 
 ## Für Firmen

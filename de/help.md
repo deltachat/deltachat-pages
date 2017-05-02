@@ -1,5 +1,6 @@
 ---
 title: Hilfe
+layout: default-de
 ---
 
 ## Hilfe
