@@ -10,7 +10,7 @@ Delta Chat is open source and you can support the further development.
 
 Delta Chat development costs money. Your donation will support future improvements directly.
 
-- PayPal or credit card: <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="GLEVLYZXUJKSJ"><input type="image" src="../public/images/donate/paypal-donate.gif" border="0" name="submit" alt="Donate with PayPal"><img alt="" border="0" src="../public/images/donate/pixel.gif" width="1" height="1"></form>
+- PayPal or credit card: ![../public/images/donate/paypal-donate.gif](https://paypal.me/deltachat/10)
 - Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)  
   ![Bitcoin](../public/images/donate/bitcoin.png)
 
