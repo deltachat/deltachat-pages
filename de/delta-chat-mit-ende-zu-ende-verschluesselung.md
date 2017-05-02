@@ -3,8 +3,7 @@ title: Delta Chat mit Ende-zu-Ende-Verschlüsselung
 layout: default-de
 ---
 
-Delta Chat mit "Ende zu Ende"-Verschlüsselung
-=============================================
+## Delta Chat mit "Ende zu Ende"-Verschlüsselung
 
 _(In Arbeit für die nächsten Versionen - voraussichtlich fertig ab April)_  
 
@@ -29,7 +28,7 @@ Auch auf dem Server der E-Mail-Provider liegen nur verschlüsselte Nachrichten v
 **Fazit**: Ab der zweiten Mail ist Delta-Chat verschlüsselt - für alle weiteren Korrespondenzen mit diesem Absender, aber nur, sofern auch er Delta Chat verwendet oder sein E-Mail-Provider auch das allgemein zugängliche Verschlüsselungsverfahren mit dem Namen "OpenPGP-Protokoll" anwendet. Nutzt Du ein unsicheres E-Mail Programm, wirst Du von Delta Chat nur unverständlich verschlüsselten Zeichensalat im Eingangskorb finden oder musst die Mail eben bewusst unverschlüsselt senden. 
 
 
-##**Schlüssel knacken**
+## Schlüssel knacken
 
 Schlüssel sind zum Knacken da, könnten Hacker sportlich meinen. Doch es gibt Hürden - ziemlich hohe sogar. 
 
@@ -42,7 +41,7 @@ Schlüssel sind zum Knacken da, könnten Hacker sportlich meinen. Doch es gibt H
 **Versprechen prüfen** können Sie letztlich nur dann, wenn der Messenger als Open Source veröffentlicht ist - ob seine Verschlüsselung wirklich lückenlos sicher ist. Nur so können Sie im Quell-Code nach Hintertüren suchen. Und auch dann gibt es noch ein kleines Einfallstor für Manipulationen. Ist die App im Store oder auf der Website des Anbieters wirklich identisch mit dem unter Open Source gestellten Quellcode? Bei vielen Messengern, die als sicher und verschlüsselt gelten, müssen Sie sich auf das Versprechen des Herstellers stützten, ihm einfach vertrauen, besonders bei WhatsApp. Gewissheit könnten Sie sich selbst dann nicht verschaffen, wenn Sie wollten und viel Prüfaufwand investieren. 
 
 
-##Im Hintergrund
+## Im Hintergrund
 
 Mit vielen E-Mail-Anbietern kann Delta Chat auch mit "Ende zu Ende" PGP-Verschlüsselung kommunizieren, zum Beispiel:
 
