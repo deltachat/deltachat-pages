@@ -4,8 +4,8 @@ title: Help
 
 ## Frequently Asked Questions
 
-[General](#general)  
-[Groups](#groups)  
+- [General](#general)  
+- [Groups](#groups)  
 
 
 ## General
