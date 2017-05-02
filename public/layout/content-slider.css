@@ -1,0 +1,124 @@
+/** again, mobile first **/
+
+#content {
+    text-align: center; /* center stuff (does not work for #contentContainer), see below */
+}
+
+#contentContainer {
+    width: 350px;
+    height: 325px;
+    overflow: hidden;
+
+    margin: 0 auto; /* center div */
+    padding-top: 1em;
+    /*border: 1px solid red;*/
+}
+
+#contentWrapper {
+    width: 2450px; /* 350*7 */
+    transform: translate3d(0, 0, 0); /* needed to make positioning work from js later */
+    transition: transform .8s ease-in-out;
+
+    text-align: center;
+    list-style: none;
+}
+
+#contentWrapper div {
+    width: 350px;
+    height: 325px;
+    float: left;
+    white-space: normal;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#contentWrapper div img {
+    width:  180px;
+    height: 180px;
+}
+
+#contentWrapper div h2 {
+    margin: 0 !important;
+    padding: 1em 0em 0em 0em;
+}
+
+#contentWrapper div p {
+    margin: 0 !important;
+    padding: 1em 0em 0em 0em;
+}
+
+
+/** desktop second **/
+
+@media only screen and (min-width: 640px) {
+  #contentContainer {
+    width: 500px;
+  }
+  #contentWrapper {
+    width: 3500px;
+  }
+  #contentWrapper div {
+    width: 500px;
+  }
+  #contentWrapper div img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+/** very small handys last **/
+
+@media (max-width: 380px) {
+  #contentContainer {
+    width: 280px;
+  }
+  #contentWrapper {
+    width: 1960px;
+  }
+  #contentWrapper div {
+    width: 280px;
+  }
+  #contentWrapper div img {
+    width: 155px;
+    height: 155px;
+  }
+}
+
+/********* navLinks *********/
+
+#navLinks {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto; /* center div */
+}
+    #navLinks ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #CCCCCC;
+            padding: 5px;
+            border-radius: 50%;
+            border: 1px solid #888;
+        }
+            /*#navLinks ul li:hover {
+                background-color: #FFFF00;
+            }*/
+            #navLinks ul li.active {
+                background-color: #333333;
+                color: #FFFFFF;
+                outline-width: 7px;
+            }
+                /*#navLinks ul li.active:hover {
+                    background-color: #484848;
+                    color: #FFFFFF;
+                }*/
+
