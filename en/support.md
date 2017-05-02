@@ -26,7 +26,7 @@ Of course, open source developers are very welcome! Just make your improvements 
 
 ## Spread the word ...
 
-... however, currently Delta Chat is still in beta state and is only suitable for persons who know about this issue. Of course, as soon as Delta Chat reaches the version "1.0", it will be a recommendation for everyone. 
+... however, currently Delta Chat is still in beta state and is only suitable for early adopters. As soon as Delta Chat reaches the version "1.0", it will be a recommendation for everyone. 
 
 
 ## Bug Reports
