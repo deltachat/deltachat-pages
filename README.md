@@ -5,6 +5,7 @@ This repository contains the default website of Delta Chat.
 
 Feel free to edit any file as you like and send uns a Pull Request.
 
+
 Some Hints
 --------------------------------------------------------------------------------
 
@@ -13,6 +14,7 @@ Some Hints
 - the layout should be as simple as possible and should always work on small mobile screens
 - we do not want a complex navigation, some toplinks, a footer, done. Simply link subpages from the main pages
 
+
 Directory structure
 --------------------------------------------------------------------------------
 
@@ -20,6 +22,12 @@ Directory structure
 - `_layouts` - this directory contains a default layout template for each language (the layout is references in Markdown using _layout: name_)
 - `public/layout` - CSS and layout specific images and files here.
 - `public/images/` - apge specific images and files; in general, we use one subdirectory per page here
+
+Useful links
+--------------------------------------------------------------------------------
+
+- Page on Github: https://r10s.github.io/deltachat-pages/
+- Destination: https://delta.chat (thanks to Netlify for supporting Open Source)
 
 ---
 
