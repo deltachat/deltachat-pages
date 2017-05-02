@@ -1,7 +1,7 @@
 ---
 title: Das Ausbauziel
 layout: default-de
-###
+---
 
 ## Das Ausbauziel
 
