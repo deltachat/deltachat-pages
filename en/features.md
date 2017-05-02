@@ -7,7 +7,7 @@ title: Why Delta Chat? Your Advantages.
 **Delta Chat** is a project that aims to create a messaging app that is
 completely **compatible** to the existing email-infrastructure.
 
-![Screenshot](/start-img4.png)
+![Screenshot](../public/images/features/start-img4.png)
 
 So, with Delta Chat you get the **ease** of well-known messengers with the
 **reach** of email. Moreover, you're **independent** from other companies or

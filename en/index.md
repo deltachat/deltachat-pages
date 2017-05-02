@@ -4,7 +4,7 @@ title: The messenger
 
 <!-- The content slider must have exactly 7 pages! -->
 <!-- START OF CONTENT SLIDER -->
-<link rel="stylesheet" property="stylesheet" href="/public/layout/content-slider.css" type="text/css" />
+<link rel="stylesheet" property="stylesheet" href="../public/layout/content-slider.css" type="text/css" />
 <div id="contentContainer"><div id="contentWrapper">
 
 <div>
@@ -63,7 +63,7 @@ title: The messenger
   </ul>
 </div>
 
-<script src="/public/layout/content-slider.js"></script>
+<script src="../public/layout/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 
 [<img src="../public/images/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
