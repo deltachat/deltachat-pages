@@ -1,5 +1,6 @@
 ---
 title: Changelog
+layout: default
 ---
 
 # Delta Chat Changelog
