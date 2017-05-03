@@ -3,7 +3,7 @@ title: Für Firmen
 layout: default-de
 ---
 
-## Für Firmen
+# Für Firmen
 
 Delta Chat ist auch hervorragend für den Einsatz im Firmenumfeld geeignet:
 

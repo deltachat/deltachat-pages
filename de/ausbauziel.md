@@ -3,7 +3,7 @@ title: Das Ausbauziel
 layout: default-de
 ---
 
-## Das Ausbauziel
+# Das Ausbauziel
 
 - **März 17**: Einbau der "Ende zu Ende"-Verschlüsselung 
 - **April 17**: Version für iOS 

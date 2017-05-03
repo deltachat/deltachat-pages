@@ -3,7 +3,7 @@ title: Warum Delta Chat? Ihre Vorteile.
 layout: default-de
 ---
 
-## Warum Delta Chat? Ihre Vorteile.
+# Warum Delta Chat? Ihre Vorteile.
 
 **Delta Chat** ist der Messenger mit der größten Nutzerbasis der Welt. Starten Sie sofort - Sie müssen Ihre Kontakte nicht erst überreden, zu Delta Chat zu wechseln, um sie erreichen zu können.
 

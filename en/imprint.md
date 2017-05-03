@@ -3,7 +3,7 @@ title: Imprint
 layout: default
 ---
 
-## Imprint
+# Imprint
 
 Contact:
 

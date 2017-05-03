@@ -3,7 +3,7 @@ title: David gegen Goliath
 layout: default-de
 ---
 
-## David gegen Goliath - Wie kam es dazu? 
+# David gegen Goliath - Wie kam es dazu? 
 
 Ist David auf Goliath böse, wird chatten besser. Der völlig **andersartige Messenger**, der nichts mehr ausspioniert, der alltagstauglich ist, keinen "big brother" zum Betrieb braucht, mit dem sechs Milliarden E-Mail-User ohne Unterschreiben von AGB's mindestens so einfach chatten, wie beispielsweise mit WhatsApp, heißt Delta Chat - und ist Open Source.
 

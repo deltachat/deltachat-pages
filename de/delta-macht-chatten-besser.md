@@ -3,7 +3,7 @@ title: Delta macht chatten besser
 layout: default-de
 ---
 
-## Delta macht chatten besser
+# Delta macht chatten besser
 
 _**Alle chatten jetzt mit WhatsApp** oder ähnlichen Messengern - naja nicht alle, aber ziemlich viele. Etwa sechs Milliarden E-Mail-Adressen gibt es auf der Welt und über eine Milliarde chatten jetzt, statt zu mailen. Warum nur? Chatten ist die leichteste Art zu kommunizieren - leider noch mit Haken._
 
@@ -34,7 +34,7 @@ Viele **Gründe** sprechen für Delta Chat. Es bringt Spaß, so mit Freunden so 
 **Was fehlt** (noch)? Delta Chat läuft unter Android. Die Versionen für Apple, Blackberry, etc. benötigen noch Unterstützer. Gleiches gilt für den Einbau der "Ende zu Ende"-Verschlüsselung. Und jede Menge Spielkram - da wird es wohl nie ein "Fertig" geben.  
 
 
-### Weitere Details
+## Weitere Details
 
 - [Wie Delta Chat Nachrichten verschlüsselt (in Arbeit)](delta-chat-mit-ende-zu-ende-verschluesselung)
 - [Das Ausbauziel](ausbauziel)

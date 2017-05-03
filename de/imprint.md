@@ -3,7 +3,7 @@ title: Impressum
 layout: default-de
 ---
 
-## Impressum
+# Impressum
 
 Kontakt:
 

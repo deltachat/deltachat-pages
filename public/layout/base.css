@@ -93,11 +93,11 @@ body {
 
 
 /*space between content elements*/
-#content p, #content ul, ol, h2, h3 {
+#content p, #content ul, ol, h1, h2 {
     margin: 1em 0;
 }
 
-h2:not(:first-child), h3:not(:first-child) {
+h1:not(:first-child), h2:not(:first-child) {
     margin-top: 2em;
 }
 
@@ -115,8 +115,8 @@ body {
 #content ul li { list-style: disc outside; margin: 0.5em 0.2em; padding-left: 0.5em; }
 ol li { list-style: decimal; margin: 0.5em 0.2em; padding-left: 0.5em; }
 
-h2 { font-weight: normal; font-size: 24px; letter-spacing: 2px; color: #000; }
-h3 { font-weight: bold; font-size: 16px; letter-spacing: 1px; color: #159957; }
+h1 { font-weight: normal; font-size: 24px; letter-spacing: 2px; color: #000; }
+h2 { font-weight: bold; font-size: 16px; letter-spacing: 1px; color: #159957; }
 
 a, a:visited {
     /*color: #0063DC;*/

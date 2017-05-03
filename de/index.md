@@ -10,43 +10,43 @@ layout: default-de
 
 <div>
    <img src="../public/images/home/intro1.png" alt="" />
-   <h2>Delta Chat</h2>
+   <h1>Delta Chat</h1>
    <p>Der Messenger mit der <b>größten Nutzerbasis</b> der Welt.<br><b>Frei</b>, <b>sicher</b>, E-Mail-kompatibel.</p>
 </div>
 
 <div>
    <img src="../public/images/home/intro2.png" alt="" />
-   <h2>Unabhängig</h2>
+   <h1>Unabhängig</h1>
    <p><b>Keine Abhängigkeiten</b> von Konzernen und fremden Servern. Die App verwendet nur den E-Mail-Server Ihrer Wahl.</p>
 </div>
 
 <div>
    <img src="../public/images/home/intro3.png" alt="" />
-   <h2>Schnell</h2>
+   <h1>Schnell</h1>
    <p>Push-Nachrichten in <b>Sekundenschnelle</b>.<br/>Rasantes Interface.</p>
 </div>
 
 <div>
    <img src="../public/images/home/intro4.png" alt="" />
-   <h2>Leistungsstark</h2>
+   <h1>Leistungsstark</h1>
    <p><b>Gruppen,</b> Bilder, Videos, Sprachnachrichten und mehr. Multi-Client-fähig.</p>
 </div>
 
 <div>
    <img src="../public/images/home/intro5.png" alt="" />
-   <h2>Frei</h2>
+   <h1>Frei</h1>
    <p><b>OpenSource.</b> Keine Werbung. Kein Abo. Kein Lock-In. Kein Datenverkauf.</p>
 </div>
 
 <div>
    <img src="../public/images/home/intro6.png" alt="" />
-   <h2>Sicher</h2>
+   <h1>Sicher</h1>
    <p><b>Verschlüsselt.</b> Vertraulichkeiten bleiben auf Ihren Rechnern. Nicht hinterhältig.</p>
 </div>
 
 <div>
    <img src="../public/images/home/intro7.png" alt="" />
-   <h2>Professionell</h2>
+   <h1>Professionell</h1>
    <p><b>Archivierbare,</b> nachvollziehbare und standard-basierte geschäftliche Kommunikation.</p>
 </div>
 

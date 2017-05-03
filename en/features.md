@@ -3,7 +3,7 @@ title: Why Delta Chat? Your Advantages.
 layout: default
 ---
 
-## Why Delta Chat? Your Advantages.
+# Why Delta Chat? Your Advantages.
 
 **Delta Chat** is a project that aims to create a messaging app that is
 completely **compatible** to the existing email-infrastructure.
@@ -27,6 +27,6 @@ Some features at a glance
 - **Trustworthy** - can even be used for business messages
 - fully **open source** and **standards** based
 
-## Learn more
+# Learn more
 
 - [Delta makes chatting better](Delta%20makes%20chatting%20better)

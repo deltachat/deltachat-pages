@@ -3,7 +3,7 @@ title: Delta makes chatting better
 layout: default
 ---
 
-##Delta makes chatting better
+# Delta makes chatting better
 
 _All chat now with WhatsApp, Instagram or similar - well not all, but quite a lot. About six billion email addresses exist in the world and over one billion chat now, instead of emailing. Just why? Chatting is the easiest way to communicate._
 
