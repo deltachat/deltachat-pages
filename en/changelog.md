@@ -3,7 +3,8 @@ title: Changelog
 layout: default
 ---
 
-# Delta Chat Changelog
+Delta Chat Changelog
+=============================================================
 
 ## v0.1.34
 2017-05-03
