@@ -11,7 +11,7 @@ layout: default-de
 
 Einige Features:
 
-- Sprachnachrichten, Bilder und Videos in Sekundenschnelle verschicken
+- Sprachnachrichten, Bilder und Videos in Sekundenschnelle verschicken und empfangen
 - **Schnell** und zuverlässig
 - Gruppenchats
 - **Archivierbar** und nachvollziehbar
