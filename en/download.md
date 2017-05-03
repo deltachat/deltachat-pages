@@ -11,6 +11,6 @@ You can download the current beta-version from one of the following sources. You
 
 * [Download via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
 * [Download **.apk-installation file**](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
-* [View Changelog](https://github.com/r10s/deltachat-android/blob/master/CHANGELOG.md#delta-chat-changelog)
+* [View Changelog](changelog)
 
 Google Play? iOS? Mac? Windows? Coming soon - see [here](support) about how you can support us.
