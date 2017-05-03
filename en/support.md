@@ -22,11 +22,11 @@ Help to translate Delta Chat in your language using [Android Studio](https://dev
 
 # Developers
 
-Of course, open source developers are very welcome! Just make your improvements to your [Delta Chat fork](https://github.com/r10s/deltachat-android) and send us a pull request. Or contact us at _r10s AT b44t DOT com_
+Of course, open source developers are very welcome! Just make your improvements to your [Delta Chat fork](https://github.com/r10s/deltachat-android) and send a pull request. Or contact us at _r10s AT b44t DOT com_
 
 ## Website
 
-Do you have great ideas or little improvements for this website? Just [edit it here](https://github.com/r10s/deltachat-pages) and send us a pull request.
+Do you have great ideas or little improvements for this website? Just [edit it here](https://github.com/r10s/deltachat-pages) and send a pull request.
 
 
 # Spread the word ...
