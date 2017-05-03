@@ -1,5 +1,6 @@
 ---
 title: Help
+layout: default
 ---
 
 ## Frequently Asked Questions

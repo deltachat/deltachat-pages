@@ -1,5 +1,6 @@
 ---
 title: Imprint
+layout: default
 ---
 
 ## Imprint

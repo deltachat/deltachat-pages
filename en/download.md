@@ -1,5 +1,6 @@
 ---
 title: Download
+layout: default
 ---
 
 ## Download Delta Chat

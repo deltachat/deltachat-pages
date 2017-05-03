@@ -1,5 +1,6 @@
 ---
 title: Support
+layout: default
 ---
 
 ## How to support us

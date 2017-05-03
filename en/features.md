@@ -1,5 +1,6 @@
 ---
 title: Why Delta Chat? Your Advantages.
+layout: default
 ---
 
 ## Why Delta Chat? Your Advantages.

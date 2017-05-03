@@ -1,5 +1,6 @@
 ---
 title: For Business
+layout: default
 ---
 
 ## For Business

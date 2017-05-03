@@ -1,5 +1,6 @@
 ---
 title: Delta makes chatting better
+layout: default
 ---
 
 ##Delta makes chatting better
