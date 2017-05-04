@@ -30,8 +30,8 @@ Directory structure
 Useful links
 --------------------------------------------------------------------------------
 
-- Page on Github: https://r10s.github.io/deltachat-pages/ (if you fork the site, replace r10s by your username and enable Github pages)
-- Destination: https://delta.chat (thanks to Netlify for supporting Open Source)
+- Live page: https://delta.chat (thanks to Netlify for supporting Open Source)
+- Testing forks will be available at `https://<your-username>.github.io/deltachat-pages/` if you enable Github pages
 
 ---
 
