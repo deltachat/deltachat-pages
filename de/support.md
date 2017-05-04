@@ -23,7 +23,7 @@ Helfen Sie, das Projekt zu **lokalisieren** - am besten mit [Android Studio](htt
 
 # Entwickler
 
-Natürlich kann Delta Chat auch zusätzliche **Open-Source-Entwickler,** gebrauchen - C, Java, Android, iOS, Windows, Linux und Mac Know-how ist gefragt. Natürlich nicht unbedingt alles zugleich :-) Bearbeiten Sie einfach Ihren [Delta Chat Fork](https://github.com/r10s/deltachat-android/) und senden einen Pull Request. Oder Sie wenden sich an _r10s AT b44t DOT com_
+Natürlich kann Delta Chat auch zusätzliche **Open-Source-Entwickler,** gebrauchen - C, Java, Android, iOS, Windows, Linux und Mac Know-how ist gefragt. Natürlich nicht unbedingt alles zugleich :-) Bearbeiten Sie einfach Ihren [Delta Chat Fork](https://github.com/r10s/deltachat-android/) und senden einen Pull Request.
 
 Dasselbe gilt für diese **Webseite** - egal ob großartige Idee oder kleine Verbesserung: Sie können die Seite einfach [hier](https://github.com/r10s/deltachat-pages/) bearbeiten.
 
