@@ -20,7 +20,7 @@ Einige Features:
 - Alle Daten bleiben auf den eigenen Computern - dies macht Delta Chat auch für geschäftliche Prozesse attraktiv
 - **Verschlüsselt**
 - **Kein Spam**
-- **Open Source**, überprüfbar und Standard-basiert
+- **Open Source**, überprüfbar und standardbasiert
 
 ## Weitere Infos
 
