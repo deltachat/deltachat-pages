@@ -11,7 +11,7 @@ layout: default
 <div>
    <img src="../public/images/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>The messenger with the <b>largest range</b> in the world.<br/><b>Free</b>, <b>save</b>,  email compatible.</p>
+   <p>The messenger with the <b>largest range</b> in the world.<br/><b>Free</b>, <b>safe</b>,  email compatible.</p>
 </div>
 
 <div>
@@ -63,13 +63,13 @@ layout: default
     <li class="itemLinks" data-pos="6"></li>
   </ul>
 </div>
-
+<h2 style="font-size:16px">🙶<i> Make Email Great Again! </i>🙷</h2>
 <script src="../public/layout/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 
 [<img src="../public/images/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
-[<img src="../public/images/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" />](download)
-[<img src="../public/images/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" />](download)
+<!--[<img src="../public/images/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" />](download)
+[<img src="../public/images/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" />](download) -->
 
-[.apk, Mac, Windows and other sources](download)
+[Download .apk manually](download)
 

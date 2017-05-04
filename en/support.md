@@ -37,4 +37,4 @@ Do you have great ideas or little improvements for this **website?** Just [edit 
 Use our **Issue Trackers** to report bugs. If possible, please add a detailed description; a screenshot is often helpful, too. 
 
 - [Android](https://github.com/r10s/messenger-android/issues) 
-- [System-independent](https://github.com/r10s/messenger-backend/issues)
+- [Delta Chat Core](https://github.com/r10s/messenger-backend/issues)
