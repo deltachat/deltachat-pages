@@ -5,6 +5,11 @@ layout: default
 
 # Delta Chat Changelog
 
+## v0.1.36
+2017-05-04
+
+* Support camera on Android Nougat
+
 ## v0.1.34
 2017-05-03
 
