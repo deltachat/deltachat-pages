@@ -63,7 +63,7 @@ layout: default
     <li class="itemLinks" data-pos="6"></li>
   </ul>
 </div>
-<h2 style="font-size:16px">🙶<i> Make Email Great Again! </i>🙷</h2>
+<h2 style="font-size:16px"><i>“Make Email Great Again!”</i></h2>
 <script src="../public/layout/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 
