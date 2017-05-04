@@ -29,4 +29,4 @@ Some features at a glance
 
 # Learn more
 
-- [Delta makes chatting better](Delta%20makes%20chatting%20better)
+- [Delta makes chatting better](delta-makes-chatting-better)
