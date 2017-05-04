@@ -3,17 +3,21 @@ Delta Chat Website
 
 This repository contains the default website of Delta Chat.
 
-Feel free to edit any file as you like and send uns a Pull Request.
+Feel free to edit any file as you like and send uns a pull request.
 
 
 Some Hints
 --------------------------------------------------------------------------------
 
-- whereever possible, use Markdown instead of HTML
-- we do not want JavaScript on the site
-- the layout should be as simple as possible and should always work on small mobile screens
-- we do not want a complex navigation, some toplinks, a footer, done. Simply link subpages from the main pages
-
+- whereever possible, use **Markdown** instead of HTML
+- **no JavaScript** whereever possible, no **weird CSS** nor other complicated things
+- the layout should be **as simple as possible** and should always work on **small mobile screens** as well as on **desktops**
+- when layouting, do not force a special structure.  Header, Content, Footer - done.
+- no complex navigation - Simply link subpages from the main pages
+- **no one-page-layout** - we also have sites with long text, and we do not want to have separate layouts
+- we do not want a complex navigation, some toplinks, a footer, done.
+- Remember: **Form follows function, KISS.** The site should be dead-simple.
+- Finally: Have fun :-)
 
 Directory structure
 --------------------------------------------------------------------------------
@@ -26,7 +30,7 @@ Directory structure
 Useful links
 --------------------------------------------------------------------------------
 
-- Page on Github: https://r10s.github.io/deltachat-pages/
+- Page on Github: https://r10s.github.io/deltachat-pages/ (if you fork the site, replace r10s by your username and enable Github pages)
 - Destination: https://delta.chat (thanks to Netlify for supporting Open Source)
 
 ---
