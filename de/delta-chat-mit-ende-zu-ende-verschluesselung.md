@@ -5,7 +5,7 @@ layout: default-de
 
 # Delta Chat mit "Ende zu Ende"-Verschlüsselung
 
-_(In Arbeit für die nächsten Versionen - voraussichtlich fertig ab April)_  
+_(In Arbeit für die nächsten Versionen)_
 
 _**Was leistet die "Ende zu Ende" Verschlüsselung?** Sie hat auf jeden Fall höchstes Ansehen, bei den Hamburger Datenschützern. Delta Chat hat sie eingebaut und zwar so, dass die Nutzer keine irren Fachbegriffe kennen oder die Prüfung mit den unverständlichen Anweisungen bestehen müssen. Sie müssen gar nichts darüber wissen. Sie funktioniert einfach so - vollautomatisch. Doch schaden tut es nicht, wenn man weiß: Wie geht das bei Delta Chat?_ 
 
