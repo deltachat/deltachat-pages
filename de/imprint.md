@@ -5,6 +5,13 @@ layout: default-de
 
 # Impressum
 
-Kontakt:
+<!-- Do not change, all information are requried by law in Germany... -->
 
-![Kontaktinformationen](../public/images/imprint/card6.gif)
+**Björn Petersen**  
+**Software Design and Development**
+
+Friedrich-Ebert-Str. 1 B  
+25348 Glückstadt, Germany  
+Telefon: +49 4124 603889  
+E-Mail: r10s at b44t dot com  
+USt-IdNr. DE214707533
