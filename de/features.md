@@ -8,7 +8,7 @@ layout: default-de
 <!-- Mit Delta Chat müssen Sie, anders als bei anderen Messengern, auch nichts Verzichten: -->
 Verzichten Sie auf nichts mehr:
 
-Wählen Sie **maximale Sicherheit** und **erreichen Sie Ihre Kontakte** _ohne_ sie zum Umstieg zu nötigen!
+Wählen Sie **maximale Sicherheit** und **erreichen Sie Ihre Kontakte** _ohne_ sie zum Umstieg zu nötigen.
 
 Diese Kombination bietet kein anderer Messenger.
 
@@ -17,9 +17,9 @@ Diese Kombination bietet kein anderer Messenger.
 <!--
 allg: positiv formulieren!
 
-**Verzichten Sie auf nichts** - behalten Sie die Kontrolle über Ihre Daten und erreichen Sie dennoch alle Kontakte!
+**Verzichten Sie auf nichts** - behalten Sie die Kontrolle über Ihre Daten und erreichen Sie dennoch alle Kontakte.
 
-Verzichten Sie auf nichts - weder auf Datenschutz und Sicherheit noch darauf, alle Ihre Kontakte zu erreichen!
+Verzichten Sie auf nichts - weder auf Datenschutz und Sicherheit noch darauf, alle Ihre Kontakte zu erreichen.
 
 Bei _herkömmlichen_ Messengern müssen Sie entweder auf Datenschutz und 
 Privatspähre verzichten _oder_ Sie verzichten darauf, einen
