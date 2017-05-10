@@ -37,7 +37,6 @@ Viele **Gründe** sprechen für Delta Chat. Es bringt Spaß, so mit Freunden so 
 ## Weitere Details
 
 - [Wie Delta Chat Nachrichten verschlüsselt (in Arbeit)](delta-chat-mit-ende-zu-ende-verschluesselung)
-- [Das Ausbauziel](ausbauziel)
 - [David gegen Goliath! Wie kam es dazu?](david-gegen-goliath)
 
 >PS: Duzen erfolgt nicht aus Respektlosigkeit, sondern weil das Thema allein schon so kompliziert und ernst, ist, dass ein "Sie" es unnötig kälter machen würde. 
