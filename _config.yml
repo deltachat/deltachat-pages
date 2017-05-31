@@ -1,3 +1,15 @@
 #theme: jekyll-theme-cayman
 layout: default
+permalink: /en/:year-:month-:day-:title
+
+# the following lines are to make the option {{ page.is_post }} available, thanks to 
+# https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      layout: default
+      is_post: true # automatically set is_post=true for all posts
 
