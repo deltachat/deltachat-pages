@@ -5,6 +5,12 @@ This repository contains the default website of Delta Chat.
 
 Feel free to edit any file as you like and send uns a pull request.
 
+How to create a new blog post
+--------------------------------------------------------------------------------
+
+- In the directory `_posts` add a new file in the form `YYYY-MM-DD-title.md` (or copy an existing file)
+- Write your blog post to the file and do not forget to add or modify the `title:` line
+- Thats all.
 
 Some Hints
 --------------------------------------------------------------------------------
