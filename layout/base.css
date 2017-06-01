@@ -101,6 +101,14 @@ h1:not(:first-child), h2:not(:first-child) {
     margin-top: 2em;
 }
 
+p.menulike { /* eg. prev/next links */
+	margin-top: 2em !important;
+}
+
+p.blogdate {
+	margin-bottom: 2em !important;
+	font-style: italic;
+}
 
 /*colors*/
 
@@ -138,4 +146,11 @@ pre, blockquote { padding: 0.5em 1em; }
 #content table th { background-color: #eee; font-weight: bold; }
 
 #content hr { border: 1px solid #ddd; margin: 2em 0; }
+
+
+.feed {
+  margin-left: 3px;
+  padding: 0 0 0 19px;
+  background: url("../layout/feed-icon.png") no-repeat 0 50%;
+} 
 

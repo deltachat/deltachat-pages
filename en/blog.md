@@ -13,3 +13,5 @@ layout: default
 	<a href="{{ post.url }}">Read on ...</a>
 </p>
 {% endfor %}
+
+<p class="menulike"><a href="../feed.xml" class="feed">Subscribe to our feed</a></p>

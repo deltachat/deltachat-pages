@@ -30,7 +30,7 @@
 
 {% if page.is_post == true %}
 <h1>{{ page.title }}</h1>
-<p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
+<p class="blogdate">{{ page.date | date: "%B %d, %Y" }}</p>
 {% endif %}
 
 
@@ -38,6 +38,7 @@
 
 
 {% if page.is_post == true %}
+<p class="menulike">
 {% if page.previous.url %}
 <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> &middot;
 {% endif %}
@@ -45,6 +46,8 @@
 {% if page.next.url %}
 &middot; <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
 {% endif %}
+</p>
+<p class="menulike"><a href="../feed.xml" class="feed">Subscribe to our feed</a></p>
 {% endif %}
 
 
