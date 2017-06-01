@@ -21,7 +21,7 @@ And what do the **e-mail operators** actually do, as their competitors are growi
 
 Everything not so **important**? Thinking experiment: Imagine that WhatsApp was already invented in the Weimar Republic. Then the Nazis came to power. Now the Gestapo has to pay a very discreet visit to only a few corporations, and they already know every Jew, regime boss - even if they were never on WhatsApp. And they know who blows with whom. With the aid of the movement profiles, they also know where the best would be to arrest. Spinning Look to Poland, Hungary, America, Turkey
 
-![Delta Chat Logo](/public/images/home/intro1.png)
+![Delta Chat Logo](/assets/home/intro1.png)
 
 Since some days, there is a real **alternative** to WhatsApp. It is called "Delta Chat". Who is the new app on his mobile phone, can chat with six billion users - without having to persuade them once, to switch somewhere. Just email more, but now like chatting with selected people. Delta Chat feels like WhatsApp. If the partners want the same feeling, both delta chat load on their mobile phone - and both chat as with WhatsApp. But they must not have. One can also choose to chat alone.
 

@@ -29,7 +29,7 @@ Bei **Delta Chat** müssen Sie auf **nichts verzichten!**
 
 Starten  Sie sofort - Sie benötigen nur Ihre E-Mail-Adresse und müssen Ihre Kontakte nicht erst überreden, zu Delta Chat zu wechseln, um sie erreichen zu können.
 
-![Screenshot](../public/images/features/start-img4.png)
+![Screenshot](../assets/features/start-img4.png)
 
 Einige Features:
 

@@ -21,7 +21,7 @@ Und was machen eigentlich die **E-Mail-Betreiber**, während ihre Konkurrenz ras
 
 Alles nicht so **wichtig**? Gedankenexperiment:  Man stelle sich vor, WhatsApp wäre schon in der Weimarer Republik erfunden. Dann kommen die Nazis an die Macht. Nun muss die Gestapo nur wenigen Konzernen einen sehr diskreten Besuch abstatten und schon kennen sie jeden Juden, Regimegegner - sogar diejenigen, die selbst nie auf WhatsApp waren. Irgend ein Freund wird auch Deine Adresse hochgeladen haben. Und sie wissen, wer mit wem zusammengluckt. Mit Hilfe der Bewegungsprofile wissen sie zudem, wo wer am besten zu verhaften wäre. Spinnkram? Schaue doch mal nach Polen, Ungarn, Amerika, in die Türkei. Wer hatte einen so schnellen Verfall der Demokratie erwartet? 
  
-![Hier ist ein Bild](/public/images/home/intro1.png)
+![Hier ist ein Bild](/assets/home/intro1.png)
 
 2017 veröffentlicht Björn Petersen auf Github den **Open Source Code des E-Mail-Messengers "Delta Chat"**. Der erste IMAP-Messenger, den sich jedefrau/jedermann einfach auf sein Android Smartphone laden kann, funktioniert - noch mit den Einschränkungen der Beta-Version. Ein halbes Jahr konzeptionelle Überlegungen und die App, die WhatsApp ersetzen kann, betritt die Weltbühne. 
 

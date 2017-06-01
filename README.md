@@ -29,9 +29,9 @@ Directory structure
 --------------------------------------------------------------------------------
 
 - `/en` `/de` .. directories containing all language files. Subdirectories in these directories are _not allowed_ (relative links will fail then)
-- `_layouts` - this directory contains a default layout template for each language (the layout is references in Markdown using _layout: name_)
-- `public/layout` - CSS and layout specific images and files here.
-- `public/images/` - apge specific images and files; in general, we use one subdirectory per page here
+- `/_layouts` - this directory contains a default layout template for each language (the layout is references in Markdown using _layout: name_)
+- `/layout` - CSS and layout specific images and files here.
+- `/assets` - page specific images and files; in general, we use one subdirectory per page here
 
 Useful links
 --------------------------------------------------------------------------------

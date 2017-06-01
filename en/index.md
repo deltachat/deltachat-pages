@@ -5,47 +5,47 @@ layout: default
 
 <!-- The content slider must have exactly 7 pages! -->
 <!-- START OF CONTENT SLIDER -->
-<link rel="stylesheet" property="stylesheet" href="../public/layout/content-slider.css" type="text/css" />
+<link rel="stylesheet" property="stylesheet" href="../layout/content-slider.css" type="text/css" />
 <div id="contentContainer"><div id="contentWrapper">
 
 <div>
-   <img src="../public/images/home/intro1.png" alt="" />
+   <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
    <p>The messenger with the <b>largest range</b> in the world.<br/><b>Free</b>, <b>safe</b>,  email compatible.</p>
 </div>
 
 <div>
-   <img src="../public/images/home/intro2.png" alt="" />
+   <img src="../assets/home/intro2.png" alt="" />
    <h1>Independent</h1>
    <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p>
 </div>
 
 <div>
-   <img src="../public/images/home/intro3.png" alt="" />
+   <img src="../assets/home/intro3.png" alt="" />
    <h1>Fast</h1>
    <p><b>Push-messages</b> in seconds.<br/>Rapid interface.</p>
 </div>
 
 <div>
-   <img src="../public/images/home/intro4.png" alt="" />
+   <img src="../assets/intro4.png" alt="" />
    <h1>Powerful</h1>
    <p><b>Unlimited</b> chats, images, videos, audio messages and more. Multi-client capable.</p>
 </div>
 
 <div>
-   <img src="../public/images/home/intro5.png" alt="" />
+   <img src="../assets/home/intro5.png" alt="" />
    <h1>Free</h1>
    <p><b>Delta Chat</b> ist free forever.<br/>OpenSource. No ads. No subscription. No vendor lock-in.</p>
 </div>
 
 <div>
-   <img src="../public/images/home/intro6.png" alt="" />
+   <img src="../assets/home/intro6.png" alt="" />
    <h1>Safe</h1>
    <p><b>Encrypted</b> with all common algorithms. Messages stay on your servers.</p>
 </div>
 
 <div>
-   <img src="../public/images/home/intro7.png" alt="" />
+   <img src="../assets/home/intro7.png" alt="" />
    <h1>Trustworthy</h1>
    <p><b>Delta Chat</b> is safe for business use, compatible and standards-based.</p>
 </div>
@@ -64,12 +64,12 @@ layout: default
   </ul>
 </div>
 <h2 style="font-size:16px"><i>“Make Email Great Again!”</i></h2>
-<script src="../public/layout/content-slider.js"></script>
+<script src="../layout/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 
-[<img src="../public/images/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
-<!--[<img src="../public/images/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" />](download)
-[<img src="../public/images/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" />](download) -->
+[<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
+<!--[<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" />](download)
+[<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" />](download) -->
 
 [Download .apk manually](download)
 
