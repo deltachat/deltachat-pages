@@ -7,7 +7,7 @@ Okay, a big version step from v0.1.36 to v0.9.0 - but it's also a big change:
 From now on, Delta Chat supports OpenPGP-compatible end-to-end-encryption out-of-the-box with
 zero configuration :-) - thanks to [Autocrypt](https://autocrypt.readthedocs.io).
 
-The following changees ...
+The following changes ...
 
 * Add end-to-end-encrypting following the OpenPGP and Autocrypt standards
 * Add a function to compare keys
