@@ -2,7 +2,7 @@
 title: Delta Chat v0.9.0 released
 ---
 
-Okay, a big version step from v0.1.36 to v0.9.0 - but it's also a bit change:
+Okay, a big version step from v0.1.36 to v0.9.0 - but it's also a big change:
 
 From now on, Delta Chat supports OpenPGP-compatible end-to-end-encryption out-of-the-box with
 zero configuration :-) - thanks to [Autocrypt](https://autocrypt.readthedocs.io).
