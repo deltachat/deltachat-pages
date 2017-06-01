@@ -1,5 +1,5 @@
 ---
-title: Delta Chat v0.9.0 releases
+title: Delta Chat v0.9.0 released
 ---
 
 Okay, a bit version step from v0.1.36 to v0.9.0 - but it's also a bit change:
