@@ -127,22 +127,28 @@ layout: default-de
 
 
 
-
-
 # Mehrere Geräte verwenden {#multiclient}
 
 ## Kann ich Delta Chat auf mehreren Geräten gleichzeitig verwenden?
 
 - Ja.  Wenn Sie **verschiedene Konten** verwenden, gibt es dabei gar nichts zu beachten. 
-- Wenn Sie auf **dasselbe Konto** von verschiedenen Geräten zugreifen möchten (Multi-Client), tragen Sie einfach auf allen Geräten dieselben Kontoeinstellungen ein. _Eingehende_ Nachrichten werden dabei auf allen Geräten sofort angezeigt, _ausgehende_ Nachrichten werden über Gerätegrenzen hinweg aktuell alle ca. 30 Minuten synchronisiert. Wenn wir genügend [Unterstützung](support) bekommen, ist geplant, dies noch weiter zu verbessern.
+- Wenn Sie auf **dasselbe Konto** von verschiedenen Geräten zugreifen möchten (Multi-Client), müssen Sie den für die Verschlüsselung notwendigen **privaten Schlüssel übertragen:**
+
+    - Auf dem zuerst eingerichteten Gerät muss mindestenst eine Nachricht gesendet worden sein, damit der private Schlüssel generiert wurde.
+    - Wählen Sie dann _Einstellungen / Menü oben rechts / Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Exportieren nach "Downloads"_ 
+    - Kopieren Sie den Schlüssel lokal via USB von Download-Verzeichnis des ersten Geräts in das Download-Verzeichnis des Zielgeräts. 
+    - Auf dem Zielgerät wählen Sie dann _Importieren aus "Downloads"_
+
+- Für die Standardanwendung von Delta Chat - _ein_ Endgerät pro Konto, ähnlich wie bei den meisten anderen Messengern - ist all dies nicht notwendig.
+
+- _Eingehende_ Nachrichten werden dabei auf allen Geräten sofort angezeigt, _ausgehende_ Nachrichten werden über Gerätegrenzen hinweg aktuell alle ca. 30 Minuten synchronisiert. Wenn wir genügend [Unterstützung](support) bekommen, ist geplant, dies noch weiter zu verbessern.
+
 
 ## Kann ich auf einem Gerät Delta Chat verwenden und auf dem nächsten einen anderen Client?
 
 - Ja. Sie können sogar auf demselben Gerät verschiedene Clients verwenden.
 
-## Funktioniert die kommende Ende-zu-Ende-Verschlüsselung auch mit Multi-Client?
 
-- Ja. Es wird eine Möglichkeit geben, die privaten Schlüssel von Gerät zu Gerät zu kopieren.  Für die Standardanwendung von Delta Chat - _ein_ Endgerät pro Konto, ähnlich wie bei den meisten anderen Messengern - ist dies nicht notwendig.
 
 
 
