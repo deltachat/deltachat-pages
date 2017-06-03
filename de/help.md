@@ -9,6 +9,7 @@ layout: default-de
 - [Nachrichten an mehrere Personen](#broadcast)
 - [Gruppen](#gruppen)
 - [Speicherung der Nachrichten](#speicherung)
+- [Verschlüsselung](#verschluesselung)
 - [Mehrere Geräte verwenden](#multiclient)
 
 
@@ -127,28 +128,36 @@ layout: default-de
 
 
 
-# Verschlüsselung
+# Verschlüsselung {#verschluesselung}
 
 ## Gibt es eine Ende-zu-Ende-Verschlüsseung?
 
-Ja.
+- Ja.
 
 ## Was muss ich tun, um sie zu aktivieren?
 
-Nichts.
+- Nichts.
 
-Delta Chat - und andere Autocrypt-kompatible E-Mail-Programme tauschen die Schlüssel selbstständig mit den ersten versendeten Nachrichten aus.
+- Delta Chat - und andere Autocrypt-kompatible E-Mail-Programme tauschen die Schlüssel selbstständig mit den ersten versendeten Nachrichten aus.
 Danach ist die Verbindung Ende-zu-Ende-verschlüsselt. Verwenden Sie oder Ihr Chatpartner zwischenzeitlich ein Programm, das nicht automatisch Ende-zu-Ende verschlüsseln kann,
 wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetz - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
 
-Wenn Sie die Ende-zu-Ende-Verschlüsselung _deaktivieren_ möchten, können Sie dies in unter _Fortgeschrittene Einstellungen_ tun.
+- Wenn Sie die Ende-zu-Ende-Verschlüsselung _deaktivieren_ möchten, können Sie dies in unter _Fortgeschrittene Einstellungen_ tun.
 Wie gesagt, standardmäßig ist sie _an_ und die Verbindung sicher, sobald dies möglich ist.
 
 ## Wir ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
 
-Doch, es findet i.d.R. eine sog. Transportverschlüsselung statt; allerdings ist diese nicht ununterbrochen und so sind die Nachrichten unverschlüsselt auf Ihrem Server
+- Doch, es findet i.d.R. eine sog. Transportverschlüsselung statt; allerdings ist diese nicht ununterbrochen und so sind die Nachrichten unverschlüsselt auf Ihrem Server
 und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation. Im Vergleich zu anderen Messengern, ist selbst dieser Status vorzuziehen, da zumindest keine
 massenhaften Metadaten bei einem Anbieter auflaufen.
+
+## Wie kann ich die Verschlüsselung überprüfen?
+
+- Wählen Sie im Profil des Chatpartners die Option "Verschlüsselung":
+
+- bei einer Ende-zu-Ende-Verschlüsselung werden hier zwei Fingerabdrücke angezeigt; vergleichen Sie diese mit der Anzeige auf dem Gerät des Partners über einen anderen Kanal (persönliches Treffen, Telefon, ...)
+
+- bei einer Transportverschlüsselung wir dieser Status hier angezeigt.
 
 
 # Mehrere Geräte verwenden {#multiclient}
