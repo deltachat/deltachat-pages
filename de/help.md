@@ -138,7 +138,7 @@ layout: default-de
 
 - Nichts.
 
-- Delta Chat - und andere Autocrypt-kompatible E-Mail-Programme tauschen die Schlüssel selbstständig mit den ersten versendeten Nachrichten aus.
+- Delta Chat (und andere Autocrypt-kompatible E-Mail-Programme) tauschen die Schlüssel selbstständig mit den ersten versendeten Nachrichten aus.
 Danach ist die Verbindung Ende-zu-Ende-verschlüsselt. Verwenden Sie oder Ihr Chatpartner zwischenzeitlich ein Programm, das nicht automatisch Ende-zu-Ende verschlüsseln kann,
 wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetz - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
 
@@ -148,8 +148,8 @@ Wie gesagt, standardmäßig ist sie _an_ und die Verbindung sicher, sobald dies 
 ## Wir ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
 
 - Doch, es findet i.d.R. eine sog. Transportverschlüsselung statt; allerdings ist diese nicht ununterbrochen und so sind die Nachrichten unverschlüsselt auf Ihrem Server
-und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation. Im Vergleich zu anderen Messengern, ist selbst dieser Status vorzuziehen, da zumindest keine
-massenhaften Metadaten bei einem Anbieter auflaufen.
+und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation.  
+Im Vergleich zu vielen anderen Messengern, ist selbst dieser Status vorzuziehen, da zumindest keine massenhaften Metadaten bei einem Anbieter auflaufen.
 
 ## Wie kann ich die Verschlüsselung überprüfen?
 
