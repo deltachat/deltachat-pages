@@ -127,6 +127,30 @@ layout: default-de
 
 
 
+# Verschlüsselung
+
+## Gibt es eine Ende-zu-Ende-Verschlüsseung?
+
+Ja.
+
+## Was muss ich tun, um sie zu aktivieren?
+
+Nichts.
+
+Delta Chat - und andere Autocrypt-kompatible E-Mail-Programme tauschen die Schlüssel selbstständig mit den ersten versendeten Nachrichten aus.
+Danach ist die Verbindung Ende-zu-Ende-verschlüsselt. Verwenden Sie oder Ihr Chatpartner zwischenzeitlich ein Programm, das nicht automatisch Ende-zu-Ende verschlüsseln kann,
+wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetz - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
+
+Wenn Sie die Ende-zu-Ende-Verschlüsselung _deaktivieren_ möchten, können Sie dies in unter _Fortgeschrittene Einstellungen_ tun.
+Wie gesagt, standardmäßig ist sie _an_ und die Verbindung sicher, sobald dies möglich ist.
+
+## Wir ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
+
+Doch, es findet i.d.R. eine sog. Transportverschlüsselung statt; allerdings ist diese nicht ununterbrochen und so sind die Nachrichten unverschlüsselt auf Ihrem Server
+und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation. Im Vergleich zu anderen Messengern, ist selbst dieser Status vorzuziehen, da zumindest keine
+massenhaften Metadaten bei einem Anbieter auflaufen.
+
+
 # Mehrere Geräte verwenden {#multiclient}
 
 ## Kann ich Delta Chat auf mehreren Geräten gleichzeitig verwenden?
@@ -134,7 +158,7 @@ layout: default-de
 - Ja.  Wenn Sie **verschiedene Konten** verwenden, gibt es dabei gar nichts zu beachten. 
 - Wenn Sie auf **dasselbe Konto** von verschiedenen Geräten zugreifen möchten (Multi-Client), müssen Sie den für die Verschlüsselung notwendigen **privaten Schlüssel übertragen:**
 
-    - Auf dem zuerst eingerichteten Gerät muss mindestenst eine Nachricht gesendet worden sein, damit der private Schlüssel generiert wurde.
+    - Auf dem zuerst eingerichteten Gerät muss mindestenst eine Nachricht gesendet worden sein, damit der private Schlüssel generiert wurde (nicht meht norwending ab Version 0.9.1)
     - Wählen Sie dann _Einstellungen / Menü oben rechts / Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Exportieren nach "Downloads"_ 
     - Kopieren Sie den Schlüssel lokal via USB von Download-Verzeichnis des ersten Geräts in das Download-Verzeichnis des Zielgeräts. 
     - Auf dem Zielgerät wählen Sie dann _Importieren aus "Downloads"_
