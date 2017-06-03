@@ -134,7 +134,7 @@ layout: default-de
 
 - Ja.
 
-## Was muss ich tun, um sie zu aktivieren?
+## Was muss ich tun, um die Ende-zu-Ende-Verschlüsseung zu aktivieren?
 
 - Nichts.
 
@@ -153,24 +153,29 @@ Im Vergleich zu vielen anderen Messengern, ist selbst dieser Status vorzuziehen,
 
 ## Wie kann ich die Verschlüsselung überprüfen?
 
-- Wählen Sie im Profil des Chatpartners die Option "Verschlüsselung":
+Wählen Sie im Profil des Chatpartners die Option "Verschlüsselung":
 
 - bei einer Ende-zu-Ende-Verschlüsselung werden hier zwei Fingerabdrücke angezeigt; vergleichen Sie diese mit der Anzeige auf dem Gerät des Partners über einen anderen Kanal (persönliches Treffen, Telefon, ...)
 
 - bei einer Transportverschlüsselung wir dieser Status hier angezeigt.
+
+Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat is Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/r10s/deltachat-core).
+
+## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
+
+- OpenPGP.  Der Schlüsselaustasch findet automatisch über den Autocrypt-Standard statt.  Wenn Sie einen bestehenden privaten Schlüssel weiterverwenden möchten, können Sie diesen unter "Erweiterte Einstellungen / Schlüssel verwalten" importieren.
 
 
 # Mehrere Geräte verwenden {#multiclient}
 
 ## Kann ich Delta Chat auf mehreren Geräten gleichzeitig verwenden?
 
-- Ja.  Wenn Sie **verschiedene Konten** verwenden, gibt es dabei gar nichts zu beachten. 
-- Wenn Sie auf **dasselbe Konto** von verschiedenen Geräten zugreifen möchten (Multi-Client), müssen Sie den für die Verschlüsselung notwendigen **privaten Schlüssel übertragen:**
+- Ja. Wenn Sie auf **dasselbe Konto** von verschiedenen Geräten zugreifen möchten (Multi-Client), müssen Sie den für die Verschlüsselung notwendigen **privaten Schlüssel übertragen:**
 
     - Auf dem zuerst eingerichteten Gerät muss mindestenst eine Nachricht gesendet worden sein, damit der private Schlüssel generiert wurde (nicht meht norwending ab Version 0.9.1)
-    - Wählen Sie dann _Einstellungen / Menü oben rechts / Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Exportieren nach "Downloads"_ 
+    - Wählen Sie dann "Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Exportieren nach Downloads" 
     - Kopieren Sie den Schlüssel lokal via USB von Download-Verzeichnis des ersten Geräts in das Download-Verzeichnis des Zielgeräts. 
-    - Auf dem Zielgerät wählen Sie dann _Importieren aus "Downloads"_
+    - Auf dem Zielgerät wählen Sie dann "Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Importieren aus Downloads"
 
 - Für die Standardanwendung von Delta Chat - _ein_ Endgerät pro Konto, ähnlich wie bei den meisten anderen Messengern - ist all dies nicht notwendig.
 
@@ -181,7 +186,9 @@ Im Vergleich zu vielen anderen Messengern, ist selbst dieser Status vorzuziehen,
 
 - Ja. Sie können sogar auf demselben Gerät verschiedene Clients verwenden.
 
+## Wo finde ich die "Fortgeschrittenen Einstellungen"?
 
+- Im Einstellungsdialog oben rechts auf das Menüsymbol drücken.
 
 
 
