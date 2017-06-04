@@ -134,10 +134,6 @@ OpenPGP. Key transport is done via Autocrypt. You can also use your existing pri
 
 - NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. Maybe we can improve this, but we would need more [support](support) on this issue.
 
-## Where do I find the "Advanced settings"
-
-- in the settings dialog, touch the menu-icon in the upper right corner.
-
 
 # Login Issues
 

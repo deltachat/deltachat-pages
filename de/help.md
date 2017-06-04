@@ -186,9 +186,7 @@ Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen 
 
 - Ja. Sie können sogar auf demselben Gerät verschiedene Clients verwenden.
 
-## Wo finde ich die "Fortgeschrittenen Einstellungen"?
 
-- Im Einstellungsdialog oben rechts auf das Menüsymbol drücken.
 
 
 
