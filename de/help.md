@@ -172,8 +172,7 @@ Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen 
 
 - Ja. Wenn Sie auf **dasselbe Konto** von verschiedenen Geräten zugreifen möchten (Multi-Client), müssen Sie den für die Verschlüsselung notwendigen **privaten Schlüssel übertragen:**
 
-    - Auf dem zuerst eingerichteten Gerät muss mindestenst eine Nachricht gesendet worden sein, damit der private Schlüssel generiert wurde (nicht meht norwending ab Version 0.9.1)
-    - Wählen Sie dann "Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Exportieren nach Downloads" 
+    - Wählen Sie auf dem ersten Gerät "Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Exportieren nach Downloads"
     - Kopieren Sie den Schlüssel lokal via USB von Download-Verzeichnis des ersten Geräts in das Download-Verzeichnis des Zielgeräts. 
     - Auf dem Zielgerät wählen Sie dann "Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Importieren aus Downloads"
 
