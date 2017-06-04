@@ -8,7 +8,7 @@ by our translators.
 NB: Delta Chat is currently available in English, French, German, Hungarian, Italian, Korean, 
 Netherlands, Polish, Portuguese, Russian and Spanish.
 
-**If your language us missing,** you're welcome to [add an translation](support#translations). 
+**If your language us missing,** you're welcome to [add an translation](https://delta.chat/en/support#translations). 
 Moreover, Italian, Korean and Netherlands lacks active maintainers. Of course, any help on the other languages is also welcome.
 
 Back to the app: v0.9.1 comes with the following changes:
