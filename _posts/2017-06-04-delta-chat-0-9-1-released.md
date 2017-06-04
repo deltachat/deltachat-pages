@@ -18,6 +18,8 @@ Back to the app: v0.9.1 comes with the following changes:
 * Make "Encrytion" dialog localizable
 * Update Russian translation
 
+We've also added some details about the new end-to-end-encryption to the [help](https://delta.chat/en/help#encryption).
+
 As usual, the update will be available in F-Droid the next days.
 
 Little roadmap to version 1.0: Add a backup functionality, fix bux (if any ;-) go to Google Play.
