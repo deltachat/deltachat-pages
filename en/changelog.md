@@ -5,6 +5,14 @@ layout: default
 
 # Delta Chat Changelog
 
+## v0.9.1
+2017-06-04
+
+* Profile: Improve encryption state dialog
+* Improved video quality of short clips
+* Make "Encrytion" dialog localizable
+* Update Russian translation
+
 ## v0.9.0
 2017-06-01
 
