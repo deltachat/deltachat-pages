@@ -117,7 +117,11 @@ on the device of your chat partner, the connection is safe.
 
 ## Which standards are used for end-to-end-encryption.
 
-OpenPGP. Key transport is done via Autocrypt. You can also use your existing private key by importing them at "Advanced settings / Manage private keys"
+OpenPGP. Key transport is done via Autocrypt. 
+
+## Can I re-use by existing private key?
+
+- Yes. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
 
 # Multi-client {#multiclient}

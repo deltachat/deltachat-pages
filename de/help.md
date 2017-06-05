@@ -163,7 +163,13 @@ Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen 
 
 ## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
 
-- OpenPGP.  Der Schlüsselaustasch findet automatisch über den Autocrypt-Standard statt.  Wenn Sie einen bestehenden privaten Schlüssel weiterverwenden möchten, können Sie diesen unter "Erweiterte Einstellungen / Schlüssel verwalten" importieren.
+- OpenPGP.  Der Schlüsselaustasch findet automatisch über den Autocrypt-Standard statt.
+
+## Kann ich meinen bestehenden privaten Schlüssel weiterverwenden?
+
+- Ja. Versuchen Sie ihn unter "Erweiterte Einstellungen / Schlüssel verwalten" zu importieren.
+Achtung: Der private Schlüssel darf nicht mit einem Passwort geschützt sein, entfernen Sie dieses bei Bedarf zuvor.
+
 
 
 # Mehrere Geräte verwenden {#multiclient}
