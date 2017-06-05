@@ -170,6 +170,7 @@ Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen 
 - Ja. Versuchen Sie ihn unter "Erweiterte Einstellungen / Schlüssel verwalten" zu importieren.
 Achtung: Der private Schlüssel darf nicht mit einem Passwort geschützt sein, entfernen Sie dieses bei Bedarf zuvor.
 
+Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie; Sie müssen sich darum nicht kümmern.
 
 
 # Mehrere Geräte verwenden {#multiclient}

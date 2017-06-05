@@ -117,11 +117,13 @@ on the device of your chat partner, the connection is safe.
 
 ## Which standards are used for end-to-end-encryption.
 
-OpenPGP. Key transport is done via Autocrypt. 
+OpenPGP. Key transport is done via Autocrypt. - 
 
 ## Can I re-use by existing private key?
 
 - Yes. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you have to do nothing.
 
 
 # Multi-client {#multiclient}
