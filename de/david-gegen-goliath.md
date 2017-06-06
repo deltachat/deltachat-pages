@@ -13,7 +13,7 @@ Unglaublich, aber es gab einfach keine **alltagstaugliche Alternative**! Als Pro
 
 Der Sprung von der Beta- zur Release-Version ist für April 2017 geplant, zur "re:publica", der Berliner Messe für innovatives Kommunizieren- Hier soll offizieller Starttermin für "Delta Chat" sein (geplant). Es ist ein **Messenger in Bürgerhand**, also Open Source.  Und jeder ist eingeladen mitzumachen. Damit es wirklich die Alternative in Bürgerhand zu WhatsApp und Co geben kann.
 
-Warum das **nötig** ist, das wissen Viele längst - nicht nur die mit ihrem klammheimlichen Unbehagen. Denn das reicht bei Weitem nicht. Es muss auch etwas Handfestes geben und es sollte auch Spaß bringen, David gegen Goliath. Auch mal ein bisschen David sein. Nicht sagen: "Kannste doch nix machen!" Quatsch! Mitmachen!
+Warum das **nötig** ist, das wissen Viele längst - nicht nur die mit ihrem klammheimlichen Unbehagen. Denn das reicht bei Weitem nicht. Es muss auch etwas Handfestes geben und es sollte auch Spaß bringen, David gegen Goliath. Auch mal ein bisschen David sein. Nicht sagen: "Kannste doch nix machen!" **Quatsch! Mitmachen!**
 
 **Das sind die Entwicklungs-Anforderungen:**
 - Keine Abhängigkeiten von fremden Zentral-Servern - kostenlos - OpenSource - Multi-Client-fähig - Ende zu Ende verschlüsselt -  archivierbare, nachvollziehbare geschäftliche Kommunikation. 
