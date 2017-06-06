@@ -138,7 +138,7 @@ layout: default-de
 
 - Nichts.
 
-- Delta Chat (und andere Autocrypt-kompatible E-Mail-Programme) tauschen die Schlüssel selbstständig mit den ersten versendeten Nachrichten aus.
+- Delta Chat (und andere Autocrypt-kompatible E-Mail-Programme) tauschen die Schlüssel selbständig mit den ersten versendeten Nachrichten aus.
 Danach ist die Verbindung Ende-zu-Ende-verschlüsselt. Verwenden Sie oder Ihr Chatpartner zwischenzeitlich ein Programm, das nicht automatisch Ende-zu-Ende verschlüsseln kann,
 wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetz - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
 
