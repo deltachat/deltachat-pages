@@ -27,7 +27,7 @@ layout: default
 </div>
 
 <div>
-   <img src="../assets/intro4.png" alt="" />
+   <img src="../assets/home/intro4.png" alt="" />
    <h1>Powerful</h1>
    <p><b>Unlimited</b> chats, images, videos, audio messages and more. Multi-client capable.</p>
 </div>
