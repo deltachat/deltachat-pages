@@ -1,16 +1,16 @@
 ---
-title: Download
-layout: default
+title: Descargar e instalar
+layout: default-es
 ---
 
-# Download Delta Chat
+# Descargar e instalar Delta Chat
 
-**Currently, Delta Chat is under active development** - and you can help us making it stable.
+**Actualmente Delta Chat está en activo y rápido desarrollo**, y usted puede ayudarnos a hacerlo más estable.
 
-You can download the current beta-version from one of the following sources. You are advised to make a back-up of your data before usage.
+Puede descargar la versión beta desde los siguientes medios. Le recomendamos hacer un backup previamente.
 
-* [Download via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
-* [Download **.apk-installation file**](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
-* [View Changelog](changelog)
+* [Descargar via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
+* [Descargar archivo instalador **.apk**](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
+* [Ver historial de cambios](changelog)
 
-Google Play, iOS, Mac, Windows, Coming soon - see [here](support) about how you can support us.
+Google Play, iOS, Mac, Windows, estarán pronto disponibles - vea [aquí](support) para saber cómo ayudarnos.
