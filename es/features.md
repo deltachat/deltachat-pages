@@ -1,32 +1,30 @@
 ---
-title: Why Delta Chat? Your Advantages.
-layout: default
+title: Por qué Delta Chat? Tus ventajas.
+layout: default-es
 ---
 
-# Why Delta Chat? Your Advantages.
+# Por qué Delta Chat? Tus ventajas.
 
-**Delta Chat** is a project that aims to create a messaging app that is
-completely **compatible** to the existing email-infrastructure.
+**Delta Chat** espira a crear un sistema de mensajería que sea
+completamente **compatible** con la actual infraestructura de correo electrónico.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-So, with Delta Chat you get the **ease** of well-known messengers with the
-**reach** of email. Moreover, you're **independent** from other companies or
-services - as your data are not related to Delta Chat, you won't even add new
-dependencies here.
+Así, con Delta Chat usted tiene la misma **facilidad** de los mensajeros más conocidos y a la vez
+el **alcance y distribución** del correo electrónico. Asimismo, usted será **independiente** de otras compañías y servicios de terceros - inclusivo será completamente independiente de Delta Chat, de modo que tampoco tendrá una dependencia nueva aquí.
 
-Some features at a glance
+Algunas de las principales características:
 
-- **Fast** by the use of Push-IMAP
-- **Largest userbase** - receivers _not_ using Delta Chat can be reached as well
-- **Compatible** - not only to itself
-- **Elegant** and **simple** user interface
-- **Distributed** system
-- **No Spam** - only messages of known users are shown by default
-- **Reliable** - safe for professional use
-- **Trustworthy** - can even be used for business messages
-- fully **open source** and **standards** based
+- **Rápido** gracias al protocolo estándar Push-IMAP
+- **La mayor cantidad de usuarios existente** - los destinatarios que _no_ usan Delta Chat igualmente recibiran sus mensajes
+- **Compatible** - no envia mensajes solo a Delta Chat mismo, sino a cualquier destinatario
+- **Elegante** y **simple** interfaz de uso
+- **Distribuido** como los es el correo electrónico sobre el cuál se basa
+- **Sin Spam** - por defecto solo muestra los mensajes de sus contactos conocidos
+- **Fehaciente y seguro** - incluso para uso profesional, como cualquier otro correo electrónico
+- **Confiable** - incluso para mensajes confidenciales y de negocios
+- completamente **open source / software libre** y basado en **estándares**
 
-# Learn more
+# Conozca más
 
-- [Delta makes chatting better](delta-makes-chatting-better)
+- [Delta perfecciona la mensajería instantánea](delta-makes-chatting-better)
