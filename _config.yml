@@ -21,3 +21,5 @@ url:          https://delta.chat
 # add plugins
 gems:
   - jekyll-sitemap
+
+theme: jekyll-theme-minimal
