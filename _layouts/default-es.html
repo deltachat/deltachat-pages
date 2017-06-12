@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<title>{{ page.title }} - Delta Chat</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta name="description" content="Delta Chat - Mensajeria instantanea basada en Correo Electronico" />
+<meta name="keywords" content="delta chat, email messaging app, download delta chat" />
+<link rel="stylesheet" href="../layout/base.css" type="text/css" />
+<link rel="alternate" href="https://delta.chat/feed.xml" type="application/atom+xml" title="Novedades en Delta Chat" />
+</head>
+
+<body id="top">
+
+<div id="menu">
+<ul>
+<li><a href="../es/">Inicio</a></li>
+<li><a href="features">Por qué?</a></li>
+<li><a href="download">Descargar</a></li>
+<li><a href="support">Soporte</a></li>
+<!-- <li><a href="for-business"><span class="desktoponly">Para </span>Empresas</a></li> -->
+<li><a href="blog">Blog</a></li>
+<li><a href="help">Preguntas</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+
+{% if page.is_post == true %}
+<h1>{{ page.title }}</h1>
+<p class="blogdate">{{ page.date | date: "%B %d, %Y" }}</p>
+{% endif %}
+
+
+{{ content }}
+
+
+{% if page.is_post == true %}
+<p class="menulike">
+{% if page.previous.url %}
+<a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> &middot;
+{% endif %}
+<a href="blog">Index</a>
+{% if page.next.url %}
+&middot; <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+{% endif %}
+</p>
+<p class="menulike"><a href="../feed.xml" class="feed">Subscribe to our feed</a></p>
+{% endif %}
+
+
+</div>
+
+<div id="footer">
+<p>
+© 2017 Delta Chat contributors &ndash; <a href="imprint">Imprint</a> 
+&ndash; <span class="desktoponly">Language:</span> 
+<a href="../en/">En</a> 
+<a href="https://jaworski-pawel.github.io/Delta/">Pl</a>
+<a href="../es/">En</a> 
+<a href="../de/">De</a> 
+</p>
+</div>
+
+</body>
+
+</html>
