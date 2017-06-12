@@ -5,7 +5,7 @@ layout: default-es
 
 # Por qué Delta Chat? Tus ventajas.
 
-**Delta Chat** espira a crear un sistema de mensajería que sea
+**Delta Chat** tiene por objetivo crear un sistema de mensajería que sea
 completamente **compatible** con la actual infraestructura de correo electrónico.
 
 ![Screenshot](../assets/features/start-img4.png)
