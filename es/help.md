@@ -1,6 +1,6 @@
 ---
 title: Ayuda
-layout: default-
+layout: default-es
 ---
 
 # Preguntas frecuentes
