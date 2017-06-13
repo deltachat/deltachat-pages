@@ -22,4 +22,3 @@ url:          https://delta.chat
 gems:
   - jekyll-sitemap
 
-theme: jekyll-theme-minimal
