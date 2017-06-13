@@ -14,7 +14,7 @@ var lang = window.navigator.languages ? window.navigator.languages[0] : null;
 if (lang.indexOf('-') !== -1) { lang = lang.split('-')[0]; }
 if (lang.indexOf('_') !== -1) { lang = lang.split('_')[0]; }
 var redirectUrl = 'en/';
-if( lang == 'de' ) {
+if( lang == 'de' || lang == 'es' ) {
 	redirectUrl = lang + "/";
 }
 window.location = redirectUrl;
