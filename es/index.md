@@ -17,7 +17,7 @@ layout: default-es
 <div>
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Independiente</h1>
-   <p><b>No depende</b> no depende de computadoras o servicios agenos. La aplicación utiliza solo tu servidor de correo electrónico.</p>
+   <p><b>No depende</b> no depende de computadoras o servicios ajenos. Utiliza solo tu servidor de correo electrónico.</p>
 </div>
 
 <div>
@@ -35,13 +35,13 @@ layout: default-es
 <div>
    <img src="../assets/home/intro5.png" alt="" />
    <h1>Libre</h1>
-   <p><b>Delta Chat</b> es libre y gratis, para siempre.<br/>Código libre. Sin publicidad. Sin suscripción. Sin trabas de ningún vendedor.</p>
+   <p><b>Delta Chat</b> es libre y gratis, para siempre.<br/>Código libre. Sin publicidad. Sin suscripción. Sin limitaciones de otras empresas.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro6.png" alt="" />
    <h1>Seguro</h1>
-   <p><b>Encriptado</b> con todos los métodos actuales. Los mensajes permanecen solo en tu servidor de correo.</p>
+   <p><b>Encriptado</b> con todos los métodos actuales. Los mensajes se guardan solo en tu servidor de correo.</p>
 </div>
 
 <div>
@@ -63,7 +63,7 @@ layout: default-es
     <li class="itemLinks" data-pos="6"></li>
   </ul>
 </div>
-<h2 style="font-size:16px"><i>“Devolvamos al Correo Electrónico todo su poder!”</i></h2>
+<h2 style="font-size:16px"><i>“¡Devolvamos su esplendor al Correo Electrónico!”</i></h2>
 <script src="../layout/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 
