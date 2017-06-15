@@ -159,7 +159,7 @@ Wählen Sie im Profil des Chatpartners die Option "Verschlüsselung":
 
 - bei einer Transportverschlüsselung wir dieser Status hier angezeigt.
 
-Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat is Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/r10s/deltachat-core).
+Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat is Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/deltachat/deltachat-core).
 
 ## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
 

@@ -23,9 +23,9 @@ Helfen Sie, das Projekt zu **lokalisieren** - am besten mit [Android Studio](htt
 
 # Entwickler
 
-Natürlich kann Delta Chat auch zusätzliche **Open-Source-Entwickler,** gebrauchen - C, Java, Android, iOS, Windows, Linux und Mac Know-how ist gefragt. Natürlich nicht unbedingt alles zugleich :-) Bearbeiten Sie einfach Ihren [Delta Chat Fork](https://github.com/r10s/deltachat-android/) und senden einen Pull Request.
+Natürlich kann Delta Chat auch zusätzliche **Open-Source-Entwickler,** gebrauchen - C, Java, Android, iOS, Windows, Linux und Mac Know-how ist gefragt. Natürlich nicht unbedingt alles zugleich :-) Bearbeiten Sie einfach Ihren [Delta Chat Fork](https://github.com/deltachat/deltachat-android/) und senden einen Pull Request.
 
-Dasselbe gilt für diese **Webseite** - egal ob großartige Idee oder kleine Verbesserung: Sie können die Seite einfach [hier](https://github.com/r10s/deltachat-pages/) bearbeiten.
+Dasselbe gilt für diese **Webseite** - egal ob großartige Idee oder kleine Verbesserung: Sie können die Seite einfach [hier](https://github.com/deltachat/deltachat-pages/) bearbeiten.
 
 # Empfehlen Sie Delta Chat ...
 
@@ -36,6 +36,6 @@ Dasselbe gilt für diese **Webseite** - egal ob großartige Idee oder kleine Ver
 
 Fehler können mit einer möglichst genauen Beschreibung in den passenden **Issue Tracker** eingetragen werden; auch ein Bild ist oft hilfreich.
 
-- [Android](https://github.com/r10s/messenger-android/issues) 
-- [Systemunabhängiges](https://github.com/r10s/messenger-backend/issues)
+- [Android](https://github.com/deltachat/deltachat-android/issues)
+- [Systemunabhängiges](https://github.com/deltachat/deltachat-core/issues)
 
