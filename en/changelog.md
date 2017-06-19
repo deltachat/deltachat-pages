@@ -10,7 +10,7 @@ layout: default
 
 * Profile: Improve encryption state dialog
 * Improved video quality of short clips
-* Make "Encrytion" dialog localizable
+* Make encryption-dialog localizable
 * Update Russian translation
 
 ## v0.9.0
