@@ -13,4 +13,4 @@ You can download the current beta-version from one of the following sources. You
 * [Download **.apk-installation file**](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
 * [View Changelog](changelog)
 
-Google Play, iOS, Mac, Windows, Coming soon - see [here](support) about how you can support us.
+Google Play, iOS, Mac, Windows: see [here](support) about how you can support us.

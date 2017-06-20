@@ -17,7 +17,8 @@ layout: default
 <div>
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Independent</h1>
-   <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p>
+   <!-- <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p> -->
+   <p><b>There is no Delta Chat-server.</b><br/>The app only uses your email-server.</p>
 </div>
 
 <div>
@@ -63,7 +64,6 @@ layout: default
     <li class="itemLinks" data-pos="6"></li>
   </ul>
 </div>
-<h2 style="font-size:16px"><i>“Make Email Great Again!”</i></h2>
 <script src="../layout/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 

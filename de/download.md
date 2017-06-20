@@ -13,5 +13,5 @@ Bei der Verwendung des Programms mit "echten" Daten raten wir dringend zu einem 
 * [**.apk-Installationsdatei** herunterladen](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
 * [Letzte Änderungen anzeigen](../en/changelog)
 
-Google Play? iOS? Mac? Windows? Kommt - dauert aber noch einen Moment. Wie Sie uns dabei unterstützen können, finden Sie unter [Support](support).
+Google Play? iOS? Mac? Windows? Wie Sie uns dabei unterstützen können, finden Sie unter [Support](support).
 

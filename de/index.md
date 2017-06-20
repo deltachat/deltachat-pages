@@ -17,7 +17,8 @@ layout: default-de
 <div>
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Unabhängig</h1>
-   <p><b>Keine Abhängigkeiten</b> von Konzernen und fremden Servern. Die App verwendet nur den E-Mail-Server Ihrer Wahl.</p>
+   <!-- <p><b>Keine Abhängigkeiten</b> von Konzernen und fremden Servern. Die App verwendet nur den E-Mail-Server Ihrer Wahl.</p> -->
+   <p><b>Es gibt keinen Delta Chat-Server:</b> Zur Kommunikation wird aussschließlich Ihr E-Mail-Server verwendet.</p>
 </div>
 
 <div>
@@ -67,8 +68,8 @@ layout: default-de
 <!-- END OF CONTENT SLIDER -->
 
 [<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
-[<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" />](download)
-[<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" />](download)
+<!-- [<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" />](download) -->
+<!-- [<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" />](download) -->
 
 [.apk, Mac, Windows und weitere Quellen](download)
 

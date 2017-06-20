@@ -22,7 +22,7 @@ Help to translate Delta Chat in your language using [Android Studio](https://dev
 
 # Developers
 
-Of course, open source developers are very welcome! Just make your improvements to your [Delta Chat fork](https://github.com/deltachat/deltachat-android) and send a pull request.
+Of course, open source developers are very welcome! Just make your improvements to your [Delta Chat fork](https://github.com/deltachat/) and send a pull request.
 
 Do you have great ideas or little improvements for this **website?** Just [edit it here](https://github.com/deltachat/deltachat-pages) and send a pull request.
 

@@ -17,6 +17,7 @@ dependencies here.
 
 Some features at a glance
 
+- **There is no Delta Chat-server:** The app only uses your email-server.
 - **Fast** by the use of Push-IMAP
 - **Largest userbase** - receivers _not_ using Delta Chat can be reached as well
 - **Compatible** - not only to itself
