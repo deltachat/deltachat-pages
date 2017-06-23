@@ -31,7 +31,7 @@ Doch der **Hauptvorteil** ist unsichtbar: Wer Delta Chat auf sein Handy lädt mu
 
 Viele **Gründe** sprechen für Delta Chat. Es bringt Spaß, so mit Freunden so zu chatten, darum geht es, klar! Es ist datenschützerisch sauber, im Alltag leider kein spürbarer Vorteil. Es bringt Spaß mitzumachen, David gegen Goliath. Auch mal ein bisschen David sein. Will Dich künftig jemand überreden bei WhatsApp mitzumachen, dann antworte einfach: “Delta Chat”. 
 
-**Was fehlt** (noch)? Delta Chat läuft unter Android. Die Versionen für Apple, Blackberry, etc. benötigen noch Unterstützer. Gleiches gilt für den Einbau der "Ende zu Ende"-Verschlüsselung. Und jede Menge Spielkram - da wird es wohl nie ein "Fertig" geben.  
+**Was fehlt** (noch)? Delta Chat läuft unter Android. Die Versionen für Apple, Windows etc. benötigen noch Unterstützer. Gleiches gilt für neue Features.  Und jede Menge Spielkram - da wird es wohl nie ein "Fertig" geben.  
 
 
 ## Weitere Details
