@@ -47,9 +47,22 @@ layout: default-de
 - Der Empfänger erhält dann eine normale E-Mail, auf die er auch antworten kann.
   Seine Antwort erscheint dann wie gewohnt im Delta Chat Messenger
 
+
+## Welche Nachrichten erscheinen in Delta Chat?
+
+In Delta Chat erscheinen automatisch nur Nachrichten ...
+- von Kontakten aus Ihrem **Addressbuch**
+- von Kontakten, die Sie **selbst kontaktiert** haben
+- von bekannten **Kontakten Ihrer Kontakte**
+
+Alle anderen Nachrichten werden _nicht_ automatisch angezeigt.  Über den Menüpunkt
+**Kontaktanfragen** können Sie sich aber eine Übersicht der
+weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
+
 ## Was ist mit Spam?
 
-- Sie werden in Delta Chat keine unerwünschten Nachrichten sehen, _Sie_ entscheiden mit wem Sie kommunizieren wollen.
+- Da Nachrichten von komplett unbekannten Absendern nicht direkt angezeigt werden, werden Sie in Delta Chat der Regel **keinen Spam** sehen.
+- Bei Bedarf können Sie unerwünschte Kontakte aber jederzeit **blockieren**.
 
 ## Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
 
@@ -163,7 +176,7 @@ Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen 
 
 ## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
 
-- OpenPGP.  Der Schlüsselaustasch findet automatisch über den Autocrypt-Standard statt.
+- OpenPGP.  Der Schlüsselaustausch findet automatisch über den Autocrypt-Standard statt.
 
 ## Kann ich meinen bestehenden privaten Schlüssel weiterverwenden?
 

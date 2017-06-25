@@ -44,6 +44,24 @@ layout: default
   see the reply in the Delta Chat app.
 
 
+## Which messages do appear in Delta Chat?
+
+Delta Chat automatically shows messages ...
+
+- from contacts in you **address book**
+- from contacts **contacted by you**
+- from known **contacts of your contacts**
+
+Other messages do not appear automatically. You can see the other messages the the
+main menu at **Contact requests** and, if desired, start a chat from there.
+
+## What about Spam?
+
+- As messages from completely unknown contacts do not pop up automatically, normally, there's **no spam**.
+- However, if really needed, you can **block** any contact.
+
+
+
 ## Does Delta Chat support images, videos and other attachments?
 
 - Yes. Beside the plain text, all email-attachments are displayed as separate
