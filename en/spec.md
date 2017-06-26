@@ -15,7 +15,7 @@ email messages to piggyback the needed information while staying compatible to e
     - [Outgoing group messages](#outgoing-group-messages)
     - [Incoming group messages](#incoming-group-messages)
     - [Add and remove members](#add-and-remove-members)
-- [Miscellaneous](#misc)
+- [Miscellaneous](#miscellaneous)
 - [Encryption](#encryption)
 - [Old header names](#old-header-names)
 
@@ -114,7 +114,7 @@ To remove a member:
     Hello, I've removed member4@domain from our group.  Now we have 3 members.
 
 
-# Miscellaneous {#misc}
+# Miscellaneous
 
 Messengers SHOULD use the header `Chat-Predecessor` instead of `In-Reply-To` as
 the latter one results in infinite threads on typical MUAs.
