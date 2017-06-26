@@ -196,7 +196,7 @@ and the message SHOULD appear as a message or action from the sender.
     /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBw ...
     --==break==--
 
-The image format SHOULD be image/jpeg or image/png.
+The image format SHOULD be image/jpeg or image/png. To save data, if is RECOMMENDED to add a `Chat-Group-Image` only on image changes.
 
 
 # Set profile image
@@ -231,7 +231,7 @@ The messenger SHOULD NOT send an explicit mail to normal MUAs.
     --==break==--
 
 The image format SHOULD be image/jpeg or image/png. Note that `Chat-Profile-Image` may appear together with all other headers, eg. there may be a
-`Chat-Profile-Image` and a `Chat-Group-Image` header in the same message.
+`Chat-Profile-Image` and a `Chat-Group-Image` header in the same message. To save data, if is RECOMMENDED to add a `Chat-Profile-Image` header only on image changes.
 
 
 # Miscellaneous
