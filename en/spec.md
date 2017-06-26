@@ -59,7 +59,7 @@ Groups MUST have a group-name. The group-name is any non-zero-length UTF-8 strin
 
 All group members MUST be added to the `From`/`To` headers. 
 The group-id MUST be written to the `Chat-Group-ID` header.
-The group-name MUST be written to `Chat-Group-Name` header.
+The group-name MUST be written to `Chat-Group-Name` header (the forced presence of this header makes it easier to join a group chat on a second device any time).
 
 To identifiy the group-id on replies from normal MUAs, the group-id MUST also be added to
 the message-id of outgoing messages.  The message-id MUST have the 
