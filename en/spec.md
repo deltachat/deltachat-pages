@@ -1,12 +1,12 @@
 ---
-title: Chat specification
+title: Email-chat specification
 layout: default
 ---
 
 
-# Chat specification v0.9.0
+# Email-chat specification v0.9.0
 
-This document describes how emails can be used to piggyback typical messenger information while staying compatible to existing MUAs.
+This document describes how emails can be used to implement typical messenger functions while staying compatible to existing MUAs.
 
 - [Outgoing messages](#outgoing-messages)
 - [Incoming messages](#incoming-messages)
@@ -26,8 +26,10 @@ This document describes how emails can be used to piggyback typical messenger in
 
 Messengers MUST add a `Chat-Version: 1.0` header to outgoing messages.
 For filtering and smart appearance of the messages in normal MUAs, 
-the subject SHOULD start with the characters `Chat:` and SHOULD be an excerpt of the message.
+the `Subject` header SHOULD start with the characters `Chat:` and SHOULD be an excerpt of the message.
 Note, that the subject is normally encoded using the encoded-word mechanism.
+
+Outgoing messages SHOULD be moved to the folder `Chats`.
 
     From: sender@domain
     To: rcpt@domain
@@ -41,14 +43,20 @@ Note, that the subject is normally encoded using the encoded-word mechanism.
 
 The `Chat-Version` header MAY be used to detect if a messages comes from a compatible messenger.
 
-The subject MUST NOT be used to detect compatible messengers, groups or whatever. Messenger MAY prefix the subject to the text.
-The email-body SHOULD be converted to plain text, full-quotes and similar regions SHOULD be cutted from the text.
+The `Subject` header MUST NOT be used to detect compatible messengers, groups or whatever.
+
+Messenger SHOULD show the `Subject` if the message comes from a normal MUA together with the email-body.
+The email-body SHOULD be converted to plain text, full-quotes and similar regions SHOULD be cutted.
+
+Attachments SHOULD be shown where possible.  If an attachment cannot be shown, a non-distracting warning SHOULD be printed.
+
+Incoming messages from compatible messengers SHOULD be moved to the folder `Chats`.
 
 
 # Groups
 
 Groups are chats with usually more than one recipient, each defined by an email-address.
-The sender plus the recipients of a group are the group members.
+The sender plus the recipients are the group members.
 
 To allow different groups with the same members, groups are identified by a group-id.
 The group-id MUST be created only from the characters 0-9, A-Z and a-z.
@@ -58,11 +66,13 @@ Groups MUST have a group-name. The group-name is any non-zero-length UTF-8 strin
 Groups MAY have a group-image.
 
 
-# Outgoing groups messages
+## Outgoing groups messages
 
 All group members MUST be added to the `From`/`To` headers. 
 The group-id MUST be written to the `Chat-Group-ID` header.
 The group-name MUST be written to `Chat-Group-Name` header (the forced presence of this header makes it easier to join a group chat on a second device any time).
+
+The `Subject` header of outgoing group messages SHOULD start with the characters `Chat:` followed by the group-name and a colon followed by an excerpt of the message.
 
 To identifiy the group-id on replies from normal MUAs, the group-id MUST also be added to
 the message-id of outgoing messages.  The message-id MUST have the 
@@ -78,8 +88,12 @@ format `Gr.<group-id>.<unique data>`.
     
     Hello group - this group contains three members
 
+Messengers adding the member list in the form `Name <email-address>` MUST take care only to spread the names authorized by the contacts themselves.
+Otherwise, names as _Daddy_ or _Honey_ may be spreaded (this issue is also true for normal MUAs, however, for more more contact- and chat-centralized apps
+such situations happen more frequently).
 
-# Incoming group messages
+
+## Incoming group messages
 
 The messenger MUST search incoming messgages for the group-id in the following headers: `Chat-Group-ID`,
 `Message-ID`, `In-Reply-To` and `References` (in this order).
@@ -89,7 +103,7 @@ If the messenger finds a valid but not existent group-id, the messenger MAY crea
 If no group-id is found, the message MAY be assigned to a normal single-user chat with the email-address given in `From`.
 
 
-# Add and remove members 
+## Add and remove members
 
 Messenger clients MUST construct the member list from the `From`/`To` headers only on the first group message or if they see a `Chat-Group-Member-Added` or `Chat-Group-Member-Removed` action header.
 Both headers MUST have the email-address of the added or removed member as the value.
@@ -125,7 +139,7 @@ To remove a member:
     Hello, I've removed member4@domain from our group.  Now we have 3 members.
 
 
-# Change group name
+## Change group name
 
 To change the group-name, the messenger MUST send a message with the action header `Chat-Group-Name-Changed: 1` to all group members.
 
@@ -145,7 +159,7 @@ and the message SHOULD appear as a message or action from the sender.
     Hello, I've changed the group name from "My Group" to "Our Group".
 
 
-# Set group image
+## Set group image
 
 A group MAY have a group-image. 
 To change or set the group-image, the messenger MUST attach an image file to a message and MUST add the header `Chat-Group-Image` with the
@@ -232,9 +246,10 @@ This allows the receiver to show the time without knowing the file format.
     Chat-Voice-Message: 1
     Chat-Duration: 10000
 
+
 # Encryption
 
-Messages SHOULD be encrypted by the [Autocrypt](https://autocrypt.org) standard using `prefer-encrypt=mutual` by default.
+Messages SHOULD be encrypted by the [Autocrypt](https://autocrypt.org) standard;  `prefer-encrypt=mutual` MAY be set by default.
 
 Meta data (at least the subject and all chat-headers) SHOULD be encrypted by the [Memoryhole](http://modernpgp.org/memoryhole/) standard. 
 If Memoryhole is not used, the subject of encrypted messages SHOULD be replaced by the string 
