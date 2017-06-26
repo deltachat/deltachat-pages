@@ -23,7 +23,8 @@ email messages to piggyback the needed information while staying compatible to e
 # Outgoing messages
 
 Messengers MUST add a `Chat-Version: 1.0` header to outgoing messages.
-The subject SHOULD start with the characters `Chat:` and SHOULD be an excerpt of the message.
+For filtering and smart appearance of messenger messages in normal MUAs, 
+the subject SHOULD start with the characters `Chat:` and SHOULD be an excerpt of the message.
 Note, that the subject is normally encoded using the encoded-word mechanism.
 
     From: sender@domain
@@ -50,7 +51,7 @@ The recipients of a group are the group members.
 To allow different groups with the same members, groups are identified by a group-id.
 The group-id MUST be created only from the characters 0-9, A-Z and a-z.
 
-Groups MUST have a group-name. The group-name is any non-zero UTF-8 string.
+Groups MUST have a group-name. The group-name is any non-zero-length UTF-8 string.
 
 
 # Outgoing groups messages
@@ -73,13 +74,15 @@ format `Gr.<group-id>.<unique data>`.
     
     Hello group - this group contains three members
 
+
 # Incoming group messages
 
 The messenger MUST search incoming messgages for the group-id in the following headers: `Chat-ID`,
 `Message-ID`, `In-Reply-To` and `References` (in this order).
 
-If the messagener find a valid and existant group-id, the message MUST be assigned to the given group. If not,
-the message MAY be assigned to a normal single-user chat with the email-address given in `From`.
+If the messenger find a valid and existant group-id, the message MUST be assigned to the given group. 
+If the messenger find a valid but not existatnt group-id, the messenger MAY create a new group.
+If no group-id is found, the message MAY be assigned to a normal single-user chat with the email-address given in `From`.
 
 
 # Add and remove members 
