@@ -15,6 +15,7 @@ email messages to piggyback the needed information while staying compatible to e
     - [Outgoing group messages](#outgoing-group-messages)
     - [Incoming group messages](#incoming-group-messages)
     - [Add and remove members](#add-and-remove-members)
+    - [Change group name](#change-group-name)
 - [Miscellaneous](#miscellaneous)
 - [Encryption](#encryption)
 - [Old header names](#old-header-names)
@@ -56,9 +57,9 @@ Groups MUST have a group-name. The group-name is any non-zero-length UTF-8 strin
 
 # Outgoing groups messages
 
-All group members MUST be added to the `To` or to the `From` header. 
-The group-id MUST be written to the `Chat-ID` header.
-The group-name MUST be written to `Chat-Name` header.
+All group members MUST be added to the `From`/`To` headers. 
+The group-id MUST be written to the `Chat-Group-ID` header.
+The group-name MUST be written to `Chat-Group-Name` header.
 
 To identifiy the group-id on replies from normal MUAs, the group-id MUST also be added to
 the message-id of outgoing messages.  The message-id of outgouing messages MUST have the 
@@ -67,8 +68,8 @@ format `Gr.<group-id>.<unique data>`.
     From: member1@domain.com
     To: member2@domain, member3@domain
     Chat-Version: 1.0
-    Chat-ID: 1234xyZ
-    Chat-Name: My Group
+    Chat-Group-ID: 1234xyZ
+    Chat-Group-Name: My Group
     Message-ID: Gr.1234xyZ.0001@domain
     Subject: =?utf-8?Q?Chat=3A?= My =?utf-8?Q?Group=3A?= Hello
     
@@ -77,7 +78,7 @@ format `Gr.<group-id>.<unique data>`.
 
 # Incoming group messages
 
-The messenger MUST search incoming messgages for the group-id in the following headers: `Chat-ID`,
+The messenger MUST search incoming messgages for the group-id in the following headers: `Chat-Group-ID`,
 `Message-ID`, `In-Reply-To` and `References` (in this order).
 
 If the messenger find a valid and existant group-id, the message MUST be assigned to the given group. 
@@ -87,18 +88,20 @@ If no group-id is found, the message MAY be assigned to a normal single-user cha
 
 # Add and remove members 
 
-To avoid normal MUAs changing the member list by accidentially altering the `To` header, messenger clients
-MUST reconstruct the member list from the `To` header only if they see a `Chat-Add-Member` or `Chat-Remove-Member` header.
+Messenger clients MUST construct the member list from the `From`/`To` headers only on the first group message or if they see a `Chat-Group-Member-Added` or `Chat-Group-Member-Removed` action header.
 Both headers must have the email-address of the added or removed member as the value.
+Messenger clients MUST NOT construct the member list on other group messages (this is to avoid accidentially altered To-lists in normal MUAs; the user
+does not expect adding a user to a _message_ will also add him to the _group_ "forever").
 
-The messenger SHOULD send an explicit mail for each added or removed member. The body of the message SHOULD contain a localized description and the message SHOULD
-appear as a message or action from the sender.
+The messenger SHOULD send an explicit mail for each added or removed member. 
+The body of the message SHOULD contain a localized description about what happend 
+and the message SHOULD appear as a message or action from the sender.
 
     From: member1@domain.com
     To: member2@domain, member3@domain, member4@domain
-    Chat-ID: 1234xyZ
-    Chat-Name: My Group
-    Chat-Add-Member: member4@domain
+    Chat-Group-ID: 1234xyZ
+    Chat-Group-Name: My Group
+    Chat-Group-Member-Added: member4@domain
     Message-ID: Gr.1234xyZ.0002@domain
     Subject: =?utf-8?Q?Chat=3A?= My =?utf-8?Q?Group=3A?= Hello
         
@@ -108,13 +111,32 @@ To remove a member:
 
     From: member1@domain.com
     To: member2@domain, member3@domain
-    Chat-ID: 1234xyZ
-    Chat-Name: My Group
-    Chat-Remove-Member: member4@domain
+    Chat-Group-ID: 1234xyZ
+    Chat-Group-Name: My Group
+    Chat-Group-Member-Removed: member4@domain
     Message-ID: Gr.1234xyZ.0003@domain
     Subject: =?utf-8?Q?Chat=3A?= My =?utf-8?Q?Group=3A?= Hello
         
     Hello, I've removed member4@domain from our group.  Now we have 3 members.
+
+
+# Change group name
+
+To change the group-name, the messenger MUST send a message with the action header `Chat-Group-Name-Changed: 1` to all group members.
+
+The messenger SHOULD send an explicit mail for each name change. 
+The body of the message SHOULD contain a localized description about what happend 
+and the message SHOULD appear as a message or action from the sender.
+
+    From: member1@domain.com
+    To: member2@domain, member3@domain
+    Chat-Group-ID: 1234xyZ
+    Chat-Group-Name: Our Group
+    Chat-Group-Name-Changed: 1
+    Message-ID: Gr.1234xyZ.0004@domain
+    Subject: =?utf-8?Q?Chat=3A?= Our =?utf-8?Q?Group=3A?= Hello
+    
+    Hello, I've changed the group name from "My Group" to "Our Group".
 
 
 # Miscellaneous
