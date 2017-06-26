@@ -19,7 +19,7 @@ This document describes how emails can be used to piggyback typical messenger in
 - [Set profile image](#set-profile-image)
 - [Miscellaneous](#miscellaneous)
 - [Encryption](#encryption)
-- [Old header names](#old-header-names)
+- [Old header fields](#old-header-fields)
 
 
 # Outgoing messages
@@ -241,9 +241,9 @@ If Memoryhole is not used, the subject of encrypted messages SHOULD be replaced 
 `Chat: Encrypted message` where the part after the colon may be localized.
 
 
-# Old header names
+# Old header fields
 
-Older messenger may use the header names `X-MrMsg` (instead of `Chat-Version`), `X-MrPredecessor`, `X-MrGrpId`, `X-MrGrpName`,
+Older messenger may use the header fields `X-MrMsg` (instead of `Chat-Version`), `X-MrPredecessor`, `X-MrGrpId`, `X-MrGrpName`,
 `X-MrRemoveFromGrp`, `X-MrAddToGrp`, `X-MrGrpNameChanged`, `X-MrVoiceMessage` and `X-MrDurationMs`.
 
 For outgoing messages, messenger MAY send the old names together with the new ones.
