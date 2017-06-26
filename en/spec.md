@@ -24,7 +24,7 @@ email messages to piggyback the needed information while staying compatible to e
 # Outgoing messages
 
 Messengers MUST add a `Chat-Version: 1.0` header to outgoing messages.
-For filtering and smart appearance of messenger messages in normal MUAs, 
+For filtering and smart appearance of the messages in normal MUAs, 
 the subject SHOULD start with the characters `Chat:` and SHOULD be an excerpt of the message.
 Note, that the subject is normally encoded using the encoded-word mechanism.
 
@@ -38,9 +38,9 @@ Note, that the subject is normally encoded using the encoded-word mechanism.
 
 # Incoming messages
 
-The `Chat-Version` header MAY be used to detect if a messages comes from a compatible messanger.
+The `Chat-Version` header MAY be used to detect if a messages comes from a compatible messenger.
 
-The subject MUST not be used to detect compatible messengers, groups or whatever. Messenger MAY prefix the subject to the text.
+The subject MUST NOT be used to detect compatible messengers, groups or whatever. Messenger MAY prefix the subject to the text.
 The email-body SHOULD be converted to plain text, full-quotes and similar regions SHOULD be cutted from the text.
 
 
@@ -62,7 +62,7 @@ The group-id MUST be written to the `Chat-Group-ID` header.
 The group-name MUST be written to `Chat-Group-Name` header.
 
 To identifiy the group-id on replies from normal MUAs, the group-id MUST also be added to
-the message-id of outgoing messages.  The message-id of outgouing messages MUST have the 
+the message-id of outgoing messages.  The message-id MUST have the 
 format `Gr.<group-id>.<unique data>`.
 
     From: member1@domain.com
@@ -81,8 +81,8 @@ format `Gr.<group-id>.<unique data>`.
 The messenger MUST search incoming messgages for the group-id in the following headers: `Chat-Group-ID`,
 `Message-ID`, `In-Reply-To` and `References` (in this order).
 
-If the messenger find a valid and existant group-id, the message MUST be assigned to the given group. 
-If the messenger find a valid but not existatnt group-id, the messenger MAY create a new group.
+If the messenger finds a valid and existent group-id, the message MUST be assigned to the given group. 
+If the messenger finds a valid but not existent group-id, the messenger MAY create a new group.
 If no group-id is found, the message MAY be assigned to a normal single-user chat with the email-address given in `From`.
 
 
