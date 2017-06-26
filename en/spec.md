@@ -6,8 +6,7 @@ layout: default
 
 # Chat specification v0.9.0
 
-This document describes how [Delta Chat](https://delta.chat) and compatible messenger use
-email messages to piggyback typical messenger information while staying compatible to existing MUAs.
+This document describes how emails can be used to piggyback typical messenger information while staying compatible to existing MUAs.
 
 - [Outgoing messages](#outgoing-messages)
 - [Incoming messages](#incoming-messages)
@@ -244,7 +243,7 @@ If Memoryhole is not used, the subject of encrypted messages SHOULD be replaced 
 
 # Old header names
 
-Older versions of Delta Chat use the header names `X-MrMsg` (instead of `Chat-Version`), `X-MrPredecessor`, `X-MrGrpId`, `X-MrGrpName`,
+Older messenger may use the header names `X-MrMsg` (instead of `Chat-Version`), `X-MrPredecessor`, `X-MrGrpId`, `X-MrGrpName`,
 `X-MrRemoveFromGrp`, `X-MrAddToGrp`, `X-MrGrpNameChanged`, `X-MrVoiceMessage` and `X-MrDurationMs`.
 
 For outgoing messages, messenger MAY send the old names together with the new ones.
