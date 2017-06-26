@@ -16,6 +16,8 @@ email messages to piggyback the needed information while staying compatible to e
     - [Incoming group messages](#incoming-group-messages)
     - [Add and remove members](#add-and-remove-members)
     - [Change group name](#change-group-name)
+    - [Set group image](#set-group-image)
+- [Set profile image](#set-profile-image)
 - [Miscellaneous](#miscellaneous)
 - [Encryption](#encryption)
 - [Old header names](#old-header-names)
@@ -46,13 +48,15 @@ The email-body SHOULD be converted to plain text, full-quotes and similar region
 
 # Groups
 
-Groups are chats with more than one recipient, each defined by an email-address.
-The recipients of a group are the group members.
+Groups are chats with usually more than one recipient, each defined by an email-address.
+The sender plus the recipients of a group are the group members.
 
 To allow different groups with the same members, groups are identified by a group-id.
 The group-id MUST be created only from the characters 0-9, A-Z and a-z.
 
 Groups MUST have a group-name. The group-name is any non-zero-length UTF-8 string.
+
+Groups MAY have a group-image.
 
 
 # Outgoing groups messages
@@ -65,7 +69,7 @@ To identifiy the group-id on replies from normal MUAs, the group-id MUST also be
 the message-id of outgoing messages.  The message-id MUST have the 
 format `Gr.<group-id>.<unique data>`.
 
-    From: member1@domain.com
+    From: member1@domain
     To: member2@domain, member3@domain
     Chat-Version: 1.0
     Chat-Group-ID: 1234xyZ
@@ -97,8 +101,9 @@ The messenger SHOULD send an explicit mail for each added or removed member.
 The body of the message SHOULD contain a localized description about what happend 
 and the message SHOULD appear as a message or action from the sender.
 
-    From: member1@domain.com
+    From: member1@domain
     To: member2@domain, member3@domain, member4@domain
+    Chat-Version: 1.0
     Chat-Group-ID: 1234xyZ
     Chat-Group-Name: My Group
     Chat-Group-Member-Added: member4@domain
@@ -109,8 +114,9 @@ and the message SHOULD appear as a message or action from the sender.
 
 To remove a member: 
 
-    From: member1@domain.com
+    From: member1@domain
     To: member2@domain, member3@domain
+    Chat-Version: 1.0
     Chat-Group-ID: 1234xyZ
     Chat-Group-Name: My Group
     Chat-Group-Member-Removed: member4@domain
@@ -128,8 +134,9 @@ The messenger SHOULD send an explicit mail for each name change.
 The body of the message SHOULD contain a localized description about what happend 
 and the message SHOULD appear as a message or action from the sender.
 
-    From: member1@domain.com
+    From: member1@domain
     To: member2@domain, member3@domain
+    Chat-Version: 1.0
     Chat-Group-ID: 1234xyZ
     Chat-Group-Name: Our Group
     Chat-Group-Name-Changed: 1
@@ -137,6 +144,78 @@ and the message SHOULD appear as a message or action from the sender.
     Subject: =?utf-8?Q?Chat=3A?= Our =?utf-8?Q?Group=3A?= Hello
     
     Hello, I've changed the group name from "My Group" to "Our Group".
+
+
+# Set group image
+
+A group MAY have a group-image. 
+To change or set the group-image, the messenger MUST attach an image file to a message and MUST add the header `Chat-Group-Image` with the
+value set to the image name.
+
+To remove the group-image, the messenger MUST add the header `Chat-Group-Image: 0`.
+
+The messenger SHOULD send an explicit mail for each group image change.
+The body of the message SHOULD contain a localized description about what happend 
+and the message SHOULD appear as a message or action from the sender.
+
+
+    From: member1@domain
+    To: member2@domain, member3@domain
+    Chat-Version: 1.0
+    Chat-Group-ID: 1234xyZ
+    Chat-Group-Name: Our Group
+    Chat-Group-Image: image.jpg
+    Message-ID: Gr.1234xyZ.0005@domain
+    Subject: =?utf-8?Q?Chat=3A?= Our =?utf-8?Q?Group=3A?= Hello
+    Content-Type: multipart/mixed; boundary="==break=="
+    
+    --==break==
+    Content-Type: text/plain
+
+    Hello, I've changed the group image.
+    --==break==
+    Content-Type: image/jpeg
+    Content-Disposition: attachment; filename="image.jpg"
+    
+    /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBw ...
+    --==break==--
+
+The image format SHOULD be image/jpeg or image/png.
+
+
+# Set profile image
+
+A user MAY have a profile-image that MAY be spreaded to his contacts. 
+To change or set the profile-image, the messenger MUST attach an image file to a message and MUST add the header `Chat-Profile-Image` with the
+value set to the image name.
+
+To remove the profile-image, the messenger MUST add the header `Chat-Profile-Image: 0`.
+
+To spread the image, the messanger MAY send the profile image together with the next mail to a given contact
+(to do this only once, the messange has to keep a `profile_image_update_state` somewhere).
+Alternatively, the messenger MAY send an explicit mail for each profile-image change to all contacts using a compatible messenger.
+The messenger SHOULD NOT send an explicit mail to normal MUAs.
+
+    From: sender@domain
+    To: rcpt@domain
+    Chat-Version: 1.0
+    Chat-Profile-Image: photo.jpg
+    Subject: =?utf-8?Q?Chat=3A?= Hello
+    Content-Type: multipart/mixed; boundary="==break=="
+    
+    --==break==
+    Content-Type: text/plain
+
+    Hello, I've changed my profile image.
+    --==break==
+    Content-Type: image/jpeg
+    Content-Disposition: attachment; filename="photo.jpg"
+    
+    AKCgkJi3j4l5kjoldfUAKCgkJi3j4lldfHjgWICwgIEBQYFBA ...
+    --==break==--
+
+The image format SHOULD be image/jpeg or image/png. Note that `Chat-Profile-Image` may appear together with all other headers, eg. there may be a
+`Chat-Profile-Image` and a `Chat-Group-Image` header in the same message.
 
 
 # Miscellaneous
