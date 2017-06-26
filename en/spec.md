@@ -168,7 +168,7 @@ If Memoryhole is not used, the subject of encrypted messages MUST be replaced by
 Older versions of Delta Chat use the header names `X-MrMsg` (instead of `Chat-Version`), `X-MrPredecessor`, `X-MrGrpId`, `X-MrGrpName`,
 `X-MrRemoveFromGrp`, `X-MrAddToGrp`, `X-MrGrpNameChanged`, `X-MrVoiceMessage` and `X-MrDurationMs`.
 
-On outgoing messages, messenger MAY send the old names together with the new ones.
-On incoming messages messenger MAY recognize the old names but MUST prefer the new ones on conflicts.
+For outgoing messages, messenger MAY send the old names together with the new ones.
+For incoming messages, messenger MAY recognize the old names but MUST prefer the new ones on conflicts.
 
 
