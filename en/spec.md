@@ -81,7 +81,7 @@ format `Gr.<group-id>.<unique data>`.
 The messenger MUST search incoming messgages for the group-id in the following headers: `Chat-Group-ID`,
 `Message-ID`, `In-Reply-To` and `References` (in this order).
 
-If the messenger finds a valid and existent group-id, the message MUST be assigned to the given group. 
+If the messenger finds a valid and existent group-id, the message SHOULD be assigned to the given group. 
 If the messenger finds a valid but not existent group-id, the messenger MAY create a new group.
 If no group-id is found, the message MAY be assigned to a normal single-user chat with the email-address given in `From`.
 
@@ -89,7 +89,7 @@ If no group-id is found, the message MAY be assigned to a normal single-user cha
 # Add and remove members 
 
 Messenger clients MUST construct the member list from the `From`/`To` headers only on the first group message or if they see a `Chat-Group-Member-Added` or `Chat-Group-Member-Removed` action header.
-Both headers must have the email-address of the added or removed member as the value.
+Both headers MUST have the email-address of the added or removed member as the value.
 Messenger clients MUST NOT construct the member list on other group messages (this is to avoid accidentially altered To-lists in normal MUAs; the user
 does not expect adding a user to a _message_ will also add him to the _group_ "forever").
 
@@ -159,7 +159,7 @@ This allows the receiver to show the time without knowing the file format.
 Messages SHOULD be encrypted by the [Autocrypt](https://autocrypt.org) standard using `prefer-encrypt=mutual` by default.
 
 Meta data (at least the subject and all chat-headers) SHOULD be encrypted by the [Memoryhole](http://modernpgp.org/memoryhole/) standard. 
-If Memoryhole is not used, the subject of encrypted messages MUST be replaced by the string 
+If Memoryhole is not used, the subject of encrypted messages SHOULD be replaced by the string 
 `Chat: Encrypted message` where the part after the colon may be localized.
 
 
