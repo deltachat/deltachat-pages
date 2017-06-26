@@ -253,7 +253,7 @@ Messages SHOULD be encrypted by the [Autocrypt](https://autocrypt.org) standard;
 
 Meta data (at least the subject and all chat-headers) SHOULD be encrypted by the [Memoryhole](http://modernpgp.org/memoryhole/) standard. 
 If Memoryhole is not used, the subject of encrypted messages SHOULD be replaced by the string 
-`Chat: Encrypted message` where the part after the colon may be localized.
+`Chat: Encrypted message` where the part after the colon MAY be localized.
 
 
 # Old header fields
