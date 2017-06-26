@@ -23,7 +23,7 @@ email messages to piggyback the needed information while staying compatible to e
 # Outgoing messages
 
 Messengers MUST add a `Chat-Version: 1.0` header to outgoing messages.
-The subject MUST start with the characters `Chat:` and SHOULD be an excerpt of the message.
+The subject SHOULD start with the characters `Chat:` and SHOULD be an excerpt of the message.
 Note, that the subject is normally encoded using the encoded-word mechanism.
 
     From: sender@domain
