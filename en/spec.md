@@ -8,6 +8,7 @@ layout: default
 
 This document describes how emails can be used to implement typical messenger functions while staying compatible to existing MUAs.
 
+- [Encryption](#encryption)
 - [Outgoing messages](#outgoing-messages)
 - [Incoming messages](#incoming-messages)
 - [Groups](#groups)
@@ -18,8 +19,16 @@ This document describes how emails can be used to implement typical messenger fu
     - [Set group image](#set-group-image)
 - [Set profile image](#set-profile-image)
 - [Miscellaneous](#miscellaneous)
-- [Encryption](#encryption)
-- [Old header fields](#old-header-fields)
+
+
+# Encryption
+
+Messages SHOULD be encrypted by the [Autocrypt](https://autocrypt.org/en/latest/level1.html) standard;  `prefer-encrypt=mutual` MAY be set by default.
+
+Meta data (at least the subject and all chat-headers) SHOULD be encrypted by the [Memoryhole](http://modernpgp.org/memoryhole/) standard. 
+If Memoryhole is not used, the subject of encrypted messages SHOULD be replaced by the string 
+`Chat: Encrypted message` where the part after the colon MAY be localized.
+
 
 
 # Outgoing messages
@@ -250,16 +259,15 @@ This allows the receiver to show the time without knowing the file format.
     Chat-Duration: 10000
 
 
-# Encryption
+## Sync messages
 
-Messages SHOULD be encrypted by the [Autocrypt](https://autocrypt.org) standard;  `prefer-encrypt=mutual` MAY be set by default.
+If some action is required by a message header, the action should only be performed if the _effective date_ is newer than the date the last action was performed.
 
-Meta data (at least the subject and all chat-headers) SHOULD be encrypted by the [Memoryhole](http://modernpgp.org/memoryhole/) standard. 
-If Memoryhole is not used, the subject of encrypted messages SHOULD be replaced by the string 
-`Chat: Encrypted message` where the part after the colon MAY be localized.
+We define the effective date of a message as the sending time of the message as indicated by its Date header,
+or the time of first receipt if that date is in the future or unavailable.
 
 
-# Old header fields
+## Old header fields
 
 Older messenger may use the header fields `X-MrMsg` (instead of `Chat-Version`), `X-MrPredecessor`, `X-MrGrpId`, `X-MrGrpName`,
 `X-MrRemoveFromGrp`, `X-MrAddToGrp`, `X-MrGrpNameChanged`, `X-MrVoiceMessage` and `X-MrDurationMs`.
