@@ -27,16 +27,19 @@ This document describes how emails can be used to implement typical messenger fu
 Messengers MUST add a `Chat-Version: 1.0` header to outgoing messages.
 For filtering and smart appearance of the messages in normal MUAs, 
 the `Subject` header SHOULD start with the characters `Chat:` and SHOULD be an excerpt of the message.
-Note, that the subject is normally encoded using the encoded-word mechanism.
 
 Outgoing messages SHOULD be moved to the folder `Chats`.
 
     From: sender@domain
     To: rcpt@domain
     Chat-Version: 1.0
-    Subject: =?utf-8?Q?Chat=3A?= Hello
+    Subject: Chat: Hello ...
     
     Hello world!
+
+Although it is not part of this spec, we want to note that it may be needed to encode the subject and other header fields with text
+(eg. using the encoded-word mechanism).
+
 
 
 # Incoming messages
@@ -84,7 +87,7 @@ format `Gr.<group-id>.<unique data>`.
     Chat-Group-ID: 1234xyZ
     Chat-Group-Name: My Group
     Message-ID: Gr.1234xyZ.0001@domain
-    Subject: =?utf-8?Q?Chat=3A?= My =?utf-8?Q?Group=3A?= Hello
+    Subject: Chat: My Group: Hello group ...
     
     Hello group - this group contains three members
 
@@ -121,7 +124,7 @@ and the message SHOULD appear as a message or action from the sender.
     Chat-Group-Name: My Group
     Chat-Group-Member-Added: member4@domain
     Message-ID: Gr.1234xyZ.0002@domain
-    Subject: =?utf-8?Q?Chat=3A?= My =?utf-8?Q?Group=3A?= Hello
+    Subject: Chat: My Group: Hello, ...
         
     Hello, I've added member4@domain to our group.  Now we have 4 members.
 
@@ -134,7 +137,7 @@ To remove a member:
     Chat-Group-Name: My Group
     Chat-Group-Member-Removed: member4@domain
     Message-ID: Gr.1234xyZ.0003@domain
-    Subject: =?utf-8?Q?Chat=3A?= My =?utf-8?Q?Group=3A?= Hello
+    Subject: Chat: My Group: Hello, ...
         
     Hello, I've removed member4@domain from our group.  Now we have 3 members.
 
@@ -154,7 +157,7 @@ and the message SHOULD appear as a message or action from the sender.
     Chat-Group-Name: Our Group
     Chat-Group-Name-Changed: 1
     Message-ID: Gr.1234xyZ.0004@domain
-    Subject: =?utf-8?Q?Chat=3A?= Our =?utf-8?Q?Group=3A?= Hello
+    Subject: Chat: Our Group: Hello, ...
     
     Hello, I've changed the group name from "My Group" to "Our Group".
 
@@ -179,7 +182,7 @@ and the message SHOULD appear as a message or action from the sender.
     Chat-Group-Name: Our Group
     Chat-Group-Image: image.jpg
     Message-ID: Gr.1234xyZ.0005@domain
-    Subject: =?utf-8?Q?Chat=3A?= Our =?utf-8?Q?Group=3A?= Hello
+    Subject: Chat: Our Group: Hello, ...
     Content-Type: multipart/mixed; boundary="==break=="
     
     --==break==
@@ -213,7 +216,7 @@ The messenger SHOULD NOT send an explicit mail to normal MUAs.
     To: rcpt@domain
     Chat-Version: 1.0
     Chat-Profile-Image: photo.jpg
-    Subject: =?utf-8?Q?Chat=3A?= Hello
+    Subject: Chat: Hello, ...
     Content-Type: multipart/mixed; boundary="==break=="
     
     --==break==
