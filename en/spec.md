@@ -6,7 +6,7 @@ layout: default
 
 # Chat specification v0.9.0
 
-This document describes how Delta Chat and compatible messenger use
+This document describes how [Delta Chat](https://delta.chat) and compatible messenger use
 email messages to piggyback the needed information while staying compatible to existing MUAs.
 
 - [Outgoing messages](#outgoing-messages)
