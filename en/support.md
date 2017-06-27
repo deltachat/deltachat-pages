@@ -17,7 +17,12 @@ Delta Chat development costs money. Your donation will support future improvemen
 
 # Translations
 
-Help to translate Delta Chat in your language using [Android Studio](https://developer.android.com/studio/write/translations-editor.html) and a "Pull Request". Alternatively, you can send us a translated "strings.xml" file.
+Help to translate Delta Chat in your language using 
+[Transifex](https://www.transifex.com/delta-chat/) or
+[Android Studio](https://developer.android.com/studio/write/translations-editor.html) and a Pull Request.
+Alternatively, you can send us a translated "strings.xml" file.
+
+We're also searching for people who like to maintain the Transifex page and the contact with the translators.
 
 
 # Developers
