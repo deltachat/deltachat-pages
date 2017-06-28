@@ -50,10 +50,12 @@ layout: default-de
 
 ## Welche Nachrichten erscheinen in Delta Chat?
 
-In Delta Chat erscheinen automatisch nur Nachrichten ...
-- von Kontakten aus Ihrem **Addressbuch**
-- von Kontakten, die Sie **selbst kontaktiert** haben
-- von bekannten **Kontakten Ihrer Kontakte**
+In Delta Chat erscheinen automatisch nur:
+
+- Nachrichten von Kontakten aus Ihrem **Addressbuch**
+- Nachrichten von Kontakten, die Sie **selbst kontaktiert** haben
+- Nachrichten von bekannten **Kontakten Ihrer Kontakte**
+- **Antworten** auf Ihre Nachrichten
 
 Alle anderen Nachrichten werden _nicht_ automatisch angezeigt.  Über den Menüpunkt
 **Kontaktanfragen** können Sie sich aber eine Übersicht der

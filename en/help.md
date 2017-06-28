@@ -46,11 +46,12 @@ layout: default
 
 ## Which messages do appear in Delta Chat?
 
-Delta Chat automatically shows messages ...
+Delta Chat automatically shows ...
 
-- from contacts in you **address book**
-- from contacts **contacted by you**
-- from known **contacts of your contacts**
+- Messages from contacts in you **address book**
+- Messages from contacts **contacted by you**
+- Messages from known **contacts of your contacts**
+- **Replies** to messages send by you
 
 Other messages do not appear automatically. You can see the other messages the the
 main menu at **Contact requests** and, if desired, start a chat from there.
