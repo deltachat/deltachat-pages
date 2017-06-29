@@ -160,8 +160,16 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 - NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. Maybe we can improve this, but we would need more [support](support) on this issue.
 
 
+
 # Login Issues
 
-- Disroot.org: Select Outbox Security to _STARTTLS_
+
+## I have a problem with ...
+
 - Gmail: Enable "Support less secure apps" and IMAP, you may  receive a mail to grant permission
+
+
+## I'm interested in the technical details. Can you tell me more?
+
+- See page [Standards used in Delta Chat](standards).
 
