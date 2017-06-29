@@ -163,8 +163,7 @@ Wie gesagt, standardmäßig ist sie _an_ und die Verbindung sicher, sobald dies 
 ## Wir ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
 
 - Doch, es findet i.d.R. eine sog. Transportverschlüsselung statt; allerdings ist diese nicht ununterbrochen und so sind die Nachrichten unverschlüsselt auf Ihrem Server
-und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation.  
-Im Vergleich zu vielen anderen Messengern, ist selbst dieser Status vorzuziehen, da zumindest keine massenhaften Metadaten bei einem Anbieter auflaufen.
+und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation und bei vielen anderen Messengern.
 
 ## Wie kann ich die Verschlüsselung überprüfen?
 
@@ -174,7 +173,7 @@ Wählen Sie im Profil des Chatpartners die Option "Verschlüsselung":
 
 - bei einer Transportverschlüsselung wir dieser Status hier angezeigt.
 
-Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat is Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/deltachat/deltachat-core).
+Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat is Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/deltachat/).
 
 ## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
 
