@@ -206,7 +206,7 @@ Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie
 
 - Ja. Sie können sogar auf demselben Gerät verschiedene Clients verwenden.
 
-## Ich bin an technischen Detauks interessiert. Gibt es hierzu weitere Infos?
+## Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 
 - Ja, auf der Seite [Standards used in Delta Chat](../en/standards).
 
