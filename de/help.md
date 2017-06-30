@@ -11,7 +11,7 @@ layout: default-de
 - [Speicherung der Nachrichten](#speicherung)
 - [Verschlüsselung](#verschluesselung)
 - [Mehrere Geräte verwenden](#multiclient)
-
+- [Verschiedenes](#verschiedenes)
 
 
 # Allgemein
@@ -205,6 +205,9 @@ Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie
 ## Kann ich auf einem Gerät Delta Chat verwenden und auf dem nächsten einen anderen Client?
 
 - Ja. Sie können sogar auf demselben Gerät verschiedene Clients verwenden.
+
+
+# Verschiedenes
 
 ## Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 

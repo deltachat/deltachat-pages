@@ -9,7 +9,7 @@ layout: default
 - [Groups](#groups)
 - [Encryption](#encryption)
 - [Multi-client](#multiclient)
-- [Login Issues](#login-issues)
+- [Miscellaneous](#miscellaneous)
 
 
 # General
@@ -161,10 +161,11 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 
 
-# Login Issues
+# Miscellaneous
 
+## Login Issues
 
-## I have a problem with ...
+I have a problem with ...
 
 - Gmail: Enable "Support less secure apps" and IMAP, you may  receive a mail to grant permission
 
