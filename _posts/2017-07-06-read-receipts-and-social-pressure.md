@@ -8,7 +8,8 @@ These so called "Read receipts" or "Return receipts" are available in many other
 
 While we believe that these Read receipts are an useful addition, we also know that there are good reasons for users to disable them.
 
-## Why a simple disabling does not work
+
+# Why a simple disabling does not work
 
 If we would provide a simple option to disable the Read receipts, in **normal 1:1 chats**, this should not make a problem. The receiver would simply not expect Return receipts from some senders. Fine. Done.
 
@@ -23,7 +24,8 @@ WhatsApp solves this dilemma by not allowing to disable Read receipts for groups
 
 So, as a conclusion, these optional Read receipts are _not really optional_ and **do not work**.
 
-## Our solution: True optional Read receipts
+
+# Our solution: True optional Read receipts
 
 But how can we gain a true option for the user without exposing him to social pressure? We do this by a slight redefinition of the additional checkmark:
 
