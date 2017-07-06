@@ -68,8 +68,8 @@ layout: default-de
 <!-- END OF CONTENT SLIDER -->
 
 [<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
-<!-- [<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" />](download) -->
-<!-- [<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" />](download) -->
+[<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="filter: opacity(.3) grayscale(100%);" />](download) 
+[<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="filter: opacity(.3) grayscale(100%);" />](download)
 
 [.apk, Mac, Windows und weitere Quellen](download)
 

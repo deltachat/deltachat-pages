@@ -5,9 +5,9 @@ layout: default-de
 
 # Download Delta Chat
 
-**Delta Chat ist aktuell in der Entwicklung** - und Sie können daran teilhaben.
+**Delta Chat ist aktuell in der Entwicklung** - und Sie können daran teilhaben und [helfen](support), es noch besser zu machen.
 
-Bei der Verwendung des Programms mit "echten" Daten raten wir dringend zu einem Backup. Die Verwendung geschieht auf Ihr **eigenes Risiko!**
+Sie können das Programm aus einer der folgenden Quellen herunterladen:
 
 * [Download via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
 * [**.apk-Installationsdatei** herunterladen](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
