@@ -160,14 +160,16 @@ wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetz - und automatisch w
 - Wenn Sie die Ende-zu-Ende-Verschlüsselung _deaktivieren_ möchten, können Sie dies in unter _Fortgeschrittene Einstellungen_ tun.
 Wie gesagt, standardmäßig ist sie _an_ und die Verbindung sicher, sobald dies möglich ist.
 
-## Wir ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
+## Wird ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
 
 - Doch, es findet i.d.R. eine sog. Transportverschlüsselung statt; allerdings ist diese nicht ununterbrochen und so sind die Nachrichten unverschlüsselt auf Ihrem Server
 und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation und bei vielen anderen Messengern.
 
 ## Wie kann ich die Verschlüsselung überprüfen?
 
-Wählen Sie im Profil des Chatpartners die Option "Verschlüsselung":
+Neben der Nachricht wird ein **kleines Schloss** angezeigt: Dieses sagt aus, dass die Nachricht verschlüsselt ist _und_ wirklich vom angegebenen Absender kommt.
+
+Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Option "Verschlüsselung" überprüfen:
 
 - bei einer Ende-zu-Ende-Verschlüsselung werden hier zwei Fingerabdrücke angezeigt; vergleichen Sie diese mit der Anzeige auf dem Gerät des Partners über einen anderen Kanal (persönliches Treffen, Telefon, ...)
 
