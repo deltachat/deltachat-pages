@@ -5,6 +5,8 @@ layout: default-de
 
 # Delta macht chatten besser
 
+_von Jürgen Voß_
+
 _**Alle chatten jetzt mit WhatsApp** oder ähnlichen Messengern - naja nicht alle, aber ziemlich viele. Etwa sechs Milliarden E-Mail-Adressen gibt es auf der Welt und über eine Milliarde chatten jetzt, statt zu mailen. Warum nur? Chatten ist die leichteste Art zu kommunizieren - leider noch mit Haken._
 
 Diese Leichtigkeit wird belohnt. Und das trotz etlicher **Haken an der Sache**. Denn Absender und Empfänger müssen sich beide bei WhatsApp oder bei vergleichbaren Messengern erst einmal eintragen. Nur dann geht es einfach. Die kleine Hürde ist schnell erledigt, wenn der Absender den Empfänger überredet, auch bei WhatsApp mitzumachen - besonders, wenn das neue Mitglied die 20 Seiten **Geschäftsbedingungen** mit einem schnellen Häkchen passiert - natürlich ohne diesen nervigen Test genau zu lesen. Wozu auch? Er will da rein, wo auch alle seine Freunde schon längst sind. 
