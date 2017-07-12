@@ -167,7 +167,7 @@ und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommuni
 
 ## Wie kann ich die Verschlüsselung überprüfen?
 
-Neben der Nachricht wird ein **kleines Schloss** angezeigt: Dieses sagt aus, dass die Nachricht verschlüsselt ist _und_ wirklich vom angegebenen Absender kommt.
+Neben der Nachricht wird ein **kleines Schloss** angezeigt: Dieses sagt aus, dass die Nachricht verschlüsselt ist _und_ wirklich vom angegebenen Absender kommt _und_ dass Ihre Antwort ebenfalls verschlüsselt wird. 
 
 Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Option "Verschlüsselung" überprüfen:
 
