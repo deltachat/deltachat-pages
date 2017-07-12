@@ -1,33 +1,33 @@
 ---
-title: Why Delta Chat? Your Advantages.
+title: Por que Delta Chat? Suas vantagens.
 layout: default
 ---
 
-# Why Delta Chat? Your Advantages.
+# Por que Delta Chat? Suas vantagens.
 
-**Delta Chat** is a project that aims to create a messaging app that is
-completely **compatible** to the existing email-infrastructure.
+**Delta Chat** é um projeto que visa criar um aplicativo de mensagens que seja
+completamente **compatível** com a infraestrutura de e-mails existente.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-So, with Delta Chat you get the **ease** of well-known messengers with the
-**reach** of email. Moreover, you're **independent** from other companies or
-services - as your data are not related to Delta Chat, you won't even add new
-dependencies here.
+Então, com o Delta Chat você tem a **facilidade** dos aplicativos de mensagem com o
+**alcance** do e-mail. E mais, você se torna **independente** de companhias ou
+serviços - afinal seus dados não se vinculam ao Delta Chat, de modo que você não ficará
+dependente dele.
 
-Some features at a glance
+Algumas funcionalidades
 
-- **There is no Delta Chat-server:** The app only uses your email-server.
-- **Fast** by the use of Push-IMAP
-- **Largest userbase** - receivers _not_ using Delta Chat can be reached as well
-- **Compatible** - not only to itself
-- **Elegant** and **simple** user interface
-- **Distributed** system
-- **No Spam** - only messages of known users are shown by default
-- **Reliable** - safe for professional use
-- **Trustworthy** - can even be used for business messages
-- fully **open source** and **standards** based
+- **Não existe um servidor central do Delta Chat:** O aplicativo usa seu e-mail.
+- **Rápido** pelo uso do Push-IMAP
+- **Maior número de usuários** - os destinatários _não_ precisam usar o Delta Chat
+- **Compatível** - não somente com si próprio
+- **Elegante** e **simples**
+- **Distribuído** 
+- **Sem Spam** - somente mensagens de usuários autorizados são exibidas por padrão
+- **Confiável** - seguro para uso profissional
+- **Seguro** - pode até mesmo ser utilizado para seus negócios
+- Totalmente desenvolvido com **código aberto** e baseado em **padrões**
 
-# Learn more
+# Saiba mais
 
-- [Delta makes chatting better](delta-makes-chatting-better)
+- [Delta torna sua conversa melhor](delta-makes-chatting-better)
