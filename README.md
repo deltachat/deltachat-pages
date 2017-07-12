@@ -33,6 +33,8 @@ Directory structure
 - `/layout` - CSS and layout specific images and files here.
 - `/assets` - page specific images and files; in general, we use one subdirectory per page here
 
+If you **add a new language** do not forget to check the automatic language selection in `index.html` in the root directory.
+
 Useful links
 --------------------------------------------------------------------------------
 
@@ -41,4 +43,4 @@ Useful links
 
 ---
 
-Copyright (C) 2017 Delta Chat contributors
+Copyright © 2017 Delta Chat contributors
