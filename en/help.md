@@ -1,176 +1,176 @@
 ---
-title: Help
+title: Ajuda
 layout: default
 ---
 
-# Frequently Asked Questions
+# Perguntas frequentes
 
-- [General](#general)
-- [Groups](#groups)
-- [Encryption](#encryption)
-- [Multi-client](#multiclient)
-- [Miscellaneous](#miscellaneous)
+- [Geral](#general)
+- [Grupos](#groups)
+- [Criptografia](#encryption)
+- [Multicliente](#multiclient)
+- [Diversos](#miscellaneous)
 
 
-# General
+# Geral
 
-## To whom can I write?
+## Para quem posso escrever?
 
-- With Delta Chat, you can write to users using Delta Chat - or any other existing
-  e-mail-client. This is one of the biggest differences to other messengers:
-  There is no need for the receiver to install the same app as yours.
+- Com o Delta Chat, você pode escrever para outros usuários do Delta Chat - ou qualquer outra pessoa
+  que tenha um e-mail. Esta é uma das maiores diferenças de outros aplicativos do gênero:
+  Não é preciso que o destinatário instale o mesmo aplicativo que você usa.
 
 
 
-## What are the advantages of Delta Chat compared to other messengers?
+## Quais são as vantagens do Delta Chat comparado a outros aplicativos do tipo?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protect your metadata (who writes to whom?)
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP
-- _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
-- _Compatible_ - not only to itself
-- _Elegant_ and _simple_ user interface
-- _Distributed_ system
-- _No Spam_ - only messages of known users are shown by default
-- _Reliable_ - safe for professional use
-- _Trustworthy_ - can even be used for business messages
-- fully _OpenSource_ and _Standards_ based
+- _Independente_ de companhias e serviços. _Você_ é o dono dos seus dados.
+- Seus dados não são guardados num servidor central; desta forma, em contraste com a maioria de outros aplicativos do gênero, o Delta Chat protege até mesmo seus metadados (quem escreve para quem?)
+- Você não entrega sua agenda de contatos para ninguém.
+- _Rápido_ pelo uso do Push-IMAP
+- _Maior base de usuários_ - destinatários que _não_ usam o Delta Chat podem ser contatados também
+- _Compatível_ - não só consigo mesmo
+- _Elegante_ e _simples_
+- _Distribuído_
+- _Sem Spam_ - somente mensagens de contatos conhecidos são mostrados por padrão
+- _Confiável_ - seguro para uso profissional
+- _Seguro_ - pode até mesmo ser utilizado em seus negócios
+- Totalmente de _código aberto_ e baseado em _padrões_
 
 
-## What, if the receiver does not use Delta Chat?
+## E se o destinatário não usar o Delta Chat?
 
-- The receiver will get a normal email then - if he replies to it, you will
-  see the reply in the Delta Chat app.
+- Neste caso o destinatário vai receber um e-mail normal - se ele responder, você vai 
+  receber a mensagem no Delta Chat.
 
 
-## Which messages do appear in Delta Chat?
+## Quais mensagens aparecem no Delta Chat?
 
-Delta Chat automatically shows ...
+O Delta Chat automaticamente exibe ...
 
-- Messages from contacts in you **address book**
-- Messages from contacts **contacted by you**
-- Messages from known **contacts of your contacts**
-- **Replies** to messages send by you
+- Mensagens de contatos da sua **agenda de endereços**
+- Mensagens de contatos **que você contatou**
+- Mensagens de **contatos conhecidos dos seus contatos**
+- **Respostas** a mensagens enviadas por você
 
-Other messages do not appear automatically. You can see the other messages the the
-main menu at **Contact requests** and, if desired, start a chat from there.
+Outras mensagens não aparecem automaticamente. Você poderá as ver no menu
+princial em **Requisições de contato** e, se desejar, começar a conversar.
 
-## What about Spam?
+## E o Spam?
 
-- As messages from completely unknown contacts do not pop up automatically, normally, there's **no spam**.
-- However, if really needed, you can **block** any contact.
+- Mensagens de completos desconhecidos não são exibidas automaticamente, de modo que, normalmente, **não há spam**.
+- No entanto, se realmente necessário, você pode **bloquear** qualquer contato.
 
 
 
-## Does Delta Chat support images, videos and other attachments?
+## O Delta Chat exibe imagens, vídeos e aceita outros anexos?
 
-- Yes. Beside the plain text, all email-attachments are displayed as separate
-  messages. Outgoing messages will get attachments as needed automatically.
+- Sim. Além de texto puro, todos os anexos de e-mail são exibidos como mensagens
+  separadas. Mensagens enviadas aceitam anexos também.
 
 
-## Does Delta Chat support HTML-emails?
+## O Delta Chat lê e-mails em HTML?
 
-- Yes.  If incoming email lacks a plain text part, we convert HTML-emails to 
-  plain text ourself.  Outgoing emails always use plain text. 
+- Sim. Se a mensagem não estiver em texto puro, o HTML será convertido em
+  texto puro.  Mensagens sempre são enviadas em texto puro.
 
 
 
 
-# Groups
+# Grupos
 
-## How can I create a group?
+## Como criar um grupo?
 
-- Select **Add group** from the "Sandwich menu" in the upper left corner of the chat overview.
-- On the following screen, select the **group members** and hit the checkmark in the upper right corner. After that, you can define a **group name**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Selecione **Novo grupo** do "menu sanduíche" no canto esquerdo superior da lista de conversas.
+- Na tela seguinte, selecione os **membros do grupo** e toque na caixa de seleção no canto direito superior. Após, escolha um **nome para o grupo**.
+- Tão logo você enviar a **primeira mensagem**, todos os membros serão informados sobre o novo grupo e poderão entrar em contato pelo grupo (enquanto a primeira mensagem não for encaminhada o grupo não será conhecido pelos demais membros).
 
-## Who can add members to a group?
+## Quem pode convidar membros ao grupo?
 
-- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
-- To add or delete members, click on the group name in the chat.
+- Todos os membros do grupo têm os **mesmos poderes**. Assim, todos podem deletar e/ou incluir novos membros ao grupo.
+- Para adicionar ou deletar membros, clique no nome do grupo no chat.
 
-## I have deleted myself by accident.
+## Eu saí do grupo por acidente.
 
-- As you're no longer a group member now, you cannot add yourself again.  However, no problem, just ask any other group member in a normal chat to add you again.
+- Já que você não faz mais parte do grupo, você não pode se incluir nele de novo. No entanto, sem problema, peça para que alguém do grupo o inclua de novo.
 
-## I do not want to receive the messages of a group any longer.
+## Não quero mais receber mensagens do grupo.
 
-- Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.
-- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages.
+- Ou apague-se da lista de membros, ou delete o chat. Você poderá entrar no grupo em outra ocasião de novo, pedindo para que alguém do grupo o readicione.
+- Alternativamente, você pode "silenciar notificações" de um grupo - desta forma você receberá todas as mensagens, poderá escrever no grupo, mas não será notificado de novas mensagens.
 
 
 
 
-# Encryption {#encryption}
+# Criptografia {#encryption}
 
-## Does Delta Chat have an end-to-end-encryption?
+## O Delta Chat tem criptografia ponta-a-ponta?
 
-- Yes.
+- Sim.
 
-## What do I have to do to activate the end-to-end-encryption?
+## O que eu preciso fazer para ativar a criptografia ponta-a-ponta?
 
-- Nothing.
+- Nada.
 
-- Delta Chat (and other Autocrypt-compatible email-programs) share the keys required for 
-end-to-end-encryption automatically as the first messages are sent.  After this, all
-subsequent messages are encrypted end-to-end automatically.  If, one of the chat
-partners use an app later that cannot use end-to-end-encryption, it is paused
-for this time and automatically re-activated as soon as possible.
+- O Delta Chat (e outros programas compatíveis com a tecnologia Autocrypt) compatilham, na
+primeira mensagem, as chaves necessárias para ativar a criptografia ponta-a-ponta. Depois
+todas as mensagens posteriores são criptografadas ponta-a-ponta automaticamente. Se um dos
+participantes da conversa não estiver usando um programa que comporte criptografia, a
+criptografia fica suspensa enquanto isso, até ser reativada novamente, quando possível.
 
-- If you want to _deactivate_ the end-to-end-encryption, use the corresponding setting at
-"Settings / Advanced settings".
+- Se você quiser _desativar_ a criptografia ponta-a-ponta, faça-o no menu 
+"Configurações / Configurações avançadas".
 
-## If end-to-end-encryption is not available, is the connection not encrypted at all?
+## Se a criptografia ponta-a-ponta não estivar ativa a conexão estará completamente descriptografada?
 
-- No. The normal, email-standard _transport encryption_ is used then.
+- Não. A criptografia padrão de _tráfego_ será utilizada.
 
-## How can I check the encryption?
+## Como posso certificar-me de que a criptografia ponta-a-ponta está ativada?
 
-Choose "Encryption" from the user's profile:
+Acesse o menu "Criptografia" do perfil do contato:
 
-- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same
-on the device of your chat partner, the connection is safe.
+- Para a criptografia ponta-a-ponta, o Delta Chat mostra duas impressões. Se combinarem com
+as impressões do celular do seu contato, a conexão está cifrada.
 
-- For transport encryption, this state is just shown there
+- No caso de criptografia padrão de tráfego, sua utilização será exibida no mesmo menu.
 
-## Which standards are used for end-to-end-encryption.
+## Quais padrões são usados para a criptografia ponta-a-ponta?
 
-OpenPGP. Key transport is done via Autocrypt. - 
+OpenPGP. A troca de chaves é feita via Autocrypt. - 
 
-## Can I re-use by existing private key?
+## Posso reutilizar uma chave privada que já possuo?
 
-- Yes. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+- Sim. Importe-a através do menu "Configurações avançadas / Gerir chaves privadas". Atenção: Certifique-se de que a chave não está protegida por uma senha, ou remova a senha antes de importá-la.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you have to do nothing.
+Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se preocupe: o Delta Chat fará tudo automaticamente para você.
 
 
-# Multi-client {#multiclient}
+# Multicliente {#multiclient}
 
-## Can I use delta Chat on multiple devices the same time?
+## Posso usar o Delta Chat em vários dispositivos ao mesmo tempo?
 
-- If you want to use the **same account** on different devices, you have to make sure, all devices use the same keys for encryption:
+- Se voce quiser usar a **mesma conta** em diferentes dispositivos, você terá que fazer com que todos eles usem a mesma chave de criptografia:
 
-    - On the first device, choose "Advanced settings / Manage private keys / Export key to Downloads"
-    - Via USB, copy the key file from the "Downloads" directory of the first device to the second one.
-	- On the second device, "Advanced settings / Manage private keys / Import key from Downloads"
+    - No primeiro dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Exportar para Downloads"
+    - Via USB, copie a chave da pasta "Downloads" do primeiro dispositivo para o segundo.
+	- No segundo dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Importar de Downloads"
 
-- All this is **not needed** for the standard usage of Delta Chat using just one device.
+- **Nada disso é necessário** se você utilizar somente um dispositivo.
 
-- NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. Maybe we can improve this, but we would need more [support](support) on this issue.
+- Nota: No modo multicliente mensagens _recebidas_ são exibidas imediatamente em ambos dispositivos. Mensagens _enviadas_  demoram cerca de meia hora para sincronizar. Talvez esta questão possa ser melhorada, mas precisamos de mais [ajuda](support) para resolvê-la.
 
 
 
-# Miscellaneous
+# Diversos
 
-## Login Issues
+## Problemas de login
 
-I have a problem with ...
+Eu tenho um problema...
 
-- Gmail: Enable "Support less secure apps" and IMAP, you may  receive a mail to grant permission
+- Gmail: Habilite "Permitir que aplicativos menos seguros acessem sua conta" e o IMAP. Você deverá receber uma mensagem de autorização.
 
 
-## I'm interested in the technical details. Can you tell me more?
+## Quero saber mais detalhes técnicos. Você pode me contar mais?
 
-- See page [Standards used in Delta Chat](standards).
+- Leia a página (em inglês) [Standards used in Delta Chat](standards).
 
