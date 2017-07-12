@@ -1,45 +1,45 @@
 ---
-title: Support
+title: Ajuda
 layout: default
 ---
 
-# How to support us
+# Como ajudar
 
-Delta Chat is open source and you can support the further development.
+Delta Chat é de código aberto e você pode nos ajudar a desenvolvê-lo.
 
-## Donate
+## Doe
 
-Delta Chat development costs money. Your donation will support future improvements directly.
+O desenvolvimento do Delta Chat envolve dinheiro. Uma doação sua pode nos ajudar.
+  		  
+ - PayPal ou cartão de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/10)
+ - Mande bitcoins para [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/10)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
+# Traduções
 
-# Translations
-
-Help to translate Delta Chat in your language using 
+Ajude a traduzir o Delta Chat para sua língua usando:
 [Transifex](https://www.transifex.com/delta-chat/) or
-[Android Studio](https://developer.android.com/studio/write/translations-editor.html) and a Pull Request.
-Alternatively, you can send us a translated "strings.xml" file.
+[Android Studio](https://developer.android.com/studio/write/translations-editor.html) com um Pull Request.
+Alternativamente, você pode nos mandar uma tradução do arquivo "strings.xml".
 
-We're also searching for people who like to maintain the Transifex page and the contact with the translators.
-
-
-# Developers
-
-Of course, open source developers are very welcome! Just make your improvements to your [Delta Chat fork](https://github.com/deltachat/) and send a pull request.
-
-Do you have great ideas or little improvements for this **website?** Just [edit it here](https://github.com/deltachat/deltachat-pages) and send a pull request.
+Estamos precisando de alguém que ajude no gerenciamento da página do Transifex e mantenha contato com os tradutores.
 
 
-# Spread the word ...
+# Desenvolvedores
 
-... however, currently Delta Chat is still in beta state and is only suitable for early adopters. As soon as Delta Chat reaches the version "1.0", it will be a recommendation for everyone. 
+É claro que desenvolvedores de código livre são muito bem-vindos! Faça seus melhoramentos no seu [Delta Chat fork](https://github.com/deltachat/) e mande um pull request.
+
+Você tem grandes ideias ou uma pequena dica para melhorar este **website?** Basta [editar aqui](https://github.com/deltachat/deltachat-pages) e enviar um pull request.
 
 
-# Bug Reports
+# Espalhe a notícia ...
 
-Use our **Issue Trackers** to report bugs. If possible, please add a detailed description; a screenshot is often helpful, too. 
+... só que, o Delta Chat ainda esta em estado beta e é recomendado somente para testes. Tão logo o Delta Chat alcance a versão "1.0", será recomendado para todo mundo. 
+
+
+# Relatórios de erro
+
+Use nossos **Issue Trackers** para relatar erros. Se possível, por favor, adicione uma descrição detalhada; um screenshot ajuda também. 
 
 - [Android](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Core](https://github.com/deltachat/deltachat-core/issues)
