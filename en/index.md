@@ -1,5 +1,5 @@
 ---
-title: The messenger
+title: O aplicativo de mensagens
 layout: default
 ---
 
@@ -11,44 +11,44 @@ layout: default
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>The messenger with the <b>largest range</b> in the world.<br/><b>Free</b>, <b>safe</b>,  email compatible.</p>
+   <p>O aplicativo de mensagens com a <b>maior base de contatos</b> do mundo.<br/><b>Grátis</b>, <b>seguro</b>,  compatível com e-mail.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro2.png" alt="" />
-   <h1>Independent</h1>
-   <!-- <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p> -->
-   <p><b>There is no Delta Chat-server.</b><br/>The app only uses your email-server.</p>
+   <h1>Independente</h1>
+   <!-- <p><b>Sem novas dependências</b> a computadores e serviços estrangeiros. O aplicativo só usa o seu serviço de e-mail.</p> -->
+   <p><b>Não existe servidor do Delta Chat.</b><br/> O aplicativo somente usa seu servidor de e-mail.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro3.png" alt="" />
-   <h1>Fast</h1>
-   <p><b>Push-messages</b> in seconds.<br/>Rapid interface.</p>
+   <h1>Rápido</h1>
+   <p><b>Envie mensagens</b> em segundos.<br/>Interface rápida.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro4.png" alt="" />
-   <h1>Powerful</h1>
-   <p><b>Unlimited</b> chats, images, videos, audio messages and more. Multi-client capable.</p>
+   <h1>Poderoso</h1>
+   <p><b>Sem limite</b> de chats, imagens, vídeos, mensagens de áudio e mais. Multicliente.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro5.png" alt="" />
-   <h1>Free</h1>
-   <p><b>Delta Chat</b> ist free forever.<br/>OpenSource. No ads. No subscription. No vendor lock-in.</p>
+   <h1>Grátis</h1>
+   <p><b>Delta Chat</b> será sempre grátis.<br/>Código aberto. Sem propagandas. Sem pagamentos. Sem bloqueios.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro6.png" alt="" />
-   <h1>Safe</h1>
-   <p><b>Encrypted</b> with all common algorithms. Messages stay on your servers.</p>
+   <h1>Seguro</h1>
+   <p><b>Criptografia</b> que utiliza algorítmos padrão. Suas mensagens ficam em seu servidor de e-mail.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro7.png" alt="" />
-   <h1>Trustworthy</h1>
-   <p><b>Delta Chat</b> is safe for business use, compatible and standards-based.</p>
+   <h1>Confiável</h1>
+   <p><b>Delta Chat</b> é seguro para uso em negócios e é compatível com os padrões de uso.</p>
 </div>
 
 </div></div>
@@ -71,5 +71,5 @@ layout: default
 [<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="filter: opacity(.3) grayscale(1);" />](download)
 [<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="filter: opacity(.3) grayscale(1);" />](download)
 
-[Download .apk manually](download)
+[Baixe o .apk manualmente](download)
 
