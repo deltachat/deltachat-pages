@@ -3,14 +3,14 @@ title: Download
 layout: default
 ---
 
-# Download Delta Chat
+# Baixe o Delta Chat
 
-**Currently, Delta Chat is under active development** - and you can [help us](support) making it even more stable.
+**Atualmente o Delta Chat está sob desenvolvimento ativo** - e você pode [nos ajudar](support) fazendo-o ainda mais estável.
 
-You can download the current version from one of the following sources:
+Você pode baixar a versão atual nos seguintes endereços:
 
 * [Download via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
 * [Download **.apk-installation file**](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
 * [View Changelog](changelog)
 
-Google Play, iOS, Mac, Windows: see [here](support) about how you can support us.
+Google Play, iOS, Mac, Windows: veja [aqui](support) sobre como nos ajudar.
