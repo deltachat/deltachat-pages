@@ -18,7 +18,7 @@ O desenvolvimento do Delta Chat envolve dinheiro. Uma doação sua pode nos ajud
 # Traduções
 
 Ajude a traduzir o Delta Chat para sua língua usando:
-[Transifex](https://www.transifex.com/delta-chat/) or
+[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) or
 [Android Studio](https://developer.android.com/studio/write/translations-editor.html) com um Pull Request.
 Alternativamente, você pode nos mandar uma tradução do arquivo "strings.xml".
 

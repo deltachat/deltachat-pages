@@ -4,7 +4,7 @@ title: New Transifex page
 
 Translating Delta Chat can now also be done via _Transifex_, a collaborative localisation platform that seems to be widely used:
 
-- <https://www.transifex.com/delta-chat/>
+- <https://www.transifex.com/delta-chat/delta-chat-android/>
 
 I've uploaded the existing translations, but, to be honest, I do not know much about the system.
 

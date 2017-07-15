@@ -19,7 +19,7 @@ Die Entwicklung von Delta Chat kostet Geld. Ihre Spende kann die Entwicklung dir
 # Übersetzungen
 
 Helfen Sie, das Projekt zu **lokalisieren** - mit
-[Transifex](https://www.transifex.com/delta-chat/) oder
+[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) oder
 [Android Studio](https://developer.android.com/studio/write/translations-editor.html) und einem Pull Request.
 Alternativ können Sie uns auch eine übersetzte "strings.xml" senden.
 
