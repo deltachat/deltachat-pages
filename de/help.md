@@ -129,18 +129,13 @@ weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
 
 - Nein, verwenden Sie einfach Ihr bestehendes E-Mail-Konto zum Messaging mit Delta Chat.
 
+## Wo werden die Nachrichten auf dem IMAP-Server gespeichert?
+
+- Mit Delta Chat versendete Nachrichten werden in den Ordner "Chats" gespeichert, ebenso wie Antworten auf mit Delta Chat gesendete Nachrichten (Ausnahme: Googlemail, hier muss bei Bedarf eine Regel im Webinterface angelegt werden).
+
 ## Kann ich Delta Chat und ein anderes E-Mail-Programm gleichzeitig verwenden?
 
-- Ja, kein Problem. Mit einem anderen E-Mail-Programm versandte Nachrichten erscheinen nach etwas Verzögerung sogar in Delta Chat.
-
-## Gibt es ein Backup der verschickten und empfangenen Nachrichten?
-
-- Ja. Und zwar ganz normal im verwendeten E-Mail-Konto.  Mit Delta Chat versendete Nachrichten landen dabei im Ordner "Chats" (Ausnahme: Googlemail, hier bitte bei Bedarf eine Regel im Webinterface anlegen).
-
-## Kann ich nach einer Neuinstallation Nachrichten wiederherstellen?
-
-- Aktuell noch nicht, dies ist aber für eine der folgenden Versionen geplant. Das Backup gibt es aber bereits jetzt.
-
+- Ja, kein Problem. Mit einem anderen E-Mail-Programm versandte Nachrichten erscheinen nach etwas Verzögerung sogar in Delta Chat, s. [Multi-Client](#multiclient)
 
 
 # Verschlüsselung {#verschluesselung}
