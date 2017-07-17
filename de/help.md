@@ -131,7 +131,7 @@ weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
 
 ## Wo werden die Nachrichten auf dem IMAP-Server gespeichert?
 
-- Mit Delta Chat versendete Nachrichten werden in den Ordner "Chats" gespeichert, ebenso wie Antworten auf mit Delta Chat gesendete Nachrichten (Ausnahme: Googlemail, hier muss bei Bedarf eine Regel im Webinterface angelegt werden).
+- Mit Delta Chat versendete Nachrichten werden im Ordner "Chats" gespeichert, ebenso wie Antworten auf mit Delta Chat gesendete Nachrichten (Ausnahme: Googlemail, hier muss bei Bedarf eine Regel im Webinterface angelegt werden).
 
 ## Kann ich Delta Chat und ein anderes E-Mail-Programm gleichzeitig verwenden?
 
