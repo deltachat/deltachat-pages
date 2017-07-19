@@ -13,7 +13,7 @@ layout: default-pt
 - [Diversos](#miscellaneous)
 
 
-# Geral
+# Geral {#general}
 
 ## Para quem posso escrever?
 
@@ -78,7 +78,7 @@ princial em **Requisições de contato** e, se desejar, começar a conversar.
 
 
 
-# Grupos
+# Grupos {#groups}
 
 ## Como criar um grupo?
 
@@ -150,11 +150,11 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
 ## Posso usar o Delta Chat em vários dispositivos ao mesmo tempo?
 
-- Se voce quiser usar a **mesma conta** em diferentes dispositivos, você terá que fazer com que todos eles usem a mesma chave de criptografia:
+- Se você quiser usar a **mesma conta** em diferentes dispositivos, você terá que fazer com que todos eles usem a mesma chave de criptografia:
 
     - No primeiro dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Exportar para Downloads"
     - Via USB, copie a chave da pasta "Downloads" do primeiro dispositivo para o segundo.
-- No segundo dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Importar de Downloads"
+    - No segundo dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Importar de Downloads"
 
 - **Nada disso é necessário** se você utilizar somente um dispositivo.
 
@@ -162,7 +162,7 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
 
 
-# Diversos
+# Diversos {#miscellaneous}
 
 ## Problemas de login
 
