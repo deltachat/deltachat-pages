@@ -30,5 +30,5 @@ Algumas funcionalidades
 
 # Saiba mais
 
-- [Delta torna sua conversa melhor](delta-makes-chatting-better)
+- [Delta torna sua conversa melhor](../en/delta-makes-chatting-better)
 
