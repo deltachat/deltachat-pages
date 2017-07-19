@@ -11,20 +11,20 @@ layout: default-pt
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>O aplicativo de mensagens com a <b>maior base de contatos</b> do mundo.<br/><b>Grátis</b>, <b>seguro</b>,  compatível com e-mail.</p>
+   <p>O aplicativo com <b>mais contatos</b> do mundo.<br/><b>Grátis</b>, <b>seguro</b> e compatível com e-mail.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Independente</h1>
-   <!-- <p><b>Sem novas dependências</b> a computadores e serviços estrangeiros. O aplicativo só usa o seu serviço de e-mail.</p> -->
-   <p><b>Não existe servidor do Delta Chat.</b><br/> O aplicativo somente usa seu servidor de e-mail.</p>
+   <!-- <p><b>Sem novas dependências</b> a serviços. O aplicativo usa o seu e-mail.</p> -->
+   <p><b>Não há servidor do Delta Chat.</b><br/> Ele usa o seu e-mail.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro3.png" alt="" />
    <h1>Rápido</h1>
-   <p><b>Envie mensagens</b> em segundos.<br/>Interface rápida.</p>
+   <p><b>Envie mensagens</b> em segundos.<br/>Interface leve.</p>
 </div>
 
 <div>
@@ -36,19 +36,19 @@ layout: default-pt
 <div>
    <img src="../assets/home/intro5.png" alt="" />
    <h1>Grátis</h1>
-   <p><b>Delta Chat</b> será sempre grátis.<br/>Código aberto. Sem propagandas. Sem pagamentos. Sem bloqueios.</p>
+   <p><b>Delta Chat</b> será sempre grátis.<br/>Código aberto. Sem propagandas, pagamentos ou bloqueios.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro6.png" alt="" />
    <h1>Seguro</h1>
-   <p><b>Criptografia</b> que utiliza algorítmos padrão. Suas mensagens ficam em seu servidor de e-mail.</p>
+   <p><b>Criptografia</b> com tecnologias abertas. Mensagens ficam no servidor de e-mail.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro7.png" alt="" />
    <h1>Confiável</h1>
-   <p><b>Delta Chat</b> é seguro para uso em negócios e é compatível com os padrões de uso.</p>
+   <p><b>Delta Chat</b> é seguro para negócios e é compatível com os padrões mais usados.</p>
 </div>
 
 </div></div>
