@@ -11,7 +11,7 @@ layout: default-de
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>Der Messenger mit der <b>größten Nutzerbasis</b> der Welt.<br><b>Frei</b>, <b>sicher</b>, E-Mail-kompatibel.</p>
+   <p>Der Messenger mit der <b>größten Reichweite</b> der Welt.<br><b>Frei</b>, <b>sicher</b>, E-Mail-kompatibel.</p>
 </div>
 
 <div>
