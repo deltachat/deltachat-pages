@@ -9,18 +9,16 @@ layout: default
 
 ![Screenshot](../assets/features/start-img4.png)
 
-So, with Delta Chat you get the **ease** of well-known messengers with the
-**reach** of email. Moreover, you're **independent** from other companies or
-services - as your data are not related to Delta Chat, you won't even add new
-dependencies here.
+Quindi, con Delta Chat si ottiene la **semplicità** delle note app di messaggistica unita alla
+**raggiungibilità** degli utenti via email. Inoltre, si è totalmente **indipendenti** da altre compagnie o servizi, dato che i propri dati non sono correlati a Delta Chat, non sarà necessario avere altre dipendenze.
 
 Alcune caratteristiche in un colpo d'occhio
 
-- **Non esiste alcun server diDelta Chat:** l'applicazione utilizza solo il proprio server email.
+- **Non esiste alcun server di Delta Chat:** l'applicazione utilizza solo il proprio server email.
 - **Veloce** grazie all'utilizzo di Push-IMAP
-- **Largest userbase** - receivers _not_ using Delta Chat can be reached as well
+- **Una vasta base di utenti** - i destinatari dei messaggi che _non_ usano Delta Chat potranno comunque essere raggiunti
 - **Compatibile** - non solo con se stessa
-- **Elegante** e **semplice** intefaccia utente
+- **Elegante** e **semplice** interfaccia utente
 - Sistema **Distribuito**
 - **Niente Spam** - solo i messaggi da utenti conosciuti vengono mostrati in modo predefinito
 - **Sicura** - anche per l'uso in ambito professionale
@@ -29,4 +27,4 @@ Alcune caratteristiche in un colpo d'occhio
 
 # Ulteriori informazioni
 
-- [Delta makes chatting better](delta-makes-chatting-better)
+- [Delta rende le chat migliori](delta-makes-chatting-better)
