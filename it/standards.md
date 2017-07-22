@@ -5,7 +5,7 @@ layout: default
 
 # Standard utilizzati in Delta Chat
 
-Per chiunque, tecnicamente interessatro, qui sono presenti alcuni degli standard su cui si basa Delta Chat.
+Per chiunque, tecnicamente interessato, qui sono presenti alcuni degli standard su cui si basa Delta Chat.
 
 Tasks                            | Standards
 ---------------------------------|---------------------------------------------
