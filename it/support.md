@@ -3,7 +3,7 @@ title: Support
 layout: default
 ---
 
-# Come suppurtare Delta Chat
+# Come supportare Delta Chat
 
 Delta Chat è open source ed è possibile supportarne lo sviluppo futuro.
 
@@ -38,7 +38,7 @@ Avete grandi idee o piccoli suggerimenti per questo  **sito web?** Basta aggiung
 
 # Segnalazione errori
 
-Usare i **sistemi di tracciamento** per segnalare errori o problemi. Se possibile, aggiungere un descrizione dettagliata; spesso è anche molto utile aquisire una schermata del problema.
+Usare i **sistemi di tracciamento** per segnalare errori o problemi. Se possibile, aggiungere un descrizione dettagliata; spesso è anche molto utile acquisire una schermata del problema.
 
 - [Android](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Core](https://github.com/deltachat/deltachat-core/issues)
