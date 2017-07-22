@@ -16,7 +16,7 @@ layout: default
 
 <div>
    <img src="../assets/home/intro2.png" alt="" />
-   <h1>Independente</h1>
+   <h1>Indipendente</h1>
    <!-- <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p> -->
    <p><b>Non esistono server di Delta Chat.</b><br/>L'applicazione utilizza il server della propria casella email.</p>
 </div>
@@ -36,7 +36,7 @@ layout: default
 <div>
    <img src="../assets/home/intro5.png" alt="" />
    <h1>Libera</h1>
-   <p><b>Delta Chat</b> sarà libera per sempre.<br/>OpenSource. Senza annunci. Nessuna registrazione. Senza alcun blocco dai fornitori.</p>
+   <p><b>Delta Chat</b> sarà libera per sempre.<br/>Open Source. Senza annunci. Nessuna registrazione. Senza alcun blocco dai fornitori.</p>
 </div>
 
 <div>
