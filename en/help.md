@@ -172,5 +172,5 @@ I have a problem with ...
 
 ## I'm interested in the technical details. Can you tell me more?
 
-- See page [Standards used in Delta Chat](standards).
+- See page [Standards used in Delta Chat](../en/standards).
 
