@@ -1,6 +1,6 @@
 ---
 title: Help
-layout: default
+layout: default-it
 ---
 
 # Domande frequenti (FAQ)
@@ -162,4 +162,4 @@ Ho un problema con ...
 
 ## Sono interessato ai dettagli tecnici. Posso avere ulteriori informazioni?
 
-- Consultare la pagina [Standard utilizzati in Delta Chat](standards).
+- Consultare la pagina [Standard utilizzati in Delta Chat](../en/	standards).

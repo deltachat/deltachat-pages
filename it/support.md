@@ -1,6 +1,6 @@
 ---
 title: Support
-layout: default
+layout: default-it
 ---
 
 # Come supportare Delta Chat

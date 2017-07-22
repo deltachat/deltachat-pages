@@ -1,6 +1,6 @@
 ---
 title: For Business
-layout: default
+layout: default-it
 ---
 
 # Per le aziende

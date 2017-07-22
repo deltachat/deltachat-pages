@@ -1,6 +1,6 @@
 ---
 title: Download
-layout: default
+layout: default-it
 ---
 
 # Scarica Delta Chat
@@ -11,6 +11,6 @@ layout: default
 
 * [Scarica da **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
 * [Scarica il **file di installazione .apk**](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
-* [Visualizza le modifiche](changelog)
+* [Visualizza le modifiche](../en/changelog)
 
 Google Play, iOS, Mac, Windows: consultare [questa pagina](support) per informazioni su come supportare lo sviluppo.

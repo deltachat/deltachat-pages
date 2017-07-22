@@ -1,6 +1,6 @@
 ---
 title: Why Delta Chat? Your Advantages.
-layout: default
+layout: default-it
 ---
 
 # Perché Delta Chat? I vantaggi.
@@ -27,4 +27,4 @@ Alcune caratteristiche in un colpo d'occhio
 
 # Ulteriori informazioni
 
-- [Delta rende le chat migliori](delta-makes-chatting-better)
+- [Delta rende le chat migliori](../en/delta-makes-chatting-better)
