@@ -27,4 +27,4 @@ Algunas de las principales características:
 
 # Conozca más
 
-- [Delta perfecciona la mensajería instantánea](delta-makes-chatting-better)
+- [Delta perfecciona la mensajería instantánea](../en/delta-makes-chatting-better)

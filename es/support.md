@@ -1,6 +1,6 @@
 ---
 title: Support
-layout: default
+layout: default-es
 ---
 
 # How to support us
