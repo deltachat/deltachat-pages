@@ -11,7 +11,7 @@ layout: default
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>The messenger with the <b>largest range</b> in the world.<br/><b>Free</b>, <b>safe</b>,  email compatible.</p>
+   <p>The messenger with the <b>largest range</b> in the world.<br/><b>Free</b>, <b>safe</b>, email compatible.</p>
 </div>
 
 <div>
@@ -72,4 +72,3 @@ layout: default
 [<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="filter: opacity(.3) grayscale(1);" />](download)
 
 [Download .apk manually](download)
-

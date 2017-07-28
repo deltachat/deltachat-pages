@@ -1,5 +1,5 @@
 ---
-title: The messenger
+title: Applicazione
 layout: default-it
 ---
 
@@ -11,14 +11,14 @@ layout: default-it
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>L'applicazione di messaggistica con la <b>maggiore estensione</b> nel mondo.<br/><b>Libera</b>, <b>sicura</b>,  compatibile con le email.</p>
+   <p>L'applicazione di messaggistica con la <b>maggiore estensione</b> nel mondo.<br/><b>Libera</b>, <b>sicura</b>, compatibile con le email.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Indipendente</h1>
    <!-- <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p> -->
-   <p><b>Non esistono server di Delta Chat.</b><br/>L'applicazione utilizza il server della propria casella email.</p>
+   <p><b>Non esistono server di Delta Chat.</b><br/>L'applicazione utilizza il server della vostra casella email.</p>
 </div>
 
 <div>
@@ -36,7 +36,7 @@ layout: default-it
 <div>
    <img src="../assets/home/intro5.png" alt="" />
    <h1>Libera</h1>
-   <p><b>Delta Chat</b> sarà libera per sempre.<br/>Open Source. Senza annunci. Nessuna registrazione. Senza alcun blocco dai fornitori.</p>
+   <p><b>Delta Chat</b> sarà libera per sempre.<br/>Open source. Senza annunci. Nessuna registrazione. Senza alcun blocco dai fornitori.</p>
 </div>
 
 <div>

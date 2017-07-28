@@ -1,5 +1,5 @@
 ---
-title: For Business
+title: Per le aziende
 layout: default-it
 ---
 
