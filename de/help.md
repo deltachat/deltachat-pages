@@ -25,7 +25,7 @@ layout: default-de
 ## Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
 - Unabhängigkeit von irgendwelchen Firmen. _Sie_ besitzen Ihre Daten
-- Ihre Daten landen nicht auf zentralen Servern. So schützt Delta Chat im Gegensatz zu den meisten anderern Messengern, sogar die Metadaten, d.h. wer mit wem kommuniziert
+- Ihre Daten landen nicht auf zentralen Servern. So schützt Delta Chat im Gegensatz zu den meisten anderern Messengern sogar die Metadaten, d.h. wer mit wem kommuniziert
 - Sie geben die Inhalte Ihres Adressbuches nicht weiter - was auch illegal ist, wenn Sie sich nicht die Zustimmung aller Ihrer Freunde, Bekannten und Geschäftspartner eingeholt haben.
 - Schnell und Zuverlässig, auch für den professionellen Einsatz
 - Riesige Nutzerbasis - Sie können auch Leute erreichen, die Delta Chat _nicht_ verwenden!

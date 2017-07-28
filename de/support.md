@@ -3,7 +3,7 @@ title: Support
 layout: default-de
 ---
 
-# Wie Sie uns unterstützen können!
+# Wie Sie uns unterstützen können
 
 Delta Chat wird als Open Source für Sie kostenlos zur Verfügung gestellt - und Sie können helfen, damit die Entwicklung weiter gehen kann!
 
