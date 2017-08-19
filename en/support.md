@@ -11,6 +11,7 @@ Delta Chat is open source and you can support the further development.
 
 Delta Chat development costs money. Your donation will support future improvements directly.
 
+- IBAN DE86100777770428658900, BIC NORSDE51XXX
 - PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/10)
 - Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
