@@ -16,6 +16,9 @@ Die Entwicklung von Delta Chat kostet Geld. Ihr Beitrag kann die Entwicklung dir
 - Paypal, Kreditkarte oder Lastschrift: [paypal.me/deltachat](https://paypal.me/deltachat/10)
 - Bitcoins an [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
+Jeder Euro zählt - Firmen stellen wir [auf Nachfrage hin](imprint) für Eingänge ab 500 Euro auch gerne eine Rechnung aus.
+
+
 # Übersetzungen
 
 Helfen Sie, das Projekt mit [Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) zu **lokalisieren**.
