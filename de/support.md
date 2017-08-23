@@ -8,14 +8,13 @@ layout: default-de
 Delta Chat wird als Open Source für Sie kostenlos zur Verfügung gestellt - und Sie können helfen, damit die Entwicklung weiter gehen kann!
 
 
-## Spenden
+## Geld
 
-Die Entwicklung von Delta Chat kostet Geld. Ihre Spende kann die Entwicklung direkt voranbringen.
+Die Entwicklung von Delta Chat kostet Geld. Ihr Beitrag kann die Entwicklung direkt voranbringen.
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX
 - Paypal, Kreditkarte oder Lastschrift: [paypal.me/deltachat](https://paypal.me/deltachat/10)
 - Bitcoins an [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
 
 # Übersetzungen
 
