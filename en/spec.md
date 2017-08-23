@@ -258,6 +258,10 @@ This allows the receiver to show the time without knowing the file format.
     Chat-Voice-Message: 1
     Chat-Duration: 10000
 
+Messengers MAY send and receive Message Disposition Notifications (MDNs, [RFC 8098](https://tools.ietf.org/html/rfc8098), [RFC 3503](https://tools.ietf.org/html/rfc3503)) 
+using the `Chat-Disposition-Notification-To` header instead of the `Disposition-Notification-To` (which unfortunatelly forces many other MUAs to send weird mails not following any
+standard).
+
 
 ## Sync messages
 

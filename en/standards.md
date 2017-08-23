@@ -18,7 +18,7 @@ Configuration assistance         | [Autoconfigure](https://developer.mozilla.org
 Messenger functions              | [Email-chat v0.9.0](https://delta.chat/en/spec)
 Detect mailing list              | List-Id ([RFC 2919](https://tools.ietf.org/html/rfc2919)) and Precedence ([RFC 3834](https://tools.ietf.org/html/rfc3834))
 Send and receive system messages | Multipart/Report Media Type ([RFC 6522](https://tools.ietf.org/html/rfc6522))
-Return receipts                  | Message Disposition Notification (MDN, [RFC 8098](https://tools.ietf.org/html/rfc8098), [RFC 3503](https://tools.ietf.org/html/rfc3503))
+Return receipts                  | Message Disposition Notification (MDN, [RFC 8098](https://tools.ietf.org/html/rfc8098), [RFC 3503](https://tools.ietf.org/html/rfc3503)) using the Chat-Disposition-Notification-To header
 
 Delta Chat itself is licensed under the GPL license.
 If you want to know, whether a concrete feature is supported, a look into the [source code](https://github.com/deltachat) may help.
