@@ -5,6 +5,25 @@ layout: default
 
 # Delta Chat Changelog
 
+## v0.9.4
+2017-08-23
+
+* Introduce an editable "Status" field that is shown eg. in email footers
+* Editable and synchronized group images
+* Show the subject of messages that cannot be decrypted
+* Do not send "Read receipts" when decryption fails
+* Deleting a chat always deletes all messages from the device permanently
+* Ignore messages from mailing lists
+* Do not spread the original authors name nor address on forwarding
+* Encrypt mails send to SMTP and to IMAP the same way
+* Improve showing HTML-mails
+* Cleanup Android code
+* Remove badge counter on app restart
+* Add Ukrainian translation
+* Add Telugu translation
+* Add Catalan translation
+* Update German, Spanish, French, Hungarian, Italian, Polish, Portuguese and Russian translations
+
 ## v0.9.3
 2017-07-13
 
