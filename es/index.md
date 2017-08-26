@@ -5,7 +5,7 @@ layout: default-es
 
 <!-- The content slider must have exactly 7 pages! -->
 <!-- START OF CONTENT SLIDER -->
-<link rel="stylesheet" property="stylesheet" href="../layout/content-slider.css" type="text/css" />
+<link rel="stylesheet" property="stylesheet" href="../assets/css/content-slider.css" type="text/css" />
 <div id="contentContainer"><div id="contentWrapper">
 
 <div>
@@ -64,7 +64,7 @@ layout: default-es
   </ul>
 </div>
 <h2 style="font-size:16px"><i>“¡Devolvamos su esplendor al Correo Electrónico!”</i></h2>
-<script src="../layout/content-slider.js"></script>
+<script src="../assets/css/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 
 [<img src="../assets/home/get-it-on-fdroid.png" alt="Instala desde F-Droid" width="200" />](Instalar)

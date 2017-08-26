@@ -152,6 +152,6 @@ pre, blockquote { padding: 0.5em 1em; }
 .feed {
   margin-left: 3px;
   padding: 0 0 0 19px;
-  background: url("../layout/feed-icon.png") no-repeat 0 50%;
+  background: url("../assets/css/feed-icon.png") no-repeat 0 50%;
 } 
 

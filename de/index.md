@@ -5,7 +5,7 @@ layout: default-de
 
 <!-- Content-Slider mit EXAKT 7 Seiten, kein Markdown -->
 <!-- START OF CONTENT SLIDER -->
-<link rel="stylesheet" property="stylesheet" href="../layout/content-slider.css" type="text/css" />
+<link rel="stylesheet" property="stylesheet" href="../assets/css/content-slider.css" type="text/css" />
 <div id="contentContainer"><div id="contentWrapper">
 
 <div>
@@ -64,7 +64,7 @@ layout: default-de
     <li class="itemLinks" data-pos="6"></li>
   </ul>
 </div>
-<script src="../layout/content-slider.js"></script>
+<script src="../assets/css/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 
 [<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)

@@ -30,8 +30,8 @@ Directory structure
 
 - `/en` `/de` .. directories containing all language files. Subdirectories in these directories are _not allowed_ (relative links will fail then)
 - `/_layouts` - this directory contains a default layout template for each language (the layout is references in Markdown using _layout: name_)
-- `/layout` - CSS and layout specific images and files here.
-- `/assets` - page specific images and files; in general, we use one subdirectory per page here
+- `/assets` - page specific images and files; in general, we use one subdirectory per page or section here
+- `/assets/css` - CSS and layout specific images and files here.
 
 If you **add a new language** do not forget to check the automatic language selection in `index.html` in the root directory.
 
