@@ -36,7 +36,8 @@ body {
 }	
 
 #content p img {
-    max-width: 100%;
+    max-width: 100% !important;
+    max-height: 600px; /*avoid portrait smartphone screenshots becoming too big*/
     height: auto;
 }
 
