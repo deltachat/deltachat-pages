@@ -6,7 +6,7 @@ layout: default
 # Why Delta Chat? Your Advantages.
 
 **Delta Chat** is a project that aims to create a messaging app that is
-completely **compatible** to the existing email-infrastructure.
+completely **compatible** to the existing **decentral** email-infrastructure.
 
 ![Screenshot](../assets/features/start-img4.png)
 
