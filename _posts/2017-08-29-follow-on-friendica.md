@@ -3,7 +3,7 @@ title: Follow our news on friendica network
 ---
 
 You can follow our news now on **friendica** network. If you want to follow,
-please connect profile [delta_chat@ennibook.de]https://ennibook.de/profile/delta_chat
+please connect profile [delta_chat@ennibook.de](https://ennibook.de/profile/delta_chat)
 
 **What is the friendica network?**
 Friendica is a communications platform for integrated social communications utilising
