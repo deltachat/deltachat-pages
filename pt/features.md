@@ -1,18 +1,18 @@
 ---
-title: Por que Delta Chat? Suas vantagens.
+title: Por que usar o Delta Chat? Suas vantagens.
 layout: default-pt
 ---
 
-# Por que Delta Chat? Suas vantagens.
+# Por que usar o Delta Chat? Suas vantagens.
 
 **Delta Chat** é um projeto que visa criar um aplicativo de mensagens que seja
 completamente **compatível** com a infraestrutura de e-mails existente.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-Então, com o Delta Chat você tem a **facilidade** dos aplicativos de mensagem com o
+Deste modo, com o Delta Chat você tem a **facilidade** dos aplicativos de mensagem com o
 **alcance** do e-mail. E mais, você se torna **independente** de companhias ou
-serviços - afinal seus dados não se vinculam ao Delta Chat, de modo que você não ficará
+serviços - afinal seus dados não se vinculam ao Delta Chat e você não ficará
 dependente dele.
 
 Algumas funcionalidades
@@ -20,15 +20,15 @@ Algumas funcionalidades
 - **Não existe um servidor central do Delta Chat:** O aplicativo usa seu e-mail.
 - **Rápido** pelo uso do Push-IMAP
 - **Maior número de usuários** - os destinatários _não_ precisam usar o Delta Chat
-- **Compatível** - não somente com si próprio
+- **Compatível** - não somente com ele próprio
 - **Elegante** e **simples**
 - **Distribuído** 
 - **Sem Spam** - somente mensagens de usuários autorizados são exibidas por padrão
 - **Confiável** - seguro para uso profissional
 - **Seguro** - pode até mesmo ser utilizado para seus negócios
-- Totalmente desenvolvido com **código aberto** e baseado em **padrões**
+- Totalmente desenvolvido com **código aberto** e baseado nos **padrões** mais usados
 
 # Saiba mais
 
-- [Delta torna sua conversa melhor](../en/delta-makes-chatting-better)
+- [Delta torna sua conversa melhor (em inglês)](../en/delta-makes-chatting-better)
 
