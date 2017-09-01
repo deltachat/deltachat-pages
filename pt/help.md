@@ -30,13 +30,13 @@ layout: default-pt
 - Você não entrega sua agenda de contatos para ninguém.
 - _Rápido_ pelo uso do Push-IMAP
 - _Maior base de usuários_ - destinatários que _não_ usam o Delta Chat podem ser contatados também
-- _Compatível_ - não só consigo mesmo
+- _Compatível_ - não só com ele próprio
 - _Elegante_ e _simples_
 - _Distribuído_
 - _Sem Spam_ - somente mensagens de contatos conhecidos são mostrados por padrão
 - _Confiável_ - seguro para uso profissional
 - _Seguro_ - pode até mesmo ser utilizado em seus negócios
-- Totalmente de _código aberto_ e baseado em _padrões_
+- Totalmente de _código aberto_ e baseado nos _padrões_ mais usados
 
 
 ## E se o destinatário não usar o Delta Chat?
@@ -55,7 +55,7 @@ O Delta Chat automaticamente exibe ...
 - **Respostas** a mensagens enviadas por você
 
 Outras mensagens não aparecem automaticamente. Você poderá as ver no menu
-princial em **Requisições de contato** e, se desejar, começar a conversar.
+princial em **Requisições de contato** e, se desejar, comece a conversar.
 
 ## E o Spam?
 
@@ -105,37 +105,37 @@ princial em **Requisições de contato** e, se desejar, começar a conversar.
 
 # Criptografia {#encryption}
 
-## O Delta Chat tem criptografia ponta-a-ponta?
+## O Delta Chat tem criptografia ponta a ponta?
 
 - Sim.
 
-## O que eu preciso fazer para ativar a criptografia ponta-a-ponta?
+## O que eu preciso fazer para ativar a criptografia ponta a ponta?
 
 - Nada.
 
-- O Delta Chat (e outros programas compatíveis com a tecnologia Autocrypt) compatilham, na
-primeira mensagem, as chaves necessárias para ativar a criptografia ponta-a-ponta. Depois
-todas as mensagens posteriores são criptografadas ponta-a-ponta automaticamente. Se um dos
+- O Delta Chat (e outros programas compatíveis com a tecnologia Autocrypt) compartilham, na
+primeira mensagem, as chaves necessárias para ativar a criptografia ponta a ponta. Depois
+todas as mensagens posteriores são criptografadas ponta a ponta automaticamente. Se um dos
 participantes da conversa não estiver usando um programa que comporte criptografia, a
 criptografia fica suspensa enquanto isso, até ser reativada novamente, quando possível.
 
-- Se você quiser _desativar_ a criptografia ponta-a-ponta, faça-o no menu 
+- Se você quiser _desativar_ a criptografia ponta a ponta, faça-o no menu 
 "Configurações / Configurações avançadas".
 
-## Se a criptografia ponta-a-ponta não estivar ativa a conexão estará completamente descriptografada?
+## Se a criptografia ponta a ponta não estivar ativa a conexão estará completamente descriptografada?
 
 - Não. A criptografia padrão de _tráfego_ será utilizada.
 
-## Como posso certificar-me de que a criptografia ponta-a-ponta está ativada?
+## Como posso certificar-me de que a criptografia ponta a ponta está ativada?
 
 Acesse o menu "Criptografia" do perfil do contato:
 
-- Para a criptografia ponta-a-ponta, o Delta Chat mostra duas impressões. Se combinarem com
+- Para a criptografia ponta a ponta, o Delta Chat mostra duas impressões. Se combinarem com
 as impressões do celular do seu contato, a conexão está cifrada.
 
 - No caso de criptografia padrão de tráfego, sua utilização será exibida no mesmo menu.
 
-## Quais padrões são usados para a criptografia ponta-a-ponta?
+## Quais padrões são usados para a criptografia ponta a ponta?
 
 OpenPGP. A troca de chaves é feita via Autocrypt. - 
 
