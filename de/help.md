@@ -166,9 +166,9 @@ Neben der Nachricht wird ein **kleines Schloss** angezeigt: Dieses sagt aus, das
 
 Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Option "Verschlüsselung" überprüfen:
 
-- bei einer Ende-zu-Ende-Verschlüsselung werden hier zwei Fingerabdrücke angezeigt; vergleichen Sie diese mit der Anzeige auf dem Gerät des Partners über einen anderen Kanal (persönliches Treffen, Telefon, ...)
+- bei einer Ende-zu-Ende-Verschlüsselung werden hier zwei Zahlen-Buchstaben-Folgen (sog. Fingerabdrücke) angezeigt; vergleichen Sie diese mit der Anzeige auf dem Gerät des Partners über einen anderen Kanal (persönliches Treffen, Telefon, ...)
 
-- bei einer Transportverschlüsselung wir dieser Status hier angezeigt.
+- bei einer Transportverschlüsselung wird dieser Status hier angezeigt.
 
 Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat is Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/deltachat/).
 
