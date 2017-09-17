@@ -19,6 +19,6 @@ description:  Instant messanging based on email
 url:          https://delta.chat
 
 # add plugins
-gems:
+plugins:
   - jekyll-sitemap
 
