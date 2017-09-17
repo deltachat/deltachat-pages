@@ -5,9 +5,9 @@ layout: default
 
 # Delta makes chatting better
 
-_All chat now with WhatsApp, Instagram or similar - well not all, but quite a lot. About six billion email addresses exist in the world and over one billion chat now, instead of emailing. Just why? Chatting is the easiest way to communicate._
+_All chat is now done with WhatsApp, Instagram or similar apps - well not all, but quite a lot. About six billion email addresses exist in the world and over one billion use chat now, instead of emailing. Why? Chatting is the easiest way to communicate._
 
-This ease is rewarded. And that, although there are several **rubs**. Both the sender and the recipient must register both at WhatsApp or at comparable trade fairs. Only then it is easy. The small hurdle is quickly done if the sender persuades the recipient to take part in WhatsApp, too - especially if the new member passes the 20 pages of the **Terms and Conditions** with a quick checkmark - without having to read this annoying test. For what? He wants to get in, where all his friends are already long. 
+This ease is rewarded. And that, although there are several **rubs**. Both the sender and the recipient must register both at WhatsApp or at comparable trade fairs. Only then it is easy. The small hurdle is quickly done if the sender persuades the recipient to take part in WhatsApp, too - especially if the new member passes the 20 pages of the **Terms and Conditions** with a quick checkmark - without having to read this annoying test. What for? He wants to get in, where all his friends already are. 
 
 With 29 dollars in favor of WhatsApp, the market judged this free advertising of a new member, at the time when Facebook bought WhatsApp.
 
@@ -19,14 +19,14 @@ Data **protectionists**, sometimes even parents, criticized the business with th
 
 And what do the **e-mail operators** actually do, as their competitors are growing rapidly and more and more customers migrate? They do not do anything??. No e-mail provider had so far made their lives as easy as WhatsApp & Co. could. Perhaps they just admire the problem.
 
-Everything not so **important**? Thinking experiment: Imagine that WhatsApp was already invented in the Weimar Republic. Then the Nazis came to power. Now the Gestapo has to pay a very discreet visit to only a few corporations, and they already know every Jew, regime boss - even if they were never on WhatsApp. And they know who blows with whom. With the aid of the movement profiles, they also know where the best would be to arrest. Spinning Look to Poland, Hungary, America, Turkey
+Everything not so **important**? Here's a thought experiment: Imagine that WhatsApp was already invented in the Weimar Republic. Then the Nazis came to power. Now the Gestapo has to pay a very discreet visit to only a few corporations, and they already know every Jew, regime boss - even if they were never on WhatsApp. And they know who blows with whom. With the aid of the movement profiles, they also know where the best would be to arrest. Spinning Look to Poland, Hungary, America, Turkey
 
 ![Delta Chat Logo](/assets/home/intro1.png)
 
-Since some days, there is a real **alternative** to WhatsApp. It is called "Delta Chat". Who is the new app on his mobile phone, can chat with six billion users - without having to persuade them once, to switch somewhere. Just email more, but now like chatting with selected people. Delta Chat feels like WhatsApp. If the partners want the same feeling, both delta chat load on their mobile phone - and both chat as with WhatsApp. But they must not have. One can also choose to chat alone.
+Now, there is a real **alternative** to WhatsApp. It is called "Delta Chat". Whoever uses this new app on their mobile phone can already chat with six billion users - without having to persuade them to switch. Just email more, but now like chatting with selected people. Delta Chat feels like WhatsApp. If the partners want the same feeling, both can load Delta Chat on their mobile phone - and both chat as with WhatsApp. But they don't have to; one can also choose to chat alone.
 
-**Why Delta Chat is better?** It takes advantage of WhatsApp immediately. Without having to make any convincing work, it is a l l e people on this planet who have an e-mail address - not just the WhatsApp members. If you want, use Delta Chat. Or not. Then he mails further classic.
+**Why is Delta Chat better?** It has an immediate advantage over WhatsApp; without having to convince anyone, you can already chat with anyone who has an e-mail address - not just the WhatsApp members. If you want, use Delta Chat. Or not.
 
-Many **reasons** speak for Delta Chat. It 's fun to chat with friends, that' s the point! It is data protection clean, in everyday life unfortunately no noticeable advantage. It brings fun, David vs. Goliath. Also be a bit of David. If you want to persuade somebody to join WhatsApp in the future, just answer "Delta Chat".
+Many **reasons** speak for Delta Chat. It's fun to chat with friends, that's the point! It is data protection clean, in everyday life unfortunately no noticeable advantage. It brings fun, David vs. Goliath. Also be a bit of David. If you want to persuade somebody to join WhatsApp in the future, just answer "Delta Chat".
 
-What is **missing** (still)? Delta Chat runs on Android. The versions for Apple, Blackberry, etc. still need support. The same applies to the installation of the "end-to-end" encryption. And a lot of gameplay - there will probably never be a "finished".
+What is **missing** (still)? Delta Chat runs on Android. The versions for Apple, Blackberry, etc. still need support. The same applies to the installation of the "end-to-end" encryption. And a lot of testing - they will probably never be "finished".
