@@ -18,13 +18,13 @@ layout: default
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Independent</h1>
    <!-- <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p> -->
-   <p><b>There is no Delta Chat-server.</b><br/>The app only uses your email-server.</p>
+   <p><b>There is no Delta Chat server.</b><br/>The app only uses your email server.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro3.png" alt="" />
    <h1>Fast</h1>
-   <p><b>Push-messages</b> in seconds.<br/>Rapid interface.</p>
+   <p><b>Push messages</b> in seconds.<br/>Rapid interface.</p>
 </div>
 
 <div>
@@ -36,7 +36,7 @@ layout: default
 <div>
    <img src="../assets/home/intro5.png" alt="" />
    <h1>Free</h1>
-   <p><b>Delta Chat</b> ist free forever.<br/>OpenSource. No ads. No subscription. No vendor lock-in.</p>
+   <p><b>Delta Chat</b> is free forever.<br/>Open Source. No ads. No subscription. No vendor lock-in.</p>
 </div>
 
 <div>
