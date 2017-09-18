@@ -6,7 +6,7 @@ layout: default
 # Why Delta Chat? Your Advantages.
 
 **Delta Chat** is a project that aims to create a messaging app that is
-completely **compatible** to the existing **decentralized** email-infrastructure.
+completely **compatible** to the existing **decentral** email-infrastructure.
 
 ![Screenshot](../assets/features/start-img4.png)
 
@@ -15,7 +15,7 @@ So, with Delta Chat you get the **ease** of well-known messengers with the
 services - as your data are not related to Delta Chat, you won't even add new
 dependencies here.
 
-Some features at a glance:
+Some features at a glance
 
 - **There is no Delta Chat-server:** The app only uses your email-server.
 - **Fast** by the use of Push-IMAP
@@ -26,7 +26,7 @@ Some features at a glance:
 - **No Spam** - only messages of known users are shown by default
 - **Reliable** - safe for professional use
 - **Trustworthy** - can even be used for business messages
-- Fully **open source** and **standards** based
+- fully **open source** and **standards** based
 
 # Learn more
 
