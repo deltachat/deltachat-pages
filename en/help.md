@@ -134,6 +134,20 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 # Miscellaneous
 
+## Delta Chat on Linux Desktop
+
+- You can run Delta Chat on Ubuntu Linux desktop (or other linux distribution supporting the snap package format) by simply installing [anbox](https://anbox.io) from terminal:
+
+  $ *sudo snap install --classic anbox-installer && anbox-installer*
+
+- To add the delta chat application, download the *com.b44t.messenger_433.apk* file from homepage and install it from terminal:
+
+  $ *adb install path/to/com.b44t.messenger_433.apk* 
+  
+  adb is the Android Debug Bridge and can be installed from repository
+  
+  
+
 ## Login Issues
 
 I have a problem with ...
