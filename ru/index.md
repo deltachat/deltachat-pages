@@ -1,6 +1,6 @@
 ---
 title: Мессенджер
-layout: default
+layout: default-ru
 ---
 
 <!-- The content slider must have exactly 7 pages! -->

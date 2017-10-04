@@ -1,6 +1,6 @@
 ---
 title: Блог
-layout: default
+layout: default-ru
 ---
 
 # Блог

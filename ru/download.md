@@ -1,6 +1,6 @@
 ---
 title: Скачать
-layout: default
+layout: default-ru
 ---
 
 # Скачать Delta Chat

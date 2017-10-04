@@ -1,6 +1,6 @@
 ---
 title: Support
-layout: default
+layout: default-ru
 ---
 
 # Как поддержать нас

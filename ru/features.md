@@ -1,6 +1,6 @@
 ---
 title: Почему Delta Chat? Ваши преимущества.
-layout: default
+layout: default-ru
 ---
 
 # Почему Delta Chat? Ваши преимущества.

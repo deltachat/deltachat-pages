@@ -1,6 +1,6 @@
 ---
 title: Помощь
-layout: default
+layout: default-ru
 ---
 
 # Часто задаваемые вопросы
