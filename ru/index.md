@@ -71,4 +71,4 @@ layout: default
 [<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="filter: opacity(.3) grayscale(1);" />](download)
 [<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="filter: opacity(.3) grayscale(1);" />](download)
 
-[Download .apk manually](download)
+[Скачать файл .apk вручную](download)
