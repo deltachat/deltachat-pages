@@ -1,6 +1,6 @@
 ---
 title: Выходные данные
-layout: default
+layout: default-ru
 ---
 
 # Выходные данные
