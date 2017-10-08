@@ -5,6 +5,18 @@ layout: default
 
 # Delta Chat Changelog
 
+## v0.9.5
+2017-10-08
+
+* Backup export and import function
+* Query password before export
+* Move replies from normal E-Mail-Clients to the "Chats" folder
+* Improve helping MUAs on showing chat threads
+* Improve onboarding
+* Add URL to default footer
+* Test a different approach for battery saving in this release
+* Update French, Italian, German, Polish, Portuguese, Russian and Ukrainian translations
+
 ## v0.9.4
 2017-08-23
 
