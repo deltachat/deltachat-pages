@@ -20,7 +20,7 @@ Some features at a glance:
 - **There is no Delta Chat-server:** The app uses your email-server.
 - **Fast notifications** by the use of Push-IMAP
 - **Largest userbase** - _all E-Mail addresses_ can be reached, even receivers not (yet) using Delta Chat
-- **Compatible** - can correspond with any other E-Mail Software
+- **Compatible** - can correspond with every other E-Mail Software
 - **Elegant** and **simple** user interface
 - **Secure** - automatically encypts messages with contacts if possible (lock symbol shows)
 - **Distributed** system, works based on the federation of email servers
