@@ -17,13 +17,14 @@ dependencies here.
 
 Some features at a glance:
 
-- **There is no Delta Chat-server:** The app only uses your email-server.
-- **Fast** by the use of Push-IMAP
-- **Largest userbase** - receivers _not_ using Delta Chat can be reached as well
-- **Compatible** - not only to itself
+- **There is no Delta Chat-server:** The app only connects to your email-server.
+- **Fast notifications** by the use of Push-IMAP
+- **Largest userbase** - _all E-Mail addresses_ can be reached, even receivers not (yet) using Delta Chat
+- **Compatible** - correspond with every other E-Mail Software
 - **Elegant** and **simple** user interface
-- **Distributed** system
-- **No Spam** - only messages of known users are shown by default
+- **Secure** - if possible, automatically encypts messages (lock symbol shows)
+- **Distributed** communicates with other domains based on the federation of email servers
+- **No Spam** - only messages of known contacts are shown by default
 - **Reliable** - safe for professional use
 - **Trustworthy** - can even be used for business messages
 - Fully **open source** and **standards** based
