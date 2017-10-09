@@ -15,7 +15,7 @@ layout: default
 
 ## To whom can I write?
 
-- With Delta Chat, you can write to users using Delta Chat - or any other existing e-mail-client. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
+- With Delta Chat, you can write to every existing e-mail address - even if the receipient is not (yet) using the Delta Chat App. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
 
 ## What are the advantages of Delta Chat compared to other messengers?
 
