@@ -10,7 +10,7 @@ layout: default-it
 Per scaricare la versione attuale utilizzare una delle seguenti fonti:
 
 * [Scarica da **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
-* [Scarica il **file di installazione .apk**](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)
+{% include f-droid_apk_download.md %}
 * [Visualizza le modifiche](../en/changelog)
 
 Google Play, iOS, Mac, Windows: consultare [questa pagina](support) per informazioni su come supportare lo sviluppo.
