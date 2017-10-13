@@ -10,7 +10,7 @@ How to create a new blog post
 
 - In the directory `_posts` add a new file in the form `YYYY-MM-DD-title.md` (or copy an existing file)
 - Write your blog post to the file and do not forget to add or modify the `title:` line
-- That's all, the result goes to https://delta.chat/en/blog
+- That's all, the result goes to https://delta.chat/en/blog , the [RSS-Feed](https://delta.chat/feed.xml) and also to [Twitter @delta_chat](https://twitter.com/delta_chat).
 
 Some Hints
 --------------------------------------------------------------------------------
