@@ -34,12 +34,12 @@ Starten  Sie sofort - Sie benötigen nur Ihre E-Mail-Adresse und müssen Ihre Ko
 Einige Features:
 
 - Delta Chat ist der Messenger mit der größte Nutzerbasis der Welt
-- **Es gibt keinen Delta Chat-Server:** Zur Kommunikation wird aussschließlich Ihr E-Mail-Server verwendet
+- **Es gibt keinen Delta Chat-Server:** Zur Kommunikation wird ausschließlich Ihr E-Mail-Server verwendet
 - Sprachnachrichten, Bilder und Videos in Sekundenschnelle verschicken und empfangen
 - **Schnell** und zuverlässig
 - Gruppenchats
 - **Archivierbar** und nachvollziehbar
-- **Größte Nutzerbasis** aller Messenger - Empfänger, die Delta Chat nicht verwenden, kommunizieren mit jedem bliebigen E-Mail-Client
+- **Größte Nutzerbasis** aller Messenger - Empfänger, die Delta Chat nicht verwenden, kommunizieren mit jedem beliebigen E-Mail-Client
 - **Verteiltes** System, keine Abhängigkeit von einer externen Firma
 - Alle Daten bleiben auf den eigenen Computern - dies macht Delta Chat auch für geschäftliche Prozesse attraktiv
 - **Verschlüsselt**

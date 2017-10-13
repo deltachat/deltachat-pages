@@ -25,7 +25,7 @@ layout: default-de
 ## Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
 - Unabhängigkeit von irgendwelchen Firmen. _Sie_ besitzen Ihre Daten
-- Ihre Daten landen nicht auf zentralen Servern. So schützt Delta Chat im Gegensatz zu den meisten anderern Messengern sogar die Metadaten, d.h. wer mit wem kommuniziert
+- Ihre Daten landen nicht auf zentralen Servern. So schützt Delta Chat im Gegensatz zu den meisten anderen Messengern sogar die Metadaten, d.h. wer mit wem kommuniziert
 - Sie geben die Inhalte Ihres Adressbuches nicht weiter - was auch illegal ist, wenn Sie sich nicht die Zustimmung aller Ihrer Freunde, Bekannten und Geschäftspartner eingeholt haben.
 - Schnell und Zuverlässig, auch für den professionellen Einsatz
 - Riesige Nutzerbasis - Sie können auch Leute erreichen, die Delta Chat _nicht_ verwenden!
@@ -52,7 +52,7 @@ layout: default-de
 
 In Delta Chat erscheinen automatisch nur:
 
-- Nachrichten von Kontakten aus Ihrem **Addressbuch**
+- Nachrichten von Kontakten aus Ihrem **Adressbuch**
 - Nachrichten von Kontakten, die Sie **selbst kontaktiert** haben
 - Nachrichten von bekannten **Kontakten Ihrer Kontakte**
 - **Antworten** auf Ihre Nachrichten
@@ -140,17 +140,17 @@ weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
 
 # Verschlüsselung {#verschluesselung}
 
-## Gibt es eine Ende-zu-Ende-Verschlüsseung?
+## Gibt es eine Ende-zu-Ende-Verschlüsselung?
 
 - Ja.
 
-## Was muss ich tun, um die Ende-zu-Ende-Verschlüsseung zu aktivieren?
+## Was muss ich tun, um die Ende-zu-Ende-Verschlüsselung zu aktivieren?
 
 - Nichts.
 
 - Delta Chat (und andere Autocrypt-kompatible E-Mail-Programme) tauschen die Schlüssel selbständig mit den ersten versendeten Nachrichten aus.
 Danach ist die Verbindung Ende-zu-Ende-verschlüsselt. Verwenden Sie oder Ihr Chatpartner zwischenzeitlich ein Programm, das nicht automatisch Ende-zu-Ende verschlüsseln kann,
-wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetz - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
+wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetzt - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
 
 - Wenn Sie die Ende-zu-Ende-Verschlüsselung _deaktivieren_ möchten, können Sie dies in unter _Fortgeschrittene Einstellungen_ tun.
 Wie gesagt, standardmäßig ist sie _an_ und die Verbindung sicher, sobald dies möglich ist.
@@ -170,7 +170,7 @@ Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Op
 
 - bei einer Transportverschlüsselung wird dieser Status hier angezeigt.
 
-Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat is Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/deltachat/).
+Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat ist Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/deltachat/).
 
 ## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
 
@@ -210,7 +210,7 @@ Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie
 
   $ *sudo snap install --classic anbox-installer && anbox-installer*
 
-- und dann die Delta Chat App integrierst, in dem du die von dieser Seite heruntegeladenen Datei *com.b44t.messenger_433.apk* über das Terminal zu **Anbox** hinzufügst:
+- und dann die Delta Chat App integrierst, in dem du die von dieser Seite heruntergeladenen Datei *com.b44t.messenger_433.apk* über das Terminal zu **Anbox** hinzufügst:
 
   $ *adb install path/to/com.b44t.messenger_433.apk* 
   

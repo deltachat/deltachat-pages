@@ -18,7 +18,7 @@ layout: default-de
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Unabhängig</h1>
    <!-- <p><b>Keine Abhängigkeiten</b> von Konzernen und fremden Servern. Die App verwendet nur den E-Mail-Server Ihrer Wahl.</p> -->
-   <p><b>Es gibt keinen Delta Chat-Server:</b> Zur Kommunikation wird aussschließlich Ihr E-Mail-Server verwendet.</p>
+   <p><b>Es gibt keinen Delta Chat-Server:</b> Zur Kommunikation wird ausschließlich Ihr E-Mail-Server verwendet.</p>
 </div>
 
 <div>
