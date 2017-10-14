@@ -206,15 +206,15 @@ Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie
 
 ## Delta Chat auf dem Linux Desktop
 
-- Du kannst Delta Chat unter Ubuntu Linux (oder anderen Linux Distributionen, die das **snap** -Paketformat unterstützen) auf dem  Desktop nutzen, in dem du [anbox](https://anbox.io) über das Terminal installierst:
+- Du kannst Delta Chat unter Ubuntu Linux (oder anderen Linux Distributionen, die das **snap**-Paketformat unterstützen) auf dem  Desktop nutzen, in dem du [anbox](https://anbox.io) (Android in a Box) über das Terminal installierst:
 
   $ *sudo snap install --classic anbox-installer && anbox-installer*
 
-- und dann die Delta Chat App integrierst, in dem du die von dieser Seite heruntergeladenen Datei *com.b44t.messenger_433.apk* über das Terminal zu **Anbox** hinzufügst:
+- und dann die Delta Chat App intstallierst, in dem du die von [dieser](download) Seite heruntergeladenen Datei *com.b44t.messenger_\<version\>.apk* über das Terminal zu **Anbox** hinzufügst:
 
-  $ *adb install path/to/com.b44t.messenger_433.apk* 
+  $ *adb install pfad/zu/com.b44t.messenger_\<version\>.apk* 
   
-  adb ist die *Android Debug Bridge* und kann aus den Repositories installiert werden
+  adb ist die *Android Debug Bridge* und kann aus den Repositories installiert werden.
 
 # Verschiedenes
 
