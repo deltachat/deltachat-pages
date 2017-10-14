@@ -63,13 +63,8 @@ layout: default-es
     <li class="itemLinks" data-pos="6"></li>
   </ul>
 </div>
-<h2 style="font-size:16px"><i>“¡Devolvamos su esplendor al Correo Electrónico!”</i></h2>
 <script src="../assets/css/content-slider.js"></script>
 <!-- END OF CONTENT SLIDER -->
 
-[<img src="../assets/home/get-it-on-fdroid.png" alt="Instala desde F-Droid" width="200" />](Instalar)
-<!--[<img src="../assets/home/get-it-on-gplay.png" alt="Instala desde Google Play" width="200" />](download)
-[<img src="../assets/home/get-it-on-ios.png" alt="Descarga en Apple AppStore" width="200" />](download) -->
-
-[Descarga .apk directamente](Descargar)
+[<img src="../assets/home/get-it-on-fdroid.png" alt="Instala desde F-Droid" width="200" />](download)
 
