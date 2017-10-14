@@ -11,44 +11,43 @@ layout: default-de
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>Der Messenger mit der <b>größten Reichweite</b> der Welt.<br>Sicher. Dezentral. E-Mail-kompatibel.</p>
+   <p>Der Messenger mit der <b>größten Reichweite</b> der Welt.<br><b>Kostenlos</b> und <b>sicher</b>.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Unabhängig</h1>
-   <!-- <p><b>Keine Abhängigkeiten</b> von Konzernen und fremden Servern. Die App verwendet nur den E-Mail-Server Ihrer Wahl.</p> -->
-   <p><b>Es gibt keinen Delta Chat-Server:</b> Zur Kommunikation wird ausschließlich Ihr E-Mail-Server verwendet.</p>
+   <p><b>Keine Abhängigkeiten</b> von fremden Diensten und Servern. Die App verwendet nur Ihren E-Mail-Server.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro3.png" alt="" />
    <h1>Schnell</h1>
-   <p>Push-Nachrichten in <b>Sekundenschnelle</b>.<br/>Rasantes Interface.</p>
+   <p><b>Push-Nachrichten</b> in Sekunden. Rasantes Interface.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro4.png" alt="" />
    <h1>Leistungsstark</h1>
-   <p><b>Gruppen,</b> Bilder, Videos, Sprachnachrichten und mehr. Multi-Client-fähig.</p>
+   <p><b>Unbegrenzte</b> Chats, Bilder, Videos, Sprachnachrichten und mehr. Multi-Client-fähig.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro5.png" alt="" />
    <h1>Frei</h1>
-   <p><b>OpenSource.</b> Keine Werbung. Kein Abo. Kein Lock-In. Kein Datenverkauf.</p>
+   <p><b>Delta Chat</b> ist für immer kostenlos. Open Source. Keine Werbung. Kein Abo.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro6.png" alt="" />
    <h1>Sicher</h1>
-   <p><b>Verschlüsselt.</b> Vertraulichkeiten bleiben auf Ihren Rechnern. Nicht hinterhältig.</p>
+   <p><b>Verschlüsselung</b> mit allen gängigen Verfahren. Die Nachrichten bleiben auf Ihren Servern.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro7.png" alt="" />
-   <h1>Professionell</h1>
-   <p><b>Archivierbare,</b> nachvollziehbare und standard-basierte geschäftliche Kommunikation.</p>
+   <h1>Vertraulich</h1>
+   <p><b>Delta Chat</b> ist für die sichere geschäftliche Kommunikation geeignet.</p>
 </div>
 
 </div></div>
@@ -68,8 +67,4 @@ layout: default-de
 <!-- END OF CONTENT SLIDER -->
 
 [<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
-[<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="filter: opacity(.3) grayscale(100%);" />](download) 
-[<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="filter: opacity(.3) grayscale(100%);" />](download)
-
-[.apk, Mac, Windows und weitere Quellen](download)
 
