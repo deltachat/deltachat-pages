@@ -1,5 +1,6 @@
 ---
 title: Follow our news on friendica network
+author: gitkald
 ---
 
 You can follow our news now on **friendica** network. If you want to follow,

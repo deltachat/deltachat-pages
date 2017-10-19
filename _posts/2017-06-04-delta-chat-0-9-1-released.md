@@ -1,5 +1,6 @@
 ---
 title: A little update - Delta Chat v0.9.1 released, Languages
+author: Björn Petersen
 ---
 
 This version improves some minor things for the encryption part and makes the strings localizable, so that they can be translated

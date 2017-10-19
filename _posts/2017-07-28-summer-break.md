@@ -1,5 +1,6 @@
 ---
 title: A little summer break - Expect news end of August
+author: Björn Petersen
 ---
 
 We've been working on various aspects of Delta Chat these days: Profile and group images, status, fixes

@@ -1,5 +1,6 @@
 ---
 title: Yeah! Delta Chat has a blog now!
+author: Björn Petersen
 ---
 
 Nine months of Delta Chat development and no blog ... until now. 

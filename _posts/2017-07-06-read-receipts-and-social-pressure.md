@@ -1,5 +1,6 @@
 ---
 title: Read receipts and Social pressure
+author: Björn Petersen
 ---
 
 The upcoming version of Delta Chat adds an option that will inform the _sender_ of a message that the message is displayed on the _recipient's_ device(s). 

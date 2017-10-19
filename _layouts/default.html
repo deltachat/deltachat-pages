@@ -29,7 +29,7 @@
 
 {% if page.is_post == true %}
 <h1>{{ page.title }}</h1>
-<p class="blogdate">{{ page.date | date: "%B %d, %Y" }}</p>
+<p class="blogdate">{{ page.date | date: "%B %d, %Y" }} {% if page.author %}by {{ page.author }}{% endif %}</p>
 {% endif %}
 
 

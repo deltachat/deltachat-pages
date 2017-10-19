@@ -26,25 +26,7 @@
 
 <div id="content">
 
-
-{% if page.is_post == true %}
-<h1>{{ page.title }}</h1>
-<p class="blogdate">{{ page.date | date: "%B %d, %Y" }}</p>
-{% endif %}
-
-
 {{ content }}
-
-
-{% if page.is_post == true %}
-<p class="menulike">
-{% if page.previous.url %}<a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> |{% endif %}
-<a href="blog">Indice</a>
-{% if page.next.url %}| <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>{% endif %}
-</p>
-<p class="menulike"><a href="../feed.xml" class="feed">Iscriviti al feed</a></p>
-{% endif %}
-
 
 </div>
 

@@ -8,8 +8,8 @@ Feel free to edit any file as you like and send uns a pull request.
 How to create a new blog post
 --------------------------------------------------------------------------------
 
-- In the directory `_posts` add a new file in the form `YYYY-MM-DD-title.md` (or copy an existing file)
-- Write your blog post to the file and do not forget to add or modify the `title:` line
+- In the directory `_posts` create new file in the form `YYYY-MM-DD-title.md` eg. by copying an existing file
+- Write your blog post to the file and do not forget to add or modify the `title:` and `author:` line atop
 - That's all, the result goes to https://delta.chat/en/blog , the [RSS-Feed](https://delta.chat/feed.xml), [Twitter @delta_chat](https://twitter.com/delta_chat), [Friendica](https://ennibook.de/profile/delta_chat) and maybe even more.
 
 Some Hints

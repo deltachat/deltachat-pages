@@ -1,5 +1,6 @@
 ---
 title: Delta Chat on Desktop
+author: haeckser
 ---
 
 Currently the focus in development is the android version with all the features that other chats will offer.
