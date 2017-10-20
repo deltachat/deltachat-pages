@@ -156,7 +156,8 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
     
     - Via USB, copie a chave da pasta "Downloads" do primeiro dispositivo para o segundo.
     
-    - No segundo dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Importar de Downloads"
+    - No segundo dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / 
+    Importar de Downloads"
 
 - **Nada disso é necessário** se você utilizar somente um dispositivo.
 
