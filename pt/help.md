@@ -35,7 +35,7 @@ layout: default-pt
 - _Distribuído_
 - _Sem Spam_ - somente mensagens de contatos conhecidos são mostrados por padrão
 - _Confiável_ - seguro para uso profissional
-- _Seguro_ - pode até mesmo ser utilizado em seus negócios
+- _Seguro_ - pode até mesmo ser utilizado em atividades empresariais
 - Totalmente de _código aberto_ e baseado nos _padrões_ mais usados
 
 
@@ -93,7 +93,7 @@ princial em **Requisições de contato** e, se desejar, comece a conversar.
 
 ## Eu saí do grupo por acidente.
 
-- Já que você não faz mais parte do grupo, você não pode se incluir nele de novo. No entanto, sem problema, peça para que alguém do grupo o inclua de novo.
+- Já que você não faz mais parte do grupo, você não pode se incluir nele de novo. No entanto, sem problema, peça para que alguém do grupo lhe inclua de novo.
 
 ## Não quero mais receber mensagens do grupo.
 
@@ -117,16 +117,16 @@ princial em **Requisições de contato** e, se desejar, comece a conversar.
 primeira mensagem, as chaves necessárias para ativar a criptografia ponta a ponta. Depois
 todas as mensagens posteriores são criptografadas ponta a ponta automaticamente. Se um dos
 participantes da conversa não estiver usando um programa que comporte criptografia, a
-criptografia fica suspensa enquanto isso, até ser reativada novamente, quando possível.
+criptografia fica suspensa até ser reativada novamente, quando possível.
 
 - Se você quiser _desativar_ a criptografia ponta a ponta, faça-o no menu 
 "Configurações / Configurações avançadas".
 
-## Se a criptografia ponta a ponta não estivar ativa a conexão estará completamente descriptografada?
+## Se a criptografia ponta a ponta não estiver ativa a conexão estará completamente descriptografada?
 
 - Não. A criptografia padrão de _tráfego_ será utilizada.
 
-## Como posso certificar-me de que a criptografia ponta a ponta está ativada?
+## Como posso me certificar de que a criptografia ponta a ponta está ativada?
 
 Acesse o menu "Criptografia" do perfil do contato:
 
@@ -153,7 +153,9 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 - Se você quiser usar a **mesma conta** em diferentes dispositivos, você terá que fazer com que todos eles usem a mesma chave de criptografia:
 
     - No primeiro dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Exportar para Downloads"
+    
     - Via USB, copie a chave da pasta "Downloads" do primeiro dispositivo para o segundo.
+    
     - No segundo dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Importar de Downloads"
 
 - **Nada disso é necessário** se você utilizar somente um dispositivo.
@@ -164,6 +166,19 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
 # Diversos {#miscellaneous}
 
+## Delta Chat no Linux
+
+- É possível usar o Delta Chat no Ubuntu (ou outras distribuições que aceitem pacotes **snap**) simplesmente instalando o [anbox](https://anbox.io) (Android in a Box) pelo terminal:
+
+  $ *sudo snap install --classic anbox-installer && anbox-installer*
+
+- Para instalar o Delta Chat, baixe o arquivo *com.b44t.messenger_\<versão\>.apk* [daqui](download) e instale pelo terminal:
+
+  $ *adb install path/to/com.b44t.messenger_\<versão\>.apk* 
+  
+  adb significa "Android Debug Bridge" e pode ser instalado através de repositórios.
+  
+  
 ## Problemas de login
 
 Eu tenho um problema...
