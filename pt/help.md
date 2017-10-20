@@ -168,9 +168,9 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
 ## Delta Chat no Linux
 
-- É possível usar o Delta Chat no Ubuntu (ou outras distribuições que aceitem pacotes **snap**) simplesmente instalando o [anbox](https://anbox.io) (Android in a Box) pelo terminal:
+- É possível usar o Delta Chat no Ubuntu (ou outras distribuições que aceitem pacotes **snap**) simplesmente instalando o [Anbox](https://anbox.io) (Android in a Box) pelo terminal:
 
-  $ *sudo snap install --classic anbox-installer && anbox-installer*
+  $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
 - Para instalar o Delta Chat, baixe o arquivo *com.b44t.messenger_\<versão\>.apk* [daqui](download) e instale pelo terminal:
 

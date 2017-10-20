@@ -136,9 +136,9 @@ Delta Chat автоматически показывает ...
 
 ## Delta Chat на компьютере с GNU/Linux
 
-- Вы можете запустить Delta Chat на компьютере с Ubuntu Linux (или другом дистрибутиве GNU/Linux, поддерживающем формат пакетов snap) путём простой установки [anbox](https://anbox.io) через терминал:
+- Вы можете запустить Delta Chat на компьютере с Ubuntu Linux (или другом дистрибутиве GNU/Linux, поддерживающем формат пакетов snap) путём простой установки [Anbox](https://anbox.io) через терминал:
 
-  $ *sudo snap install --classic anbox-installer && anbox-installer*
+  $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
 - Чтобы добавить приложение Delta Chat, загрузите файл *com.b44t.messenger_433.apk* с домашней страницы и установите через терминал:
 

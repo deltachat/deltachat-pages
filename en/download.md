@@ -27,8 +27,8 @@ You can actively [support](support) us in the development.
 
 ## Linux
 
-Delta Chat for Linux is not yet available. However it is possible to run the Android app in [anbox](https://anbox.io) (Android in a Box) on your desktop.
-Further details are provided in our [Help](help#multiclient) page.
+Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.
+Further details are provided in our [FAQ](help#multiclient) page.
 
 ## Windows
 
