@@ -117,7 +117,7 @@ weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
 ## Ich möchte keine Nachrichten einer Gruppe mehr empfangen.
 
 - **Löschen** Sie entweder sich selbst als Gruppenmitglied oder den Chat selbst. Möchten Sie später wieder an der Gruppe teilnehmen, müssen Sie von einem noch aktiven Mitglied hinzugefügt werden.
-- Alternativ können Sie eine Gruppe auch nur **Stummschalten** - Sie erhalten dann alle Nachrichten und können bei Bedarf auch noch schreiben; es erfolgt dann aber keine Benachrichtigung mehr bei neuen Nachrichten.
+- Alternativ können Sie eine Gruppe auch nur **stummschalten** - Sie erhalten dann alle Nachrichten und können bei Bedarf auch noch schreiben; es erfolgt dann aber keine Benachrichtigung mehr bei neuen Nachrichten.
 
 
 
