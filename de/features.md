@@ -1,54 +1,38 @@
 ---
-title: Warum Delta Chat? Ihre Vorteile.
+title: Das bietet Delta Chat
 layout: default-de
 ---
 
-# Warum Delta Chat?
+# Das bietet Delta Chat
 
-<!-- Mit Delta Chat müssen Sie, anders als bei anderen Messengern, auch nichts Verzichten: -->
-Verzichten Sie auf nichts mehr:
+Delta Chat ist ein moderner Messenger. Es ist wie E-Mail in modernem Gewand. <br>Nur besser, sicherer und benutzerfreundlicher.
 
-Wählen Sie **maximale Sicherheit** und **erreichen Sie Ihre Kontakte** _ohne_ sie zum Umstieg zu nötigen.
+<!-- Wählen Sie **maximale Sicherheit** und erreichen Sie Ihre Kontakte **ohne** Sie zum **Umstieg** zu nötigen.
+Sie geben die Inhalte Ihres Adressbuches nicht weiter.
 
 Diese Kombination bietet kein anderer Messenger.
 
-# Ihre Vorteile
+# Ihre Vorteile -->
 
-<!--
-allg: positiv formulieren!
-
-**Verzichten Sie auf nichts** - behalten Sie die Kontrolle über Ihre Daten und erreichen Sie dennoch alle Kontakte.
-
-Verzichten Sie auf nichts - weder auf Datenschutz und Sicherheit noch darauf, alle Ihre Kontakte zu erreichen.
-
-Bei _herkömmlichen_ Messengern müssen Sie entweder auf Datenschutz und 
-Privatspähre verzichten _oder_ Sie verzichten darauf, einen
-großteil Ihrer Kontakte zu erreichen.
-Bei **Delta Chat** müssen Sie auf **nichts verzichten!**
--->
-
-Starten  Sie sofort - Sie benötigen nur Ihre E-Mail-Adresse und müssen Ihre Kontakte nicht erst überreden, zu Delta Chat zu wechseln, um sie erreichen zu können.
+**Starten  Sie sofort** <br>Sie benötigen nur eine E-Mail-Adresse. Damit erreichen Sie jeden Mailkontakt.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-Einige Features:
+Nutzen Sie damit die zahlreichen Features und Vorteile:
 
-- Delta Chat ist der Messenger mit der größte Nutzerbasis der Welt
-- **Es gibt keinen Delta Chat-Server:** Zur Kommunikation wird ausschließlich Ihr E-Mail-Server verwendet
-- Sprachnachrichten, Bilder und Videos in Sekundenschnelle verschicken und empfangen
-- **Schnell** und zuverlässig
-- Gruppenchats
-- **Archivierbar** und nachvollziehbar
-- **Größte Nutzerbasis** aller Messenger - Empfänger, die Delta Chat nicht verwenden, kommunizieren mit jedem beliebigen E-Mail-Client
-- **Verteiltes** System, keine Abhängigkeit von einer externen Firma
-- Alle Daten bleiben auf den eigenen Computern - dies macht Delta Chat auch für geschäftliche Prozesse attraktiv
-- **Verschlüsselt**
-- **Kein Spam**
-- **Open Source**, überprüfbar und standardbasiert
-- Behalten Sie auch die **Metadaten** unter Kontrolle - _"Wer mit wem, wann, und wo"_ wird bei
-  herkömmlichen Messengern nicht von der Ende-zu-Ende-Verschlüsselung abgedeckt. 
-  Bei Delta Chat werden diese Daten **gar nicht erst erhoben.**
+- Delta Chat ist der Messenger mit der **größten Nutzerbasis der Welt**: Jedes Mailprogramm auf jedem beliebigen Betriebssystem ist kompatibel 
+- Verteilte Architektur: Es gibt **keinen zentralen** Delta Chat **Server**
+- Unabhängig: **Keine Abhängigkeiten** von fremden Diensten und Servern - Delta Chat verwendet nur Ihren Mailserver
+- Schnell: **Push-Nachrichten** in Sekunden - Rasantes Interface
+- Leistungsstark: **Unbegrenzte** Chats, Bilder, Videos, Sprachnachrichten und mehr - Multi-Client-fähig
+- Frei: Delta Chat ist für immer: **Kostenlos** - Open Source - **Ohne Werbung** - Ohne Abo
+- Sicher: **Verschlüsselung** mit allen gängigen Verfahren - Quelloffen und überprüfbar
+- Geschützt: Delta Chat schützt Sie vor lästigen **Spam**-Nachrichten
+- Legal: Alle **Telefonbuch-Daten** bleiben auf ihrem Smartphone - Sie werden **nicht gesammelt**
+- Anonym: Mit Delta Chat werden **Metainformationen**, wie: _Wer_ mit _Wem_, _Wann_ und _Wo_ kommuniziert, nicht erhoben
+- Dynamisch: Delta Chat bietet **Gruppenchats**
 
 ## Weitere Infos
 
-- [Delta macht chatten besser](delta-macht-chatten-besser)
+- Details zu Funktionen und Umsetzung in der [Hilfe](help)
+- Im Artikel: [Delta macht chatten besser](delta-macht-chatten-besser)
