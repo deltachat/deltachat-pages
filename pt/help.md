@@ -174,7 +174,7 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
 - Para instalar o Delta Chat, baixe o arquivo *com.b44t.messenger_\<versão\>.apk* [daqui](download) e instale pelo terminal:
 
-  $ *adb install path/to/com.b44t.messenger_\<versão\>.apk* 
+  $ *adb install caminho/para/com.b44t.messenger_\<versão\>.apk* 
   
   adb significa "Android Debug Bridge" e pode ser instalado através de repositórios.
   
