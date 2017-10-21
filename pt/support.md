@@ -18,7 +18,7 @@ O desenvolvimento do Delta Chat envolve dinheiro. Uma doação sua pode nos ajud
 # Traduções
 
 Ajude a traduzir o Delta Chat para sua língua usando:
-[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) or
+[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) ou
 [Android Studio](https://developer.android.com/studio/write/translations-editor.html) com um Pull Request.
 Alternativamente, você pode nos mandar uma tradução do arquivo "strings.xml".
 
@@ -32,9 +32,9 @@ Estamos precisando de alguém que ajude no gerenciamento da página do Transifex
 Você tem grandes ideias ou uma pequena dica para melhorar este **website?** Basta [editar aqui](https://github.com/deltachat/deltachat-pages) e enviar um pull request.
 
 
-# Espalhe a notícia ...
+# Recomendação
 
-... só que, o Delta Chat ainda esta em estado beta e é recomendado somente para testes. Tão logo o Delta Chat alcance a versão "1.0", será recomendado para todo mundo. 
+Atualmente o Delta Chat ainda esta em estado beta e é recomendado somente para testes. Se decidir usá-lo, tenha em mente que ele está sujeito a profundas mudanças. Tão logo o Delta Chat alcance a versão "1.0", será recomendado para todo mundo. 
 
 
 # Relatórios de erro
