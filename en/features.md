@@ -1,34 +1,30 @@
 ---
-title: Why Delta Chat? Your Advantages.
+title: Why
 layout: default
 ---
 
-# Why Delta Chat? Your Advantages.
+# What Delta Chat offers
 
-**Delta Chat** is a project that aims to create a messaging app that is
-completely **compatible** to the existing **decentralized** email-infrastructure.
+Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.
+
+**Start immediately** <br> All you need is an email account. With it you can reach any email contact.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-So, with Delta Chat you get the **ease** of well-known messengers with the
-**reach** of email. Moreover, you're **independent** from other companies or
-services - as your data are not related to Delta Chat, you won't even add new
-dependencies here.
+Make use of the numerous features and advantages:
 
-Some features at a glance:
+- Delta Chat is the messenger with the **largest userbase in the world**: Any mail client on any Operating System is compatible
+- Distributed architecture: There is **no central** Delta Chat **server**
+- Independent: You are **not dependent** on any external service or server - Delta Chat only uses your mail server
+- Fast: **Push messages** in seconds - Rapid interface
+- Powerful: **Unlimited** chats, images, videos, audio messages and more - Multi-client capable
+- Free: Delta Chat will always be: **Free of charge** - Open Source - **Free of ads** - Usable without subscription
+- Safe: **Encrypted** with all common algorithms - Open for source code review
+- Protected: Delta Chat protects you from **spam**
+- Legal: Your **phone book** stays on your smartphone - It is **not uploaded** anywhere
+- Anonymous: **Metadata** like _Who_ communicates with _Whom_, _When_ and _Where_ is **not collected**
+- Dynamic: Delta Chat offers **group chats**
 
-- **There is no Delta Chat-server:** The app only connects to your email-server.
-- **Fast notifications** by the use of Push-IMAP
-- **Largest userbase** - _all E-Mail addresses_ can be reached, even receivers not (yet) using Delta Chat
-- **Compatible** - correspond with every other E-Mail Software
-- **Elegant** and **simple** user interface
-- **Secure** - if possible, automatically encypts messages (lock symbol shows)
-- **Distributed** communicates with other domains based on the federation of email servers
-- **No Spam** - only messages of known contacts are shown by default
-- **Reliable** - safe for professional use
-- **Trustworthy** - can even be used for business messages
-- Fully **open source** and **standards** based
-
-# Learn more
+## Further Information
 
 - [Delta makes chatting better](delta-makes-chatting-better)
