@@ -15,14 +15,14 @@ Deste modo, com o Delta Chat você tem a **facilidade** dos aplicativos de mensa
 serviços - afinal seus dados não se vinculam ao Delta Chat e você não ficará
 dependente dele.
 
-Algumas funcionalidades
+Algumas funcionalidades:
 
 - **Não existe um servidor central do Delta Chat:** O aplicativo usa seu e-mail.
-- **Rápido** pelo uso do Push-IMAP
-- **Maior número de usuários** - os destinatários _não_ precisam usar o Delta Chat
-- **Compatível** - não somente com ele próprio
+- **Notificações rápidas** pelo uso do Push-IMAP
+- **Maior número de usuários** - todos e-mails podem ser contatados, mesmo destinatários que (ainda) _não_ usam o Delta Chat
+- **Compatível** - corresponda-se com qualquer outro software de e-mail
 - **Elegante** e **simples**
-- **Distribuído** 
+- **Distribuído** - comunique-se com qualquer domínio da rede federada de e-mails
 - **Sem Spam** - somente mensagens de usuários autorizados são exibidas por padrão
 - **Confiável** - seguro para uso profissional
 - **Seguro** - pode até mesmo ser utilizado para seus negócios
