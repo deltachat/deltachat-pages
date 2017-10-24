@@ -160,17 +160,22 @@ Wie gesagt, standardmäßig ist sie _an_ und die Verbindung sicher, sobald dies 
 - Doch, es findet i.d.R. eine sog. Transportverschlüsselung statt; allerdings ist diese nicht ununterbrochen und so sind die Nachrichten unverschlüsselt auf Ihrem Server
 und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation und bei vielen anderen Messengern.
 
+
 ## Wie kann ich die Verschlüsselung überprüfen?
 
-Neben der Nachricht wird ein **kleines Schloss** angezeigt: Dieses sagt aus, dass die Nachricht verschlüsselt ist _und_ wirklich vom angegebenen Absender kommt _und_ dass Ihre Antwort ebenfalls verschlüsselt wird. 
+- Wird neben der Nachricht wird ein **kleines Schloss** angezeigt, sagt dieses aus, dass die Nachricht ende-zu-ende-verschlüsselt ist _und_ wirklich vom angegebenen Absender kommt _und_ dass Ihre Antwort ebenfalls ende-zu-ende-verschlüsselt wird.
+- Wird dort **kein Schloss** angezeigt, ist die Nachricht i.d.R. Transportverschlüsselt, z.B. weil Sie oder der Absender die Ende-zu-Ende-Veschlüsselung deaktiviert haben oder ein Programm verwenden, das diese nicht unterstützt.
+
+
+## Wie kann ich den Absender überprüfen?
 
 Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Option "Verschlüsselung" überprüfen:
 
 - bei einer Ende-zu-Ende-Verschlüsselung werden hier zwei Zahlen-Buchstaben-Folgen (sog. Fingerabdrücke) angezeigt; vergleichen Sie diese mit der Anzeige auf dem Gerät des Partners über einen anderen Kanal (persönliches Treffen, Telefon, ...)
-
 - bei einer Transportverschlüsselung wird dieser Status hier angezeigt.
 
 Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen Messengern auf Versprechungen verlassen. Sie können die Implementierung selbst überprüfen; Delta Chat ist Open Source und alle, wirklich alle, Programmteile stehen zur [Überprüfung bereit](https://github.com/deltachat/).
+
 
 ## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
 
