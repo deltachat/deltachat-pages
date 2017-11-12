@@ -221,12 +221,13 @@ Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie
   
   adb ist die *Android Debug Bridge* und kann aus den Repositories installiert werden.
 
+- Alternativ kann man natürlich erst die [F-Droid-apk](https://f-droid.org/FDroid.apk) an Stelle der Delta Chat apk Datei installieren und dann darüber Delta Chat. Das hat den Vorteil, dass im Falle eines Updates dieses über die Paketverwaltung erfolgt und die Konfigurations- und Chat-Daten bestehen bleiben.
+
 # Verschiedenes
 
 ## Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 
 - Ja, auf der Seite [Standards used in Delta Chat](../en/standards).
-
 
 
 
