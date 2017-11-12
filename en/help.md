@@ -139,6 +139,7 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 - NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. Maybe we can improve this, but we would need more <support> on this issue.
 
+
 # Miscellaneous
 
 ## Delta Chat on Linux Desktop
@@ -153,7 +154,8 @@ If you don't have a key or don't even know you would need one - don't worry: Del
   
   adb is the Android Debug Bridge and can be installed from repository.
   
-  
+- Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+
 
 ## Login Issues
 
