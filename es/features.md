@@ -25,6 +25,4 @@ Algunas de las principales características:
 - **Confiable** - incluso para mensajes confidenciales y de negocios
 - completamente **software libre** y basado en **estándares**
 
-# Conozca más
 
-- [Delta perfecciona la mensajería instantánea](../en/delta-makes-chatting-better)

@@ -25,6 +25,4 @@ Alcune caratteristiche in un colpo d'occhio
 - **Affidabile**, può essere utilizzata anche per messaggi aziendali.
 - Completamente _open source_ e basta sugli _standard_
 
-# Ulteriori informazioni
 
-- [Delta Chat rende le conversazioni migliori](../en/delta-makes-chatting-better)
