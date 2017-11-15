@@ -28,7 +28,5 @@ Algumas funcionalidades:
 - **Seguro** - pode até mesmo ser utilizado para seus negócios
 - Totalmente desenvolvido com **código aberto** e baseado nos **padrões** mais usados
 
-# Saiba mais
 
-- [Delta torna sua conversa melhor (em inglês)](../en/delta-makes-chatting-better)
 

@@ -25,6 +25,4 @@ Make use of the numerous features and advantages:
 - Anonymous: **Metadata** like _Who_ communicates with _Whom_, _When_ and _Where_ is **not collected**
 - Dynamic: Delta Chat offers **group chats**
 
-## Further Information
 
-- [Delta makes chatting better](delta-makes-chatting-better)

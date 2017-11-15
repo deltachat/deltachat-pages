@@ -35,4 +35,4 @@ Nutzen Sie damit die zahlreichen Features und Vorteile:
 ## Weitere Infos
 
 - Details zu Funktionen und Umsetzung in der [Hilfe](help)
-- Im Artikel: [Delta macht chatten besser](delta-macht-chatten-besser)
+
