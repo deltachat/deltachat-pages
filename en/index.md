@@ -41,8 +41,8 @@ layout: default
 
 <div>
    <img src="../assets/home/intro6.png" alt="" />
-   <h1>Safe</h1>
-   <p><b>Encrypted</b> with all common algorithms. Messages stay on your servers.</p>
+   <h1>Encrypted</h1>
+   <p>Encrypted with all common algorithms. Messages stay on your servers.</p>
 </div>
 
 <div>

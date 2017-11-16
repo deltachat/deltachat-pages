@@ -11,7 +11,7 @@ layout: default-de
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>Der Messenger mit der <b>größten Reichweite</b> der Welt.<br><b>Kostenlos</b> und <b>sicher</b>.</p>
+   <p>Der Messenger mit der <b>größten Reichweite</b> der Welt.<br><b>Frei</b> und <b>sicher</b>.</p>
 </div>
 
 <div>
@@ -35,12 +35,12 @@ layout: default-de
 <div>
    <img src="../assets/home/intro5.png" alt="" />
    <h1>Frei</h1>
-   <p><b>Delta Chat</b> ist für immer kostenlos. Open Source. Keine Werbung. Kein Abo.</p>
+   <p>Open Source. Keine Werbung. Kein Abo. Keine Bindung an die Mobilfunknummer.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro6.png" alt="" />
-   <h1>Sicher</h1>
+   <h1>Verschlüsselt</h1>
    <p><b>Verschlüsselung</b> mit allen gängigen Verfahren. Die Nachrichten bleiben auf Ihren Servern.</p>
 </div>
 
