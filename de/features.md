@@ -23,6 +23,7 @@ Nutzen Sie damit die zahlreichen Features und Vorteile:
 - Delta Chat ist der Messenger mit der **größten Nutzerbasis der Welt**: Jedes Mailprogramm auf jedem beliebigen Betriebssystem ist kompatibel 
 - Verteilte Architektur: Es gibt **keinen zentralen** Delta Chat **Server**
 - Unabhängig: **Keine Abhängigkeiten** von fremden Diensten und Servern - Delta Chat verwendet nur Ihren Mailserver
+- Sie sind unabhängig von Ihrer Mobilfunknummer
 - Schnell: **Push-Nachrichten** in Sekunden - Rasantes Interface
 - Leistungsstark: **Unbegrenzte** Chats, Bilder, Videos, Sprachnachrichten und mehr - Multi-Client-fähig
 - Frei: Delta Chat ist für immer: **Kostenlos** - Open Source - **Ohne Werbung** - Ohne Abo
