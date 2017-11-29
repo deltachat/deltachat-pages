@@ -14,4 +14,4 @@ layout: default
 </p>
 {% endfor %}
 
-<p class="menulike"><a href="../feed.xml" class="feed">Subscribe to our feed</a></p>
+<p class="menulike">Subscribe to our feed: {% include subscribe-to-feed-links.html %}</p>

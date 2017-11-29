@@ -16,4 +16,4 @@ Hier finden Sie Neuigkeiten zu Delta Chat - in englischer Sprache.
 </p>
 {% endfor %}
 
-<p class="menulike"><a href="../feed.xml" class="feed">Blog als RSS-Feed abonnieren</a></p>
+<p class="menulike">Feed abonnieren: {% include subscribe-to-feed-links.html %}</p>
