@@ -11,7 +11,7 @@ layout: default
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>The messenger with the <b>largest range</b> in the world.<br/><b>Free</b>, <b>independent</b>, email compatible.</p>
+   <p>The messenger with the <b>broadest audience</b> in the world.<br/><b>Free</b>, <b>independent</b>, email compatible.</p>
 </div>
 
 <div>
