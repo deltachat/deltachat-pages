@@ -14,12 +14,13 @@ You can actively [support](support) us in the development.
 
 ## Android (Beta)
 
-* [View Changelog](../en/changelog)
-
-{% include f-droid_apk_download.md %}
-
 [<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 <img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="filter: opacity(.3) grayscale(100%);" />
+
+* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
+{% include github-apk-download.md %}
+* [View Changelog](../en/changelog)
+
 
 ## Apple
 
