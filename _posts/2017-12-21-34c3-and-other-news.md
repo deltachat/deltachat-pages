@@ -6,9 +6,9 @@ author: Björn Petersen
 
 ## Sessions on 34C3
 
-Yes - Autocrypt and Delta Chat is on the _34th Chaos Communication Congress_ in Leipzig, Germany.
+Yes - Autocrypt and Delta Chat are on the _34th Chaos Communication Congress_ in Leipzig, Germany.
 
-If you want to know more about these projects or you want to get involved, we would be very glad to see you there.
+If you want to know more about these projects or if you want to get involved, we would be very glad to see you there.
 
 The concrete events are:
 
