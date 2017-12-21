@@ -39,7 +39,7 @@ _"At this winter solstice day, a year after the Autocrypt effort was founded at 
 
 We're so happy that Delta Chat is a part of this :)
 
-[Heise](https://www.heise.de/ix/meldung/Einfache-Mail-Verschluesselung-PGP-Helfer-Autocrypt-in-Version-1-0-vorgestellt-3924855.html) (popular german computer news magazin) has already reported about it and [Posteo announced to send Autocrypt-compatible headers](https://posteo.de/blog/neu-vereinfachte-e-mail-verschl%C3%BCsselung-mit-autocrypt-und-openpgp-header).
+[Heise](https://www.heise.de/ix/meldung/Einfache-Mail-Verschluesselung-PGP-Helfer-Autocrypt-in-Version-1-0-vorgestellt-3924855.html) (a big IT news site in Germany) has already reported about it and [Posteo announced to send Autocrypt-compatible headers](https://posteo.de/blog/neu-vereinfachte-e-mail-verschl%C3%BCsselung-mit-autocrypt-und-openpgp-header).
 
 All this efforts will allow the Delta Chat users to communicate to more people encrypted - whether they're using Delta Chat or another client.
 
