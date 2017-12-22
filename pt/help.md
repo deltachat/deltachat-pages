@@ -113,7 +113,7 @@ princial em **Requisições de contato** e, se desejar, comece a conversar.
 
 - Nada.
 
-- O Delta Chat (e outros programas compatíveis com a tecnologia Autocrypt) compartilham, na
+- O Delta Chat (e outros programas compatíveis com a tecnologia [Autocrypt](https://autocrypt.org)) compartilham, na
 primeira mensagem, as chaves necessárias para ativar a criptografia ponta a ponta. Depois
 todas as mensagens posteriores são criptografadas ponta a ponta automaticamente. Se um dos
 participantes da conversa não estiver usando um programa que comporte criptografia, a
@@ -137,7 +137,7 @@ as impressões do celular do seu contato, a conexão está cifrada.
 
 ## Quais padrões são usados para a criptografia ponta a ponta?
 
-OpenPGP. A troca de chaves é feita via Autocrypt. - 
+- OpenPGP. A troca de chaves é feita via [Autocrypt](https://autocrypt.org).
 
 ## Posso reutilizar uma chave privada que já possuo?
 

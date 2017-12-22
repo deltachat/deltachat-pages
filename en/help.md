@@ -92,7 +92,7 @@ Other messages do not appear automatically. You can see the other messages in th
 
 - Nothing.
 
-- Delta Chat (and other Autocrypt-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If, one of the chat partners use an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
+- Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If, one of the chat partners use an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
 
 - If you want to _deactivate_ the end-to-end-encryption, use the corresponding setting at "Settings / Advanced settings".
 
@@ -117,7 +117,7 @@ The user's profile shows some additional information:
 
 ## Which standards are used for end-to-end-encryption.
 
-OpenPGP. Key transport is done via Autocrypt. -
+- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
 ## Can I re-use by existing private key?
 

@@ -92,7 +92,7 @@ Gli altri messaggi non compariranno in maniera automatica, sarà possibile veder
 
 - Nulla.
 
-- Delta Chat (e altri programmi email compatibili con Autocrypt) condividono le chiavi richieste per la cifratura end-to-end automaticamente appena vengono inviati i primi messaggi. Fatto questo, tutti i messaggi successivi utilizzeranno automaticamente la cifratura end-to-end. Se una persona con la quale si è già avviata una conversazione cifrata, utilizzasse successivamente una app che non supporta la cifratura end-to-end, questa viene "sospesa" e automaticamente riattivata non appena la cifratura sarà nuovamente disponibile.
+- Delta Chat (e altri programmi email compatibili con [Autocrypt](https://autocrypt.org)) condividono le chiavi richieste per la cifratura end-to-end automaticamente appena vengono inviati i primi messaggi. Fatto questo, tutti i messaggi successivi utilizzeranno automaticamente la cifratura end-to-end. Se una persona con la quale si è già avviata una conversazione cifrata, utilizzasse successivamente una app che non supporta la cifratura end-to-end, questa viene "sospesa" e automaticamente riattivata non appena la cifratura sarà nuovamente disponibile.
 
 - Per _disattivare_ la cifratura end-to-end, usare la funzione corrispondente in "Impostazioni / Impostazioni avanzate".
 
@@ -110,7 +110,7 @@ Selezionare "Crittografia" dal profilo utente:
 
 ## Quali standard sono usati per la cifratura end-to-end.
 
-- OpenPGP. Il trasporto delle chiavi avviene attraverso Autocrypt.
+- OpenPGP. Il trasporto delle chiavi avviene attraverso [Autocrypt](https://autocrypt.org).
 
 ## Posso utilizzare una chiave privata già esistente?
 
