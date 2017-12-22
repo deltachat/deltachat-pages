@@ -148,7 +148,7 @@ weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
 
 - Nichts.
 
-- Delta Chat (und andere Autocrypt-kompatible E-Mail-Programme) tauschen die Schlüssel selbständig mit den ersten versendeten Nachrichten aus.
+- Delta Chat (und andere [Autocrypt](https://autocrypt.org)-kompatible E-Mail-Programme) tauschen die Schlüssel selbständig mit den ersten versendeten Nachrichten aus.
 Danach ist die Verbindung Ende-zu-Ende-verschlüsselt. Verwenden Sie oder Ihr Chatpartner zwischenzeitlich ein Programm, das nicht automatisch Ende-zu-Ende verschlüsseln kann,
 wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetzt - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
 
@@ -179,7 +179,7 @@ Bei der Implementierung müssen Sie sich übrigens nicht wie bei vielen anderen 
 
 ## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
 
-- OpenPGP.  Der Schlüsselaustausch findet automatisch über den Autocrypt-Standard statt.
+- OpenPGP.  Der Schlüsselaustausch findet automatisch über den [Autocrypt](https://autocrypt.org)-Standard statt.
 
 ## Kann ich meinen bestehenden privaten Schlüssel weiterverwenden?
 

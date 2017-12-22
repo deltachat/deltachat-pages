@@ -92,7 +92,7 @@ layout: default-es
 
 - Nada.
 
-- Delta Chat (así como otros programas de correo compatibles con Autocrypt) intercambiasn las claves de autoencriptación automáticamente al enviar/recibir el primer mensaje.  A partir de allí, todos los mensajes son encriptados automáticamente.  Si algún destinatario posteriormente utiliza un programa que no es compatible con encriptación, la misma se pausa automaticamente, y se reinicia cuando el contacto vuelva a disponer de autoencriptación.
+- Delta Chat (así como otros programas de correo compatibles con [Autocrypt](https://autocrypt.org)) intercambiasn las claves de autoencriptación automáticamente al enviar/recibir el primer mensaje.  A partir de allí, todos los mensajes son encriptados automáticamente.  Si algún destinatario posteriormente utiliza un programa que no es compatible con encriptación, la misma se pausa automaticamente, y se reinicia cuando el contacto vuelva a disponer de autoencriptación.
 
 - Si quiere _desactivar_ la encriptación de extremo a extremo, use la configuración correspondiente en 
 "Ajustes / Ajustes avanzados".
@@ -112,7 +112,7 @@ Seleccione "Comparar claves" en el perfil de su contacto:
 
 ## Qué estándares se utiliza para la encriptación.
 
-OpenPGP. En el envío de las claves se realiza mediante Autocrypt. - 
+- OpenPGP. En el envío de las claves se realiza mediante [Autocrypt](https://autocrypt.org).
 
 ## Puedo reutilizar una clave pre-existente?
 
