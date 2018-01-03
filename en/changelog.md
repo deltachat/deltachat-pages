@@ -5,6 +5,15 @@ layout: default
 
 # Delta Chat Changelog
 
+## v0.11.4
+2017-12-17
+
+* Add option to initiate Autocrypt Key Transfer
+* Connect after importing a backup
+* Reading memory hole headers
+* Add Albanian translation
+* Update Albanian, German, Italian, Polish, Portuguese, Russian, Turkish and Ukrainian translations
+
 ## v0.10.0
 2017-11-29
 
