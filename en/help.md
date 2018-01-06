@@ -42,14 +42,15 @@ Delta Chat automatically shows ...
 
 - Messages from contacts in you **address book**
 - Messages from contacts **contacted by you**
-- Messages from known **contacts of your contacts**
+- Messages from known **contacts of your contacts** (As found in the To: or CC: field of their messages.)
 - **Replies** to messages send by you
 
 Other messages do not appear automatically. You can see the other messages in the main menu at **Contact requests** and, if desired, start a chat from there.
 
 ## What about Spam?
 
-- As messages from completely unknown contacts do not pop up automatically, normally, there's **no spam**.
+- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
+- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
 - However, if really needed, you can **block** any contact.
 
 ## Does Delta Chat support images, videos and other attachments?
