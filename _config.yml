@@ -22,3 +22,6 @@ url:          https://delta.chat
 plugins:
   - jekyll-sitemap
 
+# forward the _redirects file to the netlify-site directory
+include: _redirects
+
