@@ -42,7 +42,7 @@ Delta Chat automatically shows ...
 
 - Messages from contacts in you **address book**
 - Messages from contacts **contacted by you**
-- Messages from known **contacts of your contacts** (As found in the To: or CC: field of their messages.)
+- Messages from contacts **contacted by a known contact** (As found in the To: or CC: field of their messages.)
 - **Replies** to messages send by you
 
 Other messages do not appear automatically. You can see the other messages in the main menu at **Contact requests** and, if desired, start a chat from there.
