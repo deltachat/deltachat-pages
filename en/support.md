@@ -41,7 +41,17 @@ Currently Delta Chat is still in beta state and is only suitable for early adopt
 
 # Bug Reports
 
-Use our **Issue Trackers** to report bugs. Please add a detailed problem description. A screenshot is often helpful, too. 
+Use the following **Issue Trackers** to report bugs.
 
 - [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Core Library](https://github.com/deltachat/deltachat-core/issues)
+- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
+
+
+# Channels
+
+If you want to talk with us, beside [E-Mail](imprint), you may:
+
+- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+

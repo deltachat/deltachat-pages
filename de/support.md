@@ -41,10 +41,19 @@ Dasselbe gilt für **diese Webseite** - egal ob großartige Idee oder kleine Ver
 Momentan ist Delta Chat nicht fertig und es kann sich noch vieles ändern. Alle, die Delta Chat aktuell nutzen, sollten dies wissen und einordnen können. Mit der Version 1.0 wird Delta Chat marktreif und _uneingeschränkt_ empfehlenswert.
 
 
-# Meldung
+# Fehler melden
 
 Fehler können mit einer möglichst genauen Beschreibung in den passenden **Issue Tracker** eingetragen werden. Ein Abbild vom Bildschirm ist oft hilfreich.
 
 - [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Core Bibliothek](https://github.com/deltachat/deltachat-core/issues)
+- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Core Bibliothek + Python](https://github.com/deltachat/deltachat-core/issues)
+
+
+# Kontaktkanäle
+
+Neben [E-Mail](imprint) stehen die folgenden Kanäle zur Verfügung:
+
+- Die [Github Delta Chat Repositories](https://github.com/deltachat/)
+- Der IRC-Kanal **#deltachat** auf [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
