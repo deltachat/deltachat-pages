@@ -27,3 +27,4 @@ Make use of the numerous features and advantages:
 - Dynamic: Delta Chat offers **group chats**
 
 
+Further reasons and motivations may be found in the blog post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
