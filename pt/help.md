@@ -160,7 +160,7 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
 - **Nada disso é necessário** se você utilizar somente um dispositivo.
 
-- Nota: No modo multicliente mensagens _recebidas_ são exibidas imediatamente em ambos dispositivos. Mensagens _enviadas_  demoram cerca de meia hora para sincronizar. Talvez esta questão possa ser melhorada, mas precisamos de mais [ajuda](support) para resolvê-la.
+- Nota: No modo multicliente mensagens _recebidas_ são exibidas imediatamente em ambos dispositivos. Mensagens _enviadas_  demoram cerca de meia hora para sincronizar. Talvez esta questão possa ser melhorada, mas precisamos de mais [ajuda](contribute) para resolvê-la.
 
 
 

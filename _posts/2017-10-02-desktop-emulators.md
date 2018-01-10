@@ -4,7 +4,7 @@ author: haeckser
 ---
 
 Currently the focus in development is the android version with all the features that other chats will offer.
-So the implementation of a native desktop client is postponed (or a task for everyone who would like to [help](support)).
+So the implementation of a native desktop client is postponed (or a task for everyone who would like to [help](contribute)).
 
 Although Delta Chat is in fact yet another email client some of you would like to run it on the desktop ..
 

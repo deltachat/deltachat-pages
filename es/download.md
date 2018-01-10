@@ -13,4 +13,4 @@ Puede descargar la versión beta desde los siguientes medios. Le recomendamos ha
 {% include github-apk-download.md %}
 * [Ver historial de cambios](../en/changelog)
 
-Google Play, iOS, Mac, Windows, estarán pronto disponibles - vea [aquí](support) para saber cómo ayudarnos.
+Google Play, iOS, Mac, Windows, estarán pronto disponibles - vea [aquí](contribute) para saber cómo ayudarnos.

@@ -80,7 +80,7 @@ weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
 
 ## Gibt es eine iOS, Mac, Windows, Linux oder XYZ-Version?
 
-- Gibt es Delta Chat noch nicht für Ihr Wunschsystem? Delta Chat ist Open Source - [unterstützen Sie uns bei unserer Arbeit](support)!
+- Gibt es Delta Chat noch nicht für Ihr Wunschsystem? Delta Chat ist Open Source - [unterstützen Sie uns bei unserer Arbeit](contribute)!
 
 
 
@@ -201,7 +201,7 @@ Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie
 
 - Für die Standardanwendung von Delta Chat - _ein_ Endgerät pro Konto, ähnlich wie bei den meisten anderen Messengern - ist all dies nicht notwendig.
 
-- _Eingehende_ Nachrichten werden dabei auf allen Geräten sofort angezeigt, _ausgehende_ Nachrichten werden über Gerätegrenzen hinweg aktuell alle ca. 30 Minuten synchronisiert. Wenn wir genügend [Unterstützung](support) bekommen, ist geplant, dies noch weiter zu verbessern.
+- _Eingehende_ Nachrichten werden dabei auf allen Geräten sofort angezeigt, _ausgehende_ Nachrichten werden über Gerätegrenzen hinweg aktuell alle ca. 30 Minuten synchronisiert. Wenn wir genügend [Unterstützung](contribute) bekommen, ist geplant, dies noch weiter zu verbessern.
 
 
 ## Kann ich auf einem Gerät Delta Chat verwenden und auf dem nächsten einen anderen Client?

@@ -133,7 +133,7 @@ Si no posee una clave, no se preocupe, Delta Chat generará una clave automatica
 
 - Todo esto **no es necesario** para usar Delta Chat en un solo dispositivo.
 
-- NB: En modo de múltiples dispositivos, los mensajes _recibidos_ se muestran al mismo tiempo en todos los dispositivos. Los mensajes _enviados_ se sincronizan dos veces por hora. Tal vez podemos mejorar esto, pero necesitamos [ayuda](support) con este asunto.
+- NB: En modo de múltiples dispositivos, los mensajes _recibidos_ se muestran al mismo tiempo en todos los dispositivos. Los mensajes _enviados_ se sincronizan dos veces por hora. Tal vez podemos mejorar esto, pero necesitamos [ayuda](contribute) con este asunto.
 
 
 # Problemas de Login
