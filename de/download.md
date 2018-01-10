@@ -9,7 +9,7 @@ layout: default-de
 
 Eine Android Version ist im Beta-Stadium auf F-Droid verfügbar. Nach erreichen der [Version 1.0 Ziele](https://github.com/deltachat/deltachat-android/milestone/1) auch bei Google Play.
 Weitere Varianten für iOS, Mac, Linux oder Windows sind geplant.
-Gerne können Sie uns bei der Entwicklung [unterstützen](support).
+Gerne können Sie uns bei der Entwicklung [unterstützen](contribute).
 
 ## Android (Beta)
 

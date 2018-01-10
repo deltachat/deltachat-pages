@@ -130,7 +130,7 @@ Se non si possiede una chiave o non si aveva idea che potesse servirne una, ness
 
 - Tutto questo **non è necessario** per l'utilizzo standard di Delta Chat usando un solo dispositivo.
 
-- NB: in modalità multi-client, i messaggi _in entrata_ vengono mostrati immediatamente su tutti i client. I messaggi _in uscita_ vengono sincronizzati circa due volte ogni ora. Forse sarà possibile migliorare questa caratteristica, ma sarà necessario più [supporto](support) per risolvere questo inconveniente.
+- NB: in modalità multi-client, i messaggi _in entrata_ vengono mostrati immediatamente su tutti i client. I messaggi _in uscita_ vengono sincronizzati circa due volte ogni ora. Forse sarà possibile migliorare questa caratteristica, ma sarà necessario più [supporto](contribute) per risolvere questo inconveniente.
 
 # Varie {#miscellaneous}
 

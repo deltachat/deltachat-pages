@@ -138,7 +138,7 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 - All this is **not needed** for the standard usage of Delta Chat using just one device.
 
-- NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. Maybe we can improve this, but we would need more <support> on this issue.
+- NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. We can improve this, but we would need more [support](contribute) on this issue.
 
 
 # Miscellaneous
