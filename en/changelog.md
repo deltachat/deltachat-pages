@@ -5,6 +5,13 @@ layout: default
 
 # Delta Chat Changelog
 
+## v0.13.0
+2018-01-18
+
+* Reply encrypted if the sender has enabled encryption manually (esp. useful when chatting with clients as K-9 or Enigmail)
+* Update welcome screen graphics
+* Update Norwegian, Russian and Turkish translations
+
 ## v0.12.0
 2018-01-07
 
