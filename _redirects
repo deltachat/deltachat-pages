@@ -2,6 +2,8 @@
 # syntax: <old url> <new url> [<errorcode>]
 # the errorcode defaults to 301
 
+
+# legacy urls
 /de/delta-macht-chatten-besser  /en/2017-05-31-delta-makes-chatting-better#german
 /de/david-gegen-goliath         /en/2017-05-31-delta-makes-chatting-better#david-gegen-goliath---wie-kam-es-dazu
 /de/support  /de/contribute
@@ -11,4 +13,9 @@
 /pt/support  /pt/contribute
 /ru/support  /ru/contribute
 
+
+# HTTP-to-HTTPS redirect is done by the "Force HTTPS" switch in the Netlify
+# backend; this also adds HSTS headers (strict-transport-security) to protect
+# against protocol downgrade attacks.
+# CAVE: Browsers remember the HSTS setting for one year, so there is no way back!
 
