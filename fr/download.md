@@ -7,7 +7,7 @@ layout: default-fr
 
 **Delta Chat est actuellement en développement**
 
-Une version beta pour Android est disponible sur F-Droid. Après la [version 1.0 stable] (https://github.com/deltachat/deltachat-android/milestone/1), la disponibilité sur Google Play suivra.
+Une version beta pour Android est disponible sur F-Droid. Après la [version 1.0 stable](https://github.com/deltachat/deltachat-android/milestone/1), la disponibilité sur Google Play suivra.
 D'autres variantes pour iOS, Mac, Linux ou Windows sont prévues.
 Vous pouvez activement [nous soutenir](../fr/contribute) dans le développement.
 
@@ -29,5 +29,5 @@ Vous pouvez activement [nous soutenir](../fr/contribute) dans le développement.
 Delta Chat pour Linux n'est pas encore disponible. Cependant, il est possible d'exécuter l'application Android dans [Anbox](https://anbox.io) (Android dans une boîte) sur votre bureau.
 De plus d'informations sont fournies sur notre page [FAQ](../fr/help#multiclient).
 
-## Windows
 
+<!-- ## Windows -->
