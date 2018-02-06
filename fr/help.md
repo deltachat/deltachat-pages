@@ -19,7 +19,7 @@ layout: default-fr
 
 ## Quels sont les avantages de Delta Chat par rapport aux autres messageries?
 
-- Indépendant de toute entreprise ou de service. _Vous possédez vos propres données.
+- Indépendant de toute entreprise ou de service. _Vous possédez vos propres données_.
 - Vos données ne sont pas sauvegardées sur un serveur central; De cette façon, contrairement à la plupart des autres messageries, Delta Chat protège même vos métadonnées (qui écrit à qui?)
 - Vous ne distribuez pas votre carnet d'adresses à qui que ce soit.
 - _Rapide_ par l'utilisation de Push-IMAP
@@ -54,11 +54,11 @@ Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les aut
 
 ## Delta Chat prend-il en charge les images, vidéos et autres pièces jointes?
 
-- Oui. À côté du texte brut, toutes les pièces jointes sont affichées comme des messages séparés. Les messages sortants recevront automatiquement les pièces jointes nécessaires.
+- Oui, à côté du texte brut, toutes les pièces jointes sont affichées comme des messages séparés. Les messages sortants recevront automatiquement les pièces jointes nécessaires.
 
 ## Est-ce que Delta Chat prend en charge les e-mails en HTML?
 
-- Oui. Si l'e-mail entrant manque d'une partie en texte brut, nous convertissons les e-mails HTML en texte brut. Les e-mails sortants utilisent toujours du texte brut.
+- Oui, si l'e-mail entrant manque d'une partie en texte brut, nous convertissons les e-mails HTML en texte brut. Les e-mails sortants utilisent toujours du texte brut.
 
 # Groupes {#groups}
 
@@ -91,16 +91,14 @@ Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les aut
 
 ## Que dois-je faire pour activer le chiffrement bout à bout?
 
-- Rien.
-
-- Delta Chat (et d'autres programmes de messagerie compatibles [Autocrypt](https://autocrypt.org)) partagent automatiquement les clés requises pour le chiffrement bout à bout lorsque les premiers messages sont envoyés. Après cela, tous les messages suivants sont chiffrés de bout à bout automatiquement. Si l'un des partenaires de chat utilise ultérieurement une application qui ne peut pas utiliser le cryptage de bout en bout, elle est mise en pause pour cette fois et automatiquement réactivée dès que possible.
+- Rien, Delta Chat (et d'autres programmes de messagerie compatibles [Autocrypt](https://autocrypt.org)) partagent automatiquement les clés requises pour le chiffrement bout à bout lorsque les premiers messages sont envoyés. Après cela, tous les messages suivants sont chiffrés de bout à bout automatiquement. Si l'un des partenaires de chat utilise ultérieurement une application qui ne peut pas utiliser le cryptage de bout en bout, elle est mise en pause pour cette fois et automatiquement réactivée dès que possible.
 
 - Si vous souhaitez _désactiver_ le chiffrement bout à bout, utilisez le paramètre correspondant dans "Paramètres / Paramètres avancés".
 
 
 ## Si le chiffrement bout en bout n'est pas disponible, la connexion n'est pas chiffrée?
 
-- Non. Le _transport standard_ du courrier électronique est alors utilisé.
+- Non, le _transport standard_ du courrier électronique est alors utilisé.
 
 ## Comment puis-je vérifier le chiffrement?
 
@@ -120,7 +118,7 @@ Le profil de l'utilisateur affiche des informations supplémentaires:
 
 ## Puis-je réutiliser par clé privée existante?
 
-- Oui. L'importer dans "Paramètres avancés / Gérer les clés privées". Attention: Assurez-vous que la clé n'est pas protégée par un mot de passe ou supprimez-la avant.
+- Oui, avec _importer_ dans "Paramètres avancés / Gérer les clés privées". Attention: Assurez-vous que la clé n'est pas protégée par un mot de passe ou supprimez-la avant.
 
 Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne vous inquiétez pas: Delta Chat en génère une au besoin, vous n'avez rien à faire.
 
@@ -160,4 +158,4 @@ J'ai un problème avec ...
 
 ## Je suis intéressé par les détails techniques. Pouvez-vous me dire plus?
 
-- Voir page [Standards utilisées dans Delta Chat](../en/standards).
+- Voir la page des [standards utilisées dans Delta Chat](../en/standards).
