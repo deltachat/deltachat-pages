@@ -11,44 +11,43 @@ layout: default-fr
 <div>
    <img src="../assets/home/intro1.png" alt="" />
    <h1>Delta Chat</h1>
-   <p>La messagerie <b>la plus étendue</b> dans le monde.<br/><b>Libre</b>, <b>indépendante</b>, compatible avec les email.</p>
+   <p>La messagerie <b>la plus étendue</b> dans le monde.<br><b>Libre</b>, <b>indépendante</b>, compatible avec les emails.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro2.png" alt="" />
    <h1>Indépendante</h1>
-   <!-- <p><b>Pas de dépendance</b> à des services tiers. L'application utilise seulement votre serveur email.</p> -->
-   <p><b>Il n'y a pas de serveur Delta Chat.</b><br/>L'application utilise seulement votre serveur email.</p>
+   <p><b>Pas de dépendance</b> à des serveurs tiers.<br>L'application utilise seulement votre serveur email.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro3.png" alt="" />
-   <h1>Fast</h1>
-   <p><b>Envoyer vos messages</b> instantanément.<br/>Interface rapide.</p>
+   <h1>Rapide</h1>
+   <p>Envoyer vos messages <b>instantanément</b>.<br>Interface convivial et rapide.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro4.png" alt="" />
    <h1>Puissant</h1>
-   <p><b>Illimités</b>  messages, images, videos, messages audio and plus. Multi-client compatible.</p>
+   <p>Messages <b>illimités</b>, images, videos, messages audio et bien plus.<br>Compatible avec d'autres clients.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro5.png" alt="" />
    <h1>Gratuit</h1>
-   <p><b>Delta Chat</b>sera toujours gratuit<br/>Open Source. Sans publicités. Utilisable sans abonnement.</p>
+   <p>Delta Chat sera <b>toujours gratuit</b><br>Open Source, sans publicités et utilisable sans abonnement.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro6.png" alt="" />
    <h1>Chiffré</h1>
-   <p>Chiffré avec tous les algorithmes courants. les messages reste sur votre serveur.</p>
+   <p>Chiffré avec les meilleurs algorithmes récents<br>Les messages reste sur <b>votre propre serveur</b>.</p>
 </div>
 
 <div>
    <img src="../assets/home/intro7.png" alt="" />
    <h1>Sûr</h1>
-   <p><b>Delta Chat</b> est sûr pour une utilisation professionnelle, compatible et basé sur des standards.</p>
+   <p>Delta Chat est sûr pour une <b>utilisation professionnelle</b>, compatible et <b>basé sur les standards</b>.</p>
 </div>
 
 </div></div>
