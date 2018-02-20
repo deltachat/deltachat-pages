@@ -5,6 +5,18 @@ layout: default
 
 # Delta Chat Changelog
 
+## v0.14.0
+2018-02-20
+
+* Evaluate gossiped keys
+* Option to transfer the Autocrypt Setup to another device or e-mail client
+* Accept Autocrypt Setup transferred from other devices or e-mail client
+* Send any data from device to device using the chat "Me - Messages I sent to myself"
+* Do not send messages when there is an access error
+* Request for contact permissions only once
+* Bug fixes
+* Update French and Turkish translations
+
 ## v0.13.0
 2018-01-18
 
