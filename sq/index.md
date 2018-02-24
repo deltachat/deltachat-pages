@@ -1,6 +1,6 @@
 ---
 title: The messenger
-layout: default
+layout: default-sq
 ---
 
 <!-- The content slider must have exactly 7 pages! -->

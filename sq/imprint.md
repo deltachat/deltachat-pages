@@ -1,6 +1,6 @@
 ---
 title: Imprint
-layout: default
+layout: default-sq
 ---
 
 # Imprint
