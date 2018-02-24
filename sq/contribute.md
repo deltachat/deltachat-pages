@@ -1,6 +1,6 @@
 ---
 title: Jepni ndihmesë
-layout: default
+layout: default-sq
 ---
 
 # Si të na përkrahni

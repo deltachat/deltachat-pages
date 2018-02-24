@@ -1,6 +1,6 @@
 ---
 title: Shkarkim
-layout: default
+layout: default-sq
 ---
 
 # Shkarkoni Delta Chat-in
@@ -19,7 +19,7 @@ Mund të [na përkrahni](contribute) aktivisht në zhvillim.
 
 * [Shkarkojeni prej F-Droid-i](https://f-droid.org/app/com.b44t.messenger)
 {% include github-apk-download.md %}
-* [Shihni regjistër ndryshimesh](../sq/changelog)
+* [Shihni regjistër ndryshimesh](../en/changelog)
 
 
 ## Apple
