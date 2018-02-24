@@ -177,10 +177,10 @@ layout: default
 * Send PNG files without resizing and converting to JPEG
 * If JPEG files are send without compression, they still appear as image, not as attached files
 * Raise-to-speak defaults to false
-* Unify long click behaviour
+* Unify long click behavior
 * Support Android's system function "Delete data"
 * Replies to messages pop up automatically even if send from other email addresses (typical scenario for alias addresses)
-* Fix group-replies from normal email-clients. 
+* Fix group-replies from normal email-clients.
 
 ## v0.1.32
 2017-04-22
@@ -216,11 +216,11 @@ layout: default
 ## v0.1.25
 2017-04-04
 
-* Use system or user selected video player.
+* Use system or user selected video player
 * Do not connect if not configured (avoids a warning on the first time startup)
-* Add  vertical scrollbar, eg. to settings activities.
-* Pimp GUI and logo.
-* Update Korean.
+* Add  vertical scrollbar, eg. to settings activities
+* Pimp GUI and logo
+* Update Korean translation
 
 ## v0.1.24
 2017-03-31
@@ -257,7 +257,7 @@ layout: default
 * Send contacts and email addresses
 * Sending and opening attachments of any type
 * Share and open commands for all attachments
-* Accept VCards send to us by other apps
+* Accept VCards sent to us by other apps
 * Clickable email addresses
 * Update Polish translation
 * Fix tablet startup bug
@@ -292,7 +292,7 @@ layout: default
 * Really add French translation
 * Update Portuguese translation
 * Start fixing translation handling of the program
-* Remove special "foss" build, because the whole program is free now.
+* Remove special "foss" build, because the whole program is free now
 
 ## v0.1.16
 2017-02-06
