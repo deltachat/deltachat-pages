@@ -15,7 +15,7 @@ layout: default
 
 ## To whom can I write?
 
-- With Delta Chat, you can write to every existing e-mail address - even if the receipient is not (yet) using the Delta Chat App. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
+- With Delta Chat, you can write to every existing e-mail address - even if the recipient is not (yet) using the Delta Chat App. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
 
 ## What are the advantages of Delta Chat compared to other messengers?
 
@@ -30,7 +30,7 @@ layout: default
 - _No Spam_ - only messages of known users are shown by default
 - _Reliable_ - safe for professional use
 - _Trustworthy_ - can even be used for business messages
-- fully _OpenSource_ and _Standards_ based
+- fully _Open Source_ and _Standards_ based
 
 ## What, if the receiver does not use Delta Chat?
 
@@ -40,7 +40,7 @@ layout: default
 
 Delta Chat automatically shows ...
 
-- Messages from contacts in you **address book**
+- Messages from contacts in your **address book**
 - Messages from contacts **contacted by you**
 - Messages from contacts **contacted by a known contact** (As found in the To: or CC: field of their messages.)
 - **Replies** to messages send by you
@@ -59,14 +59,14 @@ Other messages do not appear automatically. You can see the other messages in th
 
 ## Does Delta Chat support HTML-emails?
 
-- Yes. If incoming email lacks a plain text part, we convert HTML-emails to plain text ourself. Outgoing emails always use plain text.
+- Yes. If incoming email lacks a plain text part, we convert HTML-emails to plain text ourselves. Outgoing emails always use plain text.
 
 # Groups
 
 ## How can I create a group?
 
 - Select **Add group** from the "Sandwich menu" in the upper left corner of the chat overview.
-- On the following screen, select the **group members** and hit the checkmark in the upper right corner. After that, you can define a **group name**.
+- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 ## Who can add members to a group?
@@ -128,7 +128,7 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 # Multi-client {#multiclient}
 
-## Can I use delta Chat on multiple devices the same time?
+## Can I use Delta Chat on multiple devices the same time?
 
 - If you want to use the **same account** on different devices, you have to make sure, all devices use the same keys for encryption:
 
@@ -149,12 +149,12 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
   $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
-- To add the delta chat application, download the *com.b44t.messenger_\<version\>.apk* file from [this](download) page and install it from terminal:
+- To add the Delta Chat application, download the *com.b44t.messenger_\<version\>.apk* file from [this](download) page and install it from terminal:
 
-  $ *adb install path/to/com.b44t.messenger_\<version\>.apk* 
-  
+  $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
+
   adb is the Android Debug Bridge and can be installed from repository.
-  
+
 - Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
