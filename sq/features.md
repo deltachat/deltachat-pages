@@ -1,6 +1,6 @@
 ---
 title: Pse
-layout: default
+layout: default-sq
 ---
 
 # Ç’ofron Delta Chat-i
