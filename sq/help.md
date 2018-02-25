@@ -1,6 +1,6 @@
 ---
 title: Ndihmë
-layout: default
+layout: default-sq
 ---
 
 # Pyetje të Bëra Shpesh
@@ -166,4 +166,4 @@ Kam problem me …
 
 ## Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
-- Shihni faqen [Standarde të përdorur në Delta Chat](../sq/standards).
+- Shihni faqen [Standarde të përdorur në Delta Chat](../en/standards).
