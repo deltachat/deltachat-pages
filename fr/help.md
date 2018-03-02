@@ -41,7 +41,6 @@ Delta Chat affiche automatiquement ...
 
 - Messages des contacts de votre **carnet d'adresses**
 - Messages des contacts **contactés par vous**
-- Messages des contacts **contactés par un contact connu** (Comme dans le champ À: ou CC: de leurs messages.)
 - Les **réponses** aux messages envoyés par vous
 
 Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les autres messages dans le menu principal de ** demandes de contact ** et, si vous le souhaitez, commencer une conversation à partir de là.

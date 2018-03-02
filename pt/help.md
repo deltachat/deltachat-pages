@@ -51,7 +51,6 @@ O Delta Chat automaticamente exibe ...
 
 - Mensagens de contatos da sua **agenda de endereços**
 - Mensagens de contatos **que você contatou**
-- Mensagens de **contatos conhecidos dos seus contatos**
 - **Respostas** a mensagens enviadas por você
 
 Outras mensagens não aparecem automaticamente. Você poderá as ver no menu
