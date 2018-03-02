@@ -54,7 +54,6 @@ In Delta Chat erscheinen automatisch nur:
 
 - Nachrichten von Kontakten aus Ihrem **Adressbuch**
 - Nachrichten von Kontakten, die Sie **selbst kontaktiert** haben
-- Nachrichten von Kontakten, die von einem **bekannten Kontakt adressiert** wurden (Als Adressat oder in Kopie gesehen.)
 - **Antworten** auf Ihre Nachrichten
 
 Alle anderen Nachrichten werden _nicht_ automatisch angezeigt.  Über den Menüpunkt
