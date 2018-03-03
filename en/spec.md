@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-# Email-chat specification v0.9.0
+# Email-chat specification v0.9.1
 
 This document describes how emails can be used to implement typical messenger functions while staying compatible to existing MUAs.
 
@@ -71,7 +71,7 @@ Groups are chats with usually more than one recipient, each defined by an email-
 The sender plus the recipients are the group members.
 
 To allow different groups with the same members, groups are identified by a group-id.
-The group-id MUST be created only from the characters 0-9, A-Z and a-z.
+The group-id MUST be created only from the characters `0`-`9`, `A`-`Z`, `a`-`z` `_` and `-`.
 
 Groups MUST have a group-name. The group-name is any non-zero-length UTF-8 string.
 
