@@ -7,7 +7,7 @@ layout: default-de
 
 **Delta Chat ist aktuell in der Entwicklung**
 
-Eine Android Version ist im Beta-Stadium auf F-Droid verfügbar. Nach erreichen der [Version 1.0 Ziele](https://github.com/orgs/deltachat/projects/2) auch bei Google Play.
+Eine Android Version ist im Beta-Stadium auf F-Droid verfügbar. Nach erreichen der [Version 1.0 Ziele](https://github.com/orgs/deltachat/projects/2?fullscreen=true) auch bei Google Play.
 Weitere Varianten für iOS, Mac, Linux oder Windows sind geplant.
 Gerne können Sie uns bei der Entwicklung [unterstützen](contribute).
 
