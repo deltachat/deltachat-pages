@@ -7,7 +7,7 @@ layout: default-sq
 
 **Delta Chat-i është  në zhvillim**
 
-Një version beta për Android është i passhëm që nga F-Droid. Pas [versionit 1.0](https://github.com/orgs/deltachat/projects/2?fullscreen=true) do ta gjeni edhe në Google Play.
+Një version beta për Android është i passhëm që nga F-Droid. Pas [versionit 1.0](https://github.com/orgs/deltachat/projects/2) do ta gjeni edhe në Google Play.
 Janë në plan variante të tjerë për iOS, Mac, Linux ose Windows.
 Mund të [na përkrahni](contribute) aktivisht në zhvillim.
 
