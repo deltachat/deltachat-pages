@@ -7,6 +7,14 @@ layout: default-de
 
 Delta Chat wird als Open Source kostenlos zur Verfügung gestellt. Sie können auf verschiedenen Wegen helfen die Entwicklung voranzutreiben!
 
+# Kontaktkanäle
+
+Die folgenden Kontaktkanäle stehen zur Verfügung:
+
+- Die [Delta Chat Mailingliste](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
+- Die [Github Delta Chat Repositories](https://github.com/deltachat/)
+- Der IRC-Kanal **#deltachat** auf [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+
 
 # Spenden
 
@@ -50,10 +58,4 @@ Fehler können mit einer möglichst genauen Beschreibung in den passenden **Issu
 - [Core Bibliothek + Python](https://github.com/deltachat/deltachat-core/issues)
 
 
-# Kontaktkanäle
-
-Neben [E-Mail](imprint) stehen die folgenden Kanäle zur Verfügung:
-
-- Die [Github Delta Chat Repositories](https://github.com/deltachat/)
-- Der IRC-Kanal **#deltachat** auf [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 

@@ -7,6 +7,16 @@ layout: default-it
 
 Delta Chat è open source ed è possibile supportarne lo sviluppo futuro.
 
+
+# Channels
+
+If you want to talk with us you may:
+
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+
+
 ## Donazioni
 
 Lo sviluppo di Delta Chat ha un costo. Le donazioni supporteranno in modo diretto i futuri miglioramenti.
