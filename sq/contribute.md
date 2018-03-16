@@ -7,6 +7,16 @@ layout: default-sq
 
 Delta Chat është me burim të hapur dhe falas. Mund të jepni ndihmesë në shumë mënyra që të shpihet më tej zhvillimi i tij!
 
+
+# Kanale
+
+Nëse doni të bisedoni me ne, veç [E-Mail](imprint)-it, mund të:
+
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Bashkëpunojmë përmes [deposh Github Delta Chat](https://github.com/deltachat/)
+- Na gjeni te kanali IRC **#deltachat** në [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+
+
 # Dhuroni
 
 Zhvillimi i Delta Chat-it kushton **para**. Dhurimi juaj do të mbështesë drejtpërsëdrejti përmirësimet e ardhshme.
@@ -48,9 +58,4 @@ Për të njoftuar të meta përdorni **Ndjekësit e Çështjeve** më poshtë.
 - [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
 
 
-# Kanale
 
-Nëse doni të bisedoni me ne, veç [E-Mail](imprint)-it, mund të:
-
-- Bashkëpunojmë përmes [deposh Github Delta Chat](https://github.com/deltachat/)
-- Na gjeni te kanali IRC **#deltachat** në [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)

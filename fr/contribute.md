@@ -7,6 +7,13 @@ layout: default-fr
 
 Delta Chat est open source et gratuit. Vous pouvez contribuer de plusieurs façons pour faire avancer le développement!
 
+# Rester en contact
+
+En plus des [email](../fr/imprint), vous pouvez nous contacter par les canaux suivants:
+
+- Collaborez à travers les [dépôts Github Delta Chat](https://github.com/deltachat/)
+- Rejoignez le canal IRC **#deltachat** sur [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
 
 # Faire un don
 
@@ -52,9 +59,4 @@ Utilisez les **rapports d'erreur** suivants pour signaler des erreurs.
 - [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
 
 
-# Rester en contact
 
-En plus des [email](../fr/imprint), vous pouvez nous contacter par les canaux suivants:
-
-- Collaborez à travers les [dépôts Github Delta Chat](https://github.com/deltachat/)
-- Rejoignez le canal IRC **#deltachat** sur [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
