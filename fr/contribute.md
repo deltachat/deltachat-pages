@@ -13,7 +13,7 @@ En plus des [email](../fr/imprint), vous pouvez nous contacter par les canaux su
 
 - Collaborez à travers les [dépôts Github Delta Chat](https://github.com/deltachat/)
 - Rejoignez le canal IRC **#deltachat** sur [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
-- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Rejoignez les discussions de la communauté sur la [liste de diffusion Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
 
 # Faire un don
 
