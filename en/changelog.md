@@ -5,6 +5,20 @@ layout: default
 
 # Delta Chat Changelog
 
+## v0.16.0
+2018-03-19
+
+* Messages from normal clients to more than one recipient create an implicit "ad-hoc group"
+* Allow group creation though contact requests
+* Always display the _sending_ time in the chat list; the list itself is sorted by _receiving_ time and "Message info" shows both times now
+* If parts but the footnote are cut from mails, this is indicated by "..."; use "Message info" to get the full text
+* Highlight the subject in the "Message info"
+* Autoconfigure prefers 'https' over 'http'
+* Bug fixes, eg. avoid freezes if the connection is lost
+* Update Russian, Tamil and Turkish translations
+
+This version requires access to the camera for upcoming qr code scanning options which may be tested already in this version, see commit [74ffbf4](https://github.com/deltachat/deltachat-android/commit/74ffbf48befbb0416337673d73d9f2482728cac6).
+
 ## v0.15.0
 2018-02-27
 
