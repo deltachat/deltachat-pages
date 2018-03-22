@@ -18,13 +18,13 @@ cp_lang_file() {
 
 cp_lang_files() {
 	cp_lang_file $1 de
-    # _lang_file $1 en   # we do not copy the source as the source cannot be modified at Trasifex
+	# _lang_file $1 en   # we do not copy the source as the source cannot be modified at Trasifex
 	cp_lang_file $1 es
 	cp_lang_file $1 fr
 	cp_lang_file $1 it
 	cp_lang_file $1 pt
 	cp_lang_file $1 ru
-	cp_lang_file $1 sq	
+	cp_lang_file $1 sq
 }
 
 cp_lang_files blog
