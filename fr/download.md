@@ -18,7 +18,7 @@ Vous pouvez activement [nous soutenir](../fr/contribute) dans le développement.
 
 * [Télécharger depuis F-Droid](https://f-droid.org/packages/com.b44t.messenger)
 {% include github-apk-download.md %}
-* [Voir le journal des changements](../en/changelog)
+* [Voir le journal des changements]({% include changelog-url %})
 
 ## Apple
 

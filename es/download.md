@@ -11,6 +11,6 @@ Puede descargar la versión beta desde los siguientes medios. Le recomendamos ha
 
 * [Descargar via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
 {% include github-apk-download.md %}
-* [Ver historial de cambios](../en/changelog)
+* [Ver historial de cambios]({% include changelog-url %})
 
 Google Play, iOS, Mac, Windows, estarán pronto disponibles - vea [aquí](contribute) para saber cómo ayudarnos.
