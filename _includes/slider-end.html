@@ -1,3 +1,21 @@
+<script>
+
+document.write(	'</di' + 'v>'
+			+	'</di' + 'v></di' + 'v>'
+			+	'<di' + 'v id="navLinks">'
+			+		'<ul>'
+			+			'<li class="itemLinks" data-pos="0"></li>'
+			+			'<li class="itemLinks" data-pos="1"></li>'
+			+			'<li class="itemLinks" data-pos="2"></li>'
+			+			'<li class="itemLinks" data-pos="3"></li>'
+			+			'<li class="itemLinks" data-pos="4"></li>'
+			+			'<li class="itemLinks" data-pos="5"></li>'
+			+			'<li class="itemLinks" data-pos="6"></li>'
+			+		'</ul>'
+			+	'</di' + 'v>'
+
+);
+
 // just querying the DOM...like a boss!
 var links = document.querySelectorAll(".itemLinks");
 var container = document.querySelector("#contentContainer");
@@ -82,3 +100,6 @@ function goToNextItem() {
     var newLink = links[activeLink];
     changePosition(newLink);
 }
+
+</script>
+

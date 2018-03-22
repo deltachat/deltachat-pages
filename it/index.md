@@ -3,69 +3,48 @@ title: Applicazione
 layout: default-it
 ---
 
-<!-- The content slider must have exactly 7 pages! -->
-<!-- START OF CONTENT SLIDER -->
-<link rel="stylesheet" property="stylesheet" href="../assets/css/content-slider.css" type="text/css" />
-<div id="contentContainer"><div id="contentWrapper">
+{% include slider-begin.html %}
 
-<div>
-   <img src="../assets/home/intro1.png" alt="" />
-   <h1>Delta Chat</h1>
-   <p>L'applicazione di messaggistica con la <b>maggiore estensione</b> nel mondo.<br/><b>Libera</b>, <b>sicura</b>, compatibile con le email.</p>
-</div>
+# Delta Chat
 
-<div>
-   <img src="../assets/home/intro2.png" alt="" />
-   <h1>Indipendente</h1>
-   <!-- <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p> -->
-   <p><b>Non esistono server di Delta Chat.</b><br/>L'applicazione utilizza il server della vostra casella email.</p>
-</div>
+L'applicazione di messaggistica con la **maggiore estensione** nel mondo. **Libera**, **sicura**, compatibile con le email.
 
-<div>
-   <img src="../assets/home/intro3.png" alt="" />
-   <h1>Veloce</h1>
-   <p><b>Messaggi "push"</b> in pochi secondi.<br/>Interfaccia rapida.</p>
-</div>
+{% include slider-next.html %}
 
-<div>
-   <img src="../assets/home/intro4.png" alt="" />
-   <h1>Potente</h1>
-   <p>Conversazioni <b>illimitate</b>, immagini, video, messaggi audio e altro ancora. Possibilità di utilizzo con più client.</p>
-</div>
+# Indipendente
 
-<div>
-   <img src="../assets/home/intro5.png" alt="" />
-   <h1>Libera</h1>
-   <p><b>Delta Chat</b> sarà libera per sempre.<br/>Open source. Senza annunci. Nessuna registrazione. Senza alcun blocco dai fornitori.</p>
-</div>
+**Non esistono server di Delta Chat.** L'applicazione utilizza il server della vostra casella email.
 
-<div>
-   <img src="../assets/home/intro6.png" alt="" />
-   <h1>Sicura</h1>
-   <p><b>Cifratura</b> con tutti i comuni algoritmi. I messaggi rimangono sui vostri server.</p>
-</div>
+{% include slider-next.html %}
 
-<div>
-   <img src="../assets/home/intro7.png" alt="" />
-   <h1>Affidabile</h1>
-   <p><b>Delta Chat</b> è sicura anche per uso in ambito professionale, compatibile e basata sugli standard.</p>
-</div>
+# Veloce
 
-</div></div>
+**Messaggi "push"** in pochi secondi.  
+Interfaccia rapida.
 
-<div id="navLinks">
-  <ul>
-    <li class="itemLinks" data-pos="0"></li>
-    <li class="itemLinks" data-pos="1"></li>
-    <li class="itemLinks" data-pos="2"></li>
-    <li class="itemLinks" data-pos="3"></li>
-    <li class="itemLinks" data-pos="4"></li>
-    <li class="itemLinks" data-pos="5"></li>
-    <li class="itemLinks" data-pos="6"></li>
-  </ul>
-</div>
-<script src="../assets/css/content-slider.js"></script>
-<!-- END OF CONTENT SLIDER -->
+{% include slider-next.html %}
+
+# Potente
+
+Conversazioni **illimitate**, immagini, video, messaggi audio e altro ancora. Possibilità di utilizzo con più client.
+{% include slider-next.html %}
+
+# Libera
+
+**Delta Chat** sarà libera per sempre. Open source. Senza annunci. Nessuna registrazione. Senza alcun blocco dai fornitori.
+
+{% include slider-next.html %}
+
+# Sicura
+**Cifratura** con tutti i comuni algoritmi. I messaggi rimangono sui vostri server.
+
+{% include slider-next.html %}
+
+# Affidabile
+**Delta Chat** è sicura anche per uso in ambito professionale, compatibile e basata sugli standard.
+
+{% include slider-end.html %}
+
 
 [<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
 

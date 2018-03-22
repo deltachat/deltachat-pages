@@ -3,67 +3,53 @@ title: La messagerie
 layout: default-fr
 ---
 
-<!-- Le contenu déroulant doit avoir exactement 7 pages! -->
-<!-- DEBUT DU CONTENU DEROULLANT  -->
-<link rel="stylesheet" property="stylesheet" href="../assets/css/content-slider.css" type="text/css" />
-<div id="contentContainer"><div id="contentWrapper">
+{% include slider-begin.html %}
 
-<div>
-   <img src="../assets/home/intro1.png" alt="" />
-   <h1>Delta Chat</h1>
-   <p>La messagerie <b>la plus étendue</b> dans le monde.<br><b>Libre</b>, <b>indépendante</b>, compatible avec les emails.</p>
-</div>
+# Delta Chat
 
-<div>
-   <img src="../assets/home/intro2.png" alt="" />
-   <h1>Indépendante</h1>
-   <p><b>Pas de dépendance</b> à des serveurs tiers.<br>L'application utilise seulement votre serveur email.</p>
-</div>
+La messagerie **la plus étendue** dans le monde.  
+**Libre**, **indépendante**, compatible avec les emails.
 
-<div>
-   <img src="../assets/home/intro3.png" alt="" />
-   <h1>Rapide</h1>
-   <p>Envoyer vos messages <b>instantanément</b>.<br>Interface convivial et rapide.</p>
-</div>
+{% include slider-next.html %}
 
-<div>
-   <img src="../assets/home/intro4.png" alt="" />
-   <h1>Puissant</h1>
-   <p>Messages <b>illimités</b>, images, videos, messages audio et bien plus.<br>Compatible avec d'autres clients.</p>
-</div>
+# Indépendante
 
-<div>
-   <img src="../assets/home/intro5.png" alt="" />
-   <h1>Gratuit</h1>
-   <p>Delta Chat sera <b>toujours gratuit</b><br>Open Source, sans publicités et utilisable sans abonnement.</p>
-</div>
+**Pas de dépendance** à des serveurs tiers.  
+L'application utilise seulement votre serveur email.
 
-<div>
-   <img src="../assets/home/intro6.png" alt="" />
-   <h1>Chiffré</h1>
-   <p>Chiffré avec les meilleurs algorithmes récents<br>Les messages reste sur <b>votre propre serveur</b>.</p>
-</div>
+{% include slider-next.html %}
 
-<div>
-   <img src="../assets/home/intro7.png" alt="" />
-   <h1>Sûr</h1>
-   <p>Delta Chat est sûr pour une <b>utilisation professionnelle</b>, compatible et <b>basé sur les standards</b>.</p>
-</div>
+# Rapide
 
-</div></div>
+Envoyer vos messages **instantanément**.  
+Interface convivial et rapide.
 
-<div id="navLinks">
-  <ul>
-    <li class="itemLinks" data-pos="0"></li>
-    <li class="itemLinks" data-pos="1"></li>
-    <li class="itemLinks" data-pos="2"></li>
-    <li class="itemLinks" data-pos="3"></li>
-    <li class="itemLinks" data-pos="4"></li>
-    <li class="itemLinks" data-pos="5"></li>
-    <li class="itemLinks" data-pos="6"></li>
-  </ul>
-</div>
-<script src="../assets/css/content-slider.js"></script>
-<!-- FIN DU CONTENU DEROULLANT -->
+{% include slider-next.html %}
 
-[<img src="../assets/home/get-it-on-fdroid.png" alt="Obtenez-le sur F-Droid" width="200" />](../fr/download)
+# Puissant
+
+Messages **illimités**, images, videos, messages audio et bien plus. Compatible avec d'autres clients.
+
+{% include slider-next.html %}
+
+# Gratuit
+
+Delta Chat sera **toujours gratuit**. Open Source, sans publicités et utilisable sans abonnement.
+
+{% include slider-next.html %}
+
+# Chiffré
+
+Chiffré avec les meilleurs algorithmes récents. Les messages reste sur **votre propre serveur**.
+
+{% include slider-next.html %}
+
+# Sûr
+
+Delta Chat est sûr pour une **utilisation professionnelle**, compatible et **basé sur les standards**.
+
+{% include slider-end.html %}
+
+
+[<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
+
