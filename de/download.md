@@ -18,7 +18,7 @@ Gerne können Sie uns bei der Entwicklung [unterstützen](contribute).
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 {% include github-apk-download.md %}
-* [Letzte Änderungen anzeigen](../en/changelog)
+* [Letzte Änderungen anzeigen]({% include changelog-url %})
 
 <!--* [Download via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
 * [**.apk-Installationsdatei** herunterladen](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)-->

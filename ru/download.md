@@ -11,6 +11,6 @@ layout: default-ru
 
 * [Скачать через **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
 {% include github-apk-download.md %}
-* [Просмотреть журнал изменений](../en/changelog)
+* [Просмотреть журнал изменений]({% include changelog-url %})
 
 Google Play, iOS, Mac, Windows: смотрите [здесь](contribute) о том, как вы можете поддержать разработку.
