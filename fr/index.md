@@ -51,5 +51,4 @@ Delta Chat est sûr pour une **utilisation professionnelle**, compatible et **ba
 {% include slider-end.html %}
 
 
-[<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
 
