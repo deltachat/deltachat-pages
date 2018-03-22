@@ -1,6 +1,6 @@
 ---
 title: Download
-layout: default
+layout: default-en
 ---
 
 # Download Delta Chat

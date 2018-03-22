@@ -1,6 +1,6 @@
 ---
 title: Contribute
-layout: default
+layout: default-en
 ---
 
 # How to support us

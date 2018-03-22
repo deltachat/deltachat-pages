@@ -1,5 +1,5 @@
 #theme: jekyll-theme-cayman
-layout: default
+layout: default-en
 permalink: /en/:year-:month-:day-:title
 
 # the following lines are to make the option {{ page.is_post }} available, thanks to 
@@ -10,7 +10,7 @@ defaults:
       path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
-      layout: default
+      layout: default-en
       is_post: true # automatically set is_post=true for all posts
 
 # needed for the RSS feed, but may also be useful for other purposes
