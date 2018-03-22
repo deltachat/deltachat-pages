@@ -1,6 +1,6 @@
 ---
 title: Standards used in Delta Chat
-layout: default
+layout: default-en
 ---
 
 # Standards used in Delta Chat

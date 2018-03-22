@@ -1,6 +1,6 @@
 ---
 title: Help
-layout: default
+layout: default-en
 ---
 
 # Frequently Asked Questions

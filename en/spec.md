@@ -1,6 +1,6 @@
 ---
 title: Email-chat specification
-layout: default
+layout: default-en
 ---
 
 

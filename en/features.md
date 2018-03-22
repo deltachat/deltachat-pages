@@ -1,6 +1,6 @@
 ---
 title: Why
-layout: default
+layout: default-en
 ---
 
 # What Delta Chat offers
