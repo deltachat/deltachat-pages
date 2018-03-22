@@ -1,8 +1,8 @@
 ---
-title: Imprint
+title: Mentions légales
 layout: default-fr
 ---
 
-# Imprint
+# Mentions légales
 
 {% include imprint.html %}
