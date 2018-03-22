@@ -1,39 +1,30 @@
 ---
-title: Das bietet Delta Chat
+title: Why
 layout: default-de
 ---
 
-# Das bietet Delta Chat
+# What Delta Chat offers
 
-Delta Chat ist ein moderner Messenger. Es ist wie E-Mail in modernem Gewand. <br>Nur besser, sicherer und benutzerfreundlicher.
+Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.
 
-<!-- Wählen Sie **maximale Sicherheit** und erreichen Sie Ihre Kontakte **ohne** Sie zum **Umstieg** zu nötigen.
-Sie geben die Inhalte Ihres Adressbuches nicht weiter.
-
-Diese Kombination bietet kein anderer Messenger.
-
-# Ihre Vorteile -->
-
-**Starten  Sie sofort** <br>Sie benötigen nur eine E-Mail-Adresse. Damit erreichen Sie jeden Mailkontakt.
+**Start immediately** <br> All you need is an email account. With it you can reach any email contact.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-Nutzen Sie damit die zahlreichen Features und Vorteile:
+Make use of the numerous features and advantages:
 
-- Delta Chat ist der Messenger mit der **größten Nutzerbasis der Welt**: Jedes Mailprogramm auf jedem beliebigen Betriebssystem ist kompatibel 
-- Verteilte Architektur: Es gibt **keinen zentralen** Delta Chat **Server**
-- Unabhängig: **Keine Abhängigkeiten** von fremden Diensten und Servern - Delta Chat verwendet nur Ihren Mailserver
-- Sie sind unabhängig von Ihrer Mobilfunknummer
-- Schnell: **Push-Nachrichten** in Sekunden - Rasantes Interface
-- Leistungsstark: **Unbegrenzte** Chats, Bilder, Videos, Sprachnachrichten und mehr - Multi-Client-fähig
-- Frei: Delta Chat ist für immer: **Kostenlos** - Open Source - **Ohne Werbung** - Ohne Abo
-- Sicher: **Verschlüsselung** mit allen gängigen Verfahren - Quelloffen und überprüfbar
-- Geschützt: Delta Chat schützt Sie vor lästigen **Spam**-Nachrichten
-- Legal: Alle **Telefonbuch-Daten** bleiben auf ihrem Smartphone - Sie werden **nicht gesammelt**
-- Anonym: Mit Delta Chat werden **Metainformationen**, wie: _Wer_ mit _Wem_, _Wann_ und _Wo_ kommuniziert, nicht erhoben
-- Dynamisch: Delta Chat bietet **Gruppenchats**
+- Delta Chat is the messenger with the **largest userbase in the world**: Any mail client on any Operating System is compatible
+- Distributed architecture: There is **no central** Delta Chat **server**
+- Independent: You are **not dependent** on any external service or server - Delta Chat only uses your mail server.
+- Your account is independent of a mobile phone number
+- Fast: **Push messages** in seconds - Rapid interface
+- Powerful: **Unlimited** chats, images, videos, audio messages and more - Multi-client capable
+- Free: Delta Chat will always be: **Free of charge** - Open Source - **Free of ads** - Usable without subscription
+- Safe: **Encrypted** with all common algorithms - Open for source code review
+- Protected: Delta Chat protects you from **spam**
+- Legal: Your **phone book** stays on your smartphone - It is **not uploaded** anywhere
+- Anonymous: **Metadata** like _Who_ communicates with _Whom_, _When_ and _Where_ is **not collected**
+- Dynamic: Delta Chat offers **group chats**
 
-## Weitere Infos
 
-- Details zu Funktionen und Umsetzung in der [Hilfe](help)
-
+Further reasons and motivations may be found in the blog post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).

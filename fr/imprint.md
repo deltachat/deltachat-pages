@@ -1,9 +1,8 @@
 ---
-title: Mentions légales
+title: Imprint
 layout: default-fr
 ---
 
-# Mentions légales
+# Imprint
 
-<!-- Do not change, all information are requried by law in Germany... -->
-{% include imprint-address.md %}
+{% include imprint.html %}

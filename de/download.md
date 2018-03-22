@@ -5,11 +5,12 @@ layout: default-de
 
 # Download Delta Chat
 
-**Delta Chat ist aktuell in der Entwicklung**
+**Delta Chat is currently under development**
 
-Eine Android Version ist im Beta-Stadium auf F-Droid verfügbar. Nach erreichen der [Version 1.0 Ziele](https://github.com/deltachat/deltachat-android/milestone/1) auch bei Google Play.
-Weitere Varianten für iOS, Mac, Linux oder Windows sind geplant.
-Gerne können Sie uns bei der Entwicklung [unterstützen](contribute).
+A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. 
+Further variants for iOS, Mac, Linux or Windows are planned.
+You can actively [support](contribute) us in the development.
+
 
 ## Android (Beta)
 
@@ -18,10 +19,8 @@ Gerne können Sie uns bei der Entwicklung [unterstützen](contribute).
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [Letzte Änderungen anzeigen]({% include changelog-url %})
+* [View Changelog](../en/changelog)
 
-<!--* [Download via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
-* [**.apk-Installationsdatei** herunterladen](https://f-droid.org/repository/browse/?fdid=com.b44t.messenger#downloadbutton)-->
 
 ## Apple
 
@@ -29,8 +28,9 @@ Gerne können Sie uns bei der Entwicklung [unterstützen](contribute).
 
 ## Linux
 
-Delta Chat für Linux ist noch nicht entwickelt. Es gibt aber die Möglichkeit die Android app in [Anbox](https://anbox.io) (Android in a Box) im Desktop zu nutzen.
-Weitere Informationen dazu in unserer [Hilfe](help#multiclient) Seite.
+Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.
+Further details are provided in our [FAQ](help#multiclient) page.
 
 ## Windows
+
 

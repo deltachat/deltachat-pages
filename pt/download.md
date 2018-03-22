@@ -1,16 +1,36 @@
 ---
-title: Baixe o Delta Chat
+title: Download
 layout: default-pt
 ---
 
-# Baixe o Delta Chat
+# Download Delta Chat
 
-**Atualmente o Delta Chat está sob desenvolvimento ativo** - e você pode [nos ajudar](contribute) fazendo-o ainda mais estável.
+**Delta Chat is currently under development**
 
-Você pode baixar a versão atual nos seguintes endereços:
+A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. 
+Further variants for iOS, Mac, Linux or Windows are planned.
+You can actively [support](contribute) us in the development.
 
-* [Download via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
+
+## Android (Beta)
+
+[<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
+<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="filter: opacity(.3) grayscale(100%);" />
+
+* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %})
+* [View Changelog](../en/changelog)
 
-Google Play, iOS, Mac, Windows: veja [aqui](contribute) sobre como nos ajudar.
+
+## Apple
+
+<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="filter: opacity(.3) grayscale(100%);" />
+
+## Linux
+
+Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.
+Further details are provided in our [FAQ](help#multiclient) page.
+
+## Windows
+
+

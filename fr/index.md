@@ -1,54 +1,48 @@
 ---
-title: La messagerie
+title: The messenger
 layout: default-fr
 ---
+
 
 {% include slider-begin.html %}
 
 # Delta Chat
-
-La messagerie **la plus étendue** dans le monde.  
-**Libre**, **indépendante**, compatible avec les emails.
-
-{% include slider-next.html %}
-
-# Indépendante
-
-**Pas de dépendance** à des serveurs tiers.  
-L'application utilise seulement votre serveur email.
+The messenger with the **broadest audience** in the world.  
+**Free**, **independent**, email compatible.
 
 {% include slider-next.html %}
 
-# Rapide
-
-Envoyer vos messages **instantanément**.  
-Interface convivial et rapide.
-
-{% include slider-next.html %}
-
-# Puissant
-
-Messages **illimités**, images, videos, messages audio et bien plus. Compatible avec d'autres clients.
+# Independent
+**There is no Delta Chat server.**  
+The app only uses your email server.
 
 {% include slider-next.html %}
 
-# Gratuit
-
-Delta Chat sera **toujours gratuit**. Open Source, sans publicités et utilisable sans abonnement.
-
-{% include slider-next.html %}
-
-# Chiffré
-
-Chiffré avec les meilleurs algorithmes récents. Les messages reste sur **votre propre serveur**.
+# Fast
+**Push messages** in seconds.  
+Rapid interface.
 
 {% include slider-next.html %}
 
-# Sûr
+# Powerful
+**Unlimited** chats, images, videos, audio messages and more. Multi-client capable.
 
-Delta Chat est sûr pour une **utilisation professionnelle**, compatible et **basé sur les standards**.
+{% include slider-next.html %}
+
+# Free
+**Delta Chat** is free forever.  
+Open Source. No ads. No subscription. No vendor lock-in.
+
+{% include slider-next.html %}
+
+# Encrypted
+Encrypted with all common algorithms. Messages stay on your servers.
+
+{% include slider-next.html %}
+
+# Trustworthy
+**Delta Chat** is safe for business use, compatible and standards-based.
 
 {% include slider-end.html %}
-
 
 

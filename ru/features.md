@@ -1,32 +1,30 @@
 ---
-title: Почему Delta Chat? Ваши преимущества.
+title: Why
 layout: default-ru
 ---
 
-# Почему Delta Chat? Ваши преимущества.
+# What Delta Chat offers
 
-**Delta Chat** - это проект, который призван создать приложение обмена сообщениями, которое 
-полностью **совместимо** с существующей **децентрализованной** инфраструктурой электронной почты.
+Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.
+
+**Start immediately** <br> All you need is an email account. With it you can reach any email contact.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-Так, с Delta Chat вы получаете **удобство** известных мессенджеров с
-**охватом** электронной почты. Более того, вы **независимы** от других компаний или 
-служб - так как ваши данные не связаны с Delta Chat, вы также не добавите здесь новых
-зависимостей.
+Make use of the numerous features and advantages:
 
-Кратко о некоторых возможностях:
-
-- **Нет сервера Delta Chat:** приложение подключается только к вашему серверу электронной почты.
-- **Быстрые уведомления** путём использования Push-IMAP
-- **Большая аудитория** - все владельцы электронной почты могут быть получателями, даже если они не используют (пока) Delta Chat
-- **Совместимость** - соответствует любой другой программе электронной почты
-- **Элегантный** и **простой** пользовательский интерфейс
-- **Безопасность** - при возможности сообщения шифруются автоматически (показывается замочек)
-- **Распределённая** связь с другими доменами на основе федерации почтовых серверов
-- **Нет спама** - по умолчанию отображаются только сообщения известных пользователей
-- **Надёжный** - безопасен для профессионального использования
-- **Заслуживающий доверия** - может быть использован даже для деловой переписки
-- Полностью **открытый исходный код** и основан на **стандартах**
+- Delta Chat is the messenger with the **largest userbase in the world**: Any mail client on any Operating System is compatible
+- Distributed architecture: There is **no central** Delta Chat **server**
+- Independent: You are **not dependent** on any external service or server - Delta Chat only uses your mail server.
+- Your account is independent of a mobile phone number
+- Fast: **Push messages** in seconds - Rapid interface
+- Powerful: **Unlimited** chats, images, videos, audio messages and more - Multi-client capable
+- Free: Delta Chat will always be: **Free of charge** - Open Source - **Free of ads** - Usable without subscription
+- Safe: **Encrypted** with all common algorithms - Open for source code review
+- Protected: Delta Chat protects you from **spam**
+- Legal: Your **phone book** stays on your smartphone - It is **not uploaded** anywhere
+- Anonymous: **Metadata** like _Who_ communicates with _Whom_, _When_ and _Where_ is **not collected**
+- Dynamic: Delta Chat offers **group chats**
 
 
+Further reasons and motivations may be found in the blog post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
