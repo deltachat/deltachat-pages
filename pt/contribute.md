@@ -1,11 +1,11 @@
 ---
-title: Ajuda
+title: Contribute
 layout: default-pt
 ---
 
-# Como ajudar
+# How to support us
 
-Delta Chat é de código aberto e você pode nos ajudar a desenvolvê-lo.
+Delta Chat is open source and free of charge. You can contribute in many ways to bring the development further!
 
 
 # Channels
@@ -17,40 +17,45 @@ If you want to talk with us you may:
 - Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
 
-## Doe
+# Donate
 
-O desenvolvimento do Delta Chat envolve dinheiro. Uma doação sua pode nos ajudar.
-  		  
- - PayPal ou cartão de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/10)
- - Mande bitcoins para [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+Delta Chat development costs **money**. Your donation will support future improvements directly.
 
+- IBAN DE86100777770428658900, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-# Traduções
+We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?
+[We](imprint)'d love to take it!
 
-Ajude a traduzir o Delta Chat para sua língua usando:
-[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) ou
-[Android Studio](https://developer.android.com/studio/write/translations-editor.html) com um Pull Request.
-Alternativamente, você pode nos mandar uma tradução do arquivo "strings.xml".
+# Translation
 
-Estamos precisando de alguém que ajude no gerenciamento da página do Transifex e mantenha contato com os tradutores.
+Help to translate Delta Chat into your language using 
+[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).
+Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
 
-
-# Desenvolvedores
-
-É claro que desenvolvedores de código livre são muito bem-vindos! Faça seus melhoramentos no seu [Delta Chat fork](https://github.com/deltachat/) e mande um pull request.
-
-Você tem grandes ideias ou uma pequena dica para melhorar este **website?** Basta [editar aqui](https://github.com/deltachat/deltachat-pages) e enviar um pull request.
+We're also searching for people who would like to maintain the Transifex page and the contact with the translators.
 
 
-# Recomendação
+# Development
 
-Atualmente o Delta Chat ainda esta em estado beta e é recomendado somente para testes. Se decidir usá-lo, tenha em mente que ele está sujeito a profundas mudanças. Tão logo o Delta Chat alcance a versão "1.0", será recomendado para todo mundo. 
+We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.
+Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request.
+
+The same applies for **this webpage** - no matter if you have bigger or smaller improvements: Easily edit this page [here](https://github.com/deltachat/deltachat-pages) and send us a pull request.
+
+# Recommendation
+
+Currently Delta Chat is still in beta state and is only suitable for early adopters. People using it today should consider that things are changing. With Version 1.0 Delta Chat will become market-ready and a recommendation for _everyone_. 
 
 
-# Relatórios de erro
+# Bug Reports
 
-Use nossos **Issue Trackers** para relatar erros. Se possível, por favor, adicione uma descrição detalhada; um screenshot ajuda também. 
+Use the following **Issue Trackers** to report bugs.
 
-- [Android](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Core](https://github.com/deltachat/deltachat-core/issues)
+- [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
+
+
 

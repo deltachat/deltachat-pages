@@ -1,28 +1,30 @@
 ---
-title: Por qué Delta Chat? Tus ventajas.
+title: Why
 layout: default-es
 ---
 
-# Por qué Delta Chat? Tus ventajas.
+# What Delta Chat offers
 
-**Delta Chat** tiene por objetivo crear un sistema de mensajería que sea
-completamente **compatible** con la actual infraestructura de correo electrónico.
+Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.
+
+**Start immediately** <br> All you need is an email account. With it you can reach any email contact.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-Con Delta Chat usted tiene la misma **facilidad** de los mensajeros instantáneos más conocidos y a la vez
-el **alcance y distribución** del correo electrónico. Además, usted será **independiente** de otras compañías y servicios de terceros - inclusive usted será completamente independiente de los desarrolladores de Delta Chat, de modo que tampoco generará una nueva dependencia al usarlo.
+Make use of the numerous features and advantages:
 
-Algunas de las principales características:
+- Delta Chat is the messenger with the **largest userbase in the world**: Any mail client on any Operating System is compatible
+- Distributed architecture: There is **no central** Delta Chat **server**
+- Independent: You are **not dependent** on any external service or server - Delta Chat only uses your mail server.
+- Your account is independent of a mobile phone number
+- Fast: **Push messages** in seconds - Rapid interface
+- Powerful: **Unlimited** chats, images, videos, audio messages and more - Multi-client capable
+- Free: Delta Chat will always be: **Free of charge** - Open Source - **Free of ads** - Usable without subscription
+- Safe: **Encrypted** with all common algorithms - Open for source code review
+- Protected: Delta Chat protects you from **spam**
+- Legal: Your **phone book** stays on your smartphone - It is **not uploaded** anywhere
+- Anonymous: **Metadata** like _Who_ communicates with _Whom_, _When_ and _Where_ is **not collected**
+- Dynamic: Delta Chat offers **group chats**
 
-- **Rápido** gracias al protocolo estándar de correo electrónico _Push-IMAP_
-- **La mayor base de usuarios existente** - los destinatarios que _no_ usan Delta Chat igualmente recibiran los mensajes
-- **Compatible** - no envia mensajes solo a Delta Chat mismo, sino a cualquier destinatario de correo
-- **Elegante** y **simple** interfaz de uso
-- **Distribuido** como lo es el correo electrónico estándar, sobre el cuál se basa
-- **Sin Spam** - por defecto solo muestra los mensajes de sus contactos conocidos
-- **Fehaciente y seguro** - incluso para uso profesional, como cualquier otro correo electrónico
-- **Confiable** - incluso para mensajes confidenciales y de negocios
-- completamente **software libre** y basado en **estándares**
 
-
+Further reasons and motivations may be found in the blog post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).

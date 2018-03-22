@@ -1,45 +1,48 @@
 ---
-title: Мессенджер
+title: The messenger
 layout: default-ru
 ---
+
 
 {% include slider-begin.html %}
 
 # Delta Chat
-Мессенджер с **самым большим охватом** в мире. **Бесплатный**, **безопасный**, совместимый с электронной почтой.
+The messenger with the **broadest audience** in the world.  
+**Free**, **independent**, email compatible.
 
 {% include slider-next.html %}
 
-# Независимый
-**Не существует сервера Delta Chat.** Приложение использует только ваш почтовый сервер.
+# Independent
+**There is no Delta Chat server.**  
+The app only uses your email server.
 
 {% include slider-next.html %}
 
-# Быстрый
-**Push-сообщения** за секунды.  
-Быстрый интерфейс.
+# Fast
+**Push messages** in seconds.  
+Rapid interface.
 
 {% include slider-next.html %}
 
-# Мощный
-**Неограниченные** чаты, изображения, видео, аудио-сообщения и многое другое. Мульти-клиентная способность.
+# Powerful
+**Unlimited** chats, images, videos, audio messages and more. Multi-client capable.
 
 {% include slider-next.html %}
 
-# Бесплатный
-**Delta Chat** бесплатен навсегда. Открытый исходный код. Нет рекламы. Нет подписки. Нет привязки к производителю.
+# Free
+**Delta Chat** is free forever.  
+Open Source. No ads. No subscription. No vendor lock-in.
 
 {% include slider-next.html %}
 
-# Безопасный
-**Зашифровано** всеми распространенными алгоритмами. Сообщения остаются на вашем сервере.
+# Encrypted
+Encrypted with all common algorithms. Messages stay on your servers.
 
 {% include slider-next.html %}
 
-# Надёжный
-**Delta Chat** безопасен для использования в бизнесе, совместимый и основанный на стандартах.
+# Trustworthy
+**Delta Chat** is safe for business use, compatible and standards-based.
 
 {% include slider-end.html %}
-
 
 

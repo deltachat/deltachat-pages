@@ -1,9 +1,8 @@
 ---
-title: Aviso legal
+title: Imprint
 layout: default-pt
 ---
 
-# Aviso legal
+# Imprint
 
-<!-- Do not change, all information are requried by law in Germany... -->
-{% include imprint-address.md %}
+{% include imprint.html %}

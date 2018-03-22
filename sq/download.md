@@ -19,7 +19,7 @@ Mund të [na përkrahni](contribute) aktivisht në zhvillim.
 
 * [Shkarkojeni prej F-Droid-i](https://f-droid.org/app/com.b44t.messenger)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [Shihni regjistër ndryshimesh]({% include changelog-url %})
+* [Shihni regjistër ndryshimesh](../en/changelog)
 
 
 ## Apple
@@ -32,3 +32,5 @@ Delta Chat për Linux s’është ende gati. Sidoqoftë, është e mundur të xh
 Hollësi të mëtejshme jepen te faqja jonë [FAQ](help#multiclient).
 
 ## Windows
+
+

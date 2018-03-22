@@ -1,11 +1,11 @@
 ---
-title: Supporta
+title: Contribute
 layout: default-it
 ---
 
-# Come supportare Delta Chat
+# How to support us
 
-Delta Chat è open source ed è possibile supportarne lo sviluppo futuro.
+Delta Chat is open source and free of charge. You can contribute in many ways to bring the development further!
 
 
 # Channels
@@ -17,32 +17,45 @@ If you want to talk with us you may:
 - Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
 
-## Donazioni
+# Donate
 
-Lo sviluppo di Delta Chat ha un costo. Le donazioni supporteranno in modo diretto i futuri miglioramenti.
+Delta Chat development costs **money**. Your donation will support future improvements directly.
 
-- PayPal o carte di credito: [paypal.me/deltachat](https://paypal.me/deltachat/10)
-- Inviare bitcoin a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-# Traduzioni
+We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?
+[We](imprint)'d love to take it!
 
-È possibile contribuire alla traduzione di Delta Chat nella propria lingua usando [Transifex](https://www.transifex.com/delta-chat/delta-chat-android/). In alternativa, è possibile scaricare il [file raw](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) e inviarlo, tradotto, agli sviluppatori.
+# Translation
 
-Sono anche necessarie persone che vogliano mantenere la pagina Transifex e i contatti con i traduttori.
+Help to translate Delta Chat into your language using 
+[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).
+Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
 
-# Sviluppatori
+We're also searching for people who would like to maintain the Transifex page and the contact with the translators.
 
-Ovviamente, gli sviluppatori open source sono i benvenuti! Basta modificare e migliorare il proprio [fork di Delta Chat](https://github.com/deltachat/) e inviare una richiesta di _pull_.
 
-Avete grandi idee o piccoli suggerimenti per questo **sito web?** Basta aggiungere [le modifiche qui](https://github.com/deltachat/deltachat-pages) e inviare una richiesta di _pull_.
+# Development
 
-# Diffondete la parola ...
+We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.
+Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request.
 
-... ricordando però che, al momento, Delta Chat è ancora in fase beta ed è adatta solo agli utenti _precoci_. Al più presto, appena Delta Chat raggiungerà la versione "1.0", sarà utilizzabile da chiunque.
+The same applies for **this webpage** - no matter if you have bigger or smaller improvements: Easily edit this page [here](https://github.com/deltachat/deltachat-pages) and send us a pull request.
 
-# Segnalazione errori
+# Recommendation
 
-Usare i **sistemi di tracciamento** per segnalare errori o problemi. Se possibile, aggiungere un descrizione dettagliata; spesso è anche molto utile acquisire una schermata del problema.
+Currently Delta Chat is still in beta state and is only suitable for early adopters. People using it today should consider that things are changing. With Version 1.0 Delta Chat will become market-ready and a recommendation for _everyone_. 
 
-- [Android](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Core](https://github.com/deltachat/deltachat-core/issues)
+
+# Bug Reports
+
+Use the following **Issue Trackers** to report bugs.
+
+- [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
+
+
+
