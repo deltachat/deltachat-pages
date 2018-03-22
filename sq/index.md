@@ -7,41 +7,37 @@ layout: default-sq
 {% include slider-begin.html %}
 
 # Delta Chat
-The messenger with the **broadest audience** in the world.  
-**Free**, **independent**, email compatible.
+Shkëmbyesi i mesazheve me **publikun më të gjerë** në botë. **I lirë**, **i pavarur**, i pajtueshëm me email-in.
 
 {% include slider-next.html %}
 
-# Independent
-**There is no Delta Chat server.**  
-The app only uses your email server.
+# I pavaru
+**S’ka shërbyes Delta Chat** Aplikacioni përdor shërbyesin tuaj të email-eve.
 
 {% include slider-next.html %}
 
-# Fast
-**Push messages** in seconds.  
-Rapid interface.
+# I shpejtë
+**Mesazhe push** brenda pak sekondash. Ndërfaqe e shpejtë.
 
 {% include slider-next.html %}
 
-# Powerful
-**Unlimited** chats, images, videos, audio messages and more. Multi-client capable.
+# I fuqishëm
+Biseda, figura, video, mesazhe audio, etj, **të pakufizuara**. Me aftësi _multi-client_.
 
 {% include slider-next.html %}
 
-# Free
-**Delta Chat** is free forever.  
-Open Source. No ads. No subscription. No vendor lock-in.
+# I lirë
+**Delta Chat** është i lirë, përgjithmonë. Me burim të Hapur. Pa reklama. Pa pajtim. Pa kyçje nga tregtuesit.
 
 {% include slider-next.html %}
 
-# Encrypted
-Encrypted with all common algorithms. Messages stay on your servers.
+# I fshehtëzuar
+Fshehtëzuar me krejt algoritmet e zakonshëm. Mesazhet qëndrojnë në shërbyesit tuaj.
 
 {% include slider-next.html %}
 
-# Trustworthy
-**Delta Chat** is safe for business use, compatible and standards-based.
+# I besueshëm
+**Delta Chat** është i parrezik për përdorim biznesi, i bazuar në standarde dhe i përputhshëm me ta.
 
 {% include slider-end.html %}
 
