@@ -1,9 +1,14 @@
 Delta Chat Website
 ================================================================================
 
-This repository contains the default website of Delta Chat.
+This repository contains the default website of Delta Chat -
+feel free to edit any file as you like and send a pull request.
 
-Feel free to edit any file as you like and send a pull request.
+Translate the website
+--------------------------------------------------------------------------------
+
+You can edit and improve the existing translations with [Transifex](https://www.transifex.com/delta-chat/delta-chat-pages/); if you want to add a new language, please add it there or [contact us](https://delta.chat/en/contribute#channels).
+
 
 How to create a new blog post
 --------------------------------------------------------------------------------
