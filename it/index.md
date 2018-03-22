@@ -46,5 +46,4 @@ Conversazioni **illimitate**, immagini, video, messaggi audio e altro ancora. Po
 {% include slider-end.html %}
 
 
-[<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
 

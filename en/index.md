@@ -46,5 +46,3 @@ Encrypted with all common algorithms. Messages stay on your servers.
 {% include slider-end.html %}
 
 
-[<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
-

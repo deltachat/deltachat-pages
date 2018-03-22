@@ -43,5 +43,4 @@ Open Source. Keine Werbung. Kein Abo. Keine Bindung an die Mobilfunknummer.
 {% include slider-end.html %}
 
 
-[<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
 
