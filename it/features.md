@@ -1,5 +1,5 @@
 ---
-title: Why
+title: Perché Delta Chat?
 layout: default-it
 ---
 
