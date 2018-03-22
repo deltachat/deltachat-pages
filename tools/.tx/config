@@ -1,0 +1,38 @@
+[main]
+host = https://www.transifex.com
+
+[delta-chat-pages.contributemd]
+file_filter = translations/delta-chat-pages.contributemd/<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[delta-chat-pages.downloadmd]
+file_filter = translations/delta-chat-pages.downloadmd/<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[delta-chat-pages.featuresmd]
+file_filter = translations/delta-chat-pages.featuresmd/<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[delta-chat-pages.helpmd]
+file_filter = translations/delta-chat-pages.helpmd/<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[delta-chat-pages.indexmd]
+file_filter = translations/delta-chat-pages.indexmd/<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[delta-chat-pages.blogmd]
+file_filter = translations/delta-chat-pages.blogmd/<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[delta-chat-pages.imprintmd]
+file_filter = translations/delta-chat-pages.imprintmd/<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
