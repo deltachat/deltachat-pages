@@ -27,5 +27,5 @@ cp_lang_files help
 cp_lang_files imprint
 cp_lang_files index
 
-tx push -s -t    # -s: push source, -t: push translations, -f: ignore timestamps; see https://docs.transifex.com/client/push
+tx push -s    # -s: push source, -t: push translations, -f: ignore timestamps; see https://docs.transifex.com/client/push
 

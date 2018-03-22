@@ -18,18 +18,22 @@ Zhvillimi i Delta Chat-it kushton **para**. Dhurimi juaj do të mbështesë drej
 
 
 # Na duhen **pajisje** për qëllime testimi. Keni ndonjë Android Smartphone ose iPhone që s’e përdorni më?
+
 [Do](imprint) të donim ta kishim!
 
-Përkthim
-
+- Përkthim
 - Ndihmoni të përkthehet Delta Chat-i në gjuhën tuaj, përmes
-[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).
+- [Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).
+
 Ndryshe, mund të shkarkoni [këtë kartelë](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) dhe [dërgonani](imprint) versionin e përkthyer.
-- Kërkojmë edhe persona që do të donin të mirëmbanin faqen tonë Transifex dhe lidhjet me përkthyesit.
-- Zhvillimi
+
+# Kërkojmë edhe persona që do të donin të mirëmbanin faqen tonë Transifex dhe lidhjet me përkthyesit.
+
+Zhvillimi
 
 Kërkojmë zhvillues burimi të hapur që janë të familjarizuar me C, Java, Android, iOS, Windows, Linux ose Mac.
 Përpunoni degëzimin tuaj të [Delta Chat](https://github.com/deltachat/) dërgoni një _pull request_.
+
 
 # E njëjta kërkesë vlen për **për këtë faqe** - s’ka rëndësi nëse përmirësimet tuaja janë të vockla apo të mëdha: Përpunojeni me lehtësi këtë faqe [këtu](https://github.com/deltachat/deltachat-pages) dhe na dërgoni një _pull request_.
 
@@ -37,25 +41,18 @@ Rekomandim
 
 Hëpërhë Delta Chat-i është ende në gjendje _beta_ dhe është i përshtatshëm vetëm për adoptues të hershëm. Personat që e përdorin sot do të duhej të kishin parasysh që gjërat ndryshojnë. Me versionin 1.0 Delta Chat do të jetë gati për qarkullim dhe e rekomanduar për _këdo_.
 
-
 # Njoftime të Metash
 
 Për të njoftuar të meta përdorni **Ndjekësit e Çështjeve** më poshtë.
 
-Delta Chat Android
 
-# Delta Chat iOS
+# Delta Chat Android
 
-Core Library + Python
+Delta Chat iOS
 
-
-# Kanale
-
-Nëse doni të bisedoni me ne, veç [E-Mail](imprint)-it, mund të:
-
-- [Bashkëpunojmë përmes [deposh Github Delta Chat](https://github.com/deltachat/)](https://github.com/deltachat/deltachat-android/issues)
-- [Na gjeni te kanali IRC **#deltachat** në [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)](https://github.com/deltachat/deltachat-ios/issues)
-- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
+- [Core Library + Python](https://github.com/deltachat/deltachat-android/issues)
+- [Kanale](https://github.com/deltachat/deltachat-ios/issues)
+- [Nëse doni të bisedoni me ne, veç [E-Mail](imprint)-it, mund të:](https://github.com/deltachat/deltachat-core/issues)
 
 
 
