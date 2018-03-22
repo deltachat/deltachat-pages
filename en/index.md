@@ -3,69 +3,48 @@ title: The messenger
 layout: default-en
 ---
 
-<!-- The content slider must have exactly 7 pages! -->
-<!-- START OF CONTENT SLIDER -->
-<link rel="stylesheet" property="stylesheet" href="../assets/css/content-slider.css" type="text/css" />
-<div id="contentContainer"><div id="contentWrapper">
 
-<div>
-   <img src="../assets/home/intro1.png" alt="" />
-   <h1>Delta Chat</h1>
-   <p>The messenger with the <b>broadest audience</b> in the world.<br/><b>Free</b>, <b>independent</b>, email compatible.</p>
-</div>
+{% include slider-begin.html %}
 
-<div>
-   <img src="../assets/home/intro2.png" alt="" />
-   <h1>Independent</h1>
-   <!-- <p><b>No dependencies</b> to foreign computers or services. The app only uses your email-server.</p> -->
-   <p><b>There is no Delta Chat server.</b><br/>The app only uses your email server.</p>
-</div>
+# Delta Chat
+The messenger with the **broadest audience** in the world.  
+**Free**, **independent**, email compatible.
 
-<div>
-   <img src="../assets/home/intro3.png" alt="" />
-   <h1>Fast</h1>
-   <p><b>Push messages</b> in seconds.<br/>Rapid interface.</p>
-</div>
+{% include slider-next.html %}
 
-<div>
-   <img src="../assets/home/intro4.png" alt="" />
-   <h1>Powerful</h1>
-   <p><b>Unlimited</b> chats, images, videos, audio messages and more. Multi-client capable.</p>
-</div>
+# Independent
+**There is no Delta Chat server.**  
+The app only uses your email server.
 
-<div>
-   <img src="../assets/home/intro5.png" alt="" />
-   <h1>Free</h1>
-   <p><b>Delta Chat</b> is free forever.<br/>Open Source. No ads. No subscription. No vendor lock-in.</p>
-</div>
+{% include slider-next.html %}
 
-<div>
-   <img src="../assets/home/intro6.png" alt="" />
-   <h1>Encrypted</h1>
-   <p>Encrypted with all common algorithms. Messages stay on your servers.</p>
-</div>
+# Fast
+**Push messages** in seconds.  
+Rapid interface.
 
-<div>
-   <img src="../assets/home/intro7.png" alt="" />
-   <h1>Trustworthy</h1>
-   <p><b>Delta Chat</b> is safe for business use, compatible and standards-based.</p>
-</div>
+{% include slider-next.html %}
 
-</div></div>
+# Powerful
+**Unlimited** chats, images, videos, audio messages and more. Multi-client capable.
 
-<div id="navLinks">
-  <ul>
-    <li class="itemLinks" data-pos="0"></li>
-    <li class="itemLinks" data-pos="1"></li>
-    <li class="itemLinks" data-pos="2"></li>
-    <li class="itemLinks" data-pos="3"></li>
-    <li class="itemLinks" data-pos="4"></li>
-    <li class="itemLinks" data-pos="5"></li>
-    <li class="itemLinks" data-pos="6"></li>
-  </ul>
-</div>
-<script src="../assets/css/content-slider.js"></script>
-<!-- END OF CONTENT SLIDER -->
+{% include slider-next.html %}
+
+# Free
+**Delta Chat** is free forever.  
+Open Source. No ads. No subscription. No vendor lock-in.
+
+{% include slider-next.html %}
+
+# Encrypted
+Encrypted with all common algorithms. Messages stay on your servers.
+
+{% include slider-next.html %}
+
+# Trustworthy
+**Delta Chat** is safe for business use, compatible and standards-based.
+
+{% include slider-end.html %}
+
 
 [<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](download)
 
