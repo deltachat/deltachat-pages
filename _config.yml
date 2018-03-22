@@ -25,3 +25,5 @@ plugins:
 # forward the _redirects file to the netlify-site directory
 include: ["_redirects"]
 
+# the tools directory contains cached files downloaded from transifex, ignore it
+exclude: ["tools"]
