@@ -19,7 +19,7 @@ You can actively [support](contribute) us in the development.
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog](../en/changelog)
+* [View Changelog]({% include changelog-url %})
 
 
 ## Apple

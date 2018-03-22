@@ -1,8 +1,8 @@
 ---
-title: Imprint
+title: Impressum
 layout: default-de
 ---
 
-# Imprint
+# Impressum
 
 {% include imprint.html %}
