@@ -1,8 +1,8 @@
 ---
-title: Imprint
+title: Aviso legal
 layout: default-pt
 ---
 
-# Imprint
+# Aviso legal
 
 {% include imprint.html %}
