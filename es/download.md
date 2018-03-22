@@ -10,7 +10,7 @@ layout: default-es
 Puede descargar la versión beta desde los siguientes medios. Le recomendamos hacer un backup previamente.
 
 * [Descargar via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
-{% include github-apk-download.md %}
+* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
 * [Ver historial de cambios]({% include changelog-url %})
 
 Google Play, iOS, Mac, Windows, estarán pronto disponibles - vea [aquí](contribute) para saber cómo ayudarnos.

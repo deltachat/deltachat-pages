@@ -10,7 +10,7 @@ layout: default-it
 Per scaricare la versione attuale utilizzare una delle seguenti fonti:
 
 * [Scarica da **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
-{% include github-apk-download.md %}
+* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
 * [Visualizza le modifiche]({% include changelog-url %})
 
 Google Play, iOS, Mac, Windows: consultare [questa pagina](contribute) per informazioni su come supportare lo sviluppo.

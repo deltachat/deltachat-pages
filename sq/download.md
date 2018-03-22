@@ -18,7 +18,7 @@ Mund të [na përkrahni](contribute) aktivisht në zhvillim.
 <img src="../assets/home/get-it-on-gplay.png" alt="Merreni në Google Play" width="200" style="filter: opacity(.3) grayscale(100%);" />
 
 * [Shkarkojeni prej F-Droid-i](https://f-droid.org/app/com.b44t.messenger)
-{% include github-apk-download.md %}
+* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
 * [Shihni regjistër ndryshimesh]({% include changelog-url %})
 
 
