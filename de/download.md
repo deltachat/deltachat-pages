@@ -17,7 +17,7 @@ Gerne können Sie uns bei der Entwicklung [unterstützen](contribute).
 <img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="filter: opacity(.3) grayscale(100%);" />
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
-{% include github-apk-download.md %}
+* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
 * [Letzte Änderungen anzeigen]({% include changelog-url %})
 
 <!--* [Download via **F-Droid**](https://f-droid.org/app/com.b44t.messenger)
