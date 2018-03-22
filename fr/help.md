@@ -157,4 +157,4 @@ J'ai un problème avec ...
 
 ## Je suis intéressé par les détails techniques. Pouvez-vous me dire plus?
 
-- Voir la page des [standards utilisées dans Delta Chat](../en/standards).
+- Voir la page des [standards utilisées dans Delta Chat]({% include standards-url %}).

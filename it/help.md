@@ -142,4 +142,4 @@ Ho un problema con ...
 
 ## Sono interessato ai dettagli tecnici. Posso avere ulteriori informazioni?
 
-- Consultare la pagina [Standard utilizzati in Delta Chat](../en/standards).
+- Consultare la pagina [Standard utilizzati in Delta Chat]({% include standards-url %}).

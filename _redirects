@@ -8,9 +8,10 @@
 /de/david-gegen-goliath         /en/2017-05-31-delta-makes-chatting-better#david-gegen-goliath---wie-kam-es-dazu
 /de/support                     /de/contribute
 
-/en/support   /en/contribute
-/en/spec      https://github.com/deltachat/spec/blob/master/spec.md#email-chat-specification
 /en/changelog https://github.com/deltachat/deltachat-android/blob/HEAD/CHANGELOG.md#delta-chat-changelog
+/en/spec      https://github.com/deltachat/spec/blob/master/spec.md#email-chat-specification
+/en/standards https://github.com/deltachat/deltachat-android/blob/master/standards.md#standards-used-in-delta-chat
+/en/support   /en/contribute
 
 /es/support  /es/contribute
 /it/support  /it/contribute

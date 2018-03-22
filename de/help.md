@@ -226,7 +226,4 @@ Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie
 
 ## Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 
-- Ja, auf der Seite [Standards used in Delta Chat](../en/standards).
-
-
-
+- Ja, auf der Seite [Standards used in Delta Chat]({% include standards-url %}).

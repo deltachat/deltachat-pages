@@ -187,6 +187,6 @@ Eu tenho um problema...
 
 ## Quero saber mais detalhes técnicos. Você pode me contar mais?
 
-- Leia a página (em inglês) [Standards used in Delta Chat](../en/standards).
+- Leia a página (em inglês) [Standards used in Delta Chat]({% include standards-url %}).
 
 

@@ -166,4 +166,4 @@ Kam problem me …
 
 ## Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
-- Shihni faqen [Standarde të përdorur në Delta Chat](../en/standards).
+- Shihni faqen [Standarde të përdorur në Delta Chat]({% include standards-url %}).
