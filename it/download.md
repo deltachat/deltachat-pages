@@ -3,7 +3,7 @@ title: Download
 layout: default-it
 ---
 
-# Download Delta Chat
+# Scarica Delta Chat
 
 **Delta Chat is currently under development**
 
