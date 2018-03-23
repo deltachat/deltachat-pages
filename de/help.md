@@ -93,76 +93,77 @@ Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpu
 - Nichts.
 
 - Delta Chat (und andere [Autocrypt](https://autocrypt.org)-kompatible E-Mail-Programme) tauschen die Schlüssel selbständig mit den ersten versendeten Nachrichten aus.
+Danach ist die Verbindung Ende-zu-Ende-verschlüsselt. Verwenden Sie oder Ihr Chatpartner zwischenzeitlich ein Programm, das nicht automatisch Ende-zu-Ende verschlüsseln kann, wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetzt - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
 
-- Danach ist die Verbindung Ende-zu-Ende-verschlüsselt. Verwenden Sie oder Ihr Chatpartner zwischenzeitlich ein Programm, das nicht automatisch Ende-zu-Ende verschlüsseln kann, wird die Ende-zu-Ende-Verschlüsselung automatisch ausgesetzt - und automatisch wieder begonnen, sobald die verwendeten Programme dies unterstützten.
+- If you want to _deactivate_ the end-to-end-encryption, use the corresponding setting at "Settings / Advanced settings".
 
-## If you want to _deactivate_ the end-to-end-encryption, use the corresponding setting at "Settings / Advanced settings".
+## If end-to-end-encryption is not available, is the connection not encrypted at all?
 
-- Wird ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
-
-
-## Doch, es findet i.d.R. eine sog. _Transportverschlüsselung_ statt; allerdings ist diese nicht ununterbrochen und so sind die Nachrichten unverschlüsselt auf Ihrem Server und dem Server der Anbieter. Dies ist der Standard der bisherigen E-Mail-Kommunikation und bei vielen anderen Messengern.
-
-- Wie kann ich die Verschlüsselung überprüfen?
-- Wird neben der Nachricht wird ein **kleines Schloss** angezeigt, sagt dieses aus, dass die Nachricht ende-zu-ende-verschlüsselt ist _und_ wirklich vom angegebenen Absender kommt _und_ dass Ihre Antwort ebenfalls ende-zu-ende-verschlüsselt wird.
+- No. The normal, email-standard _transport encryption_ is used then.
 
 
-## Wird dort **kein Schloss** angezeigt, ist die Nachricht i.d.R. Transportverschlüsselt, z.B. weil Sie oder der Absender die Ende-zu-Ende-Veschlüsselung deaktiviert haben oder ein Programm verwenden, das diese nicht unterstützt.
+## How can I check the encryption?
 
-Wie kann ich den Absender überprüfen?
-
-- Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Option "Verschlüsselung" überprüfen:
-- bei einer Ende-zu-Ende-Verschlüsselung werden hier zwei Zahlen-Buchstaben-Folgen (sog. Fingerabdrücke) angezeigt; vergleichen Sie diese mit der Anzeige auf dem Gerät des Partners über einen anderen Kanal (persönliches Treffen, Telefon, ...) bei einer Transportverschlüsselung wird dieser Status hier angezeigt.
+- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.
+- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
-## bei einer Transportverschlüsselung wird dieser Status hier angezeigt.
+## How can I verify the sender?
 
-- Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
+The user's profile shows some additional information:
 
-## OpenPGP. Der Schlüsselaustausch findet automatisch über den [Autocrypt](https://autocrypt.org)-Standard statt.
+- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
+- For transport encryption, this state is just shown there
 
-- Kann ich meinen bestehenden privaten Schlüssel weiterverwenden?
 
-Ja. Versuchen Sie ihn unter "Erweiterte Einstellungen / Schlüssel verwalten" zu importieren. Achtung: Der private Schlüssel darf nicht mit einem Passwort geschützt sein, entfernen Sie dieses bei Bedarf zuvor.
+## Which standards are used for end-to-end-encryption.
 
-# Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie; Sie müssen sich darum nicht kümmern.
+- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
-## Mehrere Geräte verwenden {#multiclient}
+## Can I re-use by existing private key?
 
-- Kann ich Delta Chat auf mehreren Geräten gleichzeitig verwenden?
+- Yes. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
-  - If you want to use the **same account** on different devices, you have to make sure, all devices use the same keys for encryption:
-  - Wählen Sie auf dem ersten Gerät "Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Exportieren nach Downloads"
-  - Kopieren Sie den Schlüssel lokal via USB von Download-Verzeichnis des ersten Geräts in das Download-Verzeichnis des Zielgeräts. 
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you have to do nothing.
 
-- Auf dem Zielgerät wählen Sie dann "Fortgeschrittene Einstellungen / Private Schlüssel verwalten / Importieren aus Downloads"
+# Multi-client {#multiclient}
+
+## Can I use Delta Chat on multiple devices the same time?
+
+- If you want to use the **same account** on different devices, you have to make sure, all devices use the same keys for encryption:
+
+  - On the first device, choose "Advanced settings / Manage private keys / Export key to Downloads"
+  - Via USB, copy the key file from the "Downloads" directory of the first device to the second one.
+  - On the second device, "Advanced settings / Manage private keys / Import key from Downloads"
 
 - All this is **not needed** for the standard usage of Delta Chat using just one device.
 
+- NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. We can improve this, but we would need more [support](contribute) on this issue.
 
-# _Eingehende_ Nachrichten werden dabei auf allen Geräten sofort angezeigt, _ausgehende_ Nachrichten werden über Gerätegrenzen hinweg aktuell alle ca. 30 Minuten synchronisiert. Wenn wir genügend [Unterstützung](contribute) bekommen, ist geplant, dies noch weiter zu verbessern.
 
-## Verschiedenes
+# Miscellaneous
 
-- Delta Chat on Linux Desktop
+## Delta Chat on Linux Desktop
 
-  Sie können Delta Chat unter Ubuntu Linux (oder anderen Linux Distributionen, die das **snap**-Paketformat unterstützen) auf dem Desktop nutzen, indem Sie [Anbox](https://anbox.io) (Android in a Box) über das Terminal installieren:
+- You can run Delta Chat on Ubuntu Linux desktop (or other linux distributions supporting the **snap**-package format) by simply installing [Anbox](https://anbox.io) (Android in a Box) from terminal:
 
-- $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
+  $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
-  To add the Delta Chat application, download the *com.b44t.messenger_\<version\>.apk* file from [this](download) page and install it from terminal:
+- To add the Delta Chat application, download the *com.b44t.messenger_\<version\>.apk* file from [this](download) page and install it from terminal:
 
   $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
 
-- adb ist die *Android Debug Bridge* und kann aus den Repositories installiert werden.
+  adb is the Android Debug Bridge and can be installed from repository.
+
+- Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
-## Alternativ kann man natürlich erst die [F-Droid-apk](https://f-droid.org/FDroid.apk) an Stelle der Delta Chat apk Datei installieren und dann darüber Delta Chat. Das hat den Vorteil, dass im Falle eines Updates dieses über die Paketverwaltung erfolgt und die Konfigurations- und Chat-Daten bestehen bleiben.
+## Login Issues
 
-Login Issues
+I have a problem with ...
 
-- I have a problem with ...
+- Gmail: Enable "Support less secure apps" and IMAP, you may receive a mail to grant permission
 
-## Gmail: Enable "Support less secure apps" and IMAP, you may receive a mail to grant permission
+## I'm interested in the technical details. Can you tell me more?
 
-- Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
+- See page [Standards used in Delta Chat]({% include standards-url %}).
