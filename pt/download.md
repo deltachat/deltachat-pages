@@ -1,11 +1,11 @@
 ---
-title: Download
+title: Baixe o Delta Chat
 layout: default-pt
 ---
 
-# Download Delta Chat
+# Baixe o Delta Chat
 
-**Delta Chat is currently under development**
+**Atualmente o Delta Chat está sob desenvolvimento ativo**
 
 A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. 
 Further variants for iOS, Mac, Linux or Windows are planned.

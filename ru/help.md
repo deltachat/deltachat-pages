@@ -1,107 +1,106 @@
 ---
-title: Help
+title: Помощь
 layout: default-ru
 ---
 
-# Frequently Asked Questions
+# Часто задаваемые вопросы
 
-- [General](#general)
-- [Groups](#groups)
-- [Encryption](#encryption)
-- [Multi-client](#multiclient)
-- [Miscellaneous](#miscellaneous)
+- [Общее](#general)
+- [Группы](#groups)
+- [Шифрование](#encryption)
+- [Мульти-клиент](#multiclient)
+- [Прочее](#miscellaneous)
 
-# General
+# Общее
 
-## To whom can I write?
+## Кому я могу написать?
 
-- With Delta Chat, you can write to every existing e-mail address - even if the recipient is not (yet) using the Delta Chat App. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
+- С помощью Delta Chat вы можете написать на любой существующий адрес электронной почты, даже если получатель не использует (пока) приложение Delta Chat. Это одно из самых больших отличий от других мессенджеров: у получателя нет необходимости устанавливать то же приложение, что и у вас.
 
-## What are the advantages of Delta Chat compared to other messengers?
+## Каковы преимущества Delta Chat по сравнению с другими мессенджерами?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protect your metadata (who writes to whom?)
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP
-- _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
-- _Compatible_ - not only to itself
-- _Elegant_ and _simple_ user interface
-- _Distributed_ system
-- _No Spam_ - only messages of known users are shown by default
-- _Reliable_ - safe for professional use
-- _Trustworthy_ - can even be used for business messages
-- fully _Open Source_ and _Standards_ based
+- _Независимый_ от любой компании или службы. _Вы_ владеете собственными данными. 
+- Ваши данные не сохраняются на центральном сервере; таким образом, в отличие от большинства других мессенджеров, Delta Chat защищает даже ваши метаданные (кто пишет и кому)
+- Вы никому не распространяете свою адресную книгу.
+- _Быстрота_ благодаря использованию протокола Push-IMAP
+- _Огромное количество пользователей_ - получателей, _не_ использующих Delta Chat, также могут получать от вас сообщения
+- _Совместимо_ - не только с собой
+- _Лёгкий_ и _элегантный_ пользовательский интерфейс
+- _Распределённая_ система
+- _Нет спама_ - по умолчанию отображаются только сообщения от известных пользователей
+- _Надежный_ - безопасно для профессионального использования
+- _Заслуживающий доверия_ - можно использовать даже для деловвой переписки
+- Полностью _открытый исходный код_ и основан на _стандартах_
 
-## What, if the receiver does not use Delta Chat?
+## Что, если получатель не использует Delta Chat?
 
-- The receiver will get a normal email then - if he replies to it, you will see the reply in the Delta Chat app.
+- Получатель получит обычное письмо - если он ответит на него, вы увидите ответ в приложении Delta Chat.
 
-## Which messages do appear in Delta Chat?
+Какие сообщения отображаются в Delta Chat?
 
-Delta Chat automatically shows ...
+Delta Chat автоматически показывает ...
 
-- Messages from contacts in your **address book**
-- Messages from contacts **contacted by you**
-- **Replies** to messages send by you
+- Сообщения от контактов в вашей **адресной книги**
+- Сообщения от контактов, которым **вы писали сами**
+- **Ответы** на сообщения отправленные вами
 
-Other messages do not appear automatically. You can see the other messages in the main menu at **Contact requests** and, if desired, start a chat from there.
+Другие сообщения не отображаются автоматически. Вы можете посмотреть другие сообщения в пункте главного меню **Почтовый ящик** и, при желании, начать чат оттуда.
 
-## What about Spam?
+## Как насчёт спама?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
-- However, if really needed, you can **block** any contact.
+- Так как сообщения от совершенно неизвестных контактов не появляются автоматически, как правило, **спама нет**.
+- Однако, если действительно нужно, вы можете **заблокировать** любой контакт.
 
 ## Does Delta Chat support images, videos and other attachments?
 
-- Yes. Beside the plain text, all email-attachments are displayed as separate messages. Outgoing messages will get attachments as needed automatically.
+- Да. Помимо обычного текста, все вложения электронной почты отображаются в виде отдельных сообщений. Исходящие сообщения автоматически получают вложения.
 
-## Does Delta Chat support HTML-emails?
+## Поддерживает ли Delta Chat HTML-письма?
 
-- Yes. If incoming email lacks a plain text part, we convert HTML-emails to plain text ourselves. Outgoing emails always use plain text.
+- Да. Если во входящей электронной почте отсутствует блок обычного текста, мы преобразуем HTML-письма в обычный текст самостоятельно. Исходящие письма всегда используют обычный текст.
 
-# Groups
+# Группы
 
-## How can I create a group?
+## Как создать группу?
 
-- Select **Add group** from the "Sandwich menu" in the upper left corner of the chat overview.
-- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Выберите **Добавить группу** в выпадающем меню в левом верхнем углу начального экрана приложения.
+- На следующем экране выберите **участников группы** и установите флажок в правом верхнем углу. После этого можно определить **имя группы**.
+- Как только вы пишете **первое сообщение** в группе, все участники информируются о новой группе и могут ответить в группе (до тех пор, пока вы не пишете сообщение в группе, группа невидима для участников).
 
-## Who can add members to a group?
+## Кто может добавлять участников в группу?
 
-- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
-- To add or delete members, click on the group name in the chat.
+- Каждый участник группы имеет **те же права**, что и любой другой. По этой причине каждый может удалить любого участника или добавить нового.
+- Чтобы добавить или удалить участников, нажмите на название группы в чате.
 
-## I have deleted myself by accident.
+## Я случайно удалился.
 
-- As you're no longer a group member now, you cannot add yourself again. However, no problem, just ask any other group member in a normal chat to add you again.
+- Поскольку вы больше не являетесь участником группы, вы не можете добавить себя снова. Тем не менее, никаких проблем, просто попросите любого другого участника группы в обычном чате добавить вас снова.
 
-## I do not want to receive the messages of a group any longer.
+## Я больше не хочу получать сообщения группы.
 
-- Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.
-- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages.
+- Удалите себя из списка участников или удалите весь чат. Если вы захотите присоединиться к группе позже, попросите другого участника группы добавить вас снова.
+- В качестве альтернативы, вы также можете "заглушить" группу - сделав это, вы будете получать все сообщения и по-прежнему сможете писать, но вы больше не будете уведомлены о каких-либо новых сообщениях.
 
-# Encryption {#encryption}
+# Шифрование {#encryption}
 
-## Does Delta Chat have an end-to-end-encryption?
+## Delta Chat поддерживает сквозное шифрование?
 
-- Yes.
+- Да.
 
-## What do I have to do to activate the end-to-end-encryption?
+## Что нужно сделать, чтобы активировать сквозное шифрование?
 
-- Nothing.
+- Ничего.
 
 - Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If, one of the chat partners use an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
 
-- If you want to _deactivate_ the end-to-end-encryption, use the corresponding setting at "Settings / Advanced settings".
+- Если вы хотите _отключить_ сквозное шифрование, используйте соответствующий пункт в меню "Настройки / Расширенные настройки".
 
-## If end-to-end-encryption is not available, is the connection not encrypted at all?
+## Если сквозное шифрование недоступно, связь не шифруется вообще?
 
-- No. The normal, email-standard _transport encryption_ is used then.
+Не так. Тогда используется обычное _транспортное шифрование_, стандартное для электронной почты.
 
 
-## How can I check the encryption?
+## Как проверить шифрование?
 
 - If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.
 - If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
@@ -115,54 +114,54 @@ The user's profile shows some additional information:
 - For transport encryption, this state is just shown there
 
 
-## Which standards are used for end-to-end-encryption.
+## Какие стандарты используются для сквозного шифрования?
 
-- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
+- Стандарт OpenPGP. Обмен ключами осуществляется через [Autocrypt](https://autocrypt.org).
 
-## Can I re-use by existing private key?
+## Можно ли использовать существующий закрытый ключ?
 
-- Yes. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+- Да. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you have to do nothing.
+Если у вас нет ключа или вы даже не знаете, что он вам понадобится - не волнуйтесь: Delta Chat сгенерирует его при необходимости, вы не должны ничего делать.
 
-# Multi-client {#multiclient}
+# Мульти-клиент {#multiclient}
 
-## Can I use Delta Chat on multiple devices the same time?
+## Могу ли я использовать Delta Chat на нескольких устройствах одновременно?
 
-- If you want to use the **same account** on different devices, you have to make sure, all devices use the same keys for encryption:
+- Если вы хотите использовать **одну и ту же учётную запись** на разных устройствах, вы должны убедиться, что все устройства используют одни и те же ключи шифрования:
 
-  - On the first device, choose "Advanced settings / Manage private keys / Export key to Downloads"
-  - Via USB, copy the key file from the "Downloads" directory of the first device to the second one.
-  - On the second device, "Advanced settings / Manage private keys / Import key from Downloads"
+ - На первом устройстве выберите "Дополнительные настройки / Управление закрытыми ключами / Экспорт ключа"
+ - Через USB скопируйте файл ключа из каталога "Загрузки" первого устройства на второе.
+ - На втором устройстве выберите "Дополнительные настройки / Управление закрытыми ключами / Импорт ключа"
 
-- All this is **not needed** for the standard usage of Delta Chat using just one device.
+- Всё это **не требуется** для стандартного использования Delta Chat с помощью только одного устройства.
 
-- NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. We can improve this, but we would need more [support](contribute) on this issue.
+- Примечание: в многопользовательской режиме, _входящие_ сообщения отображаются сразу на всех клиентах. _Исходящие_ сообщения синхронизируются два раза в час. Возможно мы можем это улучшить, но нам требуется дополнительная поддержка по данному вопросу.
 
 
-# Miscellaneous
+# Прочее
 
-## Delta Chat on Linux Desktop
+## Delta Chat на компьютере с GNU/Linux
 
-- You can run Delta Chat on Ubuntu Linux desktop (or other linux distributions supporting the **snap**-package format) by simply installing [Anbox](https://anbox.io) (Android in a Box) from terminal:
+- Вы можете запустить Delta Chat на компьютере с Ubuntu Linux (или другом дистрибутиве GNU/Linux, поддерживающем формат пакетов snap) путём простой установки [Anbox](https://anbox.io) через терминал:
 
   $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
-- To add the Delta Chat application, download the *com.b44t.messenger_\<version\>.apk* file from [this](download) page and install it from terminal:
+- Чтобы добавить приложение Delta Chat, загрузите файл *com.b44t.messenger_433.apk* с домашней страницы и установите через терминал:
 
   $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
 
-  adb is the Android Debug Bridge and can be installed from repository.
+adb - это утилита Android Debug Bridge и она может быть установлена из репозитория
 
 - Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
-## Login Issues
+## Проблемы со входом
 
-I have a problem with ...
+У меня проблема с ...
 
-- Gmail: Enable "Support less secure apps" and IMAP, you may receive a mail to grant permission
+- Gmail: Включите "Поддержка менее безопасных приложений" и IMAP (вы можете получить письмо, чтобы предоставить разрешение)
 
-## I'm interested in the technical details. Can you tell me more?
+## Меня интересуют технические детали. Можете рассказать больше?
 
-- See page [Standards used in Delta Chat](../en/standards).
+- Смотрите на странице [Стандарты используемые Delta Chat]({% include standards-url %}).

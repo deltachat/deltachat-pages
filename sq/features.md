@@ -9,7 +9,7 @@ Delta Chat-i është një program modern për shkëmbim mesazhesh. Është si em
 
 **Fillojani menjëherë** <br> Krejt sa ju duhet është një adresë email. Me të mund të lidheni me çfarëdo kontakti email.
 
-![Foto ekrani](../assets/features/start-img4.png)
+![Screenshot](../assets/features/start-img4.png)
 
 Shfrytëzoni veçoritë dhe përparësitë e shumta:
 
@@ -18,7 +18,7 @@ Shfrytëzoni veçoritë dhe përparësitë e shumta:
 - I pavarur: Jeni të **pavarur** nga çfarëdo shërbimi apo shërbyesi i jashtëm - Delta Chat-i përdor vetëm shërbyesin tuaj të postës.
 - Llogaria juaj është e pavarur nga numra telefonash celularë
 - I shpejtë: **Mesazhe push** në sekonda - Ndërfaqe e shpejtë
-- I fuqishëm: Fjalosje, figura, video, mesazhe audio, etj,  **të Pakufizuara** - Me aftësi _multi-client_
+- I fuqishëm: Fjalosje, figura, video, mesazhe audio, etj, **të Pakufizuara** - Me aftësi _multi-client_
 - I lirë: Delta Chat-i do të jetë përherë: **Pa pagesë** - Me Burim të Hapur - **Pa reklama** - I përdorshëm pa pajtim diku
 - I sigurt: **Fshehtëzuar** me krejt algoritmet e zakonshëm - I hapur për shqyrtime kodi burim
 - I mbrojtur: Delta Chat-i ju mbron nga **mesazhe të padëshiruar**
@@ -27,4 +27,4 @@ Shfrytëzoni veçoritë dhe përparësitë e shumta:
 - Dinamik: Delta Chat-i ofron **fjalosje në grup**
 
 
-Arsye dhe motivacione të tjera mund të gjenden te postimi [Delta e bën më të mirë bisedimin](https://delta.chat/en/2017-05-31-delta-makes-chatting-better) në blog.
+Arsye dhe shtysa të tjera mund të gjenden te postimi [Delta e bën më të mirë bisedimin](https://delta.chat/en/2017-05-31-delta-makes-chatting-better) në blog.

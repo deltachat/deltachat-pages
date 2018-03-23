@@ -1,9 +1,9 @@
 ---
-title: Download
+title: Descargar e instalar
 layout: default-es
 ---
 
-# Download Delta Chat
+# Descargar e instalar Delta Chat
 
 **Delta Chat is currently under development**
 

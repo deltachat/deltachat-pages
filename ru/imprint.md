@@ -1,8 +1,8 @@
 ---
-title: Imprint
+title: Выходные данные
 layout: default-ru
 ---
 
-# Imprint
+# Выходные данные
 
 {% include imprint.html %}

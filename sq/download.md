@@ -5,7 +5,7 @@ layout: default-sq
 
 # Shkarkoni Delta Chat-in
 
-**Delta Chat-i është  në zhvillim**
+**Delta Chat-i është në zhvillim**
 
 Një version beta për Android është i passhëm që nga F-Droid. Pas [versionit 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) do ta gjeni edhe në Google Play.
 Janë në plan variante të tjerë për iOS, Mac, Linux ose Windows.

@@ -1,8 +1,8 @@
 ---
-title: Blog
+title: Блог
 layout: default-ru
 ---
 
-# Blog
+# Блог
 
 {% include blog.html %}

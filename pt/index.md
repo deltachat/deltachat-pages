@@ -7,7 +7,7 @@ layout: default-pt
 {% include slider-begin.html %}
 
 # Delta Chat
-O aplicativo com **mais contatos** do mundo.  **Grátis**, **seguro** e compatível com e-mail.
+O aplicativo com **mais contatos** do mundo. **Grátis**, **seguro** e compatível com e-mail.
 
 {% include slider-next.html %}
 
@@ -33,7 +33,7 @@ Interface leve.
 {% include slider-next.html %}
 
 # Seguro
-**Criptografia** com tecnologias abertas.  Mensagens ficam no servidor de e-mail.
+**Criptografia** com tecnologias abertas. Mensagens ficam no servidor de e-mail.
 
 {% include slider-next.html %}
 
