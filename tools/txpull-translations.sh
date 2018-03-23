@@ -1,16 +1,19 @@
+# this script pulls all translated files from transifex and copies them to the
+# correct local directories.
+# the source files in `en/` are not modified.
 
-# this script pulls all files from transifex and copies them to the correct local directories
-
-# before you can use this script, you have to initialize Transifex in this folder:
-# tx init --user=api --pass=<your api token>
-# tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
+# before you can use this script the first time, you have to initialize Transifex in this folder:
+# $ tx init --user=api --pass=<your api token>
+#
+# to create the hidden `.tx` folder, use:
+# $ tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
 
 # common information about the Transifex CLI client can be found at:
 # https://docs.transifex.com/client/
 
 
 rm -r translations
-tx pull -a -s   # -s fetches the source file, we do not copy it, but we need it for pushing back
+tx pull -a -s   # -s fetches the source file, might be of interest, however, we do not copy it below
 
 cp_lang_file() {
 	cp "translations/delta-chat-pages.$1md/$2.md" "../$2/$1.md"
