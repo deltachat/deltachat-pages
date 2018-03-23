@@ -5,7 +5,7 @@ layout: default-pt
 
 # Como ajudar
 
-Delta Chat is open source and free of charge. You can contribute in many ways to bring the development further!
+Delta Chat é de código aberto e você pode nos ajudar a desenvolvê-lo.
 
 
 # Channels
@@ -17,13 +17,13 @@ If you want to talk with us you may:
 - Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
 
-# Doe
+## Doe
 
-Delta Chat development costs **money**. Your donation will support future improvements directly.
+O desenvolvimento do Delta Chat envolve dinheiro. Uma doação sua pode nos ajudar.
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal ou cartão de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Mande bitcoins para [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?
 [We](imprint)'d love to take it!
@@ -40,14 +40,13 @@ Estamos precisando de alguém que ajude no gerenciamento da página do Transifex
 
 # Desenvolvedores
 
-We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.
-Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request.
+É claro que desenvolvedores de código livre são muito bem-vindos! Faça seus melhoramentos no seu [Delta Chat fork](https://github.com/deltachat/) e mande um pull request.
 
-The same applies for **this webpage** - no matter if you have bigger or smaller improvements: Easily edit this page [here](https://github.com/deltachat/deltachat-pages) and send us a pull request.
+Você tem grandes ideias ou uma pequena dica para melhorar este **website?** Basta [editar aqui](https://github.com/deltachat/deltachat-pages) e enviar um pull request.
 
 # Recomendação
 
-_Atualmente_ o Delta Chat ainda esta em estado beta e é recomendado somente para testes. Se decidir usá-lo, tenha em mente que ele está sujeito a profundas mudanças. Tão logo o Delta Chat alcance a versão "1.0", será recomendado para todo mundo. 
+Atualmente o Delta Chat ainda esta em estado beta e é recomendado somente para testes. Se decidir usá-lo, tenha em mente que ele está sujeito a profundas mudanças. Tão logo o Delta Chat alcance a versão "1.0", será recomendado para todo mundo. 
 
 
 # Relatórios de erro

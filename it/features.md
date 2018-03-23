@@ -3,7 +3,7 @@ title: Perché Delta Chat?
 layout: default-it
 ---
 
-# What Delta Chat offers
+# Perché Delta Chat? I vantaggi.
 
 Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.
 

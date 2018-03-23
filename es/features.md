@@ -1,5 +1,5 @@
 ---
-title: Why
+title: Por qué Delta Chat? Tus ventajas.
 layout: default-es
 ---
 

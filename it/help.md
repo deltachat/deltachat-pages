@@ -11,7 +11,7 @@ layout: default-it
 - [Multi-client](#multiclient)
 - [Varie](#miscellaneous)
 
-# Generali
+# Generali {#general}
 
 ## A chi posso scrivere?
 
@@ -49,7 +49,6 @@ Gli altri messaggi non compariranno in maniera automatica, sarà possibile veder
 ## Come viene gestito lo spam?
 
 - Come per i messaggi da utenti completamente sconosciuti non comparirà alcuna notifica, solitamente, **non c'è spam**.
-- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
 - Tuttavia, se realmente necessario, è possibile **bloccare** tutti i contatti.
 
 ## Delta Chat supporta immagini, video e altri allegati?
@@ -60,7 +59,7 @@ Gli altri messaggi non compariranno in maniera automatica, sarà possibile veder
 
 - Sì. Se alle email in entrata manca una parte di testo semplice, l'app converte automaticamente le email HTML in testo semplice. Le email in uscita usano sempre il testo semplice.
 
-# Gruppi
+# Gruppi {#groups}
 
 ## Come posso creare un gruppo?
 
@@ -90,7 +89,7 @@ Gli altri messaggi non compariranno in maniera automatica, sarà possibile veder
 
 ## Cosa bisogna fare per attivare la cifratura end-to-end?
 
-- Nulla
+- Nulla.
 
 - Delta Chat (e altri programmi email compatibili con [Autocrypt](https://autocrypt.org)) condividono le chiavi richieste per la cifratura end-to-end automaticamente appena vengono inviati i primi messaggi. Fatto questo, tutti i messaggi successivi utilizzeranno automaticamente la cifratura end-to-end. Se una persona con la quale si è già avviata una conversazione cifrata, utilizzasse successivamente una app che non supporta la cifratura end-to-end, questa viene "sospesa" e automaticamente riattivata non appena la cifratura sarà nuovamente disponibile.
 
@@ -107,23 +106,23 @@ Gli altri messaggi non compariranno in maniera automatica, sarà possibile veder
 - If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
-## How can I verify the sender?
+## Come posso verificare la cifratura?
 
-The user's profile shows some additional information:
+Selezionare "Crittografia" dal profilo utente:
 
-- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
-- For transport encryption, this state is just shown there
+- Per una cifratura end-to-end, Delta Chat mostra due impronte. Se sono le stesse sul dispositivo dell'altro utente con cui si sta conversando, la connessione è sicura.
+- Per il _transport encryption_, questo stato viene mostrato direttamente nel profilo
 
 
-## Which standards are used for end-to-end-encryption.
+## Quali standard sono usati per la cifratura end-to-end.
 
-- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
+- OpenPGP. Il trasporto delle chiavi avviene attraverso [Autocrypt](https://autocrypt.org).
 
-## Can I re-use by existing private key?
+## Posso utilizzare una chiave privata già esistente?
 
-- Yes. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+- Sì. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you have to do nothing.
+Se non si possiede una chiave o non si aveva idea che potesse servirne una, nessun problema: Delta Chat ne genererà una se necessario, non sarà necessaria alcuna operazione.
 
 # Multi-client {#multiclient}
 
@@ -131,16 +130,16 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 - Se si vuole usare lo **stesso account** su dispositivi diversi, bisognerà assicurarsi che tutti i dispositivi usino la stessa chiave di cifratura:
 
-  - Sul primo dispositivo, scegliere "Impostazioni avanzate / Gestione chiavi private / Esporta la chiave in Download"
-  - Via USB, copiare il file della chiave dalla directory "Download" dal primo dispositivo al secondo.
-  - Sul secondo dispositivo, "Impostazioni avanzate / Gestione chiavi private / Importa la chiave da Download"
+ - Sul primo dispositivo, scegliere "Impostazioni avanzate / Gestione chiavi private / Esporta la chiave in Download"
+ - Via USB, copiare il file della chiave dalla directory "Download" dal primo dispositivo al secondo.
+ - Sul secondo dispositivo, "Impostazioni avanzate / Gestione chiavi private / Importa la chiave da Download"
 
 - Tutto questo **non è necessario** per l'utilizzo standard di Delta Chat usando un solo dispositivo.
 
 - NB: in modalità multi-client, i messaggi _in entrata_ vengono mostrati immediatamente su tutti i client. I messaggi _in uscita_ vengono sincronizzati circa due volte ogni ora. Forse sarà possibile migliorare questa caratteristica, ma sarà necessario più [supporto](contribute) per risolvere questo inconveniente.
 
 
-# Varie
+# Varie {#miscellaneous}
 
 ## Delta Chat on Linux Desktop
 
@@ -157,12 +156,12 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 - Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
-## Login Issues
+## Problemi di accesso
 
-I have a problem with ...
+Ho un problema con ...
 
-- Gmail: Enable "Support less secure apps" and IMAP, you may receive a mail to grant permission
+- Gmail: abilitare "Supporta le applicazioni meno sicure" e IMAP, si potrebbe ricevere una email con la richiesta di concedere l'accesso
 
-## I'm interested in the technical details. Can you tell me more?
+## Sono interessato ai dettagli tecnici. Posso avere ulteriori informazioni?
 
-- See page [Standards used in Delta Chat](../en/standards).
+- Consultare la pagina [Standard utilizzati in Delta Chat]({% include standards-url %}).

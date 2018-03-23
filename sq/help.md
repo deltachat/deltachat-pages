@@ -15,7 +15,7 @@ layout: default-sq
 
 ## Kujt mund t’i shkruaj?
 
-- Me Delta Chat-in, mund t’i shkruani cilësdo adresë email ekzistuese - edhe nëse marrësi s’e përdor ende aplikacionin Delta Chat. Ky është një nga dallimet më të mëdha me programe të tjerë të llojit: S’ka nevojë që marrësi të instalojë të njëjtin aplikacion me ju.
+- Me Delta Chat-in, mund t’i shkruani cilëso adresë email ekzistuese - edhe nëse marrësi s’e përdor ende aplikacionin Delta Chat. Ky është një nga dallimet më të mëdha me programe të tjerë të llojit: S’ka nevojë që marrësi të instalojë të njëjtin aplikacion me ju.
 
 ## Cilat janë përparësitë e Delta Chat-it krahasuar me programe të tjerë të llojit?
 
@@ -42,127 +42,127 @@ Delta Chat shfaq automatikisht …
 
 - Mesazhe nga kontakte prej **librit tuaj të adresave**
 - Mesazhe nga kontakte **të kontaktuar nga ju**
-- Mesazhe nga kontakte **të kontaktuar nga një kontakt i njohur** (Siç gjendet në fushën Për: ose CC: të mesazheve të tyre.)
+- **Përgjigje** ndaj mesazheve dërguar nga ju
 
-**Përgjigje** ndaj mesazheve dërguar nga ju
+Mesazhe të tjerë nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni te menuja kryesore te **Kërkesa kontakti** dhe, në daçi, të filloni bisedë që prej atje.
 
-## Mesazhe të tjerë nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni te menuja kryesore te **Kërkesa kontaki** dhe, në daçi, të filloni bisedë që prej atje.
+## Po Mesazhet e Padëshiruara?
 
-- Po Mesazhet e Padëshiruara?
 - Mesazhet në dosje të zakonshme mesazhesh të padëshiruar shpërfillen dhe adresat në ta nuk konsiderohen si kontakte të njohur.
 - Meqë mesazhet prej kontaktesh të panjohur nuk shfaqen vetvetiu, normalisht, **s’ka mesazhe të padëshiruar**.
+- Sido qoftë, nëse duhet vërtet, mund të **bllokoni** cilindo kontakt.
 
-## Sido qoftë, nëse duhet vërtet, mund të **bllokoni** cilindo kontakt.
+## A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?
 
-- A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?
+- Po. Veç tekstit të thjeshtë, krejt bashkëngjitjet email shfaqen si mesazhe më vete. Mesazhet ikëse do të pranojnë vetvetiu bashkëngjitje sipas nevojës.
 
-## Po. Veç tekstit të thjeshtë, krejt bashkëngjitjet email shfaqen si mesazhe më vete. Mesazhet ikëse do të pranojnë vetvetiu bashkëngjitje sipas nevojës.
+## A mbulon Delta Chat-i email-e HTML?
 
-- A mbulon Delta Chat-i email-e HTML?
+- Po. Nëse email-i ardhës nuk ka pjesë nën tekst të thjeshtë, i shndërrojmë email-et HTML në tekst të thjeshtë. Email-et dërgohen përherë si tekst i thjeshtë.
 
-# Po. Nëse email-i ardhës nuk ka pjesë nën tekst të thjeshtë, i shndërrojmë email-et HTML në tekst të thjeshtë. Email-et dërgohen përherë si tekst i thjeshtë.
+# Grupe
 
-## Grupe
+## Si mund të krijoj një grup?
 
-- Si mund të krijoj një grup?
 - Përzgjidhni **Shtoni grup** që nga "menuja sanduiç" në cepin e sipërm djathtas te skena bazë e bisedave.
 - Te skena vijuese, përzgjidhni **anëtarët e grupit** dhe i vini shenjë kutizës në cepin e sipërm djathtas. Pas kësaj, mund të përcaktoni një **emër grupi**.
+- Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjet te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët).
 
-## Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjet te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët).
+## Kush mund të shtojë anëtarë te një grup?
 
-- Kush mund të shtojë anëtarë te një grup?
 - Çdo anëtar i grupit ka **të njëjtat të drejta** si kushdo tjetër. Për këtë arsye, gjithkush mund të fshijë cilindo anëtar ose të shtojë të rinj.
+- Për të shtuar ose fshirë anëtarë, klikoni mbi emrin e grupit te biseda.
 
-## Për të shtuar ose fshirë anëtarë, klikoni mbi emrin e grupit te biseda.
+## Fshiva veten padashje.
 
-- Padashje fshiva veten.
+- Ngaqë s’jeni më anëtar i grupit, s’mund të shtoni veten sërish. Megjithatë, s’ka problem, thjesht kërkojini një anëtari tjetër të grupit në një fjalosje të zakonshme t’ju shtojë sërish.
 
-## Ngaqë s’jeni më anëtar i grupit, s’mund të shtoni veten sërish. Megjithatë, s’ka problem, thjesht kërkojini një anëtari tjetër të grupit në një fjalosje të zakonshme t’ju shtojë sërish.
+## S’dua t’i marr më mesazhet e një grupi.
 
-- S’dua t’i marr më mesazhet e një grupi.
 - Ose fshini veten nga grupi si anëtar i listës, ose fshini krejt bisedën. Nëse doni të bëheni pjesë e grupit sërish, kërkojini një anëtari tjetër të grupit t’ju shtojë sërish.
+- Ndryshe, mundeni edhe ta "Heshtoni" një grup - duke bërë këtë, do të merrni krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më për çfarëdo mesazhesh të rinj.
 
-# Ndryshe, mundeni edhe ta "Heshtoni" një grup - duke bërë këtë, do të merrni krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më për çfarëdo mesazhesh të rinj.
+# Fshehtëzim {#encryption}
 
-## Fshehtëzim {#encryption}
+## A ka Delta Chat-i fshehtëzim skaj-më-skaj?
 
-- A ka Delta Chat-i fshehtëzim skaj-më-skaj?
+- Po.
 
-## Po.
-
-- Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?
+## Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?
 
 - Asgjë.
 
 - Delta Chat-i (dhe të tjerë programe email të përputhshëm me [Autocrypt](https://autocrypt.org)-in) i shkëmbejnë vetvetiu kyçet e domosdoshëm për fshehtëzim skaj-më-skaj teksa dërgohen mesazhet e parë. Pas kësaj, krejt mesazhet në vazhdim fshehtëzohen vetvetiu skaj-më-skaj. Nëse një nga partnerët në bisedë përdor më vonë një aplikacion që s’mund të përdorë fshehtëzim skaj-më-skaj, kalohet pushim për këtë herë dhe riaktivizohet vetvetiu sapo të jetë e mundur.
 
-## Nëse doni të _çaktivizohet_ fshehtëzimi skaj-më-skaj, përdorni rregullimin përkatës te "Rregullime / Rregullime të mëtejshme".
+- Nëse doni të _çaktivizohet_ fshehtëzimi skaj-më-skaj, përdorni rregullimin përkatës te "Rregullime / Rregullime të mëtejshme".
 
-- Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?
+## Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?
+
+- Jo. Përdoret _fshehtëzimi i transportit_ normal, standard për email-et.
 
 
-## Jo. Përdoret _fshehtëzimi i transportit_ normal, standard për email-et.
+## Si mund ta kontrolloj fshehtëzimin?
 
-- Si mund ta kontrolloj fshehtëzimin?
 - Nëse në krah të mesazhit shfaqet një **dry** i vockël, kjo do të thotë që mesazhi është i fshehtëzuar skaj-më-skaj _dhe_ është dërguar nga dërguesi i dhënë _dhe_ përgjigja juaj edhe ajo do të fshehtëzohet.
+- Nëse **s’ka dry**, zakonisht mesazhi udhëton me transport të fshehtëzuar , p.sh. ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose sepse përdoruesi përdor një aplikacion që nuk e mbulon fshehtëzimin skaj-më-skaj.
 
 
-## Nëse **s’ka dry**, zakonisht mesazhi udhëton me transport të fshehtëzuar , p.sh. ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose sepse përdoruesi përdor një aplikacion që nuk e mbulon fshehtëzimin skaj-më-skaj.
+## Si mund ta verifikoj dërguesin?
 
-Si mund ta verifikoj dërguesin?
+Profili i përdoruesit shfaq disa të dhëna shtesë:
 
-- Profili i përdoruesit shfaq disa të dhëna shtesë:
 - Për fshehtëzim skaj-më-skaj, Delta Chat shfaq dy shenja gishtash. Nëse ata janë të njëjtë me ata te pajisja e partnerit tuaj në bisedë, lidhja është e sigurt.
+- Për fshehtëzim të transportit, gjendja thjesht tregohet atje
 
 
-## Për fshehtëzim të transportit, gjendja thjesht tregohet atje
+## Cilët standarde përdoren për fshehtëzim skaj-më-skaj.
 
-- Cilët standarde përdoren për fshehtëzim skaj-më-skaj.
+- OpenPGP. Transporti i kyçeve bëhet mes [Autocrypt](https://autocrypt.org).
 
-## OpenPGP. Transporti i kyçeve bëhet mes [Autocrypt](https://autocrypt.org).
+## A mund të ripërdor kyç ekzistues privat?
 
-- A mund të ripërdor kyç ekzistues privat?
+- Po. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
-Po. Duke e importuar atë që nga "Rregullime të mëtejshme / Administroni kyçe privatë". Kujdes: Sigurohuni që kyçi s’është i mbrojtur me fjalëkalim, ose hiqjani, po qe.
+Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të bërë.
 
-# Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të bërë.
+# Multi-klient {#multiclient}
 
-## Multi-klient {#multiclient}
+## A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
 
-- A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
+- Nëse doni ta përdorni me **të njëjtën llogari** në pajisje të ndryshme, duhet të sigurohuni se krejt pajisjet përdorin për fshehtëzim të njëjtët kyçe:
 
-  - Nëse doni ta përdorni me **të njëjtën llogari** në pajisje të ndryshme, duhet të sigurohuni se krejt pajisjet përdorin për fshehtëzim të njëjtët kyçe:
   - Në pajisjen e parë, zgjidhni "Rregullime të mëtejshme / Administroni kyçe privatë / Eksportoni kyç te Shkarkimet"
   - Përmes një diskthi USB, kopjojeni kartelën e kyçit nga drejtoria "Shkarkime" e pajisjes së parë te ajo e së dytës.
-
-- Te pajisja e dytë zgjidhni, "Rregullime të mëtejshme / Administroni kyçe privatë / Importoni kyç nga Shkarkimet"
+  - Te pajisja e dytë zgjidhni, "Rregullime të mëtejshme / Administroni kyçe privatë / Importoni kyç nga Shkarkimet"
 
 - Krejt kjo **s’është e nevojshme** për përdorim standard të Delta Chat-it kur përdoret thjesht një pajisje.
 
+- NB: Nën mënyrën multi-klient, mesazhet _ardhës_ shfaqen menjëherë në tërë klientët. Mesazhet _ikës_ njëkohësohen përafërsisht dy herë në orë. Mund ta përmirësojmë këtë, por do të na duhej më tepër [përkrahje](contribute) mbi këtë çështje.
 
-# NB: Nën mënyrën multi-klient, mesazhet _ardhës_ shfaqen menjëherë në tërë klientët. Mesazhet _ikës_ njëkohësohen përafërsisht dy herë në orë. Mund ta përmirësojmë këtë, por do të na duhej më tepër [përkrahje](contribute) mbi këtë çështje.
 
-## Të ndryshme
+# Të ndryshme
 
-- Delta Chat në Linux Desktop
+## Delta Chat në Linux Desktop
 
-  Mund ta xhironi Delta Chat-in në një desktop Ubuntu Linux (ose tjetër shpërndarje Linux që mbulon formatin **snap** për paketime programesh) thjesht duke instaluar [Anbox](https://anbox.io) (Android in a Box) që nga terminali:
+- Mund ta xhironi Delta Chat-in në një desktop Ubuntu Linux (ose tjetër shpërndarje Linux që mbulon formatin **snap** për paketime programesh) thjesht duke instaluar [Anbox](https://anbox.io) (Android in a Box) që nga terminali:
 
-- $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
+  $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
-  Që të shtoni aplikacionin Delta Chat, shkarkoni kartelën *com.b44t.messenger_\<version\>.apk* që nga [kjo](download) faqe dhe instalojeni që nga terminali:
+- Që të shtoni aplikacionin Delta Chat, shkarkoni kartelën *com.b44t.messenger_\<version\>.apk* që nga [kjo](download) faqe dhe instalojeni që nga terminali:
 
   $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
 
-- adb është _Android Debug Bridge_ dhe mund të instalohet që nga depoja.
+  adb është _Android Debug Bridge_ dhe mund të instalohet që nga depoja.
+
+- Në vend të instalimit të Delta Chat-it drejtpërsëdrejti përmes kartelës .apk, mund të instaloni së pari dyqanin F-Froid përmes [F-Droid-apk](https://f-droid.org/FDroid.apk) dhe mandej të instaloni Delta Chat-in duke përdorur këtë dyqan. Përfitimi në këtë rast janë të dhënat mbi përditësime dhe migrimi i formësimit dhe të dhënave mbi biseda ekzistuese.
 
 
-## Në vend të instalimit të Delta Chat-it drejtpërsëdrejti përmes kartelës .apk, mund të instaloni së pari dyqanin F-Froid përmes [F-Droid-apk](https://f-droid.org/FDroid.apk) dhe mandej të instaloni Delta Chat-in duke përdorur këtë dyqan. Përfitimi në këtë rast janë të dhënat mbi përditësime dhe migrimi i formësimit dhe të dhënave mbi biseda ekzistuese.
+## Probleme Hyrjeje
 
-Probleme Hyrjeje
+Kam problem me …
 
-- Kam problem me …
+- Gmail: Aktivizoni "Support less secure apps" dhe IMAP, mund të merrni një email për akordim lejesh
 
-## Gmail: Aktivizoni "Support less secure apps" dhe IMAP, mund të merrni një email për akordim lejesh
+## Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
-- Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
+- Shihni faqen [Standarde të përdorur në Delta Chat]({% include standards-url %}).

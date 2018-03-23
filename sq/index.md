@@ -7,17 +7,20 @@ layout: default-sq
 {% include slider-begin.html %}
 
 # Delta Chat
-Shkëmbyesi i mesazheve me **publikun më të gjerë** në botë. **I lirë**, **i pavarur**, i pajtueshëm me email-in.
+Shkëmbyesi i mesazheve me **publikun më të gjerë** në botë. 
+**I lirë**, **i pavarur**, i pajtueshëm me email-in.
 
 {% include slider-next.html %}
 
-# I pavaru
-**S’ka shërbyes Delta Chat** Aplikacioni përdor shërbyesin tuaj të email-eve.
+# I pavarur
+**S’ka shërbyes Delta Chat** 
+Aplikacioni përdor vetëm shërbyesin tuaj të email-eve.
 
 {% include slider-next.html %}
 
 # I shpejtë
-**Mesazhe push** brenda pak sekondash. Ndërfaqe e shpejtë.
+**Mesazhe push** brenda pak sekondash. 
+Ndërfaqe e shpejtë.
 
 {% include slider-next.html %}
 
@@ -27,7 +30,8 @@ Biseda, figura, video, mesazhe audio, etj, **të pakufizuara**. Me aftësi _mult
 {% include slider-next.html %}
 
 # I lirë
-**Delta Chat** është i lirë, përgjithmonë. Me burim të Hapur. Pa reklama. Pa pajtim. Pa kyçje nga tregtuesit.
+**Delta Chat** është i lirë, përgjithmonë. 
+Me burim të Hapur. Pa reklama. Pa pajtim. Pa kyçje nga tregtuesit.
 
 {% include slider-next.html %}
 

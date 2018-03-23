@@ -11,11 +11,11 @@ layout: default-pt
 - [Multicliente](#multiclient)
 - [Diversos](#miscellaneous)
 
-# Geral
+# Geral {#general}
 
 ## Para quem posso escrever?
 
-- Com o Delta Chat, você pode escrever para outros usuários do Delta Chat - ou qualquer outra pessoa que tenha um e-mail. Esta é uma das maiores diferenças de outros aplicativos do gênero:  Não é preciso que o destinatário instale o mesmo aplicativo que você usa.
+- Com o Delta Chat, você pode escrever para outros usuários do Delta Chat - ou qualquer outra pessoa que tenha um e-mail. Esta é uma das maiores diferenças de outros aplicativos do gênero: Não é preciso que o destinatário instale o mesmo aplicativo que você usa.
 
 ## Quais são as vantagens do Delta Chat comparado a outros aplicativos do tipo?
 
@@ -34,7 +34,7 @@ layout: default-pt
 
 ## E se o destinatário não usar o Delta Chat?
 
-- Neste caso o destinatário vai receber um e-mail normal - se ele responder, você vai  receber a mensagem no Delta Chat.
+- Neste caso o destinatário vai receber um e-mail normal - se ele responder, você vai receber a mensagem no Delta Chat.
 
 ## Quais mensagens aparecem no Delta Chat?
 
@@ -44,23 +44,22 @@ O Delta Chat automaticamente exibe ...
 - Mensagens de contatos **que você contatou**
 - **Respostas** a mensagens enviadas por você
 
-Other messages do not appear automatically. You can see the other messages in the main menu at **Contact requests** and, if desired, start a chat from there.
+Outras mensagens não aparecem automaticamente. Você poderá as ver no menu princial em **Requisições de contato** e, se desejar, comece a conversar.
 
 ## E o Spam?
 
 - Mensagens de completos desconhecidos não são exibidas automaticamente, de modo que, normalmente, **não há spam**.
-- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
 - No entanto, se realmente necessário, você pode **bloquear** qualquer contato.
 
-## Does Delta Chat support images, videos and other attachments?
+## O Delta Chat exibe imagens, vídeos e aceita outros anexos?
 
-- Yes. Beside the plain text, all email-attachments are displayed as separate messages. Outgoing messages will get attachments as needed automatically.
+- Sim. Além de texto puro, todos os anexos de e-mail são exibidos como mensagens separadas. Mensagens enviadas aceitam anexos também.
 
 ## O Delta Chat lê e-mails em HTML?
 
 - Sim. Se a mensagem não estiver em texto puro, o HTML será convertido em texto puro. Mensagens sempre são enviadas em texto puro.
 
-# Grupos
+# Grupos {#groups}
 
 ## Como criar um grupo?
 
@@ -98,7 +97,8 @@ todas as mensagens posteriores são criptografadas ponta a ponta automaticamente
 participantes da conversa não estiver usando um programa que comporte criptografia, a
 criptografia fica suspensa até ser reativada novamente, quando possível.
 
-- Se você quiser _desativar_ a criptografia ponta a ponta, faça-o no menu "Configurações / Configurações avançadas".
+- Se você quiser _desativar_ a criptografia ponta a ponta, faça-o no menu 
+"Configurações / Configurações avançadas".
 
 ## Se a criptografia ponta a ponta não estiver ativa a conexão estará completamente descriptografada?
 
@@ -125,7 +125,7 @@ The user's profile shows some additional information:
 
 ## Posso reutilizar uma chave privada que já possuo?
 
-- Sim. Importe-a através do menu "Configurações avançadas / Gerir chaves privadas". Atenção: Certifique-se de que a chave não está protegida por uma senha, ou remova a senha antes de importá-la.
+- Sim. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
 Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se preocupe: o Delta Chat fará tudo automaticamente para você.
 
@@ -135,16 +135,16 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
 - Se você quiser usar a **mesma conta** em diferentes dispositivos, você terá que fazer com que todos eles usem a mesma chave de criptografia:
 
-  - No primeiro dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Exportar para Downloads"
-  - Via USB, copie a chave da pasta "Downloads" do primeiro dispositivo para o segundo.
-  - No segundo dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Importar de Downloads"
+ - No primeiro dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Exportar para Downloads"
+ - Via USB, copie a chave da pasta "Downloads" do primeiro dispositivo para o segundo.
+ - No segundo dispositivo, escolha "Configurações avançadas / Gerir chaves privadas / Importar de Downloads"
 
 - **Nada disso é necessário** se você utilizar somente um dispositivo.
 
 - Nota: No modo multicliente mensagens _recebidas_ são exibidas imediatamente em ambos dispositivos. Mensagens _enviadas_ demoram cerca de meia hora para sincronizar. Talvez esta questão possa ser melhorada, mas precisamos de mais [ajuda](contribute) para resolvê-la.
 
 
-# Diversos
+# Diversos {#miscellaneous}
 
 ## Delta Chat no Linux
 
@@ -156,7 +156,7 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
   $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
 
-  adb significa "Android Debug Bridge" e pode ser instalado através de repositórios.
+ adb significa "Android Debug Bridge" e pode ser instalado através de repositórios.
 
 - Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 

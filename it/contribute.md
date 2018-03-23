@@ -17,13 +17,13 @@ If you want to talk with us you may:
 - Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
 
-# Donazioni
+## Donazioni
 
-Lo sviluppo di **Delta Chat** ha un costo. Le donazioni supporteranno in modo diretto i futuri miglioramenti.
+Lo sviluppo di Delta Chat ha un costo. Le donazioni supporteranno in modo diretto i futuri miglioramenti.
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal o carte di credito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Inviare bitcoin a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?
 [We](imprint)'d love to take it!
@@ -37,10 +37,10 @@ Sono anche necessarie persone che vogliano mantenere la pagina Transifex e i con
 
 # Sviluppatori
 
-Ovviamente, gli sviluppatori open source sono i benvenuti! Basta modificare e migliorare il proprio [fork di Delta Chat](https://github.com/deltachat/) e inviare una richiesta di _pull_.
+We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.
+Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request.
 
-Avete grandi idee o piccoli suggerimenti per questo **sito web?** Basta aggiungere [le modifiche qui](https://github.com/deltachat/deltachat-pages) e inviare una richiesta di _pull_.
-
+The same applies for **this webpage** - no matter if you have bigger or smaller improvements: Easily edit this page [here](https://github.com/deltachat/deltachat-pages) and send us a pull request.
 
 # Diffondete la parola ...
 

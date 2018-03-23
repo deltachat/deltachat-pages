@@ -1,17 +1,17 @@
 ---
-title: Help
+title: FAQ
 layout: default-fr
 ---
 
 # Questions fréquemment posées
 
 - [Général](#general)
-- [Groups](#groups)
-- [Encryption](#encryption)
+- [Groupes](#groups)
+- [Chiffrement](#encryption)
 - [Multi-client](#multiclient)
-- [Miscellaneous](#miscellaneous)
+- [Divers](#miscellaneous)
 
-# General
+# Général {#general}
 
 ## A qui puis-je écrire?
 
@@ -19,7 +19,7 @@ layout: default-fr
 
 ## Quels sont les avantages de Delta Chat par rapport aux autres messageries?
 
-- _Indépendant_ de toute entreprise ou de service. _Vous_ possédez vos propres données.
+- Indépendant de toute entreprise ou de service. _Vous possédez vos propres données_.
 - Vos données ne sont pas sauvegardées sur un serveur central; De cette façon, contrairement à la plupart des autres messageries, Delta Chat protège même vos métadonnées (qui écrit à qui?)
 - Vous ne distribuez pas votre carnet d'adresses à qui que ce soit.
 - _Rapide_ par l'utilisation de Push-IMAP
@@ -28,8 +28,7 @@ layout: default-fr
 - Interface utilisateur _élegant_ et _simple_
 - _Système distribué_
 - _Pas de Spam_ - seuls les messages des utilisateurs connus sont affichés par défaut
-- _Reliable_ - safe for professional use
-- _Trustworthy_ - can even be used for business messages
+- _Fiable_ - et _sûr_ pour un usage professionnel
 - Entièrement _OpenSource_ et basé sur les _Standards_
 
 ## Que ce passe t'il si le destinataire n'utilise pas Delta Chat?
@@ -55,7 +54,6 @@ Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les aut
 ## Delta Chat prend-il en charge les images, vidéos et autres pièces jointes?
 
 - Oui, à côté du texte brut, toutes les pièces jointes sont affichées comme des messages séparés. Les messages sortants recevront automatiquement les pièces jointes nécessaires.
-
 
 ## Est-ce que Delta Chat prend en charge les e-mails en HTML?
 
@@ -122,7 +120,7 @@ Le profil de l'utilisateur affiche des informations supplémentaires:
 
 ## Puis-je réutiliser par clé privée existante?
 
-- Oui, avec _importer_ dans "Paramètres avancés / Gérer les clés privées". Attention: Assurez-vous que la clé n'est pas protégée par un mot de passe ou supprimez-la avant.
+- Oui. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
 Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne vous inquiétez pas: Delta Chat en génère une au besoin, vous n'avez rien à faire.
 
@@ -132,16 +130,16 @@ Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne v
 
 - Si vous souhaitez utiliser le **même compte** sur différents appareils, vous devez vous assurer que tous les appareils utilisent les mêmes clés pour le chiffrement:
 
-  - ur le premier appareil, choisissez "Paramètres avancés / Gérer les clés privées / Exporter la clé vers Téléchargements"
-  - Via USB, copiez le fichier clé du répertoire "Téléchargements" du premier appareil vers le second.
-  - Sur le second appareil, "Paramètres avancés / Gérer les clés privées / Importer les clefs depuis Téléchargements"
+ - Sur le premier appareil, choisissez "Paramètres avancés / Gérer les clés privées / Exporter la clé vers Téléchargements"
+ - Via USB, copiez le fichier clé du répertoire "Téléchargements" du premier appareil vers le second.
+ - Sur le second appareil, "Paramètres avancés / Gérer les clés privées / Importer les clefs depuis Téléchargements"
 
 - Tout ceci n'est **pas nécessaire** pour l'utilisation standard de Delta Chat en utilisant un seul périphérique.
 
-- NB: En mode multi-client, les messages _entrants_ sont affichés en même temps sur tous les clients. Les messages _sortants_ sont synchronisés environ deux fois par heure. Nous pouvons améliorer cela, mais nous aurions besoin de plus de [soutien](../fr/contribute) sur cette question.
+- NB: En mode multi-client, les messages _entrants_ sont affichés en même temps sur tous les clients. Les messages sortants sont synchronisés environ deux fois par heure. Nous pouvons améliorer cela, mais nous aurions besoin de plus de [soutien](../fr/contribute) sur cette question.
 
 
-# Divers
+# Divers {#miscellaneous}
 
 ## Delta Chat sur Linux
 
@@ -153,7 +151,7 @@ Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne v
 
   $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
 
-  adb est le pont de débogage Android et peut être installé à partir du dépot.
+ adb est le pont de débogage Android et peut être installé à partir du dépot.
 
 - Au lieu d'installer Delta Chat directement via le fichier APK, vous pouvez d'abord installer le magasin F-Froid via [F-Droid-apk](https://f-droid.org/FDroid.apk), puis installer Delta Chat en utilisant le magasin. Le grand avantage est l'information sur les mises à jour et la migration des données de configuration et des discussions existantes.
 

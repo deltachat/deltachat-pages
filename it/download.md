@@ -5,7 +5,7 @@ layout: default-it
 
 # Scarica Delta Chat
 
-**Delta Chat is currently under development**
+**Al momento Delta Chat è in fase di sviluppo**
 
 A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. 
 Further variants for iOS, Mac, Linux or Windows are planned.

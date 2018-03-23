@@ -7,18 +7,20 @@ layout: default-de
 {% include slider-begin.html %}
 
 # Delta Chat
-Der Messenger mit der **größten Reichweite** der Welt. 
+Der Messenger mit der **größten Reichweite** der Welt.  
 **Frei** und **unabhängig**.
 
 {% include slider-next.html %}
 
 # Unabhängig
-**Es gibt keinen Delta-Chat-Server.** Die App verwendet nur Ihren E-Mail-Server.
+**Es gibt keinen Delta-Chat-Server.**  
+Die App verwendet nur Ihren E-Mail-Server.
 
 {% include slider-next.html %}
 
 # Schnell
-**Push-Nachrichten** in Sekunden. Rasantes Interface.
+**Push-Nachrichten** in Sekunden.  
+Rasantes Interface.
 
 {% include slider-next.html %}
 
