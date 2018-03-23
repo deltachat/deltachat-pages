@@ -1,3 +1,5 @@
+echo "this script is deprecated, use t-dance instead."
+exit
 
 # this script copies the source files from `en/` to the transifex server.
 
