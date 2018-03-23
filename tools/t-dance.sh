@@ -14,40 +14,51 @@
 sfiles=(blog contribute download features help imprint index)
 tlangs=(de es fr it pt ru sq)  # do not add `en` to this list
 
-create_po() {
-	rm -r translations
-	for sfile in ${sfiles[@]} 
-	do
-		mkdir -p "translations/delta-chat-pages.${sfile}po/"
-		txt2po "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/en.po"
-	done 
-}
-
 
 tx_pull() {
 	rm -r translations
-	tx pull -a -s   # -a = fetch all translationss, -s = fetches source
+	tx pull -a   # -a = fetch all translationss, -s = fetches source
 }
 
 
-update_translations() {
+update_markdown_files() {
 	for sfile in ${sfiles[@]}
 	do
 		for tlang in ${tlangs[@]}
 		do
-			po2txt -t "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/${tlang}.po" "../${tlang}/${sfile}.md"
+			po2txt --progress=none --template="../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/${tlang}.po" "../${tlang}/${sfile}.md"
 		done
 	done	
 }
 
 
-if [ $1 == "create-po" ]; then
-	create_po
-elif [ $1 == "tx-pull" ]; then
+reset_markdown_files() {
+	for tlang in ${tlangs[@]}
+	do
+		git checkout "../${tlang}/"
+	done
+}
+
+
+tx_push_sources() {
+	for sfile in ${sfiles[@]}
+	do
+		txt2po --progress=none "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/en.po"
+	done
+	tx push -s
+}
+
+
+if [ $1 == "tx-pull" ]; then
 	tx_pull
-elif [ $1 == "update" ]; then
-	update_translations	
+elif [ $1 == "md-update" ]; then
+	update_markdown_files	
+elif [ $1 == "md-reset" ]; then
+	reset_markdown_files
+elif [ $1 == "tx-push-sources" ]; then
+	tx_push_sources
 else
-	echo "usage ./t-dance {create-po|tx-pull|update}";
+	echo "usage: ./t-dance {tx-pull|md-update|md-reset|tx-push-sources}";
+	echo "to push a single language: tx push -t -l <lang>"
 fi
 
