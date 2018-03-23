@@ -7,41 +7,37 @@ layout: default-es
 {% include slider-begin.html %}
 
 # Delta Chat
-The messenger with the **broadest audience** in the world.  
-**Free**, **independent**, email compatible.
+El mensajero con **mayor alcance** del mundo. **Libre**, **seguro**, compatible con el correo electrónico.
 
 {% include slider-next.html %}
 
-# Independent
-**There is no Delta Chat server.**  
-The app only uses your email server.
+# Independiente
+**No depende** no depende de computadoras o servicios ajenos. Utiliza solo tu servidor de correo electrónico.
 
 {% include slider-next.html %}
 
-# Fast
-**Push messages** in seconds.  
-Rapid interface.
+# Rápido
+**Envía mensajes** en segundos. Interfáz rápida.
 
 {% include slider-next.html %}
 
-# Powerful
-**Unlimited** chats, images, videos, audio messages and more. Multi-client capable.
+# Poderoso
+**Ilimitados** conversaciones, imágenes, videos, mensajes de audio y más. Conecta múltiples clientes.
 
 {% include slider-next.html %}
 
-# Free
-**Delta Chat** is free forever.  
-Open Source. No ads. No subscription. No vendor lock-in.
+# Libre
+**Delta Chat** es libre y gratis, para siempre. Código libre. Sin publicidad. Sin suscripción. Sin limitaciones de otras empresas.
 
 {% include slider-next.html %}
 
-# Encrypted
-Encrypted with all common algorithms. Messages stay on your servers.
+# Seguro
+**Encriptado** con todos los métodos actuales. Los mensajes se guardan solo en tu servidor de correo.
 
 {% include slider-next.html %}
 
-# Trustworthy
-**Delta Chat** is safe for business use, compatible and standards-based.
+# Confiable
+**Delta Chat** es seguro incluso para usos comerciales y de negocio, compatible y basado en estándares abiertos.
 
 {% include slider-end.html %}
 
