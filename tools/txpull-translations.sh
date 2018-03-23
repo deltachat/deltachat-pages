@@ -1,3 +1,6 @@
+echo "this script is deprecated, use t-dance instead."
+exit
+
 # this script pulls all translated files from transifex and copies them to the
 # correct local directories.
 # the source files in `en/` are not modified.
