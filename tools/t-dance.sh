@@ -57,8 +57,12 @@ elif [ $1 == "md-reset" ]; then
 	reset_markdown_files
 elif [ $1 == "tx-push-sources" ]; then
 	tx_push_sources
+elif [ $1 == "dance" ]; then  # update translations from transifex using english as template, update markdown
+	tx_pull
+	update_markdown_files
+	./jekyll-build-local.prv.sh
 else
-	echo "usage: ./t-dance {tx-pull|md-update|md-reset|tx-push-sources}";
+	echo "usage: ./t-dance {dance|tx-pull|md-update|md-reset|tx-push-sources}";
 	echo "to push a single language: tx push -t -l <lang>"
 fi
 
