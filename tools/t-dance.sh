@@ -48,6 +48,6 @@ elif [ $1 == "tx-pull" ]; then
 elif [ $1 == "update" ]; then
 	update_translations	
 else
-	echo "usage ./t-dance [create-po|tx-pull|update]";	
+	echo "usage ./t-dance {create-po|tx-pull|update}";
 fi
 
