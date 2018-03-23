@@ -9,6 +9,7 @@ Translate the website
 
 You can edit and improve the existing translations with [Transifex](https://www.transifex.com/delta-chat/delta-chat-pages/); if you want to add a new language, please add it there or [contact us](https://delta.chat/en/contribute#channels).
 
+To update the translations from the Transifex server, see the scripts and the documentation in the `tools` folder.
 
 How to create a new blog post
 --------------------------------------------------------------------------------
@@ -20,7 +21,7 @@ How to create a new blog post
 Some Hints
 --------------------------------------------------------------------------------
 
-- whereever possible, use **Markdown** instead of HTML
+- whereever possible, use **Markdown** instead of HTML, esp. in the files that should be translated
 - **no JavaScript** whereever possible, no **weird CSS** nor other complicated things
 - the layout should be **as simple as possible** and should always work on **small mobile screens** as well as on **desktops**
 - when layouting, do not force a special structure.  Header, Content, Footer - done.
@@ -48,4 +49,4 @@ Useful links
 
 ---
 
-Copyright © 2017 Delta Chat contributors
+Copyright © 2017, 2018 Delta Chat contributors
