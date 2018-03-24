@@ -1,0 +1,84 @@
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-23 15:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+
+#: ../en/download.md:1
+msgid ""
+"---\n"
+"title: Download\n"
+"layout: default-en\n"
+"---"
+msgstr ""
+"---\n"
+"title: Baixe o Delta Chat\n"
+"layout: default-pt\n"
+"---"
+
+#: ../en/download.md:6
+msgid "# Download Delta Chat"
+msgstr "# Baixe o Delta Chat"
+
+#: ../en/download.md:8
+msgid "**Delta Chat is currently under development**"
+msgstr "**Atualmente o Delta Chat está sob desenvolvimento ativo**"
+
+#: ../en/download.md:10
+msgid ""
+"A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. \n"
+"Further variants for iOS, Mac, Linux or Windows are planned.\n"
+"You can actively [support](contribute) us in the development."
+msgstr ""
+
+#: ../en/download.md:15
+msgid "## Android (Beta)"
+msgstr ""
+
+#: ../en/download.md:17
+msgid ""
+"[<img src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)\n"
+"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
+msgstr ""
+
+#: ../en/download.md:20
+msgid ""
+"* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
+"* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
+"* [View Changelog]({% include changelog-url %})"
+msgstr ""
+
+#: ../en/download.md:25
+msgid "## Apple"
+msgstr ""
+
+#: ../en/download.md:27
+msgid ""
+"<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
+"AppStore\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
+msgstr ""
+
+#: ../en/download.md:29
+msgid "## Linux"
+msgstr ""
+
+#: ../en/download.md:31
+msgid ""
+"Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.\n"
+"Further details are provided in our [FAQ](help#multiclient) page."
+msgstr ""
+
+#: ../en/download.md:34
+msgid "## Windows"
+msgstr ""
