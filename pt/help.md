@@ -3,6 +3,12 @@ title: Perguntas frequentes
 layout: default-pt
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Perguntas frequentes
 
 - [Geral](#general)

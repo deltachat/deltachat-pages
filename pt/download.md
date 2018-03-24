@@ -3,6 +3,12 @@ title: Baixe o Delta Chat
 layout: default-pt
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Baixe o Delta Chat
 
 **Atualmente o Delta Chat está sob desenvolvimento ativo**

@@ -3,6 +3,12 @@ title: FAQ
 layout: default-fr
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Questions fréquemment posées
 
 - [Général](#general)

@@ -3,6 +3,12 @@ title: Download
 layout: default-de
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Download Delta Chat
 
 **Delta Chat ist aktuell in der Entwicklung**

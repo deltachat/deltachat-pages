@@ -3,6 +3,12 @@ title: Hilfe
 layout: default-de
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Hilfe
 
 - [Allgemein](#general)

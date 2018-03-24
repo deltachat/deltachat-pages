@@ -3,6 +3,12 @@ title: Shkarkim
 layout: default-sq
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Shkarkoni Delta Chat-in
 
 **Delta Chat-i është në zhvillim**

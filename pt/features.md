@@ -3,6 +3,12 @@ title: Por que usar o Delta Chat? Suas vantagens.
 layout: default-pt
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Por que usar o Delta Chat? Suas vantagens.
 
 Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.

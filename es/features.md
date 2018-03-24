@@ -3,6 +3,12 @@ title: Por qué Delta Chat? Tus ventajas.
 layout: default-es
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # What Delta Chat offers
 
 Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.

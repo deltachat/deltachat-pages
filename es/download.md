@@ -3,6 +3,12 @@ title: Descargar e instalar
 layout: default-es
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Descargar e instalar Delta Chat
 
 **Delta Chat is currently under development**

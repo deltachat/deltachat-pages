@@ -3,6 +3,12 @@ title: Aiuto
 layout: default-it
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Domande frequenti (FAQ)
 
 - [Generali](#general)
