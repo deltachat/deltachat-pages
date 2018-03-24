@@ -3,6 +3,12 @@ title: Почему Delta Chat? Ваши преимущества.
 layout: default-ru
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Почему Delta Chat? Ваши преимущества.
 
 **Delta Chat** - это проект, который призван создать приложение обмена сообщениями, которое 

@@ -3,6 +3,12 @@ title: Jepni ndihmesë
 layout: default-sq
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Si të na përkrahni
 
 Delta Chat është me burim të hapur dhe falas. Mund të jepni ndihmesë në shumë mënyra që të shpihet më tej zhvillimi i tij!

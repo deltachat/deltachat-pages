@@ -3,6 +3,12 @@ title: Pse
 layout: default-sq
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Ç’ofron Delta Chat-i
 
 Delta Chat-i është një program modern për shkëmbim mesazhesh. Është si email me kostum të ri. <br>Vetëm se më i mirë, më i sigurt dhe i optimizuar për përdoruesit.

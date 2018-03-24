@@ -3,6 +3,12 @@ title: Contribute
 layout: default-ru
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Как поддержать нас
 
 Delta Chat с открытым исходным кодом и вы можете поддержать его дальнейшее развитие.

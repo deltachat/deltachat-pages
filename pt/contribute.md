@@ -3,6 +3,12 @@ title: Ajuda
 layout: default-pt
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Como ajudar
 
 Delta Chat é de código aberto e você pode nos ajudar a desenvolvê-lo.

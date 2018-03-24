@@ -3,6 +3,12 @@ title: Contribute
 layout: default-es
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # How to support us
 
 Delta Chat is open source and free of charge. You can contribute in many ways to bring the development further!

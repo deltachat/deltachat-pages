@@ -3,6 +3,12 @@ title: Présentation
 layout: default-fr
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Que propose Delta Chat
 
 Delta Chat est une nouvelle messagerie instantanée, comme un email mais dans une style moderne. Simplement mieux, plus sûr et plus convivial.

@@ -3,6 +3,12 @@ title: Warum
 layout: default-de
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Das bietet Delta Chat
 
 Delta Chat ist ein moderner Messenger. Es ist wie E-Mail in modernem Gewand. <br>Nur besser, sicherer und benutzerfreundlicher.

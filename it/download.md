@@ -3,6 +3,12 @@ title: Download
 layout: default-it
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Scarica Delta Chat
 
 **Al momento Delta Chat è in fase di sviluppo**

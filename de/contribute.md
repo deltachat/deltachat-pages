@@ -3,6 +3,12 @@ title: Mitwirken
 layout: default-de
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Wie Sie uns unterstützen können
 
 Delta Chat wird als Open Source kostenlos zur Verfügung gestellt. Sie können auf verschiedenen Wegen helfen die Entwicklung voranzutreiben!

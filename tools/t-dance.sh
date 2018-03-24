@@ -31,7 +31,9 @@ tx_pull() {
 create_markdown_files() {
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
-			po2txt --progress=none --template="../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/${tlang}.po" "../${tlang}/${sfile}.md"
+			pofile="../${tlang}/${sfile}.md"
+			po2txt --progress=none --template="../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/${tlang}.po" $pofile
+			sed -i "0,/^$/ s/^$/\n\n\n<!-- GENERATED FILE -- DO NOT EDIT -->\n\n\n/" $pofile # add a comment in the first empty line (with `0,/^$/` you select all lines until the re matches)
 		done
 	done	
 }

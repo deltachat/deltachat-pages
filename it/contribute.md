@@ -3,6 +3,12 @@ title: Supporta
 layout: default-it
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Come supportare Delta Chat
 
 Delta Chat è open source ed è possibile supportarne lo sviluppo futuro.

@@ -4,6 +4,12 @@ layout: default-ru
 ---
 
 
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
+
 {% include slider-begin.html %}
 
 # Delta Chat

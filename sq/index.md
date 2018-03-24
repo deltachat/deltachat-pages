@@ -4,6 +4,12 @@ layout: default-sq
 ---
 
 
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
+
 {% include slider-begin.html %}
 
 # Delta Chat

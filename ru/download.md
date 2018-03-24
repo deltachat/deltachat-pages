@@ -3,6 +3,12 @@ title: Скачать
 layout: default-ru
 ---
 
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
+
 # Скачать Delta Chat
 
 **В настоящее время Delta Chat находится в стадии активной разработки**
