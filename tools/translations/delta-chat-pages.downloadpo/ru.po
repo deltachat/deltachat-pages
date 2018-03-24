@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../en/download.md:15
 msgid "## Android (Beta)"
-msgstr ""
+msgstr "## Android (Beta)"
 
 #: ../en/download.md:17
 msgid ""
