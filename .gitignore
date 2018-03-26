@@ -5,7 +5,6 @@ _site/
 # ignore private scripts and directories, eg. jekyll-build-local.prv.sh
 *.prv*
 
-# we do not ignore tools/tranlations - these files contain the real translation work;
-# the non-english .md files are only generated from them
-# (but are needed for puplishing the repo as a website, however)
+# ignore tools/tranlations, we copy the files to the corresponding language directories
+tools/translations/
 
