@@ -29,7 +29,7 @@ Wykorzystaj liczne funkcje i zalety:
 - Bezpieczny: **Zaszyfrowany** za pomocą wszystkich typowych algorytmów - kod źródłowy otwarty do wglądu
 - Chroniony: Delta Chat chroni przed **spamem**
 - Legalny: twoja **książka telefoniczna** pozostaje na twoim smartfonie - nie jest **nigdzie** przesyłana
-Anonimowy: **Metadane** takie jak kto komunikuje się z kim, kiedy i gdzie **nie są gromadzone**
+Anonimowy: **Metadane** takie jak _Kto_ komunikuje się z _Kim_, _Kiedy_ i _Gdzie_ **nie są gromadzone**
 - Dynamiczny: Delta Chat oferuje **czaty grupowe**
 
 
