@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-23 15:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2018\n"
 "Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/delta-chat/teams/76181/nb_NO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,7 +85,7 @@ msgstr ""
 
 #: ../en/help.md:35
 msgid "## What, if the receiver does not use Delta Chat?"
-msgstr ""
+msgstr "##Hva om mottakeren ikke bruker Delta Chat?"
 
 #: ../en/help.md:37
 msgid ""
@@ -95,11 +95,11 @@ msgstr ""
 
 #: ../en/help.md:39
 msgid "## Which messages do appear in Delta Chat?"
-msgstr ""
+msgstr "## Hvilke meldinger vises i Delta Chat?"
 
 #: ../en/help.md:41
 msgid "Delta Chat automatically shows ..."
-msgstr ""
+msgstr "Delta Chat viser automatisk…"
 
 #: ../en/help.md:43
 msgid ""
@@ -107,6 +107,9 @@ msgid ""
 "- Messages from contacts **contacted by you**\n"
 "- **Replies** to messages send by you"
 msgstr ""
+"- Meldinger fra kontakter i din **adressebok**\n"
+"- Meldinger fra kontakter **kontaktet av deg**\n"
+"- **Svar** til meldinger sendt av deg"
 
 #: ../en/help.md:47
 msgid ""
@@ -114,10 +117,12 @@ msgid ""
 "in the main menu at **Contact requests** and, if desired, start a chat from "
 "there."
 msgstr ""
+"Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i "
+"**Kontaktforespørsler** og, hvis ønskelig, starte sludring derfra."
 
 #: ../en/help.md:49
 msgid "## What about Spam?"
-msgstr ""
+msgstr "## Hva med spam?"
 
 #: ../en/help.md:51
 msgid ""
@@ -128,7 +133,7 @@ msgstr ""
 
 #: ../en/help.md:55
 msgid "## Does Delta Chat support images, videos and other attachments?"
-msgstr ""
+msgstr "## Støtter Delta Chat bilder, videoer og andre vedlegg?"
 
 #: ../en/help.md:57
 msgid ""
@@ -139,7 +144,7 @@ msgstr ""
 
 #: ../en/help.md:59
 msgid "## Does Delta Chat support HTML-emails?"
-msgstr ""
+msgstr "## Støtter Delta Chat HTML-e-poster?"
 
 #: ../en/help.md:61
 msgid ""
@@ -164,7 +169,7 @@ msgstr ""
 
 #: ../en/help.md:71
 msgid "## Who can add members to a group?"
-msgstr ""
+msgstr "## Hvordan kan jeg legge til medlemmer i en gruppe?"
 
 #: ../en/help.md:73
 msgid ""
@@ -195,23 +200,23 @@ msgstr ""
 
 #: ../en/help.md:85
 msgid "# Encryption {#encryption}"
-msgstr ""
+msgstr "# Kryptering {#encryption}"
 
 #: ../en/help.md:87
 msgid "## Does Delta Chat have an end-to-end-encryption?"
-msgstr ""
+msgstr "## Har Delta Chat ende-til-ende -kryptering?"
 
 #: ../en/help.md:89
 msgid "- Yes."
-msgstr ""
+msgstr "- Ja."
 
 #: ../en/help.md:91
 msgid "## What do I have to do to activate the end-to-end-encryption?"
-msgstr ""
+msgstr "## Hva må jeg gjøre for å aktivere ende-til-ende -kryptering?"
 
 #: ../en/help.md:93
 msgid "- Nothing."
-msgstr ""
+msgstr "- Ingenting."
 
 #: ../en/help.md:95
 msgid ""
@@ -241,7 +246,7 @@ msgstr ""
 
 #: ../en/help.md:104
 msgid "## How can I check the encryption?"
-msgstr ""
+msgstr "## Hvordan kan jeg sjekke krypteringen?"
 
 #: ../en/help.md:106
 msgid ""
@@ -251,11 +256,11 @@ msgstr ""
 
 #: ../en/help.md:110
 msgid "## How can I verify the sender?"
-msgstr ""
+msgstr "## Hvordan kan jeg bekrefte avsenderen?"
 
 #: ../en/help.md:112
 msgid "The user's profile shows some additional information:"
-msgstr ""
+msgstr "Brukerprofilen viser litt ekstra informasjon:"
 
 #: ../en/help.md:114
 msgid ""
@@ -265,12 +270,13 @@ msgstr ""
 
 #: ../en/help.md:118
 msgid "## Which standards are used for end-to-end-encryption."
-msgstr ""
+msgstr "## Hvilke standarder brukes for ende-til-ende-kryptering?"
 
 #: ../en/help.md:120
 msgid ""
 "- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org)."
 msgstr ""
+"- OpenPGP. Nøkkeltransport gjøres via [Autocrypt](https://autocrypt.org)."
 
 #: ../en/help.md:122
 msgid "## Can I re-use by existing private key?"
@@ -328,7 +334,7 @@ msgstr "# Ymse"
 
 #: ../en/help.md:145
 msgid "## Delta Chat on Linux Desktop"
-msgstr ""
+msgstr "## Delta Chat på Linux|GNU-skrivebordet"
 
 #: ../en/help.md:147
 msgid ""
@@ -350,12 +356,14 @@ msgstr ""
 
 #: ../en/help.md:153
 msgid "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
-msgstr ""
+msgstr "  $ *adb install sti/til/com.b44t.messenger_\\<version\\>.apk*"
 
 #: ../en/help.md:155
 msgid ""
 "  adb is the Android Debug Bridge and can be installed from repository."
 msgstr ""
+"adb er feilrettingsbroen for Android (Android Debug Bridge) og kan "
+"installeres fra pakkebrønnen."
 
 #: ../en/help.md:157
 msgid ""
@@ -365,6 +373,11 @@ msgid ""
 "information about updates and the migration of existing config and chat "
 "data."
 msgstr ""
+"- I stedet for å installere Delta Chat direkte fra APK-fil, kan du først "
+"installere F-Droid-butikken via [F-Droid-"
+"APK](https://f-droid.org/FDroid.apk) og så installere Delta Chat Derfra. Den"
+" store fordelen er at informasjonen om oppdateringer og flytting av "
+"eksisterende oppsett og sludredata."
 
 #: ../en/help.md:160
 msgid "## Login Issues"

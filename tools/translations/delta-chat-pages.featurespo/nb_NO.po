@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-23 15:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2018\n"
 "Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/delta-chat/teams/76181/nb_NO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,14 +44,16 @@ msgid ""
 "**Start immediately** <br> All you need is an email account. With it you can"
 " reach any email contact."
 msgstr ""
+"**Start umiddelbart** <br> Alt du trenger er en e-postkonto. Med det på "
+"plass kan du nå enhver e-postbruker."
 
 #: ../en/features.md:12
 msgid "![Screenshot](../assets/features/start-img4.png)"
-msgstr ""
+msgstr "![Skjermavbildning](../assets/features/start-img4.png)"
 
 #: ../en/features.md:14
 msgid "Make use of the numerous features and advantages:"
-msgstr ""
+msgstr "Gjør bruk av mange funksjoner og fordeler:"
 
 #: ../en/features.md:16
 msgid ""

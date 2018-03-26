@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "---\n"
 "title: Blog\n"
-"layout: default-en\n"
+"layout: default-pl\n"
 "---"
 
 #: ../en/blog.md:6

@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "---\n"
 "title: Wydawca\n"
-"layout: default-en\n"
+"layout: default-pl\n"
 "---"
 
 #: ../en/imprint.md:6
