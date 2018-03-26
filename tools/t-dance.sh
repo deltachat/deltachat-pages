@@ -19,7 +19,7 @@
 
 
 sfiles=(blog contribute download features help imprint index)
-tlangs=(de es fr it pt ru sq)  # do not add `en` to this list
+tlangs=(de es fr it nb_NO pt ru sq)  # do not add `en` to this list
 
 
 tx_pull() {
@@ -31,9 +31,9 @@ tx_pull() {
 create_markdown_files() {
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
-			pofile="../${tlang}/${sfile}.md"
-			po2txt --progress=none --template="../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/${tlang}.po" $pofile
-			sed -i "0,/^$/ s/^$/\n\n\n<!-- GENERATED FILE -- DO NOT EDIT -->\n\n\n/" $pofile # add a comment in the first empty line (with `0,/^$/` you select all lines until the re matches)
+			mdfile="../${tlang:0:2}/${sfile}.md"
+			po2txt --progress=none --template="../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/${tlang}.po" $mdfile
+			sed -i "0,/^$/ s/^$/\n\n\n<!-- GENERATED FILE -- DO NOT EDIT -->\n\n\n/" $mdfile # add a comment in the first empty line (with `0,/^$/` you select all lines until the re matches)
 		done
 	done	
 }
@@ -51,7 +51,7 @@ create_html_files() {
 
 reset_markdown_files() {
 	for tlang in ${tlangs[@]}; do
-		git checkout "../${tlang}/"
+		git checkout "../${tlang:0:2}/"
 	done
 }
 
