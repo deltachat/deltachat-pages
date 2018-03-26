@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-23 15:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2018\n"
 "Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/delta-chat/teams/76181/nb_NO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -89,12 +89,17 @@ msgid ""
 "[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).\n"
 "Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version."
 msgstr ""
+"Oversett Delta Chat til ditt språk ved å bruke \n"
+"[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).\n"
+"Alternativt kan du laste ned [denne filen](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) og [sende](imprint) oss den oversatte versjonen."
 
 #: ../en/contribute.md:37
 msgid ""
 "We're also searching for people who would like to maintain the Transifex "
 "page and the contact with the translators."
 msgstr ""
+"Vi søker også noen som kan vedlikeholde Transifex-siden og kontakten med "
+"oversetterne."
 
 #: ../en/contribute.md:40
 msgid "# Development"
@@ -116,7 +121,7 @@ msgstr ""
 
 #: ../en/contribute.md:47
 msgid "# Recommendation"
-msgstr ""
+msgstr "# Anbefaling"
 
 #: ../en/contribute.md:49
 msgid ""
@@ -132,7 +137,7 @@ msgstr "# Feilrapporter"
 
 #: ../en/contribute.md:54
 msgid "Use the following **Issue Trackers** to report bugs."
-msgstr ""
+msgstr "Bruk følgende **feilsporer** for å innrapportere feil."
 
 #: ../en/contribute.md:56
 msgid ""
@@ -140,3 +145,6 @@ msgid ""
 "- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
 "- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)"
 msgstr ""
+"- [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)\n"
+"- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
+"- [Kjernebibliotek+ Python](https://github.com/deltachat/deltachat-core/issues)"
