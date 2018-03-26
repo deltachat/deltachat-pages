@@ -19,7 +19,7 @@
 
 
 sfiles=(blog contribute download features help imprint index)
-tlangs=(de es fr it nb_NO pt ru sq)  # do not add `en` to this list
+tlangs=(de es fr it nb_NO pl pt ru sq)  # do not add `en` to this list
 
 
 tx_pull() {

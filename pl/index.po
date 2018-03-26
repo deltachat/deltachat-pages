@@ -1,0 +1,130 @@
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-26 11:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Telegram Polska <sebek@life.pl>, 2018\n"
+"Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+
+#: ../en/index.md:1
+msgid ""
+"---\n"
+"title: The messenger\n"
+"layout: default-en\n"
+"---"
+msgstr ""
+"---\n"
+"title: Komunikator\n"
+"layout: default-pl\n"
+"---"
+
+#: ../en/index.md:7
+msgid "{% include slider-begin.html %}"
+msgstr "{% include slider-begin.html %}"
+
+#: ../en/index.md:9
+msgid ""
+"# Delta Chat\n"
+"The messenger with the **broadest audience** in the world.  \n"
+"**Free**, **independent**, email compatible."
+msgstr ""
+"# Delta Chat\n"
+"Komunikator o **największym zasięgu** na świecie.  \n"
+"**Darmowy**, i **niezależny**, kompatybilny z pocztą e-mail."
+
+#: ../en/index.md:13
+msgctxt "../en/index.md:13"
+msgid "{% include slider-next.html %}"
+msgstr "{% include slider-next.html %}"
+
+#: ../en/index.md:15
+msgid ""
+"# Independent\n"
+"**There is no Delta Chat server.**  \n"
+"The app only uses your email server."
+msgstr ""
+"# Niezależny\n"
+"**Nie ma serwera Delta Chat.**  \n"
+"Aplikacja wykorzystuje tylko twój serwer e-mail."
+
+#: ../en/index.md:19
+msgctxt "../en/index.md:19"
+msgid "{% include slider-next.html %}"
+msgstr "{% include slider-next.html %}"
+
+#: ../en/index.md:21
+msgid ""
+"# Fast\n"
+"**Push messages** in seconds.  \n"
+"Rapid interface."
+msgstr ""
+"# szybki\n"
+"**Wiadomości push** w kilka sekund.  \n"
+"Szybki interfejs."
+
+#: ../en/index.md:25
+msgctxt "../en/index.md:25"
+msgid "{% include slider-next.html %}"
+msgstr "{% include slider-next.html %}"
+
+#: ../en/index.md:27
+msgid ""
+"# Powerful\n"
+"**Unlimited** chats, images, videos, audio messages and more. Multi-client capable."
+msgstr ""
+"# Potężny\n"
+"**Nieograniczone** czaty, obrazy, filmy, wiadomości audio i wiele innych. Obsługujący wielu klientów."
+
+#: ../en/index.md:30
+msgctxt "../en/index.md:30"
+msgid "{% include slider-next.html %}"
+msgstr "{% include slider-next.html %}"
+
+#: ../en/index.md:32
+msgid ""
+"# Free\n"
+"**Delta Chat** is free forever.  \n"
+"Open Source. No ads. No subscription. No vendor lock-in."
+msgstr ""
+"# Darmowy\n"
+"**Delta Chat** jest zawsze darmowy.  \n"
+"O otwartym kodzie źródłowym. Bez reklam. Bez abonamentu. Bez ograniczeń dystrybucji."
+
+#: ../en/index.md:36
+msgctxt "../en/index.md:36"
+msgid "{% include slider-next.html %}"
+msgstr "{% include slider-next.html %}"
+
+#: ../en/index.md:38
+msgid ""
+"# Encrypted\n"
+"Encrypted with all common algorithms. Messages stay on your servers."
+msgstr ""
+"# Bezpieczny\n"
+"Zaszyfrowany za pomocą wszystkich typowych algorytmów. Wiadomości pozostają na swoich serwerach."
+
+#: ../en/index.md:41
+msgctxt "../en/index.md:41"
+msgid "{% include slider-next.html %}"
+msgstr "{% include slider-next.html %}"
+
+#: ../en/index.md:43
+msgid ""
+"# Trustworthy\n"
+"**Delta Chat** is safe for business use, compatible and standards-based."
+msgstr ""
+"# Godny zaufania\n"
+"**Delta Chat** jest bezpieczny dla zastosowań biznesowych, zgodny i oparty na standardach."
+
+#: ../en/index.md:46
+msgid "{% include slider-end.html %}"
+msgstr "{% include slider-end.html %}"
