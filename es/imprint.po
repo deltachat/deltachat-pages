@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-26 11:50+0200\n"
+"POT-Creation-Date: 2018-03-26 21:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
@@ -32,5 +32,26 @@ msgid "# Imprint"
 msgstr "# Aviso legal"
 
 #: ../en/imprint.md:8
-msgid "{% include imprint.html %}"
-msgstr "{% include imprint.html %}"
+msgid ""
+"Delta Chat  \n"
+"c/o Björn Petersen  \n"
+"Friedrich-Ebert-Str. 1 B  \n"
+"25348 Glückstadt, Germany"
+msgstr ""
+
+#: ../en/imprint.md:13
+msgid ""
+"E-mail: {% include email-link %}  \n"
+"Phone: +49 4124 603889  \n"
+"USt-IdNr. DE214707533"
+msgstr ""
+
+#: ../en/imprint.md:17
+msgid "[Community channels](contribute)"
+msgstr ""
+
+#: ../en/imprint.md:19
+msgid ""
+"The mailing list server is operated through "
+"<https://github.com/codespeaknet/sysadmin>."
+msgstr ""
