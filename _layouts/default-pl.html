@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+<title>{{ page.title }} - Delta Chat</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link rel="stylesheet" href="../assets/css/base.css" type="text/css" />
+<link rel="alternate" href="https://delta.chat/feed.xml" type="application/atom+xml" title="Delta Chat News" />
+</head>
+
+<body id="top">
+
+<div id="menu">
+<ul>
+<li><a href="../pl/">Home</a></li>
+<li><a href="features">Dlaczego</a></li>
+<li><a href="download">Pobierz</a></li>
+<li><a href="contribute">Wsparcie</a></li>
+<li><a href="blog">Blog</a></li>
+<li><a href="help">Pomoc</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+
+{{ content }}
+
+
+</div>
+
+<div id="footer">
+<p>
+<span class="desktoponly">Język:</span>
+{% include footer-languages.html %}
+<br>
+<a href="imprint">Odcisk</a>
+<br>
+© 2017, 2018 Delta Chat contributors
+</p>
+</div>
+
+</body>
+
+</html>
