@@ -32,7 +32,7 @@ layout: default-en
 - _Trustworthy_ - can even be used for business messages
 - fully _Open Source_ and _Standards_ based
 
-## What, if the receiver does not use Delta Chat?
+## What if the receiver does not use Delta Chat?
 
 - The receiver will get a normal email then - if he replies to it, you will see the reply in the Delta Chat app.
 
@@ -115,7 +115,7 @@ The user's profile shows some additional information:
 - For transport encryption, this state is just shown there
 
 
-## Which standards are used for end-to-end-encryption.
+## Which standards are used for end-to-end-encryption?
 
 - OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
@@ -154,7 +154,7 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
   adb is the Android Debug Bridge and can be installed from repository.
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
 ## Login Issues
