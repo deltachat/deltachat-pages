@@ -25,14 +25,21 @@ tlangs=(de es fr it nb_NO pt ru sq)  # do not add `en` to this list
 tx_pull() {
 	rm -r translations
 	tx pull -a   # -a = fetch all translationss, -s = fetches source
+	for sfile in ${sfiles[@]}; do
+		for tlang in ${tlangs[@]}; do
+			pofile="../${tlang:0:2}/${sfile}.po"
+			cp "translations/delta-chat-pages.${sfile}po/${tlang}.po" $pofile
+		done
+	done
 }
 
 
 create_markdown_files() {
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
+			pofile="../${tlang:0:2}/${sfile}.po"
 			mdfile="../${tlang:0:2}/${sfile}.md"
-			po2txt --progress=none --template="../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/${tlang}.po" $mdfile
+			po2txt --progress=none --template="../en/${sfile}.md" $pofile $mdfile
 			sed -i "0,/^$/ s/^$/\n\n\n<!-- GENERATED FILE -- DO NOT EDIT -->\n\n\n/" $mdfile # add a comment in the first empty line (with `0,/^$/` you select all lines until the re matches)
 		done
 	done	
