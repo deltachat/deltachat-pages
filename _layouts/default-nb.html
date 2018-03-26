@@ -15,7 +15,7 @@
 
 <div id="menu">
 <ul>
-<li><a href="../en/">Hjem</a></li>
+<li><a href="../nb/">Hjem</a></li>
 <li><a href="features">Hvorfor</a></li>
 <li><a href="download">Last ned</a></li>
 <li><a href="contribute">Bidra</a></li>
@@ -27,30 +27,14 @@
 <div id="content">
 
 
-{% if page.is_post == true %}
-<h1>{{ page.title }}</h1>
-<p class="blogdate">{{ page.date | date: "%B %d, %Y" }} {% if page.author %}by {{ page.author }}{% endif %}</p>
-{% endif %}
-
-
 {{ content }}
-
-
-{% if page.is_post == true %}
-<p class="menulike">
-{% if page.previous.url %}<a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> |{% endif %}
-<a href="blog">Index</a>
-{% if page.next.url %}| <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>{% endif %}
-</p>
-<p class="menulike">Abonner på vår nyhetsstrøm: {% include subscribe-to-feed-links.html %}</p>
-{% endif %}
 
 
 </div>
 
 <div id="footer">
 <p>
-<span class="desktoponly">Language:</span>
+<span class="desktoponly">Språk:</span>
 {% include footer-languages.html %}
 <br>
 <a href="imprint">Imprint</a>
