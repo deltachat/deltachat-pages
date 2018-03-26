@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+<title>{{ page.title }} - Delta Chat</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta name="description" content="Delta Chat - E-postbasert lynmeldingsklient" />
+<meta name="keywords" content="delta chat, e-postlynmeldingsprogram, last ned delta chat" />
+<link rel="stylesheet" href="../assets/css/base.css" type="text/css" />
+<link rel="alternate" href="https://delta.chat/feed.xml" type="application/atom+xml" title="Delta Chat-nyheter" />
+</head>
+
+<body id="top">
+
+<div id="menu">
+<ul>
+<li><a href="../en/">Hjem</a></li>
+<li><a href="features">Hvorfor</a></li>
+<li><a href="download">Last ned</a></li>
+<li><a href="contribute">Bidra</a></li>
+<li><a href="blog">Blogg</a></li>
+<li><a href="help">O-S-S</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+
+{% if page.is_post == true %}
+<h1>{{ page.title }}</h1>
+<p class="blogdate">{{ page.date | date: "%B %d, %Y" }} {% if page.author %}by {{ page.author }}{% endif %}</p>
+{% endif %}
+
+
+{{ content }}
+
+
+{% if page.is_post == true %}
+<p class="menulike">
+{% if page.previous.url %}<a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> |{% endif %}
+<a href="blog">Index</a>
+{% if page.next.url %}| <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>{% endif %}
+</p>
+<p class="menulike">Abonner på vår nyhetsstrøm: {% include subscribe-to-feed-links.html %}</p>
+{% endif %}
+
+
+</div>
+
+<div id="footer">
+<p>
+<span class="desktoponly">Language:</span>
+{% include footer-languages.html %}
+<br>
+<a href="imprint">Imprint</a>
+<br>
+© 2017, 2018 Delta Chat-bidragsyterne
+</p>
+</div>
+
+</body>
+
+</html>
