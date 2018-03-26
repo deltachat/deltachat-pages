@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-23 15:09+0200\n"
+"POT-Creation-Date: 2018-03-26 11:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
@@ -100,7 +100,7 @@ msgstr ""
 "- Entièrement _OpenSource_ et basé sur les _Standards_"
 
 #: ../en/help.md:35
-msgid "## What, if the receiver does not use Delta Chat?"
+msgid "## What if the receiver does not use Delta Chat?"
 msgstr "## Que ce passe t'il si le destinataire n'utilise pas Delta Chat?"
 
 #: ../en/help.md:37
@@ -325,7 +325,7 @@ msgstr ""
 "- Pour le chiffrement du transport, l'état est juste montré à cet endroit"
 
 #: ../en/help.md:118
-msgid "## Which standards are used for end-to-end-encryption."
+msgid "## Which standards are used for end-to-end-encryption?"
 msgstr "## Quelles standards sont utilisés pour le chiffrement bout à bout."
 
 #: ../en/help.md:120
@@ -449,7 +449,7 @@ msgstr ""
 #: ../en/help.md:157
 msgid ""
 "- Instead of installing Delta Chat directly via APK file, you can first "
-"install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) "
+"install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) "
 "and then install Delta Chat using the store. The great benefit is the "
 "information about updates and the migration of existing config and chat "
 "data."

@@ -38,7 +38,7 @@ layout: default-ru
 - _Заслуживающий доверия_ - можно использовать даже для деловвой переписки
 - Полностью _открытый исходный код_ и основан на _стандартах_
 
-## Что, если получатель не использует Delta Chat?
+## What if the receiver does not use Delta Chat?
 
 - Получатель получит обычное письмо - если он ответит на него, вы увидите ответ в приложении Delta Chat.
 
@@ -120,7 +120,7 @@ The user's profile shows some additional information:
 - For transport encryption, this state is just shown there
 
 
-## Какие стандарты используются для сквозного шифрования?
+## Which standards are used for end-to-end-encryption?
 
 - Стандарт OpenPGP. Обмен ключами осуществляется через [Autocrypt](https://autocrypt.org).
 
@@ -159,7 +159,7 @@ The user's profile shows some additional information:
 
 adb - это утилита Android Debug Bridge и она может быть установлена из репозитория
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
 ## Проблемы со входом

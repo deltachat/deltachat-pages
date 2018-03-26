@@ -38,7 +38,7 @@ layout: default-es
 - _Confiable_ - incluso para mensajes confidenciales y de negocios
 - completamente _software libre_ y basado en _estándares_
 
-## Qué pasa si el destinatario de mis mensajes no tiene o no usa Delta Chat?
+## What if the receiver does not use Delta Chat?
 
 - El destinatario recibirá un correo electrónico normal, y si le responde a usted, usted verá la respuesta en Delta Chat tal como espera.
 
@@ -121,7 +121,7 @@ The user's profile shows some additional information:
 - For transport encryption, this state is just shown there
 
 
-## Qué estándares se utiliza para la encriptación.
+## Which standards are used for end-to-end-encryption?
 
 - OpenPGP. En el envío de las claves se realiza mediante [Autocrypt](https://autocrypt.org).
 
@@ -160,7 +160,7 @@ Si no posee una clave, no se preocupe, Delta Chat generará una clave automatica
 
   adb is the Android Debug Bridge and can be installed from repository.
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
 # Problemas de Login

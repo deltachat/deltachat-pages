@@ -38,7 +38,7 @@ layout: default-pt
 - _Seguro_ - pode até mesmo ser utilizado em atividades empresariais
 - Totalmente de _código aberto_ e baseado nos _padrões_ mais usados
 
-## E se o destinatário não usar o Delta Chat?
+## What if the receiver does not use Delta Chat?
 
 - Neste caso o destinatário vai receber um e-mail normal - se ele responder, você vai receber a mensagem no Delta Chat.
 
@@ -125,7 +125,7 @@ The user's profile shows some additional information:
 - For transport encryption, this state is just shown there
 
 
-## Quais padrões são usados para a criptografia ponta a ponta?
+## Which standards are used for end-to-end-encryption?
 
 - OpenPGP. A troca de chaves é feita via [Autocrypt](https://autocrypt.org).
 
@@ -164,7 +164,7 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
  adb significa "Android Debug Bridge" e pode ser instalado através de repositórios.
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
 ## Problemas de login

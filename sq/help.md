@@ -160,7 +160,7 @@ Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos
 
   adb është _Android Debug Bridge_ dhe mund të instalohet që nga depoja.
 
-- Në vend të instalimit të Delta Chat-it drejtpërsëdrejti përmes kartelës .apk, mund të instaloni së pari dyqanin F-Froid përmes [F-Droid-apk](https://f-droid.org/FDroid.apk) dhe mandej të instaloni Delta Chat-in duke përdorur këtë dyqan. Përfitimi në këtë rast janë të dhënat mbi përditësime dhe migrimi i formësimit dhe të dhënave mbi biseda ekzistuese.
+- Në vend të instalimit të Delta Chat-it drejtpërsëdrejti përmes kartelës .apk, mund të instaloni së pari dyqanin F-Froid përmes [F-Droid-APK](https://f-droid.org/FDroid.apk) dhe mandej të instaloni Delta Chat-in duke përdorur këtë dyqan. Përfitimi në këtë rast janë të dhënat mbi përditësime dhe migrimi i formësimit dhe të dhënave mbi biseda ekzistuese.
 
 
 ## Probleme Hyrjeje
