@@ -86,7 +86,7 @@ elif [ $1 == "pull" ]; then  # update translations from transifex using english 
 	create_markdown_files
 	create_html_files
 else
-	echo "usage: ./t-dance {pull|tx-pull|md-create|md-reset|push-sources}";
-	echo "to push a single language: tx push -t -l <lang>"
+	echo "usage: ./t-dance {pull|tx-pull|md-create|md-reset|push-sources}"
+	echo "to push a single language, copy the files to translations/delta-chat-pages.<file>po/<lang>.po and call: tx push -t -l <lang>"
 fi
 
