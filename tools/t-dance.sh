@@ -68,8 +68,10 @@ if [ $1 == "tx-pull" ]; then
 	tx_pull
 elif [ $1 == "md-create" ]; then
 	create_markdown_files	
+	create_html_files
 elif [ $1 == "md-reset" ]; then
 	reset_markdown_files
+	create_html_files
 elif [ $1 == "push-sources" ]; then
 	tx_push_sources
 elif [ $1 == "pull" ]; then  # update translations from transifex using english as template, update markdown
