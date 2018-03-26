@@ -1,0 +1,170 @@
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-26 11:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+
+#: ../en/contribute.md:1
+msgid ""
+"---\n"
+"title: Contribute\n"
+"layout: default-en\n"
+"---"
+msgstr ""
+"---\n"
+"title: Contribuer\n"
+"layout: default-fr\n"
+"---"
+
+#: ../en/contribute.md:6
+msgid "# How to support us"
+msgstr "# Comment nous soutenir"
+
+#: ../en/contribute.md:8
+msgid ""
+"Delta Chat is open source and free of charge. You can contribute in many "
+"ways to bring the development further!"
+msgstr ""
+"Delta Chat est open source et gratuit. Vous pouvez contribuer de plusieurs "
+"façons pour faire avancer le développement!"
+
+#: ../en/contribute.md:11
+msgid "# Channels"
+msgstr "# Rester en contact"
+
+#: ../en/contribute.md:13
+msgid "If you want to talk with us you may:"
+msgstr ""
+"En plus des [email](../fr/imprint), vous pouvez nous contacter par les "
+"canaux suivants:"
+
+#: ../en/contribute.md:15
+msgid ""
+"- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions\n"
+"- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)\n"
+"- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)"
+msgstr ""
+"- Collaborez à travers les [dépôts Github Delta Chat](https://github.com/deltachat/)\n"
+"- Rejoignez le canal IRC **#deltachat** sur [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)\n"
+"- Rejoignez les discussions de la communauté sur la [liste de diffusion Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)"
+
+#: ../en/contribute.md:20
+msgid "# Donate"
+msgstr "# Faire un don"
+
+#: ../en/contribute.md:22
+msgid ""
+"Delta Chat development costs **money**. Your donation will support future "
+"improvements directly."
+msgstr ""
+"Le développement de Delta Chat coûte **de l'argent**. Votre don soutiendra "
+"directement les futures améliorations."
+
+#: ../en/contribute.md:24
+msgid ""
+"- IBAN DE86100777770428658900, BIC NORSDE51XXX\n"
+"- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
+"- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
+msgstr ""
+"- IBAN DE86100777770428658900, BIC NORSDE51XXX\n"
+"- PayPal ou carte de crédit: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
+"- Envoyez de bitcoins à [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
+
+#: ../en/contribute.md:28
+msgid ""
+"We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?\n"
+"[We](imprint)'d love to take it!"
+msgstr ""
+"Nous avons besoin d'**appareils** à des fins de test. Avez-vous un smartphone Android ou un iPhone inutilisé?\n"
+"[Nous](../fr/imprint) serions heureux de l’avoir!"
+
+#: ../en/contribute.md:31
+msgid "# Translation"
+msgstr "# Traduction"
+
+#: ../en/contribute.md:33
+msgid ""
+"Help to translate Delta Chat into your language using \n"
+"[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).\n"
+"Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version."
+msgstr ""
+"Aidez à traduire Delta Chat dans votre langue en utilisant [Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).\n"
+"Alternativement, vous pouvez télécharger [ce fichier](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) et [nous](../fr/imprint) envoyer la version traduite."
+
+#: ../en/contribute.md:37
+msgid ""
+"We're also searching for people who would like to maintain the Transifex "
+"page and the contact with the translators."
+msgstr ""
+"Nous recherchons également des personnes désireuses de maintenir la page "
+"Transifex et le contact avec les traducteurs."
+
+#: ../en/contribute.md:40
+msgid "# Development"
+msgstr "# Développement"
+
+#: ../en/contribute.md:42
+msgid ""
+"We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.\n"
+"Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request."
+msgstr ""
+"Nous recherchons des développeurs open source qui connaissent le C, Java, Android, iOS, Windows, Linux ou Mac.\n"
+"Modifiez votre propre fork [Delta Chat](https://github.com/deltachat/) et envoyez nous une requête de modification."
+
+#: ../en/contribute.md:45
+msgid ""
+"The same applies for **this webpage** - no matter if you have bigger or "
+"smaller improvements: Easily edit this page "
+"[here](https://github.com/deltachat/deltachat-pages) and send us a pull "
+"request."
+msgstr ""
+"La même chose s'applique pour **cette page Web** - peu importe si vous avez "
+"des améliorations plus ou moins grandes: Modifiez facilement cette page "
+"[ici](https://github.com/deltachat/deltachat-pages) et envoyez-nous une "
+"demande de modification."
+
+#: ../en/contribute.md:47
+msgid "# Recommendation"
+msgstr "# Recommendation"
+
+#: ../en/contribute.md:49
+msgid ""
+"Currently Delta Chat is still in beta state and is only suitable for early "
+"adopters. People using it today should consider that things are changing. "
+"With Version 1.0 Delta Chat will become market-ready and a recommendation "
+"for _everyone_. "
+msgstr ""
+"Actuellement, Delta Chat est toujours en état bêta et ne convient qu'aux "
+"utilisateurs désirants le tester. Les gens qui l'utilisent aujourd'hui "
+"devraient considérer que les choses changent. Depuis la version 1.0, Delta "
+"Chat deviendra stable et une recommandable pour _tout le monde_."
+
+#: ../en/contribute.md:52
+msgid "# Bug Reports"
+msgstr "# Rapports d'erreur"
+
+#: ../en/contribute.md:54
+msgid "Use the following **Issue Trackers** to report bugs."
+msgstr ""
+"Utilisez les **rapports d'erreur** suivants pour signaler des erreurs."
+
+#: ../en/contribute.md:56
+msgid ""
+"- [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)\n"
+"- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
+"- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)"
+msgstr ""
+"- [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)\n"
+"- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
+"- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)"
