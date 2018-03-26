@@ -38,7 +38,7 @@ layout: default-it
 - È _affidabile_ e può essere utilizzata anche per messaggi aziendali.
 - È completamente _open source_ e basta sugli _standard_
 
-## Cosa accade se il destinatario non utilizza Delta Chat?
+## What if the receiver does not use Delta Chat?
 
 - Il destinatario riceverà una normale email quindi, se quest'ultimo risponderà alla email, la risposta verrà mostrata in Delta Chat.
 
@@ -120,7 +120,7 @@ Selezionare "Crittografia" dal profilo utente:
 - Per il _transport encryption_, questo stato viene mostrato direttamente nel profilo
 
 
-## Quali standard sono usati per la cifratura end-to-end.
+## Which standards are used for end-to-end-encryption?
 
 - OpenPGP. Il trasporto delle chiavi avviene attraverso [Autocrypt](https://autocrypt.org).
 
@@ -159,7 +159,7 @@ Se non si possiede una chiave o non si aveva idea che potesse servirne una, ness
 
   adb is the Android Debug Bridge and can be installed from repository.
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
 
 
 ## Problemi di accesso

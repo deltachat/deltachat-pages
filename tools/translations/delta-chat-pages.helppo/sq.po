@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-23 15:09+0200\n"
+"POT-Creation-Date: 2018-03-26 11:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>, 2018\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
@@ -100,7 +100,7 @@ msgstr ""
 "- plotësisht me _Burim të Hapur_ dhe i bazuar në _Standarde_"
 
 #: ../en/help.md:35
-msgid "## What, if the receiver does not use Delta Chat?"
+msgid "## What if the receiver does not use Delta Chat?"
 msgstr "## Po nëse marrësi nuk përdor Delta Chat-in?"
 
 #: ../en/help.md:37
@@ -322,7 +322,7 @@ msgstr ""
 "- Për fshehtëzim të transportit, gjendja thjesht tregohet atje"
 
 #: ../en/help.md:118
-msgid "## Which standards are used for end-to-end-encryption."
+msgid "## Which standards are used for end-to-end-encryption?"
 msgstr "## Cilët standarde përdoren për fshehtëzim skaj-më-skaj."
 
 #: ../en/help.md:120
@@ -447,14 +447,14 @@ msgstr ""
 #: ../en/help.md:157
 msgid ""
 "- Instead of installing Delta Chat directly via APK file, you can first "
-"install the F-Froid store via [F-Droid-apk](https://f-droid.org/FDroid.apk) "
+"install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) "
 "and then install Delta Chat using the store. The great benefit is the "
 "information about updates and the migration of existing config and chat "
 "data."
 msgstr ""
 "- Në vend të instalimit të Delta Chat-it drejtpërsëdrejti përmes kartelës "
 ".apk, mund të instaloni së pari dyqanin F-Froid përmes [F-Droid-"
-"apk](https://f-droid.org/FDroid.apk) dhe mandej të instaloni Delta Chat-in "
+"APK](https://f-droid.org/FDroid.apk) dhe mandej të instaloni Delta Chat-in "
 "duke përdorur këtë dyqan. Përfitimi në këtë rast janë të dhënat mbi "
 "përditësime dhe migrimi i formësimit dhe të dhënave mbi biseda ekzistuese."
 
