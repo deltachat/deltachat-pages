@@ -81,7 +81,7 @@ msgstr ""
 "- Bezpieczny: **Zaszyfrowany** za pomocą wszystkich typowych algorytmów - kod źródłowy otwarty do wglądu\n"
 "- Chroniony: Delta Chat chroni przed **spamem**\n"
 "- Legalny: twoja **książka telefoniczna** pozostaje na twoim smartfonie - nie jest **nigdzie** przesyłana\n"
-"Anonimowy: **Metadane** takie jak kto komunikuje się z kim, kiedy i gdzie **nie są gromadzone**\n"
+"Anonimowy: **Metadane** takie jak _Kto_ komunikuje się z _Kim_, _Kiedy_ i _Gdzie_ **nie są gromadzone**\n"
 "- Dynamiczny: Delta Chat oferuje **czaty grupowe**"
 
 #: ../en/features.md:30

@@ -11,16 +11,16 @@ layout: default-pl
 
 # Jak nas wesprzeć
 
-Czat Delta jest otwarto-źródłowy i bezpłatny. Możesz przyczynić się do dalszego jego rozwoju na wiele sposobów!
+Delta Chat jest otwarto-źródłowy i bezpłatny. Możesz przyczynić się do jego dalszego rozwoju na wiele sposobów!
 
 
 # Kanały
 
 Jeśli chcesz porozmawiać z nami, możesz:
 
-- Aby porozmawiać o społeczności dołącz do listy mailingowej [Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
-- Współpracuj za pośrednictwem [repozytoriów Github Delta Chat](https://github.com/deltachat/)
-- Dołącz do kanału IRC **#deltachat** na [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- dołączyć do listy mailingowej aby porozmawiać o społeczności [Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
+- współpracować za pośrednictwem [repozytoriów Github Delta Chat](https://github.com/deltachat/)
+- dołączyć do kanału IRC **#deltachat** na [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
 
 # Dotacje
@@ -44,22 +44,22 @@ Szukamy również osób, które chciałyby prowadzić stronę Transifex i kontak
 
 # Rozwój
 
-Poszukujemy programistów open source, którzy znają C, Java, Android, iOS, Windows, Linux lub Mac. Stwórz swoją własną modyfikację Delta Chat i wyślij prośbę ściągnięcia.
+Poszukujemy programistów open source, którzy znają C, Java, Android, iOS, Windows, Linux lub Mac. Stwórz swoją własną modyfikację [Delta Chat](https://github.com/deltachat/) i wyślij prośbę o pobranie.
 
-The same applies for **this webpage** - no matter if you have bigger or smaller improvements: Easily edit this page [here](https://github.com/deltachat/deltachat-pages) and send us a pull request.
+To samo dotyczy **tej strony** - bez względu na to, czy masz większe czy mniejsze udoskonalenia: łatwo wyedytujesz tę stronę [tutaj](https://github.com/deltachat/deltachat-pages) i wyślij nam prośbę o pobranie.
 
-# Recommendation
+# Polecaj nas
 
-Currently Delta Chat is still in beta state and is only suitable for early adopters. People using it today should consider that things are changing. With Version 1.0 Delta Chat will become market-ready and a recommendation for _everyone_. 
+Obecnie Delta Chat jest nadal w fazie beta i nie jest odpowiedni dla początkujących użytkowników. Ludzie używający go dzisiaj powinni uważać, ponieważ rzeczy się zmieniają. W wersji 1.0, Delta Chat stanie się gotowy do wprowadzenia na rynek i polecania _wszystkim_.
 
 
-# Bug Reports
+# Zgłaszanie błędów
 
-Use the following **Issue Trackers** to report bugs.
+Aby zgłosić błędy użyj następujących modułów do **śledzenia problemów**.
 
 - [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
+- [Biblioteka główna + Python](https://github.com/deltachat/deltachat-core/issues)
 
 
 
