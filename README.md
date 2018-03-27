@@ -51,6 +51,6 @@ Useful links
 License
 --------------------------------------------------------------------------------
 
-Licensed under the GPLv3, see LICENSE file for details
+Licensed under the GPLv3, see LICENSE file for details.
 
 Copyright © 2017, 2018 Delta Chat contributors
