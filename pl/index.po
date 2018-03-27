@@ -67,7 +67,7 @@ msgid ""
 "**Push messages** in seconds.  \n"
 "Rapid interface."
 msgstr ""
-"# szybki\n"
+"# Szybki\n"
 "**Wiadomości push** w kilka sekund.  \n"
 "Szybki interfejs."
 
@@ -96,8 +96,8 @@ msgid ""
 "Open Source. No ads. No subscription. No vendor lock-in."
 msgstr ""
 "# Darmowy\n"
-"**Delta Chat** jest zawsze darmowy.  \n"
-"O otwartym kodzie źródłowym. Bez reklam. Bez abonamentu. Bez ograniczeń dystrybucji."
+"**Delta Chat** jest zawsze darmowy. Bez reklam.  \n"
+"O otwartym kodzie źródłowym. Bez abonamentu. Bez ograniczeń dystrybucji."
 
 #: ../en/index.md:36
 msgctxt "../en/index.md:36"
@@ -110,7 +110,7 @@ msgid ""
 "Encrypted with all common algorithms. Messages stay on your servers."
 msgstr ""
 "# Bezpieczny\n"
-"Zaszyfrowany za pomocą wszystkich typowych algorytmów. Wiadomości pozostają na swoich serwerach."
+"Szyfrujący za pomocą wszystkich typowych algorytmów. Wiadomości pozostają na swoich serwerach."
 
 #: ../en/index.md:41
 msgctxt "../en/index.md:41"

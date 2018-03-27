@@ -11,7 +11,7 @@ layout: default-es
 
 # Descargar e instalar Delta Chat
 
-**Delta Chat is currently under development**
+**Delta Chat esta actualmente en desarrollo**
 
 A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. 
 Further variants for iOS, Mac, Linux or Windows are planned.

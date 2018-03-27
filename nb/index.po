@@ -53,7 +53,7 @@ msgid ""
 "The app only uses your email server."
 msgstr ""
 "# Uavhengig\n"
-"**Det finnes ingen Delta Chat tjener.**\n"
+"**Det finnes ingen Delta Chat-tjener.**\n"
 "Programmet bruker bare e-posttjeneren din."
 
 #: ../en/index.md:19
@@ -67,9 +67,9 @@ msgid ""
 "**Push messages** in seconds.  \n"
 "Rapid interface."
 msgstr ""
-"# Rask\n"
-"**Push messages** in seconds. \n"
-"Rapid interface."
+"# Raskt\n"
+"**Push-meldinger** i løpet av sekunder. \n"
+"Raskt grensesnitt."
 
 #: ../en/index.md:25
 msgctxt "../en/index.md:25"
@@ -82,7 +82,7 @@ msgid ""
 "**Unlimited** chats, images, videos, audio messages and more. Multi-client capable."
 msgstr ""
 "# Kraftig\n"
-"**Unlimited** chats, images, videos, audio messages and more. Multi-client capable."
+"**Ubegrenset** sludring, bilder, videoer, lydmeldinger og mer. Multiklient-kapabel."
 
 #: ../en/index.md:30
 msgctxt "../en/index.md:30"
@@ -95,9 +95,9 @@ msgid ""
 "**Delta Chat** is free forever.  \n"
 "Open Source. No ads. No subscription. No vendor lock-in."
 msgstr ""
-"# Free\n"
-"**Delta Chat** is free forever. \n"
-"Open Source. No ads. No subscription. No vendor lock-in."
+"# Gratis\n"
+"**Delta Chat** er gratis for all fremtid.\n"
+"Fri programvare. Ingen reklame. Inget abonnement. Ingen tilbyderinnhegning."
 
 #: ../en/index.md:36
 msgctxt "../en/index.md:36"
@@ -110,7 +110,7 @@ msgid ""
 "Encrypted with all common algorithms. Messages stay on your servers."
 msgstr ""
 "# Kryptert\n"
-"Encrypted with all common algorithms. Messages stay on your servers."
+"Kryptert med alle vanlige algoritmer. Meldinger forblir på dine tjenere."
 
 #: ../en/index.md:41
 msgctxt "../en/index.md:41"
@@ -123,7 +123,7 @@ msgid ""
 "**Delta Chat** is safe for business use, compatible and standards-based."
 msgstr ""
 "# Pålitelig\n"
-"**Delta Chat** is safe for business use, compatible and standards-based."
+"**Delta Chat** er trygt for bedriftsbruk, kompatibelt og basert på standarder."
 
 #: ../en/index.md:46
 msgid "{% include slider-end.html %}"

@@ -13,7 +13,7 @@ layout: default-nb
 
 **Delta Chat er under utvikling**
 
-En Androidversjon i beta-tilstand er tilgjengelig på F-Droid. Etter [versjon 1.0-milepælen](https://github.com/deltachat/deltachat-android/milestone/1) vil tilgjengelighet på i Google Play-butikken følge.
+En Androidversjon i beta-tilstand er tilgjengelig på F-Droid. Etter [versjon 1.0-milepælen](https://github.com/deltachat/deltachat-android/milestone/1) vil tilgjengelighet i Google Play-butikken følge.
 Videre varianter for iOS, macOS, Linux|GNU og Windows er planlagt.
 Du kan aktivt [støtte](contribute) oss i utviklingen.
 

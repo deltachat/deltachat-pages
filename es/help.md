@@ -38,25 +38,25 @@ layout: default-es
 - _Confiable_ - incluso para mensajes confidenciales y de negocios
 - completamente _software libre_ y basado en _estándares_
 
-## What if the receiver does not use Delta Chat?
+## ¿Qué pasa si el receptor no usa Delta Chat?
 
 - El destinatario recibirá un correo electrónico normal, y si le responde a usted, usted verá la respuesta en Delta Chat tal como espera.
 
-## Which messages do appear in Delta Chat?
+## ¿Cuales mensajes aparecerán el Delta Chat?
 
-Delta Chat automatically shows ...
+Delta Chat muestra automáticamente...
 
-- Messages from contacts in your **address book**
-- Messages from contacts **contacted by you**
-- **Replies** to messages send by you
+- Mensajes de contactos en la **libreta de direcciones**
+- Mensajes de contactos **contactados por vos**
+- **Respuestas** a mensajes enviados por vos
 
-Other messages do not appear automatically. You can see the other messages in the main menu at **Contact requests** and, if desired, start a chat from there.
+Otros mensajes no aparecen automáticamente. Podes verlos en el menú principal en **Solicitudes de contacto** y, si querés, iniciar una conversación desde ahí.
 
-## What about Spam?
+## ¿Qué pasa con el Spam?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
-- However, if really needed, you can **block** any contact.
+- Los mensajes que están en las carpetas comunes de Spam son ignorados y las direcciones que contengan no serán consideradas como contactos conocidos.
+- Como los mensajes de remitentes desconocidos no son mostrados automáticamente, generalmente, no habrá **Spam**.
+- Sin embargo, si fuera realmente necesario, podes **bloquear** cualquier a contacto.
 
 ## Delta Chat soporta envío de imágenes, vidéos, documentos y otros archivos?
 
@@ -109,19 +109,19 @@ Other messages do not appear automatically. You can see the other messages in th
 
 ## Cómo puedo verificar la encriptación?
 
-- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- Si un pequeño **candado** es mostrado al lado de un mensaje, implica que ese mensaje esta cifrado punto a punto _y_ fue enviado por el remitente que muestra _y_ tu respuesta también sera cifrada punto a punto.
+-Si **no hubiera candado**, el mensaje es generalmente transportado cifrado, quizás vos o el quien lo envía desactivo el cifrado punto a punto o el remitente usa una aplicación que no soporta cifrado punto a punto.
 
 
-## How can I verify the sender?
+## ¿Como puedo verificar el remitente?
 
-The user's profile shows some additional information:
+El perfile del usuario muestra información adicional:
 
-- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
-- For transport encryption, this state is just shown there
+- Para un cifrado punto a punto, Delta Chat muestra dos huellas criptográficas. Si son idénticas a las que muestra el dispositivo de tu compañero de conversación, esto quiere decir que la conexión es segura.
+- Para el cifrado de transporte, el estado se mostrara allí.
 
 
-## Which standards are used for end-to-end-encryption?
+## ¿qué estándares se utilizan para el cifrado punto a punto?
 
 - OpenPGP. En el envío de las claves se realiza mediante [Autocrypt](https://autocrypt.org).
 
@@ -146,29 +146,29 @@ Si no posee una clave, no se preocupe, Delta Chat generará una clave automatica
 - NB: En modo de múltiples dispositivos, los mensajes _recibidos_ se muestran al mismo tiempo en todos los dispositivos. Los mensajes _enviados_ se sincronizan dos veces por hora. Tal vez podemos mejorar esto, pero necesitamos [ayuda](contribute) con este asunto.
 
 
-# Miscellaneous
+# Miscelaneo
 
-## Delta Chat on Linux Desktop
+## Delta Chat en Linux
 
-- You can run Delta Chat on Ubuntu Linux desktop (or other linux distributions supporting the **snap**-package format) by simply installing [Anbox](https://anbox.io) (Android in a Box) from terminal:
+- Delta Chat funciona en Ubunu Linux (o en cualquier otra distribución que soporte el formato de paquetes **snap**) simplemente instalando [Anbox](https://anbox.io) (Android in a Box) desde la terminal:
 
-  $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
+ $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
-- To add the Delta Chat application, download the *com.b44t.messenger_\<version\>.apk* file from [this](download) page and install it from terminal:
+- Para agregar la aplicación Delta Chat, descarga el archivo *com.b44t.messenger_\<version\>.apk* desde [esta](download) pagina e instalalo desde la terminal:
 
-  $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
+ $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
 
-  adb is the Android Debug Bridge and can be installed from repository.
+adb son las siglas de Android Debug Brige y puede ser instalado desde los repositorios.
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- En vez de instalar Delta Chat directamente desde el archivo APK, podes primero instalar el almacén de aplicaciones F-Droid vía [F-Droid-APK](https://f-droid.org/FDroid.apk)  y luego desde allí instalar Delta Chat. La mayor ventaja es que te informara sobre las actualizaciones y migrara la información y las conversaciones al instalarlas.
 
 
 # Problemas de Login
 
-I have a problem with ...
+Tengo un problema con ...
 
-- Gmail: Enable "Support less secure apps" and IMAP, you may receive a mail to grant permission
+- Gmail: habilitar "Soporte para aplicaciones poco seguras" e IMAP, debería llegarte un mail para conceder permisos
 
-## I'm interested in the technical details. Can you tell me more?
+## Estoy interesado en los detalles técnicos. ¿Podrías decirme más?
 
-- See page [Standards used in Delta Chat]({% include standards-url %}).
+-- Visitá la pagina [Estándares usados en Delta Chat]({% include standards-url %}).
