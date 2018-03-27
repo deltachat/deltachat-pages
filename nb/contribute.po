@@ -54,8 +54,8 @@ msgid ""
 "- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)"
 msgstr ""
 "- Ta del i [Delta Chat-e-postlisten](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for fellesskapsdiskusjoner\n"
-"- Samarbeid på [GitHub Delta Chat-kodelageret](https://github.com/deltachat/)\n"
-"- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)"
+"- Samarbeid på [GitHub-kodelageret til Delta Cha]t(https://github.com/deltachat/)\n"
+"- Ta del i IRC-kanalen **#deltachat** på [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)"
 
 #: ../en/contribute.md:20
 msgid "# Donate"
@@ -143,6 +143,9 @@ msgid ""
 "With Version 1.0 Delta Chat will become market-ready and a recommendation "
 "for _everyone_. "
 msgstr ""
+"Akkurat nå er Delta Chat fremdeles i beta, og fungerer kun for prøvekaniner."
+" Folk som bruker det i dag bør ha i minnet at ting er under endring. Med "
+"versjon 1.0 vil Delta Chat bli klart for bruk, og anbefalt brukt for _alle_."
 
 #: ../en/contribute.md:52
 msgid "# Bug Reports"

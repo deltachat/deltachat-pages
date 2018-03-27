@@ -50,12 +50,12 @@ Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull r
 
 The same applies for **this webpage** - no matter if you have bigger or smaller improvements: Easily edit this page [here](https://github.com/deltachat/deltachat-pages) and send us a pull request.
 
-# Recommendation
+# Recomendaciones
 
-Currently Delta Chat is still in beta state and is only suitable for early adopters. People using it today should consider that things are changing. With Version 1.0 Delta Chat will become market-ready and a recommendation for _everyone_. 
+Actualmente Delta Chat esta en un estado beta y solo se recomienda para quienes quieran probar esta aplicación. Quienes lo usen hoy en día deben tener en cuenta que la aplicación esta en constante cambio. Con la llegada de la versión 1.0 Delta Chat estará lista para el mercado y se recomienda para _todos_.
 
 
-# Bug Reports
+# Reportes de Error
 
 Use the following **Issue Trackers** to report bugs.
 

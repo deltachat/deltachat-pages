@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-26 21:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: kaze kaze <kaze@rlab.be>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: ../en/help.md:35
 msgid "## What if the receiver does not use Delta Chat?"
-msgstr ""
+msgstr "## ¿Qué pasa si el receptor no usa Delta Chat?"
 
 #: ../en/help.md:37
 msgid ""
@@ -113,11 +113,11 @@ msgstr ""
 
 #: ../en/help.md:39
 msgid "## Which messages do appear in Delta Chat?"
-msgstr ""
+msgstr "## ¿Cuales mensajes aparecerán el Delta Chat?"
 
 #: ../en/help.md:41
 msgid "Delta Chat automatically shows ..."
-msgstr ""
+msgstr "Delta Chat muestra automáticamente..."
 
 #: ../en/help.md:43
 msgid ""
@@ -125,6 +125,9 @@ msgid ""
 "- Messages from contacts **contacted by you**\n"
 "- **Replies** to messages send by you"
 msgstr ""
+"- Mensajes de contactos en la **libreta de direcciones**\n"
+"- Mensajes de contactos **contactados por vos**\n"
+"- **Respuestas** a mensajes enviados por vos"
 
 #: ../en/help.md:47
 msgid ""
@@ -132,10 +135,13 @@ msgid ""
 "in the main menu at **Contact requests** and, if desired, start a chat from "
 "there."
 msgstr ""
+"Otros mensajes no aparecen automáticamente. Podes verlos en el menú "
+"principal en **Solicitudes de contacto** y, si querés, iniciar una "
+"conversación desde ahí."
 
 #: ../en/help.md:49
 msgid "## What about Spam?"
-msgstr ""
+msgstr "## ¿Qué pasa con el Spam?"
 
 #: ../en/help.md:51
 msgid ""
@@ -143,6 +149,9 @@ msgid ""
 "- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.\n"
 "- However, if really needed, you can **block** any contact."
 msgstr ""
+"- Los mensajes que están en las carpetas comunes de Spam son ignorados y las direcciones que contengan no serán consideradas como contactos conocidos.\n"
+"- Como los mensajes de remitentes desconocidos no son mostrados automáticamente, generalmente, no habrá **Spam**.\n"
+"- Sin embargo, si fuera realmente necesario, podes **bloquear** cualquier a contacto."
 
 #: ../en/help.md:55
 msgid "## Does Delta Chat support images, videos and other attachments?"
@@ -298,24 +307,28 @@ msgid ""
 "- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.\n"
 "- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- Si un pequeño **candado** es mostrado al lado de un mensaje, implica que ese mensaje esta cifrado punto a punto _y_ fue enviado por el remitente que muestra _y_ tu respuesta también sera cifrada punto a punto.\n"
+"-Si **no hubiera candado**, el mensaje es generalmente transportado cifrado, quizás vos o el quien lo envía desactivo el cifrado punto a punto o el remitente usa una aplicación que no soporta cifrado punto a punto."
 
 #: ../en/help.md:110
 msgid "## How can I verify the sender?"
-msgstr ""
+msgstr "## ¿Como puedo verificar el remitente?"
 
 #: ../en/help.md:112
 msgid "The user's profile shows some additional information:"
-msgstr ""
+msgstr "El perfile del usuario muestra información adicional:"
 
 #: ../en/help.md:114
 msgid ""
 "- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.\n"
 "- For transport encryption, this state is just shown there"
 msgstr ""
+"- Para un cifrado punto a punto, Delta Chat muestra dos huellas criptográficas. Si son idénticas a las que muestra el dispositivo de tu compañero de conversación, esto quiere decir que la conexión es segura.\n"
+"- Para el cifrado de transporte, el estado se mostrara allí."
 
 #: ../en/help.md:118
 msgid "## Which standards are used for end-to-end-encryption?"
-msgstr ""
+msgstr "## ¿qué estándares se utilizan para el cifrado punto a punto?"
 
 #: ../en/help.md:120
 msgid ""
@@ -392,11 +405,11 @@ msgstr ""
 
 #: ../en/help.md:143
 msgid "# Miscellaneous"
-msgstr ""
+msgstr "# Miscelaneo"
 
 #: ../en/help.md:145
 msgid "## Delta Chat on Linux Desktop"
-msgstr ""
+msgstr "## Delta Chat en Linux"
 
 #: ../en/help.md:147
 msgid ""
@@ -404,10 +417,13 @@ msgid ""
 "distributions supporting the **snap**-package format) by simply installing "
 "[Anbox](https://anbox.io) (Android in a Box) from terminal:"
 msgstr ""
+"- Delta Chat funciona en Ubunu Linux (o en cualquier otra distribución que "
+"soporte el formato de paquetes **snap**) simplemente instalando "
+"[Anbox](https://anbox.io) (Android in a Box) desde la terminal:"
 
 #: ../en/help.md:149
 msgid "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
-msgstr ""
+msgstr " $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
 
 #: ../en/help.md:151
 msgid ""
@@ -415,15 +431,20 @@ msgid ""
 "*com.b44t.messenger_\\<version\\>.apk* file from [this](download) page and "
 "install it from terminal:"
 msgstr ""
+"- Para agregar la aplicación Delta Chat, descarga el archivo "
+"*com.b44t.messenger_\\<version\\>.apk* desde [esta](download) pagina e "
+"instalalo desde la terminal:"
 
 #: ../en/help.md:153
 msgid "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
-msgstr ""
+msgstr " $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
 
 #: ../en/help.md:155
 msgid ""
 "  adb is the Android Debug Bridge and can be installed from repository."
 msgstr ""
+"adb son las siglas de Android Debug Brige y puede ser instalado desde los "
+"repositorios."
 
 #: ../en/help.md:157
 msgid ""
@@ -433,6 +454,11 @@ msgid ""
 "information about updates and the migration of existing config and chat "
 "data."
 msgstr ""
+"- En vez de instalar Delta Chat directamente desde el archivo APK, podes "
+"primero instalar el almacén de aplicaciones F-Droid vía [F-Droid-"
+"APK](https://f-droid.org/FDroid.apk)  y luego desde allí instalar Delta "
+"Chat. La mayor ventaja es que te informara sobre las actualizaciones y "
+"migrara la información y las conversaciones al instalarlas."
 
 #: ../en/help.md:160
 msgid "## Login Issues"
@@ -440,19 +466,23 @@ msgstr "# Problemas de Login"
 
 #: ../en/help.md:162
 msgid "I have a problem with ..."
-msgstr ""
+msgstr "Tengo un problema con ..."
 
 #: ../en/help.md:164
 msgid ""
 "- Gmail: Enable \"Support less secure apps\" and IMAP, you may receive a "
 "mail to grant permission"
 msgstr ""
+"- Gmail: habilitar \"Soporte para aplicaciones poco seguras\" e IMAP, "
+"debería llegarte un mail para conceder permisos"
 
 #: ../en/help.md:166
 msgid "## I'm interested in the technical details. Can you tell me more?"
-msgstr ""
+msgstr "## Estoy interesado en los detalles técnicos. ¿Podrías decirme más?"
 
 #: ../en/help.md:168
 msgid ""
 "- See page [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""
+"-- Visitá la pagina [Estándares usados en Delta Chat]({% include standards-"
+"url %})."

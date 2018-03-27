@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../en/help.md:14
 msgid "# General"
-msgstr "# General"
+msgstr "# Generelt"
 
 #: ../en/help.md:16
 msgid "## To whom can I write?"
@@ -60,7 +60,7 @@ msgid ""
 "biggest differences to other messengers: There is no need for the receiver "
 "to install the same app as yours."
 msgstr ""
-"- Med Delta CHat, kan du skrive til enhver eksisterende e-postadresse - som "
+"- Med Delta Chat, kan du skrive til enhver eksisterende e-postadresse - som "
 "om mottakeren ikke (enda) bruker Delta Chat-programmet. Dette er én av de "
 "største forskjellene til andre meldingsprogrammer: Mottakeren trenger ikke å"
 " installere samme program som deg."
@@ -68,7 +68,7 @@ msgstr ""
 #: ../en/help.md:20
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
 msgstr ""
-"## Hva er fordelene med Delta Chat i sammenligning med andre "
+"## Hva er fordelene med Delta Chat sammenlignet med andre "
 "meldingsforsendelsessystemer?"
 
 #: ../en/help.md:22
@@ -86,6 +86,18 @@ msgid ""
 "- _Trustworthy_ - can even be used for business messages\n"
 "- fully _Open Source_ and _Standards_ based"
 msgstr ""
+"- _Uavhengig_ av selskaper og tjenester. _Du_ eier din data.\n"
+"- Din data blir ikke lagret på en sentral tjener; på denne måten; i motsats til andre meldingsprogrammer, Delta Chat beskytter tilogmed din metadata (hvem skriver til hvem?)\n"
+"- Du sender ikke adresseboken din til noen.\n"
+"- _Raskt_ ved bruk av Push-IMAP\n"
+"- _Størst brukermasse_ - mottakere som _ikke_ bruker Delta Chat kan også nås\n"
+"- _Kompatibelt_ - ikke bare med seg selv\n"
+"- _Elegant_ og _enkelt_ brukergrensesnitt\n"
+"- _Distribuert_ system\n"
+"- _Ingen søppelpost_ - kun meldinger fra kjente brukere vises som forvalg\n"
+"- _Pålitelig_ -trygt for profesjonelt bruk\n"
+"- _Tillitsverdig_ - kan tilogmed brukes for bedriftsmeldinger\n"
+"- Helt _fri programvare_ og basert på _standarder_"
 
 #: ../en/help.md:35
 msgid "## What if the receiver does not use Delta Chat?"
@@ -150,6 +162,8 @@ msgid ""
 "separate messages. Outgoing messages will get attachments as needed "
 "automatically."
 msgstr ""
+"- Ja. Ved siden av klarteksten, vises alle e-postvedlegg som egne meldinger."
+" Utgående meldinger vil få vedlegg ved behov automatisk."
 
 #: ../en/help.md:59
 msgid "## Does Delta Chat support HTML-emails?"
@@ -160,6 +174,9 @@ msgid ""
 "- Yes. If incoming email lacks a plain text part, we convert HTML-emails to "
 "plain text ourselves. Outgoing emails always use plain text."
 msgstr ""
+"- Ja. Hvis innkommende e-post mangler en klartekstdel, konverteres "
+"HTML-e-poster til klartekst på din enhet. Utgående e-poster bruker alltid "
+"klartekst."
 
 #: ../en/help.md:63
 msgid "# Groups"
@@ -175,6 +192,9 @@ msgid ""
 "- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.\n"
 "- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members)."
 msgstr ""
+"- Velg **Legg til gruppe** fra \"smørbrødsmenyen\" øverst i venstre hjørne for sludringsoversikt.\n"
+"- På neste skjerm, velg **gruppemedlemmer** og trykk på avhukingsmerket øverst i høyre hjørne. Etter det, kan du velge et **gruppenavn**\n"
+"- Så snart du skriver den **første meldingen** i gruppen, vil alle medlemmer få vite om den nye gruppen og kan svare i den (så lenge du ikke skriver en melding i gruppen, er den usynlig for medlemmene)."
 
 #: ../en/help.md:71
 msgid "## Who can add members to a group?"
@@ -185,6 +205,8 @@ msgid ""
 "- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.\n"
 "- To add or delete members, click on the group name in the chat."
 msgstr ""
+"- Hvert gruppemedlem har **samme rettigheter** som alle andre. Som følge av dette kan hver av dem slette andre, eller legge til nye.\n"
+"- For å legge til eller slette medlemmer, klikk på gruppenavnet i sludringen."
 
 #: ../en/help.md:76
 msgid "## I have deleted myself by accident."
@@ -196,16 +218,21 @@ msgid ""
 "However, no problem, just ask any other group member in a normal chat to add"
 " you again."
 msgstr ""
+"- Siden du nå har forlatt gruppen, kan du ikke legge deg selv til igjen. Det"
+" er dog ikke et problem, bare få et annet gruppemedlem i en normal sludring "
+"til å legge deg til igjen."
 
 #: ../en/help.md:80
 msgid "## I do not want to receive the messages of a group any longer."
-msgstr ""
+msgstr "## Jeg ønsker ikke lenger å motta meldinger fra en gruppe."
 
 #: ../en/help.md:82
 msgid ""
 "- Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.\n"
 "- As an alternative, you can also \"Mute\" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages."
 msgstr ""
+"- Enten slett deg selv fra medlemslisten, eller slett hele sludringen. Hvis du ønsker å ta del i gruppen igjen senere, spør et annet gruppemedlem om å legge deg til igjen.\n"
+"- Som et alternative, kan du også \"Forstumme\" en gruppe - å gjøre det, vil la deg få alle dens meldinger, og du kan fremdeles skrive i den, men du vil ikke lenger få beskjed om nye meldinger."
 
 #: ../en/help.md:85
 msgid "# Encryption {#encryption}"
@@ -236,22 +263,35 @@ msgid ""
 "later that cannot use end-to-end-encryption, it is paused for this time and "
 "automatically re-activated as soon as possible."
 msgstr ""
+"- Delta Chat (og andre [Autocrypt](https://autocrypt.org)--kompatible "
+"e-postprogramer) deler nøklene som kreves for ende-til-ende -kryptering "
+"automatisk så snart den første meldingen blir sendt. Etter dette, vil alle "
+"påfølgende meldinger bli ende-til-ende -kryptert automatisk. Hvis, en av "
+"sludrepartnerne bruker et program senere, som ikke kan gjøre bruk av ende-"
+"til-ende -kryptering, blir det satt på pause, og automatisk re-aktivert så "
+"snart det er mulig."
 
 #: ../en/help.md:97
 msgid ""
 "- If you want to _deactivate_ the end-to-end-encryption, use the "
 "corresponding setting at \"Settings / Advanced settings\"."
 msgstr ""
+"- Hvis du ønsker å _skru av_ ende-til-ende -kryptering, bruk respektiv "
+"innstilling i \"Innstillinger / Avanserte innstillinger\"."
 
 #: ../en/help.md:99
 msgid ""
 "## If end-to-end-encryption is not available, is the connection not "
 "encrypted at all?"
 msgstr ""
+"## Hvis ende-til-ende -kryptering ikke er tilgjengelig, er tilkoblingen "
+"kryptert overhodet?"
 
 #: ../en/help.md:101
 msgid "- No. The normal, email-standard _transport encryption_ is used then."
 msgstr ""
+"- Nei. Normal standard _transport-kryptering_ for e-post brukes i sådant "
+"fall."
 
 #: ../en/help.md:104
 msgid "## How can I check the encryption?"
@@ -262,6 +302,8 @@ msgid ""
 "- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.\n"
 "- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- Hvis en liten **hengelås** vises ved siden av en melding, angir det at meldingen er ende-til-ende -kryptert _og_ sendt fra angitt avsender _og_ at også svaret ditt vil bli ende-til-ende -kryptert.\n"
+"- Hvis det **ikke finnes en hengelås**, vil meldingen vanligvis bli transport-kryptert f.eks. fordi du eller senderen har skrudd av ende-til-ende -kryptering, eller at avsenderen bruker et program som ikke støtter ende-til-ende -kryptering."
 
 #: ../en/help.md:110
 msgid "## How can I verify the sender?"
@@ -276,10 +318,12 @@ msgid ""
 "- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.\n"
 "- For transport encryption, this state is just shown there"
 msgstr ""
+"- For ende-til-ende -kryptering, viser Delta Chat to fingeravtrykk der. Hvis de er de samme på din og din samtalepartners enhet, er tilkoblingen trygg.\n"
+"- For transportkryptering, vises bare denne tilstanden der"
 
 #: ../en/help.md:118
 msgid "## Which standards are used for end-to-end-encryption?"
-msgstr ""
+msgstr "## Hvilke standarder brukes for ende-til-ende -kryptering?"
 
 #: ../en/help.md:120
 msgid ""
@@ -289,27 +333,33 @@ msgstr ""
 
 #: ../en/help.md:122
 msgid "## Can I re-use by existing private key?"
-msgstr ""
+msgstr "## Kan jeg bruke en privat nøkkel jeg har fra før?"
 
 #: ../en/help.md:124
 msgid ""
 "- Yes. Importing it at \"Advanced settings / Manage private keys\". Caution:"
 " Make sure, they key is not protected by a password or remove it before."
 msgstr ""
+"- Ja, importer den i \"Avanserte innstillinger / Behandle private nøkler\". "
+"Advarsel: Forsikre deg om at nøkkelen ikke er passordbeskyttet, fjern det "
+"isåfall først."
 
 #: ../en/help.md:126
 msgid ""
 "If you don't have a key or don't even know you would need one - don't worry:"
 " Delta Chat generates one as needed, you have to do nothing."
 msgstr ""
+"Hvis du ikke har en nøkkel, eller ikke engang vet om du kommer til å trenge "
+"en - fortvil ikke: Delta Chat genererer en for deg, du trenger ikke å gjøre "
+"noe."
 
 #: ../en/help.md:128
 msgid "# Multi-client {#multiclient}"
-msgstr ""
+msgstr "# Multi-klient {#multiclient}"
 
 #: ../en/help.md:130
 msgid "## Can I use Delta Chat on multiple devices the same time?"
-msgstr ""
+msgstr "## Kan jeg bruke Delta Chat på flere enheter samtidig?"
 
 #: ../en/help.md:132
 msgid ""
@@ -325,12 +375,17 @@ msgid ""
 "  - Via USB, copy the key file from the \"Downloads\" directory of the first device to the second one.\n"
 "  - On the second device, \"Advanced settings / Manage private keys / Import key from Downloads\""
 msgstr ""
+"  - På den første enheten, velg \"Avanserte innstillinger / Behandle private nøkler / Eksporter nøkkel til Nedlastinger\"\n"
+"  - Via USB, kopier nøkkelfila fra \"Nedlastinger\"-mappen til første enhet på den andre.\n"
+"  - På den andre enheten, \"Avanserte innstillinger / Behandle private nøkler / Importer nøkkel fra Nedlastinger\""
 
 #: ../en/help.md:138
 msgid ""
 "- All this is **not needed** for the standard usage of Delta Chat using just"
 " one device."
 msgstr ""
+"- Alt dette er **ikke nødvendig** for vanlig bruk av Delta Chat, med bare én"
+" enhet."
 
 #: ../en/help.md:140
 msgid ""
@@ -338,6 +393,10 @@ msgid ""
 "clients. _Outgoing_ messages are synced about two times an hour. We can "
 "improve this, but we would need more [support](contribute) on this issue."
 msgstr ""
+"- NB: I multiklientmodus, vil _innkommende_ meldinger vises umiddelbart på "
+"alle klienter. _Utgående_ meldinger synkroniseres to ganger i timen. Dette "
+"kan forbedres, men det trengs mer [støtte](contribute) for å få bukt med "
+"problemet."
 
 #: ../en/help.md:143
 msgid "# Miscellaneous"
@@ -353,10 +412,13 @@ msgid ""
 "distributions supporting the **snap**-package format) by simply installing "
 "[Anbox](https://anbox.io) (Android in a Box) from terminal:"
 msgstr ""
+"- Du kan kjøre Delta Chat på Ubuntu (eller andre skrivebordsdistribusjoner "
+"som støtter **snap**-pakkeformatet) ved å simpelthen installere "
+"[Anbox](https://anbox.io) (Android i en boks) fra terminalen:"
 
 #: ../en/help.md:149
 msgid "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
-msgstr ""
+msgstr "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
 
 #: ../en/help.md:151
 msgid ""
@@ -364,6 +426,9 @@ msgid ""
 "*com.b44t.messenger_\\<version\\>.apk* file from [this](download) page and "
 "install it from terminal:"
 msgstr ""
+"- For å legge til Delta Chat-programmet, last ned "
+"*com.b44t.messenger_\\<version\\>.apk*-filen fra [denne](download) siden og "
+"installer det fra terminalen:"
 
 #: ../en/help.md:153
 msgid "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
@@ -384,6 +449,11 @@ msgid ""
 "information about updates and the migration of existing config and chat "
 "data."
 msgstr ""
+"- Istedenfor å installere Delta Chat direkte via APK-fil, kan du først "
+"installere F-Droid-butikken via [F-Droid-"
+"APK](https://f-droid.org/FDroid.apk) og så installere Delta Chat ved å bruke"
+" butikken dens. Den store fordelen er at informasjon om oppgraderinger og "
+"flytting av eksisterende oppsett og sludredata."
 
 #: ../en/help.md:160
 msgid "## Login Issues"
@@ -398,8 +468,8 @@ msgid ""
 "- Gmail: Enable \"Support less secure apps\" and IMAP, you may receive a "
 "mail to grant permission"
 msgstr ""
-"- Gmail: Enable \"Support less secure apps\" and IMAP, you may receive a "
-"mail to grant permission"
+"- Gmail: Skru på \"Støtt mindre sikre programmer\" og IMAP, det kan hende du"
+" får en e-post for å innvilge tilgang"
 
 #: ../en/help.md:166
 msgid "## I'm interested in the technical details. Can you tell me more?"
@@ -410,4 +480,4 @@ msgstr ""
 msgid ""
 "- See page [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""
-"- See page [Standards used in Delta Chat]({% include standards-url %})."
+"- Sjekk siden [standarder brukt i Delta Chat]({% include standards-url %})."

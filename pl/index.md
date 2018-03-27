@@ -24,7 +24,7 @@ Aplikacja wykorzystuje tylko twój serwer e-mail.
 
 {% include slider-next.html %}
 
-# szybki
+# Szybki
 **Wiadomości push** w kilka sekund.  
 Szybki interfejs.
 
@@ -36,13 +36,13 @@ Szybki interfejs.
 {% include slider-next.html %}
 
 # Darmowy
-**Delta Chat** jest zawsze darmowy.  
-O otwartym kodzie źródłowym. Bez reklam. Bez abonamentu. Bez ograniczeń dystrybucji.
+**Delta Chat** jest zawsze darmowy. Bez reklam.  
+O otwartym kodzie źródłowym. Bez abonamentu. Bez ograniczeń dystrybucji.
 
 {% include slider-next.html %}
 
 # Bezpieczny
-Zaszyfrowany za pomocą wszystkich typowych algorytmów. Wiadomości pozostają na swoich serwerach.
+Szyfrujący za pomocą wszystkich typowych algorytmów. Wiadomości pozostają na swoich serwerach.
 
 {% include slider-next.html %}
 

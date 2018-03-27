@@ -11,7 +11,7 @@ layout: default-pl
 
 # Co oferuje Delta Chat
 
-Delta Chat to nowoczesny komunikator. To jest jak e-mail w nowym stroju. <br>Po prostu lepszy, bezpieczniejszy i zoptymalizowany pod kątem użytkownika.
+Delta Chat to nowoczesny komunikator. Jest jak e-mail w nowym stroju. <br>Po prostu lepszy, bezpieczniejszy i zoptymalizowany pod kątem użytkownika.
 
 **Zacznij od razu** <br>Wszystko, czego potrzebujesz, to konto e-mail. Dzięki niemu możesz dotrzeć do każdego kontaktu e-mail.
 
@@ -21,15 +21,15 @@ Wykorzystaj liczne funkcje i zalety:
 
 - Delta Chat jest komunikatorem o **największej bazie użytkowników na świecie**: każdy klient poczty w dowolnym systemie operacyjnym jest kompatybilny
 - Rozproszona architektura: **nie ma centralnego** **serwera** Delta Chat
-- Niezależny: Nie jesteś **zależny** od żadnej zewnętrznej usługi lub serwera - Delta Chat używa tylko twojego serwera pocztowego.
+- Niezależny: Nie jesteś **zależny** od żadnej zewnętrznej usługi lub serwera - Delta Chat używa tylko twojego serwera pocztowego
 - Twoje konto jest niezależne od numeru telefonu komórkowego
 - Szybki: **Wiadomości push** w kilka sekund. Szybki interfejs
 - Potężny: **Nieograniczone** czaty, obrazy, filmy, wiadomości audio i wiele innych - obsługujący wielu klientów
-- Darmowy: Delta Chat zawsze będzie: **darmowy** - O otwartym kodzie źródłowym - **Bez reklam** - Bez abonamentu
+- Darmowy: Delta Chat zawsze będzie: **Darmowy** - O otwartym kodzie źródłowym - **Bez reklam** - Bez abonamentu
 - Bezpieczny: **Zaszyfrowany** za pomocą wszystkich typowych algorytmów - kod źródłowy otwarty do wglądu
 - Chroniony: Delta Chat chroni przed **spamem**
 - Legalny: twoja **książka telefoniczna** pozostaje na twoim smartfonie - nie jest **nigdzie** przesyłana
-Anonimowy: **Metadane** takie jak _Kto_ komunikuje się z _Kim_, _Kiedy_ i _Gdzie_ **nie są gromadzone**
+- Anonimowy: **Metadane** takie jak _Kto_ komunikuje się z _Kim_, _Kiedy_ i _Gdzie_ **nie są gromadzone**
 - Dynamiczny: Delta Chat oferuje **czaty grupowe**
 
 

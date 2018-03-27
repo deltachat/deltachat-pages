@@ -17,26 +17,26 @@ layout: default-nb
 - [Multi-client](#multiclient)
 - [Ymse](#miscellaneous)
 
-# General
+# Generelt
 
 ## Hvem kan jeg skrive til?
 
-- Med Delta CHat, kan du skrive til enhver eksisterende e-postadresse - som om mottakeren ikke (enda) bruker Delta Chat-programmet. Dette er én av de største forskjellene til andre meldingsprogrammer: Mottakeren trenger ikke å installere samme program som deg.
+- Med Delta Chat, kan du skrive til enhver eksisterende e-postadresse - som om mottakeren ikke (enda) bruker Delta Chat-programmet. Dette er én av de største forskjellene til andre meldingsprogrammer: Mottakeren trenger ikke å installere samme program som deg.
 
-## Hva er fordelene med Delta Chat i sammenligning med andre meldingsforsendelsessystemer?
+## Hva er fordelene med Delta Chat sammenlignet med andre meldingsforsendelsessystemer?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protect your metadata (who writes to whom?)
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP
-- _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
-- _Compatible_ - not only to itself
-- _Elegant_ and _simple_ user interface
-- _Distributed_ system
-- _No Spam_ - only messages of known users are shown by default
-- _Reliable_ - safe for professional use
-- _Trustworthy_ - can even be used for business messages
-- fully _Open Source_ and _Standards_ based
+- _Uavhengig_ av selskaper og tjenester. _Du_ eier din data.
+- Din data blir ikke lagret på en sentral tjener; på denne måten; i motsats til andre meldingsprogrammer, Delta Chat beskytter tilogmed din metadata (hvem skriver til hvem?)
+- Du sender ikke adresseboken din til noen.
+- _Raskt_ ved bruk av Push-IMAP
+- _Størst brukermasse_ - mottakere som _ikke_ bruker Delta Chat kan også nås
+- _Kompatibelt_ - ikke bare med seg selv
+- _Elegant_ og _enkelt_ brukergrensesnitt
+- _Distribuert_ system
+- _Ingen søppelpost_ - kun meldinger fra kjente brukere vises som forvalg
+- _Pålitelig_ -trygt for profesjonelt bruk
+- _Tillitsverdig_ - kan tilogmed brukes for bedriftsmeldinger
+- Helt _fri programvare_ og basert på _standarder_
 
 ## Hva om mottakeren ikke bruker Delta Chat?
 
@@ -60,33 +60,33 @@ Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i **Kontaktfo
 
 ## Støtter Delta Chat bilder, videoer og andre vedlegg?
 
-- Ja. Beside the plain text, all email-attachments are displayed as separate messages. Outgoing messages will get attachments as needed automatically.
+- Ja. Ved siden av klarteksten, vises alle e-postvedlegg som egne meldinger. Utgående meldinger vil få vedlegg ved behov automatisk.
 
 ## Støtter Delta Chat HTML-e-poster?
 
-- Ja. If incoming email lacks a plain text part, we convert HTML-emails to plain text ourselves. Outgoing emails always use plain text.
+- Ja. Hvis innkommende e-post mangler en klartekstdel, konverteres HTML-e-poster til klartekst på din enhet. Utgående e-poster bruker alltid klartekst.
 
 # Grupper
 
 ## Hvordan kan jeg opprette en gruppe?
 
-- Select **Add group** from the "Sandwich menu" in the upper left corner of the chat overview.
-- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Velg **Legg til gruppe** fra "smørbrødsmenyen" øverst i venstre hjørne for sludringsoversikt.
+- På neste skjerm, velg **gruppemedlemmer** og trykk på avhukingsmerket øverst i høyre hjørne. Etter det, kan du velge et **gruppenavn**
+- Så snart du skriver den **første meldingen** i gruppen, vil alle medlemmer få vite om den nye gruppen og kan svare i den (så lenge du ikke skriver en melding i gruppen, er den usynlig for medlemmene).
 
 ## Hvordan kan jeg legge til medlemmer i en gruppe?
 
-- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
-- To add or delete members, click on the group name in the chat.
+- Hvert gruppemedlem har **samme rettigheter** som alle andre. Som følge av dette kan hver av dem slette andre, eller legge til nye.
+- For å legge til eller slette medlemmer, klikk på gruppenavnet i sludringen.
 
 ## Jeg har slettet meg selv ved en feiltagelse.
 
-- As you're no longer a group member now, you cannot add yourself again. However, no problem, just ask any other group member in a normal chat to add you again.
+- Siden du nå har forlatt gruppen, kan du ikke legge deg selv til igjen. Det er dog ikke et problem, bare få et annet gruppemedlem i en normal sludring til å legge deg til igjen.
 
-## I do not want to receive the messages of a group any longer.
+## Jeg ønsker ikke lenger å motta meldinger fra en gruppe.
 
-- Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.
-- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages.
+- Enten slett deg selv fra medlemslisten, eller slett hele sludringen. Hvis du ønsker å ta del i gruppen igjen senere, spør et annet gruppemedlem om å legge deg til igjen.
+- Som et alternative, kan du også "Forstumme" en gruppe - å gjøre det, vil la deg få alle dens meldinger, og du kan fremdeles skrive i den, men du vil ikke lenger få beskjed om nye meldinger.
 
 # Kryptering {#encryption}
 
@@ -98,77 +98,77 @@ Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i **Kontaktfo
 
 - Ingenting.
 
-- Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If, one of the chat partners use an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
+- Delta Chat (og andre [Autocrypt](https://autocrypt.org)--kompatible e-postprogramer) deler nøklene som kreves for ende-til-ende -kryptering automatisk så snart den første meldingen blir sendt. Etter dette, vil alle påfølgende meldinger bli ende-til-ende -kryptert automatisk. Hvis, en av sludrepartnerne bruker et program senere, som ikke kan gjøre bruk av ende-til-ende -kryptering, blir det satt på pause, og automatisk re-aktivert så snart det er mulig.
 
-- If you want to _deactivate_ the end-to-end-encryption, use the corresponding setting at "Settings / Advanced settings".
+- Hvis du ønsker å _skru av_ ende-til-ende -kryptering, bruk respektiv innstilling i "Innstillinger / Avanserte innstillinger".
 
-## If end-to-end-encryption is not available, is the connection not encrypted at all?
+## Hvis ende-til-ende -kryptering ikke er tilgjengelig, er tilkoblingen kryptert overhodet?
 
-- No. The normal, email-standard _transport encryption_ is used then.
+- Nei. Normal standard _transport-kryptering_ for e-post brukes i sådant fall.
 
 
 ## Hvordan kan jeg sjekke krypteringen?
 
-- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- Hvis en liten **hengelås** vises ved siden av en melding, angir det at meldingen er ende-til-ende -kryptert _og_ sendt fra angitt avsender _og_ at også svaret ditt vil bli ende-til-ende -kryptert.
+- Hvis det **ikke finnes en hengelås**, vil meldingen vanligvis bli transport-kryptert f.eks. fordi du eller senderen har skrudd av ende-til-ende -kryptering, eller at avsenderen bruker et program som ikke støtter ende-til-ende -kryptering.
 
 
 ## Hvordan kan jeg bekrefte avsenderen?
 
 Brukerprofilen viser litt ekstra informasjon:
 
-- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
-- For transport encryption, this state is just shown there
+- For ende-til-ende -kryptering, viser Delta Chat to fingeravtrykk der. Hvis de er de samme på din og din samtalepartners enhet, er tilkoblingen trygg.
+- For transportkryptering, vises bare denne tilstanden der
 
 
-## Which standards are used for end-to-end-encryption?
+## Hvilke standarder brukes for ende-til-ende -kryptering?
 
 - OpenPGP. Nøkkeltransport gjøres via [Autocrypt](https://autocrypt.org).
 
-## Can I re-use by existing private key?
+## Kan jeg bruke en privat nøkkel jeg har fra før?
 
 - Ja. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you have to do nothing.
+Hvis du ikke har en nøkkel, eller ikke engang vet om du kommer til å trenge en - fortvil ikke: Delta Chat genererer en for deg, du trenger ikke å gjøre noe.
 
-# Multi-client {#multiclient}
+# Multi-klient {#multiclient}
 
-## Can I use Delta Chat on multiple devices the same time?
+## Kan jeg bruke Delta Chat på flere enheter samtidig?
 
 - Hvis du ønsker å bruke **samme konto** på flere enheter, må du forsikre deg om at alle enheter bruke samme krypteringsnøkler:
 
-  - On the first device, choose "Advanced settings / Manage private keys / Export key to Downloads"
-  - Via USB, copy the key file from the "Downloads" directory of the first device to the second one.
-  - On the second device, "Advanced settings / Manage private keys / Import key from Downloads"
+  - På den første enheten, velg "Avanserte innstillinger / Behandle private nøkler / Eksporter nøkkel til Nedlastinger"
+  - Via USB, kopier nøkkelfila fra "Nedlastinger"-mappen til første enhet på den andre.
+  - På den andre enheten, "Avanserte innstillinger / Behandle private nøkler / Importer nøkkel fra Nedlastinger"
 
-- All this is **not needed** for the standard usage of Delta Chat using just one device.
+- Alt dette er **ikke nødvendig** for vanlig bruk av Delta Chat, med bare én enhet.
 
-- NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. We can improve this, but we would need more [support](contribute) on this issue.
+- NB: I multiklientmodus, vil _innkommende_ meldinger vises umiddelbart på alle klienter. _Utgående_ meldinger synkroniseres to ganger i timen. Dette kan forbedres, men det trengs mer [støtte](contribute) for å få bukt med problemet.
 
 
 # Ymse
 
 ## Delta Chat på Linux|GNU-skrivebordet
 
-- You can run Delta Chat on Ubuntu Linux desktop (or other linux distributions supporting the **snap**-package format) by simply installing [Anbox](https://anbox.io) (Android in a Box) from terminal:
+- Du kan kjøre Delta Chat på Ubuntu (eller andre skrivebordsdistribusjoner som støtter **snap**-pakkeformatet) ved å simpelthen installere [Anbox](https://anbox.io) (Android i en boks) fra terminalen:
 
   $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
-- To add the Delta Chat application, download the *com.b44t.messenger_\<version\>.apk* file from [this](download) page and install it from terminal:
+- For å legge til Delta Chat-programmet, last ned *com.b44t.messenger_\<version\>.apk*-filen fra [denne](download) siden og installer det fra terminalen:
 
   $ *adb install sti/til/com.b44t.messenger_\<version\>.apk*
 
 adb er feilrettingsbroen for Android (Android Debug Bridge) og kan installeres fra pakkebrønnen.
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- Istedenfor å installere Delta Chat direkte via APK-fil, kan du først installere F-Droid-butikken via [F-Droid-APK](https://f-droid.org/FDroid.apk) og så installere Delta Chat ved å bruke butikken dens. Den store fordelen er at informasjon om oppgraderinger og flytting av eksisterende oppsett og sludredata.
 
 
 ## Innloggingsproblemer
 
 Jeg har et problem med…
 
-- Gmail: Enable "Support less secure apps" and IMAP, you may receive a mail to grant permission
+- Gmail: Skru på "Støtt mindre sikre programmer" og IMAP, det kan hende du får en e-post for å innvilge tilgang
 
 ## Jeg er interessert i de tekniske detaljene. Kan du fortelle meg mer?
 
-- See page [Standards used in Delta Chat]({% include standards-url %}).
+- Sjekk siden [standarder brukt i Delta Chat]({% include standards-url %}).

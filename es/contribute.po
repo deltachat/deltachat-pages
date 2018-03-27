@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-26 21:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: kaze kaze <kaze@rlab.be>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../en/contribute.md:47
 msgid "# Recommendation"
-msgstr ""
+msgstr "# Recomendaciones"
 
 #: ../en/contribute.md:49
 msgid ""
@@ -121,10 +121,15 @@ msgid ""
 "With Version 1.0 Delta Chat will become market-ready and a recommendation "
 "for _everyone_. "
 msgstr ""
+"Actualmente Delta Chat esta en un estado beta y solo se recomienda para "
+"quienes quieran probar esta aplicación. Quienes lo usen hoy en día deben "
+"tener en cuenta que la aplicación esta en constante cambio. Con la llegada "
+"de la versión 1.0 Delta Chat estará lista para el mercado y se recomienda "
+"para _todos_."
 
 #: ../en/contribute.md:52
 msgid "# Bug Reports"
-msgstr ""
+msgstr "# Reportes de Error"
 
 #: ../en/contribute.md:54
 msgid "Use the following **Issue Trackers** to report bugs."
