@@ -1,6 +1,6 @@
 ---
-title: Help
-layout: default-en
+title: Pomoc
+layout: default-pl
 ---
 
 
@@ -9,21 +9,21 @@ layout: default-en
 
 
 
-# Frequently Asked Questions
+# Często Zadawane Pytania
 
-- [General](#general)
-- [Groups](#groups)
-- [Encryption](#encryption)
-- [Multi-client](#multiclient)
-- [Miscellaneous](#miscellaneous)
+- [Główne](#general)
+- [Grupy](#groups)
+- [Szyfrowanie](#encryption)
+- [Multi-klient](#multiclient)
+- [Różne](#miscellaneous)
 
-# General
+# Główne
 
-## To whom can I write?
+## Do kogo mogę pisać?
 
-- With Delta Chat, you can write to every existing e-mail address - even if the recipient is not (yet) using the Delta Chat App. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
+- Dzięki Delta Chat możesz pisać na każdy istniejący adres e-mail - nawet jeśli odbiorca nie korzysta (jeszcze) z aplikacji Delta Chat. Jest to jedna z największych różnic w stosunku do innych komunikatorów: Nie ma potrzeby, aby odbiorca instalował tę samą aplikację, co ty.
 
-## What are the advantages of Delta Chat compared to other messengers?
+## Jakie są zalety Delta Chat w porównaniu z innymi komunikatorami?
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protect your metadata (who writes to whom?)
@@ -60,13 +60,13 @@ Other messages do not appear automatically. You can see the other messages in th
 
 ## Does Delta Chat support images, videos and other attachments?
 
-- Yes. Beside the plain text, all email-attachments are displayed as separate messages. Outgoing messages will get attachments as needed automatically.
+- Tak. Beside the plain text, all email-attachments are displayed as separate messages. Outgoing messages will get attachments as needed automatically.
 
 ## Does Delta Chat support HTML-emails?
 
-- Yes. If incoming email lacks a plain text part, we convert HTML-emails to plain text ourselves. Outgoing emails always use plain text.
+- Tak. If incoming email lacks a plain text part, we convert HTML-emails to plain text ourselves. Outgoing emails always use plain text.
 
-# Groups
+# Grupy
 
 ## How can I create a group?
 
@@ -88,15 +88,15 @@ Other messages do not appear automatically. You can see the other messages in th
 - Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.
 - As an alternative, you can also "Mute" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages.
 
-# Encryption {#encryption}
+# Szyfrowanie {#encryption}
 
 ## Does Delta Chat have an end-to-end-encryption?
 
-- Yes.
+- Tak.
 
 ## What do I have to do to activate the end-to-end-encryption?
 
-- Nothing.
+- Nic.
 
 - Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If, one of the chat partners use an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
 
@@ -127,11 +127,11 @@ The user's profile shows some additional information:
 
 ## Can I re-use by existing private key?
 
-- Yes. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+- Tak. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
 
 If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you have to do nothing.
 
-# Multi-client {#multiclient}
+# Multi-klient {#multiclient}
 
 ## Can I use Delta Chat on multiple devices the same time?
 
@@ -146,7 +146,7 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 - NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. We can improve this, but we would need more [support](contribute) on this issue.
 
 
-# Miscellaneous
+# Różne
 
 ## Delta Chat on Linux Desktop
 

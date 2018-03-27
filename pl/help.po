@@ -6,6 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-26 21:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Telegram Polska <sebek@life.pl>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,10 +22,14 @@ msgid ""
 "layout: default-en\n"
 "---"
 msgstr ""
+"---\n"
+"title: Pomoc\n"
+"layout: default-pl\n"
+"---"
 
 #: ../en/help.md:6
 msgid "# Frequently Asked Questions"
-msgstr ""
+msgstr "# Często Zadawane Pytania"
 
 #: ../en/help.md:8
 msgid ""
@@ -34,14 +39,19 @@ msgid ""
 "- [Multi-client](#multiclient)\n"
 "- [Miscellaneous](#miscellaneous)"
 msgstr ""
+"- [Główne](#general)\n"
+"- [Grupy](#groups)\n"
+"- [Szyfrowanie](#encryption)\n"
+"- [Multi-klient](#multiclient)\n"
+"- [Różne](#miscellaneous)"
 
 #: ../en/help.md:14
 msgid "# General"
-msgstr ""
+msgstr "# Główne"
 
 #: ../en/help.md:16
 msgid "## To whom can I write?"
-msgstr ""
+msgstr "## Do kogo mogę pisać?"
 
 #: ../en/help.md:18
 msgid ""
@@ -50,10 +60,14 @@ msgid ""
 "biggest differences to other messengers: There is no need for the receiver "
 "to install the same app as yours."
 msgstr ""
+"- Dzięki Delta Chat możesz pisać na każdy istniejący adres e-mail - nawet "
+"jeśli odbiorca nie korzysta (jeszcze) z aplikacji Delta Chat. Jest to jedna "
+"z największych różnic w stosunku do innych komunikatorów: Nie ma potrzeby, "
+"aby odbiorca instalował tę samą aplikację, co ty."
 
 #: ../en/help.md:20
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
-msgstr ""
+msgstr "## Jakie są zalety Delta Chat w porównaniu z innymi komunikatorami?"
 
 #: ../en/help.md:22
 msgid ""
@@ -137,7 +151,7 @@ msgstr ""
 
 #: ../en/help.md:63
 msgid "# Groups"
-msgstr ""
+msgstr "# Grupy"
 
 #: ../en/help.md:65
 msgid "## How can I create a group?"
@@ -183,7 +197,7 @@ msgstr ""
 
 #: ../en/help.md:85
 msgid "# Encryption {#encryption}"
-msgstr ""
+msgstr "# Szyfrowanie {#encryption}"
 
 #: ../en/help.md:87
 msgid "## Does Delta Chat have an end-to-end-encryption?"
@@ -191,7 +205,7 @@ msgstr ""
 
 #: ../en/help.md:89
 msgid "- Yes."
-msgstr ""
+msgstr "- Tak."
 
 #: ../en/help.md:91
 msgid "## What do I have to do to activate the end-to-end-encryption?"
@@ -199,7 +213,7 @@ msgstr ""
 
 #: ../en/help.md:93
 msgid "- Nothing."
-msgstr ""
+msgstr "- Nic."
 
 #: ../en/help.md:95
 msgid ""
@@ -278,7 +292,7 @@ msgstr ""
 
 #: ../en/help.md:128
 msgid "# Multi-client {#multiclient}"
-msgstr ""
+msgstr "# Multi-klient {#multiclient}"
 
 #: ../en/help.md:130
 msgid "## Can I use Delta Chat on multiple devices the same time?"
@@ -312,7 +326,7 @@ msgstr ""
 
 #: ../en/help.md:143
 msgid "# Miscellaneous"
-msgstr ""
+msgstr "# Różne"
 
 #: ../en/help.md:145
 msgid "## Delta Chat on Linux Desktop"

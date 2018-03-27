@@ -60,6 +60,10 @@ msgid ""
 "biggest differences to other messengers: There is no need for the receiver "
 "to install the same app as yours."
 msgstr ""
+"- Med Delta CHat, kan du skrive til enhver eksisterende e-postadresse - som "
+"om mottakeren ikke (enda) bruker Delta Chat-programmet. Dette er én av de "
+"største forskjellene til andre meldingsprogrammer: Mottakeren trenger ikke å"
+" installere samme program som deg."
 
 #: ../en/help.md:20
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
@@ -85,13 +89,15 @@ msgstr ""
 
 #: ../en/help.md:35
 msgid "## What if the receiver does not use Delta Chat?"
-msgstr ""
+msgstr "## Hva om mottakeren ikke bruker Delta Chat?"
 
 #: ../en/help.md:37
 msgid ""
 "- The receiver will get a normal email then - if he replies to it, you will "
 "see the reply in the Delta Chat app."
 msgstr ""
+"- Mottakeren vil da få en vanlig e-post - hvis vedkommende svarer på den, "
+"vil du se svaret i Delta Chat programmet."
 
 #: ../en/help.md:39
 msgid "## Which messages do appear in Delta Chat?"
@@ -130,6 +136,9 @@ msgid ""
 "- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.\n"
 "- However, if really needed, you can **block** any contact."
 msgstr ""
+"- Meldinger i vanlige søppelpost-mapper ignoreres og inneholdende adresser blir ikke antatt å være kjente kontakter.\n"
+"- Siden meldinger fra ukjente kontakter ikke spretter opp automatisk, er det vanligvis **fritt for søppel**.\n"
+"- Dog kan du hvis du virkelig ønsker det **blokkere** enhver kontakt."
 
 #: ../en/help.md:55
 msgid "## Does Delta Chat support images, videos and other attachments?"
@@ -179,7 +188,7 @@ msgstr ""
 
 #: ../en/help.md:76
 msgid "## I have deleted myself by accident."
-msgstr ""
+msgstr "## Jeg har slettet meg selv ved en feiltagelse."
 
 #: ../en/help.md:78
 msgid ""
@@ -307,6 +316,8 @@ msgid ""
 "- If you want to use the **same account** on different devices, you have to "
 "make sure, all devices use the same keys for encryption:"
 msgstr ""
+"- Hvis du ønsker å bruke **samme konto** på flere enheter, må du forsikre "
+"deg om at alle enheter bruke samme krypteringsnøkler:"
 
 #: ../en/help.md:134
 msgid ""

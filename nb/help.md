@@ -21,7 +21,7 @@ layout: default-nb
 
 ## Hvem kan jeg skrive til?
 
-- With Delta Chat, you can write to every existing e-mail address - even if the recipient is not (yet) using the Delta Chat App. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
+- Med Delta CHat, kan du skrive til enhver eksisterende e-postadresse - som om mottakeren ikke (enda) bruker Delta Chat-programmet. Dette er én av de største forskjellene til andre meldingsprogrammer: Mottakeren trenger ikke å installere samme program som deg.
 
 ## Hva er fordelene med Delta Chat i sammenligning med andre meldingsforsendelsessystemer?
 
@@ -38,9 +38,9 @@ layout: default-nb
 - _Trustworthy_ - can even be used for business messages
 - fully _Open Source_ and _Standards_ based
 
-## What if the receiver does not use Delta Chat?
+## Hva om mottakeren ikke bruker Delta Chat?
 
-- The receiver will get a normal email then - if he replies to it, you will see the reply in the Delta Chat app.
+- Mottakeren vil da få en vanlig e-post - hvis vedkommende svarer på den, vil du se svaret i Delta Chat programmet.
 
 ## Hvilke meldinger vises i Delta Chat?
 
@@ -54,9 +54,9 @@ Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i **Kontaktfo
 
 ## Hva med spam?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
-- However, if really needed, you can **block** any contact.
+- Meldinger i vanlige søppelpost-mapper ignoreres og inneholdende adresser blir ikke antatt å være kjente kontakter.
+- Siden meldinger fra ukjente kontakter ikke spretter opp automatisk, er det vanligvis **fritt for søppel**.
+- Dog kan du hvis du virkelig ønsker det **blokkere** enhver kontakt.
 
 ## Støtter Delta Chat bilder, videoer og andre vedlegg?
 
@@ -79,7 +79,7 @@ Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i **Kontaktfo
 - Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
 - To add or delete members, click on the group name in the chat.
 
-## I have deleted myself by accident.
+## Jeg har slettet meg selv ved en feiltagelse.
 
 - As you're no longer a group member now, you cannot add yourself again. However, no problem, just ask any other group member in a normal chat to add you again.
 
@@ -135,7 +135,7 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 ## Can I use Delta Chat on multiple devices the same time?
 
-- If you want to use the **same account** on different devices, you have to make sure, all devices use the same keys for encryption:
+- Hvis du ønsker å bruke **samme konto** på flere enheter, må du forsikre deg om at alle enheter bruke samme krypteringsnøkler:
 
   - On the first device, choose "Advanced settings / Manage private keys / Export key to Downloads"
   - Via USB, copy the key file from the "Downloads" directory of the first device to the second one.

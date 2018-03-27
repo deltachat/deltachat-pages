@@ -38,6 +38,10 @@ msgid ""
 "Friedrich-Ebert-Str. 1 B  \n"
 "25348 Glückstadt, Germany"
 msgstr ""
+"Delta Chat  \n"
+"c/o Björn Petersen  \n"
+"Friedrich-Ebert-Str. 1 B  \n"
+"25348 Glückstadt, Germany"
 
 #: ../en/imprint.md:13
 msgid ""
@@ -45,13 +49,18 @@ msgid ""
 "Phone: +49 4124 603889  \n"
 "USt-IdNr. DE214707533"
 msgstr ""
+"E-mail: {% include email-link %}  \n"
+"Telefon: +49 4124 603889  \n"
+"USt-IdNr. DE214707533"
 
 #: ../en/imprint.md:17
 msgid "[Community channels](contribute)"
-msgstr ""
+msgstr "[Kanały społecznościowe](contribute)"
 
 #: ../en/imprint.md:19
 msgid ""
 "The mailing list server is operated through "
 "<https://github.com/codespeaknet/sysadmin>."
 msgstr ""
+"Serwer list dyskusyjnych obsługiwany jest przez "
+"<https://github.com/codespeaknet/sysadmin>."

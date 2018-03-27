@@ -25,14 +25,14 @@ Hvis du ønsker å snakke med oss kan du:
 
 # Doner
 
-Delta Chat development costs **money**. Your donation will support future improvements directly.
+Utviklingen av Delta Chat koster **penger**. Din donasjon støtter videre forbedring direkte.
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- PayPal eller betalingskort: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoin til [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?
-[We](imprint)'d love to take it!
+Vi trenger **enheter** i testøyemed. Har du en iPhone eller Android-telefon du ikke bruker?
+[Vi](imprint) tar imot med åpne armer!
 
 # Oversettelse
 
@@ -45,10 +45,10 @@ Vi søker også noen som kan vedlikeholde Transifex-siden og kontakten med overs
 
 # Utvikling
 
-We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.
-Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request.
+Vi leter etter friprog-utviklere som kjenner C, Java, Android, iOS, Windows, Linux|GNU eller Mac.
+Ta grep om din egen [Delta Chat](https://github.com/deltachat/) forgrening, og send inn en innlemmingsforespørsel.
 
-The same applies for **this webpage** - no matter if you have bigger or smaller improvements: Easily edit this page [here](https://github.com/deltachat/deltachat-pages) and send us a pull request.
+Det samme er å anse for **denne nettsiden** - Uansett om du har små eller store forbedringer: Rediger denne siden [her](https://github.com/deltachat/deltachat-pages) og send innlemmingsforespørsel.
 
 # Anbefaling
 

@@ -33,4 +33,4 @@ Gjør bruk av mange funksjoner og fordeler:
 - Dynamic: Delta Chat offers **group chats**
 
 
-Further reasons and motivations may be found in the blog post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
+Ytterligere grunnlag og motivasjon er å finne i denne bloggposten [Delta Chat gjør sludring bedre](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
