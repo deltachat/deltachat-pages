@@ -63,6 +63,9 @@ msgid ""
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
 "* [View Changelog]({% include changelog-url %})"
 msgstr ""
+"* [Last ned fra F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
+"* [Last ned APK](https://github.com/deltachat/deltachat-android/releases) (kun for erfarne brukere)\n"
+"* [Vis endringslogg]({% include changelog-url %})"
 
 #: ../en/download.md:25
 msgid "## Apple"
@@ -85,6 +88,8 @@ msgid ""
 "Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.\n"
 "Further details are provided in our [FAQ](help#multiclient) page."
 msgstr ""
+"Delta Chat for Linux|GNU er ikke tilgjengelig enda. Dog er det mulig å kjøre Android programmet i [Anbox](https://anbox.io) (Android i en boks) på skrivebordet ditt.\n"
+"Ytterlige detaljer er å finne på vår [O-S-S](help#multiclient)-side."
 
 #: ../en/download.md:34
 msgid "## Windows"

@@ -14,12 +14,12 @@ layout: default-nb
 Delta Chat  
 c/o Björn Petersen  
 Friedrich-Ebert-Str. 1 B  
-25348 Glückstadt, Germany
+25348 Glückstadt, Tyskland
 
-E-mail: {% include email-link %}  
-Phone: +49 4124 603889  
+E-post: {% include email-link %}  
+Telefon: +49 4124 603889  
 USt-IdNr. DE214707533
 
-[Community channels](contribute)
+[Gemenskapskanaler](contribute)
 
-The mailing list server is operated through <https://github.com/codespeaknet/sysadmin>.
+E-postlisten blir traktert med <https://github.com/codespeaknet/sysadmin>.
