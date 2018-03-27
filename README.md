@@ -47,6 +47,10 @@ Useful links
 - Live page: https://delta.chat (thanks to Netlify for supporting Open Source)
 - Testing forks will be available at `https://<your-username>.github.io/deltachat-pages/` if you enable Github pages
 
----
+
+License
+--------------------------------------------------------------------------------
+
+Licensed under the GPLv3, see LICENSE file for details
 
 Copyright © 2017, 2018 Delta Chat contributors
