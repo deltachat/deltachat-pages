@@ -44,7 +44,7 @@ layout: default-pl
 
 ## Jakie wiadomości pojawiają się w Delta Chat?
 
-Delta Chat automatycznie pokazuje
+Delta Chat automatycznie pokazuje:
 
 - Wiadomości od kontaktów z **książki adresowej**
 - Wiadomości od kontaktów, z którymi **się kontaktujesz**
@@ -60,7 +60,7 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 
 ## Czy Delta Chat obsługuje obrazy, filmy i inne załączniki?
 
-- Tak. Oprócz zwykłego tekstu, wszystkie załączniki wiadomości e-mail są wyświetlane jako oddzielne wiadomości. Wiadomości wychodzące będą automatycznie pobierać załączniki.
+- Tak. Oprócz zwykłego tekstu wszystkie załączniki wiadomości e-mail są wyświetlane jako oddzielne wiadomości. Wiadomości wychodzące będą automatycznie pobierać załączniki.
 
 ## Czy Delta Chat obsługuje wiadomości e-mail w formacie HTML?
 
@@ -86,7 +86,7 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 ## Nie chcę już otrzymywać wiadomości od grupy.
 
 - Usuń siebie z listy członków lub usuń cały czat. Jeśli później będziesz chciał ponownie dołączyć do grupy, poproś innego członka grupy, aby dodał cię do grupy.
-- Alternatywnie możesz też "Wyłączyć powiadomienia" dla grupy - dzięki temu otrzymasz wszystkie wiadomości i nadal będziesz mógł pisać, ale nie będziesz już otrzymywać powiadomień o nowych wiadomościach.
+- Alternatywnie możesz też „Wyłączyć powiadomienia” dla grupy - dzięki temu otrzymasz wszystkie wiadomości i nadal będziesz mógł pisać, ale nie będziesz już otrzymywać powiadomień o nowych wiadomościach.
 
 # Szyfrowanie {#encryption}
 
@@ -98,11 +98,11 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 
 - Nic.
 
-- Gdy wysyłane są pierwsze wiadomości Delta Chat (i inne programy pocztowe kompatybilne z [Autocrypt](https://autocrypt.org)-compatible email-programs) automatycznie udostępniają klucze wymagane do automatycznego szyfrowania end-to-end. Następnie wszystkie kolejne wiadomości są automatycznie szyfrowane end-to-end. Jeśli jeden z partnerów czatu użyje później aplikacji, która nie może korzystać z szyfrowania typu end-to-end, zostanie ona na ten czas wstrzymana i automatycznie ponownie aktywowana tak szybko, jak to będzie możliwe.
+- Gdy wysyłane są pierwsze wiadomości Delta Chat (i inne programy pocztowe kompatybilne z [Autocrypt](https://autocrypt.org) - Test It!) automatycznie udostępniają klucze wymagane do automatycznego szyfrowania end-to-end. Następnie wszystkie kolejne wiadomości są automatycznie szyfrowane end-to-end. Jeśli jeden z partnerów czatu użyje później aplikacji, która nie może korzystać z szyfrowania typu end-to-end, zostanie ona na ten czas wstrzymana i automatycznie ponownie aktywowana tak szybko, jak to będzie możliwe.
 
-- Jeśli chcesz _dezaktywować_ szyfrowanie end-to-end, użyj odpowiedniego ustawienia w "Ustawienia  Ustawienia zaawansowane".
+- Jeśli chcesz _dezaktywować_ szyfrowanie end-to-end, użyj odpowiedniego ustawienia w „Ustawienia » Ustawienia zaawansowane”.
 
-## Czy połączenie nie jest w ogóle szyfrowane jeśli szyfrowanie end-to-end nie jest dostępne?
+## Czy połączenie nie jest w ogóle szyfrowane, jeśli szyfrowanie end-to-end nie jest dostępne?
 
 - Nie. Używa się wtedy zwykłego standardowego _szyfrowania transportu_ poczty e-mail.
 
@@ -110,14 +110,14 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 ## Jak mogę sprawdzić szyfrowanie?
 
 - Jeśli obok wiadomości pojawi się mała **kłódka**, oznacza to, że wiadomość jest szyfrowana metodą end-to-end _i_ jest wysłana od danego nadawcy _i_ twoja odpowiedź będzie również szyfrowana metodą end-to-end.
-- Jeśli **nie ma kłódki**, wiadomość używa zwykłego szyfrowania transportu, np. ponieważ ty lub nadawca wyłączyliście szyfrowanie metodą end-to-end lub gdy nadawca używa aplikacji, która nie obsługuje szyfrowania metodą end-to-end.
+- Jeśli **nie ma kłódki**, wiadomość używa zwykłego szyfrowania transportu, np. ponieważ ty lub nadawca wyłączyliście szyfrowanie metodą end-to-end, lub gdy nadawca używa aplikacji, która nie obsługuje szyfrowania metodą end-to-end.
 
 
 ## Jak mogę zweryfikować nadawcę?
 
 Profil użytkownika zawiera dodatkowe informacje:
 
-- W przypadku szyfrowania metodą end-to-end, Delta Chat pokazuje tam dwa odciski palców. Jeśli są takie same na urządzeniu twojego partnera czatu, połączenie jest bezpieczne.
+- W przypadku szyfrowania metodą end-to-end Delta Chat pokazuje tam dwa odciski palców. Jeśli są takie same na urządzeniu twojego partnera czatu, połączenie jest bezpieczne
 - W przypadku szyfrowania transportu ten stan jest właśnie tam wyświetlany
 
 
@@ -137,9 +137,9 @@ Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz - nie przejmuj s
 
 - Jeśli chcesz używać tego samego konta na różnych urządzeniach, upewnij się, że wszystkie urządzenia używają tych samych kluczy do szyfrowania:
 
-- Na pierwszym urządzeniu wybierz "Ustawienia zaawansowane » Zarządzaj prywatnymi kluczami » Eksportuj prywatne klucze"
-- Np. przez USB, skopiuj plik klucza z katalogu "Pobrane" pierwszego urządzenia do drugiego.
-- Na drugim urządzeniu "Ustawienia zaawansowane / Zarządzaj prywatnymi kluczami » Importuj prywatne klucze" 
+- Na pierwszym urządzeniu wybierz „Ustawienia zaawansowane » Zarządzaj prywatnymi kluczami » Eksportuj prywatne klucze”
+- Np. przez USB, skopiuj plik klucza z katalogu „Pobrane” pierwszego urządzenia do drugiego.
+- Na drugim urządzeniu „Ustawienia zaawansowane » Zarządzaj prywatnymi kluczami » Importuj prywatne klucze”
 
 - Wszystko to, nie jest potrzebne do standardowego korzystania z Delta Chat przy użyciu tylko jednego urządzenia.
 
@@ -160,14 +160,14 @@ Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz - nie przejmuj s
 
 adb to Android Debug Bridge i można go zainstalować z repozytorium.
 
-- Zamiast instalować Delta Chat bezpośrednio przez plik APK, możesz najpierw zainstalować sklep F-Droid przez[F-Droid-APK](https://f-droid.org/FDroid.apk), a następnie zainstalować Delta Chat przy użyciu sklepu. Ogromną korzyścią są informacje o aktualizacjach i migracji istniejących danych konfiguracyjnych i czatów.
+- Zamiast instalować Delta Chat bezpośrednio przez plik APK, możesz najpierw zainstalować sklep F-Droid przez [F-Droid-APK](https://f-droid.org/FDroid.apk), a następnie zainstalować Delta Chat przy użyciu sklepu. Ogromną korzyścią są informacje o aktualizacjach i migracji istniejących danych konfiguracyjnych i czatów.
 
 
 ## Problemy z logowaniem
 
 Mam problem z
 
-- Gmail: włącz "Zezwalaj na mniej bezpieczne aplikacje" i IMAP, możesz otrzymać wiadomość e-mail, aby udzielić pozwolenia
+- Gmail: włącz „Zezwalaj na mniej bezpieczne aplikacje” i IMAP, możesz otrzymać wiadomość e-mail, aby udzielić pozwolenia
 
 ## Interesują mnie szczegóły techniczne. Możesz powiedzieć mi więcej?
 

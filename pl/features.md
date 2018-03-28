@@ -33,4 +33,4 @@ Wykorzystaj liczne funkcje i zalety:
 - Dynamiczny: Delta Chat oferuje **czaty grupowe**
 
 
-Dalsze powody i motywacje można znaleźć w poście na blogu [Delta sprawia, że czat jest lepszy](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
+Dalsze powody i motywacje można znaleźć w poście na blogu, [Delta sprawia, że czat jest lepszy](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
