@@ -18,7 +18,7 @@ Delta Chat jest otwarto-źródłowy i bezpłatny. Możesz przyczynić się do je
 
 Jeśli chcesz porozmawiać z nami, możesz:
 
-- dołączyć do listy mailingowej aby porozmawiać o społeczności [Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
+- dołączyć do listy mailingowej, aby porozmawiać o społeczności [Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
 - współpracować za pośrednictwem [repozytoriów Github Delta Chat](https://github.com/deltachat/)
 - dołączyć do kanału IRC **#deltachat** na [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
@@ -55,7 +55,7 @@ Obecnie Delta Chat jest nadal w fazie beta i nie jest odpowiedni dla początkuj�
 
 # Zgłaszanie błędów
 
-Aby zgłosić błędy użyj następujących modułów do **śledzenia problemów**.
+Aby zgłosić błędy, użyj następujących modułów do **śledzenia problemów**.
 
 - [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)

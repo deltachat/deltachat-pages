@@ -53,7 +53,7 @@ msgid ""
 "- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)\n"
 "- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)"
 msgstr ""
-"- dołączyć do listy mailingowej aby porozmawiać o społeczności [Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)\n"
+"- dołączyć do listy mailingowej, aby porozmawiać o społeczności [Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)\n"
 "- współpracować za pośrednictwem [repozytoriów Github Delta Chat](https://github.com/deltachat/)\n"
 "- dołączyć do kanału IRC **#deltachat** na [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)"
 
@@ -157,7 +157,7 @@ msgstr "# Zgłaszanie błędów"
 #: ../en/contribute.md:54
 msgid "Use the following **Issue Trackers** to report bugs."
 msgstr ""
-"Aby zgłosić błędy użyj następujących modułów do **śledzenia problemów**."
+"Aby zgłosić błędy, użyj następujących modułów do **śledzenia problemów**."
 
 #: ../en/contribute.md:56
 msgid ""
