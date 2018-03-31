@@ -148,7 +148,7 @@ msgid ""
 "- However, if really needed, you can **block** any contact."
 msgstr ""
 "- Wiadomości w popularnych folderach ze spamem są ignorowane, a zawarte adresy nie są uznawane za znane kontakty.\n"
-"- Ponieważ wiadomości z nieznanych kontaktów nie pojawiają się automatycznie, zwykle **nie ma spamu **.\n"
+"- Ponieważ wiadomości z nieznanych kontaktów nie pojawiają się automatycznie, zwykle **nie ma spamu**.\n"
 "- Jednakże, jeśli naprawdę potrzebujesz, możesz **zablokować** dowolny kontakt. "
 
 #: ../en/help.md:55
