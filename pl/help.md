@@ -55,7 +55,7 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 ## A co ze spamem?
 
 - Wiadomości w popularnych folderach ze spamem są ignorowane, a zawarte adresy nie są uznawane za znane kontakty.
-- Ponieważ wiadomości z nieznanych kontaktów nie pojawiają się automatycznie, zwykle **nie ma spamu **.
+- Ponieważ wiadomości z nieznanych kontaktów nie pojawiają się automatycznie, zwykle **nie ma spamu**.
 - Jednakże, jeśli naprawdę potrzebujesz, możesz **zablokować** dowolny kontakt. 
 
 ## Czy Delta Chat obsługuje obrazy, filmy i inne załączniki?
