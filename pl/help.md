@@ -127,7 +127,7 @@ Profil użytkownika zawiera dodatkowe informacje:
 
 ## Czy mogę ponownie wykorzystać istniejący klucz prywatny?
 
-- Tak. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+- Tak. Zaimportujesz go w „Ustawienia zaawansowane » Zarządzaj prywatnymi kluczami”. Uwaga: Upewnij się, że klucz nie jest chroniony hasłem ani nie usunąłeś go wcześniej.
 
 Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz - nie przejmuj się: Delta Chat generuje go w razie potrzeby, nie musisz nic robić.
 
