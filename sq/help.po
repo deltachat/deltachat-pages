@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-26 21:10+0200\n"
+"POT-Creation-Date: 2018-04-02 14:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>, 2018\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
@@ -337,14 +337,19 @@ msgstr "## A mund të ripërdor kyç ekzistues privat?"
 
 #: ../en/help.md:124
 msgid ""
-"- Yes. Importing it at \"Advanced settings / Manage private keys\". Caution:"
-" Make sure, they key is not protected by a password or remove it before."
+"- Yes. The best way is to send an Autocrypt Setup Message from the other "
+"e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
+"settings of the other client and follow the instructions shown there."
 msgstr ""
-"- Po. Duke e importuar atë që nga \"Rregullime të mëtejshme / Administroni "
-"kyçe privatë\". Kujdes: Sigurohuni që kyçi s’është i mbrojtur me fjalëkalim,"
-" ose hiqjani, po qe."
 
 #: ../en/help.md:126
+msgid ""
+"- Alternatively, you can import the key manually at \"Advanced settings / "
+"Manage private keys\". Caution: Make sure, the key is not protected by a "
+"password or remove it before."
+msgstr ""
+
+#: ../en/help.md:128
 msgid ""
 "If you don't have a key or don't even know you would need one - don't worry:"
 " Delta Chat generates one as needed, you have to do nothing."
@@ -353,17 +358,17 @@ msgstr ""
 " merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të "
 "bërë."
 
-#: ../en/help.md:128
+#: ../en/help.md:130
 msgid "# Multi-client {#multiclient}"
 msgstr "# Multi-klient {#multiclient}"
 
-#: ../en/help.md:130
+#: ../en/help.md:132
 msgid "## Can I use Delta Chat on multiple devices the same time?"
 msgstr ""
 "## A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën "
 "kohë?"
 
-#: ../en/help.md:132
+#: ../en/help.md:134
 msgid ""
 "- If you want to use the **same account** on different devices, you have to "
 "make sure, all devices use the same keys for encryption:"
@@ -372,7 +377,7 @@ msgstr ""
 "duhet të sigurohuni se krejt pajisjet përdorin për fshehtëzim të njëjtët "
 "kyçe:"
 
-#: ../en/help.md:134
+#: ../en/help.md:136
 msgid ""
 "  - On the first device, choose \"Advanced settings / Manage private keys / Export key to Downloads\"\n"
 "  - Via USB, copy the key file from the \"Downloads\" directory of the first device to the second one.\n"
@@ -382,7 +387,7 @@ msgstr ""
 "  - Përmes një diskthi USB, kopjojeni kartelën e kyçit nga drejtoria \"Shkarkime\" e pajisjes së parë te ajo e së dytës.\n"
 "  - Te pajisja e dytë zgjidhni, \"Rregullime të mëtejshme / Administroni kyçe privatë / Importoni kyç nga Shkarkimet\""
 
-#: ../en/help.md:138
+#: ../en/help.md:140
 msgid ""
 "- All this is **not needed** for the standard usage of Delta Chat using just"
 " one device."
@@ -390,7 +395,7 @@ msgstr ""
 "- Krejt kjo **s’është e nevojshme** për përdorim standard të Delta Chat-it "
 "kur përdoret thjesht një pajisje."
 
-#: ../en/help.md:140
+#: ../en/help.md:142
 msgid ""
 "- NB: In multi-client mode, _incoming_ messages are shown at once on all "
 "clients. _Outgoing_ messages are synced about two times an hour. We can "
@@ -401,15 +406,15 @@ msgstr ""
 "përmirësojmë këtë, por do të na duhej më tepër [përkrahje](contribute) mbi "
 "këtë çështje."
 
-#: ../en/help.md:143
+#: ../en/help.md:145
 msgid "# Miscellaneous"
 msgstr "# Të ndryshme"
 
-#: ../en/help.md:145
+#: ../en/help.md:147
 msgid "## Delta Chat on Linux Desktop"
 msgstr "## Delta Chat në Linux Desktop"
 
-#: ../en/help.md:147
+#: ../en/help.md:149
 msgid ""
 "- You can run Delta Chat on Ubuntu Linux desktop (or other linux "
 "distributions supporting the **snap**-package format) by simply installing "
@@ -420,11 +425,11 @@ msgstr ""
 "thjesht duke instaluar [Anbox](https://anbox.io) (Android in a Box) që nga "
 "terminali:"
 
-#: ../en/help.md:149
+#: ../en/help.md:151
 msgid "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
 msgstr "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
 
-#: ../en/help.md:151
+#: ../en/help.md:153
 msgid ""
 "- To add the Delta Chat application, download the "
 "*com.b44t.messenger_\\<version\\>.apk* file from [this](download) page and "
@@ -434,17 +439,17 @@ msgstr ""
 "*com.b44t.messenger_\\<version\\>.apk* që nga [kjo](download) faqe dhe "
 "instalojeni që nga terminali:"
 
-#: ../en/help.md:153
+#: ../en/help.md:155
 msgid "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
 msgstr "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
 
-#: ../en/help.md:155
+#: ../en/help.md:157
 msgid ""
 "  adb is the Android Debug Bridge and can be installed from repository."
 msgstr ""
 "  adb është _Android Debug Bridge_ dhe mund të instalohet që nga depoja."
 
-#: ../en/help.md:157
+#: ../en/help.md:159
 msgid ""
 "- Instead of installing Delta Chat directly via APK file, you can first "
 "install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) "
@@ -458,15 +463,15 @@ msgstr ""
 "duke përdorur këtë dyqan. Përfitimi në këtë rast janë të dhënat mbi "
 "përditësime dhe migrimi i formësimit dhe të dhënave mbi biseda ekzistuese."
 
-#: ../en/help.md:160
+#: ../en/help.md:162
 msgid "## Login Issues"
 msgstr "## Probleme Hyrjeje"
 
-#: ../en/help.md:162
+#: ../en/help.md:164
 msgid "I have a problem with ..."
 msgstr "Kam problem me …"
 
-#: ../en/help.md:164
+#: ../en/help.md:166
 msgid ""
 "- Gmail: Enable \"Support less secure apps\" and IMAP, you may receive a "
 "mail to grant permission"
@@ -474,12 +479,12 @@ msgstr ""
 "- Gmail: Aktivizoni \"Support less secure apps\" dhe IMAP, mund të merrni "
 "një email për akordim lejesh"
 
-#: ../en/help.md:166
+#: ../en/help.md:168
 msgid "## I'm interested in the technical details. Can you tell me more?"
 msgstr ""
 "## Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?"
 
-#: ../en/help.md:168
+#: ../en/help.md:170
 msgid ""
 "- See page [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""

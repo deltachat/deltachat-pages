@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-26 21:10+0200\n"
+"POT-Creation-Date: 2018-04-02 14:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
@@ -325,14 +325,19 @@ msgstr "## Можно ли использовать существующий з�
 
 #: ../en/help.md:124
 msgid ""
-"- Yes. Importing it at \"Advanced settings / Manage private keys\". Caution:"
-" Make sure, they key is not protected by a password or remove it before."
+"- Yes. The best way is to send an Autocrypt Setup Message from the other "
+"e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
+"settings of the other client and follow the instructions shown there."
 msgstr ""
-"- Да. Импортируйте его в разделе \"Дополнительные настройки / Управление "
-"закрытыми ключами\". Внимание: убедитесь, что ключ не защищён паролем или "
-"удалите его перед этим."
 
 #: ../en/help.md:126
+msgid ""
+"- Alternatively, you can import the key manually at \"Advanced settings / "
+"Manage private keys\". Caution: Make sure, the key is not protected by a "
+"password or remove it before."
+msgstr ""
+
+#: ../en/help.md:128
 msgid ""
 "If you don't have a key or don't even know you would need one - don't worry:"
 " Delta Chat generates one as needed, you have to do nothing."
@@ -341,16 +346,16 @@ msgstr ""
 "волнуйтесь: Delta Chat сгенерирует его при необходимости, вы не должны "
 "ничего делать."
 
-#: ../en/help.md:128
+#: ../en/help.md:130
 msgid "# Multi-client {#multiclient}"
 msgstr "# Мульти-клиент {#multiclient}"
 
-#: ../en/help.md:130
+#: ../en/help.md:132
 msgid "## Can I use Delta Chat on multiple devices the same time?"
 msgstr ""
 "## Могу ли я использовать Delta Chat на нескольких устройствах одновременно?"
 
-#: ../en/help.md:132
+#: ../en/help.md:134
 msgid ""
 "- If you want to use the **same account** on different devices, you have to "
 "make sure, all devices use the same keys for encryption:"
@@ -359,7 +364,7 @@ msgstr ""
 "устройствах, вы должны убедиться, что все устройства используют одни и те же"
 " ключи шифрования:"
 
-#: ../en/help.md:134
+#: ../en/help.md:136
 msgid ""
 "  - On the first device, choose \"Advanced settings / Manage private keys / Export key to Downloads\"\n"
 "  - Via USB, copy the key file from the \"Downloads\" directory of the first device to the second one.\n"
@@ -369,7 +374,7 @@ msgstr ""
 " - Через USB скопируйте файл ключа из каталога \"Загрузки\" первого устройства на второе.\n"
 " - На втором устройстве выберите \"Дополнительные настройки / Управление закрытыми ключами / Импорт ключа\""
 
-#: ../en/help.md:138
+#: ../en/help.md:140
 msgid ""
 "- All this is **not needed** for the standard usage of Delta Chat using just"
 " one device."
@@ -377,7 +382,7 @@ msgstr ""
 "- Всё это **не требуется** для стандартного использования Delta Chat с "
 "помощью только одного устройства."
 
-#: ../en/help.md:140
+#: ../en/help.md:142
 msgid ""
 "- NB: In multi-client mode, _incoming_ messages are shown at once on all "
 "clients. _Outgoing_ messages are synced about two times an hour. We can "
@@ -388,15 +393,15 @@ msgstr ""
 "два раза в час. Возможно мы можем это улучшить, но нам требуется "
 "дополнительная поддержка по данному вопросу."
 
-#: ../en/help.md:143
+#: ../en/help.md:145
 msgid "# Miscellaneous"
 msgstr "# Прочее"
 
-#: ../en/help.md:145
+#: ../en/help.md:147
 msgid "## Delta Chat on Linux Desktop"
 msgstr "## Delta Chat на компьютере с GNU/Linux"
 
-#: ../en/help.md:147
+#: ../en/help.md:149
 msgid ""
 "- You can run Delta Chat on Ubuntu Linux desktop (or other linux "
 "distributions supporting the **snap**-package format) by simply installing "
@@ -406,11 +411,11 @@ msgstr ""
 "дистрибутиве GNU/Linux, поддерживающем формат пакетов snap) путём простой "
 "установки [Anbox](https://anbox.io) через терминал:"
 
-#: ../en/help.md:149
+#: ../en/help.md:151
 msgid "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
 msgstr ""
 
-#: ../en/help.md:151
+#: ../en/help.md:153
 msgid ""
 "- To add the Delta Chat application, download the "
 "*com.b44t.messenger_\\<version\\>.apk* file from [this](download) page and "
@@ -420,18 +425,18 @@ msgstr ""
 "*com.b44t.messenger_433.apk* с домашней страницы и установите через "
 "терминал:"
 
-#: ../en/help.md:153
+#: ../en/help.md:155
 msgid "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
 msgstr ""
 
-#: ../en/help.md:155
+#: ../en/help.md:157
 msgid ""
 "  adb is the Android Debug Bridge and can be installed from repository."
 msgstr ""
 "adb - это утилита Android Debug Bridge и она может быть установлена из "
 "репозитория"
 
-#: ../en/help.md:157
+#: ../en/help.md:159
 msgid ""
 "- Instead of installing Delta Chat directly via APK file, you can first "
 "install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) "
@@ -440,15 +445,15 @@ msgid ""
 "data."
 msgstr ""
 
-#: ../en/help.md:160
+#: ../en/help.md:162
 msgid "## Login Issues"
 msgstr "## Проблемы со входом"
 
-#: ../en/help.md:162
+#: ../en/help.md:164
 msgid "I have a problem with ..."
 msgstr "У меня проблема с ..."
 
-#: ../en/help.md:164
+#: ../en/help.md:166
 msgid ""
 "- Gmail: Enable \"Support less secure apps\" and IMAP, you may receive a "
 "mail to grant permission"
@@ -456,11 +461,11 @@ msgstr ""
 "- Gmail: Включите \"Поддержка менее безопасных приложений\" и IMAP (вы "
 "можете получить письмо, чтобы предоставить разрешение)"
 
-#: ../en/help.md:166
+#: ../en/help.md:168
 msgid "## I'm interested in the technical details. Can you tell me more?"
 msgstr "## Меня интересуют технические детали. Можете рассказать больше?"
 
-#: ../en/help.md:168
+#: ../en/help.md:170
 msgid ""
 "- See page [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""
