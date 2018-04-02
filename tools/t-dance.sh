@@ -22,7 +22,7 @@ sfiles=(blog contribute download features help imprint index)
 tlangs=(de es fr it nb_NO pl pt ru sq)  # do not add `en` to this list
 
 
-tx_pull() {
+pull_po_translations_from_tx() {
 	rm -r translations
 	tx pull -a   # -a = fetch all translationss, -s = fetches source
 	for sfile in ${sfiles[@]}; do
@@ -34,7 +34,20 @@ tx_pull() {
 }
 
 
+push_po_sources_to_tx() {
+	tx push -s
+}
+
+
+create_po_sources() {
+	for sfile in ${sfiles[@]}; do
+		txt2po --progress=none "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/en.po"
+	done
+}
+
+
 create_markdown_files() {
+	echo "Creating markdown files from the translated po-files ..."
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
 			pofile="../${tlang:0:2}/${sfile}.po"
@@ -51,6 +64,7 @@ create_html_files() {
 	# crete the file ./jekyll-build-local.prv.sh with the following content:
 	# `cd ..; jekyll build --destination <html-folder>; echo "Options +MultiViews" > <html-folder>/.htaccess; cd tools`  
 	if [ -f ./create-html.prv.sh ]; then
+		echo "Creating html-files from the markdown files ..."
 		./create-html.prv.sh
 	fi
 }
@@ -63,30 +77,27 @@ reset_markdown_files() {
 }
 
 
-tx_push_sources() {
-	for sfile in ${sfiles[@]}; do
-		txt2po --progress=none "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/en.po"
-	done
-	tx push -s
-}
-
-
-if [ $1 == "tx-pull" ]; then
-	tx_pull
-elif [ $1 == "md-create" ]; then
-	create_markdown_files	
-	create_html_files
-elif [ $1 == "md-reset" ]; then
-	reset_markdown_files
-	create_html_files
-elif [ $1 == "push-sources" ]; then
-	tx_push_sources
-elif [ $1 == "pull" ]; then  # update translations from transifex using english as template, update markdown
-	tx_pull
+# normal usage
+if [ $1 == "pull" ]; then
+	pull_po_translations_from_tx
 	create_markdown_files
 	create_html_files
+elif [ $1 == "push" ]; then
+	create_po_sources
+	push_po_sources_to_tx
+# debug usage
+elif [ $1 == "create-po-sources" ]; then
+	create_po_sources
+elif [ $1 == "create-md" ]; then
+	create_markdown_files	
+	create_html_files
+elif [ $1 == "reset-md" ]; then
+	reset_markdown_files
+	create_html_files
 else
-	echo "usage: ./t-dance {pull|tx-pull|md-create|md-reset|push-sources}"
+	echo "pull translations: ./t-dance pull"
+	echo "push shources:     ./t-dance push"
+	echo "debug usage:       ./t-dance {create-po-sources|create-md|reset-md}"
 	echo "to push a single language, copy the files to translations/delta-chat-pages.<file>po/<lang>.po and call: tx push -t -l <lang>"
 fi
 
