@@ -130,7 +130,9 @@ Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Op
 
 ## Kann ich meinen bestehenden privaten Schlüssel weiterverwenden?
 
-- Ja. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+- Ja. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+
+- Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
 
 Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie; Sie müssen sich darum nicht kümmern.
 
@@ -166,11 +168,11 @@ Wenn Sie keine Schlüssel haben, generiert Delta Chat automatisch einen für Sie
 - Alternativ kann man erst die [F-Droid-apk](https://f-droid.org/FDroid.apk) an Stelle der Delta Chat APK Datei installieren und dann darüber Delta Chat. Das hat den Vorteil, dass im Falle eines Updates dieses über die Paketverwaltung erfolgt und die Konfigurations- und Chat-Daten bestehen bleiben.
 
 
-## Login Issues
+## Login-Probleme
 
-I have a problem with ...
+Ich habe Probleme mit ...
 
-- Gmail: Enable "Support less secure apps" and IMAP, you may receive a mail to grant permission
+- Gmail: Aktivieren Sie "Weniger sicheren Apps die Verwendung Ihres Kontos gestatten" und IMAP.
 
 ## Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 

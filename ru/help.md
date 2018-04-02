@@ -126,7 +126,9 @@ The user's profile shows some additional information:
 
 ## Можно ли использовать существующий закрытый ключ?
 
-- Да. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+- Да. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+
+- Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
 
 Если у вас нет ключа или вы даже не знаете, что он вам понадобится - не волнуйтесь: Delta Chat сгенерирует его при необходимости, вы не должны ничего делать.
 

@@ -127,7 +127,9 @@ El perfile del usuario muestra información adicional:
 
 ## Puedo reutilizar una clave pre-existente?
 
-- Sí. Importing it at "Advanced settings / Manage private keys". Caution: Make sure, they key is not protected by a password or remove it before.
+- Sí. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+
+- Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
 
 Si no posee una clave, no se preocupe, Delta Chat generará una clave automaticamente.
 
