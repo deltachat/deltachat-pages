@@ -342,6 +342,10 @@ msgid ""
 "e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
 "settings of the other client and follow the instructions shown there."
 msgstr ""
+"- Tak. Najlepszym sposobem jest wysłanie wiadomości konfiguracyjnej "
+"Autocrypt z innego klienta poczty e-mail. Poszukaj czegoś jak **Start "
+"Autocrypt Setup Transfer** w ustawieniach innego klienta i postępuj zgodnie "
+"z wyświetlanymi tam instrukcjami."
 
 #: ../en/help.md:126
 msgid ""
@@ -349,6 +353,9 @@ msgid ""
 "Manage private keys\". Caution: Make sure, the key is not protected by a "
 "password or remove it before."
 msgstr ""
+"- Alternatywnie możesz zaimportujesz go ręcznie w „Ustawienia zaawansowane »"
+" Zarządzaj prywatnymi kluczami”. Uwaga: Upewnij się, że klucz nie jest "
+"chroniony hasłem ani nie usunąłeś go wcześniej."
 
 #: ../en/help.md:128
 msgid ""

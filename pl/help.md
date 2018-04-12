@@ -129,7 +129,7 @@ Profil użytkownika zawiera dodatkowe informacje:
 
 - Tak. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
+- Alternatywnie możesz zaimportujesz go ręcznie w „Ustawienia zaawansowane » Zarządzaj prywatnymi kluczami”. Uwaga: Upewnij się, że klucz nie jest chroniony hasłem ani nie usunąłeś go wcześniej.
 
 Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz - nie przejmuj się: Delta Chat generuje go w razie potrzeby, nie musisz nic robić.
 
