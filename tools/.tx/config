@@ -36,3 +36,8 @@ file_filter = translations/delta-chat-pages.indexpo/<lang>.po
 source_lang = en
 type = PO
 
+[delta-chat-pages.referencespo]
+file_filter = translations/delta-chat-pages.referencespo/<lang>.po
+source_lang = en
+type = PO
+
