@@ -353,8 +353,8 @@ msgid ""
 "Manage private keys\". Caution: Make sure, the key is not protected by a "
 "password or remove it before."
 msgstr ""
-"- Alternatywnie możesz zaimportujesz go ręcznie w „Ustawienia zaawansowane »"
-" Zarządzaj prywatnymi kluczami”. Uwaga: Upewnij się, że klucz nie jest "
+"- Alternatywnie możesz zaimportować go ręcznie w „Ustawienia zaawansowane » "
+"Zarządzaj prywatnymi kluczami”. Uwaga: Upewnij się, że klucz nie jest "
 "chroniony hasłem ani nie usunąłeś go wcześniej."
 
 #: ../en/help.md:128

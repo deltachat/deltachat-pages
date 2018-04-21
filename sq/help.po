@@ -341,6 +341,10 @@ msgid ""
 "e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
 "settings of the other client and follow the instructions shown there."
 msgstr ""
+"- Po. Rruga më e mirë është të dërgohet një Mesazh Rregullimi Autocrypt-i që"
+" nga klienti tjetër email. Shihni për diçka si **Start Autocrypt Setup "
+"Transfer** te rregullimet e klientit tjetër dhe ndiqni udhëzimet e dhëna "
+"atje."
 
 #: ../en/help.md:126
 msgid ""
@@ -348,6 +352,9 @@ msgid ""
 "Manage private keys\". Caution: Make sure, the key is not protected by a "
 "password or remove it before."
 msgstr ""
+"- Ndryshe, mund ta importoni kyçin dorazi që nga \"Rregullime të mëtejshme /"
+" Administroni kyçe private\". Kujdes: Sigurohuni që kyçi nuk mbrohet me "
+"fjalëkalim, në të kundërt hiqjani."
 
 #: ../en/help.md:128
 msgid ""
