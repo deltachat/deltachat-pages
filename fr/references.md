@@ -15,6 +15,13 @@ Bien que Delta Chat soit encore à l'état de beta, il y a déjà des articles i
 En avons-nous manqués? [Faites-le nous savoir](imprint) s'il-vous-plaît.
 
 
+## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
+
+This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.
+Delta Chat is mentioned on the edge.
+
+05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
+
 ## Linux User (magazine allemand): Private and Confidential - Privatvergnügen
 
 _"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu Datenkraken wie Whatsapp."_

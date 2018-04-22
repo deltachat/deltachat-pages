@@ -4,9 +4,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-22 12:24+0200\n"
+"POT-Creation-Date: 2018-04-23 00:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Telegram Polska <sebek@life.pl>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,52 +36,85 @@ msgid ""
 "Although Delta Chat is still in beta state, there are already some interesting articles.\n"
 "Do we have missed something? Please [let us know](imprint)."
 msgstr ""
+"Chociaż Delta Chat jest nadal w fazie beta, jest już kilka interesujących artykułów.\n"
+"Jeśli coś przeoczyliśmy, [daj nam znać](imprint)."
 
 #: ../en/references.md:12
 msgid ""
-"## Linux User (German magazine): Private and Confidential - Privatvergnügen"
+"## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-"
+"Kryptografie"
 msgstr ""
 
 #: ../en/references.md:14
 msgid ""
+"This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.\n"
+"Delta Chat is mentioned on the edge."
+msgstr ""
+
+#: ../en/references.md:17
+msgid ""
+"05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
+msgstr ""
+
+#: ../en/references.md:19
+msgid ""
+"## Linux User (German magazine): Private and Confidential - Privatvergnügen"
+msgstr ""
+"## Linux User (niemiecki magazyn): Private and Confidential - "
+"Privatvergnügen"
+
+#: ../en/references.md:21
+msgid ""
 "_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
 " Datenkraken wie Whatsapp.\"_"
 msgstr ""
+"_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
+" Datenkraken wie Whatsapp.\"_"
 
-#: ../en/references.md:16
+#: ../en/references.md:23
 msgid ""
 "03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-"
 "Artikel/LinuxUser/2018/03/Privatvergnuegen>"
 msgstr ""
+"03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-"
+"Artikel/LinuxUser/2018/03/Privatvergnuegen>"
 
-#: ../en/references.md:19
+#: ../en/references.md:26
 msgid "## Hasecke (German blog): Mit Delta Chat per E-Mail chatten"
-msgstr ""
+msgstr "## Hasecke (niemiecki blog): Mit Delta Chat per E-Mail chatten"
 
-#: ../en/references.md:21
+#: ../en/references.md:28
 msgid ""
 "_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 msgstr ""
+"_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 
-#: ../en/references.md:23
+#: ../en/references.md:30
 msgid "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
-msgstr ""
+msgstr "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
 
-#: ../en/references.md:26
+#: ../en/references.md:33
 msgid ""
 "## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-"
 "Himmel?!"
 msgstr ""
+"## Cloudette (niemiecki blog): Delta Chat – ein neuer Star am Messenger-"
+"Himmel?!"
 
-#: ../en/references.md:28
+#: ../en/references.md:35
 msgid ""
 "_\"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir "
 "vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
 " kann [...]\"_"
 msgstr ""
+"_\"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir "
+"vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
+" kann [...]\"_"
 
-#: ../en/references.md:30
+#: ../en/references.md:37
 msgid ""
 "03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
 "messenger-himmel/>"
 msgstr ""
+"03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
+"messenger-himmel/>"

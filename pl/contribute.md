@@ -35,9 +35,9 @@ Potrzebujemy **urządzeń** do celów testowych. Czy masz jakiś nieużywany sma
 
 # Tłumaczenie
 
-Help to translate the Delta Chat app or the delta.chat website into your language using
-[Transifex](https://www.transifex.com/delta-chat/public/).
-Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
+Pomóż tłumaczyć aplikację Delta Chat lub stronę delta.chat na swój język za pomocą 
+[Transifexa](https://www.transifex.com/delta-chat/public/).
+Możesz również pobrać [ten plik](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) i [wysłać](imprint) nam przetłumaczoną wersję.
 
 Szukamy również osób, które chciałyby prowadzić stronę Transifex i kontakt z tłumaczami.
 
