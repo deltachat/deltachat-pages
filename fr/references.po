@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-22 00:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Eric Lavarde <ewl+transifex@lavar.de>, 2018\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,55 +23,66 @@ msgid ""
 "---"
 msgstr ""
 "---\n"
-"title: Les références\n"
+"title: Références\n"
 "layout: default-fr\n"
 "---"
 
 #: ../en/references.md:6
 msgid "# References"
-msgstr "# Les références"
+msgstr "# Références"
 
 #: ../en/references.md:8
 msgid ""
 "Although Delta Chat is still in beta state, there are already some interesting articles.\n"
 "Do we have missed something? Please [let us know](imprint)."
 msgstr ""
+"Bien que Delta Chat soit encore à l'état de beta, il y a déjà des articles intéressants.\n"
+"En avons-nous manqués? [Faites-le nous savoir](imprint) s'il-vous-plaît."
 
 #: ../en/references.md:12
 msgid ""
 "## Linux User (German magazine): Private and Confidential - Privatvergnügen"
 msgstr ""
+"## Linux User (magazine allemand): Private and Confidential - "
+"Privatvergnügen"
 
 #: ../en/references.md:14
 msgid ""
 "_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
 " Datenkraken wie Whatsapp.\"_"
 msgstr ""
+"_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
+" Datenkraken wie Whatsapp.\"_"
 
 #: ../en/references.md:16
 msgid ""
 "03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-"
 "Artikel/LinuxUser/2018/03/Privatvergnuegen>"
 msgstr ""
+"03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-"
+"Artikel/LinuxUser/2018/03/Privatvergnuegen>"
 
 #: ../en/references.md:19
 msgid "## Hasecke (German blog): Mit Delta Chat per E-Mail chatten"
-msgstr ""
+msgstr "## Hasecke (blogue allemand): Mit Delta Chat per E-Mail chatten"
 
 #: ../en/references.md:21
 msgid ""
 "_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 msgstr ""
+"_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 
 #: ../en/references.md:23
 msgid "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
-msgstr ""
+msgstr "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
 
 #: ../en/references.md:26
 msgid ""
 "## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-"
 "Himmel?!"
 msgstr ""
+"## Cloudette (blogue allemand): Delta Chat – ein neuer Star am Messenger-"
+"Himmel?!"
 
 #: ../en/references.md:28
 msgid ""
@@ -79,9 +90,14 @@ msgid ""
 "vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
 " kann [...]\"_"
 msgstr ""
+"_\"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir "
+"vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
+" kann [...]\"_"
 
 #: ../en/references.md:30
 msgid ""
 "03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
 "messenger-himmel/>"
 msgstr ""
+"03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
+"messenger-himmel/>"

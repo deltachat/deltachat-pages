@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Blogue
 layout: default-fr
 ---
 
@@ -9,6 +9,6 @@ layout: default-fr
 
 
 
-# Blog
+# Blogue
 
 {% include blog.html %}

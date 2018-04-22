@@ -23,13 +23,13 @@ msgid ""
 "---"
 msgstr ""
 "---\n"
-"title: Blog\n"
+"title: Blogue\n"
 "layout: default-fr\n"
 "---"
 
 #: ../en/blog.md:6
 msgid "# Blog"
-msgstr "# Blog"
+msgstr "# Blogue"
 
 #: ../en/blog.md:8
 msgid "{% include blog.html %}"
