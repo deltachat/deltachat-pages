@@ -23,13 +23,13 @@ msgid ""
 "---"
 msgstr ""
 "---\n"
-"title: FAQ\n"
+"title: Aide\n"
 "layout: default-fr\n"
 "---"
 
 #: ../en/help.md:6
 msgid "# Frequently Asked Questions"
-msgstr "# Questions fréquemment posées"
+msgstr "# Foire aux questions"
 
 #: ../en/help.md:8
 msgid ""
@@ -60,7 +60,7 @@ msgid ""
 "biggest differences to other messengers: There is no need for the receiver "
 "to install the same app as yours."
 msgstr ""
-"- Avec Delta Chat, vous pouvez écrire à toutes les adresses e-mail "
+"- Avec Delta Chat, vous pouvez écrire à toutes les adresses de courriel "
 "existantes, même si le destinataire n'utilise pas (encore) l'application "
 "Delta Chat. C'est l'une des plus grandes différences avec les autres "
 "messageries: le destinataire n'a pas besoin d'installer la même application "
@@ -101,15 +101,15 @@ msgstr ""
 
 #: ../en/help.md:35
 msgid "## What if the receiver does not use Delta Chat?"
-msgstr "## Que ce passe t'il si le destinataire n'utilise pas Delta Chat?"
+msgstr "## Que se passe-t'il si le destinataire n'utilise pas Delta Chat?"
 
 #: ../en/help.md:37
 msgid ""
 "- The receiver will get a normal email then - if he replies to it, you will "
 "see the reply in the Delta Chat app."
 msgstr ""
-"- Le destinataire recevra un email normal - s'il y répond, vous verrez la "
-"réponse dans l'application Delta Chat."
+"- Le destinataire recevra un courriel normal - s'il y répond, vous verrez la"
+" réponse dans l'application Delta Chat."
 
 #: ../en/help.md:39
 msgid "## Which messages do appear in Delta Chat?"
@@ -165,21 +165,21 @@ msgid ""
 "separate messages. Outgoing messages will get attachments as needed "
 "automatically."
 msgstr ""
-"- Oui, à côté du texte brut, toutes les pièces jointes sont affichées comme "
+"- Oui. À côté du texte brut, toutes les pièces jointes sont affichées comme "
 "des messages séparés. Les messages sortants recevront automatiquement les "
 "pièces jointes nécessaires."
 
 #: ../en/help.md:59
 msgid "## Does Delta Chat support HTML-emails?"
-msgstr "## Est-ce que Delta Chat prend en charge les e-mails en HTML?"
+msgstr "## Est-ce que Delta Chat prend en charge les courriels en HTML?"
 
 #: ../en/help.md:61
 msgid ""
 "- Yes. If incoming email lacks a plain text part, we convert HTML-emails to "
 "plain text ourselves. Outgoing emails always use plain text."
 msgstr ""
-"- Oui, si l'e-mail entrant manque d'une partie en texte brut, nous "
-"convertissons les e-mails HTML en texte brut. Les e-mails sortants utilisent"
+"- Oui, si le courriel entrant manque d'une partie en texte brut, Delta Chat "
+"convertit les courriels HTML en texte brut. Les courriels sortants utilisent"
 " toujours du texte brut."
 
 #: ../en/help.md:63
@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../en/help.md:76
 msgid "## I have deleted myself by accident."
-msgstr "## Je me suis effacé par accident."
+msgstr "## Je me suis retiré(e) du groupe par accident."
 
 #: ../en/help.md:78
 msgid ""
@@ -244,7 +244,7 @@ msgstr "# Chiffrement {#encryption}"
 
 #: ../en/help.md:87
 msgid "## Does Delta Chat have an end-to-end-encryption?"
-msgstr "## Delta Chat dispose-t-il d'un chiffrement bout à bout?"
+msgstr "## Delta Chat dispose-t-il d'un chiffrement bout en bout?"
 
 #: ../en/help.md:89
 msgid "- Yes."
@@ -252,7 +252,7 @@ msgstr "- Oui."
 
 #: ../en/help.md:91
 msgid "## What do I have to do to activate the end-to-end-encryption?"
-msgstr "## Que dois-je faire pour activer le chiffrement bout à bout?"
+msgstr "## Que dois-je faire pour activer le chiffrement bout en bout?"
 
 #: ../en/help.md:93
 msgid "- Nothing."
@@ -269,18 +269,19 @@ msgid ""
 msgstr ""
 "- Delta Chat (et d'autres programmes de messagerie compatibles "
 "[Autocrypt](https://autocrypt.org)) partagent automatiquement les clés "
-"requises pour le chiffrement bout à bout lorsque les premiers messages sont "
-"envoyés. Après cela, tous les messages suivants sont chiffrés de bout à bout"
-" automatiquement. Si l'un des partenaires de chat utilise ultérieurement une"
-" application qui ne peut pas utiliser le cryptage de bout en bout, elle est "
-"mise en pause pour cette fois et automatiquement réactivée dès que possible."
+"requises pour le chiffrement bout en bout lorsque les premiers messages sont"
+" envoyés. Après cela, tous les messages suivants sont chiffrés de bout en "
+"bout automatiquement. Si l'un des partenaires de chat utilise ultérieurement"
+" une application qui ne peut pas utiliser le cryptage de bout en bout, elle "
+"est mise en pause pour cette fois et automatiquement réactivée dès que "
+"possible."
 
 #: ../en/help.md:97
 msgid ""
 "- If you want to _deactivate_ the end-to-end-encryption, use the "
 "corresponding setting at \"Settings / Advanced settings\"."
 msgstr ""
-"- Si vous souhaitez _désactiver_ le chiffrement bout à bout, utilisez le "
+"- Si vous souhaitez _désactiver_ le chiffrement bout en bout, utilisez le "
 "paramètre correspondant dans \"Paramètres / Paramètres avancés\"."
 
 #: ../en/help.md:99
@@ -294,7 +295,7 @@ msgstr ""
 #: ../en/help.md:101
 msgid "- No. The normal, email-standard _transport encryption_ is used then."
 msgstr ""
-"- Non, le _transport standard_ du courrier électronique est alors utilisé."
+"- Non, le chiffrement standard du courrier électronique est alors utilisé."
 
 #: ../en/help.md:104
 msgid "## How can I check the encryption?"
@@ -305,8 +306,8 @@ msgid ""
 "- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.\n"
 "- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption."
 msgstr ""
-"- Si un petit **cadenas** est affiché à côté d'un message, cela signifie que le message est chiffré de bout à bout _et_ est envoyé par l'expéditeur donné _et_ votre réponse sera également chiffrée de bout à bout.\n"
-"- S'il n'y a pas de **cadenas**, le message est transporté normalement. Parce que vous ou l'expéditeur avez désactivé le chiffrement bout à bout ou que l'expéditeur utilise une application qui ne prend pas en charge le chiffrement bout à bout."
+"- Si un petit **cadenas** est affiché à côté d'un message, cela signifie que le message est chiffré de bout en bout _et_ est envoyé par l'expéditeur donné _et_ votre réponse sera également chiffrée de bout en bout.\n"
+"- S'il n'y a pas de **cadenas**, le message est transporté normalement. Parce que vous ou l'expéditeur avez désactivé le chiffrement bout en bout ou que l'expéditeur utilise une application qui ne prend pas en charge le chiffrement bout en bout."
 
 #: ../en/help.md:110
 msgid "## How can I verify the sender?"
@@ -321,12 +322,12 @@ msgid ""
 "- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.\n"
 "- For transport encryption, this state is just shown there"
 msgstr ""
-"- Pour un chiffrement bout à bout, Delta Chat affiche deux empreintes digitales. Si elles sont identiques sur l'appareil de votre partenaire de discussion, la connexion est sécurisée.\n"
+"- Pour un chiffrement bout en bout, Delta Chat affiche deux empreintes digitales. Si elles sont identiques sur l'appareil de votre partenaire de discussion, la connexion est sécurisée.\n"
 "- Pour le chiffrement du transport, l'état est juste montré à cet endroit"
 
 #: ../en/help.md:118
 msgid "## Which standards are used for end-to-end-encryption?"
-msgstr "## Quelles standards sont utilisés pour le chiffrement bout à bout."
+msgstr "## Quels standards sont utilisés pour le chiffrement bout en bout?"
 
 #: ../en/help.md:120
 msgid ""
@@ -337,7 +338,7 @@ msgstr ""
 
 #: ../en/help.md:122
 msgid "## Can I re-use by existing private key?"
-msgstr "## Puis-je réutiliser par clé privée existante?"
+msgstr "## Puis-je réutiliser ma clé privée existante?"
 
 #: ../en/help.md:124
 msgid ""
@@ -345,6 +346,10 @@ msgid ""
 "e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
 "settings of the other client and follow the instructions shown there."
 msgstr ""
+"- Oui. La meilleure façon est d'envoyer un message de transfert de clé "
+"Autocrypt à partir de l'autre client de courriel. Cherchez quelque chose "
+"comme **Lancer le transfert de clé Autocrypt** dans les paramètres de "
+"l'autre client et suivez les étapes indiquées là."
 
 #: ../en/help.md:126
 msgid ""
@@ -352,6 +357,9 @@ msgid ""
 "Manage private keys\". Caution: Make sure, the key is not protected by a "
 "password or remove it before."
 msgstr ""
+"- Sinon, vous pouvez aussi importer les clés manuellement avec le menu "
+"\"Paramètres avancés / Gérer les clés privés\". Attention: assurez-vous que "
+"la clé n'est pas protégée par un mot de passe ou enlevez le auparavant."
 
 #: ../en/help.md:128
 msgid ""
@@ -368,7 +376,7 @@ msgstr "# Multi-client {#multiclient}"
 
 #: ../en/help.md:132
 msgid "## Can I use Delta Chat on multiple devices the same time?"
-msgstr "## Puis-je utiliser delta Chat sur plusieurs appareils en même temps?"
+msgstr "## Puis-je utiliser Delta Chat sur plusieurs appareils en même temps?"
 
 #: ../en/help.md:134
 msgid ""
@@ -395,7 +403,7 @@ msgid ""
 " one device."
 msgstr ""
 "- Tout ceci n'est **pas nécessaire** pour l'utilisation standard de Delta "
-"Chat en utilisant un seul périphérique."
+"Chat sur un seul appareil."
 
 #: ../en/help.md:142
 msgid ""
@@ -422,7 +430,7 @@ msgid ""
 "distributions supporting the **snap**-package format) by simply installing "
 "[Anbox](https://anbox.io) (Android in a Box) from terminal:"
 msgstr ""
-"- Vous pouvez exécuter Delta Chat sur le Linux Ubuntu (ou d'autres "
+"- Vous pouvez exécuter Delta Chat sous Linux Ubuntu (ou d'autres "
 "distributions Linux supportant le format **snap**) en installant simplement "
 "[Anbox](https://anbox.io) (Android dans une boîte) à partir du terminal:"
 
@@ -479,16 +487,16 @@ msgid ""
 "mail to grant permission"
 msgstr ""
 "- Gmail: Activez \"Supporter les applications moins sécurisées\" et IMAP, "
-"vous pouvez recevoir un mail pour accorder la permission"
+"vous pourriez recevoir un mail pour accorder la permission"
 
 #: ../en/help.md:168
 msgid "## I'm interested in the technical details. Can you tell me more?"
 msgstr ""
-"## Je suis intéressé par les détails techniques. Pouvez-vous me dire plus?"
+"## Je suis intéressé par les détails techniques. Pouvez-vous m'en dire plus?"
 
 #: ../en/help.md:170
 msgid ""
 "- See page [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""
-"- Voir la page des [standards utilisées dans Delta Chat]({% include "
+"- Voir la page des [standards utilisés dans Delta Chat]({% include "
 "standards-url %})."

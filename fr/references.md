@@ -1,5 +1,5 @@
 ---
-title: Les références
+title: Références
 layout: default-fr
 ---
 
@@ -9,27 +9,27 @@ layout: default-fr
 
 
 
-# Les références
+# Références
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
-Do we have missed something? Please [let us know](imprint).
+Bien que Delta Chat soit encore à l'état de beta, il y a déjà des articles intéressants.
+En avons-nous manqués? [Faites-le nous savoir](imprint) s'il-vous-plaît.
 
 
-## Linux User (German magazine): Private and Confidential - Privatvergnügen
+## Linux User (magazine allemand): Private and Confidential - Privatvergnügen
 
 _"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu Datenkraken wie Whatsapp."_
 
 03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
 
 
-## Hasecke (German blog): Mit Delta Chat per E-Mail chatten
+## Hasecke (blogue allemand): Mit Delta Chat per E-Mail chatten
 
 _"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client."_
 
 15.10.2017, <https://www.hasecke.eu/post/delta-chat/>
 
 
-## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-Himmel?!
+## Cloudette (blogue allemand): Delta Chat – ein neuer Star am Messenger-Himmel?!
 
 _"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen kann [...]"_
 

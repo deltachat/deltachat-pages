@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: Aide
 layout: default-fr
 ---
 
@@ -9,7 +9,7 @@ layout: default-fr
 
 
 
-# Questions fréquemment posées
+# Foire aux questions
 
 - [Général](#general)
 - [Groupes](#groups)
@@ -21,7 +21,7 @@ layout: default-fr
 
 ## A qui puis-je écrire?
 
-- Avec Delta Chat, vous pouvez écrire à toutes les adresses e-mail existantes, même si le destinataire n'utilise pas (encore) l'application Delta Chat. C'est l'une des plus grandes différences avec les autres messageries: le destinataire n'a pas besoin d'installer la même application que la vôtre.
+- Avec Delta Chat, vous pouvez écrire à toutes les adresses de courriel existantes, même si le destinataire n'utilise pas (encore) l'application Delta Chat. C'est l'une des plus grandes différences avec les autres messageries: le destinataire n'a pas besoin d'installer la même application que la vôtre.
 
 ## Quels sont les avantages de Delta Chat par rapport aux autres messageries?
 
@@ -37,9 +37,9 @@ layout: default-fr
 - _Fiable_ - et _sûr_ pour un usage professionnel
 - Entièrement _OpenSource_ et basé sur les _Standards_
 
-## Que ce passe t'il si le destinataire n'utilise pas Delta Chat?
+## Que se passe-t'il si le destinataire n'utilise pas Delta Chat?
 
-- Le destinataire recevra un email normal - s'il y répond, vous verrez la réponse dans l'application Delta Chat.
+- Le destinataire recevra un courriel normal - s'il y répond, vous verrez la réponse dans l'application Delta Chat.
 
 ## Quels messages apparaissent dans Delta Chat?
 
@@ -59,11 +59,11 @@ Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les aut
 
 ## Delta Chat prend-il en charge les images, vidéos et autres pièces jointes?
 
-- Oui, à côté du texte brut, toutes les pièces jointes sont affichées comme des messages séparés. Les messages sortants recevront automatiquement les pièces jointes nécessaires.
+- Oui. À côté du texte brut, toutes les pièces jointes sont affichées comme des messages séparés. Les messages sortants recevront automatiquement les pièces jointes nécessaires.
 
-## Est-ce que Delta Chat prend en charge les e-mails en HTML?
+## Est-ce que Delta Chat prend en charge les courriels en HTML?
 
-- Oui, si l'e-mail entrant manque d'une partie en texte brut, nous convertissons les e-mails HTML en texte brut. Les e-mails sortants utilisent toujours du texte brut.
+- Oui, si le courriel entrant manque d'une partie en texte brut, Delta Chat convertit les courriels HTML en texte brut. Les courriels sortants utilisent toujours du texte brut.
 
 # Groupes {#groups}
 
@@ -78,7 +78,7 @@ Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les aut
 - Chaque membre du groupe a les **mêmes droits** que les autres. Pour cette raison, chacun peut supprimer tous les membres ou en ajouter de nouveaux.
 - Pour ajouter ou supprimer des membres, cliquez sur le nom du groupe dans le chat.
 
-## Je me suis effacé par accident.
+## Je me suis retiré(e) du groupe par accident.
 
 - Comme vous n'êtes plus membre du groupe maintenant, vous ne pouvez pas vous ajouter à nouveau. Cependant, pas de problème, il suffit de demander à un autre membre du groupe dans un chat normal de vous ajouter à nouveau.
 
@@ -89,52 +89,52 @@ Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les aut
 
 # Chiffrement {#encryption}
 
-## Delta Chat dispose-t-il d'un chiffrement bout à bout?
+## Delta Chat dispose-t-il d'un chiffrement bout en bout?
 
 - Oui.
 
-## Que dois-je faire pour activer le chiffrement bout à bout?
+## Que dois-je faire pour activer le chiffrement bout en bout?
 
 - Rien.
 
-- Delta Chat (et d'autres programmes de messagerie compatibles [Autocrypt](https://autocrypt.org)) partagent automatiquement les clés requises pour le chiffrement bout à bout lorsque les premiers messages sont envoyés. Après cela, tous les messages suivants sont chiffrés de bout à bout automatiquement. Si l'un des partenaires de chat utilise ultérieurement une application qui ne peut pas utiliser le cryptage de bout en bout, elle est mise en pause pour cette fois et automatiquement réactivée dès que possible.
+- Delta Chat (et d'autres programmes de messagerie compatibles [Autocrypt](https://autocrypt.org)) partagent automatiquement les clés requises pour le chiffrement bout en bout lorsque les premiers messages sont envoyés. Après cela, tous les messages suivants sont chiffrés de bout en bout automatiquement. Si l'un des partenaires de chat utilise ultérieurement une application qui ne peut pas utiliser le cryptage de bout en bout, elle est mise en pause pour cette fois et automatiquement réactivée dès que possible.
 
-- Si vous souhaitez _désactiver_ le chiffrement bout à bout, utilisez le paramètre correspondant dans "Paramètres / Paramètres avancés".
+- Si vous souhaitez _désactiver_ le chiffrement bout en bout, utilisez le paramètre correspondant dans "Paramètres / Paramètres avancés".
 
 ## Si le chiffrement bout en bout n'est pas disponible, la connexion n'est pas chiffrée?
 
-- Non, le _transport standard_ du courrier électronique est alors utilisé.
+- Non, le chiffrement standard du courrier électronique est alors utilisé.
 
 
 ## Comment puis-je vérifier le chiffrement?
 
-- Si un petit **cadenas** est affiché à côté d'un message, cela signifie que le message est chiffré de bout à bout _et_ est envoyé par l'expéditeur donné _et_ votre réponse sera également chiffrée de bout à bout.
-- S'il n'y a pas de **cadenas**, le message est transporté normalement. Parce que vous ou l'expéditeur avez désactivé le chiffrement bout à bout ou que l'expéditeur utilise une application qui ne prend pas en charge le chiffrement bout à bout.
+- Si un petit **cadenas** est affiché à côté d'un message, cela signifie que le message est chiffré de bout en bout _et_ est envoyé par l'expéditeur donné _et_ votre réponse sera également chiffrée de bout en bout.
+- S'il n'y a pas de **cadenas**, le message est transporté normalement. Parce que vous ou l'expéditeur avez désactivé le chiffrement bout en bout ou que l'expéditeur utilise une application qui ne prend pas en charge le chiffrement bout en bout.
 
 
 ## Comment puis-je vérifier l'expéditeur?
 
 Le profil de l'utilisateur affiche des informations supplémentaires:
 
-- Pour un chiffrement bout à bout, Delta Chat affiche deux empreintes digitales. Si elles sont identiques sur l'appareil de votre partenaire de discussion, la connexion est sécurisée.
+- Pour un chiffrement bout en bout, Delta Chat affiche deux empreintes digitales. Si elles sont identiques sur l'appareil de votre partenaire de discussion, la connexion est sécurisée.
 - Pour le chiffrement du transport, l'état est juste montré à cet endroit
 
 
-## Quelles standards sont utilisés pour le chiffrement bout à bout.
+## Quels standards sont utilisés pour le chiffrement bout en bout?
 
 - OpenPGP. Le transport des clés s'effectue via [Autocrypt](https://autocrypt.org).
 
-## Puis-je réutiliser par clé privée existante?
+## Puis-je réutiliser ma clé privée existante?
 
 - Oui. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
+- Sinon, vous pouvez aussi importer les clés manuellement avec le menu "Paramètres avancés / Gérer les clés privés". Attention: assurez-vous que la clé n'est pas protégée par un mot de passe ou enlevez le auparavant.
 
 Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne vous inquiétez pas: Delta Chat en génère une au besoin, vous n'avez rien à faire.
 
 # Multi-client {#multiclient}
 
-## Puis-je utiliser delta Chat sur plusieurs appareils en même temps?
+## Puis-je utiliser Delta Chat sur plusieurs appareils en même temps?
 
 - Si vous souhaitez utiliser le **même compte** sur différents appareils, vous devez vous assurer que tous les appareils utilisent les mêmes clés pour le chiffrement:
 
@@ -142,7 +142,7 @@ Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne v
  - Via USB, copiez le fichier clé du répertoire "Téléchargements" du premier appareil vers le second.
  - Sur le second appareil, "Paramètres avancés / Gérer les clés privées / Importer les clefs depuis Téléchargements"
 
-- Tout ceci n'est **pas nécessaire** pour l'utilisation standard de Delta Chat en utilisant un seul périphérique.
+- Tout ceci n'est **pas nécessaire** pour l'utilisation standard de Delta Chat sur un seul appareil.
 
 - NB: En mode multi-client, les messages _entrants_ sont affichés en même temps sur tous les clients. Les messages sortants sont synchronisés environ deux fois par heure. Nous pouvons améliorer cela, mais nous aurions besoin de plus de [soutien](../fr/contribute) sur cette question.
 
@@ -151,7 +151,7 @@ Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne v
 
 ## Delta Chat sur Linux
 
-- Vous pouvez exécuter Delta Chat sur le Linux Ubuntu (ou d'autres distributions Linux supportant le format **snap**) en installant simplement [Anbox](https://anbox.io) (Android dans une boîte) à partir du terminal:
+- Vous pouvez exécuter Delta Chat sous Linux Ubuntu (ou d'autres distributions Linux supportant le format **snap**) en installant simplement [Anbox](https://anbox.io) (Android dans une boîte) à partir du terminal:
 
   $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
@@ -168,8 +168,8 @@ Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne v
 
 J'ai un problème avec ...
 
-- Gmail: Activez "Supporter les applications moins sécurisées" et IMAP, vous pouvez recevoir un mail pour accorder la permission
+- Gmail: Activez "Supporter les applications moins sécurisées" et IMAP, vous pourriez recevoir un mail pour accorder la permission
 
-## Je suis intéressé par les détails techniques. Pouvez-vous me dire plus?
+## Je suis intéressé par les détails techniques. Pouvez-vous m'en dire plus?
 
-- Voir la page des [standards utilisées dans Delta Chat]({% include standards-url %}).
+- Voir la page des [standards utilisés dans Delta Chat]({% include standards-url %}).
