@@ -36,7 +36,7 @@ Für Testzwecke benötigen wir ausserdem **Testgeräte**. Haben sie ein ausgedie
 
 # Übersetzung
 
-Helfen Sie das Projekt mit [Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) zu **lokalisieren**.
+Helfen Sie, das Projekt mit [Transifex](https://www.transifex.com/delta-chat/public/) zu **lokalisieren**.
 Alternativ können Sie auch [diese Datei](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) herunterladen, übersetzen und an uns [senden](imprint).
 
 Wir suchen auch noch jemanden, der sich um die Transifex Seite selbst und um den Kontakt mit den Übersetzern kümmert.
