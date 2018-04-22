@@ -36,9 +36,9 @@ Na duhen **pajisje** për qëllime testimi. Keni ndonjë Android Smartphone ose 
 
 # Përkthim
 
-Ndihmoni të përkthehet Delta Chat-i në gjuhën tuaj, përmes
-[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).
-Ndryshe, mund të shkarkoni [këtë kartelë](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) dhe [dërgonani](imprint) versionin e përkthyer.
+Ndihmoni të përkthehet aplikacioni ose sajti i Delta Chat-it në gjuhët tuaj duke përdorur
+[Transifex](https://www.transifex.com/delta-chat/public/).
+Ose ndryshe, mund të shkarkoni [këtë kartelë](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) dhe [të na dërgoni](imprint) versionin e përkthyer.
 
 Kërkojmë edhe persona që do të donin të mirëmbanin faqen tonë Transifex dhe lidhjet me përkthyesit.
 

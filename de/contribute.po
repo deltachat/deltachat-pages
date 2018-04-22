@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-22 00:03+0200\n"
+"POT-Creation-Date: 2018-04-22 12:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
@@ -93,11 +93,11 @@ msgstr "# Übersetzung"
 
 #: ../en/contribute.md:33
 msgid ""
-"Help to translate Delta Chat into your language using \n"
-"[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).\n"
+"Help to translate the Delta Chat app or the delta.chat website into your language using\n"
+"[Transifex](https://www.transifex.com/delta-chat/public/).\n"
 "Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version."
 msgstr ""
-"Helfen Sie das Projekt mit [Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) zu **lokalisieren**.\n"
+"Helfen Sie, das Projekt mit [Transifex](https://www.transifex.com/delta-chat/public/) zu **lokalisieren**.\n"
 "Alternativ können Sie auch [diese Datei](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) herunterladen, übersetzen und an uns [senden](imprint)."
 
 #: ../en/contribute.md:37

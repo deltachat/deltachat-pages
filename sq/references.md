@@ -1,5 +1,5 @@
 ---
-title: Referencat
+title: Referenca
 layout: default-sq
 ---
 
@@ -9,20 +9,20 @@ layout: default-sq
 
 
 
-# Referencat
+# Referenca
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
-Do we have missed something? Please [let us know](imprint).
+Edhe pse Delta Chat-i është ende në gjendje beta, ka tashmë disa artikuj me interes.
+Na ka shpëtuar gjë? Ju lutemi, [na e bëni të ditur](imprint).
 
 
-## Linux User (German magazine): Private and Confidential - Privatvergnügen
+## Linux User (revistë në gjermanisht): Privat dhe Konfidencial - Privatvergnügen
 
 _"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu Datenkraken wie Whatsapp."_
 
-03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
+03/2018, faqe 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
 
 
-## Hasecke (German blog): Mit Delta Chat per E-Mail chatten
+## Hasecke (blog në gjermanisht): Mit Delta Chat per E-Mail chatten
 
 _"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client."_
 

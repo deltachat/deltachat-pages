@@ -36,9 +36,9 @@ Vi trenger **enheter** i testøyemed. Har du en iPhone eller Android-telefon du 
 
 # Oversettelse
 
-Oversett Delta Chat til ditt språk ved å bruke 
-[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/).
-Alternativt kan du laste ned [denne filen](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) og [sende](imprint) oss den oversatte versjonen.
+Help to translate the Delta Chat app or the delta.chat website into your language using
+[Transifex](https://www.transifex.com/delta-chat/public/).
+Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
 
 Vi søker også noen som kan vedlikeholde Transifex-siden og kontakten med oversetterne.
 

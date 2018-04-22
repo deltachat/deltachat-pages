@@ -36,10 +36,9 @@ We need **devices** for test purposes. Do you have any disused Android Smartphon
 
 # Traduções
 
-Ajude a traduzir o Delta Chat para sua língua usando:
-[Transifex](https://www.transifex.com/delta-chat/delta-chat-android/) ou
-[Android Studio](https://developer.android.com/studio/write/translations-editor.html) com um Pull Request.
-Alternativamente, você pode nos mandar uma tradução do arquivo "strings.xml".
+Help to translate the Delta Chat app or the delta.chat website into your language using
+[Transifex](https://www.transifex.com/delta-chat/public/).
+Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
 
 Estamos precisando de alguém que ajude no gerenciamento da página do Transifex e mantenha contato com os tradutores.
 
