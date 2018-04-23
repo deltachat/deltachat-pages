@@ -15,29 +15,29 @@ Bien que Delta Chat soit encore à l'état de beta, il y a déjà des articles i
 En avons-nous manqués? [Faites-le nous savoir](imprint) s'il-vous-plaît.
 
 
-## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
+## iX (magazine allemand) présente: Autocrypt automatise la cryptographie des e-mails
 
-This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.
-Delta Chat is mentioned on the edge.
+Cet article traite d'Autocrypt, le système utilisée par Delta Chat pour le réglage du chiffrement bout à bout.
+Delta Chat est mentionné sur le bord.
 
 05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
 
-## Linux User (magazine allemand): Private and Confidential - Privatvergnügen
+## Linux User (magazine allemand): Privé et confidentiel - plaisir privé
 
-_"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu Datenkraken wie Whatsapp."_
+_ "La messagerie Delta Chat offre une alternative intéressante aux voleur de données comme Whatsapp." _
 
 03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
 
 
-## Hasecke (blogue allemand): Mit Delta Chat per E-Mail chatten
+## Hasecke (blogue allemand): Chat avec Delta Chat par courriel
 
-_"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client."_
+_ "Delta Chat fonctionne bien - en tant que messagerie et en tant que client courriel." _
 
 15.10.2017, <https://www.hasecke.eu/post/delta-chat/>
 
 
-## Cloudette (blogue allemand): Delta Chat – ein neuer Star am Messenger-Himmel?!
+## Cloudette (blogue allemand): Delta Chat - Une nouvelle étoile dans le ciel des messageries?!
 
-_"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen kann [...]"_
+_ "Pour moi, le tout semble très bien jusqu'ici et je pourrais imaginer que je puisse remplacer progressivement tous les autres messageries instantanées[...]" _
 
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>

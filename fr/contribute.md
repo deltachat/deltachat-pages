@@ -16,11 +16,11 @@ Delta Chat est un logiciel libre et gratuit. Vous pouvez contribuer de plusieurs
 
 # Rester en contact
 
-En plus des [courriels](../fr/imprint), vous pouvez nous contacter par les canaux suivants:
+Pour nous contacter, vous pouvez:
 
-- Rejoignez les discussions de la communauté sur la [liste de diffusion Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
-- Collaborez au travers des [dépôts Github Delta Chat](https://github.com/deltachat/)
-- Rejoignez le canal IRC **#deltachat** sur [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Rejoindre les discussions de la communauté sur la [liste de diffusion Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
+- Collaborer au travers des [dépôts Github Delta Chat](https://github.com/deltachat/)
+- Rejoindre le canal IRC **#deltachat** sur [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
 
 # Faire un don
@@ -36,16 +36,15 @@ Nous avons besoin d'**appareils** à des fins de test. Avez-vous un smartphone A
 
 # Traduction
 
-Help to translate the Delta Chat app or the delta.chat website into your language using
-[Transifex](https://www.transifex.com/delta-chat/public/).
-Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
+Aidez a traduire l'application Delta Chat ou le site internet delat.chat dans votre langue en utilisant [Transifex](https://www.transifex.com/delta-chat/public/)
+Alternativement, vous pouvez télécharger [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) et [nous](imprint) envoyer la version traduite
 
 Nous recherchons également des personnes désireuses de maintenir la page Transifex et le contact avec les traducteurs.
 
 
 # Développement
 
-Nous recherchons des développeurs en logiciel libre qui connaissent le C, Java, Android, iOS, Windows, Linux ou Mac.
+Nous recherchons des développeurs en code source ouvert qui connaissent le C, Java, Android, iOS, Windows, Linux ou Mac.
 Modifiez votre propre fork [Delta Chat](https://github.com/deltachat/) et envoyez nous une requête de modification.
 
 La même chose s'applique pour **cette page Web** - peu importe si vous avez des améliorations plus ou moins importantes: modifiez simplement cette page [ici](https://github.com/deltachat/deltachat-pages) et envoyez-nous une demande de modification.
@@ -61,7 +60,7 @@ Utilisez ces **systèmes de suivi de problèmes** pour signaler des erreurs.
 
 - [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
+- [Librarie principale + Python](https://github.com/deltachat/deltachat-core/issues)
 
 
 

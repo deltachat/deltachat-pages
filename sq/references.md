@@ -15,12 +15,12 @@ Edhe pse Delta Chat-i është ende në gjendje beta, ka tashmë disa artikuj me 
 Na ka shpëtuar gjë? Ju lutemi, [na e bëni të ditur](imprint).
 
 
-## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
+## iX (revistë në gjermanisht): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
 
-This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.
-Delta Chat is mentioned on the edge.
+Ky artikull trajton Autocrypt-in, protokollin e përdorur nga Delta Chat për fshehtëzime të llojit skaj-më-skaj.
+Delta Chat përmendet diku.
 
-05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
+05/2018, faqe 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
 
 ## Linux User (revistë në gjermanisht): Privat dhe Konfidencial - Privatvergnügen
 

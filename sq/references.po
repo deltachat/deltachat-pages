@@ -44,17 +44,22 @@ msgid ""
 "## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-"
 "Kryptografie"
 msgstr ""
+"## iX (revistë në gjermanisht): Dargereicht - Autocrypt automatisiert E"
+"-Mail-Kryptografie"
 
 #: ../en/references.md:14
 msgid ""
 "This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.\n"
 "Delta Chat is mentioned on the edge."
 msgstr ""
+"Ky artikull trajton Autocrypt-in, protokollin e përdorur nga Delta Chat për fshehtëzime të llojit skaj-më-skaj.\n"
+"Delta Chat përmendet diku."
 
 #: ../en/references.md:17
 msgid ""
 "05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
 msgstr ""
+"05/2018, faqe 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
 
 #: ../en/references.md:19
 msgid ""

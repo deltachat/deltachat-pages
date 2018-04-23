@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-23 00:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Eric Lavarde <ewl+transifex@lavar.de>, 2018\n"
+"Last-Translator: Arnaud Pernet, 2018\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,32 +44,36 @@ msgid ""
 "## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-"
 "Kryptografie"
 msgstr ""
+"## iX (magazine allemand) présente: Autocrypt automatise la cryptographie "
+"des e-mails"
 
 #: ../en/references.md:14
 msgid ""
 "This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.\n"
 "Delta Chat is mentioned on the edge."
 msgstr ""
+"Cet article traite d'Autocrypt, le système utilisée par Delta Chat pour le réglage du chiffrement bout à bout.\n"
+"Delta Chat est mentionné sur le bord."
 
 #: ../en/references.md:17
 msgid ""
 "05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
 msgstr ""
+"05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
 
 #: ../en/references.md:19
 msgid ""
 "## Linux User (German magazine): Private and Confidential - Privatvergnügen"
 msgstr ""
-"## Linux User (magazine allemand): Private and Confidential - "
-"Privatvergnügen"
+"## Linux User (magazine allemand): Privé et confidentiel - plaisir privé"
 
 #: ../en/references.md:21
 msgid ""
 "_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
 " Datenkraken wie Whatsapp.\"_"
 msgstr ""
-"_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
-" Datenkraken wie Whatsapp.\"_"
+"_ \"La messagerie Delta Chat offre une alternative intéressante aux voleur "
+"de données comme Whatsapp.\" _"
 
 #: ../en/references.md:23
 msgid ""
@@ -81,13 +85,14 @@ msgstr ""
 
 #: ../en/references.md:26
 msgid "## Hasecke (German blog): Mit Delta Chat per E-Mail chatten"
-msgstr "## Hasecke (blogue allemand): Mit Delta Chat per E-Mail chatten"
+msgstr "## Hasecke (blogue allemand): Chat avec Delta Chat par courriel"
 
 #: ../en/references.md:28
 msgid ""
 "_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 msgstr ""
-"_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
+"_ \"Delta Chat fonctionne bien - en tant que messagerie et en tant que "
+"client courriel.\" _"
 
 #: ../en/references.md:30
 msgid "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
@@ -98,8 +103,8 @@ msgid ""
 "## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-"
 "Himmel?!"
 msgstr ""
-"## Cloudette (blogue allemand): Delta Chat – ein neuer Star am Messenger-"
-"Himmel?!"
+"## Cloudette (blogue allemand): Delta Chat - Une nouvelle étoile dans le "
+"ciel des messageries?!"
 
 #: ../en/references.md:35
 msgid ""
@@ -107,9 +112,9 @@ msgid ""
 "vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
 " kann [...]\"_"
 msgstr ""
-"_\"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir "
-"vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
-" kann [...]\"_"
+"_ \"Pour moi, le tout semble très bien jusqu'ici et je pourrais imaginer que"
+" je puisse remplacer progressivement tous les autres messageries "
+"instantanées[...]\" _"
 
 #: ../en/references.md:37
 msgid ""
