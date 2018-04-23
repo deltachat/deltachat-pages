@@ -26,16 +26,16 @@ layout: default-fr
 ## Quels sont les avantages de Delta Chat par rapport aux autres messageries?
 
 - Indépendant de toute entreprise ou de service. _Vous possédez vos propres données_.
-- Vos données ne sont pas sauvegardées sur un serveur central; De cette façon, contrairement à la plupart des autres messageries, Delta Chat protège même vos métadonnées (qui écrit à qui?)
+- Vos données ne sont pas sauvegardées sur un serveur central; de cette façon, contrairement à la plupart des autres messageries, Delta Chat protège même vos métadonnées (qui écrit à qui?)
 - Vous ne distribuez pas votre carnet d'adresses à qui que ce soit.
 - _Rapide_ par l'utilisation de Push-IMAP
-- _Le plus de destinataire_ - Même les destinataires utilisant _pas_ Delta Chat peuvent être contactés
+- _La plus grande base d'utilisateurs_ - Même les destinataires n'utilisant _pas_ Delta Chat peuvent être contactés
 - _Compatible_ - pas seulement avec lui-même
 - Interface utilisateur _élegant_ et _simple_
 - _Système distribué_
-- _Pas de Spam_ - seuls les messages des utilisateurs connus sont affichés par défaut
+- _Pas de Spam_ - Seuls les messages des utilisateurs connus sont affichés par défaut
 - _Fiable_ - et _sûr_ pour un usage professionnel
-- Entièrement _OpenSource_ et basé sur les _Standards_
+- Code source entièrement _ouvert_ et basé sur les _standards_
 
 ## Que se passe-t'il si le destinataire n'utilise pas Delta Chat?
 
@@ -45,8 +45,8 @@ layout: default-fr
 
 Delta Chat affiche automatiquement ...
 
-- Messages des contacts de votre **carnet d'adresses**
-- Messages des contacts **contactés par vous**
+- Les messages des contacts de votre **carnet d'adresses**
+- Les messages des contacts **contactés par vous**
 - Les **réponses** aux messages envoyés par vous
 
 Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les autres messages dans le menu principal de ** demandes de contact ** et, si vous le souhaitez, commencer une conversation à partir de là.
