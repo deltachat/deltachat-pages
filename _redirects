@@ -3,6 +3,10 @@
 # the errorcode defaults to 301
 
 
+# a shortcut to a "stable" f-droid apk, no need to change it hastily :)
+/apk  https://f-droid.org/repo/com.b44t.messenger_514.apk
+
+
 # legacy urls
 /de/delta-macht-chatten-besser  /en/2017-05-31-delta-makes-chatting-better#german
 /de/david-gegen-goliath         /en/2017-05-31-delta-makes-chatting-better#david-gegen-goliath---wie-kam-es-dazu
