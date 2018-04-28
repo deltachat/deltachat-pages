@@ -1,3 +1,4 @@
+Allan Nordhøy  
 aligitor  
 Ampli-fier  
 Björn Petersen  
