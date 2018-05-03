@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-23 00:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: guland2000 <lycoris@ya.ru>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,24 +95,24 @@ msgstr ""
 "- _Распределённая_ система\n"
 "- _Нет спама_ - по умолчанию отображаются только сообщения от известных пользователей\n"
 "- _Надежный_ - безопасно для профессионального использования\n"
-"- _Заслуживающий доверия_ - можно использовать даже для деловвой переписки\n"
+"- _Заслуживающий доверия_ - можно использовать даже для деловой переписки\n"
 "- Полностью _открытый исходный код_ и основан на _стандартах_"
 
 #: ../en/help.md:35
 msgid "## What if the receiver does not use Delta Chat?"
-msgstr ""
+msgstr "## Что если получатель не использует Delta Chat?"
 
 #: ../en/help.md:37
 msgid ""
 "- The receiver will get a normal email then - if he replies to it, you will "
 "see the reply in the Delta Chat app."
 msgstr ""
-"- Получатель получит обычное письмо - если он ответит на него, вы увидите "
-"ответ в приложении Delta Chat."
+"- Ваш адресат получит обычное электронное письмо - если он ответит на него, "
+"вы увидите ответ (в том числе отправленные файлы) в приложении Delta Chat."
 
 #: ../en/help.md:39
 msgid "## Which messages do appear in Delta Chat?"
-msgstr "Какие сообщения отображаются в Delta Chat?"
+msgstr "## Какие сообщения отображаются в Delta Chat?"
 
 #: ../en/help.md:41
 msgid "Delta Chat automatically shows ..."
@@ -135,12 +135,12 @@ msgid ""
 "there."
 msgstr ""
 "Другие сообщения не отображаются автоматически. Вы можете посмотреть другие "
-"сообщения в пункте главного меню **Почтовый ящик** и, при желании, начать "
-"чат оттуда."
+"сообщения в пункте главного меню **Запросы контактов** и, при желании, "
+"начать чат оттуда."
 
 #: ../en/help.md:49
 msgid "## What about Spam?"
-msgstr "## Как насчёт спама?"
+msgstr "## Что насчёт спама?"
 
 #: ../en/help.md:51
 msgid ""
@@ -148,12 +148,14 @@ msgid ""
 "- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.\n"
 "- However, if really needed, you can **block** any contact."
 msgstr ""
-"- Так как сообщения от совершенно неизвестных контактов не появляются автоматически, как правило, **спама нет**.\n"
-"- Однако, если действительно нужно, вы можете **заблокировать** любой контакт."
+"- Сообщения из общей папки спама игнорируются и находящиеся там адреса не распознаются как известные вам контакты.\n"
+"- Так как сообщения от совершенно неизвестных контактов не появляются автоматически, вполне нормально, что у вас **не будет спама**.\n"
+"- Однако, если необходимо, вы можете **заблокировать** любой контакт."
 
 #: ../en/help.md:55
 msgid "## Does Delta Chat support images, videos and other attachments?"
 msgstr ""
+"## Delta Chat поддерживает вложения типа фото, видео или чего-нибудь ещё?"
 
 #: ../en/help.md:57
 msgid ""
@@ -174,9 +176,9 @@ msgid ""
 "- Yes. If incoming email lacks a plain text part, we convert HTML-emails to "
 "plain text ourselves. Outgoing emails always use plain text."
 msgstr ""
-"- Да. Если во входящей электронной почте отсутствует блок обычного текста, "
-"мы преобразуем HTML-письма в обычный текст самостоятельно. Исходящие письма "
-"всегда используют обычный текст."
+"- Да. Если во входящей электронной почте отсутствует текстовый формат "
+"«text/plain» , мы преобразуем HTML-письма в текстовый формат самостоятельно."
+" Исходящие письма всегда используют текстовый формат."
 
 #: ../en/help.md:63
 msgid "# Groups"
@@ -192,9 +194,9 @@ msgid ""
 "- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.\n"
 "- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members)."
 msgstr ""
-"- Выберите **Добавить группу** в выпадающем меню в левом верхнем углу начального экрана приложения.\n"
-"- На следующем экране выберите **участников группы** и установите флажок в правом верхнем углу. После этого можно определить **имя группы**.\n"
-"- Как только вы пишете **первое сообщение** в группе, все участники информируются о новой группе и могут ответить в группе (до тех пор, пока вы не пишете сообщение в группе, группа невидима для участников)."
+"- Нажмите на 3 вертикальных точки, расположенных в правом верхнем углу, из выпадающего меню выберите **Новая группа**.\n"
+"- На следующем экране выберите **участников группы** и нажмите на галочку наверху перед тремя горизонтальными точками в качестве завершения и подтверждения добавления количества участников группы. После этого можно присвойте название новой группы введя его в поле **Введите название группы**. Далее нажмите на галочку в верхнем правом углу для завершения процедуры оформления новой группы.\n"
+"- Как только вы напишете **первое сообщение** в группе, все участники информируются о новой группе и могут ответить в группе (до тех пор, пока вы не пишете сообщение в группе, группа невидима для участников)."
 
 #: ../en/help.md:71
 msgid "## Who can add members to a group?"
@@ -210,7 +212,7 @@ msgstr ""
 
 #: ../en/help.md:76
 msgid "## I have deleted myself by accident."
-msgstr "## Я случайно удалился."
+msgstr "## Я случайно себя удалил."
 
 #: ../en/help.md:78
 msgid ""
@@ -263,6 +265,14 @@ msgid ""
 "later that cannot use end-to-end-encryption, it is paused for this time and "
 "automatically re-activated as soon as possible."
 msgstr ""
+"- Delta Chat (и другие [Autocrypt](https://autocrypt.org)-совместимые-"
+"почтовые программы) делятся ключами сквозного шифрования автоматически, "
+"после как будет отправлено первое сообщение. После этого все участники "
+"переписки подключаются к протоколу сквозного шифрования автоматически. Если "
+"один из участников переписки будет использовать приложение в котором "
+"незадействовано сквозное шифрование, переписка будет приостановлена на время"
+" пока шифрование не будет перезапущено автоматически, настолько быстро "
+"насколько это возможно."
 
 #: ../en/help.md:97
 msgid ""
@@ -281,8 +291,8 @@ msgstr "## Если сквозное шифрование недоступно, 
 #: ../en/help.md:101
 msgid "- No. The normal, email-standard _transport encryption_ is used then."
 msgstr ""
-"Не так. Тогда используется обычное _транспортное шифрование_, стандартное "
-"для электронной почты."
+"- Это не так. Используется обыкновенный _криптографический протокол TLS _ "
+"стандартный для электронной почты."
 
 #: ../en/help.md:104
 msgid "## How can I check the encryption?"
@@ -293,14 +303,16 @@ msgid ""
 "- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.\n"
 "- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- Если маленький **замок** виден за сообщением, значит это сообщение зашифровано _и_ отправлено от отправителя применившего протокол сквозного шифрования _и_ ваш ответ также будет зашифрован.\n"
+"- Если **нет замка**, значит сообщение зашифровано по обычному протоколу TLS, например потому, что отправитель отключил сквозное шифрование или его приложение не поддерживает данный протокол."
 
 #: ../en/help.md:110
 msgid "## How can I verify the sender?"
-msgstr ""
+msgstr "## Как мне проверить отправителя?"
 
 #: ../en/help.md:112
 msgid "The user's profile shows some additional information:"
-msgstr ""
+msgstr "В профиле пользователя будет видна следующая информация:"
 
 #: ../en/help.md:114
 msgid ""
@@ -343,7 +355,7 @@ msgid ""
 " Delta Chat generates one as needed, you have to do nothing."
 msgstr ""
 "Если у вас нет ключа или вы даже не знаете, что он вам понадобится - не "
-"волнуйтесь: Delta Chat сгенерирует его при необходимости, вы не должны "
+"волнуйтесь: Delta Chat сгенерирует его при необходимости, вам не нужно "
 "ничего делать."
 
 #: ../en/help.md:130
@@ -399,7 +411,7 @@ msgstr "# Прочее"
 
 #: ../en/help.md:147
 msgid "## Delta Chat on Linux Desktop"
-msgstr "## Delta Chat на компьютере с GNU/Linux"
+msgstr "## Delta Chat на компьютере с Linux Desktop"
 
 #: ../en/help.md:149
 msgid ""
@@ -413,7 +425,7 @@ msgstr ""
 
 #: ../en/help.md:151
 msgid "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
-msgstr ""
+msgstr "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
 
 #: ../en/help.md:153
 msgid ""
@@ -422,12 +434,12 @@ msgid ""
 "install it from terminal:"
 msgstr ""
 "- Чтобы добавить приложение Delta Chat, загрузите файл "
-"*com.b44t.messenger_433.apk* с домашней страницы и установите через "
+"*com.b44t.messenger_<version\\>.apk* [отсюда](download) и установите через "
 "терминал:"
 
 #: ../en/help.md:155
 msgid "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
-msgstr ""
+msgstr "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
 
 #: ../en/help.md:157
 msgid ""
@@ -444,6 +456,11 @@ msgid ""
 "information about updates and the migration of existing config and chat "
 "data."
 msgstr ""
+"- Вместо того чтобы загрузить .apk файл Delta Chat, вы можете установить его"
+" через магазин приложений F-Droid [F-Droid-"
+"APK](https://f-droid.org/FDroid.apk). В таком случае вы получите большое "
+"преимущество, так как будете получать актуальную информацию об обновлениях и"
+" изменениях в существующей конфигурации и данных чата."
 
 #: ../en/help.md:162
 msgid "## Login Issues"
@@ -469,5 +486,5 @@ msgstr "## Меня интересуют технические детали. М
 msgid ""
 "- See page [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""
-"- Смотрите на странице [Стандарты используемые Delta Chat]({% include "
+"- Смотрите на странице [Стандарты используемые в Delta Chat]({% include "
 "standards-url %})."

@@ -17,11 +17,10 @@ Une version beta pour Android est disponible sur F-Droid. Après la [version 1.0
 D'autres variantes pour iOS, Mac, Linux ou Windows sont prévues.
 Vous pouvez activement [nous soutenir](../fr/contribute) en terme de développement.
 
-
 ## Android (Beta)
 
-[<img src="../assets/home/get-it-on-fdroid.png" alt="Récupère le sur F-Droid" width="200"/>](https://f-droid.org/app/com.b44t.messenger)
-<img src="../assets/home/get-it-on-gplay.png" alt="Récupère le sur Google Play" style="filter: opacity(.3) grayscale(100%);" width="200"/>
+<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
+[<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
 * [Télécharger depuis F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Télécharger le fichier APK](https://github.com/deltachat/deltachat-android/releases) (seulement pour utilisateurs expérimentés)
@@ -30,13 +29,26 @@ Vous pouvez activement [nous soutenir](../fr/contribute) en terme de développem
 
 ## Apple
 
-<img src="../assets/home/get-it-on-ios.png" alt="Télécharger depuis l'AppStore d'Apple" style="filter: opacity(.3) grayscale(100%);" width="200"/>
+<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
+
+iOS development has started but it needs more work until we can present a download here. [Contributors](contribute) welcome :)
+
 
 ## Linux
 
 Delta Chat pour Linux n'est pas encore disponible. Cependant, il est possible d'exécuter l'application Android dans [Anbox](https://anbox.io) (Android dans une boîte) sur votre bureau.
 Plus d'informations sont fournies sur notre page d'[Aide](../fr/help#multiclient).
 
-## Windows
 
+# Verify Downloads
+
+For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+
+* For F-Droid downloads:  
+  `{% include fingerprint-f-droid %}`
+* Other APK downloads:  
+  `{% include fingerprint-local %}`
+
+To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
+`keytool -list -printcert -jarfile <APK-file>`
 

@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-23 00:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Claudio Arseni <claudio.arseni@gmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,11 +40,11 @@ msgstr ""
 
 #: ../en/contribute.md:11
 msgid "# Channels"
-msgstr ""
+msgstr "# Canali"
 
 #: ../en/contribute.md:13
 msgid "If you want to talk with us you may:"
-msgstr ""
+msgstr "Per entrare in contatto con noi è possibile:"
 
 #: ../en/contribute.md:15
 msgid ""
@@ -52,10 +52,13 @@ msgid ""
 "- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)\n"
 "- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)"
 msgstr ""
+"- Iscriversi alla [mailing list di Delta Chat ](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) per discutere con la comunità\n"
+"- Collaborareattraverso il [repository di Delta Chat su Github ](https://github.com/deltachat/)\n"
+"- Entrare nel canale IRC **#deltachat** su [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)"
 
 #: ../en/contribute.md:20
 msgid "# Donate"
-msgstr "## Donazioni"
+msgstr "# Donazioni"
 
 #: ../en/contribute.md:22
 msgid ""
@@ -71,12 +74,17 @@ msgid ""
 "- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
 "- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
 msgstr ""
+"- IBAN DE86100777770428658900, BIC NORSDE51XXX\n"
+"- PayPal o carte di credito: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
+"- Invio di bitcoin a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
 
 #: ../en/contribute.md:28
 msgid ""
 "We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?\n"
 "[We](imprint)'d love to take it!"
 msgstr ""
+"Abbiamo bisogno di **dispositivi** per eseguire i test. Hai un disposito Android o un iPhone che non utilizzi?\n"
+"[Noi](imprint) gradiremmo molto averlo!"
 
 #: ../en/contribute.md:31
 msgid "# Translation"
@@ -88,6 +96,9 @@ msgid ""
 "[Transifex](https://www.transifex.com/delta-chat/public/).\n"
 "Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version."
 msgstr ""
+"È possibile contribuire alla traduzione dell'appliicazione Delta Chat o del sito web delta.chat nella propria lingua usando\n"
+"[Transifex](https://www.transifex.com/delta-chat/public/).\n"
+"In alternativa, è possibile scaricare [questo file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) e [inviare](imprint) a noi la versione tradotta."
 
 #: ../en/contribute.md:37
 msgid ""
@@ -106,6 +117,8 @@ msgid ""
 "We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.\n"
 "Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request."
 msgstr ""
+"Siamo alla ricerca di sviluppatori open source che hanno familiarità con C, Java, Android, iOS, Windows, Linux o Mac.\n"
+"Basta modificare il proprio fork di [Delta Chat](https://github.com/deltachat/) e inviare una richiesta di pull."
 
 #: ../en/contribute.md:45
 msgid ""
@@ -114,10 +127,14 @@ msgid ""
 "[here](https://github.com/deltachat/deltachat-pages) and send us a pull "
 "request."
 msgstr ""
+"Lo stesso vale per **questa pagina web** - non importa che si tratti di "
+"grandi o piccoli miglioramenti, basta modificare questa oagina "
+"[qui](https://github.com/deltachat/deltachat-pages) e inviare una richiesta "
+"di pull."
 
 #: ../en/contribute.md:47
 msgid "# Recommendation"
-msgstr "# Diffondete la parola ..."
+msgstr "# Diffondete la parola"
 
 #: ../en/contribute.md:49
 msgid ""
@@ -126,9 +143,11 @@ msgid ""
 "With Version 1.0 Delta Chat will become market-ready and a recommendation "
 "for _everyone_. "
 msgstr ""
-"... ricordando però che, al momento, Delta Chat è ancora in fase beta ed è "
-"adatta solo agli utenti _precoci_. Al più presto, appena Delta Chat "
-"raggiungerà la versione \"1.0\", sarà utilizzabile da chiunque."
+"Al momento Delta Chat è ancora in fase beta ed è adatta solo agli utenti "
+"_precoci_. Le persone che la utilizzano oggi dovrebbero tenere in "
+"considerazione che ci saranno cambiamenti. Appena Delta Chat raggiungerà la "
+"versione \"1.0\" diventerà pronta per il emrcato e sarà utilizzabile da "
+"_chiunque_."
 
 #: ../en/contribute.md:52
 msgid "# Bug Reports"
@@ -137,9 +156,8 @@ msgstr "# Segnalazione errori"
 #: ../en/contribute.md:54
 msgid "Use the following **Issue Trackers** to report bugs."
 msgstr ""
-"Usare i **sistemi di tracciamento** per segnalare errori o problemi. Se "
-"possibile, aggiungere un descrizione dettagliata; spesso è anche molto utile"
-" acquisire una schermata del problema."
+"Usare i seguenti **sistemi di tracciamento** per segnalare errori o "
+"problemi."
 
 #: ../en/contribute.md:56
 msgid ""
@@ -147,3 +165,6 @@ msgid ""
 "- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
 "- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)"
 msgstr ""
+"- [Delta Chat per Android](https://github.com/deltachat/deltachat-android/issues)\n"
+"- [Delta Chat per iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
+"- [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)"

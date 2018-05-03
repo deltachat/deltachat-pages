@@ -11,13 +11,13 @@ layout: default-it
 
 # Perché Delta Chat? I vantaggi.
 
-Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.
+Delta Chat è una moderna applicazione di messaggistica. È come avere le email in una nuova veste. <br>Solo migliore, più sicura e ottimizzata per gli utenti.
 
-**Start immediately** <br> All you need is an email account. With it you can reach any email contact.
+**Inizia subito** <br> Tutto ciò che ti server è un account email. In questo modo potrai raggiungere qualunque contatto email.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-Make use of the numerous features and advantages:
+Utilizza le numerose caratteristiche e i vantaggi offerti:
 
 - Delta Chat is the messenger with the **largest userbase in the world**: Any mail client on any Operating System is compatible
 - Distributed architecture: There is **no central** Delta Chat **server**
@@ -33,4 +33,4 @@ Make use of the numerous features and advantages:
 - Dynamic: Delta Chat offers **group chats**
 
 
-Further reasons and motivations may be found in the blog post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
+Ulteriori ragioni e motivazioni possono essere trovate nel post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better) pubblicato sul blog.
