@@ -25,7 +25,7 @@ You can actively [support](contribute) us in the development.
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-iOS development has started but it nees more work until we can present a download here. [Contributors](contribute) welcome :)
+iOS development has started but it needs more work until we can present a download here. [Contributors](contribute) welcome :)
 
 
 ## Linux
@@ -44,5 +44,5 @@ For Android, you can verify the signing certificate on the APK matches one of th
   `{% include fingerprint-local %}`
 
 To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
-`unzip <APK-file>; keytool -printcert -file META-INF/*.RSA`
+`keytool -list -printcert -jarfile <APK-file>`
 
