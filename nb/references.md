@@ -11,8 +11,8 @@ layout: default-nb
 
 # Referanser
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
-Do we have missed something? Please [let us know](imprint).
+Slev om Delta Chat fremdeles er i beta, har det blitt publisert noen interessante artikler.
+Har vi gått glipp av noe? La oss [høre om det](imprint).
 
 
 ## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie

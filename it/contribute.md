@@ -14,53 +14,53 @@ layout: default-it
 Delta Chat è open source ed è possibile supportarne lo sviluppo futuro.
 
 
-# Channels
+# Canali
 
-If you want to talk with us you may:
+Per entrare in contatto con noi è possibile:
 
-- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
-- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
-- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Iscriversi alla [mailing list di Delta Chat ](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) per discutere con la comunità
+- Collaborareattraverso il [repository di Delta Chat su Github ](https://github.com/deltachat/)
+- Entrare nel canale IRC **#deltachat** su [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
 
-## Donazioni
+# Donazioni
 
 Lo sviluppo di Delta Chat ha un costo. Le donazioni supporteranno in modo diretto i futuri miglioramenti.
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- PayPal o carte di credito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Invio di bitcoin a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?
-[We](imprint)'d love to take it!
+Abbiamo bisogno di **dispositivi** per eseguire i test. Hai un disposito Android o un iPhone che non utilizzi?
+[Noi](imprint) gradiremmo molto averlo!
 
 # Traduzioni
 
-Help to translate the Delta Chat app or the delta.chat website into your language using
+È possibile contribuire alla traduzione dell'appliicazione Delta Chat o del sito web delta.chat nella propria lingua usando
 [Transifex](https://www.transifex.com/delta-chat/public/).
-Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
+In alternativa, è possibile scaricare [questo file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) e [inviare](imprint) a noi la versione tradotta.
 
 Sono anche necessarie persone che vogliano mantenere la pagina Transifex e i contatti con i traduttori.
 
 
 # Sviluppatori
 
-We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.
-Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request.
+Siamo alla ricerca di sviluppatori open source che hanno familiarità con C, Java, Android, iOS, Windows, Linux o Mac.
+Basta modificare il proprio fork di [Delta Chat](https://github.com/deltachat/) e inviare una richiesta di pull.
 
-The same applies for **this webpage** - no matter if you have bigger or smaller improvements: Easily edit this page [here](https://github.com/deltachat/deltachat-pages) and send us a pull request.
+Lo stesso vale per **questa pagina web** - non importa che si tratti di grandi o piccoli miglioramenti, basta modificare questa oagina [qui](https://github.com/deltachat/deltachat-pages) e inviare una richiesta di pull.
 
-# Diffondete la parola ...
+# Diffondete la parola
 
-... ricordando però che, al momento, Delta Chat è ancora in fase beta ed è adatta solo agli utenti _precoci_. Al più presto, appena Delta Chat raggiungerà la versione "1.0", sarà utilizzabile da chiunque.
+Al momento Delta Chat è ancora in fase beta ed è adatta solo agli utenti _precoci_. Le persone che la utilizzano oggi dovrebbero tenere in considerazione che ci saranno cambiamenti. Appena Delta Chat raggiungerà la versione "1.0" diventerà pronta per il emrcato e sarà utilizzabile da _chiunque_.
 
 
 # Segnalazione errori
 
-Usare i **sistemi di tracciamento** per segnalare errori o problemi. Se possibile, aggiungere un descrizione dettagliata; spesso è anche molto utile acquisire una schermata del problema.
+Usare i seguenti **sistemi di tracciamento** per segnalare errori o problemi.
 
-- [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Delta Chat per Android](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat per iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
 
 

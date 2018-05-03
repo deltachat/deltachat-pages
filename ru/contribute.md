@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Сделать вклад
 layout: default-ru
 ---
 
@@ -9,54 +9,55 @@ layout: default-ru
 
 
 
-# Как поддержать нас
+# Как внести свой вклад
 
-Delta Chat с открытым исходным кодом и вы можете поддержать его дальнейшее развитие.
-
-
-# Channels
-
-If you want to talk with us you may:
-
-- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
-- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
-- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+Delta Chat бесплатное приложение с открытым исходным кодом. Вы можете внести свой вклад различными путями для дальнейшего развития его разработки .
 
 
-## Пожертвования
+# Каналы связи
 
-Разработка Delta Chat стоит денег. Ваше пожертвование непосредственно поддержит будущие улучшения.
+Вы можете пообщаться с нами:
+
+- Подписавшись на рассылку [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) обсуждений сообщества
+- Приняв участие в разработке в [Github Delta Chat repositories](https://github.com/deltachat/)
+- Подключившись к IRC **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+
+
+# Пожертвования
+
+Разработка Delta Chat стоит **денег**. Ваше пожертвование поддержит разработку и будущие улучшения напрямую.
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX
 - PayPal или банковская карта: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Отправляйте биткоины на [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?
-[We](imprint)'d love to take it!
+Мы нуждаемся в **устройствах** для тестирования. Если у вас есть ненужный смартфон на базе Android или iPhone?
+[Мы](imprint) с удовольствием примем их в дар!
 
-# Переводы
+# Перевод
 
-Help to translate the Delta Chat app or the delta.chat website into your language using
+Помогайте в переводе приложения Delta Chat или веб сайта delta.chat на ваш язык
 [Transifex](https://www.transifex.com/delta-chat/public/).
-Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
+Наконец, вы можете просто загрузить [этот файл](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) и [отправить](imprint) нам уже переведённую версию.
 
-Мы также ищем людей, которые хотели бы поддерживать страницу Transifex и контакт с переводчиками.
+Мы также ищем людей, которые хотели бы поддерживать страницу Transifex и контакт с русскоязычными переводчиками.
 
 
-# Разработчикам
+# Разработка
 
-Конечно же разработчиков открытого программного обеспечения принимаем радушно! Just make your improvements to your [Delta Chat fork](https://github.com/deltachat/) and send a pull request.
+Нам ищем программистов для открытой разработки, того кто хорошо разбирается в C, Java, Android, iOS, Windows, Linux or Mac.
+Создайте собственный [Delta Chat](https://github.com/deltachat/) форк и сделайте запрос на слияние.
 
-У вас есть отличные идеи или небольшие улучшения для этого **сайта?** Просто [отредактируйте здесь](https://github.com/deltachat/deltachat-pages) и отправьте запрос на слияние.
+Тоже самое и для нашего **сайта** - неважно какие у вас улучшения, большие или маленькие: просто отредактируйте страницу [здесь](https://github.com/deltachat/deltachat-pages) и отправьте запрос на слияние.
 
-# Распространяйте ...
+# Рекомендуйте
 
-... однако в настоящее время Delta Chat все ещё находится в бета-состоянии и подходит только для ранних последователей. Как только Delta Chat достигнет версии "1.0", это будет рекомендацией для всех.
+В данный момент Delta Chat все ещё находится в состоянии бета и рекомендуется только первопроходцам. Как только Delta Chat достигнет версии "1.0", то будет рекомендован для всех.
 
 
 # Отчёты об ошибках
 
-Используйте наши **трекеры**, чтобы сообщить об ошибке. Если это возможно, пожалуйста, добавьте подробное описание; скриншот тоже часто полезен. 
+Используйте наши **Трекеры**, чтобы сообщать об ошибках. По возможности, постарайтесь предоставлять как можно больше информации для фиксации ошибок и их дальнейшего устранения.
 
 - [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)

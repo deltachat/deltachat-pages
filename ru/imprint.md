@@ -1,5 +1,5 @@
 ---
-title: Выходные данные
+title: Контакты
 layout: default-ru
 ---
 
@@ -9,17 +9,18 @@ layout: default-ru
 
 
 
-# Выходные данные
+# Контакты
 
 Delta Chat  
 c/o Björn Petersen  
 Friedrich-Ebert-Str. 1 B  
 25348 Glückstadt, Germany
+Федеративная Республика Германия
 
 E-mail: {% include email-link %}  
-Phone: +49 4124 603889  
+Телефон: +494124603889  
 USt-IdNr. DE214707533
 
-[Community channels](contribute)
+[Сообщество](contribute)
 
-The mailing list server is operated through <https://github.com/codespeaknet/sysadmin>.
+Сервер рассылок <https://github.com/codespeaknet/sysadmin>.
