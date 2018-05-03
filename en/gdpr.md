@@ -1,6 +1,6 @@
 ---
 title: GDPR and Privacy
-layout: default
+layout: default-en
 ---
 
 # Delta is fully compliant with GDPR 
@@ -11,7 +11,7 @@ Delta.chat has:
 
 - no servers: this means ...
 
-- 
+- hello hello test
 
 
 ## Further Information
