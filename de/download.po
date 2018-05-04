@@ -112,7 +112,7 @@ msgid ""
 "of the following SHA256 fingerprints:  "
 msgstr ""
 "Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-"
-"Zertifikats einem der folgenden SHA256-Fingerabdrücke entspricht: "
+"Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:"
 
 #: ../en/download.md:41
 msgid ""
