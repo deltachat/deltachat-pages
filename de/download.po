@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 00:02+0200\n"
+"POT-Creation-Date: 2018-05-03 13:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
@@ -45,19 +45,19 @@ msgstr ""
 "Weitere Varianten für iOS, Mac, Linux oder Windows sind geplant.\n"
 "Gerne können Sie uns bei der Entwicklung [unterstützen](contribute)."
 
-#: ../en/download.md:15
+#: ../en/download.md:14
 msgid "## Android (Beta)"
 msgstr "## Android (Beta)"
 
-#: ../en/download.md:17
+#: ../en/download.md:16
 msgid ""
-"[<img src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)\n"
-"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
+"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"float:right; filter: opacity(.3) grayscale(100%);\" />\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 msgstr ""
-"[<img src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)\n"
-"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
+"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"float:right; filter: opacity(.3) grayscale(100%);\" />\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 
-#: ../en/download.md:20
+#: ../en/download.md:19
 msgid ""
 "* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
@@ -67,23 +67,34 @@ msgstr ""
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
 "* [Änderungen anzeigen]({% include changelog-url %})"
 
-#: ../en/download.md:25
+#: ../en/download.md:24
 msgid "## Apple"
 msgstr "## Apple"
 
-#: ../en/download.md:27
+#: ../en/download.md:26
 msgid ""
 "<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
-"AppStore\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
+"AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
+"grayscale(100%);\" />"
 msgstr ""
 "<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
-"AppStore\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
+"AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
+"grayscale(100%);\" />"
 
-#: ../en/download.md:29
+#: ../en/download.md:28
+msgid ""
+"iOS development has started but it needs more work until we can present a "
+"download here. [Contributors](contribute) welcome :)"
+msgstr ""
+"Mit der iOS-Entwicklung wurde grundsätzlich begonnen, es ist aber weitere "
+"Arbeit notwendig, bis wir hier einen Download anbieten können. [Helfende "
+"Entwickler](contribute) sind sehr willkommen :)"
+
+#: ../en/download.md:31
 msgid "## Linux"
 msgstr "## Linux"
 
-#: ../en/download.md:31
+#: ../en/download.md:33
 msgid ""
 "Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.\n"
 "Further details are provided in our [FAQ](help#multiclient) page."
@@ -91,6 +102,34 @@ msgstr ""
 "Delta Chat für Linux ist noch nicht entwickelt. Es gibt aber die Möglichkeit die Android app in [Anbox](https://anbox.io) (Android in a Box) im Desktop zu nutzen.\n"
 "Weitere Informationen dazu in unserer [Hilfe](help#multiclient) Seite."
 
-#: ../en/download.md:34
-msgid "## Windows"
-msgstr "## Windows"
+#: ../en/download.md:37
+msgid "# Verify Downloads"
+msgstr "# Downloads verifizieren"
+
+#: ../en/download.md:39
+msgid ""
+"For Android, you can verify the signing certificate on the APK matches one "
+"of the following SHA256 fingerprints:  "
+msgstr ""
+"Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-"
+"Zertifikats einem der folgenden SHA256-Fingerabdrücke entspricht: "
+
+#: ../en/download.md:41
+msgid ""
+"* For F-Droid downloads:  \n"
+"  `{% include fingerprint-f-droid %}`\n"
+"* Other APK downloads:  \n"
+"  `{% include fingerprint-local %}`"
+msgstr ""
+"* Für F-Droid-Downloads:  \n"
+"  `{% include fingerprint-f-droid %}`\n"
+"* Andere APK-Downloads:  \n"
+"  `{% include fingerprint-local %}`"
+
+#: ../en/download.md:46
+msgid ""
+"To print the SHA256 fingerprints of the APK signing certificate you can use eg.  \n"
+"`keytool -list -printcert -jarfile <APK-file>`"
+msgstr ""
+"Um den  SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das folgende Kommando verwendet werden:  \n"
+"`keytool -list -printcert -jarfile <APK-Datei>`"

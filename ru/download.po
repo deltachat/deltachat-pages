@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-23 00:02+0200\n"
+"POT-Creation-Date: 2018-05-03 13:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: guland2000 <lycoris@ya.ru>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
@@ -46,19 +46,17 @@ msgstr ""
 "Кроме того в планах выпустить приложение и для iOS, Mac, Linux или Windows.\n"
 "Вы также можете принять активное [участие](contribute) в разработке."
 
-#: ../en/download.md:15
+#: ../en/download.md:14
 msgid "## Android (Beta)"
 msgstr "## Android (Бета)"
 
-#: ../en/download.md:17
+#: ../en/download.md:16
 msgid ""
-"[<img src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)\n"
-"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
+"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"float:right; filter: opacity(.3) grayscale(100%);\" />\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 msgstr ""
-"[<img src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)\n"
-"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
 
-#: ../en/download.md:20
+#: ../en/download.md:19
 msgid ""
 "* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
@@ -68,23 +66,28 @@ msgstr ""
 "* [Загрузить .apk файл](https://github.com/deltachat/deltachat-android/releases) (только для продвинутых пользователей)\n"
 "* [Посмотреть список изменений]({% include changelog-url %})"
 
-#: ../en/download.md:25
+#: ../en/download.md:24
 msgid "## Apple"
 msgstr "## Apple"
 
-#: ../en/download.md:27
+#: ../en/download.md:26
 msgid ""
 "<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
-"AppStore\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
+"AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
+"grayscale(100%);\" />"
 msgstr ""
-"<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
-"AppStore\" width=\"200\" style=\"filter: opacity(.3) grayscale(100%);\" />"
 
-#: ../en/download.md:29
+#: ../en/download.md:28
+msgid ""
+"iOS development has started but it needs more work until we can present a "
+"download here. [Contributors](contribute) welcome :)"
+msgstr ""
+
+#: ../en/download.md:31
 msgid "## Linux"
 msgstr "## Linux"
 
-#: ../en/download.md:31
+#: ../en/download.md:33
 msgid ""
 "Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.\n"
 "Further details are provided in our [FAQ](help#multiclient) page."
@@ -92,6 +95,26 @@ msgstr ""
 "Delta Chat для Linux пока недоступен. Тем не менее вы можете запустить Android приложение в [Anbox](https://anbox.io) (Android in a Box) на вашем ПК.\n"
 "Более подробная информация представлена ​на [FAQ](help#multiclient) странице."
 
-#: ../en/download.md:34
-msgid "## Windows"
-msgstr "## Windows"
+#: ../en/download.md:37
+msgid "# Verify Downloads"
+msgstr ""
+
+#: ../en/download.md:39
+msgid ""
+"For Android, you can verify the signing certificate on the APK matches one "
+"of the following SHA256 fingerprints:  "
+msgstr ""
+
+#: ../en/download.md:41
+msgid ""
+"* For F-Droid downloads:  \n"
+"  `{% include fingerprint-f-droid %}`\n"
+"* Other APK downloads:  \n"
+"  `{% include fingerprint-local %}`"
+msgstr ""
+
+#: ../en/download.md:46
+msgid ""
+"To print the SHA256 fingerprints of the APK signing certificate you can use eg.  \n"
+"`keytool -list -printcert -jarfile <APK-file>`"
+msgstr ""
