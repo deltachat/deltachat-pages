@@ -19,8 +19,8 @@ Mund të [na përkrahni](contribute) aktivisht në zhvillim.
 
 ## Android (Beta)
 
-<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
-[<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
+<img src="../assets/home/get-it-on-gplay.png" alt="Merreni te Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
+[<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Merreni te F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
 * [Shkarkojeni prej F-Droid-i](https://f-droid.org/app/com.b44t.messenger)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
@@ -29,9 +29,9 @@ Mund të [na përkrahni](contribute) aktivisht në zhvillim.
 
 ## Apple
 
-<img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
+<img src="../assets/home/get-it-on-ios.png" alt="Shkarkojeni te Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-iOS development has started but it needs more work until we can present a download here. [Contributors](contribute) welcome :)
+Zhvillimi për iOS ka filluar, por duhet më tepër punë deri sa të mund të paraqesim këtu një shkarkim. [Ndihma](contribute) është e mirëpritur :)
 
 
 ## Linux
@@ -40,15 +40,15 @@ Delta Chat për Linux s’është ende gati. Sidoqoftë, është e mundur të xh
 Hollësi të mëtejshme jepen te faqja jonë [FAQ](help#multiclient).
 
 
-# Verify Downloads
+# Verifikoni Shkarkimet
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+Për Android, mund të verifikoni se dëshmia e nënshkrimit në APK përputhet me një nga shenjat vijuese SHA256 të gishtave:  
 
-* For F-Droid downloads:  
+* Për shkarkime nga F-Droid:  
   `{% include fingerprint-f-droid %}`
-* Other APK downloads:  
+* Të tjera shkarkime APK:  
   `{% include fingerprint-local %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
-`keytool -list -printcert -jarfile <APK-file>`
+Për shtypjen e shenjave të gishtave SHA256 të dëshmisë së nënshkrimit të APK-së mund të përdorni, për shembull,  
+`keytool -list -printcert -jarfile <kartela-APK>`
 
