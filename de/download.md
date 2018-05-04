@@ -42,7 +42,7 @@ Weitere Informationen dazu in unserer [Hilfe](help#multiclient) Seite.
 
 # Downloads verifizieren
 
-Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zertifikats einem der folgenden SHA256-Fingerabdrücke entspricht: 
+Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:
 
 * Für F-Droid-Downloads:  
   `{% include fingerprint-f-droid %}`
