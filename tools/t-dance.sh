@@ -19,7 +19,7 @@
 
 
 sfiles=(blog contribute download features help imprint index references)
-tlangs=(de es fr it nb_NO pl pt ru sq)  # do not add `en` to this list
+tlangs=(ca de es fr it nb_NO pl pt ru sq)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
