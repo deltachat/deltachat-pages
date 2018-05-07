@@ -29,11 +29,13 @@ Directory structure
 Translate the website
 --------------------------------------------------------------------------------
 
-You can edit and improve the existing translations with [Transifex](https://www.transifex.com/delta-chat/delta-chat-pages/); if you want to add a new language, please add it there or [contact us](https://delta.chat/en/contribute#channels).
+You can edit and improve the existing translations with [Transifex](https://www.transifex.com/delta-chat/delta-chat-pages/). To **update existing translations from** the Transifex server, see the scripts and the documentation in the `tools` folder.
 
-To update the translations from the Transifex server, see the scripts and the documentation in the `tools` folder.
-
-If you **add a new language** do not forget to check the automatic language selection in `index.html` in the root directory.
+To **add a new language**, the followinging steps are required once:
+- create a new layout in `/_layouts/default-<lang>.html` and make sure, this layout is referenced in the corresponding Transifex entries as `layout: default-<lang>`
+- create directory `/<lang>`
+- add the language to `tlangs` in `/tools/t-dance.sh` and run `./t-dance.sh pull` from the `tools`-direcory
+- check the language selection in `/index.html` and in `/_includes/footer-languages.html`.
 
 Further Hints
 --------------------------------------------------------------------------------
