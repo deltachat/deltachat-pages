@@ -1,7 +1,8 @@
 Allan Nordhøy  
 aligitor  
 Ampli-fier  
-Björn Petersen  
+Björn Petersen
+Christian Schneider
 Claudio Arseni  
 Dirk Czarsbon  
 Gilles Émilien Morel  
