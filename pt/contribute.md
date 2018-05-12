@@ -14,13 +14,13 @@ layout: default-pt
 Delta Chat é de código aberto e você pode nos ajudar a desenvolvê-lo.
 
 
-# Channels
+# Canais
 
-If you want to talk with us you may:
+Se você quer contatar-nos você pode:
 
-- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
-- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
-- Join IRC channel **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Entrar no [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) para conversar com a comunidade
+- Colaborar pelos [repositórios Github do Delta Chat](https://github.com/deltachat/)
+- Entrar no canal IRC **#deltachat** no [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
 
 
 ## Doe
@@ -28,19 +28,19 @@ If you want to talk with us you may:
 O desenvolvimento do Delta Chat envolve dinheiro. Uma doação sua pode nos ajudar.
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- PayPal ou cartão de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Bitcoins para [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?
+Precisamos de **aparelhos** para fins de teste. Você tem algum smartphone velho?
 [We](imprint)'d love to take it!
 
 # Traduções
 
-Help to translate the Delta Chat app or the delta.chat website into your language using
+Ajude a traduzir o Delta Chat (app ou site) na sua língua usando
 [Transifex](https://www.transifex.com/delta-chat/public/).
-Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
+Alternativamente, você pode baixar [este arquivo](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) e [encaminhar](imprint) a sua tradução.
 
-Estamos precisando de alguém que ajude no gerenciamento da página do Transifex e mantenha contato com os tradutores.
+Precisamos de alguém que ajude no gerenciamento da página do Transifex e mantenha contato com os tradutores.
 
 
 # Desenvolvedores
