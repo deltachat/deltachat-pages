@@ -20,7 +20,7 @@ Die folgenden Kontaktkanäle stehen zur Verfügung:
 
 - Die [Delta Chat Mailingliste](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
 - Die [Github Delta Chat Repositories](https://github.com/deltachat/)
-- Der IRC-Kanal **#deltachat** auf [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Der IRC-Kanal **#deltachat** auf freenode - z.B. über [Web IRC]({% include webirc-url %})
 
 
 # Spenden

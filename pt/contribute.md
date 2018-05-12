@@ -20,7 +20,7 @@ Se você quer contatar-nos você pode:
 
 - Entrar no [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) para conversar com a comunidade
 - Colaborar pelos [repositórios Github do Delta Chat](https://github.com/deltachat/)
-- Entrar no canal IRC **#deltachat** no [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Entrar no canal IRC **#deltachat** no [Freenode]({% include webirc-url %})
 
 
 ## Doe

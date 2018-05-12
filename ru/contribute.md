@@ -18,9 +18,9 @@ Delta Chat бесплатное приложение с открытым исх�
 
 Вы можете пообщаться с нами:
 
-- Подписавшись на рассылку [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) обсуждений сообщества
-- Приняв участие в разработке в [Github Delta Chat repositories](https://github.com/deltachat/)
-- Подключившись к IRC **#deltachat** on [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
 
 
 # Пожертвования
