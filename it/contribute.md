@@ -18,9 +18,9 @@ Delta Chat è open source ed è possibile supportarne lo sviluppo futuro.
 
 Per entrare in contatto con noi è possibile:
 
-- Iscriversi alla [mailing list di Delta Chat ](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) per discutere con la comunità
-- Collaborareattraverso il [repository di Delta Chat su Github ](https://github.com/deltachat/)
-- Entrare nel canale IRC **#deltachat** su [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
 
 
 # Donazioni

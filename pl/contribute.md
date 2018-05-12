@@ -18,9 +18,9 @@ Delta Chat jest otwarto-źródłowy i bezpłatny. Możesz przyczynić się do je
 
 Jeśli chcesz porozmawiać z nami, możesz:
 
-- dołączyć do listy mailingowej, aby porozmawiać o społeczności [Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
+- dołączyć do [listy mailingowej Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) aby wziąć udział w dyskusjach
 - współpracować za pośrednictwem [repozytoriów Github Delta Chat](https://github.com/deltachat/)
-- dołączyć do kanału IRC **#deltachat** na [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- dołączyć do kanału IRC **#deltachat** na freenode - najłatwiej przez [Web IRC]({% include webirc-url %})
 
 
 # Dotacje

@@ -18,9 +18,9 @@ Delta Chat er gratis fri programvare. Du kan bidra på mange måter for å fremm
 
 Hvis du ønsker å snakke med oss kan du:
 
-- Ta del i [Delta Chat-e-postlisten](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for fellesskapsdiskusjoner
-- Samarbeid på [GitHub-kodelageret til Delta Cha]t(https://github.com/deltachat/)
-- Ta del i IRC-kanalen **#deltachat** på [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
 
 
 # Doner

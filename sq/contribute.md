@@ -18,9 +18,9 @@ Delta Chat është me burim të hapur dhe falas. Mund të jepni ndihmesë në sh
 
 Nëse doni të bisedoni me ne:
 
-- Merrni pjesë te [lista e postimeve mbi Delta Chat-in](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) për të ndjekur diskutimet e bashkësisë
-- Bashkëpunojmë përmes [deposh Github Delta Chat](https://github.com/deltachat/)
-- Na gjeni te kanali IRC **#deltachat** në [Freenode](https://webchat.freenode.net?uio=MTE9MjA16a&channels=%23deltachat)
+- Për diskutime te bashkësia, merrni pjesë te [lista e postimeve mbi Delta Chat-in](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
+- Bashkëpunoni përmes [depove Github Delta Chat](https://github.com/deltachat/)
+- Ejani te kanali IRC **#deltachat** në freenode - lehtësisht përmes [Web IRC]({% include webirc-url %})
 
 
 # Dhuroni
