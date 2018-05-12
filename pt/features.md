@@ -11,26 +11,26 @@ layout: default-pt
 
 # Por que usar o Delta Chat? Suas vantagens.
 
-Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.
+O Delta Chat é um app moderno. É como um e-mail numa nova roupagem. <br>Só que melhor, mais seguro e melhorado.
 
-**Start immediately** <br> All you need is an email account. With it you can reach any email contact.
+**Comece já** <br> Basta um e-mail e você poderá contatar todo mundo.
 
 ![Screenshot](../assets/features/start-img4.png)
 
-Make use of the numerous features and advantages:
+Desfrute de diversas vantagens:
 
-- Delta Chat is the messenger with the **largest userbase in the world**: Any mail client on any Operating System is compatible
-- Distributed architecture: There is **no central** Delta Chat **server**
-- Independent: You are **not dependent** on any external service or server - Delta Chat only uses your mail server.
-- Your account is independent of a mobile phone number
-- Fast: **Push messages** in seconds - Rapid interface
-- Powerful: **Unlimited** chats, images, videos, audio messages and more - Multi-client capable
-- Free: Delta Chat will always be: **Free of charge** - Open Source - **Free of ads** - Usable without subscription
-- Safe: **Encrypted** with all common algorithms - Open for source code review
-- Protected: Delta Chat protects you from **spam**
-- Legal: Your **phone book** stays on your smartphone - It is **not uploaded** anywhere
-- Anonymous: **Metadata** like _Who_ communicates with _Whom_, _When_ and _Where_ is **not collected**
-- Dynamic: Delta Chat offers **group chats**
+- O Delta Chat é um app com a **maior quantidade de contatos no mundo**: Qualquer e-mail e Sistema Operacional é compatível
+- Arquitetura distribuída: **Não há servidor central** do Delta Chat
+- Independente: Seja **livre** de qualquer serviço adicional - o Delta Chat precisa apenas de seu e-mail.
+- Sua conta não precisa de um número de telefone
+- Rápido: **Envie menssagens** em segundos - Interface veloz
+- Poderoso: **Sem limites** de chats, imagens, vídeos, áudios e mais
+- Livre: O Delta Chat sempre será: **livre de taxas** - de Código Livre - **livre de publicidade** - independente de novas contas
+- Seguro: **Criptografado** com algoritimos padronizados - código aberto para auditoria
+- Protege você dos **spams**
+- Respeita seus direitos fundamentais: Seus **contatos** não serão devassados - Ficarão intocados **no seu telefone**
+- Anônimo: **Metadados** como _quem_ fala com _quem_, _quando_ e _de onde_ **não são coletados**
+- Dinâmico: O Delta Chat dispõe de **grupos de chat**
 
 
-Further reasons and motivations may be found in the blog post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
+Mais razões e motivos podem ser vistos no seguinte post: [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
