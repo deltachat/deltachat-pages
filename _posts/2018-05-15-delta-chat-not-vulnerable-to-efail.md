@@ -20,7 +20,7 @@ Here are several reasons why Delta Chat is not affected:
   
 4. Delta Chat does not load remote content.
 
-Besides Delta Chat, other Autocrypt supporting apps like K-9 Mail were _never_ affected. Enigmail had released updates two months ago that fix the problem in Version 2.0.
+Besides Delta Chat, other Autocrypt supporting apps like K-9 Mail were _never_ affected. Enigmail had released updates two months ago that fix the problem in Version 2.0. UPDATE: There is still an open vulnerability in Thunderbird, therefore we recommend that you view messages as plain text (menu View > Message Body as > Plain text).
 
 If you use **other mail programs**, we recommend to:
 
