@@ -2,6 +2,9 @@
 layout: default-en
 permalink: /en/:year-:month-:day-:title
 
+# show future post, posts might be confusingly hidden through different timezones otherwise
+future: true
+
 # the following lines are to make the option {{ page.is_post }} available, thanks to 
 # https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post
 defaults:
