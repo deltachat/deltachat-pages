@@ -4,7 +4,8 @@
 
 
 # a shortcut to a "stable" f-droid apk, no need to change it hastily :)
-/apk  https://f-droid.org/repo/com.b44t.messenger_514.apk
+/apk  https://github.com/deltachat/deltachat-android/releases/download/v0.16.0/deltachat-v0.16.0-fdroid.apk
+/new  https://github.com/deltachat/deltachat-android/releases/download/v0.17.2/deltachat-v0.17.2.apk 
 
 
 # legacy urls
