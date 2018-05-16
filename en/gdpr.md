@@ -7,9 +7,12 @@ layout: default-en
 
 - confidentiality: implements end-to-end encryption by default
 - data minimization: The is no alignment or upload of the adressbook content 
-- There are no Delta Server and therefore no processing of delta-specific personal data
+- data avoidance: no Delta Server, no processing of personal data
 
 # The **GDPR** and  **Delta Chat**
+
+Our  current status of refects upon Delta Chat and GDPR ( 16.05.2018)
+
 
 - DeltaChat is processing no personal Date carried out on the controllers behalf and **requires no instructions from or contract with the controller**.
 - by providing a user-friendly end-to-end encryption Delta Chat implements the requirements of the Data Protection Regulation in terms of **Privacy by Design**
