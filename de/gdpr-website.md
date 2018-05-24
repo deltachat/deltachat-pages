@@ -6,7 +6,7 @@ layout: default-de
 
 # Datenschutzerklärung
 
-** Stand: 24. Mai 2018 **
+**Stand: 24. Mai 2018**
 
 Bei Delta.Chat legen wir Wert darauf, dass nicht nur unser Messenger, sondern auch die Delta.Chat-Webseite im Einklang mit der Europäischen Datenschutzgrundverordnung (2016/679) ist. Daher minimieren wir die Verarbeitung Ihrer Daten auf das Nötigste (Privacy by Design).
 
