@@ -30,11 +30,11 @@ Ihre Kontaktadresse für Datenschutzfragen bei DeltaChat:
 
 ### Web-Hoster
 
-Damit wir allen den Inhalt dieser Seite zur verfügung stellen können, arbeiten wir mit einem externen Web-Provider zusammen, der im Zuge seiner technischen Bereitstellung Zugriff auf IP-Adressen hat. Wenn Sie fragen zum genauen Umfang der Datenverarbeitung, Datenlöschung und Speicherdauer haben wenden sie sich gerne an unseren Privacy Mailadresse delta-privacy@merlinux.eu . 
+Damit wir allen den Inhalt dieser Seite zur verfügung stellen können, arbeiten wir mit einem externen Web-Provider zusammen, der im Zuge seiner technischen Bereitstellung Zugriff auf IP-Adressen hat. Wenn Sie fragen zum genauen Umfang der Datenverarbeitung, Datenlöschung und Speicherdauer haben wenden sie sich gerne an die oben genannte Privacy-Email Adresse.  
 
 ### Delta-Mailinglisten
 
-Beim freiwilligen Einschreiben in die codespeak.net Delta-Mailinglisten wird Ihre Email Adresse aus der Eingabemaske, die IP-Adresse des aufrufenden Rechners, Datum und Uhrzeit der Registrierung  übermittelt. Die Verarbeitung dieser Daten dient allein zur Bearbeitung der Kontaktaufnahmen und der Zustellung der öffentlichen Community – Kommunikation. Wie bei Open Source Projekten üblich, lassen sich die geteilten Nachrichten auch in öffentlichen Archiven wiederfinden. Die Rechtsgrundlage für die Verarbeitung bei Vorliegen einer Einwilligung ist Art. 6 I lit. a DSGVO. Die E-Mail Adresse des Nutzers wird nur solange gespeichert, wie das Abonnement der Emailliste aktiv ist. Durch die Abmeldung von den etwaigen  Mailingliste wird ein Wideruf der Einwilligung ermöglicht. 
+Beim freiwilligen Einschreiben in die Delta-Mailinglisten wird Ihre Email Adresse aus der Eingabemaske, die IP-Adresse des aufrufenden Rechners, Datum und Uhrzeit der Registrierung  übermittelt. Die Verarbeitung dieser Daten dient allein zur Bearbeitung der Kontaktaufnahmen und der Zustellung der öffentlichen Community – Kommunikation. Wie bei Open Source Projekten üblich, lassen sich die geteilten Nachrichten auch in öffentlichen Archiven wiederfinden. Die Rechtsgrundlage für die Verarbeitung bei Vorliegen einer Einwilligung ist Art. 6 I lit. a DSGVO. Die E-Mail Adresse des Nutzers wird nur solange gespeichert, wie das Abonnement der Emailliste aktiv ist. Durch die Abmeldung von den etwaigen  Mailingliste wird ein Wideruf der Einwilligung ermöglicht. 
 
 
 ## Betroffenenrechte
