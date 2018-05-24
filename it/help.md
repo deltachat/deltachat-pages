@@ -38,7 +38,7 @@ layout: default-it
 - È _affidabile_ e può essere utilizzata anche per messaggi aziendali.
 - È completamente _open source_ e basta sugli _standard_
 
-## What if the receiver does not use Delta Chat?
+## Cosa succede se il destinatario non usa Delta Chat?
 
 - Il destinatario riceverà una normale email quindi, se quest'ultimo risponderà alla email, la risposta verrà mostrata in Delta Chat.
 
@@ -108,8 +108,8 @@ Gli altri messaggi non compariranno in maniera automatica, sarà possibile veder
 
 ## Come posso verificare la cifratura?
 
-- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- Se è presente un piccolo **lucchetto** a fianco del messaggio, significa che il messaggio è criptato end-to-end _e_ è stato spedito dal mittente selezionato _e_ anche la tua risposta verrà crittografata. 
+- Se non è presente **nessun lucchetto**, il messaggio viene di solito trasportato criptato ad esempio perché tu o il mittente avete disabilitato la crittografia end-to-end o il mittente usa un'applicazione che non la supporta. 
 
 
 ## Come posso verificare la cifratura?
@@ -120,7 +120,7 @@ Selezionare "Crittografia" dal profilo utente:
 - Per il _transport encryption_, questo stato viene mostrato direttamente nel profilo
 
 
-## Which standards are used for end-to-end-encryption?
+## Quali standard vengono usati per la crittografia end-to-end?
 
 - OpenPGP. Il trasporto delle chiavi avviene attraverso [Autocrypt](https://autocrypt.org).
 
@@ -128,7 +128,7 @@ Selezionare "Crittografia" dal profilo utente:
 
 - Sì. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
+- In alternativa, puoi importare la chiave manualmente da "Impostazioni Avanzate / Gestisci chiavi private". Attenzione: assicurati che la chiave non sia protetta da password o rimuovila prima.
 
 Se non si possiede una chiave o non si aveva idea che potesse servirne una, nessun problema: Delta Chat ne genererà una se necessario, non sarà necessaria alcuna operazione.
 
@@ -149,19 +149,19 @@ Se non si possiede una chiave o non si aveva idea che potesse servirne una, ness
 
 # Varie {#miscellaneous}
 
-## Delta Chat on Linux Desktop
+## Delta Chat su Desktop Linux
 
-- You can run Delta Chat on Ubuntu Linux desktop (or other linux distributions supporting the **snap**-package format) by simply installing [Anbox](https://anbox.io) (Android in a Box) from terminal:
+- Puoi usare Delta Chat su desktop Ubuntu (o sulle altre distribuzioni che supportano i pacchetti **snap*) semplicemente installando [Anbox](https://anbox.io) (Android in a Box) dal terminale:
 
   $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
 
-- To add the Delta Chat application, download the *com.b44t.messenger_\<version\>.apk* file from [this](download) page and install it from terminal:
+- Per aggiungere l'applicazione Delta Chat, scarica il file *com.b44t.messenger_\<version\>.apk* da [questa](download) pagina e installalo dal terminale:
 
   $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
 
-  adb is the Android Debug Bridge and can be installed from repository.
+  adb è l'Android Debug Bridge e può essere installato dai repository.
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- Invece di installare Delta Chat direttamente dal file APK, puoi prima installare lo store F-Droid fs [F-Droid-APK](https://f-droid.org/FDroid.apk) e poi installare Delta Chat tramite lo store. Il grande vantaggio in questo caso riguarda le notifiche degli aggiornamenti e la migrazione di configurazioni e chat esistenti.
 
 
 ## Problemi di accesso

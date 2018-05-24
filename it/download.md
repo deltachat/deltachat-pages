@@ -31,7 +31,7 @@ Ulteriori versioni per iOS, Mac, Linux o Windows sono in programma.
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-iOS development has started but it needs more work until we can present a download here. [Contributors](contribute) welcome :)
+Lo sviluppo della versione iOS è iniziato, ma è necessario molto altro lavoro per pubblicare l'app qui. I [collaboratori](contribute) sono benvenuti :)
 
 
 ## Linux
@@ -40,15 +40,14 @@ Delta Chat per Linux non è ancora disponibile. Tuttavia è possibile eseguire l
 Ulteriori dettagli sono disponibile nella nostra pagina delle [FAQ](help#multiclient).
 
 
-# Verify Downloads
+# Verifica Download
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+Per Android, puoi verificare che il certificato della firma nell'APK corrisponda a uno dei seguenti fingerprint SHA256:
 
-* For F-Droid downloads:  
-  `{% include fingerprint-f-droid %}`
-* Other APK downloads:  
-  `{% include fingerprint-local %}`
+* Download tramite F-Droid:
+`{% include fingerprint-f-droid %}`
+* Per gli altri APK:
+`{% include fingerprint-local %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
-`keytool -list -printcert -jarfile <APK-file>`
+Per mostrare i fingerprint SHA256 della firma del certificato dell'APK puoi usare ad es: `keytool -list -printcert -jarfile `
 

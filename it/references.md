@@ -24,7 +24,7 @@ Delta Chat viene menzionata a margine.
 
 ## Linux User (rivista tedesca): Private and Confidential - Privatvergnügen
 
-_"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu Datenkraken wie Whatsapp."_
+_"Delta Chat Messenger è un'alternativa intelligente ed interessante alle applicazioni tentacolari e ruba-dati come Whatsapp."_
 
 03/2018, pagina 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
 
@@ -38,6 +38,6 @@ _"Delta Chat funziona correttamente, come applicazione di messaggistica e come c
 
 ## Cloudette (blog tedesco): Delta Chat – ein neuer Star am Messenger-Himmel?!
 
-_"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen kann [...]"_
+_"A mio avviso l'applicazione è ottima e potrei anche pensare di sostituire gradualmente tutte le altre app di messaggistica[...]"_
 
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>

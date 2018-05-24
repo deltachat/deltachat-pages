@@ -31,7 +31,7 @@ layout: default-ru
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-iOS development has started but it needs more work until we can present a download here. [Contributors](contribute) welcome :)
+Разработка для iOS уже начата, но находится в ранней стадии. Будем рады новым [участникам](contribute) :)
 
 
 ## Linux
@@ -40,15 +40,15 @@ Delta Chat для Linux пока недоступен. Тем не менее в
 Более подробная информация представлена ​на [FAQ](help#multiclient) странице.
 
 
-# Verify Downloads
+# Данные для проверки целостности загруженных файлов
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+При использовании ОС Android, проверить подлинность возможно сравнив отпечатки  SHA256 сертификата установочного файла (.apk) со следующими контрольными суммами:
 
-* For F-Droid downloads:  
-  `{% include fingerprint-f-droid %}`
-* Other APK downloads:  
-  `{% include fingerprint-local %}`
+* Для файлов, полученных из магазина приложений F-Droid: 
+ `{% include fingerprint-f-droid %}`
+* Для установочных файлов .apk, полученных из других источников:
+`{% include fingerprint-local %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
+Посмотреть отпечаток сертификата  SHA256, которым подписан установочный файл APK, возможно, например, при помощи команды 
 `keytool -list -printcert -jarfile <APK-file>`
 
