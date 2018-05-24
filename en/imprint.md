@@ -15,8 +15,7 @@ E-mail: {% include email-link %}
 
 Amtsgericht Freiburg: HRB709589  
 VAT: DE814082730  
-Managing Director: Holger Krekel  
-Prokura: Lene Wagner
+Managing Director: Holger Krekel
 
 [Community channels](contribute)
 
