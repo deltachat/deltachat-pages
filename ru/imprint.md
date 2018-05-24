@@ -11,15 +11,17 @@ layout: default-ru
 
 # Контакты
 
-Delta Chat  
-c/o Björn Petersen  
-Friedrich-Ebert-Str. 1 B  
-25348 Glückstadt, Germany
-Федеративная Республика Германия
+Delta.Chat is an open source community project. Responsible for the content of these pages is:
 
-E-mail: {% include email-link %}  
-Телефон: +494124603889  
-USt-IdNr. DE214707533
+    Merlinux GmbH
+    Reichgrafen Str. 20
+    79102 Freiburg, Germany
+
+E-mail: {% include email-link %}
+
+Amtsgericht Freiburg: HRB709589  
+VAT: DE814082730  
+Managing Director: Holger Krekel
 
 [Сообщество](contribute)
 

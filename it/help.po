@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-10 14:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,7 +102,7 @@ msgstr ""
 
 #: ../en/help.md:35
 msgid "## What if the receiver does not use Delta Chat?"
-msgstr ""
+msgstr "## Cosa succede se il destinatario non usa Delta Chat?"
 
 #: ../en/help.md:37
 msgid ""
@@ -306,6 +306,8 @@ msgid ""
 "- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.\n"
 "- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- Se è presente un piccolo **lucchetto** a fianco del messaggio, significa che il messaggio è criptato end-to-end _e_ è stato spedito dal mittente selezionato _e_ anche la tua risposta verrà crittografata. \n"
+"- Se non è presente **nessun lucchetto**, il messaggio viene di solito trasportato criptato ad esempio perché tu o il mittente avete disabilitato la crittografia end-to-end o il mittente usa un'applicazione che non la supporta. "
 
 #: ../en/help.md:110
 msgid "## How can I verify the sender?"
@@ -325,7 +327,7 @@ msgstr ""
 
 #: ../en/help.md:118
 msgid "## Which standards are used for end-to-end-encryption?"
-msgstr ""
+msgstr "## Quali standard vengono usati per la crittografia end-to-end?"
 
 #: ../en/help.md:120
 msgid ""
@@ -344,6 +346,10 @@ msgid ""
 "e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
 "settings of the other client and follow the instructions shown there."
 msgstr ""
+"- Si. Il miglior modo è inviare un messaggio di configurazione Autocrypt "
+"dall'altro client e-mail. Cerca comandi come \"Avvia trasferimento "
+"impostazioni Autocrypt\" nelle impostazioni dell'altro client e segui le "
+"istruzioni."
 
 #: ../en/help.md:126
 msgid ""
@@ -351,6 +357,9 @@ msgid ""
 "Manage private keys\". Caution: Make sure, the key is not protected by a "
 "password or remove it before."
 msgstr ""
+"- In alternativa, puoi importare la chiave manualmente da \"Impostazioni "
+"Avanzate / Gestisci chiavi private\". Attenzione: assicurati che la chiave "
+"non sia protetta da password o rimuovila prima."
 
 #: ../en/help.md:128
 msgid ""
@@ -413,7 +422,7 @@ msgstr "# Varie {#miscellaneous}"
 
 #: ../en/help.md:147
 msgid "## Delta Chat on Linux Desktop"
-msgstr ""
+msgstr "## Delta Chat su Desktop Linux"
 
 #: ../en/help.md:149
 msgid ""
@@ -421,10 +430,13 @@ msgid ""
 "distributions supporting the **snap**-package format) by simply installing "
 "[Anbox](https://anbox.io) (Android in a Box) from terminal:"
 msgstr ""
+"- Puoi usare Delta Chat su desktop Ubuntu (o sulle altre distribuzioni che "
+"supportano i pacchetti **snap*) semplicemente installando "
+"[Anbox](https://anbox.io) (Android in a Box) dal terminale:"
 
 #: ../en/help.md:151
 msgid "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
-msgstr ""
+msgstr "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
 
 #: ../en/help.md:153
 msgid ""
@@ -432,15 +444,19 @@ msgid ""
 "*com.b44t.messenger_\\<version\\>.apk* file from [this](download) page and "
 "install it from terminal:"
 msgstr ""
+"- Per aggiungere l'applicazione Delta Chat, scarica il file "
+"*com.b44t.messenger_\\<version\\>.apk* da [questa](download) pagina e "
+"installalo dal terminale:"
 
 #: ../en/help.md:155
 msgid "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
-msgstr ""
+msgstr "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
 
 #: ../en/help.md:157
 msgid ""
 "  adb is the Android Debug Bridge and can be installed from repository."
 msgstr ""
+"  adb è l'Android Debug Bridge e può essere installato dai repository."
 
 #: ../en/help.md:159
 msgid ""
@@ -450,6 +466,11 @@ msgid ""
 "information about updates and the migration of existing config and chat "
 "data."
 msgstr ""
+"- Invece di installare Delta Chat direttamente dal file APK, puoi prima "
+"installare lo store F-Droid fs [F-Droid-APK](https://f-droid.org/FDroid.apk)"
+" e poi installare Delta Chat tramite lo store. Il grande vantaggio in questo"
+" caso riguarda le notifiche degli aggiornamenti e la migrazione di "
+"configurazioni e chat esistenti."
 
 #: ../en/help.md:162
 msgid "## Login Issues"

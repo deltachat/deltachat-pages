@@ -11,14 +11,17 @@ layout: default-de
 
 # Impressum
 
-Delta Chat  
-c/o Björn Petersen  
-Friedrich-Ebert-Str. 1 B  
-25348 Glückstadt
+Delta.Chat is an open source community project. Responsible for the content of these pages is:
 
-E-Mail: {% include email-link %}  
-Telefon: +49 4124 603889  
-USt-IdNr. DE214707533
+    Merlinux GmbH
+    Reichgrafen Str. 20
+    79102 Freiburg, Germany
+
+E-mail: {% include email-link %}
+
+Amtsgericht Freiburg: HRB709589  
+VAT: DE814082730  
+Managing Director: Holger Krekel
 
 [Kontakttanäle](contribute)
 

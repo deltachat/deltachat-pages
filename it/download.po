@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-10 14:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Claudio Arseni <claudio.arseni@gmail.com>, 2018\n"
+"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,6 +54,8 @@ msgid ""
 "<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"float:right; filter: opacity(.3) grayscale(100%);\" />\n"
 "[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 msgstr ""
+"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"float:right; filter: opacity(.3) grayscale(100%);\" />\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 
 #: ../en/download.md:19
 msgid ""
@@ -75,12 +77,18 @@ msgid ""
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
 "grayscale(100%);\" />"
 msgstr ""
+"<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
+"AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
+"grayscale(100%);\" />"
 
 #: ../en/download.md:28
 msgid ""
 "iOS development has started but it needs more work until we can present a "
 "download here. [Contributors](contribute) welcome :)"
 msgstr ""
+"Lo sviluppo della versione iOS è iniziato, ma è necessario molto altro "
+"lavoro per pubblicare l'app qui. I [collaboratori](contribute) sono "
+"benvenuti :)"
 
 #: ../en/download.md:31
 msgid "## Linux"
@@ -96,13 +104,15 @@ msgstr ""
 
 #: ../en/download.md:37
 msgid "# Verify Downloads"
-msgstr ""
+msgstr "# Verifica Download"
 
 #: ../en/download.md:39
 msgid ""
 "For Android, you can verify the signing certificate on the APK matches one "
 "of the following SHA256 fingerprints:  "
 msgstr ""
+"Per Android, puoi verificare che il certificato della firma nell'APK "
+"corrisponda a uno dei seguenti fingerprint SHA256:"
 
 #: ../en/download.md:41
 msgid ""
@@ -111,9 +121,15 @@ msgid ""
 "* Other APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
 msgstr ""
+"* Download tramite F-Droid:\n"
+"`{% include fingerprint-f-droid %}`\n"
+"* Per gli altri APK:\n"
+"`{% include fingerprint-local %}`"
 
 #: ../en/download.md:46
 msgid ""
 "To print the SHA256 fingerprints of the APK signing certificate you can use eg.  \n"
 "`keytool -list -printcert -jarfile <APK-file>`"
 msgstr ""
+"Per mostrare i fingerprint SHA256 della firma del certificato dell'APK puoi "
+"usare ad es: `keytool -list -printcert -jarfile `"

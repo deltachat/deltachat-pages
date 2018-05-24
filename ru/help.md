@@ -117,11 +117,11 @@ Delta Chat автоматически показывает ...
 
 В профиле пользователя будет видна следующая информация:
 
-- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
-- For transport encryption, this state is just shown there
+— При использовании сквозного шифрования будут показаны отпечатки двух ключей. Если они совпадают на обоих устройствах, то соединение безопасно.
+— При использовании протокола (TLS), статус будет отображаться
 
 
-## Which standards are used for end-to-end-encryption?
+## Какие стандарты используются для сквозного шифрования?
 
 - Стандарт OpenPGP. Обмен ключами осуществляется через [Autocrypt](https://autocrypt.org).
 
@@ -129,7 +129,7 @@ Delta Chat автоматически показывает ...
 
 - Да. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
+— Также возможно выполнить импорт ключей вручную. Для этого воспользуйтесь пунктом меню «Расширенные настройки →  Управление закрытыми ключами». Внимание: убедитесь в том что ключи незащищены паролем, отключите и/или удалите пароль перед их использованием.
 
 Если у вас нет ключа или вы даже не знаете, что он вам понадобится - не волнуйтесь: Delta Chat сгенерирует его при необходимости, вам не нужно ничего делать.
 
