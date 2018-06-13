@@ -54,6 +54,8 @@ msgid ""
 "<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"float:right; filter: opacity(.3) grayscale(100%);\" />\n"
 "[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 msgstr ""
+"<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"float:right; filter: opacity(.3) grayscale(100%);\" />\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 
 #: ../en/download.md:19
 msgid ""
@@ -75,12 +77,18 @@ msgid ""
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
 "grayscale(100%);\" />"
 msgstr ""
+"<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
+"AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
+"grayscale(100%);\" />"
 
 #: ../en/download.md:28
 msgid ""
 "iOS development has started but it needs more work until we can present a "
 "download here. [Contributors](contribute) welcome :)"
 msgstr ""
+"El desenvolupament a iOS ha començat però necessita més dedicació fins que "
+"poguem mostrar-vos un enllaç de descàrrega aquí. Els "
+"[col·laboradors](contribute) son benvinguts :)"
 
 #: ../en/download.md:31
 msgid "## Linux"
@@ -96,7 +104,7 @@ msgstr ""
 
 #: ../en/download.md:37
 msgid "# Verify Downloads"
-msgstr ""
+msgstr "# Verificació de les descàrregues"
 
 #: ../en/download.md:39
 msgid ""

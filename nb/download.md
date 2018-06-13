@@ -40,13 +40,13 @@ Delta Chat for Linux|GNU er ikke tilgjengelig enda. Dog er det mulig å kjøre A
 Ytterlige detaljer er å finne på vår [O-S-S](help#multiclient)-side.
 
 
-# Verify Downloads
+# Bekreft nedlastinger
 
 For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
 
-* For F-Droid downloads:  
+* For F-Droid-nedlastinger  
   `{% include fingerprint-f-droid %}`
-* Other APK downloads:  
+* Andre APK-nedlastinger:  
   `{% include fingerprint-local %}`
 
 To print the SHA256 fingerprints of the APK signing certificate you can use eg.  

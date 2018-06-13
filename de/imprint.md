@@ -23,6 +23,6 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Managing Director: Holger Krekel
 
-[Kontakttanäle](contribute)
+[Kontaktkanäle](contribute)
 
 Der Mailinglisten-Server wird verwaltet durch <https://github.com/codespeaknet/sysadmin>.

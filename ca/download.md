@@ -31,7 +31,7 @@ Pots [ajudar](contribute)-nos en el seu desenvolupament.
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-iOS development has started but it needs more work until we can present a download here. [Contributors](contribute) welcome :)
+El desenvolupament a iOS ha començat però necessita més dedicació fins que poguem mostrar-vos un enllaç de descàrrega aquí. Els [col·laboradors](contribute) son benvinguts :)
 
 
 ## Linux
@@ -40,7 +40,7 @@ Encara no està disponible Delta Chat per Linux. Tan mateix és possible executa
 Per més informació, consulta la nostra pàgina de  [FAQ](help#multiclient).
 
 
-# Verify Downloads
+# Verificació de les descàrregues
 
 For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
 
