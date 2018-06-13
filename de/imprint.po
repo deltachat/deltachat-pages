@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../en/imprint.md:17
 msgid "[Community channels](contribute)"
-msgstr "[Kontakttanäle](contribute)"
+msgstr "[Kontaktkanäle](contribute)"
 
 #: ../en/imprint.md:19
 msgid ""

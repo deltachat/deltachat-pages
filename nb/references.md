@@ -36,7 +36,7 @@ _"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client."_
 15.10.2017, <https://www.hasecke.eu/post/delta-chat/>
 
 
-## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-Himmel?!
+## Cloudette (Tysk blogg): Delta Chat – en ny stjerne på meldingsforsendelseshimmelen?!
 
 _"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen kann [...]"_
 

@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../en/download.md:37
 msgid "# Verify Downloads"
-msgstr ""
+msgstr "# Bekreft nedlastinger"
 
 #: ../en/download.md:39
 msgid ""
@@ -111,6 +111,10 @@ msgid ""
 "* Other APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
 msgstr ""
+"* For F-Droid-nedlastinger  \n"
+"  `{% include fingerprint-f-droid %}`\n"
+"* Andre APK-nedlastinger:  \n"
+"  `{% include fingerprint-local %}`"
 
 #: ../en/download.md:46
 msgid ""

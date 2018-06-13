@@ -84,13 +84,15 @@ msgstr ""
 
 #: ../en/references.md:30
 msgid "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
-msgstr ""
+msgstr "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
 
 #: ../en/references.md:33
 msgid ""
 "## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-"
 "Himmel?!"
 msgstr ""
+"## Cloudette (Tysk blogg): Delta Chat – en ny stjerne på "
+"meldingsforsendelseshimmelen?!"
 
 #: ../en/references.md:35
 msgid ""

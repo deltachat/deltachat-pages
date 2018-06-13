@@ -18,9 +18,9 @@ Delta Chat es programari de codi obert i gratuït. Hi pots contribuir de moltes 
 
 Si vols parlar amb naltros pots:
 
-- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
-- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
-- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
+- Dona't d'alta a la  [llista de correu del Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pels debats de la comunitat
+- Col·labora als [repositoris Github de Delta Chat](https://github.com/deltachat/)
+- Entra al canal IRC **#deltachat** de freenode - de manera senzilla via [Web IRC]({% include webirc-url %})
 
 
 # Donacions
