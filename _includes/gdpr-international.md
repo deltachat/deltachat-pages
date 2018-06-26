@@ -22,10 +22,10 @@ The current status reflects the General Data Protection Regulation (GDPR) as of 
 
 # How data controllers (organizations) benefit from using Delta Chat in complying to the **GDPR** 
 
-- **No additional information requirements** for the controller to the direct or indirect data subjects 
+- Creates **no additional information requirements** for the controller towards direct or indirect data subjects 
   regarding any collection of address-book-data, article 13, 14 GDPR.
 
-- **No data protection impact assessment**  needs to be carry out for Delta Chat (Article 35 GDPR), because no particular messenger data is collected.
+- Needs **no data protection impact assessment**  to be carry out for Delta Chat (Article 35 GDPR), because it transmit no particular additional messenger data.
 
 - Adding Delta Chat's privacy measures to the 
   **record of processing activities** can have a positive impact 
