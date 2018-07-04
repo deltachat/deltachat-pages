@@ -11,7 +11,7 @@ layout: default-pt
 
 # Por que usar o Delta Chat? Suas vantagens.
 
-O Delta Chat é um app moderno. É como um e-mail numa nova roupagem. <br>Só que melhor, mais seguro e melhorado.
+O Delta Chat é um app moderno. É como um e-mail numa nova roupagem. <br>Só que melhor, mais seguro e otimizado.
 
 **Comece já** <br> Basta um e-mail e você poderá contatar todo mundo.
 

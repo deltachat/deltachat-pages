@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-10 14:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Luis Fernando Stürmer da Rosa <luisfsr@opmbx.org>, 2018\n"
 "Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: ../en/help.md:35
 msgid "## What if the receiver does not use Delta Chat?"
-msgstr ""
+msgstr "## E se o destinatário não for usuário do Delta Chat?"
 
 #: ../en/help.md:37
 msgid ""
@@ -298,24 +298,28 @@ msgid ""
 "- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.\n"
 "- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- Se um **cadiadozinho** for exibido ao lado da mensagem, significa que ela está criptografada ponta a pona _e_ foi enviada por um dado usuário _bem como_ sua resposta também será criptografada ponta a ponta.\n"
+"- **Sem cadiadozinho**, a mensagem só terá criptografia de transporte, e.g., por causa que o remetente usa um aplicativo sem suporte para criptografia ponta a ponta, ou a desabilitou."
 
 #: ../en/help.md:110
 msgid "## How can I verify the sender?"
-msgstr ""
+msgstr "## Como posso verificar se o remetente é ele mesmo?"
 
 #: ../en/help.md:112
 msgid "The user's profile shows some additional information:"
-msgstr ""
+msgstr "O perfil de usuário exibe algumas informações adicionais:"
 
 #: ../en/help.md:114
 msgid ""
 "- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.\n"
 "- For transport encryption, this state is just shown there"
 msgstr ""
+"- Nas mensagens criptografadas ponta a ponta o Delta Chat exibe duas digitais. Se elas conferirem com as do destinatário, a conexão está segura.\n"
+"- No caso de criptografia de transporte, a respectiva informação é simplesmente exibida no aplicativo."
 
 #: ../en/help.md:118
 msgid "## Which standards are used for end-to-end-encryption?"
-msgstr ""
+msgstr "## Quais padrões são utilizados para a criptografia ponta a ponta?"
 
 #: ../en/help.md:120
 msgid ""
@@ -333,6 +337,10 @@ msgid ""
 "e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
 "settings of the other client and follow the instructions shown there."
 msgstr ""
+"- Sim. A melhor maneira é enviar uma mensagem de configuração do Autocrypt "
+"de um para outro cliente de e-mail. Procure pelo sth. com o nome "
+"**Inicializar configuração de transferência do Autocrypt** nas configurações"
+" do outro cliente e siga as respectivas intruções."
 
 #: ../en/help.md:126
 msgid ""
@@ -340,6 +348,9 @@ msgid ""
 "Manage private keys\". Caution: Make sure, the key is not protected by a "
 "password or remove it before."
 msgstr ""
+"- Alternativamente, você pode importar a chave manualmente em "
+"\"Configurações avançadas / Gerir chaves privadas\". Atenção: Certifique-se "
+"de que a chave não esteja protegida por senha ou a remova anteriormente."
 
 #: ../en/help.md:128
 msgid ""
@@ -444,6 +455,10 @@ msgid ""
 "information about updates and the migration of existing config and chat "
 "data."
 msgstr ""
+"- Em vez de instalar o Delta Chat diretamente via APK, primeiro instale o "
+"F-Droid via [F-Droid-APK](https://f-droid.org/FDroid.apk) e após instale o "
+"Delta Chat usando-o. A vantagem é que você receberá atualizações e poderá "
+"migrar suas configurações e dados de conversas."
 
 #: ../en/help.md:162
 msgid "## Login Issues"
