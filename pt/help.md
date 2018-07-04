@@ -38,7 +38,7 @@ layout: default-pt
 - _Seguro_ - pode até mesmo ser utilizado em atividades empresariais
 - Totalmente de _código aberto_ e baseado nos _padrões_ mais usados
 
-## What if the receiver does not use Delta Chat?
+## E se o destinatário não for usuário do Delta Chat?
 
 - Neste caso o destinatário vai receber um e-mail normal - se ele responder, você vai receber a mensagem no Delta Chat.
 
@@ -113,19 +113,19 @@ criptografia fica suspensa até ser reativada novamente, quando possível.
 
 ## Como posso me certificar de que a criptografia ponta a ponta está ativada?
 
-- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- Se um **cadiadozinho** for exibido ao lado da mensagem, significa que ela está criptografada ponta a pona _e_ foi enviada por um dado usuário _bem como_ sua resposta também será criptografada ponta a ponta.
+- **Sem cadiadozinho**, a mensagem só terá criptografia de transporte, e.g., por causa que o remetente usa um aplicativo sem suporte para criptografia ponta a ponta, ou a desabilitou.
 
 
-## How can I verify the sender?
+## Como posso verificar se o remetente é ele mesmo?
 
-The user's profile shows some additional information:
+O perfil de usuário exibe algumas informações adicionais:
 
-- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
-- For transport encryption, this state is just shown there
+- Nas mensagens criptografadas ponta a ponta o Delta Chat exibe duas digitais. Se elas conferirem com as do destinatário, a conexão está segura.
+- No caso de criptografia de transporte, a respectiva informação é simplesmente exibida no aplicativo.
 
 
-## Which standards are used for end-to-end-encryption?
+## Quais padrões são utilizados para a criptografia ponta a ponta?
 
 - OpenPGP. A troca de chaves é feita via [Autocrypt](https://autocrypt.org).
 
@@ -133,7 +133,7 @@ The user's profile shows some additional information:
 
 - Sim. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
+- Alternativamente, você pode importar a chave manualmente em "Configurações avançadas / Gerir chaves privadas". Atenção: Certifique-se de que a chave não esteja protegida por senha ou a remova anteriormente.
 
 Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se preocupe: o Delta Chat fará tudo automaticamente para você.
 
@@ -166,7 +166,7 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
  adb significa "Android Debug Bridge" e pode ser instalado através de repositórios.
 
-- Instead of installing Delta Chat directly via APK file, you can first install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) and then install Delta Chat using the store. The great benefit is the information about updates and the migration of existing config and chat data.
+- Em vez de instalar o Delta Chat diretamente via APK, primeiro instale o F-Droid via [F-Droid-APK](https://f-droid.org/FDroid.apk) e após instale o Delta Chat usando-o. A vantagem é que você receberá atualizações e poderá migrar suas configurações e dados de conversas.
 
 
 ## Problemas de login
