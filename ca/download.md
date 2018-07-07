@@ -42,13 +42,13 @@ Per més informació, consulta la nostra pàgina de  [FAQ](help#multiclient).
 
 # Verificació de les descàrregues
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+Per Android, pots verificar que el certificat de signatura a l'APK coincideix amb alguna d'aquestes petjades SHA256:
 
-* For F-Droid downloads:  
+* Per descàrregues d'F-Droid:  
   `{% include fingerprint-f-droid %}`
-* Other APK downloads:  
+* Altres descàrregues APK:  
   `{% include fingerprint-local %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
+Si vols imprimir les petjades SHA256 del certificat de signatura APK  pots usar per ex.  
 `keytool -list -printcert -jarfile <APK-file>`
 
