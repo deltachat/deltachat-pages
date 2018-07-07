@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-10 14:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Calbasi <joan@calbasi.net>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/delta-chat/teams/76181/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../en/help.md:6
 msgid "# Frequently Asked Questions"
-msgstr ""
+msgstr "# Preguntes freqüents"
 
 #: ../en/help.md:8
 msgid ""
@@ -39,14 +39,19 @@ msgid ""
 "- [Multi-client](#multiclient)\n"
 "- [Miscellaneous](#miscellaneous)"
 msgstr ""
+"- [General](#general)\n"
+"- [Grups](#groups)\n"
+"- [Encriptació](#encryption)\n"
+"- [Multi-client](#multiclient)\n"
+"- [Miscel·lània](#miscellaneous)"
 
 #: ../en/help.md:14
 msgid "# General"
-msgstr ""
+msgstr "# General"
 
 #: ../en/help.md:16
 msgid "## To whom can I write?"
-msgstr ""
+msgstr "## A qui puc escriure?"
 
 #: ../en/help.md:18
 msgid ""
@@ -55,10 +60,16 @@ msgid ""
 "biggest differences to other messengers: There is no need for the receiver "
 "to install the same app as yours."
 msgstr ""
+"- Amb Delta Chat pots escriure a qualsevol adreça de correu electrònic, fins"
+" i tot si el destinatari (encara) no està usant l'app de Delta Chat. Aquesta"
+" és una de les enormes diferències amb altres programes de missatgeria: no "
+"és necessari que el receptor instal·li la mateixa app que tu."
 
 #: ../en/help.md:20
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
 msgstr ""
+"## Quins son els avantatges de Delta Chat comparat amb altres programes de "
+"missatgeria?"
 
 #: ../en/help.md:22
 msgid ""
@@ -75,24 +86,38 @@ msgid ""
 "- _Trustworthy_ - can even be used for business messages\n"
 "- fully _Open Source_ and _Standards_ based"
 msgstr ""
+"- _Independent_ de qualsevol empresa o servei. Les teves dades son _teves_.\n"
+"- Les teves dades no es guarden en un servidor central; d'aquesta manera, en contrast amb molts altres missatgers, Delta Chat fins i tot protegeix les teves metadates (qui escriu a qui?)\n"
+"- No distribueixes el teu llistat de contactes a ningú.\n"
+"- _Rapidesa_ mercès l'ús de Push-IMAP\n"
+"- _La base d'usuaris més gran_ - als receptors que no usin Delta Chat també els arribaran els missatges\n"
+"- _Compatible_ - no només amb ell mateix\n"
+"- Interfície d'usuari _elegant_ i _simple_\n"
+"- Sistema _distribuït_\n"
+"- _Sense spam_ - només es mostren els missatges dels usuaris coneguts\n"
+"- _Fiable_ - segur per un ús professional\n"
+"- _De confiança_ - fins i tot és apte per usar-lo en entorns de negocis\n"
+"- Basat plenament en _Codi Obert_ i _Standards_"
 
 #: ../en/help.md:35
 msgid "## What if the receiver does not use Delta Chat?"
-msgstr ""
+msgstr "## Què passa si el receptor no usa Delta Chat?"
 
 #: ../en/help.md:37
 msgid ""
 "- The receiver will get a normal email then - if he replies to it, you will "
 "see the reply in the Delta Chat app."
 msgstr ""
+"- Llavors el receptor rebrà un missatge de correu electrònic normal - i si "
+"el respon, voràs la resposta a l'app Delta Chat."
 
 #: ../en/help.md:39
 msgid "## Which messages do appear in Delta Chat?"
-msgstr ""
+msgstr "## Quins missatges es mostren al Delta Chat?"
 
 #: ../en/help.md:41
 msgid "Delta Chat automatically shows ..."
-msgstr ""
+msgstr "Delta Chat mostra automàticament..."
 
 #: ../en/help.md:43
 msgid ""
@@ -100,6 +125,9 @@ msgid ""
 "- Messages from contacts **contacted by you**\n"
 "- **Replies** to messages send by you"
 msgstr ""
+"- Missatges de contactes de la teva **llista de contactes**\n"
+"- Missatges de contactes **contactats per tu**\n"
+"- **Respostes** de missatges enviats per tu"
 
 #: ../en/help.md:47
 msgid ""
@@ -107,10 +135,13 @@ msgid ""
 "in the main menu at **Contact requests** and, if desired, start a chat from "
 "there."
 msgstr ""
+"Els altres missatges no es mostren automàticament. Pots veure aquests altres"
+" missatges al menú principal a **Peticions de contacte** i, si vols, "
+"començar un xat des d'allí."
 
 #: ../en/help.md:49
 msgid "## What about Spam?"
-msgstr ""
+msgstr "##Què passa amb l'spam?"
 
 #: ../en/help.md:51
 msgid ""

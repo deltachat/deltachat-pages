@@ -9,50 +9,50 @@ layout: default-ca
 
 
 
-# Frequently Asked Questions
+# Preguntes freqüents
 
 - [General](#general)
-- [Groups](#groups)
-- [Encryption](#encryption)
+- [Grups](#groups)
+- [Encriptació](#encryption)
 - [Multi-client](#multiclient)
-- [Miscellaneous](#miscellaneous)
+- [Miscel·lània](#miscellaneous)
 
 # General
 
-## To whom can I write?
+## A qui puc escriure?
 
-- With Delta Chat, you can write to every existing e-mail address - even if the recipient is not (yet) using the Delta Chat App. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
+- Amb Delta Chat pots escriure a qualsevol adreça de correu electrònic, fins i tot si el destinatari (encara) no està usant l'app de Delta Chat. Aquesta és una de les enormes diferències amb altres programes de missatgeria: no és necessari que el receptor instal·li la mateixa app que tu.
 
-## What are the advantages of Delta Chat compared to other messengers?
+## Quins son els avantatges de Delta Chat comparat amb altres programes de missatgeria?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protect your metadata (who writes to whom?)
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP
-- _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
-- _Compatible_ - not only to itself
-- _Elegant_ and _simple_ user interface
-- _Distributed_ system
-- _No Spam_ - only messages of known users are shown by default
-- _Reliable_ - safe for professional use
-- _Trustworthy_ - can even be used for business messages
-- fully _Open Source_ and _Standards_ based
+- _Independent_ de qualsevol empresa o servei. Les teves dades son _teves_.
+- Les teves dades no es guarden en un servidor central; d'aquesta manera, en contrast amb molts altres missatgers, Delta Chat fins i tot protegeix les teves metadates (qui escriu a qui?)
+- No distribueixes el teu llistat de contactes a ningú.
+- _Rapidesa_ mercès l'ús de Push-IMAP
+- _La base d'usuaris més gran_ - als receptors que no usin Delta Chat també els arribaran els missatges
+- _Compatible_ - no només amb ell mateix
+- Interfície d'usuari _elegant_ i _simple_
+- Sistema _distribuït_
+- _Sense spam_ - només es mostren els missatges dels usuaris coneguts
+- _Fiable_ - segur per un ús professional
+- _De confiança_ - fins i tot és apte per usar-lo en entorns de negocis
+- Basat plenament en _Codi Obert_ i _Standards_
 
-## What if the receiver does not use Delta Chat?
+## Què passa si el receptor no usa Delta Chat?
 
-- The receiver will get a normal email then - if he replies to it, you will see the reply in the Delta Chat app.
+- Llavors el receptor rebrà un missatge de correu electrònic normal - i si el respon, voràs la resposta a l'app Delta Chat.
 
-## Which messages do appear in Delta Chat?
+## Quins missatges es mostren al Delta Chat?
 
-Delta Chat automatically shows ...
+Delta Chat mostra automàticament...
 
-- Messages from contacts in your **address book**
-- Messages from contacts **contacted by you**
-- **Replies** to messages send by you
+- Missatges de contactes de la teva **llista de contactes**
+- Missatges de contactes **contactats per tu**
+- **Respostes** de missatges enviats per tu
 
-Other messages do not appear automatically. You can see the other messages in the main menu at **Contact requests** and, if desired, start a chat from there.
+Els altres missatges no es mostren automàticament. Pots veure aquests altres missatges al menú principal a **Peticions de contacte** i, si vols, començar un xat des d'allí.
 
-## What about Spam?
+##Què passa amb l'spam?
 
 - Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
 - As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
