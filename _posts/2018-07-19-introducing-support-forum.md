@@ -5,7 +5,7 @@ author: "compl4xx"
 
 The Delta X Conference is taking place in Freiburg at the moment, and a lot of
 cool stuff is happening here. One of the things we have been working on here is
-**[https://support.delta.chat]**, our new Support Forum.
+**[support.delta.chat](https://support.delta.chat)**, our new Support Forum.
 
 On the forum, you can help each other with bugs, and discuss feature proposals.
 Good feedback creates good software, and your input is helping a lot. Only when
