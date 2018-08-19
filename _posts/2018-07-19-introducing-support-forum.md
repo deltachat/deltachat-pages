@@ -3,9 +3,9 @@ title: "Introducing the New Support Forum: Join to Help Others and Discuss Featu
 author: "compl4xx"
 ---
 
-The Delta X Conference is taking place in Freiburg at the moment, and a lot of
-cool stuff is happening here. One of the things we have started here is
-**[support.delta.chat](https://support.delta.chat)**, our new Support Forum.
+The Delta X Conference took place in Freiburg a few weeks ago, and a lot of
+cool stuff happened there. One of the things we have started there is
+**[support.delta.chat](https://support.delta.chat)**, the new Support Forum.
 
 On the forum, you can help each other with bugs, and discuss feature proposals.
 Good feedback creates good software, and your input is helping a lot. So help
@@ -24,8 +24,9 @@ going to a hoster.
 
  -> **[Join the Support Forum!](https://support.delta.chat)**
 
-This forum is just one of the things which we initiated at Delta X. We will
-post about other projects in the next days, stay tuned!
+This forum is just one of the things which we initiated at Delta X. It is
+quite empty yet, but as we announce it now, it should be used soon. If someone
+asks you for help about Delta Chat, you can point them there.
 
 Greetings from Delta X!
 
