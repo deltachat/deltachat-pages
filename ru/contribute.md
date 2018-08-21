@@ -16,11 +16,12 @@ Delta Chat бесплатное приложение с открытым исх�
 
 # Каналы связи
 
-Вы можете пообщаться с нами:
+If you want to talk with us or other users you may:
 
- — Подпишитесь на [список рассылки Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) для участия в обсуждениях;
-— Примите участие в совместной разработке в [репозиториях Delta Chat на github](https://github.com/deltachat/);
-— Присоединяйтесь к обсуждениями на IRC-канале **#deltachat** на серверах freenode. Самый простой способ подключиться — использовать [Web IRC]({% include webirc-url %}).
+- Have a look at the [Delta Chat support forum](https://support.delta.chat)
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
 
 
 # Пожертвования
