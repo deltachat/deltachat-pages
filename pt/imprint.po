@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-10 14:37+0200\n"
+"POT-Creation-Date: 2018-08-21 14:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
 "Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
@@ -33,24 +33,33 @@ msgstr "# Aviso legal"
 
 #: ../en/imprint.md:8
 msgid ""
-"Delta Chat  \n"
-"c/o Björn Petersen  \n"
-"Friedrich-Ebert-Str. 1 B  \n"
-"25348 Glückstadt, Germany"
+"Delta.Chat is an open source community project. Responsible for the content "
+"of these pages is:"
 msgstr ""
 
-#: ../en/imprint.md:13
+#: ../en/imprint.md:10
 msgid ""
-"E-mail: {% include email-link %}  \n"
-"Phone: +49 4124 603889  \n"
-"USt-IdNr. DE214707533"
+"    Merlinux GmbH\n"
+"    Reichgrafen Str. 20\n"
+"    79102 Freiburg, Germany"
 msgstr ""
 
-#: ../en/imprint.md:17
+#: ../en/imprint.md:14
+msgid "E-mail: {% include email-link %}"
+msgstr ""
+
+#: ../en/imprint.md:16
+msgid ""
+"Amtsgericht Freiburg: HRB709589  \n"
+"VAT: DE814082730  \n"
+"Managing Director: Holger Krekel"
+msgstr ""
+
+#: ../en/imprint.md:20
 msgid "[Community channels](contribute)"
 msgstr ""
 
-#: ../en/imprint.md:19
+#: ../en/imprint.md:22
 msgid ""
 "The mailing list server is operated through "
 "<https://github.com/codespeaknet/sysadmin>."

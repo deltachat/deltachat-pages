@@ -52,51 +52,51 @@ Delta Chat mostra automàticament...
 
 Els altres missatges no es mostren automàticament. Pots veure aquests altres missatges al menú principal a **Peticions de contacte** i, si vols, començar un xat des d'allí.
 
-##Què passa amb l'spam?
+## Què passa amb l'spam?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
-- However, if really needed, you can **block** any contact.
+- Els missatges de les carpetes d'spam habituals s'ignoren i les adreces que son allà, no es consideren com a contactes coneguts.
+- Com que els missatges de contactes desconeguts no es mostren, normalment **no hi ha spam**.
+- De totes formes, si ho necessites, pots **bloquejar** qualsevol contacte.
 
-## Does Delta Chat support images, videos and other attachments?
+## Delta Chat permet imatges, vídeos i altres adjunts?
 
-- Yes. Beside the plain text, all email-attachments are displayed as separate messages. Outgoing messages will get attachments as needed automatically.
+- Si. A mḉes de text pla, tots els adjunts de correu electrònic es mostren com a missatges separats. Els missatges sortints tindran adjunts automàticament, quan ho requereixin.
 
-## Does Delta Chat support HTML-emails?
+## Delta Chat permet missatges en HTML?
 
-- Yes. If incoming email lacks a plain text part, we convert HTML-emails to plain text ourselves. Outgoing emails always use plain text.
+- Si. Si el missatge entrant no te una part en text pla, naltros convertim els missatges en HTML en text pla. Els missatges sortints sempre usen text pla.
 
-# Groups
+# Grups
 
-## How can I create a group?
+## Com puc crear un grup?
 
-- Select **Add group** from the "Sandwich menu" in the upper left corner of the chat overview.
-- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Selecciona **Afegeix grup** dins el "menú Sandwich" a la cantonada superior esquerra de la vista general del chat.
+- A la pantalla següent, selecciona els **membres del grup** i toca la casella de verificació a la cantonada superior dreta. Després podràs posar un **nom del grup**.
+- Tant aviat com escriguis el **primer missatge** al grup, tots els seus membres seran informats sobre l'existència del nou grup i podran respondre al grup (mentre no escriguis un missatge al grup, aquest romandrà invisible als seus membres).
 
-## Who can add members to a group?
+## Qui pot afegir membres a un grup?
 
-- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
-- To add or delete members, click on the group name in the chat.
+- Cada membre del grup te els **mateixos drets** que els altres. Per això mateix, tothom pot esborrar a qualsevol membre o afegir-ne de nous.
+- Per afegir o esborrar membres, prem a sobre del nom del grup des de la finestra de xat.
 
-## I have deleted myself by accident.
+## M'he esborrat a mi mateix sense voler.
 
-- As you're no longer a group member now, you cannot add yourself again. However, no problem, just ask any other group member in a normal chat to add you again.
+- Com que llavors deixes de ser un membre del grup, no et pots tornar a afegir. Però no pateixis, només cal que li demanis a qualsevol altre membre del grup que t'hi afegeixi un altre vegada. 
 
-## I do not want to receive the messages of a group any longer.
+## No vull rebre més missatges del grup.
 
-- Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.
-- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages.
+- Pots esborrar-te a tu mateix com a membre o esborrar el xat sencer. Si més tard vols apuntar-te un altre cop al grup, demana-li a un altre membre que t'hi afegeixi.
+- També tens l'alternativa d'"emmudir" al grup. Fent això encara rebràs tots els missatges i podràs escriure-hi, però ja no se't notificaran els missatges nous.
 
-# Encryption {#encryption}
+# Encriptació {#encryption}
 
-## Does Delta Chat have an end-to-end-encryption?
+## Delta Chat te una encriptació d'extrem a extrem?
 
-- Yes.
+- Si.
 
-## What do I have to do to activate the end-to-end-encryption?
+## Què he de fer per activar l'encriptació d'extrema  extrem?
 
-- Nothing.
+- Res.
 
 - Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If, one of the chat partners use an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
 
@@ -127,7 +127,7 @@ The user's profile shows some additional information:
 
 ## Can I re-use by existing private key?
 
-- Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+- Si. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
 - Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
 

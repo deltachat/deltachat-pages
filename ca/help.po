@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-10 14:37+0200\n"
+"POT-Creation-Date: 2018-08-21 14:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Calbasi <joan@calbasi.net>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/delta-chat/teams/76181/ca/)\n"
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../en/help.md:49
 msgid "## What about Spam?"
-msgstr "##Què passa amb l'spam?"
+msgstr "## Què passa amb l'spam?"
 
 #: ../en/help.md:51
 msgid ""
@@ -149,10 +149,13 @@ msgid ""
 "- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.\n"
 "- However, if really needed, you can **block** any contact."
 msgstr ""
+"- Els missatges de les carpetes d'spam habituals s'ignoren i les adreces que son allà, no es consideren com a contactes coneguts.\n"
+"- Com que els missatges de contactes desconeguts no es mostren, normalment **no hi ha spam**.\n"
+"- De totes formes, si ho necessites, pots **bloquejar** qualsevol contacte."
 
 #: ../en/help.md:55
 msgid "## Does Delta Chat support images, videos and other attachments?"
-msgstr ""
+msgstr "## Delta Chat permet imatges, vídeos i altres adjunts?"
 
 #: ../en/help.md:57
 msgid ""
@@ -160,24 +163,30 @@ msgid ""
 "separate messages. Outgoing messages will get attachments as needed "
 "automatically."
 msgstr ""
+"- Si. A mḉes de text pla, tots els adjunts de correu electrònic es mostren "
+"com a missatges separats. Els missatges sortints tindran adjunts "
+"automàticament, quan ho requereixin."
 
 #: ../en/help.md:59
 msgid "## Does Delta Chat support HTML-emails?"
-msgstr ""
+msgstr "## Delta Chat permet missatges en HTML?"
 
 #: ../en/help.md:61
 msgid ""
 "- Yes. If incoming email lacks a plain text part, we convert HTML-emails to "
 "plain text ourselves. Outgoing emails always use plain text."
 msgstr ""
+"- Si. Si el missatge entrant no te una part en text pla, naltros convertim "
+"els missatges en HTML en text pla. Els missatges sortints sempre usen text "
+"pla."
 
 #: ../en/help.md:63
 msgid "# Groups"
-msgstr ""
+msgstr "# Grups"
 
 #: ../en/help.md:65
 msgid "## How can I create a group?"
-msgstr ""
+msgstr "## Com puc crear un grup?"
 
 #: ../en/help.md:67
 msgid ""
@@ -185,20 +194,25 @@ msgid ""
 "- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.\n"
 "- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members)."
 msgstr ""
+"- Selecciona **Afegeix grup** dins el \"menú Sandwich\" a la cantonada superior esquerra de la vista general del chat.\n"
+"- A la pantalla següent, selecciona els **membres del grup** i toca la casella de verificació a la cantonada superior dreta. Després podràs posar un **nom del grup**.\n"
+"- Tant aviat com escriguis el **primer missatge** al grup, tots els seus membres seran informats sobre l'existència del nou grup i podran respondre al grup (mentre no escriguis un missatge al grup, aquest romandrà invisible als seus membres)."
 
 #: ../en/help.md:71
 msgid "## Who can add members to a group?"
-msgstr ""
+msgstr "## Qui pot afegir membres a un grup?"
 
 #: ../en/help.md:73
 msgid ""
 "- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.\n"
 "- To add or delete members, click on the group name in the chat."
 msgstr ""
+"- Cada membre del grup te els **mateixos drets** que els altres. Per això mateix, tothom pot esborrar a qualsevol membre o afegir-ne de nous.\n"
+"- Per afegir o esborrar membres, prem a sobre del nom del grup des de la finestra de xat."
 
 #: ../en/help.md:76
 msgid "## I have deleted myself by accident."
-msgstr ""
+msgstr "## M'he esborrat a mi mateix sense voler."
 
 #: ../en/help.md:78
 msgid ""
@@ -206,36 +220,41 @@ msgid ""
 "However, no problem, just ask any other group member in a normal chat to add"
 " you again."
 msgstr ""
+"- Com que llavors deixes de ser un membre del grup, no et pots tornar a "
+"afegir. Però no pateixis, només cal que li demanis a qualsevol altre membre "
+"del grup que t'hi afegeixi un altre vegada. "
 
 #: ../en/help.md:80
 msgid "## I do not want to receive the messages of a group any longer."
-msgstr ""
+msgstr "## No vull rebre més missatges del grup."
 
 #: ../en/help.md:82
 msgid ""
 "- Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.\n"
 "- As an alternative, you can also \"Mute\" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages."
 msgstr ""
+"- Pots esborrar-te a tu mateix com a membre o esborrar el xat sencer. Si més tard vols apuntar-te un altre cop al grup, demana-li a un altre membre que t'hi afegeixi.\n"
+"- També tens l'alternativa d'\"emmudir\" al grup. Fent això encara rebràs tots els missatges i podràs escriure-hi, però ja no se't notificaran els missatges nous."
 
 #: ../en/help.md:85
 msgid "# Encryption {#encryption}"
-msgstr ""
+msgstr "# Encriptació {#encryption}"
 
 #: ../en/help.md:87
 msgid "## Does Delta Chat have an end-to-end-encryption?"
-msgstr ""
+msgstr "## Delta Chat te una encriptació d'extrem a extrem?"
 
 #: ../en/help.md:89
 msgid "- Yes."
-msgstr ""
+msgstr "- Si."
 
 #: ../en/help.md:91
 msgid "## What do I have to do to activate the end-to-end-encryption?"
-msgstr ""
+msgstr "## Què he de fer per activar l'encriptació d'extrema  extrem?"
 
 #: ../en/help.md:93
 msgid "- Nothing."
-msgstr ""
+msgstr "- Res."
 
 #: ../en/help.md:95
 msgid ""

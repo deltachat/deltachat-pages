@@ -16,11 +16,12 @@ Delta Chat é de código aberto e você pode nos ajudar a desenvolvê-lo.
 
 # Canais
 
-Se você quer contatar-nos você pode:
+If you want to talk with us or other users you may:
 
-- Entrar no [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) para conversar com a comunidade
-- Colaborar pelos [repositórios Github do Delta Chat](https://github.com/deltachat/)
-- Entrar no canal IRC **#deltachat** no [Freenode]({% include webirc-url %})
+- Have a look at the [Delta Chat support forum](https://support.delta.chat)
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
 
 
 ## Doe

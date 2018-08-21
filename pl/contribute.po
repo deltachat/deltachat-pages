@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-10 14:37+0200\n"
+"POT-Creation-Date: 2018-08-21 14:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Telegram Polska <sebek@life.pl>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
@@ -44,24 +44,22 @@ msgid "# Channels"
 msgstr "# Kanały"
 
 #: ../en/contribute.md:13
-msgid "If you want to talk with us you may:"
-msgstr "Jeśli chcesz porozmawiać z nami, możesz:"
+msgid "If you want to talk with us or other users you may:"
+msgstr ""
 
 #: ../en/contribute.md:15
 msgid ""
+"- Have a look at the [Delta Chat support forum](https://support.delta.chat)\n"
 "- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions\n"
 "- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)\n"
 "- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})"
 msgstr ""
-"- dołączyć do [listy mailingowej Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) aby wziąć udział w dyskusjach\n"
-"- współpracować za pośrednictwem [repozytoriów Github Delta Chat](https://github.com/deltachat/)\n"
-"- dołączyć do kanału IRC **#deltachat** na freenode - najłatwiej przez [Web IRC]({% include webirc-url %})"
 
-#: ../en/contribute.md:20
+#: ../en/contribute.md:21
 msgid "# Donate"
 msgstr "# Dotacje"
 
-#: ../en/contribute.md:22
+#: ../en/contribute.md:23
 msgid ""
 "Delta Chat development costs **money**. Your donation will support future "
 "improvements directly."
@@ -69,7 +67,7 @@ msgstr ""
 "Rozwój Delta Chat kosztuje. Twoja darowizna będzie bezpośrednio wspierać "
 "przyszłe udoskonalenia."
 
-#: ../en/contribute.md:24
+#: ../en/contribute.md:25
 msgid ""
 "- IBAN DE86100777770428658900, BIC NORSDE51XXX\n"
 "- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
@@ -79,7 +77,7 @@ msgstr ""
 "- PayPal lub karta kredytowa: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
 "Wyślij bitcoiny do [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
 
-#: ../en/contribute.md:28
+#: ../en/contribute.md:29
 msgid ""
 "We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?\n"
 "[We](imprint)'d love to take it!"
@@ -87,11 +85,11 @@ msgstr ""
 "Potrzebujemy **urządzeń** do celów testowych. Czy masz jakiś nieużywany "
 "smartfon z Androidem lub iPhona? [Chcielibyśmy](imprint) go wziąć!"
 
-#: ../en/contribute.md:31
+#: ../en/contribute.md:32
 msgid "# Translation"
 msgstr "# Tłumaczenie"
 
-#: ../en/contribute.md:33
+#: ../en/contribute.md:34
 msgid ""
 "Help to translate the Delta Chat app or the delta.chat website into your language using\n"
 "[Transifex](https://www.transifex.com/delta-chat/public/).\n"
@@ -101,7 +99,7 @@ msgstr ""
 "[Transifexa](https://www.transifex.com/delta-chat/public/).\n"
 "Możesz również pobrać [ten plik](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) i [wysłać](imprint) nam przetłumaczoną wersję."
 
-#: ../en/contribute.md:37
+#: ../en/contribute.md:38
 msgid ""
 "We're also searching for people who would like to maintain the Transifex "
 "page and the contact with the translators."
@@ -109,11 +107,11 @@ msgstr ""
 "Szukamy również osób, które chciałyby prowadzić stronę Transifex i kontakt z"
 " tłumaczami."
 
-#: ../en/contribute.md:40
+#: ../en/contribute.md:41
 msgid "# Development"
 msgstr "# Rozwój"
 
-#: ../en/contribute.md:42
+#: ../en/contribute.md:43
 msgid ""
 "We are looking for open source developers who are familiar with C, Java, Android, iOS, Windows, Linux or Mac.\n"
 "Edit your own [Delta Chat](https://github.com/deltachat/) fork and send a pull request."
@@ -122,7 +120,7 @@ msgstr ""
 "Windows, Linux lub Mac. Stwórz swoją własną modyfikację [Delta "
 "Chat](https://github.com/deltachat/) i wyślij prośbę o pobranie."
 
-#: ../en/contribute.md:45
+#: ../en/contribute.md:46
 msgid ""
 "The same applies for **this webpage** - no matter if you have bigger or "
 "smaller improvements: Easily edit this page "
@@ -134,11 +132,11 @@ msgstr ""
 "[tutaj](https://github.com/deltachat/deltachat-pages) i wyślij nam prośbę o "
 "pobranie."
 
-#: ../en/contribute.md:47
+#: ../en/contribute.md:48
 msgid "# Recommendation"
 msgstr "# Polecaj nas"
 
-#: ../en/contribute.md:49
+#: ../en/contribute.md:50
 msgid ""
 "Currently Delta Chat is still in beta state and is only suitable for early "
 "adopters. People using it today should consider that things are changing. "
@@ -150,16 +148,16 @@ msgstr ""
 "ponieważ rzeczy się zmieniają. W wersji 1.0, Delta Chat stanie się gotowy do"
 " wprowadzenia na rynek i polecania _wszystkim_."
 
-#: ../en/contribute.md:52
+#: ../en/contribute.md:53
 msgid "# Bug Reports"
 msgstr "# Zgłaszanie błędów"
 
-#: ../en/contribute.md:54
+#: ../en/contribute.md:55
 msgid "Use the following **Issue Trackers** to report bugs."
 msgstr ""
 "Aby zgłosić błędy, użyj następujących modułów do **śledzenia problemów**."
 
-#: ../en/contribute.md:56
+#: ../en/contribute.md:57
 msgid ""
 "- [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)\n"
 "- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
