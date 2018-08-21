@@ -10,8 +10,9 @@ Delta Chat is open source and free of charge. You can contribute in many ways to
 
 # Channels
 
-If you want to talk with us you may:
+If you want to talk with us or other users you may:
 
+- Have a look at the [Delta Chat support forum](https://support.delta.chat)
 - Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
 - Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
 - Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
