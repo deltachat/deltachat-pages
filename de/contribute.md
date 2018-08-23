@@ -16,12 +16,12 @@ Delta Chat wird als Open Source kostenlos zur Verfügung gestellt. Sie können a
 
 # Kontaktkanäle
 
-If you want to talk with us or other users you may:
+Wenn Sie mit uns oder anderen Benutzern Kontakt aufnehmen möchten:
 
-- <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
-- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
-- Collaborate through the [Github Delta Chat repositories](https://github.com/deltachat/)
-- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
+- <b>Neu:</b> Schauen Sie in unseren Chat [Delta Chat support forum](https://support.delta.chat)
+- Melden Sie sich bei der [Delta Chat Mailingliste](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) für Diskussionen in der Community an
+- Arbeiten Sie mit uns in den [Github Delta Chat repositories](https://github.com/deltachat/) zusammen
+- Besuchen Sie den IRC channel **#deltachat** über freenode - einfach mit Web IRC]({% include webirc-url %})
 
 
 # Spenden
