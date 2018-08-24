@@ -29,7 +29,7 @@ Nutzen Sie damit die zahlreichen Features und Vorteile:
 - Sicher: **Verschlüsselung** mit allen gängigen Verfahren - Quelloffen und überprüfbar
 - Geschützt: Delta Chat schützt Sie vor lästigen **Spam**-Nachrichten
 - Legal: Alle **Telefonbuch-Daten** bleiben auf ihrem Smartphone - Sie werden **nicht gesammelt**
-- Anonymous: **Metadata** like _Who_ communicates with _Whom_, _When_ and _Where_ is **not collected**
+- Anonymous: **Metadaten** wie z.B. wer mit wem kommuniziert, wann und wo wird **nicht gesammelt**
 - Dynamisch: Delta Chat bietet **Gruppenchats**
 
 
