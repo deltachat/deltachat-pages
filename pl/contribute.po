@@ -45,7 +45,7 @@ msgstr "# Kanały"
 
 #: ../en/contribute.md:13
 msgid "If you want to talk with us or other users you may:"
-msgstr ""
+msgstr "Jeśli chcesz porozmawiać z nami lub innymi użytkownikami, możesz:"
 
 #: ../en/contribute.md:15
 msgid ""
@@ -54,6 +54,10 @@ msgid ""
 "- Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)\n"
 "- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})"
 msgstr ""
+"- <b>Nowość:</b> Zajrzyj na [forum pomocy Delta Chat](https://support.delta.chat)\n"
+"- dołączyć do [listy mailingowej Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) aby wziąć udział w dyskusjach\n"
+"- współpracować za pośrednictwem [repozytoriów Delta Chat](https://github.com/deltachat/)\n"
+"- dołączyć do kanału IRC **#deltachat** na freenode - najłatwiej przez [Web IRC]({% include webirc-url %})"
 
 #: ../en/contribute.md:21
 msgid "# Donate"
