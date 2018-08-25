@@ -36,6 +36,8 @@ msgid ""
 "Delta.Chat is an open source community project. Responsible for the content "
 "of these pages is:"
 msgstr ""
+"Delta.Chat jest projektem społeczności open source. Odpowiedzialność za "
+"treść tych stron spoczywa na:"
 
 #: ../en/imprint.md:10
 msgid ""
@@ -43,10 +45,13 @@ msgid ""
 "    Reichgrafen Str. 20\n"
 "    79102 Freiburg, Germany"
 msgstr ""
+"    Merlinux GmbH\n"
+"    Reichgrafen Str. 20\n"
+"    79102 Freiburg, Germany"
 
 #: ../en/imprint.md:14
 msgid "E-mail: {% include email-link %}"
-msgstr ""
+msgstr "E-mail: {% include email-link %}"
 
 #: ../en/imprint.md:16
 msgid ""
@@ -54,6 +59,9 @@ msgid ""
 "VAT: DE814082730  \n"
 "Managing Director: Holger Krekel"
 msgstr ""
+"Sąd rejonowy Freiburg: HRB709589  \n"
+"VAT: DE814082730  \n"
+"Dyrektor zarządzający: Holger Krekel"
 
 #: ../en/imprint.md:20
 msgid "[Community channels](contribute)"

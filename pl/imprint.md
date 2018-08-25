@@ -11,7 +11,7 @@ layout: default-pl
 
 # Wydawca
 
-Delta.Chat is an open source community project. Responsible for the content of these pages is:
+Delta.Chat jest projektem społeczności open source. Odpowiedzialność za treść tych stron spoczywa na:
 
     Merlinux GmbH
     Reichgrafen Str. 20
@@ -19,9 +19,9 @@ Delta.Chat is an open source community project. Responsible for the content of t
 
 E-mail: {% include email-link %}
 
-Amtsgericht Freiburg: HRB709589  
+Sąd rejonowy Freiburg: HRB709589  
 VAT: DE814082730  
-Managing Director: Holger Krekel
+Dyrektor zarządzający: Holger Krekel
 
 [Kanały społecznościowe](contribute)
 
