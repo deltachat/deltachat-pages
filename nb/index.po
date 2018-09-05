@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-24 13:26+0200\n"
+"POT-Creation-Date: 2018-09-06 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2018\n"
 "Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/delta-chat/teams/76181/nb_NO/)\n"
@@ -13,9 +13,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nb_NO\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
-#: ../en/index.md:1
+#: ../en/index.md:5
 msgid ""
 "---\n"
 "title: The messenger\n"
@@ -27,11 +27,11 @@ msgstr ""
 "layout: default-nb\n"
 "---"
 
-#: ../en/index.md:7
+#: ../en/index.md:8
 msgid "{% include slider-begin.html %}"
 msgstr "{% include slider-begin.html %}"
 
-#: ../en/index.md:9
+#: ../en/index.md:12
 msgid ""
 "# Delta Chat\n"
 "The messenger with the **broadest audience** in the world.  \n"
@@ -41,12 +41,12 @@ msgstr ""
 "Meldingstjenesten med **størst rekkevidde** i verden.\n"
 "**Gratis**, **uavhengig**. e-postkompatibel."
 
-#: ../en/index.md:13
-msgctxt "../en/index.md:13"
+#: ../en/index.md:14
+msgctxt "../en/index.md:14"
 msgid "{% include slider-next.html %}"
-msgstr "{% include slider-next.html %}"
+msgstr ""
 
-#: ../en/index.md:15
+#: ../en/index.md:18
 msgid ""
 "# Independent\n"
 "**There is no Delta Chat server.**  \n"
@@ -56,12 +56,12 @@ msgstr ""
 "**Det finnes ingen Delta Chat-tjener.**\n"
 "Programmet bruker bare e-posttjeneren din."
 
-#: ../en/index.md:19
-msgctxt "../en/index.md:19"
+#: ../en/index.md:20
+msgctxt "../en/index.md:20"
 msgid "{% include slider-next.html %}"
-msgstr "{% include slider-next.html %}"
+msgstr ""
 
-#: ../en/index.md:21
+#: ../en/index.md:24
 msgid ""
 "# Fast\n"
 "**Push messages** in seconds.  \n"
@@ -71,12 +71,12 @@ msgstr ""
 "**Push-meldinger** i løpet av sekunder. \n"
 "Raskt grensesnitt."
 
-#: ../en/index.md:25
-msgctxt "../en/index.md:25"
+#: ../en/index.md:26
+msgctxt "../en/index.md:26"
 msgid "{% include slider-next.html %}"
-msgstr "{% include slider-next.html %}"
+msgstr ""
 
-#: ../en/index.md:27
+#: ../en/index.md:29
 msgid ""
 "# Powerful\n"
 "**Unlimited** chats, images, videos, audio messages and more. Multi-client capable."
@@ -84,12 +84,12 @@ msgstr ""
 "# Kraftig\n"
 "**Ubegrenset** sludring, bilder, videoer, lydmeldinger og mer. Multiklient-kapabel."
 
-#: ../en/index.md:30
-msgctxt "../en/index.md:30"
+#: ../en/index.md:31
+msgctxt "../en/index.md:31"
 msgid "{% include slider-next.html %}"
-msgstr "{% include slider-next.html %}"
+msgstr ""
 
-#: ../en/index.md:32
+#: ../en/index.md:35
 msgid ""
 "# Free\n"
 "**Delta Chat** is free forever.  \n"
@@ -99,12 +99,12 @@ msgstr ""
 "**Delta Chat** er gratis for all fremtid.\n"
 "Fri programvare. Ingen reklame. Inget abonnement. Ingen tilbyderinnhegning."
 
-#: ../en/index.md:36
-msgctxt "../en/index.md:36"
+#: ../en/index.md:37
+msgctxt "../en/index.md:37"
 msgid "{% include slider-next.html %}"
-msgstr "{% include slider-next.html %}"
+msgstr ""
 
-#: ../en/index.md:38
+#: ../en/index.md:40
 msgid ""
 "# Encrypted\n"
 "Encrypted with all common algorithms. Messages stay on your servers."
@@ -112,12 +112,12 @@ msgstr ""
 "# Kryptert\n"
 "Kryptert med alle vanlige algoritmer. Meldinger forblir på dine tjenere."
 
-#: ../en/index.md:41
-msgctxt "../en/index.md:41"
+#: ../en/index.md:42
+msgctxt "../en/index.md:42"
 msgid "{% include slider-next.html %}"
-msgstr "{% include slider-next.html %}"
+msgstr ""
 
-#: ../en/index.md:43
+#: ../en/index.md:45
 msgid ""
 "# Trustworthy\n"
 "**Delta Chat** is safe for business use, compatible and standards-based."
@@ -125,6 +125,6 @@ msgstr ""
 "# Pålitelig\n"
 "**Delta Chat** er trygt for bedriftsbruk, kompatibelt og basert på standarder."
 
-#: ../en/index.md:46
+#: ../en/index.md:47
 msgid "{% include slider-end.html %}"
 msgstr "{% include slider-end.html %}"

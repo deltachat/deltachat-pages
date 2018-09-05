@@ -11,7 +11,7 @@ layout: default-pt
 
 # Aviso legal
 
-Delta.Chat is an open source community project. Responsible for the content of these pages is:
+O Delta.Chat é um projeto de código aberto. O responsável pelo conteúdo desta página é:
 
     Merlinux GmbH
     Reichgrafen Str. 20

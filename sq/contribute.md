@@ -16,12 +16,12 @@ Delta Chat është me burim të hapur dhe falas. Mund të jepni ndihmesë në sh
 
 # Kanale
 
-If you want to talk with us or other users you may:
+Nëse doni të bisedoni me ne ose me përdorues të tjerë, mund të:
 
-- <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
-- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
-- Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)
-- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
+- <b>E re:</b> Hidhini një sy [forumit të asistencës mbi Delta Chat-in](https://support.delta.chat)
+- Merrni pjesë te [lista e postimeve mbi Delta Chat-in](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) për diskutime me bashkësinë
+- Bashkëpunoni përmes [depove të Delta Chat-it](https://github.com/deltachat/)
+- Vini te kanali IRC **#deltachat** në freenode - kollaj, përmes [Web IRC]({% include webirc-url %})
 
 
 # Dhuroni

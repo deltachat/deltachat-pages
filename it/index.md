@@ -13,7 +13,7 @@ layout: default-it
 {% include slider-begin.html %}
 
 # Delta Chat
-L'applicazione di messaggistica con la **maggiore estensione** nel mondo. **Libera**, **sicura**, compatibile con le email.
+L'applicazione di messaggistica con la **maggiore diffusione** al mondo. **Libera**, **sicura**, compatibile con le email.
 
 {% include slider-next.html %}
 
@@ -34,12 +34,12 @@ Conversazioni **illimitate**, immagini, video, messaggi audio e altro ancora. Po
 {% include slider-next.html %}
 
 # Libera
-**Delta Chat** sarà libera per sempre. Open source. Senza annunci. Nessuna registrazione. Senza alcun blocco dai fornitori.
+**Delta Chat** sarà gratuita per sempre. Open source. Senza annunci. Nessuna registrazione. Nessun vincolo.
 
 {% include slider-next.html %}
 
 # Sicura
-**Cifratura** con tutti i comuni algoritmi. I messaggi rimangono sui vostri server.
+**Cifratura** con tutti gli algoritmi più usati. I messaggi rimangono sui vostri server.
 
 {% include slider-next.html %}
 

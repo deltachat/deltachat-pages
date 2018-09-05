@@ -149,26 +149,11 @@ Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne v
 
 # Divers {#miscellaneous}
 
-## Delta Chat sur Linux
+## Does Delta Chat work with _my_ e-mail-provider?
 
-- Vous pouvez exécuter Delta Chat sous Linux Ubuntu (ou d'autres distributions Linux supportant le format **snap**) en installant simplement [Anbox](https://anbox.io) (Android dans une boîte) à partir du terminal:
+- With a rather good chance: Yes :)  
+  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
 
-  $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
-
-- Pour ajouter l'application delta chat, téléchargez le fichier *com.b44t.messenger_\<version\>.apk* à partir de [cette page](../fr/download) et installez-le à partir du terminal:
-
-  $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
-
- adb est le pont de débogage Android et peut être installé à partir du dépot.
-
-- Au lieu d'installer Delta Chat directement via le fichier APK, vous pouvez d'abord installer le magasin F-Froid via [F-Droid-apk](https://f-droid.org/FDroid.apk), puis installer Delta Chat en utilisant le magasin. Le grand avantage est l'information sur les mises à jour et la migration des données de configuration et des discussions existantes.
-
-
-## Problèmes de connexion
-
-J'ai un problème avec ...
-
-- Gmail: Activez "Supporter les applications moins sécurisées" et IMAP, vous pourriez recevoir un mail pour accorder la permission
 
 ## Je suis intéressé par les détails techniques. Pouvez-vous m'en dire plus?
 

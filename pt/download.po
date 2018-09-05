@@ -4,18 +4,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-24 13:26+0200\n"
+"POT-Creation-Date: 2018-09-06 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Luis Fernando Stürmer da Rosa <luisfsr@opmbx.org>, 2018\n"
+"Last-Translator: Luis <luisfsr@opmbx.org>, 2018\n"
 "Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
-#: ../en/download.md:1
+#: ../en/download.md:5
 msgid ""
 "---\n"
 "title: Download\n"
@@ -27,85 +27,104 @@ msgstr ""
 "layout: default-pt\n"
 "---"
 
-#: ../en/download.md:6
+#: ../en/download.md:7
 msgid "# Download Delta Chat"
 msgstr "# Baixe o Delta Chat"
 
-#: ../en/download.md:8
+#: ../en/download.md:9
 msgid "**Delta Chat is currently under development**"
 msgstr "**Atualmente o Delta Chat está sob desenvolvimento ativo**"
 
-#: ../en/download.md:10
+#: ../en/download.md:13
 msgid ""
 "A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. \n"
 "Further variants for iOS, Mac, Linux or Windows are planned.\n"
 "You can actively [support](contribute) us in the development."
 msgstr ""
+"Uma versão em estágio beta está disponível no F-droid. Quando a [versão 1.0](https://github.com/deltachat/deltachat-android/milestone/1) estiver pronta o Delta Chat também ficará disponível na Google Play.\n"
+"Versões para IOs, Mac, Linux e Windows também estão nos planos.\n"
+"Você pode ativamente nos [ajudar](contribute) no desenvolvimento."
 
-#: ../en/download.md:14
+#: ../en/download.md:15
 msgid "## Android (Beta)"
 msgstr "## Android (Beta)"
 
-#: ../en/download.md:16
+#: ../en/download.md:18
 msgid ""
 "<img src=\"../assets/home/get-it-on-gplay.png\" alt=\"Get it on Google Play\" width=\"200\" style=\"float:right; filter: opacity(.3) grayscale(100%);\" />\n"
 "[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 msgstr ""
 
-#: ../en/download.md:19
+#: ../en/download.md:22
 msgid ""
 "* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
 "* [View Changelog]({% include changelog-url %})"
 msgstr ""
+"* [Baixe do F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
+"* [Baixe o APK](https://github.com/deltachat/deltachat-android/releases) (somente para usuários experientes)\n"
+"* [Ver histórico de atualizações]({% include changelog-url %})"
 
-#: ../en/download.md:24
+#: ../en/download.md:25
 msgid "## Apple"
 msgstr ""
 
-#: ../en/download.md:26
+#: ../en/download.md:27
 msgid ""
 "<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
 "grayscale(100%);\" />"
 msgstr ""
 
-#: ../en/download.md:28
+#: ../en/download.md:29
 msgid ""
 "iOS development has started but it needs more work until we can present a "
 "download here. [Contributors](contribute) welcome :)"
 msgstr ""
+"O desenvolvimento para iOS já começou, mas ainda é necessário trabalhar nela"
+" até que seja possível baixá-la. [Desenvolvedores](contribute) são bem-"
+"vindos :)"
 
-#: ../en/download.md:31
+#: ../en/download.md:32
 msgid "## Linux"
 msgstr ""
 
-#: ../en/download.md:33
+#: ../en/download.md:35
 msgid ""
 "Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.\n"
 "Further details are provided in our [FAQ](help#multiclient) page."
 msgstr ""
+"O Delta Chat para o Linux ainda não existe. Porém é possível executar a versão do Android via [Anbox](https://anbox.io) (Android in a Box) no seu desktop.\n"
+"Detalhes no [FAQ](help#multiclient)."
 
-#: ../en/download.md:37
+#: ../en/download.md:38
 msgid "# Verify Downloads"
-msgstr ""
+msgstr "Verificar downloads"
 
-#: ../en/download.md:39
+#: ../en/download.md:40
 msgid ""
 "For Android, you can verify the signing certificate on the APK matches one "
 "of the following SHA256 fingerprints:  "
 msgstr ""
+"Para a versão Android, você pode verificar o certificado do APK comparando "
+"com uma das seguintes impressões SHA256:  "
 
-#: ../en/download.md:41
+#: ../en/download.md:45
 msgid ""
 "* For F-Droid downloads:  \n"
 "  `{% include fingerprint-f-droid %}`\n"
 "* Other APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
 msgstr ""
+"* Para o F-Droid:  \n"
+"  `{% include fingerprint-f-droid %}`\n"
+"* Para APKs:  \n"
+"  `{% include fingerprint-local %}`"
 
-#: ../en/download.md:46
+#: ../en/download.md:48
 msgid ""
 "To print the SHA256 fingerprints of the APK signing certificate you can use eg.  \n"
 "`keytool -list -printcert -jarfile <APK-file>`"
 msgstr ""
+"Para obter as impressões SHA256 do APK você pode usar, por exemplo \n"
+"`keytool -list -printcert -jarfile <APK-file>`"

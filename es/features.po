@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-24 13:26+0200\n"
+"POT-Creation-Date: 2018-09-06 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
@@ -13,9 +13,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
-#: ../en/features.md:1
+#: ../en/features.md:5
 msgid ""
 "---\n"
 "title: Why\n"
@@ -27,31 +27,31 @@ msgstr ""
 "layout: default-es\n"
 "---"
 
-#: ../en/features.md:6
+#: ../en/features.md:7
 msgid "# What Delta Chat offers"
 msgstr ""
 
-#: ../en/features.md:8
+#: ../en/features.md:9
 msgid ""
 "Delta Chat is a modern messenger. It is like email in a new dress. <br>Just "
 "better, safer and user-optimised."
 msgstr ""
 
-#: ../en/features.md:10
+#: ../en/features.md:11
 msgid ""
 "**Start immediately** <br> All you need is an email account. With it you can"
 " reach any email contact."
 msgstr ""
 
-#: ../en/features.md:12
+#: ../en/features.md:13
 msgid "![Screenshot](../assets/features/start-img4.png)"
 msgstr ""
 
-#: ../en/features.md:14
+#: ../en/features.md:15
 msgid "Make use of the numerous features and advantages:"
 msgstr ""
 
-#: ../en/features.md:16
+#: ../en/features.md:28
 msgid ""
 "- Delta Chat is the messenger with the **largest userbase in the world**: Any mail client on any Operating System is compatible\n"
 "- Distributed architecture: There is **no central** Delta Chat **server**\n"

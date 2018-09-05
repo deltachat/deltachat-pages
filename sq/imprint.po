@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-24 13:26+0200\n"
+"POT-Creation-Date: 2018-09-06 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>, 2018\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
@@ -13,9 +13,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
-#: ../en/imprint.md:1
+#: ../en/imprint.md:5
 msgid ""
 "---\n"
 "title: Imprint\n"
@@ -27,35 +27,43 @@ msgstr ""
 "layout: default-sq\n"
 "---"
 
-#: ../en/imprint.md:6
+#: ../en/imprint.md:7
 msgid "# Imprint"
 msgstr "# Imprint"
 
-#: ../en/imprint.md:8
+#: ../en/imprint.md:9
 msgid ""
 "Delta.Chat is an open source community project. Responsible for the content "
 "of these pages is:"
 msgstr ""
+"Delta.Chat është projekt bashkësie burimi të hapur. Përgjegjës për lëndën e "
+"këtyre faqeve është:"
 
-#: ../en/imprint.md:10
+#: ../en/imprint.md:13
 msgid ""
 "    Merlinux GmbH\n"
 "    Reichgrafen Str. 20\n"
 "    79102 Freiburg, Germany"
 msgstr ""
+"    Merlinux GmbH\n"
+"    Reichgrafen Str. 20\n"
+"    79102 Freiburg, Germany"
 
-#: ../en/imprint.md:14
+#: ../en/imprint.md:15
 msgid "E-mail: {% include email-link %}"
-msgstr ""
+msgstr "E-mail: {% include email-link %}"
 
-#: ../en/imprint.md:16
+#: ../en/imprint.md:19
 msgid ""
 "Amtsgericht Freiburg: HRB709589  \n"
 "VAT: DE814082730  \n"
 "Managing Director: Holger Krekel"
 msgstr ""
+"Amtsgericht Freiburg: HRB709589  \n"
+"VAT: DE814082730  \n"
+"Drejtor Ekzekutiv: Holger Krekel"
 
-#: ../en/imprint.md:20
+#: ../en/imprint.md:21
 msgid "[Community channels](contribute)"
 msgstr "[Community channels](jepni ndihmesë)"
 
