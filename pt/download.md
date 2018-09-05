@@ -13,42 +13,42 @@ layout: default-pt
 
 **Atualmente o Delta Chat está sob desenvolvimento ativo**
 
-A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. 
-Further variants for iOS, Mac, Linux or Windows are planned.
-You can actively [support](contribute) us in the development.
+Uma versão em estágio beta está disponível no F-droid. Quando a [versão 1.0](https://github.com/deltachat/deltachat-android/milestone/1) estiver pronta o Delta Chat também ficará disponível na Google Play.
+Versões para IOs, Mac, Linux e Windows também estão nos planos.
+Você pode ativamente nos [ajudar](contribute) no desenvolvimento.
 
 ## Android (Beta)
 
 <img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
-* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %})
+* [Baixe do F-Droid](https://f-droid.org/app/com.b44t.messenger)
+* [Baixe o APK](https://github.com/deltachat/deltachat-android/releases) (somente para usuários experientes)
+* [Ver histórico de atualizações]({% include changelog-url %})
 
 
 ## Apple
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-iOS development has started but it needs more work until we can present a download here. [Contributors](contribute) welcome :)
+O desenvolvimento para iOS já começou, mas ainda é necessário trabalhar nela até que seja possível baixá-la. [Desenvolvedores](contribute) são bem-vindos :)
 
 
 ## Linux
 
-Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.
-Further details are provided in our [FAQ](help#multiclient) page.
+O Delta Chat para o Linux ainda não existe. Porém é possível executar a versão do Android via [Anbox](https://anbox.io) (Android in a Box) no seu desktop.
+Detalhes no [FAQ](help#multiclient).
 
 
-# Verify Downloads
+Verificar downloads
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+Para a versão Android, você pode verificar o certificado do APK comparando com uma das seguintes impressões SHA256:  
 
-* For F-Droid downloads:  
+* Para o F-Droid:  
   `{% include fingerprint-f-droid %}`
-* Other APK downloads:  
+* Para APKs:  
   `{% include fingerprint-local %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
+Para obter as impressões SHA256 do APK você pode usar, por exemplo 
 `keytool -list -printcert -jarfile <APK-file>`
 

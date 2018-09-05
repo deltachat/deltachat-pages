@@ -11,14 +11,13 @@ layout: default-pt
 
 # Referências
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
-Do we have missed something? Please [let us know](imprint).
+Mesmo que Delta Chat esteja ainda em estágio beta, já existem matérias interessantes sobre o projeto.
+Esquecemos de alguma matéria? Por favor [nos comunique](imprint).
 
 
 ## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
 
-This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.
-Delta Chat is mentioned on the edge.
+Artigo que trata do Autocrypt, usado pelo Delta Chat em sua função de criptografia ponta a ponta.
 
 05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
 

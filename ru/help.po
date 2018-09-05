@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-24 13:26+0200\n"
+"POT-Creation-Date: 2018-09-06 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Alex <kekcuha@gmail.com>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
@@ -13,9 +13,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
-#: ../en/help.md:1
+#: ../en/help.md:5
 msgid ""
 "---\n"
 "title: Help\n"
@@ -27,11 +27,11 @@ msgstr ""
 "layout: default-ru\n"
 "---"
 
-#: ../en/help.md:6
+#: ../en/help.md:7
 msgid "# Frequently Asked Questions"
 msgstr "# Часто задаваемые вопросы"
 
-#: ../en/help.md:8
+#: ../en/help.md:13
 msgid ""
 "- [General](#general)\n"
 "- [Groups](#groups)\n"
@@ -45,15 +45,15 @@ msgstr ""
 "- [Мульти-клиент](#multiclient)\n"
 "- [Прочее](#miscellaneous)"
 
-#: ../en/help.md:14
+#: ../en/help.md:15
 msgid "# General"
 msgstr "# Общее"
 
-#: ../en/help.md:16
+#: ../en/help.md:17
 msgid "## To whom can I write?"
 msgstr "## Кому я могу написать?"
 
-#: ../en/help.md:18
+#: ../en/help.md:19
 msgid ""
 "- With Delta Chat, you can write to every existing e-mail address - even if "
 "the recipient is not (yet) using the Delta Chat App. This is one of the "
@@ -65,12 +65,12 @@ msgstr ""
 "Delta Chat. Это одно из самых больших отличий от других мессенджеров: у "
 "получателя нет необходимости устанавливать то же приложение, что и у вас."
 
-#: ../en/help.md:20
+#: ../en/help.md:21
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
 msgstr ""
 "## Каковы преимущества Delta Chat по сравнению с другими мессенджерами?"
 
-#: ../en/help.md:22
+#: ../en/help.md:34
 msgid ""
 "- _Independent_ of any company or services. _You_ own your data.\n"
 "- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protect your metadata (who writes to whom?)\n"
@@ -98,11 +98,11 @@ msgstr ""
 "- _Заслуживающий доверия_ - можно использовать даже для деловой переписки\n"
 "- Полностью _открытый исходный код_ и основан на _стандартах_"
 
-#: ../en/help.md:35
+#: ../en/help.md:36
 msgid "## What if the receiver does not use Delta Chat?"
 msgstr "## Что если получатель не использует Delta Chat?"
 
-#: ../en/help.md:37
+#: ../en/help.md:38
 msgid ""
 "- The receiver will get a normal email then - if he replies to it, you will "
 "see the reply in the Delta Chat app."
@@ -110,15 +110,15 @@ msgstr ""
 "- Ваш адресат получит обычное электронное письмо - если он ответит на него, "
 "вы увидите ответ (в том числе отправленные файлы) в приложении Delta Chat."
 
-#: ../en/help.md:39
+#: ../en/help.md:40
 msgid "## Which messages do appear in Delta Chat?"
 msgstr "## Какие сообщения отображаются в Delta Chat?"
 
-#: ../en/help.md:41
+#: ../en/help.md:42
 msgid "Delta Chat automatically shows ..."
 msgstr "Delta Chat автоматически показывает ..."
 
-#: ../en/help.md:43
+#: ../en/help.md:46
 msgid ""
 "- Messages from contacts in your **address book**\n"
 "- Messages from contacts **contacted by you**\n"
@@ -128,7 +128,7 @@ msgstr ""
 "- Сообщения от контактов, которым **вы писали сами**\n"
 "- **Ответы** на сообщения отправленные вами"
 
-#: ../en/help.md:47
+#: ../en/help.md:48
 msgid ""
 "Other messages do not appear automatically. You can see the other messages "
 "in the main menu at **Contact requests** and, if desired, start a chat from "
@@ -138,11 +138,11 @@ msgstr ""
 "сообщения в пункте главного меню **Запросы контактов** и, при желании, "
 "начать чат оттуда."
 
-#: ../en/help.md:49
+#: ../en/help.md:50
 msgid "## What about Spam?"
 msgstr "## Что насчёт спама?"
 
-#: ../en/help.md:51
+#: ../en/help.md:54
 msgid ""
 "- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.\n"
 "- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.\n"
@@ -152,12 +152,12 @@ msgstr ""
 "- Так как сообщения от совершенно неизвестных контактов не появляются автоматически, вполне нормально, что у вас **не будет спама**.\n"
 "- Однако, если необходимо, вы можете **заблокировать** любой контакт."
 
-#: ../en/help.md:55
+#: ../en/help.md:56
 msgid "## Does Delta Chat support images, videos and other attachments?"
 msgstr ""
 "## Delta Chat поддерживает вложения типа фото, видео или чего-нибудь ещё?"
 
-#: ../en/help.md:57
+#: ../en/help.md:58
 msgid ""
 "- Yes. Beside the plain text, all email-attachments are displayed as "
 "separate messages. Outgoing messages will get attachments as needed "
@@ -167,11 +167,11 @@ msgstr ""
 "виде отдельных сообщений. Исходящие сообщения автоматически получают "
 "вложения."
 
-#: ../en/help.md:59
+#: ../en/help.md:60
 msgid "## Does Delta Chat support HTML-emails?"
 msgstr "## Поддерживает ли Delta Chat HTML-письма?"
 
-#: ../en/help.md:61
+#: ../en/help.md:62
 msgid ""
 "- Yes. If incoming email lacks a plain text part, we convert HTML-emails to "
 "plain text ourselves. Outgoing emails always use plain text."
@@ -180,15 +180,15 @@ msgstr ""
 "«text/plain» , мы преобразуем HTML-письма в текстовый формат самостоятельно."
 " Исходящие письма всегда используют текстовый формат."
 
-#: ../en/help.md:63
+#: ../en/help.md:64
 msgid "# Groups"
 msgstr "# Группы"
 
-#: ../en/help.md:65
+#: ../en/help.md:66
 msgid "## How can I create a group?"
 msgstr "## Как создать группу?"
 
-#: ../en/help.md:67
+#: ../en/help.md:70
 msgid ""
 "- Select **Add group** from the \"Sandwich menu\" in the upper left corner of the chat overview.\n"
 "- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.\n"
@@ -198,11 +198,11 @@ msgstr ""
 "- На следующем экране выберите **участников группы** и нажмите на галочку наверху перед тремя горизонтальными точками в качестве завершения и подтверждения добавления количества участников группы. После этого можно присвойте название новой группы введя его в поле **Введите название группы**. Далее нажмите на галочку в верхнем правом углу для завершения процедуры оформления новой группы.\n"
 "- Как только вы напишете **первое сообщение** в группе, все участники информируются о новой группе и могут ответить в группе (до тех пор, пока вы не пишете сообщение в группе, группа невидима для участников)."
 
-#: ../en/help.md:71
+#: ../en/help.md:72
 msgid "## Who can add members to a group?"
 msgstr "## Кто может добавлять участников в группу?"
 
-#: ../en/help.md:73
+#: ../en/help.md:75
 msgid ""
 "- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.\n"
 "- To add or delete members, click on the group name in the chat."
@@ -210,11 +210,11 @@ msgstr ""
 "- Каждый участник группы имеет **те же права**, что и любой другой. По этой причине каждый может удалить любого участника или добавить нового.\n"
 "- Чтобы добавить или удалить участников, нажмите на название группы в чате."
 
-#: ../en/help.md:76
+#: ../en/help.md:77
 msgid "## I have deleted myself by accident."
 msgstr "## Я случайно себя удалил."
 
-#: ../en/help.md:78
+#: ../en/help.md:79
 msgid ""
 "- As you're no longer a group member now, you cannot add yourself again. "
 "However, no problem, just ask any other group member in a normal chat to add"
@@ -224,11 +224,11 @@ msgstr ""
 "себя снова. Тем не менее, никаких проблем, просто попросите любого другого "
 "участника группы в обычном чате добавить вас снова."
 
-#: ../en/help.md:80
+#: ../en/help.md:81
 msgid "## I do not want to receive the messages of a group any longer."
 msgstr "## Я больше не хочу получать сообщения группы."
 
-#: ../en/help.md:82
+#: ../en/help.md:84
 msgid ""
 "- Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.\n"
 "- As an alternative, you can also \"Mute\" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages."
@@ -236,27 +236,27 @@ msgstr ""
 "- Удалите себя из списка участников или удалите весь чат. Если вы захотите присоединиться к группе позже, попросите другого участника группы добавить вас снова.\n"
 "- В качестве альтернативы, вы также можете \"заглушить\" группу - сделав это, вы будете получать все сообщения и по-прежнему сможете писать, но вы больше не будете уведомлены о каких-либо новых сообщениях."
 
-#: ../en/help.md:85
+#: ../en/help.md:86
 msgid "# Encryption {#encryption}"
 msgstr "# Шифрование {#encryption}"
 
-#: ../en/help.md:87
+#: ../en/help.md:88
 msgid "## Does Delta Chat have an end-to-end-encryption?"
 msgstr "## Delta Chat поддерживает сквозное шифрование?"
 
-#: ../en/help.md:89
+#: ../en/help.md:90
 msgid "- Yes."
 msgstr "- Да."
 
-#: ../en/help.md:91
+#: ../en/help.md:92
 msgid "## What do I have to do to activate the end-to-end-encryption?"
 msgstr "## Что нужно сделать, чтобы активировать сквозное шифрование?"
 
-#: ../en/help.md:93
+#: ../en/help.md:94
 msgid "- Nothing."
 msgstr "- Ничего."
 
-#: ../en/help.md:95
+#: ../en/help.md:96
 msgid ""
 "- Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-"
 "programs) share the keys required for end-to-end-encryption automatically as"
@@ -274,7 +274,7 @@ msgstr ""
 " пока шифрование не будет перезапущено автоматически, настолько быстро "
 "насколько это возможно."
 
-#: ../en/help.md:97
+#: ../en/help.md:98
 msgid ""
 "- If you want to _deactivate_ the end-to-end-encryption, use the "
 "corresponding setting at \"Settings / Advanced settings\"."
@@ -282,23 +282,23 @@ msgstr ""
 "- Если вы хотите _отключить_ сквозное шифрование, используйте "
 "соответствующий пункт в меню \"Настройки / Расширенные настройки\"."
 
-#: ../en/help.md:99
+#: ../en/help.md:100
 msgid ""
 "## If end-to-end-encryption is not available, is the connection not "
 "encrypted at all?"
 msgstr "## Если сквозное шифрование недоступно, связь не шифруется вообще?"
 
-#: ../en/help.md:101
+#: ../en/help.md:102
 msgid "- No. The normal, email-standard _transport encryption_ is used then."
 msgstr ""
 "- Это не так. Используется обыкновенный _криптографический протокол TLS _ "
 "стандартный для электронной почты."
 
-#: ../en/help.md:104
+#: ../en/help.md:105
 msgid "## How can I check the encryption?"
 msgstr "## Как проверить шифрование?"
 
-#: ../en/help.md:106
+#: ../en/help.md:108
 msgid ""
 "- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.\n"
 "- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption."
@@ -306,15 +306,15 @@ msgstr ""
 "- Если маленький **замок** виден за сообщением, значит это сообщение зашифровано _и_ отправлено от отправителя применившего протокол сквозного шифрования _и_ ваш ответ также будет зашифрован.\n"
 "- Если **нет замка**, значит сообщение зашифровано по обычному протоколу TLS, например потому, что отправитель отключил сквозное шифрование или его приложение не поддерживает данный протокол."
 
-#: ../en/help.md:110
+#: ../en/help.md:111
 msgid "## How can I verify the sender?"
 msgstr "## Как мне проверить отправителя?"
 
-#: ../en/help.md:112
+#: ../en/help.md:113
 msgid "The user's profile shows some additional information:"
 msgstr "В профиле пользователя будет видна следующая информация:"
 
-#: ../en/help.md:114
+#: ../en/help.md:116
 msgid ""
 "- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.\n"
 "- For transport encryption, this state is just shown there"
@@ -322,22 +322,22 @@ msgstr ""
 "— При использовании сквозного шифрования будут показаны отпечатки двух ключей. Если они совпадают на обоих устройствах, то соединение безопасно.\n"
 "— При использовании протокола (TLS), статус будет отображаться"
 
-#: ../en/help.md:118
+#: ../en/help.md:119
 msgid "## Which standards are used for end-to-end-encryption?"
 msgstr "## Какие стандарты используются для сквозного шифрования?"
 
-#: ../en/help.md:120
+#: ../en/help.md:121
 msgid ""
 "- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org)."
 msgstr ""
 "- Стандарт OpenPGP. Обмен ключами осуществляется через "
 "[Autocrypt](https://autocrypt.org)."
 
-#: ../en/help.md:122
+#: ../en/help.md:123
 msgid "## Can I re-use by existing private key?"
 msgstr "## Можно ли использовать существующий закрытый ключ?"
 
-#: ../en/help.md:124
+#: ../en/help.md:125
 msgid ""
 "- Yes. The best way is to send an Autocrypt Setup Message from the other "
 "e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
@@ -348,7 +348,7 @@ msgstr ""
 "\"Autocrypt Setup Message\" в параметрах своего приложения и следуйте "
 "дальнейшим указаниям."
 
-#: ../en/help.md:126
+#: ../en/help.md:127
 msgid ""
 "- Alternatively, you can import the key manually at \"Advanced settings / "
 "Manage private keys\". Caution: Make sure, the key is not protected by a "
@@ -359,7 +359,7 @@ msgstr ""
 "Внимание: убедитесь в том что ключи незащищены паролем, отключите и/или "
 "удалите пароль перед их использованием."
 
-#: ../en/help.md:128
+#: ../en/help.md:129
 msgid ""
 "If you don't have a key or don't even know you would need one - don't worry:"
 " Delta Chat generates one as needed, you have to do nothing."
@@ -368,16 +368,16 @@ msgstr ""
 "волнуйтесь: Delta Chat сгенерирует его при необходимости, вам не нужно "
 "ничего делать."
 
-#: ../en/help.md:130
+#: ../en/help.md:131
 msgid "# Multi-client {#multiclient}"
 msgstr "# Мульти-клиент {#multiclient}"
 
-#: ../en/help.md:132
+#: ../en/help.md:133
 msgid "## Can I use Delta Chat on multiple devices the same time?"
 msgstr ""
 "## Могу ли я использовать Delta Chat на нескольких устройствах одновременно?"
 
-#: ../en/help.md:134
+#: ../en/help.md:135
 msgid ""
 "- If you want to use the **same account** on different devices, you have to "
 "make sure, all devices use the same keys for encryption:"
@@ -386,7 +386,7 @@ msgstr ""
 "устройствах, вы должны убедиться, что все устройства используют одни и те же"
 " ключи шифрования:"
 
-#: ../en/help.md:136
+#: ../en/help.md:139
 msgid ""
 "  - On the first device, choose \"Advanced settings / Manage private keys / Export key to Downloads\"\n"
 "  - Via USB, copy the key file from the \"Downloads\" directory of the first device to the second one.\n"
@@ -396,7 +396,7 @@ msgstr ""
 " - Через USB скопируйте файл ключа из каталога \"Загрузки\" первого устройства на второе.\n"
 " - На втором устройстве выберите \"Дополнительные настройки / Управление закрытыми ключами / Импорт ключа\""
 
-#: ../en/help.md:140
+#: ../en/help.md:141
 msgid ""
 "- All this is **not needed** for the standard usage of Delta Chat using just"
 " one device."
@@ -404,7 +404,7 @@ msgstr ""
 "- Всё это **не требуется** для стандартного использования Delta Chat с "
 "помощью только одного устройства."
 
-#: ../en/help.md:142
+#: ../en/help.md:143
 msgid ""
 "- NB: In multi-client mode, _incoming_ messages are shown at once on all "
 "clients. _Outgoing_ messages are synced about two times an hour. We can "
@@ -415,84 +415,25 @@ msgstr ""
 "два раза в час. Возможно мы можем это улучшить, но нам требуется "
 "дополнительная поддержка по данному вопросу."
 
-#: ../en/help.md:145
+#: ../en/help.md:146
 msgid "# Miscellaneous"
 msgstr "# Прочее"
 
-#: ../en/help.md:147
-msgid "## Delta Chat on Linux Desktop"
-msgstr "## Delta Chat на компьютере с Linux Desktop"
-
-#: ../en/help.md:149
-msgid ""
-"- You can run Delta Chat on Ubuntu Linux desktop (or other linux "
-"distributions supporting the **snap**-package format) by simply installing "
-"[Anbox](https://anbox.io) (Android in a Box) from terminal:"
+#: ../en/help.md:148
+msgid "## Does Delta Chat work with _my_ e-mail-provider?"
 msgstr ""
-"- Вы можете запустить Delta Chat на компьютере с Ubuntu Linux (или другом "
-"дистрибутиве GNU/Linux, поддерживающем формат пакетов snap) путём простой "
-"установки [Anbox](https://anbox.io) через терминал:"
 
 #: ../en/help.md:151
-msgid "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
-msgstr "  $ *sudo snap install \\-\\-classic anbox-installer && anbox-installer*"
-
-#: ../en/help.md:153
 msgid ""
-"- To add the Delta Chat application, download the "
-"*com.b44t.messenger_\\<version\\>.apk* file from [this](download) page and "
-"install it from terminal:"
+"- With a rather good chance: Yes :)  \n"
+"  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)"
 msgstr ""
-"- Чтобы добавить приложение Delta Chat, загрузите файл "
-"*com.b44t.messenger_<version\\>.apk* [отсюда](download) и установите через "
-"терминал:"
 
-#: ../en/help.md:155
-msgid "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
-msgstr "  $ *adb install path/to/com.b44t.messenger_\\<version\\>.apk*"
-
-#: ../en/help.md:157
-msgid ""
-"  adb is the Android Debug Bridge and can be installed from repository."
-msgstr ""
-"adb - это утилита Android Debug Bridge и она может быть установлена из "
-"репозитория"
-
-#: ../en/help.md:159
-msgid ""
-"- Instead of installing Delta Chat directly via APK file, you can first "
-"install the F-Droid store via [F-Droid-APK](https://f-droid.org/FDroid.apk) "
-"and then install Delta Chat using the store. The great benefit is the "
-"information about updates and the migration of existing config and chat "
-"data."
-msgstr ""
-"- Вместо того чтобы загрузить .apk файл Delta Chat, вы можете установить его"
-" через магазин приложений F-Droid [F-Droid-"
-"APK](https://f-droid.org/FDroid.apk). В таком случае вы получите большое "
-"преимущество, так как будете получать актуальную информацию об обновлениях и"
-" изменениях в существующей конфигурации и данных чата."
-
-#: ../en/help.md:162
-msgid "## Login Issues"
-msgstr "## Проблемы со входом"
-
-#: ../en/help.md:164
-msgid "I have a problem with ..."
-msgstr "У меня проблема с ..."
-
-#: ../en/help.md:166
-msgid ""
-"- Gmail: Enable \"Support less secure apps\" and IMAP, you may receive a "
-"mail to grant permission"
-msgstr ""
-"- Gmail: Включите \"Поддержка менее безопасных приложений\" и IMAP (вы "
-"можете получить письмо, чтобы предоставить разрешение)"
-
-#: ../en/help.md:168
+#: ../en/help.md:154
 msgid "## I'm interested in the technical details. Can you tell me more?"
 msgstr "## Меня интересуют технические детали. Можете рассказать больше?"
 
-#: ../en/help.md:170
+#: ../en/help.md:155
 msgid ""
 "- See page [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""

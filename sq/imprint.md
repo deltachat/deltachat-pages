@@ -11,7 +11,7 @@ layout: default-sq
 
 # Imprint
 
-Delta.Chat is an open source community project. Responsible for the content of these pages is:
+Delta.Chat është projekt bashkësie burimi të hapur. Përgjegjës për lëndën e këtyre faqeve është:
 
     Merlinux GmbH
     Reichgrafen Str. 20
@@ -21,7 +21,7 @@ E-mail: {% include email-link %}
 
 Amtsgericht Freiburg: HRB709589  
 VAT: DE814082730  
-Managing Director: Holger Krekel
+Drejtor Ekzekutiv: Holger Krekel
 
 [Community channels](jepni ndihmesë)
 

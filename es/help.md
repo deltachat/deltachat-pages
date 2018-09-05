@@ -150,26 +150,11 @@ Si no posee una clave, no se preocupe, Delta Chat generará una clave automatica
 
 # Miscelaneo
 
-## Delta Chat en Linux
+## Does Delta Chat work with _my_ e-mail-provider?
 
-- Delta Chat funciona en Ubunu Linux (o en cualquier otra distribución que soporte el formato de paquetes **snap**) simplemente instalando [Anbox](https://anbox.io) (Android in a Box) desde la terminal:
+- With a rather good chance: Yes :)  
+  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
 
- $ *sudo snap install \-\-classic anbox-installer && anbox-installer*
-
-- Para agregar la aplicación Delta Chat, descarga el archivo *com.b44t.messenger_\<version\>.apk* desde [esta](download) pagina e instalalo desde la terminal:
-
- $ *adb install path/to/com.b44t.messenger_\<version\>.apk*
-
-adb son las siglas de Android Debug Brige y puede ser instalado desde los repositorios.
-
-- En vez de instalar Delta Chat directamente desde el archivo APK, podes primero instalar el almacén de aplicaciones F-Droid vía [F-Droid-APK](https://f-droid.org/FDroid.apk)  y luego desde allí instalar Delta Chat. La mayor ventaja es que te informara sobre las actualizaciones y migrara la información y las conversaciones al instalarlas.
-
-
-# Problemas de Login
-
-Tengo un problema con ...
-
-- Gmail: habilitar "Soporte para aplicaciones poco seguras" e IMAP, debería llegarte un mail para conceder permisos
 
 ## Estoy interesado en los detalles técnicos. ¿Podrías decirme más?
 

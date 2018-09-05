@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-24 13:26+0200\n"
+"POT-Creation-Date: 2018-09-06 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Telegram Polska <sebek@life.pl>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
@@ -13,9 +13,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
-#: ../en/references.md:1
+#: ../en/references.md:5
 msgid ""
 "---\n"
 "title: References\n"
@@ -27,11 +27,11 @@ msgstr ""
 "layout: default-pl\n"
 "---"
 
-#: ../en/references.md:6
+#: ../en/references.md:7
 msgid "# References"
 msgstr "# Referencje"
 
-#: ../en/references.md:8
+#: ../en/references.md:10
 msgid ""
 "Although Delta Chat is still in beta state, there are already some interesting articles.\n"
 "Do we have missed something? Please [let us know](imprint)."
@@ -39,7 +39,7 @@ msgstr ""
 "Chociaż Delta Chat jest nadal w fazie beta, jest już kilka interesujących artykułów.\n"
 "Jeśli coś przeoczyliśmy, [daj nam znać](imprint)."
 
-#: ../en/references.md:12
+#: ../en/references.md:13
 msgid ""
 "## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-"
 "Kryptografie"
@@ -47,7 +47,7 @@ msgstr ""
 "## iX (niemiecki magazyn): Dargereicht - Autocrypt automatisiert E-Mail-"
 "Kryptografie"
 
-#: ../en/references.md:14
+#: ../en/references.md:16
 msgid ""
 "This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.\n"
 "Delta Chat is mentioned on the edge."
@@ -55,20 +55,20 @@ msgstr ""
 "Ten artykuł dotyczy Autocrypt, specyfikacji używanej przez Delta Chat do konfiguracji end-to-end.\n"
 "Delta Chat jest tam wymieniony."
 
-#: ../en/references.md:17
+#: ../en/references.md:18
 msgid ""
 "05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
 msgstr ""
 "05/2018, strona 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
 
-#: ../en/references.md:19
+#: ../en/references.md:20
 msgid ""
 "## Linux User (German magazine): Private and Confidential - Privatvergnügen"
 msgstr ""
 "## Linux User (niemiecki magazyn): Private and Confidential - "
 "Privatvergnügen"
 
-#: ../en/references.md:21
+#: ../en/references.md:22
 msgid ""
 "_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
 " Datenkraken wie Whatsapp.\"_"
@@ -76,7 +76,7 @@ msgstr ""
 "_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
 " Datenkraken wie Whatsapp.\"_"
 
-#: ../en/references.md:23
+#: ../en/references.md:24
 msgid ""
 "03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-"
 "Artikel/LinuxUser/2018/03/Privatvergnuegen>"
@@ -84,21 +84,21 @@ msgstr ""
 "03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-"
 "Artikel/LinuxUser/2018/03/Privatvergnuegen>"
 
-#: ../en/references.md:26
+#: ../en/references.md:27
 msgid "## Hasecke (German blog): Mit Delta Chat per E-Mail chatten"
 msgstr "## Hasecke (niemiecki blog): Mit Delta Chat per E-Mail chatten"
 
-#: ../en/references.md:28
+#: ../en/references.md:29
 msgid ""
 "_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 msgstr ""
 "_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 
-#: ../en/references.md:30
+#: ../en/references.md:31
 msgid "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
 msgstr "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
 
-#: ../en/references.md:33
+#: ../en/references.md:34
 msgid ""
 "## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-"
 "Himmel?!"
@@ -106,7 +106,7 @@ msgstr ""
 "## Cloudette (niemiecki blog): Delta Chat – ein neuer Star am Messenger-"
 "Himmel?!"
 
-#: ../en/references.md:35
+#: ../en/references.md:36
 msgid ""
 "_\"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir "
 "vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
