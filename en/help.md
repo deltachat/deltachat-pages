@@ -144,13 +144,11 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 # Miscellaneous
 
+## Does Delta Chat work with _my_ e-mail-provider?
 
+- With a rather good chance: Yes :)  
+  However, some providers need special option for running; users have collected some of them at https://support.delta.chat/t/provider-overview/
 
-## Login Issues
-
-I have a problem with ...
-
-- Gmail: Enable "Support less secure apps" and IMAP, you may receive a mail to grant permission
 
 ## I'm interested in the technical details. Can you tell me more?
 
