@@ -147,7 +147,7 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 ## Does Delta Chat work with _my_ e-mail-provider?
 
 - With a rather good chance: Yes :)  
-  However, some providers need special options to work properly; users have collected some of them at https://support.delta.chat/t/provider-overview/
+  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
 
 
 ## I'm interested in the technical details. Can you tell me more?
