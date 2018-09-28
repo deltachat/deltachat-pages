@@ -133,7 +133,7 @@ A lot of the above work was happening and discussed during the "Delta-X"
 gathering in Freiburg July 16-24th. Particularly at its Saturday unconference
 day we had productive and fun discussions with around 30 people from different
 projects and contexts, ranging from OTF project planning, a new PGP/Rust implementation
-to GDPR questions or new crypto schemes to avoid metadata leackage. Hanging out
+to GDPR questions or new crypto schemes to avoid metadata leakage. Hanging out
 in the sun with Sofa's on a terasse, or at Cafe Bicicletta (wow cappucino!), 
 or doing an OTF kickoff meeting at the cold "Dreisam" river, taking a
 bath and sleeping overnight at a remote lake ... even the people attending
