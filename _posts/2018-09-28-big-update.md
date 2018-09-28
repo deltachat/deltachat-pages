@@ -23,7 +23,7 @@ happened in different ways:
   **deltachat-core and python bindings github activity Sept 2018**
   ![Delta-Core](../assets/blog/delta-corepy-sept-2018.png)
 
-- **on our informal chat** -- 4613 human posted lines in the
+- **on our informal chat** -- with 4814 human posted lines in the
   freenode #deltachat channel in September 2018 alone.  Btw, 
   you may [join the chat through the web](https://webchat.freenode.net/?channels=deltachat) 
   but in order to post you need to register by typing
@@ -139,23 +139,23 @@ or doing an OTF kickoff meeting at the cold "Dreisam" river, taking a
 bath and sleeping overnight at a remote lake ... even the people attending
 couldn't really give a full summary of this week, i bet ;) 
 
-![Delta-X](../assets/blog/delta-x-sept-2018.png)
+![Delta-X graffiti](../assets/blog/delta-x-sept-2018.png)
 
 One notable community effort started there which we support and hope will
 come to fruition soon: Delta-Dev/Android which is using the UI code of
 Signal/Android because it provides a better base than the Telegram-UI
 code which Delta/Android is still using in its current F-Droid releases.
 Moreover, there is another OTF-independent effort, namely Delta/iOS. To
-get a testflight invite for this early version, mail ios@getdelta.org.
+get a testflight invite for this early iPhone version, mail ios@getdelta.org.
 
 ## Git repositories for all activities
 
 You can find the repositories for each of the above efforts and releases
 under our [deltachat github organization](https://github.com/deltachat).
-And yes, at some point we might want to migrate to something else than github --
-did we mention that you are very welcome to help care for 
-sysadmin/infrastructure/docs/css/UX/translation/integration/privacy
-issues as much as contributing to C/JS/Python/Swift/Java/Rust ongoing programming? 
+In case you wonder ... we might want to migrate to something else than github --
+you are btw very welcome to help care for 
+sysadmin/infrastructure/packaging/docs/css/UX/translation/integration/privacy/legal
+issues as much as contributing to C/JS/Python/Swift/Java/Rust programming :)
 
 # Congratulations
 
