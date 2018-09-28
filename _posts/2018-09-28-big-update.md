@@ -151,7 +151,8 @@ get a testflight invite for this early version, mail ios@getdelta.org.
 You can find the repositories for each of the above efforts and releases
 under our [deltachat github organization](https://github.com/deltachat).
 And yes, at some point we might want to migrate to something else than github --
-did we mention that you are welcome to help care for sysadmin/infrastructure/docs/translation 
+did we mention that you are very welcome to help care for 
+sysadmin/infrastructure/docs/css/UX/translation/integration/privacy
 issues as much as contributing to C/JS/Python/Swift/Java/Rust ongoing programming? 
 
 # Congratulations
