@@ -139,6 +139,8 @@ or doing an OTF kickoff meeting at the cold "Dreisam" river, taking a
 bath and sleeping overnight at a remote lake ... even the people attending
 couldn't really give a full summary of this week, i bet ;) 
 
+![Delta-X](../assets/blog/delta-x-sept-2018.png)
+
 One notable community effort started there which we support and hope will
 come to fruition soon: Delta-Dev/Android which is using the UI code of
 Signal/Android because it provides a better base than the Telegram-UI
