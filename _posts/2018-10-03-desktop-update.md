@@ -18,6 +18,7 @@ What's not expected work:
 
 * voice, sound and video messages
 * group chats
+* advanced configuration
 
 What do we need help with and what kind of feedback is useful to us right now?
 
