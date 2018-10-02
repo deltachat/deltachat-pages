@@ -30,6 +30,6 @@ What do we need help with and what kind of feedback is useful to us right now?
   * sending and receiving messages
 * translations via [transifex](https://www.transifex.com/delta-chat/delta-chat-desktop/)
 
-If you have any feedback, please create an account at our [support forum](). From there we can create issues on respective github repository and take action from there.
+If you have any feedback, please create an account at our [support forum](https://support.delta.chat/). From there we can create issues on respective github repository and take action from there.
 
 Cheers!
