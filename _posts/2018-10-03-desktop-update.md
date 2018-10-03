@@ -11,7 +11,7 @@ At the moment the application can be considered in early alpha with rudimentary 
 * create contacts
 * create chats with contacts
 * send and receive messages (image attachments should work)
-* import keys from another device
+* [`AutoCrypt`](https://autocrypt.org/) setup message
 * multi language support (25 languages and counting)
 
 What's not expected work:
