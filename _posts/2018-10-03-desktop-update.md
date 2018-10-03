@@ -5,15 +5,15 @@ author: karissa, magnus
 
 We are working on a desktop application for Delta.Chat. It's written in electron, based on the [node bindings](https://github.com/deltachat/deltachat-node) and partially based on the ui from Signal desktop. There are some early releases for Linux and Mac out already (Windows in the works). You can download them [here](https://github.com/deltachat/deltachat-desktop/releases/).
 
-At the moment the application can be considered in early alpha with rudimentary features only. You can:
+At the moment the application can be considered in early alpha with rudimentary features only:
 
-* login with your IMAP user and password
+* login with IMAP user and password
 * create contacts
 * create chats with contacts
 * create group chats
 * send and receive messages
 * image, audio and video attachments
-* [`AutoCrypt`](https://autocrypt.org/) setup message
+* send and receive [Autocrypt setup messages](https://autocrypt.org/level1.html#autocrypt-setup-message) for synchronizing secret keys between devices
 * multi language support (25 languages and counting)
 
 What's not expected work:
