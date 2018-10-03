@@ -20,15 +20,19 @@ What's not expected work:
 * group chats
 * advanced configuration
 
-What do we need help with and what kind of feedback is useful to us right now?
+We are looking for testing and feedback on the following:
 
-* basic testing in the form of:
-  * downloading and installing the application
-  * starting the application
-  * logging in
-  * creating contacts
-  * creating chats with contacts
-  * sending and receiving messages
+* downloading and installing the application
+* starting the application
+* logging in
+* creating contacts
+* creating chats with contacts
+* sending and receiving messages
+
+We also need help with contributions in the following areas:
+
+* we need help with css/design
+* windows support
 * translations via [transifex](https://www.transifex.com/delta-chat/delta-chat-desktop/)
 
 If you have any feedback, please create an account at our [support forum](https://support.delta.chat/). From there we can create issues on respective github repository and take action from there.
