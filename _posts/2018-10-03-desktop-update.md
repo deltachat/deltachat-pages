@@ -10,14 +10,15 @@ At the moment the application can be considered in early alpha with rudimentary 
 * login with your IMAP user and password
 * create contacts
 * create chats with contacts
-* send and receive messages (image attachments should work)
+* create group chats
+* send and receive messages
+* image, audio and video attachments
 * [`AutoCrypt`](https://autocrypt.org/) setup message
 * multi language support (25 languages and counting)
 
 What's not expected work:
 
-* voice, sound and video messages
-* group chats
+* voice messages
 * advanced configuration
 
 We are looking for testing and feedback on the following:
