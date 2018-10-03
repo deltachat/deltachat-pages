@@ -33,7 +33,7 @@ We are looking for testing and feedback on the following:
 
 We also need help with contributions in the following areas:
 
-* we need help with css/design
+* css/design
 * windows support
 * translations via [transifex](https://www.transifex.com/delta-chat/delta-chat-desktop/)
 
