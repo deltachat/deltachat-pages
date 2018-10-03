@@ -37,6 +37,6 @@ We also need help with contributions in the following areas:
 * windows support
 * translations via [transifex](https://www.transifex.com/delta-chat/delta-chat-desktop/)
 
-If you have any feedback, please create an account at our [support forum](https://support.delta.chat/). From there we can create issues on respective github repository and take action from there.
+If you have any feedback, please create an account at our [support forum](https://support.delta.chat/c/desktop). From there we can create issues on respective github repository and take action from there.
 
 Cheers!
