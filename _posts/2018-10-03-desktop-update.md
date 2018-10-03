@@ -18,6 +18,7 @@ At the moment the application can be considered in early alpha with rudimentary 
 
 What's not expected work:
 
+* group chats verified by qr code
 * voice messages
 * advanced configuration
 
