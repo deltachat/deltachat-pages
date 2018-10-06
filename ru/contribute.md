@@ -1,5 +1,5 @@
 ---
-title: Сделать вклад
+title: Внести свой вклад
 layout: default-ru
 ---
 
@@ -16,21 +16,27 @@ Delta Chat бесплатное приложение с открытым исх�
 
 # Каналы связи
 
-If you want to talk with us or other users you may:
+Если вы хотите поговорить с нами или с другими пользователями вы можете:
 
 - <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
+  which is where developers and users help users without requiring them to deal with github. 
 - Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
 - Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)
 - Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
+  Note that in order to post you need to register by typing
+  `/msg nickserv register PASSWORD EMAIL` which will send a confirmation
+  e-mail. Without this registration and e-mail verification you can read 
+  but not post messages. 
+
 
 
 # Пожертвования
 
 Разработка Delta Chat стоит **денег**. Ваше пожертвование поддержит разработку и будущие улучшения напрямую.
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal или банковская карта: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Отправляйте биткоины на [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Мы нуждаемся в **устройствах** для тестирования. Если у вас есть ненужный смартфон на базе Android или iPhone?
 [Мы](imprint) с удовольствием примем их в дар!

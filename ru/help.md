@@ -150,10 +150,10 @@ Delta Chat автоматически показывает ...
 
 # Прочее
 
-## Does Delta Chat work with _my_ e-mail-provider?
+## Дельта.Чат поддерживает работу с _моим_ провайдером эл.почты?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
+- В большинстве случаев: Да :)  
+  Тем не менее, для некоторых почтовых служб(провайдеров), их корректной работы, требуются специфические настройки; наши пользователи собирают эти настройки на нашем форуме [Обзор поставщиков эл.почты](https://support.delta.chat/t/provider-overview/)
 
 
 ## Меня интересуют технические детали. Можете рассказать больше?

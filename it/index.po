@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 00:12+0200\n"
+"POT-Creation-Date: 2018-10-06 15:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Enrico B. <enricobe@hotmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
@@ -38,12 +38,12 @@ msgid ""
 "**Free**, **independent**, email compatible."
 msgstr ""
 "# Delta Chat\n"
-"L'applicazione di messaggistica con la **maggiore diffusione** al mondo. **Libera**, **sicura**, compatibile con le email."
+"L'applicazione di messaggistica con la **maggiore utenza** al mondo. **Libera**, **sicura**, compatibile con le email."
 
 #: ../en/index.md:14
 msgctxt "../en/index.md:14"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:18
 msgid ""
@@ -57,7 +57,7 @@ msgstr ""
 #: ../en/index.md:20
 msgctxt "../en/index.md:20"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:24
 msgid ""
@@ -67,12 +67,12 @@ msgid ""
 msgstr ""
 "# Veloce\n"
 "**Messaggi \"push\"** in pochi secondi.\n"
-"Interfaccia rapida."
+"Interfaccia immediata."
 
 #: ../en/index.md:26
 msgctxt "../en/index.md:26"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:29
 msgid ""
@@ -80,12 +80,12 @@ msgid ""
 "**Unlimited** chats, images, videos, audio messages and more. Multi-client capable."
 msgstr ""
 "# Potente\n"
-"Conversazioni **illimitate**, immagini, video, messaggi audio e altro ancora. Possibilità di utilizzo con più client."
+"**Conversazioni illimitate**, immagini, video, messaggi audio e altro ancora. Possibilità di utilizzo con più client."
 
 #: ../en/index.md:31
 msgctxt "../en/index.md:31"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:35
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 #: ../en/index.md:37
 msgctxt "../en/index.md:37"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:40
 msgid ""
@@ -112,7 +112,7 @@ msgstr ""
 #: ../en/index.md:42
 msgctxt "../en/index.md:42"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:45
 msgid ""

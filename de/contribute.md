@@ -16,19 +16,20 @@ Delta Chat wird als Open Source kostenlos zur Verfügung gestellt. Sie können a
 
 # Kontaktkanäle
 
-If you want to talk with us or other users you may:
+Wenn Sie uns oder andere Benutzer kontaktieren möchten:
 
 - Neu: Schauen Sie in unser Chat [Delta Chat support forum](https://support.delta.chat)
-- Melden Sie sich bei der [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) für Diskussionen in der Community an
+- Melden Sie sich bei der [Delta Chat Mailing-Liste](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) für Diskussionen in der Community an
 - Arbeiten Sie mit uns in den [Github Delta Chat repositories](https://github.com/deltachat/) zusammen
-- Besuchen Sie den IRC channel **#deltachat** über freenode - einfach mit [Web IRC]({% include webirc-url %})
+- Besuchen Sie den IRC channel **#deltachat** über freenode - einfach mit [Web IRC]({% include webirc-url %}). Um im IRC zu schreiben, müssen Sie sich mit  `/msg nickserv register PASSWORD EMAIL` registrieren. Zum Lesen ist keine Anmeldung erforderlich.
+
 
 
 # Spenden
 
 Die Entwicklung von Delta Chat kostet **Geld**. Ihr Beitrag bringt die Entwicklung direkt voran. Jeder Euro zählt.
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX
+- IBAN DE86100777770428658900, Kontoinhaber (bitte immer angeben): Björn Petersen, BIC NORSDE51XXX
 - Paypal, Kreditkarte oder Lastschrift: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Bitcoins an [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 

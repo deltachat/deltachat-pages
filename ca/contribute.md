@@ -19,18 +19,24 @@ Delta Chat es programari de codi obert i gratuït. Hi pots contribuir de moltes 
 If you want to talk with us or other users you may:
 
 - <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
+  which is where developers and users help users without requiring them to deal with github. 
 - Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
 - Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)
 - Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
+  Note that in order to post you need to register by typing
+  `/msg nickserv register PASSWORD EMAIL` which will send a confirmation
+  e-mail. Without this registration and e-mail verification you can read 
+  but not post messages. 
+
 
 
 # Donacions
 
 El desenvolupament de Delta Chat costa **diners**. La teva donació ajudarà directament a les futures millores.
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal o targeta de crèdit: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Envia bitcoins a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Necessitem **dispositius** per fer proves. Tens algun Smartphone Android o iPhone en desús?
 A [naltros](imprint) ens encantaria tenir-lo!

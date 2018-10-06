@@ -150,10 +150,10 @@ Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos
 
 # Të ndryshme
 
-## Does Delta Chat work with _my_ e-mail-provider?
+## A funksionon Delta Chat me shërbimin tim email?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
+- Shumë gjasa janë që: Po :)  
+  Sidoqoftë, disa shërbime lypin mundësi speciale për të punuar si duhet; përdoruesit kanë grumbulluar disa prej tyre te forumi në [Përmbledhje Shërbimesh](https://support.delta.chat/t/provider-overview/)
 
 
 ## Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?

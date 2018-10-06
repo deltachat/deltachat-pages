@@ -154,10 +154,10 @@ Se você não tiver uma chave ou nem mesmo sabe do que isso se trata - não se p
 
 # Diversos {#miscellaneous}
 
-## Does Delta Chat work with _my_ e-mail-provider?
+## O Delta Chat funciona com o _meu_ provedor de e-mail?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
+- Muito provavelmente sim :)  
+  Porém, alguns provedores precisam de configurações especiais; alguns usuários fizeram uma compilação no fórum em [Provider Overview](https://support.delta.chat/t/provider-overview/)
 
 
 ## Quero saber mais detalhes técnicos. Você pode me contar mais?

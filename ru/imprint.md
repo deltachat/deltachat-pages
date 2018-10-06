@@ -11,17 +11,17 @@ layout: default-ru
 
 # Контакты
 
-Delta.Chat is an open source community project. Responsible for the content of these pages is:
+Delta.Chat основан на программном обеспечении с открытым исходным кодом, разрабатываемым сообществом. Ответственный за содержание этих страниц: 
 
     Merlinux GmbH
     Reichgrafen Str. 20
-    79102 Freiburg, Germany
+    79102 Freiburg (,Фрайбург-им-Брайсгау), Germany (ФРГ)
 
-E-mail: {% include email-link %}
+Электронная почта: {% include email-link %}
 
 Amtsgericht Freiburg: HRB709589  
 VAT: DE814082730  
-Managing Director: Holger Krekel
+Управляющий директор: Holger Krekel
 
 [Сообщество](contribute)
 

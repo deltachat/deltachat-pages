@@ -12,7 +12,7 @@ layout: default-it
 # Riferimenti
 
 Anche se Delta Chat è ancora in fase beta, ci sono già alcuni interessanti articoli.
-Abbiamo dimenticato qualcosa? [Fatecelo sapere](imprint).
+Abbiamo dimenticato qualcosa? [Faccelo sapere](imprint).
 
 
 ## iX (rivista tedesca): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
@@ -31,7 +31,7 @@ _"Delta Chat Messenger è un'alternativa intelligente ed interessante alle appli
 
 ## Hasecke (blog tedesco): Mit Delta Chat per E-Mail chatten
 
-_"Delta Chat funziona correttamente, come applicazione di messaggistica e come client email."_
+_"Delta Chat funziona correttamente sia come applicazione di messaggistica che come client email."_
 
 15.10.2017, <https://www.hasecke.eu/post/delta-chat/>
 

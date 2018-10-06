@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 00:12+0200\n"
+"POT-Creation-Date: 2018-10-06 15:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Telegram Polska <sebek@life.pl>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
@@ -44,7 +44,7 @@ msgstr ""
 #: ../en/index.md:14
 msgctxt "../en/index.md:14"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:18
 msgid ""
@@ -59,7 +59,7 @@ msgstr ""
 #: ../en/index.md:20
 msgctxt "../en/index.md:20"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:24
 msgid ""
@@ -74,7 +74,7 @@ msgstr ""
 #: ../en/index.md:26
 msgctxt "../en/index.md:26"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:29
 msgid ""
@@ -87,7 +87,7 @@ msgstr ""
 #: ../en/index.md:31
 msgctxt "../en/index.md:31"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:35
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 #: ../en/index.md:37
 msgctxt "../en/index.md:37"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:40
 msgid ""
@@ -115,7 +115,7 @@ msgstr ""
 #: ../en/index.md:42
 msgctxt "../en/index.md:42"
 msgid "{% include slider-next.html %}"
-msgstr ""
+msgstr "{% include slider-next.html %}"
 
 #: ../en/index.md:45
 msgid ""

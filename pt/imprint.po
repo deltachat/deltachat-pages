@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 00:12+0200\n"
+"POT-Creation-Date: 2018-10-06 15:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Luis <luisfsr@opmbx.org>, 2018\n"
 "Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
@@ -45,10 +45,13 @@ msgid ""
 "    Reichgrafen Str. 20\n"
 "    79102 Freiburg, Germany"
 msgstr ""
+"    Merlinux GmbH\n"
+"    Reichgrafen Str. 20\n"
+"    79102 Freiburg, Germany"
 
 #: ../en/imprint.md:15
 msgid "E-mail: {% include email-link %}"
-msgstr ""
+msgstr "E-mail: {% include email-link %}"
 
 #: ../en/imprint.md:19
 msgid ""
@@ -56,13 +59,18 @@ msgid ""
 "VAT: DE814082730  \n"
 "Managing Director: Holger Krekel"
 msgstr ""
+"Amtsgericht Freiburg: HRB709589  \n"
+"VAT: DE814082730  \n"
+"Managing Director: Holger Krekel"
 
 #: ../en/imprint.md:21
 msgid "[Community channels](contribute)"
-msgstr ""
+msgstr "[Community channels](contribute)"
 
 #: ../en/imprint.md:22
 msgid ""
 "The mailing list server is operated through "
 "<https://github.com/codespeaknet/sysadmin>."
 msgstr ""
+"O servidor de mailing list é operado pelo "
+"<https://github.com/codespeaknet/sysadmin>."
