@@ -13,27 +13,27 @@ layout: default-it
 
 - [Generali](#general)
 - [Gruppi](#groups)
-- [Cifratura](#encryption)
+- [Crittografia](#encryption)
 - [Multi-client](#multiclient)
 - [Varie](#miscellaneous)
 
 # Generali {#general}
 
-## A chi posso scrivere?
+## Con chi posso comunicare?
 
-- Con Delta Chat, è possibile scrivere sia a utenti che utilizzano Delta Chat si a coloro che utilizzano un qualunque altro client email esistente. Questa è una delle più grandi differenze dalle altre app di messaggistica: non c'è alcun bisogno che il destinatario installi la stessa app che utilizza il mittente.
+- Con Delta Chat, è possibile comunicare con qualsiasi indirizzo email, anche se il destinatario non usa (ancora) Delta Chat. Questa è una delle più grandi differenze dalle altre app di messaggistica: non c'è alcun bisogno che il destinatario installi la stessa app che utilizza il mittente.
 
-## Quali sono i vantaggi di Delta Chat in confronto alle altre app di messaggistica?
+## Quali sono i vantaggi di Delta Chat rispetto alle altre app di messaggistica?
 
 - È _indipendente_ da qualunque azienda o servizio. _Tu_ mantieni il possesso dei tuoi dati.
-- I propri dati non vengono salvati su un server centrale; in questo modo, al contrario alla maggior parte delle app di messaggistica, Delta Chat protegge anche i metadati (chi scrive a chi?).
+- I tuoi dati non vengono salvati su un server centrale; in questo modo, al contrario alla maggior parte delle app di messaggistica, Delta Chat protegge anche i metadati (chi scrive a chi?).
 - Non vengono distribuiti i propri contatti a nessuno.
 - È _veloce_ grazie all'uso del Push-IMAP.
-- Offre una _maggiore base di utenti_. Coloro che _non_ utilizzano Delta Chat possono comunque essere contattati.
+- Offre la _più vasta base di utenti_. Anche coloro che _non_ utilizzano Delta Chat possono comunque essere contattati.
 - È _compatibile_, non solo con se stessa.
 - È _elegante_ e con una _semplice_ interfaccia utente.
 - Utilizza un sistema _distribuito_.
-- _Niente spam_, per impostazione predefinita, solo i messaggi da utenti conosciuti verranno mostrati.
+- _Niente spam_, per impostazione predefinita vengono mostrati solo i messaggi da utenti conosciuti.
 - È _sicura_, anche per l'uso in ambiti professionali.
 - È _affidabile_ e può essere utilizzata anche per messaggi aziendali.
 - È completamente _open source_ e basta sugli _standard_
@@ -44,48 +44,49 @@ layout: default-it
 
 ## Quali messaggi vengono mostrati in Delta Chat?
 
-Delta Chat automaticamente mostra...
+Delta Chat mostra automaticamente:
 
-- Messaggi dai contatti presenti nella propria **rubrica**.
+- Messaggi dai contatti presenti nella tua **rubrica**.
 - Messaggi dagli utenti **contattati da te**.
 - **Risposte** a messaggi inviati da te.
 
-Gli altri messaggi non compariranno in maniera automatica, sarà possibile vederli utilizzando il menù **Richieste di contatto** e, se lo si desidera, avviare da lì una conversazione.
+Gli altri messaggi non compaiono in maniera automatica, ma sarà possibile vederli utilizzando il menù **Richieste di contatto** ed eventualmente avviare una conversazione da lì.
 
 ## Come viene gestito lo spam?
 
-- Come per i messaggi da utenti completamente sconosciuti non comparirà alcuna notifica, solitamente, **non c'è spam**.
-- Tuttavia, se realmente necessario, è possibile **bloccare** tutti i contatti.
+- I messaggi nelle cartelle di spam vengono ignorati e gli indirizzi lì presenti non vengono considerati come conosciuti.
+- Come per i messaggi da utenti completamente sconosciuti non compare alcuna notifica. Solitamente **non c'è spam**.
+- Tuttavia, se realmente necessario, è possibile **bloccare** qualsiasi contatto.
 
 ## Delta Chat supporta immagini, video e altri allegati?
 
-- Sì. Oltre al testo semplice, tutti gli allegati alle email vengono mostrati come singoli messaggi. I messaggi in uscita riceveranno automaticamente gli allegati.
+- Sì. Oltre al testo semplice, tutti gli allegati alle email vengono mostrati come messaggi separati. I file saranno automaticamente legati ai messaggi in uscita quando necessario.
 
 ## Delta Chat supporta le email in formato HTML?
 
-- Sì. Se alle email in entrata manca una parte di testo semplice, l'app converte automaticamente le email HTML in testo semplice. Le email in uscita usano sempre il testo semplice.
+- Sì. Se le email in entrata non hanno una parte di testo semplice, l'app converte automaticamente le email HTML in testo semplice. Le email in uscita usano sempre il testo semplice.
 
 # Gruppi {#groups}
 
 ## Come posso creare un gruppo?
 
-- Selezionare **Aggiungi gruppo** dal menù presente nella finestra di anteprima delle conversazioni.
+- Seleziona **Nuova conversazione** dal menù presente nella finestra di anteprima delle conversazioni e poi **Nuovo Gruppo**.
 - Nella schermata successiva, selezionare i **membri del gruppo** e premere il segno di spunta. Fatto questo, è possibile scegliere il **nome del gruppo**.
-- Non appena viene inviato il **primo messaggio**, tutti i membri vengono informati della creazione del nuovo gruppo e possono rispondere nel gruppo stesso (finché non verrà inviato un messaggio nel gruppo creato, lo stesso non sarà visibile agli altri membri).
+- Non appena viene inviato il **primo messaggio**, tutti i membri vengono informati della creazione del nuovo gruppo e possono rispondere nel gruppo stesso (finché non viene inviato il primo messaggio, il gruppo non è visibile agli altri membri).
 
 ## Chi può aggiungere nuovi membri a un gruppo?
 
 - Ogni componente del gruppo ha gli **stessi diritti** di ogni altro. Per questo motivo chiunque può rimuovere chiunque o aggiungere nuovi componenti.
-- Per aggiungere o rimuovere i membri, fare clic sul nome del gruppo nella conversazione.
+- Per aggiungere o rimuovere i membri, fai clic sul nome del gruppo nella conversazione.
 
 ## Ho accidentalmente rimosso me stesso dal gruppo.
 
-- Non facendo più parte del gruppo, non sarà possibile aggiungere nuovamente se stessi. Tuttavia, nessun problema, basta semplicemente chiedere a un altro componente del gruppo di aggiungere l'utente rimosso.
+- Non facendo più parte del gruppo, non ti sarà possibile aggiungere di nuovo te stesso. Tuttavia, nessun problema, basta chiedere a un altro componente del gruppo di aggiungerti alla conversazione.
 
 ## Non voglio più ricevere i messaggi da un gruppo.
 
-- Eliminare se stessi dall'elenco dei membri del gruppo, oppure eliminare l'intera conversazione. Se si vuole tornare a far parte del gruppo in futuro, chiedere a un altro dei componenti di aggiungere nuovamente l'utente.
-- In alternativa, è possibile anche "silenziare" un gruppo. In questo modo si continueranno a ricevere tutti i messaggi e sarà possibile continuare a scrivere, ma non si riceveranno più le notifiche.
+- Puoi rimuovere te stesso dall'elenco dei membri del gruppo oppure eliminare l'intera conversazione. Se vorrai tornare a far parte del gruppo in futuro, dovrai chiedere ad un altro componente di aggiungerti di nuovo.
+- In alternativa, puoi anche "silenziare" un gruppo. In questo modo continuerai a ricevere tutti i messaggi e sarà possibile continuare a scrivere, ma non riceverai le notifiche.
 
 # Crittografia {#encryption}
 
@@ -97,9 +98,9 @@ Gli altri messaggi non compariranno in maniera automatica, sarà possibile veder
 
 - Nulla.
 
-- Delta Chat (e altri programmi email compatibili con [Autocrypt](https://autocrypt.org)) condividono le chiavi richieste per la cifratura end-to-end automaticamente appena vengono inviati i primi messaggi. Fatto questo, tutti i messaggi successivi utilizzeranno automaticamente la cifratura end-to-end. Se una persona con la quale si è già avviata una conversazione cifrata, utilizzasse successivamente una app che non supporta la cifratura end-to-end, questa viene "sospesa" e automaticamente riattivata non appena la cifratura sarà nuovamente disponibile.
+- Delta Chat (e altri programmi email compatibili con [Autocrypt](https://autocrypt.org)) condividono le chiavi richieste per la cifratura end-to-end automaticamente appena vengono inviati i primi messaggi. Fatto questo, tutti i messaggi successivi utilizzeranno automaticamente la cifratura end-to-end. Se una persona con la quale si è già avviata una conversazione cifrata utilizzasse successivamente una app che non supporta la cifratura end-to-end, questa viene "sospesa" e automaticamente riattivata non appena la cifratura sarà nuovamente disponibile.
 
-- Per _disattivare_ la cifratura end-to-end, usare la funzione corrispondente in "Impostazioni / Impostazioni avanzate".
+- Per _disattivare_ la cifratura end-to-end, usa la funzione corrispondente in "Impostazioni / Impostazioni avanzate".
 
 ## Se la cifratura end-to-end non è disponibile, anche la connessione non viene cifrata?
 
@@ -109,12 +110,12 @@ Gli altri messaggi non compariranno in maniera automatica, sarà possibile veder
 ## Come posso verificare la cifratura?
 
 - Se è presente un piccolo **lucchetto** a fianco del messaggio, significa che il messaggio è criptato end-to-end _e_ è stato spedito dal mittente selezionato _e_ anche la tua risposta verrà crittografata. 
-- Se non è presente **nessun lucchetto**, il messaggio viene di solito trasportato criptato ad esempio perché tu o il mittente avete disabilitato la crittografia end-to-end o il mittente usa un'applicazione che non la supporta. 
+- Se non è presente **nessun lucchetto**, il messaggio viene di solito cifrato solo fino al server, ad esempio perché tu o il mittente avete disabilitato la crittografia end-to-end o il mittente usa un'applicazione che non la supporta. 
 
 
-## Come posso verificare la cifratura?
+## Come posso verificare il mittente?
 
-Selezionare "Crittografia" dal profilo utente:
+Seleziona "Crittografia" dal profilo utente:
 
 - Per una cifratura end-to-end, Delta Chat mostra due impronte. Se sono le stesse sul dispositivo dell'altro utente con cui si sta conversando, la connessione è sicura.
 - Per il _transport encryption_, questo stato viene mostrato direttamente nel profilo
@@ -130,31 +131,31 @@ Selezionare "Crittografia" dal profilo utente:
 
 - In alternativa, puoi importare la chiave manualmente da "Impostazioni Avanzate / Gestisci chiavi private". Attenzione: assicurati che la chiave non sia protetta da password o rimuovila prima.
 
-Se non si possiede una chiave o non si aveva idea che potesse servirne una, nessun problema: Delta Chat ne genererà una se necessario, non sarà necessaria alcuna operazione.
+Se non possiedi una chiave o non avevi idea che potesse servirne una, nessun problema: se necessario, Delta Chat ne genererà una per te e non sarà necessaria alcuna operazione.
 
 # Multi-client {#multiclient}
 
 ## Posso usare Delta Chat su più dispositivi allo stesso tempo?
 
-- Se si vuole usare lo **stesso account** su dispositivi diversi, bisognerà assicurarsi che tutti i dispositivi usino la stessa chiave di cifratura:
+- Se vuoi usare lo **stesso account** su dispositivi diversi, devi assicurarti che tutti i dispositivi usino la stessa chiave di cifratura:
 
- - Sul primo dispositivo, scegliere "Impostazioni avanzate / Gestione chiavi private / Esporta la chiave in Download"
- - Via USB, copiare il file della chiave dalla directory "Download" dal primo dispositivo al secondo.
- - Sul secondo dispositivo, "Impostazioni avanzate / Gestione chiavi private / Importa la chiave da Download"
+ - Sul primo dispositivo, scegli "Impostazioni avanzate / Gestione chiavi private / Esporta chiavi private"
+ - Via USB, copia il file della chiave dalla cartella "Download" del primo dispositivo al secondo.
+ - Sul secondo dispositivo, seleziona "Impostazioni avanzate / Gestione chiavi private / Importa chiavi private"
 
-- Tutto questo **non è necessario** per l'utilizzo standard di Delta Chat usando un solo dispositivo.
+- Tutto questo **non è necessario** per l'utilizzo normale di Delta Chat da un solo dispositivo.
 
-- NB: in modalità multi-client, i messaggi _in entrata_ vengono mostrati immediatamente su tutti i client. I messaggi _in uscita_ vengono sincronizzati circa due volte ogni ora. Forse sarà possibile migliorare questa caratteristica, ma sarà necessario più [supporto](contribute) per risolvere questo inconveniente.
+- NB: in modalità multi-client, i messaggi _in entrata_ vengono mostrati immediatamente su tutti i client. I messaggi _in uscita_ vengono sincronizzati circa due volte ogni ora. Forse potremmo migliorare questa funzione, ma sarebbe necessario più [supporto](contribute) per risolvere questo inconveniente.
 
 
 # Varie {#miscellaneous}
 
-## Does Delta Chat work with _my_ e-mail-provider?
+## Delta Chat funziona con la _mia_ casella email?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
+- Con buona probabilità: si :)  
+  Ad ogni modo, alcuni provider richiedono di attivare impostazioni particolari per funzionare. Gli utenti hanno raccolto alcuni casi nel forum [Provider Overview](https://support.delta.chat/t/provider-overview/)
 
 
 ## Sono interessato ai dettagli tecnici. Posso avere ulteriori informazioni?
 
-- Consultare la pagina [Standard utilizzati in Delta Chat]({% include standards-url %}).
+- Consulta la pagina [Standard utilizzati in Delta Chat]({% include standards-url %}).

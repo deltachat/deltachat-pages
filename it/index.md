@@ -13,7 +13,7 @@ layout: default-it
 {% include slider-begin.html %}
 
 # Delta Chat
-L'applicazione di messaggistica con la **maggiore diffusione** al mondo. **Libera**, **sicura**, compatibile con le email.
+L'applicazione di messaggistica con la **maggiore utenza** al mondo. **Libera**, **sicura**, compatibile con le email.
 
 {% include slider-next.html %}
 
@@ -24,12 +24,12 @@ L'applicazione di messaggistica con la **maggiore diffusione** al mondo. **Liber
 
 # Veloce
 **Messaggi "push"** in pochi secondi.
-Interfaccia rapida.
+Interfaccia immediata.
 
 {% include slider-next.html %}
 
 # Potente
-Conversazioni **illimitate**, immagini, video, messaggi audio e altro ancora. Possibilità di utilizzo con più client.
+**Conversazioni illimitate**, immagini, video, messaggi audio e altro ancora. Possibilità di utilizzo con più client.
 
 {% include slider-next.html %}
 

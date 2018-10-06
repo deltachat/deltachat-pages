@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 00:12+0200\n"
+"POT-Creation-Date: 2018-10-06 15:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Luis <luisfsr@opmbx.org>, 2018\n"
 "Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
@@ -410,13 +410,15 @@ msgstr "# Diversos {#miscellaneous}"
 
 #: ../en/help.md:148
 msgid "## Does Delta Chat work with _my_ e-mail-provider?"
-msgstr ""
+msgstr "## O Delta Chat funciona com o _meu_ provedor de e-mail?"
 
 #: ../en/help.md:151
 msgid ""
 "- With a rather good chance: Yes :)  \n"
 "  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)"
 msgstr ""
+"- Muito provavelmente sim :)  \n"
+"  Porém, alguns provedores precisam de configurações especiais; alguns usuários fizeram uma compilação no fórum em [Provider Overview](https://support.delta.chat/t/provider-overview/)"
 
 #: ../en/help.md:154
 msgid "## I'm interested in the technical details. Can you tell me more?"

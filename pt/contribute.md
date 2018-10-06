@@ -18,19 +18,25 @@ Delta Chat é de código aberto e você pode nos ajudar a desenvolvê-lo.
 
 Se você quiser nos contatar ou contatar outros usuários você pode:
 
-- <b>New:</b> Dar uma espiada no [fórum de ajuda do Delta Chat](https://support.delta.chat)
-- Ingressar no [mailing list do Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) e conversar com a comunidade
-- Colaborar pelos [repositórios do Delta Chat](https://github.com/deltachat/)
-- Ingressar no canal do IRC **#deltachat** no freenode - e.g. via [Web IRC]({% include webirc-url %})
+- <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
+  which is where developers and users help users without requiring them to deal with github. 
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
+  Note that in order to post you need to register by typing
+  `/msg nickserv register PASSWORD EMAIL` which will send a confirmation
+  e-mail. Without this registration and e-mail verification you can read 
+  but not post messages. 
+
 
 
 ## Doe
 
 O desenvolvimento do Delta Chat envolve dinheiro. Uma doação sua pode nos ajudar.
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal ou cartão de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Bitcoins para [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Precisamos de **aparelhos** para fins de teste. Você tem algum smartphone velho?
 [We](imprint)'d love to take it!

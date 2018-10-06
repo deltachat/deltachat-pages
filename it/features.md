@@ -13,7 +13,7 @@ layout: default-it
 
 Delta Chat è una moderna applicazione di messaggistica. È come avere le email in una nuova veste. <br>Solo migliore, più sicura e ottimizzata per gli utenti.
 
-**Inizia subito** <br> Tutto ciò che ti server è un account email. In questo modo potrai raggiungere qualunque contatto email.
+**Inizia subito** <br> Tutto ciò che ti serve è un account email. In questo modo potrai raggiungere qualunque contatto email.
 
 ![Screenshot](../assets/features/start-img4.png)
 

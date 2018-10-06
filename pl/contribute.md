@@ -18,19 +18,25 @@ Delta Chat jest otwarto-źródłowy i bezpłatny. Możesz przyczynić się do je
 
 Jeśli chcesz porozmawiać z nami lub innymi użytkownikami, możesz:
 
-- <b>Nowość:</b> Zajrzyj na [forum pomocy Delta Chat](https://support.delta.chat)
-- dołączyć do [listy mailingowej Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) aby wziąć udział w dyskusjach
-- współpracować za pośrednictwem [repozytoriów Delta Chat](https://github.com/deltachat/)
-- dołączyć do kanału IRC **#deltachat** na freenode - najłatwiej przez [Web IRC]({% include webirc-url %})
+- <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
+  which is where developers and users help users without requiring them to deal with github. 
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
+  Note that in order to post you need to register by typing
+  `/msg nickserv register PASSWORD EMAIL` which will send a confirmation
+  e-mail. Without this registration and e-mail verification you can read 
+  but not post messages. 
+
 
 
 # Dotacje
 
 Rozwój Delta Chat kosztuje. Twoja darowizna będzie bezpośrednio wspierać przyszłe udoskonalenia.
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal lub karta kredytowa: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-Wyślij bitcoiny do [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Potrzebujemy **urządzeń** do celów testowych. Czy masz jakiś nieużywany smartfon z Androidem lub iPhona? [Chcielibyśmy](imprint) go wziąć!
 

@@ -18,19 +18,25 @@ Delta Chat është me burim të hapur dhe falas. Mund të jepni ndihmesë në sh
 
 Nëse doni të bisedoni me ne ose me përdorues të tjerë, mund të:
 
-- <b>E re:</b> Hidhini një sy [forumit të asistencës mbi Delta Chat-in](https://support.delta.chat)
-- Merrni pjesë te [lista e postimeve mbi Delta Chat-in](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) për diskutime me bashkësinë
-- Bashkëpunoni përmes [depove të Delta Chat-it](https://github.com/deltachat/)
-- Vini te kanali IRC **#deltachat** në freenode - kollaj, përmes [Web IRC]({% include webirc-url %})
+- <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
+  which is where developers and users help users without requiring them to deal with github. 
+- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
+- Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)
+- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
+  Note that in order to post you need to register by typing
+  `/msg nickserv register PASSWORD EMAIL` which will send a confirmation
+  e-mail. Without this registration and e-mail verification you can read 
+  but not post messages. 
+
 
 
 # Dhuroni
 
 Zhvillimi i Delta Chat-it kushton **para**. Dhurimi juaj do të mbështesë drejtpërsëdrejti përmirësimet e ardhshme.
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX
-- PayPal ose kartë krediti: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Dërgoni bitkoin te [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Na duhen **pajisje** për qëllime testimi. Keni ndonjë Android Smartphone ose iPhone që s’e përdorni më?
 [Do](imprint) të donim ta kishim!

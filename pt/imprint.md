@@ -25,4 +25,4 @@ Managing Director: Holger Krekel
 
 [Community channels](contribute)
 
-The mailing list server is operated through <https://github.com/codespeaknet/sysadmin>.
+O servidor de mailing list é operado pelo <https://github.com/codespeaknet/sysadmin>.

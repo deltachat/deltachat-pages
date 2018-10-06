@@ -150,10 +150,10 @@ Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz - nie przejmuj s
 
 # Różne
 
-## Does Delta Chat work with _my_ e-mail-provider?
+## Czy Delta Chat działa z _moim_ dostawcą poczty e-mail?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
+- Z dość dużym prawdopodobieństwem: Tak :)
+  Jednak niektórzy dostawcy potrzebują specjalnych opcji, aby działać poprawnie; użytkownicy zgromadzili niektóre z nich na forum w [Przeglądzie dostawców] (https://support.delta.chat/t/provider-overview/)
 
 
 ## Interesują mnie szczegóły techniczne. Możesz powiedzieć mi więcej?

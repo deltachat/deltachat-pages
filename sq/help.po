@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 00:12+0200\n"
+"POT-Creation-Date: 2018-10-06 15:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>, 2018\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
@@ -419,13 +419,15 @@ msgstr "# Të ndryshme"
 
 #: ../en/help.md:148
 msgid "## Does Delta Chat work with _my_ e-mail-provider?"
-msgstr ""
+msgstr "## A funksionon Delta Chat me shërbimin tim email?"
 
 #: ../en/help.md:151
 msgid ""
 "- With a rather good chance: Yes :)  \n"
 "  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)"
 msgstr ""
+"- Shumë gjasa janë që: Po :)  \n"
+"  Sidoqoftë, disa shërbime lypin mundësi speciale për të punuar si duhet; përdoruesit kanë grumbulluar disa prej tyre te forumi në [Përmbledhje Shërbimesh](https://support.delta.chat/t/provider-overview/)"
 
 #: ../en/help.md:154
 msgid "## I'm interested in the technical details. Can you tell me more?"
