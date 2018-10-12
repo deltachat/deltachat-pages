@@ -34,7 +34,15 @@ we also take this as a chance to improve many things in the new IU, eg.
 Many of these points are not yet completely finished,
 however, it's on it's way and there is a fast progress, every day.
 
-We'll add another post to this glog if we have a more or less feature-complete beta-version.
-If you can't wait, you'll find a preview-version at <https://github.com/deltachat/deltachat-android-ii/releases/>
+We'll add another post to this blog if we have a more or less feature-complete beta-version.
+
+If you can't wait, you'll find a preview-version at
+<https://github.com/deltachat/deltachat-android-ii/releases/>
+(we'll also upload new APKs every few days there).
+
+Please note that this version is not even "alpha" -
+**use at your own risk** and please give feedback to
+[github](https://github.com/deltachat/deltachat-pages/issues),
+not to the user-support forum.
 
 Cheers!
