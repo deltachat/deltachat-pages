@@ -11,7 +11,7 @@ We're currently working on a new Android App for Delta Chat,
 The new App recreates the UI, however, the core mainly stays unchanged;
 the same core is used for deltachat-desktop and deltachat-ios, btw.
 
-The reason for this rewrite it that the existing ui code,
+The reason for this rewrite is that the existing ui code,
 which is based on another popular messenger,
 uses non-standard programming methods in many cases.
 This makes it hard to maintain and to enhance, especially for new contributors.
@@ -21,8 +21,8 @@ We were thinking about this step for months, however, finally, it is started :)
 While we'll get a much better source base by this step, 
 we also take this as a chance to improve many things in the new IU, eg.
 
-* Sending text togehter with images
-* Edit images before sending, eg. marking sth.
+* Sending text together with images
+* Edit images before sending, eg. marking something
 * Reviewing messages before sending
 * One central send buttons (gives us options eg. to force encrypted/unencrypted)
 * Dark theme
