@@ -19,7 +19,7 @@ This makes it hard to maintain and to enhance, especially for new contributors.
 We were thinking about this step for months, however, finally, it is started :)
 
 While we'll get a much better source base by this step, 
-we also take this as a chance to improve many things in the new IU, eg.
+we also take this as a chance to improve many things in the new UI, eg.
 
 * Sending text together with images
 * Edit images before sending, eg. marking something
@@ -43,6 +43,6 @@ If you can't wait, you'll find a preview-version at
 Please note that this version is not even "alpha" -
 **use at your own risk** and please give feedback to
 [github](https://github.com/deltachat/deltachat-pages/issues),
-not to the user-support forum.
+not to the [user-support forum](https://support.delta.chat).
 
 Cheers!
