@@ -20,7 +20,7 @@ layout: default-en
 ## What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
-- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protect your metadata (who writes to whom?)
+- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
 - You do not distribute your address book to anyone.
 - _Fast_ by the use of Push-IMAP
 - _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
@@ -42,7 +42,7 @@ Delta Chat automatically shows ...
 
 - Messages from contacts in your **address book**
 - Messages from contacts **contacted by you**
-- **Replies** to messages send by you
+- **Replies** to messages sent by you
 
 Other messages do not appear automatically. You can see the other messages in the main menu at **Contact requests** and, if desired, start a chat from there.
 
@@ -92,7 +92,7 @@ Other messages do not appear automatically. You can see the other messages in th
 
 - Nothing.
 
-- Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If, one of the chat partners use an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
+- Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If one of the chat partners uses an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
 
 - If you want to _deactivate_ the end-to-end-encryption, use the corresponding setting at "Settings / Advanced settings".
 
@@ -103,7 +103,7 @@ Other messages do not appear automatically. You can see the other messages in th
 
 ## How can I check the encryption?
 
-- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is send from the given sender _and_ your answer will be end-to-end-encrypted as well.
+- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
 - If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
@@ -111,7 +111,7 @@ Other messages do not appear automatically. You can see the other messages in th
 
 The user's profile shows some additional information:
 
-- For an end-to-end-encryption, Delta Chat show two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
+- For an end-to-end-encryption, Delta Chat shows two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
 - For transport encryption, this state is just shown there
 
 
@@ -119,7 +119,7 @@ The user's profile shows some additional information:
 
 - OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
-## Can I re-use by existing private key?
+## Can I re-use my existing private key?
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
