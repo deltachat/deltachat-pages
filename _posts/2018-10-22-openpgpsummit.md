@@ -1,5 +1,5 @@
 ---
-title: OpenPGPSummit 2018: The ecosystem is moving ... 
+title: "OpenPGPSummit 2018: The ecosystem is moving ..."
 author: holger
 ---
 
