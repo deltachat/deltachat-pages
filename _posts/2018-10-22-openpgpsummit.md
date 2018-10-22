@@ -31,7 +31,7 @@ implementation to a self-contained OCaml implementation ... to name
 just a few ... implementors were present and the project interoperate 
 with GnuPG yet do not depend on it.
 
-There was a strong presence of Mail providers (Mailfence, ProtonMail, 
+There was a strong presence of Privacy-oriented Mail providers (Mailfence, ProtonMail, 
 Posteo, Startpage) several of which engage in interoperable PGP offerings, 
 and also explore Autocrypt integrations.  There are concrete plans 
 to integrate [Mailvelope](https://mailvelope.com), the crypto firefox/chrome
@@ -39,40 +39,41 @@ plugin used with several webmail offerings, with Autocrypt in the next months.
 
 Without staging a dedicated Delta UX session an "OpenPGPSummit" verified 
 Delta group evolved which is still chatting ... among them also Paul who
-gave very valuable UI feedback, also on verifications, and then had
+gave valuable UI feedback, also on verifications, and then had
 interesting plans on a new SMS/Delta bot (did you know there is
 experimental deltabot@codespeak.net you can chat with today, btw?) ... 
 speaking of interest in Delta, also had good conversations with Werner from GnuPG
 who was curious about DeltaChat and played around with it ... or Martijn
-who is behind "ciphermail", an encryption gateway ...
+who is behind "ciphermail", an encryption gateway ... to name just a few.
 
 The [Autocrypt](https://autocrypt.org) topic ran through a lot of
-sessions and side-talks ... there is the plan to do a "every second
-thursday of a month" IRC gathering, arrange for some Level 1 compliance
-checking, and head for a 3-4 day pre-IFF Autocrypt gathering end of March in
-Valencia, Spain ... not to mention likely partial gatherings around 35c3
-and Fosdem before that. That being said this is all not about "Level 2" 
+sessions and side-talks ... in fact the first plenary talk was from Daniel 
+about the Level 1 spec and its strong usability focus. There is an evolving
+plan to do a "every second thursday of a month" IRC gathering, arrange for some 
+Level 1 compliance checking, and also head for a 3-4 day pre-IFF Autocrypt gathering 
+end of March 2019 in Valencia ... not to mention likely partial gatherings around 35c3
+and Fosdem before that. That being said this is all less about "Level 2" 
 but rather about Level 1 consolidation and getting more people on board. 
-Things take time but that's fine (tm) ... E-Mail is a somewhat messy,
+Things take time but that's fine ... E-Mail is a somewhat messy,
 diverse, federated eco-system with many different players and several billion
-people using it ...  and arranging for usable interoperable encryption a
+people using it ...  and arranging for usable interoperable encryption is a
 collaborative challenge on many technical and social levels. My impression
 was that "usable encryption" and "interoperability" was a shared concern
 with many acknowledging that it's the actual outcome for users and less
-the abstract properties of crypto-protocols that count.
+the abstract properties of crypto-protocols that count. But maybe that's
+just my bias of seeing things :) 
 
-There is more ... e.g. learned about Software Archeology from a younger
+There is more ... e.g. I learned about Software Archeology from a younger
 guy called "Joe" during some of my personal outside sessions -- 
 when he rescued a university from loosing access to decades of research data 
 stored in a Solaris 7 System, located in a toilet cabin (!) with the last 
 login from 2006 and still running a functioning internet-reachable SMTP
 server ...  while the last two people able to work with the machine were
 about to retire ... and this is just the start of the story.
-or "g." who does crypto-research for a quarter century, has broken 
+or "g." who does crypto-research for a quarter century, and who has broken 
 a lot of systems and has a very thorough yet refreshingly 
 pragmatic stance on crypto/security issues ... he appreciated
-and positively commented a lot of the concepts we are trying to
-employ with DeltaChat.
+and positively commented a lot of the DeltaChat concepts.
 
 To be fair, I am only reporting here on a part of what i encountered ...
 after the three plenary talks saturday morning, there were 20-30 one-hour
