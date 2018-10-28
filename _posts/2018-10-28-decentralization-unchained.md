@@ -11,7 +11,7 @@ and, of course, Delta.Chat in special.
 
 "Decentralization Unchained" happens in Kyiv, November 3, 2018.
 
-For the whole prorgram and further information,
+For the whole program and further information,
 also about how to contribute yourself,
 there is a separate website about this event at  
 
