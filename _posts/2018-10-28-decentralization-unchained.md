@@ -7,12 +7,12 @@ After the "Delta-X" Event in Freiburg this summer,
 there is now "Decentralization Unchained" -
 **one day of talks, workshops, discussions, hacking**
 around the topics of decentralizing infrastructures in common, 
-and, of course, Delta.Chat in special.
+and, of course, Delta.Chat especially.
 
 "Decentralization Unchained" happens in Kyiv, November 3, 2018.
 
 For the whole program and further information,
-also about how to contribute yourself,
+also about how you can contribute,
 there is a separate website about this event at  
 
 **[https://deltaxi.noblogs.org/](https://deltaxi.noblogs.org/)**
