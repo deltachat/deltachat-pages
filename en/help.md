@@ -64,7 +64,7 @@ Other messages do not appear automatically. You can see the other messages in th
 
 ## How can I create a group?
 
-- Select **Add group** from the "Sandwich menu" in the upper left corner of the chat overview.
+- Select **Add group** from the "Sandwich menu" in the upper right corner of the chat overview.
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
@@ -72,6 +72,10 @@ Other messages do not appear automatically. You can see the other messages in th
 
 - Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
 - To add or delete members, click on the group name in the chat.
+
+## What is a verified group?
+
+- A verified group is a group where each member of the group has been verified by another member out of band. A verified group also enforces encryption. This helps protecting against active attacks.
 
 ## I have deleted myself by accident.
 
