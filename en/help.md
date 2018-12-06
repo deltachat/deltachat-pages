@@ -75,7 +75,7 @@ Other messages do not appear automatically. You can see the other messages in th
 
 ## What is a verified group?
 
-- A verified group is a group where each member of the group has been verified by another member out of band. A verified group also enforces encryption. This helps protecting against active attacks.
+- A "verified group" is a labs feature which you can enable in advanced settings.  By adding one another through QR-code scans a group of "verified" members can talk with each other.  It enforces e2e group encryption that is safe against provider or network attacks.  However, some user-tests and feedback suggests that UX and implementation changes makes sense.  Some current discussions (Dec 2018) can be found here: https://countermitm.readthedocs.io/en/latest/new.html
 
 ## I have deleted myself by accident.
 
