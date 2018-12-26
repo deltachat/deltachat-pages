@@ -16,6 +16,10 @@ defaults:
       layout: default-en
       is_post: true # automatically set is_post=true for all posts
 
+
+kramdown: 
+    auto_ids: true  # auto-generate ID's for headings
+
 # needed for the RSS feed, but may also be useful for other purposes
 name:         Delta Chat
 description:  Instant messanging based on email
