@@ -37,7 +37,7 @@ For Linux and OSX [you can download from our github release page](https://github
 
 For a potential Windows install package, we are tracking [progress here, contributions welcome](https://github.com/deltachat/deltachat-desktop/issues/606) 
 
-Further details are provided in our [FAQ](help#multiclient) page.
+See here for the [Desktop Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 
 # Verify Downloads
 
