@@ -3,13 +3,13 @@ title: Download
 layout: default-en
 ---
 
-# Download Delta Chat
+# Download DeltaChat 
 
-**Delta Chat is currently under development**
-
-A beta-state Android version is available on F-Droid. After the [version 1.0 milestone](https://github.com/deltachat/deltachat-android/milestone/1) availability on Google Play will follow. 
-Further variants for iOS, Mac, Linux or Windows are planned.
-You can actively [support](contribute) us in the development.
+DeltaChat is stable enough that it is used both by developers and 
+an estimated 10-30K people on a daily basis, including private 
+communications with friends. DeltaChat operates no own servers and 
+does not track users or installs and thus can not determine 
+more precise download numbers. 
 
 ## Android (Beta)
 
@@ -20,19 +20,24 @@ You can actively [support](contribute) us in the development.
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
 * [View Changelog]({% include changelog-url %})
 
+If you can, please [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
 
-## Apple
+## iOS on TestFlight 
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-iOS development has started but it needs more work until we can present a download here. [Contributors](contribute) welcome :)
+You can install [Delta/iOS via Testflight](https://testflight.apple.com/join/WVoYFOZe).
+It supports basic functionality but not yet all features offered by Android and Desktop. 
 
+If you can, please [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
 
-## Linux
+## Delta/Desktop Downloads 
 
-Delta Chat for Linux is not yet available. However it is possible to run the Android app in [Anbox](https://anbox.io) (Android in a Box) on your desktop.
+For Linux and OSX [you can download from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+
+For a potential Windows install package, we are tracking [progress here, contributions welcome](https://github.com/deltachat/deltachat-desktop/issues/606) 
+
 Further details are provided in our [FAQ](help#multiclient) page.
-
 
 # Verify Downloads
 
@@ -40,6 +45,7 @@ For Android, you can verify the signing certificate on the APK matches one of th
 
 * For F-Droid downloads:  
   `{% include fingerprint-f-droid %}`
+
 * Other APK downloads:  
   `{% include fingerprint-local %}`
 
