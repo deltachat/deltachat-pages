@@ -99,7 +99,8 @@ Other messages do not appear automatically. You can see the other messages in th
 
 ## Does Delta Chat support end-to-end-encryption?
 
-- Yes.
+- Yes. DeltaChat implements the Autocrypt Level 1 standard and can 
+  thus e2e-encrypt messages with other Autocrypt-capable apps. 
 
 ## What do I have to do to activate the end-to-end-encryption?
 
@@ -136,7 +137,8 @@ The user's profile shows some additional information:
   they will introduce a chat channel with each other (if it doesn't exist already) 
   and also the encryption keys will be verified. 
 
-- For an end-to-end-encryption, Delta Chat shows two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
+- For an end-to-end-encryption, Delta Chat shows two fingerprints there. 
+  If they are the same on the device of your chat partner, the connection is safe.
 
 - For transport encryption, this state is just shown there
 
@@ -151,7 +153,7 @@ The user's profile shows some additional information:
 
 - Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you have to do nothing.
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
 
 # Multi-client {#multiclient}
 
