@@ -50,7 +50,7 @@ Other messages do not appear automatically. You can see the other messages in th
 
 - Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
 - As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
-- However, if really needed, you can **block** any contact.
+- However, if needed, you can **block** any contact.
 
 ## Does Delta Chat support images, videos and other attachments?
 
@@ -68,27 +68,36 @@ Other messages do not appear automatically. You can see the other messages in th
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Who can add members to a group?
+## Who to add members to a group?
 
 - Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
 - To add or delete members, click on the group name in the chat.
 
 ## What is a verified group?
 
-- A "verified group" is a labs feature which you can enable in advanced settings.  By adding one another through QR-code scans a group of "verified" members can talk with each other.  It enforces e2e group encryption that is safe against provider or network attacks.  However, some user-tests and feedback suggests that UX and implementation changes makes sense.  Some current discussions (Dec 2018) can be found here: https://countermitm.readthedocs.io/en/latest/new.html
+- A "verified group" is an experimental feature (as of January 2019). 
+  By adding one another through QR-code scans a group of "verified" members can talk 
+  with each other.  It enforces e2e group encryption that is safe against provider or 
+  network attacks.  However, some user-tests and feedback suggests that UX and 
+  implementation changes makes sense. Recent discussions can be found here: 
+  https://countermitm.readthedocs.io/en/latest/new.html
 
 ## I have deleted myself by accident.
 
-- As you're no longer a group member now, you cannot add yourself again. However, no problem, just ask any other group member in a normal chat to add you again.
+- As you're no longer a group member now, you cannot add yourself again. 
+  However, no problem, just ask any other group member in a normal chat to add you again.
 
 ## I do not want to receive the messages of a group any longer.
 
-- Either delete yourself from the member list or delete the whole chat. If you want to join the group later again, ask another group member to add you again.
-- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and can still write but you're no longer notified of any new messages.
+- Either delete yourself from the member list or delete the whole chat. 
+  If you want to join the group later again, ask another group member to add you again.
+
+- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and 
+  can still write but you're no longer notified of any new messages.
 
 # Encryption {#encryption}
 
-## Does Delta Chat have an end-to-end-encryption?
+## Does Delta Chat support end-to-end-encryption?
 
 - Yes.
 
@@ -96,18 +105,25 @@ Other messages do not appear automatically. You can see the other messages in th
 
 - Nothing.
 
-- Delta Chat (and other [Autocrypt](https://autocrypt.org)-compatible email-programs) share the keys required for end-to-end-encryption automatically as the first messages are sent. After this, all subsequent messages are encrypted end-to-end automatically. If one of the chat partners uses an app later that cannot use end-to-end-encryption, it is paused for this time and automatically re-activated as soon as possible.
+- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
+  e-mail apps) share the keys required for end-to-end-encryption automatically 
+  as the first messages are sent. 
+  After this, all subsequent messages are encrypted end-to-end automatically. 
+  If one of the chat partners uses a non-Autocrypt e-mail app later 
+  messages are not encrypted until an Autocrypt-compliant app is available again. 
 
-- If you want to _deactivate_ the end-to-end-encryption, use the corresponding setting at "Settings / Advanced settings".
+- If you want to _deactivate_ the end-to-end-encryption, 
+  use the corresponding setting at "Settings / Advanced settings".
 
 ## If end-to-end-encryption is not available, is the connection not encrypted at all?
 
-- No. The normal, email-standard _transport encryption_ is used then.
+- No. With most e-mail servers _transport encryption_ (TLS) is used then.
 
 
 ## How can I check the encryption?
 
 - If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
+
 - If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
@@ -115,7 +131,13 @@ Other messages do not appear automatically. You can see the other messages in th
 
 The user's profile shows some additional information:
 
+- You can tap "QR Invite code" on Android and then use the "scan QR"
+  code button on another device to scan this code.  If both devices are online
+  they will introduce a chat channel with each other (if it doesn't exist already) 
+  and also the encryption keys will be verified. 
+
 - For an end-to-end-encryption, Delta Chat shows two fingerprints there. If they are the same on the device of your chat partner, the connection is safe.
+
 - For transport encryption, this state is just shown there
 
 
@@ -135,16 +157,17 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 ## Can I use Delta Chat on multiple devices the same time?
 
-- If you want to use the **same account** on different devices, you have to make sure, all devices use the same keys for encryption:
+If you want to use the **same account** on different (Autocrypt
+capable) devices, you have to synchronize their encryption capabilities: 
 
-  - On the first device, choose "Advanced settings / Manage private keys / Export key to Downloads"
-  - Via USB, copy the key file from the "Downloads" directory of the first device to the second one.
-  - On the second device, "Advanced settings / Manage private keys / Import key from Downloads"
+- On the first device, choose "Advanced settings / Send Autocrypt Setup message" 
+  and click until a "security number" is shown. 
 
-- All this is **not needed** for the standard usage of Delta Chat using just one device.
+- On the other device, wait for the "Autocrypt Setup Message" to
+  arrive and click on it which should prompt you for the security number. 
 
-- NB: In multi-client mode, _incoming_ messages are shown at once on all clients. _Outgoing_ messages are synced about two times an hour. We can improve this, but we would need more [support](contribute) on this issue.
-
+- you are now successfully synchronized and can use both devices for
+  sending and receiving e2e-encrypted messages with your communication partners. 
 
 # Miscellaneous
 
