@@ -16,28 +16,34 @@ more precise download numbers.
 <img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
+Delta/Android is the most feature-rich and stable DeltaChat app. 
+
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %})
+* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
 
-If you can, please [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
-
-## iOS on TestFlight 
+## iOS on TestFlight (Beta)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-You can install [Delta/iOS via Testflight](https://testflight.apple.com/join/WVoYFOZe).
-It supports basic functionality but not yet all features offered by Android and Desktop. 
+Delta/iOS supports basic functionality but not all features offered by Android or Desktop. 
+Betas are distributed via Testflight. Just scan this QR code with the camera app of your iPhone/iPad
+
+![QRCode](../assets/home/deltachat_testflight_qrcode.png)
+
+or visit this [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) 
+on your iPhone or iPad.
 
 If you can, please [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
 
-## Delta/Desktop Downloads 
+## Delta/Desktop Downloads (Beta)
 
 For Linux and OSX [you can download from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
 
 For a potential Windows install package, we are tracking [progress here, contributions welcome](https://github.com/deltachat/deltachat-desktop/issues/606) 
 
 See here for the [Desktop Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+
 
 # Verify Downloads
 
