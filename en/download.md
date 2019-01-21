@@ -6,7 +6,7 @@ layout: default-en
 # Download DeltaChat 
 
 DeltaChat is stable enough that it is used both by developers and 
-an estimated 10-30K people on a daily basis, including private 
+an estimated 10-30K people on a daily basis, including for private 
 communications with friends. DeltaChat operates no own servers and 
 does not track users or installs and thus can not determine 
 more precise download numbers. 
@@ -22,6 +22,16 @@ Delta/Android is the most feature-rich and stable DeltaChat app.
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
 * [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
 
+
+## Delta/Desktop Downloads (Beta)
+
+For Linux and OSX [you can download from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+
+For a potential Windows install package, we are tracking [progress here, contributions welcome!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+
+See here for the [Desktop Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+
+
 ## iOS on TestFlight (Beta)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
@@ -35,14 +45,6 @@ or visit this [testflight invite page](https://testflight.apple.com/join/WVoYFOZ
 on your iPhone or iPad.
 
 If you can, please [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
-
-## Delta/Desktop Downloads (Beta)
-
-For Linux and OSX [you can download from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
-
-For a potential Windows install package, we are tracking [progress here, contributions welcome](https://github.com/deltachat/deltachat-desktop/issues/606) 
-
-See here for the [Desktop Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 
 
 # Verify Downloads
