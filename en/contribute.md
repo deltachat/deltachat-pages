@@ -12,16 +12,15 @@ Delta Chat is open source and free of charge. You can contribute in many ways to
 
 If you want to talk with us or other users you may:
 
-- <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
-  which is where developers and users help users without requiring them to deal with github. 
+- Have a look at the [Delta Chat support forum](https://support.delta.chat)
+  where suggestions and problems are discussed. 
 - Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
 - Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)
 - Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
-  Note that in order to post you need to register by typing
+  (sometimes freenode is in lockdown mode and you will then need to register by typing
   `/msg nickserv register PASSWORD EMAIL` which will send a confirmation
   e-mail. Without this registration and e-mail verification you can read 
-  but not post messages. 
-
+  but not post messages if Freenode is in lock-down mode)
 
 
 # Donate
