@@ -3,15 +3,7 @@ title: Download
 layout: default-en
 ---
 
-# Download DeltaChat 
-
-DeltaChat is stable enough that it is used both by developers and 
-an estimated 10-30K people on a daily basis, including for private 
-communications with friends. DeltaChat operates no own servers and 
-does not track users or installs and thus can not determine 
-more precise download numbers. 
-
-## Android (Beta)
+## Delta/Android (Beta)
 
 <img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
@@ -37,7 +29,7 @@ Delta/Desktop is well usable and can be operated standalone or in conjunction wi
   [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
 
 
-## iOS on TestFlight (Beta)
+## Delta/iOS on TestFlight (Beta)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
