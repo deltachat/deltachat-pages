@@ -3,28 +3,31 @@ title: Why
 layout: default-en
 ---
 
-# What Delta Chat offers
+# Chat over e-mail and head back to the future with us!
 
-Delta Chat is a modern messenger. It is like email in a new dress. <br>Just better, safer and user-optimised.
+<img src="../assets/logos/delta-chat.svg" width="180" style="float: left; margin: 20px;" />
 
-**Start immediately** <br> All you need is an email account. With it you can reach any email contact.
+**Delta Chat is like Telegram or Whatsapp but without tracking and or central control.**
+Check out our [GDPR compliancy statement](gdpr).
 
-![Screenshot](../assets/features/start-img4.png)
+**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
+system ever: the existing e-mail server network.
 
-Make use of the numerous features and advantages:
-
-- Delta Chat is the messenger with the **largest userbase in the world**: Any mail client on any Operating System is compatible
-- Distributed architecture: There is **no central** Delta Chat **server**
-- Independent: You are **not dependent** on any external service or server - Delta Chat only uses your mail server.
-- Your account is independent of a mobile phone number
-- Fast: **Push messages** in seconds - Rapid interface
-- Powerful: **Unlimited** chats, images, videos, audio messages and more - Multi-client capable
-- Free: Delta Chat will always be: **Free of charge** - Open Source - **Free of ads** - Usable without subscription
-- Safe: **Encrypted** with all common algorithms - Open for source code review
-- Protected: Delta Chat protects you from **spam**
-- Legal: Your **phone book** stays on your smartphone - It is **not uploaded** anywhere
-- Anonymous: **Metadata** like _Who_ communicates with _Whom_, _When_ and _Where_ is **not collected**
-- Dynamic: Delta Chat offers **group chats**
+**Chat with anyone with an e-mail address even if they don't have DeltaChat installed!** 
+All you need is a standard e-mail account to start chatting with your friends or colleagues. 
 
 
-Further reasons and motivations may be found in the blog post [Delta makes chatting better](https://delta.chat/en/2017-05-31-delta-makes-chatting-better).
+# Screenshots Android, Desktop and iOS 
+
+<img src="../assets/blog/2019-01-chatlist.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/2019-01-chat.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
+
+<img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
+
+Please check our [January 2019 release blog post](2019-01-27-releases) 
+for more information on current releases. 
+
