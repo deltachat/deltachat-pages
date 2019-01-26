@@ -18,7 +18,7 @@ Delta Chat wird als Open Source kostenlos zur Verfügung gestellt. Sie können a
 
 Wenn Sie uns oder andere Benutzer kontaktieren möchten:
 
-- Neu: Schauen Sie in unser Chat [Delta Chat support forum](https://support.delta.chat)
+- Schauen Sie in unser [Delta Chat support forum](https://support.delta.chat)
 - Melden Sie sich bei der [Delta Chat Mailing-Liste](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) für Diskussionen in der Community an
 - Arbeiten Sie mit uns in den [Github Delta Chat repositories](https://github.com/deltachat/) zusammen
 - Besuchen Sie den IRC channel **#deltachat** über freenode - einfach mit [Web IRC]({% include webirc-url %}). Um im IRC zu schreiben, müssen Sie sich mit  `/msg nickserv register PASSWORD EMAIL` registrieren. Zum Lesen ist keine Anmeldung erforderlich.
