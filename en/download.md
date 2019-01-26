@@ -25,14 +25,16 @@ Delta/Android is the most feature-rich and stable DeltaChat app.
 
 ## Delta/Desktop Downloads (Beta)
 
-Delta/Desktop is well usable and can be operated standalone, without a mobile phone,
-or in conjunction with Android or iOS. See also our [FAQ multiclient](help#multiclient) page.
+Delta/Desktop is well usable and can be operated standalone or in conjunction with Android or iOS. 
 
-For Linux and OSX [you can download from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download for Linux or Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
 
-For a potential Windows install package, we are tracking [progress here, contributions welcome!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [Windows support pending, help needed!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 
-See here for the [Desktop Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
+
+* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
 
 
 ## iOS on TestFlight (Beta)
@@ -40,14 +42,15 @@ See here for the [Desktop Changelog](https://github.com/deltachat/deltachat-desk
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
 Delta/iOS supports basic functionality but not all features offered by Android or Desktop. 
-Betas are distributed via Testflight. Just scan this QR code with the camera app of your iPhone/iPad
+Betas are distributed via Testflight. 
 
-![QRCode](../assets/home/deltachat_testflight_qrcode.png)
+- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for your iPhone or iPad.
 
-or visit this [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) 
-on your iPhone or iPad.
+- [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
 
-If you can, please [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
+- Scan this QR code with the camera app of your iPhone/iPad
+
+  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)
 
 
 # Verify Downloads
