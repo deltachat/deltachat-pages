@@ -1,7 +1,8 @@
 
 # Privacy by Design
 
-- **Confidentiality**: End-to-end encryption by default.
+- **Confidentiality**: End-to-end encryption by default, by implementing [Autocrypt
+  Level 1](https://autocrypt.org).
 
 - **Data minimization**: No alignment or uploading of the address-book content.
 
