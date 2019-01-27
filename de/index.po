@@ -1,14 +1,15 @@
 # Translators:
-# Björn Petersen <r10s@b44t.com>, 2018
+# Björn Petersen <r10s@b44t.com>, 2019
+# W R, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-27 01:15+0200\n"
+"POT-Creation-Date: 2019-01-28 00:32+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: W R, 2019\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,34 +33,43 @@ msgstr ""
 #: ../en/index.md:7
 msgid "# Chat over e-mail and head back to the future with us!"
 msgstr ""
+"# Chatten Sie über E-Mail und kommen Sie mit uns zurück in die Zukunft!"
 
 #: ../en/index.md:9
 msgid ""
 "<img src=\"../assets/logos/delta-chat.svg\" width=\"160\" style=\"float: "
 "left; margin: 20px;\" />"
 msgstr ""
+"<img src=\"../assets/logos/delta-chat.svg\" width=\"160\" style=\"float: "
+"left; margin: 20px;\" />"
 
 #: ../en/index.md:12
 msgid ""
 "**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**\n"
 "Check out our [GDPR compliancy statement](gdpr)."
 msgstr ""
+"**Delta Chat ist wie Telegram oder Whatsapp, jedoch ohne Tracking oder zentrale Kontrolle.**\n"
+"Lesen Sie unsere [Erklärung zur Einhaltung der DSGVO](gdpr)."
 
 #: ../en/index.md:15
 msgid ""
 "**DeltaChat has no own servers** but uses the most massive and diverse open messaging \n"
 "system ever: the existing e-mail server network."
 msgstr ""
+"**DeltaChat betreibt keine eigenen Server**, verwendet jedoch das umfangreichste und vielfältigste offene Messaging\n"
+"System überhaupt: Das bestehende E-Mail-Server-Netzwerk."
 
 #: ../en/index.md:18
 msgid ""
 "**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** \n"
 "All you need is a standard e-mail account."
 msgstr ""
+"**Chatten Sie mit jedem dessen E-Mail-Adresse Sie kennen, ohne dass er/sie DeltaChat installiert haben muss!**\n"
+"Es wird lediglich ein Standard-E-Mail-Konto benötigt."
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "
-msgstr ""
+msgstr "# Screenshots für Android, Desktop und iOS "
 
 #: ../en/index.md:26
 msgid ""
@@ -68,21 +78,31 @@ msgid ""
 "<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
 "style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 msgstr ""
+"<img src=\"../assets/blog/2019-01-chatlist.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> \n"
+"<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 
 #: ../en/index.md:28
 msgid ""
 "<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
 "style=\"float:left; margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
+"style=\"float:left; margin: 10px\" /> "
 
 #: ../en/index.md:30
 msgid ""
 "<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
 "style=\"margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
+"style=\"margin: 10px\" /> "
 
 #: ../en/index.md:33
 msgid ""
 "Please check our [January 2019 release blog post](../en/2019-01-27-releases) \n"
 "for information on current releases. "
 msgstr ""
+"Bitte lesen Sie auch unseren [Januar 2019 Release Blog Post](../en/2019-01-27-Releases)\n"
+"um Informationen zu aktuellen Versionen zu bekommen."

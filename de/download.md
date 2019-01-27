@@ -14,7 +14,7 @@ layout: default-de
 <img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android is the most feature-rich and stable DeltaChat app. 
+Delta/Android ist die funktionsreichste und stabilste Delta Chat App.
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)

@@ -25,18 +25,18 @@ layout: default-pl
 
 ## Jakie są zalety Delta Chat w porównaniu z innymi komunikatorami?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP
-- _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
-- _Compatible_ - not only to itself
-- _Elegant_ and _simple_ user interface
-- _Distributed_ system
-- _No Spam_ - only messages of known users are shown by default
-- _Reliable_ - safe for professional use
-- _Trustworthy_ - can even be used for business messages
-- fully _Open Source_ and _Standards_ based
+- _Niezależny_ od jakiejkolwiek firmy lub usług. _Jesteś_ właścicielem swoich danych.
+- Twoje dane nie są zapisywane na centralnym serwerze; w ten sposób, w przeciwieństwie do większości innych komunikatorów, Delta Chat nawet chroni twoje metadane (kto do kogo pisze?)
+- Nie udostępniasz nikomu swojej książki adresowej.
+- _Szybki_ dzięki użyciu Push-IMAP
+- _Największa baza użytkowników_ - możesz rozmawiać nawet z tymi, którzy _nie_ posiadają Delta Chat
+- _Zgodny_ - nie tylko z samym sobą
+-  _Elegancki_ i _prosty_ interfejs użytkownika
+- _Rozproszony_ system
+- _Brak spamu_ - domyślnie wyświetlane są, tylko wiadomości znanych użytkowników
+- _Niezawodny_ - bezpieczny do użytku profesjonalnego
+- _Godny zaufania_ - może być wykorzystywany nawet do wiadomości biznesowych
+- W pełni _otwarto-źródłowy_ i _oparty na standardach_
 
 ## Co jeśli odbiorca nie używa Delta Chat?
 
@@ -46,17 +46,17 @@ layout: default-pl
 
 Delta Chat automatycznie pokazuje:
 
-- Messages from contacts in your **address book**
-- Messages from contacts **contacted by you**
-- **Replies** to messages sent by you
+- Wiadomości od kontaktów z **książki adresowej**
+- Wiadomości od kontaktów, z którymi **się kontaktujesz**
+- **Odpowiedzi** na wiadomości wysyłane przez ciebie
 
 Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu głównym w **Skrzynka pocztowa** i, jeśli chcesz, rozpocząć czat z tego miejsca.
 
 ## A co ze spamem?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
-- However, if needed, you can **block** any contact.
+- Wiadomości w popularnych folderach ze spamem są ignorowane, a zawarte adresy nie są uznawane za znane kontakty.
+- Ponieważ wiadomości z nieznanych kontaktów nie pojawiają się automatycznie, zwykle **nie ma spamu**.
+- Jednakże, jeśli potrzebujesz, możesz **zablokować** dowolny kontakt. 
 
 ## Czy Delta Chat obsługuje obrazy, filmy i inne załączniki?
 
@@ -70,16 +70,16 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 
 ## Jak mogę utworzyć grupę?
 
-- Select **Add group** from the "Sandwich menu" in the upper right corner of the chat overview.
-- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Na ekranie przeglądu czatów, z menu w prawym górnym rogu wybierz **Nowa grupa**.
+- Na następnym ekranie wybierz **członków grupy** i naciśnij znacznik wyboru w prawym górnym rogu. Następnie możesz zdefiniować nazwę grupy.
+- Zaraz po napisaniu pierwszej wiadomości w grupie wszyscy członkowie zostaną poinformowani o nowej grupie i mogą odpowiedzieć w grupie (jeżeli nie napiszesz wiadomości w grupie, grupa jest niewidoczna dla członków).
 
-## Who to add members to a group?
+## Kto dodaje członków do grupy?
 
 - Każdy członek grupy ma **takie same prawa** jak każdy inny. Z tego powodu każdy może usunąć każdego członka lub dodać nowego.
 - Aby dodać lub usunąć członków, kliknij nazwę grupy na czacie. 
 
-## What is a verified group?
+## Co to jest zweryfikowana grupa?
 
 - A "verified group" is an experimental feature (as of January 2019). 
   By adding one another through QR-code scans a group of "verified" members can talk 
@@ -90,20 +90,20 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 
 ## Usunąłem się przez przypadek.
 
-- As you're no longer a group member now, you cannot add yourself again. 
-  However, no problem, just ask any other group member in a normal chat to add you again.
+- Ponieważ nie jesteś już członkiem grupy, nie możesz dodać siebie ponownie. 
+  Jednak nie ma problemu, po prostu poproś dowolnego członka grupy na normalnym czacie, aby dodał cię ponownie.
 
 ## Nie chcę już otrzymywać wiadomości od grupy.
 
-- Either delete yourself from the member list or delete the whole chat. 
-  If you want to join the group later again, ask another group member to add you again.
+- Usuń siebie z listy członków lub usuń cały czat. 
+  Jeśli później będziesz chciał ponownie dołączyć do grupy, poproś innego członka grupy, aby dodał cię do grupy.
 
-- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and 
-  can still write but you're no longer notified of any new messages.
+- Alternatywnie możesz też „Wyłączyć powiadomienia” dla grupy - dzięki temu otrzymasz wszystkie wiadomości i 
+  nadal będziesz mógł pisać, ale nie będziesz już otrzymywać powiadomień o nowych wiadomościach.
 
 # Szyfrowanie {#encryption}
 
-## Does Delta Chat support end-to-end-encryption?
+## Czy Delta Chat obsługuje szyfrowanie end-to-end?
 
 - Yes. DeltaChat implements the Autocrypt Level 1 standard and can 
   thus e2e-encrypt messages with other Autocrypt-capable apps. 
@@ -119,8 +119,8 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
   If one of the chat partners uses a non-Autocrypt e-mail app later 
   messages are not encrypted until an Autocrypt-compliant app is available again. 
 
-- If you want to _deactivate_ the end-to-end-encryption, 
-  use the corresponding setting at "Settings / Advanced settings".
+- Jeśli chcesz _dezaktywować_ szyfrowanie end-to-end, 
+  użyj odpowiedniego ustawienia w „Ustawienia » Ustawienia zaawansowane”.
 
 ## Czy połączenie nie jest w ogóle szyfrowane, jeśli szyfrowanie end-to-end nie jest dostępne?
 
@@ -129,9 +129,9 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 
 ## Jak mogę sprawdzić szyfrowanie?
 
-- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
+- Jeśli obok wiadomości pojawi się mała **kłódka**, oznacza to, że wiadomość jest szyfrowana metodą end-to-end _i_ jest wysłana od danego nadawcy _i_ twoja odpowiedź będzie również szyfrowana metodą end-to-end.
 
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- Jeśli **nie ma kłódki**, wiadomość używa zwykłego szyfrowania transportu, np. ponieważ ty lub nadawca wyłączyliście szyfrowanie metodą end-to-end, lub gdy nadawca używa aplikacji, która nie obsługuje szyfrowania metodą end-to-end.
 
 
 ## Jak mogę zweryfikować nadawcę?
@@ -143,17 +143,17 @@ Profil użytkownika zawiera dodatkowe informacje:
   they will introduce a chat channel with each other (if it doesn't exist already) 
   and also the encryption keys will be verified. 
 
-- For an end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If they are the same on the device of your chat partner, the connection is safe.
+- W przypadku szyfrowania metodą end-to-end Delta Chat pokazuje tam dwa odciski palców. 
+  Jeśli są takie same na urządzeniu twojego partnera czatu, połączenie jest bezpieczne
 
-- For transport encryption, this state is just shown there
+- W przypadku szyfrowania transportu ten stan jest właśnie tam wyświetlany
 
 
 ## Jakie standardy są używane do szyfrowania end-to-end?
 
 - OpenPGP. Transport kluczy odbywa się za pomocą [Autocrypt](https://autocrypt.org).
 
-## Can I re-use my existing private key?
+## Czy mogę ponownie wykorzystać mój istniejący klucz prywatny?
 
 - Tak. Najlepszym sposobem jest wysłanie wiadomości konfiguracyjnej Autocrypt z innego klienta poczty e-mail. Poszukaj czegoś jak **Start Autocrypt Setup Transfer** w ustawieniach innego klienta i postępuj zgodnie z wyświetlanymi tam instrukcjami.
 
