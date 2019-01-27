@@ -11,7 +11,7 @@ layout: default-es
 
 # Aviso legal
 
-Delta.Chat is an open source community project. Responsible for the content of these pages is:
+Delta.Chat es un proyecto de la comunidad de código abierto. El responsable del contenido de estas páginas es:
 
     Merlinux GmbH
     Reichgrafen Str. 20
@@ -25,4 +25,4 @@ Managing Director: Holger Krekel
 
 [Community channels](contribute)
 
-The mailing list server is operated through <https://github.com/codespeaknet/sysadmin>.
+El servidor de listas de correo se opera a través de <https://github.com/codespeaknet/sysadmin>.

@@ -1,12 +1,15 @@
+# Translators:
+# Björn Petersen <r10s@b44t.com>, 2018
+# Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-06 15:01+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"POT-Creation-Date: 2019-01-27 01:15+0200\n"
+"PO-Revision-Date: 2018-04-21 22:06+0000\n"
+"Last-Translator: Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,28 +39,36 @@ msgid ""
 "Although Delta Chat is still in beta state, there are already some interesting articles.\n"
 "Do we have missed something? Please [let us know](imprint)."
 msgstr ""
+"Aunque Delta Chat todavía está en estado beta, ya hay algunos artículos interesantes.\n"
+"¿Nos ha faltado algo? Por favor, [háganoslo saber](imprint)."
 
 #: ../en/references.md:13
 msgid ""
 "## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-"
 "Kryptografie"
 msgstr ""
+"## iX (revista alemana): Dargereicht - Autocrypt automatisiert E-Mail-"
+"Kryptografie"
 
 #: ../en/references.md:16
 msgid ""
 "This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.\n"
 "Delta Chat is mentioned on the edge."
 msgstr ""
+"Este artículo trata sobre Autocrypt, la especificación utilizada por Delta Chat para la configuración de extremo a extremo.\n"
+"Delta Chat se menciona en el borde."
 
 #: ../en/references.md:18
 msgid ""
 "05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
 msgstr ""
+"05/2018, página 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>"
 
 #: ../en/references.md:20
 msgid ""
 "## Linux User (German magazine): Private and Confidential - Privatvergnügen"
 msgstr ""
+"## Linux User (revista alemana): Private and Confidential - Privatvergnügen"
 
 #: ../en/references.md:22
 msgid ""
@@ -70,10 +81,12 @@ msgid ""
 "03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-"
 "Artikel/LinuxUser/2018/03/Privatvergnuegen>"
 msgstr ""
+"03/2018, página 84, <http://www.linux-community.de/Internal/Artikel/Print-"
+"Artikel/LinuxUser/2018/03/Privatvergnuegen>"
 
 #: ../en/references.md:27
 msgid "## Hasecke (German blog): Mit Delta Chat per E-Mail chatten"
-msgstr ""
+msgstr "## Hasecke (blog alemán): Mit Delta Chat per E-Mail chatten"
 
 #: ../en/references.md:29
 msgid ""
@@ -82,7 +95,7 @@ msgstr ""
 
 #: ../en/references.md:31
 msgid "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
-msgstr ""
+msgstr "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
 
 #: ../en/references.md:34
 msgid ""
@@ -102,3 +115,5 @@ msgid ""
 "03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
 "messenger-himmel/>"
 msgstr ""
+"03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
+"messenger-himmel/>"

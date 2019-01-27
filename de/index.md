@@ -9,46 +9,31 @@ layout: default-de
 
 
 
+# Chat over e-mail and head back to the future with us!
 
-{% include slider-begin.html %}
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-# Delta Chat
-Der Messenger mit der **größten Reichweite** der Welt.  
-**Frei** und **unabhängig**.
+**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
+Check out our [GDPR compliancy statement](gdpr).
 
-{% include slider-next.html %}
+**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
+system ever: the existing e-mail server network.
 
-# Unabhängig
-**Es gibt keinen Delta-Chat-Server.**  
-Die App verwendet nur Ihren E-Mail-Server.
+**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
+All you need is a standard e-mail account.
 
-{% include slider-next.html %}
 
-# Schnell
-**Push-Nachrichten** in Sekunden.  
-Rasantes Interface.
+# Screenshots Android, Desktop and iOS 
 
-{% include slider-next.html %}
+<img src="../assets/blog/2019-01-chatlist.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/2019-01-chat.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
-# Leistungsstark
-**Unbegrenzte** Chats, Bilder, Videos, Sprachnachrichten und mehr. Multi-Client-fähig.
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
 
-{% include slider-next.html %}
+<img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-# Frei
-**Delta Chat** is free forever.  
-Open Source. No ads. No subscription. No vendor lock-in.
-
-{% include slider-next.html %}
-
-# Verschlüsselt
-**Verschlüsselung** mit allen gängigen Verfahren. Die Nachrichten bleiben auf Ihren Servern.
-
-{% include slider-next.html %}
-
-# Vertraulich
-**Delta Chat** ist für die vertrauliche geschäftliche Kommunikation geeignet.
-
-{% include slider-end.html %}
-
+Please check our [January 2019 release blog post](../en/2019-01-27-releases) 
+for information on current releases. 
 

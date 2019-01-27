@@ -9,46 +9,31 @@ layout: default-sq
 
 
 
+# Chat over e-mail and head back to the future with us!
 
-{% include slider-begin.html %}
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-# Delta Chat
-Shkëmbyesi i mesazheve me **publikun më të gjerë** në botë. 
-**I lirë**, **i pavarur**, i pajtueshëm me email-in.
+**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
+Check out our [GDPR compliancy statement](gdpr).
 
-{% include slider-next.html %}
+**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
+system ever: the existing e-mail server network.
 
-# I pavarur
-**S’ka shërbyes Delta Chat** 
-Aplikacioni përdor vetëm shërbyesin tuaj të email-eve.
+**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
+All you need is a standard e-mail account.
 
-{% include slider-next.html %}
 
-# I shpejtë
-**Mesazhe push** brenda pak sekondash. 
-Ndërfaqe e shpejtë.
+# Screenshots Android, Desktop and iOS 
 
-{% include slider-next.html %}
+<img src="../assets/blog/2019-01-chatlist.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/2019-01-chat.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
-# I fuqishëm
-Biseda, figura, video, mesazhe audio, etj, **të pakufizuara**. Me aftësi _multi-client_.
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
 
-{% include slider-next.html %}
+<img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-# I lirë
-**Delta Chat** është i lirë, përgjithmonë. 
-Me burim të Hapur. Pa reklama. Pa pajtim. Pa kyçje nga tregtuesit.
-
-{% include slider-next.html %}
-
-# I fshehtëzuar
-Fshehtëzuar me krejt algoritmet e zakonshëm. Mesazhet qëndrojnë në shërbyesit tuaj.
-
-{% include slider-next.html %}
-
-# I besueshëm
-**Delta Chat** është i parrezik për përdorim biznesi, i bazuar në standarde dhe i përputhshëm me ta.
-
-{% include slider-end.html %}
-
+Please check our [January 2019 release blog post](../en/2019-01-27-releases) 
+for information on current releases. 
 

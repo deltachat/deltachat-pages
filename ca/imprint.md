@@ -11,13 +11,13 @@ layout: default-ca
 
 # Emprempta
 
-Delta.Chat is an open source community project. Responsible for the content of these pages is:
+Delta.Chat és un projecte comunitari de programari lliure. El responsable del contingut d'aquestes pàgines és:
 
     Merlinux GmbH
     Reichgrafen Str. 20
     79102 Freiburg, Germany
 
-E-mail: {% include email-link %}
+Correu-e: {% include email-link %}
 
 Amtsgericht Freiburg: HRB709589  
 VAT: DE814082730  
