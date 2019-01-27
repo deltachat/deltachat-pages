@@ -1,3 +1,13 @@
+---
+title: GDPR
+layout: default-ru
+---
+
+
+
+<!-- GENERATED FILE -- DO NOT EDIT -->
+
+
 
 # Privacy by Design
 
@@ -27,7 +37,7 @@
   on eventual **evidence documentation**, (article 30 GDPR) 
   as well as on the **data protection certification process**, Article 25 (3), 42 GDPR.
 
-- The **record of processing activities** linked to the messenger-communication is  
+- The **record of processing activities** linked to the messenger-communication is
   reduced to identifying the email-providers and recording their activities, Article 30 (2) GDPR.
 
 - Remaining risks to the rights and freedoms of natural persons 

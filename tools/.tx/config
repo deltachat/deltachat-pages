@@ -16,8 +16,8 @@ file_filter = translations/delta-chat-pages.downloadpo/<lang>.po
 source_lang = en
 type = PO
 
-[delta-chat-pages.featurespo]
-file_filter = translations/delta-chat-pages.featurespo/<lang>.po
+[delta-chat-pages.gdprpo]
+file_filter = translations/delta-chat-pages.gdprpo/<lang>.po
 source_lang = en
 type = PO
 

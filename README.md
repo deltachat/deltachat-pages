@@ -42,6 +42,7 @@ Testing changes
   and execute `jekyll serve --destination <path-to-build-dir>` 
   in the source directory.
 
+
 Directory structure
 --------------------------------------------------------------------------------
 
@@ -59,6 +60,7 @@ Directory structure
   in general, we use one subdirectory per page or section here.
 
 - `/assets/css` - CSS and layout specific images and files here.
+
 
 Translate the website
 --------------------------------------------------------------------------------
@@ -81,6 +83,16 @@ To **add a new language**, the followinging steps are required once:
 
 - check the language selection in `/index.html` 
   and in `/_includes/footer-languages.html`.
+
+To **add a new page**:
+
+- create the source as `en/<name>.md`
+
+- modify `tools/.tx/config` as needed
+  and create dir `translations/delta-chat-pages.<name>po/`
+
+- run `cd tools; ./t-dance push`
+
 
 Further Hints
 --------------------------------------------------------------------------------
@@ -107,9 +119,10 @@ Further Hints
 
 - Finally: Have fun :-)
 
+
 License
 --------------------------------------------------------------------------------
 
 Licensed under the GPLv3, see LICENSE file for details.
 
-Copyright © 2017, 2018 Delta Chat contributors
+Copyright © 2017-2019 Delta Chat contributors
