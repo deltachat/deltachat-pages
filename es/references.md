@@ -11,25 +11,25 @@ layout: default-es
 
 # Referencias
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
-Do we have missed something? Please [let us know](imprint).
+Aunque Delta Chat todavía está en estado beta, ya hay algunos artículos interesantes.
+¿Nos ha faltado algo? Por favor, [háganoslo saber](imprint).
 
 
-## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
+## iX (revista alemana): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
 
-This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.
-Delta Chat is mentioned on the edge.
+Este artículo trata sobre Autocrypt, la especificación utilizada por Delta Chat para la configuración de extremo a extremo.
+Delta Chat se menciona en el borde.
 
-05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
+05/2018, página 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
 
-## Linux User (German magazine): Private and Confidential - Privatvergnügen
+## Linux User (revista alemana): Private and Confidential - Privatvergnügen
 
 _"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu Datenkraken wie Whatsapp."_
 
-03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
+03/2018, página 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
 
 
-## Hasecke (German blog): Mit Delta Chat per E-Mail chatten
+## Hasecke (blog alemán): Mit Delta Chat per E-Mail chatten
 
 _"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client."_
 

@@ -9,44 +9,56 @@ layout: default-de
 
 
 
-# Download Delta Chat
-
-**Delta Chat ist aktuell in der Entwicklung**
-
-Eine Android Version ist im Beta-Stadium auf F-Droid verfügbar. Nach erreichen der [Version 1.0 Ziele](https://github.com/deltachat/deltachat-android/milestone/1) auch bei Google Play.
-Weitere Varianten für iOS, Mac, Linux oder Windows sind geplant.
-Gerne können Sie uns bei der Entwicklung [unterstützen](contribute).
-
-## Android (Beta)
+## Delta/Android (Beta)
 
 <img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
+Delta/Android is the most feature-rich and stable DeltaChat app. 
+
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [Änderungen anzeigen]({% include changelog-url %})
+* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
 
 
-## Apple
+## Delta/Desktop Downloads (Beta)
+
+Delta/Desktop is well usable and can be operated standalone or in conjunction with Android or iOS. 
+
+* [download for Linux or Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+
+* [Windows support pending, help needed!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+
+* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
+
+* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
+
+
+## Delta/iOS on TestFlight (Beta)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-Mit der iOS-Entwicklung wurde grundsätzlich begonnen, es ist aber weitere Arbeit notwendig, bis wir hier einen Download anbieten können. [Helfende Entwickler](contribute) sind sehr willkommen :)
+Delta/iOS supports basic functionality but not all features offered by Android or Desktop. 
+Betas are distributed via Testflight. 
 
+- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for your iPhone or iPad.
 
-## Linux
+- [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
 
-Delta Chat für Linux ist noch nicht entwickelt. Es gibt aber die Möglichkeit die Android app in [Anbox](https://anbox.io) (Android in a Box) im Desktop zu nutzen.
-Weitere Informationen dazu in unserer [Hilfe](help#multiclient) Seite.
+- Scan this QR code with the camera app of your iPhone/iPad
+
+  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)
 
 
 # Downloads verifizieren
 
 Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:
 
-* Für F-Droid-Downloads:  
+* For F-Droid downloads:  
   `{% include fingerprint-f-droid %}`
-* Andere APK-Downloads:  
+
+* Other APK downloads:  
   `{% include fingerprint-local %}`
 
 Um den  SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das folgende Kommando verwendet werden:  

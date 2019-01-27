@@ -9,30 +9,35 @@ layout: default-nb
 
 
 
-# Hvordan støtte oss
+# Channels and repositories
 
-Delta Chat er gratis fri programvare. Du kan bidra på mange måter for å fremme utviklingen!
+- [Delta Chat support forum](https://support.delta.chat) for wider
+  feature discussions and getting support .
+
+- [#deltachat on freenode]({%include webirc-url %}) for day to day communications.
+
+- [Delta Chat mailing
+  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+  for community discussions and news.
+
+- [Delta Chat repositories](https://github.com/deltachat/) where you can 
+  can find the code for DeltaChat apps and this web site.
+
+# Translations and Bug Reports 
+
+- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)
+
+We are always looking for developers who want to help along and are familiar with 
+C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
 
 
-# Kanaler
+# Donate Money or devices
 
-If you want to talk with us or other users you may:
-
-- <b>New:</b> Have a look at the [Delta Chat support forum](https://support.delta.chat)
-  which is where developers and users help users without requiring them to deal with github. 
-- Join the [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) for community discussions
-- Collaborate through the [Delta Chat repositories](https://github.com/deltachat/)
-- Join IRC channel **#deltachat** on freenode - easily via [Web IRC]({% include webirc-url %})
-  Note that in order to post you need to register by typing
-  `/msg nickserv register PASSWORD EMAIL` which will send a confirmation
-  e-mail. Without this registration and e-mail verification you can read 
-  but not post messages. 
-
-
-
-# Doner
-
-Utviklingen av Delta Chat koster **penger**. Din donasjon støtter videre forbedring direkte.
+If you want to support DeltaChat with money:
 
 - IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
 - PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
@@ -40,35 +45,3 @@ Utviklingen av Delta Chat koster **penger**. Din donasjon støtter videre forbed
 
 Vi trenger **enheter** i testøyemed. Har du en iPhone eller Android-telefon du ikke bruker?
 [Vi](imprint) tar imot med åpne armer!
-
-# Oversettelse
-
-Help to translate the Delta Chat app or the delta.chat website into your language using
-[Transifex](https://www.transifex.com/delta-chat/public/).
-Alternatively, you can download [this file](https://raw.githubusercontent.com/deltachat/deltachat-android/master/MessengerProj/src/main/res/values/strings.xml) and [send](imprint) us the translated version.
-
-Vi søker også noen som kan vedlikeholde Transifex-siden og kontakten med oversetterne.
-
-
-# Utvikling
-
-Vi leter etter friprog-utviklere som kjenner C, Java, Android, iOS, Windows, Linux|GNU eller Mac.
-Ta grep om din egen [Delta Chat](https://github.com/deltachat/) forgrening, og send inn en innlemmingsforespørsel.
-
-Det samme er å anse for **denne nettsiden** - Uansett om du har små eller store forbedringer: Rediger denne siden [her](https://github.com/deltachat/deltachat-pages) og send innlemmingsforespørsel.
-
-# Anbefaling
-
-Akkurat nå er Delta Chat fremdeles i beta, og fungerer kun for prøvekaniner. Folk som bruker det i dag bør ha i minnet at ting er under endring. Med versjon 1.0 vil Delta Chat bli klart for bruk, og anbefalt brukt for _alle_.
-
-
-# Feilrapporter
-
-Bruk følgende **feilsporer** for å innrapportere feil.
-
-- [Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Kjernebibliotek+ Python](https://github.com/deltachat/deltachat-core/issues)
-
-
-
