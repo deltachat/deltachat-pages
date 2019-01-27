@@ -9,35 +9,35 @@ layout: default-sq
 
 
 
-# Channels and repositories
+# Kanale dhe depo
 
-- [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support .
+- [Forumi i asistencës për Delta Chat](https://support.delta.chat) për
+  diskutime më të gjera mbi veçori dhe për të marrë asistencë.
 
-- [#deltachat on freenode]({%include webirc-url %}) for day to day communications.
+- [#deltachat në freenode]({%include webirc-url %}) për komunikim të përditshëm.
 
-- [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
-  for community discussions and news.
+- [Listë postimesh Delta Chat]
+  (https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+  për diskutime dhe lajme nga bashkësia.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  can find the code for DeltaChat apps and this web site.
+- [Depo Delta Chat-i](https://github.com/deltachat/) ku mund të gjeni 
+  kodin për aplikacionet DeltaChat dhe këtë sajt.
 
-# Translations and Bug Reports 
+# Përkthime dhe Njoftime të Metash 
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)
+- [Përkthime në Transifex](https://www.transifex.com/delta-chat/public/)
+- [Çështje Delta Chat-i nën Android](https://github.com/deltachat/deltachat-android/issues)
+- [Çështje Delta Chat-i nën Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Çështje Delta Chat-i nën iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Çështje të Librarisë Bazë + Python](https://github.com/deltachat/deltachat-core/issues)
 
-We are always looking for developers who want to help along and are familiar with 
-C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
+Kërkojmë përherë për zhvillues që duan të ndihmojnë dhe dinë C, Rust, Java, 
+Swift, Javascript ose Python për Android, iOS, Windows, Linux ose Mac.
 
 
-# Donate Money or devices
+# Dhuroni para ose pajisje
 
-If you want to support DeltaChat with money:
+Nëse dëshironi të përkrahsni DeltaChat-in me para:
 
 - IBAN DE86100777770428658900, Zotërues llogarie (ju lutemi, specifikojeni kurdoherë): Björn Petersen, BIC NORSDE51XXX
 - PayPal ose kartë krediti: [paypal.me/deltachat](https://paypal.me/deltachat/20)
