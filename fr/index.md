@@ -9,43 +9,31 @@ layout: default-fr
 
 
 
+# Chat over e-mail and head back to the future with us!
 
-{% include slider-begin.html %}
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-# Delta Chat
-La messagerie **la plus étendue** dans le monde. **Libre**, **indépendante**, compatible avec les emails.
+**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
+Check out our [GDPR compliancy statement](gdpr).
 
-{% include slider-next.html %}
+**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
+system ever: the existing e-mail server network.
 
-# Indépendante
-**Pas de dépendance** à des serveurs tiers. L'application utilise seulement votre serveur email.
+**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
+All you need is a standard e-mail account.
 
-{% include slider-next.html %}
 
-# Rapide
-Envoyer vos messages **instantanément**.
-Interface convivial et rapide.
+# Screenshots Android, Desktop and iOS 
 
-{% include slider-next.html %}
+<img src="../assets/blog/2019-01-chatlist.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/2019-01-chat.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
-# Puissant
-Messages **illimités**, images, videos, messages audio et bien plus. Compatible avec d'autres clients.
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
 
-{% include slider-next.html %}
+<img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-# Gratuit
-Delta Chat sera **toujours gratuit**. Open Source, sans publicités et utilisable sans abonnement.
-
-{% include slider-next.html %}
-
-# Chiffré
-Chiffré avec les meilleurs algorithmes récents<br>Les messages reste sur **votre propre serveur**.
-
-{% include slider-next.html %}
-
-# Sûr
-Delta Chat est sûr pour une **utilisation professionnelle**, compatible et basé sur les standards.
-
-{% include slider-end.html %}
-
+Please check our [January 2019 release blog post](../en/2019-01-27-releases) 
+for information on current releases. 
 

@@ -18,7 +18,7 @@
 # https://docs.transifex.com/client/
 
 
-sfiles=(blog contribute download features help imprint index references)
+sfiles=(blog contribute download help imprint index references)
 tlangs=(ca de es fr it nb_NO pl pt ru sq)  # do not add `en` to this list
 
 
