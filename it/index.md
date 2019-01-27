@@ -9,43 +9,31 @@ layout: default-it
 
 
 
+# Chat over e-mail and head back to the future with us!
 
-{% include slider-begin.html %}
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-# Delta Chat
-L'applicazione di messaggistica con la **maggiore utenza** al mondo. **Libera**, **sicura**, compatibile con le email.
+**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
+Check out our [GDPR compliancy statement](gdpr).
 
-{% include slider-next.html %}
+**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
+system ever: the existing e-mail server network.
 
-# Indipendente
-**Non esistono server di Delta Chat.** L'applicazione utilizza il server della vostra casella email.
+**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
+All you need is a standard e-mail account.
 
-{% include slider-next.html %}
 
-# Veloce
-**Messaggi "push"** in pochi secondi.
-Interfaccia immediata.
+# Screenshots Android, Desktop and iOS 
 
-{% include slider-next.html %}
+<img src="../assets/blog/2019-01-chatlist.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/2019-01-chat.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
-# Potente
-**Conversazioni illimitate**, immagini, video, messaggi audio e altro ancora. Possibilità di utilizzo con più client.
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
 
-{% include slider-next.html %}
+<img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-# Libera
-**Delta Chat** sarà gratuita per sempre. Open source. Senza annunci. Nessuna registrazione. Nessun vincolo.
-
-{% include slider-next.html %}
-
-# Sicura
-**Cifratura** con tutti gli algoritmi più usati. I messaggi rimangono sui vostri server.
-
-{% include slider-next.html %}
-
-# Affidabile
-**Delta Chat** è sicura anche per uso in ambito professionale, compatibile e basata sugli standard.
-
-{% include slider-end.html %}
-
+Please check our [January 2019 release blog post](../en/2019-01-27-releases) 
+for information on current releases. 
 

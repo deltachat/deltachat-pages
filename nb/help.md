@@ -25,18 +25,18 @@ layout: default-nb
 
 ## Hva er fordelene med Delta Chat sammenlignet med andre meldingsforsendelsessystemer?
 
-- _Uavhengig_ av selskaper og tjenester. _Du_ eier din data.
-- Din data blir ikke lagret på en sentral tjener; på denne måten; i motsats til andre meldingsprogrammer, Delta Chat beskytter tilogmed din metadata (hvem skriver til hvem?)
-- Du sender ikke adresseboken din til noen.
-- _Raskt_ ved bruk av Push-IMAP
-- _Størst brukermasse_ - mottakere som _ikke_ bruker Delta Chat kan også nås
-- _Kompatibelt_ - ikke bare med seg selv
-- _Elegant_ og _enkelt_ brukergrensesnitt
-- _Distribuert_ system
-- _Ingen søppelpost_ - kun meldinger fra kjente brukere vises som forvalg
-- _Pålitelig_ -trygt for profesjonelt bruk
-- _Tillitsverdig_ - kan tilogmed brukes for bedriftsmeldinger
-- Helt _fri programvare_ og basert på _standarder_
+- _Independent_ of any company or services. _You_ own your data.
+- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
+- You do not distribute your address book to anyone.
+- _Fast_ by the use of Push-IMAP
+- _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
+- _Compatible_ - not only to itself
+- _Elegant_ and _simple_ user interface
+- _Distributed_ system
+- _No Spam_ - only messages of known users are shown by default
+- _Reliable_ - safe for professional use
+- _Trustworthy_ - can even be used for business messages
+- fully _Open Source_ and _Standards_ based
 
 ## Hva om mottakeren ikke bruker Delta Chat?
 
@@ -46,17 +46,17 @@ layout: default-nb
 
 Delta Chat viser automatisk…
 
-- Meldinger fra kontakter i din **adressebok**
-- Meldinger fra kontakter **kontaktet av deg**
-- **Svar** til meldinger sendt av deg
+- Messages from contacts in your **address book**
+- Messages from contacts **contacted by you**
+- **Replies** to messages sent by you
 
 Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i **Kontaktforespørsler** og, hvis ønskelig, starte sludring derfra.
 
 ## Hva med spam?
 
-- Meldinger i vanlige søppelpost-mapper ignoreres og inneholdende adresser blir ikke antatt å være kjente kontakter.
-- Siden meldinger fra ukjente kontakter ikke spretter opp automatisk, er det vanligvis **fritt for søppel**.
-- Dog kan du hvis du virkelig ønsker det **blokkere** enhver kontakt.
+- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
+- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
+- However, if needed, you can **block** any contact.
 
 ## Støtter Delta Chat bilder, videoer og andre vedlegg?
 
@@ -70,83 +70,112 @@ Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i **Kontaktfo
 
 ## Hvordan kan jeg opprette en gruppe?
 
-- Velg **Legg til gruppe** fra "smørbrødsmenyen" øverst i venstre hjørne for sludringsoversikt.
-- På neste skjerm, velg **gruppemedlemmer** og trykk på avhukingsmerket øverst i høyre hjørne. Etter det, kan du velge et **gruppenavn**
-- Så snart du skriver den **første meldingen** i gruppen, vil alle medlemmer få vite om den nye gruppen og kan svare i den (så lenge du ikke skriver en melding i gruppen, er den usynlig for medlemmene).
+- Select **Add group** from the "Sandwich menu" in the upper right corner of the chat overview.
+- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
+- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Hvordan kan jeg legge til medlemmer i en gruppe?
+## Who to add members to a group?
 
 - Hvert gruppemedlem har **samme rettigheter** som alle andre. Som følge av dette kan hver av dem slette andre, eller legge til nye.
 - For å legge til eller slette medlemmer, klikk på gruppenavnet i sludringen.
 
+## What is a verified group?
+
+- A "verified group" is an experimental feature (as of January 2019). 
+  By adding one another through QR-code scans a group of "verified" members can talk 
+  with each other.  It enforces e2e group encryption that is safe against provider or 
+  network attacks.  However, some user-tests and feedback suggests that UX and 
+  implementation changes makes sense. Recent discussions can be found here: 
+  https://countermitm.readthedocs.io/en/latest/new.html
+
 ## Jeg har slettet meg selv ved en feiltagelse.
 
-- Siden du nå har forlatt gruppen, kan du ikke legge deg selv til igjen. Det er dog ikke et problem, bare få et annet gruppemedlem i en normal sludring til å legge deg til igjen.
+- As you're no longer a group member now, you cannot add yourself again. 
+  However, no problem, just ask any other group member in a normal chat to add you again.
 
 ## Jeg ønsker ikke lenger å motta meldinger fra en gruppe.
 
-- Enten slett deg selv fra medlemslisten, eller slett hele sludringen. Hvis du ønsker å ta del i gruppen igjen senere, spør et annet gruppemedlem om å legge deg til igjen.
-- Som et alternative, kan du også "Forstumme" en gruppe - å gjøre det, vil la deg få alle dens meldinger, og du kan fremdeles skrive i den, men du vil ikke lenger få beskjed om nye meldinger.
+- Either delete yourself from the member list or delete the whole chat. 
+  If you want to join the group later again, ask another group member to add you again.
+
+- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and 
+  can still write but you're no longer notified of any new messages.
 
 # Kryptering {#encryption}
 
-## Har Delta Chat ende-til-ende -kryptering?
+## Does Delta Chat support end-to-end-encryption?
 
-- Ja.
+- Yes. DeltaChat implements the Autocrypt Level 1 standard and can 
+  thus e2e-encrypt messages with other Autocrypt-capable apps. 
 
 ## Hva må jeg gjøre for å aktivere ende-til-ende -kryptering?
 
 - Ingenting.
 
-- Delta Chat (og andre [Autocrypt](https://autocrypt.org)--kompatible e-postprogramer) deler nøklene som kreves for ende-til-ende -kryptering automatisk så snart den første meldingen blir sendt. Etter dette, vil alle påfølgende meldinger bli ende-til-ende -kryptert automatisk. Hvis, en av sludrepartnerne bruker et program senere, som ikke kan gjøre bruk av ende-til-ende -kryptering, blir det satt på pause, og automatisk re-aktivert så snart det er mulig.
+- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
+  e-mail apps) share the keys required for end-to-end-encryption automatically 
+  as the first messages are sent. 
+  After this, all subsequent messages are encrypted end-to-end automatically. 
+  If one of the chat partners uses a non-Autocrypt e-mail app later 
+  messages are not encrypted until an Autocrypt-compliant app is available again. 
 
-- Hvis du ønsker å _skru av_ ende-til-ende -kryptering, bruk respektiv innstilling i "Innstillinger / Avanserte innstillinger".
+- If you want to _deactivate_ the end-to-end-encryption, 
+  use the corresponding setting at "Settings / Advanced settings".
 
 ## Hvis ende-til-ende -kryptering ikke er tilgjengelig, er tilkoblingen kryptert overhodet?
 
-- Nei. Normal standard _transport-kryptering_ for e-post brukes i sådant fall.
+- No. With most e-mail servers _transport encryption_ (TLS) is used then.
 
 
 ## Hvordan kan jeg sjekke krypteringen?
 
-- Hvis en liten **hengelås** vises ved siden av en melding, angir det at meldingen er ende-til-ende -kryptert _og_ sendt fra angitt avsender _og_ at også svaret ditt vil bli ende-til-ende -kryptert.
-- Hvis det **ikke finnes en hengelås**, vil meldingen vanligvis bli transport-kryptert f.eks. fordi du eller senderen har skrudd av ende-til-ende -kryptering, eller at avsenderen bruker et program som ikke støtter ende-til-ende -kryptering.
+- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
+
+- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Hvordan kan jeg bekrefte avsenderen?
 
 Brukerprofilen viser litt ekstra informasjon:
 
-- For ende-til-ende -kryptering, viser Delta Chat to fingeravtrykk der. Hvis de er de samme på din og din samtalepartners enhet, er tilkoblingen trygg.
-- For transportkryptering, vises bare denne tilstanden der
+- You can tap "QR Invite code" on Android and then use the "scan QR"
+  code button on another device to scan this code.  If both devices are online
+  they will introduce a chat channel with each other (if it doesn't exist already) 
+  and also the encryption keys will be verified. 
+
+- For an end-to-end-encryption, Delta Chat shows two fingerprints there. 
+  If they are the same on the device of your chat partner, the connection is safe.
+
+- For transport encryption, this state is just shown there
 
 
 ## Hvilke standarder brukes for ende-til-ende -kryptering?
 
 - OpenPGP. Nøkkeltransport gjøres via [Autocrypt](https://autocrypt.org).
 
-## Kan jeg bruke en privat nøkkel jeg har fra før?
+## Can I re-use my existing private key?
 
-- Ja. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+- Ja. Den beste måten er å sende en Autocrypt-oppsettsmelding. Se etter noe ala **Start Autocrypt-oppsettsoverføring** i innstillingene til den andre klienten og følg instruksjonene vist der.
 
 - Alternativt kan du inportere nøkkelen manuelt i "Avanserte innstillinger / Behandle private nøkler". Merk: Forsikre deg om at nøkkelen ikke er beskyttet av et passord, eller fjern den først.
 
-Hvis du ikke har en nøkkel, eller ikke engang vet om du kommer til å trenge en - fortvil ikke: Delta Chat genererer en for deg, du trenger ikke å gjøre noe.
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
 
 # Multi-klient {#multiclient}
 
 ## Kan jeg bruke Delta Chat på flere enheter samtidig?
 
-- Hvis du ønsker å bruke **samme konto** på flere enheter, må du forsikre deg om at alle enheter bruke samme krypteringsnøkler:
+If you want to use the **same account** on different (Autocrypt
+capable) devices, you have to synchronize their encryption capabilities: 
 
-  - På den første enheten, velg "Avanserte innstillinger / Behandle private nøkler / Eksporter nøkkel til Nedlastinger"
-  - Via USB, kopier nøkkelfila fra "Nedlastinger"-mappen til første enhet på den andre.
-  - På den andre enheten, "Avanserte innstillinger / Behandle private nøkler / Importer nøkkel fra Nedlastinger"
+- On the first device, choose "Advanced settings / Send Autocrypt Setup message" 
+  and click until a "security number" is shown. 
 
-- Alt dette er **ikke nødvendig** for vanlig bruk av Delta Chat, med bare én enhet.
+- On the other device, wait for the "Autocrypt Setup Message" to
+  arrive and click on it which should prompt you for the security number. 
 
-- NB: I multiklientmodus, vil _innkommende_ meldinger vises umiddelbart på alle klienter. _Utgående_ meldinger synkroniseres to ganger i timen. Dette kan forbedres, men det trengs mer [støtte](contribute) for å få bukt med problemet.
-
+- you are now successfully synchronized and can use both devices for
+  sending and receiving e2e-encrypted messages with your communication partners. 
 
 # Ymse
 

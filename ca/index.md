@@ -9,46 +9,31 @@ layout: default-ca
 
 
 
+# Chat over e-mail and head back to the future with us!
 
-{% include slider-begin.html %}
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-# Delta Chat
-El programa de missatgeria amb un **abast més gran** al món.  
-**Gratuït**, **independent**, compatible amb el correu electrònic.
+**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
+Check out our [GDPR compliancy statement](gdpr).
 
-{% include slider-next.html %}
+**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
+system ever: the existing e-mail server network.
 
-# Independent
-**No hi ha un servidor Delta Chat.**  
-L'aplicació només usa el servidor del teu correu electrònic.
+**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
+All you need is a standard e-mail account.
 
-{% include slider-next.html %}
 
-# Ràpid
-**Envia els missatges** en segons.  
-Interfície ràpida.
+# Screenshots Android, Desktop and iOS 
 
-{% include slider-next.html %}
+<img src="../assets/blog/2019-01-chatlist.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/2019-01-chat.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
-# Potent
-Xats **il·limitats**, imatges, vídeos, missatges d'audio i més. Capacitat multi-client.
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
 
-{% include slider-next.html %}
+<img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-# Gratuït
-**Delta Chat** serà sempre gratuït.  
-Codi obert. Sense anuncis. Sense subscripció. Sense lligam amb un maquinari concret.
-
-{% include slider-next.html %}
-
-# Encriptat
-Encriptat amb els algoritmes més emprats. Els missatges romanen als teus servidors.
-
-{% include slider-next.html %}
-
-# Confiable
-**Delta Chat** és segur per usos empresarials, compatible i basat en estàndards.
-
-{% include slider-end.html %}
-
+Please check our [January 2019 release blog post](../en/2019-01-27-releases) 
+for information on current releases. 
 

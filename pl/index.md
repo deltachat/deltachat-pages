@@ -9,46 +9,31 @@ layout: default-pl
 
 
 
+# Chat over e-mail and head back to the future with us!
 
-{% include slider-begin.html %}
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-# Delta Chat
-Komunikator o **największym zasięgu** na świecie.  
-**Darmowy**, i **niezależny**, kompatybilny z pocztą e-mail.
+**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
+Check out our [GDPR compliancy statement](gdpr).
 
-{% include slider-next.html %}
+**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
+system ever: the existing e-mail server network.
 
-# Niezależny
-**Nie ma serwera Delta Chat.**  
-Aplikacja wykorzystuje tylko twój serwer e-mail.
+**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
+All you need is a standard e-mail account.
 
-{% include slider-next.html %}
 
-# Szybki
-**Wiadomości push** w kilka sekund.  
-Szybki interfejs.
+# Screenshots Android, Desktop and iOS 
 
-{% include slider-next.html %}
+<img src="../assets/blog/2019-01-chatlist.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/2019-01-chat.png" width="120" 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
-# Potężny
-**Nieograniczone** czaty, obrazy, filmy, wiadomości audio i wiele innych. Obsługujący wielu klientów.
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
 
-{% include slider-next.html %}
+<img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-# Darmowy
-**Delta Chat** jest zawsze darmowy. Bez reklam.  
-O otwartym kodzie źródłowym. Bez abonamentu. Bez ograniczeń dystrybucji.
-
-{% include slider-next.html %}
-
-# Bezpieczny
-Szyfrujący za pomocą wszystkich typowych algorytmów. Wiadomości pozostają na swoich serwerach.
-
-{% include slider-next.html %}
-
-# Godny zaufania
-**Delta Chat** jest bezpieczny dla zastosowań biznesowych, zgodny i oparty na standardach.
-
-{% include slider-end.html %}
-
+Please check our [January 2019 release blog post](../en/2019-01-27-releases) 
+for information on current releases. 
 

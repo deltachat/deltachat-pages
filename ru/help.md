@@ -25,18 +25,18 @@ layout: default-ru
 
 ## Каковы преимущества Delta Chat по сравнению с другими мессенджерами?
 
-- _Независимый_ от любой компании или службы. _Вы_ владеете собственными данными. 
-- Ваши данные не сохраняются на центральном сервере; таким образом, в отличие от большинства других мессенджеров, Delta Chat защищает даже ваши метаданные (кто пишет и кому)
-- Вы никому не распространяете свою адресную книгу.
-- _Быстрота_ благодаря использованию протокола Push-IMAP
-- _Огромное количество пользователей_ - получателей, _не_ использующих Delta Chat, также могут получать от вас сообщения
-- _Совместимо_ - не только с собой
-- _Лёгкий_ и _элегантный_ пользовательский интерфейс
-- _Распределённая_ система
-- _Нет спама_ - по умолчанию отображаются только сообщения от известных пользователей
-- _Надежный_ - безопасно для профессионального использования
-- _Заслуживающий доверия_ - можно использовать даже для деловой переписки
-- Полностью _открытый исходный код_ и основан на _стандартах_
+- _Independent_ of any company or services. _You_ own your data.
+- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
+- You do not distribute your address book to anyone.
+- _Fast_ by the use of Push-IMAP
+- _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
+- _Compatible_ - not only to itself
+- _Elegant_ and _simple_ user interface
+- _Distributed_ system
+- _No Spam_ - only messages of known users are shown by default
+- _Reliable_ - safe for professional use
+- _Trustworthy_ - can even be used for business messages
+- fully _Open Source_ and _Standards_ based
 
 ## Что если получатель не использует Delta Chat?
 
@@ -46,17 +46,17 @@ layout: default-ru
 
 Delta Chat автоматически показывает ...
 
-- Сообщения от контактов в вашей **адресной книги**
-- Сообщения от контактов, которым **вы писали сами**
-- **Ответы** на сообщения отправленные вами
+- Messages from contacts in your **address book**
+- Messages from contacts **contacted by you**
+- **Replies** to messages sent by you
 
 Другие сообщения не отображаются автоматически. Вы можете посмотреть другие сообщения в пункте главного меню **Запросы контактов** и, при желании, начать чат оттуда.
 
 ## Что насчёт спама?
 
-- Сообщения из общей папки спама игнорируются и находящиеся там адреса не распознаются как известные вам контакты.
-- Так как сообщения от совершенно неизвестных контактов не появляются автоматически, вполне нормально, что у вас **не будет спама**.
-- Однако, если необходимо, вы можете **заблокировать** любой контакт.
+- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
+- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
+- However, if needed, you can **block** any contact.
 
 ## Delta Chat поддерживает вложения типа фото, видео или чего-нибудь ещё?
 
@@ -70,83 +70,112 @@ Delta Chat автоматически показывает ...
 
 ## Как создать группу?
 
-- Нажмите на 3 вертикальных точки, расположенных в правом верхнем углу, из выпадающего меню выберите **Новая группа**.
-- На следующем экране выберите **участников группы** и нажмите на галочку наверху перед тремя горизонтальными точками в качестве завершения и подтверждения добавления количества участников группы. После этого можно присвойте название новой группы введя его в поле **Введите название группы**. Далее нажмите на галочку в верхнем правом углу для завершения процедуры оформления новой группы.
-- Как только вы напишете **первое сообщение** в группе, все участники информируются о новой группе и могут ответить в группе (до тех пор, пока вы не пишете сообщение в группе, группа невидима для участников).
+- Select **Add group** from the "Sandwich menu" in the upper right corner of the chat overview.
+- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
+- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Кто может добавлять участников в группу?
+## Who to add members to a group?
 
 - Каждый участник группы имеет **те же права**, что и любой другой. По этой причине каждый может удалить любого участника или добавить нового.
 - Чтобы добавить или удалить участников, нажмите на название группы в чате.
 
+## What is a verified group?
+
+- A "verified group" is an experimental feature (as of January 2019). 
+  By adding one another through QR-code scans a group of "verified" members can talk 
+  with each other.  It enforces e2e group encryption that is safe against provider or 
+  network attacks.  However, some user-tests and feedback suggests that UX and 
+  implementation changes makes sense. Recent discussions can be found here: 
+  https://countermitm.readthedocs.io/en/latest/new.html
+
 ## Я случайно себя удалил.
 
-- Поскольку вы больше не являетесь участником группы, вы не можете добавить себя снова. Тем не менее, никаких проблем, просто попросите любого другого участника группы в обычном чате добавить вас снова.
+- As you're no longer a group member now, you cannot add yourself again. 
+  However, no problem, just ask any other group member in a normal chat to add you again.
 
 ## Я больше не хочу получать сообщения группы.
 
-- Удалите себя из списка участников или удалите весь чат. Если вы захотите присоединиться к группе позже, попросите другого участника группы добавить вас снова.
-- В качестве альтернативы, вы также можете "заглушить" группу - сделав это, вы будете получать все сообщения и по-прежнему сможете писать, но вы больше не будете уведомлены о каких-либо новых сообщениях.
+- Either delete yourself from the member list or delete the whole chat. 
+  If you want to join the group later again, ask another group member to add you again.
+
+- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and 
+  can still write but you're no longer notified of any new messages.
 
 # Шифрование {#encryption}
 
-## Delta Chat поддерживает сквозное шифрование?
+## Does Delta Chat support end-to-end-encryption?
 
-- Да.
+- Yes. DeltaChat implements the Autocrypt Level 1 standard and can 
+  thus e2e-encrypt messages with other Autocrypt-capable apps. 
 
 ## Что нужно сделать, чтобы активировать сквозное шифрование?
 
 - Ничего.
 
-- Delta Chat (и другие [Autocrypt](https://autocrypt.org)-совместимые-почтовые программы) делятся ключами сквозного шифрования автоматически, после как будет отправлено первое сообщение. После этого все участники переписки подключаются к протоколу сквозного шифрования автоматически. Если один из участников переписки будет использовать приложение в котором незадействовано сквозное шифрование, переписка будет приостановлена на время пока шифрование не будет перезапущено автоматически, настолько быстро насколько это возможно.
+- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
+  e-mail apps) share the keys required for end-to-end-encryption automatically 
+  as the first messages are sent. 
+  After this, all subsequent messages are encrypted end-to-end automatically. 
+  If one of the chat partners uses a non-Autocrypt e-mail app later 
+  messages are not encrypted until an Autocrypt-compliant app is available again. 
 
-- Если вы хотите _отключить_ сквозное шифрование, используйте соответствующий пункт в меню "Настройки / Расширенные настройки".
+- If you want to _deactivate_ the end-to-end-encryption, 
+  use the corresponding setting at "Settings / Advanced settings".
 
 ## Если сквозное шифрование недоступно, связь не шифруется вообще?
 
-- Это не так. Используется обыкновенный _криптографический протокол TLS _ стандартный для электронной почты.
+- No. With most e-mail servers _transport encryption_ (TLS) is used then.
 
 
 ## Как проверить шифрование?
 
-- Если маленький **замок** виден за сообщением, значит это сообщение зашифровано _и_ отправлено от отправителя применившего протокол сквозного шифрования _и_ ваш ответ также будет зашифрован.
-- Если **нет замка**, значит сообщение зашифровано по обычному протоколу TLS, например потому, что отправитель отключил сквозное шифрование или его приложение не поддерживает данный протокол.
+- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
+
+- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Как мне проверить отправителя?
 
 В профиле пользователя будет видна следующая информация:
 
-— При использовании сквозного шифрования будут показаны отпечатки двух ключей. Если они совпадают на обоих устройствах, то соединение безопасно.
-— При использовании протокола (TLS), статус будет отображаться
+- You can tap "QR Invite code" on Android and then use the "scan QR"
+  code button on another device to scan this code.  If both devices are online
+  they will introduce a chat channel with each other (if it doesn't exist already) 
+  and also the encryption keys will be verified. 
+
+- For an end-to-end-encryption, Delta Chat shows two fingerprints there. 
+  If they are the same on the device of your chat partner, the connection is safe.
+
+- For transport encryption, this state is just shown there
 
 
 ## Какие стандарты используются для сквозного шифрования?
 
 - Стандарт OpenPGP. Обмен ключами осуществляется через [Autocrypt](https://autocrypt.org).
 
-## Можно ли использовать существующий закрытый ключ?
+## Can I re-use my existing private key?
 
-- Да. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+— Да. Самый простой способ использовать существующий ключ — отправить его из приложения для работы с электронной почтой. Найдите в настройка слова типа "Autocrypt Setup Message" в параметрах своего приложения и следуйте дальнейшим указаниям.
 
 — Также возможно выполнить импорт ключей вручную. Для этого воспользуйтесь пунктом меню «Расширенные настройки →  Управление закрытыми ключами». Внимание: убедитесь в том что ключи незащищены паролем, отключите и/или удалите пароль перед их использованием.
 
-Если у вас нет ключа или вы даже не знаете, что он вам понадобится - не волнуйтесь: Delta Chat сгенерирует его при необходимости, вам не нужно ничего делать.
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
 
 # Мульти-клиент {#multiclient}
 
 ## Могу ли я использовать Delta Chat на нескольких устройствах одновременно?
 
-- Если вы хотите использовать **одну и ту же учётную запись** на разных устройствах, вы должны убедиться, что все устройства используют одни и те же ключи шифрования:
+If you want to use the **same account** on different (Autocrypt
+capable) devices, you have to synchronize their encryption capabilities: 
 
- - На первом устройстве выберите "Дополнительные настройки / Управление закрытыми ключами / Экспорт ключа"
- - Через USB скопируйте файл ключа из каталога "Загрузки" первого устройства на второе.
- - На втором устройстве выберите "Дополнительные настройки / Управление закрытыми ключами / Импорт ключа"
+- On the first device, choose "Advanced settings / Send Autocrypt Setup message" 
+  and click until a "security number" is shown. 
 
-- Всё это **не требуется** для стандартного использования Delta Chat с помощью только одного устройства.
+- On the other device, wait for the "Autocrypt Setup Message" to
+  arrive and click on it which should prompt you for the security number. 
 
-- Примечание: в многопользовательской режиме, _входящие_ сообщения отображаются сразу на всех клиентах. _Исходящие_ сообщения синхронизируются два раза в час. Возможно мы можем это улучшить, но нам требуется дополнительная поддержка по данному вопросу.
-
+- you are now successfully synchronized and can use both devices for
+  sending and receiving e2e-encrypted messages with your communication partners. 
 
 # Прочее
 
