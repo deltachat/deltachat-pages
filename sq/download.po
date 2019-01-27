@@ -1,6 +1,6 @@
 # Translators:
 # Björn Petersen <r10s@b44t.com>, 2018
-# Besnik <besnik@programeshqip.org>, 2018
+# Besnik <besnik@programeshqip.org>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-27 01:15+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Besnik <besnik@programeshqip.org>, 2018\n"
+"Last-Translator: Besnik <besnik@programeshqip.org>, 2019\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../en/download.md:7
 msgid "## Delta/Android (Beta)"
-msgstr ""
+msgstr "## Delta/Android (Beta)"
 
 #: ../en/download.md:10
 msgid ""
@@ -45,6 +45,8 @@ msgstr ""
 #: ../en/download.md:12
 msgid "Delta/Android is the most feature-rich and stable DeltaChat app. "
 msgstr ""
+"Delta/Android është aplikacioni DeltaChat më i pasur në veçori dhe më i "
+"qëndrueshëm. "
 
 #: ../en/download.md:16
 msgid ""
@@ -52,44 +54,57 @@ msgid ""
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
 "* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). "
 msgstr ""
+"* [Shkarkim prej F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
+"* [Shkarkim si APK](https://github.com/deltachat/deltachat-android/releases) (vetëm për përdoruesit e sprovuar)\n"
+"* [Shihni Regjistër ndryshimesh]({% include changelog-url %}), [kontribuoni te zhvillimi për Android](https://github.com/deltachat/deltachat-android/). "
 
 #: ../en/download.md:19
 msgid "## Delta/Desktop Downloads (Beta)"
-msgstr ""
+msgstr "## Shkarkime të Delta/Desktop (Beta)"
 
 #: ../en/download.md:21
 msgid ""
 "Delta/Desktop is well usable and can be operated standalone or in "
 "conjunction with Android or iOS. "
 msgstr ""
+"Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i "
+"lidhur me Android-in ose iOS-in. "
 
 #: ../en/download.md:23
 msgid ""
 "* [download for Linux or Mac from our github release "
 "page](https://github.com/deltachat/deltachat-desktop/releases/).  "
 msgstr ""
+"* [shkarkojeni, për Linux ose Mac, që nga faqja jonë github e hedhjeve në "
+"qarkullim](https://github.com/deltachat/deltachat-desktop/releases/).  "
 
 #: ../en/download.md:25
 msgid ""
 "* [Windows support pending, help needed!](https://github.com/deltachat"
 "/deltachat-desktop/issues/606) "
 msgstr ""
+"* [Mbulimi për Windows ka mbetur pezull, na duhet "
+"ndihmë!](https://github.com/deltachat/deltachat-desktop/issues/606) "
 
 #: ../en/download.md:27
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop "
 "with another Delta app. "
 msgstr ""
+"* Faqe [FAQ mbi shumëklientëshin](help#multiclient) se si të njëkohësohet "
+"versioni Desktop me aplikacion tjetër Delta. "
 
 #: ../en/download.md:30
 msgid ""
 "* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),\n"
 "  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). "
 msgstr ""
+"* [Shihni Regjistër Ndryshimesh](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),\n"
+"  [kontribuoni te zhvillimi i versionit Desktop](https://github.com/deltachat/deltachat-desktop/). "
 
 #: ../en/download.md:33
 msgid "## Delta/iOS on TestFlight (Beta)"
-msgstr ""
+msgstr "## Delta/iOS nën TestFlight (Beta)"
 
 #: ../en/download.md:35
 msgid ""
@@ -106,26 +121,32 @@ msgid ""
 "Delta/iOS supports basic functionality but not all features offered by Android or Desktop. \n"
 "Betas are distributed via Testflight. "
 msgstr ""
+"Delta/iOS mbulon funksionet bazë, por jo krejt veçoritë e ofruara nga versionet Android ose Desktop. \n"
+"Versionet Beta jepen përmes Testflight-it. "
 
 #: ../en/download.md:40
 msgid ""
 "- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for "
 "your iPhone or iPad."
 msgstr ""
+"- [faqja për ftim te testflight](https://testflight.apple.com/join/WVoYFOZe)"
+" për iPhone-in ose iPad-in tuaj."
 
 #: ../en/download.md:42
 msgid ""
 "- [contribute to iOS development](https://github.com/deltachat/deltachat-"
 "ios/). "
 msgstr ""
+"- [jepni ndihmesë te zhvillimi për iOS](https://github.com/deltachat"
+"/deltachat-ios/). "
 
 #: ../en/download.md:44
 msgid "- Scan this QR code with the camera app of your iPhone/iPad"
-msgstr ""
+msgstr "- Skanojeni këtë kod QR me aplikacionin kamera të iPhone/iPad-it tuaj"
 
 #: ../en/download.md:46
 msgid "  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)"
-msgstr ""
+msgstr "  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)"
 
 #: ../en/download.md:49
 msgid "# Verify Downloads"
@@ -144,12 +165,16 @@ msgid ""
 "* For F-Droid downloads:  \n"
 "  `{% include fingerprint-f-droid %}`"
 msgstr ""
+"* Për shkarkime nga F-Droid:  \n"
+"  `{% include fingerprint-f-droid %}`"
 
 #: ../en/download.md:57
 msgid ""
 "* Other APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
 msgstr ""
+"* Të tjera shkarkime APK:  \n"
+"  `{% include fingerprint-local %}`"
 
 #: ../en/download.md:60
 msgid ""
