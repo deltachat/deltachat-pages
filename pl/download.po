@@ -73,7 +73,7 @@ msgid ""
 "* [download for Linux or Mac from our github release "
 "page](https://github.com/deltachat/deltachat-desktop/releases/).  "
 msgstr ""
-"* [pobierz dla Linuxa lub Maca z naszej strony "
+"* [Pobierz dla Linuxa lub Maca z naszej strony "
 "GitHub](https://github.com/deltachat/deltachat-desktop/releases/).  "
 
 #: ../en/download.md:25
@@ -127,8 +127,8 @@ msgid ""
 "- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for "
 "your iPhone or iPad."
 msgstr ""
-"- [strona z zaproszeniem do "
-"testflight](https://testflight.apple.com/join/WVoYFOZe) dla Twojego iPhona "
+"- [Strona z zaproszeniem do "
+"TestFlight](https://testflight.apple.com/join/WVoYFOZe) dla Twojego iPhona "
 "lub iPada."
 
 #: ../en/download.md:42
@@ -136,7 +136,7 @@ msgid ""
 "- [contribute to iOS development](https://github.com/deltachat/deltachat-"
 "ios/). "
 msgstr ""
-"- [przyczynić się do rozwoju iOS.](https://github.com/deltachat/deltachat-"
+"- [Przyczyń się do rozwoju iOS](https://github.com/deltachat/deltachat-"
 "ios/). "
 
 #: ../en/download.md:44

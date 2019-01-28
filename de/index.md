@@ -9,7 +9,7 @@ layout: default-de
 
 
 
-# Chatten Sie über E-Mail und kommen Sie mit uns zurück in die Zukunft!
+# Mit "Chat over E-Mail" zurück in die Zukunft!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
@@ -23,7 +23,7 @@ System überhaupt: Das bestehende E-Mail-Server-Netzwerk.
 Es wird lediglich ein Standard-E-Mail-Konto benötigt.
 
 
-# Screenshots für Android, Desktop und iOS 
+# Android, Desktop und iOS Screenshots
 
 <img src="../assets/blog/2019-01-chatlist.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 

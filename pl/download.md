@@ -25,7 +25,7 @@ Delta/Android to najbardziej funkcjonalna i stabilna aplikacja DeltaChat.
 
 Delta/Desktop jest wystarczająco funkcjonalny i może być używany samodzielnie lub w połączeniu z systemem Android lub iOS. 
 
-* [pobierz dla Linuxa lub Maca z naszej strony GitHub](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [Pobierz dla Linuxa lub Maca z naszej strony GitHub](https://github.com/deltachat/deltachat-desktop/releases/).  
 
 * [Obsługa systemu Windows w toku, potrzebna pomoc!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 
@@ -42,9 +42,9 @@ Delta/Desktop jest wystarczająco funkcjonalny i może być używany samodzielni
 Delta/iOS obsługuje podstawową funkcjonalność, ale nie wszystkie funkcje oferowane przez Android lub Desktop. 
 Wersje beta są dystrybuowane za pośrednictwem Testflight.
 
-- [strona z zaproszeniem do testflight](https://testflight.apple.com/join/WVoYFOZe) dla Twojego iPhona lub iPada.
+- [Strona z zaproszeniem do TestFlight](https://testflight.apple.com/join/WVoYFOZe) dla Twojego iPhona lub iPada.
 
-- [przyczynić się do rozwoju iOS.](https://github.com/deltachat/deltachat-ios/). 
+- [Przyczyń się do rozwoju iOS](https://github.com/deltachat/deltachat-ios/). 
 
 - Zeskanuj ten kod QR za pomocą aplikacji aparatu na swoim iPhonie/iPadzie
 

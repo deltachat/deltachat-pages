@@ -1,5 +1,5 @@
 ---
-title: GDPR
+title: GDPR dhe Privatësia
 layout: default-sq
 ---
 
@@ -9,33 +9,33 @@ layout: default-sq
 
 
 
-# Privacy by Design
+# Privatësi që në koncept
 
-- **Confidentiality**: End-to-end encryption by default, by implementing [Autocrypt
+- **Fshehtësi**: Fshehtëzim skaj-më-skaj, si parazgjedhje, përmes sendërtimit të [Autocrypt
   Level 1](https://autocrypt.org).
 
-- **Data minimization**: No alignment or uploading of the address-book content.
+- **Minimizim trafiku të dhënash**: Pa kopjime apo ngarkime lënde të librit tuaj të adresave nga shërbime diku.
 
-- **Data avoidance**: No Delta Chat server, no processing of personal data.
+- **Larg të dhënave**: Pa shërbyes Delta Chat, pa përpunim të dhënash personale.
 
 
-# Further Compliance to the GDPR 
+# Përputhshmëri e Mëtejshme me GDPR -në
 
-- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book-data is transmitted.
+- S’lyp ndonjë *lejim** (neni 7 i GDPR-së) prej përdoruesve apo kontakteve të tyre (subjekte të dhënash), ngaqë s’ka transmetim të dhënash libri adresash.
 
-- Can be used **without requiring a contract or instructions** from any controller (organisation), because no additional third party will process the E-Mail related personal data. 
+- Mund të përdoret **pa u dashur një kontratë apo udhëzime** nga ndonjë kontrollues (ent), ngaqë të dhënat personale të lidhura me email-in nuk do të përpunohen nga ndonjë palë e tretë shtesë. 
 
-# How data controllers (organizations) benefit from using Delta Chat in complying to the GDPR
+# Si përfitojnë kontrolluesit (entet) e të dhënave nga përdorimi i Delta Chat-it në përputhje me GDPR-në
 
-- Creates **no additional information requirements** for the controller towards direct or indirect data subjects 
-  regarding any collection of address-book-data, article 13, 14 GDPR.
+- **Nuk krijon domosdoshmëri shtesë mbi të dhënat** për kontrolluesin kundrejt subjektesh të drejtpërdrejtë ose të tërthortë të të dhënave 
+  lidhur me grumbullim të dhënash librash adresash, neni 13, 14 GDPR.
 
-- Needs **no data protection impact assessment**  to be carry out for Delta Chat (Article 35 GDPR), because it processes no particular additional data beyond E-Mail messenging.
+- Për Delta Chat-in, s’ka nevojë të bëhet **auditim ndikimi mbi mbrojtje të dhënash** (Neni 35 i GDPR-së), ngaqë nuk përpunon të dhëna të veçanta shtesë, tej pjesës së nevojshme për funksionimin e email-it.
 
-- Adding Delta Chat's privacy measures to the 
-  **record of processing activities** can have a positive impact 
-  on eventual **evidence documentation**, (article 30 GDPR) 
-  as well as on the **data protection certification process**, Article 25 (3), 42 GDPR.
+- Shtimi i masave mbi privatësinë të Delta Chat-it te 
+  **regjistri i veprimtarive të përpunimit** mund të kenë një ndikim pozitiv 
+  në  **dokumentim të mëvonshëm evidence**, (neni 30 i GDPR-së), 
+  si dhe mbi **procesin e certifikimit për mbrojtje të dhënash**, neni 25 (3), 42 GDPR.
 
 - The **record of processing activities** linked to the messenger-communication is
   reduced to identifying the email-providers and recording their activities, Article 30 (2) GDPR.

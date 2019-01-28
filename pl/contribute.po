@@ -55,8 +55,7 @@ msgid ""
 "  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) \n"
 "  for community discussions and news."
 msgstr ""
-"- [Lista mailingowa Delta Chat]\n"
-"  (https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) \n"
+"- [Lista mailingowa Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) \n"
 "  do dyskusji społecznych i informacji."
 
 #: ../en/contribute.md:19
@@ -69,7 +68,7 @@ msgstr ""
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "
-msgstr "# Tłumaczenia i raportowanie o błędów "
+msgstr "# Tłumaczenia i raportowanie błędów "
 
 #: ../en/contribute.md:27
 msgid ""

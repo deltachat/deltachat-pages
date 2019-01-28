@@ -32,8 +32,7 @@ msgstr ""
 
 #: ../en/index.md:7
 msgid "# Chat over e-mail and head back to the future with us!"
-msgstr ""
-"# Chatten Sie über E-Mail und kommen Sie mit uns zurück in die Zukunft!"
+msgstr "# Mit \"Chat over E-Mail\" zurück in die Zukunft!"
 
 #: ../en/index.md:9
 msgid ""
@@ -69,7 +68,7 @@ msgstr ""
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "
-msgstr "# Screenshots für Android, Desktop und iOS "
+msgstr "# Android, Desktop und iOS Screenshots"
 
 #: ../en/index.md:26
 msgid ""

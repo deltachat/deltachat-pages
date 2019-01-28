@@ -1,8 +1,8 @@
 # Translators:
-# Björn Petersen <r10s@b44t.com>, 2018
 # Ettore Atalan <atalanttore@googlemail.com>, 2018
 # John Btc, 2018
 # W R, 2019
+# Björn Petersen <r10s@b44t.com>, 2019
 # Sven R., 2019
 # 
 #, fuzzy
@@ -90,9 +90,9 @@ msgid ""
 "- _Trustworthy_ - can even be used for business messages\n"
 "- fully _Open Source_ and _Standards_ based"
 msgstr ""
-"- _unabhängig_ von Firmen oder Diensten. _Du_ besitzt deine eigenen Daten.\n"
-"- Deine Daten werden nicht auf einem zentralen Server gespeichert; auf diesem Weg, im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat ebenfalls deine Metadaten (wer schreibt mit wem?)\n"
-"- Du gibst dein Adressbuch an niemanden weiter.\n"
+"- _unabhängig_ von Firmen oder Diensten. _Sie_ besitzten Ihre eigenen Daten.\n"
+"- Ihre Daten werden nicht auf einem zentralen Server gespeichert; auf diesem Weg, im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat ebenfalls Metadaten (wer schreibt mit wem?) vor zentralen Beobachtern\n"
+"- Sie geben Ihr Adressbuch an niemanden weiter.\n"
 "- _Schnell_ durch die Verwendung von Push-IMAP.\n"
 "- _Größte Nutzerbasis_ - Empfänger _ohne_ Delta Chat können ebenfalls erreicht werden.\n"
 "- _Kompatibel_ - nicht nur zu sich selbst.\n"
@@ -386,9 +386,9 @@ msgid ""
 "If you don't have a key or don't even know you would need one - don't worry:"
 " Delta Chat generates one as needed, you don't have to hit a button for it. "
 msgstr ""
-"Wenn du keinen Schlüssel besitzt oder nicht einmal weißt, dass du einen "
-"benötigst - keine Sorge: Delta Chat erstellt einen benötigten Schlüssel, "
-"wenn er benötigt wird. Du musst dafür nicht einmal einen Knopf drücken."
+"Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen "
+"benötigen - keine Sorge: Delta Chat erstellt einen benötigten Schlüssel, "
+"wenn er benötigt wird."
 
 #: ../en/help.md:159
 msgid "# Multi-client {#multiclient}"
@@ -403,8 +403,8 @@ msgid ""
 "If you want to use the **same account** on different (Autocrypt\n"
 "capable) devices, you have to synchronize their encryption capabilities: "
 msgstr ""
-"Wenn du **dasselbe Konto** auf unterschiedlichen (Autocrypt-\n"
-"fähigen) Geräten verwenden möchtest, musst du ihre Verschlüsselungsfunktionen synchronisieren:"
+"Wenn **dasselbe Konto** auf unterschiedlichen (Autocrypt-\n"
+"fähigen) Geräten verwenden werden soll, muss die Verschlüsselungsfunktionen synchronisiert werden:"
 
 #: ../en/help.md:167
 msgid ""

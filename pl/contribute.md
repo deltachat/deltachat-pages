@@ -16,14 +16,13 @@ layout: default-pl
 
 - [#deltachat na freenode]({%include webirc-url %}) do codziennej komunikacji.
 
-- [Lista mailingowa Delta Chat]
-  (https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+- [Lista mailingowa Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   do dyskusji społecznych i informacji.
 
 - [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można 
   znaleźć kod aplikacji Delta Chat i tej strony internetowej.
 
-# Tłumaczenia i raportowanie o błędów 
+# Tłumaczenia i raportowanie błędów 
 
 - [Tłumaczenia na Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problemy z Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
