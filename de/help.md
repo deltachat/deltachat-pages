@@ -25,18 +25,18 @@ layout: default-de
 
 ## Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP
-- _Largest userbase_ - receivers _not_ using Delta Chat can be reached as well
-- _Compatible_ - not only to itself
-- _Elegant_ and _simple_ user interface
-- _Distributed_ system
-- _No Spam_ - only messages of known users are shown by default
-- _Reliable_ - safe for professional use
-- _Trustworthy_ - can even be used for business messages
-- fully _Open Source_ and _Standards_ based
+- _unabhängig_ von Firmen oder Diensten. _Du_ besitzt deine eigenen Daten.
+- Deine Daten werden nicht auf einem zentralen Server gespeichert; auf diesem Weg, im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat ebenfalls deine Metadaten (wer schreibt mit wem?)
+- Du gibst dein Adressbuch an niemanden weiter.
+- _Schnell_ durch die Verwendung von Push-IMAP.
+- _Größte Nutzerbasis_ - Empfänger _ohne_ Delta Chat können ebenfalls erreicht werden.
+- _Kompatibel_ - nicht nur zu sich selbst.
+- _Elegante_ und _einfache_ Benutzeroberfläche.
+- _Verteiltes_ System.
+- _Kein Spam_ - nur Nachrichten von bekannten Nutzern werden standardmäßig angezeigt.
+- _Verlässlich_ - sicher für die professionelle Anwendung.
+- _Vertrauenswürdig_ - kann selbst für geschäftliche Nachrichten verwendet werden.
+- Vollständig _Open Source_ und basierend auf _Standards_.
 
 ## Was, wenn der Empfänger kein Delta Chat verwendet?
 
@@ -46,17 +46,17 @@ layout: default-de
 
 In Delta Chat erscheinen automatisch nur:
 
-- Messages from contacts in your **address book**
-- Messages from contacts **contacted by you**
-- **Replies** to messages sent by you
+- Nachrichten von Kontakten in Ihrem **Adressbuch**
+- Nachrichten von Kontakten **die von Ihnen kontaktiert wurden**
+- **Antworten** auf von Ihnen gesendete Nachrichten
 
 Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpunkt **Kontaktanfragen** können Sie sich aber eine Übersicht der weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
 
 ## Was ist mit Spam?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.
-- However, if needed, you can **block** any contact.
+- Nachrichten in gängigen Spam-Ordnern werden ignoriert und enthaltene Adressen werden nicht als bekannte Kontakte betrachtet.
+- Da Nachrichten von unbekannten Kontakten nicht automatisch auftauchen, gibt es normalerweise **keinen Spam**.
+- Bei Bedarf können Sie dennoch jeden Kontakt **blockieren**.
 
 ## Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
 
@@ -74,12 +74,12 @@ Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpu
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Who to add members to a group?
+## Wer kann Mitglieder zu einer Gruppe hinzufügen?
 
 - Jedes Gruppenmitglied hat **dieselben Rechte** wie jedes andere. Jeder kann daher jeden löschen oder weitere Mitglieder hinzufügen.
 - Um die Mitglieder zu verwalten einfach in der Gruppe auf den Gruppennamen klicken.
 
-## What is a verified group?
+## Was ist eine verifizierte Gruppe?
 
 - A "verified group" is an experimental feature (as of January 2019). 
   By adding one another through QR-code scans a group of "verified" members can talk 
@@ -103,10 +103,10 @@ Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpu
 
 # Verschlüsselung {#encryption}
 
-## Does Delta Chat support end-to-end-encryption?
+## Unterstützt Delta Chat eine Ende-zu-Ende-Verschlüsselung?
 
-- Yes. DeltaChat implements the Autocrypt Level 1 standard and can 
-  thus e2e-encrypt messages with other Autocrypt-capable apps. 
+- Ja. Delta Chat implementiert den Autocrypt Level 1 Standard und kann 
+daher Nachrichten Ende-2-Ende verschlüsselt mit anderen Autocrypt-fähigen Anwendungen austauschen.
 
 ## Was muss ich tun, um die Ende-zu-Ende-Verschlüsselung zu aktivieren?
 
@@ -153,23 +153,23 @@ Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Op
 
 - OpenPGP. Der Schlüsselaustausch findet automatisch über den [Autocrypt](https://autocrypt.org)-Standard statt.
 
-## Can I re-use my existing private key?
+## Kann ich meinen existierenden privaten Schlüssel weiter verwenden?
 
 - Ja. Der beste Weg ist, in der anderen E-Mail-App eine _Autocrypt Setup Message_ loszuschicken. Eine solche Option finden Sie in den Einstellungen der anderen App z.B. unter "Autocrypt Setup Transfer starten"; folgen Sie dann den dort angezeigten Hinweisen.
 
 - Alternativ können Schlüssel unter "Erweiterte Einstellungen / Schlüssel verwalten" importiert werden. Achtung: Der private Schlüssel darf nicht mit einem Passwort geschützt sein, bzw. dieses muss bei Bedarf zuvor entfernt werden.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
+Wenn du keinen Schlüssel besitzt oder nicht einmal weißt, dass du einen benötigst - keine Sorge: Delta Chat erstellt einen benötigten Schlüssel, wenn er benötigt wird. Du musst dafür nicht einmal einen Knopf drücken.
 
 # Mehrere Geräte verwenden {#multiclient}
 
 ## Kann ich Delta Chat auf mehreren Geräten gleichzeitig verwenden?
 
-If you want to use the **same account** on different (Autocrypt
-capable) devices, you have to synchronize their encryption capabilities: 
+Wenn du **dasselbe Konto** auf unterschiedlichen (Autocrypt-
+fähigen) Geräten verwenden möchtest, musst du ihre Verschlüsselungsfunktionen synchronisieren:
 
-- On the first device, choose "Advanced settings / Send Autocrypt Setup message" 
-  and click until a "security number" is shown. 
+- Wähle auf dem ersten Gerät "Weitere Einstellungen / Autocrypt-Setup-Nachricht versenden"
+und klicke, bis ein "Setup-Code" angezeigt wird. 
 
 - On the other device, wait for the "Autocrypt Setup Message" to
   arrive and click on it which should prompt you for the security number. 
