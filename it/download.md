@@ -9,7 +9,7 @@ layout: default-it
 
 
 
-## Delta/Android (Beta)
+# Delta/Android Downloads (Beta)
 
 <img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
@@ -21,7 +21,7 @@ Delta/Android is the most feature-rich and stable DeltaChat app.
 * [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
 
 
-## Delta/Desktop Downloads (Beta)
+# Delta/Desktop Downloads (Beta)
 
 Delta/Desktop is well usable and can be operated standalone or in conjunction with Android or iOS. 
 
@@ -35,7 +35,7 @@ Delta/Desktop is well usable and can be operated standalone or in conjunction wi
   [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
 
 
-## Delta/iOS on TestFlight (Beta)
+# Delta/iOS on TestFlight (Beta)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 

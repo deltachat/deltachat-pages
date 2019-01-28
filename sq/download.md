@@ -9,7 +9,7 @@ layout: default-sq
 
 
 
-## Delta/Android (Beta)
+# Shkarkime të Delta/Android (Beta)
 
 <img src="../assets/home/get-it-on-gplay.png" alt="Merreni te Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Merreni te F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
@@ -21,7 +21,7 @@ Delta/Android është aplikacioni DeltaChat më i pasur në veçori dhe më i q�
 * [Shihni Regjistër ndryshimesh]({% include changelog-url %}), [kontribuoni te zhvillimi për Android](https://github.com/deltachat/deltachat-android/). 
 
 
-## Shkarkime të Delta/Desktop (Beta)
+# Shkarkime të Delta/Desktop (Beta)
 
 Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i lidhur me Android-in ose iOS-in. 
 
@@ -35,7 +35,7 @@ Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i
   [kontribuoni te zhvillimi i versionit Desktop](https://github.com/deltachat/deltachat-desktop/). 
 
 
-## Delta/iOS nën TestFlight (Beta)
+# Delta/iOS nën TestFlight (Beta)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Shkarkojeni te Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
