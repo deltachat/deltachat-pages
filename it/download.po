@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 00:32+0200\n"
+"POT-Creation-Date: 2019-01-28 16:51+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Enrico B. <enricobe@hotmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
@@ -31,7 +31,7 @@ msgstr ""
 "---"
 
 #: ../en/download.md:7
-msgid "## Delta/Android (Beta)"
+msgid "# Delta/Android Downloads (Beta)"
 msgstr ""
 
 #: ../en/download.md:10
@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 
 #: ../en/download.md:19
-msgid "## Delta/Desktop Downloads (Beta)"
+msgid "# Delta/Desktop Downloads (Beta)"
 msgstr ""
 
 #: ../en/download.md:21
@@ -88,7 +88,7 @@ msgid ""
 msgstr ""
 
 #: ../en/download.md:33
-msgid "## Delta/iOS on TestFlight (Beta)"
+msgid "# Delta/iOS on TestFlight (Beta)"
 msgstr ""
 
 #: ../en/download.md:35
