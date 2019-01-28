@@ -9,21 +9,21 @@ layout: default-de
 
 
 
-# Chat over e-mail and head back to the future with us!
+# Chatten Sie über E-Mail und kommen Sie mit uns zurück in die Zukunft!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
-Check out our [GDPR compliancy statement](gdpr).
+**Delta Chat ist wie Telegram oder Whatsapp, jedoch ohne Tracking oder zentrale Kontrolle.**
+Lesen Sie unsere [Erklärung zur Einhaltung der DSGVO](gdpr).
 
-**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
-system ever: the existing e-mail server network.
+**DeltaChat betreibt keine eigenen Server**, verwendet jedoch das umfangreichste und vielfältigste offene Messaging
+System überhaupt: Das bestehende E-Mail-Server-Netzwerk.
 
-**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
-All you need is a standard e-mail account.
+**Chatten Sie mit jedem dessen E-Mail-Adresse Sie kennen, ohne dass er/sie DeltaChat installiert haben muss!**
+Es wird lediglich ein Standard-E-Mail-Konto benötigt.
 
 
-# Screenshots Android, Desktop and iOS 
+# Screenshots für Android, Desktop und iOS 
 
 <img src="../assets/blog/2019-01-chatlist.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
@@ -34,6 +34,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-Please check our [January 2019 release blog post](../en/2019-01-27-releases) 
-for information on current releases. 
+Bitte lesen Sie auch unseren [Januar 2019 Release Blog Post](../en/2019-01-27-Releases)
+um Informationen zu aktuellen Versionen zu bekommen.
 

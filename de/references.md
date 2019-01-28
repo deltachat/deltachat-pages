@@ -17,7 +17,8 @@ Falls etwas fehlt, bitte senden Sie uns einfach eine [Nachricht](imprint).
 
 ## iX: Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
 
-Dieser Artikel ist über Autocrypt, die Spezifikation, die von Delta Chat für das Ende-zu-Ende Setup verwendet wird. Delta Chat selbst wird am Rande erwähnt.
+Dieser Artikel behandelt Autocrypt, die von Delta Chat für die End-to-End-Einrichtung verwendete Spezifikation.
+Delta Chat wird am Rande erwähnt.
 
 05/2018, Seite 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
 
