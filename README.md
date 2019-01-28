@@ -23,11 +23,12 @@ How to create a new blog post
 - Write your blog post to the file and do not forget 
   to add or modify the `title:` and `author:` line atop
 
-- That's all, the result goes to https://delta.chat/en/blog , 
-  the [RSS-Feed](https://delta.chat/feed.xml), 
-  [Twitter @delta_chat](https://twitter.com/delta_chat), 
-  [Friendica](https://ennibook.de/profile/delta_chat) 
-  and maybe even more.
+- That's all, the result goes to https://delta.chat/en/blog , and the
+  [RSS-Feed](https://delta.chat/feed.xml). Ping r10s or compl4xx on
+  irc.freenode.net/#deltachat so they post it to
+  [Mastodon](https://chaos.social/@delta),
+  [Twitter](https://twitter.com/delta_chat),
+  [Friendica](https://ennibook.de/profile/delta_chat) and other services.
 
 
 Testing changes
