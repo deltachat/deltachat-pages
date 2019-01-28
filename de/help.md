@@ -25,9 +25,9 @@ layout: default-de
 
 ## Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
-- _unabhängig_ von Firmen oder Diensten. _Du_ besitzt deine eigenen Daten.
-- Deine Daten werden nicht auf einem zentralen Server gespeichert; auf diesem Weg, im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat ebenfalls deine Metadaten (wer schreibt mit wem?)
-- Du gibst dein Adressbuch an niemanden weiter.
+- _unabhängig_ von Firmen oder Diensten. _Sie_ besitzten Ihre eigenen Daten.
+- Ihre Daten werden nicht auf einem zentralen Server gespeichert; auf diesem Weg, im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat ebenfalls Metadaten (wer schreibt mit wem?) vor zentralen Beobachtern
+- Sie geben Ihr Adressbuch an niemanden weiter.
 - _Schnell_ durch die Verwendung von Push-IMAP.
 - _Größte Nutzerbasis_ - Empfänger _ohne_ Delta Chat können ebenfalls erreicht werden.
 - _Kompatibel_ - nicht nur zu sich selbst.
@@ -159,14 +159,14 @@ Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Op
 
 - Alternativ können Schlüssel unter "Erweiterte Einstellungen / Schlüssel verwalten" importiert werden. Achtung: Der private Schlüssel darf nicht mit einem Passwort geschützt sein, bzw. dieses muss bei Bedarf zuvor entfernt werden.
 
-Wenn du keinen Schlüssel besitzt oder nicht einmal weißt, dass du einen benötigst - keine Sorge: Delta Chat erstellt einen benötigten Schlüssel, wenn er benötigt wird. Du musst dafür nicht einmal einen Knopf drücken.
+Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen benötigen - keine Sorge: Delta Chat erstellt einen benötigten Schlüssel, wenn er benötigt wird.
 
 # Mehrere Geräte verwenden {#multiclient}
 
 ## Kann ich Delta Chat auf mehreren Geräten gleichzeitig verwenden?
 
-Wenn du **dasselbe Konto** auf unterschiedlichen (Autocrypt-
-fähigen) Geräten verwenden möchtest, musst du ihre Verschlüsselungsfunktionen synchronisieren:
+Wenn **dasselbe Konto** auf unterschiedlichen (Autocrypt-
+fähigen) Geräten verwenden werden soll, muss die Verschlüsselungsfunktionen synchronisiert werden:
 
 - Wähle auf dem ersten Gerät "Weitere Einstellungen / Autocrypt-Setup-Nachricht versenden"
 und klicke, bis ein "Setup-Code" angezeigt wird. 
