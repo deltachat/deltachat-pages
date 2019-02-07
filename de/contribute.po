@@ -1,6 +1,7 @@
 # Translators:
 # T M <graue70@posteo.de>, 2019
-# Björn Petersen <r10s@b44t.com>, 2019
+# björn petersen <r10s@b44t.com>, 2019
+# Moni P. <monitx@deltachat.de>, 2019
 # Sebastian Schmitt <schmitt.sebastian@mailbox.org>, 2019
 # 
 #, fuzzy
@@ -67,7 +68,7 @@ msgid ""
 "  can find the code for DeltaChat apps and this web site."
 msgstr ""
 "- [Delta Chat Quellen](https://github.com/deltachat/) in denen Sie\n"
-"  den Code für DeltaChat-Anwendungen und diese Website finden können."
+"  den Code für Delta Chat Anwendungen und diese Website finden können."
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "
@@ -97,11 +98,11 @@ msgstr ""
 
 #: ../en/contribute.md:33
 msgid "# Donate Money or devices"
-msgstr "# Spende Geld oder Geräte"
+msgstr "# Geld oder Geräte spenden"
 
 #: ../en/contribute.md:35
 msgid "If you want to support DeltaChat with money:"
-msgstr "Wenn Sie DeltaChat mit Geld unterstützen wollen:"
+msgstr "Wenn Sie Delta Chat mit Geld unterstützen wollen:"
 
 #: ../en/contribute.md:39
 msgid ""
@@ -118,5 +119,5 @@ msgid ""
 "We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?\n"
 "[We](imprint)'d love to take it!"
 msgstr ""
-"Für Testzwecke benötigen wir ausserdem **Testgeräte**. Haben sie ein ausgedientes Android Smartphone oder ein iPhone?\n"
+"Für Testzwecke benötigen wir außerdem **Testgeräte**. Haben Sie ein ausgedientes Android Smartphone oder ein iPhone?\n"
 "[Wir](imprint) nehmen es gerne!"

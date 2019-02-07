@@ -1,5 +1,5 @@
 # Translators:
-# Björn Petersen <r10s@b44t.com>, 2018
+# björn petersen <r10s@b44t.com>, 2018
 # Claudio Arseni <claudio.arseni@gmail.com>, 2018
 # Enrico B. <enricobe@hotmail.com>, 2018
 # 

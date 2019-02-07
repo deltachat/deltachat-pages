@@ -11,7 +11,7 @@ layout: default-de
 
 # Referenzen
 
-Obwohl Delta Chat noch im Beta-Status ist, gibt es bereits einige Interessante Artikel.  
+Obwohl Delta Chat noch im Beta-Status ist, gibt es bereits einige interessante Artikel.  
 Falls etwas fehlt, bitte senden Sie uns einfach eine [Nachricht](imprint).
 
 

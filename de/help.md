@@ -25,7 +25,7 @@ layout: default-de
 
 ## Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
-- _unabhängig_ von Firmen oder Diensten. _Sie_ besitzten Ihre eigenen Daten.
+- _unabhängig_ von Firmen oder Diensten. _Sie_ besitzen Ihre eigenen Daten.
 - Ihre Daten werden nicht auf einem zentralen Server gespeichert; auf diesem Weg, im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat ebenfalls Metadaten (wer schreibt mit wem?) vor zentralen Beobachtern
 - Sie geben Ihr Adressbuch an niemanden weiter.
 - _Schnell_ durch die Verwendung von Push-IMAP.
@@ -47,7 +47,7 @@ layout: default-de
 In Delta Chat erscheinen automatisch nur:
 
 - Nachrichten von Kontakten in Ihrem **Adressbuch**
-- Nachrichten von Kontakten **die von Ihnen kontaktiert wurden**
+- Nachrichten von Kontakten, **die von Ihnen kontaktiert wurden**
 - **Antworten** auf von Ihnen gesendete Nachrichten
 
 Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpunkt **Kontaktanfragen** können Sie sich aber eine Übersicht der weiteren Nachrichten anzeigen lassen und gegebenenfalls einen Chat starten.
@@ -70,83 +70,81 @@ Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpu
 
 ## Wie kann ich eine neue Gruppe erstellen?
 
-- Select **Add group** from the "Sandwich menu" in the upper right corner of the chat overview.
-- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Wählen Sie **Gruppe hinzufügen** aus dem "Sandwich-Menü" in der oberen rechten Ecke der Chat-Übersicht.
+- Wählen Sie auf dem folgenden Bildschirm die **Gruppenmitglieder** aus und klicken Sie auf das Häkchen in der oberen rechten Ecke. Danach können Sie einen **Gruppennamen** festlegen.
+- Sobald Sie die **erste Nachricht** in die Gruppe schreiben, werden alle Mitglieder über die neue Gruppe informiert und können in der Gruppe antworten (solange Sie keine Nachricht in die Gruppe schreiben, ist die Gruppe für die Gruppenmitglieder nicht sichtbar).
 
-## Wer kann Mitglieder zu einer Gruppe hinzufügen?
+## How to add members to a group?
 
 - Jedes Gruppenmitglied hat **dieselben Rechte** wie jedes andere. Jeder kann daher jeden löschen oder weitere Mitglieder hinzufügen.
-- Um die Mitglieder zu verwalten einfach in der Gruppe auf den Gruppennamen klicken.
+- Um die Mitglieder zu verwalten, einfach in der Gruppe auf den Gruppennamen klicken.
 
 ## Was ist eine verifizierte Gruppe?
 
-- A "verified group" is an experimental feature (as of January 2019). 
-  By adding one another through QR-code scans a group of "verified" members can talk 
-  with each other.  It enforces e2e group encryption that is safe against provider or 
-  network attacks.  However, some user-tests and feedback suggests that UX and 
-  implementation changes makes sense. Recent discussions can be found here: 
-  https://countermitm.readthedocs.io/en/latest/new.html
+- Eine "verifizierte Gruppe" ist eine experimentelle Funktion (Stand Januar 2019). 
+Durch das einander Hinzufügen mittels QR-Code Scans kann eine Gruppe "verifizierter" Mitglieder miteinander kommunizieren. Es erzwingt eine gegen Provider und Netzwerkangriffe sichere E2E-Gruppenverschlüsselung.
+Einige Benutzertests und Rückmeldungen deuten jedoch darauf hin, dass Änderungen im Nutzererlebnis und der Implementierung sinnvoll sind. Die aktuelle Diskussion findest du hier:
+https://countermitm.readthedocs.io/en/latest/new.html
 
 ## Ich habe mich selbst versehentlich gelöscht.
 
-- As you're no longer a group member now, you cannot add yourself again. 
-  However, no problem, just ask any other group member in a normal chat to add you again.
+- Da Sie kein Gruppenmitglied mehr sind, können Sie sich nicht selbst erneut hinzufügen.
+Dies ist aber kein Problem. Bitten Sie ein anderes Gruppenmitglied über einen normalen Chat, Sie erneut hinzuzufügen.
 
 ## Ich möchte keine Nachrichten einer Gruppe mehr empfangen.
 
-- Either delete yourself from the member list or delete the whole chat. 
-  If you want to join the group later again, ask another group member to add you again.
+- Entweder du löschst dich aus der Mitgliederliste oder du löschst den gesamten Chat.  
+  Wenn Sie der Gruppe später wieder beitreten möchten, bitten Sie ein anderes Gruppenmitglied, Sie erneut hinzuzufügen.
 
-- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and 
-  can still write but you're no longer notified of any new messages.
+- Alternativ können Sie auch eine Gruppe "stumm schalten" - dabei erhalten Sie alle Nachrichten und 
+ können immer noch schreiben, aber Sie werden nicht mehr über neue Nachrichten informiert.
 
 # Verschlüsselung {#encryption}
 
 ## Unterstützt Delta Chat eine Ende-zu-Ende-Verschlüsselung?
 
 - Ja. Delta Chat implementiert den Autocrypt Level 1 Standard und kann 
-daher Nachrichten Ende-2-Ende verschlüsselt mit anderen Autocrypt-fähigen Anwendungen austauschen.
+daher Nachrichten Ende-zu-Ende verschlüsselt mit anderen Autocrypt-fähigen Anwendungen austauschen.
 
 ## Was muss ich tun, um die Ende-zu-Ende-Verschlüsselung zu aktivieren?
 
 - Nichts.
 
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app later 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
+- Delta Chat Applikationen (und andere [Autocrypt](https://autocrypt.org)-kompatible
+E-mail Anwendungen) tauschen die für eine Ende-zu-Ende-Verschlüsselung benötigten Schlüssel automatisch aus, wenn die ersten Nachrichten gesendet werden.
+Danach werden alle Nachrichten automatisch Ende-zu-Ende verschlüsselt.
+Falls ein Chat-Partner später keine Autocrypt-fähige E-Mail Anwendung mehr verwendet,
+werden die Nachrichten solange nicht verschlüsselt, bis wieder eine Autocrypt-konforme Anwendung zur Verfügung steht. 
 
-- If you want to _deactivate_ the end-to-end-encryption, 
-  use the corresponding setting at "Settings / Advanced settings".
+- Wenn Sie die Ende-zu-Ende Verschlüsselung _deaktivieren_ möchten, 
+ verwenden Sie die entsprechende Einstellung unter "Einstellungen / Erweiterte Einstellungen".
 
 ## Wird ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
 
-- No. With most e-mail servers _transport encryption_ (TLS) is used then.
+- Nein. Bei den meisten E-Mail-Servern wird dann die Transportverschlüsselung (TLS) verwendet.
 
 
 ## Wie kann ich die Verschlüsselung überprüfen?
 
-- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
+- Wenn ein kleines ** Vorhängeschloss ** neben einer Nachricht angezeigt wird,
+bedeutet dies, dass die Nachricht Ende-zu-Ende verschlüsselt ist
+_und_ vom angegebenen Absender gesendet wurde 
+_und_ deine Antwort ebenfalls Ende-zu-Ende verschlüsselt wird.
 
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- Wenn **kein Vorhängeschloss** vorhanden ist, wird die Nachricht normalerweise transport-verschlüsselt, z. B. weil du oder der Absender die Ende-zu-Ende-Verschlüsselung deaktiviert haben oder der Sender eine Anwendung verwendet, die keine Ende-zu-Ende-Verschlüsselung unterstützt.
 
 
 ## Wie kann ich den Absender überprüfen?
 
-Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Option "Verschlüsselung" überprüfen:
+Den angegebenen Absender können Sie im Profil des Chatpartners unter der Option "Verschlüsselung" überprüfen:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR"
-  code button on another device to scan this code.  If both devices are online
-  they will introduce a chat channel with each other (if it doesn't exist already) 
-  and also the encryption keys will be verified. 
+- Du kannst unter Android auf "QR Einladungscode" tippen und dann auf dem anderen Gerät die "QR-Code scannen"-Schaltfläche betätigen, um diesen Code zu scannen.
+Wenn beide Geräte online sind, eröffnen sie miteinander einen Chat-Kanal (falls noch nicht vorhanden) und die Schlüssel für die Verschlüsselung werden ebenfalls überprüft.
 
-- For an end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If they are the same on the device of your chat partner, the connection is safe.
+- Für eine Ende-zu-Ende-Verschlüsseltung zeigt Delta Chat dort zwei Fingerabdrücke. 
+Falls diese auf dem Gerät deines Chat Partners identisch sind, ist die Verbindung sicher.
 
-- For transport encryption, this state is just shown there
+- Bei der Transportverschlüsselung wird dieser Zustand dort nur angezeigt.
 
 
 ## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
@@ -157,32 +155,32 @@ Den angegebenen Absender können Sie im Profil des Chatpartners unter der die Op
 
 - Ja. Der beste Weg ist, in der anderen E-Mail-App eine _Autocrypt Setup Message_ loszuschicken. Eine solche Option finden Sie in den Einstellungen der anderen App z.B. unter "Autocrypt Setup Transfer starten"; folgen Sie dann den dort angezeigten Hinweisen.
 
-- Alternativ können Schlüssel unter "Erweiterte Einstellungen / Schlüssel verwalten" importiert werden. Achtung: Der private Schlüssel darf nicht mit einem Passwort geschützt sein, bzw. dieses muss bei Bedarf zuvor entfernt werden.
+- Alternativ können Schlüssel unter "Erweiterte Einstellungen / Schlüssel verwalten" importiert werden. Achtung: Der private Schlüssel darf nicht mit einem Passwort geschützt sein bzw. dieses muss bei Bedarf zuvor entfernt werden.
 
-Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen benötigen - keine Sorge: Delta Chat erstellt einen benötigten Schlüssel, wenn er benötigt wird.
+Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen benötigen - keine Sorge: Delta Chat erstellt einen Schlüssel, wenn er benötigt wird.
 
 # Mehrere Geräte verwenden {#multiclient}
 
 ## Kann ich Delta Chat auf mehreren Geräten gleichzeitig verwenden?
 
 Wenn **dasselbe Konto** auf unterschiedlichen (Autocrypt-
-fähigen) Geräten verwenden werden soll, muss die Verschlüsselungsfunktionen synchronisiert werden:
+fähigen) Geräten verwenden werden soll, müssen die Verschlüsselungsfunktionen synchronisiert werden:
 
-- Wähle auf dem ersten Gerät "Weitere Einstellungen / Autocrypt-Setup-Nachricht versenden"
-und klicke, bis ein "Setup-Code" angezeigt wird. 
+- Wählen Sie auf dem ersten Gerät "Weitere Einstellungen / Autocrypt-Setup-Nachricht versenden"
+und klicken Sie, bis ein "Setup-Code" angezeigt wird. 
 
-- On the other device, wait for the "Autocrypt Setup Message" to
-  arrive and click on it which should prompt you for the security number. 
+- Warte auf dem anderen Gerät, bis die "Autocrypt Setup Message" ankommt.
+Nach dem Anklicken erscheint dann eine Abfrage des Setup Codes. 
 
-- you are now successfully synchronized and can use both devices for
-  sending and receiving e2e-encrypted messages with your communication partners. 
+- Die Synchronisation ist nun erfolgreich abgeschlossen und du kannst mit beiden Geräten
+E2E-verschlüsselte Nachrichten an deine Kommunikationspartner senden und von ihnen empfangen.
 
 # Verschiedenes
 
 ## Funktioniert Delta Chat mit _meinem_ E-Mail-Anbieter?
 
 - Mit ziemlich hoher Wahrscheinlichkeit: Ja :) 
-Allerdings benötigen einige Anbieter besondere Optionen um ordnungsgemäß zu funktionieren; Eine von Nutzern erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://support.delta.chat/t/provider-overview/)
+Allerdings benötigen einige Anbieter besondere Optionen, um ordnungsgemäß zu funktionieren; eine von Nutzern erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://support.delta.chat/t/provider-overview/)
 
 
 ## Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?

@@ -223,6 +223,8 @@ msgid ""
 "  implementation changes makes sense. Recent discussions can be found here: \n"
 "  https://countermitm.readthedocs.io/en/latest/new.html"
 msgstr ""
+"Zweryfikowana grupa jest funkcją eksperymentalną (od stycznia 2019 r.). Dodając się nawzajem poprzez skanowanie kodów QR, grupa „zweryfikowanych” członków może ze sobą rozmawiać. Wymusza szyfrowanie grupy e2e, które jest bezpieczne od ataków dostawców lub sieci. Jednak niektóre testy i opinie użytkowników sugerują, że zmiany w UX i implementacji mają sens. Ostatnie dyskusje można znaleźć tutaj: \n"
+"  https://countermitm.readthedocs.io/en/latest/new.html"
 
 #: ../en/help.md:86
 msgid "## I have deleted myself by accident."
@@ -269,6 +271,9 @@ msgid ""
 "- Yes. DeltaChat implements the Autocrypt Level 1 standard and can \n"
 "  thus e2e-encrypt messages with other Autocrypt-capable apps. "
 msgstr ""
+"- Tak. DeltaChat ma zaimplementowany standard Autocrypt Level 1 \n"
+"  i może szyfrować wiadomości metodą e2e za pomocą innych \n"
+"  aplikacji obsługujących Autocrypt. "
 
 #: ../en/help.md:106
 msgid "## What do I have to do to activate the end-to-end-encryption?"
@@ -287,6 +292,13 @@ msgid ""
 "  If one of the chat partners uses a non-Autocrypt e-mail app later \n"
 "  messages are not encrypted until an Autocrypt-compliant app is available again. "
 msgstr ""
+"- Gdy wysyłane są pierwsze wiadomości, aplikacje Delta Chat (i inne zgodne z"
+" [Autocrypt](https://autocrypt.org) aplikacje e-mail) automatycznie "
+"współdzielą klucze wymagane do szyfrowania metodą end-to-end. Następnie "
+"wszystkie kolejne wiadomości są automatycznie szyfrowane end-to-end. Jeśli "
+"jeden z partnerów czatu korzysta z aplikacji e-mail bez obsługi Autocrypt, "
+"późniejsze wiadomości nie są szyfrowane, dopóki aplikacja zgodna z Autocrypt"
+" nie będzie ponownie dostępna."
 
 #: ../en/help.md:118
 msgid ""
@@ -308,6 +320,8 @@ msgstr ""
 msgid ""
 "- No. With most e-mail servers _transport encryption_ (TLS) is used then."
 msgstr ""
+"- Nie. W większości serwerów e-mail stosuje się wówczas _szyfrowanie "
+"transportu_ (TLS)."
 
 #: ../en/help.md:125
 msgid "## How can I check the encryption?"
@@ -349,6 +363,10 @@ msgid ""
 "  they will introduce a chat channel with each other (if it doesn't exist already) \n"
 "  and also the encryption keys will be verified. "
 msgstr ""
+"- Możesz nacisnąć na Androidzie „Kod QR zaproszenia”, a następnie użyć "
+"przycisku „Skanuj kod QR” na innym urządzeniu, aby zeskanować ten kod. Jeśli"
+" oba urządzenia są w trybie online, nawiążą ze sobą czat (jeśli jeszcze nie "
+"istnieje), a także zostaną zweryfikowane klucze szyfrowania. "
 
 #: ../en/help.md:142
 msgid ""
@@ -404,6 +422,9 @@ msgid ""
 "If you don't have a key or don't even know you would need one - don't worry:"
 " Delta Chat generates one as needed, you don't have to hit a button for it. "
 msgstr ""
+"Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz  nie przejmuj "
+"się: Delta Chat generuje go w razie potrzeby, nie trzeba naciskać przycisku,"
+" aby to zrobić. "
 
 #: ../en/help.md:159
 msgid "# Multi-client {#multiclient}"
@@ -419,24 +440,34 @@ msgid ""
 "If you want to use the **same account** on different (Autocrypt\n"
 "capable) devices, you have to synchronize their encryption capabilities: "
 msgstr ""
+"- Jeśli chcesz używać tego **samego konta** na różnych urządzeniach "
+"(obsługujących Autocrypt), trzeba zsynchronizować ich możliwości "
+"szyfrowania: "
 
 #: ../en/help.md:167
 msgid ""
 "- On the first device, choose \"Advanced settings / Send Autocrypt Setup message\" \n"
 "  and click until a \"security number\" is shown. "
 msgstr ""
+"- Na pierwszym urządzeniu wybierz Ustawienia zaawansowane » Wyślij wiadomość konfiguracyjną Autocrypt \n"
+"  i naciskaj, aż pojawi się „numer bezpieczeństwa”."
 
 #: ../en/help.md:170
 msgid ""
 "- On the other device, wait for the \"Autocrypt Setup Message\" to\n"
 "  arrive and click on it which should prompt you for the security number. "
 msgstr ""
+"- Na drugim urządzeniu poczekaj na komunikat „Wiadomość konfiguracyjna "
+"Autocrypt” i naciśnij ją, aby wyświetlić monit o podanie numeru "
+"bezpieczeństwa. "
 
 #: ../en/help.md:173
 msgid ""
 "- you are now successfully synchronized and can use both devices for\n"
 "  sending and receiving e2e-encrypted messages with your communication partners. "
 msgstr ""
+"- przeszedłeś teraz z pomyślną synchronizację i możesz używać obu urządzeń\n"
+"  do wysyłania i odbierania zaszyfrowanych wiadomości metodą e2e ze Swoimi partnerami komunikacyjnymi. "
 
 #: ../en/help.md:175
 msgid "# Miscellaneous"

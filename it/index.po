@@ -1,5 +1,6 @@
 # Translators:
-# Björn Petersen <r10s@b44t.com>, 2018
+# björn petersen <r10s@b44t.com>, 2018
+# Enrico B. <enricobe@hotmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -8,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 16:51+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,35 +32,43 @@ msgstr ""
 
 #: ../en/index.md:7
 msgid "# Chat over e-mail and head back to the future with us!"
-msgstr ""
+msgstr "# Chatta via e-mail e vivi un ritorno al futuro assieme a noi!"
 
 #: ../en/index.md:9
 msgid ""
 "<img src=\"../assets/logos/delta-chat.svg\" width=\"160\" style=\"float: "
 "left; margin: 20px;\" />"
 msgstr ""
+"<img src=\"../assets/logos/delta-chat.svg\" width=\"160\" style=\"float: "
+"left; margin: 20px;\" />"
 
 #: ../en/index.md:12
 msgid ""
 "**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**\n"
 "Check out our [GDPR compliancy statement](gdpr)."
 msgstr ""
+"**Delta Chat è come Telegram o Whatsapp, ma senza tracciamento o controllo centralizzato.**\n"
+"Leggi la nostra [dichiarazione di confromità al GDPR](gdpr)."
 
 #: ../en/index.md:15
 msgid ""
 "**DeltaChat has no own servers** but uses the most massive and diverse open messaging \n"
 "system ever: the existing e-mail server network."
 msgstr ""
+"**DeltaChat non ha server propri**, ma usa il sistema di messaggistica più grande e diversificato \n"
+"al mondo: la rete di server e-mail esistente."
 
 #: ../en/index.md:18
 msgid ""
 "**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** \n"
 "All you need is a standard e-mail account."
 msgstr ""
+"**Chatta con chiunque grazie al solo indirizzo e-mail, non serve che anche loro usino DeltaChat!** \n"
+"Tutto ciò di cui hai bisogno è un normale account e-mail."
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "
-msgstr ""
+msgstr "# Screenshot Android, Desktop and iOS "
 
 #: ../en/index.md:26
 msgid ""
@@ -68,21 +77,31 @@ msgid ""
 "<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
 "style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 msgstr ""
+"<img src=\"../assets/blog/2019-01-chatlist.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> \n"
+"<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 
 #: ../en/index.md:28
 msgid ""
 "<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
 "style=\"float:left; margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
+"style=\"float:left; margin: 10px\" /> "
 
 #: ../en/index.md:30
 msgid ""
 "<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
 "style=\"margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
+"style=\"margin: 10px\" /> "
 
 #: ../en/index.md:33
 msgid ""
 "Please check our [January 2019 release blog post](../en/2019-01-27-releases) \n"
 "for information on current releases. "
 msgstr ""
+"Dai un'occhiata al nostro [post sui rilasci di Gennaio 2019](../en/2019-01-27-releases) \n"
+"per informazioni sulle versioni più recenti. "

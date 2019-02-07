@@ -9,35 +9,35 @@ layout: default-it
 
 
 
-# Channels and repositories
+# Canali e repository
 
 - [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support .
+  feature discussions and getting support.
 
-- [#deltachat on freenode]({%include webirc-url %}) for day to day communications.
+- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
 
 - [Delta Chat mailing
   list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
-  for community discussions and news.
+  per le discussioni della comunità e le notizie.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  can find the code for DeltaChat apps and this web site.
+- [Repository Delta Chat](https://github.com/deltachat/) dove puoi 
+trovare il codice delle app di DeltaChat e del sito.
 
-# Translations and Bug Reports 
+# Traduzioni e segnalazioni di bug
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)
+- [Traduzioni su Transifex](https://www.transifex.com/delta-chat/public/)
+- [Problemi con Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Problemi con Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problemi con Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Problemi con Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
 
-We are always looking for developers who want to help along and are familiar with 
-C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
+Siamo sempre alla  ricerca di sviluppatori che desiderino aiutarci e hanno esperienza con 
+C, Rust, Java, Swift, Javascript o Python su Android, iOS, Windows, Linux o Mac.
 
 
-# Donate Money or devices
+# Donare soldi o dispositivi
 
-If you want to support DeltaChat with money:
+Se desideri supportare economicamente DeltaChat:
 
 - IBAN DE86100777770428658900, Intestatario (si prega di specificarlo sempre): Björn Petersen, BIC NORSDE51XXX
 - PayPal o carta di credito: [paypal.me/deltachat](https://paypal.me/deltachat/20)

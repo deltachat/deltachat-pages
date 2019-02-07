@@ -1,5 +1,5 @@
 ---
-title: GDPR
+title: GDPR i Prywatność
 layout: default-pl
 ---
 
@@ -9,41 +9,41 @@ layout: default-pl
 
 
 
-# Privacy by Design
+# Prywatność zaprojektowana
 
-- **Confidentiality**: End-to-end encryption by default, by implementing [Autocrypt
+- **Poufność**: Domyślnie szyfrowanie typu end-to-end, poprzez wdrożenie [Autocrypt
   Level 1](https://autocrypt.org).
 
-- **Data minimization**: No alignment or uploading of the address-book content.
+- **Minimalizacja ilości danych**: Brak porównywania lub przesyłania zawartości książki adresowej.
 
-- **Data avoidance**: No Delta Chat server, no processing of personal data.
-
-
-# Further Compliance to the GDPR 
-
-- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book-data is transmitted.
-
-- Can be used **without requiring a contract or instructions** from any controller (organisation), because no additional third party will process the E-Mail related personal data. 
-
-# How data controllers (organizations) benefit from using Delta Chat in complying to the GDPR
-
-- Creates **no additional information requirements** for the controller towards direct or indirect data subjects 
-  regarding any collection of address-book-data, article 13, 14 GDPR.
-
-- Needs **no data protection impact assessment**  to be carry out for Delta Chat (Article 35 GDPR), because it processes no particular additional data beyond E-Mail messenging.
-
-- Adding Delta Chat's privacy measures to the 
-  **record of processing activities** can have a positive impact 
-  on eventual **evidence documentation**, (article 30 GDPR) 
-  as well as on the **data protection certification process**, Article 25 (3), 42 GDPR.
-
-- The **record of processing activities** linked to the messenger-communication is
-  reduced to identifying the email-providers and recording their activities, Article 30 (2) GDPR.
-
-- Remaining risks to the rights and freedoms of natural persons 
-  are generally also limited to the communication data processed 
-  by the controller and the email providers.
+- **Unikanie danych**: Brak serwera Delta Chat, brak przetwarzania danych osobowych.
 
 
-This statement reflects the General Data Protection Regulation (GDPR) as of 16.05.2018.
+# Dalsza zgodność z GDPR 
+
+- Nie wymaga żadnej **zgody** (article 7 GDPR) ze strony użytkowników lub ich kontaktów (osób, których dane dotyczą), ponieważ nie są przekazywane dane z książki adresowej.
+
+- Może być używany **bez konieczności zawierania umowy lub instrukcji** od administratora (organizacji), ponieważ żadna dodatkowa strona trzecia nie będzie przetwarzać danych osobowych związanych z pocztą e-mail. 
+
+# W jaki sposób administratorzy danych (organizacje) odnoszą korzyści z korzystania z Delta Chat w celu zapewnienia zgodności z GDPR
+
+- Nie tworzy **żadnych dodatkowych wymogów informacyjnych** dla administratora danych w odniesieniu bezpośrednim lub pośrednim do osób, których dane dotyczą,
+  w  odniesieniu do gromadzenia danych z książki adresowej, art. 13, 14 GDPR.
+
+- Nie wymaga przeprowadzania oceny skutków w zakresie ochrony danych Delta Chat (art. 35 GDPR), ponieważ nie przetwarza żadnych szczególnych danych dodatkowych poza przesyłaniem wiadomości e-mail.
+
+- Dodanie środków ochrony prywatności Delta Chat 
+  do **rejestru działań związanych z przetwarzaniem** może mieć pozytywny wpływ 
+  na ewentualną **dokumentację dowodową** (art. 30 GDPR), 
+  jak również na **proces certyfikacji ochrony danych**, art. 25 ust. 3, art. 42 GDPR.
+
+- **Rejestr działań przetwarzania danych** związanych z komunikacją komunikatora
+  ogranicza się do identyfikacji dostawców usług poczty elektronicznej i rejestrowania ich działalności, art. 30 ust. 2 GDPR.
+
+-  Pozostałe zagrożenia dla praw i wolności osób fizycznych 
+  są zwykle ograniczone do danych komunikacyjnych przetwarzanych 
+  przez administratora danych i dostawców usług poczty elektronicznej.
+
+
+Niniejsze oświadczenie odzwierciedla ogólne Rozporządzenie o Ochronie Danych Osobowych (RODO=GDPR) z dnia 16.05.2018.
 

@@ -74,7 +74,7 @@ Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni 
 - Te skena vijuese, përzgjidhni **anëtarët e grupit** dhe i vini shenjë kutizës në cepin e sipërm djathtas. Pas kësaj, mund të përcaktoni një **emër grupi**.
 - Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjen te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët).
 
-## Kush mund të shtojë anëtarë te një grup?
+## How to add members to a group?
 
 - Çdo anëtar i grupit ka **të njëjtat të drejta** si kushdo tjetër. Për këtë arsye, gjithkush mund të fshijë cilindo anëtar ose të shtojë të rinj.
 - Për të shtuar ose fshirë anëtarë, klikoni mbi emrin e grupit te biseda.

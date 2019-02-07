@@ -74,7 +74,7 @@ Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i **Kontaktfo
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Who to add members to a group?
+## How to add members to a group?
 
 - Hvert gruppemedlem har **samme rettigheter** som alle andre. Som følge av dette kan hver av dem slette andre, eller legge til nye.
 - For å legge til eller slette medlemmer, klikk på gruppenavnet i sludringen.

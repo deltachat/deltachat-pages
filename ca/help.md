@@ -74,7 +74,7 @@ Els altres missatges no es mostren automàticament. Pots veure aquests altres mi
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Who to add members to a group?
+## How to add members to a group?
 
 - Cada membre del grup te els **mateixos drets** que els altres. Per això mateix, tothom pot esborrar a qualsevol membre o afegir-ne de nous.
 - Per afegir o esborrar membres, prem a sobre del nom del grup des de la finestra de xat.

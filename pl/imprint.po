@@ -1,5 +1,5 @@
 # Translators:
-# Björn Petersen <r10s@b44t.com>, 2018
+# björn petersen <r10s@b44t.com>, 2018
 # Telegram Polska <sebek@life.pl>, 2018
 # 
 #, fuzzy

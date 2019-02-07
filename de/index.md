@@ -16,11 +16,10 @@ layout: default-de
 **Delta Chat ist wie Telegram oder Whatsapp, jedoch ohne Tracking oder zentrale Kontrolle.**
 Lesen Sie unsere [Erklärung zur Einhaltung der DSGVO](gdpr).
 
-**DeltaChat betreibt keine eigenen Server**, verwendet jedoch das umfangreichste und vielfältigste offene Messaging
+**Delta Chat betreibt keine eigenen Server**, verwendet jedoch das umfangreichste und vielfältigste offene Messaging
 System überhaupt: Das bestehende E-Mail-Server-Netzwerk.
 
-**Chatten Sie mit jedem dessen E-Mail-Adresse Sie kennen, ohne dass er/sie DeltaChat installiert haben muss!**
-Es wird lediglich ein Standard-E-Mail-Konto benötigt.
+**Einfach mit jeder Person chatten, deren E-Mail-Adresse bekannt ist.** Der Chatpartner benötigt dabei kein Delta Chat. Ein Standard-E-Mail-Konto reicht aus!
 
 
 # Android, Desktop und iOS Screenshots
@@ -34,6 +33,5 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-Bitte lesen Sie auch unseren [Januar 2019 Release Blog Post](../en/2019-01-27-Releases)
-um Informationen zu aktuellen Versionen zu bekommen.
+Bitte lesen Sie auch unseren [Januar 2019 Release Blog Post](../en/2019-01-27-Releases), um Informationen zu aktuellen Versionen zu bekommen.
 

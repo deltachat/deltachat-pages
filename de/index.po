@@ -1,5 +1,6 @@
 # Translators:
-# Björn Petersen <r10s@b44t.com>, 2019
+# Moni P. <monitx@deltachat.de>, 2019
+# björn petersen <r10s@b44t.com>, 2019
 # W R, 2019
 # 
 #, fuzzy
@@ -55,7 +56,7 @@ msgid ""
 "**DeltaChat has no own servers** but uses the most massive and diverse open messaging \n"
 "system ever: the existing e-mail server network."
 msgstr ""
-"**DeltaChat betreibt keine eigenen Server**, verwendet jedoch das umfangreichste und vielfältigste offene Messaging\n"
+"**Delta Chat betreibt keine eigenen Server**, verwendet jedoch das umfangreichste und vielfältigste offene Messaging\n"
 "System überhaupt: Das bestehende E-Mail-Server-Netzwerk."
 
 #: ../en/index.md:18
@@ -63,8 +64,9 @@ msgid ""
 "**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** \n"
 "All you need is a standard e-mail account."
 msgstr ""
-"**Chatten Sie mit jedem dessen E-Mail-Adresse Sie kennen, ohne dass er/sie DeltaChat installiert haben muss!**\n"
-"Es wird lediglich ein Standard-E-Mail-Konto benötigt."
+"**Einfach mit jeder Person chatten, deren E-Mail-Adresse bekannt ist.** Der "
+"Chatpartner benötigt dabei kein Delta Chat. Ein Standard-E-Mail-Konto reicht"
+" aus!"
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "
@@ -103,5 +105,6 @@ msgid ""
 "Please check our [January 2019 release blog post](../en/2019-01-27-releases) \n"
 "for information on current releases. "
 msgstr ""
-"Bitte lesen Sie auch unseren [Januar 2019 Release Blog Post](../en/2019-01-27-Releases)\n"
-"um Informationen zu aktuellen Versionen zu bekommen."
+"Bitte lesen Sie auch unseren [Januar 2019 Release Blog "
+"Post](../en/2019-01-27-Releases), um Informationen zu aktuellen Versionen zu"
+" bekommen."
