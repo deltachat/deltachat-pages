@@ -21,9 +21,9 @@ layout: default-es
 
 ## A quién podré escribir mensajes?
 
-- Con Delta Chat pude escribir mensajes instantáneos a cualquier otro usuario de Delta Chat, y a cualquier otro usuario de correo electrónico. Esta es una de las principales diferencias de Delta Chat con cualquier otro mensajero: El contacto destinatario no necesita tener instalada la misma aplicación que usted.
+- Con Delta Chat puedes escribir mensajes instantáneos a cualquier dirección de correo electrónico, incluso si el destinatario no esta usando Delta Chat. Esta es una de las principales diferencias de Delta Chat con otras aplicaciones de mensajería: El receptor del mensaje no necesita tener instalada la misma aplicación que usted.
 
-## Cuáles son las ventajas de Delta Chat comparado con otros mensajeros?
+## Cuáles son las ventajas de Delta Chat comparado con otras aplicaciones de mensajería?
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
@@ -40,15 +40,15 @@ layout: default-es
 
 ## ¿Qué pasa si el receptor no usa Delta Chat?
 
-- El destinatario recibirá un correo electrónico normal, y si le responde a usted, usted verá la respuesta en Delta Chat tal como espera.
+- El destinatario recibirá un correo electrónico normal, y si lo responde, usted verá la respuesta en Delta Chat tal como espera.
 
-## ¿Cuales mensajes aparecerán el Delta Chat?
+## ¿Cuáles mensajes aparecerán en Delta Chat?
 
 Delta Chat muestra automáticamente...
 
-- Messages from contacts in your **address book**
-- Messages from contacts **contacted by you**
-- **Replies** to messages sent by you
+- Mensajes de contactos en tu **libreta de direcciones**
+- Mensajes de contactos **contactados por ti**
+- **Respuestas** a mensajes enviados por ti
 
 Otros mensajes no aparecen automáticamente. Podes verlos en el menú principal en **Solicitudes de contacto** y, si querés, iniciar una conversación desde ahí.
 
@@ -74,12 +74,12 @@ Otros mensajes no aparecen automáticamente. Podes verlos en el menú principal 
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Who to add members to a group?
+## How to add members to a group?
 
 - Todos los miembros del grupo tienen los **mismos derechos** que los demás. Por esta razón, todos pueden eliminar o añadir miembros al grupo.
 - Para añadir o eliminar miembros, haga clic en el nombre del grupo en la pantalla de chat.
 
-## What is a verified group?
+## ¿Qué es un grupo verificado?
 
 - A "verified group" is an experimental feature (as of January 2019). 
   By adding one another through QR-code scans a group of "verified" members can talk 
@@ -90,23 +90,23 @@ Otros mensajes no aparecen automáticamente. Podes verlos en el menú principal 
 
 ## Me he eliminado a mí mismo accidentalmente de un grupo.
 
-- As you're no longer a group member now, you cannot add yourself again. 
-  However, no problem, just ask any other group member in a normal chat to add you again.
+- Como ya no eres miembro del grupo, no puedes volver a agregarte tu mismo.
+Sin embargo, no hay problema, solo pídele a cualquier otro miembro del grupo en un chat normal que te agregue de nuevo.
 
 ## No quiero recibir nuevamente mensajes de un determinado grupo.
 
-- Either delete yourself from the member list or delete the whole chat. 
-  If you want to join the group later again, ask another group member to add you again.
+- Elimínate de la lista de miembros o elimina el chat completo.
+Si deseas unirte al grupo más tarde, pídele a otro miembro del grupo que te agregue nuevamente.
 
-- As an alternative, you can also "Mute" a group - doing so, you'll get all messages and 
-  can still write but you're no longer notified of any new messages.
+- Como alternativa, también puedes "Silenciar" a un grupo. Al hacerlo, recibirás todos los mensajes y
+aún puedes escribir, pero no se te notificará cuando hay nuevos mensajes en ese grupo.
 
 # Encriptación {#encryption}
 
-## Does Delta Chat support end-to-end-encryption?
+## ¿Delta Chat admite cifrado de extremo a extremo?
 
-- Yes. DeltaChat implements the Autocrypt Level 1 standard and can 
-  thus e2e-encrypt messages with other Autocrypt-capable apps. 
+- Sí. DeltaChat implementa el estándar Autocrypt Nivel 1 y puede
+por lo tanto, cifrar de extremo a extremo mensajes con otras aplicaciones compatibles con Autocrypt.
 
 ## Qué debo hacer para activar la encriptacin de extremo a extremo?
 
@@ -119,17 +119,17 @@ Otros mensajes no aparecen automáticamente. Podes verlos en el menú principal 
   If one of the chat partners uses a non-Autocrypt e-mail app later 
   messages are not encrypted until an Autocrypt-compliant app is available again. 
 
-- If you want to _deactivate_ the end-to-end-encryption, 
-  use the corresponding setting at "Settings / Advanced settings".
+- Si desea _desactivar_ el cifrado de extremo a extremo,
+use la configuración correspondiente en "Ajustes / Avanzado".
 
 ## Si la encriptación extremo a extremo no está disponible, toda la comunicación es insegura?
 
-- No. With most e-mail servers _transport encryption_ (TLS) is used then.
+- No. Con la mayoría de los servidores de correo electrónico se utilizará _cifrado de transporte_ (TLS) entonces.
 
 
 ## Cómo puedo verificar la encriptación?
 
-- If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
+- Si se muestra un pequeño **candado** junto a un mensaje, esto implica que el mensaje está encriptado de extremo a extremo _y_ se envía desde el remitente dado, _y_ su respuesta también se cifrará de extremo a extremo.
 
 - If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
@@ -146,27 +146,26 @@ El perfile del usuario muestra información adicional:
 - For an end-to-end-encryption, Delta Chat shows two fingerprints there. 
   If they are the same on the device of your chat partner, the connection is safe.
 
-- For transport encryption, this state is just shown there
+- Para el cifrado de transporte, este estado se muestra allí.
 
 
 ## ¿qué estándares se utilizan para el cifrado punto a punto?
 
 - OpenPGP. En el envío de las claves se realiza mediante [Autocrypt](https://autocrypt.org).
 
-## Can I re-use my existing private key?
+## ¿Puedo reutilizar mi llave privada existente?
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
 - Alternatively, you can import the key manually at "Advanced settings / Manage private keys". Caution: Make sure, the key is not protected by a password or remove it before.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
+Si no tienes una llave o ni siquiera sabes para qué la necesitas, no te preocupes: Delta Chat genera una según sea necesario de forma automática, no tienes que hacer nada.
 
 # Multiples dispositivos {#multiclient}
 
 ## Puedo usar Delta Chat en varios dispositivos al mismo tiempo?
 
-If you want to use the **same account** on different (Autocrypt
-capable) devices, you have to synchronize their encryption capabilities: 
+Si desea utilizar la **misma cuenta** en diferentes dispositivos (que soporten Autocrypt), tienes que sincronizar sus llaves de cifrado:
 
 - On the first device, choose "Advanced settings / Send Autocrypt Setup message" 
   and click until a "security number" is shown. 

@@ -9,7 +9,7 @@ layout: default-es
 
 
 
-# Chat over e-mail and head back to the future with us!
+# ¡Chatee por correo electrónico y regrese al futuro con nosotros!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 

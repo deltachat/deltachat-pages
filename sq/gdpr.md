@@ -37,13 +37,13 @@ layout: default-sq
   në  **dokumentim të mëvonshëm evidence**, (neni 30 i GDPR-së), 
   si dhe mbi **procesin e certifikimit për mbrojtje të dhënash**, neni 25 (3), 42 GDPR.
 
-- The **record of processing activities** linked to the messenger-communication is
-  reduced to identifying the email-providers and recording their activities, Article 30 (2) GDPR.
+- **Regjistrimi i veprimtarive të përpunimit** të lidhura me komunikimet dhe mesazhet është
+  reduktuar në identifikimin e furnizuesve të shërbimit email dhe regjistrimit të veprimtarive të tyre, neni 30 (2) GDPR.
 
-- Remaining risks to the rights and freedoms of natural persons 
-  are generally also limited to the communication data processed 
-  by the controller and the email providers.
+- Edhe rreziqet e mbetura, ndaj të drejtave dhe lirive të personave 
+  përgjithësisht kufizohen në të dhënat e komunikimit të përpunuara 
+  nga kontrolluesi dhe furnizuesit e shërbimit email.
 
 
-This statement reflects the General Data Protection Regulation (GDPR) as of 16.05.2018.
+Kjo deklaratë pasqyron Rregulloren e Përgjithshme të Mbrojtjes së të Dhënave (GDPR) të deri 16.05.2018.
 

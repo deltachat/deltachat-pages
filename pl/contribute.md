@@ -11,10 +11,10 @@ layout: default-pl
 
 # Kanały i repozytoria
 
-- [Forum wsparcia Delta Chat](https://support.delta.chat) do
-  szerszych dyskusji na temat funkcji i uzyskania wsparcia.
+- [Delta Chat support forum](https://support.delta.chat) for wider
+  feature discussions and getting support.
 
-- [#deltachat na freenode]({%include webirc-url %}) do codziennej komunikacji.
+- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
 
 - [Lista mailingowa Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   do dyskusji społecznych i informacji.

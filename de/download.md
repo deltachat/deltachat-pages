@@ -17,7 +17,7 @@ layout: default-de
 Delta/Android ist die funktionsreichste und stabilste Delta Chat App.
 
 * [Über F-Droid herunterladen](https://f-droid.org/app/com.b44t.messenger)
-* [APK herunterladen](https://github.com/deltachat/deltachat-android/releases) (nur erfahrende Benutzer)
+* [APK herunterladen](https://github.com/deltachat/deltachat-android/releases) (nur erfahrene Benutzer)
 * [Änderungsprotokoll lesen]({% include changelog-url %}), [bei den Android Quellen mitwirken](https://github.com/deltachat/deltachat-android/). 
 
 
@@ -42,9 +42,9 @@ Delta/Desktop ist gut verwendbar und kann einzeln oder in Verbindung mit Android
 Delta/iOS unterstützt grundlegende Funktionen, aber nicht alle Features, die für Android oder Desktop angeboten werden. 
 Betas werden über Testflight verteilt.
 
-- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for your iPhone or iPad.
+- [testflight Einladungsseite](https://testflight.apple.com/join/WVoYFOZe) für Ihr iPhone oder iPad.
 
-- [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
+- [zur Entwicklung für iOS beitragen](https://github.com/deltachat/deltachat-ios/). 
 
 - Diesen QR-Code mit der Kamera-App des iPhone/iPad scannen
 
@@ -55,7 +55,7 @@ Betas werden über Testflight verteilt.
 
 Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:
 
-* Für F-Droid downloads:  
+* Für F-Droid Downloads:  
   `{% include fingerprint-f-droid %}`
 
 * Andere APK downloads:  

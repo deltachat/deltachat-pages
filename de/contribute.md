@@ -11,17 +11,17 @@ layout: default-de
 
 # Kanäle und Quellen
 
-- [Delta Chat Support Forum](https://support.delta.chat) für ausführlichere
-  Diskussionen über Features und um Hilfe zu erhalten .
+- [Delta Chat support forum](https://support.delta.chat) for wider
+  feature discussions and getting support.
 
-- [#deltachat auf freenode]({%include webirc-url %}) für die tägliche Kommunikation.
+- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
 
 - [Delta Chat Mailingliste
   list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   für Community Diskussionen und Neuigkeiten.
 
 - [Delta Chat Quellen](https://github.com/deltachat/) in denen Sie
-  den Code für DeltaChat-Anwendungen und diese Website finden können.
+  den Code für Delta Chat Anwendungen und diese Website finden können.
 
 # Übersetzungen und Fehlerberichte
 
@@ -35,13 +35,13 @@ Wir suchen immer nach Entwicklern, die helfen möchten und sich auskennen mit
 C, Rust, Java, Swift, Javascript oder Python auf Android, iOS, Windows, Linux oder Mac.
 
 
-# Spende Geld oder Geräte
+# Geld oder Geräte spenden
 
-Wenn Sie DeltaChat mit Geld unterstützen wollen:
+Wenn Sie Delta Chat mit Geld unterstützen wollen:
 
 - IBAN DE86100777770428658900, Kontoinhaber (bitte immer angeben): Björn Petersen, BIC NORSDE51XXX
 - Paypal, Kreditkarte oder Lastschrift: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Bitcoins an [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-Für Testzwecke benötigen wir ausserdem **Testgeräte**. Haben sie ein ausgedientes Android Smartphone oder ein iPhone?
+Für Testzwecke benötigen wir außerdem **Testgeräte**. Haben Sie ein ausgedientes Android Smartphone oder ein iPhone?
 [Wir](imprint) nehmen es gerne!

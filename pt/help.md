@@ -74,7 +74,7 @@ Outras mensagens não aparecem automaticamente. Você poderá as ver no menu pri
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Who to add members to a group?
+## How to add members to a group?
 
 - Todos os membros do grupo têm os **mesmos poderes**. Assim, todos podem deletar e/ou incluir novos membros ao grupo.
 - Para adicionar ou deletar membros, clique no nome do grupo no chat.

@@ -74,7 +74,7 @@ Delta Chat автоматически показывает ...
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Who to add members to a group?
+## How to add members to a group?
 
 - Каждый участник группы имеет **те же права**, что и любой другой. По этой причине каждый может удалить любого участника или добавить нового.
 - Чтобы добавить или удалить участников, нажмите на название группы в чате.

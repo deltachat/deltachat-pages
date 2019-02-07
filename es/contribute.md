@@ -12,18 +12,16 @@ layout: default-es
 # Channels and repositories
 
 - [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support .
+  feature discussions and getting support.
 
-- [#deltachat on freenode]({%include webirc-url %}) for day to day communications.
+- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
 
-- [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
-  for community discussions and news.
+- [Lista de correo de Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) para discusiones en la comunidad y noticias.
 
 - [Delta Chat repositories](https://github.com/deltachat/) where you can 
   can find the code for DeltaChat apps and this web site.
 
-# Translations and Bug Reports 
+# Traducciones e informes de errores
 
 - [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
@@ -31,13 +29,13 @@ layout: default-es
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)
 
-We are always looking for developers who want to help along and are familiar with 
-C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
+Siempre estamos buscando desarrolladores que quieran ayudar y que estén familiarizados con
+C, Rust, Java, Swift, Javascript o Python en Android, iOS, Windows, Linux o Mac.
 
 
-# Donate Money or devices
+# Dona dinero o dispositivos
 
-If you want to support DeltaChat with money:
+Si quieres apoyar DeltaChat con dinero:
 
 - IBAN DE86100777770428658900, Titular de la cuenta (especifique siempre): Björn Petersen, BIC NORSDE51XXX
 - PayPal o tarjeta de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/20)

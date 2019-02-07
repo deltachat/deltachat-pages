@@ -1,6 +1,6 @@
 ---
-title: GDPR and Privacy
-layout: default-en
+title: RGPD y Privacidad
+layout: default-es
 ---
 
 
@@ -9,23 +9,23 @@ layout: default-en
 
 
 
-# Privacy by Design
+# Diseñado para Privacidad
 
-- **Confidentiality**: End-to-end encryption by default, by implementing [Autocrypt
-  Level 1](https://autocrypt.org).
+- **Confidencialidad**: Encriptado extremo-a-extremo por defecto, implementando [Autocrypt
+Nivel 1](https://autocrypt.org).
 
 - **Data minimization**: No alignment or uploading of the address-book content.
 
-- **Data avoidance**: No Delta Chat server, no processing of personal data.
+- **Evitación de datos**: No hay servidor Delta Chat, no hay procesamiento de datos personales.
 
 
-# Further Compliance to the GDPR 
+# Mayor cumplimiento del RGPD
 
-- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book-data is transmitted.
+- No requiere ningún **consentimiento** (artículo 7 del RGPD) por parte del usuario o sus contactos (sujetos de datos), porque no se transmite ninguna información de agenda de contactos.
 
-- Can be used **without requiring a contract or instructions** from any controller (organisation), because no additional third party will process the E-Mail related personal data. 
+- Puede usarse **sin requerir un contrato o instrucciones** de parte de ningún controlador (organización), porque ningún tercero adicional procesará los datos personales vinculados al E-Mail.
 
-# How data controllers (organizations) benefit from using Delta Chat in complying to the GDPR
+# De qué manera los controladores de datos (organizaciones) se benefician usando Delta Chat en cumplimiento con el RGPD
 
 - Creates **no additional information requirements** for the controller towards direct or indirect data subjects 
   regarding any collection of address-book-data, article 13, 14 GDPR.
@@ -40,10 +40,10 @@ layout: default-en
 - The **record of processing activities** linked to the messenger-communication is
   reduced to identifying the email-providers and recording their activities, Article 30 (2) GDPR.
 
-- Remaining risks to the rights and freedoms of natural persons 
-  are generally also limited to the communication data processed 
-  by the controller and the email providers.
+- Riesgos remanentes para los derechos y libertades de personas físicas
+están limitados generalmente también a los datos de comunicación procesados
+por el controlador y los proveedores de email.
 
 
-This statement reflects the General Data Protection Regulation (GDPR) as of 16.05.2018.
+Esta declaración refleja el Reglamento General de Protección de Datos (RGPD) a la fecha 2018.05.16.
 

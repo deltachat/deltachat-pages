@@ -11,10 +11,10 @@ layout: default-sq
 
 # Kanale dhe depo
 
-- [Forumi i asistencës për Delta Chat](https://support.delta.chat) për
-  diskutime më të gjera mbi veçori dhe për të marrë asistencë.
+- [Delta Chat support forum](https://support.delta.chat) for wider
+  feature discussions and getting support.
 
-- [#deltachat në freenode]({%include webirc-url %}) për komunikim të përditshëm.
+- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
 
 - [Listë postimesh Delta Chat]
   (https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 

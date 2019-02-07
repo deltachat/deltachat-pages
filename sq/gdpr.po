@@ -122,6 +122,8 @@ msgid ""
 "- The **record of processing activities** linked to the messenger-communication is\n"
 "  reduced to identifying the email-providers and recording their activities, Article 30 (2) GDPR."
 msgstr ""
+"- **Regjistrimi i veprimtarive të përpunimit** të lidhura me komunikimet dhe mesazhet është\n"
+"  reduktuar në identifikimin e furnizuesve të shërbimit email dhe regjistrimit të veprimtarive të tyre, neni 30 (2) GDPR."
 
 #: ../en/gdpr.md:40
 msgid ""
@@ -129,9 +131,14 @@ msgid ""
 "  are generally also limited to the communication data processed \n"
 "  by the controller and the email providers."
 msgstr ""
+"- Edhe rreziqet e mbetura, ndaj të drejtave dhe lirive të personave \n"
+"  përgjithësisht kufizohen në të dhënat e komunikimit të përpunuara \n"
+"  nga kontrolluesi dhe furnizuesit e shërbimit email."
 
 #: ../en/gdpr.md:43
 msgid ""
 "This statement reflects the General Data Protection Regulation (GDPR) as of "
 "16.05.2018."
 msgstr ""
+"Kjo deklaratë pasqyron Rregulloren e Përgjithshme të Mbrojtjes së të Dhënave"
+" (GDPR) të deri 16.05.2018."

@@ -1,5 +1,5 @@
 # Translators:
-# Björn Petersen <r10s@b44t.com>, 2019
+# Telegram Polska <sebek@life.pl>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 16:51+0200\n"
 "PO-Revision-Date: 2019-01-27 23:24+0000\n"
-"Last-Translator: Björn Petersen <r10s@b44t.com>, 2019\n"
+"Last-Translator: Telegram Polska <sebek@life.pl>, 2019\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,40 +25,49 @@ msgid ""
 "---"
 msgstr ""
 "---\n"
-"title: GDPR\n"
+"title: GDPR i Prywatność\n"
 "layout: default-pl\n"
 "---"
 
 #: ../en/gdpr.md:7
 msgid "# Privacy by Design"
-msgstr ""
+msgstr "# Prywatność zaprojektowana"
 
 #: ../en/gdpr.md:10
 msgid ""
 "- **Confidentiality**: End-to-end encryption by default, by implementing [Autocrypt\n"
 "  Level 1](https://autocrypt.org)."
 msgstr ""
+"- **Poufność**: Domyślnie szyfrowanie typu end-to-end, poprzez wdrożenie [Autocrypt\n"
+"  Level 1](https://autocrypt.org)."
 
 #: ../en/gdpr.md:12
 msgid ""
 "- **Data minimization**: No alignment or uploading of the address-book "
 "content."
 msgstr ""
+"- **Minimalizacja ilości danych**: Brak porównywania lub przesyłania "
+"zawartości książki adresowej."
 
 #: ../en/gdpr.md:14
 msgid ""
 "- **Data avoidance**: No Delta Chat server, no processing of personal data."
 msgstr ""
+"- **Unikanie danych**: Brak serwera Delta Chat, brak przetwarzania danych "
+"osobowych."
 
 #: ../en/gdpr.md:17
 msgid "# Further Compliance to the GDPR "
-msgstr ""
+msgstr "# Dalsza zgodność z GDPR "
 
 #: ../en/gdpr.md:19
 msgid ""
 "- Does not require any **consent** (article 7 GDPR) from the users or their "
 "contacts (data subjects), because no address-book-data is transmitted."
 msgstr ""
+"- Nie wymaga żadnej **zgody** (article 7 GDPR) ze strony użytkowników lub "
+"ich kontaktów (osób, których dane dotyczą), ponieważ nie są przekazywane "
+"dane z książki adresowej."
 
 #: ../en/gdpr.md:21
 msgid ""
@@ -66,18 +75,25 @@ msgid ""
 "controller (organisation), because no additional third party will process "
 "the E-Mail related personal data. "
 msgstr ""
+"- Może być używany **bez konieczności zawierania umowy lub instrukcji** od "
+"administratora (organizacji), ponieważ żadna dodatkowa strona trzecia nie "
+"będzie przetwarzać danych osobowych związanych z pocztą e-mail. "
 
 #: ../en/gdpr.md:23
 msgid ""
 "# How data controllers (organizations) benefit from using Delta Chat in "
 "complying to the GDPR"
 msgstr ""
+"# W jaki sposób administratorzy danych (organizacje) odnoszą korzyści z "
+"korzystania z Delta Chat w celu zapewnienia zgodności z GDPR"
 
 #: ../en/gdpr.md:26
 msgid ""
 "- Creates **no additional information requirements** for the controller towards direct or indirect data subjects \n"
 "  regarding any collection of address-book-data, article 13, 14 GDPR."
 msgstr ""
+"- Nie tworzy **żadnych dodatkowych wymogów informacyjnych** dla administratora danych w odniesieniu bezpośrednim lub pośrednim do osób, których dane dotyczą,\n"
+"  w  odniesieniu do gromadzenia danych z książki adresowej, art. 13, 14 GDPR."
 
 #: ../en/gdpr.md:28
 msgid ""
@@ -85,6 +101,9 @@ msgid ""
 "Chat (Article 35 GDPR), because it processes no particular additional data "
 "beyond E-Mail messenging."
 msgstr ""
+"- Nie wymaga przeprowadzania oceny skutków w zakresie ochrony danych Delta "
+"Chat (art. 35 GDPR), ponieważ nie przetwarza żadnych szczególnych danych "
+"dodatkowych poza przesyłaniem wiadomości e-mail."
 
 #: ../en/gdpr.md:33
 msgid ""
@@ -93,12 +112,18 @@ msgid ""
 "  on eventual **evidence documentation**, (article 30 GDPR) \n"
 "  as well as on the **data protection certification process**, Article 25 (3), 42 GDPR."
 msgstr ""
+"- Dodanie środków ochrony prywatności Delta Chat \n"
+"  do **rejestru działań związanych z przetwarzaniem** może mieć pozytywny wpływ \n"
+"  na ewentualną **dokumentację dowodową** (art. 30 GDPR), \n"
+"  jak również na **proces certyfikacji ochrony danych**, art. 25 ust. 3, art. 42 GDPR."
 
 #: ../en/gdpr.md:36
 msgid ""
 "- The **record of processing activities** linked to the messenger-communication is\n"
 "  reduced to identifying the email-providers and recording their activities, Article 30 (2) GDPR."
 msgstr ""
+"- **Rejestr działań przetwarzania danych** związanych z komunikacją komunikatora\n"
+"  ogranicza się do identyfikacji dostawców usług poczty elektronicznej i rejestrowania ich działalności, art. 30 ust. 2 GDPR."
 
 #: ../en/gdpr.md:40
 msgid ""
@@ -106,9 +131,14 @@ msgid ""
 "  are generally also limited to the communication data processed \n"
 "  by the controller and the email providers."
 msgstr ""
+"-  Pozostałe zagrożenia dla praw i wolności osób fizycznych \n"
+"  są zwykle ograniczone do danych komunikacyjnych przetwarzanych \n"
+"  przez administratora danych i dostawców usług poczty elektronicznej."
 
 #: ../en/gdpr.md:43
 msgid ""
 "This statement reflects the General Data Protection Regulation (GDPR) as of "
 "16.05.2018."
 msgstr ""
+"Niniejsze oświadczenie odzwierciedla ogólne Rozporządzenie o Ochronie Danych"
+" Osobowych (RODO=GDPR) z dnia 16.05.2018."

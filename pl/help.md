@@ -74,18 +74,14 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 - Na następnym ekranie wybierz **członków grupy** i naciśnij znacznik wyboru w prawym górnym rogu. Następnie możesz zdefiniować nazwę grupy.
 - Zaraz po napisaniu pierwszej wiadomości w grupie wszyscy członkowie zostaną poinformowani o nowej grupie i mogą odpowiedzieć w grupie (jeżeli nie napiszesz wiadomości w grupie, grupa jest niewidoczna dla członków).
 
-## Kto dodaje członków do grupy?
+## How to add members to a group?
 
 - Każdy członek grupy ma **takie same prawa** jak każdy inny. Z tego powodu każdy może usunąć każdego członka lub dodać nowego.
 - Aby dodać lub usunąć członków, kliknij nazwę grupy na czacie. 
 
 ## Co to jest zweryfikowana grupa?
 
-- A "verified group" is an experimental feature (as of January 2019). 
-  By adding one another through QR-code scans a group of "verified" members can talk 
-  with each other.  It enforces e2e group encryption that is safe against provider or 
-  network attacks.  However, some user-tests and feedback suggests that UX and 
-  implementation changes makes sense. Recent discussions can be found here: 
+Zweryfikowana grupa jest funkcją eksperymentalną (od stycznia 2019 r.). Dodając się nawzajem poprzez skanowanie kodów QR, grupa „zweryfikowanych” członków może ze sobą rozmawiać. Wymusza szyfrowanie grupy e2e, które jest bezpieczne od ataków dostawców lub sieci. Jednak niektóre testy i opinie użytkowników sugerują, że zmiany w UX i implementacji mają sens. Ostatnie dyskusje można znaleźć tutaj: 
   https://countermitm.readthedocs.io/en/latest/new.html
 
 ## Usunąłem się przez przypadek.
@@ -105,26 +101,22 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 
 ## Czy Delta Chat obsługuje szyfrowanie end-to-end?
 
-- Yes. DeltaChat implements the Autocrypt Level 1 standard and can 
-  thus e2e-encrypt messages with other Autocrypt-capable apps. 
+- Tak. DeltaChat ma zaimplementowany standard Autocrypt Level 1 
+  i może szyfrować wiadomości metodą e2e za pomocą innych 
+  aplikacji obsługujących Autocrypt. 
 
 ## Co muszę zrobić, aby aktywować szyfrowanie end-to-end?
 
 - Nic.
 
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app later 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
+- Gdy wysyłane są pierwsze wiadomości, aplikacje Delta Chat (i inne zgodne z [Autocrypt](https://autocrypt.org) aplikacje e-mail) automatycznie współdzielą klucze wymagane do szyfrowania metodą end-to-end. Następnie wszystkie kolejne wiadomości są automatycznie szyfrowane end-to-end. Jeśli jeden z partnerów czatu korzysta z aplikacji e-mail bez obsługi Autocrypt, późniejsze wiadomości nie są szyfrowane, dopóki aplikacja zgodna z Autocrypt nie będzie ponownie dostępna.
 
 - Jeśli chcesz _dezaktywować_ szyfrowanie end-to-end, 
   użyj odpowiedniego ustawienia w „Ustawienia » Ustawienia zaawansowane”.
 
 ## Czy połączenie nie jest w ogóle szyfrowane, jeśli szyfrowanie end-to-end nie jest dostępne?
 
-- No. With most e-mail servers _transport encryption_ (TLS) is used then.
+- Nie. W większości serwerów e-mail stosuje się wówczas _szyfrowanie transportu_ (TLS).
 
 
 ## Jak mogę sprawdzić szyfrowanie?
@@ -138,10 +130,7 @@ Inne wiadomości nie pojawią się automatycznie. Możesz je zobaczyć w menu g�
 
 Profil użytkownika zawiera dodatkowe informacje:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR"
-  code button on another device to scan this code.  If both devices are online
-  they will introduce a chat channel with each other (if it doesn't exist already) 
-  and also the encryption keys will be verified. 
+- Możesz nacisnąć na Androidzie „Kod QR zaproszenia”, a następnie użyć przycisku „Skanuj kod QR” na innym urządzeniu, aby zeskanować ten kod. Jeśli oba urządzenia są w trybie online, nawiążą ze sobą czat (jeśli jeszcze nie istnieje), a także zostaną zweryfikowane klucze szyfrowania. 
 
 - W przypadku szyfrowania metodą end-to-end Delta Chat pokazuje tam dwa odciski palców. 
   Jeśli są takie same na urządzeniu twojego partnera czatu, połączenie jest bezpieczne
@@ -159,23 +148,21 @@ Profil użytkownika zawiera dodatkowe informacje:
 
 - Alternatywnie możesz zaimportować go ręcznie w „Ustawienia zaawansowane » Zarządzaj prywatnymi kluczami”. Uwaga: Upewnij się, że klucz nie jest chroniony hasłem ani nie usunąłeś go wcześniej.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
+Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz  nie przejmuj się: Delta Chat generuje go w razie potrzeby, nie trzeba naciskać przycisku, aby to zrobić. 
 
 # Multi-klient {#multiclient}
 
 ## Czy mogę korzystać z Delta Chat na wielu urządzeniach w tym samym czasie?
 
-If you want to use the **same account** on different (Autocrypt
-capable) devices, you have to synchronize their encryption capabilities: 
+- Jeśli chcesz używać tego **samego konta** na różnych urządzeniach (obsługujących Autocrypt), trzeba zsynchronizować ich możliwości szyfrowania: 
 
-- On the first device, choose "Advanced settings / Send Autocrypt Setup message" 
-  and click until a "security number" is shown. 
+- Na pierwszym urządzeniu wybierz Ustawienia zaawansowane » Wyślij wiadomość konfiguracyjną Autocrypt 
+  i naciskaj, aż pojawi się „numer bezpieczeństwa”.
 
-- On the other device, wait for the "Autocrypt Setup Message" to
-  arrive and click on it which should prompt you for the security number. 
+- Na drugim urządzeniu poczekaj na komunikat „Wiadomość konfiguracyjna Autocrypt” i naciśnij ją, aby wyświetlić monit o podanie numeru bezpieczeństwa. 
 
-- you are now successfully synchronized and can use both devices for
-  sending and receiving e2e-encrypted messages with your communication partners. 
+- przeszedłeś teraz z pomyślną synchronizację i możesz używać obu urządzeń
+  do wysyłania i odbierania zaszyfrowanych wiadomości metodą e2e ze Swoimi partnerami komunikacyjnymi. 
 
 # Różne
 
