@@ -132,8 +132,8 @@ Other messages do not appear automatically. You can see the other messages in th
 
 The user's profile shows some additional information:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR"
-  code button on another device to scan this code.  If both devices are online
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
   they will introduce a chat channel with each other (if it doesn't exist already) 
   and also the encryption keys will be verified. 
 
