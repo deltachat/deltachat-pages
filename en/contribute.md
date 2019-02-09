@@ -15,7 +15,7 @@ layout: default-en
   for community discussions and news.
 
 - [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  can find the code for DeltaChat apps and this web site.
+  find the code for DeltaChat apps and this web site.
 
 # Translations and Bug Reports 
 
