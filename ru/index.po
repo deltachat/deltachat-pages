@@ -1,14 +1,15 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
+# Andrei Guliaikin <lycoris@ya.ru>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
-"Last-Translator: björn petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Andrei Guliaikin <lycoris@ya.ru>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +60,7 @@ msgstr ""
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "
-msgstr ""
+msgstr "# Скриншоты Android, ПК и iOS "
 
 #: ../en/index.md:26
 msgid ""
@@ -68,21 +69,31 @@ msgid ""
 "<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
 "style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 msgstr ""
+"<img src=\"../assets/blog/2019-01-chatlist.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> \n"
+"<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 
 #: ../en/index.md:28
 msgid ""
 "<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
 "style=\"float:left; margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
+"style=\"float:left; margin: 10px\" /> "
 
 #: ../en/index.md:30
 msgid ""
 "<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
 "style=\"margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
+"style=\"margin: 10px\" /> "
 
 #: ../en/index.md:33
 msgid ""
 "Please check our [January 2019 release blog post](../en/2019-01-27-releases) \n"
 "for information on current releases. "
 msgstr ""
+"Посмотрите [Выпуск блога от января 2019](../en/2019-01-27-releases) \n"
+"для информации о текущих релизах. "

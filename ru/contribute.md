@@ -11,35 +11,35 @@ layout: default-ru
 
 # Каналы и репозитории
 
-- [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support.
+- [Delta Chat форум поддержки](https://support.delta.chat) больше
+  дискуссии для новых возможностей и получения тех. поддержки.
 
-- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
+- [#deltachat on freenode]({% include webirc-url %}) для ежедневного обсуждения.
 
-- [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
-  for community discussions and news.
+- [Delta Chat список
+  рассылок](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+  для обсуждения сообществом и новостей .
 
-- [Delta Chat репозитории](https://github.com/deltachat/) где вы можете 
-найти код для DeltaChat приложений и для данного веб сайта.
+- [Delta Chat repositories](https://github.com/deltachat/) where you can 
+  find the code for DeltaChat apps and this web site.
 
-# Переводы и Баг Репорты
+# Переводы и Рапорты об ошибках
 
 - [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)
 - [Вопросы по Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Вопросы по Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Вопросы по Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Основная библиотека + Python вопросы](https://github.com/deltachat/deltachat-core/issues)
+- [Вопросы по Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
 
 Мы всегда ищем разработчиков, которые желают помочь и знакомы с 
 C, Rust, Java, Swift, Javascript или Python на Android, iOS, Windows, Linux или Mac.
 
 
-# Помочь деньгами или устройствами
+# Пожертвовать деньги или устройства
 
 Вы можете помочь DeltaChat деньгами:
 
-- IBAN (международный номер банковского счета) DE86100777770428658900, Аккаунт владельца (пожалуйста, указывайте всегда): Björn Petersen, BIC NORSDE51XXX
+- IBAN DE86100777770428658900, Аккаунт владельца (пожалуйста, указывайте всегда): Björn Petersen, BIC NORSDE51XXX
 - PayPal или банковская карта: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Bitcoin-кошелек [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 

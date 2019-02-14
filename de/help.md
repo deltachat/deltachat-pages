@@ -17,7 +17,7 @@ layout: default-de
 - [Multi-client](#multiclient)
 - [Verschiedenes](#miscellaneous)
 
-# Allgemein
+# Allgemein(#general)
 
 ## An wen kann ich schreiben?
 
@@ -26,7 +26,7 @@ layout: default-de
 ## Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
 - _unabhängig_ von Firmen oder Diensten. _Sie_ besitzen Ihre eigenen Daten.
-- Ihre Daten werden nicht auf einem zentralen Server gespeichert; auf diesem Weg, im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat ebenfalls Metadaten (wer schreibt mit wem?) vor zentralen Beobachtern
+- Ihre Daten werden nicht auf einem zentralen Server gespeichert; im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat daher ebenfalls Metadaten (wer schreibt mit wem?) vor zentralen Beobachtern.
 - Sie geben Ihr Adressbuch an niemanden weiter.
 - _Schnell_ durch die Verwendung von Push-IMAP.
 - _Größte Nutzerbasis_ - Empfänger _ohne_ Delta Chat können ebenfalls erreicht werden.
@@ -66,7 +66,7 @@ Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpu
 
 - Ja.
 
-# Gruppen
+# Gruppen(#groups)
 
 ## Wie kann ich eine neue Gruppe erstellen?
 
@@ -74,7 +74,7 @@ Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpu
 - Wählen Sie auf dem folgenden Bildschirm die **Gruppenmitglieder** aus und klicken Sie auf das Häkchen in der oberen rechten Ecke. Danach können Sie einen **Gruppennamen** festlegen.
 - Sobald Sie die **erste Nachricht** in die Gruppe schreiben, werden alle Mitglieder über die neue Gruppe informiert und können in der Gruppe antworten (solange Sie keine Nachricht in die Gruppe schreiben, ist die Gruppe für die Gruppenmitglieder nicht sichtbar).
 
-## How to add members to a group?
+## Wie kann man Mitglieder zu einer Gruppe hinzufügen?
 
 - Jedes Gruppenmitglied hat **dieselben Rechte** wie jedes andere. Jeder kann daher jeden löschen oder weitere Mitglieder hinzufügen.
 - Um die Mitglieder zu verwalten, einfach in der Gruppe auf den Gruppennamen klicken.
@@ -126,7 +126,7 @@ werden die Nachrichten solange nicht verschlüsselt, bis wieder eine Autocrypt-k
 
 ## Wie kann ich die Verschlüsselung überprüfen?
 
-- Wenn ein kleines ** Vorhängeschloss ** neben einer Nachricht angezeigt wird,
+- Wenn ein kleines **Vorhängeschloss** neben einer Nachricht angezeigt wird,
 bedeutet dies, dass die Nachricht Ende-zu-Ende verschlüsselt ist
 _und_ vom angegebenen Absender gesendet wurde 
 _und_ deine Antwort ebenfalls Ende-zu-Ende verschlüsselt wird.
@@ -163,8 +163,7 @@ Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen ben
 
 ## Kann ich Delta Chat auf mehreren Geräten gleichzeitig verwenden?
 
-Wenn **dasselbe Konto** auf unterschiedlichen (Autocrypt-
-fähigen) Geräten verwenden werden soll, müssen die Verschlüsselungsfunktionen synchronisiert werden:
+Wenn **dasselbe Konto** auf unterschiedlichen (Autocrypt-fähigen) Geräten verwenden werden soll, müssen die Verschlüsselungsfunktionen synchronisiert werden:
 
 - Wählen Sie auf dem ersten Gerät "Weitere Einstellungen / Autocrypt-Setup-Nachricht versenden"
 und klicken Sie, bis ein "Setup-Code" angezeigt wird. 
@@ -175,7 +174,7 @@ Nach dem Anklicken erscheint dann eine Abfrage des Setup Codes.
 - Die Synchronisation ist nun erfolgreich abgeschlossen und du kannst mit beiden Geräten
 E2E-verschlüsselte Nachrichten an deine Kommunikationspartner senden und von ihnen empfangen.
 
-# Verschiedenes
+# Verschiedenes(#miscellaneous)
 
 ## Funktioniert Delta Chat mit _meinem_ E-Mail-Anbieter?
 

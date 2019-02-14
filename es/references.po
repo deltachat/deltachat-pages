@@ -1,15 +1,15 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
-# Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2018
+# Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-04-21 22:06+0000\n"
-"Last-Translator: Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2018\n"
+"Last-Translator: Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,6 +75,8 @@ msgid ""
 "_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
 " Datenkraken wie Whatsapp.\"_"
 msgstr ""
+"_\"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu"
+" Datenkraken wie Whatsapp.\"_"
 
 #: ../en/references.md:24
 msgid ""
@@ -92,6 +94,7 @@ msgstr "## Hasecke (blog alemán): Mit Delta Chat per E-Mail chatten"
 msgid ""
 "_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 msgstr ""
+"_\"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client.\"_"
 
 #: ../en/references.md:31
 msgid "15.10.2017, <https://www.hasecke.eu/post/delta-chat/>"
@@ -102,6 +105,8 @@ msgid ""
 "## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-"
 "Himmel?!"
 msgstr ""
+"## Cloudette (blog alemán): Delta Chat – ein neuer Star am Messenger-"
+"Himmel?!"
 
 #: ../en/references.md:36
 msgid ""
@@ -109,6 +114,9 @@ msgid ""
 "vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
 " kann [...]\"_"
 msgstr ""
+"_\"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir "
+"vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
+" kann [...]\"_"
 
 #: ../en/references.md:37
 msgid ""

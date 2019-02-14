@@ -15,7 +15,7 @@ Delta.Chat основан на программном обеспечении с 
 
     Merlinux GmbH
     Reichgrafen Str. 20
-    79102 Freiburg (,Фрайбург-им-Брайсгау), Germany (ФРГ)
+    79102 Freiburg, (Фрайбург-им-Брайсгау), Germany (ФРГ)
 
 Электронная почта: {% include email-link %}
 
