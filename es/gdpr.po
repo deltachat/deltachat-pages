@@ -1,14 +1,15 @@
 # Translators:
 # rivera valdez <riveravaldezmail@gmail.com>, 2019
+# Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2019-01-27 23:24+0000\n"
-"Last-Translator: rivera valdez <riveravaldezmail@gmail.com>, 2019\n"
+"Last-Translator: Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +47,8 @@ msgid ""
 "- **Data minimization**: No alignment or uploading of the address-book "
 "content."
 msgstr ""
+"- **Minimización de datos**: No hay alineación ni carga del contenido de la "
+"libreta de direcciones."
 
 #: ../en/gdpr.md:14
 msgid ""

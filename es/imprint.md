@@ -13,16 +13,16 @@ layout: default-es
 
 Delta.Chat es un proyecto de la comunidad de código abierto. El responsable del contenido de estas páginas es:
 
-    Merlinux GmbH
-    Reichgrafen Str. 20
-    79102 Freiburg, Germany
+ Merlinux GmbH
+Reichgrafen calle 20
+79102 Freiburg, Alemania
 
-E-mail: {% include email-link %}
+Correo electrónico: {% include email-link %}
 
-Amtsgericht Freiburg: HRB709589  
-VAT: DE814082730  
-Managing Director: Holger Krekel
+Amtsgericht Freiburg: HRB709589
+VAT: DE814082730
+Director general: Holger Krekel
 
-[Community channels](contribute)
+[Canales de la comunidad](contribute)
 
 El servidor de listas de correo se opera a través de <https://github.com/codespeaknet/sysadmin>.

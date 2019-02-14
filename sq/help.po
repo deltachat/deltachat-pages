@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>, 2019\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
@@ -202,8 +202,8 @@ msgstr ""
 "- Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjen te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët)."
 
 #: ../en/help.md:72
-msgid "## Who to add members to a group?"
-msgstr "## Kush mund të shtojë anëtarë te një grup?"
+msgid "## How to add members to a group?"
+msgstr "## Si të shtohen anëtarë te një grup?"
 
 #: ../en/help.md:75
 msgid ""

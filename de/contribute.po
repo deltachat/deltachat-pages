@@ -3,15 +3,16 @@
 # björn petersen <r10s@b44t.com>, 2019
 # Moni P. <monitx@deltachat.de>, 2019
 # Sebastian Schmitt <schmitt.sebastian@mailbox.org>, 2019
+# Sven, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Sebastian Schmitt <schmitt.sebastian@mailbox.org>, 2019\n"
+"Last-Translator: Sven, 2019\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,17 +40,17 @@ msgstr "# Kanäle und Quellen"
 #: ../en/contribute.md:10
 msgid ""
 "- [Delta Chat support forum](https://support.delta.chat) for wider\n"
-"  feature discussions and getting support ."
+"  feature discussions and getting support."
 msgstr ""
-"- [Delta Chat Support Forum](https://support.delta.chat) für ausführlichere\n"
-"  Diskussionen über Features und um Hilfe zu erhalten ."
+"- [Delta Chat support forum](https://support.delta.chat) für eine breitere\n"
+"Diskussion über Features und um Unterstützung zu erhalten."
 
 #: ../en/contribute.md:12
 msgid ""
-"- [#deltachat on freenode]({%include webirc-url %}) for day to day "
+"- [#deltachat on freenode]({% include webirc-url %}) for day to day "
 "communications."
 msgstr ""
-"- [#deltachat auf freenode]({%include webirc-url %}) für die tägliche "
+"- [#deltachat on freenode]({% include webirc-url %}) für die tägliche "
 "Kommunikation."
 
 #: ../en/contribute.md:16
@@ -65,10 +66,8 @@ msgstr ""
 #: ../en/contribute.md:19
 msgid ""
 "- [Delta Chat repositories](https://github.com/deltachat/) where you can \n"
-"  can find the code for DeltaChat apps and this web site."
+"  find the code for DeltaChat apps and this web site."
 msgstr ""
-"- [Delta Chat Quellen](https://github.com/deltachat/) in denen Sie\n"
-"  den Code für Delta Chat Anwendungen und diese Website finden können."
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "

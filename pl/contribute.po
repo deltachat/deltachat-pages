@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Telegram Polska <sebek@life.pl>, 2019\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
@@ -36,17 +36,17 @@ msgstr "# Kanały i repozytoria"
 #: ../en/contribute.md:10
 msgid ""
 "- [Delta Chat support forum](https://support.delta.chat) for wider\n"
-"  feature discussions and getting support ."
+"  feature discussions and getting support."
 msgstr ""
 "- [Forum wsparcia Delta Chat](https://support.delta.chat) do\n"
 "  szerszych dyskusji na temat funkcji i uzyskania wsparcia."
 
 #: ../en/contribute.md:12
 msgid ""
-"- [#deltachat on freenode]({%include webirc-url %}) for day to day "
+"- [#deltachat on freenode]({% include webirc-url %}) for day to day "
 "communications."
 msgstr ""
-"- [#deltachat na freenode]({%include webirc-url %}) do codziennej "
+"- [#deltachat na freenode]({% include webirc-url %}) do codziennej "
 "komunikacji."
 
 #: ../en/contribute.md:16
@@ -61,10 +61,8 @@ msgstr ""
 #: ../en/contribute.md:19
 msgid ""
 "- [Delta Chat repositories](https://github.com/deltachat/) where you can \n"
-"  can find the code for DeltaChat apps and this web site."
+"  find the code for DeltaChat apps and this web site."
 msgstr ""
-"- [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można \n"
-"  znaleźć kod aplikacji Delta Chat i tej strony internetowej."
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "

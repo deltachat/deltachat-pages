@@ -11,17 +11,17 @@ layout: default-sq
 
 # Kanale dhe depo
 
-- [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support.
+- [Forum asistence për Delta Chat-in](https://support.delta.chat) për
+  diskutime më të gjera dhe për të marrë asistencë.
 
-- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
+- [#deltachat në freenode]({% include webirc-url %}) për komunikim të përditshëm.
 
 - [Listë postimesh Delta Chat]
   (https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   për diskutime dhe lajme nga bashkësia.
 
-- [Depo Delta Chat-i](https://github.com/deltachat/) ku mund të gjeni 
-  kodin për aplikacionet DeltaChat dhe këtë sajt.
+- [Delta Chat repositories](https://github.com/deltachat/) where you can 
+  find the code for DeltaChat apps and this web site.
 
 # Përkthime dhe Njoftime të Metash 
 

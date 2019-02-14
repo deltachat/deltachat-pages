@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Sven, 2019\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../en/help.md:15
 msgid "# General"
-msgstr "# Allgemein"
+msgstr "# Allgemein(#general)"
 
 #: ../en/help.md:17
 msgid "## To whom can I write?"
@@ -92,7 +92,7 @@ msgid ""
 "- fully _Open Source_ and _Standards_ based"
 msgstr ""
 "- _unabhängig_ von Firmen oder Diensten. _Sie_ besitzen Ihre eigenen Daten.\n"
-"- Ihre Daten werden nicht auf einem zentralen Server gespeichert; auf diesem Weg, im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat ebenfalls Metadaten (wer schreibt mit wem?) vor zentralen Beobachtern\n"
+"- Ihre Daten werden nicht auf einem zentralen Server gespeichert; im Gegensatz zu den meisten anderen Messengern, schützt Delta Chat daher ebenfalls Metadaten (wer schreibt mit wem?) vor zentralen Beobachtern.\n"
 "- Sie geben Ihr Adressbuch an niemanden weiter.\n"
 "- _Schnell_ durch die Verwendung von Push-IMAP.\n"
 "- _Größte Nutzerbasis_ - Empfänger _ohne_ Delta Chat können ebenfalls erreicht werden.\n"
@@ -181,7 +181,7 @@ msgstr "- Ja."
 
 #: ../en/help.md:64
 msgid "# Groups"
-msgstr "# Gruppen"
+msgstr "# Gruppen(#groups)"
 
 #: ../en/help.md:66
 msgid "## How can I create a group?"
@@ -198,8 +198,8 @@ msgstr ""
 "- Sobald Sie die **erste Nachricht** in die Gruppe schreiben, werden alle Mitglieder über die neue Gruppe informiert und können in der Gruppe antworten (solange Sie keine Nachricht in die Gruppe schreiben, ist die Gruppe für die Gruppenmitglieder nicht sichtbar)."
 
 #: ../en/help.md:72
-msgid "## Who to add members to a group?"
-msgstr "## Wer kann Mitglieder zu einer Gruppe hinzufügen?"
+msgid "## How to add members to a group?"
+msgstr "## Wie kann man Mitglieder zu einer Gruppe hinzufügen?"
 
 #: ../en/help.md:75
 msgid ""
@@ -330,7 +330,7 @@ msgid ""
 "message is end-to-end-encrypted _and_ is sent from the given sender _and_ "
 "your answer will be end-to-end-encrypted as well."
 msgstr ""
-"- Wenn ein kleines ** Vorhängeschloss ** neben einer Nachricht angezeigt wird,\n"
+"- Wenn ein kleines **Vorhängeschloss** neben einer Nachricht angezeigt wird,\n"
 "bedeutet dies, dass die Nachricht Ende-zu-Ende verschlüsselt ist\n"
 "_und_ vom angegebenen Absender gesendet wurde \n"
 "_und_ deine Antwort ebenfalls Ende-zu-Ende verschlüsselt wird."
@@ -439,8 +439,9 @@ msgid ""
 "If you want to use the **same account** on different (Autocrypt\n"
 "capable) devices, you have to synchronize their encryption capabilities: "
 msgstr ""
-"Wenn **dasselbe Konto** auf unterschiedlichen (Autocrypt-\n"
-"fähigen) Geräten verwenden werden soll, müssen die Verschlüsselungsfunktionen synchronisiert werden:"
+"Wenn **dasselbe Konto** auf unterschiedlichen (Autocrypt-fähigen) Geräten "
+"verwenden werden soll, müssen die Verschlüsselungsfunktionen synchronisiert "
+"werden:"
 
 #: ../en/help.md:167
 msgid ""
@@ -468,7 +469,7 @@ msgstr ""
 
 #: ../en/help.md:175
 msgid "# Miscellaneous"
-msgstr "# Verschiedenes"
+msgstr "# Verschiedenes(#miscellaneous)"
 
 #: ../en/help.md:177
 msgid "## Does Delta Chat work with _my_ e-mail-provider?"
