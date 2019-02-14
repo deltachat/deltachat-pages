@@ -14,7 +14,7 @@ layout: default-es
 - **Confidencialidad**: Encriptado extremo-a-extremo por defecto, implementando [Autocrypt
 Nivel 1](https://autocrypt.org).
 
-- **Data minimization**: No alignment or uploading of the address-book content.
+- **Minimización de datos**: No hay alineación ni carga del contenido de la libreta de direcciones.
 
 - **Evitación de datos**: No hay servidor Delta Chat, no hay procesamiento de datos personales.
 

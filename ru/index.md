@@ -23,7 +23,7 @@ system ever: the existing e-mail server network.
 All you need is a standard e-mail account.
 
 
-# Screenshots Android, Desktop and iOS 
+# Скриншоты Android, ПК и iOS 
 
 <img src="../assets/blog/2019-01-chatlist.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
@@ -34,6 +34,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-Please check our [January 2019 release blog post](../en/2019-01-27-releases) 
-for information on current releases. 
+Посмотрите [Выпуск блога от января 2019](../en/2019-01-27-releases) 
+для информации о текущих релизах. 
 

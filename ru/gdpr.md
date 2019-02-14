@@ -1,5 +1,5 @@
 ---
-title: GDPR
+title: GDPR и Приватность
 layout: default-ru
 ---
 

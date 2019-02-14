@@ -9,25 +9,24 @@ layout: default-es
 
 
 
-# Channels and repositories
+# Canales y repositorios
 
-- [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support.
+- [Foro de soporte de Delta Chat](https://support.delta.chat) para discusiones más amplias sobre las funcionalidades y para obtener ayuda.
 
-- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
+- [#deltachat en freenode]({% include webirc-url %}) para las comunicaciones del día a día.
 
 - [Lista de correo de Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) para discusiones en la comunidad y noticias.
 
 - [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  can find the code for DeltaChat apps and this web site.
+  find the code for DeltaChat apps and this web site.
 
 # Traducciones e informes de errores
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)
+- [Traducciones en Transifex](https://www.transifex.com/delta-chat/public/)
+- [Problemas de Delta Chat en Android](https://github.com/deltachat/deltachat-android/issues)
+- [Problemas de Delta Chat en el escritorio](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problemas de Delta Chat en iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Problemas de Delta Chat Core y Python](https://github.com/deltachat/deltachat-core/issues)
 
 Siempre estamos buscando desarrolladores que quieran ayudar y que estén familiarizados con
 C, Rust, Java, Swift, Javascript o Python en Android, iOS, Windows, Linux o Mac.

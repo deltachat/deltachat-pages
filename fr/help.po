@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Eric Lavarde <ewl+transifex@lavar.de>, 2018\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
@@ -184,7 +184,7 @@ msgid ""
 msgstr ""
 
 #: ../en/help.md:72
-msgid "## Who to add members to a group?"
+msgid "## How to add members to a group?"
 msgstr ""
 
 #: ../en/help.md:75

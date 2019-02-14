@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>, 2019\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
@@ -37,17 +37,17 @@ msgstr "# Kanale dhe depo"
 #: ../en/contribute.md:10
 msgid ""
 "- [Delta Chat support forum](https://support.delta.chat) for wider\n"
-"  feature discussions and getting support ."
+"  feature discussions and getting support."
 msgstr ""
-"- [Forumi i asistencës për Delta Chat](https://support.delta.chat) për\n"
-"  diskutime më të gjera mbi veçori dhe për të marrë asistencë."
+"- [Forum asistence për Delta Chat-in](https://support.delta.chat) për\n"
+"  diskutime më të gjera dhe për të marrë asistencë."
 
 #: ../en/contribute.md:12
 msgid ""
-"- [#deltachat on freenode]({%include webirc-url %}) for day to day "
+"- [#deltachat on freenode]({% include webirc-url %}) for day to day "
 "communications."
 msgstr ""
-"- [#deltachat në freenode]({%include webirc-url %}) për komunikim të "
+"- [#deltachat në freenode]({% include webirc-url %}) për komunikim të "
 "përditshëm."
 
 #: ../en/contribute.md:16
@@ -63,10 +63,8 @@ msgstr ""
 #: ../en/contribute.md:19
 msgid ""
 "- [Delta Chat repositories](https://github.com/deltachat/) where you can \n"
-"  can find the code for DeltaChat apps and this web site."
+"  find the code for DeltaChat apps and this web site."
 msgstr ""
-"- [Depo Delta Chat-i](https://github.com/deltachat/) ku mund të gjeni \n"
-"  kodin për aplikacionet DeltaChat dhe këtë sajt."
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "

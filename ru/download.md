@@ -9,56 +9,58 @@ layout: default-ru
 
 
 
-# Delta/Android Downloads (Beta)
+# Delta/Android Загрузки (Бета)
 
-<img src="../assets/home/get-it-on-gplay.png" alt="Get it on Google Play" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
+[<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/apps/testing/chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android is the most feature-rich and stable DeltaChat app. 
+Delta/Android приложение DeltaChat с большей функциональностью и стабильно. 
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
+* [Download from Google Play Beta Channel](https://play.google.com/apps/testing/chat.delta)
+  (currenty, you have to use this link; the app is not yet listed in the main store)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
 * [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
 
 
-# Delta/Desktop Downloads (Beta)
+# Delta/Desktop Загрузки (Бета)
 
-Delta/Desktop is well usable and can be operated standalone or in conjunction with Android or iOS. 
+Delta/Desktop хорошо для использовать на персональном компьютере или в связке с Android и iOS. 
 
-* [download for Linux or Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [загрузка для Linux или Mac из нашей страницы выпусков на github](https://github.com/deltachat/deltachat-desktop/releases/).  
 
-* [Windows support pending, help needed!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [Поддержка Windows ожидается, нужна помощь!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 
-* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
+* [ЧАВО мультиклиентские](help#multiclient) страница как синхронизировать версию ПК с мобильными клиентами Delta. 
 
-* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
-  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
+* [Просмотр изменения в log](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+  [оказать помощь в репозитарии для версии ПК](https://github.com/deltachat/deltachat-desktop/). 
 
 
-# Delta/iOS on TestFlight (Beta)
+# Delta/iOS Тестовый Полёт (Бета)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-Delta/iOS supports basic functionality but not all features offered by Android or Desktop. 
-Betas are distributed via Testflight. 
+Delta/iOS поддерживает базовые функции, но не все, что предоставлены в версиях для  для Android or Desktop. 
+Беты предоставлены через Тестовый Полёт . 
 
-- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for your iPhone or iPad.
+- [страница, приглашение для тестовых полётов](https://testflight.apple.com/join/WVoYFOZe) для вашего iPhone или iPad.
 
-- [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
+- [помощь в разработке iOS](https://github.com/deltachat/deltachat-ios/). 
 
-- Scan this QR code with the camera app of your iPhone/iPad
+- Сканируйте этот QR код с помощью камеры вашего iPhone/iPad
 
-  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)
+  ![QRКод](../assets/home/deltachat_testflight_qrcode.png)
 
 
 # Данные для проверки целостности загруженных файлов
 
-При использовании ОС Android, проверить подлинность возможно сравнив отпечатки  SHA256 сертификата установочного файла (.apk) со следующими контрольными суммами:
+Для Android, проверить подлинность возможно сравнив отпечатки  SHA256 сертификата установочного файла .apk со следующими контрольными суммами:
 
-* For F-Droid downloads:  
+* Для загрузок с F-Droid:  
   `{% include fingerprint-f-droid %}`
 
-* Other APK downloads:  
+* Другие загрузки .apk:  
   `{% include fingerprint-local %}`
 
 Посмотреть отпечаток сертификата  SHA256, которым подписан установочный файл APK, возможно, например, при помощи команды 

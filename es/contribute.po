@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
@@ -31,19 +31,23 @@ msgstr ""
 
 #: ../en/contribute.md:7
 msgid "# Channels and repositories"
-msgstr ""
+msgstr "# Canales y repositorios"
 
 #: ../en/contribute.md:10
 msgid ""
 "- [Delta Chat support forum](https://support.delta.chat) for wider\n"
-"  feature discussions and getting support ."
+"  feature discussions and getting support."
 msgstr ""
+"- [Foro de soporte de Delta Chat](https://support.delta.chat) para "
+"discusiones más amplias sobre las funcionalidades y para obtener ayuda."
 
 #: ../en/contribute.md:12
 msgid ""
-"- [#deltachat on freenode]({%include webirc-url %}) for day to day "
+"- [#deltachat on freenode]({% include webirc-url %}) for day to day "
 "communications."
 msgstr ""
+"- [#deltachat en freenode]({% include webirc-url %}) para las comunicaciones"
+" del día a día."
 
 #: ../en/contribute.md:16
 msgid ""
@@ -58,7 +62,7 @@ msgstr ""
 #: ../en/contribute.md:19
 msgid ""
 "- [Delta Chat repositories](https://github.com/deltachat/) where you can \n"
-"  can find the code for DeltaChat apps and this web site."
+"  find the code for DeltaChat apps and this web site."
 msgstr ""
 
 #: ../en/contribute.md:21
@@ -73,6 +77,11 @@ msgid ""
 "- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)\n"
 "- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)"
 msgstr ""
+"- [Traducciones en Transifex](https://www.transifex.com/delta-chat/public/)\n"
+"- [Problemas de Delta Chat en Android](https://github.com/deltachat/deltachat-android/issues)\n"
+"- [Problemas de Delta Chat en el escritorio](https://github.com/deltachat/deltachat-desktop/issues)\n"
+"- [Problemas de Delta Chat en iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
+"- [Problemas de Delta Chat Core y Python](https://github.com/deltachat/deltachat-core/issues)"
 
 #: ../en/contribute.md:30
 msgid ""
