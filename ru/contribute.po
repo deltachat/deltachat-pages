@@ -1,16 +1,15 @@
 # Translators:
-# Andrei Guliaikin <lycoris@ya.ru>, 2018
-# Artem Roshko, 2018
 # Moon Princess <painca@tutanota.com>, 2019
+# Andrei Guliaikin <lycoris@ya.ru>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Moon Princess <painca@tutanota.com>, 2019\n"
+"Last-Translator: Andrei Guliaikin <lycoris@ya.ru>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,16 +37,18 @@ msgstr "# Каналы и репозитории"
 #: ../en/contribute.md:10
 msgid ""
 "- [Delta Chat support forum](https://support.delta.chat) for wider\n"
-"  feature discussions and getting support ."
+"  feature discussions and getting support."
 msgstr ""
-"- [Delta Chat форум поддержки](https://support.delta.chat) для\n"
-"Обсуждение возможностей и получение поддержки."
+"- [Delta Chat форум поддержки](https://support.delta.chat) больше\n"
+"  дискуссии для новых возможностей и получения тех. поддержки."
 
 #: ../en/contribute.md:12
 msgid ""
-"- [#deltachat on freenode]({%include webirc-url %}) for day to day "
+"- [#deltachat on freenode]({% include webirc-url %}) for day to day "
 "communications."
 msgstr ""
+"- [#deltachat on freenode]({% include webirc-url %}) для ежедневного "
+"обсуждения."
 
 #: ../en/contribute.md:16
 msgid ""
@@ -55,18 +56,19 @@ msgid ""
 "  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) \n"
 "  for community discussions and news."
 msgstr ""
+"- [Delta Chat список\n"
+"  рассылок](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) \n"
+"  для обсуждения сообществом и новостей ."
 
 #: ../en/contribute.md:19
 msgid ""
 "- [Delta Chat repositories](https://github.com/deltachat/) where you can \n"
-"  can find the code for DeltaChat apps and this web site."
+"  find the code for DeltaChat apps and this web site."
 msgstr ""
-"- [Delta Chat репозитории](https://github.com/deltachat/) где вы можете \n"
-"найти код для DeltaChat приложений и для данного веб сайта."
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "
-msgstr "# Переводы и Баг Репорты"
+msgstr "# Переводы и Рапорты об ошибках"
 
 #: ../en/contribute.md:27
 msgid ""
@@ -80,7 +82,7 @@ msgstr ""
 "- [Вопросы по Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)\n"
 "- [Вопросы по Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)\n"
 "- [Вопросы по Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
-"- [Основная библиотека + Python вопросы](https://github.com/deltachat/deltachat-core/issues)"
+"- [Вопросы по Core Library + Python](https://github.com/deltachat/deltachat-core/issues)"
 
 #: ../en/contribute.md:30
 msgid ""
@@ -92,7 +94,7 @@ msgstr ""
 
 #: ../en/contribute.md:33
 msgid "# Donate Money or devices"
-msgstr "# Помочь деньгами или устройствами"
+msgstr "# Пожертвовать деньги или устройства"
 
 #: ../en/contribute.md:35
 msgid "If you want to support DeltaChat with money:"
@@ -104,7 +106,7 @@ msgid ""
 "- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
 "- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
 msgstr ""
-"- IBAN (международный номер банковского счета) DE86100777770428658900, Аккаунт владельца (пожалуйста, указывайте всегда): Björn Petersen, BIC NORSDE51XXX\n"
+"- IBAN DE86100777770428658900, Аккаунт владельца (пожалуйста, указывайте всегда): Björn Petersen, BIC NORSDE51XXX\n"
 "- PayPal или банковская карта: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
 "- Bitcoin-кошелек [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
 

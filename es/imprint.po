@@ -1,15 +1,15 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
-# Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2018
+# Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 16:51+0200\n"
+"POT-Creation-Date: 2019-02-14 14:49+0200\n"
 "PO-Revision-Date: 2018-03-23 12:40+0000\n"
-"Last-Translator: Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2018\n"
+"Last-Translator: Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,10 +48,13 @@ msgid ""
 "    Reichgrafen Str. 20\n"
 "    79102 Freiburg, Germany"
 msgstr ""
+" Merlinux GmbH\n"
+"Reichgrafen calle 20\n"
+"79102 Freiburg, Alemania"
 
 #: ../en/imprint.md:15
 msgid "E-mail: {% include email-link %}"
-msgstr ""
+msgstr "Correo electrónico: {% include email-link %}"
 
 #: ../en/imprint.md:19
 msgid ""
@@ -59,10 +62,13 @@ msgid ""
 "VAT: DE814082730  \n"
 "Managing Director: Holger Krekel"
 msgstr ""
+"Amtsgericht Freiburg: HRB709589\n"
+"VAT: DE814082730\n"
+"Director general: Holger Krekel"
 
 #: ../en/imprint.md:21
 msgid "[Community channels](contribute)"
-msgstr ""
+msgstr "[Canales de la comunidad](contribute)"
 
 #: ../en/imprint.md:22
 msgid ""
