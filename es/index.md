@@ -9,14 +9,15 @@ layout: default-es
 
 
 
-# ¡Chatee por correo electrónico y regrese al futuro con nosotros!
+# ¡Chatea por correo electrónico y regresa al futuro con nosotros!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
 **Delta Chat es como Telegram o Whatsapp pero sin el rastreo o el control central.**
-Echa un vistazo a nuestra [declaración de cumplimiento con GDPR] (gdpr).
+Echa un vistazo a nuestra [declaración de cumplimiento con GDPR](gdpr).
 
-**DeltaChat no tiene servidores propios** sino que utiliza el sistema de mensajería libre más masivo y diverso que existe: la red de servidores de correo electrónico existente.
+**Delta Chat has no own servers** but uses the most massive and diverse open messaging 
+system ever: the existing e-mail server network.
 
 **Chatea con quien quieras si conoces su dirección de correo electrónico, ¡no es necesario que instalen DeltaChat!**
 Todo lo que necesitas es una cuenta de correo electrónico.

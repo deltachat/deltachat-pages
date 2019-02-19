@@ -20,8 +20,8 @@ layout: default-sq
   (https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   për diskutime dhe lajme nga bashkësia.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  find the code for DeltaChat apps and this web site.
+- [Depo Delta Chat](https://github.com/deltachat/) ku mund të gjeni 
+ kodin për aplikacionet DeltaChat dhe këtë sajt.
 
 # Përkthime dhe Njoftime të Metash 
 

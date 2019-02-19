@@ -11,17 +11,17 @@ layout: default-it
 
 # Canali e repository
 
-- [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support.
+- [Forum di supporto di Delta Chat](https://support.delta.chat) per un'ampia
+ discussione sulle funzionalità e per ottenere supporto.
 
-- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
+- [#deltachat su freenode]({% include webirc-url %}) per le comunicazioni giornaliere.
 
 - [Delta Chat mailing
   list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   per le discussioni della comunità e le notizie.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  find the code for DeltaChat apps and this web site.
+- [repository di Delta Chat](https://github.com/deltachat/) dove puoi trovare 
+ il codice delle app DeltaChat e di questo sito web.
 
 # Traduzioni e segnalazioni di bug
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 14:49+0200\n"
+"POT-Creation-Date: 2019-02-16 15:37+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
 "Last-Translator: Enrico B. <enricobe@hotmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
@@ -52,11 +52,11 @@ msgstr ""
 
 #: ../en/index.md:15
 msgid ""
-"**DeltaChat has no own servers** but uses the most massive and diverse open messaging \n"
+"**Delta Chat has no own servers** but uses the most massive and diverse open messaging \n"
 "system ever: the existing e-mail server network."
 msgstr ""
-"**DeltaChat non ha server propri**, ma usa il sistema di messaggistica più grande e diversificato \n"
-"al mondo: la rete di server e-mail esistente."
+"**DeltaChat non ha server propri**, ma usa il sistema di messaggistica più grande e \n"
+"diversificato al mondo: la rete di server e-mail esistente."
 
 #: ../en/index.md:18
 msgid ""
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "
-msgstr "# Screenshot Android, Desktop and iOS "
+msgstr "# Screenshot Android, Desktop e iOS "
 
 #: ../en/index.md:26
 msgid ""

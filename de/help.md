@@ -17,7 +17,7 @@ layout: default-de
 - [Multi-client](#multiclient)
 - [Verschiedenes](#miscellaneous)
 
-# Allgemein(#general)
+# Allgemein {#general}
 
 ## An wen kann ich schreiben?
 
@@ -66,7 +66,7 @@ Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpu
 
 - Ja.
 
-# Gruppen(#groups)
+# Gruppen {#groups}
 
 ## Wie kann ich eine neue Gruppe erstellen?
 
@@ -174,7 +174,7 @@ Nach dem Anklicken erscheint dann eine Abfrage des Setup Codes.
 - Die Synchronisation ist nun erfolgreich abgeschlossen und du kannst mit beiden Geräten
 E2E-verschlüsselte Nachrichten an deine Kommunikationspartner senden und von ihnen empfangen.
 
-# Verschiedenes(#miscellaneous)
+# Verschiedenes {#miscellaneous}
 
 ## Funktioniert Delta Chat mit _meinem_ E-Mail-Anbieter?
 

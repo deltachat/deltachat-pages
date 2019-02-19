@@ -16,7 +16,7 @@ layout: default-pt
 **Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
 Check out our [GDPR compliancy statement](gdpr).
 
-**DeltaChat has no own servers** but uses the most massive and diverse open messaging 
+**Delta Chat has no own servers** but uses the most massive and diverse open messaging 
 system ever: the existing e-mail server network.
 
 **Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 

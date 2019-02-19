@@ -16,8 +16,8 @@ layout: default-sq
 **Delta Chat-i është si puna e Telegram-it ose Whatsapp-it, por pa gjurmim apo kontroll qendror.**
 Shihni [deklaratën tonë për përputhshmëri me GDPR-në](gdpr).
 
-**DeltaChat-i nuk ka shërbyes të vetët**, por përdor sistemin më masiv dhe më të larmishëm 
-të hapët për shkëmbime mesazhesh: rrjetin ekzistues të shërbyesve për email.
+**Delta Chat s’ka shërbyes të vetët**, por përdor për mesazhet sistemin e hapur më masiv dhe
+më të larmishëm ndonjëherë: rrjetin ekzistues të shërbyesve të email-eve.
 
 **Bisedoni me këdo, nëse dini adresën e tyre email, s’ka nevojë që të instalojnë DeltaChat-in!** 
 Krejt çka ju duhet është një llogari standarde email-i.
