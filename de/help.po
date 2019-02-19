@@ -1,4 +1,5 @@
 # Translators:
+# Ampli_fier, 2018
 # björn petersen <r10s@b44t.com>, 2018
 # Ettore Atalan <atalanttore@googlemail.com>, 2018
 # W R, 2019
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 14:49+0200\n"
+"POT-Creation-Date: 2019-02-16 15:37+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Sven, 2019\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
@@ -54,7 +55,7 @@ msgstr ""
 
 #: ../en/help.md:15
 msgid "# General"
-msgstr "# Allgemein(#general)"
+msgstr "# Allgemein {#general}"
 
 #: ../en/help.md:17
 msgid "## To whom can I write?"
@@ -181,7 +182,7 @@ msgstr "- Ja."
 
 #: ../en/help.md:64
 msgid "# Groups"
-msgstr "# Gruppen(#groups)"
+msgstr "# Gruppen {#groups}"
 
 #: ../en/help.md:66
 msgid "## How can I create a group?"
@@ -469,7 +470,7 @@ msgstr ""
 
 #: ../en/help.md:175
 msgid "# Miscellaneous"
-msgstr "# Verschiedenes(#miscellaneous)"
+msgstr "# Verschiedenes {#miscellaneous}"
 
 #: ../en/help.md:177
 msgid "## Does Delta Chat work with _my_ e-mail-provider?"

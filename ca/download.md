@@ -11,14 +11,13 @@ layout: default-ca
 
 # Delta/Android Downloads (Beta)
 
-[<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/apps/testing/chat.delta)
+[<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
 Delta/Android is the most feature-rich and stable DeltaChat app. 
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
-* [Download from Google Play Beta Channel](https://play.google.com/apps/testing/chat.delta)
-  (currenty, you have to use this link; the app is not yet listed in the main store)
+* [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
 * [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
 

@@ -2,15 +2,16 @@
 # björn petersen <r10s@b44t.com>, 2018
 # Alex <kekcuha@gmail.com>, 2018
 # Andrei Guliaikin <lycoris@ya.ru>, 2018
+# Iskatel Istiny <iskatel1@gmx.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 14:49+0200\n"
+"POT-Creation-Date: 2019-02-16 15:37+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Andrei Guliaikin <lycoris@ya.ru>, 2018\n"
+"Last-Translator: Iskatel Istiny <iskatel1@gmx.com>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -339,7 +340,7 @@ msgstr ""
 
 #: ../en/help.md:151
 msgid "## Can I re-use my existing private key?"
-msgstr ""
+msgstr "## Можно ли повторно использовать существующий закрытый ключ?"
 
 #: ../en/help.md:153
 msgid ""

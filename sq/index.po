@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 14:49+0200\n"
+"POT-Creation-Date: 2019-02-16 15:37+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>, 2019\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
@@ -52,11 +52,11 @@ msgstr ""
 
 #: ../en/index.md:15
 msgid ""
-"**DeltaChat has no own servers** but uses the most massive and diverse open messaging \n"
+"**Delta Chat has no own servers** but uses the most massive and diverse open messaging \n"
 "system ever: the existing e-mail server network."
 msgstr ""
-"**DeltaChat-i nuk ka shërbyes të vetët**, por përdor sistemin më masiv dhe më të larmishëm \n"
-"të hapët për shkëmbime mesazhesh: rrjetin ekzistues të shërbyesve për email."
+"**Delta Chat s’ka shërbyes të vetët**, por përdor për mesazhet sistemin e hapur më masiv dhe\n"
+"më të larmishëm ndonjëherë: rrjetin ekzistues të shërbyesve të email-eve."
 
 #: ../en/index.md:18
 msgid ""

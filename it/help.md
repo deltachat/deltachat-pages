@@ -74,7 +74,7 @@ Gli altri messaggi non compaiono in maniera automatica, ma sarà possibile veder
 - Nella schermata successiva, scegli i **membri del gruppo** e seleziona la spunta in alto a destra. Poi potrai definire il **nome del gruppo**.
 - Appena invii il **primo messaggio** nel gruppo, tutto i membri verranno informati della creazione del gruppo e potranno rispondere (finchè non invii il primo messaggio il gruppo resta invisibile ai membri).
 
-## How to add members to a group?
+## Come aggiungo membri ad un gruppo?
 
 - Ogni componente del gruppo ha gli **stessi diritti** di ogni altro. Per questo motivo chiunque può rimuovere chiunque o aggiungere nuovi componenti.
 - Per aggiungere o rimuovere i membri, fai clic sul nome del gruppo nella conversazione.
