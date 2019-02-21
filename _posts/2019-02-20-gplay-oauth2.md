@@ -30,6 +30,7 @@ Already done - and the largest visible change in the onboarding process
 is the new **support of OAuth2**.
 
 OAuth2 is currently supported for gmail.com and googlemail.com addresses
+(yandex is coming soon)
 and frees the user from entering a password in Delta Chat - 
 also there is no longer the need to enable "Less secure apps" somewhere
 deep in the google settings.
