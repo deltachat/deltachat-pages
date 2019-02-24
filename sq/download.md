@@ -26,9 +26,9 @@ Delta/Android është aplikacioni DeltaChat më i pasur në veçori dhe më i q�
 
 Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i lidhur me Android-in ose iOS-in. 
 
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [shkarkojeni për Linux, nga flathub](https://flathub.org/apps/details/chat.delta.desktop)
 
-* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [shkarkojeni për Mac, që nga faqja jonë Github e hedhjeve në qarkullim](https://github.com/deltachat/deltachat-desktop/releases/).  
 
 * [Mbulimi për Windows ka mbetur pezull, na duhet ndihmë!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 

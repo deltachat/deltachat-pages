@@ -26,9 +26,9 @@ Delta/Android to najbardziej funkcjonalna i stabilna aplikacja DeltaChat.
 
 Delta/Desktop jest wystarczająco funkcjonalny i może być używany samodzielnie lub w połączeniu z systemem Android lub iOS. 
 
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [Pobierz dla Linuxa z flathub](https://flathub.org/apps/details/chat.delta.desktop)
 
-* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [Pobierz dla Mac z naszej strony GitHub](https://github.com/deltachat/deltachat-desktop/releases/).  
 
 * [Obsługa systemu Windows w toku, potrzebna pomoc!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 

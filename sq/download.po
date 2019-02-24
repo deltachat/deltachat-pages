@@ -77,12 +77,16 @@ msgid ""
 "* [download for Linux from "
 "flathub](https://flathub.org/apps/details/chat.delta.desktop)"
 msgstr ""
+"* [shkarkojeni për Linux, nga "
+"flathub](https://flathub.org/apps/details/chat.delta.desktop)"
 
 #: ../en/download.md:26
 msgid ""
 "* [download for Mac from our github release "
 "page](https://github.com/deltachat/deltachat-desktop/releases/).  "
 msgstr ""
+"* [shkarkojeni për Mac, që nga faqja jonë Github e hedhjeve në "
+"qarkullim](https://github.com/deltachat/deltachat-desktop/releases/).  "
 
 #: ../en/download.md:28
 msgid ""
