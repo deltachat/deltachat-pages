@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 15:37+0200\n"
+"POT-Creation-Date: 2019-02-24 12:01+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Andrei Guliaikin <lycoris@ya.ru>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
@@ -37,7 +37,7 @@ msgstr "# Delta/Android Загрузки (Бета)"
 
 #: ../en/download.md:10
 msgid ""
-"[<img style=\"float:right\" src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/apps/testing/chat.delta)\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/store/apps/details?id=chat.delta)\n"
 "[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 msgstr ""
 
@@ -46,20 +46,19 @@ msgid "Delta/Android is the most feature-rich and stable DeltaChat app. "
 msgstr ""
 "Delta/Android приложение DeltaChat с большей функциональностью и стабильно. "
 
-#: ../en/download.md:18
+#: ../en/download.md:17
 msgid ""
 "* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
-"* [Download from Google Play Beta Channel](https://play.google.com/apps/testing/chat.delta)\n"
-"  (currenty, you have to use this link; the app is not yet listed in the main store)\n"
+"* [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)\n"
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
 "* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). "
 msgstr ""
 
-#: ../en/download.md:21
+#: ../en/download.md:20
 msgid "# Delta/Desktop Downloads (Beta)"
 msgstr "# Delta/Desktop Загрузки (Бета)"
 
-#: ../en/download.md:23
+#: ../en/download.md:22
 msgid ""
 "Delta/Desktop is well usable and can be operated standalone or in "
 "conjunction with Android or iOS. "
@@ -67,15 +66,19 @@ msgstr ""
 "Delta/Desktop хорошо для использовать на персональном компьютере или в "
 "связке с Android и iOS. "
 
-#: ../en/download.md:25
+#: ../en/download.md:24
 msgid ""
-"* [download for Linux or Mac from our github release "
+"* [download for Linux from "
+"flathub](https://flathub.org/apps/details/chat.delta.desktop)"
+msgstr ""
+
+#: ../en/download.md:26
+msgid ""
+"* [download for Mac from our github release "
 "page](https://github.com/deltachat/deltachat-desktop/releases/).  "
 msgstr ""
-"* [загрузка для Linux или Mac из нашей страницы выпусков на "
-"github](https://github.com/deltachat/deltachat-desktop/releases/).  "
 
-#: ../en/download.md:27
+#: ../en/download.md:28
 msgid ""
 "* [Windows support pending, help needed!](https://github.com/deltachat"
 "/deltachat-desktop/issues/606) "
@@ -83,7 +86,7 @@ msgstr ""
 "* [Поддержка Windows ожидается, нужна помощь!](https://github.com/deltachat"
 "/deltachat-desktop/issues/606) "
 
-#: ../en/download.md:29
+#: ../en/download.md:30
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop "
 "with another Delta app. "
@@ -91,7 +94,7 @@ msgstr ""
 "* [ЧАВО мультиклиентские](help#multiclient) страница как синхронизировать "
 "версию ПК с мобильными клиентами Delta. "
 
-#: ../en/download.md:32
+#: ../en/download.md:33
 msgid ""
 "* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),\n"
 "  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). "
@@ -99,11 +102,11 @@ msgstr ""
 "* [Просмотр изменения в log](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),\n"
 "  [оказать помощь в репозитарии для версии ПК](https://github.com/deltachat/deltachat-desktop/). "
 
-#: ../en/download.md:35
+#: ../en/download.md:36
 msgid "# Delta/iOS on TestFlight (Beta)"
 msgstr "# Delta/iOS Тестовый Полёт (Бета)"
 
-#: ../en/download.md:37
+#: ../en/download.md:38
 msgid ""
 "<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
@@ -113,7 +116,7 @@ msgstr ""
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
 "grayscale(100%);\" />"
 
-#: ../en/download.md:40
+#: ../en/download.md:41
 msgid ""
 "Delta/iOS supports basic functionality but not all features offered by Android or Desktop. \n"
 "Betas are distributed via Testflight. "
@@ -121,7 +124,7 @@ msgstr ""
 "Delta/iOS поддерживает базовые функции, но не все, что предоставлены в версиях для  для Android or Desktop. \n"
 "Беты предоставлены через Тестовый Полёт . "
 
-#: ../en/download.md:42
+#: ../en/download.md:43
 msgid ""
 "- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for "
 "your iPhone or iPad."
@@ -130,26 +133,26 @@ msgstr ""
 "полётов](https://testflight.apple.com/join/WVoYFOZe) для вашего iPhone или "
 "iPad."
 
-#: ../en/download.md:44
+#: ../en/download.md:45
 msgid ""
 "- [contribute to iOS development](https://github.com/deltachat/deltachat-"
 "ios/). "
 msgstr ""
 "- [помощь в разработке iOS](https://github.com/deltachat/deltachat-ios/). "
 
-#: ../en/download.md:46
+#: ../en/download.md:47
 msgid "- Scan this QR code with the camera app of your iPhone/iPad"
 msgstr "- Сканируйте этот QR код с помощью камеры вашего iPhone/iPad"
 
-#: ../en/download.md:48
+#: ../en/download.md:49
 msgid "  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)"
 msgstr "  ![QRКод](../assets/home/deltachat_testflight_qrcode.png)"
 
-#: ../en/download.md:51
+#: ../en/download.md:52
 msgid "# Verify Downloads"
 msgstr "# Данные для проверки целостности загруженных файлов"
 
-#: ../en/download.md:53
+#: ../en/download.md:54
 msgid ""
 "For Android, you can verify the signing certificate on the APK matches one "
 "of the following SHA256 fingerprints:  "
@@ -157,7 +160,7 @@ msgstr ""
 "Для Android, проверить подлинность возможно сравнив отпечатки  SHA256 "
 "сертификата установочного файла .apk со следующими контрольными суммами:"
 
-#: ../en/download.md:56
+#: ../en/download.md:57
 msgid ""
 "* For F-Droid downloads:  \n"
 "  `{% include fingerprint-f-droid %}`"
@@ -165,7 +168,7 @@ msgstr ""
 "* Для загрузок с F-Droid:  \n"
 "  `{% include fingerprint-f-droid %}`"
 
-#: ../en/download.md:59
+#: ../en/download.md:60
 msgid ""
 "* Other APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
@@ -173,7 +176,7 @@ msgstr ""
 "* Другие загрузки .apk:  \n"
 "  `{% include fingerprint-local %}`"
 
-#: ../en/download.md:62
+#: ../en/download.md:63
 msgid ""
 "To print the SHA256 fingerprints of the APK signing certificate you can use eg.  \n"
 "`keytool -list -printcert -jarfile <APK-file>`"

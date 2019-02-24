@@ -17,8 +17,7 @@ layout: default-es
 
 - [Lista de correo de Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) para discusiones en la comunidad y noticias.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  find the code for DeltaChat apps and this web site.
+- [Repositorios de Delta Chat](https://github.com/deltachat/) donde puedes encontrar el código de las distintas aplicaciones de DeltaChat y de este sitio web.
 
 # Traducciones e informes de errores
 
