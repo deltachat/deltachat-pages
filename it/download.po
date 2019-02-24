@@ -39,6 +39,8 @@ msgid ""
 "[<img style=\"float:right\" src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/store/apps/details?id=chat.delta)\n"
 "[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 msgstr ""
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/store/apps/details?id=chat.delta)\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 
 #: ../en/download.md:12
 msgid "Delta/Android is the most feature-rich and stable DeltaChat app. "
@@ -51,6 +53,10 @@ msgid ""
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
 "* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). "
 msgstr ""
+"* [Scarica da F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
+"* [Scarica da Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)\n"
+"* [Scarica APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
+"* [Vedi Changelog]({% include changelog-url %}), [contribuisci al repository Android](https://github.com/deltachat/deltachat-android/). "
 
 #: ../en/download.md:20
 msgid "# Delta/Desktop Downloads (Beta)"
@@ -68,12 +74,16 @@ msgid ""
 "* [download for Linux from "
 "flathub](https://flathub.org/apps/details/chat.delta.desktop)"
 msgstr ""
+"* [scairca per Linux da "
+"flathub](https://flathub.org/apps/details/chat.delta.desktop)"
 
 #: ../en/download.md:26
 msgid ""
 "* [download for Mac from our github release "
 "page](https://github.com/deltachat/deltachat-desktop/releases/).  "
 msgstr ""
+"* [scarica per Mac dalla nostra pagina di rilascio su "
+"github](https://github.com/deltachat/deltachat-desktop/releases/).  "
 
 #: ../en/download.md:28
 msgid ""

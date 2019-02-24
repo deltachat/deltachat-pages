@@ -16,19 +16,19 @@ layout: default-it
 
 Delta/Android è la più completa e stabile app di DeltaChat. 
 
-* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
-* [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
-* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
+* [Scarica da F-Droid](https://f-droid.org/app/com.b44t.messenger)
+* [Scarica da Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
+* [Scarica APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
+* [Vedi Changelog]({% include changelog-url %}), [contribuisci al repository Android](https://github.com/deltachat/deltachat-android/). 
 
 
 # Scarica Delta/Desktop (Beta)
 
 Delta/Desktop è usabile sia standalone che in abbinamento ad Android o iOS. 
 
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [scairca per Linux da flathub](https://flathub.org/apps/details/chat.delta.desktop)
 
-* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [scarica per Mac dalla nostra pagina di rilascio su github](https://github.com/deltachat/deltachat-desktop/releases/).  
 
 * [Supporto a Windows in sospeso, ci serve aiuto!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 
