@@ -16,8 +16,7 @@ Diskussion über Features und um Unterstützung zu erhalten.
 
 - [#deltachat auf freenode]({% include webirc-url %}) IRC für die tägliche Kommunikation.
 
-- [Delta Chat Mailingliste
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+- [Delta Chat Mailingliste](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   für Community Diskussionen und Neuigkeiten.
 
 - [Delta Chat Quellen](https://github.com/deltachat/) in denen du

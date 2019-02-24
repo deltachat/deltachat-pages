@@ -11,22 +11,24 @@ layout: default-sq
 
 # Shkarkime të Delta/Android (Beta)
 
-[<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
-[<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
+[<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Testim versioni beta në Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
+[<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Merreni nga F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
 Delta/Android është aplikacioni DeltaChat më i pasur në veçori dhe më i qëndrueshëm. 
 
-* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
-* [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
-* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
+* [Shkarkojeni që nga F-Droid](https://f-droid.org/app/com.b44t.messenger)
+* [Shkarkojeni që nga Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
+* [Shkarkoni APK](https://github.com/deltachat/deltachat-android/releases) (vetëm për përdoruesit e sprovuar)
+* [Shihni Regjistër Ndryshimesh]({% include changelog-url %}), [kontribuoni te varianti për Android](https://github.com/deltachat/deltachat-android/). 
 
 
 # Shkarkime të Delta/Desktop (Beta)
 
 Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i lidhur me Android-in ose iOS-in. 
 
-* [shkarkojeni, për Linux ose Mac, që nga faqja jonë github e hedhjeve në qarkullim](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+
+* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
 
 * [Mbulimi për Windows ka mbetur pezull, na duhet ndihmë!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 

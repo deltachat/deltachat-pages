@@ -64,7 +64,7 @@ Alle anderen Nachrichten werden _nicht_ automatisch angezeigt. Über den Menüpu
 
 ## Unterstützt Delta Chat HTML-E-Mails?
 
-- Ja.
+- Ja. Falls die eingehende E-Mail über keinen Nur-Text-Teil verfügt, konvertieren wir HTML-E-Mails selbst. In ausgehenden E-Mails wird immer Nur-Text verwendet.
 
 # Gruppen {#groups}
 

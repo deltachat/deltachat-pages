@@ -26,7 +26,9 @@ Delta/Android приложение DeltaChat с большей функцион�
 
 Delta/Desktop хорошо для использовать на персональном компьютере или в связке с Android и iOS. 
 
-* [загрузка для Linux или Mac из нашей страницы выпусков на github](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+
+* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
 
 * [Поддержка Windows ожидается, нужна помощь!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 

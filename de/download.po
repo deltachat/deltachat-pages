@@ -4,17 +4,18 @@
 # Sebastian Schmitt <schmitt.sebastian@mailbox.org>, 2019
 # happyreacer <c.dummert@googlemail.com>, 2019
 # Moni P. <monitx@deltachat.de>, 2019
-# W R, 2019
 # björn petersen <r10s@b44t.com>, 2019
+# W R, 2019
+# Sven, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 15:37+0200\n"
+"POT-Creation-Date: 2019-02-24 12:01+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: björn petersen <r10s@b44t.com>, 2019\n"
+"Last-Translator: Sven, 2019\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,35 +42,33 @@ msgstr "# Delta/Android Downloads (Beta)"
 
 #: ../en/download.md:10
 msgid ""
-"[<img style=\"float:right\" src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/apps/testing/chat.delta)\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/store/apps/details?id=chat.delta)\n"
 "[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 msgstr ""
-"[<img style=\"float:right\" src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/apps/testing/chat.delta)\n"
+"[<img style=\"float:right\" src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/store/apps/details?id=chat.delta)\n"
 "[<img style=\"float:right\" src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)"
 
 #: ../en/download.md:12
 msgid "Delta/Android is the most feature-rich and stable DeltaChat app. "
 msgstr "Delta/Android ist die funktionsreichste und stabilste Delta Chat App."
 
-#: ../en/download.md:18
+#: ../en/download.md:17
 msgid ""
 "* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)\n"
-"* [Download from Google Play Beta Channel](https://play.google.com/apps/testing/chat.delta)\n"
-"  (currenty, you have to use this link; the app is not yet listed in the main store)\n"
+"* [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)\n"
 "* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)\n"
 "* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). "
 msgstr ""
-"* [Über F-Droid herunterladen](https://f-droid.org/app/com.b44t.messenger)\n"
-"* [Über den Beta-Kanal in Google Play herunterladen](https://play.google.com/apps/testing/chat.delta)\n"
-"  (dies ist momentan nur über diesen Link möglich, die App ist noch nicht über die Suche im Play Store verfügbar)\n"
-"* [APK herunterladen](https://github.com/deltachat/deltachat-android/releases) (nur erfahrene Benutzer)\n"
-"* [Änderungen anzeigen]({% include changelog-url %}), [am Android repo mitwirken](https://github.com/deltachat/deltachat-android/). "
+"* [Von F-Droid herunterladen](https://f-droid.org/app/com.b44t.messenger)\n"
+"* [Vom Google Play Beta Kanal herunterladen](https://play.google.com/store/apps/details?id=chat.delta)\n"
+"* [Download der APK](https://github.com/deltachat/deltachat-android/releases) (nur für erfahrene Anwender)\n"
+"* [Änderungshistorie ansehen]({% include changelog-url %}), [Beitragen zur Android repo](https://github.com/deltachat/deltachat-android/). "
 
-#: ../en/download.md:21
+#: ../en/download.md:20
 msgid "# Delta/Desktop Downloads (Beta)"
 msgstr "# Delta/Desktop Downloads (Beta)"
 
-#: ../en/download.md:23
+#: ../en/download.md:22
 msgid ""
 "Delta/Desktop is well usable and can be operated standalone or in "
 "conjunction with Android or iOS. "
@@ -77,15 +76,19 @@ msgstr ""
 "Delta/Desktop ist gut verwendbar und kann einzeln oder in Verbindung mit "
 "Android oder iOS betrieben werden. "
 
-#: ../en/download.md:25
+#: ../en/download.md:24
 msgid ""
-"* [download for Linux or Mac from our github release "
+"* [download for Linux from "
+"flathub](https://flathub.org/apps/details/chat.delta.desktop)"
+msgstr ""
+
+#: ../en/download.md:26
+msgid ""
+"* [download for Mac from our github release "
 "page](https://github.com/deltachat/deltachat-desktop/releases/).  "
 msgstr ""
-"* [Download für Linux oder Mac von unserer Github Release "
-"Website](https://github.com/deltachat/deltachat-desktop/releases/).  "
 
-#: ../en/download.md:27
+#: ../en/download.md:28
 msgid ""
 "* [Windows support pending, help needed!](https://github.com/deltachat"
 "/deltachat-desktop/issues/606) "
@@ -93,7 +96,7 @@ msgstr ""
 "* [Windows-Support steht noch aus, Hilfe wird "
 "benötigt!](https://github.com/deltachat/deltachat-desktop/issues/606) "
 
-#: ../en/download.md:29
+#: ../en/download.md:30
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop "
 "with another Delta app. "
@@ -101,7 +104,7 @@ msgstr ""
 "* [FAQ Multiclient](help#multiclient) Hilfe zur Synchronisation von Desktop "
 "mit einer anderen Delta-Applikation "
 
-#: ../en/download.md:32
+#: ../en/download.md:33
 msgid ""
 "* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),\n"
 "  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). "
@@ -109,11 +112,11 @@ msgstr ""
 "* [Changelog anzeigen](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),\n"
 "  [zu den Desktop-Quellen beitragen](https://github.com/deltachat/deltachat-desktop/). "
 
-#: ../en/download.md:35
+#: ../en/download.md:36
 msgid "# Delta/iOS on TestFlight (Beta)"
 msgstr "# Delta/iOS auf TestFlight (Beta)"
 
-#: ../en/download.md:37
+#: ../en/download.md:38
 msgid ""
 "<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
@@ -123,7 +126,7 @@ msgstr ""
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
 "grayscale(100%);\" />"
 
-#: ../en/download.md:40
+#: ../en/download.md:41
 msgid ""
 "Delta/iOS supports basic functionality but not all features offered by Android or Desktop. \n"
 "Betas are distributed via Testflight. "
@@ -131,7 +134,7 @@ msgstr ""
 "Delta/iOS unterstützt grundlegende Funktionen, aber nicht alle Features, die für Android oder Desktop angeboten werden. \n"
 "Betas werden über Testflight verteilt."
 
-#: ../en/download.md:42
+#: ../en/download.md:43
 msgid ""
 "- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for "
 "your iPhone or iPad."
@@ -139,7 +142,7 @@ msgstr ""
 "- [testflight Einladungsseite](https://testflight.apple.com/join/WVoYFOZe) "
 "für Ihr iPhone oder iPad."
 
-#: ../en/download.md:44
+#: ../en/download.md:45
 msgid ""
 "- [contribute to iOS development](https://github.com/deltachat/deltachat-"
 "ios/). "
@@ -147,19 +150,19 @@ msgstr ""
 "- [zur Entwicklung für iOS beitragen](https://github.com/deltachat"
 "/deltachat-ios/). "
 
-#: ../en/download.md:46
+#: ../en/download.md:47
 msgid "- Scan this QR code with the camera app of your iPhone/iPad"
 msgstr "- Diesen QR-Code mit der Kamera-App des iPhone/iPad scannen"
 
-#: ../en/download.md:48
+#: ../en/download.md:49
 msgid "  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)"
 msgstr "  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)"
 
-#: ../en/download.md:51
+#: ../en/download.md:52
 msgid "# Verify Downloads"
 msgstr "# Downloads verifizieren"
 
-#: ../en/download.md:53
+#: ../en/download.md:54
 msgid ""
 "For Android, you can verify the signing certificate on the APK matches one "
 "of the following SHA256 fingerprints:  "
@@ -167,7 +170,7 @@ msgstr ""
 "Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-"
 "Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:"
 
-#: ../en/download.md:56
+#: ../en/download.md:57
 msgid ""
 "* For F-Droid downloads:  \n"
 "  `{% include fingerprint-f-droid %}`"
@@ -175,7 +178,7 @@ msgstr ""
 "* Für F-Droid Downloads:  \n"
 "  `{% include fingerprint-f-droid %}`"
 
-#: ../en/download.md:59
+#: ../en/download.md:60
 msgid ""
 "* Other APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
@@ -183,7 +186,7 @@ msgstr ""
 "* Andere APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
 
-#: ../en/download.md:62
+#: ../en/download.md:63
 msgid ""
 "To print the SHA256 fingerprints of the APK signing certificate you can use eg.  \n"
 "`keytool -list -printcert -jarfile <APK-file>`"

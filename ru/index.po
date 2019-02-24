@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 15:37+0200\n"
+"POT-Creation-Date: 2019-02-24 12:01+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
 "Last-Translator: Andrei Guliaikin <lycoris@ya.ru>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../en/index.md:15
 msgid ""
-"**Delta Chat has no own servers** but uses the most massive and diverse open messaging \n"
+"**Delta Chat doesn't have their own servers** but uses the most massive and diverse open messaging \n"
 "system ever: the existing e-mail server network."
 msgstr ""
 
