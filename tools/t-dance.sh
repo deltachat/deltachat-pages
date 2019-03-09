@@ -19,7 +19,7 @@
 
 
 sfiles=(blog contribute download gdpr help imprint index references)
-tlangs=(ca de es fr it nb_NO pl pt ru sq)  # do not add `en` to this list
+tlangs=(ca de es fr it nb_NO pl pt ru sq uk)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
