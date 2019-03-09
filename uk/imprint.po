@@ -1,0 +1,77 @@
+# Translators:
+# björn petersen <r10s@b44t.com>, 2019
+# Iskatel Istiny <iskatel1@gmx.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-19 22:31+0200\n"
+"PO-Revision-Date: 2018-03-23 12:40+0000\n"
+"Last-Translator: Iskatel Istiny <iskatel1@gmx.com>, 2019\n"
+"Language-Team: Ukrainian (https://www.transifex.com/delta-chat/teams/76181/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: ../en/imprint.md:5
+msgid ""
+"---\n"
+"title: Imprint\n"
+"layout: default-en\n"
+"---"
+msgstr ""
+"---\n"
+"title: Выходные данные\n"
+"layout: default-uk\n"
+"---"
+
+#: ../en/imprint.md:7
+msgid "# Imprint"
+msgstr "# Выходные данные"
+
+#: ../en/imprint.md:9
+msgid ""
+"Delta.Chat is an open source community project. Responsible for the content "
+"of these pages is:"
+msgstr ""
+"Delta.Chat базується на програмному забезпеченні з відкритим вихідним кодом,"
+" що розробляється спільнотою. Відповідальний за зміст цих сторінок:"
+
+#: ../en/imprint.md:13
+msgid ""
+"    Merlinux GmbH\n"
+"    Reichgrafen Str. 20\n"
+"    79102 Freiburg, Germany"
+msgstr ""
+"    Merlinux GmbH\n"
+"    Reichgrafen Str. 20\n"
+"    79102 Freiburg, Germany"
+
+#: ../en/imprint.md:15
+msgid "E-mail: {% include email-link %}"
+msgstr "Електронна пошта: {% include email-link %}"
+
+#: ../en/imprint.md:19
+msgid ""
+"Amtsgericht Freiburg: HRB709589  \n"
+"VAT: DE814082730  \n"
+"Managing Director: Holger Krekel"
+msgstr ""
+"Amtsgericht Freiburg: HRB709589\n"
+"VAT: DE814082730\n"
+"Керуючий директор: Holger Krekel"
+
+#: ../en/imprint.md:21
+msgid "[Community channels](contribute)"
+msgstr "[Спільнота](contribute)"
+
+#: ../en/imprint.md:22
+msgid ""
+"The mailing list server is operated through "
+"<https://github.com/codespeaknet/sysadmin>."
+msgstr "Сервер розсилок <https://github.com/codespeaknet/sysadmin>."
