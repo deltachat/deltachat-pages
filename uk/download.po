@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 22:31+0200\n"
+"POT-Creation-Date: 2019-02-24 12:01+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Iskatel Istiny <iskatel1@gmx.com>, 2019\n"
 "Language-Team: Ukrainian (https://www.transifex.com/delta-chat/teams/76181/uk/)\n"
@@ -67,13 +67,17 @@ msgstr ""
 
 #: ../en/download.md:24
 msgid ""
-"* [download for Linux or Mac from our github release "
-"page](https://github.com/deltachat/deltachat-desktop/releases/).  "
+"* [download for Linux from "
+"flathub](https://flathub.org/apps/details/chat.delta.desktop)"
 msgstr ""
-"* [завантаження для Linux або Mac з нашої сторінки релізів на GitHub] "
-"(https://github.com/deltachat/deltachat-desktop/releases/)."
 
 #: ../en/download.md:26
+msgid ""
+"* [download for Mac from our github release "
+"page](https://github.com/deltachat/deltachat-desktop/releases/).  "
+msgstr ""
+
+#: ../en/download.md:28
 msgid ""
 "* [Windows support pending, help needed!](https://github.com/deltachat"
 "/deltachat-desktop/issues/606) "
@@ -81,7 +85,7 @@ msgstr ""
 "* [Підтримка Windows очікується, потрібна допомога!] "
 "(https://github.com/deltachat/deltachat-desktop/issues/606)"
 
-#: ../en/download.md:28
+#: ../en/download.md:30
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop "
 "with another Delta app. "
@@ -89,7 +93,7 @@ msgstr ""
 "* [ЧаПи мультиклієнтські](help#multiclient) сторінка про те, як "
 "синхронізувати версію для ПК з мобільними клієнтами Delta."
 
-#: ../en/download.md:31
+#: ../en/download.md:33
 msgid ""
 "* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),\n"
 "  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). "
@@ -97,11 +101,11 @@ msgstr ""
 "* [Перегляд журналу змін](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),\n"
 "  [зробити внесок в репозитарій версії для ПК](https://github.com/deltachat/deltachat-desktop/)."
 
-#: ../en/download.md:34
+#: ../en/download.md:36
 msgid "# Delta/iOS on TestFlight (Beta)"
 msgstr "# Delta/iOS Тестовий Політ (Бета)"
 
-#: ../en/download.md:36
+#: ../en/download.md:38
 msgid ""
 "<img src=\"../assets/home/get-it-on-ios.png\" alt=\"Download on Apple "
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
@@ -111,7 +115,7 @@ msgstr ""
 "AppStore\" width=\"200\" style=\"float:right; filter: opacity(.3) "
 "grayscale(100%);\" />"
 
-#: ../en/download.md:39
+#: ../en/download.md:41
 msgid ""
 "Delta/iOS supports basic functionality but not all features offered by Android or Desktop. \n"
 "Betas are distributed via Testflight. "
@@ -119,7 +123,7 @@ msgstr ""
 "Delta/iOS підтримує базові функції, але не всі, які є у версіях для Android або ПК.\n"
 "Бета-версії надані через Тестовий Політ."
 
-#: ../en/download.md:41
+#: ../en/download.md:43
 msgid ""
 "- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for "
 "your iPhone or iPad."
@@ -128,7 +132,7 @@ msgstr ""
 "Польотів](https://testflight.apple.com/join/WVoYFOZe) для Вашого iPhone або "
 "iPad."
 
-#: ../en/download.md:43
+#: ../en/download.md:45
 msgid ""
 "- [contribute to iOS development](https://github.com/deltachat/deltachat-"
 "ios/). "
@@ -136,19 +140,19 @@ msgstr ""
 "- [зробити внесок у розробку iOS](https://github.com/deltachat/deltachat-"
 "ios/)."
 
-#: ../en/download.md:45
+#: ../en/download.md:47
 msgid "- Scan this QR code with the camera app of your iPhone/iPad"
 msgstr "- Скануйте цей QR-код за допомогою камери Вашого iPhone/iPad"
 
-#: ../en/download.md:47
+#: ../en/download.md:49
 msgid "  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)"
 msgstr " ![QR-код](../assets/home/deltachat_testflight_qrcode.png)"
 
-#: ../en/download.md:50
+#: ../en/download.md:52
 msgid "# Verify Downloads"
 msgstr "# Перевірка завантажених файлів"
 
-#: ../en/download.md:52
+#: ../en/download.md:54
 msgid ""
 "For Android, you can verify the signing certificate on the APK matches one "
 "of the following SHA256 fingerprints:  "
@@ -157,7 +161,7 @@ msgstr ""
 "сертифікату SHA256 інсталяційного файлу APK з наступними контрольними "
 "сумами:"
 
-#: ../en/download.md:55
+#: ../en/download.md:57
 msgid ""
 "* For F-Droid downloads:  \n"
 "  `{% include fingerprint-f-droid %}`"
@@ -165,7 +169,7 @@ msgstr ""
 "* Для завантажень з F-Droid:\n"
 " `{% include fingerprint-f-droid %}`"
 
-#: ../en/download.md:58
+#: ../en/download.md:60
 msgid ""
 "* Other APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
@@ -173,7 +177,7 @@ msgstr ""
 "* Інші завантаження APK:\n"
 "  `{% include fingerprint-local %}`"
 
-#: ../en/download.md:61
+#: ../en/download.md:63
 msgid ""
 "To print the SHA256 fingerprints of the APK signing certificate you can use eg.  \n"
 "`keytool -list -printcert -jarfile <APK-file>`"
