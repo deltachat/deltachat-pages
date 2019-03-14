@@ -3,8 +3,8 @@ title: New Android releases with OAUTH2 and improved e-mail interactions
 author: holger
 ---
 
-Delta Chat Android 0.200 is now on Google Play with lots
-of improvements addressing often requested problems. 
+A new major Delta Chat Android release (0.200) is now on Google Play 
+with lots of improvements addressing often requested problems. 
 
 ## Password-less logins for GMail and Yandex 
 
@@ -52,7 +52,7 @@ will be automatically moved to the DeltaChat folder and also
 any reply you get to a chat message that you previously sent to a 
 regular-email user. 
 
-## Improved automatic configuration with providers, reduced message size
+## Better automatic provider configuration, reduced message size, ... 
 
 In our never-ending quest of making things work out of the
 box we fixed issues with several providers, among them 
@@ -65,19 +65,34 @@ the western world experienced yesterday as well, due to the 9h or so
 outages of Facebook/Whatsapp.  
 
 We also greately reduced message size for group-chats by not gossiping
-encryption control information with every chat message anymore.  More
-message-size optimizations are coming! 
+encryption control information with every chat message anymore.  Also
+there is a higher compression options for images. 
+
+## Sharing files from other apps through Delta Chat and OpenXChange
+
+There is better support for sharing files from other apps
+through Delta Chat channels, thanks to contributions from 
+[OpenXChange](https://open-xchange.com).  As some of you know, we are 
+collaborating with them for some time already, to evolve the 
+"chat-over-email" ecosystem together.  They are the 
+maintainers of Dovecot, the most popular IMAP servers and
+want to add "presence" and other features requiring server-support, through
+their complementary [Chat-over-imap (COI) effort](https://coi-dev.org).
+In fact, they just published a [C/Rust-dev job offering for working on Delta Chat core 
+and Dovecot](https://lists.codespeak.net/hyperkitty/list/delta@codespeak.net/thread/I3VBYWHUYOQXC7SI5Y2HLJBOH5BFYGAJ/).  
 
 ## Much much more, coming soon! 
 
-There is *a lot more* that's coming up soon but we wanted to 
+There is *a lot more* that's coming up but we wanted to 
 share the current improvements already and more publically 
-because people have been asking about it repeatedly.
+because contributors and community members have been asking 
+about it repeatedly.
 
 Please note that Delta Chat remains marked as "Beta" on Google Play. 
 We know very well that most people's expectations are very high when it
-comes to messenger usage.  But don't despair -- a non-beta version is
-getting closer and as many of you know, the current Beta works already 
-suprisingly well for many people in many different settings and countries. 
+comes to messenger usage and so we don't want to make too-big claims too soon.  
+But don't despair -- a non-beta version is getting closer and as many of
+you know, the current Beta works already suprisingly well for many
+people in many different settings and countries. 
 
 Please help us to evolve Delta Chat by [https://deploy-preview-145--deltachat.netlify.com/en/contribute](providing feedback, contributing improvements or a little donation). If you join our channels you'll also get to hear many of the upcoming good news earlier than here ;) 
