@@ -11,9 +11,9 @@ with lots of improvements addressing often requested problems.
 You can now configure your existing e-mail account without providing 
 your password to Delta and you also don't need to enable "less secure apps" 
 anymore. OAuth2 is currently supported for gmail.com, googlemail.com,
-yandex.ru and yandex.ua. There is no longer the need to enable "Less secure apps" 
-somewhere deep in settings. We've implemented OAuth2 independently from 
-Google libraries.  The authorization just opens the system browsers and 
+yandex.ru, yandex.com and yandex.ua. There is no longer the need to enable 
+"Less secure apps" somewhere deep in settings. We've implemented OAuth2 independently 
+from Google libraries.  The authorization just opens the system browsers and 
 of course you still have the choice not to use OAuth2. 
 
 This means that you only need to provide your e-mail address and GMail/Yandex 
