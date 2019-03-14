@@ -4,7 +4,8 @@ author: holger
 ---
 
 A new major Delta Chat Android release (0.200) is now on Google Play 
-with lots of improvements addressing often requested problems. 
+with lots of improvements addressing popular complaints and feature
+requests. 
 
 ## Password-less logins for GMail and Yandex 
 
@@ -57,16 +58,15 @@ regular-email user.
 In our never-ending quest of making things work out of the
 box we fixed issues with several providers, among them 
 the cuban "Nauta.cu". If you didn't know, Delta Chat had 
-quite some uptake in Cuba as any traffic that leaves the island 
+quite some uptake with Cuban users as any traffic that leaves the island 
 is expensive while using the "cuban intranet" mail server 
 is mostly affordable from mobiles. Whatsapp is practically
 not available there -- a not so uncommon reality that large parts of 
-the western world experienced yesterday as well, due to the 9h or so 
-outages of Facebook/Whatsapp.  
+the western world experienced yesterday as well with #facebookdown. 
 
 We also greately reduced message size for group-chats by not gossiping
-encryption control information with every chat message anymore.  Also
-there is a higher compression options for images. 
+encryption keys with every chat message anymore.  Also there is a higher 
+compression options for images. 
 
 ## Sharing files from other apps through Delta Chat and OpenXChange
 
@@ -81,9 +81,9 @@ their complementary [Chat-over-imap (COI) effort](https://coi-dev.org).
 In fact, they just published a [C/Rust-dev job offering for working on Delta Chat core 
 and Dovecot](https://lists.codespeak.net/hyperkitty/list/delta@codespeak.net/thread/I3VBYWHUYOQXC7SI5Y2HLJBOH5BFYGAJ/).  
 
-## Much much more, coming soon! 
+## Much more, coming soon! 
 
-There is *a lot more* that's coming up but we wanted to 
+There is *much more* that's coming up but we wanted to 
 share the current improvements already and more publically 
 because contributors and community members have been asking 
 about it repeatedly.
