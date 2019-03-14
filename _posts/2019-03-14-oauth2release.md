@@ -4,7 +4,7 @@ author: holger
 ---
 
 Delta Chat Android 0.200 is now on Google Play with lots
-of improvements addressing often requested issues. 
+of improvements addressing often requested problems. 
 
 ## Password-less logins for GMail and Yandex 
 
@@ -74,11 +74,10 @@ There is *a lot more* that's coming up soon but we wanted to
 share the current improvements already and more publically 
 because people have been asking about it repeatedly.
 
-Please note that Delta Chat remains marked as "Beta",
-also on Google Play. We know very well that most people's
-expectations are very high when it comes to messenger usage. 
-But don't despair -- a non-beta version is getting ever more closer
-and the current Beta works already suprisingly well for many
+Please note that Delta Chat remains marked as "Beta" on Google Play. 
+We know very well that most people's expectations are very high when it
+comes to messenger usage.  But don't despair -- a non-beta version is getting 
+ever more closer and the current Beta works already suprisingly well for many
 people in many different settings and countries. 
 
 Please help us to evolve Delta Chat by [https://deploy-preview-145--deltachat.netlify.com/en/contribute](providing feedback, contributing improvements or a little donation). If you join our channels you'll also get to hear many of the upcoming good news earlier than here ;) 
