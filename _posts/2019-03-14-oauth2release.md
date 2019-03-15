@@ -8,14 +8,16 @@ and soon on F-droid with lots of improvements addressing popular complaints and
 feature requests. Delta Chat remains marked as "Beta" because expectations 
 are understandably high when it comes to using a new messenger. 
 However, many of you know from everyday-usage that the Beta series work
-increasingly well. Please continue helping us to evolve Delta Chat by
-[https://delta.chat/en/contribute](providing feedback, contributing
-improvements or a little donation). If you join our channels you'll also
-get to hear many of the upcoming good news earlier than here ;) 
+increasingly well. Please continue or consider helping us to evolve Delta Chat 
+by [providing feedback, contributing improvements or a little donation](https://delta.chat/en/contribute).  If you join our channels you'll also get to hear many of the upcoming 
+good news earlier than here ;) 
 
 But now on to the highlights of this release!
 
 ## Password-less logins for GMail and Yandex 
+
+<img style="float: right; margin: 10px;" src="../assets/blog/2019-02-oauth2-confirm.png" width="200px"/>
+<img style="float: right; margin: 10px;" src="../assets/blog/2019-02-oauth2-ask.png" width="200px"/> 
 
 You can now configure your existing e-mail account without providing 
 your password to Delta and you also don't need to enable "less secure apps" 
@@ -33,9 +35,9 @@ transmit your address/account information anywhere else than with the
 e-mail provider of your choice. 
 
 
-<img src="../assets/blog/2019-02-oauth2-ask.png" width="280"> <img src="../assets/blog/2019-02-oauth2-confirm.png" width="280">
-
 ## Streamlined Contact requests 
+
+<img width="200px" style="margin: 10px; float: right;" src="../assets/blog/classic-emails-setting.png"> 
 
 With Delta Chat you can message anyone if you know their e-mail address. 
 They can read and reply with their standard e-mail app without
@@ -50,6 +52,7 @@ you can enable that in "advanced settings". Some people also like to read all
 their e-mail with delta chat and they can enable seeing "all" messages
 as contact requests. 
 
+
 ## Better moving of Chat messages to DeltaChat folder
 
 We made the algorithm more robust that automatically moves chat messages
@@ -61,7 +64,7 @@ will be automatically moved to the DeltaChat folder.
 Also any reply you get to a chat message 
 that you previously sent to a regular-email user. 
 
-## Better automatic provider configuration, reduced message size, ... 
+## Better provider configuration, message size, sharing of files
 
 We fixed issues with several providers, among them 
 the cuban "Nauta.cu". If you didn't know, Delta Chat had 
@@ -75,20 +78,10 @@ We also reduced message size for group-chats by not gossiping
 encryption keys with every chat message anymore.  Also there is a higher 
 compression options for images. 
 
-## Sharing files from other apps through Delta Chat and OpenXChange
-
 There is better support for sharing files from other apps
-through Delta Chat channels, thanks to contributions from 
-[OpenXChange](https://open-xchange.com).  As some of you know, we are 
-collaborating with them for some time already, to evolve the 
-"chat-over-email" ecosystem together.  They are the 
-maintainers of Dovecot, the most popular IMAP servers and
-want to add "presence" and other features requiring server-support, through
-their complementary [Chat-over-imap (COI) effort](https://coi-dev.org).
-In fact, they just published a [C/Rust-dev job offering for working on Delta Chat core 
-and Dovecot](https://lists.codespeak.net/hyperkitty/list/delta@codespeak.net/thread/I3VBYWHUYOQXC7SI5Y2HLJBOH5BFYGAJ/).  
+through Delta Chat channels.
 
-## Details about this release, contributors
+## Details about this release, who did it? 
 
 The [Android v0200 changelog entry](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md#v02000) and the [Core v.0.41.0 changelog entry](https://github.com/deltachat/deltachat-core/blob/master/CHANGELOG.md#v0410) contain more details. The following contributors were involved in release issues and commits: Alexandex, Angelo Fuchs, Asiel Díaz Benítez, Björn Petersen, Besnik, Christian Klump, cyBerta, Daniel Böhrs, Enrico B., ferhad.necef, Florian Haar, Floris Bruynooghe, Friedel Ziegelmayer, Heimen Stoffels, Holger Krekel, Iskatel Istiny, Lech Rowerski, Moo, Ole Carlsen, violoncelloCH. 
 
