@@ -66,9 +66,9 @@ that you previously sent to a regular-email user.
 ## Better provider configuration, message size, sharing of files
 
 We fixed issues with several providers, among them 
-the cuban "Nauta.cu". If you didn't know, Delta Chat had 
+the Cuban "Nauta.cu". If you didn't know, Delta Chat had
 quite some uptake with Cuban users as any traffic that leaves the island 
-is expensive while using the "cuban intranet" mail server 
+is expensive while using the "Cuban intranet" mail server
 is relatively affordable with mobile data plans. Whatsapp is practically
 not available there -- a not so uncommon reality that large parts of 
 the western world experienced during #facebookdown a few days ago. 
