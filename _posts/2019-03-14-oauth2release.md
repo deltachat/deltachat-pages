@@ -1,11 +1,19 @@
 ---
 title: New Android releases with OAUTH2 and improved e-mail interactions
-author: holger
+author: holga
 ---
 
 A new major Delta Chat Android release (0.200) is now on Google Play 
-with lots of improvements addressing popular complaints and feature
-requests. 
+and soon on F-droid with lots of improvements addressing popular complaints and 
+feature requests. Delta Chat remains marked as "Beta" because expectations 
+are understandably high when it comes to using a new messenger. 
+However, many of you know from everyday-usage that the Beta series work
+increasingly well. Please continue helping us to evolve Delta Chat by
+[https://delta.chat/en/contribute](providing feedback, contributing
+improvements or a little donation). If you join our channels you'll also
+get to hear many of the upcoming good news earlier than here ;) 
+
+But now on to the highlights of this release!
 
 ## Password-less logins for GMail and Yandex 
 
@@ -31,10 +39,10 @@ e-mail provider of your choice.
 
 With Delta Chat you can message anyone if you know their e-mail address. 
 They can read and reply with their standard e-mail app without
-signing up anywhere or installing anything. However, we finally
-a popular complaint with which e-mails are shown as contact requests.
-You will now by default only see messages as contact requests if the other side 
-sent a Delta Chat message. Normal e-mails will not show up unless they are a 
+signing up anywhere or installing anything. However, we finally addressed
+a popular complaint regarding which e-mails are shown as contact requests.
+You will now by default only see e-mails as contact requests if the other side 
+sent a Delta Chat message. Non-Chat e-mails will not show up unless they are a 
 direct reply to a chat message that you sent before. 
 
 If you want to see both chat and normal e-mails from an accepted contact, 
@@ -46,25 +54,24 @@ as contact requests.
 
 We made the algorithm more robust that automatically moves chat messages
 to the DeltaChat IMAP folder.  You should now see less clutter in your
-INBOX with your regular e-mail app.  There are many community
+INBOX with your regular e-mail app.  There were many community
 discussions in the last year around this topic and we hope we finally
 found a way that is robust and easy to understand. All chat messages
-will be automatically moved to the DeltaChat folder and also
-any reply you get to a chat message that you previously sent to a 
-regular-email user. 
+will be automatically moved to the DeltaChat folder. 
+Also any reply you get to a chat message 
+that you previously sent to a regular-email user. 
 
 ## Better automatic provider configuration, reduced message size, ... 
 
-In our never-ending quest of making things work out of the
-box we fixed issues with several providers, among them 
+We fixed issues with several providers, among them 
 the cuban "Nauta.cu". If you didn't know, Delta Chat had 
 quite some uptake with Cuban users as any traffic that leaves the island 
 is expensive while using the "cuban intranet" mail server 
-is mostly affordable from mobiles. Whatsapp is practically
+is relatively affordable with mobile data plans. Whatsapp is practically
 not available there -- a not so uncommon reality that large parts of 
-the western world experienced yesterday as well with #facebookdown. 
+the western world experienced during #facebookdown a few days ago. 
 
-We also greately reduced message size for group-chats by not gossiping
+We also reduced message size for group-chats by not gossiping
 encryption keys with every chat message anymore.  Also there is a higher 
 compression options for images. 
 
@@ -81,18 +88,7 @@ their complementary [Chat-over-imap (COI) effort](https://coi-dev.org).
 In fact, they just published a [C/Rust-dev job offering for working on Delta Chat core 
 and Dovecot](https://lists.codespeak.net/hyperkitty/list/delta@codespeak.net/thread/I3VBYWHUYOQXC7SI5Y2HLJBOH5BFYGAJ/).  
 
-## Much more, coming soon! 
+## Details about this release, contributors
 
-There is *much more* that's coming up but we wanted to 
-share the current improvements already and more publically 
-because contributors and community members have been asking 
-about it repeatedly.
+The [Android v0200 changelog entry](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md#v02000) and the [Core v.0.41.0 changelog entry](https://github.com/deltachat/deltachat-core/blob/master/CHANGELOG.md#v0410) contain more details. The following contributors were involved in release issues and commits: Alexandex, Angelo Fuchs, Asiel Díaz Benítez, Björn Petersen, Besnik, Christian Klump, cyBerta, Daniel Böhrs, Enrico B., ferhad.necef, Florian Haar, Floris Bruynooghe, Friedel Ziegelmayer, Heimen Stoffels, Holger Krekel, Iskatel Istiny, Lech Rowerski, Moo, Ole Carlsen, violoncelloCH. 
 
-Please note that Delta Chat remains marked as "Beta" on Google Play. 
-We know very well that most people's expectations are very high when it
-comes to messenger usage and so we don't want to make too-big claims too soon.  
-But don't despair -- a non-beta version is getting closer and as many of
-you know, the current Beta works already suprisingly well for many
-people in many different settings and countries. 
-
-Please help us to evolve Delta Chat by [https://deploy-preview-145--deltachat.netlify.com/en/contribute](providing feedback, contributing improvements or a little donation). If you join our channels you'll also get to hear many of the upcoming good news earlier than here ;) 
