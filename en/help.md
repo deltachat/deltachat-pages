@@ -13,9 +13,21 @@ layout: default-en
 
 # General
 
-## To whom can I write?
+## What is Delta Chat? 
 
-- With Delta Chat, you can write to every existing e-mail address - even if the recipient is not (yet) using the Delta Chat App. This is one of the biggest differences to other messengers: There is no need for the receiver to install the same app as yours.
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+<img src="../assets/home/delta-what.png" />
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## What are the advantages of Delta Chat compared to other messengers?
 
@@ -31,10 +43,6 @@ layout: default-en
 - _Reliable_ - safe for professional use
 - _Trustworthy_ - can even be used for business messages
 - fully _Open Source_ and _Standards_ based
-
-## What if the receiver does not use Delta Chat?
-
-- The receiver will get a normal email then - if he replies to it, you will see the reply in the Delta Chat app.
 
 ## Which messages do appear in Delta Chat?
 
