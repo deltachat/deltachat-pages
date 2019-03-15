@@ -13,14 +13,14 @@ layout: default-en
 
 # General
 
+<img style="float: left;" width="200px" src="../assets/home/delta-what.png" />
+
 ## What is Delta Chat? 
 
 Delta Chat is a new chat app that uses e-mails for transfering messages. 
 If you receive a chat message just use your e-mail app to read the
 message and reply. **You are not required to sign up anywhere, go to a website
 or install Delta Chat.**
-
-<img src="../assets/home/delta-what.png" />
 
 ## How can i find people to chat with? 
 
