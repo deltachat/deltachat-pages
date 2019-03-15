@@ -83,5 +83,5 @@ through Delta Chat channels.
 
 ## Details about this release, who did it? 
 
-The [Android v0200 changelog entry](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md#v02000) and the [Core v.0.41.0 changelog entry](https://github.com/deltachat/deltachat-core/blob/master/CHANGELOG.md#v0410) contain more details. The following contributors were involved in release issues and commits: Alexandex, Angelo Fuchs, Asiel Díaz Benítez, Björn Petersen, Besnik, Christian Klump, cyBerta, Daniel Böhrs, Enrico B., ferhad.necef, Florian Haar, Floris Bruynooghe, Friedel Ziegelmayer, Heimen Stoffels, Holger Krekel, Iskatel Istiny, Lech Rowerski, Moo, Ole Carlsen, violoncelloCH. 
+The [Android v0.200.0 changelog entry](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md#v02000) and the [Core v.0.41.0 changelog entry](https://github.com/deltachat/deltachat-core/blob/master/CHANGELOG.md#v0410) contain more details. The following contributors were involved in release issues and commits: Alexandex, Angelo Fuchs, Asiel Díaz Benítez, Björn Petersen, Besnik, Christian Klump, cyBerta, Daniel Böhrs, Enrico B., ferhad.necef, Florian Haar, Floris Bruynooghe, Friedel Ziegelmayer, Heimen Stoffels, Holger Krekel, Iskatel Istiny, Lech Rowerski, Moo, Ole Carlsen, violoncelloCH.
 
