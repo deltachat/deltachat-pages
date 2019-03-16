@@ -11,8 +11,32 @@ layout: default-sq
 
 # Referenca
 
-Edhe pse Delta Chat-i është ende në gjendje beta, ka tashmë disa artikuj me interes.
-Na ka shpëtuar gjë? Ju lutemi, [na e bëni të ditur](imprint).
+Although Delta Chat is still in beta state, there are already some interesting articles.
+
+This list is far from being complete -
+do we have missed something?
+Please [let us know](imprint)
+or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+
+
+## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
+
+03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-deltachat/>
+
+
+## habr.com (Large Russian technology site): децентрализованный мессенджер поверх электронной почты
+
+03/2019, <https://habr.com/ru/post/442266/>
+
+
+## technolike.com (Technology blog from Cuba): Delta chat, chatea por correo al más puro estilo WhatsApp
+
+02/2019, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-puro-estilo-whatsapp/>
+
+
+## blog.lenzg.net: Using Delta Chat with email sub-addresses
+
+02/2019, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-addresses/>
 
 
 ## iX (revistë në gjermanisht): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
@@ -21,6 +45,7 @@ Ky artikull trajton Autocrypt-in, protokollin e përdorur nga Delta Chat për fs
 Delta Chat përmendet diku.
 
 05/2018, faqe 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
+
 
 ## Linux User (revistë në gjermanisht): Privat dhe Konfidencial - Privatvergnügen
 
