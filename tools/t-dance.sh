@@ -65,7 +65,7 @@ create_html_files() {
 	# `cd ..; jekyll build --destination <html-folder>; echo "Options +MultiViews" > <html-folder>/.htaccess; cd tools`  
 	if [ -f ./create-html.prv.sh ]; then
 		echo "Creating html-files from the markdown files ..."
-		#./create-html.prv.sh
+		./create-html.prv.sh
 	fi
 }
 
