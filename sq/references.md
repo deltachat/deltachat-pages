@@ -11,30 +11,30 @@ layout: default-sq
 
 # Referenca
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
+Edhe pse Delta Chat gjendet ende në fazë beta, ka tashmë disa artikuj interesantë.
 
-This list is far from being complete -
-do we have missed something?
-Please [let us know](imprint)
-or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Kjo listë s’është edhe aq e plotë -
+kemi harruar ndonjë gjë?
+Ju lutemi, [na e bëni të ditur](imprint)
+ose thjesht bëni një [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
+## Blogu i Mozilla Thunderbird-it: FOSDEM 2019 dhe DeltaChat
 
 03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-deltachat/>
 
 
-## habr.com (Large Russian technology site): децентрализованный мессенджер поверх электронной почты
+## habr.com (Sajt i madh mbi teknologjinë, në rusisht): децентрализованный мессенджер поверх электронной почты
 
 03/2019, <https://habr.com/ru/post/442266/>
 
 
-## technolike.com (Technology blog from Cuba): Delta chat, chatea por correo al más puro estilo WhatsApp
+## technolike.com (Blog mbi teknologjinë, nga Kuba): Delta chat, chatea por correo al más puro estilo WhatsApp
 
 02/2019, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-puro-estilo-whatsapp/>
 
 
-## blog.lenzg.net: Using Delta Chat with email sub-addresses
+## blog.lenzg.net: Si të përdoret Delta Chat me nënadresa email
 
 02/2019, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-addresses/>
 
