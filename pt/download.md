@@ -14,54 +14,54 @@ layout: default-pt
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android is the most feature-rich and stable DeltaChat app. 
+O Delta/Android é a versão mais estável e bem trabalhada. 
 
-* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
-* [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
-* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
+* [Baixe do F-Droid](https://f-droid.org/app/com.b44t.messenger)
+* [Baixe do Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
+* [Baixe o APK](https://github.com/deltachat/deltachat-android/releases) (somente usuários experientes)
+* [Ver histórico de atualizações]({% include changelog-url %}) e [contribua no repositório do Android](https://github.com/deltachat/deltachat-android/). 
 
 
 # Delta/Desktop Downloads (Beta)
 
-Delta/Desktop is well usable and can be operated standalone or in conjunction with Android or iOS. 
+O Delta/Desktop é bem usável, independentemente ou em paralelo com o Android ou o iOS. 
 
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [baixe pro Linux do flathub](https://flathub.org/apps/details/chat.delta.desktop)
 
-* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [baixe pro Mac do github](https://github.com/deltachat/deltachat-desktop/releases/).  
 
-* [Windows support pending, help needed!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [Pendendo versões pro Windows. Precisamos de ajuda!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 
-* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
+* [FAQ multicliente](help#multiclient): veja como sincronizar várias instâncias do Delta Chat.
 
-* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
-  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
+* [Veja o histórico de atualizações](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md) e
+  [contribua no repositório do Desktop](https://github.com/deltachat/deltachat-desktop/). 
 
 
-# Delta/iOS on TestFlight (Beta)
+# Delta/iOS no TestFlight (Beta)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-Delta/iOS supports basic functionality but not all features offered by Android or Desktop. 
-Betas are distributed via Testflight. 
+O Delta/iOS tem as funcionalidades básicas, mas não todas aquelas do Android e Desktop. 
+Versões beta são distribuídas via Testflight. 
 
-- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for your iPhone or iPad.
+- [Página de convite do testflight](https://testflight.apple.com/join/WVoYFOZe) para o iPhone ou iPad.
 
-- [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
+- [contribua para desenvolver no iOS](https://github.com/deltachat/deltachat-ios/). 
 
-- Scan this QR code with the camera app of your iPhone/iPad
+- Escaneie este código QR com seu iPhone/iPad
 
-  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)
+  ![Código QR](../assets/home/deltachat_testflight_qrcode.png)
 
 
 Verificar downloads
 
 Para a versão Android, você pode verificar o certificado do APK comparando com uma das seguintes impressões SHA256:  
 
-* For F-Droid downloads:  
+* Para o F-Droid:  
   `{% include fingerprint-f-droid %}`
 
-* Other APK downloads:  
+* Outros APKs:  
   `{% include fingerprint-local %}`
 
 Para obter as impressões SHA256 do APK você pode usar, por exemplo 

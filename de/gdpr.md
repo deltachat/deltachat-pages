@@ -20,7 +20,7 @@ layout: default-de
 
 # Die **DSGVO** und **Delta Chat** Messenger Kommunikation
 
-Unsere derzeitge Sicht der Dinge (16.05.2018):
+Unsere derzeitige Sicht der Dinge (16.05.2018):
 
 - Delta Chat verarbeitet keine personenbezogenen Daten im Auftrag des Verantwortlichen und bedarf somit **keiner Weisung oder eines Auftragsverarbeitungsvertrages.**
 
@@ -30,7 +30,7 @@ Unsere derzeitge Sicht der Dinge (16.05.2018):
 
 - Die beim Adressbuch-Zugriff vorgeschriebene **Informationserteilung** des Betroffenen und der im Adressbuch enthaltenden Betroffenen **entfällt**, Art. 13, 14 DSGVO.
 
-- Eine **Datenschutz-Folgeabschätzung** ist durch fehlende Messenger-Datenverabreitung **nicht notwendig**, Art. 35 DSGVO. Das Risiko für Rechte und Freiheiten natürlicher Personen beschränkt sich auf die unternehmensinterne Datenverarbeitung der E-Mail-Kommunikation und die der E-Mail-Provider.
+- Eine **Datenschutz-Folgeabschätzung** ist durch fehlende Messenger-Datenverarbeitung **nicht notwendig**, Art. 35 DSGVO. Das Risiko für Rechte und Freiheiten natürlicher Personen beschränkt sich auf die unternehmensinterne Datenverarbeitung der E-Mail-Kommunikation und die der E-Mail-Provider.
 
 - Eine Aufnahme der durch Delta Chat implementierten Maßnahmen ins **Verzeichnis von Verarbeitungstätigkeiten** kann sich positiv auf eventuelle **Beweisführungen**, Art. 30 DSGVO sowie **Zertifizierungsprozesse** auswirken, Art. 25 IV, 42 DSGVO.
 

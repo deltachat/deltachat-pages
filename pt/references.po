@@ -1,6 +1,6 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
-# Luis <luisfsr@opmbx.org>, 2018
+# Luis <luisfsr@opmbx.org>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-16 23:43+0200\n"
 "PO-Revision-Date: 2018-04-21 22:06+0000\n"
-"Last-Translator: Luis <luisfsr@opmbx.org>, 2018\n"
+"Last-Translator: Luis <luisfsr@opmbx.org>, 2019\n"
 "Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,6 +39,8 @@ msgid ""
 "Although Delta Chat is still in beta state, there are already some "
 "interesting articles."
 msgstr ""
+"Mesmo que o Delta Chat ainda esteja em estágio beta, já existem alguns "
+"artigos interessantes sobre ele na mídia."
 
 #: ../en/references.md:14
 msgid ""
@@ -47,48 +49,62 @@ msgid ""
 "Please [let us know](imprint)\n"
 "or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)."
 msgstr ""
+"A lista está longe de estar completa -\n"
+"esquecemos de algo?\n"
+"Por favor, [nos informe](imprint)\n"
+"ou só faça um [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)."
 
 #: ../en/references.md:17
 msgid "## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat"
-msgstr ""
+msgstr "## Blogue do Mozilla Thunderbird: FOSDEM 2019 e o DeltaChat"
 
 #: ../en/references.md:19
 msgid ""
 "03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-"
 "deltachat/>"
 msgstr ""
+"03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-"
+"deltachat/>"
 
 #: ../en/references.md:22
 msgid ""
 "## habr.com (Large Russian technology site): децентрализованный мессенджер "
 "поверх электронной почты"
 msgstr ""
+"## habr.com (grande site Russo de tecnologia): децентрализованный мессенджер"
+" поверх электронной почты"
 
 #: ../en/references.md:24
 msgid "03/2019, <https://habr.com/ru/post/442266/>"
-msgstr ""
+msgstr "03/2019, <https://habr.com/ru/post/442266/>"
 
 #: ../en/references.md:27
 msgid ""
 "## technolike.com (Technology blog from Cuba): Delta chat, chatea por correo"
 " al más puro estilo WhatsApp"
 msgstr ""
+"## technolike.com (Blogue de tecnologia de Cuba): Delta chat, converse pelo "
+"e-mail no mais puro estilo WhatsApp"
 
 #: ../en/references.md:29
 msgid ""
 "02/2019, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-"
 "puro-estilo-whatsapp/>"
 msgstr ""
+"02/2019, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-"
+"puro-estilo-whatsapp/>"
 
 #: ../en/references.md:32
 msgid "## blog.lenzg.net: Using Delta Chat with email sub-addresses"
-msgstr ""
+msgstr "## blog.lenzg.net: Usar o Delta Chat com subendereços  de e-mail"
 
 #: ../en/references.md:34
 msgid ""
 "02/2019, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-"
 "addresses/>"
 msgstr ""
+"02/2019, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-"
+"addresses/>"
 
 #: ../en/references.md:37
 msgid ""
