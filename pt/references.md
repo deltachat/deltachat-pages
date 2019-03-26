@@ -11,30 +11,30 @@ layout: default-pt
 
 # Referências
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
+Mesmo que o Delta Chat ainda esteja em estágio beta, já existem alguns artigos interessantes sobre ele na mídia.
 
-This list is far from being complete -
-do we have missed something?
-Please [let us know](imprint)
-or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+A lista está longe de estar completa -
+esquecemos de algo?
+Por favor, [nos informe](imprint)
+ou só faça um [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
+## Blogue do Mozilla Thunderbird: FOSDEM 2019 e o DeltaChat
 
 03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-deltachat/>
 
 
-## habr.com (Large Russian technology site): децентрализованный мессенджер поверх электронной почты
+## habr.com (grande site Russo de tecnologia): децентрализованный мессенджер поверх электронной почты
 
 03/2019, <https://habr.com/ru/post/442266/>
 
 
-## technolike.com (Technology blog from Cuba): Delta chat, chatea por correo al más puro estilo WhatsApp
+## technolike.com (Blogue de tecnologia de Cuba): Delta chat, converse pelo e-mail no mais puro estilo WhatsApp
 
 02/2019, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-puro-estilo-whatsapp/>
 
 
-## blog.lenzg.net: Using Delta Chat with email sub-addresses
+## blog.lenzg.net: Usar o Delta Chat com subendereços  de e-mail
 
 02/2019, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-addresses/>
 
