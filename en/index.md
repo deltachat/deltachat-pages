@@ -3,18 +3,18 @@ title: The messenger
 layout: default-en
 ---
 
-# Chat over e-mail and head back to the future with us!
+# Head back to the future with Email-Chat!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
 **Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
 Check out our [GDPR compliancy statement](gdpr).
 
+**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
+All you need is a standard e-mail account login.
+
 **Delta Chat doesn't have their own servers** but uses the most massive and diverse open messaging 
 system ever: the existing e-mail server network.
-
-**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
-All you need is a standard e-mail account.
 
 
 # Screenshots Android, Desktop and iOS 
