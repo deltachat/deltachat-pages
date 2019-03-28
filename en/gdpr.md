@@ -4,7 +4,7 @@ layout: default-en
 ---
 
 
-#  How **Delta Chat** complies to the **GDPR** 
+#  How Delta Chat complies to the GDPR 
 
 - Implements the **Privacy by Design** requirement of the GDPR, through
 
