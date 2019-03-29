@@ -13,7 +13,7 @@ layout: default-en
 
 # General
 
-<img style="float: left;" width="200px" src="../assets/home/delta-what.png" />
+<img style="float: none;" width="400px" src="../assets/home/delta-what.png" />
 
 ## What is Delta Chat? 
 
