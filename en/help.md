@@ -13,9 +13,9 @@ layout: default-en
 
 # General
 
-<img style="float: none;" width="400px" src="../assets/home/delta-what.png" />
-
 ## What is Delta Chat? 
+
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
 Delta Chat is a new chat app that uses e-mails for transfering messages. 
 If you receive a chat message just use your e-mail app to read the
