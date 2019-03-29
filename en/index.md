@@ -7,13 +7,13 @@ layout: default-en
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat is as easy-to-use as Telegram or Whatsapp, but without the tracking or central control.**
+**The Delta Chat app is as easy-to-use as Telegram or Whatsapp, but without any tracking or central control.**
 Check out our [GDPR data protection compliancy statement](gdpr).
 
 **Chat with anyone if you know their e-mail address, even if they are not (yet) using Delta Chat!** 
 All you need is your own standard e-mail account login.
 
-**Delta Chat doesn't make you use their own servers**, it uses the most massive and diverse, federated open messaging 
+**Delta Chat doesn't make you use its own servers**, it uses the most massive and diverse, federated open messaging 
 system ever: the existing e-mail server network.
 
 
