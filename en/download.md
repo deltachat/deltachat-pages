@@ -7,7 +7,7 @@ layout: default-en
 1) Select your desired version for your platform below.
 1) Follow the link to download.
 1) Install the package, if not done automatically with the selected download channel.
-1) On the first start, the app will help you to connect to your existing email account.
+1) On the first start, the app will help you to set it up with your existing email account login.
 
 # Delta/Android Downloads (Beta)
 
