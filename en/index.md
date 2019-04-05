@@ -3,7 +3,7 @@ title: The messenger
 layout: default-en
 ---
 
-# Back to the future with Email-Chat!
+# Back to the future, with Email-Chat!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
