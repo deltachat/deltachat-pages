@@ -19,9 +19,21 @@ layout: default-fr
 
 # Général {#general}
 
-## A qui puis-je écrire?
+## What is Delta Chat? 
 
-- Avec Delta Chat, vous pouvez écrire à toutes les adresses de courriel existantes, même si le destinataire n'utilise pas (encore) l'application Delta Chat. C'est l'une des plus grandes différences avec les autres messageries: le destinataire n'a pas besoin d'installer la même application que la vôtre.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Quels sont les avantages de Delta Chat par rapport aux autres messageries?
 
@@ -37,10 +49,6 @@ layout: default-fr
 - _Reliable_ - safe for professional use
 - _Trustworthy_ - can even be used for business messages
 - fully _Open Source_ and _Standards_ based
-
-## Que se passe-t'il si le destinataire n'utilise pas Delta Chat?
-
-- Le destinataire recevra un courriel normal - s'il y répond, vous verrez la réponse dans l'application Delta Chat.
 
 ## Quels messages apparaissent dans Delta Chat?
 
@@ -131,15 +139,15 @@ Les autres messages n'apparaissent pas automatiquement. Vous pouvez voir les aut
 
 - If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
 
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Comment puis-je vérifier l'expéditeur?
 
 Le profil de l'utilisateur affiche des informations supplémentaires:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR"
-  code button on another device to scan this code.  If both devices are online
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
   they will introduce a chat channel with each other (if it doesn't exist already) 
   and also the encryption keys will be verified. 
 

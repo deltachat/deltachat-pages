@@ -19,9 +19,21 @@ layout: default-ca
 
 # General
 
-## A qui puc escriure?
+## What is Delta Chat? 
 
-- Amb Delta Chat pots escriure a qualsevol adreça de correu electrònic, fins i tot si el destinatari (encara) no està usant l'app de Delta Chat. Aquesta és una de les enormes diferències amb altres programes de missatgeria: no és necessari que el receptor instal·li la mateixa app que tu.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Quins son els avantatges de Delta Chat comparat amb altres programes de missatgeria?
 
@@ -37,10 +49,6 @@ layout: default-ca
 - _Reliable_ - safe for professional use
 - _Trustworthy_ - can even be used for business messages
 - fully _Open Source_ and _Standards_ based
-
-## Què passa si el receptor no usa Delta Chat?
-
-- Llavors el receptor rebrà un missatge de correu electrònic normal - i si el respon, voràs la resposta a l'app Delta Chat.
 
 ## Quins missatges es mostren al Delta Chat?
 
@@ -131,15 +139,15 @@ Els altres missatges no es mostren automàticament. Pots veure aquests altres mi
 
 - If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
 
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Com puc verificar el remitent?
 
 El perfil de l'usuari mostra alguna informació addicional:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR"
-  code button on another device to scan this code.  If both devices are online
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
   they will introduce a chat channel with each other (if it doesn't exist already) 
   and also the encryption keys will be verified. 
 

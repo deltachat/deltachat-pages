@@ -19,9 +19,21 @@ layout: default-pt
 
 # Geral {#general}
 
-## Para quem posso escrever?
+## What is Delta Chat? 
 
-- Com o Delta Chat, você pode escrever para outros usuários do Delta Chat - ou qualquer outra pessoa que tenha um e-mail. Esta é uma das maiores diferenças de outros aplicativos do gênero: Não é preciso que o destinatário instale o mesmo aplicativo que você usa.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Quais são as vantagens do Delta Chat comparado a outros aplicativos do tipo?
 
@@ -38,10 +50,6 @@ layout: default-pt
 - _Fidedigno_ - pode ser usado até para mensagens comerciais
 - Totalmente de _código livre_ e _padronizado_ 
 
-## E se o destinatário não for usuário do Delta Chat?
-
-- Neste caso o destinatário vai receber um e-mail normal - se ele responder, você vai receber a mensagem no Delta Chat.
-
 ## Quais mensagens aparecem no Delta Chat?
 
 O Delta Chat automaticamente exibe ...
@@ -50,7 +58,7 @@ O Delta Chat automaticamente exibe ...
 - Mensagens de contatos **que você contatou**
 - **Respostas** a mensagens enviadas por você
 
-Outras mensagens não aparecem automaticamente. Você poderá as ver no menu princial em **Requisições de contato** e, se desejar, comece a conversar.
+Outras mensagens não aparecem automaticamente. Você poderá as ver no menu principal em **Requisições de contato** e, se desejar, comece a conversar.
 
 ## E o Spam?
 
@@ -83,7 +91,7 @@ Outras mensagens não aparecem automaticamente. Você poderá as ver no menu pri
 
 - "Grupo verificado" é uma funcionalidade experimental (Janeiro de 2019). 
   Utilizando-se de verificação participante por participante por código QR cria-se um
-  grupo verificado.  Assim, reforça-se que a criptografia e2e está segura contra ataques 
+  grupo verificado.  Assim, reforça-se que a criptografia ponta a ponta está segura contra ataques 
   do provedor ou da rede.  Porém, alguns testes e relatórios sugerem que mudanças no UX 
   e na implementação são necessárias. Discussões recentes podem ser vistas aqui: 
   https://countermitm.readthedocs.io/en/latest/new.html
@@ -106,13 +114,13 @@ Outras mensagens não aparecem automaticamente. Você poderá as ver no menu pri
 ## O Delta Chat tem criptografia ponta a ponta?
 
 - Sim. O DeltaChat implementa o padrão Autocrypt Nível 1 de modo 
-  que faz criptografia e2e com aplicativos compatíveis. 
+  que faz criptografia ponta a ponta com aplicativos compatíveis. 
 
 ## O que eu preciso fazer para ativar a criptografia ponta a ponta?
 
 - Nada.
 
-- O Delta Chat (e outros programas compatíveis com a tecnologia [Autocrypt](https://autocrypt.org)
+- O Delta Chat (e outros programas compatíveis com a tecnologia [Autocrypt](https://autocrypt.org) )
   compartilham, na primeira mensagem, as chaves necessárias para ativar a criptografia ponta a ponta.          Depois todas as mensagens posteriores são criptografadas ponta a ponta automaticamente. 
 Se um dos participantes da conversa não estiver usando um programa que comporte criptografia, a
 criptografia fica suspensa até ser reativada novamente, quando possível.
@@ -127,18 +135,19 @@ criptografia fica suspensa até ser reativada novamente, quando possível.
 
 ## Como posso me certificar de que a criptografia ponta a ponta está ativada?
 
-- Se um **cadeadozinho** for exibido ao lado da mensagem, significa que ela está criptografada ponta a pona _e_ foi enviada por um dado usuário _bem como_ sua resposta também será criptografada ponta a ponta.
+- Se um **cadeadozinho** for exibido ao lado da mensagem, significa que ela está criptografada ponta a ponta _e_ foi enviada por um dado usuário _bem como_ sua resposta também será criptografada ponta a ponta.
 
-- **Sem cadeadozinho**, a mensagem só terá criptografia de transporte, e.g., por causa que o remetente usa um aplicativo sem suporte para criptografia ponta a ponta, ou a desabilitou.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Como posso verificar se o remetente é ele mesmo?
 
 O perfil de usuário exibe algumas informações adicionais:
 
-- Você pode tocar no código QR de convite no Android e usar o botão "Scan QR"
-  no outro aparelho para escaneá-lo. Se ambos os dispositivos estiverem conectados
-  eles abrirão um chat (se ainda não existir) e então verificarão as chaves.
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
+  they will introduce a chat channel with each other (if it doesn't exist already) 
+  and also the encryption keys will be verified. 
 
 - Nas mensagens criptografadas ponta a ponta o Delta Chat exibe duas digitais. Se elas conferirem com as do destinatário, a conexão está segura.
 

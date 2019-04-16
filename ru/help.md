@@ -19,9 +19,21 @@ layout: default-ru
 
 # Общее
 
-## Кому я могу написать?
+## What is Delta Chat? 
 
-- С помощью Delta Chat вы можете написать на любой существующий адрес электронной почты, даже если получатель не использует (пока) приложение Delta Chat. Это одно из самых больших отличий от других мессенджеров: у получателя нет необходимости устанавливать то же приложение, что и у вас.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Каковы преимущества Delta Chat по сравнению с другими мессенджерами?
 
@@ -37,10 +49,6 @@ layout: default-ru
 - _Reliable_ - safe for professional use
 - _Trustworthy_ - can even be used for business messages
 - fully _Open Source_ and _Standards_ based
-
-## Что если получатель не использует Delta Chat?
-
-- Ваш адресат получит обычное электронное письмо - если он ответит на него, вы увидите ответ (в том числе отправленные файлы) в приложении Delta Chat.
 
 ## Какие сообщения отображаются в Delta Chat?
 
@@ -131,15 +139,15 @@ Delta Chat автоматически показывает ...
 
 - If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
 
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Как мне проверить отправителя?
 
 В профиле пользователя будет видна следующая информация:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR"
-  code button on another device to scan this code.  If both devices are online
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
   they will introduce a chat channel with each other (if it doesn't exist already) 
   and also the encryption keys will be verified. 
 

@@ -26,9 +26,9 @@ O Delta/Android é a versão mais estável e bem trabalhada.
 
 O Delta/Desktop é bem usável, independentemente ou em paralelo com o Android ou o iOS. 
 
-* [baixe pro Linux do flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [Baixe pro Linux do flathub](https://flathub.org/apps/details/chat.delta.desktop)
 
-* [baixe pro Mac do github](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [Baixe pro Mac do github](https://github.com/deltachat/deltachat-desktop/releases/).  
 
 * [Pendendo versões pro Windows. Precisamos de ajuda!](https://github.com/deltachat/deltachat-desktop/issues/606) 
 
@@ -47,7 +47,7 @@ Versões beta são distribuídas via Testflight.
 
 - [Página de convite do testflight](https://testflight.apple.com/join/WVoYFOZe) para o iPhone ou iPad.
 
-- [contribua para desenvolver no iOS](https://github.com/deltachat/deltachat-ios/). 
+- [Contribua para desenvolver no iOS](https://github.com/deltachat/deltachat-ios/). 
 
 - Escaneie este código QR com seu iPhone/iPad
 

@@ -14,14 +14,26 @@ layout: default-de
 - [Allgemein](#general)
 - [Gruppen](#groups)
 - [Verschlüsselung](#encryption)
-- [Multi-client](#multiclient)
+- [Multi-Client](#multiclient)
 - [Verschiedenes](#miscellaneous)
 
 # Allgemein {#general}
 
-## An wen kann ich schreiben?
+## What is Delta Chat? 
 
-- Mit Delta Chat können Sie an Benutzer, die Delta Chat verwenden, schreiben - und an Benutzer, die irgend einen anderen E-Mail-Client verwenden! Dies ist einer der größten Unterschiede zu anderen Messengern: Ihre Kontakte müssen _nicht_ denselben Messenger wie Sie verwenden.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
@@ -37,10 +49,6 @@ layout: default-de
 - _Verlässlich_ - sicher für die professionelle Anwendung.
 - _Vertrauenswürdig_ - kann selbst für geschäftliche Nachrichten verwendet werden.
 - Vollständig _Open Source_ und basierend auf _Standards_.
-
-## Was, wenn der Empfänger kein Delta Chat verwendet?
-
-- Der Empfänger erhält dann eine normale E-Mail, auf die er auch antworten kann. Seine Antwort erscheint dann wie gewohnt im Delta Chat Messenger
 
 ## Welche Nachrichten erscheinen in Delta Chat?
 
@@ -131,15 +139,17 @@ bedeutet dies, dass die Nachricht Ende-zu-Ende verschlüsselt ist
 _und_ vom angegebenen Absender gesendet wurde 
 _und_ deine Antwort ebenfalls Ende-zu-Ende verschlüsselt wird.
 
-- Wenn **kein Vorhängeschloss** vorhanden ist, wird die Nachricht normalerweise transport-verschlüsselt, z. B. weil du oder der Absender die Ende-zu-Ende-Verschlüsselung deaktiviert haben oder der Sender eine Anwendung verwendet, die keine Ende-zu-Ende-Verschlüsselung unterstützt.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Wie kann ich den Absender überprüfen?
 
 Den angegebenen Absender können Sie im Profil des Chatpartners unter der Option "Verschlüsselung" überprüfen:
 
-- Du kannst unter Android auf "QR Einladungscode" tippen und dann auf dem anderen Gerät die "QR-Code scannen"-Schaltfläche betätigen, um diesen Code zu scannen.
-Wenn beide Geräte online sind, eröffnen sie miteinander einen Chat-Kanal (falls noch nicht vorhanden) und die Schlüssel für die Verschlüsselung werden ebenfalls überprüft.
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
+  they will introduce a chat channel with each other (if it doesn't exist already) 
+  and also the encryption keys will be verified. 
 
 - Für eine Ende-zu-Ende-Verschlüsseltung zeigt Delta Chat dort zwei Fingerabdrücke. 
 Falls diese auf dem Gerät deines Chat Partners identisch sind, ist die Verbindung sicher.
@@ -179,7 +189,7 @@ E2E-verschlüsselte Nachrichten an deine Kommunikationspartner senden und von ih
 ## Funktioniert Delta Chat mit _meinem_ E-Mail-Anbieter?
 
 - Mit ziemlich hoher Wahrscheinlichkeit: Ja :) 
-Allerdings benötigen einige Anbieter besondere Optionen, um ordnungsgemäß zu funktionieren; eine von Nutzern erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://support.delta.chat/t/provider-overview/)
+Allerdings benötigen einige Anbieter besondere Optionen, um ordnungsgemäß zu funktionieren; eine von Nutzern erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://support.delta.chat/t/provider-overview/).
 
 
 ## Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?

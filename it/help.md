@@ -19,9 +19,21 @@ layout: default-it
 
 # Generali {#general}
 
-## Con chi posso comunicare?
+## What is Delta Chat? 
 
-- Con Delta Chat, è possibile comunicare con qualsiasi indirizzo email, anche se il destinatario non usa (ancora) Delta Chat. Questa è una delle più grandi differenze rispetto alle altre app di messaggistica: non c'è alcun bisogno che il destinatario installi la stessa app usata dal mittente.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Quali sono i vantaggi di Delta Chat rispetto alle altre app di messaggistica?
 
@@ -37,10 +49,6 @@ layout: default-it
 - _Solida_ - sicura per l'uso professionale
 - _Affidabile_ - può essere usata anche per messaggi aziendali
 - Completamente _Open Source_ e basata sugli _Standard_
-
-## Cosa succede se il destinatario non usa Delta Chat?
-
-- Il destinatario riceverà una normale email quindi, se quest'ultimo risponderà alla email, la risposta verrà mostrata in Delta Chat.
 
 ## Quali messaggi vengono mostrati in Delta Chat?
 
@@ -131,17 +139,17 @@ https://countermitm.readthedocs.io/en/latest/new.html
 
 - Se viene mostrato un piccolo **lucchetto** vicino al messaggio, significa che questo è cifrato end-to-end _e_ è inviato dal mittente dato _e_ anche la tua risposta sarà cifrata end-to-end.
 
-- Se non c'è **nessun lucchetto**, il messaggio è solitamente cifrato solo nel trasporto, ad es. perché tu o il destinatario avete disabilitato la cifratura end-to-end o il mittente usa un'app che non la supporta.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Come posso verificare il mittente?
 
 Seleziona "Crittografia" dal profilo utente:
 
-- Puoi selezionare "Codice di invito QR" su Android e usare la "Scansione codice QR"
-  su un altro dispositivo per scansionare il codice.  Se entrambi i dispositivi sono connessi
-  verrà creata una chat con entrambi i partecipanti (se non è già presente) 
-  e verranno anche verificate le chiavi di cifratura. 
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
+  they will introduce a chat channel with each other (if it doesn't exist already) 
+  and also the encryption keys will be verified. 
 
 - Per la cifratura end-to-end, Delta Chat mostra due impronte qui.
   Se sono identiche a quelle sul dispositivo del tuo interlocutore, la connessione è sicura.

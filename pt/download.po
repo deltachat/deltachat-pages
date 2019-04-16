@@ -75,7 +75,7 @@ msgid ""
 "* [download for Linux from "
 "flathub](https://flathub.org/apps/details/chat.delta.desktop)"
 msgstr ""
-"* [baixe pro Linux do "
+"* [Baixe pro Linux do "
 "flathub](https://flathub.org/apps/details/chat.delta.desktop)"
 
 #: ../en/download.md:26
@@ -83,7 +83,7 @@ msgid ""
 "* [download for Mac from our github release "
 "page](https://github.com/deltachat/deltachat-desktop/releases/).  "
 msgstr ""
-"* [baixe pro Mac do github](https://github.com/deltachat/deltachat-"
+"* [Baixe pro Mac do github](https://github.com/deltachat/deltachat-"
 "desktop/releases/).  "
 
 #: ../en/download.md:28
@@ -146,7 +146,7 @@ msgid ""
 "- [contribute to iOS development](https://github.com/deltachat/deltachat-"
 "ios/). "
 msgstr ""
-"- [contribua para desenvolver no iOS](https://github.com/deltachat"
+"- [Contribua para desenvolver no iOS](https://github.com/deltachat"
 "/deltachat-ios/). "
 
 #: ../en/download.md:47

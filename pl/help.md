@@ -19,9 +19,21 @@ layout: default-pl
 
 # Główne
 
-## Do kogo mogę pisać?
+## What is Delta Chat? 
 
-- Dzięki Delta Chat możesz pisać na każdy istniejący adres e-mail - nawet jeśli odbiorca nie korzysta (jeszcze) z aplikacji Delta Chat. Jest to jedna z największych różnic w stosunku do innych komunikatorów: Nie ma potrzeby, aby odbiorca instalował tę samą aplikację, co ty.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Jakie są zalety Delta Chat w porównaniu z innymi komunikatorami?
 
@@ -37,10 +49,6 @@ layout: default-pl
 - _Niezawodny_ - bezpieczny do użytku profesjonalnego
 - _Godny zaufania_ - może być wykorzystywany nawet do wiadomości biznesowych
 - W pełni _otwarto-źródłowy_ i _oparty na standardach_
-
-## Co jeśli odbiorca nie używa Delta Chat?
-
-- Odbiorca otrzyma normalny e-mail - jeśli odpowie na niego, zobaczysz odpowiedź w aplikacji Delta Chat.
 
 ## Jakie wiadomości pojawiają się w Delta Chat?
 
@@ -123,14 +131,17 @@ Zweryfikowana grupa jest funkcją eksperymentalną (od stycznia 2019 r.). Dodaj�
 
 - Jeśli obok wiadomości pojawi się mała **kłódka**, oznacza to, że wiadomość jest szyfrowana metodą end-to-end _i_ jest wysłana od danego nadawcy _i_ twoja odpowiedź będzie również szyfrowana metodą end-to-end.
 
-- Jeśli **nie ma kłódki**, wiadomość używa zwykłego szyfrowania transportu, np. ponieważ ty lub nadawca wyłączyliście szyfrowanie metodą end-to-end, lub gdy nadawca używa aplikacji, która nie obsługuje szyfrowania metodą end-to-end.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Jak mogę zweryfikować nadawcę?
 
 Profil użytkownika zawiera dodatkowe informacje:
 
-- Możesz nacisnąć na Androidzie „Kod QR zaproszenia”, a następnie użyć przycisku „Skanuj kod QR” na innym urządzeniu, aby zeskanować ten kod. Jeśli oba urządzenia są w trybie online, nawiążą ze sobą czat (jeśli jeszcze nie istnieje), a także zostaną zweryfikowane klucze szyfrowania. 
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
+  they will introduce a chat channel with each other (if it doesn't exist already) 
+  and also the encryption keys will be verified. 
 
 - W przypadku szyfrowania metodą end-to-end Delta Chat pokazuje tam dwa odciski palców. 
   Jeśli są takie same na urządzeniu twojego partnera czatu, połączenie jest bezpieczne
