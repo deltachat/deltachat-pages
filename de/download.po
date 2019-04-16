@@ -3,8 +3,8 @@
 # T M <graue70@posteo.de>, 2019
 # Sebastian Schmitt <schmitt.sebastian@mailbox.org>, 2019
 # happyreacer <c.dummert@googlemail.com>, 2019
-# Moni P. <monitx@deltachat.de>, 2019
 # björn petersen <r10s@b44t.com>, 2019
+# Moni P. <monitx@deltachat.de>, 2019
 # W R, 2019
 # Sven, 2019
 # 

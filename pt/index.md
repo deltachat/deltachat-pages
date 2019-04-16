@@ -19,8 +19,8 @@ Dê uma olhada na nossa [declaração de conformidade com o GDPR](gdpr).
 **O Delta Chat não tem um servidor próprio** pois usa o mais diverso e massivo sistema aberto 
 de mensagens: o sistema de e-mails já existente.
 
-**Converse com quaisquer pessoas que você saiba o e-mail, elas não precisarão instalar o DeltaChat!!** 
-Tudo o que você precisa é uma conta de e-mail normal.
+**Converse com as pessoas que você saiba o e-mail, elas não precisarão instalar o DeltaChat!!** 
+Só é preciso uma conta normal de e-mail.
 
 
 # Screenshots do Android, Desktop e iOS 

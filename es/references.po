@@ -39,6 +39,8 @@ msgid ""
 "Although Delta Chat is still in beta state, there are already some "
 "interesting articles."
 msgstr ""
+"Aunque Delta Chat todavía está en estado beta, ya hay algunos artículos "
+"interesantes."
 
 #: ../en/references.md:14
 msgid ""
@@ -47,10 +49,14 @@ msgid ""
 "Please [let us know](imprint)\n"
 "or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)."
 msgstr ""
+"Esta lista está incompleta -\n"
+"¿nos ha faltado algo?\n"
+"Por favor [háganoslo saber](imprint)\n"
+"o simplemente haga un [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)."
 
 #: ../en/references.md:17
 msgid "## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat"
-msgstr ""
+msgstr "## El blog de Mozilla Thunderbird: FOSDEM 2019 and DeltaChat"
 
 #: ../en/references.md:19
 msgid ""

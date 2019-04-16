@@ -11,15 +11,15 @@ layout: default-es
 
 # Referencias
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
+Aunque Delta Chat todavía está en estado beta, ya hay algunos artículos interesantes.
 
-This list is far from being complete -
-do we have missed something?
-Please [let us know](imprint)
-or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Esta lista está incompleta -
+¿nos ha faltado algo?
+Por favor [háganoslo saber](imprint)
+o simplemente haga un [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
+## El blog de Mozilla Thunderbird: FOSDEM 2019 and DeltaChat
 
 03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-deltachat/>
 

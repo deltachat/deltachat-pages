@@ -63,8 +63,8 @@ msgid ""
 "**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** \n"
 "All you need is a standard e-mail account."
 msgstr ""
-"**Converse com quaisquer pessoas que você saiba o e-mail, elas não precisarão instalar o DeltaChat!!** \n"
-"Tudo o que você precisa é uma conta de e-mail normal."
+"**Converse com as pessoas que você saiba o e-mail, elas não precisarão instalar o DeltaChat!!** \n"
+"Só é preciso uma conta normal de e-mail."
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "

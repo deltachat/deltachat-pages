@@ -19,9 +19,21 @@ layout: default-nb
 
 # Generelt
 
-## Hvem kan jeg skrive til?
+## What is Delta Chat? 
 
-- Med Delta Chat, kan du skrive til enhver eksisterende e-postadresse - som om mottakeren ikke (enda) bruker Delta Chat-programmet. Dette er én av de største forskjellene til andre meldingsprogrammer: Mottakeren trenger ikke å installere samme program som deg.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Hva er fordelene med Delta Chat sammenlignet med andre meldingsforsendelsessystemer?
 
@@ -37,10 +49,6 @@ layout: default-nb
 - _Reliable_ - safe for professional use
 - _Trustworthy_ - can even be used for business messages
 - fully _Open Source_ and _Standards_ based
-
-## Hva om mottakeren ikke bruker Delta Chat?
-
-- Mottakeren vil da få en vanlig e-post - hvis vedkommende svarer på den, vil du se svaret i Delta Chat programmet.
 
 ## Hvilke meldinger vises i Delta Chat?
 
@@ -131,15 +139,15 @@ Andre meldinger vises ikke automatisk. Du kan se dem i hovedmenyen i **Kontaktfo
 
 - If a little **padlock** is shown beside a message, this implies that the message is end-to-end-encrypted _and_ is sent from the given sender _and_ your answer will be end-to-end-encrypted as well.
 
-- If there is **no padlock**, the message is usually transport encrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## Hvordan kan jeg bekrefte avsenderen?
 
 Brukerprofilen viser litt ekstra informasjon:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR"
-  code button on another device to scan this code.  If both devices are online
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
   they will introduce a chat channel with each other (if it doesn't exist already) 
   and also the encryption keys will be verified. 
 

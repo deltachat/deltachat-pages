@@ -19,9 +19,21 @@ layout: default-es
 
 # General
 
-## A quién podré escribir mensajes?
+## What is Delta Chat? 
 
-- Con Delta Chat puedes escribir mensajes instantáneos a cualquier dirección de correo electrónico, incluso si el destinatario no esta usando Delta Chat. Esta es una de las principales diferencias de Delta Chat con otras aplicaciones de mensajería: El receptor del mensaje no necesita tener instalada la misma aplicación que usted.
+<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+
+Delta Chat is a new chat app that uses e-mails for transfering messages. 
+If you receive a chat message just use your e-mail app to read the
+message and reply. **You are not required to sign up anywhere, go to a website
+or install Delta Chat.**
+
+## How can i find people to chat with? 
+
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat App. This is one of
+the biggest differences to other messengers: There is no need for the
+receiver to install the same app as yours.
 
 ## Cuáles son las ventajas de Delta Chat comparado con otras aplicaciones de mensajería?
 
@@ -37,10 +49,6 @@ layout: default-es
 - _Seguro_ - seguro para uso profesional
 - _Confiable_ - incluso se puede utilizar para mensajes de negocios
 - Totalmente _Código Libre_ y basado en _Standards_
-
-## ¿Qué pasa si el receptor no usa Delta Chat?
-
-- El destinatario recibirá un correo electrónico normal, y si lo responde, usted verá la respuesta en Delta Chat tal como espera.
 
 ## ¿Cuáles mensajes aparecerán en Delta Chat?
 
@@ -124,15 +132,15 @@ use la configuración correspondiente en "Ajustes / Avanzado".
 
 - Si se muestra un pequeño **candado** junto a un mensaje, esto implica que el mensaje está encriptado de extremo a extremo _y_ se envía desde el remitente dado, _y_ su respuesta también se cifrará de extremo a extremo.
 
-- Si no hay **ningún candado**, el mensaje generalmente se transporta sin cifrar, por ejemplo, porque usted o el remitente han deshabilitado el cifrado de extremo a extremo o el remitente utiliza una aplicación que no admite el cifrado de extremo a extremo.
+- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
 
 
 ## ¿Como puedo verificar el remitente?
 
 El perfile del usuario muestra información adicional:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR"
-  code button on another device to scan this code.  If both devices are online
+- You can tap "QR Invite code" on Android and then use the "scan QR code"
+  button on another device to scan this code.  If both devices are online
   they will introduce a chat channel with each other (if it doesn't exist already) 
   and also the encryption keys will be verified. 
 

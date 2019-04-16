@@ -9,10 +9,10 @@ layout: default-ca
 
 
 
-# Channels and repositories
+# Canals i repositoris
 
-- [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support.
+- [Fòrum de suport de Delta Chat](https://support.delta.chat) per converses més extenses
+  sobre funcionalitats i per rebre suport.
 
 - [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
 
@@ -23,7 +23,7 @@ layout: default-ca
 - [Delta Chat repositories](https://github.com/deltachat/) where you can 
   find the code for DeltaChat apps and this web site.
 
-# Translations and Bug Reports 
+# Traduccions i informes d'errors
 
 - [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
@@ -35,9 +35,9 @@ We are always looking for developers who want to help along and are familiar wit
 C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
 
 
-# Donate Money or devices
+# Donació de calés o dispositius
 
-If you want to support DeltaChat with money:
+Si voleu recolzar DeltaChat amb diners:
 
 - IBAN DE86100777770428658900, Propietari del compte (si us plau especifiqueu sempre): Björn Petersen, BIC NORSDE51XXX
 - PayPal o targeta de crèdit: [paypal.me/deltachat](https://paypal.me/deltachat/20)
