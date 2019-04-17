@@ -23,12 +23,12 @@ tlangs=(ca de es fr it nb_NO pl pt ru sq uk)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
-	rm -r tools/translations
+	rm -r translations
 	tx pull -a   # -a = fetch all translationss, -s = fetches source
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
-			pofile="${tlang:0:2}/${sfile}.po"
-			cp "tools/translations/delta-chat-pages.${sfile}po/${tlang}.po" $pofile
+			pofile="../${tlang:0:2}/${sfile}.po"
+			cp "translations/delta-chat-pages.${sfile}po/${tlang}.po" $pofile
 		done
 	done
 }
@@ -41,7 +41,7 @@ push_po_sources_to_tx() {
 
 create_po_sources() {
 	for sfile in ${sfiles[@]}; do
-		txt2po --progress=none "en/${sfile}.md" "tools/translations/delta-chat-pages.${sfile}po/en.po"
+		txt2po --progress=none "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/en.po"
 	done
 }
 
@@ -50,9 +50,9 @@ create_markdown_files() {
 	echo "Creating markdown files from the translated po-files ..."
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
-			pofile="${tlang:0:2}/${sfile}.po"
-			mdfile="${tlang:0:2}/${sfile}.md"
-			po2txt --progress=none --template="en/${sfile}.md" $pofile $mdfile
+			pofile="../${tlang:0:2}/${sfile}.po"
+			mdfile="../${tlang:0:2}/${sfile}.md"
+			po2txt --progress=none --template="../en/${sfile}.md" $pofile $mdfile
 			sed -i "0,/^$/ s/^$/\n\n\n<!-- GENERATED FILE -- DO NOT EDIT -->\n\n\n/" $mdfile # add a comment in the first empty line (with `0,/^$/` you select all lines until the re matches)
 		done
 	done	
@@ -61,18 +61,18 @@ create_markdown_files() {
 
 create_html_files() {
 	# if you want to rebuild the html files when markdown is updated,
-	# create the file ./tools/create-html.prv.sh with the following content:
-	# `jekyll build --destination <html-folder>; echo "Options +MultiViews" > <html-folder>/.htaccess;`  
-	if [ -f ./tools/create-html.prv.sh ]; then
+	# crete the file ./jekyll-build-local.prv.sh with the following content:
+	# `cd ..; jekyll build --destination <html-folder>; echo "Options +MultiViews" > <html-folder>/.htaccess; cd tools`  
+	if [ -f ./create-html.prv.sh ]; then
 		echo "Creating html-files from the markdown files ..."
-		./tools/create-html.prv.sh
+		./create-html.prv.sh
 	fi
 }
 
 
 reset_markdown_files() {
 	for tlang in ${tlangs[@]}; do
-		git checkout "${tlang:0:2}/"
+		git checkout "../${tlang:0:2}/"
 	done
 }
 
@@ -95,9 +95,9 @@ elif [ $1 == "reset-md" ]; then
 	reset_markdown_files
 	create_html_files
 else
-	echo "pull translations: ./tools/t-dance pull"
-	echo "push sources:      ./tools/t-dance push"
-	echo "debug usage:       ./tools/t-dance {create-po-sources|create-md|reset-md}"
-	echo "to push a single language, copy the files to tools/translations/delta-chat-pages.<file>po/<lang>.po and call: tx push -t -l <lang>"
+	echo "pull translations: ./t-dance pull"
+	echo "push sources:      ./t-dance push"
+	echo "debug usage:       ./t-dance {create-po-sources|create-md|reset-md}"
+	echo "to push a single language, copy the files to translations/delta-chat-pages.<file>po/<lang>.po and call: tx push -t -l <lang>"
 fi
 
