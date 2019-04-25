@@ -14,7 +14,7 @@ Check out our [GDPR data protection compliancy statement](gdpr).
 All you need is your own standard e-mail account login.
 
 **Delta Chat doesn't make you use its own servers**, it uses the most massive and diverse, federated open messaging 
-system ever: the existing e-mail server network.
+system ever: the existing e-mail server network. It only creates a separate subfolder on your e-mail account.
 
 
 # Screenshots Android, Desktop and iOS 
