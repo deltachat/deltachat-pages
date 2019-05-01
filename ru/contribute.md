@@ -20,8 +20,8 @@ layout: default-ru
   рассылок](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   для обсуждения сообществом и новостей .
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  find the code for DeltaChat apps and this web site.
+- [Репозитории Delta Chat](https://github.com/deltachat/) где вы сможете 
+  найти исходный код приложения DeltaChat и веб сайта.
 
 # Переводы и Рапорты об ошибках
 

@@ -66,3 +66,11 @@ _"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client."_
 _"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen kann [...]"_
 
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>
+
+## Wissensarbeiter Jochen Plikat
+
+_"Zur Zukunft von SMS, WhatsApp & Co. (3)"_
+
+30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/>
+
+
