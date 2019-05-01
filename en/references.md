@@ -65,6 +65,6 @@ _"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstel
 
 _"Zur Zukunft von SMS, WhatsApp & Co. (3)"_
 
-15.10.2017, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/>
+30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/>
 
 
