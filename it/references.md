@@ -66,3 +66,11 @@ _"Delta Chat funziona correttamente sia come applicazione di messaggistica che c
 _"A mio avviso l'applicazione è ottima e potrei anche pensare di sostituire gradualmente tutte le altre app di messaggistica[...]"_
 
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>
+
+## Wissensarbeiter Jochen Plikat
+
+_"Zur Zukunft von SMS, WhatsApp & Co. (3)"_
+
+30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/>
+
+

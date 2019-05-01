@@ -65,6 +65,8 @@ msgid ""
 "- [Delta Chat repositories](https://github.com/deltachat/) where you can \n"
 "  find the code for DeltaChat apps and this web site."
 msgstr ""
+"- [Репозитории Delta Chat](https://github.com/deltachat/) где вы сможете \n"
+"  найти исходный код приложения DeltaChat и веб сайта."
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "

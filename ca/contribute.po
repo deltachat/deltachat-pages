@@ -47,6 +47,8 @@ msgid ""
 "- [#deltachat on freenode]({% include webirc-url %}) for day to day "
 "communications."
 msgstr ""
+"- [#deltachat a freenode]({% include webirc-url %}) per a la comunicació "
+"diària."
 
 #: ../en/contribute.md:16
 msgid ""
@@ -54,12 +56,16 @@ msgid ""
 "  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) \n"
 "  for community discussions and news."
 msgstr ""
+"- [Llista de correu de Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) \n"
+" per les converses de la comunitat i les novetats."
 
 #: ../en/contribute.md:19
 msgid ""
 "- [Delta Chat repositories](https://github.com/deltachat/) where you can \n"
 "  find the code for DeltaChat apps and this web site."
 msgstr ""
+"- [Repositoris de Delta Chat](https://github.com/deltachat/) a on pots trobar \n"
+"  el codi de les apps de DeltaChat i d'aquesta web."
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "
@@ -73,12 +79,19 @@ msgid ""
 "- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)\n"
 "- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)"
 msgstr ""
+"- [Traduccions a Transifex](https://www.transifex.com/delta-chat/public/)\n"
+"- [Incidències del Delta Chat per Android](https://github.com/deltachat/deltachat-android/issues)\n"
+"- [Incidències del Delta Chat per escriptori](https://github.com/deltachat/deltachat-desktop/issues)\n"
+"- [Incidències del Delta Chat per iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
+"- [Biblioteca de Nucli + incidències de Python](https://github.com/deltachat/deltachat-core/issues)"
 
 #: ../en/contribute.md:30
 msgid ""
 "We are always looking for developers who want to help along and are familiar with \n"
 "C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac."
 msgstr ""
+"Sempre son benvinguts desenvolupadors que ens vulguin donar un cop de ma i estiguin familiaritzats amb \n"
+"C, Rust, Java, Swift, Javascript o Python a Android, iOS, Windows, Linux o Mac."
 
 #: ../en/contribute.md:33
 msgid "# Donate Money or devices"
