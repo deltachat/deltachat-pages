@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-16 23:43+0200\n"
+"POT-Creation-Date: 2019-05-01 22:15+0200\n"
 "PO-Revision-Date: 2018-04-21 22:06+0000\n"
 "Last-Translator: Iskatel Istiny <iskatel1@gmx.com>, 2019\n"
 "Language-Team: Ukrainian (https://www.transifex.com/delta-chat/teams/76181/uk/)\n"
@@ -167,10 +167,26 @@ msgstr ""
 "vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen"
 " kann [...]\"_"
 
-#: ../en/references.md:62
+#: ../en/references.md:63
 msgid ""
 "03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
 "messenger-himmel/>"
 msgstr ""
 "03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
 "messenger-himmel/>"
+
+#: ../en/references.md:65
+msgid ""
+"## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, "
+"WhatsApp & Co. (3)"
+msgstr ""
+
+#: ../en/references.md:67
+msgid "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
+msgstr ""
+
+#: ../en/references.md:68
+msgid ""
+"30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-"
+"whatsapp-co-3/>"
+msgstr ""

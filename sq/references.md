@@ -67,7 +67,7 @@ _"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstel
 
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>
 
-## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, WhatsApp & Co. (3)
+## Wissensarbeiter Jochen Plikat (blog në gjermanisht): Zur Zukunft von SMS, WhatsApp & Co. (3)
 
 _"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
 
