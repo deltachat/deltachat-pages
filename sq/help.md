@@ -19,21 +19,21 @@ layout: default-sq
 
 # Të përgjithshme
 
-## What is Delta Chat? 
+# Ç’është Delta Chat-i?
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
-Delta Chat is a new chat app that uses e-mails for transfering messages. 
-If you receive a chat message just use your e-mail app to read the
-message and reply. **You are not required to sign up anywhere, go to a website
-or install Delta Chat.**
+Delta Chat është një aplikacion i ri fjalosjeje që përdor email-et për shpërnguljen e mesazheve. 
+Nëse merrni një mesazh fjalosjeje, thjesht përdorni aplikacionin tuaj email për ta lexuar
+mesazhin dhe për t’iu përgjigjur. **Nuk ju duhet të regjistroheni diku, të shkoni te një sajt
+apo të instaloni Delta Chat-in.**
 
-## How can i find people to chat with? 
+## Si mund të gjej njerëz për të biseduar? 
 
-With Delta Chat, you can write to every existing e-mail address - even
-if the recipient is not using the Delta Chat App. This is one of
-the biggest differences to other messengers: There is no need for the
-receiver to install the same app as yours.
+Me Delta Chat-in, mund t’i shkruani cilësdo adresë email ekzistuese - madje
+edhe nëse marrësi nuk përdor aplikacionin Delta Chat. Kjo është një nga
+dallimet më të mëdha me programe të tjera të ngjashme: S’ka nevojë që
+marrësi të instalojë të njëjtin aplikacion si ju.
 
 ## Cilat janë përparësitë e Delta Chat-it krahasuar me programe të tjerë të llojit?
 
@@ -141,17 +141,17 @@ Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni 
 
 - Nëse në krah të mesazhit shfaqet një **dry** i vockël, kjo do të thotë që mesazhi është i fshehtëzuar skaj-më-skaj _dhe_ është dërguar nga dërguesi i dhënë _dhe_ përgjigja juaj edhe ajo do të fshehtëzohet.
 
-- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- Nëse **s’ka dry**, mesazhi zakonisht transportohet i pafshehtëzuar, p.sh., ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose dërguesi përdor një aplikacion që nuk mbulon fshehtëzimin skaj-më-skaj.
 
 
 ## Si mund ta verifikoj dërguesin?
 
 Profili i përdoruesit shfaq disa të dhëna shtesë:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR code"
-  button on another device to scan this code.  If both devices are online
-  they will introduce a chat channel with each other (if it doesn't exist already) 
-  and also the encryption keys will be verified. 
+- Mund të prekni mbi "Kod Ftese QR" te Android dhe mandej përdorni butonin 
+  “skanoni kod QR” te pajisja tjetër që të skanoni këtë kod.  Nëse që të dyja 
+  pajisjet janë në linjë, do të vendosin një kanal bisede me njëra-tjetrën 
+  (nëse ky s’ekziston tashmë) dhe do të verifikohen edhe kyçet e fshehtëzimit. 
 
 - Për fshehtëzim skaj-më-skaj, Delta Chat shfaq dy shenja gishtash. 
   Nëse ata janë të njëjtë me ata te pajisja e partnerit tuaj në bisedë, lidhja është e sigurt.

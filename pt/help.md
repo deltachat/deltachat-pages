@@ -19,21 +19,21 @@ layout: default-pt
 
 # Geral {#general}
 
-## What is Delta Chat? 
+## O que é o Delta Chat? 
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
-Delta Chat is a new chat app that uses e-mails for transfering messages. 
-If you receive a chat message just use your e-mail app to read the
-message and reply. **You are not required to sign up anywhere, go to a website
-or install Delta Chat.**
+O Delta Chat é um novo aplicativo de conversas que usa e-mails para transmitir
+as mensagens. Se você receber uma mensagem pode respondê-la pelo seu
+e-mail. **Não é obrigatório fazer uma nova conta, ir a um site ou mesmo
+instalar o Delta Chat.**
 
-## How can i find people to chat with? 
+## Como encontro pessoas para conversar? 
 
-With Delta Chat, you can write to every existing e-mail address - even
-if the recipient is not using the Delta Chat App. This is one of
-the biggest differences to other messengers: There is no need for the
-receiver to install the same app as yours.
+Com o Delta Chat, você pode escrever para qualquer e-mail - mesmo
+que o destinatário não use o Delta Chat. Esta é uma das maiores
+diferenças de outros aplicativos do tipo: Não é preciso que
+o destinatário tenha o mesmo aplicativo que você.
 
 ## Quais são as vantagens do Delta Chat comparado a outros aplicativos do tipo?
 
@@ -137,17 +137,17 @@ criptografia fica suspensa até ser reativada novamente, quando possível.
 
 - Se um **cadeadozinho** for exibido ao lado da mensagem, significa que ela está criptografada ponta a ponta _e_ foi enviada por um dado usuário _bem como_ sua resposta também será criptografada ponta a ponta.
 
-- If there is **no padlock**, the message is usually transported unencrypted eg. because you or the sender have disabled end-to-end-encryption or the sender uses an app that does not support end-to-end-encryption.
+- Se **não tiver um cadeadozinho**, a mensagem será, de regra, transportada sem criptografia, p. ex., devido ela ter sido desabilitada ou um dos usuários estiver usando um aplicativo incompatível com criptografia.
 
 
 ## Como posso verificar se o remetente é ele mesmo?
 
 O perfil de usuário exibe algumas informações adicionais:
 
-- You can tap "QR Invite code" on Android and then use the "scan QR code"
-  button on another device to scan this code.  If both devices are online
-  they will introduce a chat channel with each other (if it doesn't exist already) 
-  and also the encryption keys will be verified. 
+- É possível tocar em "Código QR de convite" e, depois, em "Escanear código QR"
+nos dispositivos Android. Se ambos os dispositivos estiverem conectados
+eles irão estabelecer uma nova conversa (se ainda não existente)
+e, também, serão verificada as chaves.
 
 - Nas mensagens criptografadas ponta a ponta o Delta Chat exibe duas digitais. Se elas conferirem com as do destinatário, a conexão está segura.
 

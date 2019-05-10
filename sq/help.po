@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-16 23:43+0200\n"
+"POT-Creation-Date: 2019-05-01 22:15+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>, 2019\n"
 "Language-Team: Albanian (https://www.transifex.com/delta-chat/teams/76181/sq/)\n"
@@ -53,28 +53,52 @@ msgid "# General"
 msgstr "# Të përgjithshme"
 
 #: ../en/help.md:17
-msgid "## To whom can I write?"
-msgstr "## Kujt mund t’i shkruaj?"
+msgid "## What is Delta Chat? "
+msgstr "# Ç’është Delta Chat-i?"
 
 #: ../en/help.md:19
 msgid ""
-"- With Delta Chat, you can write to every existing e-mail address - even if "
-"the recipient is not (yet) using the Delta Chat App. This is one of the "
-"biggest differences to other messengers: There is no need for the receiver "
-"to install the same app as yours."
+"<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
+"what.png\" />"
 msgstr ""
-"- Me Delta Chat-in, mund t’i shkruani cilëso adresë email ekzistuese - edhe "
-"nëse marrësi s’e përdor ende aplikacionin Delta Chat. Ky është një nga "
-"dallimet më të mëdha me programe të tjerë të llojit: S’ka nevojë që marrësi "
-"të instalojë të njëjtin aplikacion me ju."
+"<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
+"what.png\" />"
 
-#: ../en/help.md:21
+#: ../en/help.md:24
+msgid ""
+"Delta Chat is a new chat app that uses e-mails for transfering messages. \n"
+"If you receive a chat message just use your e-mail app to read the\n"
+"message and reply. **You are not required to sign up anywhere, go to a website\n"
+"or install Delta Chat.**"
+msgstr ""
+"Delta Chat është një aplikacion i ri fjalosjeje që përdor email-et për shpërnguljen e mesazheve. \n"
+"Nëse merrni një mesazh fjalosjeje, thjesht përdorni aplikacionin tuaj email për ta lexuar\n"
+"mesazhin dhe për t’iu përgjigjur. **Nuk ju duhet të regjistroheni diku, të shkoni te një sajt\n"
+"apo të instaloni Delta Chat-in.**"
+
+#: ../en/help.md:26
+msgid "## How can i find people to chat with? "
+msgstr "## Si mund të gjej njerëz për të biseduar? "
+
+#: ../en/help.md:31
+msgid ""
+"With Delta Chat, you can write to every existing e-mail address - even\n"
+"if the recipient is not using the Delta Chat App. This is one of\n"
+"the biggest differences to other messengers: There is no need for the\n"
+"receiver to install the same app as yours."
+msgstr ""
+"Me Delta Chat-in, mund t’i shkruani cilësdo adresë email ekzistuese - madje\n"
+"edhe nëse marrësi nuk përdor aplikacionin Delta Chat. Kjo është një nga\n"
+"dallimet më të mëdha me programe të tjera të ngjashme: S’ka nevojë që\n"
+"marrësi të instalojë të njëjtin aplikacion si ju."
+
+#: ../en/help.md:33
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
 msgstr ""
 "## Cilat janë përparësitë e Delta Chat-it krahasuar me programe të tjerë të "
 "llojit?"
 
-#: ../en/help.md:34
+#: ../en/help.md:46
 msgid ""
 "- _Independent_ of any company or services. _You_ own your data.\n"
 "- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)\n"
@@ -102,27 +126,15 @@ msgstr ""
 "- _I besueshëm_ - mund të përdoret madje edhe për mesazhe biznesi\n"
 "- plotësisht me _Burim të Hapur_ dhe i bazuar në _Standarde_"
 
-#: ../en/help.md:36
-msgid "## What if the receiver does not use Delta Chat?"
-msgstr "## Po nëse marrësi nuk përdor Delta Chat-in?"
-
-#: ../en/help.md:38
-msgid ""
-"- The receiver will get a normal email then - if he replies to it, you will "
-"see the reply in the Delta Chat app."
-msgstr ""
-"- Marrësi atëherë do të marrë një email të zakonshëm - nëse i përgjigjet, "
-"përgjigjen do ta shihni te aplikacioni Delta Chat."
-
-#: ../en/help.md:40
+#: ../en/help.md:48
 msgid "## Which messages do appear in Delta Chat?"
 msgstr "## Cilat mesazhe shfaqen në Delta Chat?"
 
-#: ../en/help.md:42
+#: ../en/help.md:50
 msgid "Delta Chat automatically shows ..."
 msgstr "Delta Chat shfaq automatikisht …"
 
-#: ../en/help.md:46
+#: ../en/help.md:54
 msgid ""
 "- Messages from contacts in your **address book**\n"
 "- Messages from contacts **contacted by you**\n"
@@ -132,7 +144,7 @@ msgstr ""
 "- Mesazhe nga kontakte **të kontaktuar nga ju**\n"
 "- **Përgjigje** ndaj mesazheve dërguar nga ju"
 
-#: ../en/help.md:48
+#: ../en/help.md:56
 msgid ""
 "Other messages do not appear automatically. You can see the other messages "
 "in the main menu at **Contact requests** and, if desired, start a chat from "
@@ -142,11 +154,11 @@ msgstr ""
 " te menuja kryesore te **Kërkesa kontakti** dhe, në daçi, të filloni bisedë "
 "që prej atje."
 
-#: ../en/help.md:50
+#: ../en/help.md:58
 msgid "## What about Spam?"
 msgstr "## Po Mesazhet e Padëshiruara?"
 
-#: ../en/help.md:54
+#: ../en/help.md:62
 msgid ""
 "- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.\n"
 "- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.\n"
@@ -156,11 +168,11 @@ msgstr ""
 "- Meqë mesazhet prej kontaktesh të panjohur nuk shfaqen vetvetiu, normalisht, **s’ka mesazhe të padëshiruar**.\n"
 "- Sido qoftë, nëse duhet vërtet, mund të **bllokoni** cilindo kontakt."
 
-#: ../en/help.md:56
+#: ../en/help.md:64
 msgid "## Does Delta Chat support images, videos and other attachments?"
 msgstr "## A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?"
 
-#: ../en/help.md:58
+#: ../en/help.md:66
 msgid ""
 "- Yes. Beside the plain text, all email-attachments are displayed as "
 "separate messages. Outgoing messages will get attachments as needed "
@@ -170,11 +182,11 @@ msgstr ""
 " më vete. Mesazhet ikëse do të pranojnë vetvetiu bashkëngjitje sipas "
 "nevojës."
 
-#: ../en/help.md:60
+#: ../en/help.md:68
 msgid "## Does Delta Chat support HTML-emails?"
 msgstr "## A mbulon Delta Chat-i email-e HTML?"
 
-#: ../en/help.md:62
+#: ../en/help.md:70
 msgid ""
 "- Yes. If incoming email lacks a plain text part, we convert HTML-emails to "
 "plain text ourselves. Outgoing emails always use plain text."
@@ -183,15 +195,15 @@ msgstr ""
 "email-et HTML në tekst të thjeshtë. Email-et dërgohen përherë si tekst i "
 "thjeshtë."
 
-#: ../en/help.md:64
+#: ../en/help.md:72
 msgid "# Groups"
 msgstr "# Grupe"
 
-#: ../en/help.md:66
+#: ../en/help.md:74
 msgid "## How can I create a group?"
 msgstr "## Si mund të krijoj një grup?"
 
-#: ../en/help.md:70
+#: ../en/help.md:78
 msgid ""
 "- Select **Add group** from the \"Sandwich menu\" in the upper right corner of the chat overview.\n"
 "- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.\n"
@@ -201,11 +213,11 @@ msgstr ""
 "- Te skena vijuese, përzgjidhni **anëtarët e grupit** dhe i vini shenjë kutizës në cepin e sipërm djathtas. Pas kësaj, mund të përcaktoni një **emër grupi**.\n"
 "- Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjen te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët)."
 
-#: ../en/help.md:72
+#: ../en/help.md:80
 msgid "## How to add members to a group?"
 msgstr "## Si të shtohen anëtarë te një grup?"
 
-#: ../en/help.md:75
+#: ../en/help.md:83
 msgid ""
 "- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.\n"
 "- To add or delete members, click on the group name in the chat."
@@ -213,11 +225,11 @@ msgstr ""
 "- Çdo anëtar i grupit ka **të njëjtat të drejta** si kushdo tjetër. Për këtë arsye, gjithkush mund të fshijë cilindo anëtar ose të shtojë të rinj.\n"
 "- Për të shtuar ose fshirë anëtarë, klikoni mbi emrin e grupit te biseda."
 
-#: ../en/help.md:77
+#: ../en/help.md:85
 msgid "## What is a verified group?"
 msgstr "## Ç’është një grup i verifikuar?"
 
-#: ../en/help.md:84
+#: ../en/help.md:92
 msgid ""
 "- A \"verified group\" is an experimental feature (as of January 2019). \n"
 "  By adding one another through QR-code scans a group of \"verified\" members can talk \n"
@@ -234,11 +246,11 @@ msgstr ""
 "  dhe të sendërtimit ia vlejnë. Diskutimet më të freskëta mund të gjenden këtu: \n"
 "  https://countermitm.readthedocs.io/en/latest/new.html"
 
-#: ../en/help.md:86
+#: ../en/help.md:94
 msgid "## I have deleted myself by accident."
 msgstr "## Fshiva veten padashje."
 
-#: ../en/help.md:89
+#: ../en/help.md:97
 msgid ""
 "- As you're no longer a group member now, you cannot add yourself again. \n"
 "  However, no problem, just ask any other group member in a normal chat to add you again."
@@ -246,11 +258,11 @@ msgstr ""
 "- Ngaqë s’jeni më anëtar i grupit, s’mund të shtoni veten sërish. \n"
 "  Megjithatë, s’ka problem, thjesht kërkojini një anëtari tjetër të grupit në një fjalosje të zakonshme t’ju shtojë sërish."
 
-#: ../en/help.md:91
+#: ../en/help.md:99
 msgid "## I do not want to receive the messages of a group any longer."
 msgstr "## S’dua t’i marr më mesazhet e një grupi."
 
-#: ../en/help.md:94
+#: ../en/help.md:102
 msgid ""
 "- Either delete yourself from the member list or delete the whole chat. \n"
 "  If you want to join the group later again, ask another group member to add you again."
@@ -258,7 +270,7 @@ msgstr ""
 "- Ose fshini veten nga grupi si anëtar i listës, ose fshini krejt bisedën. \n"
 "  Nëse doni të ribëheni pjesë e grupit, kërkojini një anëtari tjetër të grupit t’ju shtojë sërish."
 
-#: ../en/help.md:97
+#: ../en/help.md:105
 msgid ""
 "- As an alternative, you can also \"Mute\" a group - doing so, you'll get all messages and \n"
 "  can still write but you're no longer notified of any new messages."
@@ -266,15 +278,15 @@ msgstr ""
 "- Ndryshe, mundeni edhe ta \"Heshtoni\" një grup - duke bërë këtë, do të merrni krejt mesazhet dhe \n"
 "  prapë mund të shkruani, por nuk njoftoheni më për çfarëdo mesazhesh të rinj."
 
-#: ../en/help.md:99
+#: ../en/help.md:107
 msgid "# Encryption {#encryption}"
 msgstr "# Fshehtëzim {#encryption}"
 
-#: ../en/help.md:101
+#: ../en/help.md:109
 msgid "## Does Delta Chat support end-to-end-encryption?"
 msgstr "## A ka Delta Chat-i fshehtëzim skaj-më-skaj?"
 
-#: ../en/help.md:104
+#: ../en/help.md:112
 msgid ""
 "- Yes. DeltaChat implements the Autocrypt Level 1 standard and can \n"
 "  thus e2e-encrypt messages with other Autocrypt-capable apps. "
@@ -283,15 +295,15 @@ msgstr ""
 "  dhe është pra në gjendje të fshehtëzojë mesazhe me e2e-n \n"
 "  përmes aplikacionesh të tjera të afta të përdorin Autocrypt-in. "
 
-#: ../en/help.md:106
+#: ../en/help.md:114
 msgid "## What do I have to do to activate the end-to-end-encryption?"
 msgstr "## Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?"
 
-#: ../en/help.md:108
+#: ../en/help.md:116
 msgid "- Nothing."
 msgstr "- Asgjë."
 
-#: ../en/help.md:115
+#: ../en/help.md:123
 msgid ""
 "- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible\n"
 "  e-mail apps) share the keys required for end-to-end-encryption automatically \n"
@@ -307,7 +319,7 @@ msgstr ""
 "  në bisedë, më pas, përdor një aplikacion email që nuk mbulon Autocrypt-in, \n"
 "  mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë për Autocrypt-in. "
 
-#: ../en/help.md:118
+#: ../en/help.md:126
 msgid ""
 "- If you want to _deactivate_ the end-to-end-encryption, \n"
 "  use the corresponding setting at \"Settings / Advanced settings\"."
@@ -315,25 +327,25 @@ msgstr ""
 "- Nëse doni të _çaktivizohet_ fshehtëzimi skaj-më-skaj, \n"
 "  përdorni fushën përkatës te \"Rregullime / Rregullime të mëtejshme\"."
 
-#: ../en/help.md:120
+#: ../en/help.md:128
 msgid ""
 "## If end-to-end-encryption is not available, is the connection not "
 "encrypted at all?"
 msgstr ""
 "## Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?"
 
-#: ../en/help.md:122
+#: ../en/help.md:130
 msgid ""
 "- No. With most e-mail servers _transport encryption_ (TLS) is used then."
 msgstr ""
 "- Jo. Me shumicën e shërbyesve për email, në këtë rast, përdoret _transport "
 "encryption_ (TLS)."
 
-#: ../en/help.md:125
+#: ../en/help.md:133
 msgid "## How can I check the encryption?"
 msgstr "## Si mund ta kontrolloj fshehtëzimin?"
 
-#: ../en/help.md:127
+#: ../en/help.md:135
 msgid ""
 "- If a little **padlock** is shown beside a message, this implies that the "
 "message is end-to-end-encrypted _and_ is sent from the given sender _and_ "
@@ -343,29 +355,28 @@ msgstr ""
 "mesazhi është i fshehtëzuar skaj-më-skaj _dhe_ është dërguar nga dërguesi i "
 "dhënë _dhe_ përgjigja juaj edhe ajo do të fshehtëzohet."
 
-#: ../en/help.md:129
+#: ../en/help.md:137
 msgid ""
-"- If there is **no padlock**, the message is usually transport encrypted eg."
-" because you or the sender have disabled end-to-end-encryption or the sender"
-" uses an app that does not support end-to-end-encryption."
+"- If there is **no padlock**, the message is usually transported unencrypted"
+" eg. because you or the sender have disabled end-to-end-encryption or the "
+"sender uses an app that does not support end-to-end-encryption."
 msgstr ""
-"- Nëse **s’ka dry**, zakonisht mesazhi udhëton me transport të fshehtëzuar ,"
-" p.sh., ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, "
-"ose sepse përdoruesi përdor një aplikacion që nuk e mbulon fshehtëzimin "
-"skaj-më-skaj."
+"- Nëse **s’ka dry**, mesazhi zakonisht transportohet i pafshehtëzuar, p.sh.,"
+" ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose "
+"dërguesi përdor një aplikacion që nuk mbulon fshehtëzimin skaj-më-skaj."
 
-#: ../en/help.md:132
+#: ../en/help.md:140
 msgid "## How can I verify the sender?"
 msgstr "## Si mund ta verifikoj dërguesin?"
 
-#: ../en/help.md:134
+#: ../en/help.md:142
 msgid "The user's profile shows some additional information:"
 msgstr "Profili i përdoruesit shfaq disa të dhëna shtesë:"
 
-#: ../en/help.md:139
+#: ../en/help.md:147
 msgid ""
-"- You can tap \"QR Invite code\" on Android and then use the \"scan QR\"\n"
-"  code button on another device to scan this code.  If both devices are online\n"
+"- You can tap \"QR Invite code\" on Android and then use the \"scan QR code\"\n"
+"  button on another device to scan this code.  If both devices are online\n"
 "  they will introduce a chat channel with each other (if it doesn't exist already) \n"
 "  and also the encryption keys will be verified. "
 msgstr ""
@@ -374,7 +385,7 @@ msgstr ""
 "  pajisjet janë në linjë, do të vendosin një kanal bisede me njëra-tjetrën \n"
 "  (nëse ky s’ekziston tashmë) dhe do të verifikohen edhe kyçet e fshehtëzimit. "
 
-#: ../en/help.md:142
+#: ../en/help.md:150
 msgid ""
 "- For an end-to-end-encryption, Delta Chat shows two fingerprints there. \n"
 "  If they are the same on the device of your chat partner, the connection is safe."
@@ -382,25 +393,25 @@ msgstr ""
 "- Për fshehtëzim skaj-më-skaj, Delta Chat shfaq dy shenja gishtash. \n"
 "  Nëse ata janë të njëjtë me ata te pajisja e partnerit tuaj në bisedë, lidhja është e sigurt."
 
-#: ../en/help.md:144
+#: ../en/help.md:152
 msgid "- For transport encryption, this state is just shown there"
 msgstr "- Për fshehtëzim të transportit, gjendja thjesht tregohet atje"
 
-#: ../en/help.md:147
+#: ../en/help.md:155
 msgid "## Which standards are used for end-to-end-encryption?"
 msgstr "## Cilët standarde përdoren për fshehtëzim skaj-më-skaj?"
 
-#: ../en/help.md:149
+#: ../en/help.md:157
 msgid ""
 "- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org)."
 msgstr ""
 "- OpenPGP. Transporti i kyçeve bëhet mes [Autocrypt](https://autocrypt.org)."
 
-#: ../en/help.md:151
+#: ../en/help.md:159
 msgid "## Can I re-use my existing private key?"
 msgstr "## A mund të ripërdor kyçin tim ekzistues privat?"
 
-#: ../en/help.md:153
+#: ../en/help.md:161
 msgid ""
 "- Yes. The best way is to send an Autocrypt Setup Message from the other "
 "e-mail client. Look for sth. like **Start Autocrypt Setup Transfer** in the "
@@ -411,7 +422,7 @@ msgstr ""
 "Transfer** te rregullimet e klientit tjetër dhe ndiqni udhëzimet e dhëna "
 "atje."
 
-#: ../en/help.md:155
+#: ../en/help.md:163
 msgid ""
 "- Alternatively, you can import the key manually at \"Advanced settings / "
 "Manage private keys\". Caution: Make sure, the key is not protected by a "
@@ -421,7 +432,7 @@ msgstr ""
 " Administroni kyçe private\". Kujdes: Sigurohuni që kyçi nuk mbrohet me "
 "fjalëkalim, në të kundërt hiqjani."
 
-#: ../en/help.md:157
+#: ../en/help.md:165
 msgid ""
 "If you don't have a key or don't even know you would need one - don't worry:"
 " Delta Chat generates one as needed, you don't have to hit a button for it. "
@@ -430,17 +441,17 @@ msgstr ""
 " merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të "
 "bërë. "
 
-#: ../en/help.md:159
+#: ../en/help.md:167
 msgid "# Multi-client {#multiclient}"
 msgstr "# Multi-klient {#multiclient}"
 
-#: ../en/help.md:161
+#: ../en/help.md:169
 msgid "## Can I use Delta Chat on multiple devices the same time?"
 msgstr ""
 "## A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën "
 "kohë?"
 
-#: ../en/help.md:164
+#: ../en/help.md:172
 msgid ""
 "If you want to use the **same account** on different (Autocrypt\n"
 "capable) devices, you have to synchronize their encryption capabilities: "
@@ -448,7 +459,7 @@ msgstr ""
 "Nëse doni të përdorni **të njëjtën llogari** në pajisje të ndryshme (të afta \n"
 "për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim: "
 
-#: ../en/help.md:167
+#: ../en/help.md:175
 msgid ""
 "- On the first device, choose \"Advanced settings / Send Autocrypt Setup message\" \n"
 "  and click until a \"security number\" is shown. "
@@ -456,7 +467,7 @@ msgstr ""
 "- Në pajisjen e parë, zgjidhni \"Rregullime të mëtejshme / Dërgo mesazh Rregullimi Autocrypt-i\" \n"
 "  dhe klikoni derisa të shfaqet një \"numër sigurie\". "
 
-#: ../en/help.md:170
+#: ../en/help.md:178
 msgid ""
 "- On the other device, wait for the \"Autocrypt Setup Message\" to\n"
 "  arrive and click on it which should prompt you for the security number. "
@@ -464,7 +475,7 @@ msgstr ""
 "- Në pajisjen tjetër, pritni të mbërrijë \"Mesazh Rregullimi Autocrypt-i\" \n"
 "  dhe klikoni mbi të, që do të duhej t’ju kërkonte numrin e sigurisë. "
 
-#: ../en/help.md:173
+#: ../en/help.md:181
 msgid ""
 "- you are now successfully synchronized and can use both devices for\n"
 "  sending and receiving e2e-encrypted messages with your communication partners. "
@@ -472,15 +483,15 @@ msgstr ""
 "- tani jeni i njëkohësuar me sukses dhe mund të përdorni që të dyja pajisjet për\n"
 "  marrje dhe dërgim mesazhesh, të fshehtëzuar nën e2e, me partnerët tuaj në komunikim. "
 
-#: ../en/help.md:175
+#: ../en/help.md:183
 msgid "# Miscellaneous"
 msgstr "# Të ndryshme"
 
-#: ../en/help.md:177
+#: ../en/help.md:185
 msgid "## Does Delta Chat work with _my_ e-mail-provider?"
 msgstr "## A funksionon Delta Chat me shërbimin tim email?"
 
-#: ../en/help.md:180
+#: ../en/help.md:188
 msgid ""
 "- With a rather good chance: Yes :)  \n"
 "  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)"
@@ -488,12 +499,12 @@ msgstr ""
 "- Shumë gjasa janë që: Po :)  \n"
 "  Sidoqoftë, disa shërbime lypin mundësi speciale për të punuar si duhet; përdoruesit kanë grumbulluar disa prej tyre te forumi në [Përmbledhje Shërbimesh](https://support.delta.chat/t/provider-overview/)"
 
-#: ../en/help.md:183
+#: ../en/help.md:191
 msgid "## I'm interested in the technical details. Can you tell me more?"
 msgstr ""
 "## Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?"
 
-#: ../en/help.md:184
+#: ../en/help.md:192
 msgid ""
 "- See page [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""
