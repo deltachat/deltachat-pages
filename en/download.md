@@ -20,13 +20,11 @@ Delta/Android is the most feature-rich and stable Delta Chat app.
 
 Delta/Desktop is well usable and can be operated standalone or in conjunction with Android or iOS. 
 
-* [download for Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/)
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
 
-* [download for Mac from our github release page (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
 
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
-
-* Windows support pending, help welcome! 
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
 
 * [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
 
