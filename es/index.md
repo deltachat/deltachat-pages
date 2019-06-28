@@ -33,5 +33,5 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" />
 
-Por favor, consulte nuestra [publicación acerca de la versión liberada en enero del 2019](../en/2019-01-27-releases) para más información.
+Por favor, consulte nuestra [blog](blog) para más información.
 
