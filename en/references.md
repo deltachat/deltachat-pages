@@ -69,7 +69,7 @@ _"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
 30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/> 
 
 
-## Mobilsicher.de (german mmobil security website) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
+## Mobilsicher.de (german mobil security website) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
 
 _"Delta.Chat: Sicher und dezentral – geht das?"_
 
