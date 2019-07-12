@@ -14,25 +14,24 @@ layout: default-ca
 - [Fòrum de suport de Delta Chat](https://support.delta.chat) per converses més extenses
   sobre funcionalitats i per rebre suport.
 
-- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
+- [#deltachat a freenode]({% include webirc-url %}) per a la comunicació diària.
 
-- [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
-  for community discussions and news.
+- [Llista de correu de Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+ per les converses de la comunitat i les novetats.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  find the code for DeltaChat apps and this web site.
+- [Repositoris de Delta Chat](https://github.com/deltachat/) a on pots trobar 
+  el codi de les apps de DeltaChat i d'aquesta web.
 
 # Traduccions i informes d'errors
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)
+- [Traduccions a Transifex](https://www.transifex.com/delta-chat/public/)
+- [Incidències del Delta Chat per Android](https://github.com/deltachat/deltachat-android/issues)
+- [Incidències del Delta Chat per escriptori](https://github.com/deltachat/deltachat-desktop/issues)
+- [Incidències del Delta Chat per iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Biblioteca de Nucli + incidències de Python](https://github.com/deltachat/deltachat-core/issues)
 
-We are always looking for developers who want to help along and are familiar with 
-C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
+Sempre son benvinguts desenvolupadors que ens vulguin donar un cop de ma i estiguin familiaritzats amb 
+C, Rust, Java, Swift, Javascript o Python a Android, iOS, Windows, Linux o Mac.
 
 
 # Donació de calés o dispositius

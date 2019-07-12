@@ -66,3 +66,9 @@ _ "Delta Chat fonctionne bien - en tant que messagerie et en tant que client cou
 _ "Pour moi, le tout semble très bien jusqu'ici et je pourrais imaginer que je puisse remplacer progressivement tous les autres messageries instantanées[...]" _
 
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>
+
+## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, WhatsApp & Co. (3)
+
+_"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
+
+30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/>

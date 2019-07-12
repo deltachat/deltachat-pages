@@ -18,8 +18,8 @@ Check out our [GDPR compliancy statement](gdpr).
 
 **У Delta Chat нет собственных серверов**, вместо них используется самая большая и распределенная открытая система обмена сообщениями: существующая сеть серверов электронной почты.
 
-**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
-All you need is a standard e-mail account.
+**Обменивайтесь сообщениями со всеми, чей адрес их электронной почты вы знаете, нет необходимости устанавливать приложение DeltaChat!** 
+Всё что вам нужно, это стандартный аккаунт электронной почты.
 
 
 # Скриншоты Android, ПК и iOS 

@@ -32,5 +32,4 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-Bitte lesen Sie auch unseren [Januar 2019 Release Blog Post](../en/2019-01-27-Releases), um Informationen zu aktuellen Versionen zu bekommen.
-
+Auf unserem [Blog](blog) informieren wir über aktuelle Versionen und Events. 
