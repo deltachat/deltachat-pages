@@ -27,7 +27,7 @@ layout: default-en
 - Creates **no additional information requirements** for the controller towards direct or indirect data subjects 
   regarding any collection of address-book-data, article 13, 14 GDPR.
 
-- Needs **no data protection impact assessment**  to be carry out for Delta Chat (Article 35 GDPR), because it processes no particular additional data beyond E-Mail messenging.
+- Needs **no data protection impact assessment**  to be carried out for Delta Chat (Article 35 GDPR), because it processes no particular additional data beyond E-Mail messenging.
 
 - Adding Delta Chat's privacy measures to the 
   **record of processing activities** can have a positive impact 
