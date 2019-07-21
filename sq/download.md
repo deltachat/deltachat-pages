@@ -45,7 +45,7 @@ Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i
 Delta/iOS mbulon funksionet bazë, por jo krejt veçoritë e ofruara nga versionet Android ose Desktop. 
 Versionet Beta jepen përmes Testflight-it. 
 
-- [faqja për ftim te testflight](https://testflight.apple.com/join/WVoYFOZe) për iPhone-in ose iPad-in tuaj.
+- [faqja për ftim te testflight](https://testflight.apple.com/join/uEMc1NxS) për iPhone-in ose iPad-in tuaj.
 
 - [jepni ndihmesë te zhvillimi për iOS](https://github.com/deltachat/deltachat-ios/). 
 

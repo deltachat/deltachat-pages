@@ -45,7 +45,7 @@ Delta/Desktop jest wystarczająco funkcjonalny i może być używany samodzielni
 Delta/iOS obsługuje podstawową funkcjonalność, ale nie wszystkie funkcje oferowane przez Android lub Desktop. 
 Wersje beta są dystrybuowane za pośrednictwem Testflight.
 
-- [Strona z zaproszeniem do TestFlight](https://testflight.apple.com/join/WVoYFOZe) dla Twojego iPhona lub iPada.
+- [Strona z zaproszeniem do TestFlight](https://testflight.apple.com/join/uEMc1NxS) dla Twojego iPhona lub iPada.
 
 - [Przyczyń się do rozwoju iOS](https://github.com/deltachat/deltachat-ios/). 
 
