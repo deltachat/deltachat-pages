@@ -45,7 +45,7 @@ Delta/Desktop ist gut verwendbar und kann einzeln oder in Verbindung mit Android
 Delta/iOS unterstützt grundlegende Funktionen, aber nicht alle Features, die für Android oder Desktop angeboten werden. 
 Betas werden über Testflight verteilt.
 
-- [testflight Einladungsseite](https://testflight.apple.com/join/WVoYFOZe) für Ihr iPhone oder iPad.
+- [testflight Einladungsseite](https://testflight.apple.com/join/uEMc1NxS) für Ihr iPhone oder iPad.
 
 - [zur Entwicklung für iOS beitragen](https://github.com/deltachat/deltachat-ios/). 
 

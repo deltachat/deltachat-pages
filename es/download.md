@@ -44,7 +44,7 @@ Delta/Desktop es fácil de usar y puede utilizarse de forma independiente o en c
 
 Delta/iOS soporta funcionalidades básicas, pero no todas las funcionalidades que ofrece Android o la versión de escritorio.
 
-- [página de invitación de testflight](https://testflight.apple.com/join/WVoYFOZe) para tu iPhone o iPad.
+- [página de invitación de testflight](https://testflight.apple.com/join/uEMc1NxS) para tu iPhone o iPad.
 
 - [contribuir al desarrollo en iOS](https://github.com/deltachat/deltachat-ios/). 
 

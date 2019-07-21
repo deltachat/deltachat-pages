@@ -45,7 +45,7 @@ Delta/Desktop хорошо для использовать на персонал
 Delta/iOS поддерживает базовые функции, но не все, что предоставлены в версиях для  для Android or Desktop. 
 Беты предоставлены через Тестовый Полёт . 
 
-- [страница, приглашение для тестовых полётов](https://testflight.apple.com/join/WVoYFOZe) для вашего iPhone или iPad.
+- [страница, приглашение для тестовых полётов](https://testflight.apple.com/join/uEMc1NxS) для вашего iPhone или iPad.
 
 - [помощь в разработке iOS](https://github.com/deltachat/deltachat-ios/). 
 
