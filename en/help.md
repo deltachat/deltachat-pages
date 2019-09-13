@@ -49,7 +49,7 @@ Delta Chat automatically shows:
 - Messages from contacts **contacted by you**
 - **Replies** to messages sent by you
 
-Other messages do not appear automatically, and are to be found in the main menu at **Contact requests**. If desired a chat can be started from there.
+Other messages do not appear automatically, and are to be found in the main menu at **Contact requests**. You can start a new chat from the Contact Requests view. 
 
 ## What about spam?
 
