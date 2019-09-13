@@ -43,7 +43,7 @@ recipient to install the same app as yours, as with other messengers.
 
 ## Which messages do appear in Delta Chat?
 
-Delta Chat automatically shows …
+Delta Chat automatically shows:
 
 - Messages from contacts in your **address book**
 - Messages from contacts **contacted by you**
