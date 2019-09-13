@@ -29,7 +29,7 @@ recipient to install the same app as yours, as with other messengers.
 ## What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
-- Your data are not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
+- Your data is not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
 - You do not distribute your address book to anyone.
 - _Fast_ by the use of Push-IMAP.
 - _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
