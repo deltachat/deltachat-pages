@@ -18,8 +18,7 @@ layout: default-en
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
 Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
-If not, should your e-mail app lack Autocrypt support, any message will be sent as regular e-mail.
-**You are not required to sign up anywhere, go to a website or install Delta Chat.**
+**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
 
 ## How can I find people to chat with? 
 
