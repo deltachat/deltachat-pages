@@ -160,6 +160,25 @@ The user's profile shows some additional info:
 
 If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
 
+## I can't import my existing PGP key into Delta Chat.
+
+In general, Delta Chat should support "common" private key formats, however, it
+is unlikely that we will support 100% of all private keys of any sources. This
+is also not the main focus of Delta Chat (if fact, the large majority of the
+Delta Chat users will not have any key before they start using Delta).
+However, we try to support private keys from other sources as good as possible. 
+
+With a very good chance, the problem is that you key is encrypted and/or uses
+an password. Such keys are not supported by Delta Chat. Please remove the
+encryption and the password and try the import again.
+
+Removing the password from the private key will be different, depending on the
+software you use to manage your PGP keys.  With Enigmail, you can set your
+password to an empty value in the Key Management window. With GnuPG you can set
+it [via the command
+line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
+For other programs, you can find a solution online.
+
 # Multi-client {#multiclient}
 
 ## Can I use Delta Chat on multiple devices at the same time?
