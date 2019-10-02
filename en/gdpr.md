@@ -3,6 +3,12 @@ title: GDPR and Privacy
 layout: default-en
 ---
 
+# Note on privacy and GDPR 
+
+The General Data Protection Regulation (GDPR) is often regarded
+as the furthest reaching legislation for privacy protection of users. 
+On this page we detail how the Delta Chat app easily complies 
+with GDPR requirements. 
 
 #  How Delta Chat complies to the GDPR 
 
@@ -11,11 +17,11 @@ layout: default-en
   - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt
   Level 1](https://autocrypt.org).
 
-  - **Data minimization**: No alignment or uploading of the address-book content.
+  - **Data minimization**: No uploading of address-book content.
 
   - **Data avoidance**: No Delta Chat server, no processing of personal data.
 
-- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book-data is transmitted.
+- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book data is transmitted.
 
 - Can be used **without requiring a contract or instructions** from any controller (organisation), because no additional third party will process the E-Mail related personal data. 
 
