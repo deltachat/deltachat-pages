@@ -200,7 +200,7 @@ capable) devices, you have to sync their encryption capabilities:
 ## Does Delta Chat work with _my_ e-mail-provider?
 
 - With a rather good chance: Yes :)  
-  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
+  However, some providers need special options to work properly. For more information, see the [Providers](https://providers.delta.chat/) page and click on the provider for more information.
 
 
 ## I'm interested in the technical details. Can you tell me more?
