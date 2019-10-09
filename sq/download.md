@@ -14,7 +14,7 @@ layout: default-sq
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Testim versioni beta në Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Merreni nga F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android është aplikacioni DeltaChat më i pasur në veçori dhe më i qëndrueshëm. 
+Delta/Android is the most feature-rich and stable Delta Chat app. 
 
 * [Shkarkojeni që nga F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Shkarkojeni që nga Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
@@ -26,11 +26,11 @@ Delta/Android është aplikacioni DeltaChat më i pasur në veçori dhe më i q�
 
 Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i lidhur me Android-in ose iOS-in. 
 
-* [shkarkojeni për Linux, nga flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
 
-* [shkarkojeni për Mac, që nga faqja jonë Github e hedhjeve në qarkullim](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
 
-* [Mbulimi për Windows ka mbetur pezull, na duhet ndihmë!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
 
 * Faqe [FAQ mbi shumëklientëshin](help#multiclient) se si të njëkohësohet versioni Desktop me aplikacion tjetër Delta. 
 
@@ -45,7 +45,7 @@ Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i
 Delta/iOS mbulon funksionet bazë, por jo krejt veçoritë e ofruara nga versionet Android ose Desktop. 
 Versionet Beta jepen përmes Testflight-it. 
 
-- [faqja për ftim te testflight](https://testflight.apple.com/join/uEMc1NxS) për iPhone-in ose iPad-in tuaj.
+- [testflight invite page](https://testflight.apple.com/join/uEMc1NxS) for your iPhone or iPad.
 
 - [jepni ndihmesë te zhvillimi për iOS](https://github.com/deltachat/deltachat-ios/). 
 

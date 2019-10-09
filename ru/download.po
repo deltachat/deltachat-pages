@@ -136,11 +136,11 @@ msgstr ""
 
 #: ../en/download.md:43
 msgid ""
-"- [testflight invite page](https://testflight.apple.com/join/uEMc1NxS) for "
+"- [testflight invite page](https://testflight.apple.com/join/WVoYFOZe) for "
 "your iPhone or iPad."
 msgstr ""
 "- [страница, приглашение для тестовых "
-"полётов](https://testflight.apple.com/join/uEMc1NxS) для вашего iPhone или "
+"полётов](https://testflight.apple.com/join/WVoYFOZe) для вашего iPhone или "
 "iPad."
 
 #: ../en/download.md:45

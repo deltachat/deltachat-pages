@@ -13,8 +13,8 @@ layout: default-sq
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat-i është si puna e Telegram-it ose Whatsapp-it, por pa gjurmim apo kontroll qendror.**
-Shihni [deklaratën tonë për përputhshmëri me GDPR-në](gdpr).
+**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
+Delta Chat does not need your phone number. Check out our [GDPR compliancy statement](gdpr).
 
 **Delta Chat s’ka shërbyes të vetët**, por përdor për mesazhet sistemin e hapur më masiv dhe
 më të larmishëm ndonjëherë: rrjetin ekzistues të shërbyesve të email-eve.
@@ -34,6 +34,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-Ju lutemi, për të dhëna mbi hedhjet aktuale në qarkullim, shihni 
-[postimin tonë në blog mbi hedhjet në qarkullim për janarin e 2019-s](../en/2019-01-27-releases). 
+Please check our [latest blog posts](blog)
+for information on current releases and events. 
 

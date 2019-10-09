@@ -24,11 +24,12 @@ layout: default-ca
 
 # Traduccions i informes d'errors
 
-- [Traduccions a Transifex](https://www.transifex.com/delta-chat/public/)
-- [Incidències del Delta Chat per Android](https://github.com/deltachat/deltachat-android/issues)
-- [Incidències del Delta Chat per escriptori](https://github.com/deltachat/deltachat-desktop/issues)
-- [Incidències del Delta Chat per iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Biblioteca de Nucli + incidències de Python](https://github.com/deltachat/deltachat-core/issues)
+- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Sempre son benvinguts desenvolupadors que ens vulguin donar un cop de ma i estiguin familiaritzats amb 
 C, Rust, Java, Swift, Javascript o Python a Android, iOS, Windows, Linux o Mac.

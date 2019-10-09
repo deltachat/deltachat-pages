@@ -9,59 +9,59 @@ layout: default-fr
 
 
 
-# Delta/Android Downloads (Beta)
+# Télécharger Delta/Android (Bêta)
 
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android is the most feature-rich and stable DeltaChat app. 
+Delta/Android is the most feature-rich and stable Delta Chat app. 
 
-* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
-* [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
-* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
-
-
-# Delta/Desktop Downloads (Beta)
-
-Delta/Desktop is well usable and can be operated standalone or in conjunction with Android or iOS. 
-
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
-
-* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
-
-* [Windows support pending, help needed!](https://github.com/deltachat/deltachat-desktop/issues/606) 
-
-* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
-
-* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
-  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
+* [Télécharger depuis F-Droid](https://f-droid.org/app/com.b44t.messenger)
+* [Télécharger depuis Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
+* [Télécharger l'APK](https://github.com/deltachat/deltachat-android/releases) (utilisateurs avertis seulement)
+* [Voir le journal des modifications]({% include changelog-url %}), [contribuer au dépôt Android](https://github.com/deltachat/deltachat-android/). 
 
 
-# Delta/iOS on TestFlight (Beta)
+# Télécharger Delta/Desktop pour votre ordinateur (Bêta)
+
+Delta/Desktop est bien fonctionnel et peut être utilisé seul ou  combiné avec Android ou iOS. 
+
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
+
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
+
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
+
+* page [FAQ multi-client](aide#multi-client) sur comment synchroniser l'application ordinateur de bureau avec une autre application Delta. 
+
+* [Voir journal des modifications](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+  [contribuer au dépôt Delta/Desktop](https://github.com/deltachat/deltachat-desktop/). 
+
+
+# Delta/iOS sur le TestFlight (Bêta)
 
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
 
-Delta/iOS supports basic functionality but not all features offered by Android or Desktop. 
-Betas are distributed via Testflight. 
+Delta/iOS prend en charge les fonctionnalités de base, mais pas toutes les fonctionnalités offertes par Android ou Desktop. 
+Les versions bêta sont distribuées via Testflight. 
 
 - [testflight invite page](https://testflight.apple.com/join/uEMc1NxS) for your iPhone or iPad.
 
-- [contribute to iOS development](https://github.com/deltachat/deltachat-ios/). 
+- [contribuer au développement iOS](https://github.com/deltachat/deltachat-ios/). 
 
-- Scan this QR code with the camera app of your iPhone/iPad
+- Numérisez ce QR code avec l'application caméra de votre iPhone/iPad
 
   ![QRCode](../assets/home/deltachat_testflight_qrcode.png)
 
 
 # Vérifier les téléchargements
 
-Pour Android, vous pouvez vérifier que signature du certificat de l'APK correspond à l'un des empreintes SHA256 suivantes:
+Pour Android, vous pouvez vérifier que la signature du certificat de l'APK correspond à l'une des empreintes SHA256 suivantes:
 
-* For F-Droid downloads:  
+* Pour téléchargements F-Droid :  
   `{% include fingerprint-f-droid %}`
 
-* Other APK downloads:  
+* Autres téléchargements d'APK :  
   `{% include fingerprint-local %}`
 
 La commande suivante peut être utilisée pour afficher l'empreinte SHA256 du certificat de signature: 

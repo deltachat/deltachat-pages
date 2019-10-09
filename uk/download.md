@@ -14,7 +14,7 @@ layout: default-uk
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android – додаток Delta Chat з найбільшою функціональністю і стабільністю.
+Delta/Android is the most feature-rich and stable Delta Chat app. 
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
@@ -26,11 +26,11 @@ Delta/Android – додаток Delta Chat з найбільшою функці
 
 Delta/Desktop добре використовується на персональному комп'ютері або у поєднанні з Android і iOS.
 
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
 
-* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
 
-* [Підтримка Windows очікується, потрібна допомога!] (https://github.com/deltachat/deltachat-desktop/issues/606)
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
 
 * [ЧаПи мультиклієнтські](help#multiclient) сторінка про те, як синхронізувати версію для ПК з мобільними клієнтами Delta.
 
@@ -45,7 +45,7 @@ Delta/Desktop добре використовується на персонал�
 Delta/iOS підтримує базові функції, але не всі, які є у версіях для Android або ПК.
 Бета-версії надані через Тестовий Політ.
 
-- [сторінка запрошення для Тестових Польотів](https://testflight.apple.com/join/uEMc1NxS) для Вашого iPhone або iPad.
+- [testflight invite page](https://testflight.apple.com/join/uEMc1NxS) for your iPhone or iPad.
 
 - [зробити внесок у розробку iOS](https://github.com/deltachat/deltachat-ios/).
 

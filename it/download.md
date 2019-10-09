@@ -14,7 +14,7 @@ layout: default-it
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android è la più completa e stabile app di DeltaChat. 
+Delta/Android is the most feature-rich and stable Delta Chat app. 
 
 * [Scarica da F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Scarica da Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
@@ -26,11 +26,11 @@ Delta/Android è la più completa e stabile app di DeltaChat.
 
 Delta/Desktop è usabile sia standalone che in abbinamento ad Android o iOS. 
 
-* [scairca per Linux da flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
 
-* [scarica per Mac dalla nostra pagina di rilascio su github](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
 
-* [Supporto a Windows in sospeso, ci serve aiuto!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
 
 * [FAQ multiclient](help#multiclient) su come sincronizzare la app Desktop con le altre Delta app. 
 
@@ -45,7 +45,7 @@ Delta/Desktop è usabile sia standalone che in abbinamento ad Android o iOS.
 Delta/iOS supporta le funzionalità base, ma non tutte quelle offerte su Android o Desktop. 
 Le beta vengono distribuite tramite Testflight. 
 
-- [pagina di invito testflight](https://testflight.apple.com/join/uEMc1NxS) per il tuo iPhone o iPad.
+- [testflight invite page](https://testflight.apple.com/join/uEMc1NxS) for your iPhone or iPad.
 
 - [contribuisci allo sviluppo su iOS](https://github.com/deltachat/deltachat-ios/). 
 

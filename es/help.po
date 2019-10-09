@@ -2,6 +2,7 @@
 # björn petersen <r10s@b44t.com>, 2018
 # kaze kaze <kaze@rlab.be>, 2018
 # Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019
+# Gabriel Apolinaire Aguila <gapolinaireaguila@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -10,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 22:15+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Asiel Díaz Benítez <asieldbenitez@gmail.com>, 2019\n"
+"Last-Translator: Gabriel Apolinaire Aguila <gapolinaireaguila@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/delta-chat/teams/76181/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,13 +56,15 @@ msgstr "# General"
 
 #: ../en/help.md:17
 msgid "## What is Delta Chat? "
-msgstr ""
+msgstr "## ¿Qué es Delta Chat? "
 
 #: ../en/help.md:19
 msgid ""
 "<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
 "what.png\" />"
 msgstr ""
+"<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
+"what.png\" />"
 
 #: ../en/help.md:24
 msgid ""
@@ -70,10 +73,12 @@ msgid ""
 "message and reply. **You are not required to sign up anywhere, go to a website\n"
 "or install Delta Chat.**"
 msgstr ""
+"Delta Chat es una nueva aplicación de mensajería que usa el correo electrónico para transferir los mensajes.\n"
+"Si recibes un mensaje de chat, simplemente usa tu aplicación cliente de correo para leer y responder. **No es necesario que te registres en ningún lado, vayas a un sitio web o instales Delta Chat.**"
 
 #: ../en/help.md:26
 msgid "## How can i find people to chat with? "
-msgstr ""
+msgstr "## ¿Cómo puedo encontrar personas con las que chatear? "
 
 #: ../en/help.md:31
 msgid ""
@@ -82,6 +87,11 @@ msgid ""
 "the biggest differences to other messengers: There is no need for the\n"
 "receiver to install the same app as yours."
 msgstr ""
+"Con Delta Chat, usted puede escribir a todas las direcciones de correo "
+"electrónico existentes, incluso, si el destinatario no está utilizando la "
+"aplicación Delta Chat. Esta es una de las mayores diferencias con otros "
+"mensajeros: no es necesario que el destinatario instale la misma aplicación "
+"que usted."
 
 #: ../en/help.md:33
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
@@ -202,6 +212,9 @@ msgid ""
 "- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.\n"
 "- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members)."
 msgstr ""
+"- Seleccione **Agregar grupo** desde el \"Menú sándwich\" en la esquina superior derecha de la descripción del chat.\n"
+"- En la siguiente vista, seleccione los **miembros del grupo** y presione la marca de verificación en la esquina superior derecha. Después de eso, usted puede definir un **nombre de grupo**.\n"
+"- Tan pronto como escriba **el primer mensaje**, se le informará a todos los miembros sobre el nuevo grupo y pueden responder en el grupo (hasta que no escriba un mensaje en el grupo, este es invisible para los miembros)."
 
 #: ../en/help.md:80
 msgid "## How to add members to a group?"
@@ -343,6 +356,10 @@ msgid ""
 " eg. because you or the sender have disabled end-to-end-encryption or the "
 "sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- Si no hay **ningún candado**, el mensaje generalmente se transporta sin "
+"encriptar, por ejemplo. porque usted o el remitente han deshabilitado el "
+"cifrado de extremo a extremo, o el remitente utiliza una aplicación que no "
+"admite el cifrado de extremo a extremo."
 
 #: ../en/help.md:140
 msgid "## How can I verify the sender?"
@@ -359,6 +376,10 @@ msgid ""
 "  they will introduce a chat channel with each other (if it doesn't exist already) \n"
 "  and also the encryption keys will be verified. "
 msgstr ""
+"- Puede pulsar \"Código de invitación QR\" en Android y luego usar el botón \"Escanear código QR \"\n"
+"en otro dispositivo para escanear este código. Si ambos dispositivos están en línea,\n"
+"entrarán en un canal de chat entre sí (si no existe ya)\n"
+"y también se verificarán las claves de cifrado."
 
 #: ../en/help.md:150
 msgid ""

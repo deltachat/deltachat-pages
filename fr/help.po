@@ -1,6 +1,7 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
 # Eric Lavarde <ewl+transifex@lavar.de>, 2018
+# polo lancien <polo.lancien@aliceadsl.fr>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 22:15+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Eric Lavarde <ewl+transifex@lavar.de>, 2018\n"
+"Last-Translator: polo lancien <polo.lancien@aliceadsl.fr>, 2019\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,13 +55,15 @@ msgstr "# Général {#general}"
 
 #: ../en/help.md:17
 msgid "## What is Delta Chat? "
-msgstr ""
+msgstr "## C'est quoi Delta Chat? "
 
 #: ../en/help.md:19
 msgid ""
 "<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
 "what.png\" />"
 msgstr ""
+"<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
+"what.png\" />"
 
 #: ../en/help.md:24
 msgid ""
@@ -69,10 +72,12 @@ msgid ""
 "message and reply. **You are not required to sign up anywhere, go to a website\n"
 "or install Delta Chat.**"
 msgstr ""
+"Delta Chat est une nouvelle application de tchate qui utilise les courriels pour transférer des messages. \n"
+"Si vous recevez un message de tchate, utilisez simplement votre application de messagerie électronique pour lire le  message et sa réponse. **Vous n'êtes pas obligé de vous inscrire quelque part, aller sur un site Web ou installer Delta Chat.**"
 
 #: ../en/help.md:26
 msgid "## How can i find people to chat with? "
-msgstr ""
+msgstr "## Comment puis-je trouver des gens avec qui tchatter ? "
 
 #: ../en/help.md:31
 msgid ""
@@ -81,6 +86,11 @@ msgid ""
 "the biggest differences to other messengers: There is no need for the\n"
 "receiver to install the same app as yours."
 msgstr ""
+"Avec Delta Chat, vous pouvez écrire à toutes les adresses de courriels "
+"existantes - même si le destinataire n'utilise pas l'application Delta Chat."
+" C'est l'une des plus grandes différences avec les autres messagers : Il "
+"n'est pas nécessaire que le récepteur installe la même application que la "
+"vôtre."
 
 #: ../en/help.md:33
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
@@ -103,6 +113,18 @@ msgid ""
 "- _Trustworthy_ - can even be used for business messages\n"
 "- fully _Open Source_ and _Standards_ based"
 msgstr ""
+"- Indépendant de toute entreprise ou service. Vos données vous appartiennent.\n"
+"- Vos données ne sont pas sauvegardées sur un serveur central ; ainsi, contrairement à la plupart des autres messagers, Delta Chat protège même vos métadonnées (qui écrit à qui ?).\n"
+"- Vous ne distribuez votre carnet d'adresses à personne.\n"
+"- Rapide_ par l'utilisation de Push-IMAP\n"
+"- La plus grande base d'utilisateurs - les récepteurs _qui n'utilisent pas le Delta Chat peuvent également être atteints.\n"
+"- Compatible_ - pas seulement avec lui-même\n"
+"- Interface utilisateur élégante et _simple\n"
+"- Système_distribué\n"
+"- Pas de Spam_ - seuls les messages d'utilisateurs connus sont affichés par défaut.\n"
+"- Fiable - sûr pour un usage professionnel\n"
+"- Digne de confiance - peut même être utilisé pour les messages d'entreprise\n"
+"- entièrement basé sur _Code Source Ouvert_ et _Standards_"
 
 #: ../en/help.md:48
 msgid "## Which messages do appear in Delta Chat?"
@@ -118,6 +140,9 @@ msgid ""
 "- Messages from contacts **contacted by you**\n"
 "- **Replies** to messages sent by you"
 msgstr ""
+"- Messages des contacts de votre **carnet d'adresses**.\n"
+"- Messages de vos contacts **contactés par vous**\n"
+"- Réponses** aux messages envoyés par vous"
 
 #: ../en/help.md:56
 msgid ""
@@ -139,6 +164,9 @@ msgid ""
 "- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.\n"
 "- However, if needed, you can **block** any contact."
 msgstr ""
+"- Les messages contenus dans les dossiers spam (indésirables) courants sont ignorés et les adresses qu'ils contiennent ne sont pas considérées comme des contacts connus.\n"
+"- Comme les messages provenant de contacts inconnus n'apparaissent pas automatiquement, normalement, il n'y a pas de **spam**.\n"
+"- Cependant, si nécessaire, vous pouvez **bloquer** n'importe quel contact."
 
 #: ../en/help.md:64
 msgid "## Does Delta Chat support images, videos and other attachments?"
@@ -183,10 +211,13 @@ msgid ""
 "- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.\n"
 "- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members)."
 msgstr ""
+"- Sélectionnez **Ajouter groupe** dans le \"Menu sandwich\" dans le coin supérieur droit de l'aperçu du tchat.\n"
+"- Sur l'écran suivant, sélectionnez les **membres du groupe** et cochez la case dans le coin supérieur droit. Ensuite, vous pouvez définir un **nom de groupe**.\n"
+"- Dès que vous écrivez le **premier message** dans le groupe, tous les membres sont informés du nouveau groupe et peuvent répondre dans le groupe (tant que vous n'écrivez pas un message dans le groupe, le groupe est invisible aux membres)."
 
 #: ../en/help.md:80
 msgid "## How to add members to a group?"
-msgstr ""
+msgstr "## Comment ajouter des membres à un groupe ?"
 
 #: ../en/help.md:83
 msgid ""
@@ -198,7 +229,7 @@ msgstr ""
 
 #: ../en/help.md:85
 msgid "## What is a verified group?"
-msgstr ""
+msgstr "## Qu'est qu'un groupe vérifié ?"
 
 #: ../en/help.md:92
 msgid ""
@@ -209,6 +240,9 @@ msgid ""
 "  implementation changes makes sense. Recent discussions can be found here: \n"
 "  https://countermitm.readthedocs.io/en/latest/new.html"
 msgstr ""
+"- Un \"groupe vérifié\" est une fonctionnalité expérimentale (à partir de janvier 2019). \n"
+"En s'ajoutant l'un à l'autre par le biais de QR-code scans, un groupe de membres \" vérifiés \" peut discuter l'un avec l'autre. Il applique le chiffrement de groupe e2e qui est sûr contre des attaques du fournisseur d'accès ou du réseau. Cependant, certains tests et commentaires des utilisateurs suggèrent que les changements d'interface utilisateur et de mise en œuvre sont judicieux. Les discussions récentes peuvent être consultées ici : \n"
+"https://countermitm.readthedocs.io/en/latest/new.html"
 
 #: ../en/help.md:94
 msgid "## I have deleted myself by accident."
@@ -219,6 +253,8 @@ msgid ""
 "- As you're no longer a group member now, you cannot add yourself again. \n"
 "  However, no problem, just ask any other group member in a normal chat to add you again."
 msgstr ""
+"- Comme vous n'êtes plus membre du groupe maintenant, vous ne pouvez pas vous ajouter à nouveau. \n"
+"Cependant, pas de problème, demandez simplement à n'importe quel autre membre du groupe dans un tchat normal de vous ajouter à nouveau."
 
 #: ../en/help.md:99
 msgid "## I do not want to receive the messages of a group any longer."
@@ -229,12 +265,17 @@ msgid ""
 "- Either delete yourself from the member list or delete the whole chat. \n"
 "  If you want to join the group later again, ask another group member to add you again."
 msgstr ""
+"- Supprimez-vous de la liste des membres ou supprimez le tchat en entier. \n"
+"Si vous voulez rejoindre le groupe plus tard, demandez à un autre membre du groupe de vous ajouter à nouveau."
 
 #: ../en/help.md:105
 msgid ""
 "- As an alternative, you can also \"Mute\" a group - doing so, you'll get all messages and \n"
 "  can still write but you're no longer notified of any new messages."
 msgstr ""
+"- Comme alternative, vous pouvez aussi \"rendre muet\" un groupe - ce "
+"faisant, vous obtiendrez tous les messages et vous pourrez toujours écrire, "
+"mais vous n'êtes plus averti de tout nouveau message."
 
 #: ../en/help.md:107
 msgid "# Encryption {#encryption}"
@@ -242,13 +283,16 @@ msgstr "# Chiffrement {#encryption}"
 
 #: ../en/help.md:109
 msgid "## Does Delta Chat support end-to-end-encryption?"
-msgstr ""
+msgstr "## Est-ce que Delta Chat supporte le chiffrement de bout en bout ?"
 
 #: ../en/help.md:112
 msgid ""
 "- Yes. DeltaChat implements the Autocrypt Level 1 standard and can \n"
 "  thus e2e-encrypt messages with other Autocrypt-capable apps. "
 msgstr ""
+"- Oui. Oui. DeltaChat implémente le standard Autocrypt niveau 1 et peut donc"
+" chiffrer en e2e les messages avec d'autres applications compatibles "
+"Autocrypt. "
 
 #: ../en/help.md:114
 msgid "## What do I have to do to activate the end-to-end-encryption?"
@@ -267,12 +311,17 @@ msgid ""
 "  If one of the chat partners uses a non-Autocrypt e-mail app later \n"
 "  messages are not encrypted until an Autocrypt-compliant app is available again. "
 msgstr ""
+"<br>- Les applications Delta Chat (et les autres applications de messagerie compatibles avec[Autocrypt](https://autocrypt.org)) partagent automatiquement les clés nécessaires au chiffrement de bout en bout dès l'envoi des premiers messages. \n"
+"Ensuite, tous les messages suivants sont cryptés de bout en bout automatiquement. \n"
+"Si l'un des partenaires de tchat utilise une application de messagerie non-autocryptée, les messages ultérieurs ne sont pas cryptés tant qu'une application conforme à Autocrypt n'est pas à nouveau disponible. "
 
 #: ../en/help.md:126
 msgid ""
 "- If you want to _deactivate_ the end-to-end-encryption, \n"
 "  use the corresponding setting at \"Settings / Advanced settings\"."
 msgstr ""
+"- Si vous voulez _désactiver_ le cryptage de bout en bout, utilisez le "
+"réglage correspondant sous \"Réglages / Réglages avancés\"."
 
 #: ../en/help.md:128
 msgid ""
@@ -286,6 +335,8 @@ msgstr ""
 msgid ""
 "- No. With most e-mail servers _transport encryption_ (TLS) is used then."
 msgstr ""
+"- Non. Avec la plupart des serveurs de messagerie, le cryptage de transport "
+"(TLS) est utilisé."
 
 #: ../en/help.md:133
 msgid "## How can I check the encryption?"
@@ -297,6 +348,9 @@ msgid ""
 "message is end-to-end-encrypted _and_ is sent from the given sender _and_ "
 "your answer will be end-to-end-encrypted as well."
 msgstr ""
+"- Si un petit **cadenas** est affiché à côté d'un message, cela signifie que"
+" le message est crypté de bout en bout _et_ est envoyé par l'expéditeur "
+"donné _et_ votre réponse sera également cryptée de bout en bout."
 
 #: ../en/help.md:137
 msgid ""
@@ -304,6 +358,10 @@ msgid ""
 " eg. because you or the sender have disabled end-to-end-encryption or the "
 "sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- S'il n'y a **aucun cadenas**, le message est généralement transporté en "
+"clair, par exemple parce que vous ou l'expéditeur avez désactivé le cryptage"
+" de bout en bout ou que l'expéditeur utilise une application qui ne prend "
+"pas en charge le cryptage de bout en bout."
 
 #: ../en/help.md:140
 msgid "## How can I verify the sender?"
@@ -320,16 +378,24 @@ msgid ""
 "  they will introduce a chat channel with each other (if it doesn't exist already) \n"
 "  and also the encryption keys will be verified. "
 msgstr ""
+"- Vous pouvez taper sur \"QR code d'invitation \" sur Android et ensuite "
+"utiliser le bouton \"Numériser QR code\" sur un autre appareil pour "
+"numériser ce code. Si les deux appareils sont en ligne, ils introduiront un "
+"canal de tchat l'un avec l'autre (s'il n'existe pas déjà) et les clés de "
+"cryptage seront également vérifiées. "
 
 #: ../en/help.md:150
 msgid ""
 "- For an end-to-end-encryption, Delta Chat shows two fingerprints there. \n"
 "  If they are the same on the device of your chat partner, the connection is safe."
 msgstr ""
+"- Pour un cryptage de bout en bout, Delta Chat affiche deux empreintes digitales ici. \n"
+"Si elles sont les mêmes sur l'appareil de votre partenaire de tchat, la connexion est sûre."
 
 #: ../en/help.md:152
 msgid "- For transport encryption, this state is just shown there"
 msgstr ""
+"- Pour le cryptage de la communication, cet état est juste affiché ici"
 
 #: ../en/help.md:155
 msgid "## Which standards are used for end-to-end-encryption?"
@@ -344,7 +410,7 @@ msgstr ""
 
 #: ../en/help.md:159
 msgid "## Can I re-use my existing private key?"
-msgstr ""
+msgstr "## Puis-je réutiliser ma clé privée existante ?"
 
 #: ../en/help.md:161
 msgid ""
@@ -372,6 +438,9 @@ msgid ""
 "If you don't have a key or don't even know you would need one - don't worry:"
 " Delta Chat generates one as needed, you don't have to hit a button for it. "
 msgstr ""
+"Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne"
+" vous inquiétez pas : Delta Chat en génère une si nécessaire, vous n'avez "
+"pas besoin d'appuyer sur un bouton pour cela. "
 
 #: ../en/help.md:167
 msgid "# Multi-client {#multiclient}"
@@ -386,24 +455,35 @@ msgid ""
 "If you want to use the **same account** on different (Autocrypt\n"
 "capable) devices, you have to synchronize their encryption capabilities: "
 msgstr ""
+"Si vous voulez utiliser le **même compte** sur différents appareils "
+"(compatibles avec le cryptage automatique), vous devez synchroniser leurs "
+"capacités de cryptage : "
 
 #: ../en/help.md:175
 msgid ""
 "- On the first device, choose \"Advanced settings / Send Autocrypt Setup message\" \n"
 "  and click until a \"security number\" is shown. "
 msgstr ""
+"- Sur le premier appareil, choisissez \"Paramètres avancés / Envoyer le message de configuration du cryptage automatique\". \n"
+"et cliquez jusqu'à ce qu'un \"numéro de sécurité\" s'affiche. "
 
 #: ../en/help.md:178
 msgid ""
 "- On the other device, wait for the \"Autocrypt Setup Message\" to\n"
 "  arrive and click on it which should prompt you for the security number. "
 msgstr ""
+"- Sur l'autre appareil, attendez que le message \"Autocrypt Setup Message\" "
+"(message de configuration du cryptage automatique) arrive et cliquez dessus "
+"pour obtenir le numéro de sécurité. "
 
 #: ../en/help.md:181
 msgid ""
 "- you are now successfully synchronized and can use both devices for\n"
 "  sending and receiving e2e-encrypted messages with your communication partners. "
 msgstr ""
+"- vous êtes maintenant synchronisé avec succès et pouvez utiliser les deux "
+"appareils pour envoyer et recevoir des messages cryptés e2e avec vos "
+"partenaires de communication. "
 
 #: ../en/help.md:183
 msgid "# Miscellaneous"
@@ -411,13 +491,15 @@ msgstr "# Divers {#miscellaneous}"
 
 #: ../en/help.md:185
 msgid "## Does Delta Chat work with _my_ e-mail-provider?"
-msgstr ""
+msgstr "## Est-ce Delta Chat fonctionne avec mon service de courriel ?"
 
 #: ../en/help.md:188
 msgid ""
 "- With a rather good chance: Yes :)  \n"
 "  However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)"
 msgstr ""
+"- Avec de bonnes chances : Oui :) \n"
+"Cependant, certains fournisseurs ont besoin d'options spéciales pour fonctionner correctement ; les utilisateurs ont rassemblé certaines d'entre elles dans le forum à l'adresse [Aperçu des fournisseurs](https://support.delta.chat/t/provider-overview/)"
 
 #: ../en/help.md:191
 msgid "## I'm interested in the technical details. Can you tell me more?"

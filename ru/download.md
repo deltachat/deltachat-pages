@@ -14,7 +14,7 @@ layout: default-ru
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android приложение DeltaChat с большей функциональностью и стабильно. 
+Delta/Android is the most feature-rich and stable Delta Chat app. 
 
 * [Загрузить из F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Загрузить бета-версию из Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
@@ -26,11 +26,11 @@ Delta/Android приложение DeltaChat с большей функцион�
 
 Delta/Desktop хорошо для использовать на персональном компьютере или в связке с Android и iOS. 
 
-* [загрузить для Linux из flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
 
-* [загрузить для Mac со страницы github release](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
 
-* [Поддержка Windows ожидается, нужна помощь!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
 
 * [ЧАВО мультиклиентские](help#multiclient) страница как синхронизировать версию ПК с мобильными клиентами Delta. 
 
@@ -45,7 +45,7 @@ Delta/Desktop хорошо для использовать на персонал
 Delta/iOS поддерживает базовые функции, но не все, что предоставлены в версиях для  для Android or Desktop. 
 Беты предоставлены через Тестовый Полёт . 
 
-- [страница, приглашение для тестовых полётов](https://testflight.apple.com/join/uEMc1NxS) для вашего iPhone или iPad.
+- [testflight invite page](https://testflight.apple.com/join/uEMc1NxS) for your iPhone or iPad.
 
 - [помощь в разработке iOS](https://github.com/deltachat/deltachat-ios/). 
 

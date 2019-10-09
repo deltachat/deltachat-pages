@@ -3,6 +3,8 @@
 # Alex <kekcuha@gmail.com>, 2018
 # Andrei Guliaikin <lycoris@ya.ru>, 2018
 # Iskatel Istiny <iskatel1@gmx.com>, 2019
+# solokot <solokot@gmail.com>, 2019
+# Peregrin Tuk <da3m0nmy@disroot.org>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -11,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 22:15+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Iskatel Istiny <iskatel1@gmx.com>, 2019\n"
+"Last-Translator: Peregrin Tuk <da3m0nmy@disroot.org>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +58,7 @@ msgstr "# Общее"
 
 #: ../en/help.md:17
 msgid "## What is Delta Chat? "
-msgstr ""
+msgstr "## Что такое Delta Chat? "
 
 #: ../en/help.md:19
 msgid ""
@@ -71,10 +73,14 @@ msgid ""
 "message and reply. **You are not required to sign up anywhere, go to a website\n"
 "or install Delta Chat.**"
 msgstr ""
+"Delta Chat — это новое приложение для чата, которое использует электронную почту для передачи сообщений. \n"
+"Если вы получили сообщение в чате, просто используйте приложение электронной почты, чтобы прочитать\n"
+"его и ответить. **Вам не нужно нигде регистрироваться, зайдите на сайт\n"
+"или установите Delta Chat.**"
 
 #: ../en/help.md:26
 msgid "## How can i find people to chat with? "
-msgstr ""
+msgstr "## Как мне найти людей для общения? "
 
 #: ../en/help.md:31
 msgid ""
@@ -83,6 +89,11 @@ msgid ""
 "the biggest differences to other messengers: There is no need for the\n"
 "receiver to install the same app as yours."
 msgstr ""
+"С помощью Delta Chat вы можете писать на любой существующий\n"
+"адрес электронной почты, даже если получатель не использует\n"
+"приложение Delta Chat. Это одно из самых больших отличий от других\n"
+"мессенджеров: получателю не нужно устанавливать то же приложение,\n"
+"что и у вас."
 
 #: ../en/help.md:33
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
@@ -104,6 +115,18 @@ msgid ""
 "- _Trustworthy_ - can even be used for business messages\n"
 "- fully _Open Source_ and _Standards_ based"
 msgstr ""
+"_Независимый_ от любой компании или сервиса. _Вы_ распоряжаетесь своей информацией.\n"
+"- Ваши данные не сохраняются на центральномм сервере; поэтому, в отличие от большинства мессенджеров, Delta Chat всегда защищает ваши метаданные (информация о том, кто и кому пишет)\n"
+"- Вы не отдаете вашу адресную книгу никому.\n"
+"- _Быстрый_ благодаря использованию Push-IMAP\n"
+"- _Доступный максимальному количеству пользователей_ - получатель _не_ испольующий Delta Chat может получить ваше сообщение\n"
+"- _Совместимый_ - не только с собой\n"
+"- _Элегантный_ и _простой_ интерфейс пользователя\n"
+"- _Распределенная_ система\n"
+"- _Без спама_ - по умолчанию показываются сообщения только от известных отправителей\n"
+"- _Надежный_ - безопасен для профессионального использования\n"
+"- _Заслуживает доверия_ - можно использовать даже для деловой переписки\n"
+"- Полностью с _открытым исходным кодом_ и на основе _стандартов_ "
 
 #: ../en/help.md:48
 msgid "## Which messages do appear in Delta Chat?"
@@ -119,6 +142,9 @@ msgid ""
 "- Messages from contacts **contacted by you**\n"
 "- **Replies** to messages sent by you"
 msgstr ""
+"- Сообщения от контактов в вашей **адресной книги**\n"
+"- Сообщения от контактов, которым **вы писали сами**\n"
+"- **Ответы** на сообщения отправленные вами"
 
 #: ../en/help.md:56
 msgid ""
@@ -140,6 +166,9 @@ msgid ""
 "- As messages from unknown contacts do not pop up automatically, normally, there's **no spam**.\n"
 "- However, if needed, you can **block** any contact."
 msgstr ""
+"- Сообщения, перемещенные в папку спама игнорируются и адреса их авторов не отображаются в списке известных контактов.\n"
+"- Поскольку сообщения от неизвестных контактов не показываются автоматически, обычно здесь **не бывает спама**.\n"
+"- Однако, если нужно, вы можете **заблокировать** любой контакт."
 
 #: ../en/help.md:64
 msgid "## Does Delta Chat support images, videos and other attachments?"
@@ -183,10 +212,13 @@ msgid ""
 "- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.\n"
 "- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members)."
 msgstr ""
+"- Выберите **Добавить группу** в меню в правом верхнем углу списка чатов.\n"
+"- На следующем экране выберите **участники группы** и отметьте галочку в правом верхнем углу. После этого, вы можете ввести **название группы**.\n"
+"- Как только вы наберете **первое сообщение** в группе, все участники группы узнают о ее существовании и смогут ответить вам здесь же (до тех пор, пока вы не напишете сообщение в группу, группа будет невидима для остальных участников)."
 
 #: ../en/help.md:80
 msgid "## How to add members to a group?"
-msgstr ""
+msgstr "## Как добавить участников в группу?"
 
 #: ../en/help.md:83
 msgid ""
@@ -198,7 +230,7 @@ msgstr ""
 
 #: ../en/help.md:85
 msgid "## What is a verified group?"
-msgstr ""
+msgstr "##Что такое проверенная группа?"
 
 #: ../en/help.md:92
 msgid ""
@@ -219,6 +251,8 @@ msgid ""
 "- As you're no longer a group member now, you cannot add yourself again. \n"
 "  However, no problem, just ask any other group member in a normal chat to add you again."
 msgstr ""
+"- Поскольку вы теперь не участник группы, вы не сможете добавить себя обратно.\n"
+"Однако, это не большая проблема - просто попросите любого другого участника группы в обычном чате добавить вас снова."
 
 #: ../en/help.md:99
 msgid "## I do not want to receive the messages of a group any longer."
@@ -242,13 +276,16 @@ msgstr "# Шифрование {#encryption}"
 
 #: ../en/help.md:109
 msgid "## Does Delta Chat support end-to-end-encryption?"
-msgstr ""
+msgstr "## Поддерживает ли Delta Chat сквозное шифрование?"
 
 #: ../en/help.md:112
 msgid ""
 "- Yes. DeltaChat implements the Autocrypt Level 1 standard and can \n"
 "  thus e2e-encrypt messages with other Autocrypt-capable apps. "
 msgstr ""
+"- Да. В Delta Chat реализован стандарт Autocrypt Level 1 и поэтому\n"
+"защищённые сквозным шифрованием сообщения совместимы с\n"
+"другими приложениями, поддерживающими Autocrypt."
 
 #: ../en/help.md:114
 msgid "## What do I have to do to activate the end-to-end-encryption?"

@@ -14,7 +14,7 @@ layout: default-pl
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android to najbardziej funkcjonalna i stabilna aplikacja DeltaChat. 
+Delta/Android is the most feature-rich and stable Delta Chat app. 
 
 * [Pobierz z F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Pobierz z kanału Beta Google Play](https://play.google.com/store/apps/details?id=chat.delta)
@@ -26,11 +26,11 @@ Delta/Android to najbardziej funkcjonalna i stabilna aplikacja DeltaChat.
 
 Delta/Desktop jest wystarczająco funkcjonalny i może być używany samodzielnie lub w połączeniu z systemem Android lub iOS. 
 
-* [Pobierz dla Linuxa z flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
 
-* [Pobierz dla Mac z naszej strony GitHub](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
 
-* [Obsługa systemu Windows w toku, potrzebna pomoc!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
 
 * Strona [FAQ multi-klienta](help#multiclient) – jak zsynchronizować Desktop z inną aplikacją Delta. 
 
@@ -45,7 +45,7 @@ Delta/Desktop jest wystarczająco funkcjonalny i może być używany samodzielni
 Delta/iOS obsługuje podstawową funkcjonalność, ale nie wszystkie funkcje oferowane przez Android lub Desktop. 
 Wersje beta są dystrybuowane za pośrednictwem Testflight.
 
-- [Strona z zaproszeniem do TestFlight](https://testflight.apple.com/join/uEMc1NxS) dla Twojego iPhona lub iPada.
+- [testflight invite page](https://testflight.apple.com/join/uEMc1NxS) for your iPhone or iPad.
 
 - [Przyczyń się do rozwoju iOS](https://github.com/deltachat/deltachat-ios/). 
 

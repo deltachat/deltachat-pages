@@ -14,7 +14,7 @@ layout: default-ca
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-Delta/Android is the most feature-rich and stable DeltaChat app. 
+Delta/Android is the most feature-rich and stable Delta Chat app. 
 
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
@@ -26,11 +26,11 @@ Delta/Android is the most feature-rich and stable DeltaChat app.
 
 Delta/Desktop is well usable and can be operated standalone or in conjunction with Android or iOS. 
 
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
 
-* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
 
-* [Windows support pending, help needed!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
 
 * [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
 

@@ -71,6 +71,8 @@ with [Transifex](https://www.transifex.com/delta-chat/delta-chat-pages/).
 To **update existing translations from** the Transifex server, 
 see the scripts and the documentation in the `tools` folder.
 
+You need `po2txt` for the script `./t-dance` to work.
+
 To **add a new language**, the followinging steps are required once:
 
 - create a new layout in `/_layouts/default-<lang>.html` 

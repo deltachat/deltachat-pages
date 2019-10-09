@@ -201,7 +201,7 @@ msgstr ""
 
 #: ../en/references.md:67
 msgid "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
-msgstr ""
+msgstr "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
 
 #: ../en/references.md:68
 msgid ""

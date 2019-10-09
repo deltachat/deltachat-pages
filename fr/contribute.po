@@ -1,6 +1,7 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
 # dudjima, 2018
+# polo lancien <polo.lancien@aliceadsl.fr>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 22:15+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: dudjima, 2018\n"
+"Last-Translator: polo lancien <polo.lancien@aliceadsl.fr>, 2019\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,19 +33,23 @@ msgstr ""
 
 #: ../en/contribute.md:7
 msgid "# Channels and repositories"
-msgstr ""
+msgstr "# Canaux et dépôts de données"
 
 #: ../en/contribute.md:10
 msgid ""
 "- [Delta Chat support forum](https://support.delta.chat) for wider\n"
 "  feature discussions and getting support."
 msgstr ""
+"- [forum d'assistance Delta Chat](https://support.delta.chat) pour discuter "
+"de fonctionnalités étendues et obtenir de l'assistance."
 
 #: ../en/contribute.md:12
 msgid ""
 "- [#deltachat on freenode]({% include webirc-url %}) for day to day "
 "communications."
 msgstr ""
+"- [#deltachat sur freenode]({% include webirc-url %}) pour des "
+"communications au jour le jour"
 
 #: ../en/contribute.md:16
 msgid ""
@@ -52,16 +57,21 @@ msgid ""
 "  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) \n"
 "  for community discussions and news."
 msgstr ""
+"- [liste de distribution Delta "
+"Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pour"
+" discussions communautaires et nouvelles."
 
 #: ../en/contribute.md:19
 msgid ""
 "- [Delta Chat repositories](https://github.com/deltachat/) where you can \n"
 "  find the code for DeltaChat apps and this web site."
 msgstr ""
+"- [dépots Delta Chat](https://github.com/deltachat/) où vous pouvez trouver "
+"le code des applications DeltaChat et ce site web."
 
 #: ../en/contribute.md:21
 msgid "# Translations and Bug Reports "
-msgstr ""
+msgstr "# Traductions et rapports de bugs "
 
 #: ../en/contribute.md:27
 msgid ""
@@ -71,20 +81,28 @@ msgid ""
 "- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)\n"
 "- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)"
 msgstr ""
+"- [Traductions sur Transifex](https://www.transifex.com/delta-chat/public/)\n"
+"- [Problèmes Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)\n"
+"- [Problèmes Delta Chat ordinateur de bureau](https://github.com/deltachat/deltachat-desktop/issues)\n"
+"- [Problèmes Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
+"- [Problèmes Bibliothèque centrale + Python](https://github.com/deltachat/deltachat-core/issues)"
 
 #: ../en/contribute.md:30
 msgid ""
 "We are always looking for developers who want to help along and are familiar with \n"
 "C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac."
 msgstr ""
+"Nous sommes en permanence à la recherche de développeurs qui voudraient nous"
+" aider et sont familiers avec C, Rust, Java, Swift, Javascript ou Python sur"
+" Android, iOS, Windows, Linux ou Mac."
 
 #: ../en/contribute.md:33
 msgid "# Donate Money or devices"
-msgstr ""
+msgstr "# Donner de l'argent ou des appareils"
 
 #: ../en/contribute.md:35
 msgid "If you want to support DeltaChat with money:"
-msgstr ""
+msgstr "Si vous voulez soutenir DeltaChat avec un don d'argent:"
 
 #: ../en/contribute.md:39
 msgid ""

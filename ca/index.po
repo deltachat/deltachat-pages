@@ -1,5 +1,6 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
+# Calbasi <joan@calbasi.net>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -8,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 22:15+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
-"Last-Translator: björn petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: Calbasi <joan@calbasi.net>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/delta-chat/teams/76181/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,35 +32,43 @@ msgstr ""
 
 #: ../en/index.md:7
 msgid "# Chat over e-mail and head back to the future with us!"
-msgstr ""
+msgstr "# Xateja sobre correu electrònic i retorna al futur amb naltros! "
 
 #: ../en/index.md:9
 msgid ""
 "<img src=\"../assets/logos/delta-chat.svg\" width=\"160\" style=\"float: "
 "left; margin: 20px;\" />"
 msgstr ""
+"<img src=\"../assets/logos/delta-chat.svg\" width=\"160\" style=\"float: "
+"left; margin: 20px;\" />"
 
 #: ../en/index.md:12
 msgid ""
 "**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**\n"
 "Check out our [GDPR compliancy statement](gdpr)."
 msgstr ""
+"**Delta Chat és com Telegram o Whatsapp però sense el seguiment o el control central.**\n"
+"Dona-li una ullada a la nostra [declaració de compliment amb el RGPD](gdpr)."
 
 #: ../en/index.md:15
 msgid ""
 "**Delta Chat doesn't have their own servers** but uses the most massive and diverse open messaging \n"
 "system ever: the existing e-mail server network."
 msgstr ""
+"**Delta Chat no te servidors propis** però usa el sistema de missatgeria més massiu i divers \n"
+"que hi ha hagut mai: la xarxa de servidors de correu electrònic."
 
 #: ../en/index.md:18
 msgid ""
 "**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** \n"
 "All you need is a standard e-mail account."
 msgstr ""
+"**Xateja amb qualsevol persona de la que coneguis la seva adreça de correu electrònic, sense que a ells els calgui instal·lar DeltaChat!** \n"
+"Només et cal una adreça de correu electrònic normal i corrent."
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "
-msgstr ""
+msgstr "# Captures de pantalla d'Android, Escriptori i iOS "
 
 #: ../en/index.md:26
 msgid ""
@@ -68,21 +77,31 @@ msgid ""
 "<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
 "style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 msgstr ""
+"<img src=\"../assets/blog/2019-01-chatlist.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> \n"
+"<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 
 #: ../en/index.md:28
 msgid ""
 "<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
 "style=\"float:left; margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
+"style=\"float:left; margin: 10px\" /> "
 
 #: ../en/index.md:30
 msgid ""
 "<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
 "style=\"margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
+"style=\"margin: 10px\" /> "
 
 #: ../en/index.md:33
 msgid ""
 "Please check our [January 2019 release blog post](../en/2019-01-27-releases) \n"
 "for information on current releases. "
 msgstr ""
+"Si us plau, dona-li una ullada al [post del blog sobre la versió de gener de 2019](../en/2019-01-27-releases) \n"
+"si vols informació de les versions actuals. "

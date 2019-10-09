@@ -23,138 +23,133 @@ layout: default-sq
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
-Delta Chat është një aplikacion i ri fjalosjeje që përdor email-et për shpërnguljen e mesazheve. 
-Nëse merrni një mesazh fjalosjeje, thjesht përdorni aplikacionin tuaj email për ta lexuar
-mesazhin dhe për t’iu përgjigjur. **Nuk ju duhet të regjistroheni diku, të shkoni te një sajt
-apo të instaloni Delta Chat-in.**
+Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
+**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
 
-## Si mund të gjej njerëz për të biseduar? 
+## How can I find people to chat with? 
 
-Me Delta Chat-in, mund t’i shkruani cilësdo adresë email ekzistuese - madje
-edhe nëse marrësi nuk përdor aplikacionin Delta Chat. Kjo është një nga
-dallimet më të mëdha me programe të tjera të ngjashme: S’ka nevojë që
-marrësi të instalojë të njëjtin aplikacion si ju.
+With Delta Chat, you can write to every existing e-mail address - even
+if the recipient is not using the Delta Chat app. No need for the
+recipient to install the same app as yours, as with other messengers.
 
 ## Cilat janë përparësitë e Delta Chat-it krahasuar me programe të tjerë të llojit?
 
-- _I pavarur_ nga kompani apo shërbime. Të dhënat tuaja janë pronë e _juaja_.
-- Të dhënat tuaja nuk ruhen në ndonjë shërbyes qendror; në këtë mënyrë, ndryshe nga shumica e programeve të tjera për shkëmbim mesazhesh, Delta Chat-i madje i mbron tejtëdhënat tuaja (kush i shkruan dhe kujt i shkruan?)
-- Librin tuaj të adresave nuk ia jepni kujt.
-- _I shpejtë_, përmes përdorimit të Push-IMAP
-- _Baza më e madhe e përdoruesve_ - mund të mbërrihet edhe te marrës që _nuk_ përdorin Delta Chat-in
-- _I përputhshëm_ - jo vetëm me veten
-- Ndërfaqe përdoruesi _elegante_ dhe _e thjeshtë_
-- Sistem i _shpërndarë_
-- _Pa Mesazhe të Padëshiruar_ - si parazgjedhje, shfaqen vetëm mesazhe nga përdorues të njohur
-- _I qëndrueshëm_ - i parrezik për përdorim profesional
-- _I besueshëm_ - mund të përdoret madje edhe për mesazhe biznesi
-- plotësisht me _Burim të Hapur_ dhe i bazuar në _Standarde_
+- _Independent_ of any company or services. _You_ own your data.
+- Your data is not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
+- You do not distribute your address book to anyone.
+- _Fast_ by the use of Push-IMAP.
+- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
+- _Compatible_ - not only to itself.
+- _Elegant_ and _simple_ user interface.
+- _Distributed_ system.
+- _No Spam_ - only messages of known users are shown by default.
+- _Reliable_ - safe for professional use.
+- _Trustworthy_ - can even be used for business messages.
+- _Copyleft_ and _Standards_ based libre software.
 
 ## Cilat mesazhe shfaqen në Delta Chat?
 
-Delta Chat shfaq automatikisht …
+Delta Chat automatically shows:
 
 - Mesazhe nga kontakte prej **librit tuaj të adresave**
 - Mesazhe nga kontakte **të kontaktuar nga ju**
 - **Përgjigje** ndaj mesazheve dërguar nga ju
 
-Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni te menuja kryesore te **Kërkesa kontakti** dhe, në daçi, të filloni bisedë që prej atje.
+Other messages do not appear automatically, and are to be found in the main menu at **Contact requests**. If desired a chat can be started from there.
 
-## Po Mesazhet e Padëshiruara?
+## What about spam?
 
-- Mesazhet në dosje të zakonshme mesazhesh të padëshiruar shpërfillen dhe adresat në ta nuk konsiderohen si kontakte të njohur.
-- Meqë mesazhet prej kontaktesh të panjohur nuk shfaqen vetvetiu, normalisht, **s’ka mesazhe të padëshiruar**.
-- Sido qoftë, nëse duhet vërtet, mund të **bllokoni** cilindo kontakt.
+- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
+- As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
+- However, if needed, you can **block** any contact.
 
 ## A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?
 
-- Po. Veç tekstit të thjeshtë, krejt bashkëngjitjet email shfaqen si mesazhe më vete. Mesazhet ikëse do të pranojnë vetvetiu bashkëngjitje sipas nevojës.
+- Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
 
-## A mbulon Delta Chat-i email-e HTML?
+## Does Delta Chat support HTML e-mails?
 
-- Po. Nëse email-i ardhës nuk ka pjesë nën tekst të thjeshtë, i shndërrojmë email-et HTML në tekst të thjeshtë. Email-et dërgohen përherë si tekst i thjeshtë.
+- Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted to plain text in the app. Outgoing e-mails always use plain text.
 
 # Grupe
 
-## Si mund të krijoj një grup?
+## Creation of a group
 
 - Përzgjidhni **Shtoni grup** që nga "menuja sanduiç" në cepin e sipërm djathtas te skena bazë e bisedave.
 - Te skena vijuese, përzgjidhni **anëtarët e grupit** dhe i vini shenjë kutizës në cepin e sipërm djathtas. Pas kësaj, mund të përcaktoni një **emër grupi**.
 - Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjen te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët).
 
-## Si të shtohen anëtarë te një grup?
+## Add members to a group
 
 - Çdo anëtar i grupit ka **të njëjtat të drejta** si kushdo tjetër. Për këtë arsye, gjithkush mund të fshijë cilindo anëtar ose të shtojë të rinj.
 - Për të shtuar ose fshirë anëtarë, klikoni mbi emrin e grupit te biseda.
 
 ## Ç’është një grup i verifikuar?
 
-- Një "grup i verifikuar" është një veçori eksperimentale (flasim për Janarin e 2019-s). 
-  Duke shtuar njëri-tjetrin përmes skanimesh kodi QR një grup anëtarësh të "verifikuar" mund 
-   të bisedojnë me njëri-tjetrin. Kjo do të thotë zbatim i detyrueshëm i fshehtëzimit e2e për grupin, 
-  që është i parrezik kundrejt furnizuesit të shërbimit ose sulmesh nga rrjeti. 
-  Megjithatë, disa prova me përdorues dhe përshtypje prej tyre sugjerojnë se ndryshimet UX 
-  dhe të sendërtimit ia vlejnë. Diskutimet më të freskëta mund të gjenden këtu: 
+- A "verified group" is an experimental feature (as of January 2019). 
+  By adding one another through QR-code scans a group of "verified" members can talk 
+  with each other. It enforces e2e group encryption that is safe against provider or 
+  network attacks. However, some user-tests and feedback suggests that UX and 
+  implementation changes makes sense. Recent discussions can be found here: 
   https://countermitm.readthedocs.io/en/latest/new.html
 
 ## Fshiva veten padashje.
 
-- Ngaqë s’jeni më anëtar i grupit, s’mund të shtoni veten sërish. 
-  Megjithatë, s’ka problem, thjesht kërkojini një anëtari tjetër të grupit në një fjalosje të zakonshme t’ju shtojë sërish.
+- As you're no longer a group member, you cannot add yourself again. 
+  However, no problem, just ask any other group member in a normal chat to re-add you.
 
 ## S’dua t’i marr më mesazhet e një grupi.
 
-- Ose fshini veten nga grupi si anëtar i listës, ose fshini krejt bisedën. 
-  Nëse doni të ribëheni pjesë e grupit, kërkojini një anëtari tjetër të grupit t’ju shtojë sërish.
+- Either delete yourself from the member list or delete the whole chat. 
+  If you want to join the group again later on, ask another group member to add you again.
 
-- Ndryshe, mundeni edhe ta "Heshtoni" një grup - duke bërë këtë, do të merrni krejt mesazhet dhe 
-  prapë mund të shkruani, por nuk njoftoheni më për çfarëdo mesazhesh të rinj.
+- As an alternative, you can also "Mute" a group - doing so means you get all messages and 
+  can still write, but are no longer notified of any new messages.
 
 # Fshehtëzim {#encryption}
 
 ## A ka Delta Chat-i fshehtëzim skaj-më-skaj?
 
-- Po. DeltaChat sendërton standardin Autocrypt Level 1 
-  dhe është pra në gjendje të fshehtëzojë mesazhe me e2e-n 
-  përmes aplikacionesh të tjera të afta të përdorin Autocrypt-in. 
+- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
+  thus E2E-encrypt messages with other Autocrypt-capable apps. 
 
 ## Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?
 
 - Asgjë.
 
-- Aplikacionet Delta Chat (dhe të tjerë aplikacione email të aftë për [Autocrypt](https://autocrypt.org))
-  përdorin automatikisht të njëjtat kyçe të domosdoshëm për fshehtëzim 
-  skaj-më-skaj, teksa dërgohen mesazhet e para. Pas kësaj, krejt mesazhet 
-  pasues fshehtëzohen automatikisht skaj-më-skaj. Nëse një nga partnerët 
-  në bisedë, më pas, përdor një aplikacion email që nuk mbulon Autocrypt-in, 
-  mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë për Autocrypt-in. 
+- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
+  e-mail apps) share the keys required for end-to-end-encryption automatically 
+  as the first messages are sent. 
+  After this, all subsequent messages are encrypted end-to-end automatically. 
+  If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
+  messages are not encrypted until an Autocrypt-compliant app is available again. 
 
-- Nëse doni të _çaktivizohet_ fshehtëzimi skaj-më-skaj, 
-  përdorni fushën përkatës te "Rregullime / Rregullime të mëtejshme".
+- If you want to _turn off_ the end-to-end-encryption, 
+  use the corresponding setting in "Settings / Advanced settings".
 
 ## Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?
 
-- Jo. Me shumicën e shërbyesve për email, në këtë rast, përdoret _transport encryption_ (TLS).
+- No. With most mail servers will then use _transport encryption_ (TLS).
 
 
 ## Si mund ta kontrolloj fshehtëzimin?
 
-- Nëse në krah të mesazhit shfaqet një **dry** i vockël, kjo do të thotë që mesazhi është i fshehtëzuar skaj-më-skaj _dhe_ është dërguar nga dërguesi i dhënë _dhe_ përgjigja juaj edhe ajo do të fshehtëzohet.
+- If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
 
-- Nëse **s’ka dry**, mesazhi zakonisht transportohet i pafshehtëzuar, p.sh., ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose dërguesi përdor një aplikacion që nuk mbulon fshehtëzimin skaj-më-skaj.
+- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
 
 ## Si mund ta verifikoj dërguesin?
 
-Profili i përdoruesit shfaq disa të dhëna shtesë:
+The user's profile shows some additional info:
 
-- Mund të prekni mbi "Kod Ftese QR" te Android dhe mandej përdorni butonin 
-  “skanoni kod QR” te pajisja tjetër që të skanoni këtë kod.  Nëse që të dyja 
-  pajisjet janë në linjë, do të vendosin një kanal bisede me njëra-tjetrën 
-  (nëse ky s’ekziston tashmë) dhe do të verifikohen edhe kyçet e fshehtëzimit. 
+- Tap "QR Invite code" on Android and then use the "Scan QR code"
+  button on another device to scan this code. If both devices are online,
+  they will introduce a chat channel with each-other (if it doesn't exist already) 
+  and the encryption keys will also be verified. 
 
-- Për fshehtëzim skaj-më-skaj, Delta Chat shfaq dy shenja gishtash. 
-  Nëse ata janë të njëjtë me ata te pajisja e partnerit tuaj në bisedë, lidhja është e sigurt.
+- For end-to-end-encryption, Delta Chat shows two fingerprints there. 
+  If the same fingerprints appears on your chat partner's device, the connection is safe.
 
 - Për fshehtëzim të transportit, gjendja thjesht tregohet atje
 
@@ -165,27 +160,46 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
 
 ## A mund të ripërdor kyçin tim ekzistues privat?
 
-- Po. Rruga më e mirë është të dërgohet një Mesazh Rregullimi Autocrypt-i që nga klienti tjetër email. Shihni për diçka si **Start Autocrypt Setup Transfer** te rregullimet e klientit tjetër dhe ndiqni udhëzimet e dhëna atje.
+- Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Ndryshe, mund ta importoni kyçin dorazi që nga "Rregullime të mëtejshme / Administroni kyçe private". Kujdes: Sigurohuni që kyçi nuk mbrohet me fjalëkalim, në të kundërt hiqjani.
+- Alternatively, you can import the key manually in "Advanced settings / Manage private keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të bërë. 
 
+## I can't import my existing PGP key into Delta Chat.
+
+In general, Delta Chat should support "common" private key formats, however, it
+is unlikely that we will support 100% of all private keys of any sources. This
+is also not the main focus of Delta Chat (in fact, the large majority of the
+Delta Chat users will not have any key before they start using Delta).
+However, we try to support private keys from other sources as good as possible. 
+
+With a very good chance, the problem is that your key is encrypted and/or uses
+a password. Such keys are not supported by Delta Chat. Please remove the
+encryption and the password and try the import again.
+
+Removing the password from the private key will be different, depending on the
+software you use to manage your PGP keys. With Enigmail, you can set your
+password to an empty value in the Key Management window. With GnuPG you can set
+it [via the command
+line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
+For other programs, you can find a solution online.
+
 # Multi-klient {#multiclient}
 
-## A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
+## Can I use Delta Chat on multiple devices at the same time?
 
-Nëse doni të përdorni **të njëjtën llogari** në pajisje të ndryshme (të afta 
-për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim: 
+If you want to use the **same account** on different (Autocrypt
+capable) devices, you have to sync their encryption capabilities: 
 
 - Në pajisjen e parë, zgjidhni "Rregullime të mëtejshme / Dërgo mesazh Rregullimi Autocrypt-i" 
   dhe klikoni derisa të shfaqet një "numër sigurie". 
 
-- Në pajisjen tjetër, pritni të mbërrijë "Mesazh Rregullimi Autocrypt-i" 
-  dhe klikoni mbi të, që do të duhej t’ju kërkonte numrin e sigurisë. 
+- On the other device, wait for the "Autocrypt Setup Message" to
+  arrive and click on it, which should prompt you for the security number. 
 
-- tani jeni i njëkohësuar me sukses dhe mund të përdorni që të dyja pajisjet për
-  marrje dhe dërgim mesazhesh, të fshehtëzuar nën e2e, me partnerët tuaj në komunikim. 
+- You are now synchronized, and can use both devices for
+  sending and receiving E2E-encrypted messages with your communication partners. 
 
 # Të ndryshme
 
@@ -197,4 +211,4 @@ për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim:
 
 ## Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
-- Shihni faqen [Standarde të përdorur në Delta Chat]({% include standards-url %}).
+- See [Standards used in Delta Chat]({% include standards-url %}).

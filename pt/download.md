@@ -14,7 +14,7 @@ layout: default-pt
 [<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
 [<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
 
-O Delta/Android é a versão mais estável e bem trabalhada. 
+Delta/Android is the most feature-rich and stable Delta Chat app. 
 
 * [Baixe do F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Baixe do Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
@@ -26,11 +26,11 @@ O Delta/Android é a versão mais estável e bem trabalhada.
 
 O Delta/Desktop é bem usável, independentemente ou em paralelo com o Android ou o iOS. 
 
-* [Baixe pro Linux do flathub](https://flathub.org/apps/details/chat.delta.desktop)
+* [download Latest for Mac OSX, Ubuntu 16.04-19.10 (scroll and click "assets")](https://github.com/deltachat/deltachat-desktop/releases/latest)
 
-* [Baixe pro Mac do github](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [download experimental pre-release for Windows](https://github.com/deltachat/deltachat-desktop/releases/)
 
-* [Pendendo versões pro Windows. Precisamos de ajuda!](https://github.com/deltachat/deltachat-desktop/issues/606) 
+* [download for Linux from flathub (OUTDATED)](https://flathub.org/apps/details/chat.delta.desktop)
 
 * [FAQ multicliente](help#multiclient): veja como sincronizar várias instâncias do Delta Chat.
 
@@ -45,7 +45,7 @@ O Delta/Desktop é bem usável, independentemente ou em paralelo com o Android o
 O Delta/iOS tem as funcionalidades básicas, mas não todas aquelas do Android e Desktop. 
 Versões beta são distribuídas via Testflight. 
 
-- [Página de convite do testflight](https://testflight.apple.com/join/uEMc1NxS) para o iPhone ou iPad.
+- [testflight invite page](https://testflight.apple.com/join/uEMc1NxS) for your iPhone or iPad.
 
 - [Contribua para desenvolver no iOS](https://github.com/deltachat/deltachat-ios/). 
 

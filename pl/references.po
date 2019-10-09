@@ -196,13 +196,17 @@ msgid ""
 "## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, "
 "WhatsApp & Co. (3)"
 msgstr ""
+"## Wissensarbeiter Jochen Plikat (niemiecki blog): Zur Zukunft von SMS, "
+"WhatsApp & Co. (3)"
 
 #: ../en/references.md:67
 msgid "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
-msgstr ""
+msgstr "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
 
 #: ../en/references.md:68
 msgid ""
 "30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-"
 "whatsapp-co-3/>"
 msgstr ""
+"30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-"
+"whatsapp-co-3/>"

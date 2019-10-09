@@ -53,13 +53,15 @@ msgstr "# Główne"
 
 #: ../en/help.md:17
 msgid "## What is Delta Chat? "
-msgstr ""
+msgstr "## Czym jest Delta Chat? "
 
 #: ../en/help.md:19
 msgid ""
 "<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
 "what.png\" />"
 msgstr ""
+"<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
+"what.png\" />"
 
 #: ../en/help.md:24
 msgid ""
@@ -68,10 +70,12 @@ msgid ""
 "message and reply. **You are not required to sign up anywhere, go to a website\n"
 "or install Delta Chat.**"
 msgstr ""
+"Delta Chat to nowa aplikacja do czatu, która używa e-maili do przesyłania wiadomości. \n"
+"Jeśli otrzymasz wiadomość na czacie, po prostu użyj aplikacji e-mail, aby przeczytać wiadomość i odpowiedzieć. **Nie musisz się nigdzie rejestrować, wchodzić na stronę internetową ani instalować Delta Chat.**"
 
 #: ../en/help.md:26
 msgid "## How can i find people to chat with? "
-msgstr ""
+msgstr "## Jak mogę znaleźć ludzi, z którymi mogę czatować? "
 
 #: ../en/help.md:31
 msgid ""
@@ -80,6 +84,10 @@ msgid ""
 "the biggest differences to other messengers: There is no need for the\n"
 "receiver to install the same app as yours."
 msgstr ""
+"Dzięki Delta Chat możesz pisać na każdy istniejący adres e-mail - nawet\n"
+"jeśli odbiorca nie korzysta z aplikacji Delta Chat. Jest to jedna z\n"
+"największych różnic w stosunku do innych komunikatorów:\n"
+"odbiorca nie musi instalować tej samej aplikacji co Twoja."
 
 #: ../en/help.md:33
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
@@ -345,6 +353,10 @@ msgid ""
 " eg. because you or the sender have disabled end-to-end-encryption or the "
 "sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- Jeśli **nie ma kłódki**, wiadomość jest zazwyczaj przesyłana w postaci "
+"niezaszyfrowanej, np. dlatego, że Ty lub nadawca wyłączyliście szyfrowanie "
+"typu end-to-end lub nadawca używa aplikacji, która nie obsługuje szyfrowania"
+" typu end-to-end."
 
 #: ../en/help.md:140
 msgid "## How can I verify the sender?"
@@ -361,6 +373,10 @@ msgid ""
 "  they will introduce a chat channel with each other (if it doesn't exist already) \n"
 "  and also the encryption keys will be verified. "
 msgstr ""
+"- Możesz nacisnąć na Androidzie „Kod QR zaproszenia”, a następnie użyć przycisku\n"
+"  „Skanuj kod QR” na innym urządzeniu, aby zeskanować ten kod. Jeśli oba urządzenia\n"
+"  są w trybie online, nawiążą ze sobą czat (jeśli jeszcze nie istnieje), a także zostaną \n"
+"  zweryfikowane klucze szyfrowania. "
 
 #: ../en/help.md:150
 msgid ""

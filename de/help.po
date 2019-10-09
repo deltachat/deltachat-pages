@@ -7,6 +7,7 @@
 # Ampli_fier, 2019
 # Sven, 2019
 # Schiri Nowski <schirinowski@gmail.com>, 2019
+# happyreacer <c.dummert@googlemail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-01 22:15+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Schiri Nowski <schirinowski@gmail.com>, 2019\n"
+"Last-Translator: happyreacer <c.dummert@googlemail.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,13 +61,15 @@ msgstr "# Allgemein {#general}"
 
 #: ../en/help.md:17
 msgid "## What is Delta Chat? "
-msgstr ""
+msgstr "## Was ist Delta Chat?"
 
 #: ../en/help.md:19
 msgid ""
 "<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
 "what.png\" />"
 msgstr ""
+"<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
+"what.png\" />"
 
 #: ../en/help.md:24
 msgid ""
@@ -75,10 +78,12 @@ msgid ""
 "message and reply. **You are not required to sign up anywhere, go to a website\n"
 "or install Delta Chat.**"
 msgstr ""
+"Delta Chat ist eine neue Chat-App, die E-Mails zur Übertragung von Nachrichten verwendet. \n"
+"Wenn Sie eine Chat-Nachricht erhalten, verwenden Sie einfach Ihre E-Mail-Anwendung, um die Nachricht zu lesen und zu beantworten. **Du musst dich nirgendwo anmelden, auf eine Website gehen oder Delta Chat zu installieren.**"
 
 #: ../en/help.md:26
 msgid "## How can i find people to chat with? "
-msgstr ""
+msgstr "## Wie kann ich Leute für eine Unterhaltung finden?"
 
 #: ../en/help.md:31
 msgid ""
@@ -87,6 +92,10 @@ msgid ""
 "the biggest differences to other messengers: There is no need for the\n"
 "receiver to install the same app as yours."
 msgstr ""
+"Mit Delta Chat können Sie an jede bestehende E-Mail-Adresse schreiben - auch"
+" wenn der Empfänger die Delta Chat App nicht nutzt. Dies ist einer der "
+"größten Unterschiede zu anderen Messengern: Es ist nicht erforderlich, dass "
+"der Empfänger die gleiche App wie Ihre installiert."
 
 #: ../en/help.md:33
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
@@ -348,6 +357,10 @@ msgid ""
 " eg. because you or the sender have disabled end-to-end-encryption or the "
 "sender uses an app that does not support end-to-end-encryption."
 msgstr ""
+"- Wenn es **kein Vorhängeschloss** gibt, wird die Nachricht in der Regel "
+"unverschlüsselt transportiert, z.B. weil Sie oder der Absender die End-to-"
+"End-Verschlüsselung deaktiviert haben oder der Absender eine App verwendet, "
+"die keine End-to-End-Verschlüsselung unterstützt."
 
 #: ../en/help.md:140
 msgid "## How can I verify the sender?"
@@ -366,6 +379,11 @@ msgid ""
 "  they will introduce a chat channel with each other (if it doesn't exist already) \n"
 "  and also the encryption keys will be verified. "
 msgstr ""
+"- Sie können auf \"QR Invite code\" in Android tippen und dann die "
+"Schaltfläche \"scan QR code\" auf einem anderen Gerät verwenden, um diesen "
+"Code zu scannen. Wenn beide Geräte online sind, werden sie einen Chat-Kanal "
+"miteinander einrichten (wenn er noch nicht existiert) und auch die "
+"Verschlüsselungscodes werden überprüft. "
 
 #: ../en/help.md:150
 msgid ""
