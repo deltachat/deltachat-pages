@@ -8,7 +8,7 @@ Carnival](https://eclectictechcarnival.org) in Athens, a feminist event about
 technology. It was full of self-organized learning - the people there really
 reappropriated technology which is usually alienated to them.
 
-Mostly women and Nonbinary people attended, and brought a variety of skills
+Mostly women and nonbinary people attended, and brought a variety of skills
 they could share between each other. I am used to the elitism of nerd culture -
 the contrast was wild. I never saw a learning athmosphere like that, where
 everyone could learn from each other, without being afraid to admit they don't
