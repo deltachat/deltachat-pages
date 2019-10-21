@@ -25,7 +25,8 @@ anything to say against witchcraft).
 ![A group photo from /ETC. 19 people smile into the camera, some are horsing
 around.](../assets/blog/20191021-delta-chat-etc-workshop-group-photo.jpg)
 
-*Some people who attended /ETC - it was a lot of fun.*
+*Some people who attended /ETC - it was a lot of fun.* [(Photo:
+/ETC)](https://eclectictechcarnival.org/etc/2019/athens/communications/group-photo/)
 
 ## How Delta Chat Can Benefit Feminists
 
