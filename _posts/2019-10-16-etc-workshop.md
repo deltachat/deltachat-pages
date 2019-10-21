@@ -3,8 +3,8 @@ title: Women and Nonbinary People Learning how to Install Mail Servers - Delta C
 author: compl4xx
 ---
 
-Last week, I had the chance to attend the [Eclectic Tech
-Carnival (/ETC)](https://eclectictechcarnival.org) in Athens, a feminist event about
+Recently, I had the chance to attend the [Eclectic Tech Carnival
+(/ETC)](https://eclectictechcarnival.org) in Athens, a feminist event about
 technology. It was full of self-organized learning - the people there really
 reappropriated technology which is usually alienated to them.
 
