@@ -11,7 +11,7 @@ space far from the alienating IT culture.
 
 Mostly women and nonbinary people attended, and brought a variety of skills
 they could share between each other. I am used to the elitism of nerd culture -
-the contrast was wild. I never saw a learning athmosphere like that, where
+the contrast was wild. I never saw a learning atmosphere like that, where
 everyone could learn from each other, without being afraid to admit they don't
 know everything.
 
@@ -47,7 +47,7 @@ right-wing militants, or privacy-sensitive emotional support.
 
 ![A backyard in Athens](../assets/blog/20191021-delta-chat-etc-workshop-athens-backyard.jpg)
 
-*We stayed at a quiet place in Athens, with a beatiful backyard.*
+*We stayed at a quiet place in Athens, with a beautiful backyard.*
 
 ## Burner Mail Servers in a Workshop
 
@@ -103,9 +103,9 @@ Unfortunately the servers had to be deleted afterwards - but that is just more
 motivation to set up our own servers ourselves, where we have the control ;)
 And that's the important part of decentralization and empowerment.
 
-![A person holding a DIY faraday bag with "cyberpunk is now" written on
+![A person holding a DIY Faraday bag with "cyberpunk is now" written on
 it.](../assets/blog/20191021-delta-chat-etc-workshop-faraday-bag.jpg)
 
-*At another workshop we could create our own faraday bags. They are basically a
+*At another workshop we could create our own Faraday bags. They are basically a
 hardware airplane mode and look super cool.*
 
