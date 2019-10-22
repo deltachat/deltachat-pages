@@ -77,6 +77,11 @@ In the end we played around with it a bit more. We took a look at the logs to
 get some practice with maintaining a server, too. The installation is the quick
 part, but mail servers need to be maintained as well, of course.
 
+![A command line, projected on the
+wall.](../assets/blog/20191022-delta-chat-etc-workshop-projector-command-line.png)
+
+*Learning how to look at the running processes during the workshop.*
+
 ## So What Comes Next Time?
 
 Unfortunately there wasn't enough time to directly try out the mail server with
