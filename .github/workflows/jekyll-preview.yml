@@ -21,8 +21,8 @@ jobs:
         KEY: ${{ secrets.KEY }}
         HOST: "37.218.242.41"
         PORT: 22
-        SOURCE: "_site"
-        TARGET: "/var/www/html/${{ github.sha }}/"
+        SOURCE: "_site/*"
+        TARGET: "/var/www/html/_site/${{ github.sha }}/"
     - name: "post Link"
       uses: rytswd/respost@v0.1.0
       with:
