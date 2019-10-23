@@ -1,0 +1,32 @@
+name: Deploy Preview
+
+on: [pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - name: Upload
+      uses: appleboy/scp-action@master
+      env:
+        USERNAME: ${{ secrets.USERNAME }}
+        KEY: ${{ secrets.KEY }}
+        HOST: "37.218.242.41"
+        PORT: 22
+        SOURCE: "_site"
+        TARGET: "/var/www/html/${{ github.sha }}/"
+    - name: "post Link"
+      uses: rytswd/respost@v0.1.0
+      with:
+        title: "Preview changes"
+        body: "Preview at: https://37.218.242.41/${{ github.sha }}/_site/"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
