@@ -27,6 +27,6 @@ jobs:
       uses: rytswd/respost@v0.1.0
       with:
         title: "Preview changes"
-        body: "Preview at: http://37.218.242.41/${{ github.sha }}/_site/"
+        body: "Preview at: http://37.218.242.41/${{ github.sha }}/"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
