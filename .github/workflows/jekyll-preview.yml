@@ -19,7 +19,7 @@ jobs:
       with:
         user: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
-        host: "37.218.242.41"
+        host: "download.delta.chat"
         port: 22
         local: "_site/*"
         remote: "/var/www/html/_site/${{ github.sha }}/"
@@ -27,6 +27,6 @@ jobs:
       uses: rytswd/respost@v0.1.0
       with:
         title: "Preview changes"
-        body: "Preview at: http://37.218.242.41/${{ github.sha }}/_site/"
+        body: "Preview at: https://download.delta.chat/${{ github.sha }}/_site/"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
