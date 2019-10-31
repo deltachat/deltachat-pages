@@ -23,7 +23,7 @@ jobs:
       with:
         user: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
-        host: "download.delta.chat"
+        host: "37.218.242.41"
         port: 22
         local: "_site"
         remote: "/var/www/html/"
