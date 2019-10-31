@@ -21,7 +21,7 @@ jobs:
         key: ${{ secrets.KEY }}
         host: "download.delta.chat"
         port: 22
-        local: "_site/*"
+        local: "-p _site/*"
         remote: "/var/www/html/_site/${{ github.sha }}/"
     - name: "post Link"
       uses: rytswd/respost@v0.1.0
