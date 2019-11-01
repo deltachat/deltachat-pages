@@ -1,0 +1,30 @@
+name: Deploy Master Branch
+
+on:
+  push:
+    branches:
+      - master
+      - new-deployment
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - name: Upload
+      uses: horochx/deploy-via-scp@v1.0.1
+      with:
+        user: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        host: "delta.chat"
+        port: 22
+        local: "_site"
+        remote: "/var/www/html/"
+
