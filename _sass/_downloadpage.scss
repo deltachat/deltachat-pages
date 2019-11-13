@@ -1,0 +1,96 @@
+html {
+    --border-color: rgb(97, 97, 97);
+}
+
+
+.download-content {
+    display: block;
+    padding: 0 4pt;
+
+    #recommend>.box {
+        border: 4px solid var(--border-color);
+    }
+
+    .box {
+        border: 2px solid var(--border-color);
+        margin: 10pt 5pt;
+        padding: 0 0 5pt 5pt;
+        background-color: rgb(249, 249, 249);
+        border-radius: 2px;
+    }
+
+    .box>.source-link {
+        font-size: 13px;
+        float: right;
+        text-decoration: none;
+        padding: 2pt 2pt 2pt 3pt;
+        border-radius: 0 2px 0 10px;
+        border: 2px solid var(--border-color);
+        right: -2px;
+        top: -2px;
+        position: relative;
+    }
+
+    .box>.source-link:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: black;
+    }
+
+    .box>.title {
+        font-size: 20px;
+        margin-top: 5pt;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .box>.buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .box>.buttons>a {
+        background-color: purple;
+        color: white;
+        font-weight: bold;
+        padding: 5px;
+        margin: 3px;
+        text-decoration: none;
+        font-size: 18px;
+        height: max-content;
+        border-radius: 2px;
+        line-height: 1.23;
+    }
+
+    .box>.buttons>a.soon {
+        color: orange;
+        cursor: not-allowed;
+    }
+
+    .box>.buttons>a.big-button {
+        line-height: 37px;
+        padding-left: 10px;
+        padding-right: 12px;
+        font-size: 20px;
+    }
+
+    small {
+        display: block;
+        font-size: 12px;
+    }
+
+    code {
+        background-color: rgb(229, 229, 229);
+        color: black;
+        padding: 5px 8px;
+        display: inline-block;
+        position: relative;
+        user-select: all;
+    }
+
+
+    /* .soon {
+    display: none;
+} */
+}
