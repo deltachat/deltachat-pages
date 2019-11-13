@@ -13,8 +13,8 @@ layout: default-pt
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**O Delta Chat é como o Telegram ou o Whatsapp mas sem rastreio ou central de controle.**
-Dê uma olhada na nossa [declaração de conformidade com o GDPR](gdpr).
+**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
+Delta Chat does not need your phone number. Check out our [privacy statement](gdpr).
 
 **O Delta Chat não tem um servidor próprio** pois usa o mais diverso e massivo sistema aberto 
 de mensagens: o sistema de e-mails já existente.
@@ -34,6 +34,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-Por favor, leia nossa [postagem em inglês da versão de Janeiro de 2019](../en/2019-01-27-releases)
-para maires informações sobre as versões atuais.
+Please check our [latest blog posts](blog)
+for information on current releases and events. 
 

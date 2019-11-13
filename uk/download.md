@@ -1,6 +1,6 @@
 ---
-title: Завантажити
-layout: default-uk
+title: Get Delta Chat
+layout: default-en
 ---
 
 
@@ -9,61 +9,97 @@ layout: default-uk
 
 
 
-# Delta/Android Завантаження (Бета)
+<div class="download-content">
+    <h1>Recommended for you:</h1>
+    <div id="recommend"></div>
+    <noscript>You need to enable JavaScript to autodetect your platform through your User Agent. It's detected localy on your device.</noscript>
+    <h1>Other platforms:</h1>
+    <div id="boxes">
+        <div class="box" id="linux">
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
+            <div class="title">GNU+Linux</div>
+            <div class="buttons">
+                <a href="https://download.delta.chat/desktop/DeltaChat.stable.amd64.deb" class="big-button">Debian / Ubuntu (.deb)</a>
+                <a href="https://download.delta.chat/desktop/DeltaChat.stable.AppImage" class="big-button">Universal (.AppImage)</a>
+                <a href="https://flathub.org/apps/details/chat.delta.desktop" class="soon"><small>Download from</small> Flathub</a>
+            </div>
+            <h4>Install via Package Manager</h4>
+            <p>
+                Arch <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/">(AUR)</a>:
+                <code>yay -S deltachat-desktop-git</code>
+            </p>
+            <p>
+                <a href="https://flathub.org/apps/details/chat.delta.desktop">Flatpak</a> (outdated):
+                <code>flatpak install flathub chat.delta.desktop</code>
+            </p>
+        </div>
+        <div class="box" id="windows">
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
+            <div class="title">Windows</div>
+            <div class="buttons">
+                <a href="https://download.delta.chat/desktop/DeltaChat.stable.setup.exe" class="big-button">Setup (.exe)</a>
+                <a class="soon big-button">Portable (.exe)</a>
+                <a class="soon"><small>Download from</small> Microsoft Store</a>
+            </div>
+            <p>Please note that the Portable version still stores the user data in the users directory</p>
+        </div>
+        <div class="box" id="osx">
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
+            <div class="title">macOS</div>
+            <div class="buttons">
+                <a href="https://download.delta.chat/desktop/DeltaChat.stable.dmg" class="big-button">DMG</a>
+                <a class="soon"><small>Download on the</small> AppStore</a>
+            </div>
+        </div>
+        <div class="box" id="ios">
+            <a href="https://github.com/deltachat/deltachat-ios" class="source-link">Source Code</a>
+            <div class="title">iOS (iPhone)</div>
+            <div class="buttons">
+                <a href="https://testflight.apple.com/join/uEMc1NxS"><small>Beta on</small> Testflight</a>
+                <a class="soon"><small>Download on the</small> AppStore</a>
+            </div>
+        </div>
+        <div class="box" id="android">
+            <a href="https://github.com/deltachat/deltachat-android" class="source-link">Source Code</a>
+            <div class="title">Android</div>
+            <div class="buttons">
+                <a href="https://github.com/deltachat/deltachat-android/releases/download/preview-v0.950.0/deltachat-gplay-release-0.950.0.apk" class="big-button">APK</a>
+                <a href="https://f-droid.org/app/com.b44t.messenger"><small>Get it on</small>F-Droid</a>
+                <a href="https://play.google.com/store/apps/details?id=chat.delta"><small>Beta testing on</small>Google Play</a>
+                <a class="soon"><small>Get it on</small>Amazon Appstore</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../assets/js/logic.js"></script>
 
-[<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
-[<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
+# QR Code for this site
+If want to share this site quickly with a friend, you can use this qr code:
 
-Delta/Android – додаток Delta Chat з найбільшою функціональністю і стабільністю.
+<img style="float: center" src="../assets/home/get.delta.chat.png" alt="Qr code for https://get.delta.chat" width="200" />
 
-* [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
-* [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
-* [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
+Or just visit `https://get.delta.chat` on you're friends device.
 
 
-# Delta/Desktop Завантаження (Бета)
+# Links
 
-Delta/Desktop добре використовується на персональному комп'ютері або у поєднанні з Android і iOS.
+* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
+* [Verify Downloads](verify_downloads.html)
 
-* [download for Linux from flathub](https://flathub.org/apps/details/chat.delta.desktop)
+## Changelogs
 
-* [download for Mac from our github release page](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Android]({% include changelog-url %})
+* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-* [Підтримка Windows очікується, потрібна допомога!] (https://github.com/deltachat/deltachat-desktop/issues/606)
+## Preview Builds:
+* [Desktop](https://download.delta.chat/desktop/preview/)
 
-* [ЧаПи мультиклієнтські](help#multiclient) сторінка про те, як синхронізувати версію для ПК з мобільними клієнтами Delta.
+## Badges
 
-* [Перегляд журналу змін](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
-  [зробити внесок в репозитарій версії для ПК](https://github.com/deltachat/deltachat-desktop/).
-
-
-# Delta/iOS Тестовий Політ (Бета)
-
+[<img src="../assets/home/get-it-on-gplay-beta.png" alt="Beta testing on Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
+[<img src="../assets/home/get-it-on-fdroid.png" alt="Get it on F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
+<!--
 <img src="../assets/home/get-it-on-ios.png" alt="Download on Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
-
-Delta/iOS підтримує базові функції, але не всі, які є у версіях для Android або ПК.
-Бета-версії надані через Тестовий Політ.
-
-- [сторінка запрошення для Тестових Польотів](https://testflight.apple.com/join/uEMc1NxS) для Вашого iPhone або iPad.
-
-- [зробити внесок у розробку iOS](https://github.com/deltachat/deltachat-ios/).
-
-- Скануйте цей QR-код за допомогою камери Вашого iPhone/iPad
-
- ![QR-код](../assets/home/deltachat_testflight_qrcode.png)
-
-
-# Перевірка завантажених файлів
-
-Для Android Ви можете перевірити автентичність, порівнявши відбитки сертифікату SHA256 інсталяційного файлу APK з наступними контрольними сумами:
-
-* Для завантажень з F-Droid:
- `{% include fingerprint-f-droid %}`
-
-* Інші завантаження APK:
-  `{% include fingerprint-local %}`
-
-Ви можете подивитися відбиток сертифікату SHA256, яким підписано інсталяційний файл APK, за допомогою команди
-`keytool -list -printcert -jarfile <APK-file>`
-
+-->

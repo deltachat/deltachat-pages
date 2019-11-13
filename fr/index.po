@@ -1,21 +1,22 @@
 # Translators:
-# björn petersen <r10s@b44t.com>, 2018
+# Rigal, 2019
+# polo lancien <polo.lancien@aliceadsl.fr>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 22:15+0200\n"
+"POT-Creation-Date: 2019-11-13 18:03+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
-"Last-Translator: björn petersen <r10s@b44t.com>, 2018\n"
+"Last-Translator: polo lancien <polo.lancien@aliceadsl.fr>, 2019\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 #: ../en/index.md:5
 msgid ""
@@ -25,24 +26,26 @@ msgid ""
 "---"
 msgstr ""
 "---\n"
-"title: La messagerie\n"
+"title: La messagerie instantanée\n"
 "layout: default-fr\n"
 "---"
 
 #: ../en/index.md:7
 msgid "# Chat over e-mail and head back to the future with us!"
-msgstr ""
+msgstr "# Tchattez par courriel et retournez vers l'avenir avec nous !"
 
 #: ../en/index.md:9
 msgid ""
 "<img src=\"../assets/logos/delta-chat.svg\" width=\"160\" style=\"float: "
 "left; margin: 20px;\" />"
 msgstr ""
+"<img src=\"../assets/logos/delta-chat.svg\" width=\"160\" style=\"float: "
+"left; margin: 20px;\" />"
 
 #: ../en/index.md:12
 msgid ""
 "**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**\n"
-"Check out our [GDPR compliancy statement](gdpr)."
+"Delta Chat does not need your phone number. Check out our [privacy statement](gdpr)."
 msgstr ""
 
 #: ../en/index.md:15
@@ -50,16 +53,21 @@ msgid ""
 "**Delta Chat doesn't have their own servers** but uses the most massive and diverse open messaging \n"
 "system ever: the existing e-mail server network."
 msgstr ""
+"**Delta Chat ne dispose d'aucun serveur** mais il utilise le système de "
+"messagerie ouverte le plus massif et le plus diversifié qui soit : le réseau"
+" des serveurs de messagerie électronique déjà existant."
 
 #: ../en/index.md:18
 msgid ""
 "**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** \n"
 "All you need is a standard e-mail account."
 msgstr ""
+"**Tchattez avec n'importe qui si vous connaissez son adresse de courriel, pas besoin pour eux d'installer DeltaChat!**\n"
+"Tout ce dont vous avez besoin, c'est d'un compte de courriel standard."
 
 #: ../en/index.md:21
 msgid "# Screenshots Android, Desktop and iOS "
-msgstr ""
+msgstr "# Captures d'écran Android, Ordinateur de bureau et iOS"
 
 #: ../en/index.md:26
 msgid ""
@@ -68,21 +76,29 @@ msgid ""
 "<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
 "style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" /> "
 msgstr ""
+"<img src=\"../assets/blog/2019-01-chatlist.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" />\n"
+"<img src=\"../assets/blog/2019-01-chat.png\" width=\"120\" \n"
+"style=\"float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;\" />"
 
 #: ../en/index.md:28
 msgid ""
 "<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
 "style=\"float:left; margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/desktop-screenshot.png\" width=\"280\" "
+"style=\"float:left; margin: 10px\" />"
 
 #: ../en/index.md:30
 msgid ""
 "<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
 "style=\"margin: 10px\" /> "
 msgstr ""
+"<img src=\"../assets/blog/ios_screenshot_chat_view.png\" width=\"110\" "
+"style=\"margin: 10px\" />"
 
 #: ../en/index.md:33
 msgid ""
-"Please check our [January 2019 release blog post](../en/2019-01-27-releases) \n"
-"for information on current releases. "
+"Please check our [latest blog posts](blog)\n"
+"for information on current releases and events. "
 msgstr ""
