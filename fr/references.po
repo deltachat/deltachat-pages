@@ -1,22 +1,23 @@
 # Translators:
 # Eric Lavarde <ewl+transifex@lavar.de>, 2018
 # Arnaud Pernet, 2018
+# polo lancien <polo.lancien@aliceadsl.fr>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 22:15+0200\n"
+"POT-Creation-Date: 2019-11-13 18:03+0200\n"
 "PO-Revision-Date: 2018-04-21 22:06+0000\n"
-"Last-Translator: Arnaud Pernet, 2018\n"
+"Last-Translator: polo lancien <polo.lancien@aliceadsl.fr>, 2019\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 #: ../en/references.md:5
 msgid ""
@@ -39,6 +40,8 @@ msgid ""
 "Although Delta Chat is still in beta state, there are already some "
 "interesting articles."
 msgstr ""
+"Bien que Delta Chat soit toujours en version bêta, il existe déjà quelques "
+"articles intéressants."
 
 #: ../en/references.md:14
 msgid ""
@@ -47,48 +50,63 @@ msgid ""
 "Please [let us know](imprint)\n"
 "or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)."
 msgstr ""
+"Cette liste est loin d'être complète -\n"
+"avons nous raté quelque chose ?\n"
+"S.v.p. [dites-nous](imprint)\n"
+"ou faites juste une demande de tirage [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)."
 
 #: ../en/references.md:17
 msgid "## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat"
-msgstr ""
+msgstr "## le blog Mozilla Thunderbird : FOSDEM 2019 and DeltaChat"
 
 #: ../en/references.md:19
 msgid ""
 "03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-"
 "deltachat/>"
 msgstr ""
+"03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-"
+"deltachat/>"
 
 #: ../en/references.md:22
 msgid ""
 "## habr.com (Large Russian technology site): децентрализованный мессенджер "
 "поверх электронной почты"
 msgstr ""
+"## habr.com (vaste site de technologie russe): децентрализованный мессенджер"
+" поверх электронной почты"
 
 #: ../en/references.md:24
 msgid "03/2019, <https://habr.com/ru/post/442266/>"
-msgstr ""
+msgstr "03/2019, <https://habr.com/ru/post/442266/>"
 
 #: ../en/references.md:27
 msgid ""
 "## technolike.com (Technology blog from Cuba): Delta chat, chatea por correo"
 " al más puro estilo WhatsApp"
 msgstr ""
+"## technolike.com (blog technologique de Cuba): Delta chat, chatea por "
+"correo al más puro estilo WhatsApp"
 
 #: ../en/references.md:29
 msgid ""
 "02/2019, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-"
 "puro-estilo-whatsapp/>"
 msgstr ""
+"02/2019, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-"
+"puro-estilo-whatsapp/>"
 
 #: ../en/references.md:32
 msgid "## blog.lenzg.net: Using Delta Chat with email sub-addresses"
 msgstr ""
+"## blog.lenzg.net: Utiliser Delta Chat avec des sous-adresses de courriel"
 
 #: ../en/references.md:34
 msgid ""
 "02/2019, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-"
 "addresses/>"
 msgstr ""
+"02/2019, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-"
+"addresses/>"
 
 #: ../en/references.md:37
 msgid ""
@@ -175,18 +193,38 @@ msgstr ""
 "03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
 "messenger-himmel/>"
 
-#: ../en/references.md:65
+#: ../en/references.md:66
 msgid ""
 "## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, "
 "WhatsApp & Co. (3)"
 msgstr ""
-
-#: ../en/references.md:67
-msgid "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
-msgstr ""
+"## Wissensarbeiter Jochen Plikat (blog allemand): Zur Zukunft von SMS, "
+"WhatsApp & Co. (3)"
 
 #: ../en/references.md:68
+msgid "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
+msgstr ""
+"_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_\n"
+"\"Mettre en place le Delta Chat ne pourrait pas être plus facile...\""
+
+#: ../en/references.md:70
 msgid ""
 "30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-"
-"whatsapp-co-3/>"
+"whatsapp-co-3/> "
+msgstr ""
+
+#: ../en/references.md:73
+msgid ""
+"## Mobilsicher.de (German mobil security website) Das Infoportal für mehr "
+"Sicherheit auf Smartphone und Tablet"
+msgstr ""
+
+#: ../en/references.md:75
+msgid "_\"Delta.Chat: Sicher und dezentral – geht das?\"_"
+msgstr ""
+
+#: ../en/references.md:76
+msgid ""
+"03.06.2019, <https://mobilsicher.de/kategorie/whatsapp-und-messenger"
+"/messenger-app-delta-chat-kurz-vorgestellt/> "
 msgstr ""

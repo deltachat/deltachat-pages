@@ -25,11 +25,12 @@ layout: default-uk
 
 # Переклади і звіти про помилки
 
-- [Переклади на Transifex](https://www.transifex.com/delta-chat/public/)
-- [Питання з Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Питання з Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Питання з Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Питання з Core Library + Python](https://github.com/deltachat/deltachat-core/issues)
+- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Ми завжди шукаємо розробників, які бажають допомогти і знайомі з
 C, Rust, Java, Swift, Javascript або Python на Android, iOS, Windows, Linux або Mac.

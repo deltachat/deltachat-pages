@@ -9,28 +9,37 @@ layout: default-pt
 
 
 
-# Privacidade por "Design"
+# Note on privacy and GDPR 
 
-- **Confidencialidade**: Criptografia ponta a ponta por padrão, pela implementação do [Autocrypt
-  Nível 1](https://autocrypt.org).
+The General Data Protection Regulation (GDPR) is often regarded
+as the furthest reaching legislation for privacy protection of users. 
+On this page we detail how the Delta Chat app easily complies 
+with GDPR requirements. 
 
-- **Minimização de dados**: Sem sincronização ou entrega do livro de endereços.
+#  How Delta Chat complies to the GDPR 
 
-- **Rejeição de dados**: Sem servidor do Delta Chat, não ocorre processamento de dados pessoais.
+- Implements the **Privacy by Design** requirement of the GDPR, through
 
+  - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt
+  Level 1](https://autocrypt.org).
 
-# Ainda mais conformidade com o GDPR 
+  - **Data minimization**: No uploading of address-book content.
 
-- Não necessita qualquer **consentimento** (artigo 7 do GDPR) dos usuários ou seus contatos (sujeitos dos dados), já que o livro de endereços não é transmitido.
+  - **Data avoidance**: No Delta Chat server, no processing of personal data.
+
+- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book data is transmitted.
 
 - Pode ser usado **sem necessidade de contratação ou instruções** de qualquer entidade controladora (organização), visto que nenhum terceiro a mais irá processar o e-mail e dados pessoais correlatos.
+
+
+
 
 # Como controladores de dados (organizações) beneficiam-se ao usar o Delta Chat em termos de  cumprir o GDPR
 
 - Não gera **requisitos adicionais de informação** para o controlador direta ou indiretamente quanto aos sujeitos de dados 
   relativamente a qualquer coleta de dados de livros de endereços, artigo 13, 14 do GDPR.
 
-- Dispensa **avaliação de impacto de proteção de dados** a ser feita para o Delta Chat (Artigo 35 do GDPR), porque nenhum dado particular a mais é processado que as mensagens de e-mail.
+- Needs **no data protection impact assessment**  to be carried out for Delta Chat (Article 35 GDPR), because it processes no particular additional data beyond E-Mail messenging.
 
 - Adicionar medidas de privacidade do Delta Chat ao 
   **histórico de atividades processadas** pode gerar um impacto positivo 
@@ -43,6 +52,7 @@ reduz-se a identificar os provedores de e-mail e gravar suas atividades, artigo 
 - Riscos remanescentes aos direitos e liberdades das pessoas naturais 
   são, geralmente, também limitados aos dados de comunicação processados 
   pelo controlador e provedores de e-mail.
+
 
 
 As afirmações aqui contidas refletem a redação de 16/05/2018 do Regulamento Geral sobre a Proteção de Dados (GDPR).

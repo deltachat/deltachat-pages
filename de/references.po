@@ -3,22 +3,23 @@
 # happyreacer <c.dummert@googlemail.com>, 2019
 # W R, 2019
 # Schiri Nowski <schirinowski@gmail.com>, 2019
+# T om, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 22:15+0200\n"
+"POT-Creation-Date: 2019-11-13 18:03+0200\n"
 "PO-Revision-Date: 2018-04-21 22:06+0000\n"
-"Last-Translator: Schiri Nowski <schirinowski@gmail.com>, 2019\n"
+"Last-Translator: T om, 2019\n"
 "Language-Team: German (https://www.transifex.com/delta-chat/teams/76181/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 #: ../en/references.md:5
 msgid ""
@@ -187,18 +188,36 @@ msgstr ""
 "03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-"
 "messenger-himmel/>"
 
-#: ../en/references.md:65
+#: ../en/references.md:66
 msgid ""
 "## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, "
 "WhatsApp & Co. (3)"
 msgstr ""
-
-#: ../en/references.md:67
-msgid "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
-msgstr ""
+"## Wissensarbeiter Jochen Plikat (Deutscher Blog): Zur Zukunft von SMS, "
+"WhatsApp & Co. (3)"
 
 #: ../en/references.md:68
+msgid "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
+msgstr "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
+
+#: ../en/references.md:70
 msgid ""
 "30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-"
-"whatsapp-co-3/>"
+"whatsapp-co-3/> "
+msgstr ""
+
+#: ../en/references.md:73
+msgid ""
+"## Mobilsicher.de (German mobil security website) Das Infoportal für mehr "
+"Sicherheit auf Smartphone und Tablet"
+msgstr ""
+
+#: ../en/references.md:75
+msgid "_\"Delta.Chat: Sicher und dezentral – geht das?\"_"
+msgstr ""
+
+#: ../en/references.md:76
+msgid ""
+"03.06.2019, <https://mobilsicher.de/kategorie/whatsapp-und-messenger"
+"/messenger-app-delta-chat-kurz-vorgestellt/> "
 msgstr ""
