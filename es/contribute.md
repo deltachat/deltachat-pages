@@ -21,12 +21,12 @@ layout: default-es
 
 # Traducciones e informes de errores
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traducciones en Transifex](https://www.transifex.com/delta-chat/public/)
+- [Discusiones sobre Delta Chat para Android](https://github.com/deltachat/deltachat-android/issues)
+- [Discusiones sobre Delta Chat para Escritorio](https://github.com/deltachat/deltachat-desktop/issues)
+- [Discusiones sobre Delta Chat para iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Discusiones sobre C Core Library y Python Bindings](https://github.com/deltachat/deltachat-core/issues)
+- [Discusiones sobre Rust Core Library y Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Siempre estamos buscando desarrolladores que quieran ayudar y que estén familiarizados con
 C, Rust, Java, Swift, Javascript o Python en Android, iOS, Windows, Linux o Mac.
