@@ -13,7 +13,7 @@ Delta/Android is the most feature-rich and stable Delta Chat app.
 * [Download from F-Droid](https://f-droid.org/app/com.b44t.messenger)
 * [Download from Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
 * [Download APK](https://github.com/deltachat/deltachat-android/releases) (experienced users only)
-* [View Changelog]({% include changelog-url %}), [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
+* [contribute to the Android repo](https://github.com/deltachat/deltachat-android/). 
 
 
 # Delta/Desktop Downloads (Beta)
@@ -28,8 +28,7 @@ Delta/Desktop is well usable and can be operated standalone or in conjunction wi
 
 * [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
 
-* [View Changelog](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
-  [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
+* [contribute to Desktop repository](https://github.com/deltachat/deltachat-desktop/). 
 
 
 # Delta/iOS on TestFlight (Beta)
@@ -48,16 +47,14 @@ Betas are distributed via Testflight.
   ![QRCode](../assets/home/deltachat_testflight_qrcode.png)
 
 
-# Verify Downloads
+# Links
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
+* [Verify Downloads](verify_downloads.html)
 
-* For F-Droid downloads:  
-  `{% include fingerprint-f-droid %}`
+## Changelogs
 
-* Other APK downloads:  
-  `{% include fingerprint-local %}`
-
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
-`keytool -list -printcert -jarfile <APK-file>`
-
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Android]({% include changelog-url %})
+* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
