@@ -89,7 +89,8 @@ To **add a new page**:
 
 - create the source as `en/<name>.md`
 
-- modify `tools/.tx/config` as needed
+- modify `tools/.tx/config` - add a section for the new page
+  modify `tools/t-dance.sh` - add your page to `sfiles` variable
   and create dir `translations/delta-chat-pages.<name>po/`
 
 - run `cd tools; ./t-dance push`
