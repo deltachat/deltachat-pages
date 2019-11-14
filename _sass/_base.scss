@@ -25,11 +25,13 @@ body {
 #menu li {
     display: inline-block;
     padding-right: 0.5em;
+
+    a, a:visited {
+        color: #fff;
+        font-size: 16px;
+    }
 }
-#menu li a, #menu li a:visited {
-    color: #fff;
-    font-size: 15px;
-}
+
 
 #content {
     padding: 0em 1em 0.5em 1em;	
@@ -66,11 +68,13 @@ body {
         padding: 2em 1em 2em 1em;
     }
     #menu li {
-	padding-right: 1.0em;
+        padding-right: 1.0em;
+        
+        a, a:visited {
+            font-size: 23px;
+        }
     }
-    #menu li a, #menu li a:visited {
-        /*font-size: 17px;*/
-    }	
+
     #content {	   
         margin: 0 auto;
         width: 75%;
