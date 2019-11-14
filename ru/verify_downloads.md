@@ -14,10 +14,10 @@ layout: default-ru
 Для Android вы можете проверить, что сертификат подписи на APK соответствует одному из следующих отпечатков SHA256: 
 
 * Для загрузок с F-Droid:  
-  `{% включать отпечаток f-droid %}`
+  `{% include fingerprint-f-droid %}`
 
 * Для других загрузок APK:  
-  `{% включать локальный отпечаток %}`
+  `{% include fingerprint-local %}`
 
 Для отображения отпечатков SHA256 сертификата подписи APK можно использовать, например, 
 `keytool -list -printcert -jarfile <APK-file>`
