@@ -1,5 +1,6 @@
 html {
     --border-color: rgb(97, 97, 97);
+    --dl-button-color: #6fa1b8;
 }
 
 
@@ -51,7 +52,7 @@ html {
     }
 
     .box>.buttons>a {
-        background-color: purple;
+        background-color: var(--dl-button-color);
         color: white;
         font-weight: bold;
         padding: 5px;
