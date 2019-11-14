@@ -41,5 +41,5 @@ jobs:
                              \"description\": \"Preview the page here:\", \
                              \"context\": \"Page Preview\", \
                              \"target_url\": \"${PREVIEW_LINK}\"}"
-        curl -f -s -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA"
+        curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA"
 
