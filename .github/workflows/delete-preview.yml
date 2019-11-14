@@ -24,6 +24,10 @@ jobs:
         # create empty file to copy it over the outdated deliverable on download.delta.chat
         echo "This preview is outdated and has been removed." > ${{ steps.getid.outputs.prid }}/index.html
     - name: Replace build with error message
-      run: |
-        echo ${{ secrets.KEY }} | rsync -vh ${{ steps.getid.outputs.prid }} jekyll@delta.chat:/var/www/html/_site/${{ steps.getid.outputs.prid }} --delete --password-file=-
+      uses: maxheld83/rsync@v0.1.0
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.key }}
+      args:
+        - "${{ steps.getid.outpus.prid }}"
+        - "${{ secrets.USERNAME }}@delta.chat:/var/www/html/_site/${{ steps.getid.outputs.prid }}"
 
