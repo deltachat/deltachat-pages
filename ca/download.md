@@ -40,7 +40,7 @@ layout: default-en
                 <a href="https://download.delta.chat/desktop/DeltaChat.stable.setup.exe" class="big-button">Setup (.exe)</a>
                 <a class="soon big-button">Portable (.exe)</a>
                 <a class="soon"><small>Download from</small> Microsoft Store</a>
-            </div>            
+            </div>    
         </div>
         <div class="box" id="osx">
             <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
