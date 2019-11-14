@@ -1,0 +1,36 @@
+# documentation: https://github.com/deltachat/sysadmin/tree/master/delta.chat
+name: Delete Preview Deliverables
+
+on: 
+  pull_request:
+    types: [closed]
+    paths-ignore:
+      - 'docs/**'  # only trigger build if a file outside of /docs was changed
+
+jobs:
+  delete:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Get Pullrequest ID
+      id: getid
+      run: |
+        export PULLREQUEST_ID=$(jq .number < $GITHUB_EVENT_PATH)
+        echo ::set-output name=prid::$PULLREQUEST_ID
+    - name: Renaming
+      run: |
+        mkdir ${{ steps.getid.outputs.prid }}
+        # create empty file to copy it over the outdated deliverable on download.delta.chat
+        echo "This preview is outdated and has been removed." > ${{ steps.getid.outputs.prid }}/index.html
+    - name: Replace build with error message
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.KEY }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_PORT: 22
+        FOLDER: ${{ steps.getid.outputs.prid }}
+        SERVER_IP: delta.chat
+        SERVER_DESTINATION: /var/www/html/_site/
+        ARGS: --delete -vhr
+
