@@ -24,10 +24,13 @@ jobs:
         # create empty file to copy it over the outdated deliverable on download.delta.chat
         echo "This preview is outdated and has been removed." > ${{ steps.getid.outputs.prid }}/index.html
     - name: Replace build with error message
-      uses: maxheld83/rsync@v0.1.0
+      uses: AEnterprise/rsync-deploy@v1.0
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.key }}
-      args:
-        - "${{ steps.getid.outpus.prid }}"
-        - "${{ secrets.USERNAME }}@delta.chat:/var/www/html/_site/${{ steps.getid.outputs.prid }}"
+        DEPLOY_KEY: ${{ secrets.KEY }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_PORT: 22
+        FOLDER: ${{ steps.getid.outputs.prid }}
+        SERVER_IP: delta.chat
+        SERVER_DESTINATION: /var/www/html/_site/${{ steps.getid.outputs.prid }}
+        ARGS: --delete -vh
 
