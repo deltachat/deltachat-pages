@@ -22,9 +22,7 @@ jobs:
       run: |
         mkdir ${{ steps.getid.outputs.prid }}
         # create empty file to copy it over the outdated deliverable on download.delta.chat
-        echo "This preview is outdated and has been removed." > index.html
-        cp empty ${{ steps.getid.outputs.prid }}/
-        cd ..
+        echo "This preview is outdated and has been removed." > ${{ steps.getid.outputs.prid }}/index.html
     - name: Replace build with error message
       run: |
         echo ${{ secrets.KEY }} | rsync -vh ${{ steps.getid.outputs.prid }} jekyll@delta.chat:/var/www/html/_site/${{ steps.getid.outputs.prid }} --delete --password-file=-
