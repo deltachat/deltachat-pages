@@ -71,7 +71,7 @@ Arch <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/">(AUR)</
 </div>
 </div>
 </div>
-<script src="../assets/js/logic.js"></script>
+<script src="../assets/js/download-page.js"></script>
 
 # Kod QR për këtë sajt
 Nëse doni t’ia jepni këtë sajt një shoku shpejt e shpejt, mund të përdorni këtë kod QR:
