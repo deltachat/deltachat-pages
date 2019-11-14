@@ -71,7 +71,7 @@ layout: default-en
         </div>
     </div>
 </div>
-<script src="../assets/js/download-page.js"></script>
+<script src="../assets/js/logic.js"></script>
 
 # QR Code for this site
 If want to share this site quickly with a friend, you can use this qr code:

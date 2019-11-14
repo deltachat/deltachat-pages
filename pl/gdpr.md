@@ -23,11 +23,11 @@ with GDPR requirements.
   - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt
   Level 1](https://autocrypt.org).
 
-  - **Data minimization**: No uploading of address-book content.
+- **Minimalizacja ilości danych**: Brak przesyłania zawartości książki adresowej.
 
-  - **Data avoidance**: No Delta Chat server, no processing of personal data.
+- **Unikanie danych**: Brak serwera Delta Chat, brak przetwarzania danych osobowych.
 
-- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book data is transmitted.
+- Nie wymaga żadnej **zgody** (article 7 GDPR) ze strony użytkowników lub ich kontaktów (osób, których dane dotyczą), ponieważ nie są przekazywane dane z książki adresowej.
 
 - Może być używany **bez konieczności zawierania umowy lub instrukcji** od administratora (organizacji), ponieważ żadna dodatkowa strona trzecia nie będzie przetwarzać danych osobowych związanych z pocztą e-mail. 
 
@@ -39,7 +39,7 @@ with GDPR requirements.
 - Nie tworzy **żadnych dodatkowych wymogów informacyjnych** dla administratora danych w odniesieniu bezpośrednim lub pośrednim do osób, których dane dotyczą,
   w  odniesieniu do gromadzenia danych z książki adresowej, art. 13, 14 GDPR.
 
-- Needs **no data protection impact assessment**  to be carried out for Delta Chat (Article 35 GDPR), because it processes no particular additional data beyond E-Mail messenging.
+- Nie wymaga przeprowadzania oceny skutków w zakresie ochrony danych Delta Chat (art. 35 GDPR), ponieważ nie przetwarza żadnych szczególnych danych dodatkowych poza przesyłaniem wiadomości e-mail.
 
 - Dodanie środków ochrony prywatności Delta Chat 
   do **rejestru działań związanych z przetwarzaniem** może mieć pozytywny wpływ 

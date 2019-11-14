@@ -81,7 +81,7 @@ If want to share this site quickly with a friend, you can use this qr code:
 Or just visit `https://get.delta.chat` on your friends device.
 
 
-# Links
+# Linki
 
 * [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
 * [Verify Downloads](verify_downloads.html)

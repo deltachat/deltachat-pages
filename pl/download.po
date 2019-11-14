@@ -1,11 +1,14 @@
+# Translators:
+# Telegram Polska <sebek@life.pl>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 18:03+0200\n"
+"POT-Creation-Date: 2019-11-14 21:36+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
+"Last-Translator: Telegram Polska <sebek@life.pl>, 2019\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -86,7 +89,7 @@ msgid ""
 "        </div>\n"
 "    </div>\n"
 "</div>\n"
-"<script src=\"../../assets/js/logic.js\"></script>"
+"<script src=\"../assets/js/logic.js\"></script>"
 msgstr ""
 
 #: ../en/download.md:72
@@ -100,14 +103,16 @@ msgid ""
 "<img style=\"float: center\" src=\"../assets/home/get.delta.chat.png\" "
 "alt=\"Qr code for https://get.delta.chat\" width=\"200\" />"
 msgstr ""
+"<img style=\"float: center\" src=\"../assets/home/get.delta.chat.png\" "
+"alt=\"Qr code for https://get.delta.chat\" width=\"200\" />"
 
 #: ../en/download.md:76
-msgid "Or just visit `https://get.delta.chat` on you're friends device."
+msgid "Or just visit `https://get.delta.chat` on your friends device."
 msgstr ""
 
 #: ../en/download.md:79
 msgid "# Links"
-msgstr ""
+msgstr "# Linki"
 
 #: ../en/download.md:82
 msgid ""

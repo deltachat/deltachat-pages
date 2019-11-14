@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 18:03+0200\n"
+"POT-Creation-Date: 2019-11-14 21:36+0200\n"
 "PO-Revision-Date: 2019-01-27 23:24+0000\n"
 "Last-Translator: Telegram Polska <sebek@life.pl>, 2019\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
@@ -59,18 +59,25 @@ msgstr ""
 #: ../en/gdpr.md:21
 msgid "  - **Data minimization**: No uploading of address-book content."
 msgstr ""
+"- **Minimalizacja ilości danych**: Brak przesyłania zawartości książki "
+"adresowej."
 
 #: ../en/gdpr.md:23
 msgid ""
 "  - **Data avoidance**: No Delta Chat server, no processing of personal "
 "data."
 msgstr ""
+"- **Unikanie danych**: Brak serwera Delta Chat, brak przetwarzania danych "
+"osobowych."
 
 #: ../en/gdpr.md:25
 msgid ""
 "- Does not require any **consent** (article 7 GDPR) from the users or their "
 "contacts (data subjects), because no address-book data is transmitted."
 msgstr ""
+"- Nie wymaga żadnej **zgody** (article 7 GDPR) ze strony użytkowników lub "
+"ich kontaktów (osób, których dane dotyczą), ponieważ nie są przekazywane "
+"dane z książki adresowej."
 
 #: ../en/gdpr.md:27
 msgid ""
@@ -104,6 +111,9 @@ msgid ""
 "Delta Chat (Article 35 GDPR), because it processes no particular additional "
 "data beyond E-Mail messenging."
 msgstr ""
+"- Nie wymaga przeprowadzania oceny skutków w zakresie ochrony danych Delta "
+"Chat (art. 35 GDPR), ponieważ nie przetwarza żadnych szczególnych danych "
+"dodatkowych poza przesyłaniem wiadomości e-mail."
 
 #: ../en/gdpr.md:42
 msgid ""

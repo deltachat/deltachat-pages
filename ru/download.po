@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 18:03+0200\n"
+"POT-Creation-Date: 2019-11-14 21:36+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgid ""
 "        </div>\n"
 "    </div>\n"
 "</div>\n"
-"<script src=\"../../assets/js/logic.js\"></script>"
+"<script src=\"../assets/js/logic.js\"></script>"
 msgstr ""
 
 #: ../en/download.md:72
@@ -102,7 +102,7 @@ msgid ""
 msgstr ""
 
 #: ../en/download.md:76
-msgid "Or just visit `https://get.delta.chat` on you're friends device."
+msgid "Or just visit `https://get.delta.chat` on your friends device."
 msgstr ""
 
 #: ../en/download.md:79

@@ -11,12 +11,12 @@ layout: default-ru
 
 # Cсылки
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
+Delta Chat по прежнему в стадии разработки, предлагаем ознакомиться с несколькими интересными статьями.
 
-This list is far from being complete -
-do we have missed something?
-Please [let us know](imprint)
-or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Этот список далёк от завершения -
+мы пропустили что-то?
+Пожалуйста, [сообщите нам](imprint)
+или сделайте [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
 ## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat

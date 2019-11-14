@@ -3,17 +3,17 @@
 # Alex <kekcuha@gmail.com>, 2018
 # Andrei Guliaikin <lycoris@ya.ru>, 2018
 # Iskatel Istiny <iskatel1@gmx.com>, 2019
-# solokot <solokot@gmail.com>, 2019
 # Peregrin Tuk <da3m0nmy@disroot.org>, 2019
+# solokot <solokot@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 18:03+0200\n"
+"POT-Creation-Date: 2019-11-14 21:36+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Peregrin Tuk <da3m0nmy@disroot.org>, 2019\n"
+"Last-Translator: solokot <solokot@gmail.com>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,16 +65,20 @@ msgid ""
 "<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
 "what.png\" />"
 msgstr ""
+"<img style=\"float: right;\" width=\"400px\" src=\"../assets/home/delta-"
+"what.png\" />"
 
 #: ../en/help.md:22
 msgid ""
 "Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. \n"
 "**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** "
 msgstr ""
+"Delta Chat — это новое приложение для чата, которое отправляет сообщения по электронной почте, зашифрованные, если это возможно, с помощью Autocrypt. \n"
+"**Вам не нужно нигде регистрироваться, просто используйте существующую учётную запись электронной почты в Delta Chat.** "
 
 #: ../en/help.md:24
 msgid "## How can I find people to chat with? "
-msgstr ""
+msgstr "## Как мне найти людей для общения? "
 
 #: ../en/help.md:28
 msgid ""
@@ -82,6 +86,9 @@ msgid ""
 "if the recipient is not using the Delta Chat app. No need for the\n"
 "recipient to install the same app as yours, as with other messengers."
 msgstr ""
+"С помощью Delta Chat вы можете писать на любые существующие адреса\n"
+"электронной почты, даже если получатель не использует приложение Delta Chat.\n"
+"Получателю не нужно устанавливать то же приложение, что и у вас, в отличии от других мессенджеров."
 
 #: ../en/help.md:30
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
@@ -110,7 +117,7 @@ msgstr "## Какие сообщения отображаются в Delta Chat?
 
 #: ../en/help.md:47
 msgid "Delta Chat automatically shows:"
-msgstr ""
+msgstr "Delta Chat автоматически показывает:"
 
 #: ../en/help.md:51
 msgid ""
@@ -127,10 +134,12 @@ msgid ""
 "Other messages do not appear automatically, and are to be found in the main "
 "menu at **Contact requests**. If desired a chat can be started from there."
 msgstr ""
+"Другие сообщения не отображаются автоматически и их можно найти в основном "
+"меню в разделе **Запросы контактов**. При желании чат можно начать оттуда."
 
 #: ../en/help.md:55
 msgid "## What about spam?"
-msgstr ""
+msgstr "## Как насчёт спама?"
 
 #: ../en/help.md:59
 msgid ""
@@ -138,6 +147,9 @@ msgid ""
 "- As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.\n"
 "- However, if needed, you can **block** any contact."
 msgstr ""
+"- Сообщения в общих папках нежелательной почты игнорируются, а содержащиеся в них адреса не считаются известными контактами.\n"
+"- Поскольку сообщения от неизвестных контактов не появляются автоматически, как правило, **спама нет**.\n"
+"- Конечно, при необходимости вы можете **заблокировать** любой контакт."
 
 #: ../en/help.md:61
 msgid "## Does Delta Chat support images, videos and other attachments?"
@@ -150,16 +162,22 @@ msgid ""
 "separate messages. Outgoing messages get attachments as needed "
 "automatically."
 msgstr ""
+"- Да. Помимо обычного текста, все вложения электронной почты отображаются в "
+"виде отдельных сообщений. В исходящие сообщения вложения встраиваются по "
+"мере необходимости автоматически."
 
 #: ../en/help.md:65
 msgid "## Does Delta Chat support HTML e-mails?"
-msgstr ""
+msgstr "## Поддерживает ли Delta Chat электронную почту в формате HTML?"
 
 #: ../en/help.md:67
 msgid ""
 "- Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted "
 "to plain text in the app. Outgoing e-mails always use plain text."
 msgstr ""
+"- Да. Если во входящей электронной почте отсутствует текстовая часть, HTML-"
+"сообщение  преобразуется в текстовый вид в приложении. Исходящие сообщения "
+"всегда используют простой текст."
 
 #: ../en/help.md:69
 msgid "# Groups"
@@ -167,7 +185,7 @@ msgstr "# Группы"
 
 #: ../en/help.md:71
 msgid "## Creation of a group"
-msgstr ""
+msgstr "## Создание группы"
 
 #: ../en/help.md:75
 msgid ""
@@ -181,7 +199,7 @@ msgstr ""
 
 #: ../en/help.md:77
 msgid "## Add members to a group"
-msgstr ""
+msgstr "## Добавление участников в группу"
 
 #: ../en/help.md:80
 msgid ""
@@ -214,6 +232,8 @@ msgid ""
 "- As you're no longer a group member, you cannot add yourself again. \n"
 "  However, no problem, just ask any other group member in a normal chat to re-add you."
 msgstr ""
+"- Поскольку вы больше не являетесь членом группы, вы не можете добавлять себя снова. \n"
+"  Тем не менее, проблемы нет, просто попросите любого другого члена группы в обычном чате повторно добавить вас."
 
 #: ../en/help.md:96
 msgid "## I do not want to receive the messages of a group any longer."
@@ -224,6 +244,8 @@ msgid ""
 "- Either delete yourself from the member list or delete the whole chat. \n"
 "  If you want to join the group again later on, ask another group member to add you again."
 msgstr ""
+"- Либо удалите себя из списка участников, либо удалите весь чат. \n"
+"  Если позже вы снова захотите присоединиться к группе, попросите другого члена группы добавить вас."
 
 #: ../en/help.md:102
 msgid ""
@@ -244,6 +266,9 @@ msgid ""
 "- Yes. Delta Chat implements the Autocrypt Level 1 standard and can \n"
 "  thus E2E-encrypt messages with other Autocrypt-capable apps. "
 msgstr ""
+"- Да. В Delta Chat реализован стандарт Autocrypt Level 1 и поэтому\n"
+"защищённые сквозным (E2E) шифрованием сообщения совместимы с\n"
+"другими приложениями, поддерживающими Autocrypt."
 
 #: ../en/help.md:111
 msgid "## What do I have to do to activate the end-to-end-encryption?"
@@ -444,3 +469,5 @@ msgstr "## Меня интересуют технические детали. М
 #: ../en/help.md:208
 msgid "- See [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""
+"- Смотрите [Стандарты, используемые в Delta Chat]({% включая standards-url "
+"%})."
