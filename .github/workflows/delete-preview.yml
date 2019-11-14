@@ -32,5 +32,5 @@ jobs:
         FOLDER: ${{ steps.getid.outputs.prid }}
         SERVER_IP: delta.chat
         SERVER_DESTINATION: /var/www/html/_site/${{ steps.getid.outputs.prid }}
-        ARGS: --delete -vh
+        ARGS: --delete -vhr
 
