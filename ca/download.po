@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-14 21:36+0200\n"
+"POT-Creation-Date: 2019-11-14 22:25+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Language-Team: Catalan (https://www.transifex.com/delta-chat/teams/76181/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgid ""
 "---"
 msgstr ""
 
-#: ../en/download.md:69
+#: ../en/download.md:68
 msgid ""
 "<div class=\"download-content\">\n"
 "    <h1>Recommended for you:</h1>\n"
@@ -55,8 +55,7 @@ msgid ""
 "                <a href=\"https://download.delta.chat/desktop/DeltaChat.stable.setup.exe\" class=\"big-button\">Setup (.exe)</a>\n"
 "                <a class=\"soon big-button\">Portable (.exe)</a>\n"
 "                <a class=\"soon\"><small>Download from</small> Microsoft Store</a>\n"
-"            </div>\n"
-"            \n"
+"            </div>    \n"
 "        </div>\n"
 "        <div class=\"box\" id=\"osx\">\n"
 "            <a href=\"https://github.com/deltachat/deltachat-desktop\" class=\"source-link\">Source Code</a>\n"
@@ -86,40 +85,40 @@ msgid ""
 "        </div>\n"
 "    </div>\n"
 "</div>\n"
-"<script src=\"../assets/js/logic.js\"></script>"
+"<script src=\"../assets/js/download-page.js\"></script>"
 msgstr ""
 
-#: ../en/download.md:72
+#: ../en/download.md:71
 msgid ""
 "# QR Code for this site\n"
 "If want to share this site quickly with a friend, you can use this qr code:"
 msgstr ""
 
-#: ../en/download.md:74
+#: ../en/download.md:73
 msgid ""
 "<img style=\"float: center\" src=\"../assets/home/get.delta.chat.png\" "
 "alt=\"Qr code for https://get.delta.chat\" width=\"200\" />"
 msgstr ""
 
-#: ../en/download.md:76
+#: ../en/download.md:75
 msgid "Or just visit `https://get.delta.chat` on your friends device."
 msgstr ""
 
-#: ../en/download.md:79
+#: ../en/download.md:78
 msgid "# Links"
 msgstr ""
 
-#: ../en/download.md:82
+#: ../en/download.md:81
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. \n"
 "* [Verify Downloads](verify_downloads.html)"
 msgstr ""
 
-#: ../en/download.md:84
+#: ../en/download.md:83
 msgid "## Changelogs"
 msgstr ""
 
-#: ../en/download.md:89
+#: ../en/download.md:88
 msgid ""
 "* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)\n"
 "* [Android]({% include changelog-url %})\n"
@@ -127,17 +126,17 @@ msgid ""
 "* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)"
 msgstr ""
 
-#: ../en/download.md:92
+#: ../en/download.md:91
 msgid ""
 "## Preview Builds:\n"
 "* [Desktop](https://download.delta.chat/desktop/preview/)"
 msgstr ""
 
-#: ../en/download.md:94
+#: ../en/download.md:93
 msgid "## Badges"
 msgstr ""
 
-#: ../en/download.md:99
+#: ../en/download.md:98
 msgid ""
 "[<img src=\"../assets/home/get-it-on-gplay-beta.png\" alt=\"Beta testing on Google Play\" width=\"200\" />](https://play.google.com/store/apps/details?id=chat.delta)\n"
 "[<img src=\"../assets/home/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" width=\"200\" />](https://f-droid.org/app/com.b44t.messenger)\n"
