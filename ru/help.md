@@ -212,4 +212,4 @@ capable) devices, you have to sync their encryption capabilities:
 
 ## Меня интересуют технические детали. Можете рассказать больше?
 
-- Смотрите [Стандарты, используемые в Delta Chat]({% включая standards-url %}).
+- Смотрите [Стандарты, используемые в Delta Chat]({% include standards-url %}).
