@@ -51,7 +51,7 @@ html {
         align-items: center;
     }
 
-    .box>.buttons>a {
+    .box>.buttons>a:not(.img-badge) {
         background-color: var(--dl-button-color);
         color: white;
         font-weight: bold;
@@ -64,9 +64,21 @@ html {
         line-height: 1.23;
     }
 
+    .box>.buttons>a.img-badge {
+        display: flex;
+        align-content: center;
+        margin: 3px;
+        &>img{
+            height: 48px;
+        }
+    }
+
     .box>.buttons>a.soon {
         color: orange;
         cursor: not-allowed;
+        img {
+            filter: opacity(.3) grayscale(100%);
+        }
     }
 
     .box>.buttons>a.big-button {
