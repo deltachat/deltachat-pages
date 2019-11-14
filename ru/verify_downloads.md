@@ -1,6 +1,6 @@
 ---
-title: Verify Downloads
-layout: default-en
+title: Проверка загрузок
+layout: default-ru
 ---
 
 
@@ -9,16 +9,16 @@ layout: default-en
 
 
 
-# Verify Downloads
+# Проверка загрузок
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+Для Android вы можете проверить, что сертификат подписи на APK соответствует одному из следующих отпечатков SHA256: 
 
-* For F-Droid downloads:  
-  `{% include fingerprint-f-droid %}`
+* Для загрузок с F-Droid:  
+  `{% включать отпечаток f-droid %}`
 
-* Other APK downloads:  
-  `{% include fingerprint-local %}`
+* Для других загрузок APK:  
+  `{% включать локальный отпечаток %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
+Для отображения отпечатков SHA256 сертификата подписи APK можно использовать, например, 
 `keytool -list -printcert -jarfile <APK-file>`
 

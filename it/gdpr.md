@@ -9,25 +9,25 @@ layout: default-it
 
 
 
-# Note on privacy and GDPR 
+# Note su privacy e GDPR 
 
-The General Data Protection Regulation (GDPR) is often regarded
-as the furthest reaching legislation for privacy protection of users. 
-On this page we detail how the Delta Chat app easily complies 
-with GDPR requirements. 
+Il Regolamento Generale sulla Protezione dei Dati (GDRP) è spesso considerato
+come la legislazione vigente di maggior portata per la protezione della privacy degli utenti.
+In questa pagina dettagliamo come l'app Delta Chat ottemperi agevolmente 
+ai requisiti della GDPR.
 
-#  How Delta Chat complies to the GDPR 
+#  Come Delta Chat rispetta la GDPR 
 
-- Implements the **Privacy by Design** requirement of the GDPR, through
+- Implementa il requisito GDPR **Protezione dei dati fin dalla progettazione** tramite
 
-  - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt
-  Level 1](https://autocrypt.org).
+  - **Riservatezza**: crittografia End-to-end ogni qualvota possibile, implementando
+  [Autocrypt Level 1](https://autocrypt.org).
 
-  - **Data minimization**: No uploading of address-book content.
+  - **Limitazione della conservazione**: Non viene fatto alcun upload della propria rubrica contatti.
 
-  - **Data avoidance**: No Delta Chat server, no processing of personal data.
+  - **Minimizzazione dei dati**: Non esiste un server Delta Chat, per cui non c'è trattamento di dati personali
 
-- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book data is transmitted.
+- Non è richiesto alcun **consenso* (articolo 7 GDPR) agli utenti o loro contatti (soggetti interessati) perchè non viene trasmesso alcun dato della rubrica.
 
 - Può essere usato **senza richiedere un contratto o altre istruzioni** da qualsiasi responsabile del trattamento (organizzazione), in quanto nessun altro soggetto terzo tratterà i dati personali relativi alla posta elettronica.
 
@@ -39,7 +39,7 @@ with GDPR requirements.
 - Non genera **nessun requisito informativo aggiuntivo* per il responsabile del trattamento nei confronti dei soggetti diretti o indiretti 
 circa la raccolta dei dati della rubrica, articolo 13, 14 GDPR.
 
-- Needs **no data protection impact assessment**  to be carried out for Delta Chat (Article 35 GDPR), because it processes no particular additional data beyond E-Mail messenging.
+-  Per Delta Chat **non è necessaria alcuna 'Valutazione d'impatto sulla protezione dei dati' ** (Articolo 35 GDPR), in quanto non sottopone a trattamento alcun dato diverso dalla messaggistica E-Mail.
 
 - Aggiungere gli strumenti di privacy di Delta Chat al 
   **registro delle attività** può avere un impatto positivo 

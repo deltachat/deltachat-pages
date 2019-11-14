@@ -1,15 +1,16 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2019
 # Enrico B. <enricobe@hotmail.com>, 2019
+# a b, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 18:03+0200\n"
+"POT-Creation-Date: 2019-11-14 21:36+0200\n"
 "PO-Revision-Date: 2019-01-27 23:24+0000\n"
-"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2019\n"
+"Last-Translator: a b, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +33,7 @@ msgstr ""
 
 #: ../en/gdpr.md:7
 msgid "# Note on privacy and GDPR "
-msgstr ""
+msgstr "# Note su privacy e GDPR "
 
 #: ../en/gdpr.md:12
 msgid ""
@@ -41,37 +42,52 @@ msgid ""
 "On this page we detail how the Delta Chat app easily complies \n"
 "with GDPR requirements. "
 msgstr ""
+"Il Regolamento Generale sulla Protezione dei Dati (GDRP) è spesso considerato\n"
+"come la legislazione vigente di maggior portata per la protezione della privacy degli utenti.\n"
+"In questa pagina dettagliamo come l'app Delta Chat ottemperi agevolmente \n"
+"ai requisiti della GDPR."
 
 #: ../en/gdpr.md:14
 msgid "#  How Delta Chat complies to the GDPR "
-msgstr ""
+msgstr "#  Come Delta Chat rispetta la GDPR "
 
 #: ../en/gdpr.md:16
 msgid ""
 "- Implements the **Privacy by Design** requirement of the GDPR, through"
 msgstr ""
+"- Implementa il requisito GDPR **Protezione dei dati fin dalla "
+"progettazione** tramite"
 
 #: ../en/gdpr.md:19
 msgid ""
 "  - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt\n"
 "  Level 1](https://autocrypt.org)."
 msgstr ""
+"  - **Riservatezza**: crittografia End-to-end ogni qualvota possibile, implementando\n"
+"  [Autocrypt Level 1](https://autocrypt.org)."
 
 #: ../en/gdpr.md:21
 msgid "  - **Data minimization**: No uploading of address-book content."
 msgstr ""
+"  - **Limitazione della conservazione**: Non viene fatto alcun upload della "
+"propria rubrica contatti."
 
 #: ../en/gdpr.md:23
 msgid ""
 "  - **Data avoidance**: No Delta Chat server, no processing of personal "
 "data."
 msgstr ""
+"  - **Minimizzazione dei dati**: Non esiste un server Delta Chat, per cui "
+"non c'è trattamento di dati personali"
 
 #: ../en/gdpr.md:25
 msgid ""
 "- Does not require any **consent** (article 7 GDPR) from the users or their "
 "contacts (data subjects), because no address-book data is transmitted."
 msgstr ""
+"- Non è richiesto alcun **consenso* (articolo 7 GDPR) agli utenti o loro "
+"contatti (soggetti interessati) perchè non viene trasmesso alcun dato della "
+"rubrica."
 
 #: ../en/gdpr.md:27
 msgid ""
@@ -106,6 +122,9 @@ msgid ""
 "Delta Chat (Article 35 GDPR), because it processes no particular additional "
 "data beyond E-Mail messenging."
 msgstr ""
+"-  Per Delta Chat **non è necessaria alcuna 'Valutazione d'impatto sulla "
+"protezione dei dati' ** (Articolo 35 GDPR), in quanto non sottopone a "
+"trattamento alcun dato diverso dalla messaggistica E-Mail."
 
 #: ../en/gdpr.md:42
 msgid ""

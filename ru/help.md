@@ -23,14 +23,14 @@ layout: default-ru
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
-Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
-**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
+Delta Chat — это новое приложение для чата, которое отправляет сообщения по электронной почте, зашифрованные, если это возможно, с помощью Autocrypt. 
+**Вам не нужно нигде регистрироваться, просто используйте существующую учётную запись электронной почты в Delta Chat.** 
 
-## How can I find people to chat with? 
+## Как мне найти людей для общения? 
 
-With Delta Chat, you can write to every existing e-mail address - even
-if the recipient is not using the Delta Chat app. No need for the
-recipient to install the same app as yours, as with other messengers.
+С помощью Delta Chat вы можете писать на любые существующие адреса
+электронной почты, даже если получатель не использует приложение Delta Chat.
+Получателю не нужно устанавливать то же приложение, что и у вас, в отличии от других мессенджеров.
 
 ## Каковы преимущества Delta Chat по сравнению с другими мессенджерами?
 
@@ -49,37 +49,37 @@ recipient to install the same app as yours, as with other messengers.
 
 ## Какие сообщения отображаются в Delta Chat?
 
-Delta Chat automatically shows:
+Delta Chat автоматически показывает:
 
 - Сообщения от контактов в вашей **адресной книги**
 - Сообщения от контактов, которым **вы писали сами**
 - **Ответы** на сообщения отправленные вами
 
-Other messages do not appear automatically, and are to be found in the main menu at **Contact requests**. If desired a chat can be started from there.
+Другие сообщения не отображаются автоматически и их можно найти в основном меню в разделе **Запросы контактов**. При желании чат можно начать оттуда.
 
-## What about spam?
+## Как насчёт спама?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
-- However, if needed, you can **block** any contact.
+- Сообщения в общих папках нежелательной почты игнорируются, а содержащиеся в них адреса не считаются известными контактами.
+- Поскольку сообщения от неизвестных контактов не появляются автоматически, как правило, **спама нет**.
+- Конечно, при необходимости вы можете **заблокировать** любой контакт.
 
 ## Delta Chat поддерживает вложения типа фото, видео или чего-нибудь ещё?
 
-- Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
+- Да. Помимо обычного текста, все вложения электронной почты отображаются в виде отдельных сообщений. В исходящие сообщения вложения встраиваются по мере необходимости автоматически.
 
-## Does Delta Chat support HTML e-mails?
+## Поддерживает ли Delta Chat электронную почту в формате HTML?
 
-- Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted to plain text in the app. Outgoing e-mails always use plain text.
+- Да. Если во входящей электронной почте отсутствует текстовая часть, HTML-сообщение  преобразуется в текстовый вид в приложении. Исходящие сообщения всегда используют простой текст.
 
 # Группы
 
-## Creation of a group
+## Создание группы
 
 - Выберите **Добавить группу** в меню в правом верхнем углу списка чатов.
 - На следующем экране выберите **участники группы** и отметьте галочку в правом верхнем углу. После этого, вы можете ввести **название группы**.
 - Как только вы наберете **первое сообщение** в группе, все участники группы узнают о ее существовании и смогут ответить вам здесь же (до тех пор, пока вы не напишете сообщение в группу, группа будет невидима для остальных участников).
 
-## Add members to a group
+## Добавление участников в группу
 
 - Каждый участник группы имеет **те же права**, что и любой другой. По этой причине каждый может удалить любого участника или добавить нового.
 - Чтобы добавить или удалить участников, нажмите на название группы в чате.
@@ -95,13 +95,13 @@ Other messages do not appear automatically, and are to be found in the main menu
 
 ## Я случайно себя удалил.
 
-- As you're no longer a group member, you cannot add yourself again. 
-  However, no problem, just ask any other group member in a normal chat to re-add you.
+- Поскольку вы больше не являетесь членом группы, вы не можете добавлять себя снова. 
+  Тем не менее, проблемы нет, просто попросите любого другого члена группы в обычном чате повторно добавить вас.
 
 ## Я больше не хочу получать сообщения группы.
 
-- Either delete yourself from the member list or delete the whole chat. 
-  If you want to join the group again later on, ask another group member to add you again.
+- Либо удалите себя из списка участников, либо удалите весь чат. 
+  Если позже вы снова захотите присоединиться к группе, попросите другого члена группы добавить вас.
 
 - As an alternative, you can also "Mute" a group - doing so means you get all messages and 
   can still write, but are no longer notified of any new messages.
@@ -110,8 +110,9 @@ Other messages do not appear automatically, and are to be found in the main menu
 
 ## Поддерживает ли Delta Chat сквозное шифрование?
 
-- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
-  thus E2E-encrypt messages with other Autocrypt-capable apps. 
+- Да. В Delta Chat реализован стандарт Autocrypt Level 1 и поэтому
+защищённые сквозным (E2E) шифрованием сообщения совместимы с
+другими приложениями, поддерживающими Autocrypt.
 
 ## Что нужно сделать, чтобы активировать сквозное шифрование?
 
@@ -211,4 +212,4 @@ capable) devices, you have to sync their encryption capabilities:
 
 ## Меня интересуют технические детали. Можете рассказать больше?
 
-- See [Standards used in Delta Chat]({% include standards-url %}).
+- Смотрите [Стандарты, используемые в Delta Chat]({% включая standards-url %}).

@@ -26,7 +26,7 @@ layout: default-pl
 Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
 **You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
 
-## How can I find people to chat with? 
+## Jak mogę znaleźć ludzi, z którymi mogę czatować? 
 
 With Delta Chat, you can write to every existing e-mail address - even
 if the recipient is not using the Delta Chat app. No need for the
