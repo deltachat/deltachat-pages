@@ -34,7 +34,7 @@ jobs:
       if: steps.prepare.outputs.uploadtoserver
       run: |
         # URLs for API connection and uploads
-        export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.after }}"
+        export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.head_commit.id }}"
         export PREVIEW_LINK="https://delta.chat/${{ steps.prepare.outputs.prid }}/"
         # Post AppImage download link to check details
         export STATUS_DATA="{\"state\": \"success\", \
