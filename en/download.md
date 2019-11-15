@@ -84,13 +84,6 @@ layout: default-en
 </div>
 <script src="../assets/js/download-page.js"></script>
 
-# QR Code for this site
-If want to share this site quickly with a friend, you can use this qr code:
-
-<img style="float: center" src="../assets/home/get.delta.chat.png" alt="Qr code for https://get.delta.chat" width="200" />
-
-Or just visit `https://get.delta.chat` on your friends device.
-
 
 # Links
 
