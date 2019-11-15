@@ -20,16 +20,17 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-    - name: Upload
+    - name: Replace build with error message
       if: steps.prepare.outputs.uploadtoserver
-      uses: horochx/deploy-via-scp@v1.0.1
-      with:
-        user: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        host: "delta.chat"
-        port: 22
-        local: "-p _site"
-        remote: "/var/www/html/_site/${{ steps.prepare.outputs.prid }}"
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.KEY }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_PORT: 22
+        FOLDER: _site
+        SERVER_IP: delta.chat
+        SERVER_DESTINATION: /var/www/html/_site/${{ steps.getid.outputs.prid }}
+        ARGS: --delete -vhr
     - name: "Post links to details"
       if: steps.prepare.outputs.uploadtoserver
       run: |
