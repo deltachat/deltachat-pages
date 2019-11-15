@@ -20,7 +20,8 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-    - name: Upload
+        mkdir ${{ steps.prepare.outputs.prid }}
+    - name: Create folder if it doesn't exist
       if: steps.prepare.outputs.uploadtoserver
       uses: horochx/deploy-via-scp@v1.0.1
       with:
@@ -28,8 +29,18 @@ jobs:
         key: ${{ secrets.KEY }}
         host: "delta.chat"
         port: 22
-        local: "-p _site"
+        local: ${{ steps.prepare.outputs.prid }}
         remote: "/var/www/html/_site/${{ steps.prepare.outputs.prid }}"
+    - name: Upload preview
+      if: steps.prepare.outputs.uploadtoserver
+      uses: horochx/deploy-via-scp@v1.0.1
+      with:
+        user: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        host: "delta.chat"
+        port: 22
+        local: "_site/*"
+        remote: "/var/www/html/_site/${{ steps.prepare.outputs.prid }}/"
     - name: "Post links to details"
       if: steps.prepare.outputs.uploadtoserver
       run: |
