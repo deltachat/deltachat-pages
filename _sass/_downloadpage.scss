@@ -1,5 +1,4 @@
 html {
-    --border-color: rgb(97, 97, 97);
     --dl-button-color: #6fa1b8;
 }
 
@@ -8,28 +7,39 @@ html {
     display: block;
     padding: 0 4pt;
 
-    #recommend>.box {
-        border: 4px solid var(--border-color);
-    }
+    // #recommend>.box {
+
+    // }
 
     .box {
-        border: 2px solid var(--border-color);
+        border: 1px solid #ddd;
         margin: 10pt 5pt;
-        padding: 0 0 5pt 5pt;
-        background-color: rgb(249, 249, 249);
+        padding: 2px 2px 7pt 7pt;
+        background-color: #e8e8e8;
         border-radius: 2px;
+
+        &>.sub-title {
+            font-size: 14px;
+            margin-top: 5pt;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        &>p {
+            margin: 2pt 0!important;
+        }
     }
 
     .box>.source-link {
         font-size: 13px;
         float: right;
         text-decoration: none;
-        padding: 2pt 2pt 2pt 3pt;
-        border-radius: 0 2px 0 10px;
-        border: 2px solid var(--border-color);
+        padding: 2px 5px 2px 7px;
+        border-radius: 0 2px 0 2px;
         right: -2px;
         top: -2px;
         position: relative;
+        background: #f0eded;
     }
 
     .box>.source-link:hover {
@@ -94,16 +104,17 @@ html {
     }
 
     code {
-        background-color: rgb(229, 229, 229);
         color: black;
-        padding: 5px 8px;
+        padding: 0 8px;
         display: inline-block;
         position: relative;
         user-select: all;
+        font-size: 12px;
+        margin: 2px 0;
     }
 
 
     .soon {
-        display: none;
+        display: none !important;
     }
 }

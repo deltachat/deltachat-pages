@@ -20,12 +20,11 @@ layout: default-en
                     <img src="../assets/badges/flathub.svg" alt="Download from Flathub" />
                 </a>
             </div>
-            <h4>Install via Package Manager</h4>
+            <div class="sub-title">Install via Package Manager</div>
             <p>
                 Arch <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/">(AUR)</a>:
                 <code>yay -S deltachat-desktop-git</code>
-            </p>
-            <p>
+                <br>
                 <a href="https://flathub.org/apps/details/chat.delta.desktop">Flatpak</a> (outdated):
                 <code>flatpak install flathub chat.delta.desktop</code>
             </p>
