@@ -1,5 +1,7 @@
 html {
     --dl-button-color: #6fa1b8;
+    --dl-button-roundness: 5px;
+    --dl-box-roundness: 4px;
 }
 
 
@@ -16,7 +18,7 @@ html {
         margin: 10pt 5pt;
         padding: 2px 2px 7pt 7pt;
         background-color: #e8e8e8;
-        border-radius: 2px;
+        border-radius: var(--dl-box-roundness);
 
         &>.sub-title {
             font-size: 14px;
@@ -35,7 +37,7 @@ html {
         float: right;
         text-decoration: none;
         padding: 2px 5px 2px 7px;
-        border-radius: 0 2px 0 2px;
+        border-radius: 0 var(--dl-box-roundness) 0 var(--dl-box-roundness);
         right: -2px;
         top: -2px;
         position: relative;
@@ -70,7 +72,7 @@ html {
         text-decoration: none;
         font-size: 18px;
         height: max-content;
-        border-radius: 2px;
+        border-radius: var(--dl-button-roundness);
         line-height: 1.23;
     }
 
