@@ -9,21 +9,30 @@ layout: default-pl
 
 
 
-# Prywatność zaprojektowana
+# Note on privacy and GDPR 
 
-- **Poufność**: Domyślnie szyfrowanie typu end-to-end, poprzez wdrożenie [Autocrypt
+The General Data Protection Regulation (GDPR) is often regarded
+as the furthest reaching legislation for privacy protection of users. 
+On this page we detail how the Delta Chat app easily complies 
+with GDPR requirements. 
+
+#  How Delta Chat complies to the GDPR 
+
+- Implements the **Privacy by Design** requirement of the GDPR, through
+
+  - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt
   Level 1](https://autocrypt.org).
 
-- **Minimalizacja ilości danych**: Brak porównywania lub przesyłania zawartości książki adresowej.
+- **Minimalizacja ilości danych**: Brak przesyłania zawartości książki adresowej.
 
 - **Unikanie danych**: Brak serwera Delta Chat, brak przetwarzania danych osobowych.
-
-
-# Dalsza zgodność z GDPR 
 
 - Nie wymaga żadnej **zgody** (article 7 GDPR) ze strony użytkowników lub ich kontaktów (osób, których dane dotyczą), ponieważ nie są przekazywane dane z książki adresowej.
 
 - Może być używany **bez konieczności zawierania umowy lub instrukcji** od administratora (organizacji), ponieważ żadna dodatkowa strona trzecia nie będzie przetwarzać danych osobowych związanych z pocztą e-mail. 
+
+
+
 
 # W jaki sposób administratorzy danych (organizacje) odnoszą korzyści z korzystania z Delta Chat w celu zapewnienia zgodności z GDPR
 
@@ -43,6 +52,7 @@ layout: default-pl
 -  Pozostałe zagrożenia dla praw i wolności osób fizycznych 
   są zwykle ograniczone do danych komunikacyjnych przetwarzanych 
   przez administratora danych i dostawców usług poczty elektronicznej.
+
 
 
 Niniejsze oświadczenie odzwierciedla ogólne Rozporządzenie o Ochronie Danych Osobowych (RODO=GDPR) z dnia 16.05.2018.

@@ -1,22 +1,23 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
 # Eric Lavarde <ewl+transifex@lavar.de>, 2018
+# polo lancien <polo.lancien@aliceadsl.fr>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 22:15+0200\n"
+"POT-Creation-Date: 2019-11-15 17:18+0200\n"
 "PO-Revision-Date: 2018-03-23 12:40+0000\n"
-"Last-Translator: Eric Lavarde <ewl+transifex@lavar.de>, 2018\n"
+"Last-Translator: polo lancien <polo.lancien@aliceadsl.fr>, 2019\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 #: ../en/imprint.md:5
 msgid ""
@@ -39,6 +40,8 @@ msgid ""
 "Delta.Chat is an open source community project. Responsible for the content "
 "of these pages is:"
 msgstr ""
+"Delta.chat est un projet communautaire à code source ouvert. Le responsable "
+"du contenu de ces pages est :"
 
 #: ../en/imprint.md:13
 msgid ""
@@ -46,10 +49,13 @@ msgid ""
 "    Reichgrafen Str. 20\n"
 "    79102 Freiburg, Germany"
 msgstr ""
+"    Merlinux GmbH\n"
+"    Reichgrafen Str. 20\n"
+"    79102 Freiburg, Germany"
 
 #: ../en/imprint.md:15
 msgid "E-mail: {% include email-link %}"
-msgstr ""
+msgstr "courriel: {% include email-link %}"
 
 #: ../en/imprint.md:19
 msgid ""
@@ -57,6 +63,9 @@ msgid ""
 "VAT: DE814082730  \n"
 "Managing Director: Holger Krekel"
 msgstr ""
+"Tribunal Amtsgericht Freiburg: HRB709589  \n"
+"TVA: DE814082730  \n"
+"Directeur Général: Holger Krekel"
 
 #: ../en/imprint.md:21
 msgid "[Community channels](contribute)"
@@ -67,5 +76,5 @@ msgid ""
 "The mailing list server is operated through "
 "<https://github.com/codespeaknet/sysadmin>."
 msgstr ""
-"Le serveur de listes courriels sont gérés par "
+"Le serveur de listes de courriels est géré par "
 "<https://github.com/codespeaknet/sysadmin>."

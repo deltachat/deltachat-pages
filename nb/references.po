@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 22:15+0200\n"
+"POT-Creation-Date: 2019-11-15 17:18+0200\n"
 "PO-Revision-Date: 2018-04-21 22:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2018\n"
 "Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/delta-chat/teams/76181/nb_NO/)\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nb_NO\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 #: ../en/references.md:5
 msgid ""
@@ -158,18 +158,34 @@ msgid ""
 "messenger-himmel/>"
 msgstr ""
 
-#: ../en/references.md:65
+#: ../en/references.md:66
 msgid ""
 "## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, "
 "WhatsApp & Co. (3)"
 msgstr ""
 
-#: ../en/references.md:67
+#: ../en/references.md:68
 msgid "_\"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]\"_"
 msgstr ""
 
-#: ../en/references.md:68
+#: ../en/references.md:70
 msgid ""
 "30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-"
-"whatsapp-co-3/>"
+"whatsapp-co-3/> "
+msgstr ""
+
+#: ../en/references.md:73
+msgid ""
+"## Mobilsicher.de (German mobil security website) Das Infoportal für mehr "
+"Sicherheit auf Smartphone und Tablet"
+msgstr ""
+
+#: ../en/references.md:75
+msgid "_\"Delta.Chat: Sicher und dezentral – geht das?\"_"
+msgstr ""
+
+#: ../en/references.md:76
+msgid ""
+"03.06.2019, <https://mobilsicher.de/kategorie/whatsapp-und-messenger"
+"/messenger-app-delta-chat-kurz-vorgestellt/> "
 msgstr ""

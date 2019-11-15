@@ -1,5 +1,5 @@
 ---
-title: Shkarkim
+title: Merrni Delta Chat-in
 layout: default-sq
 ---
 
@@ -9,61 +9,106 @@ layout: default-sq
 
 
 
-# Shkarkime të Delta/Android (Beta)
+<div class="download-content">
+    <div id="recommendation-section" hidden>
+        <h1>Recommended for you:</h1>
+        <div id="recommend"></div>
+        <h1>Other platforms:</h1>
+    </div>
+    <div id="boxes">
+        <div class="box" id="linux">
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
+            <div class="title">GNU+Linux</div>
+            <div class="buttons">
+                <a href="https://download.delta.chat/desktop/DeltaChat.stable.amd64.deb" class="big-button">Debian / Ubuntu (.deb)</a>
+                <a href="https://download.delta.chat/desktop/DeltaChat.stable.AppImage" class="big-button">Universal (.AppImage)</a>
+                <a href="https://flathub.org/apps/details/chat.delta.desktop" class="soon img-badge">
+                    <img src="../assets/badges/flathub.svg" alt="Download from Flathub" />
+                </a>
+            </div>
+            <div class="sub-title">Install via Package Manager</div>
+            <p>
+                Arch <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/">(AUR)</a>:
+                <code>yay -S deltachat-desktop-git</code>
+                <br>
+                <a href="https://flathub.org/apps/details/chat.delta.desktop">Flatpak</a> (outdated):
+                <code>flatpak install flathub chat.delta.desktop</code>
+            </p>
+        </div>
+        <div class="box" id="windows">
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
+            <div class="title">Windows</div>
+            <div class="buttons">
+                <a href="https://download.delta.chat/desktop/DeltaChat.stable.setup.exe" class="big-button">Setup (.exe)</a>
+                <a class="soon big-button">Portable (.exe)</a>
+                <a class="soon img-badge">
+                    <img src="../assets/badges/microsoft.svg" alt="Download from Microsoft Store" />
+                </a>
+            </div>    
+        </div>
+        <div class="box" id="osx">
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
+            <div class="title">macOS</div>
+            <div class="buttons">
+                <a href="https://download.delta.chat/desktop/DeltaChat.stable.dmg" class="big-button">DMG</a>
+                <a class="soon img-badge">
+                    <img src="../assets/badges/mac-appstore.svg" alt="Download on Apple AppStore" />
+                </a>
+            </div>
+        </div>
+        <div class="box" id="ios">
+            <a href="https://github.com/deltachat/deltachat-ios" class="source-link">Source Code</a>
+            <div class="title">iOS (iPhone)</div>
+            <div class="buttons">
+                <a href="https://testflight.apple.com/join/uEMc1NxS"><small>Beta on</small> Testflight</a>
+                <a class="soon img-badge">
+                    <img src="../assets/badges/get-it-on-ios.png" alt="Download on Apple AppStore" />
+                </a>
+            </div>
+        </div>
+        <div class="box" id="android">
+            <a href="https://github.com/deltachat/deltachat-android" class="source-link">Source Code</a>
+            <div class="title">Android</div>
+            <div class="buttons">
+                <a href="" class="big-button soon">APK</a>
+                <a href="https://f-droid.org/app/com.b44t.messenger" class="img-badge">
+                    <img src="../assets/badges/get-it-on-fdroid.png" alt="Get it on F-Droid" />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=chat.delta" class="img-badge">
+                    <img src="../assets/badges/get-it-on-gplay-beta.png" alt="Beta testing on Google Play"  />
+                </a>
+                <a class="soon"><small>Get it on</small>Amazon Appstore</a>
+            </div>
+            <p>
+            You can also download as
+                <a href="https://github.com/deltachat/deltachat-android/releases/download/preview-v0.950.0/deltachat-gplay-release-0.950.0.apk">
+                APK (experimental)
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<script src="../assets/js/download-page.js"></script>
 
-[<img style="float:right" src="../assets/home/get-it-on-gplay-beta.png" alt="Testim versioni beta në Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
-[<img style="float:right" src="../assets/home/get-it-on-fdroid.png" alt="Merreni nga F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
+# Kod QR për këtë sajt
+Nëse doni t’ia jepni këtë sajt një shoku shpejt e shpejt, mund të përdorni këtë kod QR:
 
-Delta/Android është aplikacioni DeltaChat më i pasur në veçori dhe më i qëndrueshëm. 
+<img style="float: center" src="../assets/home/get.delta.chat.png" alt="Kod QR për https://get.delta.chat" width="200" />
 
-* [Shkarkojeni që nga F-Droid](https://f-droid.org/app/com.b44t.messenger)
-* [Shkarkojeni që nga Google Play Beta Channel](https://play.google.com/store/apps/details?id=chat.delta)
-* [Shkarkoni APK](https://github.com/deltachat/deltachat-android/releases) (vetëm për përdoruesit e sprovuar)
-* [Shihni Regjistër Ndryshimesh]({% include changelog-url %}), [kontribuoni te varianti për Android](https://github.com/deltachat/deltachat-android/). 
+Ose thjesht vizitoni `https://get.delta.chat` që nga pajisja e shoku tuaj.
 
 
-# Shkarkime të Delta/Desktop (Beta)
+# Lidhje
 
-Delta/Desktop është goxha i përdorshëm dhe mund të përdoret më vete ose i lidhur me Android-in ose iOS-in. 
+* Faqe [PBR për versionin shumëklientësh](help#multiclient) mbi si të njëkohësohet Desktopi me një tjetër aplikacion Delta. 
+* [Verifikoni Shkarkime](verify_downloads.html)
 
-* [shkarkojeni për Linux, nga flathub](https://flathub.org/apps/details/chat.delta.desktop)
+## Regjistra ndryshimesh
 
-* [shkarkojeni për Mac, që nga faqja jonë Github e hedhjeve në qarkullim](https://github.com/deltachat/deltachat-desktop/releases/).  
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Android]({% include changelog-url %})
+* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-* [Mbulimi për Windows ka mbetur pezull, na duhet ndihmë!](https://github.com/deltachat/deltachat-desktop/issues/606) 
-
-* Faqe [FAQ mbi shumëklientëshin](help#multiclient) se si të njëkohësohet versioni Desktop me aplikacion tjetër Delta. 
-
-* [Shihni Regjistër Ndryshimesh](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
-  [kontribuoni te zhvillimi i versionit Desktop](https://github.com/deltachat/deltachat-desktop/). 
-
-
-# Delta/iOS nën TestFlight (Beta)
-
-<img src="../assets/home/get-it-on-ios.png" alt="Shkarkojeni te Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
-
-Delta/iOS mbulon funksionet bazë, por jo krejt veçoritë e ofruara nga versionet Android ose Desktop. 
-Versionet Beta jepen përmes Testflight-it. 
-
-- [faqja për ftim te testflight](https://testflight.apple.com/join/uEMc1NxS) për iPhone-in ose iPad-in tuaj.
-
-- [jepni ndihmesë te zhvillimi për iOS](https://github.com/deltachat/deltachat-ios/). 
-
-- Skanojeni këtë kod QR me aplikacionin kamera të iPhone/iPad-it tuaj
-
-  ![QRCode](../assets/home/deltachat_testflight_qrcode.png)
-
-
-# Verifikoni Shkarkimet
-
-Për Android, mund të verifikoni se dëshmia e nënshkrimit në APK përputhet me një nga shenjat vijuese SHA256 të gishtave:  
-
-* Për shkarkime nga F-Droid:  
-  `{% include fingerprint-f-droid %}`
-
-* Të tjera shkarkime APK:  
-  `{% include fingerprint-local %}`
-
-Për shtypjen e shenjave të gishtave SHA256 të dëshmisë së nënshkrimit të APK-së mund të përdorni, për shembull,  
-`keytool -list -printcert -jarfile <kartela-APK>`
-
+## Montime Paraparje:
+* [Desktop](https://download.delta.chat/desktop/preview/)

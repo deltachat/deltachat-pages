@@ -18,7 +18,7 @@
 # https://docs.transifex.com/client/
 
 
-sfiles=(blog contribute download gdpr help imprint index references)
+sfiles=(blog contribute download gdpr help imprint index references verify_downloads)
 tlangs=(ca de es fr it nb_NO pl pt ru sq uk)  # do not add `en` to this list
 
 

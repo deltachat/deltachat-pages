@@ -1,5 +1,3 @@
-#theme: jekyll-theme-cayman
-layout: default-en
 permalink: /en/:year-:month-:day-:title
 
 # show future post, posts might be confusingly hidden through different timezones otherwise
@@ -16,21 +14,15 @@ defaults:
       layout: default-en
       is_post: true # automatically set is_post=true for all posts
 
-
 kramdown: 
     auto_ids: true  # auto-generate ID's for headings
 
-# needed for the RSS feed, but may also be useful for other purposes
-name:         Delta Chat
-description:  Instant messanging based on email
-url:          https://delta.chat
+sass:
+  style: compressed
 
 # add plugins
 plugins:
   - jekyll-sitemap
-
-# forward the _redirects file to the netlify-site directory
-include: ["_redirects"]
 
 # the tools directory contains cached files downloaded from transifex, ignore it
 exclude: ["tools"]

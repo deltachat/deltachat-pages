@@ -26,10 +26,11 @@ layout: default-sq
 # Përkthime dhe Njoftime të Metash 
 
 - [Përkthime në Transifex](https://www.transifex.com/delta-chat/public/)
-- [Çështje Delta Chat-i nën Android](https://github.com/deltachat/deltachat-android/issues)
-- [Çështje Delta Chat-i nën Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Çështje Delta Chat-i nën iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Çështje të Librarisë Bazë + Python](https://github.com/deltachat/deltachat-core/issues)
+- [Probleme në Delta Chat për Android](https://github.com/deltachat/deltachat-android/issues)
+- [Probleme në Delta Chat për Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Probleme C Core Library + Python Bindings](https://github.com/deltachat/deltachat-core/issues)
+- [Probleme Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Kërkojmë përherë për zhvillues që duan të ndihmojnë dhe dinë C, Rust, Java, 
 Swift, Javascript ose Python për Android, iOS, Windows, Linux ose Mac.
