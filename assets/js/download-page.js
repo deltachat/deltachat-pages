@@ -1,4 +1,6 @@
 function main() {
+    document.getElementById("recommendation-section").hidden = false;
+
     var soon = document.getElementsByClassName("soon");
     for (var i = 0; i < soon.length; i++) {
         var element = soon[i];
