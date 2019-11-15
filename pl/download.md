@@ -70,7 +70,7 @@ layout: default-en
             <a href="https://github.com/deltachat/deltachat-android" class="source-link">Source Code</a>
             <div class="title">Android</div>
             <div class="buttons">
-                <a href="https://github.com/deltachat/deltachat-android/releases/download/preview-v0.950.0/deltachat-gplay-release-0.950.0.apk" class="big-button">APK</a>
+                <a href="" class="big-button soon">APK</a>
                 <a href="https://f-droid.org/app/com.b44t.messenger" class="img-badge">
                     <img src="../assets/badges/get-it-on-fdroid.png" alt="Get it on F-Droid" />
                 </a>
@@ -79,6 +79,12 @@ layout: default-en
                 </a>
                 <a class="soon"><small>Get it on</small>Amazon Appstore</a>
             </div>
+            <p>
+            You can also download as
+                <a href="https://github.com/deltachat/deltachat-android/releases/download/preview-v0.950.0/deltachat-gplay-release-0.950.0.apk">
+                APK (experimental)
+                </a>
+            </p>
         </div>
     </div>
 </div>
