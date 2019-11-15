@@ -31,7 +31,7 @@ jobs:
         port: 22
         local: ${{ steps.prepare.outputs.prid }}
         remote: "/var/www/html/_site/${{ steps.prepare.outputs.prid }}"
-    - name: Upload
+    - name: Upload preview
       if: steps.prepare.outputs.uploadtoserver
       uses: horochx/deploy-via-scp@v1.0.1
       with:
