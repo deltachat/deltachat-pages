@@ -4,10 +4,11 @@ layout: default-en
 ---
 
 <div class="download-content">
-    <h1>Recommended for you:</h1>
-    <div id="recommend"></div>
-    <noscript>You need to enable JavaScript to autodetect your platform through your User Agent. It's detected localy on your device.</noscript>
-    <h1>Other platforms:</h1>
+    <div id="recommendation-section" hidden>
+        <h1>Recommended for you:</h1>
+        <div id="recommend"></div>
+        <h1>Other platforms:</h1>
+    </div>
     <div id="boxes">
         <div class="box" id="linux">
             <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
