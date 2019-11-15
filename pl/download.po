@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-15 15:51+0200\n"
+"POT-Creation-Date: 2019-11-15 17:18+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Telegram Polska <sebek@life.pl>, 2019\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
@@ -25,7 +25,7 @@ msgid ""
 "---"
 msgstr ""
 
-#: ../en/download.md:80
+#: ../en/download.md:86
 msgid ""
 "<div class=\"download-content\">\n"
 "    <div id=\"recommendation-section\" hidden>\n"
@@ -88,7 +88,7 @@ msgid ""
 "            <a href=\"https://github.com/deltachat/deltachat-android\" class=\"source-link\">Source Code</a>\n"
 "            <div class=\"title\">Android</div>\n"
 "            <div class=\"buttons\">\n"
-"                <a href=\"https://github.com/deltachat/deltachat-android/releases/download/preview-v0.950.0/deltachat-gplay-release-0.950.0.apk\" class=\"big-button\">APK</a>\n"
+"                <a href=\"\" class=\"big-button soon\">APK</a>\n"
 "                <a href=\"https://f-droid.org/app/com.b44t.messenger\" class=\"img-badge\">\n"
 "                    <img src=\"../assets/badges/get-it-on-fdroid.png\" alt=\"Get it on F-Droid\" />\n"
 "                </a>\n"
@@ -97,19 +97,25 @@ msgid ""
 "                </a>\n"
 "                <a class=\"soon\"><small>Get it on</small>Amazon Appstore</a>\n"
 "            </div>\n"
+"            <p>\n"
+"            You can also download as\n"
+"                <a href=\"https://github.com/deltachat/deltachat-android/releases/download/preview-v0.950.0/deltachat-gplay-release-0.950.0.apk\">\n"
+"                APK (experimental)\n"
+"                </a>\n"
+"            </p>\n"
 "        </div>\n"
 "    </div>\n"
 "</div>\n"
 "<script src=\"../assets/js/download-page.js\"></script>"
 msgstr ""
 
-#: ../en/download.md:83
+#: ../en/download.md:89
 msgid ""
 "# QR Code for this site\n"
 "If want to share this site quickly with a friend, you can use this qr code:"
 msgstr ""
 
-#: ../en/download.md:85
+#: ../en/download.md:91
 msgid ""
 "<img style=\"float: center\" src=\"../assets/home/get.delta.chat.png\" "
 "alt=\"Qr code for https://get.delta.chat\" width=\"200\" />"
@@ -117,25 +123,25 @@ msgstr ""
 "<img style=\"float: center\" src=\"../assets/home/get.delta.chat.png\" "
 "alt=\"Qr code for https://get.delta.chat\" width=\"200\" />"
 
-#: ../en/download.md:87
+#: ../en/download.md:93
 msgid "Or just visit `https://get.delta.chat` on your friends device."
 msgstr ""
 
-#: ../en/download.md:90
+#: ../en/download.md:96
 msgid "# Links"
 msgstr "# Linki"
 
-#: ../en/download.md:93
+#: ../en/download.md:99
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. \n"
 "* [Verify Downloads](verify_downloads.html)"
 msgstr ""
 
-#: ../en/download.md:95
+#: ../en/download.md:101
 msgid "## Changelogs"
 msgstr ""
 
-#: ../en/download.md:100
+#: ../en/download.md:106
 msgid ""
 "* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)\n"
 "* [Android]({% include changelog-url %})\n"
@@ -143,7 +149,7 @@ msgid ""
 "* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)"
 msgstr ""
 
-#: ../en/download.md:102
+#: ../en/download.md:108
 msgid ""
 "## Preview Builds:\n"
 "* [Desktop](https://download.delta.chat/desktop/preview/)"
