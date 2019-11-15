@@ -1,22 +1,23 @@
 # Translators:
 # Moon Princess <painca@tutanota.com>, 2019
 # Andrei Guliaikin <lycoris@ya.ru>, 2019
+# solokot <solokot@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 22:15+0200\n"
+"POT-Creation-Date: 2019-11-15 17:18+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Andrei Guliaikin <lycoris@ya.ru>, 2019\n"
+"Last-Translator: solokot <solokot@gmail.com>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/delta-chat/teams/76181/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 #: ../en/contribute.md:5
 msgid ""
@@ -72,21 +73,23 @@ msgstr ""
 msgid "# Translations and Bug Reports "
 msgstr "# Переводы и Рапорты об ошибках"
 
-#: ../en/contribute.md:27
+#: ../en/contribute.md:28
 msgid ""
 "- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)\n"
 "- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)\n"
 "- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)\n"
 "- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)\n"
-"- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)"
+"- [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)\n"
+"- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)"
 msgstr ""
-"- [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)\n"
-"- [Вопросы по Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)\n"
-"- [Вопросы по Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)\n"
-"- [Вопросы по Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
-"- [Вопросы по Core Library + Python](https://github.com/deltachat/deltachat-core/issues)"
+"- [Перевод на Transifex](https://www.transifex.com/delta-chat/public/)\n"
+"- [Проблемы Delta Chat для Android](https://github.com/deltachat/deltachat-android/issues)\n"
+"- [Проблемы Delta Chat для ПК](https://github.com/deltachat/deltachat-desktop/issues)\n"
+"- [Проблемы Delta Chat для iOS](https://github.com/deltachat/deltachat-ios/issues)\n"
+"- [Проблемы C Core Library + Python Bindings](https://github.com/deltachat/deltachat-core/issues)\n"
+"- [Проблемы Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)"
 
-#: ../en/contribute.md:30
+#: ../en/contribute.md:31
 msgid ""
 "We are always looking for developers who want to help along and are familiar with \n"
 "C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac."
@@ -94,15 +97,15 @@ msgstr ""
 "Мы всегда ищем разработчиков, которые желают помочь и знакомы с \n"
 "C, Rust, Java, Swift, Javascript или Python на Android, iOS, Windows, Linux или Mac."
 
-#: ../en/contribute.md:33
+#: ../en/contribute.md:34
 msgid "# Donate Money or devices"
 msgstr "# Пожертвовать деньги или устройства"
 
-#: ../en/contribute.md:35
+#: ../en/contribute.md:36
 msgid "If you want to support DeltaChat with money:"
 msgstr "Вы можете помочь DeltaChat деньгами:"
 
-#: ../en/contribute.md:39
+#: ../en/contribute.md:40
 msgid ""
 "- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX\n"
 "- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
@@ -112,7 +115,7 @@ msgstr ""
 "- PayPal или банковская карта: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
 "- Bitcoin-кошелек [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
 
-#: ../en/contribute.md:41
+#: ../en/contribute.md:42
 msgid ""
 "We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?\n"
 "[We](imprint)'d love to take it!"

@@ -11,12 +11,12 @@ layout: default-ru
 
 # Cсылки
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
+Delta Chat по прежнему в стадии разработки, предлагаем ознакомиться с несколькими интересными статьями.
 
-This list is far from being complete -
-do we have missed something?
-Please [let us know](imprint)
-or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Этот список далёк от завершения -
+мы пропустили что-то?
+Пожалуйста, [сообщите нам](imprint)
+или сделайте [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
 ## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
@@ -67,8 +67,16 @@ _"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstel
 
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>
 
+
 ## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, WhatsApp & Co. (3)
 
 _"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
 
-30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/>
+30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/> 
+
+
+## Mobilsicher.de (German mobil security website) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
+
+_"Delta.Chat: Sicher und dezentral – geht das?"_
+
+03.06.2019, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 

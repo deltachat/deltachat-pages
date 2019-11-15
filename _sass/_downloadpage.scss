@@ -1,0 +1,122 @@
+html {
+    --dl-button-bg: linear-gradient(120deg, #71828a, #4a6069) #159957;
+    --dl-button-roundness: 5px;
+    --dl-box-roundness: 4px;
+}
+
+
+.download-content {
+    display: block;
+    padding: 0 4pt;
+
+    // #recommend>.box {
+
+    // }
+
+    .box {
+        border: 1px solid #ddd;
+        margin: 10pt 5pt;
+        padding: 2px 2px 7pt 7pt;
+        background-color: #e8e8e8;
+        border-radius: var(--dl-box-roundness);
+
+        &>.sub-title {
+            font-size: 14px;
+            margin-top: 5pt;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        &>p {
+            margin: 2pt 0!important;
+        }
+    }
+
+    .box>.source-link {
+        font-size: 13px;
+        float: right;
+        text-decoration: none;
+        padding: 2px 5px 2px 7px;
+        border-radius: 0 var(--dl-box-roundness) 0 var(--dl-box-roundness);
+        right: -2px;
+        top: -2px;
+        position: relative;
+        background: #f0eded;
+    }
+
+    .box>.source-link:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: black;
+    }
+
+    .box>.title {
+        font-size: 20px;
+        margin-top: 5pt;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .box>.buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .box>.buttons>a:not(.img-badge) {
+        background: var(--dl-button-bg);
+        color: white;
+        font-weight: bold;
+        padding: 5px;
+        margin: 3px;
+        text-decoration: none;
+        font-size: 18px;
+        height: max-content;
+        border-radius: var(--dl-button-roundness);
+        line-height: 1.23;
+    }
+
+    .box>.buttons>a.img-badge {
+        display: flex;
+        align-content: center;
+        margin: 3px;
+        &>img{
+            height: 48px;
+        }
+    }
+
+    .box>.buttons>a.soon {
+        color: orange;
+        cursor: not-allowed;
+        img {
+            filter: opacity(.3) grayscale(100%);
+        }
+    }
+
+    .box>.buttons>a.big-button {
+        line-height: 37px;
+        padding-left: 10px;
+        padding-right: 12px;
+        font-size: 20px;
+    }
+
+    small {
+        display: block;
+        font-size: 12px;
+    }
+
+    code {
+        color: black;
+        padding: 0 8px;
+        display: inline-block;
+        position: relative;
+        user-select: all;
+        font-size: 12px;
+        margin: 2px 0;
+    }
+
+
+    .soon {
+        display: none !important;
+    }
+}

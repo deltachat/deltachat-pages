@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-01 22:15+0200\n"
+"POT-Creation-Date: 2019-11-15 17:18+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2018\n"
 "Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/delta-chat/teams/76181/nb_NO/)\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nb_NO\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 #: ../en/contribute.md:5
 msgid ""
@@ -63,37 +63,38 @@ msgstr ""
 msgid "# Translations and Bug Reports "
 msgstr ""
 
-#: ../en/contribute.md:27
+#: ../en/contribute.md:28
 msgid ""
 "- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)\n"
 "- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)\n"
 "- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)\n"
 "- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)\n"
-"- [Core Library + Python Issues](https://github.com/deltachat/deltachat-core/issues)"
+"- [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)\n"
+"- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)"
 msgstr ""
 
-#: ../en/contribute.md:30
+#: ../en/contribute.md:31
 msgid ""
 "We are always looking for developers who want to help along and are familiar with \n"
 "C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac."
 msgstr ""
 
-#: ../en/contribute.md:33
+#: ../en/contribute.md:34
 msgid "# Donate Money or devices"
 msgstr ""
 
-#: ../en/contribute.md:35
+#: ../en/contribute.md:36
 msgid "If you want to support DeltaChat with money:"
 msgstr ""
 
-#: ../en/contribute.md:39
+#: ../en/contribute.md:40
 msgid ""
 "- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX\n"
 "- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)\n"
 "- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)"
 msgstr ""
 
-#: ../en/contribute.md:41
+#: ../en/contribute.md:42
 msgid ""
 "We need **devices** for test purposes. Do you have any disused Android Smartphone or iPhone?\n"
 "[We](imprint)'d love to take it!"

@@ -23,17 +23,14 @@ layout: default-sq
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
-Delta Chat është një aplikacion i ri fjalosjeje që përdor email-et për shpërnguljen e mesazheve. 
-Nëse merrni një mesazh fjalosjeje, thjesht përdorni aplikacionin tuaj email për ta lexuar
-mesazhin dhe për t’iu përgjigjur. **Nuk ju duhet të regjistroheni diku, të shkoni te një sajt
-apo të instaloni Delta Chat-in.**
+Delta Chat është një aplikacion i ri bisedash që i dërgon mesazhet përmes emai-i, të fshehtëzuar, nëse është e mundur, me Autocrypt. 
+**Nuk ju duhet të regjistroheni gjëkundi, thjesht përdorni me Delta Chat-in llogarinë tuaj ekzistuese email.** 
 
-## Si mund të gjej njerëz për të biseduar? 
+## Si mund të gjej persona për të biseduar me ta? 
 
 Me Delta Chat-in, mund t’i shkruani cilësdo adresë email ekzistuese - madje
-edhe nëse marrësi nuk përdor aplikacionin Delta Chat. Kjo është një nga
-dallimet më të mëdha me programe të tjera të ngjashme: S’ka nevojë që
-marrësi të instalojë të njëjtin aplikacion si ju.
+edhe kur marrësi nuk përdor aplikacionin Delta Chat. Për marrësin s’është
+e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tjera
 
 ## Cilat janë përparësitë e Delta Chat-it krahasuar me programe të tjerë të llojit?
 
@@ -48,23 +45,23 @@ marrësi të instalojë të njëjtin aplikacion si ju.
 - _Pa Mesazhe të Padëshiruar_ - si parazgjedhje, shfaqen vetëm mesazhe nga përdorues të njohur
 - _I qëndrueshëm_ - i parrezik për përdorim profesional
 - _I besueshëm_ - mund të përdoret madje edhe për mesazhe biznesi
-- plotësisht me _Burim të Hapur_ dhe i bazuar në _Standarde_
+- Software i lirë i bazuar në _Copyleft_ dhe _Standarde_.
 
 ## Cilat mesazhe shfaqen në Delta Chat?
 
-Delta Chat shfaq automatikisht …
+Delta Chat shfaq automatikisht:
 
 - Mesazhe nga kontakte prej **librit tuaj të adresave**
 - Mesazhe nga kontakte **të kontaktuar nga ju**
 - **Përgjigje** ndaj mesazheve dërguar nga ju
 
-Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni te menuja kryesore te **Kërkesa kontakti** dhe, në daçi, të filloni bisedë që prej atje.
+Mesazhet e tjera nuk shfaqen automatikisht dhe mund të gjenden te menuja kryesore, te **Kërkesa kontakti**. Nëse dëshirohet, një bisedë mund të fillohet që prej atje.
 
-## Po Mesazhet e Padëshiruara?
+## Po mesazhet e padëshiruara?
 
 - Mesazhet në dosje të zakonshme mesazhesh të padëshiruar shpërfillen dhe adresat në ta nuk konsiderohen si kontakte të njohur.
-- Meqë mesazhet prej kontaktesh të panjohur nuk shfaqen vetvetiu, normalisht, **s’ka mesazhe të padëshiruar**.
-- Sido qoftë, nëse duhet vërtet, mund të **bllokoni** cilindo kontakt.
+- Meqë mesazhet prej kontaktesh të panjohur nuk shfaqen automatikisht, normalisht, **s’ka mesazhe të padëshiruar**.
+- Sido qoftë, nëse duhet vërtet, mundeni të **bllokoni** cilindo kontakt.
 
 ## A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?
 
@@ -72,30 +69,31 @@ Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni 
 
 ## A mbulon Delta Chat-i email-e HTML?
 
-- Po. Nëse email-i ardhës nuk ka pjesë nën tekst të thjeshtë, i shndërrojmë email-et HTML në tekst të thjeshtë. Email-et dërgohen përherë si tekst i thjeshtë.
+- Po. Nëse email-i ardhës nuk ka pjesë nën tekst të thjeshtë, email-et HTML shndërrohen në tekst të thjeshtë te aplikacioni. Email-et dërgohen përherë si tekst i thjeshtë.
 
 # Grupe
 
-## Si mund të krijoj një grup?
+## Krijimi i një grupi
 
 - Përzgjidhni **Shtoni grup** që nga "menuja sanduiç" në cepin e sipërm djathtas te skena bazë e bisedave.
 - Te skena vijuese, përzgjidhni **anëtarët e grupit** dhe i vini shenjë kutizës në cepin e sipërm djathtas. Pas kësaj, mund të përcaktoni një **emër grupi**.
 - Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjen te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët).
 
-## Si të shtohen anëtarë te një grup?
+## Shtim anëtarësh te një grup?
 
 - Çdo anëtar i grupit ka **të njëjtat të drejta** si kushdo tjetër. Për këtë arsye, gjithkush mund të fshijë cilindo anëtar ose të shtojë të rinj.
 - Për të shtuar ose fshirë anëtarë, klikoni mbi emrin e grupit te biseda.
 
 ## Ç’është një grup i verifikuar?
 
-- Një "grup i verifikuar" është një veçori eksperimentale (flasim për Janarin e 2019-s). 
-  Duke shtuar njëri-tjetrin përmes skanimesh kodi QR një grup anëtarësh të "verifikuar" mund 
-   të bisedojnë me njëri-tjetrin. Kjo do të thotë zbatim i detyrueshëm i fshehtëzimit e2e për grupin, 
-  që është i parrezik kundrejt furnizuesit të shërbimit ose sulmesh nga rrjeti. 
-  Megjithatë, disa prova me përdorues dhe përshtypje prej tyre sugjerojnë se ndryshimet UX 
-  dhe të sendërtimit ia vlejnë. Diskutimet më të freskëta mund të gjenden këtu: 
-  https://countermitm.readthedocs.io/en/latest/new.html
+- Një "grup i verifikuar" është një veçori eksperimentale (flasim për Janarin 
+e 2019-s). Duke shtuar njëri-tjetrin përmes skanimesh kodi QR, një grup
+anëtarësh të "verifikuar" mund të bisedojnë me njëri-tjetrin. Kjo do të thotë
+zbatim i detyrueshëm i fshehtëzimit e2e për grupin, që është i parrezik
+kundrejt furnizuesit të shërbimit ose sulmesh nga rrjeti. Megjithatë, disa
+prova me përdorues dhe përshtypje prej tyre sugjerojnë se ndryshimet UX dhe
+të sendërtimit ia vlejnë. Diskutimet më të freskëta mund të gjenden këtu: 
+https://countermitm.readthedocs.io/en/latest/new.html
 
 ## Fshiva veten padashje.
 
@@ -104,11 +102,12 @@ Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni 
 
 ## S’dua t’i marr më mesazhet e një grupi.
 
-- Ose fshini veten nga grupi si anëtar i listës, ose fshini krejt bisedën. 
-  Nëse doni të ribëheni pjesë e grupit, kërkojini një anëtari tjetër të grupit t’ju shtojë sërish.
+- Ose fshini veten si anëtar i listës, ose fshini krejt bisedën. 
+  Nëse më vonë doni të ribëheni pjesë e grupit, kërkojini një anëtari tjetër të grupit t’ju shtojë sërish.
 
-- Ndryshe, mundeni edhe ta "Heshtoni" një grup - duke bërë këtë, do të merrni krejt mesazhet dhe 
-  prapë mund të shkruani, por nuk njoftoheni më për çfarëdo mesazhesh të rinj.
+- Ndryshe, mundeni edhe ta "Heshtoni" një grup - duke bërë këtë, do të merrni
+krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më, 
+për çfarëdo mesazhesh të rinj.
 
 # Fshehtëzim {#encryption}
 
@@ -123,11 +122,11 @@ Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni 
 - Asgjë.
 
 - Aplikacionet Delta Chat (dhe të tjerë aplikacione email të aftë për [Autocrypt](https://autocrypt.org))
-  përdorin automatikisht të njëjtat kyçe të domosdoshëm për fshehtëzim 
-  skaj-më-skaj, teksa dërgohen mesazhet e para. Pas kësaj, krejt mesazhet 
-  pasues fshehtëzohen automatikisht skaj-më-skaj. Nëse një nga partnerët 
-  në bisedë, më pas, përdor një aplikacion email që nuk mbulon Autocrypt-in, 
-  mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë për Autocrypt-in. 
+përdorin automatikisht të njëjtat kyçe të domosdoshëm për fshehtëzim 
+skaj-më-skaj, teksa dërgohen mesazhet e para. Pas kësaj, krejt mesazhet 
+pasues fshehtëzohen automatikisht skaj-më-skaj. Nëse një nga partnerët 
+në bisedë, më pas, përdor një aplikacion email që nuk mbulon Autocrypt-in, 
+mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë për Autocrypt-in.
 
 - Nëse doni të _çaktivizohet_ fshehtëzimi skaj-më-skaj, 
   përdorni fushën përkatës te "Rregullime / Rregullime të mëtejshme".
@@ -139,7 +138,7 @@ Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni 
 
 ## Si mund ta kontrolloj fshehtëzimin?
 
-- Nëse në krah të mesazhit shfaqet një **dry** i vockël, kjo do të thotë që mesazhi është i fshehtëzuar skaj-më-skaj _dhe_ është dërguar nga dërguesi i dhënë _dhe_ përgjigja juaj edhe ajo do të fshehtëzohet.
+- Nëse në krah të mesazhit shfaqet një **dry** i vockël, kjo tregon se mesazhi është i fshehtëzuar skaj-më-skaj _dhe_ se është dërguar nga dërguesi i dhënë _dhe_ se përgjigja juaj edhe ajo do të fshehtëzohet skaj-më-skaj.
 
 - Nëse **s’ka dry**, mesazhi zakonisht transportohet i pafshehtëzuar, p.sh., ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose dërguesi përdor një aplikacion që nuk mbulon fshehtëzimin skaj-më-skaj.
 
@@ -148,13 +147,13 @@ Mesazhet e tjera nuk shfaqen automatikisht. Mesazhet e tjerë mund t’i shihni 
 
 Profili i përdoruesit shfaq disa të dhëna shtesë:
 
-- Mund të prekni mbi "Kod Ftese QR" te Android dhe mandej përdorni butonin 
-  “skanoni kod QR” te pajisja tjetër që të skanoni këtë kod.  Nëse që të dyja 
+- Prekni "Kod Ftese QR" te Android dhe mandej përdorni butonin 
+  “Skanoni kod QR” te pajisja tjetër që të skanoni këtë kod.  Nëse që të dyja 
   pajisjet janë në linjë, do të vendosin një kanal bisede me njëra-tjetrën 
   (nëse ky s’ekziston tashmë) dhe do të verifikohen edhe kyçet e fshehtëzimit. 
 
 - Për fshehtëzim skaj-më-skaj, Delta Chat shfaq dy shenja gishtash. 
-  Nëse ata janë të njëjtë me ata te pajisja e partnerit tuaj në bisedë, lidhja është e sigurt.
+  Nëse të njëjtat shenja gishtash shfaqen te pajisja e partnerit tuaj në bisedë, lidhja është e sigurt.
 
 - Për fshehtëzim të transportit, gjendja thjesht tregohet atje
 
@@ -167,9 +166,29 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
 
 - Po. Rruga më e mirë është të dërgohet një Mesazh Rregullimi Autocrypt-i që nga klienti tjetër email. Shihni për diçka si **Start Autocrypt Setup Transfer** te rregullimet e klientit tjetër dhe ndiqni udhëzimet e dhëna atje.
 
-- Ndryshe, mund ta importoni kyçin dorazi që nga "Rregullime të mëtejshme / Administroni kyçe private". Kujdes: Sigurohuni që kyçi nuk mbrohet me fjalëkalim, në të kundërt hiqjani.
+- Ndryshe, mund ta importoni kyçin dorazi që nga "Rregullime të mëtejshme / Administroni kyçe private". Kujdes: Sigurohuni që kyçi nuk mbrohet me fjalëkalim, ndryshe hiqjani fjalëkalimin paraprakisht.
 
 Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të bërë. 
+
+## S’importoj dot në Delta Chat kyçet e mi ekzistues PGP.
+
+Përgjithësish, Delta Chat do të duhej të mbulonte formate të "rëndomtë" kyçesh
+private, sidoqoftë, ka pak gjasa që të mbulojmë 100% të krej kyçeve private të
+çfarëdo burimi. As është ky fokusi kryesor i Delta Chat-it (në fakt, shumica
+dërrmuese e përdoruesve të Delta Chat-it s’do të kenë ndonjë kyç, para se
+të fillojnë të përdorin Delta-n).
+Sidoqoftë, përpiqemi të mbulojmë kyçe private nga burime të tjera sa më mirë 
+të mundemi.
+
+Ka shumë mundësi që problemi të jetë se kyçi juaj është i fshehtëzuar dhe/ose
+përdor një fjalëkalim. Kyçe të tillë nuk mbulohen nga Delta Chat. Ju lutemi,
+hiqeni fshehtëzimin dhe fjalëkalimin dhe riprovoni importimin.
+
+Heqja e fjalëkalimi nga kyçi privat do të jetë e ndryshme, varet nga software-i
+që ju përdorni për administrim kyçesh PGP. Me Enigmail-in, mund t’i jepni
+fjalëkalimit tuaj një vlerë të zbrazët, që nga dritarja Administrim Kyçesh. Me
+GnuPG-në mund ta bëni [përmes rreshti urdhrash](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
+Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
 # Multi-klient {#multiclient}
 
@@ -182,10 +201,10 @@ për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim:
   dhe klikoni derisa të shfaqet një "numër sigurie". 
 
 - Në pajisjen tjetër, pritni të mbërrijë "Mesazh Rregullimi Autocrypt-i" 
-  dhe klikoni mbi të, që do të duhej t’ju kërkonte numrin e sigurisë. 
+  dhe klikoni mbi të, çka do të duhej t’ju kërkonte numrin e sigurisë. 
 
-- tani jeni i njëkohësuar me sukses dhe mund të përdorni që të dyja pajisjet për
-  marrje dhe dërgim mesazhesh, të fshehtëzuar nën e2e, me partnerët tuaj në komunikim. 
+- tani jeni i njëkohësuar dhe mund të përdorni që të dyja pajisjet për marrje
+dhe dërgim mesazhesh, të fshehtëzuar me E2E, me partnerët tuaj në komunikim.
 
 # Të ndryshme
 
@@ -197,4 +216,4 @@ për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim:
 
 ## Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
-- Shihni faqen [Standarde të përdorur në Delta Chat]({% include standards-url %}).
+- Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).

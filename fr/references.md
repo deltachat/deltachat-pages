@@ -11,30 +11,30 @@ layout: default-fr
 
 # Références
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
+Bien que Delta Chat soit toujours en version bêta, il existe déjà quelques articles intéressants.
 
-This list is far from being complete -
-do we have missed something?
-Please [let us know](imprint)
-or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Cette liste est loin d'être complète -
+avons nous raté quelque chose ?
+S.v.p. [dites-nous](imprint)
+ou faites juste une demande de tirage [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
+## le blog Mozilla Thunderbird : FOSDEM 2019 and DeltaChat
 
 03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-deltachat/>
 
 
-## habr.com (Large Russian technology site): децентрализованный мессенджер поверх электронной почты
+## habr.com (vaste site de technologie russe): децентрализованный мессенджер поверх электронной почты
 
 03/2019, <https://habr.com/ru/post/442266/>
 
 
-## technolike.com (Technology blog from Cuba): Delta chat, chatea por correo al más puro estilo WhatsApp
+## technolike.com (blog technologique de Cuba): Delta chat, chatea por correo al más puro estilo WhatsApp
 
 02/2019, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-puro-estilo-whatsapp/>
 
 
-## blog.lenzg.net: Using Delta Chat with email sub-addresses
+## blog.lenzg.net: Utiliser Delta Chat avec des sous-adresses de courriel
 
 02/2019, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-addresses/>
 
@@ -67,8 +67,17 @@ _ "Pour moi, le tout semble très bien jusqu'ici et je pourrais imaginer que je 
 
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>
 
-## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, WhatsApp & Co. (3)
+
+## Wissensarbeiter Jochen Plikat (blog allemand): Zur Zukunft von SMS, WhatsApp & Co. (3)
 
 _"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
+"Mettre en place le Delta Chat ne pourrait pas être plus facile..."
 
-30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/>
+30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/> 
+
+
+## Mobilsicher.de (German mobil security website) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
+
+_"Delta.Chat: Sicher und dezentral – geht das?"_
+
+03.06.2019, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 

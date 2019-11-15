@@ -1,0 +1,4 @@
+# needed for the RSS feed, but may also be useful for other purposes
+name:         Delta Chat
+description:  Instant messanging based on email
+url:          https://delta.chat
