@@ -1,5 +1,5 @@
 html {
-    --dl-button-color: #6fa1b8;
+    --dl-button-bg: linear-gradient(120deg, #71828a, #4a6069) #159957;
     --dl-button-roundness: 5px;
     --dl-box-roundness: 4px;
 }
@@ -64,7 +64,7 @@ html {
     }
 
     .box>.buttons>a:not(.img-badge) {
-        background-color: var(--dl-button-color);
+        background: var(--dl-button-bg);
         color: white;
         font-weight: bold;
         padding: 5px;
