@@ -10,10 +10,11 @@ layout: default-sq
 
 
 <div class="download-content">
-    <h1>Recommended for you:</h1>
-    <div id="recommend"></div>
-    <noscript>You need to enable JavaScript to autodetect your platform through your User Agent. It's detected localy on your device.</noscript>
-    <h1>Other platforms:</h1>
+    <div id="recommendation-section" hidden>
+        <h1>Recommended for you:</h1>
+        <div id="recommend"></div>
+        <h1>Other platforms:</h1>
+    </div>
     <div id="boxes">
         <div class="box" id="linux">
             <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">Source Code</a>
@@ -21,14 +22,15 @@ layout: default-sq
             <div class="buttons">
                 <a href="https://download.delta.chat/desktop/DeltaChat.stable.amd64.deb" class="big-button">Debian / Ubuntu (.deb)</a>
                 <a href="https://download.delta.chat/desktop/DeltaChat.stable.AppImage" class="big-button">Universal (.AppImage)</a>
-                <a href="https://flathub.org/apps/details/chat.delta.desktop" class="soon"><small>Download from</small> Flathub</a>
+                <a href="https://flathub.org/apps/details/chat.delta.desktop" class="soon img-badge">
+                    <img src="../assets/badges/flathub.svg" alt="Download from Flathub" />
+                </a>
             </div>
-            <h4>Install via Package Manager</h4>
+            <div class="sub-title">Install via Package Manager</div>
             <p>
                 Arch <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/">(AUR)</a>:
                 <code>yay -S deltachat-desktop-git</code>
-            </p>
-            <p>
+                <br>
                 <a href="https://flathub.org/apps/details/chat.delta.desktop">Flatpak</a> (outdated):
                 <code>flatpak install flathub chat.delta.desktop</code>
             </p>
@@ -39,7 +41,9 @@ layout: default-sq
             <div class="buttons">
                 <a href="https://download.delta.chat/desktop/DeltaChat.stable.setup.exe" class="big-button">Setup (.exe)</a>
                 <a class="soon big-button">Portable (.exe)</a>
-                <a class="soon"><small>Download from</small> Microsoft Store</a>
+                <a class="soon img-badge">
+                    <img src="../assets/badges/microsoft.svg" alt="Download from Microsoft Store" />
+                </a>
             </div>    
         </div>
         <div class="box" id="osx">
@@ -47,7 +51,9 @@ layout: default-sq
             <div class="title">macOS</div>
             <div class="buttons">
                 <a href="https://download.delta.chat/desktop/DeltaChat.stable.dmg" class="big-button">DMG</a>
-                <a class="soon"><small>Download on the</small> AppStore</a>
+                <a class="soon img-badge">
+                    <img src="../assets/badges/mac-appstore.svg" alt="Download on Apple AppStore" />
+                </a>
             </div>
         </div>
         <div class="box" id="ios">
@@ -55,7 +61,9 @@ layout: default-sq
             <div class="title">iOS (iPhone)</div>
             <div class="buttons">
                 <a href="https://testflight.apple.com/join/uEMc1NxS"><small>Beta on</small> Testflight</a>
-                <a class="soon"><small>Download on the</small> AppStore</a>
+                <a class="soon img-badge">
+                    <img src="../assets/badges/get-it-on-ios.png" alt="Download on Apple AppStore" />
+                </a>
             </div>
         </div>
         <div class="box" id="android">
@@ -63,8 +71,12 @@ layout: default-sq
             <div class="title">Android</div>
             <div class="buttons">
                 <a href="https://github.com/deltachat/deltachat-android/releases/download/preview-v0.950.0/deltachat-gplay-release-0.950.0.apk" class="big-button">APK</a>
-                <a href="https://f-droid.org/app/com.b44t.messenger"><small>Get it on</small>F-Droid</a>
-                <a href="https://play.google.com/store/apps/details?id=chat.delta"><small>Beta testing on</small>Google Play</a>
+                <a href="https://f-droid.org/app/com.b44t.messenger" class="img-badge">
+                    <img src="../assets/badges/get-it-on-fdroid.png" alt="Get it on F-Droid" />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=chat.delta" class="img-badge">
+                    <img src="../assets/badges/get-it-on-gplay-beta.png" alt="Beta testing on Google Play"  />
+                </a>
                 <a class="soon"><small>Get it on</small>Amazon Appstore</a>
             </div>
         </div>
@@ -94,11 +106,3 @@ Ose thjesht vizitoni `https://get.delta.chat` që nga pajisja e shoku tuaj.
 
 ## Montime Paraparje:
 * [Desktop](https://download.delta.chat/desktop/preview/)
-
-## Stema
-
-[<img src="../assets/home/get-it-on-gplay-beta.png" alt="Testim Beta në Google Play" width="200" />](https://play.google.com/store/apps/details?id=chat.delta)
-[<img src="../assets/home/get-it-on-fdroid.png" alt="Merreni në F-Droid" width="200" />](https://f-droid.org/app/com.b44t.messenger)
-<!--
-<img src="../assets/home/get-it-on-ios.png" alt="Shkarkojeni që nga Apple AppStore" width="200" style="float:right; filter: opacity(.3) grayscale(100%);" />
--->
