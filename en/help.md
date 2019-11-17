@@ -1,11 +1,9 @@
 ---
-title: Help
+title: FAQ
 lang: en
+render_toc: true
+header: Frequently Asked Questions
 ---
-
-
-# Frequently Asked Questions
-{:toc}
 
 # General
 

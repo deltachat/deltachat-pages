@@ -35,6 +35,19 @@
 <p class="blogdate">{{ page.date | date: "%B %d, %Y" }} {% if page.author %}by {{ page.author }}{% endif %}</p>
 {% endif %}
 
+{% if page.header != blank %}
+    <h1>{{page.header}}</h1>
+{% endif %}
+
+{% if page.render_toc == true %}
+    <details>
+    <summary>
+    Table of Contents
+    </summary>
+    {% include toc.html html=content %}
+    </details>
+{% endif %}
+
 {% include anchor_headings.html html=content anchorClass="anchor" %}
 
 
