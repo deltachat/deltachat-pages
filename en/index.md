@@ -1,6 +1,6 @@
 ---
 title: The messenger
-layout: default-en
+lang: en
 ---
 
 # Chat over e-mail and head back to the future with us!

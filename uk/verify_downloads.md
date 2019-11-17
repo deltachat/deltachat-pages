@@ -1,6 +1,6 @@
 ---
 title: Verify Downloads
-layout: default-en
+lang: en
 ---
 
 

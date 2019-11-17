@@ -1,6 +1,6 @@
 ---
 title: Delta Chat Changelog
-layout: default-en
+lang: en
 ---
 
 # Delta Chat Changelog

@@ -1,6 +1,6 @@
 ---
 title: Contribute
-layout: default-en
+lang: en
 ---
 
 # Channels and repositories
