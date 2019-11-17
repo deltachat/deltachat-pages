@@ -1,15 +1,11 @@
 ---
 title: Help
-layout: default-en
+lang: en
 ---
 
-# Frequently Asked Questions
 
-- [General](#general)
-- [Groups](#groups)
-- [Encryption](#encryption)
-- [Multi-client](#multiclient)
-- [Miscellaneous](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # General
 

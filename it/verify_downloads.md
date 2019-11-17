@@ -1,6 +1,6 @@
 ---
 title: Verifica Download
-layout: default-en
+lang: en
 ---
 
 

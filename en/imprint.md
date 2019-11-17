@@ -1,6 +1,6 @@
 ---
 title: Imprint
-layout: default-en
+lang: en
 ---
 
 # Imprint
