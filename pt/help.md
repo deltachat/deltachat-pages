@@ -1,6 +1,8 @@
 ---
-title: Help
+title: FAQ
 lang: pt
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,10 +10,6 @@ lang: pt
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-
-# Frequently Asked Questions
-{:toc}
 
 # Geral {#general}
 
