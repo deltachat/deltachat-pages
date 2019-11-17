@@ -1,6 +1,6 @@
 ---
-title: Aide
-layout: default-fr
+title: Help
+lang: fr
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-fr
 
 
 
-# Foire aux questions
 
-- [Général](#general)
-- [Groupes](#groups)
-- [Chiffrement](#encryption)
-- [Multi-client](#multiclient)
-- [Divers](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # Général {#general}
 

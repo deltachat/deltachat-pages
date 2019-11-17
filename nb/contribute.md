@@ -1,6 +1,6 @@
 ---
-title: Bidra
-layout: default-nb
+title: Contribute
+lang: nb
 ---
 
 

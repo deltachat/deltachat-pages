@@ -1,6 +1,6 @@
 ---
-title: Pomoc
-layout: default-pl
+title: Help
+lang: pl
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-pl
 
 
 
-# Często Zadawane Pytania
 
-- [Główne](#general)
-- [Grupy](#groups)
-- [Szyfrowanie](#encryption)
-- [Multi-klient](#multiclient)
-- [Różne](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # Główne
 

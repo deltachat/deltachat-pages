@@ -1,6 +1,6 @@
 ---
-title: Контакты
-layout: default-ru
+title: Imprint
+lang: ru
 ---
 
 

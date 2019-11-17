@@ -1,6 +1,6 @@
 ---
-title: Blogg
-layout: default-nb
+title: Blog
+lang: nb
 ---
 
 

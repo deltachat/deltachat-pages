@@ -1,6 +1,6 @@
 ---
-title: Meldingsklienten
-layout: default-nb
+title: The messenger
+lang: nb
 ---
 
 

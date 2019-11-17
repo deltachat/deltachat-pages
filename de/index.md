@@ -1,6 +1,6 @@
 ---
-title: Der Messenger
-layout: default-de
+title: The messenger
+lang: de
 ---
 
 

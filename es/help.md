@@ -1,6 +1,6 @@
 ---
-title: Preguntas frecuentes
-layout: default-es
+title: Help
+lang: es
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-es
 
 
 
-# Preguntas frecuentes
 
-- [General](#general)
-- [Grupos](#groups)
-- [Encriptación](#encryption)
-- [Multiples dispositivos](#multiclient)
-- [Problemas de Login](#login-issues)
+# Frequently Asked Questions
+{:toc}
 
 # General
 

@@ -1,6 +1,6 @@
 ---
-title: GDPR і конфіденційність
-layout: default-uk
+title: GDPR and Privacy
+lang: uk
 ---
 
 

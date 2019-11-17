@@ -1,6 +1,6 @@
 ---
-title: L'aplicació
-layout: default-ca
+title: The messenger
+lang: ca
 ---
 
 

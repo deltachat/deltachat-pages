@@ -1,6 +1,6 @@
 ---
 title: Help
-layout: default-uk
+lang: uk
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-uk
 
 
 
-# Часті питання
 
-- [Загальне](#general)
-- [Групи](#groups)
-- [Шифрування](#encryption)
-- [Мульти-клієнт](#multiclient)
-- [Інше](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # Загальне
 

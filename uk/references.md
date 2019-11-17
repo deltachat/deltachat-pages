@@ -1,6 +1,6 @@
 ---
-title: Посилання
-layout: default-uk
+title: References
+lang: uk
 ---
 
 

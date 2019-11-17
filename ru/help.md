@@ -1,6 +1,6 @@
 ---
-title: Помощь
-layout: default-ru
+title: Help
+lang: ru
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-ru
 
 
 
-# Часто задаваемые вопросы
 
-- [Общее](#general)
-- [Группы](#groups)
-- [Шифрование](#encryption)
-- [Мульти-клиент](#multiclient)
-- [Прочее](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # Общее
 

@@ -53,6 +53,7 @@ create_markdown_files() {
 			pofile="../${tlang:0:2}/${sfile}.po"
 			mdfile="../${tlang:0:2}/${sfile}.md"
 			po2txt --progress=none --template="../en/${sfile}.md" $pofile $mdfile
+			sed -i "s/lang: \S*/lang: ${tlang:0:2}/" $mdfile # correct used layout
 			sed -i "0,/^$/ s/^$/\n\n\n<!-- GENERATED FILE -- DO NOT EDIT -->\n\n\n/" $mdfile # add a comment in the first empty line (with `0,/^$/` you select all lines until the re matches)
 		done
 	done	

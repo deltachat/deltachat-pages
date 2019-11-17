@@ -1,6 +1,6 @@
 ---
-title: Emprempta
-layout: default-ca
+title: Imprint
+lang: ca
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: Ndihmë
-layout: default-sq
+title: Help
+lang: sq
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-sq
 
 
 
-# Pyetje të Bëra Shpesh
 
-- [Të përgjithshme](#general)
-- [Grupe](#groups)
-- [Fshehtëzim](#encryption)
-- [Multi-klient](#multiclient)
-- [Të ndryshme](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # Të përgjithshme
 
