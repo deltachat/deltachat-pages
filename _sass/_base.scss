@@ -170,3 +170,12 @@ pre, blockquote { padding: 0.5em 1em; }
   background: url(twitter-icon.png) no-repeat 0 50%;
 }
 
+
+h1,h2,h3,h4,h5,h6 {
+    &:hover {
+        .anchor::before {
+            content: "🔗"
+        }
+    }
+}
+

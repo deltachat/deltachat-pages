@@ -33,7 +33,7 @@
 {% endif %}
 
 
-{{ content }}
+{% include anchor_headings.html html=content anchorClass="anchor" %}
 
 
 {% if page.is_post == true %}
