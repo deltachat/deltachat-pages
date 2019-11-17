@@ -1,6 +1,6 @@
 ---
-title: Ссылки
-layout: default-ru
+title: References
+lang: ru
 ---
 
 

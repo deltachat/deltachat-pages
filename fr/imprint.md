@@ -1,6 +1,6 @@
 ---
-title: Mentions légales
-layout: default-fr
+title: Imprint
+lang: fr
 ---
 
 

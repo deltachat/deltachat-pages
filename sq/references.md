@@ -1,6 +1,6 @@
 ---
-title: Referenca
-layout: default-sq
+title: References
+lang: sq
 ---
 
 

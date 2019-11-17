@@ -1,6 +1,6 @@
 ---
-title: Wsparcie
-layout: default-pl
+title: Contribute
+lang: pl
 ---
 
 

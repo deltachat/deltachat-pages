@@ -1,6 +1,6 @@
 ---
-title: Referencias
-layout: default-es
+title: References
+lang: es
 ---
 
 

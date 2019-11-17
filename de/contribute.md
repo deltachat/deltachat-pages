@@ -1,6 +1,6 @@
 ---
-title: Mitwirken
-layout: default-de
+title: Contribute
+lang: de
 ---
 
 

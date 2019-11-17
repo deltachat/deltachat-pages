@@ -1,6 +1,6 @@
 ---
-title: GDPR dhe Privatësia
-layout: default-sq
+title: GDPR and Privacy
+lang: sq
 ---
 
 

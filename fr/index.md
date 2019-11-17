@@ -1,6 +1,6 @@
 ---
-title: La messagerie instantanée
-layout: default-fr
+title: The messenger
+lang: fr
 ---
 
 

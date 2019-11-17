@@ -1,6 +1,6 @@
 ---
 title: Help
-layout: default-ca
+lang: ca
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-ca
 
 
 
-# Preguntes freqüents
 
-- [General](#general)
-- [Grups](#groups)
-- [Encriptació](#encryption)
-- [Multi-client](#multiclient)
-- [Miscel·lània](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # General
 

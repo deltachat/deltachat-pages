@@ -1,6 +1,6 @@
 ---
 title: Blog
-layout: default-sq
+lang: sq
 ---
 
 

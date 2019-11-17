@@ -1,6 +1,6 @@
 ---
-title: Contribueix
-layout: default-ca
+title: Contribute
+lang: ca
 ---
 
 

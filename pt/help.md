@@ -1,6 +1,6 @@
 ---
-title: Perguntas frequentes
-layout: default-pt
+title: Help
+lang: pt
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-pt
 
 
 
-# Perguntas frequentes
 
-- [Geral](#general)
-- [Grupos](#groups)
-- [Criptografia](#encryption)
-- [Multicliente](#multiclient)
-- [Diversos](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # Geral {#general}
 

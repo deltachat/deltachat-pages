@@ -1,6 +1,6 @@
 ---
-title: Hjelp
-layout: default-nb
+title: Help
+lang: nb
 ---
 
 
@@ -9,13 +9,9 @@ layout: default-nb
 
 
 
-# Ofte-Stilte-Spørsmål
 
-- [General](#general)
-- [Grupper](#groups)
-- [Kryptering](#encryption)
-- [Multi-client](#multiclient)
-- [Ymse](#miscellaneous)
+# Frequently Asked Questions
+{:toc}
 
 # Generelt
 

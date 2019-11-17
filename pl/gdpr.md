@@ -1,6 +1,6 @@
 ---
-title: GDPR i Prywatność
-layout: default-pl
+title: GDPR and Privacy
+lang: pl
 ---
 
 

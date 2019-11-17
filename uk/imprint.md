@@ -1,6 +1,6 @@
 ---
-title: Выходные данные
-layout: default-uk
+title: Imprint
+lang: uk
 ---
 
 

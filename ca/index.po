@@ -1,5 +1,4 @@
 # Translators:
-# björn petersen <r10s@b44t.com>, 2018
 # Calbasi <joan@calbasi.net>, 2019
 # 
 #, fuzzy
@@ -7,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-15 17:18+0200\n"
+"POT-Creation-Date: 2019-11-17 21:35+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
 "Last-Translator: Calbasi <joan@calbasi.net>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/delta-chat/teams/76181/ca/)\n"
@@ -22,13 +21,9 @@ msgstr ""
 msgid ""
 "---\n"
 "title: The messenger\n"
-"layout: default-en\n"
+"lang: en\n"
 "---"
 msgstr ""
-"---\n"
-"title: L'aplicació\n"
-"layout: default-ca\n"
-"---"
 
 #: ../en/index.md:7
 msgid "# Chat over e-mail and head back to the future with us!"
