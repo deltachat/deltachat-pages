@@ -1,6 +1,6 @@
 ---
-title: Wydawca
-layout: default-pl
+title: Imprint
+lang: pl
 ---
 
 

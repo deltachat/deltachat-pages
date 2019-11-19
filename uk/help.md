@@ -1,6 +1,8 @@
 ---
-title: Help
-layout: default-uk
+title: FAQ
+lang: uk
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-uk
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Часті питання
-
-- [Загальне](#general)
-- [Групи](#groups)
-- [Шифрування](#encryption)
-- [Мульти-клієнт](#multiclient)
-- [Інше](#miscellaneous)
 
 # Загальне
 

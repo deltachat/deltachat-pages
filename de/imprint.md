@@ -1,6 +1,6 @@
 ---
-title: Impressum
-layout: default-de
+title: Imprint
+lang: de
 ---
 
 

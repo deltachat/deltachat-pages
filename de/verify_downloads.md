@@ -1,6 +1,6 @@
 ---
-title: Downloads verifizieren
-layout: default-de
+title: Verify Downloads
+lang: de
 ---
 
 

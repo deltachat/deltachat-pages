@@ -1,6 +1,6 @@
 ---
-title: Мессенджер
-layout: default-ru
+title: The messenger
+lang: ru
 ---
 
 

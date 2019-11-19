@@ -1,6 +1,8 @@
 ---
-title: Hilfe
-layout: default-de
+title: FAQ
+lang: de
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-de
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Hilfe
-
-- [Allgemein](#general)
-- [Gruppen](#groups)
-- [Verschlüsselung](#encryption)
-- [Multi-Client](#multiclient)
-- [Verschiedenes](#miscellaneous)
 
 # Allgemein {#general}
 

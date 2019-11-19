@@ -1,6 +1,6 @@
 ---
 title: GDPR and Privacy
-layout: default-en
+lang: en
 ---
 
 # Note on privacy and GDPR 

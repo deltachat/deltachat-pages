@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung Webseite
-layout: default-de
+lang: de
 ---
 
 

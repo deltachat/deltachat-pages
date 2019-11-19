@@ -1,6 +1,6 @@
 ---
-title: Внести свой вклад
-layout: default-ru
+title: Contribute
+lang: ru
 ---
 
 

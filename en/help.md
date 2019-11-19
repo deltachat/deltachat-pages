@@ -1,15 +1,9 @@
 ---
-title: Help
-layout: default-en
+title: FAQ
+lang: en
+render_toc: true
+header: Frequently Asked Questions
 ---
-
-# Frequently Asked Questions
-
-- [General](#general)
-- [Groups](#groups)
-- [Encryption](#encryption)
-- [Multi-client](#multiclient)
-- [Miscellaneous](#miscellaneous)
 
 # General
 

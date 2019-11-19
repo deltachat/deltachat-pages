@@ -1,6 +1,8 @@
 ---
-title: Hjelp
-layout: default-nb
+title: FAQ
+lang: nb
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-nb
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Ofte-Stilte-Spørsmål
-
-- [General](#general)
-- [Grupper](#groups)
-- [Kryptering](#encryption)
-- [Multi-client](#multiclient)
-- [Ymse](#miscellaneous)
 
 # Generelt
 

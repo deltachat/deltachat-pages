@@ -1,6 +1,6 @@
 ---
-title: DSGVO und Datenschutz
-layout: default-de
+title: GDPR and Privacy
+lang: de
 ---
 
 

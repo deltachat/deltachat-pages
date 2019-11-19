@@ -1,6 +1,6 @@
 ---
-title: RGPD et protection de la vie privée
-layout: default-fr
+title: GDPR and Privacy
+lang: fr
 ---
 
 

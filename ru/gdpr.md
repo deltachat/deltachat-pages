@@ -1,6 +1,6 @@
 ---
-title: GDPR и Приватность
-layout: default-ru
+title: GDPR and Privacy
+lang: ru
 ---
 
 

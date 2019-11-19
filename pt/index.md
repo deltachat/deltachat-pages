@@ -1,6 +1,6 @@
 ---
-title: O aplicativo de mensagens
-layout: default-pt
+title: The messenger
+lang: pt
 ---
 
 

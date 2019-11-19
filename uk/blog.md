@@ -1,6 +1,6 @@
 ---
-title: Блог
-layout: default-uk
+title: Blog
+lang: uk
 ---
 
 

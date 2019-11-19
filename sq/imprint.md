@@ -1,6 +1,6 @@
 ---
 title: Imprint
-layout: default-sq
+lang: sq
 ---
 
 

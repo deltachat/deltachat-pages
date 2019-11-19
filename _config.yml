@@ -9,9 +9,13 @@ defaults:
   -
     scope:
       path: ""      # empty string for all files
+    values:
+      layout: default
+  -
+    scope:
+      path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
-      layout: default-en
       is_post: true # automatically set is_post=true for all posts
 
 kramdown: 

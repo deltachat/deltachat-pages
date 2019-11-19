@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-15 17:18+0200\n"
+"POT-Creation-Date: 2019-11-17 22:19+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid ""
 "---\n"
 "title: Get Delta Chat\n"
-"layout: default-en\n"
+"lang: en\n"
 "---"
 msgstr ""
 
@@ -107,36 +107,20 @@ msgid ""
 msgstr ""
 
 #: ../en/download.md:89
-msgid ""
-"# QR Code for this site\n"
-"If want to share this site quickly with a friend, you can use this qr code:"
-msgstr ""
-
-#: ../en/download.md:91
-msgid ""
-"<img style=\"float: center\" src=\"../assets/home/get.delta.chat.png\" "
-"alt=\"Qr code for https://get.delta.chat\" width=\"200\" />"
-msgstr ""
-
-#: ../en/download.md:93
-msgid "Or just visit `https://get.delta.chat` on your friends device."
-msgstr ""
-
-#: ../en/download.md:96
 msgid "# Links"
 msgstr ""
 
-#: ../en/download.md:99
+#: ../en/download.md:92
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. \n"
 "* [Verify Downloads](verify_downloads.html)"
 msgstr ""
 
-#: ../en/download.md:101
+#: ../en/download.md:94
 msgid "## Changelogs"
 msgstr ""
 
-#: ../en/download.md:106
+#: ../en/download.md:99
 msgid ""
 "* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)\n"
 "* [Android]({% include changelog-url %})\n"
@@ -144,7 +128,7 @@ msgid ""
 "* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)"
 msgstr ""
 
-#: ../en/download.md:108
+#: ../en/download.md:101
 msgid ""
 "## Preview Builds:\n"
 "* [Desktop](https://download.delta.chat/desktop/preview/)"

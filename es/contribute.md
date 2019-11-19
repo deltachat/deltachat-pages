@@ -1,6 +1,6 @@
 ---
-title: Contribuir
-layout: default-es
+title: Contribute
+lang: es
 ---
 
 
