@@ -1,8 +1,8 @@
 ---
-title: FAQ
+title: PBR
 lang: sq
 render_toc: true
-header: Frequently Asked Questions
+header: Pyetje të Bëra Rëndom
 ---
 
 

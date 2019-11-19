@@ -1,5 +1,5 @@
 ---
-title: The messenger
+title: Lajmëtari
 lang: sq
 ---
 

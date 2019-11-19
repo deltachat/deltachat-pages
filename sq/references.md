@@ -1,5 +1,5 @@
 ---
-title: References
+title: Referenca
 lang: sq
 ---
 
