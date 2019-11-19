@@ -1,6 +1,6 @@
 ---
-title: Aviso legal
-layout: default-es
+title: Imprint
+lang: es
 ---
 
 

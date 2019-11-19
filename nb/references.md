@@ -1,6 +1,6 @@
 ---
-title: Referanser
-layout: default-nb
+title: References
+lang: nb
 ---
 
 

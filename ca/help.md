@@ -1,6 +1,8 @@
 ---
-title: Help
-layout: default-ca
+title: FAQ
+lang: ca
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-ca
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Preguntes freqüents
-
-- [General](#general)
-- [Grups](#groups)
-- [Encriptació](#encryption)
-- [Multi-client](#multiclient)
-- [Miscel·lània](#miscellaneous)
 
 # General
 

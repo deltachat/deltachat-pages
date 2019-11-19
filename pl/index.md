@@ -1,6 +1,6 @@
 ---
-title: Komunikator
-layout: default-pl
+title: The messenger
+lang: pl
 ---
 
 

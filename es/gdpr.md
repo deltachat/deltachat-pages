@@ -1,6 +1,6 @@
 ---
-title: RGPD y Privacidad
-layout: default-es
+title: GDPR and Privacy
+lang: es
 ---
 
 

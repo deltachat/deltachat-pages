@@ -1,0 +1,19 @@
+meta:
+  description: Delta Chat - E-postbasert lynmeldingsklient
+  keywords: delta chat, e-postlynmeldingsprogram, last ned delta chat
+  rss_news_title: Delta Chat-nyheter
+
+menu:
+  home: Hjem
+  download: Last ned
+  blog: Blogg
+  contribute: Bidra
+  help: FAQ
+  forum: Forum
+
+subscribe_to_feed: Subscribe to our feed
+
+references: Referanser
+imprint: Imprint
+privacy: Privacy Policy
+language: Språk

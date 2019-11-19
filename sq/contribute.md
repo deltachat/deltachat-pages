@@ -1,6 +1,6 @@
 ---
-title: Jepni ndihmesë
-layout: default-sq
+title: Contribute
+lang: sq
 ---
 
 

@@ -1,5 +1,4 @@
 # Translators:
-# björn petersen <r10s@b44t.com>, 2018
 # Telegram Polska <sebek@life.pl>, 2018
 # 
 #, fuzzy
@@ -7,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-15 17:18+0200\n"
+"POT-Creation-Date: 2019-11-17 22:19+0200\n"
 "PO-Revision-Date: 2018-03-23 12:40+0000\n"
 "Last-Translator: Telegram Polska <sebek@life.pl>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
@@ -22,13 +21,9 @@ msgstr ""
 msgid ""
 "---\n"
 "title: Imprint\n"
-"layout: default-en\n"
+"lang: en\n"
 "---"
 msgstr ""
-"---\n"
-"title: Wydawca\n"
-"layout: default-pl\n"
-"---"
 
 #: ../en/imprint.md:7
 msgid "# Imprint"

@@ -1,6 +1,6 @@
 ---
-title: Зробити свій внесок
-layout: default-uk
+title: Contribute
+lang: uk
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: Avtrykk
-layout: default-nb
+title: Imprint
+lang: nb
 ---
 
 

@@ -1,6 +1,8 @@
 ---
-title: Помощь
-layout: default-ru
+title: FAQ
+lang: ru
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-ru
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Часто задаваемые вопросы
-
-- [Общее](#general)
-- [Группы](#groups)
-- [Шифрование](#encryption)
-- [Мульти-клиент](#multiclient)
-- [Прочее](#miscellaneous)
 
 # Общее
 

@@ -1,6 +1,6 @@
 ---
-title: GDPR
-layout: default-it
+title: GDPR and Privacy
+lang: it
 ---
 
 

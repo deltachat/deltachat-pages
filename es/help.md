@@ -1,6 +1,8 @@
 ---
-title: Preguntas frecuentes
-layout: default-es
+title: FAQ
+lang: es
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-es
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Preguntas frecuentes
-
-- [General](#general)
-- [Grupos](#groups)
-- [Encriptación](#encryption)
-- [Multiples dispositivos](#multiclient)
-- [Problemas de Login](#login-issues)
 
 # General
 

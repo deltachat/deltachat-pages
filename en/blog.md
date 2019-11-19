@@ -1,6 +1,6 @@
 ---
 title: Blog
-layout: default-en
+lang: en
 ---
 
 # Blog

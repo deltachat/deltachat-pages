@@ -1,6 +1,6 @@
 ---
-title: Проверка загрузок
-layout: default-ru
+title: Verify Downloads
+lang: ru
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: The messenger
-layout: default-es
+lang: es
 ---
 
 

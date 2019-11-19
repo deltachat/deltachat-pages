@@ -1,6 +1,6 @@
 ---
 title: Contributor License Agreement
-layout: default-en
+lang: en
 ---
 
 # Thank you for contributing to our Project ...

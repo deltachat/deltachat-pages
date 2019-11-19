@@ -1,0 +1,19 @@
+meta:
+  description: Delta Chat - месенджер основанный на электронной почте
+  keywords: delta chat, приложение электронной почты, скачать delta chat
+  rss_news_title: Новости Delta Chat
+
+menu:
+  home: Главная
+  download: Скачать
+  blog: Блог
+  contribute: Содействовать
+  help: FAQ
+  forum: форум
+
+subscribe_to_feed: Subscribe to our feed
+
+references: Рекомендации
+imprint: Выходные данные
+privacy: Privacy Policy
+language: Язык

@@ -1,6 +1,8 @@
 ---
-title: Pomoc
-layout: default-pl
+title: FAQ
+lang: pl
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-pl
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Często Zadawane Pytania
-
-- [Główne](#general)
-- [Grupy](#groups)
-- [Szyfrowanie](#encryption)
-- [Multi-klient](#multiclient)
-- [Różne](#miscellaneous)
 
 # Główne
 

@@ -1,6 +1,6 @@
 ---
-title: Verifioni Shkarkimet
-layout: default-sq
+title: Verify Downloads
+lang: sq
 ---
 
 

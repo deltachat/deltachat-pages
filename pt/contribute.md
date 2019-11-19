@@ -1,6 +1,6 @@
 ---
-title: Ajuda
-layout: default-pt
+title: Contribute
+lang: pt
 ---
 
 

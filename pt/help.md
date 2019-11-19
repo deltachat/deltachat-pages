@@ -1,6 +1,8 @@
 ---
-title: Perguntas frequentes
-layout: default-pt
+title: FAQ
+lang: pt
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-pt
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Perguntas frequentes
-
-- [Geral](#general)
-- [Grupos](#groups)
-- [Criptografia](#encryption)
-- [Multicliente](#multiclient)
-- [Diversos](#miscellaneous)
 
 # Geral {#general}
 

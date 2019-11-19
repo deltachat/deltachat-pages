@@ -1,6 +1,8 @@
 ---
-title: Ndihmë
-layout: default-sq
+title: FAQ
+lang: sq
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -8,14 +10,6 @@ layout: default-sq
 <!-- GENERATED FILE -- DO NOT EDIT -->
 
 
-
-# Pyetje të Bëra Shpesh
-
-- [Të përgjithshme](#general)
-- [Grupe](#groups)
-- [Fshehtëzim](#encryption)
-- [Multi-klient](#multiclient)
-- [Të ndryshme](#miscellaneous)
 
 # Të përgjithshme
 

@@ -1,6 +1,6 @@
 ---
 title: Get Delta Chat
-layout: default-en
+lang: en
 ---
 
 <div class="download-content">

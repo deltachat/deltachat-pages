@@ -1,6 +1,6 @@
 ---
-title: GDPR
-layout: default-nb
+title: GDPR and Privacy
+lang: nb
 ---
 
 

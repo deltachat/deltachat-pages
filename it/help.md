@@ -1,6 +1,8 @@
 ---
-title: Aiuto
-layout: default-it
+title: FAQ
+lang: it
+render_toc: true
+header: Frequently Asked Questions
 ---
 
 
@@ -9,28 +11,20 @@ layout: default-it
 
 
 
-# Domande frequenti (FAQ)
-
-- [Generali](#general)
-- [Gruppi](#groups)
-- [Crittografia](#encryption)
-- [Multi-client](#multiclient)
-- [Varie](#miscellaneous)
-
 # Generali {#general}
 
 ## Cos'è Delta Chat? 
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
-Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
-**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
+Delta Chat è una nuova applicazione che permette di inviare messaggi via email, cifrati, quando possibile con AutoCrypt . 
+**Non è necessario registrarsi ad un servizio, usa direttamente il tuo account email tramite Delta Chat.** 
 
-## How can I find people to chat with? 
+## Come posso trovare persone con cui messaggiare? 
 
-With Delta Chat, you can write to every existing e-mail address - even
-if the recipient is not using the Delta Chat app. No need for the
-recipient to install the same app as yours, as with other messengers.
+Con Delta Chat puoi scrivere a qualsiasi indirizzo email - anche
+se il destinatario non usa Delta Chat. Al contrario di altre app,
+non è necessario che il destinatario utilizzi la tua stessa app.
 
 ## Quali sono i vantaggi di Delta Chat rispetto alle altre app di messaggistica?
 
