@@ -30,7 +30,7 @@ jobs:
         host: "delta.chat"
         port: 22
         local: ${{ steps.prepare.outputs.prid }}
-        remote: "/var/www/html/_site/${{ steps.prepare.outputs.prid }}"
+        remote: "/var/www/html/staging/preview/${{ steps.prepare.outputs.prid }}"
     - name: Upload preview
       if: steps.prepare.outputs.uploadtoserver
       uses: horochx/deploy-via-scp@v1.0.1
@@ -40,13 +40,13 @@ jobs:
         host: "delta.chat"
         port: 22
         local: "_site/*"
-        remote: "/var/www/html/_site/${{ steps.prepare.outputs.prid }}/"
+        remote: "/var/www/html/staging/preview/${{ steps.prepare.outputs.prid }}/"
     - name: "Post links to details"
       if: steps.prepare.outputs.uploadtoserver
       run: |
         # URLs for API connection and uploads
         export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.after }}"
-        export PREVIEW_LINK="https://delta.chat/${{ steps.prepare.outputs.prid }}/"
+        export PREVIEW_LINK="https://staging.delta.chat/preview/${{ steps.prepare.outputs.prid }}/en/"
         # Post AppImage download link to check details
         export STATUS_DATA="{\"state\": \"success\", \
                              \"description\": \"Preview the page here:\", \
