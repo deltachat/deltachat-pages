@@ -1,5 +1,5 @@
 ---
-title: Verify Downloads
+title: Verifikoni Shkarkime
 lang: sq
 ---
 

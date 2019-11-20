@@ -17,3 +17,23 @@ references: Referenzen
 imprint: Impressum
 privacy: Datenschutzerklärung
 language: Sprache
+
+download:
+ recommendation: Für Sie empfohlen
+ other: Andere Platformen
+ source_code: Quellcode
+ install_via_packagemanager: über Package Manager instalieren
+ outdated: veraltet
+ dl_flathub: von Flathub herunterladen
+ dl_microsoft: im Microsoft Store herunterladen
+ dl_mac_appstore: im Apple Mac AppStore herunterladen
+ dl_appstore: im Apple AppStore herunterladen
+ beta_on: Beta auf
+ dl_fdroid: von F-Droid herunterladen
+ beta_gplay: Beta testing on Google Play
+ dl_amazon:
+  small: Hols dir im
+  title: Amazon Appstore
+ dl_apk_text:
+  before: Sie koennen DeltaChat auch als
+  after: (experimentell) herunterladen

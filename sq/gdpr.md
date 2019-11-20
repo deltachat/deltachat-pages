@@ -1,5 +1,5 @@
 ---
-title: GDPR and Privacy
+title: GDPR dhe Privatësi
 lang: sq
 ---
 
