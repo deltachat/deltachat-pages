@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Jepni ndihmesë
 lang: sq
 ---
 

@@ -39,6 +39,10 @@
     <h1>{{page.header}}</h1>
 {% endif %}
 
+{% if page.downloads == true %}
+    {% include download-boxes.html %}
+{% endif %}
+
 {% if page.render_toc == true %}
     <details>
     <summary>
