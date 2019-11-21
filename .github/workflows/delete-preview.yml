@@ -31,6 +31,6 @@ jobs:
         SERVER_PORT: 22
         FOLDER: ${{ steps.getid.outputs.prid }}
         SERVER_IP: delta.chat
-        SERVER_DESTINATION: /var/www/html/staging/preview/
+        SERVER_DESTINATION: /var/www/html/staging/
         ARGS: --delete -vhr
 
