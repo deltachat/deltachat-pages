@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e # fail on error
 # this script provides some tool needed to translate the homepage.
 
 # before you can use this script the first time, you have to initialize Transifex in this folder:
@@ -18,13 +18,16 @@
 # https://docs.transifex.com/client/
 
 
-sfiles=(blog contribute download gdpr help imprint index references verify_downloads)
+sfiles=(blog contribute download gdpr help imprint index references verify-downloads)
 tlangs=(ca de es fr it nb_NO pl pt ru sq uk)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
-	rm -r translations
-	tx pull -a   # -a = fetch all translationss, -s = fetches source
+	find ../_data/lang/ -type f -not -name 'en.*' -delete
+	rm -r translations || true
+	mkdir translations
+	ln -s -T ../../_data/lang translations/delta-chat-pages.yml
+	tx pull -a --mode=sourceastranslation  # -a = fetch all translationss, -s = fetches source
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
 			pofile="../${tlang:0:2}/${sfile}.po"
@@ -35,6 +38,7 @@ pull_po_translations_from_tx() {
 
 
 push_po_sources_to_tx() {
+	ln -s -T ../../_data/lang translations/delta-chat-pages.yml || true
 	tx push -s
 }
 

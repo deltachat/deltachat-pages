@@ -1,10 +1,10 @@
-{% assign tx = site.data.lang[page.lang] %}
+{% assign tx = site.data.lang[page.lang][page.lang] %}
 
 <div class="download-content">
     <div id="recommendation-section" hidden>
         <h1>{{tx.download.recommendation}}:</h1>
         <div id="recommend"></div>
-        <h1>{{tx.download.recommendation}}:</h1>
+        <h1>{{tx.download.other}}:</h1>
     </div>
     <div id="boxes">
         <div class="box" id="linux">
