@@ -3,21 +3,21 @@
 # Arnaud Pernet, 2018
 # polo lancien <polo.lancien@aliceadsl.fr>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-19 18:41+0200\n"
-"PO-Revision-Date: 2018-04-21 22:06+0000\n"
-"Last-Translator: polo lancien <polo.lancien@aliceadsl.fr>, 2019\n"
-"Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
+"PO-Revision-Date: 2019-11-25 19:16+0000\n"
+"Last-Translator: ButterflyOfFire <butterflyoffire@protonmail.com>\n"
+"Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)"
+"\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: ../en/references.md:5
 msgid ""
@@ -26,6 +26,10 @@ msgid ""
 "lang: en\n"
 "---"
 msgstr ""
+"---\n"
+"title: Références\n"
+"lang: fr\n"
+"---"
 
 #: ../en/references.md:7
 msgid "# References"
@@ -68,8 +72,8 @@ msgid ""
 "## habr.com (Large Russian technology site): децентрализованный мессенджер "
 "поверх электронной почты"
 msgstr ""
-"## habr.com (vaste site de technologie russe): децентрализованный мессенджер"
-" поверх электронной почты"
+"## habr.com (vaste site de technologie russe) : децентрализованный "
+"мессенджер поверх электронной почты"
 
 #: ../en/references.md:24
 msgid "03/2019, <https://habr.com/ru/post/442266/>"
@@ -80,7 +84,7 @@ msgid ""
 "## technolike.com (Technology blog from Cuba): Delta chat, chatea por correo"
 " al más puro estilo WhatsApp"
 msgstr ""
-"## technolike.com (blog technologique de Cuba): Delta chat, chatea por "
+"## technolike.com (blog technologique au Cuba) : Delta chat, chatea por "
 "correo al más puro estilo WhatsApp"
 
 #: ../en/references.md:29
@@ -94,7 +98,7 @@ msgstr ""
 #: ../en/references.md:32
 msgid "## blog.lenzg.net: Using Delta Chat with email sub-addresses"
 msgstr ""
-"## blog.lenzg.net: Utiliser Delta Chat avec des sous-adresses de courriel"
+"## blog.lenzg.net : Utiliser Delta Chat avec des sous-adresses de courriel"
 
 #: ../en/references.md:34
 msgid ""
@@ -109,7 +113,7 @@ msgid ""
 "## iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-"
 "Kryptografie"
 msgstr ""
-"## iX (magazine allemand) présente: Autocrypt automatise la cryptographie "
+"## iX (magazine allemand) présente : Autocrypt automatise la cryptographie "
 "des e-mails"
 
 #: ../en/references.md:40
@@ -130,7 +134,7 @@ msgstr ""
 msgid ""
 "## Linux User (German magazine): Private and Confidential - Privatvergnügen"
 msgstr ""
-"## Linux User (magazine allemand): Privé et confidentiel - plaisir privé"
+"## Linux User (magazine allemand) : Privé et confidentiel - plaisir privé"
 
 #: ../en/references.md:47
 msgid ""
@@ -150,7 +154,7 @@ msgstr ""
 
 #: ../en/references.md:52
 msgid "## Hasecke (German blog): Mit Delta Chat per E-Mail chatten"
-msgstr "## Hasecke (blogue allemand): Chat avec Delta Chat par courriel"
+msgstr "## Hasecke (blogue allemand) : Chat avec Delta Chat par courriel"
 
 #: ../en/references.md:54
 msgid ""
@@ -168,8 +172,8 @@ msgid ""
 "## Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-"
 "Himmel?!"
 msgstr ""
-"## Cloudette (blogue allemand): Delta Chat - Une nouvelle étoile dans le "
-"ciel des messageries?!"
+"## Cloudette (blogue allemand) : Delta Chat - Une nouvelle étoile dans le "
+"ciel des messageries ?!"
 
 #: ../en/references.md:61
 msgid ""
@@ -194,7 +198,7 @@ msgid ""
 "## Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, "
 "WhatsApp & Co. (3)"
 msgstr ""
-"## Wissensarbeiter Jochen Plikat (blog allemand): Zur Zukunft von SMS, "
+"## Wissensarbeiter Jochen Plikat (blog allemand) : Zur Zukunft von SMS, "
 "WhatsApp & Co. (3)"
 
 #: ../en/references.md:68
@@ -208,6 +212,8 @@ msgid ""
 "30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-"
 "whatsapp-co-3/> "
 msgstr ""
+"30.04.2019, <https://jochen-plikat.com/2019/04/30/"
+"zur-zukunft-von-sms-whatsapp-co-3/> "
 
 #: ../en/references.md:73
 msgid ""
@@ -224,3 +230,5 @@ msgid ""
 "03.06.2019, <https://mobilsicher.de/kategorie/whatsapp-und-messenger"
 "/messenger-app-delta-chat-kurz-vorgestellt/> "
 msgstr ""
+"03.06.2019, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/"
+"messenger-app-delta-chat-kurz-vorgestellt/> "
