@@ -1,18 +1,19 @@
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-19 18:41+0200\n"
-"PO-Revision-Date: 2019-11-13 17:09+0000\n"
-"Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
+"PO-Revision-Date: 2019-11-25 09:32+0000\n"
+"Last-Translator: ButterflyOfFire <butterflyoffire@protonmail.com>\n"
+"Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)"
+"\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: ../en/verify_downloads.md:5
 msgid ""
@@ -21,28 +22,38 @@ msgid ""
 "lang: en\n"
 "---"
 msgstr ""
+"---\n"
+"title: Vérification des téléchargements\n"
+"lang: fr\n"
+"---"
 
 #: ../en/verify_downloads.md:7
 msgid "# Verify Downloads"
-msgstr ""
+msgstr "# Vérifier les téléchargements"
 
 #: ../en/verify_downloads.md:9
 msgid ""
 "For Android, you can verify the signing certificate on the APK matches one "
 "of the following SHA256 fingerprints:  "
 msgstr ""
+"Pour Android, vous pouvez vérifier si le certificat de signature sur l’APK "
+"correspond à l’une des empreintes SHA256 empreintes suivantes :  "
 
 #: ../en/verify_downloads.md:12
 msgid ""
 "* For F-Droid downloads:  \n"
 "  `{% include fingerprint-f-droid %}`"
 msgstr ""
+"* Pour les téléchargements depuis F-Droid :  \n"
+"  `{% include fingerprint-f-droid %}`"
 
 #: ../en/verify_downloads.md:15
 msgid ""
 "* Other APK downloads:  \n"
 "  `{% include fingerprint-local %}`"
 msgstr ""
+"* Autres téléchargements des APK :  \n"
+"  `{% include fingerprint-local %}`"
 
 #: ../en/verify_downloads.md:18
 msgid ""
