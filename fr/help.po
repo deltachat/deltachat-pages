@@ -3,21 +3,21 @@
 # Eric Lavarde <ewl+transifex@lavar.de>, 2018
 # polo lancien <polo.lancien@aliceadsl.fr>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-19 18:41+0200\n"
-"PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: polo lancien <polo.lancien@aliceadsl.fr>, 2019\n"
-"Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
+"PO-Revision-Date: 2019-11-25 19:16+0000\n"
+"Last-Translator: ButterflyOfFire <butterflyoffire@protonmail.com>\n"
+"Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)"
+"\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: ../en/help.md:7
 msgid ""
@@ -28,6 +28,12 @@ msgid ""
 "header: Frequently Asked Questions\n"
 "---"
 msgstr ""
+"---\n"
+"title: FAQ\n"
+"lang: fr\n"
+"render_toc: true\n"
+"header: Foire aux questions\n"
+"---"
 
 #: ../en/help.md:9
 msgid "# General"
@@ -35,7 +41,7 @@ msgstr "# Général {#general}"
 
 #: ../en/help.md:11
 msgid "## What is Delta Chat? "
-msgstr "## C'est quoi Delta Chat? "
+msgstr "## C’est quoi Delta Chat ? "
 
 #: ../en/help.md:13
 msgid ""
@@ -53,7 +59,7 @@ msgstr ""
 
 #: ../en/help.md:18
 msgid "## How can I find people to chat with? "
-msgstr ""
+msgstr "## Comment puis-je trouver des gens avec qui discuter ? "
 
 #: ../en/help.md:22
 msgid ""
@@ -65,8 +71,8 @@ msgstr ""
 #: ../en/help.md:24
 msgid "## What are the advantages of Delta Chat compared to other messengers?"
 msgstr ""
-"## Quels sont les avantages de Delta Chat par rapport aux autres "
-"messageries?"
+"## Quels sont les avantages de Delta Chat par rapport aux autres messageries "
+"?"
 
 #: ../en/help.md:37
 msgid ""
@@ -86,11 +92,11 @@ msgstr ""
 
 #: ../en/help.md:39
 msgid "## Which messages do appear in Delta Chat?"
-msgstr "## Quels messages apparaissent dans Delta Chat?"
+msgstr "## Quels messages apparaissent dans Delta Chat ?"
 
 #: ../en/help.md:41
 msgid "Delta Chat automatically shows:"
-msgstr ""
+msgstr "Delta Chat affiche automatiquement :"
 
 #: ../en/help.md:45
 msgid ""
@@ -110,7 +116,7 @@ msgstr ""
 
 #: ../en/help.md:49
 msgid "## What about spam?"
-msgstr ""
+msgstr "## Qu’en est-il du spam ?"
 
 #: ../en/help.md:53
 msgid ""
@@ -122,8 +128,8 @@ msgstr ""
 #: ../en/help.md:55
 msgid "## Does Delta Chat support images, videos and other attachments?"
 msgstr ""
-"## Delta Chat prend-il en charge les images, vidéos et autres pièces "
-"jointes?"
+"## Delta Chat prend-il en charge les images, vidéos et autres pièces jointes "
+"?"
 
 #: ../en/help.md:57
 msgid ""
@@ -134,7 +140,7 @@ msgstr ""
 
 #: ../en/help.md:59
 msgid "## Does Delta Chat support HTML e-mails?"
-msgstr ""
+msgstr "## Delta Chat prend-il en charge les courriels en HTML ?"
 
 #: ../en/help.md:61
 msgid ""
@@ -148,7 +154,7 @@ msgstr "# Groupes {#groups}"
 
 #: ../en/help.md:65
 msgid "## Creation of a group"
-msgstr ""
+msgstr "## Création d’un groupe"
 
 #: ../en/help.md:69
 msgid ""
@@ -162,7 +168,7 @@ msgstr ""
 
 #: ../en/help.md:71
 msgid "## Add members to a group"
-msgstr ""
+msgstr "## Ajouter de membres à un groupe"
 
 #: ../en/help.md:74
 msgid ""
@@ -228,7 +234,7 @@ msgstr ""
 
 #: ../en/help.md:105
 msgid "## What do I have to do to activate the end-to-end-encryption?"
-msgstr "## Que dois-je faire pour activer le chiffrement bout en bout?"
+msgstr "## Que dois-je faire pour activer le chiffrement bout en bout ?"
 
 #: ../en/help.md:107
 msgid "- Nothing."
@@ -255,8 +261,8 @@ msgid ""
 "## If end-to-end-encryption is not available, is the connection not "
 "encrypted at all?"
 msgstr ""
-"## Si le chiffrement bout en bout n'est pas disponible, la connexion n'est "
-"pas chiffrée?"
+"## Si le chiffrement bout en bout n’est pas disponible, la connexion n’est-"
+"elle pas chiffrée ?"
 
 #: ../en/help.md:121
 msgid ""
@@ -265,7 +271,7 @@ msgstr ""
 
 #: ../en/help.md:124
 msgid "## How can I check the encryption?"
-msgstr "## Comment puis-je vérifier le chiffrement?"
+msgstr "## Comment puis-je vérifier le chiffrement ?"
 
 #: ../en/help.md:126
 msgid ""
@@ -283,7 +289,7 @@ msgstr ""
 
 #: ../en/help.md:131
 msgid "## How can I verify the sender?"
-msgstr "## Comment puis-je vérifier l'expéditeur?"
+msgstr "## Comment puis-je vérifier l’expéditeur ?"
 
 #: ../en/help.md:133
 msgid "The user's profile shows some additional info:"
@@ -310,7 +316,7 @@ msgstr ""
 
 #: ../en/help.md:146
 msgid "## Which standards are used for end-to-end-encryption?"
-msgstr "## Quels standards sont utilisés pour le chiffrement bout en bout?"
+msgstr "## Quels standards sont utilisés pour le chiffrement bout en bout ?"
 
 #: ../en/help.md:148
 msgid ""
@@ -348,7 +354,7 @@ msgstr ""
 
 #: ../en/help.md:158
 msgid "## I can't import my existing PGP key into Delta Chat."
-msgstr ""
+msgstr "## Je ne peux pas importer ma clé PGP existante dans Delta Chat."
 
 #: ../en/help.md:164
 msgid ""
@@ -382,7 +388,7 @@ msgstr "# Multi-client {#multiclient}"
 
 #: ../en/help.md:179
 msgid "## Can I use Delta Chat on multiple devices at the same time?"
-msgstr ""
+msgstr "## Puis-je utiliser Delta Chat sur plusieurs appareils en même temps ?"
 
 #: ../en/help.md:182
 msgid ""
@@ -429,8 +435,9 @@ msgstr ""
 #: ../en/help.md:201
 msgid "## I'm interested in the technical details. Can you tell me more?"
 msgstr ""
-"## Je suis intéressé par les détails techniques. Pouvez-vous m'en dire plus?"
+"## Je suis intéressé par les détails techniques. Pouvez-vous m’en dire plus ?"
 
 #: ../en/help.md:202
 msgid "- See [Standards used in Delta Chat]({% include standards-url %})."
 msgstr ""
+"- Voir les [normes utilisées dans Delta Chat]({% include standards-url %})."
