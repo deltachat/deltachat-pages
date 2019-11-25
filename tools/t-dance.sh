@@ -4,7 +4,7 @@
 
 # before you can use this script the first time, you have to initialize Transifex in this folder:
 # $ tx init --user=api --pass=<your api token>
-# you may also need `txt2po`, get it by `sudo apt install translate-toolkik`
+# you may also need `txt2po`, get it by `sudo apt install translate-toolkit`
 
 # after that, call `./t-dance create-po-sources` to rebuild all non-english markdown files
 # from the translations provided by transifex users
