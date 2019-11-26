@@ -18,7 +18,7 @@
 # https://docs.transifex.com/client/
 
 
-sfiles=(blog contribute download gdpr help imprint index references verify_downloads)
+sfiles=(blog contribute download gdpr help imprint index references verify-downloads)
 tlangs=(ca de es fr it nb_NO pl pt ru sq uk)  # do not add `en` to this list
 
 
@@ -80,12 +80,12 @@ reset_markdown_files() {
 
 # normal usage
 if [ $1 == "pull" ]; then
-	pull_po_translations_from_tx
+	#pull_po_translations_from_tx
 	create_markdown_files
 	create_html_files
 elif [ $1 == "push" ]; then
 	create_po_sources
-	push_po_sources_to_tx
+	#push_po_sources_to_tx
 # debug usage
 elif [ $1 == "create-po-sources" ]; then
 	create_po_sources

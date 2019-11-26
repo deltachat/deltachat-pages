@@ -9,6 +9,6 @@ lang: fr
 
 
 
-# Blog
+# Blogue
 
 {% include blog.html %}

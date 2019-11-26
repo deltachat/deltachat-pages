@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Contribuer
 lang: fr
 ---
 
@@ -13,7 +13,7 @@ lang: fr
 
 - [forum d'assistance Delta Chat](https://support.delta.chat) pour discuter de fonctionnalités étendues et obtenir de l'assistance.
 
-- [#deltachat sur freenode]({% include webirc-url %}) pour des communications au jour le jour
+- [#deltachat sur freenode]({% include webirc-url %}) pour des communications au jour le jour.
 
 - [liste de distribution Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pour discussions communautaires et nouvelles.
 
@@ -21,23 +21,23 @@ lang: fr
 
 # Traductions et rapports de bugs 
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traductions sur Transifex](https://www.transifex.com/delta-chat/public/)
+- [Tickets Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Tickets Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Tickets Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Tickets C Core Library + Python Bindings](https://github.com/deltachat/deltachat-core/issues)
+- [Tickets Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Nous sommes en permanence à la recherche de développeurs qui voudraient nous aider et sont familiers avec C, Rust, Java, Swift, Javascript ou Python sur Android, iOS, Windows, Linux ou Mac.
 
 
 # Donner de l'argent ou des appareils
 
-Si vous voulez soutenir DeltaChat avec un don d'argent:
+Si vous voulez soutenir DeltaChat avec un don en argent :
 
-- IBAN DE86100777770428658900, Propriétaire du compte (Merci de toujours le préciser): Björn Petersen, BIC NORSDE51XXX
-- PayPal ou carte de crédit: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- IBAN DE86100777770428658900, Propriétaire du compte (Merci de toujours le préciser) : Björn Petersen, BIC NORSDE51XXX
+- PayPal ou carte de crédit : [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Envoyer des bitcoins à [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-Nous avons besoin d'**appareils** à des fins de test. Avez-vous un smartphone Android ou un iPhone inutilisé?
-[Nous](../fr/imprint) serions heureux de l’avoir!
+Nous avons besoin d’**appareils** à des fins de test. Avez-vous un smartphone Android ou un iPhone inutilisé ?
+[Nous](../fr/imprint) serions heureux de l’avoir !

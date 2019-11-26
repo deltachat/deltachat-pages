@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Mitmachen
 lang: de
 ---
 
@@ -24,7 +24,7 @@ Diskussion über Features und um Unterstützung zu erhalten.
 
 # Übersetzungen und Fehlerberichte
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Übersetzungen auf Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)

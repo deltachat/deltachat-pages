@@ -1,5 +1,5 @@
 ---
-title: GDPR and Privacy
+title: RGPD et vie privée
 lang: fr
 ---
 
@@ -9,14 +9,14 @@ lang: fr
 
 
 
-# Note on privacy and GDPR 
+# Remarque sur la vie privée et le RGPD 
 
 The General Data Protection Regulation (GDPR) is often regarded
 as the furthest reaching legislation for privacy protection of users. 
 On this page we detail how the Delta Chat app easily complies 
 with GDPR requirements. 
 
-#  How Delta Chat complies to the GDPR 
+# Comment Delta Chat est conforme au RGPD 
 
 - Implements the **Privacy by Design** requirement of the GDPR, through
 
@@ -34,7 +34,7 @@ with GDPR requirements.
 
 
 
-# Comment les contrôleurs de données (organisations) tirent-ils profit de l'utilisation de Delta Chat pour se conformer au RGPD ?
+# Comment les contrôleurs de données (organisations) tirent-ils profit de l’utilisation de Delta Chat pour se conformer au RGPD ?
 
 - Ne crée **aucune exigence d'information supplémentaire** pour le responsable du traitement à l'égard des personnes concernées directement ou indirectement concernant toute collecte de données du carnet d'adresses, article 13, 14 du RGPD.
 

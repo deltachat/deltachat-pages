@@ -13,7 +13,7 @@ downloads: true
 # Links
 
 * [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
-* [Verify Downloads](verify_downloads.html)
+* [Verify Downloads](verify-downloads)
 
 ## Changelogs
 

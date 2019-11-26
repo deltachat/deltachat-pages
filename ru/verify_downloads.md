@@ -21,4 +21,3 @@ lang: ru
 
 Для отображения отпечатков SHA256 сертификата подписи APK можно использовать, например, 
 `keytool -list -printcert -jarfile <APK-file>`
-
