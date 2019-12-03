@@ -59,6 +59,47 @@ Other messages do not appear automatically, and are to be found in the main menu
 
 - Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted to plain text in the app. Outgoing e-mails always use plain text.
 
+## Why do I have to enter my E-Mail password into Delta Chat? Is this secure?
+
+As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
+program needs the password so you can use it to send mails. Of course, the
+password is stored only on your device. The password is only transmitted to
+your E-Mail provider (when you login), which has access to your mails anyway. 
+
+If you use an E-Mail provider with OAuth2 support like gmail.com or yandex.ru,
+there is no need to store your password on the device. In this case, only an
+access token is used.
+
+As Delta Chat is Open Source, you can check the [Source
+Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+if you want to verify that your credentials are handled securely. We are happy
+about feedback which makes the app more secure for all of our users.
+
+## Which Android permissions does Delta Chat need?
+
+- Camera *(can be disallowed)*
+  - take pictures and videos: for sending Photos
+- Contacts *(can be disallowed)*
+  - read your contacts: to discover contacts to chat with
+- Location *(can be disallowed)*
+  - access approximate location (network location sources): for the location streaming feature
+  - access precise location (GPS and network location sources): for the location streaming feature
+- Microphone *(can be disallowed)*
+  - record audio: for audio messages
+- Storage *(can be disallowed)*
+  - modify or delete the contents of your SD card: to download message attachments
+  - read the contents of your SD card: to share files with your contacts
+- Other app capabilities
+  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
+  - run at startup: so you don't have to start Delta Chat manually
+  - control vibration: for notifications
+  - view network connections: to connect to your E-Mail provider
+  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
+  - have full network access: to connect to your E-Mail provider
+  - view Wi-Fi connections: to connect to your E-Mail provider
+  - set wallpaper
+  - ask to ignore battery optimisations: for users who want to receive messages all the time
+
 # Groups
 
 ## Creation of a group
