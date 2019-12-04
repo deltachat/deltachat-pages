@@ -97,7 +97,6 @@ about feedback which makes the app more secure for all of our users.
   - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
   - have full network access: to connect to your E-Mail provider
   - view Wi-Fi connections: to connect to your E-Mail provider
-  - set wallpaper
   - ask to ignore battery optimisations: for users who want to receive messages all the time
 
 # Groups
