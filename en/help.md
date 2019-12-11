@@ -5,22 +5,22 @@ render_toc: true
 header: Frequently Asked Questions
 ---
 
-# General
+## General
 
-## What is Delta Chat? 
+### What is Delta Chat? 
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
 Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
 **You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
 
-## How can I find people to chat with? 
+### How can I find people to chat with? 
 
 With Delta Chat, you can write to every existing e-mail address - even
 if the recipient is not using the Delta Chat app. No need for the
 recipient to install the same app as yours, as with other messengers.
 
-## What are the advantages of Delta Chat compared to other messengers?
+### What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data is not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
@@ -35,7 +35,7 @@ recipient to install the same app as yours, as with other messengers.
 - _Trustworthy_ - can even be used for business messages.
 - _Copyleft_ and _Standards_ based libre software.
 
-## Which messages do appear in Delta Chat?
+### Which messages do appear in Delta Chat?
 
 Delta Chat automatically shows:
 
@@ -45,21 +45,21 @@ Delta Chat automatically shows:
 
 Other messages do not appear automatically, and are to be found in the main menu at **Contact requests**. If desired a chat can be started from there.
 
-## What about spam?
+### What about spam?
 
 - Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
 - As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
 - However, if needed, you can **block** any contact.
 
-## Does Delta Chat support images, videos and other attachments?
+### Does Delta Chat support images, videos and other attachments?
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
 
-## Does Delta Chat support HTML e-mails?
+### Does Delta Chat support HTML e-mails?
 
 - Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted to plain text in the app. Outgoing e-mails always use plain text.
 
-## Why do I have to enter my E-Mail password into Delta Chat? Is this secure?
+### Why do I have to enter my E-Mail password into Delta Chat? Is this secure?
 
 As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
 program needs the password so you can use it to send mails. Of course, the
@@ -75,7 +75,7 @@ Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_par
 if you want to verify that your credentials are handled securely. We are happy
 about feedback which makes the app more secure for all of our users.
 
-## Which Android permissions does Delta Chat need?
+### Which Android permissions does Delta Chat need?
 
 - Camera *(can be disallowed)*
   - take pictures and videos: for sending Photos
@@ -99,20 +99,20 @@ about feedback which makes the app more secure for all of our users.
   - view Wi-Fi connections: to connect to your E-Mail provider
   - ask to ignore battery optimisations: for users who want to receive messages all the time
 
-# Groups
+## Groups
 
-## Creation of a group
+### Creation of a group
 
 - Select **Add group** from the "Sandwich menu" in the upper right corner of the chat overview.
 - On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
-## Add members to a group
+### Add members to a group
 
 - Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
 - To add or delete members, click on the group name in the chat.
 
-## What is a verified group?
+### What is a verified group?
 
 - A "verified group" is an experimental feature (as of January 2019). 
   By adding one another through QR-code scans a group of "verified" members can talk 
@@ -121,12 +121,12 @@ about feedback which makes the app more secure for all of our users.
   implementation changes makes sense. Recent discussions can be found here: 
   https://countermitm.readthedocs.io/en/latest/new.html
 
-## I have deleted myself by accident.
+### I have deleted myself by accident.
 
 - As you're no longer a group member, you cannot add yourself again. 
   However, no problem, just ask any other group member in a normal chat to re-add you.
 
-## I do not want to receive the messages of a group any longer.
+### I do not want to receive the messages of a group any longer.
 
 - Either delete yourself from the member list or delete the whole chat. 
   If you want to join the group again later on, ask another group member to add you again.
@@ -134,14 +134,14 @@ about feedback which makes the app more secure for all of our users.
 - As an alternative, you can also "Mute" a group - doing so means you get all messages and 
   can still write, but are no longer notified of any new messages.
 
-# Encryption {#encryption}
+## Encryption {#encryption}
 
-## Does Delta Chat support end-to-end-encryption?
+### Does Delta Chat support end-to-end-encryption?
 
 - Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
   thus E2E-encrypt messages with other Autocrypt-capable apps. 
 
-## What do I have to do to activate the end-to-end-encryption?
+### What do I have to do to activate the end-to-end-encryption?
 
 - Nothing.
 
@@ -155,19 +155,20 @@ about feedback which makes the app more secure for all of our users.
 - If you want to _turn off_ the end-to-end-encryption, 
   use the corresponding setting in "Settings / Advanced settings".
 
-## If end-to-end-encryption is not available, is the connection not encrypted at all?
+### If end-to-end-encryption is not available, is the connection not encrypted at all?
 
-- No. With most mail servers will then use _transport encryption_ (TLS).
+- No. With most mail servers, Delta will then use _transport encryption_
+  ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
 
 
-## How can I check the encryption?
+### How can I check the encryption?
 
 - If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
 
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
 
-## How can I verify the sender?
+### How can I verify the sender?
 
 The user's profile shows some additional info:
 
@@ -182,11 +183,50 @@ The user's profile shows some additional info:
 - For transport encryption, this state is just shown there
 
 
-## Which standards are used for end-to-end-encryption?
+### Which standards are used for end-to-end-encryption?
 
 - OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
-## Can I re-use my existing private key?
+### Why don't you use pEp (pretty easy privacy)?
+
+- For a comparison of Autocrypt and pEp, see the [Autocrypt
+  FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep)
+- pEp generates one key per device and encrypts to multiple keys for one
+  recipient. Autocrypt only uses one key per e-mail address, to reduce security
+  concerns and implementation complexity.
+- Autocrypt specifies how MUAs share the encryption setup between different
+  mail apps. This is implemented and reported to work between different
+  Autocrypt-enabled MUAs. pEp does not yet offer sharing of the encryption setup
+  between different PEP-integrating MUAs but is working on a synchronization
+  feature.
+- Autocrypt wants to avoid unreadable mails and will in some situations rather
+  recommend cleartext mail even if an encryption key was seen in earlier
+  messages. pEp encrypts to a recipient as soon as there are known encryption
+  keys.
+
+### Does Delta Chat support Perfect Forward Secrecy?
+
+- No, OpenPGP doesn't support Perfect Forward Secrecy. Perfect Forward Secrecy
+  works session-oriented, but unfortunately E-Mail is asynchronous by nature. 
+- This means that if the private key is leaked, all past encrypted messages are
+  compromised as well.
+- We are thinking about other ways to protect past messages, e.g. changing keys
+  regularly and often.
+
+### How does Delta Chat protect my Metadata?
+
+- As Delta Chat is a decentralized messenger, the metadata of Delta Chat users
+  are not stored on a central server. However, they are stored on the mail
+  servers of the sender and the recipient of a message.
+- To additionally protect end-to-end-encrypted messages, most of the [headers
+  are end-to-end-encrypted](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/)
+  as well. Only the headers which are necessary for transmitting the E-Mail from
+  sender to receiver remain unencrypted.
+- This mostly comes into effect in group chats; the mail server of the receiver
+  of an encrypted message does not know who else received the message; it only
+  knows the sender and the recipient.
+
+### Can I re-use my existing private key?
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
@@ -194,7 +234,7 @@ The user's profile shows some additional info:
 
 If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
 
-## I can't import my existing PGP key into Delta Chat.
+### I can't import my existing PGP key into Delta Chat.
 
 In general, Delta Chat should support "common" private key formats, however, it
 is unlikely that we will support 100% of all private keys of any sources. This
@@ -213,9 +253,9 @@ it [via the command
 line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 For other programs, you can find a solution online.
 
-# Multi-client {#multiclient}
+## Multi-client {#multiclient}
 
-## Can I use Delta Chat on multiple devices at the same time?
+### Can I use Delta Chat on multiple devices at the same time?
 
 If you want to use the **same account** on different (Autocrypt
 capable) devices, you have to sync their encryption capabilities: 
@@ -229,14 +269,14 @@ capable) devices, you have to sync their encryption capabilities:
 - You are now synchronized, and can use both devices for
   sending and receiving E2E-encrypted messages with your communication partners. 
 
-# Miscellaneous
+## Miscellaneous
 
-## Does Delta Chat work with _my_ e-mail-provider?
+### Does Delta Chat work with _my_ e-mail-provider?
 
 - With a rather good chance: Yes :)  
   However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
 
 
-## I'm interested in the technical details. Can you tell me more?
+### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
