@@ -187,18 +187,19 @@ The user's profile shows some additional info:
 
 - OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
-### What is the difference between verified 1:1 chats and verified groups?
+### What is the difference between verified groups and 1:1 chats with verified contacts?
 
-- Verified 1:1 chats and verified groups are not the same, even if there are
-  only 2 people in the verified group. One difference is that you could easily
-  add more people to the group, but there are other implications as well.
+- 1:1 chats with a verified contact and verified groups are not the same, even
+  if there are only 2 people in the verified group. One difference is that you
+  could easily add more people to the group, but there are other implications as
+  well.
 - Verified groups are invariably secured. Any breakage (cleartext or wrongly
   signed messages etc.) will be flagged and such messages will not be shown in
   this chat. You can trust all messages in this verified-checkmark chat to have
   not been read/altered by middle parties.
 - 1:1 chats are opportunistic, it is meant to allow people to communicate no
   matter if they change e-mail clients, devices, setups etc. That's why there
-  is no verification checkmark.
+  is no verification checkmark, even if you have verified the contact.
 
 ### Why don't you use pEp (pretty easy privacy)?
 
