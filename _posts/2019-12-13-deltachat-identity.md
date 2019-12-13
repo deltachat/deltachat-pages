@@ -1,6 +1,6 @@
 ---
 title: Login to our Forum With DeltaChat Identity - Making Authentication Easy With a Simple QR Code
-author: <a href="https://lefherz.net" target="_blank">compl4xx</a>
+author: compl4xx
 ---
 
 
