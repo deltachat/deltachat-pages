@@ -88,8 +88,8 @@ The biggest difference between Delta Chat and other messengers has always been
 that we can use the advantages of the E-Mail network.
 
 For now we only set it up with our Discourse Forum - setting it up for other
-[Discourse](https://www.discourse.org/) instances is easy. *(If you want to set
-it up for your forum, write me a message:
+[Discourse](https://www.discourse.org/) instances is easy though. *(If you want
+to set it up for your forum, write me a message:
 [compl4xx@testrun.org](mailto:compl4xx@testrun.org).)* But in theory, it could
 be used for any web service - ownCloud, Mastodon, or other decentralized
 services are well suited for this.
