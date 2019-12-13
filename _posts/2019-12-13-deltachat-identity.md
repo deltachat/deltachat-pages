@@ -87,6 +87,13 @@ directly, which is used by almost every internet service for identification.
 The biggest difference between Delta Chat and other messengers has always been
 that we can use the advantages of the E-Mail network.
 
+For now we only set it up with our Discourse Forum - setting it up for other
+[Discourse](https://www.discourse.org/) instances is easy. *(If you want to set
+it up for your forum, write me a message:
+[compl4xx@testrun.org](mailto:compl4xx@testrun.org).)* But in theory, it could
+be used for any web service - ownCloud, Mastodon, or other decentralized
+services are well suited for this.
+
 But the most important advantage is in terms of **privacy**. You don't have to
 tell Facebook or GitHub (Microsoft) that you are using our Forum. You don't
 have to give any application access to your Facebook or GitHub account. This is
