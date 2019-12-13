@@ -1,6 +1,6 @@
 ---
 title: Login to our Forum With DeltaChat Identity - Making Authentication Easy With a Simple QR Code
-author: [compl4xx](https://lefherz.net)
+author: <a href="https://lefherz.net" target="_blank">compl4xx</a>
 ---
 
 
@@ -23,8 +23,8 @@ password, wait for a verification mail - it's just too much of an effort.
 If you have a [GitHub](https://github.com/deltachat/) account, like many Open
 Source developers do, you can click on "Login with GitHub". It's the same as
 "Login with Facebook, Twitter, etc." on other platforms, which we don't offer
-for privacy reasons. But now you can also choose "Login with DeltaChat
-Identity".
+for privacy reasons. But now you can also choose **"Login with DeltaChat
+Identity"**.
 
 ![An account creation form - on the right, it says "With DeltaChat
 Identity".](../assets/blog/delta-chat-identity-forum-signup.png)
@@ -34,7 +34,7 @@ target="_blank">support.delta.chat</a>, click on "Sign Up" to create an
 account.*
 
 Then you get redirected to login.testrun.org, our authentication server. It
-shows you a QR code, which you can scan with your Delta Chat Android app:
+shows you a QR code. **Scan it with your Delta Chat Android app**:
 
 ![A website showing a QR code to login to the
 forum.](../assets/blog/delta-chat-identity-qr-code-scan.png)
@@ -42,10 +42,10 @@ forum.](../assets/blog/delta-chat-identity-qr-code-scan.png)
 *Scan the QR code with your Delta Chat Android app to authenticate yourself.*
 
 Now you get prompted on your phone, whether you want to join a group - that's
-normal for now. You can just tap on "OK". In the background, it exchanges some
-mails to verify you - a bit like a verification link in an E-Mail, but fully
-automated. Afterwards you have two more chats in your chat list - you can leave
-them, ignore them, for now it's only necessary that they are created.
+normal for now. You can just **tap on "OK"**. In the background, it exchanges
+some mails to verify you - a bit like a verification link in an E-Mail, but
+fully automated. Afterwards you have two more chats in your chat list - you can
+leave them, ignore them, for now it's only necessary that they are created.
 
 ![Different Screenshots, showing what's happening on the Android app in the
 meantime.](../assets/blog/delta-chat-identity-android-flow.jpg)
@@ -54,8 +54,8 @@ meantime.](../assets/blog/delta-chat-identity-android-flow.jpg)
 optimized.*
 
 It takes a few seconds, then you get redirected to the forum, where you can
-choose a username. It suggests the username you use for Delta Chat, but if you
-want to pick a different one, go for it:
+**choose a username**. It suggests the username you use for Delta Chat, but if
+you want to pick a different one, go for it:
 
 ![An account creation form with E-Mail address and username, filled
 out.](../assets/blog/delta-chat-identity-create-account.png)
@@ -63,8 +63,8 @@ out.](../assets/blog/delta-chat-identity-create-account.png)
 *It takes only one click to create your account, the username is the same as in
 Delta Chat.*
 
-That's it! Now you can use the forum as you want. Ask questions, help others,
-discuss feature requests.
+**That's it!** Now you can use the forum as you want. Ask questions, help
+others, discuss feature requests.
 
 ![The support forum; there are two unread
 topics.](../assets/blog/delta-chat-identity-support-forum.png)
