@@ -23,7 +23,8 @@ recipient to install the same app as yours, as with other messengers.
 ### What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
+- Your data is not saved on a central server unless all users are using
+  the same e-mail servers
 - You do not distribute your address book to anyone.
 - _Fast_ by the use of Push-IMAP.
 - _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
@@ -112,14 +113,23 @@ about feedback which makes the app more secure for all of our users.
 - Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
 - To add or delete members, click on the group name in the chat.
 
-### What is a verified group?
+### What is a verified group? Why is it experimental? 
 
-- A "verified group" is an experimental feature (as of January 2019). 
-  By adding one another through QR-code scans a group of "verified" members can talk 
-  with each other. It enforces e2e group encryption that is safe against provider or 
-  network attacks. However, some user-tests and feedback suggests that UX and 
-  implementation changes makes sense. Recent discussions can be found here: 
-  https://countermitm.readthedocs.io/en/latest/new.html
+- A verified group is a chat that gurantees safety against an active
+  attacker.  All Messages in a verified chat view are e2e-encrypted, and
+  members can join by scanning a "QR invite code".  All members are thus 
+  connected with each other through a chain of invites, which guarantee 
+  cryptographic consistency against active network or provider attacks. 
+  See https://countermitm.readthedocs.io/en/latest/new.html
+  for the R&D behind this feature. 
+
+- As of Dec 2019, a "verified group" remains an experimental feature.
+  It is continously improved and many bugs have been fixed since the
+  original introduction in 2018.  However, there remain cases, especially 
+  with large groups where inconsistencies can occure, or messages become 
+  unreadable.  Early 2020 a security review is upcoming, and several new
+  developments around qr-join protocols are taking place so chances
+  are we remove the "experimental" label not too far in the future. 
 
 ### I have deleted myself by accident.
 
@@ -157,35 +167,45 @@ about feedback which makes the app more secure for all of our users.
 
 ### If end-to-end-encryption is not available, is the connection not encrypted at all?
 
-- No. With most mail servers, Delta will then use _transport encryption_
+- With most mail servers, Delta Chat establishes _transport encryption_
   ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
+  This only secures the connection between your device and your e-mail
+  server. Whereas e2e-encryption provides safety between 
+  your device and a friend's device. 
 
-
-### How can I check the encryption?
-
-- If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
-
-- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
-
-
-### How can I verify the sender?
+### How can I verify cryptographic status with a sender? 
 
 The user's profile shows some additional info:
 
 - Tap "QR Invite code" on Android and then use the "Scan QR code"
   button on another device to scan this code. If both devices are online,
   they will introduce a chat channel with each-other (if it doesn't exist already) 
-  and the encryption keys will also be verified. 
+  and the encryption keys will also be verified.  Both will see a
+  "sender verified" system message in their 1:1 chat. 
 
 - For end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If the same fingerprints appears on your chat partner's device, the connection is safe.
+  If the same fingerprints appears on your chat partner's device, 
+  the connection is safe.
 
 - For transport encryption, this state is just shown there
 
 
+### How can I check the encryption of messages?
+
+- If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
+
+- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
+
+
 ### Which standards are used for end-to-end-encryption?
 
-- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
+- [Autocrypt](https://autocrypt.org) is used for establishing
+  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
+  Autocrypt uses a limited subset of OpenPGP functionality. Moreover, 
+  Delta Chat implements the "countermitm" protocols to achieve
+  protection against active network attacks, going beyond the opportunistic
+  base protection of Autocrypt, see questions about "Verified Groups".
+
 
 ### What is the difference between verified groups and 1:1 chats with verified contacts?
 
@@ -193,52 +213,52 @@ The user's profile shows some additional info:
   if there are only 2 people in the verified group. One difference is that you
   could easily add more people to the group, but there are other implications as
   well.
+
 - Verified groups are invariably secured. Any breakage (cleartext or wrongly
   signed messages etc.) will be flagged and such messages will not be shown in
   this chat. You can trust all messages in this verified-checkmark chat to have
   not been read/altered by middle parties.
+
 - 1:1 chats are opportunistic, it is meant to allow people to communicate no
   matter if they change e-mail clients, devices, setups etc. That's why there
   is no verification checkmark, even if you have verified the contact.
 
-### Why don't you use pEp (pretty easy privacy)?
 
-- For a comparison of Autocrypt and pEp, see the [Autocrypt
-  FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep)
-- pEp generates one key per device and encrypts to multiple keys for one
-  recipient. Autocrypt only uses one key per e-mail address, to reduce security
-  concerns and implementation complexity.
-- Autocrypt specifies how MUAs share the encryption setup between different
-  mail apps. This is implemented and reported to work between different
-  Autocrypt-enabled MUAs. pEp does not yet offer sharing of the encryption setup
-  between different PEP-integrating MUAs but is working on a synchronization
-  feature.
-- Autocrypt wants to avoid unreadable mails and will in some situations rather
-  recommend cleartext mail even if an encryption key was seen in earlier
-  messages. pEp encrypts to a recipient as soon as there are known encryption
-  keys.
 
 ### Does Delta Chat support Perfect Forward Secrecy?
 
 - No, OpenPGP doesn't support Perfect Forward Secrecy. Perfect Forward Secrecy
-  works session-oriented, but unfortunately E-Mail is asynchronous by nature. 
-- This means that if the private key is leaked, all past encrypted messages are
-  compromised as well.
-- We are thinking about other ways to protect past messages, e.g. changing keys
-  regularly and often.
+  works session-oriented, but E-Mail is asynchronous by nature
+  and often used from multiple devices independently. This means that if your
+  Delta Chat private key is leaked, and someone has a record
+  of all your in-transit messages, they will be able to read them.  
+
+- Note that if anyone has seized or hacked your running phone, 
+  they will typically be able to read all messages, no matter if Perfect
+  Forward Secrecy is in place or not.  Having access to a single device
+  from a member of a group, will typically a lot of the social graph. 
+  Using e-mail addresses that are not easily tracked back to persons
+  helps group members to stay safer from the effects of device seizure. 
+
+- We are sketching ways to protect communications better against the event
+  of device seizure. 
 
 ### How does Delta Chat protect my Metadata?
 
 - As Delta Chat is a decentralized messenger, the metadata of Delta Chat users
-  are not stored on a central server. However, they are stored on the mail
+  are not stored on a single central server. However, they are stored on the mail
   servers of the sender and the recipient of a message.
-- To additionally protect end-to-end-encrypted messages, most of the [headers
-  are end-to-end-encrypted](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/)
-  as well. Only the headers which are necessary for transmitting the E-Mail from
-  sender to receiver remain unencrypted.
-- This mostly comes into effect in group chats; the mail server of the receiver
-  of an encrypted message does not know who else received the message; it only
-  knows the sender and the recipient.
+
+- Each mail server currently know about who sent and who received a message by 
+  inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
+  are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
+  and always put them only into the encrypted section. See 
+  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). For opportunistic chats the the main concern is how it affects other mail apps 
+  who might participate in chats. 
+
+- Many other e-mail headers, in particular the "Subject" header, 
+  are end-to-end-encryption protected, see also this upcoming [IETF RFC]
+  (https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 ### Can I re-use my existing private key?
 
@@ -250,15 +270,17 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 ### I can't import my existing PGP key into Delta Chat.
 
-In general, Delta Chat should support "common" private key formats, however, it
+With a very good chance, the problem is that your key is encrypted and/or uses
+a password. Such keys are not supported by Delta Chat.  You may remove the
+passphrase encryption and the password and try the import again.  If you want
+to keep your passphrase you'll have to create an e-mail alias for use
+with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
+
+Format wise, Delta Chat supports common OpenPGP private key formats, however, it
 is unlikely that we will support 100% of all private keys of any sources. This
 is also not the main focus of Delta Chat (in fact, the large majority of the
 Delta Chat users will not have any key before they start using Delta).
 However, we try to support private keys from other sources as good as possible. 
-
-With a very good chance, the problem is that your key is encrypted and/or uses
-a password. Such keys are not supported by Delta Chat. Please remove the
-encryption and the password and try the import again.
 
 Removing the password from the private key will be different, depending on the
 software you use to manage your PGP keys. With Enigmail, you can set your
@@ -266,6 +288,13 @@ password to an empty value in the Key Management window. With GnuPG you can set
 it [via the command
 line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 For other programs, you can find a solution online.
+
+### Why don't you use pEp (pretty easy privacy)?
+
+- Delta Chat uses the Autocrypt e2e-encryption standard. For
+  a discussion of Autocrypt and pEp, see the [Autocrypt
+  FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
+
 
 ## Multi-client {#multiclient}
 
