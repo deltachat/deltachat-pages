@@ -56,6 +56,17 @@ Other messages do not appear automatically, and are to be found in the main menu
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
 
+### Who sees my profile picture?
+
+- You can add a profile picture in your settings. If you write to your
+  contacts, other Delta Chat users automatically see it as your profile
+  picture.
+
+- Contacts who don't use Delta Chat see it as an E-Mail attachment.
+
+- For privacy reasons, no one sees your profile picture until you write a
+  message to them.
+
 ### Does Delta Chat support HTML e-mails?
 
 - Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted to plain text in the app. Outgoing e-mails always use plain text.
