@@ -58,14 +58,17 @@ Other messages do not appear automatically, and are to be found in the main menu
 
 ### Who sees my profile picture?
 
-- You can add a profile picture in your settings. If you write to your
-  contacts, other Delta Chat users automatically see it as your profile
-  picture.
+- You can add a profile picture in your settings. If you write to your contacts
+  or add them via QR code, they automatically see it as your profile picture.
 
 - Contacts who don't use Delta Chat see it as an E-Mail attachment.
 
 - For privacy reasons, no one sees your profile picture until you write a
   message to them.
+
+- Your profile picture isn't sent with every message, but regularly enough that
+  your contacts will re-receive your profile picture, even if they add a new
+  device.
 
 ### Does Delta Chat support HTML e-mails?
 
