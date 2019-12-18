@@ -1,9 +1,11 @@
 ---
-title: Delta Chat 1.0 with new features, more robust, fast and secure 
+title: Delta Chat 1.0 with new features, more robust, faster and more secure 
 author: compl4xx, holga
 ---
 
-XXX embed the gplay video here
+<iframe width="280" height="157" src="https://www.youtube.com/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+e
+
 
 After months of hard work, we just released [Delta Chat 1.0 to Google Play store](https://play.google.com/store/apps/details?id=chat.delta), with lots of improvements: 
 
