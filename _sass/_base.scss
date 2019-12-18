@@ -77,9 +77,12 @@ body {
 
     #content {	   
         margin: 0 auto;
-        # width: 75%;
         min-width: 580px;
         max-width: 800px;
+	width: 75%;
+    }
+    h1 {
+        width: 75%;
     }
     #footer {
         padding: 2em;
