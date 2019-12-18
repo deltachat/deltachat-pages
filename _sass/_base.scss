@@ -35,7 +35,6 @@ body {
 
 #content {
     padding: 0em 1em 0.5em 1em;	
-    max-width: 42em;
 }	
 
 #content p img {
@@ -98,8 +97,9 @@ body {
 
 
 /*space between content elements*/
-#content p, #content ul, ol, h1, h2 {
+#content p, #content ul, ol, h1, h2, h3 {
     margin: 1em 0;
+    max-width: 42em;
 }
 
 h1:not(:first-child), h2:not(:first-child), h3:not(:first-child) {
