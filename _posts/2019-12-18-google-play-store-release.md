@@ -3,8 +3,7 @@ title: Delta Chat 1.0 with new features, more robust, faster and more secure
 author: compl4xx, holga
 ---
 
-<iframe width="370" src="https://www.youtube.com/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: left; margin: 10px;display: block;" ></iframe>
-
+<iframe width="370" height="208" src="https://www.youtube.com/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: right; margin: 10px;display: block;" ></iframe>
 
 After months of hard work, we just released [Delta Chat 1.0 to Google Play store](https://play.google.com/store/apps/details?id=chat.delta), with lots of improvements: 
 
@@ -33,7 +32,7 @@ After months of hard work, we just released [Delta Chat 1.0 to Google Play store
 
 ### Profile Pictures
 
-<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-settings-light.png" width="120" 
+<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-settings-light.png" width="180" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
 One thing which makes Delta Chat much prettier are **profile pictures**. Or at
@@ -50,8 +49,8 @@ interaction. This is very typical for the Delta approach on privacy by design.
 
 ### Show Classic Emails as Contact Requests
 
-<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="180" 
+style="float: right; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
 Many Delta users use the messenger for all their emails, not only for chatting.
 In the settings, they can set "show classic emails" to "all". Then they will
@@ -64,7 +63,7 @@ with your Delta Chat app, you can just decline the contact request.
 
 ### The Device Chat - Delta Infos Directly on Your Phone
 
-<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-device-chat-light.png" width="120" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-device-chat-light.png" width="180" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
 With the new Android version for the Google Play Store, users get important
 information directly as a chat.
@@ -102,4 +101,3 @@ are all in Beta stage but are pretty well usable already:
 
 Btw, if you want to migrate from or to an APK or F-Droid installation, export a backup, 
 install the app, and import the backup in the new app.
-
