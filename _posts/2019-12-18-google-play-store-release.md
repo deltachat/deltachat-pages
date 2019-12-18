@@ -3,9 +3,8 @@ title: Delta Chat 1.0 with new features, more robust, faster and more secure
 author: compl4xx, holga
 ---
 
-<iframe width="370" height="208" src="https://www.youtube.com/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: right; margin: 10px;display: block;" ></iframe>
+After months of hard work, we just released [Delta Chat 1.0 to Google Play store](https://play.google.com/store/apps/details?id=chat.delta), with lots of improvements. Even though a lot has changed under the hood we hope that everyone has a good upgrade experience.  If not, please submit a new [Android issue](https://github.com/deltachat/deltachat-android/issues) or visit the [support forum](https://support.delta.chat). <iframe width="370" height="208" src="https://www.youtube.com/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: right; margin: 10px;display: block;" ></iframe>
 
-After months of hard work, we just released [Delta Chat 1.0 to Google Play store](https://play.google.com/store/apps/details?id=chat.delta), with lots of improvements. Even though a lot has changed under the hood we hope that everyone has a good upgrade experience.  If not, please submit a new [Android issue](https://github.com/deltachat/deltachat-android/issues) or visit the [support forum](https://support.delta.chat).
 
 ### Profile Pictures
 
@@ -59,6 +58,9 @@ usually fine to allow it to run in the background. However, as disscussed
 in [Don't kill my app](https://dontkillmyapp.com/) Google doesn't always let us. 
 
 ### Better Robustness, Speed and Security
+
+<img src="../assets/blog/rust-delta.png" width="180" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+
 
 The core system used by all Delta Chat apps is now written
 using the "Rust" language, widely hailed as the most robust and safe 
