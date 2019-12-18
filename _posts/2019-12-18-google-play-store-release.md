@@ -16,6 +16,7 @@ One thing which makes Delta Chat much prettier are **profile pictures**. Or at
 least, it makes Delta as pretty as its users ;) You can now set an
 avatar image in your settings, and your contacts will see it when you
 message them or when you "setup contact" with them through a QR-code. 
+
 As with all other core features of Delta Chat, there is no
 extra server (vulgo: "the cloud") involved, other than your e-mail
 provider for sending and receiving messages.  Note that all avatars are
@@ -62,14 +63,14 @@ in [Don't kill my app](https://dontkillmyapp.com/) Google doesn't always let us.
 The core system used by all Delta Chat apps is now written
 using the "Rust" language, widely hailed as the most robust and safe 
 system programming language. This also has speed up message receiving
-and delivery. Also, Android9 is better supported regarding notifications 
+and delivery. Also, Android 9 is better supported regarding notifications 
 and 64bit support.
 
 For end-to-end encryption we are using
 [rPGP](https://github.com/rpgp/rpgp), which passed a security review
 review earlier in 2019. For Transport Layer Encryption (TLS) we are
 using the native system libraries on each platform. For protection
-against active attacks we have implemented and refined the [Countmitm
+against active attacks we have implemented and refined the [CounterMITM
 protocols](https://countermitm.readthedocs.io/en/latest/new.html) which
 in turn use rPGP. 
 
@@ -92,5 +93,6 @@ are all in Beta stage but are pretty well usable already:
 
 [Get Delta Chat now!](https://get.delta.chat)
 
-Btw, if you want to migrate from or to an APK or F-Droid installation, export a backup, 
+If you want to migrate from an F-Droid installation, you can export a backup,
 install the app, and import the backup in the new app.
+
