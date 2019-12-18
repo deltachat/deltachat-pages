@@ -60,6 +60,9 @@ in [Don't kill my app](https://dontkillmyapp.com/) Google doesn't always let us.
 
 ### Better Robustness, Speed and Security
 
+<img src="../assets/blog/rust-delta.png" width="180" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+
+
 The core system used by all Delta Chat apps is now written
 using the "Rust" language, widely hailed as the most robust and safe 
 system programming language. This also has speed up message receiving
