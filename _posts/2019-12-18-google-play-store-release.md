@@ -68,14 +68,17 @@ with your Delta Chat app, you can just decline the contact request.
 With the new Android version for the Google Play Store, users get important
 information directly as a chat.
 
-This channel will mostly be used if there are new updates, or if there are
-problems. In short - for all the boring stuff developers need you to know.
+The device chat will mostly be used for info about updates, or if there are
+problems and warnings. In short - for all the boring stuff developers want 
+you to know.
 
-## Have you tried out our Desktop Client and iOS app?
+Previous to 1.0 Delta Chat showed pop-ups for warnings, like the infamous
+one about battery optimizations.  We are moving all such messages to the
+device chat so you can more easily scroll back. Speaking of battery optimizations --
+Delta Chat is pretty efficient with using your system resources and it is 
+usually fine to allow it to run in the background. However, as disscussed 
+in [Don't kill my app](https://dontkillmyapp.com/) Google doesn't always let us. 
 
-If you don't have an Android phone, no problem - Delta Chat is available
-in preview versions for Windows, MacOS, Linux, and iOS. Those versions 
-are all in Beta stage but are pretty well usable already: 
 
 ## F-Droid coming later, needs your help! 
 
@@ -90,7 +93,12 @@ Thanks to all contributors, testers, translators, those who fetched mate & food
 and/or cooked at the gatherings, reviewed pull requests, thanks to our
 CI servers, and everyone else we forgot here.
 
+Oh, and if you don't have an Android phone, no problem - Delta Chat is available
+in preview versions for Windows, MacOS, Linux, and iOS. Those versions 
+are all in Beta stage but are pretty well usable already: 
+
 [Get Delta Chat now!](https://get.delta.chat)
 
 Btw, if you want to migrate from or to an APK or F-Droid installation, export a backup, 
 install the app, and import the backup in the new app.
+
