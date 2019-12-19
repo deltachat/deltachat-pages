@@ -5,13 +5,11 @@ author: compl4xx, holga
 
 After months of hard work, we just released [Delta Chat 1.0 to Google Play store](https://play.google.com/store/apps/details?id=chat.delta), with lots of improvements. Even though a lot has changed under the hood we hope that everyone has a good upgrade experience.  If not, please submit a new [Android issue](https://github.com/deltachat/deltachat-android/issues) or visit the [support forum](https://support.delta.chat). 
 
-<iframe width="370" height="208" src="https://www.youtube.com/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: right; margin: 10px;display: block;" ></iframe>
-
 
 ### Profile Pictures
 
-<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-settings-light.png" width="180" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="180" 
+style="float: right; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
 One thing which makes Delta Chat much prettier are **profile pictures**. Or at
 least, it makes Delta as pretty as its users ;) You can now set an
@@ -29,7 +27,7 @@ interaction. This is very typical for the Delta approach on privacy by design.
 
 ### Show Classic Emails as Contact Requests
 
-<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="180" 
+<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-settings-light.png" width="180" 
 style="float: right; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
 
 Many Delta users use the messenger for all their emails, not only for chatting.
@@ -61,7 +59,7 @@ in [Don't kill my app](https://dontkillmyapp.com/) Google doesn't always let us.
 
 ### Better Robustness, Speed and Security
 
-<img src="../assets/blog/rust-delta.png" width="180" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+<img src="../assets/blog/rust-delta.png" width="180" style="float: left; margin: 10px;display: block;" /> 
 
 
 The core system used by all Delta Chat apps is now written
