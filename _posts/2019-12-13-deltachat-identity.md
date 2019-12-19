@@ -1,103 +1,108 @@
 ---
-title: Login to our Forum With DeltaChat Identity - Making Authentication Easy With a Simple QR Code
+title: Authentication as Easy as Delta Chat QR Code Login
 author: compl4xx
 ---
 
 
-**What if you could login to a forum, cloud account, or social media platform
-by scanning a simple QR code? Delta Chat makes it possible.**
+**Log in on a forum, cloud account, or social media platform
+by scanning a QR code and a press of a button? Delta Chat.**
 
 
-## What is DeltaChat Identity?
+## What is Delta Chat Identity?
 
-At our Delta Chat hackathon in November, we developed a neat authentication
-tool. It enables you to easily login to our [support
-forum](https://support.delta.chat/) or create an account by just scanning a QR
-code with your Delta Chat app.
+At our November Delta Chat hackathon, a neat authentication tool for
+easy login and account creation saw the light of day.
 
 Imagine you need help with Delta Chat, found a bug, or want to propose a
-feature. You go to our forum, and want to open a topic to discuss it with the
-others from the community. But first you need to create an account, make up a
-password, wait for a verification mail - it's just too much of an effort.
+feature like the one here. You stop by at the [support forum](https://support.delta.chat/),
+wanting to open a topic to put it to community discussion.
+You contemplate creating an account, making up a password, and waiting
+for a verification e-mail, but that is not what you had in mind.
 
-If you have a [GitHub](https://github.com/deltachat/) account, like many Open
-Source developers do, you can click on "Login with GitHub". It's the same as
-"Login with Facebook, Twitter, etc." on other platforms, which we don't offer
-for privacy reasons. But now you can also choose **"Login with DeltaChat
+If you have a [GitHub](https://github.com/deltachat/) account,
+you can sacrifice some privacy at the altar of "Sign in with GitHub". It's the same as
+"Sign in with Facebook, Twitter, etc." on other platforms, which is also not on offer
+for privacy reasons. But then you see **"Log in with Delta Chat
 Identity"**.
 
-![An account creation form - on the right, it says "With DeltaChat
+![An account creation form—on the right, it says "With Delta Chat
 Identity".](../assets/blog/delta-chat-identity-forum-signup.png)
 
 *On <a href="https://support.delta.chat/"
 target="_blank">support.delta.chat</a>, click on "Sign Up" to create an
 account.*
 
-Then you get redirected to login.testrun.org, our authentication server. It
-shows you a QR code. **Scan it with your Delta Chat Android app**:
+You find yourself redirected to login.testrun.org, (our authentication server). It
+shows you a QR code. You **Scan it with your Delta Chat Android app**:
 
-![A website showing a QR code to login to the
+![A website showing a QR code to log in on the
 forum.](../assets/blog/delta-chat-identity-qr-code-scan.png)
 
 *Scan the QR code with your Delta Chat Android app to authenticate yourself.*
 
-Now you get prompted on your phone, whether you want to join a group - that's
-normal for now. You can just **tap on "OK"**. In the background, it exchanges
-some mails to verify you - a bit like a verification link in an E-Mail, but
-fully automated. Afterwards you have two more chats in your chat list - you can
-leave them, ignore them, for now it's only necessary that they are created.
+A question of whether you want to join a group will present itself on your device.
+**"OK"**. In the background, e-mails are exchanged to verify you; a bit like a
+verification link in an e-mail, but fully automated. Afterwards, two more chats
+can be found in your chat list—you break character and say: "Those are not important,
+I can leave those, or otherwise ignore them, for now it's only necessary they are
+created."
 
 ![Different Screenshots, showing what's happening on the Android app in the
 meantime.](../assets/blog/delta-chat-identity-android-flow.jpg)
 
-*The steps it takes on Android - in our current prototype, this is not yet
-optimized.*
+*These are the steps undertaken on the current Android prototype, not yet
+an optimized workflow.*
 
-It takes a few seconds, then you get redirected to the forum, where you can
-**choose a username**. It suggests the username you use for Delta Chat, but if
-you want to pick a different one, go for it:
+A few seconds later, you are redirected to the forum, where you can
+**choose a username**. Your Delta Chat username is suggested, but anything
+available is on the table:
 
-![An account creation form with E-Mail address and username, filled
+![An account creation form with e-mail address and username, filled
 out.](../assets/blog/delta-chat-identity-create-account.png)
 
-*It takes only one click to create your account, the username is the same as in
+*One click to creates the account, using your username from
 Delta Chat.*
 
-**That's it!** Now you can use the forum as you want. Ask questions, help
-others, discuss feature requests.
+**All done**. That is all it took to gain access to the forum.
+Hopefully no questions will have arisen meanwhile, and you proceed to help others,
+and discuss feature requests to your heart's content. As it happens, your alternate
+ego is still stuck logging in the old way. From a not too distant future you remark
+using your e-mail account and self-controlled cryptographic identity to
+authenticate a web-session as a new and better self.
 
-![The support forum; there are two unread
+![The support forum; sporting two unread
 topics.](../assets/blog/delta-chat-identity-support-forum.png)
 
-*Now you are a part of the Delta Chat community forum.*
+*Now you are a part of the Delta Chat community forum, you magnificent you*
 
 
-## What's the innovation behind this?
+## Why didn't I do that already?
 
-Most of this is not very new. [OAuth2](https://oauth.net/2/) is an established
-standard and has been around for a while. "Login with DeltaChat" uses it just
-as well as "Login with GitHub".
+Most of this is not very new. [OAuth 2.0](https://oauth.net/2/) is an established
+standard that has been around for a while. "Log in with Delta Chat" uses it in the same
+manner as "Sign in with GitHub".
 
-The main innovation is the **QR code** - you can use your phone to login
-quickly, on other computers as well. This gives a whole different feeling to
-logging in; just scan a QR code and you're done. No passwords necessary.
+Pairing that with the even older technology of **QR codes**, and some logic,
+you can now use your device for quick login on other computers as well.
+This brings a whole different feel to logging in; scan a QR code and done.
+No passwords necessary.
 
-With this authentication method, the E-Mail address of the contact is available
+With this authentication method, the e-mail address of the contact is available
 directly, which is used by almost every internet service for identification.
 The biggest difference between Delta Chat and other messengers has always been
-that we can use the advantages of the E-Mail network.
+that we can use the advantages of the e-mail network.
 
-For now we only set it up with our Discourse Forum - setting it up for other
-[Discourse](https://www.discourse.org/) instances is easy though. *(If you want
-to set it up for your forum, write me a message:
+For now it is only set up for use on the Delta Chat Discourse forum—setting it up
+for other [Discourse](https://www.discourse.org/) instances is easy.
+*(If you want this type of login on your forum, write me a message:
 [compl4xx@testrun.org](mailto:compl4xx@testrun.org).)* But in theory, it could
-be used for any web service - ownCloud, Mastodon, or other decentralized
+be used for any web service - Nextcloud, Mastodon, or other decentralized
 services are well suited for this.
 
-But the most important advantage is in terms of **privacy**. You don't have to
-tell Facebook or GitHub (Microsoft) that you are using our Forum. You don't
-have to give any application access to your Facebook or GitHub account. This is
-just between your E-Mail account and us.
+The biggest advantage comes in the form of **privacy**. You don't have to
+tell Facebook or GitHub (Microsoft) you are using our forum. You don't
+have to grant any app access to a Facebook or GitHub account. This stays
+between your e-mail account and us;
 
-**Try it out:** login to our [support forum](https://support.delta.chat/)!
-
+This one trick to log onto our [support forum](https://support.delta.chat/) is
+upsetting big data.
