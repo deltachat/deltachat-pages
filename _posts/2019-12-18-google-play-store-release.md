@@ -17,7 +17,7 @@ avatar image in your settings, and your contacts will see it when you
 message them or when you "setup contact" with them through a QR-code. 
 
 As with all other core features of Delta Chat, there is no
-extra server (vulgo: "the cloud") involved, other than your e-mail
+extra server (vulgo: "the cloud") involved, other than your email
 provider for sending and receiving messages.  Note that all avatars are
 reduced to 192x192 pixels to spare everyone's bandwidth. 
 
@@ -97,4 +97,3 @@ are all in Beta stage but are pretty well usable already:
 
 If you want to migrate from an F-Droid installation, you can export a backup,
 install the app, and import the backup in the new app.
-
