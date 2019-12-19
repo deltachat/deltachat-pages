@@ -43,6 +43,12 @@ body {
     height: auto;
 }
 
+@media only screen and (max-width: 640px) {
+	#content p img {
+	    float: none !important;
+	}
+}
+
 #footer {
     margin: 1.5em 0 2.5em 0;
     border-top: 1px solid #BBB;
