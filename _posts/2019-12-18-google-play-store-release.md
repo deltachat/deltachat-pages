@@ -3,10 +3,15 @@ title: Delta Chat 1.0 with new features, more robust, faster and more secure
 author: compl4xx, holga
 ---
 
+<iframe src="https://invidio.us/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: right; margin: 10px;display: block;" ></iframe>
+
 **After months of hard work, we just released [Delta Chat 1.0 for the Google Play
 store](https://play.google.com/store/apps/details?id=chat.delta), with lots of
 improvements.**
 
+F-Droid is still offering version 0.510.1 for now. We'll get to it 
+eventually but if someone wants to help along, please appear 
+in our [contribution channels](https://delta.chat/en/contribute).
 
 ## Profile Pictures
 
@@ -76,12 +81,6 @@ which passed a security review earlier in 2019. For Transport Layer Encryption
 against active attacks we have implemented and refined the [CounterMITM
 protocols](https://countermitm.readthedocs.io/en/latest/new.html) which in turn
 use rPGP. 
-
-## F-Droid coming later, needs your help! 
-
-F-Droid is still offering version 0.510.1 for now. We'll get to it 
-eventually but if someone wants to help along, please appear 
-in our [contribution channels](https://delta.chat/en/contribute).
 
 ## Thanks to the dozens of people who helped! 
 
