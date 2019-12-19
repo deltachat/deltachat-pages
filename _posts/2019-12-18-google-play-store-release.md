@@ -23,7 +23,7 @@ reduced to 192x192 pixels to spare everyone's bandwidth.
 
 For privacy reasons, no one sees your profile picture until you write a message
 to them. This way, you can control who sees your picture without any extra
-interaction. This is very typical for the Delta approach on privacy by design.
+interaction. This is very typical for the Delta approach of privacy by design.
 
 ### Show Classic Emails as Contact Requests
 
