@@ -3,7 +3,12 @@ title: Delta Chat 1.0 with new features, more robust, faster and more secure
 author: compl4xx, holga
 ---
 
-After months of hard work, we just released [Delta Chat 1.0 to Google Play store](https://play.google.com/store/apps/details?id=chat.delta), with lots of improvements. Even though a lot has changed under the hood we hope that everyone has a good upgrade experience.  If not, please submit a new [Android issue](https://github.com/deltachat/deltachat-android/issues) or visit the [support forum](https://support.delta.chat). 
+After months of hard work, we just released [Delta Chat 1.0 for the Google Play
+store](https://play.google.com/store/apps/details?id=chat.delta), with lots of
+improvements. Even though a lot has changed under the hood we hope that
+everyone has a good upgrade experience.  If not, please submit a new [Android
+issue](https://github.com/deltachat/deltachat-android/issues) or visit the
+[support forum](https://support.delta.chat). 
 
 
 ### Profile Pictures
@@ -68,19 +73,18 @@ system programming language. This also has speed up message receiving
 and delivery. Also, Android 9 is better supported regarding notifications 
 and 64bit support.
 
-For end-to-end encryption we are using
-[rPGP](https://github.com/rpgp/rpgp), which passed a security review
-review earlier in 2019. For Transport Layer Encryption (TLS) we are
-using the native system libraries on each platform. For protection
+For end-to-end encryption we are using [rPGP](https://github.com/rpgp/rpgp),
+which passed a security review earlier in 2019. For Transport Layer Encryption
+(TLS) we are using the native system libraries on each platform. For protection
 against active attacks we have implemented and refined the [CounterMITM
-protocols](https://countermitm.readthedocs.io/en/latest/new.html) which
-in turn use rPGP. 
+protocols](https://countermitm.readthedocs.io/en/latest/new.html) which in turn
+use rPGP. 
 
 ## F-Droid coming later, needs your help! 
 
 F-Droid is still offering version 0.510.1 for now. We'll get to it 
 eventually but if someone wants to help along, please appear 
-in our [Contribution channels](https://delta.chat/en/contribute).
+in our [contribution channels](https://delta.chat/en/contribute).
 
 ## Thanks to the dozens of people who helped! 
 
@@ -91,7 +95,7 @@ CI servers, and everyone else we forgot here.
 
 Oh, and if you don't have an Android phone, no problem - Delta Chat is available
 in preview versions for Windows, MacOS, Linux, and iOS. Those versions 
-are all in Beta stage but are pretty well usable already: 
+are all in Beta stage but are well usable already: 
 
 [Get Delta Chat now!](https://get.delta.chat)
 
