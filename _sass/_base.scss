@@ -44,7 +44,7 @@ body {
 }
 
 @media only screen and (max-width: 640px) {
-	#content p img {
+	#content p img, iframe {
 	    float: none !important;
 	}
 }
