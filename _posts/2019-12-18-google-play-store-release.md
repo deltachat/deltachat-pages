@@ -3,11 +3,11 @@ title: Delta Chat 1.0 with new features, more robust, faster and more secure
 author: compl4xx, holga
 ---
 
-<iframe src="https://invidio.us/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: right; margin: 10px;display: block;" ></iframe>
+<img src="../assets/blog/delta-xmas.jpg" width="180" style="float: left; margin: 10px;display: block;" /> 
 
-**After months of hard work, we just released [Delta Chat 1.0 for the Google Play
-store](https://play.google.com/store/apps/details?id=chat.delta), with lots of
-tangible improvements.**
+**After months of hard work, we just started the [Delta Chat 1.0 releases series 
+for the Google Play store](https://play.google.com/store/apps/details?id=chat.delta), 
+with lots of tangible improvements.**
 
 F-Droid is still offering version 0.510.1 for now. We'll get to it 
 eventually but if someone wants to help along, see [F-droid 1.0.x issue](https://github.com/deltachat/deltachat-android/issues/1177). 
@@ -81,7 +81,16 @@ against active attacks we have implemented and refined the [CounterMITM
 protocols](https://countermitm.readthedocs.io/en/latest/new.html) which in turn
 use rPGP. 
 
+## New Delta Chat Intro video
+
+At our last gathering we produced a little introduction video to Delta Chat. 
+This is now also the front video for Delta Chat on Google Play. 
+We hope you enjoy it or find it useful when talking with friends  :) 
+
+<iframe src="https://invidio.us/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: left; margin: 10px;display: block;" ></iframe>
+
 ## Thanks to the dozens of people who helped! 
+
 
 The whole Rust-rewrite and this release was a massive community effort. 
 Thanks to all contributors, testers, translators, those who fetched mate & food
