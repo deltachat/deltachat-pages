@@ -82,9 +82,9 @@ Most of this is not very new. [OAuth 2.0](https://oauth.net/2/) is an establishe
 standard that has been around for a while. "Log in with Delta Chat" uses it in the same
 manner as "Sign in with GitHub".
 
-Pairing that with the even older technology of **QR codes**, and some logic,
+Pairing that with the even older technology of QR codes, and some logic,
 you can now use your device for quick login on other computers as well.
-This brings a whole different feel to logging in; scan a QR code and done.
+**This brings a whole different feel to logging in; scan a QR code and done**.
 No passwords necessary.
 
 With this authentication method, the e-mail address of the contact is available
@@ -104,5 +104,4 @@ tell Facebook or GitHub (Microsoft) you are using our forum. You don't
 have to grant any app access to a Facebook or GitHub account. This stays
 between your e-mail account and us;
 
-This one trick to log onto our [support forum](https://support.delta.chat/) is
-upsetting big data.
+Stride to the [support forum](https://support.delta.chat/) with ease.
