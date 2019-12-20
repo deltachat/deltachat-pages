@@ -7,11 +7,10 @@ author: compl4xx, holga
 
 **After months of hard work, we just released [Delta Chat 1.0 for the Google Play
 store](https://play.google.com/store/apps/details?id=chat.delta), with lots of
-improvements.**
+tangible improvements.**
 
 F-Droid is still offering version 0.510.1 for now. We'll get to it 
-eventually but if someone wants to help along, please appear 
-in our [contribution channels](https://delta.chat/en/contribute).
+eventually but if someone wants to help along, see [F-droid 1.0.x issue](https://github.com/deltachat/deltachat-android/issues/1177). 
 
 ## Profile Pictures
 
