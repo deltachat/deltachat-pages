@@ -270,9 +270,9 @@ The user's profile shows some additional info:
   [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). For opportunistic chats the the main concern is how it affects other mail apps 
   who might participate in chats. 
 
-- Many other e-mail headers, in particular the "Subject" header, 
-  are end-to-end-encryption protected, see also this upcoming [IETF RFC]
-  (https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
+- Many other e-mail headers, in particular the "Subject" header, are
+  end-to-end-encryption protected, see also this upcoming [IETF
+  RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 ### Can I re-use my existing private key?
 
