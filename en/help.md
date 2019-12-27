@@ -267,8 +267,9 @@ The user's profile shows some additional info:
   inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
   are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
   and always put them only into the encrypted section. See 
-  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). For opportunistic chats the the main concern is how it affects other mail apps 
-  who might participate in chats. 
+  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
+  For opportunistic chats the main concern is how it affects other mail apps who 
+  might participate in chats. 
 
 - Many other e-mail headers, in particular the "Subject" header, are
   end-to-end-encryption protected, see also this upcoming [IETF
