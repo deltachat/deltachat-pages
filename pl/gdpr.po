@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-19 18:41+0200\n"
+"POT-Creation-Date: 2019-11-21 20:57+0200\n"
 "PO-Revision-Date: 2019-01-27 23:24+0000\n"
 "Last-Translator: Telegram Polska <sebek@life.pl>, 2019\n"
 "Language-Team: Polish (https://www.transifex.com/delta-chat/teams/76181/pl/)\n"
@@ -24,10 +24,14 @@ msgid ""
 "lang: en\n"
 "---"
 msgstr ""
+"---\n"
+"title: GDPR i Prywatność\n"
+"lang: pl\n"
+"---"
 
 #: ../en/gdpr.md:7
 msgid "# Note on privacy and GDPR "
-msgstr ""
+msgstr "# Uwaga na temat prywatności i GDPR"
 
 #: ../en/gdpr.md:12
 msgid ""
@@ -36,21 +40,29 @@ msgid ""
 "On this page we detail how the Delta Chat app easily complies \n"
 "with GDPR requirements. "
 msgstr ""
+"Ogólne rozporządzenie o ochronie danych (GDPR) jest często uważane za\n"
+"najdalej idące prawodawstwo dotyczące ochrony prywatności użytkowników.\n"
+"Na tej stronie przedstawiamy szczegółowo, w jak prosty sposób aplikacja Delta Chat\n"
+"jest zgodna z przepisami prawa w zakresie ochrony prywatności użytkowników GDPR"
 
 #: ../en/gdpr.md:14
 msgid "#  How Delta Chat complies to the GDPR "
-msgstr ""
+msgstr "# Jak Delta Chat przestrzega GDPR"
 
 #: ../en/gdpr.md:16
 msgid ""
 "- Implements the **Privacy by Design** requirement of the GDPR, through"
 msgstr ""
+"- Wprowadza wymóg **Ochrony prywatności w fazie projektowania** zawarty w "
+"GDPR, poprzez:"
 
 #: ../en/gdpr.md:19
 msgid ""
 "  - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt\n"
 "  Level 1](https://autocrypt.org)."
 msgstr ""
+"- **Poufność**: Szyfrowanie typu end-to-end, poprzez wdrożenie [Autocrypt\n"
+"  Level 1](https://autocrypt.org)."
 
 #: ../en/gdpr.md:21
 msgid "  - **Data minimization**: No uploading of address-book content."

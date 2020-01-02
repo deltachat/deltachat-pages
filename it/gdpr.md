@@ -1,5 +1,5 @@
 ---
-title: GDPR and Privacy
+title: GDPR e Privacy
 lang: it
 ---
 

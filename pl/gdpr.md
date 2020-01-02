@@ -1,5 +1,5 @@
 ---
-title: GDPR and Privacy
+title: GDPR i Prywatność
 lang: pl
 ---
 
@@ -9,18 +9,18 @@ lang: pl
 
 
 
-# Note on privacy and GDPR 
+# Uwaga na temat prywatności i GDPR
 
-The General Data Protection Regulation (GDPR) is often regarded
-as the furthest reaching legislation for privacy protection of users. 
-On this page we detail how the Delta Chat app easily complies 
-with GDPR requirements. 
+Ogólne rozporządzenie o ochronie danych (GDPR) jest często uważane za
+najdalej idące prawodawstwo dotyczące ochrony prywatności użytkowników.
+Na tej stronie przedstawiamy szczegółowo, w jak prosty sposób aplikacja Delta Chat
+jest zgodna z przepisami prawa w zakresie ochrony prywatności użytkowników GDPR
 
-#  How Delta Chat complies to the GDPR 
+# Jak Delta Chat przestrzega GDPR
 
-- Implements the **Privacy by Design** requirement of the GDPR, through
+- Wprowadza wymóg **Ochrony prywatności w fazie projektowania** zawarty w GDPR, poprzez:
 
-  - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt
+- **Poufność**: Szyfrowanie typu end-to-end, poprzez wdrożenie [Autocrypt
   Level 1](https://autocrypt.org).
 
 - **Minimalizacja ilości danych**: Brak przesyłania zawartości książki adresowej.

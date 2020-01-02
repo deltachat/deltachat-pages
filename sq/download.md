@@ -1,5 +1,5 @@
 ---
-title: Get Delta Chat
+title: Merreni Delta Chat-in
 lang: sq
 downloads: true
 ---
@@ -13,7 +13,10 @@ downloads: true
 # Lidhje
 
 * Faqe [PBR për versionin shumëklientësh](help#multiclient) mbi si të njëkohësohet Desktopi me një tjetër aplikacion Delta. 
-* [Verifikoni Shkarkime](verify_downloads.html)
+* [Verifikoni Shkarkime](verify-downloads)
+
+## Montime Paraparje:
+* [Desktop](https://download.delta.chat/desktop/preview/)
 
 ## Regjistra ndryshimesh
 
@@ -21,6 +24,3 @@ downloads: true
 * [Android]({% include changelog-url %})
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
 * [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
-
-## Montime Paraparje:
-* [Desktop](https://download.delta.chat/desktop/preview/)

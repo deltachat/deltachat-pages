@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Wsparcie
 lang: pl
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Verify Downloads
+title: Downloads verifizieren
 lang: de
 ---
 
@@ -21,4 +21,3 @@ Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zerti
 
 Um den  SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das folgende Kommando verwendet werden:  
 `keytool -list -printcert -jarfile <APK-Datei>`
-

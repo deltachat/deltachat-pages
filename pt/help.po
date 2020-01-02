@@ -1,15 +1,16 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
 # Luis <luisfsr@opmbx.org>, 2019
+# Thiago Nazareno Conceição Silva de Jesus <mochileiro2006-trilhas@yahoo.com.br>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-19 18:41+0200\n"
+"POT-Creation-Date: 2019-11-21 20:57+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
-"Last-Translator: Luis <luisfsr@opmbx.org>, 2019\n"
+"Last-Translator: Thiago Nazareno Conceição Silva de Jesus <mochileiro2006-trilhas@yahoo.com.br>, 2019\n"
 "Language-Team: Portuguese (https://www.transifex.com/delta-chat/teams/76181/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,10 +28,16 @@ msgid ""
 "header: Frequently Asked Questions\n"
 "---"
 msgstr ""
+"---\n"
+"title: FAQ\n"
+"lang: pt\n"
+"render_toc: true\n"
+"header: Perguntas Frequentes\n"
+"---"
 
 #: ../en/help.md:9
 msgid "# General"
-msgstr "# Geral {#general}"
+msgstr "# Geral"
 
 #: ../en/help.md:11
 msgid "## What is Delta Chat? "
@@ -49,10 +56,12 @@ msgid ""
 "Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. \n"
 "**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** "
 msgstr ""
+"O Delta Chat é um novo aplicativo de bate-papo que envia mensagens por e-mail, criptografadas se possível, com o Autocrypt.\n"
+"** Você não precisa se inscrever em nenhum lugar, basta usar sua conta de e-mail existente no Delta Chat. **"
 
 #: ../en/help.md:18
 msgid "## How can I find people to chat with? "
-msgstr ""
+msgstr "## Como encontro pessoas com quem conversar?"
 
 #: ../en/help.md:22
 msgid ""

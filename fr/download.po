@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-19 18:41+0200\n"
+"POT-Creation-Date: 2019-11-21 20:57+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr ""
 #: ../en/download.md:11
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. \n"
-"* [Verify Downloads](verify_downloads.html)"
+"* [Verify Downloads](verify-downloads)"
 msgstr ""
 
 #: ../en/download.md:13

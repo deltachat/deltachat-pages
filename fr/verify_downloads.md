@@ -21,4 +21,3 @@ For Android, you can verify the signing certificate on the APK matches one of th
 
 To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
 `keytool -list -printcert -jarfile <APK-file>`
-

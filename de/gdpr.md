@@ -1,5 +1,5 @@
 ---
-title: GDPR and Privacy
+title: DSGVO und Privatsphäre
 lang: de
 ---
 
@@ -9,25 +9,23 @@ lang: de
 
 
 
-# Note on privacy and GDPR 
+# Hinweis zum Datenschutz und zur DSGVO
 
-The General Data Protection Regulation (GDPR) is often regarded
-as the furthest reaching legislation for privacy protection of users. 
-On this page we detail how the Delta Chat app easily complies 
-with GDPR requirements. 
+Die Datenschutz-Grundverordnung (DSGVO) wird häufig 
+als die weitreichendste Gesetzgebung zum Schutz der Privatsphäre von Anwendern betrachtet.
+Auf dieser Seite erfahren Sie, wie die Delta Chat die Anforderungen der DSGVO problemlos erfüllt.
 
-#  How Delta Chat complies to the GDPR 
+#  Wie erfüllt Delta Chat die DSGVO 
 
-- Implements the **Privacy by Design** requirement of the GDPR, through
+Implementierung der **Privacy by Design**-Anforderung der DSGVO durch
 
-  - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt
-  Level 1](https://autocrypt.org).
+- **Vertraulichkeit**: Ende-zu-Ende-Verschlüsselung wenn möglich durch Implementierung von  [Autocrypt Level 1](https://autocrypt.org).
 
-  - **Data minimization**: No uploading of address-book content.
+- **Datenminimierung:** Kein Upload des Adressbuchinhalts.
 
-  - **Data avoidance**: No Delta Chat server, no processing of personal data.
+- **Datenvermeidung:** Keine Delta Chat Server, keine Verarbeitung personenbezogener Daten.
 
-- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book data is transmitted.
+- Erfordert keine **Einwilligung** (Artikel 7 DSGVO) der Anwender oder ihrer Kontakte (betroffene Personen), da keine Adressbuchdaten übertragen werden.
 
 - Delta Chat verarbeitet keine personenbezogenen Daten im Auftrag des Verantwortlichen und bedarf somit **keiner Weisung oder eines Auftragsverarbeitungsvertrages.**
 
@@ -38,7 +36,7 @@ with GDPR requirements.
 
 - Das Einholen einer **Einwilligung** für den Adressbuchabgleich **entfällt**, Art. 7 DSGVO.
 
-- Needs **no data protection impact assessment**  to be carried out for Delta Chat (Article 35 GDPR), because it processes no particular additional data beyond E-Mail messenging.
+- Es muss **keine Datenschutz-Folgenabschätzung** für Delta Chat (Artikel 35 DSGVO) durchgeführt werden, da keine besonderen zusätzlichen Daten über das E-Mail-Messenger-Verfahren hinaus verarbeitet werden.
 
 - Eine **Datenschutz-Folgeabschätzung** ist durch fehlende Messenger-Datenverarbeitung **nicht notwendig**, Art. 35 DSGVO. Das Risiko für Rechte und Freiheiten natürlicher Personen beschränkt sich auf die unternehmensinterne Datenverarbeitung der E-Mail-Kommunikation und die der E-Mail-Provider.
 
