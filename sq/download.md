@@ -12,8 +12,8 @@ downloads: true
 
 # Lidhje
 
-* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
-* [Verify Downloads](verify-downloads)
+* Faqe [PBR për versionin shumëklientësh](help#multiclient) mbi si të njëkohësohet Desktopi me një tjetër aplikacion Delta. 
+* [Verifikoni Shkarkime](verify-downloads)
 
 ## Regjistra ndryshimesh
 

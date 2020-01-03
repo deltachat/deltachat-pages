@@ -11,9 +11,9 @@ header: Frequently Asked Questions
 
 
 
-# Général {#general}
+# General
 
-## C'est quoi Delta Chat? 
+## What is Delta Chat? 
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
@@ -26,7 +26,7 @@ With Delta Chat, you can write to every existing e-mail address - even
 if the recipient is not using the Delta Chat app. No need for the
 recipient to install the same app as yours, as with other messengers.
 
-## Quels sont les avantages de Delta Chat par rapport aux autres messageries?
+## What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data is not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
@@ -41,7 +41,7 @@ recipient to install the same app as yours, as with other messengers.
 - _Trustworthy_ - can even be used for business messages.
 - _Copyleft_ and _Standards_ based libre software.
 
-## Quels messages apparaissent dans Delta Chat?
+## Which messages do appear in Delta Chat?
 
 Delta Chat automatically shows:
 
@@ -57,7 +57,7 @@ Other messages do not appear automatically, and are to be found in the main menu
 - As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
 - However, if needed, you can **block** any contact.
 
-## Delta Chat prend-il en charge les images, vidéos et autres pièces jointes?
+## Does Delta Chat support images, videos and other attachments?
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
 
@@ -65,7 +65,7 @@ Other messages do not appear automatically, and are to be found in the main menu
 
 - Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted to plain text in the app. Outgoing e-mails always use plain text.
 
-# Groupes {#groups}
+# Groups
 
 ## Creation of a group
 
@@ -78,7 +78,7 @@ Other messages do not appear automatically, and are to be found in the main menu
 - Chaque membre du groupe a les **mêmes droits** que les autres. Pour cette raison, chacun peut supprimer tous les membres ou en ajouter de nouveaux.
 - Pour ajouter ou supprimer des membres, cliquez sur le nom du groupe dans le chat.
 
-## Qu'est qu'un groupe vérifié ?
+## What is a verified group?
 
 - A "verified group" is an experimental feature (as of January 2019). 
   By adding one another through QR-code scans a group of "verified" members can talk 
@@ -87,12 +87,12 @@ Other messages do not appear automatically, and are to be found in the main menu
   implementation changes makes sense. Recent discussions can be found here: 
   https://countermitm.readthedocs.io/en/latest/new.html
 
-## Je me suis retiré(e) du groupe par accident.
+## I have deleted myself by accident.
 
 - As you're no longer a group member, you cannot add yourself again. 
   However, no problem, just ask any other group member in a normal chat to re-add you.
 
-## Je ne veux plus recevoir les messages d'un groupe.
+## I do not want to receive the messages of a group any longer.
 
 - Either delete yourself from the member list or delete the whole chat. 
   If you want to join the group again later on, ask another group member to add you again.
@@ -100,14 +100,14 @@ Other messages do not appear automatically, and are to be found in the main menu
 - As an alternative, you can also "Mute" a group - doing so means you get all messages and 
   can still write, but are no longer notified of any new messages.
 
-# Chiffrement {#encryption}
+# Encryption {#encryption}
 
-## Est-ce que Delta Chat supporte le chiffrement de bout en bout ?
+## Does Delta Chat support end-to-end-encryption?
 
 - Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
   thus E2E-encrypt messages with other Autocrypt-capable apps. 
 
-## Que dois-je faire pour activer le chiffrement bout en bout?
+## What do I have to do to activate the end-to-end-encryption?
 
 - Rien.
 
@@ -121,19 +121,19 @@ Other messages do not appear automatically, and are to be found in the main menu
 - If you want to _turn off_ the end-to-end-encryption, 
   use the corresponding setting in "Settings / Advanced settings".
 
-## Si le chiffrement bout en bout n'est pas disponible, la connexion n'est pas chiffrée?
+## If end-to-end-encryption is not available, is the connection not encrypted at all?
 
 - No. With most mail servers will then use _transport encryption_ (TLS).
 
 
-## Comment puis-je vérifier le chiffrement?
+## How can I check the encryption?
 
 - If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
 
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
 
-## Comment puis-je vérifier l'expéditeur?
+## How can I verify the sender?
 
 The user's profile shows some additional info:
 
@@ -148,11 +148,11 @@ The user's profile shows some additional info:
 - Pour le cryptage de la communication, cet état est juste affiché ici
 
 
-## Quels standards sont utilisés pour le chiffrement bout en bout?
+## Which standards are used for end-to-end-encryption?
 
-- OpenPGP. Le transport des clés s'effectue via [Autocrypt](https://autocrypt.org).
+- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
-## Puis-je réutiliser ma clé privée existante ?
+## Can I re-use my existing private key?
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
@@ -195,14 +195,14 @@ et cliquez jusqu'à ce qu'un "numéro de sécurité" s'affiche.
 - You are now synchronized, and can use both devices for
   sending and receiving E2E-encrypted messages with your communication partners. 
 
-# Divers {#miscellaneous}
+# Miscellaneous
 
-## Est-ce Delta Chat fonctionne avec mon service de courriel ?
+## Does Delta Chat work with _my_ e-mail-provider?
 
 - Avec de bonnes chances : Oui :) 
 Cependant, certains fournisseurs ont besoin d'options spéciales pour fonctionner correctement ; les utilisateurs ont rassemblé certaines d'entre elles dans le forum à l'adresse [Aperçu des fournisseurs](https://support.delta.chat/t/provider-overview/)
 
 
-## Je suis intéressé par les détails techniques. Pouvez-vous m'en dire plus?
+## I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).

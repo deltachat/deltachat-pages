@@ -1,18 +1,22 @@
+# Translators:
+# a b, 2019
+# Enrico B. <enricobe@hotmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 20:57+0200\n"
+"POT-Creation-Date: 2020-01-02 15:31+0200\n"
 "PO-Revision-Date: 2018-03-23 12:39+0000\n"
+"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #: ../en/download.md:6
 msgid ""
@@ -23,43 +27,43 @@ msgid ""
 "---"
 msgstr ""
 "---\n"
-"title: Get Delta Chat\n"
+"title: Scarica Delta Chat\n"
 "lang: en\n"
 "downloads: true\n"
 "---"
 
 #: ../en/download.md:8
 msgid "# Links"
-msgstr "# Links"
+msgstr "# Collegamenti"
 
 #: ../en/download.md:11
 msgid ""
 "* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. \n"
 "* [Verify Downloads](verify-downloads)"
 msgstr ""
-"* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. \n"
+"* [FAQ multiclient](help#multiclient) pagina su come sncronizzare l'app per Desktop con altre  app Delta. \n"
 "* [Verify Downloads](verify-downloads)"
 
-#: ../en/download.md:13
-msgid "## Changelogs"
-msgstr "## Changelogs"
-
-#: ../en/download.md:18
+#: ../en/download.md:14
 msgid ""
-"* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)\n"
-"* [Android]({% include changelog-url %})\n"
-"* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)\n"
-"* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)"
+"## Preview Builds:\n"
+"* [Desktop](https://download.delta.chat/desktop/preview/)"
 msgstr ""
-"* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)\n"
-"* [Android]({% include changelog-url %})\n"
-"* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)\n"
-"* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)"
+"## Build sperimentali:\n"
+"* [Desktop](https://download.delta.chat/desktop/preview/)"
+
+#: ../en/download.md:16
+msgid "## Changelogs"
+msgstr "## Changelog"
 
 #: ../en/download.md:20
 msgid ""
-"## Preview Builds:\n"
-"* [Desktop](https://download.delta.chat/desktop/preview/)"
+"* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)\n"
+"* [Android]({% include changelog-url %})\n"
+"* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)\n"
+"* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)"
 msgstr ""
-"## Preview Builds:\n"
-"* [Desktop](https://download.delta.chat/desktop/preview/)"
+"* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)\n"
+"* [Android]({% include changelog-url %})\n"
+"* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)\n"
+"* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)"

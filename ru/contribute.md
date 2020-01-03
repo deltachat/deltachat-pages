@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Внести свой вклад
 lang: ru
 ---
 

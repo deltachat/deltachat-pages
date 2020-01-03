@@ -1,5 +1,5 @@
 ---
-title: Verify Downloads
+title: Downloads überprüfen
 lang: de
 ---
 
@@ -9,16 +9,16 @@ lang: de
 
 
 
-# Verify Downloads
+# Downloads überprüfen
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:
 
-* For F-Droid downloads:  
+* Für F-Droid Downloads:  
   `{% include fingerprint-f-droid %}`
 
-* Other APK downloads:  
+* Andere APK Downloads:  
   `{% include fingerprint-local %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
+Um den SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. der folgende Befehl verwendet werden:
 `keytool -list -printcert -jarfile <APK-file>`
 

@@ -1,22 +1,22 @@
 # Translators:
-# Enrico B. <enricobe@hotmail.com>, 2019
 # björn petersen <r10s@b44t.com>, 2019
+# Enrico B. <enricobe@hotmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 20:57+0200\n"
+"POT-Creation-Date: 2020-01-02 15:31+0200\n"
 "PO-Revision-Date: 2018-03-23 12:35+0000\n"
-"Last-Translator: björn petersen <r10s@b44t.com>, 2019\n"
+"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #: ../en/index.md:5
 msgid ""
@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "---\n"
 "title: The messenger\n"
-"lang: en\n"
+"lang: it\n"
 "---"
 
 #: ../en/index.md:7
@@ -47,8 +47,8 @@ msgid ""
 "**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**\n"
 "Delta Chat does not need your phone number. Check out our [privacy statement](gdpr)."
 msgstr ""
-"**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**\n"
-"Delta Chat does not need your phone number. Check out our [privacy statement](gdpr)."
+"**Delta Chat è come Telegram o Whatsapp, ma senza tracciamento o controllo centralizzato.**\n"
+"Delta Chat non richiede un numero di telefono. Approfondisci la nostra [politica privacy](gdpr)."
 
 #: ../en/index.md:15
 msgid ""
@@ -103,5 +103,5 @@ msgid ""
 "Please check our [latest blog posts](blog)\n"
 "for information on current releases and events. "
 msgstr ""
-"Please check our [latest blog posts](blog)\n"
-"for information on current releases and events. "
+"Controlla i nostri [ultimi post sul blog](blog)\n"
+"per informazioni sui rilasci e sugli eventi. "

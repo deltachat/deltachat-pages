@@ -26,7 +26,7 @@ With Delta Chat, you can write to every existing e-mail address - even
 if the recipient is not using the Delta Chat app. No need for the
 recipient to install the same app as yours, as with other messengers.
 
-## Quins son els avantatges de Delta Chat comparat amb altres programes de missatgeria?
+## What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data is not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
@@ -41,7 +41,7 @@ recipient to install the same app as yours, as with other messengers.
 - _Trustworthy_ - can even be used for business messages.
 - _Copyleft_ and _Standards_ based libre software.
 
-## Quins missatges es mostren al Delta Chat?
+## Which messages do appear in Delta Chat?
 
 Delta Chat automatically shows:
 
@@ -57,7 +57,7 @@ Other messages do not appear automatically, and are to be found in the main menu
 - As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
 - However, if needed, you can **block** any contact.
 
-## Delta Chat permet imatges, vídeos i altres adjunts?
+## Does Delta Chat support images, videos and other attachments?
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
 
@@ -65,7 +65,7 @@ Other messages do not appear automatically, and are to be found in the main menu
 
 - Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted to plain text in the app. Outgoing e-mails always use plain text.
 
-# Grups
+# Groups
 
 ## Creation of a group
 
@@ -87,12 +87,12 @@ Other messages do not appear automatically, and are to be found in the main menu
   implementation changes makes sense. Recent discussions can be found here: 
   https://countermitm.readthedocs.io/en/latest/new.html
 
-## M'he esborrat a mi mateix sense voler.
+## I have deleted myself by accident.
 
 - As you're no longer a group member, you cannot add yourself again. 
   However, no problem, just ask any other group member in a normal chat to re-add you.
 
-## No vull rebre més missatges del grup.
+## I do not want to receive the messages of a group any longer.
 
 - Either delete yourself from the member list or delete the whole chat. 
   If you want to join the group again later on, ask another group member to add you again.
@@ -100,14 +100,14 @@ Other messages do not appear automatically, and are to be found in the main menu
 - As an alternative, you can also "Mute" a group - doing so means you get all messages and 
   can still write, but are no longer notified of any new messages.
 
-# Encriptació {#encryption}
+# Encryption {#encryption}
 
 ## Does Delta Chat support end-to-end-encryption?
 
 - Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
   thus E2E-encrypt messages with other Autocrypt-capable apps. 
 
-## Què he de fer per activar l'encriptació d'extrema  extrem?
+## What do I have to do to activate the end-to-end-encryption?
 
 - Res.
 
@@ -121,19 +121,19 @@ Other messages do not appear automatically, and are to be found in the main menu
 - If you want to _turn off_ the end-to-end-encryption, 
   use the corresponding setting in "Settings / Advanced settings".
 
-## Si l'encriptació d'extrem a extrem no està disponible, llavors la connexió queda sense encriptar?
+## If end-to-end-encryption is not available, is the connection not encrypted at all?
 
 - No. With most mail servers will then use _transport encryption_ (TLS).
 
 
-## Com puc comprovar l'encriptació?
+## How can I check the encryption?
 
 - If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
 
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
 
-## Com puc verificar el remitent?
+## How can I verify the sender?
 
 The user's profile shows some additional info:
 
@@ -148,9 +148,9 @@ The user's profile shows some additional info:
 - For transport encryption, this state is just shown there
 
 
-## Quins estàndards esteu usant per l'encriptació d'extrem a extrem?
+## Which standards are used for end-to-end-encryption?
 
-- OpenPGP. El transport de la clau es fa via [Autocrypt](https://autocrypt.org).
+- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
 ## Can I re-use my existing private key?
 

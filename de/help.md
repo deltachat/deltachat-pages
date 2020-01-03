@@ -2,7 +2,7 @@
 title: FAQ
 lang: de
 render_toc: true
-header: Frequently Asked Questions
+header: Häufig gestellte Fragen
 ---
 
 
@@ -11,22 +11,23 @@ header: Frequently Asked Questions
 
 
 
-# Allgemein {#general}
+# General
 
-## Was ist Delta Chat?
+## What is Delta Chat? 
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
-Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
-**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
+Delta Chat ist eine neue Chat-App, die mit Autocrypt verschlüsselte E-Mails versendet. 
+**Sie müssen sich nirgendwo anmelden, verwenden Sie einfach Ihr bestehendes E-Mail-Konto bei Delta Chat.**
 
 ## How can I find people to chat with? 
 
-With Delta Chat, you can write to every existing e-mail address - even
-if the recipient is not using the Delta Chat app. No need for the
-recipient to install the same app as yours, as with other messengers.
+Mit Delta Chat können Sie an jede existierende E-Mail Adresse schreiben -
+selbst dann, wenn der Empfänger nicht Delta Chat verwendet. Im Gegensatz
+zu anderen Instant Messengern besteht für den Empfänger keine Notwendigkeit,
+dieselbe Anwendung zu installieren, die Sie auch verwenden.
 
-## Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
+## What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data is not saved on a central server; this way, in contrast to most other messengers, Delta Chat even protects your metadata (who writes to whom?)
@@ -41,31 +42,31 @@ recipient to install the same app as yours, as with other messengers.
 - _Trustworthy_ - can even be used for business messages.
 - _Copyleft_ and _Standards_ based libre software.
 
-## Welche Nachrichten erscheinen in Delta Chat?
+## Which messages do appear in Delta Chat?
 
-Delta Chat automatically shows:
+Delta Chat zeigt automatisch:
 
 - Nachrichten von Kontakten in Ihrem **Adressbuch**
 - Nachrichten von Kontakten, **die von Ihnen kontaktiert wurden**
 - **Antworten** auf von Ihnen gesendete Nachrichten
 
-Other messages do not appear automatically, and are to be found in the main menu at **Contact requests**. If desired a chat can be started from there.
+Andere Nachrichten werden nicht automatisch angezeigt, diese sind im _Hauptmenü_ unter **Kontaktanfragen** zu finden. Wenn gewünscht, kann ein neuer Chat von dort gestartet werden.
 
 ## What about spam?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
-- However, if needed, you can **block** any contact.
+- Nachrichten in allgemeinen Spam-Ordnern werden ignoriert und enthaltene Adressen gelten nicht als bekannte Kontakte.
+- Da Nachrichten von unbekannten Kontakten nicht automatisch angezeigt werden, gibt es normalerweise **keinen Spam**.
+- Sie können jedoch bei Bedarf jeden Kontakt **sperren**.
 
-## Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
+## Does Delta Chat support images, videos and other attachments?
 
-- Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
+- Ja. Neben Klartext werden alle E-Mail-Anhänge als separate Nachrichten angezeigt. Ausgehende Nachrichten erhalten bei Bedarf automatisch Anhänge.
 
 ## Does Delta Chat support HTML e-mails?
 
-- Yes. If incoming e-mail lacks a plain text part, HTML-emails is converted to plain text in the app. Outgoing e-mails always use plain text.
+- Ja. Fehlt bei eingehenden E-Mails der "Nur-Text"-Teil, werden HTML E-Mails in der App in Nur-Text umgewandelt. Ausgehende E-Mails verwenden immer Nur-Text.
 
-# Gruppen {#groups}
+# Groups
 
 ## Creation of a group
 
@@ -78,7 +79,7 @@ Other messages do not appear automatically, and are to be found in the main menu
 - Jedes Gruppenmitglied hat **dieselben Rechte** wie jedes andere. Jeder kann daher jeden löschen oder weitere Mitglieder hinzufügen.
 - Um die Mitglieder zu verwalten, einfach in der Gruppe auf den Gruppennamen klicken.
 
-## Was ist eine verifizierte Gruppe?
+## What is a verified group?
 
 - A "verified group" is an experimental feature (as of January 2019). 
   By adding one another through QR-code scans a group of "verified" members can talk 
@@ -87,55 +88,51 @@ Other messages do not appear automatically, and are to be found in the main menu
   implementation changes makes sense. Recent discussions can be found here: 
   https://countermitm.readthedocs.io/en/latest/new.html
 
-## Ich habe mich selbst versehentlich gelöscht.
+## I have deleted myself by accident.
 
-- As you're no longer a group member, you cannot add yourself again. 
-  However, no problem, just ask any other group member in a normal chat to re-add you.
+- Da Sie kein Gruppenmitglied mehr sind, können Sie sich selbst nicht mehr hinzufügen.
+Kein Problem, bitten Sie einfach ein anderes Gruppenmitglied in einem normalen Chat, Sie erneut hinzuzufügen.
 
-## Ich möchte keine Nachrichten einer Gruppe mehr empfangen.
+## I do not want to receive the messages of a group any longer.
 
-- Either delete yourself from the member list or delete the whole chat. 
-  If you want to join the group again later on, ask another group member to add you again.
+- Löschen Sie sich entweder aus der Mitgliederliste oder löschen Sie den gesamten Chat. 
+Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gruppenmitglied, Sie erneut hinzuzufügen.
 
-- As an alternative, you can also "Mute" a group - doing so means you get all messages and 
-  can still write, but are no longer notified of any new messages.
+- Alternativ können Sie eine Gruppe auch "Stummschalten" - dies bedeutet, dass Sie weiterhin alle Nachrichten erhalten und neue schreiben können, aber nicht mehr über neue Nachrichten informiert werden.
 
-# Verschlüsselung {#encryption}
+# Encryption {#encryption}
 
-## Unterstützt Delta Chat eine Ende-zu-Ende-Verschlüsselung?
+## Does Delta Chat support end-to-end-encryption?
 
-- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
-  thus E2E-encrypt messages with other Autocrypt-capable apps. 
+- Ja. Delta Chat implementiert den Autocrypt Level 1-Standard und kann 
+daher Ende-zu-Ende-verschlüsselte Nachrichten mit anderen Autocrypt-fähigen Anwendungen austauschen.
 
-## Was muss ich tun, um die Ende-zu-Ende-Verschlüsselung zu aktivieren?
+## What do I have to do to activate the end-to-end-encryption?
 
 - Nichts.
 
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
+- Delta Chat (und andere [Autocrypt](https://autocrypt.org)-kompatible
+E-Mail Anwendungen) tauschen die für eine Ende-zu-Ende-Verschlüsselung benötigten Schlüssel automatisch mit der ersten versendeten Nachricht aus. Danach werden alle folgenden Nachrichten automatisch Ende-zu-Ende verschlüsselt.
+Wenn einer der Chat-Partner eine E-Mail-Anwendung verwendet, die nicht Autocrypt-kompatibel ist, werden Nachrichten solange unverschlüsselt gesendet, bis wieder eine Autocrypt-kompatible Anwendung verfügbar ist.
 
-- If you want to _turn off_ the end-to-end-encryption, 
-  use the corresponding setting in "Settings / Advanced settings".
+- Falls Sie die Ende-zu-Ende-Verschlüsselung _abschalten_ möchten, 
+  deaktivieren Sie die entsprechende Einstellungen unter "Einstellungen / Erweitert".
 
-## Wird ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
+## If end-to-end-encryption is not available, is the connection not encrypted at all?
 
 - No. With most mail servers will then use _transport encryption_ (TLS).
 
 
-## Wie kann ich die Verschlüsselung überprüfen?
+## How can I check the encryption?
 
-- If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
+- Wenn neben einer Nachricht ein kleines **Vorhängeschloss** angezeigt wird, bedeutet dies, dass die Nachricht durchgehend Ende-zu-Ende verschlüsselt ist _und_ vom angegebenen Absender gesendet wurde _und_ dass Ihre Antwort ebenfalls durchgehend Ende-zu-Ende verschlüsselt wird.
 
-- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
+- Wenn **kein Vorhängeschloss** vorhanden ist, wird die Nachricht normalerweise unverschlüsselt transportiert, z.B. weil der Absender oder Sie die Ende-zu-Ende-Verschlüsselung deaktiviert haben oder der Absender eine Anwendung ohne Unterstützung für die Ende-zu-Ende-Verschlüsselung verwendet.
 
 
-## Wie kann ich den Absender überprüfen?
+## How can I verify the sender?
 
-The user's profile shows some additional info:
+Das Benutzerprofil zeigt einige zusätzliche Informationen:
 
 - Tap "QR Invite code" on Android and then use the "Scan QR code"
   button on another device to scan this code. If both devices are online,
@@ -148,15 +145,16 @@ The user's profile shows some additional info:
 - Bei der Transportverschlüsselung wird dieser Zustand dort nur angezeigt.
 
 
-## Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
+## Which standards are used for end-to-end-encryption?
 
-- OpenPGP. Der Schlüsselaustausch findet automatisch über den [Autocrypt](https://autocrypt.org)-Standard statt.
+- OpenPGP. Key transport is done via [Autocrypt](https://autocrypt.org).
 
-## Kann ich meinen existierenden privaten Schlüssel weiter verwenden?
+## Can I re-use my existing private key?
 
-- Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+- Ja. Der beste Weg ist, von der anderen E-Mail-Anwendung aus eine _Autocrypt Setup Nachricht_ zu versenden. Suchen Sie eine solche Option in den Einstellungen der anderen Anwendung z.B. unter "Autocrypt Setup Transfer starten" und folgen Sie den dort angezeigten Hinweisen.
 
-- Alternatively, you can import the key manually in "Advanced settings / Manage private keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Alternativ können Sie den Schlüssel manuell unter "Einstellungen / Erweitert / Schlüssel verwalten" importieren. 
+Achtung: Der private Schlüssel darf _nicht_ mit einem Passwort geschützt sein bzw. muss dieses zuvor entfernt werden.
 
 Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen benötigen - keine Sorge: Delta Chat erstellt einen Schlüssel, wenn er benötigt wird.
 
@@ -172,37 +170,34 @@ With a very good chance, the problem is that your key is encrypted and/or uses
 a password. Such keys are not supported by Delta Chat. Please remove the
 encryption and the password and try the import again.
 
-Removing the password from the private key will be different, depending on the
-software you use to manage your PGP keys. With Enigmail, you can set your
-password to an empty value in the Key Management window. With GnuPG you can set
-it [via the command
-line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
-For other programs, you can find a solution online.
+Das Entfernen des Passworts vom privaten Schlüssel ist abhängig von der Software, mit der Sie Ihre PGP-Schlüssel verwalten. 
+Bei Enigmail können Sie Ihr Passwort im Fenster Schlüsselverwaltung auf einen leeren Wert setzen.
+Bei GnuPG können Sie es über die [Kommandozeile einstellen](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
+Für andere Programme können Sie online eine Lösung finden.
 
-# Mehrere Geräte verwenden {#multiclient}
+# Multi-client {#multiclient}
 
 ## Can I use Delta Chat on multiple devices at the same time?
 
-If you want to use the **same account** on different (Autocrypt
-capable) devices, you have to sync their encryption capabilities: 
+Wenn Sie **dasselbe Konto** auf unterschiedlichen (Autocrypt-fähigen) Geräten verwenden möchten, muss die Verschlüsselungsfunktion synchronisiert werden:
 
 - Wählen Sie auf dem ersten Gerät "Weitere Einstellungen / Autocrypt-Setup-Nachricht versenden"
 und klicken Sie, bis ein "Setup-Code" angezeigt wird. 
 
-- On the other device, wait for the "Autocrypt Setup Message" to
-  arrive and click on it, which should prompt you for the security number. 
+- Warten Sie auf dem anderen Gerät, bis die "Autocrypt Setup Nachricht" ankommt
+und klicken Sie diese an. Eine Abfrage des Sicherheitscodes sollte nun erscheinen.
 
-- You are now synchronized, and can use both devices for
-  sending and receiving E2E-encrypted messages with your communication partners. 
+- Die Synchronisation ist nun erfolgreich und Sie können beiden Geräte
+zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten Nachrichten an Ihre Kommunikationspartner verwenden.
 
-# Verschiedenes {#miscellaneous}
+# Miscellaneous
 
-## Funktioniert Delta Chat mit _meinem_ E-Mail-Anbieter?
+## Does Delta Chat work with _my_ e-mail-provider?
 
 - Mit ziemlich hoher Wahrscheinlichkeit: Ja :) 
 Allerdings benötigen einige Anbieter besondere Optionen, um ordnungsgemäß zu funktionieren; eine von Nutzern erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://support.delta.chat/t/provider-overview/).
 
 
-## Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
+## I'm interested in the technical details. Can you tell me more?
 
-- See [Standards used in Delta Chat]({% include standards-url %}).
+- Siehe hierzu [in Delta Chat genutzte Standards]({% include standards-url %}).

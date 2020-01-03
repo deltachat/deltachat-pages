@@ -1,41 +1,41 @@
 nl:
   
   meta:
-    description: Delta Chat - Email Based Instant Messenger
-    keywords: "delta chat, email messaging app, download delta chat"
-    rss_news_title: Delta Chat News
+    description: Delta Chat - chatten via e-mail
+    keywords: "delta chat, e-mailchat-app, download delta chat"
+    rss_news_title: Delta Chat-nieuws
 
   menu:
-    home: Home
-    download: Download
+    home: Startpagina
+    download: Downloaden
     blog: Blog
-    contribute: Contribute
-    help: FAQ
+    contribute: Bijdragen
+    help: Veelgestelde vragen
     forum: Forum
 
-  subscribe_to_feed: Subscribe to our feed
+  subscribe_to_feed: Abonneren op onze feed
 
-  references: References
-  imprint: Imprint
-  privacy: Privacy Policy
-  language: Language
+  references: Verwijzingen
+  imprint: Over Delta Chat
+  privacy: Privacybeleid
+  language: Taal
 
   download:
-    recommendation: Recommended for you
-    other: Other platforms
-    source_code: Source Code
-    install_via_packagemanager: Install via Package Manager
-    outdated: outdated
-    dl_flathub: Download from Flathub
-    dl_microsoft: Download from Microsoft Store
-    dl_mac_appstore: Download on Apple Mac AppStore
-    dl_appstore: Download on Apple AppStore
-    beta_on: Beta on
-    dl_fdroid: Get it on F-Droid
-    beta_gplay: Beta testing on Google Play
+    recommendation: Aanbeveling
+    other: Andere besturingssystemen
+    source_code: Broncode
+    install_via_packagemanager: Installeren via pakketbeheerder
+    outdated: verouderd
+    dl_flathub: Installeren via Flathub
+    dl_microsoft: Installeren via de Microsoft Store
+    dl_mac_appstore: Installeren via de Apple App Store (macOS)
+    dl_appstore: Installeren via de Apple App Store (iOS)
+    beta_on: Bètaversie op
+    dl_fdroid: Installeren via F-Droid
+    beta_gplay: Bètaversie op Google Play
     dl_amazon:
-      small: Get it on
+      small: Installeren via
       title: Amazon Appstore
     dl_apk_text:
-      before: You can also download as
-      after: (experimental)
+      before: Je kunt Delta Chat ook downloaden als
+      after: (experimenteel)

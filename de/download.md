@@ -1,5 +1,5 @@
 ---
-title: Get Delta Chat
+title: Delta Chat beziehen
 lang: de
 downloads: true
 ---
@@ -12,15 +12,15 @@ downloads: true
 
 # Links
 
-* [FAQ multiclient](help#multiclient) page on how to synchronize Desktop with another Delta app. 
-* [Verify Downloads](verify-downloads)
+* [FAQ Mehrere Geräte verwenden](help#multiclient) Synchronisation der Desktop- mit anderen Delta Chat Anwendungen.
+* [Downloads verifizieren](verify-downloads)
 
 ## Changelogs
 
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android]({% include changelog-url %})
-* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Delta Chat für Android]({% include changelog-url %})
+* [Delta Chat für iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
+* [Delta Chat Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-## Preview Builds:
-* [Desktop](https://download.delta.chat/desktop/preview/)
+## Vorabversionen:
+* [Delta Chat Desktop](https://download.delta.chat/desktop/preview/)

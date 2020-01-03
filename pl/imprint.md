@@ -1,5 +1,5 @@
 ---
-title: Imprint
+title: Wydawca
 lang: pl
 ---
 

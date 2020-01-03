@@ -11,4 +11,4 @@ lang: pt
 
 # Blog
 
-{% include blog.html %}
+{% incluir blog.html %}

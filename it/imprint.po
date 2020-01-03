@@ -1,23 +1,23 @@
 # Translators:
 # björn petersen <r10s@b44t.com>, 2018
 # Claudio Arseni <claudio.arseni@gmail.com>, 2018
-# Enrico B. <enricobe@hotmail.com>, 2018
+# Enrico B. <enricobe@hotmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 20:57+0200\n"
+"POT-Creation-Date: 2020-01-02 15:31+0200\n"
 "PO-Revision-Date: 2018-03-23 12:40+0000\n"
-"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2018\n"
+"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/delta-chat/teams/76181/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #: ../en/imprint.md:5
 msgid ""
@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "---\n"
 "title: Imprint\n"
-"lang: en\n"
+"lang: it\n"
 "---"
 
 #: ../en/imprint.md:7

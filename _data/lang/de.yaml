@@ -1,7 +1,7 @@
 de:
   
   meta:
-    description: Delta Chat - Email Based Instant Messenger
+    description: Delta Chat - E-Mail basierender Instant Messenger
     keywords: "delta chat, email messaging app, download delta chat"
     rss_news_title: Delta Chat Neuigkeiten
 
@@ -26,15 +26,15 @@ de:
     source_code: Quellcode
     install_via_packagemanager: Über Paketmanager installieren
     outdated: veraltet
-    dl_flathub: Download from Flathub
-    dl_microsoft: Download from Microsoft Store
-    dl_mac_appstore: Download on Apple Mac AppStore
-    dl_appstore: Download on Apple AppStore
+    dl_flathub: Download von Flathub
+    dl_microsoft: Download aus dem Microsoft Store
+    dl_mac_appstore: Download aus dem Apple Mac AppStore
+    dl_appstore: Download aus dem Apple AppStore
     beta_on: Beta auf
     dl_fdroid: Hols dir von F-Droid
-    beta_gplay: Beta testing on Google Play
+    beta_gplay: Vorabtest (Beta testing) auf Google Play
     dl_amazon:
-      small: Get it on
+      small: Beziehe es von
       title: Amazon Appstore
     dl_apk_text:
       before: Du kannst Delta Chat Android auch als experimentelle
