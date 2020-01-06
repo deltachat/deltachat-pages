@@ -247,12 +247,12 @@ The user's profile shows some additional info:
   Delta Chat private key is leaked, and someone has a record
   of all your in-transit messages, they will be able to read them.  
 
-- Note that if anyone has seized or hacked your running phone, 
-  they will typically be able to read all messages, no matter if Perfect
-  Forward Secrecy is in place or not.  Having access to a single device
-  from a member of a group, will typically a lot of the social graph. 
-  Using e-mail addresses that are not easily tracked back to persons
-  helps group members to stay safer from the effects of device seizure. 
+- Note that if anyone has seized or hacked your running phone, they will
+  typically be able to read all messages, no matter if Perfect Forward Secrecy
+  is in place or not. Having access to a single device from a member of a group,
+  will typically expose a lot of the social graph. Using e-mail addresses that
+  are not easily tracked back to persons helps group members to stay safer from
+  the effects of device seizure. 
 
 - We are sketching ways to protect communications better against the event
   of device seizure. 
