@@ -69,13 +69,20 @@ Translate the website
 You can edit and improve the existing translations 
 with [Transifex](https://www.transifex.com/delta-chat/delta-chat-pages/). 
 To **update existing translations from** the Transifex server, 
-see the scripts and the documentation in the `tools` folder.
+see the scripts in the `tools` folder.
 
-To **add a new language**, the followinging steps are required once:
+### Before you run anything follow these initial setup steps:
 
-- create a new layout in `/_layouts/default-<lang>.html` 
-  and make sure that this layout is referenced in the 
-  corresponding Transifex entries as `layout: default-<lang>`
+- make sure `translate-toolkit` and `transifex-client` are installed
+
+- run following commands
+```
+tx init --user=api --pass=<your api token>
+tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
+```
+for more info see the comments in `./tools/t-dance.sh`.
+
+### To **add a new language**, the followinging steps are required once:
 
 - create directory `/<lang>`
 
@@ -85,7 +92,7 @@ To **add a new language**, the followinging steps are required once:
 - check the language selection in `/index.html` 
   and in `/_includes/footer-languages.html`.
 
-To **add a new page**:
+### To **add a new page**:
 
 - create the source as `en/<name>.md`
 
