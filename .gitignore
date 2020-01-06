@@ -16,3 +16,5 @@ build/
 
 # for an optional virtual env folder
 venv/ 
+
+vendor/bundle
