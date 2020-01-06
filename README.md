@@ -10,7 +10,7 @@ Formatting of blog posts and web pages
 In the various source text files that are used 
 for generating the static https://delta.chat website 
 we use [Semantic linefeeds](http://rhodesmill.org/brandon/2012/one-sentence-per-line/)
-to keep "diffs" for changes small.  The gist of it is
+to keep "diffs" for changes small. The gist of it is
 that you put each "phrase" part of a sentence into a single line.
 
 
@@ -18,10 +18,10 @@ How to create a new blog post
 --------------------------------------------------------------------------------
 
 - In the directory `_posts` create new file in the form `YYYY-MM-DD-title.md` 
-  eg. by copying an existing file
+  e.g by copying an existing file.
 
 - Write your blog post to the file and do not forget 
-  to add or modify the `title:` and `author:` line atop
+  to add or modify the `title:` and `author:` line atop it.
 
 - That's all, the result goes to https://delta.chat/en/blog , and the
   [RSS-Feed](https://delta.chat/feed.xml). Ping r10s or compl4xx on
@@ -34,7 +34,7 @@ How to create a new blog post
 Testing changes
 --------------------------------------------------------------------------------
 
-- You can create your fork on Github and Github pages; 
+- You can create your fork on GitHub and GitHub pages; 
   the forked website will then be available at 
   `https://<your-username>.github.io/deltachat-pages/`
 
@@ -49,18 +49,18 @@ Directory structure
 
 - `/en` - Contains the source language files in Markdown. Can be edited directly.
 
-- `/de`, `/es`, `fr` ... - Contain the translated files; 
+- `/de`, `/es`, `fr` … - Contain the translated files; 
   translation is done through .po files that are translated using Transifex, see above. 
-  You must not edit translated files directly here 
+  You must not edit translated files directly here, 
   but you can add additional files that are unique to the language.
 
 - `/_layouts` - This directory contains a default layout template 
   for each language (the layout is referenced in Markdown using _layout: name_)
 
 - `/assets` - Page specific images and files; 
-  in general, we use one subdirectory per page or section here.
+  in general, we use one subdirectory per page or section.
 
-- `/assets/css` - CSS and layout specific images and files here.
+- `/assets/css` - CSS and layout specific images and files.
 
 
 Translate the website
@@ -84,10 +84,10 @@ for more info see the comments in `./tools/t-dance.sh`.
 
 ### To **add a new language**, the followinging steps are required once:
 
-- create directory `/<lang>`
+- create the directory `/<lang>`
 
 - add the language to `tlangs` in `/tools/t-dance.sh` 
-  and run `./t-dance.sh pull` from the `tools`-direcory
+  and run `./t-dance.sh pull` from the `tools`-directory.
 
 - check the language selection in `/index.html` 
   and in `/_includes/footer-languages.html`.
@@ -98,7 +98,7 @@ for more info see the comments in `./tools/t-dance.sh`.
 
 - modify `tools/.tx/config` - add a section for the new page
   modify `tools/t-dance.sh` - add your page to `sfiles` variable
-  and create dir `translations/delta-chat-pages.<name>po/`
+  and create dir `translations/delta-chat-pages.<name>po/`.
 
 - run `cd tools; ./t-dance push`
 
@@ -106,32 +106,32 @@ for more info see the comments in `./tools/t-dance.sh`.
 Further Hints
 --------------------------------------------------------------------------------
 
-- whereever possible, use **Markdown** instead of HTML, 
-  esp. in the files that should be translated
+- wherever possible, use **Markdown** instead of HTML, 
+  esp. in files for translation.
 
-- **no JavaScript** whereever possible, 
-  no **weird CSS** nor other complicated things
+- **no JavaScript** wherever possible, 
+  no **weird CSS** nor other complicated things.
 
 - the layout should be **as simple as possible** 
-  and should always work on **small mobile screens** as well as on **desktops**
+  and should always work on **small mobile screens** as well as on **desktops**.
 
-- when layouting, do not force a special structure.  Header, Content, Footer - done.
+- when layouting, do not force a special structure. Header, Content, Footer - done.
 
-- no complex navigation - Simply link subpages from the main pages
+- no complex navigation - Simply link subpages from the main pages.
 
 - **no one-page-layout** - we also have sites with long text, 
-  and we do not want to have separate layouts
+  and we do not want to have separate layouts.
 
 - we do not want a complex navigation, some toplinks, a footer, done.
 
 - Remember: **Form follows function, KISS.** The site should be dead-simple.
 
-- Finally: Have fun :-)
+- Finally: Have fun :)
 
 
 License
 --------------------------------------------------------------------------------
 
-Licensed under the GPLv3, see LICENSE file for details.
+Licensed GPLv3+, see the LICENSE file for details.
 
-Copyright © 2017-2019 Delta Chat contributors
+Copyright © 2017–2020 Delta Chat contributors
