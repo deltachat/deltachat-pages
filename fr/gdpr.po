@@ -1,21 +1,22 @@
 # Translators:
 # polo lancien <polo.lancien@aliceadsl.fr>, 2019
+# Chang Ly <chang.ly.la@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 20:57+0200\n"
+"POT-Creation-Date: 2020-01-02 15:31+0200\n"
 "PO-Revision-Date: 2019-01-27 23:24+0000\n"
-"Last-Translator: polo lancien <polo.lancien@aliceadsl.fr>, 2019\n"
+"Last-Translator: Chang Ly <chang.ly.la@gmail.com>, 2020\n"
 "Language-Team: French (https://www.transifex.com/delta-chat/teams/76181/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #: ../en/gdpr.md:5
 msgid ""
@@ -27,7 +28,7 @@ msgstr ""
 
 #: ../en/gdpr.md:7
 msgid "# Note on privacy and GDPR "
-msgstr ""
+msgstr "# Note sur la vie privée et le RGPD"
 
 #: ../en/gdpr.md:12
 msgid ""
@@ -39,7 +40,7 @@ msgstr ""
 
 #: ../en/gdpr.md:14
 msgid "#  How Delta Chat complies to the GDPR "
-msgstr ""
+msgstr "# Comment Delta Chat se conforme au RGPD"
 
 #: ../en/gdpr.md:16
 msgid ""

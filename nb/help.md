@@ -11,7 +11,7 @@ header: Frequently Asked Questions
 
 
 
-## Generelt
+## General
 
 ### What is Delta Chat? 
 
@@ -26,7 +26,7 @@ With Delta Chat, you can write to every existing e-mail address - even
 if the recipient is not using the Delta Chat app. No need for the
 recipient to install the same app as yours, as with other messengers.
 
-### Hva er fordelene med Delta Chat sammenlignet med andre meldingsforsendelsessystemer?
+### What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data is not saved on a central server unless all users are using
@@ -42,7 +42,7 @@ recipient to install the same app as yours, as with other messengers.
 - _Trustworthy_ - can even be used for business messages.
 - _Copyleft_ and _Standards_ based libre software.
 
-### Hvilke meldinger vises i Delta Chat?
+### Which messages do appear in Delta Chat?
 
 Delta Chat automatically shows:
 
@@ -58,7 +58,7 @@ Other messages do not appear automatically, and are to be found in the main menu
 - As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
 - However, if needed, you can **block** any contact.
 
-### Støtter Delta Chat bilder, videoer og andre vedlegg?
+### Does Delta Chat support images, videos and other attachments?
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
 
@@ -120,7 +120,7 @@ about feedback which makes the app more secure for all of our users.
   - view Wi-Fi connections: to connect to your E-Mail provider
   - ask to ignore battery optimisations: for users who want to receive messages all the time
 
-## Grupper
+## Groups
 
 ### Creation of a group
 
@@ -151,12 +151,12 @@ about feedback which makes the app more secure for all of our users.
   developments around qr-join protocols are taking place so chances
   are we remove the "experimental" label not too far in the future. 
 
-### Jeg har slettet meg selv ved en feiltagelse.
+### I have deleted myself by accident.
 
 - As you're no longer a group member, you cannot add yourself again. 
   However, no problem, just ask any other group member in a normal chat to re-add you.
 
-### Jeg ønsker ikke lenger å motta meldinger fra en gruppe.
+### I do not want to receive the messages of a group any longer.
 
 - Either delete yourself from the member list or delete the whole chat. 
   If you want to join the group again later on, ask another group member to add you again.
@@ -164,14 +164,14 @@ about feedback which makes the app more secure for all of our users.
 - As an alternative, you can also "Mute" a group - doing so means you get all messages and 
   can still write, but are no longer notified of any new messages.
 
-## Kryptering {#encryption}
+## Encryption {#encryption}
 
 ### Does Delta Chat support end-to-end-encryption?
 
 - Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
   thus E2E-encrypt messages with other Autocrypt-capable apps. 
 
-### Hva må jeg gjøre for å aktivere ende-til-ende -kryptering?
+### What do I have to do to activate the end-to-end-encryption?
 
 - Ingenting.
 
@@ -185,7 +185,7 @@ about feedback which makes the app more secure for all of our users.
 - If you want to _turn off_ the end-to-end-encryption, 
   use the corresponding setting in "Settings / Advanced settings".
 
-### Hvis ende-til-ende -kryptering ikke er tilgjengelig, er tilkoblingen kryptert overhodet?
+### If end-to-end-encryption is not available, is the connection not encrypted at all?
 
 - With most mail servers, Delta Chat establishes _transport encryption_
   ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
@@ -217,7 +217,7 @@ The user's profile shows some additional info:
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
 
-### Hvilke standarder brukes for ende-til-ende -kryptering?
+### Which standards are used for end-to-end-encryption?
 
 - [Autocrypt](https://autocrypt.org) is used for establishing
   e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
@@ -317,7 +317,7 @@ For other programs, you can find a solution online.
   FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
 
 
-## Multi-klient {#multiclient}
+## Multi-client {#multiclient}
 
 ### Can I use Delta Chat on multiple devices at the same time?
 
@@ -333,7 +333,7 @@ capable) devices, you have to sync their encryption capabilities:
 - You are now synchronized, and can use both devices for
   sending and receiving E2E-encrypted messages with your communication partners. 
 
-## Ymse
+## Miscellaneous
 
 ### Does Delta Chat work with _my_ e-mail-provider?
 
@@ -341,6 +341,6 @@ capable) devices, you have to sync their encryption capabilities:
   However, some providers need special options to work properly; users have collected some of them in the forum at [Provider Overview](https://support.delta.chat/t/provider-overview/)
 
 
-### Jeg er interessert i de tekniske detaljene. Kan du fortelle meg mer?
+### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).

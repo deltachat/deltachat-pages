@@ -1,0 +1,41 @@
+sq:
+  
+  meta:
+    description: Delta Chat - Shkëmbim i Atypëratyshëm Mesazhesh Përmes Email-i
+    keywords: "delta chat, aplikacion shkëmbimi mesazhesh përmes email-i, shkarkoni delta chat-in"
+    rss_news_title: Lajme Delta Chat-i
+
+  menu:
+    home: Kreu
+    download: Shkarkim
+    blog: Blog
+    contribute: Jepni ndihmesë
+    help: PBR
+    forum: Forum
+
+  subscribe_to_feed: Pajtohuni te prurja jonë
+
+  references: Referenca
+  imprint: Imprint
+  privacy: Rregulla Privatësie
+  language: Gjuhë
+
+  download:
+    recommendation: Këshilluar për ju
+    other: Platforma të tjera
+    source_code: Kod Burim
+    install_via_packagemanager: Instalojeni përmes Përgjegjësi Paketash
+    outdated: e vjetruar
+    dl_flathub: Shkarkojeni nga Flathub
+    dl_microsoft: Shkarkojeni nga Microsoft Store
+    dl_mac_appstore: Shkarkojeni nga Apple Mac AppStore
+    dl_appstore: Shkarkojeni nga Apple AppStore
+    beta_on: Beta në
+    dl_fdroid: Merreni nga F-Droid
+    beta_gplay: Testim Beta në Google Play
+    dl_amazon:
+      small: Merreni nga
+      title: Amazon Appstore
+    dl_apk_text:
+      before: Mund ta shkarkoni edhe si
+      after: (ekperimental)

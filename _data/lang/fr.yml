@@ -1,0 +1,41 @@
+fr:
+  
+  meta:
+    description: ""
+    keywords: ""
+    rss_news_title: ""
+
+  menu:
+    home: Accuel
+    download: ""
+    blog: Blog
+    contribute: Contribuer
+    help: FAQ
+    forum: ""
+
+  subscribe_to_feed: ""
+
+  references: ""
+  imprint: ""
+  privacy: Politique de confidentialité
+  language: Langue
+
+  download:
+    recommendation: ""
+    other: ""
+    source_code: ""
+    install_via_packagemanager: ""
+    outdated: ""
+    dl_flathub: ""
+    dl_microsoft: ""
+    dl_mac_appstore: ""
+    dl_appstore: ""
+    beta_on: ""
+    dl_fdroid: ""
+    beta_gplay: ""
+    dl_amazon:
+      small: ""
+      title: ""
+    dl_apk_text:
+      before: ""
+      after: ""

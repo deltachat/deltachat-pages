@@ -1,0 +1,41 @@
+it:
+  
+  meta:
+    description: Delta Chat - Messaggistica istantanea basata sulle email
+    keywords: "delta chat, email messaging app, download delta chat"
+    rss_news_title: Notizie su Delta Chat
+
+  menu:
+    home: Home
+    download: Scarica
+    blog: Blog
+    contribute: Supporta
+    help: FAQ
+    forum: Forum
+
+  subscribe_to_feed: Iscriviti al feed
+
+  references: Riferimenti
+  imprint: Imprint
+  privacy: Privacy Policy
+  language: Lingua
+
+  download:
+    recommendation: Consigliati per te
+    other: Altre piattaforme
+    source_code: Codice sorgente
+    install_via_packagemanager: Installa tramite Package Manager
+    outdated: obsoleto
+    dl_flathub: Scarica da Flathub
+    dl_microsoft: Scarica da Microsoft Store
+    dl_mac_appstore: Scarica da Apple Mac AppStore
+    dl_appstore: Scarica da Apple AppStore
+    beta_on: Beta su
+    dl_fdroid: Scarica da F-Droid
+    beta_gplay: Versioni beta su Google Play
+    dl_amazon:
+      small: Scarica da
+      title: Amazon Appstore
+    dl_apk_text:
+      before: Puoi anche scaricarlo come
+      after: (sperimentale)

@@ -1,0 +1,41 @@
+sr_RS:
+  
+  meta:
+    description: ""
+    keywords: ""
+    rss_news_title: ""
+
+  menu:
+    home: ""
+    download: ""
+    blog: ""
+    contribute: ""
+    help: ""
+    forum: ""
+
+  subscribe_to_feed: ""
+
+  references: ""
+  imprint: ""
+  privacy: ""
+  language: ""
+
+  download:
+    recommendation: ""
+    other: ""
+    source_code: ""
+    install_via_packagemanager: ""
+    outdated: ""
+    dl_flathub: ""
+    dl_microsoft: ""
+    dl_mac_appstore: ""
+    dl_appstore: ""
+    beta_on: ""
+    dl_fdroid: ""
+    beta_gplay: ""
+    dl_amazon:
+      small: ""
+      title: ""
+    dl_apk_text:
+      before: ""
+      after: ""

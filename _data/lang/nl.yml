@@ -1,0 +1,41 @@
+nl:
+  
+  meta:
+    description: Delta Chat - chatten via e-mail
+    keywords: "delta chat, e-mailchat-app, download delta chat"
+    rss_news_title: Delta Chat-nieuws
+
+  menu:
+    home: Startpagina
+    download: Downloaden
+    blog: Blog
+    contribute: Bijdragen
+    help: Veelgestelde vragen
+    forum: Forum
+
+  subscribe_to_feed: Abonneren op onze feed
+
+  references: Verwijzingen
+  imprint: Over Delta Chat
+  privacy: Privacybeleid
+  language: Taal
+
+  download:
+    recommendation: Aanbeveling
+    other: Andere besturingssystemen
+    source_code: Broncode
+    install_via_packagemanager: Installeren via pakketbeheerder
+    outdated: verouderd
+    dl_flathub: Installeren via Flathub
+    dl_microsoft: Installeren via de Microsoft Store
+    dl_mac_appstore: Installeren via de Apple App Store (macOS)
+    dl_appstore: Installeren via de Apple App Store (iOS)
+    beta_on: Bètaversie op
+    dl_fdroid: Installeren via F-Droid
+    beta_gplay: Bètaversie op Google Play
+    dl_amazon:
+      small: Installeren via
+      title: Amazon Appstore
+    dl_apk_text:
+      before: Je kunt Delta Chat ook downloaden als
+      after: (experimenteel)

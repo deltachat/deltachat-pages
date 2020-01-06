@@ -9,14 +9,14 @@ lang: fr
 
 
 
-# Note on privacy and GDPR 
+# Note sur la vie privée et le RGPD
 
 The General Data Protection Regulation (GDPR) is often regarded
 as the furthest reaching legislation for privacy protection of users. 
 On this page we detail how the Delta Chat app easily complies 
 with GDPR requirements. 
 
-#  How Delta Chat complies to the GDPR 
+# Comment Delta Chat se conforme au RGPD
 
 - Implements the **Privacy by Design** requirement of the GDPR, through
 

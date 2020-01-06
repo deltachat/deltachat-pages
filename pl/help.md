@@ -28,19 +28,18 @@ instalować tej samej aplikacji co Twoja, tak jak w przypadku innych komunikator
 
 ### Jakie są zalety Delta Chat w porównaniu z innymi komunikatorami?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _Compatible_ - not only to itself.
-- _Elegant_ and _simple_ user interface.
-- _Distributed_ system.
-- _No Spam_ - only messages of known users are shown by default.
-- _Reliable_ - safe for professional use.
-- _Trustworthy_ - can even be used for business messages.
-- _Copyleft_ and _Standards_ based libre software.
+- _Niezależny_ od jakiejkolwiek firmy lub usług. _Jesteś_ właścicielem swoich danych.
+- Twoje dane nie są zapisywane na centralnym serwerze, chyba że wszyscy użytkownicy korzystają z tych samych serwerów e-mail
+- Nie udostępniasz nikomu swojej książki adresowej
+- _Szybki_ dzięki użyciu Push-IMAP
+- _Największa baza użytkowników_ - możesz rozmawiać nawet z tymi, którzy _nie_ posiadają Delta Chat
+- _Zgodny_ - nie tylko z samym sobą
+-  _Elegancki_ i _prosty_ interfejs użytkownika
+- _Rozproszony_ system
+- _Brak spamu_ - domyślnie wyświetlane są, tylko wiadomości znanych użytkowników
+- _Niezawodny_ - bezpieczny do użytku profesjonalnego
+- _Godny zaufania_ - może być wykorzystywany nawet do wiadomości biznesowych
+- Wolne oprogramowanie oparte na _Systemie licencjonowania praw autorskich_ i _Standardach_
 
 ### Jakie wiadomości pojawiają się w Delta Chat?
 
@@ -133,7 +132,7 @@ about feedback which makes the app more secure for all of our users.
 - Każdy członek grupy ma **takie same prawa** jak każdy inny. Z tego powodu każdy może usunąć każdego członka lub dodać nowego.
 - Aby dodać lub usunąć członków, kliknij nazwę grupy na czacie. 
 
-### Co to jest zweryfikowana grupa? Why is it experimental? 
+### What is a verified group? Why is it experimental? 
 
 - A verified group is a chat that gurantees safety against an active
   attacker.  All Messages in a verified chat view are e2e-encrypted, and
@@ -181,7 +180,7 @@ about feedback which makes the app more secure for all of our users.
 - Jeśli chcesz _wyłączyć_ szyfrowanie end-to-end, 
   użyj odpowiedniego ustawienia w „Ustawienia » Ustawienia zaawansowane”.
 
-### Czy połączenie nie jest w ogóle szyfrowane, jeśli szyfrowanie end-to-end nie jest dostępne?
+### If end-to-end-encryption is not available, is the connection not encrypted at all?
 
 - With most mail servers, Delta Chat establishes _transport encryption_
   ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
@@ -189,31 +188,27 @@ about feedback which makes the app more secure for all of our users.
   server. Whereas e2e-encryption provides safety between 
   your device and a friend's device. 
 
-### How can I verify cryptographic status with a sender? 
+### Jak mogę zweryfikować status kryptograficzny z nadawcą?
 
 Profil użytkownika zawiera dodatkowe informacje:
 
 - Nacisnąć na Androidzie „Kod QR zaproszenia”, a następnie użyj przycisku
-  „Skanuj kod QR” na innym urządzeniu, aby zeskanować ten kod. Jeśli oba urządzenia 
-są w trybie online, nawiążą ze sobą czat (jeśli jeszcze nie istnieje) i zostaną 
-zweryfikowane klucze szyfrowania. Both will see a
-  "sender verified" system message in their 1:1 chat. 
+  „Skanuj kod QR” na innym urządzeniu, aby zeskanować ten kod. Jeśli oba urządzenia są w trybie online, nawiążą ze sobą czat (jeśli jeszcze nie istnieje) i zostaną zweryfikowane klucze szyfrowania. Obaj zobaczą komunikat systemowy „zweryfikowany nadawca” na czacie 1:1.
 
-- For end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If the same fingerprints appears on your chat partner's device, 
-  the connection is safe.
+- W przypadku szyfrowania metodą end-to-end Delta Chat pokazuje tam dwa odciski palców. 
+Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, połączenie jest bezpieczne.
 
 - W przypadku szyfrowania transportu ten stan jest właśnie tam wyświetlany
 
 
-### How can I check the encryption of messages?
+### Jak mogę sprawdzić szyfrowanie wiadomości?
 
 - Jeśli obok wiadomości pojawi się mała **kłódka**, oznacza to, że wiadomość jest szyfrowana metodą end-to-end _i_ jest wysyłana od danego nadawcy _a_ twoja odpowiedź będzie również szyfrowana metodą end-to-end.
 
 - Jeśli **nie ma kłódki**, wiadomość jest zazwyczaj przesyłana w postaci niezaszyfrowanej, np. dlatego, że Ty lub nadawca wyłączyliście szyfrowanie typu end-to-end lub nadawca używa aplikacji, która nie obsługuje szyfrowania typu end-to-end.
 
 
-### Jakie standardy są używane do szyfrowania end-to-end?
+### Which standards are used for end-to-end-encryption?
 
 - [Autocrypt](https://autocrypt.org) is used for establishing
   e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
@@ -287,17 +282,9 @@ Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz  nie przejmuj si
 
 ### Nie mogę zaimportować istniejącego klucza PGP do Delta Chat.
 
-With a very good chance, the problem is that your key is encrypted and/or uses
-a password. Such keys are not supported by Delta Chat.  You may remove the
-passphrase encryption and the password and try the import again.  If you want
-to keep your passphrase you'll have to create an e-mail alias for use
-with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
+Jest wielce prawdopodobne, że problemem jest klucz, który jest zaszyfrowany i/lub używa hasła. Takie klucze nie są obsługiwane przez Delta Chat. Możesz usunąć frazę szyfrującą i hasło i spróbować ponownie zaimportować klucz. Jeśli chcesz zachować hasło, musisz utworzyć alias e-mail do użytku z Delta Chat, tak aby klucz Delta Chat był powiązany z tym aliasem e-mail.
 
-Format wise, Delta Chat supports common OpenPGP private key formats, however, it
-is unlikely that we will support 100% of all private keys of any sources. This
-is also not the main focus of Delta Chat (in fact, the large majority of the
-Delta Chat users will not have any key before they start using Delta).
-However, we try to support private keys from other sources as good as possible. 
+Rozsądny format, Delta Chat obsługuje popularne formaty kluczy prywatnych OpenPGP, jednak jest mało prawdopodobne, że będziemy obsługiwać 100% wszystkich kluczy prywatnych z dowolnych źródeł. To również nie jest głównym celem Delta Chat (w rzeczywistości, znaczna większość użytkowników Delta Chat nie będzie miała żadnego klucza przed rozpoczęciem korzystania z Delta). Jednak staramy się wspierać klucze prywatne z innych źródeł tak dobrze jak to tylko możliwe.
 
 Usunięcie hasła z klucza prywatnego będzie się różnić w zależności od 
 oprogramowania używanego do zarządzania kluczami PGP. Za pomocą programu Enigmail można ustawić 

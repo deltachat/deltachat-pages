@@ -13,7 +13,7 @@ header: Frequently Asked Questions
 
 ## General
 
-### ¿Qué es Delta Chat? 
+### What is Delta Chat? 
 
 <img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
 
@@ -26,7 +26,7 @@ With Delta Chat, you can write to every existing e-mail address - even
 if the recipient is not using the Delta Chat app. No need for the
 recipient to install the same app as yours, as with other messengers.
 
-### Cuáles son las ventajas de Delta Chat comparado con otras aplicaciones de mensajería?
+### What are the advantages of Delta Chat compared to other messengers?
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data is not saved on a central server unless all users are using
@@ -42,7 +42,7 @@ recipient to install the same app as yours, as with other messengers.
 - _Trustworthy_ - can even be used for business messages.
 - _Copyleft_ and _Standards_ based libre software.
 
-### ¿Cuáles mensajes aparecerán en Delta Chat?
+### Which messages do appear in Delta Chat?
 
 Delta Chat automatically shows:
 
@@ -58,7 +58,7 @@ Other messages do not appear automatically, and are to be found in the main menu
 - As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
 - However, if needed, you can **block** any contact.
 
-### Delta Chat soporta envío de imágenes, vidéos, documentos y otros archivos?
+### Does Delta Chat support images, videos and other attachments?
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
 
@@ -120,7 +120,7 @@ about feedback which makes the app more secure for all of our users.
   - view Wi-Fi connections: to connect to your E-Mail provider
   - ask to ignore battery optimisations: for users who want to receive messages all the time
 
-## Grupos
+## Groups
 
 ### Creation of a group
 
@@ -133,7 +133,7 @@ about feedback which makes the app more secure for all of our users.
 - Todos los miembros del grupo tienen los **mismos derechos** que los demás. Por esta razón, todos pueden eliminar o añadir miembros al grupo.
 - Para añadir o eliminar miembros, haga clic en el nombre del grupo en la pantalla de chat.
 
-### ¿Qué es un grupo verificado? Why is it experimental? 
+### What is a verified group? Why is it experimental? 
 
 - A verified group is a chat that gurantees safety against an active
   attacker.  All Messages in a verified chat view are e2e-encrypted, and
@@ -151,12 +151,12 @@ about feedback which makes the app more secure for all of our users.
   developments around qr-join protocols are taking place so chances
   are we remove the "experimental" label not too far in the future. 
 
-### Me he eliminado a mí mismo accidentalmente de un grupo.
+### I have deleted myself by accident.
 
 - As you're no longer a group member, you cannot add yourself again. 
   However, no problem, just ask any other group member in a normal chat to re-add you.
 
-### No quiero recibir nuevamente mensajes de un determinado grupo.
+### I do not want to receive the messages of a group any longer.
 
 - Either delete yourself from the member list or delete the whole chat. 
   If you want to join the group again later on, ask another group member to add you again.
@@ -164,14 +164,14 @@ about feedback which makes the app more secure for all of our users.
 - As an alternative, you can also "Mute" a group - doing so means you get all messages and 
   can still write, but are no longer notified of any new messages.
 
-## Encriptación {#encryption}
+## Encryption {#encryption}
 
-### ¿Delta Chat admite cifrado de extremo a extremo?
+### Does Delta Chat support end-to-end-encryption?
 
 - Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
   thus E2E-encrypt messages with other Autocrypt-capable apps. 
 
-### Qué debo hacer para activar la encriptacin de extremo a extremo?
+### What do I have to do to activate the end-to-end-encryption?
 
 - Nada.
 
@@ -185,7 +185,7 @@ about feedback which makes the app more secure for all of our users.
 - If you want to _turn off_ the end-to-end-encryption, 
   use the corresponding setting in "Settings / Advanced settings".
 
-### Si la encriptación extremo a extremo no está disponible, toda la comunicación es insegura?
+### If end-to-end-encryption is not available, is the connection not encrypted at all?
 
 - With most mail servers, Delta Chat establishes _transport encryption_
   ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
@@ -217,7 +217,7 @@ The user's profile shows some additional info:
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
 
-### ¿qué estándares se utilizan para el cifrado punto a punto?
+### Which standards are used for end-to-end-encryption?
 
 - [Autocrypt](https://autocrypt.org) is used for establishing
   e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
@@ -281,7 +281,7 @@ The user's profile shows some additional info:
   end-to-end-encryption protected, see also this upcoming [IETF
   RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
-### ¿Puedo reutilizar mi llave privada existente?
+### Can I re-use my existing private key?
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
@@ -317,7 +317,7 @@ For other programs, you can find a solution online.
   FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
 
 
-## Multiples dispositivos {#multiclient}
+## Multi-client {#multiclient}
 
 ### Can I use Delta Chat on multiple devices at the same time?
 
@@ -332,14 +332,14 @@ capable) devices, you have to sync their encryption capabilities:
 - You are now synchronized, and can use both devices for
   sending and receiving E2E-encrypted messages with your communication partners. 
 
-## Miscelaneo
+## Miscellaneous
 
-### ¿Delta Chat funciona con _mi_ proveedor de correo electrónico?
+### Does Delta Chat work with _my_ e-mail-provider?
 
 - Es muy probable que sí :)
 Sin embargo, algunos proveedores necesitan opciones especiales para funcionar correctamente; los usuarios han recopilado algunas de ellas en el foro en [Descripción de proveedores](https://support.delta.chat/t/provider-overview/)
 
 
-### Estoy interesado en los detalles técnicos. ¿Podrías decirme más?
+### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).

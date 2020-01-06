@@ -1,0 +1,41 @@
+pl:
+  
+  meta:
+    description: Delta Chat – komunikator oparty na poczcie e-mail
+    keywords: "delta chat, aplikacja do rozmów poprzez e-mail, pobierz delta chat"
+    rss_news_title: Aktualności Delta Chat
+
+  menu:
+    home: Home
+    download: Pobierz
+    blog: Blog
+    contribute: Wsparcie
+    help: FAQ
+    forum: Forum
+
+  subscribe_to_feed: Zapisz się do naszego kanału
+
+  references: Referencje
+  imprint: Wydawca
+  privacy: Polityka prywatności
+  language: Język
+
+  download:
+    recommendation: Polecany dla Ciebie
+    other: Inne platformy
+    source_code: Kod źródłowy
+    install_via_packagemanager: Zainstaluj za pomocą Menedżera pakietów
+    outdated: przestarzały
+    dl_flathub: Pobierz z Flathub
+    dl_microsoft: Pobierz z Microsoft Store
+    dl_mac_appstore: Pobierz z Apple Mac AppStore
+    dl_appstore: Pobierz z Apple AppStore
+    beta_on: Beta jest na
+    dl_fdroid: Pobierz z F-Droid
+    beta_gplay: Testy beta na Google Play
+    dl_amazon:
+      small: Pobierz z
+      title: Amazon Appstore
+    dl_apk_text:
+      before: Możesz także pobrać jako
+      after: (eksperymentalne)
