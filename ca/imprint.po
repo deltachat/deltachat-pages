@@ -24,6 +24,10 @@ msgid ""
 "lang: en\n"
 "---"
 msgstr ""
+"---\n"
+"title: Emprempta\n"
+"lang: ca\n"
+"---"
 
 #: ../en/imprint.md:7
 msgid "# Imprint"

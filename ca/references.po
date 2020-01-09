@@ -24,6 +24,10 @@ msgid ""
 "lang: en\n"
 "---"
 msgstr ""
+"---\n"
+"title: Referències\n"
+"lang: ca\n"
+"---"
 
 #: ../en/references.md:7
 msgid "# References"
