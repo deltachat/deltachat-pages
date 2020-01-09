@@ -25,6 +25,11 @@ msgid ""
 "downloads: true\n"
 "---"
 msgstr ""
+"---\n"
+"title: télécharger delta chat\n"
+"lang: fr\n"
+"downloads: true\n"
+"---"
 
 #: ../en/download.md:8
 msgid "# Links"
