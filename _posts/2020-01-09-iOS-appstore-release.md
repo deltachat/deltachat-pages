@@ -3,7 +3,7 @@ title: "Delta Chat Released for iPhones and iPads - Get it Now at the iOS Appsto
 author: compl4xx
 ---
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-family-group-chat.jpg" width="200" style="float: left; margin-right: 30px;display: block;" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-family-group-chat.jpg" width="200" style="float: right; margin: 10px;display: block;" /> 
 
 **Until yesterday, you could only use Delta Chat on Android, Windows, MacOS,
 and Linux. Now you can have the Delta experience on all major platforms!**
@@ -14,9 +14,9 @@ other Delta features.
 
 A short, non-exhaustive list what you can do with the app:
 
-- End-to-end encryption with other Delta users, starting with the second message
-- Group chats with your friends and family
-- Record and listen to voice messages & other audio files
+- **End-to-End Encryption** with other Delta users, starting with the second message
+- **Group chats** with your friends and family
+- Record and listen to **voice messages** & other audio files
 - Device chat for technical notifications
 - Dark mode
 
@@ -38,19 +38,15 @@ not! You can get the iOS app here:
 target="_blank"><img src="../assets/badges/get-it-on-ios.png" width="200"
 style="margin: 10px;" /></a>
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-chat-list.jpg" width="250" style="margin: 10px;display: block;" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-chat-list.jpg" width="250" style="float: right; margin: 10px;display: block;" /> 
 
 ## What's Next?
 
-Some features are still missing in the iOS version - they will follow in the next months.
-
-- Showing your profile picture to others
-- Sharing files with Delta Chat
-- Searching through your messages
+Some features are still missing in the iOS version - they will follow in the
+next months. Some examples are showing your profile picture to others, sharing
+files with Delta Chat, and searching through your messages.
 
 Stay tuned for new releases!
-
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-contacts-new-chat.jpg" width="200" style=" margin: 10px;display: block;" /> 
 
 ## Transfering Your Setup From Desktop to iOS
 
@@ -65,4 +61,6 @@ and import it on iOS. You can find this option in the settings.
 If you have problems with the app, please submit a new [iOS
 issue](https://github.com/deltachat/deltachat-ios/issues) or visit the [support
 forum](https://support.delta.chat). 
+
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-contacts-new-chat.jpg" width="200" style=" margin: 10px;display: block;" /> 
 
