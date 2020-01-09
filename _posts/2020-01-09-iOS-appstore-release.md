@@ -62,5 +62,5 @@ If you have problems with the app, please submit a new [iOS
 issue](https://github.com/deltachat/deltachat-ios/issues) or visit the [support
 forum](https://support.delta.chat). 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-contacts-new-chat.jpg" width="200" style=" margin: 10px;display: block;" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-contacts-new-chat.jpg" width="250" style=" margin: 10px;display: block;" /> 
 
