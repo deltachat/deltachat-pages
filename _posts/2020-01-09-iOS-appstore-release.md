@@ -1,5 +1,5 @@
 ---
-title: Delta Chat Released for iPhones and iPads: Get it Now at the iOS Appstore!
+title: "Delta Chat Released for iPhones and iPads - Get it Now at the iOS Appstore!"
 author: compl4xx
 ---
 
@@ -12,8 +12,6 @@ With Delta Chat, you can write with everyone who has an email address. But if
 both people use Delta Chat, it is even more convenient; then you can use many
 other convenient Delta features. 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-family-group-chat.jpg" width="200" style="float: right; margin: 10px;display: block;" /> 
-
 A short, non-exhaustive list what you can do with the app:
 
 - End-to-end encryption with other Delta users, starting with the second message
@@ -24,7 +22,7 @@ A short, non-exhaustive list what you can do with the app:
 
 More features will come in the next months.
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-contacts-new-chat.jpg" width="200" style="float: right; margin: 10px;display: block;" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-family-group-chat.jpg" width="200" style="float: left; margin: 10px;display: block;" /> 
 
 ## Add Your Friends!
 
@@ -39,7 +37,7 @@ So tell your friends to download Delta Chat as well, whether they are on iOS or
 not! You can get the iOS app here:
 
 <a href="https://apps.apple.com/app/delta-chat/id1459523234"
-target="_blank"><img src="../assets/badges/get-it-on-ios.png" width="350"
+target="_blank"><img src="../assets/badges/get-it-on-ios.png" width="200"
 style="margin: 10px;" /></a>
 
 ## What's Next?
@@ -51,6 +49,8 @@ Some features are still missing in the iOS version - they will follow in the nex
 - Search your messages
 
 So stay tuned for new releases!
+
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-contacts-new-chat.jpg" width="200" style="float: right; margin: 10px;display: block;" /> 
 
 ## Transfering Your Setup From Desktop to iOS
 
