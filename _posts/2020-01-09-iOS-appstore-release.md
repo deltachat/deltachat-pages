@@ -42,7 +42,7 @@ style="margin: 10px;" /></a>
 ## What's Next?
 
 Some features are still missing in the iOS version - they will follow in the
-next months. Some examples are showing your profile picture to others, sharing
+next months. Some examples are sharing
 files with Delta Chat, and searching through your messages.
 
 Stay tuned for new releases!
