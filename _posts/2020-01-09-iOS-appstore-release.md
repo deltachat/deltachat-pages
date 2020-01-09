@@ -52,7 +52,7 @@ Some features are still missing in the iOS version - they will follow in the nex
 
 So stay tuned for new releases!
 
-## Transfering the setup from Desktop to iOS
+## Transfering Your Setup From Desktop to iOS
 
 If you already use Delta Chat on other devices, you can transfer your
 encryption setup with the "Autocrypt Setup Message". You can find it in the
