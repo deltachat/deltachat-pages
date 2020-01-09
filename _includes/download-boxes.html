@@ -1,81 +1,82 @@
+{% assign txEn = site.data.lang['en']['en'] %}
 {% assign tx = site.data.lang[page.lang][page.lang] %}
 
 <div class="download-content">
     <div id="recommendation-section" hidden>
-        <h1>{{tx.download.recommendation}}:</h1>
+        <h1>{%if tx.download.recommendation == blank%}{{ tx.download.recommendation }}{%else%}{{ txEn.download.recommendation }}{%endif%}:</h1>
         <div id="recommend"></div>
-        <h1>{{tx.download.other}}:</h1>
+        <h1>{%if tx.download.other == blank%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}:</h1>
     </div>
     <div id="boxes">
         <div class="box" id="linux">
-            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{{tx.download.source_code}}</a>
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             <div class="title">GNU+Linux</div>
             <div class="buttons">
                 <a href="https://download.delta.chat/desktop/0.901.0/deltachat-desktop_0.901.0_amd64.deb" class="big-button">Debian / Ubuntu (.deb)</a>
                 <a href="https://download.delta.chat/desktop/0.901.0/DeltaChat-0.901.0.AppImage" class="big-button">Universal (.AppImage)</a>
                 <a href="https://flathub.org/apps/details/chat.delta.desktop" class="soon img-badge">
-                    <img src="../assets/badges/flathub.svg" alt="{{tx.download.flathub}}" />
+                    <img src="../assets/badges/flathub.svg" alt="{%if tx.download.flathub == blank%}{{ tx.download.flathub }}{%else%}{{ txEn.download.flathub }}{%endif%}" />
                 </a>
             </div>
-            <div class="sub-title">{{tx.download.install_via_packagemanager}}</div>
+            <div class="sub-title">{%if tx.download.install_via_packagemanager == blank%}{{ tx.download.install_via_packagemanager }}{%else%}{{ txEn.download.install_via_packagemanager }}{%endif%}</div>
             <p>
                 Arch <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/">(AUR)</a>:
                 <code>yay -S deltachat-desktop-git</code>
                 <br>
-                <a href="https://flathub.org/apps/details/chat.delta.desktop">Flatpak</a> ({{tx.download.outdated}}):
+                <a href="https://flathub.org/apps/details/chat.delta.desktop">Flatpak</a> ({%if tx.download.outdated == blank%}{{ tx.download.outdated }}{%else%}{{ txEn.download.outdated }}{%endif%}):
                 <code>flatpak install flathub chat.delta.desktop</code>
             </p>
         </div>
         <div class="box" id="windows">
-            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{{tx.download.source_code}}</a>
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             <div class="title">Windows</div>
             <div class="buttons">
                 <a href="https://download.delta.chat/desktop/0.901.0/DeltaChat%20Setup%200.901.0.exe" class="big-button">Setup (.exe)</a>
                 <a href="https://download.delta.chat/desktop/0.901.0/DeltaChat%200.901.0.exe" class="soon big-button">Portable (.exe)</a>
                 <a class="soon img-badge">
-                    <img src="../assets/badges/microsoft.svg" alt="{{tx.download.dl_microsoft}}" />
+                    <img src="../assets/badges/microsoft.svg" alt="{%if tx.download.dl_microsoft == blank%}{{ tx.download.dl_microsoft }}{%else%}{{ txEn.download.dl_microsoft }}{%endif%}" />
                 </a>
             </div>    
         </div>
         <div class="box" id="osx">
-            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{{tx.download.source_code}}</a>
+            <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             <div class="title">macOS</div>
             <div class="buttons">
                 <a href="https://download.delta.chat/desktop/0.901.0/DeltaChat-0.901.0.dmg" class="big-button">DMG</a>
                 <a class="soon img-badge">
-                    <img src="../assets/badges/mac-appstore.svg" alt="{{tx.download.dl_mac_appstore}}" />
+                    <img src="../assets/badges/mac-appstore.svg" alt="{%if tx.download.dl_mac_appstore == blank%}{{ tx.download.dl_mac_appstore }}{%else%}{{ txEn.download.dl_mac_appstore }}{%endif%}" />
                 </a>
             </div>
         </div>
         <div class="box" id="ios">
-            <a href="https://github.com/deltachat/deltachat-ios" class="source-link">{{tx.download.source_code}}</a>
+            <a href="https://github.com/deltachat/deltachat-ios" class="source-link">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             <div class="title">iOS (iPhone)</div>
             <div class="buttons">
-                <a href="https://testflight.apple.com/join/uEMc1NxS"><small>{{tx.download.beta_on}}</small> Testflight</a>
+                <a href="https://testflight.apple.com/join/uEMc1NxS"><small>{%if tx.download.beta_on == blank%}{{ tx.download.beta_on }}{%else%}{{ txEn.download.beta_on }}{%endif%}</small> Testflight</a>
                 <a class="img-badge" href="https://apps.apple.com/us/app/delta-chat/id1459523234">
-                    <img src="../assets/badges/get-it-on-ios.png" alt="{{tx.download.dl_appstore}}" />
+                    <img src="../assets/badges/get-it-on-ios.png" alt="{%if tx.download.dl_appstore == blank%}{{ tx.download.dl_appstore }}{%else%}{{ txEn.download.dl_appstore }}{%endif%}" />
                 </a>
             </div>
         </div>
         <div class="box" id="android">
-            <a href="https://github.com/deltachat/deltachat-android" class="source-link">{{tx.download.source_code}}</a>
+            <a href="https://github.com/deltachat/deltachat-android" class="source-link">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             <div class="title">Android</div>
             <div class="buttons">
                 <a href="" class="big-button soon">APK</a>
                 <a href="https://f-droid.org/app/com.b44t.messenger" class="img-badge">
-                    <img src="../assets/badges/get-it-on-fdroid.png" alt="{{tx.download.dl_fdroid}}" />
+                    <img src="../assets/badges/get-it-on-fdroid.png" alt="{%if tx.download.dl_fdroid == blank%}{{ tx.download.dl_fdroid }}{%else%}{{ txEn.download.dl_fdroid }}{%endif%}" />
                 </a>
                 <a href="https://play.google.com/store/apps/details?id=chat.delta" class="img-badge">
-                    <img src="../assets/badges/get-it-on-gplay-beta.png" alt="{{tx.download.beta_gplay}}"  />
+                    <img src="../assets/badges/get-it-on-gplay-beta.png" alt="{%if tx.download.beta_gplay == blank%}{{ tx.download.beta_gplay }}{%else%}{{ txEn.download.beta_gplay }}{%endif%}"  />
                 </a>
-                <a class="soon"><small>{{tx.download.dl_amazon.small}}</small>{{tx.download.dl_amazon.title}}</a>
+                <a class="soon"><small>{%if tx.download.dl_amazon.small == blank%}{{ tx.download.dl_amazon.small }}{%else%}{{ txEn.download.dl_amazon.small }}{%endif%}</small>{%if tx.download.dl_amazon.title == blank%}{{ tx.download.dl_amazon.title }}{%else%}{{ txEn.download.dl_amazon.title }}{%endif%}</a>
             </div>
             <p>
-            {{tx.download.dl_apk_text.before}}
+            {%if tx.download.dl_apk_text.before == blank%}{{ tx.download.dl_apk_text.before }}{%else%}{{ txEn.download.dl_apk_text.before }}{%endif%}
                 <a href="https://download.delta.chat/android/">
                 APK
                 </a>
-            {{tx.download.dl_apk_text.after}}
+            {%if tx.download.dl_apk_text.after == blank%}{{ tx.download.dl_apk_text.after }}{%else%}{{ txEn.download.dl_apk_text.after }}{%endif%}
             </p>
         </div>
     </div>
