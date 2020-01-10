@@ -45,12 +45,7 @@
 {% endif %}
 
 {% if page.render_toc == true %}
-    <details>
-    <summary>
-    Table of Contents
-    </summary>
     {% include toc.html html=content %}
-    </details>
 {% endif %}
 
 {% include anchor_headings.html html=content anchorClass="anchor" %}

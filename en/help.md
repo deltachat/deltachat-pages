@@ -1,15 +1,10 @@
 ---
 title: FAQ
 lang: en
+render_toc: true
+header: Frequently Asked Questions
 ---
 
-# Frequently Asked Questions {#top}
-
-- [What is Delta Chat? Basic Questions and Answers](#what-is-delta-chat)
-- [Groups in Delta Chat](#groups)
-- [About Encryption](#encryption)
-- [Multi-client](#multiclient)
-- [Miscellaneous Topics](#miscellaneous)
 
 ## What is Delta Chat?
 
