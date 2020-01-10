@@ -3,8 +3,7 @@ title: "Delta Chat Released for iPhones and iPads - Get it Now at the iOS Appsto
 author: compl4xx
 ---
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-family-group-chat.jpg" width="200" style="float: right; margin: 10px;display: block;" /> 
-
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="270" style="float: right; margin: 10px;display: block;" /> 
 **Until yesterday, you could only use Delta Chat on Android, Windows, MacOS,
 and Linux. Now you can have the Delta experience on all major platforms!**
 
@@ -43,7 +42,7 @@ style="margin: 10px;" /></a>
 ## What's Next?
 
 Some features are still missing in the iOS version - they will follow in the
-next months. Some examples are showing your profile picture to others, sharing
+next months. Some examples are sharing
 files with Delta Chat, and searching through your messages.
 
 Stay tuned for new releases!
