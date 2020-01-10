@@ -5,11 +5,11 @@ lang: en
 
 # Frequently Asked Questions
 
-- [What is Delta Chat?](#what-is-delta-chat)
-- [Groups](#groups)
-- [Encryption](#encryption)
+- [What is Delta Chat? Basic Questions and Answers](#what-is-delta-chat)
+- [Groups in Delta Chat](#groups)
+- [About Encryption](#encryption)
 - [Multi-client](#multiclient)
-- [Miscellaneous](#miscellaneous)
+- [Miscellaneous Topics](#miscellaneous)
 
 ## What is Delta Chat?
 
