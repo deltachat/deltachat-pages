@@ -7,8 +7,15 @@ import re
 
 
 def generate_file(destdir, lang, file):
-    print("generate local help in " + destdir + lang + "/" + file)
+    print("generate local help in " + destdir + "/" + lang + "/" + file)
 
+    f = open("../_site/" + lang + "/" + file + ".html", 'r')
+    content = f.read()
+    f.close()
+
+    f = open(destdir + "/" + lang + "/" + file + ".html", 'w')
+    f.write(content)
+    f.close()
 
 def generate_lang(destdir, lang):
     generate_file(destdir, lang, "help")
@@ -24,4 +31,4 @@ if __name__ == "__main__":
     if Path('tools').exists():
         os.chdir('tools')
 
-    generate_help("../../deltachat-android/assets/help/")
+    generate_help("../../deltachat-android/assets/help")
