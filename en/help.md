@@ -1,15 +1,17 @@
 ---
 title: FAQ
 lang: en
-render_toc: true
-header: Frequently Asked Questions
 ---
 
-## General
+# Frequently Asked Questions
 
-### What is Delta Chat? 
+- [What is Delta Chat?](#what-is-delta-chat)
+- [Groups](#groups)
+- [Encryption](#encryption)
+- [Multi-client](#multiclient)
+- [Miscellaneous](#miscellaneous)
 
-<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+## What is Delta Chat?
 
 Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
 **You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
