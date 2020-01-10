@@ -4,7 +4,6 @@ author: compl4xx, holga, janka (drawing), treefit (rust-delta)
 ---
 
 <img src="../assets/blog/delta-xmas.jpg" width="150" style="float: left; margin: 10px;display: block;" /> 
-
 **After months of hard work, we just started the [Delta Chat 1.0 releases series 
 for the Google Play store](https://play.google.com/store/apps/details?id=chat.delta), 
 with lots of tangible improvements. Thanks to the many developers, testers, translators and 
