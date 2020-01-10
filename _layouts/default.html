@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
 {% assign tx = site.data.lang[page.lang][page.lang] %}
+{% assign txEn = site.data.lang['en']['en'] %}
 
 
 <head>
 <title>{{ page.title }} - Delta Chat</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-<meta name="description" content="{{ tx.meta.description }}" />
-<meta name="keywords" content="{{ tx.meta.keywords }}" />
+<meta name="description" content="{%if tx.meta.description == blank%}{{ tx.meta.description }}{%else%}{{ txEn.meta.description }}{%endif%}" />
+<meta name="keywords" content="{%if tx.meta.keywords == blank%}{{ tx.meta.keywords }}{%else%}{{ txEn.meta.keywords }}{%endif%}" />
 
 <link rel="stylesheet" href="../assets/css/styles.css" type="text/css" />
-<link rel="alternate" href="https://delta.chat/feed.xml" type="application/atom+xml" title="{{ tx.rss_news_title }}" />
+<link rel="alternate" href="https://delta.chat/feed.xml" type="application/atom+xml" title="{%if tx.rss_news_title == blank%}{{ tx.rss_news_title }}{%else%}{{ txEn.rss_news_title }}{%endif%}" />
 </head>
 
 <body id="top">
 
 <div id="menu">
 <ul>
-<li><a href="../{{page.lang}}/">{{ tx.menu.home }}</a></li>
-<li><a href="download">{{ tx.menu.download }}</a></li>
-<li><a href="blog">{{ tx.menu.blog }}</a></li>
-<li><a href="contribute">{{ tx.menu.contribute }}</a></li>
-<li><a href="help">{{ tx.menu.help }}</a></li>
-<li><a href="https://support.delta.chat">{{ tx.menu.forum }}</a></li>
+<li><a href="../{{page.lang}}/">{%if tx.menu.home == blank%}{{ tx.menu.home }}{%else%}{{ txEn.menu.home }}{%endif%}</a></li>
+<li><a href="download">{%if tx.menu.download == blank%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</a></li>
+<li><a href="blog">{%if tx.menu.blog == blank%}{{ tx.menu.blog }}{%else%}{{ txEn.menu.blog }}{%endif%}</a></li>
+<li><a href="contribute">{%if tx.menu.contribute == blank%}{{ tx.menu.contribute }}{%else%}{{ txEn.menu.contribute }}{%endif%}</a></li>
+<li><a href="help">{%if tx.menu.help == blank%}{{ tx.menu.help }}{%else%}{{ txEn.menu.help }}{%endif%}</a></li>
+<li><a href="https://support.delta.chat">{%if tx.menu.forum == blank%}{{ tx.menu.forum }}{%else%}{{ txEn.menu.forum }}{%endif%}</a></li>
 </ul>
 </div>
 
@@ -61,7 +62,7 @@
 <a href="blog">Index</a>
 {% if page.next.url %}| <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>{% endif %}
 </p>
-<p class="menulike">{{ tx.subscribe_to_feed }}: {% include subscribe-to-feed-links.html %}</p>
+<p class="menulike">{%if tx.subscribe_to_feed == blank%}{{ tx.subscribe_to_feed }}{%else%}{{ txEn.subscribe_to_feed }}{%endif%}: {% include subscribe-to-feed-links.html %}</p>
 {% endif %}
 
 
@@ -69,10 +70,10 @@
 
 <div id="footer">
 <p>
-<a href="references">{{ tx.references }}</a> | <a href="imprint">{{ tx.imprint }}</a>
-| <a href="/de/gdpr-website">{{ tx.privacy }}</a>
+<a href="references">{%if tx.references == blank%}{{ tx.references }}{%else%}{{ txEn.references }}{%endif%}</a> | <a href="imprint">{%if tx.imprint == blank%}{{ tx.imprint }}{%else%}{{ txEn.imprint }}{%endif%}</a>
+| <a href="/de/gdpr-website">{%if tx.privacy == blank%}{{ tx.privacy }}{%else%}{{ txEn.privacy }}{%endif%}</a>
 <br>
-<span class="desktoponly">{{ tx.language }}:</span>
+<span class="desktoponly">{%if tx.language == blank%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}:</span>
 {% include footer-languages.html %}
 <br>
 © 2017-2019 Delta Chat contributors
