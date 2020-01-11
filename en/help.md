@@ -167,7 +167,7 @@ about feedback which makes the app more secure for all of our users.
   members can join by scanning a "QR invite code".  All members are thus 
   connected with each other through a chain of invites, which guarantee 
   cryptographic consistency against active network or provider attacks. 
-  See https://countermitm.readthedocs.io/en/latest/new.html
+  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
   for the R&D behind this feature. 
 
 - As of Dec 2019, a "verified group" remains an experimental feature.
