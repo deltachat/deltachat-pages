@@ -50,6 +50,8 @@ def generate_lang(destdir, lang):
 
 
 def generate_help(destdir):
+    # if you add a language, make sure the destination dir exist
+    #generate_lang(destdir, "de")
     generate_lang(destdir, "en")
 
 
