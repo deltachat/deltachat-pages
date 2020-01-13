@@ -98,7 +98,6 @@ for more info see the comments in `./tools/t-dance.sh`.
 
 - modify `tools/.tx/config` - add a section for the new page
   modify `tools/t-dance.sh` - add your page to `sfiles` variable
-  and create dir `translations/delta-chat-pages.<name>po/`.
 
 - run `cd tools; ./t-dance push`
 
