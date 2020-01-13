@@ -3,14 +3,12 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .*.swp
-.tx/
 
 # ignore private scripts and directories, eg. jekyll-build-local.prv.sh
 *.prv*
 
 # ignore tools/tranlations, we copy the files to the corresponding language directories
 tools/translations/
-tools/.tx/
 
 build/
 
