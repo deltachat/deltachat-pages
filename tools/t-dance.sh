@@ -46,6 +46,7 @@ push_po_sources_to_tx() {
 
 create_po_sources() {
 	for sfile in ${sfiles[@]}; do
+		mkdir -p "translations/delta-chat-pages.${sfile}po"
 		txt2po --progress=none "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/en.po"
 	done
 }
