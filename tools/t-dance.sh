@@ -84,6 +84,14 @@ reset_markdown_files() {
 }
 
 
+# convenience: allow calling as ./tools/t-dance.sh from the root dir
+cd_back="false"
+if [ -d "tools" ]; then
+	cd tools
+	cd_back="true"
+fi
+
+
 # normal usage
 if [ $1 == "pull" ]; then
 	pull_po_translations_from_tx
@@ -108,3 +116,7 @@ else
 	echo "to push a single language, copy the files to translations/delta-chat-pages.<file>po/<lang>.po and call: tx push -t -l <lang>"
 fi
 
+
+if [ $cd_back == "true" ]; then
+	cd ..
+fi
