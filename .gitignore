@@ -3,6 +3,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .*.swp
+*.po
 
 # ignore private scripts and directories, eg. jekyll-build-local.prv.sh
 *.prv*
