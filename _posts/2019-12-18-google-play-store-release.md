@@ -88,7 +88,7 @@ At our last gathering we produced a little introduction video to Delta Chat.
 This is now also the front video for Delta Chat on Google Play. 
 We hope you enjoy it or find it useful when talking with friends  :) 
 
-<iframe src="https://invidio.us/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: left; margin: 10px;display: block;" ></iframe>
+<iframe src="https://invidio.us/embed/yPEjYpE_kvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 10px;display: block;" ></iframe>
 
 ## Thanks to the dozens of people who helped! 
 
