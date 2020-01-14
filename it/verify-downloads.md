@@ -1,5 +1,5 @@
 ---
-title: Verifica Download 
+title: Verifica Download
 lang: it
 ---
 
@@ -11,14 +11,13 @@ lang: it
 
 # Verifica Download
 
-Su Android, puoi verificare che il certificato di firma dell APK corrisponda ad uno dei seguenti fingerprint SHA256:
+Per Android, puoi verificare che il certificato di firma dell'APK corrisponda ad uno dei seguenti fingerprint SHA256:
 
-* Per download da F-Droid:  
-  `{% include fingerprint-f-droid %}`
+* Per download da F-Droid: 
+`{% include fingerprint-f-droid %}`
 
-* Altri download APK:  
-  `{% include fingerprint-local %}`
+* Altri download APK: 
+`{% include fingerprint-local %}`
 
-Per stampare il fingerprint SHA256 del certificato di firma dell'APK, puoi usare ad es.
-`keytool -list -printcert -jarfile <APK-file>`
+Per stampare il fingerprint SHA256 del certificato di firma dell'APK, puoi usare ad es. <br>`keytool -list -printcert -jarfile 1`
 

@@ -33,6 +33,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-Ознакомьтесь с нашим [последними сообщениями в блоге](blog)
+Ознакомьтесь с нашими [скачать.delta.chat](https://get.delta.chat) и [последними сообщениями в блоге](blog)
 для получения информации о текущих выпусках и событиях.
 

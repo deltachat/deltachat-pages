@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Contribuez
 lang: fr
 ---
 
@@ -21,10 +21,10 @@ lang: fr
 
 # Traductions et rapports de bugs 
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Traductions sur Transifex](https://www.transifex.com/delta-chat/public/)
+- [Problèmes de Delta Chat sur Android](https://github.com/deltachat/deltachat-android/issues)
+- [Problèmes de l'application de bureau Delta Chat](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problèmes de Delta Chat sur iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 

@@ -1,5 +1,5 @@
 ---
-title: The messenger
+titre: Le messager
 lang: fr
 ---
 
@@ -13,8 +13,8 @@ lang: fr
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
-Delta Chat does not need your phone number. Check out our [privacy statement](gdpr).
+**Chat Delta est comme Telegram ou Whatsapp mais sans surveillance ni contrôle central.**
+Delta Chat n'a pas besoin de votre numéro de téléphone. Consultez notre [déclaration de confidentialité](rgpd).
 
 **Delta Chat ne dispose d'aucun serveur** mais il utilise le système de messagerie ouverte le plus massif et le plus diversifié qui soit : le réseau des serveurs de messagerie électronique déjà existant.
 
@@ -33,6 +33,5 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" />
 
-Please check our [latest blog posts](blog)
-for information on current releases and events. 
+Veuillez consulter [get.delta.chat](https://get.delta.chat) et les [derniers messages du blog](blog) pour obtenir des renseignements sur les versions et événements en cours. 
 

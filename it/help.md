@@ -11,20 +11,19 @@ header: Frequently Asked Questions
 
 
 
-## Generali
 
-### Cos'è Delta Chat? 
-
-<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+## Cos'è Delta Chat? 
 
 Delta Chat è una nuova applicazione che permette di inviare messaggi via email, cifrati, quando possibile con AutoCrypt . 
 **Non è necessario registrarsi ad un servizio, usa direttamente il tuo account email tramite Delta Chat.** 
+
 
 ### Come posso trovare persone con cui messaggiare? 
 
 Con Delta Chat puoi scrivere a qualsiasi indirizzo email - anche
 se il destinatario non usa Delta Chat. Al contrario di altre app,
 non è necessario che il destinatario utilizzi la tua stessa app.
+
 
 ### Quali sono i vantaggi di Delta Chat rispetto alle altre app di messaggistica?
 
@@ -41,6 +40,7 @@ non è necessario che il destinatario utilizzi la tua stessa app.
 - _Affidabile_ - può essere usata anche per messaggi aziendali
 - Completamente _Open Source_ e basata sugli _standard_
 
+
 ### Quali messaggi vengono mostrati in Delta Chat?
 
 Delta Chat mostra automaticamente:
@@ -51,15 +51,18 @@ Delta Chat mostra automaticamente:
 
 Gli altri messaggi non appaiono automaticamente e devono essere cercati nella sezione **Richieste di contatto**. La chat può essere avviata da lì.
 
+
 ### Come viene gestita la spam?
 
 - I messaggi nelle cartelle di spam vengono ignorati e gli indirizzi lì presenti non vengono considerati come conosciuti.
 - Come per i messaggi da utenti sconosciuti, non vengono mostrati automaticamente quindi normalmente **non c'è spam**.
 - In ogni caso è possibile **bloccare* qualsiasi contatto.
 
+
 ### Delta Chat supporta immagini, video e altri allegati?
 
 - Sì. Oltre al testo semplice, tutti gli allegati alle email vengono mostrati come messaggi separati. I file saranno automaticamente legati ai messaggi in uscita quando necessario.
+
 
 ### Chi può vedere la mia immagine del profilo?
 
@@ -74,9 +77,11 @@ gli scrivi un messaggio.
 - La tua immagine profilo non viene inviata in ogni messaggio, ma abbastanza
 spesso affinché i tuoi contatti la ricevano anche se cambiano dispositivo.
 
+
 ### Delta Chat supporta le email in HTML?
 
 - Si. Se le email in arrivo non dispongono di un formato testo, l'email in HTML viene convertita in testo dall'applicazione. Le email in uscita sono sempre in formato testo.
+
 
 ### Perchè devo inserire la password della ma email in Delta Chat? E' sicuro?
 
@@ -93,6 +98,7 @@ Dato che Delta Chat è Open Source, puoi controllare il [Codice
 Sorgente](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
 per essere certo che le credenziali siano gestite in modo sicuro. Siamo felici
 di ricevere feedback che aiutino a rendere l'app più sicura per tutti gli utenti. 
+
 
 ### Quali autorizzazioni di Android richiede Delta Chat?
 
@@ -118,6 +124,7 @@ di ricevere feedback che aiutino a rendere l'app più sicura per tutti gli utent
   - visualizzazione reti Wi-Fi: per connettersi al fornitore del servizio email
   - richiesta di ignorare l'ottimizzazione della batteria: per gli utenti che vogliono ricevere immediatamente i messaggi
 
+
 ## Groups
 
 ### Creare un gruppo
@@ -126,10 +133,12 @@ di ricevere feedback che aiutino a rendere l'app più sicura per tutti gli utent
 - Nella schermata successiva, scegli i **membri del gruppo** e seleziona la spunta in alto a destra. Poi potrai definire il **nome del gruppo**.
 - Appena invii il **primo messaggio** nel gruppo, tutto i membri verranno informati della creazione del gruppo e potranno rispondere (finchè non invii il primo messaggio il gruppo resta invisibile ai membri).
 
+
 ### Aggiungere membri ad un gruppo
 
 - Ogni componente del gruppo ha gli **stessi diritti** di ogni altro. Per questo motivo chiunque può rimuovere chiunque o aggiungere nuovi componenti.
 - Per aggiungere o rimuovere i membri, fai clic sul nome del gruppo nella conversazione.
+
 
 ### Cos'è un gruppo verificato? Perché è sperimentale?
 
@@ -138,8 +147,8 @@ attivi. Tutti i messaggi in una chat verificata sono cifrati e2e e i membri
 possono essere aggiunti tramite il "Codice QR di invito". Tutti i membri sono
 quindi connessi attraverso una catena di inviti, che garantisce una consistenza
 crittografica dagli attacchi di rete o al provider.
-Vedi https://countermitm.readthedocs.io/en/latest/new.html per la ricerca alla
-base di questa funzionalità.
+Vedi [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
+per la ricerca alla base di questa funzionalità.
 
 - A Dicembre 2019, i gruppi verificati sono ancora sperimentali. 
 Vengono migliorati costantemente e sono stati risolti molti bug dalla
@@ -149,10 +158,12 @@ diventare illeggibili. All'inizio del 2020 è prevista una revisione della
 sicurezza e verranno implementati nuovi sistemi relativi ai protocolli QR
 così che la funzione possa uscire al più presto dallo stato sperimentale.
 
+
 ### Ho rimosso me stesso per errore.
 
 - Se non sei più un membro del gruppo, non puoi scegliere tu quando rientrarci. 
  Ad ogni modo, puoi sempre chiedere via chat a uno dei membri di aggiungerti nuovamente.
+
 
 ### Non voglio più ricevere messaggi dal gruppo.
 
@@ -162,12 +173,14 @@ così che la funzione possa uscire al più presto dallo stato sperimentale.
 - In alternativa puoi anche "silenziare" un gruppo - così facendo riceverai i messaggi 
   e potrai rispondere, ma non ti appariranno più le notifiche.
 
+
 ## Cifratura {#encryption}
 
 ### Delta Chat supporta la cifratura end-to-end?
 
 - Si. DeltaChat implementa lo standard Autocrypt Level 1 e può anche 
   cifrare e2e i messaggi da e verso altre app compatibili con Autocrypt.
+
 
 ### Cosa devo fare per attivare la cifratura end-to-end?
 
@@ -183,6 +196,7 @@ così che la funzione possa uscire al più presto dallo stato sperimentale.
 - Se desideri _disattivare_ la cifratura end-to-end, usa 
   l'impostazione corrispondente in  "Impostazioni / Impostazioni avanzate".
 
+
 ### Se la cifratura end-to-end non è disponibile, anche la connessione non viene cifrata?
 
 - Con la maggior parte dei server email Delta Chat stabilsce una _transport encryption_
@@ -190,6 +204,7 @@ così che la funzione possa uscire al più presto dallo stato sperimentale.
   Questo rende sicura solo la comunicazione tra il dispositivo e il server
   email. La cifratura e2e rende invece sicura la comunicazione 
   tra il tuo dispositivo e quello del destinatario. 
+
 
 ### Come posso verificare lo stato di cifratura con il mittente? 
 
@@ -242,7 +257,6 @@ Il profilo utente mostra alcune info aggiuntive:
   il motivo per cui non c'è la spunta di contatto verificato, anche se lo è.
 
 
-
 ### Delta Chat supporta Perfect Forward Secrecy?
 
 - No, OpenPGP non supporta Perfect Forward Secrecy. Perfect Forward Secrecy
@@ -254,12 +268,13 @@ Il profilo utente mostra alcune info aggiuntive:
 - Tieni presente che se qualcuno ha sequestrato o hackerato il tuo telefono 
   sarà probabilmente già in grado di leggere i messaggi, indipendentemente
   dal fatto che Perfect Forward Secrecy sia presente o meno. Avere accesso al
-  dispositivo di un membro del gruppo dice già molto del grafico sociale. 
+  dispositivo di un membro del gruppo dice già molto del suo grafico sociale. 
   Usare un indirizzo che non sia riconducibile ad un soggetto aiuta i membri
   del gruppo a proteggersi dagli effetti di un possibile sequestro del dispositivo. 
 
 - Stiamo abbozzando alcuni sistemi per proteggere le comunicazioni in caso
   di sequestro del dispositivo. 
+
 
 ### Come fa Delta Chat a proteggere i miei metadata?
 
@@ -279,6 +294,7 @@ Il profilo utente mostra alcune info aggiuntive:
   protetti con cifratura end-to-end, vedi anche il prossimo [IETF
   RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
+
 ### Posso riutilizzare le mie chiavi private?
 
 - Si. Il miglior modo per farlo è inviare un messaggio di configurazione Autocrypt dall'altro client e-mail. Cerca comandi come "Avvia trasferimento impostazioni Autocrypt" nelle impostazioni dell'altro client e segui le istruzioni.
@@ -286,6 +302,7 @@ Il profilo utente mostra alcune info aggiuntive:
 - In alternativa, puoi importare la chiave manualmente da "Impostazioni Avanzate / Gestisci chiavi private". Attenzione: assicurati che la chiave non sia protetta da password o rimuovila prima.
 
 Se non hai una chiave o non sai perché ne dovresti aver bisogno, non preoccuparti: Delta Chat ne genera una quando necessario, non devi premere nessun tasto.
+
 
 ### Non riesco ad importare la mia chiave PGP in Delta Chat.
 
@@ -306,6 +323,7 @@ software usato per gestire le chiavi PGP. Con Enigmail puoi impostarla ad un
 valore vuoto nella finestra di gestione delle chiavi. Anche con GnuPG puoi farlo
 [tramite linea di comando](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Per gli altri programmi puoi trovare altre soluzioni online.
+
 
 ### Perchè non usate pEp (pretty easy privacy)?
 
@@ -330,14 +348,17 @@ Autocrypt) diversi, devi sincronizzare i loro strumenti di cifratura:
 - ora hai correttamente sincronizzato i dispositivi e puoi usarli per
   inviare e ricevere messaggi cifrati E2E con i tuoi interlocutori. 
 
+
 ## Varie
 
 ### Delta Chat funziona con il _mio_ provider email?
 
 - Con buona probabilità: si :)  
-  Ad ogni modo, alcuni provider richiedono di attivare impostazioni particolari per funzionare. Gli utenti hanno raccolto alcuni casi nel forum [Provider Overview](https://support.delta.chat/t/provider-overview/)
+  Ad ogni modo, alcuni provider richiedono di attivare impostazioni particolari per funzionare,
+  vedi [Provider Overview](https://providers.delta.chat)
 
 
 ### Sono interessato ai dettagli tecnici. Posso avere ulteriori informazioni?
 
 - Consulta la pagina [Standard utilizzati in Delta Chat]({% include standards-url %}).
+

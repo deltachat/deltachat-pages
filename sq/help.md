@@ -11,20 +11,19 @@ header: Pyetje të Bëra Rëndom
 
 
 
-## Të përgjithshme
 
-## Ç’është Delta Chat-i? 
-
-<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+## What is Delta Chat?
 
 Delta Chat është një aplikacion i ri bisedash që i dërgon mesazhet përmes emai-i, të fshehtëzuar, nëse është e mundur, me Autocrypt. 
 **Nuk ju duhet të regjistroheni gjëkundi, thjesht përdorni me Delta Chat-in llogarinë tuaj ekzistuese email.** 
+
 
 ### Si mund të gjej persona për të biseduar me ta? 
 
 Me Delta Chat-in, mund t’i shkruani cilësdo adresë email ekzistuese - madje
 edhe kur marrësi nuk përdor aplikacionin Delta Chat. Për marrësin s’është
 e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tjera.
+
 
 ### Cilat janë përparësitë e Delta Chat-it krahasuar me programe të tjerë të llojit?
 
@@ -42,6 +41,7 @@ e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tje
 - _I besueshëm_ - mundet madje të përdoret për mesazhe biznesi.
 - Software libre i bazuar në _Copyleft_ dhe _Standarde_.
 
+
 ### Cilat mesazhe shfaqen në Delta Chat?
 
 Delta Chat shfaq automatikisht:
@@ -52,15 +52,18 @@ Delta Chat shfaq automatikisht:
 
 Mesazhet e tjera nuk shfaqen automatikisht dhe mund të gjenden te menuja kryesore, te **Kërkesa kontakti**. Nëse dëshirohet, një bisedë mund të fillohet që prej atje.
 
+
 ### Po mesazhet e padëshiruara?
 
 - Mesazhet në dosje të zakonshme mesazhesh të padëshiruar shpërfillen dhe adresat në ta nuk konsiderohen si kontakte të njohur.
 - Meqë mesazhet prej kontaktesh të panjohur nuk shfaqen automatikisht, normalisht, **s’ka mesazhe të padëshiruar**.
 - Sido qoftë, nëse duhet vërtet, mundeni të **bllokoni** cilindo kontakt.
 
+
 ### A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?
 
 - Po. Veç tekstit të thjeshtë, krejt bashkëngjitjet email shfaqen si mesazhe më vete. Mesazhet ikëse do të pranojnë vetvetiu bashkëngjitje sipas nevojës.
+
 
 ### Kush e sheh profilin tim?
 
@@ -76,9 +79,11 @@ Mesazhet e tjera nuk shfaqen automatikisht dhe mund të gjenden te menuja kryeso
   kontaktet tuaj ta rimarrin foton tuaj të profilit, edhe nëse shtojnë një
   pajisje të re.
 
+
 ### A mbulon Delta Chat-i email-e HTML?
 
 - Po. Nëse email-i ardhës nuk ka pjesë nën tekst të thjeshtë, email-et HTML shndërrohen në tekst të thjeshtë te aplikacioni. Email-et dërgohen përherë si tekst i thjeshtë.
+
 
 ### Pse më duhet të jap fjalëkalimin e email-it tim në Delta Chat? A është e sigurt kjo?
 
@@ -96,6 +101,7 @@ Ngaqë Delta Chat-i është Me Burim të Hapur, mund të kontrolloni [Kodin
 Burim](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs),
 nëse doni të verifikoni se a trajtohen me siguri kredencialet tuaja. Na gëzojnë
 përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tanë.
+
 
 ### Ç’leje Android lyp Delta Chat-i?
 
@@ -121,6 +127,7 @@ përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tan
   - të shohë lidhjet Wi-Fi: për t’u lidhur me furnizuesin e shërbimit tuaj email
   - të kërkojë shpërfillje të optimizimeve për baterinë: për përdoruesit që duan t’i marrin mesazhet gjatë gjithë kohës
 
+
 ## Grupe
 
 ### Krijimi i një grupi
@@ -129,20 +136,22 @@ përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tan
 - Te skena vijuese, përzgjidhni **anëtarët e grupit** dhe i vini shenjë kutizës në cepin e sipërm djathtas. Pas kësaj, mund të përcaktoni një **emër grupi**.
 - Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjen te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët).
 
+
 ### Shtoni anëtarë te një grup
 
 - Çdo anëtar i grupit ka **të njëjtat të drejta** si kushdo tjetër. Për këtë arsye, gjithkush mund të fshijë cilindo anëtar ose të shtojë të rinj.
 - Për të shtuar ose fshirë anëtarë, klikoni mbi emrin e grupit te biseda.
 
+
 ### Ç’është një grup i verifikuar? Pse është eksperimentale kjo? 
 
-- Një grup i verifikuar është një bisedë që garanton parrezikshmëri ndaj
-  një sulmuesi aktiv. Krejt Mesazhet në një bisedë të verifikuar janë
-  të fshehtëzuara skaj më skaj, dhe anëtarët mund marrin pjesë duke
-  skanuar një "kod QR ftese". Kështu, krejt anëtarët janë të lidhur njëri
-  me tjetrin përmes një zinxhiri ftesash, çka garanton vazhdueshmëri
-  kriptografike kundër sulmesh aktive rrjeti apo furnizuesi shërbimesh.
-  Për R&D pas kësaj veçorie, shihni https://countermitm.readthedocs.io/en/latest/new.html. 
+- A verified group is a chat that gurantees safety against an active
+  attacker.  All Messages in a verified chat view are e2e-encrypted, and
+  members can join by scanning a "QR invite code".  All members are thus 
+  connected with each other through a chain of invites, which guarantee 
+  cryptographic consistency against active network or provider attacks. 
+  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
+  for the R&D behind this feature. 
 
 - Për dhjetorin e 2019-s, një "grup i verifikuar" mbetet një veçori eksperimentale.
   Është përmirësuar vazhdimisht dhe janë ndrequr mjaft të meta që prej sjelljes
@@ -152,10 +161,12 @@ përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tan
   po kryhen disa zhvillime të reja lidhur me protokollet <em>qr-join</em>, kështu
   që shanset janë për ta hequr etiketën “experimentale” jo shumë larg në të ardhmen. 
 
+
 ### Fshiva veten padashje.
 
 - Ngaqë s’jeni më anëtar i grupit, s’mund të shtoni veten sërish. 
   Megjithatë, s’ka problem, thjesht kërkojini një anëtari tjetër të grupit në një fjalosje të zakonshme t’ju shtojë sërish.
+
 
 ### S’dua t’i marr më mesazhet e një grupi.
 
@@ -166,6 +177,7 @@ përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tan
 krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më, 
 për çfarëdo mesazhesh të rinj.
 
+
 ## Fshehtëzim {#encryption}
 
 ### A ka Delta Chat-i fshehtëzim skaj-më-skaj?
@@ -173,6 +185,7 @@ për çfarëdo mesazhesh të rinj.
 - Po. DeltaChat sendërton standardin Autocrypt Level 1 
   dhe është pra në gjendje të fshehtëzojë mesazhe me e2e-n 
   përmes aplikacionesh të tjera të afta të përdorin Autocrypt-in. 
+
 
 ### Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?
 
@@ -188,6 +201,7 @@ mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë p
 - Nëse doni të _çaktivizohet_ fshehtëzimi skaj-më-skaj, 
   përdorni fushën përkatës te "Rregullime / Rregullime të mëtejshme".
 
+
 ### Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?
 
 - Me shumicën e shërbyesve të postës, Delta Chat vendos _fshehtëzim transporti_
@@ -195,6 +209,7 @@ mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë p
   Kjo siguron vetëm lidhjen me pajisjes tuaj dhe shërbyesit tuaj email. Kurse
   fshehtëzimi skaj më skaj furnizon siguri mes pajisjes tuaj dhe pajisjes
   së një shoku. 
+
 
 ### Si mund ta verifikoj gjendjen kriptografike me një dërguesin? 
 
@@ -247,7 +262,6 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
   Kjo është asyeja pse nuk ka shenjë verifikimi, edhe pse e keni verifikuar kontaktin.
 
 
-
 ### A përdor Delta Chat-i Fshehtësi të Përsosur Përcjelljeje?
 
 - Jo, OpenPGP nuk mbulon Fshehtësi të Përsosur Përcjelljeje. Fshehtësia e
@@ -256,15 +270,16 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
   Kjo do të thotë se nëse është zbuluar kyçi juaj privat i Delta Chat-it, dhe dikush ka
   një regjistër të krejt mesazheve tuaja tranzit, do të jetë në gjendje t’i lexojë.  
 
-- Note that if anyone has seized or hacked your running phone, 
-  they will typically be able to read all messages, no matter if Perfect
-  Forward Secrecy is in place or not.  Having access to a single device
-  from a member of a group, will typically a lot of the social graph. 
-  Using e-mail addresses that are not easily tracked back to persons
-  helps group members to stay safer from the effects of device seizure. 
+- Note that if anyone has seized or hacked your running phone, they will
+  typically be able to read all messages, no matter if Perfect Forward Secrecy
+  is in place or not. Having access to a single device from a member of a group,
+  will typically expose a lot of the social graph. Using e-mail addresses that
+  are not easily tracked back to persons helps group members to stay safer from
+  the effects of device seizure. 
 
 - Po skicojmë mënyra për të mbrojtur më mirë komunikimet nga raste
   marrjeje të pajisjes. 
+
 
 ### Si i mbron Delta Chat-i Tejtëdhënat e mia?
 
@@ -284,6 +299,7 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
   me fshehtëzim skaj-më-skaj, shihni edhe këtë të ardhshmin [IETF
   RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
+
 ### A mund të ripërdor kyçin tim ekzistues privat?
 
 - Po. Rruga më e mirë është të dërgohet një Mesazh Rregullimi Autocrypt-i që nga klienti tjetër email. Shihni për diçka si **Start Autocrypt Setup Transfer** te rregullimet e klientit tjetër dhe ndiqni udhëzimet e dhëna atje.
@@ -291,6 +307,7 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
 - Ndryshe, mund ta importoni kyçin dorazi që nga "Rregullime të mëtejshme / Administroni kyçe private". Kujdes: Sigurohuni që kyçi nuk mbrohet me fjalëkalim, ndryshe hiqjani fjalëkalimin paraprakisht.
 
 Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të bërë. 
+
 
 ### S’eksportoj dot kyçet e mi ekzistues PGP në Delta Chat.
 
@@ -312,6 +329,7 @@ që ju përdorni për administrim kyçesh PGP. Me Enigmail-in, mund t’i jepni
 fjalëkalimit tuaj një vlerë të zbrazët, që nga dritarja Administrim Kyçesh. Me
 GnuPG-në mund ta bëni [përmes rreshti urdhrash](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Për programe të tjera, mund të gjeni një zgjidhje në internet.
+
 
 ### Pse nuk përdorni pEp (<em>pretty easy privacy</em>)?
 
@@ -336,14 +354,17 @@ për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim:
 - Tani jeni i njëkohësuar dhe mund të përdorni që të dyja pajisjet për marrje
   dhe dërgim mesazhesh, të fshehtëzuar me E2E, me partnerët tuaj në komunikim. 
 
+
 ## Të ndryshme
 
 ### A funksionon Delta Chat me shërbimin _tim_ email?
 
-- Shumë gjasa janë që: Po :)  
-  Sidoqoftë, disa shërbime lypin mundësi speciale për të punuar si duhet; përdoruesit kanë grumbulluar disa prej tyre te forumi në [Përmbledhje Shërbimesh](https://support.delta.chat/t/provider-overview/)
+- With a rather good chance: Yes :)  
+  However, some providers need special options to work properly,
+  see [Provider Overview](https://providers.delta.chat)
 
 
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
+

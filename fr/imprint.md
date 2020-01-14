@@ -1,5 +1,5 @@
 ---
-title: Imprint
+title: Mentions légales
 lang: fr
 ---
 

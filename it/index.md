@@ -34,6 +34,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/ios_screenshot_chat_view.png" width="110" style="margin: 10px" /> 
 
-Controlla i nostri [ultimi post sul blog](blog)
+Controlla [get.delta.chat](https://get.delta.chat)  e i nostri [ultimi post sul blog](blog)
 per informazioni sui rilasci e sugli eventi. 
 
