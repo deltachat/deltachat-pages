@@ -132,13 +132,8 @@ Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/de
 
 ### Was ist eine verifizierte Gruppe? Weshalb ist das experimentell?
 
-- A verified group is a chat that gurantees safety against an active
-  attacker.  All Messages in a verified chat view are e2e-encrypted, and
-  members can join by scanning a "QR invite code".  All members are thus 
-  connected with each other through a chain of invites, which guarantee 
-  cryptographic consistency against active network or provider attacks. 
-  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-  for the R&D behind this feature. 
+- Eine verifizierte Gruppe ist ein Chat, welcher Sicherheit gegen einen aktiven Angreifer garantiert. Alle Nachrichten in einer verifizierten Gruppe sind Ende-zu-Ende verschlüsselt und Gruppenmitglieder können durch Scannen eines "QR-Einladungscodes" beitreten. Alle Gruppenmitglieder sind deshalb durch eine Kette von Einladungen miteinander verbunden, welche kryptografische Konsistenz gegen aktive Netzwerk- oder Anbieterangriffe garantiert.
+Siehe [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) für die Forschung und Entwicklung hinter dieser Funktion.
 
 - Im Dezember 2019 bleibt eine "verifizierte Gruppe" eine experimentelle Funktion.
  Sie wird kontinuierlich verbessert und viele Fehler wurden seit der ursprünglichen Einführung in 2018 behoben. Allerdings gibt es immernoch Fälle, besonders in großen Gruppen, in denen es zu inkonsistenzen kommen kann oder Nachrichten unleserlich werden. Anfang 2020 wird es eine Sicherheitsüberprüfung geben und es finden einige neue Entwicklungen rund um QR-Beitrittsprotokolle statt. Die Chancen, dass wir das Etikett "Experimentell" in nicht all zu ferner Zukunft entfernen, stehen gut.
@@ -228,12 +223,8 @@ Sie können darauf vertrauen, dass alle Nachrichten in diesem verifizierten Chat
   arbeitet Sitzungsorientiert, aber E-Mail ist von Natur aus asynchron und wird meist unabhängig von verschiedenen Geräten aus verwendet.
 Das bedeutet, dass wenn Ihr geheimer Schlüssel aus Delta Chat bekannt wird und jemand eine Aufzeichnung Ihrer versendeten und empfangenen verschlüsselten Nachrichten besitzt, dieser in der Lage ist die Nachrichten zu lesen.
 
-- Note that if anyone has seized or hacked your running phone, they will
-  typically be able to read all messages, no matter if Perfect Forward Secrecy
-  is in place or not. Having access to a single device from a member of a group,
-  will typically expose a lot of the social graph. Using e-mail addresses that
-  are not easily tracked back to persons helps group members to stay safer from
-  the effects of device seizure. 
+- Jemand der ihr Telefon beschlagnahmt oder hackt, kann typischerweise alle Nachrichten lesen - unabhängig davon ob Perfect Forward Secrecy verwendet wird oder nicht.
+Der Zugriff auf ein einzelnes Gerät eines Gruppenmitglieds verrät viel über den sozialen Graphen. Verwendet man E-Mail-Adressen, welche sich nicht einfach zu Personen zurückverfolgen lassen, hilft das Gruppenmitgliedern besser, sich vor der den Folgen der Beschlagnahmung eines Geräts zu schützen.
 
 - Wir zeichnen Wege auf, um Kommunikation besser vor dem Fall eines beschlagnahmten Geräts zu schützen.
 
@@ -301,9 +292,8 @@ zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten Nachrichten an Ihre K
 
 ### Funktioniert Delta Chat mit _meinem_ E-Mail-Anbieter?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly,
-  see [Provider Overview](https://providers.delta.chat)
+- Mit ziemlich hoher Wahrscheinlichkeit: Ja :) 
+- Allerdings benötigen einige Anbieter besondere Optionen, um ordnungsgemäß zu funktionieren; eine von Nutzern erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://providers.delta.chat).
 
 
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
