@@ -13,7 +13,7 @@ Client on its own.
 
 Most messengers have the problem that you can only chat with others on the same
 platform. With Delta Chat, you can write to anyone with an e-mail address.
-This way, you are not locked into the userbase of Whatsapp, Signal, or
+This way, you are not locked into the userbase of WhatsApp, Signal, or
 Telegram.
 
 ![Screenshot of the Desktop Client, where you can choose between different accounts.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-switch-account.png)
