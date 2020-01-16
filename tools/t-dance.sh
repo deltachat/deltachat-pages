@@ -60,7 +60,8 @@ create_markdown_files() {
 			pofile="../${tlang:0:2}/${sfile}.po"
 			mdfile="../${tlang:0:2}/${sfile}.md"
 			po2txt --progress=none --template="../en/${sfile}.md" $pofile $mdfile
-			sed -i "" "s/lang: [a-z][a-z]/lang: ${tlang:0:2}/" $mdfile # correct used layout - for some reasons, [a-z]{2,} does not work on sed-mac
+			python3 -m massedit -e "re.sub(r'lang: [a-z][a-z]', 'lang: ${tlang:0:2}', line)" -w $mdfile
+			#sed -i "" "s/lang: [a-z][a-z]/lang: ${tlang:0:2}/" $mdfile # correct used layout - for some reasons, [a-z]{2,} does not work on sed-mac
 		done
 	done	
 }
