@@ -12,7 +12,7 @@ not for Delta Chat. Even if you don't have a phone, you can use the Desktop
 Client on its own.
 
 Most messengers have the problem that you can only chat with others on the same
-platform. With Delta Chat, you can write to anyone with an E-Mail address.
+platform. With Delta Chat, you can write to anyone with an e-mail address.
 This way, you are not locked into the userbase of Whatsapp, Signal, or
 Telegram.
 
