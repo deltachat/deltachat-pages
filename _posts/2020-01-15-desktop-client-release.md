@@ -22,7 +22,7 @@ Telegram.
 
 ## Many New Desktop Client Features!
 
-The Desktop Client is one of the tools which makes this possible! Thanks to the
+The Desktop Client is one of the tools making this possible! Thanks to the
 many developers, testers, translators and contributors who made this release
 happen. Here is a quick overview:
 
