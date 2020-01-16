@@ -57,7 +57,6 @@ create_markdown_files() {
 	echo "Creating markdown files from the translated po-files ..."
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
-			echo "processing ${tlang:0:2}/${sfile}.po"
 			pofile="../${tlang:0:2}/${sfile}.po"
 			mdfile="../${tlang:0:2}/${sfile}.md"
 			po2txt --progress=none --template="../en/${sfile}.md" $pofile $mdfile

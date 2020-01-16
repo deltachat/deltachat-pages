@@ -1,5 +1,5 @@
 ---
-title: Downloads überprüfen
+title: Downloads verifizieren
 lang: de
 ---
 
@@ -9,16 +9,16 @@ lang: de
 
 
 
-# Downloads überprüfen
+# Downloads verifizieren
 
 Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:
 
-* Für F-Droid Downloads:  
-  `{% include fingerprint-f-droid %}`
+* Für F-Droid Downloads: 
+`{% include fingerprint-f-droid %}`
 
-* Andere APK Downloads:  
-  `{% include fingerprint-local %}`
+* Andere APK Downloads: 
+`{% include fingerprint-local %}`
 
-Um den SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. der folgende Befehl verwendet werden:
-`keytool -list -printcert -jarfile <APK-file>`
+Um den SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das folgende Kommando verwendet werden: 
+`keytool -list -printcert -jarfile 2`
 

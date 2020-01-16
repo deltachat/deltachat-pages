@@ -49,9 +49,10 @@ Directory structure
 
 - `/en` - Contains the source language files in Markdown. Can be edited directly.
 
-- `/de`, `/es`, `fr` … - Contain the translated files, use Transifex to edit them;
-  you **MUST NOT** edit any file in these directories,
-  they will be overwritten with the next pull from Transifex.
+- `/de`, `/es`, `fr` … - Contain the translated files; 
+  translation is done through .po files that are translated using Transifex, see above. 
+  You must not edit translated files directly here, 
+  but you can add additional files that are unique to the language.
 
 - `/_layouts` - This directory contains a default layout template 
   for each language (the layout is referenced in Markdown using _layout: name_)

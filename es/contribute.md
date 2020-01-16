@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Contribuir
 lang: es
 ---
 

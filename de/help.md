@@ -11,14 +11,12 @@ header: Häufig gestellte Fragen
 
 
 
-## Allgemein
 
-### Was ist Delta Chat?
-
-<img style="float: right;" width="400px" src="../assets/home/delta-what.png" />
+## Was ist Delta Chat?
 
 Delta Chat ist eine neue Chat-App, die mit Autocrypt verschlüsselte E-Mails versendet. 
 **Sie müssen sich nirgendwo anmelden, verwenden Sie einfach Ihr bestehendes E-Mail-Konto bei Delta Chat.**
+
 
 ### Wie finde ich Leute, mit denen ich chatten kann? 
 
@@ -26,6 +24,7 @@ Mit Delta Chat können Sie an jede existierende E-Mail Adresse schreiben -
 selbst dann, wenn der Empfänger nicht Delta Chat verwendet. Im Gegensatz
 zu anderen Instant Messengern besteht für den Empfänger keine Notwendigkeit,
 dieselbe Anwendung zu installieren, die Sie auch verwenden.
+
 
 ### Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
@@ -42,6 +41,7 @@ dieselbe Anwendung zu installieren, die Sie auch verwenden.
 - _Vertrauenswürdig_ - kann sogar für geschäftliche Nachrichten verwendet werden.
 - Auf _Copyleft_ und _Standards_ basierende freie Software.
 
+
 ### Welche Nachrichten erscheinen in Delta Chat?
 
 Delta Chat zeigt automatisch:
@@ -52,15 +52,18 @@ Delta Chat zeigt automatisch:
 
 Andere Nachrichten werden nicht automatisch angezeigt, diese sind im _Hauptmenü_ unter **Kontaktanfragen** zu finden. Wenn gewünscht, kann ein neuer Chat von dort gestartet werden.
 
+
 ### Was ist mit Spam?
 
 - Nachrichten in allgemeinen Spam-Ordnern werden ignoriert und enthaltene Adressen gelten nicht als bekannte Kontakte.
 - Da Nachrichten von unbekannten Kontakten nicht automatisch angezeigt werden, gibt es normalerweise **keinen Spam**.
 - Sie können jedoch bei Bedarf jeden Kontakt **sperren**.
 
+
 ### Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
 
 - Ja. Neben Klartext werden alle E-Mail-Anhänge als separate Nachrichten angezeigt. Ausgehende Nachrichten erhalten bei Bedarf automatisch Anhänge.
+
 
 ### Wer sieht mein Profilbild?
 
@@ -72,9 +75,11 @@ Andere Nachrichten werden nicht automatisch angezeigt, diese sind im _Hauptmenü
 
 - Ihr Profilbild wird nicht mit jeder Nachricht gesendet, aber häufig genug, dass Ihre Kontakte es erhalten werden, sogar wenn diese ein neues Gerät hinzufügen.
 
+
 ### Unterstützt Delta Chat HTML E-Mails?
 
 - Ja. Fehlt bei eingehenden E-Mails der "Nur-Text"-Teil, werden HTML E-Mails in der App in Nur-Text umgewandelt. Ausgehende E-Mails verwenden immer Nur-Text.
+
 
 ### Weshalb muss ich mein E-Mail Kennwort in Delta Chat eingeben? Ist das sicher?
 
@@ -83,6 +88,7 @@ Genau wie auch bei anderen E-Mail Programmen wie Thunderbird, K9-Mail oder Outlo
 Wenn Sie einen E-Mail-Anbieter wie gmail.com oder yandex.ru mit Unterstützung für OAuth2 nutzen, dann wird Ihr Passwort nicht gespeichert. In diesem Fall wird nur ein Zugriffstoken genutzt.
 
 Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) überprüfen, wenn Sie sich davon überzeugen möchten, dass Ihre Zugangsdaten sicher gehandhabt werden. Wir freuen uns über Feedback welches unsere App sicherer für all unsere Nutzer macht.
+
 
 ### Welche Android App-Berechtigungen benötigt Delta Chat?
 
@@ -108,6 +114,7 @@ Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/de
   - WLAN-Verbindungen abrufen: Um eine Verbindung zu Ihrem E-Mail-Anbieter herzustellen
   - Fragen, ob Akku-Leistungsoptimierungen ignoriert werden können: Für Nutzer, die permanent Nachrichten empfangen möchten
 
+
 ## Gruppen
 
 ### Eine Gruppe anlegen
@@ -116,23 +123,27 @@ Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/de
 - Wählen Sie auf dem folgenden Bildschirm die **Gruppenmitglieder** aus und klicken Sie auf das Häkchen in der oberen rechten Ecke. Danach können Sie einen **Gruppennamen** festlegen.
 - Sobald Sie die **erste Nachricht** in die Gruppe schreiben, werden alle Mitglieder über die neue Gruppe informiert und können in der Gruppe antworten (solange Sie keine Nachricht in die Gruppe schreiben, ist die Gruppe für die Gruppenmitglieder nicht sichtbar).
 
+
 ### Mitglieder zu einer Gruppe hinzufügen
 
 - Jedes Gruppenmitglied hat **dieselben Rechte** wie jedes andere. Jeder kann daher jeden löschen oder weitere Mitglieder hinzufügen.
 - Um die Mitglieder zu verwalten, einfach in der Gruppe auf den Gruppennamen klicken.
 
+
 ### Was ist eine verifizierte Gruppe? Weshalb ist das experimentell?
 
 - Eine verifizierte Gruppe ist ein Chat, welcher Sicherheit gegen einen aktiven Angreifer garantiert. Alle Nachrichten in einer verifizierten Gruppe sind Ende-zu-Ende verschlüsselt und Gruppenmitglieder können durch Scannen eines "QR-Einladungscodes" beitreten. Alle Gruppenmitglieder sind deshalb durch eine Kette von Einladungen miteinander verbunden, welche kryptografische Konsistenz gegen aktive Netzwerk- oder Anbieterangriffe garantiert.
- Lese https://countermitm.readthedocs.io/en/latest/new.html für die Forschung und Entwicklung hinter dieser Funktion.
+Siehe [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) für die Forschung und Entwicklung hinter dieser Funktion.
 
 - Im Dezember 2019 bleibt eine "verifizierte Gruppe" eine experimentelle Funktion.
  Sie wird kontinuierlich verbessert und viele Fehler wurden seit der ursprünglichen Einführung in 2018 behoben. Allerdings gibt es immernoch Fälle, besonders in großen Gruppen, in denen es zu inkonsistenzen kommen kann oder Nachrichten unleserlich werden. Anfang 2020 wird es eine Sicherheitsüberprüfung geben und es finden einige neue Entwicklungen rund um QR-Beitrittsprotokolle statt. Die Chancen, dass wir das Etikett "Experimentell" in nicht all zu ferner Zukunft entfernen, stehen gut.
+
 
 ### Ich habe mich selbst versehentlich gelöscht.
 
 - Da Sie kein Gruppenmitglied mehr sind, können Sie sich selbst nicht mehr hinzufügen.
 Kein Problem, bitten Sie einfach ein anderes Gruppenmitglied in einem normalen Chat, Sie erneut hinzuzufügen.
+
 
 ### Ich möchte keine Nachrichten einer Gruppe mehr empfangen.
 
@@ -141,12 +152,14 @@ Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gr
 
 - Alternativ können Sie eine Gruppe auch "Stummschalten" - dies bedeutet, dass Sie weiterhin alle Nachrichten erhalten und neue schreiben können, aber nicht mehr über neue Nachrichten informiert werden.
 
+
 ## Verschlüsselung {#encryption}
 
 ### Unterstützt Delta Chat eine Ende-zu-Ende-Verschlüsselung?
 
 - Ja. Delta Chat implementiert den Autocrypt Level 1-Standard und kann 
 daher Ende-zu-Ende-verschlüsselte Nachrichten mit anderen Autocrypt-fähigen Anwendungen austauschen.
+
 
 ### Was muss ich tun, um die Ende-zu-Ende-Verschlüsselung zu aktivieren?
 
@@ -159,10 +172,12 @@ Wenn einer der Chat-Partner eine E-Mail-Anwendung verwendet, die nicht Autocrypt
 - Falls Sie die Ende-zu-Ende-Verschlüsselung _abschalten_ möchten, 
   deaktivieren Sie die entsprechende Einstellungen unter "Einstellungen / Erweitert".
 
+
 ### Wird ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
 
 - Mit den meisten E-Mail-Servern stellt Delta Chat eine _transportverschlüsselte_ Verbindung her ([TLS](https://de.wikipedia.org/wiki/Transport_Layer_Security)).
  Dies schützt nur die Verbindung zwischen Ihrem Gerät und Ihrem E-Mail-Server. Wohingegen Ende-zu-Ende-Verschlüsselung die gesamte Kommunikation zwischen Ihrem Gerät und dem Gerät eines Freundes schützt.
+
 
 ### Wie kann ich den kryptografischen Zustand mit einem Absender überprüfen?
 
@@ -202,7 +217,6 @@ Sie können darauf vertrauen, dass alle Nachrichten in diesem verifizierten Chat
 - 1:1 Chats sind opportunistisch, damit die Nutzer immer miteinander kommunizieren können, egal ob sie E-Mail-Programme oder Geräte wechseln. Deshalb sehen Sie manchmal kein Verifikationshäkchen, sogar nicht, wenn Sie den Kontakt verifiziert haben.
 
 
-
 ### Unterstützt Delta Chat Perfect Forward Secrecy?
 
 - Nein, OpenPGP unterstützt Perfect Forward Secrecy nicht. Perfect Forward Secrecy
@@ -210,9 +224,10 @@ Sie können darauf vertrauen, dass alle Nachrichten in diesem verifizierten Chat
 Das bedeutet, dass wenn Ihr geheimer Schlüssel aus Delta Chat bekannt wird und jemand eine Aufzeichnung Ihrer versendeten und empfangenen verschlüsselten Nachrichten besitzt, dieser in der Lage ist die Nachrichten zu lesen.
 
 - Jemand der ihr Telefon beschlagnahmt oder hackt, kann typischerweise alle Nachrichten lesen - unabhängig davon ob Perfect Forward Secrecy verwendet wird oder nicht.
-Der Zugriff auf ein einzelnes Gerät eines Gruppenmitglieds verrät viel über den sozialen Graphen. Verwendet man E-Mail-Adressen, welche sich nicht einfach zu Personen zurückverfolgen lassen, hilft Gruppenmitgliedern sich besser vor der den Folgen der Beschlagnahmung eines Geräts zu schützen.
+Der Zugriff auf ein einzelnes Gerät eines Gruppenmitglieds verrät viel über den sozialen Graphen. Verwendet man E-Mail-Adressen, welche sich nicht einfach zu Personen zurückverfolgen lassen, hilft das Gruppenmitgliedern besser, sich vor der den Folgen der Beschlagnahmung eines Geräts zu schützen.
 
 - Wir zeichnen Wege auf, um Kommunikation besser vor dem Fall eines beschlagnahmten Geräts zu schützen.
+
 
 ### Wie schützt Delta Chat meine Metadaten?
 
@@ -223,6 +238,7 @@ Die Hauptsorge bei opportunistischen Chats ist wie andere Mail Apps, welche an e
 
 - Viele weitere E-Mail-Header, insbesondere der "Subject" Header, sind Ende-zu-Ende verschlüsselt. Lese dazu auch den kommenden [IETF RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
+
 ### Kann ich meinen existierenden privaten Schlüssel weiter verwenden?
 
 - Ja. Der beste Weg ist, von der anderen E-Mail-Anwendung aus eine _Autocrypt Setup Nachricht_ zu versenden. Suchen Sie eine solche Option in den Einstellungen der anderen Anwendung z.B. unter "Autocrypt Setup Transfer starten" und folgen Sie den dort angezeigten Hinweisen.
@@ -231,6 +247,7 @@ Die Hauptsorge bei opportunistischen Chats ist wie andere Mail Apps, welche an e
 Achtung: Der private Schlüssel darf _nicht_ mit einem Passwort geschützt sein bzw. muss dieses zuvor entfernt werden.
 
 Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen benötigen - keine Sorge: Delta Chat erstellt einen Schlüssel, wenn er benötigt wird.
+
 
 ### Ich kann meinen existierenden PGP-Schlüssel nicht in Delta Chat importieren.
 
@@ -247,6 +264,7 @@ Das Entfernen des Passworts vom privaten Schlüssel ist abhängig von der Softwa
 Bei Enigmail können Sie Ihr Passwort im Fenster Schlüsselverwaltung auf einen leeren Wert setzen.
 Bei GnuPG können Sie es über die [Kommandozeile einstellen](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Für andere Programme können Sie online eine Lösung finden.
+
 
 ### Warum verwendet Delta Chat kein pEp (pretty easy privacy)?
 
@@ -269,14 +287,16 @@ und klicken Sie diese an. Eine Abfrage des Sicherheitscodes sollte nun erscheine
 - Die Synchronisation ist nun erfolgreich und Sie können beiden Geräte
 zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten Nachrichten an Ihre Kommunikationspartner verwenden.
 
+
 ## Verschiedenes
 
 ### Funktioniert Delta Chat mit _meinem_ E-Mail-Anbieter?
 
 - Mit ziemlich hoher Wahrscheinlichkeit: Ja :) 
-Allerdings benötigen einige Anbieter besondere Optionen, um ordnungsgemäß zu funktionieren; eine von Nutzern erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://support.delta.chat/t/provider-overview/).
+- Allerdings benötigen einige Anbieter besondere Optionen, um ordnungsgemäß zu funktionieren; eine von Nutzern erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://providers.delta.chat).
 
 
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 
 - Siehe hierzu [in Delta Chat genutzte Standards]({% include standards-url %}).
+
