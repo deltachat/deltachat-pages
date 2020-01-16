@@ -7,7 +7,7 @@ author: compl4xx
 **Delta Chat is not only an Android app. You can use it on any device, even
 without a smartphone. Since the latest release there are many new features!**
 
-For many instant messengers you need a phone number, or at least a smartphone -
+For many instant messengers you need a phone number, or at least a smart device -
 not for Delta Chat. Even if you don't have a phone, you can use the Desktop
 Client on its own.
 
