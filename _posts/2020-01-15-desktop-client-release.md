@@ -3,7 +3,7 @@ title: New Desktop Client Release - use Delta Chat on Windows, MacOS, or Linux!
 author: compl4xx
 ---
 
-<img src="../assets/blog/screenshots/"2020-01-15-delta-chat-desktop-client-release-group-chat.jpg width="270" style="float: right; margin: 10px;display: block;" /> 
+<img src="../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-group-chat.jpg" width="270" style="float: right; margin: 10px;display: block;" /> 
 **Delta Chat is not only an Android app. You can use it on any device, even
 without a smartphone. Since the latest release there are many new features for
 the users!**
