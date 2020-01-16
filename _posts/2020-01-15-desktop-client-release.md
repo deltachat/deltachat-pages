@@ -8,7 +8,7 @@ author: compl4xx
 without a smartphone. Since the latest release there are many new features!**
 
 For many instant messengers you need a phone number, or at least a smart device -
-not for Delta Chat. Even if you don't have a phone, you can use the Desktop
+not for Delta Chat. Even if you don't have a smart device, you can use the Desktop
 Client on its own.
 
 Most messengers have the problem that you can only chat with others on the same
