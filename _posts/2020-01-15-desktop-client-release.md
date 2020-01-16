@@ -5,8 +5,7 @@ author: compl4xx
 
 <img src="../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-group-chat.jpg" width="270" style="float: right; margin: 10px;display: block;" /> 
 **Delta Chat is not only an Android app. You can use it on any device, even
-without a smartphone. Since the latest release there are many new features for
-the users!**
+without a smartphone. Since the latest release there are many new features!**
 
 For many instant messengers you need a phone number, or at least a smartphone -
 not for Delta Chat. Even if you don't have a phone, you can use the Desktop
@@ -19,8 +18,7 @@ Telegram.
 
 ![Screenshot of the Desktop Client, where you can choose between different accounts.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-switch-account.png)
 
-*If you have more than one E-Mail address, you can switch between different
-Delta Chat accounts.*
+*If you have more than one E-Mail address, you can switch between them.*
 
 ## Many New Desktop Client Features!
 
@@ -29,12 +27,13 @@ many developers, testers, translators and contributors who made this release
 happen. Here is a quick overview:
 
 <img src="../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-search-contacts.jpg" width="250" style="float: right; margin: 10px;display: block;" /> 
-- New Keyboard bindings: 
+- New **Keyboard Shortcuts**: 
   - press ctrl + K to search for a contact or group chat.
   - move through your chat list with alt + arrow keys.
-- There are new beautiful background images by
-  [Nico](https://github.com/nicodh) - but you can also choose a custom image.
-- Profile pictures make your client more beautiful to look at, too.
+- There are new beautiful **background images** by
+  [Paula](https://github.com/paulaluap) and [Nico](https://github.com/nicodh) -
+  but you can also choose a custom image.
+- **Profile pictures** make your client more beautiful to look at, too.
 - You can now copy a link with a right click on the message.
 - There is now also the Saved Messages & Device Chat which you might know from
   [Android](https://delta.chat/en/2019-12-18-google-play-store-release).
@@ -46,15 +45,16 @@ happen. Here is a quick overview:
 ## Use Delta Simultaneously with the Android or iOS App!
 
 If you want to synchronize a Desktop Client with an Android or iOS app, better
-export a backup and import it on the other device. If you just send an
+**export a backup and import it on the other device**. If you just send an
 Autocrypt Setup Message, not everything is transfered. With a backup, you also
 get your message history, and verified chats work better.
 
 ## Try it out Yourself!
 
 The Desktop Client will soon be ready for the MacOS and Windows Appstores; for
-now, if you see a warning that Delta Chat is not an official app, just ignore
-it. 
+now, you can download them from [this website](https://get.delta.chat). Note
+that there are can be a warning that Delta Chat is not an official app, because
+we don't have official certificates for the appstores yet.
 
 You can find the Desktop Client on [get.delta.chat](https://get.delta.chat).
 Try it out!
