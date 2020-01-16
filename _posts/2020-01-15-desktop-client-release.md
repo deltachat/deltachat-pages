@@ -18,7 +18,7 @@ Telegram.
 
 ![Screenshot of the Desktop Client, where you can choose between different accounts.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-switch-account.png)
 
-*If you have more than one E-Mail address, you can switch between them.*
+*If you have more than one e-mail address, you can switch between them.*
 
 ## Many New Desktop Client Features!
 
