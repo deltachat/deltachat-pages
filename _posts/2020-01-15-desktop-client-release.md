@@ -35,8 +35,8 @@ happen. Here is a quick overview:
   but you can also choose a custom image.
 - **Profile pictures** make your client more beautiful to look at, too.
 - You can now copy a link with a right click on the message.
-- There is now also the Saved Messages & Device Chat which you might know from
-  [Android](https://delta.chat/en/2019-12-18-google-play-store-release).
+- There is now also the Saved Messages & Device Chat which you might know already 
+  from [the mobile apps](https://delta.chat/en/2019-12-18-google-play-store-release).
 
 ![Screenshot of the Desktop Client; you can choose between different background images.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-background-image.jpg)
 
