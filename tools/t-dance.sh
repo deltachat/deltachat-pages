@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # this script provides some tool needed to translate the homepage.
+# For dependencies, it needs python3 and python3-massedit, which you can install with `pip install massedit`.
 
 # before you can use this script the first time, you have to initialize Transifex in this folder:
 # $ tx init --user=api --pass=<your api token>
@@ -59,8 +60,8 @@ create_markdown_files() {
 			pofile="../${tlang:0:2}/${sfile}.po"
 			mdfile="../${tlang:0:2}/${sfile}.md"
 			po2txt --progress=none --template="../en/${sfile}.md" $pofile $mdfile
-			sed -i "s/lang: \S*/lang: ${tlang:0:2}/" $mdfile # correct used layout
-			sed -i "0,/^$/ s/^$/\n\n\n<!-- GENERATED FILE -- DO NOT EDIT -->\n\n\n/" $mdfile # add a comment in the first empty line (with `0,/^$/` you select all lines until the re matches)
+			python3 -m massedit -e "re.sub(r'lang: [a-z][a-z]', 'lang: ${tlang:0:2}', line)" -w $mdfile
+			#sed -i "" "s/lang: [a-z][a-z]/lang: ${tlang:0:2}/" $mdfile # correct used layout - for some reasons, [a-z]{2,} does not work on sed-mac
 		done
 	done	
 }
