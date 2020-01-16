@@ -51,7 +51,7 @@ get your message history, and verified chats work better.
 
 ## Try it out Yourself!
 
-The Desktop Client will soon be ready for the MacOS and Windows Appstores; for
+The Desktop Client will soon be ready for the macOS and Windows Appstores; for
 now, you can download them from [this website](https://get.delta.chat). Note
 that there are can be a warning that Delta Chat is not an official app, because
 we don't have official certificates for the appstores yet.
