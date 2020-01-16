@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # this script provides some tool needed to translate the homepage.
+# For dependencies, it needs python3 and python3-massedit, which you can install with `pip install massedit`.
 
 # before you can use this script the first time, you have to initialize Transifex in this folder:
 # $ tx init --user=api --pass=<your api token>
