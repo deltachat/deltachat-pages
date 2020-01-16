@@ -1,5 +1,5 @@
 ---
-title: New Desktop Client Release - use Delta Chat on Windows, MacOS, or Linux!
+title: New Desktop Client Release - use Delta Chat on Windows, macOS, or Linux!
 author: compl4xx
 ---
 
@@ -62,4 +62,3 @@ Try it out!
 ![Screenshot of the Desktop Client: in the Media View you can see all images in a chat at once.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-media-view.jpg)
 
 *You can look at all files of a specific conversation in the Media View.*
-
