@@ -29,7 +29,7 @@ happen. Here is a quick overview:
 <img src="../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-search-contacts.jpg" width="250" style="float: right; margin: 10px;display: block;" /> 
 - New **Keyboard Shortcuts**: 
   - Press Ctrl + K to search for a contact or group chat.
-  - move through your chat list with alt + arrow keys.
+  - Move through your chat list with Alt + ←↓↑→arrow keys.
 - There are new beautiful **background images** by
   [Paula](https://github.com/paulaluap) and [Nico](https://github.com/nicodh) -
   but you can also choose a custom image.
@@ -62,4 +62,3 @@ Try it out!
 ![Screenshot of the Desktop Client: in the Media View you can see all images in a chat at once.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-media-view.jpg)
 
 *You can look at all files of a specific conversation in the Media View.*
-
