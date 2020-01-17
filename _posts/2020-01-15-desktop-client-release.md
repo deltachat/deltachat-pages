@@ -34,7 +34,7 @@ happen. Here is a quick overview:
   [Paula](https://github.com/paulaluap) and [Nico](https://github.com/nicodh) -
   but you can also choose a custom image.
 - **Profile pictures** make your client more beautiful to look at, too.
-- You can now copy a link with a right click on the message.
+- You can now copy a link by right-clicking the message it is in.
 - There is now also the Saved Messages & Device Chat which you might know already 
   from [the mobile apps](https://delta.chat/en/2019-12-18-google-play-store-release).
 
