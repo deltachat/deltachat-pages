@@ -12,13 +12,13 @@ not for Delta Chat. Even if you don't have a smart device, you can use the Deskt
 Client on its own.
 
 Most messengers have the problem that you can only chat with others on the same
-platform. With Delta Chat, you can write to anyone with an e-mail address.
+platform. With Delta Chat, you can write to anyone with an email address.
 This way, you are not locked into the userbase of WhatsApp, Signal, or
 Telegram.
 
 ![Screenshot of the Desktop Client, where you can choose between different accounts.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-switch-account.png)
 
-*If you have more than one e-mail address, you can switch between them.*
+*If you have more than one email address, you can switch between them.*
 
 ## Many New Desktop Client Features!
 
@@ -62,3 +62,4 @@ Try it out!
 ![Screenshot of the Desktop Client: in the Media View you can see all images in a chat at once.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-media-view.jpg)
 
 *You can look at all files of a specific conversation in the Media View.*
+
