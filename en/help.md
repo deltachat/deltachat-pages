@@ -380,7 +380,9 @@ mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
 to participate in chat conversations.
 
 However, we recommend to use the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent" folder might go away in the future. It was introduced at a time where there was no Delta Chat Desktop client available on all platforms. 
+on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
+folder might go away in the future. It was introduced at a time where there was
+no Delta Chat Desktop client available on all platforms. 
 
 ### Why can I choose not to watch the DeltaChat folder?
 
