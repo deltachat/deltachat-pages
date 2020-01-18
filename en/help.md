@@ -379,7 +379,7 @@ The only reason one wants to watch the Sent folder is if you are using another
 mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
 to participate in chat conversations.
 
-Instead we recommend to use the Delta Chat Desktop Client; you can download it
+However, we recommend to use the Delta Chat Desktop Client; you can download it
 on [get.delta.chat](https://get.delta.chat).
 
 ### Why can I choose not to watch the DeltaChat folder?
@@ -401,4 +401,3 @@ Otherwise, some things like deleting messages won't work anymore.
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
-
