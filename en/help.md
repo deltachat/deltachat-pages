@@ -387,7 +387,7 @@ on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent" fold
 Some people use Delta Chat as a regular email client, and want to use the Inbox
 folder for their mail, instead of the DeltaChat folder. If you disable "Watch
 DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, some things like deleting messages won't work anymore.
+Otherwise, deleting messages or multi-device setups might not work properly.
 
 ## Miscellaneous
 
