@@ -56,7 +56,7 @@ Other messages can be found in the main menu under **Contact requests**, from wh
 
 ### _Your_ profile picture?
 
-- Only contacts you write to your contacts see your profile picture if you add one.
+- Only contacts you write to see your profile picture, if you add one.
 
 - It is attached for contacts not on Delta Chat.
 
