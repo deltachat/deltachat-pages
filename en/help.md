@@ -157,7 +157,7 @@ Feedback on making the app better and more secure is appreciated.
 
 ### Group exit.
 
-- Delete the chat group or your user from the group list, or "mute" it.
+- Delete your user from the group list, or "mute" it.
   Muting means you can get and write messages, but are not notified of new ones.
 
 
