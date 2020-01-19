@@ -115,7 +115,7 @@ Feedback on making the app better and more secure is appreciated.
 
 - **Add group** from the "Sandwich menu" in the upper right corner of the chat overview.
 - Select **group members** and hit the checkmark in the upper right corner. Type in a **group name**.
--Write the **first message** in the group and all members are informed about it and can answer in it (otherwise it is invisible to its members).
+- Write the **first message** in the group and all members are informed about it and can answer in it (otherwise it is invisible to its members).
 
 
 ### Add members
