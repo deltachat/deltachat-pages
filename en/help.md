@@ -151,7 +151,7 @@ Feedback on making the app better and more secure is appreciated.
 
 ### Deleted myself.
 
-- No. As you're no longer a group member, you cannot add yourself again. 
+- OK. As you're no longer a group member, you cannot add yourself again. 
   Ask any other group member to re-add you.
 
 
