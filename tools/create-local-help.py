@@ -7,8 +7,14 @@
 
 
 from pathlib import Path
+from shutil import copyfile
 import os
 import re
+
+
+# list all files that should go to the local help here.
+# the path should be the path used eg. in the <img> tag.
+linked_files = ["../assets/home/delta-what-optim.png"]
 
 
 def read_file(filename):
@@ -27,7 +33,7 @@ def write_file(filename, content):
 def generate_file(destdir, lang, file):
     print("generate local help in " + destdir + "/" + lang + "/" + file)
 
-    content = read_file("../_site/" + lang + "/" + file + ".html")
+    content = read_file("../_site/" + lang + "/" + file)
 
     content = re.sub(r"^.*<div id=\"content\">.*<h1>.*?</h1>.*?<ul.*?>",
                        "<!DOCTYPE html>\n"
@@ -47,17 +53,24 @@ def generate_file(destdir, lang, file):
                      content,
                      flags=re.MULTILINE|re.DOTALL)
 
-    write_file(destdir + "/" + lang + "/" + file + ".html", content)
+    for linked_file in linked_files:
+        local_file = "../" + linked_file.split("/")[-1]
+        content = re.sub(linked_file, local_file, content)
+
+    write_file(destdir + "/" + lang + "/" + file, content)
 
 
 def generate_lang(destdir, lang):
-    generate_file(destdir, lang, "help")
+    generate_file(destdir, lang, "help.html")
 
 
 def generate_help(destdir):
     # if you add a language, make sure the destination dir exist
     generate_lang(destdir, "de")
     generate_lang(destdir, "en")
+    for linked_file in linked_files:
+        local_file = destdir + "/" + linked_file.split("/")[-1]
+        copyfile(linked_file, local_file)
 
 
 if __name__ == "__main__":
