@@ -71,7 +71,7 @@ Sent e-mails always use plain text.
 
 ### Delta chat login?
 
-Username and password, like other e-mail programs such as Thunderbird, K9-Mail, or Mutt.
+Username and password, like other e-mail programs such as Thunderbird, K-9 Mail, or Mutt.
 This is used to connect to the e-mail server, which sends and receives e-mails.
 The password is only stored on your device, and only sent to your e-mail provider (when you log in).
 
