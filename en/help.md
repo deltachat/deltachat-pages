@@ -69,7 +69,7 @@ Other messages can be found in the main menu under **Contact requests**, from wh
 Sent e-mails always use plain text.
 
 
-### Delta chat login?
+### Login?
 
 Username and password, like other e-mail programs such as Thunderbird, K-9 Mail, or Mutt.
 This is used to connect to the e-mail server, which sends and receives e-mails.
