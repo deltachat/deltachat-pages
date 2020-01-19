@@ -14,7 +14,7 @@ Chat via messages over e-mail, encrypted if possible (with Autocrypt).
 
 ### Chat with?
 
-Everyone that has an e-mail address - even if the recipient is not using
+Everyone you can e-mail - even if that someone isn't using
 the Delta Chat app. End-to-end encryption to everyone with an Autocrypt capable e-mail program.
 
 
