@@ -60,7 +60,7 @@ Other messages can be found in the main menu under **Contact requests**, from wh
 
 - It is attached for contacts not on Delta Chat.
 
-- It is sent ofen enough that your contacts will get it on their new device.
+- It is sent often enough that your contacts will get it on their new device.
 
 
 ### HTML e-mails?
