@@ -3,12 +3,6 @@ title: Imprint
 lang: it
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Imprint
 
 Delta.Chat è un progetto comunitario open source. Il responsabile del contenuto delle pagine è:

@@ -3,12 +3,6 @@ title: Downloads verifizieren
 lang: de
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Downloads verifizieren
 
 Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:

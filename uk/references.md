@@ -3,12 +3,6 @@ title: References
 lang: uk
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Посилання
 
 Although Delta Chat is still in beta state, there are already some interesting articles.

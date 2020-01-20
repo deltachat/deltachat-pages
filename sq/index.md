@@ -3,12 +3,6 @@ title: Lajmëtari
 lang: sq
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Bisedoni përmes email-i dhe drejtohuni për nga ardhmja, me ne!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

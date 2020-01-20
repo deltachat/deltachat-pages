@@ -4,12 +4,6 @@ lang: sq
 downloads: true
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 ## Regjistra ndryshimesh
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)

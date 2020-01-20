@@ -3,12 +3,6 @@ title: Wydawca
 lang: pl
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Wydawca
 
 Delta.Chat jest projektem społeczności open source. Odpowiedzialność za treść tych stron spoczywa na:

@@ -3,12 +3,6 @@ title: Contribute
 lang: ca
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Canals i repositoris
 
 - [Fòrum de suport de Delta Chat](https://support.delta.chat) per converses més extenses

@@ -3,12 +3,6 @@ title: Мессенджер
 lang: ru
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Общайтесь по электронной почте и возвращайтесь в будущее вместе с нами!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
@@ -33,6 +27,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
 
-Ознакомьтесь с нашими [скачать.delta.chat](https://get.delta.chat) и [последними сообщениями в блоге](blog)
+Ознакомьтесь с нашими [страницей загрузок](https://get.delta.chat) и [последними сообщениями в блоге](blog)
 для получения информации о текущих выпусках и событиях.
 

@@ -3,12 +3,6 @@ title: Imprint
 lang: nb
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Avtrykk
 
 Delta.Chat is an open source community project. Responsible for the content of these pages is:

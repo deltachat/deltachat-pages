@@ -3,12 +3,6 @@ title: Contribuir
 lang: es
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Canales y repositorios
 
 - [Foro de soporte de Delta Chat](https://support.delta.chat) para discusiones más amplias sobre las funcionalidades y para obtener ayuda.

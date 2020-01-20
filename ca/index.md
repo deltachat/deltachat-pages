@@ -3,12 +3,6 @@ title: The messenger
 lang: ca
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Xateja sobre correu electrònic i retorna al futur amb naltros! 
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

@@ -3,12 +3,6 @@ title: Weryfikacja pobranych plików
 lang: pl
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Weryfikacja pobranych plików
 
 W przypadku systemu Android można sprawdzić, czy certyfikat APK jest zgodny z jednym z poniższych odcisków palców SHA256: 

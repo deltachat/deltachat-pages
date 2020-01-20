@@ -3,12 +3,6 @@ title: Внести свой вклад
 lang: ru
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Каналы и репозитории
 
 - [Delta Chat форум поддержки](https://support.delta.chat) больше

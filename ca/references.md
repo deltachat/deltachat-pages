@@ -3,12 +3,6 @@ title: References
 lang: ca
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Referències
 
 Malgrat que Delta Chat encara està en estadi beta, ja hi ha alguns articles interessants.

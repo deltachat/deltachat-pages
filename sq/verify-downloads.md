@@ -3,12 +3,6 @@ title: Verifikoni Shkarkime
 lang: sq
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Verifikoni Shkarkimet
 
 Për Android, mund të verifikoni se dëshmia e nënshkrimit në APK përputhet me një nga shenjat vijuese SHA256 të gishtave: 

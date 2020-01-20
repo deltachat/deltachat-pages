@@ -3,12 +3,6 @@ title: Mentions légales
 lang: fr
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Mentions légales
 
 Delta.chat est un projet communautaire à code source ouvert. Le responsable du contenu de ces pages est :

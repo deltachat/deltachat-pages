@@ -3,12 +3,6 @@ title: La app de mensajería
 lang: es
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # ¡Chatea por correo electrónico y regresa al futuro con nosotros!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

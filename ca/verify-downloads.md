@@ -3,12 +3,6 @@ title: Verify Downloads
 lang: ca
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Verify Downloads
 
 For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  

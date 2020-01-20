@@ -4,12 +4,6 @@ lang: de
 downloads: true
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 ## Changelogs
 
 * [Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)

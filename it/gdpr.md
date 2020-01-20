@@ -3,12 +3,6 @@ title: GDPR e Privacy
 lang: it
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Note su privacy e GDPR 
 
 Il Regolamento Generale sulla Protezione dei Dati (GDRP) è spesso considerato

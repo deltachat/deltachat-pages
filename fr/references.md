@@ -3,12 +3,6 @@ titre: Références
 lang: fr
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Références
 
 Bien que Delta Chat soit toujours en version bêta, il existe déjà quelques articles intéressants.

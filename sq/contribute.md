@@ -3,12 +3,6 @@ title: Jepni ndihmesë
 lang: sq
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Kanale dhe depo
 
 - [Forum asistence për Delta Chat-in](https://support.delta.chat) për

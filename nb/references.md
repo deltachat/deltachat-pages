@@ -3,12 +3,6 @@ title: References
 lang: nb
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Referanser
 
 Although Delta Chat is still in beta state, there are already some interesting articles.

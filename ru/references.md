@@ -3,12 +3,6 @@ title: References
 lang: ru
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Cсылки
 
 Delta Chat по прежнему в стадии разработки, предлагаем ознакомиться с несколькими интересными статьями.

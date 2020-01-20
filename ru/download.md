@@ -4,12 +4,6 @@ lang: ru
 downloads: true
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 ## Список изменений
 
 * [ПК](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)

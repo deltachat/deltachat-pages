@@ -6,12 +6,6 @@ header: Pyetje të Bëra Rëndom
 ---
 
 
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
-
 ## What is Delta Chat?
 
 Delta Chat është një aplikacion i ri bisedash që i dërgon mesazhet përmes emai-i, të fshehtëzuar, nëse është e mundur, me Autocrypt. 
@@ -354,6 +348,51 @@ për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim:
 - Tani jeni i njëkohësuar dhe mund të përdorni që të dyja pajisjet për marrje
   dhe dërgim mesazhesh, të fshehtëzuar me E2E, me partnerët tuaj në komunikim. 
 
+### Why can I choose not to watch the Inbox?
+
+This is an experimental setting for some people who are experimenting with
+server-side rules. Not all providers support this, but with some you can move
+all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
+would be done by the Delta Chat app.
+
+Watching the Inbox makes sense to turn off, if you have both:
+
+- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
+- have set the "Show classic emails" setting to "no, chats only".
+
+In this case, Delta Chat doesn't need to watch the Inbox.
+
+### What is the "Send Copy to Self" setting good for?
+
+Sending a copy of your messages to yourself ensures that you receive your own
+messages on all devices. If you have multiple devices and don't turn it on, you
+see only the messages from other people, and the messages you send from the
+current device. 
+
+The copy is send to the Inbox, and then moved to the DeltaChat folder; it's not
+put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
+folder because this would mean uploading a message twice (once through SMTP,
+and once through IMAP to Sent folder).
+
+The default setting for copy-to-self is "no".
+
+### Why can I choose to watch the "Sent" folder?
+
+The only reason one wants to watch the Sent folder is if you are using another
+mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
+to participate in chat conversations.
+
+However, we recommend to use the Delta Chat Desktop Client; you can download it
+on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
+folder might go away in the future. It was introduced at a time where there was
+no Delta Chat Desktop client available on all platforms. 
+
+### Why can I choose not to watch the DeltaChat folder?
+
+Some people use Delta Chat as a regular email client, and want to use the Inbox
+folder for their mail, instead of the DeltaChat folder. If you disable "Watch
+DeltaChat folder", you should also disable "move chat messages to DeltaChat".
+Otherwise, deleting messages or multi-device setups might not work properly.
 
 ## Të ndryshme
 
@@ -367,4 +406,3 @@ për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim:
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
-

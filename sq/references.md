@@ -3,12 +3,6 @@ title: Referenca
 lang: sq
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Referenca
 
 Edhe pse Delta Chat gjendet ende në fazë beta, ka tashmë disa artikuj interesantë.

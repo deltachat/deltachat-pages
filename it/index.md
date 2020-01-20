@@ -3,12 +3,6 @@ title: The messenger
 lang: it
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Chatta via e-mail e vivi un ritorno al futuro assieme a noi!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

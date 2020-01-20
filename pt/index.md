@@ -3,12 +3,6 @@ title: The messenger
 lang: pt
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Converse pelo e-mail e viaje de volta para o futuro conosco!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

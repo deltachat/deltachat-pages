@@ -3,12 +3,6 @@ title: Imprint
 lang: sq
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Imprint
 
 Delta.Chat është projekt bashkësie burimi të hapur. Përgjegjës për lëndën e këtyre faqeve është:

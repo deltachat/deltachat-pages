@@ -3,12 +3,6 @@ title: Contribute
 lang: uk
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Канали і репозиторії
 
 - [Delta Chat форум підтримки](https://support.delta.chat) більше

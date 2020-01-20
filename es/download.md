@@ -4,12 +4,6 @@ lang: es
 downloads: true
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 ## Registro de cambios
 
 * [Escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)

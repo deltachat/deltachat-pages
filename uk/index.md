@@ -3,12 +3,6 @@ title: The messenger
 lang: uk
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Chat over e-mail and head back to the future with us!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

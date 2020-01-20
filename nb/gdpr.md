@@ -3,12 +3,6 @@ title: GDPR and Privacy
 lang: nb
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Note on privacy and GDPR 
 
 The General Data Protection Regulation (GDPR) is often regarded

@@ -3,12 +3,6 @@ title: GDPR i Prywatność
 lang: pl
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Uwaga na temat prywatności i GDPR
 
 Ogólne rozporządzenie o ochronie danych (GDPR) jest często uważane za

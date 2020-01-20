@@ -3,12 +3,6 @@ titre: Le messager
 lang: fr
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Tchattez par courriel et retournez vers l'avenir avec nous !
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

@@ -3,12 +3,6 @@ title: Komunikator
 lang: pl
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Czatuj przez e-mail i podążaj z nami w przyszłość!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

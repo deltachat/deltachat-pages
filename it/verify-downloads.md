@@ -3,12 +3,6 @@ title: Verifica Download
 lang: it
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Verifica Download
 
 Per Android, puoi verificare che il certificato di firma dell'APK corrisponda ad uno dei seguenti fingerprint SHA256:

@@ -3,12 +3,6 @@ title: References
 lang: pt
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Referências
 
 Mesmo que o Delta Chat ainda esteja em estágio beta, já existem alguns artigos interessantes sobre ele na mídia.

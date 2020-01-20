@@ -3,12 +3,6 @@ title: Imprint
 lang: ca
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Emprempta
 
 Delta.Chat és un projecte comunitari de programari lliure. El responsable del contingut d'aquestes pàgines és:

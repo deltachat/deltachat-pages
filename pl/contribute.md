@@ -3,12 +3,6 @@ title: Wsparcie
 lang: pl
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Kanały i repozytoria
 
 - [Forum wsparcia Delta Chat](https://support.delta.chat) do

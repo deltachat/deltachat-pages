@@ -3,12 +3,6 @@ title: Contribuez
 lang: fr
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Canaux et dépôts de données
 
 - [forum d'assistance Delta Chat](https://support.delta.chat) pour discuter de fonctionnalités étendues et obtenir de l'assistance.

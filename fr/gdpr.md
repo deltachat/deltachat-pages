@@ -3,12 +3,6 @@ titre: RGPD et vie privée
 lang: fr
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Note sur la vie privée et le RGPD
 
 Le règlement général sur la protection des données (RGPD) est souvent considéré comme la législation la plus complète en matière de protection de la vie privée des utilisateurs. 

@@ -3,12 +3,6 @@ title: Der Messenger
 lang: de
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Mit "Chat over E-Mail" zurück in die Zukunft!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />

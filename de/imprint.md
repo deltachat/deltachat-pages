@@ -3,12 +3,6 @@ title: Impressum
 lang: de
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Impressum
 
 Delta.Chat ist ein  Open Source Community Projekt. Verantwortlich für den Inhalt auf diesen Seiten ist:

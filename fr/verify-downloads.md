@@ -3,12 +3,6 @@ titre: Vérifier téléchargements
 lang: fr
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Vérifier téléchargement
 
 Pour Android, vous pouvez vérifier le que certificat de signature sur l'APK correspond à l'une des empreintes SHA256 suivantes:  

@@ -3,12 +3,6 @@ title: Imprint
 lang: pt
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Aviso legal
 
 O Delta.Chat é um projeto de código aberto. O responsável pelo conteúdo desta página é:

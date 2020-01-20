@@ -3,12 +3,6 @@ title: Verificar Descargas
 lang: es
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Verificar Descargas
 
 Para Android, puede verificar que el certificado de firma en la APK coincida con una de las siguientes firmas digitales SHA256:

@@ -3,12 +3,6 @@ title: DSGVO und Privatsphäre
 lang: de
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Hinweis zum Datenschutz und zur DSGVO
 
 Die Datenschutz-Grundverordnung (DSGVO) wird häufig 

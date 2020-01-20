@@ -3,12 +3,6 @@ title: Referencje
 lang: pl
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Referencje
 
 Chociaż Delta Chat jest nadal w fazie beta, jest już kilka interesujących artykułów.

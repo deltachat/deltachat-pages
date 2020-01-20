@@ -3,12 +3,6 @@ title: GDPR dhe Privatësi
 lang: sq
 ---
 
-
-
-<!-- GENERATED FILE -- DO NOT EDIT -->
-
-
-
 # Shënim mbi privatësinë dhe GDPR-në
 
 Rregullorja e Përgjithshme e Mbrojtjes së të Dhënave (GDPR) shpesh shihet si
