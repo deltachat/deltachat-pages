@@ -11,6 +11,8 @@ header: Frequently Asked Questions
 Delta Chat è una nuova applicazione che permette di inviare messaggi via email, cifrati, quando possibile con AutoCrypt . 
 **Non è necessario registrarsi ad un servizio, usa direttamente il tuo account email tramite Delta Chat.** 
 
+<img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
+
 
 ### Come posso trovare persone con cui messaggiare? 
 

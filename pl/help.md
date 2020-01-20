@@ -11,6 +11,8 @@ header: Często Zadawane Pytania
 Delta Chat to nowa aplikacja do czatowania, która wysyła wiadomości e-mailem, w miarę możliwości zaszyfrowane przy użyciu Autocrypt.
 ** Nie musisz się nigdzie rejestrować, po prostu użyj swojego istniejącego konta e-mail w Delta Chat. **
 
+<img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
+
 
 ### Jak mogę znaleźć ludzi, z którymi mogę czatować? 
 

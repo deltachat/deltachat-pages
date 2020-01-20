@@ -10,6 +10,8 @@ header: Questions Fréquentes
 
 Delta Chat est une application de clavardage qui utilise le courriel electronique pour délivrer ses messages et, si possible, les chiffre avec Autocrypt.
 
+<img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
+
 
 ### Comment puis-je trouver des gens avec qui discuter ? 
 
