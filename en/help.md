@@ -405,3 +405,13 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
+
+### Is there a "Don't Disturb Me" mode, where I don't get new messages?
+
+If you don't want to be reachable for a while, you can disable "Watch Inbox
+folder" in the settings. This way, Delta Chat doesn't receive new messages
+until you re-enable the option again.
+
+If you want Delta Chat to consume no bandwidth at all, you need to disable all
+"watch folder"-settings.
+
