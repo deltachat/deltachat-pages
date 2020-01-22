@@ -52,7 +52,7 @@ right-wing militants, or privacy-sensitive emotional support.
 Come time for more practice, folling the theory part, Donna handed out seven
 pieces of paper containing logins. They were for virtual private servers
 (VPS) she had created beforehand. Everyone started logging in via SSH
-(a remote command line), finding out how the SSH command works,
+(a remote command-line), finding out how the SSH command works,
 struggling with the bad squat Wi-Fi.
 
 Juga took over from there to teach everyone how to install a mail server, and
