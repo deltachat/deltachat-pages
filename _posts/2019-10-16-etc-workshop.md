@@ -58,7 +58,7 @@ struggling with the bad squat Wi-Fi.
 Juga took over from there to teach everyone how to install a mail server, and
 what to watch out for. To get started I teamed up with a friend, as did the others.
 We could look up the instructions in a pad for how to install & configure a
-postfix SMTP server - the software taking care of sending e-mails, and receiving
+postfix SMTP server - the software sending and receiving
 them from other mail servers on the Internet.
 
 Following everyone getting an SMTP server up and running, the fun part - using it to
