@@ -63,7 +63,7 @@ e-mails from and to other mail servers on the Internet.
 
 Following everyone getting an SMTP server up and running, the fun part - using it to
 communicate with each other! Using Mutt on the server command-line, we
-sent each other e-mails to prove that it works. It was really good to see it
+sent each other e-mails to prove functionality. It was really good to see it
 actually working. I didn't expect it to function for everyone so quickly.
 
 An SMTP server is however only half that of a good mail server - you also need an
