@@ -34,7 +34,7 @@ sharing our experience with Delta Chat and mail servers.
 
 First, Donna gave an overview of Delta Chat. There was some discussion about
 the possibilities of a messenger in the decentralized mail network, especially
-the possibiliyu of communicating with people using other e-mail applications.
+the possibility of communicating with people using other e-mail applications.
 The strengths of Autocrypt as an encryption standard was on display, in its
 compatibility with many other e-mail clients.
 
