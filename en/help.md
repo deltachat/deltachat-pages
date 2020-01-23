@@ -350,7 +350,7 @@ capable) devices, you have to sync their encryption capabilities:
 ### Are there any plans for introducing a Delta Chat Web Client?
 
 - There are no immediate plans but some preliminary thoughts.
-- There are two avenues for introducing a Delta Chat Web Client, but both are
+- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
   significant work. For now, we focus on getting stable releases into all
   appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
 - If you need a Web Client, because you are not allowed to install software on
