@@ -353,6 +353,11 @@ capable) devices, you have to sync their encryption capabilities:
 - There are two avenues for introducing web delta chat, but both are
   significant work. For now, we focus on getting stable releases into all
   appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+- If you need a Web Client, because you are not allowed to install software on
+  the computer you work with, you can use the portable Windows Desktop Client,
+  or the AppImage for Linux. You can find them on
+  [get.delta.chat](https://get.delta.chat).
+
 
 ### Why can I choose not to watch the Inbox?
 
@@ -412,7 +417,7 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 ### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
 
 - Generally, E-Mail packets travel as fast as anything else on the Internet. So
-  the transmission itself is as instant as it can be - a few seconds at most.
+  chatting itself is as instant as it can be - a few seconds at most.
 - There is another issue that can delay message deliverly though: receiving
   messages in the background. For privacy reasons, Delta Chat doesn't use
   Google Cloud Messaging (GCM) or the Apple Push Notification Service (APNS).
