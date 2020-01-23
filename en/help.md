@@ -440,9 +440,10 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
   encrypted, though. The End-to-End encryption those providers offer is only
   working inside their platforms, and not compatible with anyone outside.
-- There are two exceptions: Tutanota has Autocrypt support on their roadmap,
-  which will make it compatible with Delta Chat. And if you use Protonmail with
-  their IMAP Bridge and an Autocrypt-capable client (like Delta Chat or
+- There are two exceptions: Tutanota has Autocrypt support [on their
+  roadmap](https://github.com/tutao/tutanota/issues/198), which will make it
+  compatible with Delta Chat. And if you use Protonmail with their IMAP Bridge
+  and an Autocrypt-capable client (like Delta Chat or
   Thunderbird/[Autocrypt](https://addons.thunderbird.net/en-US/thunderbird/addon/autocrypt/)),
   End-Encryption will work with Delta Chat.
 
