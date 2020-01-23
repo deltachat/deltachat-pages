@@ -431,13 +431,20 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 
 ### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
 
-- Yes and No. 
-- Yes, you can use Delta Chat to send E-Mails to people who use Protonmail,
-  Tutanota, or Criptext.
+- Yes and No.
 - No, you can not use your Tutanota or Criptext account with Delta Chat; they
   do not offer receiving mails via IMAP.
 - You can use Protonmail with Delta Chat if you use their [IMAP
   Bridge](https://protonmail.com/bridge/).
+- In any case you can use Delta Chat to send Messages to people who use
+  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
+  encrypted, though. The End-to-End encryption those providers offer is only
+  working inside their platforms, and not compatible with anyone outside.
+- There are two exceptions: Tutanota has Autocrypt support on their roadmap,
+  which will make it compatible with Delta Chat. And if you use Protonmail with
+  their IMAP Bridge and an Autocrypt-capable client (like Delta Chat or
+  Thunderbird/[Autocrypt](https://addons.thunderbird.net/en-US/thunderbird/addon/autocrypt/)),
+  End-Encryption will work with Delta Chat.
 
 
 ### I'm interested in the technical details. Can you tell me more?
