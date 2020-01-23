@@ -416,8 +416,9 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 
 ### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
 
-- Generally, E-Mail packets travel as fast as anything else on the Internet. So
-  chatting itself is as instant as it can be - a few seconds at most.
+- Sending and receiving messages takes a few seconds, typically. Sometimes
+  there are cases where it takes longer but that is arguably true as well for
+  any other messenger.
 - There is another issue that can delay message deliverly though: receiving
   messages in the background. For privacy reasons, Delta Chat doesn't use
   Google Cloud Messaging (GCM) or the Apple Push Notification Service (APNS).
