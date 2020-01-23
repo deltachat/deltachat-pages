@@ -347,6 +347,13 @@ capable) devices, you have to sync their encryption capabilities:
 - You are now synchronized, and can use both devices for
   sending and receiving E2E-encrypted messages with your communication partners. 
 
+### Are there any plans for introducing a Delta Chat Web Client?
+
+- There are no immediate plans but some preliminary thoughts.
+- There are two avenues for introducing web delta chat, but both are
+  significant work. For now, we focus on getting stable releases into all
+  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+
 ### Why can I choose not to watch the Inbox?
 
 This is an experimental setting for some people who are experimenting with
@@ -402,6 +409,22 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   see [Provider Overview](https://providers.delta.chat)
 
 
+### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+
+- Generally, E-Mail packets travel as fast as anything else on the Internet. So
+  the transmission itself is as instant as it can be - a few seconds at most.
+- There is another issue that can delay message deliverly though: receiving
+  messages in the background. For privacy reasons, Delta Chat doesn't use
+  Google Cloud Messaging (GCM) or the Apple Push Notification Service (APNS).
+- On Android, this is usually not a problem, if you allow Delta Chat to run in
+  the background. On iOS that's unfortunately less reliable. On Desktop, it's
+  no problem at all.
+- That Android and iOS kill apps running in the background is a general problem
+  of many apps. For more information, see
+  [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
+
