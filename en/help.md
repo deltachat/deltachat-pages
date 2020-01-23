@@ -419,14 +419,16 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 - Sending and receiving messages takes a few seconds, typically. Sometimes
   there are cases where it takes longer but that is arguably true as well for
   any other messenger.
-- There is an issue that can delay message delivery, though: receiving
-  messages in the background. For privacy reasons, Delta Chat doesn't use
-  Google Cloud Messaging (GCM) or the Apple Push Notification Service (APNS).
-- On Android, this is usually not a problem, if you allow Delta Chat to run in
-  the background. On iOS that's unfortunately less reliable. On Desktop, it's
-  no problem at all.
-- That Android and iOS kill apps running in the background is a general problem
-  of many apps. For more information, see
+- Instant chatting works fast if both parties are actively using the app. It's
+  sometimes slower if the app is running in background.
+- Receiving messages then can take minutes because both Android and iOS often
+  stop Delta Chat from running in the background, and only wake it up
+  occassionally. This artifical delay is usually worse on iOS than on Android.
+- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
+  Push Notification Service (APNS), because this leads to user tracking and
+  central control which Delta Chat aims to avoid as much as feasible.
+- However, that Android and iOS kill apps running in the background is a
+  problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
