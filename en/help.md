@@ -424,6 +424,17 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
+### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+
+- Yes and No. 
+- Yes, you can use Delta Chat to send E-Mails to people who use Protonmail,
+  Tutanota, or Criptext.
+- No, you can not use your Tutanota or Criptext account with Delta Chat; they
+  do not offer receiving mails via IMAP.
+- You can use Protonmail with Delta Chat if you use their [IMAP
+  Bridge](https://protonmail.com/bridge/).
+
+
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
