@@ -419,7 +419,7 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 - Sending and receiving messages takes a few seconds, typically. Sometimes
   there are cases where it takes longer but that is arguably true as well for
   any other messenger.
-- There is another issue that can delay message deliverly though: receiving
+- There is an issue that can delay message delivery, though: receiving
   messages in the background. For privacy reasons, Delta Chat doesn't use
   Google Cloud Messaging (GCM) or the Apple Push Notification Service (APNS).
 - On Android, this is usually not a problem, if you allow Delta Chat to run in
@@ -444,4 +444,3 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
-
