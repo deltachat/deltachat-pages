@@ -1,6 +1,6 @@
 ---
 title: Bijdragen
-layout: nl
+lang: nl
 ---
 
 # Kanalen en repo's

@@ -1,6 +1,6 @@
 ---
 title: Downloads verifiëren
-layout: nl
+lang: nl
 ---
 
 # Downloads verifiëren

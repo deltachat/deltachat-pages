@@ -1,6 +1,6 @@
 ---
 title: Over Delta Chat
-layout: nl
+lang: nl
 ---
 
 # Over Delta Chat
