@@ -1,6 +1,6 @@
 ---
 title: GDPR en privacy
-layout: nl
+lang: nl
 ---
 
 # Informatie omtrent privacy en de GPDR

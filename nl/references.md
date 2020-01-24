@@ -1,6 +1,6 @@
 ---
 title: Verwijzingen
-layout: nl
+lang: nl
 ---
 
 # Verwijzingen
