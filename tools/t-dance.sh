@@ -21,7 +21,7 @@
 set -e
 
 sfiles=(blog contribute download gdpr help imprint index references verify-downloads)
-tlangs=(ca de es fr it nb_NO pl pt ru sq uk)  # do not add `en` to this list
+tlangs=(ca de es fr it nb_NO pl pt ru sq uk nl)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
