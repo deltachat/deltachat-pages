@@ -1,6 +1,6 @@
 ---
 title: Dé chat-app
-layout: nl
+lang: nl
 ---
 
 # Chat via e-mail en omarm samen met ons de toekomst!
