@@ -88,8 +88,7 @@ for more info see the comments in `./tools/t-dance.sh`.
 - add the language to `tlangs` in `/tools/t-dance.sh` 
   and run `./t-dance.sh pull` from the `tools`-directory.
 
-- check the language selection in `/index.html` 
-  and in `/_includes/footer-languages.html`.
+- check the language selection in `/_includes/footer-languages.html`.
 
 ### To **add a new page**:
 
