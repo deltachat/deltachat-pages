@@ -13,7 +13,7 @@ downloads: true
 
 ## Links
 
-* [Providerdatabank] (https://providers.delta.chat/) Werkt mijn e-mailprovider in Delta Chat?
+* [Providerdatabank](https://providers.delta.chat/) Werkt mijn e-mailprovider in Delta Chat?
 * [FAQ-multiclient](help#multiclient): Alles over het synchroniseren van de Delta-computerapp met een andere Delta-app.
 * [Downloads verifiëren](verify-downloads): Verifieer de integriteit van de downloads
 
