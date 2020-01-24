@@ -11,11 +11,11 @@ downloads: true
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
 * [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-## Links
+## Lidhje
 
-* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
-* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
-* [Verify Downloads](verify-downloads): Verify data integrity of downloads
+* [Bazë të dhënash Furnizuesish Shërbimesh](https://providers.delta.chat/): A funksionon Furnizuesi im me Delta Chat-in?
+* [PBR për multiklient](help#multiclient): Si të njëkohësohet Desktopi me një tjetër aplikacion Delta Chat.
+* [Verifikoni Shkarkime](verify-downloads): Verifikoni pacenueshmëri të dhënash të shkarkimeve
 
 ## Montime Paraparje:
 * [Desktop](https://download.delta.chat/desktop/preview/)

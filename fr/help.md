@@ -6,7 +6,7 @@ header: Questions Fréquentes
 ---
 
 
-## What is Delta Chat?
+## C'est quoi Delta Chat?
 
 Delta Chat est une application de clavardage qui utilise le courriel electronique pour délivrer ses messages et, si possible, les chiffre avec Autocrypt.
 
@@ -136,13 +136,7 @@ Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](ht
   See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
   for the R&D behind this feature. 
 
-- As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continously improved and many bugs have been fixed since the
-  original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occure, or messages become 
-  unreadable.  Early 2020 a security review is upcoming, and several new
-  developments around qr-join protocols are taking place so chances
-  are we remove the "experimental" label not too far in the future. 
+- En décembre 2019, un "groupe vérifié" reste une fonction expérimentale. Elle est continuellement améliorée et de nombreux bogues ont été corrigés depuis son introduction en 2018. Toutefois, il reste des cas, notamment avec de grands groupes, où des incohérences peuvent se produire, ou des messages qui deviennent illisibles. Début 2020, un examen de la sécurité est prévu, et plusieurs nouveaux développements autour des protocoles qr-join ont lieu de sorte qu'il y a des chances que nous supprimions le label "expérimental" dans un proche avenir.
 
 
 ## Je me suis retiré du groupe par accident.
@@ -156,19 +150,17 @@ Demandez simplement dans un tchat à n'importe quel autre membre de ce groupe de
 - Supprimez-vous de la liste des membres ou supprimez le tchat en entier. 
 Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du groupe de vous ré-inviter.
 
-- As an alternative, you can also "Mute" a group - doing so means you get all messages and 
-  can still write, but are no longer notified of any new messages.
+- Vous pouvez également mettre un groupe en "Muet", ce qui signifie que vous recevez tous les messages et pourrez toujours écrire, mais vous ne serez plus informés de l'arrivée de nouveaux messages.
 
 
-## Encryption {#encryption}
+## Chiffrement {#encryption}
 
-### Does Delta Chat support end-to-end-encryption?
+### Delta Chat gère-t-il le chiffrement de bout en bout?
 
-- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
-  thus E2E-encrypt messages with other Autocrypt-capable apps. 
+- Oui. Delta Chat implémente la norme Autocrypt Niveau 1 et peut ainsi chiffrer E2E (de bout en bout) les messages avec d'autres applications Autocrypt. 
 
 
-### What do I have to do to activate the end-to-end-encryption?
+### Que faire pour activer le chiffrement de bout en bout?
 
 - Rien.
 
@@ -183,7 +175,7 @@ Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du group
   use the corresponding setting in "Settings / Advanced settings".
 
 
-### If end-to-end-encryption is not available, is the connection not encrypted at all?
+### Si le chiffrement de bout en bout n'est pas disponible, la connexion n'est-elle pas chiffrée du tout ?
 
 - With most mail servers, Delta Chat establishes _transport encryption_
   ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
@@ -192,9 +184,9 @@ Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du group
   your device and a friend's device. 
 
 
-### How can I verify cryptographic status with a sender? 
+### Comment puis-je vérifier le statut de chiffrement auprès d'un expéditeur ?
 
-The user's profile shows some additional info:
+Le profil de l'utilisateur affiche quelques informations supplémentaires :
 
 - Tap "QR Invite code" on Android and then use the "Scan QR code"
   button on another device to scan this code. If both devices are online,
@@ -335,6 +327,18 @@ et cliquez jusqu'à ce qu'un "numéro de sécurité" s'affiche.
 - You are now synchronized, and can use both devices for
   sending and receiving E2E-encrypted messages with your communication partners. 
 
+### Are there any plans for introducing a Delta Chat Web Client?
+
+- There are no immediate plans but some preliminary thoughts.
+- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
+  significant work. For now, we focus on getting stable releases into all
+  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+- If you need a Web Client, because you are not allowed to install software on
+  the computer you work with, you can use the portable Windows Desktop Client,
+  or the AppImage for Linux. You can find them on
+  [get.delta.chat](https://get.delta.chat).
+
+
 ### Why can I choose not to watch the Inbox?
 
 This is an experimental setting for some people who are experimenting with
@@ -388,6 +392,37 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 - With a rather good chance: Yes :)  
   However, some providers need special options to work properly,
   see [Provider Overview](https://providers.delta.chat)
+
+
+### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+
+- Sending and receiving messages takes a few seconds, typically. Sometimes
+  there are cases where it takes longer but that is arguably true as well for
+  any other messenger.
+- Instant chatting works fast if both parties are actively using the app. It's
+  sometimes slower if the app is running in background.
+- Receiving messages then can take minutes because both Android and iOS often
+  stop Delta Chat from running in the background, and only wake it up
+  occassionally. This artifical delay is usually worse on iOS than on Android.
+- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
+  Push Notification Service (APNS), because this leads to user tracking and
+  central control which Delta Chat aims to avoid as much as feasible.
+- However, that Android and iOS kill apps running in the background is a
+  problem for many legitimate apps. For more information, see
+  [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+
+- Yes and No.
+- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
+  Chat; they do not offer receiving mails via IMAP.
+- In any case you can use Delta Chat to send Messages to people who use
+  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
+  encrypted, though. The End-to-End encryption those providers offer is only
+  working inside their platforms, and not compatible with anyone outside.
+- Delta Chat can e2e-encrypt through any e-mail provider with any
+  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
 
 
 ### I'm interested in the technical details. Can you tell me more?

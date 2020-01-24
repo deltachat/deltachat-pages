@@ -6,7 +6,7 @@ header: Często Zadawane Pytania
 ---
 
 
-## What is Delta Chat?
+## Czym jest Delta Chat?
 
 Delta Chat to nowa aplikacja do czatowania, która wysyła wiadomości e-mailem, w miarę możliwości zaszyfrowane przy użyciu Autocrypt.
 ** Nie musisz się nigdzie rejestrować, po prostu użyj swojego istniejącego konta e-mail w Delta Chat. **
@@ -306,6 +306,18 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 - Przeszedłeś teraz synchronizację i możesz używać obu urządzeń
   do wysyłania i odbierania zaszyfrowanych wiadomości metodą e2e ze swoimi partnerami komunikacyjnymi. 
 
+### Are there any plans for introducing a Delta Chat Web Client?
+
+- There are no immediate plans but some preliminary thoughts.
+- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
+  significant work. For now, we focus on getting stable releases into all
+  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+- If you need a Web Client, because you are not allowed to install software on
+  the computer you work with, you can use the portable Windows Desktop Client,
+  or the AppImage for Linux. You can find them on
+  [get.delta.chat](https://get.delta.chat).
+
+
 ### Why can I choose not to watch the Inbox?
 
 This is an experimental setting for some people who are experimenting with
@@ -359,6 +371,37 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 - With a rather good chance: Yes :)  
   However, some providers need special options to work properly,
   see [Provider Overview](https://providers.delta.chat)
+
+
+### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+
+- Sending and receiving messages takes a few seconds, typically. Sometimes
+  there are cases where it takes longer but that is arguably true as well for
+  any other messenger.
+- Instant chatting works fast if both parties are actively using the app. It's
+  sometimes slower if the app is running in background.
+- Receiving messages then can take minutes because both Android and iOS often
+  stop Delta Chat from running in the background, and only wake it up
+  occassionally. This artifical delay is usually worse on iOS than on Android.
+- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
+  Push Notification Service (APNS), because this leads to user tracking and
+  central control which Delta Chat aims to avoid as much as feasible.
+- However, that Android and iOS kill apps running in the background is a
+  problem for many legitimate apps. For more information, see
+  [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+
+- Yes and No.
+- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
+  Chat; they do not offer receiving mails via IMAP.
+- In any case you can use Delta Chat to send Messages to people who use
+  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
+  encrypted, though. The End-to-End encryption those providers offer is only
+  working inside their platforms, and not compatible with anyone outside.
+- Delta Chat can e2e-encrypt through any e-mail provider with any
+  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
 
 
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi więcej?

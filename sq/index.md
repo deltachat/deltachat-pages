@@ -28,6 +28,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
 
-Please check [get.delta.chat](https://get.delta.chat) and the [latest blog posts](blog)
-for information on current releases and events. 
+Për të dhëna mbi hedhjet e tanishme në qarkullim dhe veprimtari, ju lutemi,
+shihni te [get.delta.chat](https://get.delta.chat) dhe [postimet më të reja
+në blog posts](blog).
 

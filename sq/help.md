@@ -6,7 +6,7 @@ header: Pyetje të Bëra Rëndom
 ---
 
 
-## What is Delta Chat?
+## Ç’është Delta Chat-i?
 
 Delta Chat është një aplikacion i ri bisedash që i dërgon mesazhet përmes emai-i, të fshehtëzuar, nëse është e mundur, me Autocrypt. 
 **Nuk ju duhet të regjistroheni gjëkundi, thjesht përdorni me Delta Chat-in llogarinë tuaj ekzistuese email.** 
@@ -141,15 +141,9 @@ përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tan
 
 ### Ç’është një grup i verifikuar? Pse është eksperimentale kjo? 
 
-- A verified group is a chat that gurantees safety against an active
-  attacker.  All Messages in a verified chat view are e2e-encrypted, and
-  members can join by scanning a "QR invite code".  All members are thus 
-  connected with each other through a chain of invites, which guarantee 
-  cryptographic consistency against active network or provider attacks. 
-  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-  for the R&D behind this feature. 
+- Një grup i verifikuar është një bisedë që garanton parrezikshmëri ndaj<br>  një sulmuesi aktiv. Krejt Mesazhet në një bisedë të verifikuar janë<br>  të fshehtëzuara skaj më skaj, dhe anëtarët mund marrin pjesë duke<br>  skanuar një "kod QR ftese". Kështu, krejt anëtarët janë të lidhur njëri<br>  me tjetrin përmes një zinxhiri ftesash, çka garanton vazhdueshmëri<br>  kriptografike kundër sulmesh aktive rrjeti apo furnizuesi shërbimesh.<br>  Për R&amp;D pas kësaj veçorie, shihni [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html).
 
-- Për dhjetorin e 2019-s, një "grup i verifikuar" mbetet një veçori eksperimentale.
+- Deri në dhjetor të 2019-s, një "grup i verifikuar" mbetet një veçori eksperimentale.
   Është përmirësuar vazhdimisht dhe janë ndrequr mjaft të meta që prej sjelljes
   për herë të parë më 2018. Megjithatë, mbeten raste, veçanërisht me grupe
   të mëdhenj, kur mund të ketë paqëndrueshmëri, ose mesazhet të bëhen
@@ -266,12 +260,14 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
   Kjo do të thotë se nëse është zbuluar kyçi juaj privat i Delta Chat-it, dhe dikush ka
   një regjistër të krejt mesazheve tuaja tranzit, do të jetë në gjendje t’i lexojë.  
 
-- Note that if anyone has seized or hacked your running phone, they will
-  typically be able to read all messages, no matter if Perfect Forward Secrecy
-  is in place or not. Having access to a single device from a member of a group,
-  will typically expose a lot of the social graph. Using e-mail addresses that
-  are not easily tracked back to persons helps group members to stay safer from
-  the effects of device seizure. 
+- Mbani parasysh se nëse dikush ka shtënë në dorë ose ka hack-uar telefonin tuaj
+  që është ende duke punuar, zakonisht do të jenë në gjendje të lexojnë krejt
+  mesazhet, pavarësisht nëse ka apo jo <em>Perfect Forward Secrecy</em>. Aftësia
+  për të hyrë në një pajisje të vetme të një anëtari të një grupi, zakonisht
+  do të nxjerrë zbuluar shumë nga marrëdhëniet mes grupit. Përdorimi i adresave
+  email të cilat s’mund të shpien lehtë te personat pas tyre i ndihmon anëtarët
+  e grupit të jenë më të parrezikuar prej efekteve të shtënies në dorë
+  të pajisjeve.
 
 - Po skicojmë mënyra për të mbrojtur më mirë komunikimet nga raste
   marrjeje të pajisjes. 
@@ -350,59 +346,103 @@ për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim:
 - Tani jeni i njëkohësuar dhe mund të përdorni që të dyja pajisjet për marrje
   dhe dërgim mesazhesh, të fshehtëzuar me E2E, me partnerët tuaj në komunikim. 
 
-### Why can I choose not to watch the Inbox?
+### Are there any plans for introducing a Delta Chat Web Client?
 
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
+- There are no immediate plans but some preliminary thoughts.
+- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
+  significant work. For now, we focus on getting stable releases into all
+  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+- If you need a Web Client, because you are not allowed to install software on
+  the computer you work with, you can use the portable Windows Desktop Client,
+  or the AppImage for Linux. You can find them on
+  [get.delta.chat](https://get.delta.chat).
 
-Watching the Inbox makes sense to turn off, if you have both:
 
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
+### Pse mund të zgjedh të mos i vëzhgoj Të marrët?
 
-In this case, Delta Chat doesn't need to watch the Inbox.
+Kjo është një veçori eksperimentale për disa vetë që eksperimentojnë me rregulla
+më anë të shërbyesit. Jo të gjithë furnizuesit e shërbimeve e mbulojnë këtë, por
+me disa mund të kaloni krejt mesazhet me një krye "Chat-Version" te dosja
+DeltaChat. Zakonisht kjo do të bëhej nga aplikacioni Delta Chat.
 
-### What is the "Send Copy to Self" setting good for?
+Çaktivizimi i Vëzhgimit të Të marrëve ka kuptim nëse keni:
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device. 
+ - aktivizuar një rregull më anë shërbyesi për të shpënë krejt mesazhet me krye “Chat-Version” te dosja DeltaChat, dhe
+- për rregullimin "Shfaq email-e klasikë" keni zgjedhur "jo, vetëm biseda".
 
-The copy is send to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
+Në këtë rast, Delta Chat-i s’ka nevojë të vëzhgojë Të marrët.
 
-The default setting for copy-to-self is "no".
+### Përse hyn në punë rregullimi "Dërgojini Vetes Një Kopje"?
 
-### Why can I choose to watch the "Sent" folder?
+Dërgimi vetes i një kopjeje të mesazheve tuaj siguron marrjen e mesazheve tuaj
+në krejt pajisjet. Nëse keni disa pajisje dhe nuk i mbani ndezur, shihni vetëm
+mesazhet prej të tjerëve, dhe mesazhet që dërgoni prej pajisjes që keni hapur
+në atë çast.
 
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
+Kopja dërgohet te Të marrët, dhe mandej kalohet te dosja DeltaChat; nuk vendoset
+te dosja "Të dërguar". Delta Chat-i nuk ngarkon *kurrë* ndonjë gjë te dosja
+Të dërguar, ngaqë kjo do të thoshte ngarkim dy herë të një mesazhi (një herë
+përmes SMTP-s, dhe një herë përmes IMAP-it në dosjen Të dërguar).
 
-However, we recommend to use the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms. 
+Parazgjedhja për rregullimin dërgoja-vetes është "jo".
 
-### Why can I choose not to watch the DeltaChat folder?
+### Pse mund të zgjedh të vëzhgoj dosjen "Të dërguar"?
 
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
+Arsyeja e vetme pse dikush mund të dojë të vëzhgojë dosjen Të marrë është kur
+përdoret tjetër program email-sh (bie fjala, Thunderbird-i) në krah të
+aplikacionit tuaj Delta Chat, dhe doni që MUA juaj të marrë pjesë në biseda.
+
+Sidoqoftë, rekomandojmë të përdoret Klienti Desktop i Delta Chat-it; mund ta 
+shkarkoni që nga [get.delta.chat](https://get.delta.chat). Mundësia për vëzhgim
+të dosjes "Të dërguar" mund të hiqet në të ardhmen. Qe prurë në kohët kur s’kish
+klient Desktop Delta Chat për krejt platformat.
+
+### Pse mund të zgjedh të mos e vëzhgoj dosjen DeltaChat?
+
+Disa e përdorin Delta Chat-in si një klient të rregullt email, dhe duan
+ta përdorin dosjen Të marrë për email-in e tyre, në vend se dosjen DeltaChat.
+Nëse çaktivizoni "Vëzhgo dosjen DeltaChat", duhet të çaktivizoni edhe "kalo
+mesazhe bisedash te DeltaChat". Përndryshe, fshirja e mesazheve në instalime me
+shumë pajisje mund të mos punojë si duhet.
 
 ## Të ndryshme
 
 ### A funksionon Delta Chat me shërbimin _tim_ email?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly,
-  see [Provider Overview](https://providers.delta.chat)
+ - Ka shanse të mira që: Po :)  
+  Sidoqoftë, disa furnizues shërbimesh kanë nevojë për mundësi speciale, që
+  të funksionojnë si duhet, shihni [Provider Overview](https://providers.delta.chat)
+
+
+### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+
+- Sending and receiving messages takes a few seconds, typically. Sometimes
+  there are cases where it takes longer but that is arguably true as well for
+  any other messenger.
+- Instant chatting works fast if both parties are actively using the app. It's
+  sometimes slower if the app is running in background.
+- Receiving messages then can take minutes because both Android and iOS often
+  stop Delta Chat from running in the background, and only wake it up
+  occassionally. This artifical delay is usually worse on iOS than on Android.
+- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
+  Push Notification Service (APNS), because this leads to user tracking and
+  central control which Delta Chat aims to avoid as much as feasible.
+- However, that Android and iOS kill apps running in the background is a
+  problem for many legitimate apps. For more information, see
+  [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+
+- Yes and No.
+- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
+  Chat; they do not offer receiving mails via IMAP.
+- In any case you can use Delta Chat to send Messages to people who use
+  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
+  encrypted, though. The End-to-End encryption those providers offer is only
+  working inside their platforms, and not compatible with anyone outside.
+- Delta Chat can e2e-encrypt through any e-mail provider with any
+  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
 
 
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
