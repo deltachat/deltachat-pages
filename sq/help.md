@@ -346,15 +346,17 @@ për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim:
 - Tani jeni i njëkohësuar dhe mund të përdorni që të dyja pajisjet për marrje
   dhe dërgim mesazhesh, të fshehtëzuar me E2E, me partnerët tuaj në komunikim. 
 
-### Are there any plans for introducing a Delta Chat Web Client?
+### A ka ndonjë plan për të sjellë një Klient Web Delta Chat?
 
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
+- S’ka plane të afërta, por ca mendime paraprake.
+- Ka 2-3 rrugë për sjelljen e një Klienti Web Delta Chat, por që të gjitha
+  duan punë të madhe. Tani për tani, jemi përqendruar në pasjen e hedhjeve
+  të qëndrueshme në qarkullim në krejt shitoret e aplikacioneve (depo 
+  Google Play/iOS/Windows/macOS/Linux) si aplikacione origjinale të sistemit 
+  përkatës.
+- Nëse ju duhet një Klient Web, ngaqë s’keni leje të instaloni software në
+  kompjuterin me të cilin punoni, mund të përdorni Klientin e bartshëm për
+  Windows Desktop, ose AppImage për Linux. Mund t’i gjeni te
   [get.delta.chat](https://get.delta.chat).
 
 
@@ -414,35 +416,39 @@ shumë pajisje mund të mos punojë si duhet.
   të funksionojnë si duhet, shihni [Provider Overview](https://providers.delta.chat)
 
 
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+### Sa kohë që Delta Chat-i përdor email, a është vërtet një Shkëmbyes Mesazhesh të _Atypëratyshme_?
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occassionally. This artifical delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
-- However, that Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Normalisht, dërgimi dhe marrja e mesazheve ha ca sekonda. Ndonjëherë ka raste
+  kur kjo zgjat pak më shumë, por mund të thuhet se kjo është e vërtetë edhe për
+  çfarëdo shkëmbyesi tjetër mesazhesh.
+- Biseda e atypëratyshme funksionon shpejt, nëse të dy palët përdorin aktivisht
+  aplikacionin. Ndonjëherë është më e ngadaltë, nëse aplikacioni xhiron në
+  prapaskenë.
+- Në raste të tilla, marrja e mesazheve mund të dojë minuta, ngaqë si Android-i,
+  ashtu edhe iOS-i shpesh e ndalin funksionimin në prapaskenë të Delta Chat-it,
+  dhe e zgjojnë vetëm me raste. Kjo vonesë artificiale zakonisht është më keq në
+  iOS, se sa në Android.
+- Kini parasysh se Delta Chat-i s’përdor Google Cloud Messaging (GCM) ose Apple
+  Push Notification Service (APNS), ngaqë kjo shpie në ndjekje të përdoruesit
+  dhe kontroll të qendërzuar, të cilat Delta Chat-i synon t’i shmangë sa më
+  shumë që mundet.
+- Sido qoftë, fakti që Android-i dhe iOS-i asgjësojnë aplikacione që xhirojnë në
+  prapaskenë është një problem për mjaft aplikaicone të ligjshme. Për më tepër
+  të dhëna, shihni [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### A është i përputhshëm Delta Chat-i me Protonmail-in / Tutanota-n / Criptext-in?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
+- Po dhe Jo.
+- Jo, s’mund të përdorni llogarinë tuaj Protonmail, Tutanota, ose Criptext me
+  Delta Chat-in; këta nuk ofrojnë marrje email-esh përmes IMAP-it.
+- Sidoqoftë, mund të përdorni Delta Chat-in të dërgoni mesazhe te persona që
+  përdorin Protonmail-in, Tutanota-n, ose Criptext-in. Por këto mesazhe s’do
+  të jenë të fshehtëzuara Skaj-Më-Skaj. Fshehtëzimi Skaj-Më-Skaj që ofrojnë këto
+  shërbime funksionon vetëm brenda platformave përkatëse, pa qenë i përputhshëm
+  me gjë tjetër jashtë tyre.
+- Delta Chat-i mund të kryejë fshehtëzim skaj-më-skaj përmes cilitdo shërbimi
+  email me çfarëdo [https://autocrypt.org/dev-status.html] (aplikacion email që mbulon Autocrypt-in).
 
 
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?

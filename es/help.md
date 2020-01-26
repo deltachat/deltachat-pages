@@ -23,19 +23,19 @@ destinatario instale la misma aplicación que usted, como ocurre con otros mensa
 
 ### ¿Cuáles son las ventajas de Delta Chat comparado con otras aplicaciones de mensajería?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _Compatible_ - not only to itself.
-- _Elegant_ and _simple_ user interface.
-- _Distributed_ system.
-- _No Spam_ - only messages of known users are shown by default.
-- _Reliable_ - safe for professional use.
-- _Trustworthy_ - can even be used for business messages.
-- _Copyleft_ and _Standards_ based libre software.
+- _Independiente_ de cualquier empresa o servicio. _Usted_ es dueño de sus datos.
+- Sus datos no se guardan en un servidor central a menos que todos los usuarios estén usando
+los mismos servidores de correo electrónico
+- No distribuye su libreta de direcciones a nadie.
+- _Rápido_ mediante el uso de Push-IMAP.
+- _La base de usuarios más grande_ - destinatarios que _no_ usen Delta Chat pueden ser contactados también.
+- _Compatible_ - no solo con sí mismo.
+- Interfaz de usuario _elegante_ y _simple_.
+- Sistema _distribuido._
+- _No Spam_: solo se muestran mensajes de usuarios conocidos de forma predeterminada.
+- _Reliable_ - seguro para uso profesional.
+- _Confiable_ - incluso se puede usar en entornos empresariales.
+- Software _libre_ basado en _estándares._
 
 
 ### ¿Qué mensajes se muestran en Delta Chat?
@@ -63,8 +63,8 @@ Otros mensajes no aparecen automáticamente y se encuentran en el menú principa
 
 ### ¿Quién ve mi foto de perfil?
 
-- You can add a profile picture in your settings. If you write to your contacts
-  or add them via QR code, they automatically see it as your profile picture.
+- Puede agregar una foto de perfil en su configuración. Si escribe a sus contactos
+o los agrega a través de un código QR, ellos lo verán automáticamente como su foto de perfil.
 
 - Los contactos que no usan Delta Chat lo ven como un archivo adjunto al correo electrónico.
 
@@ -82,10 +82,10 @@ dispositivo.
 
 ### ¿Por qué debo ingresar mi contraseña de correo electrónico en Delta Chat? ¿Es esto seguro?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway. 
+Al igual que con otros programas de correo electrónico como Thunderbird, K9-Mail o Outlook, el
+programa necesita la contraseña para que pueda usarla para enviar correos. Por supuesto, la
+contraseña se almacena solo en su dispositivo. La contraseña solo se transmite a
+su proveedor de correo electrónico (cuando inicia sesión), que tiene acceso a sus correos de todos modos.
 
 Si utiliza un proveedor de correo electrónico con soporte de OAuth2 como gmail.com o yandex.ru,
 no es necesario almacenar su contraseña en el dispositivo. En este caso, solo se usa un
@@ -218,9 +218,9 @@ la conexión es segura.
 
 ### ¿Cómo puedo verificar el cifrado de mensajes?
 
-- If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
+- Si se muestra un pequeño **candado** junto a un mensaje, esto implica que el mensaje está encriptado de extremo a extremo _y_ se envía desde el remitente dado, _y_ su respuesta también se cifrará de extremo a extremo.
 
-- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
+- Si no hay **ningún candado**, el mensaje generalmente se transporta sin encriptar, por ejemplo. porque usted o el remitente han deshabilitado el cifrado de extremo a extremo, o el remitente utiliza una aplicación que no admite el cifrado de extremo a extremo.
 
 
 ### ¿Qué estándares se utilizan para el cifrado de extremo a extremo?
@@ -292,7 +292,7 @@ de incautación del dispositivo.
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually in "Advanced settings / Manage private keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Alternativamente, puede importar la clave manualmente en "Configuración avanzada / Administrar claves privadas". Precaución: asegúrese de que la clave no esté protegida por una contraseña o elimine la contraseña de antemano.
 
 Si no tienes una llave o ni siquiera sabes para qué la necesitas, no te preocupes: Delta Chat genera una según sea necesario de forma automática, no tienes que hacer nada.
 
@@ -341,7 +341,7 @@ y haga clic en él, lo cual debe solicitarle el número de seguridad.
 - Ahora está sincronizado y puede usar ambos dispositivos para
 enviar y recibir mensajes cifrados E2E con tus compañeros.
 
-### Are there any plans for introducing a Delta Chat Web Client?
+### ¿Tienen planeado crear un cliente web de Delta Chat?
 
 - There are no immediate plans but some preliminary thoughts.
 - There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
@@ -355,10 +355,7 @@ enviar y recibir mensajes cifrados E2E con tus compañeros.
 
 ### ¿Por qué puedo elegir no monitorear la Bandeja de Entrada?
 
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
+Esta es una configuración experimental para algunas personas que están experimentando con reglas del lado del servidor. No todos los proveedores lo admiten, pero con algunos puede mover todos los correos con el encabezado "Chat-Version" a la carpeta DeltaChat. Normalmente, esto lo haría la aplicación Delta Chat.
 
 Tiene sentido desactivar el monitoreo de la Bandeja de Entrada, si:
 
@@ -369,15 +366,9 @@ En este caso, Delta Chat no necesita monitorear la Bandeja de Entrada.
 
 ### ¿Para qué sirve la configuración "Enviar autocopia"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device. 
+Enviar una copia de sus mensajes a usted mismo asegura que recibirá sus propios mensajes en todos los dispositivos. Si tiene varios dispositivos y no habilita esta opción, solo verá los mensajes de otras personas y los mensajes que envíe desde el dispositivo actual.
 
-The copy is send to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
+La copia se envía a la bandeja de entrada y luego se mueve a la carpeta DeltaChat; no se coloca en la carpeta "Enviados". Delta Chat *nunca* carga nada en la carpeta Enviados porque esto significaría cargar un mensaje dos veces (una a través de SMTP y otra a través de IMAP en la carpeta Enviados).
 
 La configuración predeterminada para "Enviar autocopia" es "no".
 
@@ -394,10 +385,8 @@ no Delta Chat Desktop client available on all platforms.
 
 ### ¿Por qué puedo elegir no monitorear la carpeta DeltaChat?
 
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
+Algunas personas usan Delta Chat como un cliente de correo electrónico normal y desean mantener los correos en la bandeja de entrada, en lugar de la carpeta DeltaChat. Si deshabilita "Monitorear carpeta DeltaChat", también debe deshabilitar "mover automáticamente a la carpeta DeltaChat".
+De lo contrario, eliminar mensajes o configuraciones de dispositivos múltiples podría no funcionar correctamente.
 
 ## Miscelaneo
 
@@ -407,7 +396,7 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 Sin embargo, algunos proveedores necesitan opciones especiales para funcionar correctamente, ver [Descripción de proveedores](https://providers.delta.chat)
 
 
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+### Si Delta Chat utiliza el correo electrónico, ¿es realmente una aplicación de mensajería _instantánea_?
 
 - Sending and receiving messages takes a few seconds, typically. Sometimes
   there are cases where it takes longer but that is arguably true as well for
@@ -425,17 +414,12 @@ Sin embargo, algunos proveedores necesitan opciones especiales para funcionar co
   [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### ¿Delta Chat es compatible con Protonmail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
+- Si y no.
+- No, no puede usar su cuenta de Protonmail, Tutanota o Criptext con Delta Chat; esos servicios no permiten recibir correos a través de IMAP.
+- En cualquier caso, puede usar Delta Chat para enviar mensajes a personas que usan Protonmail, Tutanota o Criptext. Sin embargo, esos mensajes no se cifrarán de extremo a extremo. El cifrado de extremo a extremo que ofrecen esos proveedores solo funciona dentro de sus plataformas y no es compatible con nadie externo.
+- Delta Chat puede encriptar e2e a través de cualquier proveedor de correo electrónico con cualquier [https://autocrypt.org/dev-status.html](aplicación de correo electrónico compatible con Autocrypt).
 
 
 ### Estoy interesado en los detalles técnicos. ¿Pueden decirme más?

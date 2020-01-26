@@ -344,63 +344,63 @@ Autocrypt) diversi, devi sincronizzare i loro strumenti di cifratura:
 - ora hai correttamente sincronizzato i dispositivi e puoi usarli per
   inviare e ricevere messaggi cifrati E2E con i tuoi interlocutori. 
 
-### Are there any plans for introducing a Delta Chat Web Client?
+### E' in previsione la creazione di un client web di Delta Chat?
 
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
+- Non ci sono attualmente piani precisi, solo qualche discussione a riguardo.
+- Esistono 2-3 strade per introdurre un client web per Delta Chat, ma tutte
+  richiedono molto lavoro. Al momento ci stiamo focalizzando sui rilasci stabili in tutti
+  gli appstore (Google Play/iOS/Windows/macOS/repository Linux) come app native.
+- Se necessiti di un client web perchè non sei autorizzato a installare software nel
+  computer con cui lavori, puoi usare il client portable per Windows o l'AppImage
+  per i sistemi Linux. Puoi trovarli su
   [get.delta.chat](https://get.delta.chat).
 
 
-### Why can I choose not to watch the Inbox?
+### Perchè posso scegliere di non controllare la casella In Arrivo?
 
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
+E' un'impostazione sperimentale per alcune persone che stanno verificando le
+regole lato server. Non tutti i provider le supportano, ma con alcuni è possibile spostare
+tutte le mail con un'intestazione "stile-chat" nella cartella DeltaChat. Normalmente, questo
+sarebbe stato fatto dall'applicazione Delta Chat.
 
-Watching the Inbox makes sense to turn off, if you have both:
+Può essere utile disattivare il controllo della posta In Arrivo se hai entrambe queste condizioni:
 
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
+- abilitato le regole lato server per spostare tutti i messaggi con una instestazione stile-chat nella cartella DeltaChat, e
+- hai impostato la funzione "Mostra email classiche" su "no, solo chat".
 
-In this case, Delta Chat doesn't need to watch the Inbox.
+In questo caso Delta Chat non necessita di controllare la casella In Arrivo
 
-### What is the "Send Copy to Self" setting good for?
+### A cosa serve l'opzione "Auto-invia una copia"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device. 
+L'invio di una copia dei messaggi a te stesso assicura la ricezione del messaggio
+su tutti i dispositivi. Se disponi di più dispositivi e non attivi l'opzione, vedrai solo
+i messaggi dalle altre persone e quelli inviati da te solo se spediti dal
+dispositivo attuale. 
 
-The copy is send to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
+La copia viene inviata alla posta In Arrivo e poi spostata nella cartella DeltaChat; non
+viene messa nella cartella "Inviata". Delta Chat *non* carica nulla nella cartella Inviata
+perché questo significherebbe caricare un messaggio due volte (una volta tramite SMTP,
+e una volta attraverso l'IMAP alla cartella Inviata).
 
-The default setting for copy-to-self is "no".
+L'impostazione predefinita per Auto-invia una copia è "no".
 
-### Why can I choose to watch the "Sent" folder?
+### Perchè posso scegliere di controllare la cartella "Inviata"?
 
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
+L'unico motivo per cui si può voler controllare la cartella Inviata è se stai utilizzando un altro
+programma di posta elettronica (come Thunderbird) assieme alla app Delta Chat, e vuoi il tuo MUA
+per partecipare a conversazioni in chat.
 
-However, we recommend to use the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms. 
+Ad ogni modo consigliamo di usare il client desktop di Delta Chat; puoi scaricarlo da
+[get.delta.chat](https://get.delta.chat). L'opzione di controllare la posta "Inviata"
+potrebbe sparire in futuro. E' stata introdotta in un periodo in cui non esisteva il
+client Desktop di Delta Chat su ogni piattaforma. 
 
-### Why can I choose not to watch the DeltaChat folder?
+### Perchè posso scegliere di non controllare la cartella DeltaChat?
 
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
+Alcuni usano Delta Chat come un normale client di posta elettronica e vogliono usare la posta "In Arrivo"
+per la loro posta, invece della cartella DeltaChat. Se disattivi "Controlla cartella DeltaChat", 
+dovresti anche disabilitare "Sposta automaticamente nella cartella DeltaChat".
+Altrimenti l'eliminazione dei messaggi o l'impostazione di più dispositivi potrebbe non funzionare correttamente.
 
 ## Varie
 
@@ -411,35 +411,35 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   vedi [Provider Overview](https://providers.delta.chat)
 
 
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+### Se Delta Chat usa l'email, è davvero messaggistica _istantanea_?
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occassionally. This artifical delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
-- However, that Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- L'invio e la ricezione di messaggi richiede di solito qualche secondo. A volte
+ci sono casi in cui ci vuole più tempo, ma questo vale anche per qualsiasi
+ altro sistema di messaggistica.
+- La chat istantanea funziona velocemente se entrambe le parti utilizzano attivamente l'app.
+Può invece risultare più lenta se l'applicazione è in esecuzione in background.
+- La ricezione dei messaggi può richiedere alcuni minuti dato che sia Android che iOS spesso
+impediscono a Delta Chat di funzionare in background e la attivano solo
+occasionalmente. Questo ritardo forzato è di solito peggiore su iOS che su Android.
+- Ricorda che Delta Chat non utilizza Google Cloud Messaging (GCM) o l'Apple
+Push Notification Service (APNS), perché questo spingerebbe al tracciamento degli utenti e
+al controllo centralizzato che Delta Chat punta ad evitare quanto più possibile.
+- Tuttavia, il fatto che Android e iOS blocchino le applicazioni in background è un
+problema per molte applicazioni legittime. Per ulteriori informazioni, vedi
+[dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### Delta Chat è compatibile con Protonmail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
+- Sì e no.
+- No, non puoi usare il tuo account Protonmail, Tutanota o Criptext con Delta
+Chat; non offrono la possibilità di ricevere e-mail via IMAP.
+- In ogni caso puoi usare Delta Chat per inviare messaggi a persone che utilizzano
+Protonmail, Tutanota o Criptext. Questi messaggi non saranno però
+cifrati end-to-end. La crittografia end-to-end offerta da questi fornitori è fornita solo
+tramite le loro piattaforme e non sono compatibili con nessun servizio esterno.
+- Delta Chat è in grado di crittografare e2e attraverso qualsiasi provider di posta elettronica con qualsiasi
+https://autocrypt.org/dev-status.html](applicazione e-mail abilitata alla crittografia automatica).
 
 
 ### Sono interessato ai dettagli tecnici. Posso avere ulteriori informazioni?
