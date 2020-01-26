@@ -61,13 +61,17 @@ def generate_file(destdir, lang, file):
 
 
 def generate_lang(destdir, lang):
+    os.makedirs(destdir + "/" + lang, exist_ok=True)
     generate_file(destdir, lang, "help.html")
 
 
 def generate_help(destdir):
-    # if you add a language, make sure the destination dir exist
     generate_lang(destdir, "de")
     generate_lang(destdir, "en")
+    generate_lang(destdir, "es")
+    generate_lang(destdir, "it")
+    generate_lang(destdir, "nl")
+    generate_lang(destdir, "sq")
     for linked_file in linked_files:
         local_file = destdir + "/" + linked_file.split("/")[-1]
         copyfile(linked_file, local_file)
