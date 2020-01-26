@@ -65,8 +65,10 @@
 
 <div id="footer">
 <p>
-<a href="references">{%if tx.references == blank%}{{ tx.references }}{%else%}{{ txEn.references }}{%endif%}</a> | <a href="imprint">{%if tx.imprint == blank%}{{ tx.imprint }}{%else%}{{ txEn.imprint }}{%endif%}</a>
-| <a href="/de/gdpr-website">{%if tx.privacy == blank%}{{ tx.privacy }}{%else%}{{ txEn.privacy }}{%endif%}</a>
+    <a href="references">{%if tx.references == blank%}{{ tx.references }}{%else%}{{ txEn.references }}{%endif%}</a>
+    | <a href="https://github.com/deltachat/">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+    | <a href="imprint">{%if tx.imprint == blank%}{{ tx.imprint }}{%else%}{{ txEn.imprint }}{%endif%}</a>
+    | <a href="/de/gdpr-website">{%if tx.privacy == blank%}{{ tx.privacy }}{%else%}{{ txEn.privacy }}{%endif%}</a>
 <br>
 <span class="desktoponly">{%if tx.language == blank%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}:</span>
 {% include footer-languages.html %}
