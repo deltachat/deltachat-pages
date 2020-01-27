@@ -30,3 +30,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 Ознакомьтесь с нашими [страницей загрузок](https://get.delta.chat) и [последними сообщениями в блоге](blog)
 для получения информации о текущих выпусках и событиях.
 
+Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
+and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
+see, change, and share it at will, with everyone.
+

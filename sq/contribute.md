@@ -19,11 +19,11 @@ lang: sq
 
 # Përkthime dhe Njoftime të Metash 
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Përkthime në Transifex](https://www.transifex.com/delta-chat/public/)
+- [Probleme në Delta Chat për Android](https://github.com/deltachat/deltachat-android/issues)
+- [Probleme në Delta Chat për Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Probleme Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Kërkojmë përherë për zhvillues që duan të ndihmojnë dhe dinë C, Rust, Java, 
 Swift, Javascript ose Python për Android, iOS, Windows, Linux ose Mac.

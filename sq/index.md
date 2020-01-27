@@ -32,3 +32,7 @@ Për të dhëna mbi hedhjet e tanishme në qarkullim dhe veprimtari, ju lutemi,
 shihni te [get.delta.chat](https://get.delta.chat) dhe [postimet më të reja
 në blog posts](blog).
 
+Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
+and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
+see, change, and share it at will, with everyone.
+
