@@ -15,11 +15,10 @@ lang: fr
 
 # Traductions et rapports de bugs 
 
-- [Traductions sur Transifex](https://www.transifex.com/delta-chat/public/)
-- [Problèmes de Delta Chat sur Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problèmes de l'application de bureau Delta Chat](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problèmes de Delta Chat sur iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)
+- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Nous sommes en permanence à la recherche de développeurs qui voudraient nous aider et sont familiers avec C, Rust, Java, Swift, Javascript ou Python sur Android, iOS, Windows, Linux ou Mac.

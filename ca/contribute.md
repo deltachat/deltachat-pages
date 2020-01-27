@@ -22,7 +22,6 @@ lang: ca
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [C Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Sempre son benvinguts desenvolupadors que ens vulguin donar un cop de ma i estiguin familiaritzats amb 
