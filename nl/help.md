@@ -336,16 +336,16 @@ Als je **hetzelfde account** wilt gebruiken op andere
 - De sleutels zijn nu uitgewisseld en je kunt beide apparaten
   gebruiken om E2E-versleutelde berichten te versturen en ontvangen aan/van je gesprekspartners.
 
-### Are there any plans for introducing a Delta Chat Web Client?
+### Bestaan er plannen om een Delta Chat-webclient te maken?
 
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
-  [get.delta.chat](https://get.delta.chat).
+- Er zijn nog geen concrete plannen; alleen wat gedachtenspelingen.
+- Er zijn 2 à 3 obstakels, maar alle vereisen zware
+  inspanningen. Momenteel ligt voor ons de focus op stabiele uitgaven maken voor appwinkels
+  (Google Play/iOS/Windows/macOS/Linux-pakketbronnen).
+- Als je een webclient nodig hebt omdat je geen software mag installeren op
+  je computer, dan kun je de meeneembare (portable) versie gebruiken van de Windows-client,
+  of de AppImage van de Linux-client. Deze kun je downloaden op
+ [get.delta.chat](https://get.delta.chat).
 
 
 ### Waarom kan ik kiezen om Postvak IN te negeren?
@@ -401,35 +401,35 @@ Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere
   Sommige providers verwachten echter bepaalde opties. Bekijk hiervoor het [provideroverzicht](https://providers.delta.chat)
 
 
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+### Delta Chat gebruik e-mail. Is het dan wel een _Instant_ Messenger?
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occassionally. This artifical delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
-- However, that Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Het versturen en ontvangen van berichten gebeurt doorgaans binnen enkele seconden. Soms
+  duurt het iets langer, maar dat komt ook wel eens voor bij
+  andere IM's.
+- Het werkt het snelst als beide partijen de app actief gebruiken. Soms duurt het
+  iets langer als de app op de achtergrond draait.
+- Het ontvangen van berichten kan dan enkele minuten duren omdat zowel Android als iOS Delta Chat
+  regelmatig pauzeren, en slecht soms weer
+  hervatten. Deze vertraging is doorgaans merkbaarder op iOS dan op Android.
+- Let op: Delta Chat maakt geen gebruik van Google Cloud Messaging (GCM) of Apple's
+  Push Notification Service (APNS) omdat deze gebruikersacties bijhouden en
+  centraal beheer vereisen, wat Delta Chat zoveel mogelijk wil voorkomen.
+- Maar dat Android en iOS achtergrondapps pauzeren is een
+  algemeen probleem waar veel apps last van hebben. Lees
+  [dontkillmyapp.com](https://dontkillmyapp.com/) voor meer informatie hieromtrent.
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### Is Delta Chat compatibel met Protonmail/Tutanota/Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
+- Ja en nee.
+- Nee, je kunt je Protonmail-, Tutanota- of Criptext-account niet gebruiken in Delta
+  Chat - ze hebben immers geen IMAP-ondersteuning.
+- Maar je kunt Delta Chat wél gebruiken om berichten te versturen aan mensen die
+  Protonmail, Tutanota of Criptext gebruiken. Deze berichten zijn echter niet end-to-end
+  versleuteld. De end-to-endversleuteling van deze providers werkt alleen
+  binnen de platformen zelf en is dus daarbuiten niet compatibel.
+- Delta Chat kan e2e-versleuteling gebruiken met andere e-mailproviders met elke
+  [https://autocrypt.org/dev-status.html](e-mailapp die Autocrypt gebruikt).
 
 
 ## Ik wil graag meer weten over de gebruikte technieken. Waar kan ik meer informatie vinden?
