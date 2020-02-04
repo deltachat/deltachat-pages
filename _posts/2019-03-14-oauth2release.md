@@ -1,6 +1,7 @@
 ---
 title: New Android releases with OAUTH2 and improved e-mail interactions
 author: holga
+image: ../assets/blog/2019-02-oauth2-confirm.png
 ---
 
 A new major Delta Chat Android release (0.200) is [now on Google Play](https://play.google.com/store/apps/details?id=chat.delta) and [soon on F-droid](https://f-droid.org/en/packages/com.b44t.messenger/) with lots of improvements addressing popular complaints and 

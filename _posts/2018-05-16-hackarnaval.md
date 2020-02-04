@@ -1,6 +1,7 @@
 ---
 title: Delta Chat on HACKarnaval in Paris
 author: Björn Petersen
+image: ../assets/blog/20180516-hackarnaval.png
 ---
 
 Janka and Holger are going to have a session in the track "Securité Informatique" on

@@ -1,6 +1,7 @@
 ---
 title: "Decentralization Unchained"
 author: bjoern
+image: ../assets/blog/decentralization-unchained.jpg
 ---
 
 After the "Delta-X" Event in Freiburg this summer, 
