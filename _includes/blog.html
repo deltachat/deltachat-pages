@@ -1,15 +1,20 @@
 {% for post in site.posts %}
+{% if post.image %}
 <div class="post-box">
   <a href="{{ post.url }}">
     <div class="featured-image">
       <img src="{{ post.image }}" />
     </div>
+{% else %}
+<div>
+  <a href="{{ post.url }}">
+{% endif %}
   <h2>{{ post.title }}</h2>
   </a>
   <p>
     <em>{{ post.date | date: "%B %d, %Y" }}</em> -
     {{ post.excerpt | strip_html }} 
-    <a href="{{ post.url }}">Read on ...</a>
+    <a href="{{ post.url }}">Read on...</a>
   </p>
 </div>
 {% endfor %}
