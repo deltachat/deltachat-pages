@@ -28,7 +28,7 @@ pull_po_translations_from_tx() {
 	#find ../_data/lang/ -type f -not -name 'en.*' -delete
 	rm -r translations || true
 	mkdir translations
- 	#ln -s -T ../../_data/lang translations/delta-chat-pages.yml
+ 	ln -s -T ../../_data/lang translations/delta-chat-pages.yml
 	tx pull -a --mode=sourcetranslation  # -a = fetch all translationss, -s = fetches source
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
@@ -40,7 +40,7 @@ pull_po_translations_from_tx() {
 
 
 push_po_sources_to_tx() {
- 	#ln -s -T ../../_data/lang translations/delta-chat-pages.yml || true
+ 	ln -s -T ../../_data/lang translations/delta-chat-pages.yml || true
 	tx push -s
 }
 
