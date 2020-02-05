@@ -1,5 +1,6 @@
 {% assign txEn = site.data.lang['en']['en'] %}
 {% assign tx = site.data.lang[page.lang][page.lang] %}
+{% assign VERSION_DESKTOP = "0.999.1" %}
 
 <div class="download-content">
     <div id="recommendation-section" hidden>
@@ -12,8 +13,8 @@
             <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             <div class="title">GNU+Linux</div>
             <div class="buttons">
-                <a href="https://download.delta.chat/desktop/0.901.0/deltachat-desktop_0.901.0_amd64.deb" class="big-button">Debian / Ubuntu (.deb)</a>
-                <a href="https://download.delta.chat/desktop/0.901.0/DeltaChat-0.901.0.AppImage" class="big-button">Universal (.AppImage)</a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb" class="big-button">Debian / Ubuntu (.deb)</a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage" class="big-button">Universal (.AppImage)</a>
                 <a href="https://flathub.org/apps/details/chat.delta.desktop" class="img-badge">
                     <img src="../assets/badges/flathub.svg" alt="{%if tx.download.flathub == blank%}{{ tx.download.flathub }}{%else%}{{ txEn.download.flathub }}{%endif%}" />
                 </a>
@@ -31,8 +32,8 @@
             <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             <div class="title">Windows</div>
             <div class="buttons">
-                <a href="https://download.delta.chat/desktop/0.901.0/DeltaChat%20Setup%200.901.0.exe" class="big-button">Setup (.exe)</a>
-                <a href="https://download.delta.chat/desktop/0.901.0/DeltaChat%200.901.0.exe" class="soon big-button">Portable (.exe)</a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe" class="big-button">Setup (.exe)</a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe" class="big-button">Portable (.exe)</a>
                 <a class="soon img-badge">
                     <img src="../assets/badges/microsoft.svg" alt="{%if tx.download.dl_microsoft == blank%}{{ tx.download.dl_microsoft }}{%else%}{{ txEn.download.dl_microsoft }}{%endif%}" />
                 </a>
@@ -42,7 +43,7 @@
             <a href="https://github.com/deltachat/deltachat-desktop" class="source-link">{%if tx.download.source_code == blank%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             <div class="title">macOS</div>
             <div class="buttons">
-                <a href="https://download.delta.chat/desktop/0.901.0/DeltaChat-0.901.0.dmg" class="big-button">DMG</a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg" class="big-button">DMG</a>
                 <a class="soon img-badge">
                     <img src="../assets/badges/mac-appstore.svg" alt="{%if tx.download.dl_mac_appstore == blank%}{{ tx.download.dl_mac_appstore }}{%else%}{{ txEn.download.dl_mac_appstore }}{%endif%}" />
                 </a>
