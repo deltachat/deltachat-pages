@@ -1,11 +1,9 @@
-# documentation: https://github.com/deltachat/sysadmin/tree/master/delta.chat
 name: Push new strings to Transifex
 
 on: 
-  pull_request:
-    #types: [closed]  # debug
-    paths-ignore:
-      - 'docs/**'  # only trigger build if a file outside of /docs was changed
+  push:
+    branches:
+      - master
 
 jobs:
   push-translations:
@@ -22,6 +20,7 @@ jobs:
     - name: tx init
       run: |
         echo "${{ secrets.transifexrc }}" > ~/.transifexrc
+        # this replaces the following commands:
         #tx init --user=api --pass=${{ secrets.TXapitoken }}
         #tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
     - name: tx push
