@@ -1,6 +1,7 @@
 ---
 title: Big update on Delta.chat developments 
 author: holger
+image: ../assets/blog/delta-x-sept-2018.png
 ---
 
 Following this blog or the mailing list you might think not much is happening

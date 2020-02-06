@@ -1,6 +1,7 @@
 ---
 title: support.delta.chat now working 
 author: holger, compl4xx
+image: ../assets/blog/support-screenshot.png
 ---
 
 Two months ago, we experimentally launched the new [support.delta.chat site](https://support.delta.chat)

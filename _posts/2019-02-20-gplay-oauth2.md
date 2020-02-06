@@ -1,6 +1,7 @@
 ---
 title: Play Store, OAuth2 and more from the dev stage 
 author: bjoern
+image: ../assets/blog/2019-02-oauth2-ask.png
 ---
 
 As you may have noticed, Delta Chat is now available 

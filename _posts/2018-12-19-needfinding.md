@@ -1,6 +1,7 @@
 ---
 title: DeltaChat Ukraine/Needfinding report / 35c3 
 author: xenia,vadym,holger,moo
+image: ../assets/blog/dcneedfindingreport-title.png
 ---
 
 Our [Ukraine/needfinding report](../assets/blog/dcneedfindingreport.pdf)

@@ -47,6 +47,9 @@ body {
 	#content p img, iframe {
 	    float: none !important;
 	}
+	.post-box {
+	    margin-top: 4em;
+	}
 }
 
 #footer {
@@ -58,6 +61,17 @@ body {
 }
 #footer a, #footer a:visited {
     color: #AAA;
+}
+
+.featured-image {
+	max-height: 12em;
+	overflow: hidden;
+	margin-bottom: -2em;
+	margin-top: 1em;
+}
+
+.featured-image img {
+	width: 100%;
 }
 
 
@@ -79,6 +93,22 @@ body {
         a, a:visited {
             font-size: 20px;
         }
+    }
+    
+    .featured-image {
+	float: right;
+	max-height: 200px !important;
+	max-width: 270px;
+	margin-left: 20px;
+	margin-bottom: 1em;
+    }
+
+    .featured-image img {
+	width: 270px;
+    }
+
+    .post-box {
+	min-height: 200px;
     }
 
     #content {	   

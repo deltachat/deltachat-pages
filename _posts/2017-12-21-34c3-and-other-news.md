@@ -1,6 +1,7 @@
 ---
 title: "Sessions on #34C3 and other news"
 author: Björn Petersen
+image: ../assets/blog/20171215-asm-delta-enigmail.jpg
 ---
 
 
