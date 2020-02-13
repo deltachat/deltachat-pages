@@ -39,10 +39,9 @@ Testing changes
   `https://<your-username>.github.io/deltachat-pages/`
 
 - Alternatively, [install Jekyll](https://jekyllrb.com/docs/installation/) 
-  on your local machive 
+  on your local machive, run `bundle install` in this directory, 
   and execute `jekyll serve --destination <path-to-build-dir>` 
   in the source directory.
-
 
 Directory structure
 --------------------------------------------------------------------------------
