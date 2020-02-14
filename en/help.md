@@ -480,14 +480,16 @@ Delta Chat developments have so far been funded from four major sources:
   see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
   The second 2019/2020 grant ($300K) is still ongoing and helps us to 
   release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  
+  to provide new features for all platforms.  See the 
+  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
 
 - The [NLNET foundation](https://nlnet.nl/) granted EUR 46K for
   completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
 
-- Last but by far not least, several experts contributed and contribute 
-  to Delta Chat developments without receiving money. Without them, Delta Chat 
-  would not be where it is today.
+- Last but by far not least, several pro-bono experts and enthusiasts contributed 
+  and contribute to Delta Chat developments without receiving money, or only 
+  small amounts. Without them, Delta Chat would not be where it is today, not
+  even close. 
 
 The monetary funding mentioned above was organized by merlinux GmbH in
 Freiburg (Germany), and then distributed to almost a dozen contributors. 
