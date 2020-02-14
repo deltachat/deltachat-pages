@@ -247,11 +247,8 @@ The user's profile shows some additional info:
   e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
   Autocrypt uses a limited subset of OpenPGP functionality. 
 
-- Delta Chat also implements the [countermitm protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
-  base protection of Autocrypt Level 1, while maintaining it's ease of use.  
-  Through QR-code show and scan activities one can setup "verified groups" 
-  that guarantee end-to-end for all messages in the group chat. Verified chats 
-  are marked with a "verified" checkmark. 
+- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
+  base protection of Autocrypt Level 1, while maintaining its ease of use.  
 
 ### What is the difference between verified groups and 1:1 chats with verified contacts?
 
