@@ -473,7 +473,7 @@ Delta Chat developments have so far been funded from four major sources:
   and implementation of verified groups and setup contact protocols
   in 2017 and 2018. 
 
-- The [Open TechFund](https://opentechfund.org) has given two grants.
+- The [Open Technology Fund](https://opentechfund.org) has given two grants.
   The first 2018/2019 grant ($200K) majorly improved the Android app 
   and allowed us to release a Desktop app beta version, and also 
   moored our feature developments in UX research in human rights contexts, 
@@ -483,7 +483,7 @@ Delta Chat developments have so far been funded from four major sources:
   to provide new features for all platforms.  See the 
   ongoing [blog posts](https://delta.chat/en/blog) for more info. 
 
-- The [NLNET foundation](https://nlnet.nl/) granted EUR 46K for
+- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
   completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
 
 - Last but by far not least, several pro-bono experts and enthusiasts contributed 
