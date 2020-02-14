@@ -190,6 +190,9 @@ about feedback which makes the app more secure for all of our users.
 - Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
   thus E2E-encrypt messages with other Autocrypt-capable apps. 
 
+- Delta Chat also supports a strong form of end-to-end encryption that is 
+  even safe against active attacks, see "verified groups" further below. 
+
 
 ### What do I have to do to activate the end-to-end-encryption?
 
@@ -202,8 +205,8 @@ about feedback which makes the app more secure for all of our users.
   If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
   messages are not encrypted until an Autocrypt-compliant app is available again. 
 
-- If you want to _turn off_ the end-to-end-encryption, 
-  use the corresponding setting in "Settings / Advanced settings".
+- If you want to rather avoid end-to-end-encrypted e-mails by default, 
+  use the corresponding Autocrypt setting in "Settings / Advanced settings".
 
 
 ### If end-to-end-encryption is not available, is the connection not encrypted at all?
@@ -238,16 +241,17 @@ The user's profile shows some additional info:
 
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
-
 ### Which standards are used for end-to-end-encryption?
 
 - [Autocrypt](https://autocrypt.org) is used for establishing
   e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. Moreover, 
-  Delta Chat implements the "countermitm" protocols to achieve
-  protection against active network attacks, going beyond the opportunistic
-  base protection of Autocrypt, see questions about "Verified Groups".
+  Autocrypt uses a limited subset of OpenPGP functionality. 
 
+- Delta Chat also implements the [countermitm protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
+  base protection of Autocrypt Level 1, while maintaining it's ease of use.  
+  Through QR-code show and scan activities one can setup "verified groups" 
+  that guarantee end-to-end for all messages in the group chat. Verified chats 
+  are marked with a "verified" checkmark. 
 
 ### What is the difference between verified groups and 1:1 chats with verified contacts?
 
