@@ -460,3 +460,44 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
+
+### How are Delta Chat developments funded? 
+
+First of all, Delta Chat does not receive any Venture Capital and
+is not indebted, and under no pressure to produce huge profits, or to 
+sell users and their friends and family to advertisers (or worse). 
+
+Delta Chat developments have so far been funded from four major sources: 
+
+- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
+  and implementation of verified groups and setup contact protocols
+  in 2017 and 2018. 
+
+- The [Open TechFund](https://opentechfund.org) has given two grants.
+  The first 2018/2019 grant ($200K) majorly improved the Android app 
+  and allowed us to release a Desktop app beta version, and also 
+  moored our feature developments in UX research in human rights contexts, 
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant ($300K) is still ongoing and helps us to 
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.  
+
+- The [NLNET foundation](https://nlnet.nl/) granted EUR 46K for
+  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+
+- Last but by far not least, several experts contributed and contribute 
+  to Delta Chat developments without receiving money. Without them, Delta Chat 
+  would not be where it is today.
+
+The monetary funding mentioned above was organized by merlinux GmbH in
+Freiburg (Germany), and then distributed to almost a dozen contributors. 
+
+Funding for 2020/2021 is yet to be determined. We are pursuing several
+opportunities with different organisations and partners. We also are
+considering to ask for donations. In fact, we experimentally started
+a little [Delta Chat / Liberapay](https://liberapay.com/delta.chat/)
+but have not published this much yet.  There were around 3-4K so far
+donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
+donation channels.  
+
+
