@@ -175,11 +175,11 @@ about feedback which makes the app more secure for all of our users.
 ### What do double ticks mean in group messages? Has everyone read my message now?
 
 - A message shows double ticks after more than half the the recipients have
-  seen the message on their display. 
+  seen the message on their display.
 - Note that some recipients might have disabled read-receipts for
   privacy-reasons.
 - If more than 50% in a group disabled read receipts, the double ticks will
-  never show up. For more detailed information, see 
+  never show up. For more detailed information, see
   [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
 
 
