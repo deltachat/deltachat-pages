@@ -474,11 +474,11 @@ Delta Chat developments have so far been funded from four major sources:
   in 2017 and 2018. 
 
 - The [Open Technology Fund](https://opentechfund.org) has given two grants.
-  The first 2018/2019 grant ($200K) majorly improved the Android app 
+  The first 2018/2019 grant (~$200K) majorly improved the Android app 
   and allowed us to release a Desktop app beta version, and also 
   moored our feature developments in UX research in human rights contexts, 
   see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant ($300K) is still ongoing and helps us to 
+  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
   release Delta/iOS versions, to convert our core library to Rust, and
   to provide new features for all platforms.  See the 
   ongoing [blog posts](https://delta.chat/en/blog) for more info. 
@@ -497,9 +497,7 @@ Freiburg (Germany), and then distributed to almost a dozen contributors.
 Funding for 2020/2021 is yet to be determined. We are pursuing several
 opportunities with different organisations and partners. We also are
 considering to ask for donations. In fact, we experimentally started
-a little [Delta Chat / Liberapay](https://liberapay.com/delta.chat/)
-but have not published this much yet.  There were around 3-4K so far
+a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
+but have not published this yet.  There were also around 3-4K so far
 donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
 donation channels.  
-
-
