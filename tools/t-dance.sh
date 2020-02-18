@@ -27,8 +27,9 @@ tlangs=(ca de es fr it nb_NO pl pt ru sq uk nl)  # do not add `en` to this list
 pull_po_translations_from_tx() {
 	#find ../_data/lang/ -type f -not -name 'en.*' -delete
 	rm -r translations || true
-	mkdir translations
- 	ln -s -T ../../_data/lang translations/delta-chat-pages.yml
+	mkdir translations && cd translations
+ 	ln -s -T ../../_data/lang delta-chat-pages.yml
+	cd ..
 	tx pull -a --mode=sourceastranslation  # -a = fetch all translationss, -s = fetches source
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
@@ -40,7 +41,9 @@ pull_po_translations_from_tx() {
 
 
 push_po_sources_to_tx() {
- 	ln -s -T ../../_data/lang translations/delta-chat-pages.yml || true
+	cd translations
+ 	ln -s -T ../../_data/lang delta-chat-pages.yml || true
+	cd ..
 	tx push -s
 }
 
