@@ -29,7 +29,7 @@ pull_po_translations_from_tx() {
 	rm -r translations || true
 	mkdir translations
  	ln -s -T ../../_data/lang translations/delta-chat-pages.yml
-	tx pull -a --mode=sourcetranslation  # -a = fetch all translationss, -s = fetches source
+	tx pull -a --mode=sourceastranslation  # -a = fetch all translationss, -s = fetches source
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
 			pofile="../${tlang:0:2}/${sfile}.po"
