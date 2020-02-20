@@ -1,19 +1,19 @@
 ---
-title: Privacy policy website
+title: Polityka prywatności
 lang: pl
 ---
 
 
-# Privacy Policy
+# Polityka prywatności
 
-**Status: January 21, 2020**
+**Stan: 21 styczeń 2020**
 
 At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
 website is in compliance with the European General Data Protection Regulation
 (2016/679). Therefore, we minimise the processing of your data to the minimum
 necessary (Privacy by Design).
 
-## General information
+## Główne informacje
 
 The Delta.chat website does not use own or third party cookies, website
 analytics services, third party advertising and marketing services or the use

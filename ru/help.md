@@ -172,6 +172,17 @@ Delta Chat автоматически показывает:
 - Или, в качестве альтернативы, вы также можете отключить уведомления для группы - это означает, что вы будете получать все сообщения и сможете их писать, но больше не будете получать уведомления о новых сообщениях.
 
 
+### What do double ticks mean in group messages? Has everyone read my message now?
+
+- A message shows double ticks after more than half the the recipients have
+  seen the message on their display.
+- Note that some recipients might have disabled read-receipts for
+  privacy-reasons.
+- If more than 50% in a group disabled read receipts, the double ticks will
+  never show up. For more detailed information, see
+  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+
+
 ## Шифрование {#encryption}
 
 ### Поддерживает ли Delta Chat сквозное шифрование?
@@ -179,6 +190,9 @@ Delta Chat автоматически показывает:
 - Да. В Delta Chat реализован стандарт Autocrypt Level 1 и поэтому
 защищённые сквозным (E2E) шифрованием сообщения совместимы с
 другими приложениями, поддерживающими Autocrypt.
+
+- Delta Chat also supports a strong form of end-to-end encryption that is 
+  even safe against active attacks, see "verified groups" further below. 
 
 
 ### Что нужно сделать, чтобы активировать сквозное шифрование?
@@ -192,7 +206,8 @@ Delta Chat автоматически показывает:
   Autocrypt, последующие сообщения не шифруются до тех пор, пока совместимое с 
   Autocrypt не будет снова доступно у всех участников. 
 
-- Если вы хотите _отключить_ сквозное шифрование, используйте соответствующий пункт в меню "Настройки" / "Расширенные настройки".
+- If you want to rather avoid end-to-end-encrypted e-mails by default, 
+  use the corresponding Autocrypt setting in "Settings / Advanced settings".
 
 
 ### Если сквозное шифрование недоступно, связь не шифруется вообще?
@@ -226,16 +241,14 @@ Delta Chat автоматически показывает:
 
 - Если **нет замка**, сообщение обычно передаётся в незашифрованном виде, например, потому что вы или отправитель отключили сквозное шифрование, или отправитель использует приложение без поддержки сквозного шифрования.
 
-
 ### Какие стандарты используются для сквозного шифрования?
 
 - [Autocrypt](https://autocrypt.org) is used for establishing
   e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. Moreover, 
-  Delta Chat implements the "countermitm" protocols to achieve
-  protection against active network attacks, going beyond the opportunistic
-  base protection of Autocrypt, see questions about "Verified Groups".
+  Autocrypt uses a limited subset of OpenPGP functionality. 
 
+- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
+  base protection of Autocrypt Level 1, while maintaining its ease of use.  
 
 ### В чём разница между проверенными группами и чатами 1-на-1 с проверенными контактами?
 
@@ -331,13 +344,18 @@ However, we try to support private keys from other sources as good as possible.
 
 ### Можно ли использовать Delta Chat на нескольких устройствах одновременно?
 
-Если вы хотите использовать **одну и ту же учётную запись** на различных устройствах (с поддержкой Autocrypt), необходимо синхронизировать их возможности шифрования: 
+If you want to use the **same account** on different devices, you should export
+a backup from the old device, and import it into the new device:
 
-- На первом устройстве выберите "Дополнительные параметры" / "Отправить сообщение с параметрами Autocrypt" и удерживайте кнопку нажатой до тех пор, пока не появится "защитный код".
-
-- На другом устройстве дождитесь "Сообщения с параметрами Autocrypt" и нажмите на него, что приведёт к запросу защитного кода.
-
-- Теперь синхронизация выполнена и можно использовать оба устройства для отправки и получения сообщений, защищённых сквозным (E2E) шифрованием, вашим партнёрам по общению. 
+- On the old device, choose "Settings / Chats and media / Backup". Enter your
+  screen unlock PIN, pattern, or password. Then you can click on "Start
+  Backup". This saves the backup file to your device. Now you have to transfer
+  it to the other device somehow.
+- On the new device, on the login screen, instead of logging into your email
+  account, choose "Import Backup". After import, your conversations, encryption
+  keys, and media should be copied to the new device.
+- You are now synchronized, and can use both devices for sending and receiving
+  E2E-encrypted messages with your communication partners. 
 
 ### Are there any plans for introducing a Delta Chat Web Client?
 
@@ -435,9 +453,50 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   encrypted, though. The End-to-End encryption those providers offer is only
   working inside their platforms, and not compatible with anyone outside.
 - Delta Chat can e2e-encrypt through any e-mail provider with any
-  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
+  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
 ### Меня интересуют технические детали. Можете рассказать больше?
 
 - Смотрите [Стандарты, используемые в Delta Chat]({% include standards-url %}).
+
+### How are Delta Chat developments funded? 
+
+First of all, Delta Chat does not receive any Venture Capital and
+is not indebted, and under no pressure to produce huge profits, or to 
+sell users and their friends and family to advertisers (or worse). 
+
+Delta Chat developments have so far been funded from four major sources: 
+
+- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
+  and implementation of verified groups and setup contact protocols
+  in 2017 and 2018. 
+
+- The [Open Technology Fund](https://opentechfund.org) has given two grants.
+  The first 2018/2019 grant (~$200K) majorly improved the Android app 
+  and allowed us to release a Desktop app beta version, and also 
+  moored our feature developments in UX research in human rights contexts, 
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.  See the 
+  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+
+- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
+  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+
+- Last but by far not least, several pro-bono experts and enthusiasts contributed 
+  and contribute to Delta Chat developments without receiving money, or only 
+  small amounts. Without them, Delta Chat would not be where it is today, not
+  even close. 
+
+The monetary funding mentioned above was organized by merlinux GmbH in
+Freiburg (Germany), and then distributed to almost a dozen contributors. 
+
+Funding for 2020/2021 is yet to be determined. We are pursuing several
+opportunities with different organisations and partners. We also are
+considering to ask for donations. In fact, we experimentally started
+a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
+but have not published this yet.  There were also around 3-4K so far
+donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
+donation channels.  

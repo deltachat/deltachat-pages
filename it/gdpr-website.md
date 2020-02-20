@@ -1,64 +1,62 @@
----
-title: Privacy policy website
+titolo: Privacy del sito web
 lang: it
----
 
 
-# Privacy Policy
+#  Politica Privacy 
 
-**Status: January 21, 2020**
+**Stato: 21 Gennaio, 2020**
 
-At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
-website is in compliance with the European General Data Protection Regulation
-(2016/679). Therefore, we minimise the processing of your data to the minimum
-necessary (Privacy by Design).
+A Delta.Chat, ci assicuriamo che non solo il nostro messenger, ma anche Delta.Chat
+sito web sia conforme al regolamento generale europeo sulla protezione dei dati
+(2016/679). Pertanto, riduciamo al minimo il trattamento dei dati necessari dell'utente
+(Privacy by Design).
 
-## General information
+## Informazioni Generali
 
-The Delta.chat website does not use own or third party cookies, website
-analytics services, third party advertising and marketing services or the use
-of social media plug-ins. Data processing is limited to voluntary e-mail
-contact.
+Il sito Web Delta.chat non utilizza cookie propri o di terze parti, sito Web
+di servizi di analisi, servizi pubblicitari e di marketing di terze parti o l'utilizzo
+dei plug-in dei social media. Il trattamento dei dati è limitato alla posta elettronica volontaria
+di contatto.
 
-## Responsible person
+## Persona responsabile
 
-The person responsible for the data processing of this site in terms of the
-DSGVO and other national data protection laws of the member states as well as
-other data protection regulations is
+La persona responsabile del trattamento dei dati di questo sito in termini di
+DSGVO e altre leggi nazionali sulla protezione dei dati degli Stati membri, nonché
+altre norme sulla protezione dei dati sono
 
 	Merlinux GmbH
 	Reichgrafen Str. 20 
 	79102 Freiburg
 
-Your contact address for privacy issues at Delta.Chat:
+Il tuo indirizzo di contatto per problemi di privacy su Delta.Chat:
 
 	delta-privacy@merlinux.eu
 
-## Delta mailing lists
+## Mailing list Delta
 
-When voluntarily subscribing to the Delta mailing lists, your email address
-from the input mask, the IP address of the calling computer, date and time of
-registration are transmitted. The processing of this data is solely for the
-purpose of processing the contacts and the delivery of the public community
-communication. As usual with open source projects, the shared messages can also
-be found in public archives. The legal basis for processing with consent is
-Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
-subscription to the e-mail list is active. By unsubscribing from any mailing
-list, a revocation of consent is possible.
+Quando ti iscrivi volontariamente alle mailing list Delta, il tuo indirizzo email
+dalla maschera di input, l'indirizzo IP del computer chiamante, la data e l'ora di
+la registrazione viene trasmessa. Il trattamento di questi dati è esclusivamente per lo
+scopo del trattamento dei contatti e della consegna della comunità pubblica
+di comunicazione. Come al solito con progetti open source, anche i messaggi condivisi possono
+essere trovato negli archivi pubblici. La base giuridica per l'elaborazione con il consenso è
+l' Art. 6 I lit. del GDPR. L'indirizzo e-mail dell'utente è memorizzato solo finché
+l'iscrizione all'elenco e-mail è attiva. Annullando l'iscrizione a qualsiasi elenco mailing,
+è possibile una revoca del consenso.
 
-## Rights of affected persons
+Diritti delle persone interessate
 
-You can request information from Delta.Chat about whether and how your data is
-processed by us. You have the right to object to the processing, which takes
-place on the basis of art. 6 I lit.e or lit.f GDPR. If the processing is
-incorrect or incomplete, you have the right to rectification/completion,
-cancellation and, if necessary, restriction of the processing. You can revoke
-the declaration of consent of the mailing list at any time. You have the right
-to receive the data in a structured common and machine-readable format and the
-right to complain to a supervisory authority.
+Puoi richiedere informazioni a Delta.Chat se e come sono elaborati i tuoi dati
+da noi. Hai il diritto di opporti al trattamento, come disposto
+sulla base dell'art. 6 I lit.e.e lit f.f GDPR. Se l'elaborazione è
+errato o incompleto, hai il diritto di rettifica/completamento,
+cancellazione e, se necessario, limitazione del trattamento. Puoi revocare
+la dichiarazione di consenso della mailing list in qualsiasi momento. Hai il diritto
+di ricevere i dati in un formato strutturato comune e leggibile da una macchina e il
+diritto di presentare reclamo a un'autorità di controllo.
 
-## Amendment of the privacy policy
+## Modifica della politica sulla privacy
 
-We reserve the right to update the present data protection regulations in view
-of the constantly changing legal and technical situation.
+Ci riserviamo il diritto di aggiornare le presenti normative sulla protezione dei dati in vista
+della situazione legale e tecnica in costante evoluzione.
 

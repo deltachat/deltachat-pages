@@ -19,11 +19,11 @@ lang: nl
 
 # Vertaling en bugmeldingen 
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Vertalen via Transifex](https://www.transifex.com/delta-chat/public/)
+- [Delta Chat voor Android-problemen](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat voor computers-problemen](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat voor iOS-problemen](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust-kernbibliotheek- en Python Bindings-problemen](https://github.com/deltachat/deltachat-core-rust/issues)
 
 We zijn altijd op zoek naar ontwikkelaars die willen bijdragen en bekend zijn met 
 C, Rust, Java, Swift, Javascript of Python op Android, iOS, Windows, Linux of macOS.

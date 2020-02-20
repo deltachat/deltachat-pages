@@ -1,26 +1,23 @@
 ---
-title: Privacy policy website
+title: Política de privacidad del sitio web
 lang: es
 ---
 
 
-# Privacy Policy
+# Política de privacidad
 
-**Status: January 21, 2020**
+**Estado: 21 de enero de 2020**
 
 At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
 website is in compliance with the European General Data Protection Regulation
 (2016/679). Therefore, we minimise the processing of your data to the minimum
 necessary (Privacy by Design).
 
-## General information
+## Información general
 
-The Delta.chat website does not use own or third party cookies, website
-analytics services, third party advertising and marketing services or the use
-of social media plug-ins. Data processing is limited to voluntary e-mail
-contact.
+El sitio web Delta.chat no utiliza cookies propias o de terceros, servicios de análisis de sitios web, servicios de publicidad y marketing de terceros o el uso de complementos de redes sociales. El procesamiento de datos se limita al contacto voluntario por correo electrónico.
 
-## Responsible person
+## Persona responsable
 
 The person responsible for the data processing of this site in terms of the
 DSGVO and other national data protection laws of the member states as well as
@@ -34,7 +31,7 @@ Your contact address for privacy issues at Delta.Chat:
 
 	delta-privacy@merlinux.eu
 
-## Delta mailing lists
+## Listas de correo de Delta Chat
 
 When voluntarily subscribing to the Delta mailing lists, your email address
 from the input mask, the IP address of the calling computer, date and time of
@@ -46,7 +43,7 @@ Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
 subscription to the e-mail list is active. By unsubscribing from any mailing
 list, a revocation of consent is possible.
 
-## Rights of affected persons
+## Derechos de las personas afectadas
 
 You can request information from Delta.Chat about whether and how your data is
 processed by us. You have the right to object to the processing, which takes
@@ -57,7 +54,7 @@ the declaration of consent of the mailing list at any time. You have the right
 to receive the data in a structured common and machine-readable format and the
 right to complain to a supervisory authority.
 
-## Amendment of the privacy policy
+## Modificación de la política de privacidad
 
 We reserve the right to update the present data protection regulations in view
 of the constantly changing legal and technical situation.

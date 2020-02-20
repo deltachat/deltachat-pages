@@ -164,12 +164,25 @@ kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inlogg
   geen meldingen meer als er nieuwe berichten zijn.
 
 
+### Wat betekenen de twee vinkjes in groepsberichten? Heeft iedereen mijn bericht gelezen?
+
+- Een bericht bevat twee vinkjes als meer dan de helft van de ontvangers
+  het bericht heeft bekeken (niet per se gelezen).
+- Sommige ontvangers hebben leesbevestigingen uitgeschakeld omwille van hun privacy.
+- Als meer dan de helft van de ontvangers in een groep ze heeft uitgeschakeld, dan worden de twee vinkjes
+  nooit getoond. Meer informatie hierover vind je in
+  [dit blogbericht](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+
+
 ## Versleuteling {#encryption}
 
 ### Ondersteunt Delta Chat end-to-end-versleuteling?
 
 - Ja. Delta Chat heeft de standaard Autocrypt niveau 1 ingebouwd
   en kan dus e2e-berichten versleutelen d.m.v. Autocrypt-achtige apps.
+
+- Delta Chat ondersteunt een sterke variant van end-to-end-versleuteling die zélfs
+  beschermt tegen actieve aanvallen. Zie 'goedgekeurde groepen' verderop.
 
 
 ### Moet ik iets doen om end-to-end-versleuteling in te schakelen?
@@ -183,8 +196,8 @@ kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inlogg
   Als één van de gesprekspartners een niet met Autocrypt compatibele e-mailapp gebruikt, 
   dan zijn die berichten onversleuteld. 
 
-- Als je end-to-end-versleuteling wilt _uitschakelen_, 
-  ga dan naar 'Instellingen --> Geavanceerd'.
+- Als je end-to-end-versleuteling standaard wilt _uitschakelen_, 
+  zoek dan de Autocrypt-optie in 'Instellingen --> Geavanceerd'.
 
 
 ### Als end-to-end-versleuteling niet beschikbaar is, is de verbinding dan onbeveilgd?
@@ -219,16 +232,15 @@ Beiden zien daarna een bericht
 
 - Als het **hangslot ontbreekt**, dan is het bericht meestal onversleuteld omdat jij of de afzender end-to-end-versleuteling hebt uitgeschakeld, of omdat de afzender geen app gebruikt die end-to-end-versleuteling ondersteunt.
 
-
 ### Welke standaarden worden gebruikt bij end-to-end-beveiliging?
 
 - [Autocrypt](https://autocrypt.org) wordt gebruikt voor het opzetten
   van een e2e-versleuteling met andere Delta Chat-apps, alsmede andere apps die Autocrypt ondersteunen.
   Autocrypt gebruikt een beperkte set OpenPGP-functionaliteit.
-  Delta Chat gebruikt de 'countermitm'-protocollen om bescherming
-  te bieden tegen actieve netwerkaanvallen. Hierdoor gaat Delta Chat
-  verder dan de basisbescherming van Autocrypt. Zie ook de vraag over goedgekeurde groepen.
 
+- Delta Chat gebruikt de [countermitm setup-contact- en verified-group-protocollen](https://countermitm.readthedocs.io/en/latest/new.html) om bescherming
+te bieden tegen actieve netwerkaanvallen. Hierdoor gaat Delta Chat
+verder dan de basisbescherming van Autocrypt (niveau 1).
 
 ### Wat is het verschil tussen goedgekeurde groepen en 1-op-1-gesprekken met goedgekeurde contactpersonen?
 
@@ -325,16 +337,16 @@ Voor andere programma's kun je zélf een oplossing zoeken op internet.
 ### Kan ik Delta Chat op meerdere apparaten tegelijk gebruiken?
 
 Als je **hetzelfde account** wilt gebruiken op andere
-(Autocrypt-compatibele) apparaten, dan moet je de sleutels uitwisselen:
+apparaten, dan moet je
+een back-up exporteren op het oude apparaat en deze importeren op het nieuwe:
 
-- Ga, op het eerste apparaat, naar 'Instellingen --> Geavanceerd --> Autocrypt-instelbericht versturen'
-  en druk net zolang tot er een beveiligingscode wordt getoond.
-
-- Pak het andere apparaat en wacht tot je het 'Autocrypt-instelbericht'
-  ontvangt. Druk op het bericht en voer de beveiligingscode in.
-
-- De sleutels zijn nu uitgewisseld en je kunt beide apparaten
-  gebruiken om E2E-versleutelde berichten te versturen en ontvangen aan/van je gesprekspartners.
+- Ga op je oude apparaat naar 'Instellingen --> Gesprekken en media --> Back-up'. Voer je
+  ontgrendelpincode, -patroon of -wachtwoord in. Druk vervolgens op 'Nu back-uppen'. Er wordt een back-up opgeslagen op je apparaat. Zet deze over
+  naar je nieuwe apparaat.
+- Pak het nieuwe apparaat. Druk op het inlogscherm op 'Back-up importeren' (log dus niet in op je account). Na het importeren zijn je gesprekken, privésleutels
+  en media overgezet op je nieuwe apparaat.
+- Je kunt nu beide apparaten gebruiken voor het ontvangen en versturen van
+  E2E-versleutelde berichten van/naar je gesprekspartners.
 
 ### Bestaan er plannen om een Delta Chat-webclient te maken?
 
@@ -435,3 +447,41 @@ Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere
 ## Ik wil graag meer weten over de gebruikte technieken. Waar kan ik meer informatie vinden?
 
 - Bekijk de pagina [Door Delta Chat gebruikte standaarden]({% include standards-url %}).
+
+### Hoe wordt de ontwikkeling van Delta Chat gefinancierd?
+
+Delta Chat ontvangt geen risicokapitaal, heeft geen schulden en staat niet onder druk om grote winst te moeten maken. Ook is er geen enkele druk om gegevens van gebruikers, hun vrienden en familie te verkopen aan adverteerders (of erger).
+
+De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door vier grote spelers:
+
+- Het [NEXTLEAP](https://nextleap.eu)-EU-project heeft het onderzoek
+  naar en de implementatie van goedgekeurde groepen en setup-contact-protocollen in 2017 en 2018
+  gefinancierd. 
+
+- The [Open Technology Fund](https://opentechfund.org) has given two grants.
+  The first 2018/2019 grant (~$200K) majorly improved the Android app 
+  and allowed us to release a Desktop app beta version, and also 
+  moored our feature developments in UX research in human rights contexts, 
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.  See the 
+  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+
+- De [NLnet foundation](https://nlnet.nl/) heeft Delta Chat €46.000 toegekend
+  voor het voltooiien van de Rust- en Python-bindings en het opzetten van het Chatbot-ecosysteem. 
+
+- Last but by far not least, several pro-bono experts and enthusiasts contributed 
+  and contribute to Delta Chat developments without receiving money, or only 
+  small amounts. Without them, Delta Chat would not be where it is today, not
+  even close. 
+
+Bovenstaande fiancieringen zijn opgezet door merlinux GmbH in
+Freiburg (Duitsland) en daarna toegekend aan bijna 12 vrijwilligers. 
+
+De financiering voor 2020/2021 moet nog worden opgezet. We nemen verschillende
+mogelijkheden door met organisaties en partners. Daarnaast overwegen
+we een donatiesysteem op te zetten. Sterker nog: daar zijn we al een beetje mee begonnen
+([Delta Chat / Liberapay-donatieaccount](https://liberapay.com/delta.chat/)),
+maar we hebben dit nog niet openbaargemaakt.  Tevens is er tot dusver €3000-€4000
+gedoneerd aan Bjoern's (de oorspronkelijke ontwikkelaar van Delta Chat) PayPal en Bitcoin.  

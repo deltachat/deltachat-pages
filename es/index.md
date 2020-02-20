@@ -30,7 +30,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 Por favor, visita [get.delta.chat](https://get.delta.chat) y nuestras [últimas publicaciones](blog)
 para más información sobre últimos lanzamientos y eventos.
 
-Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
-see, change, and share it at will, with everyone.
+Delta Chat es de [Código abierto](https://es.wikipedia.org/wiki/C%C3%B3digo_abierto)
+y  [Software libre](https://es.wikipedia.org/wiki/Software_libre). Puedes usar,
+ver, cambiar y compartirlo a voluntad, con todos.
 

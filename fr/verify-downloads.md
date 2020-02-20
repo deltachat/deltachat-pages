@@ -1,5 +1,5 @@
 ---
-titre: Vérifier téléchargements
+title: Vérifier téléchargements
 lang: fr
 ---
 

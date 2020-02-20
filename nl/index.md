@@ -31,7 +31,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 Ga naar [get.delta.chat](https://get.delta.chat) of lees ons [blog](blog)
 voor nieuws omtrent de huidige versies en andere gebeurtenissen.
 
-Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
-see, change, and share it at will, with everyone.
+Delta Chat is zowel [opensourcesoftware](https://nl.wikipedia.org/wiki/Opensourcesoftware)
+als [vrije software](https://nl.wikipedia.org/wiki/Vrije_software).  Je mag het gebruiken,
+bekijken, aanpassen en delen zoals jij wilt, met iedereen.
 
