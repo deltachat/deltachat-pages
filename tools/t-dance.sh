@@ -51,6 +51,7 @@ create_po_sources() {
 		txt2po --progress=none "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/en.po"
 	done
 	# sic: for whatever reason, the file is en.yaml and not .yml as everywhere else
+	mkdir -p "translations/delta-chat-pages.yml"
 	cp "../_data/lang/en.yaml" "translations/delta-chat-pages.yml/en.yml"
 }
 
