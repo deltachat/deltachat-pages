@@ -1,4 +1,4 @@
-titolo: Privacy del sito web
+title: Privacy del sito web
 lang: it
 
 

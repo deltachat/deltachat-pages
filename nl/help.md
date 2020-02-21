@@ -458,23 +458,23 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door vier grote spele
   naar en de implementatie van goedgekeurde groepen en setup-contact-protocollen in 2017 en 2018
   gefinancierd. 
 
-- The [Open Technology Fund](https://opentechfund.org) has given two grants.
-  The first 2018/2019 grant (~$200K) majorly improved the Android app 
-  and allowed us to release a Desktop app beta version, and also 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  See the 
-  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+- [Open Technology Fund](https://opentechfund.org) heeft twee subsidies toegekend.
+  De eerste subsidie, voor 2018/2019, ter waarde van ong. $200,000, heeft enorm geholpen om de Android-app 
+  te verbeteren en een bètaversie van de computerclient vrij te geven. 
+  Verder hebben we onderzoek kunnen doen naar het uiterlijk in relatie tot mensenrechten - 
+  bekijk onze conclusie hier: [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  De tweede subsidie, voor 2019/2020, ter waarde van ong. $300,000, loopt nog en ondersteunt ons bij het 
+  vrijgeven van de iOS-client, het overzetten van de code van de kernbibliotheek naar Rust en
+  het implementeren van nieuwe functies op alle platformen. Bekijk ons 
+  [blog](https://delta.chat/en/blog) voor meer informatie.
 
 - De [NLnet foundation](https://nlnet.nl/) heeft Delta Chat €46.000 toegekend
   voor het voltooiien van de Rust- en Python-bindings en het opzetten van het Chatbot-ecosysteem. 
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
-  small amounts. Without them, Delta Chat would not be where it is today, not
-  even close. 
+- Ook hebben verschillende experts en enthousiastelingen op vrijwillige basis bijgedragen
+  aan Delta Chat, en sommige doen dat nog steeds. Zij hebben geen of bijna geen
+  geld ontvangen. Zonder hen zou Delta Chat niet zo geweldig zijn als het vandaag
+  de dag is.
 
 Bovenstaande fiancieringen zijn opgezet door merlinux GmbH in
 Freiburg (Duitsland) en daarna toegekend aan bijna 12 vrijwilligers. 
