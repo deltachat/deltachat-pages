@@ -1,64 +1,57 @@
 ---
-title: Privacy policy website
+title: Privacybeleid
 lang: nl
 ---
 
 
-# Privacy Policy
+# Privacybeleid
 
-**Status: January 21, 2020**
+**Status: 21 januari 2020**
 
-At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
-website is in compliance with the European General Data Protection Regulation
-(2016/679). Therefore, we minimise the processing of your data to the minimum
-necessary (Privacy by Design).
+Wij van Delta Chat zorgen we er niet alleen voor onze client
+voldoet aan de Europese GDPR (2016/679), maar ook de delta.chat-website.
+Daarom beperken we de gegevensverwerking tot het strikt noodzakelijke (ontworpen met privacy voor ogen).
 
-## General information
+## Algemene informatie
 
-The Delta.chat website does not use own or third party cookies, website
-analytics services, third party advertising and marketing services or the use
-of social media plug-ins. Data processing is limited to voluntary e-mail
-contact.
+De Delta Chat-website maakt geen gebruik van externe cookies, analytische diensten, externe reclame- en marketingdiensten en socialemediaplug-ins. De gegevensverwerking is beperkt tot op eigen gelegenheid contact opnemen.
 
-## Responsible person
+## Verantwoordelijk persoon
 
-The person responsible for the data processing of this site in terms of the
-DSGVO and other national data protection laws of the member states as well as
-other data protection regulations is
+De persoon die verantwoordelijk is voor het verwerken van gegevens op deze site, voldoende aan de DSGVO en andere gegevensbeschermingswetten van de lidstaten, is
 
 	Merlinux GmbH
 	Reichgrafen Str. 20 
 	79102 Freiburg
 
-Your contact address for privacy issues at Delta.Chat:
+Het contactadres voor vragen en problemen omtrent privacy is:
 
 	delta-privacy@merlinux.eu
 
-## Delta mailing lists
+## Delta-mailinglijsten
 
-When voluntarily subscribing to the Delta mailing lists, your email address
-from the input mask, the IP address of the calling computer, date and time of
-registration are transmitted. The processing of this data is solely for the
-purpose of processing the contacts and the delivery of the public community
-communication. As usual with open source projects, the shared messages can also
-be found in public archives. The legal basis for processing with consent is
-Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
-subscription to the e-mail list is active. By unsubscribing from any mailing
-list, a revocation of consent is possible.
+Als je je inschrijft voor de Delta-mailinglijsten, dan wordt het volgende overgedragen:
+je e-mailadres, ip-adres van de huidige computer en de datum en tijd
+van inschrijving. Deze gegevens worden alleen verwerkt om
+de contactgegevens te verwerken en te zorgen dat de e-mails ook écht
+binnenkomen. Zoals gebruikelijk bij opensourceprojecten, zijn de berichten die je plaatst
+terug te lezen in het openbare archief. De wettelijke basis hiervoor is in overeenstemming
+met artikel 6, lid 1 van de GPDR. Het e-mailadres van gebruikers
+wordt opgeslagen zolang je geabonneerd blijft op de mailinglijst. Na uitschrijving
+kan het adres worden verwijderd uit de databank.
 
-## Rights of affected persons
+## Rechten van betrokken personen
 
-You can request information from Delta.Chat about whether and how your data is
-processed by us. You have the right to object to the processing, which takes
-place on the basis of art. 6 I lit.e or lit.f GDPR. If the processing is
-incorrect or incomplete, you have the right to rectification/completion,
-cancellation and, if necessary, restriction of the processing. You can revoke
-the declaration of consent of the mailing list at any time. You have the right
-to receive the data in a structured common and machine-readable format and the
-right to complain to a supervisory authority.
+Je kunt je gegevens van Delta Chat ten allen tijde opvragen. Zo kun je te weten komen
+wat we opslaan en hoe we je gegevens verwerken. Dit is in overeenstemming met artikel 6, lid e of f
+van de GPDR. Als de verwerking onjuist of onvolledig is, dan heb je het recht
+om de verwerking te doen stoppen of je gegevens aan te passen. Je kunt de
+verwerking van je gegevens omtrent de mailinglijst op elk moment stopzetten. Je hebt
+het recht om je gegevens in een gestructureerd en leesbaar formaat opgestuurd te krijgen, en 
+het recht om te klagen bij de verantwoordelijke autoriteiten.
 
-## Amendment of the privacy policy
+## Aanpassingen aan het privacybeleid
 
-We reserve the right to update the present data protection regulations in view
-of the constantly changing legal and technical situation.
+We houden ons het recht voor om het huidige gegevensverwerkingsbeleid aan te passen
+naar aanleiding van constant veranderende juridische en technische wetgeving.
 

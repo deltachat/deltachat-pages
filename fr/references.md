@@ -1,5 +1,5 @@
 ---
-titre: Références
+title: Références
 lang: fr
 ---
 

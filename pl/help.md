@@ -160,6 +160,17 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
   nadal będziesz mógł pisać, ale nie będziesz już powiadamiany o żadnych nowych wiadomościach.
 
 
+### What do double ticks mean in group messages? Has everyone read my message now?
+
+- A message shows double ticks after more than half the the recipients have
+  seen the message on their display.
+- Note that some recipients might have disabled read-receipts for
+  privacy-reasons.
+- If more than 50% in a group disabled read receipts, the double ticks will
+  never show up. For more detailed information, see
+  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+
+
 ## Szyfrowanie {#encryption}
 
 ### Czy Delta Chat obsługuje szyfrowanie end-to-end?
@@ -168,6 +179,9 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
   i może szyfrować wiadomości metodą e2e za pomocą innych 
   aplikacji obsługujących Autocrypt. 
 
+- Delta Chat also supports a strong form of end-to-end encryption that is 
+  even safe against active attacks, see "verified groups" further below. 
+
 
 ### Co muszę zrobić, aby aktywować szyfrowanie end-to-end?
 
@@ -175,8 +189,8 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
 
 - Gdy wysyłane są pierwsze wiadomości, aplikacje Delta Chat (i inne zgodne z [Autocrypt](https://autocrypt.org) aplikacje e-mail) automatycznie współdzielą klucze wymagane do szyfrowania metodą end-to-end. Następnie wszystkie kolejne wiadomości są automatycznie szyfrowane end-to-end. Jeśli jeden z partnerów czatu korzysta z aplikacji e-mail bez obsługi Autocrypt, kolejne wiadomości nie są szyfrowane, dopóki aplikacja zgodna z Autocrypt nie będzie ponownie dostępna.
 
-- Jeśli chcesz _wyłączyć_ szyfrowanie end-to-end, 
-  użyj odpowiedniego ustawienia w „Ustawienia » Ustawienia zaawansowane”.
+- If you want to rather avoid end-to-end-encrypted e-mails by default, 
+  use the corresponding Autocrypt setting in "Settings / Advanced settings".
 
 
 ### Jeśli nie jest dostępne szyfrowanie typu „end-to-end”, czy połączenie w ogóle nie jest szyfrowane?
@@ -205,11 +219,14 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
 
 - Jeśli **nie ma kłódki**, wiadomość jest zazwyczaj przesyłana w postaci niezaszyfrowanej, np. dlatego, że Ty lub nadawca wyłączyliście szyfrowanie typu end-to-end lub nadawca używa aplikacji, która nie obsługuje szyfrowania typu end-to-end.
 
-
 ### Jakie standardy są stosowane do szyfrowania end-to-end?
 
-- [Autocrypt](https://autocrypt.org) służy do ustanowienia szyfrowania e2e z innymi aplikacjami Delta Chat i innymi aplikacjami poczty obsługującymi Autocrypt. Autocrypt wykorzystuje ograniczony podzbiór funkcjonalności OpenPGP. Ponadto Delta Chat implementuje protokoły "countermitm (przeciwdziałania)" w celu osiągnięcia ochrony przed aktywnymi atakami sieciowymi, wykraczając poza oportunistyczną ochronę podstawową Autocrypt, zobacz pytania dotyczące „Zweryfikowanych grup”.
+- [Autocrypt](https://autocrypt.org) is used for establishing
+  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
+  Autocrypt uses a limited subset of OpenPGP functionality. 
 
+- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
+  base protection of Autocrypt Level 1, while maintaining its ease of use.  
 
 ### What is the difference between verified groups and 1:1 chats with verified contacts?
 
@@ -296,15 +313,18 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 
 ### Czy mogę korzystać z Delta Chat na wielu urządzeniach w tym samym czasie?
 
-- Jeśli chcesz używać tego **samego konta** na różnych urządzeniach (obsługujących Autocrypt), trzeba zsynchronizować ich możliwości szyfrowania: 
+If you want to use the **same account** on different devices, you should export
+a backup from the old device, and import it into the new device:
 
-- Na pierwszym urządzeniu wybierz Ustawienia zaawansowane » Wyślij wiadomość konfiguracyjną Autocrypt 
-  i naciskaj, aż pojawi się „numer bezpieczeństwa”.
-
-- Na drugim urządzeniu poczekaj na komunikat „Wiadomość konfiguracyjna Autocrypt” i naciśnij ją, aby wyświetlić monit o podanie numeru bezpieczeństwa. 
-
-- Przeszedłeś teraz synchronizację i możesz używać obu urządzeń
-  do wysyłania i odbierania zaszyfrowanych wiadomości metodą e2e ze swoimi partnerami komunikacyjnymi. 
+- On the old device, choose "Settings / Chats and media / Backup". Enter your
+  screen unlock PIN, pattern, or password. Then you can click on "Start
+  Backup". This saves the backup file to your device. Now you have to transfer
+  it to the other device somehow.
+- On the new device, on the login screen, instead of logging into your email
+  account, choose "Import Backup". After import, your conversations, encryption
+  keys, and media should be copied to the new device.
+- You are now synchronized, and can use both devices for sending and receiving
+  E2E-encrypted messages with your communication partners. 
 
 ### Are there any plans for introducing a Delta Chat Web Client?
 
@@ -401,9 +421,50 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   encrypted, though. The End-to-End encryption those providers offer is only
   working inside their platforms, and not compatible with anyone outside.
 - Delta Chat can e2e-encrypt through any e-mail provider with any
-  [https://autocrypt.org/dev-status.html](Autocrypt-enabled e-mail app).
+  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi więcej?
 
 - Zobacz [Standardy używane w Delta Chat]({% include standards-url %}).
+
+### How are Delta Chat developments funded? 
+
+First of all, Delta Chat does not receive any Venture Capital and
+is not indebted, and under no pressure to produce huge profits, or to 
+sell users and their friends and family to advertisers (or worse). 
+
+Delta Chat developments have so far been funded from four major sources: 
+
+- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
+  and implementation of verified groups and setup contact protocols
+  in 2017 and 2018. 
+
+- The [Open Technology Fund](https://opentechfund.org) has given two grants.
+  The first 2018/2019 grant (~$200K) majorly improved the Android app 
+  and allowed us to release a Desktop app beta version, and also 
+  moored our feature developments in UX research in human rights contexts, 
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.  See the 
+  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+
+- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
+  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+
+- Last but by far not least, several pro-bono experts and enthusiasts contributed 
+  and contribute to Delta Chat developments without receiving money, or only 
+  small amounts. Without them, Delta Chat would not be where it is today, not
+  even close. 
+
+The monetary funding mentioned above was organized by merlinux GmbH in
+Freiburg (Germany), and then distributed to almost a dozen contributors. 
+
+Funding for 2020/2021 is yet to be determined. We are pursuing several
+opportunities with different organisations and partners. We also are
+considering to ask for donations. In fact, we experimentally started
+a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
+but have not published this yet.  There were also around 3-4K so far
+donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
+donation channels.  

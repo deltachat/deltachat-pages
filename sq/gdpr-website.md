@@ -1,64 +1,64 @@
 ---
-title: Privacy policy website
+title: Rregulla privatësie në sajt
 lang: sq
 ---
 
 
-# Privacy Policy
+# Rregulla Privatësie
 
-**Status: January 21, 2020**
+**Gjendje: 21 janar, 2020**
 
-At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
-website is in compliance with the European General Data Protection Regulation
-(2016/679). Therefore, we minimise the processing of your data to the minimum
-necessary (Privacy by Design).
+Në Delta.Chat, bëjmë të mundur që jo vetëm shkëmbyesi ynë i mesazheve, por
+edhe sajti Delta.Chat të jetë në pajtim me Rregulloren e Përgjithshme Europiane
+të Mbrojtes së të Dhënave (2016/679). Për këtë arsye, e minimizojnë përpunimin e
+të dhënave tuaja në minimum (Privatësi që në Konceptim).
 
-## General information
+## Të dhëna të Përgjithshme
 
-The Delta.chat website does not use own or third party cookies, website
-analytics services, third party advertising and marketing services or the use
-of social media plug-ins. Data processing is limited to voluntary e-mail
-contact.
+Sajti Delta.chat nuk përdor <em>cookies</em> të vetat apo palësh të treta,
+shërbime analizimi sajti, shërbime palësh të treta reklamash dhe marketingu
+apo të përdorë shtojca mediash shoqërore. Përpunimi i të dhënave kufizohet në
+email kontakti dhënë vullnetarisht.
 
-## Responsible person
+## Person përgjegjës
 
-The person responsible for the data processing of this site in terms of the
-DSGVO and other national data protection laws of the member states as well as
-other data protection regulations is
+Personi përgjegjës për përpunimin e të dhënave të këtij sajti, sipas DSGVO-s
+dhe ligjesh të tjerë kombëtarë të mbrojtjes së të dhënave të shteteve anëtare, si
+dhe rregulloresh të tjera mbrojtjeje të të dhënave është
 
 	Merlinux GmbH
 	Reichgrafen Str. 20 
 	79102 Freiburg
 
-Your contact address for privacy issues at Delta.Chat:
+Adresa për kontakte nga ana juaj lidhur me probleme privatësie në Delta.Chat:
 
 	delta-privacy@merlinux.eu
 
-## Delta mailing lists
+## Lista postimesh në Delta
 
-When voluntarily subscribing to the Delta mailing lists, your email address
-from the input mask, the IP address of the calling computer, date and time of
-registration are transmitted. The processing of this data is solely for the
-purpose of processing the contacts and the delivery of the public community
-communication. As usual with open source projects, the shared messages can also
-be found in public archives. The legal basis for processing with consent is
-Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
-subscription to the e-mail list is active. By unsubscribing from any mailing
-list, a revocation of consent is possible.
+Kur regjistroheni vullnetarisht te listat e postimit për Delta-n, transmetohen
+adresa juaj email prej fushës së dhënies, adresa IP e kompjuterit që po bën
+kërkesën, data dhe koha e regjistrimit. Përpunimi i këtyre të dhënave ngjet
+vetëm për qëllimin e përpunimit të kontakteve dhe shpërndarjen e komunikimeve
+publike të bashkësisë. Si zakonisht me projekte të burimit të hapur, mesazhet
+e dhëna për të tjerët mund të gjenden në arkiva publike. Baza ligjore për përpunim
+me pranim është Neni. 6 I lit. a GDPR. Adresa email e përdoruesit depozitohet për aq
+sa pajtimi te lista e postimeve është i vlefshëm. Duke u shpajtuar nga çfarëdo liste
+postimesh, është i mundshëm një shfuqizim i pranimit.
 
-## Rights of affected persons
+## Të drejta të personave që preken
 
-You can request information from Delta.Chat about whether and how your data is
-processed by us. You have the right to object to the processing, which takes
-place on the basis of art. 6 I lit.e or lit.f GDPR. If the processing is
-incorrect or incomplete, you have the right to rectification/completion,
-cancellation and, if necessary, restriction of the processing. You can revoke
-the declaration of consent of the mailing list at any time. You have the right
-to receive the data in a structured common and machine-readable format and the
-right to complain to a supervisory authority.
+Mund të kërkoni nga Delta.Chat informacion nëse përpunohen dhe se si të dhënat
+tuaja prej nesh. Gëzoni të drejtën të kundërshtoni përpunimin, i cili ndodh bazuar në
+Nenin. 6 I lit.e ose lit.f GDPR. Nëse përpunimi është i pasaktë ose i paplotë, gëzoni
+të drejtën e ndreqjes/plotësimit, anulimit dhe, në qoftë e nevojshme, kufizimin e
+përpunimit. Mund ta shfuqizoni Pohimin e pranimit me përpunimin te lista e postimeve
+mund ta shfuqizoni në çfarëdo kohe. Gëzoni të drejtën të merrni të dhënat në një format
+të strukturuar të zakonshëm dhe të lexueshëm nga makinat dhe të drejtën të ankoheni
+te një autoritet mbikëqyrës.
 
-## Amendment of the privacy policy
+Ndryshim i rregullave të privatësisë
 
-We reserve the right to update the present data protection regulations in view
-of the constantly changing legal and technical situation.
+Rezervojmë të drejtën të përditësojmë rregullat e tanishme të mbrojtjes
+së të dhënave parë nga ndryshimi konstant i situatës ligjore dhe teknike.
 

@@ -11,11 +11,11 @@ downloads: true
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
 * [Núcleo](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-## Links
+## Enlaces
 
-* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
-* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
-* [Verify Downloads](verify-downloads): Verify data integrity of downloads
+* [Base de Datos de Proveedores](https://providers.delta.chat/): ¿Mi proveedor trabaja con Delta Chat?
+* [FAQ Multicliente](help#multiclient): Cómo sincronizar Desktop con otra aplicación Delta Chat.
+* [Verificar Descargas](verify-downloads): Verificar la integridad de las descargas
 
 ## Pre-lanzamientos:
 * [Desktop](https://download.delta.chat/desktop/preview/)

@@ -168,6 +168,17 @@ krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më,
 për çfarëdo mesazhesh të rinj.
 
 
+### Ç’duan të thonë dy shenjat në mesazhe grupi? Që gjithkush i ka lexuar tani mesazhet e mi?
+
+- Një mesazh shfaqet me dy shenja pasi më shumë se gjysma e marrësve ta kenë
+  parë mesazhin në ekranin e tyre.
+- Kini parasysh që disa marrës, për arsye privatësie mund të kenë
+  çaktivizuar dëftesa leximi.
+- Nëse më shumë se 50% në një grup çaktivizojnë dëftesa leximi, dy shenjat
+  s’do të shfaqen kurrë. Për të dhëna më të hollësishme, shihni
+  [këtë postim blogu](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+
+
 ## Fshehtëzim {#encryption}
 
 ### A ka Delta Chat-i fshehtëzim skaj-më-skaj?
@@ -175,6 +186,10 @@ për çfarëdo mesazhesh të rinj.
 - Po. DeltaChat sendërton standardin Autocrypt Level 1 
   dhe është pra në gjendje të fshehtëzojë mesazhe me e2e-n 
   përmes aplikacionesh të tjera të afta të përdorin Autocrypt-in. 
+
+- Delta Chat mbulon po ashtu një formë të fuqishme fshehtëzimi skaj-më-skaj
+  që është edhe më e sigurt kundër sulmesh aktive, shihni më poshtë
+  “grupe të verifikuar”.
 
 
 ### Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?
@@ -188,8 +203,8 @@ pasues fshehtëzohen automatikisht skaj-më-skaj. Nëse një nga partnerët
 në bisedë, më pas, përdor një aplikacion email që nuk mbulon Autocrypt-in, 
 mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë për Autocrypt-in. 
 
-- Nëse doni të _çaktivizohet_ fshehtëzimi skaj-më-skaj, 
-  përdorni fushën përkatës te "Rregullime / Rregullime të mëtejshme".
+- Nëse doni që email-et e fshehtëzuar të shmagen, si parazgjedhje, përdorni
+  rregullimin përgjegjës Autocrypt, te “Rregullime / Rregullime të mëtejshme”.
 
 
 ### Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?
@@ -224,16 +239,16 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
 
 - Nëse **s’ka dry**, mesazhi zakonisht transportohet i pafshehtëzuar, p.sh., ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose dërguesi përdor një aplikacion që nuk mbulon fshehtëzimin skaj-më-skaj.
 
-
 ### Cilët standarde përdoren për fshehtëzim skaj-më-skaj?
 
-- [Autocrypt](https://autocrypt.org) përdoret për të vendosur fshehtëzim skaj
-  më skaj me aplikacione të tjera poste Delta Chat dhe të aftë për Autocrypt. 
-  Autocrypt-i përdor një nëngrup të kufizuar të funksioneve OpenPGP. Për më tepër, 
-  Delta Chat sendërton protokollin "countermitm" për të arritur mbrojtje
-  kundër sulmesh aktive rrjeti, duke shkuar tej mbrojtjes elementare oportuniste
-  të Autocrypt-it, shihni pyetje rreth "Grupesh të Verifikuar".
+- [Autocrypt](https://autocrypt.org) përdoret për të vënë në punë fshehtëzim e2e
+  me Delta Chat tjetër dhe aplikacione të tjera poste që janë të aftë
+  të mbulojnë Autocrypt-in. 
+  Autocrypt-i përdor një nëngrup të kufizuar të funksioneve OpenPGP.
 
+- Për të bërë të mundur mbrojtjen kundër sulmesh aktive rrjeti, Delta Chat-i
+  sendërton [protokollet countermitm, setup-contact dhe verified-group](https://countermitm.readthedocs.io/en/latest/new.html).  Kjo shkon përtej mbrojtjes bazë oportuniste të
+  Autocrypt Level 1, ndërkohë që ruhet lehtësia e përdorimit.
 
 ### Cili është dallimi mes grupesh të verifikuar dhe fjalosjesh 1:1 me kontakte të verifikuar?
 
@@ -334,17 +349,19 @@ Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
 ### A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
 
-Nëse doni të përdorni **të njëjtën llogari** në pajisje të ndryshme (të afta 
-për Autocrypt), lypset të njëkohësoni aftësitë e tyre për fshehtëzim: 
+Nëse doni të përdorni të **njëjtën llogari** në pajisje të ndryshme, duhet
+të eksportoni nga njëra pajisje një kopjeruatje dhe ta importoni te tjetra:
 
-- Në pajisjen e parë, zgjidhni "Rregullime të mëtejshme / Dërgo mesazh Rregullimi Autocrypt-i" 
-  dhe klikoni derisa të shfaqet një "numër sigurie". 
-
-- Në pajisjen tjetër, pritni të mbërrijë "Mesazh Rregullimi Autocrypt-i" 
-  dhe klikoni mbi të, çka do të duhej t’ju kërkonte numrin e sigurisë. 
-
-- Tani jeni i njëkohësuar dhe mund të përdorni që të dyja pajisjet për marrje
-  dhe dërgim mesazhesh, të fshehtëzuar me E2E, me partnerët tuaj në komunikim. 
+- Te pajisja e parë, zgjidhni "Rregullime / Biseda dhe media / Kopjeruajtje".
+  Jepni PIN-in, rregullsinë ose fjalëkalimin tuaj për shkyçje ekrani. Mandej
+  klikoni mbi “Fillo Kopjeruajtje”. Kështu te pajisja juaj do të ruhet kartela
+  e kopjeruajtjes. Tani ju duhet ta shpërngulni në një farë mënyre te pajisja
+  tjetër.
+- Te pajisja tjetër, te skena e hyrjeve, në vend se të hyni në llogarinë tuaj
+  të email-eve, zgjidhni "Importo Kopjeruajtje". Pas importimit, bisedat, kyçet
+  e fshehtëzimit dhe mediat tuaja do të jenë kopjuar te pajisja e re.
+- Tanimë jeni i njëkohësuar dhe mund të përdorni të dyja pajisjet për dërgim dhe
+  marrje mesazhesh të fshehtëzuar skaj më skaj me partnerët tuaj në komunikim.
 
 ### A ka ndonjë plan për të sjellë një Klient Web Delta Chat?
 
@@ -442,7 +459,7 @@ shumë pajisje mund të mos punojë si duhet.
 - Po dhe Jo.
 - Jo, s’mund të përdorni llogarinë tuaj Protonmail, Tutanota, ose Criptext me
   Delta Chat-in; këta nuk ofrojnë marrje email-esh përmes IMAP-it.
-- Sidoqoftë, mund të përdorni Delta Chat-in të dërgoni mesazhe te persona që
+- Sidoqoftë, mund të përdorni Delta Chat-in të dërgoni Mesazhe te persona që
   përdorin Protonmail-in, Tutanota-n, ose Criptext-in. Por këto mesazhe s’do
   të jenë të fshehtëzuara Skaj-Më-Skaj. Fshehtëzimi Skaj-Më-Skaj që ofrojnë këto
   shërbime funksionon vetëm brenda platformave përkatëse, pa qenë i përputhshëm
@@ -454,3 +471,44 @@ shumë pajisje mund të mos punojë si duhet.
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
+
+### Si financohet zhvillimi i Delta Chat-it?
+
+First of all, Delta Chat does not receive any Venture Capital and
+is not indebted, and under no pressure to produce huge profits, or to 
+sell users and their friends and family to advertisers (or worse). 
+
+Deri këtu, zhvillimi i Delta Chat-it është financuar nga katër burime kryesore: 
+
+- Projekti [NEXTLEAP](https://nextleap.eu) i BE-së financoi kërkimin dhe
+  sendërtimin e grupeve të verifikuar dhe protokolle ujdisje kontaktesh
+  më 2017 dhe 2018.
+
+- The [Open Technology Fund](https://opentechfund.org) has given two grants.
+  The first 2018/2019 grant (~$200K) majorly improved the Android app 
+  and allowed us to release a Desktop app beta version, and also 
+  moored our feature developments in UX research in human rights contexts, 
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.  See the 
+  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+
+- [Fondacioni NLnet](https://nlnet.nl/) dha një grant prej 46 mijë eurosh për
+  të plotësuar <em>Rust/Python bindings</em> për t’i dhënë udhë një ekosistemi <em>Chat-bot</em>. 
+
+- Last but by far not least, several pro-bono experts and enthusiasts contributed 
+  and contribute to Delta Chat developments without receiving money, or only 
+  small amounts. Without them, Delta Chat would not be where it is today, not
+  even close. 
+
+Financimi monetar i përmendur më sipër u organizua nga merlinux GmbH në
+Frajburg (Gjermany), dhe shpërndarë më pas thuajse një duzine kontribuesish. 
+
+Fincimi për 2020/2021 s’është përcaktuar ende. Po ndjekim një dorë mundësish
+me ente dhe partnerë të ndryshëm. Po shohim gjithashtu mundësinë të kërkojmë
+dhurime. Në fakt, kemi filluar paksa, eksperimentalisht [llogari dhurimesh
+Delta Chat / Liberapay](https://liberapay.com/delta.chat/), por s’e kemi bërë
+ende publike këtë.  Pati gjithashtu rreth 3-4 mijë euro dhuruar deri sot për
+Bjornin (autorin fillestar të Delta Chat-it) nga kanalet e dhurimit në Paypal
+dhe në bitkoin.
