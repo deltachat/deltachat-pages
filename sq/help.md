@@ -168,15 +168,15 @@ krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më,
 për çfarëdo mesazhesh të rinj.
 
 
-### Ç’duan të thonë dy shenjat në mesazhe grupi? Që gjithkush i ka lexuar tani mesazhet e mi?
+### What do double ticks mean in group messages? Has everyone read my message now?
 
-- Një mesazh shfaqet me dy shenja pasi më shumë se gjysma e marrësve ta kenë
-  parë mesazhin në ekranin e tyre.
-- Kini parasysh që disa marrës, për arsye privatësie mund të kenë
-  çaktivizuar dëftesa leximi.
-- Nëse më shumë se 50% në një grup çaktivizojnë dëftesa leximi, dy shenjat
-  s’do të shfaqen kurrë. Për të dhëna më të hollësishme, shihni
-  [këtë postim blogu](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- A message shows double ticks after more than half the the recipients have
+  seen the message on their display.
+- Note that some recipients might have disabled read-receipts for
+  privacy-reasons.
+- If more than 50% in a group disabled read receipts, the double ticks will
+  never show up. For more detailed information, see
+  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
 
 
 ## Fshehtëzim {#encryption}
@@ -187,9 +187,8 @@ për çfarëdo mesazhesh të rinj.
   dhe është pra në gjendje të fshehtëzojë mesazhe me e2e-n 
   përmes aplikacionesh të tjera të afta të përdorin Autocrypt-in. 
 
-- Delta Chat mbulon po ashtu një formë të fuqishme fshehtëzimi skaj-më-skaj
-  që është edhe më e sigurt kundër sulmesh aktive, shihni më poshtë
-  “grupe të verifikuar”.
+- Delta Chat also supports a strong form of end-to-end encryption that is 
+  even safe against active attacks, see "verified groups" further below. 
 
 
 ### Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?
@@ -203,8 +202,8 @@ pasues fshehtëzohen automatikisht skaj-më-skaj. Nëse një nga partnerët
 në bisedë, më pas, përdor një aplikacion email që nuk mbulon Autocrypt-in, 
 mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë për Autocrypt-in. 
 
-- Nëse doni që email-et e fshehtëzuar të shmagen, si parazgjedhje, përdorni
-  rregullimin përgjegjës Autocrypt, te “Rregullime / Rregullime të mëtejshme”.
+- If you want to rather avoid end-to-end-encrypted e-mails by default, 
+  use the corresponding Autocrypt setting in "Settings / Advanced settings".
 
 
 ### Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?
@@ -241,14 +240,12 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
 
 ### Cilët standarde përdoren për fshehtëzim skaj-më-skaj?
 
-- [Autocrypt](https://autocrypt.org) përdoret për të vënë në punë fshehtëzim e2e
-  me Delta Chat tjetër dhe aplikacione të tjera poste që janë të aftë
-  të mbulojnë Autocrypt-in. 
-  Autocrypt-i përdor një nëngrup të kufizuar të funksioneve OpenPGP.
+- [Autocrypt](https://autocrypt.org) is used for establishing
+  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
+  Autocrypt uses a limited subset of OpenPGP functionality. 
 
-- Për të bërë të mundur mbrojtjen kundër sulmesh aktive rrjeti, Delta Chat-i
-  sendërton [protokollet countermitm, setup-contact dhe verified-group](https://countermitm.readthedocs.io/en/latest/new.html).  Kjo shkon përtej mbrojtjes bazë oportuniste të
-  Autocrypt Level 1, ndërkohë që ruhet lehtësia e përdorimit.
+- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
+  base protection of Autocrypt Level 1, while maintaining its ease of use.  
 
 ### Cili është dallimi mes grupesh të verifikuar dhe fjalosjesh 1:1 me kontakte të verifikuar?
 
@@ -472,17 +469,17 @@ shumë pajisje mund të mos punojë si duhet.
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
 
-### Si financohet zhvillimi i Delta Chat-it?
+### How are Delta Chat developments funded? 
 
 First of all, Delta Chat does not receive any Venture Capital and
 is not indebted, and under no pressure to produce huge profits, or to 
 sell users and their friends and family to advertisers (or worse). 
 
-Deri këtu, zhvillimi i Delta Chat-it është financuar nga katër burime kryesore: 
+Delta Chat developments have so far been funded from four major sources: 
 
-- Projekti [NEXTLEAP](https://nextleap.eu) i BE-së financoi kërkimin dhe
-  sendërtimin e grupeve të verifikuar dhe protokolle ujdisje kontaktesh
-  më 2017 dhe 2018.
+- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
+  and implementation of verified groups and setup contact protocols
+  in 2017 and 2018. 
 
 - The [Open Technology Fund](https://opentechfund.org) has given two grants.
   The first 2018/2019 grant (~$200K) majorly improved the Android app 
@@ -494,21 +491,21 @@ Deri këtu, zhvillimi i Delta Chat-it është financuar nga katër burime kryeso
   to provide new features for all platforms.  See the 
   ongoing [blog posts](https://delta.chat/en/blog) for more info. 
 
-- [Fondacioni NLnet](https://nlnet.nl/) dha një grant prej 46 mijë eurosh për
-  të plotësuar <em>Rust/Python bindings</em> për t’i dhënë udhë një ekosistemi <em>Chat-bot</em>. 
+- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
+  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
 
 - Last but by far not least, several pro-bono experts and enthusiasts contributed 
   and contribute to Delta Chat developments without receiving money, or only 
   small amounts. Without them, Delta Chat would not be where it is today, not
   even close. 
 
-Financimi monetar i përmendur më sipër u organizua nga merlinux GmbH në
-Frajburg (Gjermany), dhe shpërndarë më pas thuajse një duzine kontribuesish. 
+The monetary funding mentioned above was organized by merlinux GmbH in
+Freiburg (Germany), and then distributed to almost a dozen contributors. 
 
-Fincimi për 2020/2021 s’është përcaktuar ende. Po ndjekim një dorë mundësish
-me ente dhe partnerë të ndryshëm. Po shohim gjithashtu mundësinë të kërkojmë
-dhurime. Në fakt, kemi filluar paksa, eksperimentalisht [llogari dhurimesh
-Delta Chat / Liberapay](https://liberapay.com/delta.chat/), por s’e kemi bërë
-ende publike këtë.  Pati gjithashtu rreth 3-4 mijë euro dhuruar deri sot për
-Bjornin (autorin fillestar të Delta Chat-it) nga kanalet e dhurimit në Paypal
-dhe në bitkoin.
+Funding for 2020/2021 is yet to be determined. We are pursuing several
+opportunities with different organisations and partners. We also are
+considering to ask for donations. In fact, we experimentally started
+a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
+but have not published this yet.  There were also around 3-4K so far
+donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
+donation channels.  
