@@ -84,3 +84,4 @@ if __name__ == "__main__":
         os.chdir('tools')
 
     generate_help("../../deltachat-android/assets/help")
+    generate_help("../../deltachat-ios/deltachat-ios/Assets/help")
