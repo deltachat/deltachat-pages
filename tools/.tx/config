@@ -50,3 +50,9 @@ type = PO
 file_filter = translations/delta-chat-pages.verify-downloadspo/<lang>.po
 source_lang = en
 type = PO
+
+[delta-chat-pages.yml]
+file_filter = translations/delta-chat-pages.yml/<lang>.yml
+source_lang = en
+type = YML
+
