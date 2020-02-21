@@ -30,8 +30,7 @@ pull_po_translations_from_tx() {
 	mkdir translations 
 	tx pull -a --mode=sourceastranslation  # -a = fetch all translationss, -s = fetches source
 	for tlang in ${tlangs[@]}; do
-
-	  echo "pulling ${tlang:0:2}"
+	  echo "Converting ${tlang:0:2} ..."
 	  for sfile in ${sfiles[@]}; do
 			pofile="../${tlang:0:2}/${sfile}.po"
 			cp "translations/delta-chat-pages.${sfile}po/${tlang}.po" $pofile
