@@ -29,20 +29,19 @@ pull_po_translations_from_tx() {
 	rm -r translations || true
 	mkdir translations 
 	tx pull -a --mode=sourceastranslation  # -a = fetch all translationss, -s = fetches source
-	cp translations/delta-chat-pages.yml/* ../_data/lang/
-	for sfile in ${sfiles[@]}; do
-		for tlang in ${tlangs[@]}; do
+	for tlang in ${tlangs[@]}; do
+
+	  echo "pulling ${tlang:0:2}"
+	  for sfile in ${sfiles[@]}; do
 			pofile="../${tlang:0:2}/${sfile}.po"
 			cp "translations/delta-chat-pages.${sfile}po/${tlang}.po" $pofile
 		done
+		cp "translations/delta-chat-pages.yml/${tlang}.yml" "../_data/lang/${tlang:0:2}.yml"
 	done
 }
 
 
 push_po_sources_to_tx() {
-	cd translations
- 	ln -s -T ../../_data/lang delta-chat-pages.yml || true
-	cd ..
 	tx push -s
 }
 
@@ -52,6 +51,8 @@ create_po_sources() {
 		mkdir -p "translations/delta-chat-pages.${sfile}po"
 		txt2po --progress=none "../en/${sfile}.md" "translations/delta-chat-pages.${sfile}po/en.po"
 	done
+	# sic: for whatever reason, the file is en.yaml and not .yml as everywhere else
+	cp "../_data/lang/en.yaml" "translations/delta-chat-pages.yml/en.yml"
 }
 
 
