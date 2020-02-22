@@ -30,7 +30,7 @@ def write_file(filename, content):
     f.close()
 
 
-def generate_file(destdir, lang, file):
+def generate_file(destdir, lang, file, add_top_links):
     print("generate local help in " + destdir + "/" + lang + "/" + file)
 
     content = read_file("../_site/" + lang + "/" + file)
@@ -57,21 +57,28 @@ def generate_file(destdir, lang, file):
         local_file = "../" + linked_file.split("/")[-1]
         content = re.sub(linked_file, local_file, content)
 
+    if add_top_links:
+        top_link = "<p class=\"back\"><a href=\"#top\">^</a></p>"
+        content = re.sub(r"<h([234].*?)>",
+                          top_link + "<h\\1>",
+                         content,
+                         flags=re.MULTILINE|re.DOTALL) + top_link
+
     write_file(destdir + "/" + lang + "/" + file, content)
 
 
-def generate_lang(destdir, lang):
+def generate_lang(destdir, lang, add_top_links):
     os.makedirs(destdir + "/" + lang, exist_ok=True)
-    generate_file(destdir, lang, "help.html")
+    generate_file(destdir, lang, "help.html", add_top_links)
 
 
-def generate_help(destdir):
-    generate_lang(destdir, "de")
-    generate_lang(destdir, "en")
-    generate_lang(destdir, "es")
-    generate_lang(destdir, "it")
-    generate_lang(destdir, "nl")
-    generate_lang(destdir, "sq")
+def generate_help(destdir, add_top_links=False):
+    generate_lang(destdir, "de", add_top_links)
+    generate_lang(destdir, "en", add_top_links)
+    generate_lang(destdir, "es", add_top_links)
+    generate_lang(destdir, "it", add_top_links)
+    generate_lang(destdir, "nl", add_top_links)
+    generate_lang(destdir, "sq", add_top_links)
     for linked_file in linked_files:
         local_file = destdir + "/" + linked_file.split("/")[-1]
         copyfile(linked_file, local_file)
@@ -84,4 +91,4 @@ if __name__ == "__main__":
         os.chdir('tools')
 
     generate_help("../../deltachat-android/assets/help")
-    generate_help("../../deltachat-ios/deltachat-ios/Assets/help")
+    generate_help("../../deltachat-ios/deltachat-ios/Assets/help", add_top_links=True)
