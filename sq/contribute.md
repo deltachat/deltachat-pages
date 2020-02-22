@@ -33,9 +33,10 @@ Swift, Javascript ose Python për Android, iOS, Windows, Linux ose Mac.
 
 Nëse dëshironi të përkrahsni DeltaChat-in me para:
 
-- IBAN DE86100777770428658900, Zotërues llogarie (ju lutemi, specifikojeni kurdoherë): Björn Petersen, BIC NORSDE51XXX
+- IBAN DE86100777770428658900, I zoti i llogarisë (ju lutemi, specifikojeni përherë): Björn Petersen, BIC NORSDE51XXX
 - PayPal ose kartë krediti: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Dërgoni bitkoin te [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- Dhuroni rregullisht përmes [Liberapay](https://liberapay.com/delta.chat/)
+- Dërgoni bitkoins te [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Na duhen **pajisje** për qëllime testimi. Keni ndonjë Android Smartphone ose iPhone që s’e përdorni më?
 [Do](imprint) të donim ta kishim!
