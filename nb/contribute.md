@@ -35,6 +35,7 @@ If you want to support DeltaChat with money:
 
 - IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
 - PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
 - Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Vi trenger **enheter** i testøyemed. Har du en iPhone eller Android-telefon du ikke bruker?

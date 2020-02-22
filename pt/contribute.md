@@ -32,9 +32,10 @@ C, Rust, Java, Swift, Javascript ou Python no Android, iOS, Windows, Linux ou Ma
 
 Se você quiser ajudar com dinheiro:
 
-- IBAN DE86100777770428658900, titular da conta (por favor sempre especificar): Björn Petersen, BIC NORSDE51XXX
-- PayPal ou cartão de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Bitcoins [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Precisamos de **aparelhos** para fins de teste. Você tem algum smartphone velho?
 [Gostaríamos](imprint)muito de obtê-lo!

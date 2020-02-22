@@ -240,7 +240,7 @@ Beiden zien daarna een bericht
 
 - Delta Chat gebruikt de [countermitm setup-contact- en verified-group-protocollen](https://countermitm.readthedocs.io/en/latest/new.html) om bescherming
 te bieden tegen actieve netwerkaanvallen. Hierdoor gaat Delta Chat
-verder dan de basisbescherming van Autocrypt (niveau 1).
+verder dan de basisbescherming van Autocrypt niveau 1.
 
 ### Wat is het verschil tussen goedgekeurde groepen en 1-op-1-gesprekken met goedgekeurde contactpersonen?
 
@@ -456,7 +456,7 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door vier grote spele
 
 - Het [NEXTLEAP](https://nextleap.eu)-EU-project heeft het onderzoek
   naar en de implementatie van goedgekeurde groepen en setup-contact-protocollen in 2017 en 2018
-  gefinancierd. 
+  gefinancierd.
 
 - [Open Technology Fund](https://opentechfund.org) heeft twee subsidies toegekend.
   De eerste subsidie, voor 2018/2019, ter waarde van ong. $200,000, heeft enorm geholpen om de Android-app 
@@ -484,4 +484,4 @@ mogelijkheden door met organisaties en partners. Daarnaast overwegen
 we een donatiesysteem op te zetten. Sterker nog: daar zijn we al een beetje mee begonnen
 ([Delta Chat / Liberapay-donatieaccount](https://liberapay.com/delta.chat/)),
 maar we hebben dit nog niet openbaargemaakt.  Tevens is er tot dusver €3000-€4000
-gedoneerd aan Bjoern's (de oorspronkelijke ontwikkelaar van Delta Chat) PayPal en Bitcoin.  
+gedoneerd aan Bjoern's (de oorspronkelijke ontwikkelaar van Delta Chat) PayPal en Bitcoin.
