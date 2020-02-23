@@ -40,6 +40,7 @@ def generate_file(destdir, lang, file, add_top_links):
                      + "<html>"
                      +   "<head>"
                      +     "<meta charset=\"UTF-8\" />"
+                     +     "<meta name=\"viewport\" content=\"initial-scale=1.0\" />"
                      +     "<link rel=\"stylesheet\" href=\"../help.css\" />"
                      +   "</head>"
                      +   "<body>"
