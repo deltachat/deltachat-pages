@@ -41,6 +41,11 @@ pull_po_translations_from_tx() {
 
 
 push_po_sources_to_tx() {
+	branch=$(git rev-parse --abbrev-ref HEAD)
+	if [ -z $branch ] || [ $branch != "master" ]; then
+		echo "ERROR: push is only allowed on master, there is a high risk to delete existing translations otherwise"
+		exit 1
+	fi
 	tx push -s
 }
 
