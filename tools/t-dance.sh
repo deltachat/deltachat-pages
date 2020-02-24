@@ -108,7 +108,7 @@ if [ $1 == "pull" ]; then
 	pull_po_translations_from_tx
 	create_markdown_files
 	create_html_files
-elif [ $1 == "push" ]; then
+elif [ $1 == "push--do-this-only-from-master" ]; then
 	create_po_sources
 	push_po_sources_to_tx
 # debug usage
@@ -122,7 +122,7 @@ elif [ $1 == "reset-md" ]; then
 	create_html_files
 else
 	echo "pull translations: ./t-dance pull"
-	echo "push sources:      ./t-dance push"
+	echo "push sources:      ./t-dance push--do-this-only-from-master"
 	echo "debug usage:       ./t-dance {create-po-sources|create-md|reset-md}"
 	echo "to push a single language, copy the files to translations/delta-chat-pages.<file>po/<lang>.po and call: tx push -t -l <lang>"
 fi
