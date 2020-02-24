@@ -28,5 +28,5 @@ jobs:
         git checkout master
         git pull origin master
         git status
-        tools/t-dance.sh push
+        tools/t-dance.sh push--do-this-only-from-master
 
