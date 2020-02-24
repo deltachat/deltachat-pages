@@ -25,5 +25,8 @@ jobs:
         #tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
     - name: tx push
       run: |
+        git checkout master
+        git pull origin master
+        git status
         tools/t-dance.sh push
 
