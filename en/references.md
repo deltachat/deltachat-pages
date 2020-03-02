@@ -5,10 +5,9 @@ lang: en
 
 # References
 
-This list is far from being complete -
-do we have missed something?
-Please [let us know](imprint)
-or just do a [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+This list is far from being complete - did we miss something? Please
+[let us know](imprint) or just do a [pull
+request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
 ## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
