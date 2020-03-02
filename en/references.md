@@ -12,32 +12,42 @@ request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.
 
 ## Techlog360 (Large Indian technology blog): 15 Best Open-Source Encrypted Messaging Android Apps for Privacy Concerned People (2020 List)
 
-02/2020, <https://techlog360.com/open-source-messenger-voip-android-apps/#11_Delta_Chat>
+_"Delta Chat requires no additional server-side infrastructure — chat with anyone if you know their e-mail address, no need for them to install DeltaChat."_
+
+2020-02-07, <https://techlog360.com/open-source-messenger-voip-android-apps/#11_Delta_Chat>
 
 
 ## Vorinstanz (Swiss Blog): Delta Chat: via Mail Chatten
 
-01/2020, <https://retoeugster.ch/blog/deltachat/>
+_"Mit Delta-Chat gewinnt man die Vorteile der Mail-Nutzung (z. B. sehr verbreitet) und handelt sich im Gegenzug die Nachteile der Mail-Technologie ein (z. B. bei Gruppenchats)."_
+
+2020-01-31, <https://retoeugster.ch/blog/deltachat/>
 
 
 ## GeekOTG.com: Delta Chat精简便携版
 
-01/2020, <http://www.geekotg.com/pc/11509.html>
+2020-01-14, <http://www.geekotg.com/pc/11509.html>
 
 
 ## The China Post: Delta Chat - A messenger app that uses email
 
-12/2019, <https://chinapost.nownews.com/20191231-1039786>
+_"One issue with messenger apps is compatibility – if the person you want to message doesn’t have the same app as you, you can’t message them. A new app seeks to solve that problem."_
+
+2019-12-13, <https://chinapost.nownews.com/20191231-1039786>
 
 
 ## c't (Large German technology magazine): Volks-Messenger
+
+_"Mit normalen Instant Messengern erreicht man nur Partner, die denselben Dienst verwenden wie man selbst. Delta Chat hebelt diese Beschränkung aus."_
 
 08/2019, <https://www.heise.de/select/ct/2019/17/1565710107069016>
 
 
 ## Kyle Piira (American Blog): Delta Chat
 
-05/2019, <https://www.kylepiira.com/2019/05/28/delta-chat/>
+_"Basically, it is an email client that uses a UI similar to most chat apps. I think this is better than something like a Jabber client because nobody actually has Jabber accounts anymore, but email is still ubiquitous."_
+
+2019-05-28, <https://www.kylepiira.com/2019/05/28/delta-chat/>
 
 
 ## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
