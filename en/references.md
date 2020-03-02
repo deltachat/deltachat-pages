@@ -5,8 +5,6 @@ lang: en
 
 # References
 
-Although Delta Chat is still in beta state, there are already some interesting articles.
-
 This list is far from being complete -
 do we have missed something?
 Please [let us know](imprint)
