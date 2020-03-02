@@ -10,6 +10,36 @@ This list is far from being complete - did we miss something? Please
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+## Techlog360 (Large Indian technology blog): 15 Best Open-Source Encrypted Messaging Android Apps for Privacy Concerned People (2020 List)
+
+02/2020, <https://techlog360.com/open-source-messenger-voip-android-apps/#11_Delta_Chat>
+
+
+## Vorinstanz (Swiss Blog): Delta Chat: via Mail Chatten
+
+01/2020, <https://retoeugster.ch/blog/deltachat/>
+
+
+## GeekOTG.com: Delta Chat精简便携版
+
+01/2020, <http://www.geekotg.com/pc/11509.html>
+
+
+## The China Post: Delta Chat - A messenger app that uses email
+
+12/2019, <https://chinapost.nownews.com/20191231-1039786>
+
+
+## c't (Large German technology magazine): Volks-Messenger
+
+08/2019, <https://www.heise.de/select/ct/2019/17/1565710107069016>
+
+
+## Kyle Piira (American Blog): Delta Chat
+
+05/2019, <https://www.kylepiira.com/2019/05/28/delta-chat/>
+
+
 ## The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
 
 03/2019, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-deltachat/>
