@@ -54,7 +54,7 @@ _"One issue with messenger apps is compatibility – if the person you want to m
 
 _"La idea detrás de esto: todos tienen una dirección de correo, así que todos pueden usar el Delta Chat. Incluso aquellos que no utilizan el servicio de mensajes pueden ser contactados por correo."_
 
-2019-09-01, https://www.prensalibre.com/vida/tecnologia/delta-chat-el-mensajero-que-utiliza-el-correo-electronico/
+2019-09-01, <https://www.prensalibre.com/vida/tecnologia/delta-chat-el-mensajero-que-utiliza-el-correo-electronico/>
 
 
 ### c't (Large German technology magazine): Volks-Messenger
