@@ -59,7 +59,7 @@ jobs:
       if: steps.details.outputs.comment
       uses: rytswd/respost@v0.1.0
       with:
-        body: "Check out the page preview at https://staging.delta.chat/${{ steps.prepare.outputs.prid }}/"
+        body: "Check out the page preview at https://staging.delta.chat/${{ steps.prepare.outputs.prid }}/en/"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
