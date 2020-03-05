@@ -42,6 +42,7 @@ jobs:
         local: "_site/*"
         remote: "/var/www/html/staging/${{ steps.prepare.outputs.prid }}/"
     - name: "Post links to details"
+      id: details
       if: steps.prepare.outputs.uploadtoserver
       run: |
         # URLs for API connection and uploads
@@ -52,5 +53,13 @@ jobs:
                              \"description\": \"Preview the page here:\", \
                              \"context\": \"Page Preview\", \
                              \"target_url\": \"${PREVIEW_LINK}\"}"
-        curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA"
+        export RESPONSE=$(curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA" | jq -r .message)
+        if [ "$RESPONSE" == "Not Found" ]; then echo ::set-output name=comment::true ;fi
+    - name: "Post link to comments"
+      if: steps.details.outputs.comment
+      uses: rytswd/respost@v0.1.0
+      with:
+        body: "Check the preview at https://staging.delta.chat/${{ steps.prepare.outputs.prid }}/"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
