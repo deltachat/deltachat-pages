@@ -10,7 +10,7 @@ traffic. The result: using Delta Chat consumes far less data now.**
 Less is more - an important saying in a time where the unlimited growth of our
 economy damages the climate. **The IT industry does a lot to make this worse.**
 (Decentralized services, like email, are not necessarily better in this regard:
-one of the most energy consuming techonologies is Bitcoin.)
+one of the most energy consuming technologies is Bitcoin.)
 
 In this effort, we wanted to especially save network traffic. Everyone who ever
 tried to use the Internet on a German train will understand why. But the main
@@ -60,4 +60,3 @@ Delta Chat generates:
 - And finally there are some wild ideas about leaving out the Autocrypt header,
   when encryption *probably* works. If it stops working, it could still be
   recovered by a simple message exchange.
-
