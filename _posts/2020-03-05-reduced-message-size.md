@@ -8,14 +8,13 @@ image: ../assets/blog/delta-chat-ICE-train-traffic.jpg
 traffic. The result: using Delta Chat consumes far less data now.**
 
 Less is more - an important saying in a time where the unlimited growth of our
-economy damages the climate. **The IT industry does a lot to make this worse.**
-(Decentralized services, like email, are not necessarily better in this regard:
-one of the most energy consuming technologies is Bitcoin.)
+economy damages the climate. **The IT industry does a lot to make this worse,**
+e.g. one of the most energy consuming techonologies is Bitcoin.
 
 In this effort, we wanted to especially save network traffic. Everyone who ever
-tried to use the Internet on a German train will understand why. But the main
-reason was that many people live in areas where data traffic is **expensive,
-limited, or slow.** They all profit from a smaller message size.
+tried to use the Internet on a German train will understand why ;) Jokes aside,
+the main reason was that many people have data plans where data traffic is
+**expensive, limited, or slow.** They all profit from a smaller message size.
 
 ![An ICE train waiting in a train station.](../assets/blog/delta-chat-ICE-train-traffic.jpg)
 
@@ -57,6 +56,6 @@ Delta Chat generates:
   last 48 hours.
 - Maybe we can avoid sending the to/cc headers to groups where everyone uses
   Delta Chat. This is a security feature, but also saves traffic.
-- And finally there are some wild ideas about leaving out the Autocrypt header,
+- And finally there are some ideas about leaving out the Autocrypt header,
   when encryption *probably* works. If it stops working, it could still be
   recovered by a simple message exchange.
