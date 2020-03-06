@@ -1,64 +1,43 @@
 ---
-title: Privacy policy website
+title: Datenschutzerklärung Internetseite
 lang: de
 ---
 
 
-# Privacy Policy
+# Datenschutzerklärung
 
-**Status: January 21, 2020**
+**Status: 21. Januar 2020**
 
-At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
-website is in compliance with the European General Data Protection Regulation
-(2016/679). Therefore, we minimise the processing of your data to the minimum
-necessary (Privacy by Design).
+Bei Delta Chat stellen wir sicher, dass nicht nur unser Messenger, sondern auch die Delta Chat
+Internetseite der europäischen Datenschutzgrundverordnung
+(2016/679) entspricht. Daher beschränken wir die Verarbeitung Ihrer Daten auf ein notwendiges Minimum (Datenschutz durch Design).
 
-## General information
+## Allgemeine Information
 
-The Delta.chat website does not use own or third party cookies, website
-analytics services, third party advertising and marketing services or the use
-of social media plug-ins. Data processing is limited to voluntary e-mail
-contact.
+Die Delta Chat Internetseite verwendet keine eigenen oder Cookies von Drittanbietern,
+Website-Analysedienste, Werbe- und Marketingdienste Dritter oder Social Media Plugins. Die Datenverarbeitung beschränkt sich auf freiwilligen E-Mail-Kontakt.
 
-## Responsible person
+## Verantwortliche Person
 
-The person responsible for the data processing of this site in terms of the
-DSGVO and other national data protection laws of the member states as well as
-other data protection regulations is
+Die für die Datenverarbeitung dieser Internetseite im Sinne des DSGVO und anderer nationaler Datenschutzgesetze der Mitgliedstaaten sowie anderer Datenschutzbestimmungen verantwortliche Person ist
 
 	Merlinux GmbH
 	Reichgrafen Str. 20 
 	79102 Freiburg
 
-Your contact address for privacy issues at Delta.Chat:
+Ihre Kontaktadresse bei Delta Chat für Datenschutzfragen lautet:
 
 	delta-privacy@merlinux.eu
 
-## Delta mailing lists
+## Delta Mailinglisten
 
-When voluntarily subscribing to the Delta mailing lists, your email address
-from the input mask, the IP address of the calling computer, date and time of
-registration are transmitted. The processing of this data is solely for the
-purpose of processing the contacts and the delivery of the public community
-communication. As usual with open source projects, the shared messages can also
-be found in public archives. The legal basis for processing with consent is
-Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
-subscription to the e-mail list is active. By unsubscribing from any mailing
-list, a revocation of consent is possible.
+Wenn Sie die Delta-Mailinglisten freiwillig abonnieren, werden Ihre E-Mail-Adresse aus der Eingabemaske, die IP-Adresse des aufrufenden Computers, Datum und Uhrzeit der Registrierung übertragen. Die Verarbeitung dieser Daten dient ausschließlich der Kontaktverarbeitung und der Bereitstellung der öffentlichen Kommunikation. Wie bei Open Source-Projekten üblich, können die geteilten Nachrichten auch in öffentlichen Archiven gefunden werden. Rechtsgrundlage für die Verarbeitung mit Zustimmung ist Art. 6 I lit. a DSGVO. Die E-Mail-Adresse des Benutzers wird nur so lange gespeichert, wie das Abonnement für die E-Mail-Liste aktiv ist. Durch das Abbestellen einer Mailingliste ist ein Widerruf der Einwilligung möglich.
 
-## Rights of affected persons
+## Rechte betroffener Personen
 
-You can request information from Delta.Chat about whether and how your data is
-processed by us. You have the right to object to the processing, which takes
-place on the basis of art. 6 I lit.e or lit.f GDPR. If the processing is
-incorrect or incomplete, you have the right to rectification/completion,
-cancellation and, if necessary, restriction of the processing. You can revoke
-the declaration of consent of the mailing list at any time. You have the right
-to receive the data in a structured common and machine-readable format and the
-right to complain to a supervisory authority.
+Sie können bei Delta Chat Informationen darüber anfordern, ob und wie Ihre Daten von uns verarbeitet werden. Sie haben das Recht, auf der Grundlage Art. 6 I lit.e oder lit.f DSGVO der Verarbeitung zu widersprechen. Falls die Verarbeitung falsch oder unvollständig ist, haben Sie das Recht auf Berichtigung / Vervollständigung, Löschung und gegebenenfalls Einschränkung der Verarbeitung. Sie können jederzeit die Einverständniserklärung der Mailingliste widerrufen. Sie haben das Recht, die Daten in einem strukturierten gemeinsamen und maschinenlesbaren Format zu erhalten und sich bei einer Aufsichtsbehörde zu beschweren.
 
-## Amendment of the privacy policy
+## Änderung der Datenschutzerklärung
 
-We reserve the right to update the present data protection regulations in view
-of the constantly changing legal and technical situation.
+Wir behalten uns das Recht vor, die vorliegenden Datenschutzerklärung angesichts der sich ständig ändernden rechtlichen und technischen Situation anzupassen.
 
