@@ -60,20 +60,7 @@ switch to generating ed25519 keys by default.
 
 ## What Else is Possible? A Glance Into The Future
 
-While the above already provides for substantial reductions there are a few more ideas which developers are considering under the [save-traffic label in the core issue tracker](https://github.com/deltachat/deltachat-core-rust/issues?q=is%3Aissue+is%3Aopen+label%3Asave-traffic). 
+The above already reduces Delta Chat's traffic a lot. The developers are
+considering a few more ideas. If you are interested in the details, take a look
+at the [save-traffic label in the core issue tracker](https://github.com/deltachat/deltachat-core-rust/issues?q=is%3Aissue+is%3Aopen+label%3Asave-traffic). 
 
-- Disabling encryption for some chats: making it possible not to send Autocrypt
-  headers at all. This is highly controversial though.
-- Attachment download could be postponed until you have Wi-Fi, or download it
-  manually.
-- Sending the key fingerprint in a special header, so we don't always have to
-  download the whole Autocrypt header.
-- Sending small messages through a header, thereby saving IMAP commands in the
-  background.
-- Not sending a key per gossip if the key was gossipped by someone else in the
-  last 48 hours.
-- Maybe we can avoid sending the to/cc headers to groups where everyone uses
-  Delta Chat. This is a security feature, but also saves traffic.
-- And finally there are some ideas about leaving out the Autocrypt header,
-  when encryption *provably* works. If it stops working, it could still be
-  recovered by a simple message exchange.
