@@ -7,28 +7,20 @@ image: ../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charge
 **In the last months, the Delta Chat developers put a lot of focus on saving
 traffic. The result: using Delta Chat consumes far less data now.**
 
-Everyone knows the situation of a web page taking ages to load, and messages
-taking minutes to arrive. For many people, it's even a question of money;
-Internet traffic can be quite expensive. But does it have to be this way?
+It's easy to forget that many people still pay data plans by the GB - their
+data traffic is **expensive, limited, and slow.** For many people, it's even a
+question of money; Internet traffic can be quite expensive. In such moments,
+this can be the critical difference: is an app usable at all, or does it use
+too much traffic?
 
 In the effort to save network traffic, the developers improved Delta Chat a lot
-in the last months. This helps everyone with an expensive data plan. It's
-also useful if your Internet connection is throttled because you ran out of
-data, but the month isn't over yet. In regions with bad Internet connection
-it's always good not to burden it too much.
+in the last months. This helps everyone with an expensive data plan. It's also
+useful if your Internet connection is throttled because you ran out of data,
+but the month isn't over yet. 
 
 ![A "free Wi-Fi inside" sign at a restaurant.](../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charger.jpg)
 
 *Somehow free Wi-Fi became one of the main offerings of Cafés and Restaurants.*
-
-It's easy to forget that many people still pay data plans by the GB - their
-data traffic is **expensive, limited, and slow.** They all benefit from a
-smaller message size. 
-
-But everyone knows situations with low bandwidth, like on a plane Wi-Fi, on a
-train, or in places where many people are online. In such moments, this can be
-the critical difference: is an app usable at all, or does it use too much
-traffic?
 
 ## Which Improvements are Saving the Most Traffic?
 
