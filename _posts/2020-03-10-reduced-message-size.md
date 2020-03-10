@@ -34,16 +34,16 @@ traffic?
 
 A few things which were changed to reduce our data traffic consumption:
 
-- Delta now avoids downloading messages that Delta Chat doesn't display, e.g.
-  messages from blocked contacts. This means:
+- Delta now avoids downloading messages that it doesn't display, e.g. messages
+  from blocked contacts. This means:
   - No unnecessary traffic
   - No slowdown when getting online with a busy inbox
 - What is more important than blocked contacts is ordinary emails with huge
-  attachements. If you use Delta with a normal email address and send PDFs
+  attachments. If you use Delta with a normal email address and send PDFs
   around, Delta used to download them and throw away.
 - We optimized the traffic on idle, when the app isn't used. In 10 minutes, it
   used to consume 6 kB - [this was reduced down to 107 bytes.](https://github.com/deltachat/deltachat-core-rust/issues/506)
-- It's now possible to postpone attachment download, until you have Wi-Fi.
+- It's now possible to postpone attachment download until you have Wi-Fi.
 - We combined read-receipts into one message, when they are sent in the same
   moment. Before, there was an email for each read receipt.
 
