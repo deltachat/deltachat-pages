@@ -22,9 +22,13 @@ it's always good not to burden it too much.
 *Somehow free wi-fi became one of the main offerings of Cafés and Restaurants.*
 
 It's easy to forget that many people still pay data plans by the GB - their
-data traffic is **expensive, limited, and slow.** They all profit from a
-smaller message size. In situations with low bandwidth, this can be the
-critical difference: is an app usable at all, or does it use too much traffic?
+data traffic is **expensive, limited, and slow.** They all benefit from a
+smaller message size. 
+
+But everyone knows situations with low bandwidth, like on a plane wifi, on a
+train, or in places where many people are online. In such moments, this can be
+the critical difference: is an app usable at all, or does it use too much
+traffic?
 
 ## Which Improvements are Saving the Most Traffic?
 
