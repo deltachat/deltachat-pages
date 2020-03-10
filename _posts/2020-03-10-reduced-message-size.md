@@ -53,6 +53,11 @@ Maybe you noticed that we didn't update F-Droid versions for about six months;
 with all the old Delta versions around, we couldn't introduce changes like
 this without risking compability.
 
+Note that the current releases still generate RSA2048 keys by default, because
+the Delta Chat testing discovered an incompatibility which was fixed in the
+current releases. After the next Desktop release we should finally be able to
+switch to generating ed25519 keys by default.
+
 ## What Else is Possible? A Glance Into The Future
 
 This is already a start, and saves many people a lot of money, who have to live
