@@ -1,48 +1,30 @@
 ---
 title: Saving Network Traffic - Delta's Efforts to Reduce the Message Size
 author: compl4xx
-image: ../assets/blog/delta-chat-ICE-train-traffic.jpg
+image: ../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charger.jpg
 ---
 
 **In the last months, the Delta Chat developers put a lot of focus on saving
 traffic. The result: using Delta Chat consumes far less data now.**
 
-Internet traffic is annoying.
-Everyone knows the situation of a web page taking ages to load, and messages taking minutes to arrive.
-For many people, it's even a question of money; Internet traffic can be quite expensive.
-But does it have to be this way?
+Everyone knows the situation of a web page taking ages to load, and messages
+taking minutes to arrive. For many people, it's even a question of money;
+Internet traffic can be quite expensive. But does it have to be this way?
 
-In the effort to save network traffic, the developers improved Delta Chat a lot in the last months.
-This helps everyone with an expensive data plan.
-It's also useful if your Internet connection is throttled because you ran out of data, but the month isn't over yet.
-In regions with bad Internet connection it's always good not to burden it too much.
+In the effort to save network traffic, the developers improved Delta Chat a lot
+in the last months. This helps everyone with an expensive data plan. It's
+also useful if your Internet connection is throttled because you ran out of
+data, but the month isn't over yet. In regions with bad Internet connection
+it's always good not to burden it too much.
 
-It can make the difference whether an app is usable at all, if it uses too much traffic.
-In areas or situations with low bandwidth, 
+![A "free wifi inside" sign at a restaurant.](../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charger.jpg)
 
-situations where it's useful
-- with an expensive data plan
-- if you ran out of data and the month is not over yet
-- in regions with bad internet connection
-- with plane wifi
+*Somehow free wi-fi became one of the main offerings of Cafés and Restaurants.*
 
-
-
-
-Less is more - an important saying in a time where the unlimited growth of our
-economy damages the climate. 
-**The IT industry does a lot to make this worse,**
-e.g. one of the most energy consuming techonologies is Bitcoin.
-
-In this effort, we wanted to especially save network traffic. 
-Everyone who ever tried to use the Internet on a German train will understand why ;) 
-Jokes aside,
-the main reason was that many people have data plans where data traffic is **expensive, limited, or slow.** 
-They all profit from a smaller message size.
-
-![An ICE train waiting in a train station.](../assets/blog/delta-chat-ICE-train-traffic.jpg)
-
-*An ICE might avoid traffic jams on the streets; but you will get data jams in the ether instead.*
+It's easy to forget that many people still pay data plans by the GB - their
+data traffic is **expensive, limited, and slow.** They all profit from a
+smaller message size. In situations with low bandwidth, this can be the
+critical difference: is an app usable at all, or does it use too much traffic?
 
 ## Which Improvements are Saving the Most Traffic?
 
