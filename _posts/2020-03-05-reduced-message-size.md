@@ -48,15 +48,14 @@ A few things which were changed to reduce our data traffic consumption:
 - We combined read-receipts into one message, when they are sent in the same
   moment. Before, there was an email for each read receipt.
 
-## What Else is Possible?
+## What Else is Possible? A Glance Into The Future
 
 This is already a start, and saves many people a lot of money, who have to live
 with 50 MB per month. But there are even more ideas to reduce the traffic
-Delta Chat generates:
+Delta Chat generates, which might be implemented soon™:
 
-- Disabling encryption: making it possible not to send Autocrypt headers at
-  all. This is highly controversial; it might not be necessary with the new
-  ed25519 keys.
+- Disabling encryption for some chats: making it possible not to send Autocrypt
+  headers at all. This is highly controversial though.
 - Sending the key fingerprint in a special header, so we don't always have to
   download the whole Autocrypt header.
 - Sending small messages through a header, thereby saving IMAP commands in the
