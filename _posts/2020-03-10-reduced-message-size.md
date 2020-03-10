@@ -43,8 +43,6 @@ A few things which were changed to reduce our data traffic consumption:
   around, Delta used to download them and throw away.
 - We optimized the traffic on idle, when the app isn't used. In 10 minutes, it
   used to consume 6 kB - [this was reduced down to 107 bytes.](https://github.com/deltachat/deltachat-core-rust/issues/506)
-- Attachment download is now postponed until you have Wi-Fi, or download it
-  manually.
 - We combined read-receipts into one message, when they are sent in the same
   moment. Before, there was an email for each read receipt.
 
@@ -73,6 +71,8 @@ Delta Chat generates, which might be implemented soon™:
 
 - Disabling encryption for some chats: making it possible not to send Autocrypt
   headers at all. This is highly controversial though.
+- Attachment download could be postponed until you have Wi-Fi, or download it
+  manually.
 - Sending the key fingerprint in a special header, so we don't always have to
   download the whole Autocrypt header.
 - Sending small messages through a header, thereby saving IMAP commands in the
