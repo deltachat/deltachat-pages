@@ -60,9 +60,7 @@ switch to generating ed25519 keys by default.
 
 ## What Else is Possible? A Glance Into The Future
 
-This is already a start, and saves many people a lot of money, who have to live
-with 50 MB per month. But there are even more ideas to reduce the traffic
-Delta Chat generates, which might be implemented soon™:
+While the above already provides for substantial reductions there are a few more ideas which developers are considering under the [save-traffic label in the core issue tracker](https://github.com/deltachat/deltachat-core-rust/issues?q=is%3Aissue+is%3Aopen+label%3Asave-traffic). 
 
 - Disabling encryption for some chats: making it possible not to send Autocrypt
   headers at all. This is highly controversial though.
