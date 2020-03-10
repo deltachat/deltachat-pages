@@ -17,15 +17,15 @@ also useful if your Internet connection is throttled because you ran out of
 data, but the month isn't over yet. In regions with bad Internet connection
 it's always good not to burden it too much.
 
-![A "free wifi inside" sign at a restaurant.](../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charger.jpg)
+![A "free Wi-Fi inside" sign at a restaurant.](../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charger.jpg)
 
-*Somehow free WiFi became one of the main offerings of Cafés and Restaurants.*
+*Somehow free Wi-Fi became one of the main offerings of Cafés and Restaurants.*
 
 It's easy to forget that many people still pay data plans by the GB - their
 data traffic is **expensive, limited, and slow.** They all benefit from a
 smaller message size. 
 
-But everyone knows situations with low bandwidth, like on a plane wifi, on a
+But everyone knows situations with low bandwidth, like on a plane Wi-Fi, on a
 train, or in places where many people are online. In such moments, this can be
 the critical difference: is an app usable at all, or does it use too much
 traffic?
@@ -43,7 +43,7 @@ A few things which were changed to reduce our data traffic consumption:
   around, Delta used to download them and throw away.
 - We optimized the traffic on idle, when the app isn't used. In 10 minutes, it
   used to consume 6 kB - [this was reduced down to 107 bytes.](https://github.com/deltachat/deltachat-core-rust/issues/506)
-- It's now possible to postpone attachment download, until you have WiFi.
+- It's now possible to postpone attachment download, until you have Wi-Fi.
 - We combined read-receipts into one message, when they are sent in the same
   moment. Before, there was an email for each read receipt.
 
