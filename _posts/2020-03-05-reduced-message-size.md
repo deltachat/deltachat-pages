@@ -19,7 +19,7 @@ it's always good not to burden it too much.
 
 ![A "free wifi inside" sign at a restaurant.](../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charger.jpg)
 
-*Somehow free wi-fi became one of the main offerings of Cafés and Restaurants.*
+*Somehow free WiFi became one of the main offerings of Cafés and Restaurants.*
 
 It's easy to forget that many people still pay data plans by the GB - their
 data traffic is **expensive, limited, and slow.** They all benefit from a
@@ -34,23 +34,35 @@ traffic?
 
 A few things which were changed to reduce our data traffic consumption:
 
-- We changed newly generated PGP Keys to the new ed25519 algorithm - those keys
-  are a lot smaller. This is very important, as the keys are sent in every
-  message at the moment.
-- We now avoid downloading messages that Delta Chat doesn't display, e.g.
+- Delta now avoids downloading messages that Delta Chat doesn't display, e.g.
   messages from blocked contacts. This means:
   - No unnecessary traffic
   - No slowdown when getting online with a busy inbox
 - What is more important than blocked contacts is ordinary emails with huge
-  attachements. If you use DC with a normal email address and send PDFs around,
-  DC used to download them and throw away.
+  attachements. If you use Delta with a normal email address and send PDFs
+  around, Delta used to download them and throw away.
 - We optimized the traffic on idle, when the app isn't used. In 10 minutes, it
   used to consume 6 kB - [this was reduced down to 107 bytes.](https://github.com/deltachat/deltachat-core-rust/issues/506)
-- Key Gossip (keys of other group members) is not sent with every message
-  anymore. Sending one key is already a lot; in groups with 20 members, this is
-  much more.
+- It's now possible to postpone attachment download, until you have WiFi.
 - We combined read-receipts into one message, when they are sent in the same
   moment. Before, there was an email for each read receipt.
+
+### Changing the PGP keys to ed25519 Elliptic Curve Keys
+
+We changed newly generated PGP Keys to the new ed25519 algorithm - those keys
+are a lot smaller. This is very important, as the keys are sent in every
+message at the moment.
+
+![two editor windows; on the left you see an RSA key, on the right an ed25519
+key.](../assets/blog/screenshots/2020-03-10-delta-chat-ed25519-key-size-comparison.png)
+
+*On the left, my old RSA key; it doesn't even fit on the screen. On the right,
+a new ed25519 key.*
+
+We wanted to go for this way earlier, but we had to avoid compability issues.
+Maybe you noticed that we didn't update F-Droid versions for about six months;
+with all the old Delta versions around, we couldn't introduce changes like
+this without risking compability.
 
 ## What Else is Possible? A Glance Into The Future
 
@@ -69,5 +81,5 @@ Delta Chat generates, which might be implemented soon™:
 - Maybe we can avoid sending the to/cc headers to groups where everyone uses
   Delta Chat. This is a security feature, but also saves traffic.
 - And finally there are some ideas about leaving out the Autocrypt header,
-  when encryption *probably* works. If it stops working, it could still be
+  when encryption *provably* works. If it stops working, it could still be
   recovered by a simple message exchange.
