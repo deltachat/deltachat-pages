@@ -43,7 +43,8 @@ A few things which were changed to reduce our data traffic consumption:
   around, Delta used to download them and throw away.
 - We optimized the traffic on idle, when the app isn't used. In 10 minutes, it
   used to consume 6 kB - [this was reduced down to 107 bytes.](https://github.com/deltachat/deltachat-core-rust/issues/506)
-- It's now possible to postpone attachment download until you have Wi-Fi.
+- Attachment download is now postponed until you have Wi-Fi, or download it
+  manually.
 - We combined read-receipts into one message, when they are sent in the same
   moment. Before, there was an email for each read receipt.
 
