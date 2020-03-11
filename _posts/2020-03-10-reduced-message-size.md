@@ -5,7 +5,7 @@ image: ../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charge
 ---
 
 **In the last months, the Delta Chat developers put a lot of focus on saving
-traffic. The result: using Delta Chat consumes far less data now.**
+traffic. The result: current Delta Chat mobile releases consume far less data now.**
 
 It's easy to forget that many people still pay data plans by the GB - their
 data traffic is **expensive, limited, and slow.** For many people, it's even a
@@ -63,4 +63,3 @@ switch to generating ed25519 keys by default.
 The above already reduces Delta Chat's traffic a lot. The developers are
 considering a few more ideas. If you are interested in the details, take a look
 at the [save-traffic label in the core issue tracker](https://github.com/deltachat/deltachat-core-rust/issues?q=is%3Aissue+is%3Aopen+label%3Asave-traffic). 
-
