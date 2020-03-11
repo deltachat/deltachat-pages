@@ -13,14 +13,10 @@ question of money; Internet traffic can be quite expensive. In such moments,
 this can be the critical difference: is an app usable at all, or does it use
 too much traffic?
 
-In the effort to save network traffic, the developers improved Delta Chat a lot
-in the last months. This helps everyone with an expensive data plan. It's also
-useful if your Internet connection is throttled because you ran out of data,
-but the month isn't over yet. 
-
 ![A "free Wi-Fi inside" sign at a restaurant.](../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charger.jpg)
 
-*Somehow free Wi-Fi became one of the main offerings of Cafés and Restaurants.*
+*Because so many people want to save on their data plan, free Wi-Fi became one
+of the main offerings of Cafés and Restaurants.*
 
 ## Which Improvements are Saving the Most Traffic?
 
