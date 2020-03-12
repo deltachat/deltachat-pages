@@ -70,6 +70,10 @@ and media synchronized between two Delta Chat installations. You can export a fu
 in the settings.  And during Setup of the second device you can, instead of entering login
 credentials, import this backup. 
 
+It's also very useful to enable the "send copy to self" setting. Only if it's
+enabled, you can see your own messages on all devices. This feature is also
+pretty new to the Desktop Client.
+
 Note that the "Autocrypt Setup Message" is only useful if you want to synchronize your Delta Chat
 app with another Autocrypt-supporting mail client. It only allows to transfer the encryption setup but
 not any chat or contact history. 
