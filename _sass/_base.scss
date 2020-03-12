@@ -64,10 +64,11 @@ body {
 }
 
 .featured-image {
-	max-height: 12em;
+    margin-top: 1em;
+    margin-bottom: -2em;
 	overflow: hidden;
-	margin-bottom: -2em;
-	margin-top: 1em;
+    max-height: 180px !important;
+    max-width: 270px;
 }
 
 .featured-image img {
@@ -94,21 +95,16 @@ body {
             font-size: 20px;
         }
     }
-    
-    .featured-image {
-	float: right;
-	max-height: 200px !important;
-	max-width: 270px;
-	margin-left: 20px;
-	margin-bottom: 1em;
-    }
-
-    .featured-image img {
-	width: 270px;
-    }
 
     .post-box {
-	min-height: 200px;
+	    min-height: 180px;
+    }
+
+    .featured-image {
+        float: right;
+        margin-top: 0;
+        margin-bottom: 1em;
+        margin-left: 20px;
     }
 
     #content {	   
