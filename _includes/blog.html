@@ -1,5 +1,7 @@
+{% assign index = 0 %}
 {% for post in site.posts %}
-{% if post.image %}
+{% assign index = index | plus:1 %}
+{% if post.image and index <= 10 %}
 <div class="post-box">
   <a href="{{ site.baseurl }}{{ post.url }}">
     <div class="featured-image">
