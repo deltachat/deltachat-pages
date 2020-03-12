@@ -28,7 +28,8 @@ happen. Here is a quick overview:
 
 <img src="../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-search-contacts.jpg" width="250" style="float: right; margin: 10px;display: block;" /> 
 - **In-App Help:** after it was [implemented in Android](2020-03-06-delta-1.2),
-  you can now read the help page in the desktop client as well.
+  you can now read the help page in the desktop client as well. You can open it
+  by pressing F1.
 
 - **Provider Database**: when you login to your email provider, you get hints
   whether you need to do some extra configurations, so it works with Delta
@@ -50,6 +51,9 @@ happen. Here is a quick overview:
 
 - There is now also the Saved Messages & Device Chat which you might know already 
   from [the mobile apps](https://delta.chat/en/2019-12-18-google-play-store-release).
+
+- With version 1.1.0, you can adjust the font size in the top level menu.
+  Choose it with a click on "View -> Zoom Factor".
 
 - The group name will now be used as the subject for outgoing messages. 
 
