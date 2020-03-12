@@ -57,10 +57,10 @@ happen. Here is a quick overview:
 
 - The group name will now be used as the subject for outgoing messages. 
 
-- As Desktop also makes it convenient to write "multi-line" messages containing
-  several paragraphs, and you can change the "E-mail interaction" setting to 
-  consider "All" e-mail, some people successfully experiment with using Delta apps 
-  as their only e-mail client.
+- Some people successfully experiment with using Delta Chat as their only
+  email client. The Desktop client makes it convenient to write "multi-line"
+  messages containing several paragraphs; in this case you should also change
+  the "Show classic emails" setting to "All", so you never miss one.
 
 ![Screenshot of the Desktop Client; you can choose between different background images.](../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-background-image.jpg)
 
@@ -69,18 +69,20 @@ happen. Here is a quick overview:
 If you want to synchronize a Desktop Client with the Android or iOS Delta Chat app, please 
 **export a full backup on one device and import it on the other**.
 
-This way you will get your login credentials, encryption setup, contacts and all chat messages
-and media synchronized between two Delta Chat installations. You can export a full backup 
-in the settings.  And during Setup of the second device you can, instead of entering login
-credentials, import this backup. 
+This way you will get everything important synchronized between two Delta Chat
+installations: your login credentials, encryption setup, contacts and all chat
+messages and media. You can export a full backup in the settings. And during
+Setup of the second device you can, instead of entering login credentials,
+import this backup. 
 
 It's also very useful to enable the "send copy to self" setting. Only if it's
 enabled, you can see your own messages on all devices. This feature is also
 pretty new to the Desktop Client.
 
-Note that the "Autocrypt Setup Message" is only useful if you want to synchronize your Delta Chat
-app with another Autocrypt-supporting mail client. It only allows to transfer the encryption setup but
-not any chat or contact history. 
+Note that the "Autocrypt Setup Message" is only useful in one case: if you want
+to synchronize your Delta Chat app with another Autocrypt-supporting mail
+client. It only allows to transfer the encryption setup but not any chat or
+contact history. 
 
 ## Installing Delta Chat Desktop 
 
