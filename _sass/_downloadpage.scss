@@ -1,6 +1,3 @@
-html {
-    --dl-box-roundness: 4px;
-}
 
 
 .download-content {
@@ -12,12 +9,10 @@ html {
     // }
 
     .box {
-        border: 1px solid #ddd;
-        margin: 10pt 5pt;
+        margin: 10pt 0pt;
         padding: 2px 2px 7pt 7pt;
-        background-color: #e8e8e8;
-        border-radius: var(--dl-box-roundness);
-
+        background-color: #eee;
+        font-size: 12px;
         &>p {
             margin: 2pt 0!important;
         }
@@ -26,7 +21,6 @@ html {
     .box>.title {
         font-size: 20px;
         margin-top: 5pt;
-        font-weight: bold;
         margin-bottom: 8px;
     }
 
@@ -35,6 +29,7 @@ html {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
+        margin: 1em 0;
     }
 
     .box>.buttons>a:not(.img-badge) {
