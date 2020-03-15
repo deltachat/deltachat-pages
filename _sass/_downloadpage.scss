@@ -1,6 +1,6 @@
 
 
-.download-content {
+div.download-content {
     display: block;
     padding: 0 4pt;
 
@@ -8,7 +8,7 @@
 
     // }
 
-    .box {
+    div.box {
         margin: 10pt 0pt;
         padding: 2px 2px 7pt 7pt;
         background-color: #eee;
@@ -18,13 +18,14 @@
         }
     }
 
-    .box>.title {
+    div.box div.title {
         font-size: 20px;
         margin-top: 5pt;
         margin-bottom: 8px;
+        color: #666;
     }
 
-    .box>.buttons {
+    div.box div.buttons {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -32,7 +33,7 @@
         margin: 1em 0;
     }
 
-    .box>.buttons>a:not(.img-badge) {
+    div.box div.buttons a:not(.img-badge) {
         background: #111;
         color: white;
         font-weight: bold;
@@ -47,7 +48,7 @@
         min-width: 128px;
     }
 
-    .box>.buttons>a.img-badge {
+    div.box div.buttons a.img-badge {
         display: flex;
         align-content: center;
         margin: 3px;
@@ -56,9 +57,13 @@
         }
     }
 
-    small {
+    div.box div.buttons small {
         display: block;
         font-size: 12px;
         font-weight:normal;
+    }
+
+    div.box div.descr {
+        color: #666;
     }
 }
