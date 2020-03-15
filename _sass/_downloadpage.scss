@@ -1,6 +1,4 @@
 html {
-    --dl-button-bg: linear-gradient(120deg, #71828a, #4a6069) #159957;
-    --dl-button-roundness: 5px;
     --dl-box-roundness: 4px;
 }
 
@@ -40,16 +38,18 @@ html {
     }
 
     .box>.buttons>a:not(.img-badge) {
-        background: var(--dl-button-bg);
+        background: #111;
         color: white;
         font-weight: bold;
         padding: 5px;
         margin: 3px;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 16px;
         height: max-content;
-        border-radius: var(--dl-button-roundness);
+        border: 2px solid #444;
+        border-radius: 5px;
         line-height: 1.23;
+        min-width: 128px;
     }
 
     .box>.buttons>a.img-badge {
@@ -64,5 +64,6 @@ html {
     small {
         display: block;
         font-size: 12px;
+        font-weight:normal;
     }
 }
