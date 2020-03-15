@@ -43,11 +43,11 @@
         <div class="box" id="linux">
             <div class="title">Linux</div>
             <div class="buttons">
-                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb" class="big-button">Debian / Ubuntu (.deb)</a>
-                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage" class="big-button">Universal (.AppImage)</a>
                 <a href="https://flathub.org/apps/details/chat.delta.desktop" class="img-badge">
                     <img src="../assets/badges/flathub.svg" alt="{%if tx.download.flathub != ""%}{{ tx.download.flathub }}{%else%}{{ txEn.download.flathub }}{%endif%}" />
                 </a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for</small> Debian/Ubuntu</a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage"><small>Get Universal</small> AppImage</a>
             </div>
             <p>
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
@@ -59,17 +59,18 @@
         <div class="box" id="windows">
             <div class="title">Windows</div>
             <div class="buttons">
-                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe" class="big-button">Setup (.exe)</a>
-                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe" class="big-button">Portable (.exe)</a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe"><small>Get .exe with</small>Setup</a>
             </div>
             <p>
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+                &ndash;
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
             </p>
         </div>
         <div class="box" id="osx">
             <div class="title">macOS</div>
             <div class="buttons">
-                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg" class="big-button">DMG</a>
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg"><small>Get DMG</small> Image</a>
             </div>
             <p>
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
