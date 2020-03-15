@@ -19,13 +19,13 @@
                     <img src="../assets/badges/get-it-on-gplay.png" alt="{%if tx.download.gplay != ""%}{{ tx.download.gplay }}{%else%}{{ txEn.download.gplay }}{%endif%}"  />
                 </a>
             </div>
-            <p>
+            <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 &ndash;
                 {%if tx.download.dl_apk_text.before != ""%}{{ tx.download.dl_apk_text.before }}{%else%}{{ txEn.download.dl_apk_text.before }}{%endif%}
                 <a href="https://download.delta.chat/android/">APK</a>
                 {%if tx.download.dl_apk_text.after != ""%}{{ tx.download.dl_apk_text.after }}{%else%}{{ txEn.download.dl_apk_text.after }}{%endif%}
-            </p>
+            </div>
         </div>
         <div class="box" id="ios">
             <div class="title">iOS</div>
@@ -34,11 +34,11 @@
                     <img src="../assets/badges/get-it-on-ios.png" alt="{%if tx.download.dl_appstore != ""%}{{ tx.download.dl_appstore }}{%else%}{{ txEn.download.dl_appstore }}{%endif%}" />
                 </a>
             </div>
-            <p>
+            <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-ios">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 &ndash;
                 <a href="https://testflight.apple.com/join/uEMc1NxS">{%if tx.download.beta_on != ""%}{{ tx.download.beta_on }}{%else%}{{ txEn.download.beta_on }}{%endif%} Testflight</a>
-            </p>
+            </div>
         </div>
         <div class="box" id="linux">
             <div class="title">Linux</div>
@@ -49,32 +49,32 @@
                 <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for</small> Debian/Ubuntu</a>
                 <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage"><small>Get Universal</small> AppImage</a>
             </div>
-            <p>
+            <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 &ndash;
                 <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/">Arch (AUR)</a>:
                 <code>yay -S deltachat-desktop-git</code>
-            </p>
+            </div>
         </div>
         <div class="box" id="windows">
             <div class="title">Windows</div>
             <div class="buttons">
                 <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe"><small>Get .exe with</small>Setup</a>
             </div>
-            <p>
+            <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 &ndash;
                 <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
-            </p>
+            </div>
         </div>
         <div class="box" id="osx">
             <div class="title">macOS</div>
             <div class="buttons">
                 <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg"><small>Get DMG</small> Image</a>
             </div>
-            <p>
+            <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </p>
+            </div>
         </div>
     </div>
 </div>
