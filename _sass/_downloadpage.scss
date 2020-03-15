@@ -20,33 +20,9 @@ html {
         background-color: #e8e8e8;
         border-radius: var(--dl-box-roundness);
 
-        &>.sub-title {
-            font-size: 14px;
-            margin-top: 5pt;
-            font-weight: bold;
-            margin-bottom: 4px;
-        }
-
         &>p {
             margin: 2pt 0!important;
         }
-    }
-
-    .box>.source-link {
-        font-size: 13px;
-        float: right;
-        text-decoration: none;
-        padding: 2px 5px 2px 7px;
-        border-radius: 0 var(--dl-box-roundness) 0 var(--dl-box-roundness);
-        right: -2px;
-        top: -2px;
-        position: relative;
-        background: #f0eded;
-    }
-
-    .box>.source-link:hover {
-        background-color: rgba(0, 0, 0, 0.1);
-        color: black;
     }
 
     .box>.title {
@@ -85,14 +61,6 @@ html {
         }
     }
 
-    .box>.buttons>a.soon {
-        color: orange;
-        cursor: not-allowed;
-        img {
-            filter: opacity(.3) grayscale(100%);
-        }
-    }
-
     .box>.buttons>a.big-button {
         line-height: 37px;
         padding-left: 10px;
@@ -103,20 +71,5 @@ html {
     small {
         display: block;
         font-size: 12px;
-    }
-
-    code {
-        color: black;
-        padding: 0 8px;
-        display: inline-block;
-        position: relative;
-        user-select: all;
-        font-size: 12px;
-        margin: 2px 0;
-    }
-
-
-    .soon {
-        display: none !important;
     }
 }
