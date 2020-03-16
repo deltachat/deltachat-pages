@@ -2,8 +2,6 @@
 
 div.download-content {
 
-    /* mobile first */
-
     div.recommendation-section div.recommendation-bg {
         border: 1px solid red;
     }
@@ -17,12 +15,11 @@ div.download-content {
     }
 
     div.box div.title {
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 5pt;
         margin-bottom: 8px;
         margin-right: .5em;
         color: #222;
-        float: right;
     }
 
     div.box div.buttons {
@@ -70,13 +67,5 @@ div.download-content {
 
     code {
         background: transparent;
-    }
-
-    /* desktop second */
-
-    @media only screen and (min-width: 640px) {
-        div.box div.title {
-            font-size: 20px;
-        }
     }
 }
