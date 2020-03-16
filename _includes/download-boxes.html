@@ -8,6 +8,7 @@
         <div id="recommend"></div>
         <h1>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</h1>
     </div>
+    <h1 id="noscript-headline">{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h1>
     <div id="boxes">
         <div class="box" id="android">
             <div class="title">Android</div>
@@ -56,6 +57,17 @@
                 <code>yay -S deltachat-desktop-git</code>
             </div>
         </div>
+        <div class="box" id="macos">
+            <div class="title">macOS</div>
+            <div class="buttons">
+                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg" class="img-badge">
+                    <img src="../assets/badges/get-it-on-macos.png" alt="Get it on macOS" />
+                </a>
+            </div>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
+        </div>
         <div class="box" id="windows">
             <div class="title">Windows</div>
             <div class="buttons">
@@ -67,17 +79,6 @@
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 &ndash;
                 <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
-            </div>
-        </div>
-        <div class="box" id="osx">
-            <div class="title">macOS</div>
-            <div class="buttons">
-                <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg" class="img-badge">
-                    <img src="../assets/badges/get-it-on-macos.png" alt="Get it on macOS" />
-                </a>
-            </div>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
         </div>
     </div>

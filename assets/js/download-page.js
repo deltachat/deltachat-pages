@@ -1,11 +1,6 @@
 function main() {
     document.getElementById("recommendation-section").hidden = false;
-
-    var soon = document.getElementsByClassName("soon");
-    for (var i = 0; i < soon.length; i++) {
-        var element = soon[i];
-        element.setAttribute('title', "Comming Soon!");
-    }
+    document.getElementById("noscript-headline").hidden = true;
 
     var recommend = document.getElementById("recommend");
     recommend.appendChild(document.getElementById(userAgentToOS()));
@@ -25,7 +20,7 @@ function userAgentToOS() {
     else if (uA.includes('Windows'))
         return 'windows'
     else if (uA.includes('Macintosh') || uA.includes('Mac OS X'))
-        return 'osx'
+        return 'macos'
 }
 
 main()
