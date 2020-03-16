@@ -4,11 +4,15 @@ div.download-content {
 
     /* mobile first */
 
+    div.recommendation-section div.recommendation-bg {
+        border: 1px solid red;
+    }
+
     div.box {
         margin: 1em 0pt;
         padding: 2px 2px 7pt 7pt;
         background-color: #eee;
-        background-image: linear-gradient(120deg, #eee, #fafafa);
+        background-image: linear-gradient(120deg, #f3f3f3, #eee);
         font-size: 12px;
     }
 
