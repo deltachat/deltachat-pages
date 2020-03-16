@@ -68,18 +68,18 @@
         <div class="box" id="linux">
             <div class="title">GNU/Linux</div>
             <div class="buttons">
-                <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/"><small>Build from</small>AUR</a>
                 <a href="https://flathub.org/apps/details/chat.delta.desktop" class="img-badge">
                     <img src="../assets/badges/flathub.png" alt="{%if tx.download.flathub != ""%}{{ tx.download.flathub }}{%else%}{{ txEn.download.flathub }}{%endif%}" />
                 </a>
                 <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for</small> Debian/Ubuntu</a>
                 <a href="https://download.delta.chat/desktop/{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage"><small>Get Universal</small> AppImage</a>
+                <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/"><small>Build from</small>AUR</a>
             </div>
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 <br />
-                Arch manual install: <code>yay -S deltachat-desktop-git</code><br />
-                Flatpak manual install: <code>flatpak install flathub chat.delta.desktop</code>
+                Flatpak manual install: <code>flatpak install flathub chat.delta.desktop</code><br />
+                Arch manual install: <code>yay -S deltachat-desktop-git</code>
             </div>
         </div>
     </div>
