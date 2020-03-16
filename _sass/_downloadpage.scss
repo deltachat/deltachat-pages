@@ -2,14 +2,13 @@
 
 div.download-content {
 
+    /* mobile first */
+
     div.box {
         margin: 1em 0pt;
         padding: 2px 2px 7pt 7pt;
         background-color: #eee;
         font-size: 12px;
-        &>p {
-            margin: 2pt 0!important;
-        }
     }
 
     div.box div.title {
@@ -18,7 +17,6 @@ div.download-content {
         margin-bottom: 8px;
         margin-right: .5em;
         color: #222;
-        float: right;
     }
 
     div.box div.buttons {
@@ -61,5 +59,13 @@ div.download-content {
 
     div.box div.descr {
         color: #222;
+    }
+
+    /* desktop second */
+    
+    @media only screen and (min-width: 640px) {
+        div.box div.title {
+            float: right;
+        }
     }
 }
