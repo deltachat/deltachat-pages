@@ -17,11 +17,12 @@ div.download-content {
     }
 
     div.box div.title {
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 5pt;
         margin-bottom: 8px;
         margin-right: .5em;
         color: #222;
+        float: right;
     }
 
     div.box div.buttons {
@@ -44,7 +45,7 @@ div.download-content {
         border: 2px solid #444;
         border-radius: 5px;
         line-height: 1.23;
-        min-width: 128px;
+        min-width: 144px;
     }
 
     div.box div.buttons a.img-badge {
@@ -74,7 +75,7 @@ div.download-content {
 
     @media only screen and (min-width: 640px) {
         div.box div.title {
-            float: right;
+            font-size: 20px;
         }
     }
 }
