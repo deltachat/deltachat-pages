@@ -32,7 +32,7 @@ sq:
     dl_appstore: Shkarkojeni nga Apple AppStore
     beta_on: Beta në
     dl_fdroid: Merreni nga F-Droid
-    beta_gplay: Testim Beta në Google Play
+    gplay: Merreni në Google Play
     dl_amazon:
       small: Merreni nga
       title: Amazon Appstore

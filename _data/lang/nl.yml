@@ -32,7 +32,7 @@ nl:
     dl_appstore: Installeren via de Apple App Store (iOS)
     beta_on: Bètaversie op
     dl_fdroid: Installeren via F-Droid
-    beta_gplay: Bètaversie op Google Play
+    gplay: Installeren via Google Play
     dl_amazon:
       small: Installeren via
       title: Amazon Appstore

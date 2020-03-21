@@ -32,7 +32,7 @@ ru:
     dl_appstore: Загрузить из Apple AppStore
     beta_on: Включая бета-версии
     dl_fdroid: Загрузить с F-Droid
-    beta_gplay: Бета-тестирование в Google Play
+    gplay: Get it on Google Play
     dl_amazon:
       small: Загрузить
       title: Amazon Appstore

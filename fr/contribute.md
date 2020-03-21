@@ -17,7 +17,7 @@ lang: fr
 
 - [Traductions sur Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problèmes Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problèmes Delta Chat Bureau](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problèmes Delta Chat Bureau Windows](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problèmes Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problèmes Bibliothèque Rust Core + et reliures Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
@@ -28,10 +28,10 @@ Nous sommes en permanence à la recherche de développeurs qui voudraient nous a
 
 Si vous voulez soutenir DeltaChat avec un don d'argent:
 
-- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Propriétaire du compte (obligatoire): Björn Petersen, BIC NORSDE51XXX
+- PayPal ou carte de crédit: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donner régulièrement via [Liberapay](https://liberapay.com/delta.chat/)
+- Envoyer des bitcoins à [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Nous avons besoin d'**appareils** à des fins de test. Avez-vous un smartphone Android ou un iPhone inutilisé?
 [Nous](../fr/imprint) serions heureux de l’avoir!

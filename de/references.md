@@ -5,9 +5,9 @@ lang: de
 
 # Referenzen
 
-This list is far from being complete - did we miss something? Please
-[let us know](imprint) or just do a [pull
-request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Diese Liste ist bei weitem nicht vollständig - haben wir etwas verpasst? Bitte
+[lassen Sie es uns wissen](imprint) oder machen Sie einfach einen [Pull
+Request] (https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
 ### DesdeLinux (Spanish technology blog): Delta Chat: La aplicación de mensajería libre y abierta basada en correos
@@ -17,21 +17,21 @@ _"El cifrado de extremo a extremo no solo funciona entre las aplicaciones de Del
 2020-02-26, <https://blog.desdelinux.net/delta-chat-aplicacion-mensajeria-libre-abierta-correo-electronico/>
 
 
-### Techlog360 (Large Indian technology blog): 15 Best Open-Source Encrypted Messaging Android Apps for Privacy Concerned People (2020 List)
+### Techlog360 (Großer indischer Technologie-Blog): 15 Best Open-Source Encrypted Messaging Android Apps for Privacy Concerned People (2020 List)
 
 _"Delta Chat requires no additional server-side infrastructure — chat with anyone if you know their e-mail address, no need for them to install DeltaChat."_
 
 2020-02-07, <https://techlog360.com/open-source-messenger-voip-android-apps/#11_Delta_Chat>
 
 
-### Basic Thinking (German technology blog): WhatsApp-Alternativen unter der Lupe: Was kann Delta Chat?
+### Basic Thinking (Deutscher Technologie-Blog): WhatsApp-Alternativen unter der Lupe: Was kann Delta Chat?
 
 _"Anders als WhatsApp, kann man Delta Chat auch parallel auf mehreren Geräten gleichzeitig benutzen. Wer also beispielsweise am Smartphone und Tablet arbeitet, kann auf beiden Geräten kommunizieren."_
 
 2020-02-05, <https://www.basicthinking.de/blog/2020/02/05/whatsapp-alternative-delta-chat/>
 
 
-### Vorinstanz (Swiss blog): Delta Chat: via Mail Chatten
+### Vorinstanz (Schweizer Blog): Delta Chat: via Mail Chatten
 
 _"Mit Delta-Chat gewinnt man die Vorteile der Mail-Nutzung (z. B. sehr verbreitet) und handelt sich im Gegenzug die Nachteile der Mail-Technologie ein (z. B. bei Gruppenchats)."_
 
@@ -57,7 +57,7 @@ _"La idea detrás de esto: todos tienen una dirección de correo, así que todos
 2019-09-01, <https://www.prensalibre.com/vida/tecnologia/delta-chat-el-mensajero-que-utiliza-el-correo-electronico/>
 
 
-### c't (Large German technology magazine): Volks-Messenger
+### c't (Großes deutsches Technologiemagazin): Volks-Messenger
 
 _"Mit normalen Instant Messengern erreicht man nur Partner, die denselben Dienst verwenden wie man selbst. Delta Chat hebelt diese Beschränkung aus."_
 

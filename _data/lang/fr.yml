@@ -1,7 +1,7 @@
 fr:
   
   meta:
-    description: Delta Chat - Une messagerie instantanée fondée sur l'Email
+    description: Delta Chat - Une messagerie instantanée fondée sur le courriel
     keywords: "delta chat, application de messagerie électronique, télécharger delta chat"
     rss_news_title: Actualités Delta Chat
 
@@ -32,7 +32,7 @@ fr:
     dl_appstore: Télécharger depuis l'Apple AppStore
     beta_on: Bêta sur
     dl_fdroid: Obtenez-le sur F-Droid
-    beta_gplay: Bêta tests sur Google Play
+    gplay: Get it on Google Play
     dl_amazon:
       small: Obtenez-le sur
       title: Amazon Appstore
