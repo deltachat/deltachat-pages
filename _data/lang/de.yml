@@ -31,8 +31,8 @@ de:
     dl_mac_appstore: Download aus dem Apple Mac AppStore
     dl_appstore: Download aus dem Apple AppStore
     beta_on: Beta auf
-    dl_fdroid: Hols dir von F-Droid
-    beta_gplay: Vorabtest (Beta testing) auf Google Play
+    dl_fdroid: Beziehe es von F-Droid
+    gplay: Beziehe es von Google Play
     dl_amazon:
       small: Beziehe es von
       title: Amazon Appstore

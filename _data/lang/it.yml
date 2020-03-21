@@ -32,7 +32,7 @@ it:
     dl_appstore: Scarica da Apple AppStore
     beta_on: Beta su
     dl_fdroid: Scarica da F-Droid
-    beta_gplay: Versioni beta su Google Play
+    gplay: Get it on Google Play
     dl_amazon:
       small: Scarica da
       title: Amazon Appstore

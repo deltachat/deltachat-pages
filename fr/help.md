@@ -20,19 +20,17 @@ Avec Delta Chat, vous pouvez écrire à toutes les adresses courriels existantes
 
 ### Quels sont les avantages de Delta Chat par rapport aux autres messageries ?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _Compatible_ - not only to itself.
-- _Elegant_ and _simple_ user interface.
-- _Distributed_ system.
-- _No Spam_ - only messages of known users are shown by default.
-- _Reliable_ - safe for professional use.
-- _Trustworthy_ - can even be used for business messages.
-- _Copyleft_ and _Standards_ based libre software.
+ Indépendant de toute entreprise ou de service. _Vous possédez vos propres données_.
+- Vos données ne sont pas sauvegardées sur un serveur central; de cette façon, contrairement à la plupart des autres messageries, Delta Chat protège même vos métadonnées (qui écrit à qui?)
+- Vous ne distribuez pas votre carnet d'adresses à qui que ce soit.-
+ _Rapide_ par l'utilisation de Push-IMAP- 
+_La plus grande base d'utilisateurs_ - Même les destinataires n'utilisant _pas_ Delta Chat peuvent être contactés-
+ _Compatible_ - pas seulement avec lui-même-
+Interface utilisateur _élegante_ et _simple_- 
+_Système distribué_
+- _Pas de Spam_ - Seuls les messages des utilisateurs connus sont affichés par défaut.
+_Fiable_ - et _sûr_ pour un usage professionnel- 
+Code source entièrement _ouvert_ et basé sur les _standards_ 
 
 
 ### Quels messages apparaissent dans Delta Chat
@@ -153,7 +151,7 @@ Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du group
 - Vous pouvez également mettre un groupe en "Muet", ce qui signifie que vous recevez tous les messages et pourrez toujours écrire, mais vous ne serez plus informés de l'arrivée de nouveaux messages.
 
 
-### What do double ticks mean in group messages? Has everyone read my message now?
+Que signifient les doubles marques dans un message groupé ? Tout le monde a-t-il bien lu mon message ?
 
 - A message shows double ticks after more than half the the recipients have
   seen the message on their display.
@@ -178,15 +176,11 @@ Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du group
 
 - Rien.
 
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
+<br>- Delta Chat (et les autres applications de messagerie compatibles avec[Autocrypt](https://autocrypt.org)) partagent automatiquement les clés nécessaires au chiffrement de bout en bout dès l'envoi des premiers messages. 
+Tous les messages suivants sont chiffrés de bout en bout automatiquement. 
+Si l'un des partenaires de tchat utilise une application de messagerie non-compatible avec Autocrypt, les messages ultérieurs ne sont pas chiffrés tant qu'une application conforme à Autocrypt n'est pas à nouveau disponible. 
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings / Advanced settings".
+- Si vous souhaitez _désactiver_ le chiffrement bout en bout, utilisez le paramètre correspondant dans "Paramètres / Paramètres avancés".
 
 
 ### Si le chiffrement de bout en bout n'est pas disponible, la connexion n'est-elle pas chiffrée du tout ?

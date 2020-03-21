@@ -1,21 +1,21 @@
 ---
-title: Obtenez Delta Chat
+title: Obtenir Delta Chat
 lang: fr
 downloads: true
 ---
 
 ## Journal des Changements
 
-* [Bureau](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Bureau Windows](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android]({% include changelog-url %})
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
 * [Noyau](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 ## Liens
 
-* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
-* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
-* [Verify Downloads](verify-downloads): Verify data integrity of downloads
+* [Base de données fournisseurs](https://providers.delta.chat/): Est-ce que mon Fournisseur fonctionne avec Delta Chat?
+* [FAQ multi-clients](help#multiclient): Comment synchroniser l'application Bureau Windows avec d'autres applications Delta Chat.
+* [Vérifier les téléchargements](verify-downloads): Vérifier l'intégrité des données des téléchargements
 
 ## Aperçu des versions:
-* [Bureau](https://download.delta.chat/desktop/preview/)
+* [Bureau Windows](https://download.delta.chat/desktop/preview/)
