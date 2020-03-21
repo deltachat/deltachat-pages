@@ -6,14 +6,14 @@ header: Questions Fréquentes
 ---
 
 
-## C'est quoi Delta Chat?
+## C'est quoi Delta Chat ?
 
 Delta Chat est une application de clavardage qui utilise le courriel electronique pour délivrer ses messages et, si possible, les chiffre avec Autocrypt.
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
-### Comment puis-je trouver des gens avec qui discuter ? 
+### Comment puis-je trouver des gens avec qui discuter ?
 
 Avec Delta Chat, vous pouvez écrire à toutes les adresses courriels existantes, même si le destinataire n'utilise pas l'application. Votre correspondant pourra simplement répondre à l'e-mail qu'il aura reçu. Contrairement aux autres messageries instantanées vos amis n'ont pas besoins d'installer le même client pour discuter avec vous.
 
@@ -21,7 +21,7 @@ Avec Delta Chat, vous pouvez écrire à toutes les adresses courriels existantes
 ### Quels sont les avantages de Delta Chat par rapport aux autres messageries ?
 
  Indépendant de toute entreprise ou de service. _Vous possédez vos propres données_.
-- Vos données ne sont pas sauvegardées sur un serveur central; de cette façon, contrairement à la plupart des autres messageries, Delta Chat protège même vos métadonnées (qui écrit à qui?)
+- Vos données ne sont pas sauvegardées sur un serveur central; de cette façon, contrairement à la plupart des autres messageries, Delta Chat protège même vos métadonnées (qui écrit à qui ?)
 - Vous ne distribuez pas votre carnet d'adresses à qui que ce soit.-
  _Rapide_ par l'utilisation de Push-IMAP- 
 _La plus grande base d'utilisateurs_ - Même les destinataires n'utilisant _pas_ Delta Chat peuvent être contactés-
@@ -51,7 +51,7 @@ Les autres messages n'apparaissent pas automatiquement. Vous pouvez les retrouve
 - Cependant, si nécessaire, vous pouvez **bloquer** n'importe quel contact.
 
 
-## Delta Chat prend-il en charge les images, vidéos et autres pièces jointes?
+### Delta Chat prend-il en charge les images, vidéos et autres pièces jointes ?
 
 Oui. Comme le texte brut, toutes les pièces jointes aux e-mails sont affichées sous forme de messages séparés. Les messages sortants reçoivent automatiquement les pièces jointes nécessaires.
 
@@ -124,7 +124,7 @@ Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](ht
 - Pour ajouter ou supprimer des membres, cliquez sur le nom du groupe dans le chat.
 
 
-## Qu'est qu'un groupe vérifié ? Pourquoi est-ce une fonction expérimentale ?
+### Qu'est qu'un groupe vérifié ? Pourquoi est-ce une fonction expérimentale ?
 
 - A verified group is a chat that gurantees safety against an active
   attacker.  All Messages in a verified chat view are e2e-encrypted, and
@@ -137,7 +137,7 @@ Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](ht
 - En décembre 2019, un "groupe vérifié" reste une fonction expérimentale. Elle est continuellement améliorée et de nombreux bogues ont été corrigés depuis son introduction en 2018. Toutefois, il reste des cas, notamment avec de grands groupes, où des incohérences peuvent se produire, ou des messages qui deviennent illisibles. Début 2020, un examen de la sécurité est prévu, et plusieurs nouveaux développements autour des protocoles qr-join ont lieu de sorte qu'il y a des chances que nous supprimions le label "expérimental" dans un proche avenir.
 
 
-## Je me suis retiré du groupe par accident.
+### Je me suis retiré du groupe par accident.
 
 - Comme vous n'êtes plus membre du groupe, vous ne pouvez pas vous y ajouter à nouveau. 
 Demandez simplement dans un tchat à n'importe quel autre membre de ce groupe de vous y ré-inviter.
@@ -151,7 +151,7 @@ Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du group
 - Vous pouvez également mettre un groupe en "Muet", ce qui signifie que vous recevez tous les messages et pourrez toujours écrire, mais vous ne serez plus informés de l'arrivée de nouveaux messages.
 
 
-Que signifient les doubles marques dans un message groupé ? Tout le monde a-t-il bien lu mon message ?
+### Que signifient les doubles marques dans un message groupé ? Tout le monde a-t-il bien lu mon message ?
 
 - A message shows double ticks after more than half the the recipients have
   seen the message on their display.
@@ -164,7 +164,7 @@ Que signifient les doubles marques dans un message groupé ? Tout le monde a-t-i
 
 ## Chiffrement {#encryption}
 
-### Delta Chat gère-t-il le chiffrement de bout en bout?
+### Delta Chat gère-t-il le chiffrement de bout en bout ?
 
 - Oui. Delta Chat implémente la norme Autocrypt Niveau 1 et peut ainsi chiffrer E2E (de bout en bout) les messages avec d'autres applications Autocrypt. 
 
@@ -172,7 +172,7 @@ Que signifient les doubles marques dans un message groupé ? Tout le monde a-t-i
   even safe against active attacks, see "verified groups" further below. 
 
 
-### Que faire pour activer le chiffrement de bout en bout?
+### Que faire pour activer le chiffrement de bout en bout ?
 
 - Rien.
 
