@@ -1,10 +1,10 @@
 ---
 title: Shining some light on Delta Chat bots
 author: pabz, Jo, Lotta
-image: ../assets/blog/2020-03-26-bots-2.jpg
+image: ../assets/blog/2020-03-26-bots-1.jpg
 ---
 
-<img src="../assets/blog/2020-03-26-bots-2.jpg" width="270" style="float: right; margin: 10px;display: block;" alt='A bot-like lego figurine, built by Jo' title="Jo's bot is a heavy working machine." /> 
+<img src="../assets/blog/2020-03-26-bots-1.jpg" width="270" style="float: right; margin: 10px;display: block;" alt='A bot-like lego figurine, built by Lotta' title="Lotta's bot in the spotlight" /> 
 *In principle it has been possible to build and run Delta Chat bots for quite a while already. But it wasn't easy or well documented.
 We changed that a little bit in the last weeks, and would like to hereby push the beginning of a Delta Chat bots ecosystem into the open!*
 
@@ -22,4 +22,4 @@ Additionally a new **[forum category for bots](https://support.delta.chat/c/bots
 
 Happy bot'ting! 🤖
 
-<img src="../assets/blog/2020-03-26-bots-1.jpg" width="270" alt='A bot-like lego figurine, built by Lotta' title="Lotta's bot in the spotlight" /> 
+<img src="../assets/blog/2020-03-26-bots-2.jpg" width="270" alt='A bot-like lego figurine, built by Jo' title="Jo's bot is a heavy working machine." /> 
