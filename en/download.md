@@ -17,5 +17,8 @@ downloads: true
 * [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
 * [Verify Downloads](verify-downloads): Verify data integrity of downloads
 
-## Preview Builds:
-* [Desktop](https://download.delta.chat/desktop/preview/)
+## Preview Builds
+
+* [Desktop Previews](https://download.delta.chat/desktop/preview/)
+* [Android Nightly](https://download.delta.chat/android/nightly/)
+* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
