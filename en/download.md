@@ -20,7 +20,7 @@ downloads: true
 ## Preview Builds
 
 * [Desktop Previews](https://download.delta.chat/desktop/preview/): Pending changes for the desktop clients
-* [Android Nightly](https://download.delta.chat/android/nightly/): Build last night with the most recent core
+* [Android Nightly](https://download.delta.chat/android/nightly/): Built last night with the most recent core
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): May contain not yet officially released iOS versions
 
 Preview builds may come with new bugs and should not be used productive.
