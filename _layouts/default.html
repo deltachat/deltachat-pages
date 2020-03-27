@@ -55,7 +55,8 @@
       {% endif %}
 
       {% if page.downloads == true %}
-      {% include download-boxes.html %}
+      <div class="download-content col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4">
+        {% include download-boxes.html %}
       {% endif %}
 
       {% if page.render_toc == true %}
@@ -64,6 +65,9 @@
 
       {% include anchor_headings.html html=content anchorClass="anchor" %}
 
+      {% if page.downloads == true %}
+        </div>
+      {% endif %}
 
       {% if page.is_post == true %}
       <p class="menulike">

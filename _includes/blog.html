@@ -1,9 +1,9 @@
 {% assign index = 0 %}
 {% for post in site.posts %}
 {% assign index = index | plus:1 %}
-<div class="post-box col-desk-10 col-desk-shift-1 col-mob-4">
+<div class="post-box col-desk-10 col-desk-shift-1 col-mob-shift-0 col-mob-4">
 {% if post.image and index <= 10 %}
-  <div class="featured-image col-desk-4 col-desk-shift-1 col-mob-4">
+  <div class="featured-image col-desk-4 col-desk-shift-1 col-mob-shift-0 col-mob-4">
     <a href="{{ site.baseurl }}{{ post.url }}">
       <img src="{{ post.image }}" />
     </a>
