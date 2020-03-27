@@ -1,0 +1,57 @@
+.landing-af {
+  display: flex;
+  align-items: center;
+  height: 800px;
+  
+  .landing-cta {
+    h1 {
+      font-size: 42px;
+      strong {
+        font-weight: 400;
+      }
+      font-weight: 200;
+    }
+
+    h2 {
+      font-size: 26px;
+      font-weight: 200;
+    }
+  }
+
+  .landing-images {
+    display: flex;
+    max-height: 100%;
+    margin-top: -150px;
+    
+    .desktop {
+      flex: 1;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .overlay {
+      position: absolute;
+      width: 600px;
+      display: flex;
+      overflow: hidden;
+      margin-top: 300px;
+      
+      .android {
+        padding-left: 50px;
+        img {
+          border: 1px solid transparent;
+          border-radius: 5px;
+          height: 400px;
+        }
+      }
+      .ios {
+        padding-left: 50px;
+        img {
+          height: 400px;
+        }
+      }
+    }
+  }
+} 
