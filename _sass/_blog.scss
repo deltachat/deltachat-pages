@@ -1,0 +1,33 @@
+.blog {
+  // Actual article
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.post-box {
+  // Articles list
+  display: flex;
+  flex-direction: row-reverse;
+
+  .featured-image {
+    display: flex;
+    
+
+    img {
+      max-height: 250px;
+      max-width: 100%;
+    }
+  }
+
+  .simple-post {
+    flex: 1 0 100%;
+  }
+}
+
+@media screen and (max-width: $grid-mobile-breakpoint) {
+  .post-box {
+    flex-direction: column-reverse;
+  }
+}

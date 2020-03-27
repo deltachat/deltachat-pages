@@ -1,0 +1,54 @@
+#menu {
+  display: flex;
+  padding: 2em 0;
+  height: 80px;
+
+  border-bottom: 1px solid rgba(151, 151, 151, 0.14);
+
+  .logo {
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    
+    img {
+      flex: 0 0 40px;
+    }
+
+    .text {
+      padding-left: 25px;
+      flex: 1;
+      font-size: 2em;
+    }
+  }
+  
+  ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    
+    li {
+      flex: 1;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: $grid-mobile-breakpoint) {
+  #menu {
+    flex-direction: column;
+    height: auto;
+
+    ul {
+      flex-direction: column;
+      
+      li {
+        padding: 0.5em 0;
+      }
+    }
+  }
+}
