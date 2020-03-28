@@ -8,7 +8,7 @@ index: true
 <div class="landing-info col-desk-4 col-mob-4">
   <h2>Privacy <br/>First</h2>
   <p>
-    Experience a messaging experience like Telegram or Whatsapp, but without giving up privacy. 
+    Experience a messaging like Telegram or Whatsapp, but without giving up privacy. 
     Delta Chat does not use your phone number. 
     Find out more details in our <a href="gdpr">privacy statement</a>.
   </p>
