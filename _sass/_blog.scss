@@ -9,15 +9,32 @@
 .post-box {
   // Articles list
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  padding-bottom: 100px;
 
   .featured-image {
     display: flex;
+
+    height: 220px;
+    width: 180px;
     
-    img {
-      max-height: 250px;
-      max-width: 100%;
+    a {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      
+      img {
+        object-fit: cover;
+        width: 100%;
+      }
     }
+  }
+
+  h2 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
   }
 
   .simple-post {
@@ -25,8 +42,31 @@
   }
 }
 
+.blog-menu {
+  margin-top: 50px;
+  padding: 50px 0;
+  display: flex;
+  align-items: flex-start;
+  border-top: 1px solid rgba(151, 151, 151, 0.3);
+  
+  a {
+    flex: 0 0 33%;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &:first-of-type {
+      text-align: left;
+    }
+    &:last-of-type {
+      text-align: right;
+    }
+  }
+}
+
 @media screen and (max-width: $grid-mobile-breakpoint) {
   .post-box {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }

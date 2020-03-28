@@ -8,7 +8,7 @@
       <img src="{{ post.image }}" />
     </a>
   </div>
-  <div class="col-desk-7">
+  <div class="col-desk-7 col-mob-4">
     <h2>{{ post.title }}</h2>
     <div>
       <em>{{ post.date | date: "%B %d, %Y" }}</em> -
@@ -29,4 +29,3 @@
 </div>
 {% endfor %}
 
-<p class="menulike">Subscribe to our feed: {% include subscribe-to-feed-links.html %}</p>

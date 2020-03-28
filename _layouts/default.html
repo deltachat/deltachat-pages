@@ -53,7 +53,7 @@
         <div class="grid">
           <div class="col-desk-12 col-tab-12 col-mob-4">
             {% if page.is_post == true %}
-            <div class="blog col-desk-8 col-desk-shift-2">
+            <div class="blog col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4">
               <h1>{{ page.title }}</h1>
               <p class="blogdate">{{ page.date | date: "%B %d, %Y" }} {% if page.author %}by {{ page.author }}{% endif %}</p>
               {% endif %}
@@ -78,12 +78,11 @@
                 {% endif %}
 
               {% if page.is_post == true %}
-              <p class="menulike">
-                {% if page.previous.url %}<a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> |{% endif %}
+              <div class="blog-menu">
+                {% if page.previous.url %}&laquo;&nbsp;<a href="{{page.previous.url}}">{{page.previous.title}}</a> {% endif %}
                 <a href="blog">Index</a>
-                {% if page.next.url %}| <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>{% endif %}
-              </p>
-              <p class="menulike">{%if tx.subscribe_to_feed != ""%}{{ tx.subscribe_to_feed }}{%else%}{{ txEn.subscribe_to_feed }}{%endif%}: {% include subscribe-to-feed-links.html %}</p>
+                {% if page.next.url %} <a href="{{page.next.url}}">{{page.next.title}}</a>&nbsp;&raquo;{% endif %}
+              </div>
             </div>
             {% endif %}
 
@@ -99,6 +98,9 @@
               | <a href="https://github.com/deltachat/">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
               | <a href="imprint">{%if tx.imprint != ""%}{{ tx.imprint }}{%else%}{{ txEn.imprint }}{%endif%}</a>
               | <a href="gdpr-website">{%if tx.privacy != ""%}{{ tx.privacy }}{%else%}{{ txEn.privacy }}{%endif%}</a>
+            </div>
+            <div>
+              {%if tx.subscribe_to_feed != ""%}{{ tx.subscribe_to_feed }}{%else%}{{ txEn.subscribe_to_feed }}{%endif%}: {% include subscribe-to-feed-links.html %}
             </div>
             <div>
               <span class="desktoponly">{%if tx.language != ""%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}:</span>
