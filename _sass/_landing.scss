@@ -51,11 +51,13 @@
 
 .landing-info-top {
   display: flex;
+  
   .landing-info {
     padding-top: 15px;
     padding-bottom: 15px;
 
     h2 {
+      font-weight: 400;
       font-size: 56px;
       line-height: 60px;
     }
