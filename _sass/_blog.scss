@@ -65,8 +65,13 @@
   }
 }
 
+.blog-images {
+  text-align: center;
+}
+
 @media screen and (max-width: $grid-mobile-breakpoint) {
   .post-box {
     flex-direction: column;
   }
 }
+
