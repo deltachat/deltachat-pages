@@ -9,10 +9,12 @@
   min-height: 500px;
 
   a {
-    color: #111;
-    
-    &:hover, &:visited {
-      color: #111;
+    color: #133B73;
+    &:visited {
+      color: #133B73;
+    }
+    &:hover {
+      color: $highlight-color;
     }
   }
 }

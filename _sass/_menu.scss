@@ -7,6 +7,9 @@
 
   a {
     text-decoration: none;
+    &:hover {
+      color: #FFF;
+    }
   }
 
   .logo, .logo a {
@@ -34,7 +37,11 @@
       a {
         padding: 10px 15px;
         border-radius: 10px;
-        background-color: $highlight-color;;
+        background-color: $highlight-color;
+        
+        &:hover {
+          color: #FFF;
+        }
       }
     }
     li {

@@ -20,9 +20,15 @@ b, strong {
 
 a {
   color: $text-color;
-  
-  &:hover, &:visited {
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+
+  &:visited {
     color: $text-color;
+  }
+  
+  &:hover {
+    color: $highlight-color;
   }
 }
 
