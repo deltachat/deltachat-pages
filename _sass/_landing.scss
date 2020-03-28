@@ -49,37 +49,41 @@
   }
 } 
 
-h1.landing-heading {
-  font-size: 34px;
-  line-height: 40px;
-  text-align: center;
-}
+.landing-info-top {
+  display: flex;
+  .landing-info {
+    padding-top: 15px;
+    padding-bottom: 15px;
 
-.landing-info {
-  padding-top: 15px;
-  padding-bottom: 15px;
+    h2 {
+      font-size: 56px;
+      line-height: 60px;
+    }
+  }
 }
 
 @media screen and (max-width: $grid-tablet-breakpoint) {
   .landing-af {
     flex-direction: column;
     height: auto;
-    
-    .landing-images {
-      margin-top: 0;
-
-      .desktop {
-        img {
-          height: auto;
-          max-width: 100%;
-        }
-      }
-      .overlay {
-        display: none;
-      }
-    }
   }
 }
 
 @media screen and (max-width: $grid-mobile-breakpoint) {
+  .landing-info-top {
+    flex-direction: column;
+  }
+
+  .landing-af {
+    .landing-images {
+      flex-direction: column;
+      img {
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
+      .ios {
+        padding-left: 0px;
+      }
+    }
+  }
 }
