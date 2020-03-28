@@ -7,11 +7,13 @@
 
   a {
     text-decoration: none;
+  }
+
+  .logo a {
     &:hover {
       color: #FFF;
     }
   }
-
   .logo, .logo a {
     display: flex;
     flex-direction: horizontal;
