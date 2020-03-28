@@ -2,4 +2,17 @@
   padding: 2em 0;
   font-size: 16px;
   line-height: 18px;
+  background-color: #FFF;
+  color: #111;
+  border-radius: 15px;
+
+  min-height: 500px;
+
+  a {
+    color: #111;
+    
+    &:hover, &:visited {
+      color: #111;
+    }
+  }
 }

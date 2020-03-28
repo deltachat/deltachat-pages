@@ -16,50 +16,49 @@
       font-size: 26px;
       font-weight: 200;
     }
+
+    a.call-to-action {
+      display: inline-block;
+      background-color: $highlight-color;
+      border-radius: 10px;
+      padding: 15px 25px;
+      text-decoration: none;
+      
+    }
   }
 
   .landing-images {
     display: flex;
     max-height: 100%;
-    margin-top: -150px;
     position: relative;
-    
-    .desktop {
-      flex: 1;
-      max-width: 100%;
-      overflow: hidden;
 
+    .android {
       img {
-        height: 500px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        height: 600px;
       }
     }
-
-    .overlay {
-      bottom: -200px;
-      left: 50px;
-      position: absolute;
-      max-width: 100%;
-      display: flex;
-      overflow: hidden;
-      
-      .android {
-
-        img {
-          border: 1px solid transparent;
-          border-radius: 5px;
-          height: 400px;
-        }
-      }
-      
-      .ios {
-        padding-left: 50px;
-        img {
-          height: 400px;
-        }
+    
+    .ios {
+      padding-left: 50px;
+      img {
+        height: 600px;
       }
     }
   }
 } 
+
+h1.landing-heading {
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.landing-info {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 @media screen and (max-width: $grid-tablet-breakpoint) {
   .landing-af {

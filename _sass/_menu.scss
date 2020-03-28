@@ -1,11 +1,15 @@
-#menu {
+#menu-inner {
   display: flex;
   padding: 2em 0;
   height: 80px;
 
   border-bottom: 1px solid rgba(151, 151, 151, 0.14);
 
-  .logo {
+  a {
+    text-decoration: none;
+  }
+
+  .logo, .logo a {
     display: flex;
     flex-direction: horizontal;
     align-items: center;
@@ -25,14 +29,17 @@
     display: flex;
     margin: 0;
     list-style: none;
-    
+
+    li.call-to-action {
+      a {
+        padding: 10px 15px;
+        border-radius: 10px;
+        background-color: $highlight-color;;
+      }
+    }
     li {
       flex: 1;
       text-align: center;
-
-      a {
-        text-decoration: none;
-      }
     }
   }
 }
