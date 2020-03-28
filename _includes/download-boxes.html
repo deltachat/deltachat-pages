@@ -3,14 +3,14 @@
 {% assign VERSION_DESKTOP = "1.1.1" %}
 
 <div id="recommendation-section" hidden>
-  <h1>{%if tx.download.recommendation != ""%}{{ tx.download.recommendation }}{%else%}{{ txEn.download.recommendation }}{%endif%}</h1>
+  <h2>{%if tx.download.recommendation != ""%}{{ tx.download.recommendation }}{%else%}{{ txEn.download.recommendation }}{%endif%}</h2>
   <div id="recommend"></div>
-  <h1>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</h1>
+  <h2>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</h2>
 </div>
-<h1 id="noscript-headline">{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h1>
+<h2 id="noscript-headline">{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h2>
 <div id="boxes">
   <div class="box" id="android">
-    <div class="title">Android</div>
+    <h3>Android</h3>
     <div class="buttons">
       <a href="https://play.google.com/store/apps/details?id=chat.delta" class="img-badge">
         <img src="../assets/badges/get-it-on-gplay.png" alt="{%if tx.download.gplay != ""%}{{ tx.download.gplay }}{%else%}{{ txEn.download.gplay }}{%endif%}"  />
@@ -31,7 +31,7 @@
     </div>
   </div>
   <div class="box" id="ios">
-    <div class="title">iPhone/iPad</div>
+    <h3>iPhone/iPad</h3>
     <div class="buttons">
       <a class="img-badge" href="https://apps.apple.com/us/app/delta-chat/id1459523234">
         <img src="../assets/badges/get-it-on-ios.png" alt="{%if tx.download.dl_appstore != ""%}{{ tx.download.dl_appstore }}{%else%}{{ txEn.download.dl_appstore }}{%endif%}" />
@@ -42,7 +42,7 @@
     </div>
   </div>
   <div class="box" id="macos">
-    <div class="title">macOS</div>
+    <h3>macOS</h3>
     <div class="buttons">
       <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg" class="img-badge">
         <img src="../assets/badges/get-it-on-macos.png" alt="Get it on macOS" />
@@ -53,7 +53,7 @@
     </div>
   </div>
   <div class="box" id="windows">
-    <div class="title">Windows</div>
+    <h3>Windows</h3>
     <div class="buttons">
       <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe" class="img-badge">
         <img src="../assets/badges/get-it-on-windows.png" alt="Get it on Windows" />
@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="box" id="linux">
-    <div class="title">GNU/Linux</div>
+    <h3>GNU/Linux</h3>
     <div class="buttons">
       <a href="https://flathub.org/apps/details/chat.delta.desktop" class="img-badge">
         <img src="../assets/badges/flathub.png" alt="{%if tx.download.flathub != ""%}{{ tx.download.flathub }}{%else%}{{ txEn.download.flathub }}{%endif%}" />

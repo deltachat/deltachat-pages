@@ -12,28 +12,52 @@ h2 {
   font-size: 20px;
   line-height: 24px;
   font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 
 h3 {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 h4 {
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 h5 {
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 h6 {
   font-size: 18px;
   line-height: 22px;
-  font-weight: 400
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
+
+i {
+  font-weight: 200;
+  font-style: italic;
+}
+
+b, strong {
+  font-weight: 400;
+}
+
+li > p {
+  margin: 0;
+}
+
