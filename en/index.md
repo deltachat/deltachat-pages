@@ -36,4 +36,4 @@ index: true
 <p>
   Delta Chat is <a href="https://en.wikipedia.org/wiki/Open-source_software">Open Source</a> and <a href="https://en.wikipedia.org/wiki/Free_software">Free Software</a>. You can use, see, change, and share it at will, with everyone.
 </p>
-<</div>
+</div>
