@@ -2,12 +2,6 @@
 {% assign tx = site.data.lang[page.lang][page.lang] %}
 {% assign VERSION_DESKTOP = "1.1.1" %}
 
-<div id="recommendation-section" hidden>
-  <h2>{%if tx.download.recommendation != ""%}{{ tx.download.recommendation }}{%else%}{{ txEn.download.recommendation }}{%endif%}</h2>
-  <div id="recommend"></div>
-  <h2>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</h2>
-</div>
-<h2 id="noscript-headline">{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h2>
 <div id="boxes">
   <div class="box" id="android">
     <h3>Android</h3>
@@ -30,6 +24,7 @@
       {%if tx.download.dl_apk_text.after != ""%}{{ tx.download.dl_apk_text.after }}{%else%}{{ txEn.download.dl_apk_text.after }}{%endif%}
     </div>
   </div>
+  
   <div class="box" id="ios">
     <h3>iPhone/iPad</h3>
     <div class="buttons">
@@ -41,6 +36,7 @@
       <a href="https://github.com/deltachat/deltachat-ios">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
     </div>
   </div>
+  
   <div class="box" id="macos">
     <h3>macOS</h3>
     <div class="buttons">
@@ -52,6 +48,7 @@
       <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
     </div>
   </div>
+  
   <div class="box" id="windows">
     <h3>Windows</h3>
     <div class="buttons">
@@ -65,6 +62,7 @@
       <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
     </div>
   </div>
+  
   <div class="box" id="linux">
     <h3>GNU/Linux</h3>
     <div class="buttons">
@@ -83,4 +81,4 @@
     </div>
   </div>
 </div>
-<script src="../assets/js/download-page2.js"></script>
+

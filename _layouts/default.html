@@ -53,8 +53,11 @@
       {% if page.index == true %}
         {% include index.html %}
       {% endif %}
+      {% if page.downloads == true %}
+        {% include recommendation.html %}
+      {% endif %}
 
-      <div id="content">
+      <div class="content">
         <div class="grid">
           <div class="col-desk-12 col-tab-12 col-mob-4">
             {% if page.is_post == true %}
@@ -68,19 +71,19 @@
               {% endif %}
 
               {% if page.downloads == true %}
-              <div class="download-content col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4">
+                <div class="download-content col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4">
                 {% include download-boxes.html %}
-                {% endif %}
+              {% endif %}
 
-                {% if page.render_toc == true %}
+              {% if page.render_toc == true %}
                 {% include toc.html html=content %}
-                {% endif %}
+              {% endif %}
 
                 {% include anchor_headings.html html=content anchorClass="anchor" %}
 
-                {% if page.downloads == true %}
+              {% if page.downloads == true %}
                 </div>
-                {% endif %}
+              {% endif %}
 
               {% if page.is_post == true %}
               <div class="blog-menu">
@@ -118,5 +121,9 @@
         </div>
       </div>
     </div>
+
+    {% if page.downloads == true %}
+      <script src="../assets/js/download-page2.js"></script>
+    {% endif %}
   </body>
 </html>

@@ -1,0 +1,20 @@
+{% assign txEn = site.data.lang['en']['en'] %}
+{% assign tx = site.data.lang[page.lang][page.lang] %}
+
+<div class="download-content">
+  <div class="grid">
+    <div id="recommendation-section" class="col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4" hidden>
+      <h1>
+        {%if tx.download.recommendation != ""%}{{ tx.download.recommendation }}{%else%}{{ txEn.download.recommendation }}{%endif%}
+      </h1>
+      <div id="recommend"></div>
+    </div>
+
+    <div class="col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4">
+      <h2 id="noscript-headline">
+        {%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}
+      </h2>
+    </div>
+  </div>
+</div>
+

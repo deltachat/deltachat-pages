@@ -1,67 +1,64 @@
-#content {
-  .download-content {
-    .recommendation-section .recommendation-bg {
-      border: 1px solid red;
-    }
+.download-content {
+  #recommendation-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-    .box {
-      .buttons {
+  .box {
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 1em 0;
+
+
+      a {
+        color: white;
+      }
+      
+      a:not(.img-badge) {
+        background: #111;
+        font-weight: 400;
+        padding: 5px;
+        margin: 3px;
+        text-decoration: none;
+        height: 48px;
+        box-sizing: border-box;
+        border: 2px solid #444;
+        border-radius: 5px;
+        line-height: 1.23;
+        min-width: 160px;
+      }
+
+      a.img-badge {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 1em 0;
-
-
-        a {
-          color: white;
-        }
-        
-        a:not(.img-badge) {
-          background: #111;
-          font-weight: 400;
-          padding: 5px;
-          margin: 3px;
-          text-decoration: none;
+        align-content: center;
+        margin: 3px;
+        &>img{
           height: 48px;
-          box-sizing: border-box;
-          border: 2px solid #444;
-          border-radius: 5px;
-          line-height: 1.23;
-          min-width: 160px;
-        }
-
-        a.img-badge {
-          display: flex;
-          align-content: center;
-          margin: 3px;
-          &>img{
-            height: 48px;
-          }
-        }
-
-        small {
-          display: block;
-          font-weight:normal;
-          font-size: 13px;
         }
       }
-      .descr {
+
+      small {
+        display: block;
+        font-weight:normal;
+        font-size: 13px;
       }
     }
-    
-    code {
-      background: transparent;
+    .descr {
     }
+  }
+  
+  code {
+    background: transparent;
   }
 }
 @media screen and (max-width: $grid-mobile-breakpoint) {
-  #content {
-    .download-content {
-      .box {
-        .buttons {
-          flex-direction: column;
-        }
+  .download-content {
+    .box {
+      .buttons {
+        flex-direction: column;
       }
     }
   }
