@@ -11,7 +11,7 @@ with the appstore releases for Android or iOS, you can get a decent multi-device
 
 For many other messengers you need a phone number, or at least a mobile device -
 but not for Delta Chat. Even if you don't have a phone or tablet, you can use the Desktop
-Client on its own.
+client on its own.
 
 Additionally, most messengers have the problem that you can only chat with others if they
 use the same messenger. With Delta Chat, you can write to anyone with an email address.
