@@ -87,7 +87,7 @@ contact history.
 
 ## Installing Delta Chat Desktop 
 
-The Desktop Client will soon be available on the macOS and Windows Appstores; for
+The desktop client will soon be available on the macOS and Windows Appstores; for
 now, you need to **download it from [this website](https://get.delta.chat).**
 
 Note that you could be presented with a warning saying Delta Chat is not an official app, because
