@@ -5,7 +5,7 @@ image: ../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-g
 ---
 
 <img src="../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-group-chat.jpg" width="270" style="float: right; margin: 10px;display: block;" /> 
-**Delta Chat Desktop does not only work well on all platforms now. It also
+**Delta Chat Desktop does not only work well on all major platforms now. It also
 offers multi-account support, and can be used even without a mobile device. If you use it together
 with the appstore releases for Android or iOS, you can get a decent multi-device experience.**
 
