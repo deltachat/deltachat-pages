@@ -73,5 +73,9 @@
   .post-box {
     flex-direction: column;
   }
+  .post-box .featured-image {
+    width: 90%;
+    height: 200px;
+  }
 }
 
