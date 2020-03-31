@@ -21,6 +21,7 @@ address the identified needs.
 
 <a href="../assets/blog/2020-03-multitool-needfinding.pdf">
     <img src="../assets/blog/2020-03-31-needfinding_frontpage.png"
-         width="200" style="border-width: 2px; border-color: black; border-style: solid;"/>
+         width="260" style="border-width: 1px; border-color: grey; border-style: solid;"/><br>
+    <b>Download</b> 2020-03-multitool-needfinding.pdf
 </a>
 
