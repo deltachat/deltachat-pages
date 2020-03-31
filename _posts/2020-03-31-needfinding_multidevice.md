@@ -4,6 +4,7 @@ author: holger
 image: ../assets/blog/2020-multi-tool.jpg
 ---
 
+<img src="../assets/blog/2020-multi-tool.jpg" width="270" style="float:right; margin-bottom:1em;" />
 A new Delta Chat UX study [is out](../assets/blog/2020-03-multitool-needfinding.pdf), 
 based on Xenia's interviews with people engaged in human rights missions in Belarus, 
 Russia, Ukraine, Iran, Taiwan and Hong Kong.  It focuses on how Delta
