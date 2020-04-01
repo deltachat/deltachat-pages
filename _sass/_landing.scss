@@ -23,6 +23,8 @@
       border-radius: 10px;
       padding: 15px 25px;
       text-decoration: none;
+      margin-top: 1em;
+      margin-bottom: 2em;
 
       &:hover {
         color: #FFF;
@@ -55,15 +57,11 @@
 .landing-info-top {
   display: flex;
   
-  .landing-info {
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-    h2 {
-      font-weight: 400;
-      font-size: 56px;
-      line-height: 60px;
-    }
+  .landing-info h2 {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    margin-top: 0.83em;
   }
 }
 

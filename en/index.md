@@ -6,6 +6,16 @@ index: true
 
 <div class="landing-info-top col-desk-12 col-mob-4">
 <div class="landing-info col-desk-4 col-mob-4">
+  <h2>
+    Message <br/> Anyone
+  </h2>
+  <p>
+    Delta Chat works with any e-mail address, regardless if all participants use a regular e-mail client or
+    DeltaChat.
+  </p>
+</div>
+
+<div class="landing-info col-desk-4 col-mob-4">
   <h2>Privacy <br/>First</h2>
   <p>
     Experience a messaging like Telegram or Whatsapp, but without giving up privacy. 
@@ -19,16 +29,6 @@ index: true
   <p>
     Delta Chat doesn't have their own servers, it simply uses the largest and most diverse open messaging system ever: 
     the existing e-mail server network.
-  </p>
-</div>
-
-<div class="landing-info col-desk-4 col-mob-4">
-  <h2>
-    Message <br/> Anyone
-  </h2>
-  <p>
-    Delta Chat works with any e-mail address, regardless if all participants use a regular e-mail client or
-    DeltaChat.
   </p>
 </div>
 </div>
