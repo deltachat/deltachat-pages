@@ -5,16 +5,20 @@ lang: en
 
 # Channels and repositories
 
-- [Delta Chat support forum](https://support.delta.chat) for wider
+<i class="fa fa-comments"></i>
+  [Delta Chat support forum](https://support.delta.chat) for wider
   feature discussions and getting support.
 
-- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
+<i class="fa fa-hashtag"></i>
+  [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
 
-- [Delta Chat mailing
+<i class="fa fa-envelope"></i>
+  [Delta Chat mailing
   list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   for community discussions and news.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
+<i class="fa fa-github"></i>
+  [Delta Chat repositories](https://github.com/deltachat/) where you can
   find the code for DeltaChat apps and this web site.
 
 # Translations and Bug Reports 
