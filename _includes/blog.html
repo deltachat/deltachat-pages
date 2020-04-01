@@ -3,14 +3,14 @@
 {% assign index = index | plus:1 %}
 <div class="post-box col-desk-10 col-desk-shift-1 col-mob-shift-0 col-mob-4">
 {% if post.image and index <= 10 %}
-  <a href="{{ site.baseurl }}{{ post.url }}">
-    <div class="featured-image col-desk-4 col-desk-shift-1 col-mob-shift-0 col-mob-4">
+  <div class="featured-image col-desk-4 col-desk-shift-1 col-mob-shift-0 col-mob-4">
+    <a href="{{ site.baseurl }}{{ post.url }}">
       <img src="{{ post.image }}" />
-    </div>
-    <div class="col-desk-7 col-mob-4">
-      <h2>{{ post.title }}</h2>
+    </a>
+  </div>
+  <div class="col-desk-7 col-mob-4">
+    <h2>{{ post.title }}</h2>
     <div>
-  </a>
       <em>{{ post.date | date: "%B %d, %Y" }}</em> -
       {{ post.excerpt | strip_html }} 
       <a href="{{ site.baseurl }}{{ post.url }}">Read on...</a>
