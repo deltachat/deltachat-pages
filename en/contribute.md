@@ -10,7 +10,7 @@ lang: en
   feature discussions and getting support.
 
 <i class="fa fa-hashtag"></i>
-  [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
+  [#deltachat on irc.freenode.net]({% include webirc-url %}) for day to day communications.
 
 <i class="fa fa-envelope"></i>
   [Delta Chat mailing
