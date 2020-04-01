@@ -33,15 +33,15 @@
             </div>
             <ul class="nav col-desk-6 col-tab-6 col-mob-4">
               <li class="col-desk-1 col-tab-1 col-mob-4">
+                <a href="blog">{%if tx.menu.blog != ""%}{{ tx.menu.blog }}{%else%}{{ txEn.menu.blog }}{%endif%}</a></li>
+              <li class="col-desk-1 col-tab-1 col-mob-4">
+                <a href="contribute">{%if tx.menu.contribute != ""%}{{ tx.menu.contribute }}{%else%}{{ txEn.menu.contribute }}{%endif%}</a>
+              </li>
+              <li class="col-desk-1 col-tab-1 col-mob-4">
                 <a href="help">{%if tx.menu.help != ""%}{{ tx.menu.help }}{%else%}{{ txEn.menu.help }}{%endif%}</a>
               </li>
               <li class="col-desk-1 col-tab-1 col-mob-4">
-                <a href="blog">{%if tx.menu.blog != ""%}{{ tx.menu.blog }}{%else%}{{ txEn.menu.blog }}{%endif%}</a></li>
-              <li class="col-desk-1 col-tab-1 col-mob-4">
                 <a href="https://support.delta.chat" target="_blank">{%if tx.menu.forum != ""%}{{ tx.menu.forum }}{%else%}{{ txEn.menu.forum }}{%endif%}</a>
-              </li>
-              <li class="col-desk-1 col-tab-1 col-mob-4">
-                <a href="contribute">{%if tx.menu.contribute != ""%}{{ tx.menu.contribute }}{%else%}{{ txEn.menu.contribute }}{%endif%}</a>
               </li>
               <li class="call-to-action col-desk-1 col-tab-1 col-mob-4">
                 <a href="download">{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</a>
