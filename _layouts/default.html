@@ -70,22 +70,24 @@
               <p class="blogdate">{{ page.date | date: "%B %d, %Y" }} {% if page.author %}by {{ page.author }}{% endif %}</p>
               {% endif %}
 
-              {% if page.header != blank %}
-              <h1>{{page.header}}</h1>
-              {% endif %}
-
               {% if page.downloads == true %}
                 <div class="download-content col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4">
                 {% include download-boxes.html %}
               {% endif %}
 
               {% if page.render_toc == true %}
+                <div class="col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4">
+                <h1>{{page.header}}</h1>
                 {% include toc.html html=content %}
+              {% endif %}
+
+              {% if page.path == contr %}
+                <div class="col-desk-8 col-desk-shift-2 col-mob-shift-0 col-mob-4">
               {% endif %}
 
                 {% include anchor_headings.html html=content anchorClass="anchor" %}
 
-              {% if page.downloads == true %}
+              {% if page.downloads == true or page.render_toc == true or page.path == contr %}
                 </div>
               {% endif %}
 
