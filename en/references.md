@@ -10,6 +10,13 @@ This list is far from being complete - did we miss something? Please
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Tuxicoman (French Blog): Deltachat
+
+_"L’adresse de vos destinataires est simplement leur email que vous avez déjà sûrement."_
+
+2020-03-29, <https://tuxicoman.jesuislibre.net/2020/03/deltachat.html>
+
+
 ### Hambi Bleibt (German blog): Nützliche, dezentrale Online-Tools für Organisierung
 
 _"Wenn eure Gruppe oder Stadt-Szene einen Messenger sucht, der mit vielen Leuten kompatibel ist, ist Delta Chat eine gute Wahl."_
