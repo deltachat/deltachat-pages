@@ -1,6 +1,7 @@
 ---
 title: New Delta/Desktop Release for Windows, macOS, or Linux
 author: compl4xx
+image: ../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-group-chat.jpg
 ---
 
 <img src="../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-group-chat.jpg" width="270" style="float: right; margin: 10px;display: block;" /> 
@@ -52,7 +53,7 @@ happen. Here is a quick overview:
 - There is now also the Saved Messages & Device Chat which you might know already 
   from [the mobile apps](https://delta.chat/en/2019-12-18-google-play-store-release).
 
-- With version 1.1.0, you can adjust the font size in the top level menu.
+- With version 1.2.0, you can adjust the font size in the top level menu.
   Choose it with a click on "View -> Zoom Factor".
 
 - The group name will now be used as the subject for outgoing messages. 
