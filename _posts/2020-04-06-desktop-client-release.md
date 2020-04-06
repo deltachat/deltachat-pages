@@ -1,5 +1,5 @@
 ---
-title: New Delta/Desktop Release for Windows, macOS, or Linux
+title: New Delta/Desktop Release for Windows, macOS, and Linux
 author: compl4xx
 image: ../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-group-chat.jpg
 ---
