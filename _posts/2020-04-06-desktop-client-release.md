@@ -82,7 +82,7 @@ pretty new to the Desktop Client.
 
 Note that the "Autocrypt Setup Message" is only useful in one case: if you want
 to synchronize your Delta Chat app with another Autocrypt-supporting mail
-client. It only allows to transfer the encryption setup but not any chat or
+client. It only allows to transfer the encryption setup, but not any chat or
 contact history. 
 
 ## Installing Delta Chat Desktop 
