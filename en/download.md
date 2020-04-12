@@ -11,6 +11,14 @@ downloads: true
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
 * [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
+The desktop versions do not require Delta Chat to be installed on a phone.
+
+Minimal requirements:
+Android 4.1 Jelly Bean
+or iOS 11, iPhone 5s or iPad 5/Air/Mini
+or Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 or Debian 8
+or compatible systems.
+
 ## Links
 
 * [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
