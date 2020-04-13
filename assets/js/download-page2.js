@@ -1,26 +1,37 @@
 function main() {
-    document.getElementById("recommendation-section").hidden = false;
-    document.getElementById("noscript-headline").hidden = true;
+    var os = userAgentToOS();
+    if (os!=='') {
+        document.getElementById("recommendation-section").hidden = false;
+        document.getElementById("noscript-headline").hidden = true;
 
-    var recommend = document.getElementById("recommend");
-    recommend.appendChild(document.getElementById(userAgentToOS()));
-
+        var recommend = document.getElementById("recommend");
+        recommend.appendChild(document.getElementById(os));
+    }
 }
 
 function userAgentToOS() {
+    // return the OS, if in doubt, an empty string is returned
     var uA = navigator.userAgent;
     if (uA.includes('iPad') && uA.includes('Mobile'))
-        return 'ios'
+        return 'ios';
     else if (uA.includes('iPhone') && uA.includes('Mobile'))
-        return 'ios'
+        return 'ios';
     else if (uA.includes('Android'))
-        return 'android'
+        return 'android';
     else if (uA.includes('Linux'))
-        return 'linux'
+        return 'linux';
     else if (uA.includes('Windows'))
-        return 'windows'
-    else if (uA.includes('Macintosh') || uA.includes('Mac OS X'))
-        return 'macos'
+        return 'windows';
+    else if (uA.includes('Macintosh') || uA.includes('Mac OS X')) {
+        // ipadOS uses the same user agent as macOS intentionally.
+        // as there is no official touch screen for macOS, checking maxTouchPoints seems to be quite safe
+        if (navigator.maxTouchPoints && navigator.maxTouchPoints > 2) {
+            return 'ios';
+        } else {
+            return 'macos';
+        }
+    } else
+        return '';
 }
 
-main()
+main();
