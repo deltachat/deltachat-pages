@@ -474,9 +474,9 @@ shumë pajisje mund të mos punojë si duhet.
 
 ### Si financohet zhvillimi i Delta Chat-it?
 
-First of all, Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
+Pikësëpari, Delta Chat s’merr financime të llojit Venture Capital dhe
+s’është në borxhe, dhe nën trysni për të prodhuar përfitime të mëdha, apo 
+të shesë përdoruesit bashkë me miqtë dhe familjet te reklamues (apo më keq).
 
 Deri këtu, zhvillimi i Delta Chat-it është financuar nga katër burime kryesore: 
 
@@ -484,23 +484,25 @@ Deri këtu, zhvillimi i Delta Chat-it është financuar nga katër burime kryeso
   sendërtimin e grupeve të verifikuar dhe protokolle ujdisje kontaktesh
   më 2017 dhe 2018.
 
-- The [Open Technology Fund](https://opentechfund.org) has given two grants.
-  The first 2018/2019 grant (~$200K) majorly improved the Android app 
-  and allowed us to release a Desktop app beta version, and also 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  See the 
-  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+- [Fondacioni për Teknologji të Hapur](https://opentechfund.org) ka dhënë dy
+  grante.
+  Granti i parë më 2018/2019 (~200 mijë dollarë) më së shumti përmirësoi
+  aplikacionin  Android dhe na lejoi të hedhim në qarkullim një version beta
+  për dekstop, dhe hodhi gjithashtu bazat për zhvillim veçorish në kërkime UX
+  në kontekste të drejtash të njeriut, shihni [raportin tonë përmbledhës
+  “Needfinding and UX”](https://delta.chat/en/2019-07-19-uxreport).
+  Granti i dytë 2019/2020 (~$300K) po përdoret ende dhe na ndihmon të hedhim
+  në qarkullim versione Delta/iOS, për shndërrimin e librarisë sonë bazë në
+  Rust, and dhe sjellim veçori të reja për krejt platformat.  Për më tepër
+  të dhëna, shihni [postimet që bëhen në blog](https://delta.chat/en/blog).
 
 - [Fondacioni NLnet](https://nlnet.nl/) dha një grant prej 46 mijë eurosh për
   të plotësuar <em>Rust/Python bindings</em> për t’i dhënë udhë një ekosistemi <em>Chat-bot</em>. 
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
-  small amounts. Without them, Delta Chat would not be where it is today, not
-  even close. 
+- E fundit, por aspak për nga rëndësia, disa ekspertë dhe entuziastë kanë dhënë
+  dhe japin ndihmesë pro-bono në zhvillimin e Delta Chat-it pa përfituar para,
+  ose vetëm shuma të vogla. Pa ta, Delta Chat-i s’do të ish atje ku është sot,
+  madje as afër asaj.
 
 Financimi monetar i përmendur më sipër u organizua nga merlinux GmbH në
 Frajburg (Gjermany), dhe shpërndarë më pas thuajse një duzine kontribuesish. 

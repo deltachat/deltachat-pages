@@ -11,6 +11,20 @@ Hebben we iets gemist?
 of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Tuxicoman (Frans blog): Deltachat
+
+_"L’adresse de vos destinataires est simplement leur email que vous avez déjà sûrement."_
+
+2020-03-29, <https://tuxicoman.jesuislibre.net/2020/03/deltachat.html>
+
+
+### Hambi Bleibt (Duits blog): Nuttige, decentrale online-programma's ten behoeve van organiseren
+
+_"Wenn eure Gruppe oder Stadt-Szene einen Messenger sucht, der mit vielen Leuten kompatibel ist, ist Delta Chat eine gute Wahl."_
+
+2020-03-24, <https://hambacherforst.org/blog/2020/03/24/nuetzliche-dezentrale-online-tools-fuer-organisierung/>
+
+
 ### DesdeLinux (Spaans technologieblog): Delta Chat: La aplicación de mensajería libre y abierta basada en correos
 
 _"El cifrado de extremo a extremo no solo funciona entre las aplicaciones de Delta Chat, sino también con otras aplicaciones de correo electrónico si son compatibles con el estándar de cifrado Autocrypt Nivel 1."_
@@ -43,6 +57,13 @@ _"Mit Delta-Chat gewinnt man die Vorteile der Mail-Nutzung (z. B. sehr verbreite
 ### GeekOTG.com: Delta Chat精简便携版
 
 2020-01-14, <http://www.geekotg.com/pc/11509.html>
+
+
+### Le Alternative (Italiaans technologieblog): Whatsapp-alternatieven
+
+_"Si tratta di un progetto sperimentale davvero molto interessante. Non ci sono server proprietari, non ci sono tracciamenti e non c’è un controllo centralizzato."_
+
+2020-01-09, <https://www.lealternative.net/2020/01/09/alternative-a-whatsapp/>
 
 
 ### The China Post: Delta Chat - een berichtenapp via het e-mailprotocol
