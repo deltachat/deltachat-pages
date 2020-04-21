@@ -30,7 +30,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 Për të dhëna mbi hedhjet e tanishme në qarkullim dhe veprimtari, ju lutemi,
 shihni te [get.delta.chat](https://get.delta.chat) dhe [postimet më të reja
-në blog posts](blog).
+në blog](blog).
 
 Delta Chat është me [Burim të Hapët](https://en.wikipedia.org/wiki/Open-source_software)
 dhe [Software i Lirë](https://en.wikipedia.org/wiki/Free_software).  Mund ta

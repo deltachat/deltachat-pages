@@ -51,9 +51,9 @@ Otros mensajes no aparecen automáticamente y se encuentran en el menú principa
 
 ### ¿Qué pasa con el Spam?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
-- However, if needed, you can **block** any contact.
+- Se ignoran los mensajes en carpetas de spam comunes, y las direcciones que contienen no se consideran contactos conocidos.
+- Como los mensajes de contactos desconocidos no aparecen automáticamente, normalmente **no hay spam**.
+- De todas formas, de ser necesario, puedes **bloquear** cualquier contacto.
 
 
 ### ¿Delta Chat soporta envío de imágenes, videos, documentos y otros archivos?
@@ -91,10 +91,8 @@ Si utiliza un proveedor de correo electrónico con soporte de OAuth2 como gmail.
 no es necesario almacenar su contraseña en el dispositivo. En este caso, solo se usa un
 token de acceso.
 
-As Delta Chat is Open Source, you can check the [Source
-Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
-if you want to verify that your credentials are handled securely. We are happy
-about feedback which makes the app more secure for all of our users.
+Como Delta Chat es de Código Abierto, puedes investigar el Código Fuente si quieres verificar que tus credenciales son gestionadas de manera segura.
+Estamos felices de recibir críticas que hagan la aplicación más segura para todos los usuarios.
 
 
 ### ¿Qué permisos de Android necesita Delta Chat?

@@ -39,4 +39,4 @@ Nëse dëshironi të përkrahsni DeltaChat-in me para:
 - Dërgoni bitkoins te [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Na duhen **pajisje** për qëllime testimi. Keni ndonjë Android Smartphone ose iPhone që s’e përdorni më?
-[Do](imprint) të donim ta kishim!
+[Do të donim](imprint) ta kishim!

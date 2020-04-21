@@ -170,14 +170,14 @@ così che la funzione possa uscire al più presto dallo stato sperimentale.
   e potrai rispondere, ma non ti appariranno più le notifiche.
 
 
-### What do double ticks mean in group messages? Has everyone read my message now?
+### Cosa significa la doppia spunta nei messaggi di gruppo? Tutti hanno letto il messaggio?
 
-- A message shows double ticks after more than half the the recipients have
-  seen the message on their display.
-- Note that some recipients might have disabled read-receipts for
-  privacy-reasons.
-- If more than 50% in a group disabled read receipts, the double ticks will
-  never show up. For more detailed information, see
+- Un messaggio mostra la doppia spunta quando più della metà dei riceventi
+  ha visualizzato il messaggio sullo schermo.
+- Nota che alcuni destinatari potrebbero aver disabilitato le notifiche
+  di lettura per ragioni di privacy.
+- Se più del 50% dei membri del gruppo ha disabilitato le notifiche di lettura,
+  le doppie spunte non venogno mai mostrate. Per i dettagli, vedi
   [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
 
 
@@ -188,8 +188,8 @@ così che la funzione possa uscire al più presto dallo stato sperimentale.
 - Si. DeltaChat implementa lo standard Autocrypt Level 1 e può anche 
   cifrare e2e i messaggi da e verso altre app compatibili con Autocrypt.
 
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
+- Delta Chat supporta anche una forma rafforzata di cifratura end-to-end,
+  sicura anche contro attacchi attivi, vedi "gruppi verificati" più sotto.
 
 
 ### Cosa devo fare per attivare la cifratura end-to-end?
@@ -203,8 +203,8 @@ così che la funzione possa uscire al più presto dallo stato sperimentale.
   Se un membro della chat non usa un'app compatibile con Autocrypt 
   i messaggi non vengono cifrati finché non ne viene usata una compatibile.
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings / Advanced settings".
+- Se preferisci evitare la crittografia end-to-end delle email predefinita, 
+  usa la relativa impostazione di Autocrypt in "Impostazioni / Impostazioni avanzate".
 
 
 ### Se la cifratura end-to-end non è disponibile, anche la connessione non viene cifrata?
@@ -241,12 +241,12 @@ Il profilo utente mostra alcune info aggiuntive:
 
 ### Quali standard vengono usati per la crittografia end-to-end?
 
-- [Autocrypt](https://autocrypt.org) is used for establishing
-  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. 
+- [Autocrypt](https://autocrypt.org) viene usato per stabilire
+  la cifratura-e2e con altre app email Delta Chat o compatibili con Autocrypt. 
+  Autocrypt usa un sottoinsieme delle funzionalità OpenPGP. 
 
-- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
-  base protection of Autocrypt Level 1, while maintaining its ease of use.  
+- Delta Chat implementa [protocolli di creazione contatti e verifica gruppi con countermitm](https://countermitm.readthedocs.io/en/latest/new.html) per garantire la protezione dagli attacchi di rete.  Questo va oltre  la protezione
+  base di Autocrypt Level 1 pur mantenendo la facilità d'uso.  
 
 ### Qual è la differenza tra i gruppi verificati e le chat 1:1 con i contatti verificati?
 
@@ -344,18 +344,18 @@ Per gli altri programmi puoi trovare altre soluzioni online.
 
 ### Posso usare Delta Chat su più dispositivi contemporaneamente?
 
-If you want to use the **same account** on different devices, you should export
-a backup from the old device, and import it into the new device:
+Se vuoi utilizzare lo **stesso account** su diversi dispositivi, devi esportare
+un backup dal vecchio dispositivo e importarlo nel nuovo:
 
-- On the old device, choose "Settings / Chats and media / Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- Nel vecchio dispositivo, seleziona "Impostazioni / Chat e media / Backup". Inserisci
+  il PIN, tracciato o password di sblocco, poi seleziona "Avvia
+  Backup". Questo salva il backup nel dispositivo e deve essere trasferito
+  in qualche modo all'altro dispostivo.
+- Nella schermata di accesso del nuovo dispositivo, invece di inserire l'email
+  seleziona "Importa backup". Dopo l'importazione, le conversazioni, le chiavi
+  di crittografia e i media saranno presenti sul nuovo dispositivo.
+- Ora sono sincronizzati e puoi utilizzare entrambi i dispositivi per inviare e
+  ricevere messaggi cifrati E2E con i tuoi contatti. 
 
 ### E' in previsione la creazione di un client web di Delta Chat?
 
@@ -459,43 +459,43 @@ lavorata all'interno delle loro piattaforme e non compatibile con nessuno all'es
 
 - Consulta la pagina [Standard utilizzati in Delta Chat]({% include standards-url %}).
 
-### How are Delta Chat developments funded? 
+### Come viene finanziato lo sviluppo di Delta Chat? 
 
-First of all, Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
+Innanzitutto, Delta Chat non riceve alcun capitale di rischio,
+non ha debiti e non riceve pressioni per produrre enormi profitti o per 
+vendere gli utenti e i loro amici e familiari agli inserzionisti (o peggio).
 
-Delta Chat developments have so far been funded from four major sources: 
+Lo sviluppo di Delta Chat è stato finora finanziati da quattro fonti principali:
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018. 
+- Il progetto [NEXTLEAP](https://nextleap.eu) EU ha finanziato la ricerca
+  e l'implementazione dei protocolli dei gruppi verificati e dei contatti
+  nel 2017 e 2018. 
 
-- The [Open Technology Fund](https://opentechfund.org) has given two grants.
-  The first 2018/2019 grant (~$200K) majorly improved the Android app 
-  and allowed us to release a Desktop app beta version, and also 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  See the 
-  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+- L'[Open Technology Fund](https://opentechfund.org) ci ha fornito due finanziamenti.
+  Il primo nel 2018/2019 (~$200K) ha permesso di migliorare l'app Android 
+  e di rilasciare la app Desktop in versione beta, oltre a assicurare 
+  i nostri sviluppi della ricerca sulla UX in contesti di diritti umani. 
+  Vedi le conclusioni in [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  Il secondo finanziamento del 2019/2020 (~$300K) è ancora attivo e ci aiuta 
+  a rilasciare le versioni Delta/iOS, convertire le librerie del core a Rust e
+  fornire nuove funzionalità a tutte le piattaforme. Segui i 
+  [post del blog](https://delta.chat/en/blog) per altre informazioni. 
 
-- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+- La [NLnet foundation](https://nlnet.nl/) ha garantito EUR 46K per
+  il completamento dei binding Rust/Python e la creazione di un ecosistema Chat-bot. 
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
-  small amounts. Without them, Delta Chat would not be where it is today, not
-  even close. 
+Ultimo, ma non meno importante, alcuni esperti hanno contribuito pro-bono con
+altri sostenitori e contribuito allo sviluppo di Delta Chat senza ricevere soldi o
+solo piccole somme. Senza di loro Delta Chat non sarebbe dov'è ora, nemmeno
+vicino.
 
-The monetary funding mentioned above was organized by merlinux GmbH in
-Freiburg (Germany), and then distributed to almost a dozen contributors. 
+La raccolta dei finanziamenti citata sopra è organizzata da merlinux GmbH di
+Friburgo (Germania) e poi redistribita a dozzine di contributori.
 
-Funding for 2020/2021 is yet to be determined. We are pursuing several
-opportunities with different organisations and partners. We also are
-considering to ask for donations. In fact, we experimentally started
-a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
-but have not published this yet.  There were also around 3-4K so far
-donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
-donation channels.  
+Il finanziamento 2020/2021 deve ancora essere definito. Stiamo valutando varie
+opportunità con diverse organizzazioni e partner. Stiamo anche
+considerando di chiedere delle donazioni. Abbiamo avviato, sperimentalmente,
+un piccolo [account di donazione Delta Chat / Liberapay](https://liberapay.com/delta.chat/)
+ma non è ancora pubblico. Finora ci sono state donazioni per circa 3-4K
+a Bjoern (l'autore originale di Delta Chat) tramite i canali di donazione
+paypal e bitcoin.
