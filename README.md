@@ -27,8 +27,7 @@ How to create a new blog post
   [RSS-Feed](https://delta.chat/feed.xml). Ping r10s or compl4xx on
   irc.freenode.net/#deltachat so they post it to
   [Mastodon](https://chaos.social/@delta),
-  [Twitter](https://twitter.com/delta_chat),
-  [Friendica](https://ennibook.de/profile/delta_chat) and other services.
+  [Twitter](https://twitter.com/delta_chat), and other services.
 
 
 Testing changes
