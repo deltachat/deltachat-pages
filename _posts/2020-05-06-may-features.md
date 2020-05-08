@@ -4,9 +4,9 @@ author: compl4xx
 image: ../assets/blog/screenshots/2020-05-06-delta-chat-desktop-scan-qr-code.jpg
 ---
 
-**While the world was on hold, the Delta Chat development silenty continued.
-Here is a short list of features you can try out with the [new
-releases](https://get.delta.chat) coming this May!**
+**New Delta chat releases! Thanks to all the early testers and all the work
+that went into the new releases on Android, iOS and Desktop. Here is an
+overview on what you can expect:**
 
 ## Desktop 1.3
 
@@ -17,6 +17,8 @@ releases](https://get.delta.chat) coming this May!**
 
 ![A Screenshot of the Delta Chat Desktop Client, scanning a QR code.](../assets/blog/screenshots/2020-05-06-delta-chat-desktop-scan-qr-code.jpg)
 
+*You can now scan QR codes with the Desktop Client.*
+
 ## Android 1.6
 
 - Auto-delete messages from server, and/or from your device
@@ -25,7 +27,9 @@ releases](https://get.delta.chat) coming this May!**
 - Search through the in-app help
 - For new accounts, ed25519 keys are generated. The new keys are smaller and faster. [This saves traffic](https://delta.chat/en/2020-03-11-reduced-message-size) and time.
 
-![Switch Account in the Android App](../assets/blog/screenshots/2020-05-06-delta-chat-android-switch-account.png)
+![Search through chats in the Android App](../assets/blog/screenshots/2020-05-06-delta-chat-android-chat-search.png)
+
+*Search through all messages in a chat, and jump between the found messages.*
 
 ## iOS 1.6
 
@@ -35,6 +39,8 @@ releases](https://get.delta.chat) coming this May!**
 - For new accounts, ed25519 keys are generated. The new keys are smaller and faster. [This saves traffic](https://delta.chat/en/2020-03-11-reduced-message-size) and time.
 
 ![Delete Messages Automatically on iOS and Android.](../assets/blog/screenshots/2020-05-06-delta-chat-ios-autodelete.jpg)
+
+*You can automatically have your messages deleted to save space on your phone or protect yourself against device theft.*
 
 ## Try it out With the New Releases!
 
