@@ -25,7 +25,7 @@ overview on what you can expect:**
 - Have more than one account and switch between them (experimental)
 - Search messages in a chat
 - Search through the in-app help
-- For new accounts, ed25519 keys are generated. The new keys are smaller and faster. [This saves traffic](https://delta.chat/en/2020-03-11-reduced-message-size) and time.
+- For new accounts, Ed25519 keys are generated. The new keys are smaller and faster. [This saves traffic](https://delta.chat/en/2020-03-11-reduced-message-size) and time.
 
 ![Search through chats in the Android App](../assets/blog/screenshots/2020-05-06-delta-chat-android-chat-search.png)
 
