@@ -6,7 +6,7 @@ image: ../assets/blog/screenshots/2020-05-06-delta-chat-desktop-scan-qr-code.jpg
 
 **New Delta chat releases! Thanks to all the early testers and all the work
 that went into the new releases on Android, iOS and Desktop. Here is an
-overview on what you can expect:**
+overview of what to expect:**
 
 ## Desktop 1.3
 
