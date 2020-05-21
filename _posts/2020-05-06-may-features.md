@@ -40,7 +40,7 @@ overview on what you can expect:**
 
 ![Delete Messages Automatically on iOS and Android.](../assets/blog/screenshots/2020-05-06-delta-chat-ios-autodelete.jpg)
 
-*You can automatically have your messages deleted to save space on your phone or protect yourself against device theft.*
+*You can automatically have your messages deleted to save space on your device or protect it against theft.*
 
 ## Try it out With the New Releases!
 
