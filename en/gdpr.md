@@ -5,7 +5,7 @@ lang: en
 
 # Privacy Policy Delta Chat Apps 
 
-##  How Delta Chat complies to the GDPR 
+### How Delta Chat complies to the GDPR
 
 The General Data Protection Regulation (GDPR) is often regarded
 as the furthest reaching legislation for privacy protection of users. 
@@ -26,7 +26,7 @@ with GDPR requirements.
 - Can be used **without requiring a contract or instructions** from any controller (organisation), because no additional third party will process the E-Mail related personal data. 
 
 
-## How data controllers (organizations) benefit from using Delta Chat in complying to the GDPR
+### How data controllers (organizations) benefit from using Delta Chat in complying to the GDPR
 
 - Creates **no additional information requirements** for the controller towards direct or indirect data subjects 
   regarding any collection of address-book-data, article 13, 14 GDPR.
@@ -58,14 +58,14 @@ website is in compliance with the European General Data Protection Regulation
 (2016/679). Therefore, we minimise the processing of your data to the minimum
 necessary (Privacy by Design).
 
-## General information
+### General information
 
 The Delta.chat website does not use own or third party cookies, website
 analytics services, third party advertising and marketing services or the use
 of social media plug-ins. Data processing is limited to voluntary e-mail
 contact.
 
-## Responsible person
+### Responsible person
 
 The person responsible for the data processing of this site in terms of the
 DSGVO and other national data protection laws of the member states as well as
@@ -79,7 +79,7 @@ Your contact address for privacy issues at Delta.Chat:
 
 	delta-privacy@merlinux.eu
 
-## Delta mailing lists
+### Delta mailing lists
 
 When voluntarily subscribing to the Delta mailing lists, your email address
 from the input mask, the IP address of the calling computer, date and time of
@@ -91,7 +91,7 @@ Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
 subscription to the e-mail list is active. By unsubscribing from any mailing
 list, a revocation of consent is possible.
 
-## Rights of affected persons
+### Rights of affected persons
 
 You can request information from Delta.Chat about whether and how your data is
 processed by us. You have the right to object to the processing, which takes
@@ -102,7 +102,7 @@ the declaration of consent of the mailing list at any time. You have the right
 to receive the data in a structured common and machine-readable format and the
 right to complain to a supervisory authority.
 
-## Amendment of the privacy policy
+### Amendment of the privacy policy
 
 We reserve the right to update the present data protection regulations in view
 of the constantly changing legal and technical situation.
