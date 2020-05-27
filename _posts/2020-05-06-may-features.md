@@ -19,7 +19,7 @@ overview of what to expect:**
 
 *You can now scan QR codes with the Desktop Client.*
 
-## Android 1.6
+## Android 1.8
 
 - Auto-delete messages from server, and/or from your device
 - Have more than one account and switch between them (experimental)
@@ -31,11 +31,12 @@ overview of what to expect:**
 
 *Search through all messages in a chat, and jump between the found messages.*
 
-## iOS 1.6
+## iOS 1.8
 
 - Auto-delete messages from server, and/or from your device
 - Get started easier with the new welcome screen
 - Create account by scanning a QR code
+- Basic Share-to-Delta function
 - For new accounts, Ed25519 keys are generated. The new keys are smaller and faster. [This saves traffic](https://delta.chat/en/2020-03-11-reduced-message-size) and time.
 
 ![Delete Messages Automatically on iOS and Android.](../assets/blog/screenshots/2020-05-06-delta-chat-ios-autodelete.jpg)
