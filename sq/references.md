@@ -10,6 +10,13 @@ Kjo listë është larg së qeni e plotë - harruam diçka? Ju lutemi
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Vodafone (Operator gjerman telekomunikacionesh): Delta Chat: So funktioniert der Messenger-Konkurrent von WhatsApp
+
+_"Deine Nachrichten sind auf keinem (Dienst-)Server gespeichert, es gibt keine zentrale Steuerung und Du kannst nicht verfolgt werden."_
+
+06.05.2020, <https://www.vodafone.de/featured/apps/delta-chat-app-funktionen-e-mail-test/#/>
+
+
 ### Tuxicoman (Blog francez): Deltachat
 
 _"L’adresse de vos destinataires est simplement leur email que vous avez déjà sûrement."_

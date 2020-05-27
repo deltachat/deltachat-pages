@@ -10,6 +10,13 @@ Non è certo una lista completa - abbiamo dimenticato qualcosa? Per favore
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Vodafone (fornitore di telecomunicazioni in Germania): Delta Chat: come funziona il concorrente di messaggistica WhatsApp
+
+_"I tuoi messaggi non sono memorizzati su un server (di servizio), non esiste un controllo centrale e non puoi essere rintracciato."_
+
+2020-05-06, <https://www.vodafone.de/featured/apps/delta-chat-app-funktionen-e-mail-test/#/>
+
+
 ### Tuxicoman (Blog francese): Deltachat
 
 _"L’adresse de vos destinataires est simplement leur email que vous avez déjà sûrement."_

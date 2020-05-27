@@ -1,14 +1,16 @@
 ---
-titre: RGPD et vie privée
+title: Privacy for Delta Chat App and Websites
 lang: fr
 ---
 
-# Note sur la vie privée et le RGPD
+# Privacy Policy Delta Chat Apps 
 
-Le règlement général sur la protection des données (RGPD) est souvent considéré comme la législation la plus complète en matière de protection de la vie privée des utilisateurs. 
-Sur cette page, nous détaillons comment l'application Delta Chat se conforme facilement aux exigences du RGPD. 
+### How Delta Chat complies to the GDPR
 
-# Comment Delta Chat se conforme au RGPD
+The General Data Protection Regulation (GDPR) is often regarded
+as the furthest reaching legislation for privacy protection of users. 
+On this page we detail how the Delta Chat app and website complies 
+with GDPR requirements. 
 
 - Met en œuvre l'exigence de **Vie privée par conception** du RGPD, par
 
@@ -23,9 +25,7 @@ Sur cette page, nous détaillons comment l'application Delta Chat se conforme fa
 - Peut être utilisé **sans nécessiter de contrat ou d'instructions** de la part d'un responsable du traitement (organisation), car aucune tierce partie supplémentaire ne traitera les données à caractère personnel relatives aux courriers électroniques. 
 
 
-
-
-# Comment les contrôleurs de données (organisations) tirent-ils profit de l'utilisation de Delta Chat pour se conformer au RGPD ?
+### How data controllers (organizations) benefit from using Delta Chat in complying to the GDPR
 
 - Ne crée **aucune exigence d'information supplémentaire** pour le responsable du traitement à l'égard des personnes concernées directement ou indirectement concernant toute collecte de données du carnet d'adresses, article 13, 14 du RGPD.
 
@@ -40,4 +40,63 @@ Sur cette page, nous détaillons comment l'application Delta Chat se conforme fa
 
 
 Cette déclaration reflète le Règlement général sur la protection des données (RGPD) en vigueur au 16.05.2018.
+
+# Privacy Policy for Website visits 
+
+**Status: January 21, 2020**
+
+At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
+website is in compliance with the European General Data Protection Regulation
+(2016/679). Therefore, we minimise the processing of your data to the minimum
+necessary (Privacy by Design).
+
+### General information
+
+The Delta.chat website does not use own or third party cookies, website
+analytics services, third party advertising and marketing services or the use
+of social media plug-ins. Data processing is limited to voluntary e-mail
+contact.
+
+### Responsible person
+
+The person responsible for the data processing of this site in terms of the
+DSGVO and other national data protection laws of the member states as well as
+other data protection regulations is
+
+	Merlinux GmbH
+	Reichgrafen Str. 20 
+	79102 Freiburg
+
+Your contact address for privacy issues at Delta.Chat:
+
+	delta-privacy@merlinux.eu
+
+### Delta mailing lists
+
+When voluntarily subscribing to the Delta mailing lists, your email address
+from the input mask, the IP address of the calling computer, date and time of
+registration are transmitted. The processing of this data is solely for the
+purpose of processing the contacts and the delivery of the public community
+communication. As usual with open source projects, the shared messages can also
+be found in public archives. The legal basis for processing with consent is
+Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
+subscription to the e-mail list is active. By unsubscribing from any mailing
+list, a revocation of consent is possible.
+
+### Rights of affected persons
+
+You can request information from Delta.Chat about whether and how your data is
+processed by us. You have the right to object to the processing, which takes
+place on the basis of art. 6 I lit.e or lit.f GDPR. If the processing is
+incorrect or incomplete, you have the right to rectification/completion,
+cancellation and, if necessary, restriction of the processing. You can revoke
+the declaration of consent of the mailing list at any time. You have the right
+to receive the data in a structured common and machine-readable format and the
+right to complain to a supervisory authority.
+
+### Amendment of the privacy policy
+
+We reserve the right to update the present data protection regulations in view
+of the constantly changing legal and technical situation.
+
 

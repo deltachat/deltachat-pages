@@ -48,7 +48,7 @@ Delta Chat mostra automaticamente:
 Gli altri messaggi non appaiono automaticamente e devono essere cercati nella sezione **Richieste di contatto**. La chat può essere avviata da lì.
 
 
-### Come viene gestita la spam?
+### Come viene gestita lo spam?
 
 - I messaggi nelle cartelle di spam vengono ignorati e gli indirizzi lì presenti non vengono considerati come conosciuti.
 - Come per i messaggi da utenti sconosciuti, non vengono mostrati automaticamente quindi normalmente **non c'è spam**.
@@ -79,7 +79,7 @@ spesso affinché i tuoi contatti la ricevano anche se cambiano dispositivo.
 - Si. Se le email in arrivo non dispongono di un formato testo, l'email in HTML viene convertita in testo dall'applicazione. Le email in uscita sono sempre in formato testo.
 
 
-### Perchè devo inserire la password della ma email in Delta Chat? E' sicuro?
+### Perchè devo inserire la password della mia email in Delta Chat? E' sicuro?
 
 Come tutti gli altri programmi email, quali Thunderbird, K9-Mail o Outlook,
 l'applicazione necessita della password per inviare le email. Ovviamente la
@@ -121,13 +121,13 @@ di ricevere feedback che aiutino a rendere l'app più sicura per tutti gli utent
   - richiesta di ignorare l'ottimizzazione della batteria: per gli utenti che vogliono ricevere immediatamente i messaggi
 
 
-## Groups
+## Gruppi
 
 ### Creare un gruppo
 
 - Seleziona **Aggiungi Gruppo** dal "Sandwich menu" nell'angolo in alto a destra della lista delle chat.
 - Nella schermata successiva, scegli i **membri del gruppo** e seleziona la spunta in alto a destra. Poi potrai definire il **nome del gruppo**.
-- Appena invii il **primo messaggio** nel gruppo, tutto i membri verranno informati della creazione del gruppo e potranno rispondere (finchè non invii il primo messaggio il gruppo resta invisibile ai membri).
+- Appena invii il **primo messaggio** nel gruppo, tutti i membri verranno informati della creazione del gruppo e potranno rispondere (finché non invii il primo messaggio il gruppo resta invisibile ai membri).
 
 
 ### Aggiungere membri ad un gruppo
@@ -251,7 +251,7 @@ Il profilo utente mostra alcune info aggiuntive:
 ### Qual è la differenza tra i gruppi verificati e le chat 1:1 con i contatti verificati?
 
 - Le chat 1:1 con un contatto verificato non è uguale ad un gruppo verificato,
-  anche se ci fossero solo due persone nel gruppo verificato. Una differenza sta
+  anche se ci fossero solo 2 persone nel gruppo verificato. Una differenza sta
   nel fatto di poter facilmente aggiungere altre persone, ma non è la sola
   e ci sono altri aspetti.
 
