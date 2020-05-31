@@ -20,7 +20,7 @@
 
 set -e
 
-sfiles=(blog contribute download gdpr help imprint index references verify-downloads)
+sfiles=(blog contribute download gdpr help imprint index references verify-downloads gdpr-website)
 tlangs=(ca de es fr it nl pl pt ru sq uk)  # do not add `en` to this list
 
 
