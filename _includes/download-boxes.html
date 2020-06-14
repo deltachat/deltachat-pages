@@ -61,6 +61,11 @@
                 </a>
             </div>
             <div class="descr">
+                <p>
+                    <b style="color: darkred;">Important:</b>
+                    You also need to install <a href="https://aka.ms/vs/16/release/VC_redist.x64.exe">Microsoft's Visual C++ Redistributable</a>, without it deltachat won't start.
+                    (see <a href="https://github.com/deltachat/deltachat-desktop/issues/1323">#1323</a> & <a href="https://github.com/deltachat/deltachat-desktop/issues/1597">#1597</a>)
+                </p>
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 &ndash;
                 <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
