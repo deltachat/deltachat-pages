@@ -39,8 +39,8 @@ Thanks a lot to our chief magician _dignifiedquire_ to make this possible ✨
 Shot a photo you want to post - but there are some **details on the photo you do not want to be spread?**
 A license plate, a clock with the date, a marker on a jacket that will identify the person, a face?
 
-With the new _blur_ tool (5th icon in the screenshot aside), you can easily remove these details from an image before posting.
-Currently, this feature is available on Android only.
+With the new _blur_ tool, available on Android (5th icon in the screenshot aside),
+you can easily remove these details from an image before posting.
 
 
 ### Pssst! 🤫
