@@ -51,7 +51,7 @@ You can now mute chats on all platforms and not only on Android.
 
 ### A gallery in every chat
 
-Android and Desktop have **per-chat image-galleries** since some time -
+Android and Desktop have **per-chat image galleries** since some time -
 with 1.10, it also arrived on iOS.
 
 This way, you can easily share moments and access them later.
