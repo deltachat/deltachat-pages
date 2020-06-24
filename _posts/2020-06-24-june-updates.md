@@ -77,7 +77,7 @@ many of them would justify a separate blog page, but well, for now, a line must 
 - **Enlarge Avatars** on Desktop and Android
 
 
-## Try it out the new releases!
+## Try out the new releases!
 
 If you have not got Delta Chat 1.10 yet,
 see [get.delta.chat](https://get.delta.chat) for an overview.
