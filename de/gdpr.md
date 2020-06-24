@@ -5,7 +5,7 @@ lang: de
 
 # Datenschutzerklärung Delta Chat Apps
 
-###  Wie erfüllt Delta Chat die DSGVO 
+### Wie erfüllt Delta Chat die DSGVO
 
 Die Datenschutz-Grundverordnung (DSGVO) wird häufig 
 als die weitreichendste Gesetzgebung zum Schutz der Privatsphäre von Anwendern betrachtet.
@@ -65,7 +65,7 @@ Ihre Kontaktadresse bei Delta Chat für Datenschutzfragen lautet:
 
 	delta-privacy@merlinux.eu
 
-## Delta Mailinglisten
+### Delta Mailinglisten
 
 Wenn Sie die Delta-Mailinglisten freiwillig abonnieren, werden Ihre E-Mail-Adresse aus der Eingabemaske, die IP-Adresse des aufrufenden Computers, Datum und Uhrzeit der Registrierung übertragen. Die Verarbeitung dieser Daten dient ausschließlich der Kontaktverarbeitung und der Bereitstellung der öffentlichen Kommunikation. Wie bei Open Source-Projekten üblich, können die geteilten Nachrichten auch in öffentlichen Archiven gefunden werden. Rechtsgrundlage für die Verarbeitung mit Zustimmung ist Art. 6 I lit. a DSGVO. Die E-Mail-Adresse des Benutzers wird nur so lange gespeichert, wie das Abonnement für die E-Mail-Liste aktiv ist. Durch das Abbestellen einer Mailingliste ist ein Widerruf der Einwilligung möglich.
 

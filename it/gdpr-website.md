@@ -1,5 +1,5 @@
 title: Privacy del sito web
 lang: it
 
-This page has been moved to the ["privacy statement on apps and websites"](gdpr).
+Questa pagina è stata spostata nell' ["informativa sulla privacy di apps e siti web"](gdpr).
 
