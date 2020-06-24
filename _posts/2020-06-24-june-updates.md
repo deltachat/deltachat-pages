@@ -36,7 +36,7 @@ Thanks a lot to our chief magician _dignifiedquire_ to make this possible ✨
 ### Blur Images
 
 <img src="../assets/blog/2020-06-blur.jpg" width="200" style="float:right; clear:both; margin-left:.2em; margin-bottom:.2em;" alt="A blurred image" /> 
-Shot a photo you want to post - but there are some **details on the photo you do not want to be spreaded?**
+Shot a photo you want to post - but there are some **details on the photo you do not want to be spread?**
 A license plate, a clock with the date, an marker on a jacket that will identify the person, a face?
 
 With the new _blur_ tool (5th icon in the screenshot aside), you can easily remove these details from an image before posting.
