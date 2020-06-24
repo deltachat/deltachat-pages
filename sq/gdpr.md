@@ -80,7 +80,7 @@ Adresa për kontakte për çështje privatësie në Delta.Chat:
 
 	delta-privacy@merlinux.eu
 
-### Lista postimesh në Delta
+## Lista postimesh Delta
 
 Kur pajtoheni vullnetarisht te lista postimesh Delta, adresa juaj email
 prej <em>input mask</em>, adresa IP e kompjuterit që bën thirrjen, data
@@ -103,7 +103,7 @@ kohe deklarimin e pranimit për listën e postimeve. Gëzoni të drejtën të me
 të dhënat të strukturuara nën një format të rëndomtë dhe të lexueshëm nga
 makina dhe të drejtën të ankoheni te një autoritet mbikëqyrës.
 
-### Ndryshimet te rregullat e privatësisë
+### Ndryshim i rregullave të privatësisë
 
 Rezervojmë të drejtën të përditësojmë rregullat e tanishme të mbrojtjes së të dhënave
 në përputhje me gjendjen ligjore dhe teknike që ndryshon në mënyrë konstante.

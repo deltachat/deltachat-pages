@@ -507,7 +507,7 @@ Deri këtu, zhvillimi i Delta Chat-it është financuar nga katër burime kryeso
 Financimi monetar i përmendur më sipër u organizua nga merlinux GmbH në
 Frajburg (Gjermany), dhe shpërndarë më pas thuajse një duzine kontribuesish. 
 
-Fincimi për 2020/2021 s’është përcaktuar ende. Po ndjekim një dorë mundësish
+Financimi për 2020/2021 s’është përcaktuar ende. Po ndjekim një dorë mundësish
 me ente dhe partnerë të ndryshëm. Po shohim gjithashtu mundësinë të kërkojmë
 dhurime. Në fakt, kemi filluar paksa, eksperimentalisht [llogari dhurimesh
 Delta Chat / Liberapay](https://liberapay.com/delta.chat/), por s’e kemi bërë

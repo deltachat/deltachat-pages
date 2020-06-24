@@ -26,7 +26,7 @@ con i requisiti della GDPR.
 - Può essere usato **senza richiedere un contratto o altre istruzioni** da qualsiasi responsabile del trattamento (organizzazione), in quanto nessun altro soggetto terzo tratterà i dati personali relativi alla posta elettronica.
 
 
-### In che modo i responsabili del trattamento dei dati (organizzazioni) traggono vantaggio dall'uso di Delta Chat nel rispetto del GDPR
+### In che modo i responsabili del trattamento dei dati (organizzazioni) traggono vantaggio dall'uso di Delta Chat nel rispetto della GDPR
 
 - Non genera **nessun requisito informativo aggiuntivo* per il responsabile del trattamento nei confronti dei soggetti diretti o indiretti 
 circa la raccolta dei dati della rubrica, articolo 13, 14 GDPR.
@@ -58,7 +58,7 @@ sito web è conforme al Regolamento Generale Europeo sulla Protezione dei Dati
 (2016/679). Pertanto, riduciamo il trattamento dei dati dell'utente       al minimo
 necessario (Privacy by Design).
 
-### Informazioni Generali
+### Informazione generale
 
 Il sito Web Delta.chat non utilizza cookie propri o di terze parti, sito Web
 servizi di analisi, servizi pubblicitari e di marketing di terze parti o l'utilizzo
