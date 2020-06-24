@@ -56,7 +56,7 @@ with 1.10, it also arrived on iOS.
 
 This way, you can easily share moments and access them later.
 Tip on the edge: Also your **Saved Messages** have a gallery - use this to easily access images
-you forwarded there or directly took with the camera function there.
+you forwarded there or directly took with the camera function.
 
 ![A Screenshot of the Delta Chat Desktop Client, scanning a QR code.](../assets/blog/2020-06-gallery2.jpg)
 
