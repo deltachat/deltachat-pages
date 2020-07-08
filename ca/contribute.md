@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Contribueix
 lang: ca
 ---
 
@@ -18,11 +18,11 @@ lang: ca
 
 # Traduccions i informes d'errors
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traduccions a Transifex](https://www.transifex.com/delta-chat/public/)
+- [Tasques del Delta Chat per Android](https://github.com/deltachat/deltachat-android/issues)
+- [Tasques del Delta Chat per escriptori](https://github.com/deltachat/deltachat-desktop/issues)
+- [Tasques del Delta Chat per iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Tasques de la biblioteca de nucli Rust + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Sempre son benvinguts desenvolupadors que ens vulguin donar un cop de ma i estiguin familiaritzats amb 
 C, Rust, Java, Swift, Javascript o Python a Android, iOS, Windows, Linux o Mac.
@@ -32,10 +32,10 @@ C, Rust, Java, Swift, Javascript o Python a Android, iOS, Windows, Linux o Mac.
 
 Si voleu recolzar DeltaChat amb diners:
 
-- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, propietari del compte (si us plau no us en descuideu): Björn Petersen, BIC NORSDE51XXX
+- PayPal o targeta de crèdit: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donatius periòdics via [Liberapay](https://liberapay.com/delta.chat/)
+- Enviament de bitcoins a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Necessitem **dispositius** per fer proves. Tens algun Smartphone Android o iPhone en desús?
 A [naltros](imprint) ens encantaria tenir-lo!

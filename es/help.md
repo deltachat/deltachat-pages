@@ -137,7 +137,7 @@ Estamos felices de recibir críticas que hagan la aplicación más segura para t
 
 ### ¿Qué es un grupo verificado? ¿Por qué es experimental?
 
-- A verified group is a chat that gurantees safety against an active
+- A verified group is a chat that guarantees safety against an active
   attacker.  All Messages in a verified chat view are e2e-encrypted, and
   members can join by scanning a "QR invite code".  All members are thus 
   connected with each other through a chain of invites, which guarantee 
@@ -146,9 +146,9 @@ Estamos felices de recibir críticas que hagan la aplicación más segura para t
   for the R&D behind this feature. 
 
 - As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continously improved and many bugs have been fixed since the
+  It is continuously improved and many bugs have been fixed since the
   original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occure, or messages become 
+  with large groups where inconsistencies can occur, or messages become 
   unreadable.  Early 2020 a security review is upcoming, and several new
   developments around qr-join protocols are taking place so chances
   are we remove the "experimental" label not too far in the future. 
@@ -171,7 +171,7 @@ aún puede escribir, pero ya no se le notifican nuevos mensajes.
 
 ### What do double ticks mean in group messages? Has everyone read my message now?
 
-- A message shows double ticks after more than half the the recipients have
+- A message shows double ticks after more than half of the recipients have
   seen the message on their display.
 - Note that some recipients might have disabled read-receipts for
   privacy-reasons.
@@ -198,8 +198,8 @@ aún puede escribir, pero ya no se le notifican nuevos mensajes.
 Después de esto, todos los mensajes subsiguientes se cifran de extremo a extremo automáticamente.
 Si uno de los compañeros de chat usa una aplicación de correo electrónico que no soporta Autocrypt, los mensajes no se cifrarán hasta que una aplicación compatible con Autocrypt sea utilizada.
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings / Advanced settings".
+- Si desea _desactivar_ el cifrado de extremo a extremo,
+use la configuración correspondiente en "Ajustes / Avanzado".
 
 
 ### Si el cifrado de extremo a extremo no está disponible, ¿la conexión no está cifrada?
@@ -285,7 +285,7 @@ de incautación del dispositivo.
   are not stored on a single central server. However, they are stored on the mail
   servers of the sender and the recipient of a message.
 
-- Each mail server currently know about who sent and who received a message by 
+- Each mail server currently knows about who sent and who received a message by 
   inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
   are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
   and always put them only into the encrypted section. See 
@@ -300,7 +300,7 @@ de incautación del dispositivo.
 
 ### ¿Puedo reutilizar mi llave privada existente?
 
-- Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+- Si. La mejor manera es enviar un Mensaje de Configuración de Autocrypt desde el otro cliente de correo electrónico. Busca algo como **Iniciar la Transferencia de la Configuración Autocrypt** en la configuración del otro cliente y seguir las instrucciones que se muestren allí.
 
 - Alternativamente, puede importar la clave manualmente en "Configuración avanzada / Administrar claves privadas". Precaución: asegúrese de que la clave no esté protegida por una contraseña o elimine la contraseña de antemano.
 
@@ -358,7 +358,7 @@ a backup from the old device, and import it into the new device:
 - There are no immediate plans but some preliminary thoughts.
 - There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
   significant work. For now, we focus on getting stable releases into all
-  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
 - If you need a Web Client, because you are not allowed to install software on
   the computer you work with, you can use the portable Windows Desktop Client,
   or the AppImage for Linux. You can find them on
@@ -390,7 +390,7 @@ La única razón por la que uno quiere ver la carpeta Enviados es si está utili
 programa de correo (como Thunderbird) a la vez que su aplicación Delta Chat, y desea que su MUA
 también participe en conversaciones de chat.
 
-However, we recommend to use the Delta Chat Desktop Client; you can download it
+However, we recommend using the Delta Chat Desktop Client; you can download it
 on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
 folder might go away in the future. It was introduced at a time where there was
 no Delta Chat Desktop client available on all platforms. 
@@ -414,29 +414,24 @@ Sin embargo, algunos proveedores necesitan opciones especiales para funcionar co
   there are cases where it takes longer but that is arguably true as well for
   any other messenger.
 - Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in background.
+  sometimes slower if the app is running in the background.
 - Receiving messages then can take minutes because both Android and iOS often
   stop Delta Chat from running in the background, and only wake it up
-  occassionally. This artifical delay is usually worse on iOS than on Android.
+  occasionally. This artificial delay is usually worse on iOS than on Android.
 - Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
   Push Notification Service (APNS), because this leads to user tracking and
   central control which Delta Chat aims to avoid as much as feasible.
-- However, that Android and iOS kill apps running in the background is a
+- However, Android and iOS kill apps running in the background is a
   problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
 ### ¿Delta Chat es compatible con Protonmail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- Si y no.
+- No, no puede usar su cuenta de Protonmail, Tutanota o Criptext con Delta Chat; esos servicios no permiten recibir correos a través de IMAP.
+- En cualquier caso, puede usar Delta Chat para enviar mensajes a personas que usan Protonmail, Tutanota o Criptext. Sin embargo, esos mensajes no se cifrarán de extremo a extremo. El cifrado de extremo a extremo que ofrecen esos proveedores solo funciona dentro de sus plataformas y no es compatible con nadie externo.
+- Delta Chat puede encriptar e2e a través de cualquier proveedor de correo electrónico con cualquier [https://autocrypt.org/dev-status.html](aplicación de correo electrónico compatible con Autocrypt).
 
 
 ### Estoy interesado en los detalles técnicos. ¿Pueden decirme más?

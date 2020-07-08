@@ -128,7 +128,7 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
 
 ### What is a verified group? Why is it experimental? 
 
-- A verified group is a chat that gurantees safety against an active
+- A verified group is a chat that guarantees safety against an active
   attacker.  All Messages in a verified chat view are e2e-encrypted, and
   members can join by scanning a "QR invite code".  All members are thus 
   connected with each other through a chain of invites, which guarantee 
@@ -137,9 +137,9 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
   for the R&D behind this feature. 
 
 - As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continously improved and many bugs have been fixed since the
+  It is continuously improved and many bugs have been fixed since the
   original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occure, or messages become 
+  with large groups where inconsistencies can occur, or messages become 
   unreadable.  Early 2020 a security review is upcoming, and several new
   developments around qr-join protocols are taking place so chances
   are we remove the "experimental" label not too far in the future. 
@@ -162,7 +162,7 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
 
 ### What do double ticks mean in group messages? Has everyone read my message now?
 
-- A message shows double ticks after more than half the the recipients have
+- A message shows double ticks after more than half of the recipients have
   seen the message on their display.
 - Note that some recipients might have disabled read-receipts for
   privacy-reasons.
@@ -270,7 +270,7 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
   are not stored on a single central server. However, they are stored on the mail
   servers of the sender and the recipient of a message.
 
-- Each mail server currently know about who sent and who received a message by 
+- Each mail server currently knows about who sent and who received a message by 
   inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
   are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
   and always put them only into the encrypted section. See 
@@ -283,7 +283,7 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
   RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
-### Czy mogę ponownie wykorzystać mój istniejący klucz prywatny?
+### Can I reuse my existing private key?
 
 - Tak. Najlepszym sposobem jest wysłanie wiadomości konfiguracyjnej Autocrypt z innego klienta poczty e-mail. Poszukaj czegoś jak **Start Autocrypt Setup Transfer** w ustawieniach innego klienta i postępuj zgodnie z wyświetlanymi tam instrukcjami.
 
@@ -331,7 +331,7 @@ a backup from the old device, and import it into the new device:
 - There are no immediate plans but some preliminary thoughts.
 - There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
   significant work. For now, we focus on getting stable releases into all
-  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
 - If you need a Web Client, because you are not allowed to install software on
   the computer you work with, you can use the portable Windows Desktop Client,
   or the AppImage for Linux. You can find them on
@@ -359,7 +359,7 @@ messages on all devices. If you have multiple devices and don't turn it on, you
 see only the messages from other people, and the messages you send from the
 current device. 
 
-The copy is send to the Inbox, and then moved to the DeltaChat folder; it's not
+The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
 put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
 folder because this would mean uploading a message twice (once through SMTP,
 and once through IMAP to Sent folder).
@@ -372,7 +372,7 @@ The only reason one wants to watch the Sent folder is if you are using another
 mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
 to participate in chat conversations.
 
-However, we recommend to use the Delta Chat Desktop Client; you can download it
+However, we recommend using the Delta Chat Desktop Client; you can download it
 on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
 folder might go away in the future. It was introduced at a time where there was
 no Delta Chat Desktop client available on all platforms. 
@@ -399,14 +399,14 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   there are cases where it takes longer but that is arguably true as well for
   any other messenger.
 - Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in background.
+  sometimes slower if the app is running in the background.
 - Receiving messages then can take minutes because both Android and iOS often
   stop Delta Chat from running in the background, and only wake it up
-  occassionally. This artifical delay is usually worse on iOS than on Android.
+  occasionally. This artificial delay is usually worse on iOS than on Android.
 - Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
   Push Notification Service (APNS), because this leads to user tracking and
   central control which Delta Chat aims to avoid as much as feasible.
-- However, that Android and iOS kill apps running in the background is a
+- However, Android and iOS kill apps running in the background is a
   problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).
 

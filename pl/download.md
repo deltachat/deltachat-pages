@@ -11,13 +11,13 @@ downloads: true
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
 * [Rdzeń](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-The desktop versions do not require Delta Chat to be installed on a phone.
+Wersje desktop nie wymagają instalacji Delta Chat na telefonie.
 
-Minimal requirements:
+Minimalne wymagania:
 Android 4.1 Jelly Bean
-or iOS 11, iPhone 5s or iPad 5/Air/Mini
-or Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 or Debian 8
-or compatible systems.
+lub iOS 11, iPhone 5s lub iPad 5/Air/Mini
+lub Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 lub Debian 8
+lub kompatybilne systemy.
 
 ## Linki
 
@@ -25,10 +25,10 @@ or compatible systems.
 * [FAQ multi-klienta](help#multiclient): Jak zsynchronizować Desktop z inną aplikacją Delta. 
 * [Weryfikacja pobranych plików](verify-downloads): Sprawdź integralność danych pobranych plików.
 
-## Preview Builds
+## Poglądowe kompilacje
 
-* [Desktop Previews](https://download.delta.chat/desktop/preview/): Pending changes for the desktop clients
-* [Android Nightly](https://download.delta.chat/android/nightly/): Built last night with the most recent core
-* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): May contain not yet officially released iOS versions
+* [Desktop Previews](https://download.delta.chat/desktop/preview/): Oczekujące zmiany dla klientów desktop
+* [Android Nightly](https://download.delta.chat/android/nightly/): Skompilowany ostatniej nocy z najnowszym rdzeniem
+* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Może zawierać jeszcze nie wydane oficjalnie wersje iOS
 
-Preview builds may come with new bugs and should not be used productive.
+Wersje podglądowe mogą zawierać nowe błędy i nie powinny być wykorzystywane produktywnie.

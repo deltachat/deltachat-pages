@@ -1,11 +1,11 @@
 ---
-title: Polityka prywatności
+title: Prywatność aplikacji i strony internetowej Delta Chat
 lang: pl
 ---
 
-# Privacy Policy Delta Chat Apps 
+# Polityka prywatności aplikacji Delta Chat
 
-### How Delta Chat complies to the GDPR
+## Jak Delta Chat przestrzega GDPR
 
 Ogólne rozporządzenie o ochronie danych (GDPR) jest często uważane za
 najdalej idące prawodawstwo dotyczące ochrony prywatności użytkowników.
@@ -49,9 +49,9 @@ jest zgodna z przepisami prawa w zakresie ochrony prywatności użytkowników GD
 
 Niniejsze oświadczenie odzwierciedla ogólne Rozporządzenie o Ochronie Danych Osobowych (RODO=GDPR) z dnia 16.05.2018.
 
-# Privacy Policy for Website visits 
+# Polityka prywatności strony internetowej
 
-**Stan: 21 styczeń 2020**
+**Stan: 21 stycznia 2020**
 
 At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
 website is in compliance with the European General Data Protection Regulation
@@ -75,7 +75,7 @@ other data protection regulations is
 	Reichgrafen Str. 20 
 	79102 Freiburg
 
-Your contact address for privacy issues at Delta.Chat:
+Twój adres kontaktowy w sprawach związanych z prywatnością w Delta.Chat:
 
 	delta-privacy@merlinux.eu
 
