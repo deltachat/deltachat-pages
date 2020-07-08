@@ -126,7 +126,7 @@ Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](ht
 
 ### Qu'est qu'un groupe vérifié ? Pourquoi est-ce une fonction expérimentale ?
 
-- A verified group is a chat that gurantees safety against an active
+- A verified group is a chat that guarantees safety against an active
   attacker.  All Messages in a verified chat view are e2e-encrypted, and
   members can join by scanning a "QR invite code".  All members are thus 
   connected with each other through a chain of invites, which guarantee 
@@ -153,7 +153,7 @@ Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du group
 
 ### Que signifient les doubles marques dans un message groupé ? Tout le monde a-t-il bien lu mon message ?
 
-- A message shows double ticks after more than half the the recipients have
+- A message shows double ticks after more than half of the recipients have
   seen the message on their display.
 - Note that some recipients might have disabled read-receipts for
   privacy-reasons.
@@ -203,7 +203,7 @@ Le profil de l'utilisateur affiche quelques informations supplémentaires :
   "sender verified" system message in their 1:1 chat. 
 
 - For end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If the same fingerprints appears on your chat partner's device, 
+  If the same fingerprints appear on your chat partner's device, 
   the connection is safe.
 
 - Pour le cryptage de la communication, cet état est juste affiché ici
@@ -266,7 +266,7 @@ Le profil de l'utilisateur affiche quelques informations supplémentaires :
   are not stored on a single central server. However, they are stored on the mail
   servers of the sender and the recipient of a message.
 
-- Each mail server currently know about who sent and who received a message by 
+- Each mail server currently knows about who sent and who received a message by 
   inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
   are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
   and always put them only into the encrypted section. See 
@@ -279,7 +279,7 @@ Le profil de l'utilisateur affiche quelques informations supplémentaires :
   RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
-### Can I re-use my existing private key?
+### Can I reuse my existing private key?
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
@@ -339,7 +339,7 @@ a backup from the old device, and import it into the new device:
 - There are no immediate plans but some preliminary thoughts.
 - There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
   significant work. For now, we focus on getting stable releases into all
-  appstores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
 - If you need a Web Client, because you are not allowed to install software on
   the computer you work with, you can use the portable Windows Desktop Client,
   or the AppImage for Linux. You can find them on
@@ -367,7 +367,7 @@ messages on all devices. If you have multiple devices and don't turn it on, you
 see only the messages from other people, and the messages you send from the
 current device. 
 
-The copy is send to the Inbox, and then moved to the DeltaChat folder; it's not
+The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
 put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
 folder because this would mean uploading a message twice (once through SMTP,
 and once through IMAP to Sent folder).
@@ -380,7 +380,7 @@ The only reason one wants to watch the Sent folder is if you are using another
 mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
 to participate in chat conversations.
 
-However, we recommend to use the Delta Chat Desktop Client; you can download it
+However, we recommend using the Delta Chat Desktop Client; you can download it
 on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
 folder might go away in the future. It was introduced at a time where there was
 no Delta Chat Desktop client available on all platforms. 
@@ -407,14 +407,14 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   there are cases where it takes longer but that is arguably true as well for
   any other messenger.
 - Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in background.
+  sometimes slower if the app is running in the background.
 - Receiving messages then can take minutes because both Android and iOS often
   stop Delta Chat from running in the background, and only wake it up
-  occassionally. This artifical delay is usually worse on iOS than on Android.
+  occasionally. This artificial delay is usually worse on iOS than on Android.
 - Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
   Push Notification Service (APNS), because this leads to user tracking and
   central control which Delta Chat aims to avoid as much as feasible.
-- However, that Android and iOS kill apps running in the background is a
+- However, Android and iOS kill apps running in the background is a
   problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).
 

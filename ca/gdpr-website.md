@@ -1,7 +1,7 @@
 ---
-title: Privacy policy website
+title: Política de privacitat de la web
 lang: ca
 ---
 
-This page has been moved to the ["privacy statement on apps and websites"](gdpr).
+Aquesta pàgina s'ha traslladat a la ["declaració de privacitat d'apps i webs"](gdpr).
 

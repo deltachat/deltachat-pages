@@ -1,7 +1,7 @@
 ---
-title: Polityka prywatności
+title: Polityka prywatności strony internetowej
 lang: pl
 ---
 
-This page has been moved to the ["privacy statement on apps and websites"](gdpr).
+Ta strona została przeniesiona do [„Oświadczenie o ochronie prywatności w aplikacjach i witrynach”](gdpr).
 

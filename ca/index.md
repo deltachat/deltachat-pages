@@ -1,5 +1,5 @@
 ---
-title: The messenger
+title: El missatger
 lang: ca
 ---
 
@@ -7,8 +7,8 @@ lang: ca
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
-Delta Chat does not need your phone number. Check out our [privacy statement](gdpr).
+**Delta Chat és com Telegram o Whatsapp però sense el seguiment o un control central.**
+Delta Chat no necessita el teu número de telèfon. Revisa la nostra [declaració de privacitat](gdpr).
 
 **Delta Chat no te servidors propis** però usa el sistema de missatgeria més massiu i divers 
 que hi ha hagut mai: la xarxa de servidors de correu electrònic.
@@ -28,10 +28,10 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
 
-Please check [get.delta.chat](https://get.delta.chat) and the [latest blog posts](blog)
-for information on current releases and events. 
+Si us plau doneu-li una ullada a [get.delta.chat](https://get.delta.chat) i els [escrits més recents del blog](blog)
+per informar-vos sobre les versions actuals i els esdeveniments. 
 
-Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
-see, change, and share it at will, with everyone.
+Delta Chat és [Codi Obert](https://ca.wikipedia.org/wiki/Codi_obert)
+i [Programari lliure](https://ca.wikipedia.org/wiki/Programari_lliure). Podeu fer-lo servir,
+examinar-lo, canviar-lo i compartir-lo amb qui vulgueu.
 

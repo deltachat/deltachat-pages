@@ -1,18 +1,18 @@
 ---
-title: Verify Downloads
+title: Verificació de les descàrregues
 lang: ca
 ---
 
-# Verify Downloads
+# Verificació de les descàrregues
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+Per Android, podeu verificar que el certificat signat a l'APK coincideix amb alguna de les següents empremtes SHA256:  
 
-* For F-Droid downloads:  
+* Per les descàrregues d'F-Droid:  
   `{% include fingerprint-f-droid %}`
 
-* Other APK downloads:  
+* Altres descàrregues APK:  
   `{% include fingerprint-local %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
+Si voleu imprimir les empremtes SHA256 del certificat de signatura APK podeu fer servir, per ex.  
 `keytool -list -printcert -jarfile <APK-file>`
 
