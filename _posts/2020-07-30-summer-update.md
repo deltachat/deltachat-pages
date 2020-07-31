@@ -55,6 +55,7 @@ can be joined from all existing clients_
 Another major feature in all recent Delta Chat versions on all platforms are the so called
 _Disappearing messages_.
 
+<img src="../assets/blog/2020-07-disappearing-options.png" width="250" style="float:left; clear:both; margin-right:1em; margin-bottom:.2em;" alt="" />
 Once the feature is enabled in the settings,
 any user can decide to see all subsequent messages disappearing.
 
