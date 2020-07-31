@@ -70,7 +70,7 @@ on desktop, the call is handled directly in-app.
 All in all, video chats are already pretty usable,
 however, we expect things being fine-tuned in the next releases.
 
-_Video chats can be started from Android 1.12 and Desktop 1.10 and
+_Video chats can be started from Android 1.12 and Desktop 1.10.4 and
 can be joined from all existing clients_
 
 
