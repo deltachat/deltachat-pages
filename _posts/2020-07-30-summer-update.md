@@ -35,7 +35,7 @@ _"Also, how this can fit with our decentralized approach?"_
 
 We were thinking a lot about these questions in the past,
 together with different user groups and testers,
-and driven by various ux-researches.
+and driven by various UX-research.
 
 
 <img src="../assets/blog/2020-07-scan-videochat-provider.jpg" width="320" style="float:right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
