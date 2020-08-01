@@ -14,7 +14,7 @@ Also we added lots of smaller, but nevertheless important things.
 - Desktop's message got several long awaited fixes
 - Windows and Linux now support more emoji 🥳
 - Camera handling updated on iOS
-- enlarge profile image on iOS ↕️
+- Enlarge profile image on iOS ↕️
 - iOS profile view got an update
 - show a warning when the password was changed on the server
 - improve error handling when there is no network
