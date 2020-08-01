@@ -11,7 +11,7 @@ so that the overall experience of Delta Chat will be a much more stable one.
 Also we added lots of smaller, but nevertheless important things.
 
 - Sending an receiving messages is more reliable
-- Desktop's message got several long awaited fixes
+- Desktop's message list got several long awaited fixes
 - Windows and Linux now support more emoji 🥳
 - Camera handling updated on iOS
 - Enlarge profile image on iOS ↕️
@@ -44,7 +44,7 @@ So - it is **up to the user to decide which video chat provider to use.**
 - They can enter it in the **settings**
 - The video provider may come from the **provider-info** with other server-data 
 (which makes a lot of sense, however this is currently not supported by many e-mail providers).
-- Finally, the user can also scan a video chat provider **from a qr-code** - 
+- Finally, the user can also scan a video chat provider **from a QR-code** - 
 this way, video chat providers can be shared easily and quickly.
 
 Delta Chat is not very picky about the chosen provider:
@@ -62,9 +62,9 @@ just tap "Video chat" in any one-to-one chat and wait for the recipient to join.
 and also, the recipient is still free to join the chat from a
 non-delta-client, if they really want to :)
 
-Finally, there is also the project [basicwebrtc](https://github.com/cracker0dks/basicwebrtc)
-that introduces a slim, fast webrtc-experience.
-If a _basicwebrtc_ is detected as a videochat instance,
+Finally, there is also the project [basicWebRTC](https://github.com/cracker0dks/basicwebrtc)
+that introduces a slim, fast WebRTC-experience.
+If _basicWebRTC_ is detected as a videochat instance,
 on desktop, the call is handled directly in-app.
 
 All in all, video chats are already pretty usable,
@@ -110,4 +110,4 @@ see [get.delta.chat](https://get.delta.chat) for an overview.
 You'll also find **detailed changelogs** there.
 
 As usual, the different stores take different lengths of times for updates — thanks for your patience. 
-Also, thanks to all the ux-research attendees, testers, translators and developers to make this release happen :)
+Also, thanks to all the UX-research attendees, testers, translators and developers to make this release happen :)
