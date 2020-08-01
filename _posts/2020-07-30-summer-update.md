@@ -43,7 +43,7 @@ So - it is **up to the user to decide which video chat provider to use.**
 
 - They can enter it in the **settings**
 - The video provider may come from the **provider-info** with other server-data 
-(which makes a lot of sense, however this is currently not supported by many email-providers).
+(which makes a lot of sense, however this is currently not supported by many e-mail providers).
 - Finally, the user can also scan a video chat provider **from a qr-code** - 
 this way, video chat providers can be shared easily and quickly.
 
