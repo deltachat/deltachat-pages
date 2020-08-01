@@ -21,8 +21,9 @@ Also we added lots of smaller, but nevertheless important things.
 
 Moreover, we're happy to
 introduce two more major, frequently requested features in Delta Chat:
-_Disappearing messages_ and _Video chats_.
-
+_Disappearing messages_ and _Video chats_.  While both features have
+been early user-tested by various groups, we expect more work and
+polishing to happen in the next couple of months. 
 
 ### Video chats
 
@@ -33,10 +34,9 @@ _"And what happens if the called person doesn't even use Delta Chat?"_
 
 _"Also, how this can fit with our decentralized approach?"_
 
-We were thinking a lot about these questions in the past,
+We were thinking a lot about these questions in the last year,
 together with different user groups and testers,
-and driven by various UX-research.
-
+and driven by UX-research and interviews.
 
 <img src="../assets/blog/2020-07-scan-videochat-provider.jpg" width="320" style="float:right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
 So - it is **up to the user to decide which video chat provider to use.**
@@ -77,7 +77,7 @@ can be joined from all existing clients_
 ## Disappearing messages
 
 Another new feature in all recent Delta Chat versions on all platforms are the so called
-_Disappearing messages_.
+_Disappearing messages_, similar to the Signal messenger offering.  
 
 <img src="../assets/blog/2020-07-disappearing-options.png" width="250" style="float:left; clear:both; margin-right:1em; margin-bottom:.2em;" alt="" />
 Once the feature is enabled in the settings,
@@ -89,13 +89,12 @@ on the users server -
 and moreover, also on devices and servers of 
 the other members if they are using Delta Chat and did not make a copy or screenshot.
 
-**It is all about trust** -
-you cannot guarantee deletion in any way, 
-not for Delta Chat nor for any other messengers -
-eg. users may use a camera
-or just write it down on piece of paper using this retro technology called pen.
+**Trust your chat partners** -
+you cannot guarantee deletion against a malicious chat partner,
+not with Delta Chat nor with any other messengers - to begin with,
+users may make photographs to preserve disappearing messages. 
 
-However, together with the burner accounts and the 
+However, together with burner accounts and the 
 deletion of old messages, Delta Chat has a pretty good
 set of features to get rid of things :)
 
