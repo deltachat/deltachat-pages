@@ -16,7 +16,7 @@ Also we added lots of smaller, but nevertheless important things.
 - Camera handling updated on iOS
 - Enlarge profile image on iOS ↕️
 - iOS profile view got an update
-- show a warning when the password was changed on the server
+- Show warning when password changed on the server
 - Improved offline error handling
 
 Moreover, we're happy to
