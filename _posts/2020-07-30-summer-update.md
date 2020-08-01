@@ -29,7 +29,7 @@ _Disappearing messages_ and _Video chats_.
 _"How can e-mail and video chats go together?"_
 
 _"And what happens if the called person doesn't even use Delta Chat?"_  
-(remember, we do not force people to use our app)
+(Remember, we do not force use of our app on anyone.)
 
 _"Also, how this can fit with our decentralized approach?"_
 
