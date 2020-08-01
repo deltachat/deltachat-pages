@@ -1,5 +1,5 @@
 ---
-title: Disappearing messages and Video chats
+title: Releases, Disappearing messages and Video chats
 author: bjoern
 image: ../assets/blog/2020-07-scan-videochat-provider.jpg
 ---
