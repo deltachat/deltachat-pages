@@ -48,7 +48,7 @@ So - it is **up to the user to decide which video chat provider to use.**
 this way, video chat providers can be shared easily and quickly.
 
 Delta Chat is not very picky about the chosen provider:
-The user can use every instance that contains the roomname in the url, which includes famous
+The user can use every instance that contains the room-name in the URL, which includes famous
 services as jitsi, talky.io, appear.in and many more.
 
 <img src="../assets/blog/2020-07-videochat-invite2.png" width="220" style="float:right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
