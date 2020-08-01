@@ -17,7 +17,7 @@ Also we added lots of smaller, but nevertheless important things.
 - Enlarge profile image on iOS ↕️
 - iOS profile view got an update
 - show a warning when the password was changed on the server
-- improve error handling when there is no network
+- Improved offline error handling
 
 Moreover, we're happy to
 introduce two more major, frequently requested features in Delta Chat:
