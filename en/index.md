@@ -34,4 +34,4 @@ for information on current releases and events.
 Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
 and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
 see, change, and share it at will, with everyone.
-
+[User stories and voices](user-voices.md).
