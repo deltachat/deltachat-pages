@@ -83,6 +83,22 @@ Use #DeltaChat with your existing email account. #decentralize the net."_
 _"Take the most decentralized communication concept currently available
 and put on a chat app like @delta and you're done."_
 
-**User from Germany** in 2010, via [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
+**User from Germany** in 2020, via [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
 
 
+### Open-source, Non-silo, Standard-based
+
+_"Been using  @delta_chat for more than a year:
+great open-source/non-silo/standard-based replacement to whatsapp!
+Glad to know that the development is keeping pace!!"_
+
+**Séverin Lemaignan** in 2020, via [Twitter](https://twitter.com/skadge/status/1276515066393878529)
+
+
+### A default way to start chats!
+
+_"Considering to use  @delta_chat as a default way to start chats!
+Unlike other systems it empowers people on both end with choice of the agent they want to use +
+interops with all the mail clients"_
+
+**gozala** in 2020 via [Twitter](https://twitter.com/gozala/status/1281346020664729600)
