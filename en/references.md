@@ -162,4 +162,4 @@ _"Delta.Chat: Sicher und dezentral – geht das?"_
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out some [user stories and voices](user-voices).
+Also check out [user stories and voices](user-voices).
