@@ -1,7 +1,6 @@
 {% assign txEn = site.data.lang['en']['en'] %}
 {% assign tx = site.data.lang[page.lang][page.lang] %}
-{% assign VERSION_DESKTOP_DIR = "1.10.4" %}
-{% assign VERSION_DESKTOP = "1.10.3" %}
+{% assign VERSION_DESKTOP = "1.12.0" %}
 
 <div class="download-content">
     <div id="recommendation-section" hidden>
@@ -49,7 +48,7 @@
                 <a href="https://apps.apple.com/us/app/delta-chat-desktop/id1462750497" class="img-badge">
                     <img src="../assets/badges/mac-appstore.svg" alt="{%if tx.download.dl_mac_appstore != ""%}{{ tx.download.dl_mac_appstore }}{%else%}{{ txEn.download.dl_mac_appstore }}{%endif%}" />
                 </a>
-                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP_DIR}}/DeltaChat-{{VERSION_DESKTOP}}.dmg"><small>Download</small> DeltaChat.dmg</a>
+                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg"><small>Download</small> DeltaChat.dmg</a>
             </div>
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
@@ -61,12 +60,12 @@
                 <a href="https://www.microsoft.com/en-us/p/deltachat/9pjtxx7hn3pk?activetab=pivot:overviewtab" class="img-badge">
                     <img src="../assets/badges/microsoft.svg" alt="{%if tx.download.dl_microsoft != ""%}{{ tx.download.dl_microsoft }}{%else%}{{ txEn.download.dl_microsoft }}{%endif%}" />
                 </a>
-                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP_DIR}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe"><small>Download</small> Setup.exe</a>
+                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe"><small>Download</small> Setup.exe</a>
             </div>
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 &ndash;
-                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP_DIR}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
+                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
             </div>
         </div>
         <div class="box" id="linux">
@@ -75,8 +74,8 @@
                 <a href="https://flathub.org/apps/details/chat.delta.desktop" class="img-badge">
                     <img src="../assets/badges/flathub.png" alt="{%if tx.download.flathub != ""%}{{ tx.download.flathub }}{%else%}{{ txEn.download.flathub }}{%endif%}" />
                 </a>
-                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP_DIR}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for</small> Debian/Ubuntu</a>
-                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP_DIR}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage"><small>Get Universal</small> AppImage</a>
+                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for</small> Debian/Ubuntu</a>
+                <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage"><small>Get Universal</small> AppImage</a>
                 <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/"><small>Build from</small>AUR</a>
             </div>
             <div class="descr">
