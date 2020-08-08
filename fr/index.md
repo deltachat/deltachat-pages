@@ -15,6 +15,8 @@ Delta Chat n'a pas besoin de votre numéro de téléphone. Consultez notre [déc
 **Tchattez avec n'importe qui si vous connaissez son adresse de courriel, pas besoin pour eux d'installer DeltaChat!**
 Tout ce dont vous avez besoin, c'est d'un compte de courriel standard.
 
+Check out [user stories and voices](user-voices) 📣
+
 
 # Captures d'écran Android, Ordinateur de bureau et iOS
 
@@ -31,4 +33,3 @@ Veuillez consulter [get.delta.chat](https://get.delta.chat) et les [derniers mes
 
 Delta Chat est à [Code Source Ouvert](https://fr.wikipedia.org/wiki/Open_source)
 et [Logiciel Libre](https://fr.wikipedia.org/wiki/Logiciel_libre).  Vous pouvez l'utiliser, voir, changer et partager à volonté, avec tout le monde.
-

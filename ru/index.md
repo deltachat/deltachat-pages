@@ -15,6 +15,8 @@ Delta Chat  не нужен номер вашего телефона. Ознак
 **Обменивайтесь сообщениями со всеми, чей адрес их электронной почты вы знаете, нет необходимости устанавливать приложение DeltaChat!** 
 Всё что вам нужно, это стандартный аккаунт электронной почты.
 
+Check out [user stories and voices](user-voices) 📣
+
 
 # Скриншоты Android, ПК и iOS 
 
@@ -33,4 +35,3 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
 and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
 see, change, and share it at will, with everyone.
-

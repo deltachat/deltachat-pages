@@ -16,6 +16,8 @@ que hi ha hagut mai: la xarxa de servidors de correu electrònic.
 **Xateja amb qualsevol persona de la que coneguis la seva adreça de correu electrònic, sense que a ells els calgui instal·lar DeltaChat!** 
 Només et cal una adreça de correu electrònic normal i corrent.
 
+Check out [user stories and voices](user-voices) 📣
+
 
 # Captures de pantalla d'Android, Escriptori i iOS 
 
@@ -34,4 +36,3 @@ per informar-vos sobre les versions actuals i els esdeveniments.
 Delta Chat és [Codi Obert](https://ca.wikipedia.org/wiki/Codi_obert)
 i [Programari lliure](https://ca.wikipedia.org/wiki/Programari_lliure). Podeu fer-lo servir,
 examinar-lo, canviar-lo i compartir-lo amb qui vulgueu.
-

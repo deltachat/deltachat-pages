@@ -16,6 +16,8 @@ ooit gebruikt: het bestaande e-mailservernetwerk.
 **Communiceer met iedereen per e-mail; ze hoeven DeltaChat niet eens te installeren!**
 Je hebt alleen een e-mailaccount nodig.
 
+Bekijk ook [wat gebruikers en bedrijven zeggen](user-voices) 📣
+
 
 # Schermfoto's: Android, op de computer, en iOS 
 
@@ -34,4 +36,3 @@ voor nieuws omtrent de huidige versies en andere gebeurtenissen.
 Delta Chat is zowel [opensourcesoftware](https://nl.wikipedia.org/wiki/Opensourcesoftware)
 als [vrije software](https://nl.wikipedia.org/wiki/Vrije_software).  Je mag het gebruiken,
 bekijken, aanpassen en delen zoals jij wilt, met iedereen.
-

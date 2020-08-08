@@ -26,7 +26,7 @@ non è necessario che il destinatario utilizzi la tua stessa app.
 - _Indipendente_ da ogni azienda o servizio. _Tu_ possiedi i tuoi dati.
 - I dati non sono salvati in un server centrale, a meno che tutti gli utenti non usino lo stesso server
 - Non condivide la tua rubrica con nessuno.
-- _Veloce_ grazia all'uso del Push-IMAP
+- _Veloce_ grazie all'uso del Push-IMAP
 - _Base utenti ampia_ - puoi comunicare anche con chi _non_ usa Delta Chat
 - _Compatibile_ - non solo con sé stessa
 - Interfaccia _Elegante_ e _semplice_
@@ -48,7 +48,7 @@ Delta Chat mostra automaticamente:
 Gli altri messaggi non appaiono automaticamente e devono essere cercati nella sezione **Richieste di contatto**. La chat può essere avviata da lì.
 
 
-### Come viene gestita lo spam?
+### Come viene gestito lo spam?
 
 - I messaggi nelle cartelle di spam vengono ignorati e gli indirizzi lì presenti non vengono considerati come conosciuti.
 - Come per i messaggi da utenti sconosciuti, non vengono mostrati automaticamente quindi normalmente **non c'è spam**.
@@ -67,7 +67,7 @@ o li aggiungi tramite codice QR, vedranno automaticamente la tua foto profilo.
 
 - I contatti che non usano Delta Chat la vedranno come allegato email. 
 
-- Per motivi di privacy, nessuno vede la tua immagine profilo finchè non
+- Per motivi di privacy, nessuno vede la tua immagine profilo finché non
 gli scrivi un messaggio.
 
 - La tua immagine profilo non viene inviata in ogni messaggio, ma abbastanza
@@ -79,7 +79,7 @@ spesso affinché i tuoi contatti la ricevano anche se cambiano dispositivo.
 - Si. Se le email in arrivo non dispongono di un formato testo, l'email in HTML viene convertita in testo dall'applicazione. Le email in uscita sono sempre in formato testo.
 
 
-### Perchè devo inserire la password della mia email in Delta Chat? E' sicuro?
+### Perché devo inserire la password della mia email in Delta Chat? E' sicuro?
 
 Come tutti gli altri programmi email, quali Thunderbird, K9-Mail o Outlook,
 l'applicazione necessita della password per inviare le email. Ovviamente la
@@ -108,7 +108,7 @@ di ricevere feedback che aiutino a rendere l'app più sicura per tutti gli utent
 - Microfono *(può essere negata)*
   - registra audio: per l'invio di messaggi vocali
 - Archiviazione *(può essere negata)*
-  - modifica o eliminazione contanuti della scheda SD: per scaricare gli allegati
+  - modifica o eliminazione contenuti della scheda SD: per scaricare gli allegati
   - lettura dei contenuti della scheda SD: per condividere file con i contatti
 - Altre funzionalità utilizzate
   - modifica impostazioni audio: per scegliere suonerie e volume ed ascoltare i messaggi vocali
@@ -178,7 +178,7 @@ così che la funzione possa uscire al più presto dallo stato sperimentale.
   di lettura per ragioni di privacy.
 - Se più del 50% dei membri del gruppo ha disabilitato le notifiche di lettura,
   le doppie spunte non venogno mai mostrate. Per i dettagli, vedi
-  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+  [questo post sul blog](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
 
 
 ## Cifratura {#encryption}
@@ -235,7 +235,7 @@ Il profilo utente mostra alcune info aggiuntive:
 
 ### Come posso verificare la cifratura dei messaggi?
 
-- Se viene mostrato un piccolo **lucchetto** vicino al messaggio, significa che questo è cifrato end-to-end _e_ è inviato dal mittente dato _e_ anche la tua risposta sarà cifrata end-to-end.
+- Se viene visualizzato un piccolo ** lucchetto ** accanto a un messaggio, ciò indica che il messaggio è crittografato end-to-end _e_ viene inviato dal dato mittente _e_ che anche la tua risposta verrà crittografata end-to-end.
 
 - Se non c'è **nessun lucchetto**, il messaggio è solitamente trasmesso in chiaro. Ad esempio perché tu o il destinatario avete disabilitato la cifratura end-to-end o il mittente usa un'applicazione che non la supporta.
 
@@ -250,7 +250,7 @@ Il profilo utente mostra alcune info aggiuntive:
 
 ### Qual è la differenza tra i gruppi verificati e le chat 1:1 con i contatti verificati?
 
-- Le chat 1:1 con un contatto verificato non è uguale ad un gruppo verificato,
+- Le chat 1:1 con un contatto verificato non è uguale a un gruppo verificato,
   anche se ci fossero solo 2 persone nel gruppo verificato. Una differenza sta
   nel fatto di poter facilmente aggiungere altre persone, ma non è la sola
   e ci sono altri aspetti.
@@ -277,7 +277,7 @@ Il profilo utente mostra alcune info aggiuntive:
   sarà probabilmente già in grado di leggere i messaggi, indipendentemente
   dal fatto che Perfect Forward Secrecy sia presente o meno. Avere accesso al
   dispositivo di un membro del gruppo dice già molto del suo grafico sociale. 
-  Usare un indirizzo che non sia riconducibile ad un soggetto aiuta i membri
+  Usare un indirizzo che non sia riconducibile a un soggetto aiuta i membri
   del gruppo a proteggersi dagli effetti di un possibile sequestro del dispositivo. 
 
 - Stiamo abbozzando alcuni sistemi per proteggere le comunicazioni in caso
@@ -324,7 +324,7 @@ Delta Chat supporta i formati di chiave privata OpenPGP comuni, ma difficilmente
 potrà supportare il 100% delle chiavi private da ogni sorgente. Questo non è
 nemmeno il focus principale di Delta Chat (la maggioranza degli utenti
 Delta Chat non ha una chiave quando iniziano ad usare Delta).
-Ad ogni modo proveremo a supportare al meglio le chiavi private dalle altri sorgenti.
+Ad ogni modo proveremo a supportare al meglio le chiavi private dalle altre sorgenti.
 
 La rimozione della password dalle chiavi private può cambiare a seconda del
 software usato per gestire le chiavi PGP. Con Enigmail puoi impostarla ad un
@@ -333,10 +333,10 @@ valore vuoto nella finestra di gestione delle chiavi. Anche con GnuPG puoi farlo
 Per gli altri programmi puoi trovare altre soluzioni online.
 
 
-### Perchè non usate pEp (pretty easy privacy)?
+### Perché non usate pEp (pretty easy privacy)?
 
 - Delta Chat usa lo standard Autocrypt per la cifratura e2e. Per
-  approfondire una discussione su Autocrypt and pEp, vedi [Autocrypt
+  approfondire una discussione su Autocrypt e pEp, vedi [Autocrypt
   FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
 
 
@@ -363,13 +363,13 @@ un backup dal vecchio dispositivo e importarlo nel nuovo:
 - Esistono 2-3 strade per introdurre un client web per Delta Chat, ma tutte
   richiedono molto lavoro. Al momento ci stiamo focalizzando sui rilasci stabili in tutti
   gli appstore (Google Play/iOS/Windows/macOS/repository Linux) come app native.
-- Se necessiti di un client web perchè non sei autorizzato a installare software nel
-  computer con cui lavori, puoi usare il client portable per Windows o l'AppImage
+- Se necessiti di un client web perché non sei autorizzato a installare software nel
+  computer con cui lavori, puoi usare il client portabile per Windows o l'AppImage
   per i sistemi Linux. Puoi trovarli su
   [get.delta.chat](https://get.delta.chat).
 
 
-### Perchè posso scegliere di non controllare la casella In Arrivo?
+### Perché posso scegliere di non controllare la casella In Arrivo?
 
 E' un'impostazione sperimentale per alcune persone che stanno verificando le
 regole lato server. Non tutti i provider le supportano, ma con alcuni è possibile spostare
@@ -397,7 +397,7 @@ e una volta attraverso l'IMAP alla cartella Inviata).
 
 L'impostazione predefinita per Auto-invia una copia è "no".
 
-### Perchè posso scegliere di controllare la cartella "Inviata"?
+### Perché posso scegliere di controllare la cartella "Inviata"?
 
 L'unico motivo per cui si può voler controllare la cartella Inviata è se stai utilizzando un altro
 programma di posta elettronica (come Thunderbird) assieme alla app Delta Chat, e vuoi il tuo MUA
@@ -408,7 +408,7 @@ Ad ogni modo consigliamo di usare il client desktop di Delta Chat; puoi scaricar
 potrebbe sparire in futuro. E' stata introdotta in un periodo in cui non esisteva il
 client Desktop di Delta Chat su ogni piattaforma. 
 
-### Perchè posso scegliere di non controllare la cartella DeltaChat?
+### Perché posso scegliere di non controllare la cartella DeltaChat?
 
 Alcuni usano Delta Chat come un normale client di posta elettronica e vogliono usare la posta "In Arrivo"
 per la loro posta, invece della cartella DeltaChat. Se disattivi "Controlla cartella DeltaChat", 

@@ -16,6 +16,8 @@ system ever: the existing e-mail server network.
 **Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
 All you need is a standard e-mail account.
 
+Check out [user stories and voices](user-voices) 📣
+
 
 # Скриншоти Android, ПК та iOS
 
@@ -34,4 +36,3 @@ for information on current releases and events.
 Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
 and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
 see, change, and share it at will, with everyone.
-

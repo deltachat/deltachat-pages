@@ -16,6 +16,8 @@ de mensagens: o sistema de e-mails já existente.
 **Converse com as pessoas que você saiba o e-mail, elas não precisarão instalar o DeltaChat!!** 
 Só é preciso uma conta normal de e-mail.
 
+Check out [user stories and voices](user-voices) 📣
+
 
 # Screenshots do Android, Desktop e iOS 
 
@@ -34,4 +36,3 @@ for information on current releases and events.
 Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
 and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
 see, change, and share it at will, with everyone.
-

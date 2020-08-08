@@ -16,6 +16,8 @@ otwartych wiadomości: istniejącej sieci serwerów poczty e-mail.
 **Rozmawiaj z kimkolwiek, jeśli znasz ich adres e-mail, nie ma potrzeby instalowania programu DeltaChat!** 
 Wszystko, czego potrzebujesz, to standardowe konto e-mail.
 
+Check out [user stories and voices](user-voices) 📣
+
 
 # Zrzut ekranowy Android, Desktop i iOS 
 
@@ -33,4 +35,3 @@ aby uzyskać informacje o bieżących wersjach i wydarzeniach.
 
 Delta Chat [otwarto źródłowym](https://en.wikipedia.org/wiki/Open-source_software)
 i [wolny oprogramowaniem](https://en.wikipedia.org/wiki/Free_software). Możesz go używać, oglądać, zmieniać i udostępniać dowolnie wszystkim.
-

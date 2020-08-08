@@ -87,6 +87,29 @@ _"La idea detrás de esto: todos tienen una dirección de correo, así que todos
 2019-09-01, <https://www.prensalibre.com/vida/tecnologia/delta-chat-el-mensajero-que-utiliza-el-correo-electronico/>
 
 
+### DPA (Deutsche Presse Agentur): Delta Chat: Een berichtenapp die e-mail gebruikt
+
+_"Eén groot probleem met berichtenapps is comptabiliteit - [...] Een nieuwe app tracht dit probleem op te lossen."_
+
+2019-08-27, <https://www.dpa-international.com/topic/delta-chat-messenger-app-uses-email-urn%3Anewsml%3Adpa.com%3A20090101%3A190820-99-532070>
+
+
+### Focus (groot Duitstalig nieuwstijdschrift): Delta Chat - De berichtenapp die e-mail gebruikt
+
+_"Delta Chat is eigenlijk een e-mailapp met moderne chatfuncties.
+Emoji's en bijlagen, zoals foto's en video's, werken dan ook prima."_
+
+2019-08-20, <https://www.focus.de/digital/computer/technik-der-messenger-der-e-mail-nutzt_id_11048525.html>
+
+
+### T-Online.de (nieuwspagina van een Duitse provider): Delta Chat - De berichtenapp die e-mail gebruikt
+
+_"Weil sie nicht kompatibel sind, steht und fällt der Erfolg von Messenger-Apps mit der Zahl ihrer Nutzer.
+Diese Logik wollten die Entwickler von Delta Chat nicht gelten lassen"_
+
+2019-08-20, <https://www.t-online.de/digital/id_86296398/delta-chat-der-messenger-der-e-mail-nutzt.html>
+
+
 ### c't (groot Duits technologietijdschrift): volksmessenger
 
 _"Mit normalen Instant Messengern erreicht man nur Partner, die denselben Dienst verwenden wie man selbst. Delta Chat hebelt diese Beschränkung aus."_
@@ -162,3 +185,6 @@ _"Het opzetten van Delta Chat kan niet eenvoudiger.[...]"_
 _"Delta.Chat: Veilig en gedecentraliseerd – kan dat?"_
 
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
+
+
+Bekijk ook [wat gebruikers en bedrijven zeggen](user-voices).
