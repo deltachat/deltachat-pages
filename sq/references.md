@@ -85,6 +85,29 @@ _"La idea detrás de esto: todos tienen una dirección de correo, así que todos
 01.09.2019, <https://www.prensalibre.com/vida/tecnologia/delta-chat-el-mensajero-que-utiliza-el-correo-electronico/>
 
 
+### DPA (Deutsche Presse Agentur): Delta Chat: Një aplikacion mesazhesh që përdor email-in
+
+_"Një problem me aplikacionet për shkëmbime mesazhesh është përputhshmëria - [...] Një aplikacion i ri përpiqet ta zgjidhë këtë problem."_
+
+28.08.2019, <https://www.dpa-international.com/topic/delta-chat-messenger-app-uses-email-urn%3Anewsml%3Adpa.com%3A20090101%3A190820-99-532070>
+
+
+### Focus (Revistë e madhe lajmesh në gjuhën gjermane): Delta Chat - Der Messenger, der E-Mail nutzt
+
+_"Delta Chat ist eigentlich eine E-Mail-App mit moderner Chat-Benutzeroberfläche.
+Insofern sind auch Emojis oder Anhänge wie Fotos oder Videos kein Problem."_
+
+20.08.2019, <https://www.focus.de/digital/computer/technik-der-messenger-der-e-mail-nutzt_id_11048525.html>
+
+
+### T-Online.de (Portal lajmesh i shërbimit gjerman): Delta Chat - Der Messenger, der E-Mail nutzt
+
+_"Weil sie nicht kompatibel sind, steht und fällt der Erfolg von Messenger-Apps mit der Zahl ihrer Nutzer.
+Diese Logik wollten die Entwickler von Delta Chat nicht gelten lassen"_
+
+20.08.2019, <https://www.t-online.de/digital/id_86296398/delta-chat-der-messenger-der-e-mail-nutzt.html>
+
+
 ### c't (Revistë e madhe gjermane mbi teknologjinë): Volks-Messenger
 
 _"Mit normalen Instant Messengern erreicht man nur Partner, die denselben Dienst verwenden wie man selbst. Delta Chat hebelt diese Beschränkung aus."_
@@ -160,3 +183,6 @@ _"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
 _"Delta.Chat: Sicher und dezentral – geht das?"_
 
 03.06.2019, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
+
+
+Shihni gjithashtu [shembuj dhe zëra përdoruesish](user-voices) 📣

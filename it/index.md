@@ -16,6 +16,8 @@ diversificato al mondo: la rete di server e-mail esistente.
 **Chatta con chiunque grazie al solo indirizzo e-mail, non serve che anche loro usino DeltaChat!** 
 Tutto ciò di cui hai bisogno è un normale account e-mail.
 
+Guarda [storie e voci dell'utente] (voci dell'utente) 📣
+
 
 # Screenshot Android, Desktop e iOS 
 
@@ -34,4 +36,3 @@ per informazioni sui rilasci e sugli eventi.
 Delta Chat è [Open Source](https://it.wikipedia.org/wiki/Open_source)
 e [software libero](https://it.wikipedia.org/wiki/Software_libero). Puoi usarlo,
 studiarlo, modificarlo e condividerlo a piacimento con chiunque.
-

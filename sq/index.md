@@ -16,6 +16,8 @@ më të larmishëm ndonjëherë: rrjetin ekzistues të shërbyesve të email-eve
 **Bisedoni me këdo, nëse dini adresën e tyre email, s’ka nevojë që të instalojnë DeltaChat-in!** 
 Krejt çka ju duhet është një llogari standarde email-i.
 
+Shihni [shembuj dhe zëra përdoruesish](user-voices) 📣
+
 
 # Foto ekrani nga aplikacioni për Android, Desktop dhe iOS 
 
@@ -35,4 +37,3 @@ në blog](blog).
 Delta Chat është me [Burim të Hapët](https://en.wikipedia.org/wiki/Open-source_software)
 dhe [Software i Lirë](https://en.wikipedia.org/wiki/Free_software).  Mund ta
 përdorni, shihni, ndryshoni dhe ndani sipas qejfit, me këdo.
-

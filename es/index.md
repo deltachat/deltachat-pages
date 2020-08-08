@@ -15,6 +15,8 @@ Delta Chat no necesita tu número de teléfono. Echa un vistazo a nuestra [decla
 **Chatea con quien quieras si conoces su dirección de correo electrónico, ¡no es necesario que instalen DeltaChat!**
 Todo lo que necesitas es una cuenta de correo electrónico.
 
+Check out [user stories and voices](user-voices) 📣
+
 
 # Capturas de pantalla en Android, Desktop y iOS
 
@@ -33,4 +35,3 @@ para más información sobre últimos lanzamientos y eventos.
 Delta Chat es de [Código abierto](https://es.wikipedia.org/wiki/C%C3%B3digo_abierto)
 y  [Software libre](https://es.wikipedia.org/wiki/Software_libre). Puedes usar,
 ver, cambiar y compartirlo a voluntad, con todos.
-
