@@ -25,7 +25,7 @@ _"There's this nice messenger, based on a simple email, called Delta Chat. I am 
 
 _"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
 
-**American user** from 2020 recommending Delta.Chat for everyday usage
+**American user** from 2020 recommending Delta Chat for everyday usage
 
 ### Works during Internet shutdowns
 
