@@ -8,7 +8,7 @@ lang: sq
 Delta.Chat është projekt bashkësie burimi të hapur. Përgjegjës për lëndën e këtyre faqeve është:
 
     Merlinux GmbH
-    Reichgrafen Str. 20
+    Reichsgrafenstr. 20
     79102 Freiburg, Germany
 
 E-mail: {% include email-link %}

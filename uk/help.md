@@ -2,51 +2,48 @@
 title: FAQ
 lang: uk
 render_toc: true
-header: Frequently Asked Questions
+header: Часті питання
 ---
 
 
-## What is Delta Chat?
+## Що таке Delta Chat?
 
-Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
-**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
+Delta Chat це новий додаток для спілкування, який надсилає повідомлення через електронну пошту, зашифровані, якщо можливо, за допомогою Autocrypt.
+**Ви не маєте ні де реєструватися, просто використовуйте з Delta Chat вашу наявну електронну пошту**
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
-### How can I find people to chat with? 
+### Як мені знайти людей для спілкування?
 
-With Delta Chat, you can write to every existing e-mail address - even
-if the recipient is not using the Delta Chat app. No need for the
-recipient to install the same app as yours, as with other messengers.
+З Delta Chat ви можете писати на будь-яку адресу електронної пошти, навіть якщо адресат не використовує Delta Chat. Отримувач не повинен інсталювати такий само додаток, що і у вас, як у інших месенджерів.
 
 
-### What are the advantages of Delta Chat compared to other messengers?
+### Які переваги Delta Chat у порівнянні з іншими месенджерами?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _Compatible_ - not only to itself.
-- _Elegant_ and _simple_ user interface.
-- _Distributed_ system.
-- _No Spam_ - only messages of known users are shown by default.
-- _Reliable_ - safe for professional use.
-- _Trustworthy_ - can even be used for business messages.
-- _Copyleft_ and _Standards_ based libre software.
+- _Незалежний_ від будь-яких компаній та сервісів. _Ви_ власник ваших даних.
+- Ваші дані не зберігаються на центральному сервері.
+- Ви не передаєте нікому свою адресну книгу.
+- _Швидкий_ завдяки використанню Push-IMAP.
+- _Найбільша користувацька база_ - адресати, що _не_ використовують Delta Chat може отримати ваше повідомлення.
+- _Сумісний_ не тільки сам із собою.
+- _Елегантний_ та _простий_ користувацький інтерфейс.
+- _Розподілена_ система.
+- _Без спаму_ - лише повідомлення від відомих користувачів відображаються за умовчанням.
+- _Надійний_ - безпечний для професійного використання.
+- _Вартий довіри_ - може використовуватись навіть для ділового спілкування.
+- _Вільне_ програмне забезпечення засноване на _стандартах_.
 
 
-### Which messages do appear in Delta Chat?
+### Які повідомлення відображаються у Delta Chat?
 
-Delta Chat automatically shows:
+Delta Chat автоматично показує:
 
-- Messages from contacts in your **address book**
-- Messages from contacts **contacted by you**
-- **Replies** to messages sent by you
+- Повідомлення від контактів з вашої **адресної книги**
+- Повідомлення від контактів котрим **ви самі писали**
+- **Відповіді** на повідомлення надіслані вами
 
-Other messages do not appear automatically, and are to be found in the main menu at **Contact requests**. If desired a chat can be started from there.
+Інші повідомлення не відображаються автоматично, і можуть бути знайдені у пункті головного меню **Запити контактів**. За бажанням чат може бути розпочато звідти.
 
 
 ### What about spam?

@@ -8,7 +8,7 @@ lang: nl
 Delta Chat is een open-source gemeenschapsproject. De verantwoordelijkheid van de pagina-inhoud ligt bij:
 
     Merlinux GmbH
-    Reichgrafen Str. 20
+    Reichsgrafenstr. 20
     79102 Freiburg, Duitsland
 
 E-mailadres: {% include email-link %}

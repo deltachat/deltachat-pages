@@ -1,22 +1,22 @@
 ---
-title: The messenger
+title: Месенджер
 lang: uk
 ---
 
-# Chat over e-mail and head back to the future with us!
+# Спілкуйтесь через електронну пошту та повертайтесь у майбутнє разом з нами!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
-Delta Chat does not need your phone number. Check out our [privacy statement](gdpr).
+**Delta Chat схожий на Telegram або Whatsapp, але без відстежування та центрального управління**
+Delta Chat не потребує вашого телефонного номеру. Перегляньте нашу [заяву про конфіденційність](gdpr). 
 
-**Delta Chat doesn't have their own servers** but uses the most massive and diverse open messaging 
-system ever: the existing e-mail server network.
+**Delta Chat не має власних серверів**, бо використовує найбільшу та найрізноманітнішу відкриту
+систему обніму повідомленнями: наявну мережу серверів електронної пошти.
 
-**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
-All you need is a standard e-mail account.
+**Спілкуйтеся із ким завгодно, якщо вам відома їх електронна адреса, їм не потрібно встановлювати Delta Chat!**
+Все що вам необхідно це стандартний обліковий запис електронної пошти.
 
-Check out [user stories and voices](user-voices) 📣
+Перегляньте [історії користувачів](user-voices) 📣
 
 
 # Скриншоти Android, ПК та iOS
@@ -30,9 +30,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
 
-Please check [get.delta.chat](https://get.delta.chat) and the [latest blog posts](blog)
-for information on current releases and events. 
+Будь ласка, зверніться до [сторінки завантажень](https://get.delta.chat) та [останніх записів в блозі](blog)
+за інформацією про поточні релізи та події. 
 
-Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
-see, change, and share it at will, with everyone.
+Delta Chat це [відкрите](https://en.wikipedia.org/wiki/Open-source_software)
+та [вільне](https://en.wikipedia.org/wiki/Free_software) програмне забезпечення.  Ви можете,
+використовувати, вивчати та ділитися ним як завгодно, будь з ким.

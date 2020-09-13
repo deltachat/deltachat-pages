@@ -1,34 +1,34 @@
 ---
-title: Get Delta Chat
+title: Отримати Delta Chat
 lang: uk
 downloads: true
 ---
 
-## Changelogs
+## Список змін
 
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Комп'ютер](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android]({% include changelog-url %})
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Ядро](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-The desktop versions do not require Delta Chat to be installed on a phone.
+Версії для комп'ютера не потребують встановлення DeltaChat на телефоні.
 
-Minimal requirements:
+Мінімальні вимоги:
 Android 4.1 Jelly Bean
-or iOS 11, iPhone 5s or iPad 5/Air/Mini
-or Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 or Debian 8
-or compatible systems.
+або iOS 11, iPhone 5s or iPad 5/Air/Mini
+або Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 or Debian 8
+або сумісні системи.
 
-## Links
+## Посилання
 
-* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
-* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
-* [Verify Downloads](verify-downloads): Verify data integrity of downloads
+* [База провайдерів](https://providers.delta.chat/): Чи працює Delta Chat з моїм провайдером електронної пошти?
+* [FAQ multiclient](help#multiclient): Як синхронізувати версію для комп'ютера із додатком на телефоні.
+* [Перевірка завантажень](verify-downloads): Перевірка цілісності даних завантажених файлів
 
-## Preview Builds
+## Попередні збірки
 
-* [Desktop Previews](https://download.delta.chat/desktop/preview/): Pending changes for the desktop clients
-* [Android Nightly](https://download.delta.chat/android/nightly/): Built last night with the most recent core
-* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): May contain not yet officially released iOS versions
+* [Desktop Previews](https://download.delta.chat/desktop/preview/): Збирає зміни для десктопних клієнтів
+* [Android Nightly](https://download.delta.chat/android/nightly/): Зібраний останнього вечора з найсвіжішим ядром
+* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Можуть містити ще не випущені офіційно версії для iOS
 
-Preview builds may come with new bugs and should not be used productive.
+Попередні збірки можуть містити нові баги і не мають використовуватись продуктивно.

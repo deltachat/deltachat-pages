@@ -8,8 +8,8 @@ lang: ru
 Delta.Chat основан на программном обеспечении с открытым исходным кодом, разрабатываемым сообществом. Ответственный за содержание этих страниц: 
 
     Merlinux GmbH
-    Reichgrafen Str. 20
-    79102 Freiburg, (Фрайбург-им-Брайсгау), Germany (ФРГ)
+    Reichsgrafenstr. 20
+    79102 Freiburg, Germany
 
 Электронная почта: {% include email-link %}
 
