@@ -15,23 +15,23 @@ Goed gemaakt, mensen![...]"_
 
 **Blinde gebruiker** over de Android-versie in een e-mail aan delta@merlinux.eu (2019)
 
-### Popular in regions with strict Internet governance
+### Populair in regio's met streng internettoezicht
 
-_"There's this nice messenger, based on a simple email, called Delta Chat. I am happy that our Internet watchdog has made this app popular by trying to block it. It's just like with Telegram that has become widely popular across non-tech audiences after the ban"._ 
+_"Ik wil graag mijn verhaal delen over een gespreksapp, gebaseerd op e-mail, genaamd Delta Chat. Ik ben blij dat onze internetwaakhond deze app populair heeft gemaakt door hun blokkadepoging. Het is net als Telegram populair geworden onder niet technisch aangelegde gebruikers"._ 
 
-**Russian user** from 2020 in response to Delta Chat's rejection to satisfy Russian Internet watchdog RKN's request for user data, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**Russische gebruiker** als antwoord op Delta Chat's afwijzing aan de Russische internetwaakhond 'RKN' om gebruikersgegevens op te vragen, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153) (2020)
 
-### Chatty interface with robust encryption
+### Chatvormgeving met robuuste versleuteling
 
-_"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
+_"Ik weet dat ik er laat bij ben, maar Delta Chat lijkt me geweldig, vooral als je privacybezwaren hebt, aangezien het een sterke versleuteling gebruikt op basis van e-mail, maar met een chatuiterlijk."_
 
-**American user** from 2020 recommending Delta Chat for everyday usage
+**Amerikaanse gebruiker** die Delta Chat aanbeveelt voor dagelijks gebruik (2020)
 
-### Works during Internet shutdowns
+### Blijft werken tijdens internetblokkades
 
-_"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
+_"Ik ben blij dat ik Delta Chat kon downloaden van de website, aangezien Google Play geblokkeerd was in Wit-Rusland. Het downloaden verliep traag, maar eenmaal geïnstalleerd kon ik zó aan de slag. We hebben met zijn allen foto's en video's versleuteld uitgewisseld."_ 
 
-**Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
+**Wit-Russische gebruiker** tijdens de protesten van augustus 2020, in een e-mail aan delta@merlinux.eu
 
 ### Bedrijfsmeldingen
 
@@ -41,7 +41,7 @@ om de bedrijfsveiligheid te verbeteren.
 Onze camera's versturen detectiewaarschuwingen
 naar een Delta-groepsgesprek."_
 
-**Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/6)
+**Gebruiker van het eerste uur** in een bericht op het [forum](https://support.delta.chat/t/clear-chat-function/163/6) (2018)
 
 
 ### E-mail werkt altijd
@@ -53,7 +53,7 @@ Ik was WhatsApp-gebruiker van het eerste uur, maar ben daar vanaf gestapt omwill
 Delta is DE oplossing voor iedereen die graag één
 alternatief wil - e-mail werkt áltijd! :)_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Duitse gebruiker** in een e-mail aan delta@merlinux.eu (2019)
 
 
 ### Eindelijk een goed chatalternatief
@@ -62,7 +62,7 @@ _"Geweldig project! Ik heb zó lang gewacht op een
 end-to-end versleutelde gespreksapp die serieuze concurrentie biedt aan 
 niet-gedecentraliseerde systemen als WhatsApp, Signal, Telegram, etc."_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Duitse gebruiker** in een e-mail aan delta@merlinux.eu (2019)
 
 
 ### Groeten uit Cuba
@@ -83,11 +83,11 @@ E-mail is volledig gedecentraliseerd, sterk versleuteld en iedereen is bereikbaa
 
 **Gaël Duval**, maker van Mandrake Linux, in een tweet op [Twitter](https://twitter.com/gael_duval/status/1122906779002777600) (2019)
 
-### Decentralized but easy for users
+### Gedecentraliseerd, maar eenvoudig voor gebruikers
 
-_"People start caring about decentralization. But it seems that for a lot of people setting servers and all to use Matrix or XMPP is too complicated while you can use Delta with just an e-mail address"_
+_"Mensen beginnen te snakken naar decentralisatie, maar veel mensen zien het niet zitten om servers op te zetten en Matrix of XMPP te gebruiken. Delta biedt precies hetzelfde, maar dan simpeler met een e-mailadres."_
 
-**Russian user** LGBT+ activist, from an online discussion over Telegram
+**Russische gebruiker**, een LHBT+-activist, in een online-discussie over Telegram
 
 ### Niks mis met ouderwetse e-mails
 
@@ -125,4 +125,4 @@ het werkt in alle e-mailclients"_
 **gozala** in een tweet op [Twitter](https://twitter.com/gozala/status/1281346020664729600) (2020)
 
 
-Bekijk ook [wat de pers vindt](references).
+Bekijk ook [wat de pers schrijft](references).

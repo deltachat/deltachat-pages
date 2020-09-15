@@ -16,21 +16,21 @@ Punë e paqme, djemë! […]”_
 
 **Përdorues i verbër** rreth versionit Android, më 2019-n, përmes email-i për delta@merlinux.eu
 
-### Popular in regions with strict Internet governance
+### Popullor në rajone me administrim të rreptë të Internetit
 
-_"There's this nice messenger, based on a simple email, called Delta Chat. I am happy that our Internet watchdog has made this app popular by trying to block it. It's just like with Telegram that has become widely popular across non-tech audiences after the ban"._ 
+_“Ekziston ky aplikacion i lezetshëm shkëmbimi mesazhesh, i quajtur Delta Chat. Jam i gëzuar që mbikëqyrësi ynë i Internetit, duke u rrekur ta bllokojë,  e ka bërë popullor këtë aplikacion. Njësoj si me Telegram-in, që është bërë goxha popullor në mesin e publikut jo teknik, pas ndalimit”._ 
 
-**Russian user** from 2020 in response to Delta Chat's rejection to satisfy Russian Internet watchdog RKN's request for user data, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**Përdorues rus** prej 2020-s, në përgjigje të hedhjes poshtë të Delta Chat-it për shkak të mosplotësimit të kërkesës së RKN-së - ent mbikëqyrës rus për Internetin - për të dhëna përdoruesi, përmes [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
 
-### Chatty interface with robust encryption
+### Ndërfaqje fjalosjeje me fshehtëzim të fuqishëm
 
-_"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
+_“E di që jam i vonuar me gjëra të tjera, por delta-chat duket vërtet i qëruar, veçanërisht nëse shqetësoheni për privatësinë, ngaqë përnjëmend është thjesht një klient email i specializuar, nën fshehtëzim të fuqishëm që paraqet një ndërfaqe fjalosjeje”_
 
-**American user** from 2020 recommending Delta Chat for everyday usage
+**Përdorues amerikan**, prej 2020-s, duke rekomanduar Delta Chat-in për përdorim të përditshëm
 
-### Works during Internet shutdowns
+### Funksionon gjatë fikjesh të Internetit
 
-_"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
+_“Qeshë i lumtur që mund ta merrja Delta Chat-in nga sajti, jo thjesht përmes Google Play, ngaqë ky qe i bllokuar në Bjellorusi. Marrja e apk-së qe pak e ngadaltë, por pasi e mora aplikacionin, funksionoi për bukuri. Mundëm të shkëmbejmë foto, madje dhe video, të fshehtëzuara”_ 
 
 **Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
 
