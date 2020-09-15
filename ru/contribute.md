@@ -19,7 +19,7 @@ lang: ru
 
 # Переводы и Рапорты об ошибках
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)

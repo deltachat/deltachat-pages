@@ -3,19 +3,19 @@ title: Política de privacidad
 lang: es
 ---
 
-# Privacy Policy Delta Chat Apps 
+# Política de Privacidad de las Aplicaciones Delta Chat
 
-### How Delta Chat complies to the GDPR
+### De qué manera Delta Chat respeta el RGPD
 
-The General Data Protection Regulation (GDPR) is often regarded
-as the furthest reaching legislation for privacy protection of users. 
-On this page we detail how the Delta Chat app and website complies 
-with GDPR requirements. 
+El Reglamento General de Protección de Datos (RGPD) es considerado
+a menudo como la legislación de mayor alcance para la protección de
+la privacidad de los usuarios.
+En esta página detallamos de qué manera la aplicación y sitio web de Delta Chat respeta los requerimientos del RGPD.
 
-- Implements the **Privacy by Design** requirement of the GDPR, through
+- Implementa el requerimiento de **Privacidad por Diseño** del RGPD, a través de
 
-  - **Confidentiality**: End-to-end encryption when possible, by implementing [Autocrypt
-  Level 1](https://autocrypt.org).
+  - **Confidencialidad**: Encripción de extremo-a-extremo cuando es posible, a través de
+la implementación de [Autocrypt Level 1](https://autocrypt.org).
 
   - **Data minimization**: No uploading of address-book content.
 

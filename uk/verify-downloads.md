@@ -1,18 +1,18 @@
 ---
-title: Verify Downloads
+title: Перевірка завантажених файлів
 lang: uk
 ---
 
-# Verify Downloads
+# Перевірка завантажених файлів
 
-For Android, you can verify the signing certificate on the APK matches one of the following SHA256 fingerprints:  
+Для Android Ви можете перевірити автентичність, порівнявши відбитки сертифікату SHA256 інсталяційного файлу APK з наступними контрольними сумами:
 
-* For F-Droid downloads:  
-  `{% include fingerprint-f-droid %}`
+* Для завантажень з F-Droid:
+ `{% include fingerprint-f-droid %}`
 
-* Other APK downloads:  
+* Інші завантаження APK:
   `{% include fingerprint-local %}`
 
-To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
+Ви можете подивитися відбиток сертифікату SHA256, яким підписано інсталяційний файл APK, за допомогою команди
 `keytool -list -printcert -jarfile <APK-file>`
 

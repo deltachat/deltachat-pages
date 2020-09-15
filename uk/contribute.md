@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Зробити свій внесок
 lang: uk
 ---
 
@@ -14,12 +14,12 @@ lang: uk
   розсилок](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
   для обговорення спільнотою і новин.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can 
-  find the code for DeltaChat apps and this web site.
+- [Репозиторії Delta Chat](https://github.com/deltachat/) де ви можете 
+  знайти початковий код додатків DeltaChat та цього веб-сайту.
 
 # Переклади і звіти про помилки
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Переклади на Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
@@ -33,10 +33,10 @@ C, Rust, Java, Swift, Javascript або Python на Android, iOS, Windows, Linux
 
 Якщо Ви бажаєте допомогти Delta Chat грошима:
 
-- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, власник рахунку (будь ласка, вказуйте завжди): Björn Petersen, BIC NORSDE51XXX
+- PayPal або картка: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Регулярні пожертви через [Liberapay](https://liberapay.com/delta.chat/)
+- Біткойн-гаманець: [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Ми потребуємо **пристрої** для тестування. Якщо у Вас є непотрібний смартфон на базі Android або iPhone
 [ми](imprint) із задоволенням приймемо його у подарунок!

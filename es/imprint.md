@@ -7,9 +7,9 @@ lang: es
 
 Delta.Chat es un proyecto de la comunidad de código abierto. El responsable del contenido de estas páginas es:
 
- Merlinux GmbH
-Reichgrafen calle 20
-79102 Freiburg, Alemania
+    Merlinux GmbH
+    Reichsgrafenstr. 20
+    79102 Freiburg, Germany
 
 Correo electrónico: {% include email-link %}
 

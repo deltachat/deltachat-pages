@@ -210,7 +210,7 @@ così che la funzione possa uscire al più presto dallo stato sperimentale.
 ### Se la cifratura end-to-end non è disponibile, anche la connessione non viene cifrata?
 
 - Con la maggior parte dei server email Delta Chat stabilsce una _transport encryption_
-  ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
+  ([TLS](https://it.wikipedia.org/wiki/Transport_Layer_Security)).
   Questo rende sicura solo la comunicazione tra il dispositivo e il server
   email. La cifratura e2e rende invece sicura la comunicazione 
   tra il tuo dispositivo e quello del destinatario. 
@@ -294,7 +294,7 @@ Il profilo utente mostra alcune info aggiuntive:
   le intestazioni A/Cc non cifrate nella email e determina quale indirizzo email fa parte
   del gruppo. Delta Chat può evitare l'invio non cifrato delle intestazioni A/Cc e li 
   inserisce sempre nella parte cifrata del messaggio . Vedi 
-  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
+  [Evita di inviare intestazioni A/CC per i gruppi verificati](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
   La principale preoccupazione è come questo possa incidere sulle altre app di email 
   che potrebbero partecipare alla chat. 
 

@@ -16,7 +16,7 @@ otwartych wiadomości: istniejącej sieci serwerów poczty e-mail.
 **Rozmawiaj z kimkolwiek, jeśli znasz ich adres e-mail, nie ma potrzeby instalowania programu DeltaChat!** 
 Wszystko, czego potrzebujesz, to standardowe konto e-mail.
 
-Check out [user stories and voices](user-voices) 📣
+Sprawdź [historie i wypowiedzi użytkowników](user-voices) 📣
 
 
 # Zrzut ekranowy Android, Desktop i iOS 

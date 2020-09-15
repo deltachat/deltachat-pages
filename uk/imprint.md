@@ -1,14 +1,14 @@
 ---
-title: Imprint
+title: Вихідні дані
 lang: uk
 ---
 
-# Выходные данные
+# Вихідні дані
 
 Delta.Chat базується на програмному забезпеченні з відкритим вихідним кодом, що розробляється спільнотою. Відповідальний за зміст цих сторінок:
 
     Merlinux GmbH
-    Reichgrafen Str. 20
+    Reichsgrafenstr. 20
     79102 Freiburg, Germany
 
 Електронна пошта: {% include email-link %}

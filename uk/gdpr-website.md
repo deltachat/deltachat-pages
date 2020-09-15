@@ -1,7 +1,7 @@
 ---
-title: Privacy policy website
+title: Політика конфінедційності
 lang: uk
 ---
 
-This page has been moved to the ["privacy statement on apps and websites"](gdpr).
+Цю сторінку переміщено до ["заява про конфіденційність програм та веб-сайтів"](gdpr).
 

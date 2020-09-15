@@ -53,7 +53,7 @@ _"W przeciwieństwie do WhatsApp, Delta Chat może być również używany równ
 2020-02-05, <https://www.basicthinking.de/blog/2020/02/05/whatsapp-alternative-delta-chat/>
 
 
-### Vorinstanz (Szwajcarski blog): Delta Chat: czat maiolowy
+### Vorinstanz (Szwajcarski blog): Delta Chat: czat mailowy
 
 _"Mit Delta-Chat gewinnt man die Vorteile der Mail-Nutzung (z. B. sehr verbreitet) und handelt sich im Gegenzug die Nachteile der Mail-Technologie ein (z. B. bei Gruppenchats)."_
 
@@ -86,14 +86,14 @@ _"La idea detrás de esto: todos tienen una dirección de correo, así que todos
 2019-09-01, <https://www.prensalibre.com/vida/tecnologia/delta-chat-el-mensajero-que-utiliza-el-correo-electronico/>
 
 
-### DPA (Deutsche Presse Agentur): Delta Chat: A messenger app that uses email
+### DPA (Niemiecka agencja prasowa): Delta Chat: A messenger app that uses email
 
 _"One issue with messenger apps is compatibility - [...] A new app seeks to solve that problem."_
 
 2019-08-27, <https://www.dpa-international.com/topic/delta-chat-messenger-app-uses-email-urn%3Anewsml%3Adpa.com%3A20090101%3A190820-99-532070>
 
 
-### Focus (Large german-language news magazine): Delta Chat - Der Messenger, der E-Mail nutzt
+### Focus (Duży magazyn informacyjny w języku niemieckim): Delta Chat - Der Messenger, der E-Mail nutzt
 
 _"Delta Chat ist eigentlich eine E-Mail-App mit moderner Chat-Benutzeroberfläche.
 Insofern sind auch Emojis oder Anhänge wie Fotos oder Videos kein Problem."_
@@ -101,7 +101,7 @@ Insofern sind auch Emojis oder Anhänge wie Fotos oder Videos kein Problem."_
 2019-08-20, <https://www.focus.de/digital/computer/technik-der-messenger-der-e-mail-nutzt_id_11048525.html>
 
 
-### T-Online.de (News portal of german provider): Delta Chat - Der Messenger, der E-Mail nutzt
+### T-Online.de (Portal informacyjny niemieckiego dostawcy): Delta Chat - Der Messenger, der E-Mail nutzt
 
 _"Weil sie nicht kompatibel sind, steht und fällt der Erfolg von Messenger-Apps mit der Zahl ihrer Nutzer.
 Diese Logik wollten die Entwickler von Delta Chat nicht gelten lassen"_
@@ -186,4 +186,4 @@ _"Delta.Chat: Sicher und dezentral – geht das?"_
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out [user stories and voices](user-voices).
+Sprawdź także [historie i wypowiedzi użytkowników](user-voices).
