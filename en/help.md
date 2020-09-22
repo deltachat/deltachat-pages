@@ -244,7 +244,7 @@ If you are not near the chat partner, you can check the status manually in the "
 
 ### How can I check the encryption of messages?
 
-- If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted and is sent from the given sender.
+- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
 
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
