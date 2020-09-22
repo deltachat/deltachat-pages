@@ -100,7 +100,7 @@ about feedback which makes the app more secure for all of our users.
 
 ### Which permissions does Delta Chat need?
 
-Depending on the used operating system,
+Depending on the operating system in use,
 you may be asked to grant permissions to the app.
 This is what Delta Chat does with these permissions:
 
