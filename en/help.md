@@ -232,7 +232,7 @@ If you are within immediate distance of the chat partner:
   and the encryption keys will also be verified.  Both will see a
   "sender verified" system message in their 1:1 chat. 
 
-If you are not nearby the chat partner, you can check the status manually in the "Encryption" dialog
+If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
 - For end-to-end-encryption, Delta Chat shows two fingerprints there. 
