@@ -46,7 +46,7 @@ Delta Chat shfaq automatikisht:
 - Mesazhe nga kontakte **të kontaktuar nga ju**
 - **Përgjigje** ndaj mesazheve dërguar nga ju
 
-Mesazhet e tjera nuk shfaqen automatikisht dhe mund të gjenden te menuja kryesore, te **Kërkesa kontakti**. Nëse dëshirohet, një bisedë mund të fillohet që prej atje.
+Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
 
 
 ### Po mesazhet e padëshiruara?
@@ -99,7 +99,11 @@ nëse doni të verifikoni se a trajtohen me siguri kredencialet tuaja. Na gëzoj
 përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tanë.
 
 
-### Ç’leje Android lyp Delta Chat-i?
+### Which permissions does Delta Chat need?
+
+Depending on the operating system in use,
+you may be asked to grant permissions to the app.
+This is what Delta Chat does with these permissions:
 
 - Mbi kamerën *(mund të çaktivizohet)*
   - të bëjë foto dhe video: për dërgim Fotosh
@@ -128,9 +132,9 @@ përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tan
 
 ### Krijimi i një grupi
 
-- Përzgjidhni **Shtoni grup** që nga "menuja sanduiç" në cepin e sipërm djathtas te skena bazë e bisedave.
-- Te skena vijuese, përzgjidhni **anëtarët e grupit** dhe i vini shenjë kutizës në cepin e sipërm djathtas. Pas kësaj, mund të përcaktoni një **emër grupi**.
-- Sapo të shkruani **mesazhin tuaj të parë** në grup, krejt anëtarët e mësojnë krijimin e grupit të ri dhe mund të përgjigjen te grupi (për sa kohë që nuk shkruani një mesazh te grupi, grupi është i padukshëm për anëtarët).
+- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
+- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
 ### Shtoni anëtarë te një grup
@@ -203,8 +207,8 @@ pasues fshehtëzohen automatikisht skaj-më-skaj. Nëse një nga partnerët
 në bisedë, më pas, përdor një aplikacion email që nuk mbulon Autocrypt-in, 
 mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë për Autocrypt-in. 
 
-- Nëse doni që email-et e fshehtëzuar të shmagen, si parazgjedhje, përdorni
-  rregullimin përgjegjës Autocrypt, te “Rregullime / Rregullime të mëtejshme”.
+- If you want to rather avoid end-to-end-encrypted e-mails by default, 
+  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
 
 
 ### Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?
@@ -218,13 +222,16 @@ mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë p
 
 ### Si mund ta verifikoj gjendjen kriptografike me një dërguesin? 
 
-Profili i përdoruesit shfaq disa të dhëna shtesë:
+If you are within immediate distance of the chat partner:
 
-- Prekni "Kod QR Ftese" te Android-i dhe mandej përdorni butonin “Skano kod QR”
-  te pajisja tjetër që të skanohet ky kod. Nëse që të dyja pajisjet janë në linjë,
-  kjo do të vendosë një kanal fjalosjeje me njëri-tjetrin (nëse s’ekziston tashmë) 
-  dhe do të verifikohen gjithashtu kyçet e fshehtëzimit. Të dyja palët do të shohin
-  një mesazh sistemi “dërgues i verifikuar” te fjalosja e tyre 1:1. 
+- Select **QR Invite code** on one device and then **Scan QR code**
+  on the other one and scan the code. If both devices are online,
+  they will introduce a chat channel with each-other (if it doesn't exist already) 
+  and the encryption keys will also be verified.  Both will see a
+  "sender verified" system message in their 1:1 chat. 
+
+If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
+(user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
 - Për fshehtëzim skaj-më-skaj, Delta Chat shfaq dy shenja gishtash. 
   Nëse po ata shfaqen te pajisja e partnerit tuaj në bisedë, lidhja
@@ -235,7 +242,7 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
 
 ### Si mund ta kontrolloj fshehtëzimin e mesazheve?
 
-- Nëse në krah të mesazhit shfaqet një **dry** i vockël, kjo tregon se mesazhi është i fshehtëzuar skaj-më-skaj _dhe_ se është dërguar nga dërguesi i dhënë _dhe_ se përgjigja juaj edhe ajo do të fshehtëzohet skaj-më-skaj.
+- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
 
 - Nëse **s’ka dry**, mesazhi zakonisht transportohet i pafshehtëzuar, p.sh., ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose dërguesi përdor një aplikacion që nuk mbulon fshehtëzimin skaj-më-skaj.
 
@@ -311,7 +318,7 @@ Profili i përdoruesit shfaq disa të dhëna shtesë:
 
 - Po. Rruga më e mirë është të dërgohet një Mesazh Rregullimi Autocrypt-i që nga klienti tjetër email. Shihni për diçka si **Start Autocrypt Setup Transfer** te rregullimet e klientit tjetër dhe ndiqni udhëzimet e dhëna atje.
 
-- Ndryshe, mund ta importoni kyçin dorazi që nga "Rregullime të mëtejshme / Administroni kyçe private". Kujdes: Sigurohuni që kyçi nuk mbrohet me fjalëkalim, ndryshe hiqjani fjalëkalimin paraprakisht.
+- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të bërë. 
 
@@ -352,16 +359,15 @@ Për programe të tjera, mund të gjeni një zgjidhje në internet.
 Nëse doni të përdorni të **njëjtën llogari** në pajisje të ndryshme, duhet
 të eksportoni nga njëra pajisje një kopjeruatje dhe ta importoni te tjetra:
 
-- Te pajisja e parë, zgjidhni "Rregullime / Biseda dhe media / Kopjeruajtje".
-  Jepni PIN-in, rregullsinë ose fjalëkalimin tuaj për shkyçje ekrani. Mandej
-  klikoni mbi “Fillo Kopjeruajtje”. Kështu te pajisja juaj do të ruhet kartela
-  e kopjeruajtjes. Tani ju duhet ta shpërngulni në një farë mënyre te pajisja
-  tjetër.
-- Te pajisja tjetër, te skena e hyrjeve, në vend se të hyni në llogarinë tuaj
-  të email-eve, zgjidhni "Importo Kopjeruajtje". Pas importimit, bisedat, kyçet
-  e fshehtëzimit dhe mediat tuaja do të jenë kopjuar te pajisja e re.
-- Tanimë jeni i njëkohësuar dhe mund të përdorni të dyja pajisjet për dërgim dhe
-  marrje mesazhesh të fshehtëzuar skaj më skaj me partnerët tuaj në komunikim.
+- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
+  screen unlock PIN, pattern, or password. Then you can click on "Start
+  Backup". This saves the backup file to your device. Now you have to transfer
+  it to the other device somehow.
+- On the new device, on the login screen, instead of logging into your email
+  account, choose "Import Backup". After import, your conversations, encryption
+  keys, and media should be copied to the new device.
+- You are now synchronized, and can use both devices for sending and receiving
+  E2E-encrypted messages with your communication partners. 
 
 ### A ka ndonjë plan për të sjellë një Klient Web Delta Chat?
 

@@ -90,7 +90,11 @@ code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_par
 kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inloggegevens. We ontvangen graag feedback hierover.
 
 
-### Welke Android-machtigingen heeft Delta Chat nodig?
+### Welke Android-rechten heeft Delta Chat nodig?
+
+Op bepaalde besturingssystemen kun je gevraagd
+worden bepaalde rechten toe te kennen aan de app.
+Delta Chat doet het volgende met deze rechten:
 
 - Camera *(kan worden ingetrokken)*
   - foto's en video's maken: voor het versturen van foto's
@@ -120,7 +124,7 @@ kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inlogg
 ### Groepen aanmaken
 
 - Open het 'menu met de drie puntjes' rechtsboven in het gespreksoverzicht, kies **Nieuw gesprek** en daarna **Nieuwe groep**.
-- Kies dan de **groepsleden** en druk op het vinkje rechtsbovenin. Daarna kun je een **groepsnaam** opgeven.
+- Kies dan de **groepsleden** en druk op het vinkje rechtsboven. Daarna kun je een **groepsnaam** opgeven.
 - Zodra je het **eerste groepsbericht** hebt verstuurd, worden alle deelnemers op de hoogte gebracht en kunnen zij antwoorden versturen (de groep blijft onzichtbaar voor anderen zolang jij geen bericht verstuurt).
 
 
@@ -176,31 +180,31 @@ kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inlogg
 
 ## Versleuteling {#encryption}
 
-### Ondersteunt Delta Chat end-to-end-versleuteling?
+### Ondersteunt Delta Chat eind-tot-eindversleuteling?
 
 - Ja. Delta Chat heeft de standaard Autocrypt niveau 1 ingebouwd
   en kan dus e2e-berichten versleutelen d.m.v. Autocrypt-achtige apps.
 
-- Delta Chat ondersteunt een sterke variant van end-to-end-versleuteling die zélfs
+- Delta Chat ondersteunt een sterke variant van eind-tot-eindversleuteling die zélfs
   beschermt tegen actieve aanvallen. Zie 'goedgekeurde groepen' verderop.
 
 
-### Moet ik iets doen om end-to-end-versleuteling in te schakelen?
+### Moet ik iets doen om eind-tot-eindversleuteling in te schakelen?
 
 - Nee.
 
 - De Delta Chat-apps (en andere met [Autocrypt](https://autocrypt.org) compatibele
-  e-mailapps) delen automatisch de vereiste sleutels voor end-to-end-versleuteling, 
+  e-mailapps) delen automatisch de vereiste sleutels voor eind-tot-eindversleuteling, 
   al vanaf het eerste verstuurde bericht. 
   Hierna zijn alle opeenvolgende berichten automatisch versleuteld. 
   Als één van de gesprekspartners een niet met Autocrypt compatibele e-mailapp gebruikt, 
   dan zijn die berichten onversleuteld. 
 
-- Als je end-to-end-versleuteling standaard wilt _uitschakelen_, 
+- Als je eind-tot-eindversleuteling standaard wilt uitschakelen, 
   zoek dan de Autocrypt-optie in 'Instellingen --> Geavanceerd'.
 
 
-### Als end-to-end-versleuteling niet beschikbaar is, is de verbinding dan onbeveilgd?
+### Als eind-tot-eind-versleuteling niet beschikbaar is, is de verbinding dan onbeveiligd?
 
 - Net als de meeste mailservers, zet Delta Chat een _beveiligde verbinding_
   ([TLS](https://nl.wikipedia.org/wiki/Transport_Layer_Security)) op.
@@ -211,16 +215,19 @@ kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inlogg
 
 ### Hoe kan ik de cryptografische status met een afzender verifiëren?
 
-Gebruikersprofielen tonen aanvullende informatie:
+Als je in de buurt van je gesprekspartner bent:
 
-- Druk op 'QR-uitnodigingscode' (Android). Pak het andere apparaat, druk daar op
+- Druk op 'QR-uitnodigingscode'. Pak het andere apparaat, druk daar op
   'QR-code scannen' en scan de code.  Als beide apparaten verbonden zijn
   met internet, dan wordt er een gesprekskanaal opgezet (als dat er nog niet was) 
   en worden de sleutels geverifieerd. 
 Beiden zien daarna een bericht
   'afzender goedgekeurd' in hun gesprek.
 
-- Bij end-to-end-versleuteling toont Delta Chat twee vingerafdrukken. 
+Als je niet in de buurt bent van je gesprekspartner, kun je de status handmatig controleren in het venster 'Versleuteling'
+(gebruikersprofiel op Android/iOS of rechtsklik op een gesprek op de computer)
+
+- Bij eind-tot-eindversleuteling toont Delta Chat twee vingerafdrukken. 
   Als deze dezelfde zijn als die op het apparaat van je gesprekspartner, dan is de verbinding beveiligd.
 
 - Bij overdrachtsversleuteling wordt de status ervan getoond.
@@ -228,11 +235,11 @@ Beiden zien daarna een bericht
 
 ### Hoe kan ik de versleuteling controleren?
 
-- Als er een klein **hangslot** wordt getoond naast een bericht, dan is het end-to-end versleuteld. Jouw antwoord is dan _eveneens_ end-to-end versleuteld.
+- Als er een klein **hangslot** wordt getoond naast een bericht, dan is het eind-tot-eind versleuteld. Jouw antwoord is dan eveneens eind-tot-eind versleuteld.
 
-- Als het **hangslot ontbreekt**, dan is het bericht meestal onversleuteld omdat jij of de afzender end-to-end-versleuteling hebt uitgeschakeld, of omdat de afzender geen app gebruikt die end-to-end-versleuteling ondersteunt.
+- Als het **hangslot ontbreekt**, dan is het bericht meestal onversleuteld omdat jij of de afzender eind-tot-eindversleuteling hebt uitgeschakeld, of omdat de afzender geen app gebruikt die eind-tot-eind-versleuteling ondersteunt.
 
-### Welke standaarden worden gebruikt bij end-to-end-beveiliging?
+### Welke standaarden worden gebruikt bij eind-tot-eindversleuteling?
 
 - [Autocrypt](https://autocrypt.org) wordt gebruikt voor het opzetten
   van een e2e-versleuteling met andere Delta Chat-apps, alsmede andere apps die Autocrypt ondersteunen.
@@ -291,7 +298,7 @@ verder dan de basisbescherming van Autocrypt niveau 1.
   Bij opportunistische gesprekken is het grootste bezwaar dat andere e-mailclients er door worden beïnvloedt.
 
 - Veel andere e-mailkoppen, zoals bijv. 'Onderwerp', zijn
-  end-to-end-versleuteld. Zie ook de aanstaande  [IETF
+  eind-tot-eind versleuteld. Zie ook de aanstaande  [IETF
 RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
@@ -383,8 +390,8 @@ huidige apparaat verstuurt.
 
 De kopie wordt verstuurd naar je Postvak IN en vervolgens verplaatst naar de DeltaChat-map -
 het verschijnt nooit in de map 'Verzonden'. Delta Chat werkt zo omdat het bericht
-anders twee keer verstuurd zou worden (eenmaal middels SMTP,
-en eenmaal middels IMAP naar de map 'Verzonden').
+anders twee keer verstuurd zou worden (eenmaal middels smtp,
+en eenmaal middels imap naar de map 'Verzonden').
 
 Standaard is deze optie uitgeschakeld.
 
@@ -435,10 +442,10 @@ Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere
 
 - Ja en nee.
 - Nee, je kunt je Protonmail-, Tutanota- of Criptext-account niet gebruiken in Delta
-  Chat - ze hebben immers geen IMAP-ondersteuning.
+  Chat - ze hebben immers geen imap-ondersteuning.
 - Maar je kunt Delta Chat wél gebruiken om berichten te versturen aan mensen die
-  Protonmail, Tutanota of Criptext gebruiken. Deze berichten zijn echter niet end-to-end
-  versleuteld. De end-to-endversleuteling van deze providers werkt alleen
+  Protonmail, Tutanota of Criptext gebruiken. Deze berichten zijn echter niet eind-tot-eind
+  versleuteld. De eind-tot-eindversleuteling van deze providers werkt alleen
   binnen de platformen zelf en is dus daarbuiten niet compatibel.
 - Delta Chat kan e2e-versleuteling gebruiken met andere e-mailproviders met elke
   [https://autocrypt.org/dev-status.html](e-mailapp die Autocrypt gebruikt).

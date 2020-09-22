@@ -43,7 +43,7 @@ Delta Chat автоматично показує:
 - Повідомлення від контактів котрим **ви самі писали**
 - **Відповіді** на повідомлення надіслані вами
 
-Інші повідомлення не відображаються автоматично, і можуть бути знайдені у пункті головного меню **Запити контактів**. За бажанням чат може бути розпочато звідти.
+Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
 
 
 ### What about spam?
@@ -95,7 +95,11 @@ if you want to verify that your credentials are handled securely. We are happy
 about feedback which makes the app more secure for all of our users.
 
 
-### Which Android permissions does Delta Chat need?
+### Which permissions does Delta Chat need?
+
+Depending on the operating system in use,
+you may be asked to grant permissions to the app.
+This is what Delta Chat does with these permissions:
 
 - Camera *(can be disallowed)*
   - take pictures and videos: for sending Photos
@@ -124,8 +128,8 @@ about feedback which makes the app more secure for all of our users.
 
 ### Creation of a group
 
-- Select **Add group** from the "Sandwich menu" in the upper right corner of the chat overview.
-- On the following screen, select the **group members** and hit the check mark in the upper right corner. After that, you can define a **group name**.
+- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
@@ -203,7 +207,7 @@ about feedback which makes the app more secure for all of our users.
   messages are not encrypted until an Autocrypt-compliant app is available again. 
 
 - If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings / Advanced settings".
+  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
 
 
 ### If end-to-end-encryption is not available, is the connection not encrypted at all?
@@ -217,13 +221,16 @@ about feedback which makes the app more secure for all of our users.
 
 ### How can I verify cryptographic status with a sender? 
 
-The user's profile shows some additional info:
+If you are within immediate distance of the chat partner:
 
-- Tap "QR Invite code" on Android and then use the "Scan QR code"
-  button on another device to scan this code. If both devices are online,
+- Select **QR Invite code** on one device and then **Scan QR code**
+  on the other one and scan the code. If both devices are online,
   they will introduce a chat channel with each-other (if it doesn't exist already) 
   and the encryption keys will also be verified.  Both will see a
   "sender verified" system message in their 1:1 chat. 
+
+If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
+(user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
 - For end-to-end-encryption, Delta Chat shows two fingerprints there. 
   If the same fingerprints appear on your chat partner's device, 
@@ -234,7 +241,7 @@ The user's profile shows some additional info:
 
 ### How can I check the encryption of messages?
 
-- If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
+- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
 
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
@@ -306,7 +313,7 @@ The user's profile shows some additional info:
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually in "Advanced settings / Manage private keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
 
@@ -347,7 +354,7 @@ For other programs, you can find a solution online.
 If you want to use the **same account** on different devices, you should export
 a backup from the old device, and import it into the new device:
 
-- On the old device, choose "Settings / Chats and media / Backup". Enter your
+- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.
