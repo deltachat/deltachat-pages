@@ -224,7 +224,7 @@ This is what Delta Chat does with these permissions:
 
 ### How can I verify cryptographic status with a sender? 
 
-If you are physically nearby the chat partner:
+If you are within immediate distance of the chat partner:
 
 - Select **QR Invite code** on one device and then **Scan QR code**
   on the other one and scan the code. If both devices are online,
