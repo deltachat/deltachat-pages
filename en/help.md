@@ -210,7 +210,7 @@ This is what Delta Chat does with these permissions:
   messages are not encrypted until an Autocrypt-compliant app is available again. 
 
 - If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting at "Settings" or "Advanced settings".
+  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
 
 
 ### If end-to-end-encryption is not available, is the connection not encrypted at all?
