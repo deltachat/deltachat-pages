@@ -10,7 +10,7 @@ Diese Liste ist bei weitem nicht vollständig - haben wir etwas verpasst? Bitte
 Request] (https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Vodafone (Deutscher Telecommunikationsanbieter): Delta Chat: So funktioniert der Messenger-Konkurrent von WhatsApp
+### Vodafone: Delta Chat: So funktioniert der Messenger-Konkurrent von WhatsApp
 
 _"Deine Nachrichten sind auf keinem (Dienst-)Server gespeichert, es gibt keine zentrale Steuerung und Du kannst nicht verfolgt werden."_
 
@@ -92,7 +92,7 @@ _"One issue with messenger apps is compatibility - [...] A new app seeks to solv
 2019-08-27, <https://www.dpa-international.com/topic/delta-chat-messenger-app-uses-email-urn%3Anewsml%3Adpa.com%3A20090101%3A190820-99-532070>
 
 
-### Focus (Large german-language news magazine): Delta Chat - Der Messenger, der E-Mail nutzt
+### Focus-Magazin: Delta Chat - Der Messenger, der E-Mail nutzt
 
 _"Delta Chat ist eigentlich eine E-Mail-App mit moderner Chat-Benutzeroberfläche.
 Insofern sind auch Emojis oder Anhänge wie Fotos oder Videos kein Problem."_
@@ -100,7 +100,7 @@ Insofern sind auch Emojis oder Anhänge wie Fotos oder Videos kein Problem."_
 2019-08-20, <https://www.focus.de/digital/computer/technik-der-messenger-der-e-mail-nutzt_id_11048525.html>
 
 
-### T-Online.de (News portal of german provider): Delta Chat - Der Messenger, der E-Mail nutzt
+### T-Online.de: Delta Chat - Der Messenger, der E-Mail nutzt
 
 _"Weil sie nicht kompatibel sind, steht und fällt der Erfolg von Messenger-Apps mit der Zahl ihrer Nutzer.
 Diese Logik wollten die Entwickler von Delta Chat nicht gelten lassen"_
@@ -185,4 +185,4 @@ _"Delta.Chat: Sicher und dezentral – geht das?"_
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out [user stories and voices](user-voices).
+Siehe auch [Feedback von Benutzern](user-voices).

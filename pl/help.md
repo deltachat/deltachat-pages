@@ -45,7 +45,7 @@ Delta Chat automatycznie pokazuje:
 - Wiadomości od kontaktów, z którymi **się kontaktujesz**
 - **Odpowiedzi** na wiadomości wysyłane przez ciebie
 
-Inne wiadomości nie pojawiają się automatycznie i można je znaleźć w menu głównym w **Prośby o kontakt**. W razie potrzeby można rozpocząć czat.
+Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
 
 
 ### A co ze spamem?
@@ -86,7 +86,11 @@ Ponieważ Delta Chat jest Open Source, możesz sprawdzić [Kod źródłowy](http
 jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny sposób. Cieszymy się z opinii, które sprawiają, że aplikacja jest bezpieczniejsza dla wszystkich naszych użytkowników. 
 
 
-### Which Android permissions does Delta Chat need?
+### Which permissions does Delta Chat need?
+
+Depending on the operating system in use,
+you may be asked to grant permissions to the app.
+This is what Delta Chat does with these permissions:
 
 - Camera *(can be disallowed)*
   - take pictures and videos: for sending Photos
@@ -115,9 +119,9 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
 
 ### Tworzenie grupy
 
-- Na ekranie przeglądu czatów, z menu w prawym górnym rogu wybierz **Nowa grupa**.
-- Na następnym ekranie wybierz **członków grupy** i naciśnij znacznik wyboru w prawym górnym rogu. Następnie możesz zdefiniować nazwę grupy.
-- Zaraz po napisaniu pierwszej wiadomości w grupie wszyscy członkowie zostaną poinformowani o nowej grupie i mogą odpowiedzieć w grupie (jeżeli nie napiszesz wiadomości w grupie, grupa jest niewidoczna dla członków).
+- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
+- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
 ### Dodanie członków do grupy
@@ -190,7 +194,7 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
 - Gdy wysyłane są pierwsze wiadomości, aplikacje Delta Chat (i inne zgodne z [Autocrypt](https://autocrypt.org) aplikacje e-mail) automatycznie współdzielą klucze wymagane do szyfrowania metodą end-to-end. Następnie wszystkie kolejne wiadomości są automatycznie szyfrowane end-to-end. Jeśli jeden z partnerów czatu korzysta z aplikacji e-mail bez obsługi Autocrypt, kolejne wiadomości nie są szyfrowane, dopóki aplikacja zgodna z Autocrypt nie będzie ponownie dostępna.
 
 - If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings / Advanced settings".
+  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
 
 
 ### Jeśli nie jest dostępne szyfrowanie typu „end-to-end”, czy połączenie w ogóle nie jest szyfrowane?
@@ -202,10 +206,16 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
 
 ### Jak mogę zweryfikować status kryptograficzny z nadawcą?
 
-Profil użytkownika zawiera dodatkowe informacje:
+If you are within immediate distance of the chat partner:
 
-- Nacisnąć na Androidzie „Kod QR zaproszenia”, a następnie użyj przycisku
-  „Skanuj kod QR” na innym urządzeniu, aby zeskanować ten kod. Jeśli oba urządzenia są w trybie online, nawiążą ze sobą czat (jeśli jeszcze nie istnieje) i zostaną zweryfikowane klucze szyfrowania. Obaj zobaczą komunikat systemowy „zweryfikowany nadawca” na czacie 1:1.
+- Select **QR Invite code** on one device and then **Scan QR code**
+  on the other one and scan the code. If both devices are online,
+  they will introduce a chat channel with each-other (if it doesn't exist already) 
+  and the encryption keys will also be verified.  Both will see a
+  "sender verified" system message in their 1:1 chat. 
+
+If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
+(user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
 - W przypadku szyfrowania metodą end-to-end Delta Chat pokazuje tam dwa odciski palców. 
 Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, połączenie jest bezpieczne.
@@ -215,7 +225,7 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
 
 ### Jak mogę sprawdzić szyfrowanie wiadomości?
 
-- Jeśli obok wiadomości pojawi się mała **kłódka**, oznacza to, że wiadomość jest szyfrowana metodą end-to-end _i_ jest wysyłana od danego nadawcy _a_ twoja odpowiedź będzie również szyfrowana metodą end-to-end.
+- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
 
 - Jeśli **nie ma kłódki**, wiadomość jest zazwyczaj przesyłana w postaci niezaszyfrowanej, np. dlatego, że Ty lub nadawca wyłączyliście szyfrowanie typu end-to-end lub nadawca używa aplikacji, która nie obsługuje szyfrowania typu end-to-end.
 
@@ -287,7 +297,7 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
 
 - Tak. Najlepszym sposobem jest wysłanie wiadomości konfiguracyjnej Autocrypt z innego klienta poczty e-mail. Poszukaj czegoś jak **Start Autocrypt Setup Transfer** w ustawieniach innego klienta i postępuj zgodnie z wyświetlanymi tam instrukcjami.
 
-- Alternatywnie możesz zaimportować go ręcznie w „Ustawienia zaawansowane » Zarządzaj prywatnymi kluczami”. Uwaga: Upewnij się, że klucz nie jest chroniony hasłem lub usuń hasło wcześniej.
+- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz  nie przejmuj się: Delta Chat generuje go w razie potrzeby, nie trzeba naciskać przycisku, aby to zrobić. 
 
@@ -316,7 +326,7 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 If you want to use the **same account** on different devices, you should export
 a backup from the old device, and import it into the new device:
 
-- On the old device, choose "Settings / Chats and media / Backup". Enter your
+- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.

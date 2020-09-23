@@ -43,7 +43,7 @@ Delta Chat zeigt automatisch:
 - Nachrichten von Kontakten, **die von Ihnen bisher kontaktiert wurden**
 - **Antworten** auf von Ihnen gesendete Nachrichten
 
-Andere Nachrichten werden nicht automatisch angezeigt; diese sind im _Hauptmenü_ unter **Kontaktanfragen** zu finden. Wenn gewünscht, kann ein neuer Chat von dort gestartet werden.
+Andere Nachrichten werden nicht automatisch angezeigt; diese sind unter **Kontaktanfragen** zu finden. Wenn gewünscht, kann ein neuer Chat von dort gestartet werden.
 
 
 ### Was ist mit Spam?
@@ -83,7 +83,9 @@ Andere Nachrichten werden nicht automatisch angezeigt; diese sind im _Hauptmenü
 Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) einsehen und sich davon überzeugen, dass Ihre Zugangsdaten sicher gehandhabt werden. Wir freuen uns über Feedback, das unsere App sicherer für all unsere NutzerInnen macht.
 
 
-### Welche Android App-Berechtigungen benötigt Delta Chat?
+### Welche App-Berechtigungen benötigt Delta Chat?
+
+Je nach verwendetem Betriebssystem werden Sie möglicherweise aufgefordert, der App Berechtigungen zu erteilen; diese werden wie folgt verwendet:
 
 - Kamera *(kann verweigert werden)*
   - Bilder und Videos aufnehmen: Um Fotos zu senden
@@ -112,8 +114,8 @@ Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/de
 
 ### Eine Gruppe anlegen
 
-- Wählen Sie **Gruppe hinzufügen** aus dem "Sandwich-Menü" in der oberen rechten Ecke der Chat-Übersicht.
-- Wählen Sie auf dem folgenden Bildschirm die **Gruppenmitglieder** aus und klicken Sie auf das Häkchen in der oberen rechten Ecke. Danach können Sie einen **Gruppennamen** festlegen.
+- Wählen Sie **Neuer Chat** und dann **Neue Gruppe** aus dem Menü oben rechts oder über das entsprechende Symbol unter Android/iOS.
+- Wählen Sie auf dem folgenden Bildschirm die **Gruppenmitglieder** aus und klicken Sie auf das Häkchen in der oberen rechten Ecke. Danach können Sie einen **Gruppennamen** und auch einen **Gruppenbild**  festlegen.
 - Sobald Sie die **erste Nachricht** in die Gruppe schreiben, werden alle Mitglieder über die neue Gruppe informiert und können in der Gruppe antworten (solange Sie keine Nachricht in die Gruppe schreiben, ist die Gruppe für die Gruppenmitglieder nicht sichtbar).
 
 
@@ -171,7 +173,7 @@ daher Ende-zu-Ende-verschlüsselte Nachrichten mit anderen Autocrypt-fähigen An
 E-Mail Anwendungen) tauschen die für eine Ende-zu-Ende-Verschlüsselung benötigten Schlüssel automatisch mit der ersten versendeten Nachricht aus. Danach werden alle folgenden Nachrichten automatisch Ende-zu-Ende verschlüsselt.
 Wenn einer der Chat-Kontakte eine E-Mail-Anwendung verwendet, die nicht Autocrypt-kompatibel ist, werden Nachrichten so lange unverschlüsselt gesendet, bis wieder eine Autocrypt-kompatible Anwendung verfügbar ist.
 
-- Wenn Sie als Standardeinstellung keine Ende-zu-Ende-Verschüsselung verwenden möchten, können Sie dies in den Einstellungen festlegen.
+- Wenn Sie als Standardeinstellung keine Ende-zu-Ende-Verschüsselung verwenden möchten, können Sie dies unter "Einstellungen" bzw. "Erweiterte Einstellungen" festlegen.
 
 
 ### Wird ohne Ende-zu-Ende-Verschlüsselung gar nicht verschlüsselt?
@@ -182,10 +184,13 @@ Wenn einer der Chat-Kontakte eine E-Mail-Anwendung verwendet, die nicht Autocryp
 
 ### Wie kann ich den kryptografischen Zustand mit einem Kontakt überprüfen?
 
-Das Userprofil zeigt einige zusätzliche Informationen:
+Wenn Sie Ihren Gesprächspartner persönlich treffen:
 
--Tippen Sie auf "QR Einladungscode" in Android und dann auf einem anderen Gerät die Schaltfläche "QR-Code scannen", um den Code zu scannen. Wenn beide Geräte online sind, 
-wird (falls er noch nicht existiert) ein Chat-Kanal  eingerichtet und die Schlüssel für die Verschlüsselung werden überprüft. Beide Kontakte erhalten eine "Absender verifiziert" Systemnachricht in ihrem 1:1 Chat.
+-Tippen Sie auf **QR-Einladungscode** auf dem einen Gerät und dann **QR-Code scannen** auf dem anderen Gerät und scannen Sie den Code. Wenn beide Geräte online sind, 
+wird (falls er noch nicht existiert) ein Chat-Kanal eingerichtet und die Schlüssel für die Verschlüsselung werden überprüft. Beide Kontakte erhalten eine "Absender verifiziert" Systemnachricht in ihrem 1:1 Chat.
+
+Wenn Sie Ihren Gesprächspartner nicht persönlich treffen können, können Sie den Status manuell im Dialog "Verschlüsselungsinfo" überprüfen
+(siehe Benutzerprofil auf Android/iOS bzw. Rechts-Klick auf einen Benutzerchat wenn Sie eine Desktop-App verwenden):
 
 - Für die Ende-zu-Ende-Verschlüsselung zeigt Delta Chat dort zwei Fingerabdrücke an.  Wenn auf dem Gerät Ihres Chatkontakts dieselben Fingerabdrücke angezeigt werden, ist die Verbindung sicher.
 
@@ -194,7 +199,7 @@ wird (falls er noch nicht existiert) ein Chat-Kanal  eingerichtet und die Schlü
 
 ### Wie kann ich die Verschlüsselung der Nachrichten überprüfen?
 
-- Wenn neben einer Nachricht ein kleines **Vorhängeschloss** angezeigt wird, bedeutet dies, dass die Nachricht durchgehend Ende-zu-Ende verschlüsselt ist _und_ vom angegebenen Kontakt gesendet wurde _und_ dass Ihre Antwort ebenfalls durchgehend Ende-zu-Ende verschlüsselt wird.
+- Wenn neben einer Nachricht ein kleines **Vorhängeschloss** angezeigt wird, bedeutet dies, dass die Nachricht durchgehend Ende-zu-Ende verschlüsselt ist _und_ vom angegebenen Kontakt gesendet wurde.
 
 - Wenn **kein Vorhängeschloss** vorhanden ist, wird die Nachricht normalerweise unverschlüsselt transportiert, z.B. weil der/die AbsenderIn oder Sie die Ende-zu-Ende-Verschlüsselung deaktiviert haben oder der/die AbsenderIn eine Anwendung ohne Unterstützung der Ende-zu-Ende-Verschlüsselung verwendet.
 
@@ -240,7 +245,7 @@ Bei normalen 1:1 Chats ist das Hauptproblem, wie andere Mail-Programme, die wom�
 
 - Ja. Der beste Weg ist, von der anderen E-Mail-Anwendung aus eine _Autocrypt Setup Nachricht_ zu versenden. Suchen Sie eine solche Option in den Einstellungen der anderen Anwendung z.B. unter "Autocrypt Setup Transfer starten" und folgen Sie den dort angezeigten Hinweisen.
 
-- Alternativ können Sie den Schlüssel manuell unter "Einstellungen / Erweitert / Schlüssel verwalten" importieren. 
+- Alternativ können Sie den Schlüssel manuell unter "Einstellungen" bzw. "Erweiterte Einstellungen" und dann "Importiere geheime Schlüssel" importieren. 
 Achtung: Der private Schlüssel darf _nicht_ mit einem Passwort geschützt sein bzw. dieses muss zuvor entfernt werden.
 
 - Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen benötigen - keine Sorge: Delta Chat erstellt einen Schlüssel, wenn er benötigt wird. Sie müssen nichts weiter tun.
@@ -272,7 +277,7 @@ Für andere Programme können Sie online eine Lösung finden.
 
 Möchten Sie einen Account auf verschiedenen Geräten nutzen, müssen Sie in Delta Chat auf dem "alten" Gerät ein Backup erstellen und dieses auf dem neuen importieren:
 
-- Wählen Sie auf dem alten Gerät "Einstellungen / Chats und Medien / Backup". Geben Sie Ihre Entsperrungs-PIN, -Muster oder -Passwort ein. Klicken Sie dann auf "Start Backup". Die Backup-Datei wird auf Ihrem Gerät gespeichert. Nun übertragen Sie die Datei auf Ihr neues Gerät. 
+- Wählen Sie auf dem alten Gerät "Einstellungen" bzw. "Einstellungen / Chats und Medien" und sort "Backup". Geben Sie Ihre Entsperrungs-PIN, -Muster oder -Passwort ein. Klicken Sie dann auf "Start Backup". Die Backup-Datei wird auf Ihrem Gerät gespeichert. Nun übertragen Sie die Datei auf Ihr neues Gerät. 
 - Rufen Sie auf Ihrem neuen Gerät Delta Chat auf und wählen Sie nun auf dem Startbildschirm "Importiere Backup" - anstatt sich mit Ihrer E-Mail-Adresse einzuloggen. Ihre Chatkonversationen, Schlüssel und Medien werden nun auf das neue Gerät kopiert. 
 - Die Geräte sind nun synchronisiert und Sie können beide für das Senden und Empfangen von Ende-zu-Ende-verschlüsselten Nachrichten mit Ihren Chat-Kontakten nutzen.
 

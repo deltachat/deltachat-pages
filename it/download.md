@@ -23,7 +23,7 @@ o un sistema compatibile.
 
 * [Database dei provider](https://providers.delta.chat/): il mio provider funziona con Delta Chat?
 * [FAQ multiclient](help#multiclient): sincronizzare la versione Desktop con altre versioni di Delta Chat.
-* [Verifica downloa](verify-downloads): verifica l'integrità dei download
+* [Verifica download](verify-downloads): verifica l'integrità dei download
 
 ## Versioni anteprima
 

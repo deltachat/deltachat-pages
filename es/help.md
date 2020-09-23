@@ -46,7 +46,7 @@ Delta Chat muestra automáticamente:
 - Mensajes de contactos **contactados por ti**
 - **Respuestas** a mensajes enviados por ti
 
-Otros mensajes no aparecen automáticamente y se encuentran en el menú principal en **Solicitudes de contacto**. Si lo desea, puede iniciar un chat desde allí.
+Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
 
 
 ### ¿Qué pasa con el Spam?
@@ -95,7 +95,11 @@ Como Delta Chat es de Código Abierto, puedes investigar el Código Fuente si qu
 Estamos felices de recibir críticas que hagan la aplicación más segura para todos los usuarios.
 
 
-### ¿Qué permisos de Android necesita Delta Chat?
+### Which permissions does Delta Chat need?
+
+Depending on the operating system in use,
+you may be asked to grant permissions to the app.
+This is what Delta Chat does with these permissions:
 
 - Camera *(can be disallowed)*
   - take pictures and videos: for sending Photos
@@ -124,9 +128,9 @@ Estamos felices de recibir críticas que hagan la aplicación más segura para t
 
 ### Creación de un grupo
 
-- Seleccione **Agregar grupo** desde el "Menú sándwich" en la esquina superior derecha de la descripción del chat.
-- En la siguiente vista, seleccione los **miembros del grupo** y presione la marca de verificación en la esquina superior derecha. Después de eso, usted puede definir un **nombre de grupo**.
-- Tan pronto como escriba **el primer mensaje**, se le informará a todos los miembros sobre el nuevo grupo y pueden responder en el grupo (hasta que no escriba un mensaje en el grupo, este es invisible para los miembros).
+- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
+- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
 ### Agregar miembros a un grupo
@@ -198,8 +202,8 @@ aún puede escribir, pero ya no se le notifican nuevos mensajes.
 Después de esto, todos los mensajes subsiguientes se cifran de extremo a extremo automáticamente.
 Si uno de los compañeros de chat usa una aplicación de correo electrónico que no soporta Autocrypt, los mensajes no se cifrarán hasta que una aplicación compatible con Autocrypt sea utilizada.
 
-- Si desea _desactivar_ el cifrado de extremo a extremo,
-use la configuración correspondiente en "Ajustes / Avanzado".
+- If you want to rather avoid end-to-end-encrypted e-mails by default, 
+  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
 
 
 ### Si el cifrado de extremo a extremo no está disponible, ¿la conexión no está cifrada?
@@ -213,13 +217,16 @@ use la configuración correspondiente en "Ajustes / Avanzado".
 
 ### ¿Cómo puedo verificar el estado criptográfico con un remitente?
 
-El perfil del usuario muestra información adicional:
+If you are within immediate distance of the chat partner:
 
-- Puede pulsar "Código de invitación QR" en Android y luego usar el botón "Escanear código QR "
-en otro dispositivo para escanear este código. Si ambos dispositivos están en línea,
-comenzarán un chat entre sí (si no existe ya)
-y también se verificarán las claves de cifrado. Ambos verán un
-mensaje del sistema "remitente verificado" en su chat 1:1.
+- Select **QR Invite code** on one device and then **Scan QR code**
+  on the other one and scan the code. If both devices are online,
+  they will introduce a chat channel with each-other (if it doesn't exist already) 
+  and the encryption keys will also be verified.  Both will see a
+  "sender verified" system message in their 1:1 chat. 
+
+If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
+(user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
 - Para el cifrado de extremo a extremo, Delta Chat muestra dos huellas digitales allí.
 Si aparecen las mismas huellas digitales en el dispositivo de su compañero de chat,
@@ -230,7 +237,7 @@ la conexión es segura.
 
 ### ¿Cómo puedo verificar el cifrado de mensajes?
 
-- Si se muestra un pequeño **candado** junto a un mensaje, esto implica que el mensaje está encriptado de extremo a extremo _y_ se envía desde el remitente dado, _y_ su respuesta también se cifrará de extremo a extremo.
+- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
 
 - Si no hay **ningún candado**, el mensaje generalmente se transporta sin encriptar, por ejemplo. porque usted o el remitente han deshabilitado el cifrado de extremo a extremo, o el remitente utiliza una aplicación que no admite el cifrado de extremo a extremo.
 
@@ -302,7 +309,7 @@ de incautación del dispositivo.
 
 - Si. La mejor manera es enviar un Mensaje de Configuración de Autocrypt desde el otro cliente de correo electrónico. Busca algo como **Iniciar la Transferencia de la Configuración Autocrypt** en la configuración del otro cliente y seguir las instrucciones que se muestren allí.
 
-- Alternativamente, puede importar la clave manualmente en "Configuración avanzada / Administrar claves privadas". Precaución: asegúrese de que la clave no esté protegida por una contraseña o elimine la contraseña de antemano.
+- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 Si no tienes una llave o ni siquiera sabes para qué la necesitas, no te preocupes: Delta Chat genera una según sea necesario de forma automática, no tienes que hacer nada.
 
@@ -343,7 +350,7 @@ For other programs, you can find a solution online.
 If you want to use the **same account** on different devices, you should export
 a backup from the old device, and import it into the new device:
 
-- On the old device, choose "Settings / Chats and media / Backup". Enter your
+- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.

@@ -45,7 +45,7 @@ Delta Chat автоматически показывает:
 - Сообщения от контактов, которым **вы писали сами**
 - **Ответы** на сообщения отправленные вами
 
-Другие сообщения не отображаются автоматически и их можно найти в основном меню в разделе **Запросы контактов**. При желании чат можно начать оттуда.
+Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
 
 
 ### Как насчёт спама?
@@ -99,7 +99,11 @@ Delta Chat автоматически показывает:
  и предложениям, которые сделают приложение более безопасным для всех.
 
 
-### Какие разрешения Android нужны для Delta Chat?
+### Which permissions does Delta Chat need?
+
+Depending on the operating system in use,
+you may be asked to grant permissions to the app.
+This is what Delta Chat does with these permissions:
 
 - Camera *(can be disallowed)*
   - take pictures and videos: for sending Photos
@@ -128,9 +132,9 @@ Delta Chat автоматически показывает:
 
 ### Создание группы
 
-- Выберите **Добавить группу** в меню в правом верхнем углу списка чатов.
-- На следующем экране выберите **участники группы** и отметьте галочку в правом верхнем углу. После этого, вы можете ввести **название группы**.
-- Как только вы наберете **первое сообщение** в группе, все участники группы узнают о ее существовании и смогут ответить вам здесь же (до тех пор, пока вы не напишете сообщение в группу, группа будет невидима для остальных участников).
+- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
+- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
 ### Добавление участников в группу
@@ -207,7 +211,7 @@ Delta Chat автоматически показывает:
   Autocrypt не будет снова доступно у всех участников. 
 
 - If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings / Advanced settings".
+  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
 
 
 ### Если сквозное шифрование недоступно, связь не шифруется вообще?
@@ -221,13 +225,16 @@ Delta Chat автоматически показывает:
 
 ### Как проверить криптографический статус у нас с отправителем? 
 
-В профиле пользователя будет видна следующая информация:
+If you are within immediate distance of the chat partner:
 
-- Нажмите "QR-код приглашения" в Android, а затем используйте кнопку
-  "Сканировать QR-код" на другом устройстве для сканирования этого кода.
-  Если оба устройства находятся в сети, на них будет открыт канал общения
-  друг с другом (если он ещё не существует) и ключи шифрования будут проверены. 
-  Оба увидят системное сообщение "отправитель проверен" в их чате 1-на-1.
+- Select **QR Invite code** on one device and then **Scan QR code**
+  on the other one and scan the code. If both devices are online,
+  they will introduce a chat channel with each-other (if it doesn't exist already) 
+  and the encryption keys will also be verified.  Both will see a
+  "sender verified" system message in their 1:1 chat. 
+
+If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
+(user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
 - При использовании сквозного шифрования будут показаны отпечатки двух ключей.
   Если они совпадают на обоих устройствах, то соединение безопасно.
@@ -237,7 +244,7 @@ Delta Chat автоматически показывает:
 
 ### Как проверить шифрование сообщений?
 
-- Если за сообщением виден маленький **замок**, значит это сообщение зашифровано _и_ отправлено с использованием протокола сквозного шифрования, а также что _и_ ваш ответ тоже будет зашифрован.
+- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
 
 - Если **нет замка**, сообщение обычно передаётся в незашифрованном виде, например, потому что вы или отправитель отключили сквозное шифрование, или отправитель использует приложение без поддержки сквозного шифрования.
 
@@ -309,7 +316,7 @@ Delta Chat автоматически показывает:
 
 - Да. Лучший способ — отправить сообщение с параметрами Autocrypt с другого почтового клиента. Ищите что-то вроде **Начать передачу настроек Autocrypt** в настройках другого клиента и следуйте указанным там инструкциям.
 
-- Можно также импортировать ключ вручную в "Дополнительные параметры"  > "Управление ключами". Внимание: убедитесь, что ключ не защищён паролем или удалите пароль заранее.
+- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 Если у вас нет ключа или вы даже не знаете, что он вам понадобится, не волнуйтесь: Delta Chat сгенерирует его по мере необходимости, вам не нужно даже нажимать кнопку для этого. 
 
@@ -347,7 +354,7 @@ However, we try to support private keys from other sources as good as possible.
 If you want to use the **same account** on different devices, you should export
 a backup from the old device, and import it into the new device:
 
-- On the old device, choose "Settings / Chats and media / Backup". Enter your
+- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.

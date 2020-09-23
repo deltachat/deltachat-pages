@@ -9,7 +9,7 @@ Delta.Chat ist ein  Open Source Community Projekt. Verantwortlich für den Inhal
 
     Merlinux GmbH
     Reichsgrafenstr. 20
-    79102 Freiburg, Germany
+    79102 Freiburg, Deutschland
 
 E-Mail: {% include email-link %}
 

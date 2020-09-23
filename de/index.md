@@ -14,7 +14,7 @@ Delta Chat benötigt nicht deine Telefonnummer. Schauen Sie unsere [Datenschutze
 
 **Einfach mit jeder Person chatten, deren E-Mail-Adresse bekannt ist.** Der Chatpartner benötigt dabei kein Delta Chat. Ein Standard-E-Mail-Konto reicht aus!
 
-Check out [user stories and voices](user-voices) 📣
+[Feedback von Benutzern](user-voices) 📣
 
 
 # Android, Desktop und iOS Screenshots

@@ -41,7 +41,7 @@ Delta Chat affiche automatiquement :
 - Messages de vos contacts **contactés par vous**
 - Réponses** aux messages envoyés par vous
 
-Les autres messages n'apparaissent pas automatiquement. Vous pouvez les retrouver dans le menu principal, ** demandes de contact ** et, si vous le souhaitez, commencer une conversation à partir de là.
+Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
 
 
 ### A propos des spams
@@ -84,7 +84,11 @@ il n'est pas nécessaire de stocker votre mot de passe sur votre appareil. Dans 
 Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) pour vérifier que vos identifiants / mots de passe sont utilisés de façon sécurisé. Nous sommes avares de retours pour renforcer la sécurité de l'application.
 
 
-### Quels sont les permissions Delta Chat demande à Android ?
+### Which permissions does Delta Chat need?
+
+Depending on the operating system in use,
+you may be asked to grant permissions to the app.
+This is what Delta Chat does with these permissions:
 
 - Appareil photo * (peut être refusé) *
   - prendre des photos et des vidéos: pour envoyer des photos
@@ -113,9 +117,9 @@ Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](ht
 
 ### Création d'un groupe
 
-- Sélectionnez **Ajouter groupe** dans le "Menu sandwich" dans le coin supérieur droit de l'aperçu du tchat.
-- Sur l'écran suivant, sélectionnez les **membres du groupe** et cochez la case dans le coin supérieur droit. Ensuite, vous pouvez définir un **nom de groupe**.
-- Dès que vous écrivez le **premier message** dans le groupe, tous les membres sont informés du nouveau groupe et peuvent répondre dans le groupe (tant que vous n'écrivez pas un message dans le groupe, le groupe est invisible aux membres).
+- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
+- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
 ### Ajouter une personne à un groupe
@@ -180,7 +184,8 @@ Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du group
 Tous les messages suivants sont chiffrés de bout en bout automatiquement. 
 Si l'un des partenaires de tchat utilise une application de messagerie non-compatible avec Autocrypt, les messages ultérieurs ne sont pas chiffrés tant qu'une application conforme à Autocrypt n'est pas à nouveau disponible. 
 
-- Si vous souhaitez _désactiver_ le chiffrement bout en bout, utilisez le paramètre correspondant dans "Paramètres / Paramètres avancés".
+- If you want to rather avoid end-to-end-encrypted e-mails by default, 
+  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
 
 
 ### Si le chiffrement de bout en bout n'est pas disponible, la connexion n'est-elle pas chiffrée du tout ?
@@ -194,13 +199,16 @@ Si l'un des partenaires de tchat utilise une application de messagerie non-compa
 
 ### Comment puis-je vérifier le statut de chiffrement auprès d'un expéditeur ?
 
-Le profil de l'utilisateur affiche quelques informations supplémentaires :
+If you are within immediate distance of the chat partner:
 
-- Tap "QR Invite code" on Android and then use the "Scan QR code"
-  button on another device to scan this code. If both devices are online,
+- Select **QR Invite code** on one device and then **Scan QR code**
+  on the other one and scan the code. If both devices are online,
   they will introduce a chat channel with each-other (if it doesn't exist already) 
   and the encryption keys will also be verified.  Both will see a
   "sender verified" system message in their 1:1 chat. 
+
+If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
+(user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
 - For end-to-end-encryption, Delta Chat shows two fingerprints there. 
   If the same fingerprints appear on your chat partner's device, 
@@ -211,7 +219,7 @@ Le profil de l'utilisateur affiche quelques informations supplémentaires :
 
 ### How can I check the encryption of messages?
 
-- If a little **padlock** is shown beside a message, this denotes the message is end-to-end-encrypted _and_ is sent from the given sender _and_ that your answer will be end-to-end-encrypted as well.
+- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
 
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
@@ -283,7 +291,7 @@ Le profil de l'utilisateur affiche quelques informations supplémentaires :
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually in "Advanced settings / Manage private keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 Si vous n'avez pas de clé ou ne savez même pas que vous en auriez besoin, ne vous inquiétez pas : Delta Chat en génère une si nécessaire, vous n'avez pas besoin d'appuyer sur un bouton pour cela. 
 
@@ -324,7 +332,7 @@ For other programs, you can find a solution online.
 If you want to use the **same account** on different devices, you should export
 a backup from the old device, and import it into the new device:
 
-- On the old device, choose "Settings / Chats and media / Backup". Enter your
+- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.
