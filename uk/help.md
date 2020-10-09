@@ -9,7 +9,7 @@ header: Часті питання
 ## Що таке Delta Chat?
 
 Delta Chat це новий додаток для спілкування, який надсилає повідомлення через електронну пошту, зашифровані, якщо можливо, за допомогою Autocrypt.
-**Ви не маєте ні де реєструватися, просто використовуйте з Delta Chat вашу наявну електронну пошту**
+**Вам не потрібно будь-де реєструватися, просто використовуйте з Delta Chat вашу наявну електронну пошту**
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
@@ -43,85 +43,71 @@ Delta Chat автоматично показує:
 - Повідомлення від контактів котрим **ви самі писали**
 - **Відповіді** на повідомлення надіслані вами
 
-Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
+Інші повідомлення не відображаються автоматично, і можуть бути знайдені у пункті головного меню **Запити контактів**. За бажанням розмову може бути розпочато звідти.
 
 
-### What about spam?
+### Як щодо спаму?
 
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
-- However, if needed, you can **block** any contact.
-
-
-### Does Delta Chat support images, videos and other attachments?
-
-- Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
+- Повідомлення в загальних папках зі спамом ігноруються, а їх адреси не вважаються відомими контактами.
+- Оскільки повідомлення від невідомих контактів не відображаються автоматично, то **спаму немає**.
+- Однак, якщо необхідно, ви можете **заблокувати** буди-який контакт.
 
 
-### Who sees my profile picture?
+### Чи підтримує Delta Chat вкладення у вигляді фото, відео тощо?
 
-- You can add a profile picture in your settings. If you write to your contacts
-  or add them via QR code, they automatically see it as your profile picture.
-
-- Contacts who don't use Delta Chat see it as an E-Mail attachment.
-
-- For privacy reasons, no one sees your profile picture until you write a
-  message to them.
-
-- Your profile picture isn't sent with every message, but regularly enough that
-  your contacts will re-receive your profile picture, even if they add a new
-  device.
+- Так. Крім звичайного тексту, всі вкладення електронної пошти відображаються у вигляді окремих повідомлень. Вихідні повідомлення автоматично отримують вкладення.
 
 
-### Does Delta Chat support HTML e-mails?
+### Хто бачить моє зображення профілю?
 
-- Yes. If an incoming e-mail lacks a plain text part, HTML-emails are converted to plain text in the app. Outgoing e-mails always use plain text.
+- Ви можете додати зображення профілю в ваших налаштуваннях. Якщо ви пишете комусь із ваших контактів чи додаєте їх через QR код, вони автоматично побачать ваше зображення профілю.
 
+- Контакти, які не використовують Delta Chat, бачать його як вкладення до повідомлення електронної пошти.
 
-### Why do I have to enter my E-Mail password into Delta Chat? Is this secure?
+- Із міркувань приватності, ніхто не бачить ваше зображення профілю доки ви їм не напишете.
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway. 
-
-If you use an E-Mail provider with OAuth2 support like gmail.com or yandex.ru,
-there is no need to store your password on the device. In this case, only an
-access token is used.
-
-As Delta Chat is Open Source, you can check the [Source
-Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
-if you want to verify that your credentials are handled securely. We are happy
-about feedback which makes the app more secure for all of our users.
+- Ваше зображення профілю не надсилається із кожним повідомленням, але достатньо регулярно для того щоб ваші контакти заново отримували ваше зображення профілю, навіть якщо вони додали новий пристрій.
 
 
-### Which permissions does Delta Chat need?
+### Чи підтримує Delta Chat HTML-листи?
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+- Так. Якщо у вхідній електронній пошті відсутній текстовий формат «text/plain», ми перетворюємо HTML-листи у текстовий формат самостійно. Вихідні листи завжди використовують текстовий формат.
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for users who want to receive messages all the time
+
+### Чому я маю вводити пароль до моєї електронної пошти у Delta Chat? Чи це безпечно?
+
+Як і інші клієнти електронної пошти, на зразок Thunderbird, K9-Mail, or Outlook, програма потребує пароль. Авжеж, пароль зберігається лише на вашому пристрої. Пароль передається лише до вашого провайдера електронної пошти, який все одно має доступ до ваших повідомлень.
+
+Якщо ваш провайдер електронної пошти підтримує OAuth2, як gmail.com чи yandex.ru, то немає необхідності зберігати пароль на пристрої. В цьому випадку використовується лише токен доступу.
+
+Оскільки Delta Chat має відкритий код, ви можете ознайомитись із [початковим кодом](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) якщо бажаєте перевірити що ваші дані для авторизації надійно зберігаються. Ми будемо раді вашим пропозиціям, які зроблять додаток більш безпечним для всіх користувачів.
+
+
+### Яких дозволів потребує Delta Chat?
+
+В залежності від операційної системи, додаток може потребувати наступних дозволів:
+
+- Камера *(може бути заборонено)*
+  - знімати фото та відео: для надсилання фотографій
+- Контакти *(може бути заборонено)*
+  - зчитувати ваші контакти: знаходити контакти для спілкування
+- Місцезнаходження *(може бути заборонено)*
+  - доступ до приблизного місцезнаходження (мережеві джерела місцезнаходження): для функції стримінгу координат
+  - доступ до точного місцезнаходження (GPS та мережеві джерела координат): для функції стримінгу координат
+- Мікрофон *(може бути заборонено)*
+  - записувати звук: для звукових повідомлень
+- Сховище *(може бути заборонено)*
+  - змінювати та видаляти вміст вашої SD-карти: для завантаження вкладень до повідомлень
+  - зчитувати вміст вашої SD-карти: для надсилання файлів вашим контактам
+- Інші можливості додатку:
+  - змінювати налаштування звуку: ви можете змінювати сигнали та гучність для сповіщень та звукових повідомлень
+  - запуск на старті: вам не потрібно запускати Delta Chat вручну
+  - вібрація: для сповіщень
+  - перегляд мережевих з'єднань: для під'єднання до сервера електронної пошти
+  - запобігання переходу телефону у сплячий режим: так вам буде легше скопіювати код безпеки при налаштування Autocrypt
+  - повний доступ до мережі: для під'єднання до сервера електронної пошти
+  - перегляд Wi-Fi з'єднань: для під'єднання до сервера електронної пошти
+  - запитувати дозволу ігнорувати оптимізації батареї: для користувачів які хочуть бути на постійному зв'язку
 
 
 ## Groups
