@@ -45,7 +45,7 @@ Delta Chat автоматически показывает:
 - Сообщения от контактов, которым **вы писали сами**
 - **Ответы** на сообщения отправленные вами
 
-Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
+Другие сообщения не появляются автоматически и находятся в разделе **Контактные запросы**. При желании оттуда можно начать чат.
 
 
 ### Как насчёт спама?
@@ -99,42 +99,42 @@ Other messages do not appear automatically, and are to be found in **Contact req
  и предложениям, которые сделают приложение более безопасным для всех.
 
 
-### Which permissions does Delta Chat need?
+### Какие разрешения нужны Delta Chat?
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+В зависимости от используемой операционной системы
+вам может быть предложено предоставить разрешения для приложения.
+Вот что делает Delta Chat с этими разрешениями:
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for users who want to receive messages all the time
+- Камера *(может быть запрещена)*
+- делайте фотографии и видео: для отправки фотографий
+- Контакты *(можно запретить)*
+- чтение ваших контактов: чтобы найти контакты для общения
+- Местоположение *(может быть запрещено)*
+- доступ к приблизительному местоположению (источники сетевого местоположения): для функции потоковой передачи местоположения
+- доступ к точному местоположению (GPS и сетевые источники местоположения): для функции потоковой передачи местоположения
+- Микрофон *(может быть запрещен)*
+- запись аудио: для звуковых сообщений
+- Память *(может быть запрещено)*
+- изменение или удаление содержимого вашей SD-карты: для загрузки вложений сообщений
+- чтение содержимого вашей SD-карты: чтобы поделиться файлами с вашими контактами
+- Другие возможности приложения
+- измените настройки звука: таким образом, вы можете выбрать мелодии звонка и громкость для уведомлений и аудиосообщений
+- запуск при запуске: так что вам не придется запускать Delta Chat вручную
+- контроль вибрации: для уведомлений
+- просмотр сетевых подключений: для подключения к поставщику электронной почты
+- предотвращение спящего режима телефона: так вы можете легче скопировать код безопасности во время Autocrypt Setup Message
+- иметь полный доступ к сети: для подключения к вашему провайдеру электронной почты
+- просмотр подключений Wi-Fi: для подключения к поставщику электронной почты
+- запрос игнорирования оптимизации батареи: для пользователей, которые хотят получать сообщения все время
 
 
 ## Группы
 
 ### Создание группы
 
-- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
-- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Выберите **Новый чат**, а затем **Новая группа** из меню в правом верхнем углу или нажмите соответствующую кнопку на Android/iOS.
+- На следующем экране выберите **членов группы** и определите **аватар группы**. Вы также можете выбрать **групповой аватар**.
+- Как только вы напишете **первое сообщение** в группе, все участники будут проинформированы о новой группе и смогут ответить в группе (до тех пор, пока вы не напишете сообщение в группе, группа будет невидима для участников).
 
 
 ### Добавление участников в группу
@@ -145,21 +145,21 @@ This is what Delta Chat does with these permissions:
 
 ### Что такое проверенная группа? Почему это экспериментальная функция?
 
-- A verified group is a chat that guarantees safety against an active
-  attacker.  All Messages in a verified chat view are e2e-encrypted, and
-  members can join by scanning a "QR invite code".  All members are thus 
-  connected with each other through a chain of invites, which guarantee 
-  cryptographic consistency against active network or provider attacks. 
-  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-  for the R&D behind this feature. 
+- Верифицированная группа-это чат, который гарантирует безопасность от активного
+злоумышленника. Все сообщения в проверенном виде чата зашифрованы сквозным шифрованием, и
+участники могут присоединиться, сканируя "QR-код приглашение". Таким образом, все участники
+связаны друг с другом цепочкой приглашений, которые гарантируют
+криптографическую согласованность от активных сетевых атак или атак провайдера.
+Смотрите [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
+для R&D позади этого свойства.
 
-- As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continuously improved and many bugs have been fixed since the
-  original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occur, or messages become 
-  unreadable.  Early 2020 a security review is upcoming, and several new
-  developments around qr-join protocols are taking place so chances
-  are we remove the "experimental" label not too far in the future. 
+- По состоянию на декабрь 2019 года "верифицированная группа" остается экспериментальной функцией.
+Она постоянно совершенствуется, и многие ошибки были исправлены с момента
+первоначального введения в 2018 году. Однако остаются случаи, особенно
+в больших группах, когда могут возникать несоответствия или сообщения становятся
+не читаемыми. В начале 2020 года ожидается обзор безопасности, и несколько новых
+разработок вокруг протоколов qr-join происходят, так что есть вероятность,
+ что мы удалим "экспериментальную" надпись не слишком далеко в будущем.
 
 
 ### Я случайно себя удалил.
@@ -176,15 +176,15 @@ This is what Delta Chat does with these permissions:
 - Или, в качестве альтернативы, вы также можете отключить уведомления для группы - это означает, что вы будете получать все сообщения и сможете их писать, но больше не будете получать уведомления о новых сообщениях.
 
 
-### What do double ticks mean in group messages? Has everyone read my message now?
+### Что означают двойные галочки в групповых сообщениях? Все уже прочитали мое сообщение?
 
-- A message shows double ticks after more than half of the recipients have
-  seen the message on their display.
-- Note that some recipients might have disabled read-receipts for
-  privacy-reasons.
-- If more than 50% in a group disabled read receipts, the double ticks will
-  never show up. For more detailed information, see
-  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- Сообщение показывает двойные галочки после того, как более половины получателей
+увидели сообщение на своем дисплее.
+- Обратите внимание,что некоторые получатели могли отключить чтение сообщений по
+соображениям конфиденциальности.
+- Если более 50% в группе отключенных читают сообщения, двойные галочки никогда
+не появятся. Для получения более подробной информации см.
+[этот пост в блоге](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
 
 
 ## Шифрование {#encryption}
@@ -195,8 +195,8 @@ This is what Delta Chat does with these permissions:
 защищённые сквозным (E2E) шифрованием сообщения совместимы с
 другими приложениями, поддерживающими Autocrypt.
 
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
+- Delta Chat также поддерживает сильную форму сквозного шифрования, которая
+даже безопасна от активных атак, см. раздел "Верифицированные группы" далее ниже.
 
 
 ### Что нужно сделать, чтобы активировать сквозное шифрование?
@@ -210,31 +210,31 @@ This is what Delta Chat does with these permissions:
   Autocrypt, последующие сообщения не шифруются до тех пор, пока совместимое с 
   Autocrypt не будет снова доступно у всех участников. 
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
+- Если вы хотите избежать сквозного шифрования электронной почты по умолчанию,
+используйте соответствующую настройку Autocrypt в разделе "Настройки" или "дополнительные настройки".
 
 
 ### Если сквозное шифрование недоступно, связь не шифруется вообще?
 
-- With most mail servers, Delta Chat establishes _transport encryption_
-  ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
-  This only secures the connection between your device and your e-mail
-  server. Whereas e2e-encryption provides safety between 
-  your device and a friend's device. 
+- С большинством почтовых серверов Delta Chat устанавливает транспортное шифрование
+([TLS](https://ru.wikipedia.org/wiki/TLS)).
+Это только обеспечивает соединение между вашим устройством и сервером электронной почты
+. В то время как сквозное шифрование обеспечивает безопасность между
+вашим устройством и устройством друга.
 
 
 ### Как проверить криптографический статус у нас с отправителем? 
 
-If you are within immediate distance of the chat partner:
+Читайте сообщения и социальное воздействие:
 
-- Select **QR Invite code** on one device and then **Scan QR code**
-  on the other one and scan the code. If both devices are online,
-  they will introduce a chat channel with each-other (if it doesn't exist already) 
-  and the encryption keys will also be verified.  Both will see a
-  "sender verified" system message in their 1:1 chat. 
+- Выберите **QR Invite code** на одном устройстве, а затем **Сканировать QR-код**
+на другом и отсканируйте код. Если оба устройства находятся в сети,
+они будут вводить канал чата друг с другом (если он еще не существует)
+и ключи шифрования также будут проверены. Оба увидят
+системное сообщение "отправитель проверен" в своем чате 1:1.
 
-If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop):
+Если вы не находитесь рядом с партнером по чату, вы можете проверить статус вручную в диалоговом окне "Шифрование"
+(Профиль пользователя на Android/iOS или щелкните правой кнопкой мыши элемент списка чатов пользователя на рабочем столе):
 
 - При использовании сквозного шифрования будут показаны отпечатки двух ключей.
   Если они совпадают на обоих устройствах, то соединение безопасно.
@@ -244,96 +244,96 @@ If you are not near the chat partner, you can check the status manually in the "
 
 ### Как проверить шифрование сообщений?
 
-- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
+- Маленький **замочек**, показанный рядом с сообщением, указывает, зашифровано ли сообщение сквозным шифрованием от данного отправителя.
 
 - Если **нет замка**, сообщение обычно передаётся в незашифрованном виде, например, потому что вы или отправитель отключили сквозное шифрование, или отправитель использует приложение без поддержки сквозного шифрования.
 
 ### Какие стандарты используются для сквозного шифрования?
 
-- [Autocrypt](https://autocrypt.org) is used for establishing
-  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. 
+- [Autocrypt](https://autocrypt.org) используется для создания
+сквозного шифрования с другими Delta Chat и другими почтовыми приложениями с поддержкой Autocrypt.
+Autocrypt использует ограниченное подмножество функций OpenPGP.
 
-- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
-  base protection of Autocrypt Level 1, while maintaining its ease of use.  
+- Delta Chat реализует [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) для достижения защиты от активных сетевых атак. Это выходит за рамки беспринципной
+базовой защиты Autocrypt Level 1, сохраняя при этом его простоту использования.
 
 ### В чём разница между проверенными группами и чатами 1-на-1 с проверенными контактами?
 
-- 1:1 chats with a verified contact and verified groups are not the same, even
-  if there are only 2 people in the verified group. One difference is that you
-  could easily add more people to the group, but there are other implications as
-  well.
+- 1:1 чаты с проверенным контактом и проверенными группами-это не одно и то же, даже
+если в верифицированной группе всего 2 человека. Одно отличие состоит в том, что вы
+можете легко добавить больше людей в группу, но есть и другие отличия.
+.
 
-- Verified groups are invariably secured. Any breakage (cleartext or wrongly
-  signed messages etc.) will be flagged and such messages will not be shown in
-  this chat. You can trust all messages in this verified-checkmark chat to have
-  not been read/altered by middle parties.
+- Проверенные группы неизменно защищены. Любые поломки (открытый текст или неправильно
+подписанные сообщения и т.д.) будут помечены, и такие сообщения не будут отображаться в
+этом чате. Вы можете быть уверены, что все сообщения в этом проверенном чате с галочкой
+не были прочитаны/изменены третьими сторонами.
 
-- 1:1 chats are opportunistic, it is meant to allow people to communicate no
-  matter if they change e-mail clients, devices, setups etc. That's why there
-  is no verification checkmark, even if you have verified the contact.
+- Чаты 1:1 являются условными, они предназначены для того, чтобы люди
+могли общаться независимо от того, меняют ли они почтовые клиенты, устройства, настройки и т. д. Вот почему нет
+галочки верификации, даже если вы проверили контакт.
 
 
-### Does Delta Chat support Perfect Forward Secrecy?
+### Выполняет компания Delta Chat поддержки Perfect Forward Secrecy?
 
-- No, OpenPGP doesn't support Perfect Forward Secrecy. Perfect Forward Secrecy
-  works session-oriented, but E-Mail is asynchronous by nature
-  and often used from multiple devices independently. This means that if your
-  Delta Chat private key is leaked, and someone has a record
-  of all your in-transit messages, they will be able to read them.  
+- Нет, OpenPGP не поддерживает идеальную прямую секретность. Perfect Forward Secretary
+работает в режиме сеанса, но электронная почта по своей природе асинхронна
+и часто используется с нескольких устройств независимо. Это означает, что если ваш
+секретный ключ Delta Chat просочился, и у кого-то есть запись
+всех ваших транзитных сообщений, они смогут их прочитать.
 
-- Note that if anyone has seized or hacked your running phone, they will
-  typically be able to read all messages, no matter if Perfect Forward Secrecy
-  is in place or not. Having access to a single device from a member of a group,
-  will typically expose a lot of the social graph. Using e-mail addresses that
-  are not easily tracked back to persons helps group members to stay safer from
-  the effects of device seizure. 
+- Обратите внимание, что если кто-то захватил или взломал ваш работающий телефон, он, 
+как правило, сможет прочитать все сообщения, независимо от того, является ли Perfect Forward Secrecy,
+есть на месте или нет. Имея доступ к одному устройству от члена группы,
+вы, как правило, открываете большую часть социального графа. Использование адресов электронной почты, которые
+нелегко отследить до людей, помогает членам группы оставаться в безопасности от них.
+последствия захвата устройства.
 
-- We are sketching ways to protect communications better against the event
-  of device seizure. 
+- Мы прорабатываем способы лучшей защиты коммуникаций в случае
+захвата устройства.
 
 
 ### Как Delta Chat защищает мои метаданные?
 
-- As Delta Chat is a decentralized messenger, the metadata of Delta Chat users
-  are not stored on a single central server. However, they are stored on the mail
-  servers of the sender and the recipient of a message.
+- Поскольку Delta Chat является децентрализованным мессенджером, метаданные пользователей Delta Chat
+не хранятся на одном центральном сервере. Однако они хранятся на почтовых
+серверах отправителя и получателя сообщения.
 
-- Each mail server currently knows about who sent and who received a message by 
-  inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
-  are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
-  and always put them only into the encrypted section. See 
-  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
-  For opportunistic chats the main concern is how it affects other mail apps who 
-  might participate in chats. 
+- Каждый почтовый сервер в настоящее время знает о том, кто отправил и кто получил сообщение,
+проверяя незашифрованные заголовки To/Cc и таким образом определяя, какие адреса электронной почты
+являются частью группы. Сам Delta Chat мог бы полностью избегать незашифрованных заголовков To/Cc
+и всегда помещать их только в зашифрованный раздел. Смотрите
+[Избегайте отправки заголовков To/CC для проверенных групп](https://github.com/deltachat/deltachat-core-rust/issues/1032).
+Для условных чатов главная проблема заключается в том, как это влияет на другие почтовые приложения, которые
+могут участвовать в чатах.
 
-- Many other e-mail headers, in particular the "Subject" header, are
-  end-to-end-encryption protected, see also this upcoming [IETF
-  RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
+- Многие другие заголовки электронной почты, в частности заголовок "тема",
+защищены сквозным шифрованием, смотрите также в предстоящем [IETF
+RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
 ### Можно ли повторно использовать существующий закрытый ключ?
 
 - Да. Лучший способ — отправить сообщение с параметрами Autocrypt с другого почтового клиента. Ищите что-то вроде **Начать передачу настроек Autocrypt** в настройках другого клиента и следуйте указанным там инструкциям.
 
-- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Кроме того, вы можете импортировать ключ вручную в разделе "Настройки" или "дополнительные настройки", а затем "импортировать секретные ключи". Внимание: убедитесь, что ключ не защищен паролем, или удалите пароль заранее.
 
 Если у вас нет ключа или вы даже не знаете, что он вам понадобится, не волнуйтесь: Delta Chat сгенерирует его по мере необходимости, вам не нужно даже нажимать кнопку для этого. 
 
 
 ### Я не могу импортировать мой существующий ключ PGP в Delta Chat.
 
-With a very good chance, the problem is that your key is encrypted and/or uses
-a password. Such keys are not supported by Delta Chat.  You may remove the
-passphrase encryption and the password and try the import again.  If you want
-to keep your passphrase you'll have to create an e-mail alias for use
-with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
+С очень большой вероятностью проблема заключается в том, что ваш ключ зашифрован и/или использует
+пароль. Такие ключи не поддерживаются Delta Chat. Вы можете удалить
+шифрование парольной фразы и пароль и повторить попытку импорта. Если вы хотите
+сохранить свою парольную фразу, вам придется создать псевдоним электронной почты для использования
+с Delta Chat таким образом, чтобы ключ Delta Chat был привязан к этому псевдониму электронной почты.
 
-Format wise, Delta Chat supports common OpenPGP private key formats, however, it
-is unlikely that we will support 100% of all private keys of any sources. This
-is also not the main focus of Delta Chat (in fact, the large majority of the
-Delta Chat users will not have any key before they start using Delta).
-However, we try to support private keys from other sources as good as possible. 
+Что касается формата, Delta Chat поддерживает общие форматы закрытых ключей OpenPGP, однако
+маловероятно, что мы будем поддерживать 100% все закрытые ключи из любых источников. Это
+также не является главным фокусом Delta Chat (на самом деле, подавляющее большинство
+пользователей Delta Chat не будут иметь никакого ключа, прежде чем они начнут использовать Delta).
+Однако мы стараемся поддерживать закрытые ключи из других источников как можно лучше.
 
 Удаление пароля приватного ключа будет отличаться в зависимости от программного обеспечения, используемого для управления ключами PGP. 
 В Enigmail вы можете установить пустой пароль в окне управления ключами. 
@@ -351,76 +351,76 @@ However, we try to support private keys from other sources as good as possible.
 
 ### Можно ли использовать Delta Chat на нескольких устройствах одновременно?
 
-If you want to use the **same account** on different devices, you should export
-a backup from the old device, and import it into the new device:
+Если вы хотите использовать одну и ту же учетную запись на разных устройствах, вам следует экспортировать
+резервную копию со старого устройства и импортировать ее на новое устройство:
 
-- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- На старом устройстве перейдите в раздел "Настройки" или "Настройки / Чаты и медиа", а затем в раздел "резервное копирование". Введите PIN-код
+разблокировки экрана, шаблон или пароль. Затем вы можете нажать на кнопку "Пуск
+Резервное копирование". Это сохранит файл резервной копии на вашем устройстве. Теперь вам нужно каким-то образом перенести
+его на другое устройство.
+- На новом устройстве на экране входа в систему вместо входа в свою учетную запись электронной
+почты выберите "Импорт резервной копии". После импорта ваши диалоги,
+ключи шифрования и медиа должны быть скопированы на новое устройство.
+- Теперь вы синхронизированы и можете использовать оба устройства для отправки и приема
+сквозных зашифрованных сообщений с вашими партнерами по общению.
 
-### Are there any plans for introducing a Delta Chat Web Client?
+### Есть ли какие-либо планы по внедрению веб-клиента Delta Chat?
 
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
-  [get.delta.chat](https://get.delta.chat).
+- Нет никаких ближайших планов, но есть некоторые предварительные мысли.
+- Есть 2-3 варианта внедрения веб-клиента Delta Chat, но все
+они представляют собой значительную работу. На данный момент мы сосредоточены на получении стабильных релизов во всех
+магазинах приложений (репозитории Google Play/iOS/Windows/macOS/Linux) в качестве собственных приложений.
+- Если вам нужен веб-клиент, поскольку вам не разрешено устанавливать программное обеспечение на
+компьютер, с которым вы работаете, вы можете использовать портативный настольный клиент Windows
+или AppImage для Linux. Вы можете найти их на
+[get.delta.chat](https://get.delta.chat).
 
 
-### Why can I choose not to watch the Inbox?
+### Почему я могу не смотреть выбранный почтовый ящик?
 
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
+Это экспериментальная установка для некоторых людей, которые экспериментируют с
+правилами на стороне сервера. Не все провайдеры поддерживают это, но с некоторыми вы можете переместить
+все письма с заголовком "Chat-Version" в папку DeltaChat. Обычно это
+делается с помощью приложения Delta Chat.
 
-Watching the Inbox makes sense to turn off, if you have both:
+Просмотр входящих сообщений имеет смысл отключить, если у вас есть оба:
 
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
+- включено правило на стороне сервера для перемещения всех сообщений с заголовком Chat-Version в папку DeltaChat, и
+- установлен параметр "показывать классические электронные письма" в положение "нет, только чаты".
 
-In this case, Delta Chat doesn't need to watch the Inbox.
+В данном случае, Delta Chat не нужно смотреть в почтовый ящик.
 
-### What is the "Send Copy to Self" setting good for?
+### Для чего нужен параметр «Отправить копию самому себе»?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device. 
+Отправка копии ваших сообщений самому себе гарантирует, что вы получите свои собственные
+сообщения на всех устройствах. Если у вас есть несколько устройств и вы не включили его, вы
+видите только сообщения от других людей и сообщения, которые вы отправляете с
+текущего устройства.
 
-The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
+Копия отправляется в папку "Входящие", а затем перемещается в папку DeltaChat; она не
+помещается в папку "отправлено". Delta Chat *никогда* ничего не загружает в папку Отправлено
+, потому что это означало бы загрузку сообщения дважды (один раз через SMTP
+и один раз через IMAP в папку Отправлено).
 
-The default setting for copy-to-self is "no".
+Значение по умолчанию для copy-to-self - "нет".
 
-### Why can I choose to watch the "Sent" folder?
+### Почему я могу выбрать просмотр папки "Отправлено"?
 
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
+Единственная причина, по которой вы хотите посмотреть папку "отправлено", - это если вы используете другую
+почтовую программу (например, Thunderbird) рядом с вашим приложением Delta Chat и хотите, чтобы ваш MUA
+участвовал в разговорах в чате.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms. 
+Однако мы рекомендуем использовать настольный клиент Delta Chat; вы можете скачать его
+на [get.delta.chat](https://get.delta.chat). Возможность просмотра папки "Отправлено"
+может исчезнуть в будущем. Он был представлен в то время, когда не было
+никакого настольного клиента Delta Chat, доступного на всех платформах.
 
-### Why can I choose not to watch the DeltaChat folder?
+### Почему я могу выбрать, не смотреть в папку DeltaChat?
 
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
+Некоторые люди используют Delta Chat в качестве обычного почтового клиента и хотят использовать папку Входящие
+для своей почты вместо папки DeltaChat. Если вы отключите функцию "смотреть
+DeltaChat папку", вы также должны отключить "переместить сообщения чата в DeltaChat".
+В противном случае удаление сообщений или настроек нескольких устройств может работать неправильно.
 
 ## Другое
 
@@ -432,78 +432,78 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   смотрите [Обзор провайдеров](https://providers.delta.chat)
 
 
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+### Если Delta Chat использует электронную почту, действительно ли это мессенджер быстрой доставки?
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in the background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occasionally. This artificial delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
-- However, Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Отправка и получение сообщений обычно занимает несколько секунд. Иногда
+есть случаи, когда это занимает больше времени, но это, возможно, верно и для
+любого другого мессенджера.
+- Мгновенный чат работает быстро, если обе стороны активно используют приложение. Иногда это
+происходит медленнее, если приложение работает в фоновом режиме.
+- Получение сообщений тогда может занять несколько минут, потому что и Android, и iOS часто
+останавливают работу Delta Chat в фоновом режиме и только иногда пробуждают его
+. Эта искусственная задержка обычно хуже работает на iOS, чем на Android.
+- Обратите внимание, что Delta Chat не использует Google Cloud Messaging (GCM) или Apple
+Служба Push - уведомлений (APNS), потому что это приводит к отслеживанию пользователей и
+центральному контролю, которого Delta Chat стремится избегать, насколько это возможно.
+- Однако Android и iOS убивают приложения, работающие в фоновом режиме, что является
+проблемой для многих законных приложений. Для получения дополнительной информации см.
+[dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### Совместим ли Delta Chat с Protonmail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- И да, и нет.
+- Нет, вы не можете использовать свой аккаунт Protonmail, Tutanota или Criptext с Delta
+Chat ; они не предлагают получать почту через IMAP.
+- В любом случае вы можете использовать Delta Chat для отправки сообщений людям, которые его используют
+Protonmail, на "Tutanota", или Criptext. Однако эти сообщения не будут зашифрованы от начала до конца
+. Сквозное шифрование, предлагаемое этими поставщиками,
+ работает только внутри их платформ и не совместимо ни с кем извне.
+- Delta Chat может использовать сквозное шифрование через любого поставщика услуг электронной почты с любой
+[электронной почтой с включенным Autocrypt](https://autocrypt.org/dev-status.html).
 
 
 ### Меня интересуют технические детали. Можете рассказать больше?
 
 - Смотрите [Стандарты, используемые в Delta Chat]({% include standards-url %}).
 
-### How are Delta Chat developments funded? 
+### Как финансируются разработки Delta Chat?
 
-First of all, Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
+Прежде всего, Delta Chat не получает никакого инвестиционного капитала и
+не имеет долгов, и не испытывает никакого давления, чтобы получить огромную прибыль или
+продать пользователей и их друзей и семью рекламодателям (или еще хуже).
 
-Delta Chat developments have so far been funded from four major sources: 
+Разработки Delta Chat до сих пор финансировались из четырех основных источников:
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018. 
+- The [NEXTLEAP](https://nextleap.eu) проект ЕС финансировал это исследование
+а также внедрил верифицированные группы и настройку контактных протоколов
+в 2017 и 2018 годах.
 
-- The [Open Technology Fund](https://opentechfund.org) has given two grants.
-  The first 2018/2019 grant (~$200K) majorly improved the Android app 
-  and allowed us to release a Desktop app beta version, and also 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  See the 
-  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+- [Фонд открытых технологий](https://opentechfund.org) дал два гранта.
+Первый грант 2018/2019 года (~$200 тыс.) значительно улучшил Android-приложение
+и позволил нам выпустить бета-версию настольного приложения, а также
+закрепил наши разработки в области исследований UX в контексте прав человека,
+смотрите наш заключительный отчет [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+Второй грант 2019/2020 (~$300 тыс.) все еще продолжается и помогает нам
+выпустить версии Delta/iOS, преобразовать нашу основную библиотеку в Rust и
+предоставить новые функции для всех платформ. Смотрите
+текущие [сообщения в блоге](https://delta.chat/en/blog) для получения дополнительной информации.
 
-- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+- Фонд [NLnet foundation](https://nlnet.nl/) выделил 46 тысяч евро на
+завершение привязки Rust/Python и создание экосистемы чат-ботов.
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
-  small amounts. Without them, Delta Chat would not be where it is today, not
-  even close. 
+- И последнее, но далеко не менее важное: несколько экспертов и энтузиастов pro-bono внесли
+свой вклад в развитие Delta Chat, не получая денег или только
+небольшие суммы. Без них Delta Chat не был бы там, где он есть сегодня,
+даже близко.
 
-The monetary funding mentioned above was organized by merlinux GmbH in
-Freiburg (Germany), and then distributed to almost a dozen contributors. 
+Упомянутое выше денежное финансирование было организовано компанией merlinux GmbH в 
+г. Фрайбург (Германия), а затем распространился почти на дюжину участников.
 
-Funding for 2020/2021 is yet to be determined. We are pursuing several
-opportunities with different organisations and partners. We also are
-considering to ask for donations. In fact, we experimentally started
-a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
-but have not published this yet.  There were also around 3-4K so far
-donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
-donation channels.  
+Финансирование на 2020/2021 годы еще не определено. Мы реализуем несколько
+возможностей с различными организациями и партнерами. Мы также
+подумываем о том, чтобы попросить пожертвования. На самом деле, мы экспериментально начали
+немного [Delta Chat / Liberapay donation аккаунт](https://liberapay.com/delta.chat/)
+но еще не опубликовали этого. Там тоже были около 3-4К также 
+пожертвований Bjoern's (официальный автор Delta Chat) PayPal и bitcoin
+каналы пожертвований.

@@ -8,120 +8,120 @@ lang: ru
 
 ### Можно рекомендовать слепым людям
 
-_"I installed Delta Chat last night, just after writing to you,
-and I immediately noticed the improvement in accessibility [...]
-And it works! And it's accessible! And I can recommend the app to other blind people!                                 
-Good job guys! [...]"_
+_"Я установил последнюю night Delta Chat версию, сразу после этого написал вам,
+и я сразу заметил улучшение специальных возможностей [...]
+И это работает! И это доступно! И я могу рекомендовать это приложение другим незрячим людям!                                 
+Хорошая работа ребята! [...]"_
 
 **Слепой пользователь** про Android-версию в 2019 году, по электронной почте delta@merlinux.eu
 
-### Popular in regions with strict Internet governance
+### Популярно в регионах, где государственный строгий доступ к интернету
 
-_"There's this nice messenger, based on a simple email, called Delta Chat. I am happy that our Internet watchdog has made this app popular by trying to block it. It's just like with Telegram that has become widely popular across non-tech audiences after the ban"._ 
+_"Есть такой хороший мессенджер, основанный на простой электронной почте, который называется Delta Chat. Я рад, что наш интернет контроль сделал это приложение популярным, пытаясь заблокировать его. Это как с Telegram, который стал широко популярным среди аудитории после запрета"._ 
 
-**Russian user** from 2020 in response to Delta Chat's rejection to satisfy Russian Internet watchdog RKN's request for user data, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**Русский пользователь** с 2020 года в ответ на отказ Delta Chat's удовлетворить запрос Роскомнадзора о представлении пользовательских данных, через [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
 
-### Chatty interface with robust encryption
+### Чат интерфейс с надёжным шифрованием
 
-_"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
+_"Другие вещи, которые я знаю, я опаздываю на вечеринку, но delta-chat кажется очень изящным, особенно если у вас есть проблемы с конфиденциальностью, так как на самом деле это просто специализированный шифровальный тяжелый почтовый клиент, который представляет собой интерфейс чата"_
 
-**American user** from 2020 recommending Delta Chat for everyday usage
+**Американский пользователь** с 2020 года рекомендуется Delta Chat для повседневного использования
 
-### Works during Internet shutdowns
+### Работает, когда отключён интернет
 
-_"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
+_"Я рад, что я могу скачать Delta Chat с вебсайта, не используя Google Play, ведь он был заблокирован в Беларуси. Скачивание apk было медленней, но как только я получил приложение, оно работало просто отлично. Мы могли поделиться некоторыми фотографиями и даже видео в зашифрованном формате"_ 
 
-**Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
+**Белорусский пользователь** в течение протестов в августе 2020 года, пользовались через электронную почту delta@merlinux.eu
 
 ### Перенесена система оповещения компании
 
-_"Yes, our company have migrated
-all billing/outage notification systems
-from Telegram to Delta Chat
-in order to improve corporate secrecy,
-thus our cameras send intrusion detection alerts
-to a delta group chat."_
+_"Да, наша компания переместила
+все системы оповещения о выставлении счетов/отключениях
+из Telegram в Delta Chat
+, чтобы улучшить корпоративную тайну,
+поэтому наши камеры отправляют предупреждения об обнаружении вторжений
+в delta group chat."_
 
-**Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/6)
+**Ранний пользователь** с 2018 года с [форума поддержки](https://support.delta.chat/t/clear-chat-function/163/6)
 
 
 ### Электронная почта всегда работает
 
-_"I'm really happy that DeltaChat exists and that I discovered it.
-As a very early WhatsApp user, I quit WhatsApp because of privacy and security reasons;
-I still have broken contacts because of that,
-I do a lot of advertising for alternatives, but the market is just too fragmented.
-Delta is THE solution for everyone who allow at least one
-alternative - e-mail always works! :)_
+- Я действительно счастлив, что DeltaChat  существует и что я его нашел.
+Как очень ранний пользователь WhatsApp, я ушел из WhatsApp из-за соображений конфиденциальности и безопасности;
+Из-за этого у меня до сих пор обрываются контакты,
+Я много рекламирую альтернативы, но рынок слишком фрагментирован.
+Delta - это решение для всех, кто допускает хотя бы одну
+альтернативу-электронная почта всегда работает! :)_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Пользователь из Германии** в 2019 году по электронной почте: delta@merlinux.eu
 
 
 ### Ждали очень долго
 
-_"A great project, I've been waiting for a long time
-for an end-to-end-encrypted chat application that gives a real alternative to the
-different silos like WhatsApp, Signal, Telegram etc."_
+_"Отличный проект, я уже давно
+жду сквозного зашифрованного чат-приложения, которое дает реальную альтернативу
+различным silos, таким как WhatsApp, Signal, Telegram и т. д."_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Пользователь из Германии** в 2019 году по электронной почте: delta@merlinux.eu
 
 
 ### Переписка с Кубой
 
-_"I'm going to confess my love for the application.
-It is really amazing, it has made me communicate more with my friends,
-because writing emails is really annoying for me, I prefer chat, the world prefers chat."_
+"Я собираюсь признаться в своей любви к приложению.
+Это действительно удивительно, это заставило меня больше общаться с моими друзьями,
+потому что написание электронных писем действительно раздражает меня, я предпочитаю чат, мир предпочитает чат."_
 
 **Пользователь с Кубы** в 2019 году, по электронной почте delta@merlinux.eu
 
 
 ### Полностью децентрализовано
 
-_"At /e/ we had lots of discussion about Telegram vs Signal vs ... 
-But I must say that the best IM secured service in my opinion is @delta_chat
-Delta Chat is using emails to transport instant messages: 
-it's fully decentralized, heavily encrypted and you can reach any contact"_
+_"В /e/ у нас было много дискуссий о Telegram vs Signal vs ... 
+Но я должен сказать, что лучший IM-защищенный сервис, на мой взгляд, - это @delta_chat
+Delta Chat использует электронную почту для передачи мгновенных сообщений: 
+он полностью децентрализован, сильно зашифрован, и вы можете связаться с любым контактом"_
 
 **Gaël Duval**, Founder Mandrake Linux, в [Twitter](https://twitter.com/gael_duval/status/1122906779002777600)
 
-### Decentralized but easy for users
+### Децентрализовано, но легко для пользователей
 
-_"People start caring about decentralization. But it seems that for a lot of people setting servers and all to use Matrix or XMPP is too complicated while you can use Delta with just an e-mail address"_
+_"Люди начинают заботиться о децентрализации. Но кажется, что для многих людей настройка серверов и всего, чтобы использовать Matrix или XMPP, слишком сложна, в то время как вы можете использовать Delta только с адресом электронной почты"_
 
-**Russian user** LGBT+ activist, from an online discussion over Telegram
+**Русский пользователь** ЛГБТ - + - активист, в интернет-дискуссии Telegram
 
 ### Старая добрая электронная почта прекрасно справляется
 
-_"Recently I've come to the conclusion 
-that the world doesn't need yet another instant messenger.
-Good old email will do just fine.
-Use #DeltaChat with your existing email account. #decentralize the net."_
+- Недавно я пришел к выводу
+, что миру не нужен еще один мессенджер.
+Старая добрая электронная почта прекрасно подойдет.
+Используйте #DeltaChat с вашей существующей учетной записью электронной почты. #децентрализовать сеть."_
 
 **Пользователь из Польши** в 2020 году, в [Twitter](https://twitter.com/MichalNarecki/status/1280820973902745600)
 
 
 ### Наиболее децентрализованная концепция связи в настоящее время
 
-_"Take the most decentralized communication concept currently available
-and put on a chat app like @delta and you're done."_
+_"Возьмите самую децентрализованную коммуникационную концепцию, доступную в настоящее
+время, и включите чат-приложение, такое как @delta, и все готово."_
 
 **Пользователь из Германии** в 2020 году, в [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
 
 
 ### Открытый исходный код, без разрозненности, на основе стандартов
 
-_"Been using  @delta_chat for more than a year:
-great open-source/non-silo/standard-based replacement to whatsapp!
-Glad to know that the development is keeping pace!!"_
+_"Пользуюсь @delta_chat уже больше года:
+отличная замена с открытым исходным кодом/без бэкдоров/стандартная замена whatsapp!
+Приятно осознавать, что развитие идет в ногу со временем!!"_
 
 **Séverin Lemaignan** в 2020 году, в [Twitter](https://twitter.com/skadge/status/1276515066393878529)
 
 
 ### Простейший способ начать общение!
 
-_"Considering to use  @delta_chat as a default way to start chats!
-Unlike other systems it empowers people on both end with choice of the agent they want to use +
-interops with all the mail clients"_
+_"Рассматривая возможность использования @delta_chat в качестве способа запуска чатов по умолчанию!
+В отличие от других систем, он предоставляет людям на обоих концах возможность выбора агента, который они хотят использовать +
+взаимодействие со всеми почтовыми клиентами"_
 
 **gozala** в 2020 году, в [Twitter](https://twitter.com/gozala/status/1281346020664729600)
 

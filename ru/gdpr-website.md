@@ -1,7 +1,7 @@
 ---
-title: Privacy policy website
+title: Политика конфиденциальности вебсайта
 lang: ru
 ---
 
-This page has been moved to the ["privacy statement on apps and websites"](gdpr).
+Эта страница была перемещена на ["заявление о конфиденциальности приложений и веб-сайтов"](gdpr).
 
