@@ -26,12 +26,12 @@ and answer with images or voice messages :)
 
 ## From the machine room
 
-<img src="../assets/blog/2020-06-faster.jpg" width="240" style="float:left; clear:both; margin-right:1em; margin-bottom:.2em;" alt="" />
 As [you might know](2019-05-08-xyiv#the-coming-delta-chat-rustocalypse),
 all Delta Chat platforms share the same _core library_.
 that takes care of the **_really_ hard stuff** -
 crypto, network, protocols, database. You get the idea.
 
+<img src="../assets/blog/2020-11-machine-room.jpg" width="320" style="float: right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
 Changes int the core are not directly visible to the user.
 It is more like that: If you do not notice the core,
 it does **the best job it can do.**
