@@ -8,12 +8,12 @@
 <title>{{ page.title }} - Delta Chat</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-<meta name="description" content="{{ content | strip_html | xml_escape | truncate: 200 }}" />
+<meta name="description" content="{{ content | strip_html | xml_escape | normalize_whitespace | truncate: 200 }}" />
 <meta name="keywords" content="{%if tx.meta.keywords != ""%}{{ tx.meta.keywords }}{%else%}{{ txEn.meta.keywords }}{%endif%}" />
 
 <meta property="og:title" content="Delta Chat: {{ page.title }}">
-<meta property="og:description" content="{{ content | strip_html | xml_escape | truncate: 200 }}">
-<meta property="og:image" content="{%if page.image%}{{ page.image }}{%else%}https://delta.chat/assets/home/intro1.png{%endif%}">
+<meta property="og:description" content="{{ content | strip_html | xml_escape | normalize_whitespace | truncate: 200 }}">
+<meta property="og:image" content="{%if page.image%}{{ page.image | replace:'../','https://delta.chat/' }}{%else%}https://delta.chat/assets/home/intro1.png{%endif%}">
 <meta property="og:url" content="https://delta.chat{{ page.url }}">
 <meta name="twitter:card" content="summary">
 
