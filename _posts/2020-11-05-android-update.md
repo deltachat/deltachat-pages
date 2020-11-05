@@ -1,10 +1,10 @@
 ---
 title: Swipe to Reply and other Android News
 author: bjoern
-image: ../assets/blog/2020-06-faster.jpg
+image: ../assets/blog/2020-11-swipe-to-reply.jpg
 ---
 
-Cold november? No! After many weeks of development and testing,
+Cold November? No! After many weeks of development and testing,
 Android releases are out now, starting the **new release series.**
 
 What can you expect from **Delta Chat Android 1.14?**
@@ -12,6 +12,7 @@ What can you expect from **Delta Chat Android 1.14?**
 
 ## Swipe to Reply
 
+<img src="../assets/blog/2020-11-swipe-to-reply.jpg" width="330" style="float: left; clear:both; margin-right:1em; margin-bottom:.2em;" alt="" />
 A long awaited feature is now there.
 Not much to explain - this is known from many other apps:
 
@@ -31,7 +32,7 @@ all Delta Chat platforms share the same _core library_.
 that takes care of the **_really_ hard stuff** -
 crypto, network, protocols, database. You get the idea.
 
-<img src="../assets/blog/2020-11-machine-room.jpg" width="320" style="float: right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
+<img src="../assets/blog/2020-11-machine-room.jpg" width="330" style="float: right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
 Changes int the core are not directly visible to the user.
 It is more like that: If you do not notice the core,
 it does **the best job it can do.**
@@ -58,6 +59,7 @@ A BIG "thank you" for this incredible work!
 
 ## Some more things
 
+<img src="../assets/blog/2020-11-disappearing.jpg" width="330" style="float: right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
 Some other features at a glance:
 
 * **Disappearing messages**,
@@ -74,11 +76,12 @@ Some other features at a glance:
 
 * See the [Changelogs](download#changelogs) for all the glory details :)
 
+
 ## What about Desktop and iOS?
 
 Apart from the "Machine room" chapter, 
 this blog post is mainly about Android this time.
-However, iOS and Desktop updates are also in the queue,
+However, iOS and Desktop updates are also **in the queue**,
 stay tuned about news there.
 
 
@@ -86,7 +89,6 @@ stay tuned about news there.
 
 Check out,
 [get.delta.chat](https://get.delta.chat) for the new versions.
-You'll also find detailed **changelogs** there.
 
 As usual, the different stores take different lengths of times for updates — thanks for your patience. 
 And again, thanks a lot to all the testers, translators, developers to make this release happen 🙏
