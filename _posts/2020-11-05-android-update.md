@@ -28,14 +28,14 @@ and answer with images or voice messages :)
 ## From the machine room
 
 As [you might know](2019-05-08-xyiv#the-coming-delta-chat-rustocalypse),
-all Delta Chat platforms share the same _core library_.
-that takes care of the **_really_ hard stuff** -
-crypto, network, protocols, database. You get the idea.
+all Delta Chat platforms share the same _core library_
+that takes care of the **_really_ hard stuff:**
+Crypto, network, protocols, database - you get the idea.
 
 <img src="../assets/blog/2020-11-machine-room.jpg" width="330" style="float: right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
-Changes int the core are not directly visible to the user.
-It is more like that: If you do not notice the core,
-it does **the best job it can do.**
+Changes in the core are not directly visible to the user.
+It is more like that:
+If you do not notice the core, it does **the best job it can do.**
 
 One example:  
 When you set up a **new account**
@@ -68,7 +68,7 @@ Some other features at a glance:
   Any chat can now be configured 
   to delete sent and received messages after some time.
   
-* Chats open at the **first unseen** message
+* Chats open at the **first unseen** message.
   
 * You can store things in your **Saved messages** chat since some time -
   with 1.14, this is can be done easier and faster -
