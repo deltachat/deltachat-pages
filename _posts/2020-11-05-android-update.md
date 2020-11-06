@@ -17,7 +17,7 @@ A long awaited feature is now there.
 Not much to explain - this is known from many other apps:
 
 Just **swipe any message to the right**
-and you'll see a quote above the compose line 
+and you'll see a quote above the compose line
 and can continue writing your message as usual.
 
 You can quote normal text and answer with text -
@@ -46,7 +46,7 @@ is ready to receive and send messages.
 In _older_ versions, this took easily more than one minute!
 
 Another example, also on set up:  
-Your **address book now gets prefilled** with e-mail-addresses 
+Your **address book now gets prefilled** with e-mail-addresses
 you've already contacted in the past using the account you just log in to.
 
 Last, not least, core handles and fixes
@@ -65,11 +65,11 @@ Some other features at a glance:
 * **Disappearing messages**,
   [in the past an experimental feature](2020-07-30-summer-update#disappearing-messages),
   are available by default now.
-  Any chat can now be configured 
+  Any chat can now be configured
   to delete sent and received messages after some time.
-  
+
 * Chats open at the **first unseen** message.
-  
+
 * You can store things in your **Saved messages** chat since some time -
   with 1.14, this is can be done easier and faster -
   just long-tap a message and forward to "Saved messages". ✔️ **Saved.**
@@ -79,7 +79,7 @@ Some other features at a glance:
 
 ## What about Desktop and iOS?
 
-Apart from the "Machine room" chapter, 
+Apart from the "Machine room" chapter,
 this blog post is mainly about Android this time.
 However, iOS and Desktop updates are also **in the queue**,
 stay tuned about news there.
@@ -90,5 +90,5 @@ stay tuned about news there.
 Check out,
 [get.delta.chat](https://get.delta.chat) for the new versions.
 
-As usual, the different stores take different lengths of times for updates — thanks for your patience. 
+As usual, the different stores take different lengths of times for updates — thanks for your patience.
 And again, thanks a lot to all the testers, translators, developers to make this release happen 🙏
