@@ -46,7 +46,7 @@ Delta Chat muestra automáticamente:
 - Mensajes de contactos **contactados por ti**
 - **Respuestas** a mensajes enviados por ti
 
-Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
+Otros mensajes no aparecen automáticamente, y se pueden encontrar en **Solicitudes de contacto**. Si se desea el chat se puede iniciar desde allí
 
 
 ### ¿Qué pasa con el Spam?
@@ -95,33 +95,33 @@ Como Delta Chat es de Código Abierto, puedes investigar el Código Fuente si qu
 Estamos felices de recibir críticas que hagan la aplicación más segura para todos los usuarios.
 
 
-### Which permissions does Delta Chat need?
+### ¿Qué permisos necesita Delta Chat?
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+Dependiendo del sistema operativo en uso,
+quizás se te solicite garantizar permisos a la app.
+Esto es lo que hace Delta Chat con esos permisos:
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for users who want to receive messages all the time
+- Camera *(puede ser desactivada)*
+  - tomar fotos y videos: para enviar fotos
+- Contactos *(puede ser desactivado)*
+  - lectura de tus contactos: para descubrir con que contactos chatear
+- Ubicación *(puede ser desactivada)*
+  - acceder a la ubicación aproximada (recursos de localización en red): para la función de transmitir ubicación
+  - acceder a la ubicación precisa (recursos de ubicación en red y GPS): para la función de transmitir ubicación
+- Micrófono *(puede ser desactivado)*
+  - grabar audio: para mensajes de audio
+- Almacenamiento *(puede ser desactivado)*
+  - modificar o borrar el contenido de tu tarjeta SD: para descargar los adjuntos de los mensajes
+  - leer el contenido de tu tarjeta SD: para compartir archivos con tus contactos
+- Otras capacidades de la app
+  - modificar los ajustes de audio: así puedas elegir los ringtones y volumen para las notificaciones y mensajes de audio
+  - lanzarse al inicio: así no tengas que iniciar Delta Chat de forma manual
+  - control de vibración: para notificaciones
+  - observar las conexiones de red: para conectarte a tu proveedor de correo electrónico
+  - evitar que el teléfono duerma: así puedes copiar de forma sencilla el código de seguridad durante el mensaje de configuración de autoencriptación
+  - tener acceso completo a la red: para conectarse a tu servidor de correo electrónico
+  - mirar las conexiones de Wi-Fi: para conectarse a tu servidor de correo electrónico
+  - ignorar optimizaciones de batería: para los usuarios que deseen recibir notificaciones en todo momento
 
 
 ### Grupos
@@ -173,7 +173,7 @@ Si desea unirse al grupo nuevamente más tarde, pídale a otro miembro del grupo
 aún puede escribir, pero ya no se le notifican nuevos mensajes.
 
 
-### What do double ticks mean in group messages? Has everyone read my message now?
+### ¿Qué significan las dobles tildes en los mensajes de grupo? ¿Han leído todos mis mensajes? 
 
 - A message shows double ticks after more than half of the recipients have
   seen the message on their display.
@@ -190,8 +190,8 @@ aún puede escribir, pero ya no se le notifican nuevos mensajes.
 
 - Si. Delta Chat implementa el estándar Autocrypt Nivel 1 y, por lo tanto, puede cifrar E2E mensajes con otras aplicaciones compatibles con Autocrypt.
 
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
+- Delta Chat también soporta una forma potente de encriptación punto a punto que es 
+  más segura contra ataques activos, leer "grupos verificados" más abajo.
 
 
 ### ¿Qué debo hacer para activar el cifrado de extremo a extremo?
@@ -202,8 +202,8 @@ aún puede escribir, pero ya no se le notifican nuevos mensajes.
 Después de esto, todos los mensajes subsiguientes se cifran de extremo a extremo automáticamente.
 Si uno de los compañeros de chat usa una aplicación de correo electrónico que no soporta Autocrypt, los mensajes no se cifrarán hasta que una aplicación compatible con Autocrypt sea utilizada.
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
+- Si quieres evitar la encriptación punto a punto de los mails por defecto, 
+  usar los ajustes correspondientes de autoencriptación en "Ajustes" o "Ajustes avanzados".
 
 
 ### Si el cifrado de extremo a extremo no está disponible, ¿la conexión no está cifrada?

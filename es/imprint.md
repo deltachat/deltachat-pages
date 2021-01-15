@@ -1,6 +1,6 @@
 ---
-title: Imprint
-lang: es
+título: Contribuir
+leng: esp
 ---
 
 # Aviso legal
@@ -9,7 +9,7 @@ Delta.Chat es un proyecto de la comunidad de código abierto. El responsable del
 
     Merlinux GmbH
     Reichsgrafenstr. 20
-    79102 Freiburg, Germany
+    79102 Freiburgo, Alemania
 
 Correo electrónico: {% include email-link %}
 

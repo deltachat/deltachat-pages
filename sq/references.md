@@ -10,6 +10,15 @@ Kjo listë është larg së qeni e plotë - harruam diçka? Ju lutemi
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Blogu i jlelse-it: Email-i është shkëmbyesi i mesazheve te i cili duhet të migroni
+
+_"Më duhet të them se është shumë i mirë tani […]
+Por gjëja më e rëndësishme: Delta Chat ju lejon të komunikoni edhe me persona që nuk përdorin fare Delta Chat-in […]
+Mund të thosha edhe se mund madje Matrix-in ose XMPP-në."_
+
+14.01.2021, <https://jlelse.blog/posts/email-messenger-delta-chat>
+
+
 ### Vodafone (Operator gjerman telekomunikacionesh): Delta Chat: So funktioniert der Messenger-Konkurrent von WhatsApp
 
 _"Deine Nachrichten sind auf keinem (Dienst-)Server gespeichert, es gibt keine zentrale Steuerung und Du kannst nicht verfolgt werden."_

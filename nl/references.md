@@ -11,6 +11,15 @@ Hebben we iets gemist?
 of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### jlelse's Blog: Email is the messenger you should migrate to
+
+_"I have to say it’s pretty decent now [...]
+But the most important thing: Delta Chat allows you to communicate even with people who don’t use Delta Chat at all [...]
+I would argue that even beats Matrix or XMPP."_
+
+2021-01-14, <https://jlelse.blog/posts/email-messenger-delta-chat>
+
+
 ### Vodafone (Duitse telecommunicatieprovider): Delta Chat: Zó functioneert de messenger-concurrent van WhatsApp
 
 _"Deine Nachrichten sind auf keinem (Dienst-)Server gespeichert, es gibt keine zentrale Steuerung und Du kannst nicht verfolgt werden."_

@@ -204,7 +204,7 @@ Delta Chat doet het volgende met deze rechten:
   zoek dan de Autocrypt-optie in 'Instellingen --> Geavanceerd'.
 
 
-### Als eind-tot-eind-versleuteling niet beschikbaar is, is de verbinding dan onbeveiligd?
+### Als eind-tot-eindversleuteling niet beschikbaar is, is de verbinding dan onbeveiligd?
 
 - Net als de meeste mailservers, zet Delta Chat een _beveiligde verbinding_
   ([TLS](https://nl.wikipedia.org/wiki/Transport_Layer_Security)) op.

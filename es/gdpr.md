@@ -17,16 +17,16 @@ En esta página detallamos de qué manera la aplicación y sitio web de Delta Ch
   - **Confidencialidad**: Encripción de extremo-a-extremo cuando es posible, a través de
 la implementación de [Autocrypt Level 1](https://autocrypt.org).
 
-  - **Data minimization**: No uploading of address-book content.
+  - **Minimización de datos**: No se sube el contenido de los contactos.
 
-  - **Data avoidance**: No Delta Chat server, no processing of personal data.
+  - **Evitación de datos**: Al no haber servidor en Delta Chat, no hay procesamiento de datos personales.
 
-- Does not require any **consent** (article 7 GDPR) from the users or their contacts (data subjects), because no address-book data is transmitted.
+- No requiere **consentimiento** (artículo 7 GDPR) de los usuarios o sus contactos (sujetos de datos), porque no se transmite ninguna información de agenda de contactos.
 
 - Puede usarse **sin requerir un contrato o instrucciones** de parte de ningún controlador (organización), porque ningún tercero adicional procesará los datos personales vinculados al E-Mail.
 
 
-### How data controllers (organizations) benefit from using Delta Chat in complying to the GDPR
+# De qué manera los controladores de datos (organizaciones) se benefician usando Delta Chat en cumplimiento con el RGPD
 
 - Creates **no additional information requirements** for the controller towards direct or indirect data subjects 
   regarding any collection of address-book-data, article 13, 14 GDPR.

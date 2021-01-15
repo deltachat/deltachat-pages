@@ -16,34 +16,34 @@ e inmediatamente noté la mejora en la accesibilidad [...]
 **Usuario invidente** acerca de la versión para Android en 2019, a través de un
 correo electrónico a delta@merlinux.eu
 
-### Popular in regions with strict Internet governance
+### Popular en regiones con control de Internet por parte del gobierno
 
-_"There's this nice messenger, based on a simple email, called Delta Chat. I am happy that our Internet watchdog has made this app popular by trying to block it. It's just like with Telegram that has become widely popular across non-tech audiences after the ban"._ 
+_"Existe una app de mensajería, basada en email, llamada Delta Chat. Estoy feliz que la vigilancia de internet haya hecho esta app popular tratando de bloquearla. Es como con Telegram que se convirtió en muy popular en las audiencias no tecnológicas luego del bloqueo"._ 
 
-**Russian user** from 2020 in response to Delta Chat's rejection to satisfy Russian Internet watchdog RKN's request for user data, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**Usuario ruso** del 2020 en respuesta al rechazo de Delta Chat de satisfacer la vigilancia de internet RKN pidiendo por datos de los usuarios, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
 
-### Chatty interface with robust encryption
+### Interfaz para charlar con una robusta seguridad
 
-_"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
+_"Otras cosas que se es que llegué tarde a la fiesta pero delta-chat parece ser genial, especialmente si te preocupa la seguridad, sobre todo porque se especializa en ella a través de clientes de correos presentando una interfaz de conversación"_
 
-**American user** from 2020 recommending Delta Chat for everyday usage
+**usuario norteamericano** del 2020 recomiendo Delta Chat para usarlos a diario
 
-### Works during Internet shutdowns
+### Funciona durante los apagones de internet
 
-_"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
+_"Me encantó de poder obtener Delta Chat desde su web, no solamente a través de Google Play ya que fue bloqueado en Bielorrusia. Fue un poco lento conseguir el apk, pero una vez que tuve la app funcionó genial. Podíamos compartir videos y fotos encriptados."_ 
 
-**Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
+**Usuario bielorruso** durante las protestas en Agosto 2020, via email to delta@merlinux.eu
 
-### Company notification system migrated
+### Sistema de notificación de la compañía migrado
 
-_"Yes, our company have migrated
-all billing/outage notification systems
-from Telegram to Delta Chat
-in order to improve corporate secrecy,
-thus our cameras send intrusion detection alerts
-to a delta group chat."_
+_"Si, nuestra compañía migró
+todas las cuentas/sistemas de notificación de interrupciones
+de Telegram a Delta Chat
+para mejorar el secreto corporativo,
+así nuestras camaras envían alertas de detección de intrusos
+a un grupo en delta chat."_
 
-**Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/6)
+**Usuario antiguo** del 2018 del [foro de soporte](https://support.delta.chat/t/clear-chat-function/163/6)
 
 
 ### E-Mail always works
