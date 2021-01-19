@@ -11,11 +11,11 @@ Hebben we iets gemist?
 of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### jlelse's Blog: Email is the messenger you should migrate to
+### jlelse's blog: E-mail is het nieuwe chatten
 
-_"I have to say it’s pretty decent now [...]
-But the most important thing: Delta Chat allows you to communicate even with people who don’t use Delta Chat at all [...]
-I would argue that even beats Matrix or XMPP."_
+_"Ik moet zeggen dat het nu best goed is [...]
+Maar het belangrijkste is: met Delta Chat kun je óók communiceren met mensen die géén Delta Chat hebben [...]
+Ik durf zelfs te zeggen het daardoor beter is dan Matrix en XMPP."_
 
 2021-01-14, <https://jlelse.blog/posts/email-messenger-delta-chat>
 
