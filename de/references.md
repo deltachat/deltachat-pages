@@ -7,7 +7,7 @@ lang: de
 
 Diese Liste ist bei weitem nicht vollständig - haben wir etwas verpasst? Bitte
 [lassen Sie es uns wissen](imprint) oder machen Sie einfach einen [Pull
-Request] (https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
 ### jlelse's Blog: Email is the messenger you should migrate to
