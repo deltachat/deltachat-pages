@@ -110,78 +110,57 @@ Delta Chat автоматично показує:
   - запитувати дозволу ігнорувати оптимізації батареї: для користувачів які хочуть бути на постійному зв'язку
 
 
-## Groups
+## Групи
 
-### Creation of a group
+### Створення групи
 
-- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
-- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Оберіть **Новий чат**, потім **Нова групи** у меню в верхньому правому кутку або натисніть відповідну кнопку у Android/iOS.
+- На наступному екрані виберіть **учасники групи** та встановіть **назву групи**. Ви також можете обрати **аватар групи**.
+- Як тільки ви напишете **перше повідомлення** у групу, усі учасники будуть проінформовані про нову групу і зможуть відповісти у нову групу (доки ви не напишете повідомлення у групі, група залишатиметься невидимою для учасників).
 
 
-### Add members to a group
+### Додавання учасників групи
 
 - Кожен учасник групи має **ті ж самі права**, що і будь-який інший. З цієї причини кожен може видалити будь-якого учасника або додати нового.
 - Щоб додати або видалити учасників, натисніть на назву групи в чаті.
 
 
-### What is a verified group? Why is it experimental? 
+### Що таке перевірена група? Чому це експеримент? 
 
-- A verified group is a chat that guarantees safety against an active
-  attacker.  All Messages in a verified chat view are e2e-encrypted, and
-  members can join by scanning a "QR invite code".  All members are thus 
-  connected with each other through a chain of invites, which guarantee 
-  cryptographic consistency against active network or provider attacks. 
-  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-  for the R&D behind this feature. 
+- Перевірена група це чат, що гарантує безпеку від активного нападника. Усі повідомлення у перевіреному чаті зашифровані наскрізним шифруванням, а нових учасників можна додавати лише через сканування QR-коду запрошення. Таким чином, всі учасники з'єднані один з одним через ланцюжок запрошень, що гарантує криптографічну узгодженість від активних мережевих атак або атак провайдерів. Дивіться [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) для технічних деталей цієї функції.
 
-- As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continuously improved and many bugs have been fixed since the
-  original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occur, or messages become 
-  unreadable.  Early 2020 a security review is upcoming, and several new
-  developments around qr-join protocols are taking place so chances
-  are we remove the "experimental" label not too far in the future. 
+- Станом на грудень 2019 року, "верифікована група" залишається експериментальною функцією. Вона постійно удосконалюється, багато помилок було виправлено з часу її початкового введення у 2018 році. Однак, залишаються випадки, особливо у великих групах, коли повідомлення стають нечитабельними. На початку 2020 року очікується аудит безпеки та декілька нових розробок щодо протоколів приєднання по QR-кодам, тож існують шанси на видалення "експериментальної" позначки у недалекому майбутньому.
 
 
-### I have deleted myself by accident.
+### Я випадково себе видалив
 
-- As you're no longer a group member, you cannot add yourself again. 
-  However, no problem, just ask any other group member in a normal chat to re-add you.
-
-
-### I do not want to receive the messages of a group any longer.
-
-- Either delete yourself from the member list or delete the whole chat. 
-  If you want to join the group again later on, ask another group member to add you again.
-
-- As an alternative, you can also "Mute" a group - doing so means you get all messages and 
-  can still write, but are no longer notified of any new messages.
+- Оскільки ви більше не учасник групи, ви не зможете додати себе знову. Однак, це не проблема, просто попросіть будь-якого іншого учасника групи в звичайному чаті додати вас знову.
 
 
-### What do double ticks mean in group messages? Has everyone read my message now?
+### Я більше не хочу отримувати повідомлення групи.
 
-- A message shows double ticks after more than half of the recipients have
-  seen the message on their display.
-- Note that some recipients might have disabled read-receipts for
-  privacy-reasons.
-- If more than 50% in a group disabled read receipts, the double ticks will
-  never show up. For more detailed information, see
-  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- Або видаліть себе із списку учасників групи, або видаліть весь чат. Якщо ви хочете повернутись до чату пізніше, попросіть іншого учасника групи додати вас знову.
+
+- Ви також можете "Заглушити" групу - це означає, що ви будете отримувати усі повідомлення та можете писати у групу, але ви більше не будете отримувати сповіщення про нові повідомлення.
 
 
-## Encryption {#encryption}
+### Що означають подвійні галочки у групових повідомленнях? Всі прочитали моє повідомлення?
 
-### Does Delta Chat support end-to-end-encryption?
-
-- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
-  thus E2E-encrypt messages with other Autocrypt-capable apps. 
-
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
+- Повідомлення відображає дів галочки після того як більше половини отримувачів побачили повідомлення на їх екрані.
+- Зверніть увагу, що деякі одержувачі могли відключити сповіщення про прочитання через причини-конфіденційності.
+- Якщо більше 50% відключили сповіщення про прочитання, подвійні галочки не будуть відображатися взагалі. За деталями дивіться [цей пост у блозі](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
 
 
-### What do I have to do to activate the end-to-end-encryption?
+## Шифрування {#encryption}
+
+### Чи підтримує Delta Chat наскрізне шифрування?
+
+- Так. Delta Chat реалізує стандарт Autocrypt Level 1, таким чином наскрізно зашифровані повідомлення сумісні з іншими програмами, що підтримують Autocrypt.
+
+- Delta Chat також підтримує сильну форму наскрізного шифрування, яка безпечна навіть від активних атак, див. "перевірені групи" нижче.
+
+
+### Що потрібно зробити, щоб активувати наскрізне шифрування?
 
 - Нічого.
 

@@ -22,7 +22,7 @@ oder kompatible Systeme.
 ## Verweise
 
 * [Provider Datenbank](https://providers.delta.chat/): Funktioniert mein  E-Mail-Provider mit Delta Chat?
-* [FAQ Multi-Client](help#multiclient): Delta Chat Desktio mit einer Delta Chat iOS oder Android synchronisieren
+* [FAQ Multi-Client](help#multiclient): Delta Chat Desktop mit einer Delta Chat iOS oder Android synchronisieren
 * [Downloads verifizieren](verify-downloads): Die Integrität der Downloads sicherstellen
 
 ## Vorschauversionen
