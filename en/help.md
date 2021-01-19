@@ -318,29 +318,30 @@ If you are not near the chat partner, you can check the status manually in the "
 
 - Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates one as needed, you don't have to hit a button for it. 
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it. 
 
 
 ### I can't import my existing PGP key into Delta Chat.
 
-With a very good chance, the problem is that your key is encrypted and/or uses
-a password. Such keys are not supported by Delta Chat.  You may remove the
+The most likely cause is that your key is encrypted and/or uses
+a password. Such keys are not supported by Delta Chat.  You could remove the
 passphrase encryption and the password and try the import again.  If you want
 to keep your passphrase you'll have to create an e-mail alias for use
 with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
 
-Format wise, Delta Chat supports common OpenPGP private key formats, however, it
-is unlikely that we will support 100% of all private keys of any sources. This
-is also not the main focus of Delta Chat (in fact, the large majority of the
-Delta Chat users will not have any key before they start using Delta).
-However, we try to support private keys from other sources as good as possible. 
+Delta Chat supports common OpenPGP private key formats, however, it
+is unlikely that private keys from all sources will be fully supported. This
+is not the main goal of Delta Chat. In fact, the majority of new users 
+will not have any key prior to using Delta Chat.
 
-Removing the password from the private key will be different, depending on the
+We do, however, try to support private keys from as many sources as possible. 
+
+Removing the password from the private key will depend on the
 software you use to manage your PGP keys. With Enigmail, you can set your
 password to an empty value in the Key Management window. With GnuPG you can set
 it [via the command
 line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
-For other programs, you can find a solution online.
+For other programs, you should be able to find a solution online.
 
 
 ### Why don't you use pEp (pretty easy privacy)?
