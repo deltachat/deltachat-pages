@@ -472,7 +472,7 @@ shumë pajisje mund të mos punojë si duhet.
   shërbime funksionon vetëm brenda platformave përkatëse, pa qenë i përputhshëm
   me gjë tjetër jashtë tyre.
 - Delta Chat-i mund të kryejë fshehtëzim skaj-më-skaj përmes cilitdo shërbimi
-  email me çfarëdo [https://autocrypt.org/dev-status.html] (aplikacion email që mbulon Autocrypt-in).
+  email me çfarëdo [https://autocrypt.org/dev-status.html](aplikacion email që mbulon Autocrypt-in).
 
 
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?

@@ -108,6 +108,9 @@ if [ $1 == "pull" ]; then
 	pull_po_translations_from_tx
 	create_markdown_files
 	create_html_files
+	cd ..
+	./tools/check-translations.sh
+	cd tools
 elif [ $1 == "push--do-this-only-from-master" ]; then
 	create_po_sources
 	push_po_sources_to_tx

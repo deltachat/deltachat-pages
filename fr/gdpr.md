@@ -14,7 +14,7 @@ with GDPR requirements.
 
 - Met en œuvre l'exigence de **Vie privée par conception** du RGPD, par
 
- - **Confidentialité** : Chiffrement de bout en bout lorsque c'est possible, en implémentant [Autocrypt Niveau 1] (https://autocrypt.org).
+ - **Confidentialité** : Chiffrement de bout en bout lorsque c'est possible, en implémentant [Autocrypt Niveau 1](https://autocrypt.org).
 
  - **Minimisation des données** : Pas de téléchargement du contenu du carnet d'adresses.
 

@@ -459,7 +459,7 @@ Protonmail, Tutanota o Criptext. Quei messaggi non saranno criptati end-to-end
 però. La crittografia end-to-end offerta solo da questi provider è
 lavorata all'interno delle loro piattaforme e non compatibile con nessuno all'esterno.
 - Delta Chat può crittografare e2e tramite qualsiasi provider di posta elettronica con qualsiasi
-[App di posta elettronica abilitata per Autocrypt] (https://autocrypt.org/dev-status.html).
+[App di posta elettronica abilitata per Autocrypt](https://autocrypt.org/dev-status.html).
 
 
 ### Sono interessato ai dettagli tecnici. Posso avere ulteriori informazioni?
