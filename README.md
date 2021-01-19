@@ -68,7 +68,7 @@ with [Transifex](https://www.transifex.com/delta-chat/delta-chat-pages/).
 To **update existing translations from** the Transifex server, 
 see the scripts in the `tools` folder.
 
-### Before you run anything follow these initial setup steps:
+### Initial setup
 
 - make sure `translate-toolkit` and `transifex-client` are installed
 
@@ -79,23 +79,53 @@ tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
 ```
 for more info see the comments in `./tools/t-dance.sh`.
 
-### To **add a new language**, the followinging steps are required once:
+### Add a new language
 
 - create the directory `/<lang>`
 
-- add the language to `tlangs` in `/tools/t-dance.sh` 
-  and run `./t-dance.sh pull` from the `tools`-directory.
+- add the language to `tlangs` in `tools/t-dance.sh`
+  and run `./tools/t-dance.sh pull`.
 
 - check the language selection in `/_includes/footer-languages.html`.
 
-### To **add a new page**:
+### Update translations
+
+- run `./tools/t-dance.sh pull`
+
+### Add a new page
 
 - create the source as `en/<name>.md`
 
 - modify `tools/.tx/config` - add a section for the new page
   modify `tools/t-dance.sh` - add your page to `sfiles` variable
 
-- run `cd tools; ./t-dance push`
+- run `./tools/t-dance push--do-this-only-from-master`
+
+### Update _typos_ in sources
+
+Updating typos in the english sources
+**that shall not result in retranslations**
+is a bit tricky:
+
+The english source is used as the ID for the translations -
+fixing a typo will change the ID an
+will result in translations needed to be redone.
+
+Currently, this can be handled only manually:
+- fix the typo, grammar minor change
+- run `./tools/t-dance push--do-this-only-from-master`
+  and then `./tools/t-dance.sh pull`
+- use `git diff` to check if translations are missing,
+  if so, go to the string on Transifex,
+  the old translation is typically shown as a **suggestion**
+
+Of course, that can also be done by the translators,
+but it is good to have that in mind,
+and avoid unnecessary changes on the english sources.
+
+If a **retranslation is wanted**, of course,
+all these manual steps are not needed.
+Same for the blog that is not translated.
 
 
 Further Hints
