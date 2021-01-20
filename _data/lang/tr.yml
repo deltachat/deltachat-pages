@@ -1,0 +1,41 @@
+tr:
+  
+  meta:
+    description: Delta Chat - E-posta Tabanlı Anlık Ulak
+    keywords: "delta chat, e-posta iletileşme uygulaması, delta chat'i indir"
+    rss_news_title: Delta Chat Yenilikleri
+
+  menu:
+    home: Ana Sayfa
+    download: İndir
+    blog: Blog
+    contribute: Katkıda Bulun
+    help: SSS
+    forum: Forum
+
+  subscribe_to_feed: Beslememize abone olun
+
+  references: Referanslar
+  imprint: Künye
+  privacy: Gizlilik İlkesi
+  language: Dil
+
+  download:
+    recommendation: Sizin için önerilen
+    other: Diğer platformlar
+    source_code: Kaynak Kodu
+    install_via_packagemanager: Paket Yöneticisi Yoluyla Kur
+    outdated: güncel olmayan
+    dl_flathub: Flathub'dan indir
+    dl_microsoft: Microsoft Store'dan indir
+    dl_mac_appstore: Apple Mac App Store'dan indir
+    dl_appstore: Apple App Store'dan indir
+    beta_on: Beta
+    dl_fdroid: F-Droid'den indir
+    gplay: Google Play'den alın
+    dl_amazon:
+      small: Amazon Appstore
+      title: edinin
+    dl_apk_text:
+      before: Şu şekilde de indirebilirsiniz
+      after: (deneysel)

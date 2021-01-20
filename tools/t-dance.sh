@@ -21,7 +21,7 @@
 set -e
 
 sfiles=(blog contribute download gdpr help imprint index references user-voices verify-downloads gdpr-website)
-tlangs=(ca de es fr it nl pl pt ru sq uk)  # do not add `en` to this list
+tlangs=(ca de es fr gl id it nl pl pt ru sq tr uk zh_CN)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
@@ -30,12 +30,12 @@ pull_po_translations_from_tx() {
 	mkdir translations 
 	tx pull -a --mode=sourceastranslation  # -a = fetch all translationss, -s = fetches source
 	for tlang in ${tlangs[@]}; do
-	  echo "Converting ${tlang:0:2} ..."
+	  echo "Converting ${tlang} ..."
 	  for sfile in ${sfiles[@]}; do
-			pofile="../${tlang:0:2}/${sfile}.po"
+			pofile="../${tlang}/${sfile}.po"
 			cp "translations/delta-chat-pages.${sfile}po/${tlang}.po" $pofile
 		done
-		cp "translations/delta-chat-pages.yml/${tlang}.yml" "../_data/lang/${tlang:0:2}.yml"
+		cp "translations/delta-chat-pages.yml/${tlang}.yml" "../_data/lang/${tlang}.yml"
 	done
 }
 
@@ -67,10 +67,10 @@ create_markdown_files() {
 	echo "Creating markdown files from the translated po-files ..."
 	for sfile in ${sfiles[@]}; do
 		for tlang in ${tlangs[@]}; do
-			pofile="../${tlang:0:2}/${sfile}.po"
-			mdfile="../${tlang:0:2}/${sfile}.md"
+			pofile="../${tlang}/${sfile}.po"
+			mdfile="../${tlang}/${sfile}.md"
 			po2txt --progress=none --template="../en/${sfile}.md" $pofile $mdfile
-			python3 -m massedit -e "re.sub(r'lang: [a-z][a-z]', 'lang: ${tlang:0:2}', line)" -w $mdfile
+			python3 -m massedit -e "re.sub(r'lang: [a-z][a-z](_[A-Z][A-Z])?', 'lang: ${tlang}', line)" -w $mdfile
 			#sed -i "" "s/lang: [a-z][a-z]/lang: ${tlang:0:2}/" $mdfile # correct used layout - for some reasons, [a-z]{2,} does not work on sed-mac
 		done
 	done	
@@ -90,7 +90,7 @@ create_html_files() {
 
 reset_markdown_files() {
 	for tlang in ${tlangs[@]}; do
-		git checkout "../${tlang:0:2}/"
+		git checkout "../${tlang}/"
 	done
 }
 

@@ -1,0 +1,41 @@
+gl:
+  
+  meta:
+    description: Delta Chat - Mensaxería Baseada no Correo Electrónico
+    keywords: "delta chat, app de mensaxería por email, descarga delta chat"
+    rss_news_title: Novas de Delta Chat
+
+  menu:
+    home: Inicio
+    download: Descarga
+    blog: Blog
+    contribute: Contribuír
+    help: PMF
+    forum: Foro
+
+  subscribe_to_feed: Subscríbete ao RSS
+
+  references: Referencias
+  imprint: Legal
+  privacy: Política de Privacidade
+  language: Idioma
+
+  download:
+    recommendation: Recomendado para ti
+    other: Outras plataformas
+    source_code: Código Fonte
+    install_via_packagemanager: Instalar vía Xestor de Paquetes
+    outdated: caducado
+    dl_flathub: Descarga desde Flathub
+    dl_microsoft: Descarga desde Microsoft Store
+    dl_mac_appstore: Descarga desde Apple Mac AppStore
+    dl_appstore: Descarga na Apple AppStore
+    beta_on: Beta en
+    dl_fdroid: Para ti en F-Droid
+    gplay: Desde Google Play
+    dl_amazon:
+      small: Consíguea
+      title: Amazon Appstore
+    dl_apk_text:
+      before: Tamén descargable como
+      after: (experimental)
