@@ -88,6 +88,10 @@ for more info see the comments in `./tools/t-dance.sh`.
 
 - check the language selection in `/_includes/footer-languages.html`.
 
+- the following step is outside the scope of this repo:
+  add a server-redirect, template is at
+  <https://github.com/deltachat/sysadmin/blob/master/delta.chat/delta.chat>
+
 ### Update translations
 
 - run `./tools/t-dance.sh pull`
