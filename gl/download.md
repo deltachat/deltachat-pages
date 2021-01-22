@@ -1,5 +1,5 @@
 ---
-title: Obtén Delta Chat
+title: Instalar Delta Chat
 lang: gl
 downloads: true
 ---

@@ -39,4 +39,4 @@ Jika Anda ingin mensupport DeltaChat dengan uang:
 - Kirim bitcoins ke [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Kami membutuhkan **perangkat** untuk tujuan pengujian. Apakah Anda memiliki Smartphone Android atau iPhone yang tidak digunakan?
-[We](imprint) akan senang mengambilnya!
+[Kami](imprint) akan senang mengambilnya!

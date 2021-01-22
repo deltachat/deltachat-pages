@@ -15,17 +15,17 @@ Versi desktop tidak memerlukan Delta Chat untuk diinstal di ponsel.
 
 Persyaratan minimal:
 Android 4.1 Jelly Bean
-or iOS 11, iPhone 5s or iPad 5/Air/Mini
-or Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 or Debian 8
-or compatible systems.
+atau iOS 11, iPhone 5s atau iPad 5/Air/Mini
+atau Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 atau Debian 8
+atau compatible systems.
 
-## Links
+## Tautan
 
 * [Database Penyedia](https://providers.delta.chat/): Apakah Penyedia saya bekerja dengan Delta Chat?
 * [FAQ multiclient](help#multiclient): Cara menyinkronkan Desktop dengan aplikasi Delta Chat lainnya.
 * [Verifikasi Unduhan](verify-downloads): Verifikasi integritas data unduhan
 
-## Preview Builds
+## Pratinjau Build
 
 * [Pratinjau Desktop](https://download.delta.chat/desktop/preview/): Perubahan yang tertunda untuk klien desktop
 * [Android Nightly](https://download.delta.chat/android/nightly/): Dibangun semalam dengan inti terbaru
