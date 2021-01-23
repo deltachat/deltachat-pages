@@ -5,13 +5,12 @@ lang: id
 
 # Saluran dan repositori
 
--[Forum dukungan Delta Chat](https://support.delta.chat) untuk yang lebih luas
+- [Forum dukungan Delta Chat](https://support.delta.chat) untuk yang lebih luas
 diskusi fitur dan mendapatkan dukungan.
 
 - [#deltachat on freenode]({% include webirc-url %}) untuk komunikasi sehari-hari.
 
-- [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+- [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
 untuk diskusi dan berita komunitas.
 
 - [Delta Chat repositories](https://github.com/deltachat/) dimana kamu bisa
@@ -19,8 +18,8 @@ untuk diskusi dan berita komunitas.
 
 # Terjemahan dan Laporan Bug
 
--[Terjemahan di Transifex](https://www.transifex.com/delta-chat/public/)
--[Delta Chat Masalah di Android](https://github.com/deltachat/deltachat-android/issues)
+- [Terjemahan di Transifex](https://www.transifex.com/delta-chat/public/)
+- [Delta Chat Masalah di Android](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Masalah di Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat Masalah di iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Masalah Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
