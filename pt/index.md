@@ -7,8 +7,8 @@ lang: pt
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
-Delta Chat does not need your phone number. Check out our [privacy statement](gdpr).
+**Delta Chat é como Telegram ou WhatsApp mas sem o rastreamento ou controle central.**
+Delta Chat não precisa do seu número de telefone. Confira nossa [declaração de privacidade](gdpr).
 
 **O Delta Chat não tem um servidor próprio** pois usa o mais diverso e massivo sistema aberto 
 de mensagens: o sistema de e-mails já existente.
@@ -16,7 +16,7 @@ de mensagens: o sistema de e-mails já existente.
 **Converse com as pessoas que você saiba o e-mail, elas não precisarão instalar o DeltaChat!!** 
 Só é preciso uma conta normal de e-mail.
 
-Check out [user stories and voices](user-voices) 📣
+Checa [as histórias e vozes de usuários](user-voices) 📣
 
 
 # Screenshots do Android, Desktop e iOS 
@@ -30,9 +30,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
 
-Please check [get.delta.chat](https://get.delta.chat) and the [latest blog posts](blog)
-for information on current releases and events. 
+Por favor verifique [get.delta.chat](https://get.delta.chat) e [os últimos posts no blog](blog)
+para informações sobre versões atuais e eventos.
 
-Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
-see, change, and share it at will, with everyone.
+Delta Chat é [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
+e [Software Livre](https://en.wikipedia.org/wiki/Free_software). Você pode usar,
+ver, mudar, e compartilhar à vontade, com todos.

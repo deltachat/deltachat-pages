@@ -88,7 +88,7 @@ it's fully decentralized, heavily encrypted and you can reach any contact"_
 
 _"People start caring about decentralization. But it seems that for a lot of people setting servers and all to use Matrix or XMPP is too complicated while you can use Delta with just an e-mail address"_
 
-**Russian user** LGBT+ activist, from an online discussion over Telegram
+**Pengguna Rusia** dari diskusi online melalui Telegram
 
 ### Good old email will do just fine
 
@@ -126,4 +126,4 @@ mengganggu semua klien email "_
 **gozala** di 2020 lewat [Twitter](https://twitter.com/gozala/status/1281346020664729600)
 
 
-Also check out [press references](references).
+Lihat juga [referensi pers](Referensi).

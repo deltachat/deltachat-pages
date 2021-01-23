@@ -1,9 +1,9 @@
 ---
-title: References
+title: Referensi
 lang: id
 ---
 
-# References
+# Referensi
 
 This list is far from being complete - did we miss something? Please
 [let us know](imprint) or just do a [pull
@@ -194,4 +194,4 @@ _"Delta.Chat: Sicher und dezentral – geht das?"_
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out [user stories and voices](user-voices).
+Lihat juga [cerita dan suara pengguna](user-voices).

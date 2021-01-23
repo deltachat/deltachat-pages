@@ -9,7 +9,7 @@ header: Pertanyaan yang Sering Diajukan
 ## Apa itu Delta Chat?
 
 Delta Chat adalah aplikasi obrolan baru yang mengirim pesan melalui email, diekripsi jika memungkinkan, dengan Autocrypt
-**Anda tidak harus mendaftar di mana saja, cukup gunakan akun email Anda yang ada dengan Delta Chat **
+**Anda tidak harus mendaftar di mana saja, cukup gunakan akun email Anda yang ada dengan Delta Chat.**
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
@@ -46,7 +46,7 @@ Delta Chat otomatis menampilkan:
 - Pesan dari kontak **dihubungi oleh Anda**
 - **Balasan** untuk pesan yang dikirim oleh Anda
 
-Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
+Pesan lain tidak muncul secara otomatis, dan dapat ditemukan di **Permintaan kontak**. Jika diinginkan obrolan bisa dimulai dari sana.
 
 
 ### Bagaimana dengan spam?
@@ -92,28 +92,28 @@ If you use an E-Mail provider with OAuth2 support like gmail.com or yandex.ru,
 there is no need to store your password on the device. In this case, only an
 access token is used.
 
-As Delta Chat is Open Source, you can check the [Source
+Karena Delta Chat adalah Open Source, Anda dapat memeriksa file [Source
 Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
-if you want to verify that your credentials are handled securely. We are happy
-about feedback which makes the app more secure for all of our users.
+jika Anda ingin memverifikasi bahwa kredensial Anda ditangani dengan aman. Kami bahagia
+tentang umpan balik yang membuat aplikasi lebih aman untuk semua pengguna kami.
 
 
-### Which permissions does Delta Chat need?
+### Izin apa yang dibutuhkan Delta Chat?
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+Tergantung operasi sistem yang digunakan,
+Anda mungkin diminta untuk memberikan izin ke aplikasi.
+Inilah yang dilakukan Delta Chat dengan izin ini:
 
-- Kamera * (dapat dianulir) *
+- Kamera *(dapat dianulir)*
  - ambil gambar dan video: untuk mengirim Foto
-- Kontak * (dapat dianulir) *
+- Kontak *(dapat dianulir)*
  - baca kontak Anda: untuk menemukan kontak untuk diajak ngobrol
-- Lokasi * (dapat dianulir) *
+- Lokasi *(dapat dianulir)*
  - Akses perkiraan lokasi (sumber lokasi jaringan): untuk fitur streaming lokasi
  - Akses lokasi yang tepat (GPS dan sumber lokasi jaringan): untuk fitur streaming lokasi
-- Mikrofon * (dapat dianulir) *
+- Mikrofon *(dapat dianulir)*
  - rekam audio: untuk pesan audio
-- Penyimpanan * (dapat dianulir) *
+- Penyimpanan *(dapat dianulir)*
  - memodifikasi atau menghapus isi kartu SD Anda: untuk mengunduh lampiran pesan
  - baca isi kartu SD Anda: untuk berbagi file dengan kontak Anda
 - Kemampuan aplikasi lainnya
@@ -200,7 +200,7 @@ This is what Delta Chat does with these permissions:
 
 ### What do I have to do to activate the end-to-end-encryption?
 
-- Nothing.
+- Tidak ada.
 
 - Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
   e-mail apps) share the keys required for end-to-end-encryption automatically 

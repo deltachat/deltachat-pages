@@ -16,10 +16,10 @@ que existe: a rede de servidores de email.
 **Conversa con calquera se sabes o seu enderezo de email, non precisas que instalen DeltaChat!**
 Todo o que precisas é unha conta de email estándar.
 
-Check out [user stories and voices](user-voices) 📣
+Mira estas [historias e experiencias](user-voices) das usuarias 📣
 
 
-# Capturas de pantall Android, Escritorio e iOS
+# Capturas de pantalla Android, Escritorio e iOS
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 

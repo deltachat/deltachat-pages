@@ -42,8 +42,8 @@ tentang pengumpulan data buku alamat, artikel 13, 14 GDPR.
 direduksi menjadi pengidentifikasi penyedia email dan merekam kegiatan mereka, Pasal 30 (2) GDPR.
 
 - Risiko yang tersisa untuk hak dan kebebasan orang perseorangan
-   umumnya juga terbatas pada data komunikasi yang diproses
-   oleh pengontrol dan penyedia email.
+umumnya juga terbatas pada data komunikasi yang diproses
+oleh pengontrol dan penyedia email.
 
 
 
