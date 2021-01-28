@@ -10,11 +10,11 @@ Non è certo una lista completa - abbiamo dimenticato qualcosa? Per favore
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### jlelse's Blog: Email is the messenger you should migrate to
+### Blog di jlelse: Email è il messenger a cui dovresti migrare
 
-_"I have to say it’s pretty decent now [...]
-But the most important thing: Delta Chat allows you to communicate even with people who don’t use Delta Chat at all [...]
-I would argue that even beats Matrix or XMPP."_
+_"Devo dire che è abbastanza decente ora [...]
+Ma la cosa più importante: Delta Chat ti consente di comunicare anche con persone che non utilizzano affatto Delta Chat [...]
+Direi che batte anche Matrix o XMPP. "_
 
 2021-01-14, <https://jlelse.blog/posts/email-messenger-delta-chat>
 
