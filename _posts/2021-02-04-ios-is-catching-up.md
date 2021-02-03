@@ -90,11 +90,10 @@ So, existing devices can be continued for everyone's benefit
 **As always, you'll find the new iOS version in Apple's
 [App Store](https://apps.apple.com/us/app/delta-chat/id1459523234).**
 
-You are interesting in testing new features?
+Are you maybe interested in testing new features?
 Maybe even happy to [report bugs](contribute#translations-and-bug-reports)?
 Check out for new beta releases, in Apple's 
 [Testflight](https://testflight.apple.com/join/uEMc1NxS).
 
 Finally, of course, if you do not use an Apple device:
 Delta Chat is available for lots of [other platforms](download).
-
