@@ -72,8 +72,7 @@ they just _look, feel and work better_ than platform-independent compromises.
 depending how often you use Delta Chat
 and depending on how many other apps you have installed,
 iOS does not allow us to check for new messages as we would like to do.
-This is a known issue,
-however, we have some ideas how that could be targeted - stay tuned.
+This is a known issue and there are ongoing efforts to address the issue -- stay tuned :)
 
 Finally, it is worth mentioning, that, despite all these new features
 the **minimal requirements have not changed:**
