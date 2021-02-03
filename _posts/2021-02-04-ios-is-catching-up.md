@@ -1,5 +1,5 @@
 ---
-title: iOS is catching up!
+title: Delta Chat iOS is catching up!
 author: bjoern, paula (screenshots)
 image: ../assets/blog/2021-02-04-context-menu-small.jpg
 ---
@@ -97,6 +97,5 @@ Check out for new beta releases, in Apple's
 
 Finally, of course, if you do not use an Apple device:
 Delta Chat is available for lots of [other platforms](download).
-
 
 
