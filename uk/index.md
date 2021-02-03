@@ -33,6 +33,4 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 Будь ласка, зверніться до [сторінки завантажень](https://get.delta.chat) та [останніх записів в блозі](blog)
 за інформацією про поточні релізи та події. 
 
-Delta Chat це [відкрите](https://en.wikipedia.org/wiki/Open-source_software)
-та [вільне](https://en.wikipedia.org/wiki/Free_software) програмне забезпечення.  Ви можете,
-використовувати, вивчати та ділитися ним як завгодно, будь з ким.
+Delta Chat це [відкрите](https://en.wikipedia.org/wiki/Open-source_software) та [вільне](https://en.wikipedia.org/wiki/Free_software) програмне забезпечення. Ви можете використовувати, вивчати, змінювати та ділитися ним як завгодно, будь з ким.
