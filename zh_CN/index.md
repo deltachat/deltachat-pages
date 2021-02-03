@@ -16,7 +16,7 @@ lang: zh_CN
 查看[用户故事和声音](user-voices)📣
 
 
-# 屏幕截图 Android，桌面和 iOS 
+# Android、iOS 和桌面版的屏幕截图
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 

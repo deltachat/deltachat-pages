@@ -10,6 +10,16 @@ Diese Liste ist bei weitem nicht vollständig - haben wir etwas verpasst? Bitte
 Request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Zeit Online: Tschüss, WhatsApp!
+
+Zeit Online stellt fünf Alternativen zu WhatsApp vor, darunter Delta Chat:
+_"Wie eine E-Mail-App braucht Delta.Chat die Serverinformationen der genutzten E-Mail-Adresse. [...]
+Die anschließende Bedienung der Chatoberfläche ist intuitiv."_
+
+2021-01-16, Artikel ist hinter einer Paywall,
+<https://www.zeit.de/digital/datenschutz/2021-01/messenger-app-whatsapp-signal-telegram-threema-ginlo-vergleich>
+
+
 ### jlelse's Blog: Email is the messenger you should migrate to
 
 _"I have to say it’s pretty decent now [...]

@@ -10,11 +10,21 @@ lang: ru
 [запрос](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### jlelse's Blog: Email is the messenger you should migrate to
+### Zeit Online (Large German newspaper): Good bye, WhatsApp!
 
-_"I have to say it’s pretty decent now [...]
-But the most important thing: Delta Chat allows you to communicate even with people who don’t use Delta Chat at all [...]
-I would argue that even beats Matrix or XMPP."_
+Zeit Online shows 5 alternatives to WhatsApp, including Delta Chat:
+_"Like an e-mail app, Delta.Chat needs the server information of the e-mail address used [...]
+The subsequent operation of the chat interface is intuitive."_
+
+2021-01-16, Article is behind a paywall,
+<https://www.zeit.de/digital/datenschutz/2021-01/messenger-app-whatsapp-signal-telegram-threema-ginlo-vergleich>
+
+
+### Блог jlelse: Электронная почта - это мессенджер, на который вам следует перейти 
+
+_ "Я должен сказать, что сейчас это довольно прилично [...]
+Но самое главное: Delta Chat позволяет общаться даже с людьми, которые вообще не используют Delta Chat [...]
+Я бы сказал, что это даже лучше, чем Matrix или XMPP. "_ 
 
 2021-01-14, <https://jlelse.blog/posts/email-messenger-delta-chat>
 
