@@ -60,7 +60,7 @@ they just _look, feel and work better_ than platform-independent compromises.
 ### What else?
 
 - We did some effort to **improve accessibility** -
-  thanks for blind and other people helping us to target some issues.
+  thanks to our community helping us to target some issues.
   Please let us know, if you encounter more issues.
   
 - Before 1.16, but never mentioned in an dedicated iOS blog post,
