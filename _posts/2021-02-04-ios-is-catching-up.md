@@ -52,11 +52,6 @@ they just _look, feel and work better_ than platform-independent compromises.
 
 Moreover you can have a closer look at a draft by tapping on it. A large preview opens which is especially useful for documents to double check the file you are about to send. 
 The preview allows even basic editing, like **drawing on images** or **cutting videos**. To enable editing you find a **edit button** in the upper right corner.
-- Also, before sending an image,
-  you can even **draw on it and do some basic editing:**
-  Tap the image selected to send
-  and then the **edit icon** in the upper right corner.
-  
 ![Screenshots of iOS image sending options](../assets/blog/2021-02-04-edit-image.png)
 
 ### What else?
