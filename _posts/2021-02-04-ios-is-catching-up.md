@@ -48,10 +48,18 @@ they just _look, feel and work better_ than platform-independent compromises.
   the image will be shown above the input field where you can add some text
   and finally tap the send-button.
 
-- In the same way, you can **add some description to documents or files**
+- In the same way, you can add some description
+  to **videos, gif, documents** or **files**
 
-Moreover you can have a closer look at a draft by tapping on it. A large preview opens which is especially useful for documents to double check the file you are about to send. 
-The preview allows even basic editing, like **drawing on images** or **cutting videos**. To enable editing you find a **edit button** in the upper right corner.
+- Moreover, you can have a closer look at a draft by tapping on it.
+  A **large preview** opens which is especially useful for documents
+  to double check the file you are about to send.
+
+- The preview allows even basic editing,
+  like **drawing on images** or **cutting videos**.
+  To enable editing, use the **edit button**
+  in the upper right corner of the preview.
+
 ![Screenshots of iOS image sending options](../assets/blog/2021-02-04-edit-image.png)
 
 ### What else?
