@@ -5,10 +5,11 @@ image: ../assets/blog/2021-02-04-context-menu-small.jpg
 ---
 
 _Delta Chat iOS_ is available
-[since about a year now](2020-01-09-iOS-appstore-release) 🎉 —  
+[since about a year now](2020-01-09-iOS-appstore-release) 🎉 —
 while being nicely usable and working,
 compared to the more mature Android and Desktop versions,
 some UI-features were just missing from our iOS app.
+
 Note that all platforms share the same,
 stable [Rust-core](https://github.com/deltachat/deltachat-core-rust) so you can expect the same core functionality and stability that our longer evolving Android and Desktop apps enjoy.
 
