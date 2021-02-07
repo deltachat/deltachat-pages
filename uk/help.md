@@ -164,18 +164,12 @@ Delta Chat автоматично показує:
 
 - Нічого.
 
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
+- Додатки  Delta Chat (та інші [Autocrypt](https://autocrypt.org)-сумісні програми для електронної пошти) діляться ключами необхідними для наскрізного шифрування автоматично, як тільки надіслано перше повідомлення. Після цього, усі наступні повідомлення автоматично наскрізно шифруються. Якщо один із учасників чату використовує додаток несумісний з Autocrypt, наступні повідомлення не шифруються доки Autocrypt-сумісний додаток не стане знову доступним.
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
+- Якщо ж ви бажаєте уникнути наскрізного шифрування повідомлень за замовчуванням, використайте відповідне налаштування Autocrypt  у "Налаштуваннях" або "Додаткових налаштуваннях".
 
 
-### If end-to-end-encryption is not available, is the connection not encrypted at all?
+### Якщо назкрізне шифрування недоступне, чи буде з'єднання повністю незашифрованим?
 
 - With most mail servers, Delta Chat establishes _transport encryption_
   ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).

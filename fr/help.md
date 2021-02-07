@@ -21,16 +21,16 @@ Avec Delta Chat, vous pouvez écrire à toutes les adresses courriels existantes
 ### Quels sont les avantages de Delta Chat par rapport aux autres messageries ?
 
  Indépendant de toute entreprise ou de service. _Vous possédez vos propres données_.
-- Vos données ne sont pas sauvegardées sur un serveur central; de cette façon, contrairement à la plupart des autres messageries, Delta Chat protège même vos métadonnées (qui écrit à qui ?)
-- Vous ne distribuez pas votre carnet d'adresses à qui que ce soit.-
- _Rapide_ par l'utilisation de Push-IMAP- 
-_La plus grande base d'utilisateurs_ - Même les destinataires n'utilisant _pas_ Delta Chat peuvent être contactés-
- _Compatible_ - pas seulement avec lui-même-
-Interface utilisateur _élegante_ et _simple_- 
-_Système distribué_
+- Vos données ne sont pas sauvegardées sur un serveur central, à moins que vous utilisez tous le même fournisseur de mail.
+- Vous ne distribuez pas votre carnet d'adresses à qui que ce soit.
+- _Rapide_ par l'utilisation de Push-IMAP-.
+- _La plus grande base d'utilisateurs_ : Même les destinataires n'utilisant _pas_ Delta Chat peuvent être contactés.
+- _Compatible_ - pas seulement avec lui-même.
+- Interface utilisateur _élegante_ et _simple_. 
+- _Système distribué_.
 - _Pas de Spam_ - Seuls les messages des utilisateurs connus sont affichés par défaut.
-_Fiable_ - et _sûr_ pour un usage professionnel- 
-Code source entièrement _ouvert_ et basé sur les _standards_ 
+- _Fiable_ - et _sûr_ pour un usage professionnel.
+ - Code source entièrement _ouvert_ et basé sur des _normes_ internationales.
 
 
 ### Quels messages apparaissent dans Delta Chat
@@ -41,7 +41,7 @@ Delta Chat affiche automatiquement :
 - Messages de vos contacts **contactés par vous**
 - Réponses** aux messages envoyés par vous
 
-Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
+Les autres messages n'apparaissent pas automatiquement, et se trouvent dans les **demandes de contact**. Si vous le souhaitez, une discussion peut être lancée depuis là.
 
 
 ### A propos des spams
@@ -58,13 +58,13 @@ Oui. Comme le texte brut, toutes les pièces jointes aux e-mails sont affichées
 
 ### Qui peut voir ma photo de profile ?
 
-- Dans les paramètres vous pouvez joutez une photo de profile. Si vous écrivez à vos contacts ou que vous les ajoutez via le QR code, il la verront automatiquement comme votre photo de profile.
+Dans les paramètres vous pouvez ajouter une photo de profil. Si vous écrivez à vos contacts ou que vous les ajoutez via le QR code, ils la verront automatiquement comme votre photo de profil.
 
 - Les contacts qui n'utilisent pas Delta Chat la retrouveront en pièce jointe.
 
-- Pour des questions de confidentialité, personne ne peut voir votre photo de profile avant de vous avoir écrit.
+- Pour des questions de confidentialité, personne ne peut voir votre photo de profil avant de vous avoir écrit.
 
-- Votre photo de profile n'est pas envoyé avec chaque message, mais assez régulièrement afin que vos contacts aient une photo à jour même s'ils ajoutent un nouvel appareil.
+- Votre photo de profil n'est pas envoyé avec chaque message, mais assez régulièrement afin que vos contacts aient une photo à jour même s'ils ajoutent un nouvel appareil.
 
 
 ### Est-ce que Delta Chat support les e-mails en HTML
@@ -74,9 +74,9 @@ Oui. Comme le texte brut, toutes les pièces jointes aux e-mails sont affichées
 
 ### Pourquoi dois-je entrer le mot de passe de mon compte E-mail dans Delta Chat ? Est-ce sécurisé ?
 
-Comme pour les autres clients mail, Thunderbird, K9-Mail, Outlook, etc, 
+Comme pour les autres clients mail, Thunderbird, FairEmail, K9-Mail, Outlook, etc, 
 celui-ci a besoin des identifiants / mots de passe pour recevoir et envoyer des E-mails. 
-Bien sûr le mot de passe n'est uniquement stocké sur votre appareil. Le mot de passe n'est transmit qu'à votre fournisseur d'E-mail (lors de la connexion), qui a de toute manière accès à vos E-mails non chiffrés.
+Bien sûr le mot de passe est uniquement stocké sur votre appareil. Et il est utilisé uniquement pour vous authentifier auprès de votre fournisseur d'E-mail, qui a, rappelons-le, accès à vos E-mails non chiffrés.
 
 Si vous utilisez un fournisseur d'E-mail supportant OAuth2 comme gmail.com et yandex.ru
 il n'est pas nécessaire de stocker votre mot de passe sur votre appareil. Dans ce cas, seulement un jeton d'accès est utilisé.
@@ -84,11 +84,11 @@ il n'est pas nécessaire de stocker votre mot de passe sur votre appareil. Dans 
 Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) pour vérifier que vos identifiants / mots de passe sont utilisés de façon sécurisé. Nous sommes avares de retours pour renforcer la sécurité de l'application.
 
 
-### Which permissions does Delta Chat need?
+### De quelles autorisations Delta Chat a-t-il besoin?
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+Selon le système d'exploitation utilisé,
+il vous sera peut-être demandé d'accorder des autorisations à l'application.
+Voici ce que fait Delta Chat avec ces autorisations:
 
 - Appareil photo * (peut être refusé) *
   - prendre des photos et des vidéos: pour envoyer des photos

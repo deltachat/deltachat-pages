@@ -10,11 +10,11 @@ lang: ru
 [запрос](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Zeit Online (Large German newspaper): Good bye, WhatsApp!
+### Zeit Online (Large German newspaper): Пока, WhatsApp!
 
-Zeit Online shows 5 alternatives to WhatsApp, including Delta Chat:
-_"Like an e-mail app, Delta.Chat needs the server information of the e-mail address used [...]
-The subsequent operation of the chat interface is intuitive."_
+Zeit Online показывает 5 альтернатив WhatsApp, включая Delta Chat:
+"Как приложение для электронной почты, Дельта.Чат нуждается в информации сервера об используемом адресе электронной почты [...]
+Последующая работа интерфейса чата интуитивно понятна."_
 
 2021-01-16, Article is behind a paywall,
 <https://www.zeit.de/digital/datenschutz/2021-01/messenger-app-whatsapp-signal-telegram-threema-ginlo-vergleich>
