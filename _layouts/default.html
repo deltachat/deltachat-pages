@@ -42,7 +42,7 @@
 <p class="blogdate">{{ page.date | date: "%B %d, %Y" }} {% if page.author %}by {{ page.author }}{% endif %}</p>
 {% endif %}
 
-{% if page.header != blank %}
+{% if page.header != nil and page.header != "" %}
     <h1>{{page.header}}</h1>
 {% endif %}
 
