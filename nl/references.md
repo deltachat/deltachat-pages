@@ -11,13 +11,13 @@ Hebben we iets gemist?
 of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Zeit Online (Large German newspaper): Good bye, WhatsApp!
+### Zeit Online (groot, Duits nieuwsblad): "Vaarwel, WhatsApp!"
 
-Zeit Online shows 5 alternatives to WhatsApp, including Delta Chat:
-_"Like an e-mail app, Delta.Chat needs the server information of the e-mail address used [...]
-The subsequent operation of the chat interface is intuitive."_
+Zeit Online toont 5 alternatieven voor WhatsApp, inclusief Delta Chat:
+_"Net zoals een e-mailapp heeft Delta.Chat de serverinformatie van het gebruikte e-mailadres nodig [...]
+Het gebruik van de app en de manier waarop gesprekken worden gevoerd is intuïtief."_
 
-2021-01-16, Article is behind a paywall,
+2021-01-16 (betaald artikel)
 <https://www.zeit.de/digital/datenschutz/2021-01/messenger-app-whatsapp-signal-telegram-threema-ginlo-vergleich>
 
 

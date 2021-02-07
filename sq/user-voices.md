@@ -32,7 +32,7 @@ _“E di që jam i vonuar me gjëra të tjera, por delta-chat duket vërtet i q�
 
 _“Qeshë i lumtur që mund ta merrja Delta Chat-in nga sajti, jo thjesht përmes Google Play, ngaqë ky qe i bllokuar në Bjellorusi. Marrja e apk-së qe pak e ngadaltë, por pasi e mora aplikacionin, funksionoi për bukuri. Mundëm të shkëmbejmë foto, madje dhe video, të fshehtëzuara”_ 
 
-**Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
+**Përdorues bjellorus** gjatë protestash në gusht 2020, përmes email-i për delta@merlinux.eu
 
 ### Sistemi i njoftimeve të shoqërisë u migrua
 
@@ -43,7 +43,7 @@ të përmirësohet fshehtësia në korporatë,
 kështu që kamerat tona dërgojnë sinjalizime
 pikasjesh ndërhyrjeje te një fjalosje grupi Delta Chat.”_
 
-**Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/6)
+**Përdorues i hershëm**, që prej 2018-s, nga [forumi i asistencës](https://support.delta.chat/t/clear-chat-function/163/6)
 
 
 ### Email-i punon përherë
@@ -56,7 +56,7 @@ reklamë për alternativa, por tregu është shumë i copëzuar.
 Delta është ZGJIDHJA për këdo që lejon të paktën
 një alternativë - email-i funksionon përherë! :)”_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Përdorues nga Gjermania** më 2019-n, përmes email-i te delta@merlinux.eu
 
 
 ### E kam pritur për një kohë të gjatë
@@ -66,7 +66,7 @@ për një aplikacion fjalosjeje të fshehtëzuar skaj-më-skaj
 që ju jep një alternativë të njëmendtë ndaj silosesh
 të ndryshëm të llojit të WhatsApp-it, Signal-it, Telegram-it, etj.”_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Përdorues nga Gjermania** më 2019-n, përmes email-i te delta@merlinux.eu
 
 
 ### Shkëmbim mesazhesh me Kubën
@@ -91,11 +91,11 @@ i fshehtëzuar dhe mund të mbërrini te çfarëdo kontakti”_
 
 **Gaël Duval**, Themelues i Mandrake Linux-it, përmes [Twitter](https://twitter.com/gael_duval/status/1122906779002777600)
 
-### Decentralized but easy for users
+### I decentralizuar, por i kollajtë për përdoruesit
 
-_"People start caring about decentralization. But it seems that for a lot of people setting servers and all to use Matrix or XMPP is too complicated while you can use Delta with just an e-mail address"_
+_“Njerëzit fillojnë e kujdesen për decentralizim. Por duket se për mjaft vetë, ujdisja e shërbyesve dhe gjithçka që duhet për të përdorur Matrix ose XMPP është shumë e ndërlikuar, ndërkohë që mund të përdorni Delta-n, thjesht me një adresë email”_
 
-**Russian user** LGBT+ activist, from an online discussion over Telegram
+**Përdorues rus** veprimtar LGBT+, nga një diskutim në internet përmes Telegram-i
 
 ### Email-i i dikurshëm i mbarë do t’ju mbarojë punë shkëlqyer
 

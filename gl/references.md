@@ -1,16 +1,16 @@
 ---
-title: References
+title: Referencias
 lang: gl
 ---
 
-# References
+# Referencias
 
-This list is far from being complete - did we miss something? Please
-[let us know](imprint) or just do a [pull
-request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Esta lista non está completa - esquecemos algunha referencia?
+[Contacta con nós](imprint) ou fai un
+[pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Zeit Online (Large German newspaper): Good bye, WhatsApp!
+### Zeit Online (Importante xornal alemán): Adeus WhatsApp!
 
 Zeit Online shows 5 alternatives to WhatsApp, including Delta Chat:
 _"Like an e-mail app, Delta.Chat needs the server information of the e-mail address used [...]
@@ -20,7 +20,7 @@ The subsequent operation of the chat interface is intuitive."_
 <https://www.zeit.de/digital/datenschutz/2021-01/messenger-app-whatsapp-signal-telegram-threema-ginlo-vergleich>
 
 
-### jlelse's Blog: Email is the messenger you should migrate to
+### jlelse's Blog: Email é a mensaxería á que deberías migrar
 
 _"I have to say it’s pretty decent now [...]
 But the most important thing: Delta Chat allows you to communicate even with people who don’t use Delta Chat at all [...]
@@ -29,14 +29,14 @@ I would argue that even beats Matrix or XMPP."_
 2021-01-14, <https://jlelse.blog/posts/email-messenger-delta-chat>
 
 
-### Vodafone (German telecommunications provider): Delta Chat: So funktioniert der Messenger-Konkurrent von WhatsApp
+### Vodafone (ISP alemán): Delta Chat: So funktioniert der Messenger-Konkurrent von WhatsApp
 
 _"Deine Nachrichten sind auf keinem (Dienst-)Server gespeichert, es gibt keine zentrale Steuerung und Du kannst nicht verfolgt werden."_
 
 2020-05-06, <https://www.vodafone.de/featured/apps/delta-chat-app-funktionen-e-mail-test/#/>
 
 
-### Tuxicoman (French Blog): Deltachat
+### Tuxicoman (Blog francés): Deltachat
 
 _"L’adresse de vos destinataires est simplement leur email que vous avez déjà sûrement."_
 
@@ -50,9 +50,9 @@ _"Wenn eure Gruppe oder Stadt-Szene einen Messenger sucht, der mit vielen Leuten
 2020-03-24, <https://hambacherforst.org/blog/2020/03/24/nuetzliche-dezentrale-online-tools-fuer-organisierung/>
 
 
-### DesdeLinux (Spanish technology blog): Delta Chat: La aplicación de mensajería libre y abierta basada en correos
+### DesdeLinux (blog sobre tecnoloxía en español): Delta Chat: La aplicación de mensajería libre y abierta basada en correos
 
-_"El cifrado de extremo a extremo no solo funciona entre las aplicaciones de Delta Chat, sino también con otras aplicaciones de correo electrónico si son compatibles con el estándar de cifrado Autocrypt Nivel 1."_
+_"O cifrado de extremo a extremo non só funciona entre as apps Delta Chat, se non que tamén fai con outras aplicacións de correo se son compatibles co estándar de cifrado Autocrypt Nivel 1."_
 
 2020-02-26, <https://blog.desdelinux.net/delta-chat-aplicacion-mensajeria-libre-abierta-correo-electronico/>
 
