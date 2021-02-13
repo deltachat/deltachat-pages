@@ -16,7 +16,7 @@ _"With everyone deleting WhatsApp and switching to Telegram or Signal,
 maybe there’s something better that you haven’t heard of yet.
 Here are 10 ways Delta Chat is better than the others [...]"_
 
-2021-02-13 <https://pocketnow.com/10-ways-delta-chat-is-better-than-whatsapp-signal-and-telegram>
+2021-02-13, <https://pocketnow.com/10-ways-delta-chat-is-better-than-whatsapp-signal-and-telegram>
 
 
 ### Zeit Online (Large German newspaper): Good bye, WhatsApp!
