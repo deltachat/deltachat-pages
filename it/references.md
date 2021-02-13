@@ -10,6 +10,15 @@ Non è certo una lista completa - abbiamo dimenticato qualcosa? Per favore
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Pocketnow: 10 Ways Delta Chat is Better than WhatsApp, Signal, and Telegram
+
+_"With everyone deleting WhatsApp and switching to Telegram or Signal,
+maybe there’s something better that you haven’t heard of yet.
+Here are 10 ways Delta Chat is better than the others [...]"_
+
+2021-02-13, <https://pocketnow.com/10-ways-delta-chat-is-better-than-whatsapp-signal-and-telegram>
+
+
 ### Zeit Online (grande quotidiano tedesco): Arrivederci, WhatsApp!
 
 Zeit Online mostra 5 alternative a WhatsApp, inclusa Delta Chat:

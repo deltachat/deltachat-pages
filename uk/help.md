@@ -171,47 +171,33 @@ Delta Chat автоматично показує:
 
 ### Якщо назкрізне шифрування недоступне, чи буде з'єднання повністю незашифрованим?
 
-- With most mail servers, Delta Chat establishes _transport encryption_
-  ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
-  This only secures the connection between your device and your e-mail
-  server. Whereas e2e-encryption provides safety between 
-  your device and a friend's device. 
+- З більшістю серверів електронної пошти, Delta Chat встановлює _транспортне шифрування_ ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)). Це захищає тільки з'єднання між вашим пристроєм та вашим сервером електронної пошти. Тоді як наскрізне шифрування забезпечує безпеку між вашим пристроєм та пристроєм вашого друга.
 
 
-### How can I verify cryptographic status with a sender? 
+### Як я можу перевірити криптографічний статус відправника?
 
-If you are within immediate distance of the chat partner:
+Якщо ви знаходитесь безпосередньо поруч із співрозмовником з чату:
 
-- Select **QR Invite code** on one device and then **Scan QR code**
-  on the other one and scan the code. If both devices are online,
-  they will introduce a chat channel with each-other (if it doesn't exist already) 
-  and the encryption keys will also be verified.  Both will see a
-  "sender verified" system message in their 1:1 chat. 
+- Оберіть **QR-код запрошення** на одному пристрої, потім оберіть **Сканувати QR-код** на іншому та відскануйте код. Якщо обидва пристрої в мережі, вони запровадять канал чату між собою (якщо його не було до цього), ключі шифрування також будуть підтверджені. Обидва побачать системне повідомлення "відправник підтверджений" у їх чаті 1 на 1.
 
-If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop):
+Якщо ви не поруч із співбесідником, ви можете перевірити статус вручну в діалозі "Шифрування" (у профілі користувача на Android/iOS або правий клік на елементі списку чатів на десктопі):
 
-- For end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If the same fingerprints appear on your chat partner's device, 
-  the connection is safe.
+- Для наскрізного шифрування Delta Chat відобразить там два відбитки ключів. Якщо однакові відбитки відображаються на вашому пристрої та на пристрої співбесідника - з'єднання безпечне.
 
-- For transport encryption, this state is just shown there
+- При транспортному шифруванні просто відображається його статус.
 
 
-### How can I check the encryption of messages?
+### Як перевірити шифрування повідомлень?
 
-- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
+- Маленький **замочок**, що відображається поряд з повідомленням, вказує, чи зашифроване повідомлення наскрізним шифруванням для цього відправника.
 
-- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
+- Якщо ж **замочка немає**, повідомлення зазвичай відправлено незашифрованим тому, що ви або відправник вимкнули наскрізне шифрування, або відправник використовує додаток без підтримки наскрізного шифрування.
 
-### Which standards are used for end-to-end-encryption?
+### Які стандарти використовуються для наскрізного шифрування?
 
-- [Autocrypt](https://autocrypt.org) is used for establishing
-  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. 
+- [Autocrypt](https://autocrypt.org) використовується для встановлення наскрізного шифрування з іншими клієнтами Delta Chat та іншими додатками із підтримкою Autocrypt. Autocrypt використовує обмежену підмножину функцій OpenPGP. 
 
-- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
-  base protection of Autocrypt Level 1, while maintaining its ease of use.  
+- Delta Chat імплементує [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) аби досягти захисту від активних мережевих атак.  Це виходить за рамки опортуністичного базового захисту Autocrypt Level 1, зберігаючи при цьому простоту його використання.
 
 ### What is the difference between verified groups and 1:1 chats with verified contacts?
 
