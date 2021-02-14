@@ -1,5 +1,5 @@
 ---
-title: The messenger
+title: The e-mail messenger
 lang: en
 ---
 
