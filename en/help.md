@@ -434,6 +434,17 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   see [Provider Overview](https://providers.delta.chat)
 
 
+### How can I use Delta Chat to make calls/video chats?
+
+To enable video chats in the desktop client, go to the advanced settings -
+under "Experimental Features" you can enter a "Video Chat Instance". You can
+use different video chat platforms for this, e.g. Jitsi. To choose the main
+Jitsi instance for video chats, enter https://meet.jit.si/$ROOM in this field.
+
+To start a video chat with a contact, you can now click on the three dots in
+the top right, and click on "video chat". This starts a video chat with a
+random room name and invites your contact as well.
+
 ### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
 
 - Sending and receiving messages takes a few seconds, typically. Sometimes
