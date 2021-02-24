@@ -439,7 +439,7 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 To enable video chats, go to the advanced settings -
 under "Experimental Features" you can enter a "Video Chat Instance". You can
 use different video chat platforms for this, e.g. Jitsi. To choose the main
-Jitsi instance for video chats, enter https://meet.jit.si/$ROOM in this field.
+Jitsi instance for video chats, enter `https://meet.jit.si/$ROOM` in this field.
 
 To start a video chat with a contact, you can now click on the three dots in
 the top right, and click on "video chat". This starts a video chat with a
