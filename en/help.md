@@ -436,7 +436,7 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 
 ### How can I use Delta Chat to make calls/video chats?
 
-To enable video chats in the desktop client, go to the advanced settings -
+To enable video chats, go to the advanced settings -
 under "Experimental Features" you can enter a "Video Chat Instance". You can
 use different video chat platforms for this, e.g. Jitsi. To choose the main
 Jitsi instance for video chats, enter https://meet.jit.si/$ROOM in this field.
