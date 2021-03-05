@@ -1,5 +1,5 @@
 ---
-title: Der Messenger
+title: Der E-Mail-Messenger
 lang: de
 ---
 

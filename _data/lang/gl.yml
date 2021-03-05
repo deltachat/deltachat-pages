@@ -9,11 +9,11 @@ gl:
     home: Inicio
     download: Descarga
     blog: Blog
-    contribute: Contribuír
+    contribute: Colaborar
     help: PMF
     forum: Foro
 
-  subscribe_to_feed: Subscríbete ao RSS
+  subscribe_to_feed: Subscríbete a RSS
 
   references: Referencias
   imprint: Legal
@@ -25,7 +25,7 @@ gl:
     other: Outras plataformas
     source_code: Código Fonte
     install_via_packagemanager: Instalar vía Xestor de Paquetes
-    outdated: caducado
+    outdated: antigo
     dl_flathub: Descarga desde Flathub
     dl_microsoft: Descarga desde Microsoft Store
     dl_mac_appstore: Descarga desde Apple Mac AppStore

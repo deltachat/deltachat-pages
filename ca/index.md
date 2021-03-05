@@ -1,5 +1,5 @@
 ---
-title: El missatger
+title: The e-mail messenger
 lang: ca
 ---
 

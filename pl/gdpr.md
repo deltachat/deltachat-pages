@@ -53,23 +53,20 @@ Niniejsze oświadczenie odzwierciedla ogólne Rozporządzenie o Ochronie Danych 
 
 **Stan: 21 stycznia 2020**
 
-At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
-website is in compliance with the European General Data Protection Regulation
-(2016/679). Therefore, we minimise the processing of your data to the minimum
-necessary (Privacy by Design).
+W Delta.Chat dbamy o to, aby nie tylko nasz komunikator, ale także strona internetowa Delta.Chat
+była zgodna z europejskim rozporządzeniem o ochronie danych (2016/679).
+Dlatego minimalizujemy przetwarzanie Twoich danych do niezbędnego minimum
+(Prywatność zgodnie z projektem).
 
 ### Główne informacje
 
-The Delta.chat website does not use own or third party cookies, website
-analytics services, third party advertising and marketing services or the use
-of social media plug-ins. Data processing is limited to voluntary e-mail
-contact.
+Strona Delta.chat nie korzysta z własnych plików cookie ani stron trzecich, usług analizy witryny, usług reklamowych i marketingowych stron trzecich ani wtyczek mediów społecznościowych. Przetwarzanie danych ogranicza się do dobrowolnego kontaktu e-mailowego. 
 
-### Responsible person
+### Osoba odpowiedzialna
 
-The person responsible for the data processing of this site in terms of the
-DSGVO and other national data protection laws of the member states as well as
-other data protection regulations is
+Osobą odpowiedzialną za przetwarzanie danych na tej stronie zgodnie z
+RODO i innymi krajowymi przepisami dotyczącymi ochrony danych w państwach członkowskich,
+a także innymi przepisami dotyczącymi ochrony danych jest 
 
 	Merlinux GmbH
 	Reichgrafen Str. 20 
@@ -102,9 +99,9 @@ the declaration of consent of the mailing list at any time. You have the right
 to receive the data in a structured common and machine-readable format and the
 right to complain to a supervisory authority.
 
-### Amendment of the privacy policy
+### Zmiana polityki prywatności
 
-We reserve the right to update the present data protection regulations in view
-of the constantly changing legal and technical situation.
+Zastrzegamy sobie prawo do aktualizacji aktualnych przepisów o ochronie danych w związku
+ze stale zmieniającą się sytuacją prawną i techniczną. 
 
 

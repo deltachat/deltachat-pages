@@ -1,5 +1,5 @@
 ---
-title: 通信应用
+title: 电子邮件通信应用
 lang: zh_CN
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Dé chat-app
+title: Dé e-mailchat-app
 lang: nl
 ---
 

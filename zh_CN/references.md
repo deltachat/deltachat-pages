@@ -5,9 +5,7 @@ lang: zh_CN
 
 # 参考
 
-This list is far from being complete - did we miss something? Please
-[let us know](imprint) or just do a [pull
-request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+这个列表距离完整还差得远 - 我们错过了什么吗？请[让我们知道](imprint)或直接发起一个 [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)。
 
 
 ### Pocketnow: 10 Ways Delta Chat is Better than WhatsApp, Signal, and Telegram
@@ -213,4 +211,4 @@ _"Delta.Chat: Sicher und dezentral – geht das?"_
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out [user stories and voices](user-voices).
+还可以查看[用户故事和声音](user-voices)。
