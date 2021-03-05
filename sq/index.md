@@ -1,5 +1,5 @@
 ---
-title: Lajmëtari
+title: Shkëmbyesi i mesazheve me email
 lang: sq
 ---
 

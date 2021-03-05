@@ -1,5 +1,5 @@
 ---
-title: Мессенджер
+title: The e-mail messenger
 lang: ru
 ---
 

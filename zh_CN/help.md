@@ -56,133 +56,100 @@ Delta Chat 自动显示：
 
 ### Delta Chat 支持图像、视频和其他附件吗？
 
-- Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
+- 是的。除纯文本外，所有电子邮件附件均显示为单独的消息。发出消息会根据需要自动获得附件。
 
 
 ### 谁会看见我的个人资料图片？
 
-- You can add a profile picture in your settings. If you write to your contacts
-  or add them via QR code, they automatically see it as your profile picture.
+- 您可以在设置中添加个人资料图片。如果您给您的联系人发消息或者通过QR码添加他们，他们会自动看到您的个人资料图片。
 
-- Contacts who don't use Delta Chat see it as an E-Mail attachment.
+- 不使用 Delta Chat 的联系人将其视为电子邮件附件。
 
-- For privacy reasons, no one sees your profile picture until you write a
-  message to them.
+- 出于隐私原因，在您向他们发送消息之前，没有人会看到您的个人资料照片。
 
-- Your profile picture isn't sent with every message, but regularly enough that
-  your contacts will re-receive your profile picture, even if they add a new
-  device.
+- 您的个人资料图片并非随每条消息一起发送，但发送的频率足够高。因此即使您的联系人添加了新设备，也能够重新收到您的个人资料图片。
 
 
 ### Delta Chat 支持 HTML 电子邮件吗？
 
-- Yes. If an incoming e-mail lacks a plain text part, HTML-emails are converted to plain text in the app. Outgoing e-mails always use plain text.
+- 是的。 如果收到的电子邮件缺少“纯文本”部分， HTML 电子邮件将在应用中被转换为纯文本。发出电子邮件始终使用纯文本。
 
 
 ### 为什么我必须在 Delta Chat 中输入我的电子邮件密码？ 这样安全吗？
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway. 
+与其他电子邮件程序（如Thunderbird、K9-Mail或Outlook）一样，本程序需要您的密码来允许您通过它发送邮件。当然，密码仅储存在您的设备上，并只会在登录时发送给您的电子邮件提供商（无论如何，您的提供商总是能够访问您的邮件）。
 
-If you use an E-Mail provider with OAuth2 support like gmail.com or yandex.ru,
-there is no need to store your password on the device. In this case, only an
-access token is used.
+如果您使用具有 OAuth2 支持的电子邮件提供商，例如 gmail.com 或 yandex.ru，则无需在设备上存储密码。在这种情况下，只有访问令牌被使用。
 
-As Delta Chat is Open Source, you can check the [Source
-Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
-if you want to verify that your credentials are handled securely. We are happy
-about feedback which makes the app more secure for all of our users.
+由于 Delta Chat 是开源的，要验证您的凭据是否被安全地处理了，可以检查[源代码](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)。我们很高兴能收到使本应用对我们的所有用户更加安全的反馈。
 
 
 ### Delta Chat 需要哪些权限？
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+根据使用的操作系统，系统可能会要求您向本应用授予权限。下面 Delta Chat 使用各类权限进行的操作：
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for users who want to receive messages all the time
+- 相机*（可被禁止）*
+  - 拍照和录像：用于发送照片
+- 联系人*（可被禁止）*
+  - 读取联系人：发现要与之聊天的联系人
+- 位置*（可被禁止）*
+  - 访问大概位置（基于网络）：用于位置流功能
+  - 访问精确位置（基于GPS和网络）：用于位置流功能
+- 麦克风*（可被禁止）*
+  - 录制音频：用于音频消息
+- 存储*（可被禁止）*
+  - 修改或删除SD卡的内容：下载消息附件
+  - 读取 SD 卡中的内容：与联系人共享文件
+- 其他权限
+  - 更改音频设置：允许您选择通知和音频消息的铃声和音量
+  - 开机自启动：因此您不必手动启动 Delta Chat
+  - 控制振动：用于通知
+  - 查看网络连接：连接到您的电子邮件提供商
+  - 阻止手机进入休眠状态：您可以在 Autocrypt 设置消息中更轻松地复制安全代码
+  - 具有完全的网络访问权限：连接到您的电子邮件提供商
+  - 查看Wi-Fi连接：连接到您的电子邮件提供商
+  - 要求忽略电池优化：给一直希望接收消息的用户使用
 
 
 ## 群组
 
 ### 创建群组
 
-- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
-- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- 从右上角的菜单中选择**新建聊天**，然后选择**新建群组**或在 Android/iOS 上点击相应的按钮。
+- 在随后的屏幕上，选择**群组成员**并起一个**群组名称**。您也可以选择一个**群组头像**。
+- 当您在群组中发送**第一条消息**时，所有成员都会被告知新群组的信息并可以在该群组中应答（只要您不在群组中发送第一条消息，那么群组对成员就是不可见的）。
 
 
 ### 添加成员到群组
 
-- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
-- To add or delete members, click on the group name in the chat.
+- 每个群组成员均拥有与其他成员**相同的权限**。因此，每个人都可以删除成员或添加新成员。
+- 要添加或删除成员，请在聊天中点击组名。
 
 
 ### 什么是已验证群组？为什么它是实验性的？
 
-- A verified group is a chat that guarantees safety against an active
-  attacker.  All Messages in a verified chat view are e2e-encrypted, and
-  members can join by scanning a "QR invite code".  All members are thus 
-  connected with each other through a chain of invites, which guarantee 
-  cryptographic consistency against active network or provider attacks. 
-  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-  for the R&D behind this feature. 
+- 已验证群组是一个面对主动攻击者时可保证安全的聊天。已验证聊天视图中的所有消息都是端到端加密的，成员可以通过扫描“邀请二维码”加入。这样，所有成员都通过邀请链相互连接，从而保证了面对主动攻击网络和提供商攻击时的加密一致性。查看 [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) 来了解该功能背后的研发。
 
-- As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continuously improved and many bugs have been fixed since the
-  original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occur, or messages become 
-  unreadable.  Early 2020 a security review is upcoming, and several new
-  developments around qr-join protocols are taking place so chances
-  are we remove the "experimental" label not too far in the future. 
+- 在 2019 年 12 月，“已验证群组”仍然是实验性功能。自 2018 年引入后，该功能一直在不断改进，并且许多 bug 得到了修复。然而，仍然存在出现不一致或消息变得不可读的情况，特别是在大型群组中。在 2020 年初，一个安全审查将会进行，并且围绕二维码加入协议的多项新开发正在进行中。所以，或许在不远的将来我们就会有机会来移除“实验性的” 标签。
 
 
 ### 我不小心删除了我自己。
 
-- As you're no longer a group member, you cannot add yourself again. 
-  However, no problem, just ask any other group member in a normal chat to re-add you.
+- 由于您不再是群组成员，您无法将自己加入到群组中。但是，问题不大，只需在普通聊天中请求其他群组成员将您重新加入即可。
 
 
 ### 我不想再收到某个群组中的消息了。
 
-- Either delete yourself from the member list or delete the whole chat. 
-  If you want to join the group again later on, ask another group member to add you again.
+- 从成员列表中删除自己，或者删除整个聊天。如果您之后想再加入该群组，请让其他群组成员添加您。
 
-- As an alternative, you can also "Mute" a group - doing so means you get all messages and 
-  can still write, but are no longer notified of any new messages.
+- 另外，您也可以“静音”群组——这样做意味着您会收到所有消息并且仍可以编写消息，但不会再收到任何新消息的通知。
 
 
-### What do double ticks mean in group messages? Has everyone read my message now?
+### 群组消息中的双对勾意味着什么？每个人都都读我的消息了吗？
 
-- A message shows double ticks after more than half of the recipients have
-  seen the message on their display.
-- Note that some recipients might have disabled read-receipts for
-  privacy-reasons.
-- If more than 50% in a group disabled read receipts, the double ticks will
-  never show up. For more detailed information, see
-  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- 消息被一半以上的接收者在屏幕上看到后，会显示双对勾。
+- 请注意，某些接收者可能出于隐私原因禁用了已读回执。
+- 如果群组中超过 50％ 的人禁用了已读回执，那么双打勾将永远不会出现。更多信息，请看[这篇博文](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure)。
 
 
 ## 加密 {#encryption}
@@ -220,7 +187,7 @@ This is what Delta Chat does with these permissions:
   your device and a friend's device. 
 
 
-### How can I verify cryptographic status with a sender? 
+### 如何与发送者验证加密状态？ 
 
 If you are within immediate distance of the chat partner:
 
@@ -240,7 +207,7 @@ If you are not near the chat partner, you can check the status manually in the "
 - For transport encryption, this state is just shown there
 
 
-### How can I check the encryption of messages?
+### 如何检查消息的加密状态？
 
 - A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
 
@@ -255,7 +222,7 @@ If you are not near the chat partner, you can check the status manually in the "
 - Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
   base protection of Autocrypt Level 1, while maintaining its ease of use.  
 
-### What is the difference between verified groups and 1:1 chats with verified contacts?
+### 和已验证联系人的一对一聊天与已验证群组有什么区别 ？
 
 - 1:1 chats with a verified contact and verified groups are not the same, even
   if there are only 2 people in the verified group. One difference is that you
@@ -425,14 +392,14 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 
 ## 杂项
 
-### Does Delta Chat work with _my_ e-mail-provider?
+### Delta Chat 可用于 _我的_ 电子邮件提供商吗？
 
 - With a rather good chance: Yes :)  
   However, some providers need special options to work properly,
   see [Provider Overview](https://providers.delta.chat)
 
 
-### 使用电子邮件的 Delta Chat 真的是_即时_通讯工具吗？
+### 使用电子邮件的 Delta Chat 真的是 _即时_ 通讯工具吗？
 
 - Sending and receiving messages takes a few seconds, typically. Sometimes
   there are cases where it takes longer but that is arguably true as well for

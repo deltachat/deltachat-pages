@@ -33,12 +33,12 @@ relativos a recollida de datos da libreta de enderezos, artigo 13, 14 GDPR.
 
 - Non precisa Delta Chat realice **recoñecemento do impacto da protección de datos** (artigo 35 GDPR) porque non procesa datos adicionais suplementarios máis alá do envío de emails.
 
-- Engadindo as medidas de privacidade de Delta Chat a
+- Engadindo as medidas de privacidade de Delta Chat á
 **gravación das actividades de procesado** pode ter un impacto positivo
 na posible **documentación de probas**, (artigo 30 GDPR)
 e tamén no **proceso de certificación de protección de datos**, artigo 25 (3), 42 GDPR.
 
-- A **rexistro de actividades de proceso** ligadas as comunicacións de mensaxería é
+- O **rexistro de actividades de proceso** ligadas as comunicacións de mensaxería está
 reducida a identificar o provedor de email e rexistrar as súas actividades, artigo 30 (2) GDPR.
 
 - Os riscos restantes sobre os dereitos e liberdades das persoas naturais

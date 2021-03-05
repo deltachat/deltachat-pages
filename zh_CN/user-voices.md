@@ -3,7 +3,7 @@ title: 用户故事和声音
 lang: zh_CN
 ---
 
-#用户故事和声音
+# 用户故事和声音
 
 
 ### 可以推荐给盲人
@@ -30,9 +30,9 @@ _"I was happy that I could get Delta Chat from the website, not just via Google 
 
 **Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
 
-###公司通知系统已迁移
+### 公司通知系统已迁移
 
-_“是的，我们的公司将所有的帐单/停机通知系统从Telegram 迁移到了 Delta Chat以改善公司的保密性，因此，我们的摄像头会发送入侵检测警报到一个delta 群聊中。”_
+_“是的，公司将所有的帐单/停机通知系统从 Telegram 迁移到了 Delta Chat 以提升保密性。于是，我们的摄像头会发送入侵检测警报到 delta 群聊中。”_
 
 **早期用户** 2018年发表于[支持论坛](https://support.delta.chat/t/clear-chat-function/163/6)
 
@@ -91,9 +91,9 @@ _" 使用 @delta_chat 已经一年多了：伟大的开源/非封闭/基于标�
 **Séverin Lemaignan** 2020年发表于 [推特](https://twitter.com/skadge/status/1276515066393878529)
 
 
-### 启动聊天的默认方式！
+### 发起聊天的默认方式！
 
-_" 正考虑将@delta_chat用作启动聊天的默认方式！与其他系统不同，它允许两端的用户选择他们想要使用的代理+与所有邮件客户端交互"_
+_" 正考虑将@delta_chat用作发起聊天的默认方式！与其他系统不同，它允许两端的用户选择他们想要使用的代理+与所有邮件客户端交互"_
 
 **gozala** 2020年发表于[推特](https://twitter.com/gozala/status/1281346020664729600)
 

@@ -1,5 +1,5 @@
 ---
-title: Komunikator
+title: Komunikator e-mail
 lang: pl
 ---
 

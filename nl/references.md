@@ -11,11 +11,11 @@ Hebben we iets gemist?
 of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Pocketnow: 10 Ways Delta Chat is Better than WhatsApp, Signal, and Telegram
+### Pocketnow: 10 redenen waarom Delta Chat beter is dan WhatsApp, Signal en Telegram
 
-_"With everyone deleting WhatsApp and switching to Telegram or Signal,
-maybe there’s something better that you haven’t heard of yet.
-Here are 10 ways Delta Chat is better than the others [...]"_
+_"Iedereen verwijdert WhatsApp en stapt op over Telegram of Signal,
+maar er is nog een andere app die je waarschijnlijk nog niet kent.
+In dit artikel vind je 10 redenen waarom Delta Chat beter is dan andere chatapps [...]"_
 
 2021-02-13, <https://pocketnow.com/10-ways-delta-chat-is-better-than-whatsapp-signal-and-telegram>
 

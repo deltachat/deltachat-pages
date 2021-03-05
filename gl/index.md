@@ -1,5 +1,5 @@
 ---
-title: Mensaxería
+title: Mensaxería por email
 lang: gl
 ---
 
