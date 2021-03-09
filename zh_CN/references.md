@@ -5,7 +5,7 @@ lang: zh_CN
 
 # 参考
 
-这个列表距离完整还差得远 - 我们错过了什么吗？请[让我们知道](imprint)或直接发起一个 [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)。
+这个列表距离完整还很遥远——我们错过了什么吗？请[让我们知道](imprint)或直接发起一个 [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)。
 
 
 ### Pocketnow: 10 Ways Delta Chat is Better than WhatsApp, Signal, and Telegram
