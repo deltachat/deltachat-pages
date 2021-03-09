@@ -1,0 +1,41 @@
+cs:
+  
+  meta:
+    description: "Delta Chat - Četovací program založený na e-mailu "
+    keywords: "delta chat, textování přes e-mail, stáhnout delta chat"
+    rss_news_title: Zprávy Delta Chatu
+
+  menu:
+    home: Hlavní strana
+    download: Stáhnout
+    blog: Blog
+    contribute: Přispět
+    help: Časté otázky
+    forum: Fórum
+
+  subscribe_to_feed: Odebírat novinky
+
+  references: Odkazy a zdroje
+  imprint: K tisku
+  privacy: Pravidla pro soukromí
+  language: Jazyk
+
+  download:
+    recommendation: Doporučujeme
+    other: Jíné technologie
+    source_code: Zdrojový kód
+    install_via_packagemanager: Instalace ze správce balíčků
+    outdated: zastaralé
+    dl_flathub: Stáhni z Flathubu
+    dl_microsoft: Stáhni z Microsoft Store
+    dl_mac_appstore: "Stáhni z AppStore, pro Apple Mac"
+    dl_appstore: Stáhni z Apple AppStore
+    beta_on: Betaverze z
+    dl_fdroid: Získat z F-Droid
+    gplay: Získat z Google PlayStore
+    dl_amazon:
+      small: Získat z
+      title: Amazon Appstore
+    dl_apk_text:
+      before: Lze také stáhnout jako
+      after: (pokusné)

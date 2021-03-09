@@ -74,6 +74,7 @@ def generate_lang(destdir, lang, add_top_links):
 
 
 def generate_help(destdir, add_top_links=False):
+    generate_lang(destdir, "cs", add_top_links)
     generate_lang(destdir, "de", add_top_links)
     generate_lang(destdir, "en", add_top_links)
     generate_lang(destdir, "es", add_top_links)
