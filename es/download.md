@@ -27,7 +27,7 @@ o sistemas compatibles.
 
 ## Compilados Vista Anticipada
 
-* [Vistas Anticipadas para Escritorio](https://download.delta.chat/desktop/preview/): Cambios pendientes para los clientes de escritorio
+* [Vistas Anticipadas para Escritorio]({% include desktop-previews-url %}): Cambios pendientes para los clientes de escritorio
 * [Android Nightly](https://download.delta.chat/android/nightly/): Compilado anoche con el núcleo más reciente
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Puede contener versiones de iOS aún no publicadas oficialmente
 

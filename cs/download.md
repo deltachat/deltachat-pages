@@ -27,7 +27,7 @@ nebo slučitelné systémy.
 
 ## Verze k náhledu
 
-* [Náhled Desktopu](https://download.delta.chat/desktop/preview/): Aktuální změny pro stolní verzi.
+* [Náhled Desktopu]({% include desktop-previews-url %}): Aktuální změny pro stolní verzi.
 * [Android Nightly](https://download.delta.chat/android/nightly/): Poslední kompilace nejnovější verze
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Může obsahovat neoficiální vydání iOS verze
 

@@ -27,7 +27,7 @@ ou sistemas compatibles.
 
 ## Vista previa das versións
 
-* [para Escritorio](https://download.delta.chat/desktop/preview/): Cambios pendentes para versión Escritorio
+* [para Escritorio]({% include desktop-previews-url %}): Cambios pendentes para versión Escritorio
 * [Android Nightly](https://download.delta.chat/android/nightly/): Compila os últimos cambios co núcleo máis recente
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Podería conter versións iOS non publicadas oficialmente
 

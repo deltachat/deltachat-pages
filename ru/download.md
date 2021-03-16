@@ -27,7 +27,7 @@ Android 4.1 Jelly Bean
 
 ## Предпросмотр сборок
 
-* [Desktop Previews](https://download.delta.chat/desktop/preview/): Ожидаемые изменения для настольного клиента
+* [Desktop Previews]({% include desktop-previews-url %}): Ожидаемые изменения для настольного клиента
 * [Android Nightly](https://download.delta.chat/android/nightly/): Последняя ночная сборка с самым новым ядром
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Может содержать еще не выпущенные официально версии IOS
 

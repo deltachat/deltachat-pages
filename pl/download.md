@@ -27,7 +27,7 @@ lub kompatybilne systemy.
 
 ## Poglądowe kompilacje
 
-* [Desktop Previews](https://download.delta.chat/desktop/preview/): Oczekujące zmiany dla klientów desktop
+* [Desktop Previews]({% include desktop-previews-url %}): Oczekujące zmiany dla klientów desktop
 * [Android Nightly](https://download.delta.chat/android/nightly/): Skompilowany ostatniej nocy z najnowszym rdzeniem
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Może zawierać jeszcze nie wydane oficjalnie wersje iOS
 

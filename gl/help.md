@@ -75,7 +75,7 @@ para que os teus contactos a teñan actualizada, e tamén se engaden un
 novo dispositivo.
 
 
- ### Da Delta Chat soporte a emails HTML?
+ ### Ten Delta Chat soporte para emails HTML?
 
 - Yes. If an incoming e-mail lacks a plain text part, HTML-emails are converted to plain text in the app. Outgoing e-mails always use plain text.
 

@@ -27,7 +27,7 @@ oder kompatible Systeme.
 
 ## Vorschauversionen
 
-* [Desktop Vorschau](https://download.delta.chat/desktop/preview/): Ausstehende Änderungen für die Desktop-Clients
+* [Desktop Vorschau]({% include desktop-previews-url %}): Ausstehende Änderungen für die Desktop-Clients
 * [Android Nightly](https://download.delta.chat/android/nightly/): Letzte Nacht mit dem neuesten Kern erstellt
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Kann noch nicht offiziell freigegebene iOS-Versionen enthalten
 

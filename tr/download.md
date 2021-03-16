@@ -27,7 +27,7 @@ veya uyumlu sistemler.
 
 ## Önizleme Yapıları
 
-* [Masaüstü Önizleme](https://download.delta.chat/desktop/preview/): Masaüstü istemcileri için beklenen değişiklikler
+* [Masaüstü Önizleme]({% include desktop-previews-url %}): Masaüstü istemcileri için beklenen değişiklikler
 * [Android Nightly](https://download.delta.chat/android/nightly/): En yeni çekirdekle dün gece inşa edildi
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Henüz resmi olarak yayınlanmamış iOS sürümlerini içerebilir
 

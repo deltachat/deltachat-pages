@@ -27,7 +27,7 @@ atau compatible systems.
 
 ## Pratinjau Build
 
-* [Pratinjau Desktop](https://download.delta.chat/desktop/preview/): Perubahan yang tertunda untuk klien desktop
+* [Pratinjau Desktop]({% include desktop-previews-url %}): Perubahan yang tertunda untuk klien desktop
 * [Android Nightly](https://download.delta.chat/android/nightly/): Dibangun semalam dengan inti terbaru
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Mungkin mengandung versi iOS yang belum dirilis secara resmi
 
