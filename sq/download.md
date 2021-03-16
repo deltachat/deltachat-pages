@@ -27,7 +27,7 @@ ose sisteme të përputhshëm me ta.
 
 ## Montime Paraparje
 
-* [Parapaprje për Desktop](https://download.delta.chat/desktop/preview/): Ndryshime të ardhshme për klientin desktop
+* [Parapaprje për Desktop]({% include desktop-previews-url %}): Ndryshime të ardhshme për klientin desktop
 * [Android Nightly](https://download.delta.chat/android/nightly/): Montuar dje natën me bazën më të freskët
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Mund të përmbajë versione iOS ende të pahedhur zyrtarisht në qarkullim
 

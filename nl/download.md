@@ -27,7 +27,7 @@ of compatibele systemen.
 
 ## Testversies
 
-* [Computer-testversies](https://download.delta.chat/desktop/preview/): aanpassingen die nog worden bijgeschaafd
+* [Computer-testversies]({% include desktop-previews-url %}): aanpassingen die nog worden bijgeschaafd
 * [Android-testversies](https://download.delta.chat/android/nightly/): aanpassingen van de vorige dag, gebouwd op de nieuwste kern
 * [iOS Testflight-testversies](https://testflight.apple.com/join/uEMc1NxS): kan nog niet officieel vrijgegeven iOS-versies bevatten
 

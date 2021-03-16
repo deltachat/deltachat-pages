@@ -27,7 +27,7 @@ ou un système compatible.
 
 ## Versions preview
 
-* [Previews pour ordinateur](https://download.delta.chat/desktop/preview/) : dépendantes des changements des logiciels pour ordinateur
+* [Previews pour ordinateur]({% include desktop-previews-url %}) : dépendantes des changements des logiciels pour ordinateur
 * [Android Nightly](https://download.delta.chat/android/nightly/) : compilée hier soir avec le code le plus récent
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS) : peut contenir des versions pour iOS non publiées officiellement
 

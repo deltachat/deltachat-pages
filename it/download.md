@@ -27,8 +27,8 @@ o un sistema compatibile.
 
 ## Versioni anteprima
 
-* [Preview Desktop](https://download.delta.chat/desktop/preview/): modifiche in sospeso per i client desktop
-* [Android Nightly](https://download.delta.chat/android/nightly/): compilate la scorsa notte con il core più recente
-* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): può proporre versioni iOS non ancora rilasciate ufficialmente
+* [Anteprime Desktop]({% include desktop-previews-url %}): modifiche in sospeso per i client desktop
+* [Android Nightly](https://download.delta.chat/android/nightly/): costruito la scorsa notte con il core più recente
+* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Potrebbe contenere versioni iOS non ancora ufficialmente rilasciate
 
 Le versioni preview possono avere bug nuovi e sono sconsigliate per ambienti produttivi

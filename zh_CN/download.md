@@ -27,7 +27,7 @@ Android 4.1 Jelly Bean
 
 ## 预览版
 
-* [桌面预览版](https://download.delta.chat/desktop/preview/): 待定的桌面客户端更改
+* [桌面预览版]({% include desktop-previews-url %}): 待定的桌面客户端更改
 * [Android 每夜版](https://download.delta.chat/android/nightly/): 构建于昨天晚上，使用最新内核
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): 可能包含尚未正式发布的 iOS 版本
 
