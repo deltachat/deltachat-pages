@@ -10,8 +10,7 @@ diskuzi o funkcích a pro získání podpory.
 
 - [#deltachat na freenode]({% include webirc-url %}) pro každodenní komunikaci.
 
-- [Delta Chat mailing list]
-(https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+- [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
 pro komunitní diskuse a novinky.
 
 - [úložiště zdrojů Delta Chatu](https://github.com/deltachat/), kde můžete 
