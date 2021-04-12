@@ -1,5 +1,5 @@
 ---
-title: The e-mail messenger
+title: E-mail месенджер
 lang: uk
 ---
 

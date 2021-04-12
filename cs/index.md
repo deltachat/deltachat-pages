@@ -1,25 +1,25 @@
 ---
-title: The e-mail messenger
+title: E-mailová četovací aplikace
 lang: cs
 ---
 
-# Chat over e-mail and head back to the future with us!
+# Četuj přes e-mail a pojď s námi zpět do budoucnosti!
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
-Delta Chat does not need your phone number. Check out our [privacy statement](gdpr).
+**Delta Chat je jako Telegram nebo Whatsapp, ale bez sledování a centralizované kontroly.**
+Delta Chat nepotřebuje tvé telefonní číslo. Přečti si [prohlášení o soukromí](gdpr).
 
-**Delta Chat doesn't have their own servers** but uses the most massive and diverse open messaging 
-system ever: the existing e-mail server network.
+**Delta Chat neprovozuje žádné vlastní servery** ale používá nejmasivnější a nejkošatější otevřený systém 
+jaký kdy existoval pro zasílání zpráv: síť e-mailových serverů.
 
-**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
-All you need is a standard e-mail account.
+**Hovoř s kýmkoli na koho máš e-mailovou adresu, nemusí si instalovat DeltaChat!** 
+Jediné co potřebuješ je standardní e-mailový účet.
 
-Check out [user stories and voices](user-voices) 📣
+Přečti si [reakce uživatelů](user-voices) 📣
 
 
-# Screenshots Android, Desktop and iOS 
+# Snímky ze zařízení Android, Desktop a iOS
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
@@ -30,9 +30,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
 
-Please check [get.delta.chat](https://get.delta.chat) and the [latest blog posts](blog)
-for information on current releases and events. 
+Podívej se na [get.delta.chat](https://get.delta.chat) a na [náš blog](blog)
+kde najdeš informace o nejnovějších verzích a událostech. 
 
-Delta Chat is [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software).  You can use,
-see, change, and share it at will, with everyone.
+Delta Chat je [otevřený](https://cs.wikipedia.org/wiki/Otevřený_software)
+a [svobodný](https://cs.wikipedia.org/wiki/Svobodný_software) software. 
+Můžeš se do něj podívat, užívat, měnit, a sdílet ho s kým chceš.

@@ -1,129 +1,130 @@
 ---
-title: User Stories and Voices
+title: Příběhy a ohlasy uživatelů
 lang: cs
 ---
 
-# User Stories and Voices
+# Příběhy a ohlasy uživatelů
 
 
-### Can recommend to blind people
+### Lze doporučit nevidomým
 
-_"I installed Delta Chat last night, just after writing to you,
-and I immediately noticed the improvement in accessibility [...]
-And it works! And it's accessible! And I can recommend the app to other blind people!                                 
-Good job guys! [...]"_
+_"Včera večer jsem si nainstaloval Delta Chat, hned poté, co jsem vám napsal,
+a okamžitě jsem si všiml zlepšení přístupnosti [...]
+A funguje to! A je to přístupné! A mohu aplikaci doporučit dalším nevidomým! 
+Dobrá práce, lidi! [...]"_
 
-**Blind user** about the Android version in 2019, via e-mail to delta@merlinux.eu
+**Slepý uživatel** o verzi pro Android v roce 2019, e-mailem na delta@merlinux.eu
 
-### Popular in regions with strict Internet governance
+### Populární v regionech s přísnou správou internetu
 
-_"There's this nice messenger, based on a simple email, called Delta Chat. I am happy that our Internet watchdog has made this app popular by trying to block it. It's just like with Telegram that has become widely popular across non-tech audiences after the ban"._ 
+_"Existuje takový pěkný messenger založený na jednoduchém e-mailu, který se jmenuje Delta Chat. Jsem rád, že náš internetový hlídací pes tuto aplikaci zpopularizoval tím, že se ji snaží zablokovat. Je to stejné jako s Telegramem, který se po zákazu stal široce populárním napříč netechnickým publikem."_
 
-**Russian user** from 2020 in response to Delta Chat's rejection to satisfy Russian Internet watchdog RKN's request for user data, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**Ruský uživatel** z roku 2020 v reakci na odmítnutí společnosti Delta Chat vyhovět žádosti ruského úřadu pro dohled nad internetem RKN o poskytnutí uživatelských údajů, [Twitter](https://twitter.com/Alex0s/status/1256841124427313153).
 
-### Chatty interface with robust encryption
+### Četovací rozhraní s robustním šifrováním
 
-_"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
+_"Další věc, kterou vím, že jsemna party přišel pozdě, ale delta-chat se zdá být opravdu elegantní, zejména pokud máte obavy o soukromí, protože je to opravdu jen e-mailový klient se specializovaným šifrováním, který má rozhraní četu"_
 
-**American user** from 2020 recommending Delta Chat for everyday usage
+**Americký uživatel** z roku 2020 doporučuje Delta Chat pro každodenní použití
 
-### Works during Internet shutdowns
+### Funguje i když je Internet nedostupný
 
-_"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
+_"Potěšilo mě, že jsem mohl získat Delta Chat z webových stránek, a ne jen přes Google Play, který byl v Bělorusku blokován. Získání APK bylo trochu pomalé, ale jakmile jsem aplikaci získal, fungovala bez problémů. Mohli jsme sdílet některé fotografie a dokonce i zašifrovaná videa."_ 
 
-**Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
+**Běloruský uživatel** během protestů v srpnu 2020, prostřednictvím e-mailu na adresu delta@merlinux.eu.
 
-### Company notification system migrated
+### Přesun firemního systému oznámení
 
-_"Yes, our company have migrated
-all billing/outage notification systems
-from Telegram to Delta Chat
-in order to improve corporate secrecy,
-thus our cameras send intrusion detection alerts
-to a delta group chat."_
+_"Ano, naše společnost přesunula
+všechny systémy pro účtování a oznamování výpadků
+z Telegramu na Delta Chat
+za účelem zvýšené ochrany firemního tajemství.
+Naše kamery posílají upozornění na detekci vniknutí.
+pomocí skupiny Delta Chatu."_
 
-**Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/6)
-
-
-### E-Mail always works
-
-_"I'm really happy that DeltaChat exists and that I discovered it.
-As a very early WhatsApp user, I quit WhatsApp because of privacy and security reasons;
-I still have broken contacts because of that,
-I do a lot of advertising for alternatives, but the market is just too fragmented.
-Delta is THE solution for everyone who allow at least one
-alternative - e-mail always works! :)_
-
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Jeden z prvních uživatelů** z roku 2018 z [fóra podpory](https://support.delta.chat/t/clear-chat-function/163/6)
 
 
-### Waiting for a long time
+### E-Mail vždy funguje
 
-_"A great project, I've been waiting for a long time
-for an end-to-end-encrypted chat application that gives a real alternative to the
-different silos like WhatsApp, Signal, Telegram etc."_
+_"Jsem opravdu rád, že DeltaChat existuje a že jsem ho objevil.
+Jako velmi brzký uživatel WhatsAppu jsem z něj odešel z důvodu ochrany soukromí a bezpečnosti;
+Kvůli tomu mám stále rozbité kontakty,
+Dělám hodně reklamy na alternativy, ale trh je prostě příliš roztříštěný.
+Delta je řešením pro všechny, kteří přopouští alespoň jednu
+alternativu - e-mail vždy funguje! :)_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
-
-
-### Messaging with Cuba
-
-_"I'm going to confess my love for the application.
-It is really amazing, it has made me communicate more with my friends,
-because writing emails is really annoying for me, I prefer chat, the world prefers chat."_
-
-**User from Cuba** in 2019, via e-mail to delta@merlinux.eu
+**Uživatel z Německa** ve 2019, přes e-mail na delta@merlinux.eu
 
 
-### Fully Decentralized
+### Dlouhé čekání
 
-_"At /e/ we had lots of discussion about Telegram vs Signal vs ... 
-But I must say that the best IM secured service in my opinion is @delta_chat
-Delta Chat is using emails to transport instant messages: 
-it's fully decentralized, heavily encrypted and you can reach any contact"_
+_"Skvělý projekt, na který jsem dlouho čekal.
+Aplikace pro četování s šifrováním od konce ke konci, která je skutečnou alternativou k
+různým silům, jako jsou WhatsApp, Signal, Telegram atd."_
 
-**Gaël Duval**, Founder Mandrake Linux, via [Twitter](https://twitter.com/gael_duval/status/1122906779002777600)
-
-### Decentralized but easy for users
-
-_"People start caring about decentralization. But it seems that for a lot of people setting servers and all to use Matrix or XMPP is too complicated while you can use Delta with just an e-mail address"_
-
-**Russian user** LGBT+ activist, from an online discussion over Telegram
-
-### Good old email will do just fine
-
-_"Recently I've come to the conclusion 
-that the world doesn't need yet another instant messenger.
-Good old email will do just fine.
-Use #DeltaChat with your existing email account. #decentralize the net."_
-
-**User from Poland** in 2020, via [Twitter](https://twitter.com/MichalNarecki/status/1280820973902745600)
+**Uživatel z Německa** ve 2019, přes e-mail na delta@merlinux.eu
 
 
-### Most decentralized communication concept currently available
+### Četování na Kubě
 
-_"Take the most decentralized communication concept currently available
-and put on a chat app like @delta and you're done."_
+_"Vyznám se ze své lásky k aplikaci. Je opravdu úžasná.
+Díky ní více komunikuji se svými přáteli, protože psaní e-mailů 
+je pro mě opravdu otravné, dávám přednost četu, svět dává přednost četu."_
 
-**User from Germany** in 2020, via [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
-
-
-### Open-source, Non-silo, Standard-based
-
-_"Been using  @delta_chat for more than a year:
-great open-source/non-silo/standard-based replacement to whatsapp!
-Glad to know that the development is keeping pace!!"_
-
-**Séverin Lemaignan** in 2020, via [Twitter](https://twitter.com/skadge/status/1276515066393878529)
+**Uživatel z Kuby** ve 2019, přes e-mail na delta@merlinux.eu
 
 
-### A default way to start chats!
+### Plně decentralizovaný
 
-_"Considering to use  @delta_chat as a default way to start chats!
-Unlike other systems it empowers people on both end with choice of the agent they want to use +
-interops with all the mail clients"_
+_"V /e/ (https://e.foundation) jsme hodně diskutovali o Telegramu vs. Signálu vs. ... 
+Ale musím říct, že nejlepší zabezpečený messenger je podle mě @delta_chat.
+Delta Chat používá k přenosu rychlých zpráv e-maily: 
+je plně decentralizovaný, silně šifrovaný a můžete se spojit s jakýmkoli kontaktem"_
 
-**gozala** in 2020 via [Twitter](https://twitter.com/gozala/status/1281346020664729600)
+**Gaël Duval**, zakladatel Mandrake Linux, přes [Twitter](https://twitter.com/gael_duval/status/1122906779002777600)
+
+### Decentralizovaný, ale uživatelsky jednoduchý
+
+_"Lidé se začínají zajímat o decentralizaci. Zdá se však, že pro mnoho lidí je nastavení serverů a všeho kolem Matrixu nebo XMPP příliš komplikované, zatímco Deltu můžete používat jen s e-mailovou adresou."_
+
+**Ruský uživatel** aktivista LGBT+, z on-line diskuze na Telegramu.
+
+### Starý dobrý e-mail bude stačit
+
+_"Nedávno jsem dospěl k závěru, 
+že svět nepotřebuje další instant messenger.
+Starý dobrý e-mail mi bohatě stačí.
+Používejte #DeltaChat se svým stávajícím e-mailovým účtem. #decentralize síť."_
+
+**Polský uživatel** v 2020, via [Twitter](https://twitter.com/MichalNarecki/status/1280820973902745600)
 
 
-Also check out [press references](references).
+### Nejvíce decentralizovaný návrh komunikace, který je v současné době k dispozici
+
+_"Vezměte si nejvíce decentralizovaný návrh komunikace, který tu v současnosti máme,
+a naroubujte na něj četovací aplikaci, jako je @delta, a máte hotovo."_
+
+**Německý uživatel** v 2020, via [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
+
+
+### Otevřený-kód, žádné silo, postavený na standardech
+
+_"Používám @delta_chat už více než rok:
+skvělá standardní/otevřená náhrada za whatsapp!
+Jsem rád, že vývoj drží krok!!!"_
+
+**Séverin Lemaignan** v 2020, via [Twitter](https://twitter.com/skadge/status/1276515066393878529)
+
+
+### Základní způsob jak začít četovat!
+
+_"Zvažte používání Delta Chatu @delta_chat jako základní způsob zahájení četu!
+Na rozdíl od jiných systémů dává lidem na obou stranách
+možnost volby agenta, kterého chtějí používat +
+spolupracuje se všemi poštovními klienty"_
+
+**gozala** v 2020 via [Twitter](https://twitter.com/gozala/status/1281346020664729600)
+
+
+Podívej se také na [press references](references).
