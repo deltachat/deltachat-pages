@@ -10,7 +10,7 @@ zh_CN:
     download: 下载
     blog: 博客
     contribute: 贡献
-    help: 常问问题
+    help: 常见问题
     forum: 论坛
 
   subscribe_to_feed: 订阅我们的订阅源
@@ -38,4 +38,4 @@ zh_CN:
       title: 亚马逊应用商店
     dl_apk_text:
       before: 您也可以下载为
-      after: （实验性的）
+      after: （实验性）

@@ -126,7 +126,7 @@ Delta Chat 自动显示：
 
 ### 什么是已验证群组？为什么它是实验性的？
 
-- 已验证群组是一个面对主动攻击者时可保证安全的聊天。已验证聊天视图中的所有消息都是端到端加密的，成员可以通过扫描“邀请二维码”加入。这样，所有成员都通过邀请链相互连接，从而保证了面对主动攻击网络和提供商攻击时的加密一致性。查看 [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) 来了解该功能背后的研发。
+- 已验证群组是一个面对主动攻击者时可保证安全的聊天。已验证聊天视图中的所有消息都是端到端加密的，成员可以通过扫描“邀请二维码”加入。这样，所有成员都通过邀请链相互连接，从而保证了面对主动攻击网络和提供商攻击时的加密一致性。要了解该功能背后的研发，请参阅 [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)。
 
 - 在 2019 年 12 月，“已验证群组”仍然是实验性功能。自 2018 年引入后，该功能一直在不断改进，并且许多 bug 得到了修复。然而，仍然存在出现不一致或消息变得不可读的情况，特别是在大型群组中。2020 年初，一个安全审查将会进行，并且围绕二维码加入协议的多项新开发正在进行中。所以，或许在不远的将来我们就能移除“实验性的”标签。
 
@@ -147,328 +147,198 @@ Delta Chat 自动显示：
 
 - 消息被一半以上的接收者在屏幕上看到后，会显示双对勾。
 - 请注意，某些接收者可能出于隐私原因禁用了已读回执。
-- 如果群组中超过 50％ 的人禁用了已读回执，那么双对勾将永远不会出现。更多信息，请看[这篇博文](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure)。
+- 如果群组中超过 50％ 的人禁用了已读回执，那么双对勾将永远不会出现。更多信息，请参阅[这篇博文](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure)。
 
 
 ## 加密 {#encryption}
 
 ### Delta Chat 支持端到端加密吗？
 
-- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
-  thus E2E-encrypt messages with other Autocrypt-capable apps. 
+- 是的。Delta Chat 实现了 Autocrypt 级别 1 标准，因此可以与其他支持 Autocrypt 的应用程序进行端到端加密的消息收发。 
 
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
+- Delta Chat 还支持一种强端到端加密形式，其甚至可以抵御主动攻击，请参阅“已验证群组”。
 
 
 ### 为了激活端到端加密，我必须做什么？
 
-- Nothing.
+- 什么都不需要。
 
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
+- Delta Chat（以及其他兼容 [Autocrypt](https://autocrypt.org) 的电子邮件应用程序）会在第一条消息发送时自动分享端到端加密所需的密钥。 
+在此之后，后续所有消息都将自动被端到端加密。
+如果有一个聊天伙伴使用非 Autocrypt 电子邮件应用程序，那么在兼容 Autocrypt 的应用可用之前，后续消息不会被加密。
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
+- 如果您希望默认不使用端到端加密的电子邮件，请修改“设置”或“高级设置”里的相关 Autocrypt 设置。
 
 
 ### 如果端到端加密不可用，则连接是否完全未加密？
 
-- With most mail servers, Delta Chat establishes _transport encryption_
-  ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
-  This only secures the connection between your device and your e-mail
-  server. Whereas e2e-encryption provides safety between 
-  your device and a friend's device. 
+- 对于大多数邮件服务器，Delta Chat 会建立 _传输加密_ （[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)）。这仅能保护您的设备和电子邮件服务器之间的连接。而端到端加密可提供在您的设备和朋友设备之间的安全性。 
 
 
 ### 如何与发送者验证加密状态？ 
 
-If you are within immediate distance of the chat partner:
+如果聊天伙伴在您的旁边：
 
-- Select **QR Invite code** on one device and then **Scan QR code**
-  on the other one and scan the code. If both devices are online,
-  they will introduce a chat channel with each-other (if it doesn't exist already) 
-  and the encryption keys will also be verified.  Both will see a
-  "sender verified" system message in their 1:1 chat. 
+- 在一台设备上选择**邀请二维码**，然后在另一台设备上选择**扫描二维码**并扫描显示的二维码。如果两台设备都在线，则他们会在彼此间引入一个聊天频道（如果尚未存在）并验证加密密钥。双方都会在一对一聊天中看到“发送者已验证”系统消息。
 
-If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop):
+如果您离聊天伙伴比较远，您可以在“加密”对话框（在 Android/iOS 的用户概要中，或在桌面版右键一个用户的聊天列表项）中手动检查加密状态：
 
-- For end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If the same fingerprints appear on your chat partner's device, 
-  the connection is safe.
+- 对于端到端加密，Delta Chat 会在这里显示两个指纹。如果相同的指纹出现在聊天伙伴的设备上，那么连接就是安全的。
 
-- For transport encryption, this state is just shown there
+- 对于传输加密，状态就显示在那儿。
 
 
 ### 如何检查消息的加密状态？
 
-- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
+- 消息旁边的小**挂锁**会指示该消息是否在给定的发送者那里进行了端到端加密。
 
-- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
+- 如果**没有挂锁**，那么消息一般是未经加密传输的。例如：您或者发送者关掉了端到端加密，或者发送者使用了不支持端到端加密的应用程序。
 
 ### 端到端加密使用了哪些标准？
 
-- [Autocrypt](https://autocrypt.org) is used for establishing
-  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. 
+- [Autocrypt](https://autocrypt.org) 被用于和其他 Delta Chat 客户端以及其他兼容 Autocrypt 的邮件应用建立端到端加密。Autocrypt 使用了OpenPGP 功能的一个有限子集。
 
-- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
-  base protection of Autocrypt Level 1, while maintaining its ease of use.  
+- Delta Chat 实现了 [countermitm 设置联系人与已验证群组协议](https://countermitm.readthedocs.io/en/latest/new.html)以实现针对主动网络攻击的防护。这超越了基于乐观防护的 Autocrypt 级别 1，同时保持了其易用性。
 
-### 和已验证联系人的一对一聊天与已验证群组有什么区别 ？
+### 已验证群组和跟已验证联系人的一对一聊天有什么区别 ？
 
-- 1:1 chats with a verified contact and verified groups are not the same, even
-  if there are only 2 people in the verified group. One difference is that you
-  could easily add more people to the group, but there are other implications as
-  well.
+- 即使已验证群组中只有两个人，跟已验证联系人的一对一聊天和已验证群组也是不同的。一个区别是您可以轻松地将更多人添加到群组中。除此以外，还有其他的不明显区别。
 
-- Verified groups are invariably secured. Any breakage (cleartext or wrongly
-  signed messages etc.) will be flagged and such messages will not be shown in
-  this chat. You can trust all messages in this verified-checkmark chat to have
-  not been read/altered by middle parties.
+- 已验证群组始终是受保护的。任何破损（明文或签名错误的消息等）都将被标记，并且此类消息不会在该聊天中显示。您可以相信：在这个带有已验证标记的聊天中，所有消息都没有被中间人阅读或修改。 
 
-- 1:1 chats are opportunistic, it is meant to allow people to communicate no
-  matter if they change e-mail clients, devices, setups etc. That's why there
-  is no verification checkmark, even if you have verified the contact.
+- 一对一聊天是乐观的，这意味着无论人们是否更改/更换了电子邮件客户端、设备和设置等东西，他们都可以进行交流。这就是即使您已经验证了联系人也不会有已验证标记的原因。
 
 
 ### Delta Chat 支持前向保密吗？
 
-- No, OpenPGP doesn't support Perfect Forward Secrecy. Perfect Forward Secrecy
-  works session-oriented, but E-Mail is asynchronous by nature
-  and often used from multiple devices independently. This means that if your
-  Delta Chat private key is leaked, and someone has a record
-  of all your in-transit messages, they will be able to read them.  
+- 不支持。OpenPGP 不支持前向保密。前向保密是面向会话的；而电子邮件天生是异步的，并且经常在多个设备上独立使用。这意味着如果您的 Delta Chat 私钥泄露了，并且某（些）人记录了您所有的在途消息，那么他（们）就能读取这些消息。
 
-- Note that if anyone has seized or hacked your running phone, they will
-  typically be able to read all messages, no matter if Perfect Forward Secrecy
-  is in place or not. Having access to a single device from a member of a group,
-  will typically expose a lot of the social graph. Using e-mail addresses that
-  are not easily tracked back to persons helps group members to stay safer from
-  the effects of device seizure. 
+- 请注意，如果有人夺走或入侵了您正在运行的手机，则无论是否有“前向保密”功能，他们通常都可以阅读所有消息。只要能访问到一个群组成员的单个设备，通常就会暴露出大量社交关系网的内容。而使用不易回溯到人员的电子邮件地址，则可使群组成员在面对设备夺取时更安全。
 
-- We are sketching ways to protect communications better against the event
-  of device seizure. 
+- 我们正在起草一些方案，以在发生设备夺取事件的时候更好地保护通讯。
 
 
 ### Delta Chat 如何保护我的元数据？
 
-- As Delta Chat is a decentralized messenger, the metadata of Delta Chat users
-  are not stored on a single central server. However, they are stored on the mail
-  servers of the sender and the recipient of a message.
+- 由于 Delta Chat 是去中心化的通信软件，Delta Chat 用户的元数据不会存储在单个中央服务器上。不过，它们会被存储在发送者和接收者的邮件服务器上。
 
-- Each mail server currently knows about who sent and who received a message by 
-  inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
-  are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
-  and always put them only into the encrypted section. See 
-  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
-  For opportunistic chats the main concern is how it affects other mail apps who 
-  might participate in chats. 
+- 目前，每个邮件服务器可以通过检查未加密的 To/Cc 头来知道谁发送了消息、谁接收了消息并判断哪些电子邮件地址是群组的一部分。Delta Chat 本身完全可以避开未加密的To/Cc 头，并始终只将它们放入加密部分。请参阅[不为已验证群组发送 To/CC 头](https://github.com/deltachat/deltachat-core-rust/issues/1032)。对于乐观聊天，主要关心的是这会如何影响参与聊天的其他邮件应用程序。
 
-- Many other e-mail headers, in particular the "Subject" header, are
-  end-to-end-encryption protected, see also this upcoming [IETF
-  RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
+- 许多其他的电子邮件头，尤其是“Subject”头，是受端到端加密保护的。请参阅将要发布的 [IETF RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/)。
 
 
 ### 我可以重复使用现有的私钥吗？
 
-- Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+- 是的。最好的方法是从其他电子邮件客户端发送 Autocrypt 设置消息。在其他客户端的设置中寻找类似于**启动 Autocrypt 设置传输**的东西，然后按那里显示的指示操作。
 
-- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- 或者，您可以用“设置”或“高级设置”里面的“导入密钥”来手动导入密钥。注意：请确保密钥不受密码保护，或提前移除密码。
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it. 
+如果您没有密钥或者根本就不知道自己是否需要一个——不用担心：Delta Chat 会在需要时自动生成密钥，您不必为此按一个按钮。
 
 
 ### 我无法将现有的 PGP 密钥导入 Delta Chat。
 
-The most likely cause is that your key is encrypted and/or uses
-a password. Such keys are not supported by Delta Chat.  You could remove the
-passphrase encryption and the password and try the import again.  If you want
-to keep your passphrase you'll have to create an e-mail alias for use
-with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
+最可能的原因是您的密钥被加密了和/或使用了密码。Delta Chat 不支持这样的密钥。您可以移除密码，之后再尝试导入。如果想保留密码，您需要创建电子邮件别名来使用 Delta Chat ，这样 Delta Chat 的密钥是绑定到这个电子邮件别名上的。
 
-Delta Chat supports common OpenPGP private key formats, however, it
-is unlikely that private keys from all sources will be fully supported. This
-is not the main goal of Delta Chat. In fact, the majority of new users 
-will not have any key prior to using Delta Chat.
-We do, however, try to support private keys from as many sources as possible. 
+Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来源的私钥都被完整支持。这不是 Delta Chat 的主要目标。实际上，大多数新用户在使用 Delta Chat 之前根本没有密钥。不过，我们确实在尝试支持尽可能多的私钥来源。
 
-Removing the password from the private key will depend on the
-software you use to manage your PGP keys. With Enigmail, you can set your
-password to an empty value in the Key Management window. With GnuPG you can set
-it [via the command
-line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
-For other programs, you should be able to find a solution online.
+移除私钥密码的操作取决于您用于管理 PGP 密钥的软件。对于 Enigmail，您可以在密钥管理窗口中将密码设为空值。 对于 GnuPG，您可以[通过命令行](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429)来进行设置。对于其他程序，您应该能在网上找到解决方案。
 
 
 ### 为什么不使用 pEp（pretty easy privacy）？
 
-- Delta Chat uses the Autocrypt e2e-encryption standard. For
-  a discussion of Autocrypt and pEp, see the [Autocrypt
-  FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
+- Delta Chat 使用 Autocrypt 端到端加密标准。有关 Autocrypt 与 pEp 的讨论，请参阅 [Autocrypt 常见问题](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep)。
 
 
 ## 多客户端 {#multiclient}
 
 ### 我能同时在多个设备上使用 Delta Chat 吗?
 
-If you want to use the **same account** on different devices, you should export
-a backup from the old device, and import it into the new device:
+要在不同设备上使用**相同帐户**，请从旧设备导出备份，然后将其导入新设备：
 
-- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- 在旧设备上，转到“设置”或“设置/聊天与媒体”，然后转到“备份”。输入屏幕解锁 PIN 码、图案或密码。然后点击“开始备份”。这会将备份文件保存到您的设备上。现在您必须用某种方法将备份文件传输到其他设备。
+- 在新设备的登录界面，请选择“导入备份”而不是登录您的电子邮件账户。在导入后，您的对话、加密密钥和媒体将会复制到新设备。
+- 您现在已经同步了，并且可以使用两台设备与您的通信伙伴收发端到端加密消息。
 
 ### 有推出 Delta Chat Web 客户端的计划吗？
 
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
-  [get.delta.chat](https://get.delta.chat).
+- 目前没有计划，但有一些初步的想法。
+- 有 2-3 种途径来实现 Delta Chat Web 客户端，但是它们都需要巨大的工作量。目前，我们专注于将稳定的版本作为本地应用程序发布到所有应用程序商店（Google Play/iOS/Windows/macOS/Linux 仓库）。
+- 如果是因为不能在工作的电脑上安装软件而需要一个 Web 客户端，您可以使用便携版的 Windows 桌面客户端，或者在 Linux 上使用 AppImage 版。您可以在 [get.delta.chat](https://get.delta.chat) 找到它们。
 
 
 ### 为什么我可以选择不监视收件箱？
 
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
+这是提供给尝试服务器端规则的人的实验性设置。在使用某些电子邮件提供商时，您可以将所有带有"Chat-Version"头的邮件移入 DeltaChat 文件夹。并不是所有的提供商都支持此操作；通常情况下，这是由 Delta Chat 应用完成的。
 
-Watching the Inbox makes sense to turn off, if you have both:
+如果您同时进行了下列设置，则可以选择不监视收件箱：
 
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
+- 已经启用了将带有 Chat-Version 头的所有消息移入 DeltaChat 文件夹的服务器端规则；和
+- 已将“显示传统电子邮件”设置为“不显示，仅聊天”。
 
-In this case, Delta Chat doesn't need to watch the Inbox.
+在这种情况下，Delta Chat 不需要监视收件箱。
 
 ### “给自己发送副本”设置有什么用处？
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device. 
+向自己发送消息的副本可以确保您在所有设备上收到自己的消息。如果您使用多台设备并且没有打开此设置，那么您将只能看到其他人发过来的消息和您从当前设备发出的消息。
 
-The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
+副本会被发送到收件箱，然后会被移动到 DeltaChat 文件夹；它不会被放到“已发送”文件夹里。Delta Chat *从不*将东西上传到已发送文件夹，因为这意味着上传一条消息两次（一次通过 SMTP，一次通过 IMAP 到已发送文件夹）。
 
-The default setting for copy-to-self is "no".
+给自己发送副本的默认设置是“不”。
 
 ### 为什么我可以选择监视“已发送”文件夹？
 
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
+监视已发送文件夹的唯一原因是：您在同时使用其他的邮件应用程序（比如 Thunderbird），并且想让邮件分发代理参与聊天对话。
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms. 
+不过，我们推荐使用 Delta Chat 桌面客户端；您可以在 [get.delta.chat](https://get.delta.chat) 下载它。监视“已发送”文件夹的选项是在还没有 Delta Chat 桌面客户端的时候引入的，这个选项可能会在未来消失。
 
 ### 为什么我可以选择不监视 DeltaChat 文件夹？
 
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
+有些人将 Delta Chat 用作常规电子邮件客户端并希望将收件箱文件夹用于其邮件，而不是使用 DeltaChat 文件夹。如果禁用“监视 DeltaChat 文件夹”，则还应该禁用“将聊天消息移动到 DeltaChat”。否则，删除消息或多设备设置可能无法正常工作。
 
 ## 杂项
 
 ### Delta Chat 可用于 _我的_ 电子邮件提供商吗？
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly,
-  see [Provider Overview](https://providers.delta.chat)
+- 有很大的可能性是：可以的 :) 
+  不过，某些提供商需要一些特殊设置才能正常工作，请参阅[提供商概览](https://providers.delta.chat)
 
 
 ### 使用电子邮件的 Delta Chat 真的是 _即时_ 通讯工具吗？
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in the background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occasionally. This artificial delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
-- However, Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- 通常情况下，发送和接收消息会花费数秒。收发消息有时会花费更长时间；但是对于其他的通信软件来说，这也是真的。
+- 在双方都积极使用本应用时，即时聊天反应迅速；而当应用运行在后台时，有时就会很慢。
+- 由于 Android 与 iOS 都经常阻止 Delta Chat 在后台运行或只是偶尔将其唤醒，接收消息可能要花费数分钟。iOS 上的这种人为延迟通常比 Android 上的更糟糕。
+- 请注意 Delta Chat 不使用 Google Cloud Messaging （GCM）或 Apple 推送通知服务（APNS），因为这会导致 Delta Chat 尽力避免的用户跟踪和中央控制。
+- 另外，对于很多正常应用来说，Android 和 iOS 杀掉后台应用是一个问题。更多信息，请参阅 [dontkillmyapp.com](https://dontkillmyapp.com/)。
 
 
 ### Delta Chat 与 Protonmail / Tutanota / Criptext 兼容吗？
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- 兼容，也不兼容。
+- 您不能用 Protonmail、Tutanota 或 Criptext 账户来使用 Delta Chat；它们不支持使用 IMAP 接收邮件。
+- 无论如何，您都可以使用 Delta Chat 将消息发送给使用 Protonmail、Tutanota 或 Criptext 的人。然而，这些消息不会被端到端加密。这些提供商提供的端到端加密仅能在其平台内部使用，不能用于平台外的任何人。
+- Delta Chat 可以通过任何电子邮件提供商与[使用了Autocrypt 的电子邮件应用](https://autocrypt.org/dev-status.html)进行端到端加密。
 
 
 ### 我对技术细节很感兴趣。能告诉我更多吗？
 
-- See [Standards used in Delta Chat]({% include standards-url %}).
+- 请参阅 [Delta Chat 中使用的标准]({% include standards-url %})。
 
 ### Delta Chat 的开发是如何被资助的? 
 
-First of all, Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
+首先，Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产生巨额利润或将用户及其朋友和家人卖给广告商（或更糟）的压力。
 
-Delta Chat developments have so far been funded from four major sources: 
+到目前为止，对 Delta Chat 开发的资助有四个主要来源：
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018. 
+- 在 2017 年和 2018 年，[NEXTLEAP](https://nextleap.eu) 欧洲计划资助了已验证群组和设置联系人协议的研究与实现。
 
-- The [Open Technology Fund](https://opentechfund.org) has given two grants.
-  The first 2018/2019 grant (~$200K) majorly improved the Android app 
-  and allowed us to release a Desktop app beta version, and also 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  See the 
-  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+- [开放技术基金](https://opentechfund.org)提供了两笔赠款。2018/2019 年的第一笔赠款（约 20 万美元）显著改善了安卓应用，允许我们发布一个桌面测试版，同时还使我们根据人权方面的用户体验研究进行了功能开发，请参阅我们的结论[《需求发现与用户体验报告》](https://delta.chat/en/2019-07-19-uxreport)。2019/2020 年的第二笔赠款（约 30 万美元）仍在进行中。这笔赠款帮助我们发布 Delta/iOS 版本，将核心库转换到 Rust，以及为所有平台提供新功能。您可以在我们的[博客](https://delta.chat/en/blog)上找到最新信息。 
 
-- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+- [NLnet 基金会](https://nlnet.nl/)捐赠了 4.6 万欧元，用于完成 Rust/Python 绑定与建立聊天机器人生态系统。
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
-  small amounts. Without them, Delta Chat would not be where it is today, not
-  even close. 
+- 最后但并非最不重要的是，数位专家与热心人在没有收到或仅收到少量金钱的情况下为 Delta Chat 的开发做出了贡献。没有他们，Delta Chat 不会发展到、甚至无法接近目前的状况。
 
-The monetary funding mentioned above was organized by merlinux GmbH in
-Freiburg (Germany), and then distributed to almost a dozen contributors. 
+上面提到的钱款资助是由在弗赖堡（德国）的 merlinux GmbH 组织的，然后分发给了十来个贡献者。
 
-Funding for 2020/2021 is yet to be determined. We are pursuing several
-opportunities with different organisations and partners. We also are
-considering to ask for donations. In fact, we experimentally started
-a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
-but have not published this yet.  There were also around 3-4K so far
-donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
-donation channels.  
+2020/2021 年的资助尚未确定。我们正在与各种组织和合作伙伴一起寻求一些机会。我们也在考虑请求捐款。实际上，我们实验性地开设了一个 [Delta Chat / Liberapay 捐款账户](https://liberapay.com/delta.chat/)，但是还未发布。到目前为止，我们还通过 Bjoern（Delta Chat 的原作者）的 PayPal 和比特币捐款渠道收到了 3-4 千欧元。

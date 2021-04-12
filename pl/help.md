@@ -9,7 +9,7 @@ header: Często Zadawane Pytania
 ## Czym jest Delta Chat?
 
 Delta Chat to nowa aplikacja do czatowania, która wysyła wiadomości e-mailem, w miarę możliwości zaszyfrowane przy użyciu Autocrypt.
-** Nie musisz się nigdzie rejestrować, po prostu użyj swojego istniejącego konta e-mail w Delta Chat. **
+**Nie musisz się nigdzie rejestrować, po prostu użyj swojego istniejącego konta e-mail w Delta Chat.**
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
@@ -45,7 +45,7 @@ Delta Chat automatycznie pokazuje:
 - Wiadomości od kontaktów, z którymi **się kontaktujesz**
 - **Odpowiedzi** na wiadomości wysyłane przez ciebie
 
-Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
+Inne wiadomości nie pojawiają się automatycznie i można je znaleźć w **Prośby o kontakt**. W razie potrzeby można rozpocząć czat.
 
 
 ### A co ze spamem?
@@ -86,42 +86,42 @@ Ponieważ Delta Chat jest Open Source, możesz sprawdzić [Kod źródłowy](http
 jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny sposób. Cieszymy się z opinii, które sprawiają, że aplikacja jest bezpieczniejsza dla wszystkich naszych użytkowników. 
 
 
-### Which permissions does Delta Chat need?
+### Jakich uprawnień potrzebuje Delta Chat?
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+W zależności od używanego systemu operacyjnego możesz
+zostać poproszony o przyznanie uprawnień aplikacji.
+Oto, co robi Delta Chat z tymi uprawnieniami:
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for users who want to receive messages all the time
+- Aparat *(można zablokować)*
+ - robi zdjęcia i filmy: do wysyłania zdjęć
+- Kontakty *(można zablokować)*
+ - czyta twoje kontakty: aby znaleźć kontakty do czatu
+- Lokalizacja *(można zablokować)*
+ - dostęp do przybliżonej lokalizacji (sieciowe źródła lokalizacji): dla funkcji przesyłania strumieniowego lokalizacji
+ - dostęp do dokładnej lokalizacji (GPS i sieciowe źródła lokalizacji): dla funkcji przesyłania strumieniowego lokalizacji
+- Mikrofon *(można zablokować)*
+ - nagrywanie dźwięku: dla wiadomości audio
+- Przechowywanie *(można zablokować)*
+ - modyfikowanie lub usuwanie zawartości karty SD: pobieranie załączników do wiadomości
+ - czytanie zawartość twojej karty SD: aby udostępniać pliki swoim kontaktom
+- Inne możliwości aplikacji
+ - zmiana ustawienia dźwięku: możesz wybrać dzwonki i głośność dla powiadomień i wiadomości audio
+ - uruchamianie przy starcie: więc nie musisz ręcznie uruchamiać Delta Chat
+ - kontrola wibracji: do powiadomień
+ - przeglądanie połączenia sieciowych: aby połączyć się z dostawcą poczty e-mail
+ - zapobieganie uśpieniu telefonu: dzięki czemu możesz łatwiej skopiować kod zabezpieczający podczas komunikatu konfiguracyjnego Autocrypt
+ - pełny dostęp do sieci: aby połączyć się z dostawcą poczty e-mail
+ - wyświetlanie połączenia Wi-Fi: aby połączyć się z dostawcą poczty e-mail
+ - prośba o zignorowanie optymalizacji baterii: dla użytkowników, którzy chcą otrzymywać wiadomości przez cały czas 
 
 
 ## Grupy
 
 ### Tworzenie grupy
 
-- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
-- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Wybierz **Nowy czat**, a następnie **Nowa grupa** z menu w prawym górnym rogu lub naciśnij odpowiedni przycisk na Androidzie / iOS.
+- Na następnym ekranie wybierz **członków grupy** i zdefiniuj **nazwę grupy**. Możesz też wybrać awatar **grupy**. 
+- Zaraz po napisaniu pierwszej wiadomości w grupie wszyscy członkowie zostaną poinformowani o nowej grupie i mogą odpowiedzieć w grupie (jeżeli nie napiszesz wiadomości w grupie, grupa jest niewidoczna dla członków).
 
 
 ### Dodanie członków do grupy
@@ -130,23 +130,12 @@ This is what Delta Chat does with these permissions:
 - Aby dodać lub usunąć członków, kliknij nazwę grupy na czacie. 
 
 
-### What is a verified group? Why is it experimental? 
+## Co to jest zweryfikowana grupa? Dlaczego jest eksperymentalna?
 
-- A verified group is a chat that guarantees safety against an active
-  attacker.  All Messages in a verified chat view are e2e-encrypted, and
-  members can join by scanning a "QR invite code".  All members are thus 
-  connected with each other through a chain of invites, which guarantee 
-  cryptographic consistency against active network or provider attacks. 
-  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-  for the R&D behind this feature. 
+- Zweryfikowana grupa to czat, który gwarantuje bezpieczeństwo przed aktywnym napastnikiem. Wszystkie wiadomości w zweryfikowanym widoku czatu są szyfrowane za pomocą e2e, a członkowie mogą dołączyć, skanując „kod QR zaproszenia”. Wszyscy członkowie są więc połączeni ze sobą za pomocą łańcucha zaproszeń, który gwarantuje kryptograficzną spójność przed aktywnymi atakami sieci lub dostawców.
+Zobacz [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) odpowiedzialny za badania i rozwój tej funkcji.
 
-- As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continuously improved and many bugs have been fixed since the
-  original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occur, or messages become 
-  unreadable.  Early 2020 a security review is upcoming, and several new
-  developments around qr-join protocols are taking place so chances
-  are we remove the "experimental" label not too far in the future. 
+- Od grudnia 2019 r. „Zweryfikowana grupa” pozostaje funkcją eksperymentalną. Jest stale ulepszana, a wiele błędów zostało naprawionych od czasu pierwotnego wprowadzenia w 2018 r. Pozostają jednak przypadki, zwłaszcza w dużych grupach, w których mogą wystąpić niespójności lub komunikaty stają się nieczytelne. Na początku 2020 r. nadchodzi przegląd bezpieczeństwa i ma miejsce kilka nowych zmian dotyczących protokołów qr-join, więc są szanse, że wkrótce usuniemy etykietę „eksperymentalna”.
 
 
 ### Usunąłem się przez przypadek.
