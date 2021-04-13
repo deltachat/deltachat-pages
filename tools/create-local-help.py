@@ -82,6 +82,7 @@ def generate_help(destdir, add_top_links=False):
     generate_lang(destdir, "nl", add_top_links)
     generate_lang(destdir, "ru", add_top_links)
     generate_lang(destdir, "sq", add_top_links)
+    generate_lang(destdir, "zh_CN", add_top_links)
     for linked_file in linked_files:
         local_file = destdir + "/" + linked_file.split("/")[-1]
         copyfile(linked_file, local_file)
