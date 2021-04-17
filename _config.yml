@@ -30,4 +30,4 @@ plugins:
   - jekyll-sitemap
 
 # the tools directory contains cached files downloaded from transifex, ignore it
-exclude: ["tools"]
+exclude: ["tools", "venv"]
