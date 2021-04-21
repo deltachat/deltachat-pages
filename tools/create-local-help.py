@@ -111,7 +111,7 @@ if __name__ == "__main__":
     else:
         print("add links back to top of file: no")
 
-    if not os.path.isdir(destdir):
+    if not os.path.isdir(srcdir):
         raise SystemExit("Error: " + srcdir + " is no existent directory.")
 
     if not os.path.isdir(destdir):
