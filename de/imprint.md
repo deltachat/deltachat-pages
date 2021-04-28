@@ -5,7 +5,7 @@ lang: de
 
 # Impressum
 
-Delta.Chat ist ein  Open Source Community Projekt. Verantwortlich für den Inhalt auf diesen Seiten ist:
+Delta.Chat ist ein Open Source Community-Projekt. Verantwortlich für den Inhalt auf diesen Seiten ist:
 
     Merlinux GmbH
     Reichsgrafenstr. 20

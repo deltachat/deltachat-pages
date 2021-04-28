@@ -37,7 +37,7 @@ _"Ja, unser Unternehmen migriert
 alle Abrechnungs- und Ausfallbenachrichtigungssysteme
 von Telegram zu Delta Chat
 um die Vertraulichkeit zu verbessern,
-Daher senden unsere Kameras nun Warnmeldungen bei Erkennung von Eindringlingen
+daher senden unsere Kameras nun Warnmeldungen bei Erkennung von Eindringlingen
 an eine Delta-Chat-Gruppe."_
 
 **Früher Benutzer**, 2018, aus dem [Support-Forum](https://support.delta.chat/t/clear-chat-function/163/6)
@@ -46,8 +46,8 @@ an eine Delta-Chat-Gruppe."_
 ### E-Mail funktioniert immer
 
 _"Ich bin wirklich froh, dass DeltaChat existiert und dass ich es entdeckt habe.
-Als sehr früher WhatsApp-Benutzer habe ich, aus Datenschutz- und Sicherheitsgründen, aufgehört WhatsApp zu verwenden. 
-Ich habe deshalb immer noch unterbrochene Kontakte - 
+Als sehr früher WhatsApp-Benutzer habe ich, aus Datenschutz- und Sicherheitsgründen, aufgehört, WhatsApp zu verwenden. 
+Ich habe deshalb immer noch unterbrochene Kontakte,
 ich mache viel Werbung für Alternativen, aber der Markt ist einfach zu fragmentiert.
 Delta ist DIE Lösung für alle, die mindestens eine Alternative zulassen - E-Mail funktioniert immer! :)_
 
@@ -80,9 +80,9 @@ Es ist vollständig dezentralisiert, stark verschlüsselt und Sie können jeden 
 
 **Gaël Duval**, Gründer Mandrake Linux, via [Twitter](https://twitter.com/gael_duval/status/1122906779002777600)
 
-### Dezentralisiert, aber einfach
+### Dezentralisiert, aber einfach für Anwender
 
-_"Die Menschen beginnen sich um die Dezentralisierung zu kümmern. Es scheint jedoch, dass für viele Leute das Betreiben von Servern und die Verwendung von Matrix oder XMPP zu kompliziert ist, während Sie Delta nur mit einer E-Mail-Adresse verwenden können."_
+_"Die Menschen beginnen, sich um die Dezentralisierung zu kümmern. Es scheint jedoch, dass für viele Leute das Betreiben von Servern und die Verwendung von Matrix oder XMPP zu kompliziert ist, während Sie Delta mit nur einer E-Mail-Adresse verwenden können."_
 
 **Russischer** LGBT+-Aktivist, aus einer Online-Diskussion auf Telegram
 
@@ -95,9 +95,9 @@ Verwende #DeltaChat mit deinem bisherigen E-Mail-Konto und dezentralisiere das N
 **Benutzer aus Polen**, 2020, via [Twitter](https://twitter.com/MichalNarecki/status/1280820973902745600)
 
 
-### Das dezentralste Kommunikationskonzept das es derzeit gibt
+### Das dezentralste Kommunikationskonzept, das es derzeit gibt
 
-_"Man nehme das dezentralste Kommunikationskonzept das es zur Zeit gibt, E-Mail, und stülpe 'ne Chat-App wie @delta drüber und fertig ist vertrauenswürdige Kommunikation."_
+_"Man nehme das dezentralste Kommunikationskonzept, das es zur Zeit gibt, E-Mail, und stülpe 'ne Chat-App wie @delta drüber und fertig ist vertrauenswürdige Kommunikation."_
 
 **Benutzer aus Deutschland**, 2020, via [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
 
@@ -105,16 +105,16 @@ _"Man nehme das dezentralste Kommunikationskonzept das es zur Zeit gibt, E-Mail,
 ### Open-Source, kein Käfig, standardbasiert
 
 _"Ich verwende @delta_chat seit mehr als einem Jahr:
-Ein großartiger Ersatz für WhatsApp - Open-Source, kein Käfig, standardbasiert!
+Ein großartiger Ersatz für WhatsApp: Open-Source, kein Käfig, standardbasiert!
 Ich bin froh zu wissen, dass die Entwicklung Schritt hält!"_
 
 **Séverin Lemaignan**, 2020, via [Twitter](https://twitter.com/skadge/status/1276515066393878529)
 
 
-### Der Standardweg um Chats zu starten
+### Der Standardweg, um Chats zu starten
 
-_"Erwäge @delta_chat als Stadardweb zum chatten zu nehmen!
-Anders als andere System gibt es den Benutzern an beiden Enden die Macht, über die zu verwendende App zu bestimmen - inklusive Interoperabilität mit all den E-Mail-Programmen."_
+_"Erwäge @delta_chat als Standardweb zum Chatten zu nehmen!
+Anders als andere Systeme gibt es den Benutzern an beiden Enden die Macht, über die zu verwendende App zu bestimmen, inklusive Interoperabilität mit all den E-Mail-Programmen."_
 
 **gozala**, 2020, via [Twitter](https://twitter.com/gozala/status/1281346020664729600)
 

@@ -153,15 +153,11 @@ Zobacz [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest
   nadal będziesz mógł pisać, ale nie będziesz już powiadamiany o żadnych nowych wiadomościach.
 
 
-### What do double ticks mean in group messages? Has everyone read my message now?
+### Co oznaczają podwójne zaznaczenia w wiadomościach grupowych? Czy wszyscy przeczytali teraz moją wiadomość?
 
-- A message shows double ticks after more than half of the recipients have
-  seen the message on their display.
-- Note that some recipients might have disabled read-receipts for
-  privacy-reasons.
-- If more than 50% in a group disabled read receipts, the double ticks will
-  never show up. For more detailed information, see
-  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- Wiadomość jest podwójnie zaznaczona, gdy ponad połowa odbiorców zobaczyła wiadomość na swoim wyświetlaczu.
+- Pamiętaj, że niektórzy odbiorcy mogli wyłączyć potwierdzenia odczytu ze względu na ochronę prywatności.
+- Jeśli ponad 50% w grupie wyłącza potwierdzenia odczytu, podwójne znaczniki nigdy się nie pojawią. Bardziej szczegółowe informacje można znaleźć [w tym poście na blogu. ](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
 
 
 ## Szyfrowanie {#encryption}
@@ -172,8 +168,7 @@ Zobacz [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest
   i może szyfrować wiadomości metodą e2e za pomocą innych 
   aplikacji obsługujących Autocrypt. 
 
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
+- Delta Chat obsługuje również silną formę szyfrowania metodą end-to-end, która jest bezpieczna nawet przed aktywnymi atakami, patrz „Zweryfikowane grupy” poniżej.
 
 
 ### Co muszę zrobić, aby aktywować szyfrowanie end-to-end?
@@ -182,8 +177,7 @@ Zobacz [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest
 
 - Gdy wysyłane są pierwsze wiadomości, aplikacje Delta Chat (i inne zgodne z [Autocrypt](https://autocrypt.org) aplikacje e-mail) automatycznie współdzielą klucze wymagane do szyfrowania metodą end-to-end. Następnie wszystkie kolejne wiadomości są automatycznie szyfrowane end-to-end. Jeśli jeden z partnerów czatu korzysta z aplikacji e-mail bez obsługi Autocrypt, kolejne wiadomości nie są szyfrowane, dopóki aplikacja zgodna z Autocrypt nie będzie ponownie dostępna.
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
+- Jeśli raczej wolisz unikać domyślnie szyfrowanych wiadomości e-mail typu end-to-end, użyj odpowiedniego ustawienia automatycznego szyfrowania w „Ustawieniach” lub „Ustawieniach zaawansowanych”.
 
 
 ### Jeśli nie jest dostępne szyfrowanie typu „end-to-end”, czy połączenie w ogóle nie jest szyfrowane?
@@ -195,16 +189,11 @@ Zobacz [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest
 
 ### Jak mogę zweryfikować status kryptograficzny z nadawcą?
 
-If you are within immediate distance of the chat partner:
+Jeśli jesteś w bezpośredniej odległości od partnera czatu:
 
-- Select **QR Invite code** on one device and then **Scan QR code**
-  on the other one and scan the code. If both devices are online,
-  they will introduce a chat channel with each-other (if it doesn't exist already) 
-  and the encryption keys will also be verified.  Both will see a
-  "sender verified" system message in their 1:1 chat. 
+- Wybierz **Kod QR zaproszenia** na jednym urządzeniu, a następnie **Skanuj kod QR** na drugim i zeskanuj kod. Jeśli oba urządzenia są w trybie online, utworzą ze sobą kanał czatu (jeśli jeszcze nie istnieje), a klucze szyfrowania zostaną zweryfikowane. Obie osoby zobaczą na czacie 1:1 komunikat systemowy „zweryfikowany nadawca”.
 
-If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop):
+Jeśli nie ma cię w pobliżu partnera czatu, możesz sprawdzić stan ręcznie w oknie dialogowym „Szyfrowanie” (profil użytkownika w systemie Android/iOS lub kliknij prawym przyciskiem myszy element listy czatu użytkownika na komputerze):
 
 - W przypadku szyfrowania metodą end-to-end Delta Chat pokazuje tam dwa odciski palców. 
 Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, połączenie jest bezpieczne.
@@ -214,18 +203,15 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
 
 ### Jak mogę sprawdzić szyfrowanie wiadomości?
 
-- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
+- Mała **kłódka** pokazana obok wiadomości wskazuje, czy wiadomość od danego nadawcy jest zaszyfrowana metodą end-to-end.
 
 - Jeśli **nie ma kłódki**, wiadomość jest zazwyczaj przesyłana w postaci niezaszyfrowanej, np. dlatego, że Ty lub nadawca wyłączyliście szyfrowanie typu end-to-end lub nadawca używa aplikacji, która nie obsługuje szyfrowania typu end-to-end.
 
 ### Jakie standardy są stosowane do szyfrowania end-to-end?
 
-- [Autocrypt](https://autocrypt.org) is used for establishing
-  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. 
+- [Autocrypt](https://autocrypt.org) służy do ustanowienia szyfrowania e2e z innymi aplikacjami Delta Chat i innymi aplikacjami poczty obsługującymi Autocrypt. Autocrypt wykorzystuje ograniczony podzbiór funkcjonalności OpenPGP.
 
-- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
-  base protection of Autocrypt Level 1, while maintaining its ease of use.  
+Delta Chat implementuje protokoły [countermitm (przeciwdziałania) setup-contact i verified-group](https://countermitm.readthedocs.io/en/latest/new.html) w celu osiągnięcia ochrony przed aktywnymi atakami sieciowymi. Wykracza to poza oportunistyczną ochronę podstawową Autocrypt Level 1, zachowując jednocześnie łatwość użytkowania.
 
 ### What is the difference between verified groups and 1:1 chats with verified contacts?
 
@@ -286,7 +272,7 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
 
 - Tak. Najlepszym sposobem jest wysłanie wiadomości konfiguracyjnej Autocrypt z innego klienta poczty e-mail. Poszukaj czegoś jak **Start Autocrypt Setup Transfer** w ustawieniach innego klienta i postępuj zgodnie z wyświetlanymi tam instrukcjami.
 
-- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Alternatywnie możesz zaimportować go ręcznie w „Ustawienia” lub „Ustawienia zaawansowane” a następnie „Importuj prywatne klucze”. Uwaga: upewnij się, że klucz nie jest chroniony hasłem lub usuń hasło wcześniej.
 
 Jeśli nie masz klucza lub nawet nie wiesz, że go potrzebujesz  nie przejmuj się: Delta Chat generuje go w razie potrzeby, nie trzeba naciskać przycisku, aby to zrobić. 
 

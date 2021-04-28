@@ -4,12 +4,12 @@ lang: de
 downloads: true
 ---
 
-## Changelogs
+## Änderungsprotokolle
 
-* [Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Delta Chat für Android]({% include changelog-url %})
-* [Delta Chat für iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Delta Chat Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Android]({% include changelog-url %})
+* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Die Desktop-Versionen erfordern keine Installation von Delta Chat auf einem Mobiltelefon.
 
@@ -21,8 +21,8 @@ oder kompatible Systeme.
 
 ## Verweise
 
-* [Provider Datenbank](https://providers.delta.chat/): Funktioniert mein  E-Mail-Provider mit Delta Chat?
-* [FAQ Multi-Client](help#multiclient): Delta Chat Desktop mit einer Delta Chat iOS oder Android synchronisieren
+* [Provider Datenbank](https://providers.delta.chat/): Funktioniert mein E-Mail-Provider mit Delta Chat?
+* [FAQ Multi-Client](help#multiclient): So synchronisieren Sie Desktop mit einer anderen Delta Chat-App.
 * [Downloads verifizieren](verify-downloads): Die Integrität der Downloads sicherstellen
 
 ## Vorschauversionen

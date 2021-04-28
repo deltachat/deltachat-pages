@@ -199,102 +199,59 @@ Delta Chat автоматично показує:
 
 - Delta Chat імплементує [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) аби досягти захисту від активних мережевих атак.  Це виходить за рамки опортуністичного базового захисту Autocrypt Level 1, зберігаючи при цьому простоту його використання.
 
-### What is the difference between verified groups and 1:1 chats with verified contacts?
+### В чому різниця між верифікованими групами та чатами 1:1 з верифікованими контактами?
 
-- 1:1 chats with a verified contact and verified groups are not the same, even
-  if there are only 2 people in the verified group. One difference is that you
-  could easily add more people to the group, but there are other implications as
-  well.
+- чат 1:1 з верифікованим контактом і верифіковані групи - це не одне й те саме, навіть якщо у верифікованій групі лише 2 людини. Одна з відмінностей полягає в тому, що ви можете легко додати більше людей до групи, але є й інші особливості.
 
-- Verified groups are invariably secured. Any breakage (cleartext or wrongly
-  signed messages etc.) will be flagged and such messages will not be shown in
-  this chat. You can trust all messages in this verified-checkmark chat to have
-  not been read/altered by middle parties.
+- Верифіковані групи постійно захищені. Будь-яка неполадка (незашифрований текст або помилково підписані повідомлення тощо) буде позначена, і такі повідомлення не відображатимуться в цьому чаті. Ви можете довіряти тому, що всі повідомлення в цьому чаті, з позначенням галочкою як верифікованого, не були прочитані/змінені посередниками.
 
-- 1:1 chats are opportunistic, it is meant to allow people to communicate no
-  matter if they change e-mail clients, devices, setups etc. That's why there
-  is no verification checkmark, even if you have verified the contact.
+- Чати 1:1 є опортуністичними, вони призначені для того, щоб дозволити людям спілкуватися незалежно від того, змінюють вони клієнти електронної пошти, пристрої, налаштування тощо. Ось чому немає галочки верифікації, навіть якщо ви верифікували контакт.
 
 
-### Does Delta Chat support Perfect Forward Secrecy?
+### Чи підтримує Delta Chat Perfect Forward Secrecy?
 
-- No, OpenPGP doesn't support Perfect Forward Secrecy. Perfect Forward Secrecy
-  works session-oriented, but E-Mail is asynchronous by nature
-  and often used from multiple devices independently. This means that if your
-  Delta Chat private key is leaked, and someone has a record
-  of all your in-transit messages, they will be able to read them.  
+- Ні, OpenPGP не підтримує Perfect Forward Secrecy. Perfect Forward Secrecy орієнтовна на сесійну роботу, а електронна пошта асинхронна за своєю природою і часто використовується незалежно на декількох пристроях. Це означає, що якщо ваш приватний ключ витік і хтось зберіг ваші повідомлення, він зможе прочитати їх.
 
-- Note that if anyone has seized or hacked your running phone, they will
-  typically be able to read all messages, no matter if Perfect Forward Secrecy
-  is in place or not. Having access to a single device from a member of a group,
-  will typically expose a lot of the social graph. Using e-mail addresses that
-  are not easily tracked back to persons helps group members to stay safer from
-  the effects of device seizure. 
+- Зверніть увагу: якщо хтось вилучить або зламає ваш телефон, що працює, вони зможуть, зазвичай, прочитати всі повідомлення, не має значення присутня Perfect Forward Secrecy чи ні. Маючи доступ до одного пристрою члена групи можна відкрити багато соціальних зв'язків. Використання електронних адрес, які нелегко відстежити до особи, допомагає учасникам групи захиститися від наслідків захоплення пристрою.
 
-- We are sketching ways to protect communications better against the event
-  of device seizure. 
+- Ми розробляємо схеми кращого захисту комунікацій від вилучення пристрою. 
 
 
-### How does Delta Chat protect my Metadata?
+### Яким чином Delta Chat захищає мої метадані?
 
-- As Delta Chat is a decentralized messenger, the metadata of Delta Chat users
-  are not stored on a single central server. However, they are stored on the mail
-  servers of the sender and the recipient of a message.
+- Оскільки Delta Chat це децентралізований месенджер, метадані користувачів Delta Chat не зберігаються на жодному центральному сервері. Однак вони зберігаються на поштових серверах відправника та отримувача повідомлення.
 
-- Each mail server currently knows about who sent and who received a message by 
-  inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
-  are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
-  and always put them only into the encrypted section. See 
-  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
-  For opportunistic chats the main concern is how it affects other mail apps who 
-  might participate in chats. 
+- Кожен поштовий сервер наразі знає про те хто відправив і хто отримав повідомлення через незашифровані заголовки To/Cc, таким чином визначаючи хто є членом групи. Delta Chat сам може уникнути незашифрованих заголовків To/Cc і завжди розміщує їх у зашифрованій частині. Див. [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). Для опортуністичних чатів головним питанням є те, як це впливає на інші поштові програми, які можуть брати участь у чатах.
 
-- Many other e-mail headers, in particular the "Subject" header, are
-  end-to-end-encryption protected, see also this upcoming [IETF
-  RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
+- Багато інших заголовків електронної пошти, зокрема заголовок "Subject", захищені наскрізним шифруванням, дивіться також майбутній [IETF RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
-### Can I reuse my existing private key?
+## Чи можна повторно використовувати існуючий закритий ключ?
 
-- Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+- Так. Найпростіший спосіб використати існуючий ключ – відправити повідомлення з параметрами Autocrypt з додатку для роботи з електронною поштою. Знайдіть в налаштуваннях свого додатку слова типу **Почати передачу параметрів Autocrypt** і дотримуйтесь подальших вказівок.
 
-- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Також можливо виконати імпорт ключів вручну у "Налаштуваннях" або "Додаткових налаштуваннях" виберіть "Імпортувати секретні ключі. Увага: переконайтеся, що ключі не захищені паролем, або видаліть пароль заздалегідь.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it. 
-
-
-### I can't import my existing PGP key into Delta Chat.
-
-The most likely cause is that your key is encrypted and/or uses
-a password. Such keys are not supported by Delta Chat.  You could remove the
-passphrase encryption and the password and try the import again.  If you want
-to keep your passphrase you'll have to create an e-mail alias for use
-with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
-
-Delta Chat supports common OpenPGP private key formats, however, it
-is unlikely that private keys from all sources will be fully supported. This
-is not the main goal of Delta Chat. In fact, the majority of new users 
-will not have any key prior to using Delta Chat.
-We do, however, try to support private keys from as many sources as possible. 
-
-Removing the password from the private key will depend on the
-software you use to manage your PGP keys. With Enigmail, you can set your
-password to an empty value in the Key Management window. With GnuPG you can set
-it [via the command
-line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
-For other programs, you should be able to find a solution online.
+Якщо у вас немає ключа або ви навіть не знаєте, чи він вам знадобиться - не хвилюйтеся: Delta Chat генерує ключі за необхідності, вам не потрібно натискати для цього кнопку.
 
 
-### Why don't you use pEp (pretty easy privacy)?
+### Я не можу імпортувати свій існуючий PGP ключ у Delta Chat.
 
-- Delta Chat uses the Autocrypt e2e-encryption standard. For
-  a discussion of Autocrypt and pEp, see the [Autocrypt
-  FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
+Найімовірнішою причиною є те, що ваш ключ зашифрований та/або використовується пароль. Такі ключі не підтримуються Delta Chat. Ви можете видалити шифрування парольної фрази та пароль і спробувати імпорт знову. Якщо ви хочете зберегти свою парольну фразу, вам доведеться створити псевдонім електронної пошти для використання з Delta Chat, щоб ключ Delta Chat був прив’язаний до цього псевдоніма електронної пошти.
+
+Delta Chat підтримує поширені формати приватних ключів OpenPGP, однак навряд чи приватні ключі з усіх джерел будуть повністю підтримуватися. Це не головна мета Delta Chat. Фактично, більшість нових користувачів не матимуть жодного ключа до використання Delta Chat. Однак ми намагаємось підтримувати приватні ключі з якомога більшої кількості джерел.
+
+Видалення пароля з приватного ключа буде залежати від програмного забезпечення, яке використовується для управління ключами PGP. За допомогою Enigmail ви можете встановити для порожній пароль у вікні Керування ключами. За допомогою GnuPG ви можете встановити його [через командний рядок](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429). Для інших програм ви зможете знайти рішення в інтернеті.
 
 
-## Multi-client {#multiclient}
+### Чому ви не використовуєте pEp (pretty easy privacy)?
 
-### Can I use Delta Chat on multiple devices at the same time?
+- Delta Chat використовує наскрізне шифрування Autocrypt. Для обговорення Autocrypt та pEp, перейдіть до [Autocrypt FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
+
+
+## Мульти-клієнт {#multiclient}
+
+## Чи можна використовувати Delta Chat на декількох пристроях одночасно?
 
 If you want to use the **same account** on different devices, you should export
 a backup from the old device, and import it into the new device:
