@@ -13,7 +13,7 @@ de:
     help: FAQ
     forum: Forum
 
-  subscribe_to_feed: Abonniere unseren RSS feed!
+  subscribe_to_feed: Abonniere unseren RSS-Feed!
 
   references: Referenzen
   imprint: Impressum
@@ -31,10 +31,10 @@ de:
     dl_mac_appstore: Download aus dem Apple Mac AppStore
     dl_appstore: Download aus dem Apple AppStore
     beta_on: Beta auf
-    dl_fdroid: Beziehe es von F-Droid
-    gplay: Beziehe es von Google Play
+    dl_fdroid: Beziehe es auf F-Droid
+    gplay: Beziehe es auf Google Play
     dl_amazon:
-      small: Beziehe es von
+      small: Beziehe es auf
       title: Amazon Appstore
     dl_apk_text:
       before: Du kannst Delta Chat Android auch als experimentelle
