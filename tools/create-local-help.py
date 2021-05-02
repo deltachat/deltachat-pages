@@ -80,10 +80,13 @@ def generate_help(srcdir, destdir, add_top_links=False):
     generate_lang(srcdir, destdir, "en", add_top_links)
     generate_lang(srcdir, destdir, "es", add_top_links)
     generate_lang(srcdir, destdir, "fr", add_top_links)
+    generate_lang(srcdir, destdir, "id", add_top_links)
     generate_lang(srcdir, destdir, "it", add_top_links)
+    generate_lang(srcdir, destdir, "pl", add_top_links)
     generate_lang(srcdir, destdir, "nl", add_top_links)
     generate_lang(srcdir, destdir, "ru", add_top_links)
     generate_lang(srcdir, destdir, "sq", add_top_links)
+    generate_lang(srcdir, destdir, "uk", add_top_links)
     generate_lang(srcdir, destdir, "zh_CN", add_top_links)
     for linked_file in linked_files:
         srcfile  = srcdir  + "/" + linked_file
