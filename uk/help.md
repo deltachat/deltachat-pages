@@ -253,158 +253,94 @@ Delta Chat підтримує поширені формати приватних
 
 ## Чи можна використовувати Delta Chat на декількох пристроях одночасно?
 
-If you want to use the **same account** on different devices, you should export
-a backup from the old device, and import it into the new device:
+Якщо ви хочете використовувати **один і той же обліковий запис** на різних пристроях, вам слід експортувати резервну копію із старого пристрою та імпортувати її на новий пристрій:
 
-- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- На старому пристрої відкрийте "Налаштування" або "Налаштування / Чати і медіа", а потім "Резервне копіювання". Введіть PIN-код, графічний ключ або пароль для розблокування екрана. Потім ви можете натиснути на "Почати резервне копіювання". Це зберігає файл резервної копії на вашому пристрої. Тепер вам потрібно якось перенести його на інший пристрій. 
+- На новому пристрої, на екрані входу, замість того, щоб входити у свій обліковий запис електронної пошти, виберіть "Імпортувати резервну копію". Після імпорту ваші бесіди, ключі шифрування та медіа файли слід скопіювати на новий пристрій. 
+- Тепер ви синхронізовані і можете використовувати обидва пристрої для надсилання та отримання зашифрованих E2E повідомлень зі своїми партнерами по спілкуванню. 
 
-### Are there any plans for introducing a Delta Chat Web Client?
+### Чи планується впровадження веб-клієнта Delta Chat?
 
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
-  [get.delta.chat](https://get.delta.chat).
+- Немає найближчих планів, крім попередніх думок.
+- Є 2-3 способи створити веб-клієнт Delta Chat, але всі вони вимагають значної роботи. На даний момент ми зосереджені на отриманні стабільних релізів в усіх магазини додатків (Google Play / IOS / Windows / MacOS / репозитаріїв Linux), як нативних додатків.
+- Якщо вам потрібен веб-клієнт, через заборону встановлювати програмне забезпечення на комп’ютері, з яким ви працюєте, ви можете використовувати портативний клієнт Windows Desktop або AppImage для Linux. Ви можете знайти їх на [get.delta.chat](https://get.delta.chat).
 
 
-### Why can I choose not to watch the Inbox?
+### Чому я можу відмовитись від стеження за  папкою "Вхідні"?
 
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
+Це експериментальне налаштування для деяких людей, які експериментують з правилами на стороні сервера. Не всі провайдери підтримують це, але деякі дозволятимуть перемістити всі листи із заголовком "Chat-Version" до папки DeltaChat. Зазвичай це робиться додатком Delta Chat.
 
-Watching the Inbox makes sense to turn off, if you have both:
+Стеження за папкою "Вхідні" має сенс вимкнути, якщо виконуються обидві умови:
 
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
+- увімкнене правило на стороні сервера для переміщення всіх повідомлень із заголовком Chat-Version до папки DeltaChat та
+- встановлено параметр "Показувати класичні електронні листи" у значення "ні, лише чати".
 
-In this case, Delta Chat doesn't need to watch the Inbox.
+У цьому випадку, Delta Chat не потрібно стежити за "Вхідними".
 
-### What is the "Send Copy to Self" setting good for?
+### Для чого потрібне налаштування "Відправити копію собі"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device. 
+Надсилаючи собі копію своїх повідомлень, ви отримуєте власні повідомлення на всіх пристроях. Якщо у вас кілька пристроїв, і ви не вмикаєте це налаштування, ви бачите лише повідомлення інших людей та повідомлення, які ви надсилаєте з поточного пристрою.
 
-The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
+Копія надсилається у папку Вхідні, а потім переміщується до папки DeltaChat; вона не поміщається в папку «Відправлені». Delta Chat *ніколи* не завантажує нічого в папку Надіслане, оскільки це означало б завантаження повідомлень двічі (один раз через SMTP і один раз через IMAP до папки Надіслані).
 
-The default setting for copy-to-self is "no".
+За замовчуванням параметр копії для себе - "ні".
 
-### Why can I choose to watch the "Sent" folder?
+### Чому я можу обрати стеження за  папкою "Надіслані"?
 
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
+Єдина причина, через яку захочеться стежити за папкою Надіслане, полягає в тому, що якщо ви використовуєте іншу поштову програму (наприклад, Thunderbird) разом із вашим додатком Delta Chat і хочете, щоб ваш поштовий клієнт брав участь у розмовах.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms. 
+Однак ми рекомендуємо використовувати клієнт Delta Chat Desktop; Ви можете завантажити його на [get.delta.chat](https://get.delta.chat). Можливість стеження папки "Надіслане" може зникнути в майбутньому. Вона був представлена у той час, коли на всіх платформах ще не було клієнта Delta Chat Desktop.
 
-### Why can I choose not to watch the DeltaChat folder?
+### Чому я можу відмовитись від стеження за  папкою DeltaChat?
 
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
+Деякі люди використовують Delta Chat як звичайний поштовий клієнт і хочуть використовувати папку Вхідні для своєї пошти замість папки DeltaChat. Якщо ви вимкнете "Перегляд папки DeltaChat", вам слід також вимкнути "переміщення повідомлень чату до DeltaChat".
+В іншому випадку видалення повідомлень або налаштування декількох пристроїв може не працювати належним чином.
 
-## Miscellaneous
+## Інше
 
-### Does Delta Chat work with _my_ e-mail-provider?
+### Чи підтримує Delta Chat роботу з _моїм_ провайдером електронної пошти?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly,
-  see [Provider Overview](https://providers.delta.chat)
+- У більшості випадків: Так :)
+Проте для коректної роботи деяких провайдерів потрібні специфічні налаштування. Дивіться наш [огляд провайдерів](https://providers.delta.chat)
 
 
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+### Якщо Delta Chat використовує електронну пошту, чи насправді він є _Instant_ месенджером?
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in the background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occasionally. This artificial delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
-- However, Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Надсилання та отримання повідомлень зазвичай триває кілька секунд. Іноді трапляються випадки, коли це займає більше часу, але це, безперечно, справедливо і для будь-якого іншого месенджера.
+- Миттєвий чат працює швидко, якщо обидві сторони активно використовують додаток. Іноді це повільніше, якщо програма працює у фоновому режимі.
+- Отримання повідомлень тоді може зайняти хвилини, оскільки як Android, так і iOS часто припиняють роботу Delta Chat у фоновому режимі і лише час від часу прокидають його. Ця штучна затримка зазвичай гірша на iOS, ніж на Android.
+- Зверніть увагу, що Delta Chat не використовує Google Cloud Messaging (GCM) або службу сповіщень Apple Push (APNS), оскільки це призводить до відстеження користувачів та централізованого контролю, яких Delta Chat намагається уникнути, наскільки це можливо.
+- Однак програми для Android та iOS вбивають програми, що працюють у фоновому режимі, є проблемою для багатьох законних програм. Для отримання додаткової інформації див. [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### Чи сумісний Delta Chat із Protonmail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- І так і ні.
+- Ні, ви не можете використовувати свій акаунт Protonmail, Tutanota або Criptext у програмі Delta Chat; вони не пропонують отримання пошти через IMAP.
+- У будь-якому випадку ви можете використовувати Delta Chat, щоб надсилати повідомлення людям, які використовують Protonmail, Tutanota або Criptext. Однак ці повідомлення не будуть зашифровані наскрізним способом. Наскрізне шифрування, яке пропонують ці постачальники, працює лише на їхніх платформах і не сумісне з іншими.
+- Delta Chat може використовувати наскрізне шифрування через будь-якого постачальника послуг електронної пошти за допомогою будь-якого [додатка електронної пошти з підтримкою Autocrypt](https://autocrypt.org/dev-status.html).
 
 
-### I'm interested in the technical details. Can you tell me more?
+### Мене цікавлять технічні деталі. Можете розповісти більше?
 
-- See [Standards used in Delta Chat]({% include standards-url %}).
+- Дивіться [Стандарти, що використовуються у Delta Chat]({% include standards-url %}).
 
-### How are Delta Chat developments funded? 
+### Як фінансується розробка Delta Chat?
 
-First of all, Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
+Поперше, Delta Chat не отримує жодного венчурного капіталу, не має заборгованості і не зазнає жодного тиску ні для отримання величезних прибутків, ні для продажу користувачів та їхніх друзів та сім'ї рекламодавцям (або гірше).
 
-Delta Chat developments have so far been funded from four major sources: 
+Наразі розробка Delta Chat фінансувалася з чотирьох основних джерел:
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018. 
+- Проект [NEXTLEAP](https://nextleap.eu) фінансував дослідження і впровадження верифікованих груп та протоколів встановлення контактів у 2017 та 2018 роках.
 
-- The [Open Technology Fund](https://opentechfund.org) has given two grants.
-  The first 2018/2019 grant (~$200K) majorly improved the Android app 
-  and allowed us to release a Desktop app beta version, and also 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  See the 
-  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+- [Фонд відкритих технологій](https://opentechfund.org) надав два гранти.
+Перший грант 2018/2019 (приблизно 200 тис. доларів США) значно покращив додаток для Android і дозволив нам випустити бета-версію додатка для настільних ПК, а також пришвидшив наші розробки UX у контексті прав людини, див. наш підсумковий [Звіт про необхідність пошуку та UX](https://delta.chat/en/2019-07-19-uxreport).
+Другий грант 2019/2020 (приблизно 300 тис. доларів США) все ще триває і допомагає нам випустити версії Delta/iOS, перевести нашу основну бібліотеку на Rust та надати нові функції для всіх платформ. Докладнішу інформацію дізнайтесь у [публікаціях блогу](https://delta.chat/en/blog).
 
-- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+- [Фонд NLnet](https://nlnet.nl/) надав 46 тис. євро на завершення Rust/Python-прив'язок та збурення екосистеми чат-бота.
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
-  small amounts. Without them, Delta Chat would not be where it is today, not
-  even close. 
+- Кілька експертів та ентузіастів, які працюють на громадських засадах, сприяли розробці програми Delta Chat, не отримуючи грошей або лише невеликі суми. Без них Delta Chat не був би там, де є сьогодні, навіть близько.
 
-The monetary funding mentioned above was organized by merlinux GmbH in
-Freiburg (Germany), and then distributed to almost a dozen contributors. 
+Зазначене вище грошове фінансування було організовано компанією merlinux GmbH у Фрайбурзі (Німеччина), а потім розподілено між майже дюжиною розробниками.
 
-Funding for 2020/2021 is yet to be determined. We are pursuing several
-opportunities with different organisations and partners. We also are
-considering to ask for donations. In fact, we experimentally started
-a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
-but have not published this yet.  There were also around 3-4K so far
-donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
-donation channels.  
+Фінансування на 2020/2021 роки ще не визначено. Ми використовуємо кілька можливостей із різними організаціями та партнерами. Ми також розглядаємо можливість попросити пожертви. Насправді ми експериментально запустили [рахунок пожертвування Delta Chat / Liberapay](https://liberapay.com/delta.chat/), але поки що цього не публікували. Наразі було близько 3-4 тис. пожертв на канали пожертв Paypal і біткойн Bjoern'а (оригінальний автор Delta Chat).

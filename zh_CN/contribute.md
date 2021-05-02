@@ -14,7 +14,7 @@ lang: zh_CN
   列表](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   社区讨论与新闻。
 
-- [Delta Chat 仓库](https://github.com/deltachat/) 在那里可以 
+- [Delta Chat 仓库](https://github.com/deltachat/) 在这里可以 
   找到 DeltaChat 应用和本网站的代码。
 
 # 翻译与报告错误
@@ -26,7 +26,7 @@ lang: zh_CN
 - [Rust 核心库 + Python 绑定问题](https://github.com/deltachat/deltachat-core-rust/issues)
 
 我们一直都在寻找那些想要帮助我们并且熟悉
-Android，iOS，Windows，Linux 或 Mac 上的C，Rust，Java，Swift，Javascript 或 Python 的开发人员。
+Android、iOS、Windows、Linux 或 Mac 上的 C、Rust、Java、Swift、Javascript 或 Python 的开发人员。
 
 
 # 捐赠金钱或设备
