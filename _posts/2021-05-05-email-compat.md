@@ -34,7 +34,7 @@ e.g. the mentioned notification from the parcel service
 is now displayed even if wrapped into a mailing list.
 
 As sender on mailing lists may be anonymized by the mailing list software,
-they are are marked by a leading tilde as **~Alice**.
+they are marked by a leading tilde as **~Alice**.
 
 This and several other tiny things needed to be considered to make things work,
 so, we're finally pretty happy to have mailing lists in -
