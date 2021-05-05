@@ -112,7 +112,7 @@ some other highlights are:
   in the contact's profile (the feature is available on Android, other systems will follow)
 
 
-## Is it for anyone?
+## Is this for everyone?
 
 Handling e-mail in Delta Chat is only an option,
 users are still free to use Delta Chat as before,
