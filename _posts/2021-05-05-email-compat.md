@@ -96,7 +96,7 @@ So, in general, classic e-mail works since the first day:
   (not only a link as some other apps do).
 
 - To **receive classic e-mails** in addition to chat messages,
-  you need to enable **Settings / Show classic mail.**
+  you need to enable **Settings / Chats and media / Show classic emails.**
 
 However, for both cases,
 due to the diversity of the mail system,
