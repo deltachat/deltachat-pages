@@ -43,7 +43,7 @@ të përmirësohet fshehtësia në korporatë,
 kështu që kamerat tona dërgojnë sinjalizime
 pikasjesh ndërhyrjeje te një fjalosje grupi Delta Chat.”_
 
-**Përdorues i hershëm**, që prej 2018-s, nga [forumi i asistencës](https://support.delta.chat/t/clear-chat-function/163/6)
+**Përdorues i hershëm**, që prej 2018-s, nga [forumi i asistencës](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
 ### Email-i punon përherë

@@ -42,7 +42,7 @@ in order to improve corporate secrecy,
 thus our cameras send intrusion detection alerts
 to a delta group chat."_
 
-**Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/6)
+**Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
 ### E-Mail always works

@@ -42,7 +42,7 @@ za účelem zvýšené ochrany firemního tajemství.
 Naše kamery posílají upozornění na detekci vniknutí.
 pomocí skupiny Delta Chatu."_
 
-**Jeden z prvních uživatelů** z roku 2018 z [fóra podpory](https://support.delta.chat/t/clear-chat-function/163/6)
+**Jeden z prvních uživatelů** z roku 2018 z [fóra podpory](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
 ### E-Mail vždy funguje

@@ -43,7 +43,7 @@ para mejorar el secreto corporativo,
 así nuestras camaras envían alertas de detección de intrusos
 a un grupo en delta chat."_
 
-**Usuario antiguo** del 2018 del [foro de soporte](https://support.delta.chat/t/clear-chat-function/163/6)
+**Usuario antiguo** del 2018 del [foro de soporte](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
 ### E-Mail always works

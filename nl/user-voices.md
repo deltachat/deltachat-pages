@@ -41,7 +41,7 @@ om de bedrijfsveiligheid te verbeteren.
 Onze camera's versturen detectiewaarschuwingen
 naar een Delta-groepsgesprek."_
 
-**Gebruiker van het eerste uur** in een bericht op het [forum](https://support.delta.chat/t/clear-chat-function/163/6) (2018)
+**Gebruiker van het eerste uur** in een bericht op het [forum](https://support.delta.chat/t/clear-chat-function/163/8) (2018)
 
 
 ### E-mail werkt altijd
