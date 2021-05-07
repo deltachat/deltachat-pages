@@ -36,7 +36,7 @@ _"Cieszyłem się, że mogłem pobrać Delta Chat ze strony internetowej, a nie 
 
 _„Tak, nasza firma przeprowadziła migrację wszystkich systemów rozliczeń/powiadomień o awariach z Telegrama do Delta Chat w celu poprawy tajemnicy korporacyjnej, dlatego nasze kamery wysyłają ostrzeżenia o wykrywaniu włamań do czatu grupowego delta.”_
 
-**Dawny użytkownik** od 2018 z [forum pomocy](https://support.delta.chat/t/clear-chat-function/163/6)
+**Dawny użytkownik** od 2018 z [forum pomocy](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
 ### E-mail zawsze działa

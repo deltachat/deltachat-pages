@@ -34,7 +34,7 @@ _"I was happy that I could get Delta Chat from the website, not just via Google 
 
 _“是的，公司将所有的帐单/停机通知系统从 Telegram 迁移到了 Delta Chat 以提升保密性。于是，我们的摄像头会发送入侵检测警报到 delta 群聊中。”_
 
-**早期用户** 2018年发表于[支持论坛](https://support.delta.chat/t/clear-chat-function/163/6)
+**早期用户** 2018年发表于[支持论坛](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
 ### 电子邮件始终管用

@@ -40,7 +40,7 @@ um die Vertraulichkeit zu verbessern,
 daher senden unsere Kameras nun Warnmeldungen bei Erkennung von Eindringlingen
 an eine Delta-Chat-Gruppe."_
 
-**Früher Benutzer**, 2018, aus dem [Support-Forum](https://support.delta.chat/t/clear-chat-function/163/6)
+**Früher Benutzer**, 2018, aus dem [Support-Forum](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
 ### E-Mail funktioniert immer

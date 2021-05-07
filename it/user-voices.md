@@ -42,7 +42,7 @@ al fine di migliorare il segreto aziendale,
 così le nostre telecamere inviano avvisi di rilevamento delle intrusioni
 a una chat di gruppo delta."_
 
-**Primo utente** dal 2018 dal [forum di supporto](https://support.delta.chat/t/clear-chat-function/163/6)
+**Primo utente** dal 2018 dal [forum di supporto](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
 ### L' E-Mail funziona sempre
