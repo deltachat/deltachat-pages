@@ -122,8 +122,11 @@ for handling e-mails already today ;)
 
 **Check out [get.delta.chat](https://get.delta.chat) for the new versions.**
 
-iOS and Android are available already today -
-and include even more things to discover,
+iOS and Android are available already today;
+shipping to all stores may take some more days.
+
+The versions include even more things to discover,
 improved notifications on iOS, voice-recording-locking on Android
 and [much, much more](https://delta.chat/en/download#changelogs).
+
 Desktop versions will follow.
