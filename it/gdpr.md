@@ -49,6 +49,18 @@ circa la raccolta dei dati della rubrica, articolo 13, 14 GDPR.
 
 Questa dichiarazione è conforme al General Data Protection Regulation (GDPR) al 16.05.2018.
 
+
+### Location data
+
+If you share your location in a chat,
+this location data is treated like other messages.
+Delta Chat will use your location data to display your locations
+to the other members of the chat.
+
+Location data is collected even when the app is closed or not in use
+– for as long as you keep this optional features activated.
+
+
 # Informativa sulla privacy per le visite al sito Web
 
 **Stato: 21 gennaio 2020**

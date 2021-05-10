@@ -6,10 +6,10 @@ header: Preguntes freqüents
 ---
 
 
-## What is Delta Chat?
+## Què és Delta Chat?
 
-Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
-**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
+Delta Chat és una nova aplicació de xat que envia els missatges via correu electrònic, xifrat si és posible, amb Autocrypt. 
+**No cal pas que et donis d'alta enlloc, només has de fer servir el teu actual compte de correu electrònic amb amb Delta Chat.** 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 

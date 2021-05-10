@@ -9,7 +9,7 @@ Delta.Chat és un projecte comunitari de programari lliure. El responsable del c
 
     Merlinux GmbH
     Reichsgrafenstr. 20
-    79102 Freiburg, Germany
+    79102 Freiburg, Alemanya
 
 Correu-e: {% include email-link %}
 

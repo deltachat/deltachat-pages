@@ -13,18 +13,18 @@ ca:
     help: Preguntes freqüents
     forum: Fòrum
 
-  subscribe_to_feed: Subscribe to our feed
+  subscribe_to_feed: Subscriu-te al nostre canal
 
   references: Referències
   imprint: Empremta
-  privacy: Privacy Policy
+  privacy: Política de privacitat
   language: Idioma
 
   download:
-    recommendation: Recommended for you
+    recommendation: Recomanat per a tu
     other: Altres plataformes
     source_code: Codi font
-    install_via_packagemanager: Install via Package Manager
+    install_via_packagemanager: Instal·la'l via Gestor de Paquets
     outdated: desactualitzat
     dl_flathub: Download from Flathub
     dl_microsoft: Download from Microsoft Store

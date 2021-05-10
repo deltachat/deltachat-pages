@@ -1,22 +1,22 @@
 ---
-title: References
+title: Referències
 lang: ca
 ---
 
 # Referències
 
-This list is far from being complete - did we miss something? Please
-[let us know](imprint) or just do a [pull
+Aquesta llista no és exhaustiva - ens hem descuidat alguna cosa? Si us plau
+[diga'ns-ho](imprint) o simplement fer un [pull
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Pocketnow: 10 Ways Delta Chat is Better than WhatsApp, Signal, and Telegram
+### Pocketnow: 10 maneres en les que Delta Chat és millor que WhatsApp, Signal i Telegram
 
 _"With everyone deleting WhatsApp and switching to Telegram or Signal,
 maybe there’s something better that you haven’t heard of yet.
 Here are 10 ways Delta Chat is better than the others [...]"_
 
-2021-02-13, <https://pocketnow.com/10-ways-delta-chat-is-better-than-whatsapp-signal-and-telegram>
+13-02-2021, <https://pocketnow.com/10-ways-delta-chat-is-better-than-whatsapp-signal-and-telegram>
 
 
 ### Zeit Online (Large German newspaper): Good bye, WhatsApp!
@@ -89,10 +89,10 @@ _"Mit Delta-Chat gewinnt man die Vorteile der Mail-Nutzung (z. B. sehr verbreite
 
 ### GeekOTG.com: Delta Chat精简便携版
 
-2020-01-14, <http://www.geekotg.com/pc/11509.html>
+14-01-2020, <http://www.geekotg.com/pc/11509.html>
 
 
-### Le Alternative (Italian technology blog): Alternative a Whatsapp
+### Le Alternative (blog de tecnologia italià): L'alternativa a  Whatsapp
 
 _"Si tratta di un progetto sperimentale davvero molto interessante. Non ci sono server proprietari, non ci sono tracciamenti e non c’è un controllo centralizzato."_
 

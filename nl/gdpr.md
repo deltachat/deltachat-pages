@@ -49,6 +49,18 @@ aan alle GDPR-vereisten.
 
 Dit statuut weerspiegelt de General Data Protection Regulation (GDPR), d.d. 16-05-2018.
 
+
+### Locatiegegevens
+
+Als je je locatie deelt in een gesprek,
+dan wordt deze net zo behandeld als andere berichten.
+Delta Chat gebruikt je locatiegegevens alleen om je locaties te
+tonen aan andere gespreksdeelnemers.
+
+Locatiegegevens worden altijd verzameld, dus ook als de app gesloten of inactief is.
+Het verzamelen stopt pas zodra je deze optionele functie uitschakelt.
+
+
 # Privacybeleid (Delta Chat-website)
 
 **Status: 21 januari 2020**

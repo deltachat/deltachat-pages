@@ -213,62 +213,34 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
 
 Delta Chat implementuje protokoły [countermitm (przeciwdziałania) setup-contact i verified-group](https://countermitm.readthedocs.io/en/latest/new.html) w celu osiągnięcia ochrony przed aktywnymi atakami sieciowymi. Wykracza to poza oportunistyczną ochronę podstawową Autocrypt Level 1, zachowując jednocześnie łatwość użytkowania.
 
-### What is the difference between verified groups and 1:1 chats with verified contacts?
+### Jaka jest różnica między zweryfikowanymi grupami a czatami 1:1 ze zweryfikowanymi kontaktami?
 
-- 1:1 chats with a verified contact and verified groups are not the same, even
-  if there are only 2 people in the verified group. One difference is that you
-  could easily add more people to the group, but there are other implications as
-  well.
+- Czaty 1:1 ze zweryfikowanym kontaktem i zweryfikowanymi grupami to nie to samo, nawet jeśli w zweryfikowanej grupie są tylko 2 osoby. Jedna różnica polega na tym, że z łatwością możesz dodać więcej osób do grupy, ale są też inne konsekwencje.
 
-- Verified groups are invariably secured. Any breakage (cleartext or wrongly
-  signed messages etc.) will be flagged and such messages will not be shown in
-  this chat. You can trust all messages in this verified-checkmark chat to have
-  not been read/altered by middle parties.
+- Zweryfikowane grupy są niezmiennie zabezpieczone. Każde uszkodzenie (zwykły tekst lub źle podpisane wiadomości itp.) zostaną oflagowane i takie wiadomości nie będą wyświetlane na tym czacie. Możesz ufać, że wszystkie wiadomości w tym czacie ze zweryfikowanym znacznikiem wyboru nie zostały przeczytane/zmienione przez strony pośrednie.
 
-- 1:1 chats are opportunistic, it is meant to allow people to communicate no
-  matter if they change e-mail clients, devices, setups etc. That's why there
-  is no verification checkmark, even if you have verified the contact.
+- Czaty 1:1 są oportunistyczne, mają na celu umożliwienie ludziom komunikowania się bez względu na to, czy zmienią klientów poczty e-mail, urządzenia, ustawienia itp. Dlatego nie mają znacznika weryfikacji, nawet jeśli zweryfikowałeś kontakt.
 
 
-### Does Delta Chat support Perfect Forward Secrecy?
+### Czy Delta Chat obsługuje Perfect Forward Secrecy?
 
-- No, OpenPGP doesn't support Perfect Forward Secrecy. Perfect Forward Secrecy
-  works session-oriented, but E-Mail is asynchronous by nature
-  and often used from multiple devices independently. This means that if your
-  Delta Chat private key is leaked, and someone has a record
-  of all your in-transit messages, they will be able to read them.  
+- Nie, OpenPGP nie obsługuje Perfect Forward Secrecy. Perfect Forward Secrecy działa w trybie sesji, ale poczta e-mail jest z natury asynchroniczna i często jest używana niezależnie na wielu urządzeniach. Oznacza to, że jeśli twój prywatny klucz Delta Chat wycieknie, a ktoś ma zapis wszystkich twoich wiadomości w drodze, będzie mógł je odczytać.
 
-- Note that if anyone has seized or hacked your running phone, they will
-  typically be able to read all messages, no matter if Perfect Forward Secrecy
-  is in place or not. Having access to a single device from a member of a group,
-  will typically expose a lot of the social graph. Using e-mail addresses that
-  are not easily tracked back to persons helps group members to stay safer from
-  the effects of device seizure. 
+- Pamiętaj, że jeśli ktoś przejął lub zhakował twój działający telefon, zazwyczaj będzie w stanie odczytać wszystkie wiadomości, bez względu na to, czy funkcja Perfect Forward Secrecy jest, czy nie. Dostęp do pojedynczego urządzenia członka grupy zazwyczaj ujawnia dużą część wykresu społecznościowego. Korzystanie z adresów e-mail, których nie można łatwo odszukać, pomaga członkom grupy chronić się przed skutkami zajęcia urządzenia.
 
-- We are sketching ways to protect communications better against the event
-  of device seizure. 
+- Pracujemy nad sposobami lepszej ochrony komunikacji w przypadku przejęcia urządzenia.
 
 
-### How does Delta Chat protect my Metadata?
+### W jaki sposób Delta Chat chroni moje metadane?
 
-- As Delta Chat is a decentralized messenger, the metadata of Delta Chat users
-  are not stored on a single central server. However, they are stored on the mail
-  servers of the sender and the recipient of a message.
+- Ponieważ Delta Chat jest zdecentralizowanym komunikatorem, metadane użytkowników Delta Chat nie są przechowywane na jednym centralnym serwerze. Są one jednak przechowywane na serwerach pocztowych nadawcy i odbiorcy wiadomości.
 
-- Each mail server currently knows about who sent and who received a message by 
-  inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
-  are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
-  and always put them only into the encrypted section. See 
-  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
-  For opportunistic chats the main concern is how it affects other mail apps who 
-  might participate in chats. 
+- Każdy serwer pocztowy wie obecnie, kto wysłał i kto odebrał wiadomość, sprawdzając niezaszyfrowane nagłówki Do/Dw, a tym samym określając, które adresy e-mail należą do grupy. Sam Delta Chat może całkowicie uniknąć niezaszyfrowanych nagłówków Do/Dw i zawsze umieszczać je tylko w zaszyfrowanej sekcji. Zobacz [Unikanie wysyłania nagłówków Do/Dw dla zweryfikowanych grup](https://github.com/deltachat/deltachat-core-rust/issues/1032). W przypadku oportunistycznych czatów głównym problemem jest to, jak wpływa to na inne aplikacje pocztowe, które mogą uczestniczyć w czatach.
 
-- Many other e-mail headers, in particular the "Subject" header, are
-  end-to-end-encryption protected, see also this upcoming [IETF
-  RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
+- Wiele innych nagłówków wiadomości e-mail, w szczególności nagłówek „Temat”, jest zabezpieczonych pełnym szyfrowaniem. Zobacz także nadchodzący [IETF RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
-### Can I reuse my existing private key?
+### Czy mogę ponownie wykorzystać mój istniejący klucz prywatny?
 
 - Tak. Najlepszym sposobem jest wysłanie wiadomości konfiguracyjnej Autocrypt z innego klienta poczty e-mail. Poszukaj czegoś jak **Start Autocrypt Setup Transfer** w ustawieniach innego klienta i postępuj zgodnie z wyświetlanymi tam instrukcjami.
 
@@ -298,158 +270,92 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 
 ### Czy mogę korzystać z Delta Chat na wielu urządzeniach w tym samym czasie?
 
-If you want to use the **same account** on different devices, you should export
-a backup from the old device, and import it into the new device:
+Jeśli chcesz używać tego samego konta na różnych urządzeniach, wyeksportuj kopię zapasową ze starego urządzenia i zaimportuj ją na nowe urządzenie:
 
-- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- Na starym urządzeniu przejdź do „Ustawienia” lub „Ustawienia/Czaty i multimedia”, a następnie do „Kopia zapasowa”. Wprowadź kod PIN, wzór lub hasło do odblokowania ekranu. Następnie możesz nacisnąć „Rozpocznij tworzenie kopii zapasowej”. Spowoduje to zapisanie pliku kopii zapasowej na twoim urządzeniu. Teraz musisz jakoś przenieść to na inne urządzenie.
+- Na nowym urządzeniu, na ekranie logowania, zamiast logować się do konta e-mail, wybierz „Importuj kopię zapasową”. Po zaimportowaniu rozmowy, klucze szyfrowania i multimedia powinny zostać skopiowane na nowe urządzenie.
+- Jesteś teraz zsynchronizowany i możesz używać obu urządzeń do wysyłania i odbierania wiadomości zaszyfrowanych przez E2E ze swoimi partnerami.
 
-### Are there any plans for introducing a Delta Chat Web Client?
+### Czy są jakieś plany wprowadzenia klienta Web Delta Chat?
 
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
-  [get.delta.chat](https://get.delta.chat).
+- Nie ma bezpośrednich planów, ale wstępne przemyślenia.
+- Istnieją 2-3 możliwości wprowadzenia klienta Web Delta Chat, ale wszystkie wymagają znaczącej pracy. Na razie skupiamy się na udostępnianiu stabilnych wersji we wszystkich sklepach z aplikacjami (repozytoria Google Play/iOS/Windows/macOS/Linux) jako aplikacji natywnych.
+- Jeśli potrzebujesz klienta Web, ponieważ nie możesz instalować oprogramowania na komputerze, na którym pracujesz, możesz użyć przenośnego klienta Windows Desktop lub AppImage dla Linuxa. Możesz je znaleźć na [get.delta.chat](https://get.delta.chat).
 
 
-### Why can I choose not to watch the Inbox?
+### Dlaczego nie mogę zobaczyć skrzynki odbiorczej?
 
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
+To jest ustawienie eksperymentalne dla niektórych osób, które eksperymentują z regułami po stronie serwera. Nie wszyscy dostawcy to obsługują, ale w przypadku niektórych możesz przenieść wszystkie wiadomości z nagłówkiem „Chat-Version” do folderu DeltaChat. Zwykle byłoby to zrobione przez aplikację Delta Chat.
 
-Watching the Inbox makes sense to turn off, if you have both:
+Włączenie oglądania skrzynki odbiorczej ma sens, jeśli masz:
 
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
+- włączoną regułę po stronie serwera, aby przenosić wszystkie wiadomości z nagłówkiem Chat-Version do folderu DeltaChat i,
+- ustawioną opcję „Pokaż klasyczne e-maile” na „Nie, tylko czaty”.
 
-In this case, Delta Chat doesn't need to watch the Inbox.
+W takim przypadku Delta Chat nie musi obserwować skrzynki odbiorczej.
 
-### What is the "Send Copy to Self" setting good for?
+### Do czego służy ustawienie „Wyślij kopię do siebie”?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device. 
+Wysłanie kopii wiadomości do siebie zapewnia otrzymywanie własnych wiadomości na wszystkich urządzeniach. Jeśli masz wiele urządzeń i jej nie włączysz, zobaczysz tylko wiadomości od innych osób oraz wiadomości, które wysyłasz z bieżącego urządzenia.
 
-The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
+Kopia jest wysyłana do skrzynki odbiorczej, a następnie przenoszona do folderu DeltaChat; nie jest umieszczana w folderze „Wysłane”. Delta Chat nigdy nie przesyła niczego do folderu Wysłane, ponieważ oznaczałoby to dwukrotne przesłanie wiadomości (raz przez SMTP i raz przez IMAP do folderu Wysłane).
 
-The default setting for copy-to-self is "no".
+Domyślne ustawienie kopiowania do siebie to „nie”.
 
-### Why can I choose to watch the "Sent" folder?
+### Po co mam wybrać opcję oglądania folderu „Wysłane”?
 
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
+Jedynym powodem, dla którego ktoś chce oglądać folder Wysłane, jest to, że używa innego programu pocztowego (takiego jak Thunderbird) razem z aplikacją Delta Chat i chce, aby jego program pocztowy „uczestniczył” w rozmowach na czacie.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms. 
+Jednak zalecamy używanie klienta Delta Chat Desktop; możesz go pobrać z [get.delta.chat](https://get.delta.chat). Opcja oglądania folderu „Wysłane” może w przyszłości zniknąć. Została wprowadzona w czasie, gdy na żadnej platformie nie był dostępny klient Delta Chat Desktop.
 
-### Why can I choose not to watch the DeltaChat folder?
+### Dlaczego mogę nie widzieć folderu DeltaChat?
 
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
+Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą używać folderu Skrzynka odbiorcza dla swojej poczty zamiast folderu DeltaChat. Jeśli wyłączysz opcję „Oglądaj folder DeltaChat”, powinieneś również wyłączyć opcję „Automatyczne przenoszenie do folderu DeltaChat”. W przeciwnym razie usuwanie wiadomości lub konfiguracja wielu urządzeń może nie działać poprawnie.
 
 ## Różne
 
 ### Czy Delta Chat działa z _moim_ dostawcą poczty e-mail?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly,
-  see [Provider Overview](https://providers.delta.chat)
+- Z dość dużym prawdopodobieństwem: Tak :)
+  Jednak niektórzy dostawcy potrzebują specjalnych opcji, aby działać poprawnie, zobacz [Przegląd dostawców](https://providers.delta.chat)
 
 
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+### Jeśli Delta Chat korzysta z poczty e-mail, czy naprawdę jest to komunikator internetowy?
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in the background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occasionally. This artificial delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
-- However, Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Wysyłanie i odbieranie wiadomości zwykle zajmuje kilka sekund. Czasami zdarzają się przypadki, w których trwa to dłużej, ale prawdopodobnie jest to również prawdą w przypadku każdego innego komunikatora.
+- Natychmiastowe czatowanie działa szybko, jeśli obie strony aktywnie korzystają z aplikacji. Czasami działa wolniej, jeśli aplikacja działa w tle.
+- Odbieranie wiadomości może zająć kilka minut, ponieważ zarówno Android, jak i iOS często zatrzymują Delta Chat podczas działaniem w tle i budzą go tylko od czasu do czasu. To sztuczne opóźnienie jest zwykle gorsze na iOS niż na Androidzie.
+- Należy pamiętać, że Delta Chat nie korzysta z Google Cloud Messaging (GCM) ani usługi Apple Push Notification Service (APNS), ponieważ prowadzi to do śledzenia użytkowników i centralnej kontroli, których Delta Chat stara się unikać w jak największym stopniu.
+- Jednak „ubijanie” aplikacji działających w tle na Androida i iOS stanowi problem dla wielu legalnych aplikacji. Aby uzyskać więcej informacji, zobacz [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### Czy Delta Chat jest kompatybilny z Protonmail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with anyone outside.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- I tak i nie.
+- Nie, nie możesz używać swojego konta Protonmail, Tutanota lub Criptext z Delta Chat; nie oferują one odbierania poczty przez IMAP.
+- W każdym przypadku możesz użyć Delta Chat do wysyłania wiadomości do osób, które używają Protonmail, Tutanota lub Criptext. Te wiadomości nie będą jednak szyfrowane metodą end-to-end. Szyfrowanie typu end-to-end, które oferują ci dostawcy, działa tylko na ich platformach i nie jest kompatybilne z nikim spoza nich.
+- Delta Chat może zaszyfrować metodą end-to-end dowolnego dostawcę poczty e-mail z dowolną [aplikacją e-mail obsługującą Autocrypt](https://autocrypt.org/dev-status.html).
 
 
-### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi więcej?
+### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi coś więcej?
 
 - Zobacz [Standardy używane w Delta Chat]({% include standards-url %}).
 
-### How are Delta Chat developments funded? 
+### W jaki sposób finansowany jest rozwój Delta Chat?
 
-First of all, Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
+Przede wszystkim Delta Chat nie otrzymuje żadnego kapitału podwyższonego ryzyka, nie jest zadłużony i nie jest pod presją, aby generować ogromne zyski lub sprzedawać reklamodawcom użytkowników i ich przyjaciół i rodzinę (lub gorzej).
 
-Delta Chat developments have so far been funded from four major sources: 
+Rozwój Delta Chat był dotychczas finansowany z czterech głównych źródeł:
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018. 
+W 2017 i 2018 roku w ramach projektu [NEXTLEAP](https://nextleap.eu) UE sfinansowała badania i wdrażanie zweryfikowanych grup oraz ustanawianie protokołów kontaktowych.
 
-- The [Open Technology Fund](https://opentechfund.org) has given two grants.
-  The first 2018/2019 grant (~$200K) majorly improved the Android app 
-  and allowed us to release a Desktop app beta version, and also 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) is still ongoing and helps us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  See the 
-  ongoing [blog posts](https://delta.chat/en/blog) for more info. 
+- [Open Technology Fund](https://opentechfund.org) przyznał dwa granty. Pierwszy grant 2018/2019 (~200 000 $) znacznie ulepszył aplikację na Androida i pozwolił nam wydać wersję beta aplikacji na komputery stacjonarne, a także ugruntował rozwój naszych funkcji w badaniach UX w kontekście praw człowieka, zobacz nasz końcowy raport [Needfinding and UX](https://delta.chat/en/2019-07-19-uxreport).
+Drugi grant 2019/2020 (~300 000 $) jest nadal w toku i pomaga nam wydać wersje Delta/iOS, przekonwertować naszą podstawową bibliotekę na Rust i zapewnić nowe funkcje dla wszystkich platform. Zobacz bieżące [wpisy na blogu](https://delta.chat/en/blog), aby uzyskać więcej informacji.
 
-- The [NLnet foundation](https://nlnet.nl/) granted EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+- Fundacja [NLnet](https://nlnet.nl/) przyznała 46 000 EUR na ukończenie powiązań Rust/Python i zainicjowanie ekosystemu Czat-botów.
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
-  small amounts. Without them, Delta Chat would not be where it is today, not
-  even close. 
+- Wreszcie, ale zdecydowanie nie najmniej ważne, kilku ekspertów i entuzjastów pro-bono wniosło wkład i przyczyniło się do rozwoju Delta Chat bez otrzymywania pieniędzy lub tylko niewielkich kwot. Bez nich Delta Chat nie byłby tam, gdzie jest dzisiaj, nawet w pobliżu.
 
-The monetary funding mentioned above was organized by merlinux GmbH in
-Freiburg (Germany), and then distributed to almost a dozen contributors. 
+Wspomniane powyżej finansowanie pieniężne zostało zorganizowane przez merlinux GmbH we Freiburgu (Niemcy), a następnie przekazane do prawie tuzina darczyńców.
 
-Funding for 2020/2021 is yet to be determined. We are pursuing several
-opportunities with different organisations and partners. We also are
-considering to ask for donations. In fact, we experimentally started
-a little [Delta Chat / Liberapay donation account](https://liberapay.com/delta.chat/)
-but have not published this yet.  There were also around 3-4K so far
-donated to Bjoern's (the original author of Delta Chat) paypal and bitcoin
-donation channels.  
+Finansowanie na rok 2020/2021 nie zostało jeszcze określone. Korzystamy z kilku możliwości, współpracując z różnymi organizacjami i partnerami. Rozważamy również zwrócenie się o darowizny. W rzeczywistości eksperymentalnie założyliśmy małe konto [darowizn Delta Chat / Liberapay](https://liberapay.com/delta.chat/), ale jeszcze tego nie opublikowaliśmy. Do tej pory przekazano również około 3-4 tys. $ kanałem darowizn paypal i bitcoin dla Bjoern'a (pierwotny autor Delta Chat).
