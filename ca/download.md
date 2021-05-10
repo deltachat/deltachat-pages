@@ -1,29 +1,29 @@
 ---
-title: Get Delta Chat
+title: Aconseguiu el Delta Chat
 lang: ca
 downloads: true
 ---
 
-## Changelogs
+## Registre de canvis
 
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android]({% include changelog-url %})
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Nucli](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-The desktop versions do not require Delta Chat to be installed on a phone.
+A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un telèfon.
 
-Minimal requirements:
+Requeriments mínims:
 Android 4.1 Jelly Bean
-or iOS 11, iPhone 5s or iPad 5/Air/Mini
-or Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 or Debian 8
-or compatible systems.
+o iOS 11, iPhone 5s o iPad 5/Air/Mini
+o Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 o Debian 8
+o sistemes compatibles.
 
-## Links
+## Enllaços
 
-* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
-* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
-* [Verify Downloads](verify-downloads): Verify data integrity of downloads
+* [Base de dades de proveïdors](https://providers.delta.chat/): Delta Chat funciona amb el meu proveïdor?
+* [FAQ multiclient](help#multiclient): Com puc sincronitzar  l'escriptori amb una altra ap. Delta Chat?
+* [Verificar les descàrregues](verify-downloads): Verificar la integritat de les dades de les descàrregues
 
 ## Preview Builds
 

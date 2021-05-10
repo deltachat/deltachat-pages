@@ -49,6 +49,18 @@ jest zgodna z przepisami prawa w zakresie ochrony prywatności użytkowników GD
 
 Niniejsze oświadczenie odzwierciedla ogólne Rozporządzenie o Ochronie Danych Osobowych (RODO=GDPR) z dnia 16.05.2018.
 
+
+### Location data
+
+If you share your location in a chat,
+this location data is treated like other messages.
+Delta Chat will use your location data to display your locations
+to the other members of the chat.
+
+Location data is collected even when the app is closed or not in use
+– for as long as you keep this optional features activated.
+
+
 # Polityka prywatności strony internetowej
 
 **Stan: 21 stycznia 2020**
@@ -76,28 +88,13 @@ Twój adres kontaktowy w sprawach związanych z prywatnością w Delta.Chat:
 
 	delta-privacy@merlinux.eu
 
-### Delta mailing lists
+### Listy mailingowe Delta
 
-When voluntarily subscribing to the Delta mailing lists, your email address
-from the input mask, the IP address of the calling computer, date and time of
-registration are transmitted. The processing of this data is solely for the
-purpose of processing the contacts and the delivery of the public community
-communication. As usual with open source projects, the shared messages can also
-be found in public archives. The legal basis for processing with consent is
-Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
-subscription to the e-mail list is active. By unsubscribing from any mailing
-list, a revocation of consent is possible.
+W przypadku dobrowolnego zapisania się na listy mailingowe Delta, przekazywany jest twój adres e-mail z maski wprowadzania danych, adres IP komputera, data i godzina rejestracji. Przetwarzanie tych danych służy wyłącznie do przetwarzania kontaktów i dostarczania publicznych komunikatów społeczności. Jak zwykle w przypadku projektów open source, udostępnione wiadomości można również znaleźć w publicznych archiwach. Podstawą prawną przetwarzania danych za zgodą jest art. 6 I lit.a GDPR. Adres e-mail użytkownika jest przechowywany tylko tak długo, jak długo jest aktywna subskrypcja listy mailingowej. Rezygnacja z subskrypcji dowolnej listy mailingowej umożliwia cofnięcie zgody.
 
-### Rights of affected persons
+### Prawa osób zainteresowanych
 
-You can request information from Delta.Chat about whether and how your data is
-processed by us. You have the right to object to the processing, which takes
-place on the basis of art. 6 I lit.e or lit.f GDPR. If the processing is
-incorrect or incomplete, you have the right to rectification/completion,
-cancellation and, if necessary, restriction of the processing. You can revoke
-the declaration of consent of the mailing list at any time. You have the right
-to receive the data in a structured common and machine-readable format and the
-right to complain to a supervisory authority.
+Możesz zażądać od Delta.Chat informacji o tym, czy i jak przetwarzamy twoje dane. Masz prawo do wniesienia sprzeciwu wobec przetwarzania, które odbywa się na podstawie art. 6 I lit.e lub lit.f GDPR. Jeśli przetwarzanie jest nieprawidłowe lub niekompletne, masz prawo do sprostowania/uzupełnienia, anulowania i, jeśli to konieczne, ograniczenia przetwarzania. W każdej chwili możesz odwołać oświadczenie o wyrażeniu zgody na korzystanie z listy mailingowej. Masz prawo do otrzymania danych w ustrukturyzowanym, powszechnym formacie nadającym się do odczytu maszynowego oraz prawo do wniesienia skargi do organu nadzorczego.
 
 ### Zmiana polityki prywatności
 

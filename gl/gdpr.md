@@ -49,6 +49,18 @@ polo controlador e os provedores de email.
 
 Esta declaración refírese a General Data Protection Regulation (GDPR) na versión 16.05.2018.
 
+
+### Datos de localización
+
+Se compartes a túa localización nun chat,
+estos datos son tratados como calquera outra mensaxe.
+Delta Chat utiizará a túa localización para amosala a outras
+persoas que participen na conversa.
+
+Os datos de localización recóllense incluso cando a app está pechada ou
+non se utiliza – mentras teñas activada esta opción optativa.
+
+
 # Política de Privacidade para as visitas ao sitio web
 
 **Estado: 21 de xaneiro, 2020**

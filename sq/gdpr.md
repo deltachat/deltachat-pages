@@ -49,6 +49,18 @@ e GDPR-së aplikacionet dhe sajtet Delta Chat.
 
 Kjo deklaratë pasqyron Rregulloren e Përgjithshme të Mbrojtjes së të Dhënave (GDPR) të deri 16.05.2018.
 
+
+### Të dhëna vendndodhjeje
+
+Nëse në një fjalosje tregoni vendndodhjen tuaj,
+këto të dhëna vendndodhjeje trajtohet si mesazhet e tjerë.
+Delta Chat-i do t’i përdorë të dhënat e vendndodhjes tuaj për t’u shfaqur vendndodhjet tuaja
+pjesëmarrësve të tjerë në fjalosje.
+
+Të dhëna mbi vendndodhjen grumbullohen edhe kur aplikacioni është i mbyllur ose jo në përdorim
+– për sa kohë që e mbani të aktivizuar këtë veçori.
+
+
 # Rregulla Privatësie për vizita Sajti 
 
 **Gjendje: 21 janar, 2020**

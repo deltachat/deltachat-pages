@@ -49,6 +49,18 @@ zpracovávané správcem a poskytovateli e-mailových služeb.
 
 Toto prohlášení plní obecné nařízení o ochraně osobních údajů (GDPR) ze dne 16.5.2018.
 
+
+### Location data
+
+If you share your location in a chat,
+this location data is treated like other messages.
+Delta Chat will use your location data to display your locations
+to the other members of the chat.
+
+Location data is collected even when the app is closed or not in use
+– for as long as you keep this optional features activated.
+
+
 # Zásady ochrany soukromí pro návštěvy webových stránek
 
 **Stav: 21. leden, 2020**

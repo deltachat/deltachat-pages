@@ -1,5 +1,5 @@
 ---
-title: The e-mail messenger
+title: El missatger de correu electrònic
 lang: ca
 ---
 
@@ -16,7 +16,7 @@ que hi ha hagut mai: la xarxa de servidors de correu electrònic.
 **Xateja amb qualsevol persona de la que coneguis la seva adreça de correu electrònic, sense que a ells els calgui instal·lar DeltaChat!** 
 Només et cal una adreça de correu electrònic normal i corrent.
 
-Check out [user stories and voices](user-voices) 📣
+Consulta [els testimonis i experiències dels usuaris](user-voices) 📣
 
 
 # Captures de pantalla d'Android, Escriptori i iOS 

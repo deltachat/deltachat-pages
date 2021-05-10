@@ -49,6 +49,18 @@ reduz-se a identificar os provedores de e-mail e gravar suas atividades, artigo 
 
 As afirmações aqui contidas refletem a redação de 16/05/2018 do Regulamento Geral sobre a Proteção de Dados (GDPR).
 
+
+### Location data
+
+If you share your location in a chat,
+this location data is treated like other messages.
+Delta Chat will use your location data to display your locations
+to the other members of the chat.
+
+Location data is collected even when the app is closed or not in use
+– for as long as you keep this optional features activated.
+
+
 # Privacy Policy for Website visits 
 
 **Status: January 21, 2020**

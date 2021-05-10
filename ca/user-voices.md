@@ -1,19 +1,19 @@
 ---
-title: User Stories and Voices
+title: Testimonis i experiències dels usuaris
 lang: ca
 ---
 
-# User Stories and Voices
+# Testimonis i experiències dels usuaris
 
 
-### Can recommend to blind people
+### Recomanable per a cecs
 
-_"I installed Delta Chat last night, just after writing to you,
-and I immediately noticed the improvement in accessibility [...]
-And it works! And it's accessible! And I can recommend the app to other blind people!                                 
-Good job guys! [...]"_
+_"Acabo d'instal·lar Delta Chat aquesta nit, encabat d'escriure't,
+i he notat les millores d'accessibilitat al moment [...]
+I funciona! I és accessible! I ho puc recomanar a altres cecs!                                 
+Ben fet nanos! [...]"_
 
-**Blind user** about the Android version in 2019, via e-mail to delta@merlinux.eu
+**Usuari cec** sobre la versió d'Android al 2019, via missatge a delta@merlinux.eu
 
 ### Popular in regions with strict Internet governance
 
