@@ -386,10 +386,11 @@ server-side rules. Not all providers support this, but with some you can move
 all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
 would be done by the Delta Chat app.
 
-Watching the Inbox makes sense to turn off, if you have both:
+Watching the Inbox makes sense to turn off, if:
 
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
+- you don't want to communicate with people who don't use Delta Chat,
+- you have enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
+- you have set the "Show classic emails" setting to "no, chats only".
 
 In this case, Delta Chat doesn't need to watch the Inbox.
 
