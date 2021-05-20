@@ -34,5 +34,5 @@ Controlla [get.delta.chat](https://get.delta.chat)  e i nostri [ultimi post sul 
 per informazioni sui rilasci e sugli eventi. 
 
 Delta Chat è [Open Source](https://it.wikipedia.org/wiki/Open_source)
-e [software libero](https://it.wikipedia.org/wiki/Software_libero). Puoi usarlo,
+e [Software Libero](https://it.wikipedia.org/wiki/Software_libero). Puoi usarlo,
 studiarlo, modificarlo e condividerlo a piacimento con chiunque.

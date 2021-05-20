@@ -24,6 +24,7 @@ oder kompatible Systeme.
 * [Provider Datenbank](https://providers.delta.chat/): Funktioniert mein E-Mail-Provider mit Delta Chat?
 * [FAQ Multi-Client](help#multiclient): So synchronisieren Sie Desktop mit einer anderen Delta Chat-App.
 * [Downloads verifizieren](verify-downloads): Die Integrität der Downloads sicherstellen
+* [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Lösungen for geläufige Desktop Installationsprobleme
 
 ## Vorschauversionen
 

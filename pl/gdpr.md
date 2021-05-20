@@ -50,15 +50,11 @@ jest zgodna z przepisami prawa w zakresie ochrony prywatności użytkowników GD
 Niniejsze oświadczenie odzwierciedla ogólne Rozporządzenie o Ochronie Danych Osobowych (RODO=GDPR) z dnia 16.05.2018.
 
 
-### Location data
+### Dane lokalizacji
 
-If you share your location in a chat,
-this location data is treated like other messages.
-Delta Chat will use your location data to display your locations
-to the other members of the chat.
+Jeśli udostępniasz swoją lokalizację na czacie, te dane o lokalizacji są traktowane jak inne wiadomości. Delta Chat użyje danych o twojej lokalizacji, aby wyświetlić twoje lokalizacje innym członkom czatu.
 
-Location data is collected even when the app is closed or not in use
-– for as long as you keep this optional features activated.
+Dane o lokalizacji są gromadzone nawet wtedy, gdy aplikacja jest zamknięta lub nieużywana – tak długo, jak długo są aktywne te opcjonalne funkcje.
 
 
 # Polityka prywatności strony internetowej

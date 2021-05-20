@@ -21,9 +21,10 @@ ou un système compatible.
 
 ## Liens
 
-* [Base de données fournisseurs](https://providers.delta.chat/): Est-ce que mon Fournisseur fonctionne avec Delta Chat?
-* [FAQ multi-clients](help#multiclient): Comment synchroniser l'application Bureau Windows avec d'autres applications Delta Chat.
-* [Vérifier les téléchargements](verify-downloads): Vérifier l'intégrité des données des téléchargements
+* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
+* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
+* [Verify Downloads](verify-downloads): Verify data integrity of downloads
+* [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Solutions for common desktop installation problems
 
 ## Versions preview
 
