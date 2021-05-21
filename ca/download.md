@@ -21,9 +21,10 @@ o sistemes compatibles.
 
 ## Enllaços
 
-* [Base de dades de proveïdors](https://providers.delta.chat/): Delta Chat funciona amb el meu proveïdor?
-* [FAQ multiclient](help#multiclient): Com puc sincronitzar  l'escriptori amb una altra ap. Delta Chat?
-* [Verificar les descàrregues](verify-downloads): Verificar la integritat de les dades de les descàrregues
+* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
+* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
+* [Verify Downloads](verify-downloads): Verify data integrity of downloads
+* [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Solutions for common desktop installation problems
 
 ## Preview Builds
 

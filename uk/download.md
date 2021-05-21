@@ -24,6 +24,7 @@ Android 4.1 Jelly Bean
 * [База провайдерів](https://providers.delta.chat/): Чи працює Delta Chat з моїм провайдером електронної пошти?
 * [FAQ multiclient](help#multiclient): Як синхронізувати версію для комп'ютера із додатком на телефоні.
 * [Перевірка завантажень](verify-downloads): Перевірка цілісності даних завантажених файлів
+* [Усунення несправностей десктоп-клієнта](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Рішення для поширених проблем версії для комп'ютера
 
 ## Попередні збірки
 

@@ -21,9 +21,10 @@ ou sistemas compatibles.
 
 ## Ligazóns
 
-* [Base de datos de provedores](https://providers.delta.chat/): Funcionará Delta Chat co meu provedor?
-* [PMF multicliente](help#multiclient): Cómo sincronizar Escritorio con outra app Delta Chat.
-* [Verifica a descarga](verify-downloads): Verifica a integridade da descarga
+* [Base de datos de provedores](https://providers.delta.chat/): Funciona Delta Chat co meu provedor?
+* [PMF multicliente](help#multiclient): Como sincronizar Escritorio con outra App Delta Chat.
+* [Verificar descargas](verify-downloads): Verificar a integridade dos datos das descargas
+* [Resolución de problemas instalación Escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Solucións aos problemas máis habituais na instalación do cliente Escritorio
 
 ## Vista previa das versións
 

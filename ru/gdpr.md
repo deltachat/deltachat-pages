@@ -48,15 +48,15 @@ lang: ru
 Это заявление отражает Общие Правила Защиты Данных (GDPR) на 16.05.2018.
 
 
-### Location data
+### Данные о местоположении
 
-If you share your location in a chat,
-this location data is treated like other messages.
-Delta Chat will use your location data to display your locations
-to the other members of the chat.
+Если вы поделитесь своим местоположением в чате,
+эти данные о местоположении обрабатываются так же, как и другие сообщения.
+Delta Chat будет использовать данные о вашем местоположении для отображения вашего местоположения
+остальным участникам чата.
 
-Location data is collected even when the app is closed or not in use
-– for as long as you keep this optional features activated.
+Данные о местоположении собираются, даже когда приложение закрыто или не используется.
+- до тех пор, пока вы держите эти дополнительные функции активными.
 
 
 # Политика конфиденциальности при посещении вебсайта 

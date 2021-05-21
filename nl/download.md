@@ -22,8 +22,9 @@ of compatibele systemen.
 ## Links
 
 * [Providerdatabank](https://providers.delta.chat/) Werkt mijn e-mailprovider in Delta Chat?
-* [FAQ-multiclient](help#multiclient): Alles over het synchroniseren van de Delta-computerapp met een andere Delta-app.
+* [FAQ-multiclient](help#multiclient): Hoe synchroniseer ik de Delta-computerapp met een andere Delta-app?
 * [Downloads verifiëren](verify-downloads): Verifieer de integriteit van de downloads
+* [Problemen met de computerapp](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): oplossingen voor veelvoorkomende problemen met de computerapp
 
 ## Testversies
 

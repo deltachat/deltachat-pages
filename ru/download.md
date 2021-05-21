@@ -21,9 +21,10 @@ Android 4.1 Jelly Bean
 
 ## Ссылки
 
-* [База данных провайдеров](https://providers.delta.chat/): работает ли мой провайдер с Delta Chat?
-* [FAQ мультиклиентский](help#multiclient): информация о синхронизации версии ПК с другими клиентами Delta Chat.
-* [Проверка загрузок](verify-downloads): проверка целостности данных загрузок.
+* [База данных провайдеров](https://providers.delta.chat/): Работает ли мой провайдер с Delta Chat?
+* [FAQ мультиклиент](help#multiclient): Как синхронизировать ПК версию с другим приложением Delta Chat.
+* [Проверить загрузки](verify-downloads): Проверка целостности данных при загрузке
+* [Устранение неполадок при установке ПК версии](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Решение распространенных проблем с установкой ПК версии
 
 ## Предпросмотр сборок
 

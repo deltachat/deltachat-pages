@@ -21,9 +21,10 @@ ose sisteme të përputhshëm me ta.
 
 ## Lidhje
 
-* [Bazë të dhënash Furnizuesish Shërbimesh](https://providers.delta.chat/): A funksionon Furnizuesi im me Delta Chat-in?
-* [PBR për multiklient](help#multiclient): Si të njëkohësohet Desktopi me një tjetër aplikacion Delta Chat.
-* [Verifikoni Shkarkime](verify-downloads): Verifikoni pacenueshmëri të dhënash të shkarkimeve
+* [Bazë të Dhënash Shërbimesh](https://providers.delta.chat/): A funksionon Shërbimi im me Delta Chat-in?
+* [PBR për shumëklientësh](help#multiclient): Si të njëkohësihet Desktopi me tjetër aplikacion Delta Chat.
+* [Verifikim Shkarkimesh](verify-downloads): Verifikoni integritet të dhënash të shkarkimeve
+* [Diagnostikim Instalimi Për Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Zgjidhje për probleme të rëndomta instalimi në desktop
 
 ## Montime Paraparje
 
