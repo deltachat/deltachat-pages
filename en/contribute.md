@@ -8,7 +8,7 @@ lang: en
 - [Delta Chat support forum](https://support.delta.chat) for wider
   feature discussions and getting support.
 
-- [#deltachat on freenode]({% include webirc-url %}) for day to day communications.
+- [#deltachat on Libera.Chat]({% include webirc-url %}) for day to day communications.
 
 - [Delta Chat mailing
   list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
