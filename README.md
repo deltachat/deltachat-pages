@@ -24,10 +24,7 @@ How to create a new blog post
   to add or modify the `title:` and `author:` line atop it.
 
 - That's all, the result goes to https://delta.chat/en/blog , and the
-  [RSS-Feed](https://delta.chat/feed.xml). Ping r10s or compl4xx on
-  irc.freenode.net/#deltachat so they post it to
-  [Mastodon](https://chaos.social/@delta),
-  [Twitter](https://twitter.com/delta_chat), and other services.
+  [RSS-Feed](https://delta.chat/feed.xml).
 
 
 Testing changes
