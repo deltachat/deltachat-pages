@@ -53,7 +53,7 @@ however, are shown in the correct chat now.
 
 ## Other improvements
 
-[Nearly 100 issues were targeted](https://github.com/orgs/deltachat/projects/31)
+[Nearly 100 issues were targeted](https://github.com/orgs/deltachat/projects/31#column-11613951)
 to improve email-comaptibility,
 some other highlights are:
 
