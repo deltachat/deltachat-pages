@@ -74,7 +74,7 @@ some other highlights are:
 - Due to more messages overall, we **speedup global search**
 
 - you can see the **status** (the footer) of each contact
-  in the contact's profile (the feature is available on Android, other systems will follow)
+  in the contact's profile (the feature is available on Android and Desktop, iOS will follow)
 
 
 ## How it works
@@ -120,13 +120,9 @@ for handling e-mails already today ;)
 
 ## Get the updates
 
-**Check out [get.delta.chat](https://get.delta.chat) for the new versions.**
-
-iOS and Android are available already today;
-shipping to all stores may take some more days.
+**Check out [get.delta.chat](https://get.delta.chat) for the new versions** -
+as always, shipping to all stores will take some time.
 
 The versions include even more things to discover,
 improved notifications on iOS, voice-recording-locking on Android
 and [much, much more](https://delta.chat/en/download#changelogs).
-
-Desktop versions will follow.
