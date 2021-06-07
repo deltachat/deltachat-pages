@@ -58,7 +58,7 @@ Delta Chat will use your location data to display your locations
 to the other members of the chat.
 
 Location data is collected even when the app is closed or not in use
-– for as long as you keep this optional features activated.
+– for as long as you keep this optional feature activated.
 
 
 # Kebijakan privasi untuk kunjungan situs web

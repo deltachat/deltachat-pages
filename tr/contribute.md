@@ -8,7 +8,7 @@ lang: tr
 - Daha geniş özellik tartışmaları ve destek almak için
   [Delta Chat destek forumu](https://support.delta.chat).
 
-- Günden güne iletişimler için [freenode'da #deltachat]({% include webirc-url %}).
+- [#deltachat on Libera.Chat]({% include webirc-url %}) for day to day communications.
 
 - Topluluk tartışmaları ve haberler için 
   [Delta Chat posta

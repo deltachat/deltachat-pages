@@ -7,7 +7,7 @@ lang: fr
 
 - [forum d'assistance Delta Chat](https://support.delta.chat) pour discuter de fonctionnalités étendues et obtenir de l'assistance.
 
-- [#deltachat sur freenode]({% include webirc-url %}) pour des communications au jour le jour
+- [#deltachat sur Libera.Chat]({% include webirc-url %}) pour les communications au quotidien.
 
 - [liste de distribution Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pour discussions communautaires et nouvelles.
 

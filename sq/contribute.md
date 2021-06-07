@@ -8,7 +8,7 @@ lang: sq
 - [Forum asistence për Delta Chat-in](https://support.delta.chat) për
   diskutime më të gjera dhe për të marrë asistencë.
 
-- [#deltachat në freenode]({% include webirc-url %}) për komunikim të përditshëm.
+- [#deltachat në Libera.Chat]({% include webirc-url %}) për komunikime të përditëshme.
 
 - [Listë postimesh Delta Chat]
   (https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 

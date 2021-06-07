@@ -23,8 +23,8 @@ o un sistema compatibile.
 
 * [Provider Database](https://providers.delta.chat/): Il mio Provider funziona con Delta Chat?
 * [FAQ multiclient](help#multiclient): Come sincronizzare il desktop con un'altra app Delta Chat.
-* [Verify Downloads](verify-downloads): Verifica l'integrità dei dati dei download
-* [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Soluzioni per problemi comuni d' installazione desktop
+* [Verifica download](verify-downloads): Verifica l'integrità dei dati dei download
+* [Risoluzione dei problemi d'installazione desktop](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Soluzioni per problemi comuni d' installazione desktop
 
 ## Versioni anteprima
 

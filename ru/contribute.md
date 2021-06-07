@@ -8,7 +8,7 @@ lang: ru
 - [Delta Chat форум поддержки](https://support.delta.chat) больше
   дискуссии для новых возможностей и получения тех. поддержки.
 
-- [#deltachat on freenode]({% include webirc-url %}) для ежедневного обсуждения.
+- [#deltachat в Libera.Chat]({% include webirc-url %}) для ежедневного обсуждения.
 
 - [Delta Chat список
   рассылок](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 

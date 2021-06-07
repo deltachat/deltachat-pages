@@ -8,7 +8,7 @@ lang: id
 - [Forum dukungan Delta Chat](https://support.delta.chat) untuk yang lebih luas
 diskusi fitur dan mendapatkan dukungan.
 
-- [#deltachat on freenode]({% include webirc-url %}) untuk komunikasi sehari-hari.
+- [#deltachat on Libera.Chat]({% include webirc-url %}) for day to day communications.
 
 - [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
 untuk diskusi dan berita komunitas.
