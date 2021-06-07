@@ -57,8 +57,8 @@ estos datos son tratados como calquera outra mensaxe.
 Delta Chat utiizará a túa localización para amosala a outras
 persoas que participen na conversa.
 
-Os datos de localización recóllense incluso cando a app está pechada ou
-non se utiliza – mentras teñas activada esta opción optativa.
+Os datos de localización son recollidos incluso cando a app está pechada ou non se está a utilizar
+– durante todo o tempo que teñas esta función activada.
 
 
 # Política de Privacidade para as visitas ao sitio web

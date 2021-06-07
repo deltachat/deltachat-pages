@@ -5,7 +5,7 @@ lang: de
 
 # Datenschutzerklärung Delta Chat Apps
 
-### Wie erfüllt Delta Chat die DSGVO
+### Wie Delta Chat die DSGVO erfüllt
 
 Die Datenschutz-Grundverordnung (DSGVO) wird häufig 
 als die weitreichendste Gesetzgebung zum Schutz der Privatsphäre von Anwendern betrachtet.
@@ -41,15 +41,15 @@ Auf dieser Seite erfahren Sie, wie die Delta Chat-App und -Website die Anforderu
 Diese Stellungnahme bezieht sich auf die Datenschutz-Grundverordnung (DSGVO) in ihrer Fassung vom 16.05.2018.
 
 
-### Location data
+### Standortdaten
 
-If you share your location in a chat,
-this location data is treated like other messages.
-Delta Chat will use your location data to display your locations
-to the other members of the chat.
+Wenn Sie Ihren Standort in einem Chat teilen,
+werden Ihre Standortdaten wie andere Nachrichten behandelt.
+Delta Chat wird Ihre Standortdaten verwenden, um Ihre Standorte
+den anderen Mitgliedern des Chats anzuzeigen.
 
 Location data is collected even when the app is closed or not in use
-– for as long as you keep this optional features activated.
+– for as long as you keep this optional feature activated.
 
 
 # Datenschutzerklärung Internetseite

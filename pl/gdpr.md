@@ -54,7 +54,7 @@ Niniejsze oświadczenie odzwierciedla ogólne Rozporządzenie o Ochronie Danych 
 
 Jeśli udostępniasz swoją lokalizację na czacie, te dane o lokalizacji są traktowane jak inne wiadomości. Delta Chat użyje danych o twojej lokalizacji, aby wyświetlić twoje lokalizacje innym członkom czatu.
 
-Dane o lokalizacji są gromadzone nawet wtedy, gdy aplikacja jest zamknięta lub nieużywana – tak długo, jak długo są aktywne te opcjonalne funkcje.
+Dane o lokalizacji są gromadzone nawet wtedy, gdy aplikacja jest zamknięta lub nieużywana – tak długo, jak długo jest aktywna te opcjonalna funkcja.
 
 
 # Polityka prywatności strony internetowej

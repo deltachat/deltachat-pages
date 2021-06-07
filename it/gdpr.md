@@ -58,7 +58,7 @@ Delta Chat utilizzerà i dati sulla tua posizione per visualizzare le tue posizi
 agli altri membri della chat.
 
 I dati sulla posizione vengono raccolti anche quando l'app è chiusa o non è in uso
-- per tutto il tempo in cui manterrai attive queste funzioni opzionali.
+- per tutto il tempo in cui mantieni attivata questa funzione opzionale.
 
 
 # Informativa sulla privacy per le visite al sito Web
