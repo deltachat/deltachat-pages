@@ -74,7 +74,7 @@ some other highlights are:
 - Due to more messages overall, we **speedup global search**
 
 - you can see the **status** (the footer) of each contact
-  in the contact's profile (the feature is available on Android and Desktop, iOS will follow)
+  in the contact's profile
 
 
 ## How it works
