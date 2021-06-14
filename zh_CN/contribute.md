@@ -29,10 +29,11 @@ Android、iOS、Windows、Linux 或 Mac 上的 C、Rust、Java、Swift、Javascr
 
 如果您想用金钱来支持 DeltaChat：
 
-- IBAN DE86100777770428658900，帐户所有者（请务必指定）：BjörnPetersen,BIC NORSDE51XXX
+- IBAN DE86100777770428658900，帐户所有者（请务必指定）： Björn Petersen, BIC NORSDE51XXX
 - PayPal 或信用卡： [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- 定期捐赠，通过 [Liberapay](https://liberapay.com/delta.chat/)
-- 发送比特币到[18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- 通过 [Liberapay](https://liberapay.com/delta.chat/) 定期捐赠
+- 通过 [Open Collective](https://opencollective.com/delta-chat/donate) 进行一次性或定期捐赠
+- 发送比特币到 [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 我们需要**设备**来进行测试。 您有废弃的 Android 智能手机或 iPhone 吗？
 [我们](imprint)很乐意接受它！

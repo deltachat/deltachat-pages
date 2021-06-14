@@ -32,10 +32,11 @@ C, Rust, Java, Swift, Javascript o Python a Android, iOS, Windows, Linux o Mac.
 
 Si voleu recolzar DeltaChat amb diners:
 
-- IBAN DE86100777770428658900, propietari del compte (si us plau no us en descuideu): Björn Petersen, BIC NORSDE51XXX
-- PayPal o targeta de crèdit: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donatius periòdics via [Liberapay](https://liberapay.com/delta.chat/)
-- Enviament de bitcoins a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
+- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Necessitem **dispositius** per fer proves. Tens algun Smartphone Android o iPhone en desús?
 A [naltros](imprint) ens encantaria tenir-lo!

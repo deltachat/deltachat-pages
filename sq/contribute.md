@@ -35,7 +35,8 @@ Nëse dëshironi të përkrahsni DeltaChat-in me para:
 
 - IBAN DE86100777770428658900, I zoti i llogarisë (ju lutemi, specifikojeni përherë): Björn Petersen, BIC NORSDE51XXX
 - PayPal ose kartë krediti: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Dhuroni rregullisht përmes [Liberapay](https://liberapay.com/delta.chat/)
+- Dhuroni rregullisht, përmes [Liberapay](https://liberapay.com/delta.chat/)
+- Bëni një dhurim një herësh ose ripërsëritës, përmes [Open Collective](https://opencollective.com/delta-chat/donate)
 - Dërgoni bitkoins te [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Na duhen **pajisje** për qëllime testimi. Keni ndonjë Android Smartphone ose iPhone që s’e përdorni më?

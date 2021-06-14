@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Contribuir
 lang: pt
 ---
 
@@ -8,7 +8,7 @@ lang: pt
 - [Fórum do Delta Chat](https://support.delta.chat) para discussões
   abrangentes, funcionalidades e ajuda.
 
-- [#deltachat on Libera.Chat]({% include webirc-url %}) for day to day communications.
+- [#deltachat no Libera.Chat]({% include webirc-url %}) para comunicações diarias.
 
 - [Lista de e-mails do Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   para discussões em comunidade e novidades.
@@ -18,7 +18,7 @@ lang: pt
 
 # Traduções e relatórios de erro
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Traduções no Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
@@ -32,10 +32,11 @@ C, Rust, Java, Swift, Javascript ou Python no Android, iOS, Windows, Linux ou Ma
 
 Se você quiser ajudar com dinheiro:
 
-- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Dono da conta (por favor especificar sempre): Björn Petersen, BIC NORSDE51XXX
+- PayPal ou cartão de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Doar regularmente por [Liberapay](https://liberapay.com/delta.chat/)
+- Fazer uma doação uma vez ou regularmente por [Open Collective](https://opencollective.com/delta-chat/donate)
+- Enviar bitcoins ao [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Precisamos de **aparelhos** para fins de teste. Você tem algum smartphone velho?
 [Gostaríamos](imprint)muito de obtê-lo!

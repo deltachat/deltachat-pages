@@ -36,6 +36,7 @@ Geld doneren kan op de volgende manieren:
 - IBAN DE86100777770428658900, rekeninghouder (altijd opgeven): Björn Petersen, BIC NORSDE51XXX
 - PayPal of creditcard: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Sponsor ons via [Liberapay](https://liberapay.com/delta.chat/)
+- Sponsor ons middels een eenmalige of terugkerende bijdrage via [Open Collective](https://opencollective.com/delta-chat/donate)
 - Verstuur bitcoins naar [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 We hebben **apparaten** nodig voor testdoeleinden. Heb je ongebruikte Android-telefoons of iPhones?

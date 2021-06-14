@@ -33,10 +33,11 @@ C, Rust, Java, Swift, Javascript ya da Python'a tanıdık olan geliştiriciler a
 
 DeltaChat'i parayla desteklemek istiyorsanız:
 
-- IBAN DE86100777770428658900, Hesap sahibi (lütfen her zaman belirtin): Björn Petersen, BIC NORSDE51XXX
-- PayPal veya kredi kartı: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Düzenli olarak bağış yapın [Liberapay](https://liberapay.com/delta.chat/)
-- Bitcoin adresi: [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
+- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
+- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Sınama amaçlarıyla **aygıtlara** gereksinimimiz var. Kullanılmayan Android akıllı telefonunuz ya da iPhone'unuz var mı?
 [Almak isteriz](imprint)!

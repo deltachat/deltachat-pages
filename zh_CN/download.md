@@ -6,10 +6,10 @@ downloads: true
 
 ## 变更日志
 
-* [桌面版](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android]({% include changelog-url %})
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [核心库](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 桌面版不要求在手机上安装 Delta Chat。
 
@@ -24,7 +24,7 @@ Android 4.1 Jelly Bean
 * [提供商数据库](https://providers.delta.chat/): Delta Chat 可用于我的提供商吗？
 * [多客户端常见问题](help#multiclient): 如何将桌面版程序与另一个 Delta Chat 应用程序同步。
 * [验证下载](verify-downloads): 验证下载数据的完整性
-* [桌面版安装疑难解答](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): 常见桌面版安装问题的解决方案
+* [桌面版安装疑难解答](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): 桌面版安装常见问题的解决方案
 
 ## 预览版
 
