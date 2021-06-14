@@ -35,6 +35,7 @@ Jeśli chcesz wesprzeć DeltaChat pieniędzmi:
 - IBAN DE86100777770428658900, Właściciel konta (proszę zawsze określać): Björn Petersen, BIC NORSDE51XXX
 - PayPal lub karta kredytowa: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Wspieraj regularnie za pośrednictwem [Liberapay](https://liberapay.com/delta.chat/)
+- Przekaż jednorazową lub cykliczną darowiznę za pośrednictwem [Open Collective](https://opencollective.com/delta-chat/donate)
 - Wyślij bitcoiny do [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Potrzebujemy **urządzeń** do celów testowych. Czy masz jakiś nieużywany smartfon z Androidem lub iPhona? [Chcielibyśmy](imprint) go wziąć!

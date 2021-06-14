@@ -6,10 +6,10 @@ downloads: true
 
 ## Registro de cambios
 
-* [Escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android]({% include changelog-url %})
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Núcleo](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Las versiones de escritorio no requieren que Delta Chat sea instalado en un celular.
 

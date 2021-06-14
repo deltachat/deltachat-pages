@@ -6,10 +6,10 @@ downloads: true
 
 ## Registre de canvis
 
-* [Escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android]({% include changelog-url %})
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Nucli](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un telèfon.
 

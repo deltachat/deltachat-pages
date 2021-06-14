@@ -6,10 +6,10 @@ downloads: true
 
 ## Список змін
 
-* [Комп'ютер](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android]({% include changelog-url %})
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Ядро](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Версії для комп'ютера не потребують встановлення DeltaChat на телефоні.
 

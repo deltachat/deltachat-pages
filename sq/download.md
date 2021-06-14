@@ -7,9 +7,9 @@ downloads: true
 ## Regjistra ndryshimesh
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android]({% include changelog-url %})
+* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Bazë](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Versionet desktop s’kanë nevojë që Delta Chat të jetë i instaluar në një telefon.
 

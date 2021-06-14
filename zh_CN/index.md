@@ -7,11 +7,11 @@ lang: zh_CN
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
-**Delta Chat类似Telegram或Whatsapp，但没有跟踪或中央控制。**Delta Chat 不需要你的电话号码。看看我们的 [隐私声明](gdpr)。
+**Delta Chat 类似于 Telegram 或 Whatsapp，但没有跟踪或中央控制。**Delta Chat 不需要你的电话号码。查看我们的 [隐私声明](gdpr)。
 
-**Delta Chat没有自己的服务器**，但使用有史以来最大规模和多样化的开放消息传递系统：现有的电子邮件服务器网络。
+**Delta Chat 没有自己的服务器**，但使用有史以来最大规模和多样化的开放消息传递系统：现有的电子邮件服务器网络。
 
-**如果你知道别人的电子邮件地址，你就可以和他们聊天，对方不需要安装DeltaChat!**你所需要的只是一个标准的电子邮件帐户。
+**如果你知道别人的电子邮件地址，你就可以和他们聊天，对方不需要安装 DeltaChat!**你所需要的只是一个标准的电子邮件帐户。
 
 查看[用户故事和声音](user-voices)📣
 
