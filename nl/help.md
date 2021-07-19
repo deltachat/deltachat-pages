@@ -428,13 +428,13 @@ Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere
 - Het werkt het snelst als beide partijen de app actief gebruiken. Soms duurt het
   iets langer als de app op de achtergrond draait.
 - Het ontvangen van berichten kan dan enkele minuten duren omdat zowel Android als iOS Delta Chat
-  regelmatig pauzeren, en slecht soms weer
+  regelmatig onderbreken, en slecht soms weer
   hervatten. Deze vertraging is doorgaans merkbaarder op iOS dan op Android.
 - Let op: Delta Chat maakt geen gebruik van Google Cloud Messaging (GCM) of Apple's
   Push Notification Service (APNS) omdat deze gebruikersacties bijhouden en
   centraal beheer vereisen, wat Delta Chat zoveel mogelijk wil voorkomen.
-- Maar dat Android en iOS achtergrondapps pauzeren is een
-  algemeen probleem waar veel apps last van hebben. Lees
+- Maar dat Android en iOS achtergrondapps onderbreken is een
+  algemeen probleem waar veel apps last van hebben. Ga naar
   [dontkillmyapp.com](https://dontkillmyapp.com/) voor meer informatie hieromtrent.
 
 

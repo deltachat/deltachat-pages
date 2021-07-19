@@ -417,18 +417,17 @@ hrozí, že mazání zpráv či nastavení na několika zařízeních nebude spr
 
 ### Je hovor v Delta Chatu skutečně _interaktivní_, když užívá E-Mail?
 
-- Posílání zpráv normálně trvá pár sekund. Ojedinělé případy zaslání trvají déle, 
-  ale to beze sporu platí i pro ostatní četovací aplikace.
-- Když účastníci používají Delta Chat aktivně, otevřený hovor funguje rychle. Pokud je
-  aplikace na pozadí může být reakce pomalejší.
-- Přijímání zpráv pak může trvat i několik minut, protože Android a iOS často omezují 
-  běh Delta Chatu na pozadí, a nechají ho běžet jen někdy. Toto umělé omezení je 
-  většinou horší na iOS než na Androidu.
-- Delta Chat totiž nepoužívá Google Cloud Messaging (GCM) ani Apple
-  Push Notification Service (APNS), aby se vyhlo v co nejvyšší míře sledování a 
-  centralizované kontrole.
-- Zastavování aplikací na pozadí v systémech Android a iOS je potíž pro mnoho 
-  legitimních aplikací. Více je o tom na [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Sending and receiving messages takes a few seconds, typically. Sometimes
+  there are cases where it takes longer but that is arguably true as well for
+  any other messenger.
+- Instant chatting works fast if both parties are actively using the app. It's
+  sometimes slower if the app is running in the background.
+- Receiving messages then can take minutes because both Android and iOS often
+  stop Delta Chat from running in the background, and only wake it up
+  occasionally. This artificial delay is usually worse on iOS than on Android.
+- However, Android and iOS kill apps running in the background is a
+  problem for many legitimate apps. For more information, see
+  [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
 ### Lze Delta Chat používat s Protonmail / Tutanota / Criptext?

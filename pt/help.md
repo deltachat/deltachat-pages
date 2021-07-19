@@ -444,9 +444,6 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 - Receiving messages then can take minutes because both Android and iOS often
   stop Delta Chat from running in the background, and only wake it up
   occasionally. This artificial delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
 - However, Android and iOS kill apps running in the background is a
   problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).

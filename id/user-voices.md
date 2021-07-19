@@ -8,10 +8,10 @@ lang: id
 
 ### Dapat merekomendasi kepada orang buta
 
-_"I installed Delta Chat last night, just after writing to you,
-and I immediately noticed the improvement in accessibility [...]
-And it works! And it's accessible! And I can recommend the app to other blind people!                                 
-Good job guys! [...]"_
+_"Saya menginstal Delta Chat tadi malam, tepat setelah menulis kepada Anda,
+dan saya langsung melihat peningkatan aksesibilitas [...]
+Dan itu berhasil! Dan itu dapat diakses! Dan saya dapat merekomendasikan aplikasi ini kepada orang buta lainnya!
+Kerja bagus! [...]"_
 
 **Pengguna buta** tentang versi Android pada 2019, melalui email ke delta@merlinux.eu
 

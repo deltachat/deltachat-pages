@@ -48,8 +48,8 @@ werden Ihre Standortdaten wie andere Nachrichten behandelt.
 Delta Chat wird Ihre Standortdaten verwenden, um Ihre Standorte
 den anderen Mitgliedern des Chats anzuzeigen.
 
-Location data is collected even when the app is closed or not in use
-– for as long as you keep this optional feature activated.
+Standortdaten werden auch gesammelt, wenn die App geschlossen oder nicht in Verwendung ist
+– für so lange wie Sie diese optionale Funktion aktiviert lassen.
 
 
 # Datenschutzerklärung Internetseite

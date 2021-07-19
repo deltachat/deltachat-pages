@@ -16,7 +16,7 @@ diversificato al mondo: la rete di server e-mail esistente.
 **Chatta con chiunque grazie al solo indirizzo e-mail, non serve che anche loro usino DeltaChat!** 
 Tutto ciò di cui hai bisogno è un normale account e-mail.
 
-Guarda [storie e voci dell'utente](user-voices) 📣
+Guarda [storie e voci degli utenti](user-voices) 📣
 
 
 # Screenshot Android, Desktop e iOS 

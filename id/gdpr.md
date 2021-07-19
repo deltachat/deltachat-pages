@@ -23,7 +23,7 @@ Level 1](https://autocrypt.org).
 
 - Tidak memerlukan **persetujuan** (pasal 7 GDPR) dari pengguna atau kontak mereka (subjek data), karena tidak ada data buku alamat yang dikirimkan.
 
--Dapat digunakan **tanpa memerlukan kontrak atau instruksi** dari pengontrol (organisasi) mana pun, karena tidak ada pihak ketiga tambahan yang akan memproses data pribadi terkait E-Mail.
+- Dapat digunakan **tanpa memerlukan kontrak atau instruksi** dari pengontrol (organisasi) mana pun, karena tidak ada pihak ketiga tambahan yang akan memproses data pribadi terkait E-Mail.
 
 
 ## Bagaimana pengontrol data (organisasi) mendapat manfaat dari menggunakan Delta Chat dalam mematuhi GDPR
@@ -34,9 +34,9 @@ tentang pengumpulan data buku alamat, artikel 13, 14 GDPR.
 - Perlu **tidak ada penilaian dampak perlindungan data** untuk dilakukan untuk Delta Chat (Pasal 35 GDPR), karena tidak memproses data tambahan khusus di luar pesan EMail.
 
 - Menambahkan tindakan privasi Delta Chat ke Internet
-   **catatan kegiatan pengolahan** dapat memiliki dampak positif
-   pada akhirnya **dokumentasi bukti**, (pasal 30 GDPR)
-   serta pada **proses sertifikasi perlindungan data**, Pasal 25 (3), 42 GDPR.
+**catatan kegiatan pengolahan** dapat memiliki dampak positif
+pada akhirnya **dokumentasi bukti**, (pasal 30 GDPR)
+serta pada **proses sertifikasi perlindungan data**, Pasal 25 (3), 42 GDPR.
 
 - Catatan **dari kegiatan pemrosesan** terkait dengan messenger-communication
 direduksi menjadi pengidentifikasi penyedia email dan merekam kegiatan mereka, Pasal 30 (2) GDPR.
@@ -50,15 +50,15 @@ oleh pengontrol dan penyedia email.
 Pernyataan ini mencerminkan Peraturan Perlindungan Data Umum (GDPR) pada 16.05.2018.
 
 
-### Location data
+### Data lokasi
 
-If you share your location in a chat,
-this location data is treated like other messages.
-Delta Chat will use your location data to display your locations
-to the other members of the chat.
+Jika Anda membagikan lokasi Anda dalam obrolan,
+data lokasi ini diperlakukan seperti pesan lainnya.
+Delta Chat akan menggunakan data lokasi Anda untuk menampilkan lokasi Anda
+ke anggota obrolan lainnya.
 
-Location data is collected even when the app is closed or not in use
-– for as long as you keep this optional feature activated.
+Data lokasi dikumpulkan bahkan ketika aplikasi ditutup atau tidak digunakan
+– selama Anda tetap mengaktifkan fitur opsional ini.
 
 
 # Kebijakan privasi untuk kunjungan situs web

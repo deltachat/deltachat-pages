@@ -8,7 +8,7 @@ lang: id
 - [Forum dukungan Delta Chat](https://support.delta.chat) untuk yang lebih luas
 diskusi fitur dan mendapatkan dukungan.
 
-- [#deltachat on Libera.Chat]({% include webirc-url %}) for day to day communications.
+- [#deltachat di Libera.Chat]({% include webirc-url %}) untuk komunikasi sehari-hari.
 
 - [Delta Chat mailing list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
 untuk diskusi dan berita komunitas.
@@ -32,11 +32,11 @@ C, Rust, Java, Swift, Javascript atau Python di Android, iOS, Windows, Linux ata
 
 Jika Anda ingin mensupport DeltaChat dengan uang:
 
-- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
-- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Pemilik akun (harap selalu sebutkan): Björn Petersen, BIC NORSDE51XXX
+- PayPal atau credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donasi secara rutin melalui [Liberapay](https://liberapay.com/delta.chat/)
+- Berikan donasi satu kali atau berulang melalui [Open Collective](https://opencollective.com/delta-chat/donate)
+- Kirim bitcoin ke [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Kami membutuhkan **perangkat** untuk tujuan pengujian. Apakah Anda memiliki Smartphone Android atau iPhone yang tidak digunakan?
 [Kami](imprint) akan senang mengambilnya!

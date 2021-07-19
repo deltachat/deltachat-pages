@@ -306,11 +306,17 @@ Delta Chat підтримує поширені формати приватних
 
 ### Якщо Delta Chat використовує електронну пошту, чи насправді він є _Instant_ месенджером?
 
-- Надсилання та отримання повідомлень зазвичай триває кілька секунд. Іноді трапляються випадки, коли це займає більше часу, але це, безперечно, справедливо і для будь-якого іншого месенджера.
-- Миттєвий чат працює швидко, якщо обидві сторони активно використовують додаток. Іноді це повільніше, якщо програма працює у фоновому режимі.
-- Отримання повідомлень тоді може зайняти хвилини, оскільки як Android, так і iOS часто припиняють роботу Delta Chat у фоновому режимі і лише час від часу прокидають його. Ця штучна затримка зазвичай гірша на iOS, ніж на Android.
-- Зверніть увагу, що Delta Chat не використовує Google Cloud Messaging (GCM) або службу сповіщень Apple Push (APNS), оскільки це призводить до відстеження користувачів та централізованого контролю, яких Delta Chat намагається уникнути, наскільки це можливо.
-- Однак програми для Android та iOS вбивають програми, що працюють у фоновому режимі, є проблемою для багатьох законних програм. Для отримання додаткової інформації див. [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Sending and receiving messages takes a few seconds, typically. Sometimes
+  there are cases where it takes longer but that is arguably true as well for
+  any other messenger.
+- Instant chatting works fast if both parties are actively using the app. It's
+  sometimes slower if the app is running in the background.
+- Receiving messages then can take minutes because both Android and iOS often
+  stop Delta Chat from running in the background, and only wake it up
+  occasionally. This artificial delay is usually worse on iOS than on Android.
+- However, Android and iOS kill apps running in the background is a
+  problem for many legitimate apps. For more information, see
+  [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
 ### Чи сумісний Delta Chat із Protonmail / Tutanota / Criptext?
