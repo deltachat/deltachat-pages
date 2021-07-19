@@ -37,7 +37,7 @@ Se desideri supportare economicamente DeltaChat:
 - PayPal o carta di credito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Dona regolarmente tramite [Liberapay](https://liberapay.com/delta.chat/)
 - Effettua una donazione una tantum o ricorrente tramite [Open Collective](https://opencollective.com/delta-chat/donate)
-- Invia bitcoin a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L] (bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- Invia bitcoin a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
 Abbiamo bisogno di **dispositivi** per eseguire i test. Hai un disposito Android o un iPhone che non utilizzi?
 [Noi](imprint) gradiremmo molto averlo!

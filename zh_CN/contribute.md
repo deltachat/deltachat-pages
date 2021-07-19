@@ -35,5 +35,4 @@ Android、iOS、Windows、Linux 或 Mac 上的 C、Rust、Java、Swift、Javascr
 - 通过 [Open Collective](https://opencollective.com/delta-chat/donate) 进行一次性或定期捐赠
 - 发送比特币到 [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-我们需要**设备**来进行测试。 您有废弃的 Android 智能手机或 iPhone 吗？
-[我们](imprint)很乐意接受它！
+我们需要**设备**来进行测试。您有废弃的 Android 智能手机或 iPhone 吗？[我们](imprint)很乐意接受它！

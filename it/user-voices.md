@@ -84,9 +84,9 @@ Delta Chat utilizza le email per trasportare i messaggi istantanei:
 
 **Gaël Duval**, fondatore di Mandrake Linux, tramite [Twitter](https://twitter.com/gael_duval/status/1122906779002777600)
 
-### Decentrato ma facile per gli utenti
+### Decentralizzato ma facile per gli utenti
 
-_"Le persone iniziano a preoccuparsi del decentramento. Ma sembra che per molte persone impostare i server e tutti usare Matrix o XMPP sia troppo complicato mentre puoi usare Delta con solo un indirizzo e-mail"_
+_"Le persone iniziano a preoccuparsi della decentralizzazione. Ma sembra che per molte persone impostare i server e usare tutti Matrix o XMPP sia troppo complicato mentre puoi usare Delta con solo un indirizzo e-mail"_
 
 **Utente russo** Attivista LGBT+, da una discussione online su Telegram
 

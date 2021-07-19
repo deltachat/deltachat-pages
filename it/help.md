@@ -433,20 +433,17 @@ Altrimenti l'eliminazione dei messaggi o l'impostazione di più dispositivi potr
 
 ### Se Delta Chat usa l'email, è davvero messaggistica _istantanea_?
 
-- L'invio e la ricezione di messaggi richiede di solito qualche secondo. A volte
-ci sono casi in cui ci vuole più tempo, ma questo vale anche per qualsiasi
- altro sistema di messaggistica.
-- La chat istantanea funziona velocemente se entrambe le parti utilizzano attivamente l'app.
-Può invece risultare più lenta se l'applicazione è in esecuzione in background.
-- La ricezione dei messaggi può richiedere alcuni minuti dato che sia Android che iOS spesso
-impediscono a Delta Chat di funzionare in background e la attivano solo
-occasionalmente. Questo ritardo forzato è di solito peggiore su iOS che su Android.
-- Ricorda che Delta Chat non utilizza Google Cloud Messaging (GCM) o l'Apple
-Push Notification Service (APNS), perché questo spingerebbe al tracciamento degli utenti e
-al controllo centralizzato che Delta Chat punta ad evitare quanto più possibile.
-- Tuttavia, il fatto che Android e iOS blocchino le applicazioni in background è un
-problema per molte applicazioni legittime. Per ulteriori informazioni, vedi
-[dontkillmyapp.com](https://dontkillmyapp.com/).
+- Sending and receiving messages takes a few seconds, typically. Sometimes
+  there are cases where it takes longer but that is arguably true as well for
+  any other messenger.
+- Instant chatting works fast if both parties are actively using the app. It's
+  sometimes slower if the app is running in the background.
+- Receiving messages then can take minutes because both Android and iOS often
+  stop Delta Chat from running in the background, and only wake it up
+  occasionally. This artificial delay is usually worse on iOS than on Android.
+- However, Android and iOS kill apps running in the background is a
+  problem for many legitimate apps. For more information, see
+  [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
 ### Delta Chat è compatibile con Protonmail / Tutanota / Criptext?

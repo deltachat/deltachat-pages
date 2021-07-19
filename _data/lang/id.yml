@@ -23,9 +23,9 @@ id:
   download:
     recommendation: Direkomendasikan untukmu
     other: Platform lainnya
-    source_code: Kode sumber
+    source_code: Source Code
     install_via_packagemanager: Instal melalui Package Manager
-    outdated: ketinggalan
+    outdated: ketinggalan jaman
     dl_flathub: Unduh dari Flathub
     dl_microsoft: Unduh dari Microsoft Store
     dl_mac_appstore: Unduh di Apple Mac AppStore

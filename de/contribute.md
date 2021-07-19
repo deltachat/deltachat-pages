@@ -8,7 +8,7 @@ lang: de
 - [Delta Chat Support Forum](https://support.delta.chat) für eine breitere
 Diskussion über Features und um Unterstützung zu erhalten.
 
-- [#deltachat on Libera.Chat]({% include webirc-url %}) for day to day communications.
+- [#deltachat auf Libera.Chat]({% include webirc-url %}) für alltägliche Kommunikation.
 
 - [Delta Chat Mailingliste](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   für Community-Diskussionen und Neuigkeiten.
@@ -32,11 +32,11 @@ C, Rust, Java, Swift, Javascript oder Python auf Android, iOS, Windows, Linux od
 
 Wenn Sie Delta Chat mit Geld unterstützen wollen:
 
-- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donate regularly via [Liberapay](https://liberapay.com/delta.chat/)
-- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Send bitcoins to [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Kontoinhaber (bitte immer angeben): Björn Petersen, BIC NORSDE51XXX
+- PayPal oder Kreditkarte: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Regelmäßig spenden mit [Liberapay](https://liberapay.com/delta.chat/)
+- Spenden Sie einmalig oder regelmäßig mit [Open Collective](https://opencollective.com/delta-chat/donate)
+- Senden Sie Bitcoins an [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
 
-Für Testzwecke benötigen wir außerdem **Testgeräte**. Haben Sie ein ausgedientes Android Smartphone oder ein iPhone?
+Für Testzwecke benötigen wir außerdem **Testgeräte**. Haben Sie ein ausgedientes Android-Smartphone oder iPhone?
 [Wir](imprint) nehmen es gerne!

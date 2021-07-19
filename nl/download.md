@@ -6,10 +6,10 @@ downloads: true
 
 ## Wijzigingslogs (Engels)
 
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Computer](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Intern](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Je kunt de computerversies gebruiken zonder de app op je telefoon.
 

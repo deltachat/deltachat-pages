@@ -405,19 +405,17 @@ Cependant, quelques fournisseurs ont besoin d'options spéciales pour bien fonct
 
 ### Si Delta Chat se base sur le courriel électronique, est-ce vraiment une Messagerie _Instantanée_? 
 
-- Envoyer et recevoir des messages prend en général quelques secondes. Il y a parfois
- des cas où celà peut prendre plus longtemps mais c'est aussi fort probablement vrai
- pour n'importe quel autre messagerie.
-La discussion instantanée est fluide si les deux personnes l'utilise activement. C'est
- parfois plus lent si l'application tourne en fond.
-- Recevoir des messages peut alors prendre des minutes, car Android et iOS empêche souvent Delta Chat
- de tourner en fond, et ne le réveille que de temps en temps. Ce délai artificiel
- est d'habitude plus prononcé sur iOS que sur Android.
-- Notez que Delta chat n'utilise pas le Google Cloud Messaging (GCM) ou l'Apple Push Notification Service
- (APNS) pour les notifications, car ça amène au traquage de l'utilisateur que Delta Chat
- veut éviter le plus possible.
-- Néanmoins, Android et iOS qui arrête des tâches tournant en fond est un problème
- pour des applications légitimes. Pour en savoir plus, consultez  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Sending and receiving messages takes a few seconds, typically. Sometimes
+  there are cases where it takes longer but that is arguably true as well for
+  any other messenger.
+- Instant chatting works fast if both parties are actively using the app. It's
+  sometimes slower if the app is running in the background.
+- Receiving messages then can take minutes because both Android and iOS often
+  stop Delta Chat from running in the background, and only wake it up
+  occasionally. This artificial delay is usually worse on iOS than on Android.
+- However, Android and iOS kill apps running in the background is a
+  problem for many legitimate apps. For more information, see
+  [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
 ### Est-ce Delta Chat est compatible avec Protonmail / Tutanota / Criptext? 

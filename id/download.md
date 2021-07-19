@@ -21,10 +21,10 @@ atau compatible systems.
 
 ## Tautan
 
-* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
-* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
-* [Verify Downloads](verify-downloads): Verify data integrity of downloads
-* [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Solutions for common desktop installation problems
+* [Basis Data Penyedia](https://providers.delta.chat/): Apakah Penyedia saya bekerja dengan Delta Chat?
+* [FAQ multiclient](help#multiclient): Cara menyinkronkan Desktop dengan aplikasi Delta Chat lainnya.
+* [Verifikasi Unduhan](verify-downloads): Verifikasi integritas data unduhan
+* [Pemecahan Masalah Instalasi Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Solusi untuk masalah instalasi desktop yang umum
 
 ## Pratinjau Build
 

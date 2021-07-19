@@ -328,10 +328,9 @@ Einige BenutzerInnen verwenden Delta Chat als reguläres E-Mail-Programm und mö
 ### Delta Chat verwendet E-Mail - ist es dann wirklich ein _Instant_ Messenger?
 
 - Typischerweise benötigt das Senden und Empfangen von Nachrichten nur wenige Sekunden. Es gibt Fälle, in denen es länger dauert, aber das trifft auch auf andere Messenger zu.
-- Das Chatten geht schnell, wenn beide Seiten die App direkt verwenden. Wenn die App im Hintergrund läuft, kann es zu Verzögerungen kommen.
-- Das Empfangen von Nachrichten im Hintergrund kann deshalb manchmal Minuten dauern, weil Android und iOS Delta Chat (und andere Apps) daran hindern, aktiv im Hintergrund zu laufen, und die App so nur gelegentlich aktiv ist.
-- Push-Dienste wie Google Cloud Messaging (GCM) oder Apple Push Notification Services (APNS) werden von Delta Chat nicht verwendet, um Benutzer-Tracking und Kontrolle so gut wie möglich zu vermeiden.
-- Das Problem, dass Android und iOS Apps unaufgefordert Programme, die im Hintergrund laufen, stilllegen, ist ein Problem, das viele Apps haben, siehe [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Das Chatten geht schnell, wenn beide Seiten die App aktiv verwenden. Wenn die App im Hintergrund läuft, kann es zu Verzögerungen kommen.
+- Das Empfangen von Nachrichten im Hintergrund kann deshalb manchmal Minuten dauern, weil Android und iOS Delta Chat daran hindert, im Hintergrund zu laufen, und die App so nur gelegentlich aktiv ist. Diese künstliche Verzögerung ist eher unter iOS zu spüren als unter Android.
+- Dass Android und iOS Apps, die im Hintergrund laufen, beenden, ist allerdings ein Problem, das viele legitime Apps haben. Für weitere Informationen siehe [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
 ### Ist Delta Chat kompatibel mit Protonmail / Tutanota / Criptext?

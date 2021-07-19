@@ -58,7 +58,7 @@ Pesan lain tidak muncul secara otomatis, dan dapat ditemukan di **Permintaan kon
 
 ### Apakah Delta Chat mendukung gambar, vidio dan lampiran lainnya?
 
-Ya, Di samping teks biasa, semua lampiran email ditampilkan sebagai pesan terpisah. Pesan keluar mendapatkan lampiran sesuai kebutuhan secara otomatis.
+- Ya, Di samping teks biasa, semua lampiran email ditampilkan sebagai pesan terpisah. Pesan keluar mendapatkan lampiran sesuai kebutuhan secara otomatis.
 
 
 ### Siapa yang dapat melihat Foto Profil saya?
@@ -83,14 +83,14 @@ baru
 
 ### Mengapa saya harus memasukkan kata sandi E-Mail saya ke Delta Chat? Apakah ini aman?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway. 
+Seperti program E-Mail lainnya seperti Thunderbird, K9-Mail, atau Outlook,
+program membutuhkan kata sandi sehingga Anda dapat menggunakannya untuk mengirim email. Tentu saja,
+kata sandi hanya disimpan di perangkat Anda. Kata sandi hanya dikirimkan ke
+penyedia E-Mail Anda (saat Anda login), yang tetap memiliki akses ke email Anda.
 
-If you use an E-Mail provider with OAuth2 support like gmail.com or yandex.ru,
-there is no need to store your password on the device. In this case, only an
-access token is used.
+Jika Anda menggunakan penyedia E-Mail dengan dukungan OAuth2 seperti gmail.com atau yandex.ru,
+tidak perlu menyimpan kata sandi Anda di perangkat. Dalam hal ini, hanya
+token akses digunakan.
 
 Karena Delta Chat adalah Open Source, Anda dapat memeriksa file [Source
 Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
@@ -444,9 +444,6 @@ Otherwise, deleting messages or multi-device setups might not work properly.
 - Receiving messages then can take minutes because both Android and iOS often
   stop Delta Chat from running in the background, and only wake it up
   occasionally. This artificial delay is usually worse on iOS than on Android.
-- Note that Delta Chat doesn't use Google Cloud Messaging (GCM) or the Apple
-  Push Notification Service (APNS), because this leads to user tracking and
-  central control which Delta Chat aims to avoid as much as feasible.
 - However, Android and iOS kill apps running in the background is a
   problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).
