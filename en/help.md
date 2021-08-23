@@ -456,9 +456,9 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   Chat; they do not offer receiving mails via IMAP.
 - In any case you can use Delta Chat to send Messages to people who use
   Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is only
-  working inside their platforms, and not compatible with Autocrypt, the
-  standard Delta Chat uses.
+  encrypted, though. The End-to-End encryption those providers offer is not 
+  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
+  uses.
 - Delta Chat can e2e-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
