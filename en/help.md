@@ -461,6 +461,10 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   uses.
 - Delta Chat can e2e-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- Users who pay for Protonmail Desktop might be able to use the IMAP Bridge for
+  Delta Chat over Protonmail. We can not test nor support this feature. Check
+  out our [provider page](https://providers.delta.chat/protonmail) for more
+  information.
 
 
 ### I'm interested in the technical details. Can you tell me more?
