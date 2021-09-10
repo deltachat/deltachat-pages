@@ -1,6 +1,6 @@
 ---
 title: What Makes a Good E-Mail Provider?
-author: missytake
+author: missytake, jette
 image: ../assets/blog/2021-05-html-mail.jpg
 ---
 
