@@ -40,7 +40,7 @@ criteria we identified:
 ### Qualitative criteria
 
 10. Does the provider have open registration or is it invite only?
-11. What are the costs and what kind of business model1 is applied?
+11. What are the costs and what kind of business model is applied?
 12. How many people manage the provider? (risk of overload for smaller providers?)
 13. What is the mailbox storage size?
 14. Grey-listing: does the provider delay initial messages from unknown senders? 
@@ -58,7 +58,8 @@ There were some other criteria which were too complicated to measure, but still
 interesting: e.g. where the servers of a provider are based, and with which
 jurisdiction it has to comply; or whether they collaborated with governments in
 the past, as it just caused an outcry in a [case against climate
-activists](https://protonmail.com/blog/climate-activist-arrest/).
+activists](https://protonmail.com/blog/climate-activist-arrest/). Unfortunately
+we can't really use this information for the database.
 
 ## Which Other Features Can Come out of This?
 
