@@ -1,31 +1,27 @@
 ---
 title: What Makes a Good E-Mail Provider?
-author: missytake, jette
+author: missytake, jette, holga
 image: ../assets/blog/2021-05-html-mail.jpg
 ---
 
+What provider should I use for Delta Chat?  We hear this question often but it's not so easy to answer. But it's not so easy to answer. Everyone has different needs. So how to go about this? 
 
-What provider should I use for Delta Chat? I hear this question so often that
-there should be something in the [FAQ](help). But it's not so easy to answer.
-Everyone has different needs. So how to make this decision?
+## Finding Criteria for e-mail comparisons
 
-One of our most important projects right now aims to help with this question.
-We are working on a provider comparison database called EPPD (E-Mail Provider
-Portability Directory), which summarizes quantitative and qualitative data
-about different e-mail providers, e.g. easy registration, provider connectivity
-and constraints.
+Early this year we applied for EU funding to come up with a thorough e-mail provider comparison approach and to improve our apps while doing that. In April we received funding from [DAPSI EU consortium](https://dapsi.ngi.eu/hall-of-fame/eppd/) to support a more comprehensive approach of comparing e-mail providers. To find out about useful comparison criteria, we systematically asked Delta Chat power users from ten countries, about what they need from a provider - including what their communities like or dislike about different providers. We just finished a report on these interviews and the criteria which we now use for comparing e-mail providers in the next couple of months. 
 
-This should make it easy to choose which e-mail provider serves your needs
-best. It might even increase competition among providers.
+<a href="../assets/blog/eppd_criteria_final.pdf">
+    <img src="../assets/blog/eppd_criteria_final.jpg"
+         width="260" style="border-width: 1px; border-color: grey; border-style: solid;"/><br>
+    <b>Download</b> eppd_criteria_final.pdf
+</a>
 
-## Different Criteria for Different Needs
+You'll see the EPPD comparison criteria below which we'll use to evaluate roughly 20 providers in the upcoming months. Many thanks also to Gerry who majorly helped with identifying the providers and collecting initial information about them.  Apart from making it easier for Delta Chat users to choose a provider, we are to use these findings to make Delta Chat easier to use, for example telling users about rate limits when messages fail to go out.  
 
-To find out performance criteria, we asked 10 Delta Chat power users and
-multiplicators from all over the world, what they need from a provider - and
-what their communities like about different providers. This is the full list of
-criteria we identified:
+If you have any additional input or questions on this please mention "EPPD" in a post on our [support forum](https://support.delta.chat) -- you can login with your Delta Chat app there through a QR scan btw :) 
 
-### Performance criteria
+
+## Performance criteria (mostly measured through scripts) 
 
 1. How much delay is between sending and receiving a message through various providers? 
 2. Does a provider systematically block e-mails from other (smaller or larger) providers? 
@@ -37,7 +33,7 @@ criteria we identified:
 8. Does the provider support IDLE /MOVE/ IMAP and quota extension?
 9. Does the provider support alias and/ or plus extension?
 
-### Qualitative criteria
+## Qualitative criteria (human research) 
 
 10. Does the provider have open registration or is it invite only?
 11. What are the costs and what kind of business model is applied?
@@ -49,33 +45,4 @@ criteria we identified:
 17. Privacy Policy: What data is used for third parties, advertisers?
 18. Migration: Can I set a forwarding alias address?
 19. Migration: Can all data, including contacts and messages (folders) be exported and imported from one provider to another?
-
-We can now evaluate providers after these criteria and publish the answers on
-[providers.delta.chat](https://providers.delta.chat). We will start with 20
-popular providers from different countries, and aim to add more in the future.
-
-There were some other criteria which were too complicated to measure, but still
-interesting: e.g. where the servers of a provider are based, and with which
-jurisdiction it has to comply; or whether they collaborated with governments in
-the past, as it just caused an outcry in a [case against climate
-activists](https://protonmail.com/blog/climate-activist-arrest/). Unfortunately
-we can't really use this information for the database.
-
-## Which Other Features Can Come out of This?
-
-Apart from making it easier for Delta Chat users to choose a provider, we can
-use this information to make Delta Chat even easier to use. It makes it easier
-to tell users when and why a message was delayed or rejected; if this happens
-because of a Delta Chat bug, or because a provider has a too restrictive spam
-filter.
-
-This makes the EPPD project a perfect combination with another project of ours;
-the AEAP project (Advanced E-Mail Adress Porting) aims to make it easy to
-migrate from one provider to the next. This way, users have much more freedom
-around their e-mail account; and they can also base this important decision on
-direct information.
-
-So stay tuned! if you have other ideas around this, join [our
-forum](https://support.delta.chat) and tell us your needs, so they can flow
-into this project as well.
 
