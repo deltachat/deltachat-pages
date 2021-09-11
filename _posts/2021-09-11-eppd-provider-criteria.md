@@ -1,12 +1,10 @@
 ---
-title: What Makes a Good E-Mail Provider?
+title: What Makes a Good E-Mail Provider? Let's find out :) 
 author: missytake, jette, holga
 image: ../assets/blog/2021-05-html-mail.jpg
 ---
 
 What provider should I use for Delta Chat?  We hear this question often but it's not so easy to answer. But it's not so easy to answer. Everyone has different needs. So how to go about this? 
-
-## Finding Criteria for e-mail comparisons
 
 Early this year we applied for EU funding to come up with a thorough e-mail provider comparison approach and to improve our apps while doing that. In April we received funding from the [DAPSI EU consortium](https://dapsi.ngi.eu/hall-of-fame/eppd/) to support a more comprehensive approach of comparing e-mail providers. To find out about useful comparison criteria, we systematically asked Delta Chat power users from ten countries, about what they need from a provider - including what their communities like or dislike about different providers. We just finished a report on these interviews and the criteria which we now use for comparing e-mail providers in the next couple of months. 
 
