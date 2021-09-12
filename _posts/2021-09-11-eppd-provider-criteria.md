@@ -6,7 +6,7 @@ image: ../assets/blog/eppd-criteria-final.jpg
 
 What provider should I use for Delta Chat?  We hear this question often but it's not so easy to answer. Everyone has different needs and situations. So how to go about this? 
 
-Early this year we applied for EU [NGI](https://www.ngi.eu/) funding to come up with a thorough e-mail provider comparison approach and to improve our apps while doing that. In April we received funding from the [DAPSI EU consortium](https://dapsi.ngi.eu/hall-of-fame/eppd/) to support a more comprehensive approach of comparing e-mail providers. To find out about useful comparison criteria, we systematically asked Delta Chat power users from ten countries, about what they need from a provider - including what their communities like or dislike about different providers. We just finished a report and have a working set of criteria which we are happy with.
+Early this year we applied for EU [NGI](https://www.ngi.eu/) funding to come up with a thorough e-mail provider comparison approach and to improve our apps while doing that. We succeeded in getting funding from the [DAPSI EU consortium](https://dapsi.ngi.eu/hall-of-fame/eppd/) to support a more comprehensive approach of comparing e-mail providers. To find out about useful comparison criteria, we systematically asked Delta Chat power users from ten countries, about what they need from a provider - including what their communities like or dislike about different providers. We just finished a report and have a working set of criteria which we are happy with.
 
 <a href="../assets/blog/eppd_criteria_final.pdf">
     <img src="../assets/blog/eppd-criteria-final.jpg"
