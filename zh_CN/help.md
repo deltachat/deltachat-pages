@@ -306,17 +306,10 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 ### 使用电子邮件的 Delta Chat 真的是 _即时_ 通讯工具吗？
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in the background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occasionally. This artificial delay is usually worse on iOS than on Android.
-- However, Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- 通常情况下，发送和接收消息会花费数秒。收发消息有时会花费更长时间；但是对于其他的通信软件来说，这也是真的。
+- 在双方都积极使用本应用时，即时聊天反应迅速；而当应用运行在后台时，有时就会很慢。
+- 由于 Android 与 iOS 经常阻止 Delta Chat 在后台运行、偶尔才会唤醒它，接收消息可能要花费数分钟。iOS 上的这种人为延迟通常比 Android 上的更糟糕。
+- 另外，对于很多正常应用来说，Android 和 iOS 杀掉后台应用是一个问题。更多信息，请参阅 [dontkillmyapp.com](https://dontkillmyapp.com/)。
 
 
 ### Delta Chat 与 Protonmail / Tutanota / Criptext 兼容吗？

@@ -433,17 +433,17 @@ Altrimenti l'eliminazione dei messaggi o l'impostazione di più dispositivi potr
 
 ### Se Delta Chat usa l'email, è davvero messaggistica _istantanea_?
 
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in the background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occasionally. This artificial delay is usually worse on iOS than on Android.
-- However, Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
+- Inviare e ricevere messaggi impiega pochi secondi, solitamente. Talvolta
+ci sono casi in cui impiega di più ma questo è probabilmente vero per
+ogni altro messenger.
+- La chat istantanea funziona velocemente se entrambe le parti stanno usando attivamente l'app. È
+talvolta più lento se l'app sta girando in background.
+- Ricevere messaggi quindi può impiegare qualche minuto perché sia Android sia iOS spesso
+bloccano Delta Chat in background e lo riattivano solo
+sporadicamente. Questo ritardo artificiale è solitamente peggiore su iOS che su Android.
+- Ad ogni modo, il fatto che Android e iOS uccidano le app in background è un
+problema per molte app legittime. Per più informazioni, vedi
+[dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
 ### Delta Chat è compatibile con Protonmail / Tutanota / Criptext?
