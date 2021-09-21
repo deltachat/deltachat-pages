@@ -30,7 +30,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
 
-Silakan periksa [get.delta.chat](https://get.delta.chat) dan [posting blog terbaru](blog)
+Silahkan periksa [get.delta.chat](https://get.delta.chat) dan [posting blog terbaru](blog)
 untuk informasi tentang rilis dan acara terkini.
 
 Delta Chat adalah [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
