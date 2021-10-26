@@ -5,6 +5,18 @@ lang: en
 
 # User Stories and Voices
 
+### supports more than one account
+
+_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_
+
+**mastodon user** before we improved multiple accounts <https://oc.todon.fr/@borispaing/106607795144753681>
+
+
+### DC supports audio and video call
+
+_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+
+**mastodon user** <https://masto.1146.nohost.me/@lps/106303722917783273> 
 
 ### Can recommend to blind people
 
