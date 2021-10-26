@@ -96,7 +96,7 @@ Die Kommunikation von Delta Chat funktioniert über deinen E-Mail-Account. Damit
 
 Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
 
-#### 2.2 Hearbeat Push-Benachrichtigungen
+#### 2.2 Heartbeat Push-Benachrichtigungen
 
 Push-Benachrichtigungen können in regelmäßigen Abständen an das Telefon des Benutzers gesendet werden, um einen Empfang von Nachrichten zu ermöglichen, während die Delta Chat App gerade nicht aktiv ist. Aktuelle Nachrichten können dann auf dem Endgerät aberufen werden. Der Token wird nur erstellt, sofern der Nutzer einen zuverlässigen Empfang von Nachrichten möchte, auch wenn die App nicht aktiv ist. 
 
