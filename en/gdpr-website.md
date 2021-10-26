@@ -5,7 +5,7 @@ lang: en
 
 # Website Privacy Policy
 
-**This is the privacy policy for this website. You can find the [privacy policy of the Delta Chat apps here](gdpr).**
+**This is the privacy policy for this website. The Delta Chat apps have a [separate privacy policy](gdpr).**
 
 ## 1. Name and contact information of the data controller
 
