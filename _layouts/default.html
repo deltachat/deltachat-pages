@@ -74,7 +74,7 @@
     <a href="references">{%if tx.references != ""%}{{ tx.references }}{%else%}{{ txEn.references }}{%endif%}</a>
     | <a href="https://github.com/deltachat/">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
     | <a href="imprint">{%if tx.imprint != ""%}{{ tx.imprint }}{%else%}{{ txEn.imprint }}{%endif%}</a>
-    | <a href="gdpr">{%if tx.privacy != ""%}{{ tx.privacy }}{%else%}{{ txEn.privacy }}{%endif%}</a>
+    | <a href="gdpr-website">{%if tx.privacy != ""%}{{ tx.privacy }}{%else%}{{ txEn.privacy }}{%endif%}</a>
 <br>
 <span class="desktoponly">{%if tx.language != ""%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}:</span>
 {% include footer-languages.html %}
