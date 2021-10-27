@@ -7,10 +7,10 @@ lang: ca
 
 ### Com  compleix Delta Chat amb el RGPD
 
-The General Data Protection Regulation (GDPR) is often regarded
-as the furthest reaching legislation for privacy protection of users. 
-On this page we detail how the Delta Chat app and website complies 
-with GDPR requirements. 
+El Reglament General de Protecció de Dades (RGPD) sovint és vist com
+la legislació més avançada en la protecció de la privacitat dels usuaris.
+En aquesta pàgina detallem com l'app de Delta Chat i la seva web
+donen compliment als requeriments del RGPD.
 
 - Implements the **Privacy by Design** requirement of the GDPR, through
 
@@ -50,7 +50,7 @@ with GDPR requirements.
 This statement reflects the General Data Protection Regulation (GDPR) as of 16.05.2018.
 
 
-### Location data
+### Dades d'ubicació
 
 If you share your location in a chat,
 this location data is treated like other messages.
@@ -61,23 +61,23 @@ Location data is collected even when the app is closed or not in use
 – for as long as you keep this optional feature activated.
 
 
-# Privacy Policy for Website visits 
+# Política de Privacitat pels visitants de la web
 
-**Status: January 21, 2020**
+**Estatus: January 21, 2020**
 
 At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
 website is in compliance with the European General Data Protection Regulation
 (2016/679). Therefore, we minimise the processing of your data to the minimum
 necessary (Privacy by Design).
 
-### General information
+### Informació general
 
 The Delta.chat website does not use own or third party cookies, website
 analytics services, third party advertising and marketing services or the use
 of social media plug-ins. Data processing is limited to voluntary e-mail
 contact.
 
-### Responsible person
+### Persona responsable
 
 The person responsible for the data processing of this site in terms of the
 DSGVO and other national data protection laws of the member states as well as

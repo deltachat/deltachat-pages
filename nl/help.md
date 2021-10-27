@@ -168,14 +168,15 @@ Delta Chat doet het volgende met deze rechten:
   geen meldingen meer als er nieuwe berichten zijn.
 
 
-### Wat betekenen de twee vinkjes in groepsberichten? Heeft iedereen mijn bericht gelezen?
+### What do the ticks shown beside outgoing messages mean?
 
-- Een bericht bevat twee vinkjes als meer dan de helft van de ontvangers
-  het bericht heeft bekeken (niet per se gelezen).
-- Sommige ontvangers hebben leesbevestigingen uitgeschakeld omwille van hun privacy.
-- Als meer dan de helft van de ontvangers in een groep ze heeft uitgeschakeld, dan worden de twee vinkjes
-  nooit getoond. Meer informatie hierover vind je in
-  [dit blogbericht](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## Versleuteling {#encryption}

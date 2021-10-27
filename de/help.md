@@ -148,11 +148,12 @@ Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gr
 - Alternativ können Sie eine Gruppe auch "stummschalten" - dies bedeutet, dass Sie weiterhin alle Nachrichten erhalten und neue schreiben können, aber nicht mehr über neue Nachrichten informiert werden.
 
 
-### Was bedeuten die doppelten Häkchen in Gruppennachrichten? Haben alle meine Nachricht gelesen?
+### Was bedeuten die Häkchen neben den ausgehenden Nachrichten?
 
-- Neben einer Nachricht werden zwei Häkchen angezeigt, wenn sie von mehr als der Hälfte der EmpfängerInnen geöffnet wurde.
-- EmpfängerInnen können diese Lesebestätigungen aus Datenschutzgründen ausschalten.
-- Wenn mehr als 50% der EmpfängerInnen einer Gruppe die Lesebestätigungen ausgeschaltet haben, werden niemals zwei Häkchen angezeigt - weitere Informationen in [diesem Blogbeitrag](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **Ein Häkchen** bedeutet, dass die Nachricht erfolgreich versandt wurde.
+- **Zwei Häkchen** bedeuten, dass mindestens ein Gerät des Empfängers zurückgemeldet hat, die Nachricht empfangen zu haben.
+- Lesebestätigungen können deaktiviert werden. D.h. auch wenn Sie nur ein Häkchen sehen, kann die Nachricht gelesen worden sein.
+- Umgekehrt bedeuten zwei Häkchen nicht automatisch, dass ein Mensch die Nachricht gelesen oder verstanden hat ;)
 
 
 ## Verschlüsselung {#encryption}
