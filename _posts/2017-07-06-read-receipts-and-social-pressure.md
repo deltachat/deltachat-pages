@@ -40,3 +40,11 @@ It's a sort of a democratic vote. Advantages:
 - Technically, in _large_ groups, we can reduce the overall number of read receipts by forcing only some samples (eg. by letting only about every 4th member send Read receipts; the sender simply multiplies the result by 4 then)
 
 What do you think about this approach?  Discussions are very welcome [here](https://github.com/deltachat/deltachat-android/issues/113).
+
+
+_EDIT: After some experience, testing and lots of discussions,
+all in all this approach turns out to be too complicated and not easy to understand.
+Also, message info meanwhile shows details about who has read a message._
+
+_Therefore, as of September 2021, we switched to the simpler approach of marking messages as read
+when least one of the recipient's device reported back to having received the message._
