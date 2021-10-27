@@ -148,11 +148,15 @@ Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gr
 - Alternativ können Sie eine Gruppe auch "stummschalten" - dies bedeutet, dass Sie weiterhin alle Nachrichten erhalten und neue schreiben können, aber nicht mehr über neue Nachrichten informiert werden.
 
 
-### Was bedeuten die doppelten Häkchen in Gruppennachrichten? Haben alle meine Nachricht gelesen?
+### What do the ticks shown beside outgoing messages mean?
 
-- Neben einer Nachricht werden zwei Häkchen angezeigt, wenn sie von mehr als der Hälfte der EmpfängerInnen geöffnet wurde.
-- EmpfängerInnen können diese Lesebestätigungen aus Datenschutzgründen ausschalten.
-- Wenn mehr als 50% der EmpfängerInnen einer Gruppe die Lesebestätigungen ausgeschaltet haben, werden niemals zwei Häkchen angezeigt - weitere Informationen in [diesem Blogbeitrag](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## Verschlüsselung {#encryption}

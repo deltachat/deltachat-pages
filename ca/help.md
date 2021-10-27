@@ -14,11 +14,11 @@ Delta Chat és una nova aplicació de xat que envia els missatges via correu ele
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
-### How can I find people to chat with? 
+### Com puc trobar gent amb qui xatejar?
 
-With Delta Chat, you can write to every existing e-mail address - even
-if the recipient is not using the Delta Chat app. No need for the
-recipient to install the same app as yours, as with other messengers.
+Amb Delta Chat pots escriure a qualsevol adreça de correu electrònic,
+fins i tot si el destinatari no usa Delta Chat. No cal que ell s'instal·li la
+mateixa app que tu, com passa amb els altres programes de missatgeria.
 
 
 ### What are the advantages of Delta Chat compared to other messengers?
@@ -176,15 +176,15 @@ This is what Delta Chat does with these permissions:
   can still write, but are no longer notified of any new messages.
 
 
-### What do double ticks mean in group messages? Has everyone read my message now?
+### What do the ticks shown beside outgoing messages mean?
 
-- A message shows double ticks after more than half of the recipients have
-  seen the message on their display.
-- Note that some recipients might have disabled read-receipts for
-  privacy-reasons.
-- If more than 50% in a group disabled read receipts, the double ticks will
-  never show up. For more detailed information, see
-  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## Encryption {#encryption}

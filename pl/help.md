@@ -153,11 +153,15 @@ Zobacz [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest
   nadal będziesz mógł pisać, ale nie będziesz już powiadamiany o żadnych nowych wiadomościach.
 
 
-### Co oznaczają podwójne zaznaczenia w wiadomościach grupowych? Czy wszyscy przeczytali teraz moją wiadomość?
+### What do the ticks shown beside outgoing messages mean?
 
-- Wiadomość jest podwójnie zaznaczona, gdy ponad połowa odbiorców zobaczyła wiadomość na swoim wyświetlaczu.
-- Pamiętaj, że niektórzy odbiorcy mogli wyłączyć potwierdzenia odczytu ze względu na ochronę prywatności.
-- Jeśli ponad 50% w grupie wyłącza potwierdzenia odczytu, podwójne znaczniki nigdy się nie pojawią. Bardziej szczegółowe informacje można znaleźć [w tym poście na blogu. ](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## Szyfrowanie {#encryption}

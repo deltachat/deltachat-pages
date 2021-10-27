@@ -5,12 +5,11 @@ lang: fr
 
 # Références
 
-This list is far from being complete - did we miss something? Please
-[let us know](imprint) or just do a [pull
-request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Cette liste est loin d'être complète - avons-nous oublié quelque chose? S'il vous plait 
+[dites le nous](imprint) ou faites juste une [demande de tirage](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Pocketnow: 10 Ways Delta Chat is Better than WhatsApp, Signal, and Telegram
+### Pocketnow: 10 points sur lesquels Delta Chat est meilleur que WhatsApp, Signal, et Telegram
 
 _"With everyone deleting WhatsApp and switching to Telegram or Signal,
 maybe there’s something better that you haven’t heard of yet.
@@ -19,17 +18,17 @@ Here are 10 ways Delta Chat is better than the others [...]"_
 2021-02-13, <https://pocketnow.com/10-ways-delta-chat-is-better-than-whatsapp-signal-and-telegram>
 
 
-### Zeit Online (Large German newspaper): Good bye, WhatsApp!
+### Zeit Online (grand journal allemand): Adieu, WhatsApp!
 
 Zeit Online shows 5 alternatives to WhatsApp, including Delta Chat:
 _"Like an e-mail app, Delta.Chat needs the server information of the e-mail address used [...]
 The subsequent operation of the chat interface is intuitive."_
 
-2021-01-16, Article is behind a paywall,
+2021-01-16, Article payant,
 <https://www.zeit.de/digital/datenschutz/2021-01/messenger-app-whatsapp-signal-telegram-threema-ginlo-vergleich>
 
 
-### jlelse's Blog: Email is the messenger you should migrate to
+### Blog de jlelse : le courriel est le messager vers lequel vous devez migrer
 
 _"I have to say it’s pretty decent now [...]
 But the most important thing: Delta Chat allows you to communicate even with people who don’t use Delta Chat at all [...]
@@ -178,21 +177,21 @@ Delta Chat est mentionné sur le bord.
 05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
 
 
-### Linux User (German magazine): Private and Confidential - Privatvergnügen
+### Linux User (journal allemand): Private and Confidential - Privatvergnügen
 
 _ "La messagerie Delta Chat offre une alternative intéressante aux voleur de données comme Whatsapp." _
 
 03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
 
 
-### Hasecke (German blog): Mit Delta Chat per E-Mail chatten
+### Hasecke (blog allemand): Mit Delta Chat per E-Mail chatten
 
 _ "Delta Chat fonctionne bien - en tant que messagerie et en tant que client courriel." _
 
 2017-10-15, <https://www.hasecke.eu/post/delta-chat/>
 
 
-### Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-Himmel?!
+### Cloudette (blog allemand): Delta Chat – ein neuer Star am Messenger-Himmel?!
 
 _ "Pour moi, le tout semble très bien jusqu'ici et je pourrais imaginer que je puisse remplacer progressivement tous les autres messageries instantanées[...]" _
 
@@ -214,4 +213,4 @@ _"Delta.Chat: Sicher und dezentral – geht das?"_
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out [user stories and voices](user-voices).
+vérifiez aussi [ce qu'en disent les utilisateurs](user-voices).

@@ -1,16 +1,14 @@
 ---
-title: Privacy for Delta Chat App and Websites
+title: Respect de la vie privée pour l'appli Delta Chat et ses sites Web
 lang: fr
 ---
 
-# Privacy Policy Delta Chat Apps 
+# Respect de la vie privée pour les applis Delta Chat
 
-### How Delta Chat complies to the GDPR
+### Comment Delta Chat respecte le RGPD
 
-The General Data Protection Regulation (GDPR) is often regarded
-as the furthest reaching legislation for privacy protection of users. 
-On this page we detail how the Delta Chat app and website complies 
-with GDPR requirements. 
+le Règlement général de protection des données (RGPD)  est souvent considéré comme la législation la plus poussée en matière de protection de la vie privée des utilisateurs. 
+Sur cette page, nous détaillons la manière dont l'application et le site web Delta Chat sont conformes aux exigences du RGPD. 
 
 - Met en œuvre l'exigence de **Vie privée par conception** du RGPD, par
 
@@ -18,14 +16,14 @@ with GDPR requirements.
 
  - **Minimisation des données** : Pas de téléchargement du contenu du carnet d'adresses.
 
- - **Évasion des données** : Pas de serveur Delta Chat, pas de traitement des données personnelles.
+ - **Fuites de données** : Pas de serveur Delta Chat, pas de traitement des données personnelles.
 
 - N'exige pas de **consentement** (article 7 du RGPD) de la part des utilisateurs ou de leurs contacts (personnes concernées), car aucune donnée du carnet d'adresses n'est transmise.
 
 - Peut être utilisé **sans nécessiter de contrat ou d'instructions** de la part d'un responsable du traitement (organisation), car aucune tierce partie supplémentaire ne traitera les données à caractère personnel relatives aux courriers électroniques. 
 
 
-### How data controllers (organizations) benefit from using Delta Chat in complying to the GDPR
+### Comment les contrôleurs de données (organisations) bénéficient de l'utilisation de Delta Chat pour se conformer au RGPD
 
 - Ne crée **aucune exigence d'information supplémentaire** pour le responsable du traitement à l'égard des personnes concernées directement ou indirectement concernant toute collecte de données du carnet d'adresses, article 13, 14 du RGPD.
 
@@ -42,73 +40,46 @@ with GDPR requirements.
 Cette déclaration reflète le Règlement général sur la protection des données (RGPD) en vigueur au 16.05.2018.
 
 
-### Location data
+### données de localisation
 
-If you share your location in a chat,
-this location data is treated like other messages.
-Delta Chat will use your location data to display your locations
-to the other members of the chat.
+Si vous partagez votre emplacement dans un tchate, ces données de localisation sont traitées comme les autres messages.
+Delta Chat utilisera vos données de localisation pour afficher vos emplacements aux autres membres du tchate.
 
-Location data is collected even when the app is closed or not in use
-– for as long as you keep this optional feature activated.
+Les données de localisation sont collectées même lorsque l'appli est fermée ou n'est pas utilisée- tant que vous gardez cette fonction optionnelle activée.
 
 
-# Privacy Policy for Website visits 
+# Politique de confidentialité pour les visites du site web
 
-**Status: January 21, 2020**
+**État : 21 janvier 2020**
 
-At Delta.Chat, we make sure that not only our messenger but also the Delta.Chat
-website is in compliance with the European General Data Protection Regulation
-(2016/679). Therefore, we minimise the processing of your data to the minimum
-necessary (Privacy by Design).
+Chez Delta.Chat, nous nous assurons que non seulement notre messagerie mais aussi le site Delta.Chat soient en conformité avec le règlement général européen sur la protection des données (2016/679). Par conséquent, nous minimisons le traitement de vos données au minimum nécessaire (respect de la vie privée dès la conception)
 
-### General information
+### Généralités
 
-The Delta.chat website does not use own or third party cookies, website
-analytics services, third party advertising and marketing services or the use
-of social media plug-ins. Data processing is limited to voluntary e-mail
-contact.
+Le site Delta.chat n'utilise pas de cookies propres ou de tiers, de services d'analyse de sites Web, de services de publicité et de marketing tiers ou l'utilisation de plug-ins de médias sociaux. Le traitement des données se limite au contact volontaire par courriel.
 
-### Responsible person
+### Responsable
 
-The person responsible for the data processing of this site in terms of the
-DSGVO and other national data protection laws of the member states as well as
-other data protection regulations is
+La personne responsable du traitement des données de ce site au sens du RGPD et des autres lois nationales sur la protection des données des États membres ainsi que des autres réglementations en matière de protection des données est : 
 
 	Merlinux GmbH
 	Reichgrafen Str. 20 
 	79102 Freiburg
 
-Your contact address for privacy issues at Delta.Chat:
+Contact pour des questions de respect de la vie privée chez Delta.Chat:
 
 	delta-privacy@merlinux.eu
 
-### Delta mailing lists
+### listes de diffusion Delta
 
-When voluntarily subscribing to the Delta mailing lists, your email address
-from the input mask, the IP address of the calling computer, date and time of
-registration are transmitted. The processing of this data is solely for the
-purpose of processing the contacts and the delivery of the public community
-communication. As usual with open source projects, the shared messages can also
-be found in public archives. The legal basis for processing with consent is
-Art. 6 I lit. a GDPR. The user's e-mail address is only stored as long as the
-subscription to the e-mail list is active. By unsubscribing from any mailing
-list, a revocation of consent is possible.
+Lors de l'inscription volontaire aux listes de diffusion de Delta, votre adresse électronique provenant du formulaire d'inscription, l'adresse IP de l'ordinateur appelant, la date et l'heure de l'inscription sont transmises. Le traitement de ces données a pour seul but de traiter les contacts et la diffusion de la communication publique de la communauté. Comme d'habitude avec les projets à code source ouvert, les messages partagés peuvent également être trouvés dans les archives publiques. La base juridique du traitement avec consentement est L'art. 6 I lit. a du RGPD. L'adresse courriel de l'utilisateur n'est conservée que tant que l'abonnement à la liste de diffusion est actif. En se désabonnant de toute liste de diffusion, une révocation du consentement est possible.
 
-### Rights of affected persons
+### Droits des personnes touchées
 
-You can request information from Delta.Chat about whether and how your data is
-processed by us. You have the right to object to the processing, which takes
-place on the basis of art. 6 I lit.e or lit.f GDPR. If the processing is
-incorrect or incomplete, you have the right to rectification/completion,
-cancellation and, if necessary, restriction of the processing. You can revoke
-the declaration of consent of the mailing list at any time. You have the right
-to receive the data in a structured common and machine-readable format and the
-right to complain to a supervisory authority.
+Vous pouvez demander des informations à Delta.Chat pour savoir si et comment vos données sont traitées par nous. Vous avez le droit de vous opposer au traitement, qui a lieu sur la base de l'art. 6 I lit.e ou lit.f du RGPD. Si le traitement est incorrect ou incomplet, vous avez le droit de rectifier/compléter, annuler et, si nécessaire, limiter le traitement. Vous pouvez révoquer la déclaration de consentement de la liste de diffusion à tout moment. Vous avez le droit de recevoir les données dans un format structuré commun et lisible par une machine et le droit de déposer une plainte auprès d'une autorité de contrôle.
 
-### Amendment of the privacy policy
+### Modification de la politique de confidentialité
 
-We reserve the right to update the present data protection regulations in view
-of the constantly changing legal and technical situation.
+Nous nous réservons le droit d'actualiser les présentes règles de protection des données en fonction de l'évolution constante de la situation juridique et technique. 
 
 

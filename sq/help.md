@@ -172,15 +172,15 @@ krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më,
 për çfarëdo mesazhesh të rinj.
 
 
-### Ç’duan të thonë dy shenjat në mesazhe grupi? Që gjithkush i ka lexuar tani mesazhet e mi?
+### What do the ticks shown beside outgoing messages mean?
 
-- Një mesazh shfaqet me dy shenja pasi më shumë se gjysma e marrësve ta kenë
-  parë mesazhin në ekranin e tyre.
-- Kini parasysh që disa marrës, për arsye privatësie mund të kenë
-  çaktivizuar dëftesa leximi.
-- Nëse më shumë se 50% në një grup çaktivizojnë dëftesa leximi, dy shenjat
-  s’do të shfaqen kurrë. Për të dhëna më të hollësishme, shihni
-  [këtë postim blogu](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## Fshehtëzim {#encryption}

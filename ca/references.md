@@ -12,14 +12,14 @@ request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.
 
 ### Pocketnow: 10 maneres en les que Delta Chat és millor que WhatsApp, Signal i Telegram
 
-_"With everyone deleting WhatsApp and switching to Telegram or Signal,
-maybe there’s something better that you haven’t heard of yet.
-Here are 10 ways Delta Chat is better than the others [...]"_
+_"Quan tothom està esborrant WhatsApp i canviant a Telegram o Signal,
+potser hi ha alguna cosa millor de la que encara no has sentit a parlar.
+Aquí tens 10 maneres en les quals Delta Chat és millor que els altres [...]"_
 
 13-02-2021, <https://pocketnow.com/10-ways-delta-chat-is-better-than-whatsapp-signal-and-telegram>
 
 
-### Zeit Online (Large German newspaper): Good bye, WhatsApp!
+### Zeit Online (important diari alemany): Adéu, WhatsApp!
 
 Zeit Online shows 5 alternatives to WhatsApp, including Delta Chat:
 _"Like an e-mail app, Delta.Chat needs the server information of the e-mail address used [...]
@@ -29,7 +29,7 @@ The subsequent operation of the chat interface is intuitive."_
 <https://www.zeit.de/digital/datenschutz/2021-01/messenger-app-whatsapp-signal-telegram-threema-ginlo-vergleich>
 
 
-### jlelse's Blog: Email is the messenger you should migrate to
+### jlelse's Blog: l'email és el programa de missatgeria al que hauries de migrar
 
 _"I have to say it’s pretty decent now [...]
 But the most important thing: Delta Chat allows you to communicate even with people who don’t use Delta Chat at all [...]

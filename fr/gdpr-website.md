@@ -1,7 +1,7 @@
 ---
-title: Privacy policy website
+title: Politique de confidentialité du site web
 lang: fr
 ---
 
-This page has been moved to the ["privacy statement on apps and websites"](gdpr).
+Cette page a été déplacée vers ["déclaration de confidentialité sur les applications et les sites web"](RGPD).
 
