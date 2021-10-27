@@ -5,7 +5,7 @@ lang: de
 
 # Datenschutzhinweise
 
-**Das ist die Datenschutz-Erklärung der Delta Chat Apps. Die Datenschutzerklärung für diese Webseite [finden Sie hier](gpdr-website).**
+**Das ist die Datenschutz-Erklärung der Delta Chat Apps. Die Datenschutzerklärung für diese Webseite [finden Sie hier](gdpr-website).**
 
 ## Zusammenfassung
 
