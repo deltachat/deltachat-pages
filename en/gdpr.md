@@ -5,6 +5,8 @@ lang: en
 
 # Privacy Policy Delta Chat Apps
 
+**This is the privacy policy for this website. The Delta Chat apps have a [separate privacy policy](gdpr).**
+
 ## Summary
 
 Delta Chat is an email app that follows a strict privacy-by-design approach. All communication data remains on the end devices or on the email servers selected by the user.
