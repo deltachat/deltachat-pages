@@ -1,122 +1,261 @@
 ---
-titolo: Privacy per Delta Chat App e siti Web
-ling: it
+title:# Privacy Policy Delta Chat Apps
+lang: en
 ---
 
-# Informativa sulla privacy Delta Chat Apps
+# Privacy Policy Delta Chat Apps
 
-### In che modo Delta Chat è conforme alla GDPR
+## Summary
 
-Il regolamento generale sulla protezione dei dati (GDPR) è spesso considerato
-come la legislazione più lontana per la tutela della privacy degli utenti.
-In questa pagina descriviamo in dettaglio come l'app Delta Chat e il sito Web sono conformi
-con i requisiti della GDPR.
+Delta Chat is an email app that follows a strict privacy-by-design approach. All communication data remains on the end devices or on the email servers selected by the user.
 
-- Implementa il requisito GDPR **Protezione dei dati fin dalla progettazione** tramite
+A brief overview of our data processing:
 
-  - **Riservatezza**: crittografia End-to-end ogni qualvota possibile, implementando
-  [Autocrypt Level 1](https://autocrypt.org).
+<table>
+    <thead>
+        <tr>
+            <th>Requirement</th>
+            <th>Implementation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Confidentiality</td>
+            <td>
+<b>End-to-end encryption</b>, if feasible by implementing <a href="https://autocrypt.org">Autocrypt</a>. User-friendly end-to-end encryption means that the requirements of the GDPR are already implemented at the technical level, <b>Privacy by Design</b>.
+            </td>
+        </tr>
+        <tr>
+            <td>Data minimization</td>
+            <td><b>No upload</b> of contact lists from your phone.</td>
+        </tr>
+        <tr>
+            <td>Data avoidance</td>
+            <td><b>No Delta Chat Servers</b>, no processing of personal data. All data remains with your email provider.
+            </td>
+        </tr>
+        <tr>
+            <td>Legal basis</td>
+            <td>
+There is no need to obtain consent for address book matching, Art. 6 para. 1 lit. a GDPR, as no address book data is transferred. Therefore, <b>no additional legal basis</b> is required.
+            </td>
+        </tr>
+        <tr>
+            <td>Data to third parties</td>
+            <td>We only receive the <b>token for the push notification</b> and forward it to the provider of your operating system. If you don't want to receive push notifications, we won't forward a token.</td>
+        </tr>
+        <tr>
+            <td>Data from third parties</td>
+            <td>
+Easy implementation in companies: Delta Chat does not process personal data on behalf of the controller and therefore <b>does not require any instruction or data processing agreement</b>. Easy connection with the own corporate email server.
+            </td>
+        </tr>
+        <tr>
+            <td>
+DPIA
+            </td>
+            <td>
+No <b>data protection impact assessment</b> needs to be carried out for Delta Chat (Art. 35 GDPR), as no specific additional data is processed beyond the email messenger process.
 
-  - **Limitazione della conservazione**: Non viene fatto alcun upload della propria rubrica contatti.
+The risk to the rights and freedoms of natural persons is limited to the internal company data processing of the email communication and that of the email providers.
+            </td>
+        </tr>
+        <tr>
+            <td>
+Documentation
+            </td>
+            <td>
+Inclusion of the measures implemented by Delta Chat in the <b>record of processing activities</b> may have a positive impact on possible evidence, Art. 30 GDPR as well as certification processes, Art. 25 (4), 42 GDPR.
 
-  - **Minimizzazione dei dati**: Non esiste un server Delta Chat, per cui non c'è trattamento di dati personali
+The <b>documentation of processing activities</b> related to Messenger communication is omitted and shifts only to the record of processing activities of your email provider, Art. 30 (2) GDPR.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-- Non è richiesto alcun **consenso* (articolo 7 GDPR) agli utenti o loro contatti (soggetti interessati) perchè non viene trasmesso alcun dato della rubrica.
+## Detailed data protection information
 
-- Può essere usato **senza richiedere un contratto o altre istruzioni** da qualsiasi responsabile del trattamento (organizzazione), in quanto nessun altro soggetto terzo tratterà i dati personali relativi alla posta elettronica.
+### 1. Name and contact information of the data controller
+
+Responsible for the processing of your personal data is
+
+    merlinux GmbH
+    Represented by the managing director Holger Krekel
+    Reichsgrafen Str. 20
+    79102 Freiburg
+    Germany
+
+E-Mail: delta-privacy@merlinux.eu
+
+We have appointed a data protection officer: <b>Prof. Dr. Fabian Schmieder</b>, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at delta-privacy@merlinux.eu Keyword: DPO
+
+### 2. Processing when using the Delta chat email messenger
+
+All data is stored locally on your device or with your mail provider. Neither we nor Delta Chat developers have any possibility to access the end user's data, as all communication and data processing takes place on the end user's device without Delta Chat servers being involved. Only for the optional Push Notification (see 2.2) the Push Notification Token is processed by Delta Chat servers without them having any knowledge about the messages themselves, not even in encrypted form.
+
+#### 2.1 Sign up with your email provider
+
+Delta Chat communication works through your email account. In order to establish the connection, the app needs the access data. These are only stored locally on your end device:
+
+- Email address
+- Your password
+
+The legal basis for the processing is Art. 6 (1) lit. b GDPR, as you have a usage contract with us by using our services.
+
+#### 2.2 Heartbeat push notification
+
+Push notifications can be sent to the user's phone at regular intervals to enable receipt of messages while the Delta Chat app is not currently active. Current messages can then be retrieved on the terminal device. The token is only created if the user wants reliable receipt of messages even when the app is not active.
+
+In order to use push notifications, a unique identifier or token (Push Notification Token) is created after the app is downloaded and installed. This token allows Delta Chat servers to send notifications to the user's device. The token is generated and provided by the provider. The token is then stored on our systems and sent to the device at regular intervals to cause the app to retrieve new messages from the email provider. Our systems have no knowledge of whether a message arrives or who may have sent a message.
+
+- Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit https://support.apple.com/guide/deployment-reference-ios/allowing-devices-to-work-with-apns-ior9d28751c0/web. You can find the privacy policy under https://www.apple.com/legal/privacy/.
+
+- Push Notification Provider for Android systems is Google Firebase. The provider is Google Inc. and more information can be found at https://firebase.google.com/products/cloud-messaging/ and in Google's privacy policy at https://policies.google.com/privacy?hl=en.
+
+The aforementioned data will only be processed with your consent, in accordance with Art. 6 (1) lit. a GDPR.
+
+#### 2.3 Data in the app
+
+The Delta Chat app works in a data-saving way. All relevant data is stored exclusively on the respective end devices:
+
+- Chat histories (text messages, voice messages, media, ...).
+- contacts
+- settings
+
+Delta Chat servers have no access to this data, not even in encrypted form, as data processing takes place only on the end devices.
+
+#### 2.4 App permissions
+
+Within the app, you can enter, manage, and edit various information, tasks, and activities. The app also requires the following permissions:
+
+<table>
+    <thead>
+        <tr>
+            <th>Permission</th>
+            <th>Reason</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Internet access</td>
+            <td>This is needed to send the messages to the communication partner. </td>
+        </tr>
+        <tr>
+            <td>Camera access</td>
+            <td>
+This is needed for you to take photos and send them via the app. In addition, the camera access allows you to scan QR codes.
+            </td>
+        </tr>
+        <tr>
+            <td>Microphone access (optional)</td>
+            <td>
+This permission allows you to send voice messages.
+            </td>
+        </tr>
+        <tr>
+            <td>Location access (optional)</td>
+            <td>
+This is needed if you want to share your location with a communication partner.
+            </td>
+        </tr>
+        <tr>
+            <td>Background location access (optional)</td>
+            <td>
+This will be needed if you want to share your location over a certain period of time.
+            </td>
+        </tr>
+        <tr>
+            <td>Contact access (optional)</td>
+            <td>
+This allows you to load and save contacts from your phone book into the app. The contact data is stored locally in the app and not forwarded and stored on Delta Chat server.
+            </td>
+        </tr>
+        <tr>
+            <td>
+Storage (optional)
+            </td>
+            <td>You can save images and files from the app to your device.</td>
+        </tr>
+    </tbody>
+</table>
+
+The processing and use of the above permissions are performed to provide the service. The internet access is necessary for the use, therefore the legal basis of the processing is Art. 6 (1) lit. b GDPR, as you have a usage contract with us by using our services.
+
+The optional permissions only take place based on your consent according to Art. 6 (1) lit. a GDPR and can also be reduced to individual services, e.g. only internet usage to send messages without pictures or location data. Delta Chat does not receive any access to this data.
+
+### 3. Platform dependent processing
+
+Certain information is already processed automatically as soon as you use the app. We have listed below which personal data is processed exactly:
+
+When you download the app, certain required information is transmitted to the app store you use ( e.g. Google Play or Apple App Store), in particular the username, the email address, the customer number of your account, the time of the download, payment information as well as the individual device identification number may be processed. The processing of this data is carried out exclusively by the respective app store and is beyond our control.
+
+For the rest, we refer to the data protection policies of the respective app store providers or responsible parties of the operating systems. We do not collect and/or process any other data.
+
+Your personal data will not be transferred to third parties for purposes other than those listed below:
+
+<ol class="p">
+<li>
+you have given your express consent in accordance with Art. 6 para. 1 sentence 1 lit. a GDPR,
+</li>
+<li>
+the disclosure is necessary for the assertion, exercise or defence of legal claims pursuant to Art. 6 (1) sentence 1 lit. f GDPR and there is no reason to assume that you have an overriding interest worthy of protection in the non-disclosure of your data,
+</li>
+<li>
+in the event that there is a legal obligation to disclose your data pursuant to Art. 6 para. 1 sentence 1 lit. c GDPR, as well as
+</li>
+<li>
+this is legally permissible and necessary in accordance with Art. 6 Para. 1 S. 1 lit. b GDPR for the processing of contractual relationships with you,
+</li>
+<li>
+this is carried out by a service provider acting on our behalf and on our exclusive instructions, whom we have carefully selected (Art. 28 (1) GDPR) and with whom we have concluded a corresponding contract on commissioned processing (Art. 28 (3) GDPR), which obliges our contractor, among other things, to implement appropriate security measures and grants us comprehensive control powers.
+</li>
+</ol>
 
 
-### In che modo i responsabili del trattamento dei dati (organizzazioni) traggono vantaggio dall'uso di Delta Chat nel rispetto della GDPR
+# 4. Rights of the data subject
 
-- Non genera **nessun requisito informativo aggiuntivo* per il responsabile del trattamento nei confronti dei soggetti diretti o indiretti 
-circa la raccolta dei dati della rubrica, articolo 13, 14 GDPR.
+The rights arise from Articles 12 to 23 GDPR. Since no personal data is stored on our servers, even in encrypted form, there is no need to provide information on these or possible objections. A deletion can be made directly in the Delta Chat email messenger.
 
--  Per Delta Chat **non è necessaria alcuna 'Valutazione d'impatto sulla protezione dei dati' ** (Articolo 35 GDPR), in quanto non sottopone a trattamento alcun dato diverso dalla messaggistica E-Mail.
+<ol class="p">
+<li>
+request information about your personal data processed by us in accordance with Art. 15 GDPR. In particular, you can request information about the processing purposes, the category of personal data, the categories of recipients to whom your data have been or will be disclosed, the planned storage period, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data if it has not been collected by us, as well as the existence of automated decision-making including profiling and, if applicable, meaningful information about its details;
+</li>
+<li>
+in accordance with Art. 16 of the GDPR, immediately request the correction of inaccurate or incomplete personal data stored by us;
+</li>
+<li>
+pursuant to Article 17 of the GDPR, to request the erasure of your personal data stored by us, unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defence of legal claims;
+</li>
+<li>
+pursuant to Art. 18 GDPR, to request the restriction of the processing of your personal data, insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you object to its erasure and we no longer require the data, but you need it for the assertion, exercise or defence of legal claims or you have objected to the processing pursuant to Art. 21 GDPR;
+</li>
+<li>
+pursuant to Art. 20 GDPR, to receive your personal data that you have provided to us in a structured, common and machine-readable format or to request that it be transferred to another controller;
+</li>
+<li>
+in accordance with Art. 7 (3) of the GDPR, to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
+</li>
+<li>
+complain to a supervisory authority in accordance with Article 77 of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
+</li>
+</ol>
 
-- Aggiungere gli strumenti di privacy di Delta Chat al 
-  **registro delle attività** può avere un impatto positivo 
-  sull'eventuale **documentazione di prova**, (articolo 30 GDPR) 
-  così come sul **procedimento di certificazione**, Article 25 (3), 42 GDPR.
+If you have any questions or complaints, please feel free to contact us by email:
+ delta-privacy@merlinux.eu
 
-- Il **registro delle attività** legato alla comunicazione messaggistica è
-  ridotto all'identificazione dei provider email e alla registrazione delle loro attività, Article 30 (2) GDPR.
+## 4.1 Right to object
+If your personal data is processed on the basis of our legitimate interests in accordance with Art. 6 (1) lit. f GDPR, you have the right to object to the processing of your personal data in accordance with Art. 21 GDPR, provided that there are grounds for this based on your particular situation or the objection is directed against direct advertising. In the latter case, you have a general right of objection, which will be implemented by us without specifying a particular situation.
 
-- I rischi residui legati ai diritti e alle libertà delle persone 
-  sono anch'essi di solito limitati ai dati di comunicazione processati 
-  dal responsabile del trattamento e dai provider email.
+If you wish to exercise your right of objection, simply send an e-mail to delta-privacy@merlinux.eu
 
+## 4.2 Right to withdraw
 
+If your personal data is processed on the basis of your consent in accordance with Art. 6 (1) lit. a GDPR (e.g. via the mailing list), you can withdraw your consent at any time and without any disadvantages. As a result, we may no longer continue the data processing that was based on this consent for the future. However, the withdrawal of your consent does not affect the lawfulness of the processing carried out on the basis of the consent until the withdrawal.
 
-Questa dichiarazione è conforme al General Data Protection Regulation (GDPR) al 16.05.2018.
+If you wish to make use of your right of withdrawal, simply send an e-mail to delta-privacy@merlinux.eu
 
+# 5. Up-to-dateness and modification of this data protection declaration
 
-### Dati sulla posizione
+This data protection declaration is valid as of October 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
 
-Se condividi la tua posizione in una chat,
-questi dati sulla posizione vengono trattati come gli altri messaggi.
-Delta Chat utilizzerà i dati sulla tua posizione per visualizzare le tue posizioni
-agli altri membri della chat.
-
-I dati sulla posizione vengono raccolti anche quando l'app è chiusa o non è in uso
-- per tutto il tempo in cui mantieni attivata questa funzione opzionale.
-
-
-# Informativa sulla privacy per le visite al sito Web
-
-**Stato: 21 gennaio 2020**
-
-A Delta.Chat, ci assicuriamo che non solo il nostro messenger, ma anche Delta.Chat
-sito web è conforme al Regolamento Generale Europeo sulla Protezione dei Dati
-(2016/679). Pertanto, riduciamo il trattamento dei dati dell'utente       al minimo
-necessario (Privacy by Design).
-
-### Informazione generale
-
-Il sito Web Delta.chat non utilizza cookie propri o di terze parti, sito Web
-servizi di analisi, servizi pubblicitari e di marketing di terze parti o l'utilizzo
-dei plug-in dei social media. Il trattamento dei dati è limitato al contatto di posta elettronica
-volontario.
-
-### Persona responsabile
-
-La persona responsabile del trattamento dei dati di questo sito in termini di
-DSGVO e altre leggi nazionali sulla protezione dei dati degli stati membri, nonché
-altre norme sulla protezione dei dati sono
-
-	Merlinux GmbH
-	Reichgrafen Str. 20 
-	79102 Freiburg
-
-Il tuo indirizzo di contatto per problemi di privacy su Delta.Chat:
-
-	delta-privacy@merlinux.eu
-
-### Mailing list Delta
-
-Quando ti iscrivi volontariamente alle mailing list Delta, il tuo indirizzo email
-dalla maschera di input, l'indirizzo IP del computer chiamante, data e ora di
-registrazione vengono trasmessi. Questi dati verranno trattati solo per 
-l'elaborazione dei contatti e per l'invio delle comunicazioni alla 
-comunità. Come al solito con progetti open source, anche i messaggi condivisi possono
-essere trovati negli archivi pubblici. La base giuridica per l'elaborazione con il consenso è
-Art. 6 I lit. un GDPR. L'indirizzo e-mail dell'utente è memorizzato solo finché
-l'iscrizione all'elenco e-mail è attiva. Annullando l'iscrizione a qualsiasi mailing
-list, è possibile una revoca del consenso.
-
-### Diritti delle persone interessate
-
-Puoi richiedere informazioni a Delta.Chat se e come sono i tuoi dati
-elaborati da noi. Hai il diritto di opporti al trattamento, che ha luogo
-sulla base dell'art. 6 I lit.e o lit.f GDPR. Se l'elaborazione è
-errata o incompleta, hai il diritto di rettifica/completamento,
-cancellazione e, se necessario, limitazione del trattamento. Puoi revocare
-la dichiarazione di consenso della mailing list in qualsiasi momento. Hai il diritto
-di ricevere i dati in un formato strutturato comune e leggibile da una macchina e il
-diritto di presentare reclamo ad un'autorità di controllo.
-
-### Modifica della politica sulla privacy
-
-Ci riserviamo il diritto di aggiornare le presenti normative sulla protezione dei dati in vista
-della situazione legale e tecnica in costante evoluzione.
-
-
+You can access and print out the current data protection declaration at any time at https://delta.chat/de/gdpr.
