@@ -172,15 +172,15 @@ krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më,
 për çfarëdo mesazhesh të rinj.
 
 
-### What do the ticks shown beside outgoing messages mean?
+### Ç’duan të thonë shenjat e shfaqura pas mesazheve që dërgohen?
 
-- **One tick** means that the message was sent successfully to your provider.
-- **Two ticks** mean that at least one recipient's device
-  reported back to having received the message.
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+- **Një shenjë** do të thotë se mesazhi u dërgua me sukses te shërbimi juaj.
+- **Dy shenja** duan të thonë se të paktën një pajisje e marrësit
+  njoftoi se e ka marrë mesazhin.
+- Marrësi mund të ketë çaktivizuar dëftesa leximi,
+  ndaj edhe kur shihni vetëm një shenjë, mesazhi mund të jetë lexuar.
+- Në kahun e kundërt, dy shenja s’duan të thonë automatikisht
+  se një qenie njerëzore ka lexuar apo kuptuar mesazhin ;)
 
 
 ## Fshehtëzim {#encryption}
