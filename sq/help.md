@@ -172,15 +172,15 @@ krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më,
 për çfarëdo mesazhesh të rinj.
 
 
-### Ç’duan të thonë dy shenjat në mesazhe grupi? Që gjithkush i ka lexuar tani mesazhet e mi?
+### Ç’duan të thonë shenjat e shfaqura pas mesazheve që dërgohen?
 
-- Një mesazh shfaqet me dy shenja pasi më shumë se gjysma e marrësve ta kenë
-  parë mesazhin në ekranin e tyre.
-- Kini parasysh që disa marrës, për arsye privatësie mund të kenë
-  çaktivizuar dëftesa leximi.
-- Nëse më shumë se 50% në një grup çaktivizojnë dëftesa leximi, dy shenjat
-  s’do të shfaqen kurrë. Për të dhëna më të hollësishme, shihni
-  [këtë postim blogu](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **Një shenjë** do të thotë se mesazhi u dërgua me sukses te shërbimi juaj.
+- **Dy shenja** duan të thonë se të paktën një pajisje e marrësit
+  njoftoi se e ka marrë mesazhin.
+- Marrësi mund të ketë çaktivizuar dëftesa leximi,
+  ndaj edhe kur shihni vetëm një shenjë, mesazhi mund të jetë lexuar.
+- Në kahun e kundërt, dy shenja s’duan të thonë automatikisht
+  se një qenie njerëzore ka lexuar apo kuptuar mesazhin ;)
 
 
 ## Fshehtëzim {#encryption}

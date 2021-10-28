@@ -176,15 +176,15 @@ Delta Chat автоматически показывает:
 - Или, в качестве альтернативы, вы также можете отключить уведомления для группы - это означает, что вы будете получать все сообщения и сможете их писать, но больше не будете получать уведомления о новых сообщениях.
 
 
-### Что означают двойные галочки в групповых сообщениях? Все уже прочитали мое сообщение?
+### What do the ticks shown beside outgoing messages mean?
 
-- Сообщение показывает двойные галочки после того, как более половины получателей
-увидели сообщение на своем дисплее.
-- Обратите внимание,что некоторые получатели могли отключить чтение сообщений по
-соображениям конфиденциальности.
-- Если более 50% в группе отключенных читают сообщения, двойные галочки никогда
-не появятся. Для получения более подробной информации см.
-[этот пост в блоге](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## Шифрование {#encryption}

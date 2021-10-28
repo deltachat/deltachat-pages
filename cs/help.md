@@ -171,13 +171,15 @@ požádej běžnou zprávou jiného člena skupiny o znovupřipojení.
 ale nebudeš dostávat upozrnění na nově příchozí zprávy.
 
 
-### Co znamená dvojitá "fajfka" u skupinových zpráv? Četl už někdo mojí zprávu?
+### What do the ticks shown beside outgoing messages mean?
 
-- Zpráva ukáže dvojitou "fajfku", když si ji otevřela více než polovina členů skupiny.
-- Uvědom si, že příjemce může mít z důvodu ochrany soukromí vypnuté potvrzení otevření zpráv.
-- Dvojitá "fajfka" se nikdy neobjeví v případě, kdy více než 50% členů skupiny 
-má vypnutá potvrzení. Podrobnější popis je na
-  [blogu](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## Šifrování {#encryption}

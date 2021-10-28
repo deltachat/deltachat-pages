@@ -143,11 +143,15 @@ Delta Chat 自动显示：
 - 另外，您也可以“静音”群组——这样做意味着您会收到所有消息并且仍可以编写消息，但不会再收到任何新消息的通知。
 
 
-### 群组消息中的双对勾意味着什么？每个人都都读我的消息了吗？
+### What do the ticks shown beside outgoing messages mean?
 
-- 消息被一半以上的接收者在屏幕上看到后，会显示双对勾。
-- 请注意，某些接收者可能出于隐私原因禁用了已读回执。
-- 如果群组中超过 50％ 的人禁用了已读回执，那么双对勾将永远不会出现。更多信息，请参阅[这篇博文](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure)。
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## 加密 {#encryption}

@@ -173,15 +173,15 @@ Si desea unirse al grupo nuevamente más tarde, pídale a otro miembro del grupo
 aún puede escribir, pero ya no se le notifican nuevos mensajes.
 
 
-### ¿Qué significan las dobles tildes en los mensajes de grupo? ¿Han leído todos mis mensajes? 
+### What do the ticks shown beside outgoing messages mean?
 
-- A message shows double ticks after more than half of the recipients have
-  seen the message on their display.
-- Note that some recipients might have disabled read-receipts for
-  privacy-reasons.
-- If more than 50% in a group disabled read receipts, the double ticks will
-  never show up. For more detailed information, see
-  [this blogpost](https://delta.chat/en/2017-07-06-read-receipts-and-social-pressure).
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
 
 
 ## Cifrado {#encryption}

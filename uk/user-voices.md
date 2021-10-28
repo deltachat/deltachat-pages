@@ -1,9 +1,9 @@
 ---
-title: User Stories and Voices
+title: Історії користувачів
 lang: uk
 ---
 
-# User Stories and Voices
+# Історії користувачів
 
 
 ### Can recommend to blind people
