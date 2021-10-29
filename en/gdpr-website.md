@@ -7,6 +7,12 @@ lang: en
 
 **This is the privacy policy for this website. The Delta Chat apps have a [separate privacy policy](gdpr).**
 
+You can get all necessary information about us and our project on our Delta Chat website. However, it is only fair that you know which personal data is processed when you use our service at all times.
+
+The following information also serves to provide you with information about this and how we protect your personal data from manipulation, loss, destruction or misuse.
+
+If you have any further questions about data protection, please contact us via e-mail: delta-privacy@merlinux.eu
+
 ## 1. Name and contact information of the data controller
 
 Responsible for the processing of your personal data is
@@ -20,7 +26,7 @@ Germany
 
 mail: delta-privacy@merlinux.eu
 ```
-We have appointed a data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at info@lexict.de Keyword: DeltaChat.
+Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at info@lexict.de Keyword: DeltaChat.
 
 ## 2. Processing when using the website
 
