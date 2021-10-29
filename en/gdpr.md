@@ -87,7 +87,7 @@ Responsible for the processing of your personal data is
 
 E-mail: delta-privacy@merlinux.eu
 
-We have appointed a data protection officer: <b>Prof. Dr. Fabian Schmieder</b>, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at delta-privacy@merlinux.eu Keyword: DPO
+Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at info@lexict.de Keyword: DeltaChat.
 
 ### 2. Processing when using the Delta chat e-mail messenger
 
@@ -98,7 +98,8 @@ All data is stored locally on your device or with your e-mail provider. Neither 
 Delta Chat communication works through your e-mail account. In order to establish the connection, the app needs the access data. These are only stored locally on your end device:
 
 - e-mail address
-- your password
+- your passwordOur data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at info@lexict.de Keyword: DeltaChat.
+
 
 The legal basis for the processing is Art. 6 (1) lit. b GDPR, as you have a usage contract with us by using our services. 
 
