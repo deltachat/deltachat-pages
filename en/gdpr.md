@@ -22,7 +22,7 @@ Delta Chat is an e-mail app that follows a strict privacy-by-design approach. Al
         <tr>
             <td>Confidentiality</td>
             <td>
-<b>End-to-end encryption</b> by implementing <a href="https://autocrypt.org">Autocrypt</a>. User-friendly end-to-end encryption means that the requirements of the GDPR are already implemented at the technical level, <b>Privacy by Design</b>.
+<b>End-to-end encryption</b> by implementing <a href="https://autocrypt.org">Autocrypt</a> and <a href="https://countermitm.readthedocs.io/en/latest/new.html">Verified groups</a>. User-friendly end-to-end encryption means that the requirements of the GDPR are already implemented at the technical level, <b>Privacy by Design</b>.
             </td>
         </tr>
         <tr>
