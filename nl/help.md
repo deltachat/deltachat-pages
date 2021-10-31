@@ -168,15 +168,15 @@ Delta Chat doet het volgende met deze rechten:
   geen meldingen meer als er nieuwe berichten zijn.
 
 
-### What do the ticks shown beside outgoing messages mean?
+### Wat betekenen de vinkjes naast verzonden berichten?
 
-- **One tick** means that the message was sent successfully to your provider.
-- **Two ticks** mean that at least one recipient's device
-  reported back to having received the message.
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+- **Eén vinkje**: het bericht is verstuurd naar de e-maildienst;
+- **Twee vinkjes**: het bericht is aangekomen bij minstens
+  één van de ontvangers;
+- Ontvangers kunnen leesbevestigingen uitschakelen,
+  dus óók met één vinkje kan het bericht al gelezen zijn;
+- Twee vinkjes duiden alleen op ontvangst,
+  niet dat het bericht ook écht gelezen of begrepen is. ;)
 
 
 ## Versleuteling {#encryption}

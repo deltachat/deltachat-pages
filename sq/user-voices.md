@@ -5,6 +5,22 @@ gjuhë: en
 
 # Shembuj dhe Zëra Përdoruesish
 
+### more fun with e-mail
+
+_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+
+**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+
+### supports more than one account
+
+_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
+**mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+
+### audio and video call possible
+
+_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+
+**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
 
 ### Mund të rekomandohet për persona të verbër
 
@@ -56,7 +72,7 @@ reklamë për alternativa, por tregu është shumë i copëzuar.
 Delta është ZGJIDHJA për këdo që lejon të paktën
 një alternativë - email-i funksionon përherë! :)”_
 
-**Përdorues nga Gjermania** më 2019-n, përmes email-i te delta@merlinux.eu
+**User from Germany** in 2019, via e-mail to delta@merlinux.eu
 
 
 ### E kam pritur për një kohë të gjatë
@@ -66,7 +82,7 @@ për një aplikacion fjalosjeje të fshehtëzuar skaj-më-skaj
 që ju jep një alternativë të njëmendtë ndaj silosesh
 të ndryshëm të llojit të WhatsApp-it, Signal-it, Telegram-it, etj.”_
 
-**Përdorues nga Gjermania** më 2019-n, përmes email-i te delta@merlinux.eu
+**User from Germany** in 2019, via e-mail to delta@merlinux.eu
 
 
 ### Shkëmbim mesazhesh me Kubën

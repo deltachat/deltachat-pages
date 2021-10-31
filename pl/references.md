@@ -10,6 +10,17 @@ czy coś przeoczyliśmy?
 [Daj nam znać](imprint)
 lub po prostu [poproś o pobranie](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
+### Ubuntubuzz: Features You May Find Excellent...
+
+_"Apple and alike could be forced to give users' data to government, Delta could not, because it does not have users' data. [...] No server, no data collection, and no phone number required. Modern, fancy, WhatsApp-like user interface. Can message people who do not use Delta Chat."_
+
+2021-09-20, Ade Malsasa Akbar, <https://www.ubuntubuzz.com/2021/09/delta-chat-overview-and-installation.html>
+
+### Delta Chat 1.22 ya fue liberado y estas son sus novedades
+
+_"Otra de las novedades que se presenta es en la implementación de soporte para múltiples cuentas de Delta Chat (Multi-Account) en una aplicación que se ha transferido a un nuevo controlador que está unificado para todas las plataformas, lo que brinda la capacidad de paralelizar el trabajo con las cuentas (el cambio entre cuentas ahora se realiza instantáneamente)."_
+
+2021-08-26, Darkcrizt <https://blog.desdelinux.net/delta-chat-1-22-ya-fue-liberado-y-estas-son-sus-novedades/>
 
 ### Pocketnow: 10 powodów, dla których Delta Chat jest lepszy niż WhatsApp, Signal i Telegram
 

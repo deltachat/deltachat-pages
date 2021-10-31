@@ -175,7 +175,7 @@ Se vuoi unirti di nuovo al gruppo in un secondo momento, chiedi a un altro membr
 puoi ancora scrivere, ma non viene più notificato alcun nuovo messaggio.
 
 
-### What do the ticks shown beside outgoing messages mean?
+### Cosa significano i segni di spunta visualizzati accanto ai messaggi in uscita?
 
 - **One tick** means that the message was sent successfully to your provider.
 - **Two ticks** mean that at least one recipient's device
