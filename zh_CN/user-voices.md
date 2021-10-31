@@ -5,6 +5,22 @@ lang: zh_CN
 
 # 用户故事和声音
 
+### more fun with e-mail
+
+_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+
+**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+
+### supports more than one account
+
+_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
+**mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+
+### audio and video call possible
+
+_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+
+**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
 
 ### 可以推荐给盲人
 
@@ -41,14 +57,14 @@ _“是的，公司将所有的帐单/停机通知系统从 Telegram 迁移到�
 
 _"我真的很高兴有DeltaChat这样的应用，而且我发现了它。作为一个很早就使用WhatsApp的用户，我因为隐私和安全原因退出了WhatsApp;因为这个，我和好友联络中断了我做了很多广告寻找替代品，但市场太分散了。对每个允许至少一个替代方案的人，Delta就是解决方案- 电子邮件始终管用！ :)_
 
-**来自德国的用户** 2019年发给delta@merlinux.eu的邮件
+**User from Germany** in 2019, via e-mail to delta@merlinux.eu
 
 
 ### 等了很久
 
 _" 一个了不起的项目，我等待一款可以真正替代WhatsApp、Signal、Telegram的端到端加密聊天应用程序已经很久了。“_
 
-**来自德国的用户** 2019年发给delta@merlinux.eu的邮件
+**User from Germany** in 2019, via e-mail to delta@merlinux.eu
 
 
 ### 与古巴通信

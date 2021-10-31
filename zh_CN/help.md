@@ -143,15 +143,12 @@ Delta Chat 自动显示：
 - 另外，您也可以“静音”群组——这样做意味着您会收到所有消息并且仍可以编写消息，但不会再收到任何新消息的通知。
 
 
-### What do the ticks shown beside outgoing messages mean?
+### 显示在发出消息旁边的对勾表示什么？
 
-- **One tick** means that the message was sent successfully to your provider.
-- **Two ticks** mean that at least one recipient's device
-  reported back to having received the message.
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+- **一个对勾**表示消息已成功发送给您的服务提供商。
+- **两个对勾**表示至少一个接收者的设备对接收该消息进行了回报。
+- 接收者或许会禁用已读回执，所以即使您只看见了一个对勾，消息也可能已被阅读。
+- 反过来说，两个对勾也不一定表示某个人类已阅读或理解了该消息 ;)
 
 
 ## 加密 {#encryption}

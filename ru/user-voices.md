@@ -5,6 +5,22 @@ lang: ru
 
 # Истории пользователей
 
+### more fun with e-mail
+
+_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+
+**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+
+### supports more than one account
+
+_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
+**mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+
+### audio and video call possible
+
+_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+
+**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
 
 ### Можно рекомендовать слепым людям
 
@@ -54,7 +70,7 @@ _"Да, наша компания переместила
 Delta - это решение для всех, кто допускает хотя бы одну
 альтернативу-электронная почта всегда работает! :)_
 
-**Пользователь из Германии** в 2019 году по электронной почте: delta@merlinux.eu
+**User from Germany** in 2019, via e-mail to delta@merlinux.eu
 
 
 ### Ждали очень долго
@@ -63,7 +79,7 @@ _"Отличный проект, я уже давно
 жду сквозного зашифрованного чат-приложения, которое дает реальную альтернативу
 различным silos, таким как WhatsApp, Signal, Telegram и т. д."_
 
-**Пользователь из Германии** в 2019 году по электронной почте: delta@merlinux.eu
+**User from Germany** in 2019, via e-mail to delta@merlinux.eu
 
 
 ### Переписка с Кубой
