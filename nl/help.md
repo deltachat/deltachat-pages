@@ -48,13 +48,6 @@ Delta Chat toont automatisch:
 Overige berichten verschijnen niet automatisch; je vindt deze terug in het hoofdmenu onder **Contactpersoonverzoeken**. Van daaruit kun je, desgewenst, een gesprek beginnen.
 
 
-### Hoe zit het met ongewenste berichten?
-
-- Berichten uit de gebruikelijke ongewenste mappen worden genegeerd en de bijbehorende adressen worden niet beschouwd als bekende contactpersonen.
-- Berichten van onbekenden verschijnen doorgaans niet automatisch; hierdoor is er dus normaliter **geen spam**.
-- Je kunt contactpersonen ten allen tijde blokkeren.
-
-
 ### Ondersteunt Delta Chat afbeeldingen, video's en ander soort bijlagen?
 
 - Ja. Plattetekstberichten en e-mailbijlagen worden apart getoond. Uitgaande berichten worden, indien nodig, automatisch voorzien van bijlagen.
@@ -65,7 +58,8 @@ Overige berichten verschijnen niet automatisch; je vindt deze terug in het hoofd
 - In de instellingen kun je een profielfoto toevoegen. Als je een bericht stuurt aan
   je contactpersonen of ze toevoegt middels hun QR-code, dan krijgen ze je profielfoto te zien.
 
-- Contactpersonen zonder Delta Chat krijgen hem te zien als e-mailbijlage.
+- Contactpersonen die geen Delta Chat gebruiken kunnen je profielfoto niet zien
+  (maar ze kunnen Delta Chat natuurlijk wél gaan gebruiken :) )
 
 - Omwille van je privacy, krijgen anderen je profielfoto pas te zien
   als je ze een bericht stuurt.
@@ -76,7 +70,7 @@ Overige berichten verschijnen niet automatisch; je vindt deze terug in het hoofd
 
 ### Ondersteunt Delta Chat HTML-e-mails?
 
-- Ja. Als een inkomende e-mail niet bestempeld is als platte tekst, dan zetten we de HTML-e-mail handmatig om in platte tekst. Uitgaande e-mails zijn altijd platte tekst.
+- Ja. Indien nodig wordt er bij inkomende berichten een knop ‘Volledig bericht tonen’ getoond. Uitgaande e-mails gebruiken altijd platte tekst.
 
 
 ### Waarom moet ik mijn e-mailwachtwoord invoeren in Delta Chat? Is dat wel veilig?
@@ -123,7 +117,7 @@ Delta Chat doet het volgende met deze rechten:
 
 ### Groepen aanmaken
 
-- Open het 'menu met de drie puntjes' rechtsboven in het gespreksoverzicht, kies **Nieuw gesprek** en daarna **Nieuwe groep**.
+- Open het ‘menu met de drie puntjes’ rechtsboven in het gespreksoverzicht, kies **Nieuw gesprek** en daarna **Nieuwe groep**.
 - Kies dan de **groepsleden** en druk op het vinkje rechtsboven. Daarna kun je een **groepsnaam** opgeven.
 - Zodra je het **eerste groepsbericht** hebt verstuurd, worden alle deelnemers op de hoogte gebracht en kunnen zij antwoorden versturen (de groep blijft onzichtbaar voor anderen zolang jij geen bericht verstuurt).
 
@@ -134,23 +128,23 @@ Delta Chat doet het volgende met deze rechten:
 - Open het gesprek en druk op de groepsnaam om deelnemers toe te voegen of te verwijderen.
 
 
-### Wat is een 'goedgekeurde groep', en waarom is dit een experimentele functie? 
+### Wat is een ‘goedgekeurde groep’ en waarom is dit een experimentele functie? 
 
 - Een goedgekeurde groep is een gesprek waarin extra beveiliging zit tegen
   kwaadwillenden.  Alle berichten in een goedgekeurd gesprek zijn e2e-versleuteld, en
-  personen kunnen deelnemen door een 'QR-uitnodigingscode' te scannen.  Alle deelnemers zijn 
+  personen kunnen deelnemen door een ‘QR-uitnodigingscode’ te scannen.  Alle deelnemers zijn 
   dus gekoppeld middels elkaars uitnodigingen, wat 
   cryptographische consistentie biedt tegen netwerk- of provider-aanvallen. 
   Bekijk https://countermitm.readthedocs.io/en/latest/new.html
   voor meer informatie omtrent deze functie. 
 
-- Statusupdate december 2019: een 'goedgekeurde groep' blijft experimenteel.
-  De functie wordt voortdurend verbeterd, en vele bugs zijn opgelost sinds
+- Statusupdate december 2019: een ‘goedgekeurde groep’ blijft experimenteel.
+  De functie wordt voortdurend verbeterd en vele bugs zijn opgelost sinds
   deze werd toegevoegd in 2018.  Echter, het komt nog steeds voor, vooral 
   bij grote groepen, dat er dingen misgaan. Zo kunnen bijv. berichten soms onleesbaar 
-  worden.  Begin 2020 volgt een diep beveiligingsonderzoek, en worden er
+  worden.  Begin 2020 volgt een diepgaand beveiligingsonderzoek, en worden er
   verschillende ontwikkelingen gedaan omtrent de qr-join-protocollen. Het label
-  'experimenteel' zou dus in de nabije toekomst moeten verdwijnen. 
+  ‘experimenteel’ zou dus in de nabije toekomst moeten verdwijnen. 
 
 
 ### Ik heb mezelf per ongeluk verwijderd
@@ -187,7 +181,7 @@ Delta Chat doet het volgende met deze rechten:
   en kan dus e2e-berichten versleutelen d.m.v. Autocrypt-achtige apps.
 
 - Delta Chat ondersteunt een sterke variant van eind-tot-eindversleuteling die zélfs
-  beschermt tegen actieve aanvallen. Zie 'goedgekeurde groepen' verderop.
+  beschermt tegen actieve aanvallen. Zie ‘goedgekeurde groepen’ verderop voor meer informatie.
 
 
 ### Moet ik iets doen om eind-tot-eindversleuteling in te schakelen?
@@ -202,7 +196,7 @@ Delta Chat doet het volgende met deze rechten:
   dan zijn die berichten onversleuteld. 
 
 - Als je eind-tot-eindversleuteling standaard wilt uitschakelen, 
-  zoek dan de Autocrypt-optie in 'Instellingen --> Geavanceerd'.
+  zoek dan de Autocrypt-optie in ‘Instellingen --> Geavanceerd’.
 
 
 ### Als eind-tot-eindversleuteling niet beschikbaar is, is de verbinding dan onbeveiligd?
@@ -218,14 +212,14 @@ Delta Chat doet het volgende met deze rechten:
 
 Als je in de buurt van je gesprekspartner bent:
 
-- Druk op 'QR-uitnodigingscode'. Pak het andere apparaat, druk daar op
-  'QR-code scannen' en scan de code.  Als beide apparaten verbonden zijn
+- Druk op ‘QR-uitnodigingscode’. Pak het andere apparaat, druk daar op
+  ‘QR-code scannen’ en scan de code.  Als beide apparaten verbonden zijn
   met internet, dan wordt er een gesprekskanaal opgezet (als dat er nog niet was) 
   en worden de sleutels geverifieerd. 
 Beiden zien daarna een bericht
-  'afzender goedgekeurd' in hun gesprek.
+  ‘afzender goedgekeurd’ in hun gesprek.
 
-Als je niet in de buurt bent van je gesprekspartner, kun je de status handmatig controleren in het venster 'Versleuteling'
+Als je niet in de buurt bent van je gesprekspartner, kun je de status handmatig controleren in het venster ‘Versleuteling’
 (gebruikersprofiel op Android/iOS of rechtsklik op een gesprek op de computer)
 
 - Bij eind-tot-eindversleuteling toont Delta Chat twee vingerafdrukken. 
@@ -293,12 +287,12 @@ verder dan de basisbescherming van Autocrypt niveau 1.
   op de mailserver van zowel de afzender als de ontvanger.
 
 - Elke mailserver weet wie wat verzonden en ontvangen heeft door de onversleutelde
-  koppen 'Aan/CC' na te lopen. Hierdoor weten servers welke e-mailadressen deel uitmaken van
+  koppen ‘Aan/CC’ na te lopen. Hierdoor weten servers welke e-mailadressen deel uitmaken van
   een groep. Delta Chat kan dit eenvoudig omzeilen en alles in de onversleutelde sectie plaatsen.
   Zie [deze melding](https://github.com/deltachat/deltachat-core-rust/issues/1032).
   Bij opportunistische gesprekken is het grootste bezwaar dat andere e-mailclients er door worden beïnvloedt.
 
-- Veel andere e-mailkoppen, zoals bijv. 'Onderwerp', zijn
+- Veel andere e-mailkoppen, zoals bijv. ‘Onderwerp’, zijn
   eind-tot-eind versleuteld. Zie ook de aanstaande  [IETF
 RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
@@ -307,7 +301,7 @@ RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 - Ja. De beste manier om dit te doen is door een Autocrypt-instelbericht te versturen vanuit de andere client. Zoek naar een optie als **Autocrypt-instellingen overdragen** in de instellingen van die client en volg de instructies.
 
-- Ook kun je de sleutel handmatig importeren via 'Instellingen --> Geavanceerde --> Sleutels beheren'. Let op: zorg dat de sleutel niet met een wachtwoord beveiligd is.
+- Ook kun je de sleutel handmatig importeren via ‘Instellingen --> Geavanceerd --> Sleutels beheren’. Let op: zorg dat de sleutel niet met een wachtwoord beveiligd is.
 
 Als je geen sleutel hebt of niet wist dat je er één nodig had, geen paniek: Delta Chat genereert, indien nodig, automatisch een sleutel.
 
@@ -348,10 +342,10 @@ Als je **hetzelfde account** wilt gebruiken op andere
 apparaten, dan moet je
 een back-up exporteren op het oude apparaat en deze importeren op het nieuwe:
 
-- Ga op je oude apparaat naar 'Instellingen --> Gesprekken en media --> Back-up'. Voer je
-  ontgrendelpincode, -patroon of -wachtwoord in. Druk vervolgens op 'Nu back-uppen'. Er wordt een back-up opgeslagen op je apparaat. Zet deze over
+- Ga op je oude apparaat naar ‘Instellingen --> Gesprekken en media --> Back-up’. Voer je
+  ontgrendelpincode, -patroon of -wachtwoord in. Druk vervolgens op ‘Nu back-uppen’. Er wordt een back-up opgeslagen op je apparaat. Zet deze over
   naar je nieuwe apparaat.
-- Pak het nieuwe apparaat. Druk op het inlogscherm op 'Back-up importeren' (log dus niet in op je account). Na het importeren zijn je gesprekken, privésleutels
+- Pak het nieuwe apparaat. Druk op het inlogscherm op ‘Back-up importeren’ (log dus niet in op je account). Na het importeren zijn je gesprekken, privésleutels
   en media overgezet op je nieuwe apparaat.
 - Je kunt nu beide apparaten gebruiken voor het ontvangen en versturen van
   E2E-versleutelde berichten van/naar je gesprekspartners.
@@ -372,17 +366,17 @@ een back-up exporteren op het oude apparaat en deze importeren op het nieuwe:
 
 Dit is een experimentele functie voor mensen die problemen ervaren
 met bepaalde serverregels. Niet alle providers ondersteunen dit, maar bij sommige
-kun je alle e-mails met een 'Chat-Versie'-kop verplaatsen naar de DeltaChat-map.
+kun je alle e-mails met een ‘Chatversie’-kop verplaatsen naar de DeltaChat-map.
 Normaal doet de Delta Chat-app dit uit zichzelf.
 
 Het negeren van Postvak IN is nuttig als je:
 
-- een serverregel hebt ingesteld om alle berichten met een 'Chat-Versie'-kop te verplaatsen naar de DeltaChat-map, en
-- de optie 'Klassieke e-mails tonen' hebt ingesteld op 'Nee, alleen gesprekken'.
+- een serverregel hebt ingesteld om alle berichten met een ‘Chatversie’-kop te verplaatsen naar de DeltaChat-map, en
+- de optie ‘Klassieke e-mails tonen’ hebt ingesteld op ‘Nee, alleen gesprekken’.
 
 In dat geval hoeft Delta Chat Postvak IN niet te controleren.
 
-### Waarvoor dient de optie 'Kopie versturen aan mijzelf'?
+### Waarvoor dient de optie ‘Kopie versturen aan mijzelf’?
 
 Door een kopie aan jezelf te sturen, weet je zeker dat je je eigen berichten
 op alle apparaten ontvangt. Als je meerdere apparaten hebt en dit niet
@@ -392,17 +386,17 @@ huidige apparaat verstuurt.
 De kopie wordt verstuurd naar je Postvak IN en vervolgens verplaatst naar de DeltaChat-map -
 het verschijnt nooit in de map 'Verzonden'. Delta Chat werkt zo omdat het bericht
 anders twee keer verstuurd zou worden (eenmaal middels smtp,
-en eenmaal middels imap naar de map 'Verzonden').
+en eenmaal middels imap naar de map ‘Verzonden’).
 
 Standaard is deze optie uitgeschakeld.
 
-### Waarom kan ik kiezen om de map 'Verzonden' te controleren?
+### Waarom kan ik kiezen om de map ‘Verzonden’ te controleren?
 
 Dit is alleen nuttig als een ander e-mailprogramma (zoals Thunderbird) naast de
 Delta Chat-app gebruikt en wilt dat je andere apparaten deel uitmaken van gesprekken.
 
-Wij raden echter aan om in dat geval de Delta Chat-app te downloaden op je computer:
-[get.delta.chat](https://get.delta.chat). De optie om de map 'Verzonden' te controleren
+Wij raden echter aan om in dat geval de Delta Chat-app te installeren op je computer:
+[get.delta.chat](https://get.delta.chat). De optie om de map ‘Verzonden’ te controleren
 wordt in de toekomst mogelijk verwijderd. De functie deed zijn intrede toen er nog niet
 op alle platformen een Delta Chat-client beschikbaar was.
 
@@ -410,7 +404,7 @@ op alle platformen een Delta Chat-client beschikbaar was.
 
 Sommige mensen gebruiken Delta Chat als een normale e-mailclient en willen daarom Postvak IN
 gebruiken voor hun e-mail in plaats van de DeltaChat-map. Als je deze optie uitschakelt,
-schakel dan ook de optie 'Berichten verplaatsen naar de DeltaChat-map' uit.
+schakel dan ook de optie ‘Berichten verplaatsen naar de DeltaChat-map’ uit.
 Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere apparaten.
 
 ## Overig

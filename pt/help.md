@@ -49,13 +49,6 @@ Delta Chat automatically shows:
 Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
 
 
-### What about spam?
-
-- Messages in common spam folders are ignored and contained addresses are not considered as known contacts.
-- As messages from unknown contacts do not pop up automatically, normally, there is **no spam**.
-- However, if needed, you can **block** any contact.
-
-
 ### Does Delta Chat support images, videos and other attachments?
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
@@ -66,7 +59,8 @@ Other messages do not appear automatically, and are to be found in **Contact req
 - You can add a profile picture in your settings. If you write to your contacts
   or add them via QR code, they automatically see it as your profile picture.
 
-- Contacts who don't use Delta Chat see it as an E-Mail attachment.
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - For privacy reasons, no one sees your profile picture until you write a
   message to them.
@@ -78,7 +72,7 @@ Other messages do not appear automatically, and are to be found in **Contact req
 
 ### Does Delta Chat support HTML e-mails?
 
-- Yes. If an incoming e-mail lacks a plain text part, HTML-emails are converted to plain text in the app. Outgoing e-mails always use plain text.
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### Why do I have to enter my E-Mail password into Delta Chat? Is this secure?

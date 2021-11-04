@@ -49,13 +49,6 @@ Delta Chat muestra automáticamente:
 Otros mensajes no aparecen automáticamente, y se pueden encontrar en **Solicitudes de contacto**. Si se desea el chat se puede iniciar desde allí
 
 
-### ¿Qué pasa con el Spam?
-
-- Se ignoran los mensajes en carpetas de spam comunes, y las direcciones que contienen no se consideran contactos conocidos.
-- Como los mensajes de contactos desconocidos no aparecen automáticamente, normalmente **no hay spam**.
-- De todas formas, de ser necesario, puedes **bloquear** cualquier contacto.
-
-
 ### ¿Delta Chat soporta envío de imágenes, videos, documentos y otros archivos?
 
 - Si. Además del texto sin formato, todos los archivos adjuntos de correo electrónico se muestran como mensajes separados. Los mensajes salientes obtienen archivos adjuntos según sea necesario automáticamente.
@@ -66,7 +59,8 @@ Otros mensajes no aparecen automáticamente, y se pueden encontrar en **Solicitu
 - Puede agregar una foto de perfil en su configuración. Si escribe a sus contactos
 o los agrega a través de un código QR, ellos lo verán automáticamente como su foto de perfil.
 
-- Los contactos que no usan Delta Chat lo ven como un archivo adjunto al correo electrónico.
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - Por cuestiones de privacidad, nadie verá su foto de perfil hasta que les escriba un mensaje.
 
@@ -77,7 +71,7 @@ dispositivo.
 
 ### ¿Delta Chat soporta mensajes con formato HTML?
 
-- Si. Si el correo electrónico entrante carece de una parte de texto sin formato, los correos electrónicos HTML se convierten en texto sin formato en la aplicación. Los correos electrónicos salientes siempre usan texto sin formato.
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### ¿Por qué debo ingresar mi contraseña de correo electrónico en Delta Chat? ¿Es esto seguro?
@@ -173,7 +167,7 @@ Si desea unirse al grupo nuevamente más tarde, pídale a otro miembro del grupo
 aún puede escribir, pero ya no se le notifican nuevos mensajes.
 
 
-### What do the ticks shown beside outgoing messages mean?
+### ¿Qué significan las marcas que se muestran junto a los mensajes salientes?
 
 - **One tick** means that the message was sent successfully to your provider.
 - **Two ticks** mean that at least one recipient's device
@@ -217,7 +211,7 @@ Si uno de los compañeros de chat usa una aplicación de correo electrónico que
 
 ### ¿Cómo puedo verificar el estado criptográfico con un remitente?
 
-If you are within immediate distance of the chat partner:
+Si se encuentra a una distancia inmediata del compañero de chat:
 
 - Select **QR Invite code** on one device and then **Scan QR code**
   on the other one and scan the code. If both devices are online,
@@ -442,13 +436,13 @@ Sin embargo, algunos proveedores necesitan opciones especiales para funcionar co
 
 - Visita la página [Estándares usados en Delta Chat]({% include standards-url %}).
 
-### How are Delta Chat developments funded? 
+### ¿Cómo se financia el desarrollo de Delta Chat?
 
 First of all, Delta Chat does not receive any Venture Capital and
 is not indebted, and under no pressure to produce huge profits, or to 
 sell users and their friends and family to advertisers (or worse). 
 
-Delta Chat developments have so far been funded from four major sources: 
+Hasta ahora, el desarrollo de Delta Chat ha sido financiado por cuatro fuentes principales:
 
 - The [NEXTLEAP](https://nextleap.eu) EU project funded the research
   and implementation of verified groups and setup contact protocols

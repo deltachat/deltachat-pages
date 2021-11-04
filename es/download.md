@@ -6,10 +6,10 @@ downloads: true
 
 ## Registro de cambios
 
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Núcleo](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Las versiones de escritorio no requieren que Delta Chat sea instalado en un celular.
 
@@ -21,10 +21,10 @@ o sistemas compatibles.
 
 ## Enlaces
 
-* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
-* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
-* [Verify Downloads](verify-downloads): Verify data integrity of downloads
-* [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Solutions for common desktop installation problems
+* [Base de datos de proveedores](https://providers.delta.chat/): ¿Mi proveedor funciona con Delta Chat?
+* [Preguntas frecuentes multicliente](help#multiclient): Cómo sincronizar Escritorio con otra aplicación de Delta Chat.
+* [Verificar descargas](verify-downloads): Verificar la integridad de los datos de las descargas
+* [Solución de problemas de instalación de Escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Soluciones para problemas comunes de instalación de Escritorio
 
 ## Compilados Vista Anticipada
 

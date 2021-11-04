@@ -45,13 +45,6 @@ Delta Chat affiche automatiquement :
 Les autres messages n'apparaissent pas automatiquement, et se trouvent dans les **demandes de contact**. Si vous le souhaitez, une discussion peut être lancée depuis là.
 
 
-### A propos des spams
-
-- Les messages contenus dans les dossiers indésirables courants sont ignorés et les adresses qu'ils contiennent ne sont pas considérées comme des contacts connus.
-- Comme les messages provenant de contacts inconnus n'apparaissent pas automatiquement, normalement, il n'y a pas de **spam**.
-- Cependant, si nécessaire, vous pouvez **bloquer** n'importe quel contact.
-
-
 ### Delta Chat prend-il en charge les images, vidéos et autres pièces jointes ?
 
 Oui. Comme le texte brut, toutes les pièces jointes aux e-mails sont affichées sous forme de messages séparés. Les messages sortants reçoivent automatiquement les pièces jointes nécessaires.
@@ -61,7 +54,8 @@ Oui. Comme le texte brut, toutes les pièces jointes aux e-mails sont affichées
 
 Dans les paramètres vous pouvez ajouter une photo de profil. Si vous écrivez à vos contacts ou que vous les ajoutez via le QR code, ils la verront automatiquement comme votre photo de profil.
 
-- Les contacts qui n'utilisent pas Delta Chat la retrouveront en pièce jointe.
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - Pour des questions de confidentialité, personne ne peut voir votre photo de profil avant de leur avoir écrit.
 
@@ -70,7 +64,7 @@ Dans les paramètres vous pouvez ajouter une photo de profil. Si vous écrivez �
 
 ### Est-ce que Delta Chat gère les courriels en HTML ?
 
-- Oui, si le courriel entrant ne comprend pas le texte brut, Delta Chat convertit les courriels HTML en texte brut. Les courriels sortants sont toujours en texte brut.
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### Pourquoi dois-je entrer le mot de passe de mon compte de courriel dans Delta Chat ? Est-ce sécurisé ?

@@ -45,13 +45,6 @@ Delta Chat 自动显示：
 其他消息不会自动出现，而是可以在**联系人请求**中找到。 如有需要，可以从那里开始聊天。
 
 
-### 垃圾信息呢？
-
-- 普通垃圾邮件文件夹中的消息将被忽略，并且所包含的地址不会被视为已知联系人。
-- 由于来自未知联系人的消息不会自动弹出，因此通常情况下**不会出现垃圾信息**。
-- 不过，如有需要，您可以**屏蔽**任何联系人。
-
-
 ### Delta Chat 支持图像、视频和其他附件吗？
 
 - 是的。除纯文本外，所有电子邮件附件均显示为单独的消息。发出消息会根据需要自动获得附件。
@@ -61,7 +54,8 @@ Delta Chat 自动显示：
 
 - 您可以在设置中添加个人资料图片。如果您给您的联系人发消息或者通过二维码添加他们，他们会自动看到您的个人资料图片。
 
-- 不使用 Delta Chat 的联系人将其视为电子邮件附件。
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - 出于隐私原因，在您向他们发送消息之前，没有人会看到您的个人资料照片。
 
@@ -70,7 +64,7 @@ Delta Chat 自动显示：
 
 ### Delta Chat 支持 HTML 电子邮件吗？
 
-- 是的。 如果收到的电子邮件缺少“纯文本”部分， HTML 电子邮件将在应用中被转换为纯文本。发出电子邮件始终使用纯文本。
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### 为什么我必须在 Delta Chat 中输入我的电子邮件密码？ 这样安全吗？

@@ -49,13 +49,6 @@ Delta Chat otomatik olarak şunları gösterir:
 Diğer mesajlar otomatik olarak görünmez ve **İletişim isteklerinde** bulunur. İstenirse buradan sohbet başlatılabilir.
 
 
-### Spam ne olacak?
-
-- Genel spam klasörlerindeki mesajlar göz ardı edilir ve içerilen adresler bilinen kişiler olarak kabul edilmez.
-- Bilinmeyen kişilerden gelen mesajlar otomatik olarak açılmadığından, normalde **spam yoktur**.
-- Ancak gerekirse, herhangi bir kişiyi **engelleyebilirsiniz**.
-
-
 ### Delta Chat resimleri, videoları ve diğer ekleri destekler mi?
 
 - Evet. Düz metnin yanında, tüm e-posta ekleri ayrı mesajlar olarak görüntülenir. Giden iletiler gerektiğinde ekleri otomatik olarak alır.
@@ -66,7 +59,8 @@ Diğer mesajlar otomatik olarak görünmez ve **İletişim isteklerinde** bulunu
 - Ayarlarınıza bir profil resmi ekleyebilirsiniz. Kişilerinize yazarsanız veya
 QR kodu ile eklerseniz, bunu otomatik olarak profil resminiz olarak görürler.
 
-- Delta Chat kullanmayan kişiler bunu bir e-posta eki olarak görür.
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - Gizlilik nedeniyle, siz onlara bir mesaj yazana kadar hiç kimse profil resminizi görmez.
 
@@ -77,7 +71,7 @@ QR kodu ile eklerseniz, bunu otomatik olarak profil resminiz olarak görürler.
 
 ### Delta Chat, HTML e-postaları destekler mi?
 
-- Evet. Gelen bir e-postada düz metin bölümü yoksa, HTML e-postalar uygulamada düz metne dönüştürülür. Giden e-postalar her zaman düz metin kullanır.
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### E-posta parolamı neden Delta Chat'e girmem gerekiyor? Bu güvenli mi?

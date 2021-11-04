@@ -49,13 +49,6 @@ Delta Chat shfaq automatikisht:
 Mesazhe të tjerë nuk shfaqen automatikisht, dhe do të gjenden te **Kërkesa kontakti**. Nëse dëshirohet, një fjalosje mund të fillohet prej atje.
 
 
-### Po mesazhet e padëshiruara?
-
-- Mesazhet në dosje të zakonshme mesazhesh të padëshiruar shpërfillen dhe adresat në ta nuk konsiderohen si kontakte të njohur.
-- Meqë mesazhet prej kontaktesh të panjohur nuk shfaqen automatikisht, normalisht, **s’ka mesazhe të padëshiruar**.
-- Sido qoftë, nëse duhet vërtet, mundeni të **bllokoni** cilindo kontakt.
-
-
 ### A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?
 
 - Po. Veç tekstit të thjeshtë, krejt bashkëngjitjet email shfaqen si mesazhe më vete. Mesazhet ikëse do të pranojnë vetvetiu bashkëngjitje sipas nevojës.
@@ -66,7 +59,8 @@ Mesazhe të tjerë nuk shfaqen automatikisht, dhe do të gjenden te **Kërkesa k
 - Mund të shtoni një foto profili te rregullimet tuaja. Nëse u shkruani kontakteve
   tuaja ose i shtoni përmes kodi QR, e shohin automatikisht si foton e profilit tuaj.
 
-- Kontatet që s’përdorin Delta Chat e shohin si një bashkëngjitje email-i.
+- Kontaktet që nuk përdorin Delta Chat s’e shohin foton e profilit
+  (por, sigurisht, mund të instalojnë Delta Chat-in :)
 
 - Për arsye privatësie, askush s’e sheh foton tuaj të profilit, deri sa
    t’u shkruani një mesazh.
@@ -78,7 +72,7 @@ Mesazhe të tjerë nuk shfaqen automatikisht, dhe do të gjenden te **Kërkesa k
 
 ### A mbulon Delta Chat-i email-e HTML?
 
-- Po. Nëse email-i ardhës nuk ka pjesë nën tekst të thjeshtë, email-et HTML shndërrohen në tekst të thjeshtë te aplikacioni. Email-et dërgohen përherë si tekst i thjeshtë.
+- Po. Nëse duhet, mesazhet ardhës shfaqen me një buton “Shfaqe krejt mesazhin”. Për mesazhet që dërgohen, përdoret përherë tekst i thjeshtë.
 
 
 ### Pse më duhet të jap fjalëkalimin e email-it tim në Delta Chat? A është e sigurt kjo?

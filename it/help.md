@@ -49,13 +49,6 @@ Delta Chat mostra automaticamente:
 Gli altri messaggi non vengono visualizzati automaticamente e si trovano in **Richieste di contatto**. Se lo si desidera, è possibile avviare una chat da lì.
 
 
-### E lo spam?
-
-- I messaggi nelle comuni cartelle di spam vengono ignorati e gli indirizzi contenuti non vengono considerati come contatti conosciuti.
-- Poiché i messaggi provenienti da contatti sconosciuti non vengono visualizzati automaticamente, normalmente **non c'è spam**.
-- Tuttavia, se necessario, puoi **bloccare** qualsiasi contatto.
-
-
 ### Delta Chat supporta immagini, video e altri allegati?
 
 - Sì. Oltre al testo normale, tutti gli allegati e-mail vengono visualizzati come messaggi separati. I messaggi in uscita ricevono automaticamente gli allegati necessari.
@@ -66,7 +59,7 @@ Gli altri messaggi non vengono visualizzati automaticamente e si trovano in **Ri
 - Puoi aggiungere un'immagine del profilo nelle tue impostazioni. Se scrivi ai tuoi contatti
 o li aggiungi tramite codice QR, la vedranno automaticamente come immagine del tuo profilo.
 
-- I contatti che non utilizzano Delta Chat lo vedono come un allegato E-Mail.
+- I contatti che non usano Delta Chat non vedono l'immagine del profilo (tuttavia, ovviamente, possono installare Delta Chat :)
 
 - Per motivi di privacy, nessuno vede la tua immagine del profilo finché non scrivi un
 messaggio a loro.
@@ -78,7 +71,7 @@ dispositivo.
 
 ### Delta Chat supporta le e-mail HTML?
 
-- Sì. Se un messaggio e-mail in arrivo manca di una parte di testo normale, i messaggi e-mail HTML vengono convertiti in testo normale nell'app. Le e-mail in uscita utilizzano sempre il testo normale.
+- Sì. Se necessario, i messaggi in arrivo hanno un pulsante "Mostra messaggio completo". Le e-mail in uscita utilizzano sempre testo normale.
 
 
 ### Perché devo inserire la mia password E-Mail in Delta Chat? È sicuro?
@@ -177,13 +170,13 @@ puoi ancora scrivere, ma non viene più notificato alcun nuovo messaggio.
 
 ### Cosa significano i segni di spunta visualizzati accanto ai messaggi in uscita?
 
-- **One tick** means that the message was sent successfully to your provider.
-- **Two ticks** mean that at least one recipient's device
-  reported back to having received the message.
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+- **Un segno di spunta** significa che il messaggio è stato inviato con successo al tuo fornitore.
+- **Due segni di spunta** significano che almeno un dispositivo del destinatario
+ha riferito di aver ricevuto il messaggio.
+- I destinatari possono avere le conferme di lettura disabilitate,
+quindi anche se vedi solo un segno di spunta, il messaggio potrebbe essere stato letto.
+- Al contrario, due segni di spunta non significano automaticamente
+che un essere umano abbia letto o compreso il messaggio ;)
 
 
 ## Crittografia {#encryption}
