@@ -48,13 +48,6 @@ Delta Chat mostra de xeito automático:
 Other messages do not appear automatically, and are to be found in **Contact requests**. If desired a chat can be started from there.
 
 
-### Que pasa co spam?
-
-- As mensaxes nos cartafoles de spam ignóranse e os enderezos dos remitentes non se consideran como contactos coñecidos.
-- Como as mensaxes de descoñecidos non aparecen de xeito automático, normalmente, **non hai spam**.
-- Porén, se fose preciso, podes **bloquear** calquera contacto.
-
-
 ### Delta Chat ten soporte para imaxes, vídeos e outros anexos?
 
 - Si. Ademáis dos texto plano, todos os ficheiros anexos ao email móstranse como mensaxes separadas. As mensaxes saíntes obteñen os anexos de xeito automático se fose preciso.
@@ -65,7 +58,8 @@ Other messages do not appear automatically, and are to be found in **Contact req
 - Podes engadir unha foto de perfil nos axustes. Se lle escribes aos teus contactos
 ou os engades vía código QR, verán de xeito automático a túa foto de perfil.
 
-- Os contactos que non usen Delta Chat verana como un anexo de email.
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - Por razóns de privacidade, ninguén ve a túa foto de perfil ata que lle escribes
 unha mensaxe.
@@ -77,7 +71,7 @@ novo dispositivo.
 
  ### Ten Delta Chat soporte para emails HTML?
 
-- Yes. If an incoming e-mail lacks a plain text part, HTML-emails are converted to plain text in the app. Outgoing e-mails always use plain text.
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### Por que teño que escribir o contrasinal do meu email en Delta Chat? Esto é seguro?

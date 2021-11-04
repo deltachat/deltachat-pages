@@ -48,13 +48,6 @@ Delta Chat automatycznie pokazuje:
 Inne wiadomości nie pojawiają się automatycznie i można je znaleźć w **Prośby o kontakt**. W razie potrzeby można rozpocząć czat.
 
 
-### A co ze spamem?
-
-- Wiadomości w popularnych folderach ze spamem są ignorowane, a zawarte adresy nie są uznawane za znane kontakty.
-- Ponieważ wiadomości z nieznanych kontaktów nie pojawiają się automatycznie, zwykle **nie ma spamu**.
-- Jednakże, jeśli potrzebujesz, możesz **zablokować** dowolny kontakt. 
-
-
 ### Czy Delta Chat obsługuje obrazy, filmy i inne załączniki?
 
 - Tak. Oprócz zwykłego tekstu wszystkie załączniki wiadomości e-mail są wyświetlane jako oddzielne wiadomości. Wiadomości wychodzące automatycznie otrzymują załączniki w razie potrzeby.
@@ -64,7 +57,8 @@ Inne wiadomości nie pojawiają się automatycznie i można je znaleźć w **Pro
 
 - Możesz dodać zdjęcie profilowe w swoich ustawieniach. Jeśli napiszesz do swoich kontaktów lub dodasz je za pomocą kodu QR, automatycznie zobaczą je jako Twoje zdjęcie profilowe.
 
-- Kontakty, które nie korzystają z Delta Chat, widzą je jako załącznik do wiadomości e-mail.
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - Ze względów prywatności nikt nie widzi Twojego zdjęcia profilowego, dopóki nie napiszesz do niego wiadomości.
 
@@ -73,7 +67,7 @@ Inne wiadomości nie pojawiają się automatycznie i można je znaleźć w **Pro
 
 ### Czy Delta Chat obsługuje wiadomości e-mail w formacie HTML?
 
-- Tak. Jeśli przychodząca wiadomość e-mail nie ma części tekstowej, aplikacja konwertuje wiadomości HTML na zwykły tekst. E-maile wychodzące zawsze używają zwykłego tekstu.
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### Dlaczego muszę wpisać moje hasło e-mail do Delta Chat? Czy to jest bezpieczne?

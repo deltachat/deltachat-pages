@@ -49,13 +49,6 @@ Delta Chat samočinně ukazuje:
 Ostatní zprávy se neobjeví samočinně, a jsou k nalezení v **Výzvy ke spojení**. Otamtud je možné odpovědí začít hovor.
 
 
-### Jak je to se spamem?
-
-- Zprávy v běžných složkách se spamem jsou vynechány a adresy z nich nejsou považovány za uznané kontakty.
-- Jelikož se zprávy od neuznaných kontaktů samočinně neukazují, normálně **žádný spam** není.
-- Nicméně, pokud je třeba, lze **zablokovat** jakýkoli kontakt.
-
-
 ### Podporuje Delta Chat obrázky, videa a jiné přílohy?
 
 - Ano. Kromě běžného textu jsou všechny e-mailové přílohy zobrazeny jako samostatné zprávy. V odchozích zprávách jsou přílohy použity samočinně.
@@ -66,7 +59,8 @@ Ostatní zprávy se neobjeví samočinně, a jsou k nalezení v **Výzvy ke spoj
 - Profilový obrázek lze zvolit v nastavení. Když napíšeš svému kontaktu,
 nebo přidáš nový vyfocením QR kódu, tyto kontakty automaticky uvidí tvůj profilový obrázek.
 
-- Kontatkty, které nepoužívají Delta Chat obrázek obdrží v příloze e-mailu.
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - Z důvodu soukromí nikdo nevidí tvůj profilový obrázek dokud jim nenapíšeš.
 
@@ -75,7 +69,7 @@ Profilový obrázek není posílán s každou zprávou, ale dostatečně často 
 
 ### Umí Delta Chat pracovat s e-maily v HTML?
 
-- Ano. Pokud příchozí e-mail nemá verzi v běžném textu, HTML e-maily jsou aplikací převedeny do běžného textu. Odchozí zprávy jsou vždy běžný text.
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### Proč musím Delta Chatu zadat mé e-mailové heslo? Je to bezpečné?

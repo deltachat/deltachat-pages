@@ -46,13 +46,6 @@ Delta Chat zeigt automatisch:
 Andere Nachrichten werden nicht automatisch angezeigt; diese sind unter **Kontaktanfragen** zu finden. Wenn gewünscht, kann ein neuer Chat von dort gestartet werden.
 
 
-### Was ist mit Spam?
-
-- Nachrichten in allgemeinen Spam-Ordnern werden ignoriert und darin enthaltene Adressen gelten nicht als bekannte Kontakte.
-- Da Nachrichten von unbekannten Kontakten nicht automatisch angezeigt werden, gibt es normalerweise **keinen Spam**.
-- Sie können jedoch bei Bedarf jeden Kontakt **blockieren**.
-
-
 ### Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
 
 - Ja. Alle E-Mail-Anhänge werden als separate Nachrichten angezeigt. Ausgehende Nachrichten erhalten bei Bedarf automatisch Anhänge.
@@ -62,7 +55,7 @@ Andere Nachrichten werden nicht automatisch angezeigt; diese sind unter **Kontak
 
 - Sie können ein Profilbild in den Einstellungen hinzufügen. Wenn Sie Ihren Kontakten eine Nachricht senden oder sie über einen QR-Code hinzufügen, sehen diese automatisch Ihr Profilbild.
 
-- Kontakte, die kein Delta Chat benutzen, sehen Ihr Profilbild als E-Mail Anhang.
+- Kontakte, die Delta Chat nicht nutzen, sehen das Profilbild nicht (aber natürlich können sie Delta Chat installieren :)
 
 - Aus Datenschutzgründen sieht niemand Ihr Profilbild, dem Sie nicht zuvor eine Nachricht gesendet haben.
 
@@ -71,7 +64,7 @@ Andere Nachrichten werden nicht automatisch angezeigt; diese sind unter **Kontak
 
 ### Unterstützt Delta Chat HTML-E-Mails?
 
-- Ja. Fehlt bei eingehenden E-Mails der "Nur-Text"-Teil, werden HTML E-Mails in der App in "Nur-Text" umgewandelt. Ausgehende E-Mails verwenden immer "Nur-Text".
+- Ja. Eingehende Nachrichten erhalten bei Bedarf eine Schaltfläche "Vollständige Nachricht anzeigen". Ausgehende E-Mails verwenden immer "Nur Text".
 
 
 ### Weshalb muss ich mein E-Mail-Kennwort in Delta Chat eingeben? Ist das sicher?

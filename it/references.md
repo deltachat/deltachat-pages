@@ -9,17 +9,17 @@ Non è certo una lista completa - abbiamo dimenticato qualcosa? Per favore
 [faccelo sapere](imprint) o invia una [pull
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
-### Ubuntubuzz: Features You May Find Excellent...
+### Ubuntubuzz: funzionalità che potresti trovare eccellenti...
 
-_"Apple and alike could be forced to give users' data to government, Delta could not, because it does not have users' data. [...] No server, no data collection, and no phone number required. Modern, fancy, WhatsApp-like user interface. Can message people who do not use Delta Chat."_
+_"Apple e simili potrebbero essere costrette a fornire i dati degli utenti al governo, Delta non potrebbe, perché non ha i dati degli utenti. [...] Nessun server, nessuna raccolta dati e nessun numero di telefono richiesto. Moderno, elegante , Interfaccia utente simile a WhatsApp. Può inviare messaggi a persone che non utilizzano Delta Chat."_
 
-2021-09-20, Ade Malsasa Akbar, <https://www.ubuntubuzz.com/2021/09/delta-chat-overview-and-installation.html>
+20-09-2021, Ade Malsasa Akbar, <https://www.ubuntubuzz.com/2021/09/delta-chat-overview-and-installation.html>
 
-### Delta Chat 1.22 ya fue liberado y estas son sus novedades
+### Delta Chat 1.22 è già stato rilasciato e queste sono le sue novità
 
-_"Otra de las novedades que se presenta es en la implementación de soporte para múltiples cuentas de Delta Chat (Multi-Account) en una aplicación que se ha transferido a un nuevo controlador que está unificado para todas las plataformas, lo que brinda la capacidad de paralelizar el trabajo con las cuentas (el cambio entre cuentas ahora se realiza instantáneamente)."_
+_ "Un'altra novità che viene presentata è l'implementazione del supporto per più account Delta Chat (Multi-Account) in un'applicazione che è stata trasferita su un nuovo controller unificato per tutte le piattaforme, che fornisce la possibilità di parallelizzare il lavoro con gli account (il passaggio da un account all'altro ora avviene istantaneamente). "_
 
-2021-08-26, Darkcrizt <https://blog.desdelinux.net/delta-chat-1-22-ya-fue-liberado-y-estas-son-sus-novedades/>
+26-08-2021, Darkcrizt <https://blog.desdelinux.net/delta-chat-1-22-ya-fue-liberado-y-estas-son-sus-novedades/>
 
 ### Pocketnow: 10 modi in cui Delta Chat è migliore di WhatsApp, Signal e Telegram
 

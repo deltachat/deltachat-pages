@@ -49,13 +49,6 @@ Delta Chat otomatis menampilkan:
 Pesan lain tidak muncul secara otomatis, dan dapat ditemukan di **Permintaan kontak**. Jika diinginkan obrolan bisa dimulai dari sana.
 
 
-### Bagaimana dengan spam?
-
-- Pesan dalam folder spam umum diabaikan dan alamat yang ada tidak dianggap sebagai kontak yang dikenal.
-- Karena pesan dari kontak yang tidak dikenal tidak muncul secara otomatis, biasanya, tidak ada **spam**.
-- Namun, jika diperlukan, Anda dapat **memblokir** kontak apa pun.
-
-
 ### Apakah Delta Chat mendukung gambar, vidio dan lampiran lainnya?
 
 - Ya, Di samping teks biasa, semua lampiran email ditampilkan sebagai pesan terpisah. Pesan keluar mendapatkan lampiran sesuai kebutuhan secara otomatis.
@@ -66,7 +59,8 @@ Pesan lain tidak muncul secara otomatis, dan dapat ditemukan di **Permintaan kon
 - Anda dapat menambahkan gambar profil di pengaturan Anda. Jika Anda menulis ke kontak Anda
   atau menambahkannya melalui kode QR, mereka secara otomatis melihatnya sebagai gambar profil Anda.
 
-- Kontak yang tidak menggunakan Delta Chat melihatnya sebagai lampiran E-Mail.
+- Contacts who don't use Delta Chat do not see the profile picture
+  (however, of course, they can install Delta Chat :)
 
 - Untuk alasan kerahasiaan, tidak ada satupun yang dapat melihat Foto Profil anda hingga anda menulis
 sebuah pesan kepada mereka.
@@ -78,7 +72,7 @@ baru
 
 ### Apakah Delta Chat mendukung email HTML?
 
-- Ya. Bila pesan email masuk tidak memiliki bagian teks biasa, email-email HTML akan dikonversi ke teks biasa dalam aplikasi. Email-email yang dikirim selalu menggunakan teks biasa.
+- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
 
 
 ### Mengapa saya harus memasukkan kata sandi E-Mail saya ke Delta Chat? Apakah ini aman?
