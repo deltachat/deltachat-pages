@@ -7,6 +7,12 @@ lang: en
 
 **This is the privacy policy for this website. The Delta Chat apps have a [separate privacy policy](gdpr).**
 
+You can get all necessary information about us and our project on our Delta Chat website. However, it is only fair that you know which personal data is processed when you use our service at all times.
+
+The following information also serves to provide you with information about this and how we protect your personal data from manipulation, loss, destruction or misuse.
+
+If you have any further questions about data protection, please contact us via e-mail: delta-privacy@merlinux.eu
+
 ## 1. Name and contact information of the data controller
 
 Responsible for the processing of your personal data is
@@ -20,16 +26,16 @@ Germany
 
 mail: delta-privacy@merlinux.eu
 ```
-We have appointed a data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at info@lexict.de Keyword: DeltaChat.
+Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at info@lexict.de Keyword: DeltaChat.
 
 ## 2. Processing when using the website
 
 When you visit our website, the browser used on your end device automatically sends information to the server of our website. This information is temporarily stored in a so-called log file. The following information is collected and stored until it is automatically deleted (usually 7 days):
 
 - used type of browser,
-- used operating system,
+- used operating system, 
 - access date and time as well as
-- country of origin and IP address,
+- country of origin and IP address, 
 - the name of the file,
 - the amount of data transferred,
 - the access status (file transferred, file not found, etc.) and
@@ -98,7 +104,7 @@ Some of them may be:
 - Host name of the accessing computer (IP address)
 - Time of the server request
 
-We host the instance of Discourse on our own servers and do not transmit any data from you to Discourse. Discourse is an open source project, which is maintained by
+We host the instance of Discourse on our own servers and do not transmit any data from you to Discourse. Discourse is an open source project, which is maintained by 
 
 ```
 M. Régis Hanol
@@ -149,7 +155,7 @@ Dublin 2
 D02 AX07
 Ireland
 
-You can contact Twitters DPO at https://twitter.ethicspointvp.com/custom/twitter/forms/data/form_data.asp
+You can contact Twitters DPO at https://twitter.ethicspointvp.com/custom/twitter/forms/data/form_data.asp 
 fax +1 415 222 9958
 ```
 
@@ -189,7 +195,7 @@ In addition, we maintain a Mastodon account. To the extent that we determine the
 In all other cases in which data is processed in connection with our Mastodon account and for which Mastodon determines the means and purposes, the processing is carried out by the operator of the Mastodon instance as the sole responsible party. In our case, this is operated on chaos.social.
 
 Information about the processing of personal data when using chaos.social, are described in the privacy policy, available at:
-https://chaos.social/terms
+https://chaos.social/terms 
 
 If you interact with us via Mastodon, the legal basis is a legitimate interest pursuant to Art. 6 (1) lit. f GDPR. Our legitimate interest is to interact with our followers and other interested social media users on our social media profiles, to increase the reach of our products (advertising) and to respond to your request. Otherwise, the use of Mastodon is based on your consent to Mastodon pursuant to Art. 6 (1) lit. a GDPR.
 
