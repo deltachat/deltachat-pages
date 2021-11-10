@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy Delta Chat Apps
-lang: en
+lang: es
 ---
 
 # Privacy Policy Delta Chat Apps
