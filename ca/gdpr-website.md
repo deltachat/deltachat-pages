@@ -9,7 +9,7 @@ lang: en
 
 You can get all necessary information about us and our project on our Delta Chat website. However, it is only fair that you know which personal data is processed when you use our service at all times.
 
-The following information also serves to provide you with information about this and how we protect your personal data from manipulation, loss, destruction or misuse.
+The following also serves to provide you with information about this and how we protect your personal data from manipulation, loss, destruction or misuse.
 
 If you have any further questions about data protection, please contact us via e-mail: delta-privacy@merlinux.eu
 
