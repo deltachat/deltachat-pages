@@ -1,92 +1,225 @@
 ---
-title: Datenschutzerklärung Delta Chat Apps und Internetseite
+title: Datenschutzerklärung Delta Chat Apps
 lang: de
 ---
 
-# Datenschutzerklärung Delta Chat Apps
+# Datenschutzhinweise
 
-### Wie Delta Chat die DSGVO erfüllt
+**Das ist die Datenschutz-Erklärung der Delta Chat Apps. Die Datenschutzerklärung für diese Webseite [findest du hier](gdpr-website).**
 
-Die Datenschutz-Grundverordnung (DSGVO) wird häufig 
-als die weitreichendste Gesetzgebung zum Schutz der Privatsphäre von Anwendern betrachtet.
-Auf dieser Seite erfahren Sie, wie die Delta Chat-App und -Website die Anforderungen der DSGVO erfüllt.
+## Zusammenfassung
 
-- Implementierung der **Datenschutz durch Design**-Anforderung der DSGVO durch
+Delta Chat ist eine E-Mail App, die einen strikten Privacy-by-Design Ansatz verfolgt. Alle Kommunikationsdaten verbleiben auf den Endgeräten bzw. bei den durch die Nutzer\*in gewählten E-Mail-Servern.
 
-- **Vertraulichkeit**: Ende-zu-Ende-Verschlüsselung wenn möglich durch Implementierung von  [Autocrypt Level 1](https://autocrypt.org).
+<table>
+    <thead>
+        <tr>
+            <th>Anforderung</th>
+            <th>Umsetzung</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Vertraulichkeit</td>
+            <td>
+<b>Ende-zu-Ende-Verschlüsselung</b> durch Implementierung von <a href="https://autocrypt.org">Autocrypt</a> and <a href="https://countermitm.readthedocs.io/en/latest/new.html">Verified groups</a>. Durch eine anwenderfreundliche Ende-zu-Ende-Verschlüsselung werden die Vorgaben der DSGVO bereits auf technischer Ebene umgesetzt, <b>Privacy by Design</b>.
+            </td>
+        </tr>
+        <tr>
+            <td>Datenminimierung</td>
+            <td>Kein Upload des Adressbuchinhalts.</td>
+        </tr>
+        <tr>
+            <td>Datenvermeidung</td>
+            <td>Keine Delta Chat Server, keine Verarbeitung personenbezogener Daten. Alle Daten bleiben bei deinem E-Mail-Anbieter und auf deinen Geräten.  
+            </td>
+        </tr>
+        <tr>
+            <td>Rechtsgrundlage</td>
+            <td>
+Das Einholen einer Einwilligung für den Adressbuchabgleich entfällt, Art. 7 DSGVO, da keine Adressbuchdaten übertragen werden. Somit ist <b>keine zusätzliche Rechtsgrundlage</b> von Nöten.
+            </td>
+        </tr>
+        <tr>
+            <td>Daten an Dritte</td>
+            <td>Wir erhalten nur den Token für die Push-Notification und leiten diesen an den Anbieter deines Betriebssystems weiter. Wenn du keine Push-Notifications erhalten möchtest, leiten wir auch keinen Token weiter. </td>
+        </tr>
+        <tr>
+            <td>Daten von Dritten</td>
+            <td>
+Einfache Implementierung in Unternehmen: Delta Chat verarbeitet keine personenbezogenen Daten im Auftrag der/des Verantwortlichen und bedarf somit <b>keiner Weisung oder eines Auftragsverarbeitungsvertrages</b>. Einfache Anbindung an eigenen E-Mail-Server.
+            </td>
+        </tr>
+        <tr>
+            <td>
+DSFA
+            </td>
+            <td>
+Es muss <b>keine Datenschutz-Folgenabschätzung</b> für Delta Chat (Artikel 35 DSGVO) durchgeführt werden, da keine Daten über die Nutzung als E-Mail App hinaus verarbeitet werden. Das Risiko für Rechte und Freiheiten natürlicher Personen beschränkt sich auf die unternehmensinterne Datenverarbeitung der E-Mail-Kommunikation und die der E-Mail-Anbieter.
+            </td>
+        </tr>
+        <tr>
+            <td>
+Dokumentation
+            </td>
+            <td>
+Eine Aufnahme der durch Delta Chat implementierten Maßnahmen ins <b>Verzeichnis von Verarbeitungstätigkeiten</b> kann sich positiv auf eventuelle Beweisführungen, Art. 30 DSGVO sowie Zertifizierungsprozesse auswirken, Art. 25 IV, 42 DSGVO. Die Dokumentierung von Verarbeitungstätigkeiten in Verbindung mit der Delta Chat E-Mail App entfällt und verlagert sich lediglich auf die Verzeichnung der Verarbeitungstätigkeiten deines E-Mail-Anbieters, Art. 30 II DSGVO.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-- **Datenminimierung**: Kein Hochladen des Adressbuchinhalts.
+## Detaillierte Datenschutzhinweise
 
-- **Datenvermeidung**: Keine Delta Chat-Server, keine Verarbeitung personenbezogener Daten.
+### 1. Name und Anschrift der/des Verantwortlichen
 
-- Erfordert keine **Einwilligung** (Artikel 7 DSGVO) der Anwender oder ihrer Kontakte (betroffene Personen), da keine Adressbuchdaten übertragen werden.
+Verantwortliche für die Verarbeitung deiner personenbezogenen Daten ist die
 
-- Delta Chat verarbeitet keine personenbezogenen Daten im Auftrag des Verantwortlichen und bedarf somit **keiner Weisung oder eines Auftragsverarbeitungsvertrages.**
+    merlinux GmbH
+    Vertreten durch den Geschäftsführer Holger Krekel
+    Reichsgrafen Str. 20
+    79102 Freiburg
+    Germany
 
-
-- Durch eine anwenderfreundliche Ende-zu-Ende-Verschlüsselung werden die Vorgaben der DSGVO bereits auf technischer Ebene umgesetzt, **Privacy by Design.**
-
-- Das Einholen einer **Einwilligung** für den Adressbuchabgleich **entfällt**, Art. 7 DSGVO.
-
-- Es muss **keine Datenschutz-Folgenabschätzung** für Delta Chat (Artikel 35 DSGVO) durchgeführt werden, da keine besonderen zusätzlichen Daten über das E-Mail-Messenger-Verfahren hinaus verarbeitet werden.
-
-- Eine **Datenschutz-Folgeabschätzung** ist durch fehlende Messenger-Datenverarbeitung **nicht notwendig**, Art. 35 DSGVO. Das Risiko für Rechte und Freiheiten natürlicher Personen beschränkt sich auf die unternehmensinterne Datenverarbeitung der E-Mail-Kommunikation und die der E-Mail-Provider.
-
-- Eine Aufnahme der durch Delta Chat implementierten Maßnahmen ins **Verzeichnis von Verarbeitungstätigkeiten** kann sich positiv auf eventuelle **Beweisführungen**, Art. 30 DSGVO sowie **Zertifizierungsprozesse** auswirken, Art. 25 IV, 42 DSGVO.
-
-- Die **Dokumentierung von Verarbeitungstätigkeiten** in Verbindung mit der Messenger-Kommunikation **entfällt** und verlagert sich lediglich auf die Verzeichnung der Verarbeitungstätigkeiten Ihres E-Mail-Providers, Art. 30 II DSGVO.
-
-
-
-Diese Stellungnahme bezieht sich auf die Datenschutz-Grundverordnung (DSGVO) in ihrer Fassung vom 16.05.2018.
-
-
-### Standortdaten
-
-Wenn Sie Ihren Standort in einem Chat teilen,
-werden Ihre Standortdaten wie andere Nachrichten behandelt.
-Delta Chat wird Ihre Standortdaten verwenden, um Ihre Standorte
-den anderen Mitgliedern des Chats anzuzeigen.
-
-Standortdaten werden auch gesammelt, wenn die App geschlossen oder nicht in Verwendung ist
-– für so lange wie Sie diese optionale Funktion aktiviert lassen.
-
-
-# Datenschutzerklärung Internetseite
-
-**Status: 21. Januar 2020**
-
-Bei Delta Chat stellen wir sicher, dass nicht nur unser Messenger, sondern auch die Delta Chat
-Internetseite der europäischen Datenschutz-Grundverordnung
-(2016/679) entspricht. Daher beschränken wir die Verarbeitung Ihrer Daten auf ein notwendiges Minimum (Datenschutz durch Design).
-
-### Allgemeine Information
-
-Die Delta Chat-Website verwendet keine eigenen oder Cookies von Drittanbietern,
-Website-Analysedienste, Werbe- und Marketingdienste Dritter oder Social Media-Plugins. Die Datenverarbeitung beschränkt sich auf freiwilligen E-Mail-Kontakt.
-
-### Verantwortliche Person
-
-Die für die Datenverarbeitung dieser Internetseite im Sinne der DSGVO und anderer nationaler Datenschutzgesetze der Mitgliedstaaten sowie anderer Datenschutzbestimmungen verantwortliche Person ist
-
-    Merlinux GmbH
-    Reichgrafen Str. 20
-    79102 Freiburg, Deutschland
-
-Ihre Kontaktadresse bei Delta Chat für Datenschutzfragen lautet:
-
-	delta-privacy@merlinux.eu
-
-### Delta-Mailinglisten
-
-Wenn Sie die Delta-Mailinglisten freiwillig abonnieren, werden Ihre E-Mail-Adresse aus der Eingabemaske, die IP-Adresse des aufrufenden Computers, Datum und Uhrzeit der Registrierung übertragen. Die Verarbeitung dieser Daten dient ausschließlich der Kontaktverarbeitung und der Bereitstellung der öffentlichen Kommunikation. Wie bei Open Source-Projekten üblich, können die geteilten Nachrichten auch in öffentlichen Archiven gefunden werden. Rechtsgrundlage für die Verarbeitung mit Zustimmung ist Art. 6 I lit. a DSGVO. Die E-Mail-Adresse des Benutzers wird nur so lange gespeichert, wie das Abonnement für die E-Mail-Liste aktiv ist. Durch das Abbestellen einer Mailingliste ist ein Widerruf der Einwilligung möglich.
-
-### Rechte betroffener Personen
-
-Sie können bei Delta Chat Informationen darüber anfordern, ob und wie Ihre Daten von uns verarbeitet werden. Sie haben das Recht, auf der Grundlage Art. 6 I lit.e oder lit.f DSGVO der Verarbeitung zu widersprechen. Falls die Verarbeitung falsch oder unvollständig ist, haben Sie das Recht auf Berichtigung/Vervollständigung, Löschung und gegebenenfalls Einschränkung der Verarbeitung. Sie können jederzeit die Einverständniserklärung der Mailingliste widerrufen. Sie haben das Recht, die Daten in einem strukturierten gemeinsamen und maschinenlesbaren Format zu erhalten und sich bei einer Aufsichtsbehörde zu beschweren.
-
-### Änderung der Datenschutzerklärung
-
-Wir behalten uns das Recht vor, die vorliegenden datenschutzrechtlichen Bestimmungen angesichts der sich ständig ändernden rechtlichen und technischen Situation anzupassen.
+E-Mail: delta-privacy at merlinux.eu
 
 
+Der Datenschutzbeauftragte der merlinux GmbH ist<b>Prof. Dr. Fabian Schmieder</b>, c/o lexICT UG (haftungsbeschränkt), Ostfelstraße 49, 30559 Hannover. Du kannst ihn über info@lexict.de kontaktieren. Stichwort: DeltaChat
+
+### 2. Verarbeitung bei Nutzung des Delta Chat E-Mail Messengers
+
+Alle Daten sind lokal auf deinem Endgerät gespeichert oder bei deinem E-Mail-Anbieter. Wir bzw. Delta Chat Entwickler\*innen haben keine Möglichkeit auf Daten der Endnutzer\*innen zuzugreifen, da jegliche Kommunikation bzw. Datenverarbeitung auf dem Endgerät der Nutzer\*innen stattfindet, ohne dass Delta Chat Server beteiligt sind. Lediglich für die optionale Push Benachrichtigung (vgl. 2.2) wird der Push Notification Token durch Delta Chat Server verarbeitet, ohne dass diese Kenntnis über die Nachrichten selbst erhalten, auch nicht in verschlüsselter Form.
+
+#### 2.1 Anmeldung bei deinem E-Mail-Anbieter
+
+Die Kommunikation von Delta Chat funktioniert über deinen E-Mail-Account. Damit die Verbindung hergestellt werden kann, benötigt die App die Zugangsdaten. Diese werden nur lokal auf deinem Endgerät gepeichert:
+
+- E-Mail-Adresse
+- Dein Passwort
+
+Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
+
+#### 2.2 Heartbeat Push-Benachrichtigungen
+
+Push-Benachrichtigungen können in regelmäßigen Abständen an das Telefon des Benutzers gesendet werden, um einen Empfang von Nachrichten zu ermöglichen, während die Delta Chat App gerade nicht aktiv ist. Aktuelle Nachrichten können dann auf dem Endgerät abgerufen werden. Der Token wird nur erstellt, sofern die Nutzer\*innen einen zuverlässigen Empfang von Nachrichten möchte, auch wenn die App nicht aktiv ist. 
+
+Um Push-Benachrichtigungen nutzen zu können, wird nach dem Download und der Installation der App ein eindeutiger Bezeichner oder Token (Push Notification Token) erstellt. Dieser Token ermöglicht es, den Delta Chat Servern Benachrichtigungen an das Gerät der Nutzer\*innen zu senden. Der Token wird vom Anbieter generiert und bereitgestellt. Der Token wird dann auf unseren Systemen gespeichert und in regelmäßigen Abständen an das Endgerät geschickt, um die App zu veranlassen vom E-Mail-Anbieter neue Nachrichten abzurufen. Unsere Systeme haben keine Kenntnis davon, ob eine Nachricht ankommt oder wer eine Nachricht ggf. geschickt hat.
+
+- Push Notification Provider für iOS Systeme sind die Apple Services. Werden Push-Nachrichten aktiviert, wird zur Bereitstellung dieser Funktion der Apple Push Notification Service (iOS-Version) genutzt. Weitere Informationen findest du unter https://support.apple.com/de-de/guide/deployment-reference-ios/ior9d28751c0/web. Die Datenschutzerklärung findest du unter https://www.apple.com/legal/privacy/de-ww/.
+
+- Push Notification Provider für Android Systeme ist Google Firebase. Der Anbieter ist Google Inc. und weitere Informationen findest du unter unter https://firebase.google.com/products/cloud-messaging/ und in der Datenschutzerklärung von Google unter http://www.google.de/intl/de/policies/privacy.
+
+Die genannten Daten werden nur mit deiner Einwilligung verarbeitet, gem. Art. 6 Abs. 1 S. 1 lit. a DSGVO.
+
+#### 2.3 Daten in der App
+
+Die Delta Chat App arbeitet datensparsam. Alle relevanten Daten sind ausschließlich auf den jeweiligen Endgeräten gespeichert: 
+
+    • Chatverläufe (Textnachrichten, Sprachnachrichten, Medien, …)
+    • Kontakte
+    • Einstellungen 
+
+Delta Chat Server haben keinen Zugriff auf diese Daten, auch nicht in verschlüsselter Form, da die Datenverarbeitung nur auf den Endgeräten stattfindet.
+
+#### 2.4 Berechtigungen der App
+
+Im Rahmen der App können Sie diverse Informationen, Aufgaben und Aktivitäten eingeben, verwalten und bearbeiten. Die App erfordert darüber hinaus folgende Berechtigungen:
+
+<table>
+    <thead>
+        <tr>
+            <th>Berechtigung</th>
+            <th>Grund</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Internetzugriff</td>
+            <td>Dieser wird benötigt, um die Nachrichten an die Kommunikationsteilnehmer\*innen zu schicken. </td>
+        </tr>
+        <tr>
+            <td>Kamerazugriff (optional)</td>
+            <td>
+Dieser wird benötigt, damit du Fotos anfertigen und über die App versenden kannst. Außerdem ermöglicht der Kamerazugriff das Scannen von QR-Codes.
+            </td>
+        </tr>
+        <tr>
+            <td>Mikrofonzugriff (optional)</td>
+            <td>
+Dieser wird benötigt, damit du Sprachnachrichten verschicken kannst.
+            </td>
+        </tr>
+        <tr>
+            <td>Standortzugriff (optional)</td>
+            <td>
+Dieser wird benötigt, wenn du deinen Standort mit einem/r Kommunikationsteilnehmer\*in teilen möchtest.
+            </td>
+        </tr>
+        <tr>
+            <td>Hintergrund Standortzugriff (optional)</td>
+            <td>
+Dieser wird benötigt, wenn du deinen Standort über einen Zeitraum teilen willst.
+            </td>
+        </tr>
+        <tr>
+            <td>Kontaktzugriff (optional)</td>
+            <td>
+Dieser wird benötigt, damit du Kontakte aus deinem Telefonbuch in die App laden und speichern kannst. Die Kontaktdaten werden dabei lokal in der App gespeichert und nicht auf Delta Chat Server weitergeleitet und gespeichert.
+            </td>
+        </tr>
+        <tr>
+            <td>
+Speicher (optional)
+            </td>
+            <td>Sie können Bilder und Dateien aus der App auf Ihrem Endgerät speichern.  </td>
+        </tr>
+    </tbody>
+</table>
+
+Die Verarbeitung und Verwendung der obigen Berechtigungen erfolgt zur Bereitstellung des Dienstes. Der Internetzugriff ist für die Nutzung erforderlich, daher ist die Rechtsgrundlage der Verarbeitung Art. 6 Abs. 1 S. 1 lit. b DSGVO, da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
+
+Die optionalen Berechtigungen finden nur aufgrund deiner Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO statt und kann auch auf einzelne Dienste reduziert werden, z.B. nur Internetnutzung um Nachrichten ohne Bilder oder Standortdaten zu versenden. Delta Chat erhält keinerlei Zugriff auf diese Daten.
+
+### 3. Plattformabhängige Verarbeitung
+
+Bestimmte Informationen werden bereits automatisch verarbeitet, sobald du die App verwendest. Welche personenbezogenen Daten genau verarbeitet werden, haben wir im Folgenden für dich aufgeführt:
+
+Beim Download der App werden bestimmte erforderliche Informationen an den von dir ausgewählten App Store (z.B. Google Play oder Apple App Store) übermittelt, insbesondere können dabei der Nutzername, die E-Mail-Adresse, die Kundennummer deines Accounts, der Zeitpunkt des Downloads, Zahlungsinformationen sowie die individuelle Gerätekennziffer verarbeitet werden. Die Verarbeitung dieser Daten erfolgt ausschließlich durch den jeweiligen App Store und liegt außerhalb unseres Einflussbereiches.
+
+Im Übrigen verweisen wir auf die Datenschutzerklärungen der jeweiligen App Store Anbieter bzw. Verantwortlichen der Betriebssysteme. Wir erheben und/oder verarbeiten keine weiteren Daten.
+
+Eine Übermittlung deiner persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken findet nicht statt. 
+
+# 4. Betroffenenrechte
+
+Als Betroffene\*r einer Verarbeitung personenbezogener Daten hast du das Recht,
+
+<ol class="p">
+<li>
+gemäß Art. 15 DSGVO Auskunft über deine von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere kannst du Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfänger\*innen, gegenüber denen deine Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft deiner Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;
+</li>
+<li>
+gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen;
+</li>
+<li>
+gemäß Art. 17 DSGVO die Löschung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;
+</li>
+<li>
+gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung deiner personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von dir bestritten wird, die Verarbeitung unrechtmäßig ist, du aber deren Löschung ablehnst und wir die Daten nicht mehr benötigen, du jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigst oder du gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung eingelegt hast;
+</li>
+<li>
+gemäß Art. 20 DSGVO deine personenbezogenen Daten, die du uns bereitgestellt hast, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
+</li>
+<li>
+gemäß Art. 7 Abs. 3 DSGVO deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
+</li>
+<li>
+gemäß Art. 77 DSGVO dich bei einer Aufsichtsbehörde zu beschweren. In der Regel kannst du dich hierfür an die Aufsichtsbehörde deines üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Geschäftssitzes wenden. Die für unseren Geschäftssitz zuständige Aufsichtsbehörde ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg in 70173 Stuttgart.
+</li>
+</ol> 
+
+# 5. Aktualität und Änderung dieser Datenschutzerklärung
+
+Diese Datenschutzerklärung hat den Stand Oktober 2021. Durch die Weiterentwicklung unserer Website und Angebote oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben, kann es notwendig werden, diese Datenschutzerklärung zu ändern.
+
+Die jeweils aktuelle Datenschutzerklärung kann jederzeit in der App oder unter https://Delta.Chat/de/gdpr von Ihnen abgerufen und ausgedruckt werden.
