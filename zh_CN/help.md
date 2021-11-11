@@ -54,8 +54,7 @@ Delta Chat 自动显示：
 
 - 您可以在设置中添加个人资料图片。如果您给您的联系人发消息或者通过二维码添加他们，他们会自动看到您的个人资料图片。
 
-- Contacts who don't use Delta Chat do not see the profile picture
-  (however, of course, they can install Delta Chat :)
+- 不使用 Delta Chat 的联系人不会看到个人资料图片（不过，他们可以安装 Delta Chat :）
 
 - 出于隐私原因，在您向他们发送消息之前，没有人会看到您的个人资料照片。
 
@@ -64,7 +63,7 @@ Delta Chat 自动显示：
 
 ### Delta Chat 支持 HTML 电子邮件吗？
 
-- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
+- 是的。如果需要，接收到的消息会得到一个“显示完整消息”按钮。发出的邮件总是使用纯文本。
 
 
 ### 为什么我必须在 Delta Chat 中输入我的电子邮件密码？ 这样安全吗？

@@ -59,8 +59,8 @@ Otros mensajes no aparecen automáticamente, y se pueden encontrar en **Solicitu
 - Puede agregar una foto de perfil en su configuración. Si escribe a sus contactos
 o los agrega a través de un código QR, ellos lo verán automáticamente como su foto de perfil.
 
-- Contacts who don't use Delta Chat do not see the profile picture
-  (however, of course, they can install Delta Chat :)
+- Los contactos que no usen Delta Chat no verán la foto de perfil
+  (a menos que instalen Delta Chat :)
 
 - Por cuestiones de privacidad, nadie verá su foto de perfil hasta que les escriba un mensaje.
 
@@ -71,7 +71,7 @@ dispositivo.
 
 ### ¿Delta Chat soporta mensajes con formato HTML?
 
-- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
+- Si. Si se necesita, los mensajes entrantes mostrarán un aviso de "Mostrar mensaje completo". E-mails salientes siempre se harán en texto plano
 
 
 ### ¿Por qué debo ingresar mi contraseña de correo electrónico en Delta Chat? ¿Es esto seguro?
