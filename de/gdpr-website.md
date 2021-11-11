@@ -201,7 +201,7 @@ Wir verwenden Dienste der Association Liberapay, Chez M. Coste, Le Bourg, St Jea
 
 ### b) Open Collective
 
-Wir verwenden darüber hinaus Dienste von Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA. Der Dienst ermöglicht Spendenzahlungen an uns. Dazu erhebt Open Collective Daten wie die E-Mail-Adresse, Namen und ggfs. Kontodaten zur Zahlungsabwicklung. Wir selbst haben keinen Zugriff auf diese Daten. Die Datenschutzerklärung von Open Collective, abgerufbar [hier](https://opencollective.com/privacypolicy)
+Wir verwenden darüber hinaus Dienste von Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA. Der Dienst ermöglicht Spendenzahlungen an uns. Dazu erhebt Open Collective Daten wie die E-Mail-Adresse, Namen und ggfs. Kontodaten zur Zahlungsabwicklung. Wir selbst haben keinen Zugriff auf diese Daten. Die Datenschutzerklärung von Open Collective, abrufbar [hier](https://opencollective.com/privacypolicy)
 
 ### c) Bitcoin Wallet
 
