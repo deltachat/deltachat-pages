@@ -8,7 +8,7 @@ lang: nl
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
 **Delta Chat is vergelijkbaar met Telegram of WhatsApp, maar je wordt niet gevolgd en er is geen centraal beheer.**
-Bekijk onze [GPDR-overeenkomst](gdpr)
+Bekijk onze [GPDR-overeenkomst](gpdr)
 
 **Delta Chat heeft geen eigen servers**; in plaats daarvan wordt het grootste, meest diverse openberichtsysteem
 ooit gebruikt: het bestaande e-mailservernetwerk.
