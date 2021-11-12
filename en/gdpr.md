@@ -78,13 +78,13 @@ The <b>documentation of processing activities</b> related to Messenger communica
 ### 1. Name and contact information of the data controller
 
 Responsible for the processing of your personal data is 
-
+```
     merlinux GmbH
     Represented by the managing director Holger Krekel
     Reichsgrafen Str. 20
     79102 Freiburg
     Germany
-
+```
 E-mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
 Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at [info@lexict.de](mailto:info@lexict.de) Keyword: DeltaChat.
@@ -108,9 +108,9 @@ Push notifications can be sent to the user's phone at regular intervals to enabl
 
 In order to use push notifications, a unique identifier or token (Push Notification Token) is created after the app is downloaded and installed. This token allows Delta Chat servers to send notifications to the user's device. The token is generated and provided by the provider. The token is then stored on our systems and sent to the device at regular intervals to cause the app to retrieve new messages from the e-mail provider. Our systems have no knowledge of whether a message arrives or who may have sent a message.
 
-- Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please [visit](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). You can find the privacy policy [here](https://www.apple.com/legal/privacy/).  
+- Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). You can find the privacy policy under [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).  
 
-- Push Notification Provider for Android systems is Google Firebase. The provider is Google Inc. and more information can be found [here](https://firebase.google.com/products/cloud-messaging/) and in Google's privacy policy at [here](https://policies.google.com/privacy?hl=en). 
+- Push Notification Provider for Android systems is Google Firebase. The provider is Google Inc. and more information can be found under [https://firebase.google.com/products/cloud-messaging/](https://firebase.google.com/products/cloud-messaging/) and in Google's privacy policy under [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en). 
 
 The aforementioned data will only be processed with your consent, in accordance with [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
@@ -118,10 +118,11 @@ The aforementioned data will only be processed with your consent, in accordance 
 
 The Delta Chat app works in a data-saving way. All relevant data is stored exclusively on the respective end devices:
 
+```
 - chat histories (text messages, voice messages, media, ...).
 - contacts
 - settings 
-
+```
 Delta Chat servers have no access to this data, not even in encrypted form, as data processing takes place only on the end devices.
 
 #### 2.4 App permissions
@@ -197,32 +198,23 @@ Your personal data will not be transferred to third parties for purposes other t
 
 As a data subject of a processing of personal data, you have the right to 
 
-<ol class="p">
-<li>
-request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the processing purposes, the category of personal data, the categories of recipients to whom your data have been or will be disclosed, the planned storage period, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data if it has not been collected by us, as well as the existence of automated decision-making including profiling and, if applicable, meaningful information about its details;
-</li>
-<li>
-in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/) of the GDPR, immediately request the correction of inaccurate or incomplete personal data stored by us;
-</li>
-<li>
-pursuant to [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/) of the GDPR, to request the erasure of your personal data stored by us, unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defence of legal claims;
-</li>
-<li>
-pursuant to [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), to request the restriction of the processing of your personal data, insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you object to its erasure and we no longer require the data, but you need it for the assertion, exercise or defence of legal claims or you have objected to the processing pursuant to [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
-</li>
-<li>
-pursuant to [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/), to receive your personal data that you have provided to us in a structured, common and machine-readable format or to request that it be transferred to another controller;
-</li>
-<li>
-in accordance with [Art.7(3) GDPR](https://gdpr-info.eu/art-7-gdpr/), to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
-</li>
-<li>
-complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/) of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
-</li>
-</ol>
+1. request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the processing purposes, the category of personal data, the categories of recipients to whom your data have been or will be disclosed, the planned storage period, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data if it has not been collected by us, as well as the existence of automated decision-making including profiling and, if applicable, meaningful information about its details;
+
+2. in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/) of the GDPR, immediately request the correction of inaccurate or incomplete personal data stored by us;
+
+3. pursuant to [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/) of the GDPR, to request the erasure of your personal data stored by us, unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defence of legal claims;
+
+4. pursuant to [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), to request the restriction of the processing of your personal data, insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you object to its erasure and we no longer require the data, but you need it for the assertion, exercise or defence of legal claims or you have objected to the processing pursuant to [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
+
+5. pursuant to [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/), to receive your personal data that you have provided to us in a structured, common and machine-readable format or to request that it be transferred to another controller;
+
+6. in accordance with [Art.7(3) GDPR](https://gdpr-info.eu/art-7-gdpr/), to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
+
+7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/) of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
+
 
 # 5. Up-to-dateness and modification of this data protection declaration
 
 This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
 
-You can access and print out the current data protection declaration at any time [at](https://delta.chat/de/gdpr).
+You can access and print out the current data protection declaration at any time at [https://delta.chat/de/gdpr](https://delta.chat/de/gdpr).
