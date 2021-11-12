@@ -17,12 +17,13 @@ Solltest du darüber hinaus Fragen zum Datenschutz haben, wende dich gerne per E
 
 Verantwortliche für die Verarbeitung deiner personenbezogenen Daten ist die
 
+```
 merlinux GmbH
 Vertreten durch den Geschäftsführer Holger Krekel
 Reichsgrafen Str. 20
 79102 Freiburg
 Germany
-
+```
 Mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu) 
 
 Der Datenschutzbeauftragte der merlinux GmbH ist **Prof. Dr. Fabian Schmieder**, c/o lexICT UG (haftungsbeschränkt), Ostfelstraße 49, 30559 Hannover. Du kannst ihn über [info@lexict.de](mailto:info@lexict.de) Stichwort: DeltaChat
@@ -55,23 +56,15 @@ Die Rechtsgrundlage für die Datenverarbeitung ist [Art.6 lit.f DSGVO](https://d
 
 Eine Übermittlung deiner persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken findet nicht statt. Wir geben deine persönlichen Daten nur an Dritte weiter, wenn:
 
-<ol class="p">
-<li>
-du deine nach [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) ausdrückliche Einwilligung dazu erteilt hast,
-</li>
-<li>
-die Weitergabe nach [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme besteht, dass du ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe deiner Daten hast,
-</li>
-<li>
-für den Fall, dass für die Weitergabe nach [Art.6 lit.c DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) eine gesetzliche Verpflichtung besteht, sowie
-</li>
-<li>
-dies gesetzlich zulässig und nach [Art.6 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) für die Abwicklung von Vertragsverhältnissen mit dir erforderlich ist,
-</li>
-<li>
-diese an einen in unserem Auftrag und auf unsere ausschließliche Weisung tätigen Dienstleister erfolgt, den wir sorgfältig ausgewählt haben [(Art.28(1) DSGVO)](https://dsgvo-gesetz.de/art-28-dsgvo/) und mit dem wir einen entsprechenden Vertrag über die Auftragsverarbeitung [(Art.28(3) DSGVO)](https://dsgvo-gesetz.de/art-28-dsgvo/) geschlossen haben, der unseren Auftragnehmer u.a. zur Umsetzung angemessener Sicherheitsmaßnahmen verpflichtet und uns umfassende Kontrollbefugnisse einräumt.
-</li>
-</ol>
+1. du deine nach [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) ausdrückliche Einwilligung dazu erteilt hast,
+
+2. die Weitergabe nach [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme besteht, dass du ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe deiner Daten hast,
+
+3. für den Fall, dass für die Weitergabe nach [Art.6 lit.c DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) eine gesetzliche Verpflichtung besteht, sowie
+
+4. dies gesetzlich zulässig und nach [Art.6 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) für die Abwicklung von Vertragsverhältnissen mit dir erforderlich ist,
+
+5. diese an einen in unserem Auftrag und auf unsere ausschließliche Weisung tätigen Dienstleister erfolgt, den wir sorgfältig ausgewählt haben [(Art.28(1) DSGVO)](https://dsgvo-gesetz.de/art-28-dsgvo/) und mit dem wir einen entsprechenden Vertrag über die Auftragsverarbeitung [(Art.28(3) DSGVO)](https://dsgvo-gesetz.de/art-28-dsgvo/) geschlossen haben, der unseren Auftragnehmer u.a. zur Umsetzung angemessener Sicherheitsmaßnahmen verpflichtet und uns umfassende Kontrollbefugnisse einräumt.
 
 ## Delta Chat Forum
 
@@ -232,29 +225,20 @@ Möchtest du von deinem Widerrufsrecht Gebrauch machen, genügt eine E-Mail an g
 
 Als Betroffene\*r einer Verarbeitung personenbezogener Daten hast du das Recht,
 
-<ol class="p">
-<li>
-gemäß [Art.15 DSGVO](https://dsgvo-gesetz.de/art-15-dsgvo/) Auskunft über deine von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere kannst du Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen deine Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft deiner Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;
-</li>
-<li>
-gemäß [Art.16 DSGVO](https://dsgvo-gesetz.de/art-16-dsgvo/) unverzüglich die Berichtigung unrichtiger oder Vervollständigung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen;
-</li>
-<li>
-gemäß [Art.17 DSGVO](https://dsgvo-gesetz.de/art-17-dsgvo/) die Löschung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;
-</li>
-<li>
-gemäß [Art.18 DSGVO](https://dsgvo-gesetz.de/art-18-dsgvo/) die Einschränkung der Verarbeitung deiner personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von dir bestritten wird, die Verarbeitung unrechtmäßig ist, du aber deren Löschung ablehnst und wir die Daten nicht mehr benötigen, du jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigst oder du gem. [Art.21 DSGVO](https://dsgvo-gesetz.de/art-21-dsgvo/) Widerspruch gegen die Verarbeitung eingelegt hast;
-</li>
-<li>
-gem. [Art.20 DSGVO](https://dsgvo-gesetz.de/art-20-dsgvo/) deine personenbezogenen Daten, die du uns bereitgestellt hast, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
-</li>
-<li>
-gem. [Art.7(3) DSGVO](https://dsgvo-gesetz.de/art-7-dsgvo/) deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
-</li>
-<li>
-gem. [Art.77 DSGVO](https://dsgvo-gesetz.de/art-77-dsgvo/) dich bei einer Aufsichtsbehörde zu beschweren. In der Regel kannst du dich hierfür an die Aufsichtsbehörde deines üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Geschäftssitzes wenden. Die für unseren Geschäftssitz zuständige Aufsichtsbehörde ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg in 70173 Stuttgart.
-</li>
-</ol>
+
+1. gemäß [Art.15 DSGVO](https://dsgvo-gesetz.de/art-15-dsgvo/) Auskunft über deine von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere kannst du Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen deine Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft deiner Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;
+
+2. gemäß [Art.16 DSGVO](https://dsgvo-gesetz.de/art-16-dsgvo/) unverzüglich die Berichtigung unrichtiger oder Vervollständigung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen;
+
+3. gemäß [Art.17 DSGVO](https://dsgvo-gesetz.de/art-17-dsgvo/) die Löschung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;
+
+4. gemäß [Art.18 DSGVO](https://dsgvo-gesetz.de/art-18-dsgvo/) die Einschränkung der Verarbeitung deiner personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von dir bestritten wird, die Verarbeitung unrechtmäßig ist, du aber deren Löschung ablehnst und wir die Daten nicht mehr benötigen, du jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigst oder du gem. [Art.21 DSGVO](https://dsgvo-gesetz.de/art-21-dsgvo/) Widerspruch gegen die Verarbeitung eingelegt hast;
+
+5. gemäß [Art.20 DSGVO](https://dsgvo-gesetz.de/art-20-dsgvo/) deine personenbezogenen Daten, die du uns bereitgestellt hast, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
+
+6. gemäß [Art.7(3) DSGVO](https://dsgvo-gesetz.de/art-7-dsgvo/) deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
+
+7. gemäß [Art.77 DSGVO](https://dsgvo-gesetz.de/art-77-dsgvo/) dich bei einer Aufsichtsbehörde zu beschweren. In der Regel kannst du dich hierfür an die Aufsichtsbehörde deines üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Geschäftssitzes wenden. Die für unseren Geschäftssitz zuständige Aufsichtsbehörde ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg in 70173 Stuttgart.
 
 Zur Geltendmachung deiner Betroffenenrechte oder deines Beschwerderechts genügt eine E-Mail an [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
