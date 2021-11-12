@@ -115,7 +115,7 @@ UBIDOCA, 15232
 FRANCE
 ```
 
-verantwortet wird. Die Datenschutzerklärung dazu findest du [hier](https://www.discourse.org/privacy).
+verantwortet wird. Die Datenschutzerklärung dazu findest du unter [https://www.discourse.org/privacy](https://www.discourse.org/privacy).
 
 ## 5. Mailingliste
 
@@ -123,7 +123,7 @@ Du kannst dich zusätzlich auf unsere Mailingliste setzen lassen, wenn du gerne 
 
 Wir nutzen für das Ausspielen der Mailingliste das Interface Postorius für die Versandsoftware GNU Mailman. Die Software wird auf unseren Servern betrieben.
 
-Die Datenschutzbestimmungen für GNU Mailman findest du [hier](https://list.org/privacy.html).
+Die Datenschutzbestimmungen für GNU Mailman findest du unter [https://list.org/privacy.html](https://list.org/privacy.html).
 
 ## 6. Auftritte in sozialen Netzwerken
 
@@ -155,9 +155,9 @@ Ireland
 
 fax +1 415 222 9958
 ```
-Den Datenschutzbeauftragten von Twitter kannst du [hier](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp) kontaktieren.
+Den Datenschutzbeauftragten von Twitter kannst du unter [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp) kontaktieren.
 
-Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von Twitter, wie unseres Twitter-Profils, sind in der Twitter-Datenschutzrichtlinie beschrieben, abrufbar [hier](https://twitter.com/de/privacy).
+Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von Twitter, wie unseres Twitter-Profils, sind in der Twitter-Datenschutzrichtlinie beschrieben, abrufbar unter [https://twitter.com/de/privacy](https://twitter.com/de/privacy).
 
 Wenn du uns über Twitter kontaktierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem. [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Das berechtigte Interesse besteht dabei in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von Twitter aufgrund deiner Einwilligung gegenüber Twitter gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
@@ -175,9 +175,9 @@ Dublin 4
 Irland
 ```
 
-Den Datenschutzbeauftragten von YouTube kannst du [hier](https://support.google.com/policies/contact/general\_privacy\_form) kontaktieren.
+Den Datenschutzbeauftragten von YouTube kannst du unter [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general\_privacy\_form) kontaktieren.
 
-Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von YouTube, wie unseres YouTube-Profils, sind in der YouTube-Datenschutzrichtlinie beschrieben, abrufbar [hier](https://policies.google.com/privacy).
+Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von YouTube, wie unseres YouTube-Profils, sind in der YouTube-Datenschutzrichtlinie beschrieben, abrufbar unter [https://policies.google.com/privacy](https://policies.google.com/privacy).
 
 Wenn du mit uns über YouTube interagierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse ist hier die Interaktion mit unseren Followern und anderen interessierten Social-Media Nutzenden auf unseren Social-Media Angeboten, der Erhöhung der Reichweite unserer Produkte (Werbung) sowie ggf. in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von YouTube aufgrund deiner Einwilligung gegenüber YouTube gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
@@ -187,7 +187,7 @@ Zudem unterhalten wir einen Mastodon-Account. Sofern wir über die Mittel und Zw
 
 In allen übrigen Fällen, in denen im Zusammenhang mit unserem Mastodon-Account Daten verarbeitet werden und für die Mastodon die Mittel und Zwecke bestimmt, erfolgt die Verarbeitung durch den Betreiber der Mastodon-Instanz als alleinige Verantwortliche. Diese wird in unserem Fall auf chaos.social betrieben.
 
-Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von chaos.social, sind in der Datenschutzerklärung beschrieben, abrufbar [hier](https://chaos.social/terms).
+Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von chaos.social, sind in der Datenschutzerklärung beschrieben, abrufbar unter [https://chaos.social/terms](https://chaos.social/terms).
 
 Wenn du mit uns über Mastodon interagierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem. [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse ist hier die Interaktion mit unseren Followern und anderen interessierten Social-Media Nutzern auf unseren Social-Media Angeboten, der Erhöhung der Reichweite unserer Produkte (Werbung) sowie ggf. in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von Mastodon aufgrund deiner Einwilligung gegenüber Mastodon gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
@@ -197,11 +197,11 @@ Du kannst auf unterschiedlichen Wegen Zahlungen an uns leisten.
 
 ### a) Liberapay
 
-Wir verwenden Dienste der Association Liberapay, Chez M. Coste, Le Bourg, St Jean Le Blanc 14770 Terres de Druance, Frankreich, verteten durch Charly Coste. Der Dienst ermöglicht Spendenzahlungen an uns. Dazu erhebt Liberapay Daten wie die E-Mail-Adresse, Namen und ggfs. Kontodaten zur Zahlungsabwicklung. Wir selbst haben keinen Zugriff auf diese Daten. Die Datenschutzerklärung von Liberapay, abgerufbar [hier](https://liberapay.com/about/privacy).
+Wir verwenden Dienste der Association Liberapay, Chez M. Coste, Le Bourg, St Jean Le Blanc 14770 Terres de Druance, Frankreich, verteten durch Charly Coste. Der Dienst ermöglicht Spendenzahlungen an uns. Dazu erhebt Liberapay Daten wie die E-Mail-Adresse, Namen und ggfs. Kontodaten zur Zahlungsabwicklung. Wir selbst haben keinen Zugriff auf diese Daten. Die Datenschutzerklärung von Liberapay, abgerufbar unter [https://liberapay.com/about/privacy](https://liberapay.com/about/privacy).
 
 ### b) Open Collective
 
-Wir verwenden darüber hinaus Dienste von Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA. Der Dienst ermöglicht Spendenzahlungen an uns. Dazu erhebt Open Collective Daten wie die E-Mail-Adresse, Namen und ggfs. Kontodaten zur Zahlungsabwicklung. Wir selbst haben keinen Zugriff auf diese Daten. Die Datenschutzerklärung von Open Collective, abrufbar [hier](https://opencollective.com/privacypolicy)
+Wir verwenden darüber hinaus Dienste von Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA. Der Dienst ermöglicht Spendenzahlungen an uns. Dazu erhebt Open Collective Daten wie die E-Mail-Adresse, Namen und ggfs. Kontodaten zur Zahlungsabwicklung. Wir selbst haben keinen Zugriff auf diese Daten. Die Datenschutzerklärung von Open Collective, abrufbar unter [https://opencollective.com/privacypolicy](https://opencollective.com/privacypolicy)
 
 ### c) Bitcoin Wallet
 
@@ -269,7 +269,7 @@ Wir bedienen uns im Übrigen geeigneter technischer und organisatorischer Sicher
 
 Diese Datenschutzerklärung hat den Stand November 2021. Durch die Weiterentwicklung unserer Website und Angebote oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben, kann es notwendig werden, diese Datenschutzerklärung zu ändern.
 
-Die jeweils aktuelle Datenschutzerklärung kann jederzeit [hier](https://support.delta.chat/privacy) von dir abgerufen und ausgedruckt werden.
+Die jeweils aktuelle Datenschutzerklärung kann jederzeit unter [https://support.delta.chat/privacy](https://support.delta.chat/privacy) von dir abgerufen und ausgedruckt werden.
 
 <style>
 ol.p {
