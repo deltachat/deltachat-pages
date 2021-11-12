@@ -57,23 +57,15 @@ The legal basis for the data processing is [Art.6 lit.f GDPR](https://gdpr-info.
 
 We do not transfer your personal data to third parties for purposes other than those listed below. We will only share your personal data with third parties if:
 
-<ol class="p">
-<li>
-you have given your explicit consent in accordance with [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/),
-</li>
-<li>
-the disclosure is necessary for the establishment, exercise or defense of legal claims pursuant to [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) and there is no reason to assume that you have an overriding interest worthy of protection in the non-disclosure of your data,
-</li>
-<li>
-in the event that a legal obligation exists for the disclosure pursuant to [Art.6 lit.c GDPR](https://gdpr-info.eu/art-6-gdpr/), as well as
-</li>
-<li>
-it is legally permitted and necessary according to [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) for the processing of contractual relationships with you
-</li>
-<li>
-it is carried out by a service provider acting on our behalf and on our exclusive instructions, whom we have carefully selected [(Art.28(1) GDPR)](https://gdpr-info.eu/art-28-gdpr/) and with whom we have concluded a corresponding data processing agreement [(Art.28(3) GDPR)](https://gdpr-info.eu/art-28-gdpr/), which obligates our contractor to implement, in particular, appropriate security measures and grants us comprehensive control powers.
-</li
-</ol>
+1. you have given your explicit consent in accordance with [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/),
+
+2. the disclosure is necessary for the establishment, exercise or defense of legal claims pursuant to [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) and there is no reason to assume that you have an overriding interest worthy of protection in the non-disclosure of your data,
+
+3. in the event that a legal obligation exists for the disclosure pursuant to [Art.6 lit.c GDPR](https://gdpr-info.eu/art-6-gdpr/), as well as
+
+4. it is legally permitted and necessary according to [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) for the processing of contractual relationships with you
+
+5. it is carried out by a service provider acting on our behalf and on our exclusive instructions, whom we have carefully selected [(Art.28(1) GDPR)](https://gdpr-info.eu/art-28-gdpr/) and with whom we have concluded a corresponding data processing agreement [(Art.28(3) GDPR)](https://gdpr-info.eu/art-28-gdpr/), which obligates our contractor to implement, in particular, appropriate security measures and grants us comprehensive control powers.
 
 ## Delta Chat forum
 
@@ -117,7 +109,7 @@ UBIDOCA, 15232
 FRANCE
 ```
 
-The privacy policy can be found [here](https://www.discourse.org/privacy).
+The privacy policy can be found under [https://www.discourse.org/privacy](https://www.discourse.org/privacy).
 
 ## 5. Mailing list
 
@@ -125,7 +117,7 @@ You can also subscribe to our mailing list if you would like to be informed abou
 
 We use the interface Postorius for the mailing software GNU Mailman to operate the mailing list. The software is run on our servers.
 
-The privacy policy for GNU Mailman can be found [here](https://list.org/privacy.html).
+The privacy policy for GNU Mailman can be found under [https://list.org/privacy.html](https://list.org/privacy.html).
 
 ## 6. Social media appearance
 
@@ -157,9 +149,9 @@ Ireland
 fax +1 415 222 9958
 
 
-You can contact Twitter's data protection officer [here](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp)
+You can contact Twitter's data protection officer under [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp)
 
-Information about the processing of personal data when using Twitter, such as our Twitter profile, is described in the Twitter Privacy Policy, available at [here](https://twitter.com/de/privacy).
+Information about the processing of personal data when using Twitter, such as our Twitter profile, is described in the Twitter Privacy Policy, available at [https://twitter.com/de/privacy](https://twitter.com/de/privacy).
 
 If you contact us via Twitter, the legal basis is a legitimate interest pursuant to [Art.6 lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is to respond to your request. Otherwise, the use of Twitter is based on your consent to Twitter pursuant to [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
@@ -177,9 +169,9 @@ Dublin 4
 Irland
 ```
 
-You can contact YouTube's data protection officer [here](https://support.google.com/policies/contact/general\_privacy\_form).
+You can contact YouTube's data protection officer under [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general\_privacy\_form).
 
-Information about the processing of personal data when using YouTube, such as our YouTube profile, is described in the YouTube Privacy Policy, available [here](https://policies.google.com/privacy).
+Information about the processing of personal data when using YouTube, such as our YouTube profile, is described in the YouTube Privacy Policy, available at [https://policies.google.com/privacy](https://policies.google.com/privacy).
 
 If you interact with us via YouTube, the legal basis is a legitimate interest pursuant to [Art.6 lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is the interaction with our followers and other interested social media users on our social media profiles, the increase of reach of our products (advertising) and to respond to your request. In addition, the use of YouTube is based on your consent to YouTube pursuant to [Art.6 lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
@@ -189,7 +181,7 @@ In addition, we maintain a Mastodon account. To the extent that we determine the
 
 In all other cases in which data is processed in connection with our Mastodon account and for which Mastodon determines the means and purposes, the processing is carried out by the operator of the Mastodon instance as the sole responsible party. In our case, this is operated on chaos.social.
 
-Information about the processing of personal data when using chaos.social, are described in the privacy policy, available [here](https://chaos.social/terms).
+Information about the processing of personal data when using chaos.social, are described in the privacy policy, available at [https://chaos.social/terms](https://chaos.social/terms).
 
 If you interact with us via Mastodon, the legal basis is a legitimate interest pursuant to [Art.6 lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is to interact with our followers and other interested social media users on our social media profiles, to increase the reach of our products (advertising) and to respond to your request. Otherwise, the use of Mastodon is based on your consent to Mastodon pursuant to [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
@@ -199,11 +191,11 @@ You can make payments (donations) to us in different ways.
 
 ### a) Liberapay
 
-We use services of Association Liberapay, Chez M. Coste, Le Bourg, St Jean Le Blanc 14770 Terres de Druance, France, represented by Charly Coste. The service allows donations to be made to us. For this purpose, Liberapay collects data such as e-mail address, name and, if applicable, account information for payment processing. We do not have access to this data ourselves. The privacy policy of Liberapay can be found [here](.https://liberapay.com/about/privacy)
+We use services of Association Liberapay, Chez M. Coste, Le Bourg, St Jean Le Blanc 14770 Terres de Druance, France, represented by Charly Coste. The service allows donations to be made to us. For this purpose, Liberapay collects data such as e-mail address, name and, if applicable, account information for payment processing. We do not have access to this data ourselves. The privacy policy of Liberapay can be found under [https://liberapay.com/about/privacy](https://liberapay.com/about/privacy)
 
 ### b) Open Collective
 
-We also use services from Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA. The service enables donations to be made to us. For this purpose, Open Collective collects data such as the e-mail address, name and, if applicable, account information for payment processing. We do not have access to this data ourselves. Open Collective's privacy policy can be found [here](https://opencollective.com/privacypolicy).
+We also use services from Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA. The service enables donations to be made to us. For this purpose, Open Collective collects data such as the e-mail address, name and, if applicable, account information for payment processing. We do not have access to this data ourselves. Open Collective's privacy policy can be found under [https://opencollective.com/privacypolicy](https://opencollective.com/privacypolicy).
 
 ### c) Bitcoin Wallet
 
@@ -234,29 +226,19 @@ If you wish to make use of your right of withdrawal, simply send an e-mail to [d
 
 As a data subject of a processing of personal data, you have the right to
 
-<ol class="p">
-<li>
-request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the purposes of processing, the categories of personal data, the categories of recipients to whom your data has been or will be disclosed, the envisaged period for which the data will be stored, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data, if it was not collected by us, as well as the existence of automated decision-making, including profiling and, if applicable, meaningful information about its details;
-</li>
-<li>
-demand the immediate rectification of inaccurate or incomplete personal data stored by us, in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/);
-</li>
-<li>
-request the erasure of your personal data stored by us in accordance with [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/), unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defense of legal claims;
-</li>
-<li>
-demand the restriction of the processing of your personal data in accordance with [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you oppose its erasure and we no longer need the data, but you need it for the establishment, exercise or defence of legal claims or you have objected to the processing in accordance with Art. 21 GDPR;
-</li>
-<li>
-receive the personal data that you have provided to us in a structured, commonly used and machine-readable format, or to request the transfer to another controller, in accordance with [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/);
-</li>
-<li>
-withdraw your consent at any time in accordance with [Art.7(3) GDPR](https://gdpr-info.eu/art-7-gdpr/). As a result, we may no longer continue the data processing that was based on this consent in the future, and
-</li>
-<li>
-complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/). You can therefore usually contact the supervisory authority of your usual place of residence or workplace or our registered office. The supervisory authority responsible for our place of business is The State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
-</li>
-</ol>
+1. request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the purposes of processing, the categories of personal data, the categories of recipients to whom your data has been or will be disclosed, the envisaged period for which the data will be stored, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data, if it was not collected by us, as well as the existence of automated decision-making, including profiling and, if applicable, meaningful information about its details;
+
+2. demand the immediate rectification of inaccurate or incomplete personal data stored by us, in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/);
+
+3. request the erasure of your personal data stored by us in accordance with [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/), unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defense of legal claims;
+
+4. demand the restriction of the processing of your personal data in accordance with [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you oppose its erasure and we no longer need the data, but you need it for the establishment, exercise or defence of legal claims or you have objected to the processing in accordance with Art. 21 GDPR;
+
+5. receive the personal data that you have provided to us in a structured, commonly used and machine-readable format, or to request the transfer to another controller, in accordance with [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/);
+
+6. withdraw your consent at any time in accordance with [Art.7(3) GDPR](https://gdpr-info.eu/art-7-gdpr/). As a result, we may no longer continue the data processing that was based on this consent in the future, and
+
+7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/). You can therefore usually contact the supervisory authority of your usual place of residence or workplace or our registered office. The supervisory authority responsible for our place of business is The State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
 
 To exercise your data protection rights or your right to lodge a complaint, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
@@ -270,7 +252,7 @@ We use appropriate technical and organizational security measures to protect you
 
 This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
 
-You can access and print out the current data protection declaration at any time [here](https://support.delta.chat/privacy).
+You can access and print out the current data protection declaration at any time under [https://support.delta.chat/privacy](https://support.delta.chat/privacy).
 
 <style>
 ol.p {
@@ -288,4 +270,6 @@ ol.p > li:before {
   left: -1.4em;
 }
 </style>
+
+
 
