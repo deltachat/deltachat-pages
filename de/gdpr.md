@@ -77,12 +77,14 @@ Die <b>Dokumentierung von Verarbeitungstätigkeiten</b> in Verbindung mit der De
 
 Verantwortliche für die Verarbeitung deiner personenbezogenen Daten ist die
 
+```
     merlinux GmbH
     Vertreten durch den Geschäftsführer Holger Krekel
     Reichsgrafen Str. 20
     79102 Freiburg
     Germany
-
+    
+```
 E-Mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
 
@@ -107,20 +109,20 @@ Push-Benachrichtigungen können in regelmäßigen Abständen an das Telefon des 
 
 Um Push-Benachrichtigungen nutzen zu können, wird nach dem Download und der Installation der App ein eindeutiger Bezeichner oder Token (Push Notification Token) erstellt. Dieser Token ermöglicht es, den Delta Chat Servern Benachrichtigungen an das Gerät der Nutzer\*innen zu senden. Der Token wird vom Anbieter generiert und bereitgestellt. Der Token wird dann auf unseren Systemen gespeichert und in regelmäßigen Abständen an das Endgerät geschickt, um die App zu veranlassen vom E-Mail-Anbieter neue Nachrichten abzurufen. Unsere Systeme haben keine Kenntnis davon, ob eine Nachricht ankommt oder wer eine Nachricht ggf. geschickt hat.
 
-- Push Notification Provider für iOS Systeme sind die Apple Services. Werden Push-Nachrichten aktiviert, wird zur Bereitstellung dieser Funktion der Apple Push Notification Service (iOS-Version) genutzt. Weitere Informationen findest du [hier](https://support.apple.com/de-de/guide/deployment-reference-ios/ior9d28751c0/web). Die Datenschutzerklärung findest du [hier](https://www.apple.com/legal/privacy/de-ww/).
+- Push Notification Provider für iOS Systeme sind die Apple Services. Werden Push-Nachrichten aktiviert, wird zur Bereitstellung dieser Funktion der Apple Push Notification Service (iOS-Version) genutzt. Weitere Informationen findest du unter [https://support.apple.com/de-de/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/de-de/guide/deployment-reference-ios/ior9d28751c0/web). Die Datenschutzerklärung findest du unter [https://www.apple.com/legal/privacy/de-ww/](https://www.apple.com/legal/privacy/de-ww/).
 
-- Push Notification Provider für Android Systeme ist Google Firebase. Der Anbieter ist Google Inc. und weitere Informationen findest du [hier](https://firebase.google.com/products/cloud-messaging/) und in der Datenschutzerklärung von Google [hier](http://www.google.de/intl/de/policies/privacy).
+- Push Notification Provider für Android Systeme ist Google Firebase. Der Anbieter ist Google Inc. und weitere Informationen findest du unter [https://firebase.google.com/products/cloud-messaging/](https://firebase.google.com/products/cloud-messaging/) und in der Datenschutzerklärung von Google unter [http://www.google.de/intl/de/policies/privacy](http://www.google.de/intl/de/policies/privacy).
 
 Die genannten Daten werden nur mit deiner Einwilligung verarbeitet, gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
 #### 2.3 Daten in der App
 
 Die Delta Chat App arbeitet datensparsam. Alle relevanten Daten sind ausschließlich auf den jeweiligen Endgeräten gespeichert: 
-
+```
     • Chatverläufe (Textnachrichten, Sprachnachrichten, Medien, …)
     • Kontakte
     • Einstellungen 
-
+```
 Delta Chat Server haben keinen Zugriff auf diese Daten, auch nicht in verschlüsselter Form, da die Datenverarbeitung nur auf den Endgeräten stattfindet.
 
 #### 2.4 Berechtigungen der App
@@ -196,32 +198,22 @@ Eine Übermittlung deiner persönlichen Daten an Dritte zu anderen als den im Fo
 
 Als Betroffene\*r einer Verarbeitung personenbezogener Daten hast du das Recht,
 
-<ol class="p">
-<li>
-gemäß [Art.15 DSGVO](https://dsgvo-gesetz.de/art-15-dsgvo/) Auskunft über deine von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere kannst du Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfänger\*innen, gegenüber denen deine Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft deiner Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;
-</li>
-<li>
-gemäß [Art.16 DSGVO](https://dsgvo-gesetz.de/art-16-dsgvo/) unverzüglich die Berichtigung unrichtiger oder Vervollständigung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen;
-</li>
-<li>
-gemäß [Art.17 DSGVO](https://dsgvo-gesetz.de/art-17-dsgvo/) die Löschung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;
-</li>
-<li>
-gemäß [Art.18 DSGVO](https://dsgvo-gesetz.de/art-18-dsgvo/) die Einschränkung der Verarbeitung deiner personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von dir bestritten wird, die Verarbeitung unrechtmäßig ist, du aber deren Löschung ablehnst und wir die Daten nicht mehr benötigen, du jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigst oder du gemäß [Art.21 DSGVO](https://dsgvo-gesetz.de/art-21-dsgvo/) Widerspruch gegen die Verarbeitung eingelegt hast;
-</li>
-<li>
-gemäß [Art.20 DSGVO](https://dsgvo-gesetz.de/art-20-dsgvo/) deine personenbezogenen Daten, die du uns bereitgestellt hast, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
-</li>
-<li>
-gemäß [Art.7(3) DSGVO](https://dsgvo-gesetz.de/art-7-dsgvo/) deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
-</li>
-<li>
-gemäß [Art.77 DSGVO](https://dsgvo-gesetz.de/art-77-dsgvo/) dich bei einer Aufsichtsbehörde zu beschweren. In der Regel kannst du dich hierfür an die Aufsichtsbehörde deines üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Geschäftssitzes wenden. Die für unseren Geschäftssitz zuständige Aufsichtsbehörde ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg in 70173 Stuttgart.
-</li>
-</ol> 
+1. gemäß [Art.15 DSGVO](https://dsgvo-gesetz.de/art-15-dsgvo/) Auskunft über deine von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere kannst du Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfänger\*innen, gegenüber denen deine Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft deiner Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;
+
+2. gemäß [Art.16 DSGVO](https://dsgvo-gesetz.de/art-16-dsgvo/) unverzüglich die Berichtigung unrichtiger oder Vervollständigung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen;
+
+3. gemäß [Art.17 DSGVO](https://dsgvo-gesetz.de/art-17-dsgvo/) die Löschung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;
+
+4. gemäß [Art.18 DSGVO](https://dsgvo-gesetz.de/art-18-dsgvo/) die Einschränkung der Verarbeitung deiner personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von dir bestritten wird, die Verarbeitung unrechtmäßig ist, du aber deren Löschung ablehnst und wir die Daten nicht mehr benötigen, du jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigst oder du gemäß [Art.21 DSGVO](https://dsgvo-gesetz.de/art-21-dsgvo/) Widerspruch gegen die Verarbeitung eingelegt hast;
+
+5. gemäß [Art.20 DSGVO](https://dsgvo-gesetz.de/art-20-dsgvo/) deine personenbezogenen Daten, die du uns bereitgestellt hast, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
+
+6. gemäß [Art.7(3) DSGVO](https://dsgvo-gesetz.de/art-7-dsgvo/) deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
+
+7. gemäß [Art.77 DSGVO](https://dsgvo-gesetz.de/art-77-dsgvo/) dich bei einer Aufsichtsbehörde zu beschweren. In der Regel kannst du dich hierfür an die Aufsichtsbehörde deines üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Geschäftssitzes wenden. Die für unseren Geschäftssitz zuständige Aufsichtsbehörde ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg in 70173 Stuttgart.
 
 # 5. Aktualität und Änderung dieser Datenschutzerklärung
 
 Diese Datenschutzerklärung hat den Stand November 2021. Durch die Weiterentwicklung unserer Website und Angebote oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben, kann es notwendig werden, diese Datenschutzerklärung zu ändern.
 
-Die jeweils aktuelle Datenschutzerklärung kann jederzeit in der App oder [hier](https://Delta.Chat/de/gdpr) von dir abgerufen und ausgedruckt werden.
+Die jeweils aktuelle Datenschutzerklärung kann jederzeit in der App oder unter [https://Delta.Chat/de/gdpr](https://Delta.Chat/de/gdpr) von dir abgerufen und ausgedruckt werden.
