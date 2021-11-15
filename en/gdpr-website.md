@@ -17,15 +17,14 @@ If you have any further questions about data protection, please contact us via e
 
 Responsible for the processing of your personal data is
 
-
+```
 merlinux GmbH  
 Represented by the managing director Holger Krekel  
 Reichsgrafen Str. 20  
 79102 Freiburg  
 Germany
-
+``
 mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
-
 
 Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at [info@lexict.de](mailto:info@lexict.de) Keyword: DeltaChat.
 
@@ -135,7 +134,7 @@ We maintain a Twitter account. To the extent that we determine the means and pur
 
 In all other cases in which data is processed in connection with our Twitter account and for which Twitter determines the means and purposes, the processing is carried out by Twitter as the sole controller:
 
-
+```
 Twitter International Company
 One Cumberland Place
 Fenian Street
@@ -143,7 +142,7 @@ Dublin 2
 D02 AX07
 Ireland
 fax +1 415 222 9958
-
+``
 
 You can contact Twitter's data protection officer under [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp)
 
@@ -223,17 +222,11 @@ If you wish to make use of your right of withdrawal, simply send an e-mail to [d
 As a data subject of a processing of personal data, you have the right to
 
 1. request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the purposes of processing, the categories of personal data, the categories of recipients to whom your data has been or will be disclosed, the envisaged period for which the data will be stored, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data, if it was not collected by us, as well as the existence of automated decision-making, including profiling and, if applicable, meaningful information about its details;
-
 2. demand the immediate rectification of inaccurate or incomplete personal data stored by us, in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/);
-
 3. request the erasure of your personal data stored by us in accordance with [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/), unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defense of legal claims;
-
 4. demand the restriction of the processing of your personal data in accordance with [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you oppose its erasure and we no longer need the data, but you need it for the establishment, exercise or defence of legal claims or you have objected to the processing in accordance with Art. 21 GDPR;
-
 5. receive the personal data that you have provided to us in a structured, commonly used and machine-readable format, or to request the transfer to another controller, in accordance with [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/);
-
 6. withdraw your consent at any time in accordance with [Art.7(3) GDPR](https://gdpr-info.eu/art-7-gdpr/). As a result, we may no longer continue the data processing that was based on this consent in the future, and
-
 7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/). You can therefore usually contact the supervisory authority of your usual place of residence or workplace or our registered office. The supervisory authority responsible for our place of business is The State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
 
 To exercise your data protection rights or your right to lodge a complaint, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
