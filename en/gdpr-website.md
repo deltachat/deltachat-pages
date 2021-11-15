@@ -18,10 +18,10 @@ If you have any further questions about data protection, please contact us via e
 Responsible for the processing of your personal data is
 
 
-merlinux GmbH
-Represented by the managing director Holger Krekel
-Reichsgrafen Str. 20
-79102 Freiburg
+merlinux GmbH  
+Represented by the managing director Holger Krekel  
+Reichsgrafen Str. 20  
+79102 Freiburg  
 Germany
 
 mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
