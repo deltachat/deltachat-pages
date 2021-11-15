@@ -55,7 +55,7 @@ Einfache Implementierung in Unternehmen: Delta Chat verarbeitet keine personenbe
 DSFA
             </td>
             <td>
-Es muss <b>keine Datenschutz-Folgenabschätzung</b> für Delta Chat <a href="https://dsgvo-gesetz.de/art-35-dsgvo/">Art.35 DSGVO</a> durchgeführt werden, da keine Daten über die Nutzung als E-Mail App hinaus verarbeitet werden. Das Risiko für Rechte und Freiheiten natürlicher Personen beschränkt sich auf die unternehmensinterne Datenverarbeitung der E-Mail-Kommunikation und die der E-Mail-Anbieter.
+Es muss <b>keine Datenschutz-Folgenabschätzung</b> für Delta Chat (<a href="https://dsgvo-gesetz.de/art-35-dsgvo/">Art.35 DSGVO</a>) durchgeführt werden, da keine Daten über die Nutzung als E-Mail App hinaus verarbeitet werden. Das Risiko für Rechte und Freiheiten natürlicher Personen beschränkt sich auf die unternehmensinterne Datenverarbeitung der E-Mail-Kommunikation und die der E-Mail-Anbieter.
             </td>
         </tr>
         <tr>
