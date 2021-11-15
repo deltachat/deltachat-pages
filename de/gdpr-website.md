@@ -50,21 +50,21 @@ Die genannten Daten werden durch uns zu folgenden Zwecken verarbeitet:
 - Überprüfung und Gewährleistung der Systemsicherheit und -stabilität sowie
 - zu weiteren administrativen Zwecken.
 
-Die Rechtsgrundlage für die Datenverarbeitung ist [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse folgt aus vorgenannten Zwecken der Datenerhebung. In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, Rückschlüsse auf deine Person zu ziehen.
+Die Rechtsgrundlage für die Datenverarbeitung ist [Art.6 (1) lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse folgt aus vorgenannten Zwecken der Datenerhebung. In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, Rückschlüsse auf deine Person zu ziehen.
 
 ## 3. Weitergabe von Daten
 
 Eine Übermittlung deiner persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken findet nicht statt. Wir geben deine persönlichen Daten nur an Dritte weiter, wenn:
 
-1. du deine nach [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) ausdrückliche Einwilligung dazu erteilt hast,
+1. du deine nach [Art.6 (1) lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) ausdrückliche Einwilligung dazu erteilt hast,
 
-2. die Weitergabe nach [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme besteht, dass du ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe deiner Daten hast,
+2. die Weitergabe nach [Art.6 (1) lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme besteht, dass du ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe deiner Daten hast,
 
-3. für den Fall, dass für die Weitergabe nach [Art.6 lit.c DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) eine gesetzliche Verpflichtung besteht, sowie
+3. für den Fall, dass für die Weitergabe nach [Art.6 (1) lit.c DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) eine gesetzliche Verpflichtung besteht, sowie
 
-4. dies gesetzlich zulässig und nach [Art.6 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) für die Abwicklung von Vertragsverhältnissen mit dir erforderlich ist,
+4. dies gesetzlich zulässig und nach [Art.6 (1) lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) für die Abwicklung von Vertragsverhältnissen mit dir erforderlich ist,
 
-5. diese an einen in unserem Auftrag und auf unsere ausschließliche Weisung tätigen Dienstleister erfolgt, den wir sorgfältig ausgewählt haben [(Art.28(1) DSGVO)](https://dsgvo-gesetz.de/art-28-dsgvo/) und mit dem wir einen entsprechenden Vertrag über die Auftragsverarbeitung [(Art.28(3) DSGVO)](https://dsgvo-gesetz.de/art-28-dsgvo/) geschlossen haben, der unseren Auftragnehmer u.a. zur Umsetzung angemessener Sicherheitsmaßnahmen verpflichtet und uns umfassende Kontrollbefugnisse einräumt.
+5. diese an einen in unserem Auftrag und auf unsere ausschließliche Weisung tätigen Dienstleister erfolgt, den wir sorgfältig ausgewählt haben [(Art.28 (1) DSGVO)](https://dsgvo-gesetz.de/art-28-dsgvo/) und mit dem wir einen entsprechenden Vertrag über die Auftragsverarbeitung [(Art.28 (3) DSGVO)](https://dsgvo-gesetz.de/art-28-dsgvo/) geschlossen haben, der unseren Auftragnehmer u.a. zur Umsetzung angemessener Sicherheitsmaßnahmen verpflichtet und uns umfassende Kontrollbefugnisse einräumt.
 
 ## Delta Chat Forum
 
@@ -72,7 +72,7 @@ Außerdem stellen wir zur Diskussion ein Forum für dich bereit. Hierfür benutz
 
 ### a) Registrierung
 
-Bei der Registrierung erheben wir deinen Benutzernamen, dein Passwort und deine E-Mail-Adresse. Bei der Registrierung im Forum wird von dir für Verarbeitungsvorgänge deiner Profildaten einen Nutzungsvertrags geschlossen. Dafür dient [Art.6 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) als Rechtsgrundlage. Die Registrierung und die damit verbundene Speicherung von Daten ist zur Nutzung des Forums notwendig. Ohne diese Daten können wir diese Dienstleistung nicht erbringen. Die dabei angegebenen Daten werden so lange bei uns gespeichert, bis du eine Anonymisierung bzw. Löschung deines Nutzerkontos verlangst.
+Bei der Registrierung erheben wir deinen Benutzernamen, dein Passwort und deine E-Mail-Adresse. Bei der Registrierung im Forum wird von dir für Verarbeitungsvorgänge deiner Profildaten einen Nutzungsvertrags geschlossen. Dafür dient [Art.6 (1) lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) als Rechtsgrundlage. Die Registrierung und die damit verbundene Speicherung von Daten ist zur Nutzung des Forums notwendig. Ohne diese Daten können wir diese Dienstleistung nicht erbringen. Die dabei angegebenen Daten werden so lange bei uns gespeichert, bis du eine Anonymisierung bzw. Löschung deines Nutzerkontos verlangst.
 
 ### b) Forenbeiträge
 
@@ -82,7 +82,7 @@ Beiträge, die im Kontext mit Informationen anderer Nutzenden stehen, können au
 
 Alle Beiträge, die du verfasst, die Zeit seit deiner Anmeldung, die erhaltenen Likes und Auszeichnung für besonders beliebte Beiträge werden erfasst. Zudem wird zur Abwehr von Bots und Spam die Lesezeit erfasst und andere Daten zum Missbrauch unseres Forums, u.a. Häufigkeit von Beiträgen in Relation zu einem unplausibel kurzen Zeitraum, unplausibel hohe Anzahl von Weblinks oder Nutzung von Wörtern auf einer Sperrliste etc.
 
-Dein Nutzerverhalten wird in Server-Logdateien aufgezeichnet, um technische Probleme und möglichen Missbrauch analysieren zu können. Rechtsgrundlage für diese Verarbeitung zur Wahrung unserer berechtigten Interessen ist [Art.6 lit.b und f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Die Aufzeichnungen werden nach 30 Tagen gelöscht. Zwecke sind der Betrieb des Forums (inkl. der technischen Bereitstellung), Verarbeitung zur Verbesserung des Forums, zur Moderation der Beiträge und zur Abwehr von Reklame-Bots und Spammer\*innen.
+Dein Nutzerverhalten wird in Server-Logdateien aufgezeichnet, um technische Probleme und möglichen Missbrauch analysieren zu können. Rechtsgrundlage für diese Verarbeitung zur Wahrung unserer berechtigten Interessen ist [Art.6 (1) lit.b und f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Die Aufzeichnungen werden nach 30 Tagen gelöscht. Zwecke sind der Betrieb des Forums (inkl. der technischen Bereitstellung), Verarbeitung zur Verbesserung des Forums, zur Moderation der Beiträge und zur Abwehr von Reklame-Bots und Spammer\*innen.
 
 ### c) Verarbeitung bei der Nutzung der Forums-Website
 
@@ -112,7 +112,7 @@ verantwortet wird. Die Datenschutzerklärung dazu findest du unter [https://www.
 
 ## 5. Mailingliste
 
-Du kannst dich zusätzlich auf unsere Mailingliste setzen lassen, wenn du gerne über Community-Diskussionen und Neuigkeiten in Form von Newslettern informiert werden willst. Sofern du dich mit deiner E-Mailadresse und optional deinem Namen auf die Mailingliste setzen lässt, erhältst du eine Bestätigungsmail, um deine Registrierung abzuschließen. Rechtsgrundlage für die Verarbeitung ist deine Einwilligung, [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Die Anmeldung ist freiwillig und du kannst deine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.
+Du kannst dich zusätzlich auf unsere Mailingliste setzen lassen, wenn du gerne über Community-Diskussionen und Neuigkeiten in Form von Newslettern informiert werden willst. Sofern du dich mit deiner E-Mailadresse und optional deinem Namen auf die Mailingliste setzen lässt, erhältst du eine Bestätigungsmail, um deine Registrierung abzuschließen. Rechtsgrundlage für die Verarbeitung ist deine Einwilligung, [Art.6 (1) lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Die Anmeldung ist freiwillig und du kannst deine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.
 
 Wir nutzen für das Ausspielen der Mailingliste das Interface Postorius für die Versandsoftware GNU Mailman. Die Software wird auf unseren Servern betrieben.
 
@@ -127,7 +127,7 @@ In der Regel können soziale Netzwerke dein Nutzerverhalten umfassend analysiere
 Die somit erfassten Informationen können durch die Betreibenden sozialer Netzwerke zur Bildung von Profilen verwendet werden. Dabei können unter anderem deine (mutmaßlichen) Interessen und Präferenzen erfasst werden, um personalisierte Werbung anzuzeigen.
 
 Uns ist es nicht möglich, all diese Datenverarbeitungsvorgänge innerhalb der sozialen Netzwerke nachzuvollziehen und wir haben auch keinen Zugriff auf diese Daten. Weitere Informationen kannst du den jeweiligen Datenschutzerklärungen der Netzwerke entnehmen.
-Wir verarbeiten deine Daten jedoch, wenn du z.B. über Kommentare, Likes, Nachrichten oder in sonstiger Weise mit uns Kontakt aufnimmst, etwa um dir zu antworten. Dabei verarbeiten wir deine Interaktionen mit unserem Social Media Profil sowie öffentlich einsehbare Profilinformationen (die Einstellungen dazu, welche personenbezogenen Daten von dir öffentlich einsehbar sind, kannst du in deinem jeweiligen Profil einstellen). Rechtsgrundlage dieser Verarbeitung ist [Art.6 lit.f und b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unsere Interessen liegt dabei in der Beantwortung deiner Anfragen und darin interessierte Personen über unser Angebot zu informieren.
+Wir verarbeiten deine Daten jedoch, wenn du z.B. über Kommentare, Likes, Nachrichten oder in sonstiger Weise mit uns Kontakt aufnimmst, etwa um dir zu antworten. Dabei verarbeiten wir deine Interaktionen mit unserem Social Media Profil sowie öffentlich einsehbare Profilinformationen (die Einstellungen dazu, welche personenbezogenen Daten von dir öffentlich einsehbar sind, kannst du in deinem jeweiligen Profil einstellen). Rechtsgrundlage dieser Verarbeitung ist [Art.6 (1) lit.f und b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unsere Interessen liegt dabei in der Beantwortung deiner Anfragen und darin interessierte Personen über unser Angebot zu informieren.
 Die Speicherdauer hängt insbesondere von der jeweiligen Plattform ab. Wir löschen personenbezogene Daten jedoch, sobald der Zweck der erforderlichen Verarbeitung entfällt und sofern keine gesetzlichen Pflichten zur längeren Aufbewahrung gegeben sind.
 
 Nachfolgend findest du Informationen zum Datenschutz auf den jeweiligen Portalen.
@@ -152,7 +152,7 @@ Den Datenschutzbeauftragten von Twitter kannst du unter [https://twitter.ethicsp
 
 Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von Twitter, wie unseres Twitter-Profils, sind in der Twitter-Datenschutzrichtlinie beschrieben, abrufbar unter [https://twitter.com/de/privacy](https://twitter.com/de/privacy).
 
-Wenn du uns über Twitter kontaktierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem. [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Das berechtigte Interesse besteht dabei in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von Twitter aufgrund deiner Einwilligung gegenüber Twitter gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
+Wenn du uns über Twitter kontaktierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem. [Art.6 (1) lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Das berechtigte Interesse besteht dabei in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von Twitter aufgrund deiner Einwilligung gegenüber Twitter gem. [Art.6 (1) lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
 ### b) YouTube
 
@@ -172,7 +172,7 @@ Den Datenschutzbeauftragten von YouTube kannst du unter [https://support.google.
 
 Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von YouTube, wie unseres YouTube-Profils, sind in der YouTube-Datenschutzrichtlinie beschrieben, abrufbar unter [https://policies.google.com/privacy](https://policies.google.com/privacy).
 
-Wenn du mit uns über YouTube interagierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse ist hier die Interaktion mit unseren Followern und anderen interessierten Social-Media Nutzenden auf unseren Social-Media Angeboten, der Erhöhung der Reichweite unserer Produkte (Werbung) sowie ggf. in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von YouTube aufgrund deiner Einwilligung gegenüber YouTube gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
+Wenn du mit uns über YouTube interagierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem [Art.6 (1) lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse ist hier die Interaktion mit unseren Followern und anderen interessierten Social-Media Nutzenden auf unseren Social-Media Angeboten, der Erhöhung der Reichweite unserer Produkte (Werbung) sowie ggf. in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von YouTube aufgrund deiner Einwilligung gegenüber YouTube gem. [Art.6 (1) lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
 ### c) Mastodon
 
@@ -182,7 +182,7 @@ In allen übrigen Fällen, in denen im Zusammenhang mit unserem Mastodon-Account
 
 Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von chaos.social, sind in der Datenschutzerklärung beschrieben, abrufbar unter [https://chaos.social/terms](https://chaos.social/terms).
 
-Wenn du mit uns über Mastodon interagierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem. [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse ist hier die Interaktion mit unseren Followern und anderen interessierten Social-Media Nutzern auf unseren Social-Media Angeboten, der Erhöhung der Reichweite unserer Produkte (Werbung) sowie ggf. in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von Mastodon aufgrund deiner Einwilligung gegenüber Mastodon gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
+Wenn du mit uns über Mastodon interagierst, ist die Rechtsgrundlage ein berechtigtes Interesse gem. [Art.6 (1) lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse ist hier die Interaktion mit unseren Followern und anderen interessierten Social-Media Nutzern auf unseren Social-Media Angeboten, der Erhöhung der Reichweite unserer Produkte (Werbung) sowie ggf. in der Beantwortung deines Anliegens. Im Übrigen erfolgt die Nutzung von Mastodon aufgrund deiner Einwilligung gegenüber Mastodon gem. [Art.6 (1) lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
 ## 7. Donations
 
@@ -207,17 +207,17 @@ Falls du die Zahlungsdienste Dritter (z.B. PayPal oder Sofortüberweisung) nutzt
 
 ### e) Datenverarbeitung und Rechtsgrundlage
 
-Wir selbst verarbeiten je nach Zahlungsdiensteanbieter und Überweisungsart, Namen, E-Mail-Adresse, Kontonummer, Kreditinstitut, Zeitpunkt und Höhe der Überweisung. Die Rechtsgrundlage hierfür findet sich in Art. 6 Abs. 1 S. 1 lit. c und f DSGVO. Unser berechtigtes Interesse ist insofern die Verwaltung unserer Spenden.
+Wir selbst verarbeiten je nach Zahlungsdiensteanbieter und Überweisungsart, Namen, E-Mail-Adresse, Kontonummer, Kreditinstitut, Zeitpunkt und Höhe der Überweisung. Die Rechtsgrundlage hierfür findet sich in [Art.6 (1) lit. c und f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/). Unser berechtigtes Interesse ist insofern die Verwaltung unserer Spenden.
 
 ## 8. Widerspruchsrecht
 
-Sofern deine personenbezogenen Daten auf Grundlage von berechtigten Interessen gem. [Art.6 lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) verarbeitet werden, hast du das Recht, gem. [Art.21 DSGVO](https://dsgvo-gesetz.de/art-21-dsgvo/) Widerspruch gegen die Verarbeitung deiner personenbezogenen Daten einzulegen, soweit dafür Gründe vorliegen, die sich aus deiner besonderen Situation ergeben oder sich der Widerspruch gegen Direktwerbung richtet. Im letzteren Fall hast du ein generelles Widerspruchsrecht, das ohne Angabe einer besonderen Situation von uns umgesetzt wird.
+Sofern deine personenbezogenen Daten auf Grundlage von berechtigten Interessen gem. [Art.6 (1) lit.f DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) verarbeitet werden, hast du das Recht, gem. [Art.21 DSGVO](https://dsgvo-gesetz.de/art-21-dsgvo/) Widerspruch gegen die Verarbeitung deiner personenbezogenen Daten einzulegen, soweit dafür Gründe vorliegen, die sich aus deiner besonderen Situation ergeben oder sich der Widerspruch gegen Direktwerbung richtet. Im letzteren Fall hast du ein generelles Widerspruchsrecht, das ohne Angabe einer besonderen Situation von uns umgesetzt wird.
 
 Möchtest du von deinem Widerspruchsrecht Gebrauch machen, genügt eine E-Mail an [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
 ## 9. Widerrufsrecht
 
-Sofern deine personenbezogenen Daten auf Grundlage deiner Einwilligung gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) verarbeitet werden (z.B. über die Mailingliste), kannst du jederzeit und ohne Nachteile deine Einwilligung widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen. Durch den Widerruf Ihrer Einwilligung wird die Rechtmäßigkeit, der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung allerdings nicht berührt.
+Sofern deine personenbezogenen Daten auf Grundlage deiner Einwilligung gem. [Art.6 (1) lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) verarbeitet werden (z.B. über die Mailingliste), kannst du jederzeit und ohne Nachteile deine Einwilligung widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen. Durch den Widerruf Ihrer Einwilligung wird die Rechtmäßigkeit, der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung allerdings nicht berührt.
 
 Möchtest du von deinem Widerrufsrecht Gebrauch machen, genügt eine E-Mail an genügt eine E-Mail an [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
@@ -236,7 +236,7 @@ Als Betroffene\*r einer Verarbeitung personenbezogener Daten hast du das Recht,
 
 5. gemäß [Art.20 DSGVO](https://dsgvo-gesetz.de/art-20-dsgvo/) deine personenbezogenen Daten, die du uns bereitgestellt hast, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
 
-6. gemäß [Art.7(3) DSGVO](https://dsgvo-gesetz.de/art-7-dsgvo/) deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
+6. gemäß [Art.7 (3) DSGVO](https://dsgvo-gesetz.de/art-7-dsgvo/) deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
 
 7. gemäß [Art.77 DSGVO](https://dsgvo-gesetz.de/art-77-dsgvo/) dich bei einer Aufsichtsbehörde zu beschweren. In der Regel kannst du dich hierfür an die Aufsichtsbehörde deines üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Geschäftssitzes wenden. Die für unseren Geschäftssitz zuständige Aufsichtsbehörde ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg in 70173 Stuttgart.
 
