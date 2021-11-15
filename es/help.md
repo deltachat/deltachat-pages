@@ -122,9 +122,9 @@ Esto es lo que hace Delta Chat con esos permisos:
 
 ### Creación de un grupo
 
-- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
-- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Selecciona **Nuevo chat** y luego **Nuevo grupo** del menu en el sector superior derecho o toca en el botón correspondiente en Android/iOS.
+- En la siguiente pantalla selecciona a los **miembros del grupo** y define un **nombre de grupo**. Tambien puedes seleccionar un **avatar de grupo**.
+- Tan pronto escribas el **primer mensaje** en el grupo, todos los miembros serán informados sobre el nuevo grupo y podrán responder en él (mientras no escribas un mensaje será invisible para los miembros).
 
 
 ### Agregar miembros a un grupo
