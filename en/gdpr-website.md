@@ -69,7 +69,7 @@ We also provide a forum for you to join discussions. For this purpose, we use th
 
 ### a) Registration
 
-In the registration process, we collect your username, password and e-mail address. When register at the platform, you will enter into a user agreement for the purpose of processing your profile data. [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) serves as the legal basis for this. The registration and the resulting storage of data is necessary for the use of the platform. We cannot provide this service without this data. The data provided will be stored by us until you request anonymization or deletion of your user account.
+In the registration process, we collect your username, password and e-mail address. When register at the platform, you will enter into a user agreement for the purpose of processing your profile data. [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) serves as the legal basis for this. The registration and the resulting storage of data is necessary for the use of the platform. We cannot provide this service without this data. The data provided will be stored by us until you request anonymization or deletion of your user account.
 
 ### b) Forum posts
 
