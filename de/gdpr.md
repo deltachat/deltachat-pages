@@ -63,9 +63,9 @@ Es muss <b>keine Datenschutz-Folgenabschätzung</b> für Delta Chat (<a href="ht
 Dokumentation
             </td>
             <td>
-Eine Aufnahme der durch Delta Chat implementierten Maßnahmen ins <b>Verzeichnis von Verarbeitungstätigkeiten</b> kann sich positiv auf eventuelle Beweisführungen, <a href="https://dsgvo-gesetz.de/art-30-dsgvo/">Art.30 DSGVO</a> sowie Zertifizierungsprozesse auswirken, <a href="https://dsgvo-gesetz.de/art-25-dsgvo/">Art.25 DSGVO</a> Art.25(4), <a href="https://dsgvo-gesetz.de/art-42-dsgvo/">Art.42 DSGVO</a>.
+Eine Aufnahme der durch Delta Chat implementierten Maßnahmen ins <b>Verzeichnis von Verarbeitungstätigkeiten</b> kann sich positiv auf eventuelle Beweisführungen, <a href="https://dsgvo-gesetz.de/art-30-dsgvo/">Art.30 DSGVO</a> sowie Zertifizierungsprozesse auswirken, <a href="https://dsgvo-gesetz.de/art-25-dsgvo/">Art.25 DSGVO</a> Art.25 (4), <a href="https://dsgvo-gesetz.de/art-42-dsgvo/">Art.42 DSGVO</a>.
 
-Die <b>Dokumentierung von Verarbeitungstätigkeiten</b> in Verbindung mit der Delta Chat E-Mail App entfällt und verlagert sich lediglich auf die Verzeichnung der Verarbeitungstätigkeiten deines E-Mail-Anbieters, <a href="https://dsgvo-gesetz.de/art-30-dsgvo/">Art.30(2) DSGVO</a>.
+Die <b>Dokumentierung von Verarbeitungstätigkeiten</b> in Verbindung mit der Delta Chat E-Mail App entfällt und verlagert sich lediglich auf die Verzeichnung der Verarbeitungstätigkeiten deines E-Mail-Anbieters, <a href="https://dsgvo-gesetz.de/art-30-dsgvo/">Art.30 (2) DSGVO</a>.
             </td>
         </tr>
     </tbody>
@@ -99,7 +99,7 @@ Die Kommunikation von Delta Chat funktioniert über deinen E-Mail-Account. Damit
 - E-Mail-Adresse
 - Dein Passwort
 
-Rechtsgrundlage der Verarbeitung ist [Art.6 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/), da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
+Rechtsgrundlage der Verarbeitung ist [Art.6 (1) lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/), da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
 
 #### 2.2 Heartbeat Push-Benachrichtigungen
 
@@ -111,7 +111,7 @@ Um Push-Benachrichtigungen nutzen zu können, wird nach dem Download und der Ins
 
 - Push Notification Provider für Android Systeme ist Google Firebase. Der Anbieter ist Google Inc. und weitere Informationen findest du unter [https://firebase.google.com/products/cloud-messaging/](https://firebase.google.com/products/cloud-messaging/) und in der Datenschutzerklärung von Google unter [http://www.google.de/intl/de/policies/privacy](http://www.google.de/intl/de/policies/privacy).
 
-Die genannten Daten werden nur mit deiner Einwilligung verarbeitet, gem. [Art.6 lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
+Die genannten Daten werden nur mit deiner Einwilligung verarbeitet, gem. [Art.6 (1) lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
 #### 2.3 Daten in der App
 
@@ -176,9 +176,9 @@ Speicher (optional)
     </tbody>
 </table>
 
-Die Verarbeitung und Verwendung der obigen Berechtigungen erfolgt zur Bereitstellung des Dienstes. Der Internetzugriff ist für die Nutzung erforderlich, daher ist die Rechtsgrundlage der Verarbeitung [Art.6 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/), da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
+Die Verarbeitung und Verwendung der obigen Berechtigungen erfolgt zur Bereitstellung des Dienstes. Der Internetzugriff ist für die Nutzung erforderlich, daher ist die Rechtsgrundlage der Verarbeitung [Art.6 (1) lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/), da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
 
-Die optionalen Berechtigungen finden nur aufgrund deiner Einwilligung gem. [Art.6 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) statt und kann auch auf einzelne Dienste reduziert werden, z.B. nur Internetnutzung um Nachrichten ohne Bilder oder Standortdaten zu versenden. Delta Chat erhält keinerlei Zugriff auf diese Daten.
+Die optionalen Berechtigungen finden nur aufgrund deiner Einwilligung gem. [Art.6 (1) lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/) statt und kann auch auf einzelne Dienste reduziert werden, z.B. nur Internetnutzung um Nachrichten ohne Bilder oder Standortdaten zu versenden. Delta Chat erhält keinerlei Zugriff auf diese Daten.
 
 ### 3. Plattformabhängige Verarbeitung
 
@@ -199,7 +199,7 @@ Als Betroffene\*r einer Verarbeitung personenbezogener Daten hast du das Recht,
 3. gemäß [Art.17 DSGVO](https://dsgvo-gesetz.de/art-17-dsgvo/) die Löschung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;
 4. gemäß [Art.18 DSGVO](https://dsgvo-gesetz.de/art-18-dsgvo/) die Einschränkung der Verarbeitung deiner personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von dir bestritten wird, die Verarbeitung unrechtmäßig ist, du aber deren Löschung ablehnst und wir die Daten nicht mehr benötigen, du jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigst oder du gemäß [Art.21 DSGVO](https://dsgvo-gesetz.de/art-21-dsgvo/) Widerspruch gegen die Verarbeitung eingelegt hast;
 5. gemäß [Art.20 DSGVO](https://dsgvo-gesetz.de/art-20-dsgvo/) deine personenbezogenen Daten, die du uns bereitgestellt hast, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
-6. gemäß [Art.7(3) DSGVO](https://dsgvo-gesetz.de/art-7-dsgvo/) deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
+6. gemäß [Art.7 (3) DSGVO](https://dsgvo-gesetz.de/art-7-dsgvo/) deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass wir die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen dürfen und
 7. gemäß [Art.77 DSGVO](https://dsgvo-gesetz.de/art-77-dsgvo/) dich bei einer Aufsichtsbehörde zu beschweren. In der Regel kannst du dich hierfür an die Aufsichtsbehörde deines üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Geschäftssitzes wenden. Die für unseren Geschäftssitz zuständige Aufsichtsbehörde ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg in 70173 Stuttgart.
 
 # 5. Aktualität und Änderung dieser Datenschutzerklärung
