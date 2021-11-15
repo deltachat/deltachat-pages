@@ -99,7 +99,7 @@ Die Kommunikation von Delta Chat funktioniert über deinen E-Mail-Account. Damit
 - E-Mail-Adresse
 - Dein Passwort
 
-Rechtsgrundlage der Verarbeitung ist [Art.6 Abs. 1 S. 1 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/), da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
+Rechtsgrundlage der Verarbeitung ist [Art.6 lit.b DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/), da du mit uns durch die Benutzung unserer Services einen Nutzungsvertrag hast.
 
 #### 2.2 Heartbeat Push-Benachrichtigungen
 
