@@ -118,10 +118,9 @@ Die genannten Daten werden nur mit deiner Einwilligung verarbeitet, gem. [Art.6 
 #### 2.3 Daten in der App
 
 Die Delta Chat App arbeitet datensparsam. Alle relevanten Daten sind ausschließlich auf den jeweiligen Endgeräten gespeichert: 
-```
-    • Chatverläufe (Textnachrichten, Sprachnachrichten, Medien, …)
-    • Kontakte
-    • Einstellungen 
+- Chatverläufe (Textnachrichten, Sprachnachrichten, Medien, …)
+- Kontakte
+- Einstellungen 
 ```
 Delta Chat Server haben keinen Zugriff auf diese Daten, auch nicht in verschlüsselter Form, da die Datenverarbeitung nur auf den Endgeräten stattfindet.
 
