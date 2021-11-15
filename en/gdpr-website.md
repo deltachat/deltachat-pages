@@ -56,10 +56,10 @@ The legal basis for the data processing is [Art.6 lit.f GDPR](https://gdpr-info.
 
 We do not transfer your personal data to third parties for purposes other than those listed below. We will only share your personal data with third parties if:
 
-1. you have given your explicit consent in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/),
-2. the disclosure is necessary for the establishment, exercise or defense of legal claims pursuant to [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) and there is no reason to assume that you have an overriding interest worthy of protection in the non-disclosure of your data,
-3. in the event that a legal obligation exists for the disclosure pursuant to [Art.6 (1) lit.c GDPR](https://gdpr-info.eu/art-6-gdpr/), as well as
-4. it is legally permitted and necessary according to [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) for the processing of contractual relationships with you
+1. you have given your explicit consent in accordance with [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/),
+2. the disclosure is necessary for the establishment, exercise or defense of legal claims pursuant to [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) and there is no reason to assume that you have an overriding interest worthy of protection in the non-disclosure of your data,
+3. in the event that a legal obligation exists for the disclosure pursuant to [Art.6 lit.c GDPR](https://gdpr-info.eu/art-6-gdpr/), as well as
+4. it is legally permitted and necessary according to [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) for the processing of contractual relationships with you
 5. it is carried out by a service provider acting on our behalf and on our exclusive instructions, whom we have carefully selected [(Art.28 (1) GDPR)](https://gdpr-info.eu/art-28-gdpr/) and with whom we have concluded a corresponding data processing agreement [(Art.28 (3) GDPR)](https://gdpr-info.eu/art-28-gdpr/), which obligates our contractor to implement, in particular, appropriate security measures and grants us comprehensive control powers.
 
 ## Delta Chat forum
@@ -68,7 +68,7 @@ We also provide a forum for you to join discussions. For this purpose, we use th
 
 ### a) Registration
 
-In the registration process, we collect your username, password and e-mail address. When register at the platform, you will enter into a user agreement for the purpose of processing your profile data. [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) serves as the legal basis for this. The registration and the resulting storage of data is necessary for the use of the platform. We cannot provide this service without this data. The data provided will be stored by us until you request anonymization or deletion of your user account.
+In the registration process, we collect your username, password and e-mail address. When register at the platform, you will enter into a user agreement for the purpose of processing your profile data. [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) serves as the legal basis for this. The registration and the resulting storage of data is necessary for the use of the platform. We cannot provide this service without this data. The data provided will be stored by us until you request anonymization or deletion of your user account.
 
 ### b) Forum posts
 
