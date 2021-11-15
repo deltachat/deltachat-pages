@@ -121,7 +121,6 @@ Die Delta Chat App arbeitet datensparsam. Alle relevanten Daten sind ausschließ
 - Chatverläufe (Textnachrichten, Sprachnachrichten, Medien, …)
 - Kontakte
 - Einstellungen 
-```
 Delta Chat Server haben keinen Zugriff auf diese Daten, auch nicht in verschlüsselter Form, da die Datenverarbeitung nur auf den Endgeräten stattfindet.
 
 #### 2.4 Berechtigungen der App
