@@ -65,9 +65,9 @@ The risk to the rights and freedoms of natural persons is limited to the interna
 Documentation
             </td>
             <td>
-Inclusion of the measures implemented by Delta Chat in the <b>record of processing activities</b> may have a positive impact on possible evidence, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30 GDPR</a> as well as certification processes, <a href="https://gdpr-info.eu/art-25-gdpr/">Art.25(4) GDPR</a>,<a href="https://gdpr-info.eu/art-42-gdpr/">Art.42 GDPR</a>.
+Inclusion of the measures implemented by Delta Chat in the <b>record of processing activities</b> may have a positive impact on possible evidence, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30 GDPR</a> as well as certification processes, <a href="https://gdpr-info.eu/art-25-gdpr/">Art.25 (4) GDPR</a>,<a href="https://gdpr-info.eu/art-42-gdpr/">Art.42 GDPR</a>.
 
-The <b>documentation of processing activities</b> related to Messenger communication is omitted and shifts only to the record of processing activities of your e-mail provider, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30(29 GDPR</a>.
+The <b>documentation of processing activities</b> related to Messenger communication is omitted and shifts only to the record of processing activities of your e-mail provider, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30(2) GDPR</a>.
             </td>
         </tr>
     </tbody>
@@ -100,7 +100,7 @@ Delta Chat communication works through your e-mail account. In order to establis
 - e-mail address
 - your password
 
-The legal basis for the processing is [Art.6 lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services. 
+The legal basis for the processing is [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services. 
 
 #### 2.2 Heartbeat push notification
 
@@ -112,7 +112,7 @@ In order to use push notifications, a unique identifier or token (Push Notificat
 
 - Push Notification Provider for Android systems is Google Firebase. The provider is Google Inc. and more information can be found under [https://firebase.google.com/products/cloud-messaging/](https://firebase.google.com/products/cloud-messaging/) and in Google's privacy policy under [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en). 
 
-The aforementioned data will only be processed with your consent, in accordance with [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
+The aforementioned data will only be processed with your consent, in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
 #### 2.3 Data in the app
 
@@ -180,9 +180,9 @@ Storage (optional)
     </tbody>
 </table>
 
-The processing and use of the above permissions are performed to provide the service. The internet access is necessary for the use, therefore the legal basis of the processing is [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services.
+The processing and use of the above permissions are performed to provide the service. The internet access is necessary for the use, therefore the legal basis of the processing is [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services.
 
-The optional permissions only take place based on your consent according to [Art.6 lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) and can also be reduced to individual services, e.g. only internet usage to send messages without pictures or location data. Delta Chat does not receive any access to this data.
+The optional permissions only take place based on your consent according to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) and can also be reduced to individual services, e.g. only internet usage to send messages without pictures or location data. Delta Chat does not receive any access to this data.
 
 ### 3. Platform dependent processing
 
@@ -203,7 +203,7 @@ As a data subject of a processing of personal data, you have the right to
 3. pursuant to [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/) of the GDPR, to request the erasure of your personal data stored by us, unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defence of legal claims;
 4. pursuant to [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), to request the restriction of the processing of your personal data, insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you object to its erasure and we no longer require the data, but you need it for the assertion, exercise or defence of legal claims or you have objected to the processing pursuant to [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
 5. pursuant to [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/), to receive your personal data that you have provided to us in a structured, common and machine-readable format or to request that it be transferred to another controller;
-6. in accordance with [Art.7(3) GDPR](https://gdpr-info.eu/art-7-gdpr/), to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
+6. in accordance with [Art.7 (3) GDPR](https://gdpr-info.eu/art-7-gdpr/), to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
 7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/) of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
 
 
