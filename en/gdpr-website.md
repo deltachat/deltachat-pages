@@ -23,7 +23,7 @@ Represented by the managing director Holger Krekel
 Reichsgrafen Str. 20  
 79102 Freiburg  
 Germany
-``
+```
 mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
 Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at [info@lexict.de](mailto:info@lexict.de) Keyword: DeltaChat.
@@ -142,7 +142,7 @@ Dublin 2
 D02 AX07
 Ireland
 fax +1 415 222 9958
-``
+```
 
 You can contact Twitter's data protection officer under [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp)
 
