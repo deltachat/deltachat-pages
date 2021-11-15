@@ -88,7 +88,7 @@ Verantwortliche für die Verarbeitung deiner personenbezogenen Daten ist die
 E-Mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
 
-Der Datenschutzbeauftragte der merlinux GmbH ist **Prof. Dr. Fabian Schmieder**, c/o lexICT UG (haftungsbeschränkt), Ostfelstraße 49, 30559 Hannover. Du kannst ihn über [info@lexict.de](mailto:info@lexict.de) Stichwort: DeltaChat
+Der Datenschutzbeauftragte der merlinux GmbH ist **Prof. Dr. Fabian Schmieder**, c/o lexICT UG (haftungsbeschränkt), Ostfelstraße 49, 30559 Hannover. Du kannst ihn über [info@lexict.de](mailto:info@lexict.de) mit Stichwort: DeltaChat kontaktieren.
 
 ### 2. Verarbeitung bei Nutzung des Delta Chat E-Mail Messengers
 
