@@ -217,4 +217,4 @@ As a data subject of a processing of personal data, you have the right to
 
 This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
 
-You can access and print out the current data protection declaration at any time at [https://delta.chat/de/gdpr](https://delta.chat/de/gdpr).
+You can access and print out the current data protection declaration at any time at [https://delta.chat/gdpr](https://delta.chat/gdpr).
