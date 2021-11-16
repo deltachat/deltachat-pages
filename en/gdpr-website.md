@@ -164,7 +164,7 @@ Dublin 4
 Irland
 ```
 
-You can contact YouTube's data protection officer under [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general\_privacy\_form).
+You can contact YouTube's data protection officer under [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general_privacy_form).
 
 Information about the processing of personal data when using YouTube, such as our YouTube profile, is described in the YouTube Privacy Policy, available at [https://policies.google.com/privacy](https://policies.google.com/privacy).
 
