@@ -168,7 +168,7 @@ Dublin 4
 Irland
 ```
 
-Den Datenschutzbeauftragten von YouTube kannst du unter [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general\_privacy\_form) kontaktieren.
+Den Datenschutzbeauftragten von YouTube kannst du unter [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general_privacy_form) kontaktieren.
 
 Informationen über die Verarbeitung personenbezogene Daten bei der Nutzung von YouTube, wie unseres YouTube-Profils, sind in der YouTube-Datenschutzrichtlinie beschrieben, abrufbar unter [https://policies.google.com/privacy](https://policies.google.com/privacy).
 
