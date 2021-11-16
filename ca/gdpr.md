@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy Delta Chat Apps
-lang: ca
+lang: en
 ---
 
 # Privacy Policy Delta Chat Apps
@@ -37,7 +37,7 @@ Delta Chat is an e-mail app that follows a strict privacy-by-design approach. Al
         <tr>
             <td>Legal basis</td>
             <td>
-There is no need to obtain consent for address book matching, Art. 7 GDPR, as no address book data is transferred. Therefore, <b>no additional legal basis</b> is required.
+There is no need to obtain consent for address book matching, <a href="https://gdpr-info.eu/art-7-gdpr/">Art.7 GDPR</a>, as no address book data is transferred. Therefore, <b>no additional legal basis</b> is required.
             </td>
         </tr>
         <tr>
@@ -55,7 +55,7 @@ Easy implementation in companies: Delta Chat does not process personal data on b
 DPIA
             </td>
             <td>
-No <b>data protection impact assessment</b> needs to be carried out for Delta Chat (Art. 35 GDPR), as no specific additional data is processed beyond the e-mail messenger process.
+No <b>data protection impact assessment</b> needs to be carried out for Delta Chat <a href="https://gdpr-info.eu/art-35-gdpr/">Art.35 GDPR</a>, as no specific additional data is processed beyond the e-mail messenger process.
 
 The risk to the rights and freedoms of natural persons is limited to the internal company data processing of the e-mail communication and that of the e-mail providers.
             </td>
@@ -65,9 +65,9 @@ The risk to the rights and freedoms of natural persons is limited to the interna
 Documentation
             </td>
             <td>
-Inclusion of the measures implemented by Delta Chat in the <b>record of processing activities</b> may have a positive impact on possible evidence, Art. 30 GDPR as well as certification processes, Art. 25 (4), 42 GDPR.
+Inclusion of the measures implemented by Delta Chat in the <b>record of processing activities</b> may have a positive impact on possible evidence, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30 GDPR</a> as well as certification processes, <a href="https://gdpr-info.eu/art-25-gdpr/">Art.25 (4) GDPR</a>,<a href="https://gdpr-info.eu/art-42-gdpr/">Art.42 GDPR</a>.
 
-The <b>documentation of processing activities</b> related to Messenger communication is omitted and shifts only to the record of processing activities of your e-mail provider, Art. 30 II GDPR.
+The <b>documentation of processing activities</b> related to Messenger communication is omitted and shifts only to the record of processing activities of your e-mail provider, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30(2) GDPR</a>.
             </td>
         </tr>
     </tbody>
@@ -78,16 +78,16 @@ The <b>documentation of processing activities</b> related to Messenger communica
 ### 1. Name and contact information of the data controller
 
 Responsible for the processing of your personal data is 
-
+```
     merlinux GmbH
     Represented by the managing director Holger Krekel
     Reichsgrafen Str. 20
     79102 Freiburg
     Germany
+```
+E-mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
-E-mail: delta-privacy@merlinux.eu
-
-Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at info@lexict.de Keyword: DeltaChat.
+Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at [info@lexict.de](mailto:info@lexict.de) Keyword: DeltaChat.
 
 ### 2. Processing when using the Delta chat e-mail messenger
 
@@ -98,10 +98,9 @@ All data is stored locally on your device or with your e-mail provider. Neither 
 Delta Chat communication works through your e-mail account. In order to establish the connection, the app needs the access data. These are only stored locally on your end device:
 
 - e-mail address
-- your passwordOur data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at info@lexict.de Keyword: DeltaChat.
+- your password
 
-
-The legal basis for the processing is Art. 6 (1) lit. b GDPR, as you have a usage contract with us by using our services. 
+The legal basis for the processing is [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services. 
 
 #### 2.2 Heartbeat push notification
 
@@ -109,20 +108,21 @@ Push notifications can be sent to the user's phone at regular intervals to enabl
 
 In order to use push notifications, a unique identifier or token (Push Notification Token) is created after the app is downloaded and installed. This token allows Delta Chat servers to send notifications to the user's device. The token is generated and provided by the provider. The token is then stored on our systems and sent to the device at regular intervals to cause the app to retrieve new messages from the e-mail provider. Our systems have no knowledge of whether a message arrives or who may have sent a message.
 
-- Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit https://support.apple.com/guide/deployment-reference-ios/allowing-devices-to-work-with-apns-ior9d28751c0/web. You can find the privacy policy under https://www.apple.com/legal/privacy/.  
+- Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). You can find the privacy policy under [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).  
 
-- Push Notification Provider for Android systems is Google Firebase. The provider is Google Inc. and more information can be found at https://firebase.google.com/products/cloud-messaging/ and in Google's privacy policy at https://policies.google.com/privacy?hl=en. 
+- Push Notification Provider for Android systems is Google Firebase. The provider is Google Inc. and more information can be found under [https://firebase.google.com/products/cloud-messaging/](https://firebase.google.com/products/cloud-messaging/) and in Google's privacy policy under [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en). 
 
-The aforementioned data will only be processed with your consent, in accordance with Art. 6 (1) lit. a GDPR.
+The aforementioned data will only be processed with your consent, in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
 #### 2.3 Data in the app
 
 The Delta Chat app works in a data-saving way. All relevant data is stored exclusively on the respective end devices:
 
+```
 - chat histories (text messages, voice messages, media, ...).
 - contacts
 - settings 
-
+```
 Delta Chat servers have no access to this data, not even in encrypted form, as data processing takes place only on the end devices.
 
 #### 2.4 App permissions
@@ -180,9 +180,9 @@ Storage (optional)
     </tbody>
 </table>
 
-The processing and use of the above permissions are performed to provide the service. The internet access is necessary for the use, therefore the legal basis of the processing is Art. 6 (1) lit. b GDPR, as you have a usage contract with us by using our services.
+The processing and use of the above permissions are performed to provide the service. The internet access is necessary for the use, therefore the legal basis of the processing is [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services.
 
-The optional permissions only take place based on your consent according to Art. 6 (1) lit. a GDPR and can also be reduced to individual services, e.g. only internet usage to send messages without pictures or location data. Delta Chat does not receive any access to this data.
+The optional permissions only take place based on your consent according to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) and can also be reduced to individual services, e.g. only internet usage to send messages without pictures or location data. Delta Chat does not receive any access to this data.
 
 ### 3. Platform dependent processing
 
@@ -198,32 +198,17 @@ Your personal data will not be transferred to third parties for purposes other t
 
 As a data subject of a processing of personal data, you have the right to 
 
-<ol class="p">
-<li>
-request information about your personal data processed by us in accordance with Art. 15 GDPR. In particular, you can request information about the processing purposes, the category of personal data, the categories of recipients to whom your data have been or will be disclosed, the planned storage period, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data if it has not been collected by us, as well as the existence of automated decision-making including profiling and, if applicable, meaningful information about its details;
-</li>
-<li>
-in accordance with Art. 16 of the GDPR, immediately request the correction of inaccurate or incomplete personal data stored by us;
-</li>
-<li>
-pursuant to Article 17 of the GDPR, to request the erasure of your personal data stored by us, unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defence of legal claims;
-</li>
-<li>
-pursuant to Art. 18 GDPR, to request the restriction of the processing of your personal data, insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you object to its erasure and we no longer require the data, but you need it for the assertion, exercise or defence of legal claims or you have objected to the processing pursuant to Art. 21 GDPR;
-</li>
-<li>
-pursuant to Art. 20 GDPR, to receive your personal data that you have provided to us in a structured, common and machine-readable format or to request that it be transferred to another controller;
-</li>
-<li>
-in accordance with Art. 7 (3) of the GDPR, to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
-</li>
-<li>
-complain to a supervisory authority in accordance with Article 77 of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
-</li>
-</ol>
+1. request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the processing purposes, the category of personal data, the categories of recipients to whom your data have been or will be disclosed, the planned storage period, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data if it has not been collected by us, as well as the existence of automated decision-making including profiling and, if applicable, meaningful information about its details;
+2. in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/) of the GDPR, immediately request the correction of inaccurate or incomplete personal data stored by us;
+3. pursuant to [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/) of the GDPR, to request the erasure of your personal data stored by us, unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defence of legal claims;
+4. pursuant to [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), to request the restriction of the processing of your personal data, insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you object to its erasure and we no longer require the data, but you need it for the assertion, exercise or defence of legal claims or you have objected to the processing pursuant to [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
+5. pursuant to [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/), to receive your personal data that you have provided to us in a structured, common and machine-readable format or to request that it be transferred to another controller;
+6. in accordance with [Art.7 (3) GDPR](https://gdpr-info.eu/art-7-gdpr/), to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
+7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/) of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
+
 
 # 5. Up-to-dateness and modification of this data protection declaration
 
-This data protection declaration is valid as of October 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
+This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
 
-You can access and print out the current data protection declaration at any time at https://delta.chat/de/gdpr.
+You can access and print out the current data protection declaration at any time at [https://delta.chat/gdpr](https://delta.chat/gdpr).
