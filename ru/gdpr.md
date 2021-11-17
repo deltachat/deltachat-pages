@@ -110,8 +110,6 @@ In order to use push notifications, a unique identifier or token (Push Notificat
 
 - Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). You can find the privacy policy under [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).  
 
-- Push Notification Provider for Android systems is Google Firebase. The provider is Google Inc. and more information can be found under [https://firebase.google.com/products/cloud-messaging/](https://firebase.google.com/products/cloud-messaging/) and in Google's privacy policy under [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en). 
-
 The aforementioned data will only be processed with your consent, in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
 #### 2.3 Data in the app
