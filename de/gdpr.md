@@ -109,8 +109,6 @@ Um Push-Benachrichtigungen nutzen zu können, wird nach dem Download und der Ins
 
 - Push Notification Provider für iOS Systeme sind die Apple Services. Werden Push-Nachrichten aktiviert, wird zur Bereitstellung dieser Funktion der Apple Push Notification Service (iOS-Version) genutzt. Weitere Informationen findest du unter [https://support.apple.com/de-de/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/de-de/guide/deployment-reference-ios/ior9d28751c0/web). Die Datenschutzerklärung findest du unter [https://www.apple.com/legal/privacy/de-ww/](https://www.apple.com/legal/privacy/de-ww/).
 
-- Push Notification Provider für Android Systeme ist Google Firebase. Der Anbieter ist Google Inc. und weitere Informationen findest du unter [https://firebase.google.com/products/cloud-messaging/](https://firebase.google.com/products/cloud-messaging/) und in der Datenschutzerklärung von Google unter [http://www.google.de/intl/de/policies/privacy](http://www.google.de/intl/de/policies/privacy).
-
 Die genannten Daten werden nur mit deiner Einwilligung verarbeitet, gem. [Art.6 (1) lit.a DSGVO](https://dsgvo-gesetz.de/art-6-dsgvo/).
 
 #### 2.3 Daten in der App
