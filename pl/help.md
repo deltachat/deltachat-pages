@@ -57,8 +57,7 @@ Inne wiadomości nie pojawiają się automatycznie i można je znaleźć w **Pro
 
 - Możesz dodać zdjęcie profilowe w swoich ustawieniach. Jeśli napiszesz do swoich kontaktów lub dodasz je za pomocą kodu QR, automatycznie zobaczą je jako Twoje zdjęcie profilowe.
 
-- Contacts who don't use Delta Chat do not see the profile picture
-  (however, of course, they can install Delta Chat :)
+- Kontakty, które nie korzystają z Delta Chat nie widzą zdjęcia profilowego (jednak oczywiście mogą zainstalować Delta Chat :)
 
 - Ze względów prywatności nikt nie widzi Twojego zdjęcia profilowego, dopóki nie napiszesz do niego wiadomości.
 
@@ -67,7 +66,7 @@ Inne wiadomości nie pojawiają się automatycznie i można je znaleźć w **Pro
 
 ### Czy Delta Chat obsługuje wiadomości e-mail w formacie HTML?
 
-- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
+- Tak. W razie potrzeby wiadomości przychodzące otrzymują przycisk „Pokaż całą wiadomość”. Wychodzące wiadomości e-mail zawsze zawierają zwykły tekst.
 
 
 ### Dlaczego muszę wpisać moje hasło e-mail do Delta Chat? Czy to jest bezpieczne?
@@ -147,15 +146,12 @@ Zobacz [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest
   nadal będziesz mógł pisać, ale nie będziesz już powiadamiany o żadnych nowych wiadomościach.
 
 
-### What do the ticks shown beside outgoing messages mean?
+### Co oznaczają znaczniki wyświetlane obok wiadomości wychodzących?
 
-- **One tick** means that the message was sent successfully to your provider.
-- **Two ticks** mean that at least one recipient's device
-  reported back to having received the message.
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+- **Jeden znacznik** oznacza, że wiadomość została pomyślnie wysłana do Twojego dostawcy.
+- **Dwa znaczniki** oznaczają, że co najmniej jedno urządzenie odbiorcy zgłosiło otrzymanie wiadomości.
+- Odbiorcy mogli wyłączyć potwierdzenia odczytu, więc nawet jeśli widzisz tylko jeden znacznik, wiadomość mogła zostać przeczytana.
+- Odwrotnie, dwa znaczniki nie oznaczają automatycznie, że człowiek przeczytał lub zrozumiał wiadomość ;)
 
 
 ## Szyfrowanie {#encryption}

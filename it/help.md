@@ -299,7 +299,7 @@ Per le chat opportunistiche la preoccupazione principale è come influisce su al
 potrebbero partecipare alle chat.
 
 - Molte altre intestazioni e-mail, in particolare l'intestazione "Oggetto", sono
-protette dalla crittografia end-to-end, vedi anche questo prossimo [IETF
+protette dalla crittografia end-to-end, vedi anche questo  [IETF
 RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
@@ -349,7 +349,7 @@ Se desideri utilizzare lo **stesso account** su dispositivi diversi, devi esport
 un backup dal vecchio dispositivo e importarlo nel nuovo dispositivo:
 
 - Sul vecchio dispositivo, vai su "Impostazioni" o "Impostazioni / Chat e media" e poi su "Backup". Inserisci il tuo
-PIN, sequenza o password di sblocco dello schermo. Quindi puoi fare clic su "Avvia"
+PIN, sequenza o password di sblocco dello schermo. Quindi puoi fare clic su "Avvia
 Backup". Questo salva il file di backup sul tuo dispositivo. Ora devi trasferirlo
 in qualche modo sull'altro dispositivo.
 - Sul nuovo dispositivo, nella schermata di accesso, invece di accedere al tuo account
