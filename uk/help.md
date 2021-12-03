@@ -55,8 +55,7 @@ Delta Chat автоматично показує:
 
 - Ви можете додати зображення профілю в ваших налаштуваннях. Якщо ви пишете комусь із ваших контактів чи додаєте їх через QR код, вони автоматично побачать ваше зображення профілю.
 
-- Contacts who don't use Delta Chat do not see the profile picture
-  (however, of course, they can install Delta Chat :)
+- Контакти, які не використовують Delta Chat, не бачать зображення профілю (однак, звичайно, вони можуть встановити Delta Chat :)
 
 - Із міркувань приватності, ніхто не бачить ваше зображення профілю доки ви їм не напишете.
 
@@ -65,7 +64,7 @@ Delta Chat автоматично показує:
 
 ### Чи підтримує Delta Chat HTML-листи?
 
-- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
+ - Так. Якщо потрібно, вхідні повідомлення отримують кнопку «Показати повне повідомлення». У вихідних електронних листах завжди використовується звичайний текст.
 
 
 ### Чому я маю вводити пароль до моєї електронної пошти у Delta Chat? Чи це безпечно?
@@ -138,15 +137,12 @@ Delta Chat автоматично показує:
 - Ви також можете "Заглушити" групу - це означає, що ви будете отримувати усі повідомлення та можете писати у групу, але ви більше не будете отримувати сповіщення про нові повідомлення.
 
 
-### What do the ticks shown beside outgoing messages mean?
+### Що означають галочки біля вихідних повідомлень?
 
-- **One tick** means that the message was sent successfully to your provider.
-- **Two ticks** mean that at least one recipient's device
-  reported back to having received the message.
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+- **Одна галочка** означає, що повідомлення було успішно надіслано вашому провайдеру.
+- **Дві галочки** означають, що принаймні один пристрій одержувача повідомив про отримання повідомлення.
+- Одержувачі могли вимкнути звіти про прочитання, тож навіть якщо ви бачите лише одну галочку, можливо, повідомлення прочитане.
+- Навпаки, дві галочки не означають автоматично, що людина прочитала або зрозуміла повідомлення ;)
 
 
 ## Шифрування {#encryption}
