@@ -21,13 +21,13 @@
 set -e
 
 sfiles=(blog contribute download help imprint index references user-voices verify-downloads)
-tlangs=(ca cs de es fr gl id it nl pl pt ru sq tr uk zh_CN)  # do not add `en` to this list
+tlangs=(ca cs de es fr gl id it nl pl pt ru sk sq tr uk zh_CN)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
 	#find ../_data/lang/ -type f -not -name 'en.*' -delete
 	rm -r translations || true
-	mkdir translations 
+	mkdir translations
 	tx pull -a --mode=sourceastranslation  # -a = fetch all translationss, -s = fetches source
 	for tlang in ${tlangs[@]}; do
 	  echo "Converting ${tlang} ..."
