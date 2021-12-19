@@ -1,0 +1,41 @@
+sk:
+  
+  meta:
+    description: Delta Chat – Instantný Messenger založený na e-mailoch
+    keywords: "delta chat, aplikácia na odosielanie správ, stiahnite si delta chat"
+    rss_news_title: Delta Chat Novinky
+
+  menu:
+    home: Domov
+    download: Stiahnuť
+    blog: Blog
+    contribute: Prisipieť
+    help: Často kladené otázky
+    forum: Fórum
+
+  subscribe_to_feed: Prihláste sa na odber nášho kanála
+
+  references: Referencie
+  imprint: Odtlačok
+  privacy: "Zásady ochrany osobných údajov "
+  language: Jazyk
+
+  download:
+    recommendation: Odporúčané pre vás
+    other: Iné platformy
+    source_code: "Zdrojový kód "
+    install_via_packagemanager: Nainštalujte pomocou Package Manager
+    outdated: zastarané
+    dl_flathub: Stiahnite si z Flathub
+    dl_microsoft: Stiahnite si z Microsoft Store
+    dl_mac_appstore: Stiahnite si na Apple Mac AppStore
+    dl_appstore: Stiahnite si na Apple App Store
+    beta_on: Beta na
+    dl_fdroid: Získajte to na F-Droid
+    gplay: Získajte ju v službe Google Play
+    dl_amazon:
+      small: Získajte ju z
+      title: Amazon Appstore
+    dl_apk_text:
+      before: Môžete si tiež stiahnuť ako
+      after: (experimental)

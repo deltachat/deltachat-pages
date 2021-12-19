@@ -8,7 +8,7 @@ lang: ru
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
 
 **Delta Chat как Telegram или Whatsapp, но без отслеживания и централизованного управления.**
-Delta Chat  не нужен номер вашего телефона. Ознакомьтесь с нашим [положение о конфиденциальности](gdpr).
+Delta Chat не нужен номер вашего телефона. Ознакомьтесь с нашим [положение о конфиденциальности](gdpr).
 
 **У Delta Chat нет собственных серверов**, вместо них используется самая большая и распределённая открытая система обмена сообщениями: существующая сеть серверов электронной почты.
 
@@ -30,7 +30,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
 
 Ознакомьтесь с нашими [страницей загрузок](https://get.delta.chat) и [последними сообщениями в блоге](blog)
-для получения информации о текущих выпусках и событиях.
+для получения информации о текущей версии и событиях.
 
 Delta Chat — это [открытое](https://ru.wikipedia.org/wiki/Open-source_software)
 и [свободное](https://ru.wikipedia.org/wiki/Free_software) приложение.

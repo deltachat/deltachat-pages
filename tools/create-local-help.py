@@ -85,6 +85,7 @@ def generate_help(srcdir, destdir, add_top_links=False):
     generate_lang(srcdir, destdir, "pl", add_top_links)
     generate_lang(srcdir, destdir, "nl", add_top_links)
     generate_lang(srcdir, destdir, "ru", add_top_links)
+    generate_lang(srcdir, destdir, "sk", add_top_links)
     generate_lang(srcdir, destdir, "sq", add_top_links)
     generate_lang(srcdir, destdir, "uk", add_top_links)
     generate_lang(srcdir, destdir, "zh_CN", add_top_links)

@@ -82,6 +82,7 @@ for more info see the comments in `./tools/t-dance.sh`.
 
 - add the language to `tlangs` in `tools/t-dance.sh`
   and run `./tools/t-dance.sh pull`.
+  copy files not handled by Transifex (./en/gdpr*) and adapt the header.
 
 - check the language selection in `/_includes/footer-languages.html`.
 
