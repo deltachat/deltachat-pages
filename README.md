@@ -69,10 +69,13 @@ see the scripts in the `tools` folder.
 
 - make sure `translate-toolkit` and `transifex-client` are installed
 
-- run following commands
+- run following commands (answer n to the question `Do you want to delete it and reinit the project? [Y/n]:`)
 ```
+cd ./tools
 tx init --user=api --pass=<your api token>
 tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
+# fix historical typo in word verifiy
+sed -i s#translations/delta-chat-pages.verifiy-downloadspo#translations/delta-chat-pages.verify-downloadspo# .tx/config
 ```
 for more info see the comments in `./tools/t-dance.sh`.
 
