@@ -6,12 +6,12 @@ downloads: true
 
 ## Список изменений
 
-* [ПК](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Ядро](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-Delta Chat для ПК не требует, чтобы он был установлен также и на телефон.
+Delta Chat для компьютера - не требует, чтобы он был установлен также и на телефон.
 
 Минимальные требования:
 Android 4.1 Jelly Bean
@@ -21,15 +21,15 @@ Android 4.1 Jelly Bean
 
 ## Ссылки
 
-* [База данных провайдеров](https://providers.delta.chat/): Работает ли мой провайдер с Delta Chat?
-* [FAQ мультиклиент](help#multiclient): Как синхронизировать ПК версию с другим приложением Delta Chat.
-* [Проверить загрузки](verify-downloads): Проверка целостности данных при загрузке
-* [Устранение неполадок при установке ПК версии](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Решение распространенных проблем с установкой ПК версии
+* [База данных провайдеров](https://providers.delta.chat/): совместим ли мой e-mail провайдер с Delta Chat?
+* [Часто задаваемые вопросы о том](help#multiclient): как синхронизировать настольную версию с другим приложением Delta Chat.
+* [Проверить загрузки](verify-downloads): проверка целостности данных при загрузке.
+* [Устранение неполадок при установке настольной версии](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): решение распространенных проблем с установкой.
 
 ## Предпросмотр сборок
 
-* [Desktop Previews]({% include desktop-previews-url %}): Ожидаемые изменения для настольного клиента
-* [Android Nightly](https://download.delta.chat/android/nightly/): Последняя ночная сборка с самым новым ядром
-* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Может содержать еще не выпущенные официально версии IOS
+* [Desktop]({% include desktop-previews-url %}): ожидаемые изменения для настольного клиента.
+* [Android Nightly](https://download.delta.chat/android/nightly/): последняя ночная сборка с новейшим ядром.
+* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): может содержать еще не выпущенные официально версии IOS.
 
-Предварительные сборки могут содержать новые ошибки и не должны использоваться эффективно.
+Предварительные сборки могут содержать новые, неизвестные ошибки и не должны использоваться на постоянной основе.
