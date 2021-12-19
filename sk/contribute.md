@@ -16,11 +16,11 @@ lang: sk
 
 # Preklady a hlásenia chýb 
 
-[Preklady na Transifex](https://www.transifex.com/delta-chat/public/)
-– [Problémy s Delta Chat na Androide](https://github.com/deltachat/deltachat-android/issues)
-– [Problémy s Delta Chat na počítači](https://github.com/deltachat/deltachat-desktop/issues)
-– [Problémy Delta Chat na systéme iOS](https://github.com/deltachat/deltachat-ios/issues)
-– [Problémy s knižnicou Rust Core + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Preklady na Transifex](https://www.transifex.com/delta-chat/public/)
+- [Problémy s Delta Chat na Androide](https://github.com/deltachat/deltachat-android/issues)
+- [Problémy s Delta Chat na počítači](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problémy Delta Chat na systéme iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Problémy s knižnicou Rust Core + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Vždy hľadáme vývojárov, ktorí nám chcú pomôcť a sú oboznámení s 
 C, Rust, Java, Swift, Javascript alebo Python v systémoch Android, iOS, Windows, Linux alebo Mac. 

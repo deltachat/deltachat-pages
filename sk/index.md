@@ -13,7 +13,7 @@ Delta Chat nepotrebuje vaše telefónne číslo. Pozrite si naše [vyhlásenie o
 **Delta Chat nemá svoje vlastné servery**, ale používa najrozsiahlejšie a najrozmanitejšie otvorené správy
 systém vôbec: existujúca sieť e-mailových serverov.
 
-** Chatujte s kýmkoľvek, ak poznáte ich e-mailovú adresu, nie je potrebné, aby si nainštalovali DeltaChat!**
+**Chatujte s kýmkoľvek, ak poznáte ich e-mailovú adresu, nie je potrebné, aby si nainštalovali DeltaChat!**
 Všetko, čo potrebujete, je štandardný e-mailový účet. 
 
 Pozrite si [príbehy a hlasy používateľov](user-voices) 📣

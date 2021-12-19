@@ -145,7 +145,7 @@ kryptografická konzistentnosť proti útokom aktívnej siete alebo útokom posk
 Pozrite si [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
 pre výskum a vývoj za touto funkciou.
 
-– Od decembra 2019 zostáva „overená skupina“ experimentálnou funkciou. 
+- Od decembra 2019 zostáva „overená skupina“ experimentálnou funkciou. 
    Neustále sa zlepšuje a odvtedy bolo opravených veľa chýb od
 pôvodného zavedenie v roku 2018. Zostávajú však prípady, najmä
    s veľkými skupinami, kde sa môžu vyskytnúť nezrovnalosti alebo sú správy
@@ -228,7 +228,6 @@ Ak sa nenachádzate v blízkosti partnera chatu, stav môžete skontrolovať man
 (používateľský profil v systéme Android/iOS alebo kliknite pravým tlačidlom myši na položku zoznamu chatov používateľa na Desktope):
 
 - Pre šifrovanie typu end-to-end zobrazuje Delta Chat dva odtlačky prstov.
-
 Ak sa rovnaké odtlačky prstov objavia na zariadení vášho partnera na rozhovor,
 spojenie je bezpečné.
 
@@ -239,7 +238,7 @@ spojenie je bezpečné.
 
 - Malý **zámok** zobrazený vedľa správy označuje, či je správa od daného odosielateľa end-to-end šifrovaná.
 
-Ak tam nie je **zámok**, správa sa zvyčajne prenáša nešifrovaná napr. pretože vy alebo odosielateľ ste vypli šifrovanie typu end-to-end alebo odosielateľ používa aplikáciu bez podpory šifrovania typu end-to-end. 
+- Ak tam **nie je zámok**, správa sa zvyčajne prenáša nešifrovaná napr. pretože vy alebo odosielateľ ste vypli šifrovanie typu end-to-end alebo odosielateľ používa aplikáciu bez podpory šifrovania typu end-to-end. 
 
 ### Ktoré štandardy sa používajú na šifrovanie typu end-to-end?
 
@@ -473,13 +472,11 @@ Vývoj Delta Chatu bol doteraz financovaný zo štyroch hlavných zdrojov:
 - [Otvorený technologický fond](https://opentechfund.org) udelil dva granty.
 Prvý grant 2018/2019 (~ 200 000 $) výrazne zlepšil aplikáciu pre Android
 a umožnili nám vydať beta verziu aplikácie pre Desktop
-
 a taktiež zakotvila náš vývoj funkcií vo výskume UX v kontexte ľudských práv,
-pozrite si našu záverečnú správu [Needfinding and UX report]
-(https://delta.chat/en/2019-07-19-uxreport).
-  Druhý grant 2019/2020 (~ 300 000 $) stále prebieha a pomáha nám
-  uvoľniť verzie Delta/iOS, aby sme previedli našu základnú knižnicu na Rust a
-  poskytovali nové funkcie pre všetky platformy. Pozrite si
+pozrite si našu záverečnú správu [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+Druhý grant 2019/2020 (~ 300 000 $) stále prebieha a pomáha nám
+uvoľniť verzie Delta/iOS, aby sme previedli našu základnú knižnicu na Rust a
+poskytovali nové funkcie pre všetky platformy. Pozrite si
 prebiehajúce [príspevky na blogu](https://delta.chat/en/blog), kde nájdete ďalšie informácie.
 
 - [nadácia NLnet](https://nlnet.nl/) poskytla 46 000 EUR na
