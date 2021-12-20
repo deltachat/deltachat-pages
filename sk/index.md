@@ -10,8 +10,8 @@ lang: sk
 **Delta Chat je ako Telegram alebo Whatsapp, ale bez sledovania alebo centrálneho ovládania.**
 Delta Chat nepotrebuje vaše telefónne číslo. Pozrite si naše [vyhlásenie o ochrane osobných údajov](gdpr).
 
-**Delta Chat nemá svoje vlastné servery**, ale používa najrozsiahlejšie a najrozmanitejšie otvorené správy
-systém vôbec: existujúca sieť e-mailových serverov.
+**Delta Chat nemá svoje vlastné servery**, ale používa najrozsiahlejší a najrozmanitejší otvorený systém
+správ vôbec: existujúca sieť e-mailových serverov.
 
 **Chatujte s kýmkoľvek, ak poznáte ich e-mailovú adresu, nie je potrebné, aby si nainštalovali DeltaChat!**
 Všetko, čo potrebujete, je štandardný e-mailový účet. 
@@ -34,5 +34,5 @@ Skontrolujte [get.delta.chat](https://get.delta.chat) a [najnovšie blogové pr�
 pre informácie o aktuálnych vydaniach a udalostiach.
 
 Delta Chat je [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-a [Softvér zdarma](https://en.wikipedia.org/wiki/Free_software). Môžeš použiť,
+a [Slobodný softvér](https://en.wikipedia.org/wiki/Free_software). Môžeš použiť,
 vidieť, meniť a zdieľať to podľa vôle s každým.

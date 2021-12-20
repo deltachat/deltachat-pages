@@ -24,11 +24,11 @@ pre príjemcu, aby si nainštaloval rovnakú aplikáciu, ako je tá vaša, ako p
 ### Aké sú výhody Delta Chatu v porovnaní s inými messengermi?
 
 _Nezávislý_ od akejkoľvek spoločnosti alebo služieb. _Vy_ vlastníte svoje údaje.
-- Vaše údaje nie sú uložené na centrálnom serveri, pokiaľ ich nepoužívajú všetci používatelia
+- Vaše údaje nie sú uložené na centrálnom serveri, okrem prípadov keď všetci používatelia používajú rovnaký mailový server
  rovnaké e-mailové servery
 - Svoj adresár nikomu nedistribuujete.
 - _Rýchlo_ pomocou Push-IMAP.
-- _Väčšina príjemcov_ - ktorý nemajú Delta Chat môžu byť taktiež kontaktovaný.
+- _Najväčšia užívateľská základňa_ - používatelia ktorý nemajú Delta Chat môžu byť taktiež kontaktovaný.
 - _Kompatibilné_ - nielen so sebou.
 - _Elegantné_ a _jednoduché_ používateľské rozhranie.
 - _Distribuovaný_ systém.
@@ -98,26 +98,26 @@ môžete byť požiadaní o udelenie povolení aplikácii.
 Delta Chat robí toto s týmito povoleniami:
 
 - Fotoaparát *(možno zakázať)*
-- fotografujte a natáčajte videá: na odosielanie fotografií
+   - fotografujte a natáčajte videá: na odosielanie fotografií
 - Kontakty *(možno zakázať)*
-- prehliadnite si svoje kontakty: objavte kontakty, s ktorými môžete chatovať
+   - prehliadnite si svoje kontakty: objavte kontakty, s ktorými môžete chatovať
 - Poloha *(možno zakázať)*
-- prístup k približnej polohe (zdrojom polohy v sieti): pre funkciu streamovania polohy
-- prístup k presnej polohe (GPS a sieťové zdroje polohy): pre funkciu streamovania polohy
+  - prístup k približnej polohe (zdrojom polohy v sieti): pre funkciu streamovania polohy
+  - prístup k presnej polohe (GPS a sieťové zdroje polohy): pre funkciu streamovania polohy
 - Mikrofón *(možno zakázať)*
-- nahrávať zvuk: pre zvukové správy
+  - nahrávať zvuk: pre zvukové správy
 - Úložisko *(možno zakázať)*
-- upraviť alebo odstrániť obsah vašej SD karty: na stiahnutie príloh správ
-- čítať obsah SD karty: zdieľať súbory so svojimi kontaktmi
+  - upraviť alebo odstrániť obsah vašej SD karty: na stiahnutie príloh správ
+  - čítať obsah SD karty: zdieľať súbory so svojimi kontaktmi
 - Ďalšie možnosti aplikácie
-- zmeniť nastavenia zvuku: aby ste si mohli si vybrať vyzváňacie tóny a hlasitosť pre upozornenia a zvukové správy
-- spustiť pri štarte: takže nemusíte spúšťať Delta Chat manuálne
-- ovládanie vibrácií: pre upozornenia
-- zobraziť sieťové pripojenia: na pripojenie k vášmu poskytovateľovi e-mailu
-- zabrániť spánku telefónu: takže môžete jednoduchšie skopírovať bezpečnostný kód počas správy nastavenia automatického šifrovania
-- mať úplný prístup k sieti: na pripojenie k vášmu poskytovateľovi e-mailu
-- zobraziť pripojenia Wi-Fi: na pripojenie k poskytovateľovi e-mailu
-- požiadať o ignorovanie optimalizácie batérie: pre používateľov, ktorí chcú neustále dostávať správy
+  - zmeniť nastavenia zvuku: aby ste si mohli si vybrať vyzváňacie tóny a hlasitosť pre upozornenia a zvukové správy
+  - spustiť pri štarte: takže nemusíte spúšťať Delta Chat manuálne
+  - ovládanie vibrácií: pre upozornenia
+  - zobraziť sieťové pripojenia: na pripojenie k vášmu poskytovateľovi e-mailu
+  - zabrániť spánku telefónu: takže môžete jednoduchšie skopírovať bezpečnostný kód počas správy nastavenia automatického šifrovania
+  - mať úplný prístup k sieti: na pripojenie k vášmu poskytovateľovi e-mailu
+  - zobraziť pripojenia Wi-Fi: na pripojenie k poskytovateľovi e-mailu
+  - požiadať o ignorovanie optimalizácie batérie: pre používateľov, ktorí chcú neustále dostávať správy
 
 
 ## Skupiny
@@ -142,8 +142,7 @@ Delta Chat robí toto s týmito povoleniami:
 členovia sa môžu pripojiť naskenovaním „QR pozývacieho kódu“. Všetci členovia sú tak
 navzájom prepojený reťazou pozvaní, ktoré zaručujú
 kryptografická konzistentnosť proti útokom aktívnej siete alebo útokom poskytovateľa.
-Pozrite si [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-pre výskum a vývoj za touto funkciou.
+Viac o R&D tejto funkcie je na: [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
 
 - Od decembra 2019 zostáva „overená skupina“ experimentálnou funkciou. 
    Neustále sa zlepšuje a odvtedy bolo opravených veľa chýb od
@@ -173,7 +172,7 @@ môžete stále písať, ale už nebudete upozorňovaní na žiadne nové správ
 
 - **Jedno zaškrtnutie** znamená, že správa bola úspešne odoslaná vášmu poskytovateľovi.
 - **Dve začiarknutia** znamenajú, že aspoň jedno zariadenie príjemcov
-hlásili, že dostali správu.
+nahlásilo, že dostali správu.
 - Príjemcovia môžu mať zakázané potvrdenia o prečítaní,
 takže aj keď vidíte len jedno zaškrtnutie, správa môže byť prečítaná.
 - Naopak, dve zaškrtnutia automaticky neznamenajú
@@ -246,23 +245,22 @@ spojenie je bezpečné.
 s inými aplikáciami ako Delta Chat a inými mailovými aplikáciami s podporou Autocrypt.
 Autocrypt využíva obmedzenú podmnožinu funkcií OpenPGP.
 
-- Delta Chat implementuje [countermitm nastavovacie-kontaktné a overené skupinové protokoly](https://countermitm.readthedocs.io/en/latest/new.html) na dosiahnutie ochrany pred aktívnymi sieťovými útokmi. Toto presahuje rámec oportunistickej 
+- Delta Chat implementuje [countermitm nastavovacie-kontaktné a overené skupinové protokoly](https://countermitm.readthedocs.io/en/latest/new.html) na dosiahnutie ochrany pred aktívnymi sieťovými útokmi. Toto presahuje rámec príležitostnej 
   základnej ochrane Autocrypt Level 1 pri zachovaní jednoduchosti používania.
 
 ### Aký je rozdiel medzi overenými skupinami a rozhovormi 1:1 s overenými kontaktmi?
 
 - 1:1 rozhovory s overeným kontaktom a overenými skupinami nie sú rovnaké, dokonca
   ak sú v overenej skupine iba 2 osoby. Jeden rozdiel je v tom, že ty
-  môžeš ľahko pridať viac ľudí do skupiny, ale existujú aj tiež iné dôsledky.
+  môžeš ľahko pridať viac ľudí do skupiny, ale existujú aj iné rozdiely.
 
 - Overené skupiny sú vždy zabezpečené. Akékoľvek vniknutie (čirý text alebo nesprávne
   podpísané správy atď.) bude označené a takéto správy sa nezobrazia
 v tomto chat. Môžete dôverovať všetkým správam v tomto overenom čete so začiarknutím
   neboli prečítané/zmenené strednými stranami.
 
-- 1:1 chaty sú oportunistické, majú ľuďom umožniť komunikovať 
-nezáleží
-  na tom, či zmenia e-mailových klientov, zariadenia, nastavenia atď. Preto
+- 1:1 chaty sú šifrované príležitostne, majú ľuďom umožniť komunikovať 
+  nezáleží na tom, či zmenia e-mailových klientov, zariadenia, nastavenia atď. Preto
  nie je 
 žiadna overovacia značka, aj keď ste kontakt overili.
 
@@ -277,11 +275,11 @@ nezáleží
 
 - Zapamätajete si, že ak sa niekto zmocnil alebo hackol váš bežiaci telefón,
 oni
-zvyčajne dokážu prečítať všetky správy, bez ohľadu na to, či ide o Perfect Forward Secrecy
-je na použitý alebo nie. Mať prístup k jednému zariadeniu od člena skupiny,
+zvyčajne dokážu prečítať všetky správy, bez ohľadu na to, či je Perfect Forward Secrecy
+  použitý alebo nie. Mať prístup k jednému zariadeniu od člena skupiny,
   zvyčajne odhalí veľkú časť sociálneho grafu. Pomocou e-mailových adries, ktoré
   nie sú ľahko vystopovateľné späť k osobám, pomáha členom skupiny zostať v bezpečí pred
-následkami zabavenia zariadenia.
+  následkami zabavenia zariadenia.
 
 - Načrtávame spôsoby, ako lepšie chrániť komunikáciu pred udalosťou
   odcudzenia zariadenia.
@@ -407,7 +405,7 @@ poštový program (napríklad Thunderbird) vedľa vašej aplikácie Delta Chat a
 Odporúčame však použiť Delta Chat Desktop Client; môžete si ho stiahnuť
 na [get.delta.chat](https://get.delta.chat). Možnosť sledovať „Odoslané“
 priečinok môže v budúcnosti zmiznúť. Bolo to zavedené v čase, kedy nebol
-žiadny klient Delta Chat Desktop dostupný na všetkých platformách.
+Delta Chat Desktop dostupný na všetkých platformách.
 
 ### Prečo sa môžem rozhodnúť nesledovať priečinok DeltaChat?
 
@@ -434,8 +432,8 @@ V opačnom prípade nemusí odstraňovanie správ alebo nastavenia viacerých za
 niekedy pomalšie, ak aplikácia beží na pozadí.
 - Prijímanie správ potom môže trvať niekoľko minút, pretože Android aj iOS často
 zastavia spustenie Delta Chatu na pozadí a iba príležitostne ho prebudia. Toto umelé oneskorenie je zvyčajne horšie na iOS ako na Androide.
-- Avšak, Android a iOS kill aplikácie bežiace na pozadí
-je
+- Avšak, Android a iOS killne aplikácie bežiace na pozadí
+je to
   problém mnohých legitímnych aplikácií. Ďalšie informácie nájdete v časti
 [dontkillmyapp.com](https://dontkillmyapp.com/).
 
@@ -483,7 +481,7 @@ prebiehajúce [príspevky na blogu](https://delta.chat/en/blog), kde nájdete ď
   dokončenie väzieb Rust/Python a podnietenie ekosystému Chat-botov.
 
 - V neposlednom rade k vývoju Delta Chat prispelo a prispieva viacero pro-bono odborníkov a nadšencov
-   bez toho, aby dostávali peniaze alebo iba
+   bez toho, aby dostávali peniaze alebo dostávali iba
    malé množstvá. Bez nich by Delta Chat nebol tam, kde je dnes
    ani zďaleka.
 
@@ -494,5 +492,5 @@ Financovanie na roky 2020/2021 ešte nie je určené. Sledujeme niekoľko
 šancí s rôznymi organizáciami a partnermi. My tiež
 zvažujeme požiadať o dary. V skutočnosti sme už trochu experimentálne
 začali [Delta Chat / Darcovský účet Liberapay](https://liberapay.com/delta.chat/)
-ale toto sme ešte nezverejnili. Doposiaľ bolo tiež okolo 3-4K
+ale toto sme ešte nezverejnili. Doposiaľ bolo tiež okolo 3-4K EUR
 darované Bjoernovi (pôvodnému autorovi Delta Chatu) na paypalové a bitcoinové účty.
