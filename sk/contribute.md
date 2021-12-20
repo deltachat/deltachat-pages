@@ -10,25 +10,25 @@ lang: sk
 - [#deltachat na Libera.Chat]({% include webirc-url %}) pre každodennú komunikáciu.
 
 - [Delta Chat mailing
- zoznam](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pre komunitné diskusie a správy. 
+ zoznam](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pre komunitné diskusie a novinky. 
 
 - [Repozitáre Delta Chat](https://github.com/deltachat/), kde môžete nájsť kód pre aplikácie DeltaChat a túto webovú stránku.
 
 # Preklady a hlásenia chýb 
 
 - [Preklady na Transifex](https://www.transifex.com/delta-chat/public/)
-- [Problémy s Delta Chat na Androide](https://github.com/deltachat/deltachat-android/issues)
-- [Problémy s Delta Chat na počítači](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problémy Delta Chat na systéme iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Problémy Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Problémy Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problémy Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problémy s knižnicou Rust Core + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Vždy hľadáme vývojárov, ktorí nám chcú pomôcť a sú oboznámení s 
+Vždy hľadáme vývojárov, ktorí nám chcú pomôcť a sú schopný pracovať v niektorom z jazykov 
 C, Rust, Java, Swift, Javascript alebo Python v systémoch Android, iOS, Windows, Linux alebo Mac. 
 
 
 # Darujte peniaze alebo zariadenia
 
-Ak chcete podporiť DeltaChat peniazmi:
+Ak chcete podporiť DeltaChat finančne:
 
 - IBAN DE86100777770428658900, vlastník účtu (prosím vždy uveďte): Björn Petersen, BIC NORSDE51XXX
 - PayPal alebo kreditná karta: [paypal.me/deltachat](https://paypal.me/deltachat/20)

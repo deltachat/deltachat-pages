@@ -29,7 +29,7 @@ alebo kompatibilné systémy.
 ## Ukážka Verzií
 
 * [Náhľad Desktopu]({% include desktop-previews-url %}): Čakajúce zmeny pre desktopových klientov
-* [Android Nightly](https://download.delta.chat/android/nightly/): Postavené minulú noc s najnovším jadrom
+* [Android Nightly](https://download.delta.chat/android/nightly/): Posledná kompilácia najnovšej verzie
 * [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Môže obsahovať ešte oficiálne nevydané verzie iOS
 
 Ukážkové verzie môžu obsahovať nové chyby a nemali by sa využívať k produktívnemu nasadeniu.
