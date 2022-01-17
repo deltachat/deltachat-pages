@@ -6,7 +6,7 @@ image: ../assets/blog/eppd-criteria-final.jpg
 
 Coming to an end with our EU [NGI](https://www.ngi.eu/) funded E-mail Provider Comparison Directory (EPPD) project, we gathered some interesting results about providers' performances and how they can influence the use of our Delta Chat app suite.  
 
-The [DAPSI](https://dapsi.ngi.eu/hall-of-fame/eppd/) funding did not only result in an email provider comparison directory but also helped to improve Delta Chat's onboarding and usability! We released [quota and connectivity] (https://delta.chat/en/2021-08-24-updates) and the [account switcher] (https://delta.chat/en/2021-11-17-releases) which we are quite happy with.
+The [DAPSI](https://dapsi.ngi.eu/hall-of-fame/eppd/) funding did not only result in an email provider comparison directory but also helped to improve Delta Chat's onboarding and usability! We released [quota and connectivity](https://delta.chat/en/2021-08-24-updates) and the [account switcher](https://delta.chat/en/2021-11-17-releases) which we are quite happy with.
 
 <a href="../assets/blog/eppd_criteria_final.pdf">
     <img src="../assets/blog/eppd-criteria-final.jpg"
