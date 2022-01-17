@@ -1,4 +1,3 @@
-
 ---
 title: Which E-Mail Providers work well with Delta Chat? Quite some :) 
 author: missytake, jette, holga
