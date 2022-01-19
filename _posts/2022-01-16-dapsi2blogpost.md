@@ -9,7 +9,7 @@ In the last couple of months we engaged with comparing around 20 international e
 <a href="../assets/blog/eppd-comparison-final.pdf">
     <img src="../assets/blog/2022-01-19-eppd-table.png"
          width="260" style="border-width: 1px; border-color: grey; border-style: solid;"/><br>
-    <b>Download</b>provider comparison table.
+    <b>Download</b> provider comparison table.
 </a>
 
 In the table you will see both qualitative and quantitative evaluations. The third page of this PDF contains explanations for what we measured and what you can see. Overall, most providers are fine to use with Delta Chat although we recommend caution with those that lack basic IMAP Features or require much personal data. The speed for sending small messages was largely below 10 seconds and some providers manage to stay under around 1-3 seconds. If you experience slowness you will be able to long-click and look at "Message Info" in the upcoming 1.28 releases. You can then inspect through which hops the message travelled and where it was delayed. 
