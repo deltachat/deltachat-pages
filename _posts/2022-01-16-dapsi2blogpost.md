@@ -4,13 +4,16 @@ author: missytake, jette, holga
 image: ../assets/blog/eppd-criteria-final.jpg
 ---
 
-In the last couple of months we dived into comparing around 20 international e-mail providers, based on our [earlier research into comparison criteria](https://delta.chat/en/2021-09-11-eppd-provider-criteria).  These efforts were part of our [EPPD](https://dapsi.ngi.eu/hall-of-fame/eppd/) project, which was funded by the 
-[Next Generation Internet](https://www.ngi.eu/) programme of the European Union.  Without further ado, take a look at our overview of results :) 
+In the last couple of months we engaged with comparing around 20 international e-mail providers, based on our [earlier research into comparison criteria](https://delta.chat/en/2021-09-11-eppd-provider-criteria). These efforts were part of our [EPPD](https://dapsi.ngi.eu/hall-of-fame/eppd/) project funded by the EU. 
 
-[insert screenshot of final provider comparison table, linked to a PDF that also contains a legende for each column]
+<a href="../assets/blog/eppd-comparison-final.pdf">
+    <img src="../assets/blog/eppd-comparison-final-screenshot.jpg"
+         width="260" style="border-width: 1px; border-color: grey; border-style: solid;"/><br>
+    <b>Download</b>provider comparison table.
+</a>
 
-In the columns you'll see both qualitative and quantitative evaluations. Automatically testing speed and rate limits proved to be a cumbersome exercise as most e-mail providers are very sensitive to automated scripted interactions which servers quickly classify as spam. For some providers we failed to run interoperability tests probably because we used fresh accounts which are probably monitored even more strictly. For most providers, however, we could measure interoperability behaviour, and also sending/receiving speed and the allowed size of attachments. We also recorded how many steps it takes to setup a new account. We published our measurement tool [eppdperf](https://github.com/deltachat/eppdperf) and intend to improve it further. As we found onboarding problems with providers we iteratively improved our [provider DB](https://providers.delta.chat) so that onboarding will be quicker and more fluent for new users in the next App releases. 
+In the table you will see both qualitative and quantitative evaluations. The second page of this PDF contains explanations for what we measured and what you can see. Overall, most providers are fine to use with Delta Chat although we recommend caution with those that lack basic IMAP Features or require much personal data. Speed for small messages was largely below 10 seconds and some providers manage to stay under around 1-3 seconds. If you experience slowness you will in the upcoming 1.28 releases be able to long-click and look at "Message Info" and inspect through which hops the message travelled and where it was delayed. 
 
-As part of the EPPD project we also released [quota and connectivity features](https://delta.chat/en/2021-08-24-updates) and the new [account switcher](https://delta.chat/en/2021-11-17-releases) which allows to quickly change between multiple accounts and providers. 
+Note that automatically testing speed and rate limits proved to be a cumbersome exercise as most e-mail providers are very sensitive to automated scripted interactions. For some providers we failed to run interoperability tests because we used fresh accounts which are probably monitored even more strictly. For most providers, however, we could measure all data. We published our measurement tool [eppdperf on github](https://github.com/deltachat/eppdperf) and intend to improve it further.  In that repository you also find the raw data underlying our overview table. 
 
-If you have any additional input or questions you are welcome to post on our [support forum](https://support.delta.chat) -- you can login with your Delta Chat app there through a QR scan btw :) 
+If you have feedback or questions you are welcome to post on our [support forum](https://support.delta.chat) -- you can login with your Delta Chat app there through a QR scan btw :) 
