@@ -7,7 +7,7 @@ image: ../assets/blog/eppd-criteria-final.jpg
 In the last couple of months we engaged with comparing around 20 international e-mail providers, based on our [earlier research into comparison criteria](https://delta.chat/en/2021-09-11-eppd-provider-criteria). These efforts were part of our [EPPD](https://dapsi.ngi.eu/hall-of-fame/eppd/) project funded by the EU. 
 
 <a href="../assets/blog/eppd-comparison-final.pdf">
-    <img src="../assets/blog/eppd-comparison-final-screenshot.jpg"
+    <img src="../assets/blog/2022-01-19-eppd-table.png"
          width="260" style="border-width: 1px; border-color: grey; border-style: solid;"/><br>
     <b>Download</b>provider comparison table.
 </a>
