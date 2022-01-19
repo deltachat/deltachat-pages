@@ -8,7 +8,7 @@ In the last couple of months we engaged with comparing around 20 international e
 
 <a href="../assets/blog/eppd-comparison-final.pdf">
     <img src="../assets/blog/2022-01-19-eppd-table.png"
-         width="260" style="border-width: 1px; border-color: grey; border-style: solid;"/><br>
+         style="border-width: 1px; border-color: grey; border-style: solid;"/><br>
     <b>Download</b> provider comparison table.
 </a>
 
