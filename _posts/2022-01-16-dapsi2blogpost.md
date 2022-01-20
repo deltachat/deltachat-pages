@@ -16,4 +16,4 @@ In the table you will see both qualitative and quantitative evaluations. The thi
 
 Note that automatically testing speed and rate limits proved to be a cumbersome exercise as most e-mail providers are very sensitive to automated scripted interactions. For some providers we failed to run interoperability tests because we used fresh accounts which are probably monitored even more strictly. For most providers, however, we could measure all data. We published our measurement tool [eppdperf on github](https://github.com/deltachat/eppdperf) and intend to improve it further.  In that repository you also find the raw data underlying our overview table. 
 
-If you have feedback or questions you are welcome to post on our [support forum](https://support.delta.chat) -- you can login with your Delta Chat app there through a QR scan btw :) 
+If you have feedback or questions you are welcome to post on our [support forum post](https://support.delta.chat/t/email-provider-comparison/1992) -- you can login there with your Delta Chat app through a QR scan btw :) 
