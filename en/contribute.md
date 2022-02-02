@@ -27,7 +27,7 @@ lang: en
 
 We are always looking for developers and designers who want to help along and are familiar with 
 C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
-We typically offer 20 hour per week contracts or employments (if based in germany). 
+We typically offer 20 hours per week contracts or employments (if based in germany). 
 Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
 
 
