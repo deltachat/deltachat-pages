@@ -5,7 +5,7 @@ lang: sq
 
 # Bisedoni përmes email-i dhe drejtohuni për nga ardhmja, me ne!
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 **Delta Chat-i është si puna e Telegram-it ose Whatsapp-it, por pa gjurmim apo kontroll qendror.**
 Delta Chat-i s’ka nevojë për numrin tuaj të telefonit. Shihni [deklaratën tonë për privatësinë](gdpr).
@@ -22,13 +22,13 @@ Shihni [shembuj dhe zëra përdoruesish](user-voices) 📣
 # Foto ekrani nga aplikacioni për Android, Desktop dhe iOS 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing a chat" /> 
 
-<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" /> 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
 Për të dhëna mbi hedhjet e tanishme në qarkullim dhe veprimtari, ju lutemi,
 shihni te [get.delta.chat](https://get.delta.chat) dhe [postimet më të reja

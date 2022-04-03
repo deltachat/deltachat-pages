@@ -308,10 +308,16 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 ### Delta Chat 与 Protonmail / Tutanota / Criptext 兼容吗？
 
-- 兼容，也不兼容。
-- 您不能用 Protonmail、Tutanota 或 Criptext 账户来使用 Delta Chat；它们不支持使用 IMAP 接收邮件。
-- 无论如何，您都可以使用 Delta Chat 将消息发送给使用 Protonmail、Tutanota 或 Criptext 的人。然而，这些消息不会被端到端加密。这些提供商提供的端到端加密仅能在其平台内部使用，不能用于平台外的任何人。
-- Delta Chat 可以通过任何电子邮件提供商与[使用了 Autocrypt 的电子邮件应用](https://autocrypt.org/dev-status.html)进行端到端加密。
+- Yes and No.
+- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
+  Chat; they do not offer receiving mails via IMAP.
+- In any case you can use Delta Chat to send Messages to people who use
+  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
+  encrypted, though. The End-to-End encryption those providers offer is not 
+  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
+  uses.
+- Delta Chat can e2e-encrypt through any e-mail provider with any
+  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
 ### 我对技术细节很感兴趣。能告诉我更多吗？
@@ -320,18 +326,24 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 ### Delta Chat 的开发是如何被资助的? 
 
-首先，Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产生巨额利润或将用户及其朋友和家人卖给广告商（或更糟）的压力。
+Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产生巨额利润或将用户及其朋友和家人卖给广告商（或更糟）的压力。我们宁愿使用（目前来自欧盟和美国的）公共资金，来帮助我们努力建立一个基于自由开源社区开发的、去中心化的、多样化的聊天消息（软件）生态系统。 
 
-到目前为止，对 Delta Chat 开发的资助有四个主要来源：
+具体来说，到目前为止，对 Delta Chat 开发的资助有这些来源：
 
-- 在 2017 年和 2018 年，[NEXTLEAP](https://nextleap.eu) 欧洲计划资助了已验证群组和设置联系人协议的研究与实现。
+- 在 2017 年和 2018 年，[NEXTLEAP](https://nextleap.eu) EU 项目资助了已验证群组和联系人设置协议的研究与实现。他们还通过 [Autocrypt](https://autocrypt.org) 帮助集成了端到端加密。
 
-- [开放技术基金](https://opentechfund.org)提供了两笔赠款。2018/2019 年的第一笔赠款（约 20 万美元）显著改善了安卓应用，允许我们发布一个桌面测试版，同时还使我们根据人权方面的用户体验研究进行了功能开发，请参阅我们的结论[《需求发现与用户体验报告》](https://delta.chat/en/2019-07-19-uxreport)。2019/2020 年的第二笔赠款（约 30 万美元）仍在进行中。这笔赠款帮助我们发布 Delta/iOS 版本，将核心库转换到 Rust，以及为所有平台提供新功能。您可以在我们的[博客](https://delta.chat/en/blog)上找到最新信息。 
+- 在[开放技术基金](https://opentechfund.org) 2018/2019 年提供的第一笔赠款（约 20 万美元）期间，我们显著改善了安卓应用，发布了第一个桌面测试版，并根据人权方面的用户体验研究进行了功能开发，请参阅我们的结论[《需求发现与用户体验报告》](https://delta.chat/en/2019-07-19-uxreport)。2019/2020 年的第二笔赠款（约 30 万美元）对发布 Delta/iOS 版本，将核心库转换到 Rust ，以及为所有平台开发新功能提供了帮助。
 
-- [NLnet 基金会](https://nlnet.nl/)捐赠了 4.6 万欧元，用于完成 Rust/Python 绑定和建立聊天机器人生态系统。
+- [NLnet 基金会](https://nlnet.nl/)在 2019/2020 年捐赠了 4.6 万欧元，用于完成 Rust/Python 绑定和建立聊天机器人生态系统。
+
+- 在 2021 年，我们从两项下一代互联网提案收到了欧盟的进一步资助，即 [EPPD - 电子邮件提供商可移植性目录](https://dapsi.ngi.eu/hall-of-fame/eppd/)（约 9.7 万欧元）和 [AEAP - 电子邮件地址移植](https://nlnet.nl/project/EmailPorting/)（约 9 万欧元）。这带来了更好的多账户支持，改进的二维码联系人和群组设置，和所有平台上的多处网络改进。
+
+- 在 2021/2022 年，我们从美国民主、人权和劳工局（DRL）获得 *互联网自由* 资助（约 50 万美元）。这笔资金资助我们的长期目标是使 Delta Chat 更易于使用，兼容世界上各类电子邮件服务器，以及在经常遭受互联网审查与互联网关闭的地方更具适应力和安全性。 
+
+- 有时我们会收到来自个人的一次性捐款，对此我们心存感激。例如在2021 年，一位慷慨的个人向我们银行电汇了四千欧元，主题为“保持良好发展！"。我们使用这些钱款来资助开发聚会，以及应对难以预测或无法从公共资金赠款中报销的临时费用。
 
 - 最后但并非最不重要的是，数位专家与热心人在没有收到或仅收到少量金钱的情况下为 Delta Chat 的开发做出了贡献。没有他们，Delta Chat 不会发展到、甚至无法接近目前的状况。
 
-上面提到的钱款资助是由在弗赖堡（德国）的 merlinux GmbH 组织的，然后分发给了十来个贡献者。
+上面提到的钱款资助主要是由在弗赖堡（德国）的 merlinux GmbH 组织的，分发给了来自世界各地的十多个贡献者。
 
-2020/2021 年的资助尚未确定。我们正在与各种组织和合作伙伴一起寻求一些机会。我们也在考虑请求捐款。实际上，我们实验性地开设了一个 [Delta Chat / Liberapay 捐款账户](https://liberapay.com/delta.chat/)，但是还未发布。到目前为止，我们还通过 Bjoern（Delta Chat 的原作者）的 PayPal 和比特币捐款渠道收到了 3-4 千欧元。
+2022 年下半年，特别是 2023 年的资助是一个正在被关注的问题。除了申请更多的公共资金外，我们希望能更加独立于政府相关的资金来源。请查看 [Delta Chat 贡献渠道](https://delta.chat/en/contribute)来了解钱款和开发相关的支持可能性。

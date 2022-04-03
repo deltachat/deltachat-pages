@@ -25,19 +25,18 @@ lang: it
 - [Problemi su Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemi su Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Siamo sempre alla  ricerca di sviluppatori che desiderino aiutarci e hanno esperienza
-con C, Rust, Java, Swift, Javascript o Python su Android, iOS, Windows, Linux o Mac.
+Siamo sempre alla ricerca di sviluppatori e designer che vogliano aiutarci e che abbiano familiarità con
+C, Rust, Java, Swift, Javascript o Python su Android, iOS, Windows, Linux o Mac.
+In genere offriamo contratti o impieghi di 20 ore settimanali (se con sede in Germania).
+Non esitate a contattarci (delta at merlinux eu) se siete interessati ad aiutare i nostri sforzi!
 
 
-# Donare soldi o dispositivi
+# Donate soldi
 
-Se desideri supportare economicamente DeltaChat:
+Se sostieni economicamente DeltaChat, lo aiuti a rimanere e crescere come un progetto indipendente che funziona ed è orientato verso i suoi utenti:
 
-- IBAN DE86100777770428658900, Titolare del conto (specificare sempre): Björn Petersen, BIC NORSDE51XXX
+- IBAN DE861007777770428658900, Titolare del conto (specificare sempre): Björn Petersen, BIC NORSDE51XXX
 - PayPal o carta di credito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Dona regolarmente tramite [Liberapay](https://liberapay.com/delta.chat/)
-- Effettua una donazione una tantum o ricorrente tramite [Open Collective](https://opencollective.com/delta-chat/donate)
-- Invia bitcoin a [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
-Abbiamo bisogno di **dispositivi** per eseguire i test. Hai un disposito Android o un iPhone che non utilizzi?
-[Noi](imprint) gradiremmo molto averlo!
+- Dona tramite [Liberapay](https://liberapay.com/delta.chat/)
+- Fai una donazione una tantum o ricorrente tramite [Open Collective](https://opencollective.com/delta-chat/donate)
+- Invia bitcoin a [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)

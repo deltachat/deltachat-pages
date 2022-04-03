@@ -139,7 +139,7 @@ Ja se ç’bën Delta Chat-i me këto leje:
 
 ### Ç’është një grup i verifikuar? Pse është eksperimentale kjo? 
 
-- Një grup i verifikuar është një bisedë që garanton parrezikshmëri ndaj<br>  një sulmuesi aktiv. Krejt Mesazhet në një bisedë të verifikuar janë<br>  të fshehtëzuara skaj më skaj, dhe anëtarët mund marrin pjesë duke<br>  skanuar një "kod QR ftese". Kështu, krejt anëtarët janë të lidhur njëri<br>  me tjetrin përmes një zinxhiri ftesash, çka garanton vazhdueshmëri<br>  kriptografike kundër sulmesh aktive rrjeti apo furnizuesi shërbimesh.<br>  Për R&amp;D pas kësaj veçorie, shihni [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html).
+- Një grup i verifikuar është një bisedë që garanton parrezikshmëri ndaj<br>  një sulmuesi aktiv. Krejt Mesazhet në një bisedë të verifikuar janë<br>  të fshehtëzuara skaj më skaj, dhe anëtarët mund marrin pjesë duke<br>  skanuar një "kod QR ftese". Kështu, krejt anëtarët janë të lidhur njëri<br>  me tjetrin përmes një zinxhiri ftesash, çka garanton vazhdueshmëri<br>  kriptografike kundër sulmesh aktive rrjeti apo furnizuesi shërbimesh.<br>  Për R&amp;D pas kësaj veçorie, shihni [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html). 
 
 - Deri në dhjetor të 2019-s, një "grup i verifikuar" mbetet një veçori eksperimentale.
   Është përmirësuar vazhdimisht dhe janë ndrequr mjaft të meta që prej sjelljes
@@ -187,7 +187,7 @@ për çfarëdo mesazhesh të rinj.
 
 - Delta Chat mbulon po ashtu një formë të fuqishme fshehtëzimi skaj-më-skaj
   që është edhe më e sigurt kundër sulmesh aktive, shihni më poshtë
-  “grupe të verifikuar”.
+  “grupe të verifikuar”. 
 
 
 ### Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?
@@ -222,7 +222,7 @@ Nëse jeni brenda një largësie imediate të partnerit të fjalosjes:
   te pajisja tjetër dhe skanoni kodin. Nëse që të dyja pajisjet janë në linjë,
   ato do të paraqesin një kanal fjalosjeje me njëra-tjetrën (nëse ky s’ekziston
   tashmë) dhe kyçet e fshehtëzimit do të verifikohen.  Te të dyja, në fjalosjen
-  e tyre 1:1 do të duket një mesazh sistemi “dërguesi u verifikua”.
+  e tyre 1:1 do të duket një mesazh sistemi “dërguesi u verifikua”. 
 
 Nëse s’jeni pranë partnerit të fjalosje, gjendjen mund ta kontrolloni dorazi te dialogu “Fshehtëzim”
 (që nga profili i përdoruesit, në Android/iOS, ose, në desktop, djathtasklikoni te zëri chat-list të një përdoruesi):
@@ -245,11 +245,11 @@ Nëse s’jeni pranë partnerit të fjalosje, gjendjen mund ta kontrolloni doraz
 - [Autocrypt](https://autocrypt.org) përdoret për të vënë në punë fshehtëzim e2e
   me Delta Chat tjetër dhe aplikacione të tjera poste që janë të aftë
   të mbulojnë Autocrypt-in. 
-  Autocrypt-i përdor një nëngrup të kufizuar të funksioneve OpenPGP.
+  Autocrypt-i përdor një nëngrup të kufizuar të funksioneve OpenPGP. 
 
 - Për të bërë të mundur mbrojtjen kundër sulmesh aktive rrjeti, Delta Chat-i
   sendërton [protokollet countermitm, setup-contact dhe verified-group](https://countermitm.readthedocs.io/en/latest/new.html).  Kjo shkon përtej mbrojtjes bazë oportuniste të
-  Autocrypt Level 1, ndërkohë që ruhet lehtësia e përdorimit.
+  Autocrypt Level 1, ndërkohë që ruhet lehtësia e përdorimit.  
 
 ### Cili është dallimi mes grupesh të verifikuar dhe fjalosjesh 1:1 me kontakte të verifikuar?
 
@@ -283,7 +283,7 @@ Nëse s’jeni pranë partnerit të fjalosje, gjendjen mund ta kontrolloni doraz
   do të nxjerrë zbuluar shumë nga marrëdhëniet mes grupit. Përdorimi i adresave
   email të cilat s’mund të shpien lehtë te personat pas tyre i ndihmon anëtarët
   e grupit të jenë më të parrezikuar prej efekteve të shtënies në dorë
-  të pajisjeve.
+  të pajisjeve. 
 
 - Po skicojmë mënyra për të mbrojtur më mirë komunikimet nga raste
   marrjeje të pajisjes. 
@@ -362,7 +362,7 @@ të eksportoni nga njëra pajisje një kopjeruatje dhe ta importoni te tjetra:
   zgjidhni “Importo Kopjeruajtje”. Pas importimit, bisedat tuaja, kyçet
   e fshehtëzimit dhe media duhet të jenë kopjuar te pajisja juaj e re.
 - Tani jeni i njëkohësuar, dhe mund të përdorni të dyja pajisjet për dërgim dhe
-  marrje mesazhesh të fshehtëzuar Skaj-Më-Skaj me partnerët tuaj të komunikimit.
+  marrje mesazhesh të fshehtëzuar Skaj-Më-Skaj me partnerët tuaj të komunikimit. 
 
 ### A ka ndonjë plan për të sjellë një Klient Web Delta Chat?
 
@@ -387,7 +387,7 @@ DeltaChat. Zakonisht kjo do të bëhej nga aplikacioni Delta Chat.
 
 Çaktivizimi i Vëzhgimit të Të marrëve ka kuptim nëse keni:
 
- - aktivizuar një rregull më anë shërbyesi për të shpënë krejt mesazhet me krye “Chat-Version” te dosja DeltaChat, dhe
+- aktivizuar një rregull më anë shërbyesi për të shpënë krejt mesazhet me krye “Chat-Version” te dosja DeltaChat, dhe
 - për rregullimin "Shfaq email-e klasikë" keni zgjedhur "jo, vetëm biseda".
 
 Në këtë rast, Delta Chat-i s’ka nevojë të vëzhgojë Të marrët.
@@ -397,7 +397,7 @@ Në këtë rast, Delta Chat-i s’ka nevojë të vëzhgojë Të marrët.
 Dërgimi vetes i një kopjeje të mesazheve tuaj siguron marrjen e mesazheve tuaj
 në krejt pajisjet. Nëse keni disa pajisje dhe nuk i mbani ndezur, shihni vetëm
 mesazhet prej të tjerëve, dhe mesazhet që dërgoni prej pajisjes që keni hapur
-në atë çast.
+në atë çast. 
 
 Kopja dërgohet te Të marrët, dhe mandej kalohet te dosja DeltaChat; nuk vendoset
 te dosja "Të dërguar". Delta Chat-i nuk ngarkon *kurrë* ndonjë gjë te dosja
@@ -415,7 +415,7 @@ aplikacionit tuaj Delta Chat, dhe doni që MUA juaj të marrë pjesë në biseda
 Sidoqoftë, rekomandojmë të përdoret Klienti Desktop i Delta Chat-it; mund ta 
 shkarkoni që nga [get.delta.chat](https://get.delta.chat). Mundësia për vëzhgim
 të dosjes "Të dërguar" mund të hiqet në të ardhmen. Qe prurë në kohët kur s’kish
-klient Desktop Delta Chat për krejt platformat.
+klient Desktop Delta Chat për krejt platformat. 
 
 ### Pse mund të zgjedh të mos e vëzhgoj dosjen DeltaChat?
 
@@ -429,7 +429,7 @@ shumë pajisje mund të mos punojë si duhet.
 
 ### A funksionon Delta Chat me shërbimin _tim_ email?
 
- - Ka shanse të mira që: Po :)  
+- Ka shanse të mira që: Po :)  
   Sidoqoftë, disa furnizues shërbimesh kanë nevojë për mundësi speciale, që
   të funksionojnë si duhet, shihni [Provider Overview](https://providers.delta.chat)
 
@@ -454,60 +454,75 @@ shumë pajisje mund të mos punojë si duhet.
 ### A është i përputhshëm Delta Chat-i me Protonmail-in / Tutanota-n / Criptext-in?
 
 - Po dhe Jo.
-- Jo, s’mund të përdorni llogarinë tuaj Protonmail, Tutanota, ose Criptext me
-  Delta Chat-in; këta nuk ofrojnë marrje email-esh përmes IMAP-it.
-- Sidoqoftë, mund të përdorni Delta Chat-in të dërgoni Mesazhe te persona që
-  përdorin Protonmail-in, Tutanota-n, ose Criptext-in. Por këto mesazhe s’do
-  të jenë të fshehtëzuara Skaj-Më-Skaj. Fshehtëzimi Skaj-Më-Skaj që ofrojnë këto
-  shërbime funksionon vetëm brenda platformave përkatëse, pa qenë i përputhshëm
-  me gjë tjetër jashtë tyre.
-- Delta Chat-i mund të kryejë fshehtëzim skaj-më-skaj përmes cilitdo shërbimi
-  email me çfarëdo [https://autocrypt.org/dev-status.html](aplikacion email që mbulon Autocrypt-in).
+- Jo, me Delta Chat-in s’mund të përdorni llogarinë tuaj Protonmail, Tutanota,
+  ose Criptext; ato nuk ofrojnë marrje email-esh përmes IMAP-it.
+- Sidoqoftë, mund të përdorni Delta Chat-in të dërgoni Mesazhe për persona që
+  përdorin Protonmail, Tutanota, ose Criptext. Këto mesazhe ama s’do të jenë
+  të fshehtëzuara Skaj-më-Skaj. Fshehtëzimi Skaj-më-Skaj që japin këto shërbime
+  s’është i përputhshëm me [Autocrypt-in](https://autocrypt.org/), standardin që
+  përdor Delta Chat-i.
+- Delta Chat-i mund të kryejë fshehtëzim skaj-më-skaj përmes cilitdo shërbim
+  email-i me çfarëdo [aplikacioni email që punon me Autocrypt](https://autocrypt.org/dev-status.html).
 
 
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
 
-### Si financohet zhvillimi i Delta Chat-it?
+### Si financohet zhvillimi i Delta Chat-it? 
 
-Pikësëpari, Delta Chat s’merr financime të llojit Venture Capital dhe
-s’është në borxhe, dhe nën trysni për të prodhuar përfitime të mëdha, apo 
-të shesë përdoruesit bashkë me miqtë dhe familjet te reklamues (apo më keq).
+Delta Chat nuk përfiton ndonjë financim të llojit Venture Capital dhe s’ka
+borxhe, as gjendet nën trysni për të prodhuar fitime të mëdha, apo për të
+shitur përdoruesit, shokët dhe familjen e tyre reklamuesve (apo më keq). 
+Në vend të kësaj, përdorim burime financimi publik, deri sot me origjinë nga
+BE dhe ShBA, si ndihmë të përpjekjeve tona për lulëzimin e një ekosistemi të
+decentralizuar dhe të larmishëm shkëmbimi mesazhesh bazuar në zhvillime
+bashkësie të Lirë dhe Me Burim të Hapët.
 
-Deri këtu, zhvillimi i Delta Chat-it është financuar nga katër burime kryesore: 
+Konkretisht, zhvillimet e Delta Chat-it deri sot janë financuar nga këto burime:
 
-- Projekti [NEXTLEAP](https://nextleap.eu) i BE-së financoi kërkimin dhe
-  sendërtimin e grupeve të verifikuar dhe protokolle ujdisje kontaktesh
-  më 2017 dhe 2018.
+- Projekti [NEXTLEAP](https://nextleap.eu) i BE-së financoi kërkimin
+  për dhe sendërtimin e grupeve të verifikuara dhe protokolleve të
+  ujdisjes së kontakteve më 2017-n dhe 2018-n dhe ndihmoi gjithashtu
+  të integrohet Fshehtëzim Skaj-më-Skaj përmes [Autocrypt](https://autocrypt.org).
 
-- [Fondacioni për Teknologji të Hapur](https://opentechfund.org) ka dhënë dy
-  grante.
-  Granti i parë më 2018/2019 (~200 mijë dollarë) më së shumti përmirësoi
-  aplikacionin  Android dhe na lejoi të hedhim në qarkullim një version beta
-  për dekstop, dhe hodhi gjithashtu bazat për zhvillim veçorish në kërkime UX
-  në kontekste të drejtash të njeriut, shihni [raportin tonë përmbledhës
-  “Needfinding and UX”](https://delta.chat/en/2019-07-19-uxreport).
-  Granti i dytë 2019/2020 (~$300K) po përdoret ende dhe na ndihmon të hedhim
-  në qarkullim versione Delta/iOS, për shndërrimin e librarisë sonë bazë në
-  Rust, and dhe sjellim veçori të reja për krejt platformat.  Për më tepër
-  të dhëna, shihni [postimet që bëhen në blog](https://delta.chat/en/blog).
+- [Open Technology Fund](https://opentechfund.org) na dha grantin e parë 
+  për 2018/2019 (~200 mijë dollarë) me të cilin përmirësuam ndjeshëm aplikacionin
+  për Android dhe hodhëm në qarkullim një version të parë beta aplikacioni për Desktop,
+  si dhe i afroi më tepër zhvillimet tona për veçori me kërkime UX në kontekste të drejtash të njeriut, 
+  shihni [raportin tonë përfundimtar “Needfinding and UX”](https://delta.chat/en/2019-07-19-uxreport).
+  Granti i dytë për 2019/2020 (~$300K) na ndihmoi të hedhim në qarkullim 
+  versione Delta/iOS, për të shndërruar bibliotekën tonë bazë në Rust, si dhe
+  për të sjellë veçori të reja për krejt platformat.  
 
-- [Fondacioni NLnet](https://nlnet.nl/) dha një grant prej 46 mijë eurosh për
-  të plotësuar <em>Rust/Python bindings</em> për t’i dhënë udhë një ekosistemi <em>Chat-bot</em>. 
+- [Fondacioni NLnet](https://nlnet.nl/) dhuroi 46K euro gjatë 2019/2020 për
+  plotësimin e <em>Rust/Python bindings</em> dhe për t’i dhënë udhë një ekosistemi
+  Chat-bot.
+
+- Më 2021-n morëm financime të mëtejshme nga BE për dy propozime që shtrihen në
+  “Internetin e Brezit Tjetër”, konkretisht për [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K euro) dhe [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K euro) që sollën mbulim më të mirë për përdorues me shumë
+llogari, përmirësim të gjërave për kontakte me kod QR dhe grupe, si dhe mjaft
+përmirësime në punën në rrjet për krejt platformat.
+
+- Për 2021/2022 po marrim financimin *Internet Freedom* (~500 mijë dollarë amerikanë)
+  nga Zyra për Demokraci, të Drejta të Njeriut dhe Punë e ShBA-sand Labor (DRL). 
+  Ky financim përbën mbështetje për synimet tona afatgjata për ta bërë Delta Chat-in më
+  të përdorshëm dhe të përputhshëm me një gamë të gjerë shërbimesh email anembanë
+  botës, si dhe më të qëndrueshëm dhe më të siguruar në vende që shpesh preken nga
+  censurim dhe bllokim interneti.
+
+- Ndonjëherë marrim ndonjë dhurim njësh prej individë privatë, për çka jemi
+  borxhlinj. Për shembull, më 2021-shin një individ bujar na dërgoi një mandatarkëtimi
+  prej 4 mijë eurosh, me subjektin “vazhdoni punën e mbarë!”. Para të tilla i përdorim
+  [ër të financuar takime zhvillimi, ose për të mbuluar shpenzime <em>ad-hoc</em>
+  që s’mund të parashikohen kollaj, apo që s’mbulohen nga fonde financimi publik. 
 
 - E fundit, por aspak për nga rëndësia, disa ekspertë dhe entuziastë kanë dhënë
   dhe japin ndihmesë pro-bono në zhvillimin e Delta Chat-it pa përfituar para,
   ose vetëm shuma të vogla. Pa ta, Delta Chat-i s’do të ish atje ku është sot,
-  madje as afër asaj.
+  madje as afër asaj. 
 
-Financimi monetar i përmendur më sipër u organizua nga merlinux GmbH në
-Frajburg (Gjermany), dhe shpërndarë më pas thuajse një duzine kontribuesish. 
+Financimi monetar i përmendur më sipër është kryesisht i organizuar nga GmbH në
+Frajburg (Gjermani) dhe u shpërndahet më tepër se një duzine kontribuesish nga e gjithë bota. 
 
-Financimi për 2020/2021 s’është përcaktuar ende. Po ndjekim një dorë mundësish
-me ente dhe partnerë të ndryshëm. Po shohim gjithashtu mundësinë të kërkojmë
-dhurime. Në fakt, kemi filluar paksa, eksperimentalisht [llogari dhurimesh
-Delta Chat / Liberapay](https://liberapay.com/delta.chat/), por s’e kemi bërë
-ende publike këtë.  Pati gjithashtu rreth 3-4 mijë euro dhuruar deri sot për
-Bjornin (autorin fillestar të Delta Chat-it) nga kanalet e dhurimit në Paypal
-dhe në bitkoin.
+Financimi për gjysmën e dytë të 2022-shit dhe veçanërisht për 2023 është një çështje e vazhdueshme shqetësimi. Veç aplikimit për më tepër financime, duam të bëhemi më të pavarur nga burime financimi të lidhura me qeverinë. Ju lutemi, shihni [Delta Chat Contribution channels](https://delta.chat/en/contribute) qoftë për mundësi përkrahjeje monetare, qoftë për ato të lidhura me zhvillimin. 

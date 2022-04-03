@@ -12,7 +12,7 @@ of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/mast
 
 ### Ubuntubuzz: Functies die je geweldig gaat vinden…
 
-_"Apple and alike could be forced to give users' data to government, Delta could not, because it does not have users' data. [...] No server, no data collection, and no phone number required. Modern, fancy, WhatsApp-like user interface. Can message people who do not use Delta Chat."_
+_"Apple en consorten kunnen worden gedwongen om gebruikersgegevens over te dragen aan overheden. Delta kan dat echter niet, omdat Delta geen gegevens bewaart. […] Geen server, geen gegevensverzameling en geen telefoonnummer vereist. Modern, rijk vormgegeven, WhatsApp-achtig uiterlijk. Gesprekken voeren met mensen die geen Delta Chat gebruiken is eveneens mogelijk."_
 
 2021-09-20, Ade Malsasa Akbar, <https://www.ubuntubuzz.com/2021/09/delta-chat-overview-and-installation.html>
 

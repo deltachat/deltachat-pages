@@ -25,19 +25,18 @@ lang: ru
 - [Ошибки Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Ошибки Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Мы всегда ищем и рады разработчикам, которые желают помочь и знакомы с 
+Мы всегда ищем разработчиков и дизайнеров, которые хотят помочь нам и знакомы с 
 C, Rust, Java, Swift, Javascript или Python на Android, iOS, Windows, Linux или Mac.
+Мы обычно предлагаем контракты или работу по 20 часов в неделю (если вы находитесь в Германии). 
+Пожалуйста, не стесняйтесь обращаться к нам (delta at merlinux eu) если вы заинтересованы в том, чтобы помочь нашим усилиям!
 
 
-# Пожертвовать деньги или устройства
+# Пожертвовать деньги
 
-Если вы желаете поддержать DeltaChat деньгами:
+Если вы поддержите DeltaChat в денежном выражении, то вы поможете ему и дальше развиваться как независимому проекту, который работает и ориентирован на своих пользователей:
 
-- IBAN DE86100777770428658900, Владелец счета (всегда указывайте): Björn Petersen, BIC NORSDE51XXX
+- IBAN DE86100777770428658900, Владелец счёта (пожалуйста, указывайте всегда): Björn Petersen, BIC NORSDE51XXX
 - PayPal или кредитная карта: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Регулярные пожертвования через [Liberapay](https://liberapay.com/delta.chat/)
+- Пожертвование через [Liberapay](https://liberapay.com/delta.chat/)
 - Разовое или повторяющееся пожертвование через [Open Collective](https://opencollective.com/delta-chat/donate)
-- Отправить биткоин: [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin: 18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
-Мы нуждаемся в **устройствах** для проведения тестирований. У вас есть ненужный Android смартфон или iPhone?
-[Мы](imprint) с удовольствием примем их в дар!
+- Отправить биткоин [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)

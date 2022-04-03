@@ -5,7 +5,7 @@ lang: es
 
 # ¡Chatea por correo electrónico y regresa al futuro con nosotros!
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 **Delta Chat es como Telegram o Whatsapp pero sin el rastreo o el control central.**
 Delta Chat no necesita tu número de teléfono. Echa un vistazo a nuestra [declaración de cumplimiento con GDPR](gdpr).
@@ -21,13 +21,13 @@ Chequea [historias de usuarios y voces](voces de usuarios) 📣
 # Capturas de pantalla en Android, Desktop y iOS
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" />
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" />
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing a chat" /> 
 
-<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" />
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" /> 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" />
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
 Por favor, visita [get.delta.chat](https://get.delta.chat) y nuestras [últimas publicaciones](blog)
 para más información sobre últimos lanzamientos y eventos.

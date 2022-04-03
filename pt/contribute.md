@@ -24,19 +24,18 @@ lang: pt
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Sempre precisamos de desenvolvedores que queiram ajudar e conheçam 
-C, Rust, Java, Swift, Javascript ou Python no Android, iOS, Windows, Linux ou Mac.
+We are always looking for developers and designers who want to help along and are familiar with 
+C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
+We typically offer 20 hours per week contracts or employments (if based in germany). 
+Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
 
 
-# Doar dinheiro ou aparelhos
+# Donate Money 
 
-Se você quiser ajudar com dinheiro:
+If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users: 
 
-- IBAN DE86100777770428658900, Dono da conta (por favor especificar sempre): Björn Petersen, BIC NORSDE51XXX
-- PayPal ou cartão de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Doar regularmente por [Liberapay](https://liberapay.com/delta.chat/)
-- Fazer uma doação uma vez ou regularmente por [Open Collective](https://opencollective.com/delta-chat/donate)
-- Enviar bitcoins ao [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
-Precisamos de **aparelhos** para fins de teste. Você tem algum smartphone velho?
-[Gostaríamos](imprint)muito de obtê-lo!
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
+- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)

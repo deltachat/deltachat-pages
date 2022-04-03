@@ -452,13 +452,18 @@ Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere
 
 ### Hoe wordt de ontwikkeling van Delta Chat gefinancierd?
 
-Delta Chat ontvangt geen risicokapitaal, heeft geen schulden en staat niet onder druk om grote winst te moeten maken. Ook is er geen enkele druk om gegevens van gebruikers, hun vrienden en familie te verkopen aan adverteerders (of erger).
+Delta Chat ontvangt geen risicokapitalen,
+staat niet onder bewindvoering en ervaart geen enkele druk om winst te maken of om 
+gebruikers en hun vrienden door te verkopen aan adverteerders (of erger). 
+We maken gebruik van publieke financieringsprocessen, zoals EU- en VS-financiering, om ons doel,
+het opzetten van een gedecentraliseerd en divers gesprekssysteem, te verwezenlijken,
+op basis van vrije en opensource-gemeenschapsontwikkelingen.
 
-De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door vier grote spelers:
+De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door deze grote spelers:
 
 - Het [NEXTLEAP](https://nextleap.eu)-EU-project heeft het onderzoek
-  naar en de implementatie van goedgekeurde groepen en setup-contact-protocollen in 2017 en 2018
-  gefinancierd.
+  naar en de implementatie van goedgekeurde groepen en setup-contact-protocollen in 2017 en 2018 gefinancierd,
+  evenals eind-tot-eindversleuteling via [Autocrypt](https://autocrypt.org)..
 
 - [Open Technology Fund](https://opentechfund.org) heeft twee subsidies toegekend.
   De eerste subsidie, voor 2018/2019, ter waarde van ong. $200,000, heeft enorm geholpen om de Android-app 
@@ -467,11 +472,24 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door vier grote spele
   bekijk onze conclusie hier: [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
   De tweede subsidie, voor 2019/2020, ter waarde van ong. $300,000, loopt nog en ondersteunt ons bij het 
   vrijgeven van de iOS-client, het overzetten van de code van de kernbibliotheek naar Rust en
-  het implementeren van nieuwe functies op alle platformen. Bekijk ons 
-  [blog](https://delta.chat/en/blog) voor meer informatie.
+  het implementeren van nieuwe functies op alle platformen.
 
-- De [NLnet foundation](https://nlnet.nl/) heeft Delta Chat €46.000 toegekend
+- De [NLnet foundation](https://nlnet.nl/) heeft in 2019 en 2020 €46.000 toegekend
   voor het voltooiien van de Rust- en Python-bindings en het opzetten van het Chatbot-ecosysteem. 
+
+- In 2021 ontvingen we aanvullende EU-financiering voor twee toekomstige internet-
+  voorstellen, te weten [EPPD - ‘e-mail provider portability directory’](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~€97.000) en [AEAP - ‘email address porting’](https://nlnet.nl/project/EmailPorting/) (~€90.000), wat geleid heeft tot betere ondersteuning voor meerdere accounts, een verbeterd QR-codesysteem en vele netwerk-gerelateerde verbeteringen op alle besturingssystemen.
+
+- In 2021 en 2022 ontvingen we *Internetvrijheid*sfinanciering (~$500,000) van de
+  ‘U.S. Bureau of Democracy, Human Rights and Labor’ (DRL). 
+  Met deze financiering kunnen we Delta Chat eindelijk stabieler maken, 
+  evenals compatibeler met meer e-mailservers wereldwijd. Ook kunnen we extra beveiliging toevoegen
+  voor geheim communiceren vanaf locaties met internetcensuur of waar het internet is afgesloten.
+
+- Soms ontvangen we eenmalige donaties van privépersonen, waar we
+  uiteraard zeer dankbaar voor zijn. Zo ontvingen we in 2021 een zeer royaal bedrag op onze rekening, te weten €4000, 
+  met als bijschrift “Ga zo door met dit goede project!”. We gebruiken dit soort bedragen om
+  ontmoetingen tussen ontwikkelaars te organiseren of voor ad-hoc-uitgaven die niet voorzien waren.
 
 - Ook hebben verschillende experts en enthousiastelingen op vrijwillige basis bijgedragen
   aan Delta Chat, en sommige doen dat nog steeds. Zij hebben geen of bijna geen
@@ -479,11 +497,6 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door vier grote spele
   de dag is.
 
 Bovenstaande fiancieringen zijn opgezet door merlinux GmbH in
-Freiburg (Duitsland) en daarna toegekend aan bijna 12 vrijwilligers. 
+Freiburg (Duitsland) en daarna toegekend aan meer dan 12 vrijwilligers wereldwijd. 
 
-De financiering voor 2020/2021 moet nog worden opgezet. We nemen verschillende
-mogelijkheden door met organisaties en partners. Daarnaast overwegen
-we een donatiesysteem op te zetten. Sterker nog: daar zijn we al een beetje mee begonnen
-([Delta Chat / Liberapay-donatieaccount](https://liberapay.com/delta.chat/)),
-maar we hebben dit nog niet openbaargemaakt.  Tevens is er tot dusver €3000-€4000
-gedoneerd aan Bjoern's (de oorspronkelijke ontwikkelaar van Delta Chat) PayPal en Bitcoin.
+Financiering voor de tweede helft van 2022 en vooral 2023 is een actieve kwestie en baart ons zorgen. We willen in elk geval niet meer zoveel afhankelijk zijn van overheidsfinanciering. Zie onze [bijdragekanalen](https://delta.chat/en/contribute) om te zien welke ondersteuning we precies zoeken.

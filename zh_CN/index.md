@@ -5,7 +5,7 @@ lang: zh_CN
 
 # 通过电子邮件聊天，和我们一起回到未来!
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 **Delta Chat 类似于 Telegram 或 Whatsapp，但没有跟踪或中央控制。**Delta Chat 不需要你的电话号码。查看我们的 [隐私声明](gdpr)。
 
@@ -19,13 +19,13 @@ lang: zh_CN
 # Android、iOS 和桌面版的屏幕截图
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing a chat" /> 
 
-<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" /> 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
 查看 [get.delta.chat](https://get.delta.chat) 和 [最新博客文章](blog) 获取关于当前版本和事件的信息。
 

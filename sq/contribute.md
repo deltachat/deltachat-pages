@@ -25,19 +25,18 @@ lang: sq
 - [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Probleme Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Kërkojmë përherë për zhvillues që duan të ndihmojnë dhe dinë C, Rust, Java, 
-Swift, Javascript ose Python për Android, iOS, Windows, Linux ose Mac.
+Kërkojmë vazhdimisht zhvillues dhe grafistë që duan të ndihmojnë dhe janë të familjarizuar me 
+C, Rust, Java, Swift, Javascript apo Python në Android, iOS, Windows, Linux ose Mac.
+Zakonisht ofrojmë kontrata ose punësim 20 orë në javë (për ata që gjenden në Gjermani). 
+Ju lutemi, mos ngurroni të lidheni me ne (delta te merlinux eu), nëse interesoheni të ndihmoni përpjekjet tona!
 
 
-# Dhuroni para ose pajisje
+# Dhuroni Para 
 
-Nëse dëshironi të përkrahsni DeltaChat-in me para:
+Nëse e përkrahni DeltaChat-in financiarisht, e ndihmoni të jetë e pranishme dhe të fuqizohet si një projekt i pavarur që funksionon për përdoruesit dhe është i orientuar drejt tyre: 
 
-- IBAN DE86100777770428658900, I zoti i llogarisë (ju lutemi, specifikojeni përherë): Björn Petersen, BIC NORSDE51XXX
+- IBAN DE86100777770428658900, zotërues llogarie (ju lutemi, specifikojeni përherë): Björn Petersen, BIC NORSDE51XXX
 - PayPal ose kartë krediti: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Dhuroni rregullisht, përmes [Liberapay](https://liberapay.com/delta.chat/)
-- Bëni një dhurim një herësh ose ripërsëritës, përmes [Open Collective](https://opencollective.com/delta-chat/donate)
-- Dërgoni bitkoins te [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
-Na duhen **pajisje** për qëllime testimi. Keni ndonjë Android Smartphone ose iPhone që s’e përdorni më?
-[Do të donim](imprint) ta kishim!
+- Dhuroni përmes [Liberapay](https://liberapay.com/delta.chat/)
+- Bëni një dhurim njësh, ose një që përsëritet, përmes [Open Collective](https://opencollective.com/delta-chat/donate)
+- Dërgoni <em>bitcoins</em> te [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)

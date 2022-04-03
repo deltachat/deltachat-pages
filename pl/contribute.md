@@ -24,18 +24,15 @@ lang: pl
 - [Problemy z Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemy z Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Zawsze szukamy programistów, którzy chcą pomóc i znają C, Rust, Java, 
-Swift, Javascript lub Python na Android, iOS, Windows, Linux lub Mac.
+Zawsze szukamy programistów i projektantów, którzy chcą pomóc i znają C, Rust, Java, Swift, Javascript lub Python na Androida, iOS, Windows, Linux lub Mac. Zazwyczaj oferujemy umowy lub zatrudnienie w wymiarze 20 godzin tygodniowo (jeśli mieszkasz w Niemczech). Nie wahaj się skontaktować z nami (delta at merlinux eu), jeśli jesteś zainteresowany pomocą w naszych wysiłkach!
 
 
-# Ofiaruj pieniądze lub urządzenia
+# Ofiaruj pieniądze
 
-Jeśli chcesz wesprzeć DeltaChat pieniędzmi:
+Jeśli wspierasz finansowo DeltaChat, pomagasz mu pozostać i rozwijać się jako niezależny projekt, który działa i jest zorientowany na użytkowników:
 
 - IBAN DE86100777770428658900, Właściciel konta (proszę zawsze określać): Björn Petersen, BIC NORSDE51XXX
 - PayPal lub karta kredytowa: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Wspieraj regularnie za pośrednictwem [Liberapay](https://liberapay.com/delta.chat/)
+- Wspieraj za pośrednictwem [Liberapay](https://liberapay.com/delta.chat/)
 - Przekaż jednorazową lub cykliczną darowiznę za pośrednictwem [Open Collective](https://opencollective.com/delta-chat/donate)
-- Wyślij bitcoiny do [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
-Potrzebujemy **urządzeń** do celów testowych. Czy masz jakiś nieużywany smartfon z Androidem lub iPhona? [Chcielibyśmy](imprint) go wziąć!
+- Wyślij bitcoiny do [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
