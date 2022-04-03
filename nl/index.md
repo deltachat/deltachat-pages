@@ -5,7 +5,7 @@ lang: nl
 
 # Chat via e-mail en omarm samen met ons de toekomst!
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="Het Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 **Delta Chat is vergelijkbaar met Telegram of WhatsApp, maar je wordt niet gevolgd en er is geen centraal beheer.**
 Bekijk onze [GDPR-overeenkomst](gdpr)
@@ -22,13 +22,13 @@ Bekijk ook [wat gebruikers en bedrijven zeggen](user-voices) 📣
 # Schermfoto's: Android, op de computer, en iOS 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="Een screenshot van Delta Chat op Android met de chatlijst" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="Een screenshot van Delta Chat op Android die een chat toont" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing a chat" /> 
 
-<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="Een screenshot van Delta Chat op desktop" /> 
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" /> 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="Een screenshot van Delta Chat op IOS" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
 Ga naar [get.delta.chat](https://get.delta.chat) of lees ons [blog](blog)
 voor nieuws omtrent de huidige versies en andere gebeurtenissen.

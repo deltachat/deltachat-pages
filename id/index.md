@@ -5,7 +5,7 @@ lang: id
 
 # Mengobrol melalui email dan ke masa depan bersama kami!
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" />
+<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 **Delta Chat seperti Telegram atau Whatsapp tetapi tanpa pelacakan atau kendali pusat.**
 Delta Chat tidak memerlukan nomor telepon Anda. Lihat [pernyataan privasi](gdpr) kami.
@@ -22,13 +22,13 @@ Lihat [cerita dari para pengguna](user-voices) 📣
 # Tangkapan layar Android, Desktop and iOS 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing a chat" /> 
 
-<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" /> 
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" /> 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
 Silahkan periksa [get.delta.chat](https://get.delta.chat) dan [posting blog terbaru](blog)
 untuk informasi tentang rilis dan acara terkini.

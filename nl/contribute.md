@@ -25,19 +25,18 @@ lang: nl
 - [Delta Chat voor iOS-problemen](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust-kernbibliotheek- en Python Bindings-problemen](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We zijn altijd op zoek naar ontwikkelaars die willen bijdragen en bekend zijn met 
+We zijn altijd op zoek naar ontwikkelaars en ontwerpers die ons willen helpen en bekend zijn met 
 C, Rust, Java, Swift, Javascript of Python op Android, iOS, Windows, Linux of macOS.
+Doorgaans bieden we 20-urencontracten of vaste indienstelling aan (laatstgenoemde alleen in Duitsland). 
+Neem contact met ons op (delta at merlinux punt eu) als je geïnteresseerd bent!
 
 
-# Geld of apparaten doneren
+# Geld doneren
 
-Geld doneren kan op de volgende manieren:
+Als je een terugkerende donatie instelt, dan help je DeltaChat te groeien als onafhankelijk project waarbij de gebruiker centraal staat:
 
 - IBAN DE86100777770428658900, rekeninghouder (altijd opgeven): Björn Petersen, BIC NORSDE51XXX
 - PayPal of creditcard: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Sponsor ons via [Liberapay](https://liberapay.com/delta.chat/)
 - Sponsor ons middels een eenmalige of terugkerende bijdrage via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Verstuur bitcoins naar [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
-We hebben **apparaten** nodig voor testdoeleinden. Heb je ongebruikte Android-telefoons of iPhones?
-[We](imprint) nemen ze graag van je over!
+- Verstuur bitcoins naar [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)

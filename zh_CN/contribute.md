@@ -21,18 +21,15 @@ lang: zh_CN
 - [Delta Chat iOS 版问题](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust 核心库 + Python 绑定问题](https://github.com/deltachat/deltachat-core-rust/issues)
 
-我们一直都在寻找那些想要帮助我们并且熟悉
-Android、iOS、Windows、Linux 或 Mac 上的 C、Rust、Java、Swift、Javascript 或 Python 的开发人员。
+我们在寻找熟悉 Android、iOS、Windows、Linux 或者 Mac 上的 C、Rust、Java、Swift、Javascript 或 Python 编程语言的，愿意提供帮助的开发和设计人员。我们一般提供每周 20 小时的合同或工作（如果位于德国）。如果您愿意帮助我们，请联系 (delta at merlinux eu) ！ 
 
 
-# 捐赠金钱或设备
+# 捐赠钱款
 
-如果您想用金钱来支持 DeltaChat：
+如果您在钱款上支持 DeltaChat，您可以帮助它作为一个可以使用、面向用户的独立项目继续存在并成长： 
 
 - IBAN DE86100777770428658900，帐户所有者（请务必指定）： Björn Petersen, BIC NORSDE51XXX
 - PayPal 或信用卡： [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- 通过 [Liberapay](https://liberapay.com/delta.chat/) 定期捐赠
-- 通过 [Open Collective](https://opencollective.com/delta-chat/donate) 进行一次性或定期捐赠
-- 发送比特币到 [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
-我们需要**设备**来进行测试。您有废弃的 Android 智能手机或 iPhone 吗？[我们](imprint)很乐意接受它！
+- 通过 [Liberapay](https://liberapay.com/delta.chat/) 捐赠
+- 通过 [Open Collective](https://opencollective.com/delta-chat/donate) 进行一次性或经常性捐赠
+- 发送比特币到 [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)

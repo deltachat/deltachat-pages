@@ -324,10 +324,16 @@ Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą uż
 
 ### Czy Delta Chat jest kompatybilny z Protonmail / Tutanota / Criptext?
 
-- I tak i nie.
-- Nie, nie możesz używać swojego konta Protonmail, Tutanota lub Criptext z Delta Chat; nie oferują one odbierania poczty przez IMAP.
-- W każdym przypadku możesz użyć Delta Chat do wysyłania wiadomości do osób, które używają Protonmail, Tutanota lub Criptext. Te wiadomości nie będą jednak szyfrowane metodą end-to-end. Szyfrowanie typu end-to-end, które oferują ci dostawcy, działa tylko na ich platformach i nie jest kompatybilne z nikim spoza nich.
-- Delta Chat może zaszyfrować metodą end-to-end dowolnego dostawcę poczty e-mail z dowolną [aplikacją e-mail obsługującą Autocrypt](https://autocrypt.org/dev-status.html).
+- Yes and No.
+- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
+  Chat; they do not offer receiving mails via IMAP.
+- In any case you can use Delta Chat to send Messages to people who use
+  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
+  encrypted, though. The End-to-End encryption those providers offer is not 
+  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
+  uses.
+- Delta Chat can e2e-encrypt through any e-mail provider with any
+  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi coś więcej?
@@ -336,19 +342,27 @@ Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą uż
 
 ### W jaki sposób finansowany jest rozwój Delta Chat?
 
-Przede wszystkim Delta Chat nie otrzymuje żadnego kapitału podwyższonego ryzyka, nie jest zadłużony i nie jest pod presją, aby generować ogromne zyski lub sprzedawać reklamodawcom użytkowników i ich przyjaciół i rodzinę (lub gorzej).
+Delta Chat nie otrzymuje żadnego kapitału wysokiego ryzyka, nie jest zadłużony i nie jest pod presją generowania ogromnych zysków lub sprzedawania reklamodawcom użytkowników i ich przyjaciół oraz rodziny (lub gorzej).
+Raczej korzystamy z publicznych źródeł finansowania, jak dotąd pochodzących z UE i USA, aby wspomóc nasze wysiłki w inicjowaniu zdecentralizowanego i zróżnicowanego ekosystemu komunikatora, opartego na rozwoju społeczności Free i Open-Source.
 
-Rozwój Delta Chat był dotychczas finansowany z czterech głównych źródeł:
+Konkretnie, rozwój Delta Chat był dotychczas finansowany z tych źródeł:
 
-W 2017 i 2018 roku w ramach projektu [NEXTLEAP](https://nextleap.eu) UE sfinansowała badania i wdrażanie zweryfikowanych grup oraz ustanawianie protokołów kontaktowych.
+- W 2017 i 2018 roku w ramach projektu [NEXTLEAP](https://nextleap.eu) UE sfinansowała badania i wdrażanie zweryfikowanych grup oraz ustanawianie protokołów kontaktowych, a także pomogła zintegrować szyfrowanie End-to-End za pomocą [Autocrypt](https://autocrypt.org).
 
-- [Open Technology Fund](https://opentechfund.org) przyznał dwa granty. Pierwszy grant 2018/2019 (~200 000 $) znacznie ulepszył aplikację na Androida i pozwolił nam wydać wersję beta aplikacji na komputery stacjonarne, a także ugruntował rozwój naszych funkcji w badaniach UX w kontekście praw człowieka, zobacz nasz końcowy raport [Needfinding and UX](https://delta.chat/en/2019-07-19-uxreport).
-Drugi grant 2019/2020 (~300 000 $) jest nadal w toku i pomaga nam wydać wersje Delta/iOS, przekonwertować naszą podstawową bibliotekę na Rust i zapewnić nowe funkcje dla wszystkich platform. Zobacz bieżące [wpisy na blogu](https://delta.chat/en/blog), aby uzyskać więcej informacji.
+- [Open Technology Fund](https://opentechfund.org) przyznał nam pierwszy grant w 2018/2019 (~200 000 $), dzięki któremu znacznie ulepszyliśmy aplikację na Androida i wydaliśmy pierwszą wersję beta aplikacji na komputery stacjonarne, a także ugruntował rozwój naszych funkcji w badaniach UX w kontekście praw człowieka, zobacz nasz końcowy raport [Needfinding and UX](https://delta.chat/en/2019-07-19-uxreport).
+Druga dotacja w 2019/2020 (~300 000 4) pomogła nam wydać wersje Delta/iOS, przekonwertować naszą podstawową bibliotekę na Rust i zapewnić nowe funkcje dla wszystkich platform.
 
-- Fundacja [NLnet](https://nlnet.nl/) przyznała 46 000 EUR na ukończenie powiązań Rust/Python i zainicjowanie ekosystemu Czat-botów.
+- Fundacja [NLnet](https://nlnet.nl/) przyznała w 2019/2020 46 000 EUR na ukończenie powiązań Rust/Python i zainicjowanie ekosystemu Czat-botów.
+
+- W 2021 r. otrzymaliśmy kolejne dofinansowanie z UE na dwie propozycje dotyczące Internetu nowej generacji, a mianowicie na [EPPD – katalog przenośności dostawcy poczty e-mail](https://dapsi.ngi.eu/hall-of-fame/eppd/) ( ~97 tys. EUR) i [AEAP – przenoszenie adresu e-mail](https://nlnet.nl/project/EmailPorting/) (~90 tys. EUR), co zaowocowało lepszą obsługą wielu kont, ulepszonymi kontaktami i ustawieniami grup za pomocą kodów QR oraz wieloma ulepszeniami sieciowymi na wszystkich platformach.
+
+- Na lata 2021/2022 otrzymujemy dofinansowanie *Wolności Internetu* (~500 tys. $) z amerykańskiego Biura Demokracji, Praw Człowieka i Pracy (DRL).
+Fundusze te wspierają nasze długofalowe cele, aby uczynić Delta Chat bardziej użytecznym i kompatybilnym z szeroką gamą serwerów e-mail na całym świecie, a także bardziej odpornym i bezpiecznym w miejscach często dotkniętych cenzurą i wyłączeniami Internetu.
+
+- Czasami otrzymujemy jednorazowe darowizny od osób prywatnych, za które jesteśmy wdzięczni. Na przykład w 2021 roku pewna hojna osoba przekazała nam 4K EUR w formie przelewu bankowego tytułem "kontynuujcie dobry rozwój!". Takie pieniądze przeznaczamy na finansowanie spotkań rozwojowych lub na doraźne wydatki, których nie da się łatwo przewidzieć lub zrefundować z publicznych dotacji.
 
 - Wreszcie, ale zdecydowanie nie najmniej ważne, kilku ekspertów i entuzjastów pro-bono wniosło wkład i przyczyniło się do rozwoju Delta Chat bez otrzymywania pieniędzy lub tylko niewielkich kwot. Bez nich Delta Chat nie byłby tam, gdzie jest dzisiaj, nawet w pobliżu.
 
-Wspomniane powyżej finansowanie pieniężne zostało zorganizowane przez merlinux GmbH we Freiburgu (Niemcy), a następnie przekazane do prawie tuzina darczyńców.
+Wspomniane powyżej finansowanie pieniężne jest w większości organizowane przez merlinux GmbH we Freiburgu (Niemcy) i jest dystrybuowane do kilkunastu podmiotów na całym świecie.
 
-Finansowanie na rok 2020/2021 nie zostało jeszcze określone. Korzystamy z kilku możliwości, współpracując z różnymi organizacjami i partnerami. Rozważamy również zwrócenie się o darowizny. W rzeczywistości eksperymentalnie założyliśmy małe konto [darowizn Delta Chat / Liberapay](https://liberapay.com/delta.chat/), ale jeszcze tego nie opublikowaliśmy. Do tej pory przekazano również około 3-4 tys. $ kanałem darowizn paypal i bitcoin dla Bjoern'a (pierwotny autor Delta Chat).
+Finansowanie na drugą połowę 2022 r., a zwłaszcza na 2023 r., wciąż budzi niepokój. Oprócz ubiegania się o więcej środków publicznych chcemy uniezależnić się od rządowych źródeł finansowania. Zapoznaj się z [możliwościami wsparcia Delta Chat](https://delta.chat/en/contribute), zarówno finansowego jak i związanego z rozwojem.

@@ -21,18 +21,18 @@ lang: fr
 - [Problèmes Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problèmes Bibliothèque Rust Core + et reliures Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Nous sommes en permanence à la recherche de développeurs qui voudraient nous aider et sont familiers avec C, Rust, Java, Swift, Javascript ou Python sur Android, iOS, Windows, Linux ou Mac.
+We are always looking for developers and designers who want to help along and are familiar with 
+C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
+We typically offer 20 hours per week contracts or employments (if based in germany). 
+Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
 
 
-# Donner de l'argent ou des appareils
+# Donate Money 
 
-Si vous voulez soutenir DeltaChat avec un don d'argent:
+If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users: 
 
-- IBAN DE86100777770428658900, Titulaire du compte (toujours à indiquer): Björn Petersen, BIC NORSDE51XXX
-- PayPal ou Carte de crédit: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Dons réguliers via [Liberapay](https://liberapay.com/delta.chat/)
-- Faites une donation ponctuelle ou périodique via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Envoi de bitcoins à [18e3zwis2raitdZVhEhHHT7xG6oXsZte9L](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
-
-Nous avons besoin d'**appareils** à des fins de test. Avez-vous un smartphone Android ou un iPhone inutilisé?
-[Nous](../fr/imprint) serions heureux de l’avoir!
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
+- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
