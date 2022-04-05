@@ -63,14 +63,14 @@ Je fais beaucoup de publicité pour des alternatives, mais le marché est tout s
 Delta est LA solution pour tous ceux qui permet au moins une alternative.
 - le courriel fonctionne toujours ! :)
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Un utilisateur allemand** en 2019, via courriel à delta@merlinux.eu
 
 
 ### J'attendais depuis longtemps
 
 _"Un grand projet, j'attendais depuis longtemps une application de tchate chiffrée de bout en bout qui offre une véritable alternative aux différents silos comme WhatsApp, Signal, Telegram etc."_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Un utilisateur allemand** en 2019, via courriel à delta@merlinux.eu
 
 
 ### Des messages avec Cuba

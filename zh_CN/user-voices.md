@@ -57,14 +57,14 @@ _“是的，公司将所有的帐单/停机通知系统从 Telegram 迁移到�
 
 _"我真的很高兴有 DeltaChat 这样的应用，而且我发现了它。作为一个很早就使用 WhatsApp 的用户，我因为隐私和安全原因退出了 WhatsApp；因为这个，我和好友的联络中断了；我做了很多广告寻找替代品，但市场太分散了。对每个允许至少一个替代方案的人，Delta 就是解决方案 - 电子邮件始终管用！ :)_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**来自德国的用户** 2019年发给delta@merlinux.eu的邮件
 
 
 ### 等了很久
 
 _" 一个了不起的项目，我等待一款可以真正替代WhatsApp、Signal、Telegram的端到端加密聊天应用程序已经很久了。“_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**来自德国的用户** 2019年发给delta@merlinux.eu的邮件
 
 
 ### 与古巴通信

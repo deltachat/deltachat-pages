@@ -6,19 +6,19 @@ pt:
     rss_news_title: Delta Chat News
 
   menu:
-    home: Home
-    download: Download
+    home: Início
+    download: Baixe
     blog: Blog
-    contribute: Contribute
+    contribute: Contribua
     help: FAQ
-    forum: Forum
+    forum: Fórum
 
   subscribe_to_feed: Subscribe to our feed
 
-  references: References
-  imprint: Imprint
-  privacy: Privacy Policy
-  language: Language
+  references: Referências
+  imprint: Aviso legal
+  privacy: Política de privacidade
+  language: Língua
 
   download:
     recommendation: Recommended for you
