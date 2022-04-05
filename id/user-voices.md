@@ -70,7 +70,7 @@ I do a lot of advertising for alternatives, but the market is just too fragmente
 Delta is THE solution for everyone who allow at least one
 alternative - e-mail always works! :)_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Pengguna dari Jerman** pada 2019, melalui email ke delta@merlinux.eu
 
 
 ### Waiting for a long time
@@ -79,7 +79,7 @@ _"A great project, I've been waiting for a long time
 for an end-to-end-encrypted chat application that gives a real alternative to the
 different silos like WhatsApp, Signal, Telegram etc."_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Pengguna dari Jerman** pada 2019, melalui email ke delta@merlinux.eu
 
 
 ### Messaging with Cuba

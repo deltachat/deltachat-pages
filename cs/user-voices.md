@@ -70,7 +70,7 @@ Dělám hodně reklamy na alternativy, ale trh je prostě příliš roztříšt�
 Delta je řešením pro všechny, kteří přopouští alespoň jednu
 alternativu - e-mail vždy funguje! :)_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Uživatel z Německa** ve 2019, přes e-mail na delta@merlinux.eu
 
 
 ### Dlouhé čekání
@@ -79,7 +79,7 @@ _"Skvělý projekt, na který jsem dlouho čekal.
 Aplikace pro četování s šifrováním od konce ke konci, která je skutečnou alternativou k
 různým silům, jako jsou WhatsApp, Signal, Telegram atd."_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Uživatel z Německa** ve 2019, přes e-mail na delta@merlinux.eu
 
 
 ### Četování na Kubě

@@ -72,7 +72,7 @@ reklamë për alternativa, por tregu është shumë i copëzuar.
 Delta është ZGJIDHJA për këdo që lejon të paktën
 një alternativë - email-i funksionon përherë! :)”_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Përdorues nga Gjermania** më 2019-n, përmes email-i te delta@merlinux.eu
 
 
 ### E kam pritur për një kohë të gjatë
@@ -82,7 +82,7 @@ për një aplikacion fjalosjeje të fshehtëzuar skaj-më-skaj
 që ju jep një alternativë të njëmendtë ndaj silosesh
 të ndryshëm të llojit të WhatsApp-it, Signal-it, Telegram-it, etj.”_
 
-**User from Germany** in 2019, via e-mail to delta@merlinux.eu
+**Përdorues nga Gjermania** më 2019-n, përmes email-i te delta@merlinux.eu
 
 
 ### Shkëmbim mesazhesh me Kubën
