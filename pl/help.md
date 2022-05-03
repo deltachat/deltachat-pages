@@ -107,6 +107,23 @@ Oto, co robi Delta Chat z tymi uprawnieniami:
  - wyświetlanie połączenia Wi-Fi: aby połączyć się z dostawcą poczty e-mail
  - prośba o zignorowanie optymalizacji baterii: dla użytkowników, którzy chcą otrzymywać wiadomości przez cały czas 
 
+### What means Pinning, Muting, Archiving?
+
+Use these tools to organize your chats and keep everything in its place:
+
+- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+
+- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+
+- **Archive chats** if you do not want to see them in your chat list any longer.
+  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+
+- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
+  **Muted chats stay archived** until you unarchive them manually.
+
+To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
+to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+
 
 ## Grupy
 
