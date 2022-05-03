@@ -39,4 +39,4 @@ Als je een terugkerende donatie instelt, dan help je DeltaChat te groeien als on
 - PayPal of creditcard: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Sponsor ons via [Liberapay](https://liberapay.com/delta.chat/)
 - Sponsor ons middels een eenmalige of terugkerende bijdrage via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Verstuur bitcoins naar [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- Verstuur bitcoins naar [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

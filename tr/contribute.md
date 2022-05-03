@@ -8,7 +8,7 @@ lang: tr
 - Daha geniş özellik tartışmaları ve destek almak için
   [Delta Chat destek forumu](https://support.delta.chat).
 
-- [#deltachat on Libera.Chat]({% include webirc-url %}) for day to day communications.
+- [#deltachat Libera.Chat]({% include webirc-url %}) günlük iletişim için.
 
 - Topluluk tartışmaları ve haberler için 
   [Delta Chat posta
@@ -25,18 +25,17 @@ lang: tr
 - [Delta Chat iOS Sorunları](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Çekirdek Kitaplığı + Python Bağlayıcı Sorunları](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers who want to help along and are familiar with 
-C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
-We typically offer 20 hours per week contracts or employments (if based in germany). 
-Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
+Her zaman Android, iOS, Windows, Linux veya Mac'te C, Rust, Java, Swift, Javascript veya Python hakkında bilgi sahibi olan ve yardımcı olmak isteyen geliştiriciler ve tasarımcılar arıyoruz.
+Genellikle haftada 20 saat sözleşme veya istihdam sunuyoruz (Almanya).
+Çabalarımıza yardımcı olmakla ilgileniyorsanız lütfen bize ulaşmaktan çekinmeyin (delta at merlinux eu)
 
 
-# Donate Money 
+# Para bağışı
 
-If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users: 
+DeltaChat'i maddi olarak desteklerseniz, kullanıcılar için çalışan bağımsız bir proje olarak kalmasına ve büyümesine yardımcı olursunuz:
 
-- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donate via [Liberapay](https://liberapay.com/delta.chat/)
-- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Hesap sahibi (lütfen her zaman belirtin): Björn Petersen, BIC NORSDE51XXX
+- PayPal veya kredi kartı: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- [Liberapay](https://liberapay.com/delta.chat/) üzerinden bağış yapın
+- [Open Collective](https://opencollective.com/delta-chat/donate) aracılığıyla bir kerelik veya yinelenen bağış yapın
+- Bitcoin'leri [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka]'ya gönderin(bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

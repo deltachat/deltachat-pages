@@ -35,8 +35,8 @@ Non esitate a contattarci (delta at merlinux eu) se siete interessati ad aiutare
 
 Se sostieni economicamente DeltaChat, lo aiuti a rimanere e crescere come un progetto indipendente che funziona ed è orientato verso i suoi utenti:
 
-- IBAN DE861007777770428658900, Titolare del conto (specificare sempre): Björn Petersen, BIC NORSDE51XXX
+- IBAN DE86100777770428658900, Titolare del conto (specificare sempre): Björn Petersen, BIC NORSDE51XXX
 - PayPal o carta di credito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Dona tramite [Liberapay](https://liberapay.com/delta.chat/)
-- Fai una donazione una tantum o ricorrente tramite [Open Collective](https://opencollective.com/delta-chat/donate)
-- Invia bitcoin a [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- Donare via [Liberapay](https://liberapay.com/delta.chat/)
+- Fai una donazione unica o ricorrente tramite [Open Collective](https://opencollective.com/delta-chat/donate)
+- Invia bitcoin a [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

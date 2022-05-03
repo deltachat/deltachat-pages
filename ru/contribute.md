@@ -35,8 +35,8 @@ C, Rust, Java, Swift, Javascript или Python на Android, iOS, Windows, Linux
 
 Если вы поддержите DeltaChat в денежном выражении, то вы поможете ему и дальше развиваться как независимому проекту, который работает и ориентирован на своих пользователей:
 
-- IBAN DE86100777770428658900, Владелец счёта (пожалуйста, указывайте всегда): Björn Petersen, BIC NORSDE51XXX
-- PayPal или кредитная карта: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Пожертвование через [Liberapay](https://liberapay.com/delta.chat/)
-- Разовое или повторяющееся пожертвование через [Open Collective](https://opencollective.com/delta-chat/donate)
-- Отправить биткоин [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
+- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
+- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

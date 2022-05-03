@@ -59,8 +59,8 @@ Diğer mesajlar otomatik olarak görünmez ve **İletişim isteklerinde** bulunu
 - Ayarlarınıza bir profil resmi ekleyebilirsiniz. Kişilerinize yazarsanız veya
 QR kodu ile eklerseniz, bunu otomatik olarak profil resminiz olarak görürler.
 
-- Contacts who don't use Delta Chat do not see the profile picture
-  (however, of course, they can install Delta Chat :)
+ - Delta Chat kullanmayan kişiler profil resmini göremez 
+(ancak elbette Delta Chat'i yükleyebilirler :)
 
 - Gizlilik nedeniyle, siz onlara bir mesaj yazana kadar hiç kimse profil resminizi görmez.
 
@@ -71,7 +71,7 @@ QR kodu ile eklerseniz, bunu otomatik olarak profil resminiz olarak görürler.
 
 ### Delta Chat, HTML e-postaları destekler mi?
 
-- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
+- Evet. Gerekirse, gelen mesajlarda "Tüm mesajı göster" düğmesi bulunur. Giden e-postalar her zaman düz metin kullanır.
 
 
 ### E-posta parolamı neden Delta Chat'e girmem gerekiyor? Bu güvenli mi?
@@ -93,9 +93,9 @@ about feedback which makes the app more secure for all of our users.
 
 ### Delta Chat hangi izinlere ihtiyaç duyar?
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+Kullanılan işletim sistemine bağlı olarak,
+uygulamaya izin vermeniz istenebilir.
+Delta Chat'in bu izinlerle şununları yapar:
 
 - Camera *(can be disallowed)*
   - take pictures and videos: for sending Photos
@@ -418,9 +418,9 @@ folder for their mail, instead of the DeltaChat folder. If you disable "Watch
 DeltaChat folder", you should also disable "move chat messages to DeltaChat".
 Otherwise, deleting messages or multi-device setups might not work properly.
 
-## Miscellaneous
+## Çeşitli
 
-### Does Delta Chat work with _my_ e-mail-provider?
+### Delta Chat _my_ e-posta sağlayıcımla çalışır mı?
 
 - With a rather good chance: Yes :)  
   However, some providers need special options to work properly,
@@ -442,7 +442,7 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### Delta Chat, Protonmail / Tutanota / Criptext ile uyumlu mu?
 
 - Yes and No.
 - No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
@@ -456,11 +456,11 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
-### I'm interested in the technical details. Can you tell me more?
+### Teknik ayrıntılarla ilgileniyorum. Bana daha fazlasını söyleyebilir misin?
 
-- See [Standards used in Delta Chat]({% include standards-url %}).
+- Bkz. [Delta Chat'te kullanılan standartlar]({% include standards-url %}).
 
-### How are Delta Chat developments funded? 
+### Delta Chat geliştirmeleri nasıl finanse ediliyor?
 
 Delta Chat does not receive any Venture Capital and
 is not indebted, and under no pressure to produce huge profits, or to 
@@ -469,7 +469,7 @@ We rather use public funding sources, so far from EU and US origins, to help
 our efforts in instigating a decentralized and diverse chat messaging eco-system
 based on Free and Open-Source community developments.
 
-Concretely, Delta Chat developments have so far been funded from these sources:
+Somut olarak, Delta Chat gelişmeleri şu ana kadar şu kaynaklardan finanse edildi:
 
 - The [NEXTLEAP](https://nextleap.eu) EU project funded the research
   and implementation of verified groups and setup contact protocols
@@ -508,7 +508,7 @@ Concretely, Delta Chat developments have so far been funded from these sources:
   small amounts. Without them, Delta Chat would not be where it is today, not
   even close. 
 
-The monetary funding mentioned above is mostly organized by merlinux GmbH in
-Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
+Yukarıda bahsedilen maddi finansman çoğunlukla merlinux GmbH tarafından organize edilmektedir.
+Freiburg (Almanya) ve dünya çapında bir düzineden fazla katılımcıya dağıtılmaktadır.
 
-Funding for second half of 2022 and especially for 2023 is an ongoing issue of concern. Apart from applying for more public funding we want to become more independent from government-related funding sources. Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) for both monetary and development related support possibilities. 
+2022'nin ikinci yarısı ve özellikle 2023 için finansman, devam eden bir endişe konusudur. Daha fazla kamu finansmanına başvurmanın yanı sıra, hükümetle ilgili finansman kaynaklarından daha bağımsız olmak istiyoruz. Hem maddi hem de kalkınmayla ilgili destek olanakları için lütfen [Delta Sohbet Katkı kanallarına](https://delta.chat/en/contribute) bakın.

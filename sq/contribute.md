@@ -39,4 +39,4 @@ Nëse e përkrahni DeltaChat-in financiarisht, e ndihmoni të jetë e pranishme 
 - PayPal ose kartë krediti: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Dhuroni përmes [Liberapay](https://liberapay.com/delta.chat/)
 - Bëni një dhurim njësh, ose një që përsëritet, përmes [Open Collective](https://opencollective.com/delta-chat/donate)
-- Dërgoni <em>bitcoins</em> te [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- Dërgoni <em>bitcoins</em> te [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

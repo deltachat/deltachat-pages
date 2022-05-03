@@ -1,5 +1,5 @@
 ---
-title: The e-mail messenger
+title: e-Posta mesajlaşma uygulaması
 lang: tr
 ---
 

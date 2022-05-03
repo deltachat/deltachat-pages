@@ -308,16 +308,10 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 ### Delta Chat 与 Protonmail / Tutanota / Criptext 兼容吗？
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is not 
-  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
-  uses.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- 兼容，也不兼容。
+- 您不能用 Protonmail、Tutanota 或 Criptext 账户来使用 Delta Chat；它们提供使用 IMAP 接收邮件的服务。
+- 您可以使用 Delta Chat 将消息发送给使用 Protonmail、Tutanota 或 Criptext 的人。然而，这些消息不会被端到端加密。这些提供商提供的端到端加密不兼容 Delta Chat 所使用的 [Autocrypt](https://autocrypt.org/)标准。
+- Delta Chat 可以通过任何电子邮件提供商与[使用了 Autocrypt 的电子邮件应用](https://autocrypt.org/dev-status.html)进行端到端加密。
 
 
 ### 我对技术细节很感兴趣。能告诉我更多吗？
@@ -344,6 +338,6 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
 
 - 最后但并非最不重要的是，数位专家与热心人在没有收到或仅收到少量金钱的情况下为 Delta Chat 的开发做出了贡献。没有他们，Delta Chat 不会发展到、甚至无法接近目前的状况。
 
-上面提到的钱款资助主要是由在弗赖堡（德国）的 merlinux GmbH 组织的，分发给了来自世界各地的十多个贡献者。
+上面提到的钱款资助主要是由在弗赖堡（德国）的 merlinux GmbH 组织的，分发给了来自世界各地的十多位贡献者。
 
 2022 年下半年，特别是 2023 年的资助是一个正在被关注的问题。除了申请更多的公共资金外，我们希望能更加独立于政府相关的资金来源。请查看 [Delta Chat 贡献渠道](https://delta.chat/en/contribute)来了解钱款和开发相关的支持可能性。

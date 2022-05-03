@@ -7,7 +7,7 @@ lang: es
 
 ### más diversión con el correo electrónico
 
-_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+_"Una extraña observación: enviar y recibir emails con #DeltaChar hace la experiencia más disfrutable que usar el cliente de email tradicional. Creo que es más un acercamiento moderno: hacer que los emails luzcan como mensajes de chat."_
 
 **Usuario polaco** [mastodon](https://101010.pl/@michal/107107322703871076)
 

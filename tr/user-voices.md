@@ -5,63 +5,58 @@ lang: tr
 
 # Kullanıcı Hikayeleri ve Düşünceleri
 
-### more fun with e-mail
+### e-posta ile daha eğlenceli
 
-_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+_"Biraz tuhaf bir gözlem: #DeltaChat ile e-posta gönderip almak, tüm deneyimi geleneksel bir e-posta istemcisi kullanmaktan daha keyifli hale getiriyor. Sanırım bu durum modern yaklaşımımızla ilgili: e-postaları sohbet mesajları gibi yapmak."_
 
-**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Polonyalı kullanıcı** [mastodon](https://101010.pl/@michal/107107322703871076)
 
-### supports more than one account
+### birden fazla hesabı destekler
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"Merhaba Delta.chat ekibi! Uygulama için teşekkürler; hem son derece kullanışlı hem de UX mükemmele yakın. Bize e-posta hesapları arasında kolay geçiş yapmayı önerebilir misiniz? [...]."_
+**mastodon kullanıcısı** birden fazla hesabı iyileştirmeden önce [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
-### audio and video call possible
+### sesli ve görüntülü arama mümkün
 
-_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+_"En güzel yanı, bir jitsi odası oluşturup davet göndererek görüntülü ve sesli aramaları desteklemesi, harika bir çözüm :)"_
 
-**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
+**mastodon kullanıcısı** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
-### Can recommend to blind people
+### Kör insanlara tavsiye edilebilir
 
-_"I installed Delta Chat last night, just after writing to you,
-and I immediately noticed the improvement in accessibility [...]
-And it works! And it's accessible! And I can recommend the app to other blind people!                                 
-Good job guys! [...]"_
+ _"Dün gece size yazdıktan hemen sonra Delta Chat'i kurdum, 
+ve erişilebilirlikteki gelişmeyi hemen fark ettim [...] 
+Ve çalışıyor! Ve erişilebilir! Ve uygulamayı diğer kör insanlara tavsiye edebilirim! 
+İyi iş millet! [...]"_
 
-**Blind user** about the Android version in 2019, via e-mail to delta@merlinux.eu
+**Kör kullanıcı**, 2019'daki Android sürümü hakkında, delta@merlinux.eu adresine e-posta yoluyla
 
-### Popular in regions with strict Internet governance
+### Sıkı İnternet yönetişimi olan bölgelerde popüler
 
-_"There's this nice messenger, based on a simple email, called Delta Chat. I am happy that our Internet watchdog has made this app popular by trying to block it. It's just like with Telegram that has become widely popular across non-tech audiences after the ban"._ 
+_"Delta Chat adında e-posta temelli basit ve güzel bir mesajlaşma uygulaması var. İnternet denetçimizin bu uygulamayı engellemeye çalışarak popüler hale getirmesinden memnunum. Yasaktan sonra tıpkı Telegram'da olduğu gibi, teknoloji dışı kitleler arasında oldukça popüler hale geldi"._
 
-**Russian user** from 2020 in response to Delta Chat's rejection to satisfy Russian Internet watchdog RKN's request for user data, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**Rus kullanıcı**, Delta Chat'in Rus İnternet denetçisi RKN'nin [Twitter](https://twitter.com/Alex0s/status/1256841124427313153) aracılığıyla kullanıcı verileri talebini karşılamayı reddetmesine yanıt olarak 2020'den itibaren
 
-### Chatty interface with robust encryption
+### Güçlü şifrelemeye sahip sohbet tarzında arayüz
 
 _"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
 
-**American user** from 2020 recommending Delta Chat for everyday usage
+**Amerikalı kullanıcı**, 2020'den beri günlük kullanım için Delta Chat'i öneriyor
 
-### Works during Internet shutdowns
+### İnternet kesintileri sırasında çalışır
 
 _"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
 
-**Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
+**Belaruslu kullanıcı**, Ağustos 2020'deki protestolar sırasında delta@merlinux.eu adresine e-posta yoluyla
 
-### Company notification system migrated
+### Şirket bildirim sistemi göç etti
 
-_"Yes, our company have migrated
-all billing/outage notification systems
-from Telegram to Delta Chat
-in order to improve corporate secrecy,
-thus our cameras send intrusion detection alerts
-to a delta group chat."_
+_"Evet, kurumsal gizliliği artırmak için, şirketimiz tüm faturalandırma/kesinti bildirim sistemlerini Telegram'dan Delta Chat'e taşıdı. Nitekim kameralarımız izinsiz giriş algılama uyarılarını bir delta grup sohbetine gönderiyor." _
 
-**Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/8)
+**Erken erişim kullanıcısı**, 2018'de [destek forumundan](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
-### E-Mail always works
+### E-posta her zaman çalışır
 
 _"I'm really happy that DeltaChat exists and that I discovered it.
 As a very early WhatsApp user, I quit WhatsApp because of privacy and security reasons;
@@ -142,4 +137,4 @@ interops with all the mail clients"_
 **gozala** in 2020 via [Twitter](https://twitter.com/gozala/status/1281346020664729600)
 
 
-Also check out [press references](references).
+Ayrıca [basın referanslarına](references) bakın.
