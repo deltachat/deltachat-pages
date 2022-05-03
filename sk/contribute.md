@@ -36,4 +36,4 @@ If you monetarily support DeltaChat you help it to stay and grow as an independe
 - PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - Donate via [Liberapay](https://liberapay.com/delta.chat/)
 - Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

@@ -6,10 +6,10 @@ downloads: true
 
 ## Değişiklik günlükleri
 
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Masaüstü](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Çekirdek](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Masaüstü sürümleri, Delta Chat'in bir telefona yüklenmesini gerektirmez.
 
@@ -21,10 +21,10 @@ veya uyumlu sistemler.
 
 ## Bağlantılar
 
-* [Provider Database](https://providers.delta.chat/): Does my Provider work with Delta Chat?
-* [FAQ multiclient](help#multiclient): How to synchronize Desktop with another Delta Chat app.
-* [Verify Downloads](verify-downloads): Verify data integrity of downloads
-* [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Solutions for common desktop installation problems
+* [Sağlayıcı Veritabanı](https://providers.delta.chat/): Sağlayıcım Delta Chat ile çalışır mı?
+* [SSS çoklu istemci](help#multiclient): Masaüstü başka bir Delta Chat uygulamasıyla nasıl senkronize edilir.
+* [İndirmeleri Doğrula](verify-downloads): İndirilenlerin veri bütünlüğünü doğrulayın
+* [Masaüstü Yükleme Sorun Giderme](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Yaygın masaüstü yükleme sorunları için çözümler
 
 ## Önizleme Yapıları
 

@@ -32,4 +32,4 @@ lang: zh_CN
 - PayPal 或信用卡： [paypal.me/deltachat](https://paypal.me/deltachat/20)
 - 通过 [Liberapay](https://liberapay.com/delta.chat/) 捐赠
 - 通过 [Open Collective](https://opencollective.com/delta-chat/donate) 进行一次性或经常性捐赠
-- 发送比特币到 [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:18e3zwis2raitdZVhEhHHT7xG6oXsZte9L)
+- 发送比特币到 [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
