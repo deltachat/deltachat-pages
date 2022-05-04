@@ -112,16 +112,16 @@ Delta Chat doet het volgende met deze rechten:
   - Wi-Fi-verbindingen bekijken: om je e-mailprovider te koppelen
   - vraag om accu-optimalisatie te negeren: voor gebruikers die continue berichten willen blijven ontvangen
 
-### What means Pinning, Muting, Archiving?
+### Wat is vastmaken, negeren en archiveren?
 
-Use these tools to organize your chats and keep everything in its place:
+Met deze hulpmiddelen kun je je gesprekken geordend houden:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **Vastgemaakte gesprekken** vind je te allen tijde bovenaan de gesprekslijst terug. Zo kun je je belangrijste gesprekken permanent of tijdelijk bij de hand houden, zodat je niets vergeet.
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- Stel gesprekken in op **Negeren** als je geen meldingen meer wilt ontvangen. Wel blijven genegeerde gesprekken op de lijst staan en kun je ze te allen tijde vastmaken.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+- **Archiveer gesprekken** als je ze niet meer op de gesprekslijst wilt zien.
+  Je kunt ze echter nog steeds oproepen aan het einde van de lijst, via het menu of een zoekopdracht.
 
 - When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
   **Muted chats stay archived** until you unarchive them manually.
