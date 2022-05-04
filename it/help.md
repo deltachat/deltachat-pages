@@ -118,22 +118,22 @@ Questo è ciò che fa Delta Chat con queste autorizzazioni:
 - visualizzare le connessioni Wi-Fi: per connettersi al proprio fornitore E-Mail
 - chiedi di ignorare le ottimizzazioni della batteria: per gli utenti che vogliono ricevere immediatamente i messaggi
 
-### What means Pinning, Muting, Archiving?
+### Cosa significa Fissare, Silenziare, Archiviare?
 
-Use these tools to organize your chats and keep everything in its place:
+Usa questi strumenti per organizzare le tue chat e tenere tutto in ordine:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **Chat fissate** restano sempre in cima all'elenco. Puoi usarlo per accedere velocemente alle tue chat preferite o temporaneamente per non dimenticare alcune cose.
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **Silenzia chat** se non vuoi ricevere notifiche da queste. Le chat silenziate restano al loro posto e puoi anche fissare una chat silenziata.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+- **Archivia chat** se non vuoi più vederle nel tuo elenco. 
+ In fondo all'elenco delle chat, nel menu o tramite la ricerca, puoi sempre accedere alle chat archiviate.
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- Quando una chat archiviata riceve un nuovo messaggio, a meno che non sia silenziata, **salterà fuori dall'archivio** e tornerà nell'elenco delle chat.
+**Le chat silenziate restano archiviate** fino a che non le estrai manualmente.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+Per archiviare o fissare una chat, premi a lungo (Android), usa il menu della chat (Android/Desktop) o striscia verso sinistra (iOS);
+per silenziare una chat, usa il menu della chat (Android/Desktop) o il profilo della chat (iOS).
 
 
 ## Gruppi

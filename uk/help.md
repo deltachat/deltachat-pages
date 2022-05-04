@@ -102,19 +102,19 @@ Delta Chat автоматично показує:
   - перегляд Wi-Fi з'єднань: для під'єднання до сервера електронної пошти
   - запитувати дозволу ігнорувати оптимізації батареї: для користувачів які хочуть бути на постійному зв'язку
 
-### What means Pinning, Muting, Archiving?
+### Що значить Закріплення, Приглушення, Архівування?
 
-Use these tools to organize your chats and keep everything in its place:
+Використовуйте ці інструменти, щоб організувати ваші чати і тримати все на своєму місці:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **Закріплені чати** завжди залишаються першими в списку чатів. Ви можете використовувати їх, щоб мати швидкий доступ до ваших найулюбленіших чат або тимчасово аби про щось не забути.
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **Приглушіть чати** якщо ви не хочете отримувати сповіщення для них. Приглушені чати залишаються на місці і ви також можете закріпити приглушений чат.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+- **Архівуйте чати** якщо ви не хочете бачити їх у вашому списку чатів.
+  Ви все одно можете отримати доступ до архівних чатів: в нижній частині списку чатів, в меню або через пошук.
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- Коли архівний чат отримує нове повідомлення, якщо не приглушений, він **вискочить з архіву** і повернеться у ваш список чатів.
+  **Приглушені чати залишаються заархівованим** доки ви не розархівуєте їх вручну.
 
 To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
 to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
@@ -325,16 +325,15 @@ Delta Chat підтримує поширені формати приватних
 
 ### Чи сумісний Delta Chat із Protonmail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is not 
-  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
-  uses.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- Так і ні.
+- Ні, ви не можете використовувати ваші Protonmail, Tutanota, або Criptext аккаунти з Delta
+  Chat; вони не надають можливість отримання повідомлень через IMAP.
+- В будь-якому разі ви можете використовувати Delta Chat, щоб надсилати Повідомлення
+  людям, які використовують Protonmail, Tutanota, або Criptext. Однак ці повідомлення не 
+  будуть наскрізно зашифровані. Наскрізне шифрування, яке пропонують ці сервіси не є 
+  сумісне з [Autocrypt](https://autocrypt.org/), стандартом, який використовує Delta Chat.
+- Delta Chat може насрізно шифрувати через будь-якого постачальника e-mail з будь-яким
+  [Autocrypt підтримуваним додатком e-mail](https://autocrypt.org/dev-status.html).
 
 
 ### Мене цікавлять технічні деталі. Можете розповісти більше?
@@ -350,24 +349,24 @@ We rather use public funding sources, so far from EU and US origins, to help
 our efforts in instigating a decentralized and diverse chat messaging eco-system
 based on Free and Open-Source community developments.
 
-Concretely, Delta Chat developments have so far been funded from these sources:
+Конкретно, розробки Delta Chat поки що фінансуються з цих джерел:
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018 and also helped to integrate End-to-End Encryption
-  through [Autocrypt](https://autocrypt.org).
+- Проект ЄС [NEXTLEAP](https://nextleap.eu) фінансував дослідження
+  та впровадження перевірених груп і налаштування контактних протоколів
+  в 2017 і 2018, а також допоміг впрводвадити Наскрізне шифрування
+  через [Autocrypt](https://autocrypt.org).
 
-- The [Open Technology Fund](https://opentechfund.org) gave us a 
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app 
-  and released a first Desktop app beta version, and which moreover 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  
+- [Open Technology Fund](https://opentechfund.org) надав нам два гранти. 
+  Перший грант 2018/2019 року (~$200K), допоміг значно покращили додаток для Android
+  і випустили першу бета-версію додатка для ПК, і який до того ж
+  закріпив наші розробки функцій у дослідженнях UX у контексті прав людини, 
+  дивіться наш підсумковий звіт [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  Другий грант 2019/2020 року (~$300K) допоміг нам 
+  випустити Delta/iOS версію, конвертувати нашу основному бібліотеку на Rust,
+  і додати нові функції для всіх платформ.  
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+- [Фундація NLnet](https://nlnet.nl/) надала в 2019/2020 46 тис. євро на
+  завершення прив'язок Rust/Python і створення екосистеми Чат-Ботів. 
 
 - In 2021 we received further EU funding for two Next-Generation-Internet
   proposals, namely for [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-account support, improved QR-code contact and group setups and many networking improvements on all platforms.

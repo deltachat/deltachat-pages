@@ -121,22 +121,22 @@ Ja se ç’bën Delta Chat-i me këto leje:
   - të shohë lidhjet Wi-Fi: për t’u lidhur me furnizuesin e shërbimit tuaj email
   - të kërkojë shpërfillje të optimizimeve për baterinë: për përdoruesit që duan t’i marrin mesazhet gjatë gjithë kohës
 
-### What means Pinning, Muting, Archiving?
+### Ç’do të thotë Fiksim, Heshtim, Arkivim?
 
-Use these tools to organize your chats and keep everything in its place:
+Përdorini këto mjete për të sistemuar fjalosjet tuaja dhe për ta mbajtur gjithçka në vendin e vet:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **Fjalosjet e fiksuara** qëndrojnë përherë në krye të listës së fjalosjeve. Mund t’i përdorni për të hyrë shpejt, ose përkohësisht te fjalosjet tuaja më të dashura, për të mos harruar gjëra.
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **Heshtoni fjalosje**, nëse s’doni të merrni njoftime mbi to. Fjalosjet e heshtuara qëndrojnë në vend dhe mundeni edhe të fiksoni një fjalosje të heshtuar.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+- **Arkivoni fjalosje**, nëse s’doni t’i shihni më te lista e fjalosjeve tuaja.
+  Në fund të listës së fjalosjeve, te menuja, ose përmes kërkimit, mundeni prapëseprapë të përdorni fjalosje të arkivuara.
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- Kur te një fjalosje e arkivuar vjen një mesazh i ri, do të **hapet jashtë arkivit** dhe kalojë te lista juaj e fjalosjeve, veç në mos qoftë e heshtuar.
+  **Fjalosjet e heshtuara mbeten të arkivuara**, veç në i çarkivofshi dorazi.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+Që të arkivoni ose fiksoni një fjalosje, prekeni gjatë (në Android), përdorni menunë e fjalosjes (në Android/Desktop), ose fërkojeni për majtas (në iOS);
+që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Desktop), ose profilin e fjalosjes (në iOS).
 
 
 ## Grupe
