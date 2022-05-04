@@ -463,7 +463,7 @@ Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere
   [https://autocrypt.org/dev-status.html](e-mailapp die Autocrypt gebruikt).
 
 
-## Ik wil graag meer weten over de gebruikte technieken. Waar kan ik meer informatie vinden?
+### Ik wil graag meer weten over de gebruikte technieken. Waar kan ik meer informatie vinden?
 
 - Bekijk de pagina [Door Delta Chat gebruikte standaarden]({% include standards-url %}).
 
