@@ -30,6 +30,8 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
+<a class="download-button" href="https://get.delta.chat">Download</a>
+
 Please check [get.delta.chat](https://get.delta.chat) and the [latest blog posts](blog)
 for information on current releases and events. 
 
