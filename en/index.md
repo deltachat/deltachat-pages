@@ -18,7 +18,7 @@ Delta Chat doesn't even need your phone number. Check out our [privacy statement
 Check out [user stories and voices](user-voices) 📣
 
 
-# Screenshots Android, Desktop and iOS 
+# Available on mobile and desktop
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
