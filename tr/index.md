@@ -16,7 +16,7 @@ sistemini kullanır: Varolan e-posta sunucusu ağı.
 **E-posta adresini bildiğiniz herhangi biriyle sohbet edin, Delta Chat'i kurmalarına gerek yoktur!** 
 Size tek gereken bir standart e-posta hesabıdır.
 
-[Kullanıcı hikayelerine ve seslerine](kullanıcı sesleri) göz atın 📣
+[Kullanıcı hikayelerine ve seslerine](user-voices) göz atın 📣
 
 
 # Android, Masaüstü ve iOS Ekran Görüntüleri 
