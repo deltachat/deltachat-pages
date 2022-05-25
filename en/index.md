@@ -8,7 +8,7 @@ lang: en
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 **Message anyone with an e-mail address, even if they don't use Delta Chat.** 
-If they don't have the app, they receive a simple email.
+If they don't have the app, they receive a simple e-mail.
 
 **It's like Telegram or WhatsApp, but without tracking or central control.**
 Delta Chat doesn't even need your phone number. Check out our [privacy statement](gdpr).
