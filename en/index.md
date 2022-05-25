@@ -3,23 +3,22 @@ title: The e-mail messenger
 lang: en
 ---
 
-# Chat over e-mail and head back to the future with us!
+# Delta Chat is a messaging app that works over e-mail
 
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
-**Delta Chat is like Telegram or Whatsapp but without the tracking or central control.**
-Delta Chat does not need your phone number. Check out our [privacy statement](gdpr).
+**Message anyone with an e-mail address, even if they don't use Delta Chat.** 
+If they don't have the app, they receive a simple e-mail.
 
-**Delta Chat doesn't have their own servers** but uses the most massive and diverse open messaging 
-system ever: the existing e-mail server network.
+**It's like Telegram or WhatsApp, but without tracking or central control.**
+Delta Chat doesn't even need your phone number. Check out our [privacy statement](gdpr).
 
-**Chat with anyone if you know their e-mail address, no need for them to install DeltaChat!** 
-All you need is a standard e-mail account.
+**Own your data.** Your data stays on your device or email account: Delta Chat has no servers.
 
 Check out [user stories and voices](user-voices) 📣
 
 
-# Screenshots Android, Desktop and iOS 
+# Available on mobile and desktop
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
