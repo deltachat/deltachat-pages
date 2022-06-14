@@ -24,11 +24,6 @@ Webxdc apps are simpler to develop and deploy than traditional web apps: you can
 
 Just package your web app as an <code>.xdc</code> file (just a zip archive), and then drop it in a chat, or offer it for download on a web page so others can share it in their chats. There are many examples from simple to complex on [webxdc.org](https://webxdc.org).
 
-## Could other chat messengers support webxdc apps? 
+## Support for webxdc in other chat messengers
 
-Webxdc apps could be seemlessly supported by other chat messengers.
-However, many messaging projects are currently busy with 
-introducing advertising or blockchains or returning profit for VC investments 
-so we are not holding our breath right now. 
-Rest assured, when the time comes and interest rises 
-we'll be there and open to collaboration :)
+Webxdc is designed to be an open standard, not exclusive to Delta Chat. We would love to see other messaging projects large and small support this simple protocol to add app-like experiences to chats — we're open to collaboration.
