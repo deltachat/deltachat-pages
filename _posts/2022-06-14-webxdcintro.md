@@ -15,7 +15,7 @@ Interaction with servers or entities outside the chat is not possible.
 This is why ".xdc" files need to be self-contained zip-files and bring all needed resources. 
 Once started, a webxdc app can send and receive data with anyone 
 who also started the webxdc app in the chat. 
-Delta Chat apps takes care of routing internal application updates between chat peers. 
+The Delta Chat app takes care of routing internal application updates between chat peers. 
 End-to-end encryption thus comes for free for all webxdc apps. 
 Even better, neither Delta chat nor webxdc app developers can gain any access to user data. 
 This is why no privacy policy or consent is needed for webxdc apps.
