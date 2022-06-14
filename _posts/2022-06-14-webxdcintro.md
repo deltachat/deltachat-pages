@@ -16,16 +16,13 @@ Once running, webxdc apps can send and receive data with any chat participant; t
 
 All webxdc apps get end-to-end encryption for free, and user data cannot be accessed by Delta Chat or webxdc app developers. No privacy policy or consent is needed for webxdc apps because all data is stored on-device or between invited chat participants.
 
-## Writing your own HTML5 webxdc apps 
+## Writing your own webxdc apps with HTML5
 
 <iframe src="https://www.youtube-nocookie.com/embed/I1K4pBvb2pI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-Webxdc apps are simpler to develop and deploy than traditional web apps. 
-You only need basic web development knowledge to get going, 
-and do not need to implement logins, user discovery or 
-maintain a platform.
-Just attach your HTML5 <code>.xdc</code> app to a chat or 
-offer it on a web page for download so people can share it in their chats. You can find and learn from the many small examples on [webxdc.org](https://webxdc.org). 
+Webxdc apps are simpler to develop and deploy than traditional web apps: you can get started with a simple understanding of HTML, CSS, and JavaScript, without implementing logins, user discovery, or a platform.
+
+Just package your web app as an <code>.xdc</code> file (just a zip archive), and then drop it in a chat, or offer it for download on a web page so others can share it in their chats. There are many examples from simple to complex on [webxdc.org](https://webxdc.org).
 
 ## Could other chat messengers support webxdc apps? 
 
