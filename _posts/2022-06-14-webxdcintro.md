@@ -8,17 +8,13 @@ Delta Chat 1.30 introduces support for [webxdc apps](https://webxdc.org): which 
 
 XXX TODO: VIDEO showing how to share webxdc.org game examples through a chat 
 
-## Sharing webxdc apps is pretty safe and easy 
+## Sharing webxdc apps is safe and easy 
 
-Webxdc apps are started in a locked-down browser sandbox on your own device. 
-Interaction with servers or entities outside the chat is not possible.
-This is why ".xdc" files need to be self-contained zip-files and bring all needed resources. 
-Once started, a webxdc app can send and receive data with anyone 
-who also started the webxdc app in the chat. 
-The Delta Chat app takes care of routing internal application updates between chat peers. 
-End-to-end encryption thus comes for free for all webxdc apps. 
-Even better, neither Delta chat nor webxdc app developers can gain any access to user data. 
-This is why no privacy policy or consent is needed for webxdc apps.
+Webxdc apps run in a sandboxed browser on your device, which restricts interaction with external servers or entities outside the chat; this is why <code>.xdc</code> files need to be self-contained zip-files with all necessary resources.
+
+Once running, webxdc apps can send and receive data with any chat participant; the Delta Chat app takes care of routing updates to the right place.
+
+All webxdc apps get end-to-end encryption for free, and user data cannot be accessed by Delta Chat or webxdc app developers. No privacy policy or consent is needed for webxdc apps because all data is stored on-device or between invited chat participants.
 
 ## Writing your own HTML5 webxdc apps 
 
