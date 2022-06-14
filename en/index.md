@@ -14,8 +14,6 @@ lang: en
 
 **🤌🏾 All your data stays on your device and email account.**
 
-**👂 Check out [user stories and voices](user-voices), follow us in the [Fediverse](https://chaos.social/web/@delta) 📣**
-
 
 # Available on mobile and desktop
 
@@ -34,4 +32,4 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
 and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
 
-
+Check out [user stories and voices](user-voices).
