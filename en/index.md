@@ -17,7 +17,7 @@ lang: en
 **👂 Check out [user stories and voices](user-voices), follow us in the [Fediverse](https://chaos.social/web/@delta) 📣**
 
 
-# Available on mobiles and desktops
+# Available on mobile and desktop
 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
