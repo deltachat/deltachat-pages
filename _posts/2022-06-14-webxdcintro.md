@@ -11,7 +11,7 @@ XXX TODO: VIDEO showing how to share webxdc.org game examples through a chat
 ## Sharing webxdc apps is pretty safe and easy 
 
 Webxdc apps are started in a locked-down browser sandbox on your own device. 
-Interaction with servers or entities outside the chat is technically prohibited. 
+Interaction with servers or entities outside the chat is not possible.
 This is why ".xdc" files need to be self-contained zip-files and bring all needed resources. 
 Once started, a webxdc app can send and receive data with anyone 
 who also started the webxdc app in the chat. 
