@@ -4,7 +4,7 @@ author: holga
 image: ../assets/logos/webxdc.png
 ---
 
-The recently released Delta Chat 1.30 series introduced support for [webxdc apps](https://webxdc.org). You may attach or share a <code>.xdc</code> file containing a HTML5 app to a chat and anyone there can seemlessly "start" interacting with each other.
+The recently released Delta Chat 1.30 series introduced support for [webxdc apps](https://webxdc.org). You may attach or share a <code>.xdc</code> file containing an HTML5 app to a chat and anyone there can seemlessly "start" interacting with each other.
 
 XXX TODO: VIDEO showing how to share webxdc.org game examples through a chat 
 
