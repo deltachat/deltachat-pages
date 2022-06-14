@@ -4,7 +4,7 @@ author: holga
 image: ../assets/logos/webxdc.png
 ---
 
-Delta Chat 1.30 introduces support for [webxdc apps](https://webxdc.org): this means you can attach or share an HTML5 app (packaged as a <code>.xdc</code> file) inside a chat so that any participant can run the app by clicking "Start" in the message.
+Delta Chat 1.30 introduces support for [webxdc apps](https://webxdc.org): which makes it possible to share HTML5 apps (packaged as <code>.xdc</code> files) inside your chats, so that any participant can run the app by clicking "Start" in the message.
 
 XXX TODO: VIDEO showing how to share webxdc.org game examples through a chat 
 
