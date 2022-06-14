@@ -27,7 +27,7 @@ This is why no privacy policy or consent is needed for webxdc apps.
 Webxdc apps are simpler to develop and deploy than traditional web apps. 
 You only need basic web development knowledge to get going, 
 and do not need to implement logins, user discovery or 
-maintain a platform however "serverless" they claim to be.
+maintain a platform.
 Just attach your HTML5 <code>.xdc</code> app to a chat or 
 offer it on a web page for download so people can share it in their chats. You can find and learn from the many small examples on [webxdc.org](https://webxdc.org). 
 
