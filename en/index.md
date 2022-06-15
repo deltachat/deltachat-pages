@@ -8,12 +8,11 @@ lang: en
 <img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 <br>
-🗨️ **Message any e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).**
+🗨️ Message any e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-🥳 **Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).**
+🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
 
-**🤌🏾 All your data stays on your device and email account.**
-
+🤌🏾 All your data stays on your device and email account.
 
 # Available on mobile and desktop
 
