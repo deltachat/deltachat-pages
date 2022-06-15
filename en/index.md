@@ -3,7 +3,7 @@ title: The e-mail messenger
 lang: en
 ---
 
-# Open and extensible messenging apps that work over e-mail 
+# Delta Chat is a messaging app the works over e-mail 
 
 <img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
