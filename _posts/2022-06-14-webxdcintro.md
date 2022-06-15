@@ -1,6 +1,6 @@
 ---
 title: Sharing web apps in a chat 
-author: holga
+author: holga, rosano, r10s
 image: ../assets/logos/webxdc.png
 ---
 
