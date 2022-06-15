@@ -9,3 +9,7 @@
 	color: black;
 	font-weight: bold;
 }
+
+#content h1:hover .anchor::before {
+	content: unset;
+}
