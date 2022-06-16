@@ -12,7 +12,7 @@ lang: en
 
 🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
 
-🤌🏾 All your data stays on your device and email account.
+🔒 All your data stays on your device and email account.
 
 # Available on mobile and desktop
 
