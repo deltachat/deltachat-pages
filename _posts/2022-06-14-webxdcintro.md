@@ -16,7 +16,7 @@ All webxdc apps get end-to-end encryption for free, and user data cannot be acce
 
 ## Writing your own webxdc apps with HTML5
 
-<iframe src="https://www.youtube-nocookie.com/embed/I1K4pBvb2pI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<video controls style="width:560px; max-width: 100%;"><source src="https://webxdc.org/assets/just-web-apps.mp4" type="video/mp4"><a href="https://www.youtube.com/watch?v=I1K4pBvb2pI">watch "just web apps" on youtube</a></video>
 
 Webxdc apps are simpler to develop and deploy than traditional web apps: you can get started with a simple understanding of HTML, CSS, and JavaScript, without implementing logins, user discovery, or a platform, let alone the legal and operational issues that come with that. 
 
