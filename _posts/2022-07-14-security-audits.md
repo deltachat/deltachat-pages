@@ -1,5 +1,5 @@
 ---
-title: The Security Microscope: Security Audits for Delta Chat and RPGP
+title: The Security Microscope - Security Audits for Delta Chat and RPGP
 author: missytake
 image: ../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg
 ---
