@@ -212,3 +212,29 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+
+.footnotes {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.footnotes:before {
+  content: "_______________________";
+  color: #999;
+}
+.footnotes li {
+    color: #999;
+    font-size: 12px;
+}
+.footnotes li a {
+    color: #999;
+    text-decoration: underline;
+}
+.reversefootnote {
+    text-decoration: none !important;
+}
+sup[role="doc-noteref"]:before {
+    content: "[";
+}
+sup[role="doc-noteref"]:after {
+    content: "]";
+}
