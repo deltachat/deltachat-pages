@@ -11,7 +11,7 @@ prevented by not having a central Delta Chat server; others are prevented by
 [using Rust code for all network and cryptographic
 operations](2019-05-08-xyiv#the-coming-delta-chat-rustocalypse). Nevertheless,
 part of our OTF funding program were two independent security audits to find
-and fix security issues in Delta Chat and its encryption libraries.
+and fix security issues in Delta Chat and its most security-critical libraries.
 
 ## The RPGP and RustCrypto RSA Libraries
 
