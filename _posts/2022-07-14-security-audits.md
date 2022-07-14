@@ -4,7 +4,8 @@ author: missytake
 image: ../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg
 ---
 
-<img src="../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg" style="width:160px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="A woman looking through a microscope" />
+![A woman looking through a microscope](../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg)
+
 Delta Chat is not only an e-mail messenger, it also prides itself for having a
 focus on usable privacy and security. Many possible security issues are
 prevented by not having a central Delta Chat server; others are prevented by
