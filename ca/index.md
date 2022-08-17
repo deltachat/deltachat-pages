@@ -3,23 +3,19 @@ title: El missatger de correu electrònic
 lang: ca
 ---
 
-# Xateja sobre correu electrònic i retorna al futur amb naltros! 
+# Delta Chat és una app de missatgeria que funciona sobre el correu electrònic
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" style="float: left; margin: 20px;" alt="Logo de Delta Chat" width="110"/>
 
-**Delta Chat és com Telegram o Whatsapp però sense el seguiment o un control central.**
-Delta Chat no necessita el teu número de telèfon. Revisa la nostra [declaració de privacitat](gdpr).
+<br>
+🗨️ Escriviu un missatge a qualsevol amb una adreça de correu electrònic [fins i tot si no usen Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-**Delta Chat no te servidors propis** però usa el sistema de missatgeria més massiu i divers 
-que hi ha hagut mai: la xarxa de servidors de correu electrònic.
+🥳 Gaudiu d'experiències de xat interactiu a través d'[apps webxdc](https://webxdc.org).
 
-**Xateja amb qualsevol persona de la que coneguis la seva adreça de correu electrònic, sense que a ells els calgui instal·lar DeltaChat!** 
-Només et cal una adreça de correu electrònic normal i corrent.
+🔒 Les vostres dades romanen al vostre dispositiu i al vostre compte de correu electrònic.
 
-Consulta [els testimonis i experiències dels usuaris](user-voices) 📣
+# Disponible al mòbil i a l'escriptori
 
-
-# Captures de pantalla d'Android, Escriptori i iOS 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
@@ -30,9 +26,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-Si us plau doneu-li una ullada a [get.delta.chat](https://get.delta.chat) i els [escrits més recents del blog](blog)
-per informar-vos sobre les versions actuals i els esdeveniments. 
+<a class="download-button" href="https://get.delta.chat">Descarregueu-lo</a>
 
-Delta Chat és [Codi Obert](https://ca.wikipedia.org/wiki/Codi_obert)
-i [Programari lliure](https://ca.wikipedia.org/wiki/Programari_lliure). Podeu fer-lo servir,
-examinar-lo, canviar-lo i compartir-lo amb qui vulgueu.
+[Codi Obert](https://en.wikipedia.org/wiki/Open-source_software)
+i [Programari Lliure](https://en.wikipedia.org/wiki/Free_software), basat en [Estàndards d'Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+
+Doneu una ullada als [testimonis dels usuaris](user-voices).

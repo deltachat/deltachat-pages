@@ -5,9 +5,9 @@ lang: zh_CN
 
 # 印记
 
-Delta.Chat是一个开源社区项目。 负责这些页面内容的是：
+Delta Chat 是一个[开源社区项目](https://github.com/deltachat)。 负责网站内容的是：
 
-Merlinux GmbH
+merlinux GmbH
 Reichsgrafenstr. 20
 79102  弗莱堡, 德国
 

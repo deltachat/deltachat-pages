@@ -5,6 +5,9 @@ lang: cs
 
 # Kanály a úložiště
 
+- [Fediverse](https://chaos.social/web/@delta) and
+  [Twitter](https://twitter.com/delta_chat) for announcements.
+
 - [Fórum podpory Delta Chat](https://support.delta.chat) pro veřejnou
 diskuzi o funkcích a pro získání podpory.
 

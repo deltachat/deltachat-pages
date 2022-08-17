@@ -3,33 +3,32 @@ title: Der E-Mail-Messenger
 lang: de
 ---
 
-# Mit "Chat over E-Mail" zurück in die Zukunft!
+# DeltaChat ist ein Messenger, der über E-Mail funktioniert
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
-**Delta Chat ist wie Telegram oder Whatsapp, aber ohne Tracking oder zentrale Steuerung.**
-Delta Chat benötigt nicht Ihre Telefonnummer. Schauen Sie unsere [Datenschutzerklärung](gdpr) an.
+<br>
+🗨️ Sende Nachrichten an jeden, der eine E-Mail Adresse hat, [selbst wenn sie nicht DeltaChat nutzen](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-**Delta Chat betreibt keine eigenen Server,** verwendet jedoch das umfangreichste und vielfältigste offene Messaging-System überhaupt: das bestehende E-Mail-Server-Netzwerk.
+🥳 Entdecke interaktives chatten mit [webxdc Apps](https://webxdc.org).
 
-**Einfach mit jeder Person chatten, deren E-Mail-Adresse bekannt ist.** Der Chat-Partner benötigt dabei kein Delta Chat. Ein Standard-E-Mail-Konto reicht aus.
+🔒 Alle deine Daten bleiben auf deinem Gerät und in deinem E-Mail Account.
 
-[Feedback von Benutzern](user-voices) 📣
+# Verfügbar für Mobil- und Desktopgeräte
 
-
-# Android, Desktop und iOS Screenshots
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" />
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light.png" width="120" 
-style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing a chat" /> 
+style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing a chat" />
 
-<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" /> 
+<img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" />
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" />
 
-Bitte schauen Sie auf [get.delta.chat](https://get.delta.chat) und lesen Sie unsere [neuesten Blogposts](blog) für Informationen über derzeitige Releases und Events.
+<a class="download-button" href="https://get.delta.chat">Herunterladen</a>
 
-Delta Chat ist [Open Source](https://de.wikipedia.org/wiki/Open_Source)
-und [Freie Software](https://de.wikipedia.org/wiki/Freie_Software). Sie können sie verwenden,
-ansehen, verändern und nach Belieben mit allen teilen.
+[Quelloffene](https://de.wikipedia.org/wiki/Open_Source)
+und [freie Software](https://de.wikipedia.org/wiki/Freie_Software), basierend auf [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+
+Sieh dir [Erfahrungsberichte und Meinungen](user-voices) an.

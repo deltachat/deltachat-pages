@@ -5,11 +5,11 @@ lang: de
 
 # Impressum
 
-Delta.Chat ist ein Open Source Community-Projekt. Verantwortlich für den Inhalt auf diesen Seiten ist:
+Delta Chat ist ein [Quelloffenes Gemeinschaftsprojekt](https://github.com/deltachat). Verantwortlich für den Inhalt unserer Webseite ist:
 
-    Merlinux GmbH
-    Reichsgrafenstr. 20
-    79102 Freiburg, Deutschland
+merlinux GmbH
+Reichsgrafenstr. 20
+79102 Freiburg, Deutschland
 
 E-Mail: {% include email-link %}
 

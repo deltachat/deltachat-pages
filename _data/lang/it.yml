@@ -2,7 +2,7 @@ it:
   
   meta:
     description: Delta Chat - Messaggistica istantanea basata sulle email
-    keywords: "delta chat, email messaging app, download delta chat"
+    keywords: "delta chat, app di messaggistica e-mail, scarica delta chat"
     rss_news_title: Notizie su Delta Chat
 
   menu:
@@ -13,7 +13,7 @@ it:
     help: FAQ
     forum: Forum
 
-  subscribe_to_feed: Iscriviti al feed
+  subscribe_to_feed: Iscriviti al nostro feed
 
   references: Riferimenti
   imprint: Imprint

@@ -3,23 +3,19 @@ title: The e-mail messenger
 lang: id
 ---
 
-# Mengobrol melalui email dan ke masa depan bersama kami!
+# Delta Chat is a messaging app that works over e-mail 
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
-**Delta Chat seperti Telegram atau Whatsapp tetapi tanpa pelacakan atau kendali pusat.**
-Delta Chat tidak memerlukan nomor telepon Anda. Lihat [pernyataan privasi](gdpr) kami.
+<br>
+🗨️ Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-**Delta Chat tidak memiliki server sendiri** tetapi menggunakan pesan terbuka yang paling masif dan beragam
-sistem pernah: jaringan server e-mail yang ada.
+🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
 
-**Mengobrol dengan siapa pun jika Anda tahu alamat email mereka, tidak perlu bagi mereka untuk menginstal DeltaChat!**
-Yang Anda butuhkan hanyalah akun email standar.
+🔒 All your data stays on your device and email account.
 
-Lihat [cerita dari para pengguna](user-voices) 📣
+# Available on mobile and desktop
 
-
-# Tangkapan layar Android, Desktop and iOS 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
@@ -30,9 +26,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-Silahkan periksa [get.delta.chat](https://get.delta.chat) dan [posting blog terbaru](blog)
-untuk informasi tentang rilis dan acara terkini.
+<a class="download-button" href="https://get.delta.chat">Download</a>
 
-Delta Chat adalah [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-dan [Perangkat Lunak Bebas](https://en.wikipedia.org/wiki/Free_software).  Kamu dapat memakai,
-lihat, ubah, dan bagikan sesuka hati, dengan semua orang.
+[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
+and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+
+Check out [user stories and voices](user-voices).

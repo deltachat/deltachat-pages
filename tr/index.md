@@ -3,23 +3,19 @@ title: e-Posta mesajlaşma uygulaması
 lang: tr
 ---
 
-# E-posta üzerinden sohbet edin ve bizimle geleceğe dönün!
+# Delta Chat is a messaging app that works over e-mail 
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
-**Delta Chat, Telegram ya da WhatsApp gibidir ama izleme ya da merkezi denetim yoktur.**
-Delta Chat'e telefon numaranız gerekmez. [Gizlilik demecimizi](gdpr) denetleyin.
+<br>
+🗨️ Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-**Delta Chat'in kendi sunucuları yoktur** ama şimdiye kadarki en büyük ve çeşitli açık iletileşme 
-sistemini kullanır: Varolan e-posta sunucusu ağı.
+🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
 
-**E-posta adresini bildiğiniz herhangi biriyle sohbet edin, Delta Chat'i kurmalarına gerek yoktur!** 
-Size tek gereken bir standart e-posta hesabıdır.
+🔒 All your data stays on your device and email account.
 
-[Kullanıcı hikayelerine ve seslerine](user-voices) göz atın 📣
+# Available on mobile and desktop
 
-
-# Android, Masaüstü ve iOS Ekran Görüntüleri 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
@@ -30,9 +26,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-Güncel sürümler ve etkinlikler hakkında bilgiler için
-lütfen [get.delta.chat](https://get.delta.chat) ve [en son blog gönderilerini](blog) denetleyin. 
+<a class="download-button" href="https://get.delta.chat">Download</a>
 
-Delta Chat [Açık Kaynaklı](https://tr.wikipedia.org/wiki/A%C3%A7%C4%B1k_kaynak)
-ve [Özgür Yazılımdır](https://tr.wikipedia.org/wiki/%C3%96zg%C3%BCr_yaz%C4%B1l%C4%B1m).  Kullanabilir,
-görebilir, değiştirebilir ve istediğiniz herkesle paylaşabilirsiniz.
+[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
+and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+
+Check out [user stories and voices](user-voices).

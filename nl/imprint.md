@@ -5,7 +5,7 @@ lang: nl
 
 # Over Delta Chat
 
-Delta Chat is een open-source gemeenschapsproject. De verantwoordelijkheid van de pagina-inhoud ligt bij:
+Delta Chat is een [opensource-gemeenschapsproject](https://github.com/deltachat). De verantwoordelijkheid van de pagina-inhoud ligt bij:
 
     Merlinux GmbH
     Reichsgrafenstr. 20
@@ -19,4 +19,4 @@ Bestuursvoorzitter: Holger Krekel
 
 [Gemeenschapskanalen](contribute)
 
-De mailinglijstserver wordt  bijgehouden door<https://github.com/codespeaknet/sysadmin>.
+De mailinglijstserver wordt bijgehouden door <https://github.com/codespeaknet/sysadmin>.

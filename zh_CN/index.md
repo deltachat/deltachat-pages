@@ -3,20 +3,19 @@ title: 电子邮件通信应用
 lang: zh_CN
 ---
 
-# 通过电子邮件聊天，和我们一起回到未来!
+# Delta Chat 是工作在电子邮件之上的聊天软件 
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
-**Delta Chat 类似于 Telegram 或 Whatsapp，但没有跟踪或中央控制。**Delta Chat 不需要你的电话号码。查看我们的 [隐私声明](gdpr)。
+<br>
+🗨️ 向有电子邮件地址的任何人发送消息，[即使他们使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
 
-**Delta Chat 没有自己的服务器**，但使用有史以来最大规模和多样化的开放消息传递系统：现有的电子邮件服务器网络。
+🥳 通过 [webxdc 应用](https://webxdc.org)，享受互动聊天体验。
 
-**如果你知道别人的电子邮件地址，你就可以和他们聊天，对方不需要安装 DeltaChat!**你所需要的只是一个标准的电子邮件帐户。
+🔒 您的所有数据保存在您的设备和电子邮件账户上。
 
-查看[用户故事和声音](user-voices)📣
+# 可用于移动设备与桌面设备
 
-
-# Android、iOS 和桌面版的屏幕截图
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
@@ -27,6 +26,8 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-查看 [get.delta.chat](https://get.delta.chat) 和 [最新博客文章](blog) 获取关于当前版本和事件的信息。
+<a class="download-button" href="https://get.delta.chat">下载</a>
 
-Delta Chat 是[开源](https://en.wikipedia.org/wiki/Open-source_software)和[自由软件](https://en.wikipedia.org/wiki/Free_software)。你可以和每个人随意使用、查看、改变和分享它。
+[开源](https://en.wikipedia.org/wiki/Open-source_software)的[自由软件](https://en.wikipedia.org/wiki/Free_software)，构建于[互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)之上。 
+
+查看[用户故事和声音](user-voices)。

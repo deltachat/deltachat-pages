@@ -3,23 +3,19 @@ title: Dé e-mailchat-app
 lang: nl
 ---
 
-# Chat via e-mail en omarm samen met ons de toekomst!
+# Met Delta Chat kun je chatten via e-mail
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
-**Delta Chat is vergelijkbaar met Telegram of WhatsApp, maar je wordt niet gevolgd en er is geen centraal beheer.**
-Bekijk onze [GDPR-overeenkomst](gdpr)
+<br>
+🗨️ Communiceer met iedereen die over een e-mailadres beschikt, [zelfs als ze geen Delta Chat gebruiken](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-**Delta Chat heeft geen eigen servers**; in plaats daarvan wordt het grootste, meest diverse openberichtsysteem
-ooit gebruikt: het bestaande e-mailservernetwerk.
+🥳 Geniet van interactieve gesprekken met behulp van [webxdc-apps](https://webxdc.org).
 
-**Communiceer met iedereen per e-mail; ze hoeven DeltaChat niet eens te installeren!**
-Je hebt alleen een e-mailaccount nodig.
+🔒 Al je gegevens blijven op je apparaat en e-mailaccount.
 
-Bekijk ook [wat gebruikers en bedrijven zeggen](user-voices) 📣
+# Beschikbaar op telefoons, tablets en computers
 
-
-# Schermfoto's: Android, op de computer, en iOS 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
@@ -30,9 +26,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-Ga naar [get.delta.chat](https://get.delta.chat) of lees ons [blog](blog)
-voor nieuws omtrent de huidige versies en andere gebeurtenissen.
+<a class="download-button" href="https://get.delta.chat">Downloaden</a>
 
-Delta Chat is zowel [opensourcesoftware](https://nl.wikipedia.org/wiki/Opensourcesoftware)
-als [vrije software](https://nl.wikipedia.org/wiki/Vrije_software).  Je mag het gebruiken,
-bekijken, aanpassen en delen zoals jij wilt, met iedereen.
+[Open source](https://nl.wikipedia.org/wiki/Opensourcesoftware)
+en [vrije software](https://nl.wikipedia.org/wiki/Vrije_software), gebouwd op [internetstandaarden](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+
+📣 Bekijk ook [wat gebruikers en bedrijven zeggen](user-voices).

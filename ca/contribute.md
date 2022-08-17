@@ -5,6 +5,9 @@ lang: ca
 
 # Canals i repositoris
 
+- [Fedivers](https://chaos.social/web/@delta) i
+  [Twitter](https://twitter.com/delta_chat) pels anuncis.
+
 - [Fòrum de suport de Delta Chat](https://support.delta.chat) per converses més extenses
   sobre funcionalitats i per rebre suport.
 
@@ -24,18 +27,18 @@ lang: ca
 - [Tasques del Delta Chat per iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Tasques de la biblioteca de nucli Rust + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers who want to help along and are familiar with 
+Naltros sempre estem buscant desenvolupadoirs i dissenyadors que ens vulguis donar un cop de ma i que estiguin familiaritzats amb 
 C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
-We typically offer 20 hours per week contracts or employments (if based in germany). 
-Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
+En general oferim contractes de 20 hores setmanals o llocs de treball (si esteu a Alemanya). 
+Si us plau, no us sàpiga greu contactar amb nosaltres (delta a merlinux eu) si hi esteu interessats a ajudar-nos en el nostre esforç!
 
 
-# Donate Money 
+# Feu-nos un donatiu 
 
-If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users: 
+Si doneu suport monetari a DeltaChat, l'ajudareu a romandre i créixer com a projecte independent que treballa i està orientat als seus usuaris:
 
-- IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
-- PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Donate via [Liberapay](https://liberapay.com/delta.chat/)
-- Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- IBAN DE86100777770428658900, propietari del compte (si us plau, especifiqueu-lo sempre): Björn Petersen, BIC NORSDE51XXX
+- PayPal o targeta de crèdit: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- Doneu via [Liberapay](https://liberapay.com/delta.chat/)
+- Feu una donació única o recurrent via [Open Collective](https://opencollective.com/delta-chat/donate)
+- Envieu bitcoins a [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

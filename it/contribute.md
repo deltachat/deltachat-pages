@@ -5,16 +5,19 @@ lang: it
 
 # Canali e repository
 
+- [Fediverse](https://chaos.social/web/@delta) e
+  [Twitter](https://twitter.com/delta_chat) per gli annunci.
+
 - [Forum di supporto di Delta Chat](https://support.delta.chat) per un'ampia
  discussione sulle funzionalità e per ottenere supporto.
 
-- [#deltachat on Libera.Chat]({% include webirc-url %}) per le comunicazioni quotidiane.
+- [#deltachat su Libera.Chat]({% include webirc-url %}) per le comunicazioni quotidiane.
 
 - [Delta Chat mailing
   list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
   per le discussioni della comunità e le notizie.
 
-- [repository di Delta Chat](https://github.com/deltachat/) dove puoi trovare 
+- [Repository di Delta Chat](https://github.com/deltachat/) dove puoi trovare 
  il codice delle app DeltaChat e di questo sito web.
 
 # Traduzioni e segnalazioni di bug

@@ -5,6 +5,9 @@ lang: sk
 
 # Kanály a repozitáre
 
+- [Fediverse](https://chaos.social/web/@delta) and
+  [Twitter](https://twitter.com/delta_chat) for announcements.
+
 - [Fórum podpory pre Delta Chat](https://support.delta.chat) pre širšie diskusie o funkciách a získanie podpory.
 
 - [#deltachat na Libera.Chat]({% include webirc-url %}) pre každodennú komunikáciu.

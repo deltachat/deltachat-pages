@@ -5,6 +5,9 @@ lang: es
 
 # Canales y repositorios
 
+- [Fediverse](https://chaos.social/web/@delta) and
+  [Twitter](https://twitter.com/delta_chat) for announcements.
+
 - [Foro de soporte de Delta Chat](https://support.delta.chat) para discusiones más amplias sobre las funcionalidades y para obtener ayuda.
 
 - [#deltachat en Libera.Chat]({% include webirc-url %}) para las comunicaciones del día a día.

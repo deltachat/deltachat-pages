@@ -5,6 +5,9 @@ lang: tr
 
 # Kanallar ve depolar
 
+- [Fediverse](https://chaos.social/web/@delta) and
+  [Twitter](https://twitter.com/delta_chat) for announcements.
+
 - Daha geniş özellik tartışmaları ve destek almak için
   [Delta Chat destek forumu](https://support.delta.chat).
 

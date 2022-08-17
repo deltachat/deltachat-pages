@@ -5,9 +5,9 @@ lang: pl
 
 # Wydawca
 
-Delta.Chat jest projektem społeczności open source. Odpowiedzialność za treść tych stron spoczywa na:
+Delta.Chat jest [projektem społeczności open source](https://github.com/deltachat). Odpowiedzialność za treść tych wszystkich stron spoczywa na:
 
-    Merlinux GmbH
+    merlinux GmbH
     Reichsgrafenstr. 20
     79102 Freiburg, Germany
 

@@ -5,11 +5,11 @@ lang: ru
 
 # Контакты
 
-Delta.Chat основан на программном обеспечении с открытым исходным кодом, разрабатываемым сообществом. Ответственный за содержание этих страниц: 
+Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
 
-    Merlinux GmbH
+    merlinux GmbH
     Reichsgrafenstr. 20
-    79102 Фрайбург, Германия
+    79102 Freiburg, Germany
 
 Электронная почта: {% include email-link %}
 

@@ -5,6 +5,8 @@ lang: zh_CN
 
 # 频道与仓库
 
+- [Fediverse](https://chaos.social/web/@delta) 与  [Twitter](https://twitter.com/delta_chat) 获取公告。
+
 - [Delta Chat 支持论坛](https://support.delta.chat) 更广泛的功能讨论和获得支持。
 
 - [Libera.Chat 上的 #deltachat]({% include webirc-url %}) 日常交流。

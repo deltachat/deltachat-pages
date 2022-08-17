@@ -5,9 +5,9 @@ lang: sq
 
 # Imprint
 
-Delta.Chat është projekt bashkësie burimi të hapur. Përgjegjës për lëndën e këtyre faqeve është:
+Delta.Chat është [projekt bashkësie burimi të hapur](https://github.com/deltachat). Përgjegjës për lëndën e sajteve tona është:
 
-    Merlinux GmbH
+    merlinux GmbH
     Reichsgrafenstr. 20
     79102 Freiburg, Germany
 

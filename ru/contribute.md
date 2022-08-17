@@ -5,6 +5,9 @@ lang: ru
 
 # Каналы и репозитории
 
+- [Fediverse](https://chaos.social/web/@delta) and
+  [Twitter](https://twitter.com/delta_chat) for announcements.
+
 - [Delta Chat форум поддержки](https://support.delta.chat) больше
   дискуссии для новых возможностей и получения тех. поддержки.
 

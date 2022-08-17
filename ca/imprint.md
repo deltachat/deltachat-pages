@@ -5,9 +5,9 @@ lang: ca
 
 # Emprempta
 
-Delta.Chat és un projecte comunitari de programari lliure. El responsable del contingut d'aquestes pàgines és:
+Delta Chat és un [projecte comunitari de programari obert](https://github.com/deltachat). El responsable del contingut de la nostra web és:
 
-    Merlinux GmbH
+    merlinux GmbH
     Reichsgrafenstr. 20
     79102 Freiburg, Alemanya
 

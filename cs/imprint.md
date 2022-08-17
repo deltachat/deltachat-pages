@@ -5,9 +5,9 @@ lang: cs
 
 # Otisk
 
-Delta.Chat je projekt s otevřeným zdrojovým kódem. Za obsah těchto stránek je zodpovědný:
+Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
 
-    Merlinux GmbH
+    merlinux GmbH
     Reichsgrafenstr. 20
     79102 Freiburg, Germany
 

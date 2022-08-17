@@ -3,23 +3,19 @@ title: Shkëmbyesi i mesazheve me email
 lang: sq
 ---
 
-# Bisedoni përmes email-i dhe drejtohuni për nga ardhmja, me ne!
+# Delta Chat është një aplikacion për shkëmbim mesazhesh që funksionon përmes email-i 
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
-**Delta Chat-i është si puna e Telegram-it ose Whatsapp-it, por pa gjurmim apo kontroll qendror.**
-Delta Chat-i s’ka nevojë për numrin tuaj të telefonit. Shihni [deklaratën tonë për privatësinë](gdpr).
+<br>
+🗨️ Shkëmbeni mesazhe me këdo që ka një adresë email [edhe kur nuk përdorin Delta Chat-in](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-**Delta Chat s’ka shërbyes të vetët**, por përdor për mesazhet sistemin e hapur më masiv dhe
-më të larmishëm ndonjëherë: rrjetin ekzistues të shërbyesve të email-eve.
+🥳 Shijoni fjalosje me ndërveprim përmes [aplikacionesh webxdc](https://webxdc.org).
 
-**Bisedoni me këdo, nëse dini adresën e tyre email, s’ka nevojë që të instalojnë DeltaChat-in!** 
-Krejt çka ju duhet është një llogari standarde email-i.
+🔒 Krejt të dhënat tuaja qëndrojnë në pajisjen dhe llogarinë tuaj email.
 
-Shihni [shembuj dhe zëra përdoruesish](user-voices) 📣
+# I përdorshëm në celular dhe desktop
 
-
-# Foto ekrani nga aplikacioni për Android, Desktop dhe iOS 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
@@ -30,10 +26,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-Për të dhëna mbi hedhjet e tanishme në qarkullim dhe veprimtari, ju lutemi,
-shihni te [get.delta.chat](https://get.delta.chat) dhe [postimet më të reja
-në blog](blog).
+<a class="download-button" href="https://get.delta.chat">Shkarkojeni</a>
 
-Delta Chat është me [Burim të Hapët](https://en.wikipedia.org/wiki/Open-source_software)
-dhe [Software i Lirë](https://en.wikipedia.org/wiki/Free_software).  Mund ta
-përdorni, shihni, ndryshoni dhe ndani sipas qejfit, me këdo.
+Me [Burim të Hapët](https://en.wikipedia.org/wiki/Open-source_software)
+dhe [Software e Lirë](https://en.wikipedia.org/wiki/Free_software), ndërtuar me [Standardet Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+
+Shihni [shembuj dhe raste përdoruesish](user-voices).

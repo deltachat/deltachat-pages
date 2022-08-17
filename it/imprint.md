@@ -5,9 +5,9 @@ lang: it
 
 # Imprint
 
-Delta.Chat è un progetto comunitario open source. Il responsabile del contenuto delle pagine è:
+Delta Chat è un [progetto di comunità open source](https://github.com/deltachat). Responsabile del contenuto dei nostri siti web è:
 
-    Merlinux GmbH
+    merlinux GmbH
     Reichsgrafenstr. 20
     79102 Freiburg, Germany
 

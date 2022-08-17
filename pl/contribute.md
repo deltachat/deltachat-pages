@@ -5,6 +5,9 @@ lang: pl
 
 # Kanały i repozytoria
 
+- [Fediverse](https://chaos.social/web/@delta) i
+  [Twitter](https://twitter.com/delta_chat) dla ogłoszeń.
+
 - [Forum wsparcia Delta Chat](https://support.delta.chat) do
   szerszych dyskusji na temat funkcji i uzyskania wsparcia.
 

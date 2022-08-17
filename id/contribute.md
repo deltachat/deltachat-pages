@@ -5,6 +5,9 @@ lang: id
 
 # Saluran dan repositori
 
+- [Fediverse](https://chaos.social/web/@delta) and
+  [Twitter](https://twitter.com/delta_chat) for announcements.
+
 - [Forum dukungan Delta Chat](https://support.delta.chat) untuk yang lebih luas
 diskusi fitur dan mendapatkan dukungan.
 

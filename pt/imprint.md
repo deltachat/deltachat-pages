@@ -5,9 +5,9 @@ lang: pt
 
 # Aviso legal
 
-O Delta.Chat é um projeto de código aberto. O responsável pelo conteúdo desta página é:
+Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
 
-    Merlinux GmbH
+    merlinux GmbH
     Reichsgrafenstr. 20
     79102 Freiburg, Germany
 

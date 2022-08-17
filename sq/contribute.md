@@ -5,6 +5,9 @@ lang: sq
 
 # Kanale dhe depo
 
+- [Fediverse](https://chaos.social/web/@delta) dhe
+  [Twitter](https://twitter.com/delta_chat) për lajmërime.
+
 - [Forum asistence për Delta Chat-in](https://support.delta.chat) për
   diskutime më të gjera dhe për të marrë asistencë.
 

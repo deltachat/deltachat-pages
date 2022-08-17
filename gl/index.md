@@ -3,23 +3,19 @@ title: Mensaxería por email
 lang: gl
 ---
 
-# Conversa a través de email e salta ao futuro con nós!
+# Delta Chat é unha app de mensaxería que funciona a través do email
 
-<img src="../assets/logos/delta-chat.svg" width="160" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
+<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
-**Delta Chat é como Telegram ou Whatsapp pero sen o control e o rastrexo centralizado.**
-Delta Chat non precisa o teu número de teléfono. Podes ler a nosa [declaración de privacidade](gdpr).
+<br>
+🗨️ Envíalle unha mensaxe a calquera que teña email [incluso se non usa Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-**Delta Chat non ten servidores propios** pero utiliza a forma de mensaxería máis masiva e diversa
-que existe: a rede de servidores de email.
+🥳 Desfruta dunha experiencia interactiva de chat con [webxdc apps](https://webxdc.org).
 
-**Conversa con calquera se sabes o seu enderezo de email, non precisas que instalen DeltaChat!**
-Todo o que precisas é unha conta de email estándar.
+🔒 Todos os teus datos permanecen no teu dispositivo e conta de email.
 
-Mira estas [historias e experiencias](user-voices) das usuarias 📣
+# Dispoñible para escritorio e móbiles
 
-
-# Capturas de pantalla Android, Escritorio e iOS
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
 style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="A screenshot of Delta Chat on Android showing chat list" /> 
@@ -30,9 +26,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-Vaite a [get.delta.chat](https://get.delta.chat) e aos [últimos artigos do blog](blog)
-para ler máis información acerca de eventos e publicacións. 
+<a class="download-button" href="https://get.delta.chat">Descargar</a>
 
-Delta Chat é código [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-e [Software Libre](https://en.wikipedia.org/wiki/Free_software). Podes usar,
-ver, mudar, e compartilo como desexes, con calquera.
+[Código Aberto](https://en.wikipedia.org/wiki/Open-source_software)
+e [Software Libre](https://en.wikipedia.org/wiki/Free_software), sobre [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+
+Mira [o que comentan sobre nós](user-voices).

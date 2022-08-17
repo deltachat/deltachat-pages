@@ -5,22 +5,22 @@ lang: ca
 
 # Testimonis i experiències dels usuaris
 
-### more fun with e-mail
+### més diversió amb el correu electrònic
 
 _"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
 
-**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Usuari polonès** a [mastodon](https://101010.pl/@michal/107107322703871076)
 
-### supports more than one account
+### permet múltiples comptes
 
 _"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
 **mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
-### audio and video call possible
+### es poden fer trucades de veu i vídeo
 
 _"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
 
-**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
+**usuari de mastodon** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
 
 ### Recomanable per a cecs
 
@@ -43,13 +43,13 @@ _"Other things I know I'm late to the party on but delta-chat seems really neat,
 
 **American user** from 2020 recommending Delta Chat for everyday usage
 
-### Works during Internet shutdowns
+### Funciona durant les apagades d'Internet
 
 _"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
 
 **Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
 
-### Company notification system migrated
+### Migració del sistema de notificacions de l'empresa
 
 _"Yes, our company have migrated
 all billing/outage notification systems
@@ -61,7 +61,7 @@ to a delta group chat."_
 **Early user** from 2018 from the [support forum](https://support.delta.chat/t/clear-chat-function/163/8)
 
 
-### E-Mail always works
+### El correu electrònic sempre funciona
 
 _"I'm really happy that DeltaChat exists and that I discovered it.
 As a very early WhatsApp user, I quit WhatsApp because of privacy and security reasons;
@@ -82,7 +82,7 @@ different silos like WhatsApp, Signal, Telegram etc."_
 **User from Germany** in 2019, via e-mail to delta@merlinux.eu
 
 
-### Messaging with Cuba
+### Comunicant amb Cuba
 
 _"I'm going to confess my love for the application.
 It is really amazing, it has made me communicate more with my friends,
@@ -91,7 +91,7 @@ because writing emails is really annoying for me, I prefer chat, the world prefe
 **User from Cuba** in 2019, via e-mail to delta@merlinux.eu
 
 
-### Fully Decentralized
+### Completament descentralitzat
 
 _"At /e/ we had lots of discussion about Telegram vs Signal vs ... 
 But I must say that the best IM secured service in my opinion is @delta_chat
@@ -100,7 +100,7 @@ it's fully decentralized, heavily encrypted and you can reach any contact"_
 
 **Gaël Duval**, Founder Mandrake Linux, via [Twitter](https://twitter.com/gael_duval/status/1122906779002777600)
 
-### Decentralized but easy for users
+### Descentralitzat però senzill pels usuaris
 
 _"People start caring about decentralization. But it seems that for a lot of people setting servers and all to use Matrix or XMPP is too complicated while you can use Delta with just an e-mail address"_
 

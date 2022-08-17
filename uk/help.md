@@ -116,8 +116,7 @@ Delta Chat автоматично показує:
 - Коли архівний чат отримує нове повідомлення, якщо не приглушений, він **вискочить з архіву** і повернеться у ваш список чатів.
   **Приглушені чати залишаються заархівованим** доки ви не розархівуєте їх вручну.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+Щоб заархівувати або закріпити чат, довго торкніться (Android), скористайтеся меню чату (Android/комп'ютер) або проведіть пальцем ліворуч (iOS); щоб вимкнути звук чату, скористайтеся меню чату (Android/комп'ютер) або профілем чату (iOS).
 
 
 ## Групи
@@ -342,12 +341,7 @@ Delta Chat підтримує поширені формати приватних
 
 ### Як фінансується розробка Delta Chat?
 
-Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
-We rather use public funding sources, so far from EU and US origins, to help
-our efforts in instigating a decentralized and diverse chat messaging eco-system
-based on Free and Open-Source community developments.
+Delta Chat не отримує жодного Венчурного Капіталу і не є в боргу, не знаходиться під тиском отримання значних прибутків, або продажу користувачів і їхніх друзів з родиною рекламодавцям (або гірше). Ми скоріше використовуємо джерела державного фінансування поки що від ЄС та США, щоб допомогти нашим зусиллям у створенні децентралізованої та різноманітної екосистеми обміну повідомленнями на основі вільного та відкритого коду спільноти розробників 
 
 Конкретно, розробки Delta Chat поки що фінансуються з цих джерел:
 
@@ -368,24 +362,14 @@ based on Free and Open-Source community developments.
 - [Фундація NLnet](https://nlnet.nl/) надала в 2019/2020 46 тис. євро на
   завершення прив'язок Rust/Python і створення екосистеми Чат-Ботів. 
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-account support, improved QR-code contact and group setups and many networking improvements on all platforms.
+– У 2021 році ми отримали подальше фінансування ЄС для двох Інтернет-технологій наступного покоління пропозиції, а саме для [EPPD - каталог перенесення електронної пошти](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97 тис. євро) та [AEAP - перенесення електронної адреси](https://nlnet.nl/project/EmailPorting/) (~90 тис. євро), що призвело до кращої підтримки кількох облікових записів, покращеного QR-коду контактів і налаштувань груп, а також багатьох покращень роботи мережі на всіх платформах.
 
-- For 2021/2022 we are receiving *Internet Freedom* funding (~500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supports our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- На 2021/2022 рік ми отримуємо фінансування *Internet Freedom* (~500 тис. дол. США) від Бюро США з питань демократії, прав людини та праці (DRL). Це фінансування підтримує наші довгострокові цілі зробити Delta Chat більш зручним для використання і сумісним з широким спектром серверів електронної пошти по всьому світу, більш стійким і безпечним в місцях, які постраждали від інтернет-цензури та відключення інтернету.
 
-- Sometimes we receive one-time donations from private individuals for
-  which we are grateful. For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". We use such money to fund
-  development gatherings or to care for ad-hoc expenses that can not easily be predicted
-  for or reimbursed from public funding grants. 
+– Іноді ми отримуємо одноразові пожертви від приватних осіб за які ми вдячні. Наприклад, у 2021 році щедра приватна особа перерахував нам 4 тис. євро з повідомленням «так тримати!». Ми використовуємо такі пожертви для фінансування зборів на розвиток або для тимчасових витрат, які важко передбачити або відшкодувати за рахунок грантів державного фінансування.
 
 - Кілька експертів та ентузіастів, які працюють на громадських засадах, сприяли розробці програми Delta Chat, не отримуючи грошей або лише невеликі суми. Без них Delta Chat не був би там, де є сьогодні, навіть близько.
 
-The monetary funding mentioned above is mostly organized by merlinux GmbH in
-Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
+Зазначене вище грошове фінансування в основному організовано компанією merlinux GmbH у Фрайбурзі (Німеччина) і розподілено між більше ніж дюжиною розробників по всьому світу.
 
-Funding for second half of 2022 and especially for 2023 is an ongoing issue of concern. Apart from applying for more public funding we want to become more independent from government-related funding sources. Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) for both monetary and development related support possibilities. 
+Фінансування на другу половину 2022 року і особливо на 2023 рік є постійним питанням, що викликає занепокоєння. Окрім подання заявки на отримання додаткового державного фінансування, ми хочемо стати більш незалежними від державних джерел фінансування. Будь ласка, перегляньте [способи допомоги Delta Chat](https://delta.chat/en/contribute) для отримання можливостей фінансової підтримки та підтримки, пов’язаної з розробкою.

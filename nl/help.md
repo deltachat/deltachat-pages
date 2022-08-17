@@ -9,7 +9,7 @@ header: Veelgestelde vragen
 ## Wat is Delta Chat?
 
 Delta Chat is een nieuw soort gespreksapp waarmee je chat via e-mail, indien mogelijk extra versleuteld middels Autocrypt.
-**Je hoeft je nergens te registreren - je kunt gewoon je bestaande e-mailaccounh gebruiken.**
+**Je hoeft je nergens te registreren - je kunt gewoon je bestaande e-mailaccount gebruiken.**
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
@@ -123,11 +123,11 @@ Met deze hulpmiddelen kun je je gesprekken geordend houden:
 - **Archiveer gesprekken** als je ze niet meer op de gesprekslijst wilt zien.
   Je kunt ze echter nog steeds oproepen aan het einde van de lijst, via het menu of een zoekopdracht.
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- Als er een nieuw bericht in een gearchiveerd gesprek wordt ontvangen, dan wordt het gesprek in kwestie **ge-dearchiveerd** en dus weer op de gesprekslijst geplaatst.
+  **Genegeerde gesprekken blijven in het archief staan** totdat je ze er zelf uithaalt.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+Archiveer of maak een gesprek vast door het gesprek in kwestie lang ingedrukt te houden (Android), via het gespreksmenu (Android/computer) of door het naar links te vegen (iOS).
+Negeer een gesprek via het gespreksmenu (Android/computer) of het gespreksprofiel (iOS).
 
 
 ## Groepen

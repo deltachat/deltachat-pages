@@ -107,22 +107,22 @@ Oto, co robi Delta Chat z tymi uprawnieniami:
  - wyświetlanie połączenia Wi-Fi: aby połączyć się z dostawcą poczty e-mail
  - prośba o zignorowanie optymalizacji baterii: dla użytkowników, którzy chcą otrzymywać wiadomości przez cały czas 
 
-### What means Pinning, Muting, Archiving?
+### Co oznacza przypinanie, wyciszanie i archiwizowanie?
 
-Use these tools to organize your chats and keep everything in its place:
+Użyj tych narzędzi, aby uporządkować swoje czaty i mieć wszystko na swoim miejscu:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **Przypięte czaty** zawsze pozostają na szczycie listy czatów. Możesz ich używać, aby szybko lub tymczasowo uzyskać dostęp do swoich ulubionych czatów, aby o czymś nie zapomnieć.
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **Wycisz czaty**, jeśli nie chcesz otrzymywać z nich powiadomień. Wyciszone czaty pozostają na swoim miejscu i możesz też przypiąć wyciszony czat.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+- **Archiwizuj czaty**, jeśli nie chcesz ich już widzieć na swojej liście czatów.
+Dostęp do zarchiwizowanych czatów możesz nadal uzyskać w dolnej części listy czatów, w menu lub za pomocą wyszukiwania.
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- Gdy zarchiwizowany czat otrzyma nową wiadomość, o ile nie zostanie wyciszony, **wyskoczy z archiwum** i wróci na twoją listę czatów.
+**Wyciszone czaty pozostają zarchiwizowane** do czasu ich ręcznego przywrócenia.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+Aby zarchiwizować lub przypiąć czat, dotknij i przytrzymaj (Android), użyj menu czatu (Android/Desktop) lub przesuń palcem w lewo (iOS);
+aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
 
 
 ## Grupy

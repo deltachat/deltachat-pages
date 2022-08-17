@@ -101,22 +101,22 @@ Delta Chat 自动显示：
   - 查看 Wi-Fi 连接：连接到您的电子邮件提供商
   - 要求忽略电池优化：给希望一直接收消息的用户使用
 
-### What means Pinning, Muting, Archiving?
+### 固定、静音、归档是什么意思？
 
-Use these tools to organize your chats and keep everything in its place:
+使用这些工具来管理您的聊天，让其井然有序：
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **已固定聊天**会呆在聊天列表顶部。您可以利用其快速访问最喜欢的聊天或临时记下某些东西。
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **静音聊天**，如果您不想再得到关于它们的通知。被静音的聊天会呆在原地，并且您可以固定被静音的聊天。
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+- **归档聊天**，如果您不想再在聊天列表中看到它们。
+通过菜单、搜索或者聊天列表的最底部，您仍然可以访问被归档的聊天。
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- 当被归档的聊天接收到一条新消息，除非其被静音，它会**从归档中弹出**并返回聊天列表。
+  **被静音的聊天会保持被归档的状态**，除非您手动解档它们。 
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+要归档或固定一个聊天，可以长按（Android）、使用聊天内部的菜单（Android/桌面版）或者左滑（iOS）；
+要静音一个聊天，可以使用聊天内部的菜单（Android/桌面版）或者通过聊天概要（iOS）。
 
 
 ## 群组
