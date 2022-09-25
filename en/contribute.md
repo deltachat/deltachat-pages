@@ -2,9 +2,10 @@
 title: Contribute
 lang: en
 render_toc: true
+header: Contribute or Donate
 ---
 
-# Channels and repositories
+## Channels and repositories
 
 - [Fediverse](https://chaos.social/web/@delta) and
   [Twitter](https://twitter.com/delta_chat) for announcements.
@@ -21,7 +22,7 @@ render_toc: true
 - [Delta Chat repositories](https://github.com/deltachat/) where you can 
   find the code for DeltaChat apps and this web site.
 
-# Translations and Bug Reports 
+## Translations and Bug Reports 
 
 - [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
@@ -37,7 +38,7 @@ Please don't hesitate to reach out (delta at merlinux eu) if you are interested 
 
 <a id="donate-anchor"></a><!-- don't translate this html anchor!-->
 
-# Donate Money 
+## Donate Money 
 
 If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users: 
 
