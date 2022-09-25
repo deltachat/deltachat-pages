@@ -1,6 +1,7 @@
 ---
 title: Contribute
 lang: en
+render_toc: true
 ---
 
 # Channels and repositories
@@ -33,6 +34,8 @@ C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Ma
 We typically offer 20 hours per week contracts or employments (if based in germany). 
 Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
 
+
+<a id="donate-anchor"></a><!-- don't translate this html anchor!-->
 
 # Donate Money 
 
