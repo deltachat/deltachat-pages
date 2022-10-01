@@ -117,16 +117,16 @@ Esto es lo que hace Delta Chat con esos permisos:
   - mirar las conexiones de Wi-Fi: para conectarse a tu servidor de correo electrónico
   - ignorar optimizaciones de batería: para los usuarios que deseen recibir notificaciones en todo momento
 
-### What means Pinning, Muting, Archiving?
+### ¿Qué significa fijar, mutear, archivar?
 
-Use these tools to organize your chats and keep everything in its place:
+Usa estas herramientas para organizar tus chats y mantener todo en su lugar:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **Chats fijados** siempre se mantienen al frente de tu listado. Puedes usarlos para acceder a tus chats preferidos de forma rápida o temporal para no olvidarte de tus cosas. 
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **Chats muteados** si no quieres recibir notificaciones de ellos. Chats muteados se mantienen en su lugar e inclusive puedes fijarlos.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+- **Chats archivados** si no quieres verlos en tu lista de chats.
+  Quedan al final del listado, en el menú o a través de la búsqueda, todavía puedes acceder a ellos.
 
 - When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
   **Muted chats stay archived** until you unarchive them manually.

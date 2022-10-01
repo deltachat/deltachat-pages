@@ -3,18 +3,18 @@ title: 电子邮件通信应用
 lang: zh_CN
 ---
 
-# Delta Chat 是工作在电子邮件之上的聊天软件 
+# Delta Chat 是基于电子邮件的聊天软件 
 
 <img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 <br>
-🗨️ 向有电子邮件地址的任何人发送消息，[即使他们使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
+🗨️ 向有任意电子邮件地址发送消息，[即使他们不使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
 
 🥳 通过 [webxdc 应用](https://webxdc.org)，享受互动聊天体验。
 
 🔒 您的所有数据保存在您的设备和电子邮件账户上。
 
-# 可用于移动设备与桌面设备
+# 在移动端与桌面端均可使用
 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
@@ -28,6 +28,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <a class="download-button" href="https://get.delta.chat">下载</a>
 
-[开源](https://en.wikipedia.org/wiki/Open-source_software)的[自由软件](https://en.wikipedia.org/wiki/Free_software)，构建于[互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)之上。 
+Delta Chat 是[开源](https://en.wikipedia.org/wiki/Open-source_software)的[自由软件](https://en.wikipedia.org/wiki/Free_software)，构建于[互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)之上。 
 
-查看[用户故事和声音](user-voices)。
+点击查看[用户故事与发言](user-voices)。

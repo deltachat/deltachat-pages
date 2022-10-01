@@ -5,7 +5,7 @@ lang: id
 
 # Terbitan
 
-Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
+Delta Chat adalah [proyek komunitas sumber terbuka](https://github.com/deltachat). Bertanggung jawab atas isi website kami adalah:
 
     merlinux GmbH
     Reichsgrafenstr. 20

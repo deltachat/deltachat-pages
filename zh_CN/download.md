@@ -23,8 +23,8 @@ Android 4.1 Jelly Bean
 
 * [提供商数据库](https://providers.delta.chat/): Delta Chat 可用于我的提供商吗？
 * [多客户端常见问题](help#multiclient): 如何将桌面版程序与另一个 Delta Chat 应用程序同步。
-* [验证下载](verify-downloads): 验证下载数据的完整性
-* [桌面版安装疑难解答](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): 桌面版安装常见问题的解决方案
+* [验证下载](verify-downloads): 验证下载数据的完整性。
+* [桌面版安装疑难解答](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): 桌面版安装常见问题的解决方案。
 
 ## 预览版
 

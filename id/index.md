@@ -3,18 +3,18 @@ title: The e-mail messenger
 lang: id
 ---
 
-# Delta Chat is a messaging app that works over e-mail 
+# Delta Chat adalah aplikasi perpesanan yang bekerja melalui email
 
 <img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 <br>
-🗨️ Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+🗨️ Kirim pesan kepada siapa pun dengan alamat email [bahkan jika mereka tidak menggunakan Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
+🥳 Nikmati pengalaman obrolan interaktif melalui [aplikasi webxdc](https://webxdc.org).
 
-🔒 All your data stays on your device and email account.
+🔒 Semua data Anda tetap ada di perangkat dan akun email Anda.
 
-# Available on mobile and desktop
+# Tersedia di seluler dan desktop
 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
@@ -26,9 +26,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-<a class="download-button" href="https://get.delta.chat">Download</a>
+<a class="download-button" href="https://get.delta.chat">Unduh</a>
 
-[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+[Sumber Terbuka](https://en.wikipedia.org/wiki/Open-source_software)
+dan [aplikasi gratis](https://en.wikipedia.org/wiki/Free_software), dibuat di atas [Standar Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
 
-Check out [user stories and voices](user-voices).
+Lihat [cerita dari para pengguna](user-voices).
