@@ -1,6 +1,6 @@
 ---
-título: Contribuir
-leng: esp
+title: Contribuir
+lang: es
 ---
 
 # Aviso legal

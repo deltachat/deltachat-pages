@@ -1,6 +1,6 @@
 ---
-título: Verificar Descargas
-idioma: gl
+title: Verificar Descargas
+lang: gl
 ---
 
 # Verificar Descargas
