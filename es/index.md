@@ -3,18 +3,18 @@ title: La app de mensajería por correo electrónico
 lang: es
 ---
 
-# Delta Chat is a messaging app that works over e-mail 
+# Delta Chat es una aplicación de mensajería que funciona con tu correo electrónico
 
 <img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 <br>
-🗨️ Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+🗨️ Mensajea con cualquiera que tenga una cuenta de correo [inclusive si no usan Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
+🥳 Disfruta de experiencias de chat interactivas [webxdc apps](https://webxdc.org).
 
-🔒 All your data stays on your device and email account.
+🔒 Todos tus datos permanecen en tu dispositivo y correo.
 
-# Available on mobile and desktop
+# Disponible para smartphones y escritorio
 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
@@ -31,4 +31,4 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
 and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
 
-Check out [user stories and voices](user-voices).
+Fíjate [historias de usuarios y opiniones](user-voices).

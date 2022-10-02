@@ -1,35 +1,35 @@
 ---
-title: Delta Chat'i Edin
+title: Delta Chat'i Edinin
 lang: tr
 downloads: true
 ---
 
-## Değişiklik günlükleri
+## Değişiklik Günlükleri
 
 * [Masaüstü](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
 * [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
 * [Çekirdek](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-Masaüstü sürümleri, Delta Chat'in bir telefona yüklenmesini gerektirmez.
+Masaüstü sürümleri, Delta Chat'in bir telefona kurulmasını gerektirmez.
 
-Minimum gereksinimler:
+En düşük gereksinimler:
 Android 4.1 Jelly Bean
-veya iOS 11, iPhone 5s veya iPad 5 / Air / Mini
-veya Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 veya Debian 8
-veya uyumlu sistemler.
+ya da iOS 11, iPhone 5s ya da iPad 5/Air/Mini
+ya da Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 ya da Debian 8
+ya da uyumlu sistemler.
 
 ## Bağlantılar
 
 * [Sağlayıcı Veritabanı](https://providers.delta.chat/): Sağlayıcım Delta Chat ile çalışır mı?
-* [SSS çoklu istemci](help#multiclient): Masaüstü başka bir Delta Chat uygulamasıyla nasıl senkronize edilir.
-* [İndirmeleri Doğrula](verify-downloads): İndirilenlerin veri bütünlüğünü doğrulayın
-* [Masaüstü Yükleme Sorun Giderme](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Yaygın masaüstü yükleme sorunları için çözümler
+* [Çoklu istemci SSS](help#multiclient): Masaüstü, başka bir Delta Chat uygulamasıyla nasıl eşitlenir.
+* [İndirmeleri Doğrula](verify-downloads): İndirmelerin veri bütünlüğünü doğrula
+* [Masaüstü Kurulumu Sorun Giderme](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Yaygın masaüstü kurulum sorunları için çözümler
 
-## Önizleme Yapıları
+## Önizleme Derlemeleri
 
-* [Masaüstü Önizleme]({% include desktop-previews-url %}): Masaüstü istemcileri için beklenen değişiklikler
-* [Android Nightly](https://download.delta.chat/android/nightly/): En yeni çekirdekle dün gece inşa edildi
-* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Henüz resmi olarak yayınlanmamış iOS sürümlerini içerebilir
+* [Masaüstü Önizlemeleri]({% include desktop-previews-url %}): Masaüstü istemcileri için bekleyen değişiklikler
+* [Android Gecelik](https://download.delta.chat/android/nightly/): En yeni çekirdekle dün gece derlendi
+* [iOS TestFlight](https://testflight.apple.com/join/uEMc1NxS): Henüz resmî olarak yayınlanmayan iOS sürümlerini içerebilir
 
-Önizleme derlemeleri yeni hatalarla gelebilir ve verimli olmayabilir.
+Önizleme derlemeleri yeni hatalarla gelebilir ve üretken kullanılmamalıdır.

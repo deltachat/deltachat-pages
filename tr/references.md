@@ -5,9 +5,9 @@ lang: tr
 
 # Referanslar
 
-This list is far from being complete - did we miss something? Please
-[let us know](imprint) or just do a [pull
-request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+Bu liste tam olmaktan uzak - bir şey kaçırdık mı? Lütfen
+[bilmemize izin verin](imprint) ya da yalnızca bir [çekme
+isteği](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md) yapın.
 
 ### Ubuntubuzz: Features You May Find Excellent...
 
@@ -161,67 +161,67 @@ _"Basically, it is an email client that uses a UI similar to most chat apps. I t
 2019-05-28, <https://www.kylepiira.com/2019/05/28/delta-chat/>
 
 
-### Mozilla Thunderbird Blogu: FOSDEM 2019 ve DeltaChat
+### The Mozilla Thunderbird Blog: FOSDEM 2019 and DeltaChat
 
 2019-03-07, <https://blog.mozilla.org/thunderbird/2019/03/fosdem-2019-and-deltachat/>
 
 
-### habr.com (Geniş Rus teknoloji sitesi): децентрализованный мессенджер поверх электронной почты
+### habr.com (Large Russian technology site): децентрализованный мессенджер поверх электронной почты
 
 2019-03-01, <https://habr.com/ru/post/442266/>
 
 
-### technolike.com (Küba'dan teknoloji blogu): Delta chat, chatea por correo al más puro estilo WhatsApp
+### technolike.com (Technology blog from Cuba): Delta chat, chatea por correo al más puro estilo WhatsApp
 
 2019-02, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-puro-estilo-whatsapp/>
 
 
-### blog.lenzg.net: E-posta alt adresleriyle Delta Chat'i kullanma
+### blog.lenzg.net: Using Delta Chat with email sub-addresses
 
 2019-02-21, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-addresses/>
 
 
-### iX (Alman dergisi): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
+### iX (German magazine): Dargereicht - Autocrypt automatisiert E-Mail-Kryptografie
 
-Bu makale Autocrypt hakkındadır; belirtim, uçtan uca ayarlama için Delta Chat tarafından kullanılır.
-Delta Chat'in kenarında söz ediliyor.
+This article is about Autocrypt, the specification used by Delta Chat for end-to-end setup.
+Delta Chat is mentioned on the edge.
 
-05/2018, sayfa 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
+05/2018, page 64, <https://www.heise.de/select/ix/2018/5/1524784198472399>
 
 
-### Linux User (Alman dergisi): Özel ve Gizli - Privatvergnügen
+### Linux User (German magazine): Private and Confidential - Privatvergnügen
 
 _"Der pfiffige Messenger Delta Chat bietet eine interessante Alternative zu Datenkraken wie Whatsapp."_
 
-03/2018, sayfa 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
+03/2018, page 84, <http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2018/03/Privatvergnuegen>
 
 
-### Hasecke (Alman blogu): Mit Delta Chat per E-Mail chatten
+### Hasecke (German blog): Mit Delta Chat per E-Mail chatten
 
 _"Delta Chat funktioniert flüssig – als Messenger und als E-Mail-Client."_
 
 2017-10-15, <https://www.hasecke.eu/post/delta-chat/>
 
 
-### Cloudette (Alman blogu): Delta Chat – ein neuer Star am Messenger-Himmel?!
+### Cloudette (German blog): Delta Chat – ein neuer Star am Messenger-Himmel?!
 
 _"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstellen, dass ich damit nach und nach alle anderen Chat Messenger ablösen kann [...]"_
 
 2017-08-03, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>
 
 
-### Wissensarbeiter Jochen Plikat (Alman blogu): Zur Zukunft von SMS, WhatsApp & Co. (3)
+### Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, WhatsApp & Co. (3)
 
 _"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
 
 2019-04-30, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/> 
 
 
-### Mobilsicher.de (Alman mobil güvenlik web sitesi) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
+### Mobilsicher.de (German mobil security website) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
 
 _"Delta.Chat: Sicher und dezentral – geht das?"_
 
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out [user stories and voices](user-voices).
+Ayrıca [kullanıcı hikayelerine ve düşüncelerine](user-voices) göz atın.

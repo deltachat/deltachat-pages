@@ -1,9 +1,9 @@
 ---
-title: 用户故事和声音
+title: 用户故事与发言
 lang: zh_CN
 ---
 
-# 用户故事和声音
+# 用户故事与发言
 
 ### more fun with e-mail
 

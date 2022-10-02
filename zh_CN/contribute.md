@@ -5,15 +5,15 @@ lang: zh_CN
 
 # 频道与仓库
 
-- [Fediverse](https://chaos.social/web/@delta) 与  [Twitter](https://twitter.com/delta_chat) 获取公告。
+- [Fediverse](https://chaos.social/web/@delta) 和  [Twitter](https://twitter.com/delta_chat) ：获取公告。
 
-- [Delta Chat 支持论坛](https://support.delta.chat) 更广泛的功能讨论和获得支持。
+- [Delta Chat 支持论坛](https://support.delta.chat) ：更广泛的功能讨论和获得支持。
 
-- [Libera.Chat 上的 #deltachat]({% include webirc-url %}) 日常交流。
+- [Libera.Chat 上的 #deltachat]({% include webirc-url %}) ：日常交流。
 
-- [Delta Chat 邮件列表](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 社区讨论与新闻。
+- [Delta Chat 邮件列表](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) ：社区讨论与新闻。
 
-- [Delta Chat 仓库](https://github.com/deltachat/) 在这里可以找到 DeltaChat 应用和本网站的代码。
+- [Delta Chat 仓库](https://github.com/deltachat/) ：在这里可以找到 DeltaChat 应用和本网站的代码。
 
 # 翻译与报告错误
 

@@ -1,15 +1,15 @@
 ---
-título: Contribuir
-leng: esp
+title: Contribuir
+lang: es
 ---
 
 # Aviso legal
 
-Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
+Delta Chat es un [proyecto comunitario de código abierto](https://github.com/deltachat). El responsable del contenido de nuestra web es:
 
     merlinux GmbH
     Reichsgrafenstr. 20
-    79102 Freiburg, Germany
+    79102 Freiburgo, Alemania
 
 Correo electrónico: {% include email-link %}
 

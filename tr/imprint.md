@@ -5,11 +5,11 @@ lang: tr
 
 # Künye
 
-Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
+Delta Chat, [açık kaynaklı bir topluluk projesidir](https://github.com/deltachat). Web sitelerimizin içeriği için sorumlu:
 
     merlinux GmbH
     Reichsgrafenstr. 20
-    79102 Freiburg, Germany
+    79102 Freiburg, Almanya
 
 E-posta: {% include email-link %}
 
