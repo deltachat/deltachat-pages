@@ -375,6 +375,9 @@ a backup from the old device, and import it into the new device:
 - On the new device, on the login screen, instead of logging into your email
   account, choose "Import Backup". After import, your conversations, encryption
   keys, and media should be copied to the new device.
+  - **If you use iOS:** and you encounter difficulties, maybe
+    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
+    help you.
 - You are now synchronized, and can use both devices for sending and receiving
   E2E-encrypted messages with your communication partners. 
 
