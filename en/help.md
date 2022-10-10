@@ -468,12 +468,14 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   forum](https://support.delta.chat/c/webxdc/20).
 
 
-### How Can I Write My Own Private Apps?
+### How Can I Create My Own Private Apps?
 
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
 - All else you need to know is written in the
   [documentation](https://docs.webxdc.org/).
+- If you have question, you can ask others with experience in the [Delta Chat
+  Forum](https://support.delta.chat/c/webxdc/20).
 
 
 ## Miscellaneous
