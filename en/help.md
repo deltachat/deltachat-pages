@@ -437,6 +437,45 @@ folder for their mail, instead of the DeltaChat folder. If you disable "Watch
 DeltaChat folder", you should also disable "move chat messages to DeltaChat".
 Otherwise, deleting messages or multi-device setups might not work properly.
 
+
+## Private Apps / webxdc
+
+In Delta Chat, you can share "private apps", attachments with an `.xdc` file
+extension. They can do very different things, and make Delta Chat a truly
+extendable messenger. The technical term is [webxdc](https://webxdc.org).
+
+
+### How Private are Private Apps?
+
+- Private apps can not send data to the Internet, or download anything.
+- A private app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a private app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the private app as well.
+- This also means: it can be a privacy risk to open private apps in chats where
+  you don't trust the members - as you know it from e-mail attachments, where 
+  you only open attachments from senders you trust, and not from spammers.
+
+
+### Where Can I Get Private Apps?
+
+- In general, there is no curated appstore and Delta Chat is not responsible
+  for private apps or their content. Anyone can share private apps with each
+  other without restrictions.
+- You can find some example apps on [webxdc.org](https://webxdc.org).
+- Many people write their own private apps and post them to [the Delta Chat
+  forum](https://support.delta.chat/c/webxdc/20).
+
+
+### How Can I Write My Own Private Apps?
+
+- You can extend the [Hello World example app](https://github.com/webxdc/hello)
+  to get started.
+- All else you need to know is written in the
+  [documentation](https://docs.webxdc.org/).
+
+
 ## Miscellaneous
 
 ### Does Delta Chat work with _my_ e-mail-provider?
