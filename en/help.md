@@ -167,9 +167,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   It is continuously improved and many bugs have been fixed since the
   original introduction in 2018.  However, there remain cases, especially 
   with large groups where inconsistencies can occur, or messages become 
-  unreadable.  Early 2020 a security review is upcoming, and several new
-  developments around qr-join protocols are taking place so chances
-  are we remove the "experimental" label not too far in the future. 
+  unreadable.
 
 
 ### I have deleted myself by accident.
