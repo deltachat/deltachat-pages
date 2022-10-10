@@ -516,6 +516,20 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
+### How Can I Change My Account to a Different E-Mail Address?
+
+1. Change your address at the “Password and Account” seetings screen in Delta
+   Chat, enter your password (and if necessary, server settings) for the new
+   account
+2. If possible, make your old e-mail provider forward all e-mails to your new
+   email address
+3. Tell your contacts that you changed your address. If you write this to a
+   verified group, they will acknowledge this automatically.
+
+To learn about the details behind this, [read our blogpost on
+it](https://delta.chat/en/2022-09-14-aeap).
+
+
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
