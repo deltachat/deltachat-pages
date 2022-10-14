@@ -46,13 +46,13 @@ Delta Chat automatically shows:
 - Messages from contacts **contacted by you**
 - **Replies** to messages sent by you
 
-Messages by other Delta Chat users appear as a **contact request**. You need to
-accept the request before you can reply. You can also decline it if you don't
-want to chat with them for now.
+Messages from others appear as a **contact request**. You need to accept the
+request before you can reply. You can also decline it if you don't want to chat
+with them for now.
 
-E-mails from others, which were not sent with Delta Chat, don't appear in your
-app by default. In the "Chats & Media" settings, you can make Delta Chat show
-either all e-mails or only those by accepted contacts.
+E-mails which were not sent with Delta Chat don't appear in your app by
+default. In the "Chats & Media" settings, you can make Delta Chat show either
+all e-mails or only those by accepted contacts.
 
 
 ### Does Delta Chat support images, videos and other attachments?
