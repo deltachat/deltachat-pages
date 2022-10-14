@@ -533,6 +533,7 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   dialog.
 - In case you are using more than one device, Broadcast Lists are currently not
   synced between them.
+- Messages sent to broadcast lists are not encrypted.
 
 
 ### How can I share my location with my chat partners?
