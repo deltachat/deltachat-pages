@@ -191,7 +191,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   that a human has read or understood the message ;)
 
 
-## Encryption {#encryption}
+## Encryption
 
 ### Does Delta Chat support end-to-end-encryption?
 
