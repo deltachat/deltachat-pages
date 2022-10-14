@@ -573,19 +573,19 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   platforms.
 
 
-### Why can I choose not to watch the Inbox?
+### Why can I choose to only watch the DeltaChat folder?
 
 This is an experimental setting for some people who are experimenting with
 server-side rules. Not all providers support this, but with some you can move
 all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
 would be done by the Delta Chat app.
 
-Watching the Inbox makes sense to turn off, if you have both:
+Enabling "Only Fetch from DeltaChat folder" makes sense if you have both:
 
 - enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
 - have set the "Show classic emails" setting to "no, chats only".
 
-In this case, Delta Chat doesn't need to watch the Inbox.
+In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
 
 
 ### How can I change my account to a different e-mail address?
