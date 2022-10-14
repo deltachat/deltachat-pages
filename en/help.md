@@ -478,6 +478,18 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   unreadable.
 
 
+### What are Broadcast Lists and how can I use them?
+
+- With a Broadcast List you can send a message to many recipents at once; when
+  they reply to you, you get the reply in your direct 1:1 chat with them. The
+  recipients can't see each other.
+- Technically, it is an E-Mail with many recipients in BCC.
+- You can turn on the feature in the advanced settings. Then you can create a
+  Broadcast List from the "New Chat" dialog.
+- In case you are using more than one device, Broadcast Lists are currently not
+  synced between them.
+
+
 ### Why can I choose not to watch the Inbox?
 
 This is an experimental setting for some people who are experimenting with
