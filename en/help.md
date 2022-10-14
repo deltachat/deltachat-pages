@@ -461,6 +461,19 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 ## Experimental Features
 
+### How can I use audio/video calls with Delta Chat?
+
+- To turn on audio/video calls, go to the experimental settings in the advanced
+  settings and set a "videochat instance". This can be a [Jitsi
+  Meet](https://meet.jit.si) or [BigBlueButton](https://bigbluebutton.org/)
+  server, for example.
+- To use the flagship Jitsi Meet instance, you can enter
+  `https://meet.jit.si/$ROOM`.
+- When you invite others to a call, it is opened in your browser/app at once.
+  The others receive an e-mail with a link to your jitsi/BBB room. This way, it
+  is also compatible if your chat partners don't use Delta Chat.
+
+
 ### What is a verified group? Why is it experimental? 
 
 - A verified group is a chat that guarantees safety against an active
