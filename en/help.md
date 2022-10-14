@@ -463,8 +463,8 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 ### How can I use audio/video calls with Delta Chat?
 
-- To turn on audio/video calls, go to the experimental settings in the advanced
-  settings and set a "videochat instance". This can be a [Jitsi
+- To turn on audio/video calls, go to the "experimental features" section in
+  the advanced settings and set a "videochat instance". This can be a [Jitsi
   Meet](https://meet.jit.si) or [BigBlueButton](https://bigbluebutton.org/)
   server, for example.
 - To use the flagship Jitsi Meet instance, you can enter
@@ -497,10 +497,32 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   they reply to you, you get the reply in your direct 1:1 chat with them. The
   recipients can't see each other.
 - Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the advanced settings. Then you can create a
-  Broadcast List from the "New Chat" dialog.
+- You can turn on the feature in the "experimental features" section in the
+  advanced settings. Then you can create a Broadcast List from the "New Chat"
+  dialog.
 - In case you are using more than one device, Broadcast Lists are currently not
   synced between them.
+
+
+### How can I share my location with my chat partners?
+
+- You can turn on location streaming in the "experimental features" section of
+  the advanced settings.
+- Now, if you want to share your location in a chat, go to "attach" and select
+  "location". You can now set a time frame in which your location will be
+  streamed to your chat partners, between 5 minutes and 6 hours.
+- When your location changes, the others in the chat can view it on a map in
+  the chat.
+- To see the map and view locations of others, you need to turn on the feature
+  in the advanced settings.
+- This feature will not share your location with anyone except your chat
+  partners. *But:* to show the map, we need to download map tiles from
+  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
+  specific area. If this is a privacy risk for you, this feature might not be
+  for you. We are working on finding a decentralized alternative for Mapbox.
+- On desktop, the OS typically can't determine your location. Instead you can
+  right click on the map and describe a location, which is sent to the chat as
+  a message, but also appears on the map.
 
 
 ### What does the experimental database encryption actually protect?
@@ -517,6 +539,7 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 - The Delta Chat desktop client doesn't offer database encryption yet, as there
   is no standard way to store the encryption keys on the different supported
   platforms.
+
 
 ### Why can I choose not to watch the Inbox?
 
