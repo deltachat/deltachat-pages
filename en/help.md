@@ -138,6 +138,18 @@ To archive or pin a chat, long tap (Android), use the chat's menu (Android/Deskt
 to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
 
 
+### What does the green dot mean?
+
+- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
+  of a contact. It means they were "recently seen".
+- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
+  - either because they messaged you directly,
+  - because they wrote something to a group you are both a member of,
+  - because they sent you a read receipt for a message you wrote,
+  - or because they sent data to your Delta Chat app by using a
+    [private app](#private-apps).
+
+
 ## Groups
 
 ### Creation of a group
