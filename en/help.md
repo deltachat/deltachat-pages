@@ -153,23 +153,6 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
 - To add or delete members, click on the group name in the chat.
 
 
-### What is a verified group? Why is it experimental? 
-
-- A verified group is a chat that guarantees safety against an active
-  attacker.  All Messages in a verified chat view are e2e-encrypted, and
-  members can join by scanning a "QR invite code".  All members are thus 
-  connected with each other through a chain of invites, which guarantee 
-  cryptographic consistency against active network or provider attacks. 
-  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-  for the R&D behind this feature. 
-
-- As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continuously improved and many bugs have been fixed since the
-  original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occur, or messages become 
-  unreadable.
-
-
 ### I have deleted myself by accident.
 
 - As you're no longer a group member, you cannot add yourself again. 
@@ -391,20 +374,6 @@ a backup from the old device, and import it into the new device:
   [get.delta.chat](https://get.delta.chat).
 
 
-### Why can I choose not to watch the Inbox?
-
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
-
-Watching the Inbox makes sense to turn off, if you have both:
-
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
-
-In this case, Delta Chat doesn't need to watch the Inbox.
-
 ### What is the "Send Copy to Self" setting good for?
 
 Sending a copy of your messages to yourself ensures that you receive your own
@@ -478,6 +447,54 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   Forum](https://support.delta.chat/c/webxdc/20).
 
 
+## Experimental Features
+
+### What is a verified group? Why is it experimental? 
+
+- A verified group is a chat that guarantees safety against an active
+  attacker.  All Messages in a verified chat view are e2e-encrypted, and
+  members can join by scanning a "QR invite code".  All members are thus 
+  connected with each other through a chain of invites, which guarantee 
+  cryptographic consistency against active network or provider attacks. 
+  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
+  for the R&D behind this feature. 
+
+- As of Dec 2019, a "verified group" remains an experimental feature.
+  It is continuously improved and many bugs have been fixed since the
+  original introduction in 2018.  However, there remain cases, especially 
+  with large groups where inconsistencies can occur, or messages become 
+  unreadable.
+
+
+### Why can I choose not to watch the Inbox?
+
+This is an experimental setting for some people who are experimenting with
+server-side rules. Not all providers support this, but with some you can move
+all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
+would be done by the Delta Chat app.
+
+Watching the Inbox makes sense to turn off, if you have both:
+
+- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
+- have set the "Show classic emails" setting to "no, chats only".
+
+In this case, Delta Chat doesn't need to watch the Inbox.
+
+
+### How Can I Change My Account to a Different E-Mail Address?
+
+1. Change your address at the “Password and Account” seetings screen in Delta
+   Chat, enter your password (and if necessary, server settings) for the new
+   account
+2. If possible, make your old e-mail provider forward all e-mails to your new
+   email address
+3. Tell your contacts that you changed your address. If you write this to a
+   verified group, they will acknowledge this automatically.
+
+To learn about the details behind this, [read our blogpost on
+it](https://delta.chat/en/2022-09-14-aeap).
+
+
 ## Miscellaneous
 
 ### Does Delta Chat work with _my_ e-mail-provider?
@@ -514,20 +531,6 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   uses.
 - Delta Chat can e2e-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
-
-
-### How Can I Change My Account to a Different E-Mail Address?
-
-1. Change your address at the “Password and Account” seetings screen in Delta
-   Chat, enter your password (and if necessary, server settings) for the new
-   account
-2. If possible, make your old e-mail provider forward all e-mails to your new
-   email address
-3. Tell your contacts that you changed your address. If you write this to a
-   verified group, they will acknowledge this automatically.
-
-To learn about the details behind this, [read our blogpost on
-it](https://delta.chat/en/2022-09-14-aeap).
 
 
 ### I'm interested in the technical details. Can you tell me more?
