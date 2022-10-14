@@ -457,7 +457,7 @@ extension. They can do very different things, and make Delta Chat a truly
 extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 
-### How Private are Private Apps?
+### How private are private apps?
 
 - Private apps can not send data to the Internet, or download anything.
 - A private app can only exchange data within a Delta Chat chat, with its
@@ -470,7 +470,7 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   you only open attachments from senders you trust, and not from spammers.
 
 
-### Where Can I Get Private Apps?
+### Where can I get private apps?
 
 - In general, there is no curated appstore and Delta Chat is not responsible
   for private apps or their content. Anyone can share private apps with each
@@ -480,7 +480,7 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
   forum](https://support.delta.chat/c/webxdc/20).
 
 
-### How Can I Create My Own Private Apps?
+### How can I create my own private apps?
 
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
@@ -587,7 +587,7 @@ Watching the Inbox makes sense to turn off, if you have both:
 In this case, Delta Chat doesn't need to watch the Inbox.
 
 
-### How Can I Change My Account to a Different E-Mail Address?
+### How can I change my account to a different e-mail address?
 
 1. Change your address at the “Password and Account” seetings screen in Delta
    Chat, enter your password (and if necessary, server settings) for the new
