@@ -147,7 +147,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   - because they wrote something to a group you are both a member of,
   - because they sent you a read receipt for a message you wrote,
   - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps).
+    [private app](#private-apps--webxdc).
 
 
 ## Groups
