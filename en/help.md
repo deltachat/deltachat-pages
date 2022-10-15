@@ -543,14 +543,17 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 - With a Broadcast List you can send a message to many recipents at once; when
   they reply to you, you get the reply in your direct 1:1 chat with them. The
-  recipients can't see each other.
+recipients can't see each other.
 - Technically, it is an E-Mail with many recipients in BCC.
 - You can turn on the feature in the "experimental features" section in the
   advanced settings. Then you can create a Broadcast List from the "New Chat"
-  dialog.
+dialog.
 - In case you are using more than one device, Broadcast Lists are currently not
   synced between them.
-- Messages sent to broadcast lists are not encrypted.
+- Messages sent to broadcast lists are not encrypted. Encryption would break
+  anonymity, because then all recipients would know who else received it
+  (Sending individual mails to everyone would be worse for rate limit and network
+  consumption reason).
 
 
 ### How can I share my location with my chat partners?
