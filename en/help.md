@@ -67,6 +67,9 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 - You can also "delete" it if you don't want to chat with them for now. This
   does *not* delete the message on the server, only on your device. So you can
   still deal with the message in a different mail app.
+- If you delete a request, future messages from that contact will still appear
+  as message request, so you can change your mind. If you really don't want to
+  receive messages from this person, consider *blocking* them.
 
 
 ### Does Delta Chat support images, videos and other attachments?
