@@ -60,6 +60,15 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
   conversation in Delta Chat or in a "normal" e-mail app.
 
 
+### What if I expect a message from someone I didn't write to in the past?
+
+- If a message comes from an unknown contact, it appears as a **request**. You
+  need to accept the request before you can reply.
+- You can also "delete" it if you don't want to chat with them for now. This
+  does *not* delete the message on the server, only on your device. So you can
+  still deal with the message in a different mail app.
+
+
 ### Does Delta Chat support images, videos and other attachments?
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
