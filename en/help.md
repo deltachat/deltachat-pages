@@ -40,19 +40,24 @@ recipient to install the same app as yours, as with other messengers.
 
 ### Which messages do appear in Delta Chat?
 
-Delta Chat automatically shows:
+By default, Delta Chat shows:
 
-- Messages from contacts in your **address book**
-- Messages from contacts **contacted by you**
-- **Replies** to messages sent by you
+- Messages sent by other Delta Chat users
+- Replies to your Delta Chat messages, even if they are "normal e-mails".
 
-Messages from others appear as a **contact request**. You need to accept the
-request before you can reply. You can also decline it if you don't want to chat
-with them for now.
+Other e-mails don't appear in your app by default. At "Settings -> Chats &
+Media -> Show Classic E-Mails", you can change this. You have these options:
 
-E-mails which were not sent with Delta Chat don't appear in your app by
-default. In the "Chats & Media" settings, you can make Delta Chat show either
-all e-mails or only those by accepted contacts.
+- "No, chats only": Only messages sent by other Delta Chat users and replies to
+  your Delta Chat messages are shown. This makes most sense if you use the same
+  e-mail account for normal e-mails as well. This is the default setting.
+- "All": Delta Chat shows all e-mails that are sent to your email address. This
+  makes sense if you want to use Delta Chat for all your e-mails, so no message
+  gets lost.
+- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
+  you already have a chat, but new chats only pop up for Delta Chat messages.
+  This helps to decide on a case-by-case basis whether you want to have a
+  conversation in Delta Chat or in a "normal" e-mail app.
 
 
 ### Does Delta Chat support images, videos and other attachments?
@@ -351,7 +356,7 @@ If you are not near the chat partner, you can check the status manually in the "
 
 - Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually in "Settings" or "Advanced settings" and then "Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it. 
 
@@ -392,7 +397,7 @@ For other programs, you should be able to find a solution online.
 If you want to use the **same account** on different devices, you should export
 a backup from the old device, and import it into the new device:
 
-- On the old device, go to "Settings" or "Settings / Chats and media" and then to "Backup". Enter your
+- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.
