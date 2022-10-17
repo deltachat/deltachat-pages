@@ -509,6 +509,10 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 ## Experimental Features
 
+We are very grateful about feedback on these features - what would you do
+differently? Join the [Forum](https://support.delta.chat) to contribute. (You
+like experiments? Register through "Sign up -> with Delta Chat"!)
+
 ### How can I use audio/video calls with Delta Chat?
 
 - To turn on audio/video calls, go to the "experimental features" section in
