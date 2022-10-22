@@ -543,11 +543,10 @@ like experiments? Register through "Sign up -> with Delta Chat"!)
   See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
   for the R&D behind this feature. 
 
-- As of Dec 2019, a "verified group" remains an experimental feature.
-  It is continuously improved and many bugs have been fixed since the
-  original introduction in 2018.  However, there remain cases, especially 
-  with large groups where inconsistencies can occur, or messages become 
-  unreadable.
+- As of Oct 2022, "verified groups" remain an experimental feature. It is
+  continuously improved and many bugs have been fixed since the original
+  introduction in 2018. However, there remain cases, especially with large
+  groups where inconsistencies can occur, or messages become unreadable.
 
 
 ### What are Broadcast Lists and how can I use them?
