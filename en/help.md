@@ -502,6 +502,7 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 ### How can I create my own private apps?
 
+- Private apps are just zip files containing html, css, and javascript code.
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
 - All else you need to know is written in the
