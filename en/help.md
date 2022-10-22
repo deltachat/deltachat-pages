@@ -171,6 +171,9 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   - because they sent you a read receipt for a message you wrote,
   - or because they sent data to your Delta Chat app by using a
     [private app](#private-apps--webxdc).
+- So this is not a real time online status - and if someone doesn't answer
+  right away even though they seem to be online, don't worry and give them some
+  space ;-)
 
 
 ## Groups
