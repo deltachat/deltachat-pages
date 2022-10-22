@@ -604,7 +604,7 @@ server-side rules. Not all providers support this, but with some you can move
 all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
 would be done by the Delta Chat app.
 
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have both:
+Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
 
 - enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
 - have set the "Show classic emails" setting to "no, chats only".
