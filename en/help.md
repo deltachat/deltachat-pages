@@ -174,6 +174,9 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
 - So this is not a real time online status - and if someone doesn't answer
   right away even though they seem to be online, don't worry and give them some
   space ;-)
+- On the other hand, others will not always "see that you are online". If you
+  have turned off read receipts, they will not see the green dot until you
+  message them or write to a group they're in as well.
 
 
 ## Groups
