@@ -5,7 +5,7 @@ lang: de
 
 # Impressum
 
-Delta Chat ist ein [Quelloffenes Gemeinschaftsprojekt](https://github.com/deltachat). Verantwortlich für den Inhalt unserer Webseite ist:
+Delta Chat ist ein [quelloffenes Gemeinschaftsprojekt](https://github.com/deltachat). Verantwortlich für den Inhalt unserer Webseiten ist:
 
 merlinux GmbH
 Reichsgrafenstr. 20

@@ -24,7 +24,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/desktop-screenshot.png" width="280" style="float:left; margin: 10px" alt="Masaüstündeki Delta Chat'in bir ekran görüntüsü" /> 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="Delta Chat'in iOS'teki bir ekran görüntüsü" /> 
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="iOS'teki Delta Chat'in bir ekran görüntüsü" /> 
 
 <a class="download-button" href="https://get.delta.chat">İndir</a>
 

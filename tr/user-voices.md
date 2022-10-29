@@ -5,16 +5,16 @@ lang: tr
 
 # Kullanıcı Hikayeleri ve Düşünceleri
 
-### e-posta ile daha eğlenceli
+### e-postayla daha eğlenceli
 
-_"Biraz tuhaf bir gözlem: #DeltaChat ile e-posta gönderip almak, tüm deneyimi geleneksel bir e-posta istemcisi kullanmaktan daha keyifli hale getiriyor. Sanırım bu durum modern yaklaşımımızla ilgili: e-postaları sohbet mesajları gibi yapmak."_
+_"Biraz tuhaf bir gözlem: #DeltaChat ile e-postalar göndermek ve almak, tüm deneyimi geleneksel bir e-posta istemcisi kullanmaktan daha keyifli yapıyor. Sanırım bu durum çağdaş yaklaşımla ilgili: E-postaları sohbet iletileri gibi yapmak."_
 
 **Polonyalı kullanıcı** [mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### birden fazla hesabı destekler
 
-_"Merhaba Delta.chat ekibi! Uygulama için teşekkürler; hem son derece kullanışlı hem de UX mükemmele yakın. Bize e-posta hesapları arasında kolay geçiş yapmayı önerebilir misiniz? [...]."_
-**mastodon kullanıcısı** birden fazla hesabı iyileştirmeden önce [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"Merhaba Delta.chat takımı! Uygulama için teşekkürler; hem son derece kullanışlı hem de UX mükemmele yakın. Bize e-posta hesapları arasında kolay geçiş yapmanın bir yolunu önerebilir misiniz? [...]."_  
+biz çoklu hesapları geliştirmeden önce **mastodon kullanıcısı** [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### sesli ve görüntülü arama mümkün
 

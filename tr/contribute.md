@@ -5,20 +5,20 @@ lang: tr
 
 # Kanallar ve depolar
 
-- [Fediverse](https://chaos.social/web/@delta) and
-  [Twitter](https://twitter.com/delta_chat) for announcements.
+- Duyurular için [Fediverse](https://chaos.social/web/@delta) ve
+  [Twitter](https://twitter.com/delta_chat).
 
 - Daha geniş özellik tartışmaları ve destek almak için
   [Delta Chat destek forumu](https://support.delta.chat).
 
-- [#deltachat Libera.Chat]({% include webirc-url %}) günlük iletişim için.
+- Günlük iletişimler için [Libera.Chat'te #deltachat]({% include webirc-url %}).
 
-- Topluluk tartışmaları ve haberler için 
-  [Delta Chat posta
-  listesi](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/).
+- Topluluk tartışmaları ve haberler için
+  [Delta Chat 
+  posta listesi](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/).
 
-- [Delta Chat depoları](https://github.com/deltachat/), DeltaChat uygulamaları ve bu web sitesi için 
-  kod bulabileceğiniz yerdir.
+- Delta Chat uygulamaları ve bu web sitesi için 
+  kodu bulabileceğiniz [Delta Chat depoları](https://github.com/deltachat/).
 
 # Çeviriler ve Hata Raporları 
 
@@ -26,19 +26,20 @@ lang: tr
 - [Delta Chat Android Sorunları](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Masaüstü Sorunları](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Sorunları](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Çekirdek Kitaplığı + Python Bağlayıcı Sorunları](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Rust Çekirdek Kitaplığı + Python Bağlayıcıları Sorunları](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Her zaman Android, iOS, Windows, Linux veya Mac'te C, Rust, Java, Swift, Javascript veya Python hakkında bilgi sahibi olan ve yardımcı olmak isteyen geliştiriciler ve tasarımcılar arıyoruz.
-Genellikle haftada 20 saat sözleşme veya istihdam sunuyoruz (Almanya).
-Çabalarımıza yardımcı olmakla ilgileniyorsanız lütfen bize ulaşmaktan çekinmeyin (delta at merlinux eu)
+Her zaman yardımcı olmak isteyen ve Android, iOS, Windows, Linux ya da Mac üzerinde C, Rust, Java, Swift, JavaScript ya da Python ile içli dışlı 
+geliştiriciler ve tasarımcılar arıyoruz.
+Genelde hafta başına 20 saatlik sözleşme ya da iş olanağı sunuyoruz (Almanya merkezliyse). 
+Çabalarımıza yardımcı olmakla ilgileniyorsanız, lütfen ulaşmaktan çekinmeyin (delta at merlinux eu)!
 
 
-# Para bağışı
+# Para Bağışı 
 
-DeltaChat'i maddi olarak desteklerseniz, kullanıcılar için çalışan bağımsız bir proje olarak kalmasına ve büyümesine yardımcı olursunuz:
+Delta Chat'i parasal olarak desteklerseniz, kullanıcılarına yönelik ve çalışan bağımsız bir proje olarak kalmasına ve büyümesine yardımcı olursunuz: 
 
 - IBAN DE86100777770428658900, Hesap sahibi (lütfen her zaman belirtin): Björn Petersen, BIC NORSDE51XXX
-- PayPal veya kredi kartı: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- [Liberapay](https://liberapay.com/delta.chat/) üzerinden bağış yapın
-- [Open Collective](https://opencollective.com/delta-chat/donate) aracılığıyla bir kerelik veya yinelenen bağış yapın
-- Bitcoin'leri [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka]'ya gönderin(bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- PayPal ya da kredi kartı: [paypal.me/deltachat](https://paypal.me/deltachat/20)
+- [Liberapay](https://liberapay.com/delta.chat/) aracılığıyla bağış yapın
+- [Open Collective](https://opencollective.com/delta-chat/donate) aracılığıyla bir kerelik ya da yinelenen bağış yapın
+- Bitcoinleri [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka) adresine gönderin

@@ -21,8 +21,8 @@ ya da uyumlu sistemler.
 
 ## Bağlantılar
 
-* [Sağlayıcı Veritabanı](https://providers.delta.chat/): Sağlayıcım Delta Chat ile çalışır mı?
-* [Çoklu istemci SSS](help#multiclient): Masaüstü, başka bir Delta Chat uygulamasıyla nasıl eşitlenir.
+* [Sağlayıcı Veritabanı](https://providers.delta.chat/): Sağlayıcım Delta Chat ile çalışıyor mu?
+* [Çoklu istemci SSS](help#multiclient): Masaüstü, başka bir Delta Chat uygulamasıyla nasıl eşzamanlanır.
 * [İndirmeleri Doğrula](verify-downloads): İndirmelerin veri bütünlüğünü doğrula
 * [Masaüstü Kurulumu Sorun Giderme](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Yaygın masaüstü kurulum sorunları için çözümler
 
