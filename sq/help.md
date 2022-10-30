@@ -40,13 +40,36 @@ e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tje
 
 ### Cilat mesazhe shfaqen në Delta Chat?
 
-Delta Chat shfaq automatikisht:
+By default, Delta Chat shows:
 
-- Mesazhe nga kontakte prej **librit tuaj të adresave**
-- Mesazhe nga kontakte **të kontaktuar nga ju**
-- **Përgjigje** ndaj mesazheve dërguar nga ju
+- Messages sent by other Delta Chat users
+- Replies to your Delta Chat messages, even if they are "normal e-mails".
 
-Mesazhe të tjerë nuk shfaqen automatikisht, dhe do të gjenden te **Kërkesa kontakti**. Nëse dëshirohet, një fjalosje mund të fillohet prej atje.
+Other e-mails don't appear in your app by default. At "Settings -> Chats &
+Media -> Show Classic E-Mails", you can change this. You have these options:
+
+- "No, chats only": Only messages sent by other Delta Chat users and replies to
+  your Delta Chat messages are shown. This makes most sense if you use the same
+  e-mail account for normal e-mails as well. This is the default setting.
+- "All": Delta Chat shows all e-mails that are sent to your email address. This
+  makes sense if you want to use Delta Chat for all your e-mails, so no message
+  gets lost.
+- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
+  you already have a chat, but new chats only pop up for Delta Chat messages.
+  This helps to decide on a case-by-case basis whether you want to have a
+  conversation in Delta Chat or in a "normal" e-mail app.
+
+
+### What if I expect a message from someone I didn't write to in the past?
+
+- If a message comes from an unknown contact, it appears as a **request**. You
+  need to accept the request before you can reply.
+- You can also "delete" it if you don't want to chat with them for now. This
+  does *not* delete the message on the server, only on your device. So you can
+  still deal with the message in a different mail app.
+- If you delete a request, future messages from that contact will still appear
+  as message request, so you can change your mind. If you really don't want to
+  receive messages from this person, consider *blocking* them.
 
 
 ### A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?
@@ -139,6 +162,24 @@ Që të arkivoni ose fiksoni një fjalosje, prekeni gjatë (në Android), përdo
 që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Desktop), ose profilin e fjalosjes (në iOS).
 
 
+### What does the green dot mean?
+
+- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
+  of a contact. It means they were "recently seen".
+- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
+  - either because they messaged you directly,
+  - because they wrote something to a group you are both a member of,
+  - because they sent you a read receipt for a message you wrote,
+  - or because they sent data to your Delta Chat app by using a
+    [private app](#private-apps--webxdc).
+- So this is not a real time online status - and if someone doesn't answer
+  right away even though they seem to be online, don't worry and give them some
+  space ;-)
+- On the other hand, others will not always "see that you are online". If you
+  have turned off read receipts, they will not see the green dot until you
+  message them or write to a group they're in as well.
+
+
 ## Grupe
 
 ### Krijimi i një grupi
@@ -152,19 +193,6 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
 
 - Çdo anëtar i grupit ka **të njëjtat të drejta** si kushdo tjetër. Për këtë arsye, gjithkush mund të fshijë cilindo anëtar ose të shtojë të rinj.
 - Për të shtuar ose fshirë anëtarë, klikoni mbi emrin e grupit te biseda.
-
-
-### Ç’është një grup i verifikuar? Pse është eksperimentale kjo? 
-
-- Një grup i verifikuar është një bisedë që garanton parrezikshmëri ndaj<br>  një sulmuesi aktiv. Krejt Mesazhet në një bisedë të verifikuar janë<br>  të fshehtëzuara skaj më skaj, dhe anëtarët mund marrin pjesë duke<br>  skanuar një "kod QR ftese". Kështu, krejt anëtarët janë të lidhur njëri<br>  me tjetrin përmes një zinxhiri ftesash, çka garanton vazhdueshmëri<br>  kriptografike kundër sulmesh aktive rrjeti apo furnizuesi shërbimesh.<br>  Për R&amp;D pas kësaj veçorie, shihni [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html). 
-
-- Deri në dhjetor të 2019-s, një "grup i verifikuar" mbetet një veçori eksperimentale.
-  Është përmirësuar vazhdimisht dhe janë ndrequr mjaft të meta që prej sjelljes
-  për herë të parë më 2018. Megjithatë, mbeten raste, veçanërisht me grupe
-  të mëdhenj, kur mund të ketë paqëndrueshmëri, ose mesazhet të bëhen
-  të palexueshëm. Diku nga fillimet e 2020-s do të vijë një shqyrtim sigurie dhe
-  po kryhen disa zhvillime të reja lidhur me protokollet <em>qr-join</em>, kështu
-  që shanset janë për ta hequr etiketën “experimentale” jo shumë larg në të ardhmen. 
 
 
 ### Fshiva veten padashje.
@@ -194,7 +222,32 @@ për çfarëdo mesazhesh të rinj.
   se një qenie njerëzore ka lexuar apo kuptuar mesazhin ;)
 
 
-## Fshehtëzim {#encryption}
+### What happens if I turn on "Delete old messages from server"?
+
+- By default, Delta Chat stores all messages locally on your device. If you
+  e.g. want to save storage space at your mail provider, you can choose to
+  delete old messages automatically. They still remain on your device until you
+  delete them there, too.
+- To turn it on, go to "delete old messages from server" in the "Chats & Media"
+  settings. You can set a timeframe between "at once" and "after a year"; this
+  way, *all* e-mails will be deleted from the server after that timeframe. 
+- Note that if you use Delta Chat on more than one device, you should leave the
+  messages on the server, until the other device could download them, too. In
+  this case, you should set auto-delete to "after a day" or something similar,
+  depending on how often you turn on the other device.
+
+
+### What happens if I turn on "Delete old messages from device"?
+
+- If you want to save storage on your device, you can choose to delete old
+  messages automatically. 
+- To turn it on, go to "delete old messages from device" in the "Chats & Media"
+  settings. You can set a timeframe between "after an hour" and "after a year";
+  this way, *all* messages will be deleted from your device as soon as they are
+  older than that.
+
+
+## Encryption
 
 ### A ka Delta Chat-i fshehtëzim skaj-më-skaj?
 
@@ -329,7 +382,7 @@ Nëse s’jeni pranë partnerit të fjalosje, gjendjen mund ta kontrolloni doraz
 
 - Po. Rruga më e mirë është të dërgohet një Mesazh Rregullimi Autocrypt-i që nga klienti tjetër email. Shihni për diçka si **Start Autocrypt Setup Transfer** te rregullimet e klientit tjetër dhe ndiqni udhëzimet e dhëna atje.
 
-- Ndryshe, mund ta importoni kyçin dorazi që nga "Rregullime" ose "Rregullime të mëtejshme" dhe mandej “Importo kyçe të fshehtë”. Kujdes: Sigurohuni që kyçi s’është i mbrojtur me një fjalëkalim, ose hiqiani paraprakisht fjalëkalimin.
+- Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
 Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të bërë. 
 
@@ -370,16 +423,18 @@ Për programe të tjera, mund të gjeni një zgjidhje në internet.
 Nëse doni të përdorni të **njëjtën llogari** në pajisje të ndryshme, duhet
 të eksportoni nga njëra pajisje një kopjeruatje dhe ta importoni te tjetra:
 
-- Te pajisja e vjetër, shkoni te "Rregullime" ose "Rregullime / Fjalosje dhe media"
-  dhe mandej te "Kopjeruajtje". Jepni PIN-in, rregullsinë ose fjalëkalim tuaj
-  për shkyçje ekrani. Mandej mund të klikoni mbi “Fillo Kopjeruajtjen”. Kështu
-  ruhet kartela kopjeruajtje te pajisja juaj. Tani ju mbetet ta shpërngulni në
-  një farë mënyre te pajisja tjetër.
-- Te pajisja e re, te skena e hyrjes, në vend të hyrjes në llogarinë tuaj email,
-  zgjidhni “Importo Kopjeruajtje”. Pas importimit, bisedat tuaja, kyçet
-  e fshehtëzimit dhe media duhet të jenë kopjuar te pajisja juaj e re.
-- Tani jeni i njëkohësuar, dhe mund të përdorni të dyja pajisjet për dërgim dhe
-  marrje mesazhesh të fshehtëzuar Skaj-Më-Skaj me partnerët tuaj të komunikimit. 
+- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
+  screen unlock PIN, pattern, or password. Then you can click on "Start
+  Backup". This saves the backup file to your device. Now you have to transfer
+  it to the other device somehow.
+- On the new device, on the login screen, instead of logging into your email
+  account, choose "Import Backup". After import, your conversations, encryption
+  keys, and media should be copied to the new device.
+  - **If you use iOS:** and you encounter difficulties, maybe
+    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
+    help you.
+- You are now synchronized, and can use both devices for sending and receiving
+  E2E-encrypted messages with your communication partners. 
 
 ### A ka ndonjë plan për të sjellë një Klient Web Delta Chat?
 
@@ -394,20 +449,6 @@ të eksportoni nga njëra pajisje një kopjeruatje dhe ta importoni te tjetra:
   Windows Desktop, ose AppImage për Linux. Mund t’i gjeni te
   [get.delta.chat](https://get.delta.chat).
 
-
-### Pse mund të zgjedh të mos i vëzhgoj Të marrët?
-
-Kjo është një veçori eksperimentale për disa vetë që eksperimentojnë me rregulla
-më anë të shërbyesit. Jo të gjithë furnizuesit e shërbimeve e mbulojnë këtë, por
-me disa mund të kaloni krejt mesazhet me një krye "Chat-Version" te dosja
-DeltaChat. Zakonisht kjo do të bëhej nga aplikacioni Delta Chat.
-
-Çaktivizimi i Vëzhgimit të Të marrëve ka kuptim nëse keni:
-
-- aktivizuar një rregull më anë shërbyesi për të shpënë krejt mesazhet me krye “Chat-Version” te dosja DeltaChat, dhe
-- për rregullimin "Shfaq email-e klasikë" keni zgjedhur "jo, vetëm biseda".
-
-Në këtë rast, Delta Chat-i s’ka nevojë të vëzhgojë Të marrët.
 
 ### Përse hyn në punë rregullimi "Dërgojini Vetes Një Kopje"?
 
@@ -441,6 +482,163 @@ ta përdorin dosjen Të marrë për email-in e tyre, në vend se dosjen DeltaCha
 Nëse çaktivizoni "Vëzhgo dosjen DeltaChat", duhet të çaktivizoni edhe "kalo
 mesazhe bisedash te DeltaChat". Përndryshe, fshirja e mesazheve në instalime me
 shumë pajisje mund të mos punojë si duhet.
+
+
+## Private Apps / webxdc
+
+In Delta Chat, you can share "private apps", attachments with an `.xdc` file
+extension. They can do very different things, and make Delta Chat a truly
+extendable messenger. The technical term is [webxdc](https://webxdc.org).
+
+
+### How private are private apps?
+
+- Private apps can not send data to the Internet, or download anything.
+- A private app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a private app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the private app as well.
+- This also means: it can be a privacy risk to open private apps in chats where
+  you don't trust the members - as you know it from e-mail attachments, where 
+  you only open attachments from senders you trust, and not from spammers.
+
+
+### Where can I get private apps?
+
+- In general, there is no curated appstore and Delta Chat is not responsible
+  for private apps or their content. Anyone can share private apps with each
+  other without restrictions.
+- You can find some example apps on [webxdc.org](https://webxdc.org).
+- Many people write their own private apps and post them to [the Delta Chat
+  forum](https://support.delta.chat/c/webxdc/20).
+
+
+### How can I create my own private apps?
+
+- Private apps are just zip files containing html, css, and javascript code.
+- You can extend the [Hello World example app](https://github.com/webxdc/hello)
+  to get started.
+- All else you need to know is written in the
+  [documentation](https://docs.webxdc.org/).
+- If you have question, you can ask others with experience in the [Delta Chat
+  Forum](https://support.delta.chat/c/webxdc/20).
+
+
+## Experimental Features
+
+We are very grateful about feedback on these features - do you want to share
+your ideas? Join the [Forum](https://support.delta.chat) to contribute. (You
+like experiments? Register through "Sign up -> with Delta Chat"!)
+
+### How can I use audio/video calls with Delta Chat?
+
+- To turn on audio/video calls, go to the "experimental features" section in
+  the advanced settings and choose a "videochat instance". 
+- When you invite others to a video chat, it is opened in your browser/app at
+  once. The others receive an e-mail with a link to your jitsi/BBB room. This
+  way, it is also compatible if your chat partners don't use Delta Chat.
+- Note that there is no ring tone on the other side, and your chat partners
+  will not get interrupted by a video chat invite.
+- You can use any video chat service which allows joining by link. Just add the
+  link in the settings.
+- For example, to use the flagship Jitsi Meet instance, you could enter
+  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
+  this way, you will have a new random jitsi room every time you call someone.
+
+
+### Ç’është një grup i verifikuar? Pse është eksperimentale kjo? 
+
+- Një grup i verifikuar është një bisedë që garanton parrezikshmëri ndaj<br>  një sulmuesi aktiv. Krejt Mesazhet në një bisedë të verifikuar janë<br>  të fshehtëzuara skaj më skaj, dhe anëtarët mund marrin pjesë duke<br>  skanuar një "kod QR ftese". Kështu, krejt anëtarët janë të lidhur njëri<br>  me tjetrin përmes një zinxhiri ftesash, çka garanton vazhdueshmëri<br>  kriptografike kundër sulmesh aktive rrjeti apo furnizuesi shërbimesh.<br>  Për R&amp;D pas kësaj veçorie, shihni [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html). 
+
+- As of Oct 2022, "verified groups" remain an experimental feature. It is
+  continuously improved and many bugs have been fixed since the original
+  introduction in 2018. However, there remain cases, especially with large
+  groups where inconsistencies can occur, or messages become unreadable.
+
+
+### What are Broadcast Lists and how can I use them?
+
+- With a Broadcast List you can send a message to many recipents at once; when
+  they reply to you, you get the reply in your direct 1:1 chat with them. The
+recipients can't see each other.
+- Technically, it is an E-Mail with many recipients in BCC.
+- You can turn on the feature in the "experimental features" section in the
+  advanced settings. Then you can create a Broadcast List from the "New Chat"
+dialog.
+- In case you are using more than one device, Broadcast Lists are currently not
+  synced between them.
+- Messages sent to broadcast lists are not encrypted. Encryption would break
+  anonymity, because then all recipients would know who else received it
+  (Sending individual mails to everyone would be worse for rate limit and network
+  consumption reason).
+
+
+### How can I share my location with my chat partners?
+
+- You can turn on location streaming in the "experimental features" section of
+  the advanced settings.
+- Now, if you want to share your location in a chat, go to "attach" and select
+  "location". You can now set a time frame in which your location will be
+  streamed to your chat partners, between 5 minutes and 6 hours.
+- When your location changes, the others in the chat can view it on a map in
+  the chat.
+- To see the map and view locations of others, you need to turn on the feature
+  in the advanced settings.
+- This feature will not share your location with anyone except your chat
+  partners. *But:* to show the map, we need to download map tiles from
+  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
+  specific area. If this is a privacy risk for you, this feature might not be
+  for you. We are working on finding a decentralized alternative for Mapbox.
+- On desktop, the OS typically can't determine your location. Instead you can
+  right click on the map and describe a location, which is sent to the chat as
+  a message, but also appears on the map.
+
+
+### What does the experimental database encryption actually protect?
+
+- Right now, the database encryption is still very experimental. Don't rely on
+  it for protection, you should additionally use encryption of your operating
+  system, if it provides any.
+- The database encryption does not yet encrypt the blobs, only the rows and
+  columns of the database. This more or less means that your messages are safe,
+  but not your attachments.
+- For iOS and Android, the encryption keys are stored in the system keychain.
+  This means the encryption is as secure as the operating system it's running
+  on.
+- The Delta Chat desktop client doesn't offer database encryption yet, as there
+  is no standard way to store the encryption keys on the different supported
+  platforms.
+
+
+### Why can I choose to only watch the DeltaChat folder?
+
+Kjo është një veçori eksperimentale për disa vetë që eksperimentojnë me rregulla
+më anë të shërbyesit. Jo të gjithë furnizuesit e shërbimeve e mbulojnë këtë, por
+me disa mund të kaloni krejt mesazhet me një krye "Chat-Version" te dosja
+DeltaChat. Zakonisht kjo do të bëhej nga aplikacioni Delta Chat.
+
+Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
+
+- aktivizuar një rregull më anë shërbyesi për të shpënë krejt mesazhet me krye “Chat-Version” te dosja DeltaChat, dhe
+- për rregullimin "Shfaq email-e klasikë" keni zgjedhur "jo, vetëm biseda".
+
+In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
+
+
+### How can I change my account to a different e-mail address?
+
+1. Change your address at the “Password and Account” seetings screen in Delta
+   Chat, enter your password (and if necessary, server settings) for the new
+   account
+2. If possible, make your old e-mail provider forward all e-mails to your new
+   email address
+3. Tell your contacts that you changed your address. If you write this to a
+   verified group, they will acknowledge this automatically.
+
+To learn about the details behind this, [read our blogpost on
+it](https://delta.chat/en/2022-09-14-aeap).
+
 
 ## Të ndryshme
 

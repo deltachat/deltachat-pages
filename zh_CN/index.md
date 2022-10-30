@@ -8,7 +8,7 @@ lang: zh_CN
 <img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
 
 <br>
-🗨️ 向有任意电子邮件地址发送消息，[即使他们不使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
+🗨️ 向任意电子邮件地址发送消息，[即使他们不使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
 
 🥳 通过 [webxdc 应用](https://webxdc.org)，享受互动聊天体验。
 
