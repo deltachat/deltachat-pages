@@ -40,36 +40,34 @@ gli stessi server di posta elettronica
 
 ### Quali messaggi vengono mostrati in Delta Chat?
 
-By default, Delta Chat shows:
+Per impostazione predefinita, Delta Chat mostra:
 
-- Messages sent by other Delta Chat users
-- Replies to your Delta Chat messages, even if they are "normal e-mails".
+- Messaggi inviati da altri utenti di Delta Chat
+- Risposte ai tuoi messaggi di Delta Chat, anche se sono "normali e-mail".
 
-Other e-mails don't appear in your app by default. At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
+Per impostazione predefinita, le altre e-mail non vengono visualizzate nell'app. In "Impostazioni -> Chat e Media -> Mostra E-mail Tradizionali", puoi cambiarlo. Hai queste opzioni:
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well. This is the default setting.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- "No, solo chat": Vengono mostrati solo i messaggi inviati da altri utenti di Delta Chat e le risposte
+ai vostri messaggi di Delta Chat. Questa opzione ha senso se si utilizza lo stesso
+account di posta elettronica anche per le normali e-mail. Questa è l'impostazione predefinita.
+- "Si": Delta Chat mostra tutte le e-mail inviate al vostro indirizzo di posta elettronica. Questa
+opzione ha senso se si desidera utilizzare Delta Chat per tutte le e-mail, in modo che nessun messaggio
+vada perso.
+- "Per i contatti accettati": Delta Chat mostra tutti i messaggi e-mail dei contatti con i quali
+si ha già una chat, ma le nuove chat vengono visualizzate solo per i messaggi di Delta Chat.
+Questo aiuta a decidere, caso per caso, se si desidera conversare in Delta Chat o in una "normale" applicazione e-mail.
 
 
-### What if I expect a message from someone I didn't write to in the past?
+### Cosa succede se aspetto un messaggio da qualcuno a cui non ho scritto in passato?
 
-- If a message comes from an unknown contact, it appears as a **request**. You
-  need to accept the request before you can reply.
-- You can also "delete" it if you don't want to chat with them for now. This
-  does *not* delete the message on the server, only on your device. So you can
-  still deal with the message in a different mail app.
-- If you delete a request, future messages from that contact will still appear
-  as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider *blocking* them.
+- Se un messaggio proviene da un contatto sconosciuto, appare come una **richiesta**. È necessario
+accettare la richiesta prima di poter rispondere.
+- Si può anche "cancellare" il messaggio se non si vuole più chattare con esso. Questo
+non cancella il messaggio sul server, ma solo sul dispositivo. Quindi è possibile
+continuare a gestire il messaggio in un'altra applicazione di posta.
+- Se si elimina una richiesta, i futuri messaggi di quel contatto continueranno a essere visualizzati come richieste di contatto
+in modo da poter cambiare idea. Se non si vuole davvero ricevere
+messaggi da questa persona, prendete in considerazione la possibilità di *bloccarla*.
 
 
 ### Delta Chat supporta immagini, video e altri allegati?
@@ -159,22 +157,22 @@ Per archiviare o fissare una chat, premi a lungo (Android), usa il menu della ch
 per silenziare una chat, usa il menu della chat (Android/Desktop) o il profilo della chat (iOS).
 
 
-### What does the green dot mean?
+### Cosa significa il punto verde?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Da Delta Chat 1.34 è possibile vedere un "punto verde" accanto all'avatar
+di un contatto. Ciò significa che è stato "visto di recente".
+- In dettaglio: significa che negli ultimi 10 minuti Delta Chat lo ha visto:
+- o perché vi hanno messaggiato direttamente,
+- perché hanno scritto qualcosa a un gruppo di cui siete entrambi membri,
+- perché vi hanno inviato una ricevuta di lettura per un messaggio che avete scritto,
+- o perché hanno inviato dati alla vostra applicazione Delta Chat utilizzando un'applicazione
+[app privata] (#apps-private--webxdc).
+- Quindi non si tratta di uno stato online in tempo reale - e se qualcuno non risponde
+subito anche se sembra essere online, non preoccupatevi e lasciategli un po'
+di spazio ;-)
+- D'altra parte, gli altri non sempre "vedono che siete online". Se avete
+disattivato le ricevute di lettura, non vedranno il pallino verde finché
+non gli invierete un messaggio o non scriverete a un gruppo in cui si trovano anche loro.
 
 
 ## Gruppi
@@ -218,32 +216,31 @@ quindi anche se vedi solo un segno di spunta, il messaggio potrebbe essere stato
 che un essere umano abbia letto o compreso il messaggio ;)
 
 
-### What happens if I turn on "Delete old messages from server"?
+### Cosa succede se attivo "Elimina Messaggi dal Server"?
 
-- By default, Delta Chat stores all messages locally on your device. If you
-  e.g. want to save storage space at your mail provider, you can choose to
-  delete old messages automatically. They still remain on your device until you
-  delete them there, too.
-- To turn it on, go to "delete old messages from server" in the "Chats & Media"
-  settings. You can set a timeframe between "at once" and "after a year"; this
-  way, *all* e-mails will be deleted from the server after that timeframe. 
-- Note that if you use Delta Chat on more than one device, you should leave the
-  messages on the server, until the other device could download them, too. In
-  this case, you should set auto-delete to "after a day" or something similar,
-  depending on how often you turn on the other device.
-
-
-### What happens if I turn on "Delete old messages from device"?
-
-- If you want to save storage on your device, you can choose to delete old
-  messages automatically. 
-- To turn it on, go to "delete old messages from device" in the "Chats & Media"
-  settings. You can set a timeframe between "after an hour" and "after a year";
-  this way, *all* messages will be deleted from your device as soon as they are
-  older than that.
+- Per impostazione predefinita, Delta Chat memorizza tutti i messaggi in locale sul dispositivo. Se
+ad esempio, si vuole risparmiare spazio di archiviazione presso il proprio provider di posta elettronica, è possibile scegliere di
+eliminare automaticamente i vecchi messaggi. I messaggi rimangono comunque sul dispositivo finché non li si cancella anche lì.
+- Per attivarla, andare su "Elimina Messaggi dal Server" nelle impostazioni di "Chat e Media".
+È possibile impostare un intervallo di tempo compreso tra "Subito" e "Dopo 1 anno".
+in questo modo, *tutti* i messaggi di posta elettronica saranno eliminati dal server dopo tale periodo. 
+- Si noti che se si utilizza Delta Chat su più di un dispositivo, è consigliabile lasciare i messaggi sul server,
+finché anche l'altro dispositivo non potrà scaricarli. In questo caso,
+si dovrebbe impostare la cancellazione automatica su "Dopo 1 giorno" o qualcosa di simile,
+a seconda della frequenza con cui si accende l'altro dispositivo.
 
 
-## Encryption
+### Cosa succede se attivo "Elimina Messaggi dal Dispositivo"?
+
+- Se si desidera risparmiare spazio sul dispositivo, è possibile scegliere di eliminare i vecchi
+messaggi automaticamente.
+- Per attivarla, andare su "Elimina Messaggi dal Dispositivo" nelle impostazioni di "Chat e Media".
+È possibile impostare un intervallo di tempo compreso tra "Dopo 1 ora" e "Dopo 1 anno";
+in questo modo, *tutti* i messaggi saranno eliminati dal dispositivo non appena saranno
+più vecchi di quel periodo.
+
+
+## Crittografia
 
 ### Delta Chat supporta la crittografia end-to-end?
 
@@ -371,7 +368,7 @@ RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 - Sì. Il modo migliore è inviare un messaggio di installazione di Autocrypt dall'altro client e-mail. Cerca qualcosa come **Avvia il trasferimento dell'installazione di Autocrypt** nelle impostazioni dell'altro client e segui le istruzioni mostrate lì.
 
-- Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- In alternativa, è possibile importare la chiave manualmente in "Impostazioni -> Avanzate -> Gestisci Chiavi -> Importa Chiavi Segrete". Attenzione: Assicurarsi che la chiave non sia protetta da una password o rimuoverla prima.
 
 Se non hai una chiave o non sai nemmeno di averne bisogno, non preoccuparti: Delta Chat genera le chiavi secondo necessità, non devi premere un pulsante per ottenerle.
 
@@ -412,18 +409,17 @@ FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
 Se desideri utilizzare lo **stesso account** su dispositivi diversi, devi esportare
 un backup dal vecchio dispositivo e importarlo nel nuovo dispositivo:
 
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-  - **If you use iOS:** and you encounter difficulties, maybe
-    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
-    help you.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- Sul vecchio dispositivo, andare su "Impostazioni -> Chat e Media -> Backup Chats su Memoria Esterna". Immettere il PIN, il tracciato o la password di
+sblocco dello schermo. Quindi è possibile fare clic su "Avvia
+Backup". Il file di backup viene salvato sul dispositivo. Ora è necessario trasferirlo
+in qualche modo sull'altro dispositivo.
+- Sul nuovo dispositivo, nella schermata di accesso, invece di accedere all'account e-mail, scegliere "Importa Backup".
+Dopo l'importazione, le conversazioni, le chiavi di crittografia e i file multimediali dovrebbero essere copiati
+sul nuovo dispositivo.
+- Se si utilizza iOS:** e si riscontrano difficoltà, si consiglia di consultare
+[questa guida] (https://support.delta.chat/t/import-backup-to-ios/1628) vi aiuterà.
+- Ora siete sincronizzati e potete utilizzare entrambi i dispositivi per l'invio e la ricezione di messaggi.
+crittografati E2E con i vostri partner di comunicazione. 
 
 ### Sono previsti piani per l'introduzione di un client Web Delta Chat?
 
@@ -470,67 +466,65 @@ cartella DeltaChat", dovresti anche disabilitare "sposta messaggi chat in DeltaC
 In caso contrario, l'eliminazione dei messaggi o configurazioni multi-dispositivo potrebbero non funzionare correttamente.
 
 
-## Private Apps / webxdc
+## Apps private / webxdc
 
-In Delta Chat, you can share "private apps", attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger. The technical term is [webxdc](https://webxdc.org).
-
-
-### How private are private apps?
-
-- Private apps can not send data to the Internet, or download anything.
-- A private app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a private app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the private app as well.
-- This also means: it can be a privacy risk to open private apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+In Delta Chat è possibile condividere "apps private", allegati con estensione `.xdc`.
+Possono fare molte cose diverse e rendono Delta Chat un messenger veramente
+davvero estendibile. Il termine tecnico è [webxdc](https://webxdc.org).
 
 
-### Where can I get private apps?
+### Quanto sono private le apps private?
 
-- In general, there is no curated appstore and Delta Chat is not responsible
-  for private apps or their content. Anyone can share private apps with each
-  other without restrictions.
-- You can find some example apps on [webxdc.org](https://webxdc.org).
-- Many people write their own private apps and post them to [the Delta Chat
-  forum](https://support.delta.chat/c/webxdc/20).
-
-
-### How can I create my own private apps?
-
-- Private apps are just zip files containing html, css, and javascript code.
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
-- All else you need to know is written in the
-  [documentation](https://docs.webxdc.org/).
-- If you have question, you can ask others with experience in the [Delta Chat
-  Forum](https://support.delta.chat/c/webxdc/20).
+- Le apps private non possono inviare dati a Internet o scaricare alcunché.
+- Un'applicazione privata può scambiare dati solo all'interno di una chat di Delta Chat, con le sue copie sui dispositivi dei vostri partner di chat.
+A parte questo, è completamente
+isolata da Internet.
+- La privacy offerta da un'app privata è la privacy della vostra chat: finché vi fidate delle persone con cui chattate, potete
+fidarvi anche dell'app privata.
+- Questo significa anche che può essere un rischio per la privacy aprire app private in chat in cui non ci si fida dei partecipanti.
+come nel caso degli allegati di posta elettronica, per i quali si aprono
+solo gli allegati di mittenti di cui ci si fida e non quelli degli spammer.
 
 
-## Experimental Features
+### Dove posso trovare apps private?
 
-We are very grateful about feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute. (You
-like experiments? Register through "Sign up -> with Delta Chat"!)
+- In generale, non esiste un appstore curato e Delta Chat non è responsabile delle applicazioni private o del loro contenuto.
+Chiunque può condividere apps private con
+gli altri senza restrizioni.
+- Potete trovare alcuni esempi di app su [webxdc.org](https://webxdc.org).
+- Molte persone scrivono le proprie applicazioni private e le pubblicano sul [forum di Delta Chat
+](https://support.delta.chat/c/webxdc/20).
 
-### How can I use audio/video calls with Delta Chat?
 
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "videochat instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to your jitsi/BBB room. This
-  way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+### Come posso creare le mie apps private?
+
+- Le applicazioni private sono solo file zip contenenti codice html, css e javascript.
+- È possibile estendere l'applicazione [Hello World app di esempio](https://github.com/webxdc/hello)
+per iniziare.
+- Tutto il resto è scritto nella [documentazione](https://docs.webxdc.org/).
+- Se si hanno domande, si possono fare ad altri esperti nel [Forum Delta Chat
+](https://support.delta.chat/c/webxdc/20).
+
+
+## Caratteristiche Sperimentali
+
+Siamo molto grati per il feedback su queste funzionalità: volete condividere
+le vostre idee?Unitevi al [Forum](https://support.delta.chat) per contribuire. (Ti
+piacciono gli esperimenti? Registrati tramite "Iscriviti -> con Delta Chat")!
+
+### Come posso utilizzare le chiamate audio/video con Delta Chat?
+
+- Per attivare le chiamate audio/video, andare nella sezione "Funzionalità Sperimentali" delle impostazioni avanzate e scegliere una "istanza di videochat".
+nelle impostazioni avanzate e scegliere una "Istanza Videochat". 
+- Quando si invitano altre persone a una videochat, questa viene aperta subito nel browser/app.
+una volta. Gli altri ricevono un'e-mail con un link alla vostra stanza jitsi/BBB. In questo
+modo è compatibile anche se gli interlocutori che non utilizzano Delta Chat.
+- Si noti che dall'altra parte non c'è una suoneria e che i vostri interlocutori non verranno interrotti da una videochiamata.
+- È possibile utilizzare qualsiasi servizio di video chat che consenta l'accesso tramite link. È sufficiente aggiungerlo
+nelle impostazioni.
+- Ad esempio, per utilizzare l'istanza principale di Jitsi Meet, si può inserire
+`https://meet.jit.si/$ROOM`. La variabile `$ROOM` sarà un valore casuale;
+in questo modo, si avrà una nuova stanza Jitsi casuale ogni volta che si chiama qualcuno.
 
 
 ### Che cos'è un gruppo verificato? Perché è sperimentale?
@@ -543,92 +537,89 @@ coerenza crittografica contro gli aggressori alla rete o al fornitore.
 Vedi [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
 per la Ricerca e Sviluppo alla base di questa funzione.
 
-- As of Oct 2022, "verified groups" remain an experimental feature. It is
-  continuously improved and many bugs have been fixed since the original
-  introduction in 2018. However, there remain cases, especially with large
-  groups where inconsistencies can occur, or messages become unreadable.
+- A partire dall'ottobre 2022, i "gruppi verificati" rimangono una funzione sperimentale. È
+continuamente migliorata e molti bug sono stati risolti dall'introduzione originale nel 2018.
+Tuttavia, ci sono ancora casi, specialmente con gruppi di grandi dimensioni, in cui
+possono verificarsi incongruenze o i messaggi diventano illeggibili.
 
 
-### What are Broadcast Lists and how can I use them?
+### Cosa sono le Liste di Trasmissione e come si possono usare?
 
-- With a Broadcast List you can send a message to many recipents at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+- Con una Lista di Trasmissione è possibile inviare un messaggio a molti destinatari contemporaneamente; quando questi vi rispondono, ricevete la risposta nella vostra chat diretta 1:1 con loro.
+I destinatari non possono vedersi a vicenda.
+- Tecnicamente, si tratta di un messaggio di posta elettronica con molti destinatari in BCC.
+- È possibile attivare questa funzione nella sezione "Funzionalità Sperimentali" delle impostazioni avanzate.
+Quindi è possibile creare una Lista di Trasmissione dalla finestra di dialogo "Nuova chat".
+- Nel caso in cui si utilizzi più di un dispositivo, le Liste di Trasmissione non sono attualmente sincronizzate tra loro.
+- I messaggi inviati alle Liste di Trasmissione non sono crittografate. La crittografia romperebbe l'anonimato, perché
+tutti i destinatari saprebbero chi altro ha ricevuto il messaggio.
+(l'invio di singoli messaggi di posta elettronica a tutti sarebbe peggiore per il limite di velocità e il
+consumo di rete).
 
 
-### How can I share my location with my chat partners?
+### Come posso condividere la mia posizione con i miei partner di chat?
 
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat
-  partners. *But:* to show the map, we need to download map tiles from
-  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
-  specific area. If this is a privacy risk for you, this feature might not be
-  for you. We are working on finding a decentralized alternative for Mapbox.
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
-
-
-### What does the experimental database encryption actually protect?
-
-- Right now, the database encryption is still very experimental. Don't rely on
-  it for protection, you should additionally use encryption of your operating
-  system, if it provides any.
-- The database encryption does not yet encrypt the blobs, only the rows and
-  columns of the database. This more or less means that your messages are safe,
-  but not your attachments.
-- For iOS and Android, the encryption keys are stored in the system keychain.
-  This means the encryption is as secure as the operating system it's running
-  on.
-- The Delta Chat desktop client doesn't offer database encryption yet, as there
-  is no standard way to store the encryption keys on the different supported
-  platforms.
+- Puoi attivare la trasmissione della posizione nella sezione "Funzionalità Sperimentali" nelle
+impostazioni avanzate.
+- Ora, se vuoi condividere la tua posizione in una chat, vai su "allega" e seleziona
+"Posizione". Ora puoi impostare un intervallo di tempo in cui verrà trasmessa la tua posizione
+ai tuoi partner di chat, tra 5 minuti e 6 ore.
+- Quando la tua posizione cambia, gli altri nella chat possono visualizzarla su una mappa nella
+chat.
+- Per vedere la mappa e visualizzare le posizioni degli altri, devi attivare la funzione
+nelle impostazioni avanzate.
+- Questa funzione non condividerà la tua posizione con nessuno tranne che con i tuoi partner di chat.
+*Ma:* per mostrare la mappa, dobbiamo scaricare i riquadri della mappa da
+mapbox.com, quindi se *visualizzi* la mappa, a mapbox.com viene richiesta la mappa di un
+area specifica. Se questo è un rischio per la privacy per te, questa funzione potrebbe non esserlo più.
+Stiamo lavorando per trovare un'alternativa decentralizzata per Mapbox.
+- Su desktop, il sistema operativo in genere non è in grado di determinare la tua posizione. Invece puoi
+fare clic con il tasto destro sulla mappa e descrivere una posizione, che viene inviata alla chat come
+un messaggio, ma appare anche sulla mappa.
 
 
-### Why can I choose to only watch the DeltaChat folder?
+### Cosa protegge effettivamente la crittografia sperimentale del database?
+
+- In questo momento, la crittografia del database è ancora molto sperimentale.  Non affidarti su di essa
+ per sicurezza, dovresti inoltre utilizzare la crittografia del tuo sistema
+ operativo, se ne prevede una.
+ - La crittografia del database non crittografa ancora i BLOB, solo le righe e le
+colonne del database. Questo più o meno significa che i tuoi messaggi sono al sicuro,
+ma non i tuoi allegati.
+- Per iOS e Android, le chiavi di crittografia sono memorizzate nel portachiavi di sistema.
+Ciò significa che la crittografia è sicura quanto il sistema operativo
+in esecuzione.
+- Il client desktop Delta Chat non offre ancora la crittografia del database, come qui
+non c'è un modo standard per memorizzare le chiavi di crittografia sulle diverse piattaforme
+supportate.
+
+
+### Perché posso scegliere di guardare solo la cartella DeltaChat?
 
 Questa è un'impostazione sperimentale per alcune persone che stanno sperimentando
 regole lato server. Non tutti i provider supportano questo, ma con alcuni puoi spostare
 tutti i messaggi con un'intestazione "Chat-Version" nella cartella DeltaChat. Normalmente, questo
 verrebbe eseguito dall'app Delta Chat.
 
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
+Abilitare "Recupera dalla Cartella DeltaChat" ha senso se hai **entrambi**:
 
 - abilitato una regola lato server per spostare tutti i messaggi con l'intestazione Chat-Version nella cartella DeltaChat, e
 - aver impostato l'impostazione "Mostra email classiche" su "no, solo chat".
 
-In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
+In questo caso, Delta Chat non ha bisogno di guardare la Posta in arrivo ed è sufficiente guardare solo la cartella DeltaChat.
 
 
-### How can I change my account to a different e-mail address?
+### Come posso cambiare il mio account con un indirizzo e-mail diverso?
 
-1. Change your address at the “Password and Account” seetings screen in Delta
-   Chat, enter your password (and if necessary, server settings) for the new
-   account
-2. If possible, make your old e-mail provider forward all e-mails to your new
-   email address
-3. Tell your contacts that you changed your address. If you write this to a
-   verified group, they will acknowledge this automatically.
+1. Modifica il tuo indirizzo nella schermata delle impostazioni "Password e Account" in Delta
+Chatt, inserisci la tua password (e se necessario, le impostazioni del server) per il nuovo
+account
+2. Se possibile, fai in modo che il tuo vecchio provider di posta elettronica inoltri tutte le e-mail al tuo nuovo
+indirizzo e-mail
+3. Comunica ai tuoi contatti che hai cambiato indirizzo. Se scrivi questo ad un
+gruppo verificato, lo riconosceranno automaticamente.
 
-To learn about the details behind this, [read our blogpost on
+Per conoscere i dettagli alla base di questo, [leggi il nostro post sul blog
 it](https://delta.chat/en/2022-09-14-aeap).
 
 

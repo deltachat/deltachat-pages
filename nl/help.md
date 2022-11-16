@@ -46,28 +46,25 @@ Standaard toont Delta Chat:
 
 Andere e-mails worden standaard niet getoond. Je kunt dit echter aanpassen via Instellingen → Gesprekken en media → Klassieke e-mails tonen. Vervolgens heb je keuze uit de volgende opties:
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well. This is the default setting.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- ‘Alleen gesprekken’: er worden alleen berichten en antwoorden van andere
+   Delta Chat-gebruikers getoond. Dit is handig als je hetzelfde account ook voor
+   normale e-mails gebruikt en is de standaardinstelling.
+- ‘Alles’: alle e-mails worden getoond. Dit is handig als je Delta Chat voor al je e-mails gebruikt, zodat je geen bericht hoeft te missen.
+- ‘Alleen goedgekeurde contactpersonen’: Delta Chat toont alle e-mails van contactpersonen
+   waarmee je al gecommuniceerd hebt. Nieuwe berichten verschijnen
+   alleen als ze vanuit Delta Chat verstuurd zijn.
+   Hiermee kun je per keer bepalen of je een gesprek in Delta Chat of je e-mailapp wilt voeren.
 
 
 ### Wat nu als ik een bericht verwacht van iemand die ik nog niet heb aangeschreven?
 
-- If a message comes from an unknown contact, it appears as a **request**. You
-  need to accept the request before you can reply.
-- You can also "delete" it if you don't want to chat with them for now. This
-  does *not* delete the message on the server, only on your device. So you can
-  still deal with the message in a different mail app.
-- If you delete a request, future messages from that contact will still appear
-  as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider *blocking* them.
+- Als een bericht afkomstig is van een onbekende contactpersoon, dan wordt er een **verzoek** getoond.
+   Accepteer het verzoek om te kunnen antwoorden.
+- Ook kun je het verzoek verwijderen als je op dat moment geen gesprek met ze wilt voeren.
+   Hierdoor wordt het bericht in kwestie niet op de server verwijderd, maar alleen op je apparaat, zodat je in een andere app kunt antwoorden.
+- Als je een verzoek verwijderd, dan worden toekomstige berichten nog steeds als verzoek getoond,
+   zodat je te allen tijde kunt bepalen of je het alsnog wilt accepteren. Als je écht geen contact wilt leggen, overweeg dan
+   om de persoon in kwestie te **blokkeren**.
 
 
 ### Ondersteunt Delta Chat afbeeldingen, video's en ander soort bijlagen?
@@ -154,20 +151,18 @@ Negeer een gesprek via het gespreksmenu (Android/computer) of het gespreksprofie
 
 ### Wat betekent die groene stip?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Sinds Delta Chat 1.34 wordt er soms een groen stipje naast een profielfoto van een
+  contactpersoon getoond. Dit betekent dat ze onlangs actief waren,
+  dat wil zeggen: in de afgelopen 10 minuten. Dit komt omdat ze
+  - je een bericht hebben gestuurd;
+  - iets in een van je groepen hebben geplaatst;
+  - een leesbevestiging hebben verstuurd;
+  - gegevens naar je Delta Chat-app middels een zogeheten
+    [privé-app](#private-apps--webxdc) hebben verstuurd.
+- De online-status is dus **niet** realtime. Geef ze dus even de tijd om te antwoorden. ;-)
+- Anderen kunnen ook niet altijd zien dat je actief was. Als je
+  leesbevestigingen hebt uitgeschakeld, dan wordt er geen groen stipje getoond totdat je
+  iemand benaderd of iets in een groep plaatst..
 
 
 ## Groepen
@@ -226,17 +221,15 @@ automatisch verwijderen hiervoor in op ‘na één dag’ of iets dergelijks,
 afhankelijk van hoe vaak je het andere apparaat gebruikt.
 
 
-### What happens if I turn on "Delete old messages from device"?
+### Wat gebeurt er als ik ‘Oude berichten van server verwijderen’ inschakel?
 
-- If you want to save storage on your device, you can choose to delete old
-  messages automatically. 
-- To turn it on, go to "delete old messages from device" in the "Chats & Media"
-  settings. You can set a timeframe between "after an hour" and "after a year";
-  this way, *all* messages will be deleted from your device as soon as they are
-  older than that.
+- Als je ruimte wilt besparen op je apparaat, dan kun je er voor kiezen om oude
+  berichten automatisch te verwijderen.
+- Inschakelen kan via de sectie ‘Gesprekken en media’ in de instellingen. Je kunt een periode tussen
+  ‘na één uur’ en ‘na één jaar’ kiezen. *Alle berichten die ouder zijn, worden verwijderd.
 
 
-## Encryption
+## Versleuteling
 
 ### Ondersteunt Delta Chat eind-tot-eindversleuteling?
 
@@ -364,7 +357,7 @@ RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 - Ja. De beste manier om dit te doen is door een Autocrypt-instelbericht te versturen vanuit de andere client. Zoek naar een optie als **Autocrypt-instellingen overdragen** in de instellingen van die client en volg de instructies.
 
-- Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Ook kun je de sleutel handmatig importeren via ‘Instellingen --> Geavanceerd --> Sleutels beheren’. Let op: zorg dat de sleutel niet met een wachtwoord beveiligd is.
 
 Als je geen sleutel hebt of niet wist dat je er één nodig had, geen paniek: Delta Chat genereert, indien nodig, automatisch een sleutel.
 
@@ -405,18 +398,15 @@ Als je **hetzelfde account** wilt gebruiken op andere
 apparaten, dan moet je
 een back-up exporteren op het oude apparaat en deze importeren op het nieuwe:
 
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-  - **If you use iOS:** and you encounter difficulties, maybe
-    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
-    help you.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- Ga op je oude apparaat naar ‘Instellingen --> Gesprekken en media --> Back-up’. Voer je
+  ontgrendelpincode, -patroon of -wachtwoord in. Druk vervolgens op ‘Nu back-uppen’. Er wordt een back-up opgeslagen op je apparaat. Zet deze over
+  naar je nieuwe apparaat.
+- Pak het nieuwe apparaat. Druk op het inlogscherm op ‘Back-up importeren’ (log dus niet in op je account). Na het importeren zijn je gesprekken, privésleutels
+  en media overgezet op je nieuwe apparaat.
+- Als je **iOS** gebruikt en problemen ervaart, volg dan
+  [deze handleiding](https://support.delta.chat/t/import-backup-to-ios/1628).
+- Je kunt nu beide apparaten gebruiken voor het ontvangen en versturen van
+  E2E-versleutelde berichten van/naar je gesprekspartners.
 
 ### Bestaan er plannen om een Delta Chat-webclient te maken?
 
@@ -462,67 +452,64 @@ schakel dan ook de optie ‘Berichten verplaatsen naar de DeltaChat-map’ uit.
 Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere apparaten.
 
 
-## Private Apps / webxdc
+## Privé-apps/webxdc
 
-In Delta Chat, you can share "private apps", attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger. The technical term is [webxdc](https://webxdc.org).
-
-
-### How private are private apps?
-
-- Private apps can not send data to the Internet, or download anything.
-- A private app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a private app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the private app as well.
-- This also means: it can be a privacy risk to open private apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+In Delta Chat kun je zogeheten ‘privé-apps’ delen. Dit zijn bijlagen met de bestandsextensie `.xdc`. Ze hebben verschillende functien en maken van Delta Chat een uitbreidbare
+gespreksapp. De technische term van privé-apps is [webxdc](https://webxdc.org).
 
 
-### Where can I get private apps?
+### Hoe privé zijn privé-apps?
 
-- In general, there is no curated appstore and Delta Chat is not responsible
-  for private apps or their content. Anyone can share private apps with each
-  other without restrictions.
-- You can find some example apps on [webxdc.org](https://webxdc.org).
-- Many people write their own private apps and post them to [the Delta Chat
+- Privé-apps versturen geen gegevens naar het internet en downloaden ook niets.
+- Een privé-app kan alleen gegevens uitwisselen binnen een Delta Chat-gesprek en bewaart dus alleen
+  kopieën op de apparaten van je gesprekspartners. Verder zijn ze volledig
+  afgesloten van het internet.
+- Een privé-app is dus net zo privé als je gesprek. Als je je gesprekspartners vertrouwt,
+  kun je privé-apps dus ook vertrouwen.
+- Er kleeft echter wel een klein risico aan vast: openbare privé-apps in gesprekken
+  met personen die je niet vertrouwt zijn - net als e-mailbijlagen - 
+  niet per definitie veilig. Open dus alléén privé-apps van personen die je vertrouwt.
+
+
+### Waar kan ik privé-apps downloaden?
+
+- Er is in principe geen appwinkel met privé-apps en Delta Chat is niet verantwoordelijk voor
+  de apps of inhoud ervan. Iedereen kan ongelimiteerd privé-apps met elkaar delen.
+- Op [webxdc.org](https://webxdc.org) staan wel enkele voorbeeldapps.
+- De meeste mensen maken hun eigen privé-apps en delen ze op het [Delta Chat-forum](https://support.delta.chat/c/webxdc/20).
+
+
+### Hoe kan ik mijn eigen privé-apps maken?
+
+- Privé-apps zijn eigenlijk gewoon zip-bestanden met html-, css- en javascriptcode.
+- Als je net aan de slag gaat, dan kun je de [Hello World-voorbeeldapp](https://github.com/webxdc/hello)
+  uitbreiden.
+- Meer informatie is te vinden in de
+  [documentatie](https://docs.webxdc.org/).
+- Als je een vraag hebt, dan kun je die stellen aan ervaren gebruikers op het [Delta Chat-
   forum](https://support.delta.chat/c/webxdc/20).
 
 
-### How can I create my own private apps?
+## Experimentele functies
 
-- Private apps are just zip files containing html, css, and javascript code.
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
-- All else you need to know is written in the
-  [documentation](https://docs.webxdc.org/).
-- If you have question, you can ask others with experience in the [Delta Chat
-  Forum](https://support.delta.chat/c/webxdc/20).
+We zijn zeer benieuwd naar je feedback. Ervaar je problemen of wil je
+ideeën delen? Neem dan deel aan ons [forum](https://support.delta.chat). (Ben je een
+echte tester? Registreer je dan via ‘Registreren → met Delta Chat’!)
 
+### Hoe kan ik audio- en videogesprekken voeren in Delta Chat?
 
-## Experimental Features
-
-We are very grateful about feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute. (You
-like experiments? Register through "Sign up -> with Delta Chat"!)
-
-### How can I use audio/video calls with Delta Chat?
-
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "videochat instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to your jitsi/BBB room. This
-  way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+- Audio-/Videogesprekken kunnen worden ingeschakeld in de sectie ‘experimentele functies’ in de
+  geavanceerde instellingen. Kies daar een ‘instantie’. 
+- Als je anderen uitnodigt, dan wordt het gesprek meteen in je webbrowser of een app
+  geopend. Anderen ontvangen een e-mail met een link naar de jitsi-/BBB-kamer. Op deze
+  manier is het gesprek compatibel met gesprekspartners die geen gebruikmaken van Delta Chat.
+- Let op: de ander hoort geen beltoon en je gesprekspartners
+  worden niet gestoord door de uitnodiging.
+- Je kunt kiezen uit verschillende videogespreksdiensten die op basis van links werken. Voeg hiervoor de
+  link toe in de instellingen.
+- Voorbeeld: als je gebruik wilt maken van Jitsi Meet, dan kun je
+  `https://meet.jit.si/$KAMER` invoeren. `$KAMER` is hierbij een willekeurige waarde,
+  zodat er telkens een nieuwe jitsi-kamer als je iemand belt.
 
 
 ### Wat is een ‘goedgekeurde groep’ en waarom is dit een experimentele functie? 
@@ -535,93 +522,89 @@ like experiments? Register through "Sign up -> with Delta Chat"!)
   Bekijk https://countermitm.readthedocs.io/en/latest/new.html
   voor meer informatie omtrent deze functie. 
 
-- As of Oct 2022, "verified groups" remain an experimental feature. It is
-  continuously improved and many bugs have been fixed since the original
-  introduction in 2018. However, there remain cases, especially with large
-  groups where inconsistencies can occur, or messages become unreadable.
+- Stand van zaken, oktober 2022: goedgekeurde groepen zijn nog steeds een experimentele functie. Er wordt echter druk
+  aan gesleuteld en er zijn al vele bugs opgelost sinds de
+  eerste vrijgave in 2018. Er zijn echter nog een paar gevallen, zoals grote groepen,
+  waar sommige berichten kunnen verdwijnen of onleesbaar zijn.
 
 
-### What are Broadcast Lists and how can I use them?
+### Wat zijn verzendlijsten en hoe gebruik ik deze?
 
-- With a Broadcast List you can send a message to many recipents at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
-
-
-### How can I share my location with my chat partners?
-
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat
-  partners. *But:* to show the map, we need to download map tiles from
-  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
-  specific area. If this is a privacy risk for you, this feature might not be
-  for you. We are working on finding a decentralized alternative for Mapbox.
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
+- Met behulp van verzendlijsten kun je berichten naar meerdere ontvangers tegelijk versturen. Als zij vervolgens
+  antwoorden, dan wordt het antwoord in het een-op-eengesprek getoond. De
+ontvangers kunnen elkaar niet zien.
+- Technisch gezien is een verzendlijst een e-mail met meerdere ontvangers in de bcc.
+- Schakel deze functie in in de sectie ‘experimentele functies ’in de
+  geavanceerde instellingen. Vervolgens kun je in het venster ‘Nieuw gesprek’ een verzendlijst
+samenstellen.
+- Let op: als je gebruikmaakt van meer dan één apparaat, dan worden verzendlijsten momenteel
+  niet gesynchroniseerd.
+- Ook zijn zulke berichten niet versleuteld. Versleuteling zou immers de
+  anonimiteit doorbreken omdat iedereen van elkaar kan zien wie de berichten ontvangt.
+  (En het versturen van meerdere individuele e-mails tegelijk zou funest zijn voor de beperkingen van sommige e-maildiensten en het
+  netwerkverbruik).
 
 
-### What does the experimental database encryption actually protect?
+### Hoe kan ik mijn locatie delen met anderen?
 
-- Right now, the database encryption is still very experimental. Don't rely on
-  it for protection, you should additionally use encryption of your operating
-  system, if it provides any.
-- The database encryption does not yet encrypt the blobs, only the rows and
-  columns of the database. This more or less means that your messages are safe,
-  but not your attachments.
-- For iOS and Android, the encryption keys are stored in the system keychain.
-  This means the encryption is as secure as the operating system it's running
-  on.
-- The Delta Chat desktop client doesn't offer database encryption yet, as there
-  is no standard way to store the encryption keys on the different supported
-  platforms.
+- Je kunt locatiedeling inschakelen in de sectie ‘experimentele functies’ in
+  de geavanceerde instellingen.
+- Als je vervolgens een locatie wilt delen, dan kun je dat doen door ‘locatie’ te kiezen als
+  "bijlage". Vervolgens kun je een tijdspanne kiezen zodat je locatie niet onbeperkt
+  wordt gedeeld met gesprekspartners. De tijdspanne ligt tussen 5 minuten en 6 uur.
+- Als je locatie wijzigt, dan zien anderen dat op de kaart in het
+  gesprek.
+- Als je kaarten en locaties van anderen wilt bekijken, schakel deze functie dan ook in
+  in de geavanceerde instellingen.
+- Let op: met deze functie deel je je locatie met iedereen.
+  Om de kaart te tonen worden er kaartdelen opgehaald van
+  mapbox.com. Als je dus de kaart bekijkt, dan wordt aan mapbox.com gevraagd om een kaart van een
+  bepaald gebied te tonen. Als je dit privacygevoelig vindt, dan kun je deze functie beter niet gebruiken.
+  We zijn echter hard aan het zoeken naar een gedecentraliseerd alternatief voor Mapbox!
+- Op computers kan je locatie doorgaans niet worden bepaald. In zulke gevallen kun je
+  rechts klikken op de kaart en handmatig een locatie aangeven, welke vervolgens als bericht met kaart
+  wordt verstuurd.
 
 
-### Why can I choose to only watch the DeltaChat folder?
+### Wat beveiligt de experimentele databankversleuteling precies?
+
+- Momenteel is databankversleuteling nog experimenteel en dus nog niet volledig
+  betrouwbaar. Gebruik, indien mogelijk, de versleuteling van je besturingssysteem.
+- Databankversleuteling versleutelt momenteel alléén de rijen en
+  kolommen van de databank. Hierdoor zijn je berichten veilig,
+  maar je bijlagen niet.
+- Op iOS en Android worden de sleutels opgeslagen in de sleutelbos van het systeem.
+  Versleuteling is daar dus niet zo betrouwbaar als het besturingssysteem in kwestie.
+- Op computers wordt databankversleuteling nog niet ondersteund omdat er geen
+  standaardmethode is om de sleutels op de verschillende systemen op te slaan.
+
+
+### Waarom kan ik kiezen om alleen de DeltaChat-map te controleren?
 
 Dit is een experimentele functie voor mensen die problemen ervaren
 met bepaalde serverregels. Niet alle providers ondersteunen dit, maar bij sommige
 kun je alle e-mails met een ‘Chatversie’-kop verplaatsen naar de DeltaChat-map.
 Normaal doet de Delta Chat-app dit uit zichzelf.
 
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
+Dit is handig als jullie **beide**:
 
 - een serverregel hebt ingesteld om alle berichten met een ‘Chatversie’-kop te verplaatsen naar de DeltaChat-map, en
 - de optie ‘Klassieke e-mails tonen’ hebt ingesteld op ‘Nee, alleen gesprekken’.
 
-In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
+In dat geval kan Delta Chat Postvak IN negeren en alleen nieuwe gesprekken in de Delta Chat-map te zoeken.
 
 
-### How can I change my account to a different e-mail address?
+### Hoe kan ik mijn e-mailadres veranderen in de app?
 
-1. Change your address at the “Password and Account” seetings screen in Delta
-   Chat, enter your password (and if necessary, server settings) for the new
-   account
-2. If possible, make your old e-mail provider forward all e-mails to your new
-   email address
-3. Tell your contacts that you changed your address. If you write this to a
-   verified group, they will acknowledge this automatically.
+1. Wijzig je adres in de sectie ‘Wachtwoord en account’ in de appinstellingen en
+   voer je wachtwoord (en, indien nodig, de serverinstellingen) van het nieuwe
+   account in.
+2. Verstuur eventueel e-mails automatisch van je oude naar je nieuwe
+   e-mailadres door.
+3. Laat je contactpersonen weten dat je e-mailadres gewijzigd is. Als je dat in een
+   goedgekeurde groep doet, dan wordt bij het adres bij iedereen automatisch gewijzigd.
 
-To learn about the details behind this, [read our blogpost on
-it](https://delta.chat/en/2022-09-14-aeap).
+Meer informatie hieromtrent is te vinden in ons [blogartikel](https://delta.chat/en/2022-09-14-aeap).
 
 
 ## Overig
