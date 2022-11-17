@@ -131,10 +131,10 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
 
 - Seit Delta Chat 1.34 sehen Sie manchmal einen "grünen Punkt" neben dem Avatar eines Kontakts. Es bedeutet, dass der Kontakt "kürzlich gesehen" wurde.
 - Im Detail: Das bedeutet, dass Delta Chat den Kontakt in den letzten 10 Minuten gesehen hat:
-  - entweder weil der Kontakt Ihnen direkt eine Nachricht gesendet haben,
-  - weil der Kontakt etwas an eine Gruppe geschrieben haben, in der sie beide Mitglied sind,
-  - weil der Kontakt Ihnen eine Lesebestätigung für eine von Ihnen geschriebene Nachricht gesendet haben,
-  - oder weil der Kontakt Daten mithilfe einer [Privaten App](#private-apps-webxdc) an Ihre Delta Chat-App gesendet haben.
+  - entweder weil der Kontakt Ihnen direkt eine Nachricht gesendet hat,
+  - weil der Kontakt etwas an eine Gruppe geschrieben hat, in der sie beide Mitglied sind,
+  - weil der Kontakt Ihnen eine Lesebestätigung für eine von Ihnen geschriebene Nachricht gesendet hat,
+  - oder weil der Kontakt Daten mithilfe einer [Privaten App](#private-apps-webxdc) an Ihre Delta Chat-App gesendet hat.
 - Dies ist also kein Echtzeit-Online-Status - und wenn jemand nicht sofort antwortet, obwohl er online zu sein scheint, machen Sie sich keine Sorgen und geben Sie ihm etwas Raum. ;-)
 - Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
 
