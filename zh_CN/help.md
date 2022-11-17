@@ -38,34 +38,21 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 默认情况下， Delta Chat 会显示：
 
-- Messages sent by other Delta Chat users
-- Replies to your Delta Chat messages, even if they are "normal e-mails".
+- 由其他 Delta Chat 用户发送的消息
+- 对您 Delta Chat 消息的回复，即使这些回复是“普通的电子邮件”。
 
-Other e-mails don't appear in your app by default. At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
+其他的电子邮件默认不会显示在 Delta Chat 中。通过“设置->聊天与媒体->显示传统电子邮件”，您可以改变这种行为。有三个选项：
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well. This is the default setting.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- “不显示，仅聊天”：只显示由其他 Delta Chat 用户发送的消息和对您 Delta Chat 消息的回复。这在电子邮件地址同时用于处理普通邮件的情况下很有用。默认设置。
+- “全部”：Delta Chat 会显示发送到您电子邮件地址的所有邮件。用于您希望使用 Delta Chat 处理所有电子邮件的情况，这样就不会有消息被落下了。
+- “已接受的联系人”：Delta Chat 会显示已有聊天的联系人的所有电子邮件，而新聊天只会为 Delta Chat 消息弹出。可用于希望逐一决定是在 Delta Chat 中还是在“普通”电子邮件应用中对话的情况。
 
 
-### What if I expect a message from someone I didn't write to in the past?
+### 如果希望收到我从未发送过消息的人的消息，该怎么办?
 
-- If a message comes from an unknown contact, it appears as a **request**. You
-  need to accept the request before you can reply.
-- You can also "delete" it if you don't want to chat with them for now. This
-  does *not* delete the message on the server, only on your device. So you can
-  still deal with the message in a different mail app.
-- If you delete a request, future messages from that contact will still appear
-  as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider *blocking* them.
+- 来自未知联系人的消息会作为**请求**出现。您需要在回复之前先接收他的请求。
+- 如果现在不想和他聊天，您也可以“删除”请求。这只会在设备上而 *不会* 在服务器上删除这条消息。所以您仍可以使用其他电子邮件应用来处理它。
+- 删除了请求后，来自同一联系人的后续消息仍会作为聊天请求出现，所以您有机会来改变主意。如果您真的不想收到那个人的消息，那么可以考虑 *屏蔽* 他。
 
 
 ### Delta Chat 支持图像、视频和其他附件吗？
@@ -144,20 +131,14 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 ### 绿色圆点代表什么？
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- 自 Delta Chat 1.34 起，您有时会在联系人的头像旁看到一个“绿色圆点”。绿色圆点意味着“最近见到了”这些联系人。
+- 具体来说，它代表着：在最近的 10 分钟内，Delta Chat 看到了他们：
+  - 或是因为他们直接给您发消息了，
+  - 因为他们在和您的共有群组中发消息了，
+  - 因为他们对您的消息发送了已读回执，
+  - 或是因为他们通过[私人应用](#private-apps--webxdc)给您的 Delta Chat 发送数据了。
+- 所以，这并不是一个实时的在线状态——如果他人即使看起来在线也没有立即回复，不要心急，给他们一些空间 ;-)
+- 另一方面，其他人并不总是能“看到您在线”。如果您关掉了已读回执，那么在您发消息给其他人以及和他们的共有群组前，其他人将不会看到绿色圆点。
 
 
 ## 群组
@@ -197,23 +178,15 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 ### 打开“从服务器删除旧消息”后，会发生什么？
 
-- By default, Delta Chat stores all messages locally on your device. If you
-  e.g. want to save storage space at your mail provider, you can choose to
-  delete old messages automatically. They still remain on your device until you
-  delete them there, too.
-- To turn it on, go to "delete old messages from server" in the "Chats & Media"
-  settings. You can set a timeframe between "at once" and "after a year"; this
-  way, *all* e-mails will be deleted from the server after that timeframe. 
-- Note that if you use Delta Chat on more than one device, you should leave the
-  messages on the server, until the other device could download them, too. In
-  this case, you should set auto-delete to "after a day" or something similar,
-  depending on how often you turn on the other device.
+- 默认情况下，Delta Chat 会在本地设备上存储您的所有消息。如果您，例如，想要节省邮件提供商处的存储空间，那么可以选择开启自动删除旧消息。这些消息还将保存在您的设备上（除非您在设备上删除它们）。
+- 找到“聊天与媒体”设置中的“从服务器删除旧消息”，在从“立刻”到“一年后”的一系列选项中选择一个。这样，*每封* 电子邮件将会在所选时间长度后从服务器上删除。
+- 注意：如果在多台设备上使用 Delta Chat，请将消息在服务器上保存足够长的时间，以便其他设备能够下载消息。在这种情况下，您应当根据其他设备的使用频率，将自动删除设置到“一天后”或相似的选项上。
 
 
 ### 打开“从设备删除旧消息”后，会发生什么？
 
-- 如果你想节省设备上的存储空间，你可以选择自动删除旧消息。
-- 要打开它，在“聊天与媒体”设置中找到“从设备删除旧消息” 。 你可以从”一小时“后到”一年后“的时间间隔中选择一个。这样，设备上*所有*比这个时间间隔老的消息将被删除。
+- 若要节省设备上的存储空间，可以开启自动删除旧消息。
+- 找到“聊天与媒体”设置中的“从设备删除旧消息”，在从“一小时后”到“一年后”的一系列选项中选择一个。这样，设备上 *所有* 比所选择时间长度老的消息将被删除。
 
 
 ## 加密
@@ -297,7 +270,7 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - 是的。最好的方法是从其他电子邮件客户端发送 Autocrypt 设置消息。在其他客户端的设置中寻找类似于**启动 Autocrypt 设置传输**的东西，然后按那里显示的指示操作。
 
-- 此外，你还可以使用”设置->高级设置->导入密钥“来手动导入。注意：请确保导入的密钥没有被密码保护；或者在这之前移除掉密码。
+- 此外，您还可以使用”设置->高级设置->导入密钥“来手动导入。注意：请确保导入的密钥没有被密码保护；或者在这之前移除密码。
 
 如果您没有密钥或者根本就不知道自己是否需要一个——不用担心：Delta Chat 会在需要时自动生成密钥，您不必为此按一个按钮。
 
@@ -322,18 +295,10 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 要在不同设备上使用**相同帐户**，请从旧设备导出备份，然后将其导入新设备：
 
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-  - **If you use iOS:** and you encounter difficulties, maybe
-    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
-    help you.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- 在旧设备上，找到“设置->聊天与媒体->导出备份”。输入屏幕解锁 PIN 码、图案或密码，然后点击“开始备份”。这会将备份文件保存到您的设备上。现在您必须用某种方法将备份文件传输到新设备。
+- 在新设备的登录界面，请选择“导入备份”而不是登录您的电子邮件账户。在导入后，您的对话、加密密钥和媒体将会复制到新设备。
+  - **iOS 用户：**如果您遇到了问题，[这份指南](https://support.delta.chat/t/import-backup-to-ios/1628)或许可以帮助您。
+- 您现在已经同步了，并且可以使用两台设备与您的通信伙伴收发端到端加密消息。
 
 ### 有推出 Delta Chat Web 客户端的计划吗？
 
@@ -346,7 +311,7 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 向自己发送消息的副本可以确保您在所有设备上收到自己的消息。如果您在使用多台设备时没有打开此设置，那么您将只能看到其他人发过来的消息和您从当前设备发出的消息。
 
-副本会被发送到收件箱，然后会被移动到 DeltaChat 文件夹；它不会被放到“已发送”文件夹里。Delta Chat *从不*将东西上传到已发送文件夹，因为这意味着上传一条消息两次（一次通过 SMTP，一次通过 IMAP 到已发送文件夹）。
+副本会被发送到收件箱，然后会被移动到 DeltaChat 文件夹；它不会被放到“已发送”文件夹里。Delta Chat *从不* 将东西上传到已发送文件夹，因为这意味着上传一条消息两次（一次通过 SMTP，一次通过 IMAP 到已发送文件夹）。
 
 给自己发送副本的默认设置是“不”。
 
@@ -363,155 +328,98 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 ## 私人应用 / webxdc
 
-In Delta Chat, you can share "private apps", attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger. The technical term is [webxdc](https://webxdc.org).
+在 Delta Chat 中，您可以分享“私人应用”——带有 `.xdc ` 文件扩展名的附件。它们可以实现很多种不同的功能，而这使得 Delta Chat 成为了一款真正可扩展的聊天软件。其技术名称是 [webxdc](https://webxdc.org)。
 
 
 ### 私人应用有多么私人？
 
-- Private apps can not send data to the Internet, or download anything.
-- A private app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a private app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the private app as well.
-- This also means: it can be a privacy risk to open private apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+- 私人应用不能发送数据到互联网，也不能下载任何东西。
+- 私人应用只能在一个 Delta Chat 聊天中，和它在您的聊天伙伴设备上的拷贝交换数据。除此以外，私人应用完全隔离于互联网。
+- 私人应用所提供的私密性就是您聊天的私密性 - 只要您信任与您聊天的人，您也可以信任私人应用。
+- 这也意味着：在您不信任的聊天中打开私人应用可能会带来隐私风险——正如您从电子邮件附件中所了解的那样，您只能打开受信任发件人的附件，而不能打开来自垃圾邮件发送者的附件。
 
 
 ### 可以从哪里获取私人应用？
 
-- In general, there is no curated appstore and Delta Chat is not responsible
-  for private apps or their content. Anyone can share private apps with each
-  other without restrictions.
-- You can find some example apps on [webxdc.org](https://webxdc.org).
-- Many people write their own private apps and post them to [the Delta Chat
-  forum](https://support.delta.chat/c/webxdc/20).
+- 总体来说，这里没有精选的应用商店，并且 Delta Chat 不对私人应用和它们的内容负责。所有人都可以无限制地分享私人应用。
+- 您可以在 [webxdc.org](https://webxdc.org) 找到一些示例应用。
+- 很多人编写了他们自己的私人应用，并将应用发布到了 [Delta Chat 论坛](https://support.delta.chat/c/webxdc/20)。
 
 
 ### 怎样创建我自己的私人应用？
 
-- Private apps are just zip files containing html, css, and javascript code.
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
-- All else you need to know is written in the
-  [documentation](https://docs.webxdc.org/).
-- If you have question, you can ask others with experience in the [Delta Chat
-  Forum](https://support.delta.chat/c/webxdc/20).
+- 私人应用只是包含 html、css、和 javascript 代码的 zip 文件。
+- 您可以从 [Hello World 示例应用](https://github.com/webxdc/hello)开始扩展。
+- [文档](https://docs.webxdc.org/)提供了您所需要知道的其他内容。
+- 如果您有任何问题，可以在 [Delta Chat 论坛](https://support.delta.chat/c/webxdc/20)中向有经验的人提问。
 
 
 ## 实验性功能
 
-We are very grateful about feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute. (You
-like experiments? Register through "Sign up -> with Delta Chat"!)
+我们非常感谢有关这些功能的反馈 - 您想分享您的想法吗？加入[论坛](https://support.delta.chat)，做出贡献。（您喜欢参与实验吗？通过“Sign up -> with Delta Chat“注册吧！）
 
-### How can I use audio/video calls with Delta Chat?
+### 怎样在 Delta Chat 中使用音频/视频通话？
 
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "videochat instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to your jitsi/BBB room. This
-  way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+- 要启用音频/视频通话，转到高级设置中的“实验性功能”部分，然后选择一个“视频聊天实例”。
+- 当您邀请其他人参加视频聊天时，视频聊天会立即在您的浏览器/应用程序中打开。其他人会收到带有您 jitsi/BBB 房间链接的电子邮件。这种方式在聊天伙伴不使用 Delta Chat 时也是可用的。
+- 请注意，对方没有铃声，您的聊天伙伴不会被视频聊天邀请打断。
+- 您可以使用任意允许通过链接加入的视频聊天服务。只需在设置中添加链接。
+- 例如，要使用旗舰 Jitsi Meet 实例，您可以输入 `https://meet.jit.si/$ROOM`。 `$ROOM` 变量将是一个随机值；这样，每次您与他人通话时，您都会使用一个新的随机 jitsi 房间。
 
 
 ### 什么是已验证群组？为什么它是实验性的？
 
 - 已验证群组是一个面对主动攻击者时可保证安全的聊天。已验证聊天视图中的所有消息都是端到端加密的，成员可以通过扫描“邀请二维码”加入。这样，所有成员都通过邀请链相互连接，从而保证了面对主动攻击网络和提供商攻击时的加密一致性。要了解该功能背后的研发，请参阅 [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)。
 
-- As of Oct 2022, "verified groups" remain an experimental feature. It is
-  continuously improved and many bugs have been fixed since the original
-  introduction in 2018. However, there remain cases, especially with large
-  groups where inconsistencies can occur, or messages become unreadable.
+- 在 2022 年 10 月，“已验证群组”仍然是实验性功能。自 2018 年引入后，该功能一直在不断改进，并且许多 bug 得到了修复。然而，仍然存在出现不一致或者消息变得不可读的情况，特别是在大群组中。
 
 
 ### 什么是广播列表？怎样使用它们？
 
-- With a Broadcast List you can send a message to many recipents at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+- 使用广播列表，您可以一次性将一条消息发送给多个接收者；当他们回复您时，回复会出现在您与他们的直接 1 对 1 聊天中。 接收者之间无法相互看到。 
+- 从技术上讲，它是密件抄送了许多收件人的电子邮件。 
+- 您可以在高级设置的“实验性功能”部分启用该功能。启用后，您便能在“新建聊天”对话框中新建广播列表了。
+- 在使用多台设备的情况下，目前广播列表不会在它们之间同步。
+- 发送到广播列表的消息不会被加密。加密会使接收者们知道还有谁收到了消息，进而破坏了匿名性（出于发送速率限制和网络消耗的原因，向每个人发送单独的邮件会更糟）。
 
 
 ### 如何与聊天伙伴分享位置？
 
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat
-  partners. *But:* to show the map, we need to download map tiles from
-  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
-  specific area. If this is a privacy risk for you, this feature might not be
-  for you. We are working on finding a decentralized alternative for Mapbox.
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
+- 您可以在高级设置的“实验性功能”部分打开位置流。
+- 如果您想在聊天中分享位置，找到“附件”然后选择“位置”。现在，在 5 分钟到 6 小时之间，设置一个将您的位置传输给聊天伙伴的时间长度。
+- 在您的位置发生变化时，聊天中的其他人可以在地图上看到它。
+- 要看到地图和他人的位置，您需要在高级设置中打开该功能。
+- 此功能不会与您的聊天伙伴以外的任何人分享您的位置。 *但是：*为了显示地图，我们需要从 mapbox.com 下载地图图块。所以，当您 *查看* 地图时， mapbox.com 会收到下载特定区域地图的请求。 如果这对您来说是隐私风险，那么这项功能可能不适合您。我们正在寻找 Mapbox 的去中心化替代品。
+- 在桌面端，操作系统通常不能确定您的位置。不过您可以在地图上右键，然后描述一个位置；这个位置会作为一条消息发送到聊天中，同时也会出现在地图上。
 
 
 ### 实验性的数据库加密到底保护了什么？
 
-- Right now, the database encryption is still very experimental. Don't rely on
-  it for protection, you should additionally use encryption of your operating
-  system, if it provides any.
-- The database encryption does not yet encrypt the blobs, only the rows and
-  columns of the database. This more or less means that your messages are safe,
-  but not your attachments.
-- For iOS and Android, the encryption keys are stored in the system keychain.
-  This means the encryption is as secure as the operating system it's running
-  on.
-- The Delta Chat desktop client doesn't offer database encryption yet, as there
-  is no standard way to store the encryption keys on the different supported
-  platforms.
+- 目前，数据库加密仍处于高度试验性状态。不要依靠它来提供保护。如果操作系统提供了加密，您还应当使用它。
+- 数据库加密目前只加密了数据库的行与列，没有加密二进制数据块。这多少意味着您的消息是安全的，但您的附件不是。
+- 对于 iOS 和 Android，加密密钥存储在系统钥匙串中。这意味着加密安全性和所运行在的操作系统安全性一样。
+- 由于没有标准方法在不同平台上存储加密密钥，Delta Chat 桌面客户端尚未提供数据库加密。
 
 
 ### 为什么我可以选择只监视 DeltaChat 文件夹？
 
 这是提供给尝试服务器端规则的人的实验性设置。在使用某些电子邮件提供商时，您可以将所有带有"Chat-Version"头的邮件移入 DeltaChat 文件夹。并不是所有的提供商都支持此操作；通常情况下，这是由 Delta Chat 应用完成的。
 
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
+启用“只从 DeltaChat 文件夹获取”是有意义的，仅当您**同时**完成了：
 
 - 已经启用了将带有 Chat-Version 头的所有消息移入 DeltaChat 文件夹的服务器端规则；和
 - 已将“显示传统电子邮件”设置为“不显示，仅聊天”。
 
-In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
+在这种情况下，Delta Chat 不需要监视收件箱，只监视 DeltaChat 文件夹就足够了。
 
 
 ### 如何将我的账户迁移到一个不同的电子邮件地址？
 
-1. Change your address at the “Password and Account” seetings screen in Delta
-   Chat, enter your password (and if necessary, server settings) for the new
-   account
-2. If possible, make your old e-mail provider forward all e-mails to your new
-   email address
-3. Tell your contacts that you changed your address. If you write this to a
-   verified group, they will acknowledge this automatically.
+1. 在 Delta Chat“密码和账户”设置中更改电子邮件地址，输入密码和服务器设置（如果需要的话）。
+2. 如果可能的话，将旧邮箱设置为转发所有邮件到新电子邮件地址。
+3. 告诉您的联系人您已经更换了地址。如果发消息到已验证群组，他们将会自动知晓这件事。
 
-To learn about the details behind this, [read our blogpost on
-it](https://delta.chat/en/2022-09-14-aeap).
+要了解背后的细节，[请参阅我们的博文](https://delta.chat/en/2022-09-14-aeap)。
 
 
 ## 杂项
@@ -533,9 +441,9 @@ it](https://delta.chat/en/2022-09-14-aeap).
 ### Delta Chat 与 Protonmail / Tutanota / Criptext 兼容吗？
 
 - 兼容，也不兼容。
-- 您不能用 Protonmail、Tutanota 或 Criptext 账户来使用 Delta Chat；它们提供使用 IMAP 接收邮件的服务。
+- 您不能用 Protonmail、Tutanota 或 Criptext 账户来使用 Delta Chat；它们不提供使用 IMAP 接收邮件的服务。
 - 您可以使用 Delta Chat 将消息发送给使用 Protonmail、Tutanota 或 Criptext 的人。然而，这些消息不会被端到端加密。这些提供商提供的端到端加密不兼容 Delta Chat 所使用的 [Autocrypt](https://autocrypt.org/)标准。
-- Delta Chat 可以通过任何电子邮件提供商与[使用了 Autocrypt 的电子邮件应用](https://autocrypt.org/dev-status.html)进行端到端加密。
+- Delta Chat 可以通过任何电子邮件提供商与[使用 Autocrypt 的电子邮件应用](https://autocrypt.org/dev-status.html)进行端到端加密。
 
 
 ### 我对技术细节很感兴趣。能告诉我更多吗？
