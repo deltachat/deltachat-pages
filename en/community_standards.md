@@ -54,12 +54,17 @@ representative at an online or offline event.
 
 ## Reporting and Responses
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting select project maintainers, currently Nami and Xenia (XXX add e-mail addresses?).
+If you experience or witness abusive, harassing, or otherwise unacceptable behavior
+you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](ksenia@transcyberian.org).
 They will review reports and involve other maintainers as appropriate,
-resulting in a response that is deemed necessary and appropriate to the circumstances.
-Maintainers are obligated to maintain confidentiality with regard to the reporter of an incident. Maintainers are themselves not exempt from being reported about and may face
-temporary or permanent repercussions as determined by other maintainers.
+and will respond in a way that is deemed necessary and appropriate
+to the circumstances, but not against your will.
+
+Maintainers are obligated to maintain confidentiality
+with regard to the reporter of an incident.
+Maintainers are themselves not exempt from being reported about
+and may face temporary or permanent repercussions
+as determined by other maintainers.
 
 
 ## Attribution
