@@ -22,8 +22,6 @@ Examples of behavior which we ask everybody to avoid include:
 * Public or private harassment
 * Publishing others' private information, such as a physical or electronic
   address, without explicit permission
-* Other behaviour which could reasonably be considered inappropriate in a
-  professional setting
 
 We recognize that sometimes people may have a bad day, or may be unaware of
 the impact of their behaviour. When that happens, you may carefully remind
@@ -45,7 +43,7 @@ other behaviors that they deem inappropriate, threatening, offensive, or harmful
 
 ## Scope
 
-This Code of Conduct applies both within project communication channels and
+Our Community Standards apply both within project communication channels and
 gatherings as well as in public spaces
 when an individual is representing the project or its community. Examples of
 representing a project or community include using an official project e-mail
@@ -69,7 +67,7 @@ as determined by other maintainers.
 
 ## Attribution
 
-This Code of Conduct is adapted from the `Contributor Covenant`_, version 1.4,
+Our Community Standards document is adapted from the `Contributor Covenant`_, version 1.4,
 available at https://contributor-covenant.org/version/1/4
 
 .. _Contributor Covenant: https://contributor-covenant.org
