@@ -13,10 +13,11 @@ Delta Chat is an [open source community project](https://github.com/deltachat). 
 
 E-mail: {% include email-link %}
 
-Amtsgericht Freiburg: HRB709589  
-VAT: DE814082730  
+Amtsgericht Freiburg: HRB709589
+VAT: DE814082730
 Managing Director: Holger Krekel
 
-[Community channels](contribute)
+[Community Channels](contribute)
+[Community Standards](community-standards)
 
 The mailing list server is operated through <https://github.com/codespeaknet/sysadmin>.
