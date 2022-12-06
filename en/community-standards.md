@@ -67,7 +67,5 @@ as determined by other maintainers.
 
 ## Attribution
 
-Our Community Standards document is adapted from the `Contributor Covenant`_, version 1.4,
-available at https://contributor-covenant.org/version/1/4
-
-.. _Contributor Covenant: https://contributor-covenant.org
+Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at <https://contributor-covenant.org/version/1/4>
