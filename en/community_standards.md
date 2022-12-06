@@ -1,4 +1,4 @@
-# Delta Chat Community Code of Conduct
+# Delta Chat Community Standards
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers strive to make participation in Delta Chat
