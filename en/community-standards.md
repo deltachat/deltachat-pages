@@ -53,7 +53,7 @@ representative at an online or offline event.
 ## Reporting and Responses
 
 If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](ksenia@transcyberian.org).
+you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
 They will review reports and involve other maintainers as appropriate,
 and will respond in a way that is deemed necessary and appropriate
 to the circumstances, but not against your will.
