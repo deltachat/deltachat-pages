@@ -57,30 +57,25 @@ web tech combined with decentralized chat (aka "webxdc") is a rare jewel worth r
 Some friends and long-term followers hailed our approach as a "decentralized super-app".
 Can you guess from which island these developments were inspired and co-driven?
 
-### Movements in the woods and under the grounds ...
+### Movements in the woods and underground ...
 
-With a wide variety of users, developers, partners and co-operative projects
-we discuss many wants and needs:
-Supporting Reactions, having Telegram-style larger channels,
-evolving WhatsApp-style communities,
-and of course encryption improvements (making OpenPGP more usable),
-seamless multi-device setup and even the holy grails of Peer-to-Peer messaging.
-The somewhat incredible thing is that we are actually progressing
-around several of these topics.
-We just don't like to pre-announce much.
-This post here is a bit an exception to prove the rule :)
+With a wide variety of users, developers, partners, and co-operative projects
+we discuss wants and needs emerging from real-world scenarios, such as
+encryption improvements (making OpenPGP more usable), seamless multi-device setup,
+features from other messengers (emoji reactions, broadcast channels, folding multiple
+groups into communities), and even Peer-to-Peer messaging.
+We progressing on several of these topics and, although we pre-announce as little as possible, this post will be an exception (to prove the rule 🙂).
 
-Delta Chat app developments are a usability and UX-driven effort.
-Security considerations play a day-to-day role.
-However, the "most secure protocol" is useless if hardly anyone can use it.
-And even "usable security" itself remains an evasive concept
+Delta Chat app developments are a usability and UX-driven effort and
+for this we have experienced UX researchers with us.
+Security considerations play a day-to-day role, however, the "most secure protocol"
+is useless if few are able to understand or use it.
+"Usable security" itself remains an evasive concept
 if we can not facilitate its implementation in real-life apps.
-Between usability, security and implementation considerations
-there is no natural hierarchy.
-Each acts on the others as constraint and pull factor.
-We have experienced User and UX researchers with us.
+Between usability, security, and implementation considerations
+there is no natural hierarchy: each constrains and influences the others.
 In 2023, we want to perform perform systematic user and field testing around security topics,
-partly following up on the often quoted ["When Signal hits the fan"](http://dx.doi.org/10.14722/eurousec.2016.23012) usable security study.
+in part following the often-quoted usable security study ["When Signal hits the fan"](http://dx.doi.org/10.14722/eurousec.2016.23012).
 
 ### Easing onboarding through "Automatic Accounts"
 
