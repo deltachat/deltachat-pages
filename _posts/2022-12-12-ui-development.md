@@ -82,11 +82,12 @@ We have experienced User and UX researchers with us.
 In 2023, we want to perform perform systematic user and field testing around security topics,
 partly following up on the often quoted ["When Signal hits the fan"](http://dx.doi.org/10.14722/eurousec.2016.23012) usable security study.
 
+### Easing onboarding through "Automatic Accounts"
+
 A large feature and impediment for more massive Delta Chat adoption is
 the required access to an e-mail account.
-While in many cases supplying an e-mail address
-and a password is enough for autoconfiguration to quickly succeed,
-it is not without problems.
+While in many cases supplying an e-mail address and a password
+is enough for autoconfiguration to quickly succeed, it is not without problems.
 Many e-mail providers work with Delta Chat but several have unnecessary limitations and complications.
 Many users do not have a good e-mail address and can not easily get one.
 We are experimenting with new e-mail server setups that provide
@@ -102,9 +103,9 @@ You are welcome to migrate to other e-mail providers after you got started
 and enjoy it enough to care for a good e-mail account.
 Freedom only arises if exit without sanctions is possible
 and there is somewhere to go.
-When our Automatic Account offering reaches its limits,
+When our prospective Automatic Account offering is to reach its limits,
 you will need to migrate.
-AA have the design goal of making migration easy.
+Automatic Accounts have the design goal of making migration easy.
 
 Speaking of migrations, we have more followers on the Fediverse than on Twitter.
 More importantly, a lot of interesting conversations are evolving.
@@ -179,6 +180,9 @@ collocated in decentralization, internet freedom and queer fusion spaces.
 Several of us avoid flying and some are involved in FFF or adjacent activities.
 If we gather somewhere remote then usually for weeks rather than days,
 and without seeking much publicity.
+We try to avoid constant busyness and urgency as it prevents enjoyable collaboration.
+We aim to arrange ourselves [reliably and empathically](community-standards)
+and keep dates and clocktime scheduling to a minimum.
 
 Currently, there is around a dozen weekly committers to our repositories,
 with a bit more than half of them receiving funding
