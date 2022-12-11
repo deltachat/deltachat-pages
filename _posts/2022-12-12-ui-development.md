@@ -77,30 +77,26 @@ there is no natural hierarchy: each constrains and influences the others.
 In 2023, we want to perform perform systematic user and field testing around security topics,
 in part following the often-quoted usable security study ["When Signal hits the fan"](https://dx.doi.org/10.14722/eurousec.2016.23012).
 
-### Easing onboarding through "Automatic Accounts"
+### Easing onboarding with "Automatic Accounts"
 
-A large feature and impediment for more massive Delta Chat adoption is
-the required access to an e-mail account.
-While in many cases supplying an e-mail address and a password
-is enough for autoconfiguration to quickly succeed, it is not without problems.
-Many e-mail providers work with Delta Chat but several have unnecessary limitations and complications.
+Using a pre-existing email account is one of Delta Chat's core features, but also 
+happens to be an impediment for many when getting started with Delta Chat.
+Supplying the e-mail address and password is enough for autoconfiguration to
+quickly succeed, but not without problems and although plenty of e-mail providers work
+with Delta Chat, several have unnecessary limitations and complications.
 Many users do not have a good e-mail address and can not easily get one.
-We are experimenting with new e-mail server setups that provide
-single-click or qr-code scan based sign-up.
-One sysadmin who is just joining us setup a new server in a day
-and then onboarded a couple of friends, now all happily using Delta Chat.
+We are experimenting with a single-click or QR-code based sign-up that
+quickly bootstraps a working account configured with Dela Chat.
+The latest addition to our group of sysadmins has seup a new server and
+onboarded a couple of friends, now all happily using Delta Chat.
 
-We actually have two concurrent efforts to provide what we call Automatic Accounts (AA):
+We have two concurrent efforts to provide what we call Automatic Accounts:
 Any Delta Chat user on any platform could choose to get a single-click account
-with a decent and efficient Chatting experience.
-Our approach inverts centralizing platform dynamics:
-You are welcome to migrate to other e-mail providers after you got started
-and enjoy it enough to care for a good e-mail account.
-Freedom only arises if exit without sanctions is possible
-and there is somewhere to go.
-When our prospective Automatic Account offering is to reach its limits,
-you will need to migrate.
-Automatic Accounts have the design goal of making migration easy.
+with an optimized baseline chat experience.
+We avoid centralizing platform dynamics by simplifying migration to other e-mail providers:
+freedom only arises if exit without sanctions is possible (and there is somewhere to go).
+When our prospective Automatic Account offering reaches its limits,
+you will need to migrate, and Automatic Accounts have the design goal of making this easy.
 
 Speaking of migrations, we have more followers on the Fediverse than on Twitter.
 More importantly, a lot of interesting conversations are evolving.
@@ -110,8 +106,8 @@ of a diverse variety of players and different real-use implementations?
 Wouldn't federated social media with proper end-to-end encrypted chatting be a nice twist?
 What if you could use a QR-code scan from Delta Chat to login to a Fediverse instance,
 and then have an integrated Web/Messaging experience?
-Ecological and social contexts are changing, breaking down and reconfiguring, adapting.
-Migrations out of need or choice need support, not new barriers and walled gardens.
+Ecological and social contexts are changing and migrations out of need or choice need support,
+not new barriers and walled gardens.
 
 ### Our "Rust-core" architecture and its UI bindings…
 
