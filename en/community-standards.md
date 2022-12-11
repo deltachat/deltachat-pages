@@ -1,3 +1,8 @@
+---
+title: Community Standards
+lang: en
+---
+
 # Delta Chat Community Standards
 
 In the interest of fostering an open and welcoming environment, we as
