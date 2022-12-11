@@ -112,8 +112,7 @@ not new barriers and walled gardens.
 ### Our "Rust-core" architecture and its UI bindings…
 
 Delta Chat was the first chat messaging app suite to be fully Rust-
-based and available on all platforms.
-We may be the only one, still?
+based and available on all platforms, and may still be the only one.
 Rust is a system-level memory-safe language,
 largely hailed for its safety and efficiency,
 and ending two decades of most everyone believing
