@@ -5,7 +5,7 @@ author: olgax,rosano
 
 What do indigenous communities in the Amazon rainforest, friends in Cuba, families in Iran,
 people from Russia, a monastery in Cambodia, and many folks in the Fediverse have in common?
-You guessed it: they're using Delta Chat because it is:
+You guessed it: they're using Delta Chat because it's:
 
 - **adaptable**: Indigenous communities use solar powered routers deep in the rainforest,
   facilitating fast local Wi-Fi chats and
@@ -15,18 +15,18 @@ You guessed it: they're using Delta Chat because it is:
   even when WhatsApp, Signal, VPNs, and Tor fail.
 
 - **sovereign**: Members of a monastery (ethically barred from using "remote" accounts)
-  run their own e-mail server with a chat-messenger that they accept as a gift (FOSS!).
+  run their own e-mail server with a chat-messenger that they accept as a gift (yay Free and Open Source Software, or FOSS).
 
-- **interoperable**: Anyone can chat even if the recipient doesn't have Delta Chat —
+- **interoperable**: Anyone can chat even if the recipient doesn't have the app —
   it works with any e-mail address.
 
 ### Why don't we promote our project more?
 
 Since the beginnings of Delta Chat in a small city north of Hamburg almost five years ago,
-we have posted little about these wonderful and diverse deployments and use cases.
+we have posted little about these wonderful and diverse ways people use the technology.
 We usually prefer to share completed app releases instead of pre-announcing or
 trying to create hype by boasting about users and growth.
-Avoiding popularity is not merely born out of humility, but realism as
+Avoiding popularity is not merely born out of humility, but also realism as
 we can only address so much feedback and suggestions.
 If we are over capacity, feature requests and ideas turn into pressure and stress.
 
@@ -34,15 +34,15 @@ Luckily we have a wonderful testing community with key contributors
 sorting out issues with users and discussing with developers.
 One from Austria kept reminding us about "changed-network" connectivity problems
 even if they rarely occur and are hard to re-produce:
-the issues were fixed this week, which increased resiliency further for everyone.
+the issues were fixed this week, which increased resiliency for everyone.
 Did you know that most Delta Chat features are first tested on a Caribbean island?
 Some were originally developed in the DeltaLab app:
-a friendly Android fork of Delta Chat only available in the Cuban app store.
+a friendly fork of Delta Chat Android only available in the Cuban app store.
 
 ### Extending decentralized chat with web apps
 
 [Apps shared in a Chat](https://webxdc.org) were released in mid-2022.
-A few dozen grassroots-ported games are played daily in chat groups and through mailing lists.
+Dozens of grassroots-ported games are played daily in chat groups and through mailing lists.
 Collaborative tooling apps (polls, checklists, calendars, editors) are evolving.
 No permission from us, or any app store, is needed to create and distribute your apps.
 Programming newcomers succeeded in delivering working usable apps via a zip file
@@ -50,9 +50,9 @@ containing an `index.html`, some assets and JS/Typescript/CSS as preferred.
 One of our more experienced and playful developers recently whipped up a chat app
 that runs inside a chat group — makes more sense than you might think.
 Our Poll example app is 6 kilobytes and, as with all chat-shared web apps,
-it automatically operates offline-first and end-to-end encrypted
+automatically operates offline-first and end-to-end encrypted
 without any server deployments (and thus without logins or GDPR/consent screens).
-Many experts and fediverse friends agree:
+Experts and fediverse friends agree:
 web tech combined with decentralized chat (aka "webxdc") is a rare jewel worth refining.
 Some friends and long-term followers hailed our approach as a "decentralized super-app".
 Can you guess from which island these developments were inspired and co-driven?
