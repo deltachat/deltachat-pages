@@ -1,4 +1,7 @@
-# Want to help make Delta Chat apps more interesting?
+---
+title: Want to help Delta Chat become more beautiful and need money?
+author: olgax,rosano
+---
 
 What do indigenous communities in the Amazon rainforest, friends in Cuba, families in Iran,
 people from Russia, a monastery in Cambodia, and many folks in the Fediverse have in common?
@@ -17,7 +20,7 @@ You guessed it: they're using Delta Chat because it is:
 - **interoperable**: Anyone can chat even if the recipient doesn't have Delta Chat —
   it works with any e-mail address.
 
-## Why don't we promote our project more?
+### Why don't we promote our project more?
 
 Since the beginnings of Delta Chat in a small city north of Hamburg almost five years ago,
 we have posted little about these wonderful and diverse deployments and use cases.
@@ -36,7 +39,7 @@ Did you know that most Delta Chat features are first tested on a Caribbean islan
 Some were originally developed in the DeltaLab app:
 a friendly Android fork of Delta Chat only available in the Cuban app store.
 
-## Extending decentralized chat with web apps
+### Extending decentralized chat with web apps
 
 [Apps shared in a Chat](https://webxdc.org) were released in mid-2022.
 A few dozen grassroots-ported games are played daily in chat groups and through mailing lists.
@@ -54,7 +57,7 @@ web tech combined with decentralized chat (aka "webxdc") is a rare jewel worth r
 Some friends and long-term followers hailed our approach as a "decentralized super-app".
 Can you guess from which island these developments were inspired and co-driven?
 
-## Movements in the woods and under the grounds ...
+### Movements in the woods and under the grounds ...
 
 With a wide variety of users, developers, partners and co-operative projects
 we discuss many wants and needs:
@@ -114,7 +117,7 @@ and then have an integrated Web/Messaging experience?
 Ecological and social contexts are changing, breaking down and reconfiguring, adapting.
 Migrations out of need or choice need support, not new barriers and walled gardens.
 
-## Our "Rust-core" architecture and its UI bindings ...
+### Our "Rust-core" architecture and its UI bindings ...
 
 Delta Chat was the first chat messaging app suite to be fully Rust-
 based and available on all platforms.
@@ -145,7 +148,7 @@ being deployed for real and not only in Caribbean contexts.
 But this post is getting long and twisted enough already ...
 Let's get to the maybe most important point of this whole post ...
 
-## We are looking for experienced React/Web, Java/Android and Swift/iOS developers
+### We are looking for experienced React/Web, Java/Android and Swift/iOS developers
 
 Our mainline Desktop development uses Web technology (React, TypeScript),
 Electron and maybe someday Tauri so
