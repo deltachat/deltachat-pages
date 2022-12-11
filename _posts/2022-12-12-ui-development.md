@@ -1,5 +1,5 @@
 ---
-title: Want to help Delta Chat become more beautiful and need money?
+title: Want to earn money improving Delta Chat UI/UX?
 author: olgax,rosano
 ---
 
