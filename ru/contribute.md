@@ -5,6 +5,8 @@ lang: ru
 
 # Каналы и репозитории
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) and
   [Twitter](https://twitter.com/delta_chat) for announcements.
 
@@ -13,14 +15,14 @@ lang: ru
 
 - [#deltachat в Libera.Chat]({% include webirc-url %}) для ежедневного обсуждения.
 
-- [Delta Chat список
-  рассылок](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
-  для обсуждения сообществом и новостей.
+- [Delta Chat mailing
+  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
+  for community discussions and news.
 
-- [Репозитории Delta Chat](https://github.com/deltachat/) где вы сможете 
-  найти исходный код приложения DeltaChat и веб сайта.
+- [Delta Chat repositories](https://github.com/deltachat/) where you can
+  find the code for DeltaChat apps and this web site.
 
-# Переводы и сообщения об ошибках
+# Translations and Bug Reports
 
 - [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)
 - [Ошибки Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -28,15 +30,15 @@ lang: ru
 - [Ошибки Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Ошибки Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Мы всегда ищем разработчиков и дизайнеров, которые хотят помочь нам и знакомы с 
-C, Rust, Java, Swift, Javascript или Python на Android, iOS, Windows, Linux или Mac.
-Мы обычно предлагаем контракты или работу по 20 часов в неделю (если вы находитесь в Германии). 
-Пожалуйста, не стесняйтесь обращаться к нам (delta at merlinux eu) если вы заинтересованы в том, чтобы помочь нашим усилиям!
+We are always looking for developers and designers who want to help along and are familiar with
+C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
+We typically offer 20 hours per week contracts or employments (if based in germany).
+Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
 
 
-# Пожертвовать деньги
+# Donate Money
 
-Если вы поддержите DeltaChat в денежном выражении, то вы поможете ему и дальше развиваться как независимому проекту, который работает и ориентирован на своих пользователей:
+If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users:
 
 - IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
 - PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
