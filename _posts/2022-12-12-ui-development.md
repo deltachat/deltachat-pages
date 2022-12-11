@@ -4,7 +4,7 @@ author: olgax,rosano
 ---
 
 What do indigenous communities in the Amazon rainforest, friends in Cuba, families in Iran,
-people from Russia, a monastery in Cambodia, and many folks in the Fediverse have in common?
+activists from Russia, a monastery in Cambodia, and many folks in the Fediverse have in common?
 You guessed it: they're using Delta Chat because it's:
 
 - **adaptable**: Indigenous communities use solar powered routers deep in the rainforest,
