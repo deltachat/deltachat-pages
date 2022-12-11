@@ -75,7 +75,7 @@ if we can not facilitate its implementation in real-life apps.
 Between usability, security, and implementation considerations
 there is no natural hierarchy: each constrains and influences the others.
 In 2023, we want to perform perform systematic user and field testing around security topics,
-in part following the often-quoted usable security study ["When Signal hits the fan"](http://dx.doi.org/10.14722/eurousec.2016.23012).
+in part following the often-quoted usable security study ["When Signal hits the fan"](https://dx.doi.org/10.14722/eurousec.2016.23012).
 
 ### Easing onboarding through "Automatic Accounts"
 
