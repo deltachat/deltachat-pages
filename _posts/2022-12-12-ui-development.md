@@ -142,32 +142,31 @@ Let's get to the maybe most important point of this whole post…
 
 ### We are looking for experienced React/Web, Java/Android and Swift/iOS developers
 
-Our mainline Desktop development uses Web technology (React, TypeScript),
-Electron and maybe someday Tauri so
-we don't need to ship a full browser with our Desktop app anymore.
-The desktop app is regularly released and published to Windows,
-Mac and Linux distribution channels.
+Our Desktop cilent uses Web technology (React, TypeScript), currently via
+Electron, but maybe someday via Tauri so there's no need to ship a full browser with the app.
+The desktop app is regularly released and published
+to Windows, macOS, and Linux distribution channels.
 There are many things to improve regarding platform integration,
 bug fixing and bringing about new or refined UI/UX interactions.
 
 Our Android app is a 2019-fork of Signal's Java app,
-diverged in some areas because we rather orient ourselves
-around the Telegram and WhatsApp UX and UI.
+diverged in some areas because we orient ourselves
+around the interfaces of Telegram and WhatsApp.
 The Android app remains our "flagship" app that is available in various stores,
 among them Google Play and F-Droid.
 Our iOS app is a self-development using Uikit and Swift bindings to core.
-It is the youngest sibling in our offerings and also needs some more love.
+It is the youngest sibling in our offerings and also needs more love.
 
 For both Desktop and mobile development we offer 80-120 hours-per-month contracts.
-Payment is not bad but not Silicon-Valley level, either.
+Payment is not bad but not Silicon-Valley level either.
 Read more about [our funding sources here](https://delta.chat/en/help#how-are-delta-chat-developments-funded).
 We are happy to discuss situational arrangements and adaptations.
 Contributing and collaborating happens remote mostly
 but several of us tend to meet every few months
-in Freiburg (black forest) and elsewhere in germany (Berlin, Hamburg, Leipzig…)
-and from time to time in more remote locations like Kyiv (twice) or Havanna (once).
+in Freiburg (black forest), elsewhere in Germany (Berlin, Hamburg, Leipzig…),
+and from time to time in more remote locations like Kyiv or Havanna.
 We typically invite and converse with folks from interesting or befriended projects,
-collocated in decentralization, internet freedom and queer fusion spaces.
+collocated in decentralization, internet freedom, and queer fusion spaces.
 Several of us avoid flying and some are involved in FFF or adjacent activities.
 If we gather somewhere remote then usually for weeks rather than days,
 and without seeking much publicity.
@@ -175,25 +174,23 @@ We try to avoid constant busyness and urgency as it prevents enjoyable collabora
 We aim to arrange ourselves [reliably and empathically](community-standards)
 and keep dates and clocktime scheduling to a minimum.
 
-Currently, there is around a dozen weekly committers to our repositories,
+Currently, there are around a dozen weekly committers to our repositories,
 with a bit more than half of them receiving funding
-through employment contracts (if in germany) or freelancing (if international).
-There is another dozen people and maintainers from other projects
-who are involved in many background "what's interesting to do next, maybe together" discussions
-and hack sessions.
-We work with people located on several continents and islands, some of them exiled,
+through employment contracts (if in Germany) or freelancing (if international).
+Another dozen people and maintainers from other projects
+are involved in background discussions and hack sessions around "what's interesting to do next, maybe together".
+We work with people located on several continents, some of them exiled,
 some of them migrants of choice, some of them in more stable and resource-rich environments.
 
 Please contact us via e-mail addressed to delta@merlinux.eu
 if you are interested in helping us and our users with beautiful front end developments.
 
-Please provide some background on your prior projects and what you have worked on.
-A CV is not necessary but welcome if you have one around.
+Please provide some background on your prior projects.
+A CV is welcome, but not necessary.
 If we determine a base fit we typically arrange a one month paid test period for both sides.
 We'll organize an onboarding group for you and guide you through first issues and peoples involved.
 
 Can't consider a job yourself but know someone who might be interested?
 Please forward this post to whatever channels you find appropriate.
-Thanks already, and not the least for persevering
-through somewhat lengthy and confusing meanderings of a "jobs available!" post.
-We thought you might appreciate some background context.
+We thought you might appreciate some background context in this longer post.
+Thanks for reading!
