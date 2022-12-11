@@ -57,7 +57,7 @@ web tech combined with decentralized chat (aka "webxdc") is a rare jewel worth r
 Some friends and long-term followers hailed our approach as a "decentralized super-app".
 Can you guess from which island these developments were inspired and co-driven?
 
-### Movements in the woods and underground ...
+### Movements in the woods and underground…
 
 With a wide variety of users, developers, partners, and co-operative projects
 we discuss wants and needs emerging from real-world scenarios, such as
@@ -113,7 +113,7 @@ and then have an integrated Web/Messaging experience?
 Ecological and social contexts are changing, breaking down and reconfiguring, adapting.
 Migrations out of need or choice need support, not new barriers and walled gardens.
 
-### Our "Rust-core" architecture and its UI bindings ...
+### Our "Rust-core" architecture and its UI bindings…
 
 Delta Chat was the first chat messaging app suite to be fully Rust-
 based and available on all platforms.
@@ -141,8 +141,8 @@ with first bots being ported to it.
 We btw didn't talk much about bots yet, among them mailing-list SuperGroup bots,
 Mastodon bots or Screenshotting and Download-bots and other fun experiments
 being deployed for real and not only in Caribbean contexts.
-But this post is getting long and twisted enough already ...
-Let's get to the maybe most important point of this whole post ...
+But this post is getting long and twisted enough already…
+Let's get to the maybe most important point of this whole post…
 
 ### We are looking for experienced React/Web, Java/Android and Swift/iOS developers
 
@@ -168,7 +168,7 @@ Read more about [our funding sources here](https://delta.chat/en/help#how-are-de
 We are happy to discuss situational arrangements and adaptations.
 Contributing and collaborating happens remote mostly
 but several of us tend to meet every few months
-in Freiburg (black forest) and elsewhere in germany (Berlin, Hamburg, Leipzig, ...)
+in Freiburg (black forest) and elsewhere in germany (Berlin, Hamburg, Leipzig…)
 and from time to time in more remote locations like Kyiv (twice) or Havanna (once).
 We typically invite and converse with folks from interesting or befriended projects,
 collocated in decentralization, internet freedom and queer fusion spaces.
