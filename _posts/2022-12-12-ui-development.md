@@ -111,31 +111,32 @@ not new barriers and walled gardens.
 
 ### Our "Rust-core" architecture and its UI bindings…
 
-Delta Chat was the first chat messaging app suite to be fully Rust-
-based and available on all platforms, and may still be the only one.
+Delta Chat was the first fully Rust-based chat app available
+on all platforms, and may still be the only one.
 Rust is a system-level memory-safe language,
 largely hailed for its safety and efficiency,
-and ending two decades of most everyone believing
-advancing virtual machines tech is all what programming languages will be about.
-What the Rust language needs to be hailed for maybe even more:
-it enables large scale collaboration between developers,
-on a wide variety of platforms and without runtime-overheads.
+and ending two decades of a popular perspective considering
+virtual machines as the holy grail of programming languages technology.
+Rust enables large-scale collaboration between developers
+on a wide variety of platforms without runtime-overheads.
 C and C++ could never deliver this at similar scale,
 however foundational they have been and are for today's state of things.
 Our Rust core implements all networking, message processing, encryption,
-chat and contact persistence, offering a documented UX-oriented API for UIs and bots.
+chat and contact persistence, which offers a documented UX-oriented API for UIs and bots.
 Core is licensed under the MPL and thus more permissive
 than our user interface developments which are largely licensed under the GPL.
 
 Our apps and bots use Rust-core bindings for Java, Swift, TypeScript and Python.
-While our mobile apps use the long-evolved "CFFI" aka C-Foreign-Function-Interface,
-our Desktop app just introduces new and fancier "JSONRPC" aka JSON-Remote-Procedure-Calls,
+While our mobile apps use the long-evolved CFFI (C-Foreign-Function-Interface),
+our Desktop app introduces JSON-RPC (JSON Remote-Procedure-Calls),
 directly talking to core without a C-layer.
 New asynchronous python bindings doing away with all CFFI were started this week
 with first bots being ported to it.
-We btw didn't talk much about bots yet, among them mailing-list SuperGroup bots,
-Mastodon bots or Screenshotting and Download-bots and other fun experiments
-being deployed for real and not only in Caribbean contexts.
+
+### Bots, bots, bots
+
+For mailing-lists, SuperGroups, Mastodon, screenshots, downloading, and other fun experiments,
+bots are being deployed for practical and entertaining contexts.
 But this post is getting long and twisted enough already…
 Let's get to the maybe most important point of this whole post…
 
