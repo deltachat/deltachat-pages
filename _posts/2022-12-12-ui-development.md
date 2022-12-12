@@ -3,9 +3,9 @@ title: Want to earn money improving Delta Chat UI/UX?
 author: olgax,rosano
 ---
 
-What do indigenous communities in the Amazon rainforest, friends in Cuba, families in Iran,
-activists from Russia, a monastery in Cambodia, and many folks in the Fediverse have in common?
-You guessed it: they're using Delta Chat because it's:
+What do indigenous communities in the Amazon rainforest, friends in Cuba, families in Iran, activists from Russia, a monastery in Cambodia, and many folks in the Fediverse have in common?
+
+They're using Delta Chat because it is:
 
 - **adaptable**: Indigenous communities use solar powered routers deep in the rainforest,
   facilitating fast local Wi-Fi chats and
@@ -79,7 +79,7 @@ in part following the often-quoted usable security study ["When Signal hits the 
 
 ### Easing onboarding with "Automatic Accounts"
 
-Using a pre-existing email account is one of Delta Chat's core features, but also 
+Using a pre-existing email account is one of Delta Chat's core features, but also
 happens to be an impediment for many when getting started with Delta Chat.
 Supplying the e-mail address and password is enough for autoconfiguration to
 quickly succeed, but not without problems and although plenty of e-mail providers work
