@@ -32,7 +32,7 @@ If we are over capacity, feature requests and ideas turn into pressure and stres
 
 Luckily we have a wonderful testing community with key contributors
 sorting out issues with users and discussing with developers.
-One from Austria kept reminding us about "changed-network" connectivity problems
+One from Austria kept reminding us about specific connectivity problems
 even if they rarely occur and are hard to re-produce:
 the issues were fixed this week, which increased resiliency for everyone.
 Did you know that most Delta Chat features are first tested on a Caribbean island?
