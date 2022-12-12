@@ -39,6 +39,12 @@ Testing changes
   and execute `jekyll serve --destination <path-to-build-dir>` 
   in the source directory.
 
+- If you get Ruby dependency problems, you can also build the page in a docker
+  container:  
+  ```sudo docker run -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"```  
+  But the links will not work, so you need to open the pages one after the other.
+  You can find them in the `/site` subdirectory.
+
 Directory structure
 --------------------------------------------------------------------------------
 
