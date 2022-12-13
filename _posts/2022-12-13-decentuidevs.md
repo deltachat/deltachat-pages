@@ -41,7 +41,6 @@ about how we are doing things and about job offers to join our UX-oriented devel
 ### Sharing web apps in a chat (webxdc)
 
 <img src="../assets/blog/gordon_superapp.jpg" width="270" style="float:right; margin-left:1em;" />
-![Superapp](../assets/blog/gordon_superapp.jpg)
 [Sharing web apps in a chat (webxdc)](https://webxdc.org) was released in mid-2022.
 Dozens of grassroots-ported games are now played everyday in chat groups and through mailing lists.
 Collaborative tooling apps (polls, checklists, calendars, editors) are evolving.
