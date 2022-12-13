@@ -35,8 +35,8 @@ trying to create hype by boasting about users and growth.
 Avoiding popularity is not merely born out of humility, but also realism as
 we can only address so much feedback and suggestions.
 If we are over capacity, feature requests and ideas turn into pressure and stress.
-This post is not a pre-announcement but a bit of a wild ride
-through what's currently happening and what we are seeking out.
+While this post is not a pre-announcement it is a ride through
+what's currently developing because we are looking for new UX/UI developers.
 
 ### Sharing web apps in a chat (webxdc)
 
