@@ -35,8 +35,8 @@ trying to create hype by boasting about users and growth.
 Avoiding popularity is not merely born out of humility, but also realism as
 we can only address so much feedback and suggestions.
 If we are over capacity, feature requests and ideas turn into pressure and stress.
-While this post is not a pre-announcement it is a ride through
-what's currently developing because we are looking for new UX/UI developers.
+This post is not a pre-announcement but a ride through what's currently developing,
+about how we are doing things and about job offers to join our UX-oriented developments.
 
 ### Sharing web apps in a chat (webxdc)
 
@@ -53,19 +53,20 @@ makes more sense if you consider a chat web app
 running on top of an anonymizing mailing list:
 suddenly people could do ephemerally e2e-encrypted private communications on top 🤯
 
-Our Poll example app is 6 kilobytes and, as with all apps shared in a chat,
-automatically operates with these wonderful properties and UX:
+Our [Poll example app](https://github.com/webxdc/poll) is 6 kilobytes large and,
+as with all webxdc apps shared in a chat,
+the app exposes these wonderful properties and UX:
 
-- offline-first and end-to-end encrypted,
+- **end-to-end encrypted**
 
-- without any server deployments,
+- **offline-first**,
 
-- without logins or GDPR/consent screens.
+- **without logins or GDPR/consent screens**.
 
-UX and privacy researchers and befriended hackers from diverse projects such as Cryptpad, DAT, IPFS,
+UX and privacy researchers and hackers from diverse projects such as Cryptpad, DAT, IPFS,
 Peermaps and Libreoffice agree:
-web tech combined with decentralized chat (aka "webxdc") is a rare jewel worth refining.
-Some friends and long-term followers hailed our approach as marking the beginning of a "decentralized super-app". What would you guess from which island's community these webxdc developments were inspired and co-driven?
+Web tech combined with decentralized chat (aka "webxdc") is a rare jewel worth refining.
+One long-term follower hailed its release as the beginning of a "decentralized super-app".
 
 ### Movements in the woods and underground…
 
