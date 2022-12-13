@@ -43,7 +43,7 @@ Testing changes
   container:  
   ```sudo docker run -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"```  
   But the links will not work, so you need to open the pages one after the other.
-  You can find them in the `/site` subdirectory.
+  You can find them in the `_site` subdirectory.
 
 Directory structure
 --------------------------------------------------------------------------------
