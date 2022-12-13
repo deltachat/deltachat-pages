@@ -6,6 +6,8 @@ image: ../assets/blog/decentralization-unchained.jpg
 
 What do indigenous communities in the Amazon rainforest, friends in Cuba, families in Iran, activists from Russia, a monastery in Cambodia, and many folks in the Fediverse have in common?
 
+![Artwork Decentralization Unchained](../assets/blog/decentralization-unchained.jpg)
+
 You guessed it? They're using Delta Chat because it is:
 
 - **adaptable**: Indigenous communities
@@ -22,7 +24,6 @@ You guessed it? They're using Delta Chat because it is:
 - **interoperable**: You can chat with anyone even if they don't have
   the app (e-mail!).
 
-![Decentralization Unchained](../assets/blog/decentralization-unchained.jpg)
 
 ### Why don't we spend more time on promotion?
 
@@ -117,7 +118,7 @@ onboarded a couple of friends, now all happily using Delta Chat.
 
 ![Some Delta Chat testers sitting on the ground](../assets/blog/2022-12-ux-studies.jpg)
 
-We have two concurrent efforts to provide what we call Automatic Accounts:
+We have several efforts ongoing to launch what we call Automatic Accounts:
 Any Delta Chat user on any platform could choose to get a single-click account
 with an optimized baseline chat experience.
 We avoid centralizing platform dynamics by simplifying migration to other e-mail providers:
