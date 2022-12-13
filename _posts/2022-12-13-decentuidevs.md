@@ -40,7 +40,8 @@ about how we are doing things and about job offers to join our UX-oriented devel
 
 ### Sharing web apps in a chat (webxdc)
 
-<img src="../assets/blog/2022-12-webxdc-poll.jpg" width="270" style="float:right; margin-left:1em;" />
+<img src="../assets/blog/gordon_superapp.jpg" width="270" style="float:right; margin-left:1em;" />
+![Superapp](../assets/blog/gordon_superapp.jpg)
 [Sharing web apps in a chat (webxdc)](https://webxdc.org) was released in mid-2022.
 Dozens of grassroots-ported games are now played everyday in chat groups and through mailing lists.
 Collaborative tooling apps (polls, checklists, calendars, editors) are evolving.
@@ -53,6 +54,7 @@ makes more sense if you consider a chat web app
 running on top of an anonymizing mailing list:
 suddenly people could do ephemerally e2e-encrypted private communications on top 🤯
 
+<img src="../assets/blog/2022-12-webxdc-poll.jpg" width="270" style="float:right; margin-left:1em;" />
 Our [Poll example app](https://github.com/webxdc/poll) is 6 kilobytes large and,
 as with all webxdc apps shared in a chat,
 the app exposes these wonderful properties and UX:
@@ -63,7 +65,6 @@ the app exposes these wonderful properties and UX:
 
 - **without logins or GDPR/consent screens**.
 
-![Superapp](../assets/blog/gordon_superapp.jpg)
 
 UX and privacy researchers and hackers from diverse projects such as Cryptpad, DAT, IPFS,
 Peermaps and Libreoffice agree:
