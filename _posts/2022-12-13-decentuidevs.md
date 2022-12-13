@@ -63,10 +63,12 @@ the app exposes these wonderful properties and UX:
 
 - **without logins or GDPR/consent screens**.
 
+![Superapp](../assets/blog/gordon_superapp.jpg)
+
 UX and privacy researchers and hackers from diverse projects such as Cryptpad, DAT, IPFS,
 Peermaps and Libreoffice agree:
 Web tech combined with decentralized chat (aka "webxdc") is a rare jewel worth refining.
-One long-term follower hailed its release as the beginning of a "decentralized super-app".
+
 
 ### Movements in the woods and underground…
 
