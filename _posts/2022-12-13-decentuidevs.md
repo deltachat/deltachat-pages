@@ -8,7 +8,7 @@ What do indigenous communities in the Amazon rainforest, friends in Cuba, famili
 
 ![Artwork Decentralization Unchained](../assets/blog/decentralization-unchained.jpg)
 
-You guessed it? They're using Delta Chat because it is:
+You guessed it? They're using or following Delta Chat because it is:
 
 - **adaptable**: Indigenous communities
   use [solar-powered routers deep in the rainforest](https://rhizomatica.org),
@@ -156,7 +156,7 @@ on a wide variety of platforms without runtime-overheads.
 C and C++ could never deliver this at similar scale,
 however foundational they have been and are for today's state of things.
 Our Rust core implements all networking, message processing, encryption,
-chat and contact persistence, which offers a documented UX-oriented API for UIs and bots.
+chat and contact persistence, and offers a documented UX-oriented API for UIs and bots.
 Core is licensed under the MPL and thus more permissive
 than our user interface developments which are largely licensed under the GPL.
 
@@ -230,7 +230,7 @@ We'll organize an onboarding group for you and guide you through first issues an
 
 Can't consider a job yourself but know someone who might be interested?
 Please forward this post to whatever channels you find appropriate.
-Thanks for reading and helping! Aren't cats all beautiful?
+Thanks for reading and helping! Oh, and aren't cats all beautiful?
 
 ![Beautiful Cat with Delta Chat sticker](../assets/blog/2021-11-13-delta-cat.jpg)
 
