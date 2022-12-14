@@ -61,7 +61,7 @@ it features these wonderful properties and UX conveniences:
 
 - **offline-first**,
 
-- **without logins or GDPR/consent screens**.
+- **no logins or GDPR/consent screens**.
 
 <img src="../assets/blog/gordon_superapp.jpg" width="270" style="float:right; margin-left:1em;" />
 UX and privacy researchers and hackers from diverse projects such as Cryptpad, DAT, IPFS,
