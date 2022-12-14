@@ -168,7 +168,7 @@ New asynchronous python bindings doing away with all CFFI were started this week
 with first bots being ported to it.
 
 For mailing-lists, SuperGroups, Mastodon, screenshots, downloading, and other fun experiments,
-bots based on Rust-core are being deployed for practical and entertaining contexts.
+bots based on Rust-core are being deployed for both fun and practical contexts.
 But this post is getting long and twisted enough already so more on released bots some other time …
 
 ### We are looking for experienced React/Web, Java/Android and Swift/iOS developers
