@@ -107,7 +107,7 @@ a friendly fork of Delta Chat Android only available in the Cuban app store.
 
 ### Ways out and around the dreaded onboarding problem
 
-Using a pre-existing email account is one of Delta Chat's core features, but also
+Using a pre-existing e-mail account is one of Delta Chat's core features, but also
 happens to be an impediment for many when getting started with Delta Chat.
 Supplying the e-mail address and password is enough for autoconfiguration to
 quickly succeed, but not without problems and, although plenty of e-mail providers work
