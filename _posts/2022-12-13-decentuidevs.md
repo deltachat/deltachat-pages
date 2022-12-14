@@ -186,7 +186,7 @@ diverged in some areas because we orient ourselves
 around the interfaces of Telegram and WhatsApp.
 The Android app remains our "flagship" app that is available in various stores,
 among them Google Play and F-Droid.
-Our [iOS app](https://github.com/deltachat/deltachat-ios) is a self-development using Uikit and Swift bindings to core.
+Our [iOS app](https://github.com/deltachat/deltachat-ios) is a self-development using UIKit and Swift bindings to core.
 It is the youngest sibling in our offerings and also needs more love.
 
 ### What we offer and how we (not) work
