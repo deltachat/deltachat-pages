@@ -209,7 +209,7 @@ If we gather somewhere remote then usually for weeks rather than days,
 and without seeking much publicity.
 We try to avoid constant busyness and urgency as it prevents enjoyable collaboration.
 We aim to arrange ourselves [empathically](https://delta.chat/en/community-standards)
-and keep dates and clocktime scheduling to a minimum.
+and keep dates and clock time scheduling to a minimum.
 
 Currently, there are around a dozen weekly committers to our repositories,
 with a bit more than half of them receiving funding either
