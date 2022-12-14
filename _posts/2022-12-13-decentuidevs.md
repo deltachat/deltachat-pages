@@ -189,7 +189,7 @@ among them Google Play and F-Droid.
 Our [iOS app](https://github.com/deltachat/deltachat-ios) is a self-development using UIKit and Swift bindings to core.
 It is the youngest sibling in our offerings and also needs more love.
 
-### What we offer and how we (not) work
+### What we offer and how we (don't) work
 
 For both Desktop and mobile development we offer 80-120 hours-per-month contracts.
 Payment is not bad, but certainly not what some corporate entities pay.
