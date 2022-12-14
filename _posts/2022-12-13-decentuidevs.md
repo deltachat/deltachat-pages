@@ -46,7 +46,7 @@ Dozens of grassroots-ported games are now played everyday in chat groups and thr
 Collaborative tooling apps (polls, checklists, calendars, editors) are evolving.
 No permission from us, or any app store, is needed to create and distribute your apps.
 Programming newcomers succeeded in delivering working usable apps via a zip file
-containing an `index.html`, some assets and JS/Typescript/CSS as preferred.
+containing an `index.html`, some assets and JS/TypeScript/CSS as preferred.
 One of our more experienced and playful developers recently whipped up a chat app
 that runs inside a chat group —
 makes more sense if you consider a chat web app
