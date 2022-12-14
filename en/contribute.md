@@ -3,6 +3,8 @@ title: Contribute
 lang: en
 ---
 
+[Donate Money](donate){: .cta-button}
+
 # Channels and repositories
 
 For community interactions around Delta Chat please read our [Community Standards](community-standards).
