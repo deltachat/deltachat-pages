@@ -3,11 +3,13 @@
 @import "main";
 
 .cta-button {
-	border: 1px solid black;
+	border: 1.5px solid black;
 	border-radius: 5px;
 	padding: 10px;
 	color: black;
 	font-weight: bold;
+	display: inline-block;
+	margin: 10px 0;
 }
 
 #content h1:hover .anchor::before {
