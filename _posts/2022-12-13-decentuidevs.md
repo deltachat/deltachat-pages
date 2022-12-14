@@ -219,17 +219,16 @@ are involved in background discussions and hack sessions around "what's interest
 We work with people located on several continents, some of them exiled,
 some of them migrants of choice, some of them in more stable and resource-rich environments.
 
-### Please help us to further improve UX and UIs for everyone
+### Help us to further improve UX and UIs for everyone
 
-Please contact us via e-mail addressed to delta@merlinux.eu
-if you are interested in helping us and our users with beautiful front end developments.
-Please provide some background on your prior projects or apps.
+If you are interested in helping us and our users with beautiful front end developments,
+please contact us via e-mail at delta@merlinux.eu with some background on your prior projects or apps.
 A CV is not necessary but welcome if you have one around.
 If we determine a base fit, we typically arrange a one month paid test period for both sides.
 We'll organize an onboarding group for you and guide you through first issues and peoples involved.
 
 Can't consider a job yourself but know someone who might be interested?
-Please forward this post to whatever channels you find appropriate.
+We'd appreciate if you would forward this post to whatever channels you find appropriate.
 Thanks for reading and helping! Oh, and aren't cats all beautiful?
 
 ![Beautiful Cat with Delta Chat sticker](../assets/blog/2021-11-13-delta-cat.jpg)
