@@ -224,7 +224,7 @@ some of them migrants of choice, some of them in more stable and resource-rich e
 Please contact us via e-mail addressed to delta@merlinux.eu
 if you are interested in helping us and our users with beautiful front end developments.
 Please provide some background on your prior projects or apps.
-A CV is not neccessary but welcome if you have one around.
+A CV is not necessary but welcome if you have one around.
 If we determine a base fit, we typically arrange a one month paid test period for both sides.
 We'll organize an onboarding group for you and guide you through first issues and peoples involved.
 
