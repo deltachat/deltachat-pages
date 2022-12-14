@@ -119,7 +119,7 @@ onboarded a couple of friends, now all happily using Delta Chat.
 
 ![Some Delta Chat testers sitting on the ground](../assets/blog/2022-12-ux-studies.jpg)
 
-We have several efforts ongoing to launch what we call Automatic Accounts:
+We have several ongoing efforts to launch what we call Automatic Accounts:
 Any Delta Chat user on any platform could choose to get a single-click account
 with an optimized baseline chat experience.
 We avoid centralizing platform dynamics by simplifying migration to other e-mail providers:
