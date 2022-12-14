@@ -8,7 +8,7 @@ What do indigenous communities in the Amazon rainforest, friends in Cuba, famili
 
 ![Artwork Decentralization Unchained](../assets/blog/decentralization-unchained.jpg)
 
-You guessed it? They're using or following Delta Chat because it is:
+You guessed it: they're using or following Delta Chat because it is:
 
 - **adaptable**: Indigenous communities
   use [solar-powered routers deep in the rainforest](https://rhizomatica.org),
