@@ -9,8 +9,9 @@ Help DeltaChat develop and grow as an independent project serving the people who
 
 ## Euros
 
-IBAN: DE86100777770428658900
 *Please always specify the account holder 'Björn Petersen'*
+
+IBAN: DE86100777770428658900
 
 SWIFT: BIC NORSDE51XXX
 
