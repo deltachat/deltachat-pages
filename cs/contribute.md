@@ -5,6 +5,8 @@ lang: cs
 
 # Kanály a úložiště
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) and
   [Twitter](https://twitter.com/delta_chat) for announcements.
 
@@ -18,6 +20,8 @@ pro komunitní diskuse a novinky.
 
 - [úložiště zdrojů Delta Chatu](https://github.com/deltachat/), kde můžete 
 najít kód pro aplikace DeltaChat a pro tento web.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Překlady a hlášení chyb
 

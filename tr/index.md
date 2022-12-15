@@ -5,8 +5,6 @@ lang: tr
 
 # Delta Chat, e-posta üzerinden çalışan bir iletileşme uygulamasıdır 
 
-<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="Delta Chat logosu" />
-
 <br>
 🗨️ [Delta Chat kullanmıyorsa bile](https://www.youtube-nocookie.com/embed/8LbrGXKZN70) herhangi birine bir e-posta adresiyle ileti gönderin.
 

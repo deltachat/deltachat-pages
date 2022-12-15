@@ -5,6 +5,8 @@ lang: sq
 
 # Kanale dhe depo
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) dhe
   [Twitter](https://twitter.com/delta_chat) për lajmërime.
 
@@ -19,6 +21,8 @@ lang: sq
 
 - [Depo Delta Chat](https://github.com/deltachat/) ku mund të gjeni 
  kodin për aplikacionet DeltaChat dhe këtë sajt.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Përkthime dhe Njoftime të Metash 
 

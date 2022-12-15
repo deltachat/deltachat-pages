@@ -5,6 +5,8 @@ lang: uk
 
 # Канали і репозиторії
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) та [Twitter](https://twitter.com/delta_chat) для оголошень.
 
 - [Delta Chat форум підтримки](https://support.delta.chat) більше
@@ -18,6 +20,8 @@ lang: uk
 
 - [Репозиторії Delta Chat](https://github.com/deltachat/) де ви можете 
   знайти початковий код додатків DeltaChat та цього веб-сайту.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Переклади і звіти про помилки
 

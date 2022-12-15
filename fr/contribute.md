@@ -5,6 +5,8 @@ lang: fr
 
 # Canaux et dépôts de données
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) and
   [Twitter](https://twitter.com/delta_chat) for announcements.
 
@@ -15,6 +17,8 @@ lang: fr
 - [liste de distribution Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pour discussions communautaires et nouvelles.
 
 - [dépots Delta Chat](https://github.com/deltachat/) où vous pouvez trouver le code des applications DeltaChat et ce site web.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Traductions et rapports de bugs 
 

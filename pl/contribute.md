@@ -5,6 +5,8 @@ lang: pl
 
 # Kanały i repozytoria
 
+Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj nasze [Standardy społeczności](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) i
   [Twitter](https://twitter.com/delta_chat) dla ogłoszeń.
 
@@ -18,6 +20,8 @@ lang: pl
 
 - [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można 
   znaleźć kod aplikacji Delta Chat i tej strony internetowej.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Tłumaczenia i raportowanie błędów 
 

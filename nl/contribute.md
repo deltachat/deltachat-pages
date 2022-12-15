@@ -5,6 +5,8 @@ lang: nl
 
 # Kanalen en repo's
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) en
   [Twitter](https://twitter.com/delta_chat) voor aankondigingen.
 
@@ -19,6 +21,8 @@ lang: nl
 
 - [Delta Chat-repo's](https://github.com/deltachat/) - hier vind je 
   de broncode van de DeltaChat-apps en deze website.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Vertaling en bugmeldingen 
 

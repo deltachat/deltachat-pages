@@ -5,8 +5,6 @@ lang: zh_CN
 
 # Delta Chat 是基于电子邮件的聊天软件 
 
-<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
-
 <br>
 🗨️ 向任意电子邮件地址发送消息，[即使他们不使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
 

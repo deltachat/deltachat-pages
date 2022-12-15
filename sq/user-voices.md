@@ -5,22 +5,22 @@ gjuhë: en
 
 # Shembuj dhe Zëra Përdoruesish
 
-### more fun with e-mail
+### më tepër dëfrim me email-in
 
-_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+_“Një konstatim deri diku i çuditshëm: të dërgosh dhe marrësh email-e me #DeltaChat-in e bën krejt punën më të këndshme se sa përdorimi i një klienti tradicional për email-e. Ma do mendja se kjo vjen prej trajtimit modern: bërja e email-eve të duken si mesazhe fjalosjeje.”_
 
-**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Përdorues polak** [mastodon](https://101010.pl/@michal/107107322703871076)
 
-### supports more than one account
+### mbulon më shumë se një llogari
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_“Tungjatjeta ekipit të Delta.chat-it! Faleminderit për aplikacionin; është  tejet i dobishëm dhe puna me të është thuajse e përsosur. A mund të na ofroni kalim të lehtë nga një llogari email në një tjetër? […].”_  
+**përdorues mastodon-i**, para se të përmirësonim funksionimin për shumë llogari [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
-### audio and video call possible
+### mundësi për thirrje audio dhe video
 
-_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+_“Gjëja më e lezetshme është se mbulon thirrje audio dhe video duke krijuar një dhomë Jitsi dhe duke dërguar një ftesë, zgjidhje e lezetshme:)”_
 
-**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
+**përdorues mastodon-i** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
 
 ### Mund të rekomandohet për persona të verbër
 
