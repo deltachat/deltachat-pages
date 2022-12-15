@@ -13,3 +13,13 @@
 #content h1:hover .anchor::before {
 	content: unset;
 }
+
+.home-emoji {
+	font-size: 40px;
+	padding: 10px;
+}
+
+.home-features + p, .home-features + p + p, , .home-features + p + p + p {
+	display: flex;
+	align-items: center;
+}
