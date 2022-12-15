@@ -22,4 +22,5 @@
 .home-features + p, .home-features + p + p, , .home-features + p + p + p {
 	display: flex;
 	align-items: center;
+	justify-content: flex-start;
 }
