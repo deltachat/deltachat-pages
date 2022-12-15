@@ -31,3 +31,6 @@ For one-time or recurring donations: [opencollective.com/delta-chat/donate](http
 
 Wallet [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
+* * *
+
+[Other ways to contribute](contribute){: .cta-button}
