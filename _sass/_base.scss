@@ -155,10 +155,14 @@ p.blogdate {
 /*colors*/
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Grande', Arial, Verdana, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 1.7em;
     color: #000;
+}
+
+#menu, h1, h2, h3, h4, h5, h6 {
+    font-family: Arial;
 }
 
 #content ul, ol { margin-left: 1.5em; }
