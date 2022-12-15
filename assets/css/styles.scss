@@ -23,3 +23,14 @@
 	display: flex;
 	align-items: center;
 }
+
+@media only screen and (max-width: 640px) {
+    .home-features + p, .home-features + p + p, , .home-features + p + p + p {
+    	display: block;
+
+    	span {
+    		float: left;
+    		min-height: 50px;
+    	}
+    }
+}
