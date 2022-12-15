@@ -13,14 +13,13 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [Libera.Chat 上的 #deltachat]({% include webirc-url %}) ：日常交流。
 
-- [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
-  for community discussions and news.
+- [Delta Chat 邮件列表](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) ：社区讨论与新闻。
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Delta Chat 仓库](https://github.com/deltachat/) ：在这里可以找到 DeltaChat 应用和本网站的代码。
 
-# Translations and Bug Reports
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
+
+# 翻译与报告错误
 
 - [Transifex 上的翻译](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android 版问题](https://github.com/deltachat/deltachat-android/issues)
@@ -28,15 +27,12 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Delta Chat iOS 版问题](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust 核心库 + Python 绑定问题](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers who want to help along and are familiar with
-C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
-We typically offer 20 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
+我们在寻找熟悉 Android、iOS、Windows、Linux 或者 Mac 上的 C、Rust、Java、Swift、Javascript 或 Python 编程语言的，愿意提供帮助的开发和设计人员。我们一般提供每周 20 小时的合同或工作（如果位于德国）。如果您愿意帮助我们，请联系 (delta at merlinux eu) ！ 
 
 
-# Donate Money
+# 捐赠钱款
 
-If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users:
+如果您在钱款上支持 DeltaChat，您可以帮助它作为一个可以使用、面向用户的独立项目继续存在并成长： 
 
 - IBAN DE86100777770428658900，帐户所有者（请务必指定）： Björn Petersen, BIC NORSDE51XXX
 - PayPal 或信用卡： [paypal.me/deltachat](https://paypal.me/deltachat/20)

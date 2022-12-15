@@ -59,16 +59,11 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
   conversation in Delta Chat or in a "normal" e-mail app.
 
 
-### What if I expect a message from someone I didn't write to in the past?
+### Co zrobić, jeśli oczekuję wiadomości od osoby, do której nie pisałem w przeszłości?
 
-- If a message comes from an unknown contact, it appears as a **request**. You
-  need to accept the request before you can reply.
-- You can also "delete" it if you don't want to chat with them for now. This
-  does *not* delete the message on the server, only on your device. So you can
-  still deal with the message in a different mail app.
-- If you delete a request, future messages from that contact will still appear
-  as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider *blocking* them.
+- Jeśli wiadomość przychodzi od nieznanego kontaktu, pojawia się jako **prośba**. Musisz zaakceptować prośbę, zanim będziesz mógł odpowiedzieć.
+- Możesz również „usunąć” ją, jeśli nie chcesz na razie z nią rozmawiać. To *nie* usuwa wiadomości na serwerze, tylko na Twoim urządzeniu. Możesz więc nadal zajmować się tą wiadomością w innej aplikacji pocztowej.
+- Jeśli usuniesz prośbę, przyszłe wiadomości od tego kontaktu będą nadal wyświetlane jako prośba o wiadomość, więc możesz zmienić zdanie. Jeśli naprawdę nie chcesz otrzymywać wiadomości od tej osoby, rozważ *zablokowanie* jej.
 
 
 ### Czy Delta Chat obsługuje obrazy, filmy i inne załączniki?
@@ -148,22 +143,16 @@ Aby zarchiwizować lub przypiąć czat, dotknij i przytrzymaj (Android), użyj m
 aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
 
 
-### What does the green dot mean?
+### Co oznacza zielona kropka?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Od wersji Delta Chat 1.34 czasami można zobaczyć „zieloną kropkę” obok awatara kontaktu. Oznacza to, że był on „niedawno widziany”.
+- Dokładnie oznacza to, że w ciągu ostatnich 10 minut Delta Chat widział go:
+- dlatego, że wysłał Ci bezpośrednio wiadomość,
+- ponieważ napisał coś do grupy, której oboje jesteście członkami,
+- ponieważ wysłał Ci potwierdzenie przeczytania napisanej przez Ciebie wiadomości,
+- lub dlatego, że wysłał dane do Twojej aplikacji Delta Chat za pomocą [prywatnej aplikacji](#private-apps--webxdc).
+- Nie jest to więc status online w czasie rzeczywistym – a jeśli ktoś nie odpowie od razu, mimo że wydaje się, że jest online, nie martw się i daj mu trochę miejsca ;-)
+- Z drugiej strony inni nie zawsze „zobaczą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą oni zielonej kropki, dopóki nie wyślesz do nich wiadomości lub nie napiszesz do grupy, w której również się znajdują.
 
 
 ## Grupy

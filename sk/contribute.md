@@ -15,13 +15,13 @@ For community interactions around Delta Chat please read our [Community Standard
 - [#deltachat na Libera.Chat]({% include webirc-url %}) pre každodennú komunikáciu.
 
 - [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
-  for community discussions and news.
+ zoznam](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pre komunitné diskusie a novinky. 
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Repozitáre Delta Chat](https://github.com/deltachat/), kde môžete nájsť kód pre aplikácie DeltaChat a túto webovú stránku.
 
-# Translations and Bug Reports
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
+
+# Preklady a hlásenia chýb 
 
 - [Preklady na Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problémy Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -29,15 +29,15 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Problémy Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problémy s knižnicou Rust Core + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers who want to help along and are familiar with
+We are always looking for developers and designers who want to help along and are familiar with 
 C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
-We typically offer 20 hours per week contracts or employments (if based in germany).
+We typically offer 20 hours per week contracts or employments (if based in germany). 
 Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
 
 
-# Donate Money
+# Donate Money 
 
-If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users:
+If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users: 
 
 - IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
 - PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)

@@ -166,7 +166,7 @@ di un contatto. Ciò significa che è stato "visto di recente".
 - perché hanno scritto qualcosa a un gruppo di cui siete entrambi membri,
 - perché vi hanno inviato una ricevuta di lettura per un messaggio che avete scritto,
 - o perché hanno inviato dati alla vostra applicazione Delta Chat utilizzando un'applicazione
-[app privata] (#apps-private--webxdc).
+[app privata](#apps-private--webxdc).
 - Quindi non si tratta di uno stato online in tempo reale - e se qualcuno non risponde
 subito anche se sembra essere online, non preoccupatevi e lasciategli un po'
 di spazio ;-)
@@ -417,7 +417,7 @@ in qualche modo sull'altro dispositivo.
 Dopo l'importazione, le conversazioni, le chiavi di crittografia e i file multimediali dovrebbero essere copiati
 sul nuovo dispositivo.
 - Se si utilizza iOS:** e si riscontrano difficoltà, si consiglia di consultare
-[questa guida] (https://support.delta.chat/t/import-backup-to-ios/1628) vi aiuterà.
+[questa guida](https://support.delta.chat/t/import-backup-to-ios/1628) vi aiuterà.
 - Ora siete sincronizzati e potete utilizzare entrambi i dispositivi per l'invio e la ricezione di messaggi.
 crittografati E2E con i vostri partner di comunicazione. 
 

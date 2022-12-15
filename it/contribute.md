@@ -16,13 +16,15 @@ For community interactions around Delta Chat please read our [Community Standard
 - [#deltachat su Libera.Chat]({% include webirc-url %}) per le comunicazioni quotidiane.
 
 - [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
-  for community discussions and news.
+  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
+  per le discussioni della comunità e le notizie.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Repository di Delta Chat](https://github.com/deltachat/) dove puoi trovare 
+ il codice delle app DeltaChat e di questo sito web.
 
-# Translations and Bug Reports
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
+
+# Traduzioni e segnalazioni di bug
 
 - [Traduzioni su Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problemi su Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -30,15 +32,15 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Problemi su Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemi su Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers who want to help along and are familiar with
-C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
-We typically offer 20 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
+Siamo sempre alla ricerca di sviluppatori e designer che vogliano aiutarci e che abbiano familiarità con
+C, Rust, Java, Swift, Javascript o Python su Android, iOS, Windows, Linux o Mac.
+In genere offriamo contratti o impieghi di 20 ore settimanali (se con sede in Germania).
+Non esitate a contattarci (delta at merlinux eu) se siete interessati ad aiutare i nostri sforzi!
 
 
-# Donate Money
+# Donate soldi
 
-If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users:
+Se sostieni economicamente DeltaChat, lo aiuti a rimanere e crescere come un progetto indipendente che funziona ed è orientato verso i suoi utenti:
 
 - IBAN DE86100777770428658900, Titolare del conto (specificare sempre): Björn Petersen, BIC NORSDE51XXX
 - PayPal o carta di credito: [paypal.me/deltachat](https://paypal.me/deltachat/20)

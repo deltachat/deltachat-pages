@@ -5,8 +5,6 @@ lang: nl
 
 # Met Delta Chat kun je chatten via e-mail
 
-<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
-
 <br>
 🗨️ Communiceer met iedereen die over een e-mailadres beschikt, [zelfs als ze geen Delta Chat gebruiken](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 

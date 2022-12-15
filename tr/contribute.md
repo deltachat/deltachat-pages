@@ -15,14 +15,16 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - Günlük iletişimler için [Libera.Chat'te #deltachat]({% include webirc-url %}).
 
-- [Delta Chat mailing
-  list](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/)
-  for community discussions and news.
+- Topluluk tartışmaları ve haberler için
+  [Delta Chat 
+  posta listesi](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/).
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- Delta Chat uygulamaları ve bu web sitesi için 
+  kodu bulabileceğiniz [Delta Chat depoları](https://github.com/deltachat/).
 
-# Translations and Bug Reports
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
+
+# Çeviriler ve Hata Raporları 
 
 - [Çeviriler Transifex'te](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android Sorunları](https://github.com/deltachat/deltachat-android/issues)
@@ -30,15 +32,15 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Delta Chat iOS Sorunları](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Çekirdek Kitaplığı + Python Bağlayıcıları Sorunları](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers who want to help along and are familiar with
-C, Rust, Java, Swift, Javascript or Python on Android, iOS, Windows, Linux or Mac.
-We typically offer 20 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu) if you are interested to help our efforts!
+Her zaman yardımcı olmak isteyen ve Android, iOS, Windows, Linux ya da Mac üzerinde C, Rust, Java, Swift, JavaScript ya da Python ile içli dışlı 
+geliştiriciler ve tasarımcılar arıyoruz.
+Genelde hafta başına 20 saatlik sözleşme ya da iş olanağı sunuyoruz (Almanya merkezliyse). 
+Çabalarımıza yardımcı olmakla ilgileniyorsanız, lütfen ulaşmaktan çekinmeyin (delta at merlinux eu)!
 
 
-# Donate Money
+# Para Bağışı 
 
-If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users:
+Delta Chat'i parasal olarak desteklerseniz, kullanıcılarına yönelik ve çalışan bağımsız bir proje olarak kalmasına ve büyümesine yardımcı olursunuz: 
 
 - IBAN DE86100777770428658900, Hesap sahibi (lütfen her zaman belirtin): Björn Petersen, BIC NORSDE51XXX
 - PayPal ya da kredi kartı: [paypal.me/deltachat](https://paypal.me/deltachat/20)

@@ -1,76 +1,48 @@
 ---
-title: Community Standards
+title: Standardy społeczności
 lang: pl
 ---
 
-# Delta Chat Community Standards
+# Standardy społeczności Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
+W interesie wspierania otwartego i przyjaznego środowiska, jako współtwórcy i opiekunowie staramy się, aby uczestnictwo w społecznościach Delta Chat było przyjemnym i wolnym od nękania doświadczeniem.
 
 
-## Our Standards
+## Nasze standardy
 
-Examples of behavior that contribute to creating a positive environment include:
+Przykłady zachowań, które przyczyniają się do tworzenia pozytywnego środowiska, obejmują:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
+* Używanie przyjaznego i integracyjnego języka
+* Szanowanie odmiennych punktów widzenia i doświadczeń
+* Łagodne przyjmowanie konstruktywnej krytyki
+* Okazywanie empatii członkom społeczności i nowoprzybyłym
+* Pomoc i mediacja w sytuacjach niepokoju lub konfliktu
 
-Examples of behavior which we ask everybody to avoid include:
+Przykłady zachowań, o których unikanie prosimy wszystkich, to:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
+* Używanie języka lub obrazów o charakterze seksualnym oraz niepożądane zainteresowanie seksualne, lub zaloty
+* Trollowanie, obraźliwe/uwłaczające komentarze oraz ataki osobiste lub polityczne
+* Nękanie publiczne lub prywatne
+* Publikowanie bez wyraźnej zgody prywatnych informacji innych osób, takich jak fizyczny lub elektroniczny adres
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Zdajemy sobie sprawę, że czasami ludzie mogą mieć zły dzień lub mogą nie być świadomi wpływu swojego zachowania. Kiedy tak się stanie, możesz im dokładnie przypomnieć publicznie lub prywatnie, w zależności od tego, co jest bardziej odpowiednie. Załóż dobrą wiarę; bardziej prawdopodobne jest, że uczestnicy nie są świadomi, niż że celowo próbują oczerniać innych lub obniżać jakość dyskusji.
 
 
-## Maintainers and Responsibilities
+## Opiekunowie i obowiązki
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Opiekunowie projektu to osoby posiadające prawa do commitów w repozytoriach Delta Chat lub prawa administracyjne do kanałów komunikacyjnych społeczności. Każdy opiekun jest proszony o podjęcie odpowiedzialności i odpowiednich, ostrożnych działań w odpowiedzi na zaobserwowane przypadki wątpliwego zachowania. Opiekunowie projektów mają prawo i odpowiedzialność do usuwania, edytowania lub odrzucania komentarzy, commitów, kodu, edycji wiki, spraw i innych materiałów, które nie są zgodne z naszymi standardami. Mogą również tymczasowo lub na stałe zablokować uczestnika projektu za inne zachowania, które uznają za nieodpowiednie, zagrażające, obraźliwe lub szkodliwe.
 
-## Scope
+## Zakres
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Nasze standardy społeczności mają zastosowanie zarówno w kanałach komunikacyjnych projektu i podczas spotkań, jak i w przestrzeni publicznej, gdy dana osoba reprezentuje projekt lub jego społeczność. Przykłady reprezentowania projektu lub społeczności obejmują używanie oficjalnego adresu e-mail projektu, publikowanie za pośrednictwem oficjalnego konta w mediach społecznościowych lub występowanie w charakterze przedstawiciela podczas wydarzenia online, lub offline.
 
-## Reporting and Responses
+## Zgłoszenia i odpowiedzi
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
+Jeśli doświadczysz lub będziesz świadkiem obraźliwego, nękającego lub w inny sposób nieakceptowalnego zachowania, możesz porozmawiać z wybranymi opiekunami projektu, obecnie [Nami](mailto:missytake@systemli.org) i [Xenią](mailto:ksenia@transcyberian.org). Zapoznają się oni z raportami i zaangażują innych opiekunów w razie potrzeby, a także zareagują w sposób uznany za konieczny i odpowiedni do okoliczności, ale nie wbrew Twojej woli.
 
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Opiekunowie są zobowiązani do zachowania poufności w stosunku do zgłaszającego incydent. Opiekunowie sami nie są zwolnieni z bycia zgłoszonym i mogą spotkać się z tymczasowymi lub trwałymi reperkusjami określonymi przez innych opiekunów.
 
 
-## Attribution
+## Uznanie autorstwa
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Nasz dokument dotyczący standardów społeczności został zaadaptowany z dokumentu [Contributor Covenant](https://contributor-covenant.org), wersja 1.4, dostępnego na stronie <https://contributor-covenant.org/version/1/4>
