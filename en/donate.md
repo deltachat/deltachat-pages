@@ -5,7 +5,7 @@ lang: en
 
 # Donate Money
 
-If you monetarily support DeltaChat you help it to stay and grow as an independent project that works and is oriented towards its users:
+Help DeltaChat develop and grow as an independent project serving the people who use it:
 
 - IBAN DE86100777770428658900, Account owner (please always specify): Björn Petersen, BIC NORSDE51XXX
 - PayPal or credit card: [paypal.me/deltachat](https://paypal.me/deltachat/20)
