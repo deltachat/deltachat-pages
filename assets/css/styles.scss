@@ -23,17 +23,20 @@
 sibling selectors are used here to select
 the first, second, and third p after .home-features */
 .home-features + p, .home-features + p + p, , .home-features + p + p + p {
-	display: flex;
-	align-items: center;
+	display: block;
+	min-height: 40px;
+
+	span {
+		float: left;
+	}
 }
 
-@media only screen and (max-width: 640px) {
-    .home-features + p, .home-features + p + p, , .home-features + p + p + p {
-    	display: block;
+@media only screen and (min-width: 640px) {
 
-    	span {
-    		float: left;
-    		min-height: 50px;
-    	}
-    }
+  .home-features + p, .home-features + p + p, , .home-features + p + p + p {
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-start;
+  	white-space: nowrap;
+  }
 }
