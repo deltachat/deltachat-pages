@@ -6,9 +6,9 @@ lang: en
 # Delta Chat is a messaging app that works over e-mail 
 
 <section class="home-features"></section>
-<span class="home-emoji">🗨️</span> Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+<span class="home-emoji">🗨️</span> Message anyone with an e-mail address&nbsp;[even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-<span class="home-emoji">🥳</span> Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
+<span class="home-emoji">🥳</span> Enjoy interactive chat experiences through&nbsp;[webxdc apps](https://webxdc.org).
 
 <span class="home-emoji">🔒</span> All your data stays on your device and email account.
 
