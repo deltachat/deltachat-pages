@@ -1,6 +1,6 @@
 ---
 title: Decentralization Unchained (Psst ... want a UI/UX dev job?)
-author: olgax
+author: olga, xenia
 image: ../assets/blog/decentralization-unchained.jpg
 ---
 
@@ -45,8 +45,8 @@ about how we are doing things and about job offers to join our UX-oriented devel
 Dozens of grassroots-ported games are now played everyday in chat groups and through mailing lists.
 Collaborative tooling apps (polls, checklists, calendars, editors) are evolving.
 No permission from us, or any app store, is needed to create and distribute your apps.
-Programming newcomers succeeded in delivering working usable apps via a ZIP file
-containing an `index.html`, some assets and JS/TypeScript/CSS as preferred.
+People new to programming succeeded in delivering working usable apps via a zip file
+containing an `index.html`, some assets and JS/Typescript/CSS as preferred.
 One of our more experienced and playful developers recently whipped up a chat app
 that runs inside a chat group —
 makes more sense if you consider a chat web app
@@ -64,7 +64,7 @@ it features these wonderful properties and UX conveniences:
 - **no logins or GDPR/consent screens**.
 
 <img src="../assets/blog/gordon_superapp.jpg" width="270" style="float:right; margin-left:1em;" />
-UX and privacy researchers and hackers from diverse projects such as Cryptpad, DAT, IPFS,
+UX and privacy researchers and hackers from diverse projects such as CryptPad, DAT, IPFS,
 Peermaps and Libreoffice agree:
 Web tech combined with decentralized chat (aka "webxdc") is a rare jewel worth refining.
 
