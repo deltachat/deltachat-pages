@@ -3,8 +3,6 @@ title: Contribute
 lang: en
 ---
 
-[Donate Money](donate){: .cta-button}
-
 # Channels and repositories
 
 For community interactions around Delta Chat please read our [Community Standards](community-standards).
@@ -23,6 +21,8 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [Delta Chat repositories](https://github.com/deltachat/) where you can
   find the code for DeltaChat apps and this web site.
+
+[Donate Money](donate){: .cta-button}
 
 # Translations and Bug Reports
 
