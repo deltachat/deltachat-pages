@@ -19,6 +19,9 @@
 	padding: 10px;
 }
 
+/* to avoid converting the markdown to HTML,
+sibling selectors are used here to select
+the first, second, and third p after .home-features */
 .home-features + p, .home-features + p + p, , .home-features + p + p + p {
 	display: flex;
 	align-items: center;
