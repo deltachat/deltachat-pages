@@ -2,14 +2,16 @@
 ---
 @import "main";
 
-.cta-button {
-	border: 1.5px solid black;
+.cta-button, .cta-button:hover {
+	border: 1.5px solid #a4c2d0;
 	border-radius: 5px;
 	padding: 10px;
-	color: black;
-	font-weight: bold;
 	display: inline-block;
 	margin: 10px 0;
+
+	background: linear-gradient(120deg, #77888f, #364e59);
+	color: white;
+	font-weight: bold;
 }
 
 #content h1:hover .anchor::before {
