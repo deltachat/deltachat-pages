@@ -21,6 +21,8 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [Delta Chat repositories](https://github.com/deltachat/) where you can
   find the code for DeltaChat apps and this web site.
+  
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 [Donate Money](donate){: .cta-button}
 
