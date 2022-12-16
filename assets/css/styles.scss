@@ -16,31 +16,37 @@
 
 :root {
 	--emoji-size: 34px;
+	--emoji-spacing: 8px;
 }
 
-.home-emoji {
-	font-size: var(--emoji-size);
-	padding: 10px;
+.home-features + p::before {
+	content: "💬";
+	min-height: var(--emoji-size);
 }
 
 /* to avoid converting the markdown to HTML,
 sibling selectors are used here to select
 the first, second, and third p after .home-features */
-.home-features + p, .home-features + p + p, , .home-features + p + p + p {
-	display: block;
+.home-features + p + p::before {
+	content: "🥳";
 	min-height: var(--emoji-size);
-
-	span {
-		float: left;
-	}
 }
 
-@media only screen and (min-width: 640px) {
+.home-features + p + p + p::before {
+	content: "🔒";
+	min-height: var(--emoji-size);
+}
 
-  .home-features + p, .home-features + p + p, , .home-features + p + p + p {
-  	display: flex;
-  	align-items: center;
-  	justify-content: flex-start;
-  	white-space: nowrap;
-  }
+.home-features + p::before, .home-features + p + p::before, .home-features + p + p + p::before {
+	font-size: var(--emoji-size);
+	padding-right: var(--emoji-spacing);
+	position: relative;
+	bottom: -5px;
+}
+
+.home-features + p, .home-features + p + p, .home-features + p + p + p {
+	padding-left: 1.5em;
+	text-indent: -2.8em;
+	position: relative;
+	left: 1.5em;
 }
