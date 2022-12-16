@@ -5,7 +5,7 @@ lang: en
 
 # Donate Money
 
-Help DeltaChat develop and grow as an independent project serving the people who use it:
+Help Delta Chat develop and grow as an independent project serving the people who use it:
 
 ## Euros
 
