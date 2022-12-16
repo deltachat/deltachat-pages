@@ -19,24 +19,25 @@
 	--emoji-spacing: 8px;
 }
 
+/* first feature emoji */
 .home-features + p::before {
 	content: "💬";
 	min-height: var(--emoji-size);
 }
 
-/* to avoid converting the markdown to HTML,
-sibling selectors are used here to select
-the first, second, and third p after .home-features */
+/* second feature emoji */
 .home-features + p + p::before {
 	content: "🥳";
 	min-height: var(--emoji-size);
 }
 
+/* third feature emoji */
 .home-features + p + p + p::before {
 	content: "🔒";
 	min-height: var(--emoji-size);
 }
 
+/* all feature emojis */
 .home-features + p::before, .home-features + p + p::before, .home-features + p + p + p::before {
 	font-size: var(--emoji-size);
 	padding-right: var(--emoji-spacing);
@@ -44,6 +45,7 @@ the first, second, and third p after .home-features */
 	bottom: -5px;
 }
 
+/* all feature paragraphs */
 .home-features + p, .home-features + p + p, .home-features + p + p + p {
 	padding-left: 1.5em;
 	text-indent: -2.8em;
