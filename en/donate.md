@@ -13,7 +13,7 @@ Help DeltaChat develop and grow as an independent project serving the people who
 
 __IBAN__: DE86100777770428658900
 
-__SWIFT__: BIC NORSDE51XXX
+__SWIFT/BIC__: NORSDE51XXX
 
 ## PayPal or credit card
 
