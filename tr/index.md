@@ -5,8 +5,7 @@ lang: tr
 
 # Delta Chat, e-posta üzerinden çalışan bir iletileşme uygulamasıdır 
 
-<br>
-🗨️ [Delta Chat kullanmıyorsa bile](https://www.youtube-nocookie.com/embed/8LbrGXKZN70) herhangi birine bir e-posta adresiyle ileti gönderin.
+💬 [Delta Chat kullanmıyorsa bile](https://www.youtube-nocookie.com/embed/8LbrGXKZN70) herhangi birine bir e-posta adresiyle ileti gönderin.
 
 🥳 [Webxdc uygulamaları](https://webxdc.org) aracılığıyla etkileşimli sohbet deneyimlerinin keyfini çıkarın.
 

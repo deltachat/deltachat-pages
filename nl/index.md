@@ -5,8 +5,7 @@ lang: nl
 
 # Met Delta Chat kun je chatten via e-mail
 
-<br>
-🗨️ Communiceer met iedereen die over een e-mailadres beschikt, [zelfs als ze geen Delta Chat gebruiken](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Communiceer met iedereen die over een e-mailadres beschikt, [zelfs als ze geen Delta Chat gebruiken](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Geniet van interactieve gesprekken met behulp van [webxdc-apps](https://webxdc.org).
 

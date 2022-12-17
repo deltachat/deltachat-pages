@@ -5,8 +5,7 @@ lang: pt
 
 # Delta Chat is a messaging app that works over e-mail 
 
-<br>
-🗨️ Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
 

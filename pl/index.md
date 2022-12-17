@@ -5,8 +5,7 @@ lang: pl
 
 # Delta Chat to aplikacja do przesyłania wiadomości, która działa przez e-mail
 
-<br>
-🗨️ Wysyłaj wiadomości do każdego, kto ma adres e-mail, [nawet jeśli nie korzysta z Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Wysyłaj wiadomości do każdego, kto ma adres e-mail, [nawet jeśli nie korzysta z Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Korzystaj z interaktywnych czatów za pośrednictwem [aplikacji webxdc](https://webxdc.org).
 
