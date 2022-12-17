@@ -5,8 +5,7 @@ lang: ca
 
 # Delta Chat és una app de missatgeria que funciona sobre el correu electrònic
 
-<br>
-🗨️ Escriviu un missatge a qualsevol amb una adreça de correu electrònic [fins i tot si no usen Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Escriviu un missatge a qualsevol amb una adreça de correu electrònic [fins i tot si no usen Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Gaudiu d'experiències de xat interactiu a través d'[apps webxdc](https://webxdc.org).
 

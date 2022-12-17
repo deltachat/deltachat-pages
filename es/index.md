@@ -5,8 +5,7 @@ lang: es
 
 # Delta Chat es una aplicación de mensajería que funciona con tu correo electrónico
 
-<br>
-🗨️ Mensajea con cualquiera que tenga una cuenta de correo [inclusive si no usan Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Mensajea con cualquiera que tenga una cuenta de correo [inclusive si no usan Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Disfruta de experiencias de chat interactivas [webxdc apps](https://webxdc.org).
 

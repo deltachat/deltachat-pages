@@ -5,8 +5,7 @@ lang: de
 
 # Delta Chat ist ein Messenger, der über E-Mail funktioniert
 
-<br>
-🗨️ Sende Nachrichten an jeden, der eine E-Mail-Adresse hat, [selbst wenn sie nicht Delta Chat nutzen](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Sende Nachrichten an jeden, der eine E-Mail-Adresse hat, [selbst wenn sie nicht Delta Chat nutzen](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Entdecke interaktives Chatten mit [webxdc Apps](https://webxdc.org).
 

@@ -5,8 +5,7 @@ lang: id
 
 # Delta Chat adalah aplikasi perpesanan yang bekerja melalui email
 
-<br>
-🗨️ Kirim pesan kepada siapa pun dengan alamat email [bahkan jika mereka tidak menggunakan Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Kirim pesan kepada siapa pun dengan alamat email [bahkan jika mereka tidak menggunakan Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Nikmati pengalaman obrolan interaktif melalui [aplikasi webxdc](https://webxdc.org).
 

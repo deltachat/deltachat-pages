@@ -5,8 +5,7 @@ lang: zh_CN
 
 # Delta Chat 是基于电子邮件的聊天软件 
 
-<br>
-🗨️ 向任意电子邮件地址发送消息，[即使他们不使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
+💬 向任意电子邮件地址发送消息，[即使他们不使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
 
 🥳 通过 [webxdc 应用](https://webxdc.org)，享受互动聊天体验。
 
