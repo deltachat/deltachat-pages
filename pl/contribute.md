@@ -21,7 +21,7 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 - [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można 
   znaleźć kod aplikacji Delta Chat i tej strony internetowej.
 
-- Other links can be found in the [cosmos](https://cosmos.delta.chat)
+- Inne linki można znaleźć w [kosmosie](https://cosmos.delta.chat)
 
 # Tłumaczenia i raportowanie błędów 
 

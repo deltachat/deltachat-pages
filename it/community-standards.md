@@ -1,76 +1,73 @@
 ---
-title: Community Standards
+titolo: Norme comunitarie
 lang: it
 ---
 
-# Delta Chat Community Standards
+# Standards della comunità di Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
-
-
-## Our Standards
-
-Examples of behavior that contribute to creating a positive environment include:
-
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
-
-Examples of behavior which we ask everybody to avoid include:
-
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Nell'interesse di promuovere un ambiente aperto e accogliente, noi come
+contributori e manutentori ci sforziamo di rendere la partecipazione nelle comunità Delta Chat
+sia un'esperienza piacevole, priva di molestie.
 
 
-## Maintainers and Responsibilities
+## I nostri standards
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Esempi di comportamenti che contribuiscono a creare un ambiente positivo sono:
 
-## Scope
+* Usare un linguaggio accogliente e inclusivo
+* Essere rispettosi dei diversi punti di vista e delle diverse esperienze
+* Accettare con grazia le critiche costruttive
+* Mostrare empatia nei confronti dei membri della comunità e dei nuovi arrivati
+* Aiutare e mediare in caso di turbamenti o conflitti
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Esempi di comportamenti che chiediamo a tutti di evitare sono:
 
-## Reporting and Responses
+* L'uso di linguaggio o immagini sessualizzate e attenzioni o avances sessuali indesiderate
+* Trolling, commenti offensivi/derogatori e attacchi personali o politici
+* Molestie pubbliche o private
+* Pubblicazione di informazioni private altrui, come un indirizzo fisico o elettronico, senza esplicita autorizzazione
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
-
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Riconosciamo che a volte le persone hanno una giornata storta o non sono consapevoli
+dell'impatto del loro comportamento. Quando ciò accade, potete ricordarglielo
+attentamente in pubblico o in privato, a seconda di ciò che è più appropriato. Presumiamo la buona fede;
+è più probabile che i partecipanti siano inconsapevoli piuttosto che stiano intenzionalmente denigrando gli altri o di ridurre la qualità della discussione.
 
 
-## Attribution
+## Manutentori e responsabilità
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+I manutentori del progetto sono coloro che hanno i diritti di compiere sui depositi di Delta Chat o i diritti di amministrazione sui canali di comunicazione della comunità.
+A ogni manutentore viene chiesto di assumersi la responsabilità e di agire in modo appropriato e attento
+in risposta a casi testimoniati di comportamento discutibile.
+I manutentori del progetto hanno il diritto e la responsabilità di rimuovere, modificare o
+ rifiutare commenti, impegni, codice, modifiche al wiki, questioni e altri contributi
+che non sono in linea con i nostri standards.
+Possono anche bannare temporaneamente o permanentemente un collaboratore per
+altri comportamenti che ritengono inappropriati, minacciosi, offensivi o dannosi.
+
+## Ambito
+
+I nostri Standard Comunitari si applicano sia all'interno dei canali di comunicazione del progetto e degli
+incontri del progetto, ma anche negli spazi pubblici
+quando un individuo rappresenta il progetto o la sua comunità. Esempi di
+rappresentare un progetto o una comunità sono, ad esempio, l'utilizzo di un indirizzo e-mail ufficiale del progetto,
+la pubblicazione di un account ufficiale sui social media o di posta elettronica ufficiale del progetto, postare tramite un account ufficiale sui social media o agire in qualità di
+rappresentante a un evento online o offline.
+
+## Rapporti e Risposte
+
+Se si verificano o si assiste a comportamenti abusivi, molesti o comunque inaccettabili
+si può parlare con alcuni manutentori del progetto, attualmente [Nami](mailto:missytake@systemli.org) e [Xenia](mailto:ksenia@transcyberian.org).
+Essi esamineranno le segnalazioni e coinvolgeranno altri manutentori, se opportuno,
+e risponderanno nel modo ritenuto necessario e appropriato alle circostanze, ma non contro la vostra volontà.
+
+I manutentori sono obbligati a mantenere la riservatezza
+nei confronti del segnalante di un incidente.
+I manutentori non sono esenti dall'essere segnalati
+e possono incorrere in ripercussioni temporanee o permanenti
+come stabilito da altri manutentori.
+
+
+## Attribuzione
+
+Il nostro documento sugli Standard della Comunità è adattato dal [Patto dei Collaboratori](https://contributor-covenant.org), versione 1.4,
+disponibile all'indirizzo <https://contributor-covenant.org/version/1/4>

@@ -10,7 +10,7 @@ contributors and maintainers strive to make participation in Delta Chat
 communities a pleasurable, harassment-free experience.
 
 
-## Our Standards
+## Unsere Standards
 
 Examples of behavior that contribute to creating a positive environment include:
 
