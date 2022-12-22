@@ -5,6 +5,8 @@ lang: es
 
 # Canales y repositorios
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) and
   [Twitter](https://twitter.com/delta_chat) for announcements.
 
@@ -15,6 +17,8 @@ lang: es
 - [Lista de correo de Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) para discusiones en la comunidad y noticias.
 
 - [Repositorios de Delta Chat](https://github.com/deltachat/) donde puedes encontrar el código de las distintas aplicaciones de DeltaChat y de este sitio web.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Traducciones e informes de errores
 

@@ -5,6 +5,8 @@ lang: ca
 
 # Canals i repositoris
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fedivers](https://chaos.social/web/@delta) i
   [Twitter](https://twitter.com/delta_chat) pels anuncis.
 
@@ -18,6 +20,8 @@ lang: ca
 
 - [Repositoris de Delta Chat](https://github.com/deltachat/) a on pots trobar 
   el codi de les apps de DeltaChat i d'aquesta web.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Traduccions i informes d'errors
 

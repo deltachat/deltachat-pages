@@ -5,10 +5,7 @@ lang: sq
 
 # Delta Chat është një aplikacion për shkëmbim mesazhesh që funksionon përmes email-i 
 
-<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
-
-<br>
-🗨️ Shkëmbeni mesazhe me këdo që ka një adresë email [edhe kur nuk përdorin Delta Chat-in](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Shkëmbeni mesazhe me këdo që ka një adresë email [edhe kur nuk përdorin Delta Chat-in](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Shijoni fjalosje me ndërveprim përmes [aplikacionesh webxdc](https://webxdc.org).
 

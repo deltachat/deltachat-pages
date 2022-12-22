@@ -155,17 +155,21 @@ p.blogdate {
 /*colors*/
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 1.7em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
     color: #000;
+}
+
+#menu, h1, h2, h3, h4, h5, h6 {
+    font-family: Tahoma, sans-serif;
 }
 
 #content ul, ol { margin-left: 1.5em; }
 #content ul li { list-style: disc outside; margin: 0.5em 0.2em; padding-left: 0.5em; }
 ol li { list-style: decimal; margin: 0.5em 0.2em; padding-left: 0.5em; }
 
-h1,h2 { font-weight: normal; font-size: 24px; letter-spacing: 1px; line-height: 1.4em; color: #000; }
+h1,h2 { font-weight: normal; font-size: 26px; letter-spacing: 1px; line-height: 1.4em; color: #000; }
 h3 { font-weight: bold; font-size: 16px; letter-spacing: 1px; color: #159957; }
 h4 { font-weight: bold; letter-spacing: 1px; color: #159957; }
 

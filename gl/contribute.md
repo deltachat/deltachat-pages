@@ -5,6 +5,8 @@ lang: gl
 
 # Canles e repositorios
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverso](https://chaos.social/web/@delta) e
   [Twitter](https://twitter.com/delta_chat) para estar ao día.
 
@@ -19,6 +21,8 @@ lang: gl
 
 - [repositorios Delta Chat](https://github.com/deltachat/) onde podes 
   atopar o código da app DeltaChat e este sitio web.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Traducións e Informes de fallos
 

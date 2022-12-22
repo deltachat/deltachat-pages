@@ -5,6 +5,8 @@ lang: tr
 
 # Kanallar ve depolar
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - Duyurular için [Fediverse](https://chaos.social/web/@delta) ve
   [Twitter](https://twitter.com/delta_chat).
 
@@ -19,6 +21,8 @@ lang: tr
 
 - Delta Chat uygulamaları ve bu web sitesi için 
   kodu bulabileceğiniz [Delta Chat depoları](https://github.com/deltachat/).
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Çeviriler ve Hata Raporları 
 

@@ -1,58 +1,69 @@
 [main]
 host = https://www.transifex.com
 
-[delta-chat-pages.blogpo]
+[o:delta-chat:p:delta-chat-pages:r:blogpo]
 file_filter = translations/delta-chat-pages.blogpo/<lang>.po
+source_file = translations/delta-chat-pages.blogpo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.community-standardspo]
+[o:delta-chat:p:delta-chat-pages:r:community-standardspo]
 file_filter = translations/delta-chat-pages.community-standardspo/<lang>.po
+source_file = translations/delta-chat-pages.community-standardspo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.contributepo]
+[o:delta-chat:p:delta-chat-pages:r:contributepo]
 file_filter = translations/delta-chat-pages.contributepo/<lang>.po
+source_file = translations/delta-chat-pages.contributepo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.downloadpo]
+[o:delta-chat:p:delta-chat-pages:r:downloadpo]
 file_filter = translations/delta-chat-pages.downloadpo/<lang>.po
+source_file = translations/delta-chat-pages.downloadpo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.helppo]
+[o:delta-chat:p:delta-chat-pages:r:helppo]
 file_filter = translations/delta-chat-pages.helppo/<lang>.po
+source_file = translations/delta-chat-pages.helppo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.imprintpo]
+[o:delta-chat:p:delta-chat-pages:r:imprintpo]
 file_filter = translations/delta-chat-pages.imprintpo/<lang>.po
+source_file = translations/delta-chat-pages.imprintpo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.indexpo]
+[o:delta-chat:p:delta-chat-pages:r:indexpo]
 file_filter = translations/delta-chat-pages.indexpo/<lang>.po
+source_file = translations/delta-chat-pages.indexpo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.referencespo]
+[o:delta-chat:p:delta-chat-pages:r:referencespo]
 file_filter = translations/delta-chat-pages.referencespo/<lang>.po
+source_file = translations/delta-chat-pages.referencespo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.user-voicespo]
+[o:delta-chat:p:delta-chat-pages:r:user-voicespo]
 file_filter = translations/delta-chat-pages.user-voicespo/<lang>.po
+source_file = translations/delta-chat-pages.user-voicespo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.verifiy-downloadspo]
+[o:delta-chat:p:delta-chat-pages:r:verifiy-downloadspo]
 file_filter = translations/delta-chat-pages.verify-downloadspo/<lang>.po
+source_file = translations/delta-chat-pages.verify-downloadspo/en.po
 source_lang = en
-type = PO
+type        = PO
 
-[delta-chat-pages.yml]
+[o:delta-chat:p:delta-chat-pages:r:yml]
 file_filter = translations/delta-chat-pages.yml/<lang>.yml
+source_file = translations/delta-chat-pages.yml/en.yml
 source_lang = en
-type = YML
+type        = YML
 

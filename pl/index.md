@@ -5,10 +5,7 @@ lang: pl
 
 # Delta Chat to aplikacja do przesyłania wiadomości, która działa przez e-mail
 
-<img src="../assets/logos/delta-chat.svg" width="110" style="float: left; margin: 20px;" alt="The Delta Chat logo" />
-
-<br>
-🗨️ Wysyłaj wiadomości do każdego, kto ma adres e-mail, [nawet jeśli nie korzysta z Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Wysyłaj wiadomości do każdego, kto ma adres e-mail, [nawet jeśli nie korzysta z Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
 🥳 Korzystaj z interaktywnych czatów za pośrednictwem [aplikacji webxdc](https://webxdc.org).
 

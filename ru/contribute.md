@@ -5,6 +5,8 @@ lang: ru
 
 # Каналы и репозитории
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) and
   [Twitter](https://twitter.com/delta_chat) for announcements.
 
@@ -19,6 +21,8 @@ lang: ru
 
 - [Репозитории Delta Chat](https://github.com/deltachat/) где вы сможете 
   найти исходный код приложения DeltaChat и веб сайта.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Переводы и сообщения об ошибках
 

@@ -5,6 +5,8 @@ lang: de
 
 # Kanäle und Quellen
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) und
 [Twitter](https://twitter.com/delta_chat) für Ankündigungen.
 
@@ -18,6 +20,8 @@ Diskussion über Features und um Unterstützung zu erhalten.
 
 - [Delta Chat Quellen](https://github.com/deltachat/) in denen Sie
   den Code für die Delta Chat-Anwendungen und diese Website finden können.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Übersetzungen und Fehlerberichte
 

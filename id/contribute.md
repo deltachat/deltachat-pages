@@ -5,6 +5,8 @@ lang: id
 
 # Saluran dan repositori
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) dan
   [Twitter](https://twitter.com/delta_chat) untuk pengumuman.
 
@@ -18,6 +20,8 @@ untuk diskusi dan berita komunitas.
 
 - [Delta Chat repositories](https://github.com/deltachat/) dimana kamu bisa
    temukan kode untuk aplikasi DeltaChat dan situs web ini.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Terjemahan dan Laporan Bug
 

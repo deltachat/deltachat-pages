@@ -3,7 +3,9 @@ name: Push new strings to Transifex
 on: 
   push:
     branches:
-      - master
+      # if we made sure, the new tx-tool works and is used by CI, we can switch back to branch "master"
+      # (is there a less hacky way to disable a workflow?)
+      - master-disabled
 
 jobs:
   push-translations:

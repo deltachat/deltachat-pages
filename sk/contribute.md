@@ -5,6 +5,8 @@ lang: sk
 
 # Kanály a repozitáre
 
+For community interactions around Delta Chat please read our [Community Standards](community-standards).
+
 - [Fediverse](https://chaos.social/web/@delta) and
   [Twitter](https://twitter.com/delta_chat) for announcements.
 
@@ -16,6 +18,8 @@ lang: sk
  zoznam](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) pre komunitné diskusie a novinky. 
 
 - [Repozitáre Delta Chat](https://github.com/deltachat/), kde môžete nájsť kód pre aplikácie DeltaChat a túto webovú stránku.
+
+- Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
 # Preklady a hlásenia chýb 
 
