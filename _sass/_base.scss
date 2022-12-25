@@ -47,11 +47,13 @@ body {
     max-width: 100% !important;
     max-height: 600px; /*avoid portrait smartphone screenshots becoming too big*/
     height: auto;
+    display: block;
 }
 
 @media only screen and (max-width: 640px) {
 	#content p img, iframe {
 	    float: none !important;
+	    margin: 0 0 1em !important;
 	}
 	.post-box {
 	    margin-top: 4em;
