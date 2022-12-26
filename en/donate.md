@@ -12,3 +12,5 @@ Help Delta Chat develop and grow as an independent project serving the people wh
 - Donate via [Liberapay](https://liberapay.com/delta.chat/)
 - Make a one-time or recurring donation via [Open Collective](https://opencollective.com/delta-chat/donate)
 - Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+
+[Other ways to contribute](contribute){: .cta-button}
