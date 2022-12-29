@@ -7,8 +7,8 @@ lang: pl
 
 Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj nasze [Standardy społeczności](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) i
-  [Twitter](https://twitter.com/delta_chat) dla ogłoszeń.
+- [Fediverse](https://chaos.social/web/@delta) for announcements;
+  [leaving twitter](https://twitter.com/delta_chat/status/1603771336060436483).
 
 - [Forum wsparcia Delta Chat](https://support.delta.chat) do
   szerszych dyskusji na temat funkcji i uzyskania wsparcia.
@@ -20,10 +20,12 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 
 - [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można 
   znaleźć kod aplikacji Delta Chat i tej strony internetowej.
-
+  
 - Inne linki można znaleźć w [kosmosie](https://cosmos.delta.chat)
 
-# Tłumaczenia i raportowanie błędów 
+[Donate Money](donate){: .cta-button}
+
+# Translations and Bug Reports
 
 - [Tłumaczenia na Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problemy z Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -32,14 +34,3 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 - [Problemy z Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Zawsze szukamy programistów i projektantów, którzy chcą pomóc i znają C, Rust, Java, Swift, Javascript lub Python na Androida, iOS, Windows, Linux lub Mac. Zazwyczaj oferujemy umowy lub zatrudnienie w wymiarze 20 godzin tygodniowo (jeśli mieszkasz w Niemczech). Nie wahaj się skontaktować z nami (delta at merlinux eu), jeśli jesteś zainteresowany pomocą w naszych wysiłkach!
-
-
-# Ofiaruj pieniądze
-
-Jeśli wspierasz finansowo DeltaChat, pomagasz mu pozostać i rozwijać się jako niezależny projekt, który działa i jest zorientowany na użytkowników:
-
-- IBAN DE86100777770428658900, Właściciel konta (proszę zawsze określać): Björn Petersen, BIC NORSDE51XXX
-- PayPal lub karta kredytowa: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Wspieraj za pośrednictwem [Liberapay](https://liberapay.com/delta.chat/)
-- Przekaż jednorazową lub cykliczną darowiznę za pośrednictwem [Open Collective](https://opencollective.com/delta-chat/donate)
-- Wyślij bitcoiny do [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

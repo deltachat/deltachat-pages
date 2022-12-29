@@ -7,8 +7,8 @@ lang: nl
 
 For community interactions around Delta Chat please read our [Community Standards](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) en
-  [Twitter](https://twitter.com/delta_chat) voor aankondigingen.
+- [Fediverse](https://chaos.social/web/@delta) for announcements;
+  [leaving twitter](https://twitter.com/delta_chat/status/1603771336060436483).
 
 - [Delta Chat-ondersteuningsforum](https://support.delta.chat) - voor het uitwisselen van
   ideëen en het verkrijgen van ondersteuning.
@@ -21,10 +21,12 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [Delta Chat-repo's](https://github.com/deltachat/) - hier vind je 
   de broncode van de DeltaChat-apps en deze website.
-
+  
 - Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
-# Vertaling en bugmeldingen 
+[Donate Money](donate){: .cta-button}
+
+# Translations and Bug Reports
 
 - [Vertalen via Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat voor Android-problemen](https://github.com/deltachat/deltachat-android/issues)
@@ -36,14 +38,3 @@ We zijn altijd op zoek naar ontwikkelaars en ontwerpers die ons willen helpen en
 C, Rust, Java, Swift, Javascript of Python op Android, iOS, Windows, Linux of macOS.
 Doorgaans bieden we 20-urencontracten of vaste indienstelling aan (laatstgenoemde alleen in Duitsland). 
 Neem contact met ons op (delta at merlinux punt eu) als je geïnteresseerd bent!
-
-
-# Geld doneren
-
-Als je een terugkerende donatie instelt, dan help je DeltaChat te groeien als onafhankelijk project waarbij de gebruiker centraal staat:
-
-- IBAN DE86100777770428658900, rekeninghouder (altijd opgeven): Björn Petersen, BIC NORSDE51XXX
-- PayPal of creditcard: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Sponsor ons via [Liberapay](https://liberapay.com/delta.chat/)
-- Sponsor ons middels een eenmalige of terugkerende bijdrage via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Verstuur bitcoins naar [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

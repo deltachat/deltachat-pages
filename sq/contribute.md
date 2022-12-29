@@ -7,8 +7,8 @@ lang: sq
 
 For community interactions around Delta Chat please read our [Community Standards](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) dhe
-  [Twitter](https://twitter.com/delta_chat) për lajmërime.
+- [Fediverse](https://chaos.social/web/@delta) for announcements;
+  [leaving twitter](https://twitter.com/delta_chat/status/1603771336060436483).
 
 - [Forum asistence për Delta Chat-in](https://support.delta.chat) për
   diskutime më të gjera dhe për të marrë asistencë.
@@ -21,10 +21,12 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [Depo Delta Chat](https://github.com/deltachat/) ku mund të gjeni 
  kodin për aplikacionet DeltaChat dhe këtë sajt.
-
+  
 - Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
-# Përkthime dhe Njoftime të Metash 
+[Donate Money](donate){: .cta-button}
+
+# Translations and Bug Reports
 
 - [Përkthime në Transifex](https://www.transifex.com/delta-chat/public/)
 - [Probleme në Delta Chat për Android](https://github.com/deltachat/deltachat-android/issues)
@@ -36,14 +38,3 @@ Kërkojmë vazhdimisht zhvillues dhe grafistë që duan të ndihmojnë dhe janë
 C, Rust, Java, Swift, Javascript apo Python në Android, iOS, Windows, Linux ose Mac.
 Zakonisht ofrojmë kontrata ose punësim 20 orë në javë (për ata që gjenden në Gjermani). 
 Ju lutemi, mos ngurroni të lidheni me ne (delta te merlinux eu), nëse interesoheni të ndihmoni përpjekjet tona!
-
-
-# Dhuroni Para 
-
-Nëse e përkrahni DeltaChat-in financiarisht, e ndihmoni të jetë e pranishme dhe të fuqizohet si një projekt i pavarur që funksionon për përdoruesit dhe është i orientuar drejt tyre: 
-
-- IBAN DE86100777770428658900, zotërues llogarie (ju lutemi, specifikojeni përherë): Björn Petersen, BIC NORSDE51XXX
-- PayPal ose kartë krediti: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Dhuroni përmes [Liberapay](https://liberapay.com/delta.chat/)
-- Bëni një dhurim njësh, ose një që përsëritet, përmes [Open Collective](https://opencollective.com/delta-chat/donate)
-- Dërgoni <em>bitcoins</em> te [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

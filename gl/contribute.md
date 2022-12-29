@@ -7,8 +7,8 @@ lang: gl
 
 For community interactions around Delta Chat please read our [Community Standards](community-standards).
 
-- [Fediverso](https://chaos.social/web/@delta) e
-  [Twitter](https://twitter.com/delta_chat) para estar ao día.
+- [Fediverse](https://chaos.social/web/@delta) for announcements;
+  [leaving twitter](https://twitter.com/delta_chat/status/1603771336060436483).
 
 - [foro de axuda Delta Chat](https://support.delta.chat) para obter
   axuda e comentar o funcionamento.
@@ -21,10 +21,12 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [repositorios Delta Chat](https://github.com/deltachat/) onde podes 
   atopar o código da app DeltaChat e este sitio web.
-
+  
 - Other links can be found in the [cosmos](https://cosmos.delta.chat)
 
-# Traducións e Informes de fallos
+[Donate Money](donate){: .cta-button}
+
+# Translations and Bug Reports
 
 - [Traducións en Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problemas Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -36,14 +38,3 @@ Sempre estamos á procura de desenvolvedoras e deseñadoras que queiran axudar e
 C, Rust, Java, Swift, Javascript ou Python en Android, iOS, Windows, Linux ou Mac.
 O contrato típico é dunhas 20 horas semanais (se estás en Alemaña).
 Non dubides en contactar (delta at merlinux eu) se tes interese en contribuír aos nosos esforzos!
-
-
-# Fai unha doazón 
-
-Se axudas a DeltaChat con cartos farás que o proxecto continúe adiante e medre como un proxecto independente que funciona ben e está orientado hacia as persoas usuarias:
-
-- IBAN DE86100777770428658900, Dono da conta (indicalo sempre): Björn Petersen, BIC NORSDE51XXX
-- PayPal ou tarxeta de crédito: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Doar vía [Liberapay](https://liberapay.com/delta.chat/)
-- Facer unha única aportación ou doar vía [Open Collective](https://opencollective.com/delta-chat/donate)
-- Enviar bitcoins a [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)

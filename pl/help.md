@@ -356,7 +356,8 @@ W Delta Chat można udostępniać „prywatne aplikacje”, załączniki z rozsz
 
 ### Gdzie mogę zdobyć prywatne aplikacje?
 
-- Ogólnie rzecz biorąc, nie ma wyselekcjonowanego sklepu z aplikacjami, a Delta Chat nie ponosi odpowiedzialności za prywatne aplikacje ani ich zawartość. Każdy może udostępniać sobie prywatne aplikacje bez ograniczeń. - Przykładowe aplikacje można znaleźć na stronie  [webxdc.org](https://webxdc.org).
+- Ogólnie rzecz biorąc, nie ma wyselekcjonowanego sklepu z aplikacjami, a Delta Chat nie ponosi odpowiedzialności za prywatne aplikacje ani ich zawartość. Każdy może udostępniać sobie prywatne aplikacje bez ograniczeń.
+- Przykładowe aplikacje można znaleźć na stronie  [webxdc.org](https://webxdc.org).
 - Wiele osób pisze własne prywatne aplikacje i publikuje je na [forum Delta Chat](https://support.delta.chat/c/webxdc/20).
 
 
