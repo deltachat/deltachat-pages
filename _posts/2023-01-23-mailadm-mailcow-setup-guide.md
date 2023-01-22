@@ -152,6 +152,8 @@ Now you can login to the mailcow web interface at https://mail.example.org. The
 default username is `admin` and the password is `moohoo`. You should change
 this password to something more secure.
 
+![The Mailcow web interface.](../assets/blog/mailcow-UI-login.png)
+
 Next, add a domain in the web interface under "E-Mail > Configuration > Domains".
 Somethings like this makes sense:
 
