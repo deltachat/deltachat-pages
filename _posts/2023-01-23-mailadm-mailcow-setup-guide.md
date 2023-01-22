@@ -40,12 +40,12 @@ can also get docker & docker-compose from other sources, which may work:
   and copy it to [the right location](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
 - And finally you can try to get access to a server outside your country,
   create a HTTPS proxy, and use that to install docker and docker-compose. It's
-  tricky, but might work. You can [contact me](https://lefherz.net/contact/) if
+  tricky, but might work. You can [contact us](https://lefherz.net/contact/) if
   you run into problems.
 
 ## Create DNS Entries
 
-If you don't have a domain yet, I recommend to use [njal.la](https://njal.la)
+If you don't have a domain yet, we recommend to use [njal.la](https://njal.la)
 to buy a .net or .org domain for 15€ a year. You can pay with PayPal, Bitcoin,
 or Monero.
 
