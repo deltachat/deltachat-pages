@@ -159,9 +159,11 @@ Somethings like this makes sense:
 
 - domain: example.org
 - max. mailboxes: 999999
-- default mailbox quota: 512
+- default mailbox quota: 3076 (it doesn't matter, mailadm will override this)
 - max. mailbox quota: 17240 (basically a bit less than your free disk space)
 - domain quota: 17240 (basically a bit less than your free disk space)
+
+![Creating a domain in mailcow](../assets/blog/mailcow-create-domain.png)
 
 After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
 You can try it out with Delta Chat now.
