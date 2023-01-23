@@ -174,6 +174,8 @@ In "E-Mail > Configuration > Domains", on the right next to your domain, you can
 "DNS" button. It provides further reccomendations for DNS entries which might
 help if you have problems getting your e-mails delivered to other servers.
 
+![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
+
 ## Setting up mailadm
 
 Now we can set up mailadm - with this tool you can generate QR codes, which
