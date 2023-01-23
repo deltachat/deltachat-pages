@@ -275,9 +275,9 @@ restart mailadm`, should you ever want to.
 #### First steps with mailadm
 
 That's it! You can now get started with creating tokens and users with mailadm.
-Best look at the documentation for the first steps:
-https://mailadm.readthedocs.io/en/latest/#first-steps - it also contains hints
-for troubleshooting the setup if something doesn't work.
+Best look at the documentation for the [first
+steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
+contains hints for troubleshooting the setup if something doesn't work.
 
 ## Optional: Protect mailadm against DoS attacks with ufw
 
