@@ -45,9 +45,9 @@ can also get docker & docker-compose from other sources, which may work:
 
 ## Create DNS Entries
 
-If you don't have a domain yet, we recommend to use [njal.la](https://njal.la)
-to buy a .net or .org domain for 15€ a year. You can pay with PayPal, Bitcoin,
-or Monero.
+If you don't have a domain yet, you can use a service like
+[njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
+pay with PayPal, Bitcoin, or Monero.
 
 Let's assume:
 - you bought example.org. For now you only want a mail server, but you think
