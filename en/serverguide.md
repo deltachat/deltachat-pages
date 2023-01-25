@@ -1,8 +1,9 @@
 ---
 title: How to Setup a Mail Server for Delta Chat
-author: missytake, brabo
-image: ../assets/blog/mailcow-UI-login.png
+lang: en
 ---
+
+# How to Setup a Mail Server for Delta Chat
 
 Delta Chat is a chat messenger which runs on e-mail. This means we can use any
 e-mail server to run Delta Chat accounts. One e-mail server which is easy to
@@ -24,7 +25,8 @@ What you need:
 
 ## Installing Docker
 
-As a prerequisite you need to install [docker and docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
+As a prerequisite you need to install [docker and
+docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
 
 ### If docker.com is Blocked:
 
@@ -40,7 +42,7 @@ can also get docker & docker-compose from other sources, which may work:
   and copy it to [the right location](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
 - And finally you can try to get access to a server outside your country,
   create a HTTPS proxy, and use that to install docker and docker-compose. It's
-  tricky, but might work. You can [contact us](https://lefherz.net/contact/) if
+  tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
   you run into problems.
 
 ## Create DNS Entries
