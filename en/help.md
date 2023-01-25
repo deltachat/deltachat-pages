@@ -644,6 +644,14 @@ it](https://delta.chat/en/2022-09-14-aeap).
   see [Provider Overview](https://providers.delta.chat)
 
 
+### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+
+- Most mail servers will work well. But what we personally recommend is a
+  combination of mailcow and mailadm, as described [in this
+  blogpost](blog/2023-01-26-upcoming-mail-server-workshops).
+- You can find an [installation guide on our website](serverguide).
+
+
 ### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
 
 - Sending and receiving messages takes a few seconds, typically. Sometimes
