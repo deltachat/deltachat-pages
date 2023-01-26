@@ -32,7 +32,7 @@ and [send us your feedback](mailto:mailadm@testrun.org) about it!
 
 If you want to try it out with our guidance, you can also attend one of our
 workshops on the topic - they will happen in several Western European cities in
-the next weeks:
+the next months:
 
 - `2023-02-04/05`: [OFFDEM](https://ps.zoethical.org/pub/offdem-ozone-cfp), Brussels
 - `2023-02-10`: [LAG](https://radar.squat.net/en/event/amsterdam/lag/2023-02-10/lag-social-evening), Amsterdam
