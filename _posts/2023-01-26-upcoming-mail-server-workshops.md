@@ -34,7 +34,6 @@ If you want to try it out with our guidance, you can also attend one of our
 workshops on the topic - they will happen in several Western European cities in
 the next weeks:
 
-- `2023-02-01`: [Cafe Crypte](https://crypto.bawet.org/), Liege
 - `2023-02-04/05`: [OFFDEM](https://ps.zoethical.org/pub/offdem-ozone-cfp), Brussels
 - `2023-02-10`: [LAG](https://radar.squat.net/en/event/amsterdam/lag/2023-02-10/lag-social-evening), Amsterdam
 - `2023-02-23` - `2023-02-26`: [Winter University](https://pretalx.lebib.org/universit-d-hiver-2022), Montpellier
