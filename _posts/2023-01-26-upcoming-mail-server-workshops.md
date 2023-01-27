@@ -17,7 +17,6 @@ from you. This way, you can't easily end up with a misconfigured postfix; but
 if you still need to tweak postfix for a specfic use case, you can manually
 edit the postfix config files in the docker container.
 
-
 We implemented an automated e-mail account management tool
 to help admins give out accounts to users, 
 both random short-lived ("burner") or longer-living accounts. 
@@ -34,10 +33,19 @@ to bring your friends and family to Delta Chat.
 We are happy about [any feedback](mailto:mailadm@testrun.org)
 about our [mail server and mailadm installation instructions](serverguide)!
 
-## Upcoming Workshops
+## Upcoming Workshops in Brussels, Amsterdam, Montpellier, and Gent
 
 If you want to try it out with our guidance, you can also attend one of our
-workshops on the topic - they will happen in several Western European cities in
+workshops on the topic.
+The first part is for
+people who want to learn
+setting up a mail server
+based on [the new guide](serverguide).
+After that,
+we invite everyone who wants to try out Delta Chat
+to a quick session with the new mail servers!
+
+The workshops will happen in several Western European cities in
 the next months:
 
 - `2023-02-04/05`: [OFFDEM](https://ps.zoethical.org/pub/offdem-ozone-cfp), Brussels
