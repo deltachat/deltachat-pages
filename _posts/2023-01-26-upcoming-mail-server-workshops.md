@@ -26,11 +26,13 @@ and uses a minimal part of the [ReST HTTP API of mailcow](https://mailcow.docs.a
 Mailadm allows an admin group to create and hand out "tokens" (URLs with a secret number) 
 to users who just need to scan one QR code and are logged in automatically.
 
-And now we want to help others with hosting this combination of tools. Today,
-we published [a guide on this website](serverguide), which you can use to setup
-a mail server of your own, together with mailadm as easy account creation tool
-to bring your friends and family to Delta Chat. [Check it out](serverguide),
-and [send us your feedback](mailto:mailadm@testrun.org) about it!
+With this blogpost,
+we also published [a new guide](serverguide)
+which you can use to setup a mail server of your own,
+together with mailadm as easy account creation tool
+to bring your friends and family to Delta Chat.
+We are happy about [any feedback](mailto:mailadm@testrun.org)
+about our [mail server and mailadm installation instructions](serverguide)!
 
 ## Upcoming Workshops
 
