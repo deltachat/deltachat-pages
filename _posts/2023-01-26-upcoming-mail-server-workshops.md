@@ -5,22 +5,26 @@ image: ../assets/blog/mailcow-UI-login.png
 ---
 
 Every once in a while we get asked what mail server is best suited for Delta
-Chat. In short - most mail servers will work well, and it depends more on your
+Chat. In short - most mail servers will work well, and reliability depends more on their
 IP reputation and configuration parameters like spam checking, rate limits, and
-attachment size how well it works with Delta Chat. But the mail server we found
-the easiest to manage is [Mailcow](https://mailcow.email).
+attachment size how well it works with Delta Chat. 
+One feature-complete mail-server we have successfully worked with successfully is  [Mailcow](https://mailcow.email).
 
 Mailcow takes some long-standing Free Software tools like postfix, dovecot, and
 rspamd, wraps them into a present through docker, and ties a ribbon around it
 with a neat web interface which abstracts many complex config parameters away
-from you. This way, you can't do much damage with a misconfigured postfix; but
+from you. This way, you can't easily end up with a misconfigured postfix; but
 if you still need to tweak postfix for a specfic use case, you can manually
 edit the postfix config files in the docker container.
 
-We are quite amazed by Mailcow and even changed our
-[mailadm](https://mailadm.readthedocs.io/) account creation tool to work with
-mailcow instead of postfix/dovecot. Mailadm makes it easy to create accounts
-for Delta Chat, the users just need to scan one QR code and are logged in.
+
+We implemented an automated e-mail account management tool
+to help admins give out accounts to users, 
+both random short-lived ("burner") or longer-living accounts. 
+[Mailadm](https://mailadm.readthedocs.io/) is implemented in Python 
+and uses a minimal part of the [ReST HTTP API of mailcow](https://mailcow.docs.apiary.io/#).
+Mailadm allows an admin group to create and hand out "tokens" (URLs with a secret number) 
+to users who just need to scan one QR code and are logged in automatically.
 
 And now we want to help others with hosting this combination of tools. Today,
 we published [a guide on this website](serverguide), which you can use to setup
