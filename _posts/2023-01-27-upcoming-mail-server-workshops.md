@@ -8,7 +8,7 @@ Every once in a while we get asked what mail server is best suited for Delta
 Chat. In short - most mail servers will work well, and reliability depends more on their
 IP reputation and configuration parameters like spam checking, rate limits, and
 attachment size how well it works with Delta Chat. 
-One feature-complete mail-server we have successfully worked with successfully is  [Mailcow](https://mailcow.email).
+One feature-complete mail-server we have successfully worked with is  [Mailcow](https://mailcow.email).
 
 Mailcow takes some long-standing Free Software tools like postfix, dovecot, and
 rspamd, and wraps them in a docker-compose deployment
