@@ -11,7 +11,7 @@ attachment size how well it works with Delta Chat.
 One feature-complete mail-server we have successfully worked with successfully is  [Mailcow](https://mailcow.email).
 
 Mailcow takes some long-standing Free Software tools like postfix, dovecot, and
-rspamd, wraps them into a present through docker, and ties a ribbon around it
+rspamd, and wraps them in a docker-compose deployment
 with a neat web interface which abstracts many complex config parameters away
 from you. This way, you can't easily end up with a misconfigured postfix; but
 if you still need to tweak postfix for a specfic use case, you can manually
