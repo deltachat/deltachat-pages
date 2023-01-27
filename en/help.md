@@ -307,9 +307,11 @@ If you are not near the chat partner, you can check the status manually in the "
 - If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
 
 
-### How can I ensure every message is encrypted, and metadata deleted as quickly as possible?
+### How can I ensure message encryption and deletion?
 
-The best way to do that is creating a verified group and turning on
+The best way to ensure every message is encrypted,
+and metadata deleted as quickly as possible
+is creating a verified group and turning on
 self-destructing messages.
 
 Verified groups are always encrypted and protected against [MITM
