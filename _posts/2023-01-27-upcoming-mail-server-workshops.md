@@ -46,7 +46,9 @@ we invite everyone who wants to try out Delta Chat
 to a quick session with the new mail servers!
 
 The workshops will happen in several Western European cities in
-the next months:
+the next months -
+if you want to attend and need more information,
+[ask us for details](mailto:mailadm@testrun.org)!
 
 - `2023-02-04/05`: [OFFDEM](https://ps.zoethical.org/pub/offdem-ozone-cfp), Brussels
 - `2023-02-10`: [LAG](https://radar.squat.net/en/event/amsterdam/lag/2023-02-10/lag-social-evening), Amsterdam
