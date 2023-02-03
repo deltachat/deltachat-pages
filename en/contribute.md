@@ -35,4 +35,4 @@ We typically offer 20-30 hours per week contracts or employments (if based in ge
 Please don't hesitate to reach out (delta at merlinux eu)
 if you are interested to help our efforts!
 
-For more background we recommend to read and follow our (blog)[https://delta.chat/en/blog].
+For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
