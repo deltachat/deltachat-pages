@@ -341,7 +341,7 @@ local3.*        /dev/null
 ```
 
 Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
-`sudo docker-compose up -d`.
+`sudo docker compose up -d`.
 
 Consider looking at the [Mailcow logging
 documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
