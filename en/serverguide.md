@@ -318,11 +318,11 @@ Add the following lines to each container in
 `mailcow-dockerized/docker-compose.yml`:
 
 ```
-    logging:
-      driver: "syslog"
-      options:
-        syslog-address: "udp://127.0.0.1:514"
-        syslog-facility: "local3"
+      logging:
+        driver: "syslog"
+        options:
+          syslog-address: "udp://127.0.0.1:514"
+          syslog-facility: "local3"
 ```
 
 Now you can configure rsyslog to listen on that port for log input. Uncomment
