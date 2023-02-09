@@ -307,6 +307,21 @@ This way, mailadm is only reachable from the outside via nginx, which is more
 robust against denial of service attacks than gunicorn (the mailadm built-in web
 server).
 
+## Optional: Disable POP3
+
+Delta Chat uses only SMTP and IMAP,
+so if all of your users use Delta Chat,
+you can disable POP3.
+
+To do this, add the following to `mailcow.conf`:
+
+```
+POP_PORT=127.0.0.1:110
+POPS_PORT=127.0.0.1:995
+```
+
+Then apply the changes with `sudo docker-compose up -d`.
+
 ## Optional: No Logs, No Masters
 
 Mailcow logs the IP addresses of your users for debugging purposes, so if you
