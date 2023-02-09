@@ -122,8 +122,11 @@ After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`
 ### Mailadm NGINX config
 
 `mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So add `mailadm.example.org` to `data/conf/nginx/server_name.active`,
-then add the following block to `data/conf/nginx/site.mailadm.custom`:
+work. So first create the file `data/conf/nginx/server_name.active` and write
+`mailadm.example.org` to it - this means that nginx will listen to requests for
+this domain.
+
+Then add the following block to `data/conf/nginx/site.mailadm.custom`:
 
 ```
   location /new_email {
@@ -132,6 +135,9 @@ then add the following block to `data/conf/nginx/site.mailadm.custom`:
 ```
 
 Make sure to replace this example IP address with your server's IP address.
+
+This will forward all requests to `mailadm.example.org/new_email` to the mailadm
+container later.
 
 ### Download mailcow containers
 
