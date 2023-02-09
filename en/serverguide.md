@@ -320,7 +320,7 @@ POP_PORT=127.0.0.1:110
 POPS_PORT=127.0.0.1:995
 ```
 
-Then apply the changes with `sudo docker-compose up -d`.
+Then apply the changes with `sudo docker compose up -d`.
 
 ## Optional: No Logs, No Masters
 
