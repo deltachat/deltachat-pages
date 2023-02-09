@@ -322,6 +322,38 @@ POPS_PORT=127.0.0.1:995
 
 Then apply the changes with `sudo docker compose up -d`.
 
+## Optional: Redirect all HTTP traffic to HTTPS
+
+By default,
+the nginx server also responds unencrypted
+on port 80.
+This can be bad,
+as some users might enter passwords
+over this unencrypted connection.
+
+To prevent this,
+create a new file `data/conf/nginx/redirect.conf`
+and add the following server config to the file:
+
+```
+server {
+  root /web;
+  listen 80 default_server;
+  listen [::]:80 default_server;
+  include /etc/nginx/conf.d/server_name.active;
+  if ( $request_uri ~* "%0A|%0D" ) { return 403; }
+  location ^~ /.well-known/acme-challenge/ {
+    allow all;
+    default_type "text/plain";
+  }
+  location / {
+    return 301 https://$host$uri$is_args$args;
+  }
+}
+```
+
+Then apply the changes with `sudo docker compose restart nginx-mailcow`.
+
 ## Optional: No Logs, No Masters
 
 Mailcow logs the IP addresses of your users for debugging purposes, so if you
