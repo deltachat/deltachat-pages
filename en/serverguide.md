@@ -299,6 +299,7 @@ You can setup ufw as a firewall to protect mailadm against DoS attacks:
 sudo apt install -y ufw
 sudo ufw default allow incoming
 sudo ufw deny 3691
+sudo ufw deny 4190
 sudo ufw enable
 ```
 
