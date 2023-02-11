@@ -109,7 +109,7 @@ Choose the Branch with it´s number [1/2] 1
 You should specify the following variables in mailcow.conf:
 
 ```
-ADDITIONAL_SAN=mailadm.example.org`
+ADDITIONAL_SAN=mailadm.example.org
 SKIP_CLAMD=y
 SKIP_SOLR=y
 SKIP_SOGO=y
