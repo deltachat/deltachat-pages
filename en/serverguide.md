@@ -291,22 +291,6 @@ Best look at the documentation for the [first
 steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
 contains hints for troubleshooting the setup if something doesn't work.
 
-## Optional: Protect mailadm against DoS attacks with ufw
-
-You can setup ufw as a firewall to protect mailadm against DoS attacks:
-
-```
-sudo apt install -y ufw
-sudo ufw default allow incoming
-sudo ufw deny 3691
-sudo ufw deny 4190
-sudo ufw enable
-```
-
-This way, mailadm is only reachable from the outside via nginx, which is more
-robust against denial of service attacks than gunicorn (the mailadm built-in web
-server).
-
 ## Optional: Disable POP3
 
 Delta Chat uses only SMTP and IMAP,
