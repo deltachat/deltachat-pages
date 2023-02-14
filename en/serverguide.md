@@ -63,15 +63,19 @@ Let's assume:
 
 Now you could configure the domain settings for example.org like this:
 
-```
-A	mail		24.48.100.24		5min
-AAAA    mail		7fe5:2f4:1ba:2381::3	5min
-MX	@		mail			5min	priority: 10
-CNAME	autoconfig	mail			5min
-CNAME	autodiscover	mail			5min
-CNAME	mailadm		mail			5min
-TXT	@		"v=spf1 mx -all"	5min
-```
+| Type  | Name            | Data                                               | TTL  | Priority |
+|-------|-----------------|----------------------------------------------------|------|----------|
+| A     | mail            | 24.48.100.24                                       | 5min |          |
+| AAAA  | mail            | 7fe5:2f4:1ba:2381::3                               | 5min |          |
+| MX    | @               | mail.example.org                                   | 5min |    10    |
+| CNAME | autoconfig      | mail.example.org                                   | 5min |          |
+| CNAME | autodiscover    | mail.example.org                                   | 5min |          |
+| CNAME | mailadm         | mail.example.org                                   | 5min |          |
+| TXT   | @               | "v=spf1 mx -all"                                   | 5min |          |
+| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:admin@example.org | 5min |          |
+| TXT   | dkim._domainkey | 7fe5:2f4:1ba:2381::3                               | 5min |          |
+
+You can setup dkim key after setting up mailcow in System>Configuration>Options>ARC/DKIM keys
 
 You can do more than 5 minutes, but in case you notice something is wrong a
 short time helps with fixing the wrong entry.
