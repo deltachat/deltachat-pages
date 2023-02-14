@@ -122,8 +122,11 @@ After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`
 ### Mailadm NGINX config
 
 `mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So add `mailadm.example.org` to `data/conf/nginx/server_name.active`,
-then add the following block to `data/conf/nginx/site.mailadm.custom`:
+work. So first create the file `data/conf/nginx/server_name.active` and write
+`mailadm.example.org` to it - this means that nginx will listen to requests for
+this domain.
+
+Then add the following block to `data/conf/nginx/site.mailadm.custom`:
 
 ```
   location /new_email {
@@ -132,6 +135,9 @@ then add the following block to `data/conf/nginx/site.mailadm.custom`:
 ```
 
 Make sure to replace this example IP address with your server's IP address.
+
+This will forward all requests to `mailadm.example.org/new_email` to the mailadm
+container later.
 
 ### Download mailcow containers
 
@@ -285,20 +291,52 @@ Best look at the documentation for the [first
 steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
 contains hints for troubleshooting the setup if something doesn't work.
 
-## Optional: Protect mailadm against DoS attacks with ufw
+## Optional: Disable POP3
 
-You can setup ufw as a firewall to protect mailadm against DoS attacks:
+Delta Chat uses only SMTP and IMAP,
+so if all of your users use Delta Chat,
+you can disable POP3.
+
+To do this, add the following to `mailcow.conf`:
 
 ```
-sudo apt install -y ufw
-sudo ufw default allow incoming
-sudo ufw deny 3691
-sudo ufw enable
+POP_PORT=127.0.0.1:110
+POPS_PORT=127.0.0.1:995
 ```
 
-This way, mailadm is only reachable from the outside via nginx, which is more
-robust against denial of service attacks than gunicorn (the mailadm built-in web
-server).
+Then apply the changes with `sudo docker compose up -d`.
+
+## Optional: Redirect all HTTP traffic to HTTPS
+
+By default,
+the nginx server also responds unencrypted
+on port 80.
+This can be bad,
+as some users might enter passwords
+over this unencrypted connection.
+
+To prevent this,
+create a new file `data/conf/nginx/redirect.conf`
+and add the following server config to the file:
+
+```
+server {
+  root /web;
+  listen 80 default_server;
+  listen [::]:80 default_server;
+  include /etc/nginx/conf.d/server_name.active;
+  if ( $request_uri ~* "%0A|%0D" ) { return 403; }
+  location ^~ /.well-known/acme-challenge/ {
+    allow all;
+    default_type "text/plain";
+  }
+  location / {
+    return 301 https://$host$uri$is_args$args;
+  }
+}
+```
+
+Then apply the changes with `sudo docker compose restart nginx-mailcow`.
 
 ## Optional: No Logs, No Masters
 
