@@ -2,6 +2,9 @@
 title: New Guide for Setting up Mail Servers for Delta Chat - and Upcoming Workshops!
 author: missytake, brabo
 image: ../assets/blog/mailcow-UI-login.png
+host: chaos.social
+username: delta
+com_id: 109761861452626888
 ---
 
 Every once in a while we get asked what mail server is best suited for Delta
