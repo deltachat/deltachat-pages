@@ -6,6 +6,8 @@
 <div id="comments-list"></div>
 <noscript><p>You need JavaScript to view comments here.</p></noscript>
 <p><a id="load-comment" class="comment-button">Show Comments</a></p>
+<p><br>You can reply on any Fediverse (Mastodon, Pleroma, etc.) website or app by pasting this URL into the search field of your client:<br>
+<pre><a href='https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}' target='_blank'>https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}</a></pre>
 <script src="../assets/js/purify.js"></script>
 <script>
     document.getElementById('load-comment').addEventListener("click", async () => {
@@ -27,15 +29,6 @@
 	    commentError.innerText = 'No Mastodon comments yet';
             commentsList.appendChild();
         }
-	let pleaseReply = document.createElement('p');
-	pleaseReply.innerHTML = '<br>You can reply on any Fediverse (Mastodon, Pleroma, etc.) website or app by pasting this URL into the search field of your client:<br>';
-	let replyLinkPre = document.createElement('pre');
-	let replyLink = document.createElement('a');
-	replyLink.setAttribute('href','https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}');
-	replyLink.innerText = 'https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}';
-	replyLinkPre.appendChild(replyLink);
-	pleaseReply.appendChild(replyLinkPre);
-	commentsList.appendChild(pleaseReply);
     });
 
     function createCommentEl(response){
