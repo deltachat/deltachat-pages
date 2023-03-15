@@ -5,7 +5,13 @@
 <div id="comments-list"></div>
 <noscript><p>You need JavaScript to view comments here.</p></noscript>
 <a id="load-comment">Load comments</a> 
-<a href="https://{{ mastodon_instance }}/interact/{{ page.com_id }}?=type=reply">Reply via Mastodon</a><br>
+<details>
+    <summary>Reply via Fediverse</summary>
+    <p>You can reply on any Fediverse (Mastodon, Pleroma, etc.) client by pasting this URL into the search field of your client:
+        <br>
+        <pre><a href="https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}">https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}</a></pre>
+    </p>
+</details>
 <script src="../assets/js/purify.js"></script>
 <script>
     document.getElementById('load-comment').addEventListener("click", async () => {
