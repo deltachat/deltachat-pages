@@ -2,6 +2,7 @@
 title: "Delta Chat Released for iPhones and iPads - Get it Now at the iOS Appstore!"
 author: compl4xx
 image: ../assets/blog/screenshots/2020-01-09-delta-chat-iOS-appstore-chat-list.jpg
+com_id: 103459387798382023
 ---
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="270" style="float: right; margin: 10px;display: block;" /> 

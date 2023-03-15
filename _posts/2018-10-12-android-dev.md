@@ -2,6 +2,7 @@
 title: Delta Chat android-dev state
 author: daniel, florian, bjoern
 image: ../assets/blog/20181012-android-dev.jpg
+com_id: 100885292996534052
 ---
 
 We're currently working on a new Android App for Delta Chat,

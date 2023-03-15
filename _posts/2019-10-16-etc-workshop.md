@@ -2,6 +2,7 @@
 title: Women and Nonbinary People Learning how to Install Mail Servers - Delta Chat at /ETC
 author: compl4xx
 image: ../assets/blog/20191021-delta-chat-etc-workshop-group-photo.jpg
+com_id: 103011213663399684
 ---
 
 Recently, I had the chance to attend the [Eclectic Tech Carnival

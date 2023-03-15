@@ -2,6 +2,7 @@
 title: Saving Network Traffic - Delta's Efforts to Reduce the Message Size
 author: compl4xx
 image: ../assets/blog/screenshots/2020-03-10-delta-chat-message-size-wifi-charger.jpg
+com_id: 103804536369030483
 ---
 
 **In the last months, the Delta Chat developers put a lot of focus on saving

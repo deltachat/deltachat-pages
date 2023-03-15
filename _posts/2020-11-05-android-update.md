@@ -2,6 +2,7 @@
 title: Swipe to Reply and other Android News
 author: bjoern
 image: ../assets/blog/2020-11-swipe-to-reply.jpg
+com_id: 105165541171654876
 ---
 
 Cold November? No! After many weeks of development and testing,

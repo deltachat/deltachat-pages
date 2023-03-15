@@ -2,6 +2,7 @@
 title: What Makes a Good E-Mail Provider? Let's find out :) 
 author: missytake, jette, holga
 image: ../assets/blog/eppd-criteria-final.jpg
+com_id: 106914478580054923
 ---
 
 What provider should I use for Delta Chat?  We hear this question often but it's not so easy to answer. Everyone has different needs and situations. So how to go about this? 
