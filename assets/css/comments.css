@@ -18,6 +18,8 @@ div.comment-content{
   border-style: solid;
   border-radius: 20px;
   padding: 0.5em;
+  background-color: #eee;
+  background-image: linear-gradient(120deg, #f3f3f3, #eee);
 }
 
 .comment-author{
@@ -67,3 +69,14 @@ div.comment-content .comment-date{
     }
 }
 
+.comment-button, .comment-button:hover {
+	border: 1.5px solid #d7d7d7;
+	border-radius: 7px;
+	padding: 10px;
+	display: inline-block;
+	margin: 10px 0;
+
+	background: linear-gradient(120deg, #f3f3f3, #d7d7d7);
+	color: black !important;
+	font-size: 20px;
+}
