@@ -41,9 +41,8 @@ Testing changes
 
 - If you get Ruby dependency problems, you can also build the page in a docker
   container:  
-  ```sudo docker run -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"```  
-  But the links will not work, so you need to open the pages one after the other.
-  You can find them in the `_site` subdirectory.
+  ```sudo docker run -i -p 4000:4000 -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll serve"```  
+  You can open the page in the browser at https://localhost:4000.
 
 Directory structure
 --------------------------------------------------------------------------------
