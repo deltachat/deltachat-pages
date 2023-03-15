@@ -2,6 +2,7 @@
 title: Releases, Disappearing messages and Video chats
 author: bjoern
 image: ../assets/blog/2020-07-scan-videochat-provider.jpg
+com_id: 104614332734673769
 ---
 
 Summer is there - and also a **new round of Delta Chat releases**.

@@ -2,6 +2,7 @@
 title: Delta Features for May - ECC Keys, Autodelete Messages, Scan QR Codes With Desktop
 author: compl4xx
 image: ../assets/blog/screenshots/2020-05-06-delta-chat-desktop-scan-qr-code.jpg
+com_id: 104241423904856714
 ---
 
 **New Delta chat releases! Thanks to all the early testers and all the work

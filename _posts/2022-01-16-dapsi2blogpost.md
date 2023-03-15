@@ -2,6 +2,7 @@
 title: Which e-mail providers work well with Delta Chat? Quite some :) 
 author: missytake, jette, holga
 image: ../assets/blog/2022-01-19-eppd-table.png
+com_id: 107655069129440088
 ---
 
 In the last couple of months we engaged with comparing around 20 international e-mail providers, based on our [earlier research into comparison criteria](https://delta.chat/en/2021-09-11-eppd-provider-criteria). These efforts were part of our [EPPD](https://dapsi.ngi.eu/hall-of-fame/eppd/) project funded by the EU. 

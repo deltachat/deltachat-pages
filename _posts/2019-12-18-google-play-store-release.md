@@ -2,6 +2,7 @@
 title: Delta Chat 1.0 with new features, more robust, faster and more secure 
 author: compl4xx, holga, janka (drawing), treefit (rust-delta)
 image: ../assets/blog/delta-xmas.jpg
+com_id: 103341314835477235
 ---
 
 <img src="../assets/blog/delta-xmas.jpg" width="150" style="float: left; margin: 10px;display: block;" /> 

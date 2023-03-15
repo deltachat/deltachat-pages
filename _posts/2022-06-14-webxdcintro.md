@@ -2,6 +2,7 @@
 title: Sharing web apps in a chat 
 author: holga, rosano, r10s
 image: ../assets/logos/webxdc.png
+com_id: 108487984933980780
 ---
 
 <img src="../assets/logos/webxdc2.png" style="width:160px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Webxdc Logo" />

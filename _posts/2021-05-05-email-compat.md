@@ -2,6 +2,7 @@
 title: E-mail compatibility releases
 author: bjoern
 image: ../assets/blog/2021-05-html-mail.jpg
+com_id: 106220876204231707
 ---
 
 The current releases make
