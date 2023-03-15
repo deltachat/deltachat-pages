@@ -17,6 +17,7 @@ div.comment-content{
   border-width: 1px;
   border-style: solid;
   border-radius: 20px;
+  border-color: #d7d7d7;
   padding: 0.5em;
   background-color: #eee;
   background-image: linear-gradient(120deg, #f3f3f3, #eee);
