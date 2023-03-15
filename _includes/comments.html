@@ -1,14 +1,16 @@
+{% assign mastodon_instance = "chaos.social" %}
+{% assign mastodon_user = "delta" %}
 <link rel="stylesheet" href="../assets/css/comments.css">
 <div class="article-content">
 <div id="comments-list"></div>
 <noscript><p>You need JavaScript to view comments here.</p></noscript>
 <a id="load-comment">Load comments</a> 
-<a href="https://chaos.social/interact/109517627964019902?=type=reply">Reply via Mastodon</a><br>
+<a href="https://{{ mastodon_instance }}/interact/{{ page.com_id }}?=type=reply">Reply via Mastodon</a><br>
 <script src="../assets/js/purify.js"></script>
 <script>
     document.getElementById('load-comment').addEventListener("click", async () => {
         document.getElementById('load-comment').remove();
-        const response = await fetch('https://chaos.social/api/v1/statuses/109517627964019902/context');
+		    const response = await fetch('https://{{ mastodon_instance }}/api/v1/statuses/{{ page.com_id }}/context');
         const data = await response.json();
         let commentsList = document.getElementById('comments-list');
         if (data.descendants && data.descendants.length > 0) {
