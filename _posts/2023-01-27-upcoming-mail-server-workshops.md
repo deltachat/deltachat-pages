@@ -2,8 +2,6 @@
 title: New Guide for Setting up Mail Servers for Delta Chat - and Upcoming Workshops!
 author: missytake, brabo
 image: ../assets/blog/mailcow-UI-login.png
-host: chaos.social
-username: delta
 com_id: 109761861452626888
 ---
 
@@ -57,5 +55,3 @@ if you want to attend and need more information,
 - `2023-02-10`: [LAG](https://radar.squat.net/en/event/amsterdam/lag/2023-02-10/lag-social-evening), Amsterdam
 - `2023-02-23` - `2023-02-26`: [Winter University](https://pretalx.lebib.org/universit-d-hiver-2022), Montpellier
 - `2023-03-31` - `2023-04-02`: [Newline](https://hackerspace.gent/newline/2023/), Gent
-
-{% include comments.html %}

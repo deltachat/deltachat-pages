@@ -61,6 +61,10 @@
 
 
 {% if page.is_post == true %}
+{% if page.com_id %}
+{% include comments.html %}
+{% endif %}
+
 <p class="menulike">
 {% if page.previous.url %}<a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> |{% endif %}
 <a href="blog">Index</a>
