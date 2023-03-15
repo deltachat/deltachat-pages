@@ -2,8 +2,9 @@ img.avatar{
   display: inline-block;
   flex; 0 0 64px;
   opacity: 0.9;
-  border-radius: 20%;
   float: left;
+  border-radius: 30%;
+  padding: 15px;
   /*margin: .2rem .5rem;*/
   /*margin-top: 1rem;*/
   /*margin-right: 1rem;*/
@@ -11,8 +12,12 @@ img.avatar{
 }
 
 div.comment-content{
-    align-items: center;
-    min-height: 64px;
+  align-items: center;
+  min-height: 64px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 0.5em;
 }
 
 .comment-author{
@@ -39,6 +44,8 @@ div.comment-content{
     /*padding-bottom: .4rem;*/
     /*padding-right: 25px;*/
     padding-bottom: .6rem;
+    padding-right: .6rem;
+    padding-left: 80px;
 }
 
 div.mastodon-username{
