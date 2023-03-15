@@ -4,7 +4,8 @@
 <div class="article-content">
 <div id="comments-list"></div>
 <noscript><p>You need JavaScript to view comments here.</p></noscript>
-<a id="load-comment">Load comments</a> 
+<br><br>
+<p><a id="load-comment" class="mastodon">Load comments</a></p>
 <details>
     <summary>Reply via Fediverse</summary>
     <p>You can reply on any Fediverse (Mastodon, Pleroma, etc.) client by pasting this URL into the search field of your client:
@@ -12,6 +13,7 @@
         <pre><a href="https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}">https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}</a></pre>
     </p>
 </details>
+<br>
 <script src="../assets/js/purify.js"></script>
 <script>
     document.getElementById('load-comment').addEventListener("click", async () => {
@@ -20,7 +22,7 @@
         const data = await response.json();
         let commentsList = document.getElementById('comments-list');
         if (data.descendants && data.descendants.length > 0) {
-	    let commentsHeadline = document.createElement('h3');
+	    let commentsHeadline = document.createElement('h2');
 	    commentsHeadline.innerText = 'Mastodon Comments';
 	    commentsList.appendChild(commentsHeadline);
             let descendants = data.descendants;
@@ -30,7 +32,7 @@
         }
         else {
 	    let commentError = document.createElement('p');
-	    commentError.innerText = '⚠️ No Mastodon comments yet ⚠️ ';
+	    commentError.innerText = 'No Mastodon comments yet';
             commentsList.appendChild();
         }
     });
