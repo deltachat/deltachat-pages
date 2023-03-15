@@ -2,12 +2,10 @@
 {% assign mastodon_user = "delta" %}
 <link rel="stylesheet" href="../assets/css/comments.css">
 <div class="article-content">
+<br>
 <div id="comments-list"></div>
 <noscript><p>You need JavaScript to view comments here.</p></noscript>
-<br><br>
-<p><a id="load-comment" class="mastodon">Show Comments</a></p>
-
-<br>
+<p><a id="load-comment" class="comment-button">Show Comments</a></p>
 <script src="../assets/js/purify.js"></script>
 <script>
     document.getElementById('load-comment').addEventListener("click", async () => {
