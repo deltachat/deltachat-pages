@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/css/comments.css">
+<link rel="stylesheet" href="../assets/css/comments.css">
 <div class="article-content">
 <div id="comments-list"></div>
 <noscript><p>You need JavaScript to view comments here.</p></noscript>
@@ -40,8 +40,8 @@
         userLink.setAttribute('href',response.account.url);
         userLink.classList.add('comment-author');
         for (let j = 0; j < response.account.emojis.length;j++){
-        let emoji = response.account.emojis[j];
-        response.account.display_name = response.account.display_name.replace(`:${emoji.shortcode}:`, `<img src="${emoji.static_url}" alt="Emoji ${emoji.shortcode}" height="16px" width="16px" />`);
+            let emoji = response.account.emojis[j];
+            response.account.display_name = response.account.display_name.replace(`:${emoji.shortcode}:`, `<img src="${emoji.static_url}" alt="Emoji ${emoji.shortcode}" height="16px" width="16px" />`);
         }
         userLink.innerHTML = response.account.display_name + ' @' + response.account.username;
     
