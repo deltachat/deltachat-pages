@@ -30,7 +30,7 @@
             commentsList.appendChild();
         }
 	let pleaseReply = document.createElement('p');
-	pleaseReply.innerHTML = '<br>You can reply on any Fediverse (Mastodon, Pleroma, etc.) client by pasting this URL into the search field of your client:<br>';
+	pleaseReply.innerHTML = '<br>You can reply on any Fediverse (Mastodon, Pleroma, etc.) website or app by pasting this URL into the search field of your client:<br>';
 	let replyLinkPre = document.createElement('pre');
 	let replyLink = document.createElement('a');
 	replyLink.setAttribute('href','https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}');
