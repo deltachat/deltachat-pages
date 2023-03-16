@@ -17,7 +17,7 @@
         let commentsList = document.getElementById('comments-list');
         if (data.descendants && data.descendants.length > 0) {
 	    let commentsHeadline = document.createElement('h2');
-	    commentsHeadline.innerText = 'Mastodon Comments';
+	    commentsHeadline.innerText = 'Comments';
 	    commentsList.appendChild(commentsHeadline);
             let descendants = data.descendants;
             for (let i = 0; i < descendants.length; i++) {
