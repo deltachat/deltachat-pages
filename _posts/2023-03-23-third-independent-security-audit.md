@@ -57,6 +57,8 @@ though most of them couldn't be used to do any serious damage.
 
 All in all,
 the review noted
-"a positive impression following the completion of this review, particularly relating to strong SSL/TLS encryption, the mail server, and client library, which have all made excellent progress toward offering a first- rate framework from a security perspective."
+"a positive impression following the completion of this review, particularly relating to strong SSL/TLS encryption, the mail server, and client library, which have all made excellent progress toward offering a first-rate framework from a security perspective."
 We are proud to hear that!
-
+ 
+You can read the full report here:
+[cure53: Pentest-Report Delta Chat Mail-Server Template & Libraries 02.2023](../assets/blog/MER-01-report.pdf)
