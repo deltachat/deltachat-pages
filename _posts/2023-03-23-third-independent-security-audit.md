@@ -44,13 +44,16 @@ though most of them couldn't be used to do any serious damage.
   This is something we are already working on.
 - They also found ways to mess with mailadm commands,
   though luckily you'd need to be an admin already to execute them.
-  We fixed them nevertheless,
+  [We fixed them nevertheless](https://github.com/deltachat/mailadm/pull/110),
   of course.
 - They did find one issue in mailcow [which was classified as high](https://github.com/mailcow/mailcow-dockerized/security/advisories/GHSA-3j2f-wf52-cjg7);
   it was fixed in [mailcow's March update](https://github.com/mailcow/mailcow-dockerized/releases/tag/2023-03).
   So if you are running an outdated mailcow instance,
   you should update it soon
   to fix the issue!
+- Apart from these,
+  they found three minor issues,
+  which we all fixed.
 
 All in all,
 the review noted
