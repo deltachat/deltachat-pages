@@ -29,12 +29,8 @@ recipient to install the same app as yours, as with other messengers.
 - You do not distribute your address book to anyone.
 - _Fast_ by the use of Push-IMAP.
 - _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _Compatible_ - not only to itself.
-- _Elegant_ and _simple_ user interface.
-- _Distributed_ system.
 - _No Spam_ - only messages of known users are shown by default.
-- _Reliable_ - safe for professional use.
-- _Trustworthy_ - can even be used for business messages.
+- _End-to-end-encryption_ via Autocrypt.
 - _Copyleft_ and _Standards_ based libre software.
 
 
