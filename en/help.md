@@ -76,6 +76,8 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
 
+- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original dimensions and metadata.
+
 
 ### Who sees my profile picture?
 
