@@ -152,7 +152,7 @@ Use these tools to organize your chats and keep everything in its place:
 - **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
 
 - **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+  Archived chats remain accessible above the chat list or via search. 
 
 - When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
   **Muted chats stay archived** until you unarchive them manually.
