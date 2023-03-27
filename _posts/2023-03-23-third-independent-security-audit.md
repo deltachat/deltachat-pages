@@ -24,7 +24,7 @@ Here, we are in the lucky situation that one of our core contributors is of the 
 who can implement cryptographic algorithms and get the result to pass security audits, 
 with one key implementation part moved into the [RustCrypto/RSA](https://github.com/RustCrypto/RSA)
 community repository. 
-We've [said it before](https://delta.chat/en/2022-12-15-uidevjob#our-rust-core-architecture-tm-and-its-ui-bindings) 
+We've [said it before](2022-12-15-uidevjob#our-rust-core-architecture-tm-and-its-ui-bindings) 
 that Rust is not only an excellent language to code networking and cryptographic implementations in
 but also allows for safe and large-scale development collaboration, 
 raising the quality for everyone and for what we can offer through Delta Chat apps. 
