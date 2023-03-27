@@ -2,6 +2,7 @@
 title: Good news from security audits, past and present
 author: missytake, holga
 image: ../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg
+com_id: 110096123048962714
 ---
 
 In case you wonder how safe Delta Chat's core messaging implementation and server guides is, 
