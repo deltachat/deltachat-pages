@@ -1,6 +1,6 @@
 ---
 title: Good news from a recent and two past security audits!
-author: missytake,holga
+author: missytake, holga
 image: ../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg
 ---
 
