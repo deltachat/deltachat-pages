@@ -722,6 +722,7 @@ years:
   It also revealed one medium-severity and some less severe issues,
   but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
   Some of them we nevertheless fixed since the audit was concluded.
+  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
 - In 2020, [Include Security](https://includesecurity.com) analyzed Delta
   Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
   [IMAP](https://github.com/async-email/async-imap),
@@ -734,10 +735,12 @@ years:
   For usability and compatibility reasons,
   we can not mitigate all of them
   and decided to provide security recommendations to threatened users.
+  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
 - in 2023, [cure53](https://cure53.de) analyzed both the transport encryption of
   Delta Chat's network connections and a reproducible mail server setup as
   [recommended on this site](serverguide).
   You can read more about the audit [on our blog](2023-03-23-third-independent-security-audit).
+  You can read the [full report here](../assets/blog/MER-01-report.pdf).
 
 ### How are Delta Chat developments funded? 
 
