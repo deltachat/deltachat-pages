@@ -51,7 +51,7 @@ can successfully setup safe mail server infrastructure when following our guide.
 
 Auditors from Cure53 found eight issues in total: 
 
-- (High) Mailcow [had a vulnerability in "IMAP-Sync" support](https://github.com/mailcow/mailcow-dockerized/security/advisories/GHSA-3j2f-wf52-cjg7)
+- (High) Mailcow had a [vulnerability in "IMAP-Sync" support](https://github.com/mailcow/mailcow-dockerized/security/advisories/GHSA-3j2f-wf52-cjg7)
   which was fixed in [mailcow's March 2023 update](https://github.com/mailcow/mailcow-dockerized/releases/tag/2023-03).
 
 - (Medium) Mailadm bot commands can be abused, 
