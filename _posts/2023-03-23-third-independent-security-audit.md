@@ -5,14 +5,15 @@ image: ../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg
 ---
 
 In case you wonder how safe Delta Chat's core messaging implementation and server guides is, 
-you may be interested in this this summary statement from a recent independent security audit: 
+you may be interested in the summary statement 
+from the recent independent security audit by [Cure53](https://cure53.de): 
 
     "... a positive impression following the completion of this review, 
     particularly relating to strong SSL/TLS encryption, the mail server, 
     and client library, which have all made excellent progress 
     toward offering a first-rate framework from a security perspective."
 
-You may [read the full audit report from Cure53](../assets/blog/MER-01-report.pdf)
+You may [read the full audit report](../assets/blog/MER-01-report.pdf)
 or read below for a quick summary. 
 
 We also took the opportunity to publish FAQ entries (finally!) about [two security audits in 2019 and 2020](help#was-delta-chat-independently-audited-for-security-vulnerabilities) by [Include Security](https://includesecurity.com), 
