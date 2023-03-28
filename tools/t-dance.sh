@@ -28,7 +28,7 @@ pull_po_translations_from_tx() {
 	#find ../_data/lang/ -type f -not -name 'en.*' -delete
 	rm -r translations || true
 	mkdir translations 
-	tx pull --translations --all --force
+	tx pull -f
 	for tlang in ${tlangs[@]}; do
 	  echo "Converting ${tlang} ..."
 	  for sfile in ${sfiles[@]}; do
