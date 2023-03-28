@@ -7,22 +7,22 @@ lang: it
 
 Per le interazioni della comunità su Delta Chat, leggi i nostri [Standard della community](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fediverse](https://chaos.social/web/@delta) per annunci e feedback.
 
-- With your Delta Chat app you can send a `/list` message to [a community
-  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
+- Con l'applicazione Delta Chat è possibile inviare un messaggio `/list` ad [un bot della comunità
+  (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) per scoprire e unirsi a vari gruppi di chat.
 
 - [Forum di supporto di Delta Chat](https://support.delta.chat) per un'ampia
  discussione sulle funzionalità e per ottenere supporto.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [repository di Delta Chat](https://github.com/deltachat/) dov'è possibile
+il codice delle applicazioni DeltaChat e di questo sito web.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Altri link si trovano in [cosmos](https://cosmos.delta.chat)
 
-[Donate Money](donate){: .cta-button}
+[Donate Soldi](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Traduzioni e segnalazioni di errori
 
 - [Traduzioni su Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problemi su Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -30,9 +30,9 @@ Per le interazioni della comunità su Delta Chat, leggi i nostri [Standard della
 - [Problemi su Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemi su Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
+Siamo sempre alla ricerca di sviluppatori e designer.
+In genere offriamo contratti o impieghi di 20-30 ore settimanali (se la sede è in Germania).
+Non esitate a contattarci (delta at merlinux eu)
+se siete interessati a contribuire ai nostri sforzi!
 
-For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+Per ulteriori approfondimenti si consiglia di leggere e seguire il nostro [blog](https://delta.chat/en/blog).

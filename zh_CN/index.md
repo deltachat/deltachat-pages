@@ -23,7 +23,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-[Download](https://get.delta.chat){: .cta-button}
+[下载](https://get.delta.chat){: .cta-button}
 
 Delta Chat 是[开源](https://en.wikipedia.org/wiki/Open-source_software)的[自由软件](https://en.wikipedia.org/wiki/Free_software)，构建于[互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)之上。 
 
