@@ -23,39 +23,35 @@ destinatario di installare la tua stessa app, come con altri messenger.
 
 ### Quali sono i vantaggi di Delta Chat rispetto ad altri messenger?
 
-- _Indipendente_ da qualsiasi azienda o servizio. _Tu_ possiedi i tuoi dati.
-- I tuoi dati non vengono salvati su un server centrale a meno che tutti gli utenti non stiano utilizzando
-gli stessi server di posta elettronica
-- Non distribuisci la tua rubrica a nessuno.
-- _Veloce_ tramite l'utilizzo di Push-IMAP.
-- _Base di utenti più ampia_ - è possibile raggiungere anche i destinatari _non_ che utilizzano Delta Chat.
-- _Compatibile_ - non solo con se stesso.
-- Interfaccia utente _elegante_ e _semplice_.
-- Sistema _Distribuito_.
-- _No Spam_ - per impostazione predefinita vengono mostrati solo i messaggi di utenti conosciuti.
-- _Attendibile_ - sicuro per uso professionale.
-- _Affidabile_ - può essere utilizzato anche per i messaggi aziendali.
-- Software libero basato su _Copyleft_ e _Standards_.
+- _Independent_ of any company or services. _You_ own your data.
+- Your data is not saved on a central server unless all users are using
+  the same e-mail servers
+- You do not distribute your address book to anyone.
+- _Fast_ by the use of Push-IMAP.
+- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
+- _No Spam_ - only messages of known users are shown by default.
+- _End-to-end-encryption_ via Autocrypt.
+- _Copyleft_ and _Standards_ based libre software.
+- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
 ### Quali messaggi vengono mostrati in Delta Chat?
 
-Per impostazione predefinita, Delta Chat mostra:
+By default, Delta Chat shows all e-mails.
 
-- Messaggi inviati da altri utenti di Delta Chat
-- Risposte ai tuoi messaggi di Delta Chat, anche se sono "normali e-mail".
+At "Settings -> Chats &
+Media -> Show Classic E-Mails", you can change this. You have these options:
 
-Per impostazione predefinita, le altre e-mail non vengono visualizzate nell'app. In "Impostazioni -> Chat e Media -> Mostra E-mail Tradizionali", puoi cambiarlo. Hai queste opzioni:
-
-- "No, solo chat": Vengono mostrati solo i messaggi inviati da altri utenti di Delta Chat e le risposte
-ai vostri messaggi di Delta Chat. Questa opzione ha senso se si utilizza lo stesso
-account di posta elettronica anche per le normali e-mail. Questa è l'impostazione predefinita.
-- "Si": Delta Chat mostra tutte le e-mail inviate al vostro indirizzo di posta elettronica. Questa
-opzione ha senso se si desidera utilizzare Delta Chat per tutte le e-mail, in modo che nessun messaggio
-vada perso.
-- "Per i contatti accettati": Delta Chat mostra tutti i messaggi e-mail dei contatti con i quali
-si ha già una chat, ma le nuove chat vengono visualizzate solo per i messaggi di Delta Chat.
-Questo aiuta a decidere, caso per caso, se si desidera conversare in Delta Chat o in una "normale" applicazione e-mail.
+- "No, chats only": Only messages sent by other Delta Chat users and replies to
+  your Delta Chat messages are shown. This makes most sense if you use the same
+  e-mail account for normal e-mails as well.
+- "All": Delta Chat shows all e-mails that are sent to your email address. This
+  makes sense if you want to use Delta Chat for all your e-mails, so no message
+  gets lost. This is the default setting.
+- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
+  you already have a chat, but new chats only pop up for Delta Chat messages.
+  This helps to decide on a case-by-case basis whether you want to have a
+  conversation in Delta Chat or in a "normal" e-mail app.
 
 
 ### Cosa succede se aspetto un messaggio da qualcuno a cui non ho scritto in passato?
@@ -74,6 +70,15 @@ messaggi da questa persona, prendete in considerazione la possibilità di *blocc
 
 - Sì. Oltre al testo normale, tutti gli allegati e-mail vengono visualizzati come messaggi separati. I messaggi in uscita ricevono automaticamente gli allegati necessari.
 
+- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+
+<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+
+You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
+- on the menu button and then 'Switch Account' (Android and desktop)
+- or the profile icon and then 'Add Account' (iOS)
+
+You may also wish to learn [how to add accounts to multiple devices](#can-i-use-delta-chat-on-multiple-devices-at-the-same-time).
 
 ### Chi vede la mia immagine del profilo?
 
@@ -147,8 +152,8 @@ Usa questi strumenti per organizzare le tue chat e tenere tutto in ordine:
 
 - **Silenzia chat** se non vuoi ricevere notifiche da queste. Le chat silenziate restano al loro posto e puoi anche fissare una chat silenziata.
 
-- **Archivia chat** se non vuoi più vederle nel tuo elenco. 
- In fondo all'elenco delle chat, nel menu o tramite la ricerca, puoi sempre accedere alle chat archiviate.
+- **Archive chats** if you do not want to see them in your chat list any longer.
+  Archived chats remain accessible above the chat list or via search. 
 
 - Quando una chat archiviata riceve un nuovo messaggio, a meno che non sia silenziata, **salterà fuori dall'archivio** e tornerà nell'elenco delle chat.
 **Le chat silenziate restano archiviate** fino a che non le estrai manualmente.
@@ -300,6 +305,30 @@ la connessione è sicura.
 - Un piccolo **lucchetto** mostrato accanto a un messaggio indica se il messaggio è crittografato end-to-end dal mittente specificato.
 
 - Se non c'è **nessun lucchetto**, il messaggio viene solitamente trasportato in chiaro, ad es. perché tu o il mittente avete disattivato la crittografia end-to-end oppure il mittente usa un'app senza supporto per la crittografia end-to-end.
+
+
+### How can I ensure message encryption and deletion?
+
+The best way to ensure every message is encrypted,
+and metadata deleted as quickly as possible
+is creating a verified group and turning on
+self-destructing messages.
+
+Verified groups are always encrypted and protected against [MITM
+attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+
+Metadata can't be encrypted, as the server needs to know where to deliver your
+messages. But turning on "self-destructing messages" deletes the messages on
+the server after they were delivered.
+
+If you need the messages on your device, but not on the server, you can also
+agree in the group to turn on ["delete messages from server
+automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+
+If you want to protect a 1:1 conversation like this, you should create a
+verified group with only 2 people. If the other person loses their device but
+not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+
 
 ### Quali standard vengono utilizzati per la crittografia end-to-end?
 
@@ -632,6 +661,14 @@ Tuttavia, alcuni provider necessitano di opzioni speciali per funzionare corrett
 vedi [Panoramica fornitore](https://providers.delta.chat)
 
 
+### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+
+- Most mail servers will work well. But what we personally recommend is a
+  combination of mailcow and mailadm, as described [in this
+  blogpost](2023-01-26-upcoming-mail-server-workshops).
+- You can find an [installation guide on our website](serverguide).
+
+
 ### Se Delta Chat utilizza l' E-Mail, è davvero una Messaggistica _Istantanea_?
 
 - L'invio e la ricezione dei messaggi richiedono generalmente alcuni secondi. Qualche volta
@@ -664,6 +701,41 @@ problema per molte app legittime. Per ulteriori informazioni, vedi
 ### Sono interessato ai dettagli tecnici. Mi puoi dire di più?
 
 - Vedi [Standard usati in Delta Chat]({% include standards-url %}).
+
+### Was Delta Chat independently audited for security vulnerabilities?
+
+The Delta Chat project underwent three independent security audits in the last
+years:
+
+- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's [PGP](https://github.com/rpgp/rpgp) and
+  [RSA](https://github.com/RustCrypto/RSA) libraries.
+  It found no critical issues,
+  but two high-severity issues that we subsequently fixed.
+  It also revealed one medium-severity and some less severe issues,
+  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
+  Some of them we nevertheless fixed since the audit was concluded.
+  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+
+- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+  [IMAP](https://github.com/async-email/async-imap),
+  [SMTP](https://github.com/async-email/async-smtp), and
+  [TLS](https://github.com/async-email/async-native-tls) libraries.
+  It did not find any critical or high-severity issues.
+  The report raised a few medium-severity weaknesses -
+  they are no threat to Delta Chat users on their own
+  because they depend on the environment in which Delta Chat is used.
+  For usability and compatibility reasons,
+  we can not mitigate all of them
+  and decided to provide security recommendations to threatened users.
+  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+
+- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
+  Delta Chat's network connections and a reproducible mail server setup as
+  [recommended on this site](serverguide).
+  You can read more about the audit [on our blog](2023-03-23-third-independent-security-audit)
+  or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 ### Come viene finanziato lo sviluppo di Delta Chat?
 

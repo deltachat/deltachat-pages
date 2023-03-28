@@ -1,76 +1,53 @@
 ---
-title: Community Standards
+title: 社区准则
 lang: zh_CN
 ---
 
-# Delta Chat Community Standards
+# Delta Chat 社区准则
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
+为了营造一个开放、友好的环境，我们贡献者和维护者力求让参与 Delta Chat 社区成为一种愉快、无骚扰的体验。
 
 
-## Our Standards
+## 我们的准则
 
-Examples of behavior that contribute to creating a positive environment include:
+有助于创造积极环境的行为包括但不限于：
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
+* 措辞友好且包容
+* 尊重不同的观点和经验
+* 耐心接受有益批评
+* 与社区其他成员和新人友善相处
+* 为麻烦与冲突提供帮助和调解
 
-Examples of behavior which we ask everybody to avoid include:
+每个人都不应采取的行为包括但不限于：
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
+* 发布与性有关的言论或图像、不受欢迎地献殷勤
+* 捣乱/煽动/造谣行为、侮辱/贬损的评论、人身及政治攻击
+* 公开或私下骚扰
+* 未经明确授权便发布他人的资料，如住址、电子邮箱等
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+我们认识到，有时人们可能在生活中遇到了烦心事，或者没有意识到他们行为的影响。这种情况下，您可以用合适的方式，在公开或私下中有分寸地提醒他们。假定善意；相比于试图诋毁他人或故意降低讨论质量，参与者更有可能是没有意识到他们所造成的影响。
 
 
-## Maintainers and Responsibilities
+## 维护者与义务
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+项目维护者是指对 Delta Chat 仓库具有提交（commit）权限或对社区频道具有管理权限的人。
+每位维护者都有义务应对目睹到的可疑行为，并对其采取适当、谨慎的行动。
+项目维护者有权利和义务去删除、编辑和拒绝违背行为标准的评论（comments）、提交（commits）、代码、wiki 编辑、问题（issues）等贡献。
+项目维护者可暂时或永久封禁任何他们认为行为不当、威胁、冒犯、有害的参与者。
 
-## Scope
+## 适用范围
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+本社区准则适用于项目频道和集会。当有人代表本项目或本社区时，本标准亦适用于此人所处的公共平台。代表本项目或本社区的情形包括但不限于：使用项目的官方电子邮件、通过官方媒体账号发布消息、作为指定代表参与在线或线下活动等。
 
-## Reporting and Responses
+## 报告与处理
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
+如果你经历或目睹了辱骂、骚扰或其他不可接受的行为，可以致信给选定的项目维护者，目前是 [Nami](mailto:missytake@systemli.org) 和 [Xenia](mailto:ksenia@transcyberian.org)。
+他们将会审议投诉并酌情让其他维护者参与，然后妥善地、以不违背您意愿的方式予以必要的处理。
 
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+维护者有义务保密举报者信息。
+维护者本身不能免于被投诉，经其他维护者决议后，可能会被暂时或永久地剥夺参与本项目的资格。
 
 
-## Attribution
+## 来源
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+我们的社区准则文档改编自[参与者公约](https://contributor-covenant.org)，版本 1.4，可在 <https://contributor-covenant.org/zh-cn/version/1/4/code-of-conduct> 查看。

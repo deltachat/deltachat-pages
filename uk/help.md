@@ -21,58 +21,57 @@ Delta Chat це новий додаток для спілкування, яки�
 
 ### Які переваги Delta Chat у порівнянні з іншими месенджерами?
 
-- _Незалежний_ від будь-яких компаній та сервісів. _Ви_ власник ваших даних.
-- Ваші дані не зберігаються на центральному сервері.
-- Ви не передаєте нікому свою адресну книгу.
-- _Швидкий_ завдяки використанню Push-IMAP.
-- _Найбільша користувацька база_ - адресати, що _не_ використовують Delta Chat може отримати ваше повідомлення.
-- _Сумісний_ не тільки сам із собою.
-- _Елегантний_ та _простий_ користувацький інтерфейс.
-- _Розподілена_ система.
-- _Без спаму_ - лише повідомлення від відомих користувачів відображаються за умовчанням.
-- _Надійний_ - безпечний для професійного використання.
-- _Вартий довіри_ - може використовуватись навіть для ділового спілкування.
-- _Вільне_ програмне забезпечення засноване на _стандартах_.
+- _Independent_ of any company or services. _You_ own your data.
+- Your data is not saved on a central server unless all users are using
+  the same e-mail servers
+- You do not distribute your address book to anyone.
+- _Fast_ by the use of Push-IMAP.
+- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
+- _No Spam_ - only messages of known users are shown by default.
+- _End-to-end-encryption_ via Autocrypt.
+- _Copyleft_ and _Standards_ based libre software.
+- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
 ### Які повідомлення відображаються у Delta Chat?
 
-By default, Delta Chat shows:
+By default, Delta Chat shows all e-mails.
 
-- Messages sent by other Delta Chat users
-- Replies to your Delta Chat messages, even if they are "normal e-mails".
-
-Other e-mails don't appear in your app by default. At "Settings -> Chats &
+At "Settings -> Chats &
 Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - "No, chats only": Only messages sent by other Delta Chat users and replies to
   your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well. This is the default setting.
+  e-mail account for normal e-mails as well.
 - "All": Delta Chat shows all e-mails that are sent to your email address. This
   makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost.
+  gets lost. This is the default setting.
 - "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
   you already have a chat, but new chats only pop up for Delta Chat messages.
   This helps to decide on a case-by-case basis whether you want to have a
   conversation in Delta Chat or in a "normal" e-mail app.
 
 
-### What if I expect a message from someone I didn't write to in the past?
+### Що робити, якщо я очікую повідомлення від когось, кому раніше не писав?
 
-- If a message comes from an unknown contact, it appears as a **request**. You
-  need to accept the request before you can reply.
-- You can also "delete" it if you don't want to chat with them for now. This
-  does *not* delete the message on the server, only on your device. So you can
-  still deal with the message in a different mail app.
-- If you delete a request, future messages from that contact will still appear
-  as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider *blocking* them.
+- Якщо повідомлення приходить від невідомого контакту, воно відображається як **запит**. ви потрібно прийняти запит, перш ніж ви зможете відповісти. 
+- Ви також можете "видалити" його, якщо ви не хочете зараз спілкуватися з ними. Це *не* видаляє повідомлення на сервері, лише на вашому пристрої. Отже, ви можете як і раніше обробляти повідомлення в іншій поштовій програмі. 
+- Якщо ви видалите запит, майбутні повідомлення від цього контакту все одно відображатимуться як запит на повідомлення, щоб ви могли змінити свою думку. Якщо дуже не хочеться отримувати повідомлення від цієї особи, подумайте про її *блокування*.
 
 
 ### Чи підтримує Delta Chat вкладення у вигляді фото, відео тощо?
 
 - Так. Крім звичайного тексту, всі вкладення електронної пошти відображаються у вигляді окремих повідомлень. Вихідні повідомлення автоматично отримують вкладення.
 
+- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+
+<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+
+You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
+- on the menu button and then 'Switch Account' (Android and desktop)
+- or the profile icon and then 'Add Account' (iOS)
+
+You may also wish to learn [how to add accounts to multiple devices](#can-i-use-delta-chat-on-multiple-devices-at-the-same-time).
 
 ### Хто бачить моє зображення профілю?
 
@@ -133,8 +132,8 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - **Приглушіть чати** якщо ви не хочете отримувати сповіщення для них. Приглушені чати залишаються на місці і ви також можете закріпити приглушений чат.
 
-- **Архівуйте чати** якщо ви не хочете бачити їх у вашому списку чатів.
-  Ви все одно можете отримати доступ до архівних чатів: в нижній частині списку чатів, в меню або через пошук.
+- **Archive chats** if you do not want to see them in your chat list any longer.
+  Archived chats remain accessible above the chat list or via search. 
 
 - Коли архівний чат отримує нове повідомлення, якщо не приглушений, він **вискочить з архіву** і повернеться у ваш список чатів.
   **Приглушені чати залишаються заархівованим** доки ви не розархівуєте їх вручну.
@@ -142,22 +141,16 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 Щоб заархівувати або закріпити чат, довго торкніться (Android), скористайтеся меню чату (Android/комп'ютер) або проведіть пальцем ліворуч (iOS); щоб вимкнути звук чату, скористайтеся меню чату (Android/комп'ютер) або профілем чату (iOS).
 
 
-### What does the green dot mean?
+### Що означає зелена точка?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Починаючи з Delta Chat 1.34, ви іноді можете бачити "зелену крапку" поруч із аватаром контакту. Це означає, що контакт «нещодавно бачили». 
+- Детально: це означає, що за останні 10 хвилин Delta Chat бачив їх: 
+- або тому, що вони надіслали вам повідомлення безпосередньо, 
+- тому що вони написали щось групі, учасником якої є ви обоє, 
+- тому що вони надіслали вам сповіщення про прочитання повідомлення, яке ви написали, 
+- або тому, що вони надіслали дані до вашої програми Delta Chat за допомогою a [приватна програма](#private-apps--webxdc). 
+– Отже, це не онлайн-статус у реальному часі – і якщо хтось не відповідає відразу, навіть якщо вони, здаються, онлайн, не хвилюйтесь і дайте їм трохи простору ;-) 
+– З іншого боку, інші не завжди «побачать, що ви онлайн». Якщо ви вимкнули сповіщення про прочитання, вони не побачать зелену крапку, доки ви не надішлете їм повідомлення або напишете у групу, до якої вони входять.
 
 
 ## Групи
@@ -195,32 +188,21 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 - Навпаки, дві галочки не означають автоматично, що людина прочитала або зрозуміла повідомлення ;)
 
 
-### What happens if I turn on "Delete old messages from server"?
+### Що станеться, якщо я ввімкну «Видаляти старі повідомлення з сервера»?
 
-- By default, Delta Chat stores all messages locally on your device. If you
-  e.g. want to save storage space at your mail provider, you can choose to
-  delete old messages automatically. They still remain on your device until you
-  delete them there, too.
-- To turn it on, go to "delete old messages from server" in the "Chats & Media"
-  settings. You can set a timeframe between "at once" and "after a year"; this
-  way, *all* e-mails will be deleted from the server after that timeframe. 
-- Note that if you use Delta Chat on more than one device, you should leave the
-  messages on the server, until the other device could download them, too. In
-  this case, you should set auto-delete to "after a day" or something similar,
-  depending on how often you turn on the other device.
+- За умовчанням Delta Chat зберігає всі повідомлення локально на вашому пристрої. Якщо ви, наприклад, бажаєте заощадити місце для зберігання у свого провайдера електронної пошти, ви можете вибрати автоматичне видалення старих повідомлень. Вони все ще залишаються на вашому пристрої, поки ви видалите їх і там.
+- Щоб увімкнути його, перейдіть до «видаляти старі повідомлення з сервера» в налаштуваннях «Чатів та медіа». Ви можете встановити часові рамки від «відразу» до «через рік». Таким чином, *усі* електронні листи будуть видалені з сервера після закінчення цього часу.
+- Зауважте, що якщо ви використовуєте Delta Chat на кількох пристроях, вам слід залишити повідомлення на сервері, доки інший пристрій не зможе завантажити їх. У цьому випадку вам слід встановити для автоматичного видалення значення «через день» або щось подібне, залежно від того, як часто ви вмикаєте інший пристрій.
 
 
-### What happens if I turn on "Delete old messages from device"?
+### Що станеться, якщо я ввімкну «Видаляти старі повідомлення з пристрою»?
 
-- If you want to save storage on your device, you can choose to delete old
-  messages automatically. 
-- To turn it on, go to "delete old messages from device" in the "Chats & Media"
-  settings. You can set a timeframe between "after an hour" and "after a year";
-  this way, *all* messages will be deleted from your device as soon as they are
-  older than that.
+- Якщо ви хочете заощадити пам’ять на своєму пристрої, ви можете видалити старе повідомлення автоматично.
+- Щоб увімкнути його, перейдіть до «видалити старі повідомлення з пристрою» в налаштуваннях «Чатів та медіа» . Ви можете встановити часові рамки від «через годину» до «через рік»; 
+Таким чином, *усі* повідомлення будуть видалені з вашого пристрою, як тільки вони будуть старішими за це.
 
 
-## Encryption
+## Шифрування
 
 ### Чи підтримує Delta Chat наскрізне шифрування?
 
@@ -262,6 +244,30 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - Якщо ж **замочка немає**, повідомлення зазвичай відправлено незашифрованим тому, що ви або відправник вимкнули наскрізне шифрування, або відправник використовує додаток без підтримки наскрізного шифрування.
 
+
+### How can I ensure message encryption and deletion?
+
+The best way to ensure every message is encrypted,
+and metadata deleted as quickly as possible
+is creating a verified group and turning on
+self-destructing messages.
+
+Verified groups are always encrypted and protected against [MITM
+attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+
+Metadata can't be encrypted, as the server needs to know where to deliver your
+messages. But turning on "self-destructing messages" deletes the messages on
+the server after they were delivered.
+
+If you need the messages on your device, but not on the server, you can also
+agree in the group to turn on ["delete messages from server
+automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+
+If you want to protect a 1:1 conversation like this, you should create a
+verified group with only 2 people. If the other person loses their device but
+not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+
+
 ### Які стандарти використовуються для наскрізного шифрування?
 
 - [Autocrypt](https://autocrypt.org) використовується для встановлення наскрізного шифрування з іншими клієнтами Delta Chat та іншими додатками із підтримкою Autocrypt. Autocrypt використовує обмежену підмножину функцій OpenPGP. 
@@ -299,7 +305,7 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - Так. Найпростіший спосіб використати існуючий ключ – відправити повідомлення з параметрами Autocrypt з додатку для роботи з електронною поштою. Знайдіть в налаштуваннях свого додатку слова типу **Почати передачу параметрів Autocrypt** і дотримуйтесь подальших вказівок.
 
-- Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Крім того, ви можете імпортувати ключ вручну в «Налаштування -> Додаткові налаштування -> Імпорт секретних ключів». Застереження: переконайтеся, що ключ не захищено паролем, або видаліть пароль заздалегідь.
 
 Якщо у вас немає ключа або ви навіть не знаєте, чи він вам знадобиться - не хвилюйтеся: Delta Chat генерує ключі за необхідності, вам не потрібно натискати для цього кнопку.
 
@@ -324,18 +330,10 @@ Delta Chat підтримує поширені формати приватних
 
 Якщо ви хочете використовувати **один і той же обліковий запис** на різних пристроях, вам слід експортувати резервну копію із старого пристрою та імпортувати її на новий пристрій:
 
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-  - **If you use iOS:** and you encounter difficulties, maybe
-    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
-    help you.
-- You are now synchronized, and can use both devices for sending and receiving
-  E2E-encrypted messages with your communication partners. 
+- На старому пристрої перейдіть у «Налаштування -> Чати та медіа -> Експорт резервної копії». Введіть ваш PIN-код, ключ або пароль розблокування екрана. Потім ви можете натиснути "Почати Резервне копіювання". Це збереже файл резервної копії на вашому пристрої. Тепер вам потрібно перенести на інший пристрій якимось чином. 
+- На новому пристрої, на екрані входу, замість входу в свою електронну пошту виберіть «Імпорт резервної копії». Після імпорту, ваші розмови, ключі шифрування та носій потрібно скопіювати на новий пристрій. 
+- **Якщо ви використовуєте iOS:** і у вас виникають труднощі, можливо [цей посібник](https://support.delta.chat/t/import-backup-to-ios/1628) допоможе вам. 
+- Тепер ви синхронізовані та можете використовувати обидва пристрої для надсилання та отримання зашифрованих E2E повідомлень з вашими партнерами по спілкуванню.
 
 ### Чи планується впровадження веб-клієнта Delta Chat?
 
@@ -364,157 +362,100 @@ Delta Chat підтримує поширені формати приватних
 В іншому випадку видалення повідомлень або налаштування декількох пристроїв може не працювати належним чином.
 
 
-## Private Apps / webxdc
+## Приватні програми / webxdc
 
-In Delta Chat, you can share "private apps", attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger. The technical term is [webxdc](https://webxdc.org).
+У Delta Chat ви можете ділитися «приватними програмами», вкладеннями з файлом з розширенням `.xdc`. Вони можуть робити дуже різні речі, і зробити Delta Chat справжнім розширюваним месенджером. Технічний термін [webxdc](https://webxdc.org).
 
 
-### How private are private apps?
+### Наскільки приватні приватні програми?
 
-- Private apps can not send data to the Internet, or download anything.
-- A private app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a private app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the private app as well.
-- This also means: it can be a privacy risk to open private apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+- Приватні програми не можуть надсилати дані в Інтернет або щось завантажувати. 
+- Приватна програма може обмінюватися даними лише в чаті Delta Chat зі своєю копією на пристроях ваших партнерів по чату. Крім цього, вона повністю ізольована від Інтернету. 
+– Конфіденційність, яку пропонує приватна програма, – це конфіденційність вашого чату – поки ви довіряєте людям, з якими спілкуєтесь, ви також можете довіряти приватній програмі. 
+- Це також означає, що відкриття приватних програм у чатах, учасникам яких ви не довіряєте, може бути ризиком для конфіденційності це як з вкладеннями електронної пошти, коли ви відкриваєте лише вкладення від відправників, яким довіряєте, а не від спамерів.
 
 
-### Where can I get private apps?
+### Де я можу отримати приватні програми?
 
-- In general, there is no curated appstore and Delta Chat is not responsible
-  for private apps or their content. Anyone can share private apps with each
-  other without restrictions.
-- You can find some example apps on [webxdc.org](https://webxdc.org).
-- Many people write their own private apps and post them to [the Delta Chat
-  forum](https://support.delta.chat/c/webxdc/20).
+- Загалом немає спеціального магазину програм, і Delta Chat не несе відповідальності за приватні програми чи їхній вміст. Кожен може ділитися один з одним приватними програмами без обмежень. 
+- Приклади програм можна знайти на [webxdc.org](https://webxdc.org). 
+- Багато людей пишуть власні приватні програми та публікують їх на [форумі Delta Chat](https://support.delta.chat/c/webxdc/20).
 
 
-### How can I create my own private apps?
+### Як я можу створити власні приватні програми?
 
-- Private apps are just zip files containing html, css, and javascript code.
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
-- All else you need to know is written in the
-  [documentation](https://docs.webxdc.org/).
-- If you have question, you can ask others with experience in the [Delta Chat
-  Forum](https://support.delta.chat/c/webxdc/20).
+- Приватні програми – це просто zip-файли, що містять код html, css і javascript.
+- Ви можете розширити [програму Hello World](https://github.com/webxdc/hello) щоб почати.
+- Все інше, що вам потрібно знати, написано в [документація](https://docs.webxdc.org/).
+- Якщо у вас є запитання, ви можете запитати інших із досвідом [на форумі Delta Chat](https://support.delta.chat/c/webxdc/20).
 
 
-## Experimental Features
+## Експериментальні функції
 
-We are very grateful about feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute. (You
-like experiments? Register through "Sign up -> with Delta Chat"!)
+Ми дуже вдячні за відгуки про ці функції - чи хочете ви поділитися вашими ідеями? Приєднуйтесь до [форуму](https://support.delta.chat), щоб зробити внесок. (Ви любите експерименти? Зареєструйтесь через «Зареєструватися -> з Delta Chat»!)
 
-### How can I use audio/video calls with Delta Chat?
+### Як я можу робити аудіо/відеодзвінки з Delta Chat?
 
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "videochat instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to your jitsi/BBB room. This
-  way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+- Щоб увімкнути аудіо/відеодзвінки, перейдіть до розділу «експериментальні функції» в розширених налаштуваннях і виберіть «екземпляр відеочату». 
+- Коли ви запрошуєте інших до відеочату, він відразу відкривається у вашому браузері/додатку. Інші отримають електронний лист із посиланням на вашу кімнату jitsi/BBB. Таким чином, він також сумісний, якщо ваші партнери по чату не використовують Delta Chat. 
+- Зауважте, що на іншій стороні немає мелодії дзвінка, і ваші партнери по чату не будуть перериватися запрошенням у відеочат. 
+- Ви можете використовувати будь-який сервіс відеочату, який дозволяє приєднатися за посиланням. Просто додайте посилання в налаштуваннях. 
+- Наприклад, щоб використовувати флагманський екземпляр Jitsi Meet, ви можете ввести `https://meet.jit.si/$ROOM`. Змінна `$ROOM` буде випадковим значенням; Таким чином, ви матимете нову випадкову кімнату jitsi кожного разу, коли ви телефонуєте комусь.
 
 
 ### Що таке перевірена група? Чому це експеримент? 
 
 - Перевірена група це чат, що гарантує безпеку від активного нападника. Усі повідомлення у перевіреному чаті зашифровані наскрізним шифруванням, а нових учасників можна додавати лише через сканування QR-коду запрошення. Таким чином, всі учасники з'єднані один з одним через ланцюжок запрошень, що гарантує криптографічну узгодженість від активних мережевих атак або атак провайдерів. Дивіться [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) для технічних деталей цієї функції.
 
-- As of Oct 2022, "verified groups" remain an experimental feature. It is
-  continuously improved and many bugs have been fixed since the original
-  introduction in 2018. However, there remain cases, especially with large
-  groups where inconsistencies can occur, or messages become unreadable.
+- Станом на жовтень 2022 року «перевірені групи» залишаються експериментальною функцією. Вони постійно вдосконалюються, і багато помилок було виправлено з оригінального впровадження в 2018 р. Однак залишаються випадки, особливо з великими групами, де можуть виникнути невідповідності або повідомлення можуть стати нечитабельними.
 
 
-### What are Broadcast Lists and how can I use them?
+### Що таке списки широкомовлення та як ними користуватися?
 
-- With a Broadcast List you can send a message to many recipents at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+- За допомогою списку розсилки ви можете надіслати повідомлення багатьом одержувачам одночасно; коли вони відповідають вам, ви отримуєте відповідь у своєму прямому чаті 1:1 з ними. Одержувачі не бачать один одного. 
+- Технічно це електронний лист із багатьма одержувачами в BCC. 
+- Ви можете ввімкнути функцію в розділі «експериментальні функції» в розширених налаштуваннях. Потім ви можете створити список трансляцій у діалоговому вікні «Новий чат». 
+- Якщо ви використовуєте більше ніж один пристрій, списки трансляцій наразі не синхронізуються між ними. 
+- Повідомлення, надіслані до списків розсилки, не шифруються. Шифрування порушило б анонімність, оскільки тоді всі одержувачі знали б, хто ще його отримав (надсилання окремих листів усім було б гіршим через обмеження швидкості та споживання мережі).
 
 
-### How can I share my location with my chat partners?
+### Як я можу поділитися своїм місцезнаходженням зі своїми співрозмовниками в чаті?
 
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat
-  partners. *But:* to show the map, we need to download map tiles from
-  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
-  specific area. If this is a privacy risk for you, this feature might not be
-  for you. We are working on finding a decentralized alternative for Mapbox.
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
+- Ви можете ввімкнути потокове передавання місцезнаходження в розділі «експериментальні функції» в розширених налаштуваннях. 
+- Тепер, якщо ви хочете поділитися своїм місцезнаходженням у чаті, перейдіть до «прикріпити» та виберіть "Місцезнаходження". Тепер ви можете встановити часові рамки, протягом яких ваше місцезнаходження транслюється вашим партнерам у чаті від 5 хвилин до 6 годин. 
+- Коли ваше місцезнаходження змінюється, інші учасники чату можуть побачити його на карті в чат. 
+- Щоб бачити карту та місцезнаходження інших, потрібно ввімкнути цю функцію у розширених налаштуваннях. 
+- Ця функція не надасть доступу до вашого місцезнаходження нікому, крім ваших співрозмовників в чаті. *Але:* щоб показати карту, нам потрібно завантажити фрагменти карти з mapbox.com, тому, якщо ви *переглядаєте* карту, mapbox.com запитує карту конкретної області. Якщо це загроза конфіденційності для вас, ця функція може бути не для вас. Ми працюємо над пошуком децентралізованої альтернативи для Mapbox. 
+- На комп’ютері ОС зазвичай не може визначити ваше місцезнаходження. Натомість ви можете клацнути правою кнопкою миші на карті та надсилати до чату як повідомлення, яке також з’являється на карті.
 
 
-### What does the experimental database encryption actually protect?
+### Що насправді захищає експериментальне шифрування бази даних?
 
-- Right now, the database encryption is still very experimental. Don't rely on
-  it for protection, you should additionally use encryption of your operating
-  system, if it provides any.
-- The database encryption does not yet encrypt the blobs, only the rows and
-  columns of the database. This more or less means that your messages are safe,
-  but not your attachments.
-- For iOS and Android, the encryption keys are stored in the system keychain.
-  This means the encryption is as secure as the operating system it's running
-  on.
-- The Delta Chat desktop client doesn't offer database encryption yet, as there
-  is no standard way to store the encryption keys on the different supported
-  platforms.
+- На даний момент шифрування бази даних все ще є експериментальним. Не покладайтеся на нього для захисту, ви повинні додатково використовувати шифрування вашої операційної системи, якщо воно передбачає таке. 
+- Шифрування бази даних ще не шифрує блоби, лише рядки та стовпці бази даних. Це більш-менш означає, що ваші повідомлення в безпеці, але не вкладені файли. 
+- Для iOS і Android ключі шифрування зберігаються в системному брелоку. Це означає, що шифрування настільки ж безпечно, як і операційна система, на якій воно працює. 
+- Настільний клієнт Delta Chat поки що не пропонує шифрування бази даних, оскільки немає стандартного способу зберігання ключів шифрування на різних підтримуваних платформах.
 
 
-### Why can I choose to only watch the DeltaChat folder?
+### Чому я можу вибрати лише стеження за папкою DeltaChat?
 
 Це експериментальне налаштування для деяких людей, які експериментують з правилами на стороні сервера. Не всі провайдери підтримують це, але деякі дозволятимуть перемістити всі листи із заголовком "Chat-Version" до папки DeltaChat. Зазвичай це робиться додатком Delta Chat.
 
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
+Увімкнення «Отримувати лише з папки DeltaChat» має сенс, якщо у вас є **обидва**:
 
 - увімкнене правило на стороні сервера для переміщення всіх повідомлень із заголовком Chat-Version до папки DeltaChat та
 - встановлено параметр "Показувати класичні електронні листи" у значення "ні, лише чати".
 
-In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
+У цьому випадку Delta Chat не потрібно стежити за папкою «Вхідні», а достатньо лише стежити за папкою DeltaChat.
 
 
-### How can I change my account to a different e-mail address?
+### Як я можу змінити мій обліковий запис на іншу адресу електронної пошти?
 
-1. Change your address at the “Password and Account” seetings screen in Delta
-   Chat, enter your password (and if necessary, server settings) for the new
-   account
-2. If possible, make your old e-mail provider forward all e-mails to your new
-   email address
-3. Tell your contacts that you changed your address. If you write this to a
-   verified group, they will acknowledge this automatically.
+1. Змініть свою адресу на екрані налаштувань «Пароль і обліковий запис» у Delta Chat, введіть свій пароль (і, якщо потрібно, налаштування сервера) для нового облікового запису
+2. Якщо можливо, змусьте старого провайдера електронної пошти пересилати всі електронні листи на нову адресу електронної пошти 
+3. Повідомте своїм контактам, що ви змінили адресу. Якщо ви напишете це в перевірену групу, вони підтвердять це автоматично.
 
-To learn about the details behind this, [read our blogpost on
-it](https://delta.chat/en/2022-09-14-aeap).
+Щоб дізнатися про деталі цього, [прочитайте нашу публікацію в блозі](https://delta.chat/en/2022-09-14-aeap).
 
 
 ## Інше
@@ -523,6 +464,14 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 - У більшості випадків: Так :)
 Проте для коректної роботи деяких провайдерів потрібні специфічні налаштування. Дивіться наш [огляд провайдерів](https://providers.delta.chat)
+
+
+### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+
+- Most mail servers will work well. But what we personally recommend is a
+  combination of mailcow and mailadm, as described [in this
+  blogpost](2023-01-26-upcoming-mail-server-workshops).
+- You can find an [installation guide on our website](serverguide).
 
 
 ### Якщо Delta Chat використовує електронну пошту, чи насправді він є _Instant_ месенджером?
@@ -549,6 +498,41 @@ it](https://delta.chat/en/2022-09-14-aeap).
 ### Мене цікавлять технічні деталі. Можете розповісти більше?
 
 - Дивіться [Стандарти, що використовуються у Delta Chat]({% include standards-url %}).
+
+### Was Delta Chat independently audited for security vulnerabilities?
+
+The Delta Chat project underwent three independent security audits in the last
+years:
+
+- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's [PGP](https://github.com/rpgp/rpgp) and
+  [RSA](https://github.com/RustCrypto/RSA) libraries.
+  It found no critical issues,
+  but two high-severity issues that we subsequently fixed.
+  It also revealed one medium-severity and some less severe issues,
+  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
+  Some of them we nevertheless fixed since the audit was concluded.
+  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+
+- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+  [IMAP](https://github.com/async-email/async-imap),
+  [SMTP](https://github.com/async-email/async-smtp), and
+  [TLS](https://github.com/async-email/async-native-tls) libraries.
+  It did not find any critical or high-severity issues.
+  The report raised a few medium-severity weaknesses -
+  they are no threat to Delta Chat users on their own
+  because they depend on the environment in which Delta Chat is used.
+  For usability and compatibility reasons,
+  we can not mitigate all of them
+  and decided to provide security recommendations to threatened users.
+  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+
+- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
+  Delta Chat's network connections and a reproducible mail server setup as
+  [recommended on this site](serverguide).
+  You can read more about the audit [on our blog](2023-03-23-third-independent-security-audit)
+  or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 ### Як фінансується розробка Delta Chat?
 

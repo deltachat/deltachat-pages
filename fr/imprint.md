@@ -5,13 +5,13 @@ lang: fr
 
 # Mentions légales
 
-Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
+Delta Chat est un [projet communautaire Open Source](https://github.com/deltachat). Responsable de la publication sur nos pages :
 
     merlinux GmbH
     Reichsgrafenstr. 20
     79102 Freiburg, Germany
 
-courriel: {% include email-link %}
+Courriel : {% include email-link %}
 
 Tribunal Amtsgericht Freiburg: HRB709589  
 TVA: DE814082730  
@@ -19,4 +19,4 @@ Directeur Général: Holger Krekel
 
 [Canaux communautaires](contribute)
 
-Le serveur de listes de courriels est géré par <https://github.com/codespeaknet/sysadmin>.
+Le serveur des listes de diffusion est géré par <https://github.com/codespeaknet/sysadmin>.
