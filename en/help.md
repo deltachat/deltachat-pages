@@ -29,31 +29,25 @@ recipient to install the same app as yours, as with other messengers.
 - You do not distribute your address book to anyone.
 - _Fast_ by the use of Push-IMAP.
 - _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _Compatible_ - not only to itself.
-- _Elegant_ and _simple_ user interface.
-- _Distributed_ system.
 - _No Spam_ - only messages of known users are shown by default.
-- _Reliable_ - safe for professional use.
-- _Trustworthy_ - can even be used for business messages.
+- _End-to-end-encryption_ via Autocrypt.
 - _Copyleft_ and _Standards_ based libre software.
+- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
 ### Which messages do appear in Delta Chat?
 
-By default, Delta Chat shows:
+By default, Delta Chat shows all e-mails.
 
-- Messages sent by other Delta Chat users
-- Replies to your Delta Chat messages, even if they are "normal e-mails".
-
-Other e-mails don't appear in your app by default. At "Settings -> Chats &
+At "Settings -> Chats &
 Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - "No, chats only": Only messages sent by other Delta Chat users and replies to
   your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well. This is the default setting.
+  e-mail account for normal e-mails as well.
 - "All": Delta Chat shows all e-mails that are sent to your email address. This
   makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost.
+  gets lost. This is the default setting.
 - "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
   you already have a chat, but new chats only pop up for Delta Chat messages.
   This helps to decide on a case-by-case basis whether you want to have a
@@ -78,6 +72,13 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
+<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+
+You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
+- on the menu button and then 'Switch Account' (Android and desktop)
+- or the profile icon and then 'Add Account' (iOS)
+
+You may also wish to learn [how to add accounts to multiple devices](#can-i-use-delta-chat-on-multiple-devices-at-the-same-time).
 
 ### Who sees my profile picture?
 
@@ -154,7 +155,7 @@ Use these tools to organize your chats and keep everything in its place:
 - **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
 
 - **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+  Archived chats remain accessible above the chat list or via search. 
 
 - When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
   **Muted chats stay archived** until you unarchive them manually.
@@ -710,6 +711,41 @@ it](https://delta.chat/en/2022-09-14-aeap).
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
+
+### Was Delta Chat independently audited for security vulnerabilities?
+
+The Delta Chat project underwent three independent security audits in the last
+years:
+
+- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's [PGP](https://github.com/rpgp/rpgp) and
+  [RSA](https://github.com/RustCrypto/RSA) libraries.
+  It found no critical issues,
+  but two high-severity issues that we subsequently fixed.
+  It also revealed one medium-severity and some less severe issues,
+  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
+  Some of them we nevertheless fixed since the audit was concluded.
+  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+
+- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+  [IMAP](https://github.com/async-email/async-imap),
+  [SMTP](https://github.com/async-email/async-smtp), and
+  [TLS](https://github.com/async-email/async-native-tls) libraries.
+  It did not find any critical or high-severity issues.
+  The report raised a few medium-severity weaknesses -
+  they are no threat to Delta Chat users on their own
+  because they depend on the environment in which Delta Chat is used.
+  For usability and compatibility reasons,
+  we can not mitigate all of them
+  and decided to provide security recommendations to threatened users.
+  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+
+- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
+  Delta Chat's network connections and a reproducible mail server setup as
+  [recommended on this site](serverguide).
+  You can read more about the audit [on our blog](2023-03-23-third-independent-security-audit)
+  or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 ### How are Delta Chat developments funded? 
 
