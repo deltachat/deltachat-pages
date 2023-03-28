@@ -21,7 +21,7 @@ lang: de
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" style="margin: 10px" alt="Ein Screenshot von Delta Chat auf iOS" width="110"/>
 
-[Download](https://get.delta.chat){: .cta-button}
+[Herunterladen](https://get.delta.chat){: .cta-button}
 
 [Quelloffene](https://de.wikipedia.org/wiki/Open_Source)
 und [freie Software](https://de.wikipedia.org/wiki/Freie_Software), basierend auf [Internet-Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
