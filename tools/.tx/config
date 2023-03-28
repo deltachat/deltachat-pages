@@ -25,6 +25,12 @@ source_file = translations/delta-chat-pages.contributepo/en.po
 source_lang = en
 type        = PO
 
+[o:delta-chat:p:delta-chat-pages:r:donatepo]
+file_filter = translations/delta-chat-pages.donatepo/<lang>.po
+source_file = translations/delta-chat-pages.donatepo/en.po
+source_lang = en
+type        = PO
+
 [o:delta-chat:p:delta-chat-pages:r:downloadpo]
 file_filter = translations/delta-chat-pages.downloadpo/<lang>.po
 source_file = translations/delta-chat-pages.downloadpo/en.po
