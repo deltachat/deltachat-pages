@@ -7,23 +7,21 @@ lang: pl
 
 Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj nasze [Standardy społeczności](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) i
-  [Twitter](https://twitter.com/delta_chat) dla ogłoszeń.
+- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+
+- With your Delta Chat app you can send a `/list` message to [a community
+  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
 
 - [Forum wsparcia Delta Chat](https://support.delta.chat) do
   szerszych dyskusji na temat funkcji i uzyskania wsparcia.
 
-- [#deltachat na Libera.Chat]({% include webirc-url %}) do codziennej komunikacji.
+- [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można znaleźć kod aplikacji Delta Chat i tej strony internetowej.
 
-- [Lista mailingowa Delta Chat](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
-  do dyskusji społecznych i informacji.
+- More links can be found in the [cosmos](https://cosmos.delta.chat)
 
-- [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można 
-  znaleźć kod aplikacji Delta Chat i tej strony internetowej.
+[Donate Money](donate){: .cta-button}
 
-- Inne linki można znaleźć w [kosmosie](https://cosmos.delta.chat)
-
-# Tłumaczenia i raportowanie błędów 
+# Tłumaczenia i raportowanie błędów
 
 - [Tłumaczenia na Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problemy z Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -31,15 +29,9 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 - [Problemy z Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemy z Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Zawsze szukamy programistów i projektantów, którzy chcą pomóc i znają C, Rust, Java, Swift, Javascript lub Python na Androida, iOS, Windows, Linux lub Mac. Zazwyczaj oferujemy umowy lub zatrudnienie w wymiarze 20 godzin tygodniowo (jeśli mieszkasz w Niemczech). Nie wahaj się skontaktować z nami (delta at merlinux eu), jeśli jesteś zainteresowany pomocą w naszych wysiłkach!
+We are always looking for developers and designers.
+We typically offer 20-30 hours per week contracts or employments (if based in germany).
+Please don't hesitate to reach out (delta at merlinux eu)
+if you are interested to help our efforts!
 
-
-# Ofiaruj pieniądze
-
-Jeśli wspierasz finansowo DeltaChat, pomagasz mu pozostać i rozwijać się jako niezależny projekt, który działa i jest zorientowany na użytkowników:
-
-- IBAN DE86100777770428658900, Właściciel konta (proszę zawsze określać): Björn Petersen, BIC NORSDE51XXX
-- PayPal lub karta kredytowa: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Wspieraj za pośrednictwem [Liberapay](https://liberapay.com/delta.chat/)
-- Przekaż jednorazową lub cykliczną darowiznę za pośrednictwem [Open Collective](https://opencollective.com/delta-chat/donate)
-- Wyślij bitcoiny do [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).

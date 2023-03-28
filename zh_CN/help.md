@@ -20,32 +20,35 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 ### 与其他通信软件相比，Delta Chat 有哪些优势？
 
-- _独立_ 于任何公司或服务。_您_ 拥有您的数据。
-- 您的数据不会保存于中央服务器，除非所有用户都在使用同一个电子邮件服务器。
-- 您不会将通讯录分发给任何人。
-- _快速_——使用 Push-IMAP。
-- _最广泛的用户基础_——也可以与 _不_ 使用 Delta Chat 的收件人进行联系。
-- _兼容_——不仅仅对它本身。
-- _优雅_、_简洁_ 的用户界面
-- _分布式_ 系统
-- _没有垃圾信息_——默认情况下仅显示已知用户的消息。
-- _可靠_——可以安全地用于专业用途。
-- _可信赖_——甚至可以用于商业讯息。
-- 基于 _著佐权_ 与 _标准_ 的自由软件。
+- _Independent_ of any company or services. _You_ own your data.
+- Your data is not saved on a central server unless all users are using
+  the same e-mail servers
+- You do not distribute your address book to anyone.
+- _Fast_ by the use of Push-IMAP.
+- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
+- _No Spam_ - only messages of known users are shown by default.
+- _End-to-end-encryption_ via Autocrypt.
+- _Copyleft_ and _Standards_ based libre software.
+- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
 ### 哪些消息会在 Delta Chat 中出现？
 
-默认情况下， Delta Chat 会显示：
+By default, Delta Chat shows all e-mails.
 
-- 由其他 Delta Chat 用户发送的消息
-- 对您 Delta Chat 消息的回复，即使这些回复是“普通的电子邮件”。
+At "Settings -> Chats &
+Media -> Show Classic E-Mails", you can change this. You have these options:
 
-其他的电子邮件默认不会显示在 Delta Chat 中。通过“设置->聊天与媒体->显示传统电子邮件”，您可以改变这种行为。有三个选项：
-
-- “不显示，仅聊天”：只显示由其他 Delta Chat 用户发送的消息和对您 Delta Chat 消息的回复。这在电子邮件地址同时用于处理普通邮件的情况下很有用。默认设置。
-- “全部”：Delta Chat 会显示发送到您电子邮件地址的所有邮件。用于您希望使用 Delta Chat 处理所有电子邮件的情况，这样就不会有消息被落下了。
-- “已接受的联系人”：Delta Chat 会显示已有聊天的联系人的所有电子邮件，而新聊天只会为 Delta Chat 消息弹出。可用于希望逐一决定是在 Delta Chat 中还是在“普通”电子邮件应用中对话的情况。
+- "No, chats only": Only messages sent by other Delta Chat users and replies to
+  your Delta Chat messages are shown. This makes most sense if you use the same
+  e-mail account for normal e-mails as well.
+- "All": Delta Chat shows all e-mails that are sent to your email address. This
+  makes sense if you want to use Delta Chat for all your e-mails, so no message
+  gets lost. This is the default setting.
+- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
+  you already have a chat, but new chats only pop up for Delta Chat messages.
+  This helps to decide on a case-by-case basis whether you want to have a
+  conversation in Delta Chat or in a "normal" e-mail app.
 
 
 ### 如果希望收到我从未发送过消息的人的消息，该怎么办?
@@ -59,6 +62,15 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 - 是的。除纯文本外，所有电子邮件附件均显示为单独的消息。发出消息会根据需要自动获得附件。
 
+- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+
+<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+
+You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
+- on the menu button and then 'Switch Account' (Android and desktop)
+- or the profile icon and then 'Add Account' (iOS)
+
+You may also wish to learn [how to add accounts to multiple devices](#can-i-use-delta-chat-on-multiple-devices-at-the-same-time).
 
 ### 谁会看见我的个人资料图片？
 
@@ -119,8 +131,8 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 - **静音聊天**，如果您不想再得到关于它们的通知。被静音的聊天会呆在原地，并且您可以固定被静音的聊天。
 
-- **归档聊天**，如果您不想再在聊天列表中看到它们。
-通过菜单、搜索或者聊天列表的最底部，您仍然可以访问被归档的聊天。
+- **Archive chats** if you do not want to see them in your chat list any longer.
+  Archived chats remain accessible above the chat list or via search. 
 
 - 当被归档的聊天接收到一条新消息，除非其被静音，它会**从归档中弹出**并返回聊天列表。
   **被静音的聊天会保持被归档的状态**，除非您手动解档它们。 
@@ -233,6 +245,30 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 - 如果**没有挂锁**，那么消息一般是未经加密传输的。例如：您或者发送者关掉了端到端加密，或者发送者使用了不支持端到端加密的应用程序。
 
+
+### How can I ensure message encryption and deletion?
+
+The best way to ensure every message is encrypted,
+and metadata deleted as quickly as possible
+is creating a verified group and turning on
+self-destructing messages.
+
+Verified groups are always encrypted and protected against [MITM
+attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+
+Metadata can't be encrypted, as the server needs to know where to deliver your
+messages. But turning on "self-destructing messages" deletes the messages on
+the server after they were delivered.
+
+If you need the messages on your device, but not on the server, you can also
+agree in the group to turn on ["delete messages from server
+automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+
+If you want to protect a 1:1 conversation like this, you should create a
+verified group with only 2 people. If the other person loses their device but
+not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+
+
 ### 端到端加密使用了哪些标准？
 
 - [Autocrypt](https://autocrypt.org) 被用于和其他 Delta Chat 客户端以及其他兼容 Autocrypt 的邮件应用建立端到端加密。Autocrypt 使用了OpenPGP 功能的一个有限子集。
@@ -243,7 +279,7 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 - 即使已验证群组中只有两个人，跟已验证联系人的一对一聊天和已验证群组也是不同的。一个区别是您可以轻松地将更多人添加到群组中。除此以外，还有其他的不明显区别。
 
-- 已验证群组始终是受保护的。任何破损（明文或签名错误的消息等）都将被标记，并且此类消息不会在该聊天中显示。您可以相信：在这个带有已验证标记的聊天中，所有消息都没有被中间人阅读或修改。 
+- 已验证群组始终受保护。任何消息损坏（明文，或者错误签名的消息等）都会被标出；损坏的消息不会出现在聊天中。您可以相信：在这个带有已验证标记的聊天中，所有消息都没有被中间人阅读或修改。 
 
 - 一对一聊天是乐观的，这意味着无论人们是否更改/更换了电子邮件客户端、设备和设置等东西，他们都可以进行交流。这就是即使您已经验证了联系人也不会有已验证标记的原因。
 
@@ -430,6 +466,14 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
   不过，某些提供商需要一些特殊设置才能正常工作，请参阅[提供商概览](https://providers.delta.chat)
 
 
+### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+
+- Most mail servers will work well. But what we personally recommend is a
+  combination of mailcow and mailadm, as described [in this
+  blogpost](2023-01-26-upcoming-mail-server-workshops).
+- You can find an [installation guide on our website](serverguide).
+
+
 ### 使用电子邮件的 Delta Chat 真的是 _即时_ 通讯工具吗？
 
 - 通常情况下，发送和接收消息会花费数秒。收发消息有时会花费更长时间；但是对于其他的通信软件来说，这也是真的。
@@ -449,6 +493,41 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 ### 我对技术细节很感兴趣。能告诉我更多吗？
 
 - 请参阅 [Delta Chat 中使用的标准]({% include standards-url %})。
+
+### Was Delta Chat independently audited for security vulnerabilities?
+
+The Delta Chat project underwent three independent security audits in the last
+years:
+
+- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's [PGP](https://github.com/rpgp/rpgp) and
+  [RSA](https://github.com/RustCrypto/RSA) libraries.
+  It found no critical issues,
+  but two high-severity issues that we subsequently fixed.
+  It also revealed one medium-severity and some less severe issues,
+  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
+  Some of them we nevertheless fixed since the audit was concluded.
+  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+
+- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+  [IMAP](https://github.com/async-email/async-imap),
+  [SMTP](https://github.com/async-email/async-smtp), and
+  [TLS](https://github.com/async-email/async-native-tls) libraries.
+  It did not find any critical or high-severity issues.
+  The report raised a few medium-severity weaknesses -
+  they are no threat to Delta Chat users on their own
+  because they depend on the environment in which Delta Chat is used.
+  For usability and compatibility reasons,
+  we can not mitigate all of them
+  and decided to provide security recommendations to threatened users.
+  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+
+- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
+  Delta Chat's network connections and a reproducible mail server setup as
+  [recommended on this site](serverguide).
+  You can read more about the audit [on our blog](2023-03-23-third-independent-security-audit)
+  or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 ### Delta Chat 的开发是如何被资助的? 
 
