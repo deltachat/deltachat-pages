@@ -439,8 +439,47 @@ For other programs, you should be able to find a solution online.
 
 ### Can I use Delta Chat on multiple devices at the same time?
 
-If you want to use the **same account** on different devices, you should export
-a backup from the old device, and import it into the new device:
+Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+
+- On the old device, go to **Settings → Add Second Device**, unlock the screen if needed
+  and wait a moment until a QR code is shown
+
+- On the new device, install Delta Chat (<https://get.delta.chat>)
+
+- Start Delta Chat on the new device, select **Add as Second Device** and scan the QR code from the old device
+
+- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
+  Wait until it is finished on both devices.
+
+In contrast to many other messengers, after successful transfer,
+both **devices are completely independent.**
+The one device is not needed for the other to work.
+
+
+### Troubleshooting
+
+- Double-check both devices are in the **same Wi-Fi or network**
+
+- Your system may have a "personal firewall",
+  this is known to make problems, esp. on Windows.
+  **Disable the personal firewall** for Delta Chat on both ends and try again
+
+- Ensure there is **enough storage** on the destination device
+
+- If transfer started, make sure, the devices **stay active** and do not fall asleep.
+  Do not exit Delta Chat.
+  (we try hard to work in background, but systems tend to kill apps, unfortunately)
+
+- Delta Chat is **already installed** on the destination device?
+  You can use multiple accounts per device, just [add another account](#multiple-accounts)
+
+- If you still have problems or if you **cannot scan a QR code**
+  try the **manual transfer** described below
+
+
+### Manual Transfer
+
+This method is only recommended if "Add Second Device" as described above does not work.
 
 - On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
