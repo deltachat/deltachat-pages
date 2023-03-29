@@ -453,7 +453,7 @@ Yes. Delta Chat 1.36 comes with a new, experimental function for using the same 
 
 In contrast to many other messengers, after successful transfer,
 both **devices are completely independent.**
-The one device is not needed for the other to work.
+One device is not needed for the other to work.
 
 
 ### Troubleshooting
