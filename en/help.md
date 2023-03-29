@@ -468,7 +468,7 @@ One device is not needed for the other to work.
 
 - If transfer started, make sure, the devices **stay active** and do not fall asleep.
   Do not exit Delta Chat.
-  (we try hard to work in background, but systems tend to kill apps, unfortunately)
+  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
 
 - Delta Chat is **already installed** on the destination device?
   You can use multiple accounts per device, just [add another account](#multiple-accounts)
