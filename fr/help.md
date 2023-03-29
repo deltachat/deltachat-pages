@@ -265,7 +265,7 @@ Si vous n'êtes pas près physiquement de votre interlocuteur, vous pouvez véri
 - Pour la connexion sécurisée uniquement par TLS, c'est cet état qui sera affiché dans la boîte de dialogue.
 
 
-## Comment puis-je vérifier le chiffrement des messages ?
+### Comment puis-je vérifier le chiffrement des messages ?
 
 - Si un petit **cadenas** est affiché à côté d'un message, cela signifie que le message est chiffré de bout en bout par l'expéditeur.
 
@@ -295,7 +295,7 @@ verified group with only 2 people. If the other person loses their device but
 not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
 
 
-## Quels standards sont utilisés pour le chiffrement de bout en bout ?
+### Quels standards sont utilisés pour le chiffrement de bout en bout ?
 
 - [Autocrypt](https://autocrypt.org) est utilisé pour mettre en place le chiffrement de bout en bout avec un destinataire utilisant Delta Chat ou une autre application utilisant Autocrypt. 
   Autocrypt utilise un sous-ensemble restreint de la fonctionnalité OpenPGP. 

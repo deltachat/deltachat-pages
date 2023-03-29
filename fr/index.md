@@ -3,7 +3,7 @@ title: La messagerie par courriel
 lang: fr
 ---
 
-Delta Chat est une application de messagerie instantanée reposant sur le courriel
+# Delta Chat est une application de messagerie instantanée reposant sur le courriel
 
 💬 Envoyez des messages à toute personne possédant une adresse courriel, [même si elle n'utilise pas Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
