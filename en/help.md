@@ -470,7 +470,7 @@ One device is not needed for the other to work.
   Do not exit Delta Chat.
   (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
 
-- Delta Chat is **already installed** on the destination device?
+- Delta Chat is **already logged in** on the destination device?
   You can use multiple accounts per device, just [add another account](#multiple-accounts)
 
 - If you still have problems or if you **cannot scan a QR code**
