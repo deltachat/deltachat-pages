@@ -447,8 +447,47 @@ Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
 ### A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
 
-Nëse doni të përdorni të **njëjtën llogari** në pajisje të ndryshme, duhet
-të eksportoni nga njëra pajisje një kopjeruatje dhe ta importoni te tjetra:
+Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+
+- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
+  and wait a moment until a QR code is shown
+
+- On the second device, [install Delta Chat](https://get.delta.chat)
+
+- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+
+- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
+  Wait until it is finished on both devices.
+
+In contrast to many other messengers, after successful transfer,
+both **devices are completely independent.**
+One device is not needed for the other to work.
+
+
+### Troubleshooting
+
+- Double-check both devices are in the **same Wi-Fi or network**
+
+- Your system might have a "personal firewall",
+  which is known to cause problems (especially on Windows).
+  **Disable the personal firewall** for Delta Chat on both ends and try again
+
+- Ensure there is **enough storage** on the destination device
+
+- If transfer started, make sure, the devices **stay active** and do not fall asleep.
+  Do not exit Delta Chat.
+  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+
+- Delta Chat is **already logged in** on the destination device?
+  You can use multiple accounts per device, just [add another account](#multiple-accounts)
+
+- If you still have problems or if you **cannot scan a QR code**
+  try the **manual transfer** described below
+
+
+### Manual Transfer
+
+This method is only recommended if "Add Second Device" as described above does not work.
 
 - Te pajisja e vjetër, kaloni te “Rregullime -> Fjalosje dhe media -> Eksportoni
   Kopjeruajtje”. Jepni PIN-in, rregullsinë apo fjalëkalimin tuaj për shkyçje ekrani.

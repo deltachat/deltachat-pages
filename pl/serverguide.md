@@ -1,9 +1,9 @@
 ---
-title: How to Setup a Mail Server for Delta Chat
+title: Jak skonfigurować serwer pocztowy dla Delta Chat
 lang: pl
 ---
 
-# How to Setup a Mail Server for Delta Chat
+# Jak skonfigurować serwer pocztowy dla Delta Chat
 
 Delta Chat is a chat messenger which runs on e-mail. This means we can use any
 e-mail server to run Delta Chat accounts. One e-mail server which is easy to
