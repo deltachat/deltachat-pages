@@ -441,12 +441,12 @@ For other programs, you should be able to find a solution online.
 
 Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
 
-- On the old device, go to **Settings → Add Second Device**, unlock the screen if needed
+- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
   and wait a moment until a QR code is shown
 
-- On the new device, install Delta Chat (<https://get.delta.chat>)
+- On the second device, [install Delta Chat](https://get.delta.chat)
 
-- Start Delta Chat on the new device, select **Add as Second Device** and scan the QR code from the old device
+- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
 
 - Transfer should start after a few seconds and during transfer both devices will show the **progress**.
   Wait until it is finished on both devices.
