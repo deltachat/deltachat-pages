@@ -461,7 +461,7 @@ One device is not needed for the other to work.
 - Double-check both devices are in the **same Wi-Fi or network**
 
 - Your system might have a "personal firewall",
-  this is known to cause problems, especially on Windows.
+  which is known to cause problems (especially on Windows).
   **Disable the personal firewall** for Delta Chat on both ends and try again
 
 - Ensure there is **enough storage** on the destination device
