@@ -1,69 +1,69 @@
 ---
-title: How to Setup a Mail Server for Delta Chat
+titolo: Come Configurare un Server E-mail per Delta Chat
 lang: it
 ---
 
-# How to Setup a Mail Server for Delta Chat
+# Come Configurare un Server E-mail per Delta Chat
 
-Delta Chat is a chat messenger which runs on e-mail. This means we can use any
-e-mail server to run Delta Chat accounts. One e-mail server which is easy to
-setup and manage, and works with Delta Chat out of the box, is
+Delta Chat è un messenger di chat che funziona su e-mail. Ciò significa che possiamo usare qualsiasi
+server e-mail per eseguire gli account Delta Chat. Un server e-mail facile da usare
+configurare e gestire, e funziona con Delta Chat fuori dagli schemi, è
 [Mailcow](https://mailcow.email).
 
-You can run it together with [mailadm](https://mailadm.readthedocs.io), which
-offers your users an easy way to create an e-mail account and directly login
-with Delta Chat. It is also included in this guide.
+Puoi eseguirlo insieme a [mailadm](https://mailadm.readthedocs.io), che
+offre ai tuoi utenti un modo semplice per creare un account e-mail e accedere direttamente
+con Delta Chat. È incluso anche in questa guida.
 
-What you need:
+Quello che ti serve:
 
-- basic command line knowledge
-- a domain name, and access to its DNS settings
-- SSH access to a linux server
-  - with a public IP,
-  - minimum 10 GB disk space,
-  - and minimum 2 GB RAM
+- conoscenza di base della riga di comando
+- un nome di dominio e l'accesso alle relative impostazioni DNS
+- Accesso SSH a un server Linux
+- con IP pubblico,
+- minimo 10 GB di spazio su disco,
+- e almeno 2 GB di RAM
 
-## Installing Docker
+## Installazione di Docker
 
-As a prerequisite you need to install [docker and
+Come prerequisito è necessario installare [docker e
 docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
 
-### If docker.com is Blocked:
+### Se docker.com è bloccato:
 
-Depending on the country where your server is in, docker.com may be blocked. You
-can also get docker & docker-compose from other sources, which may work:
+A seconda del paese in cui si trova il tuo server, docker.com potrebbe essere bloccato. Tu
+può anche ottenere docker e docker-compose da altre fonti, che potrebbero funzionare:
 
-- Ubuntu's official apt repository usually has an outdated docker version; that
-  is not the best idea.
-- [snap](https://docs.docker.com/engine/install/ubuntu/) is another way to
-  install docker, but for docker-compose the snap variant doesn't work. Note
-  that if you install docker via snap, it doesn't run in systemd, but in snap.
-- You can try to download the docker-compose binary [from GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64)
-  and copy it to [the right location](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
-- And finally you can try to get access to a server outside your country,
-  create a HTTPS proxy, and use that to install docker and docker-compose. It's
-  tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
-  you run into problems.
+- Il repository apt ufficiale di Ubuntu di solito ha una versione docker obsoleta; Quella
+non è l'idea migliore.
+- [snap](https://docs.docker.com/engine/install/ubuntu/) è un altro modo per
+installare docker, ma per docker-compose la variante snap non funziona. Nota
+che se installi docker tramite snap, non viene eseguito in systemd, ma in snap.
+- Puoi provare a scaricare il binario docker-compose [da GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64)
+e copialo nella [posizione corretta](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
+- E infine puoi provare ad accedere a un server al di fuori del tuo paese,
+crea un proxy HTTPS e usalo per installare docker e docker-compose. E'
+complicato, ma potrebbe funzionare. Puoi [contattarci](mailto:mailadm@testrun.org) se
+incontri problemi.
 
-## Create DNS Entries
+## Crea voci DNS
 
-If you don't have a domain yet, you can use a service like
-[njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
-pay with PayPal, Bitcoin, or Monero.
+Se non hai ancora un dominio, puoi utilizzare un servizio come
+[njal.la](https://njal.la) per acquistare un dominio .net o .org a 15€ all'anno. Puoi
+pagare con PayPal, Bitcoin o Monero.
 
-Let's assume:
-- you bought example.org. For now you only want a mail server, but you think
-  about hosting a website at https://example.org later.
-- your server has the IPv4 address 24.48.100.24 - you can find out with the
-  command `ip a` and look for a similar-looking number (which doesn't start
-  with 127 or 172).
-- your server has the IPv6 address 7fe5:2f4:1ba:2381::3 (you can find it in `ip
-  a`, 2 lines below the IPv4 address. Ignore the `/64` at the end. Don't use
-  the one starting with `fe80`, it doesn't count).
+Assumiamo che:
+- hai acquistato example.org. Per ora vuoi solo un server di posta, ma pensi
+all'hosting di un sito Web su https://example.org in un secondo momento.
+- il tuo server ha l'indirizzo IPv4 24.48.100.24 - puoi scoprirlo con il
+comando `ip a` e cercare un numero dall'aspetto simile (che non inizia
+con 127 o 172).
+- il tuo server ha l'indirizzo IPv6 7fe5:2f4:1ba:2381::3 (puoi trovarlo in `ip
+a`, 2 righe sotto l'indirizzo IPv4. Ignora il "/64" alla fine. Non usare
+quello che inizia con `fe80`, non conta).
 
-Now you could configure the domain settings for example.org like this:
+Ora puoi configurare le impostazioni del dominio per example.org in questo modo:
 
-| Type  | Name            | Data                                                 | TTL  | Priority |
+| Tipo  | Nome            | Dati                                                 | TTL  | Priorità |
 |-------|-----------------|------------------------------------------------------|------|----------|
 | A     | mail            | 24.48.100.24                                         | 5min |          |
 | AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
@@ -74,19 +74,19 @@ Now you could configure the domain settings for example.org like this:
 | TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
 | TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
 
-You can setup the DKIM key after setting up mailcow,
-in System>Configuration>Options>ARC/DKIM keys.
+Puoi configurare la chiave DKIM dopo aver configurato mailcow,
+in Sistema>Configurazione>Opzioni>Chiavi ARC/DKIM.
 
-You can do more than 5 minutes, but in case you notice something is wrong a
-short time helps with fixing the wrong entry.
+Puoi fare più di 5 minuti, ma se noti che qualcosa non va un
+tempo minore aiuta a correggere la voce sbagliata.
 
-## Setup Mailcow
+## Configurare Mailcow
 
-### Set Mailcow Options
+### Imposta le Opzioni di Mailcow
 
-First clone the mailcow git repository - if your server doesn't have access to
-github.com, you can do this step somewhere else and use `scp` to copy it to
-your server.
+Per prima cosa clona il repository git di mailcow, se il tuo server non ha accesso a
+github.com, puoi eseguire questo passaggio da qualche altra parte e utilizzare `scp` per copiarlo
+sul tuo server.
 
 ```
 sudo apt install -y git
@@ -94,23 +94,23 @@ git clone https://github.com/mailcow/mailcow-dockerized
 cd mailcow-dockerized
 ```
 
-Now you should run `./generate_config.sh` to generate the mailcow.conf file.
-If your server doesn't have access to github.com, you first need to remove any
-git command from the script. Enter the options like this:
+Ora dovresti eseguire `./generate_config.sh` per generare il file mailcow.conf.
+Se il tuo server non ha accesso a github.com, devi prima rimuoverne qualsiasi
+comando git dallo script. Inserisci le opzioni in questo modo:
 
 ```
-Mail server hostname (FQDN) - this is not your mail domain, but your mail servers hostname: mail.example.org
-Timezone [Europe/Berlin]: UTC
-Which branch of mailcow do you want to use?
+Nome host del server di posta (FQDN): questo non è il tuo dominio di posta, ma il nome host del tuo server di posta: mail.example.org
+Fuso orario [Europa/Berlino]: UTC
+Quale ramo di mailcow vuoi usare?
 
 
-Available Branches:
-- master branch (stable updates) | default, recommended [1]
-- nightly branch (unstable updates, testing) | not-production ready [2]
-Choose the Branch with it´s number [1/2] 1
+Rami disponibili:
+- ramo principale (aggiornamenti stabili) | predefinito, consigliato [1]
+- ramo notturno (aggiornamenti instabili, test) | non pronto per la produzione [2]
+Scegli il ramo con il suo numero [1/2] 1
 ```
 
-You should specify the following variables in mailcow.conf:
+Dovresti specificare le seguenti variabili in mailcow.conf:
 
 ```
 ADDITIONAL_SAN=mailadm.example.org
@@ -119,18 +119,18 @@ SKIP_SOLR=y
 SKIP_SOGO=y
 ```
 
-The last 3 options remove services which are not needed for a minimal setup.
+Le ultime 3 opzioni rimuovono i servizi che non sono necessari per una configurazione minima.
 
-After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`.
+Dopodiché dobbiamo eseguire `printf "#\n" > data/conf/dovecot/global_sieve_before`.
 
-### Mailadm NGINX config
+### Configurazione Mailadm NGINX
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So first create the file `data/conf/nginx/server_name.active` and write
-`mailadm.example.org` to it - this means that nginx will listen to requests for
-this domain.
+`mailadm.example.org/new_email` deve essere raggiungibile per le richieste HTTP per
+funzionare. Quindi prima crea il file `data/conf/nginx/server_name.active` e scrivi
+`mailadm.example.org` in esso - questo significa che nginx ascolterà le richieste di
+questo dominio.
 
-Then add the following block to `data/conf/nginx/site.mailadm.custom`:
+Quindi aggiungi il seguente blocco a `data/conf/nginx/site.mailadm.custom`:
 
 ```
   location /new_email {
@@ -138,65 +138,65 @@ Then add the following block to `data/conf/nginx/site.mailadm.custom`:
   }
 ```
 
-Make sure to replace this example IP address with your server's IP address.
+Assicurati di sostituire questo indirizzo IP di esempio con l'indirizzo IP del tuo server.
 
-This will forward all requests to `mailadm.example.org/new_email` to the mailadm
-container later.
+Questo inoltrerà tutte le richieste a `mailadm.example.org/new_email` al contenitore
+mailadm in seguito.
 
-### Download mailcow containers
+### Scarica i containers mailcow
 
-Now run `sudo docker compose pull` to download the mailcow containers. If you don't
-have access to docker.com at this step, you can [use an HTTP
-proxy](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
+Ora esegui `sudo docker compose pull` per scaricare i container mailcow. Se non hai
+accesso a docker.com in questo passaggio, puoi [usare un proxy
+HTTP](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
 
-### Start Mailcow
+### Avvia Mailcow
 
-Now start mailcow with `sudo docker compose up -d`.
+Ora avvia mailcow con `sudo docker compose up -d`.
 
-### Disabling IPv6 for mailcow
+### Disattivazione di IPv6 per mailcow
 
-If your server doesn't have an IPv6 address, you should [disable
+Se il tuo server non ha un indirizzo IPv6, dovresti [disabilitare
 IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
 
-### Adding Domain in Mailcow
+### Aggiunta Dominio in Mailcow
 
-Now you can login to the mailcow web interface at https://mail.example.org. The
-default username is `admin` and the password is `moohoo`. You should change
-this password to something more secure.
+Ora puoi accedere all'interfaccia web di mailcow su https://mail.example.org. Il
+nome utente predefinito è `admin` e la password è `moohoo`. Dovresti cambiare
+questa password con qualcosa di più sicuro.
 
-![The Mailcow web interface.](../assets/blog/mailcow-UI-login.png)
+![L'interfaccia web di Mailcow.](../assets/blog/mailcow-UI-login.png)
 
-Next, add a domain in the web interface under "E-Mail > Configuration > Domains".
-Somethings like this makes sense:
+Successivamente, aggiungi un dominio nell'interfaccia web in "E-Mail > Configurazione > Domini".
+Una cosa del genere ha senso:
 
 - domain: example.org
 - max. mailboxes: 999999
-- default mailbox quota: 3076 (it doesn't matter, mailadm will override this)
-- max. mailbox quota: 17240 (basically a bit less than your free disk space)
-- domain quota: 17240 (basically a bit less than your free disk space)
+- default mailbox quota: 3076 (non importa, mailadm lo sovrascriverà)
+- max. mailbox quota: 17240 (fondamentalmente un po' meno dello spazio libero su disco)
+- domain quota: 17240 (fondamentalmente un po' meno dello spazio libero su disco)
 
-![Creating a domain in mailcow](../assets/blog/mailcow-create-domain.png)
+![Creazione di un dominio in mailcow](../assets/blog/mailcow-create-domain.png)
 
-After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
-You can try it out with Delta Chat now.
+Successivamente, puoi andare su "E-Mail > Configurazione > Caselle di posta" e creare un primo account.
+Puoi provarlo ora con Delta Chat.
 
-#### Optional: Add Additional DNS Entries
+#### Facoltativo: Aggiungere Ulteriori Voci DNS
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further reccomendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+In "E-Mail > Configurazione > Domini", a destra accanto al tuo dominio, puoi vedere un
+Pulsante blu "DNS". Fornisce ulteriori raccomandazioni per le voci DNS che potrebbero
+aiutare se hai problemi a far recapitare le tue e-mail ad altri server.
 
-![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
+![Visualizzazione delle impostazioni DNS in Mailcow](../assets/blog/mailcow-dns-settings.png)
 
-## Setting up mailadm
+## Configurazione di mailadm
 
-Now we can set up mailadm - with this tool you can generate QR codes, which
-people can scan from Delta Chat to create an e-mail account on your server. It
-is probably the easiest way for users to get started with Delta Chat.
+Ora possiamo configurare mailadm: con questo strumento puoi generare codici QR, che
+le persone possono scansionare da Delta Chat per creare un account e-mail sul tuo server. Esso
+è probabilmente il modo più semplice per gli utenti di iniziare con Delta Chat.
 
-### Downloading mailadm
+### Scaricare mailadm
 
-You can use these commands to download mailadm:
+Puoi usare questi comandi per scaricare mailadm:
 
 ```
 cd ~
@@ -205,16 +205,16 @@ cd mailadm
 mkdir docker-data
 ```
 
-### Building mailadm
+### Costruire mailadm
 
-Now you can build the mailadm docker container with
+Ora puoi creare il container docker mailadm con
 `sudo docker build . -t mailadm-mailcow`.
 
-#### If docker.com or pypi.org is Blocked
+#### Se docker.com o pypi.org è Bloccato
 
-If your server can't reach docker.com, dl-cdn.alpinelinux.org, or pypi.org,
-this will fail. But you can build the docker container on a different machine
-and copy it to the VPS:
+Se il tuo server non riesce a raggiungere docker.com, dl-cdn.alpinelinux.org, o pypi.org,
+questo fallirà. Ma puoi creare il contenitore docker su una macchina diversa
+e copialo nel VPS:
 
 ```
 sudo docker build . -t mailadm-mailcow
@@ -224,23 +224,23 @@ ssh example.org
 sudo docker load --import mailadm-image.tar
 ```
 
-### Getting an API token from the web interface
+### Ottenere un token API dall'interfaccia web
 
-Now you can go to https://mail.example.org/admin again, to get a mailcow API
-key.
+Ora puoi andare su https://mail.example.org/admin di nuovo, per ottenere una chiave API
+mailcow.
 
-You have to activate the API (Make sure to use the "Read-Write Access API" and
-not the "Read-Only Access API"!) and enter your server's br-mailcow interface
-IP address under "Allow API access from these IPs/CIDR network notations". You
-can find out the IP address with `ip a show br-mailcow`.
+Devi attivare l'API (assicurati di utilizzare "Read-Write Access API" e
+non "Read-Only Access API"!) ed entra nell'interfaccia br-mailcow del tuo server
+Indirizzo IP in "Allow API access from these IPs/CIDR network notations". Tu
+può trovare l'indirizzo IP con `ip a show br-mailcow`.
 
-Check the checkbox "Activate API and then click on "Save Changes" and copy the
-API key.
+Seleziona la casella di controllo "Activate API, quindi fai clic su "Save Changes" e copia la
+Chiave API.
 
-### Configuring mailadm
+### Configurazione di mailadm
 
-Then, in the mailadm directory, create a `.env` file and configure mailadm like
-this:
+Quindi, nella directory mailadm, crea un file `.env` e configura mailadm come
+Questo:
 
 ```
 MAIL_DOMAIN=example.org
@@ -249,79 +249,79 @@ MAILCOW_ENDPOINT=https://mail.example.org/api/v1/
 MAILCOW_TOKEN=238473-081241-7A78B1-B7098C-E798BA
 ```
 
-At `MAILCOW_TOKEN`, enter the API key which you just got from the mailcow web
-interface.
+In `MAILCOW_TOKEN`, inserisci la chiave API che hai appena ricevuto dall'interfaccia web
+mailcow.
 
-If you are unsure how to choose the values in .env, take a look at the
-[documentation](https://mailadm.readthedocs.io/en/latest/#configuration-details)
-of mailadm.
+Se non sei sicuro di come scegliere i valori in .env, dai un'occhiata al file
+[documentazione](https://mailadm.readthedocs.io/en/latest/#configuration-details)
+di mailadm.
 
-### Add mailadm alias
+### Aggiungi alias mailadm
 
-Now to make it easier to run mailadm commands, add this alias:
+Ora per semplificare l'esecuzione dei comandi mailadm, aggiungi questo alias:
 
 ```
 alias mailadm="$PWD/scripts/mailadm.sh"
 echo "alias mailadm=$PWD/scripts/mailadm.sh" >> ~/.bashrc
 ```
 
-### Start mailadm
+### Esegui mailadm
 
-Then you can initialize the database and setup the bot mailadm will use to
-receive commands and support requests from your users:
+Poi puoi inizializzare il database e configurare il bot che mailadm utilizzerà
+per ricevere comandi e richieste di supporto dai tuoi utenti:
 
 ```
 mailadm init
 mailadm setup-bot
 ```
 
-Then you are asked to scan a QR code to join the Admin Group, a verified Delta
-Chat group. Anyone in the group can issue commands to mailadm via Delta Chat.
-You can send “/help” to the group to learn how to use it.
+Poi ti viene chiesto di scansionare un codice QR per unirti al Gruppo di Amministratori, un gruppo
+verificato di Delta Chat. Chiunque nel gruppo può impartire comandi a mailadm tramite Delta Chat.
+Puoi inviare "/help" al gruppo per imparare ad usarlo.
 
-Now, as everything is configured, we can start the mailadm container for good:
+Ora che tutto è configurato, possiamo avviare definitivamente il container mailadm:
 
 ```
 sudo docker run -d -p 3691:3691 --mount type=bind,source=$PWD/docker-data,target=/mailadm/docker-data --name mailadm mailadm-mailcow gunicorn -b :3691 -w 1 mailadm.app:app
 ```
 
-This starts a `mailadm` docker container. You can restart it with `sudo docker
-restart mailadm`, should you ever want to.
+Questo avvia un container docker `mailadm`. Puoi riavviarlo con `sudo docker
+restart mailadm`, se lo desideri.
 
-#### First steps with mailadm
+#### Primi passi con mailadm
 
-That's it! You can now get started with creating tokens and users with mailadm.
-Best look at the documentation for the [first
-steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
-contains hints for troubleshooting the setup if something doesn't work.
+Questo è tutto! Ora puoi iniziare a creare token e utenti con mailadm.
+Dai un'occhiata alla documentazione per i [primi
+passi](https://mailadm.readthedocs.io/en/latest/#first-steps) - e contiene
+anche suggerimenti per la risoluzione dei problemi d'installazione se qualcosa non funziona.
 
-## Optional: Disable POP3
+## Opzionale: disabilita POP3
 
-Delta Chat uses only SMTP and IMAP,
-so if all of your users use Delta Chat,
-you can disable POP3.
+Delta Chat utilizza solo SMTP e IMAP,
+quindi, se tutti i tuoi utenti utilizzano Delta Chat,
+puoi disabilitare POP3.
 
-To do this, add the following to `mailcow.conf`:
+Per fare ciò, aggiungi quanto segue a `mailcow.conf`:
 
 ```
 POP_PORT=127.0.0.1:110
 POPS_PORT=127.0.0.1:995
 ```
 
-Then apply the changes with `sudo docker compose up -d`.
+Quindi applica le modifiche con `sudo docker compose up -d`.
 
-## Optional: Redirect all HTTP traffic to HTTPS
+## Facoltativo: Reindirizza tutto il traffico HTTP su HTTPS
 
-By default,
-the nginx server also responds unencrypted
-on port 80.
-This can be bad,
-as some users might enter passwords
-over this unencrypted connection.
+Per impostazione predefinita,
+anche il server nginx risponde in chiaro
+sulla porta 80.
+Questo può essere un male,
+poiché alcuni utenti potrebbero inserire password
+su questa connessione non crittografata.
 
-To prevent this,
-create a new file `data/conf/nginx/redirect.conf`
-and add the following server config to the file:
+Per evitare questo,
+creare un nuovo file `data/conf/nginx/redirect.conf`
+e aggiungi la seguente configurazione del server al file:
 
 ```
 server {
@@ -340,23 +340,23 @@ server {
 }
 ```
 
-Then apply the changes with `sudo docker compose restart nginx-mailcow`.
+Quindi applica le modifiche con `sudo docker compose restart nginx-mailcow`.
 
-## Optional: No Logs, No Masters
+## Opzionale: Nessun Registro, Nessun Master
 
-Mailcow logs the IP addresses of your users for debugging purposes, so if you
-don't want to keep this critical information on your server, you might want to
-disable logging. Note that this makes debugging of issues considerably harder.
-Nobody but you can guess whether this is necessary in your environment.
+Mailcow registra gli indirizzi IP dei tuoi utenti a scopo di debug, quindi se tu
+non vuoi mantenere queste informazioni critiche sul tuo server, potresti voler
+disabilitare la registrazione. Si noti che ciò rende notevolmente più difficile il debugging dei problemi.
+Nessuno tranne te può indovinare se questo è necessario nel tuo ambiente.
 
-Mailcow keeps some logs in redis, so you can show it in the web interface - but
-if you add `command: '--save ""'` to the redis-server container in
-docker-compose.yml, it keeps them only in the RAM, which is hopefully not saved
-by a potential attacker.
+Mailcow conserva alcuni log in redis, quindi puoi mostrarli nell'interfaccia web, ma
+se aggiungi `command: '--save ""'` al container redis-server in
+docker-compose.yml, li mantiene solo nella RAM, che si spera non venga salvata
+da un potenziale aggressore.
 
-To point the actual log files in `/dev/null`, aka Nirvana, you can:
+Per puntare i file di log effettivi in `/dev/null`, noto anche come Nirvana, puoi:
 
-Add the following lines to each container in
+Aggiungi le seguenti righe a ciascun container in
 `mailcow-dockerized/docker-compose.yml`:
 
 ```
@@ -367,25 +367,25 @@ Add the following lines to each container in
           syslog-facility: "local3"
 ```
 
-Now you can configure rsyslog to listen on that port for log input. Uncomment
-the following lines in `/etc/rsyslog.conf`:
+Ora puoi configurare rsyslog per ascoltare su quella porta l'input del log. Decommenta
+le seguenti righe in `/etc/rsyslog.conf`:
 
 ```
 module(load="imudp")
 input(type="imudp" port="514")
 ```
 
-And put this in `/etc/rsyslog.d/` to redirect all of that to nirvana:
+E inserisci questo in `/etc/rsyslog.d/` per reindirizzare tutto ciò al nirvana:
 
 ```
 local3.*        /dev/null
 & stop
 ```
 
-Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
-`sudo docker compose up -d`.
+Infine, riavvia rsyslog con `sudo service rsyslog restart` e mailcow con
+`sudo docker componi -d`.
 
-Consider looking at the [Mailcow logging
-documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
-for alternatives to this configuration.
+Prendi in considerazione l'idea di esaminare il file [Registrazione di Mailcow
+documentazione](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
+per alternative a questa configurazione.
 

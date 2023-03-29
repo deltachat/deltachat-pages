@@ -7,19 +7,18 @@ lang: pl
 
 Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj nasze [Standardy społeczności](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fediverse](https://chaos.social/web/@delta) do ogłoszeń i informacji zwrotnych.
 
-- With your Delta Chat app you can send a `/list` message to [a community
-  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
+- Za pomocą aplikacji Delta Chat możesz wysłać `/list` wiadomość do [bota grup społecznościowych (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) , aby odkryć i dołączyć do różnych grup czatu.
 
 - [Forum wsparcia Delta Chat](https://support.delta.chat) do
   szerszych dyskusji na temat funkcji i uzyskania wsparcia.
 
 - [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można znaleźć kod aplikacji Delta Chat i tej strony internetowej.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Więcej linków można znaleźć w [kosmosie](https://cosmos.delta.chat)
 
-[Donate Money](donate){: .cta-button}
+[Przekaż pieniądze](donate){: .cta-button}
 
 # Tłumaczenia i raportowanie błędów
 
@@ -29,9 +28,6 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 - [Problemy z Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemy z Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
+Stale poszukujemy programistów i projektantów. Zazwyczaj oferujemy kontrakty na 20-30 godzin tygodniowo lub zatrudnienie (jeśli pracujesz w Niemczech). Jeśli chcesz wspomóc nasze wysiłki, nie wahaj się i skontaktuj z nami (delta at merlinux eu)!
 
-For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+Aby uzyskać więcej informacji, zalecamy przeczytanie i śledzenie naszego [bloga](https://delta.chat/en/blog).
