@@ -5,24 +5,24 @@ lang: nl
 
 # Kanalen en repo's
 
-For community interactions around Delta Chat please read our [Community Standards](community-standards).
+Als je wilt meepraten in de Delta Chat-gemeenschap, neem dan onze [gemeenschapsrichtlijnen](community-standards) door.
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fediverse](https://chaos.social/web/@delta) - aankondigingen en feedback.
 
-- With your Delta Chat app you can send a `/list` message to [a community
-  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
+- Met behulp van Delta Chat kun je een `/list`-bericht sturen aan [een groepsbot
+  van de gemeenschap (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) om de verschillende gespreksgroepen te ontdekken.
 
 - [Delta Chat-ondersteuningsforum](https://support.delta.chat) - voor het uitwisselen van
   ideëen en het verkrijgen van ondersteuning.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Delta Chat-repo's](https://github.com/deltachat/) - hier vind je 
+  de broncode van de DeltaChat-apps en deze website.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Meer links zijn te vinden in de [cosmos](https://cosmos.delta.chat)
 
-[Donate Money](donate){: .cta-button}
+[Geld doneren](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Vertaling en bugmeldingen 
 
 - [Vertalen via Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat voor Android-problemen](https://github.com/deltachat/deltachat-android/issues)
@@ -30,9 +30,8 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Delta Chat voor iOS-problemen](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust-kernbibliotheek- en Python Bindings-problemen](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
+We zijn altijd op zoek naar ontwikkelaars en ontwerpers.
+Doorgaans bieden we 20-30-urencontracten of vaste indienststelling aan (laatstgenoemde alleen in Duitsland). 
+Neem contact met ons op (delta at merlinux punt eu) als je geïnteresseerd bent!
 
-For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+Meer achtergrondinformatie is te vinden op ons [blog](https://delta.chat/en/blog).

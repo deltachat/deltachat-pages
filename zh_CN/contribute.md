@@ -14,14 +14,13 @@ lang: zh_CN
 
 - [Delta Chat 支持论坛](https://support.delta.chat) ：更广泛的功能讨论和获得支持。
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Delta Chat 仓库](https://github.com/deltachat/) ：在这里可以找到 DeltaChat 应用和本网站的代码。
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- 更多链接可以在 [cosmos](https://cosmos.delta.chat) 中找到。
 
 [Donate Money](donate){: .cta-button}
 
-# Translations and Bug Reports
+# 翻译与报告错误
 
 - [Transifex 上的翻译](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Android 版问题](https://github.com/deltachat/deltachat-android/issues)
@@ -29,9 +28,6 @@ lang: zh_CN
 - [Delta Chat iOS 版问题](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust 核心库 + Python 绑定问题](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
+我们一直在寻找开发和设计人员。我们一般提供每周 20-30 小时的合同或工作（如果位于德国）。如果您愿意帮助我们，请联系 (delta at merlinux eu) ！ 
 
 For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
