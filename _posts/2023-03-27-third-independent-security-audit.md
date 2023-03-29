@@ -5,7 +5,7 @@ image: ../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg
 com_id: 110096123048962714
 ---
 
-In case you wonder how safe Delta Chat's core messaging implementation and server guides is, 
+In case you wonder how safe Delta Chat's core messaging implementation and server guides are, 
 you may be interested in the summary statement 
 from the [recent independent security audit by Cure53](../assets/blog/MER-01-report.pdf):
 
