@@ -341,7 +341,7 @@ both **devices are completely independent.**
 One device is not needed for the other to work.
 
 
-### Troubleshooting
+### Rozwiązywanie problemów
 
 - Double-check both devices are in the **same Wi-Fi or network**
 
@@ -362,9 +362,9 @@ One device is not needed for the other to work.
   try the **manual transfer** described below
 
 
-### Manual Transfer
+### Ręczne przenoszenie
 
-This method is only recommended if "Add Second Device" as described above does not work.
+Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne urządzenie” nie działa.
 
 - Na starym urządzeniu przejdź do „Ustawienia » Czaty i media » Eksport kopii zapasowej”. Wprowadź swój PIN odblokowania ekranu, wzór lub hasło. Następnie możesz nacisnąć „Utwórz kopię”. Spowoduje to zapisanie pliku kopii zapasowej na urządzeniu. Teraz musisz jakoś przenieść go na inne urządzenie.
 - Na nowym urządzeniu, na ekranie logowania, zamiast logować się na swoje konto e-mail, wybierz „Przywróć z kopii zapasowej”. Po zaimportowaniu Twoje rozmowy, klucze szyfrujące i multimedia powinny zostać skopiowane na nowe urządzenie.

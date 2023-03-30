@@ -5,24 +5,24 @@ lang: sq
 
 # Kanale dhe depo
 
-For community interactions around Delta Chat please read our [Community Standards](community-standards).
+Për ndërveprime bashkësie rreth Delta Chat-it, ju lutemi, lexoni [Standarded e Bashkësisë tonë](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fediverse](https://chaos.social/web/@delta) për njoftime dhe përshtypje.
 
-- With your Delta Chat app you can send a `/list` message to [a community
-  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
+- Me aplikacionin tuaj Delta Chat mund të dërgoni një mesazh `/list` për [një
+  robot grupesh bashkësie (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) që të zbuloni dhe bëheni pjesë e grupesh të ndryshme fjalosjeje.
 
 - [Forum asistence për Delta Chat-in](https://support.delta.chat) për
   diskutime më të gjera dhe për të marrë asistencë.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Depo Delta Chat](https://github.com/deltachat/) ku mund
+  të gjeni kodin për aplikacionet DeltaChat dhe këtë sajt.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Më tepër lidhje mund të gjenden te [cosmos](https://cosmos.delta.chat)
 
-[Donate Money](donate){: .cta-button}
+[Dhuroni Para](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Përkthime dhe Njoftime të Metash
 
 - [Përkthime në Transifex](https://www.transifex.com/delta-chat/public/)
 - [Probleme në Delta Chat për Android](https://github.com/deltachat/deltachat-android/issues)
@@ -30,9 +30,9 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Probleme Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
+Kërkojmë përherë zhvillues dhe hartues grafikë.
+Zakonisht ofrojmë kontrata ose punësime 20-30 orë në javë (në qofshi banor i Gjermanisë).
+Ju lutemi, mos ngurroni të lidheni me ne (delta at merlinux eu),
+nëse ju intereson të ndihmoni përpjekjet tona!
 
-For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+Për më tepër sfond rekomandojmë të lexoni dhe ndiqni [blogun tonë](https://delta.chat/en/blog).

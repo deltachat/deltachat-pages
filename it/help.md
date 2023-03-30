@@ -435,47 +435,47 @@ FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
 
 ### Posso utilizzare Delta Chat su più dispositivi contemporaneamente?
 
-Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Sì. Delta Chat 1.36 è dotato di una nuova funzione sperimentale che consente di utilizzare lo stesso account su diversi dispositivi:
 
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+- Sul primo dispositivo, andare su **Impostazioni → Aggiungi Secondo Dispositivo**, sbloccare lo schermo se necessario
+  e attendere un attimo fino a quando non viene visualizzato un codice QR
 
-- On the second device, [install Delta Chat](https://get.delta.chat)
+- Sul secondo dispositivo, [installare Delta Chat](https://get.delta.chat)
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- Sul secondo dispositivo, avviare Delta Chat, selezionare **Aggiungi Come Secondo Dispositivo** e scansionare il codice QR del vecchio dispositivo.
 
-- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
-  Wait until it is finished on both devices.
+- Il trasferimento dovrebbe iniziare dopo pochi secondi e durante il trasferimento entrambi i dispositivi mostreranno il **progresso**.
+ Attendere il termine del trasferimento su entrambi i dispositivi.
 
-In contrast to many other messengers, after successful transfer,
-both **devices are completely independent.**
-One device is not needed for the other to work.
-
-
-### Troubleshooting
-
-- Double-check both devices are in the **same Wi-Fi or network**
-
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
-
-- Ensure there is **enough storage** on the destination device
-
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
-
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple accounts per device, just [add another account](#multiple-accounts)
-
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+A differenza di molti altri messengers, dopo un trasferimento riuscito,
+entrambi i **dispositivi sono completamente indipendenti.**
+Un dispositivo non è necessario perché l'altro funzioni.
 
 
-### Manual Transfer
+### Risoluzione dei problemi
 
-This method is only recommended if "Add Second Device" as described above does not work.
+- Verificare che entrambi i dispositivi siano nella **stessa rete o Wi-Fi**.
+
+- Il sistema potrebbe avere un "personal firewall",
+  che è noto per causare problemi (soprattutto su Windows).
+  **Disattivare il firewall personale** per Delta Chat su entrambe le estremità e riprovare.
+
+- Assicurarsi che sul dispositivo di destinazione ci sia **disponibilità di memoria sufficiente**.
+
+- Se il trasferimento è iniziato, assicurarsi che i dispositivi **rimangano attivi** e non si addormentino.
+  Non uscire da Delta Chat.
+  (cerchiamo di far funzionare l'applicazione in background, ma [i sistemi tendono a uccidere le applicazioni](https://dontkillmyapp.com), purtroppo).
+
+- Delta Chat è **già connesso** sul dispositivo di destinazione?
+  È possibile utilizzare più account per dispositivo, basta [aggiungere un altro account](#accounts-multipli)
+
+- Se si riscontrano ancora problemi o se **non si riesce a scansionare un codice QR**
+  provate il **trasferimento manuale** descritto di seguito
+
+
+### Trasferimento manuale
+
+Questo metodo è consigliato solo se "Aggiungi Secondo Dispositivo" come descritto sopra non funziona.
 
 - Sul vecchio dispositivo, andare su "Impostazioni -> Chat e Media -> Backup Chats su Memoria Esterna". Immettere il PIN, il tracciato o la password di
 sblocco dello schermo. Quindi è possibile fare clic su "Avvia

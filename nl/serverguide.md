@@ -1,13 +1,13 @@
 ---
-title: How to Setup a Mail Server for Delta Chat
+title: Hoe zet ik een e-mailserver voor Delta Chat op?
 lang: nl
 ---
 
-# How to Setup a Mail Server for Delta Chat
+# Hoe zet ik een e-mailserver voor Delta Chat op?
 
-Delta Chat is a chat messenger which runs on e-mail. This means we can use any
-e-mail server to run Delta Chat accounts. One e-mail server which is easy to
-setup and manage, and works with Delta Chat out of the box, is
+Delta Chat is een gespreksapp die op basis van e-mail werkt. Dit houdt in dat je elke
+e-mailserver kunt gebruiken. Een van de eenvoudigste e-mailservers
+(zowel qua instellen als beheer) en direct met Delta Chat werkt is
 [Mailcow](https://mailcow.email).
 
 You can run it together with [mailadm](https://mailadm.readthedocs.io), which
