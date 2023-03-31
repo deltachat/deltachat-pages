@@ -9,10 +9,10 @@ In case you wonder how safe Delta Chat's core messaging implementation and serve
 you may be interested in the summary statement 
 from the [recent independent security audit by Cure53](../assets/blog/MER-01-report.pdf):
 
-    "... a positive impression following the completion of this review, 
-    particularly relating to strong SSL/TLS encryption, the mail server, 
-    and client library, which have all made excellent progress 
-    toward offering a first-rate framework from a security perspective."
+> ... a positive impression following the completion of this review, 
+> particularly relating to strong SSL/TLS encryption, the mail server, 
+> and client library, which have all made excellent progress 
+> toward offering a first-rate framework from a security perspective.
 
 We also took the opportunity to publish FAQ entries (finally!) about [two security audits in 2019 and 2020](help#was-delta-chat-independently-audited-for-security-vulnerabilities) by [Include Security](https://includesecurity.com), 
 covering in particular the [pure Rust PGP implementation](https://crates.io/crates/pgp), 
