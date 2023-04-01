@@ -179,7 +179,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
-### Grupos
+## Grupos
 
 ### Creación de un grupo
 
