@@ -21,35 +21,26 @@ Delta Chat це новий додаток для спілкування, яки�
 
 ### Які переваги Delta Chat у порівнянні з іншими месенджерами?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end-encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- _Незалежний_ від будь-яких компаній та сервісів. _Ви_ власник ваших даних.
+- Ваші дані не зберігаються на центральному сервері.
+- Ви не передаєте нікому свою адресну книгу.
+- _Швидкий_ завдяки використанню Push-IMAP.
+- _Найбільша користувацька база_ - адресати, що _не_ використовують Delta Chat може отримати ваше повідомлення.
+- _Без спаму_ - лише повідомлення від відомих користувачів відображаються за умовчанням.
+- _Наскрізне шифрування_, що базується на Autocrypt.
+- _Вільне_ програмне забезпечення засноване на _стандартах_.
+- _Гнучка ідентифікація_ з вбудованою підтримкою [кількох облікових записів](#multiple-accounts)
 
 
 ### Які повідомлення відображаються у Delta Chat?
 
-By default, Delta Chat shows all e-mails.
+За замовчуванням Delta Chat відображає всі електронні листи.
 
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
+У "Налаштування -> Чати та Медіа -> Показати класичні електронні листи", ви можете змінити це. У вас є такі параметри:
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- «Ні, лише чати»: лише повідомлення, надіслані іншими користувачами Delta Chat, і відповіді на них відображаються ваші повідомлення Delta Chat. Це має найбільший сенс, якщо ви використовуєте той самий обліковий запис електронної пошти також для звичайної електронної пошти.
+- «Усі»: Delta Chat показує всі електронні листи, надіслані на вашу електронну адресу. Це має сенс, якщо ви хочете використовувати Delta Chat для всіх ваших електронних листів, тому жодних повідомлень не губиться. Це налаштування за замовчуванням.
+- «Для прийнятих контактів»: Delta Chat показує всі електронні листи від контактів, з ким у вас уже є чат, але нові чати з’являються лише для повідомлень Delta Chat. Це допоможе вирішити в кожному конкретному випадку, чи бажаєте ви мати a розмова в Delta Chat або в «звичайній» програмі електронної пошти.
 
 
 ### Що робити, якщо я очікую повідомлення від когось, кому раніше не писав?
@@ -63,15 +54,15 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - Так. Крім звичайного тексту, всі вкладення електронної пошти відображаються у вигляді окремих повідомлень. Вихідні повідомлення автоматично отримують вкладення.
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+- З міркувань продуктивності, зображення оптимізовані та надсилаються в меншому розмірі за замовчуванням, але ви можете надіслати їх як «файл», щоб зберегти оригінал.
 
-<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+<h3 id="multiple-accounts">Як я можу додати або переключитися між кількома обліковими записами?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Ви можете легко працювати з додатковими обліковими записами в мобільних і десктопних клієнтах Delta Chat, натиснувши одне з: 
+- на кнопці меню, а потім «Змінити обліковий запис» (Android і десктоп) 
+- або значок профілю, а потім «Додати обліковий запис» (iOS)
 
-You may also wish to learn [how to add accounts to multiple devices](#can-i-use-delta-chat-on-multiple-devices-at-the-same-time).
+Ви також можете дізнатися [як додати облікові записи на кілька пристроїв](#can-i-use-delta-chat-on-multiple-devices-at-the-same-time).
 
 ### Хто бачить моє зображення профілю?
 
@@ -132,8 +123,8 @@ You may also wish to learn [how to add accounts to multiple devices](#can-i-use-
 
 - **Приглушіть чати** якщо ви не хочете отримувати сповіщення для них. Приглушені чати залишаються на місці і ви також можете закріпити приглушений чат.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  Archived chats remain accessible above the chat list or via search. 
+- **Архівуйте чати**, якщо ви більше не хочете бачити їх у своєму списку чатів. 
+Заархівовані чати залишаються доступними над списком чатів або через пошук.
 
 - Коли архівний чат отримує нове повідомлення, якщо не приглушений, він **вискочить з архіву** і повернеться у ваш список чатів.
   **Приглушені чати залишаються заархівованим** доки ви не розархівуєте їх вручну.
@@ -245,27 +236,17 @@ You may also wish to learn [how to add accounts to multiple devices](#can-i-use-
 - Якщо ж **замочка немає**, повідомлення зазвичай відправлено незашифрованим тому, що ви або відправник вимкнули наскрізне шифрування, або відправник використовує додаток без підтримки наскрізного шифрування.
 
 
-### How can I ensure message encryption and deletion?
+### Як я можу забезпечити шифрування та видалення повідомлень?
 
-The best way to ensure every message is encrypted,
-and metadata deleted as quickly as possible
-is creating a verified group and turning on
-self-destructing messages.
+Найкращий спосіб переконатися, що кожне повідомлення зашифровано, і метадані видалені якомога швидше - створити перевірену групу та увімкнути повідомлення, що самознищуються.
 
-Verified groups are always encrypted and protected against [MITM
-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+Перевірені групи завжди зашифровані та захищені від [MITM атак](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
 
-Metadata can't be encrypted, as the server needs to know where to deliver your
-messages. But turning on "self-destructing messages" deletes the messages on
-the server after they were delivered.
+Метадані не можна зашифрувати, оскільки сервер повинен знати, куди доставити ваші повідомлення. Але ввімкнення «самознищення повідомлень» видаляє повідомлення на сервері після їх доставки.
 
-If you need the messages on your device, but not on the server, you can also
-agree in the group to turn on ["delete messages from server
-automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+Якщо вам потрібні повідомлення на вашому пристрої, а не на сервері, ви також можете домовитися в групі, щоб увімкнути ["видалити повідомлення з сервера автоматично"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
 
-If you want to protect a 1:1 conversation like this, you should create a
-verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+Якщо ви хочете захистити таким чином розмову 1:1, вам слід створити перевірену група лише з 2 осіб. Якщо інша особа втратить свій пристрій, але не свій обліковий запис, ви все одно зможете спілкуватися в чаті 1:1. ([Докладніше](#wha-t-is-the-difence-between-verified-groups-and-11-chats-with-verified-contacts))
 
 
 ### Які стандарти використовуються для наскрізного шифрування?
@@ -319,56 +300,41 @@ Delta Chat підтримує поширені формати приватних
 Видалення пароля з приватного ключа буде залежати від програмного забезпечення, яке використовується для управління ключами PGP. За допомогою Enigmail ви можете встановити для порожній пароль у вікні Керування ключами. За допомогою GnuPG ви можете встановити його [через командний рядок](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429). Для інших програм ви зможете знайти рішення в інтернеті.
 
 
-### Чому ви не використовуєте pEp (pretty easy privacy)?
-
-- Delta Chat використовує наскрізне шифрування Autocrypt. Для обговорення Autocrypt та pEp, перейдіть до [Autocrypt FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Мульти-клієнт {#multiclient}
 
 ## Чи можна використовувати Delta Chat на декількох пристроях одночасно?
 
-Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Так. У Delta Chat 1.36 є нова експериментальна функція для використання одного облікового запису на різних пристроях:
 
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+- На першому пристрої перейдіть до **Налаштування → Додати другий пристрій**, розблокуйте екран, якщо потрібно і трохи зачекайте, поки не з’явиться QR-код
 
-- On the second device, [install Delta Chat](https://get.delta.chat)
+- На другому пристрої [встановіть Delta Chat](https://get.delta.chat)
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- На другому пристрої запустіть Delta Chat, виберіть **Додати як другий пристрій** і відскануйте QR-код зі старого пристрою
 
-- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
-  Wait until it is finished on both devices.
+- Передача має розпочатися через кілька секунд, і під час передачі обидва пристрої відображатимуть **прогрес**. Дочекайтеся завершення на обох пристроях.
 
-In contrast to many other messengers, after successful transfer,
-both **devices are completely independent.**
-One device is not needed for the other to work.
+На відміну від багатьох інших месенджерів, після успішної передачі, обидва **пристрої повністю незалежні.** Один пристрій не потрібен для роботи іншого.
 
 
-### Troubleshooting
+### Вирішення проблем
 
-- Double-check both devices are in the **same Wi-Fi or network**
+- Ще раз упевніться, що обидва пристрої підключені до **одного Wi-Fi або мережі**
 
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
+- Ваша система може мати "персональний брандмауер", який, як відомо, викликає проблеми (особливо у Windows). **Вимкніть персональний брандмауер** для Delta Chat на обох кінцях і повторіть спробу
 
-- Ensure there is **enough storage** on the destination device
+- Переконайтеся, що на цільовому пристрої **достатньо пам’яті**
 
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+- Якщо передача почалася, переконайтеся, що пристрої **залишаються активними** і не засинають.  Не виходьте з Delta Chat. (ми докладаємо всіх зусиль, щоб програма працювала у фоновому режимі, але [системи, як правило, вбивають програми](https://dontkillmyapp.com), на жаль)
 
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple accounts per device, just [add another account](#multiple-accounts)
+- Delta Chat **уже ввійшов** на цільовому пристрої? Ви можете використовувати кілька облікових записів на одному пристрої, просто [додайте інший обліковий запис](#multiple-accounts)
 
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+- Якщо у вас усе ще виникають проблеми або якщо ви **не можете відсканувати QR-код** спробуйте **перенесення вручну**, описане нижче
 
 
-### Manual Transfer
+### Перенесення вручну
 
-This method is only recommended if "Add Second Device" as described above does not work.
+Цей спосіб рекомендований, лише якщо «Додати другий пристрій», як описано вище, не працює.
 
 - На старому пристрої перейдіть у «Налаштування -> Чати та медіа -> Експорт резервної копії». Введіть ваш PIN-код, ключ або пароль розблокування екрана. Потім ви можете натиснути "Почати Резервне копіювання". Це збереже файл резервної копії на вашому пристрої. Тепер вам потрібно перенести на інший пристрій якимось чином. 
 - На новому пристрої, на екрані входу, замість входу в свою електронну пошту виберіть «Імпорт резервної копії». Після імпорту, ваші розмови, ключі шифрування та носій потрібно скопіювати на новий пристрій. 
@@ -506,12 +472,10 @@ This method is only recommended if "Add Second Device" as described above does n
 Проте для коректної роботи деяких провайдерів потрібні специфічні налаштування. Дивіться наш [огляд провайдерів](https://providers.delta.chat)
 
 
-### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+### Я хочу керувати власним сервером електронної пошти для Delta Chat. Що ви порадите?
 
-- Most mail servers will work well. But what we personally recommend is a
-  combination of mailcow and mailadm, as described [in this
-  blogpost](2023-01-26-upcoming-mail-server-workshops).
-- You can find an [installation guide on our website](serverguide).
+- Більшість поштових серверів працюватимуть добре. Але ми особисто рекомендуємо поєднання mailcow і mailadm, як описано [у цьому пості](2023-01-26-upcoming-mail-server-workshops). 
+- Ви можете знайти [посібник із встановлення на нашому веб-сайті] (serverguide).
 
 
 ### Якщо Delta Chat використовує електронну пошту, чи насправді він є _Instant_ месенджером?
@@ -539,40 +503,15 @@ This method is only recommended if "Add Second Device" as described above does n
 
 - Дивіться [Стандарти, що використовуються у Delta Chat]({% include standards-url %}).
 
-### Was Delta Chat independently audited for security vulnerabilities?
+### Чи проходив Delta Chat незалежний аудит на наявність вразливостей у безпеці?
 
-The Delta Chat project underwent three independent security audits in the last
-years:
+Проект Delta Chat пройшов три незалежні перевірки безпеки за останні роки:
 
-- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's [PGP](https://github.com/rpgp/rpgp) and
-  [RSA](https://github.com/RustCrypto/RSA) libraries.
-  It found no critical issues,
-  but two high-severity issues that we subsequently fixed.
-  It also revealed one medium-severity and some less severe issues,
-  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
-  Some of them we nevertheless fixed since the audit was concluded.
-  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+- У 2019 році [Include Security](https://includesecurity.com) проаналізувала бібліотеки [PGP](https://github.com/rpgp/rpgp) і [RSA](https://github.com/RustCrypto/RSA) із Delta Chat. Він не виявив критичних проблем, лише дві серйозні проблеми, які ми згодом виправили. Він також виявив одну проблему середньої тяжкості та кілька менш серйозних, але не було можливості використати ці вразливості в реалізації Delta Chat. Деякі з них ми все ж усунули після завершення аудиту. Ви можете прочитати [повний звіт тут](../assets/blog/2019-first-security-review.pdf).
 
-- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
-  [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+- У 2020 році [Include Security](https://includesecurity.com) проаналізувала Rust-[ядро](https://github.com/deltachat/deltachat-core-rust/) Delta Chat і бібліотеки [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) та [TLS](https://github.com/async-email/async-native-tls). Він не виявив критичних або серйозних проблем. У звіті виявлено кілька слабких місць середнього ступеня тяжкості – вони самі по собі не становлять загрози для користувачів Delta Chat оскільки вони залежать від середовища, у якому використовується Delta Chat. З міркувань зручності використання та сумісності ми не можемо пом'якшити їх усі тому вирішили надати рекомендації щодо безпеки користувачам, яким загрожує небезпека. Ви можете прочитати [повний звіт тут](../assets/blog/2020-second-security-review.pdf).
 
-- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
-  Delta Chat's network connections and a reproducible mail server setup as
-  [recommended on this site](serverguide).
-  You can read more about the audit [on our blog](2023-03-23-third-independent-security-audit)
-  or read the [full report here](../assets/blog/MER-01-report.pdf).
+- Починаючи з 2023 року [Cure53](https://cure53.de) проаналізував транспортне шифрування мережевих з’єднань Delta Chat і відтворюване налаштування поштового сервера як [рекомендовано на цьому сайті](serverguide). Ви можете прочитати більше про аудит [у нашому блозі](2023-03-23-third-independent-security-audit) або прочитайте [повний звіт тут](../assets/blog/MER-01-report.pdf).
 
 ### Як фінансується розробка Delta Chat?
 

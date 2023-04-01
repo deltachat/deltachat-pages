@@ -22,16 +22,15 @@ zu anderen Instant-Messengern muss der/die EmpfängerIn nicht Delta Chat install
 
 ### Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end-encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- Delta Chat ist _unabhängig_ von Unternehmen oder Dienstleistern. Ihre Daten gehören nur _Ihnen_
+- Ihre Daten werden nicht auf einem zentralen Server gespeichert wenn Benutzer verschiedene E-Mail-Server verwenden
+- Ihr Adressbuch wird nicht an Dritte übermittelt.
+- _Schnell_ durch die Verwendung von Push-IMAP.
+- _Größte Nutzerbasis_ - EmpfängerInnen, die Delta Chat _nicht_ nutzen, können ebenfalls erreicht werden.
+- _Kein Spam_ - standardmäßig werden nur Nachrichten bekannter Kontakte angezeigt.
+- _Ende-zu-Ende-Verschlüsselung_ mit Autocrypt.
+-  Auf _Copyleft_ und _Standards_ basierende freie Software.
+- _Flexible Identität_ mit eingebauter Unterstützung für [mehrere Konten](#multiple-accounts)
 
 
 ### Welche Nachrichten erscheinen in Delta Chat?
@@ -56,9 +55,9 @@ Unter "Einstellungen / Chats und Medien / Normale E-Mails anzeigen" können Sie 
 
 - Ja. Alle E-Mail-Anhänge werden als separate Nachrichten angezeigt. Ausgehende Nachrichten erhalten bei Bedarf automatisch Anhänge.
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+- Um die Leistung zu verbessern, werden die Bilder standardmäßig optimiert und in einer kleineren Größe gesendet, aber Sie können sie auch als "Datei" senden, um das Original zu erhalten.
 
-<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+<h3 id="multiple-accounts">Wie kann ich mehrere Konten hinzufügen oder zwischen ihnen wechseln?</h3>
 
 You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
 - on the menu button and then 'Switch Account' (Android and desktop)
@@ -327,11 +326,6 @@ Wir versuchen jedoch, private Schlüssel aus anderen Quellen so gut wie möglich
 Bei Enigmail können Sie Ihr Passwort im Fenster Schlüsselverwaltung auf einen leeren Wert setzen.
 Bei GnuPG können Sie es über die [Kommandozeile einstellen](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Für andere Programme können Sie online eine Lösung finden.
-
-
-### Warum verwendet Delta Chat kein pEp (pretty easy privacy)?
-
-- Delta Chat verwendet den Autocrypt Ende-zu-Ende-Verschlüsselungsstandard. Lesen Sie die [Autocrypt FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep) für eine Unterscheidung zwischen Autocrypt und pEp.
 
 
 ## Mehrere Geräte verwenden {#multiclient}

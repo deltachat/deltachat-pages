@@ -427,13 +427,6 @@ riadok](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-37
 Pre iné programy by ste mali vedieť nájsť riešenie online.
 
 
-### Prečo nepoužívate pEp (pretty easy privacy)?
-
-- Delta Chat používa šifrovací štandard Autocrypt e2e. Pre
-diskusiu o Autocrypt a pEp pozrite [Autocrypt
-FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Multiklient {#multiclient}
 
 ### Môžem používať Delta Chat na viacerých zariadeniach súčasne?

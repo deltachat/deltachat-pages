@@ -320,11 +320,6 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 移除私钥密码的操作取决于您用于管理 PGP 密钥的软件。对于 Enigmail，您可以在密钥管理窗口中将密码设为空值。 对于 GnuPG，您可以[通过命令行](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429)来进行设置。对于其他程序，您应该能在网上找到解决方案。
 
 
-### 为什么不使用 pEp（pretty easy privacy）？
-
-- Delta Chat 使用 Autocrypt 端到端加密标准。有关 Autocrypt 与 pEp 的讨论，请参阅 [Autocrypt 常见问题](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep)。
-
-
 ## 多客户端 {#multiclient}
 
 ### 我能同时在多个设备上使用 Delta Chat 吗?

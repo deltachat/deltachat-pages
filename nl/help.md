@@ -414,13 +414,6 @@ regel](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378
 Voor andere programma's kun je zélf een oplossing zoeken op internet.
 
 
-### Waarom wordt pEp (pretty easy privacy) niet gebruikt?
-
-- Delta Chat gebruik de Autocrypt-e2e-standaard. Zie
-[Autocrypt's veelgestelde vragen](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep)
-  voor een uitleg over pEp en Autocrypt.
-
-
 ## Multi-client {#multiclient}
 
 ### Kan ik Delta Chat op meerdere apparaten tegelijk gebruiken?

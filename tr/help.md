@@ -427,13 +427,6 @@ line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-3783
 For other programs, you should be able to find a solution online.
 
 
-### Why don't you use pEp (pretty easy privacy)?
-
-- Delta Chat uses the Autocrypt e2e-encryption standard. For
-  a discussion of Autocrypt and pEp, see the [Autocrypt
-  FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Multi-client {#multiclient}
 
 ### Can I use Delta Chat on multiple devices at the same time?

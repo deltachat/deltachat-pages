@@ -9,7 +9,7 @@ lang: ca
 
 🥳 Gaudiu d'experiències de xat interactiu a través d'[apps webxdc](https://webxdc.org).
 
-🔒 Les vostres dades romanen al vostre dispositiu i al vostre compte de correu electrònic.
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Disponible al mòbil i a l'escriptori
 

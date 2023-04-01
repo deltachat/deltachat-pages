@@ -9,7 +9,7 @@ lang: gl
 
 🥳 Desfruta dunha experiencia interactiva de chat con [webxdc apps](https://webxdc.org).
 
-🔒 Todos os teus datos permanecen no teu dispositivo e conta de email.
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Dispoñible para escritorio e móbiles
 

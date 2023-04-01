@@ -10,42 +10,41 @@ e-mailserver kunt gebruiken. Een van de eenvoudigste e-mailservers
 (zowel qua instellen als beheer) en direct met Delta Chat werkt is
 [Mailcow](https://mailcow.email).
 
-You can run it together with [mailadm](https://mailadm.readthedocs.io), which
-offers your users an easy way to create an e-mail account and directly login
-with Delta Chat. It is also included in this guide.
+Je kunt Mailcow koppelen aan [mailadm](https://mailadm.readthedocs.io), zodat je
+gebruikers eenvoudig een e-mailaccount kunnen aanmaken en direct kunnen inloggen
+in Delta Chat. Later meer hierover.
 
-What you need:
+Vereisten:
 
-- basic command line knowledge
-- a domain name, and access to its DNS settings
-- SSH access to a linux server
-  - with a public IP,
-  - minimum 10 GB disk space,
-  - and minimum 2 GB RAM
+- Basiskennis van de opdrachtregel (terminal);
+- Een domeinnaam met toegang tot de dns-instellingen;
+- Ssh-toegang tot een Linuxserver met
+  - een openbaar ip-adres;
+  - minimaal 10 GB vrije schijfruimte;
+  - minimaal 2 GB ramgeheugen.
 
-## Installing Docker
+## Installeer Docker
 
-As a prerequisite you need to install [docker and
-docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
+Als eerste dien je [docker en
+docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/) te installeren.
 
-### If docker.com is Blocked:
+### Als docker.com geblokkeerd is:
 
-Depending on the country where your server is in, docker.com may be blocked. You
-can also get docker & docker-compose from other sources, which may work:
+Het kan voorkomen dat docker.com geblokkeerd is in het land waar je server staat. In dat geval
+kun je docker en docker-compose uit andere bronnen proberen te installeren:
 
-- Ubuntu's official apt repository usually has an outdated docker version; that
-  is not the best idea.
-- [snap](https://docs.docker.com/engine/install/ubuntu/) is another way to
-  install docker, but for docker-compose the snap variant doesn't work. Note
-  that if you install docker via snap, it doesn't run in systemd, but in snap.
-- You can try to download the docker-compose binary [from GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64)
-  and copy it to [the right location](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
-- And finally you can try to get access to a server outside your country,
-  create a HTTPS proxy, and use that to install docker and docker-compose. It's
-  tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
-  you run into problems.
+- Ubuntu's officiële apt-pakketbron bevat doorgaans een verouderde Dockerversie, dus dat
+  is geen goed idee.
+- [Snap](https://docs.docker.com/engine/install/ubuntu/) is een mogelijkheid om
+  Docker te installeren, maar dit werkt niet voor docker-compose. Let op:
+  als Docker via Snap installeert, dan wordt er geen gebruikgemaakt van systemd.
+- Je kunt proberen om het uitvoerbare bestand van docker-compose te downloaden [van GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64)
+  en naar [de juiste locatie](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually) te kopiëren.
+- Ook kun je proberen toegang te krijgen tot een server in een ander land,
+  en een https-proxy op te zetten waarmee je docker en docker-compose kunt installeren. Dit is niet eenvoudig,
+  maar het zou kunnen werken. Als je problemen ervaart, dan kun je [contact met ons](mailto:mailadm@testrun.org) opnemen.
 
-## Create DNS Entries
+## Maak dns-items aan
 
 If you don't have a domain yet, you can use a service like
 [njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can

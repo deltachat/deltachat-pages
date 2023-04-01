@@ -418,13 +418,6 @@ line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-3783
 For other programs, you should be able to find a solution online.
 
 
-### ¿Por qué no usan pEp (pretty easy privacy)?
-
-- Delta Chat utiliza el estándar de cifrado de extremo a extremo Autocrypt. Para
-una discusión de Autocrypt y pEp, vea el [Autocrypt
-FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Múltiples dispositivos {#multiclient}
 
 ### ¿Puedo usar Delta Chat en varios dispositivos al mismo tiempo?
