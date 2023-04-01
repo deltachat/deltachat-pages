@@ -828,6 +828,7 @@ Concretely, Delta Chat developments have so far been funded from these sources:
   that can not easily be predicted for, or reimbursed from, public funding grants. 
   Receiving more donations also helps us to become more independent and long-term viable
   as a contributor community. 
+
   [Donate Money](donate){: .cta-button}
 
 - Last but by far not least, several pro-bono experts and enthusiasts contributed 
