@@ -9,7 +9,7 @@ lang: pl
 
 🥳 Korzystaj z interaktywnych czatów za pośrednictwem [aplikacji webxdc](https://webxdc.org).
 
-🔒 Wszystkie Twoje dane pozostają na Twoim urządzeniu i koncie e-mail.
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Dostępny na urządzeniach mobilnych i stacjonarnych
 

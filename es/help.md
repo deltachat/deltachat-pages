@@ -179,7 +179,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
-### Grupos
+## Grupos
 
 ### Creación de un grupo
 
@@ -416,13 +416,6 @@ password to an empty value in the Key Management window. With GnuPG you can set
 it [via the command
 line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 For other programs, you should be able to find a solution online.
-
-
-### ¿Por qué no usan pEp (pretty easy privacy)?
-
-- Delta Chat utiliza el estándar de cifrado de extremo a extremo Autocrypt. Para
-una discusión de Autocrypt y pEp, vea el [Autocrypt
-FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
 
 
 ## Múltiples dispositivos {#multiclient}

@@ -415,13 +415,6 @@ U GnuPG lze to samé nastavit [z příkazové řádky](https://github.com/deltac
 Pro ostatní programy by mělo jít nalézt řešení na Interentu.
 
 
-### Proč Delta Chat nepoužívá pEp (pretty easy privacy)?
-
-- Delta Chat používá šifrovací standard Autocrypt. Podrobnější debata 
-  ohledně Autocryptu a pEp je na 
-  [Autocrypt FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Více klientů najednou {#multiclient}
 
 ### Lze Delta Chat používat souběžně na více zařízeních?

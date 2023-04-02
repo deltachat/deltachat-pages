@@ -9,7 +9,7 @@ lang: id
 
 🥳 Nikmati pengalaman obrolan interaktif melalui [aplikasi webxdc](https://webxdc.org).
 
-🔒 Semua data Anda tetap ada di perangkat dan akun email Anda.
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Tersedia di seluler dan desktop
 

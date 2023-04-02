@@ -359,11 +359,6 @@ La méthode pour retirer le mot de passe de la clé privée dépend du logiciel 
 Pour les autres programmes, vous devriez pouvoir trouver la solution en ligne.
 
 
-### Pourquoi n'utilisez-vous pas pEp (pretty easy privacy) ?
-
-- Delta Chat utilise le standard de chiffrement de bout en bout d'Autocrypt. Vous trouverez des explications concernant Autocrypt et pEp sur la [FAQ d'Autocrypt](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Multi-client {#multiclient}
 
 ### Puis-je utiliser Delta Chat sur plusieurs appareils en même temps? 

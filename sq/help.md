@@ -436,13 +436,6 @@ GnuPG-në mund ta bëni [përmes rreshti urdhrash](https://github.com/deltachat/
 Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
 
-### Pse nuk përdorni pEp (<em>pretty easy privacy</em>)?
-
-- Delta Chat-i përdor standardin <em>e2e-encryption</em> të Autocrypt-it. Për
-  një diskutim të Autocrypt-it dhe pEp-së, shihni [PBR
-  Autocrypt-i](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Multi-klient {#multiclient}
 
 ### A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?

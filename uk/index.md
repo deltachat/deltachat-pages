@@ -9,7 +9,7 @@ lang: uk
 
 🥳 Насолоджуйтеся інтерактивним чатом через [webxdc застосунки](https://webxdc.org).
 
-🔒 Усі ваші дані залишаються на вашому пристрої та обліковому записі електронної пошти.
+🔒 Використання наскрізного шифрування за протоколами [Autocrypt](https://autocrypt.org) та [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) із [численними аудитами безпеки](https://delta.chat/en/2023-03-27-third-independent-security-audit).
 
 # Доступно на мобільному телефоні та комп’ютері
 
@@ -23,7 +23,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-[Download](https://get.delta.chat){: .cta-button}
+[Завантажити](https://get.delta.chat){: .cta-button}
 
 [Відкрите](https://en.wikipedia.org/wiki/Open-source_software)
 та [вільне програмне забезпечення](https://en.wikipedia.org/wiki/Free_software), побудоване на [інтернет стандартах](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 

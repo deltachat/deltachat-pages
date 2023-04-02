@@ -9,7 +9,7 @@ lang: zh_CN
 
 🥳 通过 [webxdc 应用](https://webxdc.org)，享受互动聊天体验。
 
-🔒 您的所有数据保存在您的设备和电子邮件账户上。
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # 在移动端与桌面端均可使用
 

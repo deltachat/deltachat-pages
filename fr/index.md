@@ -9,7 +9,7 @@ lang: fr
 
 🥳 Profitez d'une messagerie interactive avec les [appli webxdc](https://webxdc.org).
 
-🔒 Toutes vos données restent sur votre appareil et votre compte courriel.
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Existe pour mobiles et pour ordinateurs
 

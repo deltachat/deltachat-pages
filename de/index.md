@@ -9,7 +9,7 @@ lang: de
 
 🥳 Entdecke interaktives Chatten mit [webxdc Apps](https://webxdc.org).
 
-🔒 Alle deine Daten bleiben auf deinem Gerät und in deinem E-Mail-Account.
+🔒 Ende-zu-Ende-Verschlüsselung mit [Autocrypt](https://autocrypt.org) und [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) Protokollen und [mehreren Sicherheitsüberprüfungen](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Verfügbar für Mobil- und Desktopgeräte
 
