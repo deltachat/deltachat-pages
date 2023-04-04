@@ -46,46 +46,46 @@ kun je docker en docker-compose uit andere bronnen proberen te installeren:
 
 ## Maak dns-items aan
 
-If you don't have a domain yet, you can use a service like
-[njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
-pay with PayPal, Bitcoin, or Monero.
+Als je nog geen domeinnaam hebt, dan kun je met behulp van een dienst als
+[njal.la](https://njal.la) een .net- of .org-domeinnaam aanschaffen voor €15 per jaar. Betalen is mogelijk
+met PayPal, Bitcoin of Monero.
 
-Let's assume:
-- you bought example.org. For now you only want a mail server, but you think
-  about hosting a website at https://example.org later.
-- your server has the IPv4 address 24.48.100.24 - you can find out with the
-  command `ip a` and look for a similar-looking number (which doesn't start
-  with 127 or 172).
-- your server has the IPv6 address 7fe5:2f4:1ba:2381::3 (you can find it in `ip
-  a`, 2 lines below the IPv4 address. Ignore the `/64` at the end. Don't use
-  the one starting with `fe80`, it doesn't count).
+Laten we van het volgende uitgaan:
+- je hebt de domeinnaam voorbeeld.org aangeschaft. Je wilt nu alleen een mailserver, maar later misschien ook
+  nog een website hosten op https://voorbeeld.org.
+- je server heeft het ipv4-adres 24.48.100.24 - je kunt dit opvragen met behulp van de
+  opdracht `ip a` en zoeken naar een vergelijkbaar nummer (dat niet begint
+  met 127 of 172).
+- je server heeft het ipv6-adres 7fe5:2f4:1ba:2381::3 (je kunt dit opvragen met `ip
+  a`, 2 regels onder het ipv4-adres. Negeer de `/64` op het einde. Gebruik niet het adres dat
+  begint met `fe80`).
 
-Now you could configure the domain settings for example.org like this:
+Je kunt de domeininstellingen van voorbeeld.org dan als volgt instellen:
 
-| Type  | Name            | Data                                                 | TTL  | Priority |
+| Type  | Naam            | Gegevens                                                 | TTL  | Prioriteit |
 |-------|-----------------|------------------------------------------------------|------|----------|
 | A     | mail            | 24.48.100.24                                         | 5min |          |
 | AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
-| MX    | @               | mail.example.org                                     | 5min |    10    |
-| CNAME | autoconfig      | mail.example.org                                     | 5min |          |
-| CNAME | autodiscover    | mail.example.org                                     | 5min |          |
-| CNAME | mailadm         | mail.example.org                                     | 5min |          |
+| MX    | @               | mail.voorbeeld.org                                     | 5min |    10    |
+| CNAME | autoconfig      | mail.voorbeeld.org                                     | 5min |          |
+| CNAME | autodiscover    | mail.voorbeeld.org                                     | 5min |          |
+| CNAME | mailadm         | mail.voorbeeld.org                                     | 5min |          |
 | TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
-| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@voorbeeld.org | 5min |          |
 
-You can setup the DKIM key after setting up mailcow,
-in System>Configuration>Options>ARC/DKIM keys.
+Je kunt de DKIM-sleutel instellen nadat je Mailcow heb ingesteld,
+en wel via Systeem → Configuratie → Opties → ARC-/DKIM-sleutels.
 
-You can do more than 5 minutes, but in case you notice something is wrong a
-short time helps with fixing the wrong entry.
+Je kunt het aantal van 5 minuten verhogen, maar als je merkt dat er iets misgaat,
+dan kan een kortere tijd helpen dit op te lossen.
 
-## Setup Mailcow
+## Mailcow instellen
 
-### Set Mailcow Options
+### Mailcow-opties instellen
 
-First clone the mailcow git repository - if your server doesn't have access to
-github.com, you can do this step somewhere else and use `scp` to copy it to
-your server.
+Kloon de Mailcow-gitrepo. Als je server geen toegang tot github.com heeft,
+dan kun je deze stap elders uitvoeren en Mailcow met behulp van `scp` naar je
+server kopiëren.
 
 ```
 sudo apt install -y git
@@ -93,43 +93,43 @@ git clone https://github.com/mailcow/mailcow-dockerized
 cd mailcow-dockerized
 ```
 
-Now you should run `./generate_config.sh` to generate the mailcow.conf file.
-If your server doesn't have access to github.com, you first need to remove any
-git command from the script. Enter the options like this:
+Voer `./generate_config.sh` uit om het mailcow.conf-bestand samen te stellen.
+Als je server geen toegang tot github.com heeft, dan dien je de
+git-opdracht uit het script te verwijderen. Gebruik de volgende opties:
 
 ```
-Mail server hostname (FQDN) - this is not your mail domain, but your mail servers hostname: mail.example.org
-Timezone [Europe/Berlin]: UTC
-Which branch of mailcow do you want to use?
+Mailserver-hostnaam (FQDN) - dit is niet je e-maildomein, maar de hostnaam van je mailserver: mail.voorbeeld.org
+Tijdzone [Europa/Berlijn]: UTC
+Welke tak van Mailcow wil je gebruiken?
 
 
-Available Branches:
-- master branch (stable updates) | default, recommended [1]
-- nightly branch (unstable updates, testing) | not-production ready [2]
-Choose the Branch with it´s number [1/2] 1
+Beschikbare takken:
+- master (stabiele updates) | standaard, aanbevolen [1]
+- nightly (instabiele updates) | voor testdoeleinden [2]
+Kies de gewenste tak met behulp van het getal [1/2] 1
 ```
 
-You should specify the following variables in mailcow.conf:
+Stel de volgende variabelen in mailcow.conf in:
 
 ```
-ADDITIONAL_SAN=mailadm.example.org
+ADDITIONAL_SAN=mailadm.voorbeeld.org
 SKIP_CLAMD=y
 SKIP_SOLR=y
 SKIP_SOGO=y
 ```
 
-The last 3 options remove services which are not needed for a minimal setup.
+De laatste 3 opties verwijderen diensten die niet nodig zijn in een minimale omgeving.
 
-After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`.
+Voer daarna `printf "#\n" > data/conf/dovecot/global_sieve_before` uit.
 
-### Mailadm NGINX config
+### Mailadm NGINX instellen
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So first create the file `data/conf/nginx/server_name.active` and write
-`mailadm.example.org` to it - this means that nginx will listen to requests for
-this domain.
+`mailadm.voorbeeld.org/new_email` dient http-verzoeken te accepteren.
+Maak het bestand `data/conf/nginx/server_name.active` aan en voorzie het van de regel
+`mailadm.voorbeeld.org`. Hierdoor zal nginx luisteren naar verzoeken van
+deze domeinnaam.
 
-Then add the following block to `data/conf/nginx/site.mailadm.custom`:
+Voeg daarna het volgende blok toe aan `data/conf/nginx/site.mailadm.custom`:
 
 ```
   location /new_email {
@@ -137,49 +137,49 @@ Then add the following block to `data/conf/nginx/site.mailadm.custom`:
   }
 ```
 
-Make sure to replace this example IP address with your server's IP address.
+Let op: vervang het voorbeeld-ip-adres door dat van je eigen server.
 
-This will forward all requests to `mailadm.example.org/new_email` to the mailadm
-container later.
+Hierdoor worden alle verzoeken van `mailadm.voorbeeld.org/new_email` later naar de mailadm-
+container gestuurd.
 
-### Download mailcow containers
+### Download Mailcow-containers
 
-Now run `sudo docker compose pull` to download the mailcow containers. If you don't
-have access to docker.com at this step, you can [use an HTTP
-proxy](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
+Voer nu `sudo docker compose pull` uit om de Mailcow-containers te downloaden. Als je geen toegang
+tot docker.com hebt, dan kun je een [http-
+proxy gebruiken](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
 
 ### Start Mailcow
 
-Now start mailcow with `sudo docker compose up -d`.
+Start mailcow met de opdracht `sudo docker compose up -d`.
 
-### Disabling IPv6 for mailcow
+### Schakel ipv6 uit in Mailcow
 
-If your server doesn't have an IPv6 address, you should [disable
-IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
+Als je server niet over een ipv6-adres beschikt, dan dien je [ipv6
+uit te schakelen](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
 
-### Adding Domain in Mailcow
+### Voeg de domeinnaam toe aan Mailcow
 
-Now you can login to the mailcow web interface at https://mail.example.org. The
-default username is `admin` and the password is `moohoo`. You should change
-this password to something more secure.
+Nu kun je inloggen op de Mailcow-webinterface op https://mail.voorbeeld.org. De
+standaard gebruikersnaam is `admin` en het wachtwoord is `moohoo`. Wijzig
+het wachtwoord in een veiliger wachtwoord.
 
-![The Mailcow web interface.](../assets/blog/mailcow-UI-login.png)
+![De Mailcow-webinterface.](../assets/blog/mailcow-UI-login.png)
 
-Next, add a domain in the web interface under "E-Mail > Configuration > Domains".
-Somethings like this makes sense:
+Voeg vervolgens een domeinnaam toe via de webinterface: E-mail → Configuratie → Domeinnamen.
+De volgende instellingen zijn afdoende:
 
-- domain: example.org
-- max. mailboxes: 999999
-- default mailbox quota: 3076 (it doesn't matter, mailadm will override this)
-- max. mailbox quota: 17240 (basically a bit less than your free disk space)
-- domain quota: 17240 (basically a bit less than your free disk space)
+- domeinnaam: voorbeeld.org
+- max. aantal mailboxen: 999999
+- standaard mailboxquota: 3076 (maakt niet uit, want mailadm overschrijft de quota)
+- max. mailboxquota: 17240 (iets minder dan je vrije schijfruimte)
+- domeinnaamquota: 17240 (iets minder dan je vrije schijfruimte)
 
-![Creating a domain in mailcow](../assets/blog/mailcow-create-domain.png)
+![Domeinnaam instellen in Mailcow](../assets/blog/mailcow-create-domain.png)
 
-After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
-You can try it out with Delta Chat now.
+Ga dan naar E-Mail → Configuratie → Mailboxes en maak je eerste account aan.
+Je kunt dit account meteen testen in Delta Chat.
 
-#### Optional: Add Additional DNS Entries
+#### Optioneel: voeg aanvullende dns-items toe
 
 In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
 "DNS" button. It provides further reccomendations for DNS entries which might
