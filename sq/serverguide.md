@@ -1,43 +1,43 @@
 ---
-title: How to Setup a Mail Server for Delta Chat
+titull: Si të Ujdiset një Shërbyes Poste për Delta Chat-in
 lang: sq
 ---
 
-# How to Setup a Mail Server for Delta Chat
+# Si të Ujdiset një Shërbyes Poste për Delta Chat-in
 
-Delta Chat is a chat messenger which runs on e-mail. This means we can use any
-e-mail server to run Delta Chat accounts. One e-mail server which is easy to
-setup and manage, and works with Delta Chat out of the box, is
-[Mailcow](https://mailcow.email).
+Delta Chat-i është një shkëmbyes mesazhesh fjalosjeje që xhiron në email. Kjo
+do të thotë se mundemi të përdorim çfarëdo shërbyesi email për të krijuar llogari
+Delta Chat-i. Një shërbyes email-i që është i kollajtë për t’u ujdisur dhe administruar
+dhe që funksionon fill pas instalimi me Delta Chat-in, është [Mailcow](https://mailcow.email).
 
-You can run it together with [mailadm](https://mailadm.readthedocs.io), which
-offers your users an easy way to create an e-mail account and directly login
-with Delta Chat. It is also included in this guide.
+Mund ta xhironi tok me [mailadm](https://mailadm.readthedocs.io), që u ofron
+përdoruesve tuaj një rrugë të lehtë për të krijuar një llogari email dhe bërë hyrjen
+drejtpërsëdrejti me Delta Chat-in. Edhe ky përfshihet në këtë udhërrëfyes.
 
-What you need:
+Ç’ju duhet:
 
-- basic command line knowledge
-- a domain name, and access to its DNS settings
-- SSH access to a linux server
-  - with a public IP,
-  - minimum 10 GB disk space,
-  - and minimum 2 GB RAM
+- gjëra elementare për t’u ditur për rresht urdhrash
+- një emër përkatësie dhe hyrje te rregullimet DNS të tij
+- hyrje SSH te një shërbyes linux
+  - me një IP publike,
+  - minimumi 10 GB hapësirë disku,
+  - dhe minimumi 2 GB RAM
 
-## Installing Docker
+## Instalim Docker-i
 
-As a prerequisite you need to install [docker and
+Si një parakusht, lypset të instaloni [docker dhe
 docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
 
-### If docker.com is Blocked:
+### Nëse docker.com është i Bllokuar:
 
-Depending on the country where your server is in, docker.com may be blocked. You
-can also get docker & docker-compose from other sources, which may work:
+Në varësi të vendit ku gjendet shërbyesi juaj, docker.com mund të jetë i bllokuar.
+Mundeni të merrni docker & docker-compose gjetkë, çka mund të funksionojë:
 
-- Ubuntu's official apt repository usually has an outdated docker version; that
-  is not the best idea.
-- [snap](https://docs.docker.com/engine/install/ubuntu/) is another way to
-  install docker, but for docker-compose the snap variant doesn't work. Note
-  that if you install docker via snap, it doesn't run in systemd, but in snap.
+- depoja zyrtare apt e Ubuntu-së zakonisht ka një version të vjetruar të
+  Docker-it; që s’është ideja më e mirë.
+- [snap](https://docs.docker.com/engine/install/ubuntu/) është një tjetër rrugë
+  për të instaluar Docker-in, por, për docker-compose, varianti Snap s’funksionon.
+  Vini re se nëse instaloni Docker-in përmes Snap-i, nuk xhiron në systemd, por në Snap.
 - You can try to download the docker-compose binary [from GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64)
   and copy it to [the right location](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
 - And finally you can try to get access to a server outside your country,
@@ -45,25 +45,25 @@ can also get docker & docker-compose from other sources, which may work:
   tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
   you run into problems.
 
-## Create DNS Entries
+## Krijoni Zëra DNS
 
-If you don't have a domain yet, you can use a service like
-[njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
-pay with PayPal, Bitcoin, or Monero.
+Nëse s’keni ende një përkatësi, mund të përdorni një shërbim si
+[njal.la](https://njal.la), që të blini një përkatësi .net, ose .org, për 15€ në vit.
+Mund të paguani me PayPal, Bitcoin, ose Monero.
 
-Let's assume:
-- you bought example.org. For now you only want a mail server, but you think
-  about hosting a website at https://example.org later.
-- your server has the IPv4 address 24.48.100.24 - you can find out with the
-  command `ip a` and look for a similar-looking number (which doesn't start
-  with 127 or 172).
-- your server has the IPv6 address 7fe5:2f4:1ba:2381::3 (you can find it in `ip
-  a`, 2 lines below the IPv4 address. Ignore the `/64` at the end. Don't use
-  the one starting with `fe80`, it doesn't count).
+Le të hamendësojmë se:
+- bletë shembull.org. Tani për tani doni vetëm një shërbyes email-esh, por
+  mendoni për strehimin më vonë të një sajti https://shembull.org më vonë.
+- shërbyesi juaj ka adresën IPv4 24.48.100.24 - mund ta gjeni përmes
+  urdhrit `ip a` dhe shihni për një numër që ngjan me të (i cili s’fillon
+  me 127 ose 172).
+- shërbyesi juaj ka adresën IPv6 7fe5:2f4:1ba:2381::3 (mund ta gjeni me `ip
+  a`, 2 rreshta nën adresën IPv4. Shpërfillni `/64` në fund. Mos përdorni
+  atë që fillon me `fe80`, nuk quhet).
 
-Now you could configure the domain settings for example.org like this:
+Tani mund të formësonit rregullimet e përkatësisë shembull.org në këtë mënyrë:
 
-| Type  | Name            | Data                                                 | TTL  | Priority |
+| Lloj  | Emër            | Të dhëna                                                 | TTL  | Përparësi |
 |-------|-----------------|------------------------------------------------------|------|----------|
 | A     | mail            | 24.48.100.24                                         | 5min |          |
 | AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
@@ -74,19 +74,19 @@ Now you could configure the domain settings for example.org like this:
 | TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
 | TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
 
-You can setup the DKIM key after setting up mailcow,
-in System>Configuration>Options>ARC/DKIM keys.
+Kyçin DKIM mund ta ujdisni pasi të ujdisni Mailcow-un,
+te Sistem>Formësim>Mundësi>ARC/Kyçe DKIM.
 
-You can do more than 5 minutes, but in case you notice something is wrong a
-short time helps with fixing the wrong entry.
+Mund t’ju duhen edhe më shumë se 5 minuta, por në rast se vini re se diçka
+është gabim, një kohë e shkurtër ndihmon me ndreqjen e zërit të gabuar.
 
-## Setup Mailcow
+## Ujdisje e Mailcow-ut
 
-### Set Mailcow Options
+### Ujdisni Mundësi Mailcow
 
-First clone the mailcow git repository - if your server doesn't have access to
-github.com, you can do this step somewhere else and use `scp` to copy it to
-your server.
+Së pari klononi depon git të Mailcow-ut - nëse shërbyesi juaj s’ka hyrje në
+github.com, mund ta bëni këtë hap diku gjetkë dhe përdorni `scp` që
+ta kopjoni në shërbyesin tuaj.
 
 ```
 sudo apt install -y git
@@ -94,23 +94,23 @@ git clone https://github.com/mailcow/mailcow-dockerized
 cd mailcow-dockerized
 ```
 
-Now you should run `./generate_config.sh` to generate the mailcow.conf file.
-If your server doesn't have access to github.com, you first need to remove any
-git command from the script. Enter the options like this:
+Tani duhet të xhironi `./generate_config.sh`, për prodhimin e kartelës
+mailcow.conf. Nëse shërbyesi juaj s’hyn dot në github.com, së pari, ju duhet
+të hiqni çfarëdo urdhri git nga programthi. Jepini mundësitë kështu:
 
 ```
-Mail server hostname (FQDN) - this is not your mail domain, but your mail servers hostname: mail.example.org
-Timezone [Europe/Berlin]: UTC
-Which branch of mailcow do you want to use?
+Strehëemër shërbyesi email (FQDN) - ky s’është përkatësia juaj e email-it, por strehëemri i shërbyesit tuaj email: mail.example.org
+Zonë kohore [Europë/Berlin]: UTC
+Cilën degë të Mailcow-it doni të përdoret?
 
 
-Available Branches:
-- master branch (stable updates) | default, recommended [1]
-- nightly branch (unstable updates, testing) | not-production ready [2]
-Choose the Branch with it´s number [1/2] 1
+Degë të përdorshme:
+- dega kryesore (përditësime të qëndrueshme) | parazgjedhje, e rekomanduar [1]
+- dega e përnatshme (përditësime të paqëndrueshme, testim) | jo gati për funksionim real [2]
+Zgjidhni degën me numrin e saj [1/2] 1
 ```
 
-You should specify the following variables in mailcow.conf:
+Te mailcow.conf duhet të përcaktoni ndryshoret vijuese:
 
 ```
 ADDITIONAL_SAN=mailadm.example.org
@@ -119,18 +119,18 @@ SKIP_SOLR=y
 SKIP_SOGO=y
 ```
 
-The last 3 options remove services which are not needed for a minimal setup.
+3 mundësitë e fundit heqin shërbime që s’janë të nevojshme të një instalim minimal.
 
-After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`.
+Pas kësaj na duhet të xhirojmë `printf "#\n" > data/conf/dovecot/global_sieve_before`.
 
-### Mailadm NGINX config
+### Formësim për Mailadm NGINX
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So first create the file `data/conf/nginx/server_name.active` and write
-`mailadm.example.org` to it - this means that nginx will listen to requests for
-this domain.
+`mailadm.example.org/new_email` lypset të jetë e kapshme për kërkesa HTTP,
+që të funksionojë. Ndaj, së pari krijoni kartelën `data/conf/nginx/server_name.active` dhe shkruani
+`mailadm.example.org` në të - kjo do të thotë që nginx-i do të përgjojë për kërkesa ndaj
+kësaj përkatësie.
 
-Then add the following block to `data/conf/nginx/site.mailadm.custom`:
+Mandej shtoni bllokun vijues te `data/conf/nginx/site.mailadm.custom`:
 
 ```
   location /new_email {
@@ -138,65 +138,67 @@ Then add the following block to `data/conf/nginx/site.mailadm.custom`:
   }
 ```
 
-Make sure to replace this example IP address with your server's IP address.
+Mos harroni të zëvendësoni këtë adresë IP shembull me adresën IP të shërbyesit tuaj.
 
-This will forward all requests to `mailadm.example.org/new_email` to the mailadm
-container later.
+Kjo do të përcjellë krejt kërkesat ndaj `mailadm.example.org/new_email` te kontejneri
+Mailadm më vonë.
 
-### Download mailcow containers
+### Shkarkoni kontejnerë Mailcow
 
-Now run `sudo docker compose pull` to download the mailcow containers. If you don't
-have access to docker.com at this step, you can [use an HTTP
-proxy](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
+Tani xhironi `sudo docker compose pull` që të shkarkoni kontejnerët Mailcow.
+Nëse s’keni hyrje te docker.com në këtë pikë, mund [të përdorni një
+ndërmjetës HTTP](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
 
-### Start Mailcow
+### Nisni Mailcow-un
 
-Now start mailcow with `sudo docker compose up -d`.
+Tani nisni mailcow-un me `sudo docker compose up -d`.
 
-### Disabling IPv6 for mailcow
+### Çaktivizim IPv6 për Mailcow
 
-If your server doesn't have an IPv6 address, you should [disable
+Nëse shërbyesi juaj s’ka adresë IPv6, duhet [të çaktivizoni
 IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
 
-### Adding Domain in Mailcow
+### Shtim Përkatësie në Mailcow
 
-Now you can login to the mailcow web interface at https://mail.example.org. The
-default username is `admin` and the password is `moohoo`. You should change
-this password to something more secure.
+Tani mund të bëni hyrjen te ndërfaqja e Mailcow-ut në https://mail.example.org. Emri
+i përdoruesit parazgjedhje është `admin` dhe fjalëkalimi është `moohoo`. Duhet ta
+ndryshoni fjalëkalimin në diçka më të siguruar.
 
-![The Mailcow web interface.](../assets/blog/mailcow-UI-login.png)
+![Ndërfaqja web e Mailcow-ut.](../assets/blog/mailcow-UI-login.png)
 
-Next, add a domain in the web interface under "E-Mail > Configuration > Domains".
-Somethings like this makes sense:
+Në vazhdim, shtoni një përkatësi te ndërfaqja web, nën “Email > Formësim > Përkatësi”.
+Ka kuptim diçka e tillë:
 
 - domain: example.org
 - max. mailboxes: 999999
-- default mailbox quota: 3076 (it doesn't matter, mailadm will override this)
-- max. mailbox quota: 17240 (basically a bit less than your free disk space)
-- domain quota: 17240 (basically a bit less than your free disk space)
+- default mailbox quota: 3076 (s’ka rëndësi, mailadm do ta anashkalojë këtë)
+- max. mailbox quota: 17240 (në thelb, diçka më pak se hapësira e lirë e juaja në disk)
+- domain quota: 17240 (në thelb, diçka më pak se hapësira e lirë e juaja në disk)
 
-![Creating a domain in mailcow](../assets/blog/mailcow-create-domain.png)
+![Krijimi i një përkatësie në Mailcow](../assets/blog/mailcow-create-domain.png)
 
-After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
-You can try it out with Delta Chat now.
+Pas kësaj, mund të kaloni te “Email > Formësim > Kuti postare” dhe krijoni llogarinë
+e parë.
+Tani mund të provoni Delta Chat-in.
 
-#### Optional: Add Additional DNS Entries
+#### Opsionale: Shtoni Zëra DNS Shtesë
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further reccomendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+Te “Email > Formësim > Përkatësi”, djathtas në krah të përkatësisë tuaj, mund të shihni një
+buton blu “DNS”. Ky jep rekomandime të mëtejshme për zëra DNS që mund
+t’ju ndihmojnë, nëse keni probleme me mbërritjen e email-eve tuaj në shërbyes të tjerë.
 
-![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
+![Pamje e rregullimeve DNS në Mailcow](../assets/blog/mailcow-dns-settings.png)
 
-## Setting up mailadm
+## Ujdisje e Mailadm-it
 
-Now we can set up mailadm - with this tool you can generate QR codes, which
-people can scan from Delta Chat to create an e-mail account on your server. It
-is probably the easiest way for users to get started with Delta Chat.
+Tani mund të ujdisni mailadm-in - me këtë mjet mund të prodhoni kode QR, të cilët
+njerëzit mund t’i skanojnë që nga Delta Chat-i për të krijuar një llogari email
+në shërbyesin tuaj.
+Mbase është rruga më e lehtë që përdoruesit t’ia fillojnë me Delta Chat-in.
 
-### Downloading mailadm
+### Shkarkim i Mailadm-it
 
-You can use these commands to download mailadm:
+Për të shkarkuar Mailadm-in mund të përdorni këto urdhra:
 
 ```
 cd ~
@@ -205,16 +207,16 @@ cd mailadm
 mkdir docker-data
 ```
 
-### Building mailadm
+### Montim i Mailadm-it
 
-Now you can build the mailadm docker container with
+Tani mund të montoni kontejnerin Docker për mailadm-in, me
 `sudo docker build . -t mailadm-mailcow`.
 
-#### If docker.com or pypi.org is Blocked
+#### Po qe se docker.com ose pypi.org janë të Bllokuar
 
-If your server can't reach docker.com, dl-cdn.alpinelinux.org, or pypi.org,
-this will fail. But you can build the docker container on a different machine
-and copy it to the VPS:
+Nëse shërbyesi juaj s’lidhet dot me docker.com, dl-cdn.alpinelinux.org, ose pypi.org,
+kjo do të dështojë. Por mund të montoni kontejnerin Docker në një makinë tjetër
+dhe ta kopjoni në VPS:
 
 ```
 sudo docker build . -t mailadm-mailcow
@@ -224,23 +226,23 @@ ssh example.org
 sudo docker load --import mailadm-image.tar
 ```
 
-### Getting an API token from the web interface
+### Marrja e një token-i API nga ndërfaqja web
 
-Now you can go to https://mail.example.org/admin again, to get a mailcow API
-key.
+Tani mund të kaloni te https://mail.example.org/admin sërish, që të merrni
+një kyç API për Mailcow-un.
 
-You have to activate the API (Make sure to use the "Read-Write Access API" and
-not the "Read-Only Access API"!) and enter your server's br-mailcow interface
-IP address under "Allow API access from these IPs/CIDR network notations". You
-can find out the IP address with `ip a show br-mailcow`.
+Do t’ju duhet të aktivizoni API-n (Sigurohuni të përdorni “Read-Write Access API” dhe
+jo “Read-Only Access API”!) dhe jepni adresën IP të ndërfaqes së shërbyesit tuaj
+br-mailcow nën “Allow API access from these IPs/CIDR network notations”. Mund
+të zbuloni adresën IP me urdhrin `ip a show br-mailcow`.
 
-Check the checkbox "Activate API and then click on "Save Changes" and copy the
-API key.
+I vini shenjë kutizës “Aktivizoni API-n” dhe mandej klikoni mbi “Ruaji Ndryshimet”
+dhe kopjoni kyçin API.
 
-### Configuring mailadm
+### Formësim i Mailadm-it
 
-Then, in the mailadm directory, create a `.env` file and configure mailadm like
-this:
+Mandej, te drejtoria mailadm, krijoni një kartelë `.env` dhe formësoni mailadm-in
+kështu:
 
 ```
 MAIL_DOMAIN=example.org
@@ -249,79 +251,80 @@ MAILCOW_ENDPOINT=https://mail.example.org/api/v1/
 MAILCOW_TOKEN=238473-081241-7A78B1-B7098C-E798BA
 ```
 
-At `MAILCOW_TOKEN`, enter the API key which you just got from the mailcow web
-interface.
+Te `MAILCOW_TOKEN`, jepni kyçin API që sapo morët nga ndërfaqja e mailcow-ut.
 
-If you are unsure how to choose the values in .env, take a look at the
-[documentation](https://mailadm.readthedocs.io/en/latest/#configuration-details)
-of mailadm.
+Nëse jeni të pasigurt se si të zgjidhni vlerat te .env, hidhini një sy
+[dokumentimit](https://mailadm.readthedocs.io/en/latest/#configuration-details)
+të mailadm-it.
 
-### Add mailadm alias
+### SHtoni alias mailadm
 
-Now to make it easier to run mailadm commands, add this alias:
+Tani, për ta bërë të lehtë të jepen urdhra mailadm, shtoni këtë alias:
 
 ```
 alias mailadm="$PWD/scripts/mailadm.sh"
 echo "alias mailadm=$PWD/scripts/mailadm.sh" >> ~/.bashrc
 ```
 
-### Start mailadm
+### Nisni mailadm-in
 
-Then you can initialize the database and setup the bot mailadm will use to
-receive commands and support requests from your users:
+Mandej mund të bëni gati bazën e të dhënave dhe të ujdisni robotin që
+mailadm-i do të përdorë për të marrë urdhra dhe për të kryer kërkesa prej
+përdoruesve tuaj:
 
 ```
 mailadm init
 mailadm setup-bot
 ```
 
-Then you are asked to scan a QR code to join the Admin Group, a verified Delta
-Chat group. Anyone in the group can issue commands to mailadm via Delta Chat.
-You can send “/help” to the group to learn how to use it.
+Mandej ju kërkohet të skanoni një kod QR që të bëheni pjesë e Grupit
+të Përgjegjësve, një grup Delta Chat i verifikuar. Cilido në këtë grup mund t’i japë
+urdhra mailadm-it përmes Delta Chat-it.
+Mund t’i dërgoni grupit “/help”, që të mësoni si të përdoret.
 
-Now, as everything is configured, we can start the mailadm container for good:
+Tani që gjithçka është formësuar, mund të nisim përfundimisht kontejnerin mailadm:
 
 ```
 sudo docker run -d -p 3691:3691 --mount type=bind,source=$PWD/docker-data,target=/mailadm/docker-data --name mailadm mailadm-mailcow gunicorn -b :3691 -w 1 mailadm.app:app
 ```
 
-This starts a `mailadm` docker container. You can restart it with `sudo docker
-restart mailadm`, should you ever want to.
+Kjo nis një kontejner Docker `mailadm`. Mund ta rinisni me `sudo docker
+restart mailadm`, nëse do të donit ndonjëherë.
 
-#### First steps with mailadm
+#### Hapat e parë me mailadm
 
-That's it! You can now get started with creating tokens and users with mailadm.
-Best look at the documentation for the [first
-steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
-contains hints for troubleshooting the setup if something doesn't work.
+Kaq! Tani mund të filloni duke krijuar token-ë dhe përdorues me mailadm-in.
+Më e mira, të shihni te dokumentimi për [hapat e
+para](https://mailadm.readthedocs.io/en/latest/#first-steps) - përmban
+gjithashtu ndihmëza për diagnostikim të ujdisjes, nëse diçka s’funksionon.
 
-## Optional: Disable POP3
+## Opsionale: Çaktivizoni POP3
 
-Delta Chat uses only SMTP and IMAP,
-so if all of your users use Delta Chat,
-you can disable POP3.
+Delta Chat-i përdor vetëm SMTP dhe IMAP,
+ndaj, nëse krejt përdoruesit tuaj përdorin Delta Chat,
+mund të çaktivizoni POP3-shin.
 
-To do this, add the following to `mailcow.conf`:
+Për ta bërë këtë, shtoni te `mailcow.conf` sa vijon:
 
 ```
 POP_PORT=127.0.0.1:110
 POPS_PORT=127.0.0.1:995
 ```
 
-Then apply the changes with `sudo docker compose up -d`.
+Mandej aplikoni ndryshimet me `sudo docker compose up -d`.
 
-## Optional: Redirect all HTTP traffic to HTTPS
+## Opsionale: Ridrejtoni krejt trafikun HTTP në HTTPS
 
-By default,
-the nginx server also responds unencrypted
-on port 80.
-This can be bad,
-as some users might enter passwords
-over this unencrypted connection.
+Si parazgjedhje,
+shërbyesi nginx përgjigjet gjithashtu pa fshehtëzim
+në portën 80.
+Kjo mund të jetë ters,
+ngaqë disa përdorues mund të japin fjalëkalime
+përmes kësaj lidhjeje të pafshehtëzuar.
 
-To prevent this,
-create a new file `data/conf/nginx/redirect.conf`
-and add the following server config to the file:
+Që të parandalohet kjo,
+krijoni një kartelë të re `data/conf/nginx/redirect.conf`
+dhe shtoni në kartelë formësimin vijues të shërbyesit:
 
 ```
 server {
@@ -340,23 +343,24 @@ server {
 }
 ```
 
-Then apply the changes with `sudo docker compose restart nginx-mailcow`.
+Mandej aplikoni ndryshimet me `sudo docker compose restart nginx-mailcow`.
 
-## Optional: No Logs, No Masters
+## Opsionale: Pa Regjistra, Pa Ustallarë
 
-Mailcow logs the IP addresses of your users for debugging purposes, so if you
-don't want to keep this critical information on your server, you might want to
-disable logging. Note that this makes debugging of issues considerably harder.
-Nobody but you can guess whether this is necessary in your environment.
+Mailcow regjistron adresat IP të përdoruesve tuaj për qëllime diagnostikimi, ndaj
+nëse s’doni të mbani hollësi kritike në shërbyesin tuaj, mund të donit të çaktivizoni
+mbajtje regjistrash. Kini parasysh se kjo e bën diagnostikimin e problemeve shumë
+më të zorshëm.
+Vetëm ju mund ta dini nëse ju duhet apo jo kjo në mjedisin tuaj.
 
-Mailcow keeps some logs in redis, so you can show it in the web interface - but
-if you add `command: '--save ""'` to the redis-server container in
-docker-compose.yml, it keeps them only in the RAM, which is hopefully not saved
-by a potential attacker.
+Mailcow mban disa regjistra në Redis, që të mund t’i shfaqni në ndërfaqen web - por
+nëse shtoni `command: '--save ""'` te kontejneri redis-server container në
+docker-compose.yml, i mban ata vetëm në RAM, që shpresojmë të mos ruhet nga
+një agresor potencial.
 
-To point the actual log files in `/dev/null`, aka Nirvana, you can:
+Që të shpini te `/dev/null`, aka Nirvana, kartelat faktike regjistër, mund:
 
-Add the following lines to each container in
+Të shtoni rreshtat vijues te çdo kontejner në
 `mailcow-dockerized/docker-compose.yml`:
 
 ```
@@ -367,25 +371,25 @@ Add the following lines to each container in
           syslog-facility: "local3"
 ```
 
-Now you can configure rsyslog to listen on that port for log input. Uncomment
-the following lines in `/etc/rsyslog.conf`:
+Tani mund të formësoni rsyslog-un të përgjojë atë portë për regjistrim të ç’jepet.
+Hiqni shenjën e komentit nga rreshtat vijues te `/etc/rsyslog.conf`:
 
 ```
 module(load="imudp")
 input(type="imudp" port="514")
 ```
 
-And put this in `/etc/rsyslog.d/` to redirect all of that to nirvana:
+Dhe vendoseni këtë në `/etc/rsyslog.d/` që të ridrejtohet e tëra kjo në nirvana:
 
 ```
 local3.*        /dev/null
 & stop
 ```
 
-Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
-`sudo docker compose up -d`.
+Dhe në fund, rinisni rsyslog-un me `sudo service rsyslog restart` dhe mailcow-un
+me `sudo docker compose up -d`.
 
-Consider looking at the [Mailcow logging
-documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
-for alternatives to this configuration.
+Për alternative të këtij formësimi, shihni
+mundësinë e leximit te [dokumentimi i
+regjistrave të Mailcow-ut](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation).
 

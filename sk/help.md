@@ -805,17 +805,26 @@ Concretely, Delta Chat developments have so far been funded from these sources:
 - In 2021 we received further EU funding for two Next-Generation-Internet
   proposals, namely for [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-account support, improved QR-code contact and group setups and many networking improvements on all platforms.
 
-- For 2021/2022 we are receiving *Internet Freedom* funding (~500K USD) from the
+- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
   U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supports our long-running goals to make Delta Chat more usable 
+  This funding supported our long-running goals to make Delta Chat more usable 
   and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
   in places often affected by internet censorship and shutdowns.
 
-- Sometimes we receive one-time donations from private individuals for
-  which we are grateful. For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". We use such money to fund
-  development gatherings or to care for ad-hoc expenses that can not easily be predicted
-  for or reimbursed from public funding grants. 
+- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
+  Entrust program for our "Private Decentralized Apps" proposals. 
+  Exact amount is to be determined (around 100K EUR). 
+  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+
+- Sometimes we receive one-time donations from private individuals. 
+  For example, in 2021 a generous individual bank-wired us 4K EUR 
+  with the subject "keep up the good developments!". 💜 
+  We use such money to fund development gatherings or to care for ad-hoc expenses 
+  that can not easily be predicted for, or reimbursed from, public funding grants. 
+  Receiving more donations also helps us to become more independent and long-term viable
+  as a contributor community. 
+
+  [Donate Money](donate){: .cta-button}
 
 - V neposlednom rade k vývoju Delta Chat prispelo a prispieva viacero pro-bono odborníkov a nadšencov
    bez toho, aby dostávali peniaze alebo dostávali iba
@@ -825,4 +834,5 @@ Concretely, Delta Chat developments have so far been funded from these sources:
 The monetary funding mentioned above is mostly organized by merlinux GmbH in
 Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
 
-Funding for second half of 2022 and especially for 2023 is an ongoing issue of concern. Apart from applying for more public funding we want to become more independent from government-related funding sources. Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) for both monetary and development related support possibilities. 
+Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
+for both monetary and and other contribution possibilities.  

@@ -578,12 +578,30 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
 
 - 在 2021 年，我们从两项下一代互联网提案收到了欧盟的进一步资助，即 [EPPD - 电子邮件提供商可移植性目录](https://dapsi.ngi.eu/hall-of-fame/eppd/)（约 9.7 万欧元）和 [AEAP - 电子邮件地址移植](https://nlnet.nl/project/EmailPorting/)（约 9 万欧元）。这带来了更好的多账户支持，改进的二维码联系人和群组设置，和所有平台上的多处网络改进。
 
-- 在 2021/2022 年，我们从美国民主、人权和劳工局（DRL）获得 *互联网自由* 资助（约 50 万美元）。这笔资金资助我们的长期目标是使 Delta Chat 更易于使用，兼容世界上各类电子邮件服务器，以及在经常遭受互联网审查与互联网关闭的地方更具适应力和安全性。 
+- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
+  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
+  This funding supported our long-running goals to make Delta Chat more usable 
+  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
+  in places often affected by internet censorship and shutdowns.
 
-- 有时我们会收到来自个人的一次性捐款，对此我们心存感激。例如在2021 年，一位慷慨的个人向我们银行电汇了四千欧元，主题为“保持良好发展！"。我们使用这些钱款来资助开发聚会，以及应对难以预测或无法从公共资金赠款中报销的临时费用。
+- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
+  Entrust program for our "Private Decentralized Apps" proposals. 
+  Exact amount is to be determined (around 100K EUR). 
+  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+
+- Sometimes we receive one-time donations from private individuals. 
+  For example, in 2021 a generous individual bank-wired us 4K EUR 
+  with the subject "keep up the good developments!". 💜 
+  We use such money to fund development gatherings or to care for ad-hoc expenses 
+  that can not easily be predicted for, or reimbursed from, public funding grants. 
+  Receiving more donations also helps us to become more independent and long-term viable
+  as a contributor community. 
+
+  [Donate Money](donate){: .cta-button}
 
 - 最后但并非最不重要的是，数位专家与热心人在没有收到或仅收到少量金钱的情况下为 Delta Chat 的开发做出了贡献。没有他们，Delta Chat 不会发展到、甚至无法接近目前的状况。
 
 上面提到的钱款资助主要是由在弗赖堡（德国）的 merlinux GmbH 组织的，分发给了来自世界各地的十多位贡献者。
 
-2022 年下半年，特别是 2023 年的资助是一个正在被关注的问题。除了申请更多的公共资金外，我们希望能更加独立于政府相关的资金来源。请查看 [Delta Chat 贡献渠道](https://delta.chat/en/contribute)来了解钱款和开发相关的支持可能性。
+Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
+for both monetary and and other contribution possibilities.  

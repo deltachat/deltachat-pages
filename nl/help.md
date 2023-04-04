@@ -785,16 +785,26 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door deze grote spele
 - In 2021 ontvingen we aanvullende EU-financiering voor twee toekomstige internet-
   voorstellen, te weten [EPPD - ‘e-mail provider portability directory’](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~€97.000) en [AEAP - ‘email address porting’](https://nlnet.nl/project/EmailPorting/) (~€90.000), wat geleid heeft tot betere ondersteuning voor meerdere accounts, een verbeterd QR-codesysteem en vele netwerk-gerelateerde verbeteringen op alle besturingssystemen.
 
-- In 2021 en 2022 ontvingen we *Internetvrijheid*sfinanciering (~$500,000) van de
-  ‘U.S. Bureau of Democracy, Human Rights and Labor’ (DRL). 
-  Met deze financiering kunnen we Delta Chat eindelijk stabieler maken, 
-  evenals compatibeler met meer e-mailservers wereldwijd. Ook kunnen we extra beveiliging toevoegen
-  voor geheim communiceren vanaf locaties met internetcensuur of waar het internet is afgesloten.
+- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
+  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
+  This funding supported our long-running goals to make Delta Chat more usable 
+  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
+  in places often affected by internet censorship and shutdowns.
 
-- Soms ontvangen we eenmalige donaties van privépersonen, waar we
-  uiteraard zeer dankbaar voor zijn. Zo ontvingen we in 2021 een zeer royaal bedrag op onze rekening, te weten €4000, 
-  met als bijschrift “Ga zo door met dit goede project!”. We gebruiken dit soort bedragen om
-  ontmoetingen tussen ontwikkelaars te organiseren of voor ad-hoc-uitgaven die niet voorzien waren.
+- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
+  Entrust program for our "Private Decentralized Apps" proposals. 
+  Exact amount is to be determined (around 100K EUR). 
+  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+
+- Sometimes we receive one-time donations from private individuals. 
+  For example, in 2021 a generous individual bank-wired us 4K EUR 
+  with the subject "keep up the good developments!". 💜 
+  We use such money to fund development gatherings or to care for ad-hoc expenses 
+  that can not easily be predicted for, or reimbursed from, public funding grants. 
+  Receiving more donations also helps us to become more independent and long-term viable
+  as a contributor community. 
+
+  [Donate Money](donate){: .cta-button}
 
 - Ook hebben verschillende experts en enthousiastelingen op vrijwillige basis bijgedragen
   aan Delta Chat, en sommige doen dat nog steeds. Zij hebben geen of bijna geen
@@ -804,4 +814,5 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door deze grote spele
 Bovenstaande fiancieringen zijn opgezet door merlinux GmbH in
 Freiburg (Duitsland) en daarna toegekend aan meer dan 12 vrijwilligers wereldwijd. 
 
-Financiering voor de tweede helft van 2022 en vooral 2023 is een actieve kwestie en baart ons zorgen. We willen in elk geval niet meer zoveel afhankelijk zijn van overheidsfinanciering. Zie onze [bijdragekanalen](https://delta.chat/en/contribute) om te zien welke ondersteuning we precies zoeken.
+Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
+for both monetary and and other contribution possibilities.  
