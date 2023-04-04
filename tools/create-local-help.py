@@ -54,6 +54,11 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
                      content,
                      flags=re.MULTILINE|re.DOTALL)
 
+    content = re.sub(r"<a href=\"(donate)\"",
+                      "<a href=\"https://delta.chat/\\1\">",
+                     content,
+                     flags=re.MULTILINE|re.DOTALL)
+
     for linked_file in linked_files:
         srcfile  = "../" + linked_file
         destfile = "../" + linked_file.split("/")[-1]
