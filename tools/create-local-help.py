@@ -64,6 +64,13 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
                      content,
                      flags=re.MULTILINE|re.DOTALL)
 
+    # remove the first blockquote, which is the "this help is also available offline hint"
+    content = re.sub(r"<blockquote>.*?</blockquote>",
+                     "",
+                     content,
+                     count=1,
+                     flags=re.MULTILINE|re.DOTALL)
+
     for linked_file in linked_files:
         srcfile  = "../" + linked_file
         destfile = "../" + linked_file.split("/")[-1]
