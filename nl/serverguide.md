@@ -176,26 +176,26 @@ De volgende instellingen zijn afdoende:
 
 ![Domeinnaam instellen in Mailcow](../assets/blog/mailcow-create-domain.png)
 
-Ga dan naar E-Mail → Configuratie → Mailboxes en maak je eerste account aan.
+Ga dan naar E-mail → Configuratie → Mailboxes en maak je eerste account aan.
 Je kunt dit account meteen testen in Delta Chat.
 
 #### Optioneel: voeg aanvullende dns-items toe
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further reccomendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+In E-mail → Configuratie → Domeinen, direct naast je domeinnaam, staat een blauwe
+dns-knop. Hieronder staan aanbevelingen voor dns-items die kunnen
+helpen als je problemen met de aflevering van e-mails aan andere servers ervaart.
 
-![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
+![Dns-instellingen in Mailcow](../assets/blog/mailcow-dns-settings.png)
 
-## Setting up mailadm
+## Stel mailadm in
 
-Now we can set up mailadm - with this tool you can generate QR codes, which
-people can scan from Delta Chat to create an e-mail account on your server. It
-is probably the easiest way for users to get started with Delta Chat.
+Nu kun je verder met het opzetten van mailadm. Met dit hulpmiddel kun je QR-codes genereren, die
+door Delta Chat-gebruikers kunnen worden gescand om een e-mailaccount aan te maken op je server. Dit
+is de eenvoudigste methode om aan de slag te gaan met Delta Chat.
 
-### Downloading mailadm
+### Download mailadm
 
-You can use these commands to download mailadm:
+Je kunt onderstaande opdrachten gebruiken om mailadm te downloaden:
 
 ```
 cd ~
@@ -204,60 +204,59 @@ cd mailadm
 mkdir docker-data
 ```
 
-### Building mailadm
+### Compileer mailadm
 
-Now you can build the mailadm docker container with
+Nu kun je de mailadm-dockercontainer compileren met
 `sudo docker build . -t mailadm-mailcow`.
 
-#### If docker.com or pypi.org is Blocked
+#### Als docker.com of pypi.org geblokkeerd is:
 
-If your server can't reach docker.com, dl-cdn.alpinelinux.org, or pypi.org,
-this will fail. But you can build the docker container on a different machine
-and copy it to the VPS:
+Als je server docker.com, dl-cdn.alpinelinux.org of pypi.org niet kan bereiken,
+dan mislukt het compileren. In dat geval kan je de dockercontainer op een andere computer compileren
+en deze naar de vps kopiëren:
 
 ```
 sudo docker build . -t mailadm-mailcow
 sudo docker save -o mailadm-image.tar mailadm-mailcow
-scp mailadm-image.tar example.org:
-ssh example.org
+scp mailadm-image.tar voorbeeld.org:
+ssh voorbeeld.org
 sudo docker load --import mailadm-image.tar
 ```
 
-### Getting an API token from the web interface
+### Api-sleutel ophalen via webinterface
 
-Now you can go to https://mail.example.org/admin again, to get a mailcow API
-key.
+Nu kun je nogmaals naar https://mail.example.org/admin gaan om een mailcow-api-
+sleutel op te halen.
 
-You have to activate the API (Make sure to use the "Read-Write Access API" and
-not the "Read-Only Access API"!) and enter your server's br-mailcow interface
-IP address under "Allow API access from these IPs/CIDR network notations". You
-can find out the IP address with `ip a show br-mailcow`.
+Activeer de api (met ‘Read-Write Access API’ en
+niet ‘Read-Only Access API’!) en voer het ip-adres van de br-mailcow-interface
+op je server in onder ‘Api-toegang van deze ip's/CIDR-netwerknotaties toestaan’. Je
+kunt je ip-adres opvragen met behulp van `ip a show br-mailcow`.
 
-Check the checkbox "Activate API and then click on "Save Changes" and copy the
-API key.
+Kruis ‘Api activeren’ aan, dan op ‘Wijzigingen opslaan’ en kopieer vervolgens de
+api-sleutel.
 
-### Configuring mailadm
+### Stel mailadm in
 
-Then, in the mailadm directory, create a `.env` file and configure mailadm like
-this:
+Maak in de mailadm-map een `.env`-bestand aan en stel mailadm als
+volgt in:
 
 ```
-MAIL_DOMAIN=example.org
-WEB_ENDPOINT=https://mailadm.example.org/new_email
-MAILCOW_ENDPOINT=https://mail.example.org/api/v1/
+MAIL_DOMAIN=voorbeeld.org
+WEB_ENDPOINT=https://mailadm.voorbeeld.org/new_email
+MAILCOW_ENDPOINT=https://mail.voorbeeld.org/api/v1/
 MAILCOW_TOKEN=238473-081241-7A78B1-B7098C-E798BA
 ```
 
-At `MAILCOW_TOKEN`, enter the API key which you just got from the mailcow web
-interface.
+Voer bij `MAILCOW_TOKEN` de zojuist gekopieerde api-sleutel in.
 
-If you are unsure how to choose the values in .env, take a look at the
-[documentation](https://mailadm.readthedocs.io/en/latest/#configuration-details)
-of mailadm.
+Als je niet weet welke waarden je in .env moet kiezen, neem dan de
+[documentatie](https://mailadm.readthedocs.io/en/latest/#configuration-details)
+van mailadm door.
 
-### Add mailadm alias
+### Mailadm-alias toevoegen
 
-Now to make it easier to run mailadm commands, add this alias:
+Voeg de volgende alias toe om het uitvoeren van mailadm-opdrachten eenvoudiger te maken:
 
 ```
 alias mailadm="$PWD/scripts/mailadm.sh"
@@ -266,61 +265,61 @@ echo "alias mailadm=$PWD/scripts/mailadm.sh" >> ~/.bashrc
 
 ### Start mailadm
 
-Then you can initialize the database and setup the bot mailadm will use to
-receive commands and support requests from your users:
+Nu kun je de databank en bot opzetten die mailadm zal gebruiken om
+opdrachten en ondersteuningsverzoeken van gebruikers te ontvangen:
 
 ```
 mailadm init
 mailadm setup-bot
 ```
 
-Then you are asked to scan a QR code to join the Admin Group, a verified Delta
-Chat group. Anyone in the group can issue commands to mailadm via Delta Chat.
-You can send “/help” to the group to learn how to use it.
+Vervolgens word je gevraagd om een QR-code te scannen zodat je lid kunt worden van de beheerdersgroep, geverifieerde Delta
+Chat-groep. Iedereen in deze groep kan opdrachten versturen naar mailadm.
+Verstuur ‘/help’ aan de groep om te leren hoe je dit doet.
 
-Now, as everything is configured, we can start the mailadm container for good:
+Nu is alles ingesteld en kan de mailadm-container voor eens en voor altijd worden gestart:
 
 ```
 sudo docker run -d -p 3691:3691 --mount type=bind,source=$PWD/docker-data,target=/mailadm/docker-data --name mailadm mailadm-mailcow gunicorn -b :3691 -w 1 mailadm.app:app
 ```
 
-This starts a `mailadm` docker container. You can restart it with `sudo docker
-restart mailadm`, should you ever want to.
+Hiermee wordt de `mailadm`-dockercontainer gestart. Je kunt deze desgewenst herstarten met behulp van `sudo docker
+restart mailadm`.
 
-#### First steps with mailadm
+#### Aan de slag met mailadm
 
-That's it! You can now get started with creating tokens and users with mailadm.
-Best look at the documentation for the [first
-steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
-contains hints for troubleshooting the setup if something doesn't work.
+Klaar is Kees! Je kunt nu je eerste toegangssleutels en gebruikers aanmaken met mailadm.
+Neem hiervoor de [documentatie](https://mailadm.readthedocs.io/en/latest/#first-steps)
+door. De documentatie bevat tevens probleem-
+oplossingstips.
 
-## Optional: Disable POP3
+## Optioneel: schakel pop3 uit
 
-Delta Chat uses only SMTP and IMAP,
-so if all of your users use Delta Chat,
-you can disable POP3.
+Delta Chat maakt alleen gebruik van SMTP en IMAP,
+dus als al je gebruikers alleen gebruikmaken van Delta Chat,
+dan kun je pop3 uitschakelen.
 
-To do this, add the following to `mailcow.conf`:
+Voeg hiervoor het volgende toe aan `mailcow.conf`:
 
 ```
 POP_PORT=127.0.0.1:110
 POPS_PORT=127.0.0.1:995
 ```
 
-Then apply the changes with `sudo docker compose up -d`.
+Pas de wijzigingen toe met de opdracht `sudo docker compose up -d`.
 
-## Optional: Redirect all HTTP traffic to HTTPS
+## Optioneel: verwijs http-verkeer door naar https
 
-By default,
-the nginx server also responds unencrypted
-on port 80.
-This can be bad,
-as some users might enter passwords
-over this unencrypted connection.
+Standaard reageert
+de nginx-server op onversleutelde opdrachten
+op poort 80.
+Dit kan slecht zijn voor de veiligheid,
+aangezien sommige gebruikers hun wachtwoord
+invoeren op deze onbeveiligde verbinding.
 
-To prevent this,
-create a new file `data/conf/nginx/redirect.conf`
-and add the following server config to the file:
+Dit kan worden voorkomen
+door een nieuw bestand `data/conf/nginx/redirect.conf`
+aan te maken en de volgende serverinstellingen toe te voegen:
 
 ```
 server {
@@ -339,9 +338,9 @@ server {
 }
 ```
 
-Then apply the changes with `sudo docker compose restart nginx-mailcow`.
+Pas de wijzigingen toe met de opdracht `sudo docker compose restart nginx-mailcow`.
 
-## Optional: No Logs, No Masters
+## Optioneel: geen logboeken
 
 Mailcow logs the IP addresses of your users for debugging purposes, so if you
 don't want to keep this critical information on your server, you might want to

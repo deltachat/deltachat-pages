@@ -829,26 +829,27 @@ Konkretisht, zhvillimet e Delta Chat-it deri sot janë financuar nga këto burim
 llogari, përmirësim të gjërave për kontakte me kod QR dhe grupe, si dhe mjaft
 përmirësime në punën në rrjet për krejt platformat.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- Nga fundi i 2021-shit e deri në mars të 2023-shit kemi marrë financim *Internet Freedom*
+  (500K dollarë amerikanë) nga Zyra e Demokracisë, ShBA, Human Rights and Labor (DRL). 
+  Ky financim shërbeu si bazë për synimet tona afatgjata për ta bërë Delta Chat-in më
+  të përdorshëm dhe të përputhshëm me një gamë të gjerë shërbyesish email anembanë
+  botës dhe më të qëndrueshëm dhe më të siguruar
+  në vende të prekura shpesh nga censurim dhe fikje të internetit.
 
-- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
-  Entrust program for our "Private Decentralized Apps" proposals. 
-  Exact amount is to be determined (around 100K EUR). 
-  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+- Në fillim të 2023-shit u pranuam për programin Next Generation Internet
+  (NGI) Entrust, me propozimet tona “Private Decentralized Apps”. 
+  Sasia e saktë është për t’u vendosur (rreth 100K euro). 
+  Ky financim mbështet zhvillime të mëtejshme të [webxdc-së, “aplikacione të dhënë në një fjalosje”](https://webxdc.org). 
 
-- Sometimes we receive one-time donations from private individuals. 
-  For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". 💜 
-  We use such money to fund development gatherings or to care for ad-hoc expenses 
-  that can not easily be predicted for, or reimbursed from, public funding grants. 
-  Receiving more donations also helps us to become more independent and long-term viable
-  as a contributor community. 
+- Ndonjëherë marrim dhurime unike nga individë privatë. 
+  Për shembull, më 2021-shin një individ bujar na dërgoi një dërgesë
+  bankare prej 4K eurosh me subjektin “vazhdoni zhvillimin e mbarë!”. 💜 
+  Këto para i përdorim për të zhvilluar takime, ose mbuluar shpenzime <em>ad-hoc</em>
+  që s’mund të parashikohen kollaj, ose të rimbursohen nga grante financimesh publike. 
+  Marrja e më shumë dhurimeve na ndihmon gjithashtu të bëhemi më të pavarur dhe
+  të jetëgjatë, si bashkësi kontribuesish. 
 
-  [Donate Money](donate){: .cta-button}
+  [Dhuroni Para](donate){: .cta-button}
 
 - E fundit, por aspak për nga rëndësia, disa ekspertë dhe entuziastë kanë dhënë
   dhe japin ndihmesë pro-bono në zhvillimin e Delta Chat-it pa përfituar para,
@@ -858,5 +859,5 @@ përmirësime në punën në rrjet për krejt platformat.
 Financimi monetar i përmendur më sipër është kryesisht i organizuar nga GmbH në
 Frajburg (Gjermani) dhe u shpërndahet më tepër se një duzine kontribuesish nga e gjithë bota. 
 
-Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
-for both monetary and and other contribution possibilities.  
+Për mundësi kontributesh monetare ose lloji tjetër, ju lutemi, shihni
+[kanale kontributi te Delta Chat](https://delta.chat/en/contribute).  

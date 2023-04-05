@@ -559,7 +559,7 @@ Druga dotacja w 2019/2020 (~300 000 4) pomogła nam wydać wersje Delta/iOS, prz
   Receiving more donations also helps us to become more independent and long-term viable
   as a contributor community. 
 
-  [Donate Money](donate){: .cta-button}
+[Przekaż pieniądze](donate){: .cta-button}
 
 - Wreszcie, ale zdecydowanie nie najmniej ważne, kilku ekspertów i entuzjastów pro-bono wniosło wkład i przyczyniło się do rozwoju Delta Chat bez otrzymywania pieniędzy lub tylko niewielkich kwot. Bez nich Delta Chat nie byłby tam, gdzie jest dzisiaj, nawet w pobliżu.
 
