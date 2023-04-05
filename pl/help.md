@@ -424,7 +424,7 @@ Jesteśmy bardzo wdzięczni za opinie na temat tych funkcji — chcesz podzieli�
 -  Na przykład, aby użyć flagowej instancji Jitsi Meet, możesz wpisać https://meet.jit.si/$ROOM. Zmienna $ROOM będzie wartością losową; w ten sposób będziesz miał nowy losowy pokój jitsi za każdym razem, gdy do kogoś zadzwonisz.
 
 
-## Co to jest zweryfikowana grupa? Dlaczego jest eksperymentalna?
+### Co to jest zweryfikowana grupa? Dlaczego jest eksperymentalna?
 
 - Zweryfikowana grupa to czat, który gwarantuje bezpieczeństwo przed aktywnym napastnikiem. Wszystkie wiadomości w zweryfikowanym widoku czatu są szyfrowane za pomocą e2e, a członkowie mogą dołączyć, skanując „kod QR zaproszenia”. Wszyscy członkowie są więc połączeni ze sobą za pomocą łańcucha zaproszeń, który gwarantuje kryptograficzną spójność przed aktywnymi atakami sieci lub dostawców.
 Zobacz [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) odpowiedzialny za badania i rozwój tej funkcji.
@@ -559,7 +559,7 @@ Druga dotacja w 2019/2020 (~300 000 4) pomogła nam wydać wersje Delta/iOS, prz
   Receiving more donations also helps us to become more independent and long-term viable
   as a contributor community. 
 
-  [Donate Money](donate){: .cta-button}
+[Przekaż pieniądze](donate){: .cta-button}
 
 - Wreszcie, ale zdecydowanie nie najmniej ważne, kilku ekspertów i entuzjastów pro-bono wniosło wkład i przyczyniło się do rozwoju Delta Chat bez otrzymywania pieniędzy lub tylko niewielkich kwot. Bez nich Delta Chat nie byłby tam, gdzie jest dzisiaj, nawet w pobliżu.
 
