@@ -40,3 +40,6 @@ en:
     dl_apk_text:
       before: You can also download as
       after: (experimental)
+
+  help:
+    offline_hint: In a hurry? You can read this help relaxed at anytime within the app, also without internet.

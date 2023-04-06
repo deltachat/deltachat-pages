@@ -53,6 +53,10 @@
     {% include download-boxes.html %}
 {% endif %}
 
+{% if page.name == "help.md" %}
+    <blockquote><p>{%if tx.help.offline_hint != ""%}{{ tx.help.offline_hint }}{%else%}{{ txEn.help.offline_hint }}{%endif%}</p></blockquote>
+{%endif%}
+
 {% if page.render_toc == true %}
     {% include toc.html html=content %}
 {% endif %}

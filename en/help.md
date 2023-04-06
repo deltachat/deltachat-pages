@@ -8,8 +8,6 @@ header: Frequently Asked Questions
 
 ## What is Delta Chat?
 
-> In a hurry? You can read this help relaxed at anytime within the app, also without internet.
-
 Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
 **You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
 
