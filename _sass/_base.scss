@@ -186,7 +186,8 @@ a:hover {
 }
 
 code, pre, blockquote { background-color: #eee; overflow-x: scroll;}
-pre, blockquote { padding: 0.5em 1em; }
+pre, blockquote { padding: 2px 1em; }
+blockquote { font-style: italic; }
 
 
 #content table td, #content table th { border: 1px solid #ccc; padding: 0.2em 0.4em; }
