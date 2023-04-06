@@ -40,3 +40,6 @@ zh_CN:
     dl_apk_text:
       before: 您也可以下载为
       after: （实验性）
+
+  help:
+    offline_hint: ""

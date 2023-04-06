@@ -40,3 +40,6 @@ uk:
     dl_apk_text:
       before: Ви також можете завантажити з
       after: (експеримент)
+
+  help:
+    offline_hint: ""

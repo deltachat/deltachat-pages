@@ -40,3 +40,6 @@ nl:
     dl_apk_text:
       before: Je kunt Delta Chat ook downloaden als
       after: (experimenteel)
+
+  help:
+    offline_hint: ""

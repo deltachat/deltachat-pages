@@ -40,3 +40,6 @@ pt:
     dl_apk_text:
       before: You can also download as
       after: (experimental)
+
+  help:
+    offline_hint: ""

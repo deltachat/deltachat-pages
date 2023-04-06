@@ -40,3 +40,6 @@ id:
     dl_apk_text:
       before: Anda juga dapat mengunduh sebagai
       after: (eksperimental)
+
+  help:
+    offline_hint: ""

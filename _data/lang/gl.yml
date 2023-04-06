@@ -40,3 +40,6 @@ gl:
     dl_apk_text:
       before: Tamén descargable como
       after: (experimental)
+
+  help:
+    offline_hint: ""

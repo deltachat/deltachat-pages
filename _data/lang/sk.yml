@@ -40,3 +40,6 @@ sk:
     dl_apk_text:
       before: Môžete si tiež stiahnuť ako
       after: (experimental)
+
+  help:
+    offline_hint: ""

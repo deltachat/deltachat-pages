@@ -40,3 +40,6 @@ pl:
     dl_apk_text:
       before: Możesz także pobrać jako
       after: (eksperymentalne)
+
+  help:
+    offline_hint: ""

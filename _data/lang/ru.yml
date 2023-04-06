@@ -40,3 +40,6 @@ ru:
     dl_apk_text:
       before: Также можно скачать как
       after: (экспериментально)
+
+  help:
+    offline_hint: ""

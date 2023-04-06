@@ -40,3 +40,6 @@ cs:
     dl_apk_text:
       before: Lze také stáhnout jako
       after: (pokusné)
+
+  help:
+    offline_hint: ""

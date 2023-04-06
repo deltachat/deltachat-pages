@@ -40,3 +40,6 @@ tr:
     dl_apk_text:
       before: Şöyle de indirebilirsiniz
       after: (deneysel)
+
+  help:
+    offline_hint: ""

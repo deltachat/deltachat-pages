@@ -40,3 +40,6 @@ sq:
     dl_apk_text:
       before: Mund ta shkarkoni edhe si
       after: (ekperimental)
+
+  help:
+    offline_hint: ""

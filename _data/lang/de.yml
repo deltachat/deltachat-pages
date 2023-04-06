@@ -40,3 +40,6 @@ de:
     dl_apk_text:
       before: Du kannst Delta Chat Android auch als experimentelle
       after: (experimentell)
+
+  help:
+    offline_hint: "In Eile? Sie können diese Hilfe jederzeit entspannt in der App lesen, auch ohne Internet."
