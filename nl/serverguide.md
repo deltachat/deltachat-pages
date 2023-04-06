@@ -342,10 +342,10 @@ Pas de wijzigingen toe met de opdracht `sudo docker compose restart nginx-mailco
 
 ## Optioneel: geen logboeken
 
-Mailcow logs the IP addresses of your users for debugging purposes, so if you
-don't want to keep this critical information on your server, you might want to
-disable logging. Note that this makes debugging of issues considerably harder.
-Nobody but you can guess whether this is necessary in your environment.
+Mailcow houdt de ip-adressen van al je gebruikers bij voor foutopsporingsdoeleinden. Als je deze
+kritieke informatie niet op je server wilt bewaren, dan kun je
+deze functie beter uitschakelen. Let op: dit maakt foutopsporing een heel stuk moeilijker.
+Niemand kan voor je bepalen of dit handig is in jouw omgeving.
 
 Mailcow keeps some logs in redis, so you can show it in the web interface - but
 if you add `command: '--save ""'` to the redis-server container in
