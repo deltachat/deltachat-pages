@@ -722,7 +722,7 @@ në blog për të](https://delta.chat/en/2022-09-14-aeap).
 
 - Shumica e shërbyesve email do të funksionojnë mirë. Por çka
   rekomandojmë personalisht është një ndërthurje e Mailcow-ut dhe Mailadm-it,
-  siç përshkruhet [në këtë postim blogu](2023-01-26-upcoming-mail-server-workshops).
+  siç përshkruhet [në këtë postim blogu](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
 - Mund të gjeni një [udhërrëfyes instalimi në sajtin tonë](serverguide).
 
 
@@ -791,7 +791,7 @@ async-smtp)
 - Në fillim të 2023-it, [Cure53](https://cure53.de) analizoi qoftë fshehtëzimin
   e transporteve për lidhje rrjeti të Delta Chat-it, qoftë një formësim të riprodhueshëm
   shërbyesi poste si [të rekomanduarin në këtë sajt](serverguide).
-  Mund të lexoni më tepër rreth auditimit [në blogun tonë](2023-03-23-third-independent-security-audit),
+  Mund të lexoni më tepër rreth auditimit [në blogun tonë](https://delta.chat/en/2023-03-27-third-independent-security-audit),
   ose të lexoni [raportin e plotë këtu](../assets/blog/MER-01-report.pdf).
 
 ### Si financohet zhvillimi i Delta Chat-it? 
