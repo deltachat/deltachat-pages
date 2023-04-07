@@ -42,4 +42,4 @@ sq:
       after: (ekperimental)
 
   help:
-    offline_hint: ""
+    offline_hint: "Jeni me ngut? Mund të lexoni këtë ndihmë me qetësi kurdo që të jetë, brenda aplikacionit, edhe pa internet."
