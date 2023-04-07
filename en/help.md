@@ -714,7 +714,7 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 - Most mail servers will work well. But what we personally recommend is a
   combination of mailcow and mailadm, as described [in this
-  blogpost](2023-01-26-upcoming-mail-server-workshops).
+  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops)
 - You can find an [installation guide on our website](serverguide).
 
 
