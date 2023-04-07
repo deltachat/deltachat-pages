@@ -604,7 +604,7 @@ Cependant, quelques fournisseurs ont besoin d'options spéciales pour bien fonct
 
 - Most mail servers will work well. But what we personally recommend is a
   combination of mailcow and mailadm, as described [in this
-  blogpost](2023-01-26-upcoming-mail-server-workshops).
+  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
 - You can find an [installation guide on our website](serverguide).
 
 
@@ -667,7 +667,7 @@ years:
 - Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
   Delta Chat's network connections and a reproducible mail server setup as
   [recommended on this site](serverguide).
-  You can read more about the audit [on our blog](2023-03-23-third-independent-security-audit)
+  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 ### Comment est financé le développement de Delta Chat? 

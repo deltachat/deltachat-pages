@@ -490,7 +490,7 @@ Aby poznać szczegóły, które się za tym kryją, [przeczytaj nasz wpis na blo
 
 ### Chcę zarządzać własnym serwerem e-mail dla Delta Chat. Co polecacie?
 
-- Większość serwerów pocztowych będzie działać dobrze. Ale to, co osobiście polecamy, to połączenie mailcow i mailadm, jak opisano [w tym poście na blogu](2023-01-26-upcoming-mail-server-workshops).
+- Większość serwerów pocztowych będzie działać dobrze. Ale to, co osobiście polecamy, to połączenie mailcow i mailadm, jak opisano [w tym poście na blogu](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
 - Instrukcję instalacji można znaleźć [na naszej stronie internetowej](serverguide).
 
 
@@ -522,7 +522,7 @@ Projekt Delta Chat przeszedł w ostatnich latach trzy niezależne audyty bezpiec
 
 - W 2020 r. firma [Include Security](https://includesecurity.com) przeanalizowała biblioteki Rust [core](https://github.com/deltachat/deltachat-core-rust/), [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) i [TLS](https://github.com/async-email/async-native-tls) Delta Chat. Nie znalazła żadnych problemów krytycznych ani poważnych. W raporcie zwrócono uwagę na kilka słabych punktów o średniej wadze – same w sobie nie stanowią zagrożenia dla użytkowników Delta Chat, ponieważ zależą od środowiska, w którym używany jest Delta Chat. Ze względu na użyteczność i kompatybilność nie możemy złagodzić wszystkich z nich i zdecydowaliśmy się przedstawić zalecenia dotyczące bezpieczeństwa zagrożonym użytkownikom. Pełny raport można przeczytać [tutaj](../assets/blog/2020-second-security-review.pdf).
 
-- Początkiem 2023 r. firma [Cure53](https://cure53.de) przeanalizował zarówno szyfrowanie transportu połączeń sieciowych Delta Chat, jak i powtarzalną konfigurację serwera pocztowego zgodnie z [zaleceniami na tej stronie](serverguide). Możesz przeczytać więcej o audycie [na naszym blogu](2023-03-23-third-independent-security-audit) lub przeczytać pełny raport [tutaj](../assets/blog/MER-01-report.pdf).
+- Początkiem 2023 r. firma [Cure53](https://cure53.de) przeanalizował zarówno szyfrowanie transportu połączeń sieciowych Delta Chat, jak i powtarzalną konfigurację serwera pocztowego zgodnie z [zaleceniami na tej stronie](serverguide). Możesz przeczytać więcej o audycie [na naszym blogu](https://delta.chat/en/2023-03-27-third-independent-security-audit) lub przeczytać pełny raport [tutaj](../assets/blog/MER-01-report.pdf).
 
 ### W jaki sposób finansowany jest rozwój Delta Chat?
 

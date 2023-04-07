@@ -697,7 +697,7 @@ vedi [Panoramica fornitore](https://providers.delta.chat)
 
 - La maggior parte dei server di posta funzionerà bene. Ma quello che raccomandiamo personalmente è una
 combinazione di mailcow e mailadm, come descritto [in questo
-blogpost](2023-01-26-prossimi-workshop-server-di-posta).
+blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
 - È possibile trovare una [guida all'installazione sul nostro sito Web](serverguide).
 
 
@@ -766,7 +766,7 @@ Puoi leggere il [rapporto completo qui](../assets/blog/2020-second-security-revi
 - A partire dal 2023, [Cure53](https://cure53.de) ha analizzato sia la crittografia del trasporto delle
 Connessioni di rete di Delta Chat e una configurazione del server di posta riproducibile come
 [consigliato su questo sito](serverguide).
-Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](2023-03-23-hird-independent-security-audit)
+Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
 o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
 
 ### Come viene finanziato lo sviluppo di Delta Chat?
