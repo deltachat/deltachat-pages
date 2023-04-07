@@ -783,7 +783,7 @@ years:
 - Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
   Delta Chat's network connections and a reproducible mail server setup as
   [recommended on this site](serverguide).
-  You can read more about the audit [on our blog](2023-03-23-third-independent-security-audit)
+  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 ### How are Delta Chat developments funded? 
