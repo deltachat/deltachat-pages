@@ -21,7 +21,7 @@
 set -e
 
 sfiles=(blog contribute community-standards donate download help imprint index references user-voices verify-downloads serverguide)
-tlangs=(ca cs de es fr gl id it nl pl pt ru sk sq tr uk zh_CN)  # do not add `en` to this list
+tlangs=(ca cs de es fr gl id it nl pl pt pt_BR ru sk sq tr uk zh_CN)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
