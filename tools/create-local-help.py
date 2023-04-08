@@ -9,6 +9,7 @@
 from shutil import copyfile
 import sys
 import os
+import pathlib
 import re
 
 
@@ -75,6 +76,22 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
                           top_link + "<h\\1>",
                          content,
                          flags=re.MULTILINE|re.DOTALL) + top_link
+
+    # check that all links are absolute or known relative
+    urls = re.findall(r"(href|src).*?=.*?\"?([^\">]*)", content)
+    fine_cnt = 0
+    for url in urls:
+        url = url[1]
+        if url.startswith("#"):
+            # TODO: check anchors
+            fine_cnt += 1
+        elif url.startswith("https://"):
+            # TODO: check url
+            fine_cnt += 1
+        else:
+            local_file = destdir + "/" + lang + "/" + url
+            if not pathlib.Path(local_file).exists():
+                print(f"\033[91m  ERROR: unresolved link in {lang}/{file}: \033[0m {url}")
 
     write_file(destdir + "/" + lang + "/" + file, content)
 
