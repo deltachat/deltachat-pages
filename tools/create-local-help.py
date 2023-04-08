@@ -85,6 +85,11 @@ def generate_lang(srcdir, destdir, lang, add_top_links):
 
 
 def generate_help(srcdir, destdir, add_top_links=False):
+    for linked_file in linked_files:
+        srcfile  = srcdir  + "/" + linked_file
+        destfile = destdir + "/" + linked_file.split("/")[-1]
+        print("copy " + srcfile + " to " + destfile)
+        copyfile(srcfile, destfile)
     generate_lang(srcdir, destdir, "cs", add_top_links)
     generate_lang(srcdir, destdir, "de", add_top_links)
     generate_lang(srcdir, destdir, "en", add_top_links)
@@ -99,11 +104,6 @@ def generate_help(srcdir, destdir, add_top_links=False):
     generate_lang(srcdir, destdir, "sq", add_top_links)
     generate_lang(srcdir, destdir, "uk", add_top_links)
     generate_lang(srcdir, destdir, "zh_CN", add_top_links)
-    for linked_file in linked_files:
-        srcfile  = srcdir  + "/" + linked_file
-        destfile = destdir + "/" + linked_file.split("/")[-1]
-        print("copy " + srcfile + " to " + destfile)
-        copyfile(srcfile, destfile)
 
 
 if __name__ == "__main__":
