@@ -36,6 +36,7 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
 
     content = read_file(srcdir + "/" + lang + "/" + file)
 
+    # remove boilerplate
     content = re.sub(r"^.*<div id=\"content\">.*<h1>.*?</h1>.*?<ul.*?>",
                        "<!DOCTYPE html>\n"
                      + "<html>"
@@ -55,15 +56,21 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
                      content,
                      flags=re.MULTILINE|re.DOTALL)
 
-    content = re.sub(r"<a href=\"(serverguide)\"",
-                      "<a href=\"https://delta.chat/" + lang + "/\\1\"",
-                      content,
-                      flags=re.MULTILINE|re.DOTALL)
-
     content = re.sub(r"<p><a href=\"donate\".*?>.*?</a></p>",
                       "",
                      content,
                      flags=re.MULTILINE|re.DOTALL)
+
+    # convert relative to absolute links
+    content = re.sub(r"<a href=\"../(.*?)\"",
+                      "<a href=\"https://delta.chat/\\1\"",
+                      content,
+                      flags=re.MULTILINE|re.DOTALL)
+
+    content = re.sub(r"<a href=\"([a-z0-9\-]+)\"",
+                      "<a href=\"https://delta.chat/" + lang + "/\\1\"",
+                      content,
+                      flags=re.MULTILINE|re.DOTALL)
 
     for linked_file in linked_files:
         srcfile  = "../" + linked_file
