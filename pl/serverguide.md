@@ -5,88 +5,65 @@ lang: pl
 
 # Jak skonfigurować serwer pocztowy dla Delta Chat
 
-Delta Chat is a chat messenger which runs on e-mail. This means we can use any
-e-mail server to run Delta Chat accounts. One e-mail server which is easy to
-setup and manage, and works with Delta Chat out of the box, is
-[Mailcow](https://mailcow.email).
+Delta Chat jest komunikatorem, który działa w oparciu o e-mail. Oznacza to, że możemy użyć dowolnego serwera e-mail do uruchomienia kont Delta Chat. Jednym z serwerów e-mail, który jest łatwy do skonfigurowania i zarządzania, a także od razu współpracuje z Delta Chat, jest [Mailcow](https://mailcow.email).
 
-You can run it together with [mailadm](https://mailadm.readthedocs.io), which
-offers your users an easy way to create an e-mail account and directly login
-with Delta Chat. It is also included in this guide.
+Możesz go uruchomić razem z [mailadm](https://mailadm.readthedocs.io), który oferuje twoim użytkownikom łatwy sposób na utworzenie konta e-mail i bezpośrednie logowanie za pomocą Delta Chat. Jest to również zawarte w tym przewodniku.
 
-What you need:
+Potrzebujesz do tego:
 
-- basic command line knowledge
-- a domain name, and access to its DNS settings
-- SSH access to a linux server
-  - with a public IP,
-  - minimum 10 GB disk space,
-  - and minimum 2 GB RAM
+- podstawowej znajomości wiersza poleceń
+- nazwę domeny i dostęp do jej ustawień DNS
+- dostęp SSH do serwera linux
+  - z publicznym adresem IP,
+  - minimum 10 GB miejsca na dysku,
+  - i minimum 2 GB RAM
 
-## Installing Docker
+## Zainstaluj Dockera
 
-As a prerequisite you need to install [docker and
+Jako warunek wstępny musisz zainstalować [docker i
 docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
 
-### If docker.com is Blocked:
+### Jeśli docker.com jest zablokowany:
 
-Depending on the country where your server is in, docker.com may be blocked. You
-can also get docker & docker-compose from other sources, which may work:
+W zależności od kraju, w którym znajduje się twój serwer, docker.com może być zablokowany. Możesz również uzyskać docker i docker-compose z innych źródeł, które mogą działać:
 
-- Ubuntu's official apt repository usually has an outdated docker version; that
-  is not the best idea.
-- [snap](https://docs.docker.com/engine/install/ubuntu/) is another way to
-  install docker, but for docker-compose the snap variant doesn't work. Note
-  that if you install docker via snap, it doesn't run in systemd, but in snap.
-- You can try to download the docker-compose binary [from GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64)
-  and copy it to [the right location](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
-- And finally you can try to get access to a server outside your country,
-  create a HTTPS proxy, and use that to install docker and docker-compose. It's
-  tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
-  you run into problems.
+- Oficjalne repozytorium apt Ubuntu zwykle zawiera przestarzałą wersję dockera; to nie jest najlepszy pomysł.
+- [snap](https://docs.docker.com/engine/install/ubuntu/) to inny sposób na zainstalowanie dockera, ale dla docker-compose wariant snap nie działa. Zauważ, że jeśli zainstalujesz docker przez snap, nie działa on w systemd, ale w snap.
+- Możesz spróbować pobrać binarny docker-compose [z GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64) i skopiować go do [właściwej lokalizacji](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
+- Na koniec możesz spróbować uzyskać dostęp do serwera poza swoim krajem, utworzyć proxy HTTPS i użyć go do zainstalowania dokera i docker-compose. To trudne, ale może zadziałać. Możesz [skontaktować się](mailto:mailadm@testrun.org) z nami, jeśli napotkasz problemy.
 
-## Create DNS Entries
+## Utwórz wpisy DNS
 
-If you don't have a domain yet, you can use a service like
-[njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
-pay with PayPal, Bitcoin, or Monero.
+Jeśli nie masz jeszcze domeny, możesz skorzystać z usługi takiej jak [njal.la](https://njal.la), aby kupić domenę .net lub .org za 15 € rocznie. Możesz zapłacić za pomocą PayPal, Bitcoin lub Monero.
 
-Let's assume:
-- you bought example.org. For now you only want a mail server, but you think
-  about hosting a website at https://example.org later.
-- your server has the IPv4 address 24.48.100.24 - you can find out with the
-  command `ip a` and look for a similar-looking number (which doesn't start
-  with 127 or 172).
-- your server has the IPv6 address 7fe5:2f4:1ba:2381::3 (you can find it in `ip
-  a`, 2 lines below the IPv4 address. Ignore the `/64` at the end. Don't use
-  the one starting with `fe80`, it doesn't count).
+Załóżmy, że:
+-  kupiłeś przyklad.org. Na razie chcesz mieć tylko serwer pocztowy, ale myślisz o tym, żeby później umieścić na nim stronę internetową https://przyklad.org.
+- twój serwer ma adres IPv4 24.48.100.24 - możesz to sprawdzić poleceniem `ip` i poszukać podobnie wyglądającego numeru (który nie zaczyna się od 127 lub 172).
+- twój serwer ma adres IPv6 7fe5:2f4:1ba:2381::3 (możesz go znaleźć w `ip`, 2 linijki poniżej adresu IPv4. Zignoruj /64 na końcu. Nie używaj tego zaczynającego się od fe80, to się nie liczy).
 
-Now you could configure the domain settings for example.org like this:
+Teraz możesz skonfigurować ustawienia domeny dla przyklad.org w następujący sposób:
 
-| Type  | Name            | Data                                                 | TTL  | Priority |
+| Typ  | Nazwa            | Dane                                                 | TTL  | Priorytet |
 |-------|-----------------|------------------------------------------------------|------|----------|
 | A     | mail            | 24.48.100.24                                         | 5min |          |
 | AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
-| MX    | @               | mail.example.org                                     | 5min |    10    |
-| CNAME | autoconfig      | mail.example.org                                     | 5min |          |
-| CNAME | autodiscover    | mail.example.org                                     | 5min |          |
-| CNAME | mailadm         | mail.example.org                                     | 5min |          |
+| MX    | @               | mail.przyklad.org                                     | 5min |    10    |
+| CNAME | autoconfig      | mail.przyklad.org                                     | 5min |          |
+| CNAME | autodiscover    | mail.przyklad.org                                     | 5min |          |
+| CNAME | mailadm         | mail.przyklad.org                                     | 5min |          |
 | TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
-| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@przyklad.org | 5min |          |
 
-You can setup the DKIM key after setting up mailcow,
-in System>Configuration>Options>ARC/DKIM keys.
+Możesz ustawić klucz DKIM po skonfigurowaniu mailcow,
+w System>Configuration>Options>ARC/DKIM keys.
 
-You can do more than 5 minutes, but in case you notice something is wrong a
-short time helps with fixing the wrong entry.
+Możesz ustawić więcej niż 5 minut, ale jeśli zauważysz, że coś jest nie tak, krótki czas pomaga naprawić błędny wpis.
 
-## Setup Mailcow
+## Skonfiguruj Mailcow
 
-### Set Mailcow Options
+### Ustaw opcje Mailcow
 
-First clone the mailcow git repository - if your server doesn't have access to
-github.com, you can do this step somewhere else and use `scp` to copy it to
-your server.
+Najpierw sklonuj repozytorium git mailcow - jeśli twój serwer nie ma dostępu do github.com, możesz wykonać ten krok kiedy indziej i użyć `scp` do skopiowania go na swój serwer.
 
 ```
 sudo apt install -y git
@@ -94,9 +71,7 @@ git clone https://github.com/mailcow/mailcow-dockerized
 cd mailcow-dockerized
 ```
 
-Now you should run `./generate_config.sh` to generate the mailcow.conf file.
-If your server doesn't have access to github.com, you first need to remove any
-git command from the script. Enter the options like this:
+Teraz należy uruchomić `./generate_config.sh`, aby wygenerować plik mailcow.conf. Jeśli twój serwer nie ma dostępu do github.com, najpierw musisz usunąć ze skryptu wszelkie polecenia git. Wpisz opcje w taki sposób:
 
 ```
 Mail server hostname (FQDN) - this is not your mail domain, but your mail servers hostname: mail.example.org
@@ -110,7 +85,7 @@ Available Branches:
 Choose the Branch with it´s number [1/2] 1
 ```
 
-You should specify the following variables in mailcow.conf:
+Powinieneś określić następujące zmienne w mailcow.conf:
 
 ```
 ADDITIONAL_SAN=mailadm.example.org
@@ -119,18 +94,15 @@ SKIP_SOLR=y
 SKIP_SOGO=y
 ```
 
-The last 3 options remove services which are not needed for a minimal setup.
+Ostatnie 3 opcje usuwają usługi, które nie są potrzebne do minimalnej konfiguracji.
 
-After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`.
+Następnie musimy uruchomić `printf "#\n" > data/conf/dovecot/global_sieve_before`.
 
-### Mailadm NGINX config
+### Skonfiguruj Mailadm NGINX
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So first create the file `data/conf/nginx/server_name.active` and write
-`mailadm.example.org` to it - this means that nginx will listen to requests for
-this domain.
+`mailadm.przyklad.org/new_email` musi być osiągalny, aby żądania HTTP działały. Najpierw więc utwórz plik `data/conf/nginx/server_name.active` i zapisz w nim `mailadm.przyklad.org` - oznacza to, że nginx będzie nasłuchiwał żądań dla tej domeny.
 
-Then add the following block to `data/conf/nginx/site.mailadm.custom`:
+Następnie dodaj następujący blok do `data/conf/nginx/site.mailadm.custom`:
 
 ```
   location /new_email {
@@ -138,25 +110,21 @@ Then add the following block to `data/conf/nginx/site.mailadm.custom`:
   }
 ```
 
-Make sure to replace this example IP address with your server's IP address.
+Pamiętaj, aby zastąpić ten przykładowy adres IP adresem IP swojego serwera.
 
-This will forward all requests to `mailadm.example.org/new_email` to the mailadm
-container later.
+Spowoduje to przekazanie później wszystkich żądań do `mailadm.example.org/new_email` do kontenera mailadm.
 
-### Download mailcow containers
+### Pobierz kontenery mailcow
 
-Now run `sudo docker compose pull` to download the mailcow containers. If you don't
-have access to docker.com at this step, you can [use an HTTP
-proxy](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
+Teraz uruchom `sudo docker compose pull`, aby pobrać kontenery mailcow. Jeśli na tym etapie nie masz dostępu do witryny docker.com, możesz [użyć proxy HTTP](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
 
-### Start Mailcow
+### Uruchom Mailcow
 
-Now start mailcow with `sudo docker compose up -d`.
+Teraz uruchom mailcow za pomocą `sudo docker compose up -d`.
 
-### Disabling IPv6 for mailcow
+### Wyłączanie IPv6 dla mailcow
 
-If your server doesn't have an IPv6 address, you should [disable
-IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
+Jeśli twój serwer nie ma adresu IPv6, powinieneś [wyłączyć IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
 
 ### Adding Domain in Mailcow
 

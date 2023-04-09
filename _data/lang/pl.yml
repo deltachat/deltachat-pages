@@ -42,4 +42,4 @@ pl:
       after: (eksperymentalne)
 
   help:
-    offline_hint: ""
+    offline_hint: "Spieszysz się? W każdej chwili możesz przeczytać tę pomoc w aplikacji, także bez internetu."

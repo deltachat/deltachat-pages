@@ -713,7 +713,7 @@ Meer informatie hieromtrent is te vinden in ons [blogartikel](https://delta.chat
   versleuteld. De eind-tot-eindversleuteling van deze providers werkt alleen
   binnen de platformen zelf en is dus daarbuiten niet compatibel.
 - Delta Chat kan e2e-versleuteling gebruiken met andere e-mailproviders met elke
-  [https://autocrypt.org/dev-status.html](e-mailapp die Autocrypt gebruikt).
+  [e-mailapp die Autocrypt gebruikt](https://autocrypt.org/dev-status.html).
 
 
 ### Ik wil graag meer weten over de gebruikte technieken. Waar kan ik meer informatie vinden?
