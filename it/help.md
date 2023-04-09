@@ -32,7 +32,7 @@ gli stessi server di posta elettronica
 - _No Spam_ - per impostazione predefinita vengono visualizzati solo i messaggi degli utenti conosciuti.
 - _Crittografia end-to-end_ tramite Autocrypt.
 - Software libero basato su _Copyleft_ e _Standards_.
-- _Identità flessibile_ con supporto integrato per [più account](#account-multipli)
+- _Identità flessibile_ con supporto integrato per [più account](#multiple-accounts)
 
 
 ### Quali messaggi vengono mostrati in Delta Chat?
@@ -460,7 +460,7 @@ Un dispositivo non è necessario perché l'altro funzioni.
   (cerchiamo di far funzionare l'applicazione in background, ma [i sistemi tendono a uccidere le applicazioni](https://dontkillmyapp.com), purtroppo).
 
 - Delta Chat è **già connesso** sul dispositivo di destinazione?
-  È possibile utilizzare più account per dispositivo, basta [aggiungere un altro account](#accounts-multipli)
+  È possibile utilizzare più account per dispositivo, basta [aggiungere un altro account](#multiple-accounts)
 
 - Se si riscontrano ancora problemi o se **non si riesce a scansionare un codice QR**
   provate il **trasferimento manuale** descritto di seguito
