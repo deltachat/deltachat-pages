@@ -171,7 +171,7 @@ di un contatto. Ciò significa che è stato "visto di recente".
 - perché hanno scritto qualcosa a un gruppo di cui siete entrambi membri,
 - perché vi hanno inviato una ricevuta di lettura per un messaggio che avete scritto,
 - o perché hanno inviato dati alla vostra applicazione Delta Chat utilizzando un'applicazione
-[app privata](#applicazioni-private-webxdc).
+[app privata](#webxdc).
 - Quindi non si tratta di uno stato online in tempo reale - e se qualcuno non risponde
 subito anche se sembra essere online, non preoccupatevi e lasciategli un po'
 di spazio ;-)
@@ -235,7 +235,7 @@ si dovrebbe impostare la cancellazione automatica su "Dopo 1 giorno" o qualcosa 
 a seconda della frequenza con cui si accende l'altro dispositivo.
 
 
-### Cosa succede se attivo "Elimina Messaggi dal Dispositivo"?
+### Cosa succede se attivo "Elimina Messaggi dal Dispositivo"? {#delold}
 
 - Se si desidera risparmiare spazio sul dispositivo, è possibile scegliere di eliminare i vecchi
 messaggi automaticamente.
@@ -323,11 +323,11 @@ server dopo che sono stati consegnati.
 
 Se hai bisogno dei messaggi sul tuo dispositivo, ma non sul server, puoi farlo anche tu
 accetta nel gruppo di attivare ["cancella i messaggi dal server
-automaticamente"](#cosa-succede-se-si-gira-su-cancella-i-vecchi-messaggi-dal-server).
+automaticamente"](#delold).
 
 Se vuoi proteggere una conversazione 1:1 come questa, dovresti creare un
 gruppo verificato con solo 2 persone. Se l'altra persona perde il proprio dispositivo ma
-non il suo account, puoi comunque comunicare nella chat 1:1. ([Per saperne di più](#Qual-è-la-differenza-tra-gruppi-verificati-e-11-chat-con-contatti-verificati))
+non il suo account, puoi comunque comunicare nella chat 1:1. ([Per saperne di più](#verdiff))
 
 
 ### Quali standard vengono utilizzati per la crittografia end-to-end?
@@ -339,7 +339,7 @@ Autocrypt utilizza un sottoinsieme limitato di funzionalità OpenPGP.
 - Delta Chat implementa [protocolli countermitm configurazione contatto e gruppo verificato](https://countermitm.readthedocs.io/en/latest/new.html) per ottenere protezione dagli attacchi di rete attivi. Questo va oltre la protezione
 opportunistica base di Autocrypt Livello 1, pur mantenendo la sua facilità d'uso.
 
-### Qual è la differenza tra i gruppi verificati e le chat 1:1 con contatti verificati?
+### Qual è la differenza tra i gruppi verificati e le chat 1:1 con contatti verificati? {#verdiff}
 
 - Le chat 1:1 con un contatto verificato e i gruppi verificati non sono la stessa cosa, anche
 se ci sono solo 2 persone nel gruppo verificato. Una differenza è che tu
@@ -527,7 +527,7 @@ cartella DeltaChat", dovresti anche disabilitare "sposta messaggi chat in DeltaC
 In caso contrario, l'eliminazione dei messaggi o configurazioni multi-dispositivo potrebbero non funzionare correttamente.
 
 
-## Apps private / webxdc
+## Apps private / webxdc {#webxdc}
 
 In Delta Chat è possibile condividere "apps private", allegati con estensione `.xdc`.
 Possono fare molte cose diverse e rendono Delta Chat un messenger veramente

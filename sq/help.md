@@ -176,7 +176,7 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
   - ngaqë shkruan diçka te një grup ku jeni pjesë të dy palët,
   - ngaqë ju dërguan një dëftesë leximi për një mesazh që shkruat,
   - ose ngaqë dërguan të dhëna te aplikacioni juaj Delta Chat përmes një
-    [aplikacioni privat](#private-apps--webxdc).
+    [aplikacioni privat](#webxdc).
 - Pra, kjo s’është gjendje e njëmendtë aty për aty për qenie në linjë - dhe
   nëse dikush nuk përgjigjet menjëherë, edhe pse duket të jetë në linjë, mos
   u merakosni dhe lëruni ca kohë ;-)
@@ -242,7 +242,7 @@ për çfarëdo mesazhesh të rinj.
   në varësi të shpeshtisë me të cilën ndizni pajisjen tjetër.
 
 
-### Ç’ndodh, nëse aktivizoj “Fshi prej pajisjes mesazhe të vjetër”?
+### Ç’ndodh, nëse aktivizoj “Fshi prej pajisjes mesazhe të vjetër”? {#delold}
 
 - Nëse doni të kurseni hapësirë në pajisjen tuaj, mund të zgjidhni të fshihen
   automatikisht mesazhe të vjetër. 
@@ -332,12 +332,12 @@ shërbyesi, pasi të jenë dërguar.
 
 Nëse ju duhen mesazhet në pajisjen tuaj, por jo te shërbyesi, mundeni gjithashtu
 të bini në një mendje në grup për të aktivizuar [“fshi automatikisht mesazhet në
-shërbyes”](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+shërbyes”](#delold).
 
 Nëse doni të mbroni një bisedë tek për tek si kjo, duhet të krijoni një
 grup të verifikuar me vetëm 2 vetë. Nëse personi tjetër humb pajisjen
 e vet, por jo llogarinë e tij, mundeni ende të komunikoni te biseda tek
-për tek. ([Lexoni më tepër](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+për tek. ([Lexoni më tepër](#verdiff))
 
 
 ### Cilët standarde përdoren për fshehtëzim skaj-më-skaj?
@@ -351,7 +351,7 @@ për tek. ([Lexoni më tepër](#what-is-the-difference-between-verified-groups-a
   sendërton [protokollet countermitm, setup-contact dhe verified-group](https://countermitm.readthedocs.io/en/latest/new.html).  Kjo shkon përtej mbrojtjes bazë oportuniste të
   Autocrypt Level 1, ndërkohë që ruhet lehtësia e përdorimit.  
 
-### Cili është dallimi mes grupesh të verifikuar dhe fjalosjesh 1:1 me kontakte të verifikuar?
+### Cili është dallimi mes grupesh të verifikuar dhe fjalosjesh 1:1 me kontakte të verifikuar? {#verdiff}
 
 - Fjalosjet 1:1 me një kontakt të verifikuar dhe grupet e verifikuara s’janë
   e njëjta gjë, edhe kur ka vetëm 2 vetë në një grup të verifikuar. Një dallim
@@ -546,7 +546,7 @@ mesazhe bisedash te DeltaChat". Përndryshe, fshirja e mesazheve në instalime m
 shumë pajisje mund të mos punojë si duhet.
 
 
-## Aplikacione private / webxdc
+## Aplikacione private / webxdc {#webxdc}
 
 Në Delta Chat, mund të ndani me të tjerë “aplikacione private”, bashkëngjitje
 me një zgjatim `.xdc` kartele. Ato bëjnë gjëra shumë të ndryshme dhe e bëjnë

@@ -139,7 +139,7 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
   - entweder weil der Kontakt Ihnen direkt eine Nachricht gesendet hat,
   - weil der Kontakt etwas an eine Gruppe geschrieben hat, in der sie beide Mitglied sind,
   - weil der Kontakt Ihnen eine Lesebestätigung für eine von Ihnen geschriebene Nachricht gesendet hat
-  - oder weil der Kontakt Daten mithilfe einer [Privaten App](#private-apps--webxdc) an Ihre Delta Chat-App gesendet hat.
+  - oder weil der Kontakt Daten mithilfe einer [Privaten App](#webxdc) an Ihre Delta Chat-App gesendet hat.
 - Dies ist also kein Echtzeit-Online-Status - und wenn jemand nicht sofort antwortet, obwohl er online zu sein scheint, machen Sie sich keine Sorgen und geben Sie ihm etwas Raum. ;-)
 - Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
 
@@ -188,7 +188,7 @@ Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gr
 - Beachten Sie, dass Sie, wenn Sie Delta Chat auf mehr als einem Gerät verwenden, die Nachrichten auf dem Server belassen sollten, bis das andere Gerät sie ebenfalls herunterladen kann. In diesem Fall sollten Sie das automatische Löschen auf "nach 1 Tag" oder ähnlich einstellen, je nachdem, wie oft Sie das andere Gerät einschalten.
 
 
-### Was passiert, wenn ich "Alte Nachrichten vom Gerät löschen" aktiviere?
+### Was passiert, wenn ich "Alte Nachrichten vom Gerät löschen" aktiviere? {#delold}
 
 - Wenn Sie Speicherplatz auf Ihrem Gerät sparen möchten, können Sie alte Nachrichten automatisch löschen lassen.
 - Um es zu aktivieren, gehen Sie in den "Chats und Medien"-Einstellungen zu "Alte Nachrichten vom Gerät löschen". Sie können einen Zeitraum zwischen "nach 1 Stunde" und "nach 1 Jahr" festlegen; auf diese Weise werden *alle* Nachrichten von Ihrem Gerät gelöscht, sobald sie älter als angegeben sind.
@@ -259,11 +259,11 @@ the server after they were delivered.
 
 If you need the messages on your device, but not on the server, you can also
 agree in the group to turn on ["delete messages from server
-automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+automatically"](#delold).
 
 If you want to protect a 1:1 conversation like this, you should create a
 verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
 
 
 ### Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
@@ -273,7 +273,7 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#what
 
 - Um vor aktiven Netzwerkangriffen zu schützen, implementiert Delta Chat [countermitm Kontakt-Setup- und Verifizierte-Gruppen-Protokolle](https://countermitm.readthedocs.io/en/latest/new.html). Dies geht über den Basisschutz der Verschlüsselung von Autocrypt Level 1 hinaus, behält aber dessen Einfachheit bei.  
 
-### Was ist der Unterschied zwischen verifizierten Gruppen und 1:1 Chats mit verifizierten Kontakten?
+### Was ist der Unterschied zwischen verifizierten Gruppen und 1:1 Chats mit verifizierten Kontakten? {#verdiff}
 
 - 1:1 Chats mit einem verifizierten Kontakt und verifizierte Gruppen sind nicht das Gleiche, auch wenn sich nur 2 Personen in einer verifizierten Gruppe befinden. Ein Unterschied ist, dass Sie zu einer Gruppe einfach weitere Personen hinzufügen können, aber es gibt noch weitere Unterschiede.
 
@@ -405,7 +405,7 @@ Wir empfehlen für diesen Zweck aber "Delta Chat Desktop"; Sie können die App u
 Einige BenutzerInnen verwenden Delta Chat als reguläres E-Mail-Programm und möchten lieber den Posteingang anstatt des DeltaChat-Ordners verwenden. Wenn Sie "DeltaChat-Ordner beobachten" ausschalten, sollten Sie auch "Autom. Verschieben in den DeltaChat-Ordner" ausschalten. Andernfalls funktioniert die Verwendung auf mehreren Geräten möglicherweise nicht richtig.
 
 
-## Private Apps / webxdc
+## Private Apps / webxdc {#webxdc}
 
 In Delta Chat können Sie "Private Apps" und Anhänge mit der Dateierweiterung ".xdc" teilen. Sie können sehr unterschiedliche Dinge tun und machen Delta Chat zu einem wirklich erweiterbaren Messenger. Der Fachbegriff lautet [webxdc](https://webxdc.org).
 

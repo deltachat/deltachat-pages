@@ -148,7 +148,7 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
   - 或是因为他们直接给您发消息了，
   - 因为他们在和您的共有群组中发消息了，
   - 因为他们对您的消息发送了已读回执，
-  - 或是因为他们通过[私人应用](#private-apps--webxdc)给您的 Delta Chat 发送数据了。
+  - 或是因为他们通过[私人应用](#webxdc)给您的 Delta Chat 发送数据了。
 - 所以，这并不是一个实时的在线状态——如果他人即使看起来在线也没有立即回复，不要心急，给他们一些空间 ;-)
 - 另一方面，其他人并不总是能“看到您在线”。如果您关掉了已读回执，那么在您发消息给其他人以及和他们的共有群组前，其他人将不会看到绿色圆点。
 
@@ -195,7 +195,7 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 - 注意：如果在多台设备上使用 Delta Chat，请将消息在服务器上保存足够长的时间，以便其他设备能够下载消息。在这种情况下，您应当根据其他设备的使用频率，将自动删除设置到“一天后”或相似的选项上。
 
 
-### 打开“从设备删除旧消息”后，会发生什么？
+### 打开“从设备删除旧消息”后，会发生什么？ {#delold}
 
 - 若要节省设备上的存储空间，可以开启自动删除旧消息。
 - 找到“聊天与媒体”设置中的“从设备删除旧消息”，在从“一小时后”到“一年后”的一系列选项中选择一个。这样，设备上 *所有* 比所选择时间长度老的消息将被删除。
@@ -262,11 +262,11 @@ the server after they were delivered.
 
 If you need the messages on your device, but not on the server, you can also
 agree in the group to turn on ["delete messages from server
-automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+automatically"](#delold).
 
 If you want to protect a 1:1 conversation like this, you should create a
 verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
 
 
 ### 端到端加密使用了哪些标准？
@@ -275,7 +275,7 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#what
 
 - Delta Chat 实现了 [countermitm 设置联系人与已验证群组协议](https://countermitm.readthedocs.io/en/latest/new.html)以实现针对主动网络攻击的防护。这超越了基于乐观防护的 Autocrypt 级别 1，同时保持了其易用性。
 
-### 已验证群组和跟已验证联系人的一对一聊天有什么区别 ？
+### 已验证群组和跟已验证联系人的一对一聊天有什么区别 ？ {#verdiff}
 
 - 即使已验证群组中只有两个人，跟已验证联系人的一对一聊天和已验证群组也是不同的。一个区别是您可以轻松地将更多人添加到群组中。除此以外，还有其他的不明显区别。
 
@@ -397,7 +397,7 @@ This method is only recommended if "Add Second Device" as described above does n
 有些人将 Delta Chat 用作常规电子邮件客户端并希望将收件箱文件夹用于其邮件，而不是使用 DeltaChat 文件夹。如果禁用了“监视 DeltaChat 文件夹”，则还应该禁用“将聊天消息移动到 DeltaChat”。否则，删除消息或多设备设置可能无法正常工作。
 
 
-## 私人应用 / webxdc
+## Private Apps / webxdc {#webxdc}
 
 在 Delta Chat 中，您可以分享“私人应用”——带有 `.xdc ` 文件扩展名的附件。它们可以实现很多种不同的功能，而这使得 Delta Chat 成为了一款真正可扩展的聊天软件。其技术名称是 [webxdc](https://webxdc.org)。
 

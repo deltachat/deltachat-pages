@@ -144,7 +144,7 @@ aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
 - dlatego, że wysłał Ci bezpośrednio wiadomość,
 - ponieważ napisał coś do grupy, której oboje jesteście członkami,
 - ponieważ wysłał Ci potwierdzenie przeczytania napisanej przez Ciebie wiadomości,
-- lub dlatego, że wysłał dane do Twojej aplikacji Delta Chat za pomocą [prywatnej aplikacji](#prywatne-aplikacje--webxdc).
+- lub dlatego, że wysłał dane do Twojej aplikacji Delta Chat za pomocą [prywatnej aplikacji](#webxdc).
 - Nie jest to więc status online w czasie rzeczywistym – a jeśli ktoś nie odpowie od razu, mimo że wydaje się, że jest online, nie martw się i daj mu trochę miejsca ;-)
 - Z drugiej strony inni nie zawsze „zobaczą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą oni zielonej kropki, dopóki nie wyślesz do nich wiadomości lub nie napiszesz do grupy, w której również się znajdują.
 
@@ -194,7 +194,7 @@ aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
 - Zauważ, że jeśli używasz Delta Chat na więcej niż jednym urządzeniu, powinieneś pozostawić wiadomości na serwerze, do czasu, aż inne urządzenie będzie mogło je pobrać. W tym przypadku należy ustawić automatyczne usuwanie na „po 1 dniu” lub coś podobnego, w zależności od tego, jak często włączasz drugie urządzenie.
 
 
-### Co się stanie, jeśli włączę opcję „Usuń wiadomości z urządzenia”?
+### Co się stanie, jeśli włączę opcję „Usuń wiadomości z urządzenia”? {#delold}
 
 - Jeśli chcesz zaoszczędzić miejsce na urządzeniu, możesz wybrać opcję automatycznego usuwania starych wiadomości.
 - Aby ją włączyć, przejdź do „Usuń wiadomości z urządzenia” w ustawieniach w sekcji „Czaty i media”. Możesz ustawić przedział czasowy pomiędzy „po 1 godzinie” a „po 1 roku”; w ten sposób *wszystkie* wiadomości zostaną usunięte z urządzenia, gdy tylko staną się starsze.
@@ -256,9 +256,9 @@ Zweryfikowane grupy są zawsze szyfrowane i chronione przed [atakami MITM](https
 
 Metadanych nie można zaszyfrować, ponieważ serwer musi wiedzieć, gdzie dostarczyć wiadomości. Ale włączenie „autodestrukcji wiadomości” usuwa wiadomości z serwera po ich dostarczeniu.
 
-Jeśli potrzebujesz wiadomości na swoim urządzeniu, ale nie na serwerze, możesz również uzgodnić w grupie włączenie  [„automatycznego usuwania wiadomości z serwera”](#co-się-stanie-jeśli-włączę-opcję-usuń-wiadomości-z-serwera).
+Jeśli potrzebujesz wiadomości na swoim urządzeniu, ale nie na serwerze, możesz również uzgodnić w grupie włączenie  [„automatycznego usuwania wiadomości z serwera”](#delold).
 
-Jeśli chcesz chronić taką rozmowę 1:1, powinieneś utworzyć zweryfikowaną grupę składającą się tylko z 2 osób. Jeśli druga osoba straci swoje urządzenie, ale nie konto, nadal możesz komunikować się na czacie 1:1. ([Czytaj więcej](#jaka-jest-różnica-między-zweryfikowanymi-grupami-a-czatami-11-ze-zweryfikowanymi-kontaktami))
+Jeśli chcesz chronić taką rozmowę 1:1, powinieneś utworzyć zweryfikowaną grupę składającą się tylko z 2 osób. Jeśli druga osoba straci swoje urządzenie, ale nie konto, nadal możesz komunikować się na czacie 1:1. ([Czytaj więcej](#verdiff))
 
 
 ### Jakie standardy są stosowane do szyfrowania end-to-end?
@@ -267,7 +267,7 @@ Jeśli chcesz chronić taką rozmowę 1:1, powinieneś utworzyć zweryfikowaną 
 
 Delta Chat implementuje protokoły [countermitm (przeciwdziałania) setup-contact i verified-group](https://countermitm.readthedocs.io/en/latest/new.html) w celu osiągnięcia ochrony przed aktywnymi atakami sieciowymi. Wykracza to poza oportunistyczną ochronę podstawową Autocrypt Level 1, zachowując jednocześnie łatwość użytkowania.
 
-### Jaka jest różnica między zweryfikowanymi grupami a czatami 1:1 ze zweryfikowanymi kontaktami?
+### Jaka jest różnica między zweryfikowanymi grupami a czatami 1:1 ze zweryfikowanymi kontaktami? {#verdiff}
 
 - Czaty 1:1 ze zweryfikowanym kontaktem i zweryfikowanymi grupami to nie to samo, nawet jeśli w zweryfikowanej grupie są tylko 2 osoby. Jedna różnica polega na tym, że z łatwością możesz dodać więcej osób do grupy, ale są też inne konsekwencje.
 
@@ -383,7 +383,7 @@ Jednak zalecamy używanie klienta Delta Chat Desktop; możesz go pobrać z [get.
 Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą używać folderu Skrzynka odbiorcza dla swojej poczty zamiast folderu DeltaChat. Jeśli wyłączysz opcję „Oglądaj folder DeltaChat”, powinieneś również wyłączyć opcję „Automatyczne przenoszenie do folderu DeltaChat”. W przeciwnym razie usuwanie wiadomości lub konfiguracja wielu urządzeń może nie działać poprawnie.
 
 
-## Prywatne aplikacje / webxdc
+## Prywatne aplikacje / webxdc {#webxdc}
 
 W Delta Chat można udostępniać „prywatne aplikacje”, załączniki z rozszerzeniem .xdc. Mogą one robić bardzo różne rzeczy i sprawiają, że Delta Chat jest naprawdę rozszerzalnym komunikatorem. Techniczny termin to [webxdc](https://webxdc.org).
 
