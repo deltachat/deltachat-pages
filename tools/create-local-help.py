@@ -90,8 +90,9 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
     for url in urls:
         url = url[1]
         if url.startswith("#"):
-            # TODO: check anchors
-            fine_cnt += 1
+            anchor = url[1:]
+            if content.find('"' + anchor) == -1:
+                print(f"\033[91m  ERROR: unresolved anchor in {lang}/{file}: \033[0m {url}")
         elif url.startswith("https://"):
             # TODO: check url
             fine_cnt += 1
