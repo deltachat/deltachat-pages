@@ -78,7 +78,7 @@ Puoi facilmente lavorare con account aggiuntivi sui client mobili e desktop di D
 - sul pulsante del menu e poi su "Cambia Account" (Android e desktop)
 - o l'icona del profilo e poi 'Aggiungi account' (iOS)
 
-Potresti anche voler imparare [come aggiungere account a più dispositivi](#posso-usare-delta-chat-su-multi-dispositivi-allo-stesso-tempo).
+Potresti anche voler imparare [come aggiungere account a più dispositivi](#multiclient).
 
 ### Chi vede la mia immagine del profilo?
 

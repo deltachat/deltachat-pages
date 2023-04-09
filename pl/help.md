@@ -64,7 +64,7 @@ Możesz łatwo pracować z dodatkowymi kontami na klientach mobilnych i stacjona
 - na przycisku menu, a następnie „Przełącz konto” (Android i komputer stacjonarny)
 - lub ikonę profilu, a następnie „Dodaj konto” (iOS)
 
-Możesz także dowiedzieć się, [jak dodawać konta do wielu urządzeń](#czy-mogę-korzystać-z-delta-chat-na-wielu-urządzeniach-w-tym-samym-czasie).
+Możesz także dowiedzieć się, [jak dodawać konta do wielu urządzeń](#multiclient).
 
 ### Kto widzi moje zdjęcie profilowe?
 

@@ -70,7 +70,7 @@ You can easily work with additional accounts on Delta Chat mobile and desktop cl
 - on the menu button and then 'Switch Account' (Android and desktop)
 - or the profile icon and then 'Add Account' (iOS)
 
-You may also wish to learn [how to add accounts to multiple devices](#can-i-use-delta-chat-on-multiple-devices-at-the-same-time).
+You may also wish to learn [how to add accounts to multiple devices](#multiclient).
 
 ### 谁会看见我的个人资料图片？
 

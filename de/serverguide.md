@@ -14,7 +14,7 @@ You can run it together with [mailadm](https://mailadm.readthedocs.io), which
 offers your users an easy way to create an e-mail account and directly login
 with Delta Chat. It is also included in this guide.
 
-What you need:
+Was Sie benötigen:
 
 - basic command line knowledge
 - a domain name, and access to its DNS settings
@@ -23,12 +23,12 @@ What you need:
   - minimum 10 GB disk space,
   - and minimum 2 GB RAM
 
-## Installing Docker
+## Docker installieren
 
 As a prerequisite you need to install [docker and
 docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
 
-### If docker.com is Blocked:
+### Falls docker.com blockiert ist:
 
 Depending on the country where your server is in, docker.com may be blocked. You
 can also get docker & docker-compose from other sources, which may work:
@@ -45,7 +45,7 @@ can also get docker & docker-compose from other sources, which may work:
   tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
   you run into problems.
 
-## Create DNS Entries
+## DNS-Einträge erstellen
 
 If you don't have a domain yet, you can use a service like
 [njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
@@ -80,9 +80,9 @@ in System>Configuration>Options>ARC/DKIM keys.
 You can do more than 5 minutes, but in case you notice something is wrong a
 short time helps with fixing the wrong entry.
 
-## Setup Mailcow
+## Mailcow einrichten
 
-### Set Mailcow Options
+### Mailcow-Optionen festlegen
 
 First clone the mailcow git repository - if your server doesn't have access to
 github.com, you can do this step somewhere else and use `scp` to copy it to
@@ -149,7 +149,7 @@ Now run `sudo docker compose pull` to download the mailcow containers. If you do
 have access to docker.com at this step, you can [use an HTTP
 proxy](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
 
-### Start Mailcow
+### Mailcow starten
 
 Now start mailcow with `sudo docker compose up -d`.
 
@@ -194,7 +194,7 @@ Now we can set up mailadm - with this tool you can generate QR codes, which
 people can scan from Delta Chat to create an e-mail account on your server. It
 is probably the easiest way for users to get started with Delta Chat.
 
-### Downloading mailadm
+### mailadm herunterladen
 
 You can use these commands to download mailadm:
 
@@ -205,12 +205,12 @@ cd mailadm
 mkdir docker-data
 ```
 
-### Building mailadm
+### mailadm bauen
 
 Now you can build the mailadm docker container with
 `sudo docker build . -t mailadm-mailcow`.
 
-#### If docker.com or pypi.org is Blocked
+#### Falls docker.com oder pypi.org blockiert ist
 
 If your server can't reach docker.com, dl-cdn.alpinelinux.org, or pypi.org,
 this will fail. But you can build the docker container on a different machine
@@ -237,7 +237,7 @@ can find out the IP address with `ip a show br-mailcow`.
 Check the checkbox "Activate API and then click on "Save Changes" and copy the
 API key.
 
-### Configuring mailadm
+### mailadm konfigurieren
 
 Then, in the mailadm directory, create a `.env` file and configure mailadm like
 this:
@@ -265,7 +265,7 @@ alias mailadm="$PWD/scripts/mailadm.sh"
 echo "alias mailadm=$PWD/scripts/mailadm.sh" >> ~/.bashrc
 ```
 
-### Start mailadm
+### mailadm starten
 
 Then you can initialize the database and setup the bot mailadm will use to
 receive commands and support requests from your users:
@@ -288,14 +288,14 @@ sudo docker run -d -p 3691:3691 --mount type=bind,source=$PWD/docker-data,target
 This starts a `mailadm` docker container. You can restart it with `sudo docker
 restart mailadm`, should you ever want to.
 
-#### First steps with mailadm
+#### Erste Schritte mit mailadm
 
 That's it! You can now get started with creating tokens and users with mailadm.
 Best look at the documentation for the [first
 steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
 contains hints for troubleshooting the setup if something doesn't work.
 
-## Optional: Disable POP3
+## Optional: POP3 deaktivieren
 
 Delta Chat uses only SMTP and IMAP,
 so if all of your users use Delta Chat,

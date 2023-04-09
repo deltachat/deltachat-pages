@@ -80,7 +80,7 @@ Mundeni të punoni kollaj me llogari shtesë në klientët Delta Chat për celul
 - mbi butonin e menusë dhe mandej “Ndërroni Llogari” (Android dhe desktop)
 - ose mbi ikonën e profilit dhe mandej “Shtoni Llogari” (iOS)
 
-Mundet edhe të doni të mësoni [si të shtoni llogari në pajisje të shumta](#a-mund-ta-përdor-delta-chat-in-në-shumë-pajisje-në-të-njëjtën-kohë).
+Mundet edhe të doni të mësoni [si të shtoni llogari në pajisje të shumta](#multiclient).
 
 ### Kush e sheh profilin tim?
 
