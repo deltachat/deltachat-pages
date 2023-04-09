@@ -776,8 +776,7 @@ Projekti Delta Chat kaloi tre auditime të pavarura sigurie, në vitet e fundit:
   Mund të lexoni [raportin e plotë këtu](../assets/blog/2019-first-security-review.pdf).
 
 - Më 2020-n, [Include Security](https://includesecurity.com) analizoi [bazën](https://github.com/deltachat/deltachat-core-rust/)
-  në Rust të Delta Chat-it, si dhe bibliotekat [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/
-async-smtp)
+  në Rust të Delta Chat-it, si dhe bibliotekat [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp)
   dhe [TLS](https://github.com/async-email/async-native-tls).
   S’gjeti ndonjë problem kritik apo të rëndësisë së madhe.
   Raporti ngriti pak dobësi të rëndësisë mesatare -
