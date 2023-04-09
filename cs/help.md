@@ -337,7 +337,7 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#verd
 [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html). 
 To jde za hranici příležitostné základní ochrany Autocryptu Level 1 při udržení jednoduchého použití. 
 
-### What is the difference between verified groups and 1:1 chats with verified contacts? {#verdiff}
+### Jaký je rozdíl mezi ověřenými skupinami a běžnými hovory s ověřenými kontakty? {#verdiff}
 
 - hovor s jedním ověřeným kontaktem a hovor v ověřené skupině nejsou stejné, 
 dokonce i když ověřená skupina sestává pouze ze dvou účastníků. Jeden rozdíl je 
