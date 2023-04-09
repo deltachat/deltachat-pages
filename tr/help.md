@@ -838,5 +838,5 @@ Somut olarak, Delta Chat gelişmeleri şu ana kadar şu kaynaklardan finanse edi
 Yukarıda bahsedilen maddi finansman çoğunlukla merlinux GmbH tarafından organize edilmektedir.
 Freiburg (Almanya) ve dünya çapında bir düzineden fazla katılımcıya dağıtılmaktadır.
 
-Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
+Please see [Delta Chat Contribution channels](contribute)
 for both monetary and and other contribution possibilities.  

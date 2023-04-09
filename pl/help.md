@@ -553,4 +553,4 @@ Fundusze te wspierają nasze długofalowe cele, aby uczynić Delta Chat bardziej
 
 Wspomniane powyżej finansowanie pieniężne jest w większości organizowane przez merlinux GmbH we Freiburgu (Niemcy) i jest dystrybuowane do kilkunastu podmiotów na całym świecie.
 
-Zapoznaj się z [kanałami wpłat dla Delta Chat](https://delta.chat/en/contribute), aby uzyskać informacje o możliwościach wpłat zarówno pieniężnych, jak i innych.
+Zapoznaj się z [kanałami wpłat dla Delta Chat](contribute), aby uzyskać informacje o możliwościach wpłat zarówno pieniężnych, jak i innych.

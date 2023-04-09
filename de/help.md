@@ -613,5 +613,5 @@ Die zweite Förderung 2019/2020 (~$300K) half uns bei der  Erstellung der iOS-Ve
 
 Die oben aufgeführte finanzielle Förderung wird hauptsächlich von der merlinux GmbH in Freiburg (Deutschland) organisiert und an mehr als ein Dutzend Mitwirkende weltweit verteilt.
 
-Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
+Please see [Delta Chat Contribution channels](contribute)
 for both monetary and and other contribution possibilities.  

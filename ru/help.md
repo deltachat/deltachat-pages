@@ -838,5 +838,5 @@ Delta Chat не получает никакого венчурного капи�
 Упомянутые выше денежные сборы было организованы компанией merlinux GmbH в городе
 Фрайбург (Германия), и распределяются среди более чем дюжины участников по всему миру. 
 
-Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
+Please see [Delta Chat Contribution channels](contribute)
 for both monetary and and other contribution possibilities.  

@@ -859,4 +859,4 @@ Financimi monetar i përmendur më sipër është kryesisht i organizuar nga Gmb
 Frajburg (Gjermani) dhe u shpërndahet më tepër se një duzine kontribuesish nga e gjithë bota. 
 
 Për mundësi kontributesh monetare ose lloji tjetër, ju lutemi, shihni
-[kanale kontributi te Delta Chat](https://delta.chat/en/contribute).  
+[kanale kontributi te Delta Chat](contribute).

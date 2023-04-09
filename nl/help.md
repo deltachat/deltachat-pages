@@ -814,5 +814,5 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door deze grote spele
 Bovenstaande fiancieringen zijn opgezet door merlinux GmbH in
 Freiburg (Duitsland) en daarna toegekend aan meer dan 12 vrijwilligers wereldwijd. 
 
-Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
+Please see [Delta Chat Contribution channels](contribute)
 for both monetary and and other contribution possibilities.  

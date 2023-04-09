@@ -603,5 +603,5 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
 
 上面提到的钱款资助主要是由在弗赖堡（德国）的 merlinux GmbH 组织的，分发给了来自世界各地的十多位贡献者。
 
-Please see [Delta Chat Contribution channels](https://delta.chat/en/contribute) 
+Please see [Delta Chat Contribution channels](contribute)
 for both monetary and and other contribution possibilities.  

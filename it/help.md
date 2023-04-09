@@ -822,5 +822,5 @@ vicino.
 Il finanziamento monetario di cui sopra è per lo più organizzato da merlinux GmbH in
 Friburgo (Germania) ed è distribuito a più di una dozzina di contributori in tutto il mondo.
 
-Consulta [Canali contribuzione di Delta Chat](https://delta.chat/en/contribute)
+Consulta [Canali contribuzione di Delta Chat](contribute)
 sia per le possibilità monetarie che contributive.
