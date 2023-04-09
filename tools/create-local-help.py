@@ -11,6 +11,7 @@ import sys
 import os
 import pathlib
 import re
+import requests
 
 
 # list all files that should go to the local help here.
@@ -29,6 +30,22 @@ def write_file(filename, content):
     f = open(filename, 'w')
     f.write(content)
     f.close()
+
+
+reachable_cache = {}
+def url_is_reachable(url):
+    if not url in reachable_cache:
+        print(f"  checking {url}")
+        response = requests.get(url)
+        if response.status_code == 200:
+            reachable_cache[url] = True
+        elif response.status_code == 403 and url == "https://opentechfund.org":
+            reachable_cache[url] = True # maybe a temporary hickup
+        else:
+            print(f"  status code for {url}: {response.status_code}")
+            reachable_cache[url] = False
+
+    return reachable_cache[url]
 
 
 def generate_file(srcdir, destdir, lang, file, add_top_links):
@@ -86,7 +103,6 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
 
     # check that all links are absolute or known relative
     urls = re.findall(r"(href|src).*?=.*?\"?([^\">]*)", content)
-    fine_cnt = 0
     for url in urls:
         url = url[1]
         if url.startswith("#"):
@@ -94,8 +110,8 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
             if content.find('"' + anchor) == -1:
                 print(f"\033[91m  ERROR: unresolved anchor in {lang}/{file}: \033[0m {url}")
         elif url.startswith("https://"):
-            # TODO: check url
-            fine_cnt += 1
+            if not url_is_reachable(url):
+                print(f"\033[91m  ERROR: link in {lang}/{file} is not reachable: \033[0m {url}")
         else:
             local_file = destdir + "/" + lang + "/" + url
             if not pathlib.Path(local_file).exists():
