@@ -165,7 +165,7 @@ Negeer een gesprek via het gespreksmenu (Android/computer) of het gespreksprofie
   - iets in een van je groepen hebben geplaatst;
   - een leesbevestiging hebben verstuurd;
   - gegevens naar je Delta Chat-app middels een zogeheten
-    [privé-app](#private-apps--webxdc) hebben verstuurd.
+    [privé-app](#webxdc) hebben verstuurd.
 - De online-status is dus **niet** realtime. Geef ze dus even de tijd om te antwoorden. ;-)
 - Anderen kunnen ook niet altijd zien dat je actief was. Als je
   leesbevestigingen hebt uitgeschakeld, dan wordt er geen groen stipje getoond totdat je
@@ -228,7 +228,7 @@ automatisch verwijderen hiervoor in op ‘na één dag’ of iets dergelijks,
 afhankelijk van hoe vaak je het andere apparaat gebruikt.
 
 
-### Wat gebeurt er als ik ‘Oude berichten van server verwijderen’ inschakel?
+### Wat gebeurt er als ik ‘Oude berichten van server verwijderen’ inschakel? {#delold}
 
 - Als je ruimte wilt besparen op je apparaat, dan kun je er voor kiezen om oude
   berichten automatisch te verwijderen.
@@ -314,11 +314,11 @@ the server after they were delivered.
 
 If you need the messages on your device, but not on the server, you can also
 agree in the group to turn on ["delete messages from server
-automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+automatically"](#delold).
 
 If you want to protect a 1:1 conversation like this, you should create a
 verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
 
 
 ### Welke standaarden worden gebruikt bij eind-tot-eindversleuteling?
@@ -331,7 +331,7 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#what
 te bieden tegen actieve netwerkaanvallen. Hierdoor gaat Delta Chat
 verder dan de basisbescherming van Autocrypt niveau 1.
 
-### Wat is het verschil tussen goedgekeurde groepen en 1-op-1-gesprekken met goedgekeurde contactpersonen?
+### Wat is het verschil tussen goedgekeurde groepen en 1-op-1-gesprekken met goedgekeurde contactpersonen? {#verdiff}
 
 - 1-op-1-gesprekken met een goedgekeurde contactpersoon en goedgekeurde groepen zijn niet hetzelfde, ook niet
   als er 2 personen in de groep zijn. Eén van de grote verschillen is dat je
@@ -514,7 +514,7 @@ schakel dan ook de optie ‘Berichten verplaatsen naar de DeltaChat-map’ uit.
 Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere apparaten.
 
 
-## Privé-apps/webxdc
+## Privé-apps/webxdc {#webxdc}
 
 In Delta Chat kun je zogeheten ‘privé-apps’ delen. Dit zijn bijlagen met de bestandsextensie `.xdc`. Ze hebben verschillende functien en maken van Delta Chat een uitbreidbare
 gespreksapp. De technische term van privé-apps is [webxdc](https://webxdc.org).

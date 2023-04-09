@@ -172,7 +172,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   - because they wrote something to a group you are both a member of,
   - because they sent you a read receipt for a message you wrote,
   - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
+    [private app](#webxdc).
 - So this is not a real time online status - and if someone doesn't answer
   right away even though they seem to be online, don't worry and give them some
   space ;-)
@@ -237,7 +237,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   depending on how often you turn on the other device.
 
 
-### What happens if I turn on "Delete old messages from device"?
+### What happens if I turn on "Delete old messages from device"? {#delold}
 
 - If you want to save storage on your device, you can choose to delete old
   messages automatically. 
@@ -325,11 +325,11 @@ the server after they were delivered.
 
 If you need the messages on your device, but not on the server, you can also
 agree in the group to turn on ["delete messages from server
-automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+automatically"](#delold).
 
 If you want to protect a 1:1 conversation like this, you should create a
 verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
 
 
 ### Which standards are used for end-to-end-encryption?
@@ -341,7 +341,7 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#what
 - Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
   base protection of Autocrypt Level 1, while maintaining its ease of use.  
 
-### What is the difference between verified groups and 1:1 chats with verified contacts?
+### What is the difference between verified groups and 1:1 chats with verified contacts? {#verdiff}
 
 - 1:1 chats with a verified contact and verified groups are not the same, even
   if there are only 2 people in the verified group. One difference is that you
@@ -531,7 +531,7 @@ DeltaChat folder", you should also disable "move chat messages to DeltaChat".
 Otherwise, deleting messages or multi-device setups might not work properly.
 
 
-## Private Apps / webxdc
+## Private Apps / webxdc {#webxdc}
 
 In Delta Chat, you can share "private apps", attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly

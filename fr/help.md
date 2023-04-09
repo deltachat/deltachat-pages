@@ -161,7 +161,7 @@ pour mettre une discussion en sourdine, ouvrez le menu de la conversation (Andro
   - soit parce qu'il a écrit dans un groupe dont vous êtres tous les deux membres ;
   - soit parce qu'il a envoyé l'accusé de lecture d'un message que vous lui avez écrit ;
   - ou bien parce qu'il a envoyé des données à votre appli Delta Chat via une
-    [appli privée](#private-apps--webxdc).
+    [appli privée](#webxdc).
 - Le "point vert" n'est donc pas un statut en temps réel. Aussi, si quelqu'un ne vous répond pas
   immédiatement alors qu'il semble être en ligne, ne vous en faites pas et
   patientez ;-)
@@ -217,7 +217,7 @@ qu'un humain a lu ou compris le message ;)
 - Attention : si vous utilisez Delta Chat sur plusieurs appareils, laissez les messages sur le serveur jusqu'à ce que l'(es) autre(s) appareil(s) ai(en)t pu les télécharger aussi. Dans ce cas, nous vous conseillons de paramétrer la suppression automatique sur "Après 1 jour" ou plus, en fonction de la fréquence à laquelle vous vous servez de ces autres appareils.
 
 
-### Que se passe-t-il si j'active l'option "Supprimer les anciens messages de l'appareil" ?
+### Que se passe-t-il si j'active l'option "Supprimer les anciens messages de l'appareil" ? {#delold}
 
 - Vous pouvez choisir de supprimer automatiquement les anciens messages pour libérer de l'espace de stockage sur votre appareil. 
 - Pour activer cette option, ouvrez les paramètres des "Discussions et fichiers multimédias" et cliquez sur "Supprimer les anciens messages de l'appareil". Vous pouvez définir le délai après lequel *tous* les messages seront supprimés de votre appareil, parmi plusieurs choix allant de "Immédiatement" à "Après 1 année".
@@ -288,11 +288,11 @@ the server after they were delivered.
 
 If you need the messages on your device, but not on the server, you can also
 agree in the group to turn on ["delete messages from server
-automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+automatically"](#delold).
 
 If you want to protect a 1:1 conversation like this, you should create a
 verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
 
 
 ### Quels standards sont utilisés pour le chiffrement de bout en bout ?
@@ -302,7 +302,7 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#what
 
 - Delta Chat implémente [les protocoles setup-contact et verified-group du projet countermitm](https://countermitm.readthedocs.io/en/latest/new.html) afin d'assurer la protection contre des attaques de réseaux actives. Ceci va au-delà de la protection opportuniste de base du niveau 1 d'Autocrypt, tout en préservant sa facilité d'utilisation.
 
-### Quelle est la différence entre des groupes vérifiés et des discussions à deux avec des contacts vérifiés ?
+### Quelle est la différence entre des groupes vérifiés et des discussions à deux avec des contacts vérifiés ? {#verdiff}
 
 - Les discussions à deux avec un contact vérifié et les groupes vérifiés sont deux types de discussions différents, même s'il y a seulement 2 personnes dans le groupe vérifié. La première différence est que vous pouvez ajouter plusieurs personnes dans le groupe.
  
@@ -441,7 +441,7 @@ Certaines personnes utilisent Delta Chat comme un client de messagerie normal, e
 Sinon, la suppression de messages dans une configuration multi-appareils pourrait ne pas marcher correctement.
 
 
-## Applications privées / webxdc
+## Applications privées / webxdc {#webxdc}
 
 In Delta Chat, you can share "private apps", attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly

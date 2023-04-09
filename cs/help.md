@@ -169,7 +169,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   - because they wrote something to a group you are both a member of,
   - because they sent you a read receipt for a message you wrote,
   - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
+    [private app](#webxdc).
 - So this is not a real time online status - and if someone doesn't answer
   right away even though they seem to be online, don't worry and give them some
   space ;-)
@@ -234,7 +234,7 @@ ale nebudeš dostávat upozrnění na nově příchozí zprávy.
   depending on how often you turn on the other device.
 
 
-### What happens if I turn on "Delete old messages from device"?
+### What happens if I turn on "Delete old messages from device"? {#delold}
 
 - If you want to save storage on your device, you can choose to delete old
   messages automatically. 
@@ -320,11 +320,11 @@ the server after they were delivered.
 
 If you need the messages on your device, but not on the server, you can also
 agree in the group to turn on ["delete messages from server
-automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+automatically"](#delold).
 
 If you want to protect a 1:1 conversation like this, you should create a
 verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
 
 
 ### Jaké standardy jsou použity pro end-to-end šifrování?
@@ -337,7 +337,7 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#what
 [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html). 
 To jde za hranici příležitostné základní ochrany Autocryptu Level 1 při udržení jednoduchého použití. 
 
-### Jaký je rozdíl mezi ověřenými skupinami a běžnými hovory s ověřenými kontakty?
+### What is the difference between verified groups and 1:1 chats with verified contacts? {#verdiff}
 
 - hovor s jedním ověřeným kontaktem a hovor v ověřené skupině nejsou stejné, 
 dokonce i když ověřená skupina sestává pouze ze dvou účastníků. Jeden rozdíl je 
@@ -517,7 +517,7 @@ složku Příchozí / Inbox pro všechny zprávy i místo složky DeltaChat. Pok
 hrozí, že mazání zpráv či nastavení na několika zařízeních nebude správně fungovat.
 
 
-## Private Apps / webxdc
+## Private Apps / webxdc {#webxdc}
 
 In Delta Chat, you can share "private apps", attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly

@@ -172,7 +172,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   - because they wrote something to a group you are both a member of,
   - because they sent you a read receipt for a message you wrote,
   - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
+    [private app](#webxdc).
 - So this is not a real time online status - and if someone doesn't answer
   right away even though they seem to be online, don't worry and give them some
   space ;-)
@@ -237,7 +237,7 @@ takže aj keď vidíte len jedno zaškrtnutie, správa môže byť prečítaná.
   depending on how often you turn on the other device.
 
 
-### What happens if I turn on "Delete old messages from device"?
+### What happens if I turn on "Delete old messages from device"? {#delold}
 
 - If you want to save storage on your device, you can choose to delete old
   messages automatically. 
@@ -324,11 +324,11 @@ the server after they were delivered.
 
 If you need the messages on your device, but not on the server, you can also
 agree in the group to turn on ["delete messages from server
-automatically"](#what-happens-if-i-turn-on-delete-old-messages-from-server).
+automatically"](#delold).
 
 If you want to protect a 1:1 conversation like this, you should create a
 verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#what-is-the-difference-between-verified-groups-and-11-chats-with-verified-contacts))
+not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
 
 
 ### Ktoré štandardy sa používajú na šifrovanie typu end-to-end?
@@ -340,7 +340,7 @@ Autocrypt využíva obmedzenú podmnožinu funkcií OpenPGP.
 - Delta Chat implementuje [countermitm nastavovacie-kontaktné a overené skupinové protokoly](https://countermitm.readthedocs.io/en/latest/new.html) na dosiahnutie ochrany pred aktívnymi sieťovými útokmi. Toto presahuje rámec príležitostnej 
   základnej ochrane Autocrypt Level 1 pri zachovaní jednoduchosti používania.
 
-### Aký je rozdiel medzi overenými skupinami a rozhovormi 1:1 s overenými kontaktmi?
+### Aký je rozdiel medzi overenými skupinami a rozhovormi 1:1 s overenými kontaktmi? {#verdiff}
 
 - 1:1 rozhovory s overeným kontaktom a overenými skupinami nie sú rovnaké, dokonca
   ak sú v overenej skupine iba 2 osoby. Jeden rozdiel je v tom, že ty
@@ -528,7 +528,7 @@ priečinok DeltaChat“, mali by ste tiež zakázať „presunúť chatové spr�
 V opačnom prípade nemusí odstraňovanie správ alebo nastavenia viacerých zariadení fungovať správne.
 
 
-## Private Apps / webxdc
+## Private Apps / webxdc {#webxdc}
 
 In Delta Chat, you can share "private apps", attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly
