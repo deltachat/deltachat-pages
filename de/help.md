@@ -248,7 +248,7 @@ Der beste Weg, um sicherzustellen, dass jede Nachricht verschlüsselt wird und d
 
 Verifizierte Gruppen sind immer verschlüsselt und gegen [MITM Angriffe](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff) geschützt.
 
-Metadaten können nicht verschlüsselt werden, da der Server wissen muss, wohin er Ihre Nachrichten zugestellt werden. Wenn Sie jedoch "selbstzerstörende Nachrichten" aktivieren, werden die Nachrichten nach Zustellung auf dem dem Server gelöscht.
+Metadaten können nicht verschlüsselt werden, da der Server wissen muss, wohin Ihre Nachrichten zugestellt werden sollen. Wenn Sie jedoch "selbstzerstörende Nachrichten" aktivieren, werden die Nachrichten nach Zustellung auf dem dem Server gelöscht.
 
 Wenn Sie die Nachrichten auf Ihrem Gerät, aber nicht auf dem Server benötigen, können Sie auch in der Gruppe vereinbaren, ["Nachrichten automatisch vom Server löschen"](#delold) einzuschalten.
 
@@ -524,7 +524,7 @@ Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schwe
 - Im Jahr 2020 analysierte [Include Security](https://includesecurity.com) Delta Chats Rust [core](https://github.com/deltachat/deltachat-core-rust/), [IMAP](https://github.com/async-email/async-imap),[SMTP](https://github.com/async-email/async-smtp), und [TLS](https://github.com/async-email/async-native-tls) Bibliotheken.
 Es wurden keine kritischen oder hochgradig gefährlichen Probleme gefunden. Der Bericht wies auf einige Schwachstellen mittlerer Schwere hin - sie stellen für sich genommen keine Bedrohung für Delta Chat-Benutzer dar, da sie von der Umgebung abhängen, in der Delta Chat verwendet wird. Aus Gründen der Benutzerfreundlichkeit und der Kompatibilität können wir nicht alle Schwachstellen beseitigen und haben beschlossen, Sicherheitsempfehlungen für bedrohte Benutzer zu geben. Sie können den [vollständigen Bericht hier](../assets/blog/2020-second-security-review.pdf) lesen.
 
-- Anfang 2023 analysierte [Cure53] (https://cure53.de) sowohl die Transportverschlüsselung von Delta Chats Netzwerkverbindungen als auch das reproduzierbare Mailserver-Setup wie [auf dieser Seite empfohlen](serverguide). Sie können mehr über das Audit [in unserem Blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) lesen oder Sie lesen den [vollständigen Bericht hier](../assets/blog/MER-01-report.pdf).
+- Anfang 2023 analysierte [Cure53](https://cure53.de) sowohl die Transportverschlüsselung von Delta Chats Netzwerkverbindungen als auch das reproduzierbare Mailserver-Setup wie [auf dieser Seite empfohlen](serverguide). Sie können mehr über das Audit [in unserem Blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) lesen oder Sie lesen den [vollständigen Bericht hier](../assets/blog/MER-01-report.pdf).
 
 ### Wie wird Delta Chat finanziert?
 
@@ -544,9 +544,9 @@ Die zweite Förderung 2019/2020 (~$300K) half uns bei der  Erstellung der iOS-Ve
 
 - Von Ende 2021 bis März 2023 erhielten wir eine *Internet Freedom* Finanzierung (500K USD) vom U.S. Bureau of Democracy, Human Rights and Labor (DRL). Diese Finanzierung unterstützte unsere langjährigen Ziele, Delta Chat benutzerfreundlicher und kompatibel mit einer breiten Palette von E-Mail-Servern weltweit zu machen, sowie widerstandsfähiger und sicherer an Orten, die häufig von Internetzensur und Abschaltungen betroffen sind.
 
-- Anfang 2023 wurden unsere Vorschläge für "Private Decentralized Apps" vom Next Generation Internet (NGI) Entrust Programm angenommen. Der genaue Betrag ist noch zu bestimmen (ca. 100K EUR). Diese Finanzierung unterstützt die weitere Entwicklung von [webxdc "apps shared in a chat"] (https://webxdc.org).
+- Anfang 2023 wurden unsere Vorschläge für "Private Decentralized Apps" vom Next Generation Internet (NGI) Entrust Programm angenommen. Der genaue Betrag ist noch zu bestimmen (ca. 100K EUR). Diese Finanzierung unterstützt die weitere Entwicklung von [webxdc "apps shared in a chat"](https://webxdc.org).
 
-- Manchmal erhalten wir einmalige Spenden von Privatpersonen, wofür wir sehr dankbar sind. Im Jahr 2021 hat uns zum Beispiel eine großzügige Privatperson 4K EUR überwiesen mit dem Betreff "Weiter so!" 💜  Wir verwenden dieses Geld zur Finanzierung von Entwicklungstreffen oder zur Deckung von Ad-hoc-Ausgaben, die nicht ohne weiteres vorhersehbar sind oder nicht aus öffentlichen Fördermitteln erstattet werden können.
+- Manchmal erhalten wir einmalige Spenden von Privatpersonen, wofür wir sehr dankbar sind. Im Jahr 2021 hat uns zum Beispiel eine großzügige Privatperson 4000 EUR überwiesen mit dem Betreff "Weiter so!" 💜  Wir verwenden dieses Geld zur Finanzierung von Entwicklungstreffen oder zur Deckung von Ad-hoc-Ausgaben, die nicht ohne weiteres vorhersehbar sind oder nicht aus öffentlichen Fördermitteln erstattet werden können.
 Der Erhalt von Spenden hilft uns auch, unabhängiger und langfristig lebensfähig zu werden, als Gemeinschaft.
 
   [Geld spenden](donate){: .cta-button}
