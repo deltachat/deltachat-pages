@@ -1,11 +1,11 @@
 ---
-title: Donate Money
+title: Geld spenden
 lang: de
 ---
 
-# Donate Money
+# Geld spenden
 
-Help Delta Chat develop and grow as an independent project serving the people who use it:
+Helfen Sie Delta Chat dabei, sich als unabhängiges Projekt im Dienste der Nutzer zu entwickeln und zu wachsen:
 
 - IBAN DE86100777770428658900, Kontoinhaber (bitte immer angeben): Björn Petersen, BIC NORSDE51XXX
 - PayPal oder Kreditkarte: [paypal.me/deltachat](https://paypal.me/deltachat/20)
@@ -13,4 +13,4 @@ Help Delta Chat develop and grow as an independent project serving the people wh
 - Einmalig oder regelmäßig spenden mit [Open Collective](https://opencollective.com/delta-chat/donate)
 - Senden Sie Bitcoins an [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
-[Other ways to contribute](contribute){: .cta-button}
+[Andere Wege mitzuwirken](contribute){: .cta-button}

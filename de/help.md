@@ -59,9 +59,9 @@ Unter "Einstellungen / Chats und Medien / Normale E-Mails anzeigen" können Sie 
 
 <h3 id="multiple-accounts">Wie kann ich mehrere Konten hinzufügen oder zwischen ihnen wechseln?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Sie können ganz einfach mehrere E-Mail-Konten Konten verwnden, indem Sie entweder:
+- im Hauptmenü "Konto wechseln" wählen (Android und Desktop)
+- oder auf das Profilsymbol und dann auf "Konto hinzufügen" klicken (iOS)
 
 Vielleicht möchten Sie auch erfahren, wie Sie [E-Mail-Konten zu mehreren Geräten hinzufügen können](#multiclient).
 
@@ -124,8 +124,7 @@ Verwenden Sie diese Tools, um Ihre Chats zu organisieren:
 
 - **Stummgeschaltete Chats** erhalten keine Benachrichtigungen, bleiben ansonsten aber an ihrem Platz - so können Sie stummgeschaltete Chats auch anheften.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  Archived chats remain accessible above the chat list or via search. 
+- **Archivieren Sie Chats**, wenn Sie diese nicht mehr in Ihrer Chatliste sehen möchten. Archivierte Chats bleiben oberhalb der Chatliste oder über die Suche zugänglich.
 
 - Wenn ein archivierter Chat eine neue Nachricht erhält, wird er, sofern er nicht stummgeschaltet ist, **wieder in die normale Chatliste verschoben**.  **Stummgeschaltete Chats bleiben archiviert**, bis Sie sie manuell aus dem Archiv entfernen.
 
@@ -245,25 +244,15 @@ Wenn Sie Ihren Chat-Partner nicht persönlich treffen können, können Sie den S
 
 ### Wie kann ich Verschlüsselung und Löschen von Nachrichten sicherstellen?
 
-The best way to ensure every message is encrypted,
-and metadata deleted as quickly as possible
-is creating a verified group and turning on
-self-destructing messages.
+Der beste Weg, um sicherzustellen, dass jede Nachricht verschlüsselt wird und die Metadaten so schnell wie möglich gelöscht werden, ist das Erstellen einer verifizierten Gruppe und das Aktivieren selbstzerstörender Nachrichten.
 
-Verified groups are always encrypted and protected against [MITM
-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+Verifizierte Gruppen sind immer verschlüsselt und gegen [MITM Angriffe](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff) geschützt.
 
-Metadata can't be encrypted, as the server needs to know where to deliver your
-messages. But turning on "self-destructing messages" deletes the messages on
-the server after they were delivered.
+Metadaten können nicht verschlüsselt werden, da der Server wissen muss, wohin er Ihre Nachrichten zugestellt werden. Wenn Sie jedoch "selbstzerstörende Nachrichten" aktivieren, werden die Nachrichten nach Zustellung auf dem dem Server gelöscht.
 
-If you need the messages on your device, but not on the server, you can also
-agree in the group to turn on ["delete messages from server
-automatically"](#delold).
+Wenn Sie die Nachrichten auf Ihrem Gerät, aber nicht auf dem Server benötigen, können Sie auch in der Gruppe vereinbaren, ["Nachrichten automatisch vom Server löschen"](#delold) einzuschalten.
 
-If you want to protect a 1:1 conversation like this, you should create a
-verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
+Wenn Sie ein 1:1-Gespräch entsprechend schützen wollen, können Sie eine verifizierte Gruppe mit nur 2 Personen erstellen. Wenn die andere Person ihr Gerät verliert, aber nicht ihr Konto, können Sie trotzdem im 1:1-Chat kommunizieren. ([Mehr lesen](#verdiff))
 
 
 ### Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
@@ -332,47 +321,37 @@ Für andere Programme können Sie online eine Lösung finden.
 
 ### Kann ich Delta Chat auf mehreren Geräten zur selben Zeit verwenden?
 
-Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Ja. Delta Chat 1.36 enthält eine neue, experimentelle Funktion zur Verwendung desselben Kontos auf verschiedenen Geräten:
 
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+- Gehen Sie auf dem ersten Gerät zu **Einstellungen → Zweites Gerät hinzufügen**, entsperren Sie den Bildschirm, falls erforderlich und warten Sie einen Moment, bis ein QR-Code angezeigt wird
 
-- On the second device, [install Delta Chat](https://get.delta.chat)
+- Auf dem zweiten Gerät [Delta Chat installieren](https://get.delta.chat)
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- Auf dem zweiten Gerät Delta Chat starten, "Als Zweitgerät hinzufügen" wählen und den QR-Code vom ersten Gerät scannen
 
-- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
-  Wait until it is finished on both devices.
+- Die Übertragung sollte nach ein paar Sekunden beginnen und während der Übertragung zeigen beide Geräte den **Fortschritt** an. Warten Sie, bis der Vorgang auf beiden Geräten abgeschlossen ist.
 
-In contrast to many other messengers, after successful transfer,
-both **devices are completely independent.**
-One device is not needed for the other to work.
+Im Gegensatz zu vielen anderen Messengern, sind nach erfolgreicher Übertragung beide **Geräte völlig unabhängig voneinander. Das eine Gerät wird nicht benötigt, damit das Andere funktioniert.
 
 
 ### Fehlersuche
 
-- Double-check both devices are in the **same Wi-Fi or network**
+- Vergewissern Sie sich, dass beide Geräte mit dem **gleichen Wi-Fi, WLAN oder Netzwerk** verbunden sind.
 
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
+- Ihr System verfügt möglicherweise über eine "Personal Firewall", diese sind dafür bekannt, Probleme zu verursachen (insbesondere bei Windows). **Deaktivieren Sie die Personal Firewall** für Delta Chat auf beiden Seiten und versuchen Sie es erneut
 
-- Ensure there is **enough storage** on the destination device
+- Vergewissern Sie sich, dass das Zielgerät über **genügend Speicher** verfügt
 
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+- Wenn die Übertragung begonnen hat, stellen Sie sicher, dass die Geräte **aktiv bleiben** und nicht ausgehen. Beenden Sie Delta Chat nicht. (wir bemühen uns, die App im Hintergrund laufen zu lassen, aber [Systeme neigen dazu, Apps zu beenden](https://dontkillmyapp.com), leider)
 
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple accounts per device, just [add another account](#multiple-accounts)
+- Sie sind auf dem Zielgerät **bereits eingeloggt**? Sie können mehrere Konten pro Gerät verwenden, fügen Sie einfach [ein weiteres Konto hinzu](#multiple-accounts)
 
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+- Wenn Sie immer noch Probleme haben oder wenn Sie **keinen QR-Code scannen können** versuchen Sie die **manuelle Übertragung** wie unten beschrieben
 
 
 ### Manueller Transfer
 
-This method is only recommended if "Add Second Device" as described above does not work.
+Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben beschrieben, nicht funktioniert.
 
 - Auf dem alten Gerät gehen Sie zu "Einstellungen -> Chats und Medien -> Chats auf externem Speicher speichern". Geben Sie Ihre PIN, Ihr Muster oder Ihr Passwort zum Entsperren des Bildschirms ein. Anschließend können Sie auf "Backup starten" klicken. Dadurch wird die Backup-Datei auf Ihrem Gerät gespeichert. Jetzt müssen Sie sie irgendwie auf das andere Gerät übertragen.
 - Auf dem neuen Gerät, auf dem Anmeldebildschirm, wählen Sie, anstatt sich bei Ihrem E-Mail-Konto anzumelden, "Wiederherstellen aus Backup". Nach dem Import sollten Ihre Unterhaltungen, Verschlüsselungsschlüssel und Medien auf das neue Gerät kopiert sein.
@@ -512,10 +491,8 @@ Um mehr über die Details dahinter zu erfahren, [lesen Sie unseren Blogpost dazu
 
 ### Ich möchte meinen eigenen E-Mail-Server für Delta Chat verwalten. Gibt es Empfehlungen?
 
-- Most mail servers will work well. But what we personally recommend is a
-  combination of mailcow and mailadm, as described [in this
-  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- You can find an [installation guide on our website](serverguide).
+- Die meisten Mailserver werden gut funktionieren. Was wir persönlich jedoch empfehlen, ist eine Kombination aus mailcow und mailadm, wie [in diesem Blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops) beschrieben.
+- Auf unserer Webseite finden Sie eine [Installationsanleitung](serverguide).
 
 
 ### Delta Chat verwendet E-Mail - ist es dann wirklich ein _Instant_ Messenger?
@@ -539,38 +516,15 @@ Um mehr über die Details dahinter zu erfahren, [lesen Sie unseren Blogpost dazu
 
 ### Wurde Delta Chat unabhängig auf Sicherheitslücken geprüft?
 
-The Delta Chat project underwent three independent security audits in the last
-years:
+Das Delta-Chat-Projekt wurde in den letzten Jahren drei unabhängigen Sicherheitsprüfungen unterzogen:
 
-- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's [PGP](https://github.com/rpgp/rpgp) and
-  [RSA](https://github.com/RustCrypto/RSA) libraries.
-  It found no critical issues,
-  but two high-severity issues that we subsequently fixed.
-  It also revealed one medium-severity and some less severe issues,
-  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
-  Some of them we nevertheless fixed since the audit was concluded.
-  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+- Im Jahr 2019 analysierte [Include Security](https://includesecurity.com) die von Delta Chat verwendeten [PGP](https://github.com/rpgp/rpgp) und [RSA](https://github.com/RustCrypto/RSA) Bibliotheken.
+Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schweregrad, die wir anschließend behoben haben. Außerdem wurden ein mittelschweres und einige weniger schwerwiegende Probleme gefunden, aber es gab keine Möglichkeit, diese Schwachstellen in der Delta Chat-Implementierung auszunutzen. Einige dieser Schwachstellen haben wir dennoch nach Abschluss des Audits behoben. Sie können den [vollständigen Bericht hier] lesen (../assets/blog/2019-first-security-review.pdf).
 
-- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
-  [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+- Im Jahr 2020 analysierte [Include Security](https://includesecurity.com) Delta Chats Rust [core](https://github.com/deltachat/deltachat-core-rust/), [IMAP](https://github.com/async-email/async-imap),[SMTP](https://github.com/async-email/async-smtp), und [TLS](https://github.com/async-email/async-native-tls) Bibliotheken.
+Es wurden keine kritischen oder hochgradig gefährlichen Probleme gefunden. Der Bericht wies auf einige Schwachstellen mittlerer Schwere hin - sie stellen für sich genommen keine Bedrohung für Delta Chat-Benutzer dar, da sie von der Umgebung abhängen, in der Delta Chat verwendet wird. Aus Gründen der Benutzerfreundlichkeit und der Kompatibilität können wir nicht alle Schwachstellen beseitigen und haben beschlossen, Sicherheitsempfehlungen für bedrohte Benutzer zu geben. Sie können den [vollständigen Bericht hier](../assets/blog/2020-second-security-review.pdf) lesen.
 
-- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
-  Delta Chat's network connections and a reproducible mail server setup as
-  [recommended on this site](serverguide).
-  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-  or read the [full report here](../assets/blog/MER-01-report.pdf).
+- Anfang 2023 analysierte [Cure53] (https://cure53.de) sowohl die Transportverschlüsselung von Delta Chats Netzwerkverbindungen als auch das reproduzierbare Mailserver-Setup wie [auf dieser Seite empfohlen](serverguide). Sie können mehr über das Audit [in unserem Blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) lesen oder Sie lesen den [vollständigen Bericht hier](../assets/blog/MER-01-report.pdf).
 
 ### Wie wird Delta Chat finanziert?
 
@@ -588,30 +542,17 @@ Die zweite Förderung 2019/2020 (~$300K) half uns bei der  Erstellung der iOS-Ve
 
 - Im Jahr 2021 erhielten wir weitere EU-Mittel für zwei "Next-Generation-Internet" Anträge, nämlich für [EPPD - E-Mail-Provider-Portabilitätsverzeichnis](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) und [AEAP - E-Mail-Adressportierung](https://nlnet.nl/project/EmailPorting/) (~90K EUR). Ziel sind bessere Unterstützung von Mehrfachkonten, verbesserten QR-Code-Kontakt- und -Gruppen-Setups sowie Netzwerkverbesserungen auf allen Plattformen.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- Von Ende 2021 bis März 2023 erhielten wir eine *Internet Freedom* Finanzierung (500K USD) vom U.S. Bureau of Democracy, Human Rights and Labor (DRL). Diese Finanzierung unterstützte unsere langjährigen Ziele, Delta Chat benutzerfreundlicher und kompatibel mit einer breiten Palette von E-Mail-Servern weltweit zu machen, sowie widerstandsfähiger und sicherer an Orten, die häufig von Internetzensur und Abschaltungen betroffen sind.
 
-- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
-  Entrust program for our "Private Decentralized Apps" proposals. 
-  Exact amount is to be determined (around 100K EUR). 
-  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+- Anfang 2023 wurden unsere Vorschläge für "Private Decentralized Apps" vom Next Generation Internet (NGI) Entrust Programm angenommen. Der genaue Betrag ist noch zu bestimmen (ca. 100K EUR). Diese Finanzierung unterstützt die weitere Entwicklung von [webxdc "apps shared in a chat"] (https://webxdc.org).
 
-- Sometimes we receive one-time donations from private individuals. 
-  For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". 💜 
-  We use such money to fund development gatherings or to care for ad-hoc expenses 
-  that can not easily be predicted for, or reimbursed from, public funding grants. 
-  Receiving more donations also helps us to become more independent and long-term viable
-  as a contributor community. 
+- Manchmal erhalten wir einmalige Spenden von Privatpersonen, wofür wir sehr dankbar sind. Im Jahr 2021 hat uns zum Beispiel eine großzügige Privatperson 4K EUR überwiesen mit dem Betreff "Weiter so!" 💜  Wir verwenden dieses Geld zur Finanzierung von Entwicklungstreffen oder zur Deckung von Ad-hoc-Ausgaben, die nicht ohne weiteres vorhersehbar sind oder nicht aus öffentlichen Fördermitteln erstattet werden können.
+Der Erhalt von Spenden hilft uns auch, unabhängiger und langfristig lebensfähig zu werden, als Gemeinschaft.
 
-  [Donate Money](donate){: .cta-button}
+  [Geld spenden](donate){: .cta-button}
 
 - Last but by far not least beteiligen sich verschiedene ExpertInnen und Engagierte pro bono an Delta Chat. Sie erhalten dafür teils nur wenig, oftmals sogar überhaupt kein Geld. Ohne sie wäre Delta Chat nicht im entferntesten das, was es heute ist! 
 
 Die oben aufgeführte finanzielle Förderung wird hauptsächlich von der merlinux GmbH in Freiburg (Deutschland) organisiert und an mehr als ein Dutzend Mitwirkende weltweit verteilt.
 
-Please see [Delta Chat Contribution channels](contribute)
-for both monetary and and other contribution possibilities.  
+Möglichkeiten mitzuwirken finden Sie Auf der [Delta Chat Seite "Mitwirken"](contribute).

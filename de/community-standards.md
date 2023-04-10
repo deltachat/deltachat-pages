@@ -1,76 +1,48 @@
 ---
-title: Community Standards
+title: Delta-Chat-Gemeinschaftsstandards
 lang: de
 ---
 
-# Delta Chat Community Standards
+# Delta-Chat-Gemeinschaftsstandards
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
+Im Interesse der Förderung eines offenen und einladenden Umfelds, sind wir als Mitwirkende und Projektbetreiber bestrebt, die Teilnahme an der Delta-Chat-Gemeinschaft zu einer angenehmen, belästigungsfreien Erfahrung zu machen.
 
 
 ## Unsere Standards
 
-Examples of behavior that contribute to creating a positive environment include:
+Beispiele für Verhaltensweisen, die zur Schaffung eines positiven Umfelds beitragen, sind:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
+* eine einladende und integrative Sprache verwenden
+* Respekt vor unterschiedlichen Standpunkten und Erfahrungen
+* Konstruktive Kritik mit Anstand annehmen
+* Einfühlungsvermögen gegenüber Mitgliedern der Gemeinschaft und Neuankömmlingen zeigen
+* Helfen und vermitteln in Fällen von Unruhe oder Konflikten
 
-Examples of behavior which we ask everybody to avoid include:
+Beispiele für Verhaltensweisen, die wir zu vermeiden bitten, sind:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
+* Die Verwendung sexualisierter Sprache oder Bilder und unerwünschte sexuelle Aufmerksamkeit oder Annäherungsversuche
+* Trolling, beleidigende/abwertende Kommentare und persönliche oder politische Angriffe
+* Öffentliche oder private Belästigung
+* Veröffentlichung privater Informationen anderer, wie z.B. einer physischen oder elektronischen Adresse, ohne ausdrückliche Erlaubnis
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Wir wissen, dass Menschen manchmal einen schlechten Tag haben oder sich der Auswirkungen ihres ihres Verhaltens nicht bewusst sind. Wenn dies der Fall ist, können Sie sie vorsichtig daran erinnern, öffentlich oder unter vier Augen, je nachdem, was angemessener ist. Gehen Sie von gutem Willen aus - es ist wahrscheinlicher, dass die Teilnehmer sich dessen nicht bewusst sind, als dass sie absichtlich versuchen, andere zu verunglimpfen oder die Qualität der Diskussion zu mindern.
 
 
-## Maintainers and Responsibilities
+## Projektbetreiber und Verantwortlichkeiten
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Projektbetreuer sind diejenigen, die Schreibrechte für Delta-Chat-Repositories oder administrative Rechte für die Kommunikationskanäle der Gemeinschaft haben. Jeder Projektbetreuer wird gebeten, Verantwortung zu übernehmen und angemessene, sorgfältige Maßnahmen zu ergreifen als Reaktion auf beobachtete Fälle von fragwürdigem Verhalten. Projektbetreuer haben das Recht und die Verantwortung, Kommentare, Commits, Code, Wiki-Bearbeitungen, Issues, Fehlermeldungen und andere Beiträge, die nicht mit unseren Standards übereinstimmen, zu löschen, zu bearbeiten oder abzuweisen. Sie können Contributor auch vorübergehend oder dauerhaft sperren, für Verhaltensweisen, die sie als unangemessen, bedrohlich, beleidigend oder schädlich erachten.
 
-## Scope
+## Umfang
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Unsere Gemeinschaftsstandards gelten sowohl innerhalb der Projektkommunikationskanäle und Versammlungen, als auch im öffentlichen Raum, wenn eine Person das Projekt oder seine Gemeinschaft repräsentiert. Beispiele für Repräsentation eines Projekts oder einer Gemeinschaft ist beispielsweise die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Posten über ein offizielles Social-Media-Konto oder das Auftreten als Vertreter bei einer Online- oder Offline-Veranstaltung.
 
-## Reporting and Responses
+## Melden und Bearbeitung
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
+Wenn Sie beleidigendes, belästigendes oder anderweitig inakzeptables Verhalten erleben oder beobachten können Sie sich an ausgewählte Projektbetreuer wenden, derzeit [Nami](mailto:missytake@systemli.org) und [Xenia](mailto:ksenia@transcyberian.org). Sie werden die Berichte überprüfen und gegebenenfalls Andere einbeziehen und werden auf eine Art und Weise reagieren, die als notwendig und angemessen erachtet wird, den Umständen entsprechend, aber nicht gegen Ihren Willen.
 
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Die Projektbetreuer sind gegenüber dem Berichterstatter eines Vorfalls zur Vertraulichkeit verpflichtet. Projektbetreuer sind selbst nicht davon ausgenommen, dass sie gemeldet werden und können vorübergehende oder dauerhafte Konsequenzen erfahren, die von anderen Projektbetreuern festgelegt werden.
 
 
-## Attribution
+## Dank
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Unsere Gemeinschaftsstandards basieren auf [Contributor Covenant](https://contributor-covenant.org), Version 1.4, verfügbar auf <https://contributor-covenant.org/version/1/4>
