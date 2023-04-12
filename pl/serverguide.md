@@ -38,8 +38,8 @@ Jeśli nie masz jeszcze domeny, możesz skorzystać z usługi takiej jak [njal.l
 
 Załóżmy, że:
 -  kupiłeś przyklad.org. Na razie chcesz mieć tylko serwer pocztowy, ale myślisz o tym, żeby później umieścić na nim stronę internetową https://przyklad.org.
-- twój serwer ma adres IPv4 24.48.100.24 - możesz to sprawdzić poleceniem `ip` i poszukać podobnie wyglądającego numeru (który nie zaczyna się od 127 lub 172).
-- twój serwer ma adres IPv6 7fe5:2f4:1ba:2381::3 (możesz go znaleźć w `ip`, 2 linijki poniżej adresu IPv4. Zignoruj /64 na końcu. Nie używaj tego zaczynającego się od fe80, to się nie liczy).
+- twój serwer ma adres IPv4 24.48.100.24 - możesz to sprawdzić poleceniem `ip a` i poszukać podobnie wyglądającego numeru (który nie zaczyna się od 127 lub 172).
+- twój serwer ma adres IPv6 7fe5:2f4:1ba:2381::3 (możesz go znaleźć w `ip a`, 2 linijki poniżej adresu IPv4. Zignoruj `/64` na końcu. Nie używaj tego zaczynającego się od `fe80`, to się nie liczy).
 
 Teraz możesz skonfigurować ustawienia domeny dla przyklad.org w następujący sposób:
 
@@ -55,7 +55,7 @@ Teraz możesz skonfigurować ustawienia domeny dla przyklad.org w następujący 
 | TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@przyklad.org | 5min |          |
 
 Możesz ustawić klucz DKIM po skonfigurowaniu mailcow,
-w System>Configuration>Options>ARC/DKIM keys.
+w System>Konfiguracja>Opcje>Klucze ARC/DKIM.
 
 Możesz ustawić więcej niż 5 minut, ale jeśli zauważysz, że coś jest nie tak, krótki czas pomaga naprawić błędny wpis.
 
@@ -126,45 +126,37 @@ Teraz uruchom mailcow za pomocą `sudo docker compose up -d`.
 
 Jeśli twój serwer nie ma adresu IPv6, powinieneś [wyłączyć IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
 
-### Adding Domain in Mailcow
+### Dodawanie domeny w Mailcow
 
-Now you can login to the mailcow web interface at https://mail.example.org. The
-default username is `admin` and the password is `moohoo`. You should change
-this password to something more secure.
+Teraz możesz zalogować się do interfejsu internetowego mailcow pod adresem https://mail.przyklad.org. Domyślna nazwa użytkownika to admin, a hasło to moohoo. Powinieneś zmienić to hasło na bardziej bezpieczne.
 
-![The Mailcow web interface.](../assets/blog/mailcow-UI-login.png)
+![Interfejs internetowy Mailcow.](../assets/blog/mailcow-UI-login.png)
 
-Next, add a domain in the web interface under "E-Mail > Configuration > Domains".
-Somethings like this makes sense:
+Następnie dodaj domenę w interfejsie internetowym w „E-mail > Konfiguracja > Domeny”. Coś takiego ma sens:
 
-- domain: example.org
-- max. mailboxes: 999999
-- default mailbox quota: 3076 (it doesn't matter, mailadm will override this)
-- max. mailbox quota: 17240 (basically a bit less than your free disk space)
-- domain quota: 17240 (basically a bit less than your free disk space)
+- domena: przyklad.org
+- maks. liczba skrzynek: 999999
+- domyślny limit skrzynki: 3076 (nie ma znaczenia, mailadm to zastąpi)
+- maks. limit skrzynki: 17240 (w zasadzie trochę mniej niż wolne miejsce na dysku)
+- łączny limit domeny: 17240 (w zasadzie trochę mniej niż wolne miejsce na dysku)
 
-![Creating a domain in mailcow](../assets/blog/mailcow-create-domain.png)
+![Tworzenie domeny w mailcow](../assets/blog/mailcow-create-domain.png)
 
-After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
-You can try it out with Delta Chat now.
+Następnie możesz przejść do „E-mail > Konfiguracja > Skrzynki” i utworzyć pierwsze konto. Możesz je teraz wypróbować za pomocą Delta Chat.
 
-#### Optional: Add Additional DNS Entries
+#### Opcjonalnie: Dodaj dodatkowe wpisy DNS
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further reccomendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+W „E-mail > Konfiguracja > Domeny” po prawej stronie twojej domeny widoczny jest niebieski przycisk „DNS”. Zawiera dalsze zalecenia dotyczące wpisów DNS, które mogą pomóc w przypadku problemów z dostarczaniem wiadomości e-mail na inne serwery.
 
-![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
+![Wyświetlanie ustawień DNS w Mailcow](../assets/blog/mailcow-dns-settings.png)
 
-## Setting up mailadm
+## Skonfiguruj mailadm
 
-Now we can set up mailadm - with this tool you can generate QR codes, which
-people can scan from Delta Chat to create an e-mail account on your server. It
-is probably the easiest way for users to get started with Delta Chat.
+Teraz możesz skonfigurować mailadm - za pomocą tego narzędzia możesz generować kody QR, które ludzie mogą zeskanować z Delta Chat, aby utworzyć konto e-mail na swoim serwerze. Jest to prawdopodobnie najłatwiejszy sposób na rozpoczęcie pracy z Delta Chat.
 
-### Downloading mailadm
+### Pobieranie mailadm
 
-You can use these commands to download mailadm:
+Możesz użyć tych poleceń, aby pobrać mailadm:
 
 ```
 cd ~
@@ -173,60 +165,48 @@ cd mailadm
 mkdir docker-data
 ```
 
-### Building mailadm
+### Budowanie mailadm
 
-Now you can build the mailadm docker container with
-`sudo docker build . -t mailadm-mailcow`.
+Teraz możesz zbudować kontener doker mailadm za pomocą `sudo docker build . -t mailadm-mailcow`.
 
-#### If docker.com or pypi.org is Blocked
+#### Jeśli strona docker.com lub pypi.org jest zablokowana
 
-If your server can't reach docker.com, dl-cdn.alpinelinux.org, or pypi.org,
-this will fail. But you can build the docker container on a different machine
-and copy it to the VPS:
+Jeśli twój serwer nie może dotrzeć do docker.com, dl-cdn.alpinelinux.org, lub pypi.org, to zadanie się nie powiedzie. Możesz jednak zbudować kontener docker na innej maszynie i skopiować go na VPS:
 
 ```
 sudo docker build . -t mailadm-mailcow
 sudo docker save -o mailadm-image.tar mailadm-mailcow
-scp mailadm-image.tar example.org:
-ssh example.org
+scp mailadm-image.tar przyklad.org:
+ssh przyklad.org
 sudo docker load --import mailadm-image.tar
 ```
 
-### Getting an API token from the web interface
+### Uzyskanie tokena API z interfejsu WWW
 
-Now you can go to https://mail.example.org/admin again, to get a mailcow API
-key.
+Teraz możesz ponownie przejść do https://mail.przyklad.org/admin, aby uzyskać klucz API mailcow.
 
-You have to activate the API (Make sure to use the "Read-Write Access API" and
-not the "Read-Only Access API"!) and enter your server's br-mailcow interface
-IP address under "Allow API access from these IPs/CIDR network notations". You
-can find out the IP address with `ip a show br-mailcow`.
+Musisz aktywować API (upewnij się, że używasz „Read-Write Access API”, a nie „Read-Only Access API”!) i wprowadź adres IP interfejsu br-mailcow twojego serwera w „Allow API access from these IPs/CIDR network notations”. Możesz poznać adres IP za pomocą `ip a show br-mailcow`.
 
-Check the checkbox "Activate API and then click on "Save Changes" and copy the
-API key.
+Zaznacz pole wyboru „Activate API”, a następnie kliknij „Zapisz zmiany” i skopiuj klucz API.
 
-### Configuring mailadm
+### Konfiguracja mailadm
 
-Then, in the mailadm directory, create a `.env` file and configure mailadm like
-this:
+Następnie w katalogu mailadm utwórz plik `.env` i skonfiguruj mailadm w następujący sposób:
 
 ```
-MAIL_DOMAIN=example.org
-WEB_ENDPOINT=https://mailadm.example.org/new_email
-MAILCOW_ENDPOINT=https://mail.example.org/api/v1/
+MAIL_DOMAIN=przyklad.org
+WEB_ENDPOINT=https://mailadm.przyklad.org/new_email
+MAILCOW_ENDPOINT=https://mail.przyklad.org/api/v1/
 MAILCOW_TOKEN=238473-081241-7A78B1-B7098C-E798BA
 ```
 
-At `MAILCOW_TOKEN`, enter the API key which you just got from the mailcow web
-interface.
+W `MAILCOW_TOKEN`, wprowadź klucz API, który właśnie otrzymałeś z interfejsu webowego mailcow.
 
-If you are unsure how to choose the values in .env, take a look at the
-[documentation](https://mailadm.readthedocs.io/en/latest/#configuration-details)
-of mailadm.
+Jeśli nie jesteś pewien, jak wybrać wartości w .env, zajrzyj do [dokumentacji](https://mailadm.readthedocs.io/en/latest/#configuration-details) mailadm.
 
-### Add mailadm alias
+### Dodaj alias mailadm
 
-Now to make it easier to run mailadm commands, add this alias:
+Teraz, aby ułatwić uruchamianie poleceń mailadm, dodaj ten alias:
 
 ```
 alias mailadm="$PWD/scripts/mailadm.sh"
