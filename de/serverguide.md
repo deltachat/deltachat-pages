@@ -37,8 +37,7 @@ Wenn Sie noch keine Domain haben, können Sie bei einem Dienst wie [njal.la](htt
 
 Nehmen wir an:
 - Sie haben example.org gekauft. Im Moment wollen Sie nur einen Mailserver, aber Sie überlegen, später eine Website unter https://example.org zu hosten.
-- Ihr Server hat die IPv4-Adresse 24.48.100.24
-- Sie können diePv4-Adresse  mit dem Befehl `ip a` herausfinden und nach einer ähnlich aussehenden Nummer suchen (die nicht mit mit 127 oder 172 beginnt).
+- Ihr Server hat die IPv4-Adresse 24.48.100.24 - Sie können die echte IPv4-Adresse  mit dem Befehl `ip a` herausfinden und nach einer ähnlich aussehenden Nummer suchen (die nicht mit mit 127 oder 172 beginnt).
 - Ihr Server hat die IPv6-Adresse 7fe5:2f4:1ba:2381::3 (Sie finden sie in `ip a", 2 Zeilen unterhalb der IPv4-Adresse. Ignorieren Sie das `/64` am Ende. Verwenden Sie nicht die, die mit `fe80` beginnt).
 
 Nun könnten Sie die Domäneneinstellungen für example.org wie folgt konfigurieren:
@@ -56,7 +55,7 @@ Nun könnten Sie die Domäneneinstellungen für example.org wie folgt konfigurie
 
 Sie können den DKIM-Schlüssel nach der Einrichtung von mailcow unter System / Konfiguration / Optionen / ARC/DKIM-Schlüssel einrichten.
 
-Sie können mehr als 5 Minuten brauchen, aber wenn Sie merken, dass etwas falsch ist, hilft eine kurze Zeitspanne bei der Korrektur des falschen Eintrags.
+Sie können mehr als 5 Minuten einstellen, aber wenn Sie merken, dass etwas falsch ist, hilft eine kurze Zeitspanne bei der Korrektur des falschen Eintrags.
 
 ## Mailcow einrichten
 
@@ -253,7 +252,7 @@ Dann wenden Sie die Änderungen mit "sudo docker compose up -d" an.
 
 ## Optional: Den gesamten HTTP-Verkehr auf HTTPS umleiten
 
-Standardmäßig, antwortet der nginx-Server auch unverschlüsselt auf Port 80. Das kann schlecht sein, da einige Benutzer möglicherweise Passwörter über diese unverschlüsselte Verbindung eingeben.
+Standardmäßig antwortet der nginx-Server auch unverschlüsselt auf Port 80. Das kann schlecht sein, da einige Benutzer möglicherweise Passwörter über diese unverschlüsselte Verbindung eingeben.
 
 Um dies zu verhindern, erstellen Sie eine neue Datei `data/conf/nginx/redirect.conf` und fügen Sie die folgende Serverkonfiguration in die Datei ein:
 
@@ -276,7 +275,7 @@ server {
 
 Dann wenden Sie die Änderungen mit `sudo docker compose restart nginx-mailcow` an.
 
-## Optional: Keine Protokolle, keine Master
+## Optional: No Logs, No Masters
 
 Mailcow protokolliert die IP-Adressen Ihrer Nutzer zu Debugging-Zwecken. Wenn Sie diese kritischen Informationen nicht auf Ihrem Server behalten wollen, sollten Sie das Logging deaktivieren. Beachten Sie, dass dies das Debuggen von Problemen erheblich erschwert. Niemand außer Ihnen kann beurteilen, ob dies in Ihrer Umgebung notwendig ist.
 
