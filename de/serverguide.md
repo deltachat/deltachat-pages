@@ -117,7 +117,7 @@ Dadurch werden später alle Anfragen an `mailadm.example.org/new_email` an den m
 
 ### Mailcow-Container herunterladen
 
-Führen Sie nun `sudo docker compose pull` aus, um die mailcow-Container herunterzuladen. Wenn Sie bei diesem Schritt keinen Zugang zu docker.com haben, können Sie [einen HTTP-Proxy verwenden] (https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
+Führen Sie nun `sudo docker compose pull` aus, um die mailcow-Container herunterzuladen. Wenn Sie bei diesem Schritt keinen Zugang zu docker.com haben, können Sie [einen HTTP-Proxy verwenden](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
 
 ### Mailcow starten
 

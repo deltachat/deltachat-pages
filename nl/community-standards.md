@@ -1,76 +1,75 @@
 ---
-title: Community Standards
+title: Gemeenschapsstandaarden
 lang: nl
 ---
 
-# Delta Chat Community Standards
+# Delta Chat-gemeenschapsstandaarden
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
-
-
-## Our Standards
-
-Examples of behavior that contribute to creating a positive environment include:
-
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
-
-Examples of behavior which we ask everybody to avoid include:
-
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+We willen een transparante, gezellige gemeenschap, dus is het belangrijk
+dat zowel bijdragers als beheerders het zo makkelijk en leuk als mogelijk maken
+om deel te nemen aan Delta Chat. Onze gemeenschap moet een veilige, intimidatievrije plaats zijn.
 
 
-## Maintainers and Responsibilities
+## Onze standaarden
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Voorbeelden van goed gedrag:
 
-## Scope
+* Gebruik warme woorden en de juiste aanspreekvormen;
+* Wees respectvol naar elkaar en elkaars standpunten;
+* Accepteer opbouwende kritiek;
+* Toon empathie naar zowel oudere als nieuwe leden;
+* Probeer te helpen en bemiddelen in conflictsituaties.
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Voorbeelden van slecht gedrag:
 
-## Reporting and Responses
+* Seksuele taal, afbeeldingen en ander ongewenst seksueel gedrag;
+* Trollen, uitschelden, kleineren en persoonlijke/politieke aanvallen;
+* Openbare of privé-intimidatie;
+* Het zonder toestemming openbaarmaken van privé-informatie, zoals huis- of
+   online-adressen.
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
-
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Uiteraard kan het voorkomen dat iemand een keer met het verkeerde been uit bed is gestapt of gewoon niet bewust is
+van ongewenst gedrag. Als dat het geval is,
+stuur dan een net bericht (openbaar of privé) waarin je
+aangeeft wat er niet goed ging. Ga altijd uit van goede intenties;
+meestal zijn mensen zich niet bewust van hun gedrag en
+dus niet expliciet uit op conflicten of op andere wijzen slecht omgaan met anderen of discussies.
 
 
-## Attribution
+## Beheerders en verantwoordelijkheden
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Projectbeheerders zijn personen die over commitrechten in de Delta Chat-repo's beschikken of administratieve taken op de communicatiekanalen uitvoeren.
+Elke beheerder wordt er op gewezen dat ze verantwoordelijkheid dienen te nemen en
+de juiste, doordachte acties uitvoeren als er sprake is van discutabel gedrag.
+Projectbeheerders hebben te allen tijde het recht en de verantwoordelijkheid om
+reacties, commits, code wikibewerkingen, ‘issues’ en andere bijdragen te
+bewerken, verwijderen of weigeren. Ook kunnen zij - indien nodig - een bijdrager (tijdelijk) verbannen
+als de beheerders van mening zijn dat er sprake is van ongewenst gedrag.
+
+## Omvang
+
+Onze gemeenschapsstandaarden gelden zowel binnen communicatiekanelen als
+samenkomsten. Ook samenkomsten ‘in het echt’ vallen hier onder. Voorbeelden hiervan
+zijn beheerders die namens een project of gemeenschap gebruikmaken van een officieel e-mailadres
+van het project, inhoud op de officiële socialemediakanalen plaatsen of namens
+het project spreken op een online- of offline-evenement.
+
+## Meldingen en antwoorden
+
+Als je eender welk ongewenst gedrag ervaart of ziet,
+dan kun je bepaalde projectbeheerders hier op aanspreken. Momenteel zijn dit [Nami](mailto:missytake@systemli.org) en [Xenia](mailto:ksenia@transcyberian.org).
+Zij bekijken meldingen en overleggen eventueel met andere beheerders.
+Daarna stellen ze je op de hoogte van eventuele ondernomen acties,
+maar niet als je dat niet wilt.
+
+Beheerders zijn verplicht om vertrouwelijk om te gaan met
+meldingen van de melder in kwestie.
+Ook omtrent beheerders kunnen meldingen worden gemaakt
+en ook zíj kunnen eventueel tijdelijke of permanente maatregelen
+opgelegd krijgen.
+
+
+## Bronvermelding
+
+Ons gemeenschapsstandaardendocument is gebaseerd op de [Contributor Covenant](https://contributor-covenant.org), versie 1.4,
+beschikbaar op <https://contributor-covenant.org/version/1/4>

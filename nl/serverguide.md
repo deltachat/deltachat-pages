@@ -347,14 +347,14 @@ kritieke informatie niet op je server wilt bewaren, dan kun je
 deze functie beter uitschakelen. Let op: dit maakt foutopsporing een heel stuk moeilijker.
 Niemand kan voor je bepalen of dit handig is in jouw omgeving.
 
-Mailcow keeps some logs in redis, so you can show it in the web interface - but
-if you add `command: '--save ""'` to the redis-server container in
-docker-compose.yml, it keeps them only in the RAM, which is hopefully not saved
-by a potential attacker.
+Mailcow bewaart enkele logboeken in redis, die je kunt lezen via de webinterface. Echter,
+als je de `opdracht ‘--save ""’` toevoegt aan de redis-servercontainer in
+docker-compose.yml, dan worden de logboeken alleen in het ramgeheugen bewaard, zodat ze hopelijk niet
+kunnen worden ingezien door een potentiële aanvaller.
 
-To point the actual log files in `/dev/null`, aka Nirvana, you can:
+Om de logboeken naar `/dev/null` - oftewel het hiernamaals - te verwijzen kun je:
 
-Add the following lines to each container in
+De volgende regels toevoegen aan de container in
 `mailcow-dockerized/docker-compose.yml`:
 
 ```
@@ -365,25 +365,25 @@ Add the following lines to each container in
           syslog-facility: "local3"
 ```
 
-Now you can configure rsyslog to listen on that port for log input. Uncomment
-the following lines in `/etc/rsyslog.conf`:
+Nu kun je rsyslog instellen om te luisteren naar die poort voor logboekinvoer. Haal het #-teken
+bij de volgende regels in `/etc/rsyslog.conf` weg:
 
 ```
 module(load="imudp")
 input(type="imudp" port="514")
 ```
 
-And put this in `/etc/rsyslog.d/` to redirect all of that to nirvana:
+En voeg het volgende toe aan `/etc/rsyslog.d/` om alles naar het hiernamaals te sturen:
 
 ```
 local3.*        /dev/null
 & stop
 ```
 
-Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
+Herstart rsyslog met de opdracht `sudo service rsyslog restart` en mailcow met
 `sudo docker compose up -d`.
 
-Consider looking at the [Mailcow logging
-documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
-for alternatives to this configuration.
+Neem de [Mailcow-logboek-
+documentatie](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
+door om meer te weten te komen over alternatieve configuraties.
 

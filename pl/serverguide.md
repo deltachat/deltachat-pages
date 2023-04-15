@@ -128,7 +128,7 @@ Jeśli twój serwer nie ma adresu IPv6, powinieneś [wyłączyć IPv6](https://d
 
 ### Dodawanie domeny w Mailcow
 
-Teraz możesz zalogować się do interfejsu internetowego mailcow pod adresem https://mail.przyklad.org. Domyślna nazwa użytkownika to admin, a hasło to moohoo. Powinieneś zmienić to hasło na bardziej bezpieczne.
+Teraz możesz zalogować się do interfejsu internetowego mailcow pod adresem https://mail.przyklad.org. Domyślna nazwa użytkownika to `admin`, a hasło to `moohoo`. Powinieneś zmienić to hasło na bardziej bezpieczne.
 
 ![Interfejs internetowy Mailcow.](../assets/blog/mailcow-UI-login.png)
 
@@ -213,63 +213,47 @@ alias mailadm="$PWD/scripts/mailadm.sh"
 echo "alias mailadm=$PWD/scripts/mailadm.sh" >> ~/.bashrc
 ```
 
-### Start mailadm
+### Uruchom mailadm
 
-Then you can initialize the database and setup the bot mailadm will use to
-receive commands and support requests from your users:
+Następnie możesz zainicjować bazę danych i skonfigurować bota, którego mailadm będzie używał do otrzymywania poleceń i próśb o wsparcie od użytkowników:
 
 ```
 mailadm init
 mailadm setup-bot
 ```
 
-Then you are asked to scan a QR code to join the Admin Group, a verified Delta
-Chat group. Anyone in the group can issue commands to mailadm via Delta Chat.
-You can send “/help” to the group to learn how to use it.
+Następnie zostaniesz poproszony o zeskanowanie kodu QR, aby dołączyć do grupy administratorów, zweryfikowanej grupy Delta Chat. Każdy w grupie może wydawać polecenia do mailadm przez Delta Chat. Możesz wysłać „/help” do grupy, aby dowiedzieć się, jak z niego korzystać.
 
-Now, as everything is configured, we can start the mailadm container for good:
+Teraz, gdy wszystko jest skonfigurowane, możemy na dobre uruchomić kontener mailadm:
 
 ```
 sudo docker run -d -p 3691:3691 --mount type=bind,source=$PWD/docker-data,target=/mailadm/docker-data --name mailadm mailadm-mailcow gunicorn -b :3691 -w 1 mailadm.app:app
 ```
 
-This starts a `mailadm` docker container. You can restart it with `sudo docker
-restart mailadm`, should you ever want to.
+Spowoduje to uruchomienie kontenera `mailadm` docker. Możesz go zrestartować za pomocą `sudo docker restart mailadm`, jeśli kiedykolwiek zechcesz.
 
-#### First steps with mailadm
+#### Pierwsze kroki z mailadm
 
-That's it! You can now get started with creating tokens and users with mailadm.
-Best look at the documentation for the [first
-steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
-contains hints for troubleshooting the setup if something doesn't work.
+To wszystko! Możesz teraz zacząć tworzyć tokeny i użytkowników za pomocą mailadm. Najlepiej zajrzyj do dokumentacji, aby wykonać [pierwsze kroki](https://mailadm.readthedocs.io/en/latest/#first-steps) — zawiera ona również wskazówki dotyczące rozwiązywania problemów z konfiguracją, jeśli coś nie działa.
 
-## Optional: Disable POP3
+## Opcjonalnie: wyłącz POP3
 
-Delta Chat uses only SMTP and IMAP,
-so if all of your users use Delta Chat,
-you can disable POP3.
+Delta Chat używa tylko SMTP i IMAP, więc jeśli wszyscy twoi użytkownicy korzystają z Delta Chat, możesz wyłączyć POP3.
 
-To do this, add the following to `mailcow.conf`:
+Aby to zrobić, dodaj następujące elementy do pliku `mailcow.conf`:
 
 ```
 POP_PORT=127.0.0.1:110
 POPS_PORT=127.0.0.1:995
 ```
 
-Then apply the changes with `sudo docker compose up -d`.
+Następnie zastosuj zmiany za pomocą `sudo docker compose up -d`.
 
-## Optional: Redirect all HTTP traffic to HTTPS
+## Opcjonalne: Przekieruj cały ruch HTTP na HTTPS
 
-By default,
-the nginx server also responds unencrypted
-on port 80.
-This can be bad,
-as some users might enter passwords
-over this unencrypted connection.
+Domyślnie serwer nginx odpowiada również w trybie niezaszyfrowanym na porcie 80. Może to być złe, ponieważ niektórzy użytkownicy mogą wprowadzać hasła przez to niezaszyfrowane połączenie.
 
-To prevent this,
-create a new file `data/conf/nginx/redirect.conf`
-and add the following server config to the file:
+Aby temu zapobiec, utwórz nowy plik `data/conf/nginx/redirect.conf` i dodaj do niego następującą konfigurację serwera:
 
 ```
 server {
@@ -288,7 +272,7 @@ server {
 }
 ```
 
-Then apply the changes with `sudo docker compose restart nginx-mailcow`.
+Następnie zastosuj zmiany za pomocą `sudo docker compose restart nginx-mailcow`.
 
 ## Optional: No Logs, No Masters
 

@@ -23,35 +23,34 @@ per se dezelfde app te gebruiken als jij zoals bij andere chatapps.
 
 ### Wat zijn de voordelen van Delta Chat t.o.v. andere gespreksapps?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end-encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- _Onafhankelijk_: niet verbonden aan een bedrijf of bepaalde diensten. _Jij_ beschikt over jóuw gegevens.
+- Je gegevens worden niet opgeslagen op een centrale server. Op deze manier beschermt Delta Chat zélfs je metagegevens (wie verstuurt iets aan wie?).
+- Je deelt je adresboek met niets of niemand.
+- _Snel_, dankzij het gebruik van Push-IMAP.
+- _Grootst aantal gebruikers_: ontvangers hoeven Delta Chat _niet_ te gebruiken.
+- _Compatibel_, en niet alleen met zichzelf.
+- _Elegant_, en _eenvoudig_ te gebruiken.
+- _Verspreid_ systeem.
+- _Geen ongewenste berichten_: standaard worden alleen berichten van bekenden getoond.
+- _Eind-tot-eindversleuteling_ met behulp van Autocrypt.
+- Volledig _open source_ en gebaseerd op _standaarden_.
+- _Flexibel: ingebouwde ondersteuning voor [meerdere accounts](#multiple-accounts).
 
 
 ### Welke berichten vind ik terug in Delta Chat?
 
-By default, Delta Chat shows all e-mails.
+Standaard toont Delta Chat alle e-mails.
 
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
+Je kunt dit aanpassen via Instellingen → Gesprekken en media → Klassieke e-mails tonen. Vervolgens heb je keuze uit de volgende opties:
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- ‘Alleen gesprekken’: er worden alleen berichten en antwoorden van andere
+   Delta Chat-gebruikers getoond. Dit is handig als je hetzelfde account ook voor
+   normale e-mails gebruikt en is de standaardinstelling.
+- ‘Alles’: alle e-mails worden getoond. Dit is handig als je Delta Chat voor al je e-mails gebruikt, zodat je geen bericht hoeft te missen.
+- ‘Alleen goedgekeurde contactpersonen’: Delta Chat toont alle e-mails van contactpersonen
+   waarmee je al gecommuniceerd hebt. Nieuwe berichten verschijnen
+   alleen als ze vanuit Delta Chat verstuurd zijn.
+   Hiermee kun je per keer bepalen of je een gesprek in Delta Chat of je e-mailapp wilt voeren.
 
 
 ### Wat nu als ik een bericht verwacht van iemand die ik nog niet heb aangeschreven?
@@ -69,15 +68,15 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - Ja. Plattetekstberichten en e-mailbijlagen worden apart getoond. Uitgaande berichten worden, indien nodig, automatisch voorzien van bijlagen.
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+- Om de prestaties te verhogen, worden afbeeldingen standaard geoptimaliseerd en verkleind verstuurd, maar je kunt ze als een bestand verzenden om het origineel te sturen.
 
-<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+<h3 id="multiple-accounts">Hoe kan ik wisselen van account?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Je kunt meerdere accounts toevoegen, zowel in de mobiele als computerapp:
+- Via de menuknop → ‘Ander account’ (Android en computer);
+- Via je profielfoto → ‘Account toevoegen’ (iOS)
 
-You may also wish to learn [how to add accounts to multiple devices](#multiclient).
+Lees ook [hoe je accounts aan meerdere apparaten toevoegt](#multiclient).
 
 ### Wie kan mijn profielfoto zien?
 
@@ -146,8 +145,8 @@ Met deze hulpmiddelen kun je je gesprekken geordend houden:
 
 - Stel gesprekken in op **Negeren** als je geen meldingen meer wilt ontvangen. Wel blijven genegeerde gesprekken op de lijst staan en kun je ze te allen tijde vastmaken.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  Archived chats remain accessible above the chat list or via search. 
+- **Archiveer gesprekken** als je ze niet meer op de gesprekslijst wilt zien.
+  Gearchiveerde gesprekken zijn te allen tijde te bekijken boven de lijst of via een zoekopdracht.
 
 - Als er een nieuw bericht in een gearchiveerd gesprek wordt ontvangen, dan wordt het gesprek in kwestie **ge-dearchiveerd** en dus weer op de gesprekslijst geplaatst.
   **Genegeerde gesprekken blijven in het archief staan** totdat je ze er zelf uithaalt.
@@ -298,27 +297,25 @@ Als je niet in de buurt bent van je gesprekspartner, kun je de status handmatig 
 - Als het **hangslot ontbreekt**, dan is het bericht meestal onversleuteld omdat jij of de afzender eind-tot-eindversleuteling hebt uitgeschakeld, of omdat de afzender geen app gebruikt die eind-tot-eind-versleuteling ondersteunt.
 
 
-### How can I ensure message encryption and deletion?
+### Hoe verzeker ik mezelf van berichtversleuteling en -verwijdering?
 
-The best way to ensure every message is encrypted,
-and metadata deleted as quickly as possible
-is creating a verified group and turning on
-self-destructing messages.
+De beste manier om dit te doen is door
+een goedgekeurde groep aan te maken en zelfvernietigende berichten in te schakelen.
 
-Verified groups are always encrypted and protected against [MITM
-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+Goedgekeurde groepen zijn te allen tijde versleutend en beschermd tegen [MITM-
+aanvallen](https://nl.wikipedia.org/wiki/Man-in-the-middle-aanval).
 
-Metadata can't be encrypted, as the server needs to know where to deliver your
-messages. But turning on "self-destructing messages" deletes the messages on
-the server after they were delivered.
+Metagegevens kunnen niet worden versleuteld omdat de server dient te weten waar
+berichten moeten worden afgeleverd. Maar met behulp van zelfvernietigende berichten worden
+ze na het afleveren verwijderd.
 
-If you need the messages on your device, but not on the server, you can also
-agree in the group to turn on ["delete messages from server
-automatically"](#delold).
+Als je berichten op je apparaat wilt maar niet op de server, dan kun je
+ook met de groep afspreken om [‘Berichten automatisch van server
+verwijderen’](#delold) in te schakelen.
 
-If you want to protect a 1:1 conversation like this, you should create a
-verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
+Als je een een-op-eengesprek wilt beveiligen, dan kun je en
+goedgekeurde groep met twee personen samenstellen. Als de ander het apparaat kwijt is, maar
+niet het account, dan kun je nog steeds een-op-een gespreken voeren. ([Meer informatie](#verdiff))
 
 
 ### Welke standaarden worden gebruikt bij eind-tot-eindversleuteling?
@@ -418,47 +415,46 @@ Voor andere programma's kun je zélf een oplossing zoeken op internet.
 
 ### Kan ik Delta Chat op meerdere apparaten tegelijk gebruiken?
 
-Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Ja, Delta Chat 1.36 bevat een nieuwe, experimentele functie om hetzelfde account op meerdere apparaten te gebruiken:
 
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+- Ga op het eerste apparaat naar **Instellingen → Tweede apparaat toevoegen**, ontgrendel - indien nodig - het scherm
+  en wacht totdat de QR-code in beeld verschijnt.
 
-- On the second device, [install Delta Chat](https://get.delta.chat)
+- [Installeer Delta Chat](https://get.delta.chat) op het tweede apparaat.
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- Start Delta Chat op het tweede apparaat, kies **Toevoegen als tweede apparaat** en scan de QR-code met het eerste apparaat.
 
-- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
-  Wait until it is finished on both devices.
+- De overdracht zou na een paar seconden moeten beginnen en beide apparaten zouden de **voortgang** moeten tonen.
+  Wacht vervolgens tot de overdracht op beide apparaten is afgerond.
 
-In contrast to many other messengers, after successful transfer,
-both **devices are completely independent.**
-One device is not needed for the other to work.
-
-
-### Troubleshooting
-
-- Double-check both devices are in the **same Wi-Fi or network**
-
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
-
-- Ensure there is **enough storage** on the destination device
-
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
-
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple accounts per device, just [add another account](#multiple-accounts)
-
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+In tegenstelling tot veel andere gespreksapps, werkt Delta Chat **onafhankelijk
+op beide apparaten**. Hierdoor hoef je niet het ene apparaat bij de hand te hebben om het andere te laten werken.
 
 
-### Manual Transfer
+### Probleemoplossing
 
-This method is only recommended if "Add Second Device" as described above does not work.
+- Controleer of beide apparaten verbonden zijn met **hetzelfde (wifi)netwerk**
+
+- Wellicht is een firewall actief op je apparaat,
+  welke problemen kan veroorzaken (met name op Windows).
+  **Schakel de firewall op beide apparaten uit** of **voeg een uitzondering voor Delta Chat toe** en probeer het opnieuw.
+
+- Zorg voor **voldoende ruimte** op het bestemmingsapparaat
+
+- Zorg dat beide apparaten tijdens de overdracht **ingeschakeld blijven** en niet op zwart/in de slaapstand gaan.
+  Sluit Delta Chat niet af.
+  (We proberen om de app zo goed als mogelijk op de achtergrond te laten werken, maar [systemen sluiten apps helaas wel eens eigenhandig af](https://dontkillmyapp.com)).
+
+- Ben je **al ingelogd** op het bestemmingsapparaat?
+  Je kunt meerdere accounts per apparaat gebruiken - voeg dus [een tweede account toe](#multiple-accounts).
+
+- Als je nog steeds problemen ervaart of je de **QR-code niet kunt scannen**,
+  volg dan onderstaande stappen omtrent handmatige overzetting
+
+
+### Handmatig overzetten
+
+Deze methode is vooral bedoeld voor situaties waarin ‘Tweede apparaat toevoegen’ niet lukt.
 
 - Ga op je oude apparaat naar ‘Instellingen --> Gesprekken en media --> Back-up’. Voer je
   ontgrendelpincode, -patroon of -wachtwoord in. Druk vervolgens op ‘Nu back-uppen’. Er wordt een back-up opgeslagen op je apparaat. Zet deze over
@@ -677,12 +673,12 @@ Meer informatie hieromtrent is te vinden in ons [blogartikel](https://delta.chat
   Sommige providers verwachten echter bepaalde opties. Bekijk hiervoor het [provideroverzicht](https://providers.delta.chat)
 
 
-### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+### Ik wil mijn eigen e-mailserver opzetten. Hoe kan ik dat het beste doen?
 
-- Most mail servers will work well. But what we personally recommend is a
-  combination of mailcow and mailadm, as described [in this
-  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- You can find an [installation guide on our website](serverguide).
+- De meeste e-mailservers werken prima, maar wij raden een
+  combinatie van mailcow en mailadm aan, zoals uitgelegd op [ons
+  blog](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
+- In de [installatiehandleiding op onze website](serverguide) lees je hoe je dit opzet.
 
 
 ### Delta Chat gebruik e-mail. Is het dan wel een _Instant_ Messenger?
@@ -720,40 +716,39 @@ Meer informatie hieromtrent is te vinden in ons [blogartikel](https://delta.chat
 
 - Bekijk de pagina [Door Delta Chat gebruikte standaarden]({% include standards-url %}).
 
-### Was Delta Chat independently audited for security vulnerabilities?
+### Heeft Delta Chat ooit onafhankelijke beveiligingscontroles ondergaan?
 
-The Delta Chat project underwent three independent security audits in the last
-years:
+Delta Chat onderging al drie onafhankelijke beveiligingscontroles:
 
-- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's [PGP](https://github.com/rpgp/rpgp) and
-  [RSA](https://github.com/RustCrypto/RSA) libraries.
-  It found no critical issues,
-  but two high-severity issues that we subsequently fixed.
-  It also revealed one medium-severity and some less severe issues,
-  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
-  Some of them we nevertheless fixed since the audit was concluded.
-  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+- In 2019 heeft [Include Security](https://includesecurity.com) Delta Chats
+  [PGP-](https://github.com/rpgp/rpgp) en
+  [RSA-](https://github.com/RustCrypto/RSA)bibliotheken geanalyseerd.
+  Er werden geen grote problemen aangetroffen,
+  maar wel twee belangrijke die nadien werden opgelost.
+  Ook werden enkele redelijk belangrijke en minder belangrijke aan het licht gebracht,
+  maar die konden in Delta Chats specifieke implementatie niet worden misbruikt.
+  Ondanks dat zijn enkele daarvan nadien alsnog opgelost.
+  Het [volledige verslag is hier na te lezen](../assets/blog/2019-first-security-review.pdf).
 
-- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
-  [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+- In 2020 heeft [Include Security](https://includesecurity.com) Delta Chats
+  Rust-[kern](https://github.com/deltachat/deltachat-core-rust/),
+  [imap-](https://github.com/async-email/async-imap),
+  [smtp-](https://github.com/async-email/async-smtp) en
+  [tls-](https://github.com/async-email/async-native-tls)bibliotheken geanalyseerd.
+  Er werden geen grote problemen aangetroffen.
+  Wél werden er een paar redelijk belangrijke zwakheden aangetroffen,
+  maar geen die de meeste Delta Chat-gebruikers direct trof
+  omdat ze afhankelijk waren van de gebruikte omgeving.
+  Omwille van gebruiks- en compatibiliteitsredenen,
+  konden we ze niet allemaal oplossen
+  en besloten we om beveiligingsaanbevelingen aan getroffen gebruikers te doen.
+  Het [volledige verslag is hier na te lezen](../assets/blog/2020-second-security-review.pdf).
 
-- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
-  Delta Chat's network connections and a reproducible mail server setup as
-  [recommended on this site](serverguide).
-  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-  or read the [full report here](../assets/blog/MER-01-report.pdf).
+- Aan het begin van 2023 heeft [Cure53](https://cure53.de) de transportversleuteling van
+  Delta Chats netwerkverbindingen getest, evenals de e-mailserveropzet zoals
+  [beschreven op onze site](serverguide).
+  Meer informatie over deze test is te lezen [op ons blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
+  of in het [volledige verslag](../assets/blog/MER-01-report.pdf).
 
 ### Hoe wordt de ontwikkeling van Delta Chat gefinancierd?
 
@@ -785,26 +780,25 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door deze grote spele
 - In 2021 ontvingen we aanvullende EU-financiering voor twee toekomstige internet-
   voorstellen, te weten [EPPD - ‘e-mail provider portability directory’](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~€97.000) en [AEAP - ‘email address porting’](https://nlnet.nl/project/EmailPorting/) (~€90.000), wat geleid heeft tot betere ondersteuning voor meerdere accounts, een verbeterd QR-codesysteem en vele netwerk-gerelateerde verbeteringen op alle besturingssystemen.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- Van 2021 tot 2023 ontvingen we *Internetvrijheid*sfinanciering (~$500,000) van de
+  ‘U.S. Bureau of Democracy, Human Rights and Labor’ (DRL). 
+  Met deze financiering kunnen we Delta Chat eindelijk stabieler maken, 
+  evenals compatibeler met meer e-mailservers wereldwijd. Ook kunnen we extra beveiliging toevoegen
+  voor geheim communiceren vanaf locaties met internetcensuur of waar het internet is afgesloten.
 
-- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
-  Entrust program for our "Private Decentralized Apps" proposals. 
-  Exact amount is to be determined (around 100K EUR). 
-  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+- Aan het begin van 2023 werden we toegelaten tot het Next Generation Internet (NGI)-
+  programma omwille van onze voorstellen omtrent ‘private, gedecentraliseerde apps’. 
+  Het bedrag moet nog nader worden vastgesteld, maar ligt rond de €100.000. 
+  Met behulp van deze financiering kunnen we de [webxdc ‘gedeelde apps in een gesprek’](https://webxdc.org) verder uitwerken.
 
-- Sometimes we receive one-time donations from private individuals. 
-  For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". 💜 
-  We use such money to fund development gatherings or to care for ad-hoc expenses 
-  that can not easily be predicted for, or reimbursed from, public funding grants. 
-  Receiving more donations also helps us to become more independent and long-term viable
-  as a contributor community. 
+- Soms ontvangen we eenmalige donaties van privépersonen, waar we
+  uiteraard zeer dankbaar voor zijn. Zo ontvingen we in 2021 een zeer royaal bedrag op onze rekening, te weten €4000, 
+  met als bijschrift “Ga zo door met dit goede project!”. We gebruiken dit soort bedragen om
+  ontmoetingen tussen ontwikkelaars te organiseren of voor ad-hoc-uitgaven die niet voorzien waren.
+  Ook kunnen we zo onafhankelijk blijven en lang blijven
+  voortbestaan.
 
-  [Donate Money](donate){: .cta-button}
+[Geld doneren](donate){: .cta-button}
 
 - Ook hebben verschillende experts en enthousiastelingen op vrijwillige basis bijgedragen
   aan Delta Chat, en sommige doen dat nog steeds. Zij hebben geen of bijna geen
@@ -814,5 +808,5 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door deze grote spele
 Bovenstaande fiancieringen zijn opgezet door merlinux GmbH in
 Freiburg (Duitsland) en daarna toegekend aan meer dan 12 vrijwilligers wereldwijd. 
 
-Please see [Delta Chat Contribution channels](contribute)
-for both monetary and and other contribution possibilities.  
+Bekijk [Delta Chats bijdraagmogelijkheden](contribute)
+om te zien hoe je een financiële of andere bijdrage kunt leveren.
