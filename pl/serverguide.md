@@ -274,22 +274,15 @@ server {
 
 Następnie zastosuj zmiany za pomocą `sudo docker compose restart nginx-mailcow`.
 
-## Optional: No Logs, No Masters
+## Opcjonalnie: bez dzienników, bez wzorców
 
-Mailcow logs the IP addresses of your users for debugging purposes, so if you
-don't want to keep this critical information on your server, you might want to
-disable logging. Note that this makes debugging of issues considerably harder.
-Nobody but you can guess whether this is necessary in your environment.
+Mailcow rejestruje adresy IP użytkowników w celu debugowania, więc jeśli nie chcesz przechowywać tych krytycznych informacji na swoim serwerze, możesz wyłączyć rejestrowanie. Zauważ, że znacznie utrudni to debugowanie problemów. Nikt poza tobą nie jest w stanie zgadnąć, czy jest to konieczne w twoim środowisku.
 
-Mailcow keeps some logs in redis, so you can show it in the web interface - but
-if you add `command: '--save ""'` to the redis-server container in
-docker-compose.yml, it keeps them only in the RAM, which is hopefully not saved
-by a potential attacker.
+Mailcow przechowuje niektóre logi w redis, więc możesz je pokazać w interfejsie WWW, ale jeśli dodasz `command: '--save ""'` do kontenera redis-server w docker-compose.yml, przechowuje je tylko w pamięci RAM, która, miejmy nadzieję, nie zostanie zapisana przez potencjalnego napastnika.
 
-To point the actual log files in `/dev/null`, aka Nirvana, you can:
+Aby wskazać rzeczywiste pliki dziennika w `/dev/null`, czyli Nirvana, możesz:
 
-Add the following lines to each container in
-`mailcow-dockerized/docker-compose.yml`:
+Dodaj następujące wiersze do każdego kontenera w `mailcow-dockerized/docker-compose.yml`:
 
 ```
       logging:
@@ -299,25 +292,21 @@ Add the following lines to each container in
           syslog-facility: "local3"
 ```
 
-Now you can configure rsyslog to listen on that port for log input. Uncomment
-the following lines in `/etc/rsyslog.conf`:
+Teraz możesz skonfigurować rsyslog, aby nasłuchiwał na tym porcie dla wejścia dziennika. Odkomentuj następujące linie w `/etc/rsyslog.conf`:
 
 ```
 module(load="imudp")
 input(type="imudp" port="514")
 ```
 
-And put this in `/etc/rsyslog.d/` to redirect all of that to nirvana:
+I umieść to w `/etc/rsyslog.d/`, aby przekierować to wszystko do nirwany:
 
 ```
 local3.*        /dev/null
 & stop
 ```
 
-Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
-`sudo docker compose up -d`.
+Na koniec zrestartuj rsyslog za pomocą `sudo service rsyslog restart` i mailcow za pomocą `sudo docker compose up -d`.
 
-Consider looking at the [Mailcow logging
-documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
-for alternatives to this configuration.
+Rozważ przejrzenie [dokumentacji rejestrowania Mailcow](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation) w celu znalezienia alternatyw dla tej konfiguracji.
 
