@@ -3,15 +3,15 @@ title: O mensageiro de e-mail
 lang: pt_BR
 ---
 
-# Delta Chat is a messaging app that works over e-mail 
+# Delta Chat é um aplicativo de mensagens que funciona por e-mail 
 
-💬 Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Envie uma mensagem para qualquer pessoa com um endereço de e-mail [mesmo que não usem o Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
+🥳 Desfrute de experiências interativas de bate-papo por meio de [webxdc apps](https://webxdc.org).
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 Criptografia de ponta a ponta usando [Autocrypt](https://autocrypt.org) e [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocolo, com [múltiplas auditorias de segurança](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
-# Available on mobile and desktop
+# Disponível em dispositivos móveis e computadores
 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
@@ -25,7 +25,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 [Download](https://get.delta.chat){: .cta-button}
 
-[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+[Código Aberto](https://en.wikipedia.org/wiki/Open-source_software)
+e [Software Livre](https://en.wikipedia.org/wiki/Free_software), construído com [Padrões da Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
 
-Check out [user stories and voices](user-voices).
+Confira [histórias e depoimento de usuários](https://delta.chat/pt_BR/user-voices).
