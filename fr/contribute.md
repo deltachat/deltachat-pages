@@ -5,23 +5,21 @@ lang: fr
 
 # Canaux et dépôts de données
 
-Veuillez lire nos [Community Standards](community-standards) pour en savoir plus sur les interactions de la communauté autour de DeltaChat.
+Veuillez lire nos [Standards de la communauté](community-standards) pour en savoir plus sur les interactions de la communauté autour de DeltaChat.
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- Le [Fédiverse](https://chaos.social/web/@delta) pour les annonces et les réactions.
 
-- With your Delta Chat app you can send a `/list` message to [a community
-  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
+- Avec votre appli Delta Chat, vous pouvez envoyer un message `/list` à [un bot des groupes de la communauté (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) vous permet de découvrir et rejoindre divers groupes de discussion.
 
-- [forum d'assistance Delta Chat](https://support.delta.chat) pour discuter de fonctionnalités étendues et obtenir de l'assistance.
+- Le [forum d'assistance Delta Chat](https://support.delta.chat) pour discuter plus amplement des fonctionnalités et obtenir de l'aide.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- Le [dépôt Delta Chat](https://github.com/deltachat/) où vous trouverez le code des appli DeltaChat et du présent site internet.
 
 - More links can be found in the [cosmos](https://cosmos.delta.chat)
 
 [Donate Money](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Traductions et rapports de bugs
 
 - [Traductions sur Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problèmes Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)

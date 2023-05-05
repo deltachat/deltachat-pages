@@ -20,35 +20,26 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 ### 与其他通信软件相比，Delta Chat 有哪些优势？
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end-encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- _独立_ 于任何公司或服务。_您_ 拥有您的数据。
+- 您的数据不会保存于中央服务器，除非所有用户都在使用同一个电子邮件服务器。
+- 您不会将通讯录分发给任何人。
+- _快速_——使用 Push-IMAP。
+- _最广泛的用户基础_——也可以与 _不_ 使用 Delta Chat 的收件人进行联系。
+- _没有垃圾信息_——默认情况下仅显示已知用户的消息。
+- _端到端加密_——通过 Autocrypt。
+- 基于 _著佐权_ 与 _标准_ 的自由软件。
+- _身份灵活_，内置[多账户](#multiple-accounts)支持。
 
 
 ### 哪些消息会在 Delta Chat 中出现？
 
-By default, Delta Chat shows all e-mails.
+默认情况下， Delta Chat 会显示所有电子邮件。
 
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
+通过“设置->聊天与媒体->显示传统电子邮件”，您可以改变这种行为。有三个选项：
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- “不显示，仅聊天”：只显示由其他 Delta Chat 用户发送的消息和对您 Delta Chat 消息的回复。这在电子邮件地址同时用于处理普通邮件的情况下很有用。
+- “全部”：Delta Chat 会显示发送到您电子邮件地址的所有邮件。用于您希望使用 Delta Chat 处理所有电子邮件的情况，这样就不会有消息被落下了。默认设置。
+- “已接受的联系人”：Delta Chat 会显示已有聊天的联系人的所有电子邮件，而新聊天只会为 Delta Chat 消息弹出。可用于希望逐一决定是在 Delta Chat 中还是在“普通”电子邮件应用中对话的情况。
 
 
 ### 如果希望收到我从未发送过消息的人的消息，该怎么办?
@@ -341,7 +332,7 @@ both **devices are completely independent.**
 One device is not needed for the other to work.
 
 
-### Troubleshooting
+### 故障排除
 
 - Double-check both devices are in the **same Wi-Fi or network**
 
@@ -362,7 +353,7 @@ One device is not needed for the other to work.
   try the **manual transfer** described below
 
 
-### Manual Transfer
+### 手动传输
 
 This method is only recommended if "Add Second Device" as described above does not work.
 
@@ -397,7 +388,7 @@ This method is only recommended if "Add Second Device" as described above does n
 有些人将 Delta Chat 用作常规电子邮件客户端并希望将收件箱文件夹用于其邮件，而不是使用 DeltaChat 文件夹。如果禁用了“监视 DeltaChat 文件夹”，则还应该禁用“将聊天消息移动到 DeltaChat”。否则，删除消息或多设备设置可能无法正常工作。
 
 
-## Private Apps / webxdc {#webxdc}
+## 私人应用 / webxdc {#webxdc}
 
 在 Delta Chat 中，您可以分享“私人应用”——带有 `.xdc ` 文件扩展名的附件。它们可以实现很多种不同的功能，而这使得 Delta Chat 成为了一款真正可扩展的聊天软件。其技术名称是 [webxdc](https://webxdc.org)。
 
@@ -597,7 +588,7 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
   Receiving more donations also helps us to become more independent and long-term viable
   as a contributor community. 
 
-  [Donate Money](donate){: .cta-button}
+  [捐助钱款](donate){: .cta-button}
 
 - 最后但并非最不重要的是，数位专家与热心人在没有收到或仅收到少量金钱的情况下为 Delta Chat 的开发做出了贡献。没有他们，Delta Chat 不会发展到、甚至无法接近目前的状况。
 

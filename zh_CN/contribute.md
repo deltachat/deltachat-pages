@@ -18,7 +18,7 @@ lang: zh_CN
 
 - 更多链接可以在 [cosmos](https://cosmos.delta.chat) 中找到。
 
-[Donate Money](donate){: .cta-button}
+[捐助钱款](donate){: .cta-button}
 
 # 翻译与报告错误
 

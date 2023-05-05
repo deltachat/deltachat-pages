@@ -1,34 +1,31 @@
 ---
-title: How to Setup a Mail Server for Delta Chat
+title: 如何为 Delta Chat 搭建邮件服务器
 lang: zh_CN
 ---
 
-# How to Setup a Mail Server for Delta Chat
+# 如何为 Delta Chat 搭建邮件服务器
 
-Delta Chat is a chat messenger which runs on e-mail. This means we can use any
-e-mail server to run Delta Chat accounts. One e-mail server which is easy to
-setup and manage, and works with Delta Chat out of the box, is
-[Mailcow](https://mailcow.email).
+Delta Chat 是运行在电子邮件之上的聊天软件。这意味着可以使用任意电子邮件服务器来支持 Delta Chat 账户。 [Mailcow](https://mailcow.email) 是易于搭建与管理，并且可对 Delta Chat 开箱即用的电子邮件服务器。
 
 You can run it together with [mailadm](https://mailadm.readthedocs.io), which
 offers your users an easy way to create an e-mail account and directly login
 with Delta Chat. It is also included in this guide.
 
-What you need:
+你需要：
 
-- basic command line knowledge
-- a domain name, and access to its DNS settings
-- SSH access to a linux server
-  - with a public IP,
-  - minimum 10 GB disk space,
-  - and minimum 2 GB RAM
+- 基本的命令行知识
+- 一个域名，且可以访问其 DNS 设置
+- 到 Linux 服务器的 SSH 访问权限
+  - 具有公共 IP，with a public IP，
+  - 至少 10 GB 磁盘空间，
+  - 以及至少 2 GB 内存
 
-## Installing Docker
+## 安装 Docker
 
 As a prerequisite you need to install [docker and
 docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
 
-### If docker.com is Blocked:
+### 如果 docker.com 被屏蔽：
 
 Depending on the country where your server is in, docker.com may be blocked. You
 can also get docker & docker-compose from other sources, which may work:
@@ -80,7 +77,7 @@ in System>Configuration>Options>ARC/DKIM keys.
 You can do more than 5 minutes, but in case you notice something is wrong a
 short time helps with fixing the wrong entry.
 
-## Setup Mailcow
+## 安装 Mailcow
 
 ### Set Mailcow Options
 
@@ -149,14 +146,13 @@ Now run `sudo docker compose pull` to download the mailcow containers. If you do
 have access to docker.com at this step, you can [use an HTTP
 proxy](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
 
-### Start Mailcow
+### 启动 Mailcow
 
 Now start mailcow with `sudo docker compose up -d`.
 
-### Disabling IPv6 for mailcow
+### 为 mailcow 禁用 IPv6
 
-If your server doesn't have an IPv6 address, you should [disable
-IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
+在服务器没有 IPv6 地址的情况下，你应当[禁用 IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/)。
 
 ### Adding Domain in Mailcow
 
@@ -188,13 +184,13 @@ help if you have problems getting your e-mails delivered to other servers.
 
 ![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
 
-## Setting up mailadm
+## 安装 mailadm
 
 Now we can set up mailadm - with this tool you can generate QR codes, which
 people can scan from Delta Chat to create an e-mail account on your server. It
 is probably the easiest way for users to get started with Delta Chat.
 
-### Downloading mailadm
+### 下载 mailadm
 
 You can use these commands to download mailadm:
 
@@ -205,12 +201,12 @@ cd mailadm
 mkdir docker-data
 ```
 
-### Building mailadm
+### 构建 mailadm
 
 Now you can build the mailadm docker container with
 `sudo docker build . -t mailadm-mailcow`.
 
-#### If docker.com or pypi.org is Blocked
+#### 如果 docker.com 或 pypi.org 被屏蔽
 
 If your server can't reach docker.com, dl-cdn.alpinelinux.org, or pypi.org,
 this will fail. But you can build the docker container on a different machine
@@ -295,7 +291,7 @@ Best look at the documentation for the [first
 steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
 contains hints for troubleshooting the setup if something doesn't work.
 
-## Optional: Disable POP3
+## 可选：禁用 POP3
 
 Delta Chat uses only SMTP and IMAP,
 so if all of your users use Delta Chat,
