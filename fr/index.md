@@ -9,7 +9,7 @@ lang: fr
 
 🥳 Profitez d'une messagerie interactive avec les [appli webxdc](https://webxdc.org).
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 Chiffrement de bout-en-bout utilisant les protocoles [Autocrypt](https://autocrypt.org) et [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html), soumis à de [nombreux contrôles de sécurité](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Existe pour mobiles et pour ordinateurs
 
@@ -26,6 +26,6 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 [Télécharger](https://get.delta.chat){: .cta-button}
 
 [Logiciel libre](https://fr.wikipedia.org/wiki/Logiciel_libre)
-et [Open Source](https://fr.wikipedia.org/wiki/Open_source), développé à partir des [normes Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+et [Open Source](https://fr.wikipedia.org/wiki/Open_source), développé d'après les [normes de l'Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
 
-Voici [ce qu'en disent les utilisateurs et les utilisatrices](user-voices).
+Voir [ce qu'en disent nos utilisateurs et utilisatrices](user-voices).

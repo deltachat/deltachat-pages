@@ -8,8 +8,8 @@ header: Foire aux questions
 
 ## Qu'est-ce que Delta Chat ?
 
-Delta Chat est une application de clavardage qui utilise le courriel électronique pour délivrer ses messages et, si possible, les chiffre avec Autocrypt.
-**Vous n'avez pas besoin de vous créer un nouveau compte, utilisez simplement votre compte de courriel existant avec Delta Chat**
+Delta Chat est une application de clavardage qui utilise le courrier électronique pour délivrer ses messages et les chiffre avec Autocrypt lorsque c'est possible.
+**Vous n'avez pas besoin de vous créer un nouveau compte, vous pouvez simplement utiliser votre compte courriel existant avec Delta Chat.**
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
@@ -21,35 +21,26 @@ Avec Delta Chat, vous pouvez écrire à toutes les adresses courriels existantes
 
 ### Quels sont les avantages de Delta Chat par rapport aux autres messageries ?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end-encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- Elle est_indépendante_ de toute entreprise et de tout service. Vos données _vous_ appartiennent.
+- Vos données ne sont pas stockées sur un serveur central, à moins que tous les membres d'une conversation n'utilisent le même serveur de courriel.
+- Vous ne partagez votre carnet d'adresses avec personne.
+- Elle est_rapide_ grâce à l'utilisation de Push-IMAP.
+- Elle fournit _la plus grande base utilisateurs_ : vous pouvez contacter aussi vos correspondants qui _n'utilisent pas_ Delta Chat.
+- _Aucun spam_ : par défaut, vous ne voyez que les messages envoyés par les utilisateurs connus.
+- _Chiffrement de bout-en-bout_ via Autocrypt.
+- Logiciel libre basé sur le_copyleft_ et les _Standards_.
+- _Identité flexible_ grâce à la gestion intégrée des [comptes multiples](#multiple-accounts).
 
 
-### Quels messages apparaissent dans Delta Chat ?
+### Quels sont les messages qui apparaissent dans Delta Chat ?
 
-By default, Delta Chat shows all e-mails.
+Par défaut, Delta Chat affiche tous les courriels.
 
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
+Vous pouvez changer cette préférence en allant dans "Paramètres -> Discussions & fichiers multimédia -> Voir les courriels classiques". Trois options sont disponibles :
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- "Non, seulement les discussions": vous verrez seulement les messages envoyés par d'autres utilisateurs de Delta Chat et les réponses à vos messages Delta Chat. Cette option est recommandée si vous utilisez le même compte pour recevoir aussi des courriels normaux.
+- "Tout": vous verrez dans Delta Chat tous les courriels envoyés à votre adresse. Cette option est recommandée si vous souhaitez utiliser Delta Chat pour tous vos courriels, afin de ne rater aucun message.
+- "Pour les contacts acceptés": vous verrez dans Delta Chat tous les courriels envoyés par les personnes avec qui vous avez déjà ouvert une discussion, mais les notifications de nouvelles conversations ne s'afficheront que pour des messages envoyés via Delta Chat. Cette option vous permet de décider au cas par cas si vous souhaitez échanger via Delta Chat ou via une application de courriel "normale".
 
 
 ### Et si j'attends un message de quelqu'un avec qui je n'ai encore jamais échangé ?
@@ -66,17 +57,17 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 ### Delta Chat prend-il en charge les images, vidéos et autres pièces jointes ?
 
-Oui. Comme le texte brut, toutes les pièces jointes aux courriels sont affichées sous forme de messages séparés. Les messages sortants expédient automatiquement les pièces jointes que vous ajoutez.
+Oui. En plus du texte brut, toutes les pièces jointes aux courriels sont affichées sous forme de messages séparés. Les messages sortants expédient automatiquement les pièces jointes que vous ajoutez.
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+- Pour de meilleures performances, les images sont optimisées et envoyées en taille réduite par défaut, mais vous pouvez les envoyer en tant que "fichier" pour en conserver la taille originale.
 
-<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+<h3 id="multiple-accounts">Comment naviguer entre mes différents comptes et comment en ajouter ?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Vous pouvez facilement gérer des comptes supplémentaires sur les clients Delta Chat mobile ou de bureau en cliquant sur :
+- le bouton du menu, puis sur "Changer de compte" (Android et bureau) ;
+- l'icône de profil, puis sur "Ajouter un compte" (iOS).
 
-You may also wish to learn [how to add accounts to multiple devices](#multiclient).
+Peut-être voudrez-vous aussi savoir [comment ajouter un compte sur plusieurs appareils](#multiclient).
 
 ### Qui peut voir ma photo de profil ?
 
@@ -142,8 +133,8 @@ Ces options vous permettent d'organiser et trier vos discussions :
 
 - Utilisez la **sourdine** pour les discussions dont vous ne voulez pas recevoir les notifications. Les discussions en sourdine figurent toujours dans votre liste et peuvent aussi être les épinglées.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  Archived chats remain accessible above the chat list or via search. 
+- **Archivez les discussions** si vous ne voulez plus les voir apparaître dans votre liste de discussions.
+  Les discussions archivées restent accessibles au-dessus de la liste de discussions ou via la recherche. 
 
 - Lorsqu'un nouveau message est envoyé sur une discussion que vous avez archivée, et que vous n'avez pas mise en sourdine, la discussion **sort des archives** et reprend sa place dans votre liste de discussions.
   **Les discussions en sourdine restent archivées** tant que vous ne les désarchivez pas manuellement.
@@ -191,7 +182,7 @@ pour mettre une discussion en sourdine, ouvrez le menu de la conversation (Andro
 Contactez n'importe quel autre membre de ce groupe dans une discussion directe pour lui demander de vous y ré-inviter.
 
 
-### Je ne souhaite plus recevoir les message d'un groupe.
+### Je ne souhaite plus recevoir les messages d'un groupe.
 
 - Supprimez-vous de la liste des membres ou supprimez la discussion entière. 
 Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du groupe de vous ré-inviter.
@@ -272,27 +263,17 @@ Si vous n'êtes pas près physiquement de votre interlocuteur, vous pouvez véri
 - S'il n'y a **aucun cadenas**, le message est généralement transporté en clair, par exemple parce que vous ou l'expéditeur avez désactivé le chiffrement-de-bout-en-bout ou que l'expéditeur utilise une application qui ne prend pas en charge le chiffrement-de-bout-en-bout.
 
 
-### How can I ensure message encryption and deletion?
+### Comment puis-je faire en sorte que les messages soient chiffrés et supprimés ?
 
-The best way to ensure every message is encrypted,
-and metadata deleted as quickly as possible
-is creating a verified group and turning on
-self-destructing messages.
+La meilleure façon de garantir que chaque message soit chiffré et les métadonnées effacées aussi vite que possible c'est de créer un groupe vérifié et d'activer les messages éphémères.
 
-Verified groups are always encrypted and protected against [MITM
-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+Les groupes vérifiés sont toujours chiffrés et protégés contre les [attaques de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu).
 
-Metadata can't be encrypted, as the server needs to know where to deliver your
-messages. But turning on "self-destructing messages" deletes the messages on
-the server after they were delivered.
+Les métadonnées ne peuvent pas être chiffrées puisque le serveur doit savoir où envoyer vos messages. Mais activer les "messages éphémères" permet de supprimer les messages du serveur immédiatement après leur réception.
 
-If you need the messages on your device, but not on the server, you can also
-agree in the group to turn on ["delete messages from server
-automatically"](#delold).
+Si vous avez besoin de conserver vos messages sur votre appareil, mais pas sur le serveur, vous pouvez aussi vous mettre d'accord dans le groupe pour activer l'option ["Supprimer les messages du serveur immédiatement"](#delold).
 
-If you want to protect a 1:1 conversation like this, you should create a
-verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
+Si vous souhaitez protéger une conversation à deux de cette manière, nous vous conseillons de créer un groupe vérifié avec seulement deux personnes. Si jamais l'autre personne perdait son appareil, mais pas son compte, vous pourriez toujours communiquer dans la conversation à deux. ([En savoir plus](#verdiff))
 
 
 ### Quels standards sont utilisés pour le chiffrement de bout en bout ?
@@ -361,14 +342,13 @@ Pour les autres programmes, vous devriez pouvoir trouver la solution en ligne.
 
 ## Multi-client {#multiclient}
 
-### Puis-je utiliser Delta Chat sur plusieurs appareils en même temps? 
+### Puis-je utiliser Delta Chat sur plusieurs appareils en même temps?
 
-Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Oui. Delta Chat 1.36 propose une nouvelle fonctionnalité expérimentale pour utiliser le même compte sur plusieurs appareils.
 
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+- Sur le premier appareil, allez dans **Paramètres → Ajouter un deuxième appareil**, déverrouillez l'écran si nécessaire, et patientez un peu jusqu'à ce qu'un code QR s'affiche.
 
-- On the second device, [install Delta Chat](https://get.delta.chat)
+- Sur le deuxième appareil, [installez Delta Chat](https://get.delta.chat).
 
 - On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
 
@@ -594,10 +574,10 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ## Divers
 
-### Est-ce que Delta Chat fonctionne avec _mon_ fournisseur de courriel électronique? 
+### Est-ce que Delta Chat fonctionne avec _mon_ fournisseur de courriel ? 
 
-- Avec de grandes chances: oui :)
-Cependant, quelques fournisseurs ont besoin d'options spéciales pour bien fonctionner, consultez [l'aperçu des fournisseurs](https://providers.delta.chat)
+- Il y a de bonnes chances que oui :)
+Cependant, il faut activer des options spéciales pour que cela fonctionne correctement avec certains fournisseurs... Voir [la liste des fournisseurs](https://providers.delta.chat).
 
 
 ### I want to manage my own e-mail server for Delta Chat. What do you recommend?
@@ -608,12 +588,12 @@ Cependant, quelques fournisseurs ont besoin d'options spéciales pour bien fonct
 - You can find an [installation guide on our website](serverguide).
 
 
-### Si Delta Chat se base sur le courrier électronique, est-ce vraiment une Messagerie _Instantanée_? 
+### Si Delta Chat se base sur le courrier électronique, est-ce vraiment une messagerie _instantanée_? 
 
-- L'envoi et la réception de messages prennent quelques secondes, en général. Parfois, il y a des cas où cela prend plus de temps, mais on peut dire que c'est vrai aussi pour tout autre messager.
-- Le tchate instantané fonctionne rapidement si les deux parties utilisent activement l'application. Il est parfois plus lent si l'application fonctionne en arrière-plan.
-- La réception de messages peut alors prendre plusieurs minutes car Android et iOS empêchent souvent Delta Chat de fonctionner en arrière-plan, et ne le réveillent qu'occasionnellement. Ce délai artificiel est généralement pire sur iOS que sur Android.
-- Cependant, le fait qu'Android et iOS tuent les applications fonctionnant en arrière-plan est un problème pour de nombreuses applications légitimes.
+- L'envoi et la réception de messages prennent généralement quelques secondes. Il arrive parfois que cela prenne plus de temps, mais c'est aussi le cas avec n'importe quelle autre messagerie.
+- La messagerie instantanée est rapide quand les deux parties utilisent activement l'application. Elle peut devenir plus lente si l'application fonctionne en arrière-plan.
+- La réception de messages peut alors prendre plusieurs minutes, car Android et iOS empêchent souvent Delta Chat de fonctionner en arrière-plan et ne le réveillent qu'occasionnellement. Ce délai artificiel est généralement pire sur iOS que sur Android.
+- Cependant, le fait qu'Android et iOS tuent les applications fonctionnant en arrière-plan constitue un problème pour de nombreuses applications reconnues.
 Pour plus d'informations, voir [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
@@ -631,7 +611,7 @@ Pour plus d'informations, voir [dontkillmyapp.com](https://dontkillmyapp.com/).
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
-### Les détails techniques m'intéressent. Pouvez-vous m'en dire plus ? 
+### Les détails techniques m'intéressent. Pouvez-vous m'en dire plus ?
 
 - Consultez les [standards utilisés dans Delta Chat]({% include standards-url %}).
 
@@ -670,7 +650,7 @@ years:
   You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   or read the [full report here](../assets/blog/MER-01-report.pdf).
 
-### Comment est financé le développement de Delta Chat? 
+### Comment est financé le développement de Delta Chat?
 
 Delta Chat does not receive any Venture Capital and
 is not indebted, and under no pressure to produce huge profits, or to 
@@ -720,9 +700,9 @@ Concretely, Delta Chat developments have so far been funded from these sources:
   Receiving more donations also helps us to become more independent and long-term viable
   as a contributor community. 
 
-  [Donate Money](donate){: .cta-button}
+[Faire un don](donate){: .cta-button}
 
-- En dernier mais de loin pas des moindres, quelques enthousiastes et experts bénévoles qui ont contribué et contribuent au développement de Delta Chat sans recevoir d'argent, ou seulement de petites sommes. Sans eux, Delta Chat n'en serait pas où il en est aujourd'hui, et de très loin.
+- Enfin, en dernier mais largement pas des moindres, plusieurs passionné⋅e⋅s et expert⋅e⋅s ont contribué, et contribuent toujours, bénévolement au développement de Delta Chat sans gagner d'argent, ou seulement de petites sommes. Sans leur énergie, Delta Chat n'en serait pas là aujourd'hui... et de très loin.
 
 The monetary funding mentioned above is mostly organized by merlinux GmbH in
 Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
