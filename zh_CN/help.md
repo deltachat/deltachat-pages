@@ -242,13 +242,13 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 The best way to ensure every message is encrypted,
 and metadata deleted as quickly as possible
 is creating a verified group and turning on
-self-destructing messages.
+disappearing messages.
 
 Verified groups are always encrypted and protected against [MITM
 attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
 
 Metadata can't be encrypted, as the server needs to know where to deliver your
-messages. But turning on "self-destructing messages" deletes the messages on
+messages. But turning on "disappearing messages" deletes the messages on
 the server after they were delivered.
 
 If you need the messages on your device, but not on the server, you can also
