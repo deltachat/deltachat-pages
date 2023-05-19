@@ -35,9 +35,10 @@ Testing changes
   `https://<your-username>.github.io/deltachat-pages/`
 
 - Alternatively, [install Jekyll](https://jekyllrb.com/docs/installation/) 
-  on your local machive, run `bundle install` in this directory, 
-  and execute `jekyll serve --destination <path-to-build-dir>` 
-  in the source directory.
+  on your local machive, run `bundle install` in this directory,
+  and execute `bundle exec jekyll serve`.
+  Then open http://127.0.0.1:4000/en/ in a browser
+  to preview the English version of the website.
 
 - If you get Ruby dependency problems, you can also build the page in a docker
   container:  
