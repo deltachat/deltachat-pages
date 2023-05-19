@@ -112,7 +112,7 @@ Beginning February 2023 Delta Chat apps on all platforms
 were released containing the bag of DISABLE-WEBRTC mitigations.
 
 Meanwhile [OpenTechFund](https://www.opentech.fund/) had thankfully agreed to
-contract a [Cure53 security audit](https://cure53.de)
+contract a security audit by [Cure53](https://cure53.de)
 to perform a thorough security audit of our mitigations
 and of webxdc security and privacy promises in general.
 No compromise against our Disable-WebRTC mitigations was found
@@ -139,7 +139,7 @@ Again, it wasn't pretty, but it worked.
 
 ## Audit results of Delta Chat's ability to run web apps safely (webxdc)
 
-Cure53 [conducted a security audit about webxdc apps](XXX link)
+Cure53 [conducted a security audit about webxdc apps](https://public.opentech.fund/documents/XDC-01-report_2_1.pdf) 
 and identified five "high" and two "info" severity issues with our February releases.
 Here we provide a summary of the issues and links to our fixes:
 
