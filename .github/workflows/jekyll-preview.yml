@@ -15,11 +15,20 @@ jobs:
         export PULLREQUEST_ID=$(echo "${{ github.ref }}" | cut -d "/" -f3)
         echo ::set-output name=prid::$PULLREQUEST_ID
         if [ $(expr length "${{ secrets.USERNAME }}") -gt "1" ]; then echo ::set-output name=uploadtoserver::true ;fi
-    - name: Build the site in the jekyll/builder container
+    - name: Install Bundler
+      run: sudo gem install bundler
+    - name: Cache bundle
+      uses: actions/cache@v3
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - name: Install Jekyll
+      run: bundle install
+    - name: Build the site with Jekyll
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:4 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --baseurl /${{ steps.prepare.outputs.prid }}"
+        bundle exec jekyll build --future --baseurl "/${{ steps.prepare.outputs.prid }}"
         mkdir ${{ steps.prepare.outputs.prid }}
     - name: Create folder if it doesn't exist
       if: steps.prepare.outputs.uploadtoserver
