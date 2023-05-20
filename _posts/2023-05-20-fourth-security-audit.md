@@ -118,6 +118,9 @@ and of webxdc security and privacy promises in general.
 No compromise against our Disable-WebRTC mitigations was found
 but it wasn't the end of an already exhausting story ... 
 
+<img src="../assets/blog/2023-05-20-fourth-security-audit.png" width="70%" /><br/>
+_This meme was considered to best fit the state of some browser engines_
+
 
 ## DNS-prefetching marks another major exploit found by Cure53
 
