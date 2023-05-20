@@ -13,11 +13,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the site in the jekyll/builder container
+    - name: Install Bundler
+      run: sudo gem install bundler
+    - name: Cache bundle
+      uses: actions/cache@v3
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - name: Install Jekyll
+      run: bundle install
+    - name: Build the site with Jekyll
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:4 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        bundle exec jekyll build --future
     - name: Upload
       uses: horochx/deploy-via-scp@v1.0.1
       with:
