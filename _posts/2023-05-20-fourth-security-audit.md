@@ -25,7 +25,7 @@ Enforcing this privacy promise depends on our ability to safely run
 web code in a *network-isolated webview* to prevent it from
 causing unwanted network traffic. We use standard Browser APIs 
 and `Content-Security-Policy` directives to 
-to prevent web code from unwanted network access, such that: 
+prevent web code from unwanted network access, such that: 
 
 - external links do not work (`href` etc.).
 - `XMLHttpRequest()` and related methods do not work.
