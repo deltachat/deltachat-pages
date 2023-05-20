@@ -8,7 +8,7 @@ We are spearheading ["web apps shared in a chat" (webxdc)](https://delta.chat/en
 but earlier this year we got into a surprising struggle with Web browser sandboxing issues
 that took us several months to come out ahead of. 
 This post provides the background story of this struggle leading to
-the security-hardended Delta Chat 1.36 release series in April 2023. 
+the security-hardened Delta Chat 1.36 release series in April 2023.
 
 ## The unique privacy promise of web apps without tracking or platforms 
 
@@ -37,7 +37,7 @@ sure we could run isolated webviews for users.
 
 Or so we thought.
 
-## WebRTC breaks the sandbox and it's suprisingly hard to fix it 
+## WebRTC breaks the sandbox and it's surprisingly hard to fix it
 
 In January 2023, a new contributor, [Wofwca](https://github.com/WofWca),
 discovered that `RTCPeerConnection` objects
@@ -127,7 +127,7 @@ Chromium performs "DNS-prefetching" which aims to speed up browsing experiences
 for users by performing DNS network queries before a user clicks on any link
 or the page requests a resource.
 Auditors provided two exploits for Desktop and Android respectively
-which could exfiltrate data from web apps via Chromiums DNS-prefetch feature.
+which could exfiltrate data from web apps via Chromium's DNS-prefetch feature.
 Unfortunately, the official suggestion for
 [disabling DNS-prefetch on Chromium](https://www.chromium.org/developers/design-documents/dns-prefetching/#dns-prefetch-control) does not work. We even found in Chromiums source code
 [tests that dns-prefetch "off" settings can be manually overriden](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/web_tests/http/tests/misc/dns-prefetch-control.html;l=51?q=dns-prefetch). 
