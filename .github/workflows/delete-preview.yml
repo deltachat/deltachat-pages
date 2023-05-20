@@ -24,13 +24,8 @@ jobs:
         # create empty file to copy it over the outdated deliverable on download.delta.chat
         echo "This preview is outdated and has been removed." > ${{ steps.getid.outputs.prid }}/index.html
     - name: Replace build with error message
-      uses: tohn/rsync-deploy@v1.1
-      env:
-        DEPLOY_KEY: ${{ secrets.KEY }}
-        USERNAME: ${{ secrets.USERNAME }}
-        SERVER_PORT: 22
-        FOLDER: ${{ steps.getid.outputs.prid }}
-        SERVER_IP: delta.chat
-        SERVER_DESTINATION: /var/www/html/staging/
-        ARGS: --delete -vhr
-
+      run: |
+        mkdir -p "$HOME/.ssh"
+        echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
+        chmod 600 "$HOME/.ssh/key"
+        rsync --delete -vhr -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/staging/${{ steps.prepare.outputs.prid }}/"
