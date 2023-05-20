@@ -27,13 +27,10 @@ jobs:
     - name: Build the site with Jekyll
       run: |
         bundle exec jekyll build --future
-    - name: Upload
-      uses: horochx/deploy-via-scp@v1.0.1
-      with:
-        user: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        host: "delta.chat"
-        port: 22
-        local: "_site"
-        remote: "/var/www/html/"
 
+    - name: Upload
+      run: |
+        mkdir -p "$HOME/.ssh"
+        echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
+        chmod 600 "$HOME/.ssh/key"
+        rsync -avzh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/"
