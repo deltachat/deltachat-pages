@@ -30,26 +30,14 @@ jobs:
       run: |
         bundle exec jekyll build --future --baseurl "/${{ steps.prepare.outputs.prid }}"
         mkdir ${{ steps.prepare.outputs.prid }}
-    - name: Create folder if it doesn't exist
-      if: steps.prepare.outputs.uploadtoserver
-      uses: horochx/deploy-via-scp@v1.0.1
-      with:
-        user: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        host: "delta.chat"
-        port: 22
-        local: ${{ steps.prepare.outputs.prid }}
-        remote: "/var/www/html/staging/${{ steps.prepare.outputs.prid }}"
+
     - name: Upload preview
-      if: steps.prepare.outputs.uploadtoserver
-      uses: horochx/deploy-via-scp@v1.0.1
-      with:
-        user: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        host: "delta.chat"
-        port: 22
-        local: "_site/*"
-        remote: "/var/www/html/staging/${{ steps.prepare.outputs.prid }}/"
+      run: |
+        mkdir -p "$HOME/.ssh"
+        echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
+        chmod 600 "$HOME/.ssh/key"
+        rsync -avzh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/staging/${{ steps.prepare.outputs.prid }}/"
+
     - name: "Post links to details"
       id: details
       if: steps.prepare.outputs.uploadtoserver
