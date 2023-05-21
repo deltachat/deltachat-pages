@@ -4,8 +4,9 @@ author: holga
 image: ../assets/blog/2023-05-20-fourth-security-audit.png
 ---
 
-We are spearheading ["web apps shared in a chat" (webxdc)](https://delta.chat/en/2022-06-14-webxdcintro) which comes with unique privacy promises
-but earlier this year we got into a surprising struggle with Web browser sandboxing issues
+Delta Chat's ["web apps shared in a chat" (webxdc)](https://delta.chat/en/2022-06-14-webxdcintro) 
+feature comes with unique privacy promise but in January was shown to be broken. 
+We got into a surprising struggle with Web browser sandboxing issues
 that took us several months to come out ahead of. 
 This post provides the background story of this struggle leading to
 the security-hardened Delta Chat 1.36 release series in April 2023.
@@ -23,15 +24,18 @@ Delta Chat completely bars browsers from doing any network requests themselves.
 
 Enforcing this privacy promise depends on our ability to safely run
 web code in a *network-isolated webview* to prevent it from
-causing unwanted network traffic. We use standard Browser APIs 
-and `Content-Security-Policy` directives to 
+causing unwanted network traffic. 
+Easy enough one would think e. g. on Electron/Chromium 
+where we create the sandboxed web view with the `internetAccess=False` option.
+
+We generally use standard Browser APIs and `Content-Security-Policy` directives to 
 prevent web code from unwanted network access, such that: 
 
 - external links do not work (`href` etc.).
 - `XMLHttpRequest()` and related methods do not work.
 - it is not possible to access not-embedded code or HTML via `src=...` etc.
 
-In 2022 we developed a [webxdc test app](https://github.com/webxdc/webxdc-test)
+Mid 2022 we developed a [webxdc test app](https://github.com/webxdc/webxdc-test)
 to verify these guarantees and tested it on many devices until we were
 sure we could run isolated webviews for users. 
 
@@ -63,13 +67,14 @@ After many days of reading Chromium source code, trying and testing,
 we came up with this little snippet that needs to run before we start web apps: 
 
 ```javascript
+
+// FILL500: Disable WebRTC on Chromium
 for (let i = 0; i < 500; i++) {
     new RTCPeerConnection()
 }
 ```
 
-Nope, we didn't accidentally copy-paste the wrong code snippet. 
-This actually is the fix. 
+This is not a copy-paste error but the actual fix. 
 Now, let us explain _why_ it works:
 
 - Since 2019, Chromium has [a hard-coded limit](https://github.com/chromium/chromium/blob/c9060dc81d2a40733b627a4f5215ff237a64c691/third_party/blink/renderer/modules/peerconnection/rtc_peer_connection.cc#L155-L156)
@@ -96,7 +101,8 @@ Note that FILL500 can cause delays of sometimes 3-5 seconds for starting web app
 on old phones.  It's not pretty but we consider our privacy promise more fundamental. 
 Web and Chromium experts from various projects and groups could not improve on FILL500. 
 If anyone has a better fix for preventing RTCPeerConnections, please come forward. 
-This blog post like all older ones can be commented on in the Fediverse, see below. 
+This blog post like all older ones can be commented on in the Fediverse, 
+see the bottom of the post. 
 
 ## Disabling WebRTC worked in February on all platforms but ...
 
@@ -109,7 +115,7 @@ namespaces such that web apps can not instantiate RTCPeerConnections at all.
 The mitigation consisted in a just a few lines of code when creating the web view.
 
 Beginning February 2023 Delta Chat apps on all platforms
-were released containing the bag of DISABLE-WEBRTC mitigations.
+were released containing the various DISABLE-WEBRTC mitigations.
 
 Meanwhile [OpenTechFund](https://www.opentech.fund/) had thankfully agreed to
 contract a security audit by [Cure53](https://cure53.de)
@@ -119,7 +125,7 @@ No compromise against our Disable-WebRTC mitigations was found
 but it wasn't the end of an already exhausting story ... 
 
 <img src="../assets/blog/2023-05-20-fourth-security-audit.png" width="70%" /><br/>
-_This meme was considered to best fit the state of some browser engines_
+_This meme was considered to best fit the state of sandboxing on browser engines_
 
 
 ## DNS-prefetching marks another major exploit found by Cure53
@@ -170,6 +176,7 @@ Here we provide a summary of the issues and links to our fixes:
 
 - (high) XDC-04: Data exfiltration via dev-tools
   [Fixed by deltachat-desktop commit #649fe](https://github.com/deltachat/deltachat-desktop/commit/a9e5242acb2dfad132acc3dbbdacf89fb2a649fe). Now the dev tools can only be opened if the "Enable webxdc devtools" experimental setting is enabled.
+
 - (high) XDC-05: Full CSP-bypass for PDF embed on Desktop
   Fixed in [deltachat-desktop commit #63577c](https://github.com/deltachat/deltachat-desktop/commit/e874c8bdb98321c12d2d972106b0143e7f63577c). When attempting to load a pdf file in an iframe, the PDF is now displayed as text.
 
