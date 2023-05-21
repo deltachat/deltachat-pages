@@ -41,9 +41,8 @@ sure we could run isolated webviews for users.
 
 Or so we thought.
 
-## WebRTC breaks the sandbox and it's surprisingly hard to fix it
+## WebRTC breaks the sandbox and it's hard to fix it
 
-<img src="../assets/blog/2023-05-20-fourth-security-audit.png" width="270" style="float:right; margin-left:1em;" />
 In January 2023, a new contributor, [Wofwca](https://github.com/WofWca),
 discovered that `RTCPeerConnection` objects
 are not restricted by the known network-isolation options for webviews
@@ -53,16 +52,17 @@ which allow P2P communications for video or data transfers.
 
 Our privacy promise was broken and an example exploit showcased it. 
 
-We convened a working group from our team and befriended experts
-to iteratively implement and develop the "DISABLE-WEBRTC"
-set of fixes and mitigations to enforce network-isolation of webviews,
+
+<img src="../assets/blog/2023-05-20-fourth-security-audit.png" width="170" style="float:right; margin-left:0em;" />
+We convened a "DISABLE-WEBRTC" working group from our team and befriended experts
+to iteratively implement and develop mitigations to enforce network-isolation of webviews,
 both for Chromium and Webkit/iOS. 
 Not even all Delta Chat contributors knew of the massive work
 taking place behind the scenes and only appearing in various PRs
 in public repositories.
 
 
-## Disabling WebRTC on Chromium through the FILL500 hack
+## Fill500: Disabling WebRTC on Chromium 
 
 After many days of reading Chromium source code, trying and testing, 
 we came up with this little snippet that needs to run before we start web apps: 
@@ -108,9 +108,6 @@ and of webxdc security and privacy promises in general.
 No compromise against our Disable-WebRTC mitigations was found
 but it wasn't the end of an already exhausting story ... 
 
-<img src="../assets/blog/2023-05-20-fourth-security-audit.png" width="70%" /><br/>
-_This meme was considered to best fit the state of sandboxing on browser engines_
-
 
 ## DNS-prefetching marks another major exploit found by Cure53
 
@@ -133,8 +130,8 @@ so that webxdc apps can not leak data anymore via DNS-prefetch.
 
 ## Audit results of Delta Chat's ability to run web apps safely (webxdc)
 
-Cure53 [conducted a security audit about webxdc apps](https://public.opentech.fund/documents/XDC-01-report_2_1.pdf) 
-and identified five "high" and two "info" severity issues with our February releases.
+[The Cure53 security audit about webxdc apps](https://public.opentech.fund/documents/XDC-01-report_2_1.pdf) 
+identified five "high" and two "info" severity issues with our February releases.
 Here we provide a summary of the issues and links to our fixes:
 
 - (high) XDC-01: Data exfiltration via DNS-prefetch on Desktop
@@ -177,7 +174,8 @@ All high-severity issues are fixed with the 1.36 release series
 already published to app stores and our web page in April.
 
 
-## Conclusions and take aways on better network control in browsers
+## Take aways on better browser sandboxing 
+
 
 We were a bit naive thinking that Web Browsers and especially Chromium sandboxes
 allow to control JavaScript network access when we instantiate e.g.
@@ -188,7 +186,7 @@ we did not expect it would be so hard to control the network behaviour of web co
 
 ### Browsers: please implement the W3C "WEBRTC: block" directive
 
-<img src="../assets/logos/w3c_home.png" width="270" style="float:right; margin-left:1em;" />
+<img src="../assets/logos/w3c_home.svg" width="170" style="float:left; margin-right:1em;" />
 Platforms serving web pages or apps need to trust their complete
 supply chain of JavaScript dependencies if they don't want
 users of their offerings to leak app data through WebRTC.
@@ -198,7 +196,7 @@ The issue is actually long known, see the [WebRTC can be used for exfiltration i
 In 2022 the W3C finally adopted a direct method to disable WebRTC via a [WebRTC: Block CSP setting](https://www.w3.org/TR/CSP3/#directive-webrtc) but it's not implemented yet by browsers.
 The WebRTC CSP would allow webxdc and web2 applications and platforms a much saner way
 to control Browsers and for Chromium in particular getting rid of the FILL500 hack.
-Tip of the hat to [ZenHack](https://github.com/zenhack) who persevered
+Many thanks to [ZenHack](https://github.com/zenhack) who persevered
 in landing this new CSP directive and even went through the bureaucratic effort
 of becoming a registered W3C spec contributor to land it.
 
@@ -209,7 +207,7 @@ A [search on DuckDuckGo](https://duckduckgo.com/?t=ffab&q=webrtc+vpn+&atb=v65-1&
 reveals many old and recent blog posts and VPN provider pages advising on mitigating the issue.
 However, two sets of expert groups have not found a way to disable WebRTC on Chromium
 other than the hacky FILL500 algorithm above and
-we are not aware of any other method to reliably disable WebRTC on Chromium.
+we are not aware of any other browser-level method to reliably disable WebRTC on Chromium.
 Some VPN setups may succeed however in preventing WebRTC connections
 on the network level but you will need to inquire yourself with your VPN providers to find out.
 **We think Browsers should up their game and allow users to consent to using WebRTC
@@ -221,12 +219,12 @@ because otherwise you might leak your actual IP address to malicious web sites
 that try to identify VPN users.
 
 
-### Maybe Firefox would help? How to salvage the situation otherwise? 
+### Maybe using Firefox engines would help? 
 
 <img src="../assets/blog/2023-05-20-allchrome.png" width="270" style="float:right; margin-left:1em;" />
 Delta Chat apps do not use Firefox webviews which can be directly configured
 to disable WebRTC, by setting `media.peerconnection.enabled = false` in `about:config`.
-Firefox can do DNS-prefetching but it again appears like 
+Firefox can do DNS-prefetching but it thankfully again appears like 
 [there are simple configurations to disable it](https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections). 
 However, the Delta Chat desktop app uses Electron which in turn uses Chromium
 and on Android devices the system webview is typically a Chromium webview.
@@ -237,13 +235,15 @@ drastically increase the APK size. We are nevertheless considering it especially
 does not implement the "WebRTC: Block" directive sometime.
 
 
+### Combining the Servo Rust engine with Delta Chat's Rust core? 
+
 <img src="../assets/blog/2023-05-20-servo.png" width="200" style="float:left; margin-right:1em;" />
 Like many other developers who are critical of Google's dominance with Browsers
 we were sad to see Mozilla let go of their [Servo](https://servo.org/) team. 
 But recently [Servo is picking up steam again](https://servo.org/blog/2023/02/03/servo-2023-roadmap/) 
 and [Igalia wants to help revive Servo](https://people.igalia.com/mrego/servo/igalia-servo-tsc-2022/). 
 Maybe it becomes feasible to integrate Servo at some point? 
-For sure, [webxdc apps](https://webxdc.org) are a young feature 
-which now saw a first consolidation so that we can now 
-focus on introducing new interesting features for marrying the Web and E2E messaging. 
-Stay tuned :) 
+For sure, [webxdc apps](https://webxdc.org) are a young feature
+which we want to further evolve in 2023, exploring and creating realities 
+where open web technology integrates with E2E messaging instead of 
+today's centralized platforms. 
