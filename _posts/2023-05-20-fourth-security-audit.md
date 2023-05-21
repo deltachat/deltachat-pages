@@ -13,7 +13,7 @@ the security-hardened Delta Chat 1.36 release series in April 2023.
 
 ## The unique privacy promise of web apps without tracking or platforms 
 
-<img src="../assets/logos/webxdc.png" width="170" style="float:left; margin-right:0em;" />
+<img src="../assets/logos/webxdc2.png" width="170" style="float:left; margin-right:1em;" />
 Unlike Telegram with its Bots or WeChat with its MiniApps, 
 Delta Chat allows anyone to create and share web apps in a chat 
 while maintaining the industries strongest privacy promise: 
@@ -237,7 +237,7 @@ does not implement the "WebRTC: Block" directive sometime.
 
 ### Combining the Servo Rust engine with Delta Chat's Rust core? 
 
-<img src="../assets/blog/2023-05-20-servo.png" width="200" style="float:left; margin-right:1em;" />
+<img src="../assets/logos/servo.png" width="200" style="float:left; margin-right:1em;" />
 Like many other developers who are critical of Google's dominance with Browsers
 we were sad to see Mozilla let go of their [Servo](https://servo.org/) team. 
 But recently [Servo is picking up steam again](https://servo.org/blog/2023/02/03/servo-2023-roadmap/) 
