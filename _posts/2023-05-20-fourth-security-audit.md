@@ -13,6 +13,7 @@ the security-hardened Delta Chat 1.36 release series in April 2023.
 
 ## The unique privacy promise of web apps without tracking or platforms 
 
+<img src="../assets/logos/webxdc.png" width="170" style="float:left; margin-right:0em;" />
 Unlike Telegram with its Bots or WeChat with its MiniApps, 
 Delta Chat allows anyone to create and share web apps in a chat 
 while maintaining the industries strongest privacy promise: 
@@ -25,10 +26,9 @@ Delta Chat completely bars browsers from doing any network requests themselves.
 Enforcing this privacy promise depends on our ability to safely run
 web code in a *network-isolated webview* to prevent it from
 causing unwanted network traffic. 
-Easy enough one would think e. g. on Electron/Chromium 
-where we create the sandboxed web view with the `internetAccess=False` option.
-
-We generally use standard Browser APIs and `Content-Security-Policy` directives to 
+For example, on Electron/Chromium we create a sandboxed web view 
+with the `internetAccess=False` option
+and generally use standard Browser APIs and `Content-Security-Policy` directives to 
 prevent web code from unwanted network access, such that: 
 
 - external links do not work (`href` etc.).
@@ -43,6 +43,7 @@ Or so we thought.
 
 ## WebRTC breaks the sandbox and it's surprisingly hard to fix it
 
+<img src="../assets/blog/2023-05-20-fourth-security-audit.png" width="270" style="float:right; margin-left:1em;" />
 In January 2023, a new contributor, [Wofwca](https://github.com/WofWca),
 discovered that `RTCPeerConnection` objects
 are not restricted by the known network-isolation options for webviews
@@ -96,24 +97,7 @@ can create a new pool of RTCPeerConnections.
 We'll skip on the details of that but it involved trying various Chromium variants 
 and finding more surprises that needed modified mitigations or controls 
 to prevent apps from getting a new RTCPeerConnection pool. 
-
-Note that FILL500 can cause delays of sometimes 3-5 seconds for starting web apps 
-on old phones.  It's not pretty but we consider our privacy promise more fundamental. 
-Web and Chromium experts from various projects and groups could not improve on FILL500. 
-If anyone has a better fix for preventing RTCPeerConnections, please come forward. 
-This blog post like all older ones can be commented on in the Fediverse, 
-see the bottom of the post. 
-
-## Disabling WebRTC worked in February on all platforms but ...
-
-FILL500 is used [on Android](https://github.com/deltachat/deltachat-android/blob/605008074ec122b196e65e86e7c6c9ae9789d068/res/raw/webxdc_wrapper.html#L63-L65)
-and [Electron-based Desktop](https://github.com/deltachat/deltachat-desktop/blob/4e40c4304b2e41ede7ec896f9ce28fd7552fbf1f/static/webxdc-preload.js#L91-L104)
-
-For webkit/iOS (used by Safari), DISABLE-WEBRTC mitigations [work differently](https://github.com/deltachat/deltachat-ios/blob/59ce95cf7e02e3c4799aea2ca1bfed1087506928/deltachat-ios/Controller/WebxdcViewController.swift#L135-L144). 
-For Webkit, the `RTCPeerConnection` object is removed from JavaScript
-namespaces such that web apps can not instantiate RTCPeerConnections at all.
-The mitigation consisted in a just a few lines of code when creating the web view.
-
+Note that FILL500 can cause delays of sometimes 3-5 seconds for starting web apps on old phones.  It's not pretty but we consider our privacy promise more fundamental.  Web and Chromium experts from various projects and groups could not improve on FILL500.  If anyone has a better fix for preventing RTCPeerConnections, please come forward.  This blog post like all older ones can be commented on in the Fediverse, see the bottom of the post.  ## Disabling WebRTC worked in February on all platforms but ...  FILL500 is used [on Android](https://github.com/deltachat/deltachat-android/blob/605008074ec122b196e65e86e7c6c9ae9789d068/res/raw/webxdc_wrapper.html#L63-L65) and [Electron-based Desktop](https://github.com/deltachat/deltachat-desktop/blob/4e40c4304b2e41ede7ec896f9ce28fd7552fbf1f/static/webxdc-preload.js#L91-L104) For webkit/iOS (used by Safari), DISABLE-WEBRTC mitigations [work differently](https://github.com/deltachat/deltachat-ios/blob/59ce95cf7e02e3c4799aea2ca1bfed1087506928/deltachat-ios/Controller/WebxdcViewController.swift#L135-L144).  For Webkit, the `RTCPeerConnection` object is removed from JavaScript namespaces such that web apps can not instantiate RTCPeerConnections at all.  The mitigation consisted in a just a few lines of code when creating the web view.
 Beginning February 2023 Delta Chat apps on all platforms
 were released containing the various DISABLE-WEBRTC mitigations.
 
@@ -130,6 +114,7 @@ _This meme was considered to best fit the state of sandboxing on browser engines
 
 ## DNS-prefetching marks another major exploit found by Cure53
 
+<img src="../assets/blog/2023-05-20-chrome-sandbox.png" width="270" style="float:right; margin-left:1em;" />
 Security auditors from Cure53 found another issue
 which sent us back to the drawing board and lots of head scratching:
 Chromium performs "DNS-prefetching" which aims to speed up browsing experiences
@@ -143,7 +128,7 @@ Unfortunately, the official suggestion for
 
 To cut another longer story short here, we'll found working mitigations (see next section)
 so that webxdc apps can not leak data anymore via DNS-prefetch.
-Again, it wasn't pretty, but it worked.
+
 
 
 ## Audit results of Delta Chat's ability to run web apps safely (webxdc)
@@ -203,6 +188,7 @@ we did not expect it would be so hard to control the network behaviour of web co
 
 ### Browsers: please implement the W3C "WEBRTC: block" directive
 
+<img src="../assets/logos/w3c_home.png" width="270" style="float:right; margin-left:1em;" />
 Platforms serving web pages or apps need to trust their complete
 supply chain of JavaScript dependencies if they don't want
 users of their offerings to leak app data through WebRTC.
@@ -234,14 +220,30 @@ If you depend on using a VPN then it's for now maybe safer to use Firefox based 
 because otherwise you might leak your actual IP address to malicious web sites
 that try to identify VPN users.
 
-### Firefox webviews would have saved us troubles
 
+### Maybe Firefox would help? How to salvage the situation otherwise? 
+
+<img src="../assets/blog/2023-05-20-allchrome.png" width="270" style="float:right; margin-left:1em;" />
 Delta Chat apps do not use Firefox webviews which can be directly configured
 to disable WebRTC, by setting `media.peerconnection.enabled = false` in `about:config`.
-Firefox also doesn't do DNS-prefetching (which shouldn't be done for https anyway).
-But the Delta Chat desktop app uses Electron which in turn uses Chromium
+Firefox can do DNS-prefetching but it again appears like 
+[there are simple configurations to disable it](https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections). 
+However, the Delta Chat desktop app uses Electron which in turn uses Chromium
 and on Android devices the system webview is typically a Chromium webview.
+We investigated whether we could use GeckoView and early tests confirm 
+it would solve the WebRTC issue.  
+But shipping GeckoView within Delta Chat is a) still quite a bit of work b) would
+drastically increase the APK size. We are nevertheless considering it especially if Chromium
+does not implement the "WebRTC: Block" directive sometime.
 
-We investigated whether we could use GeckoView and early tests confirm it would solve the WebRTC issue.  But shipping GeckoView within Delta Chat is a) quite a bit of work b) would
-drastically increase the APK size. We are still considering it especially if Chromium
-does not implement the "WebRTC: Block" directive in the foreseeable future.
+
+<img src="../assets/blog/2023-05-20-servo.png" width="200" style="float:left; margin-right:1em;" />
+Like many other developers who are critical of Google's dominance with Browsers
+we were sad to see Mozilla let go of their [Servo](https://servo.org/) team. 
+But recently [Servo is picking up steam again](https://servo.org/blog/2023/02/03/servo-2023-roadmap/) 
+and [Igalia wants to help revive Servo](https://people.igalia.com/mrego/servo/igalia-servo-tsc-2022/). 
+Maybe it becomes feasible to integrate Servo at some point? 
+For sure, [webxdc apps](https://webxdc.org) are a young feature 
+which now saw a first consolidation so that we can now 
+focus on introducing new interesting features for marrying the Web and E2E messaging. 
+Stay tuned :) 
