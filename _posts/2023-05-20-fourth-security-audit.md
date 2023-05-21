@@ -1,5 +1,5 @@
 ---
-title: "Bringing E2E privacy to the Web: fourth security audit completed 😅"
+title: "Bringing E2E privacy to the Web: 4th security audit 😅"
 author: holga
 image: ../assets/blog/2023-05-20-fourth-security-audit.png
 ---
