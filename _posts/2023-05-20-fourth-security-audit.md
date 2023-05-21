@@ -26,9 +26,7 @@ Delta Chat completely bars browsers from doing any network requests themselves.
 Enforcing this privacy promise depends on our ability to safely run
 web code in a *network-isolated webview* to prevent it from
 causing unwanted network traffic. 
-For example, on Electron/Chromium we create a sandboxed web view 
-with the `internetAccess=False` option
-and generally use standard Browser APIs and `Content-Security-Policy` directives to 
+We generally use standard Browser APIs and `Content-Security-Policy` directives to 
 prevent web code from unwanted network access, such that: 
 
 - external links do not work (`href` etc.).
@@ -177,10 +175,8 @@ already published to app stores and our web page in April.
 
 ## Take aways on better browser sandboxing 
 
-
 We were a bit naive thinking that Web Browsers and especially Chromium sandboxes
-allow to control JavaScript network access when we instantiate e.g.
-the Electron/Chromium engine with the `internetAccess=False` option.
+allow to control network access on web views. 
 Then again, with web browsers and their sandboxing models used for a lot of
 commercial and payment activities, with tons of third-party code running on user's Browsers,
 we did not expect it would be so hard to control the network behaviour of web code.
