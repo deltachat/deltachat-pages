@@ -130,24 +130,25 @@ so that webxdc apps can not leak data anymore via DNS-prefetch.
 
 ## Audit results of Delta Chat's ability to run web apps safely (webxdc)
 
+<img src="../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg" width="270" style="float:right; margin-left:1em;" />
 [The Cure53 security audit about webxdc apps](https://public.opentech.fund/documents/XDC-01-report_2_1.pdf) 
 identified five "high" and two "info" severity issues with our February releases.
 Here we provide a summary of the issues and links to our fixes:
 
-- (high) XDC-01: Data exfiltration via DNS-prefetch on Desktop
-  The merged https://github.com/deltachat/deltachat-desktop/pull/3179
-  **now generally blocks DNS requests** in the Electron renderer process,
+- (high) XDC-01: Data exfiltration via DNS-prefetch on Desktop;
+  [deltachat-desktop #3179 now generally blocks DNS requests](https://github.com/deltachat/deltachat-desktop/pull/3179)
+  in the Electron renderer process,
   only allowing requests for `*.mapbox.com` (needed for the opt-in
   experimental location streaming). Together with our DISABLE-WEBRTC
   fixes this makes for a hardened Delta Chat Desktop Electron app
   because no JavaScript rendering code can perform or cause any networking
   other than through our Rust-implemented Delta Chat core library.
 
-- (high) XDC-02: Full CSP-bypass for `webxdc.js` on Desktop
+- (high) XDC-02: Full CSP-bypass for `webxdc.js` on Desktop;
   fixed by [deltachat-desktop #3157](https://github.com/deltachat/deltachat-desktop/pull/3157)
   (see the `webxdc.ts` file).
 
-- (high) XDC-03: Data Exfiltration via DNS Lookup on Android
+- (high) XDC-03: Data Exfiltration via DNS Lookup on Android;
   This by far was the hardest issue because of a variety of
   Chromium versions on Android phones and problems reliably reproducing the problem.
   We were able to fix the problem on all devices where the XDC-03 exploit previously worked
