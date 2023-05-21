@@ -1,31 +1,30 @@
 # documentation: https://github.com/deltachat/sysadmin/tree/master/delta.chat
 name: Delete Preview Deliverables
 
-on: 
+on:
   pull_request:
     types: [closed]
     paths-ignore:
-      - 'docs/**'  # only trigger build if a file outside of /docs was changed
+      - "docs/**" # only trigger build if a file outside of /docs was changed
 
 jobs:
   delete:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Get Pullrequest ID
-      id: getid
-      run: |
-        export PULLREQUEST_ID=$(jq .number < $GITHUB_EVENT_PATH)
-        echo ::set-output name=prid::$PULLREQUEST_ID
-    - name: Renaming
-      run: |
-        mkdir ${{ steps.getid.outputs.prid }}
-        # create empty file to copy it over the outdated deliverable on download.delta.chat
-        echo "This preview is outdated and has been removed." > ${{ steps.getid.outputs.prid }}/index.html
-    - name: Replace build with error message
-      run: |
-        mkdir -p "$HOME/.ssh"
-        echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
-        chmod 600 "$HOME/.ssh/key"
-        rsync --delete -vhr -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/staging/${{ steps.prepare.outputs.prid }}/"
+      - name: Get Pullrequest ID
+        id: getid
+        run: |
+          export PULLREQUEST_ID=$(jq .number < $GITHUB_EVENT_PATH)
+          echo ::set-output name=prid::$PULLREQUEST_ID
+      - name: Renaming
+        run: |
+          mkdir ${{ steps.getid.outputs.prid }}
+          # create empty file to copy it over the outdated deliverable on download.delta.chat
+          echo "This preview is outdated and has been removed." > ${{ steps.getid.outputs.prid }}/index.html
+      - name: Replace build with error message
+        run: |
+          mkdir -p "$HOME/.ssh"
+          echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
+          chmod 600 "$HOME/.ssh/key"
+          rsync --delete -vhr -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/staging/${{ steps.prepare.outputs.prid }}/"

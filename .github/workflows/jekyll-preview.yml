@@ -4,60 +4,59 @@ on: [pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Get Pullrequest ID
-      id: prepare
-      run: |
-        export PULLREQUEST_ID=$(echo "${{ github.ref }}" | cut -d "/" -f3)
-        echo ::set-output name=prid::$PULLREQUEST_ID
-        if [ $(expr length "${{ secrets.USERNAME }}") -gt "1" ]; then echo ::set-output name=uploadtoserver::true ;fi
-    - name: Install Bundler
-      run: sudo gem install bundler
-    - name: Cache bundle
-      uses: actions/cache@v3
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-    - name: Install Jekyll
-      run: bundle install
-    - name: Build the site with Jekyll
-      run: |
-        bundle exec jekyll build --future --baseurl "/${{ steps.prepare.outputs.prid }}"
-        mkdir ${{ steps.prepare.outputs.prid }}
+      - uses: actions/checkout@v3
+      - name: Get Pullrequest ID
+        id: prepare
+        run: |
+          export PULLREQUEST_ID=$(echo "${{ github.ref }}" | cut -d "/" -f3)
+          echo ::set-output name=prid::$PULLREQUEST_ID
+          if [ $(expr length "${{ secrets.USERNAME }}") -gt "1" ]; then echo ::set-output name=uploadtoserver::true ;fi
+      - name: Install Bundler
+        run: sudo gem install bundler
+      - name: Cache bundle
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Install Jekyll
+        run: bundle install
+      - name: Build the site with Jekyll
+        run: |
+          bundle exec jekyll build --future --baseurl "/${{ steps.prepare.outputs.prid }}"
+          mkdir ${{ steps.prepare.outputs.prid }}
 
-    - name: Upload preview
-      run: |
-        mkdir -p "$HOME/.ssh"
-        echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
-        chmod 600 "$HOME/.ssh/key"
-        rsync -avzh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/staging/${{ steps.prepare.outputs.prid }}/"
+      - name: Upload preview
+        run: |
+          mkdir -p "$HOME/.ssh"
+          echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
+          chmod 600 "$HOME/.ssh/key"
+          rsync -avzh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/staging/${{ steps.prepare.outputs.prid }}/"
 
-    - name: "Post links to details"
-      id: details
-      if: steps.prepare.outputs.uploadtoserver
-      run: |
-        # URLs for API connection and uploads
-        export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.after }}"
-        export PREVIEW_LINK="https://staging.delta.chat/${{ steps.prepare.outputs.prid }}/en/"
-        # Post AppImage download link to check details
-        export STATUS_DATA="{\"state\": \"success\", \
-                             \"description\": \"Preview the page here:\", \
-                             \"context\": \"Page Preview\", \
-                             \"target_url\": \"${PREVIEW_LINK}\"}"
-        curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA" | jq -r .message
-    - name: "Post link to comments"
-      uses: actions/github-script@v6
-      with:
-        script: |
-          github.rest.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: "Check out the page preview at https://staging.delta.chat/${{ steps.prepare.outputs.prid }}/en/"
-          })
+      - name: "Post links to details"
+        id: details
+        if: steps.prepare.outputs.uploadtoserver
+        run: |
+          # URLs for API connection and uploads
+          export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.after }}"
+          export PREVIEW_LINK="https://staging.delta.chat/${{ steps.prepare.outputs.prid }}/en/"
+          # Post AppImage download link to check details
+          export STATUS_DATA="{\"state\": \"success\", \
+                               \"description\": \"Preview the page here:\", \
+                               \"context\": \"Page Preview\", \
+                               \"target_url\": \"${PREVIEW_LINK}\"}"
+          curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA" | jq -r .message
+      - name: "Post link to comments"
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "Check out the page preview at https://staging.delta.chat/${{ steps.prepare.outputs.prid }}/en/"
+            })
