@@ -17,6 +17,7 @@ _A notification from a parcel service?_
 _An invitation?_
 
 <img src="../assets/blog/2021-05-html-mail.jpg" width="250" style="float: right; clear:both; margin-left:.1em; margin-bottom:.2em;" alt="Screenshot with &quot;Show classic e-mails&quot; option" />
+
 All these messages may come as **rich-formatted HTML-mails**,
 that are now displayed nicely directly inside Delta Chat 1.20.
 
