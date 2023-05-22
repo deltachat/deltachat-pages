@@ -4,8 +4,8 @@ author: holga
 image: ../assets/blog/2023-05-20-fourth-security-audit.png
 ---
 
-Delta Chat's ["web apps shared in a chat" (webxdc)](https://delta.chat/en/2022-06-14-webxdcintro) 
-feature comes with unique privacy promise but in January was shown to be broken. 
+Delta Chat's ["web apps shared in a chat"](https://delta.chat/en/2022-06-14-webxdcintro) 
+come with a unique privacy promise but in January it was shown to be compromised. 
 We got into a surprising struggle with Web browser sandboxing issues
 that took us several months to come out ahead of. 
 
@@ -57,7 +57,7 @@ We convened a "DISABLE-WEBRTC" working group from our team and befriended expert
 to iteratively implement and develop mitigations to enforce network-isolation of webviews,
 both for Chromium and Webkit/iOS. 
 Not even all Delta Chat contributors knew of the massive work
-taking place behind the scenes and only appearing in various PRs
+taking place behind the scenes and only surfacing in various PRs
 in public repositories.
 
 
@@ -103,12 +103,12 @@ If anyone has a better fix for preventing `RTCPeerConnections`, please come forw
 
 ## Disabling WebRTC worked in February on all platforms but ...
 
-FILL500 is used [on Android](https://github.com/deltachat/deltachat-android/blob/605008074ec122b196e65e86e7c6c9ae9789d068/res/raw/webxdc_wrapper.html#L63-L65) and [Electron-based Desktop](https://github.com/deltachat/deltachat-desktop/blob/4e40c4304b2e41ede7ec896f9ce28fd7552fbf1f/static/webxdc-preload.js#L91-L104) For webkit/iOS (used by Safari), DISABLE-WEBRTC mitigations [work differently](https://github.com/deltachat/deltachat-ios/blob/59ce95cf7e02e3c4799aea2ca1bfed1087506928/deltachat-ios/Controller/WebxdcViewController.swift#L135-L144).  For Webkit, the `RTCPeerConnection` object is removed from JavaScript namespaces such that web apps can not instantiate `RTCPeerConnections` at all.  The mitigation consisted in a just a few lines of code when creating the web view.
+FILL500 is used [on Android](https://github.com/deltachat/deltachat-android/blob/605008074ec122b196e65e86e7c6c9ae9789d068/res/raw/webxdc_wrapper.html#L63-L65) and [Electron-based Desktop](https://github.com/deltachat/deltachat-desktop/blob/4e40c4304b2e41ede7ec896f9ce28fd7552fbf1f/static/webxdc-preload.js#L91-L104) For webkit/iOS (used by Safari), DISABLE-WEBRTC mitigations [work differently](https://github.com/deltachat/deltachat-ios/blob/59ce95cf7e02e3c4799aea2ca1bfed1087506928/deltachat-ios/Controller/WebxdcViewController.swift#L135-L144): the `RTCPeerConnection` object is removed from JavaScript namespaces such that web apps can not get a reference to `RTCPeerConnection` objects at all. The mitigation consisted in a just a few lines of code when creating the web view.
 Beginning February 2023 Delta Chat apps on all platforms
 were released containing the various DISABLE-WEBRTC mitigations.
 
 Meanwhile [OpenTechFund](https://www.opentech.fund/) had thankfully agreed to
-contract a security audit by [Cure53](https://cure53.de)
+contract [Cure53](https://cure53.de)
 to perform a thorough security audit of our mitigations
 and of webxdc security and privacy promises in general.
 No compromise against our Disable-WebRTC mitigations was found
