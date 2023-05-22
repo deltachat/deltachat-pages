@@ -23,6 +23,15 @@ How to create a new blog post
 - Write your blog post to the file and do not forget 
   to add or modify the `title:` and `author:` line atop it.
 
+- **images up to a width of ~400px**
+  can be added with `<img style="float: left" ...>` or `<img style="float: left" ...>` -
+  on small mobile screens, where floating is barely possible, these images will get their own paragraph
+  in case you add an **empty line** after the images (also see existing blog posts as a pattern)
+
+- for **larger images** or if you do not want floating,
+  omit the floating rule and just use `<img ...>` followed by an **empty line**;
+  these images always get their own paragraph then
+
 - That's all, the result goes to https://delta.chat/en/blog , and the
   [RSS-Feed](https://delta.chat/feed.xml).
 
