@@ -746,8 +746,7 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ### Was Delta Chat independently audited for security vulnerabilities?
 
-The Delta Chat project underwent three independent security audits in the last
-years:
+The Delta Chat project underwent four independent security audits in the last years:
 
 - In 2019, [Include Security](https://includesecurity.com) analyzed Delta
   Chat's [PGP](https://github.com/rpgp/rpgp) and
@@ -778,6 +777,13 @@ years:
   [recommended on this site](serverguide).
   You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   or read the [full report here](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all found issues were fixed in the 1.36 app series released in April 2023. 
+  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
 
 ### How are Delta Chat developments funded? 
 
