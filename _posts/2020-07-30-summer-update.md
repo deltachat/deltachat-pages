@@ -40,6 +40,7 @@ together with different user groups and testers,
 and driven by UX-research and interviews.
 
 <img src="../assets/blog/2020-07-scan-videochat-provider.jpg" width="320" style="float:right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
+
 So - it is **up to the user to decide which video chat provider to use.**
 
 - They can enter it in the **settings**
@@ -53,6 +54,7 @@ The user can use every instance that contains the room-name in the URL, which in
 services as jitsi, talky.io, appear.in and many more.
 
 <img src="../assets/blog/2020-07-videochat-invite2.png" width="220" style="float:right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="" />
+
 We believe in widely decentralizing the video chat services
 is a good idea for overall privacy.
 Enabling the user to use any existing instance or hosting their own helps a lot for this approach.
@@ -81,6 +83,7 @@ Another new feature in all recent Delta Chat versions on all platforms are the s
 _Disappearing messages_, similar to the Signal messenger offering.  
 
 <img src="../assets/blog/2020-07-disappearing-options.png" width="250" style="float:left; clear:both; margin-right:1em; margin-bottom:.2em;" alt="" />
+
 Once the feature is enabled in the settings,
 any user can decide to see all subsequent messages disappearing.
 

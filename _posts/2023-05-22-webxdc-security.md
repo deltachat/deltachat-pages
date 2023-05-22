@@ -193,6 +193,7 @@ we did not expect it would be so hard to control the network behaviour of web co
 ### Browsers: please implement the W3C "WEBRTC: block" directive
 
 <img src="../assets/logos/w3c_home.svg" width="170" style="float:left ; margin-right:0.5em;" />
+
 Platforms serving web pages or apps need to trust their complete
 supply chain of JavaScript dependencies if they don't want
 users of their offerings to leak app data through WebRTC.
