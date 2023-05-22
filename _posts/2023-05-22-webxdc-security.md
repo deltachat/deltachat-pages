@@ -14,7 +14,7 @@ the security-hardened Delta Chat 1.36 release series in April 2023.
 
 ## The unique privacy promise of web apps without tracking or platforms 
 
-<img src="../assets/logos/webxdc2.png" width="150" style="float:left; margin-right:1em;" />
+<img src="../assets/logos/webxdc2.png" width="140" style="float:left; margin-right:1em;" />
 Unlike Telegram with its Bots or WeChat with its MiniApps, 
 Delta Chat allows anyone to create and share web apps in a chat 
 while maintaining **the industries strongest privacy promise:**
@@ -52,7 +52,7 @@ which allow P2P communications for video or data transfers.
 Our privacy promise was broken and an example exploit showcased it. 
 
 
-<img src="../assets/blog/2023-05-20-fourth-security-audit.png" width="185" style="float:left; margin-right:1em;" />
+<img src="../assets/blog/2023-05-20-fourth-security-audit.png" width="140" style="float:left; margin-right:1em;" />
 We convened a "DISABLE-WEBRTC" working group from our team and befriended experts
 to iteratively implement and develop mitigations to enforce network-isolation of webviews,
 both for Chromium and Webkit/iOS. 
@@ -118,7 +118,7 @@ but it unfortunately wasn't the end of an already exhausting story ...
 
 ## DNS-prefetching marks another exploit 
 
-<img src="../assets/blog/2023-05-20-chrome-sandbox.png" width="240" style="float:right; margin-left:1em;" />
+<img src="../assets/blog/2023-05-20-chrome-sandbox.png" width="140" style="float:right; margin-left:1em;" />
 Security auditors from Cure53 found another issue
 which sent us back to the drawing board and lots of head scratching:
 Chromium performs "DNS-prefetching" which aims to speed up browsing experiences
@@ -136,7 +136,7 @@ so that webxdc apps can not leak data anymore via DNS-prefetch.
 
 ## Addressing the 4th security audit for running web apps safely 
 
-<img src="../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg" width="260" style="float:right; margin-left:1em;" />
+<img src="../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg" width="140" style="float:right; margin-left:1em;" />
 [The Cure53 security audit about webxdc apps](https://public.opentech.fund/documents/XDC-01-report_2_1.pdf) 
 identified five "high" and two "info" severity issues with our February releases.
 Here we provide a summary of the issues and links to our fixes:
