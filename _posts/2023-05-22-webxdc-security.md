@@ -2,6 +2,7 @@
 title: "Bringing E2E privacy to the Web: 4th security audit 😅"
 author: holga
 image: ../assets/blog/2023-05-20-fourth-security-audit.png
+com_id: 110412649302291193
 ---
 
 Delta Chat's ["web apps shared in a chat"](https://delta.chat/en/2022-06-14-webxdcintro) 
