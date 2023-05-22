@@ -103,19 +103,20 @@ If anyone has a better fix for preventing `RTCPeerConnections`, please come forw
 
 ## Disabling WebRTC worked in February on all platforms but ...
 
-FILL500 is used [on Android](https://github.com/deltachat/deltachat-android/blob/605008074ec122b196e65e86e7c6c9ae9789d068/res/raw/webxdc_wrapper.html#L63-L65) and [Electron-based Desktop](https://github.com/deltachat/deltachat-desktop/blob/4e40c4304b2e41ede7ec896f9ce28fd7552fbf1f/static/webxdc-preload.js#L91-L104) For webkit/iOS (used by Safari), DISABLE-WEBRTC mitigations [work differently](https://github.com/deltachat/deltachat-ios/blob/59ce95cf7e02e3c4799aea2ca1bfed1087506928/deltachat-ios/Controller/WebxdcViewController.swift#L135-L144): the `RTCPeerConnection` object is removed from JavaScript namespaces such that web apps can not get a reference to `RTCPeerConnection` objects at all. The mitigation consisted in a just a few lines of code when creating the web view.
+FILL500 is used [on Android](https://github.com/deltachat/deltachat-android/blob/605008074ec122b196e65e86e7c6c9ae9789d068/res/raw/webxdc_wrapper.html#L63-L65) and [Electron-based Desktop](https://github.com/deltachat/deltachat-desktop/blob/4e40c4304b2e41ede7ec896f9ce28fd7552fbf1f/static/webxdc-preload.js#L91-L104). For webkit/iOS (used by Safari), DISABLE-WEBRTC mitigations [work differently](https://github.com/deltachat/deltachat-ios/blob/59ce95cf7e02e3c4799aea2ca1bfed1087506928/deltachat-ios/Controller/WebxdcViewController.swift#L135-L144): the `RTCPeerConnection` object is removed from JavaScript namespaces such that web apps can not get a reference to `RTCPeerConnection` objects at all. The mitigation consisted in a just a few lines of code when creating the web view.
+
 Beginning February 2023 Delta Chat apps on all platforms
-were released containing the various DISABLE-WEBRTC mitigations.
+were released containing DISABLE-WEBRTC mitigations.
 
 Meanwhile [OpenTechFund](https://www.opentech.fund/) had thankfully agreed to
 contract [Cure53](https://cure53.de)
 to perform a thorough security audit of our mitigations
 and of webxdc security and privacy promises in general.
 No compromise against our Disable-WebRTC mitigations was found
-but it wasn't the end of an already exhausting story ... 
+but it unfortunately wasn't the end of an already exhausting story ... 
 
 
-## DNS-prefetching marks another major exploit found by Cure53
+## DNS-prefetching marks another exploit 
 
 <img src="../assets/blog/2023-05-20-chrome-sandbox.png" width="240" style="float:right; margin-left:1em;" />
 Security auditors from Cure53 found another issue
@@ -126,15 +127,14 @@ or the page requests a resource.
 Auditors provided two exploits for Desktop and Android respectively
 which could exfiltrate data from web apps via Chromium's DNS-prefetch feature.
 Unfortunately, the official suggestion for
-[disabling DNS-prefetch on Chromium](https://www.chromium.org/developers/design-documents/dns-prefetching/#dns-prefetch-control) does not work. We even found in Chromiums source code
+[disabling DNS-prefetch on Chromium](https://www.chromium.org/developers/design-documents/dns-prefetching/#dns-prefetch-control) does not work. We found in Chromiums source code
 [tests that dns-prefetch "off" settings can be manually overriden](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/web_tests/http/tests/misc/dns-prefetch-control.html;l=51?q=dns-prefetch). 
 
 To cut another longer story short here, we'll found working mitigations (see next section)
 so that webxdc apps can not leak data anymore via DNS-prefetch.
 
 
-
-## Audit results of Delta Chat's ability to run web apps safely (webxdc)
+## Addressing the 4th security audit for running web apps safely 
 
 <img src="../assets/blog/2022-07-14-microscope-delta-chat-security-audit.jpg" width="260" style="float:right; margin-left:1em;" />
 [The Cure53 security audit about webxdc apps](https://public.opentech.fund/documents/XDC-01-report_2_1.pdf) 
@@ -224,7 +224,7 @@ because otherwise you might leak your actual IP address to malicious web sites
 that try to identify VPN users.
 
 
-### Maybe using Firefox engines would help? 
+### Maybe using Firefox engines would help us? 
 
 <img src="../assets/blog/2023-05-20-allchrome.png" width="270" style="float:right; margin-left:1em;" />
 Delta Chat apps do not use Firefox webviews which can be directly configured
@@ -248,7 +248,13 @@ we were sad to see Mozilla let go of their [Servo](https://servo.org/) team.
 But recently [Servo is picking up steam again](https://servo.org/blog/2023/02/03/servo-2023-roadmap/) 
 and [Igalia wants to help revive Servo](https://people.igalia.com/mrego/servo/igalia-servo-tsc-2022/). 
 Maybe it becomes feasible to integrate Servo at some point? 
+
 For sure, [webxdc apps](https://webxdc.org) are a young feature
-which we want to further evolve in 2023, exploring and creating realities 
+which we are to further evolve in 2023, exploring and creating realities 
 where open web technology integrates with E2E messaging instead of 
 today's centralized platforms. 
+
+We have been doing many hundreds of unpaid hours of hard security work 
+and generally work with orders of magnitude less funding than other messengers. 
+Please see our [donate page](https://delta.chat/en/donate) 
+if you want to support us or get involved. Thanks!
