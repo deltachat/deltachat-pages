@@ -88,7 +88,7 @@ Now, let us explain _why_ it works:
   so the counter is never decremented while the page is open.
 
 - There is no way for user code to get at "dropped" `RTCPeerConnection` objects
-  but they are are also not garbage-collected.
+  but they are also not garbage-collected.
   They are pretty much useless which is precisely the point. 
 
 Special care still needed to be taken that neither navigation or iframe-constructions
