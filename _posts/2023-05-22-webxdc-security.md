@@ -250,11 +250,9 @@ and [Igalia wants to help revive Servo](https://people.igalia.com/mrego/servo/ig
 Maybe it becomes feasible to integrate Servo at some point? 
 
 For sure, [webxdc apps](https://webxdc.org) are a young feature
-which we are to further evolve in 2023, exploring and creating realities 
+which we want to further evolve in 2023, exploring and creating realities 
 where open web technology integrates with E2E messaging instead of 
-today's centralized platforms. 
-
-We have been doing many hundreds of unpaid hours of hard security work 
-and generally work with orders of magnitude less funding than other messengers. 
+today's centralized platforms.  We are however operating with orders of
+magnitude less funding than the messengers users compare us against. 
 Please see our [donate page](https://delta.chat/en/donate) 
-if you want to support us or get involved. Thanks!
+if you can support us or want to get involved. Thanks!
