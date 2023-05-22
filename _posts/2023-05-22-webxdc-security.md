@@ -252,7 +252,5 @@ Maybe it becomes feasible to integrate Servo at some point?
 For sure, [webxdc apps](https://webxdc.org) are a young feature
 which we want to further evolve in 2023, exploring and creating realities 
 where open web technology integrates with E2E messaging instead of 
-today's centralized platforms.  We are however operating with orders of
-magnitude less funding than the messengers users compare us against. 
-Please see our [donate page](https://delta.chat/en/donate) 
+today's centralized platforms. Please see our [donate page](https://delta.chat/en/donate) 
 if you can support us or want to get involved. Thanks!
