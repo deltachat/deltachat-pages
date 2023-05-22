@@ -227,6 +227,7 @@ that try to identify VPN users.
 ### Maybe using Firefox engines would help us? 
 
 <img src="../assets/blog/2023-05-20-allchrome.png" width="270" style="float:right; margin-left:0.5em;" />
+
 Delta Chat apps do not use Firefox webviews which can be directly configured
 to disable WebRTC, by setting `media.peerconnection.enabled = false` in `about:config`.
 Firefox can do DNS-prefetching but it thankfully again appears like 
