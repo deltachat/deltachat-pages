@@ -14,7 +14,7 @@ the security-hardened Delta Chat 1.36 release series in April 2023.
 
 ## The unique privacy promise of web apps without tracking or platforms 
 
-<img src="../assets/logos/webxdc2.png" width="140" style="float:left; margin-right:0.5em;" />
+<img src="../assets/logos/webxdc2.png" width="110" style="float:left; margin-right:5px;" />
 Unlike Telegram with its Bots or WeChat with its MiniApps, 
 Delta Chat allows anyone to create and share web apps in a chat 
 while maintaining **the industries strongest privacy promise:**
