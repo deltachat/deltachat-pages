@@ -226,17 +226,20 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
 
 ### What happens if I turn on "Delete old messages from server"?
 
-- By default, Delta Chat stores all messages locally on your device. If you
-  e.g. want to save storage space at your mail provider, you can choose to
-  delete old messages automatically. They still remain on your device until you
-  delete them there, too.
-- To turn it on, go to "delete old messages from server" in the "Chats & Media"
-  settings. You can set a timeframe between "at once" and "after a year"; this
-  way, *all* e-mails will be deleted from the server after that timeframe. 
-- Note that if you use Delta Chat on more than one device, you should leave the
-  messages on the server, until the other device could download them, too. In
-  this case, you should set auto-delete to "after a day" or something similar,
-  depending on how often you turn on the other device.
+- By default, Delta Chat stores all messages locally on your device.
+  If you  e.g. want to save storage space at your mail provider,
+  you can configure  Delta Chat
+  to delete old already-received messages on the server automatically.
+  They still remain on your device until you delete them there, too.
+
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
+  in the "Chats and Media" settings.
+  You can set a timeframe between "At once" and "After 1 year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+
+- Note that if you use Delta Chat on more than one device,
+  you need to leave the message on the server with a sufficient timeframe
+  so that the other device(s) can download them, too.
 
 
 ### What happens if I turn on "Delete old messages from device"? {#delold}
@@ -745,8 +748,7 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ### Was Delta Chat independently audited for security vulnerabilities?
 
-The Delta Chat project underwent three independent security audits in the last
-years:
+The Delta Chat project underwent four independent security audits in the last years:
 
 - In 2019, [Include Security](https://includesecurity.com) analyzed Delta
   Chat's [PGP](https://github.com/rpgp/rpgp) and
@@ -777,6 +779,13 @@ years:
   [recommended on this site](serverguide).
   You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   or read the [full report here](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
+  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
 
 ### Как финансируются разработки Delta Chat?
 

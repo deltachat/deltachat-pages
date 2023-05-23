@@ -204,7 +204,12 @@ qu'un humain a lu ou compris le message ;)
 ### Que se passe-t-il si j'active l'option "Supprimer les anciens messages sur le serveur" ?
 
 - Par défaut, Delta Chat stocke tous les messages sur votre appareil. Vous pouvez donc choisir de supprimer les anciens messages automatiquement pour libérer de l'espace de stockage chez votre fournisseur de courriel. Ces messages seront conservés localement jusqu'à ce que vous les supprimiez aussi de votre appareil.
-- Pour activer cette option, ouvrez les paramètres des "Discussions et fichiers multimédias" et cliquez sur "Supprimer les anciens messages sur le serveur". Vous pouvez définir le délai après lequel *tous* les messages seront supprimés du serveur, parmi plusieurs choix allant de "Immédiatement" à "Après 1 année".
+
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
+  in the "Chats and Media" settings.
+  You can set a timeframe between "At once" and "After 1 year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+
 - Attention : si vous utilisez Delta Chat sur plusieurs appareils, laissez les messages sur le serveur jusqu'à ce que l'(es) autre(s) appareil(s) ai(en)t pu les télécharger aussi. Dans ce cas, nous vous conseillons de paramétrer la suppression automatique sur "Après 1 jour" ou plus, en fonction de la fréquence à laquelle vous vous servez de ces autres appareils.
 
 
@@ -350,46 +355,44 @@ Oui. Delta Chat 1.36 propose une nouvelle fonctionnalité expérimentale pour ut
 
 - Sur le deuxième appareil, [installez Delta Chat](https://get.delta.chat).
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- Sur le deuxième appareil, ouvrez Delta Chat, sélectionnez **Ajouter comme deuxième appareil**, et scannez le code QR du premier appareil.
 
-- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
-  Wait until it is finished on both devices.
+- Le transfert devrait commencer quelques secondes après et, pendant l'opération, les deux appareils affichent l'**état d'avancement**.
+  Patientez jusqu'à ce que le transfert soit terminé sur les deux appareils.
 
-In contrast to many other messengers, after successful transfer,
-both **devices are completely independent.**
-One device is not needed for the other to work.
-
-
-### Troubleshooting
-
-- Double-check both devices are in the **same Wi-Fi or network**
-
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
-
-- Ensure there is **enough storage** on the destination device
-
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
-
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple accounts per device, just [add another account](#multiple-accounts)
-
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+Contrairement à de nombreuses autres messageries, une fois le transfert terminé, les deux **appareils sont complètement indépendants**.
+L'un n'a pas besoin de l'autre pour pouvoir fonctionner.
 
 
-### Manual Transfer
+### Dépannage
 
-This method is only recommended if "Add Second Device" as described above does not work.
+- Vérifier à nouveau que les deux appareils sont sur **le même réseau ou le même Wi-Fi**.
 
-- Sur l'ancien appareil, allez dans “Paramètres -> Discussions et fichiers multimédia -> Exporter une sauvegarde". Entrez votre PIN, schéma ou mot de passe de déverrouillage, puis cliquez sur "Commencer la sauvegarde" pour enregistrer le fichier de sauvegarde sur votre appareil.
+- Il se peut que votre système dispose d'un "pare-feu personnalisé",
+  source bien connue de dysfonctionnements (en particulier sur Windows).
+  **Désactivez le pare-feu personnalisé** sur chaque appareil pour Delta Chat et réessayez.
+
+- Assurez-vous de disposer d'un **espace de stockage suffisant** sur l'appareil de destination.
+
+- Une fois que le transfert a commencé, assurez-vous que les appareils **restent actifs** et ne se mettent pas en veille.
+  Ne quittez pas Delta Chat !
+  (Nous faisons de notre mieux pour que l'application fonctionne en arrière-plan, mais les [systèmes ont une fâcheuse tendance à tuer les applis](https://dontkillmyapp.com).)
+
+- Delta Chat est **déjà connecté** sur l'appareil de destination.
+  Vous pouvez utiliser plusieurs comptes sur tous vos appareils : [ajoutez un nouveau compte](#multiple-accounts).
+
+- Si les problèmes persistent, ou si vous **ne pouvez pas scanner de code QR**,  essayez la méthode de **transfert manuel** décrite ci-dessous.
+
+
+### Transfert manuel
+
+Recourez à cette méthode uniquement si les instructions ci-dessus pour "Ajouter un deuxième appareil" ont échoué.
+
+- Sur le premier appareil, allez dans “Paramètres -> Discussions et fichiers multimédia -> Exporter une sauvegarde". Entrez votre PIN, schéma ou mot de passe de déverrouillage, puis cliquez sur "Commencer la sauvegarde" pour enregistrer le fichier de sauvegarde sur votre appareil.
 Ensuite, transférez-le sur l'autre appareil de la manière que vous préférez.
-- Dans la fenêtre de connexion du nouvel appareil, sélectionnez "Importer la sauvegarde" au lieu de vous connecter avec votre compte courriel. L'importation terminée, vos discussions, clés de chiffrement, ainsi que vos fichiers multimédias devraient tous être copiés sur le nouvel appareil.
+- Dans la fenêtre de connexion du deuxième appareil, sélectionnez "Importer la sauvegarde" au lieu de vous connecter avec votre compte courriel. L'importation terminée, vos discussions, clés de chiffrement, ainsi que vos fichiers multimédias devraient tous être copiés sur le nouvel appareil.
 - **Si vous utilisez iOS ** et rencontrez des difficultés, [ce guide](https://support.delta.chat/t/import-backup-to-ios/1628) vous sera certainement utile.
-- Votre compte est synchronisé, et vous pouvez utiliser vos deux appareils dès maintenant pour échanger des messages chiffrés de bout en bout avec vos interlocuteurs.
+- Votre compte est synchronisé et vous pouvez utiliser vos deux appareils dès maintenant pour échanger des messages chiffrés de bout en bout avec vos contacts.
 
 ### Le lancement d'un client Web Delta Chat est-il prévu ?
 
@@ -423,12 +426,10 @@ Sinon, la suppression de messages dans une configuration multi-appareils pourrai
 
 ## Applications privées / webxdc {#webxdc}
 
-In Delta Chat, you can share "private apps", attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger. The technical term is [webxdc](https://webxdc.org).
+Dans Delta Chat, vous pouvez partager des "applications privées" : ce sont des pièces jointes avec une extension de fichier `.xdc`. Elles possèdent des fonctionnalités très variées et peuvent faire de Delta Chat une messagerie vraiment extensible. En jargon technique, on parle de [webxdc](https://webxdc.org).
 
 
-### How private are private apps?
+### Dans quelle mesure les applications privées sont-elles privées ?
 
 - Private apps can not send data to the Internet, or download anything.
 - A private app can only exchange data within a Delta Chat chat, with its
@@ -617,8 +618,7 @@ Pour plus d'informations, voir [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 ### Was Delta Chat independently audited for security vulnerabilities?
 
-The Delta Chat project underwent three independent security audits in the last
-years:
+The Delta Chat project underwent four independent security audits in the last years:
 
 - In 2019, [Include Security](https://includesecurity.com) analyzed Delta
   Chat's [PGP](https://github.com/rpgp/rpgp) and
@@ -649,6 +649,13 @@ years:
   [recommended on this site](serverguide).
   You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   or read the [full report here](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
+  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
 
 ### Comment est financé le développement de Delta Chat?
 
