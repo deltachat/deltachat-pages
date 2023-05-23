@@ -53,6 +53,7 @@ jobs:
           export RESPONSE=$(curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA" | jq -r .message)
           echo $RESPONSE
           if [ "$RESPONSE" == "Not Found" ]; then echo ::set-output name=comment::true ;fi
+          if [ "$RESPONSE" == "null" ]; then echo ::set-output name=comment::true ;fi
       - name: "Post link to comments"
         if: steps.details.outputs.comment
         uses: actions/github-script@v6
