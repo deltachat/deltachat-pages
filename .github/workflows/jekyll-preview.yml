@@ -54,9 +54,9 @@ jobs:
           echo $RESPONSE
           export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/issues/${{ steps.prepare.outputs.prid }}/comments"
           export RESPONSE=$(curl -L --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28")
-          echo $RESPONSE
-          if [ "$RESPONSE" == "Not Found" ]; then echo ::set-output name=comment::true ;fi
-          if [ "$RESPONSE" == "null" ]; then echo ::set-output name=comment::true ;fi
+          echo $RESPONSE > result
+          grep '"Check out the page preview at https://staging.delta.chat/' result && 
+          if [ ! grep '"Check out the page preview at https://staging.delta.chat/' result ]; then echo ::set-output name=comment::true ;fi
       - name: "Post link to comments"
         if: steps.details.outputs.comment
         uses: actions/github-script@v6
