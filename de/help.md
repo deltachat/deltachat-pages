@@ -182,9 +182,14 @@ Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gr
 
 ### Was passiert, wenn ich "Alte Nachrichten vom Server löschen" aktiviere?
 
-- Standardmäßig speichert Delta Chat alle Nachrichten lokal auf Ihrem Gerät. Wenn Sie z. B. Speicherplatz bei Ihrem E-Mail-Anbieter sparen möchten, können Sie alte Nachrichten automatisch löschen lassen. Sie verbleiben weiterhin auf Ihrem Gerät, bis Sie sie auch dort löschen.
-- Um es zu aktivieren, gehen Sie in den "Chats und Medien"-Einstellungen zu "Alte Nachrichten vom Server löschen". Sie können einen Zeitraum zwischen "sofort" und "nach 1 Jahr" festlegen; auf diese Weise werden *alle* E-Mails nach diesem Zeitraum vom Server gelöscht.
-- Beachten Sie, dass Sie, wenn Sie Delta Chat auf mehr als einem Gerät verwenden, die Nachrichten auf dem Server belassen sollten, bis das andere Gerät sie ebenfalls herunterladen kann. In diesem Fall sollten Sie das automatische Löschen auf "nach 1 Tag" oder ähnlich einstellen, je nachdem, wie oft Sie das andere Gerät einschalten.
+- Standardmäßig speichert Delta Chat alle Nachrichten lokal auf Ihrem Gerät. Wenn Sie z. B. Speicherplatz bei Ihrem E-Mail-Anbieter sparen möchten, können Sie Delta Chat so konfigurieren, dass alte Nachrichten automatisch vom Server gelöscht werden. Sie verbleiben weiterhin auf Ihrem Gerät, bis Sie sie auch dort löschen.
+
+- Um dies zu aktivieren, können Sie unter  **Alte Nachrichten löschen → Nachrichten vom Server löschen**
+  in the "Chats und Medien"-Einstellungen
+  einen Zeitraum zwischen "Sofort" und "Nach 1 Jahr" festlegen.
+  Alle von Delta Chat empfangenen Nachrichten werden nach diesem Zeitraum vom Server gelöscht.
+
+- Wenn Sie Delta Chat auf mehr als einem Gerät verwenden, beachten Sie, die Nachrichten auf dem Server zu belassen, bis die anderen Geräte sie ebenfalls heruntergeladen haben.
 
 
 ### Was passiert, wenn ich "Alte Nachrichten vom Gerät löschen" aktiviere? {#delold}
@@ -516,7 +521,7 @@ Um mehr über die Details dahinter zu erfahren, [lesen Sie unseren Blogpost dazu
 
 ### Wurde Delta Chat unabhängig auf Sicherheitslücken geprüft?
 
-Das Delta-Chat-Projekt wurde in den letzten Jahren drei unabhängigen Sicherheitsprüfungen unterzogen:
+Das Delta-Chat-Projekt wurde in den letzten Jahren vier unabhängigen Sicherheitsprüfungen unterzogen:
 
 - Im Jahr 2019 analysierte [Include Security](https://includesecurity.com) die von Delta Chat verwendeten [PGP](https://github.com/rpgp/rpgp) und [RSA](https://github.com/RustCrypto/RSA) Bibliotheken.
 Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schweregrad, die wir anschließend behoben haben. Außerdem wurden ein mittelschweres und einige weniger schwerwiegende Probleme gefunden, aber es gab keine Möglichkeit, diese Schwachstellen in der Delta Chat-Implementierung auszunutzen. Einige dieser Schwachstellen haben wir dennoch nach Abschluss des Audits behoben. Sie können den [vollständigen Bericht hier] lesen (../assets/blog/2019-first-security-review.pdf).
@@ -525,6 +530,9 @@ Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schwe
 Es wurden keine kritischen oder hochgradig gefährlichen Probleme gefunden. Der Bericht wies auf einige Schwachstellen mittlerer Schwere hin - sie stellen für sich genommen keine Bedrohung für Delta Chat-Benutzer dar, da sie von der Umgebung abhängen, in der Delta Chat verwendet wird. Aus Gründen der Benutzerfreundlichkeit und der Kompatibilität können wir nicht alle Schwachstellen beseitigen und haben beschlossen, Sicherheitsempfehlungen für bedrohte Benutzer zu geben. Sie können den [vollständigen Bericht hier](../assets/blog/2020-second-security-review.pdf) lesen.
 
 - Anfang 2023 analysierte [Cure53](https://cure53.de) sowohl die Transportverschlüsselung von Delta Chats Netzwerkverbindungen als auch das reproduzierbare Mailserver-Setup wie [auf dieser Seite empfohlen](serverguide). Sie können mehr über das Audit [in unserem Blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) lesen oder Sie lesen den [vollständigen Bericht hier](../assets/blog/MER-01-report.pdf).
+
+- Anfang 2023 haben wir Sicherheits- und Datenschutzprobleme mit den "In Chats geteilten Apps"-Feature behoben, die mit Fehlern beim Sandboxing, insbesondere mit Chromium zusammenhängen. Wir haben daraufhin eine unabhängige Sicherheitsprüfung von Cure53 durchführen lassen, und alle gefundenen Probleme wurden mit den im April 2023 veröffentlichten 1.36 Releases behoben. Siehe [hier für die vollständige Hintergrundgeschichte](https://delta.chat/en/2023-05-22-webxdc-security).
+
 
 ### Wie wird Delta Chat finanziert?
 

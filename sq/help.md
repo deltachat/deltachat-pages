@@ -233,9 +233,12 @@ për çfarëdo mesazhesh të rinj.
   Nëse ju, p.sh., doni të kurseni hapësirë depozitimi në shërbimin tuaj email, mund
   të zgjidhni të fshihen automatikisht mesazhet e vjetër. Mbeten ende në pajisjen tuaj,
   deri sa t’i fshini edhe prej andej.
-- Për ta aktivizuar, kaloni te “fshini nga shërbyesi mesazhe të vjetër”, te rregullimet
-  “Fjalosje dhe Media”. Mund të caktoni një periudhë nga “menjëherë” deri “pas një viti”;
-  kështu, *krejt* email-et do të fshihen nga shërbyesi pas asaj periudhe. 
+
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
+  in the "Chats and Media" settings.
+  You can set a timeframe between "At once" and "After 1 year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+
 - Kini parasysh se, nëse e përdorni Delta Chat-in në më shumë se një pajisje, duhet t’i
   lini mesazhet te shërbyesi, deri sa të mund t’i shkarkojë edhe pajisja tjetër. Në këtë
   rast, duhet që fshirjen e automatizuar ta caktoni si “pas një dite”, ose diçka të tillë,
@@ -763,7 +766,7 @@ në blog për të](https://delta.chat/en/2022-09-14-aeap).
 
 ### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie?
 
-Projekti Delta Chat kaloi tre auditime të pavarura sigurie, në vitet e fundit:
+The Delta Chat project underwent four independent security audits in the last years:
 
 - Më 2019-n, [Include Security](https://includesecurity.com) analizoi libraritë
   [PGP](https://github.com/rpgp/rpgp) dhe
@@ -792,6 +795,13 @@ Projekti Delta Chat kaloi tre auditime të pavarura sigurie, në vitet e fundit:
   shërbyesi poste si [të rekomanduarin në këtë sajt](serverguide).
   Mund të lexoni më tepër rreth auditimit [në blogun tonë](https://delta.chat/en/2023-03-27-third-independent-security-audit),
   ose të lexoni [raportin e plotë këtu](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
+  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
 
 ### Si financohet zhvillimi i Delta Chat-it? 
 

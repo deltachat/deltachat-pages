@@ -190,7 +190,12 @@ aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
 ### Co się stanie, jeśli włączę opcję „Usuń wiadomości z serwera”?
 
 - Domyślnie Delta Chat przechowuje wszystkie wiadomości lokalnie na Twoim urządzeniu. Jeśli np. chcesz zaoszczędzić miejsce u swojego dostawcy poczty, możesz wybrać automatyczne usuwanie starych wiadomości. Pozostają one nadal na Twoim urządzeniu, dopóki nie usuniesz ich również tam.
-- Aby ją włączyć, przejdź do „Usuń wiadomości z serwera” w ustawieniach w sekcji „Czaty i media”. Możesz ustawić przedział czasowy pomiędzy „po 1 godzinie” a „po 1 roku”; w ten sposób *wszystkie* e-maile zostaną usunięte z serwera po upływie tego czasu.
+
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
+  in the "Chats and Media" settings.
+  You can set a timeframe between "At once" and "After 1 year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+
 - Zauważ, że jeśli używasz Delta Chat na więcej niż jednym urządzeniu, powinieneś pozostawić wiadomości na serwerze, do czasu, aż inne urządzenie będzie mogło je pobrać. W tym przypadku należy ustawić automatyczne usuwanie na „po 1 dniu” lub coś podobnego, w zależności od tego, jak często włączasz drugie urządzenie.
 
 
@@ -250,11 +255,11 @@ Jeśli te same odciski palców pojawią się na urządzeniu partnera czatu, poł
 
 ### Jak mogę zapewnić szyfrowanie i usuwanie wiadomości?
 
-Najlepszym sposobem na zapewnienie szyfrowania każdej wiadomości i jak najszybszego usunięcia metadanych jest utworzenie zweryfikowanej grupy i włączenie autodestrukcji wiadomości.
+Najlepszym sposobem na zapewnienie szyfrowania każdej wiadomości i jak najszybszego usunięcia metadanych jest utworzenie zweryfikowanej grupy i włączenie znikających wiadomości.
 
 Zweryfikowane grupy są zawsze szyfrowane i chronione przed [atakami MITM](https://pl.wikipedia.org/wiki/Atak_man_in_the_middle).
 
-Metadanych nie można zaszyfrować, ponieważ serwer musi wiedzieć, gdzie dostarczyć wiadomości. Ale włączenie „autodestrukcji wiadomości” usuwa wiadomości z serwera po ich dostarczeniu.
+Metadanych nie można zaszyfrować, ponieważ serwer musi wiedzieć, gdzie dostarczyć wiadomości. Ale włączenie „znikających wiadomości” usuwa wiadomości z serwera po ich dostarczeniu.
 
 Jeśli potrzebujesz wiadomości na swoim urządzeniu, ale nie na serwerze, możesz również uzgodnić w grupie włączenie  [„automatycznego usuwania wiadomości z serwera”](#delold).
 
@@ -516,13 +521,20 @@ Aby poznać szczegóły, które się za tym kryją, [przeczytaj nasz wpis na blo
 
 ### Czy Delta Chat był niezależnie kontrolowany pod kątem luk w zabezpieczeniach?
 
-Projekt Delta Chat przeszedł w ostatnich latach trzy niezależne audyty bezpieczeństwa:
+The Delta Chat project underwent four independent security audits in the last years:
 
 -W 2019 r. firma [Include Security](https://includesecurity.com) przeanalizowała biblioteki [PGP](https://github.com/rpgp/rpgp) i [RSA](https://github.com/RustCrypto/RSA) Delta Chat. Nie znaleziono żadnych krytycznych problemów, ale dwa poważne problemy, które później naprawiliśmy. Ujawniła również jeden problem o średniej wadze i kilka mniej poważnych, ale nie było możliwości wykorzystania tych luk w implementacji Delta Chat. Niektóre z nich jednak naprawiliśmy od czasu zakończenia kontroli. Pełny raport można przeczytać [tutaj](../assets/blog/2019-first-security-review.pdf).
 
 - W 2020 r. firma [Include Security](https://includesecurity.com) przeanalizowała biblioteki Rust [core](https://github.com/deltachat/deltachat-core-rust/), [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) i [TLS](https://github.com/async-email/async-native-tls) Delta Chat. Nie znalazła żadnych problemów krytycznych ani poważnych. W raporcie zwrócono uwagę na kilka słabych punktów o średniej wadze – same w sobie nie stanowią zagrożenia dla użytkowników Delta Chat, ponieważ zależą od środowiska, w którym używany jest Delta Chat. Ze względu na użyteczność i kompatybilność nie możemy złagodzić wszystkich z nich i zdecydowaliśmy się przedstawić zalecenia dotyczące bezpieczeństwa zagrożonym użytkownikom. Pełny raport można przeczytać [tutaj](../assets/blog/2020-second-security-review.pdf).
 
 - Początkiem 2023 r. firma [Cure53](https://cure53.de) przeanalizował zarówno szyfrowanie transportu połączeń sieciowych Delta Chat, jak i powtarzalną konfigurację serwera pocztowego zgodnie z [zaleceniami na tej stronie](serverguide). Możesz przeczytać więcej o audycie [na naszym blogu](https://delta.chat/en/2023-03-27-third-independent-security-audit) lub przeczytać pełny raport [tutaj](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
+  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
 
 ### W jaki sposób finansowany jest rozwój Delta Chat?
 

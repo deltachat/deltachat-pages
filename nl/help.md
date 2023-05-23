@@ -218,9 +218,12 @@ Negeer een gesprek via het gespreksmenu (Android/computer) of het gespreksprofie
 bijvoorbeeld ruimte wilt vrijmaken, dan kun je er voor kiezen om
 oude berichten automatisch te verwijderen. Ze blijven echter bewaard op je apparaat totdat je
 ze daar handmatig verwijdert.
-- Inschakelen kan in de sectie ‘Gesprekken en media’
-in de instellingen. Ook kun je daar een periode opgeven tussen ‘direct’ en ‘na een jaar’. Hierdoor worden ook echt
-álle e-mails binnen die periode van de server verwijderd. 
+
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
+  in the "Chats and Media" settings.
+  You can set a timeframe between "At once" and "After 1 year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+
 - Let op: als je Delta Chat op meer dan één apparaat gebruikt, bewaar de berichten dan
 wél op de server, in elk geval totdat ze op het andere apparaat zijn binnengehaald. Stel
 automatisch verwijderen hiervoor in op ‘na één dag’ of iets dergelijks,
@@ -718,7 +721,7 @@ Meer informatie hieromtrent is te vinden in ons [blogartikel](https://delta.chat
 
 ### Heeft Delta Chat ooit onafhankelijke beveiligingscontroles ondergaan?
 
-Delta Chat onderging al drie onafhankelijke beveiligingscontroles:
+The Delta Chat project underwent four independent security audits in the last years:
 
 - In 2019 heeft [Include Security](https://includesecurity.com) Delta Chats
   [PGP-](https://github.com/rpgp/rpgp) en
@@ -749,6 +752,13 @@ Delta Chat onderging al drie onafhankelijke beveiligingscontroles:
   [beschreven op onze site](serverguide).
   Meer informatie over deze test is te lezen [op ons blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   of in het [volledige verslag](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
+  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
 
 ### Hoe wordt de ontwikkeling van Delta Chat gefinancierd?
 

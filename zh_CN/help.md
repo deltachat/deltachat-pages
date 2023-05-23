@@ -182,7 +182,12 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 ### 打开“从服务器删除旧消息”后，会发生什么？
 
 - 默认情况下，Delta Chat 会在本地设备上存储您的所有消息。如果您，例如，想要节省邮件提供商处的存储空间，那么可以选择开启自动删除旧消息。这些消息还将保存在您的设备上（除非您在设备上删除它们）。
-- 找到“聊天与媒体”设置中的“从服务器删除旧消息”，在从“立刻”到“一年后”的一系列选项中选择一个。这样，*每封* 电子邮件将会在所选时间长度后从服务器上删除。
+
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
+  in the "Chats and Media" settings.
+  You can set a timeframe between "At once" and "After 1 year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+
 - 注意：如果在多台设备上使用 Delta Chat，请将消息在服务器上保存足够长的时间，以便其他设备能够下载消息。在这种情况下，您应当根据其他设备的使用频率，将自动删除设置到“一天后”或相似的选项上。
 
 
@@ -522,8 +527,7 @@ This method is only recommended if "Add Second Device" as described above does n
 
 ### Was Delta Chat independently audited for security vulnerabilities?
 
-The Delta Chat project underwent three independent security audits in the last
-years:
+The Delta Chat project underwent four independent security audits in the last years:
 
 - In 2019, [Include Security](https://includesecurity.com) analyzed Delta
   Chat's [PGP](https://github.com/rpgp/rpgp) and
@@ -554,6 +558,13 @@ years:
   [recommended on this site](serverguide).
   You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   or read the [full report here](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
+  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
 
 ### Delta Chat 的开发是如何被资助的? 
 
