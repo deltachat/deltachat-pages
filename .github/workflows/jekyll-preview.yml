@@ -49,8 +49,11 @@ jobs:
                                \"description\": \"Preview the page here:\", \
                                \"context\": \"Page Preview\", \
                                \"target_url\": \"${PREVIEW_LINK}\"}"
-          curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA" | jq -r .message
+          #curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA" | jq -r .message
+          export RESPONSE=$(curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA" | jq -r .message)
+          echo $RESPONSE
       - name: "Post link to comments"
+        if: false
         uses: actions/github-script@v6
         with:
           script: |
