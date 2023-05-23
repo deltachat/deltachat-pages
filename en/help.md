@@ -231,7 +231,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   to delete old already-received messages on the server automatically.
   They still remain on your device until you delete them there, too.
 
-- To turn it on, go to "Delete Old Messages / Delete Messages from Server"
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
   in the "Chats and Media" settings.
   You can set a timeframe between "At once" and "After 1 year".
   All e-mails received by Delta Chat will be deleted from the server after this timeframe.
