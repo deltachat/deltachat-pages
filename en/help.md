@@ -226,16 +226,15 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
 ### What happens if I turn on "Delete old messages from server"?
 
 - By default, Delta Chat stores all messages locally on your device. If you
-  e.g. want to save storage space at your mail provider, you can choose to
-  delete old messages automatically. They still remain on your device until you
-  delete them there, too.
-- To turn it on, go to "delete old messages from server" in the "Chats & Media"
-  settings. You can set a timeframe between "at once" and "after a year"; this
-  way, *all* e-mails will be deleted from the server after that timeframe. 
-- Note that if you use Delta Chat on more than one device, you should leave the
-  messages on the server, until the other device could download them, too. In
-  this case, you should set auto-delete to "after a day" or something similar,
-  depending on how often you turn on the other device.
+  e.g. want to save storage space at your mail provider, you can configure
+  Delta Chat to delete old already-received messages on the server automatically.
+  They still remain on your device until you delete them there, too.
+- To turn it on, go to "Delete old messages from server" in the "Chats & Media"
+  settings. You can set a timeframe between "at once" and "after a year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- Note that if you use Delta Chat on more than one device, you need to
+  leave the message on the server with a sufficient timeframe
+  so that the other device(s) can download them, too.
 
 
 ### What happens if I turn on "Delete old messages from device"? {#delold}
