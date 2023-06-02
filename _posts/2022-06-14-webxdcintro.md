@@ -5,9 +5,10 @@ image: ../assets/logos/webxdc.png
 com_id: 108487984933980780
 ---
 
+Delta Chat 1.30 introduces support for [webxdc apps](https://webxdc.org): which makes it possible to share HTML5 apps (packaged as <code>.xdc</code> files) inside your chats, so that any participant can run the app by clicking "Start" in the message.  It transforms Delta Chat into an *extensible* messenging app where third parties can easily program custom interactive chat extensions, called "webxdc apps".
+
 <img src="../assets/logos/webxdc2.png" style="width:160px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Webxdc Logo" />
 
-Delta Chat 1.30 introduces support for [webxdc apps](https://webxdc.org): which makes it possible to share HTML5 apps (packaged as <code>.xdc</code> files) inside your chats, so that any participant can run the app by clicking "Start" in the message.  It transforms Delta Chat into an *extensible* messenging app where third parties can easily program custom interactive chat extensions, called "webxdc apps".
 
 ## Sharing webxdc apps is safe and easy 
 
