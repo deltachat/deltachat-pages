@@ -180,12 +180,12 @@ disattivato le ricevute di lettura, non vedranno il pallino verde finché
 non gli invierete un messaggio o non scriverete a un gruppo in cui si trovano anche loro.
 
 
-### How can I delete my account?
+### Come posso eliminare il mio account?
 
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
+Poiché utilizzi un account e-mail per Delta Chat,
+il modo in cui puoi eliminare il tuo account dipende dal tuo provider e-mail.
+Non abbiamo alcun controllo sul tuo account e-mail,
+quindi purtroppo non possiamo aiutarti in questo.
 
 If you want to keep the account,
 but uninstall Delta Chat,

@@ -143,16 +143,11 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
 - Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
 
 
-### How can I delete my account?
+### Wie kann ich mein Konto löschen?
 
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
+Da Sie ein E-Mail-Konto für Delta Chat verwenden, hängt von Ihrem E-Mail-Anbieter ab, wie Sie Ihr Konto löschen können. Wir haben keine Kontrolle über Ihr E-Mail-Konto, daher können wir Ihnen dabei leider nicht helfen.
 
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
+Wenn Sie das Konto behalten, aber Delta Chat deinstallieren möchten, ist es ratsam, aktive Gruppen zu verlassen, bevor Sie Delta Chat deinstallieren.
 
 
 ## Gruppen
