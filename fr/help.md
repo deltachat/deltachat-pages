@@ -161,6 +161,18 @@ pour mettre une discussion en sourdine, ouvrez le menu de la conversation (Andro
   tant que vous ne leur écrivez pas directement ou n'écrivez pas dans un groupe dont ils font aussi partie.
 
 
+### How can I delete my account?
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
+
+
 ## Groupes
 
 ### Création d'un groupe
@@ -205,10 +217,9 @@ qu'un humain a lu ou compris le message ;)
 
 - Par défaut, Delta Chat stocke tous les messages sur votre appareil. Vous pouvez donc choisir de supprimer les anciens messages automatiquement pour libérer de l'espace de stockage chez votre fournisseur de courriel. Ces messages seront conservés localement jusqu'à ce que vous les supprimiez aussi de votre appareil.
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- Pour activer cette option, allez dans les paramètres de "Discussions et fichiers multimédia" et **Supprimer les anciens messages → Supprimer les messages du serveur**.
+  Vous pouvez régler un délai allant de "Immédiatement" à "Après 1 année".
+  Tous les courriels reçus sur Delta Chat seront supprimés du serveur une fois le délai écoulé.
 
 - Attention : si vous utilisez Delta Chat sur plusieurs appareils, laissez les messages sur le serveur jusqu'à ce que l'(es) autre(s) appareil(s) ai(en)t pu les télécharger aussi. Dans ce cas, nous vous conseillons de paramétrer la suppression automatique sur "Après 1 jour" ou plus, en fonction de la fréquence à laquelle vous vous servez de ces autres appareils.
 
@@ -431,108 +442,69 @@ Dans Delta Chat, vous pouvez partager des "applications privées" : ce sont des 
 
 ### Dans quelle mesure les applications privées sont-elles privées ?
 
-- Private apps can not send data to the Internet, or download anything.
-- A private app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a private app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the private app as well.
-- This also means: it can be a privacy risk to open private apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+- Les applications privées ne peuvent ni envoyer des données sur internet ni télécharger quoi que ce soit.
+- Une application privée peut échanger des données uniquement au sein d'une discussion Delta Chat, ainsi qu'avec les copies sur les différents appareils des autres membres de la discussion. En dehors de cela, l'appli privée est complètement isolée d'internet.
+- La confidentialité offerte par une application privée est celle de votre discussion : si vous faites confiance aux personnes avec qui vous discutez, vous pouvez aussi vous fier à l'application privée.
+- Cela signifie aussi qu'ouvrir des applications privées dans des discussions où se trouvent des membres à qui vous ne faites pas confiance peut représenter un risque en matière de confidentialité. En fait, c'est la même situation qu'avec les courriels : vous ouvrez uniquement les pièces jointes envoyées par une adresse que vous connaissez et pas celles envoyées par un émetteur malveillant.
 
 
-### Where can I get private apps?
+### Où puis-je me procurer des applications privées ?
 
-- In general, there is no curated appstore and Delta Chat is not responsible
-  for private apps or their content. Anyone can share private apps with each
-  other without restrictions.
-- You can find some example apps on [webxdc.org](https://webxdc.org).
-- Many people write their own private apps and post them to [the Delta Chat
-  forum](https://support.delta.chat/c/webxdc/20).
+- De manière générale, il n'existe aucun magasin d'applications présélectionnées et Delta Chat n'est pas responsable des applications privées ou de leur contenu. Tout le monde peut partager des applications privées avec n'importe qui, sans restrictions.
+- Vous trouverez des exemples d'applications sur [webxdc.org](https://webxdc.org).
+- Beaucoup de gens développent leurs propres applications privées et les postent ensuite sur [le forum Delta Chat](https://support.delta.chat/c/webxdc/20).
 
 
-### How can I create my own private apps?
+### Comment créer mes propres applications privées ?
 
-- Private apps are just zip files containing html, css, and javascript code.
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
-- All else you need to know is written in the
-  [documentation](https://docs.webxdc.org/).
-- If you have question, you can ask others with experience in the [Delta Chat
-  Forum](https://support.delta.chat/c/webxdc/20).
+- Les applications privées sont simplement des fichiers zip contenant du code html, css, et javascript.
+- Pour débuter, vous pouvez vous baser sur le [modèle d'application Hello World](https://github.com/webxdc/hello).
+- Tout ce que vous devez savoir d'autre se trouve dans la [documentation en anglais](https://docs.webxdc.org/).
+- Si vous avez des questions, vous pouvez les poser à des personnes plus expérimentées sur le [Forum Delta Chat](https://support.delta.chat/c/webxdc/20).
 
 
 ## Fonctionnalités expérimentales
 
 Nous apprécions tout particulièrement les retours sur ces fonctionnalités. Vous voulez donner votre avis ? Rejoignez-nous sur le [Forum](https://support.delta.chat) pour contribuer. (Vous aimez faire des expériences ? Inscrivez-vous en cliquant sur "Sign up -> with Delta Chat" !)
 
-### How can I use audio/video calls with Delta Chat?
+### Comment utiliser les appels audio/vidéo avec Delta Chat ?
 
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "videochat instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to your jitsi/BBB room. This
-  way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+- Pour activer les appels audio/vidéo, allez dans la section "Fonctionnalités expérimentales" des paramètres avancés et choisissez une "instance de discussion vidéo". 
+- Quand vous invitez d'autres personnes dans une discussion vidéo, elle s'ouvre automatiquement dans votre application/navigateur et les destinataires reçoivent un courriel contenant un lien vers votre salon Jitsi/BBB. De cette manière, même les personnes n'utilisant pas Delta Chat peuvent participer.
+- Veuillez noter qu'il n'y a pas de sonnerie pour les destinataires, qui ne sont donc pas dérangé⋅e⋅s par votre invitation à une discussion vidéo.
+- Vous pouvez utiliser n'importe quel service de discussion vidéo permettant de rejoindre un salon par un lien. Il vous suffit de renseigner le lien dans vos paramètres.
+- Par exemple, pour utiliser l'instance Jitsi Meet principale, vous pouvez insérer :`https://meet.jit.si/$ROOM`. La variable`$ROOM`est une valeur aléatoire pour que vous puissiez rejoindre un nouveau salon Jitsi choisi au hasard à chaque nouvel appel.
 
 
-### Qu'est qu'un groupe vérifié ? Pourquoi est-ce une fonction expérimentale ?
+### Qu'est qu'un groupe vérifié ? Pourquoi est-ce une fonctionnalité expérimentale ?
 
 - Un groupe vérifié est une discussion qui garantit une sécurité contre un attaquant actif. Tous les messages d'une discussion vérifiée sont chiffrés de bout en bout (e2ee), et les membres peuvent joindre en scannant un code barre à deux dimensions (QR code) d'invitation. Tous les membres sont alors connectés l'un à l'autre à travers une chaîne d'invitation, qui garanti une cohérence cryptographique contre des attaques réseaux actives ou des fournisseurs. 
 Consultez [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) pour en savoir plus sur la R&D derrière cette fonctionnalité.
 
-- As of Oct 2022, "verified groups" remain an experimental feature. It is
-  continuously improved and many bugs have been fixed since the original
-  introduction in 2018. However, there remain cases, especially with large
-  groups where inconsistencies can occur, or messages become unreadable.
+- En octobre 2022, nous avons décidé que la fonctionnalité "groupes vérifiés" restait expérimentale, bien qu'elle soit améliorée en permanence et que de nombreux bugs aient été réparés depuis sa mise en place en 2018. En effet, certaines erreurs persistent, en particulier avec les groupes très larges, et les messages deviennent parfois illisibles.
 
 
-### What are Broadcast Lists and how can I use them?
+### Que sont les listes de diffusion et comment les utiliser ?
 
-- With a Broadcast List you can send a message to many recipents at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+- Une liste de diffusion vous permet d'envoyer un message à plusieurs destinataires en même temps sans qu'ils puissent se voir mutuellement. Vous recevez leurs réponses respectives dans les discussions privées que vous avez avec chacun d'eux.
+- Concrètement, c'est un courriel avec plusieurs destinataires en copie cachée.
+- Vous pouvez activer cette option dans la section "Fonctionnalités expérimentales" des paramètres avancés. Vous pourrez ensuite créer une liste de diffusion à partir du bouton "Nouvelle discussion".
+- Si vous utilisez plusieurs appareils, veuillez noter qu'il n'est pas possible, pour l'instant, de synchroniser les listes de diffusion.
+- Les messages envoyés à des listes de diffusion ne sont pas chiffrés, parce que le chiffrement empêche l'anonymat puisque tous les destinataires peuvent voir qui d'autre a reçu le message.
+  (Mais envoyer des courriels individuels à tout le monde serait encore pire pour la consommation du réseau et à cause des limites d'envoi).
 
 
-### How can I share my location with my chat partners?
+### Comment puis-je partager ma géolocalisation avec mes contacts ?
 
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat
-  partners. *But:* to show the map, we need to download map tiles from
-  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
-  specific area. If this is a privacy risk for you, this feature might not be
-  for you. We are working on finding a decentralized alternative for Mapbox.
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
+- Vous pouvez activer l'envoi de la géolocalisation à la demande dans la section "Fonctionnalités expérimentales" des paramètres avancés.
+- Ensuite, si vous voulez partager votre position dans une discussion, allez dans "Ajouter une pièce jointe" et sélectionnez "Position". Vous pouvez alors choisir la durée pendant laquelle vous voulez partager votre position avec les membres de la discussion, de 5 minutes à 6 heures.
+- Quand vous vous déplacez, vos contacts voient votre position sur une carte dans la discussion.
+- Vous devez activer cette fonctionnalité dans les paramètres avancés pour pouvoir voir la carte et la position de vos contacts.
+- Cette fonctionnalité ne partage votre position avec personne d'autre que les membres de la discussion. *Cependant,* pour que la carte s'affiche, les tuiles de carte sont téléchargées depuis mapbox.com, donc si vous *visualisez* la cart, une requête pour afficher une zone spécifique est envoyée à mapbox.com. Si vous considérez cela comme une faille de sécurité, cette fonctionnalité n'est malheureusement pas faite pour vous. Nous nous efforçons de trouver une alternative décentralisée à Mapbox.
+- Sur le bureau, votre OS ne peut généralement pas déterminer votre position. À la place, vous pouvez faire un clic droit sur la carte pour décrire votre position, qui sera ensuite envoyée dans la discussion en tant que message tout en apparaissant sur la carte.
 
 
-### What does the experimental database encryption actually protect?
+### Qu'est-ce que le chiffrement expérimental de base de données protège réellement ?
 
 - Right now, the database encryption is still very experimental. Don't rely on
   it for protection, you should additionally use encryption of your operating
@@ -559,7 +531,7 @@ Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
 In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
 
 
-### How can I change my account to a different e-mail address?
+### Comment puis-je changer mon compte pour une adresse courriel différente ?
 
 1. Change your address at the “Password and Account” seetings screen in Delta
    Chat, enter your password (and if necessary, server settings) for the new
@@ -581,12 +553,10 @@ it](https://delta.chat/en/2022-09-14-aeap).
 Cependant, il faut activer des options spéciales pour que cela fonctionne correctement avec certains fournisseurs... Voir [la liste des fournisseurs](https://providers.delta.chat).
 
 
-### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+### Je veux administrer mon propre serveur courriel pour Delta Chat : que me conseillez-vous ?
 
-- Most mail servers will work well. But what we personally recommend is a
-  combination of mailcow and mailadm, as described [in this
-  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- You can find an [installation guide on our website](serverguide).
+- La plupart du temps, tous les serveurs courriel fonctionnent très bien. Mais nous conseillons un mélange de mailcow et mailadm, ainsi que nous le décrivons [sur notre blog](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
+- Vous trouverez un [guide d'installation sur notre site internet](serverguide).
 
 
 ### Si Delta Chat se base sur le courrier électronique, est-ce vraiment une messagerie _instantanée_? 
@@ -598,18 +568,13 @@ Cependant, il faut activer des options spéciales pour que cela fonctionne corre
 Pour plus d'informations, voir [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
-### Est-ce Delta Chat est compatible avec Protonmail / Tutanota / Criptext? 
+### Delta Chat est-il compatible avec Protonmail / Tutanota / Criptext ?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is not 
-  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
-  uses.
-- Delta Chat can e2e-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- Oui et non.
+- Non, vous ne pouvez pas utiliser votre compte Protonmail, Tutanota ou Cryptext avec Delta Chat, car ils ne prennent pas en charge la réception des courriels en IMAP.
+- Vous pouvez toujours utiliser Delta Chat pour envoyer des messages à des personnes utilisant Protonmail, Tutanota, or Criptext. Toutefois, ces messages ne seront pas chiffrés de bout en bout, car le chiffrement offert par ces fournisseurs n'est pas compatible avec [Autocrypt](https://autocrypt.org/), le protocole utilisé par Delta Chat.
+- Delta Chat peut chiffrer des courriels de bout en bout avec tout fournisseur de courriel utilisant
+  [toute application de courriel compatible avec Autocrypt](https://autocrypt.org/dev-status.html).
 
 
 ### Les détails techniques m'intéressent. Pouvez-vous m'en dire plus ?

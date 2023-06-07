@@ -171,6 +171,18 @@ Negeer een gesprek via het gespreksmenu (Android/computer) of het gespreksprofie
   iemand benaderd of iets in een groep plaatst..
 
 
+### How can I delete my account?
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
+
+
 ## Groepen
 
 ### Groepen aanmaken
@@ -219,10 +231,9 @@ bijvoorbeeld ruimte wilt vrijmaken, dan kun je er voor kiezen om
 oude berichten automatisch te verwijderen. Ze blijven echter bewaard op je apparaat totdat je
 ze daar handmatig verwijdert.
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- Inschakelen kan als volgt: **Oude berichten verwijderen → Berichten van server verwijderen**
+  in de gespreks- en mediainstellingen. Je kunt kiezen uit ‘Onmiddelijk’ en ‘Na 1 jaar’.
+  Alle e-mails ontvangen door Delta Chat worden na deze tijdspanne van de server verwijderd.
 
 - Let op: als je Delta Chat op meer dan één apparaat gebruikt, bewaar de berichten dan
 wél op de server, in elk geval totdat ze op het andere apparaat zijn binnengehaald. Stel
@@ -721,7 +732,7 @@ Meer informatie hieromtrent is te vinden in ons [blogartikel](https://delta.chat
 
 ### Heeft Delta Chat ooit onafhankelijke beveiligingscontroles ondergaan?
 
-The Delta Chat project underwent four independent security audits in the last years:
+Delta Chat onderging al drie onafhankelijke beveiligingscontroles:
 
 - In 2019 heeft [Include Security](https://includesecurity.com) Delta Chats
   [PGP-](https://github.com/rpgp/rpgp) en
@@ -753,11 +764,11 @@ The Delta Chat project underwent four independent security audits in the last ye
   Meer informatie over deze test is te lezen [op ons blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   of in het [volledige verslag](../assets/blog/MER-01-report.pdf).
 
-- Beginning 2023, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
-  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+- Sinds begin 2023 hebben we diverse beveiligings- en privacyproblemen met ‘webapps
+  gedeeld in een gesprek’. Deze waren allen te wijten aan fouten in de sandboxing,
+  vooral die van Chromium. Daarna is er een beveiligings-
+  onderzoek van Cure53 geweest en zijn alle problemen opgelost in versie 1.36 van de uit april 2023. 
+  Lees [hier het volledige verhaal omtrent E2E-beveiliging op het web](https://delta.chat/en/2023-05-22-webxdc-security). 
 
 
 ### Hoe wordt de ontwikkeling van Delta Chat gefinancierd?
