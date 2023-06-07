@@ -185,6 +185,18 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
   t’u dërgoni një mesazh, ose të shkruani te një grup ku bëjnë pjesë edhe ata.
 
 
+### How can I delete my account?
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
+
+
 ## Grupe
 
 ### Krijimi i një grupi

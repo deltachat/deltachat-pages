@@ -144,6 +144,18 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 - 另一方面，其他人并不总是能“看到您在线”。如果您关掉了已读回执，那么在您发消息给其他人以及和他们的共有群组前，其他人将不会看到绿色圆点。
 
 
+### How can I delete my account?
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
+
+
 ## 群组
 
 ### 创建群组

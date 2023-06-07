@@ -1,55 +1,39 @@
 ---
-title: How to Setup a Mail Server for Delta Chat
+title: Як налаштувати поштовий сервер для Delta Chat
 lang: uk
 ---
 
-# How to Setup a Mail Server for Delta Chat
+# Як налаштувати поштовий сервер для Delta Chat
 
-Delta Chat is a chat messenger which runs on e-mail. This means we can use any
-e-mail server to run Delta Chat accounts. One e-mail server which is easy to
-setup and manage, and works with Delta Chat out of the box, is
-[Mailcow](https://mailcow.email).
+Delta Chat — це чат-месенджер, який працює на базі електронної пошти. Це означає, що ми можемо використовувати будь-який сервер електронної пошти для запуску облікових записів Delta Chat. Один сервер електронної пошти, який легко використовувати і налаштовувати, а також працює з Delta Chat із коробки це [Mailcow](https://mailcow.email).
 
-You can run it together with [mailadm](https://mailadm.readthedocs.io), which
-offers your users an easy way to create an e-mail account and directly login
-with Delta Chat. It is also included in this guide.
+Ви можете запустити його разом із [mailadm](https://mailadm.readthedocs.io), який пропонує вашим користувачам простий спосіб створити обліковий запис електронної пошти та безпосередньо ввійти в обліковий запис із Delta Chat. Це також включено в цей посібник.
 
-What you need:
+Що вам буде потрібно:
 
-- basic command line knowledge
-- a domain name, and access to its DNS settings
-- SSH access to a linux server
-  - with a public IP,
-  - minimum 10 GB disk space,
-  - and minimum 2 GB RAM
+- базові знання командного рядка 
+- доменне ім'я та доступ до його налаштувань DNS 
+- SSH доступ до сервера Linux 
+ - з публічним IP, 
+ - мінімум 10 ГБ дискового простору, 
+ - і мінімум 2 ГБ оперативної пам'яті
 
-## Installing Docker
+## Встановлення Docker
 
-As a prerequisite you need to install [docker and
-docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
+Заздалегідь необхідно встановити [docker і docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
 
-### If docker.com is Blocked:
+### Якщо docker.com заблоковано:
 
-Depending on the country where your server is in, docker.com may be blocked. You
-can also get docker & docker-compose from other sources, which may work:
+В залежності від країни, в якій розташований ваш сервер, docker.com може бути заблоковано. Ви також можете отримати docker і docker-compose з інших джерел, які можуть спрацювати:
 
-- Ubuntu's official apt repository usually has an outdated docker version; that
-  is not the best idea.
-- [snap](https://docs.docker.com/engine/install/ubuntu/) is another way to
-  install docker, but for docker-compose the snap variant doesn't work. Note
-  that if you install docker via snap, it doesn't run in systemd, but in snap.
-- You can try to download the docker-compose binary [from GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64)
-  and copy it to [the right location](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
-- And finally you can try to get access to a server outside your country,
-  create a HTTPS proxy, and use that to install docker and docker-compose. It's
-  tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
-  you run into problems.
+- Офіційне apt-сховище Ubuntu зазвичай має застарілу версію docker; це не найкраща ідея. 
+- [snap](https://docs.docker.com/engine/install/ubuntu/) – ще один спосіб встановити докер, але для docker-compose варіант із snap не працює. Примітка: якщо ви встановлюєте докер через snap, він запускається не в systemd, а в snap. 
+- Ви можете спробувати завантажити двійковий файл docker-compose [з GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64) і скопіювати його в [правильне розташування](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually) 
+- І, нарешті, ви можете спробувати отримати доступ до сервера за межами вашої країни, створіть проксі-сервер HTTPS і використовуйте його для встановлення docker і docker-compose. Це складно, але може спрацювати. Ви можете [зв’язатися з нами](mailto:mailadm@testrun.org), якщо ви зіткнетеся з проблемами.
 
-## Create DNS Entries
+## Створення записів DNS
 
-If you don't have a domain yet, you can use a service like
-[njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
-pay with PayPal, Bitcoin, or Monero.
+Якщо у вас ще немає домену, ви можете скористатися такою послугою, як [njal.la](https://njal.la), щоб придбати домен .net або .org за 15 євро на рік. Оплата можлива за допомогою PayPal, Bitcoin або Monero.
 
 Let's assume:
 - you bought example.org. For now you only want a mail server, but you think
