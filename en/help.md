@@ -235,7 +235,7 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
   that a human has read or understood the message ;)
 
 
-### What happens if I turn on "Delete old messages from server"?
+### What happens if I turn on "Delete old messages from server"? {#deloldserver}
 
 - By default, Delta Chat stores all messages locally on your device.
   If you  e.g. want to save storage space at your mail provider,
@@ -267,86 +267,99 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 
 ### Does Delta Chat support end-to-end-encryption?
 
-- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
-  thus E2E-encrypt messages with other Autocrypt-capable apps. 
+Yes. If both you and your chat partner use Delta Chat (or another
+[Autocrypt](https://autocrypt.org) compatible email app),
+messages will be automatically end-to-end encrypted.
 
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
+End-to-end encrypted messages will show a small padlock on them.
 
+If you don't want end-to-end encryption, disable "Settings -> Advanced -> Prefer End-to-End-Encryption".
 
-### What do I have to do to activate the end-to-end-encryption?
+### What is end-to-end encryption? {#whatise2ee}
 
-- Nothing.
+If you send a classical email (i.e. not using Delta Chat), then your
+email provider and the email provider of your chat partner can read and modify your emails.
+Your email provider is what comes after the `@` in your email address
+(gmail.com, outlook.com, …)
 
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
+End-to-end encryption ensures that the email providers can _not_ read or modify your emails.
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
+However:
+- Your email provider and your chat partner's email provider can see which email
+  address sends an email to which other
+  email address; only the _content_ of the email is encrypted, not the metadata.
+  Use an anonymous email address if this is a concern.
+- If someone steals your phone while it's unlocked (or hacks into it),
+  nothing can prevent them from reading all your messages in all your apps,
+  end-to-end encryption doesn't help here.
+  - Note that hacking a phone mostly requires that you click on a malicious link
+    or install a malicious app; hackers can't casually hack into a phone like in movies.
+- Your internet provider (Verizon, AT&T, Telekom, …) can see which email provider you use.
+- Your email provider or your chat partner's email provider can intercept the encryption
+  with a so-called [MitM attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+  Most users don't need to worry about this, but if you are in a high-risk situation,
+  read the next question.
 
+### How can I ensure that my messages are end-to-end encrypted? {#howtoe2ee}
 
-### If end-to-end-encryption is not available, is the connection not encrypted at all?
+**In private chats:**
 
-- With most mail servers, Delta Chat establishes _transport encryption_
-  ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
-  This only secures the connection between your device and your e-mail
-  server. Whereas e2e-encryption provides safety between 
-  your device and a friend's device. 
+- Meet your chat partner in person.
+- Click the QR Code icon <img style="vertical-align:middle; width:2em; margin:1px" src="../assets/home/qrcode.png" />
+- Scan the QR Code of your chat partner, or let them scan yours.
 
+Congratulations, you now verified your chat partner's encryption key. You will see <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="blue checkmark"/> at the top of the chat.
 
-### How can I verify cryptographic status with a sender? 
+**In group chats:**
 
-If you are within immediate distance of the chat partner:
+- When creating the group, click on "New verified group"
+- You can only add contacts which are already verified.
+  To add other contacts, click on "QR Invite Code"
+  and let them scan the QR Code.
 
-- Select **QR Invite code** on one device and then **Scan QR code**
-  on the other one and scan the code. If both devices are online,
-  they will introduce a chat channel with each-other (if it doesn't exist already) 
-  and the encryption keys will also be verified.  Both will see a
-  "sender verified" system message in their 1:1 chat. 
+**Note:**
 
-If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop):
+If you are concerned about security, you should also enable "Disappearing Messages"
+in the chat (in the menu in the upper right corner).
 
-- For end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If the same fingerprints appear on your chat partner's device, 
-  the connection is safe.
+Additionally, also see ["delete messages from server automatically"](#deloldserver).
 
-- For transport encryption, this state is just shown there
+### What does the <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="blue checkmark"/> icon mean on top of a chat? {#whatdoesverifiedmean}
 
+It means that:
+- It's guaranteed that all messages you send and receive are [end-to-end encrypted](#whatise2ee)
+- No one is intercepting the encryption with a [MitM attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 
-### How can I check the encryption of messages?
+### "Messages may not be end-to-end encrypted anymore", what does this mean? {#verificationbroken}
 
-- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
+At some point in the past, you probably [scanned a QR Code](#howtoe2ee), which ensured that all your messages
+were correctly end-to-end encrypted.
 
-- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
+Now, somehow your chat partner's encryption key changed; reasons for this are:
+- They reinstalled Delta Chat
+- They are using a new phone, and didn't properly [transfer their account](#multiclient)
+- They didn't use Delta Chat to send the message, but sent a classical email.
 
+Therefore, while Delta Chat will still try to [end-to-end encrypt](#whatise2ee) your messages, it can't guarantee this anymore. There is a small padlock on encrypted messages.
 
-### How can I ensure message encryption and deletion?
+**Why can't Delta Chat guarantee end-to-end encryption anymore?**
 
-The best way to ensure every message is encrypted,
-and metadata deleted as quickly as possible
-is creating a verified group and turning on
-disappearing messages.
+There are two reasons:
 
-Verified groups are always encrypted and protected against [MITM
-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+1. If your chat partner doesn't use Delta Chat to send emails at all anymore, then
+   Delta Chat sends them unencrypted so that they can still read them.
+2. Even if your chat partner still uses Delta Chat, it can't protect against
+   [MitM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) anymore.
+   Most users don't need to worry about this, but if you are in a high-risk situation,
+   keep in mind that a powerful attacker with access to the email provider
+   could theoretically read and/or modify the messages.
 
-Metadata can't be encrypted, as the server needs to know where to deliver your
-messages. But turning on "disappearing messages" deletes the messages on
-the server after they were delivered.
+**Why don't other messengers like Signal show such warnings?**
 
-If you need the messages on your device, but not on the server, you can also
-agree in the group to turn on ["delete messages from server
-automatically"](#delold).
+They do! The warnings just are a lot easier to overlook. Signal calls them
+["Your safety number changed"](https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed-).
 
-If you want to protect a 1:1 conversation like this, you should create a
-verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
-
+Plus, Signal is not compatible with unencrypted emails, so, in Signal there is never the problem that your chat partner can't handle encryption anymore - all messages in Signal are encrypted.
 
 ### Which standards are used for end-to-end-encryption?
 
@@ -354,25 +367,8 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#verd
   e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
   Autocrypt uses a limited subset of OpenPGP functionality. 
 
-- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
+- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against MitM attacks (aka active network attacks).  This goes beyond the opportunistic
   base protection of Autocrypt Level 1, while maintaining its ease of use.  
-
-### What is the difference between verified groups and 1:1 chats with verified contacts? {#verdiff}
-
-- 1:1 chats with a verified contact and verified groups are not the same, even
-  if there are only 2 people in the verified group. One difference is that you
-  could easily add more people to the group, but there are other implications as
-  well.
-
-- Verified groups are invariably secured. Any breakage (cleartext or wrongly
-  signed messages etc.) will be flagged and such messages will not be shown in
-  this chat. You can trust all messages in this verified-checkmark chat to have
-  not been read/altered by middle parties.
-
-- 1:1 chats are opportunistic, it is meant to allow people to communicate no
-  matter if they change e-mail clients, devices, setups etc. That's why there
-  is no verification checkmark, even if you have verified the contact.
-
 
 ### Does Delta Chat support Perfect Forward Secrecy?
 
