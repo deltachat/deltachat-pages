@@ -12,8 +12,8 @@ jobs:
         id: prepare
         run: |
           export PULLREQUEST_ID=$(echo "${{ github.ref }}" | cut -d "/" -f3)
-          echo ::set-output name=prid::$PULLREQUEST_ID
-          if [ $(expr length "${{ secrets.USERNAME }}") -gt "1" ]; then echo ::set-output name=uploadtoserver::true ;fi
+          echo "prid=$PULLREQUEST_ID" >> $GITHUB_OUTPUT
+          if [ $(expr length "${{ secrets.USERNAME }}") -gt "1" ]; then echo "uploadtoserver=true" >> $GITHUB_OUTPUT; fi
       - name: Install Bundler
         run: sudo gem install bundler
       - name: Cache bundle
@@ -55,7 +55,7 @@ jobs:
           export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/issues/${{ steps.prepare.outputs.prid }}/comments"
           export RESPONSE=$(curl -L --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28")
           echo $RESPONSE > result
-          grep -v '"Check out the page preview at https://staging.delta.chat/' result && echo ::set-output name=comment::true || true
+          grep -v '"Check out the page preview at https://staging.delta.chat/' result && echo "comment=true" >> $GITHUB_OUTPUT || true
       - name: "Post link to comments"
         if: steps.details.outputs.comment
         uses: actions/github-script@v6
