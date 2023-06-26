@@ -1,10 +1,10 @@
 ---
-title: A milestone in making web app sandboxes interoperate with other tools 
+title: A milestone in making WebXDC apps exchange data with other apps
 author: holga 
 image: ../assets/blog/2022-12-webxdc-poll.jpg
 ---
 
-Earlier this year we worked hard to enforce [chat-shared web app sandboxing and privacy](https://delta.chat/en/2023-05-22-webxdc-security) 
+Earlier this year we worked hard to enforce [chat-shared web app privacy](https://delta.chat/en/2023-05-22-webxdc-security) 
 but what good is having totally private apps if there is no convenient way to exchange data with the rest of the world? 
 Enter Delta Chat 1.38 releases which spearhead [two new WebXDC APIs](https://docs.webxdc.org/spec.html#sendtochat) 
 to allow web apps to safely exchange data and interoperate with other tools. 
