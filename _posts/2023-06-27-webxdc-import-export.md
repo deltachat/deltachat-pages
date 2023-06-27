@@ -1,7 +1,7 @@
 ---
 title: A milestone in making WebXDC apps exchange data with other apps
 author: holga 
-image: ../assets/blog/2023-06-imex-01c.jpg
+image: ../assets/blog/2023-06-imex-00.jpg
 ---
 
 Earlier this year we worked hard to enforce [chat-shared web app privacy](https://delta.chat/en/2023-05-22-webxdc-security) 
