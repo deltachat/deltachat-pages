@@ -25,7 +25,7 @@ To showcase and design the new APIs we developed a little [cross-platform Calend
 You may [download the latest Calendar app here](https://github.com/webxdc/calendar/releases/latest/download/calendar.xdc) 
 and then send the `.xdc` app file into your "Saved messages" chat (shared between all your devices) or into any group chat so that chat members can play around as well. 
 
-In a similar way, you may also play with a little [Draw app](XXX) that can be used to import and draw pictures and then share them in a chat. 
+In a similar way, you may also play with a little [Draw app](https://github.com/webxdc/draw.xdc/releases/download/latest/draw.xdc) that can be used to import and draw pictures and then share them in a chat.
 
 Please note that both the Calendar and Draw apps were done "on the side" 
 by Delta Chat developers who are not specializing into web apps. 
