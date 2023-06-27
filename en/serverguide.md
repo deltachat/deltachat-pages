@@ -122,8 +122,8 @@ After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`
 ### Mailadm NGINX config
 
 `mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So add `mailadm.example.org` to `data/conf/nginx/server_name.active`,
-then add the following block to `data/conf/nginx/site.mailadm.custom`:
+work. So create `data/conf/nginx/server_name.active` and add `mailadm.example.org` to this file,
+then create `data/conf/nginx/site.mailadm.custom` and add the following block to it:
 
 ```
   location /new_email {
@@ -346,4 +346,3 @@ Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
 Consider looking at the [Mailcow logging
 documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
 for alternatives to this configuration.
-
