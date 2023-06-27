@@ -149,16 +149,12 @@ aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
 - Z drugiej strony inni nie zawsze „zobaczą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą oni zielonej kropki, dopóki nie wyślesz do nich wiadomości lub nie napiszesz do grupy, w której również się znajdują.
 
 
-### How can I delete my account?
+### Jak mogę usunąć swoje konto?
 
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
+Gdy korzystasz z konta e-mail w Delta Chat, sposób usunięcia konta zależy od dostawcy poczty e-mail.
+Nie mamy żadnej kontroli nad twoim kontem e-mail, więc niestety nie możemy ci w tym pomóc.
 
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
+Jeśli chcesz zachować konto, ale odinstalować Delta Chat, zaleca się opuszczenie każdego czatu grupowego przed odinstalowaniem Delta Chat.
 
 
 ## Grupy

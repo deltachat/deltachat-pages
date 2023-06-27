@@ -185,16 +185,16 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
   t’u dërgoni një mesazh, ose të shkruani te një grup ku bëjnë pjesë edhe ata.
 
 
-### How can I delete my account?
+### Si mund ta fshij llogarinë time?
 
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
+Ngaqë për Delta Chat-in përdorni një llogari email,
+se si mund të fshini llogarinë tuaj, varet nga shërbimi juaj email.
+Nuk kemi fuqi mbi llogarinë tuaj email,
+ndaj, mjerisht, s’mund t’ju ndihmojmë për këtë.
 
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
+Nëse doni ta mbani llogarinë,
+por të çinstaloni Delta Chat-in,
+rekomandohet të braktisni çfarëdo grupi fjalosjeje, para çinstalimit të Delta Chat-it.
 
 
 ## Grupe
@@ -246,10 +246,10 @@ për çfarëdo mesazhesh të rinj.
   të zgjidhni të fshihen automatikisht mesazhet e vjetër. Mbeten ende në pajisjen tuaj,
   deri sa t’i fshini edhe prej andej.
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- Për ta vënë në punë, kaloni te **Fshi Mesazhe të Vjetër → Fshiji Mesazhet te Shërbyesi**
+  te rregullimet “Fjalosje dhe Media”.
+  Mund të caktoni një interval kohor, mes “Menjëherë” dhe “Pas 1 viti”.
+  Krejt email-et e marrë nga Delta Chat-i do të fshihen te shërbyesi pas këtij intervali kohor.
 
 - Kini parasysh se, nëse e përdorni Delta Chat-in në më shumë se një pajisje, duhet t’i
   lini mesazhet te shërbyesi, deri sa të mund t’i shkarkojë edhe pajisja tjetër. Në këtë
@@ -778,7 +778,7 @@ në blog për të](https://delta.chat/en/2022-09-14-aeap).
 
 ### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie?
 
-The Delta Chat project underwent four independent security audits in the last years:
+Projekti Delta Chat ka pasur katër auditime të pavarur sigurie gjatë viteve të fundit:
 
 - Më 2019-n, [Include Security](https://includesecurity.com) analizoi libraritë
   [PGP](https://github.com/rpgp/rpgp) dhe
@@ -808,11 +808,12 @@ The Delta Chat project underwent four independent security audits in the last ye
   Mund të lexoni më tepër rreth auditimit [në blogun tonë](https://delta.chat/en/2023-03-27-third-independent-security-audit),
   ose të lexoni [raportin e plotë këtu](../assets/blog/MER-01-report.pdf).
 
-- Beginning 2023, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
-  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+- Në fillim të 2023-shit, ndreqëm probleme sigurie dhe privatësie me
+  veçorinë “aplikacione web dhënë në një fjalosje”, të lidhura me dështime
+  në izolimin e tyre, veçanërisht nën Chromium. Në vazhdim kaluam një auditim
+  të pavarur sigurie prej Cure53 dhe krejt problemet e gjetura u ndreqën në
+  seritë 1.36 të hedhura në qarkullim në prill të 2023-shit. 
+  Shihni [këtu, për shpjegim të plotë të sfondit për sigurinë lidhur me E2E në web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ### Si financohet zhvillimi i Delta Chat-it? 

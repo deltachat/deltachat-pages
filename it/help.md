@@ -187,9 +187,9 @@ il modo in cui puoi eliminare il tuo account dipende dal tuo provider e-mail.
 Non abbiamo alcun controllo sul tuo account e-mail,
 quindi purtroppo non possiamo aiutarti in questo.
 
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
+Se vuoi mantenere l'account,
+ma disinstallare Delta Chat,
+si consiglia di uscire da qualsiasi chat di gruppo prima di disinstallare Delta Chat.
 
 
 ## Gruppi
@@ -239,10 +239,10 @@ che un essere umano abbia letto o compreso il messaggio ;)
 ad esempio, si vuole risparmiare spazio di archiviazione presso il proprio provider di posta elettronica, è possibile scegliere di
 eliminare automaticamente i vecchi messaggi. I messaggi rimangono comunque sul dispositivo finché non li si cancella anche lì.
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- Per attivarlo, vai su **Elimina i vecchi messaggi → Elimina messaggi dal server**
+nelle impostazioni "Chat e Media".
+Puoi impostare un intervallo di tempo compreso tra "Subito" e "Dopo 1 anno".
+Tutte le e-mail ricevute da Delta Chat verranno eliminate dal server dopo questo periodo di tempo.
 
 - Si noti che se si utilizza Delta Chat su più di un dispositivo, è consigliabile lasciare i messaggi sul server,
 finché anche l'altro dispositivo non potrà scaricarli. In questo caso,
@@ -751,7 +751,7 @@ problema per molte app legittime. Per ulteriori informazioni, vedi
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza?
 
-The Delta Chat project underwent four independent security audits in the last years:
+Il progetto Delta Chat è stato sottoposto a quattro verifiche di sicurezza indipendenti negli ultimi anni:
 
 - Nel 2019, [Include Security](https://includesecurity.com) ha analizzato le librerie
 [PGP](https://github.com/rpgp/rpgp) e
@@ -783,11 +783,11 @@ Connessioni di rete di Delta Chat e una configurazione del server di posta ripro
 Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
 o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
 
-- Beginning 2023, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
-  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+- A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con le "web
+app condivise in una chat", relativa ai fallimenti del sandboxing
+soprattutto con Chromium. Successivamente abbiamo ottenuto una sicurezza indipendente
+verificata da Cure53 e tutti i problemi rilevati sono stati risolti nella serie di app 1.36 rilasciata nell'Aprile 2023.
+Vedi [qui per la storia completa sulla sicurezza E2E nel web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ### Come viene finanziato lo sviluppo di Delta Chat?
