@@ -34,8 +34,8 @@ and then send the `.xdc` app file into your "Saved messages" chat (shared betwee
 
 In a similar way, you may also play with a little [Draw app](https://github.com/webxdc/draw.xdc/releases/download/latest/draw.xdc) that can be used to import and draw pictures and then share them in a chat.
 
-<img src="../assets/blog/2023-06-imex-04.png" width="230" />
-<img src="../assets/blog/2023-06-imex-05.png" width="230" />
+<img src="../assets/blog/2023-06-imex-04.jpg" width="230" />
+<img src="../assets/blog/2023-06-imex-05.jpg" width="230" />
 
 Please note that both the Calendar and Draw apps were done "on the side" 
 by Delta Chat developers who are not specializing into web apps. 
