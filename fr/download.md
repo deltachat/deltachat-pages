@@ -13,11 +13,11 @@ downloads: true
 
 L'installation de Delta Chat sur le téléphone n'est pas nécessaire pour utiliser l'application sur l'ordinateur.
 
-Minimal requirements:
+Configuration requise :
 Android 4.1 Jelly Bean
-or iOS 11, iPhone 5s or iPad 5/Air/Mini
-or Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 or Debian 10
-or compatible systems.
+ou iOS 11, iPhone 5s ou iPad 5/Air/Mini
+ou Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 ou Debian 10
+ou un des systèmes compatibles.
 
 ## Liens
 

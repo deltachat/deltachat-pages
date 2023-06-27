@@ -13,11 +13,11 @@ downloads: true
 
 桌面版不要求在手机上安装 Delta Chat。
 
-Minimal requirements:
+最低要求：
 Android 4.1 Jelly Bean
-or iOS 11, iPhone 5s or iPad 5/Air/Mini
-or Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 or Debian 10
-or compatible systems.
+或 iOS 11, iPhone 5s 或 iPad 5/Air/Mini
+或 Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 或 Debian 10
+或兼容的系统。
 
 ## 链接
 

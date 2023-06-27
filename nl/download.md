@@ -13,11 +13,11 @@ downloads: true
 
 Je kunt de computerversies gebruiken zonder de app op je telefoon.
 
-Minimal requirements:
+Minimale vereisten:
 Android 4.1 Jelly Bean
-or iOS 11, iPhone 5s or iPad 5/Air/Mini
-or Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 or Debian 10
-or compatible systems.
+of iOS 11, iPhone 5s of iPad 5/Air/Mini
+of Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 of Debian 10
+of compatibele systemen.
 
 ## Links
 

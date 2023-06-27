@@ -13,11 +13,11 @@ downloads: true
 
 Desktop verzia nevyžaduje Delta Chat na telefóne.
 
-Minimal requirements:
+Minimálne požiadavky:
 Android 4.1 Jelly Bean
-or iOS 11, iPhone 5s or iPad 5/Air/Mini
-or Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 or Debian 10
-or compatible systems.
+alebo iOS 11, iPhone 5s alebo iPad 5/Air/Mini
+alebo Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 alebo Debian 10
+alebo kompatibilné systémy.
 
 ## Odkazy
 
