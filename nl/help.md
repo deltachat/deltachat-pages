@@ -171,16 +171,16 @@ Negeer een gesprek via het gespreksmenu (Android/computer) of het gespreksprofie
   iemand benaderd of iets in een groep plaatst..
 
 
-### How can I delete my account?
+### Hoe kan ik mijn account verwijderen?
 
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
+Delta Chat maakt gebruik van je e-mailaccount,
+dus de verwijderprocedure is afhankelijk van je provider.
+We hebben geen zeggenschap over je account,
+dus helaas kunnen we je daar niet bij helpen.
 
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
+Als je je account wilt behouden maar Delta Chat
+niet wilt verwijderen, verlaat dan groeps-
+gesprekken voordat je Delta Chat verwijdert.
 
 
 ## Groepen
