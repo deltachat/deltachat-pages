@@ -1,13 +1,16 @@
 ---
 title: A milestone in making WebXDC apps exchange data with other apps
 author: holga 
-image: ../assets/blog/2022-12-webxdc-poll.jpg
+image: ../assets/blog/2023-06-imex-01c.jpg
 ---
 
 Earlier this year we worked hard to enforce [chat-shared web app privacy](https://delta.chat/en/2023-05-22-webxdc-security) 
 but what good is having totally private apps if there is no convenient way to exchange data with the rest of the world? 
 Enter Delta Chat 1.38 releases which spearhead [two new WebXDC APIs](https://docs.webxdc.org/spec.html#sendtochat) 
-to allow web apps to safely exchange data and interoperate with other tools. 
+to allow web apps to **safely exchange data and interoperate with other tools.**
+
+<img src="../assets/blog/2023-06-imex-00.jpg" width="280" style="float:right; margin-left:1em;" />
+
 To showcase and design the new APIs we developed a little [cross-platform Calendar web app](https://github.com/webxdc/calendar/) that: 
 
 - can be shared in any (group) chat and then be used to create
@@ -24,6 +27,10 @@ To showcase and design the new APIs we developed a little [cross-platform Calend
 
 You may [download the latest Calendar app here](https://github.com/webxdc/calendar/releases/latest/download/calendar.xdc) 
 and then send the `.xdc` app file into your "Saved messages" chat (shared between all your devices) or into any group chat so that chat members can play around as well. 
+
+<img src="../assets/blog/2023-06-imex-01.png" width="230" />
+<img src="../assets/blog/2023-06-imex-03.png" width="230" />
+
 
 In a similar way, you may also play with a little [Draw app](https://github.com/webxdc/draw.xdc/releases/download/latest/draw.xdc) that can be used to import and draw pictures and then share them in a chat.
 
