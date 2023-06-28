@@ -2,6 +2,7 @@
 title: WebXDC apps can now exchange data and run on other messengers!
 author: holga, bjoern, adb
 image: ../assets/blog/2023-06-imex-00.jpg
+com_id: 110621944095573330
 ---
 
 Earlier this year we worked hard to enforce [WebXDC app privacy](https://delta.chat/en/2023-05-22-webxdc-security) 
