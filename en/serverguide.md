@@ -123,7 +123,7 @@ After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`
 
 `mailadm.example.org/new_email` needs to be reachable for HTTP requests to
 work. So create the file `data/conf/nginx/server_name.active` and add the line `mailadm.example.org` to it,
-then create `data/conf/nginx/site.mailadm.custom` and add the following block to it:
+then create the file `data/conf/nginx/site.mailadm.custom` and add the following block to it:
 
 ```
   location /new_email {
