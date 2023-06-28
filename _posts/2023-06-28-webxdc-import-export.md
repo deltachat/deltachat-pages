@@ -78,7 +78,7 @@ and [Qaul](https://qaul.net)
 who are following our WebXDC work with interest.  
 
 
-## Furthering a E2E/P2P "Next-Generation-Internet" with NLNET's help
+## Stepping stones for a E2E/P2P "Next-Generation-Internet" 
 
 <img src="../assets/logos/logo_nlnet.svg" width="230" />
 
