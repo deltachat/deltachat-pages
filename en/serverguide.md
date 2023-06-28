@@ -122,7 +122,7 @@ After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`
 ### Mailadm NGINX config
 
 `mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So create `data/conf/nginx/server_name.active` and add `mailadm.example.org` to this file,
+work. So create the file `data/conf/nginx/server_name.active` and add the line `mailadm.example.org` to it,
 then create `data/conf/nginx/site.mailadm.custom` and add the following block to it:
 
 ```
