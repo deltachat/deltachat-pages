@@ -9,7 +9,7 @@ but what good is having totally private apps if there is no convenient way to ex
 With the Delta Chat 1.38 releases we introduced [two new WebXDC APIs](https://docs.webxdc.org/spec.html#sendtochat) 
 to **safely and conveniently exchange data with other tools and apps.**
 
-<img src="../assets/blog/2023-06-imex-00.jpg" width="280" style="float:right; margin-left:1em;" />
+<img src="../assets/blog/2023-06-imex-00.jpg" width="240" style="float:right; margin-left:1em;" />
 
 To showcase and design the new APIs we developed a little [cross-platform Calendar web app](https://github.com/webxdc/calendar/) that: 
 
@@ -29,14 +29,14 @@ To showcase and design the new APIs we developed a little [cross-platform Calend
 You may [download the latest released Calendar app here](https://github.com/webxdc/calendar/releases/latest/download/calendar.xdc) 
 and then send the downloaded `.xdc` app file into your "Saved messages" chat (shared between all your devices) or into any group chat so that chat members can play around as well. 
 
-<img src="../assets/blog/2023-06-imex-01.png" width="230" />
-<img src="../assets/blog/2023-06-imex-03.png" width="230" />
+<img src="../assets/blog/2023-06-imex-01.png" width="210" />
+<img src="../assets/blog/2023-06-imex-03.png" width="210" />
 
 In a similar way, you may also play with a little [Draw app](https://github.com/webxdc/draw/releases/latest/download/draw.xdc) 
 that can be used to import and draw pictures and then share them in a chat.
 
-<img src="../assets/blog/2023-06-imex-04.jpg" width="230" />
-<img src="../assets/blog/2023-06-imex-05.jpg" width="230" />
+<img src="../assets/blog/2023-06-imex-04.png" width="200" />
+<img src="../assets/blog/2023-06-imex-05.png" width="200" />
 
 Please note that both the Calendar and Draw apps were done "on the side" 
 by Delta Chat developers who are not specializing into web apps. 
@@ -64,7 +64,7 @@ or checkout [cosmos.delta.chat](https://cosmos.delta.chat) for further links.
 
 ## All fine and dandy but what about other messengers supporting WebXDC? 
 
-<img src="../assets/blog/2023-06-03-cheogram-webxdc.jpg" width="130" style="float:right; margin-left:1em;" />
+<img src="../assets/blog/2023-06-03-cheogram-webxdc.jpg" width="190" style="float:right; margin-left:1em;" />
 
 In recent months we happily noticed that 
 two Android XMPP-messengers, [Cheogram](https://cheogram.com/) and [Monocles](https://monocles.wiki/index.php?title=Main_Page),
@@ -81,7 +81,7 @@ who are following our WebXDC work with interest.
 
 ## Stepping stones for an E2E "Next-Generation-Internet" 
 
-<img src="../assets/logos/logo_nlnet.svg" width="230" style="float:right; margin-left:1em;" />
+<img src="../assets/logos/logo_nlnet.svg" width="230" style="clear: both; float:right; margin-left:1em;" />
 
 Our work on introducing new I/O APIs for WebXDC apps was funded 
 through [NLNET Zero Entrust](https://nlnet.nl/entrust/), 
