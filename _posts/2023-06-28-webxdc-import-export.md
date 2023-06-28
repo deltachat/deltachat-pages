@@ -32,7 +32,7 @@ and then send the downloaded `.xdc` app file into your "Saved messages" chat (sh
 <img src="../assets/blog/2023-06-imex-03.png" width="230" />
 
 
-In a similar way, you may also play with a little [Draw app](https://github.com/webxdc/draw.xdc/releases/latest/download/draw.xdc) that can be used to import and draw pictures and then share them in a chat.
+In a similar way, you may also play with a little [Draw app](https://github.com/webxdc/draw/releases/latest/download/draw.xdc) that can be used to import and draw pictures and then share them in a chat.
 
 <img src="../assets/blog/2023-06-imex-04.jpg" width="230" />
 <img src="../assets/blog/2023-06-imex-05.jpg" width="230" />
