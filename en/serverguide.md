@@ -117,13 +117,14 @@ SKIP_SOGO=y
 
 The last 3 options remove services which are not needed for a minimal setup.
 
-After that we need to run `printf "#\n" > data/conf/dovecot/global_sieve_before`.
+After that we need to run `echo '#' > data/conf/dovecot/global_sieve_before`.
 
 ### Mailadm NGINX config
 
 `mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So create the file `data/conf/nginx/server_name.active` and add the line `mailadm.example.org` to it,
-then create the file `data/conf/nginx/site.mailadm.custom` and add the following block to it:
+work. So we need to create two files for Mailcows Nginx redirection. First we do
+`echo 'mailadm.example.org' > data/conf/nginx/server_name.active` and then we create
+the file `data/conf/nginx/site.mailadm.custom` and add the following block to it:
 
 ```
   location /new_email {
