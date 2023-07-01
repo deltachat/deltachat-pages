@@ -66,3 +66,7 @@ To all of you out there who are in the same spot as I was two years ago: If you 
 # Contributing
 
 PRs are welcome at [https://codeberg.org/lk108/deltatouch](https://codeberg.org/lk108/deltatouch). If you're not a programmer, you can still contribute bug reports on Codeberg. You can also give feedback regarding usability, layout etc. Feel free to contact me in English or German via chat or classic email - username is deltatouch, domain is mailbox followed by org.
+
+# Download
+
+[![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/deltatouch.lotharketterer)
