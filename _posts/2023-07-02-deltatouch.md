@@ -60,7 +60,9 @@ The first task proved to be the hardest. To use libdeltachat on UT, it has to be
 
 A very important aspect was that even when I didn't know how to handle a certain topic, I could always count on the Delta Chat and the UT AppDev community. Shout out to [Simon (treefit)](https://fosstodon.org/@treefit), link2xt and [adbenitez](https://mastodon.social/@adbenitez) from Delta and Maciek, dobey and Jonatan from the UT community for their friendly and competent help, very much appreciated! Thanks also to [Marko](https://kanoa.de/@playforvoices) for testing and valuable suggestions.
 
-To all of you out there who are in the same spot as I was two years ago: If you want to get involved into development, but think you are not capable of it - yes, it takes some learning and dedication, but it's absolutely doable. Don't hesitate to ask for help, the community is very willing to respond to your questions.
+To sum up this journey, I made my first steps with libdeltachat around September 2022. During Christmas holidays in 2022, development of DeltaTouch really took up speed. From then on I spent almost every day working on it. I didn't track the time, but on average, it was probably two hours per working day - sometimes less, but much more on the weekends. My rough guess would be that it took around 500 hours up to now.
+
+To all of you out there who are in the same spot as I was not too long ago: If you want to get involved into development, but think you are not capable of it - yes, it takes some learning and dedication, but it's absolutely doable. Don't hesitate to ask for help, the community is very willing to respond to your questions.
 
 ## Contributing
 
