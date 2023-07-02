@@ -2,10 +2,9 @@
 title: Introducing DeltaTouch, a new community created client for Ubuntu Touch
 author: lk108
 image: ../assets/blog/2023-07-deltatouch.png
-com_id: 110621944095573330
 ---
 
-Hi, this is Lothar aka lk108. I'm today's guest on the blog and it's my pleasure to introduce DeltaTouch, a third-party client based on deltachat-core for the mobile phone OS [Ubuntu Touch](https://ubports.com) (UT). The app has just been [released on the OpenStore](https://open-store.io/app/deltatouch.lotharketterer) for both the xenial and the focal channel of UT. Here's how it looks like:
+Hi, this is Lothar aka lk108. I'm today's guest on the blog and it's my pleasure to introduce DeltaTouch, a third-party client based on deltachat-core for the mobile phone OS [Ubuntu Touch](https://ubports.com) (UT). The app has just been [released on the OpenStore](https://open-store.io/app/deltatouch.lotharketterer) for both the xenial and the focal channel of UT. Here's what it looks like:
 
 <img src="../assets/blog/2023-07-chatlist.png" style="width:230px;" alt="" />
 <img src="../assets/blog/2023-07-surudark.png" style="width:230px;" alt="" />
@@ -38,7 +37,7 @@ Things still missing include:
 * Act as primary device to add second device
 * Encrypt database (may be important for UT as it currently doesn't offer encryption on OS level)
 * Connectivity status
-* "Last seen" green dot
+* "Seen recently" green dot
 * Clear chat
 
 These are planned to be implemented in the coming months.
@@ -59,7 +58,7 @@ That's when the idea to create a DC client first crossed my mind. Just as before
 
 The first task proved to be the hardest. To use libdeltachat on UT, it has to be cross-compiled for arm64 or armhf, against the libc version of UT. This took me weeks to figure out. Maybe the reason was that for it to work, it's needed to align CMake, cargo and library handling via clickable, all three with which I had no experience whatsoever. Once the lib was in place, most of the rest came surprisingly easy. When looking at a certain feature in the official clients, it was usually very clear from the C interface documentation how this was supposed to be implemented. Regarding Qt/QML, I had to get used to working with signals and slots. I also had to learn about Qt classes and their usage, but the documentation by Qt is very comprehensible as well. Of course, sometimes I got stuck and had to spend some time to find a solution to a certain problem. There are some minor issues that are still not solved, but nothing too serious to block the whole project.
 
-A very important aspect was that even when I didn't know how to handle a certain topic, I could always count on the Delta Chat and the UT AppDev community. Shout out to Simon (treefit), link2xt and adbenitez from Delta and Maciek, dobey and Jonatan from the UT community for their friendly and competent help, very much appreciated! Thanks also to Marko for testing and valuable suggestions.
+A very important aspect was that even when I didn't know how to handle a certain topic, I could always count on the Delta Chat and the UT AppDev community. Shout out to [Simon (treefit)](https://fosstodon.org/@treefit), link2xt and [adbenitez](https://mastodon.social/@adbenitez) from Delta and Maciek, dobey and Jonatan from the UT community for their friendly and competent help, very much appreciated! Thanks also to [Marko](https://kanoa.de/@playforvoices) for testing and valuable suggestions.
 
 To all of you out there who are in the same spot as I was two years ago: If you want to get involved into development, but think you are not capable of it - yes, it takes some learning and dedication, but it's absolutely doable. Don't hesitate to ask for help, the community is very willing to respond to your questions.
 
