@@ -10,7 +10,7 @@ Hi, this is Lothar aka lk108. I'm today's guest on the blog and it's my pleasure
 <img src="../assets/blog/2023-07-surudark.png" style="width:230px;" alt="" />
 <img src="../assets/blog/2023-07-ambiance.png" style="width:230px;" alt="" />
 
-# Features
+## Features
 
 Development of the app was done by looking at the features of the official clients and implementing them one by one. Here are some examples of what's already there:
 * Set up accounts by
@@ -42,15 +42,15 @@ Things still missing include:
 
 These are planned to be implemented in the coming months.
 
-# Background and History
+## Background and History
 
-## Why this app?
+### Why this app?
 
 I don't have to tell you which messenger is the best, right? Unfortunately, there was no app for the only smartphone OS I have ever used. Sure, it might be possible to run the Android app via waydroid, but waydroid massively impacts battery life, blocks GPS reads for the rest of the system and for some devices, it's not available at all. Therefore, a native app is the way to go.
 
 However, for a long time I felt that I wasn't competent to develop apps for UT, let alone something like a DC client. Granted, although it wasn't related to my main studies at all, many years ago I was able to attend an add-on computer science program at university, and I had some basic C++ skills. But I had never done anything with Qt/QML (the preferred framework for UT), and I didn't know anything about CMake or [clickable](https://clickable-ut.dev/en/latest/index.html) (the tool to build click packages as used by UT).
 
-## How it came into being
+### How it came into being
 
 This all changed in April 2022 when I attended the first development meeting of the [Ubuntu Teach Inititiave](https://ubports.com/en/blog/ubports-news-1/tag/app-development-newsletter-13). Over a few hours, some experienced UT developers helped me to set up a project and showed me the basics of QML. Several weeks later my first app entered the OpenStore. It's QML only and just a small tool with no connection to DC, but it opened the world of app development for me.
 
@@ -62,10 +62,10 @@ A very important aspect was that even when I didn't know how to handle a certain
 
 To all of you out there who are in the same spot as I was two years ago: If you want to get involved into development, but think you are not capable of it - yes, it takes some learning and dedication, but it's absolutely doable. Don't hesitate to ask for help, the community is very willing to respond to your questions.
 
-# Contributing
+## Contributing
 
 PRs are welcome at [https://codeberg.org/lk108/deltatouch](https://codeberg.org/lk108/deltatouch). If you're not a programmer, you can still contribute bug reports on Codeberg. You can also give feedback regarding usability, layout etc. Feel free to contact me in English or German via chat or classic email - username is deltatouch, domain is mailbox followed by org.
 
-# Download
+## Download
 
 [![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/deltatouch.lotharketterer)
