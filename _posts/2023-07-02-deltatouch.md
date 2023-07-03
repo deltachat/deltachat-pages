@@ -2,6 +2,7 @@
 title: Introducing DeltaTouch, a new community created client for Ubuntu Touch
 author: lk108
 image: ../assets/blog/2023-07-openstore-badge.png
+com_id: 110650443882930357
 ---
 
 Hi, this is Lothar aka [lk108](https://social.tchncs.de/@lk108). I'm today's guest on the blog and it's my pleasure to introduce DeltaTouch, a third-party client based on deltachat-core for the mobile phone OS [Ubuntu Touch](https://ubports.com) (UT). The app has just been [released on the OpenStore](https://open-store.io/app/deltatouch.lotharketterer) for both the xenial and the focal channel of UT. Here's what it looks like:
