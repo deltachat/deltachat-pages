@@ -1,7 +1,7 @@
 ---
 title: Introducing DeltaTouch, a new community created client for Ubuntu Touch
 author: lk108
-image: ../assets/blog/2023-07-deltatouch.png
+image: ../assets/blog/2023-07-openstore-badge.png
 ---
 
 Hi, this is Lothar aka [lk108](https://social.tchncs.de/@lk108). I'm today's guest on the blog and it's my pleasure to introduce DeltaTouch, a third-party client based on deltachat-core for the mobile phone OS [Ubuntu Touch](https://ubports.com) (UT). The app has just been [released on the OpenStore](https://open-store.io/app/deltatouch.lotharketterer) for both the xenial and the focal channel of UT. Here's what it looks like:
@@ -59,6 +59,8 @@ That's when the idea to create a DC client first crossed my mind. Just as before
 The first task proved to be the hardest. To use libdeltachat on UT, it has to be cross-compiled for arm64 or armhf, against the libc version of UT. This took me weeks to figure out. Maybe the reason was that for it to work, it's needed to align CMake, cargo and library handling via clickable, all three with which I had no experience whatsoever. Once the lib was in place, most of the rest came surprisingly easy. When looking at a certain feature in the official clients, it was usually very clear from the C interface documentation how this was supposed to be implemented. Regarding Qt/QML, I had to get used to working with signals and slots. I also had to learn about Qt classes and their usage, but the documentation by Qt is very comprehensible as well. Of course, sometimes I got stuck and had to spend some time to find a solution to a certain problem. There are some minor issues that are still not solved, but nothing too serious to block the whole project.
 
 A very important aspect was that even when I didn't know how to handle a certain topic, I could always count on the Delta Chat and the UT AppDev community. Shout out to [Simon (treefit)](https://fosstodon.org/@treefit), link2xt and [adbenitez](https://mastodon.social/@adbenitez) from Delta and Maciek, dobey and Jonatan from the UT community for their friendly and competent help, very much appreciated! Thanks also to [Marko](https://kanoa.de/@playforvoices) for testing and valuable suggestions.
+
+<img src="../assets/blog/2023-07-deltatouch.png" style="width:230px;" alt="" />
 
 To sum up this journey, I made my first steps with libdeltachat around September 2022. During Christmas holidays in 2022, development of DeltaTouch really took up speed. From then on I spent almost every day working on it. I didn't track the time, but on average, it was probably two hours per working day - sometimes less, but much more on the weekends. My rough guess would be that it took around 500 hours up to now.
 
