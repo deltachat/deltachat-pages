@@ -63,15 +63,19 @@ Let's assume:
 
 Now you could configure the domain settings for example.org like this:
 
-```
-A	mail		24.48.100.24		5min
-AAAA    mail		7fe5:2f4:1ba:2381::3	5min
-MX	@		mail			5min	priority: 10
-CNAME	autoconfig	mail			5min
-CNAME	autodiscover	mail			5min
-CNAME	mailadm		mail			5min
-TXT	@		"v=spf1 mx -all"	5min
-```
+| Type  | Name            | Data                                                 | TTL  | Priority |
+|-------|-----------------|------------------------------------------------------|------|----------|
+| A     | mail            | 24.48.100.24                                         | 5min |          |
+| AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
+| MX    | @               | mail.example.org                                     | 5min |    10    |
+| CNAME | autoconfig      | mail.example.org                                     | 5min |          |
+| CNAME | autodiscover    | mail.example.org                                     | 5min |          |
+| CNAME | mailadm         | mail.example.org                                     | 5min |          |
+| TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
+| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+
+You can setup the DKIM key after setting up mailcow,
+in System>Configuration>Options>ARC/DKIM keys.
 
 You can do more than 5 minutes, but in case you notice something is wrong a
 short time helps with fixing the wrong entry.
@@ -109,7 +113,7 @@ Choose the Branch with it´s number [1/2] 1
 You should specify the following variables in mailcow.conf:
 
 ```
-ADDITIONAL_SAN=mailadm.example.org`
+ADDITIONAL_SAN=mailadm.example.org
 SKIP_CLAMD=y
 SKIP_SOLR=y
 SKIP_SOGO=y
@@ -121,10 +125,11 @@ After that we need to run `echo '#' > data/conf/dovecot/global_sieve_before`.
 
 ### Mailadm NGINX config
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to
-work. So we need to create two files for Mailcows Nginx redirection. First we do
-`echo 'mailadm.example.org' > data/conf/nginx/server_name.active` and then we create
-the file `data/conf/nginx/site.mailadm.custom` and add the following block to it:
+`mailadm.example.org/new_email` needs to be reachable for HTTP requests to work. 
+So we need to create two files for Mailcows Nginx redirection. 
+First we do `echo 'mailadm.example.org' > data/conf/nginx/server_name.active` 
+and then we create the file `data/conf/nginx/site.mailadm.custom` 
+and add the following block to it:
 
 ```
   location /new_email {
@@ -133,6 +138,9 @@ the file `data/conf/nginx/site.mailadm.custom` and add the following block to it
 ```
 
 Make sure to replace this example IP address with your server's IP address.
+
+This will forward all requests to `mailadm.example.org/new_email` to the mailadm
+container later.
 
 ### Download mailcow containers
 
@@ -286,20 +294,52 @@ Best look at the documentation for the [first
 steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
 contains hints for troubleshooting the setup if something doesn't work.
 
-## Optional: Protect mailadm against DoS attacks with ufw
+## Optional: Disable POP3
 
-You can setup ufw as a firewall to protect mailadm against DoS attacks:
+Delta Chat uses only SMTP and IMAP,
+so if all of your users use Delta Chat,
+you can disable POP3.
+
+To do this, add the following to `mailcow.conf`:
 
 ```
-sudo apt install -y ufw
-sudo ufw default allow incoming
-sudo ufw deny 3691
-sudo ufw enable
+POP_PORT=127.0.0.1:110
+POPS_PORT=127.0.0.1:995
 ```
 
-This way, mailadm is only reachable from the outside via nginx, which is more
-robust against denial of service attacks than gunicorn (the mailadm built-in web
-server).
+Then apply the changes with `sudo docker compose up -d`.
+
+## Optional: Redirect all HTTP traffic to HTTPS
+
+By default,
+the nginx server also responds unencrypted
+on port 80.
+This can be bad,
+as some users might enter passwords
+over this unencrypted connection.
+
+To prevent this,
+create a new file `data/conf/nginx/redirect.conf`
+and add the following server config to the file:
+
+```
+server {
+  root /web;
+  listen 80 default_server;
+  listen [::]:80 default_server;
+  include /etc/nginx/conf.d/server_name.active;
+  if ( $request_uri ~* "%0A|%0D" ) { return 403; }
+  location ^~ /.well-known/acme-challenge/ {
+    allow all;
+    default_type "text/plain";
+  }
+  location / {
+    return 301 https://$host$uri$is_args$args;
+  }
+}
+```
+
+Then apply the changes with `sudo docker compose restart nginx-mailcow`.
 
 ## Optional: No Logs, No Masters
 

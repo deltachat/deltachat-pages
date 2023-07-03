@@ -2,6 +2,7 @@
 title: Swipe to Reply and other Android News
 author: bjoern
 image: ../assets/blog/2020-11-swipe-to-reply.jpg
+com_id: 105165541171654876
 ---
 
 Cold November? No! After many weeks of development and testing,
@@ -13,6 +14,7 @@ What can you expect from **Delta Chat Android 1.14?**
 ## Swipe to Reply
 
 <img src="../assets/blog/2020-11-swipe-to-reply.jpg" width="330" style="float: left; clear:both; margin-right:1em; margin-bottom:.2em;" alt="User thumb shown swiping a message." />
+
 A long awaited feature is now here.
 Not much to explain — this is well known from other apps:
 
@@ -33,6 +35,7 @@ that takes care of the **_really_ hard stuff:**
 Crypto, network, protocols, database — you get the idea.
 
 <img src="../assets/blog/2020-11-machine-room.jpg" width="330" style="float: right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="Some art-like connected electronics on a shaded wall." />
+
 Changes in the core are not directly visible to the user.
 The rationale is:
 If you do not notice the core, it does **the best job it can do.**
@@ -60,6 +63,7 @@ A big "thank you" for this incredible work!
 ## Some more things
 
 <img src="../assets/blog/2020-11-disappearing.jpg" width="330" style="float: right; clear:both; margin-left:1em; margin-bottom:.2em;" alt="Phone screen showing alternatives for how long messages should be retained." />
+
 Some other features at a glance:
 
 * **Disappearing messages**,

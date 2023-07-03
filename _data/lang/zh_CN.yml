@@ -16,6 +16,7 @@ zh_CN:
   subscribe_to_feed: 订阅我们的订阅源
 
   references: 参考
+  donate: ""
   imprint: 印记
   privacy: 隐私政策
   language: 语言
@@ -39,3 +40,6 @@ zh_CN:
     dl_apk_text:
       before: 您也可以下载为
       after: （实验性）
+
+  help:
+    offline_hint: ""

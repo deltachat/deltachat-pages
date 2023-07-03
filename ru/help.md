@@ -23,36 +23,31 @@ Delta Chat — это новое приложение для обмена мгн
 
 ### Каковы преимущества Delta Chat по сравнению с другими мессенджерами?
 
-_Независимый_ от любой компании или сервиса. _Вы_ распоряжаетесь своей информацией.
-- Ваши данные не сохраняются на центральном сервере, если только все пользователи не используют те же самые почтовые серверы.
-- Вы не отдаёте свою адресную книгу никому.
-- _Быстрый_ благодаря использованию IMAP push.
-- _Доступный максимальному количеству пользователей_ - получатель, _не_ использующий Delta Chat, может получить ваше сообщение.
-- _Совместимый_ не только с самим собой.
-- _Элегантный_ и _простой_ интерфейс.
-- _Децентрализованная_ система.
-- _Без спама_ - по умолчанию показываются сообщения только от известных отправителей.
-- _Надёжный_ - безопасен для профессионального использования.
-- _Заслуживает доверия_ - можно использовать даже для деловой переписки.
-- Основан на _свободном_, соответствующим _стандартам_ программном обеспечении.
+- _Independent_ of any company or services. _You_ own your data.
+- Your data is not saved on a central server unless all users are using
+  the same e-mail servers
+- You do not distribute your address book to anyone.
+- _Fast_ by the use of Push-IMAP.
+- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
+- _No Spam_ - only messages of known users are shown by default.
+- _End-to-end-encryption_ via Autocrypt.
+- _Copyleft_ and _Standards_ based libre software.
+- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
 ### Какие сообщения отображаются в Delta Chat?
 
-By default, Delta Chat shows:
+By default, Delta Chat shows all e-mails.
 
-- Messages sent by other Delta Chat users
-- Replies to your Delta Chat messages, even if they are "normal e-mails".
-
-Other e-mails don't appear in your app by default. At "Settings -> Chats &
+At "Settings -> Chats &
 Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - "No, chats only": Only messages sent by other Delta Chat users and replies to
   your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well. This is the default setting.
+  e-mail account for normal e-mails as well.
 - "All": Delta Chat shows all e-mails that are sent to your email address. This
   makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost.
+  gets lost. This is the default setting.
 - "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
   you already have a chat, but new chats only pop up for Delta Chat messages.
   This helps to decide on a case-by-case basis whether you want to have a
@@ -75,6 +70,15 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - Да. Помимо обычного текста, все вложения электронной почты отображаются в виде отдельных сообщений. В исходящие сообщения вложения встраиваются по мере необходимости автоматически.
 
+- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+
+<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+
+You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
+- on the menu button and then 'Switch Account' (Android and desktop)
+- or the profile icon and then 'Add Account' (iOS)
+
+You may also wish to learn [how to add accounts to multiple devices](#multiclient).
 
 ### Кто видит моё изображение в профиле?
 
@@ -153,7 +157,7 @@ Use these tools to organize your chats and keep everything in its place:
 - **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
 
 - **Archive chats** if you do not want to see them in your chat list any longer.
-  At the very bottom of the chat list, in the menu or via search, you can still access the archived chats.
+  Archived chats remain accessible above the chat list or via search. 
 
 - When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
   **Muted chats stay archived** until you unarchive them manually.
@@ -171,13 +175,25 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   - because they wrote something to a group you are both a member of,
   - because they sent you a read receipt for a message you wrote,
   - or because they sent data to your Delta Chat app by using a
-    [private app](#private-apps--webxdc).
+    [private app](#webxdc).
 - So this is not a real time online status - and if someone doesn't answer
   right away even though they seem to be online, don't worry and give them some
   space ;-)
 - On the other hand, others will not always "see that you are online". If you
   have turned off read receipts, they will not see the green dot until you
   message them or write to a group they're in as well.
+
+
+### How can I delete my account?
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ## Группы
@@ -222,20 +238,23 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
 
 ### What happens if I turn on "Delete old messages from server"?
 
-- By default, Delta Chat stores all messages locally on your device. If you
-  e.g. want to save storage space at your mail provider, you can choose to
-  delete old messages automatically. They still remain on your device until you
-  delete them there, too.
-- To turn it on, go to "delete old messages from server" in the "Chats & Media"
-  settings. You can set a timeframe between "at once" and "after a year"; this
-  way, *all* e-mails will be deleted from the server after that timeframe. 
-- Note that if you use Delta Chat on more than one device, you should leave the
-  messages on the server, until the other device could download them, too. In
-  this case, you should set auto-delete to "after a day" or something similar,
-  depending on how often you turn on the other device.
+- By default, Delta Chat stores all messages locally on your device.
+  If you  e.g. want to save storage space at your mail provider,
+  you can configure  Delta Chat
+  to delete old already-received messages on the server automatically.
+  They still remain on your device until you delete them there, too.
+
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
+  in the "Chats and Media" settings.
+  You can set a timeframe between "At once" and "After 1 year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+
+- Note that if you use Delta Chat on more than one device,
+  you need to leave the message on the server with a sufficient timeframe
+  so that the other device(s) can download them, too.
 
 
-### What happens if I turn on "Delete old messages from device"?
+### What happens if I turn on "Delete old messages from device"? {#delold}
 
 - If you want to save storage on your device, you can choose to delete old
   messages automatically. 
@@ -306,6 +325,30 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
 
 - Если **нет замка**, сообщение обычно передаётся в незашифрованном виде, например, потому что вы или отправитель отключили сквозное шифрование, или отправитель использует приложение без поддержки сквозного шифрования.
 
+
+### How can I ensure message encryption and deletion?
+
+The best way to ensure every message is encrypted,
+and metadata deleted as quickly as possible
+is creating a verified group and turning on
+disappearing messages.
+
+Verified groups are always encrypted and protected against [MITM
+attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+
+Metadata can't be encrypted, as the server needs to know where to deliver your
+messages. But turning on "disappearing messages" deletes the messages on
+the server after they were delivered.
+
+If you need the messages on your device, but not on the server, you can also
+agree in the group to turn on ["delete messages from server
+automatically"](#delold).
+
+If you want to protect a 1:1 conversation like this, you should create a
+verified group with only 2 people. If the other person loses their device but
+not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
+
+
 ### Какие стандарты используются для сквозного шифрования?
 
 - [Autocrypt](https://autocrypt.org) используется для создания 
@@ -315,7 +358,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
 - Delta Chat реализует [протоколы настройки противодействию MITM, для контактов и проверенных групп](https://countermitm.readthedocs.io/en/latest/new.html) для обеспечения защиты от активных сетевых атак. Это выходит за рамки беспринципной
  базовой защиты Autocrypt 1 уровня, сохраняя при этом простоту использования.
 
-### В чём разница между проверенными группами и чатами 1-на-1 с проверенными контактами?
+### В чём разница между проверенными группами и чатами 1-на-1 с проверенными контактами? {#verdiff}
 
 - Чаты 1-на-1 с проверенным контактом и проверенными группами это не одно и то же, даже
  если в проверенной группе всего 2 человека. Одно из отличий состоит в том, что вы
@@ -399,18 +442,51 @@ Delta Chat поддерживает расспространённые форм�
 Для других программ ищите решение в интернете.
 
 
-### Почему не используется pEp (pretty easy privacy)?
-
-- Delta Chat использует стандарт сквозного шифрования Autocrypt.
-  Сравнение Autocrypt и pEp смотрите в [Autocrypt FAQ](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Мультиклиент {#multiclient}
 
 ### Можно ли использовать Delta Chat на нескольких устройствах одновременно?
 
-Если вы хотите использовать одну и ту же учётную запись на разных устройствах, вам следует экспортировать
-резервную копию со старого устройства и импортировать её на новое устройство:
+Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+
+- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
+  and wait a moment until a QR code is shown
+
+- On the second device, [install Delta Chat](https://get.delta.chat)
+
+- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+
+- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
+  Wait until it is finished on both devices.
+
+In contrast to many other messengers, after successful transfer,
+both **devices are completely independent.**
+One device is not needed for the other to work.
+
+
+### Troubleshooting
+
+- Double-check both devices are in the **same Wi-Fi or network**
+
+- Your system might have a "personal firewall",
+  which is known to cause problems (especially on Windows).
+  **Disable the personal firewall** for Delta Chat on both ends and try again
+
+- Ensure there is **enough storage** on the destination device
+
+- If transfer started, make sure, the devices **stay active** and do not fall asleep.
+  Do not exit Delta Chat.
+  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+
+- Delta Chat is **already logged in** on the destination device?
+  You can use multiple accounts per device, just [add another account](#multiple-accounts)
+
+- If you still have problems or if you **cannot scan a QR code**
+  try the **manual transfer** described below
+
+
+### Manual Transfer
+
+This method is only recommended if "Add Second Device" as described above does not work.
 
 - On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
@@ -469,7 +545,7 @@ Delta Chat поддерживает расспространённые форм�
 В противном случае удаление сообщений или настройки могут работать неправильно.
 
 
-## Private Apps / webxdc
+## Private Apps / webxdc {#webxdc}
 
 In Delta Chat, you can share "private apps", attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly
@@ -641,6 +717,14 @@ it](https://delta.chat/en/2022-09-14-aeap).
   смотрите [Обзор провайдеров](https://providers.delta.chat)
 
 
+### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+
+- Most mail servers will work well. But what we personally recommend is a
+  combination of mailcow and mailadm, as described [in this
+  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
+- You can find an [installation guide on our website](serverguide).
+
+
 ### Если Delta Chat использует электронную почту, действительно ли это сервис обмена мгновенными сообщениями (мессенджер)?
 
 - Отправка и получение сообщений обычно занимает несколько секунд. Иногда
@@ -674,6 +758,47 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 - Смотрите [Стандарты, используемые в Delta Chat]({% include standards-url %}).
 
+### Was Delta Chat independently audited for security vulnerabilities?
+
+The Delta Chat project underwent four independent security audits in the last years:
+
+- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's [PGP](https://github.com/rpgp/rpgp) and
+  [RSA](https://github.com/RustCrypto/RSA) libraries.
+  It found no critical issues,
+  but two high-severity issues that we subsequently fixed.
+  It also revealed one medium-severity and some less severe issues,
+  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
+  Some of them we nevertheless fixed since the audit was concluded.
+  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+
+- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+  [IMAP](https://github.com/async-email/async-imap),
+  [SMTP](https://github.com/async-email/async-smtp), and
+  [TLS](https://github.com/async-email/async-native-tls) libraries.
+  It did not find any critical or high-severity issues.
+  The report raised a few medium-severity weaknesses -
+  they are no threat to Delta Chat users on their own
+  because they depend on the environment in which Delta Chat is used.
+  For usability and compatibility reasons,
+  we can not mitigate all of them
+  and decided to provide security recommendations to threatened users.
+  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+
+- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
+  Delta Chat's network connections and a reproducible mail server setup as
+  [recommended on this site](serverguide).
+  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
+  or read the [full report here](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
+  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
+
 ### Как финансируются разработки Delta Chat?
 
 Delta Chat не получает никакого венчурного капитала,
@@ -705,17 +830,26 @@ Delta Chat не получает никакого венчурного капи�
 - В 2021 мы получили дополнительное финансирование из ЕС для двух Next-Generation-Internet
 целей, а именно для [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97 тыс. евро) и [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90 тыс. евро). Это привело к улучшению поддержки мультиклиентности, QR-кодов, настройки контактов и групп, и множеству улучшений в работе сети для всех платформ.
 
-- На 2021/2022 год мы получаем финансирование *Интернет Свобода* (~$500 тыс.) от
-Бюро демократии, прав человека и труда США (DRL). 
-Это финансирование поддерживает наши долгосрочные цели сделать Delta Chat более удобным
-и совместимым с большим количеством почтовых серверов по всему миру, а также более устойчивым и безопасным
-в местах, часто подверженных интернет цензуре и шатдаунам.
+- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
+  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
+  This funding supported our long-running goals to make Delta Chat more usable 
+  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
+  in places often affected by internet censorship and shutdowns.
 
-- Иногда мы получаем разовые пожертвования от частных лиц, за
-что мы им благодарны. Например, в 2021 был сделан щедрый банковский перевод на сумму 4 тысячи евро 
-с заголовком "продолжайте разработку в том же духе!". Мы используем данные деньги, для
-того чтобы покрывать непредвиденные расходы, которые нелегко спрогнозировать
-или возместить за счёт государственных грантов. 
+- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
+  Entrust program for our "Private Decentralized Apps" proposals. 
+  Exact amount is to be determined (around 100K EUR). 
+  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+
+- Sometimes we receive one-time donations from private individuals. 
+  For example, in 2021 a generous individual bank-wired us 4K EUR 
+  with the subject "keep up the good developments!". 💜 
+  We use such money to fund development gatherings or to care for ad-hoc expenses 
+  that can not easily be predicted for, or reimbursed from, public funding grants. 
+  Receiving more donations also helps us to become more independent and long-term viable
+  as a contributor community. 
+
+  [Donate Money](donate){: .cta-button}
 
 - И последнее, но далеко не менее важное: несколько экспертов и энтузиастов на общественных началах внесли
  и вносят свой вклад в развитие Delta Chat, не получая денег, а только
@@ -725,4 +859,5 @@ Delta Chat не получает никакого венчурного капи�
 Упомянутые выше денежные сборы было организованы компанией merlinux GmbH в городе
 Фрайбург (Германия), и распределяются среди более чем дюжины участников по всему миру. 
 
-Финансирование на вторую половину 2022 года, а особенно на 2023 год являются текущей проблемой. Помимо подачи заявок, на увеличение финансирования, мы хотим стать более независимыми от государственных источников. Пожалуйста, ознакомьтесь с [разделом Содействие](https://delta.chat/ru/contribute), как для внесения денежной поддержки, так и для того, чтобы помочь в дальнейшей разработки своими силами. 
+Please see [Delta Chat Contribution channels](contribute)
+for both monetary and and other contribution possibilities.  

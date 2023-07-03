@@ -1,76 +1,48 @@
 ---
-title: Community Standards
+title: Стандарти спільноти
 lang: uk
 ---
 
-# Delta Chat Community Standards
+# Стандарти спільноти Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
+В інтересах сприяння відкритому та доброзичливому середовищу ми як учасники та супроводжувачі прагнемо зробити участь у спільноті Delta Chat приємним досвідом без переслідувань.
 
 
-## Our Standards
+## Наші стандарти
 
-Examples of behavior that contribute to creating a positive environment include:
+Приклади поведінки, які сприяють створенню позитивного середовища, включають:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
+* Використання привітної та інклюзивної мови 
+* Повага до різних точок зору та досвіду 
+* Ввічливо сприймати конструктивну критику 
+* Виявляти емпатію до членів спільноти та новачків 
+* Допомога та посередництво у випадках розладів чи конфліктів
 
-Examples of behavior which we ask everybody to avoid include:
+Приклади поведінки, яких ми просимо всіх уникати, включають:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
+* Використання сексуалізованих висловлювань або образів і небажаної сексуальної уваги чи заохочень 
+* Тролінг, образливі/принизливі коментарі та особисті або політичні нападки 
+* Публічне чи приватне переслідування 
+* Публікація приватної інформації інших, наприклад фізичної чи електронної адреси без явного дозволу
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Ми усвідомлюємо, що іноді люди можуть мати поганий день або можуть не знати про вплив їхньої поведінки. Коли це станеться, ви можете обережно нагадати їм про це публічно чи приватно, залежно від того, що більше підходить. Припускаючи добросовісність, більш імовірно, що учасники не знають, ніж навмисно намагаються очорнити інших або знизити якість обговорення.
 
 
-## Maintainers and Responsibilities
+## Супроводжувачі та їх обов'язки
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Супроводжувачі проекту — це ті, хто має права на комміт до репозиторіїв Delta Chat або адміністративні права на канали зв’язку спільноти. Кожного супроводжувача просять взяти на себе обов'язки відповідно і обережно діяти у відповідь на очевидні випадки сумнівної поведінки. Супроводжувачі проекту мають право та обов'язок видаляти, редагувати або відхиляти коментарі, коміти, код, редагування вікі, проблеми та інші внески які не відповідають нашим стандартам. Вони також можуть тимчасово або назавжди забанити учасника за іншу поведінку, яку вони вважають невідповідною, загрозливою, образливою або шкідливою.
 
-## Scope
+## Сфера застосування
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Наші стандарти спільноти застосовуються як до каналів комунікації проекту, так і до зібрань у громадських місцях коли особа представляє проект або його спільноту. Приклади представлення проекту чи спільноти включає використання офіційної електронної пошти проекту, опублікування повідомлення через офіційний обліковий запис у соціальних мережах або діючи як представник на онлайн- чи офлайн-заході.
 
-## Reporting and Responses
+## Повідомлення та реакція
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
+Якщо ви зазнаєте або стали свідком знущань, образливої ​​чи іншої неприйнятної поведінки ви можете поговорити з вибраними супроводжуючими проектів, наразі з [Намі](mailto:missytake@systemli.org) і [Ксенією](mailto:ksenia@transcyberian.org). Вони розглядатимуть звіти та залучатимуть інших супроводжувачів у разі потреби, і відповість у спосіб, який вважатиметься за потрібне та відповідним обставинам, але не проти вашої волі.
 
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Супроводжувачі зобов'язані зберігати конфіденційність щодо особи, що повідомила про інцидент. Технічні працівники самі не звільняються від звітності і можуть отримати до тимчасові або постійні наслідки які визначать інші супроводжуючі.
 
 
-## Attribution
+## Атрибуція
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Наш документ про стандарти спільноти адаптовано з [Угоди учасника](https://contributor-covenant.org), версія 1.4, що доступний за адресою <https://contributor-covenant.org/version/1/4>

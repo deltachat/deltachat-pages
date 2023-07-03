@@ -1,76 +1,79 @@
 ---
-title: Community Standards
+title: Standarde Bashkësie
 lang: sq
 ---
 
-# Delta Chat Community Standards
+# Standarde Bashkësie Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
-
-
-## Our Standards
-
-Examples of behavior that contribute to creating a positive environment include:
-
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
-
-Examples of behavior which we ask everybody to avoid include:
-
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Në interes të ndërtimit të një mjedis të hapur dhe mikpritës, ne, si
+kontribues dhe mirëmbajtës përpiqemi ta bëjmë pjesëmarrjen në
+bashkësitë Delta Chat një akt të pëlqyeshëm, të lira në ngacmimet.
 
 
-## Maintainers and Responsibilities
+## Standarded Tona
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Në shembujt e sjelljes që kontribuon në krijimin e një mjedisi pozitiv përfshihen:
 
-## Scope
+* Përdorimi i një gjuhë mikpritëse dhe përfshirëse
+* Pasja respekt për pikëpamje dhe përvoja të ndryshme
+* Pranimi me hir i kritikave konstruktive
+* Shfaqje dashamirësie kundrejt anëtarëve të bashkësisë dhe të rishtarëve
+* Ndihmë dhe ndërmjetësim në raste shqetësimesh apo përplasjesh
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Në shembuj sjelljesh për të cilat i kërkojmë cilitdo t’i shmangë përfshihen:
 
-## Reporting and Responses
+* Përdorimi i gjuhës ose figurave të seksualizuara dhe kërkimit të vëmendjes ose avancime
+seksuale të pamirëpritura
+* “Trolling”, komente fyese/përçmuese dhe sulme personale ose politike
+* Ngacmim publik ose privat
+* Bërje publike hollësish private të të tjerëve, b.f., adresë fizike ose elektronike,
+  pa leje shprehimisht
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
-
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+E kuptojmë që ndonjëherë njerëzit mund të kenë një ditë të mbrapshtë, ose mund
+të mos kuptojnë ndikimin e sjelljes së tyre. Ku ndodh kjo, mundet t’ua vëmë në dukje
+me kujdes, publikisht ose privatisht, cilado qoftë më e përshtatshme. Supozoni të mirën;
+ka më shumë mundësi që pjesëmarrësit të mos kuptojnë se po rreken me dashje
+të denigrojnë të tjerët ose të ulin cilësinë e diskutimeve.
 
 
-## Attribution
+## Mirëmbajtës dhe Përgjegjës
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Mirëmbajtësit e projektit janë ata që me të drejta depozitimi në depot e Delta Chat-it, ose të drejta administrative në kanalet e komunikimit të bashkësisë.
+Çdo mirëmbajtësi i kërkohet të mbajë përgjegjësi dhe ndërmarrë veprim
+të kujdesshëm, të përshtatshëm, në përgjigje të rasteve të dëshmuar të sjelljesh
+të diskutueshme.
+Mirëmbajtësit e projektit kanë të drejtën dhe përgjegjësi të heqin, përpunojnë, ose
+hedhin poshtë komente, parashtrime, kod, përpunime wiki, çështje dhe kontribute
+të tjera që nuk janë në një vijë me standardet tona.
+Ata mundet edhe të dëbojnë përkohësisht ose përgjithmonë një kontribues për sjellje
+të tjera që i mendojnë si të papërshtatshme, kërcënuese, fyese ose të dëmshme.
+
+## Fushëveprim
+
+Standarded tona të Bashkësisë kanë vend si brenda kanaleve të komunikimit
+të projektit, ashtu edhe në grumbullime në hapësira publike, kur një individual
+përfaqëson projektin ose bashkësinë e tij. Në shembujt e përfaqësimit të një
+projekti, ose bashkësie përfshihen përdorimi i një adrese zyrtare email të projektit
+postimi përmes një llogarie zyrtare mediash shoqërore, ose luajtja e rolit të një
+përfaqësuesi në një veprimtari internetore ose jashtë interneti.
+
+## Raportim dhe Përgjigje
+
+Nëse bëheni pre, ose dëshmitar sjelljeje abuzive, ngacmuese, ose ndryshe
+të papranueshme, mund të bisedoni mirëmbajtësit e përzgjedhur të projektit,
+aktualisht [Nami](mailto:missytake@systemli.org) dhe [Xenia](mailto:ksenia@transcyberian.org).
+Këta do të shqyrtojnë raportet dhe do të përfshijnë mirëmbajtës të tjerë në u dashtë,
+dhe do të përgjigjen në një mënyrë që mendohet e nevojshme dhe e duhur
+ndaj rrethanave, por jo kundër dëshirës tuaj.
+
+Mirëmbajtësit janë të detyruar të ruajnë fshehtësinë
+lidhur me raportuesin e një incidenti.
+Mirëmbajtësit vetë nuk janë të përjashtuar nga të qenët subjekt raportimi
+dhe mund të përballen me reperkusione të përkohshme, ose të përhershme
+siç përcaktohet nga mirëmbajtës të tjerë.
+
+
+## Atribuim
+
+Dokumenti Standardet tona të Bashkësisë është përshtatur prej [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+që gjendet në <https://contributor-covenant.org/version/1/4>

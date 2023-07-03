@@ -1,6 +1,7 @@
 ---
 title: Delta.Chat desktop update
 author: karissa, magnus
+com_id: 100831463371321667
 ---
 
 We are working on a desktop application for Delta.Chat. It's written in electron, based on the [node bindings](https://github.com/deltachat/deltachat-node) and partially based on the ui from Signal desktop. There are some early releases for Linux and Mac out already (Windows in the works). You can download them [here](https://github.com/deltachat/deltachat-desktop/releases/).

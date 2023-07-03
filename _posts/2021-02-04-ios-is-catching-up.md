@@ -2,6 +2,7 @@
 title: Delta Chat iOS is catching up!
 author: bjoern, paula (screenshots)
 image: ../assets/blog/2021-02-04-context-menu-small.jpg
+com_id: 105684557150850129
 ---
 
 _Delta Chat iOS_ is available

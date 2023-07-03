@@ -5,24 +5,22 @@ lang: nl
 
 # Kanalen en repo's
 
-For community interactions around Delta Chat please read our [Community Standards](community-standards).
+Als je wilt meepraten in de Delta Chat-gemeenschap, neem dan onze [gemeenschapsrichtlijnen](community-standards) door.
 
-- [Fediverse](https://chaos.social/web/@delta) en
-  [Twitter](https://twitter.com/delta_chat) voor aankondigingen.
+- [Fediverse](https://chaos.social/web/@delta) - aankondigingen en feedback.
+
+- Met behulp van Delta Chat kun je een `/list`-bericht sturen aan [een groepsbot
+  van de gemeenschap (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) om de verschillende gespreksgroepen te ontdekken.
 
 - [Delta Chat-ondersteuningsforum](https://support.delta.chat) - voor het uitwisselen van
   ideëen en het verkrijgen van ondersteuning.
 
-- [#deltachat op Libera.Chat]({% include webirc-url %}) - voor alledaagse communicatie.
-
-- [Delta Chat-mailing-
-  lijst](https://lists.codespeak.net/postorius/lists/delta.codespeak.net/) 
-  - voor gemeenschapsdiscussies en nieuws.
-
 - [Delta Chat-repo's](https://github.com/deltachat/) - hier vind je 
   de broncode van de DeltaChat-apps en deze website.
 
-- Other links can be found in the [cosmos](https://cosmos.delta.chat)
+- Meer links zijn te vinden in de [cosmos](https://cosmos.delta.chat)
+
+[Geld doneren](donate){: .cta-button}
 
 # Vertaling en bugmeldingen 
 
@@ -32,18 +30,8 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Delta Chat voor iOS-problemen](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust-kernbibliotheek- en Python Bindings-problemen](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We zijn altijd op zoek naar ontwikkelaars en ontwerpers die ons willen helpen en bekend zijn met 
-C, Rust, Java, Swift, Javascript of Python op Android, iOS, Windows, Linux of macOS.
-Doorgaans bieden we 20-urencontracten of vaste indienstelling aan (laatstgenoemde alleen in Duitsland). 
+We zijn altijd op zoek naar ontwikkelaars en ontwerpers.
+Doorgaans bieden we 20-30-urencontracten of vaste indienststelling aan (laatstgenoemde alleen in Duitsland). 
 Neem contact met ons op (delta at merlinux punt eu) als je geïnteresseerd bent!
 
-
-# Geld doneren
-
-Als je een terugkerende donatie instelt, dan help je DeltaChat te groeien als onafhankelijk project waarbij de gebruiker centraal staat:
-
-- IBAN DE86100777770428658900, rekeninghouder (altijd opgeven): Björn Petersen, BIC NORSDE51XXX
-- PayPal of creditcard: [paypal.me/deltachat](https://paypal.me/deltachat/20)
-- Sponsor ons via [Liberapay](https://liberapay.com/delta.chat/)
-- Sponsor ons middels een eenmalige of terugkerende bijdrage via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Verstuur bitcoins naar [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+Meer achtergrondinformatie is te vinden op ons [blog](https://delta.chat/en/blog).

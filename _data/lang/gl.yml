@@ -16,6 +16,7 @@ gl:
   subscribe_to_feed: Subscríbete a RSS
 
   references: Referencias
+  donate: ""
   imprint: Legal
   privacy: Política de Privacidade
   language: Idioma
@@ -39,3 +40,6 @@ gl:
     dl_apk_text:
       before: Tamén descargable como
       after: (experimental)
+
+  help:
+    offline_hint: ""

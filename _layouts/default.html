@@ -53,6 +53,10 @@
     {% include download-boxes.html %}
 {% endif %}
 
+{% if page.name == "help.md" and tx.help.offline_hint != ""%}
+    <blockquote><p>{{ tx.help.offline_hint }}</p></blockquote>
+{%endif%}
+
 {% if page.render_toc == true %}
     {% include toc.html html=content %}
 {% endif %}
@@ -61,14 +65,10 @@
 
 
 {% if page.is_post == true %}
-<p class="menulike">
-{% if page.previous.url %}<a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> |{% endif %}
-<a href="blog">Index</a>
-{% if page.next.url %}| <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>{% endif %}
-</p>
-<p class="menulike">{%if tx.subscribe_to_feed != ""%}{{ tx.subscribe_to_feed }}{%else%}{{ txEn.subscribe_to_feed }}{%endif%}: {% include subscribe-to-feed-links.html %}</p>
+{% if page.com_id %}
+{% include comments.html %}
 {% endif %}
-
+{% endif %}
 
 </div>
 

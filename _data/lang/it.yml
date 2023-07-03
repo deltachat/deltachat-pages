@@ -16,6 +16,7 @@ it:
   subscribe_to_feed: Iscriviti al nostro feed
 
   references: Riferimenti
+  donate: Donazioni
   imprint: Imprint
   privacy: Privacy Policy
   language: Lingua
@@ -39,3 +40,6 @@ it:
     dl_apk_text:
       before: Puoi anche scaricarlo come
       after: (sperimentale)
+
+  help:
+    offline_hint: "Di fretta? Puoi leggere questo aiuto rilassato in qualsiasi momento all'interno dell'app, anche senza Internet."

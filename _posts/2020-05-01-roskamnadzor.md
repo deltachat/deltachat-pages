@@ -2,6 +2,7 @@
 title: Russia's request for Delta Chat user data ... declined.
 author: holger
 image: ../assets/blog/2020-roskomnadzor.png
+com_id: 104092240016564812
 ---
 
 On April 27th we received a letter from <a href="http://eng.rkn.gov.ru/about/">Roskomnadzor</a>, the russian supervisor of communications and information technology. They requested us to provide access to Delta Chat user data and register with their state-run provider registry. <b>We declined for the simple reason that Delta Chat developers have no access to user data whatsoever</b>. 

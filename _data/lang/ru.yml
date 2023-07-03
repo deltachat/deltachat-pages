@@ -16,6 +16,7 @@ ru:
   subscribe_to_feed: Подписаться на наш канал
 
   references: Рекомендации
+  donate: Donate
   imprint: Контакты
   privacy: Политика конфиденциальности
   language: Язык
@@ -39,3 +40,6 @@ ru:
     dl_apk_text:
       before: Также можно скачать как
       after: (экспериментально)
+
+  help:
+    offline_hint: ""

@@ -2,6 +2,7 @@
 title: New Delta/Desktop Release for Windows, macOS, and Linux
 author: compl4xx
 image: ../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-group-chat.jpg
+com_id: 103979855131604165
 ---
 
 <img src="../assets/blog/screenshots/2020-01-15-delta-chat-desktop-client-release-group-chat.jpg" width="270" style="float: right; margin: 10px;display: block;" /> 

@@ -16,6 +16,7 @@ sq:
   subscribe_to_feed: Pajtohuni te prurja jonë
 
   references: Referenca
+  donate: Dhuroni
   imprint: Imprint
   privacy: Rregulla Privatësie
   language: Gjuhë
@@ -39,3 +40,6 @@ sq:
     dl_apk_text:
       before: Mund ta shkarkoni edhe si
       after: (ekperimental)
+
+  help:
+    offline_hint: "Jeni me ngut? Mund të lexoni këtë ndihmë me qetësi kurdo që të jetë, brenda aplikacionit, edhe pa internet."

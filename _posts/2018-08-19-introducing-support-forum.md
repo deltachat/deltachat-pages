@@ -1,6 +1,7 @@
 ---
 title: "Introducing the New Support Forum: Join to Help Others and Discuss Features!"
 author: "compl4xx"
+com_id: 100583472357932930
 ---
 
 The Delta X Conference took place in Freiburg a few weeks ago, and a lot of

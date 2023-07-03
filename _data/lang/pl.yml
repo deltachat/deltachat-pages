@@ -16,6 +16,7 @@ pl:
   subscribe_to_feed: Zapisz się do naszego kanału
 
   references: Referencje
+  donate: Dotacje
   imprint: Wydawca
   privacy: Polityka prywatności
   language: Język
@@ -39,3 +40,6 @@ pl:
     dl_apk_text:
       before: Możesz także pobrać jako
       after: (eksperymentalne)
+
+  help:
+    offline_hint: "Spieszysz się? W każdej chwili możesz przeczytać tę pomoc w aplikacji, także bez internetu."

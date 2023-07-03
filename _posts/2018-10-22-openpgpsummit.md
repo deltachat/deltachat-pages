@@ -1,6 +1,7 @@
 ---
 title: "OpenPGPSummit 2018: The ecosystem is moving ..."
 author: holger
+com_id: 100938596244667250
 ---
 
 OpenPGPSummit 2018 in Bruxelles just ended but felt like marking a lot

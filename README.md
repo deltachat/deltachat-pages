@@ -23,6 +23,15 @@ How to create a new blog post
 - Write your blog post to the file and do not forget 
   to add or modify the `title:` and `author:` line atop it.
 
+- **images up to a width of ~400px**
+  can be added with `<img style="float: left" ...>` or `<img style="float: left" ...>` -
+  on small mobile screens, where floating is barely possible, these images will get their own paragraph
+  in case you add an **empty line** after the images (also see existing blog posts as a pattern)
+
+- for **larger images** or if you do not want floating,
+  omit the floating rule and just use `<img ...>` followed by an **empty line**;
+  these images always get their own paragraph then
+
 - That's all, the result goes to https://delta.chat/en/blog , and the
   [RSS-Feed](https://delta.chat/feed.xml).
 
@@ -35,15 +44,15 @@ Testing changes
   `https://<your-username>.github.io/deltachat-pages/`
 
 - Alternatively, [install Jekyll](https://jekyllrb.com/docs/installation/) 
-  on your local machive, run `bundle install` in this directory, 
-  and execute `jekyll serve --destination <path-to-build-dir>` 
-  in the source directory.
+  on your local machive, run `bundle install` in this directory,
+  and execute `bundle exec jekyll serve`.
+  Then open http://127.0.0.1:4000/en/ in a browser
+  to preview the English version of the website.
 
 - If you get Ruby dependency problems, you can also build the page in a docker
   container:  
-  ```sudo docker run -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"```  
-  But the links will not work, so you need to open the pages one after the other.
-  You can find them in the `_site` subdirectory.
+  ```sudo docker run -i -p 4000:4000 -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll serve"```  
+  You can open the page in the browser at http://localhost:4000.
 
 Directory structure
 --------------------------------------------------------------------------------

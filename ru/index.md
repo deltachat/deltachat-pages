@@ -9,7 +9,7 @@ lang: ru
 
 🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
 
-🔒 All your data stays on your device and email account.
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Available on mobile and desktop
 
@@ -23,7 +23,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" />
 
-<a class="download-button" href="https://get.delta.chat">Download</a>
+[Download](https://get.delta.chat){: .cta-button}
 
 [Open Source](https://en.wikipedia.org/wiki/Open-source_software)
 and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 

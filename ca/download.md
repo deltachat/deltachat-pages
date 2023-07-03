@@ -16,7 +16,7 @@ A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un t
 Requeriments mínims:
 Android 4.1 Jelly Bean
 o iOS 11, iPhone 5s o iPad 5/Air/Mini
-o Windows 7, macOS 10.10 Yosemite, Ubuntu 12.04, Fedora 21 o Debian 8
+o Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 o Debian 10
 o sistemes compatibles.
 
 ## Enllaços

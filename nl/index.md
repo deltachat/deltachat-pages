@@ -9,7 +9,7 @@ lang: nl
 
 🥳 Geniet van interactieve gesprekken met behulp van [webxdc-apps](https://webxdc.org).
 
-🔒 Al je gegevens blijven op je apparaat en e-mailaccount.
+🔒 Eind-tot-eindversleuteling met behulp van [Autocrypt](https://autocrypt.org) en [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html), waarop [meerdere beveiligingscontroles](https://delta.chat/en/2023-03-27-third-independent-security-audit) zijn uitgevoerd. 
 
 # Beschikbaar op telefoons, tablets en computers
 
@@ -23,9 +23,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-<a class="download-button" href="https://get.delta.chat">Downloaden</a>
+[Downloaden](https://get.delta.chat){: .cta-button}
 
 [Open source](https://nl.wikipedia.org/wiki/Opensourcesoftware)
 en [vrije software](https://nl.wikipedia.org/wiki/Vrije_software), gebouwd op [internetstandaarden](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
 
-📣 Bekijk ook [wat gebruikers en bedrijven zeggen](user-voices).
+📣 Bekijk ook [wat gebruikers en bedrijven over Delta Chat zeggen](user-voices).

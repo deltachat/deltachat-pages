@@ -8,7 +8,7 @@ header: Pyetje të Bëra Rëndom
 
 ## Ç’është Delta Chat-i?
 
-Delta Chat është një aplikacion i ri bisedash që i dërgon mesazhet përmes emai-i, të fshehtëzuar, nëse është e mundur, me Autocrypt. 
+Delta Chat është një aplikacion i ri bisedash që i dërgon mesazhet përmes email-i, të fshehtëzuar, nëse është e mundur, me Autocrypt. 
 **Nuk ju duhet të regjistroheni gjëkundi, thjesht përdorni me Delta Chat-in llogarinë tuaj ekzistuese email.** 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
@@ -23,43 +23,37 @@ e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tje
 
 ### Cilat janë përparësitë e Delta Chat-it krahasuar me programe të tjerë të llojit?
 
-- _I pavarur_ nga ndonjë shoqëri apo shërbim. Zot i të dhënave tuaja jeni _ju_.
-- Të dhënat tuaja nuk ruhen në një shërbyes qendror, veç në qoftë se krejt
-  përdoruesit përdorin të njëjtët shërbyes email-i
-- S’i shpalosni kujt librin tuaj të adresave.
-- _I shpejtë_ përmes përdorimit të Push-IMAP.
-- _Baza më e gjerë e përdoruesve_ - mund të mbërrihet edhe te marrë që _nuk_ përdorin Delta Chat-in.
-- _I përputhshëm_ - jo vetëm me veten.
-- Ndërfaqe përdoruesi _elegante_ dhe _e thjeshtë_.
-- Sistem i _shpërndarë_.
-- _Pa Spam_ - vetëm mesazhe nga përdorues të njohur, të cilat shfaqen si parazgjedhje.
-- _I qndrueshëm_ - i sigurt për përdorim profesional.
-- _I besueshëm_ - mundet madje të përdoret për mesazhe biznesi.
-- Software libre i bazuar në _Copyleft_ dhe _Standarde_.
+- _E pavarur nga ndonjë shoqëri apo shërbime. _Ju_ jeni zot i të dhënave tuaja.
+- Të dhënat tuaja nuk ruhen në ndonjë shërbyes qendror, veç nëse krejt përdoruesit përdorin
+  të njëjtët shërbyes email-i
+- S’i jepni kujt librin tuaj të adresave.
+- _I shpejtë_, përmes përdorimit të Push-IMAP.
+- _Baza më e madhe e përdoruesve_ - mund të arrihet edhe te marrës që _nuk_ përdorin Delta Chat.
+- _Pa Mesazhe të Padëshiruar_ - si parazgjedhje, shfaqen vetëm mesazhe nga përdorues të njohur.
+- _Fshehtëzim skaj-më-skaj_ përmes Autocrypt-i.
+- <em>Software</em> libre i bazuar në_Copyleft_ dhe _Standarde_.
+- _Identitet i zhdërvjellët_ me mbulim së brendshmi të [llogarive të shumta](#multiple-accounts)
 
 
 ### Cilat mesazhe shfaqen në Delta Chat?
 
-Si parazgjedhje, Delta Chat-i shfaq:
+Si parazgjedhje, Delta Chat i shfaq krejt email-et.
 
-- Mesazhe dërguar nga përdorues të tjerë të Delta Chat-it
-- Përgjigje te mesazhet tuaj Delta Chat, edhe nëse janë “email-e normalë”.
+Këtë mund ta ndryshoni te
+“Rregullime -> Fjalosje & Media -> Shfaq Email-e Klasikë. Keni këto mundësi:
 
-Email-e të tjerë nuk shfaqen në aplikacion, si parazgjedhje. Këtë mund
-ta ndryshoni te “Rregullime -> Fjalosje & Media -> Shfaq Email-e Klasikë.
-Keni këto mundësi:
-
-- “Jo, vetëm fjalosje”: Shfaqen vetëm mesazhe dërguar nga përdorues të tjerë të
-  Delta Chat-it dhe përgjigje për to në mesazhet tuaj Delta Chat. Kjo ka kuptim
-  nëse përdorni të njëjtën llogari email edhe për email të zakonshëm.   Ky është
-  rregullimi parazgjedhje.
+- “Jo, vetëm fjalosje”: Shfaqen vetëm mesazhe dërguar nga përdorues të tjerë
+  të Delta Chat-it dhe përgjigje për ta në mesazhet tuaj Delta Chat. Kjo ka kuptim
+  nëse përdorni të njëjtën llogari email edhe për email të zakonshëm.
 - “Krejt”: Delta Chat-i i shfaq krejt email-et që janë dërguar te adresa juaj. Kjo
   ka kuptim nëse e përdorni Delta Chat-in për krejt email-et tuaj, që kështu të mos
   humbin mesazhe.
+ Kjo është parazgjedhja për këtë rregullim.
+ 
 - "Për kontakte të pranuar": Delta Chat-i shfaq krejt email-et prej kontaktesh me
   të cilët keni tashmë një fjalosje, por fjalosje të reja shfaqen vetëm për mesazhe
-  Delta Chat. Kjo ndihmon të vendoset sipas rastit nëse doni të keni një bisedë në
-  Delta Chat apo në një aplikacion të zakonshëm email-esh.
+  Delta Chat. Kjo ndihmon të vendoset për çdo rast nëse doni të keni një bisedë
+  në Delta Chat, apo në një aplikacion të zakonshëm email-esh.
 
 
 ### Po nëse pres një mesazh prej dikujt të cilit s’i kam shkruar në të kaluarën?
@@ -78,6 +72,15 @@ Keni këto mundësi:
 
 - Po. Veç tekstit të thjeshtë, krejt bashkëngjitjet email shfaqen si mesazhe më vete. Mesazhet ikëse do të pranojnë vetvetiu bashkëngjitje sipas nevojës.
 
+- Si parazgjedhje, për funksionim më të mirë, figurat optimizohen dhe dërgohen në madhësi më të vogël, por mund ta dërgoni si një “kartelë”, që të ruhet origjinali.
+
+<h3 id="multiple-accounts">Si mund të shtoj shumë llogari, ose të kaloj nga njëra te tjetra?</h3>
+
+Mundeni të punoni kollaj me llogari shtesë në klientët Delta Chat për celular dhe desktop, duke klikuar:
+- mbi butonin e menusë dhe mandej “Ndërroni Llogari” (Android dhe desktop)
+- ose mbi ikonën e profilit dhe mandej “Shtoni Llogari” (iOS)
+
+Mundet edhe të doni të mësoni [si të shtoni llogari në pajisje të shumta](#multiclient).
 
 ### Kush e sheh profilin tim?
 
@@ -154,8 +157,8 @@ Përdorini këto mjete për të sistemuar fjalosjet tuaja dhe për ta mbajtur gj
 
 - **Heshtoni fjalosje**, nëse s’doni të merrni njoftime mbi to. Fjalosjet e heshtuara qëndrojnë në vend dhe mundeni edhe të fiksoni një fjalosje të heshtuar.
 
-- **Arkivoni fjalosje**, nëse s’doni t’i shihni më te lista e fjalosjeve tuaja.
-  Në fund të listës së fjalosjeve, te menuja, ose përmes kërkimit, mundeni prapëseprapë të përdorni fjalosje të arkivuara.
+- **Arkivoni fjalosje**, nëse s’doni t’i shihni më në listën tuaj të fjalosjeve.
+  Fjalosjet e arkivuara mbesin të përdorshme mbi listën e fjalosjeve, ose përmes kërkimit. 
 
 - Kur te një fjalosje e arkivuar vjen një mesazh i ri, do të **hapet jashtë arkivit** dhe kalojë te lista juaj e fjalosjeve, veç në mos qoftë e heshtuar.
   **Fjalosjet e heshtuara mbeten të arkivuara**, veç në i çarkivofshi dorazi.
@@ -173,13 +176,25 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
   - ngaqë shkruan diçka te një grup ku jeni pjesë të dy palët,
   - ngaqë ju dërguan një dëftesë leximi për një mesazh që shkruat,
   - ose ngaqë dërguan të dhëna te aplikacioni juaj Delta Chat përmes një
-    [aplikacioni privat](#private-apps--webxdc).
+    [aplikacioni privat](#webxdc).
 - Pra, kjo s’është gjendje e njëmendtë aty për aty për qenie në linjë - dhe
   nëse dikush nuk përgjigjet menjëherë, edhe pse duket të jetë në linjë, mos
   u merakosni dhe lëruni ca kohë ;-)
 - Më anë tjetër, të tjerët jo përherë “do të shohin se jeni në linjë”. Nëse keni
   çaktivizuar dëftesa leximesh, s’do të shohin pikën e gjelbër para se ju
   t’u dërgoni një mesazh, ose të shkruani te një grup ku bëjnë pjesë edhe ata.
+
+
+### Si mund ta fshij llogarinë time?
+
+Ngaqë për Delta Chat-in përdorni një llogari email,
+se si mund të fshini llogarinë tuaj, varet nga shërbimi juaj email.
+Nuk kemi fuqi mbi llogarinë tuaj email,
+ndaj, mjerisht, s’mund t’ju ndihmojmë për këtë.
+
+Nëse doni ta mbani llogarinë,
+por të çinstaloni Delta Chat-in,
+rekomandohet të braktisni çfarëdo grupi fjalosjeje, para çinstalimit të Delta Chat-it.
 
 
 ## Grupe
@@ -230,16 +245,19 @@ për çfarëdo mesazhesh të rinj.
   Nëse ju, p.sh., doni të kurseni hapësirë depozitimi në shërbimin tuaj email, mund
   të zgjidhni të fshihen automatikisht mesazhet e vjetër. Mbeten ende në pajisjen tuaj,
   deri sa t’i fshini edhe prej andej.
-- Për ta aktivizuar, kaloni te “fshini nga shërbyesi mesazhe të vjetër”, te rregullimet
-  “Fjalosje dhe Media”. Mund të caktoni një periudhë nga “menjëherë” deri “pas një viti”;
-  kështu, *krejt* email-et do të fshihen nga shërbyesi pas asaj periudhe. 
+
+- Për ta vënë në punë, kaloni te **Fshi Mesazhe të Vjetër → Fshiji Mesazhet te Shërbyesi**
+  te rregullimet “Fjalosje dhe Media”.
+  Mund të caktoni një interval kohor, mes “Menjëherë” dhe “Pas 1 viti”.
+  Krejt email-et e marrë nga Delta Chat-i do të fshihen te shërbyesi pas këtij intervali kohor.
+
 - Kini parasysh se, nëse e përdorni Delta Chat-in në më shumë se një pajisje, duhet t’i
   lini mesazhet te shërbyesi, deri sa të mund t’i shkarkojë edhe pajisja tjetër. Në këtë
   rast, duhet që fshirjen e automatizuar ta caktoni si “pas një dite”, ose diçka të tillë,
   në varësi të shpeshtisë me të cilën ndizni pajisjen tjetër.
 
 
-### Ç’ndodh, nëse aktivizoj “Fshi prej pajisjes mesazhe të vjetër”?
+### Ç’ndodh, nëse aktivizoj “Fshi prej pajisjes mesazhe të vjetër”? {#delold}
 
 - Nëse doni të kurseni hapësirë në pajisjen tuaj, mund të zgjidhni të fshihen
   automatikisht mesazhe të vjetër. 
@@ -312,6 +330,31 @@ Nëse s’jeni pranë partnerit të fjalosje, gjendjen mund ta kontrolloni doraz
 
 - Nëse **s’ka dry**, mesazhi zakonisht transportohet i pafshehtëzuar, p.sh., ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose dërguesi përdor një aplikacion që nuk mbulon fshehtëzimin skaj-më-skaj.
 
+
+### Si të garantoj fshehtëzim dhe fshirje mesazhesh?
+
+Rruga më e mirë për të garantuar se çdo mesazh është i fshehtëzuar
+dhe se tejtëdhënat fshihen sa më shpejt që të jetë e mundur
+është krijimi i një grupi të verifikuar dhe aktivizimi
+i mesazheve që vetëasgjësohen.
+
+Grupet e verifikuara janë përherë të fshehtëzuar dhe të mbrojtur kundër [sulmesh
+MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+
+Tejtëdhënat s’mund të fshehtëzohen, ngaqë shërbyesit i duhet të dijë ku të dërgojë
+mesazhet tuaj. Por aktivizimi i “mesazheve që vetëasgjësohen” i fshin mesazhet te
+shërbyesi, pasi të jenë dërguar.
+
+Nëse ju duhen mesazhet në pajisjen tuaj, por jo te shërbyesi, mundeni gjithashtu
+të bini në një mendje në grup për të aktivizuar [“fshi automatikisht mesazhet në
+shërbyes”](#delold).
+
+Nëse doni të mbroni një bisedë tek për tek si kjo, duhet të krijoni një
+grup të verifikuar me vetëm 2 vetë. Nëse personi tjetër humb pajisjen
+e vet, por jo llogarinë e tij, mundeni ende të komunikoni te biseda tek
+për tek. ([Lexoni më tepër](#verdiff))
+
+
 ### Cilët standarde përdoren për fshehtëzim skaj-më-skaj?
 
 - [Autocrypt](https://autocrypt.org) përdoret për të vënë në punë fshehtëzim e2e
@@ -323,7 +366,7 @@ Nëse s’jeni pranë partnerit të fjalosje, gjendjen mund ta kontrolloni doraz
   sendërton [protokollet countermitm, setup-contact dhe verified-group](https://countermitm.readthedocs.io/en/latest/new.html).  Kjo shkon përtej mbrojtjes bazë oportuniste të
   Autocrypt Level 1, ndërkohë që ruhet lehtësia e përdorimit.  
 
-### Cili është dallimi mes grupesh të verifikuar dhe fjalosjesh 1:1 me kontakte të verifikuar?
+### Cili është dallimi mes grupesh të verifikuar dhe fjalosjesh 1:1 me kontakte të verifikuar? {#verdiff}
 
 - Fjalosjet 1:1 me një kontakt të verifikuar dhe grupet e verifikuara s’janë
   e njëjta gjë, edhe kur ka vetëm 2 vetë në një grup të verifikuar. Një dallim
@@ -411,19 +454,51 @@ GnuPG-në mund ta bëni [përmes rreshti urdhrash](https://github.com/deltachat/
 Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
 
-### Pse nuk përdorni pEp (<em>pretty easy privacy</em>)?
-
-- Delta Chat-i përdor standardin <em>e2e-encryption</em> të Autocrypt-it. Për
-  një diskutim të Autocrypt-it dhe pEp-së, shihni [PBR
-  Autocrypt-i](https://autocrypt.org/faq.html#how-does-autocrypt-differ-from-pep).
-
-
 ## Multi-klient {#multiclient}
 
 ### A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
 
-Nëse doni të përdorni të **njëjtën llogari** në pajisje të ndryshme, duhet
-të eksportoni nga njëra pajisje një kopjeruatje dhe ta importoni te tjetra:
+Po. Delta Chat 1.36 vjen me një funksion të ri eksperimental për përdorimin e të njëjtës llogari në pajisje të ndryshme:
+
+- Te pajisja e parë, kaloni te **Rregullime → Shtoni Pajisje të Dytë**, shkyçni ekranin, në u dashtë
+  dhe prisni një çast sa të shfaqet një kod QR
+
+- Te pajisja e dytë, [instaloni Delta Chat-in](https://get.delta.chat)
+
+- Në pajisjen e dytë, nisni Delta Chat-in, përzgjidhni **Shtoje si Pajisje të Dytë** dhe skanoni kodin QR që nga pajisja e vjetër
+
+- Shpërngulja duhet të fillojë pas pak sekondash dhe, gjatë shpërnguljes, të dyja pajisjet do të shfaqin
+  **ecurinë**. Prisni deri sa të përfundojë në të dyja pajisjet.
+
+Ndryshe nga mjaft shkëmbyes të tjerë mesazhesh, pas një
+shpërngulje të suksesshme, që të dyja **pajisjet janë plotësisht të pavarura.**
+Njëra pajisja s’ka nevojë për tjetrën që të funksionojë.
+
+
+### Diagnostikim
+
+- Kontrolloni sërish që të dyja pajisjet të gjenden në **të njëjtin rrjet Wi-Fi ose klasik**
+
+- Sistemi juaj mund të ketë një “firewall personal”,
+  që dihet se shkakton probleme (veçanërisht në Windows).
+  **Çaktivizoni firewall-in personal** për Delta Chat-in në të dy anët dhe riprovoni
+
+- Garantoni se ka **depozitë të mjaftueshme** te pajisja vendmbërritje
+
+- Nëse shpërngulja nisni, siguroni që pajisja **mbetet aktive** dhe nuk bie në gjumë.
+  Mos mbyllni Delta Chat-in.
+  (po punojmë fort për ta bërë aplikacionin të funksionojë në prapaskenë, por [sistemet priren t’i asgjësojnë aplikacionet](https://dontkillmyapp.com), për fat të keq)
+
+- A është bërë **tashmë hyrja** te llogaria Delta Chat në pajisjen vendmbërritje?
+  Mund të përdorni llogari të shumta për pajisje, thjesht [shtoni llogari tjetër](#multiple-accounts)
+
+- Nëse keni ende probleme, ose **s’mundeni të skanoni një kod QR**
+  provoni **shpërnguljen dorazi** të përshkruar më poshtë
+
+
+### Shpërngulje Dorazi
+
+Kjo metodë rekomandohet vetëm nëse “Shtoni Pajisje të Dytë” si përshkruhet më sipër s’funksionon.
 
 - Te pajisja e vjetër, kaloni te “Rregullime -> Fjalosje dhe media -> Eksportoni
   Kopjeruajtje”. Jepni PIN-in, rregullsinë apo fjalëkalimin tuaj për shkyçje ekrani.
@@ -486,7 +561,7 @@ mesazhe bisedash te DeltaChat". Përndryshe, fshirja e mesazheve në instalime m
 shumë pajisje mund të mos punojë si duhet.
 
 
-## Aplikacione private / webxdc
+## Aplikacione private / webxdc {#webxdc}
 
 Në Delta Chat, mund të ndani me të tjerë “aplikacione private”, bashkëngjitje
 me një zgjatim `.xdc` kartele. Ato bëjnë gjëra shumë të ndryshme dhe e bëjnë
@@ -658,6 +733,14 @@ në blog për të](https://delta.chat/en/2022-09-14-aeap).
   të funksionojnë si duhet, shihni [Provider Overview](https://providers.delta.chat)
 
 
+### Dua të administroj shërbyesin tim email për Delta Chat. Ç’rekomandoni?
+
+- Shumica e shërbyesve email do të funksionojnë mirë. Por çka
+  rekomandojmë personalisht është një ndërthurje e Mailcow-ut dhe Mailadm-it,
+  siç përshkruhet [në këtë postim blogu](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
+- Mund të gjeni një [udhërrëfyes instalimi në sajtin tonë](serverguide).
+
+
 ### Sa kohë që Delta Chat-i përdor email, a është vërtet një Shkëmbyes Mesazhesh të _Atypëratyshme_?
 
 - Normalisht, dërgimi dhe marrja e mesazheve ha ca sekonda. Ndonjëherë ka raste
@@ -693,6 +776,46 @@ në blog për të](https://delta.chat/en/2022-09-14-aeap).
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
 
+### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie?
+
+Projekti Delta Chat ka pasur katër auditime të pavarur sigurie gjatë viteve të fundit:
+
+- Më 2019-n, [Include Security](https://includesecurity.com) analizoi libraritë
+  [PGP](https://github.com/rpgp/rpgp) dhe
+  [RSA](https://github.com/RustCrypto/RSA) të Delta Chat-it.
+  S’gjeti probleme kritike,
+  por dy çështje me rëndësi të lartë që i ndreqim në vazhdim.
+  Nxori gjithashtu një çështje të rëndësisë mesatare dhe disa çështje me më pak rëndësi,
+  por s’kishte ndonjë rrugë për t’i shfrytëzuar këto cenueshmëri në sendërtimin e Delta Chat-it.
+  Pavarësisht, disa nga këto i ndreqëm që kur përfundoi auditimi.
+  Mund të lexoni [raportin e plotë këtu](../assets/blog/2019-first-security-review.pdf).
+
+- Më 2020-n, [Include Security](https://includesecurity.com) analizoi [bazën](https://github.com/deltachat/deltachat-core-rust/)
+  në Rust të Delta Chat-it, si dhe bibliotekat [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp)
+  dhe [TLS](https://github.com/async-email/async-native-tls).
+  S’gjeti ndonjë problem kritik apo të rëndësisë së madhe.
+  Raporti ngriti pak dobësi të rëndësisë mesatare -
+  ato në vetvete s’përbëjnë kërcënim për përdoruesit e Delta Chat-it
+  ngaqë varen në mjedisin në të cilin përdoret Delta Chat-i.
+  Për arsye përputhjeje dhe përdorimi,
+  s’mund t’i shmangim krejt ato
+  dhe vendosëm të ofrojmë rekomandime sigurie për përdoruesit e kërcënuar.
+  Mund të lexoni [raportin e plotë këtu](../assets/blog/2020-second-security-review.pdf).
+
+- Në fillim të 2023-it, [Cure53](https://cure53.de) analizoi qoftë fshehtëzimin
+  e transporteve për lidhje rrjeti të Delta Chat-it, qoftë një formësim të riprodhueshëm
+  shërbyesi poste si [të rekomanduarin në këtë sajt](serverguide).
+  Mund të lexoni më tepër rreth auditimit [në blogun tonë](https://delta.chat/en/2023-03-27-third-independent-security-audit),
+  ose të lexoni [raportin e plotë këtu](../assets/blog/MER-01-report.pdf).
+
+- Në fillim të 2023-shit, ndreqëm probleme sigurie dhe privatësie me
+  veçorinë “aplikacione web dhënë në një fjalosje”, të lidhura me dështime
+  në izolimin e tyre, veçanërisht nën Chromium. Në vazhdim kaluam një auditim
+  të pavarur sigurie prej Cure53 dhe krejt problemet e gjetura u ndreqën në
+  seritë 1.36 të hedhura në qarkullim në prill të 2023-shit. 
+  Shihni [këtu, për shpjegim të plotë të sfondit për sigurinë lidhur me E2E në web](https://delta.chat/en/2023-05-22-webxdc-security).
+
+
 ### Si financohet zhvillimi i Delta Chat-it? 
 
 Delta Chat nuk përfiton ndonjë financim të llojit Venture Capital dhe s’ka
@@ -721,25 +844,34 @@ Konkretisht, zhvillimet e Delta Chat-it deri sot janë financuar nga këto burim
 
 - [Fondacioni NLnet](https://nlnet.nl/) dhuroi 46K euro gjatë 2019/2020 për
   plotësimin e <em>Rust/Python bindings</em> dhe për t’i dhënë udhë një ekosistemi
-  Chat-bot.
+  Chat-bot. 
 
 - Më 2021-n morëm financime të mëtejshme nga BE për dy propozime që shtrihen në
   “Internetin e Brezit Tjetër”, konkretisht për [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K euro) dhe [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K euro) që sollën mbulim më të mirë për përdorues me shumë
 llogari, përmirësim të gjërave për kontakte me kod QR dhe grupe, si dhe mjaft
 përmirësime në punën në rrjet për krejt platformat.
 
-- Për 2021/2022 po marrim financimin *Internet Freedom* (~500 mijë dollarë amerikanë)
-  nga Zyra për Demokraci, të Drejta të Njeriut dhe Punë e ShBA-sand Labor (DRL). 
-  Ky financim përbën mbështetje për synimet tona afatgjata për ta bërë Delta Chat-in më
-  të përdorshëm dhe të përputhshëm me një gamë të gjerë shërbimesh email anembanë
-  botës, si dhe më të qëndrueshëm dhe më të siguruar në vende që shpesh preken nga
-  censurim dhe bllokim interneti.
+- Nga fundi i 2021-shit e deri në mars të 2023-shit kemi marrë financim *Internet Freedom*
+  (500K dollarë amerikanë) nga Zyra e Demokracisë, ShBA, Human Rights and Labor (DRL). 
+  Ky financim shërbeu si bazë për synimet tona afatgjata për ta bërë Delta Chat-in më
+  të përdorshëm dhe të përputhshëm me një gamë të gjerë shërbyesish email anembanë
+  botës dhe më të qëndrueshëm dhe më të siguruar
+  në vende të prekura shpesh nga censurim dhe fikje të internetit.
 
-- Ndonjëherë marrim ndonjë dhurim njësh prej individë privatë, për çka jemi
-  borxhlinj. Për shembull, më 2021-shin një individ bujar na dërgoi një mandatarkëtimi
-  prej 4 mijë eurosh, me subjektin “vazhdoni punën e mbarë!”. Para të tilla i përdorim
-  [ër të financuar takime zhvillimi, ose për të mbuluar shpenzime <em>ad-hoc</em>
-  që s’mund të parashikohen kollaj, apo që s’mbulohen nga fonde financimi publik. 
+- Në fillim të 2023-shit u pranuam për programin Next Generation Internet
+  (NGI) Entrust, me propozimet tona “Private Decentralized Apps”. 
+  Sasia e saktë është për t’u vendosur (rreth 100K euro). 
+  Ky financim mbështet zhvillime të mëtejshme të [webxdc-së, “aplikacione të dhënë në një fjalosje”](https://webxdc.org). 
+
+- Ndonjëherë marrim dhurime unike nga individë privatë. 
+  Për shembull, më 2021-shin një individ bujar na dërgoi një dërgesë
+  bankare prej 4K eurosh me subjektin “vazhdoni zhvillimin e mbarë!”. 💜 
+  Këto para i përdorim për të zhvilluar takime, ose mbuluar shpenzime <em>ad-hoc</em>
+  që s’mund të parashikohen kollaj, ose të rimbursohen nga grante financimesh publike. 
+  Marrja e më shumë dhurimeve na ndihmon gjithashtu të bëhemi më të pavarur dhe
+  të jetëgjatë, si bashkësi kontribuesish. 
+
+  [Dhuroni Para](donate){: .cta-button}
 
 - E fundit, por aspak për nga rëndësia, disa ekspertë dhe entuziastë kanë dhënë
   dhe japin ndihmesë pro-bono në zhvillimin e Delta Chat-it pa përfituar para,
@@ -749,4 +881,5 @@ përmirësime në punën në rrjet për krejt platformat.
 Financimi monetar i përmendur më sipër është kryesisht i organizuar nga GmbH në
 Frajburg (Gjermani) dhe u shpërndahet më tepër se një duzine kontribuesish nga e gjithë bota. 
 
-Financimi për gjysmën e dytë të 2022-shit dhe veçanërisht për 2023 është një çështje e vazhdueshme shqetësimi. Veç aplikimit për më tepër financime, duam të bëhemi më të pavarur nga burime financimi të lidhura me qeverinë. Ju lutemi, shihni [Delta Chat Contribution channels](https://delta.chat/en/contribute) qoftë për mundësi përkrahjeje monetare, qoftë për ato të lidhura me zhvillimin. 
+Për mundësi kontributesh monetare ose lloji tjetër, ju lutemi, shihni
+[kanale kontributi te Delta Chat](contribute).

@@ -2,6 +2,7 @@
 title: New Study on Multi-tool and Organizational messenger usage
 author: holger
 image: ../assets/blog/2020-multi-tool.jpg
+com_id: 103917871678343605
 ---
 
 <img src="../assets/blog/2020-multi-tool.jpg" width="270" style="float:right; margin-bottom:1em;" />

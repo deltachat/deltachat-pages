@@ -16,6 +16,7 @@ nl:
   subscribe_to_feed: Abonneren op onze feed
 
   references: Verwijzingen
+  donate: Doneren
   imprint: Over Delta Chat
   privacy: Privacybeleid
   language: Taal
@@ -39,3 +40,6 @@ nl:
     dl_apk_text:
       before: Je kunt Delta Chat ook downloaden als
       after: (experimenteel)
+
+  help:
+    offline_hint: "Heb je weinig tijd? Dan kun je deze hulppagina ook in de app openen, zelfs zónder internet."

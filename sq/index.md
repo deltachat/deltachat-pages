@@ -9,7 +9,7 @@ lang: sq
 
 🥳 Shijoni fjalosje me ndërveprim përmes [aplikacionesh webxdc](https://webxdc.org).
 
-🔒 Krejt të dhënat tuaja qëndrojnë në pajisjen dhe llogarinë tuaj email.
+🔒 Fshehtëzim Skaj-më-Skaj me përdorim të protokollove [Autocrypt](https://autocrypt.org) dhe [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html), me [auditime të shumta sigurie](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # I përdorshëm në celular dhe desktop
 
@@ -23,7 +23,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-<a class="download-button" href="https://get.delta.chat">Shkarkojeni</a>
+[Shkarkojeni](https://get.delta.chat){: .cta-button}
 
 Me [Burim të Hapët](https://en.wikipedia.org/wiki/Open-source_software)
 dhe [Software e Lirë](https://en.wikipedia.org/wiki/Free_software), ndërtuar me [Standardet Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 

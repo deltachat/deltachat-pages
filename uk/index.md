@@ -3,15 +3,15 @@ title: E-mail месенджер
 lang: uk
 ---
 
-# Delta Chat is a messaging app that works over e-mail 
+# Delta Chat – це програма для обміну повідомленнями, яка працює через електронну пошту
 
-💬 Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Надсилайте повідомлення всім, хто має адресу електронної пошти [навіть якщо вони не використовують Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
 
-🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
+🥳 Насолоджуйтеся інтерактивним чатом через [webxdc застосунки](https://webxdc.org).
 
-🔒 All your data stays on your device and email account.
+🔒 Використання наскрізного шифрування за протоколами [Autocrypt](https://autocrypt.org) та [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) із [численними аудитами безпеки](https://delta.chat/en/2023-03-27-third-independent-security-audit).
 
-# Available on mobile and desktop
+# Доступно на мобільному телефоні та комп’ютері
 
 
 <img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" width="120" 
@@ -23,9 +23,9 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-<a class="download-button" href="https://get.delta.chat">Download</a>
+[Завантажити](https://get.delta.chat){: .cta-button}
 
-[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+[Відкрите](https://en.wikipedia.org/wiki/Open-source_software)
+та [вільне програмне забезпечення](https://en.wikipedia.org/wiki/Free_software), побудоване на [інтернет стандартах](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
 
-Check out [user stories and voices](user-voices).
+Перегляньте [історії користувачів](user-voices)

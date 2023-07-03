@@ -16,6 +16,7 @@ de:
   subscribe_to_feed: Abonniere unseren RSS-Feed!
 
   references: Referenzen
+  donate: Spenden
   imprint: Impressum
   privacy: Datenschutzerklärung
   language: Sprache
@@ -38,4 +39,7 @@ de:
       title: Amazon Appstore
     dl_apk_text:
       before: Du kannst Delta Chat Android auch als experimentelle
-      after: herunterladen
+      after: (experimentell)
+
+  help:
+    offline_hint: "In Eile? Sie können diese Hilfe jederzeit entspannt in der App lesen, auch ohne Internet."

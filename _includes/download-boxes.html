@@ -1,7 +1,7 @@
 {% assign txEn = site.data.lang['en']['en'] %}
 {% assign tx = site.data.lang[page.lang][page.lang] %}
-{% assign VERSION_DESKTOP = "1.34.2" %}
-{% assign VERSION_ANDROID = "1.34.10" %}
+{% assign VERSION_DESKTOP = "1.38.1" %}
+{% assign VERSION_ANDROID = "1.38.2" %}
 
 <div class="download-content">
     <div id="recommendation-section" hidden>
@@ -95,6 +95,18 @@
                 Flatpak manual install: <code>flatpak install flathub chat.delta.desktop</code><br />
                 Arch manual install: <code>yay -S deltachat-desktop-git</code><br />
                 Nix manual install: <code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code>
+            </div>
+        </div>
+        <div class="box" id="ubuntutouch">
+            <div class="title">Ubuntu Touch</div>
+            <div class="buttons">
+                <a class="img-badge" href="https://open-store.io/app/deltatouch.lotharketterer">
+                    <img src="../assets/badges/ubuntutouch-openstore.png" alt="Ubuntu Touch" />
+                </a>
+            </div>
+            <div class="descr">
+                <a href="https://codeberg.org/lk108/deltatouch">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a><br />
+                See <a href="https://delta.chat/en/2023-07-02-deltatouch">blog</a> for details about this community driven effort
             </div>
         </div>
     </div>

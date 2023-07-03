@@ -16,6 +16,7 @@ ca:
   subscribe_to_feed: Subscriu-te al nostre canal
 
   references: Referències
+  donate: ""
   imprint: Empremta
   privacy: Política de privacitat
   language: Idioma
@@ -39,3 +40,6 @@ ca:
     dl_apk_text:
       before: També el pots descarregar com a
       after: (experimental)
+
+  help:
+    offline_hint: ""

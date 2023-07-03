@@ -9,7 +9,9 @@
 from shutil import copyfile
 import sys
 import os
+import pathlib
 import re
+import requests
 
 
 # list all files that should go to the local help here.
@@ -30,11 +32,28 @@ def write_file(filename, content):
     f.close()
 
 
+reachable_cache = {}
+def url_is_reachable(url):
+    if not url in reachable_cache:
+        print(f"  checking {url}")
+        response = requests.get(url)
+        if response.status_code == 200:
+            reachable_cache[url] = True
+        elif response.status_code == 403 and url == "https://opentechfund.org":
+            reachable_cache[url] = True # maybe a temporary hickup
+        else:
+            print(f"  status code for {url}: {response.status_code}")
+            reachable_cache[url] = False
+
+    return reachable_cache[url]
+
+
 def generate_file(srcdir, destdir, lang, file, add_top_links):
     print("generate local help in " + destdir + "/" + lang + "/" + file)
 
     content = read_file(srcdir + "/" + lang + "/" + file)
 
+    # remove boilerplate
     content = re.sub(r"^.*<div id=\"content\">.*<h1>.*?</h1>.*?<ul.*?>",
                        "<!DOCTYPE html>\n"
                      + "<html>"
@@ -54,6 +73,22 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
                      content,
                      flags=re.MULTILINE|re.DOTALL)
 
+    content = re.sub(r"<p><a href=\"donate\".*?>.*?</a></p>",
+                      "",
+                     content,
+                     flags=re.MULTILINE|re.DOTALL)
+
+    # convert relative to absolute links
+    content = re.sub(r"<a href=\"../(.*?)\"",
+                      "<a href=\"https://delta.chat/\\1\"",
+                      content,
+                      flags=re.MULTILINE|re.DOTALL)
+
+    content = re.sub(r"<a href=\"([a-z0-9\-]+)\"",
+                      "<a href=\"https://delta.chat/" + lang + "/\\1\"",
+                      content,
+                      flags=re.MULTILINE|re.DOTALL)
+
     for linked_file in linked_files:
         srcfile  = "../" + linked_file
         destfile = "../" + linked_file.split("/")[-1]
@@ -66,6 +101,22 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
                          content,
                          flags=re.MULTILINE|re.DOTALL) + top_link
 
+    # check that all links are absolute or known relative
+    urls = re.findall(r"(href|src).*?=.*?\"?([^\">]*)", content)
+    for url in urls:
+        url = url[1]
+        if url.startswith("#"):
+            anchor = url[1:]
+            if content.find('"' + anchor) == -1:
+                print(f"\033[91m  ERROR: unresolved anchor in {lang}/{file}: \033[0m {url}")
+        elif url.startswith("https://"):
+            if not url_is_reachable(url):
+                print(f"\033[91m  ERROR: link in {lang}/{file} is not reachable: \033[0m {url}")
+        else:
+            local_file = destdir + "/" + lang + "/" + url
+            if not pathlib.Path(local_file).exists():
+                print(f"\033[91m  ERROR: unresolved link in {lang}/{file}: \033[0m {url}")
+
     write_file(destdir + "/" + lang + "/" + file, content)
 
 
@@ -75,6 +126,11 @@ def generate_lang(srcdir, destdir, lang, add_top_links):
 
 
 def generate_help(srcdir, destdir, add_top_links=False):
+    for linked_file in linked_files:
+        srcfile  = srcdir  + "/" + linked_file
+        destfile = destdir + "/" + linked_file.split("/")[-1]
+        print("copy " + srcfile + " to " + destfile)
+        copyfile(srcfile, destfile)
     generate_lang(srcdir, destdir, "cs", add_top_links)
     generate_lang(srcdir, destdir, "de", add_top_links)
     generate_lang(srcdir, destdir, "en", add_top_links)
@@ -83,17 +139,13 @@ def generate_help(srcdir, destdir, add_top_links=False):
     generate_lang(srcdir, destdir, "id", add_top_links)
     generate_lang(srcdir, destdir, "it", add_top_links)
     generate_lang(srcdir, destdir, "pl", add_top_links)
+    generate_lang(srcdir, destdir, "pt", add_top_links)
     generate_lang(srcdir, destdir, "nl", add_top_links)
     generate_lang(srcdir, destdir, "ru", add_top_links)
     generate_lang(srcdir, destdir, "sk", add_top_links)
     generate_lang(srcdir, destdir, "sq", add_top_links)
     generate_lang(srcdir, destdir, "uk", add_top_links)
     generate_lang(srcdir, destdir, "zh_CN", add_top_links)
-    for linked_file in linked_files:
-        srcfile  = srcdir  + "/" + linked_file
-        destfile = destdir + "/" + linked_file.split("/")[-1]
-        print("copy " + srcfile + " to " + destfile)
-        copyfile(srcfile, destfile)
 
 
 if __name__ == "__main__":

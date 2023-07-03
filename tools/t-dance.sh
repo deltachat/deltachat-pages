@@ -20,15 +20,26 @@
 
 set -e
 
-sfiles=(blog contribute community-standards download help imprint index references user-voices verify-downloads serverguide)
-tlangs=(ca cs de es fr gl id it nl pl pt ru sk sq tr uk zh_CN)  # do not add `en` to this list
+sfiles=(blog contribute community-standards donate download help imprint index references user-voices verify-downloads serverguide)
+tlangs=(ca cs de es fr gl id it nl pl pt pt_BR ru sk sq tr uk zh_CN)  # do not add `en` to this list
 
 
 pull_po_translations_from_tx() {
-	#find ../_data/lang/ -type f -not -name 'en.*' -delete
 	rm -r translations || true
-	mkdir translations 
-	tx pull --translations --all --force
+
+	# instead of passing --all to the tx command, create the files we're interested in; this is more than twice faster
+	mkdir "translations"
+	mkdir "translations/delta-chat-pages.yml"
+	for sfile in ${sfiles[@]}; do
+	  mkdir "translations/delta-chat-pages.${sfile}po"
+	  for tlang in ${tlangs[@]}; do
+	    touch "translations/delta-chat-pages.yml/${tlang}.yml"
+	    touch "translations/delta-chat-pages.${sfile}po/${tlang}.po"
+	  done
+	done
+
+	tx pull --translations --force
+
 	for tlang in ${tlangs[@]}; do
 	  echo "Converting ${tlang} ..."
 	  for sfile in ${sfiles[@]}; do

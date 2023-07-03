@@ -1,6 +1,6 @@
 name: Push new strings to Transifex
 
-on: 
+on:
   push:
     branches:
       # if we made sure, the new tx-tool works and is used by CI, we can switch back to branch "master"
@@ -9,26 +9,24 @@ on:
 
 jobs:
   push-translations:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: install dependencies
-      run: |
-        sudo apt update
-        sudo apt install -y translate-toolkit transifex-client python3-pip
-        pip install massedit
-    - name: tx init
-      run: |
-        echo "${{ secrets.transifexrc }}" > ~/.transifexrc
-        # this replaces the following commands:
-        #tx init --user=api --pass=${{ secrets.TXapitoken }}
-        #tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
-    - name: tx push
-      run: |
-        git checkout master
-        git pull origin master
-        git status
-        tools/t-dance.sh push--do-this-only-from-master
-
+      - uses: actions/checkout@v3
+      - name: install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y translate-toolkit transifex-client python3-pip
+          pip install massedit
+      - name: tx init
+        run: |
+          echo "${{ secrets.transifexrc }}" > ~/.transifexrc
+          # this replaces the following commands:
+          #tx init --user=api --pass=${{ secrets.TXapitoken }}
+          #tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
+      - name: tx push
+        run: |
+          git checkout master
+          git pull origin master
+          git status
+          tools/t-dance.sh push--do-this-only-from-master

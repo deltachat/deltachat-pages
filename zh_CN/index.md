@@ -9,7 +9,7 @@ lang: zh_CN
 
 🥳 通过 [webxdc 应用](https://webxdc.org)，享受互动聊天体验。
 
-🔒 您的所有数据保存在您的设备和电子邮件账户上。
+🔒 使用 [Autocrypt](https://autocrypt.org) 与 [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) 协议进行端到端加密，经过[多次安全审计](https://delta.chat/en/2023-03-27-third-independent-security-audit)。
 
 # 在移动端与桌面端均可使用
 
@@ -23,7 +23,7 @@ style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" a
 
 <img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" width="110" style="margin: 10px" alt="A screenshot of Delta Chat on IOS" /> 
 
-<a class="download-button" href="https://get.delta.chat">下载</a>
+[下载](https://get.delta.chat){: .cta-button}
 
 Delta Chat 是[开源](https://en.wikipedia.org/wiki/Open-source_software)的[自由软件](https://en.wikipedia.org/wiki/Free_software)，构建于[互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)之上。 
 

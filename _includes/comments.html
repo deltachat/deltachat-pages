@@ -1,0 +1,69 @@
+{% assign mastodon_instance = "chaos.social" %}
+{% assign mastodon_user = "delta" %}
+<link rel="stylesheet" href="../assets/css/comments.css">
+<div class="article-content">
+<br>
+<div id="comments-list" style="border-top: 1px solid #BBB;"></div>
+<noscript><p>You need JavaScript to view comments here.</p></noscript>
+<p><a id="load-comment" class="comment-button">Show Comments</a></p>
+<p><br>You can reply on any Fediverse (Mastodon, Pleroma, etc.) website or app by pasting this URL into the search field of your client:<br>
+<pre><a href='https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}' target='_blank'>https://{{ mastodon_instance }}/@{{ mastodon_user }}/{{ page.com_id }}</a></pre>
+<script src="../assets/js/purify.js"></script>
+<script>
+    document.getElementById('load-comment').addEventListener("click", async () => {
+        document.getElementById('load-comment').remove();
+		    const response = await fetch('https://{{ mastodon_instance }}/api/v1/statuses/{{ page.com_id }}/context');
+        const data = await response.json();
+        let commentsList = document.getElementById('comments-list');
+        if (data.descendants && data.descendants.length > 0) {
+	    let commentsHeadline = document.createElement('h2');
+	    commentsHeadline.innerText = 'Comments';
+	    commentsList.appendChild(commentsHeadline);
+            let descendants = data.descendants;
+            for (let i = 0; i < descendants.length; i++) {
+                commentsList.appendChild(DOMPurify.sanitize(createCommentEl(descendants[i]), {'RETURN_DOM_FRAGMENT': true}));
+            }
+        }
+        else {
+	    let commentError = document.createElement('p');
+	    commentError.innerText = 'No Mastodon comments yet';
+            commentsList.appendChild(commentError);
+        }
+    });
+
+    function createCommentEl(response){
+        let user = document.createElement('div');
+        user.classList.add('mastodon-comment');
+        let userAvatar = document.createElement('img');
+        userAvatar.classList.add('avatar');
+        userAvatar.setAttribute('height', 60 ); 
+        userAvatar.setAttribute('width', 60 ); 
+        userAvatar.setAttribute('src',response.account.avatar_static);
+        user.appendChild(userAvatar);
+        let userLink = document.createElement('a');
+        userLink.setAttribute('href',response.account.url);
+        userLink.classList.add('comment-author');
+        for (let j = 0; j < response.account.emojis.length;j++){
+            let emoji = response.account.emojis[j];
+            response.account.display_name = response.account.display_name.replace(`:${emoji.shortcode}:`, `<img src="${emoji.static_url}" alt="Emoji ${emoji.shortcode}" height="16px" width="16px" />`);
+        }
+        userLink.innerHTML = response.account.display_name + ' @' + response.account.username;
+    
+        let commentDate = document.createElement('a');
+        commentDate.classList.add('comment-date'); commentDate.setAttribute('href',response.url); commentDate.innerHTML = response.created_at.substr(0,10);
+    
+        let commentContents = document.createElement('div');
+        commentContents.classList.add('mastodon-comment-content'); commentContents.innerHTML = response.content;
+    
+        let comment = document.createElement('div');
+        comment.classList.add( 'comment-content' );
+    
+        user.appendChild( comment );
+        comment.appendChild( userLink );
+        comment.appendChild(commentDate);
+        comment.appendChild( commentContents );
+        return user;
+    }
+
+</script>
+</div>

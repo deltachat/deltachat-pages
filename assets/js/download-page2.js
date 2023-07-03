@@ -12,7 +12,10 @@ function main() {
 function userAgentToOS() {
     // return the OS, if in doubt, an empty string is returned
     var uA = navigator.userAgent;
-    if (uA.includes('iPad') && uA.includes('Mobile'))
+    if (uA.includes('Ubuntu; Mobile') || uA.includes('Ubuntu; Tablet') || (uA.includes('Linux; Ubuntu') && uA.includes('like Android'))) {
+        // first two are from https://daker.me/2013/11/ubuntu-touch-user-agent.html, third one is from testing with recent ubuntu touch device
+        return 'ubuntutouch';
+    } else if (uA.includes('iPad') && uA.includes('Mobile'))
         return 'ios';
     else if (uA.includes('iPhone') && uA.includes('Mobile'))
         return 'ios';
