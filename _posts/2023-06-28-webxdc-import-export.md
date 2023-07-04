@@ -12,7 +12,7 @@ to **safely and conveniently exchange data with other tools and apps.**
 
 <img src="../assets/blog/2023-06-imex-00.jpg" width="240" style="float:right; margin-left:1em;" />
 
-To showcase and design the new APIs we developed a little [cross-platform Calendar web app](https://github.com/webxdc/calendar/) that: 
+To showcase and design the new APIs we developed a little [cross-platform Calendar web app](https://codeberg.org/webxdc/calendar/) that:
 
 - can be shared as an WebXDC app in any chat such that every member 
   can create and view calendar events without requiring any install, login or hosting, 
