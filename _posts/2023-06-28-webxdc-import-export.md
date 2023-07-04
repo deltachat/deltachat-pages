@@ -22,14 +22,10 @@ To showcase and design the new APIs we developed a little [cross-platform Calend
 
 - allows to share invites to a user-selected chat or contact 
   where the recipient(s) can tap the received file 
-  to import the invite into their own favorite native calendar app, 
-
-<!-- uncomment if we have a running online-demo somewhere again
+  to import the invite into their own favorite native calendar app,
 
 - can also run unmodified as an [Calendar online demo](https://webxdc.github.io/calendar/) 
-  which however stops short of the actual chat-sharing activity. 
-
--->
+  which however stops short of the actual chat-sharing activity.
 
 You may [download the latest released Calendar app here](https://codeberg.org/webxdc/calendar/releases)
 and then send the downloaded `.xdc` app file into your "Saved messages" chat (shared between all your devices) or into any group chat so that chat members can play around as well. 
