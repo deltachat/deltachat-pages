@@ -80,8 +80,10 @@
     | <a href="imprint">{%if tx.imprint != ""%}{{ tx.imprint }}{%else%}{{ txEn.imprint }}{%endif%}</a>
     | <a href="gdpr-website">{%if tx.privacy != ""%}{{ tx.privacy }}{%else%}{{ txEn.privacy }}{%endif%}</a>
 <br>
-<span class="desktoponly">{%if tx.language != ""%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}:</span>
+<br>
+{%if tx.language != ""%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}:
 {% include footer-languages.html %}
+<br>
 <br>
 {% include subscribe-to-feed-links.html %}
 <br>
