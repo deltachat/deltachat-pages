@@ -24,7 +24,7 @@ To showcase and design the new APIs we developed a little [cross-platform Calend
   where the recipient(s) can tap the received file 
   to import the invite into their own favorite native calendar app,
 
-- can also run unmodified as an [Calendar online demo](https://webxdc.github.io/calendar/) 
+- can also run unmodified as an [Calendar online demo](https://webxdc.codeberg.page/calendar/@main/)
   which however stops short of the actual chat-sharing activity.
 
 You may [download the latest released Calendar app here](https://codeberg.org/webxdc/calendar/releases)
