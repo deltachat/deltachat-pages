@@ -68,6 +68,9 @@ body {
 #footer a, #footer a:visited {
     color: #757575;
 }
+#languages {
+    margin: 1em;
+}
 
 .featured-image {
     margin-top: 1em;
@@ -122,6 +125,9 @@ body {
     #footer {
         padding: 2em;
     }	
+    #languages {
+        margin: 1em 20vw;
+    }
 
     .nodesktop { display: none; }
     span.desktoponly, i.desktoponly, b.desktoponly { display: inline !important; }
