@@ -121,16 +121,15 @@ SKIP_SOGO=y
 
 3 mundësitë e fundit heqin shërbime që s’janë të nevojshme të një instalim minimal.
 
-Pas kësaj na duhet të xhirojmë `printf "#\n" > data/conf/dovecot/global_sieve_before`.
+After that we need to run `echo '#' > data/conf/dovecot/global_sieve_before`.
 
 ### Formësim për Mailadm NGINX
 
-`mailadm.example.org/new_email` lypset të jetë e kapshme për kërkesa HTTP,
-që të funksionojë. Ndaj, së pari krijoni kartelën `data/conf/nginx/server_name.active` dhe shkruani
-`mailadm.example.org` në të - kjo do të thotë që nginx-i do të përgjojë për kërkesa ndaj
-kësaj përkatësie.
-
-Mandej shtoni bllokun vijues te `data/conf/nginx/site.mailadm.custom`:
+`mailadm.example.org/new_email` needs to be reachable for HTTP requests to work.
+So we need to create two files for Mailcows Nginx redirection.
+First we do `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`
+and then we create the file `data/conf/nginx/site.mailadm.custom`
+and add the following block to it:
 
 ```
   location /new_email {
@@ -392,4 +391,3 @@ me `sudo docker compose up -d`.
 Për alternative të këtij formësimi, shihni
 mundësinë e leximit te [dokumentimi i
 regjistrave të Mailcow-ut](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation).
-

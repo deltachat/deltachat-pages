@@ -244,10 +244,8 @@ nelle impostazioni "Chat e Media".
 Puoi impostare un intervallo di tempo compreso tra "Subito" e "Dopo 1 anno".
 Tutte le e-mail ricevute da Delta Chat verranno eliminate dal server dopo questo periodo di tempo.
 
-- Si noti che se si utilizza Delta Chat su più di un dispositivo, è consigliabile lasciare i messaggi sul server,
-finché anche l'altro dispositivo non potrà scaricarli. In questo caso,
-si dovrebbe impostare la cancellazione automatica su "Dopo 1 giorno" o qualcosa di simile,
-a seconda della frequenza con cui si accende l'altro dispositivo.
+- Tieni presente che se utilizzi Delta Chat su più di un dispositivo, è necessario lasciare il messaggio sul server con un tempo sufficiente
+in modo che anche gli altri dispositivi(o) possano scaricarli.
 
 
 ### Cosa succede se attivo "Elimina Messaggi dal Dispositivo"? {#delold}
@@ -695,8 +693,8 @@ indirizzo e-mail
 3. Comunica ai tuoi contatti che hai cambiato indirizzo. Se scrivi questo ad un
 gruppo verificato, lo riconosceranno automaticamente.
 
-Per conoscere i dettagli alla base di questo, [leggi il nostro post sul blog
-it](https://delta.chat/en/2022-09-14-aeap).
+Per conoscere i dettagli alla base di questo, [leggi il nostro post
+sul blog](https://delta.chat/en/2022-09-14-aeap).
 
 
 ## Varie

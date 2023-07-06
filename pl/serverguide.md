@@ -96,13 +96,15 @@ SKIP_SOGO=y
 
 Ostatnie 3 opcje usuwają usługi, które nie są potrzebne do minimalnej konfiguracji.
 
-Następnie musimy uruchomić `printf "#\n" > data/conf/dovecot/global_sieve_before`.
+After that we need to run `echo '#' > data/conf/dovecot/global_sieve_before`.
 
 ### Skonfiguruj Mailadm NGINX
 
-`mailadm.przyklad.org/new_email` musi być osiągalny, aby żądania HTTP działały. Najpierw więc utwórz plik `data/conf/nginx/server_name.active` i zapisz w nim `mailadm.przyklad.org` - oznacza to, że nginx będzie nasłuchiwał żądań dla tej domeny.
-
-Następnie dodaj następujący blok do `data/conf/nginx/site.mailadm.custom`:
+`mailadm.example.org/new_email` needs to be reachable for HTTP requests to work.
+So we need to create two files for Mailcows Nginx redirection.
+First we do `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`
+and then we create the file `data/conf/nginx/site.mailadm.custom`
+and add the following block to it:
 
 ```
   location /new_email {
@@ -309,4 +311,3 @@ local3.*        /dev/null
 Na koniec zrestartuj rsyslog za pomocą `sudo service rsyslog restart` i mailcow za pomocą `sudo docker compose up -d`.
 
 Rozważ przejrzenie [dokumentacji rejestrowania Mailcow](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation) w celu znalezienia alternatyw dla tej konfiguracji.
-
