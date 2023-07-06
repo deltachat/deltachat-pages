@@ -4,7 +4,7 @@ lang: ru
 downloads: true
 ---
 
-## Список изменений
+## Список изменений {#changelogs}
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)

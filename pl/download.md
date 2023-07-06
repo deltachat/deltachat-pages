@@ -4,7 +4,7 @@ lang: pl
 downloads: true
 ---
 
-## Rejestr zmian
+## Rejestr zmian {#changelogs}
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)

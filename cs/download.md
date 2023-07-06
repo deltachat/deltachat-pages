@@ -4,7 +4,7 @@ lang: cs
 downloads: true
 ---
 
-## Záznam o změnách
+## Záznam o změnách {#changelogs}
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)

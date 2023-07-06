@@ -4,7 +4,7 @@ lang: sk
 downloads: true 
 --- 
 
-## Denníky zmien
+## Denníky zmien {#changelogs}
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)

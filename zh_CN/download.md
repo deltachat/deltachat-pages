@@ -4,7 +4,7 @@ lang: zh_CN
 downloads: true
 ---
 
-## 变更日志
+## 变更日志 {#changelogs}
 
 * [桌面版](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)

@@ -4,7 +4,7 @@ lang: es
 downloads: true
 ---
 
-## Registro de cambios
+## Registro de cambios {#changelogs}
 
 * [Escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)

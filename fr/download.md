@@ -4,7 +4,7 @@ lang: fr
 downloads: true
 ---
 
-## Journal des Changements
+## Journal des Changements {#changelogs}
 
 * [PC](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)

@@ -4,7 +4,7 @@ lang: tr
 downloads: true
 ---
 
-## Değişiklik Günlükleri
+## Değişiklik Günlükleri {#changelogs}
 
 * [Masaüstü](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)

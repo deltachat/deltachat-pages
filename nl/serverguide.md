@@ -120,7 +120,7 @@ SKIP_SOGO=y
 
 De laatste 3 opties verwijderen diensten die niet nodig zijn in een minimale omgeving.
 
-After that we need to run `echo '#' > data/conf/dovecot/global_sieve_before`.
+Voer daarna `echo '#' > data/conf/dovecot/global_sieve_before` uit.
 
 ### Mailadm NGINX instellen
 
