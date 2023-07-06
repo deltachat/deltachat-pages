@@ -79,10 +79,12 @@
     | <a href="donate">{%if tx.donate != ""%}{{ tx.donate }}{%else%}{{ txEn.donate }}{%endif%}</a>
     | <a href="imprint">{%if tx.imprint != ""%}{{ tx.imprint }}{%else%}{{ txEn.imprint }}{%endif%}</a>
     | <a href="gdpr-website">{%if tx.privacy != ""%}{{ tx.privacy }}{%else%}{{ txEn.privacy }}{%endif%}</a>
-<br>
-<span class="desktoponly">{%if tx.language != ""%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}:</span>
+</p>
+<p id="languages">
+{%if tx.language != ""%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}:
 {% include footer-languages.html %}
-<br>
+</p>
+<p>
 {% include subscribe-to-feed-links.html %}
 <br>
 © 2023 Delta Chat contributors
