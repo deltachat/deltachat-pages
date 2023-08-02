@@ -14,12 +14,21 @@ lang: de
 # Verfügbar für Mobil- und Desktopgeräte
 
 
-<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="Ein Screenshot von Delta Chat auf Android mit einer Chat-Liste" width="120"/>
-<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light.png" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="Ein Screenshot von Delta Chat auf Android mit einem Chat" width="120"/>
+<a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
+<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light-thumbnail.png" width="120" height="213" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="Ein Screenshot von Delta Chat auf Android mit einer Chat-Liste"/>
+</a> 
 
-<img src="../assets/blog/desktop-screenshot.png" style="float:left; margin: 10px" alt="Ein Screenshot von Delta Chat auf dem Desktop" width="280"/>
+<a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light.png">
+<img src="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-group-light-thumbnail.png" width="120" height="213" style="float: left; margin: 10px;display: block;box-shadow: 5px 5px 2px #777;" alt="Ein Screenshot von Delta Chat auf Android mit einem Chat"/>
+</a> 
 
-<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png" style="margin: 10px" alt="Ein Screenshot von Delta Chat auf iOS" width="110"/>
+<a href="../assets/blog/desktop-screenshot.png">
+<img src="../assets/blog/desktop-screenshot-thumbnail.png" width="280" height="222" style="float:left; margin: 10px" alt="Ein Screenshot von Delta Chat auf dem Desktop"/>
+</a> 
+
+<a href="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat.png">
+<img src="../assets/blog/screenshots/2020-01-09-delta-chat-iOS-weekend-group-chat-thumbnail.png" width="110" height="219" style="margin: 10px" alt="Ein Screenshot von Delta Chat auf iOS"/>
+</a>
 
 [Herunterladen](https://get.delta.chat){: .cta-button}
 

@@ -124,11 +124,11 @@ Voer daarna `echo '#' > data/conf/dovecot/global_sieve_before` uit.
 
 ### Mailadm NGINX instellen
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to work.
-So we need to create two files for Mailcows Nginx redirection.
-First we do `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`
-and then we create the file `data/conf/nginx/site.mailadm.custom`
-and add the following block to it:
+`mailadm.example.org/new_email` dient bereikbaar te zijn voor http-verzoeken.
+Hiervoor moeten er twee bestanden voor Mailcows Nginx-doorverwijzing aangemaakt worden.
+Ten eerste `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`
+en ten tweede `data/conf/nginx/site.mailadm.custom`
+en voeg het volgende toe om te blokkeren:
 
 ```
   location /new_email {

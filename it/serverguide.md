@@ -121,15 +121,15 @@ SKIP_SOGO=y
 
 Le ultime 3 opzioni rimuovono i servizi che non sono necessari per una configurazione minima.
 
-After that we need to run `echo '#' > data/conf/dovecot/global_sieve_before`.
+Dopodiché è necessario eseguire `echo '#' > data/conf/dovecot/global_sieve_before`.
 
 ### Configurazione Mailadm NGINX
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to work.
-So we need to create two files for Mailcows Nginx redirection.
-First we do `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`
-and then we create the file `data/conf/nginx/site.mailadm.custom`
-and add the following block to it:
+`mailadm.example.org/new_email` deve essere raggiungibile affinché le richieste HTTP funzionino.
+Quindi dobbiamo creare due file per il reindirizzamento di Mailcows Nginx.
+Prima di tutto facciamo `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`
+e poi creiamo il file `data/conf/nginx/site.mailadm.custom
+e aggiungiamo il seguente blocco:
 
 ```
   location /new_email {

@@ -16,7 +16,7 @@ zh_CN:
   subscribe_to_feed: 订阅我们的订阅源
 
   references: 参考
-  donate: ""
+  donate: 捐款
   imprint: 印记
   privacy: 隐私政策
   language: 语言
@@ -42,4 +42,4 @@ zh_CN:
       after: （实验性）
 
   help:
-    offline_hint: ""
+    offline_hint: 现在还忙？您可以随时在应用程序中轻松阅读此帮助，即使在离线状态下。
