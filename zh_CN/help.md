@@ -55,7 +55,7 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
-<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+<h3 id="multiple-accounts">如何添加账户或在多个账户之间切换？</h3>
 
 You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
 - on the menu button and then 'Switch Account' (Android and desktop)
@@ -144,7 +144,7 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 - 另一方面，其他人并不总是能“看到您在线”。如果您关掉了已读回执，那么在您发消息给其他人以及和他们的共有群组前，其他人将不会看到绿色圆点。
 
 
-### How can I delete my account?
+### 如何删除我的账户？
 
 As you use an e-mail account for Delta Chat,
 how you can delete your account depends on your e-mail provider.
