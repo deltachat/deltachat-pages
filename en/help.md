@@ -449,6 +449,8 @@ For other programs, you should be able to find a solution online.
 
 Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
 
+- Make sure both devices are on the same Wi-Fi or network
+
 - On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
   and wait a moment until a QR code is shown
 
