@@ -571,10 +571,11 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 ### Where can I get private apps?
 
-- In general, there is no curated appstore and Delta Chat is not responsible
-  for private apps or their content. Anyone can share private apps with each
+- In general, anyone can share private apps with each
   other without restrictions.
-- You can find some example apps on [webxdc.org](https://webxdc.org).
+- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+  to see an experimental webxdc appstore.
+  All of the apps are open source and for free.
 - Many people write their own private apps and post them to [the Delta Chat
   forum](https://support.delta.chat/c/webxdc/20).
 
