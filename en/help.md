@@ -375,7 +375,7 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#verd
 
 ### Does Delta Chat support Perfect Forward Secrecy?
 
-No, OpenPGP doesn't support Perfect Forward Secrecy.
+No, Delta Chat doesn't support Perfect Forward Secrecy.
 This means that if your Delta Chat private key is leaked,
 and someone has a record of your in-transit messages,
 they will be able to read them.
