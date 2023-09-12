@@ -378,13 +378,19 @@ and, more importantly, the sender and receiver addresses.
 E-mail servers use receiver addresses to route and 
 deliver messages to recipient's devices. 
 
+### How to protect metadata and contacts when a device is seized? 
+
 Both for protecting against metadata-collecting e-mail servers 
-as well as the threat of "device seizure" 
-we recommend to use a Delta Chat optimized e-mail server setup
-and creating pseudonymous temporary accounts through QR-code scans as needed.
-[Mail server setup guide](https://delta.chat/serverguide)
-describes how to setup an e-mail server for Delta Chat
-with the support of creating temporary e-mail accounts.
+as well as against the threat of device seizure
+we recommend to use a Delta Chat optimized [e-mail server template](https://delta.chat/serverguide)
+to create pseudonymous temporary accounts through QR-code scans.
+Note that Delta Chat apps on all platforms support multiple accounts 
+so it is practical to use "1-week" or "1-month" accounts 
+with the knowledge that all account data will be deleted. 
+If a device is seized then chat partners using temporary e-mail accounts 
+can not easily be identified, compared to messengers which reveal 
+phone numbers that are often associated with passport identities. 
+
 
 ### What is the difference between verified groups and 1:1 chats with verified contacts? {#verdiff}
 
