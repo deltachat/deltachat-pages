@@ -356,6 +356,30 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#verd
 - Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
   base protection of Autocrypt Level 1, while maintaining its ease of use.
 
+
+### How does Delta Chat protect metadata in messages? 
+
+Delta Chat protects message metadata by putting the following information
+into the E2E-encrypted part of messages: 
+
+- Subject line
+- Group avatar and name 
+- TODO: complete list of what is in protected headers 
+
+E-Mail servers do not get access to this protected metadata 
+but they do see the message date as well as the message size,
+and, more importantly, the sender and receiver addresses. 
+E-mail servers use receiver addresses to route and 
+deliver messages to recipient's devices. 
+
+Both for protecting against metadata-collecting e-mail servers 
+as well as the threat of "device seizure" 
+we recommend to use a Delta Chat optimized e-mail server setup
+and creating pseudonymous temporary accounts through QR-code scans as needed.
+[Mail server setup guide](https://delta.chat/serverguide)
+describes how to setup an e-mail server for Delta Chat
+with the support of creating temporary e-mail accounts.
+
 ### What is the difference between verified groups and 1:1 chats with verified contacts? {#verdiff}
 
 - 1:1 chats with a verified contact and verified groups are not the same, even
@@ -386,31 +410,6 @@ is in place or not. Having access to a single device from a member of a group,
 will typically expose a lot of the social graph. Using e-mail addresses that
 are not easily tracked back to persons helps group members to stay safer from
 the effects of device seizure.
-
-
-### How does Delta Chat protect my metadata?
-
-Delta Chat message metadata includes
-the sender address, receiver addresses,
-message date, message size etc.
-
-End-to-end encryption cannot be used
-to protect this metadata
-and is always available to the server.
-In particular, receiver addresses cannot be encrypted
-because the server uses them to determine the mailbox
-the message should be delivered to.
-
-To protect against the collection of such metadata,
-Delta Chat avoids storing messages on a single central server
-and encourages setting up pseudonymous accounts as needed.
-
-[Mail server setup guide](https://delta.chat/serverguide)
-describes how to setup an e-mail server for Delta Chat
-with the support of creating temporary e-mail accounts.
-
-Some e-mail headers, in particular the "Subject" header, are end-to-end-encryption protected
-according to the [Protected Headers for Cryptographic E-mail proposal](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
 ### Can I reuse my existing private key?
