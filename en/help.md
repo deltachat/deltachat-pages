@@ -267,26 +267,26 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 
 ### Does Delta Chat support end-to-end-encryption?
 
-- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
-  thus E2E-encrypt messages with other Autocrypt-capable apps. 
+- Yes. Delta Chat implements the [Autocrypt Level 1](https://autocrypt.org/level1.html) standard
+  and can thus E2E-encrypt messages with other Autocrypt-capable apps.
 
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
+- Delta Chat also supports a strong form of end-to-end encryption that is
+  even safe against active attacks, see "verified groups" further below.
 
 
 ### What do I have to do to activate the end-to-end-encryption?
 
-- Nothing.
+Nothing.
 
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
+Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
+e-mail apps) share the keys required for end-to-end-encryption automatically
+as the first messages are sent.
+After this, all subsequent messages are encrypted end-to-end automatically.
+If one of the chat partners uses a non-Autocrypt e-mail app, subsequent
+messages are not encrypted until an Autocrypt-compliant app is available again.
 
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
+If you want to rather avoid end-to-end-encrypted e-mails by default,
+use the corresponding Autocrypt setting in "Advanced settings".
 
 
 ### If end-to-end-encryption is not available, is the connection not encrypted at all?
@@ -294,25 +294,25 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 - With most mail servers, Delta Chat establishes _transport encryption_
   ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
   This only secures the connection between your device and your e-mail
-  server. Whereas e2e-encryption provides safety between 
-  your device and a friend's device. 
+  server. Whereas e2e-encryption provides safety between
+  your device and a friend's device.
 
 
-### How can I verify cryptographic status with a sender? 
+### How can I verify cryptographic status with a sender?
 
 If you are within immediate distance of the chat partner:
 
 - Select **QR Invite code** on one device and then **Scan QR code**
   on the other one and scan the code. If both devices are online,
-  they will introduce a chat channel with each-other (if it doesn't exist already) 
+  they will introduce a chat channel with each-other (if it doesn't exist already)
   and the encryption keys will also be verified.  Both will see a
-  "sender verified" system message in their 1:1 chat. 
+  "sender verified" system message in their 1:1 chat.
 
 If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
-- For end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If the same fingerprints appear on your chat partner's device, 
+- For end-to-end-encryption, Delta Chat shows two fingerprints there.
+  If the same fingerprints appear on your chat partner's device,
   the connection is safe.
 
 - For transport encryption, this state is just shown there
@@ -332,8 +332,7 @@ and metadata deleted as quickly as possible
 is creating a verified group and turning on
 disappearing messages.
 
-Verified groups are always encrypted and protected against [MITM
-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+Verified groups are always encrypted and protected against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
 
 Metadata can't be encrypted, as the server needs to know where to deliver your
 messages. But turning on "disappearing messages" deletes the messages on
@@ -351,11 +350,11 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#verd
 ### Which standards are used for end-to-end-encryption?
 
 - [Autocrypt](https://autocrypt.org) is used for establishing
-  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. 
+  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps.
+  Autocrypt uses a limited subset of OpenPGP functionality.
 
 - Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
-  base protection of Autocrypt Level 1, while maintaining its ease of use.  
+  base protection of Autocrypt Level 1, while maintaining its ease of use.
 
 ### What is the difference between verified groups and 1:1 chats with verified contacts? {#verdiff}
 
@@ -393,32 +392,41 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#verd
   of device seizure. 
 
 
-### How does Delta Chat protect my Metadata?
+### How does Delta Chat protect my metadata?
 
-- As Delta Chat is a decentralized messenger, the metadata of Delta Chat users
-  are not stored on a single central server. However, they are stored on the mail
-  servers of the sender and the recipient of a message.
+Delta Chat message metadata includes
+the sender address, receiver addresses,
+message date, message size etc.
 
-- Each mail server currently knows about who sent and who received a message by 
-  inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
-  are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
-  and always put them only into the encrypted section. See 
-  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
-  For opportunistic chats the main concern is how it affects other mail apps who 
-  might participate in chats. 
+End-to-end encryption cannot be used
+to protect this metadata
+and is always available to the server.
+In particular, receiver addresses cannot be encrypted
+because the server uses them to determine the mailbox
+the message should be delivered to.
 
-- Many other e-mail headers, in particular the "Subject" header, are
-  end-to-end-encryption protected, see also this upcoming [IETF
-  RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
+To protect against the collection of such metadata,
+Delta Chat avoids storing messages on a single central server
+and encourages setting up pseudonymous accounts as needed.
+
+[Mail server setup guide](https://delta.chat/serverguide)
+describes how to setup an e-mail server for Delta Chat
+with the support of creating temporary e-mail accounts.
+
+Some e-mail headers, in particular the "Subject" header, are end-to-end-encryption protected
+according to the [Protected Headers for Cryptographic E-mail proposal](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
 
 
 ### Can I reuse my existing private key?
 
-- Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+Yes.
+The best way is to send an Autocrypt Setup Message from the other e-mail client.
+Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys".
+Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it. 
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it.
 
 
 ### I can't import my existing PGP key into Delta Chat.
