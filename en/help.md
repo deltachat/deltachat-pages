@@ -375,21 +375,17 @@ not their account, you can still communicate in the 1:1 chat. ([Read more](#verd
 
 ### Does Delta Chat support Perfect Forward Secrecy?
 
-- No, OpenPGP doesn't support Perfect Forward Secrecy. Perfect Forward Secrecy
-  works session-oriented, but E-Mail is asynchronous by nature
-  and often used from multiple devices independently. This means that if your
-  Delta Chat private key is leaked, and someone has a record
-  of all your in-transit messages, they will be able to read them.  
+No, OpenPGP doesn't support Perfect Forward Secrecy.
+This means that if your Delta Chat private key is leaked,
+and someone has a record of your in-transit messages,
+they will be able to read them.
 
-- Note that if anyone has seized or hacked your running phone, they will
-  typically be able to read all messages, no matter if Perfect Forward Secrecy
-  is in place or not. Having access to a single device from a member of a group,
-  will typically expose a lot of the social graph. Using e-mail addresses that
-  are not easily tracked back to persons helps group members to stay safer from
-  the effects of device seizure. 
-
-- We are sketching ways to protect communications better against the event
-  of device seizure. 
+Note that if anyone has seized or hacked your running phone, they will
+typically be able to read all messages, no matter if Perfect Forward Secrecy
+is in place or not. Having access to a single device from a member of a group,
+will typically expose a lot of the social graph. Using e-mail addresses that
+are not easily tracked back to persons helps group members to stay safer from
+the effects of device seizure.
 
 
 ### How does Delta Chat protect my metadata?
