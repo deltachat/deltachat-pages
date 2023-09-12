@@ -4,7 +4,7 @@ lang: fr
 downloads: true
 ---
 
-## Journal des Changements {#changelogs}
+## Journal des modifications {#changelogs}
 
 * [PC](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
@@ -13,11 +13,11 @@ downloads: true
 
 L'installation de Delta Chat sur le téléphone n'est pas nécessaire pour utiliser l'application sur l'ordinateur.
 
-Configuration requise :
+Configuration minimale requise :
 Android 4.1 Jelly Bean
 ou iOS 11, iPhone 5s ou iPad 5/Air/Mini
 ou Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 ou Debian 10
-ou un des systèmes compatibles.
+ou tout système compatible.
 
 ## Liens
 

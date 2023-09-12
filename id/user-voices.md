@@ -9,18 +9,18 @@ lang: id
 
 _"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
 
-**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### supports more than one account
 
 _"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### audio and video call possible
 
 _"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
 
-**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
+**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
 ### Dapat merekomendasi kepada orang buta
 
@@ -113,7 +113,7 @@ that the world doesn't need yet another instant messenger.
 Good old email will do just fine.
 Use #DeltaChat with your existing email account. #decentralize the net."_
 
-**Pengguna dari Polandia** in 2020, via [Twitter](https://twitter.com/MichalNarecki/status/1280820973902745600)
+**User from Poland** in 2020, via [Twitter](https://twitter.com/MichalNarecki/status/1280820973902745600)
 
 
 ### Most decentralized communication concept currently available

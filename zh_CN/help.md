@@ -334,6 +334,8 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
 
+- Make sure both devices are on the same Wi-Fi or network
+
 - On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
   and wait a moment until a QR code is shown
 
@@ -420,9 +422,13 @@ This method is only recommended if "Add Second Device" as described above does n
 
 ### 可以从哪里获取私人应用？
 
-- 总体来说，这里没有精选的应用商店，并且 Delta Chat 不对私人应用和它们的内容负责。所有人都可以无限制地分享私人应用。
-- 您可以在 [webxdc.org](https://webxdc.org) 找到一些示例应用。
-- 很多人编写了他们自己的私人应用，并将应用发布到了 [Delta Chat 论坛](https://support.delta.chat/c/webxdc/20)。
+- In general, anyone can share private apps with each
+  other without restrictions.
+- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+  to see an experimental webxdc appstore.
+  All of the apps are open source and for free.
+- Many people write their own private apps and post them to [the Delta Chat
+  forum](https://support.delta.chat/c/webxdc/20).
 
 
 ### 怎样创建我自己的私人应用？

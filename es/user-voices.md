@@ -9,18 +9,18 @@ lang: es
 
 _"Una extraña observación: enviar y recibir emails con #DeltaChar hace la experiencia más disfrutable que usar el cliente de email tradicional. Creo que es más un acercamiento moderno: hacer que los emails luzcan como mensajes de chat."_
 
-**Usuario polaco** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### admite más de una cuenta
 
 _"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### posible hacer llamada de audio y video
 
 _"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
 
-**usuario de Mastodon** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
+**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
 ### Recomendable para personas invidentes
 

@@ -5,24 +5,24 @@ lang: id
 
 # Saluran dan repositori
 
-For community interactions around Delta Chat please read our [Community Standards](community-standards).
+Untuk interaksi seputar Delta Chat silakan baca [Standart komunitas](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fediverse](https://chaos.social/web/@delta) untuk pemberitahuan dan masukan.
 
-- With your Delta Chat app you can send a `/list` message to [a community
-  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
+- Dengan Delta Chat app kamu dapet mengirim pesan `/list` ke [a community
+groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) untuk menemukan dan bergabung dengan berbagai grup obrolan.
 
 - [Forum dukungan Delta Chat](https://support.delta.chat) untuk yang lebih luas
 diskusi fitur dan mendapatkan dukungan.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Delta Chat repositories](https://github.com/deltachat/) dimana kamu dapat
+mencari kode untuk aplikasi DeltaChat dan website ini.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Situs lain dapet di temukan di [cosmos](https://cosmos.delta.chat)
 
 [Donate Money](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Terjemahan dan pelaporan bug
 
 - [Terjemahan di Transifex](https://www.transifex.com/delta-chat/public/)
 - [Delta Chat Masalah di Android](https://github.com/deltachat/deltachat-android/issues)
@@ -30,9 +30,9 @@ diskusi fitur dan mendapatkan dukungan.
 - [Delta Chat Masalah di iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Masalah Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
+Kami selalu mencari pengembang dan desainer.
+Kami biasanya menawarkan kontrak atau pekerjaan 20-30 jam per minggu (jika berbasis di Jerman).
+Harap jangan ragu untuk menghubungi (delta di merlinux eu)
+jika Anda tertarik untuk membantu upaya kami!
 
-For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+Untuk background lebih lanjut kami sarankan untuk membaca dan mengikuti [blog](https://delta.chat/en/blog).

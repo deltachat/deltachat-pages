@@ -9,18 +9,18 @@ lang: it
 
 _"Un'osservazione un po' strana: l'invio e la ricezione di e-mail con #DeltaChat rende l'intera esperienza più piacevole rispetto all'utilizzo di un client di posta tradizionale. Immagino che si tratti dell'approccio moderno: rendere le e-mail simili a messaggi di chat."_
 
-**Utente polacco** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### supporta più di un account
 
-_"Ciao team Delta.chat! Grazie per l'app; è estremamente utile e la UX è quasi perfetta. Puoi offrirci un facile passaggio da un account di e-mail all'altro? [...]."_
-**utente mastodon** prima che migliorassimo il multi account [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
+**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### chiamate audio e video possibili
 
 _"La cosa più bella è che supporta le chiamate video e audio creando una stanza jitsi e inviando un invito, una soluzione interessante:)"_
 
-**utente mastodon** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
+**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
 ### Posso consigliare ai non vedenti
 

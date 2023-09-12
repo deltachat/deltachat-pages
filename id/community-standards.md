@@ -1,76 +1,76 @@
 ---
-title: Community Standards
+title: Standar Komunitas
 lang: id
 ---
 
-# Delta Chat Community Standards
+# Standar Komunitas Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
-
-
-## Our Standards
-
-Examples of behavior that contribute to creating a positive environment include:
-
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
-
-Examples of behavior which we ask everybody to avoid include:
-
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Untuk kepentingan membina lingkungan yang terbuka dan ramah, kami sebagai
+kontributor dan pengelola berupaya untuk berpartisipasi dalam Delta Chat
+komunitas pengalaman yang menyenangkan dan bebas pelecehan.
 
 
-## Maintainers and Responsibilities
+## Standar Kami
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Contoh perilaku yang berkontribusi dalam menciptakan lingkungan positif meliputi:
 
-## Scope
+* Menggunakan bahasa yang ramah dan inklusif
+* Menghormati sudut pandang dan pengalaman yang berbeda
+* Dengan lapang dada menerima kritik yang membangun
+* Menunjukkan empati terhadap anggota komunitas dan pendatang baru
+* Membantu dan memediasi jika terjadi kekesalan atau konflik
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Contoh perilaku yang kami minta agar semua orang hindari meliputi:
 
-## Reporting and Responses
+* Menunggunan bahasa atau gambar seksual dan perhatian atau rayuan seksual yang tak di inginkan.
+* Trolling, Komentar yang menghina, dan serangan pribadi atau politik
+* Pelecehaan publik atau pribadi
+* Menerbitkan informasi pribadi orang lain, seperti fisik atau elektronik
+alamat, tanpa izin jelas
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
-
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Kami menyadari bahwa kadang-kadang orang mungkin mengalami hari yang buruk, atau mungkin tidak menyadarinya
+dampak dari perilaku mereka. Jika hal itu terjadi, Anda dapat mengingatkannya dengan hati-hati
+mereka di depan umum atau pribadi, mana saja yang lebih sesuai. Asumsikan itikad baik;
+kemungkinan besar peserta tidak menyadarinya daripada sengaja
+mencoba merendahkan orang lain atau mengurangi kualitas diskusi.
 
 
-## Attribution
+## Pemelihara dan Tanggung Jawab
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Pemelihara proyek adalah mereka yang memiliki hak komitmen atas repositori Delta Chat atau hak administratif atas saluran komunikasi komunitas.
+Setiap pengelola diminta untuk mengambil tanggung jawab dan tindakan yang tepat dan hati-hati
+sebagai respons terhadap contoh perilaku yang patut dipertanyakan.
+Pengelola proyek mempunyai hak dan tanggung jawab untuk menghapus, mengedit, atau
+menolak komentar, komitmen, kode, pengeditan wiki, masalah, dan kontribusi lainnya
+yang tidak sesuai dengan standar kami.
+Mereka juga dapat melarang kontributor untuk sementara atau permanen
+perilaku lain yang mereka anggap tidak pantas, mengancam, menyinggung, atau berbahaya.
+
+## Cakupan
+
+Standar Komunitas kami berlaku baik dalam saluran komunikasi proyek maupun
+berkumpul maupun di ruang publik
+ketika seseorang mewakili proyek atau komunitasnya. Contoh dari
+mewakili proyek atau komunitas termasuk menggunakan email proyek resmi
+alamat, posting melalui akun media sosial resmi, atau bertindak sebagai
+perwakilan di acara online atau offline.
+
+## Pelaporan dan Tanggapan
+
+Jika Anda mengalami atau menyaksikan perilaku yang kasar, melecehkan, atau tidak dapat diterima
+Anda dapat berbicara dengan pengelola proyek tertentu, saat ini [Nami](mailto:missytake@systemli.org) dAN [Xenia](mailto:ksenia@transcyberian.org).
+Mereka akan meninjau laporan dan melibatkan pengelola lain jika diperlukan,
+dan akan merespons dengan cara yang dianggap perlu dan tepat
+sesuai dengan keadaan, tetapi tidak bertentangan dengan keinginan Anda.
+
+Pemelihara wajib menjaga kerahasiaan
+sehubungan dengan pelapor suatu kejadian.
+Pengelola sendiri tidak dikecualikan dari pelaporan
+dan mungkin menghadapi dampak sementara atau permanen
+sebagaimana ditentukan oleh pengelola lainnya.
+
+
+## Atribusi
+
+Dokumen Standar Komunitas kami diadaptasi dari [Contributor Covenant](https://contributor-covenant.org), versi 1.4,
+tersedia di <https://contributor-covenant.org/version/1/4>

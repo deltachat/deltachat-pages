@@ -315,6 +315,8 @@ Delta Chat підтримує поширені формати приватних
 
 Так. У Delta Chat 1.36 є нова експериментальна функція для використання одного облікового запису на різних пристроях:
 
+- Make sure both devices are on the same Wi-Fi or network
+
 - На першому пристрої перейдіть до **Налаштування → Додати другий пристрій**, розблокуйте екран, якщо потрібно і трохи зачекайте, поки не з’явиться QR-код
 
 - На другому пристрої [встановіть Delta Chat](https://get.delta.chat)
@@ -392,9 +394,13 @@ Delta Chat підтримує поширені формати приватних
 
 ### Де я можу отримати приватні програми?
 
-- Загалом немає спеціального магазину програм, і Delta Chat не несе відповідальності за приватні програми чи їхній вміст. Кожен може ділитися один з одним приватними програмами без обмежень. 
-- Приклади програм можна знайти на [webxdc.org](https://webxdc.org). 
-- Багато людей пишуть власні приватні програми та публікують їх на [форумі Delta Chat](https://support.delta.chat/c/webxdc/20).
+- In general, anyone can share private apps with each
+  other without restrictions.
+- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+  to see an experimental webxdc appstore.
+  All of the apps are open source and for free.
+- Many people write their own private apps and post them to [the Delta Chat
+  forum](https://support.delta.chat/c/webxdc/20).
 
 
 ### Як я можу створити власні приватні програми?
