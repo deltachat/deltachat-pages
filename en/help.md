@@ -364,7 +364,13 @@ into the E2E-encrypted part of messages:
 
 - Subject line
 - Group avatar and name 
-- TODO: complete list of what is in protected headers 
+- MDN (read receipt) requests (`Chat-Disposition-Notification-To`)
+- Disappearing message timer (`Ephemeral-Timer`) 
+- Copy of the `From` header (so we can be sure the `From` header is signed)
+- `Chat-Group-Member-Removed`, `Chat-Group-Member-Added`
+- `Secure-Join` header containing secure join commands
+- Notification about enabling location streaming
+- WebRTC room URL
 
 E-Mail servers do not get access to this protected metadata 
 but they do see the message date as well as the message size,
