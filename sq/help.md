@@ -460,6 +460,8 @@ Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
 Po. Delta Chat 1.36 vjen me një funksion të ri eksperimental për përdorimin e të njëjtës llogari në pajisje të ndryshme:
 
+- Make sure both devices are on the same Wi-Fi or network
+
 - Te pajisja e parë, kaloni te **Rregullime → Shtoni Pajisje të Dytë**, shkyçni ekranin, në u dashtë
   dhe prisni një çast sa të shfaqet një kod QR
 
@@ -585,12 +587,13 @@ Delta Chat-in një shkëmbyes mesazhesh vërtet të zgjerueshëm. Termi teknik
 
 ### Ku mund të marr aplikacione private?
 
-- Në përgjithësi, s’ka shitore aplikacionesh nën përkujdesje dhe Delta Chat-i
-  s’është përgjegjës për aplikacionet private apo lëndën e tyre. Cilido mund
-  të ndajë me të tjerët aplikacione private pa kufizime.
-- Mund të gjeni disa aplikacione shembuj te [webxdc.org](https://webxdc.org).
-- Mjaft vetë shkruajnë aplikacionet e tyre private dhe i postojnë te [forumi i 
-  Delta Chat-it](https://support.delta.chat/c/webxdc/20).
+- In general, anyone can share private apps with each
+  other without restrictions.
+- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+  to see an experimental webxdc appstore.
+  All of the apps are open source and for free.
+- Many people write their own private apps and post them to [the Delta Chat
+  forum](https://support.delta.chat/c/webxdc/20).
 
 
 ### Si mund të krijoj aplikacionet e mia private?

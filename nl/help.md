@@ -431,6 +431,8 @@ Voor andere programma's kun je zélf een oplossing zoeken op internet.
 
 Ja, Delta Chat 1.36 bevat een nieuwe, experimentele functie om hetzelfde account op meerdere apparaten te gebruiken:
 
+- Make sure both devices are on the same Wi-Fi or network
+
 - Ga op het eerste apparaat naar **Instellingen → Tweede apparaat toevoegen**, ontgrendel - indien nodig - het scherm
   en wacht totdat de QR-code in beeld verschijnt.
 
@@ -545,10 +547,13 @@ gespreksapp. De technische term van privé-apps is [webxdc](https://webxdc.org).
 
 ### Waar kan ik privé-apps downloaden?
 
-- Er is in principe geen appwinkel met privé-apps en Delta Chat is niet verantwoordelijk voor
-  de apps of inhoud ervan. Iedereen kan ongelimiteerd privé-apps met elkaar delen.
-- Op [webxdc.org](https://webxdc.org) staan wel enkele voorbeeldapps.
-- De meeste mensen maken hun eigen privé-apps en delen ze op het [Delta Chat-forum](https://support.delta.chat/c/webxdc/20).
+- In general, anyone can share private apps with each
+  other without restrictions.
+- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+  to see an experimental webxdc appstore.
+  All of the apps are open source and for free.
+- Many people write their own private apps and post them to [the Delta Chat
+  forum](https://support.delta.chat/c/webxdc/20).
 
 
 ### Hoe kan ik mijn eigen privé-apps maken?

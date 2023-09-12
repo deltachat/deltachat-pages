@@ -436,6 +436,8 @@ Pro ostatní programy by mělo jít nalézt řešení na Interentu.
 
 Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
 
+- Make sure both devices are on the same Wi-Fi or network
+
 - On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
   and wait a moment until a QR code is shown
 
@@ -554,10 +556,11 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 ### Where can I get private apps?
 
-- In general, there is no curated appstore and Delta Chat is not responsible
-  for private apps or their content. Anyone can share private apps with each
+- In general, anyone can share private apps with each
   other without restrictions.
-- You can find some example apps on [webxdc.org](https://webxdc.org).
+- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+  to see an experimental webxdc appstore.
+  All of the apps are open source and for free.
 - Many people write their own private apps and post them to [the Delta Chat
   forum](https://support.delta.chat/c/webxdc/20).
 

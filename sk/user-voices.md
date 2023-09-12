@@ -9,18 +9,18 @@ lang: sk
 
 _"Trochu zvláštny postreh: odosielanie a prijímanie e-mailov pomocou #DeltaChat robí celý zážitok príjemnejším ako používanie tradičného e-mailového klienta. Myslím, že ide o moderný prístup: vytváranie e-mailov aby vyzerali ako chatové správy."_
 
-**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### podporuje viac ako jeden účet
 
-_"Ahoj tím Delta.chat! Ďakujeme za aplikáciu; je mimoriadne užitočná a UX je takmer dokonalé. Mohli by ste nám ponúknuť jednoduché prepínanie medzi e-mailovými účtami? [...]."_
-**používateľ mastodonta** predtým, ako sme vylepšili viacero účtov [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
+**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### je možný audio a video hovor
 
 _"Najlepšie na tom je, že podporuje video a audio hovory vytvorením miestnosti jitsi a odoslaním pozvánky, skvelé riešenie:)"_
 
-**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
+**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
 ### Môžem odporučiť nevidiacim
 

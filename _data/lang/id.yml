@@ -16,7 +16,7 @@ id:
   subscribe_to_feed: Berlangganan feed kami
 
   references: Referensi
-  donate: ""
+  donate: Donasi
   imprint: Jejak
   privacy: Kebijakan Privasi
   language: Bahasa
@@ -42,4 +42,4 @@ id:
       after: (eksperimental)
 
   help:
-    offline_hint: ""
+    offline_hint: "Terburu-buru? Anda dapat membaca bantuan ini dengan santai kapan saja di dalam aplikasi, juga tanpa internet."

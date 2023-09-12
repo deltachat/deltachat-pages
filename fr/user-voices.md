@@ -1,39 +1,39 @@
 ---
-title: Ce qu'en disent nos utilisateurs
+title: Ce qu'en disent nos utilisateurs et nos utilisatrices
 lang: fr
 ---
 
-# Ce qu'en disent nos utilisateurs
+# Ce qu'en disent nos utilisateurs et nos utilisatrices
 
-### more fun with e-mail
+### Plus sympa avec les courriels
 
-_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+_"C'est peut-être une remarque un peu étrange, mais envoyer et recevoir des courriels avec #DeltaChat est plus agréable qu'avec un client de messagerie classique. Je crois que c'est grâce à l'approche plus moderne des courriels qui les fait ressembler à des messages de discussion instantanée."_
 
-**Polish user** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
 
-### supports more than one account
+### Prend en charge plusieurs comptes
 
 _"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**mastodon user** before we improved multiple accounts [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
-### audio and video call possible
+### Possibilité de passer des appels audio et vidéo
 
 _"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
 
-**mastodon user** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
+**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
-### recommandé pour les mal-voyants
+### Recommandé pour les personnes avec des déficiences visuelles
 
-_"J'ai installé Delta Chat hier soir, juste après vous avoir écrit, et j'ai immédiatement remarqué l'amélioration de l'accessibilité [...] Et ça marche ! Et c'est accessible ! Et je peux recommander l'application à d'autres personnes mal-voyantes ! 
+_"J'ai installé Delta Chat hier soir, juste après vous avoir écrit, et j'ai immédiatement remarqué l'amélioration de l'accessibilité [...] Et ça marche ! Et c'est accessible ! Donc je peux recommander l'application à d'autres personnes malvoyantes ! 
 Bon travail les gars ! [...]"_
 
-**un mal-voyant** à propos de la version Android en 2019, via courriel à delta@merlinux.eu
+**Témoignage d'une personne malvoyante** à propos de la version Android en 2019, par courriel à delta@merlinux.eu
 
 ### Populaire dans les régions où la gouvernance de l'internet est stricte
 
-_"ll existe une messagerie instantanée sympa, basée sur un simple courriel, appelée Delta Chat. Je suis heureux que notre chien de garde de l'Internet ait rendu cette application populaire en essayant de la bloquer. C'est comme pour Telegram, qui est devenu très populaire auprès des non-initiés après son interdiction"._ 
+_"Il existe une messagerie instantanée sympa, basée simplement sur le courriel, qui s'appelle Delta Chat. Je me réjouis que notre gendarme de l'Internet ait rendu cette application populaire en essayant de la bloquer. C'est comme avec Telegram, qui est devenue très populaire auprès du grand public après son interdiction"._ 
 
-**Un utilisateur russe** depuis 2020 en réponse au refus de Delta Chat de satisfaire la demande du chien de garde russe de l'internet RKN concernant les données des utilisateurs, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**Témoignage de Russie** en 2020, suite au refus de Delta Chat de fournir les données personnelles de ses utilisateurs au gendarme de l'Internet russe RKN, sur [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
 
 ### Interface de discussion avec un chiffrement robuste
 

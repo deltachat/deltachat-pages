@@ -335,6 +335,8 @@ Für andere Programme können Sie online eine Lösung finden.
 
 Ja. Delta Chat 1.36 enthält eine neue, experimentelle Funktion zur Verwendung desselben Kontos auf verschiedenen Geräten:
 
+- Make sure both devices are on the same Wi-Fi or network
+
 - Gehen Sie auf dem ersten Gerät zu **Einstellungen → Zweites Gerät hinzufügen**, entsperren Sie den Bildschirm, falls erforderlich und warten Sie einen Moment, bis ein QR-Code angezeigt wird
 
 - Auf dem zweiten Gerät [Delta Chat installieren](https://get.delta.chat)
@@ -411,9 +413,13 @@ In Delta Chat können Sie "Private Apps" und Anhänge mit der Dateierweiterung "
 
 ### Wo bekomme ich Private Apps?
 
-- Im Allgemeinen gibt es keinen kuratierten Appstore und Delta Chat ist nicht verantwortlich für Private Apps oder deren Inhalt. Jeder kann Private Apps uneingeschränkt miteinander teilen.
-- Einige Beispiel-Apps finden Sie auf [webxdc.org](https://webxdc.org).
-- Viele Leute schreiben ihre eigenen Privaten Apps und posten sie im [Delta Chat-Forum](https://support.delta.chat/c/webxdc/20).
+- In general, anyone can share private apps with each
+  other without restrictions.
+- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+  to see an experimental webxdc appstore.
+  All of the apps are open source and for free.
+- Many people write their own private apps and post them to [the Delta Chat
+  forum](https://support.delta.chat/c/webxdc/20).
 
 
 ### Wie kann ich meine eigenen Privaten Apps erstellen?

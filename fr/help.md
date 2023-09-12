@@ -36,11 +36,11 @@ Avec Delta Chat, vous pouvez écrire à toutes les adresses courriels existantes
 
 Par défaut, Delta Chat affiche tous les courriels.
 
-Vous pouvez changer cette préférence en allant dans "Paramètres -> Discussions & fichiers multimédia -> Voir les courriels classiques". Trois options sont disponibles :
+Vous pouvez changer cette préférence en vous rendant dans vos "Paramètres -> Discussions & fichiers multimédia -> Voir les courriels classiques". Trois options sont disponibles :
 
 - "Non, seulement les discussions": vous verrez seulement les messages envoyés par d'autres utilisateurs de Delta Chat et les réponses à vos messages Delta Chat. Cette option est recommandée si vous utilisez le même compte pour recevoir aussi des courriels normaux.
 - "Tout": vous verrez dans Delta Chat tous les courriels envoyés à votre adresse. Cette option est recommandée si vous souhaitez utiliser Delta Chat pour tous vos courriels, afin de ne rater aucun message.
-- "Pour les contacts acceptés": vous verrez dans Delta Chat tous les courriels envoyés par les personnes avec qui vous avez déjà ouvert une discussion, mais les notifications de nouvelles conversations ne s'afficheront que pour des messages envoyés via Delta Chat. Cette option vous permet de décider au cas par cas si vous souhaitez échanger via Delta Chat ou via une application de courriel "normale".
+- "Pour les contacts acceptés": vous verrez dans Delta Chat tous les courriels envoyés par les personnes avec qui vous avez déjà ouvert une discussion, mais les notifications de nouvelles conversations ne s'afficheront que pour des messages envoyés via Delta Chat. Cette option vous permet de décider au cas par cas si vous souhaitez échanger via Delta Chat ou via une application de courriel "classique".
 
 
 ### Et si j'attends un message de quelqu'un avec qui je n'ai encore jamais échangé ?
@@ -59,13 +59,13 @@ Vous pouvez changer cette préférence en allant dans "Paramètres -> Discussion
 
 Oui. En plus du texte brut, toutes les pièces jointes aux courriels sont affichées sous forme de messages séparés. Les messages sortants expédient automatiquement les pièces jointes que vous ajoutez.
 
-- Pour de meilleures performances, les images sont optimisées et envoyées en taille réduite par défaut, mais vous pouvez les envoyer en tant que "fichier" pour en conserver la taille originale.
+- Pour améliorer les performances, les images sont redimensionnées et envoyées en taille réduite par défaut ; mais vous pouvez les envoyer en tant que "fichier" pour en conserver la taille originale.
 
-<h3 id="multiple-accounts">Comment naviguer entre mes différents comptes et comment en ajouter ?</h3>
+<h3 id="multiple-accounts">Comment naviguer entre plusieurs comptes et comment en ajouter ?</h3>
 
-Vous pouvez facilement gérer des comptes supplémentaires sur les clients Delta Chat mobile ou de bureau en cliquant sur :
-- le bouton du menu, puis sur "Changer de compte" (Android et bureau) ;
-- l'icône de profil, puis sur "Ajouter un compte" (iOS).
+Vous pouvez facilement gérer des comptes supplémentaires sur les clients Delta Chat mobile ou de bureau en cliquant :
+- soit sur le bouton du menu, puis sur "Changer de compte" (Android et PC) ;
+- soit sur l'icône de profil, puis sur "Ajouter un compte" (iOS).
 
 Peut-être voudrez-vous aussi savoir [comment ajouter un compte sur plusieurs appareils](#multiclient).
 
@@ -145,32 +145,22 @@ pour mettre une discussion en sourdine, ouvrez le menu de la conversation (Andro
 
 ### Que signifie le point vert ?
 
-- Depuis la version 1.34 de Delta Chat, vous voyez parfois un "point vert" à côté de la photo de profil
-  d'un contact. Cela signifie qu'il a été "vu récemment".
+- Depuis la version 1.34 de Delta Chat, vous voyez parfois un "point vert" à côté de la photo de profil d'un contact. Cela signifie qu'il a été "vu récemment".
 - Plus précisément, cela signifie que Delta Chat a détecté l'activité de ce contact au cours des 10 dernières minutes :
   - soit parce qu'il vous a écrit personnellement ;
   - soit parce qu'il a écrit dans un groupe dont vous êtres tous les deux membres ;
-  - soit parce qu'il a envoyé l'accusé de lecture d'un message que vous lui avez écrit ;
-  - ou bien parce qu'il a envoyé des données à votre appli Delta Chat via une
-    [appli privée](#webxdc).
-- Le "point vert" n'est donc pas un statut en temps réel. Aussi, si quelqu'un ne vous répond pas
-  immédiatement alors qu'il semble être en ligne, ne vous en faites pas et
-  patientez ;-)
-- D'un autre côté, les autres ne vous voient pas forcément "en ligne". En particulier,
- si vous avez désactivé les accusés de lecture, ils ne verront pas de point vert
-  tant que vous ne leur écrivez pas directement ou n'écrivez pas dans un groupe dont ils font aussi partie.
+  - soit parce qu'il a renvoyé l'accusé de lecture d'un message que vous lui avez écrit ;
+  - ou bien parce qu'il a envoyé des données à votre appli Delta Chat via une [appli privée](#webxdc).
+- Le "point vert" n'est donc pas un statut en temps réel. Aussi, si quelqu'un ne vous répond pas immédiatement alors qu'il semble être en ligne, ne vous inquiétez pas et donnez-lui du temps ;-)
+- D'un autre côté, vos contacts ne vous voient pas forcément "en ligne". Si vous avez désactivé les accusés de lecture, ils ne verront pas de point vert tant que vous ne leur écrivez pas directement ou n'écrivez pas dans un groupe dont ils font aussi partie.
 
 
-### How can I delete my account?
+### Comment supprimer mon compte ?
 
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
+Étant donné que vous utilisez Delta Chat à travers un compte courriel, la façon dont vous pouvez supprimer votre compte dépend de votre fournisseur de courriel.
+Comme nous n'exerçons aucun contrôle sur votre compte courriel, nous ne sommes pas en mesure de vous aider à le supprimer.
 
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
+Si vous souhaitez conserver votre compte mais désinstaller Delta Chat, nous vous recommandons de quitter toutes les discussions de groupe avant de procéder à la désinstallation.
 
 
 ## Groupes
@@ -215,13 +205,13 @@ qu'un humain a lu ou compris le message ;)
 
 ### Que se passe-t-il si j'active l'option "Supprimer les anciens messages sur le serveur" ?
 
-- Par défaut, Delta Chat stocke tous les messages sur votre appareil. Vous pouvez donc choisir de supprimer les anciens messages automatiquement pour libérer de l'espace de stockage chez votre fournisseur de courriel. Ces messages seront conservés localement jusqu'à ce que vous les supprimiez aussi de votre appareil.
+- Par défaut, Delta Chat stocke tous les messages sur votre appareil. Vous pouvez donc configurer Delta Chat pour qu'il supprime automatiquement les anciens messages reçus, si vous souhaitez libérer de l'espace de stockage chez votre fournisseur de courriel. Ces messages seront conservés localement jusqu'à ce que vous les supprimiez aussi de votre appareil.
 
-- Pour activer cette option, allez dans les paramètres de "Discussions et fichiers multimédia" et **Supprimer les anciens messages → Supprimer les messages du serveur**.
+- Pour activer cette option, accédez à vos paramètres de "Discussions et fichiers multimédia", puis à **Supprimer les anciens messages → Supprimer les messages du serveur**.
   Vous pouvez régler un délai allant de "Immédiatement" à "Après 1 année".
   Tous les courriels reçus sur Delta Chat seront supprimés du serveur une fois le délai écoulé.
 
-- Attention : si vous utilisez Delta Chat sur plusieurs appareils, laissez les messages sur le serveur jusqu'à ce que l'(es) autre(s) appareil(s) ai(en)t pu les télécharger aussi. Dans ce cas, nous vous conseillons de paramétrer la suppression automatique sur "Après 1 jour" ou plus, en fonction de la fréquence à laquelle vous vous servez de ces autres appareils.
+- Attention : si vous utilisez Delta Chat sur plusieurs appareils, vous devez laisser vos messages sur le serveur suffisamment longtemps pour permettre à votre/vos autre(s) appareil(s) de les télécharger aussi.
 
 
 ### Que se passe-t-il si j'active l'option "Supprimer les anciens messages de l'appareil" ? {#delold}
@@ -279,9 +269,9 @@ Si vous n'êtes pas près physiquement de votre interlocuteur, vous pouvez véri
 - S'il n'y a **aucun cadenas**, le message est généralement transporté en clair, par exemple parce que vous ou l'expéditeur avez désactivé le chiffrement-de-bout-en-bout ou que l'expéditeur utilise une application qui ne prend pas en charge le chiffrement-de-bout-en-bout.
 
 
-### Comment puis-je faire en sorte que les messages soient chiffrés et supprimés ?
+### Comment m'assurer que les messages sont chiffrés et supprimés ?
 
-La meilleure façon de garantir que chaque message soit chiffré et les métadonnées effacées aussi vite que possible c'est de créer un groupe vérifié et d'activer les messages éphémères.
+Créer un groupe vérifié et activer les messages éphémères constitue le meilleur moyen de garantir que chaque message est chiffré et les métadonnées effacées aussi tôt que possible.
 
 Les groupes vérifiés sont toujours chiffrés et protégés contre les [attaques de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu).
 
@@ -289,7 +279,7 @@ Les métadonnées ne peuvent pas être chiffrées puisque le serveur doit savoir
 
 Si vous avez besoin de conserver vos messages sur votre appareil, mais pas sur le serveur, vous pouvez aussi vous mettre d'accord dans le groupe pour activer l'option ["Supprimer les messages du serveur immédiatement"](#delold).
 
-Si vous souhaitez protéger une conversation à deux de cette manière, nous vous conseillons de créer un groupe vérifié avec seulement deux personnes. Si jamais l'autre personne perdait son appareil, mais pas son compte, vous pourriez toujours communiquer dans la conversation à deux. ([En savoir plus](#verdiff))
+Si vous souhaitez protéger une discussion à deux de cette manière, nous vous conseillons de créer un groupe vérifié avec seulement deux personnes. Si jamais l'autre personne perdait son appareil mais pas son compte, vous pourriez toujours communiquer dans la conversation à deux. ([En savoir plus](#verdiff))
 
 
 ### Quels standards sont utilisés pour le chiffrement de bout en bout ?
@@ -362,6 +352,8 @@ Pour les autres programmes, vous devriez pouvoir trouver la solution en ligne.
 
 Oui. Delta Chat 1.36 propose une nouvelle fonctionnalité expérimentale pour utiliser le même compte sur plusieurs appareils.
 
+- Make sure both devices are on the same Wi-Fi or network
+
 - Sur le premier appareil, allez dans **Paramètres → Ajouter un deuxième appareil**, déverrouillez l'écran si nécessaire, et patientez un peu jusqu'à ce qu'un code QR s'affiche.
 
 - Sur le deuxième appareil, [installez Delta Chat](https://get.delta.chat).
@@ -389,8 +381,8 @@ L'un n'a pas besoin de l'autre pour pouvoir fonctionner.
   Ne quittez pas Delta Chat !
   (Nous faisons de notre mieux pour que l'application fonctionne en arrière-plan, mais les [systèmes ont une fâcheuse tendance à tuer les applis](https://dontkillmyapp.com).)
 
-- Delta Chat est **déjà connecté** sur l'appareil de destination.
-  Vous pouvez utiliser plusieurs comptes sur tous vos appareils : [ajoutez un nouveau compte](#multiple-accounts).
+- Si Delta Chat est **déjà connecté** sur l'appareil de destination.
+  Vous pouvez utiliser plusieurs comptes par appareil : [ajoutez un nouveau compte](#multiple-accounts).
 
 - Si les problèmes persistent, ou si vous **ne pouvez pas scanner de code QR**,  essayez la méthode de **transfert manuel** décrite ci-dessous.
 
@@ -440,19 +432,23 @@ Sinon, la suppression de messages dans une configuration multi-appareils pourrai
 Dans Delta Chat, vous pouvez partager des "applications privées" : ce sont des pièces jointes avec une extension de fichier `.xdc`. Elles possèdent des fonctionnalités très variées et peuvent faire de Delta Chat une messagerie vraiment extensible. En jargon technique, on parle de [webxdc](https://webxdc.org).
 
 
-### Dans quelle mesure les applications privées sont-elles privées ?
+### À quel point les applications privées sont-elles privées ?
 
 - Les applications privées ne peuvent ni envoyer des données sur internet ni télécharger quoi que ce soit.
 - Une application privée peut échanger des données uniquement au sein d'une discussion Delta Chat, ainsi qu'avec les copies sur les différents appareils des autres membres de la discussion. En dehors de cela, l'appli privée est complètement isolée d'internet.
 - La confidentialité offerte par une application privée est celle de votre discussion : si vous faites confiance aux personnes avec qui vous discutez, vous pouvez aussi vous fier à l'application privée.
-- Cela signifie aussi qu'ouvrir des applications privées dans des discussions où se trouvent des membres à qui vous ne faites pas confiance peut représenter un risque en matière de confidentialité. En fait, c'est la même situation qu'avec les courriels : vous ouvrez uniquement les pièces jointes envoyées par une adresse que vous connaissez et pas celles envoyées par un émetteur malveillant.
+- Cela signifie aussi qu'ouvrir des applications privées dans des discussions où se trouvent des membres à qui vous ne faites pas confiance peut représenter un risque en matière de confidentialité. En fait, la situation est la même qu'avec les courriels : vous ouvrez uniquement les pièces jointes envoyées par une adresse que vous connaissez et pas celles contenues dans les pourriels.
 
 
 ### Où puis-je me procurer des applications privées ?
 
-- De manière générale, il n'existe aucun magasin d'applications présélectionnées et Delta Chat n'est pas responsable des applications privées ou de leur contenu. Tout le monde peut partager des applications privées avec n'importe qui, sans restrictions.
-- Vous trouverez des exemples d'applications sur [webxdc.org](https://webxdc.org).
-- Beaucoup de gens développent leurs propres applications privées et les postent ensuite sur [le forum Delta Chat](https://support.delta.chat/c/webxdc/20).
+- In general, anyone can share private apps with each
+  other without restrictions.
+- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+  to see an experimental webxdc appstore.
+  All of the apps are open source and for free.
+- Many people write their own private apps and post them to [the Delta Chat
+  forum](https://support.delta.chat/c/webxdc/20).
 
 
 ### Comment créer mes propres applications privées ?
@@ -467,21 +463,21 @@ Dans Delta Chat, vous pouvez partager des "applications privées" : ce sont des 
 
 Nous apprécions tout particulièrement les retours sur ces fonctionnalités. Vous voulez donner votre avis ? Rejoignez-nous sur le [Forum](https://support.delta.chat) pour contribuer. (Vous aimez faire des expériences ? Inscrivez-vous en cliquant sur "Sign up -> with Delta Chat" !)
 
-### Comment utiliser les appels audio/vidéo avec Delta Chat ?
+### Comment passer des appels audio/vidéo avec Delta Chat ?
 
-- Pour activer les appels audio/vidéo, allez dans la section "Fonctionnalités expérimentales" des paramètres avancés et choisissez une "instance de discussion vidéo". 
+- Pour activer les appels audio/vidéo, accédez à la section "Fonctionnalités expérimentales" des paramètres avancés et choisissez une "instance de discussion vidéo". 
 - Quand vous invitez d'autres personnes dans une discussion vidéo, elle s'ouvre automatiquement dans votre application/navigateur et les destinataires reçoivent un courriel contenant un lien vers votre salon Jitsi/BBB. De cette manière, même les personnes n'utilisant pas Delta Chat peuvent participer.
 - Veuillez noter qu'il n'y a pas de sonnerie pour les destinataires, qui ne sont donc pas dérangé⋅e⋅s par votre invitation à une discussion vidéo.
 - Vous pouvez utiliser n'importe quel service de discussion vidéo permettant de rejoindre un salon par un lien. Il vous suffit de renseigner le lien dans vos paramètres.
-- Par exemple, pour utiliser l'instance Jitsi Meet principale, vous pouvez insérer :`https://meet.jit.si/$ROOM`. La variable`$ROOM`est une valeur aléatoire pour que vous puissiez rejoindre un nouveau salon Jitsi choisi au hasard à chaque nouvel appel.
+- Par exemple, pour utiliser l'instance Jitsi Meet principale, vous pouvez insérer :`https://meet.jit.si/$ROOM`. La variable`$ROOM`est une valeur aléatoire qui vous permet de rejoindre un nouveau salon Jitsi choisi au hasard à chaque nouvel appel.
 
 
 ### Qu'est qu'un groupe vérifié ? Pourquoi est-ce une fonctionnalité expérimentale ?
 
-- Un groupe vérifié est une discussion qui garantit une sécurité contre un attaquant actif. Tous les messages d'une discussion vérifiée sont chiffrés de bout en bout (e2ee), et les membres peuvent joindre en scannant un code barre à deux dimensions (QR code) d'invitation. Tous les membres sont alors connectés l'un à l'autre à travers une chaîne d'invitation, qui garanti une cohérence cryptographique contre des attaques réseaux actives ou des fournisseurs. 
-Consultez [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) pour en savoir plus sur la R&D derrière cette fonctionnalité.
+- Un groupe vérifié est une discussion qui garantit une sécurité contre un attaquant actif. Tous les messages d'une discussion vérifiée sont chiffrés de bout en bout (E2E), et les membres peuvent rejoindre le groupe en scannant un code QR d'invitation. Tous les membres sont alors connectés les uns avec autres à travers une chaîne d'invitation, qui garantit une cohérence cryptographique contre des attaques de réseaux actifs ou des fournisseurs. 
+Consultez [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html) pour en savoir plus sur la recherche et le développement qui se trouvent derrière cette fonctionnalité.
 
-- En octobre 2022, nous avons décidé que la fonctionnalité "groupes vérifiés" restait expérimentale, bien qu'elle soit améliorée en permanence et que de nombreux bugs aient été réparés depuis sa mise en place en 2018. En effet, certaines erreurs persistent, en particulier avec les groupes très larges, et les messages deviennent parfois illisibles.
+- Depuis octobre 2022, la fonctionnalité "groupes vérifiés" reste expérimentale, bien qu'elle soit améliorée en permanence et que de nombreux bugs aient été réparés depuis sa mise en place en 2018. En effet, il reste encore des cas où des problèmes peuvent survenir et les messages devenir illisibles, en particulier avec les très grands groupes.
 
 
 ### Que sont les listes de diffusion et comment les utiliser ?
@@ -490,59 +486,47 @@ Consultez [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/lat
 - Concrètement, c'est un courriel avec plusieurs destinataires en copie cachée.
 - Vous pouvez activer cette option dans la section "Fonctionnalités expérimentales" des paramètres avancés. Vous pourrez ensuite créer une liste de diffusion à partir du bouton "Nouvelle discussion".
 - Si vous utilisez plusieurs appareils, veuillez noter qu'il n'est pas possible, pour l'instant, de synchroniser les listes de diffusion.
-- Les messages envoyés à des listes de diffusion ne sont pas chiffrés, parce que le chiffrement empêche l'anonymat puisque tous les destinataires peuvent voir qui d'autre a reçu le message.
-  (Mais envoyer des courriels individuels à tout le monde serait encore pire pour la consommation du réseau et à cause des limites d'envoi).
+- Les messages envoyés à des listes de diffusion ne sont pas chiffrés, parce que le chiffrement romprait l'anonymat puisque tous les destinataires pourraient alors voir qui d'autre a reçu le message.
+  (Mais envoyer des courriels individuels à tout le monde serait encore pire à cause de la consommation du réseau requise et des limites d'envoi).
 
 
-### Comment puis-je partager ma géolocalisation avec mes contacts ?
+### Comment partager ma géolocalisation avec mes contacts ?
 
 - Vous pouvez activer l'envoi de la géolocalisation à la demande dans la section "Fonctionnalités expérimentales" des paramètres avancés.
-- Ensuite, si vous voulez partager votre position dans une discussion, allez dans "Ajouter une pièce jointe" et sélectionnez "Position". Vous pouvez alors choisir la durée pendant laquelle vous voulez partager votre position avec les membres de la discussion, de 5 minutes à 6 heures.
+- Pour partager votre position dans une discussion, allez dans "Ajouter une pièce jointe" et sélectionnez "Position". Vous pouvez alors choisir la durée pendant laquelle vous voulez partager votre position avec les membres de la discussion, de 5 minutes à 6 heures.
 - Quand vous vous déplacez, vos contacts voient votre position sur une carte dans la discussion.
 - Vous devez activer cette fonctionnalité dans les paramètres avancés pour pouvoir voir la carte et la position de vos contacts.
-- Cette fonctionnalité ne partage votre position avec personne d'autre que les membres de la discussion. *Cependant,* pour que la carte s'affiche, les tuiles de carte sont téléchargées depuis mapbox.com, donc si vous *visualisez* la cart, une requête pour afficher une zone spécifique est envoyée à mapbox.com. Si vous considérez cela comme une faille de sécurité, cette fonctionnalité n'est malheureusement pas faite pour vous. Nous nous efforçons de trouver une alternative décentralisée à Mapbox.
-- Sur le bureau, votre OS ne peut généralement pas déterminer votre position. À la place, vous pouvez faire un clic droit sur la carte pour décrire votre position, qui sera ensuite envoyée dans la discussion en tant que message tout en apparaissant sur la carte.
+- Cette fonctionnalité ne partage votre position avec personne d'autre que les membres de la discussion. *Cependant,* pour que la carte s'affiche, les tuiles de carte sont téléchargées depuis mapbox.com, donc si vous *visualisez* la carte, une requête pour afficher une zone spécifique est envoyée à mapbox.com. Si cela constitue un risque pour la protection de votre vie privée, cette fonctionnalité n'est probablement pas faite pour vous. Nous nous efforçons de trouver une alternative décentralisée à Mapbox.
+- Sur l'application de bureau, votre système d'exploitation ne peut généralement pas déterminer votre position. À la place, vous pouvez faire un clic droit sur la carte pour décrire votre position, qui sera ensuite envoyée dans la discussion en tant que message, tout en apparaissant sur la carte.
 
 
-### Qu'est-ce que le chiffrement expérimental de base de données protège réellement ?
+### Que protège réellement le chiffrement expérimental de base de données ?
 
-- Right now, the database encryption is still very experimental. Don't rely on
-  it for protection, you should additionally use encryption of your operating
-  system, if it provides any.
-- The database encryption does not yet encrypt the blobs, only the rows and
-  columns of the database. This more or less means that your messages are safe,
-  but not your attachments.
-- For iOS and Android, the encryption keys are stored in the system keychain.
-  This means the encryption is as secure as the operating system it's running
-  on.
-- The Delta Chat desktop client doesn't offer database encryption yet, as there
-  is no standard way to store the encryption keys on the different supported
-  platforms.
+- À l'heure actuelle, le chiffrement de la base de données est encore expérimental. Mieux vaut ne pas vous y fier pour la protection de vos données et activer aussi le chiffrement votre système d'exploitation si vous le pouvez.
+- Le chiffrement de base de données ne permet pas encore de chiffrer les blobs, seulement les lignes et les colonnes de la base. Cela signifie grosso modo que vos messages sont bien protégés, mais pas les pièces jointes.
+- Sur iOS et Android, les clefs de chiffrements sont stockées dans le trousseau système. Par conséquent, le chiffrement est aussi fiable que le système d'exploitation dont il dépend.
+- Comme il n'existe aucun moyen standardisé de stocker les clefs de chiffrement sur les différentes plateformes disponibles, le chiffrement de la base de données n'est pas encore disponible pour le client bureau de Delta Chat.
 
 
-### Why can I choose to only watch the DeltaChat folder?
+### Pourquoi peut-on choisir de ne consulter que le dossier Delta Chat ?
 
-C'est un paramètre expérimental pour certaines personnes qui expérimentent avec des règles côté serveur. Tous les fournisseurs ne supportent pas ceci mais certains permettent de déplacer tous les courriels avec un en-tête "Chat-Version" dans le dossier DeltaChat. Normalement, cela marchera dans l'application Delta Chat.
+Il s'agit d'un paramètre expérimental à destination des personnes qui expérimentent avec des règles côté serveur. Tous les fournisseurs ne le prennent pas en charge, mais certains permettent de déplacer tous les courriels avec un en-tête "Chat-Version" dans le dossier DeltaChat. Normalement, cette action est réalisé par l'application Delta Chat.
 
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
+Activer l'option "Ne consulter que le dossier Delta Chat" est intéressant si vous avez **à la fois** :
 
-- activé une règle côté serveur pour déplacer tous les messages avec un en-tête "Chat-Version" dans le dossier DeltaChat, et - défini le paramètre "Voir les mails classiques" sur "Non, seulement les tchates".
+- activé une règle côté serveur pour déplacer tous les messages avec un en-tête "Chat-Version" dans le dossier Delta Chat ;
+- modifié le paramètre "Voir les courriels classiques" pour "Non, seulement les discussions".
 
-In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
+Si ces deux conditions sont remplies, Delta Chat n'a pas besoin de surveiller la boîte de réception, seulement le dossier Delta Chat.
 
 
-### Comment puis-je changer mon compte pour une adresse courriel différente ?
+### Comment changer mon compte pour une adresse courriel différente ?
 
-1. Change your address at the “Password and Account” seetings screen in Delta
-   Chat, enter your password (and if necessary, server settings) for the new
-   account
-2. If possible, make your old e-mail provider forward all e-mails to your new
-   email address
-3. Tell your contacts that you changed your address. If you write this to a
-   verified group, they will acknowledge this automatically.
+1. Remplacez votre adresse courriel dans la fenêtre de configuration "Mot de passe et compte" et renseignez le mot de passe (ainsi que les paramètres serveur, si nécessaire) du nouveau compte.
+2. Si vous le pouvez, demandez à votre ancien fournisseur de transférer tous vos courriels sur votre nouveau compte.
+3. Informez vos contacts de votre changement d'adresse courriel. Si vous écrivez à un groupe vérifié, le changement sera pris en compte automatiquement par tout le monde.
 
-To learn about the details behind this, [read our blogpost on
-it](https://delta.chat/en/2022-09-14-aeap).
+Pour connaître les détails derrière ce procédé, [lisez notre article de blog en anglais](https://delta.chat/en/2022-09-14-aeap).
 
 
 ## Divers
@@ -555,7 +539,7 @@ Cependant, il faut activer des options spéciales pour que cela fonctionne corre
 
 ### Je veux administrer mon propre serveur courriel pour Delta Chat : que me conseillez-vous ?
 
-- La plupart du temps, tous les serveurs courriel fonctionnent très bien. Mais nous conseillons un mélange de mailcow et mailadm, ainsi que nous le décrivons [sur notre blog](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
+- La plupart des serveurs courriel fonctionneront très bien. Mais nous conseillons de combiner mailcow et mailadm, ainsi que nous le décrivons [sur notre blog](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
 - Vous trouverez un [guide d'installation sur notre site internet](serverguide).
 
 
@@ -571,113 +555,72 @@ Pour plus d'informations, voir [dontkillmyapp.com](https://dontkillmyapp.com/).
 ### Delta Chat est-il compatible avec Protonmail / Tutanota / Criptext ?
 
 - Oui et non.
-- Non, vous ne pouvez pas utiliser votre compte Protonmail, Tutanota ou Cryptext avec Delta Chat, car ils ne prennent pas en charge la réception des courriels en IMAP.
+- Non, vous ne pouvez pas utiliser votre compte Protonmail, Tutanota ou Cryptext avec Delta Chat, car ils ne permettent pas de recevoir les courriels en IMAP.
 - Vous pouvez toujours utiliser Delta Chat pour envoyer des messages à des personnes utilisant Protonmail, Tutanota, or Criptext. Toutefois, ces messages ne seront pas chiffrés de bout en bout, car le chiffrement offert par ces fournisseurs n'est pas compatible avec [Autocrypt](https://autocrypt.org/), le protocole utilisé par Delta Chat.
-- Delta Chat peut chiffrer des courriels de bout en bout avec tout fournisseur de courriel utilisant
-  [toute application de courriel compatible avec Autocrypt](https://autocrypt.org/dev-status.html).
+- Delta Chat peut chiffrer des courriels de bout en bout avec un fournisseur de courriel utilisant [toute application de courriel compatible avec Autocrypt](https://autocrypt.org/dev-status.html).
 
 
 ### Les détails techniques m'intéressent. Pouvez-vous m'en dire plus ?
 
 - Consultez les [standards utilisés dans Delta Chat]({% include standards-url %}).
 
-### Was Delta Chat independently audited for security vulnerabilities?
+### Est-ce qu'un audit indépendant des failles de sécurité a été réalisé sur Delta Chat ?
 
-The Delta Chat project underwent four independent security audits in the last years:
+Quatre audits indépendants ont été réalisés sur le projet Delta Chat ces dernières années :
 
-- In 2019, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's [PGP](https://github.com/rpgp/rpgp) and
-  [RSA](https://github.com/RustCrypto/RSA) libraries.
-  It found no critical issues,
-  but two high-severity issues that we subsequently fixed.
-  It also revealed one medium-severity and some less severe issues,
-  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
-  Some of them we nevertheless fixed since the audit was concluded.
-  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+- En 2019, [Include Security](https://includesecurity.com) a analysé les bibliothèques [PGP](https://github.com/rpgp/rpgp) et
+[RSA](https://github.com/RustCrypto/RSA) de Delta Chat.
+Aucune faille critique n'a été trouvée, mais deux failles sévères ont été identifiées et immédiatement réparées par nos soins.
+Une faille de gravité moyenne ainsi que quelques failles de gravité moindre ont également été découvertes, sans qu'il soit toutefois possible de les exploiter dans le fonctionnement de Delta Chat.
+Nous en avons néanmoins réparées certaines depuis le rapport d'audit.
+Le rapport complet [est consultable ici](../assets/blog/2019-first-security-review.pdf).
 
-- In 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
-  [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+- En 2020, [Include Security](https://includesecurity.com) a analysé les [bibliothèques principales](https://github.com/deltachat/deltachat-core-rust/) Rust de Delta Chat, ainsi que ses bibliothèques [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) et [TLS](https://github.com/async-email/async-native-tls).
+Aucun problème grave ou critique n'a été découvert.
+Le rapport a tout de même révélé quelques vulnérabilités de gravité moyenne, qui ne représentent pas une menace en elles-mêmes pour les utilisateurs et les utilisatrices de Delta Chat, car elles dépendent de l'environnement dans lequel Delta Chat est utilisé.
+Pour des raison de compatibilité et de facilité d'utilisation, nous ne pouvons pas les pallier toutes et avons préféré fournir des préconisations de sécurité aux personnes exposées.
+Le rapport complet [est consultable ici](../assets/blog/2020-second-security-review.pdf).
 
-- Beginning 2023, [Cure53](https://cure53.de) analyzed both the transport encryption of
-  Delta Chat's network connections and a reproducible mail server setup as
-  [recommended on this site](serverguide).
-  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-  or read the [full report here](../assets/blog/MER-01-report.pdf).
+- Début 2023, [Cure53](https://cure53.de) a analysé le chiffrement d'acheminement des connexions réseau de Delta Chat et testé une configuration de serveur de courriel reproductible, telle que [recommandée sur ce site](serverguide).
+Vous trouverez plus d'informations sur cet audit [sur notre blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) ou dans [le rapport complet ici](../assets/blog/MER-01-report.pdf).
 
-- Beginning 2023, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023. 
-  See [here for the full background story on E2E security in the web](https://delta.chat/en/2023-05-22-webxdc-security). 
+- Début 2023, nous avons réparé les failles de sécurité et de confidentialité de la fonctionnalité "partage d'appli web dans une discussion" liées à des dysfonctionnements en mode bac à sable, en particulier avec Chromium. Après quoi, nous avons soumis Delta Chat à un nouvel audit de sécurité indépendant par Cure53, puis effectué les réparations de toutes les failles découvertes pour la version 1.36 de nos applications, publiée en avril 2023. 
+Vous trouverez [ici un article de fond complet à propos de la sécurité du chiffrement de bout-en-bout sur internet](https://delta.chat/en/2023-05-22-webxdc-security). 
 
 
-### Comment est financé le développement de Delta Chat?
+### Comment est financé le développement de Delta Chat ?
 
-Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
-We rather use public funding sources, so far from EU and US origins, to help
-our efforts in instigating a decentralized and diverse chat messaging eco-system
-based on Free and Open-Source community developments.
+Delta Chat ne reçoit par de fonds en capital-risque, n'est pas endetté et ne subit aucune pression pour générer de gros profits ou vendre ses utilisateurs et utilisatrices - en même temps que leurs amis et leur famille - à des annonceurs (ou pire). 
+Nous préférons utiliser des fonds provenant d'institutions publiques, jusqu'à présent basées en Europe ou aux États-Unis, pour soutenir nos efforts de développement d'un système de messagerie diversifié et décentralisé, basé sur les contributions de la communauté du libre et de l'open-source.
 
-Concretely, Delta Chat developments have so far been funded from these sources:
+Jusqu'à présent, le développement de Delta Chat a été financé par les sources suivantes :
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018 and also helped to integrate End-to-End Encryption
-  through [Autocrypt](https://autocrypt.org).
+- Le projet européen [NEXTLEAP](https://nextleap.eu) a financé la recherche et le développement des groupes vérifiés, ainsi que la configuration des protocoles de contact en 2017 et 2018. Il a également aidé à intégrer le chiffrement de bout-en-bout avec [Autocrypt](https://autocrypt.org).
 
-- The [Open Technology Fund](https://opentechfund.org) gave us a 
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app 
-  and released a first Desktop app beta version, and which moreover 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  
+- L'association [Open Technology Fund](https://opentechfund.org) nous a octroyé une première subvention en 2018/2019 (de 200.000$ environ), grâce à laquelle nous avons pu apporter des améliorations majeures à l'application Android et publier une première version Beta de l'application de bureau. Elle nous a aussi permis d'ancrer notre recherche UX de développement de fonctionnalités dans des contextes de droits humains.   
+À ce sujet, vous pouvez consulter notre rapport en anglais ["Needfinding and UX report"](https://delta.chat/en/2019-07-19-uxreport).
+La seconde subvention de 2019/2020 (environ 300.000$) nous a permis de publier des version iOS de Delta Chat, de convertir notre bibliothèque principale en Rust et de créer de nouvelles fonctionnalités pour toutes les plateformes.  
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+- La [NLnet foundation](https://nlnet.nl/) nous a octroyé une subvention de 46.000€ en 2019/2020 pour avoir achevé la liaison entre Rust et Python, ainsi que pour avoir instauré un système de chatbot. 
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-account support, improved QR-code contact and group setups and many networking improvements on all platforms.
+- En 2021, nous avons reçu un financement européen supplémentaire pour deux initiatives de Next Generation Internet : 97.000€ pour la création d'un [annuaire de la portabilité des fournisseurs de courriel](https://dapsi.ngi.eu/hall-of-fame/eppd/) (ou EPPD pour "e-mail provider portability directory"), et environ 90.000€ pour le développement du [portage des adresses courriel](https://nlnet.nl/project/EmailPorting/) (ou AEAP pour "email address porting"). Ces deux projets ont aussi permis une meilleure prise en charge de la fonctionnalité multi-compte, un QR code de contact plus performant et de nombreuses améliorations concernant la gestion des réseaux et les configurations de groupe sur toutes les plateformes.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- Entre la fin de l'année 2021 et mars 2023, nous avons bénéficié d'un fonds *Internet Freedom* (pour la "liberté d'internet", de 500.000$) du Bureau of Democracy, Human Rights and Labor (DRL) des États-Unis. 
+Cet argent est venu soutenir nos deux objectifs de longue date ; à savoir améliorer la compatibilité de Delta Chat pour le rendre utilisable plus facilement avec un large éventail de serveurs de courriel dans le monde entier, et en améliorer la résistance et la sécurité dans les régions où les coupures internet et la censure d'internet sont monnaie courante.
 
-- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
-  Entrust program for our "Private Decentralized Apps" proposals. 
-  Exact amount is to be determined (around 100K EUR). 
-  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+- Début 2023, nous avons été acceptés dans le programme Entrust de Next Generation Internet (NGI) pour nos projets d'applications privées décentralisées. 
+Le montant exact de la subvention reste à déterminer (autour de 100.000€). 
+Ce financement nous permettra de continuer le développement des [appli webxdc partagées dans une discussion](https://webxdc.org). 
 
-- Sometimes we receive one-time donations from private individuals. 
-  For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". 💜 
-  We use such money to fund development gatherings or to care for ad-hoc expenses 
-  that can not easily be predicted for, or reimbursed from, public funding grants. 
-  Receiving more donations also helps us to become more independent and long-term viable
-  as a contributor community. 
+- Nous recevons parfois des dons ponctuels de la part de personnes privées. 
+ En 2021 par exemple, une généreuse personne nous a envoyé 4000€ par virement bancaire, avec l'intitulé "continuez votre super travail de développement !". 💜 
+ Nous utilisons l'argent de ces dons pour financer des rencontres entre développeurs et développeuses ou pour des dépenses ponctuelles difficiles à anticiper ou à rembourser avec des subventions publiques.
+Recevoir plus de dons aide notre communauté de contributrices et contributeurs à devenir plus indépendante et à rester viable sur le long terme.
 
 [Faire un don](donate){: .cta-button}
 
-- Enfin, en dernier mais largement pas des moindres, plusieurs passionné⋅e⋅s et expert⋅e⋅s ont contribué, et contribuent toujours, bénévolement au développement de Delta Chat sans gagner d'argent, ou seulement de petites sommes. Sans leur énergie, Delta Chat n'en serait pas là aujourd'hui... et de très loin.
+- Dernier point, mais certainement pas des moindres : quelques personnes passionnées et expertes ont apporté, et apportent toujours, leur contribution bénévole au développement de Delta Chat sans contrepartie financière - ou seulement de petites sommes. Sans leur énergie, Delta Chat n'en serait pas là aujourd'hui... et de très loin.
 
-The monetary funding mentioned above is mostly organized by merlinux GmbH in
-Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
+Les financements mentionnés précédemment sont gérés principalement par merlinux GmbH à Fribourg (Allemagne) et redistribués à plus d'une douzaine de contributeurs et contributrices du monde entier.
 
-Please see [Delta Chat Contribution channels](contribute)
-for both monetary and and other contribution possibilities.  
+N'hésitez pas à consulter les [Canaux de contribution à Delta Chat Contribution](contribute) pour en savoir plus sur les différentes manières de contribuer, financières ou non.  

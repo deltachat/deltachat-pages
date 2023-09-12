@@ -9,18 +9,18 @@ lang: tr
 
 _"Biraz tuhaf bir gözlem: #DeltaChat ile e-postalar göndermek ve almak, tüm deneyimi geleneksel bir e-posta istemcisi kullanmaktan daha keyifli yapıyor. Sanırım bu durum çağdaş yaklaşımla ilgili: E-postaları sohbet iletileri gibi yapmak."_
 
-**Polonyalı kullanıcı** [mastodon](https://101010.pl/@michal/107107322703871076)
+**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### birden fazla hesabı destekler
 
-_"Merhaba Delta.chat takımı! Uygulama için teşekkürler; hem son derece kullanışlı hem de UX mükemmele yakın. Bize e-posta hesapları arasında kolay geçiş yapmanın bir yolunu önerebilir misiniz? [...]."_  
-biz çoklu hesapları geliştirmeden önce **mastodon kullanıcısı** [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
+**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### sesli ve görüntülü arama mümkün
 
 _"En güzel yanı, bir jitsi odası oluşturup davet göndererek görüntülü ve sesli aramaları desteklemesi, harika bir çözüm :)"_
 
-**mastodon kullanıcısı** [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
+**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
 ### Kör insanlara tavsiye edilebilir
 
