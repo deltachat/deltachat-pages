@@ -267,12 +267,35 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 
 ### Does Delta Chat support end-to-end-encryption?
 
-- Yes. Delta Chat implements the [Autocrypt Level 1](https://autocrypt.org/level1.html) standard
-  and can thus E2E-encrypt messages with other Autocrypt-capable apps.
+Yes.
+Delta Chat implements the [Autocrypt Level 1](https://autocrypt.org/level1.html) standard
+which is based on OpenPGP
+and can thus E2E-encrypt messages with other Autocrypt-capable apps
+and receive messages from OpenPGP-capable apps.
 
-- Delta Chat also supports a strong form of end-to-end encryption that is
-  even safe against active attacks, see "verified groups" further below.
+Delta Chat also supports a strong form of end-to-end encryption that is
+even safe against active attacks, see "verified groups" further below.
 
+### Is OpenPGP secure?
+
+Delta Chat uses a secure subset of OpenPGP.
+Delta Chat considers the message to be secure
+and displays a padlock only if the whole message is encrypted and signed.
+"Detached signature" is not treated as secure.
+
+### Is Delta Chat vulnerable to [EFAIL](https://efail.de/)?
+
+[Delta Chat is not vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail).
+
+Delta Chat is not vulnerable to "The CBC/CFB Gadget Attack" EFAIL attack
+because OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) that Delta Chat uses
+uses Modification Detection Code when encrypting messages
+and returns [an error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
+if Modification Detection Code is incorrect.
+
+Delta Chat is also not vulnerable to the "Direct Exfiltration" EFAIL attack
+because it only decrypts `multipart/encrypted` messages
+which contain exactly one encrypted and signed part.
 
 ### What do I have to do to activate the end-to-end-encryption?
 
