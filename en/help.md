@@ -705,7 +705,7 @@ that all messages will be safely E2E-encrypted between you two.
 However, we plan to introduce verified 1:1 chats soon, 
 simplifying and extending the guarantees of verified E2E-encryption for all chat types. 
 Until then verified groups will remain classified as an experimental feature 
-although they are successfully used from many repression-facing groups, 
+although they are successfully used by many repression-facing groups, 
 and reported bugs have been continously fixed in the last years. 
 
 
