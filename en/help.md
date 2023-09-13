@@ -268,7 +268,7 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 ### Which standards are used for end-to-end encryption? 
 
 [Autocrypt](https://autocrypt.org) is used for automatically
-establishing E2E-encryption with chat partners. 
+establishing E2E-encryption with contacts.
 Autocrypt uses a limited and safe subset of the OpenPGP standard. 
 
 [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html) 
@@ -349,25 +349,25 @@ all messages are guaranteed to be E2E-encrypted even when servers are compromise
 
 ### Why do I see unencrypted messages (why no padlock on a message)?
 
-If a chat partner uses a non-Autocrypt e-mail app, 
-all messages involving this chat partner (in a group or 1:1 chat) 
+If a contact uses a non-Autocrypt e-mail app, 
+all messages involving this contact (in a group or 1:1 chat) 
 will not be E2E-encrypted. 
-Note that even if your chat partners use Delta Chat on their account, 
+Note that even if your contacts use Delta Chat on their account, 
 they might also use a non-Autocrypt e-mail app on that account
 which then leads to intermittently unencrypted communications
 because replying to an unencrypted message typically happens without E2E-encryption.
 This "reply-unencrypted" to "un-encrypted" messages is mandated by Autocrypt 
-to prevent unreadable messages on the side of your chat partners 
+to prevent unreadable messages on the side of your contacts
 and their non-Autocrypt compliant e-mail app. 
 
-If many of your chat partners use non-Autocrypt e-mail apps often (including web e-mail)
+If many of your contacts use non-Autocrypt e-mail apps often (including web e-mail)
 you may toggle the Autocrypt setting in "Advanced settings"
 to rather default to "not prefering encryption" 
 which can ease readability of anyway often not-encrypted communications. 
 However, we generally suggest to not modify the E2E-encryption default
 and may remove the option in the future. 
 
-If you need a safely E2E-encrypted channel with chat partners 
+If you need a safely E2E-encrypted channel with contacts
 who are using their account also with Autocrypt-incapable apps
 we suggest to create a [verified group chat](#verifiedchats) with them. 
 Any message sent into a verified group chat will be E2E-encrypted
@@ -422,14 +422,14 @@ to create pseudonymous temporary accounts through QR-code scans.
 Note that Delta Chat apps on all platforms support multiple accounts 
 so you can easily use action-specific "1-week" or "1-month" accounts next to your "main" account
 with the knowledge that all temporary account data will be deleted. 
-If a device is seized then chat partners using temporary e-mail accounts 
+If a device is seized then contacts using temporary e-mail accounts 
 can not easily be identified, as compared to messengers which reveal 
-phone numbers that are often associated with passport identities of chat partners. 
+phone numbers that are often associated with passport identities of contacts. 
 
 
 ### How can I verify E2E-security with a contact? 
 
-If you are within immediate distance of your chat partner,
+If you are within immediate distance of your contact,
 select **QR Invite code** on one device and then **Scan QR code**
 from within Delta Chat on the other device. 
 If both devices are online, 
@@ -443,7 +443,7 @@ you may check the E2E encryption status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop):
 
 - For end-to-end-encryption, Delta Chat shows two fingerprints there.
-  If the same fingerprints appear on your chat partner's device,
+  If the same fingerprints appear on your contact's device,
   the connection is safe.
 
 - For transport encryption, this state is just shown there
