@@ -291,7 +291,7 @@ actually stem from bad usability or bad implementations of tools or apps (or bot
 It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
 and GnuPG (GPG), a command line tool implementing OpenPGP. 
 Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
-Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
+Delta Chat rather uses the Rust OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp),
 available as [an independent "pgp" package](https://crates.io/crates/pgp),
 and [security-audited in 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf). 
 
