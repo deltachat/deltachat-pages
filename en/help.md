@@ -280,12 +280,14 @@ public key cryptography, key management or key verification.
 
 ### Is OpenPGP secure?
 
-Most publically discussed OpenPGP security problems 
-actually stem from bad usability or bad implementations or both. 
-However, Delta Chat uses a secure subset of OpenPGP
+Delta Chat uses a secure subset of OpenPGP
 and only displays a padlock security indicator on a message
 if the whole message is encrypted and signed.
 For example, "Detached signatures" are not treated as secure.
+
+OpenPGP is not insecure by itself.
+Most publically discussed OpenPGP security problems
+actually stem from bad usability or bad implementations or both.
 
 It is generally important to distinguish between OpenPGP, the IETF encryption standard, 
 and GnuPG (GPG), a command line tool implementing OpenPGP. 
