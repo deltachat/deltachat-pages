@@ -347,7 +347,7 @@ this initial encryption-handshake is automated and
 all messages are guaranteed to be E2E-encrypted even when servers are compromised. 
 
 
-### Why do i see unencrypted messages (why no padlock on a message)? 
+### Why do I see unencrypted messages (why no padlock on a message)?
 
 If a chat partner uses a non-Autocrypt e-mail app, 
 all messages involving this chat partner (in a group or 1:1 chat) 
