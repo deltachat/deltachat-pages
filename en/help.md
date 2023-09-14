@@ -316,7 +316,7 @@ to further improve security characteristics by implementing the
 which was thankfully adopted in summer 2023. 
 
 
-### Did you consider using alternatives to OpenPGP for E2E-encryption? 
+### Did you consider using alternatives to OpenPGP for E2E-encryption? {#openpgp-alternatives}
 
 Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
 or [Saltpack](https://saltpack.org/) 
