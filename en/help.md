@@ -648,7 +648,7 @@ extendable messenger. The technical term is [webxdc](https://webxdc.org).
 
 - In general, anyone can share private apps with each
   other without restrictions.
-- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+- You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
   to see an experimental webxdc appstore.
   All of the apps are open source and for free.
 - Many people write their own private apps and post them to [the Delta Chat
