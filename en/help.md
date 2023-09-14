@@ -335,7 +335,7 @@ see also our answers to [device-seizure](#device-seizure)
 and [message-metadata](#message-metadata) questions. 
 
 
-### Is Delta Chat vulnerable to [EFAIL](https://efail.de/)?
+### Is Delta Chat vulnerable to EFAIL?
 
 [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
 because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
