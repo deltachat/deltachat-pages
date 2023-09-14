@@ -349,7 +349,7 @@ which contain exactly one encrypted and signed part,
 as defined by the Autocrypt Level 1 specification. 
 
 
-### Is a message exposed in cleartext if E2E-encryption is not available? 
+### Is a message exposed in cleartext if E2E-encryption is not available? {#tls}
 
 With almost all mail servers, Delta Chat establishes strict _transport encryption_
 ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security))
