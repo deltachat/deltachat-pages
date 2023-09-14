@@ -354,7 +354,7 @@ as defined by the Autocrypt Level 1 specification.
 With almost all mail servers, Delta Chat establishes strict _transport encryption_
 ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security))
 which secures connections between your device and your e-mail server. 
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits)
+All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
 Moreover, the connection between your and the recipient's e-mail provider 
 will today typically be transport-encrypted as well. 
 If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
