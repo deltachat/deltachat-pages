@@ -268,8 +268,8 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 ### Which standards are used for end-to-end encryption? 
 
 [Autocrypt](https://autocrypt.org) is used for automatically
-establishing E2E-encryption with contacts.
-Autocrypt uses a limited and safe subset of the OpenPGP standard. 
+establishing E2E-encryption with contacts and group chats. 
+Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure). 
 
 [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html) 
 are used to implement [verified groups](#verifiedchats) 
@@ -278,7 +278,22 @@ Verified groups enforce all messages in a chat to be safely E2E-encrypted
 with an unparalleled ease of use that avoids users having to learn about 
 public key cryptography, key management or key verification. 
 
-### Is OpenPGP secure?
+
+### When will messages be E2E-encrypted? 
+
+After a first message was received from a Delta Chat or other Autocrypt-capable contact, 
+Delta Chat defaults to using E2E-encryption with that contact (and vice versa). 
+When creating a group chat with contacts where E2E-encrypted is individually in place,
+all group members will automatically use E2E-encryption with each other and in the group. 
+However, if you add a contact that lacks E2E-encryption, 
+the group chat will not use E2E-encryption. 
+
+If you want to be sure to always and only use E2E-encryption in a group
+use [verified chat groups](#verifiedchats) 
+which additionally protects against compromised or malfeasant e-mail servers. 
+
+
+### Is OpenPGP secure? {#openpgp-secure}
 
 Delta Chat uses a secure subset of OpenPGP
 and only displays a padlock security indicator on a message
@@ -291,7 +306,7 @@ actually stem from bad usability or bad implementations of tools or apps (or bot
 It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
 and GnuPG (GPG), a command line tool implementing OpenPGP. 
 Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
-Delta Chat rather uses the Rust OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp),
+Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
 available as [an independent "pgp" package](https://crates.io/crates/pgp),
 and [security-audited in 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf). 
 
@@ -332,20 +347,6 @@ Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
 because it only decrypts `multipart/encrypted` messages
 which contain exactly one encrypted and signed part,
 as defined by the Autocrypt Level 1 specification. 
-
-
-### What do I have to do to activate E2E-encryption? 
-
-Nothing.
-
-Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compliant e-mail apps) 
-share the keys required for E2E-encryption encryption automatically.
-After a first message was received from a contact, 
-Delta Chat defaults to using E2E-encryption with that contact. 
-With [verified chat groups](#verifiedchats) 
-this initial encryption-handshake is automated and 
-all messages are guaranteed to be E2E-encrypted without any human interaction
-and even when servers are compromised. 
 
 
 ### Is a message exposed in cleartext if E2E-encryption is not available? 
@@ -689,23 +690,23 @@ like experiments? Register through "Sign up -> with Delta Chat"!)
 
 ### What is a verified group? Why is it experimental?  {#verifiedchats} {#verdiff}
 
-Verified groups carry a verification checkmark that guarantees
-that messages are E2E-encrypted and can not be read or altered by e-mail servers. 
-Each member in a verified group can add new members by showing a "QR Invite code" 
-which is scanned by the invited member to trigger the so called "secure-join" protocol. 
-This protocol ensures that all verified group chat members are connected with each other 
-through a chain of QR-code based verifications ("web of trust"), 
-guaranteeing overall cryptographic consistency even if e-mail servers are compromised. 
+Verified groups carry a green verification checkmark in the group title that guarantees
+that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 
+Each member in a verified group chat can add already verified contacts 
+or tap "QR Invite code" to let invitees scan the code to get verified and added ("secure-join").
+This "secure-join" protocol ensures that all verified group chat members 
+are connected with each other through a chain of verifications ("web of trust"), 
+guaranteeing E2E-encryption consistency even if e-mail servers are compromised or malfeasant.
 See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
 for a detailed security discussion. 
 
 Note that "1:1" chats are currently only opportunistically encrypted (Autocrypt). 
-You need to create a verified group with your contact in order to ensure
-that all messages will be safely E2E-encrypted between you two. 
-However, we plan to introduce verified 1:1 chats soon, 
+You need to create a verified group with your contact 
+to ensure that all messages will be safely E2E-encrypted between you two. 
+We plan to introduce verified 1:1 chats around the end of 2023, 
 simplifying and extending the guarantees of verified E2E-encryption for all chat types. 
 Until then verified groups will remain classified as an experimental feature 
-although they are successfully used by many repression-facing groups, 
+although they are widely and successfully used already, 
 and reported bugs have been continously fixed in the last years. 
 
 
