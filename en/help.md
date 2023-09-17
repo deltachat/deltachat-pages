@@ -462,6 +462,37 @@ guaranteeing E2E-encryption consistency even if e-mail servers are compromised o
 See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
 for a detailed security discussion. 
 
+### "Messages may not be end-to-end encrypted anymore", what does this mean? {#verificationbroken}
+
+At some point in the past, you probably [scanned a QR Code](#howtoe2ee), which ensured that all your messages
+were correctly end-to-end encrypted.
+
+Now, somehow your chat partner's encryption key changed; reasons for this are:
+- They reinstalled Delta Chat
+- They are using a new phone, and didn't properly [transfer their account](#multiclient)
+- They didn't use Delta Chat to send the message, but sent a classical email.
+
+Therefore, while Delta Chat will still try to [end-to-end encrypt](#whatise2ee) your messages, it can't guarantee this anymore. There is a small padlock on encrypted messages.
+
+- **Why can't Delta Chat guarantee end-to-end encryption anymore?**
+
+  There are two reasons:
+
+  1. If your chat partner doesn't use Delta Chat to send emails at all anymore, then
+     Delta Chat sends them unencrypted so that they can still read them.
+  2. Even if your chat partner still uses Delta Chat, it can't protect against
+     [MitM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) anymore.
+     Most users don't need to worry about this, but if you are in a high-risk situation,
+     keep in mind that a powerful attacker with access to the email provider
+     could theoretically read and/or modify the messages.
+
+- **Why don't other messengers like Signal show such warnings?**
+
+  They do! The warnings just are a lot easier to overlook. Signal calls them
+  ["Your safety number changed"](https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed-).
+
+  Plus, Signal is not compatible with unencrypted emails, so, in Signal there is never the problem that your chat partner can't handle encryption anymore - all messages in Signal are encrypted.
+
 ### How can I check the encryption status of messages?
 
 A little **padlock** in a message bubble denotes 
