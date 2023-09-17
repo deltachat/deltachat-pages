@@ -272,9 +272,9 @@ establishing E2E-encryption with contacts and group chats.
 Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure). 
 
 [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html) 
-are used to implement [verified groups](#verifiedchats) 
+are used to implement [verified chats](#verifiedchats)
 which provide pervasive protection against network attacks and compromised servers.
-Verified groups enforce all messages in a chat to be safely E2E-encrypted
+Verified chats enforce all messages in a chat to be safely E2E-encrypted
 with an unparalleled ease of use that avoids users having to learn about 
 public key cryptography, key management or key verification. 
 
@@ -288,8 +288,8 @@ all group members will automatically use E2E-encryption with each other and in t
 However, if you add a contact that lacks E2E-encryption, 
 the group chat will not use E2E-encryption. 
 
-If you want to be sure to always and only use E2E-encryption in a group
-use [verified chat groups](#verifiedchats) 
+If you want to be sure to always and only use E2E-encryption,
+[use verified chats](#howtoe2ee) 
 which additionally protects against compromised or malfeasant e-mail servers. 
 
 
@@ -415,14 +415,19 @@ can not be identified easily, as compared to messengers which reveal
 phone numbers in chat groups which in turn are often associated with passport identities. 
 
 
-### How can I verify E2E-security with a contact? 
+### How can I verify the security of my End-to-End encryption? {#howtoe2ee}
 
-If you are within immediate distance of your contact,
-select **QR Invite code** on one device and then **Scan QR code**
-from within Delta Chat on the other device. 
+**In private chats:**
+
+- Meet your chat partner in person.
+- Click the QR Code icon <img style="vertical-align:middle; width:2em; margin:1px" src="../assets/home/qrcode.png" />
+- Scan the QR Code of your chat partner, or let them scan yours.
+- Wait a bit.
+
 If both devices are online, 
 they will setup a chat with each-other (if it doesn't exist already)
-and both will see a "sender verified" system message in their chat. 
+and both will see <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/> after the chat title. Congratulations, you now verified this contact!
+
 Showing and scanning a QR code can also happen in any "second channel" 
 such as a video call or another messenger. 
 
@@ -433,6 +438,29 @@ Delta Chat shows two fingerprints there.
 If the same fingerprints appear on your own and your contact's device,
 the connection is safe.
 
+**In group chats:** {#createverifiedgroup}
+
+- When creating the group, click on "New verified group" instead of "New group"
+- You can only add contacts which are already verified.
+  To add other contacts, click on "QR Invite Code"
+  and let them scan the QR Code (this is called "secure-join")
+
+### What are verified chats? {#verifiedchats}
+
+Verified chats carry a green verification checkmark (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />) in the title that guarantees
+that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 
+
+Private chats are automatically marked as verified when you verify the contact with
+a QR code scan.
+
+Group chats are verified if this was chosen during group creation.
+Each member in a verified group chat can add already verified contacts 
+or tap "QR Invite code" to let invitees scan the code to get verified and added ("secure-join").
+This "secure-join" protocol ensures that all verified group chat members 
+are connected with each other through a chain of verifications ("web of trust"), 
+guaranteeing E2E-encryption consistency even if e-mail servers are compromised or malfeasant.
+See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
+for a detailed security discussion. 
 
 ### How can I check the encryption status of messages?
 
@@ -457,7 +485,7 @@ and their non-Autocrypt e-mail app.
 
 If you need a safely E2E-encrypted chat with contacts
 who are using their account also with Autocrypt-incapable apps (e.g. webmail) 
-it's best to create a [verified group chat](#verifiedchats) with them. 
+it's best to create a [verified group chat](#createverifiedgroup) with them. 
 Any message sent into a verified group chat will be E2E-encrypted
 irrespective of the last incoming message from a contact. 
 
@@ -466,10 +494,10 @@ irrespective of the last incoming message from a contact.
 
 The best way to ensure every message is encrypted,
 and metadata deleted as quickly as possible
-is using [verified groups](#verifiedchats) 
+is [using verified chats](#howtoe2ee) 
 and turning on disappearing messages.
 
-Verified groups are always encrypted and protected against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) 
+Verified chats are always encrypted and protected against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) 
 and turning on "disappearing messages" deletes the messages 
 on the server after a user-configured time. 
 
@@ -699,28 +727,6 @@ like experiments? Register through "Sign up -> with Delta Chat"!)
 - For example, to use the flagship Jitsi Meet instance, you could enter
   `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
   this way, you will have a new random jitsi room every time you call someone.
-
-
-### What is a verified group? Why is it experimental? {#verifiedchats}
-
-Verified groups carry a green verification checkmark in the group title that guarantees
-that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 
-Each member in a verified group chat can add already verified contacts 
-or tap "QR Invite code" to let invitees scan the code to get verified and added ("secure-join").
-This "secure-join" protocol ensures that all verified group chat members 
-are connected with each other through a chain of verifications ("web of trust"), 
-guaranteeing E2E-encryption consistency even if e-mail servers are compromised or malfeasant.
-See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-for a detailed security discussion. 
-
-Note that "1:1" chats are currently only opportunistically encrypted (Autocrypt). 
-You need to create a verified group with your contact 
-to ensure that all messages will be safely E2E-encrypted between you two. 
-We plan to introduce verified 1:1 chats around the end of 2023, 
-simplifying and extending the guarantees of verified E2E-encryption for all chat types. 
-Until then verified groups will remain classified as an experimental feature 
-although they are widely and successfully used already, 
-and reported bugs have been continously fixed in the last years. 
 
 
 ### What are Broadcast Lists and how can I use them?
