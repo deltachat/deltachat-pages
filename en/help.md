@@ -293,9 +293,17 @@ use [verified chat groups](#verifiedchats)
 which additionally protects against compromised or malfeasant e-mail servers. 
 
 
+### Are attachments (pictures, files, audio etc.) E2E-encrypted? 
+
+Yes. 
+When we talk about an "E2E-encrypted message" 
+we always mean a text message along with an (optional) attachment. 
+The whole message, including any attachment, is then E2E-encrypted. 
+
+
 ### Is OpenPGP secure? {#openpgp-secure}
 
-Delta Chat uses a secure subset of OpenPGP
+Yes, Delta Chat uses a secure subset of OpenPGP
 and only displays a padlock security indicator on a message
 if the whole message is properly encrypted and signed.
 For example, "Detached signatures" are not treated as secure.
@@ -337,7 +345,7 @@ and [message-metadata](#message-metadata) questions.
 
 ### Is Delta Chat vulnerable to EFAIL?
 
-[Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
+No, [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
 because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
 uses Modification Detection Code when encrypting messages
 and returns [an error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
@@ -351,6 +359,8 @@ as defined by the Autocrypt Level 1 specification.
 
 ### Is a message exposed in cleartext if E2E-encryption is not available? {#tls}
 
+No, probably your message is not exposed as cleartext to the network 
+but it depends on the configuration of your e-mail provider. 
 With almost all mail servers, Delta Chat establishes strict _transport encryption_
 ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security))
 which secures connections between your device and your e-mail server. 
