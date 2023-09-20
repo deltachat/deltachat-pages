@@ -297,8 +297,9 @@ which additionally protects against compromised or malfeasant e-mail servers.
 
 Yes. 
 When we talk about an "E2E-encrypted message" 
-we always mean a text message along with an (optional) attachment. 
-The whole message, including any attachment, is then E2E-encrypted. 
+we always mean a whole message is encrypted,
+including all the attachments
+and attachment metadata such as filenames.
 
 
 ### Is OpenPGP secure? {#openpgp-secure}
@@ -359,12 +360,14 @@ as defined by the Autocrypt Level 1 specification.
 
 ### Is a message exposed in cleartext if E2E-encryption is not available? {#tls}
 
-No, probably your message is not exposed as cleartext to the network 
-but it depends on the configuration of your e-mail provider. 
-With almost all mail servers, Delta Chat establishes strict _transport encryption_
-([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security))
-which secures connections between your device and your e-mail server. 
+No,
+this does not necessarily mean that the message is exposed in cleartext.
+
+Delta Chat always uses ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)) encryption
+which secures connections between your device and your e-mail server
+unless you explicitly disable it.
 All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
+
 Moreover, the connection between your and the recipient's e-mail provider 
 will today typically be transport-encrypted as well. 
 If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
