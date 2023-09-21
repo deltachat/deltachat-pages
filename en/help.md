@@ -364,7 +364,7 @@ No,
 this does not necessarily mean that the message is exposed in cleartext.
 
 Delta Chat always uses ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)) encryption
-which secures connections between your device and your e-mail server
+which secures connections between your device and your e-mail provider
 unless you explicitly disable it.
 All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
 
