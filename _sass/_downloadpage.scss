@@ -50,8 +50,9 @@ div.download-content {
         display: flex;
         align-content: center;
         margin: 3px;
-        &>img{
+        img{
             height: 48px;
+            display: block;
         }
     }
 
