@@ -106,7 +106,7 @@ for more info see the comments in `./tools/t-dance.sh`.
 
 - the following step is outside the scope of this repo:
   add a server-redirect, template is at
-  <https://github.com/deltachat/sysadmin/blob/master/delta.chat/delta.chat>
+  <https://github.com/deltachat/sysadmin/blob/master/page/delta.chat/delta.chat>
 
 ### Update translations
 
