@@ -173,7 +173,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   - because they wrote something to a group you are both a member of,
   - because they sent you a read receipt for a message you wrote,
   - or because they sent data to your Delta Chat app by using a
-    [private app](#webxdc).
+    [webxdc app](#webxdc).
 - So this is not a real time online status - and if someone doesn't answer
   right away even though they seem to be online, don't worry and give them some
   space ;-)
@@ -637,40 +637,40 @@ DeltaChat folder", you should also disable "move chat messages to DeltaChat".
 Otherwise, deleting messages or multi-device setups might not work properly.
 
 
-## Private Apps / webxdc {#webxdc}
+## webxdc apps {#webxdc}
 
-In Delta Chat, you can share "private apps", attachments with an `.xdc` file
+In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly
-extendable messenger. The technical term is [webxdc](https://webxdc.org).
+extendable messenger.
 
 
-### How private are private apps?
+### How private are webxdc apps?
 
-- Private apps can not send data to the Internet, or download anything.
-- A private app can only exchange data within a Delta Chat chat, with its
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
   copies on the devices of your chat partners. Other than that, it's completely
   isolated from the Internet.
-- The privacy a private app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the private app as well.
-- This also means: it can be a privacy risk to open private apps in chats where
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open webxdc apps in chats where
   you don't trust the members - as you know it from e-mail attachments, where 
   you only open attachments from senders you trust, and not from spammers.
 
 
-### Where can I get private apps?
+### Where can I get webxdc apps?
 
-- In general, anyone can share private apps with each
+- In general, anyone can share webxdc apps with each
   other without restrictions.
 - You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
   to see an experimental webxdc appstore.
   All of the apps are open source and for free.
-- Many people write their own private apps and post them to [the Delta Chat
+- Many people write their own webxdc apps and post them to [the Delta Chat
   forum](https://support.delta.chat/c/webxdc/20).
 
 
-### How can I create my own private apps?
+### How can I create my own webxdc apps?
 
-- Private apps are just zip files containing html, css, and javascript code.
+- webxdc apps are just zip files containing html, css, and javascript code.
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
 - All else you need to know is written in the
