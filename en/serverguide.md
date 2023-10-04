@@ -179,10 +179,10 @@ Somethings like this makes sense:
 After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
 You can try it out with Delta Chat now.
 
-#### Optional: Add Additional DNS Entries
+#### Recommended: Add Additional DNS Entries
 
 In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further reccomendations for DNS entries which might
+"DNS" button. It provides further recommendations for DNS entries which might
 help if you have problems getting your e-mails delivered to other servers.
 
 ![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
@@ -294,7 +294,7 @@ Best look at the documentation for the [first
 steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
 contains hints for troubleshooting the setup if something doesn't work.
 
-## Optional: Disable POP3
+## Recommended: Disable POP3
 
 Delta Chat uses only SMTP and IMAP,
 so if all of your users use Delta Chat,
@@ -309,7 +309,7 @@ POPS_PORT=127.0.0.1:995
 
 Then apply the changes with `sudo docker compose up -d`.
 
-## Optional: Redirect all HTTP traffic to HTTPS
+## Recommended: Redirect all HTTP traffic to HTTPS
 
 By default,
 the nginx server also responds unencrypted
@@ -341,7 +341,7 @@ server {
 
 Then apply the changes with `sudo docker compose restart nginx-mailcow`.
 
-## Optional: No Logs, No Masters
+## Recommended: No Logs, No Masters
 
 Mailcow logs the IP addresses of your users for debugging purposes, so if you
 don't want to keep this critical information on your server, you might want to
