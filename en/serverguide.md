@@ -396,6 +396,7 @@ containing your domain.
 Reverse DNS entries improve deliverability;
 it helps other mail server
 distinguish your user's mails from spam.
+
 Setting rDNS entries should be possible
 in the hosting provider web interface.
 You can read more about it
