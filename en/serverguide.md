@@ -72,7 +72,7 @@ Now you could configure the domain settings for example.org like this:
 | CNAME | autodiscover.example.org  | mail.example.org                                     | 5min |          |
 | CNAME | mailadm.example.org       | mail.example.org                                     | 5min |          |
 | TXT   | @                         | "v=spf1 mx -all"                                     | 5min |          |
-| TXT   | _dmarc.example.org        | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+| TXT   | \_dmarc.example.org       | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
 
 You can setup the DKIM key after setting up mailcow,
 in System>Configuration>Options>ARC/DKIM keys.
@@ -387,3 +387,17 @@ Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
 Consider looking at the [Mailcow logging
 documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
 for alternatives to this configuration.
+
+## Recommended: Add Reverse DNS Entries at Your Provider
+
+You might also create reverse DNS entries
+for the IPv4 and IPv6 addresses of your server,
+containing your domain.
+Reverse DNS entries improve deliverability;
+it helps other mail server
+distinguish your user's mails from spam.
+Setting rDNS entries should be possible
+in the hosting provider web interface.
+You can read more about it
+[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+
