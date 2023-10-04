@@ -63,16 +63,16 @@ Let's assume:
 
 Now you could configure the domain settings for example.org like this:
 
-| Type  | Name            | Data                                                 | TTL  | Priority |
-|-------|-----------------|------------------------------------------------------|------|----------|
-| A     | mail            | 24.48.100.24                                         | 5min |          |
-| AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
-| MX    | @               | mail.example.org                                     | 5min |    10    |
-| CNAME | autoconfig      | mail.example.org                                     | 5min |          |
-| CNAME | autodiscover    | mail.example.org                                     | 5min |          |
-| CNAME | mailadm         | mail.example.org                                     | 5min |          |
-| TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
-| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+| Type  | Name                      | Data                                                 | TTL  | Priority |
+|-------|---------------------------|------------------------------------------------------|------|----------|
+| A     | mail.example.org          | 24.48.100.24                                         | 5min |          |
+| AAAA  | mail.example.org          | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
+| MX    | @                         | mail.example.org                                     | 5min |    10    |
+| CNAME | autoconfig.example.org    | mail.example.org                                     | 5min |          |
+| CNAME | autodiscover.example.org  | mail.example.org                                     | 5min |          |
+| CNAME | mailadm.example.org       | mail.example.org                                     | 5min |          |
+| TXT   | @                         | "v=spf1 mx -all"                                     | 5min |          |
+| TXT   | _dmarc.example.org        | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
 
 You can setup the DKIM key after setting up mailcow,
 in System>Configuration>Options>ARC/DKIM keys.
