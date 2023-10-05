@@ -7,8 +7,8 @@ downloads: true
 ## Changelogs {#changelogs}
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
-* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
+* [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
+* [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
 * [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 The desktop versions do not require Delta Chat to be installed on a phone.
