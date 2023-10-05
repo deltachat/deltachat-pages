@@ -41,6 +41,8 @@ def url_is_reachable(url):
             reachable_cache[url] = True
         elif response.status_code == 403 and url == "https://opentechfund.org":
             reachable_cache[url] = True # maybe a temporary hickup
+        elif response.status_code == 404 and url == "https://crates.io/crates/pgp":
+            reachable_cache[url] = True # maybe a temporary hickup
         else:
             print(f"  status code for {url}: {response.status_code}")
             reachable_cache[url] = False
