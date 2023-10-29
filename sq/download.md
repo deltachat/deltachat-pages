@@ -7,15 +7,15 @@ downloads: true
 ## Regjistra ndryshimesh {#changelogs}
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
-* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Bazë](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
+* [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Versionet desktop s’kanë nevojë që Delta Chat të jetë i instaluar në një telefon.
 
 Domosdoshmëri minimale:
 Android 4.1 Jelly Bean
-ose iOS 11, iPhone 5s ose iPad 5/Air/Mini
+ose iOS 12, iPhone 5s ose iPad 5/Air/Mini 2
 ose Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 ose Debian 10
 ose sisteme të përputhshëm me ta.
 

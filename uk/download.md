@@ -7,15 +7,15 @@ downloads: true
 ## Список змін {#changelogs}
 
 * [Комп'ютер](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
-* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
+* [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
+* [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
 * [Ядро](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Версії для комп'ютера не потребують встановлення DeltaChat на телефоні.
 
 Мінімальні вимоги:
 Android 4.1 Jelly Bean
-або iOS 11, iPhone 5s або iPad 5/Air/Mini
+або iOS 12, iPhone 5s або iPad 5/Air/Mini 2
 або Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 або Debian 10
 або сумісні системи.
 

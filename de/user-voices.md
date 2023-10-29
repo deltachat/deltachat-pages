@@ -9,18 +9,18 @@ lang: de
 
 _"Eine etwas seltsame Beobachtung: Das Senden und Empfangen von E-Mails mit #DeltaChat macht die ganze Erfahrung angenehmer als die Verwendung eines herkömmlichen E-Mail-Clients. Ich denke, es geht um den modernen Ansatz: E-Mails aussehen zu lassen wie Chat-Nachrichten."_
 
-**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
+**Polnischer Benutzer**, via [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### unterstützt mehr als ein Konto
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"Hallo Delta.chat-Team! Vielen Dank für die App; sie ist äußerst nützlich und hat eine nahezu perfekte UX. Könnten Sie das einfache Wechseln zwischen E-Mail-Konten einbauen? [...]."_ 
+**Benutzer,** bevor wir das einfache Wechseln zwischen E-Mail-Konten verbessert haben, auf [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### Audio- und Video-Anrufe möglich
 
 _"Das Coolste ist, dass es Video- und Audio-Anrufe unterstützt, indem es einen Jitsi-Raum erstellt und eine Einladung sendet, coole Lösung :)"_
 
-**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
+**Benutzer**, via [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
 ### Kann man Blinden empfehlen
 

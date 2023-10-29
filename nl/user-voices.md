@@ -9,18 +9,18 @@ lang: nl
 
 _"Een enigszins vreemde observatie: het versturen en ontvangen van e-mails via #DeltaChat maakt e-mailen leuker dan via een traditioneel e-mailprogramma. Ik denk dat het komt door de moderne insteek: e-mails laten lijken op chatberichten."_
 
-**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
+**Poolse gebruiker** op [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### ondersteunt meer dan één account
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_“Hallo, Delta.chat-team! Bedankt voor met maken van deze app. Niet alleen is de app ontzettend handig, hij is ook nog intuïtief. Een bijna-perfecte app! Ik zou alleen graag makkelijker van account kunnen wisselen. […]”_  
+**Gebruiker** — voordat we het gebruik van meerdere accounts verbeterd hadden — op [Mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### audio- en videobellen is mogelijk
 
 _"Het coolste is dat video- en audio-oproepen werken middels een jitsi-kamer! :)"_
 
-**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
+**Gebruiker** op [mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)  
 
 ### Aanrader voor blinden en slechtzienden
 

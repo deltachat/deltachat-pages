@@ -47,16 +47,16 @@ Let's assume:
 
 Now you could configure the domain settings for example.org like this:
 
-| Type  | Name            | Data                                                 | TTL  | Priority |
-|-------|-----------------|------------------------------------------------------|------|----------|
-| A     | mail            | 24.48.100.24                                         | 5min |          |
-| AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
-| MX    | @               | mail.example.org                                     | 5min |    10    |
-| CNAME | autoconfig      | mail.example.org                                     | 5min |          |
-| CNAME | autodiscover    | mail.example.org                                     | 5min |          |
-| CNAME | mailadm         | mail.example.org                                     | 5min |          |
-| TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
-| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+| Type  | Name                      | Data                                                 | TTL  | Priority |
+|-------|---------------------------|------------------------------------------------------|------|----------|
+| A     | mail.example.org          | 24.48.100.24                                         | 5min |          |
+| AAAA  | mail.example.org          | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
+| MX    | @                         | mail.example.org                                     | 5min |    10    |
+| CNAME | autoconfig.example.org    | mail.example.org                                     | 5min |          |
+| CNAME | autodiscover.example.org  | mail.example.org                                     | 5min |          |
+| CNAME | mailadm.example.org       | mail.example.org                                     | 5min |          |
+| TXT   | @                         | "v=spf1 mx -all"                                     | 5min |          |
+| TXT   | \_dmarc.example.org       | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
 
 You can setup the DKIM key after setting up mailcow,
 in System>Configuration>Options>ARC/DKIM keys.
@@ -163,10 +163,10 @@ Somethings like this makes sense:
 After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
 You can try it out with Delta Chat now.
 
-#### Optional: Add Additional DNS Entries
+#### Recommended: Add Additional DNS Entries
 
 In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further reccomendations for DNS entries which might
+"DNS" button. It provides further recommendations for DNS entries which might
 help if you have problems getting your e-mails delivered to other servers.
 
 ![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
@@ -278,7 +278,7 @@ Best look at the documentation for the [first
 steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
 contains hints for troubleshooting the setup if something doesn't work.
 
-## Optional: Disable POP3
+## Recommended: Disable POP3
 
 Delta Chat uses only SMTP and IMAP,
 so if all of your users use Delta Chat,
@@ -293,7 +293,7 @@ POPS_PORT=127.0.0.1:995
 
 Then apply the changes with `sudo docker compose up -d`.
 
-## Optional: Redirect all HTTP traffic to HTTPS
+## Recommended: Redirect all HTTP traffic to HTTPS
 
 By default,
 the nginx server also responds unencrypted
@@ -325,7 +325,7 @@ server {
 
 Then apply the changes with `sudo docker compose restart nginx-mailcow`.
 
-## Optional: No Logs, No Masters
+## Recommended: No Logs, No Masters
 
 Mailcow logs the IP addresses of your users for debugging purposes, so if you
 don't want to keep this critical information on your server, you might want to
@@ -371,3 +371,18 @@ Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
 Consider looking at the [Mailcow logging
 documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
 for alternatives to this configuration.
+
+## Recommended: Add Reverse DNS Entries at Your Provider
+
+You might also create reverse DNS entries
+for the IPv4 and IPv6 addresses of your server,
+containing your domain.
+Reverse DNS entries improve deliverability;
+it helps other mail server
+distinguish your user's mails from spam.
+
+Setting rDNS entries should be possible
+in the hosting provider web interface.
+You can read more about it
+[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+
