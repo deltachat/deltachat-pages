@@ -686,7 +686,7 @@ like experiments? Register through "Sign up -> with Delta Chat"!)
   this way, you will have a new random jitsi room every time you call someone.
 
 
-### O que é um grupo verificado? Por que isso é experimental?{#verifiedchats}
+### What is a verified group? Why is it experimental? {#verifiedchats}
 
 Verified groups carry a green verification checkmark in the group title that guarantees
 that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 

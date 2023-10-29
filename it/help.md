@@ -258,7 +258,7 @@ in questo modo, *tutti* i messaggi saranno eliminati dal dispositivo non appena 
 più vecchi di quel periodo.
 
 
-## Crittografia and Security 
+## Encryption and Security 
 
 ### Which standards are used for end-to-end encryption? 
 
@@ -694,7 +694,7 @@ nelle impostazioni.
 in questo modo, si avrà una nuova stanza Jitsi casuale ogni volta che si chiama qualcuno.
 
 
-### Che cos'è un gruppo verificato? Perché è sperimentale?{#verifiedchats}
+### What is a verified group? Why is it experimental? {#verifiedchats}
 
 Verified groups carry a green verification checkmark in the group title that guarantees
 that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 

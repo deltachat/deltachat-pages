@@ -145,20 +145,14 @@ pour mettre une discussion en sourdine, ouvrez le menu de la conversation (Andro
 
 ### Que signifie le point vert ?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [webxdc app](#webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Depuis la version 1.34 de Delta Chat, vous voyez parfois un "point vert" à côté de la photo de profil d'un contact. Cela signifie qu'il a été "vu récemment".
+- Plus précisément, cela signifie que Delta Chat a détecté l'activité de ce contact au cours des 10 dernières minutes :
+  - soit parce qu'il vous a écrit personnellement ;
+  - soit parce qu'il a écrit dans un groupe dont vous êtres tous les deux membres ;
+  - soit parce qu'il a renvoyé l'accusé de lecture d'un message que vous lui avez écrit ;
+  - ou bien parce qu'il a envoyé des données à votre appli Delta Chat via une [appli Webxdc](#webxdc).
+- Le "point vert" n'est donc pas un statut en temps réel. Aussi, si quelqu'un ne vous répond pas immédiatement alors qu'il semble être en ligne, ne vous inquiétez pas et donnez-lui du temps ;-)
+- D'un autre côté, vos contacts ne vous voient pas forcément "en ligne". Si vous avez désactivé les accusés de lecture, ils ne verront pas de point vert tant que vous ne leur écrivez pas directement ou n'écrivez pas dans un groupe dont ils font aussi partie.
 
 
 ### Comment supprimer mon compte ?
@@ -226,7 +220,7 @@ qu'un humain a lu ou compris le message ;)
 - Pour activer cette option, ouvrez les paramètres des "Discussions et fichiers multimédias" et cliquez sur "Supprimer les anciens messages de l'appareil". Vous pouvez définir le délai après lequel *tous* les messages seront supprimés de votre appareil, parmi plusieurs choix allant de "Immédiatement" à "Après 1 année".
 
 
-## Chiffrement and Security 
+## Encryption and Security 
 
 ### Which standards are used for end-to-end encryption? 
 
@@ -620,7 +614,7 @@ Nous apprécions tout particulièrement les retours sur ces fonctionnalités. Vo
 - Par exemple, pour utiliser l'instance Jitsi Meet principale, vous pouvez insérer :`https://meet.jit.si/$ROOM`. La variable`$ROOM`est une valeur aléatoire qui vous permet de rejoindre un nouveau salon Jitsi choisi au hasard à chaque nouvel appel.
 
 
-### Qu'est qu'un groupe vérifié ? Pourquoi est-ce une fonctionnalité expérimentale ?{#verifiedchats}
+### What is a verified group? Why is it experimental? {#verifiedchats}
 
 Verified groups carry a green verification checkmark in the group title that guarantees
 that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 

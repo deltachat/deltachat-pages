@@ -251,7 +251,7 @@ afhankelijk van hoe vaak je het andere apparaat gebruikt.
   ‘na één uur’ en ‘na één jaar’ kiezen. *Alle berichten die ouder zijn, worden verwijderd.
 
 
-## Versleuteling and Security 
+## Encryption and Security 
 
 ### Which standards are used for end-to-end encryption? 
 
@@ -683,7 +683,7 @@ echte tester? Registreer je dan via ‘Registreren → met Delta Chat’!)
   zodat er telkens een nieuwe jitsi-kamer als je iemand belt.
 
 
-### Wat is een ‘goedgekeurde groep’ en waarom is dit een experimentele functie? {#verifiedchats}
+### What is a verified group? Why is it experimental? {#verifiedchats}
 
 Verified groups carry a green verification checkmark in the group title that guarantees
 that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 

@@ -215,7 +215,7 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 - 找到“聊天与媒体”设置中的“从设备删除旧消息”，在从“一小时后”到“一年后”的一系列选项中选择一个。这样，设备上 *所有* 比所选择时间长度老的消息将被删除。
 
 
-## 加密 and Security 
+## Encryption and Security 
 
 ### Which standards are used for end-to-end encryption? 
 
@@ -604,7 +604,7 @@ extendable messenger.
 - 例如，要使用旗舰 Jitsi Meet 实例，您可以输入 `https://meet.jit.si/$ROOM`。 `$ROOM` 变量将是一个随机值；这样，每次您与他人通话时，您都会使用一个新的随机 jitsi 房间。
 
 
-### 什么是已验证群组？为什么它是实验性的？{#verifiedchats}
+### What is a verified group? Why is it experimental? {#verifiedchats}
 
 Verified groups carry a green verification checkmark in the group title that guarantees
 that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 

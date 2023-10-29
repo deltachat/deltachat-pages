@@ -267,7 +267,7 @@ për çfarëdo mesazhesh të rinj.
   sapo të jenë më të vjetër se aq.
 
 
-## Fshehtëzim and Security 
+## Encryption and Security 
 
 ### Which standards are used for end-to-end encryption? 
 
@@ -711,7 +711,7 @@ të jepni ndihmeste. (Ju pëlqejnë eksperimentet? Regjistrohuni përmes
   që thirrni dikë.
 
 
-### Ç’është një grup i verifikuar? Pse është eksperimentale kjo? {#verifiedchats}
+### What is a verified group? Why is it experimental? {#verifiedchats}
 
 Verified groups carry a green verification checkmark in the group title that guarantees
 that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 

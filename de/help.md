@@ -133,20 +133,14 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
 
 ### Was bedeutet der grüne Punkt?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [webxdc app](#webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Seit Delta Chat 1.34 sehen Sie manchmal einen "grünen Punkt" neben dem Avatar eines Kontakts. Es bedeutet, dass der Kontakt "kürzlich gesehen" wurde.
+- Im Detail: Das bedeutet, dass Delta Chat den Kontakt in den letzten 10 Minuten gesehen hat:
+  - entweder weil der Kontakt Ihnen direkt eine Nachricht gesendet hat,
+  - weil der Kontakt etwas an eine Gruppe geschrieben hat, in der sie beide Mitglied sind,
+  - weil der Kontakt Ihnen eine Lesebestätigung für eine von Ihnen geschriebene Nachricht gesendet hat
+  - oder weil der Kontakt Daten mithilfe einer [Webxdc App](#webxdc) an Ihre Delta Chat-App gesendet hat.
+- Dies ist also kein Echtzeit-Online-Status - und wenn jemand nicht sofort antwortet, obwohl er online zu sein scheint, machen Sie sich keine Sorgen und geben Sie ihm etwas Raum. ;-)
+- Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
 
 
 ### Wie kann ich mein Konto löschen?
@@ -211,9 +205,9 @@ Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gr
 - Um es zu aktivieren, gehen Sie in den "Chats und Medien"-Einstellungen zu "Alte Nachrichten vom Gerät löschen". Sie können einen Zeitraum zwischen "nach 1 Stunde" und "nach 1 Jahr" festlegen; auf diese Weise werden *alle* Nachrichten von Ihrem Gerät gelöscht, sobald sie älter als angegeben sind.
 
 
-## Verschlüsselung and Security 
+## Encryption and Security 
 
-### Which standards are used for end-to-end encryption? 
+### Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
 
 [Autocrypt](https://autocrypt.org) is used for automatically
 establishing E2E-encryption with contacts and group chats. 
@@ -596,7 +590,7 @@ Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ide
 - Um beispielsweise die Flaggschiff-Jitsi Meet-Instanz zu verwenden, könnten Sie `https://meet.jit.si/$ROOM` eingeben. Die Variable `$ROOM` ist ein zufälliger Wert; auf diese Weise haben Sie jedes Mal, wenn Sie jemanden anrufen, einen neuen zufälligen Jitsi-Raum.
 
 
-### Was ist eine verifizierte Gruppe? Weshalb ist das experimentell?{#verifiedchats}
+### What is a verified group? Why is it experimental? {#verifiedchats}
 
 Verified groups carry a green verification checkmark in the group title that guarantees
 that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 

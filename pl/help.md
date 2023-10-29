@@ -139,20 +139,14 @@ aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
 
 ### Co oznacza zielona kropka?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [webxdc app](#webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Od wersji Delta Chat 1.34 czasami można zobaczyć „zieloną kropkę” obok awatara kontaktu. Oznacza to, że był on „niedawno widziany”.
+- Dokładnie oznacza to, że w ciągu ostatnich 10 minut Delta Chat widział go:
+- dlatego, że wysłał Ci bezpośrednio wiadomość,
+- ponieważ napisał coś do grupy, której oboje jesteście członkami,
+- ponieważ wysłał Ci potwierdzenie przeczytania napisanej przez Ciebie wiadomości,
+- lub dlatego, że wysłał dane do Twojej aplikacji Delta Chat za pomocą [Webxdc aplikacji](#webxdc).
+- Nie jest to więc status online w czasie rzeczywistym – a jeśli ktoś nie odpowie od razu, mimo że wydaje się, że jest online, nie martw się i daj mu trochę miejsca ;-)
+- Z drugiej strony inni nie zawsze „zobaczą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą oni zielonej kropki, dopóki nie wyślesz do nich wiadomości lub nie napiszesz do grupy, w której również się znajdują.
 
 
 ### Jak mogę usunąć swoje konto?
@@ -216,7 +210,7 @@ Jeśli chcesz zachować konto, ale odinstalować Delta Chat, zaleca się opuszcz
 - Aby ją włączyć, przejdź do „Usuń wiadomości z urządzenia” w ustawieniach w sekcji „Czaty i media”. Możesz ustawić przedział czasowy pomiędzy „po 1 godzinie” a „po 1 roku”; w ten sposób *wszystkie* wiadomości zostaną usunięte z urządzenia, gdy tylko staną się starsze.
 
 
-## Szyfrowanie and Security 
+## Encryption and Security 
 
 ### Which standards are used for end-to-end encryption? 
 
@@ -599,7 +593,7 @@ Jesteśmy bardzo wdzięczni za opinie na temat tych funkcji — chcesz podzieli�
 -  Na przykład, aby użyć flagowej instancji Jitsi Meet, możesz wpisać https://meet.jit.si/$ROOM. Zmienna $ROOM będzie wartością losową; w ten sposób będziesz miał nowy losowy pokój jitsi za każdym razem, gdy do kogoś zadzwonisz.
 
 
-### Co to jest zweryfikowana grupa? Dlaczego jest eksperymentalna?{#verifiedchats}
+### What is a verified group? Why is it experimental? {#verifiedchats}
 
 Verified groups carry a green verification checkmark in the group title that guarantees
 that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 
