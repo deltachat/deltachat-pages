@@ -417,7 +417,7 @@ phone numbers in chat groups which in turn are often associated with passport id
 
 ### How can I verify the security of my End-to-End encryption? {#howtoe2ee}
 
-**In private chats:**
+**In private chats**
 
 - Meet your chat partner in person.
 - Click the QR Code icon <img style="vertical-align:middle; width:2em; margin:1px" src="../assets/home/qrcode.png" />
@@ -438,7 +438,7 @@ Delta Chat shows two fingerprints there.
 If the same fingerprints appear on your own and your contact's device,
 the connection is safe.
 
-**In group chats:** {#createverifiedgroup}
+**In group chats<a name="createverifiedgroup"></a>**
 
 - When creating the group, click on "New verified group" instead of "New group"
 - You can only add contacts which are already verified.
