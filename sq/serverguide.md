@@ -63,16 +63,16 @@ Le të hamendësojmë se:
 
 Tani mund të formësonit rregullimet e përkatësisë shembull.org në këtë mënyrë:
 
-| Lloj  | Emër            | Të dhëna                                                 | TTL  | Përparësi |
-|-------|-----------------|------------------------------------------------------|------|----------|
-| A     | mail            | 24.48.100.24                                         | 5min |          |
-| AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
-| MX    | @               | mail.example.org                                     | 5min |    10    |
-| CNAME | autoconfig      | mail.example.org                                     | 5min |          |
-| CNAME | autodiscover    | mail.example.org                                     | 5min |          |
-| CNAME | mailadm         | mail.example.org                                     | 5min |          |
-| TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
-| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+| Type  | Name                      | Data                                                 | TTL  | Priority |
+|-------|---------------------------|------------------------------------------------------|------|----------|
+| A     | mail.example.org          | 24.48.100.24                                         | 5min |          |
+| AAAA  | mail.example.org          | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
+| MX    | @                         | mail.example.org                                     | 5min |    10    |
+| CNAME | autoconfig.example.org    | mail.example.org                                     | 5min |          |
+| CNAME | autodiscover.example.org  | mail.example.org                                     | 5min |          |
+| CNAME | mailadm.example.org       | mail.example.org                                     | 5min |          |
+| TXT   | @                         | "v=spf1 mx -all"                                     | 5min |          |
+| TXT   | \_dmarc.example.org       | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
 
 Kyçin DKIM mund ta ujdisni pasi të ujdisni Mailcow-un,
 te Sistem>Formësim>Mundësi>ARC/Kyçe DKIM.
@@ -180,11 +180,11 @@ Pas kësaj, mund të kaloni te “Email > Formësim > Kuti postare” dhe krijon
 e parë.
 Tani mund të provoni Delta Chat-in.
 
-#### Opsionale: Shtoni Zëra DNS Shtesë
+#### Recommended: Add Additional DNS Entries
 
-Te “Email > Formësim > Përkatësi”, djathtas në krah të përkatësisë tuaj, mund të shihni një
-buton blu “DNS”. Ky jep rekomandime të mëtejshme për zëra DNS që mund
-t’ju ndihmojnë, nëse keni probleme me mbërritjen e email-eve tuaj në shërbyes të tjerë.
+In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
+"DNS" button. It provides further recommendations for DNS entries which might
+help if you have problems getting your e-mails delivered to other servers.
 
 ![Pamje e rregullimeve DNS në Mailcow](../assets/blog/mailcow-dns-settings.png)
 
@@ -297,7 +297,7 @@ Më e mira, të shihni te dokumentimi për [hapat e
 para](https://mailadm.readthedocs.io/en/latest/#first-steps) - përmban
 gjithashtu ndihmëza për diagnostikim të ujdisjes, nëse diçka s’funksionon.
 
-## Opsionale: Çaktivizoni POP3
+## Recommended: Disable POP3
 
 Delta Chat-i përdor vetëm SMTP dhe IMAP,
 ndaj, nëse krejt përdoruesit tuaj përdorin Delta Chat,
@@ -312,7 +312,7 @@ POPS_PORT=127.0.0.1:995
 
 Mandej aplikoni ndryshimet me `sudo docker compose up -d`.
 
-## Opsionale: Ridrejtoni krejt trafikun HTTP në HTTPS
+## Recommended: Redirect all HTTP traffic to HTTPS
 
 Si parazgjedhje,
 shërbyesi nginx përgjigjet gjithashtu pa fshehtëzim
@@ -344,7 +344,7 @@ server {
 
 Mandej aplikoni ndryshimet me `sudo docker compose restart nginx-mailcow`.
 
-## Opsionale: Pa Regjistra, Pa Ustallarë
+## Recommended: No Logs, No Masters
 
 Mailcow regjistron adresat IP të përdoruesve tuaj për qëllime diagnostikimi, ndaj
 nëse s’doni të mbani hollësi kritike në shërbyesin tuaj, mund të donit të çaktivizoni
@@ -391,3 +391,18 @@ me `sudo docker compose up -d`.
 Për alternative të këtij formësimi, shihni
 mundësinë e leximit te [dokumentimi i
 regjistrave të Mailcow-ut](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation).
+
+## Recommended: Add Reverse DNS Entries at Your Provider
+
+You might also create reverse DNS entries
+for the IPv4 and IPv6 addresses of your server,
+containing your domain.
+Reverse DNS entries improve deliverability;
+it helps other mail server
+distinguish your user's mails from spam.
+
+Setting rDNS entries should be possible
+in the hosting provider web interface.
+You can read more about it
+[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+

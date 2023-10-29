@@ -7,17 +7,17 @@ downloads: true
 ## Rejestr zmian {#changelogs}
 
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android](https://github.com/deltachat/deltachat-android/blob/master/CHANGELOG.md)
-* [iOS](https://github.com/deltachat/deltachat-ios/blob/master/CHANGELOG.md)
-* [Rdzeń](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
+* [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
+* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Wersje desktop nie wymagają instalacji Delta Chat na telefonie.
 
-Minimalne wymagania:
+Minimal requirements:
 Android 4.1 Jelly Bean
-lub iOS 11, iPhone 5s lub iPad 5/Air/Mini
-lub Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 lub Debian 10
-lub kompatybilne systemy.
+or iOS 12, iPhone 5s or iPad 5/Air/Mini 2
+or Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 or Debian 10
+or compatible systems.
 
 ## Linki
 

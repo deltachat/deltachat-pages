@@ -169,20 +169,20 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
 
 ### Ç’do të thotë pika e gjelbër?
 
-- Nga Delta Chat 1.34 e këtej mundeni të shihni ndonjëherë një “pikë të gjelbër”
-  në krah të avatarit të një kontakti. Ajo do të thotë se është “parë së fundi”.
-- Hollësisht: do të thotë se, në 10 minutat e fundit, Delta Chat-i i ka parë:
-  - ose pse ju dërguan mesazh drejtpërsëdrejti,
-  - ngaqë shkruan diçka te një grup ku jeni pjesë të dy palët,
-  - ngaqë ju dërguan një dëftesë leximi për një mesazh që shkruat,
-  - ose ngaqë dërguan të dhëna te aplikacioni juaj Delta Chat përmes një
-    [aplikacioni privat](#webxdc).
-- Pra, kjo s’është gjendje e njëmendtë aty për aty për qenie në linjë - dhe
-  nëse dikush nuk përgjigjet menjëherë, edhe pse duket të jetë në linjë, mos
-  u merakosni dhe lëruni ca kohë ;-)
-- Më anë tjetër, të tjerët jo përherë “do të shohin se jeni në linjë”. Nëse keni
-  çaktivizuar dëftesa leximesh, s’do të shohin pikën e gjelbër para se ju
-  t’u dërgoni një mesazh, ose të shkruani te një grup ku bëjnë pjesë edhe ata.
+- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
+  of a contact. It means they were "recently seen".
+- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
+  - either because they messaged you directly,
+  - because they wrote something to a group you are both a member of,
+  - because they sent you a read receipt for a message you wrote,
+  - or because they sent data to your Delta Chat app by using a
+    [webxdc app](#webxdc).
+- So this is not a real time online status - and if someone doesn't answer
+  right away even though they seem to be online, don't worry and give them some
+  space ;-)
+- On the other hand, others will not always "see that you are online". If you
+  have turned off read receipts, they will not see the green dot until you
+  message them or write to a group they're in as well.
 
 
 ### Si mund ta fshij llogarinë time?
@@ -267,170 +267,251 @@ për çfarëdo mesazhesh të rinj.
   sapo të jenë më të vjetër se aq.
 
 
-## Fshehtëzim
+## Fshehtëzim and Security 
 
-### A ka Delta Chat-i fshehtëzim skaj-më-skaj?
+### Which standards are used for end-to-end encryption? 
 
-- Po. DeltaChat sendërton standardin Autocrypt Level 1 
-  dhe është pra në gjendje të fshehtëzojë mesazhe me e2e-n 
-  përmes aplikacionesh të tjera të afta të përdorin Autocrypt-in. 
+[Autocrypt](https://autocrypt.org) is used for automatically
+establishing E2E-encryption with contacts and group chats. 
+Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure). 
 
-- Delta Chat mbulon po ashtu një formë të fuqishme fshehtëzimi skaj-më-skaj
-  që është edhe më e sigurt kundër sulmesh aktive, shihni më poshtë
-  “grupe të verifikuar”. 
-
-
-### Ç’duhet të bëj që të aktivizohet fshehtëzimi skaj-më-skaj?
-
-- Asgjë.
-
-- Aplikacionet Delta Chat (dhe të tjerë aplikacione email të aftë për [Autocrypt](https://autocrypt.org))
-përdorin automatikisht të njëjtat kyçe të domosdoshëm për fshehtëzim 
-skaj-më-skaj, teksa dërgohen mesazhet e para. Pas kësaj, krejt mesazhet 
-pasues fshehtëzohen automatikisht skaj-më-skaj. Nëse një nga partnerët 
-në bisedë, më pas, përdor një aplikacion email që nuk mbulon Autocrypt-in, 
-mesazhet nuk fshehtëzohen, derisa të ketë sërish një aplikacion të aftë për Autocrypt-in. 
-
-- Nëse doni që, si parazgjedhje, të shmangen email-e të fshehtëzuar skaj-më-skaj, 
-  përdorni rregullimin përkatës të Autocrypt-it, te "Rregullime" ose "Rregullime të mëtejshme".
+[Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html) 
+are used to implement [verified groups](#verifiedchats) 
+which provide pervasive protection against network attacks and compromised servers.
+Verified groups enforce all messages in a chat to be safely E2E-encrypted
+with an unparalleled ease of use that avoids users having to learn about 
+public key cryptography, key management or key verification. 
 
 
-### Nëse s’ka fshehtëzim skaj-më-skaj, a lihet lidhja pa u fshehtëzuar fare?
+### When will messages be E2E-encrypted? 
 
-- Me shumicën e shërbyesve të postës, Delta Chat vendos _fshehtëzim transporti_
-  ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
-  Kjo siguron vetëm lidhjen me pajisjes tuaj dhe shërbyesit tuaj email. Kurse
-  fshehtëzimi skaj më skaj furnizon siguri mes pajisjes tuaj dhe pajisjes
-  së një shoku. 
+After a first message was received from a Delta Chat or other Autocrypt-capable contact, 
+Delta Chat defaults to using E2E-encryption with that contact (and vice versa). 
+When creating a group chat with contacts where E2E-encrypted is individually in place,
+all group members will automatically use E2E-encryption with each other and in the group. 
+However, if you add a contact that lacks E2E-encryption, 
+the group chat will not use E2E-encryption. 
 
-
-### Si mund ta verifikoj gjendjen kriptografike me një dërguesin? 
-
-Nëse jeni brenda një largësie imediate të partnerit të fjalosjes:
-
-- Përzgjidhni **Kd QR Ftese** te një pajisje dhe madje **Skanoni kod QR**
-  te pajisja tjetër dhe skanoni kodin. Nëse që të dyja pajisjet janë në linjë,
-  ato do të paraqesin një kanal fjalosjeje me njëra-tjetrën (nëse ky s’ekziston
-  tashmë) dhe kyçet e fshehtëzimit do të verifikohen.  Te të dyja, në fjalosjen
-  e tyre 1:1 do të duket një mesazh sistemi “dërguesi u verifikua”. 
-
-Nëse s’jeni pranë partnerit të fjalosje, gjendjen mund ta kontrolloni dorazi te dialogu “Fshehtëzim”
-(që nga profili i përdoruesit, në Android/iOS, ose, në desktop, djathtasklikoni te zëri chat-list të një përdoruesi):
-
-- Për fshehtëzim skaj-më-skaj, Delta Chat shfaq dy shenja gishtash. 
-  Nëse po ata shfaqen te pajisja e partnerit tuaj në bisedë, lidhja
-  është e sigurt.
-
-- Për fshehtëzim të transportit, gjendja thjesht tregohet atje
+If you want to be sure to always and only use E2E-encryption in a group
+use [verified chat groups](#verifiedchats) 
+which additionally protects against compromised or malfeasant e-mail servers. 
 
 
-### Si mund ta kontrolloj fshehtëzimin e mesazheve?
+### Are attachments (pictures, files, audio etc.) E2E-encrypted? 
 
-- Një **dry** i vockël, i shfaqur në krah të mesazhit, tregon nëse mesazhi është i fshehtëzuar skaj-më-skaj prej dërguesit të dhënë.
-
-- Nëse **s’ka dry**, mesazhi zakonisht transportohet i pafshehtëzuar, p.sh., ngaqë ju ose dërguesi keni çaktivizuar fshehtëzimin skaj-më-skaj, ose dërguesi përdor një aplikacion që nuk mbulon fshehtëzimin skaj-më-skaj.
-
-
-### Si të garantoj fshehtëzim dhe fshirje mesazhesh?
-
-Rruga më e mirë për të garantuar se çdo mesazh është i fshehtëzuar
-dhe se tejtëdhënat fshihen sa më shpejt që të jetë e mundur
-është krijimi i një grupi të verifikuar dhe aktivizimi
-i mesazheve që vetëasgjësohen.
-
-Grupet e verifikuara janë përherë të fshehtëzuar dhe të mbrojtur kundër [sulmesh
-MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
-
-Tejtëdhënat s’mund të fshehtëzohen, ngaqë shërbyesit i duhet të dijë ku të dërgojë
-mesazhet tuaj. Por aktivizimi i “mesazheve që vetëasgjësohen” i fshin mesazhet te
-shërbyesi, pasi të jenë dërguar.
-
-Nëse ju duhen mesazhet në pajisjen tuaj, por jo te shërbyesi, mundeni gjithashtu
-të bini në një mendje në grup për të aktivizuar [“fshi automatikisht mesazhet në
-shërbyes”](#delold).
-
-Nëse doni të mbroni një bisedë tek për tek si kjo, duhet të krijoni një
-grup të verifikuar me vetëm 2 vetë. Nëse personi tjetër humb pajisjen
-e vet, por jo llogarinë e tij, mundeni ende të komunikoni te biseda tek
-për tek. ([Lexoni më tepër](#verdiff))
+Yes. 
+When we talk about an "E2E-encrypted message" 
+we always mean a whole message is encrypted,
+including all the attachments
+and attachment metadata such as filenames.
 
 
-### Cilët standarde përdoren për fshehtëzim skaj-më-skaj?
+### Is OpenPGP secure? {#openpgp-secure}
 
-- [Autocrypt](https://autocrypt.org) përdoret për të vënë në punë fshehtëzim e2e
-  me Delta Chat tjetër dhe aplikacione të tjera poste që janë të aftë
-  të mbulojnë Autocrypt-in. 
-  Autocrypt-i përdor një nëngrup të kufizuar të funksioneve OpenPGP. 
+Yes, Delta Chat uses a secure subset of OpenPGP
+and only displays a padlock security indicator on a message
+if the whole message is properly encrypted and signed.
+For example, "Detached signatures" are not treated as secure.
 
-- Për të bërë të mundur mbrojtjen kundër sulmesh aktive rrjeti, Delta Chat-i
-  sendërton [protokollet countermitm, setup-contact dhe verified-group](https://countermitm.readthedocs.io/en/latest/new.html).  Kjo shkon përtej mbrojtjes bazë oportuniste të
-  Autocrypt Level 1, ndërkohë që ruhet lehtësia e përdorimit.  
+OpenPGP is not insecure by itself.
+Most publically discussed OpenPGP security problems
+actually stem from bad usability or bad implementations of tools or apps (or both).
+It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
+and GnuPG (GPG), a command line tool implementing OpenPGP. 
+Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
+Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
+available as [an independent "pgp" package](https://crates.io/crates/pgp),
+and [security-audited in 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf). 
 
-### Cili është dallimi mes grupesh të verifikuar dhe fjalosjesh 1:1 me kontakte të verifikuar? {#verdiff}
+We aim, along with other OpenPGP implementors, 
+to further improve security characteristics by implementing the
+[new IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) 
+which was thankfully adopted in summer 2023. 
 
-- Fjalosjet 1:1 me një kontakt të verifikuar dhe grupet e verifikuara s’janë
-  e njëjta gjë, edhe kur ka vetëm 2 vetë në një grup të verifikuar. Një dallim
-  është se mund të shtoni më tepër vetë te grupi, por ka edhe implikime të tjera.
 
-- Grupet e verifikuar janë të siguruar, në mënyrë të pandryshueshme. Çfarëdo
-  zbulimi (tekst i dukshëm ose mesazhe nënshkruar gabim, etj) do t’i vihet
-  shenjë dhe mesazhe të tillë nuk do të shfaqen te kjo bisedë. Mund t’u besoni
-  krejt mesazheve në këtë bisedë të verifikuar se nuk janë lexuar/tjetërsuar
-  nga palë në mes.
+### Did you consider using alternatives to OpenPGP for E2E-encryption? {#openpgp-alternatives}
 
-- Fjalosjet 1:1 janë oportuniste, që do të thotë se u lejojnë personave
-  të komunikojnë, pavarësisht se ndryshojnë klientë email, pajisje, ujdisje, etj.
-  Kjo është asyeja pse nuk ka shenjë verifikimi, edhe pse e keni verifikuar kontaktin.
+Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
+or [Saltpack](https://saltpack.org/) 
+but adopting them would mean breaking E2E-encryption interoperability 
+with all other e-mail apps that typically support OpenPGP encryption. 
+So it would not be a light decision to take 
+and there must be tangible improvements for users. 
+
+Delta Chat takes a holistic "usable security" approach 
+and works with a wide range of activist groupings as well as 
+renowned researchers such as [TeamUSEC](https://teamusec.de) 
+to improve actual user outcomes against security threats. 
+The wire protocol and standard for establishing E2E-encryption is
+only one part of "user outcomes",
+see also our answers to [device-seizure](#device-seizure)
+and [message-metadata](#message-metadata) questions. 
+
+
+### Is Delta Chat vulnerable to EFAIL?
+
+No, [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
+because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
+uses Modification Detection Code when encrypting messages
+and returns [an error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
+if the Modification Detection Code is incorrect.
+
+Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
+because it only decrypts `multipart/encrypted` messages
+which contain exactly one encrypted and signed part,
+as defined by the Autocrypt Level 1 specification. 
+
+
+### Is a message exposed in cleartext if E2E-encryption is not available? {#tls}
+
+No,
+this does not necessarily mean that the message is exposed in cleartext.
+
+Delta Chat always uses ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)) encryption
+which secures connections between your device and your e-mail provider
+unless you explicitly disable it.
+All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
+
+Moreover, the connection between your and the recipient's e-mail provider 
+will today typically be transport-encrypted as well. 
+If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
+then transport encryption will be enforced in all inter e-mail server communications
+in which case Delta Chat communications will never be exposed in cleartext to the network 
+even if the message was not E2E-encrypted. 
+
+Note that maintaining E2E-encryption on top of TLS encryption is highly advisable 
+because it provides safety between your device and a contact's device,
+irrespective of any hops over potentially compromised e-mail servers. 
+
+
+### How does Delta Chat protect metadata in messages? {#message-metadata}
+
+Delta Chat protects most message metadata by putting the following information
+into the E2E-encrypted part of messages: 
+
+- Subject line 
+- Group avatar and name 
+- MDN (read receipt) requests (`Chat-Disposition-Notification-To`)
+- Disappearing message timer (`Ephemeral-Timer`) 
+- `Chat-Group-Member-Removed`, `Chat-Group-Member-Added` 
+- `Secure-Join` header containing secure join commands
+- Notification about enabling location streaming
+- WebRTC room URL
+
+E-Mail servers do not get access to this protected metadata 
+but they do see the message date as well as the message size,
+and, more importantly, the sender and receiver addresses. 
+E-mail servers need receiver addresses to route and 
+deliver messages to recipient's devices. 
+
+
+### How to protect metadata and contacts when a device is seized? {#device-seizure}
+
+Both for protecting against metadata-collecting e-mail servers 
+as well as against the threat of device seizure
+we recommend to use a Delta Chat optimized [e-mail server instance](https://delta.chat/serverguide)
+to create pseudonymous temporary accounts through QR-code scans.
+Note that Delta Chat apps on all platforms support multiple accounts 
+so you can easily use action-specific "1-week" or "1-month" accounts next to your "main" account
+with the knowledge that all temporary account data, along with all metadata, will be deleted. 
+Moreover, if a device is seized then contacts using temporary e-mail accounts 
+can not be identified easily, as compared to messengers which reveal 
+phone numbers in chat groups which in turn are often associated with passport identities. 
+
+
+### How can I verify E2E-security with a contact? 
+
+If you are within immediate distance of your contact,
+select **QR Invite code** on one device and then **Scan QR code**
+from within Delta Chat on the other device. 
+If both devices are online, 
+they will setup a chat with each-other (if it doesn't exist already)
+and both will see a "sender verified" system message in their chat. 
+Showing and scanning a QR code can also happen in any "second channel" 
+such as a video call or another messenger. 
+
+If QR code scanning is for some reason not viable, 
+you may check the E2E encryption status manually in the "Encryption" dialog
+(user profile on Android/iOS or right-click a user's chat-list item on desktop). 
+Delta Chat shows two fingerprints there.
+If the same fingerprints appear on your own and your contact's device,
+the connection is safe.
+
+
+### How can I check the encryption status of messages?
+
+A little **padlock** in a message bubble denotes 
+that the message was properly E2E-encrypted from the given sender.
+If there is **no padlock**, the message was not properly E2E-encrypted 
+most likely because the sender uses an app or webmail interface 
+without support for E2E--encryption.
+
+
+### Why do I see unencrypted messages? 
+
+If a contact uses a non-Autocrypt e-mail app, 
+all messages involving this contact (in a group or 1:1 chat) 
+will not be E2E-encrypted, and thus not show a "padlock" with messages. 
+Note that even if your contacts use Delta Chat on their account, 
+they might also use a non-Autocrypt e-mail app on that account
+which then may cause intermittently unencrypted messages. 
+Replying unencrypted to unencrypted messages is mandated by Autocrypt 
+to prevent unreadable messages on the side of your contacts
+and their non-Autocrypt e-mail app. 
+
+If you need a safely E2E-encrypted chat with contacts
+who are using their account also with Autocrypt-incapable apps (e.g. webmail) 
+it's best to create a [verified group chat](#verifiedchats) with them. 
+Any message sent into a verified group chat will be E2E-encrypted
+irrespective of the last incoming message from a contact. 
+
+
+### How can I ensure message E2E-encryption and deletion?
+
+The best way to ensure every message is encrypted,
+and metadata deleted as quickly as possible
+is using [verified groups](#verifiedchats) 
+and turning on disappearing messages.
+
+Verified groups are always encrypted and protected against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) 
+and turning on "disappearing messages" deletes the messages 
+on the server after a user-configured time. 
+
+If you don't need a longer-lived copy of your messages on the server, 
+you can also turn on ["delete messages from server automatically"](#delold).
 
 
 ### A përdor Delta Chat-i Fshehtësi të Përsosur Përcjelljeje?
 
-- Jo, OpenPGP nuk mbulon Fshehtësi të Përsosur Përcjelljeje. Fshehtësia e
-  Përsosur e Përcjelljes funksionon me bazë sesionin, por email-i, nga vetë natyra
-  e tij është asinkron dhe shpesh i përdorur në mënyrë të pavarur prej shumë pajisjesh.
-  Kjo do të thotë se nëse është zbuluar kyçi juaj privat i Delta Chat-it, dhe dikush ka
-  një regjistër të krejt mesazheve tuaja tranzit, do të jetë në gjendje t’i lexojë.  
+No, Delta Chat doesn't support Perfect Forward Secrecy (PFS).
+This means that if your Delta Chat private decryption key is leaked,
+and someone has collected your prior in-transit messages,
+they will be able to decrypt and read them using the leaked decryption key.
 
-- Mbani parasysh se nëse dikush ka shtënë në dorë ose ka hack-uar telefonin tuaj
-  që është ende duke punuar, zakonisht do të jenë në gjendje të lexojnë krejt
-  mesazhet, pavarësisht nëse ka apo jo <em>Perfect Forward Secrecy</em>. Aftësia
-  për të hyrë në një pajisje të vetme të një anëtari të një grupi, zakonisht
-  do të nxjerrë zbuluar shumë nga marrëdhëniet mes grupit. Përdorimi i adresave
-  email të cilat s’mund të shpien lehtë te personat pas tyre i ndihmon anëtarët
-  e grupit të jenë më të parrezikuar prej efekteve të shtënies në dorë
-  të pajisjeve. 
+Note, however, that if anyone obtains to your decryption keys, 
+they will typically also be able to obtain your messages, 
+irrespective if Perfect Forward Secrecy is in place or not. 
+The typical real-world situation for leaked decryption keys is device seizure
+which we discuss in our answer [on metadata and device seizure](#device-seizure). 
 
-- Po skicojmë mënyra për të mbrojtur më mirë komunikimet nga raste
-  marrjeje të pajisjes. 
-
-
-### Si i mbron Delta Chat-i Tejtëdhënat e mia?
-
-- Ngaqë Delta Chat-i është një shkëmbyes i decentralizuar mesazhesh, tejtëdhënat
-  e përdoruesve të Delta Chat-it nuk depozitohen në një shërbyes qendror të vetëm.
-  Megjithatë, depozitohen në shërbyes poste të dërguesit dhe të marrësit të një mesazhi.
-
-- Aktualisht çdo shërbyes poste di se kush dërgoi dhe kush mori një mesazh, nga
-  inspektimi i kryeve të pafshehtëzuara Për/Cc dhe kështu përcakton cilat adresa
-  email janë pjesë e një grupi. Delta Chat vetë mund të shmangë deri diku krye
-  të pafshehtëzuara Për/Cc dhe t’i vendosë përherë vetëm në seksion të fshehtëzuar.
-  Shihni [Shmang dërgim kryesh Për/CC për grupe të verifikuar](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
-  Për biseda oportuniste shqetësimi kryesor është si ndikon mbi aplikacione
-  të tjera poste që mund të marrin pjesë në bisedë. 
-
-- Mjaft krye të tjera email-esh, në veçanti kryet "Subjekt", janë të mbrojtura
-  me fshehtëzim skaj-më-skaj, shihni edhe këtë të ardhshmin [IETF
-  RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
+It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
+because OpenPGP is just a container for encrypted messages 
+but encryption key management (and thus key rotation or key "ratcheting") 
+could be organized in flexible ways. 
+See [Seqouia's PFS prototype](https://gitlab.com/sequoia-pgp/openpgp-dr)
+for existing experiments in the OpenPGP implementor community. 
 
 
 ### A mund të ripërdor kyçin tim ekzistues privat?
 
-- Po. Rruga më e mirë është të dërgohet një Mesazh Rregullimi Autocrypt-i që nga klienti tjetër email. Shihni për diçka si **Start Autocrypt Setup Transfer** te rregullimet e klientit tjetër dhe ndiqni udhëzimet e dhëna atje.
+Yes.
+The best way is to send an Autocrypt Setup Message from the other e-mail client.
+Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Ndryshe, mund ta importoni kyçin dorazi te “Rregullime -> Rregullime të mëtejshme -> Importoni kyçe të fshehtë”. Kujdes: Sigurohuni se kyçi s’është i mbrojtur me fjalëkalim, ose hiqeni më parë fjalëkalimin.
+Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys".
+Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
-Nëse s’keni kyç ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet, dhe s’keni gjë për të bërë. 
-
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it.
 
 ### S’eksportoj dot kyçet e mi ekzistues PGP në Delta Chat.
 
@@ -460,7 +541,7 @@ Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
 Po. Delta Chat 1.36 vjen me një funksion të ri eksperimental për përdorimin e të njëjtës llogari në pajisje të ndryshme:
 
-- Make sure both devices are on the same Wi-Fi or network
+- Siguroni që të dyja pajisjet të gjenden në të njëjtin rrjet Wi-Fi, ose me fill
 
 - Te pajisja e parë, kaloni te **Rregullime → Shtoni Pajisje të Dytë**, shkyçni ekranin, në u dashtë
   dhe prisni një çast sa të shfaqet një kod QR
@@ -563,46 +644,46 @@ mesazhe bisedash te DeltaChat". Përndryshe, fshirja e mesazheve në instalime m
 shumë pajisje mund të mos punojë si duhet.
 
 
-## Aplikacione private / webxdc {#webxdc}
+## webxdc apps {#webxdc}
 
-Në Delta Chat, mund të ndani me të tjerë “aplikacione private”, bashkëngjitje
-me një zgjatim `.xdc` kartele. Ato bëjnë gjëra shumë të ndryshme dhe e bëjnë
-Delta Chat-in një shkëmbyes mesazhesh vërtet të zgjerueshëm. Termi teknik
-është [webxdc](https://webxdc.org).
-
-
-### Sa private janë aplikacionet private?
-
-- Aplikacionet private nuk dërgojnë të dhëna në Internet, apo të shkarkojnë gjë.
-- Një aplikacion privat mund të shkëmbejë të dhëna vetëm brenda një fjalosjeje
-  Delta Chat, me kopjet e saj në pajisjet e partnerëve tuaj të fjalosjes. Tej kësaj,
-  është tërësisht i izoluar nga Interneti.
-- Privatësia që ofron një aplikacion privat është privatësia e fjalosjes tuaj - për sa
-  kohë që u besoni personave me të cilët bisedoni, mund t’u zini besë edhe
-  aplikacioneve private.
-- Kjo do të thotë edhe se: mund të jetë rrezik privatësie të hapen aplikacione private
-  në fjalosje ku nuk u zini besë pjesëmarrësve - siç e dini nga bashkëngjitjet email, ku
-  hapni bashkëngjitje vetëm nga dërgues që u besoni dhe jo prej kujtdo.
+In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
+extension. They can do very different things, and make Delta Chat a truly
+extendable messenger.
 
 
-### Ku mund të marr aplikacione private?
+### How private are webxdc apps?
 
-- In general, anyone can share private apps with each
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open webxdc apps in chats where
+  you don't trust the members - as you know it from e-mail attachments, where 
+  you only open attachments from senders you trust, and not from spammers.
+
+
+### Where can I get webxdc apps?
+
+- In general, anyone can share webxdc apps with each
   other without restrictions.
-- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+- You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
   to see an experimental webxdc appstore.
   All of the apps are open source and for free.
-- Many people write their own private apps and post them to [the Delta Chat
+- Many people write their own webxdc apps and post them to [the Delta Chat
   forum](https://support.delta.chat/c/webxdc/20).
 
 
-### Si mund të krijoj aplikacionet e mia private?
+### How can I create my own webxdc apps?
 
-- Aplikacionet private janë thjesht kartela .zip që përmbajnë kod html, css dhe js.
-- Për t’ia filluar, mund të zgjeroni [aplikacionin shembull Hello World](https://github.com/webxdc/hello).
-- Gjithçka tjetër që duhet të dini është e shkruar te [documentation](https://docs.webxdc.org/).
-- Nëse keni pyetje, mund të pyesni të tjerë me përvojë, te [Forumi i 
-  Delta Chat-it](https://support.delta.chat/c/webxdc/20).
+- webxdc apps are just zip files containing html, css, and javascript code.
+- You can extend the [Hello World example app](https://github.com/webxdc/hello)
+  to get started.
+- All else you need to know is written in the
+  [documentation](https://docs.webxdc.org/).
+- If you have question, you can ask others with experience in the [Delta Chat
+  Forum](https://support.delta.chat/c/webxdc/20).
 
 
 ## Veçori Eksperimentale
@@ -630,15 +711,26 @@ të jepni ndihmeste. (Ju pëlqejnë eksperimentet? Regjistrohuni përmes
   që thirrni dikë.
 
 
-### Ç’është një grup i verifikuar? Pse është eksperimentale kjo? 
+### Ç’është një grup i verifikuar? Pse është eksperimentale kjo? {#verifiedchats}
 
-- Një grup i verifikuar është një bisedë që garanton parrezikshmëri ndaj<br>  një sulmuesi aktiv. Krejt Mesazhet në një bisedë të verifikuar janë<br>  të fshehtëzuara skaj më skaj, dhe anëtarët mund marrin pjesë duke<br>  skanuar një "kod QR ftese". Kështu, krejt anëtarët janë të lidhur njëri<br>  me tjetrin përmes një zinxhiri ftesash, çka garanton vazhdueshmëri<br>  kriptografike kundër sulmesh aktive rrjeti apo furnizuesi shërbimesh.<br>  Për R&amp;D pas kësaj veçorie, shihni [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html). 
+Verified groups carry a green verification checkmark in the group title that guarantees
+that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 
+Each member in a verified group chat can add already verified contacts 
+or tap "QR Invite code" to let invitees scan the code to get verified and added ("secure-join").
+This "secure-join" protocol ensures that all verified group chat members 
+are connected with each other through a chain of verifications ("web of trust"), 
+guaranteeing E2E-encryption consistency even if e-mail servers are compromised or malfeasant.
+See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
+for a detailed security discussion. 
 
-- Deri më tetor 2022, “grupet e verifikuar” mbeten një veçori eksperimentale.
-  Përmirësohet vazhdimisht dhe janë ndrequr mjaft të meta, që nga sjellja për
-  herë të parë më 2018-n. Megjithatë, mbeten raste, veçanërisht për grupe
-  të mëdhenj kur mund të ndodhin paqëndrueshmëri, apo mesazhet të bëhen
-  të palexueshëm.
+Note that "1:1" chats are currently only opportunistically encrypted (Autocrypt). 
+You need to create a verified group with your contact 
+to ensure that all messages will be safely E2E-encrypted between you two. 
+We plan to introduce verified 1:1 chats around the end of 2023, 
+simplifying and extending the guarantees of verified E2E-encryption for all chat types. 
+Until then verified groups will remain classified as an experimental feature 
+although they are widely and successfully used already, 
+and reported bugs have been continously fixed in the last years. 
 
 
 ### Ç’janë Listat e Transmetimeve dhe si mund t’i përdor?
@@ -779,7 +871,7 @@ në blog për të](https://delta.chat/en/2022-09-14-aeap).
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
 
-### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie?
+### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie? {#security-audits}
 
 Projekti Delta Chat ka pasur katër auditime të pavarur sigurie gjatë viteve të fundit:
 

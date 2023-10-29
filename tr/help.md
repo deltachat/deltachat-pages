@@ -172,7 +172,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   - because they wrote something to a group you are both a member of,
   - because they sent you a read receipt for a message you wrote,
   - or because they sent data to your Delta Chat app by using a
-    [private app](#webxdc).
+    [webxdc app](#webxdc).
 - So this is not a real time online status - and if someone doesn't answer
   right away even though they seem to be online, don't worry and give them some
   space ;-)
@@ -262,163 +262,251 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
   older than that.
 
 
-## Encryption
+## Encryption and Security 
 
-### Delta Chat uçtan uca şifrelemeyi destekliyor mu?
+### Which standards are used for end-to-end encryption? 
 
-- Yes. Delta Chat implements the Autocrypt Level 1 standard and can 
-  thus E2E-encrypt messages with other Autocrypt-capable apps. 
+[Autocrypt](https://autocrypt.org) is used for automatically
+establishing E2E-encryption with contacts and group chats. 
+Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure). 
 
-- Delta Chat also supports a strong form of end-to-end encryption that is 
-  even safe against active attacks, see "verified groups" further below. 
-
-
-### Uçtan uca şifrelemeyi etkinleştirmek için ne yapmam gerekiyor?
-
-- Hiçbir şey.
-
-- Delta Chat apps (and other [Autocrypt](https://autocrypt.org)-compatible
-  e-mail apps) share the keys required for end-to-end-encryption automatically 
-  as the first messages are sent. 
-  After this, all subsequent messages are encrypted end-to-end automatically. 
-  If one of the chat partners uses a non-Autocrypt e-mail app, subsequent 
-  messages are not encrypted until an Autocrypt-compliant app is available again. 
-
-- If you want to rather avoid end-to-end-encrypted e-mails by default, 
-  use the corresponding Autocrypt setting in "Settings" or "Advanced settings".
+[Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html) 
+are used to implement [verified groups](#verifiedchats) 
+which provide pervasive protection against network attacks and compromised servers.
+Verified groups enforce all messages in a chat to be safely E2E-encrypted
+with an unparalleled ease of use that avoids users having to learn about 
+public key cryptography, key management or key verification. 
 
 
-### If end-to-end-encryption is not available, is the connection not encrypted at all?
+### When will messages be E2E-encrypted? 
 
-- With most mail servers, Delta Chat establishes _transport encryption_
-  ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
-  This only secures the connection between your device and your e-mail
-  server. Whereas e2e-encryption provides safety between 
-  your device and a friend's device. 
+After a first message was received from a Delta Chat or other Autocrypt-capable contact, 
+Delta Chat defaults to using E2E-encryption with that contact (and vice versa). 
+When creating a group chat with contacts where E2E-encrypted is individually in place,
+all group members will automatically use E2E-encryption with each other and in the group. 
+However, if you add a contact that lacks E2E-encryption, 
+the group chat will not use E2E-encryption. 
 
-
-### How can I verify cryptographic status with a sender? 
-
-If you are within immediate distance of the chat partner:
-
-- Select **QR Invite code** on one device and then **Scan QR code**
-  on the other one and scan the code. If both devices are online,
-  they will introduce a chat channel with each-other (if it doesn't exist already) 
-  and the encryption keys will also be verified.  Both will see a
-  "sender verified" system message in their 1:1 chat. 
-
-If you are not near the chat partner, you can check the status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop):
-
-- For end-to-end-encryption, Delta Chat shows two fingerprints there. 
-  If the same fingerprints appear on your chat partner's device, 
-  the connection is safe.
-
-- For transport encryption, this state is just shown there
+If you want to be sure to always and only use E2E-encryption in a group
+use [verified chat groups](#verifiedchats) 
+which additionally protects against compromised or malfeasant e-mail servers. 
 
 
-### How can I check the encryption of messages?
+### Are attachments (pictures, files, audio etc.) E2E-encrypted? 
 
-- A little **padlock** shown beside a message denotes whether the message is end-to-end-encrypted from from the given sender.
+Yes. 
+When we talk about an "E2E-encrypted message" 
+we always mean a whole message is encrypted,
+including all the attachments
+and attachment metadata such as filenames.
 
-- If there is **no padlock**, the message is usually transported unencrypted e.g. because you or the sender have turned off end-to-end-encryption, or the sender uses an app without support for end-to-end-encryption.
+
+### Is OpenPGP secure? {#openpgp-secure}
+
+Yes, Delta Chat uses a secure subset of OpenPGP
+and only displays a padlock security indicator on a message
+if the whole message is properly encrypted and signed.
+For example, "Detached signatures" are not treated as secure.
+
+OpenPGP is not insecure by itself.
+Most publically discussed OpenPGP security problems
+actually stem from bad usability or bad implementations of tools or apps (or both).
+It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
+and GnuPG (GPG), a command line tool implementing OpenPGP. 
+Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
+Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
+available as [an independent "pgp" package](https://crates.io/crates/pgp),
+and [security-audited in 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf). 
+
+We aim, along with other OpenPGP implementors, 
+to further improve security characteristics by implementing the
+[new IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) 
+which was thankfully adopted in summer 2023. 
 
 
-### How can I ensure message encryption and deletion?
+### Did you consider using alternatives to OpenPGP for E2E-encryption? {#openpgp-alternatives}
+
+Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
+or [Saltpack](https://saltpack.org/) 
+but adopting them would mean breaking E2E-encryption interoperability 
+with all other e-mail apps that typically support OpenPGP encryption. 
+So it would not be a light decision to take 
+and there must be tangible improvements for users. 
+
+Delta Chat takes a holistic "usable security" approach 
+and works with a wide range of activist groupings as well as 
+renowned researchers such as [TeamUSEC](https://teamusec.de) 
+to improve actual user outcomes against security threats. 
+The wire protocol and standard for establishing E2E-encryption is
+only one part of "user outcomes",
+see also our answers to [device-seizure](#device-seizure)
+and [message-metadata](#message-metadata) questions. 
+
+
+### Is Delta Chat vulnerable to EFAIL?
+
+No, [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
+because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
+uses Modification Detection Code when encrypting messages
+and returns [an error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
+if the Modification Detection Code is incorrect.
+
+Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
+because it only decrypts `multipart/encrypted` messages
+which contain exactly one encrypted and signed part,
+as defined by the Autocrypt Level 1 specification. 
+
+
+### Is a message exposed in cleartext if E2E-encryption is not available? {#tls}
+
+No,
+this does not necessarily mean that the message is exposed in cleartext.
+
+Delta Chat always uses ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)) encryption
+which secures connections between your device and your e-mail provider
+unless you explicitly disable it.
+All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
+
+Moreover, the connection between your and the recipient's e-mail provider 
+will today typically be transport-encrypted as well. 
+If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
+then transport encryption will be enforced in all inter e-mail server communications
+in which case Delta Chat communications will never be exposed in cleartext to the network 
+even if the message was not E2E-encrypted. 
+
+Note that maintaining E2E-encryption on top of TLS encryption is highly advisable 
+because it provides safety between your device and a contact's device,
+irrespective of any hops over potentially compromised e-mail servers. 
+
+
+### How does Delta Chat protect metadata in messages? {#message-metadata}
+
+Delta Chat protects most message metadata by putting the following information
+into the E2E-encrypted part of messages: 
+
+- Subject line 
+- Group avatar and name 
+- MDN (read receipt) requests (`Chat-Disposition-Notification-To`)
+- Disappearing message timer (`Ephemeral-Timer`) 
+- `Chat-Group-Member-Removed`, `Chat-Group-Member-Added` 
+- `Secure-Join` header containing secure join commands
+- Notification about enabling location streaming
+- WebRTC room URL
+
+E-Mail servers do not get access to this protected metadata 
+but they do see the message date as well as the message size,
+and, more importantly, the sender and receiver addresses. 
+E-mail servers need receiver addresses to route and 
+deliver messages to recipient's devices. 
+
+
+### How to protect metadata and contacts when a device is seized? {#device-seizure}
+
+Both for protecting against metadata-collecting e-mail servers 
+as well as against the threat of device seizure
+we recommend to use a Delta Chat optimized [e-mail server instance](https://delta.chat/serverguide)
+to create pseudonymous temporary accounts through QR-code scans.
+Note that Delta Chat apps on all platforms support multiple accounts 
+so you can easily use action-specific "1-week" or "1-month" accounts next to your "main" account
+with the knowledge that all temporary account data, along with all metadata, will be deleted. 
+Moreover, if a device is seized then contacts using temporary e-mail accounts 
+can not be identified easily, as compared to messengers which reveal 
+phone numbers in chat groups which in turn are often associated with passport identities. 
+
+
+### How can I verify E2E-security with a contact? 
+
+If you are within immediate distance of your contact,
+select **QR Invite code** on one device and then **Scan QR code**
+from within Delta Chat on the other device. 
+If both devices are online, 
+they will setup a chat with each-other (if it doesn't exist already)
+and both will see a "sender verified" system message in their chat. 
+Showing and scanning a QR code can also happen in any "second channel" 
+such as a video call or another messenger. 
+
+If QR code scanning is for some reason not viable, 
+you may check the E2E encryption status manually in the "Encryption" dialog
+(user profile on Android/iOS or right-click a user's chat-list item on desktop). 
+Delta Chat shows two fingerprints there.
+If the same fingerprints appear on your own and your contact's device,
+the connection is safe.
+
+
+### How can I check the encryption status of messages?
+
+A little **padlock** in a message bubble denotes 
+that the message was properly E2E-encrypted from the given sender.
+If there is **no padlock**, the message was not properly E2E-encrypted 
+most likely because the sender uses an app or webmail interface 
+without support for E2E--encryption.
+
+
+### Why do I see unencrypted messages? 
+
+If a contact uses a non-Autocrypt e-mail app, 
+all messages involving this contact (in a group or 1:1 chat) 
+will not be E2E-encrypted, and thus not show a "padlock" with messages. 
+Note that even if your contacts use Delta Chat on their account, 
+they might also use a non-Autocrypt e-mail app on that account
+which then may cause intermittently unencrypted messages. 
+Replying unencrypted to unencrypted messages is mandated by Autocrypt 
+to prevent unreadable messages on the side of your contacts
+and their non-Autocrypt e-mail app. 
+
+If you need a safely E2E-encrypted chat with contacts
+who are using their account also with Autocrypt-incapable apps (e.g. webmail) 
+it's best to create a [verified group chat](#verifiedchats) with them. 
+Any message sent into a verified group chat will be E2E-encrypted
+irrespective of the last incoming message from a contact. 
+
+
+### How can I ensure message E2E-encryption and deletion?
 
 The best way to ensure every message is encrypted,
 and metadata deleted as quickly as possible
-is creating a verified group and turning on
-disappearing messages.
+is using [verified groups](#verifiedchats) 
+and turning on disappearing messages.
 
-Verified groups are always encrypted and protected against [MITM
-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+Verified groups are always encrypted and protected against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) 
+and turning on "disappearing messages" deletes the messages 
+on the server after a user-configured time. 
 
-Metadata can't be encrypted, as the server needs to know where to deliver your
-messages. But turning on "disappearing messages" deletes the messages on
-the server after they were delivered.
-
-If you need the messages on your device, but not on the server, you can also
-agree in the group to turn on ["delete messages from server
-automatically"](#delold).
-
-If you want to protect a 1:1 conversation like this, you should create a
-verified group with only 2 people. If the other person loses their device but
-not their account, you can still communicate in the 1:1 chat. ([Read more](#verdiff))
-
-
-### Which standards are used for end-to-end-encryption?
-
-- [Autocrypt](https://autocrypt.org) is used for establishing
-  e2e-encryption with other Delta Chat and other Autocrypt-capable mail apps. 
-  Autocrypt uses a limited subset of OpenPGP functionality. 
-
-- Delta Chat implements [countermitm setup-contact and verified-group protocols](https://countermitm.readthedocs.io/en/latest/new.html) to achieve protection against active network attacks.  This goes beyond the opportunistic
-  base protection of Autocrypt Level 1, while maintaining its ease of use.  
-
-### What is the difference between verified groups and 1:1 chats with verified contacts? {#verdiff}
-
-- 1:1 chats with a verified contact and verified groups are not the same, even
-  if there are only 2 people in the verified group. One difference is that you
-  could easily add more people to the group, but there are other implications as
-  well.
-
-- Verified groups are invariably secured. Any breakage (cleartext or wrongly
-  signed messages etc.) will be flagged and such messages will not be shown in
-  this chat. You can trust all messages in this verified-checkmark chat to have
-  not been read/altered by middle parties.
-
-- 1:1 chats are opportunistic, it is meant to allow people to communicate no
-  matter if they change e-mail clients, devices, setups etc. That's why there
-  is no verification checkmark, even if you have verified the contact.
+If you don't need a longer-lived copy of your messages on the server, 
+you can also turn on ["delete messages from server automatically"](#delold).
 
 
 ### Does Delta Chat support Perfect Forward Secrecy?
 
-- No, OpenPGP doesn't support Perfect Forward Secrecy. Perfect Forward Secrecy
-  works session-oriented, but E-Mail is asynchronous by nature
-  and often used from multiple devices independently. This means that if your
-  Delta Chat private key is leaked, and someone has a record
-  of all your in-transit messages, they will be able to read them.  
+No, Delta Chat doesn't support Perfect Forward Secrecy (PFS).
+This means that if your Delta Chat private decryption key is leaked,
+and someone has collected your prior in-transit messages,
+they will be able to decrypt and read them using the leaked decryption key.
 
-- Note that if anyone has seized or hacked your running phone, they will
-  typically be able to read all messages, no matter if Perfect Forward Secrecy
-  is in place or not. Having access to a single device from a member of a group,
-  will typically expose a lot of the social graph. Using e-mail addresses that
-  are not easily tracked back to persons helps group members to stay safer from
-  the effects of device seizure. 
+Note, however, that if anyone obtains to your decryption keys, 
+they will typically also be able to obtain your messages, 
+irrespective if Perfect Forward Secrecy is in place or not. 
+The typical real-world situation for leaked decryption keys is device seizure
+which we discuss in our answer [on metadata and device seizure](#device-seizure). 
 
-- We are sketching ways to protect communications better against the event
-  of device seizure. 
-
-
-### How does Delta Chat protect my Metadata?
-
-- As Delta Chat is a decentralized messenger, the metadata of Delta Chat users
-  are not stored on a single central server. However, they are stored on the mail
-  servers of the sender and the recipient of a message.
-
-- Each mail server currently knows about who sent and who received a message by 
-  inspecting the unencrypted To/Cc headers and thus determine which e-mail addresses
-  are part of a group. Delta Chat itself could avoid unencrypted To/Cc headers quite 
-  and always put them only into the encrypted section. See 
-  [Avoid sending To/CC headers for verified groups](https://github.com/deltachat/deltachat-core-rust/issues/1032). 
-  For opportunistic chats the main concern is how it affects other mail apps who 
-  might participate in chats. 
-
-- Many other e-mail headers, in particular the "Subject" header, are
-  end-to-end-encryption protected, see also this upcoming [IETF
-  RFC](https://datatracker.ietf.org/doc/draft-autocrypt-lamps-protected-headers/).
+It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
+because OpenPGP is just a container for encrypted messages 
+but encryption key management (and thus key rotation or key "ratcheting") 
+could be organized in flexible ways. 
+See [Seqouia's PFS prototype](https://gitlab.com/sequoia-pgp/openpgp-dr)
+for existing experiments in the OpenPGP implementor community. 
 
 
 ### Can I reuse my existing private key?
 
-- Yes. The best way is to send an Autocrypt Setup Message from the other e-mail client. Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+Yes.
+The best way is to send an Autocrypt Setup Message from the other e-mail client.
+Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys". Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys".
+Caution: Make sure the key is not protected by a password, or remove the password beforehand.
 
-If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it. 
-
+If you don't have a key or don't even know you would need one - don't worry: Delta Chat generates keys as needed, you don't have to hit a button for it.
 
 ### I can't import my existing PGP key into Delta Chat.
 
@@ -548,40 +636,40 @@ DeltaChat folder", you should also disable "move chat messages to DeltaChat".
 Otherwise, deleting messages or multi-device setups might not work properly.
 
 
-## Private Apps / webxdc {#webxdc}
+## webxdc apps {#webxdc}
 
-In Delta Chat, you can share "private apps", attachments with an `.xdc` file
+In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly
-extendable messenger. The technical term is [webxdc](https://webxdc.org).
+extendable messenger.
 
 
-### How private are private apps?
+### How private are webxdc apps?
 
-- Private apps can not send data to the Internet, or download anything.
-- A private app can only exchange data within a Delta Chat chat, with its
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
   copies on the devices of your chat partners. Other than that, it's completely
   isolated from the Internet.
-- The privacy a private app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the private app as well.
-- This also means: it can be a privacy risk to open private apps in chats where
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open webxdc apps in chats where
   you don't trust the members - as you know it from e-mail attachments, where 
   you only open attachments from senders you trust, and not from spammers.
 
 
-### Where can I get private apps?
+### Where can I get webxdc apps?
 
-- In general, anyone can share private apps with each
+- In general, anyone can share webxdc apps with each
   other without restrictions.
-- You can [send 'hi' to xstore@testrun.org](/en/2023-08-11-xstore)
+- You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
   to see an experimental webxdc appstore.
   All of the apps are open source and for free.
-- Many people write their own private apps and post them to [the Delta Chat
+- Many people write their own webxdc apps and post them to [the Delta Chat
   forum](https://support.delta.chat/c/webxdc/20).
 
 
-### How can I create my own private apps?
+### How can I create my own webxdc apps?
 
-- Private apps are just zip files containing html, css, and javascript code.
+- webxdc apps are just zip files containing html, css, and javascript code.
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
 - All else you need to know is written in the
@@ -612,20 +700,26 @@ like experiments? Register through "Sign up -> with Delta Chat"!)
   this way, you will have a new random jitsi room every time you call someone.
 
 
-### Doğrulanmış grup nedir? Neden deneyseldir?
+### Doğrulanmış grup nedir? Neden deneyseldir?{#verifiedchats}
 
-- A verified group is a chat that guarantees safety against an active
-  attacker.  All Messages in a verified chat view are e2e-encrypted, and
-  members can join by scanning a "QR invite code".  All members are thus 
-  connected with each other through a chain of invites, which guarantee 
-  cryptographic consistency against active network or provider attacks. 
-  See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-  for the R&D behind this feature. 
+Verified groups carry a green verification checkmark in the group title that guarantees
+that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 
+Each member in a verified group chat can add already verified contacts 
+or tap "QR Invite code" to let invitees scan the code to get verified and added ("secure-join").
+This "secure-join" protocol ensures that all verified group chat members 
+are connected with each other through a chain of verifications ("web of trust"), 
+guaranteeing E2E-encryption consistency even if e-mail servers are compromised or malfeasant.
+See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
+for a detailed security discussion. 
 
-- As of Oct 2022, "verified groups" remain an experimental feature. It is
-  continuously improved and many bugs have been fixed since the original
-  introduction in 2018. However, there remain cases, especially with large
-  groups where inconsistencies can occur, or messages become unreadable.
+Note that "1:1" chats are currently only opportunistically encrypted (Autocrypt). 
+You need to create a verified group with your contact 
+to ensure that all messages will be safely E2E-encrypted between you two. 
+We plan to introduce verified 1:1 chats around the end of 2023, 
+simplifying and extending the guarantees of verified E2E-encryption for all chat types. 
+Until then verified groups will remain classified as an experimental feature 
+although they are widely and successfully used already, 
+and reported bugs have been continously fixed in the last years. 
 
 
 ### What are Broadcast Lists and how can I use them?
@@ -761,7 +855,7 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 - Bkz. [Delta Chat'te kullanılan standartlar]({% include standards-url %}).
 
-### Was Delta Chat independently audited for security vulnerabilities?
+### Was Delta Chat independently audited for security vulnerabilities? {#security-audits}
 
 The Delta Chat project underwent four independent security audits in the last years:
 

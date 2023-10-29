@@ -9,18 +9,18 @@ gjuhë: en
 
 _“Një konstatim deri diku i çuditshëm: të dërgosh dhe marrësh email-e me #DeltaChat-in e bën krejt punën më të këndshme se sa përdorimi i një klienti tradicional për email-e. Ma do mendja se kjo vjen prej trajtimit modern: bërja e email-eve të duken si mesazhe fjalosjeje.”_
 
-**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
+**Përdorues polak** në [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### mbulon më shumë se një llogari
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_“Njatjeta ekipit të Delta.chat-it! Faleminderit për aplikacionin ; është tejet i dobishëm dhe në të njëjtën kohë UX për të është thuajse e përsosur. A do të mund të na ofronit kalim të kollajtë nga një llogari email në një tjetër? […]”._  
+**Përdorues,** para se të përmirësonim funksionimin me llogari të shumta email, në [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### mundësi për thirrje audio dhe video
 
 _“Gjëja më e lezetshme është se mbulon thirrje audio dhe video duke krijuar një dhomë Jitsi dhe duke dërguar një ftesë, zgjidhje e lezetshme:)”_
 
-**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
+**Përdorues** në [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
 ### Mund të rekomandohet për persona të verbër
 
