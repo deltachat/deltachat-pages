@@ -6,18 +6,18 @@ downloads: true
 
 ## Wijzigingslogs (Engels) {#changelogs}
 
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Computer](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
 * [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Intern](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Je kunt de computerversies gebruiken zonder de app op je telefoon.
 
-Minimal requirements:
+Minimale vereisten:
 Android 4.1 Jelly Bean
-or iOS 12, iPhone 5s or iPad 5/Air/Mini 2
-or Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 or Debian 10
-or compatible systems.
+of iOS 12, iPhone 5s of iPad 5/Air/Mini 2
+of Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 of Debian 10
+of compatibele systemen.
 
 ## Links
 

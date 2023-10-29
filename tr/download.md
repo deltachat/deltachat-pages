@@ -6,18 +6,18 @@ downloads: true
 
 ## Değişiklik Günlükleri {#changelogs}
 
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [Masaüstü](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
 * [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Çekirdek](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Masaüstü sürümleri, Delta Chat'in bir telefona kurulmasını gerektirmez.
 
-Minimal requirements:
+En düşük gereksinimler:
 Android 4.1 Jelly Bean
-or iOS 12, iPhone 5s or iPad 5/Air/Mini 2
-or Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 or Debian 10
-or compatible systems.
+ya da iOS 12, iPhone 5s ya da iPad 5/Air/Mini 2
+ya da Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 ya da Debian 10
+ya da uyumlu sistemler.
 
 ## Bağlantılar
 

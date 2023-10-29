@@ -9,15 +9,15 @@ downloads: true
 * [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
 * [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
 * [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
-* [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+* [Jadro](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 Desktop verzia nevyžaduje Delta Chat na telefóne.
 
-Minimal requirements:
+Minimálne požiadavky:
 Android 4.1 Jelly Bean
-or iOS 12, iPhone 5s or iPad 5/Air/Mini 2
-or Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 or Debian 10
-or compatible systems.
+alebo iOS 12, iPhone 5s alebo iPad 5/Air/Mini 2
+alebo Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 alebo Debian 10
+alebo kompatibilné systémy.
 
 ## Odkazy
 
