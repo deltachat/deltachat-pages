@@ -47,7 +47,7 @@ which may or may not follow our [Community Standards](community-standards):
 - An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
   bridged to the groupbot english Delta Chat community chat group.
 
-- A [Fediverse Lemmy instance](https://lemmy.zip/c/delta_chat) 
+- A [Lemmy community](https://lemmy.zip/c/delta_chat)
   which you can follow by putting `!delta_chat@lemmy.zip` 
   into the search field of your fediverse app.
 
