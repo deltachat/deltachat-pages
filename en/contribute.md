@@ -45,7 +45,7 @@ which may or may not follow our [Community Standards](community-standards):
   to discover and join various chat groups.
 
 - An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  bridged to the groupbot english Delta Chat community chat group.
+  bridged to the groupbot English Delta Chat community chat group.
 
 - A [Lemmy community](https://lemmy.zip/c/delta_chat)
   which you can follow by putting `!delta_chat@lemmy.zip` 
