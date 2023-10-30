@@ -9,9 +9,6 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
 
-- With your Delta Chat app you can send a `/list` message to [a community
-  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
-
 - [Delta Chat support forum](https://support.delta.chat) for wider
   feature discussions and getting support.
 
@@ -36,3 +33,20 @@ Please don't hesitate to reach out (delta at merlinux eu)
 if you are interested to help our efforts!
 
 For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+
+
+# Third party communication channels 
+
+The following Delta Chat related communication channels are operated by *adb* and *echedey*
+which use their own way of moderating which is related to
+but not neccessarily following our [Community Standards](community-standards): 
+
+- With your Delta Chat app you can send a `/list` message to 
+  [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
+  to discover and join various chat groups. 
+
+- An [english Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
+  bridged to the groupbot english Delta Chat community chat group. 
+
+
+
