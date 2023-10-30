@@ -42,17 +42,14 @@ which may or may not follow our [Community Standards](community-standards):
 
 - With your Delta Chat app you can send a `/list` message to 
   [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-  to discover and join various chat groups 
-  (operated and moderated by [adb](https://masto.nobigtech.es/@adbenitez) and *echedey*).
+  to discover and join various chat groups.
 
 - An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  bridged to the groupbot english Delta Chat community chat group 
-  (operated and moderated by [adb](https://masto.nobigtech.es/@adbenitez) and *echedey*).
+  bridged to the groupbot english Delta Chat community chat group.
 
 - A [Fediverse Lemmy instance](https://lemmy.zip/c/delta_chat) 
   which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app 
-  (moderated by [@agustinh88](https://lemmy.zip/u/Tucumano88)).
+  into the search field of your fediverse app.
 
 If you know off, or setup yourself, additional channels, 
 please let us know (see Channels and repositories above). 
