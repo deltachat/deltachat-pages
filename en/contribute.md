@@ -37,16 +37,22 @@ For more background we recommend to read and follow our [blog](https://delta.cha
 
 # Third party communication channels 
 
-The following Delta Chat related communication channels are operated by *adb* and *echedey*
-which use their own way of moderating which is related to
-but not neccessarily following our [Community Standards](community-standards): 
+The following Delta Chat related communication channels are run by third parties
+which may or may not follow our [Community Standards](community-standards): 
 
 - With your Delta Chat app you can send a `/list` message to 
   [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-  to discover and join various chat groups. 
+  to discover and join various chat groups 
+  (operated and moderated by [adb](https://masto.nobigtech.es/@adbenitez) and *echedey*).
 
-- An [english Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  bridged to the groupbot english Delta Chat community chat group. 
+- An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
+  bridged to the groupbot english Delta Chat community chat group 
+  (operated and moderated by [adb](https://masto.nobigtech.es/@adbenitez) and *echedey*).
 
+- A [Fediverse Lemmy instance](https://lemmy.zip/c/delta_chat) 
+  which you can follow by putting `!delta_chat@lemmy.zip` 
+  into the search field of your fediverse app 
+  (moderated by [@agustinh88](https://lemmy.zip/u/Tucumano88)).
 
-
+If you know off, or setup yourself, additional channels, 
+please let us know (see Channels and repositories above). 
