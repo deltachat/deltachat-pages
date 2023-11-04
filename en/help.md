@@ -265,6 +265,7 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 
 ## Encryption and Security 
 
+
 ### Which standards are used for end-to-end encryption? 
 
 [Autocrypt](https://autocrypt.org) is used for automatically
@@ -272,30 +273,120 @@ establishing E2E-encryption with contacts and group chats.
 Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure). 
 
 [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html) 
-are used to implement [verified chats](#verifiedchats)
-which provide pervasive protection against network attacks and compromised servers.
-Verified chats enforce all messages in a chat to be safely E2E-encrypted
-with an unparalleled ease of use that avoids users having to learn about 
-public key cryptography, key management or key verification. 
-
+are used for establishing chats with guaranteed end-to-end encryption ("green checkmark")
+that protects against network attacks and compromised servers.
 
 ### When will messages be E2E-encrypted? 
 
-After a first message was received from a Delta Chat or other Autocrypt-capable contact, 
+Both individual or group chats carry a green checkmark 
+if all communication in the chat is [guaranteed to be end-to-end encrypted](#howtoe2ee)
+
+End-to-end encryption also takes place when all participants in a chat
+use an Autocrypt-compliant e-mail app: 
+After a first message was received from an Autocrypt-capable contact 
 Delta Chat defaults to using E2E-encryption with that contact (and vice versa). 
 When creating a group chat with contacts where E2E-encrypted is individually in place,
 all group members will automatically use E2E-encryption with each other and in the group. 
 However, if you add a contact that lacks E2E-encryption, 
 the group chat will not use E2E-encryption. 
 
-If you want to be sure to always and only use E2E-encryption,
-[use verified chats](#howtoe2ee) 
-which additionally protects against compromised or malfeasant e-mail servers. 
+### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#verifiedchats}
 
+If a chat title carries a green verification checkmark (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />) 
+all messages in the chat will be E2E-encrypted 
+and can not be read or altered even by compromised e-mail servers. 
+If a new member joins a group chat with a green checkmark 
+all members will see each other with a green checkmark 
+in the respective contact profiles. 
+
+Contact profiles show a green verification checkmark 
+if chat messages with that contact will be
+guaranteed to be end-to-end encrypted. 
+You can also see who introduced this contact to you
+and tap on the introducer to see 
+how they in turn got introduced. 
+Every green-checkmarked Contact is connected with you 
+through a series of introductions from other green-checkmarked contacts 
+that go back to QR-code invite scans
+that you did yourself.
+
+Joining green-checkmarked groups and observing new members joining there
+safely spreads everybody's encryption information in a peer-to-peer manner 
+that can not be compromised by e-mail servers. 
+The underlying mechanisms are extensively discussed in 
+[Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html).
+
+
+### How can I get guaranteed E2E-Encryption? {#howtoe2ee}
+
+**By performing a QR show/scan procedure with another contact 'next' to you.**
+
+Meet your chat partner outside Delta Chat, preferably in person 
+but a second channel like a video chat 
+or using a different messenger is fine as well. 
+
+**One side (QR INVITE)**: 
+
+- Click the QR Code icon <img style="vertical-align:middle; width:2em;
+margin:1px" src="../assets/home/qrcode.png" /> from within Delta Chat main screen. 
+
+- Choose "QR INVITE CODE" and share the resulting QR image 
+  with the other side, preferably in person 
+
+**Other side (QR SCAN)**: 
+
+- Click the QR Code icon <img style="vertical-align:middle; width:2em;
+margin:1px" src="../assets/home/qrcode.png" /> from within Delta Chat main screen. 
+
+- Choose "SCAN QR CODE" and point to the "QR INVITE CODE"
+  that you got from your chat partner. 
+
+**Both sides**: 
+  Wait a bit.
+  If both devices are online, 
+  they will setup a chat with each-other (if it doesn't exist already)
+  and both will see <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/> after the chat title. 
+
+Congratulations! You now will automatically use guaranteed E2E-encryption 
+with this contact and both of you can add each other 
+to green-checkmarked groups. 
+
+
+### "Messages may not be end-to-end encrypted anymore", what does this mean? {#verificationbroken}
+
+"Messages may not be end-to-end encrypted anymore" means 
+that your contact uses inconsistent or no end-to-end encryption at all. 
+Two reasons that you can easily recover from: 
+
+- They are using a new phone, and didn't properly [transfer their
+  account through a single QR code scan](#multiclient). 
+
+- They reinstalled Delta Chat using the same e-mail account 
+  but didn't import [a backup](#backup). 
+
+If you want to carry on using guaranteed encryption with this contact 
+you need to re-do a [QR INVITE procedure](#howtoe2ee). 
+If this member was in a green-checkmarked chat group with you 
+then it is recommended to show them a group QR invite code 
+which they can scan to automatically re-join the group. 
+
+If your contact currently doesn't use Delta Chat at all, 
+they have sent a mail through a webmail interface or other e-mail app. 
+In this case you can not do much else than accept the situation
+and rely on so called "Transport encryption" (TLS) which 
+avoids your messages appearing in cleartext in the internet. 
+
+**Why don't other messengers like Signal show such a warning?**
+
+Signal does not provide a practical scheme to protect Signal users
+from compromise or corruption of their central AWS-run Signal server cluster. 
+For more discussion and background 
+see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html).
 
 ### Are attachments (pictures, files, audio etc.) E2E-encrypted? 
 
 Yes. 
+
 When we talk about an "E2E-encrypted message" 
 we always mean a whole message is encrypted,
 including all the attachments
@@ -415,83 +506,14 @@ can not be identified easily, as compared to messengers which reveal
 phone numbers in chat groups which in turn are often associated with passport identities. 
 
 
-### How can I verify the security of my End-to-End encryption? {#howtoe2ee}
+### How can i check encryption information? 
 
-**In private chats**
-
-- Meet your chat partner in person.
-- Click the QR Code icon <img style="vertical-align:middle; width:2em; margin:1px" src="../assets/home/qrcode.png" />
-- Scan the QR Code of your chat partner, or let them scan yours.
-- Wait a bit.
-
-If both devices are online, 
-they will setup a chat with each-other (if it doesn't exist already)
-and both will see <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/> after the chat title. Congratulations, you now verified this contact!
-
-Showing and scanning a QR code can also happen in any "second channel" 
-such as a video call or another messenger. 
-
-If QR code scanning is for some reason not viable, 
-you may check the E2E encryption status manually in the "Encryption" dialog
+You may check the E2E encryption status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop). 
 Delta Chat shows two fingerprints there.
 If the same fingerprints appear on your own and your contact's device,
 the connection is safe.
 
-**In group chats<a name="createverifiedgroup"></a>**
-
-- When creating the group, click on "New verified group" instead of "New group"
-- You can only add contacts which are already verified.
-  To add other contacts, click on "QR Invite Code"
-  and let them scan the QR Code (this is called "secure-join")
-
-### What are verified chats? {#verifiedchats}
-
-Verified chats carry a green verification checkmark (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />) in the title that guarantees
-that all messages are E2E-encrypted and can not be read or altered by e-mail servers. 
-
-Private chats are automatically marked as verified when you verify the contact with
-a QR code scan.
-
-Group chats are verified if this was chosen during group creation.
-Each member in a verified group chat can add already verified contacts 
-or tap "QR Invite code" to let invitees scan the code to get verified and added ("secure-join").
-This "secure-join" protocol ensures that all verified group chat members 
-are connected with each other through a chain of verifications ("web of trust"), 
-guaranteeing E2E-encryption consistency even if e-mail servers are compromised or malfeasant.
-See [countermitm.readthedocs.io](https://countermitm.readthedocs.io/en/latest/new.html)
-for a detailed security discussion. 
-
-### "Messages may not be end-to-end encrypted anymore", what does this mean? {#verificationbroken}
-
-At some point in the past, you probably [scanned a QR Code](#howtoe2ee), which ensured that all your messages
-were correctly end-to-end encrypted.
-
-Now, somehow your chat partner's encryption key changed; reasons for this are:
-- They reinstalled Delta Chat
-- They are using a new phone, and didn't properly [transfer their account](#multiclient)
-- They didn't use Delta Chat to send the message, but sent a classical email.
-
-Therefore, while Delta Chat will still try to [end-to-end encrypt](#whatise2ee) your messages, it can't guarantee this anymore. There is a small padlock on encrypted messages.
-
-- **Why can't Delta Chat guarantee end-to-end encryption anymore?**
-
-  There are two reasons:
-
-  1. If your chat partner doesn't use Delta Chat to send emails at all anymore, then
-     Delta Chat sends them unencrypted so that they can still read them.
-  2. Even if your chat partner still uses Delta Chat, it can't protect against
-     [MitM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) anymore.
-     Most users don't need to worry about this, but if you are in a high-risk situation,
-     keep in mind that a powerful attacker with access to the email provider
-     could theoretically read and/or modify the messages.
-
-- **Why don't other messengers like Signal show such warnings?**
-
-  They do! The warnings just are a lot easier to overlook. Signal calls them
-  ["Your safety number changed"](https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed-).
-
-  Plus, Signal is not compatible with unencrypted emails, so, in Signal there is never the problem that your chat partner can't handle encryption anymore - all messages in Signal are encrypted.
 
 ### How can I check the encryption status of messages?
 
@@ -634,7 +656,7 @@ One device is not needed for the other to work.
   try the **manual transfer** described below
 
 
-### Manual Transfer
+### Manual Transfer {backup}
 
 This method is only recommended if "Add Second Device" as described above does not work.
 
