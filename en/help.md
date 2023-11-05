@@ -314,7 +314,7 @@ Perform the following QR show/scan procedure with your chat partner.
 
 **Both sides**:
 
-Both sides please click the QR Code icon 
+Both sides please tap the QR Code icon 
 <img style="vertical-align:middle; width:2em;
 margin:1px" src="../assets/home/qrcode.png" /> 
 on the Delta Chat app main screen -- 
