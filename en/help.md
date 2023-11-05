@@ -336,12 +336,16 @@ Wait a bit while [Secure-Join network messages are exchanged](https://countermit
 
 - If both devices are online,
   both sides will setup a chat with each-other (if it didn't exist already)
-  and both chats will grow a green checkmark <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/>.
+  and both chats will (eventually) show a green checkmark next to the title
+  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/>.
  
 - If one of the devices is offline, the green checkmarks will only
-  appear later when the device is internet-connected again.
+  appear later when the device is internet-connected again
+  and the Secure-Join network protocol completed. 
 
-Congratulations! You now will automatically use guaranteed end-to-end encryption
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/>
+Congratulations! 
+You now will automatically use guaranteed end-to-end encryption
 with this contact and both of you can add each other to green-checkmarked groups,
 thereby automatically spreading guaranteed end-to-end encryption among its members. 
 
