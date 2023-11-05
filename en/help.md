@@ -278,7 +278,7 @@ End-to-End encrypted messages are marked with a padlock
 are used for establishing chats with guaranteed end-to-end encryption 
 that protects against network attacks and compromised servers.
 Chats marked with a green checkmark 
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/> 
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/> 
 guarantee end-to-end encrypted messages. 
 
 ### When will messages be end-to-end-encrypted? {#whene2e}
@@ -297,9 +297,9 @@ All group members will automatically use end-to-end encryption with each other a
 However, if you add a contact where you didn't establish end-to-end encryption before,
 the group chat will not use end-to-end encryption.
 
-**End-to-end encryption is guaranteed in green-checkmarked chats 
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>**. 
-[You first need to setup guaranteed end-to-end encryption with a contact](#howtoe2ee)
+**End-to-end encryption is guaranteed in green-checkmarked chats**
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/>. 
+You first need to [setup guaranteed end-to-end encryption with a contact](#howtoe2ee)
 and can then add and introduce them to a green-checkmarked group chat, 
 automatically spreading guaranteed end-to-end encryption among all chat members. 
 
@@ -336,7 +336,7 @@ Wait a bit while [Secure-Join network messages are exchanged](https://countermit
 
 - If both devices are online,
   both sides will setup a chat with each-other (if it didn't exist already)
-  and both chats will grow a green checkmark <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>.
+  and both chats will grow a green checkmark <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/>.
  
 - If one of the devices is offline, the green checkmarks will only
   appear later when the device is internet-connected again.
@@ -346,10 +346,10 @@ with this contact and both of you can add each other to green-checkmarked groups
 thereby automatically spreading guaranteed end-to-end encryption among its members. 
 
 
-### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#verifiedchats}
+### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#e2eeguarantee}
 
 Chat titles with green checkmarks
-(<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
+(<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" />)
 mean that all messages in the chat will be end-to-end-encrypted
 and can not be read or altered by compromised e-mail servers or Internet providers. 
 Joining green-checkmarked group chats
@@ -357,7 +357,7 @@ safely spreads everybody's encryption information (and green checkmarks)
 in a manner that guarantees end-to-end encryption in the group and among members. 
 
 Contact profiles with green checkmarks 
-(<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
+(<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" />)
 mean that messaging a contact is currently guaranteed to be end-to-end encrypted.
 Every green-checkmarked Contact either did a direct [QR-scan](#howtoe2ee) with you
 or was introduced by a another green-checkmarked contact.
@@ -370,7 +370,7 @@ until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 Note that in a Contact profile you may see and tap introducers 
 but there is no green checkmark in the profile title. 
 This means that the contact uses an inconsistent encryption setup and your chat with the contact
-will show a ["Messages may not be end-to-end encrypted anymore"](#verificationbroken) warning. 
+will show a ["Messages may not be end-to-end encrypted anymore"](#nocryptanymore) warning. 
 
 For more in-depth discussion of "guaranteed end-to-end encryption"
 please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
@@ -378,7 +378,7 @@ and specifically read about "Verified Groups", the technical term
 of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
 
-### "Messages may not be end-to-end encrypted anymore", what can i do? {#verificationbroken}
+### "Messages may not be end-to-end encrypted anymore", what can i do? {#nocryptanymore}
 
 "Messages may not be end-to-end encrypted anymore" means
 that your contact uses inconsistent or no end-to-end encryption at all.
@@ -595,7 +595,7 @@ it's best to setup [guaranteed end-to-end encryption with them](#howtoe2ee)
 and then create a guaranteed end-to-end encrypted group chat with you two as members. 
 In this group chat all messages will be end-to-end encrypted 
 even if the direct "1:1" chat between you has a 
-["Messages may not be end-to-end encrypted anymore"](#verificationbroken) warning. 
+["Messages may not be end-to-end encrypted anymore"](#nocryptanymore) warning. 
 
 
 ### How can I ensure message end-to-end encryption and deletion?
