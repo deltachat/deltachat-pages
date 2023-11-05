@@ -428,9 +428,11 @@ the confidentiality of your messages between your device and the e-mail server.
 
 **Why don't other messengers like Signal show such a warning?**
 
-Signal does not provide a practical scheme to protect Signal users
-from compromise or corruption of the central Amazon-run and 
-Intel-reliant Signal server cluster.
+Actually, Signal may show a similar warning about a changed 
+[safety number](https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed-) 
+but Signal does not provide an overall practical scheme for protecting group chats
+from compromise or corruption of their central Amazon-run and 
+Intel-reliant server cluster.
 For more discussion and comparison background 
 please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html).
 
