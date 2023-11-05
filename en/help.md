@@ -271,33 +271,40 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 [Autocrypt](https://autocrypt.org) is used for automatically
 establishing end-to-end encryption with contacts and group chats.
 Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
+End-to-End encrypted messages are marked with a padlock 
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/padlock.png" alt="padlock"/>.
 
 [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
-are used for establishing chats with guaranteed end-to-end encryption (green checkmark)
+are used for establishing chats with guaranteed end-to-end encryption 
 that protects against network attacks and compromised servers.
+Chats marked with a green checkmark 
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/> 
+guarantee end-to-end encrypted messages. 
 
 ### When will messages be end-to-end-encrypted?
 
-All end-to-end encrypted messages carry a padlock.
+All end-to-end encrypted messages carry a padlock
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/padlock.png" alt="padlock"/>.
 
-**End-to-end encryption takes place automatically**:
+**End-to-end encryption takes place automatically**
 after a first message was received from an Autocrypt-capable contact.
 Delta Chat defaults to using end-to-end encryption with that contact,
 and the other way round. 
 
-**End-to-end encryption automatically spreads**:
-if you create a group chat with contacts where you previously established end-to-end encryption
-all group members will automatically use end-to-end encryption with each other and in the group.
+**End-to-end encryption automatically spreads**
+if you create a group chat with contacts where you previously established end-to-end encryption.
+All group members will automatically use end-to-end encryption with each other and in the group.
 However, if you add a contact where you didn't establish end-to-end encryption before,
-the group chat will not use E2E-encryption.
+the group chat will not use end-to-end encryption.
 
 **Guaranteed end-to-end encryption** helps you to avoid ever falling back
 from end-to-end encryption in a chat and also protects you and your chat partners
-from compromised servers and networks (also known as [MITM-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
-Guaranteed end-to-end encryption is only available in green-checkmarked chats.
+from compromised servers and networks (also known as [MITM-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)).
+Guaranteed end-to-end encryption is only available in green-checkmarked chats
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>.
 
 
-### How can I get guaranteed end-to-end encryption? {#howtoe2ee}
+### How can I get guaranteed end-to-end encryption and green checkmarks? {#howtoe2ee}
 
 Meet your chat partner outside Delta Chat, preferably in person
 but a second more virtual channel like a video chat
@@ -322,10 +329,10 @@ margin:1px" src="../assets/home/qrcode.png" /> on the Delta Chat app main screen
 
 **Both sides**:
 
-Wait a bit while "Secure-Join" network messages are exchanged between both devices.
+Wait a bit while [Secure-Join network messages are exchanged](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - If both devices are online,
-  both sides will setup a chat with each-other (if it doesn't exist already)
+  both sides will setup a chat with each-other (if it didn't exist already)
   and both chats will have a green checkmark <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>.
  
 - If one of the devices is offline, the green checkmarks will only
@@ -333,34 +340,38 @@ Wait a bit while "Secure-Join" network messages are exchanged between both devic
 
 Congratulations! You now will automatically use guaranteed end-to-end encryption
 with this contact and both of you can add each other to green-checkmarked groups,
-thereby spreading guaranteed end-to-end encryption among its members. 
+thereby automatically spreading guaranteed end-to-end encryption among its members. 
+
 
 ### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#verifiedchats}
 
-If a chat title carries a green checkmark (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
-all messages in the chat will be end-to-end-encrypted
-and can not be read or altered even by compromised e-mail servers.
-
+Chat titles with green checkmarks
+(<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
+mean that all messages in the chat will be end-to-end-encrypted
+and can not be read or altered by compromised e-mail servers or Internet providers. 
 If a new member joins a group chat with a green checkmark
 all members will see each other with a green checkmark
-in the member list and respective contact profiles.
-Joining green-checkmarked groups and observing new members joining there
-safely spreads everybody's encryption information in a peer-to-peer manner
-that can not be compromised by e-mail servers.
+in the member list and their respective contact profiles.
+Joining green-checkmarked group chats
+safely spreads everybody's encryption information (and green checkmarks)
+in a manner that guarantees end-to-end encryption in the group and among members. 
 
-Contact profiles show a green checkmark
-if messaging a contact is guaranteed to be end-to-end encrypted.
+Contact profiles with green checkmarks 
+(<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
+mean that messaging a contact is currently guaranteed to be end-to-end encrypted.
 Every green-checkmarked Contact either did a direct [QR-scan](#howtoe2ee) with you
 or was introduced by an already green-checkmarked contact to you.
-Introductions happen automatically when a new green-checkmarked member is added to a group.
-Whoever adds a contact to a green-checkmarked group becomes an introducer for this contact
-for all those members who didn't yet know about the added contact.
-In a green-checkmarked Contact profile you can tap on the introducer repeatedly
-until you get to the green-checkmarked contact
-with which you did a [QR-scan](#howtoe2ee) yourself.
-All members of a green-checkmarked group were thus
-introduced to each other by a series of QR-code scans
-which can not be corrupted or compromised by e-mail servers or the transport network. 
+Introductions happen automatically when adding members to groups. 
+Whoever adds a contact to a green-checkmarked groups becomes an introducer 
+to those members who didn't yet know about the added contact.
+In a Contact profile you can tap on a "Introduced by" text repeatedly
+until you get to a green-checkmarked contact
+with whom you performed a [QR-scan](#howtoe2ee) yourself.
+
+Note that in a Contact profile you may see and tap introducers 
+but there is no green checkmark in the profile title. 
+This means that the contact uses an inconsistent encryption setup and your chat with the contact
+will show a ["Messages may not be end-to-end encrypted anymore"](#verificationbroken) warning. 
 
 For more in-depth discussion of "guaranteed end-to-end encryption"
 please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
@@ -399,7 +410,7 @@ There are two more causes and mitigations for the warning:
 
 4. They stopped using Delta Chat at all. 
    Accept the warning and remove the contact from any active green-checkmarked group 
-   (which you can find in "Shared whats" in the Contact profile). 
+   (which you can find in "Shared chats" in the Contact profile). 
 
 Don't fret too much about accepting the warning.
 Sometimes remaining in contact is more important than end-to-end encryption.
@@ -447,11 +458,11 @@ to further improve security characteristics by implementing the
 which was thankfully adopted in summer 2023. 
 
 
-### Did you consider using alternatives to OpenPGP for E2E-encryption? {#openpgp-alternatives}
+### Did you consider using alternatives to OpenPGP for end-to-end -encryption? {#openpgp-alternatives}
 
 Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
 or [Saltpack](https://saltpack.org/) 
-but adopting them would mean breaking E2E-encryption interoperability 
+but adopting them would mean breaking end-to-end encryption interoperability 
 with all other e-mail apps that typically support OpenPGP encryption. 
 So it would not be a light decision to take 
 and there must be tangible improvements for users. 
@@ -460,7 +471,7 @@ Delta Chat takes a holistic "usable security" approach
 and works with a wide range of activist groupings as well as 
 renowned researchers such as [TeamUSEC](https://teamusec.de) 
 to improve actual user outcomes against security threats. 
-The wire protocol and standard for establishing E2E-encryption is
+The wire protocol and standard for establishing end-to-end encryption is
 only one part of "user outcomes",
 see also our answers to [device-seizure](#device-seizure)
 and [message-metadata](#message-metadata) questions. 
