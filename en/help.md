@@ -281,12 +281,12 @@ Chats marked with a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/> 
 guarantee end-to-end encrypted messages. 
 
-### When will messages be end-to-end-encrypted?
+### When will messages be end-to-end-encrypted? {#whene2e}
 
 All end-to-end encrypted messages carry a padlock
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/padlock.png" alt="padlock"/>.
 
-**End-to-end encryption takes place automatically**
+**End-to-end encryption is established automatically**
 after a first message was received from an Autocrypt-capable contact.
 Delta Chat defaults to using end-to-end encryption with that contact,
 and the other way round. 
@@ -297,25 +297,28 @@ All group members will automatically use end-to-end encryption with each other a
 However, if you add a contact where you didn't establish end-to-end encryption before,
 the group chat will not use end-to-end encryption.
 
-**Guaranteed end-to-end encryption** helps you to avoid ever falling back
-from end-to-end encryption in a chat and also protects you and your chat partners
-from compromised servers and networks (also known as [MITM-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)).
-Guaranteed end-to-end encryption is only available in green-checkmarked chats
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>.
+**End-to-end encryption is guaranteed in green-checkmarked chats 
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>**. 
+[You first need to setup guaranteed end-to-end encryption with a contact](#howtoe2ee)
+and can then add and introduce them to a green-checkmarked group chat, 
+automatically spreading guaranteed end-to-end encryption among all chat members. 
+
 
 
 ### How can I get guaranteed end-to-end encryption and green checkmarks? {#howtoe2ee}
 
 Meet your chat partner outside Delta Chat, preferably in person
-but a second more virtual channel like a video chat
+but a second channel like a video chat
 or a different messenger is fine as well.
 Perform the following QR show/scan procedure with your chat partner.
 
-**Both (QR INVITER and QR SCANNER)**:
+**Both sides**:
 
-- Both sides click the QR Code icon <img style="vertical-align:middle; width:2em;
-margin:1px" src="../assets/home/qrcode.png" /> on the Delta Chat app main screen
-  (on Desktop the QR Icon is in the left-side sandwich menu).
+Both sides please click the QR Code icon 
+<img style="vertical-align:middle; width:2em;
+margin:1px" src="../assets/home/qrcode.png" /> 
+on the Delta Chat app main screen -- 
+on Desktop the QR Icon is in the left-side sandwich menu.
 
 **One side (QR INVITE)**:
 
@@ -333,7 +336,7 @@ Wait a bit while [Secure-Join network messages are exchanged](https://countermit
 
 - If both devices are online,
   both sides will setup a chat with each-other (if it didn't exist already)
-  and both chats will have a green checkmark <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>.
+  and both chats will grow a green checkmark <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>.
  
 - If one of the devices is offline, the green checkmarks will only
   appear later when the device is internet-connected again.
@@ -349,9 +352,6 @@ Chat titles with green checkmarks
 (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
 mean that all messages in the chat will be end-to-end-encrypted
 and can not be read or altered by compromised e-mail servers or Internet providers. 
-If a new member joins a group chat with a green checkmark
-all members will see each other with a green checkmark
-in the member list and their respective contact profiles.
 Joining green-checkmarked group chats
 safely spreads everybody's encryption information (and green checkmarks)
 in a manner that guarantees end-to-end encryption in the group and among members. 
@@ -360,13 +360,12 @@ Contact profiles with green checkmarks
 (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
 mean that messaging a contact is currently guaranteed to be end-to-end encrypted.
 Every green-checkmarked Contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by an already green-checkmarked contact to you.
+or was introduced by a another green-checkmarked contact.
 Introductions happen automatically when adding members to groups. 
-Whoever adds a contact to a green-checkmarked groups becomes an introducer 
+Whoever adds a contact to a green-checkmarked group becomes an introducer 
 to those members who didn't yet know about the added contact.
-In a Contact profile you can tap on a "Introduced by" text repeatedly
-until you get to a green-checkmarked contact
-with whom you performed a [QR-scan](#howtoe2ee) yourself.
+In a Contact profile you can tap on the "Introduced by ..." text repeatedly
+until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
 Note that in a Contact profile you may see and tap introducers 
 but there is no green checkmark in the profile title. 
@@ -394,7 +393,7 @@ There are two causes to this warning which you can easily mitigate:
 
 If you are in an active green-checkmarked chat with the contact
 (see "Shared Chats" in the Contact profile) 
-it is best to re-add them to the group with [a QR group invite code](#howtoe2ee)
+it is best to re-add them by letting them scan a Group invite QR code 
 which automatically resolves the warning for yourself 
 and for all members of the green-checkmarked chat. 
 If there is no group chat simply use the direct [QR INVITE procedure](#howtoe2ee) 
@@ -508,7 +507,7 @@ then transport encryption will be enforced in all inter e-mail server communicat
 in which case Delta Chat communications will never be exposed in cleartext to the network
 even if the message was not end-to-end-encrypted.
 
-Note that maintaining end-to-end encryption on top of TLS encryption is highly advisable
+Note that [maintaining end-to-end encryption](#whene2e) on top of TLS encryption is highly advisable
 because it provides safety between your device and a contact's device,
 irrespective of any hops over potentially compromised e-mail servers.
 
