@@ -724,7 +724,7 @@ One device is not needed for the other to work.
   try the **manual transfer** described below
 
 
-### Manual Transfer {backup}
+### Manual Transfer {#backup}
 
 This method is only recommended if "Add Second Device" as described above does not work.
 
