@@ -282,7 +282,8 @@ All end-to-end encrypted messages carry a padlock.
 
 **End-to-end encryption takes place automatically**:
 after a first message was received from an Autocrypt-capable contact.
-Delta Chat defaults to using end-to-end encryption with that contact (and vice versa).
+Delta Chat defaults to using end-to-end encryption with that contact,
+and the other way round. 
 
 **End-to-end encryption automatically spreads**:
 if you create a group chat with contacts where you previously established end-to-end encryption
@@ -298,11 +299,10 @@ Guaranteed end-to-end encryption is only available in green-checkmarked chats.
 
 ### How can I get guaranteed end-to-end encryption? {#howtoe2ee}
 
-**By performing a QR show/scan procedure with another contact 'next' to you.**
-
 Meet your chat partner outside Delta Chat, preferably in person
-but a second channel like a video chat
-or using a different messenger is fine as well.
+but a second more virtual channel like a video chat
+or a different messenger is fine as well.
+Perform the following **QR show/scan procedure with your chat partner.**
 
 **Both (QR INVITER and QR SCANNER)**:
 
@@ -310,29 +310,31 @@ or using a different messenger is fine as well.
 margin:1px" src="../assets/home/qrcode.png" /> on the Delta Chat app main screen
   (on Desktop the QR Icon is in the left-side sandwich menu).
 
-**One side (QR Inviter)**:
+**One side (QR INVITE)**:
 
-- Choose "QR INVITE CODE" and share the shown QR image
+- Choose "QR INVITE CODE" and share the QR image
   with the other side either in person or through a second channel.
 
-**Other side (QR SCANNER)**:
+**Other side (QR SCAN)**:
 
-- Choose "SCAN QR CODE" and point camera to the QR image
+- Choose "SCAN QR CODE" and scan the QR Code 
   that you see from your chat partner in a second channel.
 
 **Both sides**:
-  Wait a bit while "Secure-Join" messages are exchanged between both devices.
-  If both devices are online,
-  they will quickly setup a chat with each-other (if it doesn't exist already)
-  and both will see a green checkmark <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/> after the chat title.
 
-  If one of the devices is offline, the green checkmarks will only
+Wait a bit while "Secure-Join" network messages are exchanged between both devices.
+
+- If both devices are online,
+  both sides will setup a chat with each-other (if it doesn't exist already)
+  and both chats will have a green checkmark <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" alt="green verified checkmark"/>.
+ 
+- If one of the devices is offline, the green checkmarks will only
   appear later when the device is internet-connected again.
 
 Congratulations! You now will automatically use guaranteed end-to-end encryption
-with this contact and both of you can add each other
-to green-checkmarked groups,
-where all members can automatically use end-to-end encryption with each other and in the group.
+with this contact and both of you can add each other to green-checkmarked groups,
+where all members can automatically use end-to-end encryption 
+with each other and in the group, living happily ever after. 
 
 
 ### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#verifiedchats}
@@ -353,19 +355,19 @@ if messaging a contact is guaranteed to be end-to-end encrypted.
 Every green-checkmarked Contact either did a direct [QR-scan](#howtoe2ee) with you
 or was introduced by an already green-checkmarked contact to you.
 Introductions happen automatically when a new green-checkmarked member is added to a group.
-Whoever adds a contact to a green-checkmarked group becomes an *introducer* for this contact
+Whoever adds a contact to a green-checkmarked group becomes an introducer for this contact
 for all those members who didn't yet know about the added contact.
-In a green-checkmarked Contact profile you can tap on the *introducer* repeatedly
+In a green-checkmarked Contact profile you can tap on the introducer repeatedly
 until you get to the green-checkmarked contact
 with which you did a [QR-scan](#howtoe2ee) yourself.
 All members of a green-checkmarked group were thus
 introduced to each other by a series of QR-code scans
 which can not be corrupted or compromised by e-mail servers or the transport network. 
 
-For in-depth discussion of "guaranteed end-to-end encryption"
+For more in-depth discussion of "guaranteed end-to-end encryption"
 please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
-and specifically about "Verified Groups" which is the technical term
-of what is now called "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+and specifically read about "Verified Groups", the technical term
+of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
 
 ### "Messages may not be end-to-end encrypted anymore", what does this mean? {#verificationbroken}
