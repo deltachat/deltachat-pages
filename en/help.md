@@ -98,7 +98,8 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 
 ### Does Delta Chat support HTML e-mails?
 
-- Yes. If needed, incoming messages get a "Show full message" button. Outgoing e-mails always use plain text.
+Yes, incoming HTML messages come with a "Show full message" button. 
+Outgoing messages always use plain text.
 
 
 ### Why do I have to enter my E-Mail password into Delta Chat? Is this secure?
