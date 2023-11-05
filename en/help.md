@@ -384,17 +384,13 @@ of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" 
 that your contact uses inconsistent or no end-to-end encryption at all.
 Here are the possible causes and respective mitigations
 
-**They are using Delta chat on a new device (phone or laptop)**
+**They are using Delta Chat on a second device (phone or laptop)**
 
-If they don't have their old Delta Chat app running anymore,
-then you need to [scan their QR code](#howtoe2ee)
-to get back to guaranteed encryption with them. 
-
-If they have a Delta Chat app running on another device,
+If they have another device with a Delta Chat app running,
 they better remove the account from the new device 
-and [add a second device through a QR code scan](#multiclient).
+and add it [as a second device through a QR code scan](#multiclient).
 As soon as they message you afterwards, the warning will be gone
-and guaranteed encryption is re-established for this contact.
+and guaranteed encryption is established for both devices of your contact. 
 
 **They reinstalled Delta Chat using their old account login**
  
@@ -406,7 +402,7 @@ and guaranteed encryption is re-established for this contact.
 
 If they don't have a backup file, you may perform a [QR scan](#howtoe2ee) 
 with your chat partner to re-establish guaranteed end-to-end encryption.
-However, if you both are in a green-checkmarked chat 
+However, if both of you are in a green-checkmarked chat 
 (see "Shared Chats" in the Contact profile) 
 it's better to re-add them by letting them _scan the Group Invite QR code_
 from the group member list. 
@@ -433,11 +429,10 @@ the confidentiality of your messages between your device and the e-mail server.
 **Why don't other messengers like Signal show such a warning?**
 
 Signal does not provide a practical scheme to protect Signal users
-from compromise or corruption of their central Amazon-run and 
+from compromise or corruption of the central Amazon-run and 
 Intel-reliant Signal server cluster.
 For more discussion and comparison background 
-on remaining safe against compromised infrastructure 
-see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html).
+please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html).
 
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
 
