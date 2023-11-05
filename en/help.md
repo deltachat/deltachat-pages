@@ -368,41 +368,43 @@ and specifically read about "Verified Groups", the technical term
 of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
 
-### "Messages may not be end-to-end encrypted anymore", what does this mean? {#verificationbroken}
+### "Messages may not be end-to-end encrypted anymore", what can i do? {#verificationbroken}
 
 "Messages may not be end-to-end encrypted anymore" means
 that your contact uses inconsistent or no end-to-end encryption at all.
 
 There are two causes to this warning which you can easily mitigate: 
 
-- They are using Delta chat on a new phone, and didn't properly [transfer their
-  account through a single QR code scan](#multiclient).
+1. They are using Delta chat on a new phone, and didn't properly [transfer their
+   account through a single QR code scan](#multiclient).
 
-- They reinstalled Delta Chat using their old account login 
-  but didn't import [a backup](#backup).
+2. They reinstalled Delta Chat using their old account login 
+   but didn't import [a backup](#backup).
 
-If you want to continue using guaranteed encryption with this contact
-you need to re-do a [QR INVITE procedure](#howtoe2ee),
-i.e. show/scan a QR code with each other. 
+If you are in an active green-checkmarked chat with the contact
+(see "Shared Chats" in the Contact profile) 
+it is best to re-add them to the group with [a QR group invite code](#howtoe2ee)
+which automatically resolves the warning for yourself 
+and for all members of the green-checkmarked chat. 
+If there is no group chat simply use the direct [QR INVITE procedure](#howtoe2ee) 
+with your chat partner to re-establish guaranteed end-to-end encryption.
 
 There are two more causes and mitigations for the warning: 
 
-- They sent a mail through a webmail interface or another e-mail app
-  but also will get back to use Delta Chat soon again. 
-  Simply accept the warning.
-  As soon as your contact uses Delta Chat again, 
-  guaranteed end-to-end encryption will be automatically re-enabled. 
+3. They sent a mail through a webmail interface or another e-mail app
+   but also will get back to use Delta Chat soon again. 
+   Simply accept the warning.
+   As soon as your contact uses Delta Chat again, 
+   guaranteed end-to-end encryption will be automatically re-enabled. 
 
-- They stopped using Delta Chat at all. 
-  You need to accept the warning and remove
-  the contact from any active green-checkmarked group 
-  (which you can find in "shared chats" in the Contact profile). 
+4. They stopped using Delta Chat at all. 
+   Accept the warning and remove the contact from any active green-checkmarked group 
+   (which you can find in "Shared whats" in the Contact profile). 
 
-Don't fret about accepting the warning. 
+Don't fret too much about accepting the warning.
 Sometimes remaining in contact is more important than end-to-end encryption.
-Chances are that "Transport encryption" (TLS) still protects 
-your messages with encryption between your device and the e-mail server
-because Delta Chat defaults to strong and security-audited Transport Encryption. 
+Chances are that ["Transport Layer Encryption" (TLS)](#tls) still protects 
+confidentiality of your messages between your device and the e-mail server. 
 
 **Why don't other messengers like Signal show such a warning?**
 
