@@ -304,7 +304,6 @@ and can then add and introduce them to a green-checkmarked group chat,
 automatically spreading guaranteed end-to-end encryption among all chat members. 
 
 
-
 ### How can I get guaranteed end-to-end encryption and green checkmarks? {#howtoe2ee}
 
 Meet your chat partner outside Delta Chat, preferably in person
@@ -430,15 +429,6 @@ Sometimes remaining in contact is more important than end-to-end encryption.
 Chances are that ["Transport Layer Encryption" (TLS)](#tls) still meaningfully protects 
 the confidentiality of your messages between your device and the e-mail server. 
 
-**Why don't other messengers like Signal show such a warning?**
-
-Actually, Signal may show a similar warning about a changed 
-[safety number](https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed-) 
-but Signal does not provide an overall practical scheme for protecting group chats
-from compromise or corruption of their central Amazon-run and 
-Intel-reliant server cluster.
-For more discussion and comparison background 
-please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html).
 
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
 
@@ -619,7 +609,7 @@ If you don't need a longer-lived copy of your messages on the server,
 you can also turn on ["delete messages from server automatically"](#delold).
 
 
-### Does Delta Chat support Perfect Forward Secrecy?
+### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
 
 No, Delta Chat doesn't support Perfect Forward Secrecy (PFS).
 This means that if your Delta Chat private decryption key is leaked,
@@ -638,6 +628,20 @@ but encryption key management (and thus key rotation or key "ratcheting")
 could be organized in flexible ways.
 See [Seqouia's PFS prototype](https://gitlab.com/sequoia-pgp/openpgp-dr)
 for existing experiments in the OpenPGP implementor community.
+
+
+### Is end-to-end encryption of Delta Chat as safe as Signal? 
+
+It depends on what is important to you. 
+Delta Chat [does not support PFS](#pfs) like Signal does
+but it provides [guaranteed end-to-end encrypted chats](#e2eeguarantee)
+that are safe against compromised servers or corrupted networks. 
+Signal and most other PFS-supporting messengers do not provide 
+a practical scheme for protecting chat groups from network attacks
+which are arguably more worrysome 
+than a potential attacker who seizes your phone and private encryption setup
+but somehow not your messages, yet has a full record of all 
+past encrypted messages. YMMV. 
 
 
 ### Can I reuse my existing private key?
