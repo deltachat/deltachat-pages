@@ -641,8 +641,10 @@ a practical scheme for protecting chat groups from network attacks
 which are arguably more worrysome 
 than a potential attacker who seizes your phone and private encryption setup
 but somehow not your messages, yet has a full record of all 
-past encrypted messages. YMMV. 
+past encrypted messages. 
 
+In any case, Delta Chat's end-to-end encryption uses a [secure subset of OpenPGP](#openpgp-secure)
+which has been [independently security-audited](../assets/blog/2019-first-security-review.pdf).
 
 ### Can I reuse my existing private key?
 
