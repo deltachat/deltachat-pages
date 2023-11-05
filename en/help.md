@@ -302,7 +302,7 @@ Guaranteed end-to-end encryption is only available in green-checkmarked chats.
 Meet your chat partner outside Delta Chat, preferably in person
 but a second more virtual channel like a video chat
 or a different messenger is fine as well.
-Perform the following **QR show/scan procedure with your chat partner.**
+Perform the following QR show/scan procedure with your chat partner.
 
 **Both (QR INVITER and QR SCANNER)**:
 
