@@ -382,46 +382,61 @@ of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" 
 
 "Messages may not be end-to-end encrypted anymore" means
 that your contact uses inconsistent or no end-to-end encryption at all.
+Here are the possible causes and respective mitigations
 
-There are two causes to this warning which you can easily mitigate: 
+**They are using Delta chat on a new device (phone or laptop)**
 
-1. They are using Delta chat on a new phone, and didn't properly [transfer their
-   account through a single QR code scan](#multiclient).
+If they don't have their old Delta Chat app running anymore,
+then you need to [scan their QR code](#howtoe2ee)
+to get back to guaranteed encryption with them. 
 
-2. They reinstalled Delta Chat using their old account login 
-   but didn't import [a backup](#backup).
+If they have a Delta Chat app running on another device,
+they better remove the account from the new device 
+and [add a second device through a QR code scan](#multiclient).
+As soon as they message you afterwards, the warning will be gone
+and guaranteed encryption is re-established for this contact.
 
-If you are in an active green-checkmarked chat with the contact
-(see "Shared Chats" in the Contact profile) 
-it is best to re-add them by letting them scan a Group invite QR code 
-which automatically resolves the warning for yourself 
-and for all members of the green-checkmarked chat. 
-If there is no group chat simply use the direct [QR INVITE procedure](#howtoe2ee) 
+**They reinstalled Delta Chat using their old account login**
+ 
+If they have [a backup file](#backup) 
+they should remove the account from the new device 
+and rather import the backup file to re-create their account. 
+As soon as they message you afterwards, the warning will be gone
+and guaranteed encryption is re-established for this contact.
+
+If they don't have a backup file, you may perform a [QR scan](#howtoe2ee) 
 with your chat partner to re-establish guaranteed end-to-end encryption.
+However, if you both are in a green-checkmarked chat 
+(see "Shared Chats" in the Contact profile) 
+it's better to re-add them by letting them _scan the Group Invite QR code_
+from the group member list. 
+This will automatically resolve the warning for yourself 
+and for all members of the green-checkmarked chat. 
 
-There are two more causes and mitigations for the warning: 
+**They sent a mail through a webmail interface or another e-mail app
+and will get back to use Delta Chat soon again.**
 
-3. They sent a mail through a webmail interface or another e-mail app
-   but also will get back to use Delta Chat soon again. 
-   Simply accept the warning.
-   As soon as your contact uses Delta Chat again, 
-   guaranteed end-to-end encryption will be automatically re-enabled. 
+Simply accept the warning.
+As soon as your contact uses Delta Chat again, 
+guaranteed end-to-end encryption will be automatically re-established. 
 
-4. They stopped using Delta Chat at all. 
-   Accept the warning and remove the contact from any active green-checkmarked group 
-   (which you can find in "Shared chats" in the Contact profile). 
+**They stopped using Delta Chat at all**
 
-Don't fret too much about accepting the warning.
+Accept the warning and remove the contact from any active green-checkmarked group 
+(which you can find in "Shared chats" in the Contact profile). 
+
+Don't fret too much about the "May not be end-to-end encrypted anymore" warning.
 Sometimes remaining in contact is more important than end-to-end encryption.
-Chances are that ["Transport Layer Encryption" (TLS)](#tls) still protects 
-confidentiality of your messages between your device and the e-mail server. 
+Chances are that ["Transport Layer Encryption" (TLS)](#tls) still meaningfully protects 
+the confidentiality of your messages between your device and the e-mail server. 
 
 **Why don't other messengers like Signal show such a warning?**
 
 Signal does not provide a practical scheme to protect Signal users
 from compromise or corruption of their central Amazon-run and 
 Intel-reliant Signal server cluster.
-For more discussion and background on remaining safe in the face of compromised infrastructure 
+For more discussion and comparison background 
+on remaining safe against compromised infrastructure 
 see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html).
 
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
