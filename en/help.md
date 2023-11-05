@@ -390,7 +390,7 @@ If they have another device with a Delta Chat app running,
 they better remove the account from the new device 
 and add it [as a second device through a QR code scan](#multiclient).
 As soon as they message you afterwards, the warning will be gone
-and guaranteed encryption is established for both devices of your contact. 
+and guaranteed encryption is established with both devices of your contact. 
 
 **They reinstalled Delta Chat using their old account login**
  
