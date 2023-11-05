@@ -333,9 +333,7 @@ Wait a bit while "Secure-Join" network messages are exchanged between both devic
 
 Congratulations! You now will automatically use guaranteed end-to-end encryption
 with this contact and both of you can add each other to green-checkmarked groups,
-where all members can automatically use end-to-end encryption 
-with each other and in the group, living happily ever after. 
-
+thereby spreading guaranteed end-to-end encryption among its members. 
 
 ### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#verifiedchats}
 
