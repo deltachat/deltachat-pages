@@ -276,7 +276,7 @@ End-to-End encrypted messages are marked with a padlock
 
 [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
 are used for establishing chats with guaranteed end-to-end encryption 
-that protects against network attacks and compromised servers.
+which protects against network attacks and compromised servers.
 Chats marked with a green checkmark 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/> 
 guarantee end-to-end encrypted messages. 
