@@ -587,11 +587,15 @@ Replying unencrypted to unencrypted messages is mandated by Autocrypt
 to prevent unreadable messages on the side of your contacts
 and their non-Autocrypt e-mail app.
 
-If you need a safely end-to-end-encrypted chat with contacts
-who are using their account also with Autocrypt-incapable apps (e.g. webmail)
-it's best to create a [verified group chat](#createverifiedgroup) with them.
-Any message sent into a verified group chat will be end-to-end-encrypted
-irrespective of the last incoming message from a contact.
+### How can i get an end-to-end encrypted chat with a Delta Chat contact who sometimes uses webmail or another non-Autocrypt e-mail app? 
+
+If you need a safely end-to-end-encrypted chat with a contact 
+who is using their account both with Delta Chat and non-Autocrypt apps (e.g. webmail)
+it's best to setup [guaranteed end-to-end encryption with them](#howtoe2ee)
+and then create a guaranteed end-to-end encrypted group chat with you two as members. 
+In this group chat all messages will be end-to-end encrypted 
+even if the direct "1:1" chat between you has a 
+["Messages may not be end-to-end encrypted anymore"](#verificationbroken) warning. 
 
 
 ### How can I ensure message end-to-end encryption and deletion?
