@@ -382,7 +382,7 @@ of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" 
 
 "Messages may not be end-to-end encrypted anymore" means
 that your contact uses inconsistent or no end-to-end encryption at all.
-Here are the possible causes and respective mitigations
+Here are the possible causes and respective mitigations.
 
 **They are using Delta Chat on a second device (phone or laptop)**
 
