@@ -281,7 +281,7 @@ Chats marked with a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/> 
 guarantee end-to-end encrypted messages. 
 
-### When will messages be end-to-end-encrypted? {#whene2e}
+### When will messages be end-to-end encrypted? {#whene2e}
 
 All end-to-end encrypted messages carry a padlock
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/padlock.png" alt="padlock"/>.
@@ -350,7 +350,7 @@ thereby automatically spreading guaranteed end-to-end encryption among its membe
 
 Chat titles with green checkmarks
 (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" />)
-mean that all messages in the chat will be end-to-end-encrypted
+mean that all messages in the chat will be end-to-end encrypted
 and can not be read or altered by compromised e-mail servers or Internet providers. 
 Joining green-checkmarked group chats
 safely spreads everybody's encryption information (and green checkmarks)
@@ -440,7 +440,7 @@ please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/
 
 Yes.
 
-When we talk about an "end-to-end-encrypted message"
+When we talk about an "end-to-end encrypted message"
 we always mean a whole message is encrypted,
 including all the attachments
 and attachment metadata such as filenames.
@@ -517,7 +517,7 @@ will today typically be transport-encrypted as well.
 If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
 then transport encryption will be enforced in all inter e-mail server communications
 in which case Delta Chat communications will never be exposed in cleartext to the network
-even if the message was not end-to-end-encrypted.
+even if the message was not end-to-end encrypted.
 
 Note that [maintaining end-to-end encryption](#whene2e) on top of TLS encryption is highly advisable
 because it provides safety between your device and a contact's device,
@@ -527,7 +527,7 @@ irrespective of any hops over potentially compromised e-mail servers.
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
 
 Delta Chat protects most message metadata by putting the following information
-into the end-to-end-encrypted part of messages:
+into the end-to-end encrypted part of messages:
 
 - Subject line
 - Group avatar and name
@@ -571,8 +571,8 @@ the connection is safe.
 ### How can I check the encryption status of messages?
 
 A little **padlock** in a message bubble denotes
-that the message was properly end-to-end-encrypted from the given sender.
-If there is **no padlock**, the message was not properly end-to-end-encrypted
+that the message was properly end-to-end encrypted from the given sender.
+If there is **no padlock**, the message was not properly end-to-end encrypted
 most likely because the sender uses an app or webmail interface
 without support for end-to-end--encryption.
 
@@ -581,7 +581,7 @@ without support for end-to-end--encryption.
 
 If a contact uses a non-Autocrypt e-mail app,
 all messages involving this contact (in a group or 1:1 chat)
-will not be end-to-end-encrypted, and thus not show a "padlock" with messages.
+will not be end-to-end encrypted, and thus not show a "padlock" with messages.
 Note that even if your contacts use Delta Chat on their account,
 they might also use a non-Autocrypt e-mail app on that account
 which then may cause intermittently unencrypted messages.
@@ -591,7 +591,7 @@ and their non-Autocrypt e-mail app.
 
 ### How can i get an end-to-end encrypted chat with a Delta Chat contact who sometimes uses webmail or another non-Autocrypt e-mail app? 
 
-If you need a safely end-to-end-encrypted chat with a contact 
+If you need a safely end-to-end encrypted chat with a contact 
 who is using their account both with Delta Chat and non-Autocrypt apps (e.g. webmail)
 it's best to setup [guaranteed end-to-end encryption with them](#howtoe2ee)
 and then create a guaranteed end-to-end encrypted group chat with you two as members. 
@@ -728,7 +728,7 @@ This method is only recommended if "Add Second Device" as described above does n
     [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
     help you.
 - You are now synchronized, and can use both devices for sending and receiving
-  end-to-end-encrypted messages with your communication partners.
+  end-to-end encrypted messages with your communication partners.
 
 ### Are there any plans for introducing a Delta Chat Web Client?
 
