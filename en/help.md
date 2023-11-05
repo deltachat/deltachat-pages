@@ -30,7 +30,7 @@ recipient to install the same app as yours, as with other messengers.
 - _Fast_ by the use of Push-IMAP.
 - _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
 - _No Spam_ - only messages of known users are shown by default.
-- _End-to-end-encryption_ via Autocrypt.
+- _End-to-end encryption_ via Autocrypt.
 - _Copyleft_ and _Standards_ based libre software.
 - _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
@@ -266,37 +266,37 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 ## Encryption and Security
 
 
-### Which standards are used for End-to-End encryption?
+### Which standards are used for end-to-end encryption?
 
 [Autocrypt](https://autocrypt.org) is used for automatically
-establishing End-to-End-encryption with contacts and group chats.
+establishing end-to-end encryption with contacts and group chats.
 Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
 
 [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
-are used for establishing chats with guaranteed End-to-End encryption (green checkmark)
+are used for establishing chats with guaranteed end-to-end encryption (green checkmark)
 that protects against network attacks and compromised servers.
 
-### When will messages be End-to-End-encrypted?
+### When will messages be end-to-end-encrypted?
 
 All end-to-end encrypted messages carry a padlock.
 
-**End-to-End encryption takes place automatically**:
+**End-to-end encryption takes place automatically**:
 after a first message was received from an Autocrypt-capable contact.
-Delta Chat defaults to using End-to-End-encryption with that contact (and vice versa).
+Delta Chat defaults to using end-to-end encryption with that contact (and vice versa).
 
-**End-to-End encryption automatically spreads**:
-if you create a group chat with contacts where you previously established End-to-End encryption
-all group members will automatically use End-to-End-encryption with each other and in the group.
-However, if you add a contact where you didn't establish End-to-End encryption before,
+**End-to-end encryption automatically spreads**:
+if you create a group chat with contacts where you previously established end-to-end encryption
+all group members will automatically use end-to-end encryption with each other and in the group.
+However, if you add a contact where you didn't establish end-to-end encryption before,
 the group chat will not use E2E-encryption.
 
-**Guaranteed End-to-End encryption** helps you to avoid ever falling back
-from End-to-End encryption in a chat and also protects you and your chat partners
+**Guaranteed end-to-end encryption** helps you to avoid ever falling back
+from end-to-end encryption in a chat and also protects you and your chat partners
 from compromised servers and networks (also known as [MITM-attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
-Guaranteed End-to-End encryption is only available in green-checkmarked chats.
+Guaranteed end-to-end encryption is only available in green-checkmarked chats.
 
 
-### How can I get guaranteed End-to-End-Encryption? {#howtoe2ee}
+### How can I get guaranteed end-to-end encryption? {#howtoe2ee}
 
 **By performing a QR show/scan procedure with another contact 'next' to you.**
 
@@ -329,16 +329,16 @@ margin:1px" src="../assets/home/qrcode.png" /> on the Delta Chat app main screen
   If one of the devices is offline, the green checkmarks will only
   appear later when the device is internet-connected again.
 
-Congratulations! You now will automatically use guaranteed End-to-End-encryption
+Congratulations! You now will automatically use guaranteed end-to-end encryption
 with this contact and both of you can add each other
 to green-checkmarked groups,
-where all members can automatically use End-to-End encryption with each other and in the group.
+where all members can automatically use end-to-end encryption with each other and in the group.
 
 
-### What does the green checkmark and "guaranteed End-to-End encryption" mean? {#verifiedchats}
+### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#verifiedchats}
 
-If a chat title carries a green verification checkmark (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
-all messages in the chat will be End-to-End-encrypted
+If a chat title carries a green checkmark (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/ic_verified.png" />)
+all messages in the chat will be end-to-end-encrypted
 and can not be read or altered even by compromised e-mail servers.
 
 If a new member joins a group chat with a green checkmark
@@ -348,59 +348,75 @@ Joining green-checkmarked groups and observing new members joining there
 safely spreads everybody's encryption information in a peer-to-peer manner
 that can not be compromised by e-mail servers.
 
-Contact profiles show a green verification checkmark
-if messages with that contact will be guaranteed to be End-to-End encrypted.
+Contact profiles show a green checkmark
+if messaging a contact is guaranteed to be end-to-end encrypted.
 Every green-checkmarked Contact either did a direct [QR-scan](#howtoe2ee) with you
 or was introduced by an already green-checkmarked contact to you.
 Introductions happen automatically when a new green-checkmarked member is added to a group.
 Whoever adds a contact to a green-checkmarked group becomes an *introducer* for this contact
 for all those members who didn't yet know about the added contact.
-In a green-checkmarked Contact profile you can tap on the "introducer" repeatedly
+In a green-checkmarked Contact profile you can tap on the *introducer* repeatedly
 until you get to the green-checkmarked contact
 with which you did a [QR-scan](#howtoe2ee) yourself.
+All members of a green-checkmarked group were thus
+introduced to each other by a series of QR-code scans
+which can not be corrupted or compromised by e-mail servers or the transport network. 
 
-For in-depth discussion of "guaranteed End-to-End encryption"
+For in-depth discussion of "guaranteed end-to-end encryption"
 please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
 and specifically about "Verified Groups" which is the technical term
-of what is called "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+of what is now called "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
 
-### "Messages may not be End-to-End encrypted anymore", what does this mean? {#verificationbroken}
+### "Messages may not be end-to-end encrypted anymore", what does this mean? {#verificationbroken}
 
-"Messages may not be End-to-End encrypted anymore" means
-that your contact uses inconsistent or no End-to-End encryption at all.
-Two reasons that you can easily recover from:
+"Messages may not be end-to-end encrypted anymore" means
+that your contact uses inconsistent or no end-to-end encryption at all.
 
-- They are using a new phone, and didn't properly [transfer their
+There are two causes to this warning which you can easily mitigate: 
+
+- They are using Delta chat on a new phone, and didn't properly [transfer their
   account through a single QR code scan](#multiclient).
 
-- They reinstalled Delta Chat using the same e-mail account
+- They reinstalled Delta Chat using their old account login 
   but didn't import [a backup](#backup).
 
-If you want to carry on using guaranteed encryption with this contact
-you need to re-do a [QR INVITE procedure](#howtoe2ee).
-If this member was in a green-checkmarked chat group with you
-then it is recommended to show them a group QR invite code
-which they can scan to automatically re-join the group.
+If you want to continue using guaranteed encryption with this contact
+you need to re-do a [QR INVITE procedure](#howtoe2ee),
+i.e. show/scan a QR code with each other. 
 
-If your contact currently doesn't use Delta Chat at all,
-they have sent a mail through a webmail interface or other e-mail app.
-In this case you can not do much else than accept the situation
-and rely on so called "Transport encryption" (TLS) which
-avoids your messages appearing in cleartext in the internet.
+There are two more causes and mitigations for the warning: 
+
+- They sent a mail through a webmail interface or another e-mail app
+  but also will get back to use Delta Chat soon again. 
+  Simply accept the warning.
+  As soon as your contact uses Delta Chat again, 
+  guaranteed end-to-end encryption will be automatically re-enabled. 
+
+- They stopped using Delta Chat at all. 
+  You need to accept the warning and remove
+  the contact from any active green-checkmarked group 
+  (which you can find in "shared chats" in the Contact profile). 
+
+Don't fret about accepting the warning. 
+Sometimes remaining in contact is more important than end-to-end encryption.
+Chances are that "Transport encryption" (TLS) still protects 
+your messages with encryption between your device and the e-mail server
+because Delta Chat defaults to strong and security-audited Transport Encryption. 
 
 **Why don't other messengers like Signal show such a warning?**
 
 Signal does not provide a practical scheme to protect Signal users
-from compromise or corruption of their central AWS-run Signal server cluster.
-For more discussion and background
+from compromise or corruption of their central Amazon-run and 
+Intel-reliant Signal server cluster.
+For more discussion and background on remaining safe in the face of compromised infrastructure 
 see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html).
 
-### Are attachments (pictures, files, audio etc.) End-to-End encrypted?
+### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
 
 Yes.
 
-When we talk about an "End-to-End-encrypted message"
+When we talk about an "end-to-end-encrypted message"
 we always mean a whole message is encrypted,
 including all the attachments
 and attachment metadata such as filenames.
@@ -462,7 +478,7 @@ which contain exactly one encrypted and signed part,
 as defined by the Autocrypt Level 1 specification.
 
 
-### Is a message exposed in cleartext if End-to-End-encryption is not available? {#tls}
+### Is a message exposed in cleartext if end-to-end encryption is not available? {#tls}
 
 No,
 this does not necessarily mean that the message is exposed in cleartext.
@@ -477,9 +493,9 @@ will today typically be transport-encrypted as well.
 If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
 then transport encryption will be enforced in all inter e-mail server communications
 in which case Delta Chat communications will never be exposed in cleartext to the network
-even if the message was not End-to-End-encrypted.
+even if the message was not end-to-end-encrypted.
 
-Note that maintaining End-to-End-encryption on top of TLS encryption is highly advisable
+Note that maintaining end-to-end encryption on top of TLS encryption is highly advisable
 because it provides safety between your device and a contact's device,
 irrespective of any hops over potentially compromised e-mail servers.
 
@@ -487,7 +503,7 @@ irrespective of any hops over potentially compromised e-mail servers.
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
 
 Delta Chat protects most message metadata by putting the following information
-into the End-to-End-encrypted part of messages:
+into the end-to-end-encrypted part of messages:
 
 - Subject line
 - Group avatar and name
@@ -521,7 +537,7 @@ phone numbers in chat groups which in turn are often associated with passport id
 
 ### How can i check encryption information?
 
-You may check the End-to-End encryption status manually in the "Encryption" dialog
+You may check the end-to-end encryption status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop).
 Delta Chat shows two fingerprints there.
 If the same fingerprints appear on your own and your contact's device,
@@ -531,17 +547,17 @@ the connection is safe.
 ### How can I check the encryption status of messages?
 
 A little **padlock** in a message bubble denotes
-that the message was properly End-to-End-encrypted from the given sender.
-If there is **no padlock**, the message was not properly End-to-End-encrypted
+that the message was properly end-to-end-encrypted from the given sender.
+If there is **no padlock**, the message was not properly end-to-end-encrypted
 most likely because the sender uses an app or webmail interface
-without support for End-to-End--encryption.
+without support for end-to-end--encryption.
 
 
 ### Why do I see unencrypted messages?
 
 If a contact uses a non-Autocrypt e-mail app,
 all messages involving this contact (in a group or 1:1 chat)
-will not be End-to-End-encrypted, and thus not show a "padlock" with messages.
+will not be end-to-end-encrypted, and thus not show a "padlock" with messages.
 Note that even if your contacts use Delta Chat on their account,
 they might also use a non-Autocrypt e-mail app on that account
 which then may cause intermittently unencrypted messages.
@@ -549,21 +565,21 @@ Replying unencrypted to unencrypted messages is mandated by Autocrypt
 to prevent unreadable messages on the side of your contacts
 and their non-Autocrypt e-mail app.
 
-If you need a safely End-to-End-encrypted chat with contacts
+If you need a safely end-to-end-encrypted chat with contacts
 who are using their account also with Autocrypt-incapable apps (e.g. webmail)
 it's best to create a [verified group chat](#createverifiedgroup) with them.
-Any message sent into a verified group chat will be End-to-End-encrypted
+Any message sent into a verified group chat will be end-to-end-encrypted
 irrespective of the last incoming message from a contact.
 
 
-### How can I ensure message End-to-End-encryption and deletion?
+### How can I ensure message end-to-end encryption and deletion?
 
-The best way to ensure every message is encrypted,
+The best way to ensure every message is end-to-end encrypted,
 and metadata deleted as quickly as possible
-is [using verified chats](#howtoe2ee)
+is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
 and turning on disappearing messages.
 
-Verified chats are always encrypted and protected against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+Guranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 and turning on "disappearing messages" deletes the messages
 on the server after a user-configured time.
 
@@ -684,7 +700,7 @@ This method is only recommended if "Add Second Device" as described above does n
     [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
     help you.
 - You are now synchronized, and can use both devices for sending and receiving
-  End-to-End-encrypted messages with your communication partners.
+  end-to-end-encrypted messages with your communication partners.
 
 ### Are there any plans for introducing a Delta Chat Web Client?
 
@@ -872,7 +888,7 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 2. If possible, make your old e-mail provider forward all e-mails to your new
    email address
 3. Tell your contacts that you changed your address. If you write this to a
-   verified group, they will acknowledge this automatically.
+   guranteed end-to-end encrypted group, they will acknowledge this automatically.
 
 To learn about the details behind this, [read our blogpost on
 it](https://delta.chat/en/2022-09-14-aeap).
@@ -916,11 +932,11 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
   Chat; they do not offer receiving mails via IMAP.
 - In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be End-to-End
-  encrypted, though. The End-to-End encryption those providers offer is not
+  Protonmail, Tutanota, or Criptext. Those messages will not be end-to-end
+  encrypted, though. The end-to-end encryption those providers offer is not
   compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
   uses.
-- Delta Chat can End-to-End-encrypt through any e-mail provider with any
+- Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
@@ -966,7 +982,7 @@ The Delta Chat project underwent four independent security audits in the last ye
   apps shared in a chat" feature, related to failures of sandboxing
   especially with Chromium. We subsequently got an independent security
   audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
-  See [here for the full background story on End-to-End security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
+  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ### How are Delta Chat developments funded?
@@ -982,7 +998,7 @@ Concretely, Delta Chat developments have so far been funded from these sources:
 
 - The [NEXTLEAP](https://nextleap.eu) EU project funded the research
   and implementation of verified groups and setup contact protocols
-  in 2017 and 2018 and also helped to integrate End-to-End Encryption
+  in 2017 and 2018 and also helped to integrate end-to-end Encryption
   through [Autocrypt](https://autocrypt.org).
 
 - The [Open Technology Fund](https://opentechfund.org) gave us a 
