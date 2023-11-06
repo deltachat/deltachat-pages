@@ -298,7 +298,7 @@ All group members will automatically use end-to-end encryption with each other a
 However, if you add a contact where you didn't establish end-to-end encryption before,
 the group chat will not use end-to-end encryption.
 
-**End-to-end encryption is guaranteed in green-checkmarked chats**
+**In green-checkmarked chats, end-to-end encryption is guaranteed**
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/>. 
 You first need to [setup guaranteed end-to-end encryption with a contact](#howtoe2ee)
 and can then add and introduce them to a green-checkmarked group chat, 
@@ -329,6 +329,7 @@ on Desktop the QR Icon is in the left-side sandwich menu.
 
 - Choose "SCAN QR CODE" and scan the QR Code 
   that you see from your chat partner in a second channel.
+- Tap "OK"
 
 **Both sides**:
 
@@ -363,7 +364,7 @@ in a manner that guarantees end-to-end encryption in the group and among members
 Contact profiles with green checkmarks 
 (<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" />)
 mean that messaging a contact is currently guaranteed to be end-to-end encrypted.
-Every green-checkmarked Contact either did a direct [QR-scan](#howtoe2ee) with you
+Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
 or was introduced by a another green-checkmarked contact.
 Introductions happen automatically when adding members to groups. 
 Whoever adds a contact to a green-checkmarked group becomes an introducer 
@@ -373,8 +374,7 @@ until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
 Note that in a Contact profile you may see and tap introducers 
 but there is no green checkmark in the profile title. 
-This means that the contact uses an inconsistent encryption setup and your chat with the contact
-will show a ["Messages may not be end-to-end encrypted anymore"](#nocryptanymore) warning. 
+This usually means that the contact ["sent a message from another device"](#nocryptanymore). 
 
 For more in-depth discussion of "guaranteed end-to-end encryption"
 please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
@@ -382,13 +382,13 @@ and specifically read about "Verified Groups", the technical term
 of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
 
-### "Messages may not be end-to-end encrypted anymore", what can i do? {#nocryptanymore}
+### A contact "sent a message from another device", what can i do? {#nocryptanymore}
 
 "Messages may not be end-to-end encrypted anymore" means
 that your contact uses inconsistent or no end-to-end encryption at all.
 Here are the possible causes and respective mitigations.
 
-**They are using Delta Chat on a second device (phone or laptop)**
+**Your contact is using Delta Chat on a second device (phone or laptop)**
 
 If they have another device with a Delta Chat app running,
 they better remove the account from the new device 
@@ -396,7 +396,7 @@ and add it [as a second device through a QR code scan](#multiclient).
 As soon as they message you afterwards, the warning will be gone
 and guaranteed encryption is established with both devices of your contact. 
 
-**They reinstalled Delta Chat using their old account login**
+**Your contact reinstalled Delta Chat using their old account login**
  
 If they have [a backup file](#backup) 
 they should remove the account from the new device 
@@ -413,14 +413,14 @@ from the group member list.
 This will automatically resolve the warning for yourself 
 and for all members of the green-checkmarked chat. 
 
-**They sent a mail through a webmail interface or another e-mail app
+**Your contact sent a mail through a webmail interface or another e-mail app
 and will get back to use Delta Chat soon again.**
 
 Simply accept the warning.
 As soon as your contact uses Delta Chat again, 
 guaranteed end-to-end encryption will be automatically re-established. 
 
-**They stopped using Delta Chat at all**
+**Your contact stopped using Delta Chat at all**
 
 Accept the warning and remove the contact from any active green-checkmarked group 
 (which you can find in "Shared chats" in the Contact profile). 
@@ -591,7 +591,7 @@ who is using their account both with Delta Chat and non-Autocrypt apps (e.g. web
 it's best to setup [guaranteed end-to-end encryption with them](#howtoe2ee)
 and then create a guaranteed end-to-end encrypted group chat with you two as members. 
 In this group chat all messages will be end-to-end encrypted 
-even if the direct "1:1" chat between you has a 
+even if the direct chat between you two has a
 ["Messages may not be end-to-end encrypted anymore"](#nocryptanymore) warning. 
 
 
