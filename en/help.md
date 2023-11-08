@@ -282,7 +282,7 @@ Chats marked with a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/> 
 guarantee end-to-end encrypted messages. 
 
-### When will messages be end-to-end encrypted? {#whene2e}
+### How can i know if messages are end-to-end encrypted? {#whene2e}
 
 All end-to-end encrypted messages carry a padlock
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/padlock.png" alt="padlock"/>.
@@ -384,13 +384,23 @@ of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" 
 
 ### A contact "sent a message from another device", what can i do? {#nocryptanymore}
 
-Here are the possible causes and respective mitigations for getting warned
-that a contact "sent a message from another device":
+Your chat with a contact lost guaranteed end-to-end encryption. 
+The green checkmark was removed for this chat and contact when you see this warning. 
+**If you find the sudden drop of guaranteed end-to-end encryption 
+surprising for this contact then don't accept the warning!**
+Instead check with your contact through a second channel 
+like a video call, other messenger or a phone call,
+to find out what happened. 
+
+If your contact actually caused the drop of guaranteed end-to-end encryption
+please see the next paragraphs for common reasons and their mitigations. 
+Regardless, all other green-checkmarked chats remain guaranteed end-to-end encrypted
+even if the contact is a member there. 
 
 **Your contact is using Delta Chat on a second device (phone or laptop)**
 
 If they have another device with a Delta Chat app running,
-they better remove the account from the new device 
+they should remove the account from the new device
 and add it [as a second device through a QR code scan](#multiclient).
 As soon as they message you afterwards, the warning will be gone
 and guaranteed encryption is established with both devices of your contact. 
@@ -413,21 +423,30 @@ This will automatically resolve the warning for yourself
 and for all members of the green-checkmarked chat. 
 
 **Your contact sent a mail through a webmail interface or another e-mail app
-and will get back to use Delta Chat soon again.**
+and will get back to using Delta Chat soon again.**
 
-Simply accept the warning.
+If you are sure that the contact sometimes uses webmail,
+or another mail app lacking end-to-end encryption,
+then you may accept the warning.
 As soon as your contact uses Delta Chat again, 
 guaranteed end-to-end encryption will be automatically re-established. 
 
-**Your contact stopped using Delta Chat at all**
+**Your contact stopped using Delta Chat entirely**
 
-Accept the warning and remove the contact from any active green-checkmarked group 
-(which you can find in "Shared chats" in the Contact profile). 
-
-Don't fret too much about the "May not be end-to-end encrypted anymore" warning.
 Sometimes remaining in contact is more important than end-to-end encryption.
-Chances are that ["Transport Layer Encryption" (TLS)](#tls) still meaningfully protects 
+["Transport Layer Encryption" (TLS)](#tls) may still meaningfully protect
 the confidentiality of your messages between your device and the e-mail server. 
+But without end-to-end encryption you and your contract are trusting your e-mail server 
+to not read or manipulate your messages, and to not hand them to third parties. 
+
+In any case, you can not do much else than accept the warning.
+Please also remove the contact from any active green-checkmarked group 
+which you can find in "Shared chats" in the Contact profile. 
+This spares your contact from getting "unreadable" messages. 
+
+If the contact removed Delta Chat because of buggy or undesirable behaviour, 
+please consider posting to our [support forum](https://support.delta.chat) 
+to help us identify and address common problems. Thanks!
 
 
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
@@ -498,24 +517,27 @@ as defined by the Autocrypt Level 1 specification.
 
 ### Is a message exposed in cleartext if end-to-end encryption is not available? {#tls}
 
-No,
-this does not necessarily mean that the message is exposed in cleartext.
+Even if your messages are not guaranteed to be end-to-end encrypted, 
+they are still protected from Internet providers like cell or cable companies. 
+However, your and your recipient's e-mail providers 
+may read, analyze or even modify your messages, 
+including any attachments,
+if they are not end-to-end encrypted. 
 
-Delta Chat always uses ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)) encryption
-which secures connections between your device and your e-mail provider
-unless you explicitly disable it.
+Delta Chat by default uses strict 
+[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security)) 
+which secures connections between your device and your e-mail provider. 
 All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-
 Moreover, the connection between your and the recipient's e-mail provider
-will today typically be transport-encrypted as well.
+will typically be transport-encrypted as well.
 If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced in all inter e-mail server communications
-in which case Delta Chat communications will never be exposed in cleartext to the network
+then transport encryption will be enforced between e-mail providers 
+in which case Delta Chat communications will never be exposed in cleartext to the Internet
 even if the message was not end-to-end encrypted.
 
-Note that [maintaining end-to-end encryption](#whene2e) on top of TLS encryption is highly advisable
-because it provides safety between your device and a contact's device,
-irrespective of any hops over potentially compromised e-mail servers.
+Note that [maintaining guaranteed end-to-end encryption](#whene2e) on top of TLS encryption 
+is highly advisable because it provides safety between your and the recipient's devices.
+Not even your e-mail provider will be able to read or modify your messages. 
 
 
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
@@ -550,7 +572,7 @@ so you can easily use action-specific "1-week" or "1-month" accounts next to you
 with the knowledge that all temporary account data, along with all metadata, will be deleted.
 Moreover, if a device is seized then contacts using temporary e-mail accounts
 can not be identified easily, as compared to messengers which reveal
-phone numbers in chat groups which in turn are often associated with passport identities.
+phone numbers in chat groups which in turn are often associated with legal identities.
 
 
 ### How can i check encryption information?
@@ -829,17 +851,18 @@ extendable messenger.
 
 ## Experimental Features
 
-We are very grateful about feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute. (You
-like experiments? Register through "Sign up -> with Delta Chat"!)
+We are very grateful for feedback on these features - do you want to share
+your ideas? Join the [Forum](https://support.delta.chat) to contribute. 
+You may conveniently login via Delta Chat and a QR code scan,
+another rather stable experiment we run on the side (sic!).
 
 ### How can I use audio/video calls with Delta Chat?
 
 - To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "videochat instance". 
+  the advanced settings and choose a "Video Chat Instance". 
 - When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to your jitsi/BBB room. This
-  way, it is also compatible if your chat partners don't use Delta Chat.
+  once. The others receive an e-mail with a link to the video chat. 
+  This way, it is also compatible if your chat partners don't use Delta Chat.
 - Note that there is no ring tone on the other side, and your chat partners
   will not get interrupted by a video chat invite.
 - You can use any video chat service which allows joining by link. Just add the
@@ -920,15 +943,24 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 
 ### How can I change my account to a different e-mail address?
 
-1. Change your address at the “Password and Account” seetings screen in Delta
-   Chat, enter your password (and if necessary, server settings) for the new
-   account
-2. If possible, make your old e-mail provider forward all e-mails to your new
-   email address
-3. Tell your contacts that you changed your address. If you write this to a
-   guranteed end-to-end encrypted group, they will acknowledge this automatically.
+1. Change your address in “Settings - Password and Account” and
+   enter the password of your new account (and if necessary, server settings).
+   You will get an information notice about the fact that you are moving to a new address. 
+   An additional notice will also show up in your "Device messages" chat. 
 
-To learn about the details behind this, [read our blogpost on
+2. If possible, let your old e-mail provider forward all messages to your new address.
+
+3. Tell your contacts that you changed your address. 
+   Writing to guaranteed end-to-end encrypted chats and groups,
+   will make them notice your move automatically 
+   and they will continue chatting with you using your new address. 
+
+Note that Delta Chat will not retrieve messages anymore from your old e-mail provider.
+If you didn't configure your e-mail provider to forward messages (step 2.) 
+only those contacts to whom you sent a message in a guaranteed end-to-end encrypted chat
+will send messages to your new address. 
+
+To learn more about this the details behind this, [read our blogpost on
 it](https://delta.chat/en/2022-09-14-aeap).
 
 
@@ -1049,7 +1081,7 @@ Concretely, Delta Chat developments have so far been funded from these sources:
   to provide new features for all platforms.  
 
 - The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot ecosystem. 
+  completing Rust/Python bindings and instigating a Chat-bot eco-system. 
 
 - In 2021 we received further EU funding for two Next-Generation-Internet
   proposals, namely for [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-account support, improved QR-code contact and group setups and many networking improvements on all platforms.
