@@ -420,21 +420,25 @@ This will automatically resolve the warning for yourself
 and for all members of the green-checkmarked chat. 
 
 **Your contact sent a mail through a webmail interface or another e-mail app
-and will get back to use Delta Chat soon again.**
+and will get back to using Delta Chat soon again.**
 
 Simply accept the warning.
 As soon as your contact uses Delta Chat again, 
 guaranteed end-to-end encryption will be automatically re-established. 
+<!-- two things here:
+1. I'd avoid using "simply" in this paragraph for the reasons outlined in https://justsimply.dev/
+2. in general this is a dangerous habit to encourage (dismiss the possibly important security warning). I don't have a better suggestion in mind as far as the FAQ is concerned, but alert fatigue can be disastrous and it might be worth rethinking the current approach
+-->
 
-**Your contact stopped using Delta Chat at all**
+**Your contact stopped using Delta Chat entirely**
 
 Accept the warning and remove the contact from any active green-checkmarked group 
-(which you can find in "Shared chats" in the Contact profile). 
+(which you can find in "Shared chats" in the Contact profile). <!-- it would be interesting to make this possible from a single button in their Contact profile -->
 
-Don't fret too much about the "May not be end-to-end encrypted anymore" warning.
+Don't fret too much about the "May not be end-to-end encrypted anymore" warning. <!-- in principle I agree that there are situations where I'd rather fall back to regular mail rather than insist on maintaining encryption and losing contact, but I'd probably rephrase this paragraph to exclude "Don't fret too much" which could be seen as dismissive to people who really do require e2e -->
 Sometimes remaining in contact is more important than end-to-end encryption.
 Chances are that ["Transport Layer Encryption" (TLS)](#tls) still meaningfully protects 
-the confidentiality of your messages between your device and the e-mail server. 
+the confidentiality of your messages between your device and the e-mail server. <!-- I think I'd feel better about this conclusion if it said "_may_ still meaningfully protect". ideally we don't want anyone to panic, but it is worth reminding people to reflect on their use-case and threat model (without necessarily using that jargon) -->
 
 
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
@@ -840,7 +844,7 @@ extendable messenger.
 
 ## Experimental Features
 
-We are very grateful about feedback on these features - do you want to share <!-- grateful _for_ feedback -->
+We are very grateful for feedback on these features - do you want to share 
 your ideas? Join the [Forum](https://support.delta.chat) to contribute. (You
 like experiments? Register through "Sign up -> with Delta Chat"!)
 
