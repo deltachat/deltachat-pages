@@ -289,13 +289,13 @@ All end-to-end encrypted messages carry a padlock
 
 **End-to-end encryption is established automatically**
 after a first message was received from an Autocrypt-capable contact.
-Delta Chat defaults to using end-to-end encryption with that contact,
-and the other way round. 
+Delta Chat defaults to using end-to-end encryption with that contact.
 
 **End-to-end encryption automatically spreads**
 if you create a group chat with contacts where you previously established end-to-end encryption.
 All group members will automatically use end-to-end encryption with each other and in the group.
-However, if you add a contact where you didn't establish end-to-end encryption before,
+However, if you add a contact who doesn't use Delta Chat (and no other Autocrypt-capable client),
+or a contact who never sent a message to you,
 the group chat will not use end-to-end encryption.
 
 **In green-checkmarked chats, end-to-end encryption is guaranteed**
@@ -369,10 +369,10 @@ or was introduced by a another green-checkmarked contact.
 Introductions happen automatically when adding members to groups. 
 Whoever adds a contact to a green-checkmarked group becomes an introducer 
 to those members who didn't yet know about the added contact.
-In a Contact profile you can tap on the "Introduced by ..." text repeatedly
+In a contact profile you can tap on the "Introduced by ..." text repeatedly
 until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
-Note that in a Contact profile you may see and tap introducers 
+Note that in a contact profile you may see and tap introducers 
 but there is no green checkmark in the profile title. 
 This usually means that the contact ["sent a message from another device"](#nocryptanymore). 
 
@@ -384,9 +384,8 @@ of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" 
 
 ### A contact "sent a message from another device", what can i do? {#nocryptanymore}
 
-"Messages may not be end-to-end encrypted anymore" means
-that your contact uses inconsistent or no end-to-end encryption at all.
-Here are the possible causes and respective mitigations.
+Here are the possible causes and respective mitigations for getting warned
+that a contact "sent a message from another device":
 
 **Your contact is using Delta Chat on a second device (phone or laptop)**
 
@@ -398,7 +397,7 @@ and guaranteed encryption is established with both devices of your contact.
 
 **Your contact reinstalled Delta Chat using their old account login**
  
-If they have [a backup file](#backup) 
+If they have [a backup file](#backup), 
 they should remove the account from the new device 
 and rather import the backup file to re-create their account. 
 As soon as they message you afterwards, the warning will be gone
@@ -587,12 +586,12 @@ and their non-Autocrypt e-mail app.
 ### How can i get an end-to-end encrypted chat with a Delta Chat contact who sometimes uses webmail or another non-Autocrypt e-mail app? 
 
 If you need a safely end-to-end encrypted chat with a contact 
-who is using their account both with Delta Chat and non-Autocrypt apps (e.g. webmail)
+who is using their account both with Delta Chat and non-Autocrypt apps (e.g. webmail),
 it's best to setup [guaranteed end-to-end encryption with them](#howtoe2ee)
 and then create a guaranteed end-to-end encrypted group chat with you two as members. 
 In this group chat all messages will be end-to-end encrypted 
 even if the direct chat between you two has a
-["Messages may not be end-to-end encrypted anymore"](#nocryptanymore) warning. 
+["… sent a message from another device"](#nocryptanymore) warning. 
 
 
 ### How can I ensure message end-to-end encryption and deletion?
