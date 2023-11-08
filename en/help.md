@@ -284,6 +284,8 @@ guarantee end-to-end encrypted messages.
 
 ### When will messages be end-to-end encrypted? {#whene2e}
 
+<!-- this almost sounds like a roadmap question. it might be better to phrase it as "how can I tell if..." -->
+
 All end-to-end encrypted messages carry a padlock
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/padlock.png" alt="padlock"/>.
 
@@ -306,6 +308,8 @@ automatically spreading guaranteed end-to-end encryption among all chat members.
 
 
 ### How can I get guaranteed end-to-end encryption and green checkmarks? {#howtoe2ee}
+
+<!-- perhaps worthwhile to recommend that the secondary channel be e2e-encrypted, if possible -->
 
 Meet your chat partner outside Delta Chat, preferably in person
 but a second channel like a video chat
@@ -371,6 +375,8 @@ Whoever adds a contact to a green-checkmarked group becomes an introducer
 to those members who didn't yet know about the added contact.
 In a Contact profile you can tap on the "Introduced by ..." text repeatedly
 until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
+
+<!-- a diagram depicting the web of trust could probably help people process the introducer chain. I'm primarily thinking of an example in the faq to demonstrate the generic concept of a web of trust, but perhaps in the future this could be an interactive feature of delta chat accessible via the contact profile UI? -->
 
 Note that in a Contact profile you may see and tap introducers 
 but there is no green checkmark in the profile title. 
@@ -499,6 +505,10 @@ as defined by the Autocrypt Level 1 specification.
 
 ### Is a message exposed in cleartext if end-to-end encryption is not available? {#tls}
 
+<!-- this is another place where I think it would be really helpful to have a good diagram to indicate what parties could be involved in sending an email: (you, the recipient(s), your email provider, that of all a message's recipients, and then various other infrastructure providers (telecom, wifi access points, etc.).
+
+As it stands this section requires a considerable amount of external reading to make sense of whether the reader can safely proceed. "No, not necessarily" and "will today typically be transport-encrypted as well" are generally correct, but are premised on assumptions that most readers won't be capable of verifying. In particular I think most readers will not understand the concrete implications of being exposed to "the network" or what it means for an e-mail server to be compromised (hackers? nation states? ad-tech? insider threats?). -->
+
 No,
 this does not necessarily mean that the message is exposed in cleartext.
 
@@ -551,7 +561,7 @@ so you can easily use action-specific "1-week" or "1-month" accounts next to you
 with the knowledge that all temporary account data, along with all metadata, will be deleted.
 Moreover, if a device is seized then contacts using temporary e-mail accounts
 can not be identified easily, as compared to messengers which reveal
-phone numbers in chat groups which in turn are often associated with passport identities.
+phone numbers in chat groups which in turn are often associated with legal identities.
 
 
 ### How can i check encryption information?
@@ -830,16 +840,16 @@ extendable messenger.
 
 ## Experimental Features
 
-We are very grateful about feedback on these features - do you want to share
+We are very grateful about feedback on these features - do you want to share <!-- grateful _for_ feedback -->
 your ideas? Join the [Forum](https://support.delta.chat) to contribute. (You
 like experiments? Register through "Sign up -> with Delta Chat"!)
 
 ### How can I use audio/video calls with Delta Chat?
 
 - To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "videochat instance". 
+  the advanced settings and choose a "Video Chat Instance". 
 - When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to your jitsi/BBB room. This
+  once. The others receive an e-mail with a link to your jitsi/BBB room. This <!-- consider replacing jitsi/BBB with "video chat instance"... in case the reader does not know what jitsi/BBB are. -->
   way, it is also compatible if your chat partners don't use Delta Chat.
 - Note that there is no ring tone on the other side, and your chat partners
   will not get interrupted by a video chat invite.
@@ -927,7 +937,7 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 2. If possible, make your old e-mail provider forward all e-mails to your new
    email address
 3. Tell your contacts that you changed your address. If you write this to a
-   guranteed end-to-end encrypted group, they will acknowledge this automatically.
+   guaranteed end-to-end encrypted group, their device(s) will acknowledge this automatically.
 
 To learn about the details behind this, [read our blogpost on
 it](https://delta.chat/en/2022-09-14-aeap).
@@ -1030,7 +1040,7 @@ Delta Chat does not receive any Venture Capital and
 is not indebted, and under no pressure to produce huge profits, or to
 sell users and their friends and family to advertisers (or worse).
 We rather use public funding sources, so far from EU and US origins, to help
-our efforts in instigating a decentralized and diverse chat messaging eco-system
+our efforts in instigating a decentralized and diverse chat messaging ecosystem 
 based on Free and Open-Source community developments.
 
 Concretely, Delta Chat developments have so far been funded from these sources:
