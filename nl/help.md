@@ -157,20 +157,18 @@ Negeer een gesprek via het gespreksmenu (Android/computer) of het gespreksprofie
 
 ### Wat betekent die groene stip?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [webxdc app](#webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Sinds Delta Chat 1.34 wordt er soms een groen stipje naast een profielfoto van een
+  contactpersoon getoond. Dit betekent dat ze onlangs actief waren,
+  dat wil zeggen: in de afgelopen 10 minuten. Dit komt omdat ze
+  - je een bericht hebben gestuurd;
+  - iets in een van je groepen hebben geplaatst;
+  - een leesbevestiging hebben verstuurd;
+  - gegevens naar je Delta Chat-app middels een zogeheten
+    [privé-app](#webxdc) hebben verstuurd.
+- De online-status is dus **niet** realtime. Geef ze dus even de tijd om te antwoorden. ;-)
+- Anderen kunnen ook niet altijd zien dat je actief was. Als je
+  leesbevestigingen hebt uitgeschakeld, dan wordt er geen groen stipje getoond totdat je
+  iemand benaderd of iets in een groep plaatst..
 
 
 ### Hoe kan ik mijn account verwijderen?
@@ -251,9 +249,9 @@ afhankelijk van hoe vaak je het andere apparaat gebruikt.
   ‘na één uur’ en ‘na één jaar’ kiezen. *Alle berichten die ouder zijn, worden verwijderd.
 
 
-## Encryption and Security 
+## Beveiliging en versleuteling
 
-### Which standards are used for end-to-end encryption? 
+### Welke standaarden worden gebruikt bij eind-tot-eindversleuteling?
 
 [Autocrypt](https://autocrypt.org) is used for automatically
 establishing E2E-encryption with contacts and group chats. 

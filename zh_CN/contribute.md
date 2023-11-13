@@ -9,9 +9,6 @@ lang: zh_CN
 
 - [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
 
-- With your Delta Chat app you can send a `/list` message to [a community
-  groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) to discover and join various chat groups.
-
 - [Delta Chat 支持论坛](https://support.delta.chat) ：更广泛的功能讨论和获得支持。
 
 - [Delta Chat 仓库](https://github.com/deltachat/) ：在这里可以找到 DeltaChat 应用和本网站的代码。
@@ -31,3 +28,26 @@ lang: zh_CN
 我们一直在寻找开发和设计人员。我们一般提供每周 20-30 小时的合同或工作（如果位于德国）。如果您愿意帮助我们，请联系 (delta at merlinux eu) ！ 
 
 For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+
+
+# Third party communication channels 
+
+The following Delta Chat related communication channels are run by third parties
+which may or may not follow our [Community Standards](community-standards): 
+
+- With your Delta Chat app you can send a `/list` message to 
+  [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
+  to discover and join various chat groups.
+
+- An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
+  bridged to the groupbot English Delta Chat community chat group.
+
+- A [Lemmy community](https://lemmy.zip/c/delta_chat)
+  which you can follow by putting `!delta_chat@lemmy.zip` 
+  into the search field of your fediverse app.
+
+- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above)
+or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).

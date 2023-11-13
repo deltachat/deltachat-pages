@@ -62,16 +62,16 @@ Laten we van het volgende uitgaan:
 
 Je kunt de domeininstellingen van voorbeeld.org dan als volgt instellen:
 
-| Type  | Name                      | Data                                                 | TTL  | Priority |
-|-------|---------------------------|------------------------------------------------------|------|----------|
-| A     | mail.example.org          | 24.48.100.24                                         | 5min |          |
-| AAAA  | mail.example.org          | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
-| MX    | @                         | mail.example.org                                     | 5min |    10    |
-| CNAME | autoconfig.example.org    | mail.example.org                                     | 5min |          |
-| CNAME | autodiscover.example.org  | mail.example.org                                     | 5min |          |
-| CNAME | mailadm.example.org       | mail.example.org                                     | 5min |          |
-| TXT   | @                         | "v=spf1 mx -all"                                     | 5min |          |
-| TXT   | \_dmarc.example.org       | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+| Type  | Naam            | Gegevens                                                 | TTL  | Prioriteit |
+|-------|-----------------|------------------------------------------------------|------|----------|
+| A     | mail            | 24.48.100.24                                         | 5min |          |
+| AAAA  | mail            | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
+| MX    | @               | mail.voorbeeld.org                                     | 5min |    10    |
+| CNAME | autoconfig      | mail.voorbeeld.org                                     | 5min |          |
+| CNAME | autodiscover    | mail.voorbeeld.org                                     | 5min |          |
+| CNAME | mailadm         | mail.voorbeeld.org                                     | 5min |          |
+| TXT   | @               | "v=spf1 mx -all"                                     | 5min |          |
+| TXT   | _dmarc          | v=DMARC1;p=quarantine;rua=mailto:mailadm@voorbeeld.org | 5min |          |
 
 Je kunt de DKIM-sleutel instellen nadat je Mailcow heb ingesteld,
 en wel via Systeem → Configuratie → Opties → ARC-/DKIM-sleutels.
@@ -178,11 +178,11 @@ De volgende instellingen zijn afdoende:
 Ga dan naar E-mail → Configuratie → Mailboxes en maak je eerste account aan.
 Je kunt dit account meteen testen in Delta Chat.
 
-#### Recommended: Add Additional DNS Entries
+#### Aanbevolen: voeg aanvullende dns-items toe
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further recommendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+In E-mail → Configuratie → Domeinen, direct naast je domeinnaam, staat een blauwe
+dns-knop. Hieronder staan aanbevelingen voor dns-items die kunnen
+helpen als je problemen met de aflevering van e-mails aan andere servers ervaart.
 
 ![Dns-instellingen in Mailcow](../assets/blog/mailcow-dns-settings.png)
 
@@ -292,7 +292,7 @@ Neem hiervoor de [documentatie](https://mailadm.readthedocs.io/en/latest/#first-
 door. De documentatie bevat tevens probleem-
 oplossingstips.
 
-## Recommended: Disable POP3
+## Aanbevolen: schakel pop3 uit
 
 Delta Chat maakt alleen gebruik van SMTP en IMAP,
 dus als al je gebruikers alleen gebruikmaken van Delta Chat,
@@ -307,7 +307,7 @@ POPS_PORT=127.0.0.1:995
 
 Pas de wijzigingen toe met de opdracht `sudo docker compose up -d`.
 
-## Recommended: Redirect all HTTP traffic to HTTPS
+## Aanbevolen: verwijs http-verkeer door naar https
 
 Standaard reageert
 de nginx-server op onversleutelde opdrachten
@@ -339,7 +339,7 @@ server {
 
 Pas de wijzigingen toe met de opdracht `sudo docker compose restart nginx-mailcow`.
 
-## Recommended: No Logs, No Masters
+## Aanbevolen: geen logboeken
 
 Mailcow houdt de ip-adressen van al je gebruikers bij voor foutopsporingsdoeleinden. Als je deze
 kritieke informatie niet op je server wilt bewaren, dan kun je
@@ -386,17 +386,17 @@ Neem de [Mailcow-logboek-
 documentatie](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
 door om meer te weten te komen over alternatieve configuraties.
 
-## Recommended: Add Reverse DNS Entries at Your Provider
+## Aanbevolen: voeg omgekeerde dns-items (rDNS) toe aan je provider
 
-You might also create reverse DNS entries
-for the IPv4 and IPv6 addresses of your server,
-containing your domain.
-Reverse DNS entries improve deliverability;
-it helps other mail server
-distinguish your user's mails from spam.
+Je kunt ook omgekeerde dns-items voor ipv4- en ipv6-
+items toevoegen aan de server waarop je
+domein draait.
+Omgekeerde dns-items kunnen zorgen voor een betere bezorging, omdat
+andere e-mailservers e-mails van jouw
+gebruikers kunnen onderscheiden van ongewenste e-mail.
 
-Setting rDNS entries should be possible
-in the hosting provider web interface.
-You can read more about it
-[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+Het instellen van rDNS-items zou mogelijk moeten zijn
+in de online-instellingen van je hostingprovider.
+Meer informatie is te vinden
+[in dit artikel](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
 
