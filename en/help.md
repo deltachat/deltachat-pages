@@ -301,11 +301,11 @@ One of you is the "Inviter", the other is the "Joiner".
 
 **Inviter side**:
 
-- Group-invitation: 
+- Group invitation: 
   Tap the chat group title to see its member list, and select "QR Invite code". 
   Share the QR image with the other side either in person or through a second channel.
 
-- Direct Chat invitation: 
+- Direct 1:1 chat invitation: 
   Tap the QR Code icon <img style="vertical-align:middle; width:2em;
 margin:1px" src="../assets/home/qrcode.png" /> 
   on the Delta Chat app main screen -- 
