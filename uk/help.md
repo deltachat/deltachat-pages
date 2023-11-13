@@ -204,7 +204,7 @@ Delta Chat це новий додаток для спілкування, яки�
 
 ## Encryption and Security 
 
-### Which standards are used for end-to-end encryption? 
+### Які стандарти використовуються для наскрізного шифрування?
 
 [Autocrypt](https://autocrypt.org) is used for automatically
 establishing E2E-encryption with contacts and group chats. 

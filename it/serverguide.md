@@ -179,11 +179,11 @@ Una cosa del genere ha senso:
 Successivamente, puoi andare su "E-Mail > Configurazione > Caselle di posta" e creare un primo account.
 Puoi provarlo ora con Delta Chat.
 
-#### Recommended: Add Additional DNS Entries
+#### Consigliato: Aggiungi Ulteriori Voci DNS
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further recommendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+In "E-Mail > Configurazione > Domini", a destra accanto al tuo dominio, puoi vedere un pulsante
+blu "DNS". Fornisce ulteriori consigli per le voci DNS che potrebbero
+aiutarti se hai problemi a consegnare le tue e-mail ad altri server.
 
 ![Visualizzazione delle impostazioni DNS in Mailcow](../assets/blog/mailcow-dns-settings.png)
 
@@ -294,7 +294,7 @@ Dai un'occhiata alla documentazione per i [primi
 passi](https://mailadm.readthedocs.io/en/latest/#first-steps) - e contiene
 anche suggerimenti per la risoluzione dei problemi d'installazione se qualcosa non funziona.
 
-## Recommended: Disable POP3
+## Consigliato: Disabilita POP3
 
 Delta Chat utilizza solo SMTP e IMAP,
 quindi, se tutti i tuoi utenti utilizzano Delta Chat,
@@ -309,7 +309,7 @@ POPS_PORT=127.0.0.1:995
 
 Quindi applica le modifiche con `sudo docker compose up -d`.
 
-## Recommended: Redirect all HTTP traffic to HTTPS
+## Consigliato: Reindirizzare tutto il traffico HTTP su HTTPS
 
 Per impostazione predefinita,
 anche il server nginx risponde in chiaro
@@ -341,7 +341,7 @@ server {
 
 Quindi applica le modifiche con `sudo docker compose restart nginx-mailcow`.
 
-## Recommended: No Logs, No Masters
+## Consigliato: Nessun Logs, Nessun Masters
 
 Mailcow registra gli indirizzi IP dei tuoi utenti a scopo di debug, quindi se tu
 non vuoi mantenere queste informazioni critiche sul tuo server, potresti voler
@@ -388,17 +388,17 @@ Prendi in considerazione l'idea di esaminare il file [Registrazione di Mailcow
 documentazione](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
 per alternative a questa configurazione.
 
-## Recommended: Add Reverse DNS Entries at Your Provider
+## Consigliato: Aggiungi Voci DNS Inverse al Tuo Provider
 
-You might also create reverse DNS entries
-for the IPv4 and IPv6 addresses of your server,
-containing your domain.
-Reverse DNS entries improve deliverability;
-it helps other mail server
-distinguish your user's mails from spam.
+Potresti anche creare voci DNS inverse
+per gli indirizzi IPv4 e IPv6 del tuo server,
+contenente il tuo dominio.
+Le voci DNS inverse migliorano la consegna;
+aiuta altri server di posta a
+distinguere le email dei tuoi utenti dallo spam.
 
-Setting rDNS entries should be possible
-in the hosting provider web interface.
-You can read more about it
-[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+Dovrebbe essere possibile impostare le voci rDNS
+nell'interfaccia web del provider di hosting.
+Puoi leggere di più a riguardo
+[in questo articolo](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
 
