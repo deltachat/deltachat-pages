@@ -297,33 +297,40 @@ Meet your chat partner outside Delta Chat, preferably in person
 but a second channel like a video chat
 or a different messenger is fine as well.
 Perform the following QR show/scan procedure with your chat partner.
+One of you is the "Inviter", the other is the "Joiner". 
 
-**Both sides**:
+**Inviter side**:
 
-Both sides please tap the QR Code icon 
-<img style="vertical-align:middle; width:2em;
+- Group-invitation: 
+  Tap the chat group title to see its member list, and select "QR Invite code". 
+  Share the QR image with the other side either in person or through a second channel.
+
+- Direct Chat invitation: 
+  Tap the QR Code icon <img style="vertical-align:middle; width:2em;
 margin:1px" src="../assets/home/qrcode.png" /> 
-on the Delta Chat app main screen -- 
-on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen -- 
+  on Desktop the QR Icon is in the left-side sandwich menu.
+  Share the QR image with the other side either in person or through a second channel.
 
-**One side (Inviter)**:
+**Joiner side**:
 
-- Choose "QR INVITE CODE" and share the QR image
-  with the other side either in person or through a second channel.
-
-**Other side (Scanner)**:
+- Tap the QR Code icon <img style="vertical-align:middle; width:2em;
+margin:1px" src="../assets/home/qrcode.png" /> 
+  on the Delta Chat app main screen -- 
+  on Desktop the QR Icon is in the left-side sandwich menu.
 
 - Choose "SCAN QR CODE" and scan the QR Code 
   that you see from your chat partner in a second channel.
+
 - Tap "OK"
 
-**Both sides**:
 
-Wait a bit while [Secure-Join network messages are exchanged](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) between both devices.
+**Both Inviter and Joiner**:
+
+Wait while [Secure-Join network messages are exchanged](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - If both devices are online,
-  both sides will setup a chat with each-other (if it didn't exist already)
-  and both chats will (eventually) show a green checkmark next to the title
+  both sides will eventually see a (group or direct) chat with a green-checkmark next to the title. 
   <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/>.
  
 - If one of the devices is offline, the green checkmarks will only
@@ -399,14 +406,8 @@ and rather import the backup file to re-create their account.
 As soon as they message you afterwards, the warning will be gone
 and guaranteed encryption is re-established for this contact.
 
-If they don't have a backup file, you may perform a [QR scan](#howtoe2ee) 
+If they don't have a backup file, it's best to perform a [QR scan](#howtoe2ee) 
 with your chat partner to re-establish guaranteed end-to-end encryption.
-However, if both of you are in a green-checkmarked chat 
-(see "Shared Chats" in the Contact profile) 
-you should re-add them by letting them _scan the Group Invite QR code_
-from the group member list. 
-This will automatically resolve the warning for yourself 
-and for all members of the green-checkmarked chat. 
 
 **Your contact sent a mail through a webmail interface or another e-mail app
 and will get back to using Delta Chat soon again.**
