@@ -403,7 +403,7 @@ If they don't have a backup file, you may perform a [QR scan](#howtoe2ee)
 with your chat partner to re-establish guaranteed end-to-end encryption.
 However, if both of you are in a green-checkmarked chat 
 (see "Shared Chats" in the Contact profile) 
-it's better to re-add them by letting them _scan the Group Invite QR code_
+you should re-add them by letting them _scan the Group Invite QR code_
 from the group member list. 
 This will automatically resolve the warning for yourself 
 and for all members of the green-checkmarked chat. 
