@@ -284,25 +284,11 @@ guarantee end-to-end encrypted messages.
 
 ### How can i know if messages are end-to-end encrypted? {#whene2e}
 
-All end-to-end encrypted messages carry a padlock
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/padlock.png" alt="padlock"/>.
+All end-to-end encrypted messages carry a padlock. 
+<img style="vertical-align:middle; width:10.5em; margin:1px" src="../assets/home/screenshot-with-padlock.png" alt="padlock"/>.
 
-**End-to-end encryption is established automatically**
-after a first message was received from an Autocrypt-capable contact.
-Delta Chat defaults to using end-to-end encryption with that contact.
-
-**End-to-end encryption automatically spreads**
-if you create a group chat with contacts where you previously established end-to-end encryption.
-All group members will automatically use end-to-end encryption with each other and in the group.
-However, if you add a contact who doesn't use Delta Chat (and no other Autocrypt-capable client),
-or a contact who never sent a message to you,
-the group chat will not use end-to-end encryption.
-
-**In green-checkmarked chats, end-to-end encryption is guaranteed**
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/green_checkmark.png" alt="green checkmark"/>. 
-You first need to [setup guaranteed end-to-end encryption with a contact](#howtoe2ee)
-and can then add and introduce them to a green-checkmarked group chat, 
-automatically spreading guaranteed end-to-end encryption among all chat members. 
+End-to-end encryption is guaranteed if there is a green checkmark next to the chat title. 
+<img style="vertical-align:middle; width:10.5em; margin:1px" src="../assets/home/screenshot-with-greencheckmark.png" alt="padlock"/>.  
 
 
 ### How can I get guaranteed end-to-end encryption and green checkmarks? {#howtoe2ee}
@@ -320,12 +306,12 @@ margin:1px" src="../assets/home/qrcode.png" />
 on the Delta Chat app main screen -- 
 on Desktop the QR Icon is in the left-side sandwich menu.
 
-**One side (QR INVITE)**:
+**One side (Inviter)**:
 
 - Choose "QR INVITE CODE" and share the QR image
   with the other side either in person or through a second channel.
 
-**Other side (QR SCAN)**:
+**Other side (Scanner)**:
 
 - Choose "SCAN QR CODE" and scan the QR Code 
   that you see from your chat partner in a second channel.
@@ -535,9 +521,9 @@ then transport encryption will be enforced between e-mail providers
 in which case Delta Chat communications will never be exposed in cleartext to the Internet
 even if the message was not end-to-end encrypted.
 
-Note that [maintaining guaranteed end-to-end encryption](#whene2e) on top of TLS encryption 
-is highly advisable because it provides safety between your and the recipient's devices.
-Not even your e-mail provider will be able to read or modify your messages. 
+Note that [maintaining guaranteed end-to-end encryption](#howtoe2ee) on top of TLS encryption 
+provides pervasive safety between your and the recipient's devices.
+Not even your e-mail or Internet provider will be able to read or modify your messages. 
 
 
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
