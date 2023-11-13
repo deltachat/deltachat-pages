@@ -401,7 +401,7 @@ even if the contact is a member there.
 
 If they have another device with a Delta Chat app running,
 they should remove the account from the new device
-and add it [as a second device through a QR code scan](#multiclient).
+and add it [as a second device as described here](#multiclient).
 As soon as they message you afterwards, the warning will be gone
 and guaranteed encryption is established with both devices of your contact. 
 
