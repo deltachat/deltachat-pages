@@ -39,9 +39,8 @@ Meer achtergrondinformatie is te vinden op ons [blog](https://delta.chat/en/blog
 The following Delta Chat related communication channels are run by third parties
 which may or may not follow our [Community Standards](community-standards): 
 
-- With your Delta Chat app you can send a `/list` message to 
-  [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-  to discover and join various chat groups.
+- Met behulp van Delta Chat kun je een `/list`-bericht sturen aan [een groepsbot
+  van de gemeenschap (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) om de verschillende gespreksgroepen te ontdekken.
 
 - An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
   bridged to the groupbot English Delta Chat community chat group.
@@ -50,7 +49,7 @@ which may or may not follow our [Community Standards](community-standards):
   which you can follow by putting `!delta_chat@lemmy.zip` 
   into the search field of your fediverse app.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- Een [DeltaChat-subreddit](https://old.reddit.com/r/DeltaChat/).
 
 If you know of, or setup yourself, additional channels,
 please let us know (see Channels and repositories above)

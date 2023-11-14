@@ -1,5 +1,5 @@
 ---
-title: Blog
+titolo: Blog
 lang: it
 ---
 
