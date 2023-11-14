@@ -284,11 +284,13 @@ guarantee end-to-end encrypted messages.
 
 ### How can i know if messages are end-to-end encrypted? {#whene2e}
 
-All end-to-end encrypted messages carry a padlock. 
-<img style="vertical-align:middle; width:10.5em; margin:1px" src="../assets/home/screenshot-with-padlock.png" alt="padlock"/>.
+All end-to-end encrypted messages carry a padlock:
 
-End-to-end encryption is guaranteed if there is a green checkmark next to the chat title. 
-<img style="vertical-align:middle; width:10.5em; margin:1px" src="../assets/home/screenshot-with-greencheckmark.png" alt="padlock"/>.  
+<img style="width:160px; margin:1px" src="../assets/help/lock-screenshot.png" alt="padlock in bubble"/>
+
+End-to-end encryption is guaranteed if there is a green checkmark next to the chat title:
+
+<img style="width:211px; margin:1px" src="../assets/help/green-checkmark-screenshot.png" alt="green checkmark in title"/>
 
 
 ### How can I get guaranteed end-to-end encryption and green checkmarks? {#howtoe2ee}
