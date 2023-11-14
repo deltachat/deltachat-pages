@@ -266,7 +266,6 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 
 ## Encryption and Security 
 
-
 ### Which standards are used for end-to-end encryption? 
 
 [Autocrypt](https://autocrypt.org) is used for automatically
@@ -500,7 +499,7 @@ if the Modification Detection Code is incorrect.
 Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
 because it only decrypts `multipart/encrypted` messages
 which contain exactly one encrypted and signed part,
-as defined by the Autocrypt Level 1 specification.
+as defined by the Autocrypt Level 1 specification. 
 
 
 ### Is a message exposed in cleartext if end-to-end encryption is not available? {#tls}
@@ -542,20 +541,20 @@ into the end-to-end encrypted part of messages:
 - Notification about enabling location streaming
 - WebRTC room URL
 
-E-Mail servers do not get access to this protected metadata
+E-Mail servers do not get access to this protected metadata 
 but they do see the message date as well as the message size,
-and, more importantly, the sender and receiver addresses.
-E-mail servers need receiver addresses to route and
-deliver messages to recipient's devices.
+and, more importantly, the sender and receiver addresses. 
+E-mail servers need receiver addresses to route and 
+deliver messages to recipient's devices. 
 
 
 ### How to protect metadata and contacts when a device is seized? {#device-seizure}
 
-Both for protecting against metadata-collecting e-mail servers
+Both for protecting against metadata-collecting e-mail servers 
 as well as against the threat of device seizure
 we recommend to use a Delta Chat optimized [e-mail server instance](https://delta.chat/serverguide)
 to create pseudonymous temporary accounts through QR-code scans.
-Note that Delta Chat apps on all platforms support multiple accounts
+Note that Delta Chat apps on all platforms support multiple accounts 
 so you can easily use action-specific "1-week" or "1-month" accounts next to your "main" account
 with the knowledge that all temporary account data, along with all metadata, will be deleted.
 Moreover, if a device is seized then contacts using temporary e-mail accounts
@@ -581,7 +580,7 @@ most likely because the sender uses an app or webmail interface
 without support for end-to-end--encryption.
 
 
-### Why do I see unencrypted messages?
+### Why do I see unencrypted messages? 
 
 If a contact uses a non-Autocrypt e-mail app,
 all messages involving this contact (in a group or 1:1 chat)
@@ -615,7 +614,7 @@ Guranteed end-to-end encrypted chats protect against [MITM attacks](https://en.w
 and turning on "disappearing messages" deletes the messages
 on the server after a user-configured time.
 
-If you don't need a longer-lived copy of your messages on the server,
+If you don't need a longer-lived copy of your messages on the server, 
 you can also turn on ["delete messages from server automatically"](#delold).
 
 
@@ -626,11 +625,11 @@ This means that if your Delta Chat private decryption key is leaked,
 and someone has collected your prior in-transit messages,
 they will be able to decrypt and read them using the leaked decryption key.
 
-Note, however, that if anyone obtains to your decryption keys,
-they will typically also be able to obtain your messages,
-irrespective if Perfect Forward Secrecy is in place or not.
+Note, however, that if anyone obtains to your decryption keys, 
+they will typically also be able to obtain your messages, 
+irrespective if Perfect Forward Secrecy is in place or not. 
 The typical real-world situation for leaked decryption keys is device seizure
-which we discuss in our answer [on metadata and device seizure](#device-seizure).
+which we discuss in our answer [on metadata and device seizure](#device-seizure). 
 
 It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
 because OpenPGP is just a container for encrypted messages
