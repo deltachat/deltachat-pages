@@ -273,7 +273,7 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 establishing end-to-end encryption with contacts and group chats.
 Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
 End-to-End encrypted messages are marked with a padlock 
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/home/padlock.png" alt="padlock"/>.
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
 [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
 are used for establishing chats with guaranteed end-to-end encryption 
