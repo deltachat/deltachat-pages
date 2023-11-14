@@ -328,24 +328,25 @@ One of you is the "Inviter", the other is the "Joiner".
 Wait while [Secure-Join network messages are exchanged](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - If both devices are online,
-  both sides will eventually see a (group or direct) chat with a green-checkmark next to the title. 
-  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>.
- 
+  both sides will eventually see a (group or direct) chat with a green checkmark
+  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
+  next to the title.
+
 - If one of the devices is offline, the green checkmarks will only
   appear later when the device is internet-connected again
   and the Secure-Join network protocol completed. 
 
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
 Congratulations! 
 You now will automatically use guaranteed end-to-end encryption
-with this contact and both of you can add each other to green-checkmarked groups,
+with this contact and both of you can add each other to green-checkmarked groups
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>,
 thereby automatically spreading guaranteed end-to-end encryption among its members. 
 
 
 ### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#e2eeguarantee}
 
 Chat titles with green checkmarks
-(<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />)
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
 mean that all messages in the chat will be end-to-end encrypted
 and can not be read or altered by compromised e-mail servers or Internet providers. 
 Joining green-checkmarked group chats
@@ -353,7 +354,7 @@ safely spreads everybody's encryption information (and green checkmarks)
 in a manner that guarantees end-to-end encryption in the group and among members. 
 
 Contact profiles with green checkmarks 
-(<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />)
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
 mean that messaging a contact is currently guaranteed to be end-to-end encrypted.
 Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
 or was introduced by a another green-checkmarked contact.
