@@ -177,7 +177,7 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
   - ngaqë shkruan diçka te një grup ku jeni pjesë të dy palët,
   - ngaqë ju dërguan një dëftesë leximi për një mesazh që shkruat,
   - ose ngaqë dërguan të dhëna te aplikacioni juaj Delta Chat përmes një
-    [aplikacioni webxdc](#private-apps--webxdc).
+    [aplikacioni webxdc](#webxdc).
 - Pra, kjo s’është gjendje e njëmendtë aty për aty për qenie në linjë - dhe
   nëse dikush nuk përgjigjet menjëherë, edhe pse duket të jetë në linjë, mos
   u merakosni dhe lëruni ca kohë ;-)

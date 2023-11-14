@@ -1092,7 +1092,7 @@ Concretely, Delta Chat developments have so far been funded from these sources:
   Menerima lebih banyak donasi juga membantu kami untuk menjadi lebih mandiri dan
   sebagai komunitas penyumbang. 
 
-  [Donasi Uang](donasi){: .cta-tombol}
+  [Donasi Uang](donate){: .cta-tombol}
 
 - Terakhir, beberapa ahli dan penggemar pro-bono turut berkontribusi 
   dan berkontribusi pada pengembangan Delta Chat tanpa menerima uang, atau hanya 
