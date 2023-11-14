@@ -532,11 +532,11 @@ Not even your e-mail or Internet provider will be able to read or modify your me
 Delta Chat protects most message metadata by putting the following information
 into the end-to-end encrypted part of messages:
 
-- Subject line
-- Group avatar and name
+- Subject line 
+- Group avatar and name 
 - MDN (read receipt) requests (`Chat-Disposition-Notification-To`)
-- Disappearing message timer (`Ephemeral-Timer`)
-- `Chat-Group-Member-Removed`, `Chat-Group-Member-Added`
+- Disappearing message timer (`Ephemeral-Timer`) 
+- `Chat-Group-Member-Removed`, `Chat-Group-Member-Added` 
 - `Secure-Join` header containing secure join commands
 - Notification about enabling location streaming
 - WebRTC room URL
@@ -632,9 +632,9 @@ The typical real-world situation for leaked decryption keys is device seizure
 which we discuss in our answer [on metadata and device seizure](#device-seizure). 
 
 It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
-because OpenPGP is just a container for encrypted messages
-but encryption key management (and thus key rotation or key "ratcheting")
-could be organized in flexible ways.
+because OpenPGP is just a container for encrypted messages 
+but encryption key management (and thus key rotation or key "ratcheting") 
+could be organized in flexible ways. 
 See [Seqouia's PFS prototype](https://gitlab.com/sequoia-pgp/openpgp-dr)
 for existing experiments in the OpenPGP implementor community.
 
@@ -676,9 +676,9 @@ with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
 
 Delta Chat supports common OpenPGP private key formats, however, it
 is unlikely that private keys from all sources will be fully supported. This
-is not the main goal of Delta Chat. In fact, the majority of new users
+is not the main goal of Delta Chat. In fact, the majority of new users 
 will not have any key prior to using Delta Chat.
-We do, however, try to support private keys from as many sources as possible.
+We do, however, try to support private keys from as many sources as possible. 
 
 Removing the password from the private key will depend on the
 software you use to manage your PGP keys. With Enigmail, you can set your
@@ -1042,11 +1042,11 @@ The Delta Chat project underwent four independent security audits in the last ye
   See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
-### How are Delta Chat developments funded?
+### How are Delta Chat developments funded? 
 
 Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to
-sell users and their friends and family to advertisers (or worse).
+is not indebted, and under no pressure to produce huge profits, or to 
+sell users and their friends and family to advertisers (or worse). 
 We rather use public funding sources, so far from EU and US origins, to help
 our efforts in instigating a decentralized and diverse chat messaging eco-system
 based on Free and Open-Source community developments.
