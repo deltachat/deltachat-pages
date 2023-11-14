@@ -35,24 +35,24 @@ nëse ju intereson të ndihmoni përpjekjet tona!
 Për më tepër sfond rekomandojmë të lexoni dhe ndiqni [blogun tonë](https://delta.chat/en/blog).
 
 
-# Third party communication channels 
+# Kanale komunikimi palësh të treta
 
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
+Kanalet vijues të komunikimit të lidhura me Delta Chat-in xhirohen nga palë të treta
+të cilat mund të ndjekin ose jo [Standardet tona për Bashkësinë](community-standards): 
 
-- With your Delta Chat app you can send a `/list` message to 
-  [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-  to discover and join various chat groups.
+- Me aplikacionin tuaj Delta Chat mund të dërgoni një mesazh
+`/list` te [roboti i një grupi (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
+që të zbuloni dhe merrni pjesë në grupe të ndryshëm fjalosjesh.
 
-- An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  bridged to the groupbot English Delta Chat community chat group.
+- Një [grup Delta Chat Matrix në anglisht](https://app.element.io/#/room/#Delta.Chat:matrix.org)
+  i lidhur me robot grupi të grupit të fjalosjes në anglisht të bashkësisë Delta Chat.
 
-- A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
+- Një [bashkësi Lemmy](https://lemmy.zip/c/delta_chat)
+  të cilin mund ta ndiqni duke vendosur `!delta_chat@lemmy.zip` 
+te fusha e kërkimeve të aplikacionit tuaj për fediverse.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- Një [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above)
-or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+Nëse dini, ose ujdisni ju vetë, kanale të tjerë,
+ju lutemi, na e bëni me dije (shihni kanale dhe depo më sipër)
+ose [përpunoni këtë faqe në GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
