@@ -16,7 +16,14 @@ import requests
 
 # list all files that should go to the local help here.
 # the path should be the path used eg. in the <img> tag.
-linked_files = ["assets/home/delta-what-optim.png"]
+linked_files = [
+    "assets/help/green-checkmark.png",
+    "assets/help/green-checkmark-screenshot.png",
+    "assets/help/lock-icon.png",
+    "assets/help/lock-screenshot.png",
+    "assets/help/qr-icon.png",
+    "assets/home/delta-what-optim.png"
+]
 
 
 def read_file(filename):
