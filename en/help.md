@@ -513,7 +513,7 @@ including any attachments,
 if they are not end-to-end encrypted. 
 
 Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security)) 
+[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
 which secures connections between your device and your e-mail provider. 
 All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
 Moreover, the connection between your and the recipient's e-mail provider
