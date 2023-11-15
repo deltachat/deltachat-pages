@@ -23,16 +23,18 @@ per se dezelfde app te gebruiken als jij zoals bij andere chatapps.
 
 ### Wat zijn de voordelen van Delta Chat t.o.v. andere gespreksapps?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- _Onafhankelijk_: niet verbonden aan een bedrijf of bepaalde diensten. _Jij_ beschikt over jóuw gegevens.
+- Je gegevens worden niet opgeslagen op een centrale server. Op deze manier beschermt Delta Chat zélfs je metagegevens (wie verstuurt iets aan wie?).
+- Je deelt je adresboek met niets of niemand.
+- _Snel_, dankzij het gebruik van Push-IMAP.
+- _Grootst aantal gebruikers_: ontvangers hoeven Delta Chat _niet_ te gebruiken.
+- _Compatibel_, en niet alleen met zichzelf.
+- _Elegant_, en _eenvoudig_ te gebruiken.
+- _Verspreid_ systeem.
+- _Geen ongewenste berichten_: standaard worden alleen berichten van bekenden getoond.
+- _Eind-tot-eindversleuteling_ met behulp van Autocrypt.
+- Volledig _open source_ en gebaseerd op _standaarden_.
+- _Flexibel: ingebouwde ondersteuning voor [meerdere accounts](#multiple-accounts).
 
 
 ### Welke berichten vind ik terug in Delta Chat?
@@ -93,8 +95,8 @@ Lees ook [hoe je accounts aan meerdere apparaten toevoegt](#multiclient).
 
 ### Ondersteunt Delta Chat HTML-e-mails?
 
-Yes, incoming HTML messages come with a "Show full message" button. 
-Outgoing messages always use plain text.
+- Ja. Indien nodig wordt er bij inkomende berichten een knop ‘Volledig bericht tonen’ getoond.
+Uitgaande e-mails gebruiken altijd platte tekst.
 
 
 ### Waarom moet ik mijn e-mailwachtwoord invoeren in Delta Chat? Is dat wel veilig?
