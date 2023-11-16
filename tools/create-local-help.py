@@ -25,6 +25,14 @@ linked_files = [
     "assets/home/delta-what-optim.png"
 ]
 
+# list all anchors (fragments) that are used from outside to access the help
+# ()eg. `multiclient` if the help is opened with `help#multiclient`)
+anchors_from_external = [
+    "e2eeguarantee",
+    "howtoe2ee",
+    "multiclient",
+    "nocryptanymore"
+]
 
 def read_file(filename):
     f = open(filename, 'r')
@@ -125,6 +133,10 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
             local_file = destdir + "/" + lang + "/" + url
             if not pathlib.Path(local_file).exists():
                 print(f"\033[91m  ERROR: unresolved link in {lang}/{file}: \033[0m {url}")
+
+    for anchor in anchors_from_external:
+        if content.find('id="' + anchor + '"') == -1:
+            print(f"\033[91m  ERROR: missing anchor in {lang}/{file}: \033[0m {anchor}")
 
     write_file(destdir + "/" + lang + "/" + file, content)
 
