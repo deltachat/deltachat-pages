@@ -410,30 +410,30 @@ la crittografia end-to-end garantita verrà ristabilita automaticamente.
 
 **Il tuo contatto ha smesso completamente di utilizzare Delta Chat**
 
-Sometimes remaining in contact is more important than end-to-end encryption.
-["Transport Layer Encryption" (TLS)](#tls) may still meaningfully protect
-the confidentiality of your messages between your device and the e-mail server. 
-But without end-to-end encryption you and your contract are trusting your e-mail server 
-to not read or manipulate your messages, and to not hand them to third parties. 
+A volte rimanere in contatto è più importante della crittografia end-to-end.
+["Transport Layer Encryption" (TLS)](#tls) può comunque proteggere in modo significativo
+la riservatezza dei tuoi messaggi tra il tuo dispositivo e il server di posta elettronica.
+Ma senza la crittografia end-to-end tu e il tuo contratto vi fidate del vostro server di posta elettronica
+a non leggere o manipolare i tuoi messaggi e a non trasmetterli a terzi.
 
-In any case, you can not do much else than accept the warning.
-Please also remove the contact from any active green-checkmarked group 
-which you can find in "Shared chats" in the Contact profile. 
-This spares your contact from getting "unreadable" messages. 
+In ogni caso, non puoi fare molto altro che accettare l'avvertimento.
+Rimuovi anche il contatto da qualsiasi gruppo attivo contrassegnato da un segno di spunta verde
+che puoi trovare in "Chat condivise" nel profilo dei contatti.
+Ciò evita che il tuo contatto riceva messaggi "illeggibili".
 
-If the contact removed Delta Chat because of buggy or undesirable behaviour, 
-please consider posting to our [support forum](https://support.delta.chat) 
-to help us identify and address common problems. Thanks!
+Se il contatto ha rimosso Delta Chat a causa di bug o di comportamenti indesiderati,
+ti invitiamo a pubblicare post sul nostro [forum di supporto](https://support.delta.chat)
+per aiutarci a identificare e affrontare i problemi comuni. Grazie!
 
 
-### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
+### Gli allegati (immagini, file, audio, ecc.) sono crittografati end-to-end?
 
 Sì.
 
-When we talk about an "end-to-end encrypted message"
-we always mean a whole message is encrypted,
-including all the attachments
-and attachment metadata such as filenames.
+Quando parliamo di "messaggio crittografato end-to-end"
+intendiamo sempre che l'intero messaggio è crittografato,
+compresi tutti gli allegati
+e metadati degli allegati come i nomi dei file.
 
 
 ### OpenPGP è sicuro? {#openpgp-secure}
@@ -458,23 +458,23 @@ per migliorare ulteriormente le caratteristiche di sicurezza implementando il
 [nuovo aggiornamento crittografico IETF OpenPGP](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) che per fortuna è stato adottato nell’estate 2023.
 
 
-### Did you consider using alternatives to OpenPGP for end-to-end -encryption? {#openpgp-alternatives}
+### Avete considerato l'utilizzo di alternative a OpenPGP per la crittografia end-to-end? {#openpgp-alternative}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-or [Saltpack](https://saltpack.org/) 
-but adopting them would mean breaking end-to-end encryption interoperability 
-with all other e-mail apps that typically support OpenPGP encryption. 
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+Sì, stiamo seguendo iniziative come [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
+o [Saltpack](https://saltpack.org/)
+ma adottarli significherebbe rompere l’interoperabilità della crittografia end-to-end
+con tutte le altre app di posta elettronica che in genere supportano la crittografia OpenPGP.
+Quindi non sarebbe una decisione facile da prendere
+e devono esserci miglioramenti tangibili per gli utenti.
 
-Delta Chat takes a holistic "usable security" approach 
-and works with a wide range of activist groupings as well as 
-renowned researchers such as [TeamUSEC](https://teamusec.de) 
-to improve actual user outcomes against security threats. 
-The wire protocol and standard for establishing end-to-end encryption is
-only one part of "user outcomes",
-see also our answers to [device-seizure](#device-seizure)
-and [message-metadata](#message-metadata) questions. 
+Delta Chat adotta un approccio olistico di "sicurezza utilizzabile".
+e lavora anche con una vasta gamma di gruppi di attivisti
+ricercatori rinomati come [TeamUSEC](https://teamusec.de)
+per migliorare i risultati effettivi degli utenti contro le minacce alla sicurezza.
+Il protocollo dei messaggi e lo standard per stabilire la crittografia end-to-end è
+solo una parte dei "risultati utente",
+vedi anche le nostre risposte a [device-seizure](#device-seizure)
+e domande su [metadati-messaggio](#message-metadata).
 
 
 ### Delta Chat è vulnerabile agli EFAIL?
@@ -491,35 +491,35 @@ che contengono esattamente una parte crittografata e firmata,
 come definito dalla specifica Autocrypt Level 1.
 
 
-### Is a message exposed in cleartext if end-to-end encryption is not available? {#tls}
+### Un messaggio viene esposto in chiaro se la crittografia end-to-end non è disponibile? {#tls}
 
-Even if your messages are not guaranteed to be end-to-end encrypted, 
-they are still protected from Internet providers like cell or cable companies. 
-However, your and your recipient's e-mail providers 
-may read, analyze or even modify your messages, 
-including any attachments,
-if they are not end-to-end encrypted. 
+Anche se non è garantito che i tuoi messaggi siano crittografati end-to-end,
+sono ancora protetti dai fornitori di Internet come le società di telefonia mobile o via cavo.
+Tuttavia, i provider di posta elettronica tuoi e del destinatario
+potranno leggere, analizzare o addirittura modificare i tuoi messaggi,
+compresi eventuali allegati,
+se non sono crittografati end-to-end.
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your e-mail provider. 
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's e-mail provider
-will typically be transport-encrypted as well.
-If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between e-mail providers 
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+Delta Chat per impostazione predefinita utilizza
+[Crittografia TLS] rigorosa (https://en.wikipedia.org/wiki/Transport_Layer_Security)
+che protegge le connessioni tra il tuo dispositivo e il tuo provider e-mail.
+Tutta la gestione TLS di Delta Chat è stata sottoposta a [controlli di sicurezza](#security-audits) in modo indipendente.
+Inoltre, la connessione tra il tuo provider e-mail e quello del destinatario
+sarà in genere anche crittografato per il trasporto.
+Se i server e-mail coinvolti supportano [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
+verrà applicata la crittografia del trasporto tra i provider e-mail
+in tal caso le comunicazioni Delta Chat non verranno mai esposte in chiaro su Internet
+anche se il messaggio non sarà crittografato end-to-end.
 
-Note that [maintaining guaranteed end-to-end encryption](#howtoe2ee) on top of TLS encryption 
-provides pervasive safety between your and the recipient's devices.
-Not even your e-mail or Internet provider will be able to read or modify your messages. 
+Tieni presente che [mantenere la crittografia end-to-end garantita](#howtoe2ee) oltre alla crittografia TLS
+fornisce una sicurezza pervasiva tra i tuoi dispositivi e quelli del destinatario.
+Nemmeno il tuo provider e-mail o Internet sarà in grado di leggere o modificare i tuoi messaggi.
 
 
 ### In che modo Delta Chat protegge i metadati nei messaggi? {#message-metadata}
 
-Delta Chat protects most message metadata by putting the following information
-into the end-to-end encrypted part of messages:
+Delta Chat protegge la maggior parte dei metadati dei messaggi inserendo le seguenti informazioni
+nella parte crittografata end-to-end dei messaggi:
 
 - Linea oggetto
 - Avatar e nome del gruppo
@@ -539,75 +539,75 @@ consegnare messaggi ai dispositivi del destinatario.
 
 ### Come proteggere i metadati e contatti quando un dispositivo viene sequestrato? {#device-seizure}
 
-Both for protecting against metadata-collecting e-mail servers 
-as well as against the threat of device seizure
-we recommend to use a Delta Chat optimized [e-mail server instance](https://delta.chat/serverguide)
-to create pseudonymous temporary accounts through QR-code scans.
-Note that Delta Chat apps on all platforms support multiple accounts 
-so you can easily use action-specific "1-week" or "1-month" accounts next to your "main" account
-with the knowledge that all temporary account data, along with all metadata, will be deleted.
-Moreover, if a device is seized then contacts using temporary e-mail accounts
-can not be identified easily, as compared to messengers which reveal
-phone numbers in chat groups which in turn are often associated with legal identities.
+Entrambi per la protezione dai server e-mail che raccolgono metadati
+nonché contro il pericolo di sequestro del dispositivo
+consigliamo di utilizzare un'[istanza del server e-mail](https://delta.chat/serverguide) ottimizzata per Delta Chat
+per creare account temporanei pseudonimi tramite scansioni di codici QR.
+Tieni presente che le app Delta Chat su tutte le piattaforme supportano più account
+in questo modo puoi utilizzare facilmente account "1 settimana" o "1 mese" specifici per azioni accanto al tuo account "principale".
+con la consapevolezza che tutti i dati temporanei dell'account, insieme a tutti i metadati, verranno cancellati.
+Inoltre, se un dispositivo viene sequestrato, i contatti utilizzano account di posta elettronica temporanei
+non possono essere identificati facilmente, rispetto ai messaggeri che rivelano
+numeri di telefono nei gruppi di chat che a loro volta sono spesso associati a identità legali.
 
 
-### How can i check encryption information?
+### Come posso verificare le informazioni di crittografia?
 
-You may check the end-to-end encryption status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop).
-Delta Chat shows two fingerprints there.
-If the same fingerprints appear on your own and your contact's device,
-the connection is safe.
+È possibile verificare manualmente lo stato della crittografia end-to-end nella finestra di dialogo "Crittografia".
+(profilo utente su Android/iOS o clic con il pulsante destro del mouse sull'elemento dell'elenco chat di un utente sul desktop).
+Delta Chat mostra due impronte digitali.
+Se sul tuo dispositivo e su quello del tuo contatto vengono visualizzate le stesse impronte digitali,
+la connessione è sicura.
 
 
 ### Come posso verificare lo stato di crittografia dei messaggi?
 
-A little **padlock** in a message bubble denotes
-that the message was properly end-to-end encrypted from the given sender.
-If there is **no padlock**, the message was not properly end-to-end encrypted
-most likely because the sender uses an app or webmail interface
-without support for end-to-end--encryption.
+Un piccolo **lucchetto** in un fumetto denota
+che il messaggio è stato correttamente crittografato end-to-end dal mittente specificato.
+Se **non è presente alcun lucchetto**, il messaggio non è stato crittografato correttamente end-to-end
+molto probabilmente perché il mittente utilizza un'app o un'interfaccia webmail
+senza supporto per la crittografia end-to-end.
 
 
 ### Perché vedo messaggi non crittografati?
 
-If a contact uses a non-Autocrypt e-mail app,
-all messages involving this contact (in a group or 1:1 chat)
-will not be end-to-end encrypted, and thus not show a "padlock" with messages.
-Note that even if your contacts use Delta Chat on their account,
-they might also use a non-Autocrypt e-mail app on that account
-which then may cause intermittently unencrypted messages.
-Replying unencrypted to unencrypted messages is mandated by Autocrypt
-to prevent unreadable messages on the side of your contacts
-and their non-Autocrypt e-mail app.
+Se un contatto utilizza un'app e-mail non Autocrypt,
+tutti i messaggi che coinvolgono questo contatto (in un gruppo o in una chat 1:1)
+non sarà crittografato end-to-end e quindi non mostrerà un "lucchetto" con i messaggi.
+Tieni presente che anche se i tuoi contatti utilizzano Delta Chat sul proprio account,
+potrebbero anche utilizzare un'app di posta elettronica non Autocrypt su quell'account
+che quindi potrebbe causare messaggi non crittografati in modo intermittente.
+La risposta non crittografata a messaggi non crittografati è richiesta da Autocrypt
+per evitare messaggi illeggibili tra i tuoi contatti
+e la loro app e-mail non Autocrypt.
 
-### How can i get an end-to-end encrypted chat with a Delta Chat contact who sometimes uses webmail or another non-Autocrypt e-mail app? 
+### Come posso ottenere una chat crittografata end-to-end con un contatto Delta Chat che a volte utilizza la webmail o un'altra app e-mail non Autocrypt?
 
-If you need a safely end-to-end encrypted chat with a contact 
-who is using their account both with Delta Chat and non-Autocrypt apps (e.g. webmail),
-it's best to setup [guaranteed end-to-end encryption with them](#howtoe2ee)
-and then create a guaranteed end-to-end encrypted group chat with you two as members. 
-In this group chat all messages will be end-to-end encrypted 
-even if the direct chat between you two has a
-["… sent a message from another device"](#nocryptanymore) warning. 
+Se hai bisogno di una chat crittografata end-to-end sicura con un contatto
+chi utilizza il proprio account sia con Delta Chat che con app non Autocrypt (ad esempio webmail),
+è meglio configurare [la crittografia end-to-end garantita con loro](#howtoe2ee)
+e quindi crea una chat di gruppo crittografata end-to-end garantita con voi due come membri.
+In questa chat di gruppo tutti i messaggi verranno crittografati end-to-end
+anche se la chat diretta tra voi due ha a
+["... inviato un messaggio da un altro dispositivo"](#nocryptanymore) avviso.
 
 
-### How can I ensure message end-to-end encryption and deletion?
+### Come posso garantire la crittografia e l'eliminazione end-to-end dei messaggi?
 
-The best way to ensure every message is end-to-end encrypted,
-and metadata deleted as quickly as possible
-is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
-and turning on disappearing messages.
+Il modo migliore per garantire che ogni messaggio sia crittografato end-to-end,
+e i metadati vengono eliminati il ​​più rapidamente possibile
+è [utilizzare chat con crittografia end-to-end garantita](#howtoe2ee)
+e l'attivazione dei messaggi a scomparsa.
 
-Guranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on "disappearing messages" deletes the messages
-on the server after a user-configured time.
+Le chat crittografate end-to-end garantiscono la protezione dagli [attacchi MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+e l'attivazione dei "messaggi che scompaiono" elimina i messaggi
+sul server dopo un tempo configurato dall'utente.
 
 Se non hai bisogno di una copia più longeva dei tuoi messaggi sul server,
 puoi anche attivare ["elimina messaggi dal server"](#delold).
 
 
-### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
+### Delta Chat supporta Perfect Forward Secrecy? {#pfs}
 
 No, Delta Chat non supporta Perfect Forward Secrecy (PFS).
 Ciò significa che se la tua chiave di decrittazione privata Delta Chat viene divulgata,
@@ -620,29 +620,29 @@ indipendentemente dal fatto che Perfect Forward Secrecy sia attivo o meno.
 La tipica situazione reale in caso di fuga di chiavi di decrittazione è il sequestro del dispositivo
 di cui discutiamo nella nostra risposta [sui metadati e sul sequestro dei dispositivi](#device-seizure).
 
-It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
-because OpenPGP is just a container for encrypted messages 
-but encryption key management (and thus key rotation or key "ratcheting") 
-could be organized in flexible ways. 
-See [Seqouia's PFS prototype](https://gitlab.com/sequoia-pgp/openpgp-dr)
-for existing experiments in the OpenPGP implementor community.
+È possibile che Delta Chat si evolva per supportare Perfect Forward Secrecy,
+perché OpenPGP è solo un contenitore per messaggi crittografati
+ma la gestione delle chiavi di crittografia (e quindi la rotazione delle chiavi o "cricchetto")
+potrebbero essere organizzati in modo flessibile.
+Vedi [prototipo PFS di Seqouia](https://gitlab.com/sequoia-pgp/openpgp-dr)
+per gli esperimenti esistenti nella comunità degli implementatori di OpenPGP.
 
 
-### Is end-to-end encryption of Delta Chat as safe as Signal? 
+### La crittografia end-to-end di Delta Chat è sicura quanto quella di Signal?
 
-It depends on what is important to you. 
-Delta Chat [does not support PFS](#pfs) like Signal does
-but it provides [guaranteed end-to-end encrypted chats](#e2eeguarantee)
-that are safe against compromised servers or corrupted networks. 
-Signal and most other PFS-supporting messengers do not provide 
-a practical scheme for protecting chat groups from network attacks
-which are arguably more worrysome 
-than a potential attacker who seizes your phone and private encryption setup
-but somehow not your messages, yet has a full record of all 
-past encrypted messages. 
+Dipende da cosa è importante per te.
+Delta Chat [non supporta PFS](#pfs) come fa Signal
+ma fornisce [chat crittografate end-to-end garantite](#e2eeguarantee)
+che sono sicuri contro server compromessi o reti danneggiate.
+Signal e la maggior parte degli altri servizi di messaggistica che supportano PFS non forniscono
+uno schema pratico per proteggere i gruppi di chat dagli attacchi di rete
+che sono probabilmente più preoccupanti
+di un potenziale utente malintenzionato che si impadronisce del tuo telefono e della configurazione di crittografia privata
+ma in qualche modo non i tuoi messaggi, ma ha un registro completo di tutti
+messaggi crittografati precedenti.
 
-In any case, Delta Chat's end-to-end encryption uses a [secure subset of OpenPGP](#openpgp-secure)
-which has been [independently security-audited](../assets/blog/2019-first-security-review.pdf).
+In ogni caso, la crittografia end-to-end di Delta Chat utilizza un [sottoinsieme sicuro di OpenPGP](#openpgp-secure)
+che è stato [controllato in modo indipendente sulla sicurezza](../assets/blog/2019-first-security-review.pdf).
 
 ### Posso riutilizzare la mia chiave privata esistente?
 
@@ -721,22 +721,22 @@ Un dispositivo non è necessario perché l'altro funzioni.
   provate il **trasferimento manuale** descritto di seguito
 
 
-### Manual Transfer {#backup}
+### Trasferimento manuale {#backup}
 
 Questo metodo è consigliato solo se "Aggiungi Secondo Dispositivo" come descritto sopra non funziona.
 
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-  - **If you use iOS:** and you encounter difficulties, maybe
-    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
-    help you.
-- You are now synchronized, and can use both devices for sending and receiving
-  end-to-end encrypted messages with your communication partners.
+- Sul vecchio dispositivo, vai su "Impostazioni -> Chat e Media -> Backup Chat su Memoria Esterna". Inserisci il tuo
+PIN, sequenza o password di sblocco dello schermo. Quindi puoi fare clic su "Avvia
+Backup". Questo salva il file di backup sul tuo dispositivo. Ora devi trasferirlo
+in qualche modo all'altro dispositivo.
+- Sul nuovo dispositivo, nella schermata di accesso, invece di accedere alla tua email
+account, seleziona "Importa backup". Dopo l'importazione, le tue conversazioni, la crittografia
+i tasti e i supporti devono essere copiati sul nuovo dispositivo.
+- **Se usi iOS:** e incontri difficoltà, forse
+[questa guida](https://support.delta.chat/t/import-backup-to-ios/1628)
+Aiutarti.
+- Ora sei sincronizzato e puoi utilizzare entrambi i dispositivi per inviare e ricevere
+messaggi crittografati end-to-end con i tuoi partner di comunicazione.
 
 ### Sono previsti piani per l'introduzione di un client Web Delta Chat?
 
@@ -827,25 +827,25 @@ apri solo gli allegati provenienti dai mittenti di cui ti fidi e non da spammer.
 
 ## Caratteristiche Sperimentali
 
-We are very grateful for feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute. 
-You may conveniently login via Delta Chat and a QR code scan,
-another rather stable experiment we run on the side (sic!).
+Siamo molto grati per il feedback su queste funzionalità: vuoi condividere
+le tue idee? Partecipa al [Forum](https://support.delta.chat) per contribuire.
+Puoi accedere comodamente tramite Delta Chat e una scansione del codice QR,
+un altro esperimento piuttosto stabile che eseguiamo a parte (sic!).
 
 ### Come posso utilizzare le chiamate audio/video con Delta Chat?
 
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "Video Chat Instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to the video chat. 
-  This way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+- Per attivare le chiamate audio/video vai alla sezione "funzionalità sperimentali" in
+le impostazioni avanzate e scegli una "Istanza di chat video".
+- Quando inviti altri a una chat video, questa viene aperta nel tuo browser/app all'indirizzo
+una volta. Gli altri ricevono un'e-mail con un collegamento alla chat video.
+In questo modo è compatibile anche se i tuoi partner di chat non utilizzano Delta Chat.
+- Tieni presente che non c'è suoneria dall'altra parte e dai tuoi partner di chat
+non verrà interrotto da un invito alla chat video.
+- Puoi utilizzare qualsiasi servizio di chat video che consenta l'accesso tramite collegamento. Basta aggiungere il
+collegamento nelle impostazioni.
+- Ad esempio, per utilizzare l'istanza Jitsi Meet di punta, potresti inserire
+`https://meet.jit.si/$ROOM`. La variabile "$ROOM" sarà un valore casuale;
+in questo modo, avrai una nuova stanza jitsi casuale ogni volta che chiami qualcuno.
 
 
 ### Cosa sono le Liste di Trasmissione e come si possono usare?
@@ -916,24 +916,24 @@ In questo caso, Delta Chat non ha bisogno di guardare la Posta in arrivo ed è s
 
 ### Come posso cambiare il mio account con un indirizzo e-mail diverso?
 
-1. Change your address in “Settings - Password and Account” and
-   enter the password of your new account (and if necessary, server settings).
-   You will get an information notice about the fact that you are moving to a new address. 
-   An additional notice will also show up in your "Device messages" chat. 
+1. Cambia il tuo indirizzo in “Impostazioni - Password e Account” e
+inserisci la password del tuo nuovo account (e se necessario, le impostazioni del server).
+Riceverai un avviso informativo sul fatto che ti trasferirai ad un nuovo indirizzo.
+Un ulteriore avviso verrà visualizzato anche nella chat "Messaggi del dispositivo".
 
-2. If possible, let your old e-mail provider forward all messages to your new address.
+2. Se possibile, lascia che il tuo vecchio provider e-mail inoltri tutti i messaggi al tuo nuovo indirizzo.
 
-3. Tell your contacts that you changed your address. 
-   Writing to guaranteed end-to-end encrypted chats and groups,
-   will make them notice your move automatically 
-   and they will continue chatting with you using your new address. 
+3. Dì ai tuoi contatti che hai cambiato il tuo indirizzo.
+Scrivere a chat e gruppi crittografati end-to-end garantiti,
+farà loro notare automaticamente la tua azione
+e continueranno a chattare con te utilizzando il tuo nuovo indirizzo.
 
-Note that Delta Chat will not retrieve messages anymore from your old e-mail provider.
-If you didn't configure your e-mail provider to forward messages (step 2.) 
-only those contacts to whom you sent a message in a guaranteed end-to-end encrypted chat
-will send messages to your new address. 
+Tieni presente che Delta Chat non recupererà più i messaggi dal tuo vecchio provider e-mail.
+Se non hai configurato il tuo provider e-mail per inoltrare i messaggi (passaggio 2.)
+solo i contatti a cui hai inviato un messaggio in una chat crittografata end-to-end garantita
+invieranno messaggi al tuo nuovo indirizzo.
 
-To learn more about this the details behind this, [read our blogpost on
+Per saperne di più su questi dettagli, [leggi il nostro post sul blog
 it](https://delta.chat/en/2022-09-14-aeap).
 
 
@@ -971,16 +971,16 @@ problema per molte app legittime. Per ulteriori informazioni, vedi
 
 ### Delta Chat è compatibile con Protonmail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be end-to-end
-  encrypted, though. The end-to-end encryption those providers offer is not
-  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
-  uses.
-- Delta Chat can end-to-end-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- Sì e no.
+- No, non puoi utilizzare il tuo account Protonmail, Tutanota o Criptext con Delta
+  Chat; non offrono la ricezione di posta tramite IMAP.
+- In ogni caso puoi utilizzare Delta Chat per inviare messaggi alle persone che lo utilizzano
+  Protonmail, Tutanota o Criptext. Tali messaggi non saranno end-to-end
+  crittografato, però. La crittografia end-to-end offerta da questi provider non è
+  compatibile con [Autocrypt](https://autocrypt.org/), gli standard Delta Chat
+che usa.
+- Delta Chat può crittografare end-to-end tramite qualsiasi provider e-mail con qualsiasi
+[App di posta elettronica abilitata per Autocrypt](https://autocrypt.org/dev-status.html).
 
 
 ### Sono interessato ai dettagli tecnici. Mi puoi dire di più?
@@ -1021,11 +1021,11 @@ Connessioni di rete di Delta Chat e una configurazione del server di posta ripro
 Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
 o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
 
-- Beginning 2023, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
-  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
+- A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con il servizio "web
+app condivise in una chat", relativa ai guasti del sandboxing
+soprattutto con Chromium. Successivamente abbiamo ottenuto una sicurezza indipendente
+audit da Cure53 e tutti i problemi rilevati sono stati risolti nella serie di app 1.36 rilasciata nell'aprile 2023.
+Vedi [qui per la storia completa sulla sicurezza end-to-end nel web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ### Come viene finanziato lo sviluppo di Delta Chat?
@@ -1039,10 +1039,10 @@ basato sugli sviluppi della comunità Free e Open-Source.
 
 Concretamente, gli sviluppi di Delta Chat finora sono stati finanziati da queste fonti:
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018 and also helped to integrate end-to-end Encryption
-  through [Autocrypt](https://autocrypt.org).
+- Il progetto UE [NEXTLEAP](https://nextleap.eu) ha finanziato la ricerca
+  e implementazione di gruppi verificati e impostazione di protocolli di contatto
+  nel 2017 e nel 2018 e ha anche contribuito a integrare la crittografia end-to-end
+  tramite [Autocrypt](https://autocrypt.org).
 
 - L'[Open Technology Fund](https://opentechfund.org) ci ha dato una
 prima sovvenzione 2018/2019 (~$200K) durante la quale abbiamo notevolmente migliorato l'app Android
@@ -1053,8 +1053,8 @@ La seconda sovvenzione 2019/2020 (~$300K) ci ha aiutato a farlo
 rilasciare nelle versioni Delta/iOS, per convertire la nostra libreria principale in Rust, e
 per fornire nuove funzionalità per tutte le piattaforme.
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system. 
+- La [fondazione NLnet](https://nlnet.nl/) ha concesso nel 2019/2020 46.000 EUR per
+  completando i collegamenti Rust/Python e avviando un ecosistema Chat-bot.
 
 - Nel 2021 abbiamo ricevuto ulteriori finanziamenti dell'UE per due Next-Generation-Internet
 proposte, in particolare per [EPPD - directory di portabilità del provider di posta elettronica](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) e [AEAP - portabilità dell'indirizzo e-mail](https://nlnet.nl/project/EmailPorting/) (~90K EUR) che ha portato a un migliore supporto multi-account, contatti QR-code migliorati e configurazioni di gruppo e molti miglioramenti della rete su tutte le piattaforme.
