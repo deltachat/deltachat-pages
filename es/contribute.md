@@ -5,9 +5,9 @@ lang: es
 
 # Canales y repositorios
 
-For community interactions around Delta Chat please read our [Community Standards](community-standards).
+Para las interacciones comunitarias en torno a Delta Chat, por favor lee nuestras [Normas de la Comunidad](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fediverso](https://chaos.social/web/@delta) para anuncios y comentarios.
 
 - [Foro de soporte de Delta Chat](https://support.delta.chat) para discusiones más amplias sobre las funcionalidades y para obtener ayuda.
 
@@ -16,7 +16,7 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - More links can be found in the [cosmos](https://cosmos.delta.chat)
 
-[Donate Money](donate){: .cta-button}
+[Donar dinero](donate){: .cta-button}
 
 # Translations and Bug Reports
 

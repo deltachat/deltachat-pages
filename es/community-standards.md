@@ -1,18 +1,18 @@
 ---
-title: Community Standards
+title: Normas de la Comunidad
 lang: es
 ---
 
-# Delta Chat Community Standards
+# Normas de la Comunidad de Delta Chat
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers strive to make participation in Delta Chat
 communities a pleasurable, harassment-free experience.
 
 
-## Our Standards
+## Nuestros estándares
 
-Examples of behavior that contribute to creating a positive environment include:
+Ejemplos de comportamiento que contribuyen a crear un ambiente positivo incluyen:
 
 * Using welcoming and inclusive language
 * Being respectful of differing viewpoints and experiences
@@ -35,7 +35,7 @@ it's more likely that participants are unaware than that they are intentionally
 trying to denigrate others or reduce the quality of discussion.
 
 
-## Maintainers and Responsibilities
+## Mantenedores y Responsabilidades
 
 Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
 Each maintainer is asked to take responsibility and appropriate, careful action
@@ -46,7 +46,7 @@ that are not aligned to our standards.
 They may also ban temporarily or permanently a contributor for
 other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-## Scope
+## Alcance
 
 Our Community Standards apply both within project communication channels and
 gatherings as well as in public spaces
@@ -55,7 +55,7 @@ representing a project or community include using an official project e-mail
 address, posting via an official social media account, or acting as an
 representative at an online or offline event.
 
-## Reporting and Responses
+## Informes y Respuestas
 
 If you experience or witness abusive, harassing, or otherwise unacceptable behavior
 you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
@@ -70,7 +70,7 @@ and may face temporary or permanent repercussions
 as determined by other maintainers.
 
 
-## Attribution
+## Atribución
 
 Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
 available at <https://contributor-covenant.org/version/1/4>

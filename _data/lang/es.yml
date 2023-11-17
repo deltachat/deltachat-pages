@@ -9,7 +9,7 @@ es:
     home: Inicio
     download: Descargar
     blog: Blog
-    contribute: Soporte
+    contribute: Contribuir
     help: FAQ
     forum: Foro
 
@@ -42,4 +42,4 @@ es:
       after: (experimental)
 
   help:
-    offline_hint: ""
+    offline_hint: "¿Tienes prisa? Puedes leer esta ayuda de forma relajada en cualquier momento dentro de la aplicación, también sin conexión a internet."
