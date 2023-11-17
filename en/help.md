@@ -274,7 +274,7 @@ Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-se
 End-to-End encrypted messages are marked with a padlock 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
-[Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
+[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
 are used for establishing chats with guaranteed end-to-end encryption 
 which protects against network attacks and compromised servers.
 Chats marked with a green checkmark 
@@ -326,7 +326,7 @@ One of you is the "Inviter", the other is the "Joiner".
 
 **Both Inviter and Joiner**:
 
-Wait while [Secure-Join network messages are exchanged](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) between both devices.
+Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - If both devices are online,
   both sides will eventually see a (group or direct) chat with a green checkmark
@@ -370,7 +370,7 @@ but there is no green checkmark in the profile title.
 This usually means that the contact ["sent a message from another device"](#nocryptanymore). 
 
 For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
+please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
 and specifically read about "Verified Groups", the technical term
 of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
