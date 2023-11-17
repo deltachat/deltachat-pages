@@ -54,7 +54,7 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
   conversation in Delta Chat or in a "normal" e-mail app.
 
 
-### What if I expect a message from someone I didn't write to in the past?
+### Что если я ожидаю сообщение от кого-то кому я ранее не писал?
 
 - If a message comes from an unknown contact, it appears as a **request**. You
   need to accept the request before you can reply.
@@ -72,7 +72,7 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
-<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
+<h3 id="multiple-accounts">Как я могу добавить или сменить аккаунт?</h3>
 
 You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
 - on the menu button and then 'Switch Account' (Android and desktop)
@@ -151,9 +151,9 @@ Outgoing messages always use plain text.
 
 ### What means Pinning, Muting, Archiving?
 
-Use these tools to organize your chats and keep everything in its place:
+Используйте эти инструменты чтобы организовать ваши чаты:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **Закрепленные чаты** всегда находятся наверху списка чатов. Вы можете использовать их чтобы быстро получать доступ к вашим любимым чатам или чтобы не забыть о важных вещах.
 
 - **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
 
@@ -167,7 +167,7 @@ To archive or pin a chat, long tap (Android), use the chat's menu (Android/Deskt
 to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
 
 
-### What does the green dot mean?
+### Что означает зеленая точка?
 
 - Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
   of a contact. It means they were "recently seen".
@@ -185,7 +185,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
-### How can I delete my account?
+### Как я могу удалить аккаунт?
 
 As you use an e-mail account for Delta Chat,
 how you can delete your account depends on your e-mail provider.
@@ -265,7 +265,7 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
   older than that.
 
 
-## Encryption and Security 
+## Шифрование и безопасность
 
 ### Which standards are used for end-to-end encryption? 
 

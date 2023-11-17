@@ -580,7 +580,7 @@ Ten en cuenta, sin embargo, que si alguien obtiene tus claves de descifrado,
 también podrán obtener tus mensajes,
 independientemente de si se implementa o no el Perfect Forward Secrecy.
 La situación típica en el mundo real para las claves de descifrado filtradas es la incautación del dispositivo,
-que discutimos en nuestra respuesta [sobre metadatos e incautación de dispositivos](#incautacion-dispositivo).
+que discutimos en nuestra respuesta [sobre metadatos e incautación de dispositivos](#device-seizure).
 
 It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
 because OpenPGP is just a container for encrypted messages 
