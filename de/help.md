@@ -266,7 +266,7 @@ den Sie von Ihrem Chatpartner in einem zweiten Kanal sehen oder erhalten haben.
 
 **Beide, Einlader und Beitretender**:
 
-Warten Sie, während [Secure-Join-Netzwerkmeldungen] (https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) zwischen beiden Geräten ausgetauscht werden.
+Warten Sie, während [Secure-Join-Netzwerkmeldungen](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) zwischen beiden Geräten ausgetauscht werden.
 
 - Wenn beide Geräte online sind,
 sehen beide Seiten schließlich einen (Gruppen- oder Direkt-) Chat mit einem grünen Häkchen
@@ -568,7 +568,7 @@ Beachten Sie jedoch, dass jemand, der in den Besitz Ihrer privaten Schlüssel ge
 unabhängig davon, ob Perfect Forward Secrecy vorhanden ist oder nicht,
 in der Regel auch in der Lage sein wird, Ihre Nachrichten zu lesen. 
 Die typische reale Situation für durchgesickerte private Schlüssel, ist die Beschlagnahme von Geräten,
-die wir in unter [über Metadaten und Gerätebeschlagnahme] (#device-seizure) erörtern.
+die wir in unter [über Metadaten und Gerätebeschlagnahme](#device-seizure) erörtern.
 
 Es ist möglich, dass Delta Chat eine Tages "Perfect Forward Secrecy" unterstützt,
 denn OpenPGP ist nur ein Container für verschlüsselte Nachrichten;
@@ -821,7 +821,7 @@ Um mehr über die Details dahinter zu erfahren, [lesen Sie unseren Blogpost dazu
 - Nein, Sie können sich nicht mit Delta Chat in ein Protonmail-, Tutanota- oder Criptext-Konto einloggen, da diese keinen Standard-E-Mail-Empfang über IMAP anbieten.
 - Ja, Sie können Delta Chat verwenden, um Nachrichten an Personen zu senden, die Protonmail, Tutanota oder Criptext verwenden. Diese Nachrichten werden jedoch nicht ende-zu-ende-verschlüsselt, da diese Anbieter keine mit dem [Autocrypt](https://autocrypt.org/)-Standard kompatible Verschlüsselung verwenden.
 - Delta Chat kann Ende-zu-Ende-Verschlüsselung über jeden E-Mail-Anbieter mit jeder
-[Autocrypt-fähige E-Mail-Anwendung] (https://autocrypt.org/dev-status.html) herstellen
+[Autocrypt-fähige E-Mail-Anwendung](https://autocrypt.org/dev-status.html) herstellen
 
 
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
