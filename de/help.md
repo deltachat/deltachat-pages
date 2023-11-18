@@ -294,77 +294,76 @@ Beim Beitritt zu Gruppenchats mit grünen Häkchen
 werden Verschlüsselungsinformationen (und die grünen Häkchen) aller Teilnehmer sicher so weitergegeben,
 dass die Ende-zu-Ende-Verschlüsselung in der Gruppe und zwischen den Mitgliedern garantiert werden kann.
 
-Contact profiles with green checkmarks 
+Kontaktprofile mit grünen Häkchen 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-mean that messaging a contact is currently guaranteed to be end-to-end encrypted.
-Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by a another green-checkmarked contact.
-Introductions happen automatically when adding members to groups. 
-Whoever adds a contact to a green-checkmarked group becomes an introducer 
-to those members who didn't yet know about the added contact.
-In a contact profile you can tap on the "Introduced by ..." text repeatedly
-until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
+bedeuten, dass die Nachrichtenübermittlung an einen Kontakt derzeit garantiert Ende-zu-Ende-verschlüsselt ist.
+Jeder grün markierte Kontakt hat entweder einen direkten [QR-Scan](#howtoe2ee) mit Ihnen durchgeführt
+oder wurde von einem anderen Kontakt mit grünem Häkchen eingeführt.
+Das Einführen geschieht automatisch, wenn Sie Mitglieder zu Gruppen hinzufügen. 
+Wer einen Kontakt zu einer Gruppe mit grünem Häkchen hinzufügt, wird zum Einführenden 
+für die Mitglieder, die noch nichts von dem hinzugefügten Kontakt wussten.
+In einem Kontaktprofil können Sie wiederholt auf den Text "Eingeführt von ..." tippen
+bis du zu demjenigen gelangst, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) gemacht haben.
 
-Note that in a contact profile you may see and tap introducers 
-but there is no green checkmark in the profile title. 
-This usually means that the contact ["sent a message from another device"](#nocryptanymore). 
+Beachten Sie, dass Sie in einem Kontaktprofil unter Umständen zwar Einführende sehen und antippen können 
+sehen, aber kein grünes Häkchen im Profiltitel vorhanden ist. 
+Dies bedeutet in der Regel, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
 
-For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
-and specifically read about "Verified Groups", the technical term
-of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+Für eine ausführlichere Diskussion der "garantierten Ende-zu-Ende-Verschlüsselung",
+siehe [Secure-Join-Protokolle] (https://countermitm.readthedocs.io/en/latest/new.html)
+und dort speziell den Abschnitt zu "Verified Groups", dem technischen Begriff
+für Chats mit "grünem Häkchen" oder "garantierter Ende-zu-Ende-Verschlüsselung".
 
 
 ### Ein Kontakt hat eine Nachricht von einem anderen Gerät gesendet", was kann ich tun? {#nocryptanymore}
 
-Your chat with a contact lost guaranteed end-to-end encryption. 
-The green checkmark was removed for this chat and contact when you see this warning. 
-**If you find the sudden drop of guaranteed end-to-end encryption 
-surprising for this contact then don't accept the warning!**
-Instead check with your contact through a second channel 
-like a video call, other messenger or a phone call,
-to find out what happened. 
+Für den Kontakt kann die Ende-zu-Ende-Verschlüsselung nicht mehr garantiert werden; 
+das grüne Häkchen wurde für diesen Chat und Kontakt entfernt, wenn Sie diese Warnung sehen. 
+**Wenn Sie den plötzlichen Wegfall der garantierten Ende-zu-Ende-Verschlüsselung 
+für diesen Kontakt überraschend finden, akzeptieren Sie die Warnung nicht!**
+Versuchen Sie stattdessen mit Ihrem Kontakt über einen zweiten Kanal 
+wie einen Videoanruf, einen anderen Messenger oder ein Telefonat,
+herauszufinden, was passiert ist.
 
-If your contact actually caused the drop of guaranteed end-to-end encryption
-please see the next paragraphs for common reasons and their mitigations. 
-Regardless, all other green-checkmarked chats remain guaranteed end-to-end encrypted
-even if the contact is a member there. 
+Wenn Ihr Kontakt tatsächlich den Ausfall der garantierten Ende-zu-Ende-Verschlüsselung verursacht hat,
+finden Sie in den nächsten Abschnitten häufige Gründe und Abhilfe. 
+Unabhängig davon bleiben alle anderen Chats mit einem grünen Häkchen garantiert Ende-zu-Ende-verschlüsselt,
+auch wenn der Kontakt dort Mitglied ist.
 
-**Your contact is using Delta Chat on a second device (phone or laptop)**
+**Ihr Kontakt verwendet Delta Chat auf einem zweiten Gerät (Smartphone oder Laptop)**
 
-If they have another device with a Delta Chat app running,
-they should remove the account from the new device
-and add it [as a second device as described here](#multiclient).
-As soon as they message you afterwards, the warning will be gone
-and guaranteed encryption is established with both devices of your contact. 
+Wenn Ihr Kontakt ein weiteres Gerät hat, auf dem eine Delta-Chat-App läuft,
+sollten das Konto von dem neuen Gerät entfernen werden und [als zweites Gerät, wie hier beschrieben](#multiclient) hinzugefügt werden.
+Sobald sie sich danach schreiben, wird die Warnung verschwinden
+und die Verschlüsselung ist mit beiden Geräten Ihres Kontakts garantiert.
 
-**Your contact reinstalled Delta Chat using their old account login**
+**Ihr Kontakt hat Delta Chat mit seinem alten Login neu installiert**
  
-If they have [a backup file](#backup), 
-they should remove the account from the new device 
-and rather import the backup file to re-create their account. 
-As soon as they message you afterwards, the warning will be gone
-and guaranteed encryption is re-established for this contact.
+Wenn Ihr Kontakt [ein Backup](#backup) hat, 
+sollten das Konto auf dem neuen Gerät 
+entfernen werden und stattdessen das Backup importieren werden, um das Konto neu zu erstellen. 
+Sobald sie sich danach schreiben, wird die Warnung verschwinden
+und die garantierte Verschlüsselung wird für diesen Kontakt wiederhergestellt.
 
-If they don't have a backup file, it's best to perform a [QR scan](#howtoe2ee) 
-with your chat partner to re-establish guaranteed end-to-end encryption.
+Wenn Ihr Kontakt kein Backup hat, ist es am besten, einen [QR-Scan](#howtoe2ee) 
+mit Ihrem Chat-Partner durchzuführen, um die garantierte Ende-zu-Ende-Verschlüsselung wiederherzustellen.
 
-**Your contact sent a mail through a webmail interface or another e-mail app
-and will get back to using Delta Chat soon again.**
+**Ihr Kontakt hat eine E-Mail über Webmail oder eine andere E-Mail-Anwendung gesendet,
+wird Delta Chat aber bald wieder benutzen.**
 
-If you are sure that the contact sometimes uses webmail,
-or another mail app lacking end-to-end encryption,
-then you may accept the warning.
-As soon as your contact uses Delta Chat again, 
-guaranteed end-to-end encryption will be automatically re-established. 
+Wenn Sie sicher sind, dass der Kontakt manchmal Webmail,
+oder andere E-Mail-Anwendungen ohne Ende-zu-Ende-Verschlüsselung verwendet,
+dann können Sie die Warnung akzeptieren.
+Sobald Ihr Kontakt Delta Chat wieder benutzt, 
+wird die garantierte Ende-zu-Ende-Verschlüsselung automatisch wiederhergestellt.
 
-**Your contact stopped using Delta Chat entirely**
+**Ihr Kontakt hat die Nutzung von Delta Chat komplett eingestellt**
 
-Sometimes remaining in contact is more important than end-to-end encryption.
-["Transport Layer Encryption" (TLS)](#tls) may still meaningfully protect
-the confidentiality of your messages between your device and the e-mail server. 
-But without end-to-end encryption you and your contract are trusting your e-mail server 
-to not read or manipulate your messages, and to not hand them to third parties. 
+Manchmal ist es wichtiger, in Kontakt zu bleiben als eine Ende-zu-Ende-Verschlüsselung zu haben;
+die ["Transport Layer Encryption" (TLS)](#tls) kann die Vertraulichkeit
+Ihrer Nachrichten zwischen Ihrem Gerät und dem E-Mail-Server dennoch schützen. 
+Aber ohne Ende-zu-Ende-Verschlüsselung vertrauen Sie und Ihr Chat-Partner darauf, dass Ihr E-Mail-Server 
+ Nachrichten nicht liest oder manipuliert und sie nicht an Dritte weitergibt.
 
 In any case, you can not do much else than accept the warning.
 Please also remove the contact from any active green-checkmarked group 

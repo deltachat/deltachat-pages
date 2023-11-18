@@ -144,11 +144,9 @@ Als nächstes fügen Sie in der Weboberfläche unter "E-Mail / Konfiguration / D
 
 Danach können Sie unter "E-Mail / Konfiguration / Mailboxen" ein erstes Konto anlegen. Sie können es jetzt mit Delta Chat ausprobieren.
 
-#### Recommended: Add Additional DNS Entries
+#### Empfohlen: Weitere DNS-Einträge hinzufügen
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further recommendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+Unter "E-Mail / Konfiguration / Domains" sehen Sie rechts neben Ihrer Domain einen blauen Schaltfläche "DNS". Dort finden Sie weitere Empfehlungen für DNS-Einträge, die Ihnen helfen können, wenn Sie Probleme bei der Zustellung Ihrer E-Mails an andere Server haben.
 
 ![DNS-Einstellungen in Mailcow anzeigen](../assets/blog/mailcow-dns-settings.png)
 
@@ -238,7 +236,7 @@ Dies startet einen `mailadm` Docker-Container. Sollten Sie den Docker-Container 
 
 Das war's! Sie können nun mit der Erstellung von Token und Benutzern mit mailadm beginnen. Schauen Sie sich am besten die Dokumentation für die [ersten Schritte](https://mailadm.readthedocs.io/en/latest/#first-steps) - sie enthält auch Hinweise zur Fehlersuche, falls etwas nicht funktioniert.
 
-## Recommended: Disable POP3
+## Empfohlen: POP3 deaktivieren
 
 Delta Chat verwendet nur SMTP und IMAP, Wenn also alle Ihre Benutzer Delta Chat benutzen, können Sie POP3 deaktivieren.
 
@@ -251,7 +249,7 @@ POPS_PORT=127.0.0.1:995
 
 Dann wenden Sie die Änderungen mit "sudo docker compose up -d" an.
 
-## Recommended: Redirect all HTTP traffic to HTTPS
+## Empfohlen: Den gesamten HTTP-Verkehr auf HTTPS umleiten
 
 Standardmäßig antwortet der nginx-Server auch unverschlüsselt auf Port 80. Das kann schlecht sein, da einige Benutzer möglicherweise Passwörter über diese unverschlüsselte Verbindung eingeben.
 
@@ -276,7 +274,7 @@ server {
 
 Dann wenden Sie die Änderungen mit `sudo docker compose restart nginx-mailcow` an.
 
-## Recommended: No Logs, No Masters
+## Empfohlen: No Logs, No Masters
 
 Mailcow protokolliert die IP-Adressen Ihrer Nutzer zu Debugging-Zwecken. Wenn Sie diese kritischen Informationen nicht auf Ihrem Server behalten wollen, sollten Sie das Logging deaktivieren. Beachten Sie, dass dies das Debuggen von Problemen erheblich erschwert. Niemand außer Ihnen kann beurteilen, ob dies in Ihrer Umgebung notwendig ist.
 
@@ -312,17 +310,17 @@ Zu guter Letzt, starten Sie rsyslog mit `sudo service rsyslog restart` neu und m
 
 Übrigens: Die [Mailcow Logging Dokumentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation) zeigt Alternativen zu dieser Konfiguration auf.
 
-## Recommended: Add Reverse DNS Entries at Your Provider
+## Empfohlen: Reverse-DNS-Einträge zum Provider hinzufügen
 
-You might also create reverse DNS entries
-for the IPv4 and IPv6 addresses of your server,
-containing your domain.
-Reverse DNS entries improve deliverability;
-it helps other mail server
-distinguish your user's mails from spam.
+Sie können auch Reverse-DNS-Einträge
+für die IPv4- und IPv6-Adressen Ihres Servers erstellen,
+die Ihre Domain enthalten.
+Reverse-DNS-Einträge verbessern die Zustellbarkeit;
+um anderen E-Mail-Servern
+die Unterscheidung von Benutzermails von Spam zu erleichtern.
 
-Setting rDNS entries should be possible
-in the hosting provider web interface.
-You can read more about it
-[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+Das Setzen von rDNS-Einträgen sollte
+in der Weboberfläche des Hosting-Anbieters möglich sein.
+Sie können hierzu mehr
+[in diesem Artikel](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/) lesen.
 
