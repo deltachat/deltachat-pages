@@ -23,16 +23,15 @@ instalować tej samej aplikacji co Twoja, tak jak w przypadku innych komunikator
 
 ### Jakie są zalety Delta Chat w porównaniu z innymi komunikatorami?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- _Niezależny_ od jakiejkolwiek firmy lub usług. _Jesteś_ właścicielem swoich danych.
+- Twoje dane nie są zapisywane na centralnym serwerze, chyba że wszyscy użytkownicy korzystają z tych samych serwerów pocztowych
+- Nie udostępniasz nikomu swojej książki adresowej
+- _Szybki_ dzięki użyciu Push-IMAP
+- _Największa baza użytkowników_ – możesz dotrzeć również do odbiorców _niekorzystających_ z Delta Chat.
+- _Brak spamu_ – domyślnie wyświetlane są, tylko wiadomości znanych użytkowników
+- _Szyfrowanie end-to-end_ za pomocą Autocrypt
+- Wolne oprogramowanie oparte na _Systemie licencjonowania praw autorskich_ i _Standardach_
+- _Elastyczna tożsamość_ ze wbudowaną obsługą [wielu kont](#multiple-accounts)
 
 
 ### Jakie wiadomości pojawiają się w Delta Chat?
@@ -212,9 +211,9 @@ Jeśli chcesz zachować konto, ale odinstalować Delta Chat, zaleca się opuszcz
 - Aby ją włączyć, przejdź do „Usuń wiadomości z urządzenia” w ustawieniach w sekcji „Czaty i media”. Możesz ustawić przedział czasowy pomiędzy „po 1 godzinie” a „po 1 roku”; w ten sposób *wszystkie* wiadomości zostaną usunięte z urządzenia, gdy tylko staną się starsze.
 
 
-## Encryption and Security 
+## Szyfrowanie i bezpieczeństwo
 
-### Which standards are used for end-to-end encryption? 
+### Jakie standardy są stosowane do szyfrowania end-to-end?
 
 [Autocrypt](https://autocrypt.org) is used for automatically
 establishing end-to-end encryption with contacts and group chats.

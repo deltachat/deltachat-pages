@@ -310,7 +310,7 @@ sehen, aber kein grünes Häkchen im Profiltitel vorhanden ist.
 Dies bedeutet in der Regel, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
 
 Für eine ausführlichere Diskussion der "garantierten Ende-zu-Ende-Verschlüsselung",
-siehe [Secure-Join-Protokolle] (https://countermitm.readthedocs.io/en/latest/new.html)
+siehe [Secure-Join-Protokolle](https://countermitm.readthedocs.io/en/latest/new.html)
 und dort speziell den Abschnitt zu "Verified Groups", dem technischen Begriff
 für Chats mit "grünem Häkchen" oder "garantierter Ende-zu-Ende-Verschlüsselung".
 
@@ -365,193 +365,187 @@ Ihrer Nachrichten zwischen Ihrem Gerät und dem E-Mail-Server dennoch schützen.
 Aber ohne Ende-zu-Ende-Verschlüsselung vertrauen Sie und Ihr Chat-Partner darauf, dass Ihr E-Mail-Server 
  Nachrichten nicht liest oder manipuliert und sie nicht an Dritte weitergibt.
 
-In any case, you can not do much else than accept the warning.
-Please also remove the contact from any active green-checkmarked group 
-which you can find in "Shared chats" in the Contact profile. 
-This spares your contact from getting "unreadable" messages. 
+In jedem Fall können Sie nicht viel mehr tun, als die Warnung zu akzeptieren.
+Bitte entfernen Sie den Kontakt auch aus allen aktiven, grün markierten Gruppen 
+die Sie unter "Gemeinsame Chats" im Profil des Kontakts finden können. 
+So vermeiden Sie, dass Ihr Kontakt "unlesbare" Nachrichten erhält.
 
-If the contact removed Delta Chat because of buggy or undesirable behaviour, 
-please consider posting to our [support forum](https://support.delta.chat) 
-to help us identify and address common problems. Thanks!
+Wenn der Kontakt Delta Chat aufgrund von Fehlern oder Bugs entfernt hat, 
+können Sie einen Beitrag in unserem [Support-Forum](https://support.delta.chat) schreiben, 
+um uns zu helfen, häufige Probleme zu identifizieren und zu lösen. Vielen Dank!
 
 
 ### Sind Anhänge (Bilder, Dateien, Audio usw.) Ende-zu-Ende-verschlüsselt?
 
 Ja.
 
-When we talk about an "end-to-end encrypted message"
-we always mean a whole message is encrypted,
-including all the attachments
-and attachment metadata such as filenames.
+Wenn wir von einer "Ende-zu-Ende-verschlüsselten Nachricht" sprechen
+meinen wir immer, dass eine ganze Nachricht verschlüsselt ist,
+einschließlich aller Anhänge
+und Anhang-Metadaten wie Dateinamen.
 
 
 ### Ist OpenPGP sicher? {#openpgp-secure}
 
-Yes, Delta Chat uses a secure subset of OpenPGP
-and only displays a padlock security indicator on a message
-if the whole message is properly encrypted and signed.
-For example, "Detached signatures" are not treated as secure.
+Ja, Delta Chat verwendet eine sichere Untermenge von OpenPGP
+und zeigt nur dann ein Vorhängeschloss auf einer Nachricht an,
+wenn die gesamte Nachricht ordnungsgemäß verschlüsselt und signiert ist.
+"Detached Signatures" werden zum Beispiel nicht als sicher betrachtet.
 
-OpenPGP is not insecure by itself.
-Most publically discussed OpenPGP security problems
-actually stem from bad usability or bad implementations of tools or apps (or both).
-It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
-and GnuPG (GPG), a command line tool implementing OpenPGP. 
-Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
-Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
-available as [an independent "pgp" package](https://crates.io/crates/pgp),
-and [security-audited in 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf). 
+OpenPGP ist nicht von sich aus unsicher:
+Die meisten öffentlich diskutierten OpenPGP-Sicherheitsprobleme
+resultieren in Wirklichkeit aus schlechter Usability oder schlechter Implementierung von Tools oder Anwendungen (oder beidem).
+Es ist besonders wichtig, zwischen OpenPGP, dem IETF-Verschlüsselungsstandard 
+und GnuPG (GPG), einem Kommandozeilenprogramm, das OpenPGP implementiert, zu unterscheiden. 
+In vielen öffentlichen Kritiken zu OpenPGP wird GnuPG diskutiert, das Delta Chat nie verwendet hat. 
+Delta Chat verwendet stattdessen die OpenPGP Rust-Implementierung [rPGP](https://github.com/rpgp/rpgp),
+die als [ein unabhängiges "pgp"-Paket](https://crates.io/crates/pgp),
+verfügbar und [2019 sicherheitsgeprüft](https://delta.chat/assets/blog/2019-first-security-review.pdf) wurde.
 
-We aim, along with other OpenPGP implementors, 
-to further improve security characteristics by implementing the
-[new IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) 
-which was thankfully adopted in summer 2023. 
+Zusammen mit anderen OpenPGP-Implementierungen ist unser Ziel, 
+die Sicherheitseigenschaften durch das im Sommer 2023 angenommene
+[IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) weiter zu verbessern.
 
 
 ### Wurden Alternativen zu OpenPGP für die Ende-zu-Ende-Verschlüsselung in Betracht gezogen? {#openpgp-alternatives}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-or [Saltpack](https://saltpack.org/) 
-but adopting them would mean breaking end-to-end encryption interoperability 
-with all other e-mail apps that typically support OpenPGP encryption. 
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+Ja, wir verfolgen Ansätze wie [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
+oder [Saltpack](https://saltpack.org/); 
+sie aber zu übernehmen würde bedeuten, die Interoperabilität der Ende-zu-Ende-Verschlüsselung 
+mit allen anderen E-Mail-Anwendungen zu zerstören. 
+Die Entscheidung wäre also nicht leicht zu treffen 
+und es muss spürbare Verbesserungen für die Nutzer geben.
 
-Delta Chat takes a holistic "usable security" approach 
-and works with a wide range of activist groupings as well as 
-renowned researchers such as [TeamUSEC](https://teamusec.de) 
-to improve actual user outcomes against security threats. 
-The wire protocol and standard for establishing end-to-end encryption is
-only one part of "user outcomes",
-see also our answers to [device-seizure](#device-seizure)
-and [message-metadata](#message-metadata) questions. 
+Delta Chat verfolgt einen ganzheitlichen Ansatz bei der "nutzbaren Sicherheit". 
+Wir arbeiteten mit einer breiten Palette von Aktivistengruppen sowie mit 
+renommierten Forschern wie [TeamUSEC](https://teamusec.de) zusammen, 
+um die tatsächlichen Ergebnisse der Benutzer gegen Sicherheitsbedrohungen zu verbessern. 
+Das Wire-Protokoll und der Standard für die Einrichtung der Ende-zu-Ende-Verschlüsselung ist
+nur ein Teil der "Nutzerergebnisse";
+siehe auch unsere Antworten auf [device-seizure](#device-seizure)
+und [message-metadata](#message-metadata) Fragen.
 
 
 ### Ist Delta Chat anfällig für EFAIL?
 
-No, [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
-because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
-uses Modification Detection Code when encrypting messages
-and returns [an error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
-if the Modification Detection Code is incorrect.
+Nein, [Delta Chat war nie anfällig für EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail.)
+Delta Chats OpenPGP-Implementierung [rPGP](https://github.com/rpgp/rpgp) 
+verwendet beim Verschlüsseln von Nachrichten "Modification Detection Codes" 
+und gibt [Fehler](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError) zurück,
+wenn dieser falsch ist.
 
-Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
-because it only decrypts `multipart/encrypted` messages
-which contain exactly one encrypted and signed part,
-as defined by the Autocrypt Level 1 specification. 
+Delta Chat war auch nie anfällig für den EFAIL-Angriff "Direct Exfiltration",
+da nur `multipart/encrypted` Nachrichten entschlüsselt werden,
+die genau einen verschlüsselten und signierten Teil enthalten;
+so wie in der Autocrypt Level 1 Spezifikation definiert.
 
 
 ### Wird eine Nachricht im Klartext gesendet, wenn keine Ende-zu-Ende-Verschlüsselung verfügbar ist? {#tls}
 
-Even if your messages are not guaranteed to be end-to-end encrypted, 
-they are still protected from Internet providers like cell or cable companies. 
-However, your and your recipient's e-mail providers 
-may read, analyze or even modify your messages, 
-including any attachments,
-if they are not end-to-end encrypted. 
+Auch wenn Ihre Nachrichten nicht garantiert Ende-zu-Ende-verschlüsselt sind, 
+sind sie dennoch vor Internetanbietern wie Mobilfunk- oder Telefongesellschaften geschützt. 
+Allerdings können Ihr E-Mail-Provider und der des Empfängers 
+Ihre Nachrichten lesen, analysieren oder sogar verändern,
+wenn sie nicht Ende-zu-Ende-verschlüsselt sind.
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your e-mail provider. 
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's e-mail provider
-will typically be transport-encrypted as well.
-If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between e-mail providers 
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+Delta Chat verwendet standardmäßig strikte 
+[TLS-Verschlüsselung](https://en.wikipedia.org/wiki/Transport_Layer_Security), 
+die die Verbindungen zwischen Ihrem Gerät und Ihrem E-Mail-Anbieter sichert. 
+Die gesamte TLS-Verarbeitung von Delta Chat wurde unabhängig [sicherheitsgeprüft](#security-audits).
+Die Verbindung zwischen Ihrem E-Mail-Providernund dem des Empfängers
+ist in der Regel ebenfalls transportverschlüsselt.
+Wenn die beteiligten E-Mail-Server [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461) unterstützen,
+wird TLS zwischen den E-Mail-Anbietern durchgesetzt. 
+In diesem Fall wird die Delta-Chat-Kommunikation niemals im Klartext ins Internet gelangen
+selbst wenn die Nachricht nicht Ende-zu-Ende-verschlüsselt war.
 
-Note that [maintaining guaranteed end-to-end encryption](#howtoe2ee) on top of TLS encryption 
-provides pervasive safety between your and the recipient's devices.
-Not even your e-mail or Internet provider will be able to read or modify your messages. 
+Beachten Sie, dass die [Beibehaltung der garantierten Ende-zu-Ende-Verschlüsselung](#howtoe2ee) zusätzlich zur TLS-Verschlüsselung 
+eine allumfassende Sicherheit zwischen Ihrem Gerät und dem des Empfängers bietet.
+Nicht einmal Ihr E-Mail- oder Internet-Provider wird in der Lage sein, Ihre Nachrichten zu lesen oder zu verändern.
 
 
 ### Wie schützt Delta Chat Metadaten in Nachrichten? {#message-metadata}
 
-Delta Chat protects most message metadata by putting the following information
-into the end-to-end encrypted part of messages:
+Delta Chat schützt die meisten Metadaten von Nachrichten, indem es die folgenden Informationen
+in den Ende-zu-Ende-verschlüsselten Teil der Nachrichten verschiebt:
 
-- Subject line 
-- Group avatar and name 
-- MDN (read receipt) requests (`Chat-Disposition-Notification-To`)
-- Disappearing message timer (`Ephemeral-Timer`) 
-- `Chat-Group-Member-Removed`, `Chat-Group-Member-Added` 
-- `Secure-Join` header containing secure join commands
-- Notification about enabling location streaming
-- WebRTC room URL
+- Betreffzeile 
+- Avatar und Name der Gruppe 
+- Lesebestätigungen (`Chat-Disposition-Notification-To`)
+- Timer für verschwindende Nachrichten (`Ephemeral-Timer`) 
+-  `Chat-Group-Member-Removed`, `Chat-Group-Member-Added` 
+- `Secure-Join`-Header
+- Aktivierung des Standort-Streamings
+- WebRTC-Raum-URL
 
-E-Mail servers do not get access to this protected metadata 
-but they do see the message date as well as the message size,
-and, more importantly, the sender and receiver addresses. 
-E-mail servers need receiver addresses to route and 
-deliver messages to recipient's devices. 
+E-Mail-Server erhalten keinen Zugriff auf diese geschützten Metadaten 
+aber sie sehen das Datum und die Größe der Nachricht,
+und die Absender- und Empfängeradressen. 
+E-Mail-Server benötigen Empfängeradressen, um Nachrichten 
+Nachrichten an die Geräte der Empfänger weiterzuleiten und zuzustellen.
 
 
 ### Wie schützt man Metadaten und Kontakte, wenn ein Gerät beschlagnahmt wird? {#device-seizure}
 
-Both for protecting against metadata-collecting e-mail servers 
-as well as against the threat of device seizure
-we recommend to use a Delta Chat optimized [e-mail server instance](https://delta.chat/serverguide)
-to create pseudonymous temporary accounts through QR-code scans.
-Note that Delta Chat apps on all platforms support multiple accounts 
-so you can easily use action-specific "1-week" or "1-month" accounts next to your "main" account
-with the knowledge that all temporary account data, along with all metadata, will be deleted.
-Moreover, if a device is seized then contacts using temporary e-mail accounts
-can not be identified easily, as compared to messengers which reveal
-phone numbers in chat groups which in turn are often associated with legal identities.
+Sowohl zum Schutz vor E-Mail-Servern, die Metadaten sammeln 
+als auch gegen die Gefahr der Beschlagnahmung von Geräten
+empfehlen wir die Verwendung einer für Delta Chat optimierten [E-Mail-Server-Instanz](https://delta.chat/serverguide), um pseudonyme temporäre Konten durch Scannen von QR-Codes zu erstellen.
+Beachten Sie, dass Delta Chat-Apps auf allen Plattformen mehrere Konten unterstützen 
+Sie können also problemlos aktionsspezifische "1-Wochen-" oder "1-Monats-Konten" neben Ihrem "Hauptkonto" verwenden,
+mit dem Wissen, dass alle temporären Kontodaten zusammen mit allen Metadaten gelöscht werden.
+Wenn ein Gerät beschlagnahmt wird, können Kontakte mit temporären E-Mail-Konten
+Konten nicht so leicht identifiziert werden, wie dies bei Messengern der Fall ist, die die
+Telefonnummern in Chatgruppen preisgeben, die wiederum oft mit legalen Identitäten verbunden sind.
 
 
 ### Wie kann ich die Verschlüsselungsinformationen überprüfen?
 
-You may check the end-to-end encryption status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop).
-Delta Chat shows two fingerprints there.
-If the same fingerprints appear on your own and your contact's device,
-the connection is safe.
+Sie können den Status der Ende-zu-Ende-Verschlüsselung manuell im Dialog "Verschlüsselung"
+(Android/iOS: Benutzerprofil, Desktop: Rechtsklick auf den Chat eines Benutzers) überprüfen.
+Delta Chat zeigt dort zwei Fingerabdrücke an.
+Wenn die gleichen Fingerabdrücke auf Ihrem eigenen Gerät und auf dem Gerät Ihres Kontakts erscheinen,
+ist die Verbindung sicher.
 
 
 ### Wie kann ich den Verschlüsselungsstatus von Nachrichten überprüfen?
 
-A little **padlock** in a message bubble denotes
-that the message was properly end-to-end encrypted from the given sender.
-If there is **no padlock**, the message was not properly end-to-end encrypted
-most likely because the sender uses an app or webmail interface
-without support for end-to-end--encryption.
+Ein kleines **Vorhängeschloss** in einer Nachrichten zeigt an,
+dass die Nachricht vom Absender korrekt Ende-zu-Ende verschlüsselt wurde.
+Wenn **kein Vorhängeschloss** vorhanden ist, wurde die Nachricht nicht oder nicht korrekt Ende-zu-Ende verschlüsselt.
+Höchstwahrscheinlich, weil der Absender ein Webmail-Interface oder eine App
+ohne Ende-zu-Ende-Unterstützung verwendet.
 
 
 ### Warum sehe ich unverschlüsselte Nachrichten?
 
-If a contact uses a non-Autocrypt e-mail app,
-all messages involving this contact (in a group or 1:1 chat)
-will not be end-to-end encrypted, and thus not show a "padlock" with messages.
-Note that even if your contacts use Delta Chat on their account,
-they might also use a non-Autocrypt e-mail app on that account
-which then may cause intermittently unencrypted messages.
-Replying unencrypted to unencrypted messages is mandated by Autocrypt
-to prevent unreadable messages on the side of your contacts
-and their non-Autocrypt e-mail app.
+Wenn ein Kontakt keine Autocrypt-fähige App verwendet,
+werden alle Nachrichten, die diesen Kontakt betreffen (in Gruppen- oder Direk-Chats)
+nicht Ende-zu-Ende-verschlüsselt und zeigen daher kein "Vorhängeschloss".
+Beachten Sie, auch Kontakte, die primär Delta Chat verwenden,
+können gleichzeitig auch nicht-Autocrypt-fähige Apps verwenden.
+Das unverschlüsselte Antworten auf unverschlüsselte Nachrichten wird von Autocrypt vorgeschrieben
+um zu verhindern, dass unlesbare Nachrichten auf der Seite Ihrer Kontakte ankommen.
 
 ### Wie kann ich einen Ende-zu-Ende-verschlüsselten Chat mit einem Delta-Chat-Kontakt führen, der manchmal Webmail oder eine andere E-Mail-Anwendung ohne Autocrypt verwendet?
 
-If you need a safely end-to-end encrypted chat with a contact 
-who is using their account both with Delta Chat and non-Autocrypt apps (e.g. webmail),
-it's best to setup [guaranteed end-to-end encryption with them](#howtoe2ee)
-and then create a guaranteed end-to-end encrypted group chat with you two as members. 
-In this group chat all messages will be end-to-end encrypted 
-even if the direct chat between you two has a
-["… sent a message from another device"](#nocryptanymore) warning. 
+Wenn Sie einen sicheren Ende-zu-Ende-verschlüsselten Chat mit einem Kontakt benötigen, 
+der sowohl Delta Chat als auch nicht-Autocrypt-Anwendungen nutzt,
+können Sie eine [garantierte Ende-zu-Ende-Verschlüsselung](#howtoe2ee) einrichten, mit einer Gruppe mit Ihnen beiden als Mitgliedern. 
+In diesem Gruppenchat werden alle Nachrichten Ende-zu-Ende verschlüsselt werdejn,
+auch wenn im Direkt-Chat eine
+["Nachricht von einem anderen Gerät gesendet"](#nocryptanymore) wurde.
 
 
 ### Wie kann ich Ende-zu-Ende-Verschlüsselung und Löschen von Nachrichten sicherstellen?
 
-The best way to ensure every message is end-to-end encrypted,
-and metadata deleted as quickly as possible
-is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
-and turning on disappearing messages.
+Der beste Weg, um sicherzustellen, dass alle Nachrichten Ende-zu-Ende verschlüsselt sind,
+und Metadaten so schnell wie möglich gelöscht werden,
+ist [die Verwendung von Chats mit garantierter Ende-zu-Ende-Verschlüsselung](#howtoe2ee)
+und die Aktivierung von "Verschwindende Nachrichten".
 
-Guranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on "disappearing messages" deletes the messages
-on the server after a user-configured time.
+Garantiert Ende-zu-Ende-Verschlüsselung schützt vor [MITM-Angriffen](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+und das Aktivieren von "Verschwindende Nachrichten" löscht die Nachrichten
+auf dem Server und Lokal nach einer vom Benutzer eingestellten Zeit.
 
 Wenn Sie die Nachrichten auf Ihrem Gerät, aber nicht auf dem Server benötigen, können Sie auch in der Gruppe vereinbaren, ["Nachrichten automatisch vom Server löschen"](#delold) einzuschalten.
 
@@ -772,22 +766,22 @@ In diesem Fall muss Delta Chat den Posteingang nicht beobachten, und es reicht a
 
 ### Wie kann ich mein Konto auf eine andere E-Mail-Adresse ändern?
 
-1. Change your address in “Settings - Password and Account” and
-   enter the password of your new account (and if necessary, server settings).
-   You will get an information notice about the fact that you are moving to a new address. 
-   An additional notice will also show up in your "Device messages" chat. 
+1. Ändern Sie Ihre E-Mail-Adresse unter "Einstellungen - Mein Profil - Passwort und E-Mail-Konto" und
+geben Sie das Passwort Ihres neuen E-Mail-Konto (und ggf. die Servereinstellungen) ein.
+Sie erhalten einen Hinweis darauf, dass Sie zu einer neuen E-Mail-Adresse umziehen. 
+Ein zusätzlicher Hinweis erscheint auch in Ihrem Chat "Systemnachrichten".
 
-2. If possible, let your old e-mail provider forward all messages to your new address.
+2. Wenn möglich, weisen Sie Ihren alten E-Mail-Provider an, alle Nachrichten an die neue Adresse weiterzuleiten.
 
-3. Tell your contacts that you changed your address. 
-   Writing to guaranteed end-to-end encrypted chats and groups,
-   will make them notice your move automatically 
-   and they will continue chatting with you using your new address. 
+3. Teilen Sie Ihren Kontakten mit, dass Sie Ihre E-Mail-Adresse geändert haben. 
+Sobald Sie in "Garantiert Ende-zu-Ende-verschlüsselten" Chats schreiben,
+werden die anderen Mitglieder automatisch von Ihrem Umzug erfahren
+und werden mit Ihnen unter Ihrer neuen Adresse weiterchatten.
 
-Note that Delta Chat will not retrieve messages anymore from your old e-mail provider.
-If you didn't configure your e-mail provider to forward messages (step 2.) 
-only those contacts to whom you sent a message in a guaranteed end-to-end encrypted chat
-will send messages to your new address. 
+Beachten Sie, dass Delta Chat keine Nachrichten mehr von Ihrem alten E-Mail-Anbieter abrufen wird.
+Wenn Sie Ihren E-Mail-Provider nicht für die Weiterleitung von Nachrichten konfiguriert haben (Schritt 2.) 
+werden nur die Kontakte, denen Sie eine Nachricht in einem garantiert Ende-zu-Ende-verschlüsselten Chat gesendet haben
+gesendet haben, Nachrichten an Ihre neue Adresse senden.
 
 Um mehr über die Details dahinter zu erfahren, [lesen Sie unseren Blogpost dazu](https://delta.chat/en/2022-09-14-aeap).
 
