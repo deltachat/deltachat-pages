@@ -207,7 +207,7 @@ Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gr
 
 ## Verschlüsselung und Sicherheit
 
-### Welches Verfahren wird für die Ende-zu-Ende-Verschlüsselung verwendet?
+### Welche Standards werden für die Ende-zu-Ende-Verschlüsselung verwendet?
 
 [Autocrypt](https://autocrypt.org) wird verwendet, um automatisch
 eine Ende-zu-Ende-Verschlüsselung mit Kontakten und Gruppenchats herzustellen.
@@ -223,7 +223,7 @@ garantieren Ende-zu-Ende-verschlüsselte Nachrichten.
 
 ### Wie kann ich wissen, ob Nachrichten Ende-zu-Ende verschlüsselt sind? {#whene2e}
 
-Alle Ende-zu-Ende-verschlüsselten Nachrichten sind mit einem Vorhängeschloss versehen:
+Ende-zu-Ende-verschlüsselten Nachrichten sind mit einem Vorhängeschloss versehen:
 
 <img style="width:160px; margin:1px" src="../assets/help/lock-screenshot.png" alt="padlock in bubble"/>
 
@@ -234,11 +234,11 @@ Die Ende-zu-Ende-Verschlüsselung ist garantiert, wenn neben dem Chat-Titel ein 
 
 ### Wie kann ich garantierte Ende-zu-Ende-Verschlüsselung und grüne Häkchen erhalten? {#howtoe2ee}
 
-Treffen Sie Ihren Chatpartner außerhalb von Delta Chat, vorzugsweise persönlich.
+Treffen Sie Ihren Chat-Partner außerhalb von Delta Chat, vorzugsweise persönlich.
 Ein zweiter Kanal wie ein Video-Chat
 oder ein anderer Messenger ist aber auch in Ordnung.
 Führen Sie das folgende QR-Code-Verfahren mit Ihrem Chat-Partner durch.
-Einer von Ihnen ist der "Einladende", die andere ist der "Beitretende".
+Einer von Ihnen ist der "Einlader", die andere ist der "Beitretende".
 
 **Auf der Seite des Einladers**:
 
@@ -246,7 +246,7 @@ Einer von Ihnen ist der "Einladende", die andere ist der "Beitretende".
 Tippen Sie auf den Titel der Chat-Gruppe, um die Mitgliederliste anzuzeigen, und wählen Sie "QR-Einladungscode". 
 Zeigen Sie das QR-Bild der anderen Seite entweder persönlich oder über einen zweiten Kanal.
 
-- Direkte 1:1 Chat-Einladung: 
+- Direktchat-Einladung: 
 Tippen Sie auf das QR-Code-Symbol <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
 auf dem Hauptbildschirm der Delta Chat-App -- 
 auf dem Desktop befindet sich das QR-Symbol im Sandwich-Menü auf der linken Seite.
@@ -259,42 +259,42 @@ auf dem Hauptbildschirm der Delta Chat-App --
 auf dem Desktop befindet sich das QR-Symbol im Sandwich-Menü auf der linken Seite.
 
 - Wählen Sie "QR-CODE SCANNEN" und scannen Sie den QR-Code 
-den Sie von Ihrem Chatpartner in einem zweiten Kanal sehen oder erhalten haben.
+den Sie von Ihrem Chat-Partner in einem zweiten Kanal sehen oder erhalten haben.
 
 - "OK" tippen
 
 
 **Beide, Einlader und Beitretender**:
 
-Warten Sie, während [Secure-Join-Netzwerkmeldungen](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) zwischen beiden Geräten ausgetauscht werden.
+Warten Sie, während das [Secure-Join-Protokoll](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) zwischen den Geräten abläuft.
 
 - Wenn beide Geräte online sind,
-sehen beide Seiten schließlich einen (Gruppen- oder Direkt-) Chat mit einem grünen Häkchen
+sehen beide Seiten schließlich einen Gruppen- oder Direkt-Chat mit einem grünen Häkchen
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
 neben dem Titel.
 
 - Wenn eines der Geräte offline ist, erscheinen die grünen Häkchen erst
-erst später, wenn das Gerät wieder mit dem Internet verbunden ist
-und das Secure-Join-Netzwerkprotokoll abgeschlossen ist.
+später, wenn das Gerät wieder mit dem Internet verbunden ist
+und das Secure-Join-Protokoll abgeschlossen werden kann.
 
 Herzlichen Glückwunsch! 🎉
-Sie verwenden nun automatisch eine garantierte Ende-zu-Ende-Verschlüsselung
+Sie verwenden nun eine garantierte Ende-zu-Ende-Verschlüsselung
 mit diesem Kontakt und Sie beide können sich gegenseitig zu grün markierten Gruppen hinzufügen
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>,
 Dadurch wird die garantierte Ende-zu-Ende-Verschlüsselung automatisch unter den Mitgliedern dieser Gruppe verbreitet.
 
 
-### Was bedeutet das grüne Häkchen und die "garantierte Ende-zu-Ende-Verschlüsselung"? {#e2eeguarantee}
+### Was bedeuten das "Grüne Häkchen" und die "garantierte Ende-zu-Ende-Verschlüsselung"? {#e2eeguarantee}
 
-Chat-Titel mit grünen Häkchen
+**Chat-Titel mit grünen Häkchen**
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-bedeuten, dass alle Nachrichten im Chat Ende-zu-Ende verschlüsselt werden
+bedeuten, dass alle Nachrichten im Chat Ende-zu-Ende-verschlüsselt werden
 und nicht von kompromittierten E-Mail-Servern oder Internet-Providern gelesen oder verändert werden können. 
 Beim Beitritt zu Gruppenchats mit grünen Häkchen
 werden Verschlüsselungsinformationen (und die grünen Häkchen) aller Teilnehmer sicher so weitergegeben,
 dass die Ende-zu-Ende-Verschlüsselung in der Gruppe und zwischen den Mitgliedern garantiert werden kann.
 
-Kontaktprofile mit grünen Häkchen 
+**Kontaktprofile mit grünen Häkchen** 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
 bedeuten, dass die Nachrichtenübermittlung an einen Kontakt derzeit garantiert Ende-zu-Ende-verschlüsselt ist.
 Jeder grün markierte Kontakt hat entweder einen direkten [QR-Scan](#howtoe2ee) mit Ihnen durchgeführt
@@ -305,25 +305,21 @@ für die Mitglieder, die noch nichts von dem hinzugefügten Kontakt wussten.
 In einem Kontaktprofil können Sie wiederholt auf den Text "Eingeführt von ..." tippen
 bis du zu demjenigen gelangst, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) gemacht haben.
 
-Beachten Sie, dass Sie in einem Kontaktprofil unter Umständen zwar Einführende sehen und antippen können 
-sehen, aber kein grünes Häkchen im Profiltitel vorhanden ist. 
-Dies bedeutet in der Regel, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
+Beachten Sie, dass Sie in einem Kontaktprofil unter Umständen Einführende sehen und antippen können, aber kein grünes Häkchen im Profiltitel vorhanden ist. 
+Dies bedeutet normalerweise, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
 
-Für eine ausführlichere Diskussion der "garantierten Ende-zu-Ende-Verschlüsselung",
+Für eine ausführlichere Diskussion der "Garantierten Ende-zu-Ende-Verschlüsselung",
 siehe [Secure-Join-Protokolle](https://countermitm.readthedocs.io/en/latest/new.html)
 und dort speziell den Abschnitt zu "Verified Groups", dem technischen Begriff
-für Chats mit "grünem Häkchen" oder "garantierter Ende-zu-Ende-Verschlüsselung".
+für "Chats mit grünem Häkchen" oder "Garantierter Ende-zu-Ende-Verschlüsselung".
 
 
 ### Ein Kontakt hat eine Nachricht von einem anderen Gerät gesendet", was kann ich tun? {#nocryptanymore}
 
-Für den Kontakt kann die Ende-zu-Ende-Verschlüsselung nicht mehr garantiert werden; 
-das grüne Häkchen wurde für diesen Chat und Kontakt entfernt, wenn Sie diese Warnung sehen. 
-**Wenn Sie den plötzlichen Wegfall der garantierten Ende-zu-Ende-Verschlüsselung 
+Wenn Sie diese Warnung sehen, wurde das grüne Häkchen entfernt, da für den Kontakt die Ende-zu-Ende-Verschlüsselung nicht mehr garantiert werden kann.
+**Wenn Sie den Wegfall der garantierten Ende-zu-Ende-Verschlüsselung 
 für diesen Kontakt überraschend finden, akzeptieren Sie die Warnung nicht!**
-Versuchen Sie stattdessen mit Ihrem Kontakt über einen zweiten Kanal 
-wie einen Videoanruf, einen anderen Messenger oder ein Telefonat,
-herauszufinden, was passiert ist.
+Versuchen Sie stattdessen mit Ihrem Kontakt über einen zweiten Kanal (z.B. Videoanruf, Telefon oder ein anderer Messenger) herauszufinden, was passiert ist.
 
 Wenn Ihr Kontakt tatsächlich den Ausfall der garantierten Ende-zu-Ende-Verschlüsselung verursacht hat,
 finden Sie in den nächsten Abschnitten häufige Gründe und Abhilfe. 
@@ -332,8 +328,8 @@ auch wenn der Kontakt dort Mitglied ist.
 
 **Ihr Kontakt verwendet Delta Chat auf einem zweiten Gerät (Smartphone oder Laptop)**
 
-Wenn Ihr Kontakt ein weiteres Gerät hat, auf dem eine Delta-Chat-App läuft,
-sollten das Konto von dem neuen Gerät entfernen werden und [als zweites Gerät, wie hier beschrieben](#multiclient) hinzugefügt werden.
+Wenn Ihr Kontakt ein weiteres Gerät mit Delta Chat eingerichtet hat,
+sollte das Konto von dem neuen Gerät entfernen werden und [als zweites Gerät, wie hier beschrieben](#multiclient) erneut hinzugefügt werden.
 Sobald sie sich danach schreiben, wird die Warnung verschwinden
 und die Verschlüsselung ist mit beiden Geräten Ihres Kontakts garantiert.
 
@@ -345,13 +341,13 @@ entfernen werden und stattdessen das Backup importieren werden, um das Konto neu
 Sobald sie sich danach schreiben, wird die Warnung verschwinden
 und die garantierte Verschlüsselung wird für diesen Kontakt wiederhergestellt.
 
-Wenn Ihr Kontakt kein Backup hat, ist es am besten, einen [QR-Scan](#howtoe2ee) 
+Wenn Ihr Kontakt kein Backup hat, ist es am besten, einen [QR-Code-Scan](#howtoe2ee) 
 mit Ihrem Chat-Partner durchzuführen, um die garantierte Ende-zu-Ende-Verschlüsselung wiederherzustellen.
 
 **Ihr Kontakt hat eine E-Mail über Webmail oder eine andere E-Mail-Anwendung gesendet,
 wird Delta Chat aber bald wieder benutzen.**
 
-Wenn Sie sicher sind, dass der Kontakt manchmal Webmail,
+Wenn Sie wissen, dass der Kontakt manchmal Webmail,
 oder andere E-Mail-Anwendungen ohne Ende-zu-Ende-Verschlüsselung verwendet,
 dann können Sie die Warnung akzeptieren.
 Sobald Ihr Kontakt Delta Chat wieder benutzt, 
@@ -362,17 +358,16 @@ wird die garantierte Ende-zu-Ende-Verschlüsselung automatisch wiederhergestellt
 Manchmal ist es wichtiger, in Kontakt zu bleiben als eine Ende-zu-Ende-Verschlüsselung zu haben;
 die ["Transport Layer Encryption" (TLS)](#tls) kann die Vertraulichkeit
 Ihrer Nachrichten zwischen Ihrem Gerät und dem E-Mail-Server dennoch schützen. 
-Aber ohne Ende-zu-Ende-Verschlüsselung vertrauen Sie und Ihr Chat-Partner darauf, dass Ihr E-Mail-Server 
- Nachrichten nicht liest oder manipuliert und sie nicht an Dritte weitergibt.
+Ohne Ende-zu-Ende-Verschlüsselung vertrauen Sie und Ihr Chat-Partner jedoch darauf, dass Ihr E-Mail-Server Nachrichten nicht liest oder manipuliert und sie nicht an Dritte weitergibt.
 
 In jedem Fall können Sie nicht viel mehr tun, als die Warnung zu akzeptieren.
 Bitte entfernen Sie den Kontakt auch aus allen aktiven, grün markierten Gruppen 
 die Sie unter "Gemeinsame Chats" im Profil des Kontakts finden können. 
 So vermeiden Sie, dass Ihr Kontakt "unlesbare" Nachrichten erhält.
 
-Wenn der Kontakt Delta Chat aufgrund von Fehlern oder Bugs entfernt hat, 
-können Sie einen Beitrag in unserem [Support-Forum](https://support.delta.chat) schreiben, 
-um uns zu helfen, häufige Probleme zu identifizieren und zu lösen. Vielen Dank!
+Wenn der Kontakt Delta Chat aufgrund von Fehlern oder Bugs nicht mehr verwendet, 
+können Sie diese in unser [Support-Forum](https://support.delta.chat) schreiben, 
+und uns so dabei helfen, häufige Probleme zu identifizieren und zu lösen. Vielen Dank!
 
 
 ### Sind Anhänge (Bilder, Dateien, Audio usw.) Ende-zu-Ende-verschlüsselt?
@@ -390,19 +385,18 @@ und Anhang-Metadaten wie Dateinamen.
 Ja, Delta Chat verwendet eine sichere Untermenge von OpenPGP
 und zeigt nur dann ein Vorhängeschloss auf einer Nachricht an,
 wenn die gesamte Nachricht ordnungsgemäß verschlüsselt und signiert ist.
-"Detached Signatures" werden zum Beispiel nicht als sicher betrachtet.
+Zum Beispiel werden "Detached Signatures" nicht als sicher betrachtet.
 
-OpenPGP ist nicht von sich aus unsicher:
-Die meisten öffentlich diskutierten OpenPGP-Sicherheitsprobleme
-resultieren in Wirklichkeit aus schlechter Usability oder schlechter Implementierung von Tools oder Anwendungen (oder beidem).
-Es ist besonders wichtig, zwischen OpenPGP, dem IETF-Verschlüsselungsstandard 
-und GnuPG (GPG), einem Kommandozeilenprogramm, das OpenPGP implementiert, zu unterscheiden. 
+Die meisten öffentlich diskutierten OpenPGP-Probleme
+resultieren in Wirklichkeit aus schlechter Usability oder schlechter Implementierung von Tools oder Anwendungen - oder beidem.
+Es ist besonders wichtig, zwischen _OpenPGP_, dem IETF-Verschlüsselungsstandard 
+und _GnuPG (GPG)_, einem Kommandozeilenprogramm, das OpenPGP implementiert, zu unterscheiden. 
 In vielen öffentlichen Kritiken zu OpenPGP wird GnuPG diskutiert, das Delta Chat nie verwendet hat. 
-Delta Chat verwendet stattdessen die OpenPGP Rust-Implementierung [rPGP](https://github.com/rpgp/rpgp),
+Delta Chat verwendet stattdessen die OpenPGP-Rust-Implementierung [rPGP](https://github.com/rpgp/rpgp),
 die als [ein unabhängiges "pgp"-Paket](https://crates.io/crates/pgp),
 verfügbar und [2019 sicherheitsgeprüft](https://delta.chat/assets/blog/2019-first-security-review.pdf) wurde.
 
-Zusammen mit anderen OpenPGP-Implementierungen ist unser Ziel, 
+Unser Ziel ist, zusammen mit anderen OpenPGP-Implementierungen, 
 die Sicherheitseigenschaften durch das im Sommer 2023 angenommene
 [IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) weiter zu verbessern.
 
@@ -410,20 +404,20 @@ die Sicherheitseigenschaften durch das im Sommer 2023 angenommene
 ### Wurden Alternativen zu OpenPGP für die Ende-zu-Ende-Verschlüsselung in Betracht gezogen? {#openpgp-alternatives}
 
 Ja, wir verfolgen Ansätze wie [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-oder [Saltpack](https://saltpack.org/); 
-sie aber zu übernehmen würde bedeuten, die Interoperabilität der Ende-zu-Ende-Verschlüsselung 
+oder [Saltpack](https://saltpack.org/). 
+Diese zu übernehmen würde aber bedeuten, die Interoperabilität der Ende-zu-Ende-Verschlüsselung 
 mit allen anderen E-Mail-Anwendungen zu zerstören. 
 Die Entscheidung wäre also nicht leicht zu treffen 
-und es muss spürbare Verbesserungen für die Nutzer geben.
+und müsste spürbare Verbesserungen für die Nutzer bringen.
 
-Delta Chat verfolgt einen ganzheitlichen Ansatz bei der "nutzbaren Sicherheit". 
-Wir arbeiteten mit einer breiten Palette von Aktivistengruppen sowie mit 
+Delta Chat verfolgt einen ganzheitlichen Ansatz bei der "nutzbaren Sicherheit": 
+Wir arbeiteten mit vielen Aktivistengruppen sowie mit 
 renommierten Forschern wie [TeamUSEC](https://teamusec.de) zusammen, 
 um die tatsächlichen Ergebnisse der Benutzer gegen Sicherheitsbedrohungen zu verbessern. 
 Das Wire-Protokoll und der Standard für die Einrichtung der Ende-zu-Ende-Verschlüsselung ist
-nur ein Teil der "Nutzerergebnisse";
-siehe auch unsere Antworten auf [device-seizure](#device-seizure)
-und [message-metadata](#message-metadata) Fragen.
+nur ein Teil der Ergebnisse,
+siehe auch unsere Antworten auf [Gerätebeschlagnahmung](#device-seizure)
+und [Metadaten](#message-metadata) Fragen.
 
 
 ### Ist Delta Chat anfällig für EFAIL?
@@ -727,7 +721,7 @@ Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ide
 
 ### Was sind Broadcast-Listen und wie kann ich sie verwenden?
 
-- Mit einer Broadcast-Liste können Sie eine Nachricht an viele Empfänger gleichzeitig senden; wenn sie Ihnen antworten, erhalten Sie die Antwort in Ihrem direkten 1:1-Chat mit ihnen. Die Empfänger können einander nicht sehen.
+- Mit einer Broadcast-Liste können Sie eine Nachricht an viele Empfänger gleichzeitig senden; wenn sie Ihnen antworten, erhalten Sie die Antwort im Direktchat mit ihnen. Die Empfänger können einander nicht sehen.
 - Technisch gesehen handelt es sich um eine E-Mail mit vielen Empfängern in BCC.
 - Sie können die Funktion im Abschnitt "Experimentelle Features" in den erweiterten Einstellungen aktivieren. Dann können Sie im Dialogfeld "Neuer Chat" eine Broadcast-Liste erstellen.
 - Falls Sie mehr als ein Gerät verwenden, werden Broadcast-Listen derzeit nicht zwischen ihnen synchronisiert.
