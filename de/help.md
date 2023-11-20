@@ -428,7 +428,7 @@ und [message-metadata](#message-metadata) Fragen.
 
 ### Ist Delta Chat anfällig für EFAIL?
 
-Nein, [Delta Chat war nie anfällig für EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail.)
+Nein, [Delta Chat war nie anfällig für EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail).
 Delta Chats OpenPGP-Implementierung [rPGP](https://github.com/rpgp/rpgp) 
 verwendet beim Verschlüsseln von Nachrichten "Modification Detection Codes" 
 und gibt [Fehler](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError) zurück,
