@@ -436,7 +436,7 @@ so wie in der Autocrypt Level 1 Spezifikation definiert.
 
 ### Wird eine Nachricht im Klartext gesendet, wenn keine Ende-zu-Ende-Verschlüsselung verfügbar ist? {#tls}
 
-Auch wenn Ihre Nachrichten nicht garantiert Ende-zu-Ende-verschlüsselt sind, 
+Auch wenn Ihre Nachrichten nicht Ende-zu-Ende-verschlüsselt sind, 
 sind sie dennoch vor Internetanbietern wie Mobilfunk- oder Telefongesellschaften geschützt. 
 Allerdings können Ihr E-Mail-Provider und der des Empfängers 
 Ihre Nachrichten lesen, analysieren oder sogar verändern,
@@ -445,8 +445,8 @@ wenn sie nicht Ende-zu-Ende-verschlüsselt sind.
 Delta Chat verwendet standardmäßig strikte 
 [TLS-Verschlüsselung](https://en.wikipedia.org/wiki/Transport_Layer_Security), 
 die die Verbindungen zwischen Ihrem Gerät und Ihrem E-Mail-Anbieter sichert. 
-Die gesamte TLS-Verarbeitung von Delta Chat wurde unabhängig [sicherheitsgeprüft](#security-audits).
-Die Verbindung zwischen Ihrem E-Mail-Providernund dem des Empfängers
+Die gesamte TLS-Implementierung wurde unabhängig [sicherheitsgeprüft](#security-audits).
+Die Verbindung zwischen Ihrem E-Mail-Providern und dem des Empfängers
 ist in der Regel ebenfalls transportverschlüsselt.
 Wenn die beteiligten E-Mail-Server [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461) unterstützen,
 wird TLS zwischen den E-Mail-Anbietern durchgesetzt. 
@@ -472,9 +472,8 @@ in den Ende-zu-Ende-verschlüsselten Teil der Nachrichten verschiebt:
 - Aktivierung des Standort-Streamings
 - WebRTC-Raum-URL
 
-E-Mail-Server erhalten keinen Zugriff auf diese geschützten Metadaten 
-aber sie sehen das Datum und die Größe der Nachricht,
-und die Absender- und Empfängeradressen. 
+E-Mail-Server erhalten keinen Zugriff auf diese geschützten Metadaten, 
+sehen aber Datum und Größe der Nachricht sowie die Absender- und Empfängeradressen. 
 E-Mail-Server benötigen Empfängeradressen, um Nachrichten 
 Nachrichten an die Geräte der Empfänger weiterzuleiten und zuzustellen.
 
@@ -483,8 +482,8 @@ Nachrichten an die Geräte der Empfänger weiterzuleiten und zuzustellen.
 
 Sowohl zum Schutz vor E-Mail-Servern, die Metadaten sammeln 
 als auch gegen die Gefahr der Beschlagnahmung von Geräten
-empfehlen wir die Verwendung einer für Delta Chat optimierten [E-Mail-Server-Instanz](https://delta.chat/serverguide), um pseudonyme temporäre Konten durch Scannen von QR-Codes zu erstellen.
-Beachten Sie, dass Delta Chat-Apps auf allen Plattformen mehrere Konten unterstützen 
+empfehlen wir die Verwendung einer für Delta Chat optimierten [E-Mail-Server-Instanz](https://delta.chat/serverguide), um pseudonym-temporäre Konten durch Scannen von QR-Codes zu erstellen.
+Beachten Sie, dass Delta-Chat-Apps auf allen Plattformen mehrere Konten unterstützen. 
 Sie können also problemlos aktionsspezifische "1-Wochen-" oder "1-Monats-Konten" neben Ihrem "Hauptkonto" verwenden,
 mit dem Wissen, dass alle temporären Kontodaten zusammen mit allen Metadaten gelöscht werden.
 Wenn ein Gerät beschlagnahmt wird, können Kontakte mit temporären E-Mail-Konten
@@ -504,8 +503,8 @@ ist die Verbindung sicher.
 ### Wie kann ich den Verschlüsselungsstatus von Nachrichten überprüfen?
 
 Ein kleines **Vorhängeschloss** in einer Nachrichten zeigt an,
-dass die Nachricht vom Absender korrekt Ende-zu-Ende verschlüsselt wurde.
-Wenn **kein Vorhängeschloss** vorhanden ist, wurde die Nachricht nicht oder nicht korrekt Ende-zu-Ende verschlüsselt.
+dass die Nachricht vom Absender korrekt Ende-zu-Ende-verschlüsselt wurde.
+Wenn **kein Vorhängeschloss** vorhanden ist, wurde die Nachricht nicht oder nicht korrekt Ende-zu-Ende-verschlüsselt.
 Höchstwahrscheinlich, weil der Absender ein Webmail-Interface oder eine App
 ohne Ende-zu-Ende-Unterstützung verwendet.
 
@@ -513,7 +512,7 @@ ohne Ende-zu-Ende-Unterstützung verwendet.
 ### Warum sehe ich unverschlüsselte Nachrichten?
 
 Wenn ein Kontakt keine Autocrypt-fähige App verwendet,
-werden alle Nachrichten, die diesen Kontakt betreffen (in Gruppen- oder Direk-Chats)
+werden alle Nachrichten, die diesen Kontakt betreffen (in Gruppen- oder Direkt-Chats)
 nicht Ende-zu-Ende-verschlüsselt und zeigen daher kein "Vorhängeschloss".
 Beachten Sie, auch Kontakte, die primär Delta Chat verwenden,
 können gleichzeitig auch nicht-Autocrypt-fähige Apps verwenden.
@@ -532,7 +531,7 @@ auch wenn im Direkt-Chat eine
 
 ### Wie kann ich Ende-zu-Ende-Verschlüsselung und Löschen von Nachrichten sicherstellen?
 
-Der beste Weg, um sicherzustellen, dass alle Nachrichten Ende-zu-Ende verschlüsselt sind,
+Der beste Weg, um sicherzustellen, dass alle Nachrichten Ende-zu-Ende verschlüsselt sind
 und Metadaten so schnell wie möglich gelöscht werden,
 ist [die Verwendung von Chats mit garantierter Ende-zu-Ende-Verschlüsselung](#howtoe2ee)
 und die Aktivierung von "Verschwindende Nachrichten".
@@ -547,20 +546,17 @@ Wenn Sie die Nachrichten auf Ihrem Gerät, aber nicht auf dem Server benötigen,
 ### Unterstützt Delta Chat "Perfect Forward Secrecy"? {#pfs}
 
 Nein, Delta Chat unterstützt kein "Perfect Forward Secrecy" (PFS).
-Das bedeutet, dass wenn Ihr privater Delta Chat-Schlüssel durchgesickert ist,
+Das bedeutet, dass wenn Ihr privater Delta-Chat-Schlüssel durchgesickert ist,
 und jemand Ihre vorherigen In-Transit-Nachrichten gesammelt hat,
 können diese mit dem veröffentlichtem Schlüssel entschlüsselt werden.
 
-Beachten Sie jedoch, dass jemand, der in den Besitz Ihrer privaten Schlüssel gelangt, 
-unabhängig davon, ob Perfect Forward Secrecy vorhanden ist oder nicht,
-in der Regel auch in der Lage sein wird, Ihre Nachrichten zu lesen. 
-Die typische reale Situation für durchgesickerte private Schlüssel, ist die Beschlagnahme von Geräten,
-die wir in unter [über Metadaten und Gerätebeschlagnahme](#device-seizure) erörtern.
+Beachten Sie jedoch, dass jemand, der in den Besitz Ihrer privaten Schlüssel gelangt, in der Regel auch in der Lage sein wird, Ihre Nachrichten zu lesen - unabhängig davon, ob Perfect Forward Secrecy nun verwendet wird oder nicht. 
+Die typische, reale Situation für durchgesickerte private Schlüssel, ist die [Beschlagnahme von Geräten](#device-seizure).
 
-Es ist möglich, dass Delta Chat eine Tages "Perfect Forward Secrecy" unterstützt,
-denn OpenPGP ist nur ein Container für verschlüsselte Nachrichten;
+Es ist möglich, dass Delta Chat eine Tages "Perfect Forward Secrecy" unterstützt -
+OpenPGP ist nur ein Container für verschlüsselte Nachrichten mit dem
 die Verwaltung der Schlüssel (und damit die Schlüsselrotation oder das Schlüssel-"Ratcheting") 
-kann auf flexible Weise organisiert werden könnte. 
+auf flexible Weise organisiert werden kann. 
 Siehe [Seqouia's PFS-Prototyp](https://gitlab.com/sequoia-pgp/openpgp-dr)
 für bestehende Experimente in der OpenPGP-Community.
 
@@ -569,12 +565,12 @@ für bestehende Experimente in der OpenPGP-Community.
 
 Das hängt davon ab, was für Sie wichtig ist. 
 Delta Chat [unterstützt kein PFS](#pfs),
-bietet aber [garantiert Ende-zu-Ende-verschlüsselte Chats](#e2eeguarantee),
-die vor kompromittierten Servern oder korrupten Netzwerken sicher sind. 
+bietet aber [garantierte Ende-zu-Ende-Verschlüsselung](#e2eeguarantee),
+die vor kompromittierten Servern oder korrupten Netzwerken schützt. 
 Signal und die meisten anderen PFS-unterstützenden Messenger bieten kein 
-praktisches System zum Schutz von Chatgruppen vor Netzwerkangriffen,
-die besorgniserregender und realer sind 
-als ein potenzieller Angreifer, der zwar Ihr Telefon und Ihre privaten Schlüssel beschlagnahmt
+praktisches System zum Schutz von Chatgruppen vor Netzwerkangriffen.
+Diese sind besorgniserregender und realer 
+als ein potenzieller Angreifer, der zwar Ihr Telefon und Ihre privaten Schlüssel beschlagnahmt,
 aber irgendwie nicht Ihre Nachrichten - gleichzeitig aber eine vollständige Aufzeichnung aller 
 vergangenen verschlüsselten Nachrichten hat.
 
@@ -587,7 +583,7 @@ Ja.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.
 Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
 
-- Alternativ können Sie den Schlüssel manuell unter "Einstellungen -> Erweitert -> Schlüssel verwalten -> Importiere geheime Schlüssel" importieren. Achtung: Stellen Sie sicher, dass der Schlüssel nicht durch ein Passwort geschützt ist, oder entfernen Sie das Passwort vorher.
+- Alternativ können Sie den Schlüssel manuell unter "Einstellungen → Erweitert → Schlüssel verwalten → Importiere geheime Schlüssel" importieren. Achtung: Stellen Sie sicher, dass der Schlüssel nicht durch ein Passwort geschützt ist, oder entfernen Sie das Passwort vorher.
 
 - Wenn Sie keinen Schlüssel besitzen oder nicht einmal wissen, dass Sie einen benötigen - keine Sorge: Delta Chat erstellt einen Schlüssel, wenn er benötigt wird. Sie müssen nichts weiter tun.
 
@@ -597,7 +593,7 @@ Look for something like **Start Autocrypt Setup Transfer** in the settings of th
 Wenn Sie das Passwort nicht entfernen möchten, müssen Sie einen E-Mail-Alias zur Nutzung mit Delta Chat anlegen, sodass der Schlüssel von Delta Chat mit diesem E-Mail-Alias verknüpft ist.
 
 - Delta Chat unterstützt "gängige" private Schlüsselformate, allerdings ist es unwahrscheinlich, dass wir 100% aller privaten Schlüssel aus sämtlichen Quellen unterstützen.
-Dies ist auch nicht das Hauptaugenmerk von Delta Chat. Tatsächlich besitzt die große Mehrheit der Delta Chat-NutzerInnen keinen Schlüssel, bevor sie Delta Chat verwendet.
+Dies ist auch nicht das Hauptaugenmerk von Delta Chat. Tatsächlich besitzt die große Mehrheit der Delta-Chat-NutzerInnen keinen Schlüssel, bevor sie Delta Chat verwendet.
 Wir versuchen jedoch, private Schlüssel aus anderen Quellen so gut wie möglich zu unterstützen.
 
 - Das Entfernen des Passworts vom privaten Schlüssel ist abhängig von der Software, mit der Sie Ihre PGP-Schlüssel verwalten. 
@@ -644,7 +640,7 @@ Im Gegensatz zu vielen anderen Messengern, sind nach erfolgreicher Übertragung 
 
 Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben beschrieben, nicht funktioniert.
 
-- Auf dem alten Gerät gehen Sie zu "Einstellungen -> Chats und Medien -> Chats auf externem Speicher speichern". Geben Sie Ihre PIN, Ihr Muster oder Ihr Passwort zum Entsperren des Bildschirms ein. Anschließend können Sie auf "Backup starten" klicken. Dadurch wird die Backup-Datei auf Ihrem Gerät gespeichert. Jetzt müssen Sie sie irgendwie auf das andere Gerät übertragen.
+- Auf dem alten Gerät gehen Sie zu "Einstellungen → Chats und Medien → Chats auf externem Speicher speichern". Geben Sie Ihre PIN, Ihr Muster oder Ihr Passwort zum Entsperren des Bildschirms ein. Anschließend können Sie auf "Backup starten" klicken. Dadurch wird die Backup-Datei auf Ihrem Gerät gespeichert. Jetzt müssen Sie sie irgendwie auf das andere Gerät übertragen.
 - Auf dem neuen Gerät, auf dem Anmeldebildschirm, wählen Sie, anstatt sich bei Ihrem E-Mail-Konto anzumelden, "Wiederherstellen aus Backup". Nach dem Import sollten Ihre Unterhaltungen, Verschlüsselungsschlüssel und Medien auf das neue Gerät kopiert sein.
   - **Wenn Sie iOS verwenden** und auf Schwierigkeiten stoßen, hilft Ihnen vielleicht [diese Anleitung](https://support.delta.chat/t/import-backup-to-ios/1628).
 - Sie sind nun synchronisiert und können beide Geräte zum Senden und Empfangen von Ende-zu-Ende verschlüsselten Nachrichten mit Ihren Kommunikationspartnern verwenden.
@@ -683,7 +679,7 @@ In Delta Chat können Sie [Webxdc Apps](https://webxdc.org), Anhänge mit der Da
 ### Wie privat sind Webxdc Apps?
 
 - Webxdc Apps können keine Daten ins Internet senden oder etwas herunterladen.
-- Eine Webxdc App kann Daten nur innerhalb eines Delta Chat-Chats mit ihren Kopien auf den Geräten Ihrer Chat-Partner austauschen. Ansonsten ist sie komplett vom Internet isoliert.
+- Eine Webxdc App kann Daten nur innerhalb eines Delta-Chat-Chats mit ihren Kopien auf den Geräten Ihrer Chat-Partner austauschen. Ansonsten ist sie komplett vom Internet isoliert.
 - Die Privatsphäre, die eine Webxdc App bietet, ist die Privatsphäre Ihres Chats - solange Sie den Personen vertrauen, mit denen Sie chatten, können Sie auch der Webxdc App vertrauen.
 - Das bedeutet auch: Es kann ein Datenschutzrisiko darstellen, Webxdc Apps in Chats zu öffnen, in denen man den Mitgliedern nicht vertraut - so wie man es von E-Mail-Anhängen kennt, wo man nur Anhänge von Absendern öffnet, denen man vertraut, und nicht von Spammern.
 
@@ -703,12 +699,12 @@ In Delta Chat können Sie [Webxdc Apps](https://webxdc.org), Anhänge mit der Da
 - Webxdc Apps sind nur ZIP-Dateien, die HTML-, CSS- und JavaScript-Code enthalten.
 - Sie können die [Hello World-Beispiel-App](https://github.com/webxdc/hello) erweitern, um loszulegen.
 - Alles andere, was Sie wissen müssen, steht in der [Dokumentation](https://docs.webxdc.org/).
-- Wenn Sie Fragen haben, können Sie andere mit Erfahrung im [Delta Chat-Forum](https://support.delta.chat/c/webxdc/20) fragen.
+- Wenn Sie Fragen haben, können Sie andere mit Erfahrung im [Delta-Chat-Forum](https://support.delta.chat/c/webxdc/20) fragen.
 
 
 ## Experimentelle Features
 
-Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ideen teilen? Treten Sie dem [Forum](https://support.delta.chat) bei, um einen Beitrag zu leisten. (Sie mögen Experimente? Registrieren Sie sich über "Sign Up -> with Delta Chat"!)
+Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ideen teilen? Treten Sie dem [Forum](https://support.delta.chat) bei, um einen Beitrag zu leisten. (Sie mögen Experimente? Registrieren Sie sich über "Sign Up → with Delta Chat"!)
 
 ### Wie kann ich Audio-/Videoanrufe mit Delta Chat verwenden?
 
@@ -743,12 +739,12 @@ Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ide
 - Im Moment ist die Datenbankverschlüsselung noch sehr experimentell. Verlassen Sie sich zum Schutz nicht darauf, sondern nutzen Sie zusätzlich die Verschlüsselung Ihres Betriebssystems, sofern vorhanden.
 - Die Datenbankverschlüsselung verschlüsselt noch nicht die Blobs, sondern nur die Zeilen und Spalten der Datenbank. Dies bedeutet mehr oder weniger, dass Ihre Nachrichten sicher sind, aber nicht Ihre Anhänge.
 - Für iOS und Android werden die Verschlüsselungsschlüssel im Systemschlüsselbund gespeichert. Das bedeutet, dass die Verschlüsselung so sicher ist wie das Betriebssystem, auf dem sie ausgeführt wird.
-- Der Delta Chat-Desktop-Client bietet noch keine Datenbankverschlüsselung, da es keine Standardmethode zum Speichern der Verschlüsselungsschlüssel auf den verschiedenen unterstützten Plattformen gibt.
+- Der Delta-Chat-Desktop-Client bietet noch keine Datenbankverschlüsselung, da es keine Standardmethode zum Speichern der Verschlüsselungsschlüssel auf den verschiedenen unterstützten Plattformen gibt.
 
 
 ### Warum kann ich mich dafür entscheiden, nur den DeltaChat-Ordner zu beobachten?
 
-Dies ist eine experimentelle Einstellung für BenutzerInnen, die serverseitige Regeln verwenden möchten. Dies wird nicht von allen Providern unterstützt, aber bei einigen können Sie Nachrichten mit einem "Chat-Version"-Header vom Server in den DeltaChat-Ordner verschieben. Normalerweise wird dies von der Delta Chat-App erledigt.
+Dies ist eine experimentelle Einstellung für BenutzerInnen, die serverseitige Regeln verwenden möchten. Dies wird nicht von allen Providern unterstützt, aber bei einigen können Sie Nachrichten mit einem "Chat-Version"-Header vom Server in den DeltaChat-Ordner verschieben. Normalerweise wird dies von der Delta-Chat-App erledigt.
 
 Die Aktivierung von "Nur aus DeltaChat-Ordner lesen" ist sinnvoll, wenn Sie **beides** haben:
 
@@ -820,10 +816,10 @@ Um mehr über die Details dahinter zu erfahren, [lesen Sie unseren Blogpost dazu
 Das Delta-Chat-Projekt wurde in den letzten Jahren vier unabhängigen Sicherheitsprüfungen unterzogen:
 
 - Im Jahr 2019 analysierte [Include Security](https://includesecurity.com) die von Delta Chat verwendeten [PGP](https://github.com/rpgp/rpgp) und [RSA](https://github.com/RustCrypto/RSA) Bibliotheken.
-Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schweregrad, die wir anschließend behoben haben. Außerdem wurden ein mittelschweres und einige weniger schwerwiegende Probleme gefunden, aber es gab keine Möglichkeit, diese Schwachstellen in der Delta Chat-Implementierung auszunutzen. Einige dieser Schwachstellen haben wir dennoch nach Abschluss des Audits behoben. Sie können den [vollständigen Bericht hier] lesen (../assets/blog/2019-first-security-review.pdf).
+Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schweregrad, die wir anschließend behoben haben. Außerdem wurden ein mittelschweres und einige weniger schwerwiegende Probleme gefunden, aber es gab keine Möglichkeit, diese Schwachstellen in der Delta-Chat-Implementierung auszunutzen. Einige dieser Schwachstellen haben wir dennoch nach Abschluss des Audits behoben. Sie können den [vollständigen Bericht hier] lesen (../assets/blog/2019-first-security-review.pdf).
 
 - Im Jahr 2020 analysierte [Include Security](https://includesecurity.com) Delta Chats Rust [core](https://github.com/deltachat/deltachat-core-rust/), [IMAP](https://github.com/async-email/async-imap),[SMTP](https://github.com/async-email/async-smtp), und [TLS](https://github.com/async-email/async-native-tls) Bibliotheken.
-Es wurden keine kritischen oder hochgradig gefährlichen Probleme gefunden. Der Bericht wies auf einige Schwachstellen mittlerer Schwere hin - sie stellen für sich genommen keine Bedrohung für Delta Chat-Benutzer dar, da sie von der Umgebung abhängen, in der Delta Chat verwendet wird. Aus Gründen der Benutzerfreundlichkeit und der Kompatibilität können wir nicht alle Schwachstellen beseitigen und haben beschlossen, Sicherheitsempfehlungen für bedrohte Benutzer zu geben. Sie können den [vollständigen Bericht hier](../assets/blog/2020-second-security-review.pdf) lesen.
+Es wurden keine kritischen oder hochgradig gefährlichen Probleme gefunden. Der Bericht wies auf einige Schwachstellen mittlerer Schwere hin - sie stellen für sich genommen keine Bedrohung für Delta-Chat-Benutzer dar, da sie von der Umgebung abhängen, in der Delta Chat verwendet wird. Aus Gründen der Benutzerfreundlichkeit und der Kompatibilität können wir nicht alle Schwachstellen beseitigen und haben beschlossen, Sicherheitsempfehlungen für bedrohte Benutzer zu geben. Sie können den [vollständigen Bericht hier](../assets/blog/2020-second-security-review.pdf) lesen.
 
 - Anfang 2023 analysierte [Cure53](https://cure53.de) sowohl die Transportverschlüsselung von Delta Chats Netzwerkverbindungen als auch das reproduzierbare Mailserver-Setup wie [auf dieser Seite empfohlen](serverguide). Sie können mehr über das Audit [in unserem Blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) lesen oder Sie lesen den [vollständigen Bericht hier](../assets/blog/MER-01-report.pdf).
 
