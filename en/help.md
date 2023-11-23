@@ -603,6 +603,37 @@ even if the direct chat between you two has a
 ["… sent a message from another device"](#nocryptanymore) warning. 
 
 
+### How do disappearing messages work?
+
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 30 seconds and 5 weeks.
+
+Until the setting is turned off again,
+each chat member's Delta Chat app takes care
+of deleting the messages
+after the selected time span.
+The time span begins when the receiver's Delta Chat app
+first sees the message.
+The messages are deleted
+both in each email account on the server,
+and in the app itself.
+
+Note that you can rely on disappearing messages
+only as long as you trust your chat partners;
+malicious chat partners can screenshot
+or otherwise save a message before it is deleted.
+
+Apart from that,
+if one chat partner silently uninstalls Delta Chat,
+the messages will not get deleted from their device
+nor their email account.
+They will most likely also not be decryptable anymore
+(as long as they were encrypted in the first place).
+
+
 ### How can I ensure message end-to-end encryption and deletion?
 
 The best way to ensure every message is end-to-end encrypted,
@@ -611,7 +642,7 @@ is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
 and turning on disappearing messages.
 
 Guranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on "disappearing messages" deletes the messages
+and turning on ["disappearing messages"](#how-do-disappearing-messages-work) deletes the messages
 on the server after a user-configured time.
 
 If you don't need a longer-lived copy of your messages on the server, 
