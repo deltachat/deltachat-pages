@@ -143,13 +143,12 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
 - Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
 
 
-### How do disappearing messages work? {#ephemeralmsgs}
+### Wie funktionieren "Verschwindende Nachrichten"? {#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 30 seconds and 5 weeks.
+Sie schalten "Verschwindende Nachrichten"
+oben rechts im Chatfenster,
+durch Auswahl einer Zeitspanne
+zwischen 30 Sekunden und 5 Wochen ein.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
