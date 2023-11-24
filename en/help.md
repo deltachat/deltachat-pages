@@ -638,10 +638,10 @@ even if the direct chat between you two has a
 The best way to ensure every message is end-to-end encrypted,
 and metadata deleted as quickly as possible
 is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
-and turning on disappearing messages.
+and turning on [disappearing messages](#ephemeralmsgs).
 
-Guranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on ["disappearing messages"](#ephemeralmsgs) deletes the messages
+Guaranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+and turning on disappearing messages deletes the messages
 on the server after a user-configured time.
 
 If you don't need a longer-lived copy of your messages on the server, 
