@@ -627,7 +627,7 @@ malicious chat partners can screenshot
 or otherwise save a message before it is deleted.
 
 Apart from that,
-if one chat partner silently uninstalls Delta Chat,
+if one chat partner uninstalls Delta Chat,
 the messages will not get deleted from their device
 nor their email account.
 They will most likely also not be decryptable anymore
