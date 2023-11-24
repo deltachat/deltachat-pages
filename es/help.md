@@ -292,12 +292,12 @@ Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-se
 End-to-End encrypted messages are marked with a padlock 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
-[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-are used for establishing chats with guaranteed end-to-end encryption 
-which protects against network attacks and compromised servers.
-Chats marked with a green checkmark 
+[Protocolos de Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
+se utilizan para establecer chats con cifrado de extremo a extremo garantizado
+que protege contra ataques de red y servidores comprometidos.
+Los chats marcados con una estampilla verde
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-guarantee end-to-end encrypted messages. 
+garantizan mensajes cifrados de extremo a extremo.
 
 ### ¿Cómo puedo saber si los mensajes están cifrados de extremo a extremo? {#whene2e}
 
@@ -340,7 +340,7 @@ Comparte la imagen del QR con la otra persona, ya sea en persona o a través de 
 
 **Both Inviter and Joiner**:
 
-Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Espere mientras se intercambian los mensajes de [Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) entre ambos dispositivos.
 
 - Si ambos dispositivos están en línea,
 ambas partes eventualmente verán un chat (grupal o directo) con una estampilla verde
@@ -379,10 +379,7 @@ hasta llegar al que hizo un escaneo directo de [QR](#howtoe2ee) contigo.
 
 Ten en cuenta que en un perfil de contacto puedes ver y tocar a las personas que te presentaron a ese contacto, pero puede pasar que no haya una estampilla verde en el título del perfil. Esto generalmente significa que el contacto ["envió un mensaje desde otro dispositivo"](#nocryptanymore).
 
-For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-and specifically read about "Verified Groups", the technical term
-of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+Para obtener una discusión más detallada sobre "cifrado de extremo a extremo garantizado", por favor consulta los [protocolos Secure-Join](https://securejoin.delta.chat/en/latest/new.html) y lee específicamente sobre "Grupos Verificados", el término técnico de lo que aquí se llama chats "marcados con una estampilla verde" o "cifrados de extremo a extremo garantizado".
 
 
 ### Un contacto "envió un mensaje desde otro dispositivo", ¿qué puedo hacer? {#nocryptanymore}

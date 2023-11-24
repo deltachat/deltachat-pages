@@ -9,7 +9,7 @@ lang: fr
 
 🥳 Profitez d'une messagerie interactive avec les [appli webxdc](https://webxdc.org).
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 Chiffrement de bout-en-bout utilisant les protocoles [Autocrypt](https://autocrypt.org) et [SecureJoin](https://securejoin.delta.chat/en/latest/new.html), soumis à de [nombreux contrôles de sécurité](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Existe pour mobiles et pour ordinateurs
 
