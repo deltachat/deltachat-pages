@@ -162,8 +162,8 @@ Until the setting is turned off again,
 each chat member's Delta Chat app takes care
 of deleting the messages
 after the selected time span.
-The time span begins when the receiver's Delta Chat app
-first sees the message.
+The time span begins
+when the receiver first sees the message in Delta Chat.
 The messages are deleted
 both in each email account on the server,
 and in the app itself.
