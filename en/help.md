@@ -183,7 +183,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
-### How do disappearing messages work?
+### How do disappearing messages work? {#ephemeralmsgs}
 
 You can turn on "disappearing messages"
 in the settings of a chat,
@@ -642,7 +642,7 @@ is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
 and turning on disappearing messages.
 
 Guranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on ["disappearing messages"](#how-do-disappearing-messages-work) deletes the messages
+and turning on ["disappearing messages"](#ephemeralmsgs) deletes the messages
 on the server after a user-configured time.
 
 If you don't need a longer-lived copy of your messages on the server, 

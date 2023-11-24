@@ -26,9 +26,12 @@ linked_files = [
 ]
 
 # list all anchors (fragments) that are used from outside to access the help
-# ()eg. `multiclient` if the help is opened with `help#multiclient`)
+# eg. `multiclient` if the help is opened with `help#multiclient`.
+# (using a bit more cryptic/basic anchors
+# protects against renaming in UI and translation of the anchors :)
 anchors_from_external = [
     "e2eeguarantee",
+    "ephemeralmsgs",
     "howtoe2ee",
     "multiclient",
     "nocryptanymore"
