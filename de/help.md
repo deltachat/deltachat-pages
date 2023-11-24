@@ -150,26 +150,24 @@ oben rechts im Chatfenster,
 durch Auswahl einer Zeitspanne
 zwischen 30 Sekunden und 5 Wochen ein.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted
-both in each email account on the server,
-and in the app itself.
+Bis die Einstellung wieder ausgeschaltet wird,
+kümmern sich die Delta-Chat-Apps der Chat-Teilnehmer
+um das Löschen der Nachrichten
+nach der gewählten Zeitspanne.
+Die Zeitspanne beginnt,
+wenn der Empfänger die Nachricht zum ersten Mal in Delta Chat ansieht.
+Die Nachrichten werden dann
+sowohl in den E-Mail-Konten auf dem Server,
+als auch in der App selbst gelöscht.
 
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can take photos,
-or otherwise save, copy or forward messages before deletion.
+Beachten Sie, dass Sie sich auf verschwindende Nachrichten nur so lange verlassen können, wie Sie Ihren Chat-Partnern vertrauen;
+böswillige Chatpartner können Fotos machen,
+oder auf andere Weise Nachrichten vor dem Löschen speichern, kopieren oder weiterleiten.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the messages will not get deleted from their email account.
-They will most likely also not be decryptable anymore
-(as long as they were encrypted in the first place).
+Abgesehen davon,
+wenn ein Chat-Partner Delta Chat deinstalliert,
+werden die Nachrichten nicht aus seinem E-Mail-Konto gelöscht.
+Sie werden höchstwahrscheinlich aber auch nicht mehr entschlüsselt werden können.
 
 
 ### Wie kann ich mein Konto löschen?

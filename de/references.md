@@ -10,15 +10,11 @@ Diese Liste ist bei weitem nicht vollständig - haben wir etwas verpasst? Bitte
 Request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### c't, a german technology magazine, tested Delta Chat 1½ years
+### c't hat Delta Chat 1½ Jahre getestet
 
-Translated summary:
-_"Delta Chat is definitely worth a longer look.
-The app harmoniously combines chat as a form of communication
-with the tried-and-tested medium of email
-and even offers some features that you won't find in other messengers,
-such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
-It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
+Zusammenfassung:
+_"Delta Chat einen längeren Blick wert.
+Die App verheiratet die Kommunikationsform Chat und das bewährte Medium E-Mail harmonisch und bietet sogar einige Features, die man bei anderen Messengern vergeblich sucht, etwa kleine "Webxdc"-Apps, die man direkt in Chats einbetten und mit Gesprächspartnern nutzen kann. Schade, dass Delta Chat nicht schon vor WhatsApp und Co. existierte."_
 
 11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
 
