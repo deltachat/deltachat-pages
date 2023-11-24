@@ -9,7 +9,7 @@ lang: ru
 
 🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Available on mobile and desktop
 

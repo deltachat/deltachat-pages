@@ -181,6 +181,36 @@ hai disattivato le conferme di lettura, non vedranno il punto verde finché non 
 invia loro un messaggio o scrivi anche a un gruppo a cui appartengono.
 
 
+### How do disappearing messages work? {#ephemeralmsgs}
+
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 30 seconds and 5 weeks.
+
+Until the setting is turned off again,
+each chat member's Delta Chat app takes care
+of deleting the messages
+after the selected time span.
+The time span begins when the receiver's Delta Chat app
+first sees the message.
+The messages are deleted
+both in each email account on the server,
+and in the app itself.
+
+Note that you can rely on disappearing messages
+only as long as you trust your chat partners;
+malicious chat partners can take photos,
+or otherwise save, copy or forward messages before deletion.
+
+Apart from that,
+if one chat partner uninstalls Delta Chat,
+the messages will not get deleted from their email account.
+They will most likely also not be decryptable anymore
+(as long as they were encrypted in the first place).
+
+
 ### Come posso eliminare il mio account?
 
 Poiché utilizzi un account e-mail per Delta Chat,
@@ -266,12 +296,12 @@ più vecchi di quel periodo.
 [Autocrypt](https://autocrypt.org) viene utilizzato automaticamente per stabilire la crittografia end-to-end con contatti e chat di gruppo. Autocrypt utilizza un [sottoinsieme limitato e sicuro dello standard OpenPGP](#openpgp-secure). I messaggi crittografati end-to-end sono contrassegnati da un lucchetto 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
-[Protocolli Secure-Join](https://countermitm.readthedocs.io/en/latest/new.html)
-vengono utilizzati per stabilire chat con crittografia end-to-end garantita
-che protegge dagli attacchi di rete e dai server compromessi.
-Chat contrassegnata da un segno di spunta verde
+[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
+are used for establishing chats with guaranteed end-to-end encryption 
+which protects against network attacks and compromised servers.
+Chats marked with a green checkmark 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-garantisce messaggi crittografati end-to-end.
+guarantee end-to-end encrypted messages. 
 
 ### Come posso sapere se i messaggi sono crittografati end-to-end?  {#whene2e}
 
@@ -318,7 +348,7 @@ Condividi l'immagine QR con l'altra parte di persona o tramite un secondo canale
 
 **Sia Invitante che Invitato**:
 
-Attendere mentre [i messaggi di rete Secure-Join vengono scambiati](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) tra entrambi i dispositivi.
+Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - Se entrambi i dispositivi sono online,
   entrambe le parti vedranno eventualmente una chat (di gruppo o diretta) con un segno di spunta verde
@@ -353,16 +383,16 @@ o è stato presentato da un altro contatto contrassegnato da un segno di spunta 
 Le presentazioni avvengono automaticamente quando si aggiungono membri ai gruppi.
 Chi aggiunge un contatto a un gruppo contrassegnato da un segno di spunta verde diventa un introduttore
 a quei membri che non erano ancora a conoscenza del contatto aggiunto. In un profilo di contatto è possibile toccare ripetutamente il testo "Presentato da...".
-fino ad arrivare a quello con cui hai effettuato direttamente una [QR-scan](#howtoe2ee).
+fino ad arrivare a quello con cui hai effettuato direttamente una [scansione QR](#howtoe2ee).
 
 Tieni presente che nel profilo di un contatto potresti vedere e toccare gli introduttori
 ma non c'è il segno di spunta verde nel titolo del profilo.
 Questo di solito significa che il contatto ["ha inviato un messaggio da un altro dispositivo"](#nocryptanymore).
 
-Per una discussione più approfondita sulla "crittografia end-to-end garantita"
-consultare [Protocolli Secure-Join](https://countermitm.readthedocs.io/en/latest/new.html)
-e leggi nello specifico i "Gruppi Verificati", il termine tecnico
-di quelle che qui vengono chiamate chat "con segno di spunta verde" o "crittografate end-to-end garantite".
+For more in-depth discussion of "guaranteed end-to-end encryption"
+please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
+and specifically read about "Verified Groups", the technical term
+of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
 
 ### Un contatto "ha inviato un messaggio da un altro dispositivo", cosa posso fare? {#nocryptanymore}
@@ -594,14 +624,14 @@ anche se la chat diretta tra voi due ha a
 
 ### Come posso garantire la crittografia e l'eliminazione end-to-end dei messaggi?
 
-Il modo migliore per garantire che ogni messaggio sia crittografato end-to-end,
-e i metadati vengono eliminati il ​​più rapidamente possibile
-è [utilizzare chat con crittografia end-to-end garantita](#howtoe2ee)
-e l'attivazione dei messaggi a scomparsa.
+The best way to ensure every message is end-to-end encrypted,
+and metadata deleted as quickly as possible
+is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
+and turning on [disappearing messages](#ephemeralmsgs).
 
-Le chat crittografate end-to-end garantiscono la protezione dagli [attacchi MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-e l'attivazione dei "messaggi che scompaiono" elimina i messaggi
-sul server dopo un tempo configurato dall'utente.
+Guaranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+and turning on disappearing messages deletes the messages
+on the server after a user-configured time.
 
 Se non hai bisogno di una copia più longeva dei tuoi messaggi sul server,
 puoi anche attivare ["elimina messaggi dal server"](#delold).

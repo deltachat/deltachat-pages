@@ -174,6 +174,36 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
+### How do disappearing messages work? {#ephemeralmsgs}
+
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 30 seconds and 5 weeks.
+
+Until the setting is turned off again,
+each chat member's Delta Chat app takes care
+of deleting the messages
+after the selected time span.
+The time span begins when the receiver's Delta Chat app
+first sees the message.
+The messages are deleted
+both in each email account on the server,
+and in the app itself.
+
+Note that you can rely on disappearing messages
+only as long as you trust your chat partners;
+malicious chat partners can take photos,
+or otherwise save, copy or forward messages before deletion.
+
+Apart from that,
+if one chat partner uninstalls Delta Chat,
+the messages will not get deleted from their email account.
+They will most likely also not be decryptable anymore
+(as long as they were encrypted in the first place).
+
+
 ### ¿Cómo puedo eliminar mi cuenta?
 
 As you use an e-mail account for Delta Chat,
@@ -262,12 +292,12 @@ Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-se
 End-to-End encrypted messages are marked with a padlock 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
-[Protocolos de Secure-Join](https://countermitm.readthedocs.io/en/latest/new.html)
-se utilizan para establecer chats con cifrado de extremo a extremo garantizado
-que protege contra ataques de red y servidores comprometidos.
-Los chats marcados con una estampilla verde
+[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
+are used for establishing chats with guaranteed end-to-end encryption 
+which protects against network attacks and compromised servers.
+Chats marked with a green checkmark 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-garantizan mensajes cifrados de extremo a extremo.
+guarantee end-to-end encrypted messages. 
 
 ### ¿Cómo puedo saber si los mensajes están cifrados de extremo a extremo? {#whene2e}
 
@@ -310,7 +340,7 @@ Comparte la imagen del QR con la otra persona, ya sea en persona o a través de 
 
 **Both Inviter and Joiner**:
 
-Espere mientras se intercambian los mensajes de [Secure-Join](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) entre ambos dispositivos.
+Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - Si ambos dispositivos están en línea,
 ambas partes eventualmente verán un chat (grupal o directo) con una estampilla verde
@@ -349,7 +379,10 @@ hasta llegar al que hizo un escaneo directo de [QR](#howtoe2ee) contigo.
 
 Ten en cuenta que en un perfil de contacto puedes ver y tocar a las personas que te presentaron a ese contacto, pero puede pasar que no haya una estampilla verde en el título del perfil. Esto generalmente significa que el contacto ["envió un mensaje desde otro dispositivo"](#nocryptanymore).
 
-Para obtener una discusión más detallada sobre "cifrado de extremo a extremo garantizado", por favor consulta los [protocolos Secure-Join](https://countermitm.readthedocs.io/en/latest/new.html) y lee específicamente sobre "Grupos Verificados", el término técnico de lo que aquí se llama chats "marcados con una estampilla verde" o "cifrados de extremo a extremo garantizado".
+For more in-depth discussion of "guaranteed end-to-end encryption"
+please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
+and specifically read about "Verified Groups", the technical term
+of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
 
 ### Un contacto "envió un mensaje desde otro dispositivo", ¿qué puedo hacer? {#nocryptanymore}
@@ -556,14 +589,14 @@ Si necesitas un chat cifrado de extremo a extremo de forma segura con un contact
 
 ### ¿Cómo puedo asegurar el cifrado de extremo a extremo y la eliminación de mensajes?
 
-La mejor manera de asegurar que cada mensaje esté cifrado de extremo a extremo
-y que los metadatos se borren lo más rápido posible
-es [utilizando chats con cifrado de extremo a extremo garantizado](#howtoe2ee)
-y activando la desaparición de mensajes.
+The best way to ensure every message is end-to-end encrypted,
+and metadata deleted as quickly as possible
+is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
+and turning on [disappearing messages](#ephemeralmsgs).
 
-Los chats con cifrado de extremo a extremo garantizado protegen contra ataques [MITM](https://es.wikipedia.org/wiki/Ataque_de_intermediario)
-y al activar "mensajes efímeros" se borran los mensajes
-en el servidor después de un tiempo configurado por el usuario.
+Guaranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+and turning on disappearing messages deletes the messages
+on the server after a user-configured time.
 
 Si no necesitas una copia de tus mensajes en el servidor durante más tiempo,
 también puedes activar ["eliminar mensajes del servidor automáticamente"](#delold).

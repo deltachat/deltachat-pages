@@ -9,7 +9,7 @@ lang: tr
 
 🥳 [Webxdc uygulamaları](https://webxdc.org) aracılığıyla etkileşimli sohbet deneyimlerinin keyfini çıkarın.
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Mobilde ve masaüstünde kullanılabilir
 

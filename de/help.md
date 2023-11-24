@@ -143,6 +143,36 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
 - Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
 
 
+### How do disappearing messages work? {#ephemeralmsgs}
+
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 30 seconds and 5 weeks.
+
+Until the setting is turned off again,
+each chat member's Delta Chat app takes care
+of deleting the messages
+after the selected time span.
+The time span begins when the receiver's Delta Chat app
+first sees the message.
+The messages are deleted
+both in each email account on the server,
+and in the app itself.
+
+Note that you can rely on disappearing messages
+only as long as you trust your chat partners;
+malicious chat partners can take photos,
+or otherwise save, copy or forward messages before deletion.
+
+Apart from that,
+if one chat partner uninstalls Delta Chat,
+the messages will not get deleted from their email account.
+They will most likely also not be decryptable anymore
+(as long as they were encrypted in the first place).
+
+
 ### Wie kann ich mein Konto löschen?
 
 Da Sie ein E-Mail-Konto für Delta Chat verwenden, hängt von Ihrem E-Mail-Anbieter ab, wie Sie Ihr Konto löschen können. Wir haben keine Kontrolle über Ihr E-Mail-Konto, daher können wir Ihnen dabei leider nicht helfen.
@@ -214,12 +244,12 @@ eine Ende-zu-Ende-Verschlüsselung mit Kontakten und Gruppenchats herzustellen.
 Autocrypt verwendet eine begrenzte und [sichere Untermenge des OpenPGP-Standards](#openpgp-secure).
 Ende-zu-Ende verschlüsselte Nachrichten sind mit einem Vorhängeschloss gekennzeichnet <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>
 
-[Secure-Join-Protokolle](https://countermitm.readthedocs.io/en/latest/new.html)
-werden für Chats mit garantierter Ende-zu-Ende-Verschlüsselung verwendet, 
-die vor Netzwerkangriffen und kompromittierten Servern schützt.
-Chats, die mit einem grünen Häkchen markiert sind 
+[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
+are used for establishing chats with guaranteed end-to-end encryption 
+which protects against network attacks and compromised servers.
+Chats marked with a green checkmark 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-garantieren Ende-zu-Ende-verschlüsselte Nachrichten.
+guarantee end-to-end encrypted messages. 
 
 ### Wie kann ich wissen, ob Nachrichten Ende-zu-Ende verschlüsselt sind? {#whene2e}
 
@@ -266,7 +296,7 @@ den Sie von Ihrem Chat-Partner in einem zweiten Kanal sehen oder erhalten haben.
 
 **Beide, Einlader und Beitretender**:
 
-Warten Sie, während das [Secure-Join-Protokoll](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) zwischen den Geräten abläuft.
+Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - Wenn beide Geräte online sind,
 sehen beide Seiten schließlich einen Gruppen- oder Direkt-Chat mit einem grünen Häkchen
@@ -308,10 +338,10 @@ bis du zu demjenigen gelangst, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) 
 Beachten Sie, dass Sie in einem Kontaktprofil unter Umständen Einführende sehen und antippen können, aber kein grünes Häkchen im Profiltitel vorhanden ist. 
 Dies bedeutet normalerweise, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
 
-Für eine ausführlichere Diskussion der "Garantierten Ende-zu-Ende-Verschlüsselung",
-siehe [Secure-Join-Protokolle](https://countermitm.readthedocs.io/en/latest/new.html)
-und dort speziell den Abschnitt zu "Verified Groups", dem technischen Begriff
-für "Chats mit grünem Häkchen" oder "Garantierter Ende-zu-Ende-Verschlüsselung".
+For more in-depth discussion of "guaranteed end-to-end encryption"
+please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
+and specifically read about "Verified Groups", the technical term
+of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
 
 ### Ein Kontakt hat eine Nachricht von einem anderen Gerät gesendet", was kann ich tun? {#nocryptanymore}
@@ -531,14 +561,14 @@ auch wenn im Direkt-Chat eine
 
 ### Wie kann ich Ende-zu-Ende-Verschlüsselung und Löschen von Nachrichten sicherstellen?
 
-Der beste Weg, um sicherzustellen, dass alle Nachrichten Ende-zu-Ende verschlüsselt sind
-und Metadaten so schnell wie möglich gelöscht werden,
-ist [die Verwendung von Chats mit garantierter Ende-zu-Ende-Verschlüsselung](#howtoe2ee)
-und die Aktivierung von "Verschwindende Nachrichten".
+The best way to ensure every message is end-to-end encrypted,
+and metadata deleted as quickly as possible
+is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
+and turning on [disappearing messages](#ephemeralmsgs).
 
-Garantiert Ende-zu-Ende-Verschlüsselung schützt vor [MITM-Angriffen](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-und das Aktivieren von "Verschwindende Nachrichten" löscht die Nachrichten
-auf dem Server und Lokal nach einer vom Benutzer eingestellten Zeit.
+Guaranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+and turning on disappearing messages deletes the messages
+on the server after a user-configured time.
 
 Wenn Sie die Nachrichten auf Ihrem Gerät, aber nicht auf dem Server benötigen, können Sie auch in der Gruppe vereinbaren, ["Nachrichten automatisch vom Server löschen"](#delold) einzuschalten.
 

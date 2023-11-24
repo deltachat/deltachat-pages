@@ -10,6 +10,20 @@ Hebben we iets gemist?
 [Laat het ons weten](imprint)
 of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
+
+### c't, a german technology magazine, tested Delta Chat 1½ years
+
+Translated summary:
+_"Delta Chat is definitely worth a longer look.
+The app harmoniously combines chat as a form of communication
+with the tried-and-tested medium of email
+and even offers some features that you won't find in other messengers,
+such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
+It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
+
+11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
+
+
 ### Ubuntubuzz: Functies die je geweldig gaat vinden…
 
 _"Apple en consorten kunnen worden gedwongen om gebruikersgegevens over te dragen aan overheden. Delta kan dat echter niet, omdat Delta geen gegevens bewaart. […] Geen server, geen gegevensverzameling en geen telefoonnummer vereist. Modern, rijk vormgegeven, WhatsApp-achtig uiterlijk. Gesprekken voeren met mensen die geen Delta Chat gebruiken is eveneens mogelijk."_

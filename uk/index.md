@@ -9,7 +9,7 @@ lang: uk
 
 🥳 Насолоджуйтеся інтерактивним чатом через [webxdc застосунки](https://webxdc.org).
 
-🔒 Використання наскрізного шифрування за протоколами [Autocrypt](https://autocrypt.org) та [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) із [численними аудитами безпеки](https://delta.chat/en/2023-03-27-third-independent-security-audit).
+🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Доступно на мобільному телефоні та комп’ютері
 

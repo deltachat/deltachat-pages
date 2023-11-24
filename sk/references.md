@@ -8,6 +8,20 @@ lang: sk
 Tento zoznam nie je ani zďaleka úplný – uniklo nám niečo? Prosím
 [dajte nám vedieť](imprint) alebo len urobte [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
+
+### c't, a german technology magazine, tested Delta Chat 1½ years
+
+Translated summary:
+_"Delta Chat is definitely worth a longer look.
+The app harmoniously combines chat as a form of communication
+with the tried-and-tested medium of email
+and even offers some features that you won't find in other messengers,
+such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
+It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
+
+11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
+
+
 ### Ubuntubuzz: Features You May Find Excellent...
 
 _"Apple a podobne by mohli byť prinútení poskytnúť údaje používateľov vláde, Delta nie, pretože nemá údaje používateľov. [...] Nevyžaduje sa žiadny server, zber údajov ani telefónne číslo. Moderné, luxusné , používateľské rozhranie podobné WhatsApp. Môže posielať správy ľuďom, ktorí nepoužívajú Delta Chat.“_
