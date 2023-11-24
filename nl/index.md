@@ -9,7 +9,7 @@ lang: nl
 
 🥳 Geniet van interactieve gesprekken met behulp van [webxdc-apps](https://webxdc.org).
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 Eind-tot-eindversleuteling met behulp van [Autocrypt](https://autocrypt.org) en [CounterMITM](https://securejoin.delta.chat/en/latest/new.html), waarop [meerdere beveiligingscontroles](https://delta.chat/en/2023-03-27-third-independent-security-audit) zijn uitgevoerd. 
 
 # Beschikbaar op telefoons, tablets en computers
 
