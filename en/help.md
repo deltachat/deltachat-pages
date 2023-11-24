@@ -208,8 +208,7 @@ or otherwise save, copy or forward messages before deletion.
 
 Apart from that,
 if one chat partner uninstalls Delta Chat,
-the messages will not get deleted from their device
-nor their email account.
+the messages will not get deleted from their email account.
 They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
 
