@@ -203,8 +203,8 @@ and in the app itself.
 
 Note that you can rely on disappearing messages
 only as long as you trust your chat partners;
-malicious chat partners can screenshot
-or otherwise save a message before it is deleted.
+malicious chat partners can take photos,
+or otherwise save, copy or forward messages before deletion.
 
 Apart from that,
 if one chat partner uninstalls Delta Chat,
