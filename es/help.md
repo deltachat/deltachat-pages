@@ -589,14 +589,14 @@ Si necesitas un chat cifrado de extremo a extremo de forma segura con un contact
 
 ### ¿Cómo puedo asegurar el cifrado de extremo a extremo y la eliminación de mensajes?
 
-The best way to ensure every message is end-to-end encrypted,
-and metadata deleted as quickly as possible
-is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
-and turning on [disappearing messages](#ephemeralmsgs).
+La mejor manera de asegurar que cada mensaje esté cifrado de extremo a extremo
+y que los metadatos se borren lo más rápido posible
+es [utilizando chats con cifrado de extremo a extremo garantizado](#howtoe2ee)
+y activando la [desaparición de mensajes](#ephemeralmsgs).
 
-Guaranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on disappearing messages deletes the messages
-on the server after a user-configured time.
+Los chats con cifrado de extremo a extremo garantizado protegen contra ataques [MITM](https://es.wikipedia.org/wiki/Ataque_de_intermediario)
+y al activar "mensajes efímeros" se borran los mensajes
+en el servidor después de un tiempo configurado por el usuario.
 
 Si no necesitas una copia de tus mensajes en el servidor durante más tiempo,
 también puedes activar ["eliminar mensajes del servidor automáticamente"](#delold).
@@ -641,12 +641,9 @@ which has been [independently security-audited](../assets/blog/2019-first-securi
 
 ### ¿Puedo reutilizar mi clave privada existente?
 
-Yes.
-The best way is to send an Autocrypt Setup Message from the other e-mail client.
-Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+- Si. La mejor manera es enviar un Mensaje de Configuración de Autocrypt desde el otro cliente de correo electrónico. Busca algo como **Iniciar la Transferencia de la Configuración Autocrypt** en la configuración del otro cliente y seguir las instrucciones que se muestren allí.
 
-Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys".
-Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Alternativamente, puede importar la clave manualmente en "Configuración avanzada / Administrar claves privadas". Precaución: asegúrese de que la clave no esté protegida por una contraseña o elimine la contraseña de antemano.
 
 Si no tienes una clave o ni siquiera sabes para qué necesitarías una, no te preocupes: Delta Chat genera claves según sea necesario, no tienes que presionar un botón para ello.
 

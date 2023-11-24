@@ -244,12 +244,12 @@ eine Ende-zu-Ende-Verschlüsselung mit Kontakten und Gruppenchats herzustellen.
 Autocrypt verwendet eine begrenzte und [sichere Untermenge des OpenPGP-Standards](#openpgp-secure).
 Ende-zu-Ende verschlüsselte Nachrichten sind mit einem Vorhängeschloss gekennzeichnet <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>
 
-[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-are used for establishing chats with guaranteed end-to-end encryption 
-which protects against network attacks and compromised servers.
-Chats marked with a green checkmark 
+[Secure-Join-Protokolle](https://securejoin.delta.chat/en/latest/new.html)
+werden für Chats mit garantierter Ende-zu-Ende-Verschlüsselung verwendet, 
+die vor Netzwerkangriffen und kompromittierten Servern schützt.
+Chats, die mit einem grünen Häkchen markiert sind 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-guarantee end-to-end encrypted messages. 
+garantieren Ende-zu-Ende-verschlüsselte Nachrichten.
 
 ### Wie kann ich wissen, ob Nachrichten Ende-zu-Ende verschlüsselt sind? {#whene2e}
 
@@ -296,7 +296,7 @@ den Sie von Ihrem Chat-Partner in einem zweiten Kanal sehen oder erhalten haben.
 
 **Beide, Einlader und Beitretender**:
 
-Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Warten Sie, während das [Secure-Join-Protokoll](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) zwischen den Geräten abläuft.
 
 - Wenn beide Geräte online sind,
 sehen beide Seiten schließlich einen Gruppen- oder Direkt-Chat mit einem grünen Häkchen
@@ -338,10 +338,10 @@ bis du zu demjenigen gelangst, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) 
 Beachten Sie, dass Sie in einem Kontaktprofil unter Umständen Einführende sehen und antippen können, aber kein grünes Häkchen im Profiltitel vorhanden ist. 
 Dies bedeutet normalerweise, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
 
-For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-and specifically read about "Verified Groups", the technical term
-of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+Für eine ausführlichere Diskussion der "Garantierten Ende-zu-Ende-Verschlüsselung",
+siehe [Secure-Join-Protokolle](https://securejoin.delta.chat/en/latest/new.html)
+und dort speziell den Abschnitt zu "Verified Groups", dem technischen Begriff
+für "Chats mit grünem Häkchen" oder "Garantierter Ende-zu-Ende-Verschlüsselung".
 
 
 ### Ein Kontakt hat eine Nachricht von einem anderen Gerät gesendet", was kann ich tun? {#nocryptanymore}
@@ -561,14 +561,14 @@ auch wenn im Direkt-Chat eine
 
 ### Wie kann ich Ende-zu-Ende-Verschlüsselung und Löschen von Nachrichten sicherstellen?
 
-The best way to ensure every message is end-to-end encrypted,
-and metadata deleted as quickly as possible
-is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
-and turning on [disappearing messages](#ephemeralmsgs).
+Der beste Weg, um sicherzustellen, dass alle Nachrichten Ende-zu-Ende verschlüsselt sind
+und Metadaten so schnell wie möglich gelöscht werden,
+ist [die Verwendung von Chats mit garantierter Ende-zu-Ende-Verschlüsselung](#howtoe2ee)
+und die Aktivierung von [Verschwindende Nachrichten](#ephemeralmsgs).
 
-Guaranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on disappearing messages deletes the messages
-on the server after a user-configured time.
+Garantierte Ende-zu-Ende-Verschlüsselung schützt vor [MITM-Angriffen](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+und das Aktivieren von "Verschwindende Nachrichten" löscht die Nachrichten
+auf dem Server und Lokal nach einer vom Benutzer eingestellten Zeit.
 
 Wenn Sie die Nachrichten auf Ihrem Gerät, aber nicht auf dem Server benötigen, können Sie auch in der Gruppe vereinbaren, ["Nachrichten automatisch vom Server löschen"](#delold) einzuschalten.
 

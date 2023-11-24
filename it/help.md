@@ -296,12 +296,12 @@ più vecchi di quel periodo.
 [Autocrypt](https://autocrypt.org) viene utilizzato automaticamente per stabilire la crittografia end-to-end con contatti e chat di gruppo. Autocrypt utilizza un [sottoinsieme limitato e sicuro dello standard OpenPGP](#openpgp-secure). I messaggi crittografati end-to-end sono contrassegnati da un lucchetto 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
-[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-are used for establishing chats with guaranteed end-to-end encryption 
-which protects against network attacks and compromised servers.
-Chats marked with a green checkmark 
+[Protocolli Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
+vengono utilizzati per stabilire chat con crittografia end-to-end garantita
+che protegge dagli attacchi di rete e dai server compromessi.
+Chat contrassegnata da un segno di spunta verde
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-guarantee end-to-end encrypted messages. 
+garantisce messaggi crittografati end-to-end.
 
 ### Come posso sapere se i messaggi sono crittografati end-to-end?  {#whene2e}
 
@@ -348,7 +348,7 @@ Condividi l'immagine QR con l'altra parte di persona o tramite un secondo canale
 
 **Sia Invitante che Invitato**:
 
-Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Attendere mentre [i messaggi di rete Secure-Join vengono scambiati](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) tra entrambi i dispositivi.
 
 - Se entrambi i dispositivi sono online,
   entrambe le parti vedranno eventualmente una chat (di gruppo o diretta) con un segno di spunta verde
@@ -389,10 +389,10 @@ Tieni presente che nel profilo di un contatto potresti vedere e toccare gli intr
 ma non c'è il segno di spunta verde nel titolo del profilo.
 Questo di solito significa che il contatto ["ha inviato un messaggio da un altro dispositivo"](#nocryptanymore).
 
-For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-and specifically read about "Verified Groups", the technical term
-of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+Per una discussione più approfondita sulla "crittografia end-to-end garantita"
+consultare [Protocolli Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
+e leggi nello specifico i "Gruppi Verificati", il termine tecnico
+di quelle che qui vengono chiamate chat "con segno di spunta verde" o "crittografate end-to-end garantite".
 
 
 ### Un contatto "ha inviato un messaggio da un altro dispositivo", cosa posso fare? {#nocryptanymore}
@@ -624,14 +624,14 @@ anche se la chat diretta tra voi due ha a
 
 ### Come posso garantire la crittografia e l'eliminazione end-to-end dei messaggi?
 
-The best way to ensure every message is end-to-end encrypted,
-and metadata deleted as quickly as possible
-is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
-and turning on [disappearing messages](#ephemeralmsgs).
+Il modo migliore per garantire che ogni messaggio sia crittografato end-to-end,
+e i metadati vengono eliminati il ​​più rapidamente possibile
+è [utilizzare chat con crittografia end-to-end garantita](#howtoe2ee)
+e l'attivazione dei [messaggi a scomparsa](#ephemeralmsgs).
 
-Guaranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on disappearing messages deletes the messages
-on the server after a user-configured time.
+Le chat crittografate end-to-end garantiscono la protezione dagli [attacchi MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+e l'attivazione dei "messaggi che scompaiono" elimina i messaggi
+sul server dopo un tempo configurato dall'utente.
 
 Se non hai bisogno di una copia più longeva dei tuoi messaggi sul server,
 puoi anche attivare ["elimina messaggi dal server"](#delold).
