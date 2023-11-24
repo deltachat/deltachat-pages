@@ -143,6 +143,35 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
 - Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
 
 
+### Wie funktionieren "Verschwindende Nachrichten"? {#ephemeralmsgs}
+
+Sie schalten "Verschwindende Nachrichten"
+oben rechts im Chatfenster,
+durch Auswahl einer Zeitspanne
+zwischen 30 Sekunden und 5 Wochen ein.
+
+Until the setting is turned off again,
+each chat member's Delta Chat app takes care
+of deleting the messages
+after the selected time span.
+The time span begins when the receiver's Delta Chat app
+first sees the message.
+The messages are deleted
+both in each email account on the server,
+and in the app itself.
+
+Note that you can rely on disappearing messages
+only as long as you trust your chat partners;
+malicious chat partners can take photos,
+or otherwise save, copy or forward messages before deletion.
+
+Apart from that,
+if one chat partner uninstalls Delta Chat,
+the messages will not get deleted from their email account.
+They will most likely also not be decryptable anymore
+(as long as they were encrypted in the first place).
+
+
 ### Wie kann ich mein Konto löschen?
 
 Da Sie ein E-Mail-Konto für Delta Chat verwenden, hängt von Ihrem E-Mail-Anbieter ab, wie Sie Ihr Konto löschen können. Wir haben keine Kontrolle über Ihr E-Mail-Konto, daher können wir Ihnen dabei leider nicht helfen.
@@ -214,7 +243,7 @@ eine Ende-zu-Ende-Verschlüsselung mit Kontakten und Gruppenchats herzustellen.
 Autocrypt verwendet eine begrenzte und [sichere Untermenge des OpenPGP-Standards](#openpgp-secure).
 Ende-zu-Ende verschlüsselte Nachrichten sind mit einem Vorhängeschloss gekennzeichnet <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>
 
-[Secure-Join-Protokolle](https://countermitm.readthedocs.io/en/latest/new.html)
+[Secure-Join-Protokolle](https://securejoin.delta.chat/en/latest/new.html)
 werden für Chats mit garantierter Ende-zu-Ende-Verschlüsselung verwendet, 
 die vor Netzwerkangriffen und kompromittierten Servern schützt.
 Chats, die mit einem grünen Häkchen markiert sind 
@@ -266,7 +295,7 @@ den Sie von Ihrem Chat-Partner in einem zweiten Kanal sehen oder erhalten haben.
 
 **Beide, Einlader und Beitretender**:
 
-Warten Sie, während das [Secure-Join-Protokoll](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) zwischen den Geräten abläuft.
+Warten Sie, während das [Secure-Join-Protokoll](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) zwischen den Geräten abläuft.
 
 - Wenn beide Geräte online sind,
 sehen beide Seiten schließlich einen Gruppen- oder Direkt-Chat mit einem grünen Häkchen
@@ -309,7 +338,7 @@ Beachten Sie, dass Sie in einem Kontaktprofil unter Umständen Einführende sehe
 Dies bedeutet normalerweise, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
 
 Für eine ausführlichere Diskussion der "Garantierten Ende-zu-Ende-Verschlüsselung",
-siehe [Secure-Join-Protokolle](https://countermitm.readthedocs.io/en/latest/new.html)
+siehe [Secure-Join-Protokolle](https://securejoin.delta.chat/en/latest/new.html)
 und dort speziell den Abschnitt zu "Verified Groups", dem technischen Begriff
 für "Chats mit grünem Häkchen" oder "Garantierter Ende-zu-Ende-Verschlüsselung".
 
@@ -534,9 +563,9 @@ auch wenn im Direkt-Chat eine
 Der beste Weg, um sicherzustellen, dass alle Nachrichten Ende-zu-Ende verschlüsselt sind
 und Metadaten so schnell wie möglich gelöscht werden,
 ist [die Verwendung von Chats mit garantierter Ende-zu-Ende-Verschlüsselung](#howtoe2ee)
-und die Aktivierung von "Verschwindende Nachrichten".
+und die Aktivierung von [Verschwindende Nachrichten](#ephemeralmsgs).
 
-Garantiert Ende-zu-Ende-Verschlüsselung schützt vor [MITM-Angriffen](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+Garantierte Ende-zu-Ende-Verschlüsselung schützt vor [MITM-Angriffen](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 und das Aktivieren von "Verschwindende Nachrichten" löscht die Nachrichten
 auf dem Server und Lokal nach einer vom Benutzer eingestellten Zeit.
 

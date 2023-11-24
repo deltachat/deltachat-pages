@@ -183,6 +183,36 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
+### How do disappearing messages work? {#ephemeralmsgs}
+
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 30 seconds and 5 weeks.
+
+Until the setting is turned off again,
+each chat member's Delta Chat app takes care
+of deleting the messages
+after the selected time span.
+The time span begins when the receiver's Delta Chat app
+first sees the message.
+The messages are deleted
+both in each email account on the server,
+and in the app itself.
+
+Note that you can rely on disappearing messages
+only as long as you trust your chat partners;
+malicious chat partners can take photos,
+or otherwise save, copy or forward messages before deletion.
+
+Apart from that,
+if one chat partner uninstalls Delta Chat,
+the messages will not get deleted from their email account.
+They will most likely also not be decryptable anymore
+(as long as they were encrypted in the first place).
+
+
 ### How can I delete my account?
 
 As you use an e-mail account for Delta Chat,
@@ -274,7 +304,7 @@ Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-se
 End-to-End encrypted messages are marked with a padlock 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
-[Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
+[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
 are used for establishing chats with guaranteed end-to-end encryption 
 which protects against network attacks and compromised servers.
 Chats marked with a green checkmark 
@@ -326,7 +356,7 @@ One of you is the "Inviter", the other is the "Joiner".
 
 **Both Inviter and Joiner**:
 
-Wait while [Secure-Join network messages are exchanged](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) between both devices.
+Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - If both devices are online,
   both sides will eventually see a (group or direct) chat with a green checkmark
@@ -370,7 +400,7 @@ but there is no green checkmark in the profile title.
 This usually means that the contact ["sent a message from another device"](#nocryptanymore). 
 
 For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://countermitm.readthedocs.io/en/latest/new.html)
+please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
 and specifically read about "Verified Groups", the technical term
 of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
 
@@ -608,10 +638,10 @@ even if the direct chat between you two has a
 The best way to ensure every message is end-to-end encrypted,
 and metadata deleted as quickly as possible
 is [using chats with guaranteed end-to-end encryption](#howtoe2ee)
-and turning on disappearing messages.
+and turning on [disappearing messages](#ephemeralmsgs).
 
-Guranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
-and turning on "disappearing messages" deletes the messages
+Guaranteed end-to-end encrypted chats protect against [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+and turning on disappearing messages deletes the messages
 on the server after a user-configured time.
 
 If you don't need a longer-lived copy of your messages on the server, 

@@ -9,7 +9,7 @@ lang: pt_BR
 
 🥳 Desfrute de experiências interativas de bate-papo por meio de [webxdc apps](https://webxdc.org).
 
-🔒 Criptografia de ponta a ponta usando [Autocrypt](https://autocrypt.org) e [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protocolo, com [múltiplas auditorias de segurança](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 Criptografia de ponta a ponta usando [Autocrypt](https://autocrypt.org) e [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocolo, com [múltiplas auditorias de segurança](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Disponível em dispositivos móveis e computadores
 

@@ -174,6 +174,36 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
+### How do disappearing messages work? {#ephemeralmsgs}
+
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 30 seconds and 5 weeks.
+
+Until the setting is turned off again,
+each chat member's Delta Chat app takes care
+of deleting the messages
+after the selected time span.
+The time span begins when the receiver's Delta Chat app
+first sees the message.
+The messages are deleted
+both in each email account on the server,
+and in the app itself.
+
+Note that you can rely on disappearing messages
+only as long as you trust your chat partners;
+malicious chat partners can take photos,
+or otherwise save, copy or forward messages before deletion.
+
+Apart from that,
+if one chat partner uninstalls Delta Chat,
+the messages will not get deleted from their email account.
+They will most likely also not be decryptable anymore
+(as long as they were encrypted in the first place).
+
+
 ### ¿Cómo puedo eliminar mi cuenta?
 
 As you use an e-mail account for Delta Chat,
@@ -262,7 +292,7 @@ Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-se
 End-to-End encrypted messages are marked with a padlock 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
-[Protocolos de Secure-Join](https://countermitm.readthedocs.io/en/latest/new.html)
+[Protocolos de Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
 se utilizan para establecer chats con cifrado de extremo a extremo garantizado
 que protege contra ataques de red y servidores comprometidos.
 Los chats marcados con una estampilla verde
@@ -310,7 +340,7 @@ Comparte la imagen del QR con la otra persona, ya sea en persona o a través de 
 
 **Both Inviter and Joiner**:
 
-Espere mientras se intercambian los mensajes de [Secure-Join](https://countermitm.readthedocs.io/en/latest/new.html#setup-contact-protocol) entre ambos dispositivos.
+Espere mientras se intercambian los mensajes de [Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) entre ambos dispositivos.
 
 - Si ambos dispositivos están en línea,
 ambas partes eventualmente verán un chat (grupal o directo) con una estampilla verde
@@ -349,7 +379,7 @@ hasta llegar al que hizo un escaneo directo de [QR](#howtoe2ee) contigo.
 
 Ten en cuenta que en un perfil de contacto puedes ver y tocar a las personas que te presentaron a ese contacto, pero puede pasar que no haya una estampilla verde en el título del perfil. Esto generalmente significa que el contacto ["envió un mensaje desde otro dispositivo"](#nocryptanymore).
 
-Para obtener una discusión más detallada sobre "cifrado de extremo a extremo garantizado", por favor consulta los [protocolos Secure-Join](https://countermitm.readthedocs.io/en/latest/new.html) y lee específicamente sobre "Grupos Verificados", el término técnico de lo que aquí se llama chats "marcados con una estampilla verde" o "cifrados de extremo a extremo garantizado".
+Para obtener una discusión más detallada sobre "cifrado de extremo a extremo garantizado", por favor consulta los [protocolos Secure-Join](https://securejoin.delta.chat/en/latest/new.html) y lee específicamente sobre "Grupos Verificados", el término técnico de lo que aquí se llama chats "marcados con una estampilla verde" o "cifrados de extremo a extremo garantizado".
 
 
 ### Un contacto "envió un mensaje desde otro dispositivo", ¿qué puedo hacer? {#nocryptanymore}
@@ -559,7 +589,7 @@ Si necesitas un chat cifrado de extremo a extremo de forma segura con un contact
 La mejor manera de asegurar que cada mensaje esté cifrado de extremo a extremo
 y que los metadatos se borren lo más rápido posible
 es [utilizando chats con cifrado de extremo a extremo garantizado](#howtoe2ee)
-y activando la desaparición de mensajes.
+y activando la [desaparición de mensajes](#ephemeralmsgs).
 
 Los chats con cifrado de extremo a extremo garantizado protegen contra ataques [MITM](https://es.wikipedia.org/wiki/Ataque_de_intermediario)
 y al activar "mensajes efímeros" se borran los mensajes
@@ -608,12 +638,9 @@ which has been [independently security-audited](../assets/blog/2019-first-securi
 
 ### ¿Puedo reutilizar mi clave privada existente?
 
-Yes.
-The best way is to send an Autocrypt Setup Message from the other e-mail client.
-Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+- Si. La mejor manera es enviar un Mensaje de Configuración de Autocrypt desde el otro cliente de correo electrónico. Busca algo como **Iniciar la Transferencia de la Configuración Autocrypt** en la configuración del otro cliente y seguir las instrucciones que se muestren allí.
 
-Alternatively, you can import the key manually in "Settings -> Advanced settings -> Import secret keys".
-Caution: Make sure the key is not protected by a password, or remove the password beforehand.
+- Alternativamente, puede importar la clave manualmente en "Configuración avanzada / Administrar claves privadas". Precaución: asegúrese de que la clave no esté protegida por una contraseña o elimine la contraseña de antemano.
 
 Si no tienes una clave o ni siquiera sabes para qué necesitarías una, no te preocupes: Delta Chat genera claves según sea necesario, no tienes que presionar un botón para ello.
 

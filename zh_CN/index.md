@@ -9,7 +9,7 @@ lang: zh_CN
 
 🥳 通过 [webxdc 应用](https://webxdc.org)，享受互动聊天体验。
 
-🔒 使用 [Autocrypt](https://autocrypt.org) 与 [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) 协议进行端到端加密，经过[多次安全审计](https://delta.chat/en/2023-03-27-third-independent-security-audit)。
+🔒 使用 [Autocrypt](https://autocrypt.org) 与 [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) 协议进行端到端加密，经过[多次安全审计](https://delta.chat/en/2023-03-27-third-independent-security-audit)。
 
 # 在移动端与桌面端均可使用
 

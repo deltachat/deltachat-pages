@@ -9,7 +9,7 @@ lang: pl
 
 🥳 Korzystaj z interaktywnych czatów za pośrednictwem [aplikacji webxdc](https://webxdc.org).
 
-🔒 Szyfrowanie end-to-end z wykorzystaniem protokołów [Autocrypt](https://autocrypt.org) i [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html), z [wieloma audytami bezpieczeństwa](https://delta.chat/en/2023-03-27-third-independent-security-audit).
+🔒 Szyfrowanie end-to-end z wykorzystaniem protokołów [Autocrypt](https://autocrypt.org) i [SecureJoin](https://securejoin.delta.chat/en/latest/new.html), z [wieloma audytami bezpieczeństwa](https://delta.chat/en/2023-03-27-third-independent-security-audit).
 
 # Dostępny na urządzeniach mobilnych i stacjonarnych
 

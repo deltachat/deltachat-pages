@@ -9,7 +9,7 @@ lang: id
 
 🥳 Nikmati pengalaman obrolan interaktif melalui [aplikasi webxdc](https://webxdc.org).
 
-🔒 Enkripsi Ujung-ke-Ujung menggunakan [Autocrypt](https://autocrypt.org) dan [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html) protokol, dengan [berbapai audit keamanan](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 Enkripsi Ujung-ke-Ujung menggunakan [Autocrypt](https://autocrypt.org) dan [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protokol, dengan [berbapai audit keamanan](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Tersedia di seluler dan desktop
 

@@ -9,7 +9,7 @@ lang: sq
 
 🥳 Shijoni fjalosje me ndërveprim përmes [aplikacionesh webxdc](https://webxdc.org).
 
-🔒 Fshehtëzim Skaj-më-Skaj me përdorim të protokollove [Autocrypt](https://autocrypt.org) dhe [CounterMITM](https://countermitm.readthedocs.io/en/latest/new.html), me [auditime të shumta sigurie](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 Fshehtëzim Skaj-më-Skaj me përdorim të protokollove [Autocrypt](https://autocrypt.org) dhe [SecureJoin](https://securejoin.delta.chat/en/latest/new.html), me [auditime të shumta sigurie](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # I përdorshëm në celular dhe desktop
 

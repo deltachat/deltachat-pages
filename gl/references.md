@@ -9,6 +9,20 @@ Esta lista non está completa - esquecemos algunha referencia?
 [Contacta con nós](imprint) ou fai un
 [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
+
+### c't, a german technology magazine, tested Delta Chat 1½ years
+
+Translated summary:
+_"Delta Chat is definitely worth a longer look.
+The app harmoniously combines chat as a form of communication
+with the tried-and-tested medium of email
+and even offers some features that you won't find in other messengers,
+such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
+It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
+
+11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
+
+
 ### Ubuntubuzz: Features You May Find Excellent...
 
 _"Apple and alike could be forced to give users' data to government, Delta could not, because it does not have users' data. [...] No server, no data collection, and no phone number required. Modern, fancy, WhatsApp-like user interface. Can message people who do not use Delta Chat."_

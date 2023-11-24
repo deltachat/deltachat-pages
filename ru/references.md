@@ -9,6 +9,20 @@ lang: ru
 [дайте нам знать](imprint) или просто отправьте 
 [пул-реквест](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
+
+### c't, a german technology magazine, tested Delta Chat 1½ years
+
+Translated summary:
+_"Delta Chat is definitely worth a longer look.
+The app harmoniously combines chat as a form of communication
+with the tried-and-tested medium of email
+and even offers some features that you won't find in other messengers,
+such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
+It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
+
+11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
+
+
 ### Ubuntubuzz: Функции, которые покажутся вам превосходными...
 
 _"Apple и подобные обязаны предоставлять данные о пользователях правительству, Delta Chat не может, потому что у них нет информации о пользователях. [...] Нет сервера, нет сбора информации, и не требуется номер телефона. Современный и модный интерфейс, похожий по стилю на WhatsApp. Можно отправлять сообщения людям, которые не используют Delta Chat."_
