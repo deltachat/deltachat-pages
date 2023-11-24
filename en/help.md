@@ -183,6 +183,37 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
+### How do disappearing messages work?
+
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 30 seconds and 5 weeks.
+
+Until the setting is turned off again,
+each chat member's Delta Chat app takes care
+of deleting the messages
+after the selected time span.
+The time span begins when the receiver's Delta Chat app
+first sees the message.
+The messages are deleted
+both in each email account on the server,
+and in the app itself.
+
+Note that you can rely on disappearing messages
+only as long as you trust your chat partners;
+malicious chat partners can screenshot
+or otherwise save a message before it is deleted.
+
+Apart from that,
+if one chat partner uninstalls Delta Chat,
+the messages will not get deleted from their device
+nor their email account.
+They will most likely also not be decryptable anymore
+(as long as they were encrypted in the first place).
+
+
 ### How can I delete my account?
 
 As you use an e-mail account for Delta Chat,
@@ -601,37 +632,6 @@ and then create a guaranteed end-to-end encrypted group chat with you two as mem
 In this group chat all messages will be end-to-end encrypted 
 even if the direct chat between you two has a
 ["… sent a message from another device"](#nocryptanymore) warning. 
-
-
-### How do disappearing messages work?
-
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 30 seconds and 5 weeks.
-
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins when the receiver's Delta Chat app
-first sees the message.
-The messages are deleted
-both in each email account on the server,
-and in the app itself.
-
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can screenshot
-or otherwise save a message before it is deleted.
-
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the messages will not get deleted from their device
-nor their email account.
-They will most likely also not be decryptable anymore
-(as long as they were encrypted in the first place).
 
 
 ### How can I ensure message end-to-end encryption and deletion?
