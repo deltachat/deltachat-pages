@@ -698,18 +698,18 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 ### I can't import my existing PGP key into Delta Chat.
 
-The most likely cause is that your key is encrypted and/or uses
-a password. Such keys are not supported by Delta Chat.  You could remove the
-passphrase encryption and the password and try the import again.
+The most likely cause is that your key is encrypted and/or uses a password.
+Such keys are not supported by Delta Chat.
+You could remove the passphrase encryption and the password and try the import again.
 
-Another common error is having the wrong file ending. Use the ASCII
-armored format and an `.asc` file ending.
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
-Delta Chat supports common OpenPGP private key formats, however, it is
-unlikely that private keys from all sources will be fully supported.
-This is not the main goal of Delta Chat. In fact, the majority of new
-users will not have any key prior to using Delta Chat. We do, however,
-try to support private keys from as many sources as possible.
+Delta Chat supports common OpenPGP private key formats, however, it
+is unlikely that private keys from all sources will be fully supported. This
+is not the main goal of Delta Chat. In fact, the majority of new users
+will not have any key prior to using Delta Chat.
+We do, however, try to support private keys from as many sources as possible.
 
 Removing the password from the private key will depend on the
 software you use to manage your PGP keys. With Enigmail, you can set your
