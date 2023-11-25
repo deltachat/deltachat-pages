@@ -176,7 +176,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 30 seconds and 5 weeks.
+between 1 minute and 5 weeks.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -685,9 +685,10 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 A causa mais provável é que sua chave está criptografada e/ou usa
 uma senha. Tais chaves não são suportadas pelo Delta Chat. Você poderia remover a
-criptografia por senha e a senha e tentar a importação novamente. Se você quiser
-para manter sua senha, você terá que criar um e-mail para uso
-com o Delta Chat de tal forma que a chave do Delta Chat está vinculada a este e-mail.
+criptografia por senha e a senha e tentar a importação novamente. 
+
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
 O Delta Chat apoia formatos comuns de chave privada OpenPGP, porém, 
 é improvável que chaves privadas de todas as fontes sejam totalmente suportadas. Isso
@@ -701,7 +702,6 @@ senha para um valor vazio na janela Gerenciamento de chaves. Com GnuPG você pod
 ele [através do comando
 linha](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Para outros programas, você deveria achar uma solução online.
-
 
 ## Multi-cliente {#multiclient}
 

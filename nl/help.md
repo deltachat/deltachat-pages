@@ -178,7 +178,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 30 seconds and 5 weeks.
+between 1 minute and 5 weeks.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -686,9 +686,10 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 Het is goed mogelijk dat je sleutel versleuteld is en/of een wachtwoord
 vereist. Zulke sleutels worden niet ondersteund. Verwijder de versleuteling
-en het wachtwoord en probeer het opnieuw. Als je je wachtwoord
-  koste wat kost wilt behouden, maak dan een e-mailalias aan
-  die je alleen in Delta Chat gebruikt. Zo is de sleutel niet gekoppeld aan je hoofdadres.
+en het wachtwoord en probeer het opnieuw. 
+
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
 Delta Chat heeft ondersteuning voor alle veelvoorkomende OpenPGP-privésleutelformaten. Echter,
 het in onmogelijk om álle soorten sleutels te ondersteunen. Onze
@@ -701,7 +702,6 @@ leeglaten in het sleutelbeheervenster. Met GnuPG kun je het
 instellen [middels de opdracht-
 regel](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Voor andere programma's kun je zélf een oplossing zoeken op internet.
-
 
 ## Multi-client {#multiclient}
 

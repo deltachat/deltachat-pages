@@ -188,7 +188,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 30 seconds and 5 weeks.
+between 1 minute and 5 weeks.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -699,9 +699,10 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 Najpravdepodobnejšou príčinou je, že váš kľúč je zašifrovaný a/alebo používa
 heslo. Delta Chat takéto kľúče nepodporuje. Mohli by ste odstrániť
-zašifrovanie prístupovej frázy a heslo a skúsiť import znova. Ak chcete
-aby ste si zachovali svoju prístupovú frázu, budete si musieť vytvoriť e-mailový alias
-s Delta Chatom tak, že kľúč Delta Chat je zviazaný s týmto e-mailovým aliasom.
+zašifrovanie prístupovej frázy a heslo a skúsiť import znova. 
+
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
 Delta Chat podporuje bežné formáty súkromných kľúčov OpenPGP
 avšak je nepravdepodobné, že budú plne podporované súkromné kľúče zo všetkých zdrojov. Toto
@@ -715,7 +716,6 @@ heslo na prázdnu hodnotu v okne Key Management. Pomocou GnuPG to môžete nasta
 [prostredníctvom príkazu
 riadok](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Pre iné programy by ste mali vedieť nájsť riešenie online.
-
 
 ## Multiklient {#multiclient}
 

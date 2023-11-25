@@ -192,7 +192,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 30 seconds and 5 weeks.
+between 1 minute and 5 weeks.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -702,11 +702,12 @@ Nëse s’keni kyç, ose as që e dinit se mund t’ju duhej një i tillë… mo
 
 ### S’eksportoj dot kyçet e mi ekzistues PGP në Delta Chat.
 
-Ka një mundësi të mirë që problemi të jetë se kyçi juaj është fshehtëzuar
-dhe/ose përdor një fjalëkalim. Kyçe të tillë nuk mbulohen nga Delta Chat-i. Mund
-të hiqni fshehtëzimin me frazëkalim dhe fjalëkalimin dhe të riprovoni. Nëse doni
-të mbani frazëkalimin tuaj, do t’ju duhet të krijoni një alias email-i për ta përdorur
-me Delta Chat-in, që kyçi i Delta Chat-it të jetë i lidhur me këtë alias email-i.
+Ka shumë mundësi që problemi të jetë se kyçi juaj është i fshehtëzuar dhe/ose
+përdor një fjalëkalim. Kyçe të tillë nuk mbulohen nga Delta Chat. Ju lutemi,
+hiqeni fshehtëzimin dhe fjalëkalimin dhe riprovoni importimin.
+
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
 Për sa u takon formateve, Delta Chat-i mbulon formate të rëndomtë OpenPGP
 kyçesh private, megjithatë, ka pak gjasa që të mbulojmë 100% të krejt kyçeve
@@ -720,7 +721,6 @@ që ju përdorni për administrim kyçesh PGP. Me Enigmail-in, mund t’i jepni
 fjalëkalimit tuaj një vlerë të zbrazët, që nga dritarja Administrim Kyçesh. Me
 GnuPG-në mund ta bëni [përmes rreshti urdhrash](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Për programe të tjera, mund të gjeni një zgjidhje në internet.
-
 
 ## Multi-klient {#multiclient}
 

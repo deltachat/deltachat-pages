@@ -148,7 +148,7 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
 Sie schalten "Verschwindende Nachrichten"
 oben rechts im Chatfenster,
 durch Auswahl einer Zeitspanne
-zwischen 30 Sekunden und 5 Wochen ein.
+zwischen 1 Minute und 5 Wochen ein.
 
 Bis die Einstellung wieder ausgeschaltet wird,
 kümmern sich die Delta-Chat-Apps der Chat-Teilnehmer
@@ -616,8 +616,10 @@ Look for something like **Start Autocrypt Setup Transfer** in the settings of th
 
 ### Ich kann meinen existierenden PGP-Schlüssel nicht in Delta Chat importieren.
 
-- Wahrscheinlich ist Ihr Schlüssel verschlüsselt und/oder mit einem Passwort geschützt. Solche Schlüssel werden von Delta Chat nicht unterstützt. Bitte entfernen Sie die Verschlüsselung und das Passwort und versuchen Sie den Import danach erneut.
-Wenn Sie das Passwort nicht entfernen möchten, müssen Sie einen E-Mail-Alias zur Nutzung mit Delta Chat anlegen, sodass der Schlüssel von Delta Chat mit diesem E-Mail-Alias verknüpft ist.
+Mit sehr großer Wahrscheinlichkeit besteht das Problem darin, dass Ihr Schlüssel verschlüsselt ist und/oder ein Passwort verwendet. Solche Schlüssel werden von Delta Chat nicht unterstützt. Bitte entfernen Sie die Verschlüsselung und das Passwort und versuchen Sie den Import danach erneut.
+
+Ein weiterer häufiger Fehler ist die falsche Dateiendung.
+Verwenden Sie das ASCII-Armored-Format die Dateiendung `.asc`.
 
 - Delta Chat unterstützt "gängige" private Schlüsselformate, allerdings ist es unwahrscheinlich, dass wir 100% aller privaten Schlüssel aus sämtlichen Quellen unterstützen.
 Dies ist auch nicht das Hauptaugenmerk von Delta Chat. Tatsächlich besitzt die große Mehrheit der Delta-Chat-NutzerInnen keinen Schlüssel, bevor sie Delta Chat verwendet.
@@ -627,7 +629,6 @@ Wir versuchen jedoch, private Schlüssel aus anderen Quellen so gut wie möglich
 Bei Enigmail können Sie Ihr Passwort im Fenster Schlüsselverwaltung auf einen leeren Wert setzen.
 Bei GnuPG können Sie es über die [Kommandozeile einstellen](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Für andere Programme können Sie online eine Lösung finden.
-
 
 ## Mehrere Geräte verwenden {#multiclient}
 

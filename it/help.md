@@ -181,34 +181,34 @@ hai disattivato le conferme di lettura, non vedranno il punto verde finché non 
 invia loro un messaggio o scrivi anche a un gruppo a cui appartengono.
 
 
-### How do disappearing messages work? {#ephemeralmsgs}
+### Come funzionano i messaggi a scomparsa? {#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 30 seconds and 5 weeks.
+Puoi attivare i "messaggi che scompaiono"
+nelle impostazioni di una chat,
+in alto a destra nella finestra della chat,
+selezionando un intervallo di tempo
+tra 1 minuto e 5 settimane.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted
-both in each email account on the server,
-and in the app itself.
+Fino a quando l'impostazione non viene nuovamente disattivata,
+l'app Delta Chat di ogni membro della chat si prende cura
+di eliminare i messaggi
+dopo l'intervallo di tempo selezionato.
+Inizia il lasso di tempo
+quando il destinatario vede per la prima volta il messaggio in Delta Chat.
+I messaggi vengono eliminati
+entrambi in ciascun account di posta elettronica sul server,
+e nell'app stessa.
 
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can take photos,
-or otherwise save, copy or forward messages before deletion.
+Tieni presente che puoi fare affidamento sui messaggi che scompaiono
+solo finché ti fidi dei tuoi partner di chat;
+i partner di chat dannosi possono scattare foto,
+o altrimenti salvare, copiare o inoltrare messaggi prima della cancellazione.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the messages will not get deleted from their email account.
-They will most likely also not be decryptable anymore
-(as long as they were encrypted in the first place).
+A parte quello,
+se un partner di chat disinstalla Delta Chat,
+i messaggi non verranno eliminati dal loro account di posta elettronica.
+Molto probabilmente non saranno più decifrabili
+(a patto che siano stati crittografati in primo luogo).
 
 
 ### Come posso eliminare il mio account?
@@ -687,11 +687,12 @@ Se non hai una chiave o non sai nemmeno che ne avrai bisogno - non preoccuparti:
 
 ### Non riesco a importare la mia chiave PGP esistente in Delta Chat.
 
-La causa più probabile è che la tua chiave sia crittografata e/o utilizzi
-una password. Tali chiavi non sono supportate da Delta Chat. Potresti rimuovere la
-crittografia della passphrase e la password e riprovare l'importazione. Se vuoi
-per mantenere la tua passphrase dovrai creare un alias e-mail per l'uso
-con Delta Chat in modo che la chiave di Delta Chat sia collegata a questo alias e-mail.
+Con molta probabilità, il problema sta nel fatto che la tua chiave è cifata e/o usa
+una password. Queste chiavi non sono supportate da Delta Chat. Rimuovi la
+cifratura e la password e prova ad importarla nuovamente.
+
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
 Delta Chat supporta i formati di chiave privata OpenPGP comuni, tuttavia,
 è improbabile che le chiavi private di tutte le fonti siano completamente supportate. Questo
@@ -705,7 +706,6 @@ password su un valore vuoto nella finestra Gestione chiavi. Con GnuPG puoi impos
 [tramite la linea
 di comando](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Per altri programmi, dovresti essere in grado di trovare una soluzione online.
-
 
 ## Multi-client {#multiclient}
 
