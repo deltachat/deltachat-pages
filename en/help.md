@@ -707,9 +707,9 @@ Use the ASCII armored format and an `.asc` file ending.
 
 Delta Chat supports common OpenPGP private key formats, however, it
 is unlikely that private keys from all sources will be fully supported. This
-is not the main goal of Delta Chat. In fact, the majority of new users
+is not the main goal of Delta Chat. In fact, the majority of new users 
 will not have any key prior to using Delta Chat.
-We do, however, try to support private keys from as many sources as possible.
+We do, however, try to support private keys from as many sources as possible. 
 
 Removing the password from the private key will depend on the
 software you use to manage your PGP keys. With Enigmail, you can set your
