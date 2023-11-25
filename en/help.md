@@ -189,7 +189,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 30 seconds and 5 weeks.
+between 1 minute and 5 weeks.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
