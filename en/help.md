@@ -711,10 +711,6 @@ This is not the main goal of Delta Chat. In fact, the majority of new
 users will not have any key prior to using Delta Chat. We do, however,
 try to support private keys from as many sources as possible.
 
-If you want to keep your passphrase you'll have to create an e-mail
-alias for use with Delta Chat such that Delta Chat's key is tied to
-this e-mail alias.
-
 Removing the password from the private key will depend on the
 software you use to manage your PGP keys. With Enigmail, you can set your
 password to an empty value in the Key Management window. With GnuPG you can set
