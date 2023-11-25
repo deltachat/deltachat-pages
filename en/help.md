@@ -704,8 +704,8 @@ passphrase encryption and the password and try the import again.  If you want
 to keep your passphrase you'll have to create an e-mail alias for use
 with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
 
-Another common error is if your file is in the ascii armored format,
-the file must have an `.asc` file ending.
+Another common error is having the wrong file ending. If your file is
+in the ASCII armored format the file must have an `.asc` file ending.
 
 Delta Chat supports common OpenPGP private key formats, however, it
 is unlikely that private keys from all sources will be fully supported. This
