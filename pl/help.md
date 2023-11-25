@@ -156,7 +156,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 30 seconds and 5 weeks.
+between 1 minute and 5 weeks.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -645,7 +645,10 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 
 ### Nie mogę zaimportować istniejącego klucza PGP do Delta Chat.
 
-Jest wielce prawdopodobne, że problemem jest klucz, który jest zaszyfrowany i/lub używa hasła. Takie klucze nie są obsługiwane przez Delta Chat. Możesz usunąć frazę szyfrującą i hasło i spróbować ponownie zaimportować klucz. Jeśli chcesz zachować hasło, musisz utworzyć alias e-mail do użytku z Delta Chat, tak aby klucz Delta Chat był powiązany z tym aliasem e-mail.
+Jest wielce prawdopodobne, że problemem jest klucz, który jest zaszyfrowany i/lub używa hasła. Takie klucze nie są obsługiwane przez Delta Chat. Usuń szyfrowanie i hasło i spróbować ponownie zaimportować klucz.
+
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
 Rozsądny format, Delta Chat obsługuje popularne formaty kluczy prywatnych OpenPGP, jednak jest mało prawdopodobne, że będziemy obsługiwać 100% wszystkich kluczy prywatnych z dowolnych źródeł. To również nie jest głównym celem Delta Chat (w rzeczywistości, znaczna większość użytkowników Delta Chat nie będzie miała żadnego klucza przed rozpoczęciem korzystania z Delta). Jednak staramy się wspierać klucze prywatne z innych źródeł tak dobrze jak to tylko możliwe.
 
@@ -653,7 +656,6 @@ Usunięcie hasła z klucza prywatnego będzie się różnić w zależności od
 oprogramowania używanego do zarządzania kluczami PGP. Za pomocą programu Enigmail można ustawić 
 hasło na pustą wartość w oknie zarządzania kluczami. Z GnuPG możesz ustawić je [z linii poleceń](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429). 
 W przypadku innych programów można znaleźć rozwiązanie online.
-
 
 ## Multi-klient {#multiclient}
 

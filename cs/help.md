@@ -185,7 +185,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 30 seconds and 5 weeks.
+between 1 minute and 5 weeks.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -695,9 +695,12 @@ If you don't have a key or don't even know you would need one - don't worry: Del
 ### Nemohu do Delta Chatu zavést můj stávající PGP klíč.
 
 Nejpravděpodobnější příčinou jsou zašifrované klíče, nebo klíče s heslem. 
-Takové klíče Delta Chat nepodporuje.  Můžeš odstranit šifrování nebo heslo a 
+Takové klíče Delta Chat nepodporuje.  Můžeš odstranit šifrování nebo heslo a 
 zkusit to znovu. Pokud je potřeba použít zaheslovaný klíč vytvoř / použij zástupnou 
 adresua a pak přidej nový Delta Chat účet s tímto klíčem.
+
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
 Delta Chat podporuje běžné formáty OpenPGP klíčů, nicméně neočekáváme, 
 že soukromé klíče ze všech aplikací budou fungovat. To není cíl, a 
@@ -708,7 +711,6 @@ Odstranění hesla ze soukromého klíče závisí na programu ze kterého PGP k
 Enigmail umí nastavit prázdnou hodnotu hesla v okně Key Management.
 U GnuPG lze to samé nastavit [z příkazové řádky](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Pro ostatní programy by mělo jít nalézt řešení na Interentu.
-
 
 ## Více klientů najednou {#multiclient}
 

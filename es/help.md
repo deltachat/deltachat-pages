@@ -180,7 +180,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 30 seconds and 5 weeks.
+between 1 minute and 5 weeks.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -646,11 +646,12 @@ Si no tienes una clave o ni siquiera sabes para qué necesitarías una, no te pr
 
 ### No puedo importar mi clave PGP existente en Delta Chat.
 
-The most likely cause is that your key is encrypted and/or uses
-a password. Such keys are not supported by Delta Chat.  You could remove the
-passphrase encryption and the password and try the import again.  If you want
-to keep your passphrase you'll have to create an e-mail alias for use
-with Delta Chat such that Delta Chat's key is tied to this e-mail alias.
+The most likely cause is that your key is encrypted and/or uses a password.
+Such keys are not supported by Delta Chat.
+You could remove the passphrase encryption and the password and try the import again.
+
+Another common error is having the wrong file ending.
+Use the ASCII armored format and an `.asc` file ending.
 
 Delta Chat supports common OpenPGP private key formats, however, it
 is unlikely that private keys from all sources will be fully supported. This
@@ -664,7 +665,6 @@ password to an empty value in the Key Management window. With GnuPG you can set
 it [via the command
 line](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 For other programs, you should be able to find a solution online.
-
 
 ## Múltiples dispositivos {#multiclient}
 
