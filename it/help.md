@@ -691,8 +691,8 @@ Con molta probabilità, il problema sta nel fatto che la tua chiave è cifata e/
 una password. Queste chiavi non sono supportate da Delta Chat. Rimuovi la
 cifratura e la password e prova ad importarla nuovamente.
 
-Another common error is having the wrong file ending.
-Use the ASCII armored format and an `.asc` file ending.
+Un altro errore comune è avere la fine del file sbagliata.
+Utilizza il formato corazzato ASCII e l'estensione del file ".asc".
 
 Delta Chat supporta i formati di chiave privata OpenPGP comuni, tuttavia,
 è improbabile che le chiavi private di tutte le fonti siano completamente supportate. Questo
