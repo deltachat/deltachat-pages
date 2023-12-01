@@ -619,7 +619,7 @@ Look for something like **Start Autocrypt Setup Transfer** in the settings of th
 Mit sehr großer Wahrscheinlichkeit besteht das Problem darin, dass Ihr Schlüssel verschlüsselt ist und/oder ein Passwort verwendet. Solche Schlüssel werden von Delta Chat nicht unterstützt. Bitte entfernen Sie die Verschlüsselung und das Passwort und versuchen Sie den Import danach erneut.
 
 Ein weiterer häufiger Fehler ist die falsche Dateiendung.
-Verwenden Sie das ASCII-Armored-Format die Dateiendung `.asc`.
+Verwenden Sie das ASCII-Armored-Format und die Dateiendung `.asc`.
 
 - Delta Chat unterstützt "gängige" private Schlüsselformate, allerdings ist es unwahrscheinlich, dass wir 100% aller privaten Schlüssel aus sämtlichen Quellen unterstützen.
 Dies ist auch nicht das Hauptaugenmerk von Delta Chat. Tatsächlich besitzt die große Mehrheit der Delta-Chat-NutzerInnen keinen Schlüssel, bevor sie Delta Chat verwendet.

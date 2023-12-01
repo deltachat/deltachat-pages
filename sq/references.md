@@ -10,17 +10,17 @@ Kjo listë është larg së qeni e plotë - harruam diçka? Ju lutemi
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### c't, a german technology magazine, tested Delta Chat 1½ years
+### c't, një revistë gjermane kushtuar teknologjisë, testoi Delta Chat-in 1 vit e gjysmë
 
-Translated summary:
-_"Delta Chat is definitely worth a longer look.
-The app harmoniously combines chat as a form of communication
-with the tried-and-tested medium of email
-and even offers some features that you won't find in other messengers,
-such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
-It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
+Përmbledhje e përkthyer:
+_“Delta Chat përfundimisht ia vlen të shihet më gjatë.
+Aplikacioni ndërthur harmonishëm fjalosjen, si një formë komunikimi
+me mjetin email, të provuar dhe të vërtetuar
+dhe madje ofron disa veçori që s’do t’i gjeni në aplikacione të tjerë shkëmbimi mesazhesh,
+bie fjala, aplikacione të vogla “webxdc” që mund t’i trupëzoni drejt e në fjalosje dhe t’i përdorni me partnerë bisede.
+Mëkat që Delta Chat-i s’ekzistonte para WhatsApp-it me shokë.”_
 
-11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
+nëntor 2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
 
 
 ### Ubuntubuzz: Veçori Që Mund T’ju Duken të Shkëlqyera…
