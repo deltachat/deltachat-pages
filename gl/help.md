@@ -146,7 +146,7 @@ This is what Delta Chat does with these permissions:
   - ver conexións WiFi: para conectar co provedor de email
   - petición para ignorar optimizacións da batería: para usuarias que queren recibir mensaxes de xeito contínuo
 
-### What means Pinning, Muting, Archiving?
+### What do Pinning, Muting and Archiving mean?
 
 Use these tools to organize your chats and keep everything in its place:
 

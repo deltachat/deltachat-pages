@@ -134,7 +134,7 @@ Dependendo do sistema operacional usado, é possível que você precise autoriza
   - ver as conexões Wi-Fi: para se conectar ao seu provedor de email
   - perguntar sobre ignorar as otimizações de bateria: para usuários que querem receber mensagens a todo momento
 
-### What means Pinning, Muting, Archiving?
+### What do Pinning, Muting and Archiving mean?
 
 Use these tools to organize your chats and keep everything in its place:
 

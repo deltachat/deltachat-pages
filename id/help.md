@@ -147,7 +147,7 @@ Inilah yang dilakukan Delta Chat dengan izin ini:
  - lihat koneksi Wi-Fi: untuk terhubung ke penyedia E-Mail Anda
  - minta untuk mengabaikan optimisasi baterai: untuk pengguna yang ingin menerima pesan setiap saat
 
-### What means Pinning, Muting, Archiving?
+### What do Pinning, Muting and Archiving mean?
 
 Use these tools to organize your chats and keep everything in its place:
 

@@ -149,7 +149,7 @@ Outgoing messages always use plain text.
   - просмотр подключений Wi-Fi: для подключения к провайдеру электронной почты
   - игнорирование оптимизации батареи: для пользователей, которые хотят получать сообщения в любое время
 
-### What means Pinning, Muting, Archiving?
+### What do Pinning, Muting and Archiving mean?
 
 Используйте эти инструменты чтобы организовать ваши чаты:
 

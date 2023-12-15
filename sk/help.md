@@ -146,7 +146,7 @@ Delta Chat robí toto s týmito povoleniami:
   - zobraziť pripojenia Wi-Fi: na pripojenie k poskytovateľovi e-mailu
   - požiadať o ignorovanie optimalizácie batérie: pre používateľov, ktorí chcú neustále dostávať správy
 
-### What means Pinning, Muting, Archiving?
+### What do Pinning, Muting and Archiving mean?
 
 Use these tools to organize your chats and keep everything in its place:
 
