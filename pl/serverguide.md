@@ -43,16 +43,16 @@ Załóżmy, że:
 
 Teraz możesz skonfigurować ustawienia domeny dla przyklad.org w następujący sposób:
 
-| Type  | Name                      | Data                                                 | TTL  | Priority |
+| Typ   | Nazwa                     | Data                                                 | TTL  | Priorytet|
 |-------|---------------------------|------------------------------------------------------|------|----------|
-| A     | mail.example.org          | 24.48.100.24                                         | 5min |          |
-| AAAA  | mail.example.org          | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
-| MX    | @                         | mail.example.org                                     | 5min |    10    |
-| CNAME | autoconfig.example.org    | mail.example.org                                     | 5min |          |
-| CNAME | autodiscover.example.org  | mail.example.org                                     | 5min |          |
-| CNAME | mailadm.example.org       | mail.example.org                                     | 5min |          |
+| A     | mail.przyklad.org         | 24.48.100.24                                         | 5min |          |
+| AAAA  | mail.przyklad.org         | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
+| MX    | @                         | mail.przyklad.org                                    | 5min |    10    |
+| CNAME | autoconfig.przyklad.org   | mail.przyklad.org                                    | 5min |          |
+| CNAME | autodiscover.przyklad.org | mail.przyklad.org                                    | 5min |          |
+| CNAME | mailadm.przyklad.org      | mail.przyklad.org                                    | 5min |          |
 | TXT   | @                         | "v=spf1 mx -all"                                     | 5min |          |
-| TXT   | \_dmarc.example.org       | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
+| TXT   | \_dmarc.przyklad.org      | v=DMARC1;p=quarantine;rua=mailto:mailadm@przyklad.org| 5min |          |
 
 Możesz ustawić klucz DKIM po skonfigurowaniu mailcow,
 w System>Konfiguracja>Opcje>Klucze ARC/DKIM.
@@ -142,11 +142,9 @@ Następnie dodaj domenę w interfejsie internetowym w „E-mail > Konfiguracja >
 
 Następnie możesz przejść do „E-mail > Konfiguracja > Skrzynki” i utworzyć pierwsze konto. Możesz je teraz wypróbować za pomocą Delta Chat.
 
-#### Recommended: Add Additional DNS Entries
+#### Zalecane: dodaj dodatkowe wpisy DNS
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further recommendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+W „E-mail » Konfiguracja » Domeny” po prawej stronie obok twojej domeny możesz zobaczyć niebieski przycisk „DNS”. Zawiera dalsze zalecenia dotyczące wpisów DNS, które mogą być pomocne w przypadku problemów z dostarczaniem wiadomości e-mail na inne serwery.
 
 ![Wyświetlanie ustawień DNS w Mailcow](../assets/blog/mailcow-dns-settings.png)
 
@@ -236,7 +234,7 @@ Spowoduje to uruchomienie kontenera `mailadm` docker. Możesz go zrestartować z
 
 To wszystko! Możesz teraz zacząć tworzyć tokeny i użytkowników za pomocą mailadm. Najlepiej zajrzyj do dokumentacji, aby wykonać [pierwsze kroki](https://mailadm.readthedocs.io/en/latest/#first-steps) — zawiera ona również wskazówki dotyczące rozwiązywania problemów z konfiguracją, jeśli coś nie działa.
 
-## Recommended: Disable POP3
+## Zalecane: wyłącz POP3
 
 Delta Chat używa tylko SMTP i IMAP, więc jeśli wszyscy twoi użytkownicy korzystają z Delta Chat, możesz wyłączyć POP3.
 
@@ -249,7 +247,7 @@ POPS_PORT=127.0.0.1:995
 
 Następnie zastosuj zmiany za pomocą `sudo docker compose up -d`.
 
-## Recommended: Redirect all HTTP traffic to HTTPS
+## Zalecane: Przekieruj cały ruch HTTP na HTTPS
 
 Domyślnie serwer nginx odpowiada również w trybie niezaszyfrowanym na porcie 80. Może to być złe, ponieważ niektórzy użytkownicy mogą wprowadzać hasła przez to niezaszyfrowane połączenie.
 
@@ -274,7 +272,7 @@ server {
 
 Następnie zastosuj zmiany za pomocą `sudo docker compose restart nginx-mailcow`.
 
-## Recommended: No Logs, No Masters
+## Zalecane: bez dzienników, bez wzorców
 
 Mailcow rejestruje adresy IP użytkowników w celu debugowania, więc jeśli nie chcesz przechowywać tych krytycznych informacji na swoim serwerze, możesz wyłączyć rejestrowanie. Zauważ, że znacznie utrudni to debugowanie problemów. Nikt poza tobą nie jest w stanie zgadnąć, czy jest to konieczne w twoim środowisku.
 
@@ -310,17 +308,9 @@ Na koniec zrestartuj rsyslog za pomocą `sudo service rsyslog restart` i mailcow
 
 Rozważ przejrzenie [dokumentacji rejestrowania Mailcow](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation) w celu znalezienia alternatyw dla tej konfiguracji.
 
-## Recommended: Add Reverse DNS Entries at Your Provider
+## Zalecane: dodaj odwrotne wpisy DNS u swojego dostawcy
 
-You might also create reverse DNS entries
-for the IPv4 and IPv6 addresses of your server,
-containing your domain.
-Reverse DNS entries improve deliverability;
-it helps other mail server
-distinguish your user's mails from spam.
+Możesz także utworzyć odwrotne wpisy DNS dla adresów IPv4 i IPv6 swojego serwera, zawierających twoją domenę. Odwrotne wpisy DNS poprawiają dostarczanie poczty; pomagają innemu serwerowi pocztowemu odróżnić wiadomości e-mail użytkownika od spamu.
 
-Setting rDNS entries should be possible
-in the hosting provider web interface.
-You can read more about it
-[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+Ustawienie wpisów rDNS powinno być możliwe w interfejsie internetowym dostawcy usług hostingowych. Więcej na ten temat przeczytasz [w tym artykule](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
 

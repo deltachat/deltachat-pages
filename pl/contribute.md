@@ -31,24 +31,16 @@ Stale poszukujemy programistów i projektantów. Zazwyczaj oferujemy kontrakty n
 Aby uzyskać więcej informacji, zalecamy przeczytanie i śledzenie naszego [bloga](https://delta.chat/en/blog).
 
 
-# Third party communication channels 
+# Kanały komunikacji stron trzecich
 
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
+Następujące kanały komunikacji związane z Delta Chat są prowadzone przez strony trzecie, które mogą, ale nie muszą, przestrzegać naszych [Standardów społeczności](community-standards):
 
-- With your Delta Chat app you can send a `/list` message to 
-  [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-  to discover and join various chat groups.
+- Za pomocą aplikacji Delta Chat możesz wysłać wiadomość `/list` do [bota grup (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net), aby odkryć różne czaty grupowe i dołączyć do nich.
 
-- An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  bridged to the groupbot English Delta Chat community chat group.
+- [Angielska grupa Delta Chat Matrix](https://app.element.io/#/room/#Delta.Chat:matrix.org) połączona botem grupy z czatem grupowym angielskiej społeczności Delta Chat.
 
-- A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
+- [Społeczność Lemmy](https://lemmy.zip/c/delta_chat), którą możesz śledzić, wpisując `!delta_chat@lemmy.zip` w polu wyszukiwania swojej aplikacji fediverse.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- [Subreddit DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above)
-or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+Jeśli znasz dodatkowe kanały lub je skonfigurowałeś, daj nam znać (zobacz kanały i repozytoria powyżej) lub [edytuj tę stronę w GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).

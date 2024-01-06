@@ -31,24 +31,16 @@ lang: uk
 Для отримання додаткової інформації рекомендуємо прочитати та підписатися на наш [блог](https://delta.chat/en/blog).
 
 
-# Third party communication channels 
+# Сторонні канали зв'язку
 
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
+Наступні канали зв'язку, пов'язані із Delta Chat, управляються третіми сторонами, які можуть чи не можуть дотримуватися наших [Стандартів спільноти](community-standards):
 
-- With your Delta Chat app you can send a `/list` message to 
-  [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-  to discover and join various chat groups.
+- За допомогою вашого додатку Delta Chat ви можете відправити повідомлення `/list` до [бота груп (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) щоб відкрити та приєднатися до різних чат-груп.
 
-- An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  bridged to the groupbot English Delta Chat community chat group.
+- [Група Delta Chat Matrix на англійській мові](https://app.element.io/#/room/#Delta.Chat:matrix.org) , приєднана до групи чату Delta Chat у спільноті groupbot.
 
-- A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
+- [Спільнота Lemmy](https://lemmy.zip/c/delta_chat) яку ви можете зафоловити помістивши `!delta_chat@lemmy.zip` у поле пошуку вашого fediverse-застосунку.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- [Сабредіт DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above)
-or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+Якщо у вас є додаткові канали, про які ви знаєте або які ви налаштували, будь ласка, повідомте нас (див. канали та репозиторії вище) або [відредагуйте цю сторінку на GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
