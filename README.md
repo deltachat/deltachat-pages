@@ -178,5 +178,3 @@ License
 --------------------------------------------------------------------------------
 
 Licensed GPLv3+, see the LICENSE file for details.
-
-Copyright © 2021 Delta Chat contributors
