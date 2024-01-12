@@ -4,13 +4,14 @@
 {% assign VERSION_ANDROID = "1.42.6" %}
 
 <div class="download-content">
+    <h1>{%if tx.download.install != ""%}{{ tx.download.install }}{%else%}{{ txEn.download.install }}{%endif%}:</h1>
     <div id="recommendation-section" hidden>
-        <h1>{%if tx.download.recommendation != ""%}{{ tx.download.recommendation }}{%else%}{{ txEn.download.recommendation }}{%endif%}</h1>
+        <p><b>{%if tx.download.recommendation != ""%}{{ tx.download.recommendation }}{%else%}{{ txEn.download.recommendation }}{%endif%}:</b></p>
         <div id="recommend"></div>
-        <h1>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</h1>
     </div>
-    <h1 id="noscript-headline">{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h1>
-    <div id="boxes">
+    <h2 id="noscript-headline">{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h2>
+    <details id="boxes">
+        <summary><b>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</b></summary>
         <div class="box" id="android">
             <div class="title">Android</div>
             <div class="buttons">
@@ -142,6 +143,13 @@
                 See <a href="https://delta.chat/en/2023-07-02-deltatouch">blog</a> for details about this community driven effort
             </div>
         </div>
-    </div>
+    </details>
+    <h2>{%if tx.download.get_account != ""%}{{ tx.download.get_account }}{%else%}{{ txEn.download.get_account }}{%endif%}:</h2>
+    <p>{%if tx.download.get_account_explanation != ""%}{{ tx.download.get_account_explanation }}{%else%}{{ txEn.download.get_account_explanation }}{%endif%}:</p>
+    <p>
+        <a href="dcaccount:https://nine.testrun.org/cgi-bin/newemail.py">
+            <img width="300" style="float:none;" src="../assets/blog/nine-invite-qrcode.png">
+        </a>
+    </p>
 </div>
 <script src="../assets/js/download-page2.js"></script>
