@@ -151,5 +151,7 @@
             <img width="300" style="float:none;" src="../assets/blog/nine-invite-qrcode.png">
         </a>
     </p>
+    <h2>{%if tx.download.add_friends != ""%}{{ tx.download.add_friends }}{%else%}{{ txEn.download.add_friends }}{%endif%}:</h2>
+    <p>{%if tx.download.add_friends_explanation != ""%}{{ tx.download.add_friends_explanation }}{%else%}{{ txEn.download.add_friends_explanation }}{%endif%}</p>
 </div>
 <script src="../assets/js/download-page2.js"></script>
