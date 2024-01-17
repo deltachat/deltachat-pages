@@ -22,8 +22,12 @@ gl:
   language: Idioma
 
   download:
-    recommendation: Recomendado para ti
-    other: Outras plataformas
+    install: ""
+    get_account: ""
+    get_account_explanation: ""
+    add_friends: ""
+    add_friends_explanation: ""
+    other: ""
     source_code: Código Fonte
     install_via_packagemanager: Instalar vía Xestor de Paquetes
     outdated: antigo

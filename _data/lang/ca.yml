@@ -22,8 +22,12 @@ ca:
   language: Idioma
 
   download:
-    recommendation: Recomanat per a tu
-    other: Altres plataformes
+    install: ""
+    get_account: ""
+    get_account_explanation: ""
+    add_friends: ""
+    add_friends_explanation: ""
+    other: ""
     source_code: Codi font
     install_via_packagemanager: Instal·la'l via Gestor de Paquets
     outdated: desactualitzat

@@ -22,8 +22,12 @@ fr:
   language: Langue
 
   download:
-    recommendation: Recommandé pour vous
-    other: Autres plateformes
+    install: ""
+    get_account: ""
+    get_account_explanation: ""
+    add_friends: ""
+    add_friends_explanation: ""
+    other: ""
     source_code: Code source
     install_via_packagemanager: Installation via le gestionnaire de paquets
     outdated: dépassé

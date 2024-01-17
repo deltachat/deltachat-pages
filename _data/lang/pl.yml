@@ -22,8 +22,12 @@ pl:
   language: Język
 
   download:
-    recommendation: Polecany dla Ciebie
-    other: Inne platformy
+    install: ""
+    get_account: ""
+    get_account_explanation: ""
+    add_friends: ""
+    add_friends_explanation: ""
+    other: ""
     source_code: Kod źródłowy
     install_via_packagemanager: Zainstaluj za pomocą Menedżera pakietów
     outdated: przestarzały

@@ -22,8 +22,12 @@ sq:
   language: Gjuhë
 
   download:
-    recommendation: Këshilluar për ju
-    other: Platforma të tjera
+    install: ""
+    get_account: ""
+    get_account_explanation: ""
+    add_friends: ""
+    add_friends_explanation: ""
+    other: ""
     source_code: Kod Burim
     install_via_packagemanager: Instalojeni përmes Përgjegjësi Paketash
     outdated: e vjetruar

@@ -22,8 +22,12 @@ uk:
   language: Мова
 
   download:
-    recommendation: Рекомендовано для вас
-    other: Інші платформи
+    install: ""
+    get_account: ""
+    get_account_explanation: ""
+    add_friends: ""
+    add_friends_explanation: ""
+    other: ""
     source_code: Вихідний код
     install_via_packagemanager: Інсталювати через пакетний менеджер
     outdated: застаріло
