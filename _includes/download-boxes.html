@@ -8,8 +8,8 @@
     <div id="recommendation-section" hidden>
         <div id="recommend"></div>
     </div>
-    <details id="boxes">
-        <summary><b>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</b></summary>
+    <details id="boxes" open>
+        <summary id="boxes-summary" hidden><b>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</b></summary>
         <div class="box" id="android">
             <div class="title">Android</div>
             <div class="buttons">
