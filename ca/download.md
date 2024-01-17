@@ -4,6 +4,8 @@ lang: ca
 downloads: true
 ---
 
+![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
+
 ## Registre de canvis {#changelogs}
 
 * [Escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)

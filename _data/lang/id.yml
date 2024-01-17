@@ -22,8 +22,12 @@ id:
   language: Bahasa
 
   download:
-    recommendation: Direkomendasikan untukmu
-    other: Platform lainnya
+    install: ""
+    get_account: ""
+    get_account_explanation: ""
+    add_friends: ""
+    add_friends_explanation: ""
+    other: ""
     source_code: Source Code
     install_via_packagemanager: Instal melalui Package Manager
     outdated: ketinggalan jaman

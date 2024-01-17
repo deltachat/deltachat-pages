@@ -22,8 +22,12 @@ de:
   language: Sprache
 
   download:
-    recommendation: Für Sie empfohlen
-    other: Andere Plattformen
+    install: Delta Chat installieren
+    get_account: Ein Konto einrichten
+    get_account_explanation: "Sie können (fast) jedes E-Mail-Konto für Delta Chat verwenden. Wenn Sie ein neues Konto benötigen, tippen oder scannen Sie den folgenden QR-Code um eine zufällige E-Mail-Adresse auf <a href=\"https://nine.testrun.org\" target=\"_blank\">@nine.testrun.org</a> zu erhalten"
+    add_friends: Einen Namen eingeben und Freunde treffen
+    add_friends_explanation: "Jetzt können Sie einen Benutzernamen eingeben, ein Profilbild auswählen und mit Ihren Freunden chatten. Am Besten triffst du sie und scannst ihren <a href=\"help#howtoe2ee\">QR-Code</a>."
+    other: Download-Optionen für andere Plattformen
     source_code: Quellcode
     install_via_packagemanager: Über Paketmanager installieren
     outdated: veraltet
