@@ -96,6 +96,38 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
   device.
 
 
+### Can I set the E-Mail Subject with Delta Chat?
+
+For most messages, Delta Chat sets the subject to
+"New Message from Alice" automatically,
+or "..." if it is encrypted.
+The exception are group chats,
+where the subject is the Chat Title.
+
+So if you want to set the subject yourself,
+for example for a formal e-mail to a business contact,
+you can create a group
+with only yourself and the recipient(s),
+set the Chat Title to the Subject you want,
+and then send your e-mail as the first message.
+If the recipients don't use Delta Chat,
+it will look like a normal,
+formal e-mail to them.
+You will get bonus professionalism points
+if you set a [signature](#signature).
+
+
+### Can I set an E-Mail Signature with Delta Chat? {#signature}
+
+Yes,
+you can do so under "Settings > Edit Profile > Signature Text".
+Your contacts who use Delta Chat will see it
+when they view your contact details.
+To everyone else,
+It will appear as an e-mail signature
+below the text of all your messages.
+
+
 ### Does Delta Chat support HTML e-mails?
 
 Yes, incoming HTML messages come with a "Show full message" button. 
