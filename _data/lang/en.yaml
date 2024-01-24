@@ -23,10 +23,6 @@ en:
 
   download:
     install: Install Delta Chat
-    get_account: Get an Account
-    get_account_explanation: You can use (almost) any email account with Delta Chat. If you need a new one, tap or scan this QR code to get a random <a href="https://nine.testrun.org" target="_blank">@nine.testrun.org</a> email address
-    add_friends: Enter a Username and Meet Your Friends
-    add_friends_explanation: Now you can enter a username, select a profile picture, and chat with your friends. <b>NOTE:</b> with a <a href="https://nine.testrun.org/info.html">@nine.testrun.org</a> account you can't send unencrypted messages to users on other servers; meet them and verify them by <a href="help#howtoe2ee">scanning QR codes</a> or ask them to send a message to you first.
     other: Download options for other platforms
     source_code: Source Code
     install_via_packagemanager: Install via Package Manager

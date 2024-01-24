@@ -4,6 +4,26 @@ lang: en
 downloads: true
 ---
 
+## ❷ Get an Account
+
+You can use (almost) any email account with Delta Chat.
+If you need a new one,
+tap or scan this QR code
+to get a random [@nine.testrun.org](https://nine.testrun.org) email address:
+
+[![dcaccount:https://nine.testrun.org/cgi-bin/newemail.py](../assets/blog/nine-invite-qrcode.png)](dcaccount:https://nine.testrun.org/cgi-bin/newemail.py)
+
+## ❸ Enter a Username and Meet Your Friends
+
+Now you can enter a username,
+select a profile picture,
+and chat with your friends.
+**NOTE:** with a [@nine.testrun.org](https://nine.testrun.org/info.html) account
+you can't send unencrypted messages
+to users on other servers;
+meet them and verify them by [scanning QR codes](help#howtoe2ee)
+or ask them to send a message to you first.
+
 ![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
 
 ## Changelogs {#changelogs}
