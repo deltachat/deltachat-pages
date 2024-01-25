@@ -6,7 +6,7 @@ downloads: true
 
 ## ❷ Get an Account
 
-You can use (almost) any email account with Delta Chat.
+You can use [(almost)](https://providers.delta.chat/) any email account with Delta Chat.
 If you need a new one,
 tap or scan this QR code
 to get a random [@nine.testrun.org](https://nine.testrun.org) email address:
