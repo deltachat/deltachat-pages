@@ -104,7 +104,7 @@ Outgoing messages always use plain text.
 ### E-posta parolamı neden Delta Chat'e girmem gerekiyor? Bu güvenli mi?
 
 As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send mails. Of course, the
+program needs the password so you can use it to send and receive mails. Of course, the
 password is stored only on your device. The password is only transmitted to
 your E-Mail provider (when you login), which has access to your mails anyway. 
 
