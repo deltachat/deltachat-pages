@@ -35,19 +35,15 @@ Delta Chat — це чат-месенджер, який працює на баз
 
 Якщо у вас ще немає домену, ви можете скористатися такою послугою, як [njal.la](https://njal.la), щоб придбати домен .net або .org за 15 євро на рік. Оплата можлива за допомогою PayPal, Bitcoin або Monero.
 
-Let's assume:
-- you bought example.org. For now you only want a mail server, but you think
-  about hosting a website at https://example.org later.
-- your server has the IPv4 address 24.48.100.24 - you can find out with the
-  command `ip a` and look for a similar-looking number (which doesn't start
-  with 127 or 172).
-- your server has the IPv6 address 7fe5:2f4:1ba:2381::3 (you can find it in `ip
-  a`, 2 lines below the IPv4 address. Ignore the `/64` at the end. Don't use
-  the one starting with `fe80`, it doesn't count).
+Припустимо:
+- ви купили example.org. Наразі вам потрібен лише поштовий сервер, але ви думаєте про те, аби згодом розмістити на https://example.org веб-сайт.
+- Ваш сервер має IPv4-адресу 24.48.100.24 - це можна дізнатися за допомогою команди `ip a` і пошукайте схожий номер (який не починається
+  з 127 або 172).
+- ваш сервер має IPv6-адресу 7fe5:2f4:1ba:2381::3 (її можна знайти в `ip a`, на 2 рядки нижче IPv4-адреси. Ігноруйте `/64` в кінці. Не використовуйте те що починається з `fe80`, він не враховується).
 
-Now you could configure the domain settings for example.org like this:
+Тепер ви можете налаштувати параметри домену example.org таким чином:
 
-| Type  | Name                      | Data                                                 | TTL  | Priority |
+| Тип  | Ім'я                      | Дані                                         | TTL  | Пріоритет|
 |-------|---------------------------|------------------------------------------------------|------|----------|
 | A     | mail.example.org          | 24.48.100.24                                         | 5min |          |
 | AAAA  | mail.example.org          | 7fe5:2f4:1ba:2381::3                                 | 5min |          |
@@ -58,19 +54,15 @@ Now you could configure the domain settings for example.org like this:
 | TXT   | @                         | "v=spf1 mx -all"                                     | 5min |          |
 | TXT   | \_dmarc.example.org       | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
 
-You can setup the DKIM key after setting up mailcow,
-in System>Configuration>Options>ARC/DKIM keys.
+Ви можете налаштувати ключ DKIM після налаштування mailcow, у розділі Система>Конфігурація>Налаштування>Ключі ARC/DKIM.
 
-You can do more than 5 minutes, but in case you notice something is wrong a
-short time helps with fixing the wrong entry.
+Ви можете робити більше, ніж 5 хвилин, але у разі, якщо ви помічаєте, що щось не так, короткий час допомагає виправити неправильний запис.
 
-## Setup Mailcow
+## Налаштування Mailcow
 
-### Set Mailcow Options
+### Налаштування параметрів Mailcow
 
-First clone the mailcow git repository - if your server doesn't have access to
-github.com, you can do this step somewhere else and use `scp` to copy it to
-your server.
+Спочатку клонуйте репозиторій mailcow git - якщо ваш сервер не має доступу до github.com, ви можете виконати цей крок десь інде і використовувати `scp`, щоб скопіювати його на ваш сервер.
 
 ```
 sudo apt install -y git
@@ -78,9 +70,7 @@ git clone https://github.com/mailcow/mailcow-dockerized
 cd mailcow-dockerized
 ```
 
-Now you should run `./generate_config.sh` to generate the mailcow.conf file.
-If your server doesn't have access to github.com, you first need to remove any
-git command from the script. Enter the options like this:
+Тепер вам потрібно запустити `./generate_config.sh`, щоб створити файл mailcow.conf. Якщо ваш сервер не має доступу до github.com, спочатку вам потрібно видалити будь-яку команду git зі скрипту. Введіть параметри таким чином:
 
 ```
 Mail server hostname (FQDN) - this is not your mail domain, but your mail servers hostname: mail.example.org
@@ -94,7 +84,7 @@ Available Branches:
 Choose the Branch with it´s number [1/2] 1
 ```
 
-You should specify the following variables in mailcow.conf:
+У файлі mailcow.conf потрібно вказати наступні змінні:
 
 ```
 ADDITIONAL_SAN=mailadm.example.org
@@ -103,17 +93,13 @@ SKIP_SOLR=y
 SKIP_SOGO=y
 ```
 
-The last 3 options remove services which are not needed for a minimal setup.
+Останні 3 варіанти видаляють сервіси, які не потрібні для мінімальної настройки.
 
-After that we need to run `echo '#' > data/conf/dovecot/global_sieve_before`.
+Після цього нам потрібно виконати `echo '#' > data/conf/dovecot/global_sieve_before`.
 
-### Mailadm NGINX config
+### Конфігурація NGINX Mailadm
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to work.
-So we need to create two files for Mailcows Nginx redirection.
-First we do `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`
-and then we create the file `data/conf/nginx/site.mailadm.custom`
-and add the following block to it:
+`mailadm.example.org/new_email` потрібно зробити доступним для HTTP-запитів, щоб вони працювали. Тому нам потрібно створити два файли для перенаправлення Nginx Mailcows. Спочатку ми робимо `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`, а потім ми створюємо файл `data/conf/nginx/site.mailadm.custom` і додаємо до нього наступний блок:
 
 ```
   location /new_email {
@@ -121,65 +107,53 @@ and add the following block to it:
   }
 ```
 
-Make sure to replace this example IP address with your server's IP address.
+Переконайтеся, що ви замінили цю IP-адресу на IP-адресу вашого сервера.
 
-This will forward all requests to `mailadm.example.org/new_email` to the mailadm
-container later.
+Це перенаправить всі запити на `mailadm.example.org/new_email` до контейнера mailadm пізніше.
 
-### Download mailcow containers
+### Завантаження контейнерів mailcow
 
-Now run `sudo docker compose pull` to download the mailcow containers. If you don't
-have access to docker.com at this step, you can [use an HTTP
-proxy](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
+Тепер виконайте `sudo docker compose pull`, щоб завантажити контейнери mailcow. Якщо у вас немає доступу до docker.com на цьому кроці, ви можете [використовувати HTTP-проксі](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
 
-### Start Mailcow
+### Запуск Mailcow
 
-Now start mailcow with `sudo docker compose up -d`.
+Тепер запустіть mailcow за допомогою `sudo docker compose up -d`.
 
-### Disabling IPv6 for mailcow
+### Вимкнення IPv6 для mailcow
 
-If your server doesn't have an IPv6 address, you should [disable
-IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
+Якщо ваш сервер не має IPv6-адреси, ви повинні [вимкнути IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/).
 
-### Adding Domain in Mailcow
+### Додавання домену в Mailcow
 
-Now you can login to the mailcow web interface at https://mail.example.org. The
-default username is `admin` and the password is `moohoo`. You should change
-this password to something more secure.
+Тепер ви можете увійти до веб-інтерфейсу mailcow за адресою https://mail.example.org. Ім'я користувача за замовчуванням -- `admin`, а пароль -- `moohoo`. Ви повинні змінити цей пароль на щось більш безпечне.
 
-![The Mailcow web interface.](../assets/blog/mailcow-UI-login.png)
+![Веб-інтерфейс Mailcow.](../assets/blog/mailcow-UI-login.png)
 
-Next, add a domain in the web interface under "E-Mail > Configuration > Domains".
-Somethings like this makes sense:
+Далі, додайте домен у веб-інтерфейсі в розділі "E-Mail > Configuration > Domains". Щось на зразок цього має сенс:
 
-- domain: example.org
-- max. mailboxes: 999999
-- default mailbox quota: 3076 (it doesn't matter, mailadm will override this)
-- max. mailbox quota: 17240 (basically a bit less than your free disk space)
-- domain quota: 17240 (basically a bit less than your free disk space)
+- домен: example.org
+- макс. поштові скриньки: 999999
+- квота за замовчуванням для скриньки: 3076 (це не має значення, mailadm перезапише це)
+- макс. квота для скриньки: 17240 (практично трохи менше, ніж ваш вільний диск)
+- квота домену: 17240 (практично трохи менше, ніж ваш вільний диск)
 
-![Creating a domain in mailcow](../assets/blog/mailcow-create-domain.png)
+![Створення домену в mailcow](../assets/blog/mailcow-create-domain.png)
 
-After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
-You can try it out with Delta Chat now.
+Після цього ви можете перейти до "E-Mail > Configuration > Mailboxes" та створити перший обліковий запис. Ви можете спробувати це зараз з Delta Chat.
 
-#### Recommended: Add Additional DNS Entries
+#### Рекомендовано: Додати додаткові DNS-записи
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further recommendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+У "E-Mail > Configuration > Domains", справа поруч з вашим доменом, ви можете побачити синю кнопку "DNS". Вона надає додаткові рекомендації для DNS-записів, які можуть допомогти, якщо у вас виникають проблеми з доставкою електронних листів на інші сервери.
 
-![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
+![Показ DNS-налаштувань у Mailcow](../assets/blog/mailcow-dns-settings.png)
 
-## Setting up mailadm
+## Налаштування mailadm
 
-Now we can set up mailadm - with this tool you can generate QR codes, which
-people can scan from Delta Chat to create an e-mail account on your server. It
-is probably the easiest way for users to get started with Delta Chat.
+Тепер ми можемо налаштувати mailadm - за допомогою цього інструменту ви можете генерувати QR-коди, які люди можуть сканувати з Delta Chat, щоб створити обліковий запис електронної пошти на вашому сервері. Це, ймовірно, найпростіший спосіб для користувачів почати використовувати Delta Chat.
 
-### Downloading mailadm
+### Завантаження mailadm
 
-You can use these commands to download mailadm:
+Ви можете використовувати ці команди для завантаження mailadm:
 
 ```
 cd ~
@@ -188,16 +162,13 @@ cd mailadm
 mkdir docker-data
 ```
 
-### Building mailadm
+### Збірка mailadm
 
-Now you can build the mailadm docker container with
-`sudo docker build . -t mailadm-mailcow`.
+Тепер ви можете побудувати контейнер mailadm docker за допомогою `sudo docker build . -t mailadm-mailcow`.
 
-#### If docker.com or pypi.org is Blocked
+### Якщо docker.com або pypi.org заблоковано
 
-If your server can't reach docker.com, dl-cdn.alpinelinux.org, or pypi.org,
-this will fail. But you can build the docker container on a different machine
-and copy it to the VPS:
+Якщо ваш сервер не може отримати доступ до docker.com, dl-cdn.alpinelinux.org або pypi.org, це не вдасться. Але ви можете збудувати контейнер Docker на іншій машині і скопіювати його на VPS:
 
 ```
 sudo docker build . -t mailadm-mailcow
@@ -207,23 +178,17 @@ ssh example.org
 sudo docker load --import mailadm-image.tar
 ```
 
-### Getting an API token from the web interface
+### Отримання токена API з веб-інтерфейсу
 
-Now you can go to https://mail.example.org/admin again, to get a mailcow API
-key.
+Тепер ви можете перейти за адресою https://mail.example.org/admin, щоб отримати ключ API mailcow.
 
-You have to activate the API (Make sure to use the "Read-Write Access API" and
-not the "Read-Only Access API"!) and enter your server's br-mailcow interface
-IP address under "Allow API access from these IPs/CIDR network notations". You
-can find out the IP address with `ip a show br-mailcow`.
+Вам потрібно активувати API (Переконайтеся, що використовуєте "API з читанням та записом", а не "API з тільки читанням"!) та ввести IP-адресу інтерфейсу br-mailcow вашого сервера під "Дозволити доступ до API з цих IP-адрес/мереж у форматі CIDR". Ви можете дізнатися IP-адресу за допомогою команди `ip a show br-mailcow`.
 
-Check the checkbox "Activate API and then click on "Save Changes" and copy the
-API key.
+Перевірте прапорець "Активувати API", а потім натисніть "Зберегти зміни" і скопіюйте ключ API.
 
-### Configuring mailadm
+### Налаштування mailadm
 
-Then, in the mailadm directory, create a `.env` file and configure mailadm like
-this:
+Тоді, в каталозі mailadm, створіть файл `.env` і налаштуйте mailadm таким чином:
 
 ```
 MAIL_DOMAIN=example.org
@@ -232,79 +197,60 @@ MAILCOW_ENDPOINT=https://mail.example.org/api/v1/
 MAILCOW_TOKEN=238473-081241-7A78B1-B7098C-E798BA
 ```
 
-At `MAILCOW_TOKEN`, enter the API key which you just got from the mailcow web
-interface.
+На `MAILCOW_TOKEN` введіть ключ API, який ви щойно отримали з веб-інтерфейсу mailcow.
 
-If you are unsure how to choose the values in .env, take a look at the
-[documentation](https://mailadm.readthedocs.io/en/latest/#configuration-details)
-of mailadm.
+Якщо ви не впевнені, як вибрати значення в .env, подивіться на [документацію](https://mailadm.readthedocs.io/en/latest/#configuration-details) mailadm.
 
-### Add mailadm alias
+### Додати псевдонім mailadm
 
-Now to make it easier to run mailadm commands, add this alias:
+Тепер, щоб полегшити виконання команд mailadm, додайте цей псевдонім:
 
 ```
 alias mailadm="$PWD/scripts/mailadm.sh"
 echo "alias mailadm=$PWD/scripts/mailadm.sh" >> ~/.bashrc
 ```
 
-### Start mailadm
+### Запуск mailadm
 
-Then you can initialize the database and setup the bot mailadm will use to
-receive commands and support requests from your users:
+Тепер ви можете ініціалізувати базу даних і налаштувати поштового бота, який mailadm буде використовувати для отримання команд та запитів на підтримку від ваших користувачів.
 
 ```
 mailadm init
 mailadm setup-bot
 ```
 
-Then you are asked to scan a QR code to join the Admin Group, a verified Delta
-Chat group. Anyone in the group can issue commands to mailadm via Delta Chat.
-You can send “/help” to the group to learn how to use it.
+Потім вас просять просканувати QR-код, щоб приєднатися до групи Admin, перевіреної групи Delta Chat. Будь-хто в групі може давати команди mailadm через Delta Chat. Ви можете надіслати "/help" в групу, щоб дізнатися, як це використовувати.
 
-Now, as everything is configured, we can start the mailadm container for good:
+Тепер, коли все налаштовано, ми можемо запустити контейнер mailadm назавжди:
 
 ```
 sudo docker run -d -p 3691:3691 --mount type=bind,source=$PWD/docker-data,target=/mailadm/docker-data --name mailadm mailadm-mailcow gunicorn -b :3691 -w 1 mailadm.app:app
 ```
 
-This starts a `mailadm` docker container. You can restart it with `sudo docker
-restart mailadm`, should you ever want to.
+Це призведе до запуску контейнера докера `mailadm`. Ви можете перезапустити його за допомогою команди `sudo docker restart mailadm`, якщо вам це потрібно.
 
-#### First steps with mailadm
+#### Перші кроки з mailadm
 
-That's it! You can now get started with creating tokens and users with mailadm.
-Best look at the documentation for the [first
-steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
-contains hints for troubleshooting the setup if something doesn't work.
+Ось і все! Тепер ви можете почати створювати токени та користувачів за допомогою mailadm. Найкраще перегляньте документацію для [перших кроків](https://mailadm.readthedocs.io/en/latest/#first-steps) - вона також містить підказки для усунення проблем з налаштуванням, якщо щось не працює.
 
-## Recommended: Disable POP3
+## Рекомендовано: Вимкніть POP3
 
-Delta Chat uses only SMTP and IMAP,
-so if all of your users use Delta Chat,
-you can disable POP3.
+Delta Chat використовує лише SMTP та IMAP, тому якщо всі ваші користувачі використовують Delta Chat, ви можете вимкнути POP3.
 
-To do this, add the following to `mailcow.conf`:
+Для цього додайте наступне до `mailcow.conf`:
 
 ```
 POP_PORT=127.0.0.1:110
 POPS_PORT=127.0.0.1:995
 ```
 
-Then apply the changes with `sudo docker compose up -d`.
+Тепер застосуйте зміни за допомогою `sudo docker compose up -d`.
 
-## Recommended: Redirect all HTTP traffic to HTTPS
+## Рекомендовано: перенаправити весь HTTP-трафік на HTTPS
 
-By default,
-the nginx server also responds unencrypted
-on port 80.
-This can be bad,
-as some users might enter passwords
-over this unencrypted connection.
+За замовчуванням, сервер nginx також відповідає незашифровано на порту 80. Це може бути погано, оскільки деякі користувачі можуть вводити паролі через це незашифроване з'єднання.
 
-To prevent this,
-create a new file `data/conf/nginx/redirect.conf`
-and add the following server config to the file:
+Щоб запобігти цьому, створіть новий файл `data/conf/nginx/redirect.conf` і додайте наступну конфігурацію сервера до файлу:
 
 ```
 server {
@@ -323,24 +269,17 @@ server {
 }
 ```
 
-Then apply the changes with `sudo docker compose restart nginx-mailcow`.
+Тепер застосуйте зміни за допомогою `sudo docker compose restart nginx-mailcow`.
 
-## Recommended: No Logs, No Masters
+## Рекомендовано: Немає журналів, немає хазяїв
 
-Mailcow logs the IP addresses of your users for debugging purposes, so if you
-don't want to keep this critical information on your server, you might want to
-disable logging. Note that this makes debugging of issues considerably harder.
-Nobody but you can guess whether this is necessary in your environment.
+Mailcow реєструє IP-адреси ваших користувачів для налагоджувальних цілей, тому якщо ви не хочете зберігати цю критичну інформацію на своєму сервері, ви можете вимкнути реєстрацію. Зверніть увагу, що це значно ускладнює виявлення проблем. Ніхто, крім вас, не може вгадати, чи є це необхідним у вашому середовищі.
 
-Mailcow keeps some logs in redis, so you can show it in the web interface - but
-if you add `command: '--save ""'` to the redis-server container in
-docker-compose.yml, it keeps them only in the RAM, which is hopefully not saved
-by a potential attacker.
+Mailcow зберігає деякі журнали в Redis, щоб ви могли побачити їх у веб-інтерфейсі - але якщо ви додаєте `command: '--save ""'` до контейнера redis-server у файлі docker-compose.yml, вони зберігаються тільки в оперативній пам'яті, що, сподіваємось, не зберігається потенційним зловмисником.
 
-To point the actual log files in `/dev/null`, aka Nirvana, you can:
+Щоб спрямувати фактичні журнали у `/dev/null`, так званий Нірвана, ви можете:
 
-Add the following lines to each container in
-`mailcow-dockerized/docker-compose.yml`:
+Додайте наступні рядки до кожного контейнера в `mailcow-dockerized/docker-compose.yml`:
 
 ```
       logging:
@@ -350,39 +289,27 @@ Add the following lines to each container in
           syslog-facility: "local3"
 ```
 
-Now you can configure rsyslog to listen on that port for log input. Uncomment
-the following lines in `/etc/rsyslog.conf`:
+Тепер ви можете налаштувати rsyslog для прослуховування цього порту для введення журналу. Розкоментуйте наступні рядки в `/etc/rsyslog.conf`.
 
 ```
 module(load="imudp")
 input(type="imudp" port="514")
 ```
 
-And put this in `/etc/rsyslog.d/` to redirect all of that to nirvana:
+І додайте це до `/etc/rsyslog.d/`, щоб перенаправити все це у нірвану:
 
 ```
 local3.*        /dev/null
 & stop
 ```
 
-Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
-`sudo docker compose up -d`.
+Нарешті, перезапустіть rsyslog за допомогою `sudo service rsyslog restart` і mailcow за допомогою `sudo docker compose up -d`.
 
-Consider looking at the [Mailcow logging
-documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
-for alternatives to this configuration.
+Розгляньте [документацію з логування Mailcow](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation) для альтернатив до цієї конфігурації.
 
-## Recommended: Add Reverse DNS Entries at Your Provider
+## Рекомендовано: Додайте зворотні DNS-записи у вашому провайдері
 
-You might also create reverse DNS entries
-for the IPv4 and IPv6 addresses of your server,
-containing your domain.
-Reverse DNS entries improve deliverability;
-it helps other mail server
-distinguish your user's mails from spam.
+Ви також можете створити зворотні DNS-записи для IPv4 та IPv6-адрес вашого сервера, що містять ваш домен. Зворотні DNS-записи покращують доставку; це допомагає іншим поштовим серверам відрізняти листи вашого користувача від спаму.
 
-Setting rDNS entries should be possible
-in the hosting provider web interface.
-You can read more about it
-[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+Встановлення записів rDNS повинно бути можливим у веб-інтерфейсі постачальника хостингу. Ви можете дізнатися більше про це [у цій статті](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
 

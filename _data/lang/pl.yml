@@ -22,12 +22,12 @@ pl:
   language: Język
 
   download:
-    install: ""
-    get_account: ""
-    get_account_explanation: ""
-    add_friends: ""
-    add_friends_explanation: ""
-    other: ""
+    install: Zainstaluj Delta Chat
+    get_account: Załóż konto
+    get_account_explanation: "W Delta Chat możesz używać (prawie) dowolnego konta e-mail. Jeśli potrzebujesz nowego, dotknij lub zeskanuj ten kod QR, aby otrzymać losowy adres e-mail <a href=\"https://nine.testrun.org\" target=\"_blank\">@nine.testrun.org</a>:"
+    add_friends: Wprowadź nazwę użytkownika i poznaj znajomych
+    add_friends_explanation: "Teraz możesz wprowadzić nazwę użytkownika, wybrać zdjęcie profilowe i rozmawiać ze znajomymi. Najlepszym sposobem jest ich spotkanie i weryfikacja poprzez <a href=\"help#howtoe2ee\">zeskanowanie kodów QR</a>."
+    other: Opcje pobierania dla innych platform
     source_code: Kod źródłowy
     install_via_packagemanager: Zainstaluj za pomocą Menedżera pakietów
     outdated: przestarzały
