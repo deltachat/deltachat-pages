@@ -152,8 +152,8 @@ Los chats archivados siguen siendo accesibles arriba de la lista de chats o a tr
 - Cuando un chat archivado recibe un nuevo mensaje, a menos que esté silenciado, **saldrá del archivo** y volverá a aparecer en tu lista de chats.
 Los chats **silenciados permanecen archivados** hasta que los desarchivas manualmente.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+Para archivar o fijar un chat, toque prolongadamente (Android), use el menú del chat (Android/Escritorio) o deslícese hacia la izquierda (iOS);
+para silenciar un chat, use el menú del chat (Android/Escritorio) o el perfil del chat (iOS).
 
 
 ### ¿Qué significa el punto verde?
@@ -174,42 +174,42 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
-### How do disappearing messages work? {#ephemeralmsgs}
+### ¿Cómo funciona la desaparición de mensajes? {#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 1 minute and 5 weeks.
+Puedes activar "desaparición de mensajes"
+en la configuración de un chat,
+en la parte superior derecha de la ventana de chat,
+seleccionando un lapso de tiempo
+entre 1 minuto y 5 semanas.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted
-both in each email account on the server,
-and in the app itself.
+Hasta que la configuración se desactive nuevamente,
+La aplicación Delta Chat de cada miembro del chat se encarga
+de borrar los mensajes
+después del lapso de tiempo seleccionado.
+Comienza el lapso de tiempo
+cuando el receptor ve por primera vez el mensaje en Delta Chat.
+Los mensajes se eliminan.
+tanto en cada cuenta de correo electrónico en el servidor,
+y en la propia aplicación.
 
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can take photos,
-or otherwise save, copy or forward messages before deletion.
+Tenga en cuenta que puede confiar en los mensajes que desaparecen
+sólo mientras confíes en tus compañeros de chat;
+compañeros de chat maliciosos pueden tomar fotos,
+o guardar, copiar o reenviar mensajes antes de eliminarlos.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the messages will not get deleted from their email account.
-They will most likely also not be decryptable anymore
-(as long as they were encrypted in the first place).
+Aparte de eso,
+si un compañero de chat desinstala Delta Chat,
+los mensajes no se eliminarán de su cuenta de correo electrónico.
+Lo más probable es que ya no sean descifrables.
+(siempre que estuvieran cifrados en primer lugar).
 
 
 ### ¿Cómo puedo eliminar mi cuenta?
 
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
+Al utilizar una cuenta de correo electrónico para Delta Chat,
+La forma de eliminar tu cuenta depende de tu proveedor de correo electrónico.
+No tenemos ningún control sobre su cuenta de correo electrónico,
+Lamentablemente no podemos ayudarte con eso.
 
 Si quieres mantener la cuenta, pero desinstalar Delta Chat, se recomienda salir de cualquier chat grupal antes de desinstalar Delta Chat.
 
@@ -256,20 +256,20 @@ por lo que aunque sólo veas una marca, el mensaje puede haber sido leído.
 
 ### ¿Qué pasa si activo "Borrar mensajes del servidor"?
 
-- By default, Delta Chat stores all messages locally on your device.
-  If you  e.g. want to save storage space at your mail provider,
-  you can configure  Delta Chat
-  to delete old already-received messages on the server automatically.
-  They still remain on your device until you delete them there, too.
+- De forma predeterminada, Delta Chat almacena todos los mensajes localmente en su dispositivo.
+Si por ej. desea ahorrar espacio de almacenamiento en su proveedor de correo,
+puedes configurar Delta Chat
+para eliminar automáticamente los mensajes antiguos ya recibidos en el servidor.
+Aún permanecen en su dispositivo hasta que los elimine allí también.
 
 - To turn it on, go to **Delete Old Messages → Delete Messages from Server**
   in the "Chats and Media" settings.
   You can set a timeframe between "At once" and "After 1 year".
   All e-mails received by Delta Chat will be deleted from the server after this timeframe.
 
-- Note that if you use Delta Chat on more than one device,
-  you need to leave the message on the server with a sufficient timeframe
-  so that the other device(s) can download them, too.
+- Tenga en cuenta que si utiliza Delta Chat en más de un dispositivo,
+debes dejar el mensaje en el servidor con un plazo de tiempo suficiente
+para que los otros dispositivos también puedan descargarlos.
 
 
 ### ¿Qué pasa si activo "Borrar mensajes del dispositivo"? {#delold}
@@ -314,7 +314,7 @@ El cifrado de extremo a extremo está garantizado si hay una estampilla verde  c
 
 Encuentrate con tu compañero de chat fuera de Delta Chat, preferiblemente en persona, pero también está bien utilizar un segundo canal como una videollamada o una applicaciónde chat diferente. Realiza el siguiente procedimiento de mostrar/escanear QR con tu compañero de chat.
 
-**Inviter side**:
+**Lado del invitado**:
 
 - Invitación de grupo:
 Toca el título del grupo de chat para ver la lista de miembros y selecciona "Código de invitación QR".
@@ -326,7 +326,7 @@ en la pantalla principal de la aplicación Delta Chat --
 en el escritorio, el ícono del QR está en el menú de sándwich del lado izquierdo.
 Comparte la imagen del QR con la otra persona, ya sea en persona o a través de otro canal de comunicación.
 
-**Joiner side**:
+**Lado del que se une**:
 
 - Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
   on the Delta Chat app main screen -- 
@@ -338,7 +338,7 @@ Comparte la imagen del QR con la otra persona, ya sea en persona o a través de 
 - Tap "OK"
 
 
-**Both Inviter and Joiner**:
+**Tanto el que invita como el que se une**:
 
 Espere mientras se intercambian los mensajes de [Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) entre ambos dispositivos.
 
@@ -536,11 +536,11 @@ Delta Chat protege la mayoría de los metadatos de los mensajes al colocar la si
 - Notification about enabling location streaming
 - WebRTC room URL
 
-E-Mail servers do not get access to this protected metadata 
-but they do see the message date as well as the message size,
-and, more importantly, the sender and receiver addresses. 
-E-mail servers need receiver addresses to route and 
-deliver messages to recipient's devices. 
+Los servidores de correo electrónico no obtienen acceso a estos metadatos protegidos
+pero sí ven la fecha del mensaje así como el tamaño del mensaje,
+y, lo que es más importante, las direcciones del remitente y del destinatario.
+Los servidores de correo electrónico necesitan direcciones de destinatarios para enrutar y
+entregar mensajes a los dispositivos del destinatario.
 
 
 ### ¿Cómo proteger los metadatos y los contactos cuando se incauta un dispositivo? {#device-seizure}
@@ -646,12 +646,12 @@ Si no tienes una clave o ni siquiera sabes para qué necesitarías una, no te pr
 
 ### No puedo importar mi clave PGP existente en Delta Chat.
 
-The most likely cause is that your key is encrypted and/or uses a password.
-Such keys are not supported by Delta Chat.
-You could remove the passphrase encryption and the password and try the import again.
+La causa más probable es que su clave esté cifrada y/o utilice una contraseña.
+Delta Chat no admite dichas claves.
+Puede eliminar el cifrado de la frase de contraseña y la contraseña e intentar importar nuevamente.
 
-Another common error is having the wrong file ending.
-Use the ASCII armored format and an `.asc` file ending.
+Otro error común es tener una extensión de archivo incorrecto.
+Utilice el formato blindado ASCII y una extensión de archivo `.asc`.
 
 Delta Chat supports common OpenPGP private key formats, however, it
 is unlikely that private keys from all sources will be fully supported. This
@@ -681,12 +681,12 @@ Si. Delta Chat 1.36 viene con una nueva funcionalidad experimental que permite u
 
 - On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
 
-- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
-  Wait until it is finished on both devices.
+- La transferencia debería comenzar después de unos segundos y durante la transferencia ambos dispositivos mostrarán el **progreso**.
+Espere hasta que termine en ambos dispositivos.
 
-In contrast to many other messengers, after successful transfer,
-both **devices are completely independent.**
-One device is not needed for the other to work.
+A diferencia de muchas otras aplicaciones de mensajería, después de una transferencia exitosa,
+ambos **dispositivos son completamente independientes.**
+No es necesario un dispositivo para que el otro funcione.
 
 
 ### Solución de problemas
@@ -773,15 +773,15 @@ extendable messenger.
 
 ### ¿Qué tan privadas son las aplicaciones webxdc?
 
-- webxdc apps can not send data to the Internet, or download anything.
-- A webxdc app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a webxdc app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open webxdc apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+- Las aplicaciones webxdc no pueden enviar datos a Internet ni descargar nada.
+- Una aplicación webxdc solo puede intercambiar datos dentro de un chat de Delta Chat, con su
+copias en los dispositivos de tus compañeros de chat. Aparte de eso, es completamente
+aislado de Internet.
+- La privacidad que ofrece una aplicación webxdc es la privacidad de tu chat, siempre y cuando
+confíe en las personas con las que chateas, también puedes confiar en la aplicación webxdc.
+- Esto también significa: puede suponer un riesgo para la privacidad abrir aplicaciones webxdc en chats donde
+no confías en los miembros, como lo sabes por los archivos adjuntos de correos electrónicos, donde
+solo abre archivos adjuntos de remitentes en los que confía y no de spammers.
 
 
 ### ¿Dónde puedo obtener aplicaciones webxdc?

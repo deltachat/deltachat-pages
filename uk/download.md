@@ -4,7 +4,7 @@ lang: uk
 downloads: true
 ---
 
-![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
+![Користувач iOS сканує QR-код на чужому телефоні.](../assets/blog/2023-11-qr-scan.jpg)
 
 ## Список змін {#changelogs}
 

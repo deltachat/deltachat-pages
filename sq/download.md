@@ -4,7 +4,7 @@ lang: sq
 downloads: true
 ---
 
-![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
+!Një përdorues iOS-i që skanon një kod QR në telefonin e dikujt tjetër.](../assets/blog/2023-11-qr-scan.jpg)
 
 ## Regjistra ndryshimesh {#changelogs}
 
