@@ -747,6 +747,7 @@ One device is not needed for the other to work.
 
 - On **Windows**, go to **Control Panel / Network and Internet**
   and make sure, **Private Network** is selected as "Network profile type"
+  (after transfer, you can change back to the original value)
 
 - Your system might have a "personal firewall",
   which is known to cause problems (especially on Windows).
