@@ -753,6 +753,9 @@ One device is not needed for the other to work.
   which is known to cause problems (especially on Windows).
   **Disable the personal firewall** for Delta Chat on both ends and try again
 
+- **Guest Networks** may not allow devices to communicate with each other.
+  If possible, use a non-guest network.
+
 - Ensure there is **enough storage** on the destination device
 
 - If transfer started, make sure, the devices **stay active** and do not fall asleep.
