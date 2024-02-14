@@ -693,9 +693,16 @@ L'un n'a pas besoin de l'autre pour pouvoir fonctionner.
 
 - Vérifier à nouveau que les deux appareils sont sur **le même réseau ou le même Wi-Fi**.
 
+- On **Windows**, go to **Control Panel / Network and Internet**
+  and make sure, **Private Network** is selected as "Network profile type"
+  (after transfer, you can change back to the original value)
+
 - Il se peut que votre système dispose d'un "pare-feu personnalisé",
   source bien connue de dysfonctionnements (en particulier sur Windows).
   **Désactivez le pare-feu personnalisé** sur chaque appareil pour Delta Chat et réessayez.
+
+- **Guest Networks** may not allow devices to communicate with each other.
+  If possible, use a non-guest network.
 
 - Assurez-vous de disposer d'un **espace de stockage suffisant** sur l'appareil de destination.
 

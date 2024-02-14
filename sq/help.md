@@ -749,9 +749,16 @@ Njëra pajisja s’ka nevojë për tjetrën që të funksionojë.
 
 - Kontrolloni sërish që të dyja pajisjet të gjenden në **të njëjtin rrjet Wi-Fi ose klasik**
 
+- On **Windows**, go to **Control Panel / Network and Internet**
+  and make sure, **Private Network** is selected as "Network profile type"
+  (after transfer, you can change back to the original value)
+
 - Sistemi juaj mund të ketë një “firewall personal”,
   që dihet se shkakton probleme (veçanërisht në Windows).
   **Çaktivizoni firewall-in personal** për Delta Chat-in në të dy anët dhe riprovoni
+
+- **Guest Networks** may not allow devices to communicate with each other.
+  If possible, use a non-guest network.
 
 - Garantoni se ka **depozitë të mjaftueshme** te pajisja vendmbërritje
 

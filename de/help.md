@@ -653,7 +653,14 @@ Im Gegensatz zu vielen anderen Messengern, sind nach erfolgreicher Übertragung 
 
 - Vergewissern Sie sich, dass beide Geräte mit dem **gleichen Wi-Fi, WLAN oder Netzwerk** verbunden sind.
 
+- Unter **Windows**, **Systemsteuerung / Netzwerk und Internet** öffnen
+und sicherstellen, dass **Privates Netzwerk** als "Netzwerkprofiltyp" ausgewählt ist.
+(nach der Übertragung kann wieder der ursprüngliche Wert verwendet werden)
+
 - Ihr System verfügt möglicherweise über eine "Personal Firewall", diese sind dafür bekannt, Probleme zu verursachen (insbesondere bei Windows). **Deaktivieren Sie die Personal Firewall** für Delta Chat auf beiden Seiten und versuchen Sie es erneut
+
+- In **Gastnetzwerken** z.B. der **Fritz!Box**, können Geräte möglicherweise nicht miteinander kommunizieren.
+Verwenden Sie nach Möglichkeit ein Nicht-Gast-Netzwerk. Wenn Sie Zugriff auf den Router haben, können Sie auch die Kommunikation der Geräte untereinander für die Dauer der Übertragung erlauben.
 
 - Vergewissern Sie sich, dass das Zielgerät über **genügend Speicher** verfügt
 

@@ -734,9 +734,16 @@ Un dispositivo non è necessario perché l'altro funzioni.
 
 - Verificare che entrambi i dispositivi siano nella **stessa rete o Wi-Fi**.
 
+- On **Windows**, go to **Control Panel / Network and Internet**
+  and make sure, **Private Network** is selected as "Network profile type"
+  (after transfer, you can change back to the original value)
+
 - Il sistema potrebbe avere un "personal firewall",
   che è noto per causare problemi (soprattutto su Windows).
   **Disattivare il firewall personale** per Delta Chat su entrambe le estremità e riprovare.
+
+- **Guest Networks** may not allow devices to communicate with each other.
+  If possible, use a non-guest network.
 
 - Assicurarsi che sul dispositivo di destinazione ci sia **disponibilità di memoria sufficiente**.
 

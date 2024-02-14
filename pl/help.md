@@ -460,8 +460,15 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 
 - Sprawdź dokładnie, czy oba urządzenia są w tym **samym Wi-Fi lub tej samej sieci**
 
+- On **Windows**, go to **Control Panel / Network and Internet**
+  and make sure, **Private Network** is selected as "Network profile type"
+  (after transfer, you can change back to the original value)
+
 - Twój system może mieć „zaporę ogniową”, o której wiadomo, że powoduje problemy (szczególnie w systemie Windows).
 **Wyłącz zaporę** dla Delta Chat po obu stronach i spróbuj ponownie
+
+- **Guest Networks** may not allow devices to communicate with each other.
+  If possible, use a non-guest network.
 
 - Upewnij się, że na urządzeniu docelowym jest **wystarczająca ilość miejsca**
 

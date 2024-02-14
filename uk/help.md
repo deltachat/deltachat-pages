@@ -452,7 +452,14 @@ Delta Chat підтримує поширені формати приватних
 
 - Ще раз упевніться, що обидва пристрої підключені до **одного Wi-Fi або мережі**
 
+- On **Windows**, go to **Control Panel / Network and Internet**
+  and make sure, **Private Network** is selected as "Network profile type"
+  (after transfer, you can change back to the original value)
+
 - Ваша система може мати "персональний брандмауер", який, як відомо, викликає проблеми (особливо у Windows). **Вимкніть персональний брандмауер** для Delta Chat на обох кінцях і повторіть спробу
+
+- **Guest Networks** may not allow devices to communicate with each other.
+  If possible, use a non-guest network.
 
 - Переконайтеся, що на цільовому пристрої **достатньо пам’яті**
 

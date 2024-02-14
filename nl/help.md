@@ -729,9 +729,16 @@ op beide apparaten**. Hierdoor hoef je niet het ene apparaat bij de hand te hebb
 
 - Controleer of beide apparaten verbonden zijn met **hetzelfde (wifi)netwerk**
 
+- On **Windows**, go to **Control Panel / Network and Internet**
+  and make sure, **Private Network** is selected as "Network profile type"
+  (after transfer, you can change back to the original value)
+
 - Wellicht is een firewall actief op je apparaat,
   welke problemen kan veroorzaken (met name op Windows).
   **Schakel de firewall op beide apparaten uit** of **voeg een uitzondering voor Delta Chat toe** en probeer het opnieuw.
+
+- **Guest Networks** may not allow devices to communicate with each other.
+  If possible, use a non-guest network.
 
 - Zorg voor **voldoende ruimte** op het bestemmingsapparaat
 
