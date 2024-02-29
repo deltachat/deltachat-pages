@@ -18,7 +18,7 @@ Die Desktop-Versionen erfordern keine Installation von Delta Chat auf einem Mobi
 Minimale Systemvoraussetzungen:
 Android 4.1 Jelly Bean
 oder iOS 12, iPhone 5s oder iPad 5/Air/Mini 2
-oder Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 oder Debian 10
+oder Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 oder Debian 10
 oder kompatible Systeme.
 
 ## Links

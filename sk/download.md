@@ -18,7 +18,7 @@ Desktop verzia nevyžaduje Delta Chat na telefóne.
 Minimálne požiadavky:
 Android 4.1 Jelly Bean
 alebo iOS 12, iPhone 5s alebo iPad 5/Air/Mini 2
-alebo Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 alebo Debian 10
+alebo Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 alebo Debian 10
 alebo kompatibilné systémy.
 
 ## Odkazy
