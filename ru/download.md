@@ -18,7 +18,7 @@ Delta Chat для компьютера - не требует, чтобы он б
 Минимальные требования:
 Android 4.1 Jelly Bean
 или iOS 12, iPhone 5s или iPad 5/Air/Mini 2
-или Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 или Debian 10
+или Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 или Debian 10
 или иные совместимые системы.
 
 ## Ссылки

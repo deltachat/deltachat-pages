@@ -18,7 +18,7 @@ downloads: true
 Мінімальні вимоги:
 Android 4.1 Jelly Bean
 або iOS 12, iPhone 5s або iPad 5/Air/Mini 2
-або Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 або Debian 10
+або Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 або Debian 10
 або сумісні системи.
 
 ## Посилання

@@ -18,7 +18,7 @@ As versións de escritorio non requiren que se instale Delta Chat nun teléfono.
 Requerimentos mínimos:
 Android 4.1 Jelly Bean
 ou iOS 12, iPhone 5s ou iPad 5/Air/Mini 2
-ou Windows 7, macOS 10.11 El Capitan, Ubuntu 18.04, Fedora 29 ou Debian 10
+ou Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 ou Debian 10
 ou sistemas compatibles.
 
 ## Ligazóns
