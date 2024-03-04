@@ -14,5 +14,5 @@ For Android, you can verify the signing certificate on the APK matches one of th
   `{% include fingerprint-local %}`
 
 To print the SHA256 fingerprints of the APK signing certificate you can use eg.  
-`keytool -list -printcert -jarfile <APK-file>`
+`keytool -printcert -jarfile <APK-file>`
 
