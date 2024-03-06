@@ -14,5 +14,5 @@ Pre Android môžete overiť, že podpisový certifikát na APK sa zhoduje s jed
   `{% include fingerprint-local %}`
 
 Na tlač odtlačkov SHA256 podpisového certifikátu APK môžete použiť napr.
-`keytool -list -printcert -jarfile <APK-file> `
+`keytool -printcert -jarfile <APK-file> `
 

@@ -14,5 +14,5 @@ Para a versão Android, você pode verificar o certificado do APK comparando com
   `{% include fingerprint-local %}`
 
 Para obter as impressões SHA256 do APK você pode usar, por exemplo 
-`keytool -list -printcert -jarfile <APK-file>`
+`keytool -printcert -jarfile <APK-file>`
 

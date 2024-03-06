@@ -14,5 +14,5 @@ Na Androidu lze ověřit certifikát APK souboru porovnáním s následujícím 
   `{% include fingerprint-local %}`
 
 Zobrazit otisk SHA256 pro certifikát APK souboru lze napřiklad takto:  
-`keytool -list -printcert -jarfile <APK-file>`
+`keytool -printcert -jarfile <APK-file>`
 

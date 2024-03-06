@@ -14,5 +14,5 @@ lang: uk
   `{% include fingerprint-local %}`
 
 Ви можете подивитися відбиток сертифікату SHA256, яким підписано інсталяційний файл APK, за допомогою команди
-`keytool -list -printcert -jarfile <APK-file>`
+`keytool -printcert -jarfile <APK-file>`
 

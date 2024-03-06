@@ -14,5 +14,5 @@ En Android, podes verificar que o certificado da sinatura no APK concorda cunha 
  `{% include fingerprint-local %}`
 
 Para mostrar a impresión dixital SHA256 do certificado de sinatura do APK podes utilizar 
-`keytool -list -printcert -jarfile `
+`keytool -printcert -jarfile <APK-file>`
 

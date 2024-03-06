@@ -14,5 +14,5 @@ lang: zh_CN
   `{% include fingerprint-local %}`
 
 要打印 APK 签名证书的 SHA256 指纹，可以使用
-`keytool -list -printcert -jarfile <APK-file>`
+`keytool -printcert -jarfile <APK-file>`
 

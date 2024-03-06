@@ -14,5 +14,5 @@ Android için APK üzerindeki imzalama sertifikasının aşağıdaki SHA256 parm
   `{% include fingerprint-local %}`
 
 APK imzalama sertifikasının SHA256 parmak izlerini yazdırmak için ör.  
-`keytool -list -printcert -jarfile <APK dosyası>` kullanabilirsiniz
+`keytool -printcert -jarfile <APK dosyası>` kullanabilirsiniz
 

@@ -14,5 +14,5 @@ lang: ru
 `{% include fingerprint-local %}`
 
 Для отображения отпечатков SHA256 сертификата подписи APK можно использовать, например, 
-`keytool -list -printcert -jarfile 1`
+`keytool -printcert -jarfile <APK-file>`
 

@@ -13,5 +13,5 @@ Pour Android, vous pouvez vérifier que le certificat de signature sur l'APK cor
 * Pour les téléchargements d'autres APK :  
   `{% include fingerprint-local %}`
 
-Pour imprimer les empreintes SHA256 du certificat de signature de l'APK vous pouvez utiliser, par ex. `keytool -list -printcert -jarfile <APK-file>`
+Pour imprimer les empreintes SHA256 du certificat de signature de l'APK vous pouvez utiliser, par ex. `keytool -printcert -jarfile <APK-file>`
 

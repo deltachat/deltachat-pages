@@ -14,5 +14,5 @@ Untuk Android, Anda dapat memverifikasi sertifikat penandatanganan di APK cocok 
   `{% include fingerprint-local %}`
 
 Untuk mencetak sidik jari SHA256 dari sertifikat penandatanganan APK Anda dapat menggunakan misal.
-`keytool -list -printcert -jarfile <APK-file>`
+`keytool -printcert -jarfile <APK-file>`
 
