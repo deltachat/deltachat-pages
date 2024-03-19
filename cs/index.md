@@ -35,11 +35,11 @@ lang: cs
 </div>
 
 <div>
-<a href="../assets/blog/desktop-screenshot.png">
+<a href="../assets/home/screenshots/desktop.png">
 <picture>
-<source srcset="../assets/blog/desktop-screenshot-thumbnail.webp" type="image/webp" />
-<source srcset="../assets/blog/desktop-screenshot-thumbnail.png" type="image/png" />
-<img src="../assets/blog/desktop-screenshot-thumbnail.png" width="280" height="222" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" />
+<source srcset="../assets/home/screenshots/desktop-thumbnail.webp" type="image/webp" />
+<source srcset="../assets/home/screenshots/desktop-thumbnail.png" type="image/png" />
+<img src="../assets/home/screenshots/desktop-thumbnail.png" width="280" height="222" style="float:left; margin: 10px" alt="A screenshot of Delta Chat on desktop" />
 </picture>
 </a>
 </div>

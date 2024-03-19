@@ -13,5 +13,6 @@ W przypadku systemu Android można sprawdzić, czy certyfikat APK jest zgodny z 
 * Dla plików pobranych z innych miejsc: 
 `{% include fingerprint-local %}`
 
-Do wydrukowania odcisków palców SHA256 certyfikatu podpisu aplikacji można użyć np. <br>`keytool -printcert -jarfile <APK-file>`
+Do wydrukowania odcisków palców SHA256 certyfikatu podpisu aplikacji można użyć np.
+`keytool -printcert -jarfile <APK-file>`
 
