@@ -12,7 +12,7 @@ handed us a cryptographic security analysis
 of our [SecureJoin](https://securejoin.delta.chat) protocol implementation
 which is the basis of Delta Chat's guaranteed end-to-end encryption mechanisms.
 We subsequently fixed 20 identified issues that became part of the 
-[v1.44 release](https://delta.chat/2024-03-12-jumbo44)
+[v1.44 release](https://delta.chat/en/2024-03-12-jumbo44)
 but only disclose it now
 because we first wanted Delta Chat apps with all fixes to be available on all stores. 
 
