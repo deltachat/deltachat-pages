@@ -2,6 +2,7 @@
 title: Hardening Guaranteed End-to-End encryption based on a security analysis from ETH researchers
 author: holga, link2xt
 image: ../assets/blog/green-check-chain.png
+com_id: 112156902140296303
 ---
 
 We released [guaranteed end-to-end encryption](https://delta.chat/2023-11-23-jumbo-42) 
