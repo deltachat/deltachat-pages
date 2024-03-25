@@ -43,6 +43,13 @@ Testing changes
   the forked website will then be available at 
   `https://<your-username>.github.io/deltachat-pages/`
 
+- If you have Nix installed,
+  you can build website preview in `result/` with `nix build`
+  or run `nix develop` and start `jekyll serve` in development shell
+  to have live preview at http://127.0.0.1:4000/en/
+  If you don't have Nix installed,
+  you can install it with [The Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer).
+
 - Alternatively, [install Jekyll](https://jekyllrb.com/docs/installation/) 
   on your local machive, run `bundle install` in this directory,
   and execute `bundle exec jekyll serve`.
