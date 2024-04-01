@@ -126,7 +126,7 @@
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
                 <br />
-                Flatpak manual install: <code>flatpak install flathub chat.delta.desktop</code><br />
+                Flatpak manual install: <code>flatpak --user install flathub chat.delta.desktop</code><br />
                 Arch manual install: <code>yay -S deltachat-desktop-git</code><br />
                 Nix manual install: <code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code><br />
                 Snap manual install (community maintained): <code>sudo snap install deltachat-desktop</code>
