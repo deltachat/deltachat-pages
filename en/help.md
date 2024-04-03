@@ -25,7 +25,7 @@ recipient to install the same app as yours, as with other messengers.
 
 - _Independent_ of any company or services. _You_ own your data.
 - Your data is not saved on a central server unless all users are using
-  the same e-mail servers
+  the same e-mail servers.
 - You do not distribute your address book to anyone.
 - _Fast_ by the use of Push-IMAP.
 - _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
@@ -86,7 +86,7 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
   or add them via QR code, they automatically see it as your profile picture.
 
 - Contacts who don't use Delta Chat do not see the profile picture
-  (however, of course, they can install Delta Chat :)
+  (however, of course, they can install Delta Chat). :)
 
 - For privacy reasons, no one sees your profile picture until you write a
   message to them.
@@ -188,7 +188,7 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
     [webxdc app](#webxdc).
 - So this is not a real time online status - and if someone doesn't answer
   right away even though they seem to be online, don't worry and give them some
-  space ;-)
+  space. ;-)
 - On the other hand, others will not always "see that you are online". If you
   have turned off read receipts, they will not see the green dot until you
   message them or write to a group they're in as well.
@@ -274,14 +274,14 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 - Recipients may have disabled read-receipts,
   so even if you see only one tick, the message may have been read.
 - The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+  that a human has read or understood the message. ;)
 
 
 ### What happens if I turn on "Delete old messages from server"?
 
 - By default, Delta Chat stores all messages locally on your device.
-  If you  e.g. want to save storage space at your mail provider,
-  you can configure  Delta Chat
+  If you e.g. want to save storage space at your mail provider,
+  you can configure Delta Chat
   to delete old already-received messages on the server automatically.
   They still remain on your device until you delete them there, too.
 
@@ -735,14 +735,14 @@ For other programs, you should be able to find a solution online.
 
 Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
 
-- Make sure both devices are on the same Wi-Fi or network
+- Make sure both devices are on the same Wi-Fi or network.
 
 - On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+  and wait a moment until a QR code is shown.
 
-- On the second device, [install Delta Chat](https://get.delta.chat)
+- On the second device, [install Delta Chat](https://get.delta.chat).
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device.
 
 - Transfer should start after a few seconds and during transfer both devices will show the **progress**.
   Wait until it is finished on both devices.
@@ -754,37 +754,37 @@ One device is not needed for the other to work.
 
 ### Troubleshooting
 
-- Double-check both devices are in the **same Wi-Fi or network**
+- Double-check both devices are in the **same Wi-Fi or network**.
 
 - On **Windows**, go to **Control Panel / Network and Internet**
   and make sure, **Private Network** is selected as "Network profile type"
-  (after transfer, you can change back to the original value)
+  (after transfer, you can change back to the original value).
 
 - Your system might have a "personal firewall",
   which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
+  **Disable the personal firewall** for Delta Chat on both ends and try again.
 
 - **Guest Networks** may not allow devices to communicate with each other.
   If possible, use a non-guest network.
 
-- Ensure there is **enough storage** on the destination device
+- Ensure there is **enough storage** on the destination device.
 
 - If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+  Do not exit Delta Chat
+  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately).
 
 - Delta Chat is **already logged in** on the destination device?
-  You can use multiple accounts per device, just [add another account](#multiple-accounts)
+  You can use multiple accounts per device, just [add another account](#multiple-accounts).
 
 - If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+  try the **manual transfer** described below.
 
 
 ### Manual Transfer {#backup}
 
 This method is only recommended if "Add Second Device" as described above does not work.
 
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
+- On the old device, go to "Settings -> Chats and Media -> Export Backup". Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.
@@ -971,7 +971,7 @@ would be done by the Delta Chat app.
 Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
 
 - enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
+- have set the "Show Classic E-Mails" setting to "No, chats only".
 
 In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
 
@@ -981,13 +981,13 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 1. Change your address in “Settings - Password and Account” and
    enter the password of your new account (and if necessary, server settings).
    You will get an information notice about the fact that you are moving to a new address. 
-   An additional notice will also show up in your "Device messages" chat. 
+   An additional notice will also show up in your "Device Messages" chat. 
 
 2. If possible, let your old e-mail provider forward all messages to your new address.
 
-3. Tell your contacts that you changed your address. 
-   Writing to guaranteed end-to-end encrypted chats and groups,
-   will make them notice your move automatically 
+3. Tell your contacts that you changed your address.
+   Writing to guaranteed end-to-end encrypted chats and groups
+   will make them notice your move automatically,
    and they will continue chatting with you using your new address. 
 
 Note that Delta Chat will not retrieve messages anymore from your old e-mail provider.
@@ -1003,9 +1003,10 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ### Does Delta Chat work with _my_ e-mail-provider?
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly,
-  see [Provider Overview](https://providers.delta.chat)
+With a rather good chance: Yes. :)
+
+- However, some providers need special options to work properly,
+see [Provider Overview](https://providers.delta.chat).
 
 
 ### I want to manage my own e-mail server for Delta Chat. What do you recommend?
@@ -1016,7 +1017,7 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - You can find an [installation guide on our website](serverguide).
 
 
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
+### If Delta Chat uses e-mail, is it really an _Instant_ Messenger?
 
 - Sending and receiving messages takes a few seconds, typically. Sometimes
   there are cases where it takes longer but that is arguably true as well for
@@ -1034,7 +1035,7 @@ it](https://delta.chat/en/2022-09-14-aeap).
 ### Can I set the E-Mail Subject with Delta Chat?
 
 Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
-automatically to  the group name or to the sender name.
+automatically to the group name or to the sender name.
 
 So if you want to set the subject yourself,
 for example for a formal e-mail to a business contact,
@@ -1049,13 +1050,14 @@ You will get bonus professionalism points
 if you set a [signature text](#signature).
 
 
-### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
+### Is Delta Chat compatible with Proton Mail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
+Yes and No.
+
+- No, you can not use your Proton Mail, Tutanota, or Criptext account with Delta
   Chat; they do not offer receiving mails via IMAP.
 - In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be end-to-end
+  Proton Mail, Tutanota, or Criptext. Those messages will not be end-to-end
   encrypted, though. The end-to-end encryption those providers offer is not
   compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
   uses.
@@ -1131,7 +1133,7 @@ Concretely, Delta Chat developments have so far been funded from these sources:
   see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
   The second 2019/2020 grant (~$300K) helped us to 
   release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  
+  to provide new features for all platforms.
 
 - The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
   completing Rust/Python bindings and instigating a Chat-bot eco-system. 
@@ -1146,22 +1148,22 @@ Concretely, Delta Chat developments have so far been funded from these sources:
   in places often affected by internet censorship and shutdowns.
 
 - Beginning 2023 we got accepted in the Next Generation Internet (NGI)
-  Entrust program for our "Private Decentralized Apps" proposals. 
-  Exact amount is to be determined (around 100K EUR). 
-  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+  Entrust program for our "Private Decentralized Apps" proposals.
+  Exact amount is to be determined (around 100K EUR).
+  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org).
 
-- Sometimes we receive one-time donations from private individuals. 
-  For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". 💜 
-  We use such money to fund development gatherings or to care for ad-hoc expenses 
-  that can not easily be predicted for, or reimbursed from, public funding grants. 
+- Sometimes we receive one-time donations from private individuals.
+  For example, in 2021 a generous individual bank-wired us 4K EUR
+  with the subject "keep up the good developments!". 💜
+  We use such money to fund development gatherings or to care for ad-hoc expenses
+  that can not easily be predicted for, or reimbursed from, public funding grants.
   Receiving more donations also helps us to become more independent and long-term viable
-  as a contributor community. 
+  as a contributor community.
 
   [Donate Money](donate){: .cta-button}
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
+- Last but by far not least, several pro-bono experts and enthusiasts contributed
+  and contribute to Delta Chat developments without receiving money, or only
   small amounts. Without them, Delta Chat would not be where it is today, not
   even close. 
 
@@ -1169,4 +1171,4 @@ The monetary funding mentioned above is mostly organized by merlinux GmbH in
 Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
 
 Please see [Delta Chat Contribution channels](contribute)
-for both monetary and and other contribution possibilities.  
+for both monetary and and other contribution possibilities.
