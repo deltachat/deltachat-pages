@@ -349,15 +349,13 @@ One of you is the "Inviter", the other is the "Joiner".
 
 - Direct 1:1 chat invitation: 
   Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
   Share the QR image with the other side either in person or through a second channel.
 
 **Joiner side**:
 
 - Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
 
 - Choose "SCAN QR CODE" and scan the QR Code 
   that you see from your chat partner in a second channel.
