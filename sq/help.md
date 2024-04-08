@@ -731,6 +731,45 @@ fjalëkalimit tuaj një vlerë të zbrazët, që nga dritarja Administrim Kyçes
 GnuPG-në mund ta bëni [përmes rreshti urdhrash](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
+### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie? {#security-audits}
+
+Projekti Delta Chat ka pasur katër auditime të pavarur sigurie gjatë viteve të fundit:
+
+- Më 2019-n, [Include Security](https://includesecurity.com) analizoi libraritë
+  [PGP](https://github.com/rpgp/rpgp) dhe
+  [RSA](https://github.com/RustCrypto/RSA) të Delta Chat-it.
+  S’gjeti probleme kritike,
+  por dy çështje me rëndësi të lartë që i ndreqim në vazhdim.
+  Nxori gjithashtu një çështje të rëndësisë mesatare dhe disa çështje me më pak rëndësi,
+  por s’kishte ndonjë rrugë për t’i shfrytëzuar këto cenueshmëri në sendërtimin e Delta Chat-it.
+  Pavarësisht, disa nga këto i ndreqëm që kur përfundoi auditimi.
+  Mund të lexoni [raportin e plotë këtu](../assets/blog/2019-first-security-review.pdf).
+
+- Më 2020-n, [Include Security](https://includesecurity.com) analizoi [bazën](https://github.com/deltachat/deltachat-core-rust/)
+  në Rust të Delta Chat-it, si dhe bibliotekat [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp)
+  dhe [TLS](https://github.com/async-email/async-native-tls).
+  S’gjeti ndonjë problem kritik apo të rëndësisë së madhe.
+  Raporti ngriti pak dobësi të rëndësisë mesatare -
+  ato në vetvete s’përbëjnë kërcënim për përdoruesit e Delta Chat-it
+  ngaqë varen në mjedisin në të cilin përdoret Delta Chat-i.
+  Për arsye përputhjeje dhe përdorimi,
+  s’mund t’i shmangim krejt ato
+  dhe vendosëm të ofrojmë rekomandime sigurie për përdoruesit e kërcënuar.
+  Mund të lexoni [raportin e plotë këtu](../assets/blog/2020-second-security-review.pdf).
+
+- Në fillim të 2023-it, [Cure53](https://cure53.de) analizoi qoftë fshehtëzimin
+  e transporteve për lidhje rrjeti të Delta Chat-it, qoftë një formësim të riprodhueshëm
+  shërbyesi poste si [të rekomanduarin në këtë sajt](serverguide).
+  Mund të lexoni më tepër rreth auditimit [në blogun tonë](https://delta.chat/en/2023-03-27-third-independent-security-audit),
+  ose të lexoni [raportin e plotë këtu](../assets/blog/MER-01-report.pdf).
+
+- Beginning 2023, we fixed security and privacy issues with the "web
+  apps shared in a chat" feature, related to failures of sandboxing
+  especially with Chromium. We subsequently got an independent security
+  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
+  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
+
+
 ## Multi-klient {#multiclient}
 
 ### A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
@@ -1075,44 +1114,6 @@ if you set a [signature text](#signature).
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
-
-### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie? {#security-audits}
-
-Projekti Delta Chat ka pasur katër auditime të pavarur sigurie gjatë viteve të fundit:
-
-- Më 2019-n, [Include Security](https://includesecurity.com) analizoi libraritë
-  [PGP](https://github.com/rpgp/rpgp) dhe
-  [RSA](https://github.com/RustCrypto/RSA) të Delta Chat-it.
-  S’gjeti probleme kritike,
-  por dy çështje me rëndësi të lartë që i ndreqim në vazhdim.
-  Nxori gjithashtu një çështje të rëndësisë mesatare dhe disa çështje me më pak rëndësi,
-  por s’kishte ndonjë rrugë për t’i shfrytëzuar këto cenueshmëri në sendërtimin e Delta Chat-it.
-  Pavarësisht, disa nga këto i ndreqëm që kur përfundoi auditimi.
-  Mund të lexoni [raportin e plotë këtu](../assets/blog/2019-first-security-review.pdf).
-
-- Më 2020-n, [Include Security](https://includesecurity.com) analizoi [bazën](https://github.com/deltachat/deltachat-core-rust/)
-  në Rust të Delta Chat-it, si dhe bibliotekat [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp)
-  dhe [TLS](https://github.com/async-email/async-native-tls).
-  S’gjeti ndonjë problem kritik apo të rëndësisë së madhe.
-  Raporti ngriti pak dobësi të rëndësisë mesatare -
-  ato në vetvete s’përbëjnë kërcënim për përdoruesit e Delta Chat-it
-  ngaqë varen në mjedisin në të cilin përdoret Delta Chat-i.
-  Për arsye përputhjeje dhe përdorimi,
-  s’mund t’i shmangim krejt ato
-  dhe vendosëm të ofrojmë rekomandime sigurie për përdoruesit e kërcënuar.
-  Mund të lexoni [raportin e plotë këtu](../assets/blog/2020-second-security-review.pdf).
-
-- Në fillim të 2023-it, [Cure53](https://cure53.de) analizoi qoftë fshehtëzimin
-  e transporteve për lidhje rrjeti të Delta Chat-it, qoftë një formësim të riprodhueshëm
-  shërbyesi poste si [të rekomanduarin në këtë sajt](serverguide).
-  Mund të lexoni më tepër rreth auditimit [në blogun tonë](https://delta.chat/en/2023-03-27-third-independent-security-audit),
-  ose të lexoni [raportin e plotë këtu](../assets/blog/MER-01-report.pdf).
-
-- Beginning 2023, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
-  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ### Si financohet zhvillimi i Delta Chat-it? 
