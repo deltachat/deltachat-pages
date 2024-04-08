@@ -716,6 +716,47 @@ password su un valore vuoto nella finestra Gestione chiavi. Con GnuPG puoi impos
 di comando](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
 Per altri programmi, dovresti essere in grado di trovare una soluzione online.
 
+### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
+
+Il progetto Delta Chat è stato sottoposto a quattro verifiche di sicurezza indipendenti negli ultimi anni:
+
+- Nel 2019, [Include Security](https://includesecurity.com) ha analizzato le librerie
+[PGP](https://github.com/rpgp/rpgp) e
+[RSA](https://github.com/RustCrypto/RSA) di Delta Chat.
+Non ha riscontrato criticità,
+ma due problemi di elevata gravità che abbiamo successivamente risolto.
+Ne sono emersi anche uno di media gravità e alcuni problemi meno gravi,
+ma non c'era modo di sfruttare queste vulnerabilità nell'implementazione di Delta Chat.
+Alcuni di essi sono stati comunque corretti dopo la conclusione dell'audit.
+Puoi leggere il [rapporto completo qui](../assets/blog/2019-first-security-review.pdf).
+
+- Nel 2020, [Include Security](https://includesecurity.com) ha analizzato il Delta
+Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+[IMAP](https://github.com/async-email/async-imap),
+[SMTP](https://github.com/async-email/async-smtp) e
+[TLS](https://github.com/async-email/async-native-tls) librerie.
+Non ha rilevato problemi critici o di elevata gravità.
+Il rapporto ha sollevato alcuni punti deboli di media gravità:
+da soli non rappresentano una minaccia per gli utenti di Delta Chat
+perché dipendono dall'ambiente in cui viene utilizzato Delta Chat.
+Per motivi di usabilità e compatibilità,
+non possiamo mitigarli tutti
+e ha deciso di fornire consigli sulla sicurezza agli utenti minacciati.
+Puoi leggere il [rapporto completo qui](../assets/blog/2020-second-security-review.pdf).
+
+- A partire dal 2023, [Cure53](https://cure53.de) ha analizzato sia la crittografia del trasporto delle
+Connessioni di rete di Delta Chat e una configurazione del server di posta riproducibile come
+[consigliato su questo sito](serverguide).
+Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
+o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
+
+- A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con il servizio "web
+app condivise in una chat", relativa ai guasti del sandboxing
+soprattutto con Chromium. Successivamente abbiamo ottenuto una sicurezza indipendente
+audit da Cure53 e tutti i problemi rilevati sono stati risolti nella serie di app 1.36 rilasciata nell'aprile 2023.
+Vedi [qui per la storia completa sulla sicurezza end-to-end nel web](https://delta.chat/en/2023-05-22-webxdc-security).
+
+
 ## Multi-client {#multiclient}
 
 ### Posso utilizzare Delta Chat su più dispositivi contemporaneamente?
@@ -1050,46 +1091,6 @@ che usa.
 ### Sono interessato ai dettagli tecnici. Mi puoi dire di più?
 
 - Vedi [Standard usati in Delta Chat]({% include standards-url %}).
-
-### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
-
-Il progetto Delta Chat è stato sottoposto a quattro verifiche di sicurezza indipendenti negli ultimi anni:
-
-- Nel 2019, [Include Security](https://includesecurity.com) ha analizzato le librerie
-[PGP](https://github.com/rpgp/rpgp) e
-[RSA](https://github.com/RustCrypto/RSA) di Delta Chat.
-Non ha riscontrato criticità,
-ma due problemi di elevata gravità che abbiamo successivamente risolto.
-Ne sono emersi anche uno di media gravità e alcuni problemi meno gravi,
-ma non c'era modo di sfruttare queste vulnerabilità nell'implementazione di Delta Chat.
-Alcuni di essi sono stati comunque corretti dopo la conclusione dell'audit.
-Puoi leggere il [rapporto completo qui](../assets/blog/2019-first-security-review.pdf).
-
-- Nel 2020, [Include Security](https://includesecurity.com) ha analizzato il Delta
-Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
-[IMAP](https://github.com/async-email/async-imap),
-[SMTP](https://github.com/async-email/async-smtp) e
-[TLS](https://github.com/async-email/async-native-tls) librerie.
-Non ha rilevato problemi critici o di elevata gravità.
-Il rapporto ha sollevato alcuni punti deboli di media gravità:
-da soli non rappresentano una minaccia per gli utenti di Delta Chat
-perché dipendono dall'ambiente in cui viene utilizzato Delta Chat.
-Per motivi di usabilità e compatibilità,
-non possiamo mitigarli tutti
-e ha deciso di fornire consigli sulla sicurezza agli utenti minacciati.
-Puoi leggere il [rapporto completo qui](../assets/blog/2020-second-security-review.pdf).
-
-- A partire dal 2023, [Cure53](https://cure53.de) ha analizzato sia la crittografia del trasporto delle
-Connessioni di rete di Delta Chat e una configurazione del server di posta riproducibile come
-[consigliato su questo sito](serverguide).
-Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
-
-- A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con il servizio "web
-app condivise in una chat", relativa ai guasti del sandboxing
-soprattutto con Chromium. Successivamente abbiamo ottenuto una sicurezza indipendente
-audit da Cure53 e tutti i problemi rilevati sono stati risolti nella serie di app 1.36 rilasciata nell'aprile 2023.
-Vedi [qui per la storia completa sulla sicurezza end-to-end nel web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ### Come viene finanziato lo sviluppo di Delta Chat?
