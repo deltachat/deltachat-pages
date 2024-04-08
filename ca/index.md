@@ -9,7 +9,7 @@ lang: ca
 
 🥳 Gaudiu d'experiències de xat interactiu a través d'[apps webxdc](https://webxdc.org).
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🔒 Xifratge d'extrem a extrem usant els protocols [Autocrypt](https://autocrypt.org) i [SecureJoin](https://securejoin.delta.chat/en/latest/new.html), amb [diverses auditories de seguretat](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
 # Disponible al mòbil i a l'escriptori
 

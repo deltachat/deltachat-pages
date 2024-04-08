@@ -5,21 +5,21 @@ lang: ru
 
 # Каналы и репозитории
 
-For community interactions around Delta Chat please read our [Community Standards](community-standards).
+О взаимодействии с сообществом в Delta Chat читайте наши [Стандарты сообщества](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fediverse](https://chaos.social/web/@delta) для объявлений и обратной связи.
 
 - [Delta Chat форум поддержки](https://support.delta.chat) больше
   дискуссии для новых возможностей и получения тех. поддержки.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Репозитории Delta Chat](https://github.com/deltachat/), где вы можете
+  код для приложений DeltaChat и этого веб-сайта.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Другие ссылки можно найти в [cosmos](https://cosmos.delta.chat)
 
-[Donate Money](donate){: .cta-button}
+[Пожертвовать деньги](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Переводы и отчёты об ошибках
 
 - [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)
 - [Ошибки Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -27,32 +27,32 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Ошибки Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Ошибки Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
+Мы постоянно ищем разработчиков и дизайнеров.
+Обычно мы предлагаем контракты на 20-30 часов в неделю или работу по найму (если вы находитесь в Германии).
+Пожалуйста, не стесняйтесь связаться с нами (delta at merlinux eu)
+если вы заинтересованы в том чтобы помочь нашим усилиям!
 
-For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+Для получения более подробной информации рекомендуем прочитать и подписатья на наш [блог](https://delta.chat/ru/blog).
 
 
-# Third party communication channels 
+# Сторонние каналы связи 
 
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
+Следующие каналы связи, связанные с Delta Chat, управляются третьими лицами
+которые могут следовать или не следовать нашим [Стандартам сообщества](community-standards): 
 
-- With your Delta Chat app you can send a `/list` message to 
-  [a groups bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-  to discover and join various chat groups.
+- С помощью приложения Delta Chat вы можете отправить сообщение `/list` на 
+  [групповой бот (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
+  чтобы найти и присоединиться к различным чат-группам.
 
-- An [English Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  bridged to the groupbot English Delta Chat community chat group.
+- Английская группа [Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
+  соединена с группой чата сообщества groupbot English Delta Chat.
 
-- A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
+- Сообщество [Лемми](https://lemmy.zip/c/delta_chat)
+  на которое вы можете подписаться введя `!delta_chat@lemmy.zip` 
+  в поле поиска вашего приложения fediverse.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+-  [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above)
-or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+Если вы знаете или сами создали дополнительные каналы,
+пожалуйста, сообщите нам об этом (см. Каналы и репозитории выше)
+или [отредактируйте эту страницу на GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).

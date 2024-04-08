@@ -76,6 +76,17 @@ Vielleicht möchten Sie auch erfahren, wie Sie [E-Mail-Konten zu mehreren Gerät
 - Ihr Profilbild wird nicht mit jeder Nachricht gesendet, aber häufig genug, so dass Ihre Kontakte es auch dann erhalten, wenn diese ein neues Gerät nutzen.
 
 
+### Kann ich eine Signatur (Status/Motto) festlegen? {#signature}
+
+Ja,
+Sie können dies unter "Einstellungen > Profil > Signatur" tun.
+Kontakte, die Delta Chat nutzen, sehen die Signatur,
+wenn Sie sich Ihre Kontaktdetails ansehen.
+Für klassische E-Mail-Programme,
+erscheint die Signatur
+unter dem Text Ihrer Nachrichten.
+
+
 ### Unterstützt Delta Chat HTML-E-Mails?
 
 - Ja. Eingehende HTML-Nachrichten erhalten eine Schaltfläche "Ganze Nachricht anzeigen". Ausgehende E-Mails verwenden immer "Nur Text".
@@ -275,15 +286,13 @@ Zeigen Sie das QR-Bild der anderen Seite entweder persönlich oder über einen z
 
 - Direktchat-Einladung: 
 Tippen Sie auf das QR-Code-Symbol <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-auf dem Hauptbildschirm der Delta Chat-App -- 
-auf dem Desktop befindet sich das QR-Symbol im Sandwich-Menü auf der linken Seite.
+auf dem Hauptbildschirm der Delta Chat-App.
 Zeigen Sie das QR-Bild der anderen Seite entweder persönlich oder über einen zweiten Kanal.
 
 **Auf der Seite des Beitretenden**:
 
 - Tippen Sie auf das QR-Code-Symbol <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-auf dem Hauptbildschirm der Delta Chat-App -- 
-auf dem Desktop befindet sich das QR-Symbol im Sandwich-Menü auf der linken Seite.
+auf dem Hauptbildschirm der Delta Chat-App.
 
 - Wählen Sie "QR-CODE SCANNEN" und scannen Sie den QR-Code 
 den Sie von Ihrem Chat-Partner in einem zweiten Kanal sehen oder erhalten haben.
@@ -831,6 +840,23 @@ Um mehr über die Details dahinter zu erfahren, [lesen Sie unseren Blogpost dazu
 - Das Chatten geht schnell, wenn beide Seiten die App aktiv verwenden. Wenn die App im Hintergrund läuft, kann es zu Verzögerungen kommen.
 - Das Empfangen von Nachrichten im Hintergrund kann deshalb manchmal Minuten dauern, weil Android und iOS Delta Chat daran hindert, im Hintergrund zu laufen, und die App so nur gelegentlich aktiv ist. Diese künstliche Verzögerung ist eher unter iOS zu spüren als unter Android.
 - Dass Android und iOS Apps, die im Hintergrund laufen, beenden, ist allerdings ein Problem, das viele legitime Apps haben. Für weitere Informationen siehe [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Kann ich den E-Mail "Betreff" (das "Subject") mit Delta Chat setzen?
+
+Delta Chat setzt (und [verschlüsselt](#message-metadata)!) die klassische E-Mail-Betreffzeile
+automatisch auf den Gruppennamen oder den Absendernamen.
+
+Wenn Sie also den Betreff selbst festlegen möchten,
+zum Beispiel für eine formelle E-Mail an einen Geschäftskontakt,
+können Sie eine Gruppe erstellen
+erstellen, die nur Sie und den/die Empfänger enthält.
+Setzen Sie den Chat-Titel auf den von Ihnen gewünschten Betreff.
+Wenn die Empfänger Delta Chat nicht verwenden,
+wird sie wie eine normale,
+formelle E-Mail aussehen.
+Bonuspunkte für Professionalität gibt es,
+wenn Sie eine [Signaturtext](#signature) einfügen.
 
 
 ### Ist Delta Chat kompatibel mit Protonmail / Tutanota / Criptext?
