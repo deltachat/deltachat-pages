@@ -75,6 +75,17 @@ Delta Chat це новий додаток для спілкування, яки�
 - Ваше зображення профілю не надсилається із кожним повідомленням, але достатньо регулярно для того щоб ваші контакти заново отримували ваше зображення профілю, навіть якщо вони додали новий пристрій.
 
 
+### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+
+Yes,
+you can do so under "Settings > Profile > Signature Text".
+Your contacts who use Delta Chat will see it
+when they view your contact details.
+To everyone else,
+It will appear as an e-mail signature
+below the text of all your messages.
+
+
 ### Чи підтримує Delta Chat HTML-листи?
 
 Так, вхідні HTML-повідомлення мають кнопку «Показати повне повідомлення». Вихідні повідомлення завжди містять звичайний текст.
@@ -242,11 +253,15 @@ Autocrypt використовує обмежену і [безпечну під�
 
 - Запрошення до групи: Натисніть на назву групи чату, щоб побачити список її учасників, і виберіть "QR-код запрошення". Надішліть QR-зображення іншій стороні особисто або через другий канал.
 
-- Пряме запрошення в чат 1:1: Натисніть на іконку QR-коду <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> на головному екрані програми Delta Chat -- на робочому столі іконка QR-коду знаходиться в меню зліва. Поділіться QR-зображенням з іншою стороною або особисто, або через другий канал.
+- Direct 1:1 chat invitation: 
+  Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
+  Share the QR image with the other side either in person or through a second channel.
 
 **Зі сторони приєднувача**:
 
-- Торкніться іконки QR-коду <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> на головному екрані програми Delta Chat -- на робочому столі іконка QR-коду знаходиться в меню зліва.
+- Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
 
 - Виберіть "Відсканувати QR-код" і відскануйте QR-код який ви побачите від вашого співрозмовника в другому каналі.
 
@@ -616,6 +631,24 @@ Delta Chat підтримує поширені формати приватних
 - Миттєвий чат працює швидко, якщо обидві сторони активно використовують додаток. Іноді це повільніше, якщо програма працює у фоновому режимі.
 - Отримання повідомлень тоді може зайняти хвилини, оскільки як Android, так і iOS часто припиняють роботу Delta Chat у фоновому режимі і лише час від часу прокидають його. Ця штучна затримка зазвичай гірша на iOS, ніж на Android.
 - Однак програми для Android та iOS вбивають програми, що працюють у фоновому режимі, є проблемою для багатьох законних програм. Для отримання додаткової інформації див. [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Can I set the E-Mail Subject with Delta Chat?
+
+Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
+automatically to  the group name or to the sender name.
+
+So if you want to set the subject yourself,
+for example for a formal e-mail to a business contact,
+you can create a group
+with only yourself and the recipient(s).
+Set the Chat Title to the Subject you want,
+and then send your e-mail as the first message.
+If the recipients don't use Delta Chat,
+it will look like a normal,
+formal e-mail to them.
+You will get bonus professionalism points
+if you set a [signature text](#signature).
 
 
 ### Чи сумісний Delta Chat із Protonmail / Tutanota / Criptext?

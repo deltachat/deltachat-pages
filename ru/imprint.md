@@ -5,7 +5,7 @@ lang: ru
 
 # Контакты
 
-Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
+Delta Chat - это [проект сообщества с открытым исходным кодом](https://github.com/deltachat). Ответственными за содержание наших сайтов являются:
 
     merlinux GmbH
     Reichsgrafenstr. 20

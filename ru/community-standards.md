@@ -1,76 +1,76 @@
 ---
-title: Community Standards
+title: Стандарты сообщества
 lang: ru
 ---
 
-# Delta Chat Community Standards
+# Стандарты сообщества Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
-
-
-## Our Standards
-
-Examples of behavior that contribute to creating a positive environment include:
-
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
-
-Examples of behavior which we ask everybody to avoid include:
-
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+В интересах создания открытой и гостеприимной среды, мы, как
+разработчики и сопровождающие, стремимся сделать участие в сообществах Delta Chat
+в сообществах Delta Chat приятным и свободным от притеснений.
 
 
-## Maintainers and Responsibilities
+## Наши стандарты
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Примеры поведения, способствующего созданию позитивной среды, включают в себя:
 
-## Scope
+* Использовать приветливый и инклюзивный язык
+* Уважительно относиться к различным точкам зрения и опыту
+* Благосклонно принимать конструктивную критику
+* Проявлять сочувствие к членам сообщества и новичкам
+* Помогать и выступать посредником в случае расстройств или конфликтов
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Примеры поведения, которого мы просим всех избегать, включают в себя:
 
-## Reporting and Responses
+* Использование сексуализированного языка или образов, а также нежелательное сексуальное внимание или ухаживания.
+* Троллинг, оскорбительные/оскорбительные комментарии, личные или политические нападки
+* Публичные или частные домогательства
+* Публикация частной информации других людей, такой как физический или электронный
+  адрес, без прямого разрешения
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
-
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Мы понимаем, что иногда у людей может быть плохой день или они могут не осознавать
+последствия своего поведения. В таком случае вы можете осторожно напомнить
+им об этом публично или наедине, в зависимости от того, что будет уместнее. Предполагайте добросовестность у других;
+Более вероятно, что участники не знают, чем то, что они намеренно
+пытаются очернить других или снизить качество дискуссии.
 
 
-## Attribution
+## Сопровождающие и обязанности
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Сопровождающие проекта - это те, у кого есть права на коммит в репозиториях Delta Chat или административные права на каналы общения сообщества.
+От каждого сопровождающего требуется ответственность и соответствующие, осторожные действия
+в ответ на замеченные случаи сомнительного поведения.
+Мейнтейнеры проекта имеют право и несут ответственность за удаление, редактирование или
+отклонять комментарии, коммиты, код, правки в вики, проблемы и другие материалы.
+которые не соответствуют нашим стандартам.
+Они также могут временно или навсегда запретить участие в проекте за
+другое поведение, которое они считают неуместным, угрожающим, оскорбительным или вредным.
+
+## Область применения
+
+Стандарты сообщества действуют как в каналах связи проекта, так и на
+собраниях, так и в общественных местах
+когда человек представляет проект или его сообщество. Примеры
+представления проекта или сообщества является использование официального адреса электронной почты проекта
+адрес электронной почты, сообщение через официальный аккаунт в социальных сетях или выступление в качестве
+представителя на онлайн- или офлайн-мероприятии.
+
+## Жалобы и ответы
+
+Если вы стали свидетелем оскорбительного, издевательского или иного неприемлемого поведения
+вы можете обратиться к отдельным сопровождающим проекта, в настоящее время это [Nami](mailto:missytake@systemli.org) и [Ksenia](mailto:ksenia@transcyberian.org).
+Они рассмотрят сообщения и при необходимости привлекут других сопровождающих,
+и отреагируют так, как сочтут нужным и соответствующим
+обстоятельствам, но не против вашей воли.
+
+Сопровождающие обязаны соблюдать конфиденциальность
+в отношении лица, сообщившего об инциденте.
+Сопровождающие сами не застрахованы от получения информации
+и могут столкнуться с временными или постоянными последствиями
+по решению других мейнтейнеров.
+
+
+## Атрибуция
+
+Наш документ "Стандарты сообщества" адаптирован из [Contributor Covenant](https://contributor-covenant.org), версия 1.4,
+доступной по адресу <https://contributor-covenant.org/version/1/4>

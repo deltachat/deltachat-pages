@@ -95,6 +95,17 @@ i tuoi contatti riceveranno nuovamente la tua immagine del profilo, anche se agg
 dispositivo.
 
 
+### Posso impostare una Firma Testo/Stato/Motto con Delta Chat?  {#firma}
+
+SÌ,
+puoi farlo in "Impostazioni > Profilo > Firma".
+I tuoi contatti che utilizzano Delta Chat lo vedranno
+quando visualizzano i tuoi dettagli di contatto.
+A tutti gli altri,
+apparirà come una firma di posta elettronica
+sotto il testo di tutti i tuoi messaggi.
+
+
 ### Delta Chat supporta le e-mail HTML?
 
 Sì, i messaggi HTML in arrivo sono dotati di un pulsante "Mostra messaggio completo".
@@ -328,17 +339,15 @@ Uno di voi è l'"Invitante", l'altro è l'"Invitato".
 Tocca il titolo del gruppo di chat per visualizzare l'elenco dei membri e seleziona "Codice QR di invito".
 Condividi l'immagine QR con l'altra parte di persona o tramite un secondo canale.
 
-- Invito diretto alla chat 1:1:
-  Tocca l'icona del Codice QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  nella schermata principale dell'app Delta Chat -- 
-  sul desktop l'icona QR si trova nel menu a sandwich sul lato sinistro.
-  Condividi l'immagine QR con l'altra parte di persona o tramite un secondo canale.
+- Direct 1:1 chat invitation: 
+  Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
+  Share the QR image with the other side either in person or through a second channel.
 
 **Lato invitato**:
 
-- Tocca l'icona del Codice QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> 
-   nella schermata principale dell'app Delta Chat --
-   sul desktop l'icona QR si trova nel menu a sandwich sul lato sinistro.
+- Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
 
 - Scegli "SCANSIONE CODICE QR" e scansiona il Codice QR
   che vedi dal tuo partner di chat in un secondo canale.
@@ -1004,6 +1013,24 @@ occasionalmente. Questo ritardo artificiale è solitamente peggiore su iOS che s
 - Tuttavia, Android e iOS uccidono le app in esecuzione in background ed è un
 problema per molte app legittime. Per ulteriori informazioni, vedi
 [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Posso impostare l'Oggetto dell'E-MAIL con Delta Chat?
+
+Delta Chat imposta (e [crittografa](#message-metadata)!) il classico oggetto dell'e-mail
+automaticamente al nome del gruppo o al nome del mittente.
+
+Quindi, se vuoi impostare tu stesso l'oggetto,
+ad esempio per un'e-mail formale a un contatto commerciale,
+puoi creare un gruppo
+solo con te stesso e il/i destinatario/(i).
+Imposta il titolo della chat sull'oggetto che desideri,
+e poi invia la tua email come primo messaggio.
+Se i destinatari non utilizzano Delta Chat,
+sembrerà come,
+un'e-mail formale.
+Otterrai punti professionalità bonus
+se imposti un [testo della firma](#firma).
 
 
 ### Delta Chat è compatibile con Protonmail / Tutanota / Criptext?

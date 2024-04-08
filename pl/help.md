@@ -77,6 +77,11 @@ Możesz także dowiedzieć się, [jak dodawać konta do wielu urządzeń](#multi
 - Twoje zdjęcie profilowe nie jest wysyłane z każdą wiadomością, ale wystarczająco regularnie, aby kontakty ponownie otrzymały Twoje zdjęcie profilowe, nawet jeśli dodadzą nowe urządzenie.
 
 
+### Czy w Delta Chat mogę ustawić tekst podpisu/status/motto? {#signature}
+
+Tak, możesz to zrobić w „Ustawienia » Profil » Tekst podpisu”. Twoje kontakty korzystające z Delta Chat, zobaczą go, przeglądając twoje dane kontaktowe. Dla wszystkich innych będzie on widoczny jako podpis e-mail pod tekstem wszystkich twoich wiadomości.
+
+
 ### Czy Delta Chat obsługuje wiadomości e-mail w formacie HTML?
 
 - Tak, przychodzące wiadomości HTML otrzymują przycisk „Pokaż całą wiadomość”. Wychodzące wiadomości zawsze zawierają zwykły tekst.
@@ -248,11 +253,15 @@ Spotkaj się ze swoim partnerem na czacie poza Delta Chat, najlepiej osobiście,
 
 - Zaproszenie do grupy: dotknij tytułu czatu grupowego, aby wyświetlić listę jej członków i wybierz „Kod QR zaproszenia”. Udostępnij obraz QR drugiej stronie osobiście lub za pośrednictwem drugiego kanału.
 
-- Bezpośrednie zaproszenie na czat 1:1: Naciśnij ikonę kodu QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> na ekranie głównym aplikacji Delta Chat – na komputerze stacjonarnym ikona QR znajduje się w menu po lewej stronie. Udostępnij obraz QR drugiej stronie osobiście lub za pośrednictwem drugiego kanału.
+- Direct 1:1 chat invitation: 
+  Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
+  Share the QR image with the other side either in person or through a second channel.
 
 **Strona dołączająca**:
 
-- Naciśnij ikonę kodu QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> na ekranie głównym aplikacji Delta Chat – na komputerze stacjonarnym ikona QR znajduje się w menu po lewej stronie.
+- Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
 
 - Wybierz „ZESKANUJ KOD QR” i zeskanuj kod QR, który zobaczysz u swojego partnera na czacie w drugim kanale.
 
@@ -625,6 +634,13 @@ Aby dowiedzieć się więcej na ten temat, [przeczytaj nasz wpis na blogu na ten
 - Natychmiastowe czatowanie działa szybko, jeśli obie strony aktywnie korzystają z aplikacji. Czasami działa wolniej, jeśli aplikacja działa w tle.
 - Odbieranie wiadomości może zająć kilka minut, ponieważ zarówno Android, jak i iOS często zatrzymują Delta Chat podczas działaniem w tle i budzą go tylko od czasu do czasu. To sztuczne opóźnienie jest zwykle gorsze na iOS niż na Androidzie.
 - Jednak „ubijanie” aplikacji działających w tle na Androidzie i iOS stanowi problem dla wielu legalnych aplikacji. Aby uzyskać więcej informacji, zobacz [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Czy w Delta Chat mogę ustawić temat wiadomości e-mail?
+
+Delta Chat automatycznie ustawia (i [szyfruje](#message-metadata)!) klasyczny temat wiadomości e-mail na nazwę grupy lub nazwę nadawcy.
+
+Jeśli więc chcesz samodzielnie ustawić temat, na przykład w przypadku oficjalnego e-maila do kontaktu biznesowego, możesz utworzyć grupę składającą się tylko z ciebie i odbiorców. Ustaw tytuł czatu na żądany temat, a następnie wyślij swój e-mail jako pierwszą wiadomość. Jeśli odbiorcy nie korzystają z Delta Chat, będzie to dla nich wyglądać jak zwykły, formalny e-mail. Jeśli ustawisz [tekst podpisu](#signature), otrzymasz dodatkowe punkty profesjonalizmu.
 
 
 ### Czy Delta Chat jest kompatybilny z Protonmail / Tutanota / Criptext?

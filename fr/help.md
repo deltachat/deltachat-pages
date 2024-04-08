@@ -82,6 +82,17 @@ Dans les paramètres vous pouvez ajouter une photo de profil. Si vous écrivez �
 - Votre photo de profil n'est pas envoyée avec chaque message, mais assez régulièrement pour que vos contacts aient une photo à jour même s'ils ajoutent un nouvel appareil.
 
 
+### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+
+Yes,
+you can do so under "Settings > Profile > Signature Text".
+Your contacts who use Delta Chat will see it
+when they view your contact details.
+To everyone else,
+It will appear as an e-mail signature
+below the text of all your messages.
+
+
 ### Est-ce que Delta Chat gère les courriels en HTML ?
 
 Yes, incoming HTML messages come with a "Show full message" button. 
@@ -296,15 +307,13 @@ One of you is the "Inviter", the other is the "Joiner".
 
 - Direct 1:1 chat invitation: 
   Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
   Share the QR image with the other side either in person or through a second channel.
 
 **Joiner side**:
 
 - Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
 
 - Choose "SCAN QR CODE" and scan the QR Code 
   that you see from your chat partner in a second channel.
@@ -912,6 +921,24 @@ Cependant, il faut activer des options spéciales pour que cela fonctionne corre
 - La réception de messages peut alors prendre plusieurs minutes, car Android et iOS empêchent souvent Delta Chat de fonctionner en arrière-plan et ne le réveillent qu'occasionnellement. Ce délai artificiel est généralement pire sur iOS que sur Android.
 - Cependant, le fait qu'Android et iOS tuent les applications fonctionnant en arrière-plan constitue un problème pour de nombreuses applications reconnues.
 Pour plus d'informations, voir [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Can I set the E-Mail Subject with Delta Chat?
+
+Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
+automatically to  the group name or to the sender name.
+
+So if you want to set the subject yourself,
+for example for a formal e-mail to a business contact,
+you can create a group
+with only yourself and the recipient(s).
+Set the Chat Title to the Subject you want,
+and then send your e-mail as the first message.
+If the recipients don't use Delta Chat,
+it will look like a normal,
+formal e-mail to them.
+You will get bonus professionalism points
+if you set a [signature text](#signature).
 
 
 ### Delta Chat est-il compatible avec Protonmail / Tutanota / Criptext ?

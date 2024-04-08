@@ -5,21 +5,21 @@ lang: ca
 
 # Canals i repositoris
 
-For community interactions around Delta Chat please read our [Community Standards](community-standards).
+Per interaccions de la comunitat sobre Delta Chat si us plau llegiu els nostres [Estàndards de Comunitat](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fedivers](https://chaos.social/web/@delta) per anuncis i retroalimentació.
 
 - [Fòrum de suport de Delta Chat](https://support.delta.chat) per converses més extenses
   sobre funcionalitats i per rebre suport.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Repositoris de Delta Chat](https://github.com/deltachat/) on podreu
+  trobar el codi de les apps de DeltaChat i aquest web.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Podeu trobar més enllaços a [cosmos](https://cosmos.delta.chat)
 
-[Donate Money](donate){: .cta-button}
+[Donatius](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Traduccions i Informes d'error
 
 - [Traduccions a Transifex](https://www.transifex.com/delta-chat/public/)
 - [Tasques del Delta Chat per Android](https://github.com/deltachat/deltachat-android/issues)
@@ -35,7 +35,7 @@ if you are interested to help our efforts!
 For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
 
 
-# Third party communication channels 
+# Canals de comunicació de tercers
 
 The following Delta Chat related communication channels are run by third parties
 which may or may not follow our [Community Standards](community-standards): 
@@ -51,7 +51,7 @@ which may or may not follow our [Community Standards](community-standards):
   which you can follow by putting `!delta_chat@lemmy.zip` 
   into the search field of your fediverse app.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- Un [subreddit de DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
 If you know of, or setup yourself, additional channels,
 please let us know (see Channels and repositories above)

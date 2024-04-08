@@ -75,6 +75,17 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 - 您的个人资料图片并非随每条消息一起发送，但发送的频率足够高。因此即使您的联系人添加了新设备，也能够重新收到您的个人资料图片。
 
 
+### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+
+Yes,
+you can do so under "Settings > Profile > Signature Text".
+Your contacts who use Delta Chat will see it
+when they view your contact details.
+To everyone else,
+It will appear as an e-mail signature
+below the text of all your messages.
+
+
 ### Delta Chat 支持 HTML 电子邮件吗？
 
 Yes, incoming HTML messages come with a "Show full message" button. 
@@ -291,15 +302,13 @@ One of you is the "Inviter", the other is the "Joiner".
 
 - Direct 1:1 chat invitation: 
   Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
   Share the QR image with the other side either in person or through a second channel.
 
 **Joiner side**:
 
 - Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
 
 - Choose "SCAN QR CODE" and scan the QR Code 
   that you see from your chat partner in a second channel.
@@ -904,6 +913,24 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - 在双方都积极使用本应用时，即时聊天反应迅速；而当应用运行在后台时，有时就会很慢。
 - 由于 Android 与 iOS 经常阻止 Delta Chat 在后台运行、偶尔才会唤醒它，接收消息可能要花费数分钟。iOS 上的这种人为延迟通常比 Android 上的更糟糕。
 - 另外，对于很多正常应用来说，Android 和 iOS 杀掉后台应用是一个问题。更多信息，请参阅 [dontkillmyapp.com](https://dontkillmyapp.com/)。
+
+
+### Can I set the E-Mail Subject with Delta Chat?
+
+Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
+automatically to  the group name or to the sender name.
+
+So if you want to set the subject yourself,
+for example for a formal e-mail to a business contact,
+you can create a group
+with only yourself and the recipient(s).
+Set the Chat Title to the Subject you want,
+and then send your e-mail as the first message.
+If the recipients don't use Delta Chat,
+it will look like a normal,
+formal e-mail to them.
+You will get bonus professionalism points
+if you set a [signature text](#signature).
 
 
 ### Delta Chat 与 Protonmail / Tutanota / Criptext 兼容吗？

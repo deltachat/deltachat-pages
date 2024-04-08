@@ -93,6 +93,17 @@ nebo přidáš nový vyfocením QR kódu, tyto kontakty automaticky uvidí tvůj
 Profilový obrázek není posílán s každou zprávou, ale dostatečně často k tomu aby tvé kontakty zvuobdrželi obrázek i když začnou používat nové zařízení.
 
 
+### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+
+Yes,
+you can do so under "Settings > Profile > Signature Text".
+Your contacts who use Delta Chat will see it
+when they view your contact details.
+To everyone else,
+It will appear as an e-mail signature
+below the text of all your messages.
+
+
 ### Umí Delta Chat pracovat s e-maily v HTML?
 
 Yes, incoming HTML messages come with a "Show full message" button. 
@@ -334,15 +345,13 @@ One of you is the "Inviter", the other is the "Joiner".
 
 - Direct 1:1 chat invitation: 
   Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
   Share the QR image with the other side either in person or through a second channel.
 
 **Joiner side**:
 
 - Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
 
 - Choose "SCAN QR CODE" and scan the QR Code 
   that you see from your chat partner in a second channel.
@@ -1010,6 +1019,24 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - However, Android and iOS kill apps running in the background is a
   problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Can I set the E-Mail Subject with Delta Chat?
+
+Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
+automatically to  the group name or to the sender name.
+
+So if you want to set the subject yourself,
+for example for a formal e-mail to a business contact,
+you can create a group
+with only yourself and the recipient(s).
+Set the Chat Title to the Subject you want,
+and then send your e-mail as the first message.
+If the recipients don't use Delta Chat,
+it will look like a normal,
+formal e-mail to them.
+You will get bonus professionalism points
+if you set a [signature text](#signature).
 
 
 ### Lze Delta Chat používat s Protonmail / Tutanota / Criptext?

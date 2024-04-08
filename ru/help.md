@@ -23,62 +23,62 @@ Delta Chat — это новое приложение для обмена мгн
 
 ### Каковы преимущества Delta Chat по сравнению с другими мессенджерами?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- _Незавим_ от любых компаний и сервисов. _Вы_ владеете вашими данными.
+- Ваши данные не хранятся на центральном сервере, если только 
+  все пользователи не используют одни и те же серверы электронной почты.
+- Вы никому не передаете свою адресную книгу.
+- _Быстрый_ за счет использования Push-IMAP.
+- _Большая база пользователей_ - адресаты, _не_ использующие Delta Chat, также могут быть доступны.
+- Никакого спама - по умолчанию отображаются только сообщения известных пользователей.
+- _Сквозное шифрование_ с помощью Autocrypt.
+-  Свободное ПО на основе _копилефта_ и _стандартов_.
+- _Гибкая идентификация_ со встроенной поддержкой [нескольких учетных записей](#multiple-accounts)
 
 
 ### Какие сообщения отображаются в Delta Chat?
 
-By default, Delta Chat shows all e-mails.
+По умолчанию Delta Chat показывает все сообщения электронной почты.
 
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
+В разделе "Настройки -> Чаты и
+Медиа -> Показывать классические электронные письма" вы можете изменить этот параметр. У вас есть эти опции:
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- "Нет, только чаты": Отображаются только сообщения и ответы отправленные другими пользователями Delta Chat.
+  Это наиболее целесообразно, если вы используете одну и ту же
+  учетную запись электронной почты и для обычной почты.
+- "Все": Delta Chat показывает все сообщения, отправленные на ваш электронный адрес.
+  Это имеет смысл, если вы хотите использовать Delta Chat для всех своих писем,
+  чтобы ни одно сообщение не было потеряно. Это настройка по умолчанию.
+- "Для принятых контактов": Delta Chat показывает все сообщения электронной почты от контактов,
+  с которыми у вас уже есть чат, но новые чаты появляются только для сообщений Delta Chat.
+  Это помогает в каждом конкретном случае решить, хотите ли вы вести разговор
+  в Delta Chat или в "обычном" приложении электронной почты.
 
 
 ### Что если я ожидаю сообщение от кого-то кому я ранее не писал?
 
-- If a message comes from an unknown contact, it appears as a **request**. You
-  need to accept the request before you can reply.
-- You can also "delete" it if you don't want to chat with them for now. This
-  does *not* delete the message on the server, only on your device. So you can
-  still deal with the message in a different mail app.
-- If you delete a request, future messages from that contact will still appear
-  as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider *blocking* them.
+- Если сообщение приходит от неизвестного контакта, оно отображается как **запрос**. Вам
+  необходимо принять запрос, чтобы ответить.
+- Вы также можете "удалить" его, если не хотите общаться с ним в данный момент. Это
+  не удаляет сообщение на сервере, а только на вашем устройстве. Таким образом, вы можете
+  по-прежнему работать с сообщением в другом почтовом приложении.
+- Если вы удалите запрос, будущие сообщения от этого контакта по-прежнему будут отображаться
+  как запрос сообщения, так что вы можете передумать. Если вы действительно не хотите
+  получать сообщения от этого человека, подумайте о том, чтобы *заблокировать* его.
 
 
 ### Поддерживает ли Delta Chat вложения фото, видео или другие?
 
 - Да. Помимо обычного текста, все вложения электронной почты отображаются в виде отдельных сообщений. В исходящие сообщения вложения встраиваются по мере необходимости автоматически.
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+- Для лучшей производительности изображения по умолчанию оптимизируются и отправляются в меньшем размере, но вы можете отправить его в виде "файла", чтобы сохранить оригинал.
 
 <h3 id="multiple-accounts">Как я могу добавить или сменить аккаунт?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Вы можете легко работать с дополнительными учетными записями в мобильном и настольном клиентах Delta Chat, нажав либо:
+- на кнопку меню и затем "Переключить аккаунт" (Android и настольный компьютер)
+- или на значок профиля и затем "Добавить аккаунт" (iOS).
 
-You may also wish to learn [how to add accounts to multiple devices](#multiclient).
+Возможно, вы также захотите узнать [как добавить учетные записи на несколько устройств](#multiclient).
 
 ### Кто видит моё изображение в профиле?
 
@@ -95,6 +95,17 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 - Изображение вашего профиля отправляется не с каждым сообщением, но достаточно 
 регулярно, чтобы ваши контакты снова его получили, даже если они добавят
  новое устройство.
+
+
+### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+
+Yes,
+you can do so under "Settings > Profile > Signature Text".
+Your contacts who use Delta Chat will see it
+when they view your contact details.
+To everyone else,
+It will appear as an e-mail signature
+below the text of all your messages.
 
 
 ### Поддерживает ли Delta Chat электронную почту в формате HTML?
@@ -185,23 +196,23 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
   message them or write to a group they're in as well.
 
 
-### How do disappearing messages work? {#ephemeralmsgs}
+### Как работают исчезающие сообщения? {#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 1 minute and 5 weeks.
+Вы можете включить "исчезающие сообщения"
+в настройках чата,
+в правом верхнем углу окна чата,
+выбрав временной интервал
+от 1 минуты до 5 недель.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted
-both in each email account on the server,
-and in the app itself.
+Пока настройка не будет снова отключена,
+приложение Delta Chat каждого участника чата позаботится 
+об удалении сообщений
+по истечении выбранного периода времени.
+Отсчет времени начинается
+когда получатель впервые видит сообщение в Delta Chat.
+Сообщения удаляются
+как в каждой учетной записи электронной почты на сервере,
+и в самом приложении.
 
 Note that you can rely on disappearing messages
 only as long as you trust your chat partners;
@@ -267,13 +278,13 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
  что человек прочитал или понял сообщение ;)
 
 
-### What happens if I turn on "Delete old messages from server"?
+### Что произойдет, если я включу функцию "Удалять старые сообщения с сервера"?
 
-- By default, Delta Chat stores all messages locally on your device.
-  If you  e.g. want to save storage space at your mail provider,
-  you can configure  Delta Chat
-  to delete old already-received messages on the server automatically.
-  They still remain on your device until you delete them there, too.
+- По умолчанию Delta Chat хранит все сообщения локально на вашем устройстве.
+  Если вы, например, хотите сэкономить место у своего почтового провайдера,
+  вы можете настроить Delta Chat
+  автоматически удалять старые, уже полученные сообщения на сервере.
+  Они по-прежнему остаются на вашем устройстве, пока вы не удалите их там же.
 
 - To turn it on, go to **Delete Old Messages → Delete Messages from Server**
   in the "Chats and Media" settings.
@@ -285,125 +296,123 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
   so that the other device(s) can download them, too.
 
 
-### What happens if I turn on "Delete old messages from device"? {#delold}
+### Что произойдет, если я включу функцию "Удалять старые сообщения с устройства"? {#delold}
 
-- If you want to save storage on your device, you can choose to delete old
-  messages automatically. 
-- To turn it on, go to "delete old messages from device" in the "Chats & Media"
-  settings. You can set a timeframe between "after an hour" and "after a year";
-  this way, *all* messages will be deleted from your device as soon as they are
-  older than that.
+- Если вы хотите сэкономить место на устройстве,
+  можно выбрать функцию автоматического удаления старых сообщений.
+- Чтобы включить эту функцию, перейдите к пункту "Удалять старые сообщения с устройства" в настройках "Чаты и медиа".
+ Вы можете установить временной интервал от "через час" до "через год";
+  таким образом, *все* сообщения будут удаляться с устройства,
+  как только они станут старше этого срока.
 
 
 ## Шифрование и безопасность
 
-### Which standards are used for end-to-end encryption? 
+### Какие стандарты используются для сквозного шифрования? 
 
-[Autocrypt](https://autocrypt.org) is used for automatically
-establishing end-to-end encryption with contacts and group chats.
-Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
-End-to-End encrypted messages are marked with a padlock 
+[Autocrypt](https://autocrypt.org) используется для автоматического
+установки сквозного шифрования при работе с контактами и групповыми чатами.
+Autocrypt использует ограниченное и [подмножество стандарта OpenPGP](#openpgp-secure).
+Зашифрованные сообщения помечаются навесным замком 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
 
 [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-are used for establishing chats with guaranteed end-to-end encryption 
-which protects against network attacks and compromised servers.
-Chats marked with a green checkmark 
+используются для создания чатов с гарантированным сквозным шифрованием. 
+что защищает от сетевых атак и взлома серверов.
+Чаты, отмеченные зеленой галочкой 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-guarantee end-to-end encrypted messages. 
+гарантируют сквозное шифрование сообщений. 
 
-### How can i know if messages are end-to-end encrypted? {#whene2e}
+### Как узнать зашифрованы ли сообщения сковзным шифрованием? {#whene2e}
 
-All end-to-end encrypted messages carry a padlock:
+Все сквозные зашифрованные сообщения отображаются с навесным замком:
 
 <img style="width:160px; margin:1px" src="../assets/help/lock-screenshot.png" alt="padlock in bubble"/>
 
-End-to-end encryption is guaranteed if there is a green checkmark next to the chat title:
+Сквозное шифрование гарантировано, если рядом с заголовком чата стоит зеленая галочка:
 
 <img style="width:211px; margin:1px" src="../assets/help/green-checkmark-screenshot.png" alt="green checkmark in title"/>
 
 
-### How can I get guaranteed end-to-end encryption and green checkmarks? {#howtoe2ee}
+### Как получить гарантированное сквозное шифрование и зеленые галочки? {#howtoe2ee}
 
-Meet your chat partner outside Delta Chat, preferably in person
-but a second channel like a video chat
-or a different messenger is fine as well.
-Perform the following QR show/scan procedure with your chat partner.
-One of you is the "Inviter", the other is the "Joiner". 
+Встретьтесь с партнером по чату вне Delta Chat, предпочтительно лично.
+но можно использовать и второй канал, например, видеочат
+или другой мессенджер тоже подойдет.
+Выполните следующую процедуру показа/сканирования QR с вашим партнером по чату.
+Один из вас - "Приглашающий", другой - "Присоединившийся". 
 
-**Inviter side**:
+**Сторона приглашающего**:
 
-- Group invitation: 
-  Tap the chat group title to see its member list, and select "QR Invite code". 
-  Share the QR image with the other side either in person or through a second channel.
+- Приглашение в группу: 
+  Нажмите на название чат-группы, чтобы увидеть список ее участников, и выберите "QR-код приглашения". 
+  Поделитесь QR-изображением с собеседником лично или по второму каналу.
 
 - Direct 1:1 chat invitation: 
   Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
   Share the QR image with the other side either in person or through a second channel.
 
-**Joiner side**:
+**Сторона приглашённого**:
 
 - Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen -- 
-  on Desktop the QR Icon is in the left-side sandwich menu.
+  on the Delta Chat app main screen.
 
-- Choose "SCAN QR CODE" and scan the QR Code 
-  that you see from your chat partner in a second channel.
+- Выберите "Сканировать QR код" и отсканируйте QR-код 
+  который вы видите у партнера по чату во втором канале.
 
-- Tap "OK"
+- Нажмите "OK".
 
 
-**Both Inviter and Joiner**:
+**Оба пришлатель и приглашённый**:
 
-Wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Подождите, пока между устройствами будет происходить обмен [сетевыми сообщениями Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol).
 
-- If both devices are online,
-  both sides will eventually see a (group or direct) chat with a green checkmark
-  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-  next to the title.
+- Если оба устройства находятся в сети,
+  обе стороны в конечном итоге увидят (групповой или прямой) чат с зеленой галочкой
+ <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
+  рядом с названием.
 
-- If one of the devices is offline, the green checkmarks will only
-  appear later when the device is internet-connected again
-  and the Secure-Join network protocol completed. 
+- Если одно из устройств находится в автономном режиме, зеленые галочки появятся только тогда.
+  появятся позже, когда устройство снова будет подключено к Интернету
+  и сетевой протокол Secure-Join будет завершен. 
 
-Congratulations! 
-You now will automatically use guaranteed end-to-end encryption
-with this contact and both of you can add each other to green-checkmarked groups
+Поздравляем! 
+Теперь вы будете автоматически использовать гарантированное сквозное шифрование
+с этим контактом, и вы оба сможете добавлять друг друга в группы, отмеченные зеленым флажком
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>,
-thereby automatically spreading guaranteed end-to-end encryption among its members. 
+тем самым автоматически распространяя гарантированное сквозное шифрование среди ее членов. 
 
 
-### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#e2eeguarantee}
+### Что означает зеленая галочка и "гарантированное сквозное шифрование"? {#e2eeguarantee}
 
-Chat titles with green checkmarks
+Названия чатов с зелеными галочками
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-mean that all messages in the chat will be end-to-end encrypted
-and can not be read or altered by compromised e-mail servers or Internet providers. 
-Joining green-checkmarked group chats
-safely spreads everybody's encryption information (and green checkmarks)
-in a manner that guarantees end-to-end encryption in the group and among members. 
+означают, что все сообщения в чате будут зашифрованы от конца до конца
+и не могут быть прочитаны или изменены взломанными серверами электронной почты или интернет-провайдерами. 
+Присоединение к групповым чатам с зелеными отметками
+безопасно распространяет информацию о шифровании (и зеленые отметки)
+таким образом, чтобы гарантировать сквозное шифрование в группе и между ее участниками. 
 
-Contact profiles with green checkmarks 
+Профили контактов с зелеными галочками 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-mean that messaging a contact is currently guaranteed to be end-to-end encrypted.
-Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by a another green-checkmarked contact.
-Introductions happen automatically when adding members to groups. 
-Whoever adds a contact to a green-checkmarked group becomes an introducer 
-to those members who didn't yet know about the added contact.
-In a contact profile you can tap on the "Introduced by ..." text repeatedly
-until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
+означают, что обмен сообщениями с контактом в настоящее время гарантированно зашифрован.
+Каждый контакт с зеленой галочкой либо совершил с вами прямой [QR-сканирование](#howtoe2ee)
+либо был представлен другим контактом с зеленой отметкой.
+Знакомство происходит автоматически при добавлении участников в группы. 
+Тот, кто добавляет контакт в группу, отмеченную зеленым флажком, становится представителем 
+для тех участников, которые еще не знают о добавленном контакте.
+В профиле контакта можно несколько раз нажать на текст "Представлен ..."
+пока не дойдете до того, с кем вы непосредственно провели [QR-сканирование](#howtoe2ee).
 
-Note that in a contact profile you may see and tap introducers 
-but there is no green checkmark in the profile title. 
-This usually means that the contact ["sent a message from another device"](#nocryptanymore). 
+Обратите внимание, что в профиле контакта вы можете увидеть и коснуться знакомых 
+но в заголовке профиля нет зеленой галочки. 
+Обычно это означает, что контакт ["отправил сообщение с другого устройства"](#nocryptanymore). 
 
-For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-and specifically read about "Verified Groups", the technical term
-of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+Для более подробного обсуждения "гарантированного сквозного шифрования"
+пожалуйста, смотрите [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
+и, в частности, читайте о "Проверенных группах", техническом термине
+того, что здесь называется "чатами с зелеными галочками" или "чатами с гарантированным сквозным шифрованием".
 
 
 ### A contact "sent a message from another device", what can i do? {#nocryptanymore}
@@ -416,18 +425,18 @@ Instead check with your contact through a second channel
 like a video call, other messenger or a phone call,
 to find out what happened. 
 
-If your contact actually caused the drop of guaranteed end-to-end encryption
-please see the next paragraphs for common reasons and their mitigations. 
-Regardless, all other green-checkmarked chats remain guaranteed end-to-end encrypted
-even if the contact is a member there. 
+Если ваш контакт действительно привел к снижению уровня гарантированного сквозного шифрования
+пожалуйста, ознакомьтесь с распространенными причинами и способами их устранения в следующих параграфах. 
+Независимо от этого, все остальные чаты, отмеченные зеленым флажком, остаются гарантированно зашифрованными
+даже если ваш собеседник является его участником. 
 
-**Your contact is using Delta Chat on a second device (phone or laptop)**
+**Ваш собеседник использует Delta Chat на втором устройстве (телефоне или ноутбуке)**.
 
-If they have another device with a Delta Chat app running,
-they should remove the account from the new device
-and add it [as a second device as described here](#multiclient).
-As soon as they message you afterwards, the warning will be gone
-and guaranteed encryption is established with both devices of your contact. 
+Если у них есть другое устройство с запущенным приложением Delta Chat,
+им следует удалить учетную запись с нового устройства
+и добавить его [как второе устройство, как описано здесь](#multiclient).
+Как только они сообщат вам об этом, предупреждение исчезнет
+и гарантированное шифрование будет установлено на обоих устройствах вашего собеседника. 
 
 **Your contact reinstalled Delta Chat using their old account login**
  
@@ -1015,6 +1024,24 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - Однако Android и iOS убивают приложения, работающие в фоновом режиме, что является
   проблемой для многих законных приложений. Для получения дополнительной информации см.
   [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Can I set the E-Mail Subject with Delta Chat?
+
+Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
+automatically to  the group name or to the sender name.
+
+So if you want to set the subject yourself,
+for example for a formal e-mail to a business contact,
+you can create a group
+with only yourself and the recipient(s).
+Set the Chat Title to the Subject you want,
+and then send your e-mail as the first message.
+If the recipients don't use Delta Chat,
+it will look like a normal,
+formal e-mail to them.
+You will get bonus professionalism points
+if you set a [signature text](#signature).
 
 
 ### Совместим ли Delta Chat с Protonmail / Tutanota / Criptext?
