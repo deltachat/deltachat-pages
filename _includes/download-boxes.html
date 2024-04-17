@@ -53,8 +53,8 @@
                 <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
             <details>
-                <summary>
-                    <b>{%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}</b>
+                <summary class="noupgrades">
+                    {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="buttons">
                     <a href="https://www.apklis.cu/application/chat.delta" class="img-badge">
@@ -97,8 +97,8 @@
                 Homebrew manual install: <code>brew install --cask deltachat</code>
             </div>
             <details>
-                <summary>
-                    <b>{%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}</b>
+                <summary class="noupgrades">
+                    {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="buttons">
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg"><small>Download</small> DeltaChat.dmg</a>
@@ -118,8 +118,8 @@
                 Winget install: <code>winget install 9PJTXX7HN3PK</code>
             </div>
             <details>
-                <summary>
-                    <b>{%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}</b>
+                <summary class="noupgrades">
+                    {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="buttons">
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe"><small>Download</small> Setup.exe</a>
@@ -150,8 +150,8 @@
                 Snap manual install (community maintained): <code>sudo snap install deltachat-desktop</code>
             </div>
             <details>
-                <summary>
-                    <b>{%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}</b>
+                <summary class="noupgrades">
+                    {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="buttons">
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for</small> Debian/Ubuntu</a>
