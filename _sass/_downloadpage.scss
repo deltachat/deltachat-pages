@@ -81,3 +81,10 @@ summary.noupgrades {
     text-decoration: none;
     cursor: pointer;
 }
+
+summary {
+  list-style-type: '➡ ';
+}
+details[open] > summary {
+  list-style-type: '⬆ ';
+}
