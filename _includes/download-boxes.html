@@ -49,9 +49,6 @@
                     </picture>
                 </a>
             </div>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
             <details>
                 <summary class="noupgrades">
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
@@ -67,6 +64,9 @@
                     <a href="https://download.delta.chat/android/deltachat-gplay-release-{{VERSION_ANDROID}}.apk"><small>Download</small> APK</a>
                 </div>
             </details>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="ios">
             <div class="title">iPhone/iPad</div>
@@ -92,8 +92,6 @@
                 <a href="https://formulae.brew.sh/cask/deltachat"><small>Install with</small>Homebrew</a>
             </div>
             <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-                <br />
                 Homebrew manual install: <code>brew install --cask deltachat</code>
             </div>
             <details>
@@ -104,6 +102,9 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg"><small>Download</small> DeltaChat.dmg</a>
                 </div>
             </details>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="windows">
             <div class="title">Windows</div>
@@ -113,8 +114,6 @@
                 </a>
             </div>
             <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-                <br />
                 Winget install: <code>winget install 9PJTXX7HN3PK</code>
             </div>
             <details>
@@ -128,6 +127,9 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
                 </div>
             </details>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="linux">
             <div class="title">GNU/Linux</div>
@@ -142,8 +144,6 @@
                 <a href="https://aur.archlinux.org/packages/deltachat-desktop-git/"><small>Build from</small>AUR</a>
             </div>
             <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-                <br />
                 Flatpak manual install: <code>flatpak install flathub chat.delta.desktop</code><br />
                 Arch manual install: <code>yay -S deltachat-desktop-git</code><br />
                 Nix manual install: <code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code><br />
@@ -160,6 +160,9 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.tar.gz"><small>Get Universal</small> tar.gz</a>
                 </div>
             </details>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="ubuntutouch">
             <div class="title">Ubuntu Touch</div>
