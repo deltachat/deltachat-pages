@@ -77,13 +77,10 @@ div.download-content {
 }
 
 summary.noupgrades {
-    font-weight: bold;
+    color: #1e6bb8;
     cursor: pointer;
+    list-style: none;
 }
-
-summary {
-  list-style-type: '> ';
-}
-details[open] > summary {
-  list-style-type: '^ ';
+summary.noupgrades:hover {
+    text-decoration: underline;
 }
