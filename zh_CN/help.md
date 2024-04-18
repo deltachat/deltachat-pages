@@ -20,16 +20,15 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 ### 与其他通信软件相比，Delta Chat 有哪些优势？
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- _独立_ 于任何公司或服务。_您_ 拥有您的数据。
+- 您的数据不会保存于中央服务器，除非所有用户都在使用同一个电子邮件服务器。
+- 您不会将通讯录分发给任何人。
+- _快速_——使用 Push-IMAP。
+- _最广泛的用户基础_——也可以与 _不_ 使用 Delta Chat 的收件人进行联系。
+- _没有垃圾信息_——默认情况下仅显示已知用户的消息。
+- _端到端加密_——通过 Autocrypt。
+- 基于 _著佐权_ 与 _标准_ 的自由软件。
+- _身份灵活_，内置[多账户](#multiple-accounts)支持。
 
 
 ### 哪些消息会在 Delta Chat 中出现？
@@ -54,15 +53,15 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 - 是的。除纯文本外，所有电子邮件附件均显示为单独的消息。发出消息会根据需要自动获得附件。
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+- 为了提高性能，默认情况下会对图像进行优化并以较小的尺寸发送，但您也可以将其作为 "文件 "发送，以保留原始图像。
 
 <h3 id="multiple-accounts">如何添加账户或在多个账户之间切换？</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+您可以在Delta Chat 移动和桌面客户端上轻松使用其他账户，只需点击以下任一按钮：
+- 菜单按钮，然后点击 "切换账户"（安卓和桌面客户端）
+- 或个人资料图标，然后点击 "添加账户"（iOS）
 
-You may also wish to learn [how to add accounts to multiple devices](#multiclient).
+您可能还想了解 [如何为多个设备添加账户](#multiclient)。
 
 ### 谁会看见我的个人资料图片？
 
@@ -75,21 +74,19 @@ You may also wish to learn [how to add accounts to multiple devices](#multiclien
 - 您的个人资料图片并非随每条消息一起发送，但发送的频率足够高。因此即使您的联系人添加了新设备，也能够重新收到您的个人资料图片。
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### 我可以为 Delta Chat 设置签名文本/状态/格言吗？{#signature}
 
-Yes,
-you can do so under "Settings > Profile > Signature Text".
-Your contacts who use Delta Chat will see it
-when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+是的，
+您可以在“设置 > 个人资料 > 签名文本”下执行此操作。
+使用 Delta Chat 的联系人查看您的联系方式时将会看到它。
+对其他所有人来说，
+它将显示为在您所有消息文本下方的电子邮件签名。
 
 
 ### Delta Chat 支持 HTML 电子邮件吗？
 
-Yes, incoming HTML messages come with a "Show full message" button. 
-Outgoing messages always use plain text.
+是的，收到的 HTML 邮件会有一个 "显示完整消息 "按钮。 
+发出的邮件始终使用纯文本。
 
 
 ### 为什么我必须在 Delta Chat 中输入我的电子邮件密码？ 这样安全吗？
@@ -135,8 +132,8 @@ Outgoing messages always use plain text.
 
 - **静音聊天**，如果您不想再得到关于它们的通知。被静音的聊天会呆在原地，并且您可以固定被静音的聊天。
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  Archived chats remain accessible above the chat list or via search. 
+- 如果您不想再在聊天列表中看到聊天记录，请**归档聊天**。
+  已归档的聊天仍可在聊天列表上方或通过搜索访问。 
 
 - 当被归档的聊天接收到一条新消息，除非其被静音，它会**从归档中弹出**并返回聊天列表。
   **被静音的聊天会保持被归档的状态**，除非您手动解档它们。 
@@ -147,29 +144,20 @@ Outgoing messages always use plain text.
 
 ### 绿色圆点代表什么？
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [webxdc app](#webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- 自 Delta Chat 1.34 版起，您有时可以在联系人头像旁看到一个 "绿点"。
+  绿点。这意味着他们 "最近被看到"。
+- 具体来说：这意味着在过去 10 分钟内，Delta Chat 看到过他们：
+  - 因为他们直接给你发了消息、
+  - 因为他们在你们都是成员的群组里写了什么、
+  - 因为他们向您发送了您所写信息的读取回执、
+- 或者因为他们通过使用 [webxdc 应用程序](#webxdc) 向您的 Delta Chat 应用发送数据。
+- 因此，这并不是实时在线状态 -- 如果有人没有立即回复，即使他们看起来是在线的，也不要担心，给他们一些空间 ;-)
+- 另一方面，别人也不会总是 "看到你在线"。如果您关闭了读取收据功能，他们就不会看到绿点，直到您给他们发消息或给他们所在的群组写信。
 
 
-### How do disappearing messages work? {#ephemeralmsgs}
+### 消息定时销毁是如何工作的？{#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 1 minute and 5 weeks.
+您可以在聊天窗口右上角的聊天设置中通过选择 1 分钟到 5 周之间的时间跨度打开“消息定时销毁”。
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -258,9 +246,9 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 - 找到“聊天与媒体”设置中的“从设备删除旧消息”，在从“一小时后”到“一年后”的一系列选项中选择一个。这样，设备上 *所有* 比所选择时间长度老的消息将被删除。
 
 
-## Encryption and Security 
+## 加密和安全 
 
-### Which standards are used for end-to-end encryption? 
+### 端到端加密使用了哪些标准 ？ 
 
 [Autocrypt](https://autocrypt.org) is used for automatically
 establishing end-to-end encryption with contacts and group chats.
@@ -275,7 +263,7 @@ Chats marked with a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
 guarantee end-to-end encrypted messages. 
 
-### How can i know if messages are end-to-end encrypted? {#whene2e}
+### 我如何知道信息是否经过端到端加密？{#whene2e}
 
 All end-to-end encrypted messages carry a padlock:
 

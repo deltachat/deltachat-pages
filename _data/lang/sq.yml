@@ -28,6 +28,7 @@ sq:
     add_friends: Jepni një Emër Përdoruesi dhe Takohuni me Shokët Tuaj
     add_friends_explanation: "Tani mund të jepni një emër përdoruesi, të përzgjidhni një foto profili dhe të bisedoni me shokët. Rruga më e mirë është t’i takoni personalisht dhe t’i verifikoni duke <a href=\"help#howtoe2ee\">skanuar kode QR</a>."
     other: Mundësi shkarkimi për platforma të tjera
+    no_upgrades: ""
     source_code: Kod Burim
     install_via_packagemanager: Instalojeni përmes Përgjegjësi Paketash
     outdated: e vjetruar
