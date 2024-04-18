@@ -28,6 +28,7 @@ de:
     add_friends: Einen Namen eingeben und Freunde treffen
     add_friends_explanation: "Jetzt können Sie einen Benutzernamen eingeben, ein Profilbild auswählen und mit Ihren Freunden chatten. Sie können sie treffen und ihren <a href=\"help#howtoe2ee\">QR-Code</a> scannen oder ihnen einen <a href=\"../en/2024-03-12-jumbo44#sharing-invite-links-for-chats-and-chat-groups\">Einladungslink</a> schicken."
     other: Download-Optionen für andere Plattformen
+    no_upgrades: Downloads ohne automatische Updates
     source_code: Quellcode
     install_via_packagemanager: Über Paketmanager installieren
     outdated: veraltet

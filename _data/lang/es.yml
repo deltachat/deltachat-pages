@@ -28,6 +28,7 @@ es:
     add_friends: ""
     add_friends_explanation: ""
     other: ""
+    no_upgrades: ""
     source_code: Código Fuente
     install_via_packagemanager: Instalar a través del Administrador de Paquetes
     outdated: desactualizado

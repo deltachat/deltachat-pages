@@ -28,6 +28,7 @@ pt:
     add_friends: ""
     add_friends_explanation: ""
     other: ""
+    no_upgrades: ""
     source_code: Source Code
     install_via_packagemanager: Install via Package Manager
     outdated: outdated
