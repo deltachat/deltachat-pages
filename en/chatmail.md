@@ -5,6 +5,8 @@ lang: en
 
 ## What are chatmail servers? 
 
+<img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="160" style="float:right;" />
+
 Chatmail servers are optimized for messaging with Delta Chat
 to provide a convenient, privacy-preserving and speedy user experience.
 
