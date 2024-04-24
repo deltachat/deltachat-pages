@@ -28,7 +28,7 @@ pl:
     add_friends: Wprowadź nazwę użytkownika i poznaj znajomych
     add_friends_explanation: "Teraz możesz wprowadzić nazwę użytkownika, wybrać zdjęcie profilowe i rozmawiać ze znajomymi. Najlepszym sposobem jest ich spotkanie i weryfikacja poprzez <a href=\"help#howtoe2ee\">zeskanowanie kodów QR</a> lub <a href=\"../en/2024-03-12-jumbo44#sharing-invite-links-for-chats-and-chat-groups\">wysłanie im linku zaproszenia</a>."
     other: Opcje pobierania dla innych platform
-    no_upgrades: ""
+    no_upgrades: Opcje pobierania bez automatycznych aktualizacji
     source_code: Kod źródłowy
     install_via_packagemanager: Zainstaluj za pomocą Menedżera pakietów
     outdated: przestarzały
