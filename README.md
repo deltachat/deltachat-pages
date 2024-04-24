@@ -124,7 +124,8 @@ for more info see the comments in `./tools/t-dance.sh`.
 - create the source as `en/<name>.md`
 
 - modify `tools/.tx/config` - add a section for the new page
-  modify `tools/t-dance.sh` - add your page to `sfiles` variable
+
+- modify `tools/t-dance.sh` - add your page to `sfiles` variable
 
 - run `./tools/t-dance push--do-this-only-from-master`
 
