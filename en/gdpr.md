@@ -102,6 +102,11 @@ Delta Chat communication works through your e-mail account. In order to establis
 
 The legal basis for the processing is [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services. 
 
+Security procedures are in place to protect the confidentiality of the data:
+Only the bare data needed to fulfil the user request of login are stored,
+encryption takes place as well as local sandboxing,
+see 2.3 for further details.
+
 #### 2.2 Heartbeat push notification
 
 Push notifications can be sent to the user's phone at regular intervals to enable receipt of messages while the Delta Chat app is not currently active. Current messages can then be retrieved on the end device. The token is only created if the user wants reliable receipt of messages even when the app is not active. 
