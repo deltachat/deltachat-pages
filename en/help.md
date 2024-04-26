@@ -419,7 +419,7 @@ of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" 
 Your chat with a contact lost guaranteed end-to-end encryption. 
 The green checkmark was removed for this chat and contact when you see this warning. 
 **If you find the sudden drop of guaranteed end-to-end encryption 
-surprising for this contact then don't accept the warning!**
+surprising for this contact then don't ignore the warning!**
 Instead check with your contact through a second channel 
 like a video call, other messenger or a phone call,
 to find out what happened. 
