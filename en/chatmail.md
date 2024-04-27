@@ -16,10 +16,10 @@ which has been stable since the [December 2023 Chatmail announcement](https://de
 
 In addition, there are **community-run chatmail servers - tap to join there instead of nine.testrun.org:**
 
-- [mehl.cloud](https://mehl.cloud) is geared towards german speaking
+- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
   users and has been stable since January 2024. 
 
-- [mailchat.pl](https://mailchat.pl) is geared towards polish speaking
+- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking
   users and has been stable since January 2024. 
 
 - [bcc.chat](https://bcc.chat) operates in the US and has been
@@ -52,10 +52,10 @@ Note that Delta Chat has multi-account support so
 it's fine to have one account configured with your regular e-mail address,
 and another account for chatting.
 
-## How can i trust any chatmail server? 
+## How trustable are chatmail servers? 
 
 Each chatmail server provides additional privacy information on their web page.
-Typically, it only sees encrypted messages and 
+Typically, a chatmail server only processes encrypted messages and 
 implements automatic, unconditional message deletion after at most 40 days.
 
 Delta Chat provides [guaranteed end-to-end encryption](https://delta.chat/en/2023-11-23-jumbo-42)
