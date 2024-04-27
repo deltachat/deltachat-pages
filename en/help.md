@@ -767,6 +767,11 @@ The Delta Chat project underwent four independent security audits in the last ye
   audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
   See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
 
+- Beginning 2024, we received a deep security analysis from the Applied Cryptography
+  research group at ETH Zuerich and addressed all raised issues. 
+  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information. 
+
+
 
 ## Multi-client {#multiclient}
 
