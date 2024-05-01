@@ -797,7 +797,7 @@ both **devices are completely independent.**
 One device is not needed for the other to work.
 
 
-### Troubleshooting
+### Troubleshooting {#multiclient-troubleshooting}
 
 - Double-check both devices are in the **same Wi-Fi or network**
 
