@@ -38,12 +38,11 @@ Für mehr Hintergrundinformationen empfehlen wir Ihnen, unseren [Blog](https://d
 Die folgenden Delta-Chat-bezogenen Kommunikationskanäle werden von Drittanbietern betrieben
 die unsere [Community-Standards](Community-Standards) befolgen können oder auch nicht:
 
-- Mit Ihrer Delta-Chat-App können Sie eine `/list`-Nachricht an 
-[den Gruppen-Bot (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-senden, um verschiedene Chat-Gruppen zu entdecken und ihnen beizutreten.
-
-- Eine [englishe Delta-Chat-Matrix-Gruppe](https://app.element.io/#/room/#Delta.Chat:matrix.org),
-verbunden mit der Groupbot-English-Delta-Chat-Community-Gruppe.
+- English-speaking Delta Chat community group, you can join the group:
+  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [In Telegram](https://t.me/deltachat_community)
 
 - Eine [Lemmy-Community](https://lemmy.zip/c/delta_chat);
 geben Sie `!delta_chat@lemmy.zip` 

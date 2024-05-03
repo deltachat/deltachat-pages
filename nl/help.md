@@ -716,15 +716,21 @@ Voor andere programma's kun je zélf een oplossing zoeken op internet.
 
 Delta Chat onderging al drie onafhankelijke beveiligingscontroles:
 
-- In 2019 heeft [Include Security](https://includesecurity.com) Delta Chats
-  [PGP-](https://github.com/rpgp/rpgp) en
-  [RSA-](https://github.com/RustCrypto/RSA)bibliotheken geanalyseerd.
-  Er werden geen grote problemen aangetroffen,
-  maar wel twee belangrijke die nadien werden opgelost.
-  Ook werden enkele redelijk belangrijke en minder belangrijke aan het licht gebracht,
-  maar die konden in Delta Chats specifieke implementatie niet worden misbruikt.
-  Ondanks dat zijn enkele daarvan nadien alsnog opgelost.
-  Het [volledige verslag is hier na te lezen](../assets/blog/2019-first-security-review.pdf).
+- 2024 March, we received a deep security analysis from the Applied Cryptography
+  research group at ETH Zuerich and addressed all raised issues. 
+  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information. 
+
+- Sinds begin 2023 hebben we diverse beveiligings- en privacyproblemen met ‘webapps
+  gedeeld in een gesprek’. Deze waren allen te wijten aan fouten in de sandboxing,
+  vooral die van Chromium. Daarna is er een beveiligings-
+  onderzoek van Cure53 geweest en zijn alle problemen opgelost in versie 1.36 van de uit april 2023. 
+  Lees [hier het volledige verhaal omtrent E2E-beveiliging op het web](https://delta.chat/en/2023-05-22-webxdc-security). 
+
+- Aan het begin van 2023 heeft [Cure53](https://cure53.de) de transportversleuteling van
+  Delta Chats netwerkverbindingen getest, evenals de e-mailserveropzet zoals
+  [beschreven op onze site](serverguide).
+  Meer informatie over deze test is te lezen [op ons blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
+  of in het [volledige verslag](../assets/blog/MER-01-report.pdf).
 
 - In 2020 heeft [Include Security](https://includesecurity.com) Delta Chats
   Rust-[kern](https://github.com/deltachat/deltachat-core-rust/),
@@ -740,17 +746,16 @@ Delta Chat onderging al drie onafhankelijke beveiligingscontroles:
   en besloten we om beveiligingsaanbevelingen aan getroffen gebruikers te doen.
   Het [volledige verslag is hier na te lezen](../assets/blog/2020-second-security-review.pdf).
 
-- Aan het begin van 2023 heeft [Cure53](https://cure53.de) de transportversleuteling van
-  Delta Chats netwerkverbindingen getest, evenals de e-mailserveropzet zoals
-  [beschreven op onze site](serverguide).
-  Meer informatie over deze test is te lezen [op ons blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-  of in het [volledige verslag](../assets/blog/MER-01-report.pdf).
+- In 2019 heeft [Include Security](https://includesecurity.com) Delta Chats
+  [PGP-](https://github.com/rpgp/rpgp) en
+  [RSA-](https://github.com/RustCrypto/RSA)bibliotheken geanalyseerd.
+  Er werden geen grote problemen aangetroffen,
+  maar wel twee belangrijke die nadien werden opgelost.
+  Ook werden enkele redelijk belangrijke en minder belangrijke aan het licht gebracht,
+  maar die konden in Delta Chats specifieke implementatie niet worden misbruikt.
+  Ondanks dat zijn enkele daarvan nadien alsnog opgelost.
+  Het [volledige verslag is hier na te lezen](../assets/blog/2019-first-security-review.pdf).
 
-- Beginning 2023, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
-  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ## Multi-client {#multiclient}

@@ -4,7 +4,7 @@ lang: zh_CN
 downloads: true
 ---
 
-![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
+！[一个 iOS 用户在别人的手机上扫描二维码。](../assets/blog/2023-11-qr-scan.jpg)
 
 ## 变更日志 {#changelogs}
 

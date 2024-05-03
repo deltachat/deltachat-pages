@@ -35,9 +35,11 @@ lang: uk
 
 Наступні канали зв'язку, пов'язані із Delta Chat, управляються третіми сторонами, які можуть чи не можуть дотримуватися наших [Стандартів спільноти](community-standards):
 
-- За допомогою вашого додатку Delta Chat ви можете відправити повідомлення `/list` до [бота груп (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net) щоб відкрити та приєднатися до різних чат-груп.
-
-- [Група Delta Chat Matrix на англійській мові](https://app.element.io/#/room/#Delta.Chat:matrix.org) , приєднана до групи чату Delta Chat у спільноті groupbot.
+- English-speaking Delta Chat community group, you can join the group:
+  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [In Telegram](https://t.me/deltachat_community)
 
 - [Спільнота Lemmy](https://lemmy.zip/c/delta_chat) яку ви можете зафоловити помістивши `!delta_chat@lemmy.zip` у поле пошуку вашого fediverse-застосунку.
 
