@@ -339,15 +339,15 @@ Uno di voi è l'"Invitante", l'altro è l'"Invitato".
 Tocca il titolo del gruppo di chat per visualizzare l'elenco dei membri e seleziona "Codice QR di invito".
 Condividi l'immagine QR con l'altra parte di persona o tramite un secondo canale.
 
-- Direct 1:1 chat invitation: 
-  Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
-  Share the QR image with the other side either in person or through a second channel.
+- Invito diretto alla chat 1:1:
+  Tocca l'icona del Codice QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  nella schermata principale dell'app Delta Chat.
+  Condividi l'immagine QR con l'altra persona o tramite un secondo canale.
 
 **Lato invitato**:
 
-- Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
+- Tocca l'icona del codice QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  nella schermata principale dell'app Delta Chat.
 
 - Scegli "SCANSIONE CODICE QR" e scansiona il Codice QR
   che vedi dal tuo partner di chat in un secondo canale.
@@ -720,15 +720,21 @@ Per altri programmi, dovresti essere in grado di trovare una soluzione online.
 
 Il progetto Delta Chat è stato sottoposto a quattro verifiche di sicurezza indipendenti negli ultimi anni:
 
-- Nel 2019, [Include Security](https://includesecurity.com) ha analizzato le librerie
-[PGP](https://github.com/rpgp/rpgp) e
-[RSA](https://github.com/RustCrypto/RSA) di Delta Chat.
-Non ha riscontrato criticità,
-ma due problemi di elevata gravità che abbiamo successivamente risolto.
-Ne sono emersi anche uno di media gravità e alcuni problemi meno gravi,
-ma non c'era modo di sfruttare queste vulnerabilità nell'implementazione di Delta Chat.
-Alcuni di essi sono stati comunque corretti dopo la conclusione dell'audit.
-Puoi leggere il [rapporto completo qui](../assets/blog/2019-first-security-review.pdf).
+- 2024 March, we received a deep security analysis from the Applied Cryptography
+  research group at ETH Zuerich and addressed all raised issues. 
+  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information. 
+
+- A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con il servizio "web
+app condivise in una chat", relativa ai guasti del sandboxing
+soprattutto con Chromium. Successivamente abbiamo ottenuto una sicurezza indipendente
+audit da Cure53 e tutti i problemi rilevati sono stati risolti nella serie di app 1.36 rilasciata nell'aprile 2023.
+Vedi [qui per la storia completa sulla sicurezza end-to-end nel web](https://delta.chat/en/2023-05-22-webxdc-security).
+
+- A partire dal 2023, [Cure53](https://cure53.de) ha analizzato sia la crittografia del trasporto delle
+Connessioni di rete di Delta Chat e una configurazione del server di posta riproducibile come
+[consigliato su questo sito](serverguide).
+Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
+o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
 
 - Nel 2020, [Include Security](https://includesecurity.com) ha analizzato il Delta
 Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
@@ -744,17 +750,16 @@ non possiamo mitigarli tutti
 e ha deciso di fornire consigli sulla sicurezza agli utenti minacciati.
 Puoi leggere il [rapporto completo qui](../assets/blog/2020-second-security-review.pdf).
 
-- A partire dal 2023, [Cure53](https://cure53.de) ha analizzato sia la crittografia del trasporto delle
-Connessioni di rete di Delta Chat e una configurazione del server di posta riproducibile come
-[consigliato su questo sito](serverguide).
-Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
+- Nel 2019, [Include Security](https://includesecurity.com) ha analizzato le librerie
+[PGP](https://github.com/rpgp/rpgp) e
+[RSA](https://github.com/RustCrypto/RSA) di Delta Chat.
+Non ha riscontrato criticità,
+ma due problemi di elevata gravità che abbiamo successivamente risolto.
+Ne sono emersi anche uno di media gravità e alcuni problemi meno gravi,
+ma non c'era modo di sfruttare queste vulnerabilità nell'implementazione di Delta Chat.
+Alcuni di essi sono stati comunque corretti dopo la conclusione dell'audit.
+Puoi leggere il [rapporto completo qui](../assets/blog/2019-first-security-review.pdf).
 
-- A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con il servizio "web
-app condivise in una chat", relativa ai guasti del sandboxing
-soprattutto con Chromium. Successivamente abbiamo ottenuto una sicurezza indipendente
-audit da Cure53 e tutti i problemi rilevati sono stati risolti nella serie di app 1.36 rilasciata nell'aprile 2023.
-Vedi [qui per la storia completa sulla sicurezza end-to-end nel web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ## Multi-client {#multiclient}

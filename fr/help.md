@@ -681,12 +681,15 @@ Pour les autres programmes, vous devriez pouvoir trouver la solution en ligne.
 
 Quatre audits indépendants ont été réalisés sur le projet Delta Chat ces dernières années :
 
-- En 2019, [Include Security](https://includesecurity.com) a analysé les bibliothèques [PGP](https://github.com/rpgp/rpgp) et
-[RSA](https://github.com/RustCrypto/RSA) de Delta Chat.
-Aucune faille critique n'a été trouvée, mais deux failles sévères ont été identifiées et immédiatement réparées par nos soins.
-Une faille de gravité moyenne ainsi que quelques failles de gravité moindre ont également été découvertes, sans qu'il soit toutefois possible de les exploiter dans le fonctionnement de Delta Chat.
-Nous en avons néanmoins réparées certaines depuis le rapport d'audit.
-Le rapport complet [est consultable ici](../assets/blog/2019-first-security-review.pdf).
+- 2024 March, we received a deep security analysis from the Applied Cryptography
+  research group at ETH Zuerich and addressed all raised issues. 
+  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information. 
+
+- Début 2023, nous avons réparé les failles de sécurité et de confidentialité de la fonctionnalité "partage d'appli web dans une discussion" liées à des dysfonctionnements en mode bac à sable, en particulier avec Chromium. Après quoi, nous avons soumis Delta Chat à un nouvel audit de sécurité indépendant par Cure53, puis effectué les réparations de toutes les failles découvertes pour la version 1.36 de nos applications, publiée en avril 2023. 
+Vous trouverez [ici un article de fond complet à propos de la sécurité du chiffrement de bout-en-bout sur internet](https://delta.chat/en/2023-05-22-webxdc-security). 
+
+- Début 2023, [Cure53](https://cure53.de) a analysé le chiffrement d'acheminement des connexions réseau de Delta Chat et testé une configuration de serveur de courriel reproductible, telle que [recommandée sur ce site](serverguide).
+Vous trouverez plus d'informations sur cet audit [sur notre blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) ou dans [le rapport complet ici](../assets/blog/MER-01-report.pdf).
 
 - En 2020, [Include Security](https://includesecurity.com) a analysé les [bibliothèques principales](https://github.com/deltachat/deltachat-core-rust/) Rust de Delta Chat, ainsi que ses bibliothèques [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) et [TLS](https://github.com/async-email/async-native-tls).
 Aucun problème grave ou critique n'a été découvert.
@@ -694,14 +697,13 @@ Le rapport a tout de même révélé quelques vulnérabilités de gravité moyen
 Pour des raison de compatibilité et de facilité d'utilisation, nous ne pouvons pas les pallier toutes et avons préféré fournir des préconisations de sécurité aux personnes exposées.
 Le rapport complet [est consultable ici](../assets/blog/2020-second-security-review.pdf).
 
-- Début 2023, [Cure53](https://cure53.de) a analysé le chiffrement d'acheminement des connexions réseau de Delta Chat et testé une configuration de serveur de courriel reproductible, telle que [recommandée sur ce site](serverguide).
-Vous trouverez plus d'informations sur cet audit [sur notre blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) ou dans [le rapport complet ici](../assets/blog/MER-01-report.pdf).
+- En 2019, [Include Security](https://includesecurity.com) a analysé les bibliothèques [PGP](https://github.com/rpgp/rpgp) et
+[RSA](https://github.com/RustCrypto/RSA) de Delta Chat.
+Aucune faille critique n'a été trouvée, mais deux failles sévères ont été identifiées et immédiatement réparées par nos soins.
+Une faille de gravité moyenne ainsi que quelques failles de gravité moindre ont également été découvertes, sans qu'il soit toutefois possible de les exploiter dans le fonctionnement de Delta Chat.
+Nous en avons néanmoins réparées certaines depuis le rapport d'audit.
+Le rapport complet [est consultable ici](../assets/blog/2019-first-security-review.pdf).
 
-- Beginning 2023, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
-  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
 
 
 ## Multi-client {#multiclient}

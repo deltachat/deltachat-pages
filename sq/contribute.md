@@ -40,12 +40,11 @@ Për më tepër sfond rekomandojmë të lexoni dhe ndiqni [blogun tonë](https:/
 Kanalet vijues të komunikimit të lidhura me Delta Chat-in xhirohen nga palë të treta
 të cilat mund të ndjekin ose jo [Standardet tona për Bashkësinë](community-standards): 
 
-- Me aplikacionin tuaj Delta Chat mund të dërgoni një mesazh
-`/list` te [roboti i një grupi (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-që të zbuloni dhe merrni pjesë në grupe të ndryshëm fjalosjesh.
-
-- Një [grup Delta Chat Matrix në anglisht](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  i lidhur me robot grupi të grupit të fjalosjes në anglisht të bashkësisë Delta Chat.
+- English-speaking Delta Chat community group, you can join the group:
+  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [In Telegram](https://t.me/deltachat_community)
 
 - Një [bashkësi Lemmy](https://lemmy.zip/c/delta_chat)
   të cilin mund ta ndiqni duke vendosur `!delta_chat@lemmy.zip` 

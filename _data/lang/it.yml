@@ -28,7 +28,7 @@ it:
     add_friends: Inserisci un Nome Utente e Incontra i Tuoi Amici
     add_friends_explanation: "Ora puoi inserire un nome utente, selezionare un'immagine del profilo e chattare con i tuoi amici. Il modo migliore è incontrarli e verificarli <a href=\"help#howtoe2ee\">scansionando i codici QR</a>."
     other: Opzioni di scaricamento per altre piattaforme
-    no_upgrades: ""
+    no_upgrades: Opzioni di download senza aggiornamenti automatici
     source_code: Codice sorgente
     install_via_packagemanager: Installa tramite Package Manager
     outdated: obsoleto

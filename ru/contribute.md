@@ -40,12 +40,11 @@ lang: ru
 Следующие каналы связи, связанные с Delta Chat, управляются третьими лицами
 которые могут следовать или не следовать нашим [Стандартам сообщества](community-standards): 
 
-- С помощью приложения Delta Chat вы можете отправить сообщение `/list` на 
-  [групповой бот (groupsbot@hispanilandia.net)](mailto:groupsbot@hispanilandia.net)
-  чтобы найти и присоединиться к различным чат-группам.
-
-- Английская группа [Delta Chat Matrix group](https://app.element.io/#/room/#Delta.Chat:matrix.org)
-  соединена с группой чата сообщества groupbot English Delta Chat.
+- English-speaking Delta Chat community group, you can join the group:
+  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [In Telegram](https://t.me/deltachat_community)
 
 - Сообщество [Лемми](https://lemmy.zip/c/delta_chat)
   на которое вы можете подписаться введя `!delta_chat@lemmy.zip` 
