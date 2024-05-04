@@ -40,11 +40,11 @@ Për më tepër sfond rekomandojmë të lexoni dhe ndiqni [blogun tonë](https:/
 Kanalet vijues të komunikimit të lidhura me Delta Chat-in xhirohen nga palë të treta
 të cilat mund të ndjekin ose jo [Standardet tona për Bashkësinë](community-standards): 
 
-- English-speaking Delta Chat community group, you can join the group:
+- Grup anglishtfolës bashkësie Delta Chat-i, mund të bëheni pjesë e grupit:
   * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
-  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [In Telegram](https://t.me/deltachat_community)
+  * [Në Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [Në XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [Në Telegram](https://t.me/deltachat_community)
 
 - Një [bashkësi Lemmy](https://lemmy.zip/c/delta_chat)
   të cilin mund ta ndiqni duke vendosur `!delta_chat@lemmy.zip` 

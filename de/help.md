@@ -641,7 +641,7 @@ Für andere Programme können Sie online eine Lösung finden.
 
 ### Wurde Delta Chat unabhängig auf Sicherheitslücken geprüft? {#security-audits}
 
-Das Delta-Chat-Projekt wurde in den letzten Jahren vier unabhängigen Sicherheitsprüfungen unterzogen:
+Das Delta-Chat-Projekt wurde in den letzten Jahren fünf unabhängigen Sicherheitsprüfungen und -analysen unterzogen:
 
 - Im März 2024 erhielten wir von der Forschungsgruppe "Applied Cryptography" der ETH Zürich eine umfassende Sicherheitsanalyse und haben alle aufgeworfenen Fragen adressiert. 
 Weitere Informationen finden Sie in unserem Blogbeitrag über [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin). 

@@ -40,7 +40,7 @@ Per ulteriori approfondimenti si consiglia di leggere e seguire il nostro [blog]
 I seguenti canali di comunicazione relativi a Delta Chat sono gestiti da terze parti
 che possono o meno seguire i nostri [Standard Comunitari](standard-comunitari):
 
-- English-speaking Delta Chat community group, you can join the group:
+- Gruppo della community Delta Chat di lingua inglese, puoi unirti al gruppo:
   * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
   * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)

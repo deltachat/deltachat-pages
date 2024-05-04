@@ -679,7 +679,8 @@ Pour les autres programmes, vous devriez pouvoir trouver la solution en ligne.
 
 ### Est-ce qu'un audit indépendant des failles de sécurité a été réalisé sur Delta Chat ? {#security-audits}
 
-Quatre audits indépendants ont été réalisés sur le projet Delta Chat ces dernières années :
+The Delta Chat project underwent four independent security audits and one
+independent security analysis, from most recent to older: 
 
 - 2024 March, we received a deep security analysis from the Applied Cryptography
   research group at ETH Zuerich and addressed all raised issues. 

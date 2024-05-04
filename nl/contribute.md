@@ -39,11 +39,11 @@ Meer achtergrondinformatie is te vinden op ons [blog](https://delta.chat/en/blog
 Hieronder volgt een lijst met Delta Chat-kanalen die door anderen worden beheerd.
 Het zou kunnen dat zij zich niet aan onze [gemeenschapsstandaarden](community-standards) houden.
 
-- English-speaking Delta Chat community group, you can join the group:
-  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
-  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [In Telegram](https://t.me/deltachat_community)
+- Engelssprekende Delta Chat-gebruikersgroep, waaraan je kunt deelnemen:
+  * [in Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [in Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [in XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [in Telegram](https://t.me/deltachat_community)
 
 - Een [Lemmy-gemeenschap](https://lemmy.zip/c/delta_chat)
   die je kunt volgen door `!delta_chat@lemmy.zip` 
