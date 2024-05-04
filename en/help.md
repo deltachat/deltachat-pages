@@ -350,11 +350,7 @@ One of you is the "Inviter", the other is the "Joiner".
 - Direct 1:1 chat invitation: 
   Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
   on the Delta Chat app main screen.
-  Show the QR code to the other person for scanning.
-
-If the QR code scanning doesn't work in your situation,
-you can also copy an <https://i.delta.chat> invite link to clipboard
-and share it with the other person through a second channel.
+  Share the QR image with the other side either in person or through a second channel.
 
 **Joiner side**:
 
@@ -366,6 +362,9 @@ and share it with the other person through a second channel.
 
 - Tap "OK"
 
+If the QR code scanning doesn't work in your situation,
+you can also **Share** (or **Copy to Clipboard**) an equivalent invite link
+to the other person through a second channel.
 
 **Both Inviter and Joiner**:
 
