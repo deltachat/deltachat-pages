@@ -35,25 +35,6 @@ pre príjemcu, aby si nainštaloval rovnakú aplikáciu, ako je tá vaša, ako p
 - _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
-### Ktoré správy sa zobrazujú v Delta Chate?
-
-By default, Delta Chat shows all e-mails.
-
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
-
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
-
-
 ### What if I expect a message from someone I didn't write to in the past?
 
 - If a message comes from an unknown contact, it appears as a **request**. You
@@ -106,56 +87,6 @@ To everyone else,
 It will appear as an e-mail signature
 below the text of all your messages.
 
-
-### Podporuje Delta Chat e-maily HTML?
-
-Yes, incoming HTML messages come with a "Show full message" button. 
-Outgoing messages always use plain text.
-
-
-### Prečo musím zadávať svoje e-mailové heslo do Delta Chat? Je to bezpečné?
-
-Rovnako ako v prípade iných e-mailových programov, ako sú Thunderbird, K9-Mail alebo Outlook,
-program potrebuje heslo, aby ste ho mohli používať na odosielanie e-mailov. Samozrejme,
-heslo je uložené iba vo vašom zariadení. Heslo sa prenáša iba na vášho poskytovateľa e-mailu (keď sa prihlásite), ktorý má aj tak prístup k vašim e-mailom. 
-
-Ak používate poskytovateľa e-mailu s podporou OAuth2, ako je gmail.com alebo yandex.ru,
-nie je potrebné ukladať heslo do zariadenia. V tomto prípade iba 
-používa sa prístupový token.
-
-Keďže Delta Chat je Open Source, môžete skontrolovať [Zdrojový
-Kód](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
-ak chcete overiť, že vaše poverenia sú spracované bezpečne. Sme radi
-o spätnej väzbe, vďaka ktorej je aplikácia bezpečnejšia pre všetkých našich používateľov.
-
-
-### Aké povolenia potrebuje Delta Chat?
-
-V závislosti od používaného operačného systému
-môžete byť požiadaní o udelenie povolení aplikácii.
-Delta Chat robí toto s týmito povoleniami:
-
-- Fotoaparát *(možno zakázať)*
-   - fotografujte a natáčajte videá: na odosielanie fotografií
-- Kontakty *(možno zakázať)*
-   - prehliadnite si svoje kontakty: objavte kontakty, s ktorými môžete chatovať
-- Poloha *(možno zakázať)*
-  - prístup k približnej polohe (zdrojom polohy v sieti): pre funkciu streamovania polohy
-  - prístup k presnej polohe (GPS a sieťové zdroje polohy): pre funkciu streamovania polohy
-- Mikrofón *(možno zakázať)*
-  - nahrávať zvuk: pre zvukové správy
-- Úložisko *(možno zakázať)*
-  - upraviť alebo odstrániť obsah vašej SD karty: na stiahnutie príloh správ
-  - čítať obsah SD karty: zdieľať súbory so svojimi kontaktmi
-- Ďalšie možnosti aplikácie
-  - zmeniť nastavenia zvuku: aby ste si mohli si vybrať vyzváňacie tóny a hlasitosť pre upozornenia a zvukové správy
-  - spustiť pri štarte: takže nemusíte spúšťať Delta Chat manuálne
-  - ovládanie vibrácií: pre upozornenia
-  - zobraziť sieťové pripojenia: na pripojenie k vášmu poskytovateľovi e-mailu
-  - zabrániť spánku telefónu: takže môžete jednoduchšie skopírovať bezpečnostný kód počas správy nastavenia automatického šifrovania
-  - mať úplný prístup k sieti: na pripojenie k vášmu poskytovateľovi e-mailu
-  - zobraziť pripojenia Wi-Fi: na pripojenie k poskytovateľovi e-mailu
-  - požiadať o ignorovanie optimalizácie batérie: pre používateľov, ktorí chcú neustále dostávať správy
 
 ### What do Pinning, Muting and Archiving mean?
 
@@ -221,18 +152,6 @@ if one chat partner uninstalls Delta Chat,
 the messages will not get deleted from their email account.
 They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
-
-
-### How can I delete my account?
-
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
-
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ## Skupiny
@@ -853,36 +772,6 @@ na počítač, s ktorým pracujete, môžete použiť prenosného klienta Window
 [get.delta.chat](https://get.delta.chat).
 
 
-### Na čo je dobré nastavenie „Odoslať kópiu sebe“?
-
-Odoslaním kópie správ sebe samému zaistíte,                               že dostanete svoje vlastné
-správy na všetkých zariadeniach. Ak máte viacero zariadení a nezapnete ich, vy
-uvidíte iba správy od iných ľudí a správy, ktoré vy                 odošlete z
- aktuálneho zariadenia. 
-
-Kópia sa odošle do priečinka Doručená pošta a potom sa presunie do priečinka DeltaChat; nie je vložená do priečinka „Odoslané“. Delta Chat *nikdy* nič neodovzdáva do priečinka "Odoslané", pretože by to znamenalo nahrať správu dvakrát (raz cez SMTP, a raz cez IMAP do priečinka Odoslané). 
-
-Predvolené nastavenie pre kópia pre seba je "nie".
-
-### Prečo si môžem vybrať sledovanie priečinka „Odoslané“?
-
-Jediný dôvod, prečo chcete sledovať priečinok Odoslané, je, ak používate iný
-poštový program (napríklad Thunderbird) vedľa vašej aplikácie Delta Chat a chcete svoj MUA
- aby sa zúčastňoval chatových konverzácií.
-
-Odporúčame však použiť Delta Chat Desktop Client; môžete si ho stiahnuť
-na [get.delta.chat](https://get.delta.chat). Možnosť sledovať „Odoslané“
-priečinok môže v budúcnosti zmiznúť. Bolo to zavedené v čase, kedy nebol
-Delta Chat Desktop dostupný na všetkých platformách.
-
-### Prečo sa môžem rozhodnúť nesledovať priečinok DeltaChat?
-
-Niektorí ľudia používajú Delta Chat ako bežný e-mailový klient a chcú používať priečinok Doručená pošta
-pre ich mail, namiesto priečinku DeltaChat. Ak zakážete „Sledovať
-priečinok DeltaChat“, mali by ste tiež zakázať „presunúť chatové správy do DeltaChat“.
-V opačnom prípade nemusí odstraňovanie správ alebo nastavenia viacerých zariadení fungovať správne.
-
-
 ## webxdc apps {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
@@ -1042,6 +931,35 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ## Rôzne
 
+### Aké povolenia potrebuje Delta Chat?
+
+V závislosti od používaného operačného systému
+môžete byť požiadaní o udelenie povolení aplikácii.
+Delta Chat robí toto s týmito povoleniami:
+
+- Fotoaparát *(možno zakázať)*
+   - fotografujte a natáčajte videá: na odosielanie fotografií
+- Kontakty *(možno zakázať)*
+   - prehliadnite si svoje kontakty: objavte kontakty, s ktorými môžete chatovať
+- Poloha *(možno zakázať)*
+  - prístup k približnej polohe (zdrojom polohy v sieti): pre funkciu streamovania polohy
+  - prístup k presnej polohe (GPS a sieťové zdroje polohy): pre funkciu streamovania polohy
+- Mikrofón *(možno zakázať)*
+  - nahrávať zvuk: pre zvukové správy
+- Úložisko *(možno zakázať)*
+  - upraviť alebo odstrániť obsah vašej SD karty: na stiahnutie príloh správ
+  - čítať obsah SD karty: zdieľať súbory so svojimi kontaktmi
+- Ďalšie možnosti aplikácie
+  - zmeniť nastavenia zvuku: aby ste si mohli si vybrať vyzváňacie tóny a hlasitosť pre upozornenia a zvukové správy
+  - spustiť pri štarte: takže nemusíte spúšťať Delta Chat manuálne
+  - ovládanie vibrácií: pre upozornenia
+  - zobraziť sieťové pripojenia: na pripojenie k vášmu poskytovateľovi e-mailu
+  - zabrániť spánku telefónu: takže môžete jednoduchšie skopírovať bezpečnostný kód počas správy nastavenia automatického šifrovania
+  - mať úplný prístup k sieti: na pripojenie k vášmu poskytovateľovi e-mailu
+  - zobraziť pripojenia Wi-Fi: na pripojenie k poskytovateľovi e-mailu
+  - požiadať o ignorovanie optimalizácie batérie: pre používateľov, ktorí chcú neustále dostávať správy
+
+
 ### Funguje Delta Chat s mojím poskytovateľom e-mailov?
 
 - S pomerne dobrou šancou: Áno :)
@@ -1057,6 +975,23 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - You can find an [installation guide on our website](serverguide).
 
 
+### Prečo musím zadávať svoje e-mailové heslo do Delta Chat? Je to bezpečné?
+
+As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
+program needs the password so you can use it to send and receive mails. Of course, the
+password is stored only on your device. The password is only transmitted to
+your E-Mail provider (when you login), which has access to your mails anyway.
+
+Ak používate poskytovateľa e-mailu s podporou OAuth2, ako je gmail.com alebo yandex.ru,
+nie je potrebné ukladať heslo do zariadenia. V tomto prípade iba 
+používa sa prístupový token.
+
+Keďže Delta Chat je Open Source, môžete skontrolovať [Zdrojový
+Kód](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+ak chcete overiť, že vaše poverenia sú spracované bezpečne. Sme radi
+o spätnej väzbe, vďaka ktorej je aplikácia bezpečnejšia pre všetkých našich používateľov.
+
+
 ### Ak Delta Chat používa e-mail, je to naozaj _Instantný_ Messenger? 
 
 - Odosielanie a prijímanie správ zvyčajne trvá niekoľko sekúnd. Niekedy
@@ -1070,6 +1005,31 @@ zastavia spustenie Delta Chatu na pozadí a iba príležitostne ho prebudia. Tot
 je to
   problém mnohých legitímnych aplikácií. Ďalšie informácie nájdete v časti
 [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Ktoré správy sa zobrazujú v Delta Chate?
+
+By default, Delta Chat shows all e-mails.
+
+At "Settings -> Chats &
+Media -> Show Classic E-Mails", you can change this. You have these options:
+
+- "No, chats only": Only messages sent by other Delta Chat users and replies to
+  your Delta Chat messages are shown. This makes most sense if you use the same
+  e-mail account for normal e-mails as well.
+- "All": Delta Chat shows all e-mails that are sent to your email address. This
+  makes sense if you want to use Delta Chat for all your e-mails, so no message
+  gets lost. This is the default setting.
+- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
+  you already have a chat, but new chats only pop up for Delta Chat messages.
+  This helps to decide on a case-by-case basis whether you want to have a
+  conversation in Delta Chat or in a "normal" e-mail app.
+
+
+### Podporuje Delta Chat e-maily HTML?
+
+Yes, incoming HTML messages come with a "Show full message" button.
+Outgoing messages always use plain text.
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -1090,6 +1050,38 @@ You will get bonus professionalism points
 if you set a [signature text](#signature).
 
 
+### Na čo je dobré nastavenie „Odoslať kópiu sebe“?
+
+Sending a copy of your messages to yourself ensures that you receive your own
+messages on all devices. If you have multiple devices and don't turn it on, you
+see only the messages from other people, and the messages you send from the
+current device.
+
+Kópia sa odošle do priečinka Doručená pošta a potom sa presunie do priečinka DeltaChat; nie je vložená do priečinka „Odoslané“. Delta Chat *nikdy* nič neodovzdáva do priečinka "Odoslané", pretože by to znamenalo nahrať správu dvakrát (raz cez SMTP, a raz cez IMAP do priečinka Odoslané). 
+
+Predvolené nastavenie pre kópia pre seba je "nie".
+
+
+### Prečo si môžem vybrať sledovanie priečinka „Odoslané“?
+
+Jediný dôvod, prečo chcete sledovať priečinok Odoslané, je, ak používate iný
+poštový program (napríklad Thunderbird) vedľa vašej aplikácie Delta Chat a chcete svoj MUA
+ aby sa zúčastňoval chatových konverzácií.
+
+However, we recommend using the Delta Chat Desktop Client; you can download it
+on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
+folder might go away in the future. It was introduced at a time where there was
+no Delta Chat Desktop client available on all platforms.
+
+
+### Prečo sa môžem rozhodnúť nesledovať priečinok DeltaChat?
+
+Niektorí ľudia používajú Delta Chat ako bežný e-mailový klient a chcú používať priečinok Doručená pošta
+pre ich mail, namiesto priečinku DeltaChat. Ak zakážete „Sledovať
+priečinok DeltaChat“, mali by ste tiež zakázať „presunúť chatové správy do DeltaChat“.
+V opačnom prípade nemusí odstraňovanie správ alebo nastavenia viacerých zariadení fungovať správne.
+
+
 ### Je Delta Chat kompatibilný s Protonmail / Tutanota / Criptext?
 
 - Yes and No.
@@ -1102,6 +1094,18 @@ if you set a [signature text](#signature).
   uses.
 - Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+
+
+### How can I delete my account?
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ### Zaujímajú ma technické detaily. Môžete mi povedať viac?

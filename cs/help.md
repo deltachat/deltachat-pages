@@ -35,25 +35,6 @@ instaloval stejnou aplikaci jako vy, jak vyžadují ostatní četovací systémy
 - _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
-### Jaké zprávy Delta Chat zobrazuje?
-
-By default, Delta Chat shows all e-mails.
-
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
-
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
-
-
 ### What if I expect a message from someone I didn't write to in the past?
 
 - If a message comes from an unknown contact, it appears as a **request**. You
@@ -103,56 +84,6 @@ To everyone else,
 It will appear as an e-mail signature
 below the text of all your messages.
 
-
-### Umí Delta Chat pracovat s e-maily v HTML?
-
-Yes, incoming HTML messages come with a "Show full message" button. 
-Outgoing messages always use plain text.
-
-
-### Proč musím Delta Chatu zadat mé e-mailové heslo? Je to bezpečné?
-
-Podobně jako ostatní e-mailové programy, např. Thunderbird nebo Outlook,
-program potřebuje heslo k tomu aby mohl posílat e-maily. Samozřejmě, že
-heslo je uloženo pouze na tvém přístroji. Heslo je přenášeno pouze při přihlašení
-k e-mailovému serveru, který má i beztak přístup k tvým e-mailům.
-
-Poskytovatelé e-mailu s podporou OAuth2, např. "gmail.com" či "yandex.ru",
-nepotřebují při přihlašování tvé heslo. V takovém případě je uložen pouze
-vygenerovaný přístupový kód.
-
-Delta Chat má otevřený [zdrojový kód](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs),
-ze kterého lze ověřit, že program s osobními daty zachází bezpečně. Jsme rádi
-za každou odezvu, která udělá Delta Chat bezpečnější pro všechny.
-
-
-### Jaká oprávnění Delta Chat potřebuje?
-
-Dle užívaného operačního systému můžeš být 
-dotázán na udělení povolení této aplikaci. 
-Zde je co Delta Chat dělá s těmito povoleními:
-
-- Kamera *(může být zakázána)*
-  - fotit a filmovat: zasílat Fotky
-- Kontakty *(mohou být zakázané)*
-  - číst tvé kontakty: objevovat kontakty pro hovory
-- Poloha *(může být zakázaná)*
-  - přístup k přibližné poloze (poloha z GSM sítě): pro funkci "vysílání" polohy
-  - přístup k přesné poloze (poloha z GPS a sítě GSM): pro funkci "vysílání" polohy
-- Mikrofon *(může být zakázaný)*
-  - nahrávat zvuk: pro hlasové zprávy
-- Úložiště *(může být zakázané)*
-  - upravovat a mazat obsah tvé SD karty: stahování příloh zpráv
-  - číst obsah tvé SD karty: sdílet soubory s tvými kontakty
-- Další schopnosti aplikace
-  - měnit nastavení zvuku: lze měnit zvuky vyzvánění a hlasitost oznámení a zvukových zpráv
-  - spouštět se při startu: nemusíš spouštět Delta Chat ručně
-  - ovládat chvění: pro oznámení
-  - značit síťová připojení: pro připojení k tvému poskytovateli e-mailu.
-  - zamezit režimu spánku: pro snadnější přepis čísel bezpečnostního kódu při přenosu Nastavení Autokryptu
-  - plný přístup k síti: pro připojení k poskytovateli e-mailu
-  - vidět Wi-Fi připojenís: pro připojení k poskytovateli e-mailu
-  - zamezit přizpůsobení se baterii: pro uživatele, kteří chtějí přijímat zprávy bez přerušení
 
 ### What do Pinning, Muting and Archiving mean?
 
@@ -218,18 +149,6 @@ if one chat partner uninstalls Delta Chat,
 the messages will not get deleted from their email account.
 They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
-
-
-### How can I delete my account?
-
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
-
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ## Skupiny
@@ -847,38 +766,6 @@ This method is only recommended if "Add Second Device" as described above does n
   Všechny softwarové balíčky jsou na [get.delta.chat](https://get.delta.chat).
 
 
-### K čemu je dobré nastavení "Posílat si kopii"?
-
-Posílat si kopii zpráv zaručuje, že zprávy se zobrazí na všech současně nastavených
-zařízeních. Pokud máš několik zařízení a nezapneš tuto funkci, uvidíš pouze příchozí 
-zprávy, a zprávy odeslané jen z právě používaného přístroje. Ty odeslané z ostatních
-zařízení neuvidíš.
-
-Kopie přijdou nejdříve do Příchozí složky, a pak jsou samočinně přesunuty do složky 
-DeltaChat; ne do složky Odeslané. Do složky Odeslané se nepřesouvá nikdy nic.
-protože by to vyžadovalo přenášet zprávu dvakrát (jednou poslat přes SMTP, a jednou 
-pro složku Odeslané přes IMAP).
-
-Výchozí hodnota nastavení pro zasílání si kopií je "Ne".
-
-### Proč můžu nastavit sledování složky Odeslané?
-
-Jediný důvod sledovat složku s odeslanými zprávami je používání jiného e-mailového
-programu (např. Thunderbird) spolu s Delta Chatem, a chtít z tohoto programu také 
-psát zprávy do hovorů Delta Chatu.
-
-Nicméně doporučujeme používat Delta Chat Desktop Client; ten lze stáhnout z [get.delta.chat](https://get.delta.chat). Možnost sledování složky "Odeslané"
-může být v budoucnu zrušena. Byla totiž vytvořena v době, kdy Delta Chat Desktop
-nebyl dostupný na všech platformách. 
-
-### Proč mohu zvolit nesledovat složku DeltaChat?
-
-Někteří lidé užívají Delta Chat jako jediný e-mailový program, a chtějí užívat 
-složku Příchozí / Inbox pro všechny zprávy i místo složky DeltaChat. Pokud zrušíš 
-"Sleduj složku DeltaChat", zruš také "přesouvat zprávy do složky DeltaChat". Jinak 
-hrozí, že mazání zpráv či nastavení na několika zařízeních nebude správně fungovat.
-
-
 ## webxdc apps {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
@@ -1038,6 +925,35 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ## Různé
 
+### Jaká oprávnění Delta Chat potřebuje?
+
+Dle užívaného operačního systému můžeš být 
+dotázán na udělení povolení této aplikaci. 
+Zde je co Delta Chat dělá s těmito povoleními:
+
+- Kamera *(může být zakázána)*
+  - fotit a filmovat: zasílat Fotky
+- Kontakty *(mohou být zakázané)*
+  - číst tvé kontakty: objevovat kontakty pro hovory
+- Poloha *(může být zakázaná)*
+  - přístup k přibližné poloze (poloha z GSM sítě): pro funkci "vysílání" polohy
+  - přístup k přesné poloze (poloha z GPS a sítě GSM): pro funkci "vysílání" polohy
+- Mikrofon *(může být zakázaný)*
+  - nahrávat zvuk: pro hlasové zprávy
+- Úložiště *(může být zakázané)*
+  - upravovat a mazat obsah tvé SD karty: stahování příloh zpráv
+  - číst obsah tvé SD karty: sdílet soubory s tvými kontakty
+- Další schopnosti aplikace
+  - měnit nastavení zvuku: lze měnit zvuky vyzvánění a hlasitost oznámení a zvukových zpráv
+  - spouštět se při startu: nemusíš spouštět Delta Chat ručně
+  - ovládat chvění: pro oznámení
+  - značit síťová připojení: pro připojení k tvému poskytovateli e-mailu.
+  - zamezit režimu spánku: pro snadnější přepis čísel bezpečnostního kódu při přenosu Nastavení Autokryptu
+  - plný přístup k síti: pro připojení k poskytovateli e-mailu
+  - vidět Wi-Fi připojenís: pro připojení k poskytovateli e-mailu
+  - zamezit přizpůsobení se baterii: pro uživatele, kteří chtějí přijímat zprávy bez přerušení
+
+
 ### Pracuje Delta Chat s _mým_ poskytovatelem e-mailu?
 
 - S poměrně vysokou pravděpodobností: Ano :)  
@@ -1053,6 +969,22 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - You can find an [installation guide on our website](serverguide).
 
 
+### Proč musím Delta Chatu zadat mé e-mailové heslo? Je to bezpečné?
+
+As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
+program needs the password so you can use it to send and receive mails. Of course, the
+password is stored only on your device. The password is only transmitted to
+your E-Mail provider (when you login), which has access to your mails anyway.
+
+Poskytovatelé e-mailu s podporou OAuth2, např. "gmail.com" či "yandex.ru",
+nepotřebují při přihlašování tvé heslo. V takovém případě je uložen pouze
+vygenerovaný přístupový kód.
+
+Delta Chat má otevřený [zdrojový kód](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs),
+ze kterého lze ověřit, že program s osobními daty zachází bezpečně. Jsme rádi
+za každou odezvu, která udělá Delta Chat bezpečnější pro všechny.
+
+
 ### Je hovor v Delta Chatu skutečně _interaktivní_, když užívá E-Mail?
 
 - Sending and receiving messages takes a few seconds, typically. Sometimes
@@ -1066,6 +998,31 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - However, Android and iOS kill apps running in the background is a
   problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Jaké zprávy Delta Chat zobrazuje?
+
+By default, Delta Chat shows all e-mails.
+
+At "Settings -> Chats &
+Media -> Show Classic E-Mails", you can change this. You have these options:
+
+- "No, chats only": Only messages sent by other Delta Chat users and replies to
+  your Delta Chat messages are shown. This makes most sense if you use the same
+  e-mail account for normal e-mails as well.
+- "All": Delta Chat shows all e-mails that are sent to your email address. This
+  makes sense if you want to use Delta Chat for all your e-mails, so no message
+  gets lost. This is the default setting.
+- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
+  you already have a chat, but new chats only pop up for Delta Chat messages.
+  This helps to decide on a case-by-case basis whether you want to have a
+  conversation in Delta Chat or in a "normal" e-mail app.
+
+
+### Umí Delta Chat pracovat s e-maily v HTML?
+
+Yes, incoming HTML messages come with a "Show full message" button.
+Outgoing messages always use plain text.
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -1086,6 +1043,41 @@ You will get bonus professionalism points
 if you set a [signature text](#signature).
 
 
+### K čemu je dobré nastavení "Posílat si kopii"?
+
+Sending a copy of your messages to yourself ensures that you receive your own
+messages on all devices. If you have multiple devices and don't turn it on, you
+see only the messages from other people, and the messages you send from the
+current device.
+
+Kopie přijdou nejdříve do Příchozí složky, a pak jsou samočinně přesunuty do složky 
+DeltaChat; ne do složky Odeslané. Do složky Odeslané se nepřesouvá nikdy nic.
+protože by to vyžadovalo přenášet zprávu dvakrát (jednou poslat přes SMTP, a jednou 
+pro složku Odeslané přes IMAP).
+
+Výchozí hodnota nastavení pro zasílání si kopií je "Ne".
+
+
+### Proč můžu nastavit sledování složky Odeslané?
+
+Jediný důvod sledovat složku s odeslanými zprávami je používání jiného e-mailového
+programu (např. Thunderbird) spolu s Delta Chatem, a chtít z tohoto programu také 
+psát zprávy do hovorů Delta Chatu.
+
+However, we recommend using the Delta Chat Desktop Client; you can download it
+on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
+folder might go away in the future. It was introduced at a time where there was
+no Delta Chat Desktop client available on all platforms.
+
+
+### Proč mohu zvolit nesledovat složku DeltaChat?
+
+Někteří lidé užívají Delta Chat jako jediný e-mailový program, a chtějí užívat 
+složku Příchozí / Inbox pro všechny zprávy i místo složky DeltaChat. Pokud zrušíš 
+"Sleduj složku DeltaChat", zruš také "přesouvat zprávy do složky DeltaChat". Jinak 
+hrozí, že mazání zpráv či nastavení na několika zařízeních nebude správně fungovat.
+
+
 ### Lze Delta Chat používat s Protonmail / Tutanota / Criptext?
 
 - Yes and No.
@@ -1098,6 +1090,18 @@ if you set a [signature text](#signature).
   uses.
 - Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+
+
+### How can I delete my account?
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ### Mám zájem o technické podrobnosti. Kde najdu víc?

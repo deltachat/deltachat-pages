@@ -34,17 +34,6 @@ instalować tej samej aplikacji co Twoja, tak jak w przypadku innych komunikator
 - _Elastyczna tożsamość_ ze wbudowaną obsługą [wielu kont](#multiple-accounts)
 
 
-### Jakie wiadomości pojawiają się w Delta Chat?
-
-Domyślnie Delta Chat pokazuje wszystkie e-maile.
-
-Możesz to zmienić w „Ustawienia » Czaty i media » Pokaż klasyczne e-maile”. Masz następujące opcje:
-
-- „Nie, tylko czaty”: Wyświetlane są tylko wiadomości wysłane przez innych użytkowników Delta Chat i odpowiedzi na Twoje wiadomości Delta Chat. Ma to największy sens, jeśli używasz tego samego konta e-mail również do wysyłania zwykłych wiadomości e-mail. To jest ustawienie domyślne.
-- „Wszystkie”: Delta Chat pokazuje wszystkie e-maile, które są wysyłane na Twój adres e-mail. Ma to sens, jeśli chcesz używać Delta Chat do wszystkich swoich e-maili, więc żadna wiadomość nie zostanie utracona. To jest ustawienie domyślne.
-- „Dla zaakceptowanych kontaktów”: Delta Chat pokazuje wszystkie e-maile od kontaktów, z którymi już prowadzisz czat, ale nowe czaty pojawiają się tylko dla wiadomości Delta Chat. Pomaga to zdecydować indywidualnie dla każdego przypadku, czy chcesz prowadzić rozmowę w Delta Chat, czy w „normalnej” aplikacji e-mail.
-
-
 ### Co zrobić, jeśli oczekuję wiadomości od osoby, do której nie pisałem w przeszłości?
 
 - Jeśli wiadomość przychodzi od nieznanego kontaktu, pojawia się jako **prośba**. Musisz zaakceptować prośbę, zanim będziesz mógł odpowiedzieć.
@@ -81,49 +70,6 @@ Możesz także dowiedzieć się, [jak dodawać konta do wielu urządzeń](#multi
 
 Tak, możesz to zrobić w „Ustawienia » Profil » Tekst podpisu”. Twoje kontakty korzystające z Delta Chat, zobaczą go, przeglądając twoje dane kontaktowe. Dla wszystkich innych będzie on widoczny jako podpis e-mail pod tekstem wszystkich twoich wiadomości.
 
-
-### Czy Delta Chat obsługuje wiadomości e-mail w formacie HTML?
-
-- Tak, przychodzące wiadomości HTML otrzymują przycisk „Pokaż całą wiadomość”. Wychodzące wiadomości zawsze zawierają zwykły tekst.
-
-
-### Dlaczego muszę wpisać moje hasło e-mail do Delta Chat? Czy to jest bezpieczne?
-
-Podobnie jak w przypadku innych programów pocztowych, takich jak Thunderbird, K9-Mail lub Outlook, program potrzebuje hasła, aby można było go używać do wysyłania i odbierania e-maili. Oczywiście hasło jest przechowywane tylko na Twoim urządzeniu. Hasło jest przesyłane tylko do Twojego dostawcy poczty e-mail (po zalogowaniu), który i tak ma dostęp do Twojej poczty
-
-Jeśli korzystasz z dostawcy poczty e-mail z obsługą OAuth2, takiego jak gmail.com lub yandex.ru, nie musisz przechowywać hasła na urządzeniu. W takim przypadku używany jest tylko token dostępu.
-
-Ponieważ Delta Chat jest Open Source, możesz sprawdzić [Kod źródłowy](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
-jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny sposób. Cieszymy się z opinii, które sprawiają, że aplikacja jest bezpieczniejsza dla wszystkich naszych użytkowników. 
-
-
-### Jakich uprawnień potrzebuje Delta Chat?
-
-W zależności od używanego systemu operacyjnego możesz
-zostać poproszony o przyznanie uprawnień aplikacji.
-Oto, co robi Delta Chat z tymi uprawnieniami:
-
-- Aparat *(można zablokować)*
- - robi zdjęcia i filmy: do wysyłania zdjęć
-- Kontakty *(można zablokować)*
- - czyta twoje kontakty: aby znaleźć kontakty do czatu
-- Lokalizacja *(można zablokować)*
- - dostęp do przybliżonej lokalizacji (sieciowe źródła lokalizacji): dla funkcji przesyłania strumieniowego lokalizacji
- - dostęp do dokładnej lokalizacji (GPS i sieciowe źródła lokalizacji): dla funkcji przesyłania strumieniowego lokalizacji
-- Mikrofon *(można zablokować)*
- - nagrywanie dźwięku: dla wiadomości audio
-- Przechowywanie *(można zablokować)*
- - modyfikowanie lub usuwanie zawartości karty SD: pobieranie załączników do wiadomości
- - czytanie zawartość twojej karty SD: aby udostępniać pliki swoim kontaktom
-- Inne możliwości aplikacji
- - zmiana ustawienia dźwięku: możesz wybrać dzwonki i głośność dla powiadomień i wiadomości audio
- - uruchamianie przy starcie: więc nie musisz ręcznie uruchamiać Delta Chat
- - kontrola wibracji: do powiadomień
- - przeglądanie połączenia sieciowych: aby połączyć się z dostawcą poczty e-mail
- - zapobieganie uśpieniu telefonu: dzięki czemu możesz łatwiej skopiować kod zabezpieczający podczas komunikatu konfiguracyjnego Autocrypt
- - pełny dostęp do sieci: aby połączyć się z dostawcą poczty e-mail
- - wyświetlanie połączenia Wi-Fi: aby połączyć się z dostawcą poczty e-mail
- - prośba o zignorowanie optymalizacji baterii: dla użytkowników, którzy chcą otrzymywać wiadomości przez cały czas 
 
 ### Co oznacza przypinanie, wyciszanie i archiwizowanie?
 
@@ -163,14 +109,6 @@ Dopóki ustawienie nie zostanie ponownie wyłączone, aplikacja Delta Chat u ka�
 Pamiętaj, że na znikających wiadomościach możesz polegać tylko wtedy, gdy ufasz swoim partnerom czatu; złośliwi partnerzy czatu mogą robić zdjęcia lub w inny sposób zapisywać, kopiować lub przesyłać dalej wiadomości przed usunięciem.
 
 Poza tym, jeśli jeden z partnerów czatu odinstaluje Delta Chat, wiadomości nie zostaną usunięte z jego konta e-mail. Najprawdopodobniej nie będzie już można ich odszyfrować (o ile zostały najpierw zaszyfrowane).
-
-
-### Jak mogę usunąć swoje konto?
-
-Gdy korzystasz z konta e-mail w Delta Chat, sposób usunięcia konta zależy od dostawcy poczty e-mail.
-Nie mamy żadnej kontroli nad twoim kontem e-mail, więc niestety nie możemy ci w tym pomóc.
-
-Jeśli chcesz zachować konto, ale odinstalować Delta Chat, zaleca się opuszczenie każdego czatu grupowego przed odinstalowaniem Delta Chat.
 
 
 ## Grupy
@@ -517,25 +455,6 @@ Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne
 - Jeśli potrzebujesz klienta Web, ponieważ nie możesz instalować oprogramowania na komputerze, na którym pracujesz, możesz użyć przenośnego klienta Windows Desktop lub AppImage dla Linuxa. Możesz je znaleźć na [get.delta.chat](https://get.delta.chat).
 
 
-### Do czego służy ustawienie „Wyślij kopię do siebie”?
-
-Wysłanie kopii wiadomości do siebie zapewnia otrzymywanie własnych wiadomości na wszystkich urządzeniach. Jeśli masz wiele urządzeń i jej nie włączysz, zobaczysz tylko wiadomości od innych osób oraz wiadomości, które wysyłasz z bieżącego urządzenia.
-
-Kopia jest wysyłana do skrzynki odbiorczej, a następnie przenoszona do folderu DeltaChat; nie jest umieszczana w folderze „Wysłane”. Delta Chat nigdy nie przesyła niczego do folderu Wysłane, ponieważ oznaczałoby to dwukrotne przesłanie wiadomości (raz przez SMTP i raz przez IMAP do folderu Wysłane).
-
-Domyślne ustawienie kopiowania do siebie to „nie”.
-
-### Po co mam wybrać opcję oglądania folderu „Wysłane”?
-
-Jedynym powodem, dla którego ktoś chce oglądać folder Wysłane, jest to, że używa innego programu pocztowego (takiego jak Thunderbird) razem z aplikacją Delta Chat i chce, aby jego program pocztowy „uczestniczył” w rozmowach na czacie.
-
-Jednak zalecamy używanie klienta Delta Chat Desktop; możesz go pobrać z [get.delta.chat](https://get.delta.chat). Opcja oglądania folderu „Wysłane” może w przyszłości zniknąć. Została wprowadzona w czasie, gdy na żadnej platformie nie był dostępny klient Delta Chat Desktop.
-
-### Dlaczego mogę nie widzieć folderu DeltaChat?
-
-Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą używać folderu Skrzynka odbiorcza dla swojej poczty zamiast folderu DeltaChat. Jeśli wyłączysz opcję „Oglądaj folder DeltaChat”, powinieneś również wyłączyć opcję „Automatyczne przenoszenie do folderu DeltaChat”. W przeciwnym razie usuwanie wiadomości lub konfiguracja wielu urządzeń może nie działać poprawnie.
-
-
 ## Aplikacje webxdc {#webxdc}
 
 W Delta Chat możesz udostępniać [aplikacje webxdc](https://webxdc.org) i załączniki z rozszerzeniem pliku .xdc. Mogą robić bardzo różne rzeczy i uczynić Delta Chat naprawdę rozszerzalnym komunikatorem.
@@ -631,6 +550,35 @@ Aby dowiedzieć się więcej na ten temat, [przeczytaj nasz wpis na blogu na ten
 
 ## Różne
 
+### Jakich uprawnień potrzebuje Delta Chat?
+
+W zależności od używanego systemu operacyjnego możesz
+zostać poproszony o przyznanie uprawnień aplikacji.
+Oto, co robi Delta Chat z tymi uprawnieniami:
+
+- Aparat *(można zablokować)*
+ - robi zdjęcia i filmy: do wysyłania zdjęć
+- Kontakty *(można zablokować)*
+ - czyta twoje kontakty: aby znaleźć kontakty do czatu
+- Lokalizacja *(można zablokować)*
+ - dostęp do przybliżonej lokalizacji (sieciowe źródła lokalizacji): dla funkcji przesyłania strumieniowego lokalizacji
+ - dostęp do dokładnej lokalizacji (GPS i sieciowe źródła lokalizacji): dla funkcji przesyłania strumieniowego lokalizacji
+- Mikrofon *(można zablokować)*
+ - nagrywanie dźwięku: dla wiadomości audio
+- Przechowywanie *(można zablokować)*
+ - modyfikowanie lub usuwanie zawartości karty SD: pobieranie załączników do wiadomości
+ - czytanie zawartość twojej karty SD: aby udostępniać pliki swoim kontaktom
+- Inne możliwości aplikacji
+ - zmiana ustawienia dźwięku: możesz wybrać dzwonki i głośność dla powiadomień i wiadomości audio
+ - uruchamianie przy starcie: więc nie musisz ręcznie uruchamiać Delta Chat
+ - kontrola wibracji: do powiadomień
+ - przeglądanie połączenia sieciowych: aby połączyć się z dostawcą poczty e-mail
+ - zapobieganie uśpieniu telefonu: dzięki czemu możesz łatwiej skopiować kod zabezpieczający podczas komunikatu konfiguracyjnego Autocrypt
+ - pełny dostęp do sieci: aby połączyć się z dostawcą poczty e-mail
+ - wyświetlanie połączenia Wi-Fi: aby połączyć się z dostawcą poczty e-mail
+ - prośba o zignorowanie optymalizacji baterii: dla użytkowników, którzy chcą otrzymywać wiadomości przez cały czas 
+
+
 ### Czy Delta Chat działa z _moim_ dostawcą poczty e-mail?
 
 - Z dość dużym prawdopodobieństwem: Tak :)
@@ -643,12 +591,38 @@ Aby dowiedzieć się więcej na ten temat, [przeczytaj nasz wpis na blogu na ten
 - Instrukcję instalacji można znaleźć [na naszej stronie internetowej](serverguide).
 
 
+### Dlaczego muszę wpisać moje hasło e-mail do Delta Chat? Czy to jest bezpieczne?
+
+Podobnie jak w przypadku innych programów pocztowych, takich jak Thunderbird, K9-Mail lub Outlook, program potrzebuje hasła, aby można było go używać do wysyłania i odbierania e-maili. Oczywiście hasło jest przechowywane tylko na Twoim urządzeniu. Hasło jest przesyłane tylko do Twojego dostawcy poczty e-mail (po zalogowaniu), który i tak ma dostęp do Twojej poczty
+
+Jeśli korzystasz z dostawcy poczty e-mail z obsługą OAuth2, takiego jak gmail.com lub yandex.ru, nie musisz przechowywać hasła na urządzeniu. W takim przypadku używany jest tylko token dostępu.
+
+Ponieważ Delta Chat jest Open Source, możesz sprawdzić [Kod źródłowy](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny sposób. Cieszymy się z opinii, które sprawiają, że aplikacja jest bezpieczniejsza dla wszystkich naszych użytkowników. 
+
+
 ### Jeśli Delta Chat korzysta z poczty e-mail, czy naprawdę jest to komunikator internetowy?
 
 - Wysyłanie i odbieranie wiadomości zwykle zajmuje kilka sekund. Czasami zdarzają się przypadki, w których trwa to dłużej, ale prawdopodobnie jest to również prawdą w przypadku każdego innego komunikatora.
 - Natychmiastowe czatowanie działa szybko, jeśli obie strony aktywnie korzystają z aplikacji. Czasami działa wolniej, jeśli aplikacja działa w tle.
 - Odbieranie wiadomości może zająć kilka minut, ponieważ zarówno Android, jak i iOS często zatrzymują Delta Chat podczas działaniem w tle i budzą go tylko od czasu do czasu. To sztuczne opóźnienie jest zwykle gorsze na iOS niż na Androidzie.
 - Jednak „ubijanie” aplikacji działających w tle na Androidzie i iOS stanowi problem dla wielu legalnych aplikacji. Aby uzyskać więcej informacji, zobacz [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Jakie wiadomości pojawiają się w Delta Chat?
+
+Domyślnie Delta Chat pokazuje wszystkie e-maile.
+
+Możesz to zmienić w „Ustawienia » Czaty i media » Pokaż klasyczne e-maile”. Masz następujące opcje:
+
+- „Nie, tylko czaty”: Wyświetlane są tylko wiadomości wysłane przez innych użytkowników Delta Chat i odpowiedzi na Twoje wiadomości Delta Chat. Ma to największy sens, jeśli używasz tego samego konta e-mail również do wysyłania zwykłych wiadomości e-mail. To jest ustawienie domyślne.
+- „Wszystkie”: Delta Chat pokazuje wszystkie e-maile, które są wysyłane na Twój adres e-mail. Ma to sens, jeśli chcesz używać Delta Chat do wszystkich swoich e-maili, więc żadna wiadomość nie zostanie utracona. To jest ustawienie domyślne.
+- „Dla zaakceptowanych kontaktów”: Delta Chat pokazuje wszystkie e-maile od kontaktów, z którymi już prowadzisz czat, ale nowe czaty pojawiają się tylko dla wiadomości Delta Chat. Pomaga to zdecydować indywidualnie dla każdego przypadku, czy chcesz prowadzić rozmowę w Delta Chat, czy w „normalnej” aplikacji e-mail.
+
+
+### Czy Delta Chat obsługuje wiadomości e-mail w formacie HTML?
+
+- Tak, przychodzące wiadomości HTML otrzymują przycisk „Pokaż całą wiadomość”. Wychodzące wiadomości zawsze zawierają zwykły tekst.
 
 
 ### Czy w Delta Chat mogę ustawić temat wiadomości e-mail?
@@ -658,12 +632,41 @@ Delta Chat automatycznie ustawia (i [szyfruje](#message-metadata)!) klasyczny te
 Jeśli więc chcesz samodzielnie ustawić temat, na przykład w przypadku oficjalnego e-maila do kontaktu biznesowego, możesz utworzyć grupę składającą się tylko z ciebie i odbiorców. Ustaw tytuł czatu na żądany temat, a następnie wyślij swój e-mail jako pierwszą wiadomość. Jeśli odbiorcy nie korzystają z Delta Chat, będzie to dla nich wyglądać jak zwykły, formalny e-mail. Jeśli ustawisz [tekst podpisu](#signature), otrzymasz dodatkowe punkty profesjonalizmu.
 
 
+### Do czego służy ustawienie „Wyślij kopię do siebie”?
+
+Wysłanie kopii wiadomości do siebie zapewnia otrzymywanie własnych wiadomości na wszystkich urządzeniach. Jeśli masz wiele urządzeń i jej nie włączysz, zobaczysz tylko wiadomości od innych osób oraz wiadomości, które wysyłasz z bieżącego urządzenia.
+
+Kopia jest wysyłana do skrzynki odbiorczej, a następnie przenoszona do folderu DeltaChat; nie jest umieszczana w folderze „Wysłane”. Delta Chat nigdy nie przesyła niczego do folderu Wysłane, ponieważ oznaczałoby to dwukrotne przesłanie wiadomości (raz przez SMTP i raz przez IMAP do folderu Wysłane).
+
+Domyślne ustawienie kopiowania do siebie to „nie”.
+
+
+### Po co mam wybrać opcję oglądania folderu „Wysłane”?
+
+Jedynym powodem, dla którego ktoś chce oglądać folder Wysłane, jest to, że używa innego programu pocztowego (takiego jak Thunderbird) razem z aplikacją Delta Chat i chce, aby jego program pocztowy „uczestniczył” w rozmowach na czacie.
+
+Jednak zalecamy używanie klienta Delta Chat Desktop; możesz go pobrać z [get.delta.chat](https://get.delta.chat). Opcja oglądania folderu „Wysłane” może w przyszłości zniknąć. Została wprowadzona w czasie, gdy na żadnej platformie nie był dostępny klient Delta Chat Desktop.
+
+
+### Dlaczego mogę nie widzieć folderu DeltaChat?
+
+Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą używać folderu Skrzynka odbiorcza dla swojej poczty zamiast folderu DeltaChat. Jeśli wyłączysz opcję „Oglądaj folder DeltaChat”, powinieneś również wyłączyć opcję „Automatyczne przenoszenie do folderu DeltaChat”. W przeciwnym razie usuwanie wiadomości lub konfiguracja wielu urządzeń może nie działać poprawnie.
+
+
 ### Czy Delta Chat jest kompatybilny z Protonmail / Tutanota / Criptext?
 
 - I tak i nie.
 - Nie, nie możesz używać swojego konta Protonmail, Tutanota lub Criptext z Delta Chat; nie oferują one odbierania poczty przez IMAP.
 - W każdym przypadku możesz użyć Delta Chat do wysyłania wiadomości do osób, które używają Protonmail, Tutanota lub Criptext. Te wiadomości nie będą jednak szyfrowane metodą end-to-end. Szyfrowanie typu end-to-end, które oferują ci dostawcy, nie jest kompatybilne z [Autocrypt](https://autocrypt.org/) stosowanym standardowo w Delta Chat.
 - Delta Chat może zaszyfrować metodą end-to-end za pośrednictwem dowolnego dostawcy poczty e-mail z dowolną [aplikacją e-mail z włączoną funkcją Autocrypt](https://autocrypt.org/dev-status.html).
+
+
+### Jak mogę usunąć swoje konto?
+
+Gdy korzystasz z konta e-mail w Delta Chat, sposób usunięcia konta zależy od dostawcy poczty e-mail.
+Nie mamy żadnej kontroli nad twoim kontem e-mail, więc niestety nie możemy ci w tym pomóc.
+
+Jeśli chcesz zachować konto, ale odinstalować Delta Chat, zaleca się opuszczenie każdego czatu grupowego przed odinstalowaniem Delta Chat.
 
 
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi coś więcej?

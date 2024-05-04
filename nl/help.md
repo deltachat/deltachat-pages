@@ -37,22 +37,6 @@ per se dezelfde app te gebruiken als jij zoals bij andere chatapps.
 - _Flexibel: ingebouwde ondersteuning voor [meerdere accounts](#multiple-accounts).
 
 
-### Welke berichten vind ik terug in Delta Chat?
-
-Standaard toont Delta Chat alle e-mails.
-
-Je kunt dit aanpassen via Instellingen → Gesprekken en media → Klassieke e-mails tonen. Vervolgens heb je keuze uit de volgende opties:
-
-- ‘Alleen gesprekken’: er worden alleen berichten en antwoorden van andere
-   Delta Chat-gebruikers getoond. Dit is handig als je hetzelfde account ook voor
-   normale e-mails gebruikt en is de standaardinstelling.
-- ‘Alles’: alle e-mails worden getoond. Dit is handig als je Delta Chat voor al je e-mails gebruikt, zodat je geen bericht hoeft te missen.
-- ‘Alleen goedgekeurde contactpersonen’: Delta Chat toont alle e-mails van contactpersonen
-   waarmee je al gecommuniceerd hebt. Nieuwe berichten verschijnen
-   alleen als ze vanuit Delta Chat verstuurd zijn.
-   Hiermee kun je per keer bepalen of je een gesprek in Delta Chat of je e-mailapp wilt voeren.
-
-
 ### Wat nu als ik een bericht verwacht van iemand die ik nog niet heb aangeschreven?
 
 - Als een bericht afkomstig is van een onbekende contactpersoon, dan wordt er een **verzoek** getoond.
@@ -103,51 +87,6 @@ To everyone else,
 It will appear as an e-mail signature
 below the text of all your messages.
 
-
-### Ondersteunt Delta Chat HTML-e-mails?
-
-- Ja. Indien nodig wordt er bij inkomende berichten een knop ‘Volledig bericht tonen’ getoond.
-Uitgaande e-mails gebruiken altijd platte tekst.
-
-
-### Waarom moet ik mijn e-mailwachtwoord invoeren in Delta Chat? Is dat wel veilig?
-
-Delta Chat heeft, net zoals andere e-mailprogramma's (Thunderbird, K9-Mail, Outlook, etc.), je wachtwoord nodig om berichten te versturen. Het wordt alleen opgeslagen op je apparaat en alleen uitgewisseld met je e-mailprovider, die toch al toegang heeft tot je mails.
-
-Als je een e-mailprovider gebruikt die OAuth2 ondersteunt, zoals Gmail of Yandex, dan hoeft je wachtwoord niet lokaal te worden opgeslagen. Er wordt dan alleen een toegangssleutel gebruikt.
-
-Delta Chat is open source. Dit betekent dat je de [bron-
-code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
-kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inloggegevens. We ontvangen graag feedback hierover.
-
-
-### Welke Android-rechten heeft Delta Chat nodig?
-
-Op bepaalde besturingssystemen kun je gevraagd
-worden bepaalde rechten toe te kennen aan de app.
-Delta Chat doet het volgende met deze rechten:
-
-- Camera *(kan worden ingetrokken)*
-  - foto's en video's maken: voor het versturen van foto's
-- Contactpersonen *(kan worden ingetrokken*
-  - contactpersonen uitlezen: voor het vinden van gesprekspartners
-- Locatie *(kan worden ingetrokken)*
-  - toegang tot je locatie, bij benadering (netwerklocatiebronnen): voor de locatie-streamingfunctie
-  - toegang tot je precieze locatie (GPS en netwerklocatiebronnen): voor de locatie-streamingfunctie
-- Microfoon *(kan worden ingetrokken)*
-  - audio opnemen: voor het versturen van audioberichten
-- Opslag *(kan worden ingetrokken)*
-  - de inhoud van je sd-kaart aanpassen of wissen: om bijlagen op te slaan
-  - de inhoud uitlezen van je sd-kaart: om bestanden te delen met je contactpersonen
-- Andere mogelijkheden:
-  - je audio-instellingen aanpassen: zodat je beltonen en het meldingsvolume kunt aanpassen en audioberichten kunt ontvangen en versturen
-  - automatisch opstarten: zodat je Delta Chat niet zelf hoeft op te starten
-  - trillen beheren: voor meldingen
-  - netwerkverbindingen bekijken: om je e-mailprovider te koppelen
-  - slaapstand onderdrukken: zodat je de code van het Autocrypt-instelbericht eenvoudiger kunt overtypen
-  - volledige netwerktoegang: om je e-mailprovider te koppelen
-  - Wi-Fi-verbindingen bekijken: om je e-mailprovider te koppelen
-  - vraag om accu-optimalisatie te negeren: voor gebruikers die continue berichten willen blijven ontvangen
 
 ### Wat is vastmaken, negeren en archiveren?
 
@@ -211,18 +150,6 @@ if one chat partner uninstalls Delta Chat,
 the messages will not get deleted from their email account.
 They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
-
-
-### Hoe kan ik mijn account verwijderen?
-
-Delta Chat maakt gebruik van je e-mailaccount,
-dus de verwijderprocedure is afhankelijk van je provider.
-We hebben geen zeggenschap over je account,
-dus helaas kunnen we je daar niet bij helpen.
-
-Als je je account wilt behouden maar Delta Chat
-niet wilt verwijderen, verlaat dan groeps-
-gesprekken voordat je Delta Chat verwijdert.
 
 
 ## Groepen
@@ -838,38 +765,6 @@ Deze methode is vooral bedoeld voor situaties waarin ‘Tweede apparaat toevoege
  [get.delta.chat](https://get.delta.chat).
 
 
-### Waarvoor dient de optie ‘Kopie versturen aan mijzelf’?
-
-Door een kopie aan jezelf te sturen, weet je zeker dat je je eigen berichten
-op alle apparaten ontvangt. Als je meerdere apparaten hebt en dit niet
-inschakelt, dan zie je alleen berichten van anderen en de berichten die je vanaf het
-huidige apparaat verstuurt.
-
-De kopie wordt verstuurd naar je Postvak IN en vervolgens verplaatst naar de DeltaChat-map -
-het verschijnt nooit in de map 'Verzonden'. Delta Chat werkt zo omdat het bericht
-anders twee keer verstuurd zou worden (eenmaal middels smtp,
-en eenmaal middels imap naar de map ‘Verzonden’).
-
-Standaard is deze optie uitgeschakeld.
-
-### Waarom kan ik kiezen om de map ‘Verzonden’ te controleren?
-
-Dit is alleen nuttig als een ander e-mailprogramma (zoals Thunderbird) naast de
-Delta Chat-app gebruikt en wilt dat je andere apparaten deel uitmaken van gesprekken.
-
-Wij raden echter aan om in dat geval de Delta Chat-app te installeren op je computer:
-[get.delta.chat](https://get.delta.chat). De optie om de map ‘Verzonden’ te controleren
-wordt in de toekomst mogelijk verwijderd. De functie deed zijn intrede toen er nog niet
-op alle platformen een Delta Chat-client beschikbaar was.
-
-### Waarom kan ik kiezen om de DeltaChat-map te negeren?
-
-Sommige mensen gebruiken Delta Chat als een normale e-mailclient en willen daarom Postvak IN
-gebruiken voor hun e-mail in plaats van de DeltaChat-map. Als je deze optie uitschakelt,
-schakel dan ook de optie ‘Berichten verplaatsen naar de DeltaChat-map’ uit.
-Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere apparaten.
-
-
 ## webxdc apps {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
@@ -1026,6 +921,35 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ## Overig
 
+### Welke Android-rechten heeft Delta Chat nodig?
+
+Op bepaalde besturingssystemen kun je gevraagd
+worden bepaalde rechten toe te kennen aan de app.
+Delta Chat doet het volgende met deze rechten:
+
+- Camera *(kan worden ingetrokken)*
+  - foto's en video's maken: voor het versturen van foto's
+- Contactpersonen *(kan worden ingetrokken*
+  - contactpersonen uitlezen: voor het vinden van gesprekspartners
+- Locatie *(kan worden ingetrokken)*
+  - toegang tot je locatie, bij benadering (netwerklocatiebronnen): voor de locatie-streamingfunctie
+  - toegang tot je precieze locatie (GPS en netwerklocatiebronnen): voor de locatie-streamingfunctie
+- Microfoon *(kan worden ingetrokken)*
+  - audio opnemen: voor het versturen van audioberichten
+- Opslag *(kan worden ingetrokken)*
+  - de inhoud van je sd-kaart aanpassen of wissen: om bijlagen op te slaan
+  - de inhoud uitlezen van je sd-kaart: om bestanden te delen met je contactpersonen
+- Andere mogelijkheden:
+  - je audio-instellingen aanpassen: zodat je beltonen en het meldingsvolume kunt aanpassen en audioberichten kunt ontvangen en versturen
+  - automatisch opstarten: zodat je Delta Chat niet zelf hoeft op te starten
+  - trillen beheren: voor meldingen
+  - netwerkverbindingen bekijken: om je e-mailprovider te koppelen
+  - slaapstand onderdrukken: zodat je de code van het Autocrypt-instelbericht eenvoudiger kunt overtypen
+  - volledige netwerktoegang: om je e-mailprovider te koppelen
+  - Wi-Fi-verbindingen bekijken: om je e-mailprovider te koppelen
+  - vraag om accu-optimalisatie te negeren: voor gebruikers die continue berichten willen blijven ontvangen
+
+
 ### Wordt _mijn_ e-mailprovider ondersteund door Delta Chat?
 
 - Hoogstwaarschijnlijk wel :)
@@ -1038,6 +962,20 @@ it](https://delta.chat/en/2022-09-14-aeap).
   combinatie van mailcow en mailadm aan, zoals uitgelegd op [ons
   blog](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
 - In de [installatiehandleiding op onze website](serverguide) lees je hoe je dit opzet.
+
+
+### Waarom moet ik mijn e-mailwachtwoord invoeren in Delta Chat? Is dat wel veilig?
+
+As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
+program needs the password so you can use it to send and receive mails. Of course, the
+password is stored only on your device. The password is only transmitted to
+your E-Mail provider (when you login), which has access to your mails anyway.
+
+Als je een e-mailprovider gebruikt die OAuth2 ondersteunt, zoals Gmail of Yandex, dan hoeft je wachtwoord niet lokaal te worden opgeslagen. Er wordt dan alleen een toegangssleutel gebruikt.
+
+Delta Chat is open source. Dit betekent dat je de [bron-
+code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inloggegevens. We ontvangen graag feedback hierover.
 
 
 ### Delta Chat gebruik e-mail. Is het dan wel een _Instant_ Messenger?
@@ -1058,6 +996,28 @@ it](https://delta.chat/en/2022-09-14-aeap).
   [dontkillmyapp.com](https://dontkillmyapp.com/) voor meer informatie hieromtrent.
 
 
+### Welke berichten vind ik terug in Delta Chat?
+
+Standaard toont Delta Chat alle e-mails.
+
+Je kunt dit aanpassen via Instellingen → Gesprekken en media → Klassieke e-mails tonen. Vervolgens heb je keuze uit de volgende opties:
+
+- ‘Alleen gesprekken’: er worden alleen berichten en antwoorden van andere
+   Delta Chat-gebruikers getoond. Dit is handig als je hetzelfde account ook voor
+   normale e-mails gebruikt en is de standaardinstelling.
+- ‘Alles’: alle e-mails worden getoond. Dit is handig als je Delta Chat voor al je e-mails gebruikt, zodat je geen bericht hoeft te missen.
+- ‘Alleen goedgekeurde contactpersonen’: Delta Chat toont alle e-mails van contactpersonen
+   waarmee je al gecommuniceerd hebt. Nieuwe berichten verschijnen
+   alleen als ze vanuit Delta Chat verstuurd zijn.
+   Hiermee kun je per keer bepalen of je een gesprek in Delta Chat of je e-mailapp wilt voeren.
+
+
+### Ondersteunt Delta Chat HTML-e-mails?
+
+Yes, incoming HTML messages come with a "Show full message" button.
+Outgoing messages always use plain text.
+
+
 ### Can I set the E-Mail Subject with Delta Chat?
 
 Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
@@ -1076,6 +1036,40 @@ You will get bonus professionalism points
 if you set a [signature text](#signature).
 
 
+### Waarvoor dient de optie ‘Kopie versturen aan mijzelf’?
+
+Sending a copy of your messages to yourself ensures that you receive your own
+messages on all devices. If you have multiple devices and don't turn it on, you
+see only the messages from other people, and the messages you send from the
+current device.
+
+De kopie wordt verstuurd naar je Postvak IN en vervolgens verplaatst naar de DeltaChat-map -
+het verschijnt nooit in de map 'Verzonden'. Delta Chat werkt zo omdat het bericht
+anders twee keer verstuurd zou worden (eenmaal middels smtp,
+en eenmaal middels imap naar de map ‘Verzonden’).
+
+Standaard is deze optie uitgeschakeld.
+
+
+### Waarom kan ik kiezen om de map ‘Verzonden’ te controleren?
+
+Dit is alleen nuttig als een ander e-mailprogramma (zoals Thunderbird) naast de
+Delta Chat-app gebruikt en wilt dat je andere apparaten deel uitmaken van gesprekken.
+
+However, we recommend using the Delta Chat Desktop Client; you can download it
+on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
+folder might go away in the future. It was introduced at a time where there was
+no Delta Chat Desktop client available on all platforms.
+
+
+### Waarom kan ik kiezen om de DeltaChat-map te negeren?
+
+Sommige mensen gebruiken Delta Chat als een normale e-mailclient en willen daarom Postvak IN
+gebruiken voor hun e-mail in plaats van de DeltaChat-map. Als je deze optie uitschakelt,
+schakel dan ook de optie ‘Berichten verplaatsen naar de DeltaChat-map’ uit.
+Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere apparaten.
+
+
 ### Is Delta Chat compatibel met Protonmail/Tutanota/Criptext?
 
 - Yes and No.
@@ -1088,6 +1082,18 @@ if you set a [signature text](#signature).
   uses.
 - Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+
+
+### Hoe kan ik mijn account verwijderen?
+
+Delta Chat maakt gebruik van je e-mailaccount,
+dus de verwijderprocedure is afhankelijk van je provider.
+We hebben geen zeggenschap over je account,
+dus helaas kunnen we je daar niet bij helpen.
+
+Als je je account wilt behouden maar Delta Chat
+niet wilt verwijderen, verlaat dan groeps-
+gesprekken voordat je Delta Chat verwijdert.
 
 
 ### Ik wil graag meer weten over de gebruikte technieken. Waar kan ik meer informatie vinden?
