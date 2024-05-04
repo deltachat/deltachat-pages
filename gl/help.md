@@ -35,25 +35,6 @@ correspondente use a mesma app que ti, ao contrario de outras mensaxerías.
 - _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
-### Que mensaxes aparecen en Delta Chat?
-
-By default, Delta Chat shows all e-mails.
-
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
-
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
-
-
 ### What if I expect a message from someone I didn't write to in the past?
 
 - If a message comes from an unknown contact, it appears as a **request**. You
@@ -106,56 +87,6 @@ To everyone else,
 It will appear as an e-mail signature
 below the text of all your messages.
 
-
- ### Ten Delta Chat soporte para emails HTML?
-
-Yes, incoming HTML messages come with a "Show full message" button. 
-Outgoing messages always use plain text.
-
-
-### Por que teño que escribir o contrasinal do meu email en Delta Chat? Esto é seguro?
-
-Como con calquera outro programa de email como Thundirbird, K9-mail, ou Outlook, o
-programa precisa o contrasinal para poder enviar emails. Por suposto, o
-contrasinal gárdase só no teu dispositivo. O contrasinal só se transmite ao
-teu provedor de email (ao conectarte), que de todas formas xa ten acceso ao teu correo.
-
-Se usas un provedor de email con soporte OAuth2 como gmail.com ou yandex.ru,
-non hai necesidade de almacenar o contrasinal no dispositivo. Neste caso, só se usa o testemuño (token) de acceso.
-
-Como Delta Chat é Código Aberto, podes mirar o [Código Fonte]
-(https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
-se queres verificar que as túas credenciais se xestionan de xeito seguro.
-Encántanos recibir comentarios que fagan a app máis segura para todas as usuarias.
-
-
-### Which permissions does Delta Chat need?
-
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
-
-- Cámara *(pódese desactivar)*
-  - tomar fotos e vídeos: para enviar Fotos
-- Contactos *(pódese desactivar)*
-  - ler os contactos: para descubrir persoas coas que conversar
-- Localización *(pódese desactivar)*
-  - acceder a localización aproximada (recursos de rede): para compartir localización
-  - acceso a localización precisa (GPS e rede): para compartir localización
-- Micrófono *(pódese desactivar)*
-  - gravar audio: para mensaxes de audio
-- Almacenaxe *(pódese desactivar)*
-  - modificar ou eliminar os contidos da tarxeta SD: descargar anexos das mensaxes
-  - ler o contido da tarxeta SD: para compartir ficheiros cos contactos
-- Outras características da app
-  - cambiar os axustes do audio: para escoller tonos de chamada e volume das notificacións
-  - executar ao inicio: así non tes que iniciar Delta Chat manualmente
-  - control da vibración: para notificacións
-  - ver conexións de rede: para conectar co teu provedor de email
-  - evitar que o teléfono hiberne: así podes copiar máis facilmente o código de seguridade da Mensaxe de Configuración Autocrypt
-  - ter acceso completo a rede: para conectar co provedor de email
-  - ver conexións WiFi: para conectar co provedor de email
-  - petición para ignorar optimizacións da batería: para usuarias que queren recibir mensaxes de xeito contínuo
 
 ### What do Pinning, Muting and Archiving mean?
 
@@ -221,18 +152,6 @@ if one chat partner uninstalls Delta Chat,
 the messages will not get deleted from their email account.
 They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
-
-
-### How can I delete my account?
-
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
-
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ## Grupos
@@ -853,39 +772,6 @@ This method is only recommended if "Add Second Device" as described above does n
   [get.delta.chat](https://get.delta.chat).
 
 
-### What is the "Send Copy to Self" setting good for?
-
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device. 
-
-The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
-
-The default setting for copy-to-self is "no".
-
-### Why can I choose to watch the "Sent" folder?
-
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
-
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms. 
-
-### Why can I choose not to watch the DeltaChat folder?
-
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
-
-
 ## webxdc apps {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
@@ -1045,6 +931,35 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ## Miscellaneous
 
+### Which permissions does Delta Chat need?
+
+Depending on the operating system in use,
+you may be asked to grant permissions to the app.
+This is what Delta Chat does with these permissions:
+
+- Cámara *(pódese desactivar)*
+  - tomar fotos e vídeos: para enviar Fotos
+- Contactos *(pódese desactivar)*
+  - ler os contactos: para descubrir persoas coas que conversar
+- Localización *(pódese desactivar)*
+  - acceder a localización aproximada (recursos de rede): para compartir localización
+  - acceso a localización precisa (GPS e rede): para compartir localización
+- Micrófono *(pódese desactivar)*
+  - gravar audio: para mensaxes de audio
+- Almacenaxe *(pódese desactivar)*
+  - modificar ou eliminar os contidos da tarxeta SD: descargar anexos das mensaxes
+  - ler o contido da tarxeta SD: para compartir ficheiros cos contactos
+- Outras características da app
+  - cambiar os axustes do audio: para escoller tonos de chamada e volume das notificacións
+  - executar ao inicio: así non tes que iniciar Delta Chat manualmente
+  - control da vibración: para notificacións
+  - ver conexións de rede: para conectar co teu provedor de email
+  - evitar que o teléfono hiberne: así podes copiar máis facilmente o código de seguridade da Mensaxe de Configuración Autocrypt
+  - ter acceso completo a rede: para conectar co provedor de email
+  - ver conexións WiFi: para conectar co provedor de email
+  - petición para ignorar optimizacións da batería: para usuarias que queren recibir mensaxes de xeito contínuo
+
+
 ### Does Delta Chat work with _my_ e-mail-provider?
 
 - With a rather good chance: Yes :)  
@@ -1060,6 +975,22 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - You can find an [installation guide on our website](serverguide).
 
 
+### Por que teño que escribir o contrasinal do meu email en Delta Chat? Esto é seguro?
+
+Como con calquera outro programa de email como Thundirbird, K9-mail, ou Outlook, o
+programa precisa o contrasinal para poder enviar emails. Por suposto, o
+contrasinal gárdase só no teu dispositivo. O contrasinal só se transmite ao
+teu provedor de email (ao conectarte), que de todas formas xa ten acceso ao teu correo.
+
+Se usas un provedor de email con soporte OAuth2 como gmail.com ou yandex.ru,
+non hai necesidade de almacenar o contrasinal no dispositivo. Neste caso, só se usa o testemuño (token) de acceso.
+
+Como Delta Chat é Código Aberto, podes mirar o [Código Fonte]
+(https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+se queres verificar que as túas credenciais se xestionan de xeito seguro.
+Encántanos recibir comentarios que fagan a app máis segura para todas as usuarias.
+
+
 ### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
 
 - Sending and receiving messages takes a few seconds, typically. Sometimes
@@ -1073,6 +1004,31 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - However, Android and iOS kill apps running in the background is a
   problem for many legitimate apps. For more information, see
   [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Que mensaxes aparecen en Delta Chat?
+
+By default, Delta Chat shows all e-mails.
+
+At "Settings -> Chats &
+Media -> Show Classic E-Mails", you can change this. You have these options:
+
+- "No, chats only": Only messages sent by other Delta Chat users and replies to
+  your Delta Chat messages are shown. This makes most sense if you use the same
+  e-mail account for normal e-mails as well.
+- "All": Delta Chat shows all e-mails that are sent to your email address. This
+  makes sense if you want to use Delta Chat for all your e-mails, so no message
+  gets lost. This is the default setting.
+- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
+  you already have a chat, but new chats only pop up for Delta Chat messages.
+  This helps to decide on a case-by-case basis whether you want to have a
+  conversation in Delta Chat or in a "normal" e-mail app.
+
+
+ ### Ten Delta Chat soporte para emails HTML?
+
+Yes, incoming HTML messages come with a "Show full message" button.
+Outgoing messages always use plain text.
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -1093,6 +1049,41 @@ You will get bonus professionalism points
 if you set a [signature text](#signature).
 
 
+### What is the "Send Copy to Self" setting good for?
+
+Sending a copy of your messages to yourself ensures that you receive your own
+messages on all devices. If you have multiple devices and don't turn it on, you
+see only the messages from other people, and the messages you send from the
+current device.
+
+The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
+put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
+folder because this would mean uploading a message twice (once through SMTP,
+and once through IMAP to Sent folder).
+
+The default setting for copy-to-self is "no".
+
+
+### Why can I choose to watch the "Sent" folder?
+
+The only reason one wants to watch the Sent folder is if you are using another
+mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
+to participate in chat conversations.
+
+However, we recommend using the Delta Chat Desktop Client; you can download it
+on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
+folder might go away in the future. It was introduced at a time where there was
+no Delta Chat Desktop client available on all platforms.
+
+
+### Why can I choose not to watch the DeltaChat folder?
+
+Some people use Delta Chat as a regular email client, and want to use the Inbox
+folder for their mail, instead of the DeltaChat folder. If you disable "Watch
+DeltaChat folder", you should also disable "move chat messages to DeltaChat".
+Otherwise, deleting messages or multi-device setups might not work properly.
+
+
 ### Is Delta Chat compatible with Protonmail / Tutanota / Criptext?
 
 - Yes and No.
@@ -1105,6 +1096,18 @@ if you set a [signature text](#signature).
   uses.
 - Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+
+
+### How can I delete my account?
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ### I'm interested in the technical details. Can you tell me more?

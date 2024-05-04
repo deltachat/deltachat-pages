@@ -35,27 +35,6 @@ e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tje
 - _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
-### Cilat mesazhe shfaqen në Delta Chat?
-
-Si parazgjedhje, Delta Chat i shfaq krejt email-et.
-
-Këtë mund ta ndryshoni te
-“Rregullime -> Fjalosje & Media -> Shfaq Email-e Klasikë. Keni këto mundësi:
-
-- “Jo, vetëm fjalosje”: Shfaqen vetëm mesazhe dërguar nga përdorues të tjerë
-  të Delta Chat-it dhe përgjigje për ta në mesazhet tuaj Delta Chat. Kjo ka kuptim
-  nëse përdorni të njëjtën llogari email edhe për email të zakonshëm.
-- “Krejt”: Delta Chat-i i shfaq krejt email-et që janë dërguar te adresa juaj. Kjo
-  ka kuptim nëse e përdorni Delta Chat-in për krejt email-et tuaj, që kështu të mos
-  humbin mesazhe.
- Kjo është parazgjedhja për këtë rregullim.
- 
-- "Për kontakte të pranuar": Delta Chat-i shfaq krejt email-et prej kontaktesh me
-  të cilët keni tashmë një fjalosje, por fjalosje të reja shfaqen vetëm për mesazhe
-  Delta Chat. Kjo ndihmon të vendoset për çdo rast nëse doni të keni një bisedë
-  në Delta Chat, apo në një aplikacion të zakonshëm email-esh.
-
-
 ### Po nëse pres një mesazh prej dikujt të cilit s’i kam shkruar në të kaluarën?
 
 - Nëse një mesazh vjen prej një kontakti të panjohur, shfaqet si **kërkesë**.
@@ -108,58 +87,6 @@ To everyone else,
 It will appear as an e-mail signature
 below the text of all your messages.
 
-
-### A mbulon Delta Chat-i email-e HTML?
-
-Yes, incoming HTML messages come with a "Show full message" button. 
-Outgoing messages always use plain text.
-
-
-### Pse më duhet të jap fjalëkalimin e email-it tim në Delta Chat? A është e sigurt kjo?
-
-Si edhe me programe të tjerë email-i, bie fjala, Thunderbird-i, K9-Mail-i, ose
-Outlook-u, programit i duhet fjalëkalimi, që kështu të mund të dërgoni email-e.
-Sigurisht, fjalëkalimi depozitohet vetëm në pajisjen tuaj. Fjalëkalimi i transmetohet
-vetëm furnizuesit të email-it tuaj (kur bëni hyrjen), i cili mund të hyjë te email-et
-tuaj, sido qoftë. 
-
-Nëse përdorni një furnizues email-i që mbulon OAuth2, bie fjala gmail.com ose
-yandex.ru, s’ka nevojë të depozitoni fjalëkalimin tuaj në pajisje. Në këtë rast
-do të përdoret vetëm një token hyrjesh.
-
-Ngaqë Delta Chat-i është Me Burim të Hapur, mund të kontrolloni [Kodin
-Burim](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs),
-nëse doni të verifikoni se a trajtohen me siguri kredencialet tuaja. Na gëzojnë
-përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tanë.
-
-
-### Ç’leje lyp Delta Chat-i?
-
-Në varësi të sistemit operativ në përdorim, mund
-t’ju kërkohet t’i akordoni leje aplikacionit.
-Ja se ç’bën Delta Chat-i me këto leje:
-
-- Mbi kamerën *(mund të çaktivizohet)*
-  - të bëjë foto dhe video: për dërgim Fotosh
-- Mbi kontaktet *(mund të çaktivizohet)*
-  - të lexojë kontaktet tuaja: për të zbuluar kontakte për bisedë
-- Mbi vendndodhjen *(mund të çaktivizohet)*
-  - të njohë vendndodhjen me përafërsi (burime vendndodhjeje rrjeti): për veçorinë e transmetimit të vendndodhjesh
-  - të njohë vendndodhjen e përpiktë (GPS dhe burime vendndodhjeje rrjeti): për veçorinë e transmetimit të vendndodhjesh
-- Mbi mikrofonin *(mund të çaktivizohet)*
-  - të incizojë audio: për mesazhe audio
-- Mbi depozitimin *(mund të çaktivizohet)*
-  - të ndryshojë ose fshijë lëndën në kartën tuaj SD: për shkarkim bashkëngjitjesh mesazhesh
-  - të lexojë lëndën e kartës tuaj SD: për të ndarë kartela me kontaktet tuaj
-- Aftësi të tjera të aplikacionit
-  - të ndryshojë rregullimet tuaja mbi audion: që të mund të zgjidhni zile dhe volum për njoftime dhe mesazhe audio
-  - të xhirojë gjatë nisjes së sistemit: që të mos ju duhet ta nisni Delta Chat-in dorazi
-  - të kontrollojë dridhjen: për njoftime
-  - të shohë lidhje në rrjet: për t’u lidhur me furnizuesin e shërbimit tuaj email
-  - të pengojë telefonin tuaj të flejë: që të mund ta kopjoni më kollaj kodin e sigurisë gjatë Mesazhit të Ujdisjes së Autocrypt-it
-  - të ketë hyrje të plotë në rrjet: për t’u lidhur me furnizuesin e shërbimit tuaj email
-  - të shohë lidhjet Wi-Fi: për t’u lidhur me furnizuesin e shërbimit tuaj email
-  - të kërkojë shpërfillje të optimizimeve për baterinë: për përdoruesit që duan t’i marrin mesazhet gjatë gjithë kohës
 
 ### Ç’do të thotë Fiksim, Heshtim, Arkivim?
 
@@ -225,18 +152,6 @@ if one chat partner uninstalls Delta Chat,
 the messages will not get deleted from their email account.
 They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
-
-
-### Si mund ta fshij llogarinë time?
-
-Ngaqë për Delta Chat-in përdorni një llogari email,
-se si mund të fshini llogarinë tuaj, varet nga shërbimi juaj email.
-Nuk kemi fuqi mbi llogarinë tuaj email,
-ndaj, mjerisht, s’mund t’ju ndihmojmë për këtë.
-
-Nëse doni ta mbani llogarinë,
-por të çinstaloni Delta Chat-in,
-rekomandohet të braktisni çfarëdo grupi fjalosjeje, para çinstalimit të Delta Chat-it.
 
 
 ## Grupe
@@ -859,40 +774,6 @@ Kjo metodë rekomandohet vetëm nëse “Shtoni Pajisje të Dytë” si përshkr
   [get.delta.chat](https://get.delta.chat).
 
 
-### Përse hyn në punë rregullimi "Dërgojini Vetes Një Kopje"?
-
-Dërgimi vetes i një kopjeje të mesazheve tuaj siguron marrjen e mesazheve tuaj
-në krejt pajisjet. Nëse keni disa pajisje dhe nuk i mbani ndezur, shihni vetëm
-mesazhet prej të tjerëve, dhe mesazhet që dërgoni prej pajisjes që keni hapur
-në atë çast. 
-
-Kopja dërgohet te Të marrët, dhe mandej kalohet te dosja DeltaChat; nuk vendoset
-te dosja "Të dërguar". Delta Chat-i nuk ngarkon *kurrë* ndonjë gjë te dosja
-Të dërguar, ngaqë kjo do të thoshte ngarkim dy herë të një mesazhi (një herë
-përmes SMTP-s, dhe një herë përmes IMAP-it në dosjen Të dërguar).
-
-Parazgjedhja për rregullimin dërgoja-vetes është "jo".
-
-### Pse mund të zgjedh të vëzhgoj dosjen "Të dërguar"?
-
-Arsyeja e vetme pse dikush mund të dojë të vëzhgojë dosjen Të marrë është kur
-përdoret tjetër program email-sh (bie fjala, Thunderbird-i) në krah të
-aplikacionit tuaj Delta Chat, dhe doni që MUA juaj të marrë pjesë në biseda.
-
-Sidoqoftë, rekomandojmë të përdoret Klienti Desktop i Delta Chat-it; mund ta 
-shkarkoni që nga [get.delta.chat](https://get.delta.chat). Mundësia për vëzhgim
-të dosjes "Të dërguar" mund të hiqet në të ardhmen. Qe prurë në kohët kur s’kish
-klient Desktop Delta Chat për krejt platformat. 
-
-### Pse mund të zgjedh të mos e vëzhgoj dosjen DeltaChat?
-
-Disa e përdorin Delta Chat-in si një klient të rregullt email, dhe duan
-ta përdorin dosjen Të marrë për email-in e tyre, në vend se dosjen DeltaChat.
-Nëse çaktivizoni "Vëzhgo dosjen DeltaChat", duhet të çaktivizoni edhe "kalo
-mesazhe bisedash te DeltaChat". Përndryshe, fshirja e mesazheve në instalime me
-shumë pajisje mund të mos punojë si duhet.
-
-
 ## aplikacione webxdc {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
@@ -1054,6 +935,35 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ## Të ndryshme
 
+### Ç’leje lyp Delta Chat-i?
+
+Në varësi të sistemit operativ në përdorim, mund
+t’ju kërkohet t’i akordoni leje aplikacionit.
+Ja se ç’bën Delta Chat-i me këto leje:
+
+- Mbi kamerën *(mund të çaktivizohet)*
+  - të bëjë foto dhe video: për dërgim Fotosh
+- Mbi kontaktet *(mund të çaktivizohet)*
+  - të lexojë kontaktet tuaja: për të zbuluar kontakte për bisedë
+- Mbi vendndodhjen *(mund të çaktivizohet)*
+  - të njohë vendndodhjen me përafërsi (burime vendndodhjeje rrjeti): për veçorinë e transmetimit të vendndodhjesh
+  - të njohë vendndodhjen e përpiktë (GPS dhe burime vendndodhjeje rrjeti): për veçorinë e transmetimit të vendndodhjesh
+- Mbi mikrofonin *(mund të çaktivizohet)*
+  - të incizojë audio: për mesazhe audio
+- Mbi depozitimin *(mund të çaktivizohet)*
+  - të ndryshojë ose fshijë lëndën në kartën tuaj SD: për shkarkim bashkëngjitjesh mesazhesh
+  - të lexojë lëndën e kartës tuaj SD: për të ndarë kartela me kontaktet tuaj
+- Aftësi të tjera të aplikacionit
+  - të ndryshojë rregullimet tuaja mbi audion: që të mund të zgjidhni zile dhe volum për njoftime dhe mesazhe audio
+  - të xhirojë gjatë nisjes së sistemit: që të mos ju duhet ta nisni Delta Chat-in dorazi
+  - të kontrollojë dridhjen: për njoftime
+  - të shohë lidhje në rrjet: për t’u lidhur me furnizuesin e shërbimit tuaj email
+  - të pengojë telefonin tuaj të flejë: që të mund ta kopjoni më kollaj kodin e sigurisë gjatë Mesazhit të Ujdisjes së Autocrypt-it
+  - të ketë hyrje të plotë në rrjet: për t’u lidhur me furnizuesin e shërbimit tuaj email
+  - të shohë lidhjet Wi-Fi: për t’u lidhur me furnizuesin e shërbimit tuaj email
+  - të kërkojë shpërfillje të optimizimeve për baterinë: për përdoruesit që duan t’i marrin mesazhet gjatë gjithë kohës
+
+
 ### A funksionon Delta Chat me shërbimin _tim_ email?
 
 - Ka shanse të mira që: Po :)  
@@ -1067,6 +977,24 @@ it](https://delta.chat/en/2022-09-14-aeap).
   rekomandojmë personalisht është një ndërthurje e Mailcow-ut dhe Mailadm-it,
   siç përshkruhet [në këtë postim blogu](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
 - Mund të gjeni një [udhërrëfyes instalimi në sajtin tonë](serverguide).
+
+
+### Pse më duhet të jap fjalëkalimin e email-it tim në Delta Chat? A është e sigurt kjo?
+
+Si edhe me programe të tjerë email-i, bie fjala, Thunderbird-i, K9-Mail-i, ose
+Outlook-u, programit i duhet fjalëkalimi, që kështu të mund të dërgoni email-e.
+Sigurisht, fjalëkalimi depozitohet vetëm në pajisjen tuaj. Fjalëkalimi i transmetohet
+vetëm furnizuesit të email-it tuaj (kur bëni hyrjen), i cili mund të hyjë te email-et
+tuaj, sido qoftë. 
+
+Nëse përdorni një furnizues email-i që mbulon OAuth2, bie fjala gmail.com ose
+yandex.ru, s’ka nevojë të depozitoni fjalëkalimin tuaj në pajisje. Në këtë rast
+do të përdoret vetëm një token hyrjesh.
+
+Ngaqë Delta Chat-i është Me Burim të Hapur, mund të kontrolloni [Kodin
+Burim](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs),
+nëse doni të verifikoni se a trajtohen me siguri kredencialet tuaja. Na gëzojnë
+përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tanë.
 
 
 ### Sa kohë që Delta Chat-i përdor email, a është vërtet një Shkëmbyes Mesazhesh të _Atypëratyshme_?
@@ -1084,6 +1012,33 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - Sido qoftë, fakti që Android-i dhe iOS-i asgjësojnë aplikacione që xhirojnë në
   prapaskenë është një problem për mjaft aplikaicone të ligjshme. Për më tepër
   të dhëna, shihni [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Cilat mesazhe shfaqen në Delta Chat?
+
+Si parazgjedhje, Delta Chat i shfaq krejt email-et.
+
+Këtë mund ta ndryshoni te
+“Rregullime -> Fjalosje & Media -> Shfaq Email-e Klasikë. Keni këto mundësi:
+
+- “Jo, vetëm fjalosje”: Shfaqen vetëm mesazhe dërguar nga përdorues të tjerë
+  të Delta Chat-it dhe përgjigje për ta në mesazhet tuaj Delta Chat. Kjo ka kuptim
+  nëse përdorni të njëjtën llogari email edhe për email të zakonshëm.
+- “Krejt”: Delta Chat-i i shfaq krejt email-et që janë dërguar te adresa juaj. Kjo
+  ka kuptim nëse e përdorni Delta Chat-in për krejt email-et tuaj, që kështu të mos
+  humbin mesazhe.
+ Kjo është parazgjedhja për këtë rregullim.
+ 
+- "Për kontakte të pranuar": Delta Chat-i shfaq krejt email-et prej kontaktesh me
+  të cilët keni tashmë një fjalosje, por fjalosje të reja shfaqen vetëm për mesazhe
+  Delta Chat. Kjo ndihmon të vendoset për çdo rast nëse doni të keni një bisedë
+  në Delta Chat, apo në një aplikacion të zakonshëm email-esh.
+
+
+### A mbulon Delta Chat-i email-e HTML?
+
+Yes, incoming HTML messages come with a "Show full message" button.
+Outgoing messages always use plain text.
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -1104,6 +1059,42 @@ You will get bonus professionalism points
 if you set a [signature text](#signature).
 
 
+### Përse hyn në punë rregullimi "Dërgojini Vetes Një Kopje"?
+
+Dërgimi vetes i një kopjeje të mesazheve tuaj siguron marrjen e mesazheve tuaj
+në krejt pajisjet. Nëse keni disa pajisje dhe nuk i mbani ndezur, shihni vetëm
+mesazhet prej të tjerëve, dhe mesazhet që dërgoni prej pajisjes që keni hapur
+në atë çast. 
+
+Kopja dërgohet te Të marrët, dhe mandej kalohet te dosja DeltaChat; nuk vendoset
+te dosja "Të dërguar". Delta Chat-i nuk ngarkon *kurrë* ndonjë gjë te dosja
+Të dërguar, ngaqë kjo do të thoshte ngarkim dy herë të një mesazhi (një herë
+përmes SMTP-s, dhe një herë përmes IMAP-it në dosjen Të dërguar).
+
+Parazgjedhja për rregullimin dërgoja-vetes është "jo".
+
+
+### Pse mund të zgjedh të vëzhgoj dosjen "Të dërguar"?
+
+Arsyeja e vetme pse dikush mund të dojë të vëzhgojë dosjen Të marrë është kur
+përdoret tjetër program email-sh (bie fjala, Thunderbird-i) në krah të
+aplikacionit tuaj Delta Chat, dhe doni që MUA juaj të marrë pjesë në biseda.
+
+Sidoqoftë, rekomandojmë të përdoret Klienti Desktop i Delta Chat-it; mund ta 
+shkarkoni që nga [get.delta.chat](https://get.delta.chat). Mundësia për vëzhgim
+të dosjes "Të dërguar" mund të hiqet në të ardhmen. Qe prurë në kohët kur s’kish
+klient Desktop Delta Chat për krejt platformat. 
+
+
+### Pse mund të zgjedh të mos e vëzhgoj dosjen DeltaChat?
+
+Disa e përdorin Delta Chat-in si një klient të rregullt email, dhe duan
+ta përdorin dosjen Të marrë për email-in e tyre, në vend se dosjen DeltaChat.
+Nëse çaktivizoni "Vëzhgo dosjen DeltaChat", duhet të çaktivizoni edhe "kalo
+mesazhe bisedash te DeltaChat". Përndryshe, fshirja e mesazheve në instalime me
+shumë pajisje mund të mos punojë si duhet.
+
+
 ### A është i përputhshëm Delta Chat-i me Protonmail-in / Tutanota-n / Criptext-in?
 
 - Yes and No.
@@ -1116,6 +1107,18 @@ if you set a [signature text](#signature).
   uses.
 - Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+
+
+### Si mund ta fshij llogarinë time?
+
+Ngaqë për Delta Chat-in përdorni një llogari email,
+se si mund të fshini llogarinë tuaj, varet nga shërbimi juaj email.
+Nuk kemi fuqi mbi llogarinë tuaj email,
+ndaj, mjerisht, s’mund t’ju ndihmojmë për këtë.
+
+Nëse doni ta mbani llogarinë,
+por të çinstaloni Delta Chat-in,
+rekomandohet të braktisni çfarëdo grupi fjalosjeje, para çinstalimit të Delta Chat-it.
 
 
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?

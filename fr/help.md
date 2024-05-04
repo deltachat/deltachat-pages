@@ -33,17 +33,6 @@ Avec Delta Chat, vous pouvez écrire à toutes les adresses courriels existantes
 - _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
 
 
-### Quels sont les messages qui apparaissent dans Delta Chat ?
-
-Par défaut, Delta Chat affiche tous les courriels.
-
-Vous pouvez changer cette préférence en vous rendant dans vos "Paramètres -> Discussions & fichiers multimédia -> Voir les courriels classiques". Trois options sont disponibles :
-
-- "Non, seulement les discussions": vous verrez seulement les messages envoyés par d'autres utilisateurs de Delta Chat et les réponses à vos messages Delta Chat. Cette option est recommandée si vous utilisez le même compte pour recevoir aussi des courriels normaux.
-- "Tout": vous verrez dans Delta Chat tous les courriels envoyés à votre adresse. Cette option est recommandée si vous souhaitez utiliser Delta Chat pour tous vos courriels, afin de ne rater aucun message.
-- "Pour les contacts acceptés": vous verrez dans Delta Chat tous les courriels envoyés par les personnes avec qui vous avez déjà ouvert une discussion, mais les notifications de nouvelles conversations ne s'afficheront que pour des messages envoyés via Delta Chat. Cette option vous permet de décider au cas par cas si vous souhaitez échanger via Delta Chat ou via une application de courriel "classique".
-
-
 ### Et si j'attends un message de quelqu'un avec qui je n'ai encore jamais échangé ?
 
 - Si vous recevez un message de la part d'un contact inconnu, vous recevez une **invitation** que vous
@@ -92,51 +81,6 @@ To everyone else,
 It will appear as an e-mail signature
 below the text of all your messages.
 
-
-### Est-ce que Delta Chat gère les courriels en HTML ?
-
-Yes, incoming HTML messages come with a "Show full message" button. 
-Outgoing messages always use plain text.
-
-
-### Pourquoi dois-je entrer le mot de passe de mon compte de courriel dans Delta Chat ? Est-ce sécurisé ?
-
-Comme pour les autres clients de courriel, Thunderbird, FairEmail, K9-Mail, Outlook, etc, celui-ci a besoin des identifiants / mots de passe pour recevoir et envoyer des courriels. 
-Bien sûr le mot de passe est uniquement stocké sur votre appareil. Et il est utilisé uniquement pour vous authentifier auprès de votre fournisseur de courriel, qui a, rappelons-le, accès à vos courriels non chiffrés.
-
-Si vous utilisez un fournisseur de courriel qui prend en charge OAuth2, comme gmail.com ou yandex.ru,
-il n'est pas nécessaire de stocker votre mot de passe sur votre appareil. Dans ce cas, seul un jeton d'accès est utilisé.
-
-Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) pour vérifier que vos identifiants / mots de passe sont utilisés de façon sécurisée. Nous sommes très heureux d'avoir des retours pour renforcer la sécurité de l'application.
-
-
-### De quelles autorisations Delta Chat a-t-il besoin?
-
-Selon le système d'exploitation utilisé,
-il vous sera peut-être demandé d'accorder des autorisations à l'application.
-Voici ce que fait Delta Chat avec ces autorisations:
-
-- Appareil photo * (peut être refusé) *
-  - prendre des photos et des vidéos : pour envoyer des photos
-- Contacts * (peut être refusé) *
-  - lire vos contacts : pour trouver des contacts avec lesquels discuter
-- Localisation * (peut être refusé) *
-  - accéder à la localisation approximative (sources de localisation réseau) : pour la fonction de streaming de localisation
-  - accéder à la localisation précise (GPS et sources de localisation réseau) : pour la fonction de localisation en continu
-- Microphone * (peut être refusé) *
-  - enregistrement audio : pour les messages audio
-- Stockage * (peut être refusé) *
-  - modifier ou supprimer le contenu de votre carte SD : pour télécharger les pièces jointes des messages
-  - lire le contenu de votre carte SD : pour partager des fichiers avec vos contacts
-- Autres capacités de l'application
-  - modifier vos paramètres audio : pour choisir les sonneries et le volume des notifications et des messages audio
-  - s'exécuter au démarrage : pour ne pas avoir besoin de démarrer Delta Chat manuellement
-  - contrôler les vibrations : pour les notifications
-  - afficher les connexions réseau : pour se connecter au fournisseur de messagerie
-  - empêcher la veille du téléphone : pour copier plus facilement le code de sécurité pendant le message de configuration Autocrypt
-  - avoir un accès complet au réseau : pour se connecter au fournisseur de messagerie
-  - afficher les connexions Wi-Fi : pour se connecter au fournisseur de messagerie
-  - demander d'ignorer les optimisations de batterie : pour les utilisateurs qui souhaitent recevoir des messages tout le temps
 
 ### Que signifient "épingler", "sourdine" et "archiver" ?
 
@@ -196,14 +140,6 @@ if one chat partner uninstalls Delta Chat,
 the messages will not get deleted from their email account.
 They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
-
-
-### Comment supprimer mon compte ?
-
-Étant donné que vous utilisez Delta Chat à travers un compte courriel, la façon dont vous pouvez supprimer votre compte dépend de votre fournisseur de courriel.
-Comme nous n'exerçons aucun contrôle sur votre compte courriel, nous ne sommes pas en mesure de vous aider à le supprimer.
-
-Si vous souhaitez conserver votre compte mais désinstaller Delta Chat, nous vous recommandons de quitter toutes les discussions de groupe avant de procéder à la désinstallation.
 
 
 ## Groupes
@@ -781,27 +717,6 @@ Recourez à cette méthode uniquement si les instructions ci-dessus pour "Ajoute
 [get.delta.chat](https://get.delta.chat).
 
 
-### Quel est l'intérêt du paramètre “M'envoyer une copie”? 
-
-Envoyer une copie de vos messages à vous-même garantit que vous recevez vos propres
- messages sur tous les appareils. Si vous avez de multiples appareils et que vous ne l'activez pas, vous voyez seulement les messages des autres personnes et les messages que vous avez envoyé depuis l'appareil en cours.
-
-La copie est envoyée dans la Boîte de réception puis déplacée dans le dossier DeltaChat; elle n'est pas mise dans le dossier “Envoyés”. Delta Chat ne téléverse jamais quelque chose dans le dossier Envoyés car ça signifierait de le téléverser deux fois (une fois via SMTP, puis une fois dans le dossier Envoyés via IMAP).
-
-Le paramètre par défaut pour l'envoi à soi-même est "Non".
-
-### Pourquoi puis-je choisir de regarder le dossier “Envoyés”? 
-
-La seule raison de regarder le dossier Envoyés est si vous utilisez un autre programme de courriel (tel que Thunderbird) en parallèle de votre application Delta Chat, et que vous voulez que votre client de messagerie participe aux discussions.
-
-Cependant, nous recommandons d'utiliser le client de bureau Delta Chat; vous pouvez le télécharger sur [get.delta.chat](https://get.delta.chat). L'option de regarder le dossier “Envoyés” pourrait disparaître dans le futur. Elle a été introduite à une époque où il n'y avait pas de client de bureau Delta Chat disponible sur toutes les plateformes.
-
-### Pourquoi puis-je choisir de ne pas regarder le dossier Delta Chat? 
-
-Certaines personnes utilisent Delta Chat comme un client de messagerie normal, et veulent utiliser la Boîte de réception pour leurs mails au lieu d'utiliser le dossier DeltaChat. Si vous désactivez “Surveiller le dossier DeltaChat”, vous devriez aussi désactiver “déplacer les messages de discussions dans DeltaChat”.
-Sinon, la suppression de messages dans une configuration multi-appareils pourrait ne pas marcher correctement.
-
-
 ## webxdc apps {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
@@ -932,6 +847,35 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ## Divers
 
+### De quelles autorisations Delta Chat a-t-il besoin?
+
+Selon le système d'exploitation utilisé,
+il vous sera peut-être demandé d'accorder des autorisations à l'application.
+Voici ce que fait Delta Chat avec ces autorisations:
+
+- Appareil photo * (peut être refusé) *
+  - prendre des photos et des vidéos : pour envoyer des photos
+- Contacts * (peut être refusé) *
+  - lire vos contacts : pour trouver des contacts avec lesquels discuter
+- Localisation * (peut être refusé) *
+  - accéder à la localisation approximative (sources de localisation réseau) : pour la fonction de streaming de localisation
+  - accéder à la localisation précise (GPS et sources de localisation réseau) : pour la fonction de localisation en continu
+- Microphone * (peut être refusé) *
+  - enregistrement audio : pour les messages audio
+- Stockage * (peut être refusé) *
+  - modifier ou supprimer le contenu de votre carte SD : pour télécharger les pièces jointes des messages
+  - lire le contenu de votre carte SD : pour partager des fichiers avec vos contacts
+- Autres capacités de l'application
+  - modifier vos paramètres audio : pour choisir les sonneries et le volume des notifications et des messages audio
+  - s'exécuter au démarrage : pour ne pas avoir besoin de démarrer Delta Chat manuellement
+  - contrôler les vibrations : pour les notifications
+  - afficher les connexions réseau : pour se connecter au fournisseur de messagerie
+  - empêcher la veille du téléphone : pour copier plus facilement le code de sécurité pendant le message de configuration Autocrypt
+  - avoir un accès complet au réseau : pour se connecter au fournisseur de messagerie
+  - afficher les connexions Wi-Fi : pour se connecter au fournisseur de messagerie
+  - demander d'ignorer les optimisations de batterie : pour les utilisateurs qui souhaitent recevoir des messages tout le temps
+
+
 ### Est-ce que Delta Chat fonctionne avec _mon_ fournisseur de courriel ? 
 
 - Il y a de bonnes chances que oui :)
@@ -944,6 +888,17 @@ Cependant, il faut activer des options spéciales pour que cela fonctionne corre
 - Vous trouverez un [guide d'installation sur notre site internet](serverguide).
 
 
+### Pourquoi dois-je entrer le mot de passe de mon compte de courriel dans Delta Chat ? Est-ce sécurisé ?
+
+Comme pour les autres clients de courriel, Thunderbird, FairEmail, K9-Mail, Outlook, etc, celui-ci a besoin des identifiants / mots de passe pour recevoir et envoyer des courriels. 
+Bien sûr le mot de passe est uniquement stocké sur votre appareil. Et il est utilisé uniquement pour vous authentifier auprès de votre fournisseur de courriel, qui a, rappelons-le, accès à vos courriels non chiffrés.
+
+Si vous utilisez un fournisseur de courriel qui prend en charge OAuth2, comme gmail.com ou yandex.ru,
+il n'est pas nécessaire de stocker votre mot de passe sur votre appareil. Dans ce cas, seul un jeton d'accès est utilisé.
+
+Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) pour vérifier que vos identifiants / mots de passe sont utilisés de façon sécurisée. Nous sommes très heureux d'avoir des retours pour renforcer la sécurité de l'application.
+
+
 ### Si Delta Chat se base sur le courrier électronique, est-ce vraiment une messagerie _instantanée_? 
 
 - L'envoi et la réception de messages prennent généralement quelques secondes. Il arrive parfois que cela prenne plus de temps, mais c'est aussi le cas avec n'importe quelle autre messagerie.
@@ -951,6 +906,23 @@ Cependant, il faut activer des options spéciales pour que cela fonctionne corre
 - La réception de messages peut alors prendre plusieurs minutes, car Android et iOS empêchent souvent Delta Chat de fonctionner en arrière-plan et ne le réveillent qu'occasionnellement. Ce délai artificiel est généralement pire sur iOS que sur Android.
 - Cependant, le fait qu'Android et iOS tuent les applications fonctionnant en arrière-plan constitue un problème pour de nombreuses applications reconnues.
 Pour plus d'informations, voir [dontkillmyapp.com](https://dontkillmyapp.com/).
+
+
+### Quels sont les messages qui apparaissent dans Delta Chat ?
+
+Par défaut, Delta Chat affiche tous les courriels.
+
+Vous pouvez changer cette préférence en vous rendant dans vos "Paramètres -> Discussions & fichiers multimédia -> Voir les courriels classiques". Trois options sont disponibles :
+
+- "Non, seulement les discussions": vous verrez seulement les messages envoyés par d'autres utilisateurs de Delta Chat et les réponses à vos messages Delta Chat. Cette option est recommandée si vous utilisez le même compte pour recevoir aussi des courriels normaux.
+- "Tout": vous verrez dans Delta Chat tous les courriels envoyés à votre adresse. Cette option est recommandée si vous souhaitez utiliser Delta Chat pour tous vos courriels, afin de ne rater aucun message.
+- "Pour les contacts acceptés": vous verrez dans Delta Chat tous les courriels envoyés par les personnes avec qui vous avez déjà ouvert une discussion, mais les notifications de nouvelles conversations ne s'afficheront que pour des messages envoyés via Delta Chat. Cette option vous permet de décider au cas par cas si vous souhaitez échanger via Delta Chat ou via une application de courriel "classique".
+
+
+### Est-ce que Delta Chat gère les courriels en HTML ?
+
+Yes, incoming HTML messages come with a "Show full message" button.
+Outgoing messages always use plain text.
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -971,6 +943,29 @@ You will get bonus professionalism points
 if you set a [signature text](#signature).
 
 
+### Quel est l'intérêt du paramètre “M'envoyer une copie”? 
+
+Envoyer une copie de vos messages à vous-même garantit que vous recevez vos propres
+ messages sur tous les appareils. Si vous avez de multiples appareils et que vous ne l'activez pas, vous voyez seulement les messages des autres personnes et les messages que vous avez envoyé depuis l'appareil en cours.
+
+La copie est envoyée dans la Boîte de réception puis déplacée dans le dossier DeltaChat; elle n'est pas mise dans le dossier “Envoyés”. Delta Chat ne téléverse jamais quelque chose dans le dossier Envoyés car ça signifierait de le téléverser deux fois (une fois via SMTP, puis une fois dans le dossier Envoyés via IMAP).
+
+Le paramètre par défaut pour l'envoi à soi-même est "Non".
+
+
+### Pourquoi puis-je choisir de regarder le dossier “Envoyés”? 
+
+La seule raison de regarder le dossier Envoyés est si vous utilisez un autre programme de courriel (tel que Thunderbird) en parallèle de votre application Delta Chat, et que vous voulez que votre client de messagerie participe aux discussions.
+
+Cependant, nous recommandons d'utiliser le client de bureau Delta Chat; vous pouvez le télécharger sur [get.delta.chat](https://get.delta.chat). L'option de regarder le dossier “Envoyés” pourrait disparaître dans le futur. Elle a été introduite à une époque où il n'y avait pas de client de bureau Delta Chat disponible sur toutes les plateformes.
+
+
+### Pourquoi puis-je choisir de ne pas regarder le dossier Delta Chat? 
+
+Certaines personnes utilisent Delta Chat comme un client de messagerie normal, et veulent utiliser la Boîte de réception pour leurs mails au lieu d'utiliser le dossier DeltaChat. Si vous désactivez “Surveiller le dossier DeltaChat”, vous devriez aussi désactiver “déplacer les messages de discussions dans DeltaChat”.
+Sinon, la suppression de messages dans une configuration multi-appareils pourrait ne pas marcher correctement.
+
+
 ### Delta Chat est-il compatible avec Protonmail / Tutanota / Criptext ?
 
 - Yes and No.
@@ -983,6 +978,14 @@ if you set a [signature text](#signature).
   uses.
 - Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+
+
+### Comment supprimer mon compte ?
+
+Étant donné que vous utilisez Delta Chat à travers un compte courriel, la façon dont vous pouvez supprimer votre compte dépend de votre fournisseur de courriel.
+Comme nous n'exerçons aucun contrôle sur votre compte courriel, nous ne sommes pas en mesure de vous aider à le supprimer.
+
+Si vous souhaitez conserver votre compte mais désinstaller Delta Chat, nous vous recommandons de quitter toutes les discussions de groupe avant de procéder à la désinstallation.
 
 
 ### Les détails techniques m'intéressent. Pouvez-vous m'en dire plus ?

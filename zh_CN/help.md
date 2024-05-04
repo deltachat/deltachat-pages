@@ -31,17 +31,6 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 - _身份灵活_，内置[多账户](#multiple-accounts)支持。
 
 
-### 哪些消息会在 Delta Chat 中出现？
-
-默认情况下， Delta Chat 会显示所有电子邮件。
-
-通过“设置->聊天与媒体->显示传统电子邮件”，您可以改变这种行为。有三个选项：
-
-- “不显示，仅聊天”：只显示由其他 Delta Chat 用户发送的消息和对您 Delta Chat 消息的回复。这在电子邮件地址同时用于处理普通邮件的情况下很有用。
-- “全部”：Delta Chat 会显示发送到您电子邮件地址的所有邮件。用于您希望使用 Delta Chat 处理所有电子邮件的情况，这样就不会有消息被落下了。默认设置。
-- “已接受的联系人”：Delta Chat 会显示已有聊天的联系人的所有电子邮件，而新聊天只会为 Delta Chat 消息弹出。可用于希望逐一决定是在 Delta Chat 中还是在“普通”电子邮件应用中对话的情况。
-
-
 ### 如果希望收到我从未发送过消息的人的消息，该怎么办?
 
 - 来自未知联系人的消息会作为**请求**出现。您需要在回复之前先接收他的请求。
@@ -82,47 +71,6 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 对其他所有人来说，
 它将显示为在您所有消息文本下方的电子邮件签名。
 
-
-### Delta Chat 支持 HTML 电子邮件吗？
-
-是的，收到的 HTML 邮件会有一个 "显示完整消息 "按钮。 
-发出的邮件始终使用纯文本。
-
-
-### 为什么我必须在 Delta Chat 中输入我的电子邮件密码？ 这样安全吗？
-
-与其他电子邮件程序（比如 Thunderbird、K9-Mail 或 Outlook）一样，本程序需要您的密码来允许您通过它发送邮件。当然，密码仅储存在您的设备上，并只会在登录时发送给您的电子邮件提供商（无论如何，您的提供商总是能够访问您的邮件）。
-
-如果您使用具有 OAuth2 支持的电子邮件提供商，例如 gmail.com 或 yandex.ru，则无需在设备上存储密码。在这种情况下，只有访问令牌被使用。
-
-由于 Delta Chat 是开源的，要验证您的凭据是否被安全地处理了，可以检查[源代码](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)。我们很高兴能收到使本应用对我们的所有用户更加安全的反馈。
-
-
-### Delta Chat 需要哪些权限？
-
-根据使用的操作系统，系统可能会要求您向本应用授予权限。下面 Delta Chat 使用各类权限进行的操作：
-
-- 相机*（可被禁止）*
-  - 拍照和录像：用于发送照片
-- 联系人*（可被禁止）*
-  - 读取联系人：发现要与之聊天的联系人
-- 位置*（可被禁止）*
-  - 访问大概位置（基于网络）：用于位置流功能
-  - 访问精确位置（基于 GPS 和网络）：用于位置流功能
-- 麦克风*（可被禁止）*
-  - 录制音频：用于音频消息
-- 存储*（可被禁止）*
-  - 修改或删除 SD 卡的内容：下载消息附件
-  - 读取 SD 卡的内容：与联系人分享文件
-- 其他权限
-  - 更改音频设置：允许您选择通知和音频消息的铃声和音量
-  - 开机自启动：您不必手动启动 Delta Chat
-  - 控制振动：用于通知
-  - 查看网络连接：连接到您的电子邮件提供商
-  - 阻止手机进入休眠状态：您可以在 Autocrypt 设置消息中更轻松地复制安全代码
-  - 具有完全的网络访问权限：连接到您的电子邮件提供商
-  - 查看 Wi-Fi 连接：连接到您的电子邮件提供商
-  - 要求忽略电池优化：给希望一直接收消息的用户使用
 
 ### 固定、静音、归档是什么意思？
 
@@ -179,18 +127,6 @@ if one chat partner uninstalls Delta Chat,
 the messages will not get deleted from their email account.
 They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
-
-
-### 如何删除我的账户？
-
-As you use an e-mail account for Delta Chat,
-how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
-so unfortunately we can't help you with that.
-
-If you want to keep the account,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ## 群组
@@ -780,25 +716,6 @@ This method is only recommended if "Add Second Device" as described above does n
 - 如果是因为不能在工作的电脑上安装软件而需要一个 Web 客户端，您可以使用便携版的 Windows 桌面客户端，或者在 Linux 上使用 AppImage 版。您可以在 [get.delta.chat](https://get.delta.chat) 找到它们。
 
 
-### “给自己发送副本”设置有什么用处？
-
-向自己发送消息的副本可以确保您在所有设备上收到自己的消息。如果您在使用多台设备时没有打开此设置，那么您将只能看到其他人发过来的消息和您从当前设备发出的消息。
-
-副本会被发送到收件箱，然后会被移动到 DeltaChat 文件夹；它不会被放到“已发送”文件夹里。Delta Chat *从不* 将东西上传到已发送文件夹，因为这意味着上传一条消息两次（一次通过 SMTP，一次通过 IMAP 到已发送文件夹）。
-
-给自己发送副本的默认设置是“不”。
-
-### 为什么我可以选择监视“已发送”文件夹？
-
-监视已发送文件夹的唯一原因是：您在同时使用其他的邮件应用程序（比如 Thunderbird），并且想让邮件分发代理参与聊天对话。
-
-不过，我们推荐使用 Delta Chat 桌面客户端；您可以在 [get.delta.chat](https://get.delta.chat) 下载它。监视“已发送”文件夹的选项是在还没有 Delta Chat 桌面客户端的时候引入的，这个选项可能会在未来消失。
-
-### 为什么我可以选择不监视 DeltaChat 文件夹？
-
-有些人将 Delta Chat 用作常规电子邮件客户端并希望将收件箱文件夹用于其邮件，而不是使用 DeltaChat 文件夹。如果禁用了“监视 DeltaChat 文件夹”，则还应该禁用“将聊天消息移动到 DeltaChat”。否则，删除消息或多设备设置可能无法正常工作。
-
-
 ## webxdc apps {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
@@ -928,6 +845,33 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ## 杂项
 
+### Delta Chat 需要哪些权限？
+
+根据使用的操作系统，系统可能会要求您向本应用授予权限。下面 Delta Chat 使用各类权限进行的操作：
+
+- 相机*（可被禁止）*
+  - 拍照和录像：用于发送照片
+- 联系人*（可被禁止）*
+  - 读取联系人：发现要与之聊天的联系人
+- 位置*（可被禁止）*
+  - 访问大概位置（基于网络）：用于位置流功能
+  - 访问精确位置（基于 GPS 和网络）：用于位置流功能
+- 麦克风*（可被禁止）*
+  - 录制音频：用于音频消息
+- 存储*（可被禁止）*
+  - 修改或删除 SD 卡的内容：下载消息附件
+  - 读取 SD 卡的内容：与联系人分享文件
+- 其他权限
+  - 更改音频设置：允许您选择通知和音频消息的铃声和音量
+  - 开机自启动：您不必手动启动 Delta Chat
+  - 控制振动：用于通知
+  - 查看网络连接：连接到您的电子邮件提供商
+  - 阻止手机进入休眠状态：您可以在 Autocrypt 设置消息中更轻松地复制安全代码
+  - 具有完全的网络访问权限：连接到您的电子邮件提供商
+  - 查看 Wi-Fi 连接：连接到您的电子邮件提供商
+  - 要求忽略电池优化：给希望一直接收消息的用户使用
+
+
 ### Delta Chat 可用于 _我的_ 电子邮件提供商吗？
 
 - 有很大的可能性是：可以的 :) 
@@ -942,12 +886,38 @@ it](https://delta.chat/en/2022-09-14-aeap).
 - You can find an [installation guide on our website](serverguide).
 
 
+### 为什么我必须在 Delta Chat 中输入我的电子邮件密码？ 这样安全吗？
+
+与其他电子邮件程序（比如 Thunderbird、K9-Mail 或 Outlook）一样，本程序需要您的密码来允许您通过它发送邮件。当然，密码仅储存在您的设备上，并只会在登录时发送给您的电子邮件提供商（无论如何，您的提供商总是能够访问您的邮件）。
+
+如果您使用具有 OAuth2 支持的电子邮件提供商，例如 gmail.com 或 yandex.ru，则无需在设备上存储密码。在这种情况下，只有访问令牌被使用。
+
+由于 Delta Chat 是开源的，要验证您的凭据是否被安全地处理了，可以检查[源代码](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)。我们很高兴能收到使本应用对我们的所有用户更加安全的反馈。
+
+
 ### 使用电子邮件的 Delta Chat 真的是 _即时_ 通讯工具吗？
 
 - 通常情况下，发送和接收消息会花费数秒。收发消息有时会花费更长时间；但是对于其他的通信软件来说，这也是真的。
 - 在双方都积极使用本应用时，即时聊天反应迅速；而当应用运行在后台时，有时就会很慢。
 - 由于 Android 与 iOS 经常阻止 Delta Chat 在后台运行、偶尔才会唤醒它，接收消息可能要花费数分钟。iOS 上的这种人为延迟通常比 Android 上的更糟糕。
 - 另外，对于很多正常应用来说，Android 和 iOS 杀掉后台应用是一个问题。更多信息，请参阅 [dontkillmyapp.com](https://dontkillmyapp.com/)。
+
+
+### 哪些消息会在 Delta Chat 中出现？
+
+默认情况下， Delta Chat 会显示所有电子邮件。
+
+通过“设置->聊天与媒体->显示传统电子邮件”，您可以改变这种行为。有三个选项：
+
+- “不显示，仅聊天”：只显示由其他 Delta Chat 用户发送的消息和对您 Delta Chat 消息的回复。这在电子邮件地址同时用于处理普通邮件的情况下很有用。
+- “全部”：Delta Chat 会显示发送到您电子邮件地址的所有邮件。用于您希望使用 Delta Chat 处理所有电子邮件的情况，这样就不会有消息被落下了。默认设置。
+- “已接受的联系人”：Delta Chat 会显示已有聊天的联系人的所有电子邮件，而新聊天只会为 Delta Chat 消息弹出。可用于希望逐一决定是在 Delta Chat 中还是在“普通”电子邮件应用中对话的情况。
+
+
+### Delta Chat 支持 HTML 电子邮件吗？
+
+是的，收到的 HTML 邮件会有一个 "显示完整消息 "按钮。 
+发出的邮件始终使用纯文本。
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -968,6 +938,27 @@ You will get bonus professionalism points
 if you set a [signature text](#signature).
 
 
+### “给自己发送副本”设置有什么用处？
+
+向自己发送消息的副本可以确保您在所有设备上收到自己的消息。如果您在使用多台设备时没有打开此设置，那么您将只能看到其他人发过来的消息和您从当前设备发出的消息。
+
+副本会被发送到收件箱，然后会被移动到 DeltaChat 文件夹；它不会被放到“已发送”文件夹里。Delta Chat *从不* 将东西上传到已发送文件夹，因为这意味着上传一条消息两次（一次通过 SMTP，一次通过 IMAP 到已发送文件夹）。
+
+给自己发送副本的默认设置是“不”。
+
+
+### 为什么我可以选择监视“已发送”文件夹？
+
+监视已发送文件夹的唯一原因是：您在同时使用其他的邮件应用程序（比如 Thunderbird），并且想让邮件分发代理参与聊天对话。
+
+不过，我们推荐使用 Delta Chat 桌面客户端；您可以在 [get.delta.chat](https://get.delta.chat) 下载它。监视“已发送”文件夹的选项是在还没有 Delta Chat 桌面客户端的时候引入的，这个选项可能会在未来消失。
+
+
+### 为什么我可以选择不监视 DeltaChat 文件夹？
+
+有些人将 Delta Chat 用作常规电子邮件客户端并希望将收件箱文件夹用于其邮件，而不是使用 DeltaChat 文件夹。如果禁用了“监视 DeltaChat 文件夹”，则还应该禁用“将聊天消息移动到 DeltaChat”。否则，删除消息或多设备设置可能无法正常工作。
+
+
 ### Delta Chat 与 Protonmail / Tutanota / Criptext 兼容吗？
 
 - Yes and No.
@@ -980,6 +971,18 @@ if you set a [signature text](#signature).
   uses.
 - Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+
+
+### 如何删除我的账户？
+
+As you use an e-mail account for Delta Chat,
+how you can delete your account depends on your e-mail provider.
+We don't have any control over your e-mail account,
+so unfortunately we can't help you with that.
+
+If you want to keep the account,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
 
 
 ### 我对技术细节很感兴趣。能告诉我更多吗？
