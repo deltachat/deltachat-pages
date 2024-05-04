@@ -1064,10 +1064,9 @@ Jediný důvod sledovat složku s odeslanými zprávami je používání jiného
 programu (např. Thunderbird) spolu s Delta Chatem, a chtít z tohoto programu také 
 psát zprávy do hovorů Delta Chatu.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+Nicméně doporučujeme používat Delta Chat Desktop Client; ten lze stáhnout z [get.delta.chat](https://get.delta.chat). Možnost sledování složky "Odeslané"
+může být v budoucnu zrušena. Byla totiž vytvořena v době, kdy Delta Chat Desktop
+nebyl dostupný na všech platformách. 
 
 
 ### Proč mohu zvolit nesledovat složku DeltaChat?

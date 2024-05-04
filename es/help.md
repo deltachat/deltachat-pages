@@ -1005,10 +1005,10 @@ La única razón por la que uno quiere ver la carpeta Enviados es si está utili
 programa de correo (como Thunderbird) a la vez que su aplicación Delta Chat, y desea que su MUA
 también participe en conversaciones de chat.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+No obstante, recomendamos utilizar el cliente de escritorio Delta Chat; puede descargarlo
+en [get.delta.chat](https://get.delta.chat). La opción de observar la carpeta "Enviados"
+podría desaparecer en el futuro. Se introdujo en un momento en que no había
+cliente Delta Chat Desktop disponible en todas las plataformas.
 
 
 ### ¿Por qué puedo elegir no monitorear la carpeta DeltaChat?

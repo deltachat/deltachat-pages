@@ -981,10 +981,11 @@ Ja se ç’bën Delta Chat-i me këto leje:
 
 ### Pse më duhet të jap fjalëkalimin e email-it tim në Delta Chat? A është e sigurt kjo?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Si edhe me programe të tjerë email-i, bie fjala, Thunderbird-i, K9-Mail-i, ose
+Outlook-u, programit i duhet fjalëkalimi, që kështu të mund të dërgoni email-e.
+Sigurisht, fjalëkalimi depozitohet vetëm në pajisjen tuaj. Fjalëkalimi i transmetohet
+vetëm furnizuesit të email-it tuaj (kur bëni hyrjen), i cili mund të hyjë te email-et
+tuaj, sido qoftë. 
 
 Nëse përdorni një furnizues email-i që mbulon OAuth2, bie fjala gmail.com ose
 yandex.ru, s’ka nevojë të depozitoni fjalëkalimin tuaj në pajisje. Në këtë rast
@@ -1060,10 +1061,10 @@ if you set a [signature text](#signature).
 
 ### Përse hyn në punë rregullimi "Dërgojini Vetes Një Kopje"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+Dërgimi vetes i një kopjeje të mesazheve tuaj siguron marrjen e mesazheve tuaj
+në krejt pajisjet. Nëse keni disa pajisje dhe nuk i mbani ndezur, shihni vetëm
+mesazhet prej të tjerëve, dhe mesazhet që dërgoni prej pajisjes që keni hapur
+në atë çast. 
 
 Kopja dërgohet te Të marrët, dhe mandej kalohet te dosja DeltaChat; nuk vendoset
 te dosja "Të dërguar". Delta Chat-i nuk ngarkon *kurrë* ndonjë gjë te dosja
@@ -1079,10 +1080,10 @@ Arsyeja e vetme pse dikush mund të dojë të vëzhgojë dosjen Të marrë ësht
 përdoret tjetër program email-sh (bie fjala, Thunderbird-i) në krah të
 aplikacionit tuaj Delta Chat, dhe doni që MUA juaj të marrë pjesë në biseda.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+Sidoqoftë, rekomandojmë të përdoret Klienti Desktop i Delta Chat-it; mund ta 
+shkarkoni që nga [get.delta.chat](https://get.delta.chat). Mundësia për vëzhgim
+të dosjes "Të dërguar" mund të hiqet në të ardhmen. Qe prurë në kohët kur s’kish
+klient Desktop Delta Chat për krejt platformat. 
 
 
 ### Pse mund të zgjedh të mos e vëzhgoj dosjen DeltaChat?

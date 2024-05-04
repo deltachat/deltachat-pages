@@ -977,10 +977,9 @@ Delta Chat robí toto s týmito povoleniami:
 
 ### Prečo musím zadávať svoje e-mailové heslo do Delta Chat? Je to bezpečné?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Rovnako ako v prípade iných e-mailových programov, ako sú Thunderbird, K9-Mail alebo Outlook,
+program potrebuje heslo, aby ste ho mohli používať na odosielanie e-mailov. Samozrejme,
+heslo je uložené iba vo vašom zariadení. Heslo sa prenáša iba na vášho poskytovateľa e-mailu (keď sa prihlásite), ktorý má aj tak prístup k vašim e-mailom. 
 
 Ak používate poskytovateľa e-mailu s podporou OAuth2, ako je gmail.com alebo yandex.ru,
 nie je potrebné ukladať heslo do zariadenia. V tomto prípade iba 
@@ -1052,10 +1051,10 @@ if you set a [signature text](#signature).
 
 ### Na čo je dobré nastavenie „Odoslať kópiu sebe“?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+Odoslaním kópie správ sebe samému zaistíte,                               že dostanete svoje vlastné
+správy na všetkých zariadeniach. Ak máte viacero zariadení a nezapnete ich, vy
+uvidíte iba správy od iných ľudí a správy, ktoré vy                 odošlete z
+ aktuálneho zariadenia. 
 
 Kópia sa odošle do priečinka Doručená pošta a potom sa presunie do priečinka DeltaChat; nie je vložená do priečinka „Odoslané“. Delta Chat *nikdy* nič neodovzdáva do priečinka "Odoslané", pretože by to znamenalo nahrať správu dvakrát (raz cez SMTP, a raz cez IMAP do priečinka Odoslané). 
 
@@ -1068,10 +1067,10 @@ Jediný dôvod, prečo chcete sledovať priečinok Odoslané, je, ak používate
 poštový program (napríklad Thunderbird) vedľa vašej aplikácie Delta Chat a chcete svoj MUA
  aby sa zúčastňoval chatových konverzácií.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+Odporúčame však použiť Delta Chat Desktop Client; môžete si ho stiahnuť
+na [get.delta.chat](https://get.delta.chat). Možnosť sledovať „Odoslané“
+priečinok môže v budúcnosti zmiznúť. Bolo to zavedené v čase, kedy nebol
+Delta Chat Desktop dostupný na všetkých platformách.
 
 
 ### Prečo sa môžem rozhodnúť nesledovať priečinok DeltaChat?

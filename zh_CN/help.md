@@ -888,10 +888,7 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ### 为什么我必须在 Delta Chat 中输入我的电子邮件密码？ 这样安全吗？
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+与其他电子邮件程序（比如 Thunderbird、K9-Mail 或 Outlook）一样，本程序需要您的密码来允许您通过它发送邮件。当然，密码仅储存在您的设备上，并只会在登录时发送给您的电子邮件提供商（无论如何，您的提供商总是能够访问您的邮件）。
 
 如果您使用具有 OAuth2 支持的电子邮件提供商，例如 gmail.com 或 yandex.ru，则无需在设备上存储密码。在这种情况下，只有访问令牌被使用。
 
@@ -919,8 +916,8 @@ your E-Mail provider (when you login), which has access to your mails anyway.
 
 ### Delta Chat 支持 HTML 电子邮件吗？
 
-Yes, incoming HTML messages come with a "Show full message" button.
-Outgoing messages always use plain text.
+是的，收到的 HTML 邮件会有一个 "显示完整消息 "按钮。 
+发出的邮件始终使用纯文本。
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -943,10 +940,7 @@ if you set a [signature text](#signature).
 
 ### “给自己发送副本”设置有什么用处？
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+向自己发送消息的副本可以确保您在所有设备上收到自己的消息。如果您在使用多台设备时没有打开此设置，那么您将只能看到其他人发过来的消息和您从当前设备发出的消息。
 
 副本会被发送到收件箱，然后会被移动到 DeltaChat 文件夹；它不会被放到“已发送”文件夹里。Delta Chat *从不* 将东西上传到已发送文件夹，因为这意味着上传一条消息两次（一次通过 SMTP，一次通过 IMAP 到已发送文件夹）。
 
@@ -957,10 +951,7 @@ current device.
 
 监视已发送文件夹的唯一原因是：您在同时使用其他的邮件应用程序（比如 Thunderbird），并且想让邮件分发代理参与聊天对话。
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+不过，我们推荐使用 Delta Chat 桌面客户端；您可以在 [get.delta.chat](https://get.delta.chat) 下载它。监视“已发送”文件夹的选项是在还没有 Delta Chat 桌面客户端的时候引入的，这个选项可能会在未来消失。
 
 
 ### 为什么我可以选择不监视 DeltaChat 文件夹？

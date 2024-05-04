@@ -974,10 +974,11 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 ### Почему я должен вводить свой пароль от электронной почты в Delta Chat? Это безопасно?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Как и в случае других программ электронной почты, таких как Thunderbird,
+ K9-Mail или Outlook, программе необходим пароль, чтобы использовать его
+ для отправки почты. Конечно, пароль хранится только на вашем устройстве.
+ Пароль передаётся только вашему провайдеру электронной почты (при входе
+ в систему), который в любом случае имеет доступ к вашей почте.
 
 Если вы используете провайдера электронной почты с поддержкой OAuth2,
  например, gmail.com или yandex.ru, нет необходимости хранить пароль на
@@ -1049,10 +1050,10 @@ if you set a [signature text](#signature).
 
 ### Для чего нужен параметр "Отправить копию себе"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+Отправка копии ваших сообщений себе гарантирует, что вы получите свои собственные
+сообщения на всех устройствах. Если у вас есть несколько устройств и вы не включили его, вы
+видите только сообщения от других людей и сообщения, которые вы отправляете с
+текущего устройства.
 
 Копия отправляется в папку "Входящие", а затем перемещается в папку DeltaChat; она не
 помещается в папку "Отправлено". Delta Chat *никогда* ничего не загружает в папку Отправлено
@@ -1067,10 +1068,10 @@ current device.
 Этот параметр, важен для тех, кто использует другую
 почтовую программу (например, Thunderbird) вместе с приложением Delta Chat.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+Однако мы рекомендуем использовать настольный клиент Delta Chat; вы можете скачать его
+на [get.delta.chat](https://get.delta.chat). Возможность "слежения за папкой Отправлено"
+может быть убрана в будущем. Эта функция была представлена в то время, когда не было
+ настольного клиента Delta Chat доступного на всех платформах.
 
 
 ### Почему я могу отключить "следить за папкой Delta Chat"?

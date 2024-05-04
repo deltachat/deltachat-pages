@@ -588,10 +588,7 @@ independent security analysis, from most recent to older:
 
 ### Чому я маю вводити пароль до моєї електронної пошти у Delta Chat? Чи це безпечно?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Як і інші поштові програми, такі як Thunderbird, K9-Mail або Outlook, програма програма потребує пароля, щоб ви могли використовувати її для надсилання листів. Звичайно, пароль пароль зберігається лише на вашому пристрої. Пароль передається лише вашому поштовому провайдеру (коли ви входите в систему), який і так має доступ до вашої пошти. 
 
 Якщо ваш провайдер електронної пошти підтримує OAuth2, як gmail.com чи yandex.ru, то немає необхідності зберігати пароль на пристрої. В цьому випадку використовується лише токен доступу.
 
@@ -619,8 +616,7 @@ your E-Mail provider (when you login), which has access to your mails anyway.
 
 ### Чи підтримує Delta Chat HTML-листи?
 
-Yes, incoming HTML messages come with a "Show full message" button.
-Outgoing messages always use plain text.
+Так, вхідні HTML-повідомлення мають кнопку «Показати повне повідомлення». Вихідні повідомлення завжди містять звичайний текст.
 
 
 ### Чи можу я встановити тему листа в Delta Chat?
@@ -632,10 +628,7 @@ Delta Chat встановлює (і [шифрує](#message-metadata)!) клас
 
 ### Для чого потрібне налаштування "Відправити копію собі"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+Надсилаючи собі копію своїх повідомлень, ви отримуєте власні повідомлення на всіх пристроях. Якщо у вас кілька пристроїв, і ви не вмикаєте це налаштування, ви бачите лише повідомлення інших людей та повідомлення, які ви надсилаєте з поточного пристрою.
 
 Копія надсилається у папку Вхідні, а потім переміщується до папки DeltaChat; вона не поміщається в папку «Відправлені». Delta Chat *ніколи* не завантажує нічого в папку Надіслане, оскільки це означало б завантаження повідомлень двічі (один раз через SMTP і один раз через IMAP до папки Надіслані).
 
@@ -646,10 +639,7 @@ current device.
 
 Єдина причина, через яку захочеться стежити за папкою Надіслане, полягає в тому, що якщо ви використовуєте іншу поштову програму (наприклад, Thunderbird) разом із вашим додатком Delta Chat і хочете, щоб ваш поштовий клієнт брав участь у розмовах.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+Однак ми рекомендуємо використовувати клієнт Delta Chat Desktop; Ви можете завантажити його на [get.delta.chat](https://get.delta.chat). Можливість стеження папки "Надіслане" може зникнути в майбутньому. Вона був представлена у той час, коли на всіх платформах ще не було клієнта Delta Chat Desktop.
 
 
 ### Чому я можу відмовитись від стеження за  папкою DeltaChat?
