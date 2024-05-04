@@ -444,7 +444,8 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 
 ### Czy Delta Chat był niezależnie kontrolowany pod kątem luk w zabezpieczeniach? {#security-audits}
 
-Projekt Delta Chat przeszedł w ostatnich latach cztery niezależne audyty bezpieczeństwa:
+The Delta Chat project underwent four independent security audits and one
+independent security analysis, from most recent to older: 
 
 - 2024 March, we received a deep security analysis from the Applied Cryptography
   research group at ETH Zuerich and addressed all raised issues. 

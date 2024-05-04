@@ -714,7 +714,8 @@ Voor andere programma's kun je zélf een oplossing zoeken op internet.
 
 ### Heeft Delta Chat ooit onafhankelijke beveiligingscontroles ondergaan? {#security-audits}
 
-Delta Chat onderging al drie onafhankelijke beveiligingscontroles:
+The Delta Chat project underwent four independent security audits and one
+independent security analysis, from most recent to older: 
 
 - 2024 March, we received a deep security analysis from the Applied Cryptography
   research group at ETH Zuerich and addressed all raised issues. 

@@ -718,11 +718,12 @@ Per altri programmi, dovresti essere in grado di trovare una soluzione online.
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 
-Il progetto Delta Chat è stato sottoposto a quattro verifiche di sicurezza indipendenti negli ultimi anni:
+The Delta Chat project underwent four independent security audits and one
+independent security analysis, from most recent to older: 
 
-- 2024 March, we received a deep security analysis from the Applied Cryptography
-  research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information. 
+- Marzo 2024, abbiamo ricevuto un'analisi approfondita della sicurezza dalla Crittografia Applicata
+gruppo di ricerca dell'ETH di Zurigo e ha affrontato tutte i problemi emersi.
+Consulta il nostro post sul blog sul [rafforzamento della crittografia end-to-end garantita](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) per informazioni più dettagliate.
 
 - A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con il servizio "web
 app condivise in una chat", relativa ai guasti del sandboxing

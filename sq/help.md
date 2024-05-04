@@ -733,7 +733,8 @@ Për programe të tjera, mund të gjeni një zgjidhje në internet.
 
 ### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie? {#security-audits}
 
-Projekti Delta Chat ka pasur katër auditime të pavarur sigurie gjatë viteve të fundit:
+The Delta Chat project underwent four independent security audits and one
+independent security analysis, from most recent to older: 
 
 - 2024 March, we received a deep security analysis from the Applied Cryptography
   research group at ETH Zuerich and addressed all raised issues. 

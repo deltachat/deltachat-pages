@@ -439,7 +439,8 @@ Delta Chat підтримує поширені формати приватних
 
 ### Чи проходив Delta Chat незалежний аудит на наявність вразливостей у безпеці? {#security-audits}
 
-За останні роки проект Delta Chat пройшов чотири незалежні аудити безпеки:
+The Delta Chat project underwent four independent security audits and one
+independent security analysis, from most recent to older: 
 
 - 2024 March, we received a deep security analysis from the Applied Cryptography
   research group at ETH Zuerich and addressed all raised issues. 
