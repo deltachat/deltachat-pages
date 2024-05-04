@@ -241,6 +241,9 @@ den Sie von Ihrem Chat-Partner in einem zweiten Kanal sehen oder erhalten haben.
 
 - "OK" tippen
 
+Wenn QR-Code-Scannen in Ihrer Situation nicht funktioniert,
+können Sie auch einen Einladungslink **Teilen** (oder **In die Zwischenablage kopieren**)
+und über einen zweiten Kanal an die andere Person weiterleiten.
 
 **Beide, Einlader und Beitretender**:
 

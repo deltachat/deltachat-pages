@@ -256,6 +256,9 @@ One of you is the "Inviter", the other is the "Joiner".
 
 - Tap "OK"
 
+If the QR code scanning doesn't work in your situation,
+you can also **Share** (or **Copy to Clipboard**) an equivalent invite link
+to the other person through a second channel.
 
 **Both Inviter and Joiner**:
 
