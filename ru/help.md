@@ -280,6 +280,9 @@ Autocrypt использует ограниченное и [подмножест
 
 - Нажмите "OK".
 
+If the QR code scanning doesn't work in your situation,
+you can also **Share** (or **Copy to Clipboard**) an equivalent invite link
+to the other person through a second channel.
 
 **Оба пришлатель и приглашённый**:
 

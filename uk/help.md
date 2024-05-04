@@ -202,6 +202,9 @@ Autocrypt використовує обмежену і [безпечну під�
 
 - Натисніть "ОК"
 
+If the QR code scanning doesn't work in your situation,
+you can also **Share** (or **Copy to Clipboard**) an equivalent invite link
+to the other person through a second channel.
 
 **І запрошувач, і приєднувач**:
 

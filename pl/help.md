@@ -201,6 +201,9 @@ Spotkaj się ze swoim partnerem na czacie poza Delta Chat, najlepiej osobiście,
 
 - Naciśnij „OK”
 
+If the QR code scanning doesn't work in your situation,
+you can also **Share** (or **Copy to Clipboard**) an equivalent invite link
+to the other person through a second channel.
 
 **Zarówno osoba zapraszająca, jak i dołączająca**:
 
