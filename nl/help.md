@@ -966,10 +966,7 @@ Delta Chat doet het volgende met deze rechten:
 
 ### Waarom moet ik mijn e-mailwachtwoord invoeren in Delta Chat? Is dat wel veilig?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Delta Chat heeft, net zoals andere e-mailprogramma's (Thunderbird, K9-Mail, Outlook, etc.), je wachtwoord nodig om berichten te versturen. Het wordt alleen opgeslagen op je apparaat en alleen uitgewisseld met je e-mailprovider, die toch al toegang heeft tot je mails.
 
 Als je een e-mailprovider gebruikt die OAuth2 ondersteunt, zoals Gmail of Yandex, dan hoeft je wachtwoord niet lokaal te worden opgeslagen. Er wordt dan alleen een toegangssleutel gebruikt.
 
@@ -1014,8 +1011,8 @@ Je kunt dit aanpassen via Instellingen → Gesprekken en media → Klassieke e-m
 
 ### Ondersteunt Delta Chat HTML-e-mails?
 
-Yes, incoming HTML messages come with a "Show full message" button.
-Outgoing messages always use plain text.
+- Ja. Indien nodig wordt er bij inkomende berichten een knop ‘Volledig bericht tonen’ getoond.
+Uitgaande e-mails gebruiken altijd platte tekst.
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -1038,10 +1035,10 @@ if you set a [signature text](#signature).
 
 ### Waarvoor dient de optie ‘Kopie versturen aan mijzelf’?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+Door een kopie aan jezelf te sturen, weet je zeker dat je je eigen berichten
+op alle apparaten ontvangt. Als je meerdere apparaten hebt en dit niet
+inschakelt, dan zie je alleen berichten van anderen en de berichten die je vanaf het
+huidige apparaat verstuurt.
 
 De kopie wordt verstuurd naar je Postvak IN en vervolgens verplaatst naar de DeltaChat-map -
 het verschijnt nooit in de map 'Verzonden'. Delta Chat werkt zo omdat het bericht
@@ -1056,10 +1053,10 @@ Standaard is deze optie uitgeschakeld.
 Dit is alleen nuttig als een ander e-mailprogramma (zoals Thunderbird) naast de
 Delta Chat-app gebruikt en wilt dat je andere apparaten deel uitmaken van gesprekken.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+Wij raden echter aan om in dat geval de Delta Chat-app te installeren op je computer:
+[get.delta.chat](https://get.delta.chat). De optie om de map ‘Verzonden’ te controleren
+wordt in de toekomst mogelijk verwijderd. De functie deed zijn intrede toen er nog niet
+op alle platformen een Delta Chat-client beschikbaar was.
 
 
 ### Waarom kan ik kiezen om de DeltaChat-map te negeren?

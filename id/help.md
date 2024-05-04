@@ -977,10 +977,10 @@ Inilah yang dilakukan Delta Chat dengan izin ini:
 
 ### Mengapa saya harus memasukkan kata sandi E-Mail saya ke Delta Chat? Apakah ini aman?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Seperti program E-Mail lainnya seperti Thunderbird, K9-Mail, atau Outlook,
+program membutuhkan kata sandi sehingga Anda dapat menggunakannya untuk mengirim email. Tentu saja,
+kata sandi hanya disimpan di perangkat Anda. Kata sandi hanya dikirimkan ke
+penyedia E-Mail Anda (saat Anda login), yang tetap memiliki akses ke email Anda.
 
 Jika Anda menggunakan penyedia E-Mail dengan dukungan OAuth2 seperti gmail.com atau yandex.ru,
 tidak perlu menyimpan kata sandi Anda di perangkat. Dalam hal ini, hanya

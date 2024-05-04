@@ -920,10 +920,10 @@ Sin embargo, algunos proveedores necesitan opciones especiales para funcionar co
 
 ### ¿Por qué debo ingresar mi contraseña de correo electrónico en Delta Chat? ¿Es esto seguro?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Al igual que con otros programas de correo electrónico como Thunderbird, K9-Mail o Outlook, el
+programa necesita la contraseña para que pueda usarla para enviar correos. Por supuesto, la
+contraseña se almacena solo en su dispositivo. La contraseña solo se transmite a
+su proveedor de correo electrónico (cuando inicia sesión), que tiene acceso a sus correos de todos modos.
 
 Si utiliza un proveedor de correo electrónico con soporte de OAuth2 como gmail.com o yandex.ru,
 no es necesario almacenar su contraseña en el dispositivo. En este caso, solo se usa un
@@ -969,8 +969,7 @@ Media -> Show Classic E-Mails", you can change this. You have these options:
 
 ### ¿Delta Chat soporta mensajes con formato HTML?
 
-Yes, incoming HTML messages come with a "Show full message" button.
-Outgoing messages always use plain text.
+Sí, los mensajes HTML entrantes vienen con un botón "Mostrar mensaje completo". Los mensajes salientes siempre usan texto plano.
 
 
 ### Can I set the E-Mail Subject with Delta Chat?
@@ -993,10 +992,7 @@ if you set a [signature text](#signature).
 
 ### ¿Para qué sirve la configuración "Enviar autocopia"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+Enviar una copia de sus mensajes a usted mismo asegura que recibirá sus propios mensajes en todos los dispositivos. Si tiene varios dispositivos y no habilita esta opción, solo verá los mensajes de otras personas y los mensajes que envíe desde el dispositivo actual.
 
 La copia se envía a la bandeja de entrada y luego se mueve a la carpeta DeltaChat; no se coloca en la carpeta "Enviados". Delta Chat *nunca* carga nada en la carpeta Enviados porque esto significaría cargar un mensaje dos veces (una a través de SMTP y otra a través de IMAP en la carpeta Enviados).
 

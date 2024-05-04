@@ -970,10 +970,7 @@ ver [Visão Geral dos Provedores](https://providers.delta.chat)
 
 ### Por que preciso entrar com a senha do meu email no Delta Chat? Isso é seguro?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Como acontece em qualquer outro programa de comunicação que usa email, como Thunderbird, K9-Mail ou Outlook, sua senha é necessária para poder receber e enviar emails. Obviamente, sua senha fica guardada no seu dispositivo. E ela só é transmitida para o seu provedor de email (no momento que você faz login), que é quem já tem inevitavelmente acesso aos seus emails.
 
 Se você usa um provedor de email com suporte para OAuth2 como gmail.com ou yandex.ru, não é preciso guardar sua senha no dispositivo. Neste caso, somente um token de acesso é usado.
 
@@ -1040,10 +1037,10 @@ if you set a [signature text](#signature).
 
 ### Para que serve o ajuste "Enviar cópia para si mesmo"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+O envio de uma cópia de suas mensagens para você mesmo garante que você receba suas próprias mensagens
+mensagens em todos os dispositivos. Se você tem vários dispositivos e não activar isso, você
+ver apenas as mensagens de outras pessoas, e as mensagens que você envia do
+dispositivo atual.
 
 A cópia é enviada para a caixa de entrada e depois movida para a pasta DeltaChat; não é
 colocado na pasta "Enviado". Delta Chat *nunca* carrega qualquer coisa para a pasta "Enviados
@@ -1059,10 +1056,10 @@ A única razão pela qual se quer ver a pasta Enviada é se você estiver usando
 programa de correio (como Thunderbird) ao lado de seu aplicativo Delta Chat, e quer seu MUA
 para participar numa conversa de chat.
 
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
+No entanto, recomendamos o uso do Delta Chat cliente Desktop; você pode baixá-lo
+no [get.delta.chat](https://get.delta.chat). A opção de observar o "Enviado
+pasta pode ir embora no futuro. Ela foi introduzida num momento em que havia
+nenhum cliente Delta Chat no desktop disponível em todas as plataformas.
 
 
 ### Por que eu posso escolher não observar a pasta DeltaChat?

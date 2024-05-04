@@ -971,10 +971,10 @@ Zde je co Delta Chat dělá s těmito povoleními:
 
 ### Proč musím Delta Chatu zadat mé e-mailové heslo? Je to bezpečné?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Podobně jako ostatní e-mailové programy, např. Thunderbird nebo Outlook,
+program potřebuje heslo k tomu aby mohl posílat e-maily. Samozřejmě, že
+heslo je uloženo pouze na tvém přístroji. Heslo je přenášeno pouze při přihlašení
+k e-mailovému serveru, který má i beztak přístup k tvým e-mailům.
 
 Poskytovatelé e-mailu s podporou OAuth2, např. "gmail.com" či "yandex.ru",
 nepotřebují při přihlašování tvé heslo. V takovém případě je uložen pouze
@@ -1045,10 +1045,10 @@ if you set a [signature text](#signature).
 
 ### K čemu je dobré nastavení "Posílat si kopii"?
 
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
+Posílat si kopii zpráv zaručuje, že zprávy se zobrazí na všech současně nastavených
+zařízeních. Pokud máš několik zařízení a nezapneš tuto funkci, uvidíš pouze příchozí 
+zprávy, a zprávy odeslané jen z právě používaného přístroje. Ty odeslané z ostatních
+zařízení neuvidíš.
 
 Kopie přijdou nejdříve do Příchozí složky, a pak jsou samočinně přesunuty do složky 
 DeltaChat; ne do složky Odeslané. Do složky Odeslané se nepřesouvá nikdy nic.

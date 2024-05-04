@@ -977,10 +977,10 @@ This is what Delta Chat does with these permissions:
 
 ### Por que teño que escribir o contrasinal do meu email en Delta Chat? Esto é seguro?
 
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
+Como con calquera outro programa de email como Thundirbird, K9-mail, ou Outlook, o
+programa precisa o contrasinal para poder enviar emails. Por suposto, o
+contrasinal gárdase só no teu dispositivo. O contrasinal só se transmite ao
+teu provedor de email (ao conectarte), que de todas formas xa ten acceso ao teu correo.
 
 Se usas un provedor de email con soporte OAuth2 como gmail.com ou yandex.ru,
 non hai necesidade de almacenar o contrasinal no dispositivo. Neste caso, só se usa o testemuño (token) de acceso.
