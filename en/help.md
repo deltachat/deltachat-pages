@@ -55,9 +55,8 @@ recipient to install the same app as yours, as with other messengers.
 
 <h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 You may also wish to learn [how to add accounts to multiple devices](#multiclient).
 
