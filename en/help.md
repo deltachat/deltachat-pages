@@ -1064,7 +1064,7 @@ put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
 folder because this would mean uploading a message twice (once through SMTP,
 and once through IMAP to Sent folder).
 
-The default setting for copy-to-self is "no".
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Why can I choose to watch the "Sent" folder?
