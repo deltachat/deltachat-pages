@@ -826,7 +826,7 @@ Si ces deux conditions sont remplies, Delta Chat n'a pas besoin de surveiller la
 
 ### Comment changer mon compte pour une adresse courriel différente ?
 
-1. Change your address in “Settings - Password and Account” and
+1. Change your address in “Settings → Advanced → Password and Account” and
    enter the password of your new account (and if necessary, server settings).
    You will get an information notice about the fact that you are moving to a new address. 
    An additional notice will also show up in your "Device messages" chat. 
@@ -914,7 +914,8 @@ Pour plus d'informations, voir [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 Par défaut, Delta Chat affiche tous les courriels.
 
-Vous pouvez changer cette préférence en vous rendant dans vos "Paramètres -> Discussions & fichiers multimédia -> Voir les courriels classiques". Trois options sont disponibles :
+At "Settings → Advanced → Show Classic E-Mails",
+you can change this. You have these options:
 
 - "Non, seulement les discussions": vous verrez seulement les messages envoyés par d'autres utilisateurs de Delta Chat et les réponses à vos messages Delta Chat. Cette option est recommandée si vous utilisez le même compte pour recevoir aussi des courriels normaux.
 - "Tout": vous verrez dans Delta Chat tous les courriels envoyés à votre adresse. Cette option est recommandée si vous souhaitez utiliser Delta Chat pour tous vos courriels, afin de ne rater aucun message.

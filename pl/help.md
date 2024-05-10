@@ -539,7 +539,10 @@ W tym przypadku Delta Chat nie musi obserwować skrzynki odbiorczej, a wystarczy
 
 ### Jak mogę zmienić moje konto na inny adres e-mail?
 
-1. Zmień swój adres w „Ustawienia » Hasło i konto” i wprowadź hasło do swojego nowego konta (i jeśli to konieczne, ustawienia serwera). Otrzymasz informację o przeniesieniu na nowy adres. Dodatkowe powiadomienie pojawi się również na czacie „Komunikaty urządzenia”.
+1. Change your address in “Settings → Advanced → Password and Account” and
+   enter the password of your new account (and if necessary, server settings).
+   You will get an information notice about the fact that you are moving to a new address. 
+   An additional notice will also show up in your "Device messages" chat. 
 
 2. Jeśli to możliwe, pozwól, aby twój stary dostawca poczty e-mail przekazywał wszystkie wiadomości na twój nowy adres.
 
@@ -615,7 +618,8 @@ jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny
 
 Domyślnie Delta Chat pokazuje wszystkie e-maile.
 
-Możesz to zmienić w „Ustawienia » Czaty i media » Pokaż klasyczne e-maile”. Masz następujące opcje:
+At "Settings → Advanced → Show Classic E-Mails",
+you can change this. You have these options:
 
 - „Nie, tylko czaty”: Wyświetlane są tylko wiadomości wysłane przez innych użytkowników Delta Chat i odpowiedzi na Twoje wiadomości Delta Chat. Ma to największy sens, jeśli używasz tego samego konta e-mail również do wysyłania zwykłych wiadomości e-mail. To jest ustawienie domyślne.
 - „Wszystkie”: Delta Chat pokazuje wszystkie e-maile, które są wysyłane na Twój adres e-mail. Ma to sens, jeśli chcesz używać Delta Chat do wszystkich swoich e-maili, więc żadna wiadomość nie zostanie utracona. To jest ustawienie domyślne.

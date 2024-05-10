@@ -900,7 +900,7 @@ In dat geval kan Delta Chat Postvak IN negeren en alleen nieuwe gesprekken in de
 
 ### Hoe kan ik mijn e-mailadres veranderen in de app?
 
-1. Change your address in “Settings - Password and Account” and
+1. Change your address in “Settings → Advanced → Password and Account” and
    enter the password of your new account (and if necessary, server settings).
    You will get an information notice about the fact that you are moving to a new address. 
    An additional notice will also show up in your "Device messages" chat. 
@@ -999,7 +999,8 @@ kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inlogg
 
 Standaard toont Delta Chat alle e-mails.
 
-Je kunt dit aanpassen via Instellingen → Gesprekken en media → Klassieke e-mails tonen. Vervolgens heb je keuze uit de volgende opties:
+At "Settings → Advanced → Show Classic E-Mails",
+you can change this. You have these options:
 
 - ‘Alleen gesprekken’: er worden alleen berichten en antwoorden van andere
    Delta Chat-gebruikers getoond. Dit is handig als je hetzelfde account ook voor
