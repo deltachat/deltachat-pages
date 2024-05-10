@@ -48,9 +48,8 @@ zu anderen Instant-Messengern muss der/die EmpfängerIn nicht Delta Chat install
 
 <h3 id="multiple-accounts">Wie kann ich mehrere Konten hinzufügen oder zwischen ihnen wechseln?</h3>
 
-Sie können ganz einfach mehrere E-Mail-Konten Konten verwnden, indem Sie entweder:
-- im Hauptmenü "Konto wechseln" wählen (Android und Desktop)
-- oder auf das Profilsymbol und dann auf "Konto hinzufügen" klicken (iOS)
+Tippen Sie auf das Profilbild in der oberen linken Ecke, um **E-Mail-Konten zu wechseln**.
+Dort finden Sie auch **Konto hinzufügen**.
 
 Vielleicht möchten Sie auch erfahren, wie Sie [E-Mail-Konten zu mehreren Geräten hinzufügen können](#multiclient).
 
@@ -862,7 +861,7 @@ Das Senden einer Kopie an Sie selbst stellt sicher, dass Sie Ihre eigenen Nachri
 
 Die Kopie wird dabei an den Posteingang verschickt und von dort in den DeltaChat-Ordner verschoben. Delta Chat lädt *niemals* etwas in den Gesendet-Ordner hoch, weil dies bedeuten würde, dass eine Nachricht zweimal hochgeladen werden müsste (einmal durch SMTP und dann durch IMAP in den Gesendet-Ordner).
 
-Die Standardeinstellung für "Kopie an mich selbst senden" ist "Aus".
+Die Standardeinstellung für "Kopie an mich selbst senden" ist "An".
 
 
 ### Warum gibt es die Funktion "Gesendet-Ordner beobachten"?

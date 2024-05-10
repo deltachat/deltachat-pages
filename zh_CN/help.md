@@ -46,9 +46,8 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 <h3 id="multiple-accounts">如何添加账户或在多个账户之间切换？</h3>
 
-您可以在Delta Chat 移动和桌面客户端上轻松使用其他账户，只需点击以下任一按钮：
-- 菜单按钮，然后点击 "切换账户"（安卓和桌面客户端）
-- 或个人资料图标，然后点击 "添加账户"（iOS）
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 您可能还想了解 [如何为多个设备添加账户](#multiclient)。
 
@@ -947,7 +946,7 @@ if you set a [signature text](#signature).
 
 副本会被发送到收件箱，然后会被移动到 DeltaChat 文件夹；它不会被放到“已发送”文件夹里。Delta Chat *从不* 将东西上传到已发送文件夹，因为这意味着上传一条消息两次（一次通过 SMTP，一次通过 IMAP 到已发送文件夹）。
 
-给自己发送副本的默认设置是“不”。
+The default setting for "Send Copy to Self" is "on".
 
 
 ### 为什么我可以选择监视“已发送”文件夹？

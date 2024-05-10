@@ -55,9 +55,8 @@ pre príjemcu, aby si nainštaloval rovnakú aplikáciu, ako je tá vaša, ako p
 
 <h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 You may also wish to learn [how to add accounts to multiple devices](#multiclient).
 
@@ -1061,7 +1060,7 @@ uvidíte iba správy od iných ľudí a správy, ktoré vy                 odoš
 
 Kópia sa odošle do priečinka Doručená pošta a potom sa presunie do priečinka DeltaChat; nie je vložená do priečinka „Odoslané“. Delta Chat *nikdy* nič neodovzdáva do priečinka "Odoslané", pretože by to znamenalo nahrať správu dvakrát (raz cez SMTP, a raz cez IMAP do priečinka Odoslané). 
 
-Predvolené nastavenie pre kópia pre seba je "nie".
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Prečo si môžem vybrať sledovanie priečinka „Odoslané“?

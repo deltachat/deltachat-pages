@@ -56,9 +56,8 @@ que o destinatário instale o mesmo aplicativo que você.
 
 <h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 You may also wish to learn [how to add accounts to multiple devices](#multiclient).
 
@@ -1050,7 +1049,7 @@ colocado na pasta "Enviado". Delta Chat *nunca* carrega qualquer coisa para a pa
 porque isso significaria carregar uma mensagem duas vezes (uma vez através do SMTP,
 e uma vez através do IMAP para a pasta Enviada).
 
-A configuração padrão para copy-to-self é "não".
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Por que eu posso escolher assistir à pasta "Enviado"?
