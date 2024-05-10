@@ -824,7 +824,7 @@ another rather stable experiment we run on the side (sic!).
 
 ### 如何将我的账户迁移到一个不同的电子邮件地址？
 
-1. Change your address in “Settings - Password and Account” and
+1. Change your address in “Settings → Advanced → Password and Account” and
    enter the password of your new account (and if necessary, server settings).
    You will get an information notice about the fact that you are moving to a new address. 
    An additional notice will also show up in your "Device messages" chat. 
@@ -909,7 +909,8 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 默认情况下， Delta Chat 会显示所有电子邮件。
 
-通过“设置->聊天与媒体->显示传统电子邮件”，您可以改变这种行为。有三个选项：
+At "Settings → Advanced → Show Classic E-Mails",
+you can change this. You have these options:
 
 - “不显示，仅聊天”：只显示由其他 Delta Chat 用户发送的消息和对您 Delta Chat 消息的回复。这在电子邮件地址同时用于处理普通邮件的情况下很有用。
 - “全部”：Delta Chat 会显示发送到您电子邮件地址的所有邮件。用于您希望使用 Delta Chat 处理所有电子邮件的情况，这样就不会有消息被落下了。默认设置。

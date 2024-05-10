@@ -914,7 +914,7 @@ Në këtë rast, Delta Chat-i s’ka nevojë të shohë Të marrët dhe mjafton 
 
 ### Si mund ta ndryshoj llogarinë time me një tjetër adresë email?
 
-1. Change your address in “Settings - Password and Account” and
+1. Change your address in “Settings → Advanced → Password and Account” and
    enter the password of your new account (and if necessary, server settings).
    You will get an information notice about the fact that you are moving to a new address. 
    An additional notice will also show up in your "Device messages" chat. 
@@ -1020,8 +1020,8 @@ përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tan
 
 Si parazgjedhje, Delta Chat i shfaq krejt email-et.
 
-Këtë mund ta ndryshoni te
-“Rregullime -> Fjalosje & Media -> Shfaq Email-e Klasikë. Keni këto mundësi:
+At "Settings → Advanced → Show Classic E-Mails",
+you can change this. You have these options:
 
 - “Jo, vetëm fjalosje”: Shfaqen vetëm mesazhe dërguar nga përdorues të tjerë
   të Delta Chat-it dhe përgjigje për ta në mesazhet tuaj Delta Chat. Kjo ka kuptim

@@ -906,7 +906,7 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 
 ### How can I change my account to a different e-mail address?
 
-1. Change your address in “Settings - Password and Account” and
+1. Change your address in “Settings → Advanced → Password and Account” and
    enter the password of your new account (and if necessary, server settings).
    You will get an information notice about the fact that you are moving to a new address. 
    An additional notice will also show up in your "Device messages" chat. 
@@ -1011,8 +1011,8 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 По умолчанию Delta Chat показывает все сообщения электронной почты.
 
-В разделе "Настройки -> Чаты и
-Медиа -> Показывать классические электронные письма" вы можете изменить этот параметр. У вас есть эти опции:
+At "Settings → Advanced → Show Classic E-Mails",
+you can change this. You have these options:
 
 - "Нет, только чаты": Отображаются только сообщения и ответы отправленные другими пользователями Delta Chat.
   Это наиболее целесообразно, если вы используете одну и ту же

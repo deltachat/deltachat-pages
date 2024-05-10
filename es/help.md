@@ -860,7 +860,10 @@ En este caso, Delta Chat no necesita monitorear la Bandeja de entrada, y es sufi
 
 ### ¿Cómo puedo cambiar mi cuenta a una dirección de correo electrónico diferente?
 
-1. Cambia tu dirección en "Configuración - Contraseña y cuenta" e ingresa la contraseña de tu nueva cuenta (y si es necesario, la configuración del servidor). Recibirás un aviso informativo sobre el hecho de que te estás mudando a una nueva dirección. También aparecerá un aviso adicional en tu chat de "Mensajes del dispositivo".
+1. Change your address in “Settings → Advanced → Password and Account” and
+   enter the password of your new account (and if necessary, server settings).
+   You will get an information notice about the fact that you are moving to a new address. 
+   An additional notice will also show up in your "Device messages" chat. 
 
 2. Si es posible, permite que tu antiguo proveedor de correo electrónico reenvíe todos los mensajes a tu nueva dirección.
 
@@ -954,8 +957,8 @@ Estamos felices de recibir críticas que hagan la aplicación más segura para t
 
 Por defecto, Delta Chat muestra todos los e-mail
 
-At "Settings -> Chats &
-Media -> Show Classic E-Mails", you can change this. You have these options:
+At "Settings → Advanced → Show Classic E-Mails",
+you can change this. You have these options:
 
 - "No, chats only": Only messages sent by other Delta Chat users and replies to
   your Delta Chat messages are shown. This makes most sense if you use the same

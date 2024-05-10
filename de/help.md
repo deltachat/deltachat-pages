@@ -67,7 +67,7 @@ Vielleicht möchten Sie auch erfahren, wie Sie [E-Mail-Konten zu mehreren Gerät
 ### Kann ich eine Signatur (Status/Motto) festlegen? {#signature}
 
 Ja,
-Sie können dies unter "Einstellungen > Profil > Signatur" tun.
+Sie können dies unter "Einstellungen → Profil → Signatur" tun.
 Kontakte, die Delta Chat nutzen, sehen die Signatur,
 wenn Sie sich Ihre Kontaktdetails ansehen.
 Für klassische E-Mail-Programme,
@@ -744,7 +744,7 @@ In diesem Fall muss Delta Chat den Posteingang nicht beobachten, und es reicht a
 
 ### Wie kann ich mein Konto auf eine andere E-Mail-Adresse ändern?
 
-1. Ändern Sie Ihre E-Mail-Adresse unter "Einstellungen - Mein Profil - Passwort und E-Mail-Konto" und
+1. Ändern Sie Ihre E-Mail-Adresse unter "Einstellungen → Erweitert → Passwort und E-Mail-Konto" und
 geben Sie das Passwort Ihres neuen E-Mail-Konto (und ggf. die Servereinstellungen) ein.
 Sie erhalten einen Hinweis darauf, dass Sie zu einer neuen E-Mail-Adresse umziehen. 
 Ein zusätzlicher Hinweis erscheint auch in Ihrem Chat "Systemnachrichten".
@@ -826,7 +826,7 @@ Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/de
 
 In der Standardeinstellung zeigt Delta Chat alle E-Mails an.
 
-Unter "Einstellungen / Chats und Medien / Normale E-Mails anzeigen" können Sie dies ändern. Sie haben die folgenden Optionen:
+Unter "Einstellungen → Erweitert → Normale E-Mails anzeigen" können Sie dies ändern. Sie haben die folgenden Optionen:
 
 - "Nein, nur Chats": Es werden die von anderen Delta-Chat-Benutzern gesendeten Nachrichten sowie alle Antworten auf Ihre Nachrichten angezeigt. Dies ist sinnvoll, wenn Sie das gleiche E-Mail-Konto noch mit einer anderen E-Mail-App bearbeiten.
 - "Alle": Delta Chat zeigt alle E-Mails an, die an Ihre E-Mail-Adresse gesendet werden. Dies ist sinnvoll, wenn Sie Delta Chat für alle Ihre E-Mails verwenden möchten, damit keine Nachricht verloren geht. Dies ist die Standardeinstellung.
