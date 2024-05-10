@@ -55,9 +55,8 @@ correspondente use a mesma app que ti, ao contrario de outras mensaxerías.
 
 <h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
 
-You can easily work with additional accounts on Delta Chat mobile and desktop clients by clicking either:
-- on the menu button and then 'Switch Account' (Android and desktop)
-- or the profile icon and then 'Add Account' (iOS)
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 You may also wish to learn [how to add accounts to multiple devices](#multiclient).
 
@@ -1064,7 +1063,7 @@ put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
 folder because this would mean uploading a message twice (once through SMTP,
 and once through IMAP to Sent folder).
 
-The default setting for copy-to-self is "no".
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Why can I choose to watch the "Sent" folder?

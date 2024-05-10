@@ -50,9 +50,8 @@ destinatario instale la misma aplicación que usted, como ocurre con otros mensa
 
 <h3 id="multiple-accounts">¿Cómo puedo agregar o cambiar entre múltiples cuentas?</h3>
 
-Puedes trabajar fácilmente con cuentas adicionales en los clientes móviles y de escritorio de Delta Chat haciendo clic en cualquiera de las siguientes opciones: 
-- en el botón de menú y luego en 'Cambiar cuenta' (Android y escritorio) 
-- o en el icono de perfil y luego en 'Agregar cuenta' (iOS)
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 También puedes desear aprender [cómo agregar cuentas a múltiples dispositivos](#multiclient).
 
@@ -999,7 +998,7 @@ Enviar una copia de sus mensajes a usted mismo asegura que recibirá sus propios
 
 La copia se envía a la bandeja de entrada y luego se mueve a la carpeta DeltaChat; no se coloca en la carpeta "Enviados". Delta Chat *nunca* carga nada en la carpeta Enviados porque esto significaría cargar un mensaje dos veces (una a través de SMTP y otra a través de IMAP en la carpeta Enviados).
 
-La configuración predeterminada para "Enviar autocopia" es "no".
+The default setting for "Send Copy to Self" is "on".
 
 
 ### ¿Por qué puedo elegir monitorear la carpeta "Enviados"?

@@ -53,9 +53,8 @@ Oui. En plus du texte brut, toutes les pièces jointes aux courriels sont affich
 
 <h3 id="multiple-accounts">Comment naviguer entre plusieurs comptes et comment en ajouter ?</h3>
 
-Vous pouvez facilement gérer des comptes supplémentaires sur les clients Delta Chat mobile ou de bureau en cliquant :
-- soit sur le bouton du menu, puis sur "Changer de compte" (Android et PC) ;
-- soit sur l'icône de profil, puis sur "Ajouter un compte" (iOS).
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 Peut-être voudrez-vous aussi savoir [comment ajouter un compte sur plusieurs appareils](#multiclient).
 
@@ -953,7 +952,7 @@ Envoyer une copie de vos messages à vous-même garantit que vous recevez vos pr
 
 La copie est envoyée dans la Boîte de réception puis déplacée dans le dossier DeltaChat; elle n'est pas mise dans le dossier “Envoyés”. Delta Chat ne téléverse jamais quelque chose dans le dossier Envoyés car ça signifierait de le téléverser deux fois (une fois via SMTP, puis une fois dans le dossier Envoyés via IMAP).
 
-Le paramètre par défaut pour l'envoi à soi-même est "Non".
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Pourquoi puis-je choisir de regarder le dossier “Envoyés”? 

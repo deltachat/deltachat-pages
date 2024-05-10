@@ -55,9 +55,8 @@ e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tje
 
 <h3 id="multiple-accounts">Si mund të shtoj shumë llogari, ose të kaloj nga njëra te tjetra?</h3>
 
-Mundeni të punoni kollaj me llogari shtesë në klientët Delta Chat për celular dhe desktop, duke klikuar:
-- mbi butonin e menusë dhe mandej “Ndërroni Llogari” (Android dhe desktop)
-- ose mbi ikonën e profilit dhe mandej “Shtoni Llogari” (iOS)
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 Mundet edhe të doni të mësoni [si të shtoni llogari në pajisje të shumta](#multiclient).
 
@@ -1074,7 +1073,7 @@ te dosja "Të dërguar". Delta Chat-i nuk ngarkon *kurrë* ndonjë gjë te dosja
 Të dërguar, ngaqë kjo do të thoshte ngarkim dy herë të një mesazhi (një herë
 përmes SMTP-s, dhe një herë përmes IMAP-it në dosjen Të dërguar).
 
-Parazgjedhja për rregullimin dërgoja-vetes është "jo".
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Pse mund të zgjedh të vëzhgoj dosjen "Të dërguar"?

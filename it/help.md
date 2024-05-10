@@ -55,9 +55,8 @@ messaggi da questa persona, prendete in considerazione la possibilità di *blocc
 
 <h3 id="multiple-accounts">Come posso aggiungere o passare da un account all'altro?</h3>
 
-Puoi facilmente lavorare con account aggiuntivi sui client mobili e desktop di Delta Chat facendo clic su:
-- sul pulsante del menu e poi su "Cambia Account" (Android e desktop)
-- o l'icona del profilo e poi 'Aggiungi account' (iOS)
+Tocca l'immagine del profilo nell'angolo in alto a sinistra per **cambiare account**.
+Qui troverai anche **Aggiungi Account**.
 
 Potresti anche voler imparare [come aggiungere account a più dispositivi](#multiclient).
 
@@ -273,9 +272,9 @@ Condividi l'immagine QR con l'altra parte di persona o tramite un secondo canale
 
 - Tocca "OK".
 
-If the QR code scanning doesn't work in your situation,
-you can also **Share** (or **Copy to Clipboard**) an equivalent invite link
-to the other person through a second channel.
+Se la scansione del codice QR non funziona nella tua situazione,
+puoi anche **Condividere** (o **Copiare negli Appunti**) un link di invito equivalente
+all'altra persona attraverso un secondo canale.
 
 **Sia Invitante che Invitato**:
 
@@ -640,8 +639,8 @@ Per altri programmi, dovresti essere in grado di trovare una soluzione online.
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 
-The Delta Chat project underwent four independent security audits and one
-independent security analysis, from most recent to older: 
+Il progetto Delta Chat è stato sottoposto a quattro controlli di sicurezza indipendenti e
+un'analisi di sicurezza indipendente, dal più recente al più vecchio:
 
 - Marzo 2024, abbiamo ricevuto un'analisi approfondita della sicurezza dalla Crittografia Applicata
 gruppo di ricerca dell'ETH di Zurigo e ha affrontato tutte i problemi emersi.
@@ -1051,7 +1050,7 @@ messa nella cartella "Inviata". Delta Chat *non* carica mai nulla su Posta
 Inviata perché questo significherebbe caricare un messaggio due volte (una volta tramite SMTP,
 e una volta tramite IMAP nella cartella Posta Inviata).
 
-L'impostazione predefinita per la copia su se stesso è "no".
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Perché posso scegliere di guardare la cartella "Inviata"?

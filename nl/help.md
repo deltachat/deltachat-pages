@@ -56,9 +56,8 @@ per se dezelfde app te gebruiken als jij zoals bij andere chatapps.
 
 <h3 id="multiple-accounts">Hoe kan ik wisselen van account?</h3>
 
-Je kunt meerdere accounts toevoegen, zowel in de mobiele als computerapp:
-- Via de menuknop → ‘Ander account’ (Android en computer);
-- Via je profielfoto → ‘Account toevoegen’ (iOS)
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 Lees ook [hoe je accounts aan meerdere apparaten toevoegt](#multiclient).
 
@@ -1048,7 +1047,7 @@ het verschijnt nooit in de map 'Verzonden'. Delta Chat werkt zo omdat het berich
 anders twee keer verstuurd zou worden (eenmaal middels smtp,
 en eenmaal middels imap naar de map ‘Verzonden’).
 
-Standaard is deze optie uitgeschakeld.
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Waarom kan ik kiezen om de map ‘Verzonden’ te controleren?

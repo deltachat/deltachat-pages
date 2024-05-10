@@ -49,9 +49,8 @@ instalować tej samej aplikacji co Twoja, tak jak w przypadku innych komunikator
 
 <h3 id="multiple-accounts">Jak mogę dodawać lub przełączać się między wieloma kontami?</h3>
 
-Możesz łatwo pracować z dodatkowymi kontami na klientach mobilnych i stacjonarnych Delta Chat, klikając:
-- na przycisku menu, a następnie „Przełącz konto” (Android i komputer stacjonarny)
-- lub ikonę profilu, a następnie „Dodaj konto” (iOS)
+Tap the profile image in the upper left corner to **switch accounts**.
+You will also find **Add Account** there.
 
 Możesz także dowiedzieć się, [jak dodawać konta do wielu urządzeń](#multiclient).
 
@@ -641,7 +640,7 @@ Wysłanie kopii wiadomości do siebie zapewnia otrzymywanie własnych wiadomośc
 
 Kopia jest wysyłana do skrzynki odbiorczej, a następnie przenoszona do folderu DeltaChat; nie jest umieszczana w folderze „Wysłane”. Delta Chat nigdy nie przesyła niczego do folderu Wysłane, ponieważ oznaczałoby to dwukrotne przesłanie wiadomości (raz przez SMTP i raz przez IMAP do folderu Wysłane).
 
-Domyślne ustawienie kopiowania do siebie to „nie”.
+The default setting for "Send Copy to Self" is "on".
 
 
 ### Po co mam wybrać opcję oglądania folderu „Wysłane”?
