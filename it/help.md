@@ -897,10 +897,10 @@ In questo caso, Delta Chat non ha bisogno di guardare la Posta in arrivo ed è s
 
 ### Come posso cambiare il mio account con un indirizzo e-mail diverso?
 
-1. Change your address in “Settings → Advanced → Password and Account” and
-   enter the password of your new account (and if necessary, server settings).
-   You will get an information notice about the fact that you are moving to a new address. 
-   An additional notice will also show up in your "Device messages" chat. 
+1. Cambia il tuo indirizzo in “Impostazioni → Avanzate → Password e Account” e
+   inserisci la password del tuo nuovo account (e se necessario, le impostazioni del server).
+   Riceverai un avviso informativo sul fatto che ti trasferirai ad un nuovo indirizzo.
+   Un ulteriore avviso verrà visualizzato anche nella chat "Messaggi del dispositivo".
 
 2. Se possibile, lascia che il tuo vecchio provider e-mail inoltri tutti i messaggi al tuo nuovo indirizzo.
 
@@ -999,8 +999,8 @@ problema per molte app legittime. Per ulteriori informazioni, vedi
 
 Per impostazione predefinita, Delta Chat mostra tutte le e-mails.
 
-At "Settings → Advanced → Show Classic E-Mails",
-you can change this. You have these options:
+In "Impostazioni → Avanzate → Mostra E-mail Classiche",
+puoi cambiarlo. Hai queste opzioni:
 
 - "No, solo chat": solo i messaggi inviati da altri utenti di Delta Chat e le "risposte a"
 vengono visualizzati i tuoi messaggi di Delta Chat. Questo ha più senso se usi lo stesso
@@ -1050,7 +1050,7 @@ messa nella cartella "Inviata". Delta Chat *non* carica mai nulla su Posta
 Inviata perché questo significherebbe caricare un messaggio due volte (una volta tramite SMTP,
 e una volta tramite IMAP nella cartella Posta Inviata).
 
-The default setting for "Send Copy to Self" is "on".
+L'impostazione predefinita per "Auto-invia Copia" è "attivato".
 
 
 ### Perché posso scegliere di guardare la cartella "Inviata"?
