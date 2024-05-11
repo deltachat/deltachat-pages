@@ -87,6 +87,7 @@ with [Transifex](https://www.transifex.com/delta-chat/delta-chat-pages/).
 To **update existing translations from** the Transifex server, 
 see the scripts in the `tools` folder.
 
+
 ### Initial setup
 
 - make sure `translate-toolkit` and `transifex-client` are installed
@@ -100,6 +101,7 @@ tx set --auto-remote https://www.transifex.com/projects/p/delta-chat-pages/
 sed -i s#translations/delta-chat-pages.verifiy-downloadspo#translations/delta-chat-pages.verify-downloadspo# .tx/config
 ```
 for more info see the comments in `./tools/t-dance.sh`.
+
 
 ### Add a new language
 
@@ -115,9 +117,11 @@ for more info see the comments in `./tools/t-dance.sh`.
   add a server-redirect, template is at
   <https://github.com/deltachat/sysadmin/blob/master/page/delta.chat/delta.chat>
 
+
 ### Update translations
 
 - run `./tools/t-dance.sh pull`
+
 
 ### Add a new page
 
@@ -130,6 +134,8 @@ for more info see the comments in `./tools/t-dance.sh`.
 - after merging, from master, run `./tools/t-dance push--do-this-only-from-master`
 
 - after that, you may want to give the file a meaningful name on Transifex
+  ("Dashboard / Delta Chat Website / Resources / en.po",
+  then in the upper right menu "Settings / Name" - leave "Slug" unchanged)
 
 
 ### Update _typos_ in sources
