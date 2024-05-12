@@ -1,9 +1,9 @@
 ---
-title: The e-mail messenger
+title: Delta Chat Homepage
 lang: en
 ---
 
-# Delta Chat is a unique decentralized messenger 
+# Delta Chat is a standards-based private messenger 
 
 <br>
 
@@ -11,9 +11,11 @@ lang: en
     💬 Reliable instant messaging with
        multi-profile and multi-device support
    <br/><br/>
+   💨 No number, email or data needed to use interoperable [chatmail servers](https://delta.chat/en/chatmail)
+   <br/><br/>
    🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
    <br/><br/>
-   🔒 Audited end-to-end encryption safe against network & server attacks
+   🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network & server attacks
    <br/><br/>
    👉 [FO](https://en.wikipedia.org/wiki/Free_software)[SS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 </span>
