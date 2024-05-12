@@ -11,7 +11,7 @@ lang: en
     💬 Reliable instant messaging with
        multi-profile and multi-device support
    <br/><br/>
-   💨 No number, email or data needed to use interoperable [chatmail servers](https://delta.chat/en/chatmail)
+   💨 No number, e-mail or data needed to use interoperable [chatmail servers](https://delta.chat/en/chatmail)
    <br/><br/>
    🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
    <br/><br/>
