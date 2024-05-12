@@ -3,15 +3,23 @@ title: The e-mail messenger
 lang: en
 ---
 
-# Delta Chat is a messaging app that works over e-mail 
+# Delta Chat is a unique decentralized messenger 
 
-💬 Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+<br>
 
-🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
+<span style="font-size: 1.5em">
+    💬 Reliable instant messaging with
+       multi-profile and multi-device support
+   <br/><br/>
+   🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
+   <br/><br/>
+   🔒 Audited end-to-end encryption safe against network & server attacks
+   <br/><br/>
+   👉 [FO](https://en.wikipedia.org/wiki/Free_software)[SS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+</span>
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
 
-# Available on mobile and desktop
+# Available on mobiles and desktop
 
 
 <div>
@@ -56,7 +64,5 @@ lang: en
 
 [Download](https://get.delta.chat){: .cta-button}
 
-[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
 
-Check out [user stories and voices](user-voices).
+
