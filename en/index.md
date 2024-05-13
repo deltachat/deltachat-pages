@@ -1,9 +1,9 @@
 ---
-title: Delta Chat Homepage
+title: Delta Chat, decentralized private messenger 
 lang: en
 ---
 
-# Delta Chat is a standards-based private messenger 
+# Delta Chat is a decentralized private messenger app
 
 <br>
 
