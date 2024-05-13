@@ -1,89 +1,89 @@
 ---
-title: Chatmail for instant, interoperable and privacy-preserving messaging
+titolo: Chatmail per messaggistica istantanea, interoperabile e rispettosa della privacy
 lang: it
 ---
 
 
-## What are chatmail servers?
+## Cosa sono i server di chatmail?
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="160" style="float:right;" />
 
-Chatmail servers are optimized for messaging with Delta Chat
-to provide a convenient, privacy-preserving and speedy user experience.
+I server di chatmail sono ottimizzati per la messaggistica con Delta Chat
+per fornire un'esperienza utente comoda, veloce e rispettosa della privacy.
 
-The Delta Chat project operates the default open-signup chatmail server
-at [nine.testrun.org](https://nine.testrun.org)
-which has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+Il progetto Delta Chat gestisce il server di chatmail con registrazione aperta predefinito
+su [nine.testrun.org](https://nine.testrun.org)
+che è rimasto stabile dall'[annuncio di Chatmail di dicembre 2023](https://delta.chat/en/2023-12-13-chatmail).
 
-In addition, there are **community-run chatmail servers - tap to join there instead of nine.testrun.org:**
+Inoltre, ci sono **server di chatmail gestiti dalla comunità: tocca per iscriverti lì invece che su nine.testrun.org:**
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users and has been stable since January 2024.
+- [mehl.cloud](https://mehl.cloud) è orientato agli utenti di lingua tedesca
+ed è stabile da gennaio 2024.
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking
-  users and has been stable since January 2024.
+- [mailchat.pl](https://mailchat.pl) è orientato agli utenti di lingua polacca
+ed è stabile da gennaio 2024.
 
-- [bcc.chat](https://bcc.chat) operates in the US and has been
-  stable since February 2024.
+- [bcc.chat](https://bcc.chat) opera negli Stati Uniti ed è stato
+stabile da febbraio 2024.
 
-All chatmail servers are fully and securely interoperable with each other,
-and provide instant notifications to mobile users.
-
-
-## How are chatmail servers different from e-mail servers?
-
-Chatmail servers are minimal e-mail servers designed for speed, security and convenience:
-
-- **Convenience:** Onboard automatically in a few seconds and receive push notifications
-
-- **Privacy:** No questions asked, no name, numbers or e-mail needed
-
-- **Speed:** Message delivery in well under a second, end-to-end
-
-- **Reliability:** No annoying spam-checking or rate-limits
-
-- **Security:** Outbound messages are required to be end-to-end encrypted,
-  incoming messages are strictly checked for authenticity.
+Tutti i server chatmail sono completamente sicuri e interoperabili tra loro,
+e forniscono notifiche istantanee agli utenti di dispositivi mobili.
 
 
-## Can i also use a regular e-mail server instead?
+## In cosa differiscono i server chatmail dai server e-mail?
 
-Yes, many users successfully use regular e-mail servers
-especially if they want to handle their regular e-mail communications with Delta Chat.
-See the [provider database](https://providers.delta.chat) for options.
-Note that Delta Chat has multi-account support so
-it's fine to have one account configured with your regular e-mail address,
-and another account for chatting.
+I server chatmail sono server e-mail minimi progettati per velocità, sicurezza e comodità:
 
+- **Convenienza:** Imbarco automatico in pochi secondi e ricezione di notifiche push
 
-## How trustable are chatmail servers?
+- **Riservatezza:** nessuna domanda, nessun nome, numero o e-mail necessaria
 
-Each chatmail server provides additional privacy information on their web page.
-Typically, a chatmail server only processes encrypted messages and
-implements automatic, unconditional message deletion after at most 40 days.
+- **Velocità:** Consegna dei messaggi in meno di un secondo, end-to-end
 
-Delta Chat provides [guaranteed end-to-end encryption](https://delta.chat/en/2023-11-23-jumbo-42)
-which means that in most use cases, server operators can never read your messages even if they try,
-a guarantee backed up by a recent [security analysis from ETH Zuerich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
+- **Affidabilità:** Nessun fastidioso controllo dello spam o limiti di velocità
+
+- **Sicurezza:** I messaggi in uscita devono essere crittografati end-to-end,
+i messaggi in arrivo vengono rigorosamente controllati per verificarne l'autenticità.
 
 
-## How are chatmail servers run?
+## Posso utilizzare anche un normale server e-mail?
 
-All chatmail servers are automatically deployed and updated using
-[the public chatmail development repository](https://github.com/deltachat/chatmail).
-Chatmail servers are composed of proven standard e-mail server components,
-[Postfix](https://postfix.org) and [Dovecot](https://dovecot.org),
-and configured to run unattended and to require very low maintenance effort.
-Chatmail servers happily run on low-end hardware like a Raspberry Pi.
+Sì, molti utenti utilizzano con successo i normali server e-mail
+soprattutto se desiderano gestire le normali comunicazioni e-mail con Delta Chat.
+Consulta il [database dei fornitori](https://provviders.delta.chat) per le opzioni.
+Tieni presente che Delta Chat supporta quindi più account
+va bene avere un account configurato con il tuo normale indirizzo e-mail,
+e un altro account per chattare.
 
 
-# How are chatmail servers funded?
+## Quanto sono affidabili i server  chatmail?
 
-Chatmail servers are designed to be very cheap to run,
-and they are generally self-funded by the operators.
-Please see the front page of each chatmail server for further information.
+Ciascun server chatmail fornisce ulteriori informazioni sulla privacy nella propria pagina web.
+In genere, un server chatmail elabora solo messaggi crittografati e
+implementa la cancellazione automatica e incondizionata dei messaggi dopo un massimo di 40 giorni.
 
-To support chatmail development and the running of the default onboarding server
-you are very welcome to chip in.
+Delta Chat fornisce [crittografia end-to-end garantita](https://delta.chat/en/2023-11-23-jumbo-42)
+il che significa che nella maggior parte dei casi d'uso, gli operatori dei server non potranno mai leggere i tuoi messaggi anche se ci provano,
+una garanzia supportata da una recente [analisi di sicurezza dell'ETH di Zurigo](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
+
+
+## Come vengono gestiti i server chatmail?
+
+Tutti i server chatmail vengono distribuiti e aggiornati automaticamente utilizzando
+[il repository pubblico di sviluppo di chatmail](https://github.com/deltachat/chatmail).
+I server chatmail sono composti da componenti server e-mail standard comprovati,
+[Postfix](https://postfix.org) e [Dovecot](https://dovecot.org),
+e configurato per funzionare incustodito e per richiedere uno sforzo di manutenzione molto basso.
+I server chatmail funzionano felicemente su hardware di fascia bassa come un Raspberry Pi.
+
+
+# Come vengono finanziati i server chatmail?
+
+I server chatmail sono progettati per essere molto economici da gestire,
+e sono generalmente autofinanziati dagli operatori.
+Per ulteriori informazioni, consultare la prima pagina di ciascun server chatmail.
+
+Per supportare lo sviluppo di chatmail e il funzionamento del server di imbarco predefinito
+sei il benvenuto a partecipare.
 
 [Donate Soldi](donate){: .cta-button}
