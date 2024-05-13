@@ -1,5 +1,5 @@
 ---
-titolo: Chatmail per messaggistica istantanea, interoperabile e rispettosa della privacy
+title: Chatmail per messaggistica istantanea, interoperabile e rispettosa della privacy
 lang: it
 ---
 
