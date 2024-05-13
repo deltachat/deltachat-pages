@@ -40,11 +40,11 @@ lang: ru
 Следующие каналы связи, связанные с Delta Chat, управляются третьими лицами
 которые могут следовать или не следовать нашим [Стандартам сообщества](community-standards): 
 
-- English-speaking Delta Chat community group, you can join the group:
-  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
-  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [In Telegram](https://t.me/deltachat_community)
+- Англоязычная группа сообщества Delta Chat, вы можете присоединиться к группе:
+  * [В Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [В Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [В XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [В Telegram](https://t.me/deltachat_community)
 
 - Сообщество [Лемми](https://lemmy.zip/c/delta_chat)
   на которое вы можете подписаться введя `!delta_chat@lemmy.zip` 

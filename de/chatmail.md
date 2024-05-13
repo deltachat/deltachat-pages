@@ -21,7 +21,7 @@ Weitere, von der **Community betriebene Chatmail-Server - zum Verwenden antippen
 
 - [bcc.chat](https://bcc.chat) wird in den USA betrieben und ist seit Februar 2024 stabil.
 
-Alle Chatmail-Server sind untereinander vollständig und sicher interoperabel und bieten Push-Benachrichtigungen für mobile Nutzer.
+Alle Chatmail-Server sind untereinander vollständig und sicher interoperabel und bieten Push-Benachrichtigungen für mobile Nutzer
 
 
 ## Was sind die Unterschiede zwischen Chatmail- und E-Mail-Servern?

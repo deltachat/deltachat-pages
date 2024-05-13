@@ -55,8 +55,8 @@ Delta Chat — это новое приложение для обмена мгн
 
 <h3 id="multiple-accounts">Как я могу добавить или сменить аккаунт?</h3>
 
-Tap the profile image in the upper left corner to **switch accounts**.
-You will also find **Add Account** there.
+Нажмите на изображение профиля в левом верхнем углу, чтобы **переключить учетные записи**.
+Там же вы найдете **Добавить учётную запись**.
 
 Возможно, вы также захотите узнать [как добавить учетные записи на несколько устройств](#multiclient).
 
@@ -77,51 +77,51 @@ You will also find **Add Account** there.
  новое устройство.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Могу ли я установить текст подписи/статус/девиз в Delta Chat? {#signature}
 
-Yes,
-you can do so under "Settings > Profile > Signature Text".
-Your contacts who use Delta Chat will see it
-when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Да,
+вы можете сделать это в разделе "Настройки > Профиль > Текст подписи".
+Ваши собеседники, использующие Delta Chat, увидят его
+когда будут просматривать ваши контактные данные.
+Для всех остальных,
+Он будет отображаться в виде подписи
+под текстом всех ваших сообщений.
 
 
-### What do Pinning, Muting and Archiving mean?
+### Что означают Прикрепить, Заглушить и Архивировать?
 
 Используйте эти инструменты чтобы организовать ваши чаты:
 
 - **Закрепленные чаты** всегда находятся наверху списка чатов. Вы можете использовать их чтобы быстро получать доступ к вашим любимым чатам или чтобы не забыть о важных вещах.
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **Заглушить чаты**, если не хотите получать звуки и уведомления от них. Заглушённые чаты остаются на месте, и вы также можете закрепить заглушённый чат.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  Archived chats remain accessible above the chat list or via search. 
+- **Архивировать чаты**, если не хотите больше видеть их в списке чатов.
+  Заархивированные чаты остаются доступными в списке чатов или через поиск. 
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- Когда в архивированный чат приходит новое сообщение, если он не отключен, он **выходит из архива** и возвращается в ваш список чатов.
+  **Заглушённые чаты остаются в архиве** до тех пор, пока вы не разархивируете их вручную.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+Чтобы заархивировать или закрепить чат, нажмите на него долгим нажатием (Android), воспользуйтесь меню чата (Android/Desktop) или проведите пальцем влево (iOS);
+чтобы заглушить чат, воспользуйтесь меню чата (Android/Desktop) или профиль чата (iOS).
 
 
 ### Что означает зеленая точка?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
+- Начиная с версии Delta Chat 1.34 вы можете иногда видеть "зеленую точку" рядом с аватаром
+  контакта. Это означает, что они были "недавно замечены".
+- Подробнее: это значит, что за последние 10 минут Delta Chat видел их:
+  - либо потому, что они написали вам прямое сообщение,
+  - потому что они написали что-то в группу, в которой вы обое состоите,
+  - потому что они отправили вам подтверждения о прочтении сообщения, которое вы написали,
+  - или потому, что они отправили данные в ваше приложение Delta Chat, используя
     [webxdc app](#webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+- Таким образом, это не онлайн-статус в реальном времени - и если кто-то не отвечает
+  сразу, даже если кажется, что он в сети, не волнуйтесь и дайте ему немного
+  пространства ;-)
+- С другой стороны, другие не всегда будут "видеть, что вы в сети". Если вы
+  отключены подтверждения о прочтении, они не увидят зеленую точку, пока вы не
+  пока вы не напишете им сообщение или не напишете в группу, в которой они тоже находятся.
 
 
 ### Как работают исчезающие сообщения? {#ephemeralmsgs}
@@ -142,16 +142,16 @@ to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS
 как в каждой учетной записи электронной почты на сервере,
 и в самом приложении.
 
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can take photos,
-or otherwise save, copy or forward messages before deletion.
+Обратите внимание, что на исчезающие сообщения можно полагаться
+только до тех пор, пока вы доверяете своим собеседникам;
+злонамеренные собеседники могут делать фотографии,
+или иным образом сохранить, скопировать или переслать сообщения перед удалением.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the messages will not get deleted from their email account.
-They will most likely also not be decryptable anymore
-(as long as they were encrypted in the first place).
+Кроме того,
+если один из партнеров по чату удалит Delta Chat,
+сообщения не будут удалены из его почтового ящика.
+Скорее всего, их также нельзя будет расшифровать.
+(при условии, что они были зашифрованы изначально).
 
 
 ## Группы
@@ -202,14 +202,14 @@ They will most likely also not be decryptable anymore
   автоматически удалять старые, уже полученные сообщения на сервере.
   Они по-прежнему остаются на вашем устройстве, пока вы не удалите их там же.
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- Чтобы включить эту функцию, перейдите в раздел **Удаление старых сообщений → Удаление сообщений с сервера**
+  в настройках "Чаты и медиа".
+  Вы можете установить срок между "Сразу" и "Через 1 год".
+  По истечении этого срока все сообщения, полученные Delta Chat, будут удалены с сервера.
 
-- Note that if you use Delta Chat on more than one device,
-  you need to leave the message on the server with a sufficient timeframe
-  so that the other device(s) can download them, too.
+- Обратите внимание, что если вы используете Delta Chat на нескольких устройствах,
+  необходимо оставлять сообщения на сервере с достаточным временным интервалом.
+  чтобы другие устройства тоже смогли их загрузить.
 
 
 ### Что произойдет, если я включу функцию "Удалять старые сообщения с устройства"? {#delold}
@@ -461,29 +461,29 @@ which contain exactly one encrypted and signed part,
 as defined by the Autocrypt Level 1 specification. 
 
 
-### Is a message exposed in cleartext if end-to-end encryption is not available? {#tls}
+### Выдается ли сообщение в открытом виде, если сквозное шифрование недоступно? {#tls}
 
-Even if your messages are not guaranteed to be end-to-end encrypted, 
-they are still protected from Internet providers like cell or cable companies. 
-However, your and your recipient's e-mail providers 
-may read, analyze or even modify your messages, 
-including any attachments,
-if they are not end-to-end encrypted. 
+Даже если не гарантируется сквозное шифрование ваших сообщений, 
+они все равно защищены от интернет-провайдеров, таких как сотовые или кабельные компании. 
+Однако провайдеры электронной почты, как ваши, так и ваших получателей 
+могут читать, анализировать или даже изменять ваши сообщения, 
+включая любые вложения,
+если они без сквозного шифрования. 
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your e-mail provider. 
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's e-mail provider
-will typically be transport-encrypted as well.
-If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between e-mail providers 
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+Delta Chat по умолчанию использует строгое 
+[TLS-шифрование](https://ru.wikipedia.org/wiki/TLS) 
+которое защищает соединения между вашим устройством и поставщиком электронной почты. 
+Вся обработка TLS в Delta Chat прошла независимый [аудит безопасности](#security-audits).
+Более того, соединение между вашим устройством и поставщиком электронной почты получателя
+как правило, также шифруется транспортом.
+Если задействованные серверы электронной почты поддерживают [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
+то между провайдерами электронной почты будет применяться транспортное шифрование 
+В этом случае сообщения Delta Chat никогда не будут открыты для Интернета в открытом виде
+даже если сообщение без сквозного шифрования.
 
-Note that [maintaining guaranteed end-to-end encryption](#howtoe2ee) on top of TLS encryption 
-provides pervasive safety between your and the recipient's devices.
-Not even your e-mail or Internet provider will be able to read or modify your messages. 
+Обратите внимание, что [поддержание гарантированного сквозного шифрования](#howtoe2ee) поверх шифрования TLS 
+обеспечивает повсеместную безопасность между вашими устройствами и устройствами получателя.
+Даже ваш провайдер электронной почты или Интернета не сможет прочитать или изменить ваши сообщения. 
 
 
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
@@ -713,35 +713,35 @@ both **devices are completely independent.**
 One device is not needed for the other to work.
 
 
-### Troubleshooting
+### Устранение неполадок
 
-- Double-check both devices are in the **same Wi-Fi or network**
+- Перепроверьте, что оба устройства находятся в **на одном Wi-Fi или сети**.
 
-- On **Windows**, go to **Control Panel / Network and Internet**
-  and make sure, **Private Network** is selected as "Network profile type"
-  (after transfer, you can change back to the original value)
+- В **Windows** перейдите в **Панель управления / Сеть и Интернет**
+  и убедитесь, что в качестве "Типа сетевого профиля" выбрана **Частная сеть**.
+  (после переноса можно вернуть исходное значение)
 
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
+- В вашей системе может быть установлен "персональный брандмауэр",
+  который, как известно, вызывает проблемы (особенно в Windows).
+  **Отключите персональный брандмауэр** для Delta Chat на обоих сторонах и попробуйте снова
 
-- **Guest Networks** may not allow devices to communicate with each other.
-  If possible, use a non-guest network.
+- **Гостевые сети** не позволяют устройствам взаимодействовать друг с другом.
+  По возможности используйте сеть не для гостей.
 
-- Ensure there is **enough storage** on the destination device
+- Убедитесь, что на устройстве имеется **достаточно хранилища**.
 
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+- Если передача началась, убедитесь, что устройства **остаются активными** и не засыпают.
+  Не выходите из Delta Chat.
+  (мы стараемся сделать так, чтобы приложение работало в фоновом режиме, но [системы склонны убивать приложения](https://dontkillmyapp.com), к сожалению)
 
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple accounts per device, just [add another account](#multiple-accounts)
+- Delta Chat **уже вошел в систему** на целевом устройстве?
+  Вы можете использовать несколько учётных записей на одном устройстве, просто [добавьте еще одну учётную запись](#multiple-accounts)
 
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+- Если у вас все еще возникают проблемы или вы **не можете отсканировать QR-код**
+  попробуйте воспользоваться **ручной передачей**, описанной ниже
 
 
-### Manual Transfer {#backup}
+### Ручная передача {#backup}
 
 This method is only recommended if "Add Second Device" as described above does not work.
 
@@ -770,35 +770,34 @@ This method is only recommended if "Add Second Device" as described above does n
 [get.delta.chat](https://get.delta.chat).
 
 
-## webxdc apps {#webxdc}
+## Приложения webxdc {#webxdc}
 
-In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger.
-
-
-### How private are webxdc apps?
-
-- webxdc apps can not send data to the Internet, or download anything.
-- A webxdc app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a webxdc app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open webxdc apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+В Delta Chat вы можете делиться [webxdc-приложениями](https://webxdc.org), вложениями с расширением файла `.xdc`. Они могут делать совершенно разные вещи и делают Delta Chat по-настоящему
+расширяемым мессенджером.
 
 
-### Where can I get webxdc apps?
+### Насколько приватными являются приложения webxdc?
 
-- In general, anyone can share webxdc apps with each
-  other without restrictions.
-- You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
-  to see an experimental webxdc appstore.
-  All of the apps are open source and for free.
-- Many people write their own webxdc apps and post them to [the Delta Chat
-  forum](https://support.delta.chat/c/webxdc/20).
+- Приложения webxdc не могут отправлять данные в Интернет или скачивать что-либо.
+- Приложение webxdc может обмениваться данными только в чате Delta Chat, причем его
+  копиями на устройствах ваших партнеров по чату. В остальном оно полностью
+  изолировано от Интернета.
+- Конфиденциальность, которую обеспечивает приложение webxdc, - это конфиденциальность вашего чата: пока вы
+  вы доверяете людям, с которыми общаетесь, вы можете доверять и приложению webxdc.
+- Это также означает, что открытие приложений webxdc в чатах, где
+  вы не доверяете участникам - как это происходит с вложениями электронной почты, когда 
+  вы открываете вложения только от тех отправителей, которым доверяете, а не от спамеров.
+
+
+### Где я могу взять приложения webxdc?
+
+- В общем, все желающие могут делиться друг с другом приложениями webxdc
+  друг с другом без ограничений.
+- Вы можете [послать сообщение 'hi' на xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
+  чтобы посмотреть на экспериментальный магазин приложений webxdc.
+  Все приложения с открытым исходным кодом и бесплатны.
+- Многие люди пишут свои собственные приложения для webxdc и публикуют их на [форуме Delta Chat
+  форуме](https://support.delta.chat/c/webxdc/20).
 
 
 ### How can I create my own webxdc apps?
@@ -812,27 +811,26 @@ extendable messenger.
   Forum](https://support.delta.chat/c/webxdc/20).
 
 
-## Experimental Features
+## Экспериментальные возможности
 
 We are very grateful for feedback on these features - do you want to share
 your ideas? Join the [Forum](https://support.delta.chat) to contribute. 
 You may conveniently login via Delta Chat and a QR code scan,
 another rather stable experiment we run on the side (sic!).
 
-### How can I use audio/video calls with Delta Chat?
+### Как использовать аудио и видео звонки в Delta Chat?
 
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "Video Chat Instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to the video chat. 
-  This way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+- Чтобы включить аудио/видео звонки, перейдите в раздел "Экспериментальные возможности" в
+  расширенных настройках и выберите "Сервер видеочата". 
+- Когда вы приглашаете других в видеочат, он сразу открывается в вашем браузере/приложении. Остальные получают электронное письмо со ссылкой на видеочат. 
+  Таким образом, видеочат можно использовать и в том случае, если ваши собеседники не пользуются Delta Chat.
+- Обратите внимание, что на другой стороне нет звука звонка, и ваши собеседники
+  не будут прерваны приглашением в видеочат.
+- Вы можете использовать любой сервис видеочата, который позволяет присоединиться по ссылке. Просто добавьте
+  ссылку в настройках.
+- Например, чтобы использовать сервер Jitsi Meet, вы можете ввести
+  `https://meet.jit.si/$ROOM`. Переменная `$ROOM` будет случайным идентификатором комнаты;
+  Таким образом, каждый раз, когда вы будете кого-то вызывать, у вас будет новая случайная комната Jitsi.
 
 
 ### What are Broadcast Lists and how can I use them?
@@ -852,7 +850,7 @@ dialog.
   consumption reason).
 
 
-### How can I share my location with my chat partners?
+### Как я могу поделиться своим местоположением с партнерами по чату?
 
 - You can turn on location streaming in the "experimental features" section of
   the advanced settings.
@@ -873,7 +871,7 @@ dialog.
   a message, but also appears on the map.
 
 
-### What does the experimental database encryption actually protect?
+### Что на самом деле защищает экспериментальное шифрование базы данных?
 
 - Right now, the database encryption is still very experimental. Don't rely on
   it for protection, you should additionally use encryption of your operating
@@ -889,7 +887,7 @@ dialog.
   platforms.
 
 
-### Why can I choose to only watch the DeltaChat folder?
+### Почему я могу выбрать слежение только папки DeltaChat?
 
 Это экспериментальная функция для некоторых людей, которые экспериментируют с
 правилами на стороне сервера. Не все провайдеры поддерживают это, но с некоторыми вы можете переместить
@@ -904,7 +902,7 @@ Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
 In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
 
 
-### How can I change my account to a different e-mail address?
+### Как я могу изменить свою учётную запись на другой адрес e-mail?
 
 1. Change your address in “Settings → Advanced → Password and Account” and
    enter the password of your new account (and if necessary, server settings).
@@ -966,7 +964,7 @@ it](https://delta.chat/en/2022-09-14-aeap).
   смотрите [Обзор провайдеров](https://providers.delta.chat)
 
 
-### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+### Я хочу управлять собственным сервером электронной почты для Delta Chat. Что вы посоветуете?
 
 - Most mail servers will work well. But what we personally recommend is a
   combination of mailcow and mailadm, as described [in this
@@ -1032,22 +1030,22 @@ Yes, incoming HTML messages come with a "Show full message" button.
 Outgoing messages always use plain text.
 
 
-### Can I set the E-Mail Subject with Delta Chat?
+### Могу ли я установить тему письма в Delta Chat?
 
-Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
-automatically to  the group name or to the sender name.
+Delta Chat устанавливает (и [шифрует](#message-metadata)!) тему классического письма
+автоматически к названию группы или имени отправителя.
 
-So if you want to set the subject yourself,
-for example for a formal e-mail to a business contact,
-you can create a group
-with only yourself and the recipient(s).
-Set the Chat Title to the Subject you want,
-and then send your e-mail as the first message.
-If the recipients don't use Delta Chat,
-it will look like a normal,
-formal e-mail to them.
-You will get bonus professionalism points
-if you set a [signature text](#signature).
+Поэтому, если вы хотите задать тему самостоятельно,
+например, для официального письма деловому контакту,
+вы можете создать группу
+в которой будут только вы и получатель.
+Установите в заголовке чата нужную тему,
+а затем отправьте свое письмо первым сообщением.
+Если получатели не используют Delta Chat,
+оно будет выглядеть как обычное,
+официальное письмо.
+Вы получите бонусные очки профессионализма
+если вы установите [текст подписи](#signature).
 
 
 ### Для чего нужен параметр "Отправить копию себе"?
@@ -1062,7 +1060,7 @@ if you set a [signature text](#signature).
 , потому что это означало бы загрузку сообщения дважды (один раз через SMTP
 и один раз через IMAP в папку Отправлено).
 
-The default setting for "Send Copy to Self" is "on".
+По умолчанию для параметра "Отправить копию себе" установлено значение "Включено".
 
 
 ### Для чего нужен параметр "следить за папкой Отправлено"?
@@ -1165,7 +1163,7 @@ Delta Chat не получает никакого венчурного капи�
   Receiving more donations also helps us to become more independent and long-term viable
   as a contributor community. 
 
-  [Donate Money](donate){: .cta-button}
+  [Пожертвовать деньги](donate){: .cta-button}
 
 - И последнее, но далеко не менее важное: несколько экспертов и энтузиастов на общественных началах внесли
  и вносят свой вклад в развитие Delta Chat, не получая денег, а только
@@ -1175,5 +1173,5 @@ Delta Chat не получает никакого венчурного капи�
 Упомянутые выше денежные сборы было организованы компанией merlinux GmbH в городе
 Фрайбург (Германия), и распределяются среди более чем дюжины участников по всему миру. 
 
-Please see [Delta Chat Contribution channels](contribute)
-for both monetary and and other contribution possibilities.  
+Пожалуйста, смотрите [Каналы пожертвований в Delta Chat](contribute)
+для денежных и других взносов.  
