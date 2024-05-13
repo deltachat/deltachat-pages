@@ -21,7 +21,7 @@ lang: en
 </span>
 
 
-# Available on mobiles and desktop
+# Available on mobile and desktop
 
 
 <div>
