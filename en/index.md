@@ -1,9 +1,9 @@
 ---
-title: Delta Chat, decentralized private messenger 
+title: Delta Chat, decentralized secure messenger 
 lang: en
 ---
 
-# Delta Chat is a decentralized private messenger app
+# Delta Chat is a decentralized & secure messenger app
 
 <br>
 
@@ -11,7 +11,7 @@ lang: en
     💬 Reliable instant messaging with
        multi-profile and multi-device support
    <br/><br/>
-   💨 No number, e-mail or data needed to use interoperable [chatmail servers](https://delta.chat/en/chatmail)
+   💨 Sign up to [secure & fast chatmail](chatmail) or use [traditional e-mail](https://providers.delta.chat/) servers
    <br/><br/>
    🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
    <br/><br/>
