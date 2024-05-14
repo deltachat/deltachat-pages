@@ -15,10 +15,6 @@ lang: en
 
 👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
-
-# Available on mobile and desktop
-
-
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
 <picture>
@@ -61,5 +57,6 @@ lang: en
 
 [Download](https://get.delta.chat){: .cta-button}
 
+Available on mobile and desktop.
 
 
