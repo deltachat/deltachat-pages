@@ -3,7 +3,7 @@ title: Delta Chat, decentralized secure messenger
 lang: en
 ---
 
-# Delta Chat is a decentralized & secure messenger app
+# Delta Chat is a decentralized and secure messenger app
 
 <br>
 
@@ -11,11 +11,11 @@ lang: en
     💬 Reliable instant messaging with
        multi-profile and multi-device support
    <br/><br/>
-   💨 Sign up to [secure & fast chatmail](chatmail) or use [traditional e-mail](https://providers.delta.chat/) servers
+   💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/) 
    <br/><br/>
    🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
    <br/><br/>
-   🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network & server attacks
+   🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
    <br/><br/>
    👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 </span>
