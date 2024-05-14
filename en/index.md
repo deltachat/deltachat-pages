@@ -3,7 +3,7 @@ title: Delta Chat, decentralized secure messenger
 lang: en
 ---
 
-# Delta Chat is a decentralized and secure messenger app
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
 💬 Reliable instant messaging with multi-profile and multi-device support
 

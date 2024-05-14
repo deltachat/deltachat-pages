@@ -84,6 +84,12 @@ body {
 	width: 100%;
 }
 
+/* larger font on homepage, may be removed or adapted whenever homepage changes */
+#homepage-heading ~ p {
+  font-size: 1.2em;
+  margin-top: 1.6em !important;
+  margin-bottom: 1.6em !important;
+}
 
 /* rough layout: desktop second 
 *******************************************************************************/
