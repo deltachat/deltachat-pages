@@ -1,18 +1,19 @@
 ---
-title: E-mail мессенджер
+title: Delta Chat, decentralized secure messenger 
 lang: ru
 ---
 
-# Delta Chat это месенджер который работает поверх электронной почты 
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
-💬 Пишите всем у кого есть адрес электронной почты [даже если они не пользуются Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Reliable instant messaging with multi-profile and multi-device support
 
-🥳 Наслаждайтесь интерактивным общением с помощью [приложений webxdc](https://webxdc.org).
+💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/)
 
-🔒 Сквозное шифрование с использованием протоколов [Autocrypt](https://autocrypt.org) и [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) прошедших [многочисленные аудиты безопасности](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 
-# Доступно для мобильных телефонов и настольных компьютеров
+🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +57,6 @@ lang: ru
 
 [Скачать](https://get.delta.chat){: .cta-button}
 
-[Открытое](https://ru.wikipedia.org/wiki/Открытое_программное_обеспечение)
-и [свободное ПО](https://ru.wikipedia.org/wiki/Свободное_программное_обеспечение), построеное на [стандартах Интернета](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+Available on mobile and desktop.
 
-Посмотрите [пользовательские истории и голоса](user-voices).
+

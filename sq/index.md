@@ -1,18 +1,19 @@
 ---
-title: Shkëmbyesi i mesazheve me email
+title: Delta Chat, decentralized secure messenger 
 lang: sq
 ---
 
-# Delta Chat është një aplikacion për shkëmbim mesazhesh që funksionon përmes email-i 
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
-💬 Shkëmbeni mesazhe me këdo që ka një adresë email [edhe kur nuk përdorin Delta Chat-in](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Reliable instant messaging with multi-profile and multi-device support
 
-🥳 Shijoni fjalosje me ndërveprim përmes [aplikacionesh webxdc](https://webxdc.org).
+💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/)
 
-🔒 Fshehtëzim Skaj-më-Skaj me përdorim të protokollove [Autocrypt](https://autocrypt.org) dhe [SecureJoin](https://securejoin.delta.chat/en/latest/new.html), me [auditime të shumta sigurie](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 
-# I përdorshëm në celular dhe desktop
+🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +57,6 @@ lang: sq
 
 [Shkarkojeni](https://get.delta.chat){: .cta-button}
 
-Me [Burim të Hapët](https://en.wikipedia.org/wiki/Open-source_software)
-dhe [Software e Lirë](https://en.wikipedia.org/wiki/Free_software), ndërtuar me [Standardet Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+Available on mobile and desktop.
 
-Shihni [shembuj dhe raste përdoruesish](user-voices).
+

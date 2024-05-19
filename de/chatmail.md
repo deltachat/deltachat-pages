@@ -21,6 +21,10 @@ Weitere, von der **Community betriebene Chatmail-Server - zum Verwenden antippen
 
 - [bcc.chat](https://bcc.chat) wird in den USA betrieben und ist seit Februar 2024 stabil.
 
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  is geared towards Italian speaking users and has been 
+  stable since May 2024. 
+
 Alle Chatmail-Server sind untereinander vollständig und sicher interoperabel und bieten Push-Benachrichtigungen für mobile Nutzer.
 
 

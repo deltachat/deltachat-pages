@@ -26,6 +26,10 @@ In addition, there are **community-run chatmail servers - tap to join there inst
 - [bcc.chat](https://bcc.chat) operates in the US and has been
   stable since February 2024.
 
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  is geared towards Italian speaking users and has been 
+  stable since May 2024. 
+
 All chatmail servers are fully and securely interoperable with each other,
 and provide instant notifications to mobile users.
 
