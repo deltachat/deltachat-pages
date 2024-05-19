@@ -1,18 +1,19 @@
 ---
-title: 电子邮件通信应用
+title: Delta Chat, decentralized secure messenger 
 lang: zh_CN
 ---
 
-# Delta Chat 是基于电子邮件的聊天软件 
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
-💬 向任意电子邮件地址发送消息，[即使他们不使用 Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70)。
+💬 Reliable instant messaging with multi-profile and multi-device support
 
-🥳 通过 [webxdc 应用](https://webxdc.org)，享受互动聊天体验。
+💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/)
 
-🔒 使用 [Autocrypt](https://autocrypt.org) 与 [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) 协议进行端到端加密，经过[多次安全审计](https://delta.chat/en/2023-03-27-third-independent-security-audit)。
+🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 
-# 在移动端与桌面端均可使用
+🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,6 +57,6 @@ lang: zh_CN
 
 [下载](https://get.delta.chat){: .cta-button}
 
-Delta Chat 是[开源](https://en.wikipedia.org/wiki/Open-source_software)的[自由软件](https://en.wikipedia.org/wiki/Free_software)，构建于[互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)之上。 
+Available on mobile and desktop.
 
-点击查看[用户故事与发言](user-voices)。
+

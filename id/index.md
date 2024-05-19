@@ -1,18 +1,19 @@
 ---
-title: The e-mail messenger
+title: Delta Chat, decentralized secure messenger 
 lang: id
 ---
 
-# Delta Chat adalah aplikasi perpesanan yang bekerja melalui email
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
-💬 Kirim pesan kepada siapa pun dengan alamat email [bahkan jika mereka tidak menggunakan Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Reliable instant messaging with multi-profile and multi-device support
 
-🥳 Nikmati pengalaman obrolan interaktif melalui [aplikasi webxdc](https://webxdc.org).
+💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/)
 
-🔒 Enkripsi Ujung-ke-Ujung menggunakan [Autocrypt](https://autocrypt.org) dan [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protokol, dengan [berbapai audit keamanan](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 
-# Tersedia di seluler dan desktop
+🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +57,6 @@ lang: id
 
 [Unduh](https://get.delta.chat){: .cta-button}
 
-[Sumber Terbuka](https://en.wikipedia.org/wiki/Open-source_software)
-dan [aplikasi gratis](https://en.wikipedia.org/wiki/Free_software), dibuat di atas [Standar Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+Available on mobile and desktop.
 
-Lihat [cerita dari para pengguna](user-voices).
+

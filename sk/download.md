@@ -6,32 +6,30 @@ downloads: true
 
 ![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
 
-## Denníky zmien {#changelogs}
-
-* [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
-* [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
-* [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
-* [Jadro](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
-
-Desktop verzia nevyžaduje Delta Chat na telefóne.
-
 Minimálne požiadavky:
 Android 4.1 Jelly Bean
 alebo iOS 12, iPhone 5s alebo iPad 5/Air/Mini 2
 alebo Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 alebo Debian 10
 alebo kompatibilné systémy.
 
-## Odkazy
+Desktop verzia nevyžaduje Delta Chat na telefóne.
 
-* [Databáza poskytovateľa](https://providers.delta.chat/): Spolupracuje môj poskytovateľ so službou Delta Chat?
-* [FAQ multiclient](help#multiclient): Ako synchronizovať počítač s inou aplikáciou Delta Chat.
-* [Overiť Stiahnuté Súbory](verify-downloads): Overte integritu prevzatých údajov
-* [Riešenie problémov na Desktope](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md): Riešenia bežných problémov s inštaláciou na Desktope.
 
-## Ukážka Verzií
+## Changelogs & More {#changelogs}
 
-* [Náhľad Desktopu]({% include desktop-previews-url %}): Čakajúce zmeny pre desktopových klientov
-* [Android Nightly](https://download.delta.chat/android/nightly/): Posledná kompilácia najnovšej verzie
-* [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS): Môže obsahovať ešte oficiálne nevydané verzie iOS
+- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+  [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
+  [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
+  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-Ukážkové verzie môžu obsahovať nové chyby a nemali by sa využívať k produktívnemu nasadeniu.
+- [Alternative Clients](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+
+- [Provider Database](https://providers.delta.chat/)
+
+- [Verify Downloads](verify-downloads)
+
+- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+
+- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+  [Android Nightlies](https://download.delta.chat/android/nightly/),
+  [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)

@@ -1,18 +1,19 @@
 ---
-title: E-mailový messenger
-lang: sk 
+title: Delta Chat, decentralized secure messenger 
+lang: sk
 ---
 
-# Delta Chat is a messaging app that works over e-mail 
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
-💬 Message anyone with an e-mail address [even if they don't use Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Reliable instant messaging with multi-profile and multi-device support
 
-🥳 Enjoy interactive chat experiences through [webxdc apps](https://webxdc.org).
+💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/)
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 
-# Available on mobile and desktop
+🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +57,6 @@ lang: sk
 
 [Download](https://get.delta.chat){: .cta-button}
 
-[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+Available on mobile and desktop.
 
-Check out [user stories and voices](user-voices).
+

@@ -1,18 +1,19 @@
 ---
-title: Il messenger di posta elettronica
+titolo: Delta Chat, messaggistica sicura decentralizzata
 lang: it
 ---
 
-# Delta Chat è un'app di messaggistica che funziona tramite e-mail
+# Delta Chat è un'app di messaggistica decentralizzata e sicura {#homepage-heading}
 
-💬 Invia messaggi a chiunque abbia un indirizzo e-mail [anche se non utilizzano Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Messaggistica istantanea affidabile con supporto multiprofilo e multidispositivo
 
-🥳 Goditi esperienze di chat interattive [webxdc apps](https://webxdc.org).
+💨 Iscriviti a [server di posta elettronica sicuri e veloci](chatmail) o utilizza [server e-mail tradizionali](https://providers.delta.chat/)
 
-🔒 Crittografia end-to-end utilizzando i protocolli [Autocrypt](https://autocrypt.org) e [SecureJoin](https://securejoin.delta.chat/en/latest/new.html), con [più controlli di sicurezza](https://delta.chat/en/2023-03-27-third-independent-security-audit).
+🥳 Interattive [App Web nelle chat](https://webxdc.org/) per giocare e collaborare
 
-# Disponibile su dispositivi mobili e desktop
+🔒 [Crittografia end-to-end controllata](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) sicura contro attacchi alla rete e al server
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, basato su [Standard Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitando [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +57,6 @@ lang: it
 
 [Scarica](https://get.delta.chat){: .cta-button}
 
-[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-e [Free Software](https://en.wikipedia.org/wiki/Free_software), costruito su [Standards Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+Disponibile su dispositivi mobili e desktop.
 
-Guarda [storie e voci degli utenti](user-voices).
+

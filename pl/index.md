@@ -1,18 +1,19 @@
 ---
-title: Komunikator e-mail
+title: Delta Chat, decentralized secure messenger 
 lang: pl
 ---
 
-# Delta Chat to aplikacja do przesyłania wiadomości, która działa przez e-mail
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
-💬 Wysyłaj wiadomości do każdego, kto ma adres e-mail, [nawet jeśli nie korzysta z Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Reliable instant messaging with multi-profile and multi-device support
 
-🥳 Korzystaj z interaktywnych czatów za pośrednictwem [aplikacji webxdc](https://webxdc.org).
+💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/)
 
-🔒 Szyfrowanie end-to-end z wykorzystaniem protokołów [Autocrypt](https://autocrypt.org) i [SecureJoin](https://securejoin.delta.chat/en/latest/new.html), z [wieloma audytami bezpieczeństwa](https://delta.chat/en/2023-03-27-third-independent-security-audit).
+🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 
-# Dostępny na urządzeniach mobilnych i stacjonarnych
+🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +57,6 @@ lang: pl
 
 [Pobierz](https://get.delta.chat){: .cta-button}
 
-[Otwarto źródłowe](https://en.wikipedia.org/wiki/Open-source_software)
-i [Wolne oprogramowanie](https://en.wikipedia.org/wiki/Free_software), oparte na [standardach internetowych](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md).
+Available on mobile and desktop.
 
-Sprawdź [historie i opowieści użytkowników](user-voices).
+

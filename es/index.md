@@ -1,18 +1,19 @@
 ---
-title: La app de mensajería por correo electrónico
+title: Delta Chat, decentralized secure messenger 
 lang: es
 ---
 
-# Delta Chat es una aplicación de mensajería que funciona con tu correo electrónico
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
-💬 Mensajea con cualquiera que tenga una cuenta de correo [inclusive si no usan Delta Chat](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Reliable instant messaging with multi-profile and multi-device support
 
-🥳 Disfruta de experiencias de chat interactivas [webxdc apps](https://webxdc.org).
+💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/)
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 
-# Disponible para smartphones y escritorio
+🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +57,6 @@ lang: es
 
 [Download](https://get.delta.chat){: .cta-button}
 
-[Open Source](https://en.wikipedia.org/wiki/Open-source_software)
-and [Free Software](https://en.wikipedia.org/wiki/Free_software), built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+Available on mobile and desktop.
 
-Fíjate [historias de usuarios y opiniones](user-voices).
+

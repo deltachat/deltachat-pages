@@ -1,18 +1,20 @@
 ---
-title: Dé e-mailchat-app
+title: Delta Chat, dé veilige, gedecentraliseerde berichtenapp 
 lang: nl
 ---
 
-# Met Delta Chat kun je chatten via e-mail
+# Delta Chat is een veilige, gedecentraliseerde berichtenapp {#homepage-heading}
 
-💬 Communiceer met iedereen die over een e-mailadres beschikt, [zelfs als ze geen Delta Chat gebruiken](https://www.youtube-nocookie.com/embed/8LbrGXKZN70).
+💬 Betrouwbare communicatie met ondersteuning voor meerdere accounts en apparaten
 
-🥳 Geniet van interactieve gesprekken met behulp van [webxdc-apps](https://webxdc.org).
+💨 Registreer een account op [veilige en snelle chatmailservers](chatmail) of maak gebruik van [traditionele e-mailservers](https://providers.delta.chat/)
 
-🔒 Eind-tot-eindversleuteling met behulp van [Autocrypt](https://autocrypt.org) en [SecureJoin](https://securejoin.delta.chat/en/latest/new.html), waarop [meerdere beveiligingscontroles](https://delta.chat/en/2023-03-27-third-independent-security-audit) zijn uitgevoerd. 
+🥳 Geniet van interactieve gesprekken met behulp van [webapps](https://webxdc.org/), bijvoorbeeld samen werken of gamen
 
-# Beschikbaar op telefoons, tablets en computers
+🔒 [Door onderzoek bewezen eind-tot-eindversleuteling](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), waardoor je beveiligd bent tegen netwerk- en serveraanvallen
 
+👉 [Opensource-](https://nl.wikipedia.org/wiki/Opensourcesoftware)
+en [vrije software](https://nl.wikipedia.org/wiki/Vrije_software), gebouwd op [internetstandaarden](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), dus geen last van [xkcd927](https://xkcd.com/927/). :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +58,6 @@ lang: nl
 
 [Downloaden](https://get.delta.chat){: .cta-button}
 
-[Open source](https://nl.wikipedia.org/wiki/Opensourcesoftware)
-en [vrije software](https://nl.wikipedia.org/wiki/Vrije_software), gebouwd op [internetstandaarden](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md). 
+Beschikbaar op telefoons, tablets en computers.
 
-📣 Bekijk ook [wat gebruikers en bedrijven over Delta Chat zeggen](user-voices).
+

@@ -1,18 +1,19 @@
 ---
-title: E-posta ulağı
+title: Delta Chat, decentralized secure messenger 
 lang: tr
 ---
 
-# Delta Chat, e-posta üzerinden çalışan bir iletileşme uygulamasıdır 
+# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
 
-💬 [Delta Chat kullanmıyorsa bile](https://www.youtube-nocookie.com/embed/8LbrGXKZN70) herhangi birine bir e-posta adresiyle ileti gönderin.
+💬 Reliable instant messaging with multi-profile and multi-device support
 
-🥳 [Webxdc uygulamaları](https://webxdc.org) aracılığıyla etkileşimli sohbet deneyimlerinin keyfini çıkarın.
+💨 Sign up to [secure fast chatmail servers](chatmail) or use [traditional e-mail servers](https://providers.delta.chat/)
 
-🔒 End-to-End Encryption using [Autocrypt](https://autocrypt.org) and [SecureJoin](https://securejoin.delta.chat/en/latest/new.html) protocols, with [multiple security audits](https://delta.chat/en/2023-03-27-third-independent-security-audit). 
+🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 
-# Mobilde ve masaüstünde kullanılabilir
+🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
 
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/blog/screenshots/2019-12-17-delta-chat-google-play-release-chat-list-light.png">
@@ -56,7 +57,6 @@ lang: tr
 
 [İndir](https://get.delta.chat){: .cta-button}
 
-[Açık Kaynak](https://en.wikipedia.org/wiki/Open-source_software)
-ve [Özgür Yazılım](https://en.wikipedia.org/wiki/Free_software), [Internet Standartlarında](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md) derlendi. 
+Available on mobile and desktop.
 
-[Kullanıcı hikayelerine ve düşüncelerine](user-voices) göz atın.
+

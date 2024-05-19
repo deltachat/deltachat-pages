@@ -25,6 +25,9 @@ Verder zijn er **chatmailservers van de gemeentschap. Druk om daar gebruik van t
 - [bcc.chat](https://bcc.chat) wordt beheerd vanuit de VS en is sinds
   februari 2024 stabiel verklaard.
 
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) is georiënteerd op Italiaanssprekenden
+  en is sinds mei 2024 stabiel verklaard.
+
 Alle chatmailservers werken onderling en zijn net zo veilig. Ook versturen alle
 servers pushmeldingen aan mobiele gebruikers.
 

@@ -23,6 +23,10 @@ lang: ru
 
 - [bcc.chat](https://bcc.chat) работает в США и стабильно работает с февраля 2024 года.
 
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  is geared towards Italian speaking users and has been 
+  stable since May 2024. 
+
 Все серверы chatmail полностью и безопасно взаимодействуют друг с другом,
 и обеспечивают мгновенные уведомления для мобильных пользователей.
 

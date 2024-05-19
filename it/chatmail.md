@@ -26,6 +26,10 @@ ed è stabile da gennaio 2024.
 - [bcc.chat](https://bcc.chat) opera negli Stati Uniti ed è stato
 stabile da febbraio 2024.
 
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  è rivolto agli utenti di lingua italiana ed è
+  stabile da Maggio 2024.
+
 Tutti i server chatmail sono completamente sicuri e interoperabili tra loro,
 e forniscono notifiche istantanee agli utenti di dispositivi mobili.
 

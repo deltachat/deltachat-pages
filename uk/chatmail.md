@@ -1,10 +1,10 @@
 ---
-title: Chatmail for instant, interoperable and privacy-preserving messaging
+title: Chatmail для миттєвого, сумісного та безпечного обміну повідомленнями
 lang: uk
 ---
 
 
-## What are chatmail servers?
+## Що таке сервери chatmail?
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="160" style="float:right;" />
 
@@ -25,6 +25,10 @@ In addition, there are **community-run chatmail servers - tap to join there inst
 
 - [bcc.chat](https://bcc.chat) operates in the US and has been
   stable since February 2024.
+
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  is geared towards Italian speaking users and has been 
+  stable since May 2024. 
 
 All chatmail servers are fully and securely interoperable with each other,
 and provide instant notifications to mobile users.
