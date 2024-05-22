@@ -53,12 +53,20 @@ recipient to install the same app as yours, as with other messengers.
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
-<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
 
-Tap the profile image in the upper left corner to **switch accounts**.
-You will also find **Add Account** there.
+### What are profiles? How can I switch between them? {#multiple-accounts}
 
-You may also wish to learn [how to add accounts to multiple devices](#multiclient).
+A profile is **a name, a picture** and some additional information for encrypting messages.
+A profile lives on your device(s) only
+and uses a chatmail or a classic e-mail server to transport messages.
+
+On first installation of Delta Chat a first profile is created.
+
+Later, you can tap you profile image in the upper left corner to **Add Profiles**
+or to **switch profiles**. Eg. you may want to have different profiles for your family, your hobbies or work.
+
+You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+
 
 ### Who sees my profile picture?
 
