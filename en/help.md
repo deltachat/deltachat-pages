@@ -8,17 +8,29 @@ header: Frequently Asked Questions
 
 ## What is Delta Chat?
 
-Delta Chat is a new chat app that sends messages via e-mails, encrypted if possible, with Autocrypt. 
-**You do not have to sign up anywhere, just use your existing e-mail account with Delta Chat.** 
+Delta Chat is a reliable, decentralized and secure messenging app, 
+available for mobile and desktop platforms. 
+Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
+You can signup anonymously to a variety of [chatmail servers](chatmail) 
+which are minimal e-mail servers optimized for fast and secure operations. 
+Or you can use classic e-mail servers and your existing e-mail account. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### How can I find people to chat with? 
 
-With Delta Chat, you can write to every existing e-mail address - even
-if the recipient is not using the Delta Chat app. No need for the
-recipient to install the same app as yours, as with other messengers.
+To securely setup contact with others [scan an invite QR code 
+or share an invite link](#howtoe2ee). 
+When creating a default Chat profile on a chatmail server
+you are required to use secure setup contact methods 
+because un-encrypted outgoing messages would be rejected. 
+
+If you create a Chat profile with a classic e-mail address 
+you may write a message to every existing e-mail address  
+even if the recipient is not using a Delta Chat app. 
+You may think then of Delta Chat as just another e-mail app
+and your recipients will receive it as a standard mail. 
 
 
 ### What are the advantages of Delta Chat compared to other messengers?
