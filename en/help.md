@@ -986,6 +986,33 @@ This is what Delta Chat does with these permissions:
   - ask to ignore battery optimisations: for users who want to receive messages all the time
 
 
+### Does Delta Chat support "Push notifications"?
+
+Yes, if you use [any chatmail server](chatmail),
+Delta Chat tries to make use of push services that are running on your device anyways.
+
+Some background:
+
+Push notifications are notifications that reliably reach the user's device
+even if the app is not actively being used for a while
+and [killed by the system](https://dontkillmyapp.com).
+
+Push notifications require the help of the server relaying messages pinging Apple, Google or [microG](https://microg.org).
+Fortunately, all chatmail server support exactly that.
+
+Note, that Delta Chat only makes use of Push notifications
+if your device is anyways connected to Apple, Google or microG server.
+As the push notification does not have any content,
+no additional information is leaked.
+
+If you are using an un-Googled device or a classic e-mail server,
+Delta Chat automatically does _not_ use push notifications
+and falls back to letting a background service run as good as possible.
+Fortunately, these un-Google devices are often more permissively,
+so that with the corresponding options enabled at "Settings / Notifications"
+even then you can get a reliable experience :)
+
+
 ### Does Delta Chat work with _my_ e-mail-provider?
 
 - With a rather good chance: Yes :)  
@@ -1016,21 +1043,6 @@ As Delta Chat is Open Source, you can check the [Source
 Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
 if you want to verify that your credentials are handled securely. We are happy
 about feedback which makes the app more secure for all of our users.
-
-
-### If Delta Chat uses E-Mail, is it really an _Instant_ Messenger?
-
-- Sending and receiving messages takes a few seconds, typically. Sometimes
-  there are cases where it takes longer but that is arguably true as well for
-  any other messenger.
-- Instant chatting works fast if both parties are actively using the app. It's
-  sometimes slower if the app is running in the background.
-- Receiving messages then can take minutes because both Android and iOS often
-  stop Delta Chat from running in the background, and only wake it up
-  occasionally. This artificial delay is usually worse on iOS than on Android.
-- However, Android and iOS kill apps running in the background is a
-  problem for many legitimate apps. For more information, see
-  [dontkillmyapp.com](https://dontkillmyapp.com/).
 
 
 ### Which messages do appear in Delta Chat?
