@@ -11,7 +11,7 @@ lang: en
 Chatmail servers are optimized for messaging with Delta Chat 
 to provide a privacy-preserving and speedy user experience, 
 securely interoperable with chatmail and classic e-mail servers. 
-Tap a chatmail server link to see the home page and then tap the QR invite code there: 
+**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
 
 - [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
   for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
@@ -30,7 +30,7 @@ Tap a chatmail server link to see the home page and then tap the QR invite code 
   stable since May 2024. 
 
 All chatmail servers are operated by different groups and people. 
-The `nine.testrun.org` default server is operated by core Delta Chat team members. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
 
 ## Can i also use a regular e-mail server instead of chatmail?
 
