@@ -8,8 +8,9 @@ header: Frequently Asked Questions
 
 ## What is Delta Chat?
 
-Delta Chat is a reliable, decentralized and secure messenging app, 
-available for mobile and desktop platforms. 
+Delta Chat is a reliable, decentralized and secure messaging app, 
+available for mobile and desktop platforms.
+
 Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
 You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
 which are minimal e-mail servers optimized for fast and secure operations. 
@@ -26,7 +27,7 @@ or share an invite link](#howtoe2ee).
 This is required when using a (default) chatmail-based chat profile 
 because chatmail servers reject un-encrypted outgoing messages.
 
-If you create a Chat profile with a classic e-mail address 
+If you create a chat profile with a classic e-mail address 
 you may manually create a contact if you know their e-mail address
 and then write a message to them 
 even if the recipient is not using Delta Chat.
@@ -41,7 +42,7 @@ even if the recipient is not using Delta Chat.
 
 - Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
 
-- [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) 
+- [Audited end-to-end encryption](#security-audits) 
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
