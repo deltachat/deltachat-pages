@@ -997,7 +997,7 @@ Push notifications are notifications that reliably reach the user's device
 even if the app is not actively being used for a while
 and [killed by the system](https://dontkillmyapp.com).
 
-Push notifications require the help of the server relaying messages pinging Apple, Google or [microG](https://microg.org).
+Push notifications require the server pinging Apple, Google or [microG](https://microg.org).
 Fortunately, all chatmail server support exactly that.
 
 Note, that Delta Chat only makes use of Push notifications
