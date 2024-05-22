@@ -50,7 +50,7 @@ I nostri Standard Comunitari si applicano sia all'interno dei canali di comunica
 incontri del progetto, ma anche negli spazi pubblici
 quando un individuo rappresenta il progetto o la sua comunità. Esempi di
 rappresentare un progetto o una comunità sono, ad esempio, l'utilizzo di un indirizzo e-mail ufficiale del progetto,
-la pubblicazione di un account ufficiale sui social media o di posta elettronica ufficiale del progetto, postare tramite un account ufficiale sui social media o agire in qualità di
+la pubblicazione di un profilo ufficiale sui social media o e-mail ufficiale del progetto, postare tramite un profilo ufficiale sui social media o agire in qualità di
 rappresentante a un evento online o offline.
 
 ## Rapporti e Risposte

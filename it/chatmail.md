@@ -55,9 +55,9 @@ i messaggi in arrivo vengono rigorosamente controllati per verificarne l'autenti
 Sì, molti utenti utilizzano con successo i normali server e-mail
 soprattutto se desiderano gestire le normali comunicazioni e-mail con Delta Chat.
 Consulta il [database dei fornitori](https://provviders.delta.chat) per le opzioni.
-Tieni presente che Delta Chat supporta quindi più account
-va bene avere un account configurato con il tuo normale indirizzo e-mail,
-e un altro account per chattare.
+Tieni presente che Delta Chat supporta quindi più profili
+va bene avere un profilo configurato con il tuo normale indirizzo e-mail,
+e un altro profilo per chattare.
 
 
 ## Quanto sono affidabili i server  chatmail?
