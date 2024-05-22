@@ -30,7 +30,7 @@ Tap a chatmail server link to see the home page and then tap the QR invite code 
   stable since May 2024. 
 
 All chatmail servers are operated by different groups and people. 
-and only the the first (nine.testrun.org) involves Delta Chat development contributors. 
+The `nine.testrun.org` default server is operated by core Delta Chat team members. 
 
 ## Can i also use a regular e-mail server instead of chatmail?
 
