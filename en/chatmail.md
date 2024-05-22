@@ -4,14 +4,14 @@ lang: en
 ---
 
 
-## What are chatmail servers?
+## What are chatmail servers and how to select one? 
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
 Chatmail servers are optimized for messaging with Delta Chat 
 to provide a privacy-preserving and speedy user experience, 
-and are securely interoperable with each other and other e-mail servers. 
-Tap a chatmail server link to visit its home page and then tap the QR code there: 
+securely interoperable with chatmail and classic e-mail servers. 
+Tap a chatmail server link to see the home page and then tap the QR invite code there: 
 
 - [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
   for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
@@ -29,6 +29,8 @@ Tap a chatmail server link to visit its home page and then tap the QR code there
   is geared towards Italian speaking users and has been 
   stable since May 2024. 
 
+All chatmail servers are operated by different groups and people. 
+and only the the first (nine.testrun.org) involves Delta Chat development contributors. 
 
 ## Can i also use a regular e-mail server instead of chatmail?
 
