@@ -31,7 +31,7 @@ _"Apple e simili potrebbero essere costrette a fornire i dati degli utenti al go
 
 ### Delta Chat 1.22 è già stato rilasciato e queste sono le sue novità
 
-_ "Un'altra novità che viene presentata è l'implementazione del supporto per più account Delta Chat (Multi-Account) in un'applicazione che è stata trasferita su un nuovo controller unificato per tutte le piattaforme, che fornisce la possibilità di parallelizzare il lavoro con gli account (il passaggio da un account all'altro ora avviene istantaneamente). "_
+_ "Un'altra novità che viene presentata è l'implementazione del supporto per più account Delta Chat (Multi-Profilo) in un'applicazione che è stata trasferita su un nuovo controller unificato per tutte le piattaforme, che fornisce la possibilità di parallelizzare il lavoro con gli account (il passaggio da un account all'altro ora avviene istantaneamente). "_
 
 26-08-2021, Darkcrizt <https://blog.desdelinux.net/delta-chat-1-22-ya-fue-liberado-y-estas-son-sus-novedades/>
 
@@ -170,7 +170,7 @@ _"Mit normalen Instant Messengern erreicht man nur Partner, die denselben Dienst
 
 ### Kyle Piira (Blog americano): Delta Chat
 
-_"Basically, it is an email client that uses a UI similar to most chat apps. I think this is better than something like a Jabber client because nobody actually has Jabber accounts anymore, but email is still ubiquitous."_
+_"Fondamentalmente, è un client di posta elettronica che utilizza un'interfaccia utente simile alla maggior parte delle app di chat. Penso che sia migliore di qualcosa come un client Jabber perché nessuno ha più profili Jabber, ma l'e-mail è ancora onnipresente."_
 
 2019-05-28, <https://www.kylepiira.com/2019/05/28/delta-chat/>
 

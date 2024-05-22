@@ -9,7 +9,7 @@ header: Frequently Asked Questions
 ## Cos'è Delta Chat? 
 
 Delta Chat è una nuova app di chat che invia messaggi tramite e-mail, se possibile crittografati, con Autocrypt. 
-**Non devi registrarti da nessuna parte, usa semplicemente il tuo account e-mail esistente con Delta Chat.**
+**Non devi registrarti da nessuna parte, usa semplicemente il tuo profilo e-mail esistente con Delta Chat.**
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
@@ -32,7 +32,7 @@ gli stessi server e-mail
 - _No Spam_: per impostazione predefinita vengono visualizzati solo i messaggi di utenti conosciuti.
 - _Crittografia end-to-end_ tramite Autocrypt.
 - Software libero basato su _Copyleft_ e _Standards_.
-- _Identità flessibile_ con supporto integrato per [più account](#multiple-accounts)
+- _Identità flessibile_ con supporto integrato per [più profili](#multiple-accounts)
 
 
 ### Cosa succede se aspetto un messaggio da qualcuno a cui non ho scritto in passato?
@@ -53,12 +53,12 @@ messaggi da questa persona, prendete in considerazione la possibilità di *blocc
 
 - Per le prestazioni, le immagini sono ottimizzate e inviate in dimensioni inferiori per impostazione predefinita, ma è possibile inviarle come "file" per preservare l'originale.
 
-<h3 id="multiple-accounts">Come posso aggiungere o passare da un account all'altro?</h3>
+<h3 id="multiple-accounts">Come posso aggiungere o passare da un profilo all'altro?</h3>
 
-Tocca l'immagine del profilo nell'angolo in alto a sinistra per **cambiare account**.
-Qui troverai anche **Aggiungi Account**.
+Tocca l'immagine del profilo nell'angolo in alto a sinistra per **cambiare profilo**.
+Qui troverai anche **Aggiungi Profilo**.
 
-Potresti anche voler imparare [come aggiungere account a più dispositivi](#multiclient).
+Potresti anche voler imparare [come aggiungere il profilo a più dispositivi](#multiclient).
 
 ### Chi vede la mia immagine del profilo?
 
@@ -137,7 +137,7 @@ dopo l'intervallo di tempo selezionato.
 Inizia il lasso di tempo
 quando il destinatario vede per la prima volta il messaggio in Delta Chat.
 I messaggi vengono eliminati
-entrambi in ciascun account di posta elettronica sul server,
+entrambi in ciascun profilo e-mail sul server,
 e nell'app stessa.
 
 Tieni presente che puoi fare affidamento sui messaggi che scompaiono
@@ -147,7 +147,7 @@ o altrimenti salvare, copiare o inoltrare messaggi prima della cancellazione.
 
 A parte quello,
 se un partner di chat disinstalla Delta Chat,
-i messaggi non verranno eliminati dal loro account di posta elettronica.
+i messaggi non verranno eliminati dal loro profilo e-mail.
 Molto probabilmente non saranno più decifrabili
 (a patto che siano stati crittografati in primo luogo).
 
@@ -343,16 +343,16 @@ anche se il contatto è un membro.
 **Il tuo contatto sta utilizzando Delta Chat su un secondo dispositivo (telefono o laptop)**
 
 Se hanno un altro dispositivo con l'app Delta Chat in esecuzione,
-dovrebbero rimuovere l'account dal nuovo dispositivo
+dovrebbero rimuovere il profilo dal nuovo dispositivo
 e aggiungerlo [come secondo dispositivo come descritto qui](#multiclient).
 Non appena ti invieranno un messaggio, l'avviso scomparirà
 e la crittografia garantita viene stabilita con entrambi i dispositivi del tuo contatto.
 
-**Il tuo contatto ha reinstallato Delta Chat utilizzando il vecchio login dell'account**
+**Il tuo contatto ha reinstallato Delta Chat utilizzando il vecchio login del profilo**
  
 Se hanno [un file di backup](#backup),
-dovrebbero rimuovere l'account dal nuovo dispositivo
-e piuttosto importare il file di backup per ricreare il proprio account.
+dovrebbero rimuovere il profilo dal nuovo dispositivo
+e piuttosto importare il file di backup per ricreare il proprio profilo.
 Non appena ti invieranno un messaggio, l'avviso scomparirà
 e la crittografia garantita viene ristabilita per questo contatto.
 
@@ -502,11 +502,11 @@ consegnare messaggi ai dispositivi del destinatario.
 Entrambi per la protezione dai server e-mail che raccolgono metadati
 nonché contro il pericolo di sequestro del dispositivo
 consigliamo di utilizzare un'[istanza del server e-mail](https://delta.chat/serverguide) ottimizzata per Delta Chat
-per creare account temporanei pseudonimi tramite scansioni di codici QR.
-Tieni presente che le app Delta Chat su tutte le piattaforme supportano più account
-in questo modo puoi utilizzare facilmente account "1 settimana" o "1 mese" specifici per azioni accanto al tuo account "principale".
-con la consapevolezza che tutti i dati temporanei dell'account, insieme a tutti i metadati, verranno cancellati.
-Inoltre, se un dispositivo viene sequestrato, i contatti utilizzano account di posta elettronica temporanei
+per creare profili temporanei pseudonimi tramite scansioni di codici QR.
+Tieni presente che le app Delta Chat su tutte le piattaforme supportano più profili
+in questo modo puoi utilizzare facilmente profili "1 settimana" o "1 mese" specifici per azioni accanto al tuo profilo "principale".
+con la consapevolezza che tutti i dati temporanei del profilo, insieme a tutti i metadati, verranno cancellati.
+Inoltre, se un dispositivo viene sequestrato, i contatti utilizzano profili e-mail temporanei
 non possono essere identificati facilmente, rispetto ai messaggeri che rivelano
 numeri di telefono nei gruppi di chat che a loro volta sono spesso associati a identità legali.
 
@@ -534,8 +534,8 @@ senza supporto per la crittografia end-to-end.
 Se un contatto utilizza un'app e-mail non Autocrypt,
 tutti i messaggi che coinvolgono questo contatto (in un gruppo o in una chat 1:1)
 non sarà crittografato end-to-end e quindi non mostrerà un "lucchetto" con i messaggi.
-Tieni presente che anche se i tuoi contatti utilizzano Delta Chat sul proprio account,
-potrebbero anche utilizzare un'app di posta elettronica non Autocrypt su quell'account
+Tieni presente che anche se i tuoi contatti utilizzano Delta Chat sul proprio profilo,
+potrebbero anche utilizzare un'app di posta elettronica non Autocrypt su quel profilo
 che quindi potrebbe causare messaggi non crittografati in modo intermittente.
 La risposta non crittografata a messaggi non crittografati è richiesta da Autocrypt
 per evitare messaggi illeggibili tra i tuoi contatti
@@ -544,7 +544,7 @@ e la loro app e-mail non Autocrypt.
 ### Come posso ottenere una chat crittografata end-to-end con un contatto Delta Chat che a volte utilizza la webmail o un'altra app e-mail non Autocrypt?
 
 Se hai bisogno di una chat crittografata end-to-end sicura con un contatto
-chi utilizza il proprio account sia con Delta Chat che con app non Autocrypt (ad esempio webmail),
+chi utilizza il proprio profilo sia con Delta Chat che con app non Autocrypt (ad esempio webmail),
 è meglio configurare [la crittografia end-to-end garantita con loro](#howtoe2ee)
 e quindi crea una chat di gruppo crittografata end-to-end garantita con voi due come membri.
 In questa chat di gruppo tutti i messaggi verranno crittografati end-to-end
@@ -729,7 +729,7 @@ Se possibile, utilizza una rete non ospite.
   (cerchiamo di far funzionare l'applicazione in background, ma [i sistemi tendono a uccidere le applicazioni](https://dontkillmyapp.com), purtroppo).
 
 - Delta Chat è **già connesso** sul dispositivo di destinazione?
-  È possibile utilizzare più account per dispositivo, basta [aggiungere un altro account](#multiple-accounts)
+  È possibile utilizzare più profili per dispositivo, basta [aggiungere un altro profilo](#multiple-accounts)
 
 - Se si riscontrano ancora problemi o se **non si riesce a scansionare un codice QR**
   provate il **trasferimento manuale** descritto di seguito
@@ -743,8 +743,8 @@ Questo metodo è consigliato solo se "Aggiungi Secondo Dispositivo" come descrit
 PIN, sequenza o password di sblocco dello schermo. Quindi puoi fare clic su "Avvia
 Backup". Questo salva il file di backup sul tuo dispositivo. Ora devi trasferirlo
 in qualche modo all'altro dispositivo.
-- Sul nuovo dispositivo, nella schermata di accesso, invece di accedere alla tua email
-account, seleziona "Importa backup". Dopo l'importazione, le tue conversazioni, la crittografia
+- Sul nuovo dispositivo, nella schermata di accesso, invece di accedere al tuo profilo
+e-mail, seleziona "Importa backup". Dopo l'importazione, le tue conversazioni, la crittografia
 i tasti e i supporti devono essere copiati sul nuovo dispositivo.
 - **Se usi iOS:** e incontri difficoltà, forse
 [questa guida](https://support.delta.chat/t/import-backup-to-ios/1628)
@@ -895,10 +895,10 @@ Abilitare "Recupera dalla Cartella DeltaChat" ha senso se hai **entrambi**:
 In questo caso, Delta Chat non ha bisogno di guardare la Posta in arrivo ed è sufficiente guardare solo la cartella DeltaChat.
 
 
-### Come posso cambiare il mio account con un indirizzo e-mail diverso?
+### Come posso cambiare il mio profilo con un indirizzo e-mail diverso?
 
-1. Cambia il tuo indirizzo in “Impostazioni → Avanzate → Password e Account” e
-   inserisci la password del tuo nuovo account (e se necessario, le impostazioni del server).
+1. Cambia il tuo indirizzo in “Impostazioni → Avanzate → Password e Profilo” e
+   inserisci la password del tuo nuovo profilo (e se necessario, le impostazioni del server).
    Riceverai un avviso informativo sul fatto che ti trasferirai ad un nuovo indirizzo.
    Un ulteriore avviso verrà visualizzato anche nella chat "Messaggi del dispositivo".
 
@@ -1004,7 +1004,7 @@ puoi cambiarlo. Hai queste opzioni:
 
 - "No, solo chat": solo i messaggi inviati da altri utenti di Delta Chat e le "risposte a"
 vengono visualizzati i tuoi messaggi di Delta Chat. Questo ha più senso se usi lo stesso
-account di posta elettronica anche per le normali e-mail.
+profilo e-mail anche per le normali e-mail.
 - "Per i contatti accettati": Delta Chat mostra tutte le e-mail dei contatti con cui
 hai già una chat, ma le nuove chat vengono visualizzate solo per i messaggi di Delta Chat.
 Questo aiuta a decidere caso per caso se si desidera avere una
@@ -1076,7 +1076,7 @@ In caso contrario, l'eliminazione dei messaggi o configurazioni multi-dispositiv
 ### Delta Chat è compatibile con Protonmail / Tutanota / Criptext?
 
 - Sì e no.
-- No, non puoi utilizzare il tuo account Protonmail, Tutanota o Criptext con Delta
+- No, non puoi utilizzare il tuo profilo Protonmail, Tutanota o Criptext con Delta
   Chat; non offrono la ricezione di posta tramite IMAP.
 - In ogni caso puoi utilizzare Delta Chat per inviare messaggi alle persone che lo utilizzano
   Protonmail, Tutanota o Criptext. Tali messaggi non saranno end-to-end
@@ -1087,14 +1087,14 @@ che usa.
 [App di posta elettronica abilitata per Autocrypt](https://autocrypt.org/dev-status.html).
 
 
-### Come posso eliminare il mio account?
+### Come posso eliminare il mio profilo?
 
-Poiché utilizzi un account e-mail per Delta Chat,
-il modo in cui puoi eliminare il tuo account dipende dal tuo provider e-mail.
-Non abbiamo alcun controllo sul tuo account e-mail,
+Poiché utilizzi un profilo e-mail per Delta Chat,
+il modo in cui puoi eliminare il tuo profilo dipende dal tuo provider e-mail.
+Non abbiamo alcun controllo sul tuo profilo e-mail,
 quindi purtroppo non possiamo aiutarti in questo.
 
-Se vuoi mantenere l'account,
+Se vuoi mantenere il profilo,
 ma disinstallare Delta Chat,
 si consiglia di uscire da qualsiasi chat di gruppo prima di disinstallare Delta Chat.
 
@@ -1133,7 +1133,7 @@ per fornire nuove funzionalità per tutte le piattaforme.
   completando i collegamenti Rust/Python e avviando un ecosistema Chat-bot.
 
 - Nel 2021 abbiamo ricevuto ulteriori finanziamenti dell'UE per due Next-Generation-Internet
-proposte, in particolare per [EPPD - directory di portabilità del provider di posta elettronica](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) e [AEAP - portabilità dell'indirizzo e-mail](https://nlnet.nl/project/EmailPorting/) (~90K EUR) che ha portato a un migliore supporto multi-account, contatti QR-code migliorati e configurazioni di gruppo e molti miglioramenti della rete su tutte le piattaforme.
+proposte, in particolare per [EPPD - directory di portabilità del provider e-mail](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) e [AEAP - portabilità dell'indirizzo e-mail](https://nlnet.nl/project/EmailPorting/) (~90K EUR) che ha portato a un migliore supporto multi-profilo, contatti QR-code migliorati e configurazioni di gruppo e molti miglioramenti della rete su tutte le piattaforme.
 
 - Dalla fine del 2021 fino a Marzo 2023 abbiamo ricevuto finanziamenti *Internet Freedom* (500.000 USD) dall'Ufficio per la democrazia, i diritti umani e il lavoro degli Stati Uniti (DRL). Questo finanziamento ha supportato i nostri obiettivi a lungo termine per rendere Delta Chat più utilizzabile e compatibile con un'ampia gamma di server di posta elettronica in tutto il mondo e più resiliente e sicuro in luoghi spesso colpiti dalla censura e dalla chiusura di Internet.
 
