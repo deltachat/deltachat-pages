@@ -11,9 +11,10 @@ header: Frequently Asked Questions
 Delta Chat is a reliable, decentralized and secure messenging app, 
 available for mobile and desktop platforms. 
 Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [chatmail servers](chatmail) 
+You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
 which are minimal e-mail servers optimized for fast and secure operations. 
-Or you can use classic e-mail servers and your existing e-mail account. 
+Or you may use classic e-mail servers and an existing e-mail account
+in which case Delta Chat acts as an e-mail app. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
@@ -22,29 +23,30 @@ Or you can use classic e-mail servers and your existing e-mail account.
 
 To securely setup contact with others [scan an invite QR code 
 or share an invite link](#howtoe2ee). 
-When creating a default Chat profile on a chatmail server
-you are required to use secure setup contact methods 
-because un-encrypted outgoing messages would be rejected. 
+This is required when using a (default) chatmail-based chat profile 
+because chatmail servers reject un-encrypted outgoing messages.
 
 If you create a Chat profile with a classic e-mail address 
-you may write a message to every existing e-mail address  
-even if the recipient is not using a Delta Chat app. 
-You may think then of Delta Chat as just another e-mail app
-and your recipients will receive it as a standard mail. 
+you may manually create a contact if you know their e-mail address
+and then write a message to them 
+even if the recipient is not using Delta Chat.
 
 
 ### What are the advantages of Delta Chat compared to other messengers?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
+  which offer instant push notifications for iOS and Android devices. 
+
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) 
+  safe against network and server attacks. 
+
+- Free and Open Source software, both app and server side. 
+  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### What if I expect a message from someone I didn't write to in the past?
