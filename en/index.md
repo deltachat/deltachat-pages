@@ -17,13 +17,21 @@ lang: en
 
 <div>
 <a href="../assets/home/screenshots/android1.png">
+<picture>
+<source srcset="../assets/home/screenshots/android1-thumbnail.webp" type="image/webp" />
+<source srcset="../assets/home/screenshots/android1-thumbnail.png" type="image/png" />
 <img src="../assets/home/screenshots/android1-thumbnail.png" width="125" height="222" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing chat list" />
+</picture>
 </a>
 </div>
 
 <div>
 <a href="../assets/home/screenshots/android2.png">
+<picture>
+<source srcset="../assets/home/screenshots/android2-thumbnail.webp" type="image/webp" />
+<source srcset="../assets/home/screenshots/android2-thumbnail.png" type="image/png" />
 <img src="../assets/home/screenshots/android2-thumbnail.png" width="125" height="222" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing a chat" />
+</picture>
 </a>
 </div>
 
@@ -39,7 +47,11 @@ lang: en
 
 <div>
 <a href="../assets/home/screenshots/ios.png">
+<picture>
+<source srcset="../assets/home/screenshots/ios-thumbnail.webp" type="image/webp" />
+<source srcset="../assets/home/screenshots/ios-thumbnail.png" type="image/png" />
 <img src="../assets/home/screenshots/ios.png" width="114" height="222" alt="A screenshot of Delta Chat on iOS" />
+</picture>
 </a>
 </div>
 
