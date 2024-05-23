@@ -252,35 +252,56 @@ They will most likely also not be decryptable anymore
 
 ## Instant message delivery and Push Notifications
 
-### What are Push Notifications?
+### What are Push Notifications? How can i get instant message delivery? 
 
-Push Notifications are notifications that reliably reach a user's mobile device
-even if the app is not actively being used.
-Push Notifications are delivered by contacting central
-Apple, Google or [microG](https://microg.org) servers.
+Push Notifications are a technical mechanism to wake up inactive apps 
+on incoming messages. 
+They are delivered by Apple and Google servers (soon also Huawei and others likely)
+to a device so that Delta Chat gets a chance to fetch messages for its user
+and show notifications even if Delta Chat is currently inactive. 
 
 Push Notifications work with all [chatmail](chatmail) servers on
 
 - iOS devices, by integrating with Apple Push Notification servers.
 
-- Android devices, by integrating with Google FCM Push Notification
-  servers, including [microG](https://microg.org) mediated ones.
+- Android devices, by integrating with the Google FCM Push Notification
+  servers, including on devices that use [microG](https://microg.org) 
+  instead of proprietary Google code. 
 
-As of May 2024, classic e-mail servers do not support Push Notifications.
+As of May 2024, classic e-mail servers do not support Push Notifications
+for Delta Chat users. 
 
 
-### Do I have to use Push Notifications on Android?
+### Are Push Notifications enabled on iOS devices? 
 
-It depends. Delta Chat Android is known to reliably notify about messages
-even if you don't use Push Notifications if your settings don't prevent
-it from running in the background from time to time.
-"De-googled" devices often work better in this respect
-while "mass market" devices might be configured to quickly
-kill any non-foreground app, see [dontkillmyapp.com](https://dontkillmyapp.com).
+Yes, Delta Chat automatically uses Push Notifications for [chatmail](chatmail) profiles. 
+Apple does otherwise not allow to fetch data if users are not actively using Delta Chat. 
+As iOS app usage is anyway tracked by Apple and 
+using Push notifications does not expose information that Apple doesn't anyway have. 
+See also [How private are Delta Chat Push Notifications?](#privacy-notifications). 
 
-If your device is capable and already connected to Apple, Google or microG servers
-we recommend to use Push Notifications
-just like you would do with Signal or other messengers.
+
+### Are Push notifcications enabled / needed on Android devices? 
+
+If you are using a [chatmail](chatmail) account and 
+your device is capable and already connected to Google (including on 
+"de-googled" phones which use microG to connect to Google services) 
+Delta Chat automatically enables Push Notifications to achieve instant notifications. 
+You may disable it in the "Notifications" settings after initial chat profile setup. 
+
+Without using a chatmail server or with disabled Push Notifications 
+Delta Chat might still manage to reliably notify about messages 
+but you might experience minute-long delays before seeing incoming messages. 
+Or worse, if using some Android vendors who restrict apps heavily
+(see [dontkillmyapp.com](https://dontkillmyapp.com))
+incoming messages might now show up until you manually open the app again. 
+
+To achieve instant notifications without Push Notifications 
+you may enable "Reliable Background Notification" 
+to allow Delta Chat to run in the background.  
+It will do so efficiently and without consuming much battery 
+but it typically shows a permanent notification 
+(that can be "minified" with some recent Android phones). 
 
 
 ### How private are Delta Chat Push Notifications?
