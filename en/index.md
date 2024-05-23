@@ -20,7 +20,7 @@ lang: en
 <picture>
 <source srcset="../assets/home/screenshots/android1-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/android1-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/android1-thumbnail.png" width="125" height="222" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing chat list" />
+<img src="../assets/home/screenshots/android1-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing chat list" />
 </picture>
 </a>
 </div>
@@ -30,7 +30,7 @@ lang: en
 <picture>
 <source srcset="../assets/home/screenshots/android2-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/android2-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/android2-thumbnail.png" width="125" height="222" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing a chat" />
+<img src="../assets/home/screenshots/android2-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing a chat" />
 </picture>
 </a>
 </div>
@@ -40,7 +40,7 @@ lang: en
 <picture>
 <source srcset="../assets/home/screenshots/desktop-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/desktop-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/desktop-thumbnail.png" width="280" height="222" style="float:left;" alt="A screenshot of Delta Chat on desktop" />
+<img src="../assets/home/screenshots/desktop-thumbnail.png" width="305" height="242" style="float:left;" alt="A screenshot of Delta Chat on desktop" />
 </picture>
 </a>
 </div>
@@ -50,7 +50,7 @@ lang: en
 <picture>
 <source srcset="../assets/home/screenshots/ios-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/ios-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/ios.png" width="114" height="222" alt="A screenshot of Delta Chat on iOS" />
+<img src="../assets/home/screenshots/ios.png" width="124" height="242" alt="A screenshot of Delta Chat on iOS" />
 </picture>
 </a>
 </div>
