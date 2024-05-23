@@ -277,34 +277,36 @@ for Delta Chat users.
 Yes, Delta Chat automatically uses Push Notifications for [chatmail](chatmail) profiles. 
 Apple does otherwise not allow to fetch data if users are not actively using Delta Chat. 
 As iOS app usage is anyway tracked by Apple and 
-using Push notifications does not expose information that Apple doesn't anyway have. 
+using Push notifications does not expose information that Apple doesn't anyway have,
+and is this thus enabled by default. 
 See also [How private are Delta Chat Push Notifications?](#privacy-notifications). 
 
 
-### Are Push notifcications enabled / needed on Android devices? 
+### Are Push notifcications enabled / needed on Android devices? {#android-push}
 
 If you are using a [chatmail](chatmail) account and 
 your device is capable and already connected to Google (including on 
 "de-googled" phones which use microG to connect to Google services) 
 Delta Chat automatically enables Push Notifications to achieve instant notifications. 
-You may disable it in the "Notifications" settings after initial chat profile setup. 
+You may disable them in the "Notifications" settings. 
 
-Without using a chatmail server or with disabled Push Notifications 
+Without using a chatmail server or when Push Notifications are disabled 
 Delta Chat might still manage to reliably notify about messages 
 but you might experience minute-long delays before seeing incoming messages. 
-Or worse, if using some Android vendors who restrict apps heavily
+Or worse, some Android vendors restrict apps heavily
 (see [dontkillmyapp.com](https://dontkillmyapp.com))
-incoming messages might now show up until you manually open the app again. 
+and Delta Chat might not show  incoming messages 
+until you manually open the app again. 
 
 To achieve instant notifications without Push Notifications 
 you may enable "Reliable Background Notification" 
 to allow Delta Chat to run in the background.  
 It will do so efficiently and without consuming much battery 
-but it typically shows a permanent notification 
+but this typically causes a permanent notification on your phone 
 (that can be "minified" with some recent Android phones). 
 
 
-### How private are Delta Chat Push Notifications?
+### How private are Delta Chat Push Notifications? {:privacy-notifications}
 
 Delta Chat Push Notification support is designed to avoid any leakage of private information.
 It does not leak e-mail, IP address or message content (not even encrypted)
