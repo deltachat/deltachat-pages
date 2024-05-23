@@ -1010,7 +1010,7 @@ Delta Chat automatically does _not_ use push notifications
 and falls back to letting a background service run as good as possible.
 Fortunately, these un-Google devices are often more permissively,
 so that with the corresponding options enabled at "Settings / Notifications"
-even then you can get a reliable experience :)
+you can get a reliable experience as well :)
 
 
 ### Does Delta Chat work with _my_ e-mail-provider?
