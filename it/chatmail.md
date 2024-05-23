@@ -69,7 +69,7 @@ il che significa che nella maggior parte dei casi d'uso, gli operatori dei serve
 una garanzia supportata da una recente [analisi di sicurezza dell'ETH di Zurigo](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## Come vengono gestiti i server chatmail? Can i run one myself? 
+## Come vengono gestiti i server chatmail?
 
 Tutti i server chatmail vengono distribuiti e aggiornati automaticamente utilizzando
 [il repository pubblico di sviluppo di chatmail](https://github.com/deltachat/chatmail).

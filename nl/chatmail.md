@@ -67,7 +67,7 @@ zodat serverbeheerders doorgaans geen toegang hebben tot je berichten, zelfs nie
 Deze garantie is bevestigd door een recente [beveiligingsanalyse van ETH Zuerich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## Hoe worden chatmailservers beheerd? Can i run one myself? 
+## Hoe worden chatmailservers beheerd?
 
 Alle chatmailservers worden automatisch opgezet en van updates voorzien met behulp van
 [de openbare chatmailontwikkelingsrepo](https://github.com/deltachat/chatmail).

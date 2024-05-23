@@ -63,7 +63,7 @@ was bedeutet, dass in den meisten Anwendungsfällen die Serverbetreiber Ihre Nac
 Eine Garantie, die durch eine aktuelle [Sicherheitsanalyse der ETH Zürich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) bestätigt wird.
 
 
-## Wie werden Chatmail-Server betrieben? Can i run one myself? 
+Wie werden Chatmail-Server betrieben? Kann ich selbst einen betreiben?
 
 Alle Chatmail-Server werden automatisch aktualisiert mit dem [öffentlichen Chatmail-Entwicklungs-Repository](https://github.com/deltachat/chatmail).
 Chatmail-Server bestehen aus bewährten Standard-E-Mail-Server-Komponenten, [Postfix](https://postfix.org) und [Dovecot](https://dovecot.org), und sind so konfiguriert, dass sie unbeaufsichtigt laufen und sehr wenig Wartungsaufwand erfordern. Chatmail-Server funktionieren auch gut auf Low-End-Hardware wie einem Raspberry Pi.
