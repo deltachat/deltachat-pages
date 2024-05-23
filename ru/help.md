@@ -8,31 +8,46 @@ header: Часто задаваемые вопросы
 
 ## Что такое Delta Chat? 
 
-Delta Chat — это новое приложение для обмена мгновенными сообщениями, которое отправляет сообщения через электронную почту, шифруя сообщение (если это возможно) с помощью Autocrypt. 
-**Вам не нужно нигде регистрироваться, просто используйте существующую учётную запись электронной почты в Delta Chat.** 
+Delta Chat is a reliable, decentralized and secure messaging app, 
+available for mobile and desktop platforms.
+
+Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
+You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
+which are minimal e-mail servers optimized for fast and secure operations. 
+Or you may use classic e-mail servers and an existing e-mail account
+in which case Delta Chat acts as an e-mail app. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Как мне найти людей для общения? 
 
-С помощью Delta Chat вы можете писать на любые существующие адреса
-электронной почты, даже если получатель не использует приложение Delta Chat.
-Получателю не нужно устанавливать то же приложение, что и у вас, в отличии от других мессенджеров.
+To securely setup contact with others [scan an invite QR code 
+or share an invite link](#howtoe2ee). 
+This is required when using a (default) chatmail-based chat profile 
+because chatmail servers reject un-encrypted outgoing messages.
+
+If you create a chat profile with a classic e-mail address 
+you may manually create a contact if you know their e-mail address
+and then write a message to them 
+even if the recipient is not using Delta Chat.
 
 
 ### Каковы преимущества Delta Chat по сравнению с другими мессенджерами?
 
-- _Незавим_ от любых компаний и сервисов. _Вы_ владеете вашими данными.
-- Ваши данные не хранятся на центральном сервере, если только 
-  все пользователи не используют одни и те же серверы электронной почты.
-- Вы никому не передаете свою адресную книгу.
-- _Быстрый_ за счет использования Push-IMAP.
-- _Большая база пользователей_ - адресаты, _не_ использующие Delta Chat, также могут быть доступны.
-- Никакого спама - по умолчанию отображаются только сообщения известных пользователей.
-- _Сквозное шифрование_ с помощью Autocrypt.
--  Свободное ПО на основе _копилефта_ и _стандартов_.
-- _Гибкая идентификация_ со встроенной поддержкой [нескольких учетных записей](#multiple-accounts)
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
+  which offer instant push notifications for iOS and Android devices. 
+
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](#security-audits) 
+  safe against network and server attacks. 
+
+- Free and Open Source software, both app and server side. 
+  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### Что если я ожидаю сообщение от кого-то кому я ранее не писал?
@@ -53,12 +68,24 @@ Delta Chat — это новое приложение для обмена мгн
 
 - Для лучшей производительности изображения по умолчанию оптимизируются и отправляются в меньшем размере, но вы можете отправить его в виде "файла", чтобы сохранить оригинал.
 
-<h3 id="multiple-accounts">Как я могу добавить или сменить аккаунт?</h3>
 
-Нажмите на изображение профиля в левом верхнем углу, чтобы **переключить учетные записи**.
-Там же вы найдете **Добавить учётную запись**.
+### What are profiles? How can I switch between them? {#multiple-accounts}
 
-Возможно, вы также захотите узнать [как добавить учетные записи на несколько устройств](#multiclient).
+A profile is **a name, a picture** and some additional information for encrypting messages.
+A profile lives on your device(s) only
+and uses a chatmail or a classic e-mail server to transport messages.
+
+On first installation of Delta Chat a first profile is created.
+
+Later, you can tap your profile image in the upper left corner to **Add Profiles**
+or to **Switch Profiles**.
+
+You may want to use separate profiles for political, family or work related activities,
+or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
+that tend to cause unsolicited messages ("spam") sooner or later.
+
+You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+
 
 ### Кто видит моё изображение в профиле?
 
@@ -861,11 +888,8 @@ dialog.
   the chat.
 - To see the map and view locations of others, you need to turn on the feature
   in the advanced settings.
-- This feature will not share your location with anyone except your chat
-  partners. *But:* to show the map, we need to download map tiles from
-  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
-  specific area. If this is a privacy risk for you, this feature might not be
-  for you. We are working on finding a decentralized alternative for Mapbox.
+- This feature will not share your location with anyone except your chat partners.
+  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
 - On desktop, the OS typically can't determine your location. Instead you can
   right click on the map and describe a location, which is sent to the chat as
   a message, but also appears on the map.

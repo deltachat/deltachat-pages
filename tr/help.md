@@ -8,31 +8,46 @@ header: Sıkça Sorulan Sorular
 
 ## Delta Chat nedir?
 
-Delta Chat, e-postalar yoluyla mesajlar gönderen ve mümkünse Otomatik Şifreleme ile şifrelenen yeni bir sohbet uygulamasıdır.
-**Herhangi bir yerden kaydolmanız gerekmez, sadece mevcut e-posta hesabınızı Delta Chat ile kullanın.**
+Delta Chat is a reliable, decentralized and secure messaging app, 
+available for mobile and desktop platforms.
+
+Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
+You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
+which are minimal e-mail servers optimized for fast and secure operations. 
+Or you may use classic e-mail servers and an existing e-mail account
+in which case Delta Chat acts as an e-mail app. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Sohbet edecek kişileri nasıl bulabilirim?
 
-Delta Chat ile, alıcı Delta Chat uygulamasını kullanmasa bile mevcut
-her e-posta adresine yazabilirsiniz.Alıcının, diğer uygulamalarda olduğu
-gibi sizinkiyle aynı uygulamayı yüklemesine gerek yoktur.
+To securely setup contact with others [scan an invite QR code 
+or share an invite link](#howtoe2ee). 
+This is required when using a (default) chatmail-based chat profile 
+because chatmail servers reject un-encrypted outgoing messages.
+
+If you create a chat profile with a classic e-mail address 
+you may manually create a contact if you know their e-mail address
+and then write a message to them 
+even if the recipient is not using Delta Chat.
 
 
 ### Delta Chat'in diğer mesajlaşma programlarına kıyasla avantajları nelerdir?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
+  which offer instant push notifications for iOS and Android devices. 
+
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](#security-audits) 
+  safe against network and server attacks. 
+
+- Free and Open Source software, both app and server side. 
+  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### What if I expect a message from someone I didn't write to in the past?
@@ -53,12 +68,24 @@ gibi sizinkiyle aynı uygulamayı yüklemesine gerek yoktur.
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
-<h3 id="multiple-accounts">How can I add or switch between multiple accounts?</h3>
 
-Tap the profile image in the upper left corner to **switch accounts**.
-You will also find **Add Account** there.
+### What are profiles? How can I switch between them? {#multiple-accounts}
 
-You may also wish to learn [how to add accounts to multiple devices](#multiclient).
+A profile is **a name, a picture** and some additional information for encrypting messages.
+A profile lives on your device(s) only
+and uses a chatmail or a classic e-mail server to transport messages.
+
+On first installation of Delta Chat a first profile is created.
+
+Later, you can tap your profile image in the upper left corner to **Add Profiles**
+or to **Switch Profiles**.
+
+You may want to use separate profiles for political, family or work related activities,
+or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
+that tend to cause unsolicited messages ("spam") sooner or later.
+
+You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+
 
 ### Profil resmimi kimler görüyor?
 
@@ -866,11 +893,8 @@ dialog.
   the chat.
 - To see the map and view locations of others, you need to turn on the feature
   in the advanced settings.
-- This feature will not share your location with anyone except your chat
-  partners. *But:* to show the map, we need to download map tiles from
-  mapbox.com, so if you *view* the map, mapbox.com is asked for the map of a
-  specific area. If this is a privacy risk for you, this feature might not be
-  for you. We are working on finding a decentralized alternative for Mapbox.
+- This feature will not share your location with anyone except your chat partners.
+  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
 - On desktop, the OS typically can't determine your location. Instead you can
   right click on the map and describe a location, which is sent to the chat as
   a message, but also appears on the map.

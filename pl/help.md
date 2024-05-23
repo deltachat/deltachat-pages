@@ -8,30 +8,46 @@ header: Często Zadawane Pytania
 
 ## Czym jest Delta Chat?
 
-Delta Chat to nowa aplikacja do czatowania, która wysyła wiadomości e-mailem, w miarę możliwości zaszyfrowane przy użyciu Autocrypt.
-**Nie musisz się nigdzie rejestrować, po prostu użyj swojego istniejącego konta e-mail w Delta Chat.**
+Delta Chat is a reliable, decentralized and secure messaging app, 
+available for mobile and desktop platforms.
+
+Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
+You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
+which are minimal e-mail servers optimized for fast and secure operations. 
+Or you may use classic e-mail servers and an existing e-mail account
+in which case Delta Chat acts as an e-mail app. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Jak mogę znaleźć ludzi, z którymi mogę czatować? 
 
-Dzięki Delta Chat możesz pisać na każdy istniejący adres e-mail - nawet
-jeśli odbiorca nie korzysta z aplikacji Delta Chat. Odbiorca nie musi 
-instalować tej samej aplikacji co Twoja, tak jak w przypadku innych komunikatorów.
+To securely setup contact with others [scan an invite QR code 
+or share an invite link](#howtoe2ee). 
+This is required when using a (default) chatmail-based chat profile 
+because chatmail servers reject un-encrypted outgoing messages.
+
+If you create a chat profile with a classic e-mail address 
+you may manually create a contact if you know their e-mail address
+and then write a message to them 
+even if the recipient is not using Delta Chat.
 
 
 ### Jakie są zalety Delta Chat w porównaniu z innymi komunikatorami?
 
-- _Niezależny_ od jakiejkolwiek firmy lub usług. _Jesteś_ właścicielem swoich danych.
-- Twoje dane nie są zapisywane na centralnym serwerze, chyba że wszyscy użytkownicy korzystają z tych samych serwerów pocztowych
-- Nie udostępniasz nikomu swojej książki adresowej
-- _Szybki_ dzięki użyciu Push-IMAP
-- _Największa baza użytkowników_ – możesz dotrzeć również do odbiorców _niekorzystających_ z Delta Chat.
-- _Brak spamu_ – domyślnie wyświetlane są, tylko wiadomości znanych użytkowników
-- _Szyfrowanie end-to-end_ za pomocą Autocrypt
-- Wolne oprogramowanie oparte na _Systemie licencjonowania praw autorskich_ i _Standardach_
-- _Elastyczna tożsamość_ ze wbudowaną obsługą [wielu kont](#multiple-accounts)
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
+  which offer instant push notifications for iOS and Android devices. 
+
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](#security-audits) 
+  safe against network and server attacks. 
+
+- Free and Open Source software, both app and server side. 
+  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### Co zrobić, jeśli oczekuję wiadomości od osoby, do której nie pisałem w przeszłości?
@@ -47,12 +63,24 @@ instalować tej samej aplikacji co Twoja, tak jak w przypadku innych komunikator
 
 - Ze względu na wydajność obrazy są domyślnie optymalizowane i wysyłane w mniejszym rozmiarze, ale można je wysłać jako „plik”, aby zachować oryginał.
 
-<h3 id="multiple-accounts">Jak mogę dodawać lub przełączać się między wieloma kontami?</h3>
 
-Tap the profile image in the upper left corner to **switch accounts**.
-You will also find **Add Account** there.
+### What are profiles? How can I switch between them? {#multiple-accounts}
 
-Możesz także dowiedzieć się, [jak dodawać konta do wielu urządzeń](#multiclient).
+A profile is **a name, a picture** and some additional information for encrypting messages.
+A profile lives on your device(s) only
+and uses a chatmail or a classic e-mail server to transport messages.
+
+On first installation of Delta Chat a first profile is created.
+
+Later, you can tap your profile image in the upper left corner to **Add Profiles**
+or to **Switch Profiles**.
+
+You may want to use separate profiles for political, family or work related activities,
+or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
+that tend to cause unsolicited messages ("spam") sooner or later.
+
+You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+
 
 ### Kto widzi moje zdjęcie profilowe?
 
@@ -509,12 +537,20 @@ Jesteśmy bardzo wdzięczni za opinie na temat tych funkcji — chcesz podzieli�
 
 ### Jak mogę udostępnić swoją lokalizację moim rozmówcom?
 
-- Możesz włączyć przesyłanie strumieniowe lokalizacji w sekcji „Funkcje eksperymentalne” w ustawieniach zaawansowanych.
-- Teraz, jeśli chcesz udostępnić swoją lokalizację na czacie, przejdź do „załącz” i wybierz „Lokalizacja”. Możesz teraz ustawić przedział czasowy, w którym Twoja lokalizacja będzie przesyłana strumieniowo do rozmówców, od 5 minut do 6 godzin.
-- Gdy Twoja lokalizacja się zmienia, inni uczestnicy czatu mogą ją zobaczyć na mapie w czacie.
-- Aby zobaczyć mapę i wyświetlić lokalizacje innych osób, musisz włączyć tę funkcję w ustawieniach zaawansowanych.
-- Ta funkcja nie będzie udostępniać Twojej lokalizacji nikomu poza partnerami czatu. *Ale:* aby pokazać mapę, musimy pobrać część mapy z serwisu mapbox.com, więc jeśli *wyświetlasz* mapę, serwis mapbox.com jest proszony o mapę określonego obszaru. Jeśli jest to dla Ciebie zagrożeniem dla prywatności, ta funkcja może nie być dla Ciebie. Pracujemy nad znalezieniem zdecentralizowanej alternatywy dla Mapbox.
-- Na komputerze system operacyjny zwykle nie może określić Twojej lokalizacji. Zamiast tego możesz kliknąć prawym przyciskiem myszy na mapie i opisać lokalizację, która jest wysyłana do czatu jako wiadomość, ale także pojawia się na mapie.
+- You can turn on location streaming in the "experimental features" section of
+  the advanced settings.
+- Now, if you want to share your location in a chat, go to "attach" and select
+  "location". You can now set a time frame in which your location will be
+  streamed to your chat partners, between 5 minutes and 6 hours.
+- When your location changes, the others in the chat can view it on a map in
+  the chat.
+- To see the map and view locations of others, you need to turn on the feature
+  in the advanced settings.
+- This feature will not share your location with anyone except your chat partners.
+  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
+- On desktop, the OS typically can't determine your location. Instead you can
+  right click on the map and describe a location, which is sent to the chat as
+  a message, but also appears on the map.
 
 
 ### Co właściwie chroni eksperymentalne szyfrowanie bazy danych?
