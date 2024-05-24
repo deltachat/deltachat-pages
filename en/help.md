@@ -281,7 +281,7 @@ does not expose data to Apple that it doesn't already have
 and is this thus enabled by default. 
 
 
-### Are Push notifcications enabled / needed on Android devices? {#android-push}
+### Are Push notifications enabled / needed on Android devices? {#android-push}
 
 If you are using a [chatmail](chatmail) account and 
 your device is capable and already connected to Google (including on 
