@@ -283,7 +283,7 @@ does not expose data to Apple that it doesn't already have.
 
 ### Are Push notifications enabled / needed on Android devices? {#android-push}
 
-If a "Push Service" is available, Delta Chat by default enables Push Notifications 
+If a "Push Service" is available, Delta Chat enables Push Notifications 
 to achieve instant message delivery for all chatmail users. 
 If you are using a classic e-mail provider instead of [chatmail](chatmail) servers,
 Push Notifications are not available. 
