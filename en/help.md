@@ -278,7 +278,7 @@ Yes, Delta Chat automatically uses Push Notifications for [chatmail](chatmail) p
 Apple does otherwise not allow to fetch data if users are not actively using Delta Chat. 
 Our [privacy-minimizing Push Notification system](#privacy-notifications)
 does not expose data to Apple that it doesn't already have
-and is this thus enabled by default. 
+so push notifications are enabled by default. 
 
 
 ### Are Push notifications enabled / needed on Android devices? {#android-push}
