@@ -252,7 +252,7 @@ They will most likely also not be decryptable anymore
 
 ## Instant message delivery and Push Notifications
 
-### What are Push Notifications? How can i get instant message delivery? 
+### What are Push Notifications? How can I get instant message delivery? 
 
 Push Notifications are a technical mechanism to wake up inactive apps 
 on incoming messages. 
