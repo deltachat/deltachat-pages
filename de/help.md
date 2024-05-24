@@ -11,7 +11,7 @@ header: Häufig gestellte Fragen
 Delta Chat ist eine zuverlässige, dezentralisierte und sichere Messaging-App, verfügbar für Mobile- und Desktop-Plattformen.
 
 Delta Chat sieht wie Whatsapp oder Telegram aus, aber kann auch als E-Mail-App verwendet und betracht werden. 
-Sie können sich anonym bei einer Vielzahl von [interoperablen Chatmail-Servern](chatmail) anmelden, bei denen es sich um minimale E-Mail-Server handelt, die für einen schnellen und sicheren Betrieb optimiert sind. 
+Sie können sich anonym bei einer Vielzahl von [interoperablen Chatmail-Servern](https://delta.chat/chatmail) anmelden, bei denen es sich um minimale E-Mail-Server handelt, die für einen schnellen und sicheren Betrieb optimiert sind. 
 Oder Sie verwenden einen klassische E-Mail-Server und ein bestehendes E-Mail-Konto.
 In diesem Fall fungiert Delta Chat als E-Mail-App. 
 
@@ -30,12 +30,12 @@ auch wenn der Empfänger Delta Chat nicht benutzt.
 
 ### Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
-- Anonyme Chat-Profile mit schnellen, sicheren und interoperablen [Chatmail-Servern](chatmail),
+- Anonyme Chat-Profile mit schnellen, sicheren und interoperablen [Chatmail-Servern](https://delta.chat/chatmail),
 die sofortige Push-Benachrichtigungen für iOS- und Android-Geräte bieten. 
 
 - Durchgängige [Multi-Profil](#multiple-accounts) und Multi-Geräte-Unterstützung auf allen Plattformen. 
 
-- Interaktive [Webanwendungen in Chats] (https://webxdc.org/apps) für Spiele und für die Zusammenarbeit
+- Interaktive [Webanwendungen in Chats](https://webxdc.org/apps) für Spiele und für die Zusammenarbeit
 
 - [Geprüfte Ende-zu-Ende-Verschlüsselung](#security-audits), 
 sicher gegen Netzwerk- und Serverangriffe. 
@@ -217,7 +217,7 @@ Push Notifications are sent by Apple and Google "Push services" to a user's devi
 so that an inactive Delta Chat app can fetch messages in the background
 and show notifications on a user's phone if needed.
 
-Push Notifications work with all [chatmail](chatmail) servers on
+Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
 
 - iOS devices, by integrating with Apple Push services.
 
@@ -231,7 +231,7 @@ for Delta Chat users.
 
 ### Sind Push-Benachrichtigungen auf iOS-Geräten aktiviert? Gibt es Alternativen?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](chatmail) profiles.
+Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
 And no, there is no alternative on Apple's phones to achieve instant message delivery
 because Apple devices do not allow Delta Chat to fetch data in the background.
 Push notifications are automatically activated for iOS users because
@@ -243,7 +243,7 @@ does not expose data to Apple that it doesn't already have.
 
 If a "Push Service" is available, Delta Chat enables Push Notifications
 to achieve instant message delivery for all chatmail users.
-If you are using a classic e-mail provider instead of [chatmail](chatmail) servers,
+If you are using a classic e-mail provider instead of [chatmail](https://delta.chat/chatmail) servers,
 Push Notifications are not available.
 
 In the Delta Chat "Notifications" settings for "Instant delivery"
@@ -282,9 +282,9 @@ to any system involved in the delivery of Push Notifications.
 Here is how Delta Chat apps perform Push Notification delivery:
 
 - A Delta Chat app obtains a "device token" locally and stores it
-  on the [chatmail](chatmail) server.
+  on the [chatmail](https://delta.chat/chatmail) server.
 
-- When a [chatmail](chatmail) server receives an e-mail for a Delta Chat user
+- When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
   it forwards the "device token" to the central Delta Chat notification proxy.
 
 - The central Delta Chat notification proxy forwards
@@ -320,7 +320,7 @@ without asking questions up-front that are more suited to expert users or develo
 
 Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
 that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](chatmail#selfhosted).
+including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
 Welcome to the power of the interoperable and massive chatmail and e-mail system :)
 
 

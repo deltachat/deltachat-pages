@@ -12,7 +12,7 @@ Delta Chat is a reliable, decentralized and secure messaging app,
 available for mobile and desktop platforms.
 
 Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
+You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
 which are minimal e-mail servers optimized for fast and secure operations. 
 Or you may use classic e-mail servers and an existing e-mail account
 in which case Delta Chat acts as an e-mail app. 
@@ -35,7 +35,7 @@ even if the recipient is not using Delta Chat.
 
 ### ¿Cuáles son las ventajas de Delta Chat comparado con otras aplicaciones de mensajería?
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
   which offer instant Push Notifications for iOS and Android devices. 
 
 - Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
@@ -251,7 +251,7 @@ Push Notifications are sent by Apple and Google "Push services" to a user's devi
 so that an inactive Delta Chat app can fetch messages in the background
 and show notifications on a user's phone if needed.
 
-Push Notifications work with all [chatmail](chatmail) servers on
+Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
 
 - iOS devices, by integrating with Apple Push services.
 
@@ -265,7 +265,7 @@ for Delta Chat users.
 
 ### Are Push Notifications enabled on iOS devices? Is there an alternative?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](chatmail) profiles.
+Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
 And no, there is no alternative on Apple's phones to achieve instant message delivery
 because Apple devices do not allow Delta Chat to fetch data in the background.
 Push notifications are automatically activated for iOS users because
@@ -277,7 +277,7 @@ does not expose data to Apple that it doesn't already have.
 
 If a "Push Service" is available, Delta Chat enables Push Notifications
 to achieve instant message delivery for all chatmail users.
-If you are using a classic e-mail provider instead of [chatmail](chatmail) servers,
+If you are using a classic e-mail provider instead of [chatmail](https://delta.chat/chatmail) servers,
 Push Notifications are not available.
 
 In the Delta Chat "Notifications" settings for "Instant delivery"
@@ -316,9 +316,9 @@ to any system involved in the delivery of Push Notifications.
 Here is how Delta Chat apps perform Push Notification delivery:
 
 - A Delta Chat app obtains a "device token" locally and stores it
-  on the [chatmail](chatmail) server.
+  on the [chatmail](https://delta.chat/chatmail) server.
 
-- When a [chatmail](chatmail) server receives an e-mail for a Delta Chat user
+- When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
   it forwards the "device token" to the central Delta Chat notification proxy.
 
 - The central Delta Chat notification proxy forwards
@@ -354,7 +354,7 @@ without asking questions up-front that are more suited to expert users or develo
 
 Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
 that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](chatmail#selfhosted).
+including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
 Welcome to the power of the interoperable and massive chatmail and e-mail system :)
 
 
