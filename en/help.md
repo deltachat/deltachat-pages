@@ -1102,7 +1102,6 @@ This is what Delta Chat does with these permissions:
   - ask to ignore battery optimisations: for achieving "instant message delivery"
 
 
-
 ### Does Delta Chat work with _my_ e-mail-provider?
 
 - With a rather good chance: Yes :)  
