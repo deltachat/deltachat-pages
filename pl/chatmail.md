@@ -1,17 +1,14 @@
 ---
-title: Chatmail for instant, interoperable and privacy-preserving messaging
+title: Chatmail do natychmiastowych, interoperacyjnych i chroniących prywatność rozmów
 lang: pl
 ---
 
 
-## What are chatmail servers and how to select one? 
+## Co to są serwery chatmail i jak je wybrać?
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers are optimized for messaging with Delta Chat 
-to provide a privacy-preserving and speedy user experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Serwery Chatmail są zoptymalizowane do przesyłania wiadomości za pomocą Delta Chat, aby zapewnić ochronę prywatności i szybką obsługę użytkownika, bezpiecznie współpracując z chatmailem i klasycznymi serwerami poczty e-mail. **Dotknij link do serwera chatmail**, aby wyświetlić stronę główną, a następnie dotknij znajdujący się tam kod QR zaproszenia:
 
 - [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
   for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).

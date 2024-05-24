@@ -35,11 +35,11 @@ Aby uzyskać więcej informacji, zalecamy przeczytanie i śledzenie naszego [blo
 
 Następujące kanały komunikacji związane z Delta Chat są prowadzone przez strony trzecie, które mogą, ale nie muszą, przestrzegać naszych [Standardów społeczności](community-standards):
 
-- English-speaking Delta Chat community group, you can join the group:
-  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
-  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [In Telegram](https://t.me/deltachat_community)
+- Anglojęzyczne grupy Delta Chat (możesz dołączyć do grupy):
+  * [W Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [W Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [W XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [W Telegramie](https://t.me/deltachat_community)
 
 - [Społeczność Lemmy](https://lemmy.zip/c/delta_chat), którą możesz śledzić, wpisując `!delta_chat@lemmy.zip` w polu wyszukiwania swojej aplikacji fediverse.
 

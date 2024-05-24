@@ -1,19 +1,19 @@
 ---
-title: Delta Chat, decentralized secure messenger 
+title: Delta Chat, zdecentralizowany i bezpieczny komunikator 
 lang: pl
 ---
 
-# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
+# Delta Chat to zdecentralizowany i bezpieczny komunikator {#homepage-heading}
 
-💬 Reliable instant messaging with multi-profile and multi-device support
+💬 Niezawodny komunikator z obsługą wielu profili i wielu urządzeń
 
-⚡️ Sign up to [secure fast chatmail servers](chatmail) or use [classic e-mail servers](https://providers.delta.chat/)
+⚡️ Zarejestruj się, aby korzystać z [bezpiecznych i szybkich serwerów chatmail](chatmail) lub korzystaj z [tradycyjnych serwerów e-mail](https://providers.delta.chat/)
 
-🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
+🥳 Interaktywne [aplikacje internetowe w czatach](https://webxdc.org/) do gier i współpracy
 
-🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
+🔒 [Audytowaneszyfrowanie end-to-end](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) zabezpieczające przed atakami sieciowymi i serwerowymi
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+👉 Oprogramowanie [F](https://pl.wikipedia.org/wiki/Wolne_oprogramowanie)[OSS](https://pl.wikipedia.org/wiki/Otwarte_oprogramowanie), stworzone w oparciu o [standardy internetowe](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), unikające [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">
@@ -57,6 +57,6 @@ lang: pl
 
 [Pobierz](https://get.delta.chat){: .cta-button}
 
-Available on mobile and desktop.
+Dostępne na urządzenia mobilne i komputery stacjonarne.
 
 
