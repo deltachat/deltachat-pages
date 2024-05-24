@@ -8,27 +8,46 @@ header: 常见问题
 
 ## 什么是 Delta Chat？
 
-Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并在条件允许情况下使用 Autocrypt 对其进行加密。**您不必在任何地方进行注册，在 Delta Chat 中使用您现有的电子邮件帐户即可。** 
+Delta Chat is a reliable, decentralized and secure messaging app, 
+available for mobile and desktop platforms.
+
+Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
+You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
+which are minimal e-mail servers optimized for fast and secure operations. 
+Or you may use classic e-mail servers and an existing e-mail account
+in which case Delta Chat acts as an e-mail app. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### 如何找到可以聊天的人？
 
-通过 Delta Chat，您可以发消息到每个现有的电子邮件地址——即使收件人没有使用 Delta Chat 应用。不需要像其他通信软件一样，要收件人安装和您一样的应用。
+To securely setup contact with others [scan an invite QR code 
+or share an invite link](#howtoe2ee). 
+This is required when using a (default) chatmail-based chat profile 
+because chatmail servers reject un-encrypted outgoing messages.
+
+If you create a chat profile with a classic e-mail address 
+you may manually create a contact if you know their e-mail address
+and then write a message to them 
+even if the recipient is not using Delta Chat.
 
 
 ### 与其他通信软件相比，Delta Chat 有哪些优势？
 
-- _独立_ 于任何公司或服务。_您_ 拥有您的数据。
-- 您的数据不会保存于中央服务器，除非所有用户都在使用同一个电子邮件服务器。
-- 您不会将通讯录分发给任何人。
-- _快速_——使用 Push-IMAP。
-- _最广泛的用户基础_——也可以与 _不_ 使用 Delta Chat 的收件人进行联系。
-- _没有垃圾信息_——默认情况下仅显示已知用户的消息。
-- _端到端加密_——通过 Autocrypt。
-- 基于 _著佐权_ 与 _标准_ 的自由软件。
-- _身份灵活_，内置[多账户](#multiple-accounts)支持。
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
+  which offer instant push notifications for iOS and Android devices. 
+
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](#security-audits) 
+  safe against network and server attacks. 
+
+- Free and Open Source software, both app and server side. 
+  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### 如果希望收到我从未发送过消息的人的消息，该怎么办?
@@ -44,12 +63,24 @@ Delta Chat 是一个新的聊天应用，它通过电子邮件发送消息，并
 
 - 为了提高性能，默认情况下会对图像进行优化并以较小的尺寸发送，但您也可以将其作为 "文件 "发送，以保留原始图像。
 
-<h3 id="multiple-accounts">如何添加账户或在多个账户之间切换？</h3>
 
-Tap the profile image in the upper left corner to **switch accounts**.
-You will also find **Add Account** there.
+### What are profiles? How can I switch between them? {#multiple-accounts}
 
-您可能还想了解 [如何为多个设备添加账户](#multiclient)。
+A profile is **a name, a picture** and some additional information for encrypting messages.
+A profile lives on your device(s) only
+and uses a chatmail or a classic e-mail server to transport messages.
+
+On first installation of Delta Chat a first profile is created.
+
+Later, you can tap your profile image in the upper left corner to **Add Profiles**
+or to **Switch Profiles**.
+
+You may want to use separate profiles for political, family or work related activities,
+or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
+that tend to cause unsolicited messages ("spam") sooner or later.
+
+You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+
 
 ### 谁会看见我的个人资料图片？
 
@@ -794,12 +825,20 @@ another rather stable experiment we run on the side (sic!).
 
 ### 如何与聊天伙伴分享位置？
 
-- 您可以在高级设置的“实验性功能”部分打开位置流。
-- 如果您想在聊天中分享位置，找到“附件”然后选择“位置”。现在，在 5 分钟到 6 小时之间，设置一个将您的位置传输给聊天伙伴的时间长度。
-- 在您的位置发生变化时，聊天中的其他人可以在地图上看到它。
-- 要看到地图和他人的位置，您需要在高级设置中打开该功能。
-- 此功能不会与您的聊天伙伴以外的任何人分享您的位置。 *但是：*为了显示地图，我们需要从 mapbox.com 下载地图图块。所以，当您 *查看* 地图时， mapbox.com 会收到下载特定区域地图的请求。 如果这对您来说是隐私风险，那么这项功能可能不适合您。我们正在寻找 Mapbox 的去中心化替代品。
-- 在桌面端，操作系统通常不能确定您的位置。不过您可以在地图上右键，然后描述一个位置；这个位置会作为一条消息发送到聊天中，同时也会出现在地图上。
+- You can turn on location streaming in the "experimental features" section of
+  the advanced settings.
+- Now, if you want to share your location in a chat, go to "attach" and select
+  "location". You can now set a time frame in which your location will be
+  streamed to your chat partners, between 5 minutes and 6 hours.
+- When your location changes, the others in the chat can view it on a map in
+  the chat.
+- To see the map and view locations of others, you need to turn on the feature
+  in the advanced settings.
+- This feature will not share your location with anyone except your chat partners.
+  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
+- On desktop, the OS typically can't determine your location. Instead you can
+  right click on the map and describe a location, which is sent to the chat as
+  a message, but also appears on the map.
 
 
 ### 实验性的数据库加密到底保护了什么？

@@ -4,18 +4,17 @@ lang: it
 ---
 
 
-## Cosa sono i server di chatmail?
+## What are chatmail servers and how to select one? 
 
-<img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="160" style="float:right;" />
+<img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-I server di chatmail sono ottimizzati per la messaggistica con Delta Chat
-per fornire un'esperienza utente comoda, veloce e rispettosa della privacy.
+Chatmail servers are optimized for messaging with Delta Chat 
+to provide a privacy-preserving and speedy user experience, 
+securely interoperable with chatmail and classic e-mail servers. 
+**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
 
-Il progetto Delta Chat gestisce il server di chatmail con registrazione aperta predefinito
-su [nine.testrun.org](https://nine.testrun.org)
-che è rimasto stabile dall'[annuncio di Chatmail di dicembre 2023](https://delta.chat/en/2023-12-13-chatmail).
-
-Inoltre, ci sono **server di chatmail gestiti dalla comunità: tocca per iscriverti lì invece che su nine.testrun.org:**
+- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
+  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
 
 - [mehl.cloud](https://mehl.cloud) è orientato agli utenti di lingua tedesca
 ed è stabile da gennaio 2024.
@@ -30,8 +29,17 @@ stabile da febbraio 2024.
   è rivolto agli utenti di lingua italiana ed è
   stabile da Maggio 2024.
 
-Tutti i server chatmail sono completamente sicuri e interoperabili tra loro,
-e forniscono notifiche istantanee agli utenti di dispositivi mobili.
+All chatmail servers are operated by different groups and people. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
+
+## Can i also use a regular e-mail server instead of chatmail?
+
+Sì, molti utenti utilizzano con successo i normali server e-mail
+soprattutto se desiderano gestire le normali comunicazioni e-mail con Delta Chat.
+Consulta il [database dei fornitori](https://provviders.delta.chat) per le opzioni.
+Tieni presente che Delta Chat supporta quindi più profili
+va bene avere un profilo configurato con il tuo normale indirizzo e-mail,
+e un altro profilo per chattare.
 
 
 ## In cosa differiscono i server chatmail dai server e-mail?
@@ -50,21 +58,11 @@ I server chatmail sono server e-mail minimi progettati per velocità, sicurezza 
 i messaggi in arrivo vengono rigorosamente controllati per verificarne l'autenticità.
 
 
-## Posso utilizzare anche un normale server e-mail?
-
-Sì, molti utenti utilizzano con successo i normali server e-mail
-soprattutto se desiderano gestire le normali comunicazioni e-mail con Delta Chat.
-Consulta il [database dei fornitori](https://provviders.delta.chat) per le opzioni.
-Tieni presente che Delta Chat supporta quindi più profili
-va bene avere un profilo configurato con il tuo normale indirizzo e-mail,
-e un altro profilo per chattare.
-
-
 ## Quanto sono affidabili i server  chatmail?
 
-Ciascun server chatmail fornisce ulteriori informazioni sulla privacy nella propria pagina web.
-In genere, un server chatmail elabora solo messaggi crittografati e
-implementa la cancellazione automatica e incondizionata dei messaggi dopo un massimo di 40 giorni.
+Each chatmail server provides additional privacy information on their web page.
+Typically, a chatmail server only processes encrypted messages and
+implements automatic, unconditional message deletion after at most 20 days.
 
 Delta Chat fornisce [crittografia end-to-end garantita](https://delta.chat/en/2023-11-23-jumbo-42)
 il che significa che nella maggior parte dei casi d'uso, gli operatori dei server non potranno mai leggere i tuoi messaggi anche se ci provano,

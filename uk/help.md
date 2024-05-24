@@ -8,28 +8,46 @@ header: Часті питання
 
 ## Що таке Delta Chat?
 
-Delta Chat це новий додаток для спілкування, який надсилає повідомлення через електронну пошту, зашифровані, якщо можливо, за допомогою Autocrypt.
-**Вам не потрібно будь-де реєструватися, просто використовуйте з Delta Chat вашу наявну електронну пошту**
+Delta Chat is a reliable, decentralized and secure messaging app, 
+available for mobile and desktop platforms.
+
+Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
+You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
+which are minimal e-mail servers optimized for fast and secure operations. 
+Or you may use classic e-mail servers and an existing e-mail account
+in which case Delta Chat acts as an e-mail app. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Як мені знайти людей для спілкування?
 
-З Delta Chat ви можете писати на будь-яку адресу електронної пошти, навіть якщо адресат не використовує Delta Chat. Отримувач не повинен інсталювати такий само додаток, що і у вас, як у інших месенджерів.
+To securely setup contact with others [scan an invite QR code 
+or share an invite link](#howtoe2ee). 
+This is required when using a (default) chatmail-based chat profile 
+because chatmail servers reject un-encrypted outgoing messages.
+
+If you create a chat profile with a classic e-mail address 
+you may manually create a contact if you know their e-mail address
+and then write a message to them 
+even if the recipient is not using Delta Chat.
 
 
 ### Які переваги Delta Chat у порівнянні з іншими месенджерами?
 
-- _Незалежний_ від будь-якої компанії чи послуг. _Ви_ володієте своїми даними. 
-- Ваші дані не зберігаються на центральному сервері, якщо усі користувачі не використовують однакові сервери електронної пошти.
-- Ви нікому не роздаєте свою адресну книгу. 
-- _Швидкий_ за допомогою Push-IMAP. 
-- _Найбільша база користувачів_ - також можна охопити одержувачів, які _не_ використовують Delta Chat. 
-- _Без спаму_ - за замовчуванням відображаються лише повідомлення відомих користувачів. 
-- _Наскрізне шифрування_ через Autocrypt. 
-- Безкоштовне програмне забезпечення на основі _Copyleft_ і _Стандартів_. 
-- _Гнучка ідентифікація_ з вбудованою підтримкою [кількох облікових записів](#multiple-accounts)
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
+  which offer instant push notifications for iOS and Android devices. 
+
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](#security-audits) 
+  safe against network and server attacks. 
+
+- Free and Open Source software, both app and server side. 
+  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### Що робити, якщо я очікую повідомлення від когось, кому раніше не писав?
@@ -45,11 +63,24 @@ Delta Chat це новий додаток для спілкування, яки�
 
 - З міркувань продуктивності, зображення оптимізовані та надсилаються в меншому розмірі за замовчуванням, але ви можете надіслати їх як «файл», щоб зберегти оригінал.
 
-<h3 id="multiple-accounts">Як я можу додати або переключитися між кількома обліковими записами?</h3>
 
-Натисніть на зображення профілю у верхньому лівому кутку, щоб **переключити акаунти**. Там же ви знайдете **Додати обліковий запис**.
+### What are profiles? How can I switch between them? {#multiple-accounts}
 
-Ви також можете дізнатися [як додати облікові записи на кілька пристроїв](#multiclient).
+A profile is **a name, a picture** and some additional information for encrypting messages.
+A profile lives on your device(s) only
+and uses a chatmail or a classic e-mail server to transport messages.
+
+On first installation of Delta Chat a first profile is created.
+
+Later, you can tap your profile image in the upper left corner to **Add Profiles**
+or to **Switch Profiles**.
+
+You may want to use separate profiles for political, family or work related activities,
+or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
+that tend to cause unsolicited messages ("spam") sooner or later.
+
+You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+
 
 ### Хто бачить моє зображення профілю?
 
@@ -500,12 +531,20 @@ Delta Chat підтримує поширені формати приватних
 
 ### Як я можу поділитися своїм місцезнаходженням зі своїми співрозмовниками в чаті?
 
-- Ви можете ввімкнути потокове передавання місцезнаходження в розділі «експериментальні функції» в розширених налаштуваннях. 
-- Тепер, якщо ви хочете поділитися своїм місцезнаходженням у чаті, перейдіть до «прикріпити» та виберіть "Місцезнаходження". Тепер ви можете встановити часові рамки, протягом яких ваше місцезнаходження транслюється вашим партнерам у чаті від 5 хвилин до 6 годин. 
-- Коли ваше місцезнаходження змінюється, інші учасники чату можуть побачити його на карті в чат. 
-- Щоб бачити карту та місцезнаходження інших, потрібно ввімкнути цю функцію у розширених налаштуваннях. 
-- Ця функція не надасть доступу до вашого місцезнаходження нікому, крім ваших співрозмовників в чаті. *Але:* щоб показати карту, нам потрібно завантажити фрагменти карти з mapbox.com, тому, якщо ви *переглядаєте* карту, mapbox.com запитує карту конкретної області. Якщо це загроза конфіденційності для вас, ця функція може бути не для вас. Ми працюємо над пошуком децентралізованої альтернативи для Mapbox. 
-- На комп’ютері ОС зазвичай не може визначити ваше місцезнаходження. Натомість ви можете клацнути правою кнопкою миші на карті та надсилати до чату як повідомлення, яке також з’являється на карті.
+- You can turn on location streaming in the "experimental features" section of
+  the advanced settings.
+- Now, if you want to share your location in a chat, go to "attach" and select
+  "location". You can now set a time frame in which your location will be
+  streamed to your chat partners, between 5 minutes and 6 hours.
+- When your location changes, the others in the chat can view it on a map in
+  the chat.
+- To see the map and view locations of others, you need to turn on the feature
+  in the advanced settings.
+- This feature will not share your location with anyone except your chat partners.
+  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
+- On desktop, the OS typically can't determine your location. Instead you can
+  right click on the map and describe a location, which is sent to the chat as
+  a message, but also appears on the map.
 
 
 ### Що насправді захищає експериментальне шифрування бази даних?

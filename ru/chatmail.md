@@ -4,18 +4,17 @@ lang: ru
 ---
 
 
-## Что такое серверы chatmail?
+## What are chatmail servers and how to select one? 
 
-<img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="160" style="float:right;" />
+<img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Серверы Chatmail оптимизированы для обмена сообщениями в Delta Chat
-чтобы обеспечить удобство, конфиденциальность и ускорить работу для пользователей.
+Chatmail servers are optimized for messaging with Delta Chat 
+to provide a privacy-preserving and speedy user experience, 
+securely interoperable with chatmail and classic e-mail servers. 
+**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
 
-Проект Delta Chat управляет chatmail сервером по умолчанию с открытой регистрацией
-на [nine.testrun.org](https://nine.testrun.org)
-который стабильно работает с [декабря 2023](https://delta.chat/en/2023-12-13-chatmail).
-
-Кроме того, существуют **серверы chatmail управляемые сообществом - нажмите чтобы присоединиться к ним вместо nine.testrun.org:**.
+- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
+  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
 
 - [mehl.cloud](https://mehl.cloud) ориентирован на немецкоязычных пользователей и стабильно работает с января 2024 года.
 
@@ -27,8 +26,17 @@ lang: ru
   is geared towards Italian speaking users and has been 
   stable since May 2024. 
 
-Все серверы chatmail полностью и безопасно взаимодействуют друг с другом,
-и обеспечивают мгновенные уведомления для мобильных пользователей.
+All chatmail servers are operated by different groups and people. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
+
+## Can i also use a regular e-mail server instead of chatmail?
+
+Да, многие пользователи успешно используют обычные почтовые серверы
+особенно если они хотят обрабатывать свою обычную электронную почту с помощью Delta Chat.
+Варианты смотрите в [базе данных провайдеров](https://providers.delta.chat).
+Обратите внимание, что Delta Chat поддерживает несколько учетных записей, поэтому
+вполне достаточно иметь один аккаунт, настроенный на ваш обычный адрес электронной почты,
+а другой - для общения в чате.
 
 
 ## Чем серверы chatmail отличаются от серверов e-mail?
@@ -47,21 +55,11 @@ lang: ru
   входящие сообщения строго проверяются на подлинность.
 
 
-## Могу ли я также использовать обычный почтовый сервер?
-
-Да, многие пользователи успешно используют обычные почтовые серверы
-особенно если они хотят обрабатывать свою обычную электронную почту с помощью Delta Chat.
-Варианты смотрите в [базе данных провайдеров](https://providers.delta.chat).
-Обратите внимание, что Delta Chat поддерживает несколько учетных записей, поэтому
-вполне достаточно иметь один аккаунт, настроенный на ваш обычный адрес электронной почты,
-а другой - для общения в чате.
-
-
 ## Насколько можно доверять серверам chatmail?
 
-Каждый сервер chatmail предоставляет дополнительную информацию о конфиденциальности на своей веб-странице.
-Как правило, сервер chatmail обрабатывает только зашифрованные сообщения и
-использует автоматическое безусловное удаление сообщений не более чем через 40 дней.
+Each chatmail server provides additional privacy information on their web page.
+Typically, a chatmail server only processes encrypted messages and
+implements automatic, unconditional message deletion after at most 20 days.
 
 Delta Chat обеспечивает [гарантированное сквозное шифрование](https://delta.chat/en/2023-11-23-jumbo-42)
 что означает, что в большинстве случаев операторы сервера не смогут прочитать ваши сообщения, даже если попытаются это сделать,

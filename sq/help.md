@@ -8,31 +8,46 @@ header: Pyetje të Bëra Rëndom
 
 ## Ç’është Delta Chat-i?
 
-Delta Chat është një aplikacion i ri bisedash që i dërgon mesazhet përmes email-i, të fshehtëzuar, nëse është e mundur, me Autocrypt. 
-**Nuk ju duhet të regjistroheni gjëkundi, thjesht përdorni me Delta Chat-in llogarinë tuaj ekzistuese email.** 
+Delta Chat is a reliable, decentralized and secure messaging app, 
+available for mobile and desktop platforms.
+
+Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
+You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
+which are minimal e-mail servers optimized for fast and secure operations. 
+Or you may use classic e-mail servers and an existing e-mail account
+in which case Delta Chat acts as an e-mail app. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Si mund të gjej persona për të biseduar me ta? 
 
-Me Delta Chat-in, mund t’i shkruani cilësdo adresë email ekzistuese - madje
-edhe kur marrësi nuk përdor aplikacionin Delta Chat. Për marrësin s’është
-e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tjera.
+To securely setup contact with others [scan an invite QR code 
+or share an invite link](#howtoe2ee). 
+This is required when using a (default) chatmail-based chat profile 
+because chatmail servers reject un-encrypted outgoing messages.
+
+If you create a chat profile with a classic e-mail address 
+you may manually create a contact if you know their e-mail address
+and then write a message to them 
+even if the recipient is not using Delta Chat.
 
 
 ### Cilat janë përparësitë e Delta Chat-it krahasuar me programe të tjerë të llojit?
 
-- _Independent_ of any company or services. _You_ own your data.
-- Your data is not saved on a central server unless all users are using
-  the same e-mail servers
-- You do not distribute your address book to anyone.
-- _Fast_ by the use of Push-IMAP.
-- _Largest userbase_ - recipients _not_ using Delta Chat can be reached as well.
-- _No Spam_ - only messages of known users are shown by default.
-- _End-to-end encryption_ via Autocrypt.
-- _Copyleft_ and _Standards_ based libre software.
-- _Flexible identity_ with built-in support for [multiple accounts](#multiple-accounts)
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
+  which offer instant push notifications for iOS and Android devices. 
+
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](#security-audits) 
+  safe against network and server attacks. 
+
+- Free and Open Source software, both app and server side. 
+  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### Po nëse pres një mesazh prej dikujt të cilit s’i kam shkruar në të kaluarën?
@@ -53,12 +68,24 @@ e nevojshme të instalojë të njëjtin aplikacion me ju, si me programe të tje
 
 - Si parazgjedhje, për funksionim më të mirë, figurat optimizohen dhe dërgohen në madhësi më të vogël, por mund ta dërgoni si një “kartelë”, që të ruhet origjinali.
 
-<h3 id="multiple-accounts">Si mund të shtoj shumë llogari, ose të kaloj nga njëra te tjetra?</h3>
 
-Tap the profile image in the upper left corner to **switch accounts**.
-You will also find **Add Account** there.
+### What are profiles? How can I switch between them? {#multiple-accounts}
 
-Mundet edhe të doni të mësoni [si të shtoni llogari në pajisje të shumta](#multiclient).
+A profile is **a name, a picture** and some additional information for encrypting messages.
+A profile lives on your device(s) only
+and uses a chatmail or a classic e-mail server to transport messages.
+
+On first installation of Delta Chat a first profile is created.
+
+Later, you can tap your profile image in the upper left corner to **Add Profiles**
+or to **Switch Profiles**.
+
+You may want to use separate profiles for political, family or work related activities,
+or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
+that tend to cause unsolicited messages ("spam") sooner or later.
+
+You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+
 
 ### Kush e sheh profilin tim?
 
@@ -860,26 +887,20 @@ another rather stable experiment we run on the side (sic!).
 
 ### Si mund t’u tregoj partnerëve të mi në fjalosje vendndodhjen time?
 
-- Dhënien e vendndodhjes mund ta aktivizoni te ndarja “veçori eksperimentale”
-  e rregullimeve të mëtejshme.
-- Nëse doni të jepni vendndodhjen tuaj në një fjalosje, kaloni te “bashkëngjit” dhe
-  përzgjidhni “vendndodhje”. Tanimë mund të caktoni një interval kohor gjatë
-  të cilit vendndodhja juaj do t’u tregohet partnerëve të fjalosjes tuaj, nga 5 minuta
-  deri në 6 orë.
-- Kur ndryshon vendndodhja juaj, të tjerët në fjalosje mund ta shohin te një hartë
-  te fjalosja.
-- Që të shihni hartën dhe shihni vendndodhjen e të tjerëve, lypset ta aktivizoni
-  veçorinë te rregullimet e mëtejshme.
-- Kjo veçori s’do t’i tregojë vendndodhjen tuaj tjetërkujt nga partnerët e fjalosjes
-  tuaj. *Por:* që të shfaqin hartën, na duhet të shkarkojmë pjesë harte nga
-  mapbox.com, ndaj, nëse **shihni** hartën, mapbox.com i kërkohet harta e
-  një zone të caktuar. Nëse kjo përbën rrezik privatësie për ju, kjo veçori s’bën
-  për ju. Po punojmë për të gjetur një alternativë të decentralizuar në vend të
-  Mapbox-it.
-- Në desktop, OS më vete s’mund të përcaktojë vendndodhjen tuaj. Në vend
-  të kësaj, mund të djathtasklikoni mbi hartën dhe të përshkruani një
-  vendndodhje, e cila dërgohet te fjalosja si një mesazh, por që shfaqet edhe
-  te harta.
+- You can turn on location streaming in the "experimental features" section of
+  the advanced settings.
+- Now, if you want to share your location in a chat, go to "attach" and select
+  "location". You can now set a time frame in which your location will be
+  streamed to your chat partners, between 5 minutes and 6 hours.
+- When your location changes, the others in the chat can view it on a map in
+  the chat.
+- To see the map and view locations of others, you need to turn on the feature
+  in the advanced settings.
+- This feature will not share your location with anyone except your chat partners.
+  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
+- On desktop, the OS typically can't determine your location. Instead you can
+  right click on the map and describe a location, which is sent to the chat as
+  a message, but also appears on the map.
 
 
 ### Ç’mbron konkretisht fshehtëzimi eksperimental i bazës së të dhënave?
