@@ -276,10 +276,9 @@ for Delta Chat users.
 
 Yes, Delta Chat automatically uses Push Notifications for [chatmail](chatmail) profiles. 
 Apple does otherwise not allow to fetch data if users are not actively using Delta Chat. 
-As iOS app usage is anyway tracked by Apple and 
-using Push notifications does not expose information that Apple doesn't anyway have,
+Our [privacy-minimizing Push Notification system](#privacy-notifications)
+does not expose data to Apple that it doesn't already have
 and is this thus enabled by default. 
-See also [How private are Delta Chat Push Notifications?](#privacy-notifications). 
 
 
 ### Are Push notifcications enabled / needed on Android devices? {#android-push}
