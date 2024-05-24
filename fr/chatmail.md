@@ -69,7 +69,7 @@ which means that in most use cases, server operators can never read your message
 a guarantee backed up by a recent [security analysis from ETH Zuerich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## How are chatmail servers run? Can i run one myself? 
+## How are chatmail servers run? Can i run one myself? {#selfhosted}
 
 All chatmail servers are automatically deployed and updated using
 [the public chatmail development repository](https://github.com/deltachat/chatmail).

@@ -36,7 +36,7 @@ even if the recipient is not using Delta Chat.
 ### 与其他通信软件相比，Delta Chat 有哪些优势？
 
 - Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
-  which offer instant push notifications for iOS and Android devices. 
+  which offer instant Push Notifications for iOS and Android devices. 
 
 - Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
 
@@ -210,6 +210,122 @@ They will most likely also not be decryptable anymore
 
 - 若要节省设备上的存储空间，可以开启自动删除旧消息。
 - 找到“聊天与媒体”设置中的“从设备删除旧消息”，在从“一小时后”到“一年后”的一系列选项中选择一个。这样，设备上 *所有* 比所选择时间长度老的消息将被删除。
+
+
+## Instant message delivery and Push Notifications {#instant-delivery}
+
+
+### What are Push Notifications? How can I get instant message delivery?
+
+Push Notifications are sent by Apple and Google "Push services" to a user's device
+so that an inactive Delta Chat app can fetch messages in the background
+and show notifications on a user's phone if needed.
+
+Push Notifications work with all [chatmail](chatmail) servers on
+
+- iOS devices, by integrating with Apple Push services.
+
+- Android devices, by integrating with the Google FCM Push service,
+  including on devices that use [microG](https://microg.org)
+  instead of proprietary Google code on the phone.
+
+As of May 2024, classic e-mail servers do not support Push Notifications
+for Delta Chat users.
+
+
+### Are Push Notifications enabled on iOS devices? Is there an alternative?
+
+Yes, Delta Chat automatically uses Push Notifications for [chatmail](chatmail) profiles.
+And no, there is no alternative on Apple's phones to achieve instant message delivery
+because Apple devices do not allow Delta Chat to fetch data in the background.
+Push notifications are automatically activated for iOS users because
+[Delta Chat's privacy-minimizing Push Notification system](#privacy-notifications)
+does not expose data to Apple that it doesn't already have.
+
+
+### Are Push notifications enabled / needed on Android devices? {#android-push}
+
+If a "Push Service" is available, Delta Chat enables Push Notifications
+to achieve instant message delivery for all chatmail users.
+If you are using a classic e-mail provider instead of [chatmail](chatmail) servers,
+Push Notifications are not available.
+
+In the Delta Chat "Notifications" settings for "Instant delivery"
+you can change the following settings effecting all chat profiles:
+
+- Use Push Service: the default when using chatmail profiles and if
+  a Push service is available on the phone.
+  If you have both chatmail and classic e-mail profiles,
+  then Push Notification will only work
+  for incoming messages on chatmail profiles.
+
+- Use Background Connection: If you are not using a Push service,
+  you may disable "battery optimizations" for Delta Chat,
+  allowing it to fetch messages in the background.
+  However, there could be delays from minutes to hours.
+  Some Android vendors even restrict apps completely
+  (see [dontkillmyapp.com](https://dontkillmyapp.com))
+  and Delta Chat might not show  incoming messages
+  until you manually open the app again.
+  
+- Force Background Connection: This is the fallback option
+  if the previous options are not available or do not achieve "instant delivery".
+  Enabling it causes a permanent notification on your phone
+  which may sometimes be "minified" with recent Android phones.
+
+Both "Background Connection" options are energy-efficient and
+safe to try if you experience messages arrive only with long delays.
+
+
+### How private are Delta Chat Push Notifications? {#privacy-notifications}
+
+Delta Chat Push Notification support avoids leakage of private information.
+It does not leak e-mail, IP address or message content (not even encrypted)
+to any system involved in the delivery of Push Notifications.
+
+Here is how Delta Chat apps perform Push Notification delivery:
+
+- A Delta Chat app obtains a "device token" locally and stores it
+  on the [chatmail](chatmail) server.
+
+- When a [chatmail](chatmail) server receives an e-mail for a Delta Chat user
+  it forwards the "device token" to the central Delta Chat notification proxy.
+
+- The central Delta Chat notification proxy forwards
+  the "device token" to the respective Push service (Apple, Google, etc.),
+  without ever knowing the IP or e-mail address of Delta Chat users.
+
+- The central Push Service (Apple, Google, etc.)
+  wakes up the Delta Chat app on your device
+  to check for new messages in the background.
+  It does not know about the chatmail or e-mail address of the device it wakes up.
+  The central Apple/Google Push services never see an e-mail address (sender or receiver)
+  and also never see any message content (also not in encrypted forms).
+
+As of May 2024, chatmail servers know about "device tokens"
+but we plan to encrypt this information to the notification proxy
+such that the chatmail server never learns the device token.
+
+The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
+and forgets about device-tokens as soon as Apple/Google/etc processed them,
+usually in a matter of milliseconds.
+
+Resulting from this overall privacy design, even the seizure of a chatmail server,
+or the full seizure of the central Delta Chat notification proxy
+would not reveal private information that Push services do not already have.
+
+
+### Why does Delta Chat integrate with centralized proprietary Apple/Google push services?
+
+Delta Chat is a free and open source decentralized messenger with free server choice,
+but we want users to reliably experience "instant delivery" of messages,
+like they experience from Whatsapp, Signal or Telegram apps,
+without asking questions up-front that are more suited to expert users or developers.
+
+Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
+that achieves "instant delivery" of messages for all chatmail servers
+including a potential one [you might setup yourself without our permission](chatmail#selfhosted).
+Welcome to the power of the interoperable and massive chatmail and e-mail system :)
 
 
 ## 加密和安全 
@@ -890,27 +1006,27 @@ it](https://delta.chat/en/2022-09-14-aeap).
 
 根据使用的操作系统，系统可能会要求您向本应用授予权限。下面 Delta Chat 使用各类权限进行的操作：
 
-- 相机*（可被禁止）*
-  - 拍照和录像：用于发送照片
-- 联系人*（可被禁止）*
-  - 读取联系人：发现要与之聊天的联系人
-- 位置*（可被禁止）*
-  - 访问大概位置（基于网络）：用于位置流功能
-  - 访问精确位置（基于 GPS 和网络）：用于位置流功能
-- 麦克风*（可被禁止）*
-  - 录制音频：用于音频消息
-- 存储*（可被禁止）*
-  - 修改或删除 SD 卡的内容：下载消息附件
-  - 读取 SD 卡的内容：与联系人分享文件
-- 其他权限
-  - 更改音频设置：允许您选择通知和音频消息的铃声和音量
-  - 开机自启动：您不必手动启动 Delta Chat
-  - 控制振动：用于通知
-  - 查看网络连接：连接到您的电子邮件提供商
-  - 阻止手机进入休眠状态：您可以在 Autocrypt 设置消息中更轻松地复制安全代码
-  - 具有完全的网络访问权限：连接到您的电子邮件提供商
-  - 查看 Wi-Fi 连接：连接到您的电子邮件提供商
-  - 要求忽略电池优化：给希望一直接收消息的用户使用
+- Camera *(can be disallowed)*
+  - take pictures and videos: for sending Photos
+- Contacts *(can be disallowed)*
+  - read your contacts: to discover contacts to chat with
+- Location *(can be disallowed)*
+  - access approximate location (network location sources): for the location streaming feature
+  - access precise location (GPS and network location sources): for the location streaming feature
+- Microphone *(can be disallowed)*
+  - record audio: for audio messages
+- Storage *(can be disallowed)*
+  - modify or delete the contents of your SD card: to download message attachments
+  - read the contents of your SD card: to share files with your contacts
+- Other app capabilities
+  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
+  - run at startup: so you don't have to start Delta Chat manually
+  - control vibration: for notifications
+  - view network connections: to connect to your E-Mail provider
+  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
+  - have full network access: to connect to your E-Mail provider
+  - view Wi-Fi connections: to connect to your E-Mail provider
+  - ask to ignore battery optimisations: for achieving "instant message delivery"
 
 
 ### Delta Chat 可用于 _我的_ 电子邮件提供商吗？
@@ -934,14 +1050,6 @@ it](https://delta.chat/en/2022-09-14-aeap).
 如果您使用具有 OAuth2 支持的电子邮件提供商，例如 gmail.com 或 yandex.ru，则无需在设备上存储密码。在这种情况下，只有访问令牌被使用。
 
 由于 Delta Chat 是开源的，要验证您的凭据是否被安全地处理了，可以检查[源代码](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)。我们很高兴能收到使本应用对我们的所有用户更加安全的反馈。
-
-
-### 使用电子邮件的 Delta Chat 真的是 _即时_ 通讯工具吗？
-
-- 通常情况下，发送和接收消息会花费数秒。收发消息有时会花费更长时间；但是对于其他的通信软件来说，这也是真的。
-- 在双方都积极使用本应用时，即时聊天反应迅速；而当应用运行在后台时，有时就会很慢。
-- 由于 Android 与 iOS 经常阻止 Delta Chat 在后台运行、偶尔才会唤醒它，接收消息可能要花费数分钟。iOS 上的这种人为延迟通常比 Android 上的更糟糕。
-- 另外，对于很多正常应用来说，Android 和 iOS 杀掉后台应用是一个问题。更多信息，请参阅 [dontkillmyapp.com](https://dontkillmyapp.com/)。
 
 
 ### 哪些消息会在 Delta Chat 中出现？

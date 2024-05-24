@@ -66,7 +66,7 @@ Delta Chat обеспечивает [гарантированное сквозн
 Эта гарантия подтверждена недавним [анализом безопасности от Швейцарской высшей технической школой Цюриха ETH](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## Как работают серверы chatmail?
+## How are chatmail servers run? Can i run one myself? {#selfhosted}
 
 Все серверы chatmail автоматически развертываются и обновляются с помощью
 [публичного репозитория разработки chatmail](https://github.com/deltachat/chatmail).
