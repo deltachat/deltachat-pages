@@ -250,64 +250,74 @@ They will most likely also not be decryptable anymore
   older than that.
 
 
-## Instant message delivery and Push Notifications
+## Instant message delivery and Push Notifications {#instant-delivery}
+
 
 ### What are Push Notifications? How can I get instant message delivery? 
 
-Push Notifications are a technical mechanism to wake up inactive apps 
-on incoming messages. 
-They are delivered by Apple and Google servers (soon also Huawei and others likely)
-to a device so that Delta Chat gets a chance to fetch messages for its user
-and show notifications even if Delta Chat is currently inactive. 
+Push Notifications are sent by Apple and Google "Push services" to a user's device 
+so that an inactive Delta Chat app can fetch messages in the background
+and show notifications on a user's phone if needed. 
 
 Push Notifications work with all [chatmail](chatmail) servers on
 
-- iOS devices, by integrating with Apple Push Notification servers.
+- iOS devices, by integrating with Apple Push services. 
 
-- Android devices, by integrating with the Google FCM Push Notification
-  servers, including on devices that use [microG](https://microg.org) 
-  instead of proprietary Google code. 
+- Android devices, by integrating with the Google FCM Push service, 
+  including on devices that use [microG](https://microg.org) 
+  instead of proprietary Google code on the phone. 
 
 As of May 2024, classic e-mail servers do not support Push Notifications
 for Delta Chat users. 
 
 
-### Are Push Notifications enabled on iOS devices? 
+### Are Push Notifications enabled on iOS devices? Is there an alternative? 
 
 Yes, Delta Chat automatically uses Push Notifications for [chatmail](chatmail) profiles. 
-Apple does otherwise not allow to fetch data if users are not actively using Delta Chat. 
-Our [privacy-minimizing Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have
-so push notifications are enabled by default. 
+And no, there is no alternative on Apple's phones to achieve instant message delivery
+because Apple devices do not allow Delta Chat to fetch data in the background. 
+Push notifications are automatically activated for iOS users because 
+[Delta Chat's privacy-minimizing Push Notification system](#privacy-notifications)
+does not expose data to Apple that it doesn't already have. 
 
 
 ### Are Push notifications enabled / needed on Android devices? {#android-push}
 
-If you are using a [chatmail](chatmail) account and 
-your device is capable and already connected to Google (including on 
-"de-googled" phones which use microG to connect to Google services) 
-Delta Chat automatically enables Push Notifications to achieve instant notifications. 
-You may disable them in the "Notifications" settings. 
+If a "Push Service" is available, Delta Chat by default enables Push Notifications 
+to achieve instant message delivery for all chatmail users. 
+If you are using a classic e-mail provider instead of [chatmail](chatmail) servers,
+Push Notifications are not available. 
 
-Without using a chatmail server or when Push Notifications are disabled 
-Delta Chat might still manage to reliably notify about messages 
-but you might experience minute-long delays before seeing incoming messages. 
-Or worse, some Android vendors restrict apps heavily
-(see [dontkillmyapp.com](https://dontkillmyapp.com))
-and Delta Chat might not show  incoming messages 
-until you manually open the app again. 
+In the Delta Chat "Notifications" settings for "Instant delivery" 
+you can change the following settings effecting all chat profiles: 
 
-To achieve instant notifications without Push Notifications 
-you may enable "Reliable Background Notification" 
-to allow Delta Chat to run in the background.  
-It will do so efficiently and without consuming much battery 
-but this typically causes a permanent notification on your phone 
-(that can be "minified" with some recent Android phones). 
+- Use Push Service: the default when using chatmail profiles and if
+  a Push service is available on the phone.  
+  If you have both chatmail and classic e-mail profiles, 
+  then Push Notification will only work 
+  for incoming messages on chatmail profiles. 
+
+- Use Background Connection: If you are not using a Push service, 
+  you may disable "battery optimizations" for Delta Chat,
+  allowing it to fetch messages in the background. 
+  However, there could be delays from minutes to hours. 
+  Some Android vendors even restrict apps completely 
+  (see [dontkillmyapp.com](https://dontkillmyapp.com))
+  and Delta Chat might not show  incoming messages 
+  until you manually open the app again. 
+  
+- Force Background Connection: This is the fallback option
+  if the previous options are not available or do not achieve "instant delivery". 
+  Enabling it causes a permanent notification on your phone 
+  which may sometimes be "minified" with recent Android phones. 
+
+Both "Background Connection" options are energy-efficient and 
+safe to try if you experience messages arrive only with long delays. 
 
 
-### How private are Delta Chat Push Notifications? {:privacy-notifications}
+### How private are Delta Chat Push Notifications? {#privacy-notifications}
 
-Delta Chat Push Notification support is designed to avoid any leakage of private information.
+Delta Chat Push Notification support avoids leakage of private information.
 It does not leak e-mail, IP address or message content (not even encrypted)
 to any system involved in the delivery of Push Notifications.
 
@@ -317,29 +327,43 @@ Here is how Delta Chat apps perform Push Notification delivery:
   on the [chatmail](chatmail) server.
 
 - When a [chatmail](chatmail) server receives an e-mail for a Delta Chat user
-  it forwards the "device token" to the central Delta Chat notification server.
+  it forwards the "device token" to the central Delta Chat notification proxy. 
 
-- The central Delta Chat notification server forwards
-  the "device token" to the respective Push Notification provider (Apple, Google, etc.),
-  without learning the IP or e-mail address of Delta Chat users.
+- The central Delta Chat notification proxy forwards
+  the "device token" to the respective Push service (Apple, Google, etc.),
+  without ever knowing the IP or e-mail address of Delta Chat users.
 
-- The central Push Notification provider (Apple, Google, etc.) gets the "device token"
-  and wakes up the Delta Chat app on the respective end-user device
-  which in turns checks with the chatmail server for new messages.
-  The central Apple/Google server never see an e-mail address (sender or receiver)
-  and also never see any message content (also not any encrypted content).
+- The central Push Service (Apple, Google, etc.) 
+  wakes up the Delta Chat app on your device
+  to check for new messages in the background.
+  It does not know about the chatmail or e-mail address of the device it wakes up. 
+  The central Apple/Google Push services never see an e-mail address (sender or receiver)
+  and also never see any message content (also not in encrypted forms). 
 
 As of May 2024, chatmail servers know about "device tokens"
-but we plan to encrypt this information to the notification server
-such that the chatmail server never sees the device token.
+but we plan to encrypt this information to the notification proxy 
+such that the chatmail server never learns the device token.
 
-The central Delta Chat notification server [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
-and forgets about device-tokens as soon as they have been processed
-from Apple/Google/etc push providers -- typically a matter of a few milliseconds.
+The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
+and forgets about device-tokens as soon as Apple/Google/etc processed them,
+usually in a matter of milliseconds. 
 
 Resulting from this overall privacy design, even the seizure of a chatmail server,
-or the seizure of the central Delta Chat notification server
-would not reveal any private information.
+or the full seizure of the central Delta Chat notification proxy 
+would not reveal private information that Push services do not already have.
+
+
+### Why does Delta Chat integrate with centralized proprietary Apple/Google push services? 
+
+Delta Chat is a free and open source decentralized messenger with free server choice, 
+but we want users to reliably experience "instant delivery" of messages,
+like they experience from Whatsapp, Signal or Telegram apps,
+without asking questions up-front that are more suited to expert users or developers. 
+
+Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
+that achieves "instant delivery" of messages for all chatmail servers
+including a potential one [you might setup yourself without our permission](chatmail#selfhosted).
+Welcome to the power of the interoperable and massive chatmail and e-mail system :) 
 
 
 ## Encryption and Security 
@@ -1076,7 +1100,7 @@ This is what Delta Chat does with these permissions:
   - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
   - have full network access: to connect to your E-Mail provider
   - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for users who want to receive messages all the time
+  - ask to ignore battery optimisations: for achieving "instant message delivery"
 
 
 
