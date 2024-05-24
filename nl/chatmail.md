@@ -4,7 +4,7 @@ lang: nl
 ---
 
 
-## What are chatmail servers and how to select one? 
+## Wat zijn chatmailservers en hoe kies ik er een uit?
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 

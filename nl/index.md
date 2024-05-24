@@ -7,7 +7,7 @@ lang: nl
 
 💬 Betrouwbare communicatie met ondersteuning voor meerdere accounts en apparaten
 
-⚡️ Sign up to [secure fast chatmail servers](chatmail) or use [classic e-mail servers](https://providers.delta.chat/)
+⚡️ Registreer een account op [veilige en snelle chatmailservers](chatmail) of maak gebruik van [traditionele e-mailservers](https://providers.delta.chat/)
 
 🥳 Geniet van interactieve gesprekken met behulp van [webapps](https://webxdc.org/), bijvoorbeeld samen werken of gamen
 

@@ -4,17 +4,15 @@ lang: de
 ---
 
 
-## What are chatmail servers and how to select one? 
+## Was sind Chatmail-Server und wie kann ich einen auswählen?
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers are optimized for messaging with Delta Chat 
-to provide a privacy-preserving and speedy user experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Chatmail-Server sind für den Nachrichtenaustausch mit Delta Chat optimiert,   datenschutzfreundlich, schnell, sicher und interoperabel mit Chatmail- und klassischen E-Mail-Servern. 
+**Tippen Sie auf einen Chatmail-Server-Link**, um die Homepage zu sehen, und tippen Sie dort auf den QR-Einladungscode: 
 
-- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
-  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+- [nine.testrun.org](https://nine.testrun.org) ist der Standard-Chatmail-Server
+für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigung](https://delta.chat/en/2023-12-13-chatmail) stabil.
 
 - [mehl.cloud](https://mehl.cloud) ist auf deutschsprachige Nutzer ausgerichtet und ist seit Januar 2024 stabil.
 
@@ -22,14 +20,12 @@ securely interoperable with chatmail and classic e-mail servers.
 
 - [bcc.chat](https://bcc.chat) wird in den USA betrieben und ist seit Februar 2024 stabil.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been 
-  stable since May 2024. 
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) ist auf Italienisch sprechende Nutzer ausgerichtet und ist seit Mai 2024 stabil.
 
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Alle Chatmail-Server werden von verschiedenen Gruppen und Personen betrieben. 
+Der Standard-Server nine.testrun.org wird vom des Delta-Chat-Kernteam betrieben. 
 
-## Can i also use a regular e-mail server instead of chatmail?
+## Kann ich auch einen klassischen E-Mail-Server verwenden?
 
 Ja, viele Benutzer verwenden erfolgreich reguläre E-Mail-Server, vor allem, wenn sie ihre regelmäßige E-Mail-Kommunikation mit Delta Chat abwickeln wollen.
 Die [Anbieterdatenbank](https://providers.delta.chat) zeigt Optionen auf.
@@ -54,9 +50,9 @@ Chatmail-Server sind minimale E-Mail-Server, die auf Geschwindigkeit, Sicherheit
 
 ## Wie vertrauenswürdig sind Chatmail-Server?
 
-Each chatmail server provides additional privacy information on their web page.
-Typically, a chatmail server only processes encrypted messages and
-implements automatic, unconditional message deletion after at most 20 days.
+Jeder Chatmail-Server bietet zusätzliche Informationen zum Datenschutz auf seiner Webseite.
+Normalerweise verarbeitet ein Chatmail-Server nur verschlüsselte Nachrichten und
+implementiert eine automatische, bedingungslose Löschung der Nachrichten nach höchstens 20 Tagen.
 
 Delta Chat bietet [garantierte Ende-zu-Ende-Verschlüsselung](https://delta.chat/en/2023-11-23-jumbo-42)
 was bedeutet, dass in den meisten Anwendungsfällen die Serverbetreiber Ihre Nachrichten nicht lesen können, selbst wenn sie es versuchen.

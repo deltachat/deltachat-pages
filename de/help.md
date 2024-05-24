@@ -8,46 +8,41 @@ header: Häufig gestellte Fragen
 
 ## Was ist Delta Chat?
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
-available for mobile and desktop platforms.
+Delta Chat ist eine zuverlässige, dezentralisierte und sichere Messaging-App, verfügbar für Mobile- und Desktop-Plattformen.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](chatmail) 
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+Delta Chat sieht wie Whatsapp oder Telegram aus, aber kann auch als E-Mail-App verwendet und betracht werden. 
+Sie können sich anonym bei einer Vielzahl von [interoperablen Chatmail-Servern](chatmail) anmelden, bei denen es sich um minimale E-Mail-Server handelt, die für einen schnellen und sicheren Betrieb optimiert sind. 
+Oder Sie verwenden einen klassische E-Mail-Server und ein bestehendes E-Mail-Konto.
+In diesem Fall fungiert Delta Chat als E-Mail-App. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Wie finde ich Leute, mit denen ich chatten kann? 
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
+Zur sicheren Kontaktaufnahme mit anderen [scannen Sie einen Einladungs-QR-Code 
+oder teilen Sie einen Einladungslink](#howtoe2ee). 
+Dies ist erforderlich, wenn Sie ein Chatmail-basiertes Profil verwenden, weil Chatmail-Server unverschlüsselte ausgehende Nachrichten ablehnen.
 
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+Wenn Sie ein Profil mit einer klassischen E-Mail-Adresse verwenden, können Sie manuell Kontakte über bekannte E-Mail-Adresse hinzufügen und anschreiben -
+auch wenn der Empfänger Delta Chat nicht benutzt.
 
 
 ### Welche Vorteile hat Delta Chat gegenüber anderen Messengern?
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](chatmail)
-  which offer instant push notifications for iOS and Android devices. 
+- Anonyme Chat-Profile mit schnellen, sicheren und interoperablen [Chatmail-Servern](chatmail),
+die sofortige Push-Benachrichtigungen für iOS- und Android-Geräte bieten. 
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+- Durchgängige [Multi-Profil](#Mehrfach-Accounts) und Multi-Geräte-Unterstützung auf allen Plattformen. 
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+- Interaktive [Webanwendungen in Chats] (https://webxdc.org/apps) für Spiele und für die Zusammenarbeit
 
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
+- [Geprüfte Ende-zu-Ende-Verschlüsselung](#security-audits), 
+sicher gegen Netzwerk- und Serverangriffe. 
 
-- Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
+- Freie und quelloffene Software, sowohl app- als auch serverseitig. 
+Basiert auf [E-Mail- und Web-Internet-Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+um das [„Noch-ein-Standard-Syndrom“ (xkcd 927)](https://xkcd.com/927/) zu vermeiden.
 
 
 ### Was ist, wenn ich eine Nachricht von jemandem erwarte, dem ich in der Vergangenheit nicht geschrieben habe?
@@ -64,22 +59,22 @@ even if the recipient is not using Delta Chat.
 - Um die Leistung zu verbessern, werden die Bilder standardmäßig optimiert und in einer kleineren Größe gesendet, aber Sie können sie auch als "Datei" senden, um das Original zu erhalten.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### Was sind Profile? Wie kann ich zwischen ihnen wechseln? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses a chatmail or a classic e-mail server to transport messages.
+Ein Profil besteht aus **einem Namen, einem Bild** und einigen zusätzlichen Informationen zum Verschlüsseln von Nachrichten.
+Ein Profil existiert nur auf Ihren Geräten
+und verwendet einen Chatmail- oder einen klassischen E-Mail-Server für den Transport von Nachrichten.
 
-On first installation of Delta Chat a first profile is created.
+Bei der Installation von Delta Chat wird ein erstes Profil erstellt.
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+Später können Sie auf Ihr Profilbild in der oberen linken Ecke tippen, um **Profile hinzuzufügen**
+oder **Profile zu wechseln**.
 
-You may want to use separate profiles for political, family or work related activities,
-or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
-that tend to cause unsolicited messages ("spam") sooner or later.
+Vielleicht möchten Sie separate Profile für politische, familiäre oder berufliche Aktivitäten verwenden,
+oder z. B. für ein spezielles „Spam-Profil“, mit dem Sie sich bei Websites und Plattformen anmelden
+die dazu neigen, früher oder später unerwünschte Nachrichten („Spam“) zu versenden.
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+Vielleicht möchten Sie auch erfahren, wie Sie [Profile auf mehreren Geräten verwenden können](#multiclient).
 
 
 ### Wer sieht mein Profilbild?
@@ -743,20 +738,12 @@ Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ide
 
 ### Wie kann ich meinen Standort mit meinen Chat-Partnern teilen?
 
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat partners.
-  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
+- Sie können das Standort-Streaming im Abschnitt "Experimentelle Features" der erweiterten Einstellungen aktivieren.
+- Wenn Sie nun Ihren Standort in einem Chat teilen möchten, gehen Sie zu "Anhängen" und wählen Sie "Standort". Sie können nun einen Zeitraum zwischen 5 Minuten und 6 Stunden festlegen, in dem Ihr Standort an Ihre Chat-Partner gestreamt wird.
+- Wenn sich Ihr Standort ändert, können die anderen im Chat ihn auf einer Karte im Chat sehen.
+- Um die Karte und die Standorte anderer anzuzeigen, müssen Sie die Funktion in den erweiterten Einstellungen aktivieren.
+- Diese Funktion teilt Ihren Standort mit niemandem außer Ihren Chat-Partnern. Kartendaten werden von  [OpenStreetMap](https://openstreetmap.org) heruntergeladen.
+- Auf dem Desktop kann das Betriebssystem Ihren Standort normalerweise nicht bestimmen. Stattdessen können Sie mit der rechten Maustaste auf die Karte klicken und einen Ort beschreiben, der als Nachricht an den Chat gesendet wird, aber auch auf der Karte erscheint.
 
 
 ### Was schützt die experimentelle Datenbankverschlüsselung tatsächlich?
