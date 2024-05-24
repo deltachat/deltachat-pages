@@ -10,24 +10,17 @@ lang: pl
 
 Serwery Chatmail są zoptymalizowane do przesyłania wiadomości za pomocą Delta Chat, aby zapewnić ochronę prywatności i szybką obsługę użytkownika, bezpiecznie współpracując z chatmailem i klasycznymi serwerami poczty e-mail. **Dotknij link do serwera chatmail**, aby wyświetlić stronę główną, a następnie dotknij znajdujący się tam kod QR zaproszenia:
 
-- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
-  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+- [nine.testrun.org](https://nine.testrun.org) to domyślny serwer chatmail dla aplikacji Delta Chat, który działa stabilnie od [ogłoszenia usługi Chatmail w grudniu 2023 r.](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users and has been stable since January 2024.
+- [mehl.cloud](https://mehl.cloud) jest skierowany dla użytkowników niemieckojęzycznych i działa stabilnie od stycznia 2024 r.
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking
-  users and has been stable since January 2024.
+- [mailchat.pl](https://mailchat.pl) jest skierowany do użytkowników mówiących po polsku i działa stabilnie od stycznia 2024 roku.
 
-- [bcc.chat](https://bcc.chat) operates in the US and has been
-  stable since February 2024.
+- [bcc.chat](https://bcc.chat) działa w USA i od lutego 2024 roku jest stabilny.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been 
-  stable since May 2024. 
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) jest skierowany do użytkowników włoskojęzycznych i działa stabilnie od maja 2024 r.
 
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Wszystkie serwery chatmail są obsługiwane przez różne grupy i osoby. Domyślny serwer nine.testrun.org jest obsługiwany przez głównych członków zespołu Delta Chat.
 
 ## Can i also use a regular e-mail server instead of chatmail?
 
@@ -66,7 +59,7 @@ which means that in most use cases, server operators can never read your message
 a guarantee backed up by a recent [security analysis from ETH Zuerich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## How are chatmail servers run? Can i run one myself? 
+## How are chatmail servers run? Can i run one myself? {#selfhosted}
 
 All chatmail servers are automatically deployed and updated using
 [the public chatmail development repository](https://github.com/deltachat/chatmail).
