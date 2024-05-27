@@ -11,7 +11,7 @@ lang: pl
 
 🥳 Interaktywne [aplikacje internetowe w czatach](https://webxdc.org/) do gier i współpracy
 
-🔒 [Audytowaneszyfrowanie end-to-end](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) zabezpieczające przed atakami sieciowymi i serwerowymi
+🔒 [Audytowane szyfrowanie end-to-end](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) zabezpieczające przed atakami sieciowymi i serwerowymi
 
 👉 Oprogramowanie [F](https://pl.wikipedia.org/wiki/Wolne_oprogramowanie)[OSS](https://pl.wikipedia.org/wiki/Otwarte_oprogramowanie), stworzone w oparciu o [standardy internetowe](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), unikające [xkcd927](https://xkcd.com/927/) :)
 

@@ -8,13 +8,13 @@ lang: nl
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers are optimized for messaging with Delta Chat 
-to provide a privacy-preserving and speedy user experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Chatmailservers zijn speciaal gemaakt voor het voeren van gesprekken via Delta Chat. 
+De servers bieden een hoge mate van privacybescherming en een hoge snelheid, 
+en zijn compatibel met zowel chatmailservers onderling als traditionele mailservers. 
+**Druk op een chatmailserverlink** om de bijbehorende website te openen en druk daar op de QR-code: 
 
-- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
-  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+- [nine.testrun.org](https://nine.testrun.org) is de standaard chatmailserver
+  van Delta Chat-apps en is sinds [december 2023 stabiel verklaard](https://delta.chat/en/2023-12-13-chatmail).
 
 - [mehl.cloud](https://mehl.cloud) is georiënteerd op Duitssprekenden
   en is sinds januari 2024 stabiel verklaard.
@@ -28,10 +28,10 @@ securely interoperable with chatmail and classic e-mail servers.
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) is georiënteerd op Italiaanssprekenden
   en is sinds mei 2024 stabiel verklaard.
 
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Alle chatmailservers worden beheerd door verschillende (groepen) mensen. 
+De nine.testrun.org-server wordt beheerd door personen van het Delta Chat-team.
 
-## Can i also use a regular e-mail server instead of chatmail?
+## Kan ik ook gebruikmaken van een gewone e-mailserver?
 
 Ja. De meeste gebruikers maken gebruik van gewone e-mailservers, vooral als ze ook hun gewone e-mailcommunicatie via Delta Chat willen afhandelen.
 Bekijk de [providerdatabank](https://providers.delta.chat) om een idee te krijgen van ondersteunde e-mailproviders.
@@ -58,16 +58,16 @@ Chatmailservers zijn minimale e-mailservers gericht op snelheid, veiligheid en g
 
 ## Hoe veilig zijn chatmailservers?
 
-Each chatmail server provides additional privacy information on their web page.
-Typically, a chatmail server only processes encrypted messages and
-implements automatic, unconditional message deletion after at most 20 days.
+Iedere chatmailserver beschrijft aanvullende privacy-informatie op de eigen website.
+Normaliter handelt een chatmailserver alleen versleutelde berichten af en
+worden berichten na maximaal 20 dagen automatisch verwijderd.
 
 Delta Chat biedt [gegarandeerde eind-tot-eindversleuteling](https://delta.chat/en/2023-11-23-jumbo-42),
 zodat serverbeheerders doorgaans geen toegang hebben tot je berichten, zelfs niet als ze hun best doen.
 Deze garantie is bevestigd door een recente [beveiligingsanalyse van ETH Zuerich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## How are chatmail servers run? Can i run one myself? {#selfhosted}
+## Hoe worden chatmailservers beheerd en kan ik er zelf ook een opzetten? {#selfhosted}
 
 Alle chatmailservers worden automatisch opgezet en van updates voorzien met behulp van
 [de openbare chatmailontwikkelingsrepo](https://github.com/deltachat/chatmail).
