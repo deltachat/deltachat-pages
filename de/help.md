@@ -455,8 +455,8 @@ und die Verschlüsselung ist mit beiden Geräten Ihres Kontakts garantiert.
 **Ihr Kontakt hat Delta Chat mit seinem alten Login neu installiert**
  
 Wenn Ihr Kontakt [ein Backup](#backup) hat, 
-sollten das Konto auf dem neuen Gerät 
-entfernen werden und stattdessen das Backup importieren werden, um das Konto neu zu erstellen. 
+sollte das Profil auf dem neuen Gerät 
+entfernt werden und stattdessen das Backup importiert werden, um das Konto neu zu erstellen. 
 Sobald sie sich danach schreiben, wird die Warnung verschwinden
 und die garantierte Verschlüsselung wird für diesen Kontakt wiederhergestellt.
 
@@ -745,7 +745,7 @@ Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schwe
 
 ### Kann ich Delta Chat auf mehreren Geräten zur selben Zeit verwenden?
 
-Ja. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Ja. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
 
 - Stellen Sie sicher, dass sich beide Geräte im selben Wi-Fi oder Netzwerk befinden
 
@@ -777,7 +777,7 @@ Verwenden Sie nach Möglichkeit ein Nicht-Gast-Netzwerk. Wenn Sie Zugriff auf de
 
 - Wenn die Übertragung begonnen hat, stellen Sie sicher, dass die Geräte **aktiv bleiben** und nicht ausgehen. Beenden Sie Delta Chat nicht. (wir bemühen uns, die App im Hintergrund laufen zu lassen, aber [Systeme neigen dazu, Apps zu beenden](https://dontkillmyapp.com), leider)
 
-- Sie sind auf dem Zielgerät **bereits eingeloggt**? Sie können mehrere Konten pro Gerät verwenden, fügen Sie einfach [ein weiteres Konto hinzu](#multiple-accounts)
+- Sie sind auf dem Zielgerät **bereits eingeloggt**? Sie können mehrere Profile pro Gerät verwenden, fügen Sie einfach [ein weiteres Konto hinzu](#multiple-accounts)
 
 - Wenn Sie immer noch Probleme haben oder wenn Sie **keinen QR-Code scannen können** versuchen Sie die **manuelle Übertragung** wie unten beschrieben
 
@@ -881,7 +881,7 @@ Die Aktivierung von "Nur aus DeltaChat-Ordner lesen" ist sinnvoll, wenn Sie **be
 In diesem Fall muss Delta Chat den Posteingang nicht beobachten, und es reicht aus, nur den DeltaChat-Ordner zu beobachten.
 
 
-### Wie kann ich mein Konto auf eine andere E-Mail-Adresse ändern?
+### Wie kann ich mein Profil auf eine andere E-Mail-Adresse ändern?
 
 1. Ändern Sie Ihre E-Mail-Adresse unter "Einstellungen → Erweitert → Passwort und E-Mail-Konto" und
 geben Sie das Passwort Ihres neuen E-Mail-Konto (und ggf. die Servereinstellungen) ein.
@@ -909,27 +909,27 @@ Um mehr über die Details dahinter zu erfahren, [lesen Sie unseren Blogpost dazu
 
 Je nach verwendetem Betriebssystem werden Sie möglicherweise aufgefordert, der App Berechtigungen zu erteilen. Diese werden wie folgt verwendet:
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for achieving "instant message delivery"
+- Kamera *(kann verweigert werden)*
+  - Bilder und Videos aufnehmen: Um Fotos zu senden
+- Kontakte *(kann verweigert werden)*
+  - Kontakte lesen: Um Kontakte zum Chatten zu finden
+- Standort *(kann verweigert werden)*
+  - Auf den ungefähren Standort zugreifen (netzwerkbasiert): Für die Standortübertragungsfunktion
+  - Auf genauen Standort zugreifen (GPS- und netzwerkbasiert): Für die Standortübertragungsfunktion
+- Mikrofon *(kann verweigert werden)*
+  - Audio aufnehmen: Für Sprachnachrichten
+- Speicher *(kann verweigert werden)*
+  - SD-Karteninhalte ändern oder löschen: Um Nachrichtenanhänge herunterzuladen
+  - SD-Karteninhalte lesen: Um Dateien mit Ihren Kontakten zu teilen
+- Andere Berechtigungen:
+  - Audio-Einstellungen ändern: Um Klingeltöne und die Lautstärke für Benachrichtigungen und Audionachrichten zu wählen
+  - Beim Start ausführen: Um Delta Chat nicht manuell starten zu müssen
+  - Vibrationsalarm steuern: Für Benachrichtigungen
+  - Netzwerkverbindungen abrufen: Um eine Verbindung zu Ihrem E-Mail-Anbieter herzustellen
+  - Ruhezustand deaktivieren: Um den Sicherheitscode während der Autocrypt-Setupnachricht einfacher abtippen zu können
+  - Auf alle Netzwerke zugreifen: Um eine Verbindung zu Ihrem E-Mail-Anbieter herzustellen
+  - WLAN-Verbindungen abrufen: Um eine Verbindung zu Ihrem E-Mail-Anbieter herzustellen
+  - Fragen, ob Akku-Leistungsoptimierungen ignoriert werden können: Für NutzerInnen, die permanent Nachrichten empfangen möchten
 
 
 ### Funktioniert Delta Chat mit _meinem_ E-Mail-Anbieter?

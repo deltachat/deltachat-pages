@@ -503,8 +503,8 @@ to find out what happened.
 **Your contact reinstalled Delta Chat using their old account login**
  
 If they have [a backup file](#backup), 
-they should remove the account from the new device 
-and rather import the backup file to re-create their account. 
+they should remove the profile from the new device
+and rather import the backup file to re-create their profile.
 As soon as they message you afterwards, the warning will be gone
 and guaranteed encryption is re-established for this contact.
 
@@ -654,12 +654,12 @@ deliver messages to recipient's devices.
 
 Both for protecting against metadata-collecting e-mail servers 
 as well as against the threat of device seizure
-we recommend to use a Delta Chat optimized [e-mail server instance](https://delta.chat/serverguide)
-to create pseudonymous temporary accounts through QR-code scans.
-Note that Delta Chat apps on all platforms support multiple accounts 
-so you can easily use action-specific "1-week" or "1-month" accounts next to your "main" account
-with the knowledge that all temporary account data, along with all metadata, will be deleted.
-Moreover, if a device is seized then contacts using temporary e-mail accounts
+we recommend to use a [chatmail server](https://delta.chat/chatmail)
+to create pseudonymous temporary profiles through QR-code scans.
+Note that Delta Chat apps on all platforms support multiple profiles
+so you can easily use situation-specific profiles next to your "main" profile
+with the knowledge that all their data, along with all metadata, will be deleted.
+Moreover, if a device is seized then contacts using temporary profiles
 can not be identified easily, as compared to messengers which reveal
 phone numbers in chat groups which in turn are often associated with legal identities.
 
@@ -697,7 +697,7 @@ and their non-Autocrypt e-mail app.
 ### How can i get an end-to-end encrypted chat with a Delta Chat contact who sometimes uses webmail or another non-Autocrypt e-mail app? 
 
 If you need a safely end-to-end encrypted chat with a contact 
-who is using their account both with Delta Chat and non-Autocrypt apps (e.g. webmail),
+who is using their e-mail account both with Delta Chat and non-Autocrypt apps (e.g. webmail),
 it's best to setup [guaranteed end-to-end encryption with them](#howtoe2ee)
 and then create a guaranteed end-to-end encrypted group chat with you two as members. 
 In this group chat all messages will be end-to-end encrypted 
@@ -837,7 +837,7 @@ independent security analysis, from most recent to older:
 
 ### Можно ли использовать Delta Chat на нескольких устройствах одновременно?
 
-Yes. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Yes. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
 
 - Make sure both devices are on the same Wi-Fi or network
 
@@ -892,8 +892,8 @@ This method is only recommended if "Add Second Device" as described above does n
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.
-- On the new device, on the login screen, instead of logging into your email
-  account, choose "Import Backup". After import, your conversations, encryption
+- On the new device, in the "I already have a profile" menu,
+  choose "restore from backup". After import, your conversations, encryption
   keys, and media should be copied to the new device.
   - **If you use iOS:** and you encounter difficulties, maybe
     [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
@@ -1045,7 +1045,7 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 ### Как я могу изменить свою учётную запись на другой адрес e-mail?
 
 1. Change your address in “Settings → Advanced → Password and Account” and
-   enter the password of your new account (and if necessary, server settings).
+   enter the password of your new e-mail account (and if necessary, server settings).
    You will get an information notice about the fact that you are moving to a new address. 
    An additional notice will also show up in your "Device messages" chat. 
 
