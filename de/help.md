@@ -213,20 +213,19 @@ Wenn Sie der Gruppe später erneut beitreten möchten, bitten Sie ein anderes Gr
 
 ### Was sind Push-Benachrichtigungen? Wie kann ich Nachrichten sofort erhalten?
 
-Push Notifications are sent by Apple and Google "Push services" to a user's device
-so that an inactive Delta Chat app can fetch messages in the background
-and show notifications on a user's phone if needed.
+Push-Benachrichtigungen werden von Apples und Googles „Push-Diensten“ an das Gerät des Benutzers gesendet,
+so dass eine inaktive Delta-Chat-App im Hintergrund Nachrichten erhalten
+und Benachrichtigungen auf dem Telefon des Nutzers anzeigen kann.
 
-Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
+Push-Benachrichtigungen funktionieren mit allen [Chatmail](https://delta.chat/chatmail)-Servern auf
 
-- iOS devices, by integrating with Apple Push services.
+- iOS-Geräten, durch die Integration mit den Apple-Push-Diensten.
 
-- Android devices, by integrating with the Google FCM Push service,
-  including on devices that use [microG](https://microg.org)
-  instead of proprietary Google code on the phone.
+- Android-Geräten, durch die Integration des Google FCM Push-Dienste,
+auch auf Geräten, die [microG](https://microg.org)
+anstelle von proprietärem Google-Code auf dem Telefon.
 
-As of May 2024, classic e-mail servers do not support Push Notifications
-for Delta Chat users.
+Stand Mai 2024 unterstützen die klassischen E-Mail-Server keine Push-Benachrichtigungen für Delta-Chat-Benutzer.
 
 
 ### Sind Push-Benachrichtigungen auf iOS-Geräten aktiviert? Gibt es Alternativen?

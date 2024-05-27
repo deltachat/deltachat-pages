@@ -7,9 +7,9 @@ lang: it
 
 💬 Messaggistica istantanea affidabile con supporto multiprofilo e multidispositivo
 
-⚡️ Sign up to [secure fast chatmail servers](chatmail) or use [classic e-mail servers](https://providers.delta.chat/)
+⚡️ Iscriviti a [server e-mail sicuri e veloci](chatmail) o utilizza [server e-mail classici](https://providers.delta.chat/)
 
-🥳 Interattive [App Web nelle chat](https://webxdc.org/) per giocare e collaborare
+🥳 Interattive [Web App nelle chat](https://webxdc.org/) per giocare e collaborare
 
 🔒 [Crittografia end-to-end controllata](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) sicura contro attacchi alla rete e al server
 
