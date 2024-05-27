@@ -473,7 +473,7 @@ W marcu 2024 r. otrzymaliśmy dogłębną analizę bezpieczeństwa od grupy bada
 
 ### Czy mogę korzystać z Delta Chat na wielu urządzeniach w tym samym czasie?
 
-Tak. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Tak. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
 
 - Upewnij się, że oba urządzenia są połączone z tego samego Wi-Fi lub sieci
 

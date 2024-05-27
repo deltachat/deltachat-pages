@@ -545,7 +545,7 @@ Delta Chat підтримує поширені формати приватних
 
 ### Чи можна використовувати Delta Chat на декількох пристроях одночасно?
 
-Так. Delta Chat 1.36 comes with a new, experimental function for using the same account on different devices:
+Так. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
 
 - Упевніться, що обидва пристрої підключені до одного Wi-Fi або мережі
 
