@@ -402,16 +402,17 @@ you can generate an invite link.
 If you are together in person,
 you can show a QR code to your chat partner.
 
-1. For **Group invitations**,
-   tap the chat group title to see its member list,
-   and select "QR Invite code".
-2. For **direct 1:1 chat invitations**,
-   tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-   on the Delta Chat app main screen.
+- For **Group invitations**,
+  tap the chat group title to see its member list,
+  and select "QR Invite code".
+
+- For **direct 1:1 chat invitations**,
+  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
 
 Let your chat partner scan the QR image
 with their Delta Chat app,
-or click "Copy" to create an invite link
+or click "Copy" or "Share" to create an invite link
 and share it with your chat partner.
 
 Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
