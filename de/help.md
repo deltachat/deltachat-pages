@@ -272,7 +272,7 @@ Both "Background Connection" options are energy-efficient and
 safe to try if you experience messages arrive only with long delays.
 
 
-### ### Wie privat sind Delta Chat Push-Benachrichtigungen? {#privacy-notifications}
+### Wie privat sind Delta Chat Push-Benachrichtigungen? {#privacy-notifications}
 
 Delta Chat Push Notification support avoids leakage of private information.
 It does not leak e-mail, IP address or message content (not even encrypted)
