@@ -654,7 +654,7 @@ deliver messages to recipient's devices.
 
 Both for protecting against metadata-collecting e-mail servers 
 as well as against the threat of device seizure
-we recommend to use a [chatmail server](chatmail)
+we recommend to use a [chatmail server](https://delta.chat/chatmail)
 to create pseudonymous temporary profiles through QR-code scans.
 Note that Delta Chat apps on all platforms support multiple profiles
 so you can easily use situation-specific profiles next to your "main" profile
