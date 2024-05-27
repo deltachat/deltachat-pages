@@ -42,7 +42,7 @@ che offrono notifiche push istantanee per dispositivi iOS e Android.
 
 - Interattive [web app nelle chat](https://webxdc.org/apps) per giochi e collaborazione
 
-- [Crittografia end-to-end controllata](#controlli-sicurezza) 
+- [Crittografia end-to-end controllata](#security-audits) 
 sicuro contro gli attacchi alla rete e al server.
 
 - Software Libero e Open Source, sia lato app che lato server. 
@@ -69,7 +69,7 @@ messaggi da questa persona, prendete in considerazione la possibilità di *blocc
 - Per le prestazioni, le immagini sono ottimizzate e inviate in dimensioni inferiori per impostazione predefinita, ma è possibile inviarle come "file" per preservare l'originale.
 
 
-### Cosa sono i profili? Come posso passare dall'uno all'altro? {#account-multipli}
+### Cosa sono i profili? Come posso passare dall'uno all'altro? {#multiple-accounts}
 
 Un profilo è **un nome, un'immagine** e alcune informazioni aggiuntive per crittografare i messaggi.
 Un profilo risiede solo sui tuoi dispositivo(i)
@@ -310,7 +310,7 @@ Entrambe le opzioni "Connessione in Background" sono efficienti dal punto di vis
 è sicuro provarlo se riscontri che i messaggi arrivano solo con lunghi ritardi.
 
 
-### Quanto sono private le Notifiche Push di Delta Chat? {#notifiche-privacy}
+### Quanto sono private le Notifiche Push di Delta Chat? {#privacy-notifications}
 
 Il supporto delle Notifiche Push di Delta Chat evita la fuga di informazioni private.
 Non perde e-mail, indirizzo IP o contenuto dei messaggi (nemmeno crittografati)
