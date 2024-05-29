@@ -230,12 +230,12 @@ Stand Mai 2024 unterstützen die klassischen E-Mail-Server keine Push-Benachrich
 
 ### Sind Push-Benachrichtigungen auf iOS-Geräten aktiviert? Gibt es Alternativen?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-minimizing Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Ja, Delta Chat verwendet automatisch Push-Benachrichtigungen für [Chatmail](https://delta.chat/chatmail)-Profile.
+Und nein, es gibt für Apple-Telefonen keine Alternative, Push-Benachrichten zuzustellen;
+Apple-Geräte erlauben es Delta Chat nicht, Daten im Hintergrund abzurufen.
+Push-Benachrichtigungen werden für iOS-Nutzer automatisch aktiviert, da
+[Delta Chats datenschutzminimierendes Push-Benachrichtigungssystem](#privacy-notifications)
+keine Daten an Apple weitergibt, die Apple nicht bereits hat.
 
 
 ### Sind Push-Benachrichtigungen auf Android-Geräten aktiviert/erforderlich? {#android-push}
@@ -312,15 +312,15 @@ would not reveal private information that Push services do not already have.
 
 ### Warum integriert sich Delta Chat in zentralisierte, proprietäre Apple/Google-Push-Dienste?
 
-Delta Chat is a free and open source decentralized messenger with free server choice,
-but we want users to reliably experience "instant delivery" of messages,
-like they experience from Whatsapp, Signal or Telegram apps,
-without asking questions up-front that are more suited to expert users or developers.
+Delta Chat ist ein freier, quelloffener, dezentraler Messenger mit freier Serverwahl,
+aber wir wollen, dass die Nutzer eine zuverlässige „Sofortzustellung“ von Nachrichten haben,
+wie sie es von Whatsapp, Signal oder Telegram kennen,
+ohne im Vorfeld Fragen zu stellen, die eher für erfahrene Nutzer oder Entwickler geeignet sind.
 
-Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
-that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable and massive chatmail and e-mail system :)
+Beachten Sie, dass Delta Chat ein [kleines, die Privatsphäre wahrendes Push-Benachrichtigungssystem](#privacy-notifications)
+hat, das eine „sofortige Zustellung“ von Nachrichten für alle Chatmail-Server erreicht.
+Einschließlich dem Chatmail-Server, [den Sie selbst ohne unsere Erlaubnis einrichten könnten](https://delta.chat/chatmail#selfhosted).
+Willkommen bei der Macht des interoperablen und massiven Chatmail- und E-Mail-Systems :)
 
 
 ## Verschlüsselung und Sicherheit
@@ -352,40 +352,25 @@ Die Ende-zu-Ende-Verschlüsselung ist garantiert, wenn neben dem Chat-Titel ein 
 
 ### Wie kann ich garantierte Ende-zu-Ende-Verschlüsselung und grüne Häkchen erhalten? {#howtoe2ee}
 
-Treffen Sie Ihren Chat-Partner außerhalb von Delta Chat, vorzugsweise persönlich.
-Ein zweiter Kanal wie ein Video-Chat
-oder ein anderer Messenger ist aber auch in Ordnung.
-Führen Sie das folgende QR-Code-Verfahren mit Ihrem Chat-Partner durch.
-Einer von Ihnen ist der "Einlader", die andere ist der "Beitretende".
+Wenn Sie einen zweiten Kommunikationskanal mit Ihrem Chatpartner haben,
+wie einen Video-Chat oder einen anderen Messenger,
+können Sie einen Einladungslink erstellen.
 
-**Auf der Seite des Einladers**:
+Wenn Sie persönlich zusammen sind,
+können Sie Ihrem Chat-Partner einen QR-Code zeigen.
 
-- Gruppeneinladung: 
-Tippen Sie auf den Titel der Chat-Gruppe, um die Mitgliederliste anzuzeigen, und wählen Sie "QR-Einladungscode". 
-Zeigen Sie das QR-Bild der anderen Seite entweder persönlich oder über einen zweiten Kanal.
+- Für **Gruppeneinladungen**,
+tippen Sie auf den Titel der Gruppe, um die Mitgliederliste anzuzeigen,
+und wählen Sie „QR-Einladungscode“.
 
-- Direktchat-Einladung: 
-Tippen Sie auf das QR-Code-Symbol <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-auf dem Hauptbildschirm der Delta Chat-App.
-Zeigen Sie das QR-Bild der anderen Seite entweder persönlich oder über einen zweiten Kanal.
+- Für **Direktchat-Einladungen**,
+tippen Sie auf das QR-Code-Symbol <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+auf dem Hauptbildschirm der Delta-Chat-App.
 
-**Auf der Seite des Beitretenden**:
+Lassen Sie Ihren Chat-Partner den QR-Code mit der Delta-Chat-App scannen.
+Oder Sie klicken auf „Kopieren“ oder „Teilen“, um einen Einladungslink zu erstellen und diesen mit Ihrem Chat-Partner zu teilen.
 
-- Tippen Sie auf das QR-Code-Symbol <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-auf dem Hauptbildschirm der Delta Chat-App.
-
-- Wählen Sie "QR-CODE SCANNEN" und scannen Sie den QR-Code 
-den Sie von Ihrem Chat-Partner in einem zweiten Kanal sehen oder erhalten haben.
-
-- "OK" tippen
-
-Wenn QR-Code-Scannen in Ihrer Situation nicht funktioniert,
-können Sie auch einen Einladungslink **Teilen** (oder **In die Zwischenablage kopieren**)
-und über einen zweiten Kanal an die andere Person weiterleiten.
-
-**Beide, Einlader und Beitretender**:
-
-Warten Sie, während das [Secure-Join-Protokoll](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) zwischen den Geräten abläuft.
+Warten Sie nun, während das [Secure-Join-Protokoll] (https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) zwischen beiden Geräten abläuft.
 
 - Wenn beide Geräte online sind,
 sehen beide Seiten schließlich einen Gruppen- oder Direkt-Chat mit einem grünen Häkchen

@@ -388,40 +388,27 @@ La crittografia end-to-end è garantita se è presente un segno di spunta verde 
 
 ### Come posso ottenere la crittografia end-to-end garantita e i segni di spunta verdi? {#howtoe2ee}
 
-Incontra il tuo partner di chat fuori Delta Chat, preferibilmente di persona
-ma un secondo canale come una chat video
-oppure va bene anche un altro messenger.
-Esegui la seguente procedura di presentazione/scansione QR con il tuo partner di chat.
-Uno di voi è l'"Invitante", l'altro è l'"Invitato".
+If you have a second communication channel with your chat partner,
+like a video chat or a different messenger,
+you can generate an invite link.
 
-**Lato invito**:
+If you are together in person,
+you can show a QR code to your chat partner.
 
-- Invito di gruppo:
-Tocca il titolo del gruppo di chat per visualizzare l'elenco dei membri e seleziona "Codice QR di invito".
-Condividi l'immagine QR con l'altra parte di persona o tramite un secondo canale.
+- For **Group invitations**,
+  tap the chat group title to see its member list,
+  and select "QR Invite code".
 
-- Invito diretto alla chat 1:1:
-  Tocca l'icona del Codice QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  nella schermata principale dell'app Delta Chat.
-  Condividi l'immagine QR con l'altra persona o tramite un secondo canale.
+- For **direct 1:1 chat invitations**,
+  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
 
-**Lato invitato**:
+Let your chat partner scan the QR image
+with their Delta Chat app,
+or click "Copy" or "Share" to create an invite link
+and share it with your chat partner.
 
-- Tocca l'icona del codice QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  nella schermata principale dell'app Delta Chat.
-
-- Scegli "SCANSIONE CODICE QR" e scansiona il Codice QR
-  che vedi dal tuo partner di chat in un secondo canale.
-
-- Tocca "OK".
-
-Se la scansione del codice QR non funziona nella tua situazione,
-puoi anche **Condividere** (o **Copiare negli Appunti**) un link di invito equivalente
-all'altra persona attraverso un secondo canale.
-
-**Sia Invitante che Invitato**:
-
-Attendere mentre [i messaggi di rete Secure-Join vengono scambiati](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) tra entrambi i dispositivi.
+Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - Se entrambi i dispositivi sono online,
   entrambe le parti vedranno eventualmente una chat (di gruppo o diretta) con un segno di spunta verde

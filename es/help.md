@@ -388,36 +388,27 @@ El cifrado de extremo a extremo está garantizado si hay una estampilla verde  c
 
 ### ¿Cómo puedo obtener cifrado de extremo a extremo garantizado y estampillas verdes? {#howtoe2ee}
 
-Encuentrate con tu compañero de chat fuera de Delta Chat, preferiblemente en persona, pero también está bien utilizar un segundo canal como una videollamada o una applicaciónde chat diferente. Realiza el siguiente procedimiento de mostrar/escanear QR con tu compañero de chat.
+If you have a second communication channel with your chat partner,
+like a video chat or a different messenger,
+you can generate an invite link.
 
-**Lado del invitado**:
+If you are together in person,
+you can show a QR code to your chat partner.
 
-- Invitación de grupo:
-Toca el título del grupo de chat para ver la lista de miembros y selecciona "Código de invitación QR".
-Comparte la imagen del código QR con la otra persona, ya sea en persona o a través de otro canal de comunicación.
+- For **Group invitations**,
+  tap the chat group title to see its member list,
+  and select "QR Invite code".
 
-- Direct 1:1 chat invitation: 
-  Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
-  Share the QR image with the other side either in person or through a second channel.
-
-**Lado del que se une**:
-
-- Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+- For **direct 1:1 chat invitations**,
+  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
   on the Delta Chat app main screen.
 
-- Choose "SCAN QR CODE" and scan the QR Code 
-  that you see from your chat partner in a second channel.
+Let your chat partner scan the QR image
+with their Delta Chat app,
+or click "Copy" or "Share" to create an invite link
+and share it with your chat partner.
 
-- Tap "OK"
-
-If the QR code scanning doesn't work in your situation,
-you can also **Share** (or **Copy to Clipboard**) an equivalent invite link
-to the other person through a second channel.
-
-**Tanto el que invita como el que se une**:
-
-Espere mientras se intercambian los mensajes de [Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) entre ambos dispositivos.
+Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - Si ambos dispositivos están en línea,
 ambas partes eventualmente verán un chat (grupal o directo) con una estampilla verde

@@ -395,40 +395,27 @@ Autocrypt использует ограниченное и [подмножест
 
 ### Как получить гарантированное сквозное шифрование и зеленые галочки? {#howtoe2ee}
 
-Встретьтесь с партнером по чату вне Delta Chat, предпочтительно лично.
-но можно использовать и второй канал, например, видеочат
-или другой мессенджер тоже подойдет.
-Выполните следующую процедуру показа/сканирования QR с вашим партнером по чату.
-Один из вас - "Приглашающий", другой - "Присоединившийся". 
+If you have a second communication channel with your chat partner,
+like a video chat or a different messenger,
+you can generate an invite link.
 
-**Сторона приглашающего**:
+If you are together in person,
+you can show a QR code to your chat partner.
 
-- Приглашение в группу: 
-  Нажмите на название чат-группы, чтобы увидеть список ее участников, и выберите "QR-код приглашения". 
-  Поделитесь QR-изображением с собеседником лично или по второму каналу.
+- For **Group invitations**,
+  tap the chat group title to see its member list,
+  and select "QR Invite code".
 
-- Direct 1:1 chat invitation: 
-  Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
-  Share the QR image with the other side either in person or through a second channel.
-
-**Сторона приглашённого**:
-
-- Tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+- For **direct 1:1 chat invitations**,
+  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
   on the Delta Chat app main screen.
 
-- Выберите "Сканировать QR код" и отсканируйте QR-код 
-  который вы видите у партнера по чату во втором канале.
+Let your chat partner scan the QR image
+with their Delta Chat app,
+or click "Copy" or "Share" to create an invite link
+and share it with your chat partner.
 
-- Нажмите "OK".
-
-If the QR code scanning doesn't work in your situation,
-you can also **Share** (or **Copy to Clipboard**) an equivalent invite link
-to the other person through a second channel.
-
-**Оба пришлатель и приглашённый**:
-
-Подождите, пока между устройствами будет происходить обмен [сетевыми сообщениями Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol).
+Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
 
 - Если оба устройства находятся в сети,
   обе стороны в конечном итоге увидят (групповой или прямой) чат с зеленой галочкой
