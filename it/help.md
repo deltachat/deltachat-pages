@@ -388,27 +388,27 @@ La crittografia end-to-end è garantita se è presente un segno di spunta verde 
 
 ### Come posso ottenere la crittografia end-to-end garantita e i segni di spunta verdi? {#howtoe2ee}
 
-If you have a second communication channel with your chat partner,
-like a video chat or a different messenger,
-you can generate an invite link.
+Se disponi di un secondo canale di comunicazione con il tuo partner di chat,
+come una chat video o un altro messenger,
+puoi generare un link d'invito.
 
-If you are together in person,
-you can show a QR code to your chat partner.
+Se siete insieme di persona,
+puoi mostrare un codice QR al tuo partner di chat.
 
-- For **Group invitations**,
-  tap the chat group title to see its member list,
-  and select "QR Invite code".
+- Per **Inviti di gruppo**,
+tocca il titolo del gruppo di chat per vedere l'elenco dei membri,
+e seleziona "Codice QR di Invito".
 
-- For **direct 1:1 chat invitations**,
-  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
+- Per **inviti diretti alla chat 1:1**,
+  tocca l'icona del codice QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  nella schermata principale dell'app Delta Chat.
 
-Let your chat partner scan the QR image
-with their Delta Chat app,
-or click "Copy" or "Share" to create an invite link
-and share it with your chat partner.
+Lascia che il tuo partner di chat esegua la scansione dell'immagine QR
+con la loro app Delta Chat,
+oppure fai clic su "Copia" o "Condividi" per creare un collegamento di invito
+e condividilo con il tuo partner di chat.
 
-Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Ora attendi che [i messaggi di rete Secure-Join vengano scambiati](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) tra entrambi i dispositivi.
 
 - Se entrambi i dispositivi sono online,
   entrambe le parti vedranno eventualmente una chat (di gruppo o diretta) con un segno di spunta verde

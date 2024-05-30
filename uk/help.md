@@ -8,46 +8,31 @@ header: Часті питання
 
 ## Що таке Delta Chat?
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
-available for mobile and desktop platforms.
+Delta Chat - це надійний, децентралізований та безпечний додаток для обміну повідомленнями, доступний для мобільних і десктопних платформ.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+Delta Chat схожий на Whatsapp або Telegram, але ви також можете використовувати його як додаток електронної пошти. Ви можете анонімно зареєструватися на різних [сумісних chatmail-серверах](https://delta.chat/chatmail) які є мінімальними поштовими серверами, оптимізованими для швидкої та безпечної роботи. Або ви можете використовувати класичні поштові сервери та існуючий обліковий запис електронної пошти в цьому випадку Delta Chat буде працювати як поштовий додаток. 
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Як мені знайти людей для спілкування?
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
+Щоб безпечно встановити контакт з іншими [відскануйте QR-код запрошення або поділіться посиланням на запрошення](#howtoe2ee). Це потрібно, якщо ви використовуєте (за замовчуванням) профіль чату на основі chatmail оскільки chatmail-сервери відхиляють незашифровані вихідні повідомлення.
 
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+Якщо ви створюєте профіль чату з класичною адресою електронної пошти ви можете створити контакт вручну, якщо знаєте його електронну адресу а потім написати йому повідомлення навіть якщо одержувач не використовує Delta Chat.
 
 
 ### Які переваги Delta Chat у порівнянні з іншими месенджерами?
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices. 
+- Анонімні профілі чату з швидкими, безпечними та сумісними [chatmail-серверами](https://delta.chat/chatmail) які пропонують миттєві Push-сповіщення для пристроїв iOS та Android. 
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+- Повсюдна підтримка [декількох профілів](#multiple-accounts) та декількох пристроїв на всіх платформах. 
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+- Інтерактивні [веб-додатки в чатах](https://webxdc.org/apps) для ігор та співпраці
 
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
+- [Аудитоване наскрізне шифрування](#security-audits) захищене від мережевих та серверних атак. 
 
-- Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
+- Вільне програмне забезпечення з відкритим вихідним кодом, як для додатків, так і для сервера. Побудовано на основі [Стандартів електронної пошти та інтернету](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), [щоб уникнути "синдрому ще одного стандарту (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### Що робити, якщо я очікую повідомлення від когось, кому раніше не писав?
@@ -64,22 +49,17 @@ even if the recipient is not using Delta Chat.
 - З міркувань продуктивності, зображення оптимізовані та надсилаються в меншому розмірі за замовчуванням, але ви можете надіслати їх як «файл», щоб зберегти оригінал.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### Що таке профілі? Як я можу перемикатися між ними? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses a chatmail or a classic e-mail server to transport messages.
+Профіль - це **ім'я, зображення** і деяка додаткова інформація для шифрування повідомлень. Профіль існує лише на вашому пристрої (пристроях) і використовує чат або класичний поштовий сервер для передачі повідомлень.
 
-On first installation of Delta Chat a first profile is created.
+Під час першого встановлення Delta Chat створюється перший профіль.
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+Пізніше ви можете натиснути на зображення вашого профілю у верхньому лівому кутку, щоб вибрати **Додати профілі** або **Переключити профілі**.
 
-You may want to use separate profiles for political, family or work related activities,
-or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
-that tend to cause unsolicited messages ("spam") sooner or later.
+Ви можете використовувати окремі профілі для політичної, сімейної або робочої діяльності, або, наприклад, для спеціального "спам-профілю", з яким ви реєструєтесь на веб-сайтах і платформах які рано чи пізно починають надсилати небажані повідомлення ("спам").
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+Ви також можете дізнатися [як використовувати один і той самий профіль на декількох пристроях](#multiclient).
 
 
 ### Хто бачить моє зображення профілю?
@@ -189,120 +169,68 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 Таким чином, *усі* повідомлення будуть видалені з вашого пристрою, як тільки вони будуть старішими за це.
 
 
-## Instant message delivery and Push Notifications {#instant-delivery}
+## Миттєва доставка повідомлень та Push-сповіщення {#instant-delivery}
 
 
-### What are Push Notifications? How can I get instant message delivery?
+### Що таке push-сповіщення? Як отримати миттєву доставку повідомлень?
 
-Push Notifications are sent by Apple and Google "Push services" to a user's device
-so that an inactive Delta Chat app can fetch messages in the background
-and show notifications on a user's phone if needed.
+Push-повідомлення надсилаються "Push-сервісами" Apple та Google на пристрій користувача щоб неактивний додаток Delta Chat міг отримувати повідомлення у фоновому режимі і показувати сповіщення на телефоні користувача, якщо це необхідно.
 
-Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
+Push-сповіщення працюють з усіма [chatmail](https://delta.chat/chatmail)-серверами на
 
-- iOS devices, by integrating with Apple Push services.
+- iOS-пристроях, інтегруючись із сервісами Apple Push.
 
-- Android devices, by integrating with the Google FCM Push service,
-  including on devices that use [microG](https://microg.org)
-  instead of proprietary Google code on the phone.
+- Android-пристроях, шляхом інтеграції з сервісом Google FCM Push, в тому числі на пристроях, які використовують [microG](https://microg.org) замість пропрієтарного коду Google на телефоні.
 
-As of May 2024, classic e-mail servers do not support Push Notifications
-for Delta Chat users.
+Станом на травень 2024 року класичні сервери електронної пошти не підтримують Push-повідомлення для користувачів Delta Chat.
 
 
-### Are Push Notifications enabled on iOS devices? Is there an alternative?
+### Чи ввімкнено Push-сповіщення на пристроях iOS? Чи є альтернатива?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-minimizing Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Так, Delta Chat автоматично використовує push-повідомлення для [chatmail](https://delta.chat/chatmail)-профілів. І ні, на телефонах Apple немає альтернативи миттєвій доставці повідомлень тому що пристрої Apple не дозволяють Delta Chat отримувати дані у фоновому режимі. Push-сповіщення автоматично активуються для користувачів iOS, тому що [система push-сповіщень Delta Chat, що мінімізує конфіденційність](#privacy-notifications) не передає Apple дані, яких у неї ще немає.
 
 
-### Are Push notifications enabled / needed on Android devices? {#android-push}
+### Чи ввімкнені/потрібні Push-сповіщення на пристроях Android? {#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
-If you are using a classic e-mail provider instead of [chatmail](https://delta.chat/chatmail) servers,
-Push Notifications are not available.
+Якщо доступний "Push-сервіс", Delta Chat вмикає Push-сповіщення щоб забезпечити миттєву доставку повідомлень для всіх користувачів чату. Якщо ви використовуєте класичний провайдер електронної пошти замість серверів [chatmail](https://delta.chat/chatmail), Push-сповіщення недоступні.
 
-In the Delta Chat "Notifications" settings for "Instant delivery"
-you can change the following settings effecting all chat profiles:
+У налаштуваннях "Сповіщення" Delta Chat для "Миттєва доставка" ви можете змінити наступні налаштування, які впливають на всі профілі чату:
 
-- Use Push Service: the default when using chatmail profiles and if
-  a Push service is available on the phone.
-  If you have both chatmail and classic e-mail profiles,
-  then Push Notification will only work
-  for incoming messages on chatmail profiles.
+- Використовувати Push-сервіс: за замовчуванням при використанні профілів чату і якщо на телефоні доступна послуга Push. Якщо у вас є профілі чату та класичної електронної пошти, то Push-сповіщення працюватимуть лише для вхідних повідомлень для вхідних повідомлень у профілях чату.
 
-- Use Background Connection: If you are not using a Push service,
-  you may disable "battery optimizations" for Delta Chat,
-  allowing it to fetch messages in the background.
-  However, there could be delays from minutes to hours.
-  Some Android vendors even restrict apps completely
-  (see [dontkillmyapp.com](https://dontkillmyapp.com))
-  and Delta Chat might not show  incoming messages
-  until you manually open the app again.
+- Використовувати фонове підключення: Якщо ви не використовуєте Push-сервіс, ви можете вимкнути "оптимізацію батареї" для Delta Chat, що дозволить йому отримувати повідомлення у фоновому режимі. Однак це може призвести до затримок від декількох хвилин до декількох годин. Деякі постачальники Android навіть повністю обмежують додатки (див. [dontkillmyapp.com](https://dontkillmyapp.com)) і Delta Chat може не показувати вхідні повідомлення доки ви не відкриєте програму вручну.
   
-- Force Background Connection: This is the fallback option
-  if the previous options are not available or do not achieve "instant delivery".
-  Enabling it causes a permanent notification on your phone
-  which may sometimes be "minified" with recent Android phones.
+- Примусове фонове підключення: Це запасний варіант якщо попередні опції недоступні або не досягають "миттєвої доставки". Увімкнення цієї опції спричиняє постійне сповіщення на вашому телефоні яке іноді може бути "мінімізоване" на останніх версіях телефонів Android.
 
-Both "Background Connection" options are energy-efficient and
-safe to try if you experience messages arrive only with long delays.
+Обидва варіанти "Фонового з'єднання" є енергоефективними та безпечні, якщо ви відчуваєте, що повідомлення надходять із великими затримками.
 
 
-### How private are Delta Chat Push Notifications? {#privacy-notifications}
+### Наскільки приватними є push-сповіщення Delta Chat? {#privacy-notifications}
 
-Delta Chat Push Notification support avoids leakage of private information.
-It does not leak e-mail, IP address or message content (not even encrypted)
-to any system involved in the delivery of Push Notifications.
+Підтримка push-сповіщень Delta Chat дозволяє уникнути витоку приватної інформації. Вона не передає електронну пошту, IP-адресу або вміст повідомлень (навіть зашифрованих) до будь-якої системи, яка бере участь у доставці push-сповіщень.
 
-Here is how Delta Chat apps perform Push Notification delivery:
+Ось як програми Delta Chat здійснюють доставку push-сповіщень:
 
-- A Delta Chat app obtains a "device token" locally and stores it
-  on the [chatmail](https://delta.chat/chatmail) server.
+- Додаток Delta Chat отримує "токен пристрою" локально і зберігає його на сервері [chatmail](https://delta.chat/chatmail).
 
-- When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
-  it forwards the "device token" to the central Delta Chat notification proxy.
+- Коли [chatmail](https://delta.chat/chatmail)-сервер отримує електронний лист від користувача Delta Chat він пересилає "токен пристрою" до центрального проксі-сповіщення Delta Chat.
 
-- The central Delta Chat notification proxy forwards
-  the "device token" to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or e-mail address of Delta Chat users.
+- Центральний проксі-сервер сповіщень Delta Chat пересилає "токен пристрою" до відповідного Push-сервісу (Apple, Google тощо), навіть не знаючи IP-адреси чи електронної пошти користувачів Delta Chat.
 
-- The central Push Service (Apple, Google, etc.)
-  wakes up the Delta Chat app on your device
-  to check for new messages in the background.
-  It does not know about the chatmail or e-mail address of the device it wakes up.
-  The central Apple/Google Push services never see an e-mail address (sender or receiver)
-  and also never see any message content (also not in encrypted forms).
+- Центральний Push-сервіс (Apple, Google тощо) запускає додаток Delta Chat на вашому пристрої щоб перевірити наявність нових повідомлень у фоновому режимі. Він не знає про пошту чату або адресу електронної пошти пристрою, який він пробуджує. Центральні служби Apple/Google Push ніколи не бачать адресу електронної пошти (відправника або одержувача) а також ніколи не бачать жодного вмісту повідомлення (навіть в зашифрованому вигляді).
 
-As of May 2024, chatmail servers know about "device tokens"
-but we plan to encrypt this information to the notification proxy
-such that the chatmail server never learns the device token.
+Станом на травень 2024 року chatmail-сервери знають про "токени пристроїв" але ми плануємо зашифрувати цю інформацію для проксі-сповіщень таким чином, щоб сервер чату ніколи не дізнався токен пристрою.
 
-The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
-and forgets about device-tokens as soon as Apple/Google/etc processed them,
-usually in a matter of milliseconds.
+Центральний проксі для сповіщень Delta Chat [невеликий і повністю реалізований на Rust](https://github.com/deltachat/notifiers) забуває про токени пристроїв, як тільки Apple/Google/etc обробили їх, зазвичай за лічені мілісекунди.
 
-Resulting from this overall privacy design, even the seizure of a chatmail server,
-or the full seizure of the central Delta Chat notification proxy
-would not reveal private information that Push services do not already have.
+В результаті цього загального дизайну конфіденційності, навіть захоплення chatmail-сервера, або повне вилучення центрального проксі-сервера повідомлень Delta Chat не призведе до розкриття приватної інформації, якої ще не мають Push-сервіси.
 
 
-### Why does Delta Chat integrate with centralized proprietary Apple/Google push services?
+### Чому Delta Chat інтегрується з централізованими пропрієтарними push-сервісами Apple/Google?
 
-Delta Chat is a free and open source decentralized messenger with free server choice,
-but we want users to reliably experience "instant delivery" of messages,
-like they experience from Whatsapp, Signal or Telegram apps,
-without asking questions up-front that are more suited to expert users or developers.
+Delta Chat - це безкоштовний децентралізований месенджер з відкритим вихідним кодом і вільним вибором сервера, але ми хочемо, щоб користувачі отримували надійну "миттєву доставку" повідомлень, як у додатках Whatsapp, Signal або Telegram, без попередніх запитань, які більше підходять для досвідчених користувачів або розробників.
 
-Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
-that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable and massive chatmail and e-mail system :)
+Зверніть увагу, що Delta Chat має [невелику систему push-повідомлень, що зберігає конфіденційність](#privacy-notifications) яка забезпечує "миттєву доставку" повідомлень на всі chatmail-сервери включаючи потенційний [який ви можете налаштувати самостійно без нашого дозволу](https://delta.chat/chatmail#selfhosted). Ласкаво просимо до потужності сумісної та масової системи чат-пошти та електронної пошти :)
 
 
 ## Шифрування та безпека
@@ -327,27 +255,18 @@ Autocrypt використовує обмежену і [безпечну під�
 
 ### Як отримати гарантоване наскрізне шифрування та зелені галочки? {#howtoe2ee}
 
-If you have a second communication channel with your chat partner,
-like a video chat or a different messenger,
-you can generate an invite link.
+Якщо у вас є другий канал зв'язку з вашим партнером по чату, наприклад, відеочат або інший месенджер, ви можете згенерувати посилання-запрошення.
 
-If you are together in person,
-you can show a QR code to your chat partner.
+Якщо ви разом особисто, ви можете показати QR-код своєму співрозмовнику.
 
-- For **Group invitations**,
-  tap the chat group title to see its member list,
-  and select "QR Invite code".
+- Для **Запрошення до групи**, торкніться назви групи чату, щоб побачити список її учасників, і виберіть "QR-код запрошення".
 
-- For **direct 1:1 chat invitations**,
-  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
+- Для **прямих запрошень у чат 1:1**, торкніться іконки QR-коду <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> на головному екрані програми Delta Chat.
 
-Let your chat partner scan the QR image
-with their Delta Chat app,
-or click "Copy" or "Share" to create an invite link
-and share it with your chat partner.
+Дозвольте вашому партнеру по чату відсканувати QR-зображення
+у своєму додатку Delta Chat, або натисніть "Копіювати" чи "Поділитися", щоб створити посилання-запрошення і поділитися ним з вашим співрозмовником.
 
-Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Тепер зачекайте, поки між обома пристроями [відбудеться обмін мережевими повідомленнями Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol).
 
 - Якщо обидва пристрої онлайн, обидві сторони зрештою побачать (груповий або прямий) чат із зеленою галочкою <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/> поруч із заголовком.
 
@@ -643,20 +562,12 @@ Delta Chat підтримує поширені формати приватних
 
 ### Як я можу поділитися своїм місцезнаходженням зі своїми співрозмовниками в чаті?
 
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat partners.
-  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
+- Ви можете ввімкнути трансляцію локацій у розділі "експериментальні функції" в розширених налаштуваннях.
+- Тепер, якщо ви хочете поділитися своїм місцезнаходженням в чаті, перейдіть до "прикріпити" і виберіть "місцезнаходження". Тепер ви можете встановити часовий проміжок, протягом якого ваше місцезнаходження буде транслюватися вашим співрозмовникам, від 5 хвилин до 6 годин.
+- Коли ваше місцезнаходження зміниться, інші учасники чату зможуть побачити його на карті в чаті.
+- Щоб бачити мапу і переглядати місцезнаходження інших, вам потрібно увімкнути функцію в додаткових налаштуваннях.
+- Ця функція не буде показувати ваше місцезнаходження нікому, крім ваших партнерів по чату. Картографічні плитки завантажуються з [OpenStreetMap](https://openstreetmap.org).
+- На десктопі операційна система зазвичай не може визначити ваше місцезнаходження. Замість цього ви можете клацнути правою кнопкою миші на карті і описати місцезнаходження, яке буде надіслано в чат у вигляді повідомлення, але також з'явиться на карті.
 
 
 ### Що насправді захищає експериментальне шифрування бази даних?
@@ -698,27 +609,27 @@ Delta Chat підтримує поширені формати приватних
 
 В залежності від операційної системи, додаток може потребувати наступних дозволів:
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for achieving "instant message delivery"
+- Камера *(може бути заборонена)*.
+  - фотографувати та знімати відео: для надсилання фотографій
+- Контакти *(може бути заборонено)*.
+  - читати свої контакти: для пошуку контактів, з якими можна поспілкуватися
+- Місцезнаходження *(може бути вимкнено)*
+  - доступ до приблизного місцезнаходження (мережеві джерела визначення місцезнаходження): для функції потокового визначення місцезнаходження
+  - доступ до точного місцезнаходження (GPS та мережеві джерела місцезнаходження): для функції потокового визначення місцезнаходження
+- Мікрофон *(може бути вимкнено)*
+  - запис аудіо: для аудіоповідомлень
+- Сховище *(може бути вимкнено)*.
+  - змінювати або видаляти вміст SD-карти: для завантаження вкладень повідомлень
+  - читання вмісту SD-карти: для обміну файлами з контактами
+- Інші можливості програми
+  - зміна налаштувань звуку: вибір мелодії дзвінка та гучності для сповіщень і звукових повідомлень
+  - запуск при запуску: щоб вам не потрібно було запускати Delta Chat вручну
+  - керувати вібрацією: для сповіщень
+  - переглядати мережеві з'єднання: для підключення до вашого поштового провайдера
+  - не виводити телефон зі сплячого режиму: щоб вам було легше скопіювати код безпеки під час повідомлення про встановлення автошифрування
+  - мати повний доступ до мережі: для підключення до свого постачальника послуг електронної пошти
+  - переглянути з'єднання Wi-Fi: щоб підключитися до свого постачальника послуг електронної пошти
+  - попросити ігнорувати оптимізацію заряду акумулятора: для досягнення "миттєвої доставки повідомлень"
 
 
 ### Чи підтримує Delta Chat роботу з _моїм_ провайдером електронної пошти?

@@ -240,36 +240,29 @@ keine Daten an Apple weitergibt, die Apple nicht bereits hat.
 
 ### Sind Push-Benachrichtigungen auf Android-Geräten aktiviert/erforderlich? {#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
-If you are using a classic e-mail provider instead of [chatmail](https://delta.chat/chatmail) servers,
-Push Notifications are not available.
+Wenn ein „Push-Service“ verfügbar ist, aktiviert Delta Chat Push-Benachrichtigungen
+um eine sofortige Nachrichtenzustellung für alle Chatmail-Benutzer zu erreichen.
+Wenn Sie einen klassischen E-Mail-Anbieter anstelle von [chatmail](https://delta.chat/chatmail) Servern verwenden,
+sind Push-Benachrichtigungen nicht verfügbar.
 
-In the Delta Chat "Notifications" settings for "Instant delivery"
-you can change the following settings effecting all chat profiles:
+In den Delta-Chat-Einstellungen „Benachrichtigungen“ für „Sofortige Benachrichtigungen“
+können Sie die folgenden Einstellungen ändern, die alle Chat-Profile betreffen:
 
-- Use Push Service: the default when using chatmail profiles and if
-  a Push service is available on the phone.
-  If you have both chatmail and classic e-mail profiles,
-  then Push Notification will only work
-  for incoming messages on chatmail profiles.
+- Push-Dienst verwenden: die Standardeinstellung bei Verwendung von Chatmail-Profilen und wenn
+ein Push-Service auf dem Telefon verfügbar ist.
+Wenn Sie sowohl Chatmail- als auch klassische E-Mail-Profile haben,
+dann funktioniert die Push-Benachrichtigung nur
+für eingehende Nachrichten auf Chatmail-Profilen.
 
-- Use Background Connection: If you are not using a Push service,
-  you may disable "battery optimizations" for Delta Chat,
-  allowing it to fetch messages in the background.
-  However, there could be delays from minutes to hours.
-  Some Android vendors even restrict apps completely
-  (see [dontkillmyapp.com](https://dontkillmyapp.com))
-  and Delta Chat might not show  incoming messages
-  until you manually open the app again.
+- Hintergrundverbindung verwenden: Wenn Sie keinen Push-Dienst verwenden, können Sie die „Batterie-Optimierung“ für Delta Chat deaktivieren, damit Nachrichten im Hintergrund abgerufen werden können. Dabei kann es jedoch zu Verzögerungen von Minuten bis Stunden kommen.
+Einige Android-Hersteller schränken Apps sogar vollständig ein
+(siehe [dontkillmyapp.com](https://dontkillmyapp.com))
+und Delta Chat zeigt möglicherweise keine eingehenden Nachrichten anbis Sie die App erneut manuell öffnen.
   
-- Force Background Connection: This is the fallback option
-  if the previous options are not available or do not achieve "instant delivery".
-  Enabling it causes a permanent notification on your phone
-  which may sometimes be "minified" with recent Android phones.
+- Hintergrundverbindung erzwingen: Dies ist die Ausweichoption wenn die vorherigen Optionen nicht verfügbar sind oder keine „sofortige Zustellung“ erreichen. Die Aktivierung dieser Option führt zu einer permanenten Benachrichtigung auf Ihrem Telefon, die bei neueren Android-Telefonen manchmal „verkleinert“ werden kann.
 
-Both "Background Connection" options are energy-efficient and
-safe to try if you experience messages arrive only with long delays.
+Beide „Hintergrundverbindung“-Optionen sind energiesparend und
+können sicher ausprobiert werden, wenn Sie feststellen, dass Nachrichten nur mit großer Verzögerung ankommen.
 
 
 ### Wie privat sind Delta Chat Push-Benachrichtigungen? {#privacy-notifications}
@@ -370,7 +363,7 @@ auf dem Hauptbildschirm der Delta-Chat-App.
 Lassen Sie Ihren Chat-Partner den QR-Code mit der Delta-Chat-App scannen.
 Oder Sie klicken auf „Kopieren“ oder „Teilen“, um einen Einladungslink zu erstellen und diesen mit Ihrem Chat-Partner zu teilen.
 
-Warten Sie nun, während das [Secure-Join-Protokoll] (https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) zwischen beiden Geräten abläuft.
+Warten Sie nun, während das [Secure-Join-Protokoll](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) zwischen beiden Geräten abläuft.
 
 - Wenn beide Geräte online sind,
 sehen beide Seiten schließlich einen Gruppen- oder Direkt-Chat mit einem grünen Häkchen
