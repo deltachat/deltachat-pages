@@ -10,22 +10,16 @@ With the rolling new Delta Chat releases (1.46)
 we are introducing "Instant onboarding" with [chatmail servers](/en/chatmail). 
 to guarantee a reliable, secure and fast messaging experience,
 including instant notifications for incoming messages on Android and iOS phones. 
-You provide a self-chosen name and maybe an avatar picture,
-and then hit "Agree and continue" to create your chat profile
-and see your initial chatlist after a second or two. 
-You can now securely chat with anyone else 
-even if they have a chat profile using a different chatmail or e-mail server. 
+
+You just provide a self-chosen name and maybe an avatar picture,
+and then hit "Agree and continue" to create your chat profile. 
 
 ## How to get securely into contact with another Delta Chat user? 
 
 When using default onboarding with [chatmail servers](/en/chatmail) 
 you can only send out end-to-end encrypted messages. 
-Even if you are using a classic e-mail server it is highly 
-recommended to setup initial contact using one of the following secure methods,
-because they result in "guaranteed end-to-end encryption" which
-is safe against compromised servers or networks. 
-
-You can establish encrypted chats by: 
+Even if you are using a classic e-mail server 
+we recommend to setup a secure chat by
 
 - adding a new contact through a QR code scan;
 
@@ -33,6 +27,9 @@ You can establish encrypted chats by:
   that any receiver can tap to start a chat with you;
 
 - joining a group chat and then messaging one of its members. 
+
+These three methods result in "guaranteed end-to-end encryption" 
+which is safe against compromised servers or networks. 
 
 
 ## New: Introduce a contact by attaching a "VCard"
