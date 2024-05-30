@@ -13,7 +13,7 @@ lang: uk
 
 🔒 [Перевірене наскрізне шифрування](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) захищене від мережевих та серверних атак
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) програмне забезпечення, побудоване на [інтернет-стандартах](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), уникаючи [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">
