@@ -62,15 +62,12 @@ and contains an encryption number that is used to establish end-to-end encrypted
 
 ## New: Instant push notifications for Android 
 
-XXX add right-aligned screenshot of a top-level notification from "Alice" or so 
+<img src="../assets/blog/2024-05-alice-noti.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
-On Android, "instant push notifications" are enabled if possible,
-while denying Google and Apple any access to user data or metadata. 
-Even the physical seizure of a chatmail server or the seizure of our "central notification proxy" 
-would not reveal which e-mail address is used on a phone, 
-or which Google/Apple ID is associated with a chatmail address. 
-No message data and no metadata would be revealed either, also not in encrypted form. 
-Check out more our new [push notifications FAQ section](/en/help#instant-delivery) for more. 
+Instant message delivery through push notifications is not only 
+available for iOS but now also for Android devices,
+without giving Google and Apple any access to user data. 
+Check out [our new push notifications FAQ section](/en/help#instant-delivery) for more details. 
 
 
 ## Chat profiles: on your device and in your hand 
