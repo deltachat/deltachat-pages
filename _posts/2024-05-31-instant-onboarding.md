@@ -160,10 +160,9 @@ deployed e-mail and web standards
 remains as our core approach to avoid the pitfalls and failures
 that come with the many past and present
 "inventing a new standard that can replace e-mail or the Web" efforts.
-
-The currently rolling releases mark a major milestone in our endeavour 
+The new releases mark a major milestone in our endeavour 
 of leveraging the existing massively distributed e-mail network 
-and enriching it with an interoperable way to do convenient chat messaging. 
-
-<a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" style="width:400; float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /></a>
+and enriching it with chatmail servers for convenient chat messaging. 
+ 
+<figure> <a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" width="500px" style="float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /><figcaption>XKCD 927</figcaption> </a></figure>
 
