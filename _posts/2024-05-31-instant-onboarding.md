@@ -34,8 +34,8 @@ Here is how you can setup a secure chat:
   that any receiver who has installed Delta Chat 
   can tap to join the group, or 
 
-- by being otherwise joined to a secure group chat 
-  that enables messaging any group member. 
+- get added to a secure group chat 
+  that will allow you to message any group member. 
 
 These ways of starting a chat result in "guaranteed end-to-end encryption" 
 which is secure against compromised servers or networks. 
