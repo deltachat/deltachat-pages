@@ -50,12 +50,12 @@ or in regions that are cut off from the wider Internet
 because no central key server or other global infrastructure is required. 
 
 
-## New: Introduce a contact by attaching a "VCard"
+## New: Introduce a contact to chat partners 
 
 <img src="../assets/blog/2024-05-vcard2.png" style="width:250px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
 With the 1.46 releases you can now "attach" a contact to a chat message, 
-and any receiver can tap it to start chatting with the contact. 
+and any receiver can tap it to start chatting with the attached contact. 
 The contact attachment has the [vcard format](https://www.rfc-editor.org/rfc/rfc6350)
 and contains an encryption number that is used to establish end-to-end encrypted messaging. 
 
