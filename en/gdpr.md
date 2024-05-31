@@ -107,30 +107,11 @@ Only the bare data needed to fulfil the user request of login are stored,
 encryption takes place as well as local sandboxing,
 see 2.3 for further details.
 
-#### 2.2 Push notifications of "Instant message delivery" 
+#### 2.2 Heartbeat push notification
 
-Push notifications can be sent to the user's phone from Apple, Google and other Push Services. 
-Push notifications are empty in that they do not contain any message content,
-and also do not contain sender or receiver e-mail addresses. 
-They only serve to wake up the Delta Chat app on a user's phone,
-to that it can check for new messages and notify the user. 
+Push notifications can be sent to the user's phone at regular intervals to enable receipt of messages while the Delta Chat app is not currently active. Current messages can then be retrieved on the end device. The token is only created if the user wants reliable receipt of messages even when the app is not active. 
 
-In order to use push notifications, a unique identifier or token (Push Notification Token) is created when you create a chat profile in the Delta Chat application. 
-To notify of incoming messages, your e-mail provider can send such device tokens 
-to the central Delta Chat Notification Proxy server 
-which forwards it to Apple, Google or other Push Service servers. 
-
-Our central "Notification Proxy" server forgets 
-about the device token after the Push Service processed it. 
-A mail provider 
- 
-
-The token is generated and provided by the provider. 
-The token is then stored on our systems and sent to the device 
-at regular intervals to cause the app 
-to retrieve new messages from the e-mail provider. 
-Our systems have no knowledge of whether a message arrives 
-or who may have sent a message.
+In order to use push notifications, a unique identifier or token (Push Notification Token) is created after the app is downloaded and installed. This token allows Delta Chat servers to send notifications to the user's device. The token is generated and provided by the provider. The token is then stored on our systems and sent to the device at regular intervals to cause the app to retrieve new messages from the e-mail provider. Our systems have no knowledge of whether a message arrives or who may have sent a message.
 
 - Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). You can find the privacy policy under [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).  
 
