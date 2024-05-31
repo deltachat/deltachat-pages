@@ -4,37 +4,38 @@ author: holga,r10s
 image: ../assets/blog/secure-decent-delta.png
 ---
 
-<div style="float: right; margin-left:1em; margin-bottom:1em; height:428px; border-left:1px solid #ddd; border-right:1px solid #ddd;">
-  <video width=194 height=432 autoplay muted loop playsinline> <!-- original 1080 x 2400 -->
-    <source src="../assets/blog/2024-05-onboarding.mp4" type="video/mp4">
-    <img class="content" aria-hidden="true" alt="" src="../assets/blog/2024-05-onboarding.mp4">
-  </video>
-</div>
+<img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
 Big milestone in our 6+ years long project history: 
 you can now start chatting without a pre-existing e-mail address. 
 Just provide a name and then tap "Agree and continue" 
-to create a chat profile on the [default chatmail server](https://nine.testrun.org/privacy.html) 
-or checkout other [chatmail servers](/chatmail) and tap the invite on their home page. 
-So it takes only a few seconds and no captchas or personal questions but what then? 
+to create a chat profile using the [default chatmail server](https://nine.testrun.org/privacy.html) 
+or visit other [chatmail servers](/chatmail) and tap the invite on their home page. 
+Creating a profile takes only a few seconds and no captchas or personal questions but what then? 
+
+## Starting to chat with some bots 
+
+Once Delta Chat is installed, 
+you can tap [this "Public Bots" link](https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN) 
+which will send you a little web app so you can navigate some existing bots. 
 
 ## How to get into securely chatting with another Delta Chat user?
 
-When using the default sign-up with [chatmail servers](/en/chatmail) 
+When using default sign-up with [chatmail servers](/chatmail) 
 you can only send out end-to-end encrypted messages. 
-Here is how you can setup end-to-end encrypted chats: 
+This means you need to setup end-to-end encrypted chats by
 
-- add a new contact through a QR code scan, or 
+- adding a new contact through a QR code scan, or 
 
-- share your own contact info as an "invite link" 
+- sharing your own contact info as an "invite link" 
   that any receiver who has installed Delta Chat 
   can tap to start a chat with you, or 
 
-- share a "group chat invite" 
+- sharing a "group chat invite" 
   that any receiver who has installed Delta Chat 
-  can tap to join the group, or 
+  can tap to join, or
 
-- get added to a secure group chat 
+- being added to a secure group chat 
   which will allow you to message any group member. 
 
 <img src="../assets/blog/2023-11-qr-scan.jpg" style="width:160px; clear:both; margin-left:.5em; margin-bottom:.2em;" />
@@ -57,6 +58,7 @@ With the 1.46 releases you can now "attach" a contact to a chat message,
 and any receiver can tap it to start chatting with the contact. 
 The contact attachment has the [vcard format](https://www.rfc-editor.org/rfc/rfc6350)
 and contains an encryption number that is used to establish end-to-end encrypted messaging. 
+
 
 ## New: Instant privacy-preserving push notifications for Android 
 
@@ -145,7 +147,7 @@ In light of all these features, we prefer to not require
 would-be-users first to understand what "e-mail" has to do with anything. 
 Or as a 20-year old women once reacted "E-mail? Isn't e-mail just there fore spam and work?"
 E-mail in the form of chatmail is so much more than that 
-but e-mail addresses redece into the background of Delta Chat 
+but e-mail addresses recede into the background of Delta Chat 
 just like phone numbers recede into the background of classic phone-based messengers. 
 
 
