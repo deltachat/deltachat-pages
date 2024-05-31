@@ -1,49 +1,51 @@
 ---
 title: Instant anonymous onboarding and push notifications
 author: holga,r10s
-image: ../assets/blog/2024-03-notiheart.png
+image: ../assets/blog/secure-decent-delta.png
 ---
 
 XXX insert small video of Android start+chat-profile screen+initial chat list 
 
-Quite the milestone in our 6+ years long project history: 
+A big milestone in our 6+ years long project history: 
 you can now start chatting without a pre-existing e-mail address. 
 The new Delta Chat releases (1.46) introduce "Instant onboarding" 
 with a growing set of [chatmail servers](/chatmail). 
-New users just need to provide a name and optionally an avatar,
+New users need to provide only a name and optionally an avatar,
 and hit "Agree and continue" to create their chat profile instantly
-and experience a reliable, secure and fast messaging experience ...
+and enjoy a reliable, secure and fast messaging experience. 
+However, you still need to find chat partners ... 
 
 
-## How to get into contact securely with another Delta Chat user? 
+## How to get into securely chatting with another Delta Chat user? 
 
 XXX insert screenshot of an invite-qr screen with share button 
 
 When using default onboarding with [chatmail servers](/en/chatmail) 
 you can only send out end-to-end encrypted messages. 
-You can get to a secure chat with others  
+Here is how you can setup a secure chat: 
 
-- by adding a new contact through a QR code scan, or 
+- add a new contact through a QR code scan, or 
 
-- by sharing your own contact info as an "invite link" 
+- share your own contact info as an "invite link" 
   that any receiver who has installed Delta Chat 
   can tap to start a chat with you, or 
 
-- by sharing a "group chat invite" 
+- share a "group chat invite" 
   that any receiver who has installed Delta Chat 
   can tap to join the group, or 
 
-- by being otherwise joined to a group chat which 
-  allows securely messaging any group member. 
+- by being otherwise joined to a secure group chat 
+  that enables messaging any group member. 
 
-All four ways of starting a chat provide "guaranteed end-to-end encryption" 
+These ways of starting a chat result in "guaranteed end-to-end encryption" 
 which is secure against compromised servers or networks. 
-Even if you are using a classic e-mail server we recommend to use these methods. 
+Therefore, even if you are using a classic e-mail server we recommend to use these methods. 
 See the [2024 security analysis from ETH Zuerich researchers](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more info. 
 
-Note that no central key server or infrastructure is required
-and secure chat setup works in mesh networks in the Amazon Rain Forest 
-as well as in regions that are cut off from the wider Internet. 
+Secure chat setup also works in mesh networks in the Amazon Rain Forest 
+as well as in regions that are cut off from the wider Internet
+and where users can only access a local e-mail or chatmail server. 
+No central key server or global infrastructure is required. 
 
 
 ## New: Introduce a contact by attaching a "VCard"
@@ -70,13 +72,13 @@ Check out more details in our new [push notifications FAQ section](/help#instant
 ## New: "Accounts" are dead. Long live "Chat profiles"!
 
 Nobody wants or needs more accounts these days
-but let us tell you about "Chat profiles" :) 
+so let us tell you about "Chat profiles" :) 
 
 When initially onboarding with Delta Chat you'll create a "Chat profile"
 which technically consists of your chosen name and avatar,
 and an encryption-setup, e-mail address and password. 
-The new 1.46 versions by default automates the latter choices 
-and only asks for your name and avatar, shown to other users. 
+The new 1.46 apps by default automate the latter choices 
+and only ask for your name and avatar which is shown to other users. 
 You can alternatively tap "use other server" and "manual login" 
 if you want to specify an existing e-mail address for your chat profile. 
 
@@ -107,7 +109,7 @@ with which Delta Chat works well.
 
 Lastly, while Delta Chat aims to offer easier onboarding than Whatsapp, Signal or Telegram 
 you can also use and regard it as an e-mail app. 
-All platforms offer multi-profile support 
+All Delta Chat apps offer multi-profile support 
 which means you can have a profile for instant chat messaging 
 *and* another profile with a pre-existing e-mail address for classic e-mail purposes. 
 
@@ -117,10 +119,10 @@ which means you can have a profile for instant chat messaging
 Yes. 
 
 We aim to make Delta Chat more approachable to the many 
-who do not care about or are even skeptical of e-mail. 
+who do not care about or are even skeptical of "e-mail". 
 In all likelyness that's not you 
 because you wouldn't be reading this post here, then :) 
-But maybe you know people who appreciate that Delta Chat 
+But you probably know people who might appreciate that Delta Chat 
 does not require a phone number or other personal data, 
 offers privacy, censorship resistance, a free "choice of server" 
 as well as a convenient and reliable user experience 
@@ -133,12 +135,11 @@ along with a growing chat bot ecosystem?
 With our new chatmail-based instant onboarding system, 
 e-mail addresses are becoming, once again, cheap and virtually free. 
 But this time around, there is no company posturing to "do no evil" 
-while luring everyone to their central service and drop ethical stances shortly after. 
-Running a chatmail server is a cheap operation that we want people
+luring everyone to their central "ethical" service and then drop the pretense soon after. 
+Running a chatmail server is a cheap activity that we want people
 to be able to do on the side and on low-end hardware all across the world. 
 Chatmail is best understood as a blind and ephemeral end-to-end encrypted 
-messaging router running at Internet-scale and not as a platform 
-that accumulates personal data. 
+messaging router running at Internet-scale. 
 
 
 ## Widely used Internet standards for the win 
@@ -156,3 +157,7 @@ deployed e-mail and web standards
 remains as our core approach to avoid the pitfalls and failures
 that come with the many past and present
 "inventing a new standard that can replace e-mail or the Web" efforts.
+
+The currently rolling releases mark a major milestone in our endeavour 
+of leveraging the existing massively distributed e-mail network 
+and enriching it with an interoperable way to do convenient chat messaging. 
