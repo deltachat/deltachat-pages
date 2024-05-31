@@ -60,7 +60,7 @@ The contact attachment has the [vcard format](https://www.rfc-editor.org/rfc/rfc
 and contains an encryption number that is used to establish end-to-end encrypted messaging. 
 
 
-## New: Instant privacy-preserving push notifications for Android 
+## New: Instant push notifications for Android 
 
 XXX add right-aligned screenshot of a top-level notification from "Alice" or so 
 
@@ -70,14 +70,14 @@ Even the physical seizure of a chatmail server or the seizure of our "central no
 would not reveal which e-mail address is used on a phone, 
 or which Google/Apple ID is associated with a chatmail address. 
 No message data and no metadata would be revealed either, also not in encrypted form. 
-Check out more details in our new [push notifications FAQ section](/help#instant-delivery).
+Check out more our new [push notifications FAQ section](/en/help#instant-delivery) for more. 
 
 
 ## Chat profiles: on your device and in your hand 
 
 <img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
-Delta Chat does not rely on storing data at e-mail servers 
+Delta Chat does not store or keep data at e-mail servers 
 but only uses them for ephemeral message transport. 
 When initially onboarding with Delta Chat you'll create a "Chat profile"
 which initially consists of your chosen name and avatar,
@@ -89,8 +89,8 @@ you can manually specify an existing e-mail address.
 
 Over time, your chat profile accumulates contacts, chat groups, 
 messages and media files. 
-Whether using a chatmail or a classic e-mail server, 
-you can always replicate your chat profile with all data to a second device,
+No matter if you using a chatmail or a classic e-mail server, 
+you can always transfer or replicate your chat profile to another device,
 or export it to a file and then import and use it from any other device. 
 Chat profiles are "in your hand" and are not stored on any central server,
 also not in encrypted or PIN-protected form. 
