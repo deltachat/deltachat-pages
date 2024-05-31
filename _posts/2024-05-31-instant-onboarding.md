@@ -51,7 +51,7 @@ because no central key server or other global infrastructure is required.
 
 ## New: Introduce a contact by attaching a "VCard"
 
-XXX add right-aligned screenshot of an attached vcard for "Mad Hatter" 
+<img src="../assets/blog/2024-05-vcard2.png" style="width:250px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
 With the 1.46 releases you can now "attach" a contact to a chat message, 
 and any receiver can tap it to start chatting with the contact. 
