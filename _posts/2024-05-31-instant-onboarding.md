@@ -79,7 +79,7 @@ Check out more our new [push notifications FAQ section](/en/help#instant-deliver
 
 Delta Chat does not store or keep data at e-mail servers 
 but only uses them for ephemeral message transport. 
-When initially onboarding with Delta Chat you'll create a "Chat profile"
+When first onboarding with Delta Chat you'll create a "Chat profile"
 which initially consists of your chosen name and avatar,
 and an automatically generated encryption-setup, e-mail address and password. 
 If you tap "use other server" and "manual login" 
