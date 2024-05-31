@@ -77,7 +77,7 @@ Check out more details in our new [push notifications FAQ section](/help#instant
 
 <img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
-Delta Chat does not keep or rely on storing data at e-mail servers 
+Delta Chat does not rely on storing data at e-mail servers 
 but only uses them for ephemeral message transport. 
 When initially onboarding with Delta Chat you'll create a "Chat profile"
 which initially consists of your chosen name and avatar,
@@ -103,13 +103,13 @@ also not in encrypted or PIN-protected form.
 No. 
 
 Firstly, chatmail is a fully interoperable e-mail server, 
-but does away with spam-checking and annoying rate-limits,
+but does away with spam-checking and unneccessary rate-limits,
 and allows automated anonymous sign-up without asking any private data.
 Also chatmail is much faster than most other e-mail servers. 
 
 Secondly, chatmail servers run the popular [postfix](https://postfix.org) 
 and [dovecot](https://dovecot.org) server software in a minimal configuration,
-with some small tweaks for onboarding, speed and security. 
+with small tweaks for optimized onboarding, speed and security. 
 Both systems are proven Free and Open Source software 
 used by tens of thousands of e-mail providers for billions of messages per day. 
 
@@ -128,10 +128,11 @@ which means you can have a profile for instant chat messaging
 
 Yes. 
 
-We aim to make Delta Chat more approachable with those 
+We aim to make Delta Chat more approachable for the many folks 
 who do not care about or are even skeptical of "e-mail". 
 In all likelyness that's not you because you are reading this post here :) 
-But you probably know people who might appreciate that Delta Chat 
+But you probably know people who don't rejoice when hearing "e-mail"
+but might appreciate that Delta Chat 
 
 - provides a convenient and reliable messaging experience,
 
@@ -140,15 +141,15 @@ But you probably know people who might appreciate that Delta Chat
 - offers privacy, censorship resistance and free choice of server,
 
 - offers in-chat games like 2048, chess or hextris,
-  and in-chat tools like an editor, a calendar and a checklist 
-  and all of that without requiring any server support. 
+  and in-chat tools like an editor, a calendar and a checklist. 
 
 In light of all these features, we prefer to not require 
 would-be-users first to understand what "e-mail" has to do with anything. 
-Or as a 20-year old women once reacted "E-mail? Isn't e-mail just there fore spam and work?"
+As a 20-year old women once said "E-mail? Isn't e-mail just there for spam and work?"
 E-mail in the form of chatmail is so much more than that 
-but e-mail addresses recede into the background of Delta Chat 
-just like phone numbers recede into the background of classic phone-based messengers. 
+but we still think it's good to let 
+e-mail addresses recede into the background of Delta Chat 
+just like phone numbers typically recede into the background of classic phone-based messengers. 
 
 
 ## Chatmail makes e-mail cheap again 
@@ -169,10 +170,10 @@ How often have you heart "E-mail is dead" or
 "here is this brand new thing to replace e-mail" 
 from marketing departments throughout the last two decades? 
 How often have you heart "The Web is dead and replaced by mobile apps"
-only to find most mobile apps being a repackaged web view, anyway? 
+only to find most mobile apps being a thinly veiled web view, anyway? 
 
 By contrast, Delta Chat fully embraces both E-mail and Web standards 
-to avoid the pitfalls and failures of prior and current 
+to avoid the pitfalls and failures of past and present 
 "inventing a new standard that will replace e-mail (or the Web)" efforts.
 Our new "Instant onboarding" releases cultivate and grow chatmail servers,
 as part of the existing massively distributed e-mail network,
