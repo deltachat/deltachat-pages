@@ -147,60 +147,6 @@ messaging router running at Internet-scale.
 ## Widely used Internet standards for the win 
 
 <a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" style="width:400; float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /></a>
-No. 
-
-Firstly, chatmail is fully interoperable with other e-mail servers, 
-but does away with spam-checking and annoying rate-limits,
-and allows automated anonymous sign-up without asking any private data.
-
-Secondly, chatmail servers run the popular [postfix](https://postfix.org) 
-and [dovecot](https://dovecot.org) server software in a minimal configuration,
-with some small tweaks for onboarding, speed and security. 
-Both systems are proven Free and Open Source software 
-used by tens of thousands of e-mail providers for billions of messages per day. 
-
-Thirdly, you can still use your existing e-mail address and
-there are many [providers](https://providers.delta.chat) 
-with which Delta Chat works well. 
-
-Lastly, while Delta Chat aims to offer easier onboarding than Whatsapp, Signal or Telegram 
-you can also use and regard it as an e-mail app. 
-All Delta Chat apps offer multi-profile support 
-which means you can have a profile for instant chat messaging 
-*and* another profile with a pre-existing e-mail address for classic e-mail purposes. 
-
-
-## Are we de-emphasizing e-mail addresses in the user interface? 
-
-Yes. 
-
-We aim to make Delta Chat more approachable to the many 
-who do not care about or are even skeptical of "e-mail". 
-In all likelyness that's not you 
-because you wouldn't be reading this post here, then :) 
-But you probably know people who might appreciate that Delta Chat 
-does not require a phone number or other personal data, 
-offers privacy, censorship resistance, a free "choice of server" 
-as well as a convenient and reliable user experience 
-that integrates games and collab tools, 
-along with a growing chat bot ecosystem? 
-
-
-## Chatmail makes e-mail not only fast but cheap again 
-
-With our new chatmail-based instant onboarding system, 
-e-mail addresses are becoming, once again, cheap and virtually free. 
-But this time around, there is no company posturing to "do no evil" 
-luring everyone to their central "ethical" service and then drop the pretense soon after. 
-Running a chatmail server is a cheap activity that we want people
-to be able to do on the side and on low-end hardware all across the world. 
-Chatmail is best understood as a blind and ephemeral end-to-end encrypted 
-messaging router running at Internet-scale. 
-
-
-## Widely used Internet standards for the win 
-
-<a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" style="width:400; float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /></a>
 
 How often have you heart "E-mail is dead" or 
 "here is this brand new thing to replace e-mail" 
