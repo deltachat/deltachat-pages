@@ -98,7 +98,7 @@ also not in encrypted or PIN-protected form.
 
 No. 
 
-Firstly, chatmail is fully interoperable with other e-mail servers, 
+Firstly, chatmail is a fully interoperable e-mail server, 
 but does away with spam-checking and annoying rate-limits,
 and allows automated anonymous sign-up without asking any private data.
 
