@@ -1,74 +1,89 @@
 ---
-title: Instant onboarding and instant notifications 
-author: holga
+title: Instant anonymous onboarding and push notifications
+author: holga,r10s
 image: ../assets/blog/2024-03-notiheart.png
 ---
 
-Quite some milestone in our 6 year long project history: 
+XXX insert small video of Android start+chat-profile screen+initial chat list 
+
+Quite the milestone in our 6+ years long project history: 
 you can now start chatting without a pre-existing e-mail address. 
-With the rolling new Delta Chat releases (1.46) 
-we are introducing "Instant onboarding" with [chatmail servers](/en/chatmail). 
-to guarantee a reliable, secure and fast messaging experience,
-including instant notifications for incoming messages on Android and iOS phones. 
+The new Delta Chat releases (1.46) introduce "Instant onboarding" 
+with a growing set of [chatmail servers](/chatmail). 
+New users just need to provide a name and optionally an avatar,
+and hit "Agree and continue" to create their chat profile instantly
+and experience a reliable, secure and fast messaging experience ...
 
-You just provide a self-chosen name and maybe an avatar picture,
-and then hit "Agree and continue" to create your chat profile. 
 
-## How to get securely into contact with another Delta Chat user? 
+## How to get into contact securely with another Delta Chat user? 
+
+XXX insert screenshot of an invite-qr screen with share button 
 
 When using default onboarding with [chatmail servers](/en/chatmail) 
 you can only send out end-to-end encrypted messages. 
-Even if you are using a classic e-mail server 
-we recommend to setup a secure chat by
+You can get to a secure chat with others  
 
-- adding a new contact through a QR code scan;
+- by adding a new contact through a QR code scan, or 
 
-- sharing your own contact info as an "invite link" 
-  that any receiver can tap to start a chat with you;
+- by sharing your own contact info as an "invite link" 
+  that any receiver who has installed Delta Chat 
+  can tap to start a chat with you, or 
 
-- joining a group chat and then messaging one of its members. 
+- by sharing a "group chat invite" 
+  that any receiver who has installed Delta Chat 
+  can tap to join the group, or 
 
-These three methods result in "guaranteed end-to-end encryption" 
-which is safe against compromised servers or networks. 
+- by being otherwise joined to a group chat which 
+  allows securely messaging any group member. 
+
+All four ways of starting a chat provide "guaranteed end-to-end encryption" 
+which is secure against compromised servers or networks. 
+Even if you are using a classic e-mail server we recommend to use these methods. 
+See the [2024 security analysis from ETH Zuerich researchers](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more info. 
+
+Note that no central key server or infrastructure is required
+and secure chat setup works in mesh networks in the Amazon Rain Forest 
+as well as in regions that are cut off from the wider Internet. 
 
 
 ## New: Introduce a contact by attaching a "VCard"
 
+XXX insert screenshot of an attached vcard 
+
 With the 1.46 releases you can now "attach" a contact to a chat message, 
 and any receiver can tap it to start chatting with the contact. 
 The contact attachment has the [vcard format](https://www.rfc-editor.org/rfc/rfc6350)
-and contains an encryption number that is used to establish an end-to-end encrypted chat. 
+and contains an encryption number that is used to establish end-to-end encrypted messaging. 
+
 
 ## New: Instant privacy-preserving push notifications for Android 
 
 On Android, "instant push notifications" are enabled if possible,
-while denying Google and Apple any access to communicate data or metadata: 
-even the physical seizure of a chatmail server or the seizure of our "central Notification proxy" 
+while denying Google and Apple any access to user data or metadata. 
+Even the physical seizure of a chatmail server or the seizure of our "central notification proxy" 
 would not reveal which e-mail address is used on a phone, 
-or which Google/Apple device ID is associated with a chatmail address. 
+or which Google/Apple ID is associated with a chatmail address. 
 No message data and no metadata would be revealed either, also not in encrypted form. 
-See more details in our new [push notifications FAQ section](/help#instant-delivery).
+Check out more details in our new [push notifications FAQ section](/help#instant-delivery).
 
 
-## "Accounts" are dead. Long live "Chat profiles"!
+## New: "Accounts" are dead. Long live "Chat profiles"!
 
-Nobody wants or needs more accounts, isn't it true? 
-But let us tell you about "Chat profiles" :) 
+Nobody wants or needs more accounts these days
+but let us tell you about "Chat profiles" :) 
 
-When initially onboarding with Delta Chat you now create a "Chat profile"
+When initially onboarding with Delta Chat you'll create a "Chat profile"
 which technically consists of your chosen name and avatar,
 and an encryption-setup, e-mail address and password. 
-The new 1.46 versions by default automates all choices 
-except for your name and optional avatar. 
-You can still tap "use other server" and "manual login" 
+The new 1.46 versions by default automates the latter choices 
+and only asks for your name and avatar, shown to other users. 
+You can alternatively tap "use other server" and "manual login" 
 if you want to specify an existing e-mail address for your chat profile. 
-Or why not create two chat profiles thanks to 
-Delta's multi-profile support on all platforms? 
 
-Chatmail or classic server, 
+Whether using a chatmail or a classic e-mail server, 
 you can always replicate your chat profile to a second device,
 or export it to a file and import it from any other device. 
-Chat profiles are "in your hand" and do not live on any central server,
+Chat profiles are "in your hand" and do not "live" on any central server,
 also not in encrypted form. 
 
 
@@ -76,8 +91,7 @@ also not in encrypted form.
 
 No. 
 
-Firstly, chatmail is fully interoperable with other e-mail servers
-and uses a simple and secure interoperability model,
+Firstly, chatmail is fully interoperable with other e-mail servers, 
 doing away with spam-checking and superflous rate-limits,
 and allowing automated anonymous open sign-up without asking any private data.
 
@@ -85,26 +99,60 @@ Secondly, chatmail servers run the popular [postfix](https://postfix.org)
 and [dovecot](https://dovecot.org) server software in a minimal configuration,
 with some small tweaks for onboarding, speed and security. 
 Both systems are proven Free and Open Source software 
-used by tens of thousands of e-mail providers for a long time already. 
+used by tens of thousands of e-mail providers today for billions of users. 
 
 Thirdly, you can still use your existing e-mail address and
 there are many [providers](https://providers.delta.chat) 
 with which Delta Chat works well. 
 
+Lastly, while Delta Chat aims to offer easier onboarding than Whatsapp, Signal or Telegram 
+you can also use and regard it as an e-mail app. 
+All platforms offer multi-profile support 
+which means you can have a profile for instant chat messaging 
+*and* another profile with a pre-existing e-mail address for classic e-mail purposes. 
+
 
 ## Are we de-emphasizing e-mail addresses in the user interface? 
 
-Yes, somewhat. 
+Yes. 
 
-We do want to make Delta chat more approachable to the many 
-who do not really care about, or even are skeptical of, e-mail. 
-They might have heart that Delta Chat works well, 
-does not require phone number or other identifying data, 
-provides privacy,  censorship resistance and free "choice of server" 
-as well as a convenient and reliable UX
-that integrates arbitrary games or tools running in a chat,
+We aim to make Delta Chat more approachable to the many 
+who do not care about or are even skeptical of e-mail. 
+In all likelyness that's not you 
+because you wouldn't be reading this post here, then :) 
+But maybe you know people who appreciate that Delta Chat 
+does not require a phone number or other personal data, 
+offers privacy, censorship resistance, a free "choice of server" 
+as well as a convenient and reliable user experience 
+that integrates games and collab tools, 
+along with a growing chat bot ecosystem? 
 
-However, our curated minimal usage of widely deployed E-Mail and Web standards 
-remains as our core strategy to avoid the many pitfalls 
-and recurring failures that came and come with the many 
+
+## Chatmail makes e-mail not only fast but cheap again 
+
+With our new chatmail-based instant onboarding system, 
+e-mail addresses are becoming, once again, cheap and virtually free. 
+But this time around, there is no company posturing to "do no evil" 
+while luring everyone to their central service and drop ethical stances shortly after. 
+Running a chatmail server is a cheap operation that we want people
+to be able to do on the side and on low-end hardware all across the world. 
+Chatmail is best understood as a blind and ephemeral end-to-end encrypted 
+messaging router running at Internet-scale and not as a platform 
+that accumulates personal data. 
+
+
+## Widely used Internet standards for the win 
+
+<a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" style="width:400; float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /></a>
+
+How often have you heart "E-mail is dead" or 
+"here is this brand new thing to replace e-mail" 
+from marketing departments throughout the last two decades? 
+How often have you heart "The Web is dead and replaced by mobile apps"
+only to find most mobile apps being a thinly veiled web view, anyway? 
+
+By contrast, our carefully curated minimal usage of widely 
+deployed e-mail and web standards 
+remains as our core approach to avoid the pitfalls and failures
+that come with the many past and present
 "inventing a new standard that can replace e-mail or the Web" efforts.
