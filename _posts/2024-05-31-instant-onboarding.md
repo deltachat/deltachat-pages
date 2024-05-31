@@ -141,7 +141,7 @@ With our new chatmail-based instant onboarding system,
 e-mail addresses are becoming, once again, cheap and virtually free. 
 But this time around, there is no company posturing to "do no evil" 
 luring everyone to their central "ethical" service and then drop the pretense soon after. 
-Running a chatmail server is a cheap activity that we want people
+[Running a chatmail server](https://delta.chat/en/2023-12-13-chatmail) is a cheap activity that we want people
 to be able to do on the side and on low-end hardware all across the world. 
 Chatmail is best understood as a blind and ephemeral end-to-end encrypted 
 messaging router running at Internet-scale. 
