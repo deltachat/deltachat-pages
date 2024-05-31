@@ -11,19 +11,21 @@ you can now start chatting without a pre-existing e-mail address.
 Just provide a name and then tap "Agree and continue" 
 to create a chat profile using the [default chatmail server](https://nine.testrun.org/privacy.html) 
 or visit other [chatmail servers](/chatmail) and tap the invite on their home page. 
-Creating a profile takes only a few seconds and no captchas or personal questions but what then? 
+Creating a profile takes only a few seconds without any annoying question ... 
+but what then? 
 
-## Starting to chat with some bots 
+## Maybe try out chatting with some bots? 
 
 Once Delta Chat is installed, 
 you can tap [this "Public Bots" link](https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN) 
 which will send you a little web app so you can navigate some existing bots. 
 
-## How to get into securely chatting with another Delta Chat user?
+## Or join a secure chat with a human fellow? 
 
 When using default sign-up with [chatmail servers](/chatmail) 
 you can only send out end-to-end encrypted messages. 
-This means you need to setup end-to-end encrypted chats by
+But it's easy and recommended anyway 
+to setup [guaranteed end-to-end encrypted chats](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) by 
 
 - adding a new contact through a QR code scan, or 
 
@@ -33,21 +35,18 @@ This means you need to setup end-to-end encrypted chats by
 
 - sharing a "group chat invite" 
   that any receiver who has installed Delta Chat 
-  can tap to join, or
+  can tap to join the group, or
 
 - being added to a secure group chat 
   which will allow you to message any group member. 
 
+
 <img src="../assets/blog/2023-11-qr-scan.jpg" style="width:160px; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 <img src="../assets/blog/green-checkmark.svg" width="140" style="margin-left:1em;" /> 
 
-Using one of these methods, you end up with "guaranteed end-to-end encryption". 
-See the [2024 security analysis from ETH Zuerich researchers](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more info. 
-
-Secure chat setup also works in mesh networks in the Amazon Rain Forest 
-as well as in regions that are cut off from the wider Internet
-and where users can only access a local server
-because no central key server or global infrastructure is required. 
+Note that these secure chat setups also work fine in mesh networks in the Amazon Rain Forest 
+or in regions that are cut off from the wider Internet
+because no central key server or other global infrastructure is required. 
 
 
 ## New: Introduce a contact by attaching a "VCard"
