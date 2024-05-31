@@ -4,7 +4,12 @@ author: holga,r10s
 image: ../assets/blog/secure-decent-delta.png
 ---
 
-<img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
+<div style="float: right; margin-left:1em; margin-bottom:1em; height:428px; border-left:1px solid #ddd; border-right:1px solid #ddd;">
+  <video width=194 height=432 autoplay muted loop playsinline> <!-- original 1080 x 2400 -->
+    <source src="../assets/blog/2024-05-onboarding.mp4" type="video/mp4">
+    <img class="content" aria-hidden="true" alt="" src="../assets/blog/2024-05-onboarding.mp4">
+  </video>
+</div>
 
 Big milestone in our 6+ years long project history: 
 you can now start chatting without a pre-existing e-mail address. 
@@ -13,9 +18,7 @@ to create a chat profile on the [default chatmail server](https://nine.testrun.o
 or checkout other [chatmail servers](/chatmail) and tap the invite on their home page. 
 So it takes only a few seconds and no captchas or personal questions but what then? 
 
-## How to get into securely chatting with another Delta Chat user? 
-
-<img src="../assets/blog/2023-11-qr-scan.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
+## How to get into securely chatting with another Delta Chat user?
 
 When using the default sign-up with [chatmail servers](/en/chatmail) 
 you can only send out end-to-end encrypted messages. 
@@ -34,7 +37,8 @@ Here is how you can setup end-to-end encrypted chats:
 - get added to a secure group chat 
   which will allow you to message any group member. 
 
-<img src="../assets/blog/green-checkmark.svg" width="140" style="float:right; margin-left:1em;" />  
+<img src="../assets/blog/2023-11-qr-scan.jpg" style="width:160px; clear:both; margin-left:.5em; margin-bottom:.2em;" />
+<img src="../assets/blog/green-checkmark.svg" width="140" style="margin-left:1em;" /> 
 
 Using one of these methods, you end up with "guaranteed end-to-end encryption". 
 See the [2024 security analysis from ETH Zuerich researchers](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more info. 
