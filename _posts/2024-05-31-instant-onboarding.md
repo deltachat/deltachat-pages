@@ -17,7 +17,7 @@ and enjoy a reliable, secure and fast messaging experience.
 
 ## How to get into securely chatting with another Delta Chat user? 
 
-XXX add right-aligned screenshot of an invite-qr screen with share button 
+<img src="../assets/blog/2023-11-qr-scan.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
 When using default onboarding with [chatmail servers](/en/chatmail) 
 you can only send out end-to-end encrypted messages. 
@@ -35,6 +35,8 @@ Here is how you can setup a secure chat:
 
 - get added to a secure group chat 
   that will allow you to message any group member. 
+
+<img src="../assets/blog/green-checkmark.svg" width="140" style="float:right; margin-left:1em;" />  
 
 These ways of starting a chat result in "guaranteed end-to-end encryption" 
 which is secure against compromised servers or networks. 
