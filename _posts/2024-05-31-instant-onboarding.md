@@ -127,7 +127,7 @@ Yes.
 
 We aim to make Delta Chat more approachable for the many folks 
 who do not care about or are even critical of "e-mail". 
-In all likelyness that's not you because you are reading this post here :) 
+With some likelyness that's not you because you are reading this post here :) 
 But you probably know people who don't rejoice when hearing "e-mail"
 but who might appreciate that Delta Chat 
 
