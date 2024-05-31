@@ -5,6 +5,7 @@ image: ../assets/blog/secure-decent-delta.png
 ---
 
 XXX add right-aligned small video of Android start+chat-profile screen+initial chat list 
+
 A big milestone in our 6+ years long project history: 
 you can now start chatting without a pre-existing e-mail address. 
 The new Delta Chat releases (1.46) introduce "Instant onboarding" 
@@ -17,6 +18,7 @@ and enjoy a reliable, secure and fast messaging experience.
 ## How to get into securely chatting with another Delta Chat user? 
 
 XXX add right-aligned screenshot of an invite-qr screen with share button 
+
 When using default onboarding with [chatmail servers](/en/chatmail) 
 you can only send out end-to-end encrypted messages. 
 Here is how you can setup a secure chat: 
@@ -56,7 +58,7 @@ and contains an encryption number that is used to establish end-to-end encrypted
 
 ## New: Instant privacy-preserving push notifications for Android 
 
-XXX add right-aligned screenshot of a top-level notification from "Mad Hatter" or so 
+XXX add right-aligned screenshot of a top-level notification from "Alice" or so 
 
 On Android, "instant push notifications" are enabled if possible,
 while denying Google and Apple any access to user data or metadata. 
@@ -67,10 +69,9 @@ No message data and no metadata would be revealed either, also not in encrypted 
 Check out more details in our new [push notifications FAQ section](/help#instant-delivery).
 
 
-
 ## New: "Accounts" are dead. Long live "Chat profiles"!
 
-<img src="/assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
+<img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
 Nobody wants or needs more accounts these days
 so let us tell you about "Chat profiles". 
@@ -91,7 +92,7 @@ also not in encrypted or PIN-protected form.
 
 ## Are we turning our back on classic e-mail? 
 
-<img src="/assets/logos/chatmail.png" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
+<img src="../assets/logos/chatmail.png" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
 No. 
 
@@ -146,8 +147,6 @@ messaging router running at Internet-scale.
 
 ## Widely used Internet standards for the win 
 
-<a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" style="width:400; float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /></a>
-
 How often have you heart "E-mail is dead" or 
 "here is this brand new thing to replace e-mail" 
 from marketing departments throughout the last two decades? 
@@ -163,3 +162,6 @@ that come with the many past and present
 The currently rolling releases mark a major milestone in our endeavour 
 of leveraging the existing massively distributed e-mail network 
 and enriching it with an interoperable way to do convenient chat messaging. 
+
+<a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" style="width:400; float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /></a>
+
