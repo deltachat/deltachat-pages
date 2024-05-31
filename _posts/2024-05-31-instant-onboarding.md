@@ -67,7 +67,7 @@ and contains an encryption number that is used to establish end-to-end encrypted
 Instant message delivery through push notifications is not only 
 available for iOS but now also for Android devices,
 without giving Google and Apple any access to user data. 
-Check out [our new push notifications FAQ section](/en/help#instant-delivery) for more details. 
+Check out [our new push notifications FAQ section](https://delta.chat/help#instant-delivery) for more details. 
 
 
 ## Chat profiles: on your device and in your hand 
