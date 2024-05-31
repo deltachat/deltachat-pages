@@ -4,6 +4,7 @@ author: holga,r10s
 image: ../assets/blog/secure-decent-delta.png
 ---
 
+XXX add right-aligned small video of Android start+chat-profile screen+initial chat list 
 A big milestone in our 6+ years long project history: 
 you can now start chatting without a pre-existing e-mail address. 
 The new Delta Chat releases (1.46) introduce "Instant onboarding" 
@@ -12,11 +13,10 @@ New users need to provide only a name and optionally an avatar,
 and hit "Agree and continue" to create their chat profile instantly
 and enjoy a reliable, secure and fast messaging experience. 
 
-XXX add small video of Android start+chat-profile screen+initial chat list 
-
 
 ## How to get into securely chatting with another Delta Chat user? 
 
+XXX add right-aligned screenshot of an invite-qr screen with share button 
 When using default onboarding with [chatmail servers](/en/chatmail) 
 you can only send out end-to-end encrypted messages. 
 Here is how you can setup a secure chat: 
@@ -34,8 +34,6 @@ Here is how you can setup a secure chat:
 - get added to a secure group chat 
   that will allow you to message any group member. 
 
-XXX add screenshot of an invite-qr screen with share button 
-
 These ways of starting a chat result in "guaranteed end-to-end encryption" 
 which is secure against compromised servers or networks. 
 Therefore, even if you are using a classic e-mail server we recommend to use these methods. 
@@ -49,7 +47,7 @@ No central key server or global infrastructure is required.
 
 ## New: Introduce a contact by attaching a "VCard"
 
-XXX add screenshot of an attached vcard for "Mad Hatter" 
+XXX add right-aligned screenshot of an attached vcard for "Mad Hatter" 
 
 With the 1.46 releases you can now "attach" a contact to a chat message, 
 and any receiver can tap it to start chatting with the contact. 
@@ -58,7 +56,7 @@ and contains an encryption number that is used to establish end-to-end encrypted
 
 ## New: Instant privacy-preserving push notifications for Android 
 
-XXX add screenshot of a top-level notification from "Mad Hatter" or so 
+XXX add right-aligned screenshot of a top-level notification from "Mad Hatter" or so 
 
 On Android, "instant push notifications" are enabled if possible,
 while denying Google and Apple any access to user data or metadata. 
@@ -75,8 +73,7 @@ Check out more details in our new [push notifications FAQ section](/help#instant
 <img src="/assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
 Nobody wants or needs more accounts these days
-so let us tell you about "Chat profiles" :) 
-
+so let us tell you about "Chat profiles". 
 When initially onboarding with Delta Chat you'll create a "Chat profile"
 which technically consists of your chosen name and avatar,
 and an encryption-setup, e-mail address and password. 
@@ -89,7 +86,7 @@ Whether using a chatmail or a classic e-mail server,
 you can always replicate your chat profile to a second device,
 or export it to a file and import it from any other device. 
 Chat profiles are "in your hand" and do not "live" on any central server,
-also not in encrypted form. 
+also not in encrypted or PIN-protected form. 
 
 
 ## Are we turning our back on classic e-mail? 
