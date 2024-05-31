@@ -1,27 +1,25 @@
 ---
-title: Instant anonymous onboarding and push notifications
+title: Instant onboarding and instant message delivery 
 author: holga,r10s
 image: ../assets/blog/secure-decent-delta.png
 ---
 
-XXX add right-aligned small video of Android start+chat-profile screen+initial chat list 
+<img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
-A big milestone in our 6+ years long project history: 
+Big milestone in our 6+ years long project history: 
 you can now start chatting without a pre-existing e-mail address. 
-The new Delta Chat releases (1.46) introduce "Instant onboarding" 
-with a growing set of [chatmail servers](/chatmail). 
-New users need to provide only a name and optionally an avatar,
-and hit "Agree and continue" to create their chat profile instantly
-and enjoy a reliable, secure and fast messaging experience. 
-
+Just provide a name and then tap "Agree and continue" 
+to create a chat profile on the [default chatmail server](https://nine.testrun.org/privacy.html) 
+or checkout other [chatmail servers](/chatmail) and tap the invite on their home page. 
+So it takes only a few seconds and no captchas or personal questions but what then? 
 
 ## How to get into securely chatting with another Delta Chat user? 
 
 <img src="../assets/blog/2023-11-qr-scan.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
-When using default onboarding with [chatmail servers](/en/chatmail) 
+When using the default sign-up with [chatmail servers](/en/chatmail) 
 you can only send out end-to-end encrypted messages. 
-Here is how you can setup a secure chat: 
+Here is how you can setup end-to-end encrypted chats: 
 
 - add a new contact through a QR code scan, or 
 
@@ -34,19 +32,17 @@ Here is how you can setup a secure chat:
   can tap to join the group, or 
 
 - get added to a secure group chat 
-  that will allow you to message any group member. 
+  which will allow you to message any group member. 
 
 <img src="../assets/blog/green-checkmark.svg" width="140" style="float:right; margin-left:1em;" />  
 
-These ways of starting a chat result in "guaranteed end-to-end encryption" 
-which is secure against compromised servers or networks. 
-Therefore, even if you are using a classic e-mail server we recommend to use these methods. 
+Using one of these methods, you end up with "guaranteed end-to-end encryption". 
 See the [2024 security analysis from ETH Zuerich researchers](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more info. 
 
 Secure chat setup also works in mesh networks in the Amazon Rain Forest 
 as well as in regions that are cut off from the wider Internet
-and where users can only access a local e-mail or chatmail server. 
-No central key server or global infrastructure is required. 
+and where users can only access a local server
+because no central key server or global infrastructure is required. 
 
 
 ## New: Introduce a contact by attaching a "VCard"
