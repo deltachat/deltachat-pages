@@ -7,18 +7,19 @@ image: ../assets/blog/secure-decent-delta.png
 <img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
 Big milestone in our 6+ years long project history: 
-you can now start chatting without a pre-existing e-mail address. 
+With the rolling 1.46 app releases you can start chatting without a pre-existing e-mail address. 
 Just provide a name and then tap "Agree and continue" 
 to create a chat profile using the [default chatmail server](https://nine.testrun.org/privacy.html) 
 or visit other [chatmail servers](/chatmail) and tap the invite on their home page. 
-Creating a profile takes only a few seconds without any annoying question ... 
-but what then? 
+
+Great. So creating a profile takes now only a few seconds but what then? 
+
 
 ## Maybe try out chatting with some bots? 
 
 Once Delta Chat is installed, 
 you can tap [this "Public Bots" link](https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN) 
-which will send you a little web app so you can navigate some existing bots. 
+which will send you a little web app to view and select some existing bots. 
 
 ## Or join a secure chat with a human fellow? 
 
@@ -44,7 +45,7 @@ to setup [guaranteed end-to-end encrypted chats](https://delta.chat/en/2024-03-2
 <img src="../assets/blog/2023-11-qr-scan.jpg" style="width:160px; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 <img src="../assets/blog/green-checkmark.svg" width="140" style="margin-left:1em;" /> 
 
-Note that these secure chat setups also work fine in mesh networks in the Amazon Rain Forest 
+Note that these secure chat setups work just fine in mesh networks in the Amazon Rain Forest 
 or in regions that are cut off from the wider Internet
 because no central key server or other global infrastructure is required. 
 
@@ -72,19 +73,19 @@ No message data and no metadata would be revealed either, also not in encrypted 
 Check out more details in our new [push notifications FAQ section](/help#instant-delivery).
 
 
-## Chat profiles: it's all on your device and in your hand 
+## Chat profiles: on your device and in your hand 
 
 <img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
-Delta Chat does not keep or rely on data at e-mail servers 
-but only uses them for message transport. 
+Delta Chat does not keep or rely on storing data at e-mail servers 
+but only uses them for ephemeral message transport. 
 When initially onboarding with Delta Chat you'll create a "Chat profile"
 which initially consists of your chosen name and avatar,
 and an encryption-setup, e-mail address and password. 
 The new 1.46 apps by default automate the last three 
-and only ask for your name and avatar which is shown to other users. 
-If you tap "use other server" and "manual login" 
-you can specify an existing e-mail address for your chat profile. 
+and only ask for your name and avatar but
+if you tap "use other server" and "manual login" 
+you can manually specify an existing e-mail address. 
 
 Over time, your chat profile accumulates contacts, chat groups, 
 messages and media files. 
@@ -173,11 +174,11 @@ only to find most mobile apps being a repackaged web view, anyway?
 By contrast, Delta Chat fully embraces both E-mail and Web standards 
 to avoid the pitfalls and failures of prior and current 
 "inventing a new standard that will replace e-mail (or the Web)" efforts.
-Our new "Instant onboarding" releases cultivate and grow chatmail servers 
-as part of the existing massively distributed e-mail network
+Our new "Instant onboarding" releases cultivate and grow chatmail servers,
+as part of the existing massively distributed e-mail network,
 to evolve as a fast and secure basis for decentralized instant messaging. 
 
-Delta Chat is, one may summarize, a messenger who takes XKCD 927 to heart :) 
+Delta Chat is, in other words, a messenger that fully heeds the warning of XKCD 927 :) 
 
 <figure> <a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" width="500px" style="float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /><figcaption>XKCD 927</figcaption> </a></figure>
 
