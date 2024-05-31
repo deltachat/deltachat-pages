@@ -71,24 +71,26 @@ No message data and no metadata would be revealed either, also not in encrypted 
 Check out more details in our new [push notifications FAQ section](/help#instant-delivery).
 
 
-## New: "Accounts" are dead. Long live "Chat profiles"!
+## Chat profiles: it's all on your device and in your hand 
 
 <img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 
-Nobody wants or needs more accounts these days
-so let us tell you about "Chat profiles". 
+Delta Chat does not keep or rely on data at e-mail servers 
+but only uses them for message transport. 
 When initially onboarding with Delta Chat you'll create a "Chat profile"
-which technically consists of your chosen name and avatar,
+which initially consists of your chosen name and avatar,
 and an encryption-setup, e-mail address and password. 
-The new 1.46 apps by default automate the last three choices 
+The new 1.46 apps by default automate the last three 
 and only ask for your name and avatar which is shown to other users. 
-You can alternatively tap "use other server" and "manual login" 
-if you want to specify an existing e-mail address for your chat profile. 
+If you tap "use other server" and "manual login" 
+you can specify an existing e-mail address for your chat profile. 
 
+Over time, your chat profile accumulates contacts, chat groups, 
+messages and media files. 
 Whether using a chatmail or a classic e-mail server, 
-you can always replicate your chat profile to a second device,
-or export it to a file and import it from any other device. 
-Chat profiles are "in your hand" and do not "live" on any central server,
+you can always replicate your chat profile with all data to a second device,
+or export it to a file and then import and use it from any other device. 
+Chat profiles are "in your hand" and are not stored on any central server,
 also not in encrypted or PIN-protected form. 
 
 
@@ -101,6 +103,7 @@ No.
 Firstly, chatmail is a fully interoperable e-mail server, 
 but does away with spam-checking and annoying rate-limits,
 and allows automated anonymous sign-up without asking any private data.
+Also chatmail is much faster than most other e-mail servers. 
 
 Secondly, chatmail servers run the popular [postfix](https://postfix.org) 
 and [dovecot](https://dovecot.org) server software in a minimal configuration,
@@ -110,7 +113,7 @@ used by tens of thousands of e-mail providers for billions of messages per day.
 
 Thirdly, you can still use your existing e-mail address and
 there are many [providers](https://providers.delta.chat) 
-with which Delta Chat works well. 
+with which Delta Chat works well apart from the lack of push notification support. 
 
 Lastly, while Delta Chat aims to offer easier onboarding than Whatsapp, Signal or Telegram 
 you can also use and regard it as an e-mail app. 
@@ -123,46 +126,57 @@ which means you can have a profile for instant chat messaging
 
 Yes. 
 
-We aim to make Delta Chat more approachable to the many 
+We aim to make Delta Chat more approachable with those 
 who do not care about or are even skeptical of "e-mail". 
-In all likelyness that's not you 
-because you wouldn't be reading this post here, then :) 
+In all likelyness that's not you because you are reading this post here :) 
 But you probably know people who might appreciate that Delta Chat 
-does not require a phone number or other personal data, 
-offers privacy, censorship resistance, a free "choice of server" 
-as well as a convenient and reliable user experience 
-that integrates games and collab tools, 
-along with a growing chat bot ecosystem? 
+
+- provides a convenient and reliable messaging experience,
+
+- does not require a phone number or any other personal data, 
+
+- offers privacy, censorship resistance and free choice of server,
+
+- offers in-chat games like 2048, chess or hextris,
+  and in-chat tools like an editor, a calendar and a checklist 
+  and all of that without requiring any server support. 
+
+In light of all these features, we prefer to not require 
+would-be-users first to understand what "e-mail" has to do with anything. 
+Or as a 20-year old women once reacted "E-mail? Isn't e-mail just there fore spam and work?"
+E-mail in the form of chatmail is so much more than that 
+but e-mail addresses redece into the background of Delta Chat 
+just like phone numbers recede into the background of classic phone-based messengers. 
 
 
-## Chatmail makes e-mail not only fast but cheap again 
+## Chatmail makes e-mail cheap again 
 
 With our new chatmail-based instant onboarding system, 
-e-mail addresses are becoming, once again, cheap and virtually free. 
+e-mail addresses are becoming, like in the early 2000s, cheap and virtually free. 
 But this time around, there is no company posturing to "do no evil" 
 luring everyone to their central "ethical" service and then drop the pretense soon after. 
-[Running a chatmail server](https://delta.chat/en/2023-12-13-chatmail) is a cheap activity that we want people
-to be able to do on the side and on low-end hardware all across the world. 
-Chatmail is best understood as a blind and ephemeral end-to-end encrypted 
-messaging router running at Internet-scale. 
+[Running a chatmail server](https://delta.chat/en/2023-12-13-chatmail) is a cheap activity 
+that we want people to be able to do on the side 
+and on low-end hardware all across the world. 
+Chatmail is best described as an ephemeral end-to-end encrypted 
+messaging routing system running at Internet-scale. 
 
-
-## Widely used Internet standards for the win 
+## Internet standards FTW or: e-mail strikes back!
 
 How often have you heart "E-mail is dead" or 
 "here is this brand new thing to replace e-mail" 
 from marketing departments throughout the last two decades? 
 How often have you heart "The Web is dead and replaced by mobile apps"
-only to find most mobile apps being a thinly veiled web view, anyway? 
+only to find most mobile apps being a repackaged web view, anyway? 
 
-By contrast, our carefully curated minimal usage of widely 
-deployed e-mail and web standards 
-remains as our core approach to avoid the pitfalls and failures
-that come with the many past and present
-"inventing a new standard that can replace e-mail or the Web" efforts.
-The new releases mark a major milestone in our endeavour 
-of leveraging the existing massively distributed e-mail network 
-and enriching it with chatmail servers for convenient chat messaging. 
- 
+By contrast, Delta Chat fully embraces both E-mail and Web standards 
+to avoid the pitfalls and failures of prior and current 
+"inventing a new standard that will replace e-mail (or the Web)" efforts.
+Our new "Instant onboarding" releases cultivate and grow chatmail servers 
+as part of the existing massively distributed e-mail network
+to evolve as a fast and secure basis for decentralized instant messaging. 
+
+Delta Chat is, one may summarize, a messenger who takes XKCD 927 to heart :) 
+
 <figure> <a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" width="500px" style="float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /><figcaption>XKCD 927</figcaption> </a></figure>
 
