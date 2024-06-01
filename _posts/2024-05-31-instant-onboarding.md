@@ -5,7 +5,7 @@ image: ../assets/blog/secure-decent-delta.png
 ---
 
 <img src="../assets/blog/2024-05-create-profile.jpg" width="200px" style="float: right; margin-left:.5em; margin-bottom:.2em;" />
-Big milestone in our 6+ years long project history: 
+A major milestone in our 6+ years long project history: 
 With the rolling 1.46 app releases you can start chatting without a pre-existing e-mail address. 
 Just provide a name and then tap "Agree and continue" 
 to create a chat profile using the [default chatmail server](https://nine.testrun.org/privacy.html). 
