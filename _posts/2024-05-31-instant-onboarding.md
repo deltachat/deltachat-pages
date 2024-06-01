@@ -1,6 +1,6 @@
 ---
-title: Instant onboarding and instant message delivery 
-author: holga,r10s
+title: Instant Onboarding and Instant Message Delivery
+author: holga, r10s
 image: ../assets/blog/secure-decent-delta.png
 ---
 
@@ -126,7 +126,7 @@ Chat profiles use servers only for end-to-end encrypted message transport.
 No. 
 
 Firstly, chatmail servers are fully interoperable e-mail servers, 
-but they do away with spam-checking and unneccessary rate-limits,
+but they do away with spam-checking and unnecessary rate-limits,
 allow anonymous sign-up without requiring any private data,
 and are faster and more efficient than classic e-mail servers. 
 
@@ -154,7 +154,7 @@ Yes.
 
 We aim to make Delta Chat more approachable for the many folks 
 who do not care about or are even critical of "e-mail". 
-With some likelyness that's not you because you are reading this post here :) 
+With some likeliness that's not you because you are reading this post here :)
 But you probably know people who don't rejoice when hearing "e-mail"
 but who might appreciate that Delta Chat 
 
@@ -164,7 +164,7 @@ but who might appreciate that Delta Chat
 
 - offers privacy, censorship resistance and free choice of server,
 
-- offers in-chat games like 2048, chess or hextris,
+- offers in-chat games like 2048, Chess or Hextris,
   and in-chat tools like an editor, a calendar and a checklist. 
 
 In light of all these features, we prefer to not require 
