@@ -2,6 +2,7 @@
 title: Instant Onboarding and Instant Message Delivery
 author: holga,r10s,link2xt,simon,xenia,iequidoo,hocuri,nami,simon,nami,sebi,gerry,hagi
 image: ../assets/blog/secure-decent-delta.png
+com_id: 112542680762630841
 ---
 
 <img src="../assets/blog/2024-05-create-profile.jpg" width="200px" style="float: right; margin-left:.5em; margin-bottom:.2em;" />
