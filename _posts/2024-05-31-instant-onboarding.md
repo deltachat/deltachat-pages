@@ -33,6 +33,8 @@ Once Delta Chat is installed, you may tap invite links like the following ones:
   to receive a little web app to view and start interacting with a selection of yet more bots. 
   Rest assured, no ChatGPT inside ;) 
 
+<img src="../assets/blog/2024-05-deltafans.jpg" width="100px" style="float: right; margin-left:.5em; margin-bottom:.2em;" />
+
 - If you feel more adventurous you may contact [Delta
   Fans](https://i.delta.chat/#B9311CB912B04BBD2977327C53FAAF34FDAAADF4&a=deltafans%40nine.testrun.org&n=DeltaFans&i=s-x3ZriWiET&s=qebTBni-pbN), an highly-experimental "community" chat profile 
   which was recently [publically shared on the fediverse](https://mastodon.social/@adbenitez/112355770657658005) and lives on many people's devices. 
