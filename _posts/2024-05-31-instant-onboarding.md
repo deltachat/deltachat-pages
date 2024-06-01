@@ -131,7 +131,7 @@ but they do away with spam-checking and unnecessary rate-limits,
 allow anonymous sign-up without requiring any private data,
 and are faster and more efficient than classic e-mail servers. 
 
-Secondly, chatmail servers run the popular [postfix](https://postfix.org) 
+Secondly, chatmail servers run the popular [postfix](https://www.postfix.org)
 and [dovecot](https://dovecot.org) server software in a minimal configuration,
 with small tweaks for optimized onboarding, speed and security. 
 Both systems are proven Free and Open Source software 
