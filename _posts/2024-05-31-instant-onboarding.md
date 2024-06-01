@@ -205,7 +205,7 @@ as part of the existing massively distributed e-mail network
 to provide a fast and secure basis for decentralized instant messaging. 
 
 In other words, 
-Delta Chat is the only messenger that fundamentally heeds the warning of XKCD 927 :) 
+Delta Chat is a messenger that fundamentally heeds the warning of XKCD 927 :) 
 
 <figure> <a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" width="500px" style="float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /><figcaption>XKCD 927</figcaption> </a></figure>
 
