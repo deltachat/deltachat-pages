@@ -37,7 +37,7 @@ You may tap "invite links" on a device where Delta Chat is installed like the fo
 
 - If you feel more adventurous you may contact [Delta
   Fans](https://i.delta.chat/#B9311CB912B04BBD2977327C53FAAF34FDAAADF4&a=deltafans%40nine.testrun.org&n=DeltaFans&i=s-x3ZriWiET&s=qebTBni-pbN), an highly-experimental "community" chat profile 
-  which was recently [publically shared on the fediverse](https://mastodon.social/@adbenitez/112355770657658005) and lives on many people's devices. 
+  which was recently shared in the fediverse and lives on many people's devices. 
 
 Troubleshooting: if tapping an invite link does not open a chat for you,
 you get re-directed to the i.delta.chat website
