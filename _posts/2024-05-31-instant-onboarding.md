@@ -93,7 +93,8 @@ Instant message delivery through push notifications is not only
 available for iOS but now also for Android devices,
 without giving Google and Apple any access to user data. 
 Check out [our new push notifications FAQ section](https://delta.chat/help#instant-delivery) for more details. 
-
+"Messages not arriving or arriving with long delays" has been 
+a recurring real-world issue that we hope is now soon becoming a thing of the past. 
 
 ## Chat profiles: on your device and in your hand 
 
