@@ -40,9 +40,9 @@ You may tap "invite links" on a device where Delta Chat is installed like the fo
   which was recently [publically shared on the fediverse](https://mastodon.social/@adbenitez/112355770657658005) and lives on many people's devices. 
 
 Troubleshooting: if tapping an invite link does not open a chat for you,
-you get re-directed to the https://i.delta.chat website 
-where you can "copy the link" behind the "Open Chat" button, 
-and then paste it into the "Scan QR Code" screen. 
+you get re-directed to the i.delta.chat website
+where you may "copy the link" behind the "Open Chat" button, 
+and then paste it into the "Scan QR Code" screen of the Delta Chat app. 
 
 
 ## Getting in contact with human fellows 
