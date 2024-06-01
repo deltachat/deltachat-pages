@@ -1,6 +1,6 @@
 ---
 title: Instant Onboarding and Instant Message Delivery
-author: holga, r10s
+author: holga,r10s,link2xt,simon,xenia,iequidoo,hocuri,nami,simon,nami,sebi,gerry,hagi
 image: ../assets/blog/secure-decent-delta.png
 ---
 
