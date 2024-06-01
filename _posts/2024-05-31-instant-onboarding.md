@@ -33,7 +33,7 @@ that offer an automated conversational chat interface for Delta Chat users:
 
 - If you feel more adventurous you may contact [Delta
   Fans](https://i.delta.chat/#B9311CB912B04BBD2977327C53FAAF34FDAAADF4&a=deltafans%40nine.testrun.org&n=DeltaFans&i=s-x3ZriWiET&s=qebTBni-pbN), an highly-experimental "community" chat profile 
-  which was recently [publically shared on the fediverse](https://mastodon.social/@adbenitez/112355770657658005).
+  which was recently [publically shared on the fediverse](https://mastodon.social/@adbenitez/112355770657658005) and lives on many people's devices. 
 
 
 ## Getting in contact with human fellows 
