@@ -4,7 +4,7 @@ author: holga,r10s
 image: ../assets/blog/secure-decent-delta.png
 ---
 
-<img src="../assets/blog/2024-05-create-profile.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
+<img src="../assets/blog/2024-05-create-profile.jpg" width="200px" style="float: right; margin-left:.5em; margin-bottom:.2em;" />
 
 Big milestone in our 6+ years long project history: 
 With the rolling 1.46 app releases you can start chatting without a pre-existing e-mail address. 
@@ -12,21 +12,36 @@ Just provide a name and then tap "Agree and continue"
 to create a chat profile using the [default chatmail server](https://nine.testrun.org/privacy.html) 
 or visit other [chatmail servers](/chatmail) and tap the invite on their home page. 
 
-Great. So creating a profile takes now only a few seconds but what then? 
+Great, a new chat profile in a few seconds, but what now? 
+
+Getting in contact with others is indeed a fundamental problem any non-mainstream messenger faces. 
+In the next two sections we suggest "how to get in contact" with bots and humans,
+before detailing some other interesting news about the 1.46 release series. 
+
+## Getting in contact with chat bots and the experimental "DeltaFans" community
+
+<img src="../assets/blog/2024-05-public-bot-avatar.png" width="100px" style="float: right; margin-left:.5em; margin-bottom:.2em;" />
+
+Once Delta Chat is installed, you may contact "chat bots", i.e. little helper programs 
+that offer an automated conversational chat interface for Delta Chat users: 
+
+- To verify things work, send a message to 
+  [echo@nine.testrun.org bot](https://i.delta.chat/#66B77A4C5F57A670D6E86C0767F00812105D9374&a=echo%40nine.testrun.org&n=&i=m6rDyxHRShX&s=Ta7TL-JufhZ) and observe the reply arriving quickly. 
+
+- Checkout [a "Public Bots" index](https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN) 
+  to receive a little web app to view and start interacting with a selection of bots. 
+  Rest assured, no ChatGPT inside ;) 
+
+- If you feel more adventurous you may contact [Delta
+  Fans](https://i.delta.chat/#B9311CB912B04BBD2977327C53FAAF34FDAAADF4&a=deltafans%40nine.testrun.org&n=DeltaFans&i=s-x3ZriWiET&s=qebTBni-pbN), an highly-experimental "community" chat profile 
+  which was recently [publically shared on the fediverse](https://mastodon.social/@adbenitez/112355770657658005).
 
 
-## Maybe try out chatting with some bots? 
-
-Once Delta Chat is installed, 
-you can tap [this "Public Bots" link](https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN) 
-which will send you a little web app to view and select some existing bots. 
-
-## Or join a secure chat with a human fellow? 
+## Getting in contact with human fellows 
 
 When using default sign-up with [chatmail servers](/chatmail) 
 you can only send out end-to-end encrypted messages. 
-But it's easy and recommended anyway 
-to setup [guaranteed end-to-end encrypted chats](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) by 
+You can setup [guaranteed end-to-end encrypted chats](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) by 
 
 - adding a new contact through a QR code scan, or 
 
@@ -45,9 +60,9 @@ to setup [guaranteed end-to-end encrypted chats](https://delta.chat/en/2024-03-2
 <img src="../assets/blog/2023-11-qr-scan.jpg" style="width:160px; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 <img src="../assets/blog/green-checkmark.svg" width="140" style="margin-left:1em;" /> 
 
-Note that these secure chat setups work just fine in mesh networks in the Amazon Rain Forest 
-or in regions that are cut off from the wider Internet
-because no central key server or other global infrastructure is required. 
+Note that setting up secure chats works just fine in mesh networks in the Amazon Rain Forest 
+or in regions that are cut off from the wider Internet. 
+No central key server or other global infrastructure is required. 
 
 
 ## New: Introduce a contact to chat partners 
@@ -57,7 +72,9 @@ because no central key server or other global infrastructure is required.
 With the 1.46 releases you can now "attach" a contact to a chat message, 
 and any receiver can tap it to start chatting with the attached contact. 
 The contact attachment has the [vcard format](https://www.rfc-editor.org/rfc/rfc6350)
-and contains an encryption number that is used to establish end-to-end encrypted messaging. 
+and contains your name, avatar, e-mail address and encryption information 
+so that the initial message can be end-to-end encrypted to the contact,
+allowing it to travel to other chatmail and e-mail servers safely. 
 
 
 ## New: Instant push notifications for Android 
@@ -87,9 +104,10 @@ contacts, chat groups, messages and media files.
 You can transfer or duplicate your chat profile to another device,
 either by a QR code scan or by exporting it to a file 
 and then importing and using it on any other device. 
-Chat profiles are literally "in your hand" and 
-are not stored on any central server,
+Chat profiles are literally "in your hand" and stored on your device(s). 
+No chat profile data is stored on any server,
 also not in encrypted or PIN-protected form. 
+Chat profiles use servers only for end-to-end encrypted message transport. 
 
 
 ## Are we turning our back on classic e-mail? 
@@ -142,7 +160,7 @@ but who might appreciate that Delta Chat
 
 In light of all these features, we prefer to not require 
 would-be-users first to understand what "e-mail" has to do with anything. 
-As a 20-year old women once fed back "E-mail? Isn't e-mail just there for spam and work?"
+As a 20-year old woman once fed back "E-mail? Isn't e-mail just there for spam and work?"
 E-mail in the form of chatmail is so much more than that 
 but we still think it's good to let 
 e-mail addresses recede into the background of Delta Chat 
@@ -164,7 +182,7 @@ messaging routing system running at Internet-scale.
 
 ## Internet standards FTW or: e-mail strikes back!
 
-How often have you heart "E-mail is dead" or 
+How often have you heard "E-mail is dead" or 
 "here is this brand new thing to replace e-mail" 
 from marketing pushes throughout the last two decades? 
 How often have you heart "The Web is dead and replaced by mobile apps"
@@ -172,12 +190,13 @@ only to find most mobile apps being a thinly veiled web view, anyway?
 
 By contrast, Delta Chat fully embraces both E-mail and Web standards 
 to avoid the pitfalls and failures of past and present 
-"inventing a new standard that will replace e-mail (or the Web)" efforts.
-Our new "Instant onboarding" releases cultivate and grow chatmail servers,
-as part of the existing massively distributed e-mail network,
-to evolve as a fast and secure basis for decentralized instant messaging. 
+"inventing a new standard to replace e-mail / the Web" efforts.
+Our new "Instant onboarding" relies on chatmail servers that operate
+as part of the existing massively distributed e-mail network
+to provide a fast and secure basis for decentralized instant messaging. 
 
-Maybe Delta Chat is the only messenger that fundamentally heeds the warning of XKCD 927? :) 
+In other words, 
+Delta Chat is the only messenger that fundamentally heeds the warning of XKCD 927 :) 
 
 <figure> <a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" width="500px" style="float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /><figcaption>XKCD 927</figcaption> </a></figure>
 
