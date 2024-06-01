@@ -8,14 +8,17 @@ image: ../assets/blog/secure-decent-delta.png
 Big milestone in our 6+ years long project history: 
 With the rolling 1.46 app releases you can start chatting without a pre-existing e-mail address. 
 Just provide a name and then tap "Agree and continue" 
-to create a chat profile using the [default chatmail server](https://nine.testrun.org/privacy.html) 
-or visit other [chatmail servers](/chatmail) and tap the invite on their home page. 
+to create a chat profile using the [default chatmail server](https://nine.testrun.org/privacy.html). 
+Or visit other [chatmail servers](../chatmail) and tap the invite on their home page. 
 
 Great, a new chat profile in a few seconds, but what now? 
 
-Getting in contact with others is indeed a fundamental problem any non-mainstream messenger faces. 
-In the next two sections we suggest "how to get in contact" with bots and humans,
-before detailing some other interesting news about the 1.46 release series. 
+Getting in contact with others is indeed a fundamental problem for any non-mainstream messenger.
+In the next two sections we suggest how to get in contact with some bots and humans,
+before highlighting more news about the 1.46 release series,
+and providing some of our thinking around the UX and UI direction of Delta Chat
+and chatmail servers. 
+
 
 ## Getting in contact with chat bots and the experimental "DeltaFans" community
 
