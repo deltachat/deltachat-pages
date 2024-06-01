@@ -24,7 +24,7 @@ and chatmail servers.
 
 <img src="../assets/blog/2024-05-public-bot-avatar.png" width="100px" style="float: right; margin-left:.5em; margin-bottom:.2em;" />
 
-Once Delta Chat is installed, you may tap invite links like the following ones: 
+You may tap "invite links" on a device where Delta Chat is installed like the following: 
 
 - To verify things work, send a message to 
   [echo@nine.testrun.org bot](https://i.delta.chat/#66B77A4C5F57A670D6E86C0767F00812105D9374&a=echo%40nine.testrun.org&n=&i=m6rDyxHRShX&s=Ta7TL-JufhZ) and observe the echo reply arriving quickly. 
@@ -38,6 +38,11 @@ Once Delta Chat is installed, you may tap invite links like the following ones:
 - If you feel more adventurous you may contact [Delta
   Fans](https://i.delta.chat/#B9311CB912B04BBD2977327C53FAAF34FDAAADF4&a=deltafans%40nine.testrun.org&n=DeltaFans&i=s-x3ZriWiET&s=qebTBni-pbN), an highly-experimental "community" chat profile 
   which was recently [publically shared on the fediverse](https://mastodon.social/@adbenitez/112355770657658005) and lives on many people's devices. 
+
+Troubleshooting: if tapping an invite link does not open a chat for you,
+you get re-directed to the https://i.delta.chat website 
+where you can "copy the link" behind the "Open Chat" button, 
+and then paste it into the "Scan QR Code" screen. 
 
 
 ## Getting in contact with human fellows 
