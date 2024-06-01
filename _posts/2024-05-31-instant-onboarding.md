@@ -20,18 +20,17 @@ and providing some of our thinking around the UX and UI direction of Delta Chat
 and chatmail servers. 
 
 
-## Getting in contact with chat bots and the experimental "DeltaFans" community
+## Getting in contact with chat bots and "DeltaFans" 
 
 <img src="../assets/blog/2024-05-public-bot-avatar.png" width="100px" style="float: right; margin-left:.5em; margin-bottom:.2em;" />
 
-Once Delta Chat is installed, you may contact "chat bots", i.e. little helper programs 
-that offer an automated conversational chat interface for Delta Chat users: 
+Once Delta Chat is installed, you may tap invite links like the following ones: 
 
 - To verify things work, send a message to 
-  [echo@nine.testrun.org bot](https://i.delta.chat/#66B77A4C5F57A670D6E86C0767F00812105D9374&a=echo%40nine.testrun.org&n=&i=m6rDyxHRShX&s=Ta7TL-JufhZ) and observe the reply arriving quickly. 
+  [echo@nine.testrun.org bot](https://i.delta.chat/#66B77A4C5F57A670D6E86C0767F00812105D9374&a=echo%40nine.testrun.org&n=&i=m6rDyxHRShX&s=Ta7TL-JufhZ) and observe the echo reply arriving quickly. 
 
-- Checkout [a "Public Bots" index](https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN) 
-  to receive a little web app to view and start interacting with a selection of bots. 
+- Checkout [a "Public Bots" index bot](https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN) 
+  to receive a little web app to view and start interacting with a selection of yet more bots. 
   Rest assured, no ChatGPT inside ;) 
 
 - If you feel more adventurous you may contact [Delta
