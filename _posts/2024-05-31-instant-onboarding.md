@@ -195,7 +195,7 @@ messaging routing system running at Internet-scale.
 How often have you heard "E-mail is dead" or 
 "here is this brand new thing to replace e-mail" 
 from marketing pushes throughout the last two decades? 
-How often have you heart "The Web is dead and replaced by mobile apps"
+How often have you heard "The Web is dead and replaced by mobile apps"
 only to find most mobile apps being a thinly veiled web view, anyway? 
 
 By contrast, Delta Chat fully embraces both E-mail and Web standards 
