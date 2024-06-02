@@ -23,7 +23,7 @@ für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigun
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) ist auf Italienisch sprechende Nutzer ausgerichtet und ist seit Mai 2024 stabil.
 
 Alle Chatmail-Server werden von verschiedenen Gruppen und Personen betrieben. 
-Der Standard-Server nine.testrun.org wird vom des Delta-Chat-Kernteam betrieben. 
+Der Standard-Server nine.testrun.org wird vom Delta-Chat-Kernteam betrieben. 
 
 ## Kann ich auch einen klassischen E-Mail-Server verwenden?
 
