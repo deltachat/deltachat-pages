@@ -12,13 +12,24 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - name: Install Bundler
+        run: sudo gem install bundler
+      - name: Cache bundle
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Install Jekyll
+        run: bundle install
       - name: Build the site with Jekyll
-        run: nix build
+        run: |
+          bundle exec jekyll build --future
+
       - name: Upload
         run: |
           mkdir -p "$HOME/.ssh"
           echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
           chmod 600 "$HOME/.ssh/key"
-          rsync -rLtvh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/result/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/_site"
+          rsync -avzh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/_site"
