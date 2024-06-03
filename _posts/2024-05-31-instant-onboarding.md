@@ -28,7 +28,7 @@ and chatmail servers.
 You may tap "invite links" on a device where Delta Chat is installed like the following: 
 
 - To verify things work, send a message to 
-  [echo@nine.testrun.org bot](https://i.delta.chat/#66B77A4C5F57A670D6E86C0767F00812105D9374&a=echo%40nine.testrun.org&n=&i=m6rDyxHRShX&s=Ta7TL-JufhZ) and observe the echo reply arriving quickly. 
+  <echo@nine.testrun.org> and observe the echo reply arriving quickly. 
 
 - Checkout [a "Public Bots" index bot](https://i.delta.chat/#9AF055DB87EC48A1C009B6CA55E3712A6F7D346F&a=botsindex%40nine.testrun.org&n=Public%20Bots&i=QpBSronexvP&s=nAfQ0q_JomN) 
   to receive a little web app to view and start interacting with a selection of yet more bots. 
