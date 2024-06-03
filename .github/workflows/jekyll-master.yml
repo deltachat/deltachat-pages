@@ -21,4 +21,4 @@ jobs:
           mkdir -p "$HOME/.ssh"
           echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
           chmod 600 "$HOME/.ssh/key"
-          rsync -rLtvh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/result/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/_site"
+          rsync -rILvh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/result/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/_site"
