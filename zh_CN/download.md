@@ -15,21 +15,21 @@ Android 4.1 Jelly Bean
 桌面版不要求在手机上安装 Delta Chat。
 
 
-## Changelogs & More {#changelogs}
+## 更新日志 & 更多信息 {#changelogs}
 
-- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
-  [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
-  [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
+- 更新日志：[桌面](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)、
+  [安卓](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)、
+  [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)、
   [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Alternative Clients](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [可选客户端](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
 
-- [Provider Database](https://providers.delta.chat/)
+- [提供商数据库](https://providers.delta.chat/)
 
-- [Verify Downloads](verify-downloads)
+- [验证下载](verify-downloads)
 
-- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [桌面版安装故障解决](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
-  [Android Nightlies](https://download.delta.chat/android/nightly/),
-  [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
+- 预览版本：[桌面版]({% include desktop-previews-url %})、
+  [安卓 每日版](https://download.delta.chat/android/nightly/)、
+  [iOS 测试版](https://testflight.apple.com/join/uEMc1NxS)
