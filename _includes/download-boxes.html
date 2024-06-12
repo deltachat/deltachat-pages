@@ -1,6 +1,6 @@
 {% assign txEn = site.data.lang['en']['en'] %}
 {% assign tx = site.data.lang[page.lang][page.lang] %}
-{% assign VERSION_DESKTOP = "1.44.1" %}
+{% assign VERSION_DESKTOP = "1.46.0" %}
 {% assign VERSION_ANDROID = "1.46.2" %}
 
 <div class="download-content">
@@ -99,7 +99,8 @@
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="buttons">
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.dmg"><small>Download</small> DeltaChat.dmg</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-universal.dmg"><small>Download</small> DeltaChat universal.dmg</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.dmg"><small>Download</small> DeltaChat arm64.dmg</a>
                 </div>
             </details>
             <div class="descr">
@@ -154,10 +155,13 @@
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="buttons">
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for</small> Debian/Ubuntu</a>
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.x86_64.rpm"><small>Get .rpm for</small> Fedora</a>
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage"><small>Get Universal</small> AppImage</a>
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.tar.gz"><small>Get Universal</small> tar.gz</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for</small> 64-bit Debian/Ubuntu</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.x86_64.rpm"><small>Get .rpm for</small> 64-bit Fedora</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage"><small>Get</small> 64-bit AppImage</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.tar.gz"><small>Get</small> 64-bit tar.gz</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_arm64.deb"><small>Get .deb for</small> ARM Debian/Ubuntu</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.aarch64.rpm"><small>Get .rpm for</small> ARM Fedora</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.AppImage"><small>Get</small> ARM AppImage</a>
                 </div>
             </details>
             <div class="descr">
