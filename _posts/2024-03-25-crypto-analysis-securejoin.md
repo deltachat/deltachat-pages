@@ -20,11 +20,11 @@ We'd like to thank the ETH researchers Yuanming Song, Lenka Mareková and Kennet
 for their thorough work and their forthcoming communication to resolve questions and review patches. 
 What follows is a timeline and some brief technical discussions
 of our hardening efforts in response to the cryptographic analysis
-about which the researchers will publish separately and in more detail. 
+about which the researchers [published separately and in more detail](https://eprint.iacr.org/2024/918).
 
 ## Disclosure Timeline 
 
-- January 30th: Researcher Lenka Mareková 
+- January 30th: researcher Lenka Mareková
   first contacts us about a cryptographic security analysis of Delta Chat. 
   Secure channels are agreed and established for further communication,
   and agreement is reached to try address all issues within at most 90 days.
@@ -44,7 +44,7 @@ about which the researchers will publish separately and in more detail.
 
 - Feb 21th: [rPGP 0.11.0](https://github.com/rpgp/rpgp/releases/tag/v0.11.0) is released.
 
-- Feb 27th: researchers did not find any flaws in our patches. 
+- Feb 27th: the researchers did not find any flaws in our patches.
 
 - March 4th: fixes are integrated into the public Delta Chat core repository and
   the v1.44 app release processes start. 
@@ -53,6 +53,8 @@ about which the researchers will publish separately and in more detail.
 
 - March 16th: Delta Chat F-Droid becomes available, 
   finally making security fixes available to users on all platforms.
+
+- June 10th: the researchers [publish their analysis](https://eprint.iacr.org/2024/918).
 
 
 ## Hardening E-mail Header protections and encryption 
