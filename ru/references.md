@@ -3,22 +3,22 @@ title: Ссылки
 lang: ru
 ---
 
-# Пресса о Delta Chat
+# Упоминания
 
 Этот список далеко не завершён - неужели мы что-то упустили? Пожалуйста,
 [дайте нам знать](imprint) или просто отправьте 
 [пул-реквест](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### c't, a german technology magazine, tested Delta Chat 1½ years
+### c't, немецкий журнал о технологиях, тест Delta Chat 1½ года
 
-Translated summary:
-_"Delta Chat is definitely worth a longer look.
-The app harmoniously combines chat as a form of communication
-with the tried-and-tested medium of email
-and even offers some features that you won't find in other messengers,
-such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
-It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
+Переведённые краткие изложения:
+_"Delta Chat определенно стоит смотреть дальше.
+Приложение гармонично сочетает в себе чат как форму общения.
+с проверенным средством электронной почты
+и даже предлагает некоторые функции, которых вы не найдете в других мессенджерах,
+например, небольшие приложения «webxdc», которые можно встраивать непосредственно в чаты и использовать с собеседниками.
+Жаль, что Delta Chat не существовал до WhatsApp и ему подобных.."_
 
 11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
 

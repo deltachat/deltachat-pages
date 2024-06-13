@@ -4,32 +4,35 @@ lang: ru
 ---
 
 
-## What are chatmail servers and how to select one? 
+## Что такое серверы chatmail и как выбрать один из них? 
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers are optimized for messaging with Delta Chat 
-to provide a privacy-preserving and speedy user experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Серверы Chatmail оптимизированы для общения в Delta Chat 
+обеспечивающие конфиденциальный и скоростной пользовательский опыт, 
+ безопасность совместима с  chatmail и классическими серверами эл.почты. 
+**Нажмите на ссылку сервер chatmail** чтобы увидеть домашнюю страницу и затем нажмите на QR код приглашения здесь: 
 
-- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
-  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+- [nine.testrun.org](https://nine.testrun.org) это адаптированный сервер по умолчанию
+  для Delta Chat приложений и стабильны начиная с [анонса  Chatmail в Декабре 2023](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) ориентирован на немецкоязычных пользователей и стабильно работает с января 2024 года.
+- [mehl.cloud](https://mehl.cloud) ориентирован на Немецкоязычных
+  пользователей и стабилен с Января 2024 года.
 
-- [mailchat.pl](https://mailchat.pl) ориентирован на польскоязычных пользователей пользователей и стабильно работает с января 2024 года.
+- [mailchat.pl](https://mailchat.pl) ориентирован на Польскоязычных
+  пользователей и стабилен с Января 2024.
 
-- [bcc.chat](https://bcc.chat) работает в США и стабильно работает с февраля 2024 года.
+- [bcc.chat](https://bcc.chat) работает из США
+стабилен с  Января 2024.
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been 
-  stable since May 2024. 
+  ориентирован на Италоговорящих пользователей
+  стабилен с Мая 2024. 
 
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Все chatmail серверы управляются разными группами и людьми. 
+По умолчанию сервер nine.testrun.org, управляется основными членами команды Delta Chat. 
 
-## Can i also use a regular e-mail server instead of chatmail?
+## Могу я также использовать обычные серверы эл.почты вместо chatmail?
 
 Да, многие пользователи успешно используют обычные почтовые серверы
 особенно если они хотят обрабатывать свою обычную электронную почту с помощью Delta Chat.
@@ -39,7 +42,7 @@ The nine.testrun.org default server is operated by core Delta Chat team members.
 а другой - для общения в чате.
 
 
-## Чем серверы chatmail отличаются от серверов e-mail?
+## Чем серверы chatmail отличаются от серверов эл.почты?
 
 Серверы Chatmail это минимальные серверы электронной почты, разработанные для обеспечения скорости, безопасности и удобства:
 
@@ -57,16 +60,16 @@ The nine.testrun.org default server is operated by core Delta Chat team members.
 
 ## Насколько можно доверять серверам chatmail?
 
-Each chatmail server provides additional privacy information on their web page.
-Typically, a chatmail server only processes encrypted messages and
-implements automatic, unconditional message deletion after at most 20 days.
+Каждый сервера chatmail предоставляет дополнительную информацию о безопасности на своей интернет странице.
+Обычно chatmail сервер только обрабатывет зашифрованные сообщения и
+в большинстве случаев,  реализует автоматическое удаление сообщений по истечении 20 дней.
 
 Delta Chat обеспечивает [гарантированное сквозное шифрование](https://delta.chat/en/2023-11-23-jumbo-42)
 что означает, что в большинстве случаев операторы сервера не смогут прочитать ваши сообщения, даже если попытаются это сделать,
 Эта гарантия подтверждена недавним [анализом безопасности от Швейцарской высшей технической школой Цюриха ETH](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## How are chatmail servers run? Can i run one myself? {#selfhosted}
+## Как запустить chatmail сервер? Могу я самостоятельно установить свой? {#selfhosted}
 
 Все серверы chatmail автоматически развертываются и обновляются с помощью
 [публичного репозитория разработки chatmail](https://github.com/deltachat/chatmail).

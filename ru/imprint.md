@@ -7,9 +7,9 @@ lang: ru
 
 Delta Chat - это [проект сообщества с открытым исходным кодом](https://github.com/deltachat). Ответственными за содержание наших сайтов являются:
 
-    merlinux GmbH
+    ООО merlinux
     Reichsgrafenstr. 20
-    79102 Freiburg, Germany
+    79102 Фрайбург, Германия
 
 Электронная почта: {% include email-link %}
 
@@ -17,6 +17,6 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Управляющий директор: Holger Krekel
 
-[Сообщество](contribute)
+[Каналы сообществ](contribute)
 
 Сервер рассылок <https://github.com/codespeaknet/sysadmin>.
