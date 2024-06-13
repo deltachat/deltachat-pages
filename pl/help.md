@@ -257,27 +257,17 @@ Pełne szyfrowanie jest gwarantowane, jeśli obok tytułu czatu znajduje się zi
 
 ### Jak mogę uzyskać gwarancję kompleksowego szyfrowania i zielone znaczniki wyboru? {#howtoe2ee}
 
-If you have a second communication channel with your chat partner,
-like a video chat or a different messenger,
-you can generate an invite link.
+Jeśli masz drugi kanał komunikacji ze swoim partnerem na czacie, np. czat wideo lub inny komunikator, możesz wygenerować link zaproszenia.
 
-If you are together in person,
-you can show a QR code to your chat partner.
+Jeśli jesteście razem osobiście, możesz pokazać kod QR swojemu rozmówcy.
 
-- For **Group invitations**,
-  tap the chat group title to see its member list,
-  and select "QR Invite code".
+-  W przypadku **zaproszeń grupowych** dotknij tytułu czatu grupy, aby wyświetlić listę jej członków, i wybierz „Kod QR zaproszenia”.
 
-- For **direct 1:1 chat invitations**,
-  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
+-  Aby uzyskać **bezpośrednie zaproszenia na czat 1:1**, dotknij ikony kodu QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> na ekranie głównym aplikacji Delta Chat.
 
-Let your chat partner scan the QR image
-with their Delta Chat app,
-or click "Copy" or "Share" to create an invite link
-and share it with your chat partner.
+Pozwól swojemu partnerowi czatu zeskanować obraz QR za pomocą aplikacji Delta Chat lub dotknij „Kopiuj” lub „Udostępnij”, aby utworzyć link zaproszenia i udostępnić go swojemu partnerowi czatu.
 
-Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Teraz poczekaj, aż między obydwoma urządzeniami [nastąpi wymiana wiadomości sieciowych Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol).
 
 - Jeśli oba urządzenia są w trybie online, obie strony ostatecznie zobaczą czat (grupowy lub bezpośredni) z zielonym znacznikiem wyboru <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/> obok tytułu.
 

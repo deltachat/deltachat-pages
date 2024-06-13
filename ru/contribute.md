@@ -13,19 +13,19 @@ lang: ru
   дискуссии для новых возможностей и получения тех. поддержки.
 
 - [Репозитории Delta Chat](https://github.com/deltachat/), где вы можете
-  код для приложений DeltaChat и этого веб-сайта.
+  найти код для приложений DeltaChat и этого веб-сайта.
 
 - Другие ссылки можно найти в [cosmos](https://cosmos.delta.chat)
 
 [Пожертвовать деньги](donate){: .cta-button}
 
-# Переводы и отчёты об ошибках
+# Переводы и Отчёты об Ошибках
 
 - [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)
-- [Ошибки Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Ошибки Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Ошибки Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Ошибки Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Проблемы Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Проблемы Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Проблемы Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Проблемы Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Мы постоянно ищем разработчиков и дизайнеров.
 Обычно мы предлагаем контракты на 20-30 часов в неделю или работу по найму (если вы находитесь в Германии).
@@ -35,7 +35,7 @@ lang: ru
 Для получения более подробной информации рекомендуем прочитать и подписатья на наш [блог](https://delta.chat/ru/blog).
 
 
-# Сторонние каналы связи 
+# Каналы связи от третьих лиц
 
 Следующие каналы связи, связанные с Delta Chat, управляются третьими лицами
 которые могут следовать или не следовать нашим [Стандартам сообщества](community-standards): 
@@ -48,7 +48,7 @@ lang: ru
 
 - Сообщество [Лемми](https://lemmy.zip/c/delta_chat)
   на которое вы можете подписаться введя `!delta_chat@lemmy.zip` 
-  в поле поиска вашего приложения fediverse.
+  в поле поиска вашего федивёрс приложения.
 
 -  [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
 

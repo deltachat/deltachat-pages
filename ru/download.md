@@ -12,24 +12,24 @@ Android 4.1 Jelly Bean
 или Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 или Debian 10
 или иные совместимые системы.
 
-Delta Chat для компьютера - не требует, чтобы он был установлен также и на телефон.
+Версия для компьютера не требует, чтобы Delta Chat был установлен на телефон.
 
 
-## Changelogs & More {#changelogs}
+## Список изменений и Другое {#changelogs}
 
-- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Список изменений: [ПК](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Alternative Clients](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Альтернативные Клиенты](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
 
-- [Provider Database](https://providers.delta.chat/)
+- [База Провайдеров](https://providers.delta.chat/)
 
-- [Verify Downloads](verify-downloads)
+- [Проверка Загрузок](verify-downloads)
 
-- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Решение Проблем Установки на ПК](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
-  [Android Nightlies](https://download.delta.chat/android/nightly/),
+- Предварительные сборки: [ПК]({% include desktop-previews-url %}),
+  [Android Ночные](https://download.delta.chat/android/nightly/),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
