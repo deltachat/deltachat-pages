@@ -23,10 +23,6 @@ zh_CN:
 
   download:
     install: 安装Delta Chat
-    get_account: 获取帐户
-    get_account_explanation: "您可以通过Delta Chat 使用（几乎）任何电子邮件帐户。如果您需要一个新帐户，请点击或扫描此二维码，获取一个随机<a href=\"https://nine.testrun.org\" target=\"_blank\">@nine.testrun.org</a> 电子邮件地址。"
-    add_friends: 输入用户名，与朋友见面
-    add_friends_explanation: 现在您可以输入用户名、选择个人照片并与朋友聊天。通过<a href="help#howtoe2ee">扫描二维码</a> 或<a href="../en/2024-03-12-jumbo44#sharing-invite-links-for-chats-and-chat-groups">发送邀请链接</a> 与他们见面并验证。
     other: 其他平台的下载选项
     no_upgrades: 无自动更新的下载选项
     source_code: 源代码

@@ -23,10 +23,6 @@ sq:
 
   download:
     install: Instaloni Delta Chat-in
-    get_account: Merrni një Llogari
-    get_account_explanation: "Me Delta Chat-in mund të përdorni çfarëdo (pothuajse) llogari email. Nëse ju duhet një e re, prekeni, ose skanoni këtë kod QR që të merrni një adresë email kuturu <a href=\"https://nine.testrun.org\" target=\"_blank\">@nine.testrun.org</a>"
-    add_friends: Jepni një Emër Përdoruesi dhe Takohuni me Shokët Tuaj
-    add_friends_explanation: "Tani mund të jepni një emër përdoruesi, të përzgjidhni një foto profili dhe të bisedoni me shokët. Rruga më e mirë është t’i takoni personalisht dhe t’i verifikoni duke <a href=\"help#howtoe2ee\">skanuar kode QR</a>."
     other: Mundësi shkarkimi për platforma të tjera
     no_upgrades: Mundësi shkarkimi pa përditësime automatike
     source_code: Kod Burim
