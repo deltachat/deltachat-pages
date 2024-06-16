@@ -23,10 +23,6 @@ nl:
 
   download:
     install: Delta Chat installeren
-    get_account: Account aanmaken
-    get_account_explanation: "Je kunt (bijna) elk account gebruiken in Delta Chat. Als je een nieuw account nodig hebt, druk dan op de QR-code of scan hem om een willekeurig <a href=\"https://nine.testrun.org\" target=\"_blank\">@nine.testrun.org</a>-adres te bemachtigen."
-    add_friends: Voer een gebruikersnaam in en communiceer met je vrienden
-    add_friends_explanation: Nu kun je een gebruikersnaam en profielfoto kiezen. Daarna kun je communiceren met je vrienden door met ze af te spreken en ze goed te keuren met behulp van hun <a href="help#howtoe2ee">QR-codes</a>.
     other: Downloadopties voor andere systemen
     no_upgrades: Downloadopties zonder automatische updates
     source_code: Broncode

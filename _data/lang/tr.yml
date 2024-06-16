@@ -23,10 +23,6 @@ tr:
 
   download:
     install: ""
-    get_account: ""
-    get_account_explanation: ""
-    add_friends: ""
-    add_friends_explanation: ""
     other: ""
     no_upgrades: ""
     source_code: Kaynak Kodu

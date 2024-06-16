@@ -23,10 +23,6 @@ en:
 
   download:
     install: Install Delta Chat
-    get_account: Get an Account
-    get_account_explanation: You can use (almost) any email account with Delta Chat. If you need a new one, tap or scan this QR code to get a random <a href="https://nine.testrun.org" target="_blank">@nine.testrun.org</a> email address
-    add_friends: Enter a Username and Meet Your Friends
-    add_friends_explanation: Now you can enter a username, select a profile picture, and chat with your friends. Meet and verify them by <a href="help#howtoe2ee">scanning QR codes</a> or <a href="../en/2024-03-12-jumbo44#sharing-invite-links-for-chats-and-chat-groups">send them an invite link</a>.
     other: Download options for other platforms
     no_upgrades: Download options without automatic updates
     source_code: Source Code
