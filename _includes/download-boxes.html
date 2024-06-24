@@ -141,10 +141,10 @@
                         <img src="../assets/badges/flathub.png" alt="{%if tx.download.flathub != ""%}{{ tx.download.flathub }}{%else%}{{ txEn.download.flathub }}{%endif%}" width=161 height=48 />
                     </picture>
                 </a>
-                <a href="https://archlinux.org/packages/extra/any/deltachat-desktop/"><small>Install package for</small>arch linux</a>
             </div>
             <div class="descr">
                 Flatpak manual install: <code>flatpak install flathub chat.delta.desktop</code><br />
+                Arch manual install: <code>pacman -S deltachat-desktop</code><br />
                 Nix manual install: <code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code><br />
                 Snap manual install (community maintained): <code>sudo snap install deltachat-desktop</code>
             </div>
