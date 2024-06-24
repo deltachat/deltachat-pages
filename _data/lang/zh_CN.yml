@@ -22,7 +22,6 @@ zh_CN:
   language: 语言
 
   download:
-    install: 安装Delta Chat
     other: 其他平台的下载选项
     no_upgrades: 无自动更新的下载选项
     source_code: 源代码

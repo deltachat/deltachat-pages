@@ -22,7 +22,6 @@ de:
   language: Sprache
 
   download:
-    install: Delta Chat installieren
     other: Download-Optionen für andere Plattformen
     no_upgrades: Downloads ohne automatische Updates
     source_code: Quellcode
