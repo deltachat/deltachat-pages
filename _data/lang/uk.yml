@@ -22,7 +22,6 @@ uk:
   language: Мова
 
   download:
-    install: Встановіть Delta Chat
     other: Варіанти завантаження для інших платформ
     no_upgrades: Варіанти завантаження без автоматичного оновлення
     source_code: Вихідний код

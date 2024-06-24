@@ -22,7 +22,6 @@ fr:
   language: Langue
 
   download:
-    install: ""
     other: ""
     no_upgrades: ""
     source_code: Code source

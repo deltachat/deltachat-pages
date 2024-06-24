@@ -22,7 +22,6 @@ gl:
   language: Idioma
 
   download:
-    install: ""
     other: ""
     no_upgrades: ""
     source_code: Código Fonte
