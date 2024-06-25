@@ -4,8 +4,6 @@ lang: ca
 downloads: true
 ---
 
-![Un usuari d'iOS escanejant un codi QR del telèfon d'algú altre.](../assets/blog/2023-11-qr-scan.jpg)
-
 Requeriments mínims:
 Android 4.1 Jelly Bean
 o iOS 12, iPhone 5s o iPad 5/Air/Mini 2

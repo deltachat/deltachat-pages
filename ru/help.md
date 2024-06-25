@@ -271,12 +271,12 @@ Push-уведомления работают со всеми [chatmail](https://
 
 ### Включены ли Push-уведомления на устройствах iOS? Есть ли альтернатива?
 
-Да, Delta Chat автоматически использует Push-уведомления для профилей [chatmail](https://delta.chat/chatmail).
-И нет, на телефонах Apple нет альтернативы для мгновенной доставки сообщений.
-потому что устройства Apple не позволяют Delta Chat получать данные в фоновом режиме.
-Push-уведомления автоматически активируются для пользователей iOS, потому что
-[Система Push-уведомлений Delta Chat, минимизирующая конфиденциальность](#privacy-notifications)
-не предоставляет Apple данные, которых у нее нет.
+Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
+And no, there is no alternative on Apple's phones to achieve instant message delivery
+because Apple devices do not allow Delta Chat to fetch data in the background.
+Push notifications are automatically activated for iOS users because
+[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
+does not expose data to Apple that it doesn't already have.
 
 
 ### Включены / нужны ли Push-уведомления на устройствах Android? {#android-push}

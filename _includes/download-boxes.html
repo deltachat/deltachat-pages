@@ -4,6 +4,7 @@
 {% assign VERSION_ANDROID = "1.46.5" %}
 
 <div class="download-content">
+    <h1>{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h1>
     <div id="recommendation-section" hidden>
         <div id="recommend"></div>
     </div>

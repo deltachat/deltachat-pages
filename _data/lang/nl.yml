@@ -22,6 +22,7 @@ nl:
   language: Taal
 
   download:
+    install: Delta Chat installeren
     other: Downloadopties voor andere systemen
     no_upgrades: Downloadopties zonder automatische updates
     source_code: Broncode

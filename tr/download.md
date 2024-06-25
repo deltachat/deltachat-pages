@@ -4,8 +4,6 @@ lang: tr
 downloads: true
 ---
 
-![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
-
 En düşük gereksinimler:
 Android 4.1 Jelly Bean
 ya da iOS 12, iPhone 5s ya da iPad 5/Air/Mini 2

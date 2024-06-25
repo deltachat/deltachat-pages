@@ -189,8 +189,12 @@ Od maja 2024 r. klasyczne serwery poczty e-mail nie obsługują powiadomień pus
 
 ### Czy powiadomienia push są włączone na urządzeniach z iOS? Czy istnieje alternatywa?
 
-Tak, Delta Chat automatycznie korzysta z powiadomień push dla profili [chatmail](https://delta.chat/chatmail)
-. I nie, w telefonach Apple nie ma alternatywy umożliwiającej natychmiastowe dostarczanie wiadomości, ponieważ urządzenia Apple nie pozwalają Delta Chat na pobieranie danych w tle. Powiadomienia push są automatycznie aktywowane dla użytkowników iOS, ponieważ [minimalizujący prywatność system powiadomień push Delta Chat](#privacy-notifications) nie udostępnia Apple danych, których jeszcze nie posiada.
+Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
+And no, there is no alternative on Apple's phones to achieve instant message delivery
+because Apple devices do not allow Delta Chat to fetch data in the background.
+Push notifications are automatically activated for iOS users because
+[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
+does not expose data to Apple that it doesn't already have.
 
 
 ### Czy powiadomienia Push są włączone/potrzebne na urządzeniach z Androidem? {#android-push}

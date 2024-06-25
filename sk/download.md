@@ -4,8 +4,6 @@ lang: sk
 downloads: true 
 --- 
 
-![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
-
 Minimálne požiadavky:
 Android 4.1 Jelly Bean
 alebo iOS 12, iPhone 5s alebo iPad 5/Air/Mini 2

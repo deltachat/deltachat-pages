@@ -22,6 +22,7 @@ sq:
   language: Gjuhë
 
   download:
+    install: Instaloni Delta Chat-in
     other: Mundësi shkarkimi për platforma të tjera
     no_upgrades: Mundësi shkarkimi pa përditësime automatike
     source_code: Kod Burim
