@@ -22,7 +22,6 @@ pt:
   language: Língua
 
   download:
-    install: ""
     other: ""
     no_upgrades: ""
     source_code: Source Code

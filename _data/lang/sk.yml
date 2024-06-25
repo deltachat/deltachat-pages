@@ -22,7 +22,6 @@ sk:
   language: Jazyk
 
   download:
-    install: ""
     other: ""
     no_upgrades: ""
     source_code: "Zdrojový kód "
