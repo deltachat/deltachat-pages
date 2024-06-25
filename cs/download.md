@@ -4,8 +4,6 @@ lang: cs
 downloads: true
 ---
 
-![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
-
 Minimální požadavky:
 Android 4.1 Jelly Bean
 nebo iOS 12, iPhone 5s nebo iPad 5/Air/Mini 2

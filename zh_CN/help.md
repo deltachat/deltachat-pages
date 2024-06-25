@@ -8,46 +8,46 @@ header: 常见问题
 
 ## 什么是 Delta Chat？
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
-available for mobile and desktop platforms.
+Delta Chat 是一款可靠、去中心化和安全的消息应用程序、 
+适用于移动和桌面平台。
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+Delta Chat 感觉就像 Whatsapp 或 Telegram，但你也可以把它当作电子邮件应用程序来使用。 
+你可以匿名注册到各种[可互操作的聊天邮件服务器](https://delta.chat/chatmail)
+这些都是为快速安全运行而优化的最小电子邮件服务器。 
+您也可以使用传统的电子邮件服务器和现有的电子邮件账户
+在这种情况下， Delta Chat 可充当邮件客户端。
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### 如何找到可以聊天的人？
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
+要安全地与他人建立联系[扫描邀请二维码 
+或分享邀请链接]（#howtoe2ee）。 
+使用（默认的）基于chatmail的聊天账户时需要这样做 
+因为chatmail会拒绝未加密的发送信息。
 
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+当使用经典电子邮件地址创建聊天配置文件时 
+如果您知道联系人的电子邮件地址，您可以手动创建联系人
+然后给他们写信息 
+即使收件人没有使用Delta Chat 。
 
 
 ### 与其他通信软件相比，Delta Chat 有哪些优势？
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices. 
+- 使用快速、安全、可互操作的 [chatmail 服务器](https://delta.chat/chatmail) 创建匿名聊天账户
+  为 iOS 和 Android 设备提供即时推送通知。 
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+- 跨平台支持 [多配置文件]（#多账户）和多设备。 
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+- 交互性 [聊天中的网页小程序](https://webxdc.org/apps)
 
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
+- [经审计的端到端加密](#security-audits) 
+  安全地抵御网络和服务器攻击。 
 
-- Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
+- 免费开源软件，包括应用程序和服务器端。 
+  基于[电子邮件和网络互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)、 
+  [避免 "又一个标准综合症（xkcd 927）"](https://xkcd.com/927/) 
 
 
 ### 如果希望收到我从未发送过消息的人的消息，该怎么办?
@@ -64,22 +64,22 @@ even if the recipient is not using Delta Chat.
 - 为了提高性能，默认情况下会对图像进行优化并以较小的尺寸发送，但您也可以将其作为 "文件 "发送，以保留原始图像。
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### 什么是账户资料？如何在它们之间切换？ {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses a chatmail or a classic e-mail server to transport messages.
+一份账户资料包括**姓名、照片**和一些额外的加密信息。
+个人配置只存在于您的设备(们)中
+并使用聊天邮件或传统电子邮件服务器传输信息。
 
-On first installation of Delta Chat a first profile is created.
+首次安装Delta Chat 时，会创建第一个账户资料文件。
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+之后，您可以点击左上角的个人资料图像，**添加个人账户**
+或**切换账户**。
 
-You may want to use separate profiles for political, family or work related activities,
-or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
-that tend to cause unsolicited messages ("spam") sooner or later.
+您可能希望为政治、家庭或工作相关的活动使用不同的账户资料,
+或者例如，为专门用于注册网站和平台的“垃圾邮件账户资料”,
+这些网站和平台往往会早晚导致未经请求的消息（即“垃圾邮件”）
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+您可能还想了解 [如何在多台设备上使用同一账户资料](#multiclient)。
 
 
 ### 谁会看见我的个人资料图片？
@@ -196,14 +196,16 @@ They will most likely also not be decryptable anymore
 
 ### 打开“从服务器删除旧消息”后，会发生什么？
 
-- 默认情况下，Delta Chat 会在本地设备上存储您的所有消息。如果您，例如，想要节省邮件提供商处的存储空间，那么可以选择开启自动删除旧消息。这些消息还将保存在您的设备上（除非您在设备上删除它们）。
+- 默认情况下，Delta Chat 会在本地设备上存储您的所有消息。
+ 如果您，例如，想要节省邮件提供商处的存储空间，
+那么可以选择配置Delta Chat 以开启服务端自动删除旧消息。
+这些消息还将保存在您的设备上,除非您在设备上删除它们。
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- 要打开它，请转到 "聊天和媒体 "设置中的**删除旧信息 → 从服务器删除信息**。
+  您可以在 "立即 "和 "1 年后 "之间设置时限。
+  Delta Chat 收到的所有电子邮件都将在此期限后从服务器中删除。
 
-- 注意：如果在多台设备上使用 Delta Chat，请将消息在服务器上保存足够长的时间，以便其他设备能够下载消息。在这种情况下，您应当根据其他设备的使用频率，将自动删除设置到“一天后”或相似的选项上。
+- 注意：如果在多台设备上使用 Delta Chat，请将消息在服务器上保存足够长的时间，以便其他设备能够下载消息。在这种情况下，您应当根据其他设备(们)的使用频率，将自动删除设置到“一天后”或相似的选项上。
 
 
 ### 打开“从设备删除旧消息”后，会发生什么？ {#delold}
@@ -239,7 +241,7 @@ Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://del
 And no, there is no alternative on Apple's phones to achieve instant message delivery
 because Apple devices do not allow Delta Chat to fetch data in the background.
 Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-minimizing Push Notification system](#privacy-notifications)
+[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
 does not expose data to Apple that it doesn't already have.
 
 
@@ -1081,12 +1083,12 @@ if you set a [signature text](#signature).
 
 副本会被发送到收件箱，然后会被移动到 DeltaChat 文件夹；它不会被放到“已发送”文件夹里。Delta Chat *从不* 将东西上传到已发送文件夹，因为这意味着上传一条消息两次（一次通过 SMTP，一次通过 IMAP 到已发送文件夹）。
 
-The default setting for "Send Copy to Self" is "on".
+"给自己发送副本"的默认设置为 "开"。
 
 
 ### 为什么我可以选择监视“已发送”文件夹？
 
-监视已发送文件夹的唯一原因是：您在同时使用其他的邮件应用程序（比如 Thunderbird），并且想让邮件分发代理参与聊天对话。
+监视已发送文件夹的唯一原因是：您在使用Delta Chat软件的同时也使用其他的邮件应用程序（比如 Thunderbird），并且想让邮件分发代理参与聊天对话。
 
 不过，我们推荐使用 Delta Chat 桌面客户端；您可以在 [get.delta.chat](https://get.delta.chat) 下载它。监视“已发送”文件夹的选项是在还没有 Delta Chat 桌面客户端的时候引入的，这个选项可能会在未来消失。
 
@@ -1129,40 +1131,23 @@ it is recommended to leave any group chat before uninstalling Delta Chat.
 
 ### Delta Chat 的开发是如何被资助的? 
 
-Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产生巨额利润或将用户及其朋友和家人卖给广告商（或更糟）的压力。我们宁愿使用（目前来自欧盟和美国的）公共资金，来帮助我们努力建立一个基于自由开源社区开发的、去中心化的、多样化的聊天消息（软件）生态系统。 
+Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产生巨额利润或将用户及其朋友和家人卖给广告商（或更糟）的压力。我们宁愿使用目前来自欧盟和美国的公共资金，来帮助我们努力建立一个基于自由开源社区开发的、去中心化的、多样化的聊天消息软件生态系统。 
 
 具体来说，到目前为止，对 Delta Chat 开发的资助有这些来源：
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018 and also helped to integrate end-to-end Encryption
-  through [Autocrypt](https://autocrypt.org).
+- [NEXTLEAP](https://nextleap.eu)欧盟项目资助了以下研究和实施工作：在 2017 年和 2018 年实施的验证组和设置联系协议和通过 [Autocrypt](https://autocrypt.org)整合了端到端加密。
 
 - 在[开放技术基金](https://opentechfund.org) 2018/2019 年提供的第一笔赠款（约 20 万美元）期间，我们显著改善了安卓应用，发布了第一个桌面测试版，并根据人权方面的用户体验研究进行了功能开发，请参阅我们的结论[《需求发现与用户体验报告》](https://delta.chat/en/2019-07-19-uxreport)。2019/2020 年的第二笔赠款（约 30 万美元）对发布 Delta/iOS 版本，将核心库转换到 Rust ，以及为所有平台开发新功能提供了帮助。
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system. 
+- [NLnet 基金会](https://nlnet.nl/) 2019/2020 年拨款 4.6 万欧元，用于完成 Rust/Python 绑定并建立聊天机器人生态系统。 
 
 - 在 2021 年，我们从两项下一代互联网提案收到了欧盟的进一步资助，即 [EPPD - 电子邮件提供商可移植性目录](https://dapsi.ngi.eu/hall-of-fame/eppd/)（约 9.7 万欧元）和 [AEAP - 电子邮件地址移植](https://nlnet.nl/project/EmailPorting/)（约 9 万欧元）。这带来了更好的多账户支持，改进的二维码联系人和群组设置，和所有平台上的多处网络改进。
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- 从 2021 年底到 2023 年 3 月，我们从美国民主、人权和劳工局（DRL）获得了*互联网自由*资金（50 万美元）。这笔资金支持了我们的长期目标，即让Delta Chat 更好用，并与全球范围内的各种电子邮件服务器兼容，而且在经常受到互联网审查制度影响的地方更具弹性和安全性。
 
-- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
-  Entrust program for our "Private Decentralized Apps" proposals. 
-  Exact amount is to be determined (around 100K EUR). 
-  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+- 从 2023 年开始，我们的 "私有去中心化应用程序 "提案获得了 下一代互联网(NGI)托付计划的青睐。 具体金额待定（约 10 万欧元）。这笔资金将支持[webxdc "聊天共享应用程序"](https://webxdc.org)的进一步开发。 
 
-- Sometimes we receive one-time donations from private individuals. 
-  For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". 💜 
-  We use such money to fund development gatherings or to care for ad-hoc expenses 
-  that can not easily be predicted for, or reimbursed from, public funding grants. 
-  Receiving more donations also helps us to become more independent and long-term viable
-  as a contributor community. 
+- 我们有时会收到个人的一次性捐款。 例如，2021 年，一位慷慨的人士以 "继续保持良好的发展态势！"为主题通过银行向我们捐赠了4千欧元💜。 我们用这些钱来资助发展活动或支付不容易预测或从公共基金中报销的临时费用。收到更多的捐款也有助于我们作为一个贡献者社区变得更加独立和长期可持续。
 
   [捐助钱款](donate){: .cta-button}
 
@@ -1170,5 +1155,5 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
 
 上面提到的钱款资助主要是由在弗赖堡（德国）的 merlinux GmbH 组织的，分发给了来自世界各地的十多位贡献者。
 
-Please see [Delta Chat Contribution channels](contribute)
-for both monetary and and other contribution possibilities.  
+请参阅 [Delta Chat 捐款渠道]（捐款）
+以了解货币捐款和其他捐款的可能性。  

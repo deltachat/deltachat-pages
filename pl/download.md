@@ -4,8 +4,6 @@ lang: pl
 downloads: true
 ---
 
-![Użytkownik iOS skanujący kod QR na czyimś telefonie.](../assets/blog/2023-11-qr-scan.jpg)
-
 Minimalne wymagania:
 Android 4.1 Jelly Bean
 lub iOS 12, iPhone 5s lub iPad 5/Air/Mini 2

@@ -4,8 +4,6 @@ lang: gl
 downloads: true
 ---
 
-![An iOS user scanning a QR code on someone else's phone.](../assets/blog/2023-11-qr-scan.jpg)
-
 Requerimentos mínimos:
 Android 4.1 Jelly Bean
 ou iOS 12, iPhone 5s ou iPad 5/Air/Mini 2

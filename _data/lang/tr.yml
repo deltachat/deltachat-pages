@@ -22,6 +22,7 @@ tr:
   language: Dil
 
   download:
+    install: ""
     other: ""
     no_upgrades: ""
     source_code: Kaynak Kodu

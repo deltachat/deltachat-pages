@@ -234,7 +234,7 @@ Ja, Delta Chat verwendet automatisch Push-Benachrichtigungen für [Chatmail](htt
 Und nein, es gibt für Apple-Telefonen keine Alternative, Push-Benachrichten zuzustellen;
 Apple-Geräte erlauben es Delta Chat nicht, Daten im Hintergrund abzurufen.
 Push-Benachrichtigungen werden für iOS-Nutzer automatisch aktiviert, da
-[Delta Chats datenschutzminimierendes Push-Benachrichtigungssystem](#privacy-notifications)
+[Delta Chats datenschutzwahrendes Push-Benachrichtigungssystem](#privacy-notifications)
 keine Daten an Apple weitergibt, die Apple nicht bereits hat.
 
 

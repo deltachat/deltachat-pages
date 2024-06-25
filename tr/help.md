@@ -275,7 +275,7 @@ Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://del
 And no, there is no alternative on Apple's phones to achieve instant message delivery
 because Apple devices do not allow Delta Chat to fetch data in the background.
 Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-minimizing Push Notification system](#privacy-notifications)
+[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
 does not expose data to Apple that it doesn't already have.
 
 

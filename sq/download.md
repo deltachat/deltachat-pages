@@ -4,8 +4,6 @@ lang: sq
 downloads: true
 ---
 
-!Një përdorues iOS-i që skanon një kod QR në telefonin e dikujt tjetër.](../assets/blog/2023-11-qr-scan.jpg)
-
 Domosdoshmëri minimale:
 Android 4.1 Jelly Bean
 ose iOS 12, iPhone 5s ose iPad 5/Air/Mini 2

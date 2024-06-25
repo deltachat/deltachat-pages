@@ -22,6 +22,7 @@ ca:
   language: Idioma
 
   download:
+    install: ""
     other: ""
     no_upgrades: ""
     source_code: Codi font

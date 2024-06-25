@@ -4,8 +4,6 @@ lang: zh_CN
 downloads: true
 ---
 
-![一个 iOS 用户在别人的手机上扫描二维码。](../assets/blog/2023-11-qr-scan.jpg)
-
 最低要求：
 Android 4.1 Jelly Bean
 或 iOS 12, iPhone 5s 或 iPad 5/Air/Mini 2

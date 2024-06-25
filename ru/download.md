@@ -4,8 +4,6 @@ lang: ru
 downloads: true
 ---
 
-![Пользователь iOS сканирует QR-код на чужом телефоне.](../assets/blog/2023-11-qr-scan.jpg)
-
 Минимальные требования:
 Android 4.1 Jelly Bean
 или iOS 12, iPhone 5s или iPad 5/Air/Mini 2
