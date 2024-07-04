@@ -449,7 +449,11 @@ Delta Chat підтримує поширені формати приватних
 
 Проект Delta Chat пройшов чотири незалежні аудити безпеки та один незалежний аналіз безпеки, від найновіших до найстаріших: 
 
-- 2024 березня ми отримали глибокий аналіз безпеки від дослідницької групи Applied Cryptography з прикладної криптографії в ETH Zuerich і вирішили всі порушені питання. Більш детальну інформацію можна знайти в нашому блозі в статті [Hardening Guaranteed End-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin). 
+- 2024 March, we received a deep security analysis from the Applied Cryptography
+  research group at ETH Zuerich and addressed all raised issues. 
+  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
+  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
+  research paper published afterwards. 
 
 - Починаючи з 2023 року, ми виправили проблеми з безпекою та конфіденційністю у функції "веб застосунків, що поширені у чаті", пов'язані зі збоями в роботі пісочниці особливо в Chromium. Згодом ми отримали незалежний аудит безпеки аудит безпеки від Cure53, і всі знайдені проблеми були виправлені в серії додатків 1.36, випущених у квітні 2023 року. Повну історію про наскрізну безпеку в Інтернеті дивіться [тут](https://delta.chat/en/2023-05-22-webxdc-security).
 

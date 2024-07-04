@@ -27,7 +27,10 @@ securely interoperable with chatmail and classic e-mail servers.
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
   is geared towards Italian speaking users and has been 
-  stable since May 2024. 
+  stable since May 2024.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  operates in the US and has been stable since July 2024.
 
 All chatmail servers are operated by different groups and people. 
 The nine.testrun.org default server is operated by core Delta Chat team members. 

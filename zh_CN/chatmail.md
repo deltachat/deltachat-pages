@@ -19,7 +19,12 @@ Chatmail 服务器为 Delta Chat 优化，提供保护隐私且快速的用户�
 
 - [bcc.chat](https://bcc.chat) 在美国运营，自 2024年2月 以来一直稳定运行。
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) 面向意大利语用户，自 2024年5月 以来一直稳定运行。
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  is geared towards Italian speaking users and has been 
+  stable since May 2024.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  operates in the US and has been stable since July 2024.
 
 所有chatmail 服务器由不同的团体和人员运营。  默认服务器 nine.testrun.org 由 Delta Chat 核心团队成员运营。
 

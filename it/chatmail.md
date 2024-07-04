@@ -26,8 +26,11 @@ ed è stabile da gennaio 2024.
 stabile da febbraio 2024.
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  è rivolto agli utenti di lingua italiana ed è
-  stabile da Maggio 2024.
+  is geared towards Italian speaking users and has been 
+  stable since May 2024.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  operates in the US and has been stable since July 2024.
 
 Tutti i server chatmail sono gestiti da gruppi e persone diversi. 
 Il server predefinito nine.testrun.org è gestito dai membri principali del team Delta Chat.

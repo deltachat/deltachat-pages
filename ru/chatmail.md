@@ -26,8 +26,11 @@ lang: ru
 стабилен с  Января 2024.
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  ориентирован на Италоговорящих пользователей
-  стабилен с Мая 2024. 
+  is geared towards Italian speaking users and has been 
+  stable since May 2024.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  operates in the US and has been stable since July 2024.
 
 Все chatmail серверы управляются разными группами и людьми. 
 По умолчанию сервер nine.testrun.org, управляется основными членами команды Delta Chat. 

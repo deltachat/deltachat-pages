@@ -189,12 +189,8 @@ Od maja 2024 r. klasyczne serwery poczty e-mail nie obsługują powiadomień pus
 
 ### Czy powiadomienia push są włączone na urządzeniach z iOS? Czy istnieje alternatywa?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Tak, Delta Chat automatycznie korzysta z powiadomień push dla profili [chatmail](https://delta.chat/chatmail)
+. I nie, w telefonach Apple nie ma alternatywy umożliwiającej natychmiastowe dostarczanie wiadomości, ponieważ urządzenia Apple nie pozwalają Delta Chat na pobieranie danych w tle. Powiadomienia push są automatycznie aktywowane dla użytkowników iOS, ponieważ [system prywatności powiadomień Delta Chat](#privacy-notifications) nie udostępnia Apple danych, których jeszcze nie posiada.
 
 
 ### Czy powiadomienia Push są włączone/potrzebne na urządzeniach z Androidem? {#android-push}
@@ -451,7 +447,11 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 
 Projekt Delta Chat przeszedł cztery niezależne audyty bezpieczeństwa i jedną niezależną analizę bezpieczeństwa, od najnowszego do najstarszego:
 
-W marcu 2024 r. otrzymaliśmy dogłębną analizę bezpieczeństwa od grupy badawczej ds. kryptografii stosowanej w ETH Zuerich i zajęliśmy się wszystkimi poruszonymi kwestiami. Bardziej szczegółowe informacje można znaleźć w naszym poście na blogu na temat [szyfrowania typu „end-to-end” z gwarancją hartowania](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
+- 2024 March, we received a deep security analysis from the Applied Cryptography
+  research group at ETH Zuerich and addressed all raised issues. 
+  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
+  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
+  research paper published afterwards. 
 
 - W kwietniu 2023 r. naprawiliśmy problemy z bezpieczeństwem i prywatnością w funkcji „aplikacje internetowe udostępniane na czacie”, związane z awariami piaskownicy, szczególnie w przypadku Chromium. Następnie przeprowadziliśmy niezależny audyt bezpieczeństwa od Cure53 i wszystkie wykryte problemy zostały naprawione w aplikacji z serii 1.36 wydanej w kwietniu 2023 r. [Pełną historię bezpieczeństwa end-to-end w sieci można znaleźć tutaj](https://delta.chat/en/2023-05-22-webxdc-security).
 
