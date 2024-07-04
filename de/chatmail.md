@@ -20,7 +20,12 @@ für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigun
 
 - [bcc.chat](https://bcc.chat) wird in den USA betrieben und ist seit Februar 2024 stabil.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) ist auf Italienisch sprechende Nutzer ausgerichtet und ist seit Mai 2024 stabil.
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  is geared towards Italian speaking users and has been 
+  stable since May 2024.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  operates in the US and has been stable since July 2024.
 
 Alle Chatmail-Server werden von verschiedenen Gruppen und Personen betrieben. 
 Der Standard-Server nine.testrun.org wird vom Delta-Chat-Kernteam betrieben. 
