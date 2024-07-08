@@ -447,11 +447,7 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 
 Projekt Delta Chat przeszedł cztery niezależne audyty bezpieczeństwa i jedną niezależną analizę bezpieczeństwa, od najnowszego do najstarszego:
 
-- 2024 March, we received a deep security analysis from the Applied Cryptography
-  research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
-  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
-  research paper published afterwards. 
+- W marcu 2024 r. otrzymaliśmy dogłębną analizę bezpieczeństwa od grupy badawczej ds. kryptografii stosowanej w ETH Zuerich i zajęliśmy się wszystkimi poruszonymi kwestiami. Więcej szczegółowych informacji można znaleźć na naszym blogu na temat [szyfrowania typu End-to-End z gwarancją Hardening](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) oraz opublikowanym później artykule badawczym [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf).
 
 - W kwietniu 2023 r. naprawiliśmy problemy z bezpieczeństwem i prywatnością w funkcji „aplikacje internetowe udostępniane na czacie”, związane z awariami piaskownicy, szczególnie w przypadku Chromium. Następnie przeprowadziliśmy niezależny audyt bezpieczeństwa od Cure53 i wszystkie wykryte problemy zostały naprawione w aplikacji z serii 1.36 wydanej w kwietniu 2023 r. [Pełną historię bezpieczeństwa end-to-end w sieci można znaleźć tutaj](https://delta.chat/en/2023-05-22-webxdc-security).
 
