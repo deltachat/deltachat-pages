@@ -4,7 +4,7 @@ lang: sq
 ---
 
 
-## What are chatmail servers and how to select one? 
+## Ç’janë shërbyes chatmail dhe si të përzgjidhet një i tillë? 
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
