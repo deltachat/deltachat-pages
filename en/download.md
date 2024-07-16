@@ -5,10 +5,11 @@ downloads: true
 ---
 
 Minimal requirements:
-Android 4.1 Jelly Bean
-or iOS 12, iPhone 5s or iPad 5/Air/Mini 2
-or Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 or Debian 10
-or compatible systems.
+- Android 4.1 Jelly Bean
+- iOS 12, iPhone 5s or iPad 5/Air/Mini 2
+- Windows 10
+- macOS 10.15 Catalina
+- Ubuntu 18.04, Fedora 29 or Debian 10 or compatible systems.
 
 The desktop versions do not require Delta Chat to be installed on a phone.
 
