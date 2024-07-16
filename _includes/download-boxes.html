@@ -64,13 +64,13 @@
                     <a href="https://download.delta.chat/android/deltachat-gplay-release-{{VERSION_ANDROID}}.apk"><small>Download</small> APK</a>
                 </div>
             </details>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
             <p>
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Android 4.1 Jelly Bean
             </p>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="ios">
             <div class="title">iPhone/iPad</div>
@@ -83,13 +83,13 @@
                     </picture>
                 </a>
             </div>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-ios">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
             <p>
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 iOS 12, iPhone 5s or iPad 5/Air/Mini 2
             </p>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-ios">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="macos">
             <div class="title">macOS</div>
@@ -111,14 +111,14 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.dmg"><small>Download Apple Silicon</small> DeltaChat.dmg</a>
                 </div>
             </details>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
             <p>
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 macOS 10.15 Catalina.
                 {%if tx.download.no_phone != ""%}{{ tx.download.no_phone }}{%else%}{{ txEn.download.no_phone }}{%endif%}
             </p>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="windows">
             <div class="title">Windows</div>
@@ -141,14 +141,14 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
                 </div>
             </details>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
             <p>
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Windows 10
                 {%if tx.download.no_phone != ""%}{{ tx.download.no_phone }}{%else%}{{ txEn.download.no_phone }}{%endif%}
             </p>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="linux">
             <div class="title">GNU/Linux</div>
@@ -183,14 +183,14 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}-arm64.tar.gz.tar.gz"><small>Get arm64</small> tar.gz</a>
                 </div>
             </details>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
             <p>
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Ubuntu 18.04, Fedora 29, Debian 10 or compatible systems.
                 {%if tx.download.no_phone != ""%}{{ tx.download.no_phone }}{%else%}{{ txEn.download.no_phone }}{%endif%}
             </p>
+            <div class="descr">
+                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
         <div class="box" id="ubuntutouch">
             <div class="title">Ubuntu Touch</div>
@@ -203,14 +203,14 @@
                     </picture>
                 </a>
             </div>
-            <div class="descr">
-                See <a href="https://delta.chat/en/2023-07-02-deltatouch">blog</a> for details about this community driven effort<br />
-                <a href="https://codeberg.org/lk108/deltatouch">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
             <p>
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Ubuntu Touch 16.04
             </p>
+            <div class="descr">
+                See <a href="https://delta.chat/en/2023-07-02-deltatouch">blog</a> for details about this community driven effort<br />
+                <a href="https://codeberg.org/lk108/deltatouch">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
+            </div>
         </div>
     </details>
 </div>
