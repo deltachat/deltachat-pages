@@ -4,6 +4,8 @@ lang: en
 downloads: true
 ---
 
+The desktop versions do not require Delta Chat to be installed on a phone.
+
 
 ## Changelogs & More {#changelogs}
 
