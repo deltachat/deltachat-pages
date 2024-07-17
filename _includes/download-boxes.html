@@ -49,6 +49,10 @@
                     </picture>
                 </a>
             </div>
+            <div>
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                Android 4.1 Jelly Bean
+            </div>
             <details>
                 <summary class="noupgrades">
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
@@ -64,10 +68,6 @@
                     <a href="https://download.delta.chat/android/deltachat-gplay-release-{{VERSION_ANDROID}}.apk"><small>Download</small> APK</a>
                 </div>
             </details>
-            <div>
-                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
-                Android 4.1 Jelly Bean
-            </div>
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
@@ -102,6 +102,10 @@
             <div class="descr">
                 Homebrew manual install: <code>brew install --cask deltachat</code>
             </div>
+            <div>
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                macOS 10.15 Catalina
+            </div>
             <details>
                 <summary class="noupgrades">
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
@@ -111,10 +115,6 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.dmg"><small>Download Apple Silicon</small> DeltaChat.dmg</a>
                 </div>
             </details>
-            <div>
-                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
-                macOS 10.15 Catalina
-            </div>
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
@@ -129,6 +129,10 @@
             <div class="descr">
                 Winget install: <code>winget install 9PJTXX7HN3PK</code>
             </div>
+            <div>
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                Windows 10
+            </div>
             <details>
                 <summary class="noupgrades">
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
@@ -140,10 +144,6 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
                 </div>
             </details>
-            <div>
-                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
-                Windows 10
-            </div>
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
@@ -165,6 +165,10 @@
                 Nix manual install: <code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code><br />
                 Snap manual install (community maintained): <code>sudo snap install deltachat-desktop</code>
             </div>
+            <div>
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                Ubuntu 18.04, Fedora 29, Debian 10 or compatible systems
+            </div>
             <details>
                 <summary class="noupgrades">
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
@@ -181,10 +185,6 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}-arm64.tar.gz.tar.gz"><small>Get arm64</small> tar.gz</a>
                 </div>
             </details>
-            <div>
-                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
-                Ubuntu 18.04, Fedora 29, Debian 10 or compatible systems
-            </div>
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
