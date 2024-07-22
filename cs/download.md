@@ -4,12 +4,6 @@ lang: cs
 downloads: true
 ---
 
-Minimální požadavky:
-Android 4.1 Jelly Bean
-nebo iOS 12, iPhone 5s nebo iPad 5/Air/Mini 2
-nebo Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 nebo Debian 10
-nebo slučitelné systémy.
-
 Desktop verze nevyžaduje Delta Chat na mobilním telefonu.
 
 

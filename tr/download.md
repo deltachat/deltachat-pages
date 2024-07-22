@@ -4,12 +4,6 @@ lang: tr
 downloads: true
 ---
 
-En düşük gereksinimler:
-Android 4.1 Jelly Bean
-ya da iOS 12, iPhone 5s ya da iPad 5/Air/Mini 2
-ya da Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 ya da Debian 10
-ya da uyumlu sistemler.
-
 Masaüstü sürümleri, Delta Chat'in bir telefona kurulmasını gerektirmez.
 
 

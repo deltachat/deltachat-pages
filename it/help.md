@@ -772,11 +772,11 @@ Per altri programmi, dovresti essere in grado di trovare una soluzione online.
 Il progetto Delta Chat è stato sottoposto a quattro controlli di sicurezza indipendenti e
 un'analisi di sicurezza indipendente, dal più recente al più vecchio:
 
-- 2024 March, we received a deep security analysis from the Applied Cryptography
-  research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
-  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
-  research paper published afterwards. 
+- Marzo 2024, abbiamo ricevuto un'analisi approfondita della sicurezza dalla Crittografia Applicata
+gruppo di ricerca dell'ETH di Zurigo e ha affrontato tutte le questioni sollevate. 
+Consulta il nostro post sul blog su [Rafforzamento della crittografia end-to-end garantita](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) per informazioni più dettagliate e
+[Analisi crittografica di Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
+articolo di ricerca pubblicato successivamente.
 
 - A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con il servizio "web
 app condivise in una chat", relativa ai guasti del sandboxing
@@ -1255,7 +1255,7 @@ proposte, in particolare per [EPPD - directory di portabilità del provider e-ma
 
 - A volte riceviamo donazioni una tantum da privati.
 Ad esempio, nel 2021 un generoso individuo ci ha trasferito in banca 4K EUR
-con l'oggetto "mantenete il buoni sviluppi!". 💜
+con l'oggetto "continuate il buon sviluppo!". 💜
 Usiamo questi soldi per finanziare incontri di sviluppo o per sostenere spese ad hoc
 che non possono essere facilmente previsti o rimborsati da finanziamenti pubblici.
 Ricevere più donazioni ci aiuta anche a diventare più indipendenti e vitali a lungo termine

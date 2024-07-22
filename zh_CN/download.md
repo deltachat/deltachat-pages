@@ -4,12 +4,6 @@ lang: zh_CN
 downloads: true
 ---
 
-最低要求：
-Android 4.1 Jelly Bean
-或 iOS 12, iPhone 5s 或 iPad 5/Air/Mini 2
-或 Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 或 Debian 10
-或兼容的系统。
-
 桌面版不要求在手机上安装 Delta Chat。
 
 

@@ -4,12 +4,6 @@ lang: nl
 downloads: true
 ---
 
-Minimale vereisten:
-Android 4.1 Jelly Bean
-of iOS 12, iPhone 5s of iPad 5/Air/Mini 2
-of Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 of Debian 10
-of compatibele systemen.
-
 Je kunt de computerversies gebruiken zonder de app op je telefoon.
 
 

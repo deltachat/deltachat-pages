@@ -187,12 +187,9 @@ Push-сповіщення працюють з усіма [chatmail](https://delt
 
 ### Чи ввімкнено Push-сповіщення на пристроях iOS? Чи є альтернатива?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Так, Delta Chat автоматично використовує push-повідомлення для профілів [chatmail](https://delta.chat/chatmail).
+І ні, на телефонах Apple немає альтернативи миттєвій доставці повідомлень тому, що пристрої Apple не дозволяють Delta Chat отримувати дані у фоновому режимі.
+Push-сповіщення автоматично активуються для користувачів iOS, тому що [система push-сповіщень Delta Chat, що зберігає конфіденційність] (#privacy-notifications) не передає Apple дані, якими вона ще не володіє.
 
 
 ### Чи ввімкнені/потрібні Push-сповіщення на пристроях Android? {#android-push}
@@ -449,11 +446,7 @@ Delta Chat підтримує поширені формати приватних
 
 Проект Delta Chat пройшов чотири незалежні аудити безпеки та один незалежний аналіз безпеки, від найновіших до найстаріших: 
 
-- 2024 March, we received a deep security analysis from the Applied Cryptography
-  research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
-  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
-  research paper published afterwards. 
+- 2024 березня ми отримали глибокий аналіз безпеки від дослідницької групи Applied Cryptography дослідницької групи з прикладної криптографії в ETH Zuerich і вирішили всі порушені питання. Більш детальну інформацію можна знайти в нашому блозі в статті [Hardening Guaranteed End-to-end encryption] (https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), а також в дослідженні [Cryptographic Analysis of Delta Chat] (https://eprint.iacr.org/2024/918.pdf), опублікованому пізніше. 
 
 - Починаючи з 2023 року, ми виправили проблеми з безпекою та конфіденційністю у функції "веб застосунків, що поширені у чаті", пов'язані зі збоями в роботі пісочниці особливо в Chromium. Згодом ми отримали незалежний аудит безпеки аудит безпеки від Cure53, і всі знайдені проблеми були виправлені в серії додатків 1.36, випущених у квітні 2023 року. Повну історію про наскрізну безпеку в Інтернеті дивіться [тут](https://delta.chat/en/2023-05-22-webxdc-security).
 

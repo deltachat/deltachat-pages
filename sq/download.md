@@ -4,12 +4,6 @@ lang: sq
 downloads: true
 ---
 
-Domosdoshmëri minimale:
-Android 4.1 Jelly Bean
-ose iOS 12, iPhone 5s ose iPad 5/Air/Mini 2
-ose Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 ose Debian 10
-ose sisteme të përputhshëm me ta.
-
 Versionet desktop s’kanë nevojë që Delta Chat të jetë i instaluar në një telefon.
 
 
