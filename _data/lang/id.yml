@@ -27,6 +27,7 @@ id:
     source_code: Source Code
     install_via_packagemanager: Instal melalui Package Manager
     outdated: ketinggalan jaman
+    minimum: ""
     dl_flathub: Unduh dari Flathub
     dl_microsoft: Unduh dari Microsoft Store
     dl_mac_appstore: Unduh di Apple Mac AppStore

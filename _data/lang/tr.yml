@@ -27,6 +27,7 @@ tr:
     source_code: Kaynak Kodu
     install_via_packagemanager: Paket Yöneticisi Yoluyla Kur
     outdated: eski
+    minimum: ""
     dl_flathub: Flathub'dan indir
     dl_microsoft: Microsoft Store'dan indir
     dl_mac_appstore: Apple Mac App Store'dan indir

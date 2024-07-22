@@ -27,6 +27,7 @@ ca:
     source_code: Codi font
     install_via_packagemanager: Instal·la'l via Gestor de Paquets
     outdated: desactualitzat
+    minimum: ""
     dl_flathub: Descarrega'l a Flathub
     dl_microsoft: Descarrega'l a Microsoft Store
     dl_mac_appstore: Descarrega'l a Apple Mac AppStore

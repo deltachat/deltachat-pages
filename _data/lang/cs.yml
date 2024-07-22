@@ -27,6 +27,7 @@ cs:
     source_code: Zdrojový kód
     install_via_packagemanager: Instalace ze správce balíčků
     outdated: zastaralé
+    minimum: ""
     dl_flathub: Stáhni z Flathubu
     dl_microsoft: Stáhni z Microsoft Store
     dl_mac_appstore: "Stáhni z AppStore, pro Apple Mac"

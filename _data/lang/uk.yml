@@ -27,6 +27,7 @@ uk:
     source_code: Вихідний код
     install_via_packagemanager: Інсталювати через пакетний менеджер
     outdated: застаріло
+    minimum: ""
     dl_flathub: Завантажити з Flathub
     dl_microsoft: Завантажити з Microsoft Store
     dl_mac_appstore: Завантажити з Apple Mac AppStore

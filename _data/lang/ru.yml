@@ -27,6 +27,7 @@ ru:
     source_code: Исходный код
     install_via_packagemanager: Установка через Диспетчер пакетов
     outdated: устаревшее
+    minimum: ""
     dl_flathub: Загрузить с Flathub
     dl_microsoft: Загрузить из Microsoft Store
     dl_mac_appstore: Загрузить из Apple Mac AppStore
