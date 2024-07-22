@@ -18,12 +18,9 @@ Chatmail-сервери оптимізовані для обміну повід�
 
 - [bcc.chat](https://bcc.chat) стабільно працює в США з лютого 2024 року.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been 
-  stable since May 2024.
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)   орієнтований на італомовних користувачів і стабільно працює з травня 2024 року.
 
-- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US and has been stable since July 2024.
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)   працює в США і стабільно працює з липня 2024 року.
 
 Усіма chatmail-серверами керують різні групи та люди. Сервером за замовчуванням nine.testrun.org керують основні члени команди Delta Chat.
 

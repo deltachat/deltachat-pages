@@ -4,12 +4,6 @@ lang: id
 downloads: true
 ---
 
-Persyaratan minimal:
-Android 4.1 Jelly Bean
-atau iOS 12, iPhone 5s atau iPad 5/Air/Mini 2
-atau Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 atau Debian 10
-atau compatible systems.
-
 Versi desktop tidak memerlukan Delta Chat untuk diinstal di ponsel.
 
 
