@@ -27,6 +27,7 @@ pt_BR:
     source_code: Source Code
     install_via_packagemanager: Install via Package Manager
     outdated: outdated
+    minimum: ""
     dl_flathub: Download from Flathub
     dl_microsoft: Download from Microsoft Store
     dl_mac_appstore: Download on Apple Mac AppStore

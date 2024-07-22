@@ -27,6 +27,7 @@ zh_CN:
     source_code: 源代码
     install_via_packagemanager: 通过包管理器安装
     outdated: 过时的
+    minimum: ""
     dl_flathub: 从 Flathub 下载
     dl_microsoft: 从 Microsoft Store 下载
     dl_mac_appstore: 从 Apple Mac AppStore 上下载

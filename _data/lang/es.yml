@@ -27,6 +27,7 @@ es:
     source_code: Código Fuente
     install_via_packagemanager: Instalar a través del Administrador de Paquetes
     outdated: desactualizado
+    minimum: ""
     dl_flathub: Descargar desde Flathub
     dl_microsoft: Descargar desde Microsoft Store
     dl_mac_appstore: Descargar en Apple Mac AppStore

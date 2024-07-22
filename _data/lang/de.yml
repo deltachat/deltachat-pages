@@ -27,6 +27,7 @@ de:
     source_code: Quellcode
     install_via_packagemanager: Über Paketmanager installieren
     outdated: veraltet
+    minimum: Systemanforderungen
     dl_flathub: Download von Flathub
     dl_microsoft: Download aus dem Microsoft Store
     dl_mac_appstore: Download aus dem Apple Mac AppStore

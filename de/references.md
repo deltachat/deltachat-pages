@@ -10,25 +10,25 @@ Diese Liste ist bei weitem nicht vollständig - haben wir etwas verpasst? Bitte
 Request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Roskomsvoboda: Delta Chat again refused to cooperate with Russian authorities
+### Roskomsvoboda: Delta Chat verweigert erneut die Zusammenarbeit mit russischen Behörden
 
-Translated summary:
-_"In its response to the agency,
-the service also clarified that it is an app
-that allows users to choose email providers at will,
-and it does not have access to the contents of messages,
-let alone the encryption keys that only exist on users' devices."_
+Übersetzte Zusammenfassung:
+_"In der Antwort an die Agentur
+stellte Delta Chat auch klar, dass eine App
+die es Nutzern erlaubt, E-Mail-Anbieter nach Belieben zu wählen,
+keinen Zugriff auf den Inhalt der Nachrichten hat.
+Geschweige denn auf die Verschlüsselungsschlüssel, die sich nur auf den Geräten der Nutzer befinden."_
 
 2024-06-14, <https://roskomsvoboda.org/ru/post/delta-chat-snova-otkazal-roskomnadzoru/>
 
 
-### РБК (Major Russian Newspaper): Why are Russian Internet outages becoming more frequent and how to stay connected?
+### РБК (große russische Tageszeitung): Warum kommt es in Russland immer häufiger zu Internetausfällen und wie kann man in Verbindung bleiben?
 
-Translated summary:
-_"Another messenger that is also resistant to communication problems is Delta Chat.
-It sends messages using regular e-mail protocols,
-and e-mail, as experts note,
-is very resistant to common communication problems."_
+Übersetzte Zusammenfassung:
+_"Ein weiterer Messenger, der ebenfalls gegen Kommunikationsprobleme resistent ist, ist Delta Chat.
+Er sendet Nachrichten unter Verwendung regulärer E-Mail-Protokolle.
+Und E-Mail, wie Experten feststellen,
+ist sehr widerstandsfähig gegenüber allgemeinen Kommunikationsproblemen ist"_.
 
 2024-04-21, <https://www.rbc.ru/spb_sz/21/04/2024/662216e09a79475ba9366e20>
 
@@ -82,16 +82,16 @@ I would argue that even beats Matrix or XMPP."_
 14.01.2021, <https://jlelse.blog/posts/email-messenger-delta-chat>
 
 
-### NixFAQ: Delta Chat, a libre decentralized Chat-over-Email End-to-End Encrypted messaging solution
+### NixFAQ: Delta Chat, eine freie, dezentralisierte Chat-over-Email Ende-zu-Ende-verschlüsselte Messaging Lösung
 
-_"Delta Chat uses existing email addresses as an identifier.
-By default, no address book data (such as telephone number)
-are read out or transmitted to external servers,
-as is the case with messengers such as WhatsApp and Co.
-In contrast to many other messengers,
-Delta Chat enables an identifier
-that is not linked to the telephone number.
-A welcome exception."_
+Delta Chat verwendet vorhandene E-Mail-Adressen.
+Standardmäßig werden keine Adressbuchdaten (wie z. B. Telefonnummern)
+ausgelesen oder an externe Server übertragen werden,
+wie es bei Messengern wie WhatsApp und Co. der Fall ist.
+Im Gegensatz zu vielen anderen Messengern,
+ermöglicht Delta Chat Profile,
+die nicht mit der Telefonnummer verknüpft ist.
+Eine willkommene Ausnahme.“
 
 2020-09-27, <https://nixfaq.org/2020/09/delta-chat-a-libre-decentralized-chat-over-email-end-to-end-encrypted-messaging-solution.html>
 

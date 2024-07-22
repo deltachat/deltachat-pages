@@ -27,6 +27,7 @@ sq:
     source_code: Kod Burim
     install_via_packagemanager: Instalojeni përmes Përgjegjësi Paketash
     outdated: e vjetruar
+    minimum: ""
     dl_flathub: Shkarkojeni nga Flathub
     dl_microsoft: Shkarkojeni nga Microsoft Store
     dl_mac_appstore: Shkarkojeni nga Apple Mac AppStore

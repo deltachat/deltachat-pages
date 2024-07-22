@@ -27,6 +27,7 @@ gl:
     source_code: Código Fonte
     install_via_packagemanager: Instalar vía Xestor de Paquetes
     outdated: antigo
+    minimum: ""
     dl_flathub: Descarga desde Flathub
     dl_microsoft: Descarga desde Microsoft Store
     dl_mac_appstore: Descarga desde Apple Mac AppStore

@@ -27,6 +27,7 @@ sk:
     source_code: "Zdrojový kód "
     install_via_packagemanager: Nainštalujte pomocou Package Manager
     outdated: zastarané
+    minimum: ""
     dl_flathub: Stiahnite si z Flathub
     dl_microsoft: Stiahnite si z Microsoft Store
     dl_mac_appstore: Stiahnite si na Apple Mac AppStore
