@@ -27,7 +27,7 @@ nl:
     source_code: Broncode
     install_via_packagemanager: Installeren via pakketbeheerder
     outdated: verouderd
-    minimum: ""
+    minimum: Minimale vereisten
     dl_flathub: Installeren via Flathub
     dl_microsoft: Installeren via de Microsoft Store
     dl_mac_appstore: Installeren via de Apple App Store (macOS)
