@@ -49,7 +49,7 @@
                     </picture>
                 </a>
             </div>
-            <div>
+            <div class="descr">
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Android 4.1 Jelly Bean
             </div>
@@ -83,7 +83,7 @@
                     </picture>
                 </a>
             </div>
-            <div>
+            <div class="descr">
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 iOS 12, iPhone 5s, iPad 5/Air/Mini 2
             </div>
@@ -100,11 +100,11 @@
                 <a href="https://formulae.brew.sh/cask/deltachat"><small>Install with</small>Homebrew</a>
             </div>
             <div class="descr">
-                Homebrew manual install: <code>brew install --cask deltachat</code>
-            </div>
-            <div>
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 macOS 10.15 Catalina
+            </div>
+            <div class="descr">
+                Homebrew manual install: <code>brew install --cask deltachat</code>
             </div>
             <details>
                 <summary class="noupgrades">
@@ -127,11 +127,11 @@
                 </a>
             </div>
             <div class="descr">
-                Winget install: <code>winget install 9PJTXX7HN3PK</code>
-            </div>
-            <div>
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Windows 10
+            </div>
+            <div class="descr">
+                Winget install: <code>winget install 9PJTXX7HN3PK</code>
             </div>
             <details>
                 <summary class="noupgrades">
@@ -160,14 +160,14 @@
                 </a>
             </div>
             <div class="descr">
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                Ubuntu 18.04, Fedora 29, Debian 10, Compatible Systems
+            </div>
+            <div class="descr">
                 Flatpak manual install: <code>flatpak install flathub chat.delta.desktop</code><br />
                 Arch manual install: <code>pacman -S deltachat-desktop</code><br />
                 Nix manual install: <code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code><br />
                 Snap manual install (community maintained): <code>sudo snap install deltachat-desktop</code>
-            </div>
-            <div>
-                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
-                Ubuntu 18.04, Fedora 29, Debian 10, Compatible Systems
             </div>
             <details>
                 <summary class="noupgrades">
@@ -200,7 +200,7 @@
                     </picture>
                 </a>
             </div>
-            <div>
+            <div class="descr">
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Ubuntu Touch 16.04
             </div>
