@@ -3,7 +3,7 @@ title: Delta Chat, Dezentralisierter, sicherer Messenger
 lang: de
 ---
 
-# Delta Chat is ein dezentralisierter und sicherer Messenger {#homepage-heading}
+# Delta Chat ist ein dezentralisierter und sicherer Messenger {#homepage-heading}
 
 💬 Zuverlässiges Instant-Messaging mit Unterstützung für mehrere Profile und mehrere Geräte
 
