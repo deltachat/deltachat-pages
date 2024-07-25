@@ -27,7 +27,7 @@ it:
     source_code: Codice sorgente
     install_via_packagemanager: Installa tramite Package Manager
     outdated: obsoleto
-    minimum: ""
+    minimum: Requisiti minimi
     dl_flathub: Scarica da Flathub
     dl_microsoft: Scarica da Microsoft Store
     dl_mac_appstore: Scarica da Apple Mac AppStore
