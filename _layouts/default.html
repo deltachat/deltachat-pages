@@ -10,6 +10,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 <meta name="description" content="{{ content | strip_html | xml_escape | normalize_whitespace | truncate: 200 }}" />
 <meta name="keywords" content="{%if tx.meta.keywords != ""%}{{ tx.meta.keywords }}{%else%}{{ txEn.meta.keywords }}{%endif%}" />
+{% if page.downloads == true %}
+<meta name="apple-itunes-app" content="app-id=1459523234">
+{% endif %}
 
 <meta property="og:title" content="Delta Chat: {{ page.title }}">
 <meta property="og:description" content="{{ content | strip_html | xml_escape | normalize_whitespace | truncate: 200 }}">
