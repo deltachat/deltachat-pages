@@ -1,0 +1,17 @@
+"name": "Delta Chat",
+"short_name": "Delta Chat",
+"icons": [
+  {
+    "src": "https://delta.chat/assets/logos/delta-chat.svg",
+    "sizes": "192x192 512x512",
+    "type": "image/svg+xml",
+    "purpose": "any"
+  }
+],
+"prefer_related_applications": true,
+"related_applications": [
+  {
+    "platform": "play",
+    "id": "chat.delta"
+  }
+]

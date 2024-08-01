@@ -30,7 +30,7 @@ plugins:
   - jekyll-sitemap
 
 # include .well-known for flathub verification
-include: [".well-known"]
+include: [".well-known", "manifest.json"]
 
 # the tools directory contains cached files downloaded from transifex, ignore it
 exclude: ["tools", "venv"]
