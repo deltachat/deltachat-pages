@@ -290,12 +290,6 @@ Push Notifications are not available.
 In the Delta Chat "Notifications" settings for "Instant delivery"
 you can change the following settings effecting all chat profiles:
 
-- Use Push Service: the default when using chatmail profiles and if
-  a Push service is available on the phone.
-  If you have both chatmail and classic e-mail profiles,
-  then Push Notification will only work
-  for incoming messages on chatmail profiles.
-
 - Use Background Connection: If you are not using a Push service,
   you may disable "battery optimizations" for Delta Chat,
   allowing it to fetch messages in the background.

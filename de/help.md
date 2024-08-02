@@ -248,12 +248,6 @@ sind Push-Benachrichtigungen nicht verfügbar.
 In den Delta-Chat-Einstellungen „Benachrichtigungen“ für „Sofortige Benachrichtigungen“
 können Sie die folgenden Einstellungen ändern, die alle Chat-Profile betreffen:
 
-- Push-Dienst verwenden: die Standardeinstellung bei Verwendung von Chatmail-Profilen und wenn
-ein Push-Service auf dem Telefon verfügbar ist.
-Wenn Sie sowohl Chatmail- als auch klassische E-Mail-Profile haben,
-dann funktioniert die Push-Benachrichtigung nur
-für eingehende Nachrichten auf Chatmail-Profilen.
-
 - Hintergrundverbindung verwenden: Wenn Sie keinen Push-Dienst verwenden, können Sie die „Batterie-Optimierung“ für Delta Chat deaktivieren, damit Nachrichten im Hintergrund abgerufen werden können. Dabei kann es jedoch zu Verzögerungen von Minuten bis Stunden kommen.
 Einige Android-Hersteller schränken Apps sogar vollständig ein
 (siehe [dontkillmyapp.com](https://dontkillmyapp.com))
