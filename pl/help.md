@@ -199,8 +199,6 @@ Jeśli dostępna jest „Usługa Push”, Delta Chat włącza Powiadomienia Push
 
 W ustawieniach „Powiadomień” Delta Chat dla „Natychmiastowej dostawy” możesz zmienić następujące ustawienia wpływające na wszystkie profile czatu:
 
-- Użyj usługi Push: ustawienie domyślne podczas korzystania z profili czatu i jeśli w telefonie dostępna jest usługa Push. Jeśli masz zarówno chatmail, jak i klasyczny profil e-mail, powiadomienie push będzie działać tylko w przypadku wiadomości przychodzących z profili chatmail.
-
 -  Użyj połączenia w tle: Jeśli nie korzystasz z usługi Push, możesz wyłączyć „optymalizację baterii” dla Delta Chat, umożliwiając mu pobieranie wiadomości w tle. Mogą jednak wystąpić opóźnienia od minut do godzin. Niektórzy dostawcy Androida nawet całkowicie ograniczają aplikacje (zobacz [dontkillmyapp.com](https://dontkillmyapp.com)), a Delta Chat może nie wyświetlać wiadomości przychodzących, dopóki ręcznie ponownie nie otworzysz aplikacji.
   
 Wymuś połączenie w tle: Jest to opcja awaryjna, jeśli poprzednie opcje nie są dostępne lub nie zapewniają „natychmiastowej dostawy”. Włączenie tej opcji powoduje stałe powiadomienie na twoim telefonie, które czasami może zostać „minifikowane” w przypadku najnowszych telefonów z Androidem.

@@ -286,12 +286,6 @@ Le notifiche push non sono disponibili.
 Nelle impostazioni "Notifiche" di Delta Chat per "Consegna istantanea"
 puoi modificare le seguenti impostazioni che interessano tutti i profili chat:
 
-- Utilizza Servizio Push: l'impostazione predefinita quando si utilizzano i profili chatmail e se
-sul telefono è disponibile un servizio Push.
-Se disponi sia di profili chatmail che di e-mail classica,
-la Notifica Push funzionerà solo
-per i messaggi in arrivo sui profili chatmail.
-
 - Utilizza Connessione in Background: se non stai utilizzando un servizio Push,
 puoi disattivare le "ottimizzazioni della batteria" per Delta Chat,
 permettendogli di recuperare i messaggi in background.
