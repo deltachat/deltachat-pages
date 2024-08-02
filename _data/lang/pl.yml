@@ -27,7 +27,7 @@ pl:
     source_code: Kod źródłowy
     install_via_packagemanager: Zainstaluj za pomocą Menedżera pakietów
     outdated: przestarzały
-    minimum: ""
+    minimum: Minimalne wymagania
     dl_flathub: Pobierz z Flathub
     dl_microsoft: Pobierz z Microsoft Store
     dl_mac_appstore: Pobierz z Apple Mac AppStore

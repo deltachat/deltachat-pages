@@ -26,7 +26,7 @@ Delta Chat — это мессенджер, работающий по элект
 ## Докер Установка
 
 В качестве предварительного условия вам необходимо установить [docker and
-docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
+docker-compose](https://docs.mailcow.email/getstarted/install/#docker-and-docker-compose-installation).
 
 ### Если docker.com Блокирован:
 
