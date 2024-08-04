@@ -103,15 +103,13 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
   device.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
