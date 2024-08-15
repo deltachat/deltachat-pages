@@ -103,15 +103,13 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
   pajisje të re.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### Ç’do të thotë Fiksim, Heshtim, Arkivim?
@@ -1108,10 +1106,6 @@ Outlook-u, programit i duhet fjalëkalimi, që kështu të mund të dërgoni ema
 Sigurisht, fjalëkalimi depozitohet vetëm në pajisjen tuaj. Fjalëkalimi i transmetohet
 vetëm furnizuesit të email-it tuaj (kur bëni hyrjen), i cili mund të hyjë te email-et
 tuaj, sido qoftë. 
-
-Nëse përdorni një furnizues email-i që mbulon OAuth2, bie fjala gmail.com ose
-yandex.ru, s’ka nevojë të depozitoni fjalëkalimin tuaj në pajisje. Në këtë rast
-do të përdoret vetëm një token hyrjesh.
 
 Ngaqë Delta Chat-i është Me Burim të Hapur, mund të kontrolloni [Kodin
 Burim](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs),

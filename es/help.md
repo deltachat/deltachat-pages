@@ -97,15 +97,13 @@ que sus contactos vuelvan a recibir su foto de perfil, incluso si agregan un nue
 dispositivo.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### ¿Qué significa fijar, mutear, archivar?
@@ -1056,10 +1054,6 @@ Al igual que con otros programas de correo electrónico como Thunderbird, K9-Mai
 programa necesita la contraseña para que pueda usarla para enviar correos. Por supuesto, la
 contraseña se almacena solo en su dispositivo. La contraseña solo se transmite a
 su proveedor de correo electrónico (cuando inicia sesión), que tiene acceso a sus correos de todos modos.
-
-Si utiliza un proveedor de correo electrónico con soporte de OAuth2 como gmail.com o yandex.ru,
-no es necesario almacenar su contraseña en el dispositivo. En este caso, solo se usa un
-token de acceso.
 
 Como Delta Chat es de Código Abierto, puedes investigar el Código Fuente si quieres verificar que tus credenciales son gestionadas de manera segura.
 Estamos felices de recibir críticas que hagan la aplicación más segura para todos los usuarios.

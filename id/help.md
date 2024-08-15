@@ -103,15 +103,13 @@ kontak Anda akan menerima kembali gambar profil Anda, bahkan jika mereka menamba
 baru
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -1106,10 +1104,6 @@ Seperti program E-Mail lainnya seperti Thunderbird, K9-Mail, atau Outlook,
 program membutuhkan kata sandi sehingga Anda dapat menggunakannya untuk mengirim email. Tentu saja,
 kata sandi hanya disimpan di perangkat Anda. Kata sandi hanya dikirimkan ke
 penyedia E-Mail Anda (saat Anda login), yang tetap memiliki akses ke email Anda.
-
-Jika Anda menggunakan penyedia E-Mail dengan dukungan OAuth2 seperti gmail.com atau yandex.ru,
-tidak perlu menyimpan kata sandi Anda di perangkat. Dalam hal ini, hanya
-token akses digunakan.
 
 Karena Delta Chat adalah Open Source, Anda dapat memeriksa file [Source
 Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)

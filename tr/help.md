@@ -102,15 +102,13 @@ QR kodu ile eklerseniz, bunu otomatik olarak profil resminiz olarak görürler.
   device.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -1105,10 +1103,6 @@ As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
 program needs the password so you can use it to send and receive mails. Of course, the
 password is stored only on your device. The password is only transmitted to
 your E-Mail provider (when you login), which has access to your mails anyway.
-
-If you use an E-Mail provider with OAuth2 support like gmail.com or yandex.ru,
-there is no need to store your password on the device. In this case, only an
-access token is used.
 
 As Delta Chat is Open Source, you can check the [Source
 Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)

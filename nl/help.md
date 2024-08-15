@@ -101,15 +101,13 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
   Je contactpersonen ontvangen hem dan opnieuw, zelfs als ze een nieuw apparaat toevoegen.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### Wat is vastmaken, negeren en archiveren?
@@ -1090,8 +1088,6 @@ Delta Chat doet het volgende met deze rechten:
 ### Waarom moet ik mijn e-mailwachtwoord invoeren in Delta Chat? Is dat wel veilig?
 
 Delta Chat heeft, net zoals andere e-mailprogramma's (Thunderbird, K9-Mail, Outlook, etc.), je wachtwoord nodig om berichten te versturen. Het wordt alleen opgeslagen op je apparaat en alleen uitgewisseld met je e-mailprovider, die toch al toegang heeft tot je mails.
-
-Als je een e-mailprovider gebruikt die OAuth2 ondersteunt, zoals Gmail of Yandex, dan hoeft je wachtwoord niet lokaal te worden opgeslagen. Er wordt dan alleen een toegangssleutel gebruikt.
 
 Delta Chat is open source. Dit betekent dat je de [bron-
 code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
