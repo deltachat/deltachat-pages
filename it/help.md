@@ -1137,7 +1137,7 @@ Se i destinatari non utilizzano Delta Chat,
 sembrerà come,
 un'e-mail formale.
 Otterrai punti professionalità bonus
-se imposti un [testo della firma](#firma).
+se imposti un [testo della firma](#signature).
 
 
 ### A cosa serve l'impostazione "Invia copia a se stessi"?
