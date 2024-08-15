@@ -1105,10 +1105,6 @@ program needs the password so you can use it to send and receive mails. Of cours
 password is stored only on your device. The password is only transmitted to
 your E-Mail provider (when you login), which has access to your mails anyway.
 
-If you use an E-Mail provider with OAuth2 support like gmail.com or yandex.ru,
-there is no need to store your password on the device. In this case, only an
-access token is used.
-
 As Delta Chat is Open Source, you can check the [Source
 Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
 if you want to verify that your credentials are handled securely. We are happy
