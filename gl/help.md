@@ -103,15 +103,13 @@ para que os teus contactos a teñan actualizada, e tamén se engaden un
 novo dispositivo.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -1106,9 +1104,6 @@ Como con calquera outro programa de email como Thundirbird, K9-mail, ou Outlook,
 programa precisa o contrasinal para poder enviar emails. Por suposto, o
 contrasinal gárdase só no teu dispositivo. O contrasinal só se transmite ao
 teu provedor de email (ao conectarte), que de todas formas xa ten acceso ao teu correo.
-
-Se usas un provedor de email con soporte OAuth2 como gmail.com ou yandex.ru,
-non hai necesidade de almacenar o contrasinal no dispositivo. Neste caso, só se usa o testemuño (token) de acceso.
 
 Como Delta Chat é Código Aberto, podes mirar o [Código Fonte]
 (https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)

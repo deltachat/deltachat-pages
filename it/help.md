@@ -35,8 +35,8 @@ anche se il destinatario non utilizza Delta Chat.
 
 ### Quali sono i vantaggi di Delta Chat rispetto ad altri messenger?
 
-- Profili chat anonimi con [server chatmail] veloci, sicuri e interoperabili (https://delta.chat/chatmail)
-che offrono notifiche push istantanee per dispositivi iOS e Android.
+- Profili chat anonimi con [server chatmail](https://delta.chat/chatmail) veloci, sicuri e interoperabili
+  che offrono Notifiche Push istantanee per dispositivi iOS e Android.
 
 - Pervasivo [multi-profilo](#multiple-accounts) e supporto multi-dispositivo su tutte le piattaforme.
 
@@ -102,15 +102,13 @@ i tuoi contatti riceveranno nuovamente la tua immagine del profilo, anche se agg
 dispositivo.
 
 
-### Posso impostare una Firma Testo/Stato/Motto con Delta Chat?  {#firma}
+### Posso impostare una Bio/Firma/Stato/Motto con Delta Chat? {#signature}
 
-SÌ,
-puoi farlo in "Impostazioni > Profilo > Firma".
-I tuoi contatti che utilizzano Delta Chat lo vedranno
-quando visualizzano i tuoi dettagli di contatto.
-A tutti gli altri,
-apparirà come una firma di posta elettronica
-sotto il testo di tutti i tuoi messaggi.
+Sì,
+puoi farlo in **Impostazioni → Profilo → Biografia**.
+I tuoi contatti che usano Delta Chat lo vedranno
+quando visualizzeranno i tuoi dati di contatto.
+Inoltre, apparirà come una classica firma e-mail.
 
 
 ### Cosa significa Fissare, Silenziare, Archiviare?
@@ -1093,10 +1091,6 @@ Come con altri programmi di posta elettronica quali Thunderbird, K9-Mail o Outlo
 programma ha bisogno della password in modo da poterla utilizzare per inviare mail. Naturalmente, la
 password è memorizzata solo sul tuo dispositivo. La password viene trasmessa solo a
 il tuo fornitore E-Mail (quando effettui il login), che ha comunque accesso alla tua posta.
-
-Se utilizzi un provider E-Mail con supporto OAuth2 come gmail.com o yandex.ru,
-non è necessario memorizzare la password sul dispositivo. In questo caso, solo un
-token di accesso viene utilizzato.
 
 Poiché Delta Chat è Open Source, puoi controllare il [Codice
 Sorgente](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)

@@ -99,15 +99,13 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 - Sua imagem de perfil não é enviada junto com cada mensagem, mas com regularidade suficiente para que seus contatos consigam atualizá-la, mesmo em novos dispositivos.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -1095,8 +1093,6 @@ ver [Visão Geral dos Provedores](https://providers.delta.chat)
 ### Por que preciso entrar com a senha do meu email no Delta Chat? Isso é seguro?
 
 Como acontece em qualquer outro programa de comunicação que usa email, como Thunderbird, K9-Mail ou Outlook, sua senha é necessária para poder receber e enviar emails. Obviamente, sua senha fica guardada no seu dispositivo. E ela só é transmitida para o seu provedor de email (no momento que você faz login), que é quem já tem inevitavelmente acesso aos seus emails.
-
-Se você usa um provedor de email com suporte para OAuth2 como gmail.com ou yandex.ru, não é preciso guardar sua senha no dispositivo. Neste caso, somente um token de acesso é usado.
 
 Como o Delta Chat é um programa de Código Aberto, você pode revisar seu [Código Fonte](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) se você quiser verificar que as suas credenciais estão sendo manuseadas de forma segura. Ficaremos felizes de receber comentários que contribuam para fazer o aplicativo mais seguro para todos os nossos usuários.
 

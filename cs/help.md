@@ -100,15 +100,13 @@ nebo přidáš nový vyfocením QR kódu, tyto kontakty automaticky uvidí tvůj
 Profilový obrázek není posílán s každou zprávou, ale dostatečně často k tomu aby tvé kontakty zvuobdrželi obrázek i když začnou používat nové zařízení.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -1100,10 +1098,6 @@ Podobně jako ostatní e-mailové programy, např. Thunderbird nebo Outlook,
 program potřebuje heslo k tomu aby mohl posílat e-maily. Samozřejmě, že
 heslo je uloženo pouze na tvém přístroji. Heslo je přenášeno pouze při přihlašení
 k e-mailovému serveru, který má i beztak přístup k tvým e-mailům.
-
-Poskytovatelé e-mailu s podporou OAuth2, např. "gmail.com" či "yandex.ru",
-nepotřebují při přihlašování tvé heslo. V takovém případě je uložen pouze
-vygenerovaný přístupový kód.
 
 Delta Chat má otevřený [zdrojový kód](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs),
 ze kterého lze ověřit, že program s osobními daty zachází bezpečně. Jsme rádi

@@ -103,15 +103,13 @@ aby vaše kontakty znova dostali váš profilový obrázok, aj keď pridajú nov
 zariadenie.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -1105,10 +1103,6 @@ Delta Chat robí toto s týmito povoleniami:
 Rovnako ako v prípade iných e-mailových programov, ako sú Thunderbird, K9-Mail alebo Outlook,
 program potrebuje heslo, aby ste ho mohli používať na odosielanie e-mailov. Samozrejme,
 heslo je uložené iba vo vašom zariadení. Heslo sa prenáša iba na vášho poskytovateľa e-mailu (keď sa prihlásite), ktorý má aj tak prístup k vašim e-mailom. 
-
-Ak používate poskytovateľa e-mailu s podporou OAuth2, ako je gmail.com alebo yandex.ru,
-nie je potrebné ukladať heslo do zariadenia. V tomto prípade iba 
-používa sa prístupový token.
 
 Keďže Delta Chat je Open Source, môžete skontrolovať [Zdrojový
 Kód](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
