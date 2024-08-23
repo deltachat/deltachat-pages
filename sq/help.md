@@ -1000,21 +1000,6 @@ another rather stable experiment we run on the side (sic!).
   a message, but also appears on the map.
 
 
-### Ç’mbron konkretisht fshehtëzimi eksperimental i bazës së të dhënave?
-
-- Tani për tani, fshehtëzimi i bazës së të dhënave është ende eksperimental në
-  shkallë të madhe. Mos u bazoni në të për mbrojtje, duhet të përdorni si shtesë
-  fshehtëzim nga sistemi juaj operativ, nëse ofron të tillë.
-- Fshehtëzimi i bazës së të dhënave s’fshehtëzon ende copat, vetëm rreshtat dhe
-  shtyllat e bazës së të dhënave. Kjo pak a shumë do të thotë se mesazhet tuaja
-  janë të parrezik, por jo bashkëngjitjet tuaja.
-- Për iOS dhe Android, kyçet e fshehtëzimit depozitohen te vargu i kyçeve i sistemit.
-  Kjo do të thotë se fshehtëzimi është aq i sigurt sa sistemi operativ ku funksionon.
-- Klienti Delta Chat për desktop s’ofron ende fshehtëzim baze të dhënash, ngaqë
-  s’ka rrugë standarde për të depozituar kyçet e fshehtëzimit në platforma të ndryshme
-  që mbulohen.
-
-
 ### Pse mund të zgjedh vetëm të shoh dosjen DeltaChat?
 
 Kjo është një veçori eksperimentale për disa vetë që eksperimentojnë me rregulla

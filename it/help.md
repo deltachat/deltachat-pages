@@ -985,22 +985,6 @@ fare clic con il tasto destro sulla mappa e descrivere una posizione, che verrà
 un messaggio, ma appare anche sulla mappa.
 
 
-### Cosa protegge effettivamente la crittografia sperimentale del database?
-
-- In questo momento, la crittografia del database è ancora molto sperimentale.  Non affidarti su di essa
- per sicurezza, dovresti inoltre utilizzare la crittografia del tuo sistema
- operativo, se ne prevede una.
- - La crittografia del database non crittografa ancora i BLOB, solo le righe e le
-colonne del database. Questo più o meno significa che i tuoi messaggi sono al sicuro,
-ma non i tuoi allegati.
-- Per iOS e Android, le chiavi di crittografia sono memorizzate nel portachiavi di sistema.
-Ciò significa che la crittografia è sicura quanto il sistema operativo
-in esecuzione.
-- Il client desktop Delta Chat non offre ancora la crittografia del database, come qui
-non c'è un modo standard per memorizzare le chiavi di crittografia sulle diverse piattaforme
-supportate.
-
-
 ### Perché posso scegliere di guardare solo la cartella DeltaChat?
 
 Questa è un'impostazione sperimentale per alcune persone che stanno sperimentando

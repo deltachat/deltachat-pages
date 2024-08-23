@@ -955,22 +955,6 @@ dialog.
   a message, but also appears on the map.
 
 
-### ¿Qué protege realmente el cifrado experimental de la base de datos?
-
-- Right now, the database encryption is still very experimental. Don't rely on
-  it for protection, you should additionally use encryption of your operating
-  system, if it provides any.
-- The database encryption does not yet encrypt the blobs, only the rows and
-  columns of the database. This more or less means that your messages are safe,
-  but not your attachments.
-- For iOS and Android, the encryption keys are stored in the system keychain.
-  This means the encryption is as secure as the operating system it's running
-  on.
-- The Delta Chat desktop client doesn't offer database encryption yet, as there
-  is no standard way to store the encryption keys on the different supported
-  platforms.
-
-
 ### ¿Por qué puedo seleccionar "solo obtener de la carpeta DeltaChat"?
 
 Esta es una configuración experimental para algunas personas que están experimentando con reglas del lado del servidor. No todos los proveedores lo admiten, pero con algunos puede mover todos los correos con el encabezado "Chat-Version" a la carpeta DeltaChat. Normalmente, esto lo haría la aplicación Delta Chat.

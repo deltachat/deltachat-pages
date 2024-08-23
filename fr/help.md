@@ -938,14 +938,6 @@ another rather stable experiment we run on the side (sic!).
   a message, but also appears on the map.
 
 
-### Que protège réellement le chiffrement expérimental de base de données ?
-
-- À l'heure actuelle, le chiffrement de la base de données est encore expérimental. Mieux vaut ne pas vous y fier pour la protection de vos données et activer aussi le chiffrement votre système d'exploitation si vous le pouvez.
-- Le chiffrement de base de données ne permet pas encore de chiffrer les blobs, seulement les lignes et les colonnes de la base. Cela signifie grosso modo que vos messages sont bien protégés, mais pas les pièces jointes.
-- Sur iOS et Android, les clefs de chiffrements sont stockées dans le trousseau système. Par conséquent, le chiffrement est aussi fiable que le système d'exploitation dont il dépend.
-- Comme il n'existe aucun moyen standardisé de stocker les clefs de chiffrement sur les différentes plateformes disponibles, le chiffrement de la base de données n'est pas encore disponible pour le client bureau de Delta Chat.
-
-
 ### Pourquoi peut-on choisir de ne consulter que le dossier Delta Chat ?
 
 Il s'agit d'un paramètre expérimental à destination des personnes qui expérimentent avec des règles côté serveur. Tous les fournisseurs ne le prennent pas en charge, mais certains permettent de déplacer tous les courriels avec un en-tête "Chat-Version" dans le dossier DeltaChat. Normalement, cette action est réalisé par l'application Delta Chat.
