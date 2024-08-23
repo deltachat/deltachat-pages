@@ -997,22 +997,6 @@ dialog.
   a message, but also appears on the map.
 
 
-### What does the experimental database encryption actually protect?
-
-- Right now, the database encryption is still very experimental. Don't rely on
-  it for protection, you should additionally use encryption of your operating
-  system, if it provides any.
-- The database encryption does not yet encrypt the blobs, only the rows and
-  columns of the database. This more or less means that your messages are safe,
-  but not your attachments.
-- For iOS and Android, the encryption keys are stored in the system keychain.
-  This means the encryption is as secure as the operating system it's running
-  on.
-- The Delta Chat desktop client doesn't offer database encryption yet, as there
-  is no standard way to store the encryption keys on the different supported
-  platforms.
-
-
 ### Why can I choose to only watch the DeltaChat folder?
 
 This is an experimental setting for some people who are experimenting with

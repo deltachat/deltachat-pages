@@ -989,19 +989,6 @@ samenstellen.
   a message, but also appears on the map.
 
 
-### Wat beveiligt de experimentele databankversleuteling precies?
-
-- Momenteel is databankversleuteling nog experimenteel en dus nog niet volledig
-  betrouwbaar. Gebruik, indien mogelijk, de versleuteling van je besturingssysteem.
-- Databankversleuteling versleutelt momenteel alléén de rijen en
-  kolommen van de databank. Hierdoor zijn je berichten veilig,
-  maar je bijlagen niet.
-- Op iOS en Android worden de sleutels opgeslagen in de sleutelbos van het systeem.
-  Versleuteling is daar dus niet zo betrouwbaar als het besturingssysteem in kwestie.
-- Op computers wordt databankversleuteling nog niet ondersteund omdat er geen
-  standaardmethode is om de sleutels op de verschillende systemen op te slaan.
-
-
 ### Waarom kan ik kiezen om alleen de DeltaChat-map te controleren?
 
 Dit is een experimentele functie voor mensen die problemen ervaren
