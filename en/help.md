@@ -219,6 +219,19 @@ They will most likely also not be decryptable anymore
   that a human has read or understood the message ;)
 
 
+### How can i remove an automatically created chatmail account? {#remove-account}
+
+If you use a default chat profile 
+then removing it from within the Delta Chat app 
+will automatically trigger deletion of all associated account data on the chatmail server. 
+
+If you have set up your chat profile on multiple devices 
+you need to remove it from all devices. 
+
+For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
+or the respective page from your chosen [3rd party chatmail server](chatmail). 
+
+
 ### What happens if I turn on "Delete old messages from server"?
 
 - By default, Delta Chat stores all messages locally on your device.
