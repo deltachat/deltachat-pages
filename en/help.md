@@ -225,7 +225,7 @@ If you use a default chat profile
 then removing it from within the Delta Chat app 
 will automatically trigger deletion of all associated account data on the chatmail server. 
 
-If you have setup your chat profile on multiple devices 
+If you have set up your chat profile on multiple devices 
 you need to remove it from all devices. 
 
 For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
