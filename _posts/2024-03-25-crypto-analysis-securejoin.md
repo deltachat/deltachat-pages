@@ -252,7 +252,7 @@ Conversely, guaranteed end-to-end encryption allows to use e-mail addresses
 without having to trust server operators, 
 marking a radical departure from the traditionally required trust 
 that users need to have in e-mail providers.
-Guaranteed E2EE particularly fits well with using [chatmail providers](https://delta.chat/2023-12-13-chatmail) 
+Guaranteed E2EE particularly fits well with using [chatmail providers](https://delta.chat/en/2023-12-13-chatmail) 
 even if one doesn't know or can't trust the operators,
 because no private data is collected and 
 guaranteed encryption keeps messages and chat groups safe. 
