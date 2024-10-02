@@ -736,7 +736,7 @@ Signal и большинство других мессенджеров, подд
 В любом случае, сквозное шифрование Delta Chat использует [безопасное подмножество OpenPGP](#openpgp-secure)
 которое прошло [независимую проверку безопасности](../assets/blog/2019-first-security-review.pdf).
 
-### Можно ли повторно использовать существующий секретный ключ?
+### Можно ли повторно использовать существующий секретный ключ? {#importkey}
 
 Да.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.

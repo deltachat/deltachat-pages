@@ -417,7 +417,7 @@ To zależy od tego, co jest dla ciebie ważne. Delta Chat [nie obsługuje PFS](#
 
 W każdym razie szyfrowanie end-to-end Delta Chat wykorzystuje [bezpieczny podzbiór OpenPGP](#openpgp-secure), który został poddany [niezależnemu audytowi bezpieczeństwa](../assets/blog/2019-first-security-review.pdf).
 
-### Czy mogę ponownie wykorzystać mój istniejący klucz prywatny?
+### Czy mogę ponownie wykorzystać mój istniejący klucz prywatny? {#importkey}
 
 Tak.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.

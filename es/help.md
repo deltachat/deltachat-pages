@@ -696,7 +696,7 @@ past encrypted messages.
 In any case, Delta Chat's end-to-end encryption uses a [secure subset of OpenPGP](#openpgp-secure)
 which has been [independently security-audited](../assets/blog/2019-first-security-review.pdf).
 
-### ¿Puedo reutilizar mi clave privada existente?
+### ¿Puedo reutilizar mi clave privada existente? {#importkey}
 
 - Si. La mejor manera es enviar un Mensaje de Configuración de Autocrypt desde el otro cliente de correo electrónico. Busca algo como **Iniciar la Transferencia de la Configuración Autocrypt** en la configuración del otro cliente y seguir las instrucciones que se muestren allí.
 

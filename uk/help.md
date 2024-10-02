@@ -420,7 +420,7 @@ Delta Chat захищає більшість метаданих повідомл
 
 У будь-якому випадку, наскрізне шифрування Delta Chat використовує [безпечну підмножину OpenPGP](#openpgp-secure) який пройшов [незалежний аудит безпеки](../assets/blog/2019-first-security-review.pdf).
 
-### Чи можна повторно використовувати існуючий закритий ключ?
+### Чи можна повторно використовувати існуючий закритий ключ? {#importkey}
 
 Так.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.

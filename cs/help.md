@@ -733,7 +733,7 @@ past encrypted messages.
 In any case, Delta Chat's end-to-end encryption uses a [secure subset of OpenPGP](#openpgp-secure)
 which has been [independently security-audited](../assets/blog/2019-first-security-review.pdf).
 
-### Lze znovu použít můj stávající soukromý klíč?
+### Lze znovu použít můj stávající soukromý klíč? {#importkey}
 
 Yes.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.
