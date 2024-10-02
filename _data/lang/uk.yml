@@ -27,12 +27,12 @@ uk:
     source_code: Вихідний код
     install_via_packagemanager: Інсталювати через пакетний менеджер
     outdated: застаріло
-    minimum: ""
+    minimum: Мінімальні вимоги
     dl_flathub: Завантажити з Flathub
     dl_microsoft: Завантажити з Microsoft Store
     dl_mac_appstore: Завантажити з Apple Mac AppStore
     dl_appstore: Завантажити з Apple AppStore
-    beta_on: Бета
+    beta_on: Бета на
     dl_fdroid: Отримати з F-Droid
     gplay: Отримати з Google Play
     dl_amazon:
