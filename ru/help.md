@@ -271,12 +271,12 @@ Push-уведомления работают со всеми [chatmail](https://
 
 ### Включены ли Push-уведомления на устройствах iOS? Есть ли альтернатива?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Да, Delta Chat автоматически использует Push-уведомления для профилей [chatmail](https://delta.chat/chatmail).
+И нет, на устройствах Apple нет альтернативы для обеспечения мгновенной доставки сообщений,
+поскольку устройства Apple не позволяют Delta Chat запрашивать данные в фоновом режиме.
+Push-уведомления автоматически активируются для пользователей iOS, потому что
+[Система Push-уведомлений Delta Chat, обеспечивающая конфиденциальность](#privacy-notifications)
+не передает данные Apple, которых у нее еще нет.
 
 
 ### Включены / нужны ли Push-уведомления на устройствах Android? {#android-push}
@@ -770,11 +770,11 @@ Delta Chat поддерживает расспространённые форм�
 Проект Delta Chat прошёл четыре независимых аудита безопасности и один
 независимый анализ безопасности, от самого последнего к более старому:
 
-- 2024 March, we received a deep security analysis from the Applied Cryptography
-  research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
+- В марте 2024 года мы получили подробный анализ безопасности от исследовательской группы
+  Applied Cryptography в ETH Цюрихе и устранили все выявленные проблемы. 
+  Читайте наш пост в блоге о [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) для более подробной информации и 
   [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
-  research paper published afterwards. 
+  научной статьи, опубликованной позже. 
 
 - В Апреле 2023 г. мы исправили проблемы безопасности и конфиденциальности в веб-интерфейсе,
 функция "приложения, которыми делятся в чате", связанная со сбоями в песочнице
@@ -1172,16 +1172,32 @@ Protonmail, Tutanota или Criptext. Однако, эти сообщения н
 [Приложением эл.почты с поддержкой Autocrypt](https://autocrypt.org/dev-status.html).
 
 
-### Как я могу удалить аккаунт?
+### Как я могу удалить аккаунт? {#remove-account}
 
-Поскольку вы используете учётную запись эл.почты для Delta Chat,
-способ удаления своей учетной записи зависит от вашего провайдера эл.почты.
-Мы не имеем никакого контроля над вашей учётной записью эл.почты,
-поэтому, к сожалению, мы не можем вам с этим помочь.
+If you use a default chat profile
+you can simply uninstall the app.
+This will automatically trigger deletion of all associated account data on the chatmail server.
+For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
+or the respective page from your chosen [3rd party chatmail server](chatmail).
 
-Если вы хотите сохранить учётную запись,
-но удаляете Delta Chat,
-перед удалением Delta Chat рекомендуется выйти из группового чата.
+If you have set up your chat profile on multiple devices
+you need to remove it from all devices.
+
+If you are using more than one account,
+but don't want to get rid of all of them,
+you can remove it in the account switcher menu (on android and iOS),
+or in the sidebar with a right click (in the desktop client).
+
+Accounts on [classic e-mail providers](https://providers.delta.chat)
+will not be deleted automatically;
+how you can delete your account depends on your e-mail provider.
+We don't have any control over e-mail accounts at those providers,
+so unfortunately we can't help you with that.
+
+If you want to continue using a classic e-mail account with other apps,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
+Otherwise you might receive undecryptable messages from those group chats.
 
 
 ### Меня интересуют технические детали. Можете рассказать больше?

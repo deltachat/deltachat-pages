@@ -977,11 +977,32 @@ Einige BenutzerInnen verwenden Delta Chat als reguläres E-Mail-Programm und mö
 [Autocrypt-fähige E-Mail-Anwendung](https://autocrypt.org/dev-status.html) herstellen
 
 
-### Wie kann ich mein Konto löschen?
+### Wie kann ich mein Konto löschen? {#remove-account}
 
-Da Sie ein E-Mail-Konto für Delta Chat verwenden, hängt von Ihrem E-Mail-Anbieter ab, wie Sie Ihr Konto löschen können. Wir haben keine Kontrolle über Ihr E-Mail-Konto, daher können wir Ihnen dabei leider nicht helfen.
+If you use a default chat profile
+you can simply uninstall the app.
+This will automatically trigger deletion of all associated account data on the chatmail server.
+For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
+or the respective page from your chosen [3rd party chatmail server](chatmail).
 
-Wenn Sie das Konto behalten, aber Delta Chat deinstallieren möchten, ist es ratsam, aktive Gruppen zu verlassen, bevor Sie Delta Chat deinstallieren.
+If you have set up your chat profile on multiple devices
+you need to remove it from all devices.
+
+If you are using more than one account,
+but don't want to get rid of all of them,
+you can remove it in the account switcher menu (on android and iOS),
+or in the sidebar with a right click (in the desktop client).
+
+Accounts on [classic e-mail providers](https://providers.delta.chat)
+will not be deleted automatically;
+how you can delete your account depends on your e-mail provider.
+We don't have any control over e-mail accounts at those providers,
+so unfortunately we can't help you with that.
+
+If you want to continue using a classic e-mail account with other apps,
+but uninstall Delta Chat,
+it is recommended to leave any group chat before uninstalling Delta Chat.
+Otherwise you might receive undecryptable messages from those group chats.
 
 
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
