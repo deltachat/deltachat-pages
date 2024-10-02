@@ -726,7 +726,7 @@ messaggi crittografati precedenti.
 In ogni caso, la crittografia end-to-end di Delta Chat utilizza un [sottoinsieme sicuro di OpenPGP](#openpgp-secure)
 che è stato [controllato in modo indipendente sulla sicurezza](../assets/blog/2019-first-security-review.pdf).
 
-### Posso riutilizzare la mia chiave privata esistente?
+### Posso riutilizzare la mia chiave privata esistente? {#importkey}
 
 Sì.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.

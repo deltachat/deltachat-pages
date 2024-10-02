@@ -667,7 +667,7 @@ vergangenen verschlüsselten Nachrichten hat.
 In jedem Fall verwendet die Ende-zu-Ende-Verschlüsselung von Delta Chat eine [sichere Untermenge von OpenPGP](#openpgp-secure)
 das [unabhängig sicherheitsgeprüft] wurde (../assets/blog/2019-first-security-review.pdf).
 
-### Kann ich meinen existierenden privaten Schlüssel weiter verwenden?
+### Kann ich meinen existierenden privaten Schlüssel weiter verwenden? {#importkey}
 
 Ja.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.

@@ -729,7 +729,7 @@ past encrypted messages.
 In any case, Delta Chat's end-to-end encryption uses a [secure subset of OpenPGP](#openpgp-secure)
 which has been [independently security-audited](../assets/blog/2019-first-security-review.pdf).
 
-### Kan ik mijn bestaande privésleutel hergebruiken?
+### Kan ik mijn bestaande privésleutel hergebruiken? {#importkey}
 
 Yes.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.
