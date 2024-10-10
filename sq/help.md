@@ -1199,7 +1199,7 @@ If you use a default chat profile
 you can simply uninstall the app.
 This will automatically trigger deletion of all associated account data on the chatmail server.
 For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
-or the respective page from your chosen [3rd party chatmail server](chatmail).
+or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
 
 If you have set up your chat profile on multiple devices
 you need to remove it from all devices.
@@ -1271,7 +1271,7 @@ përmirësime në punën në rrjet për krejt platformat.
 - 2023-2024 we successfully completed the OTF-funded 
   [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
   allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://deltachat/chatmail) 
+  creating a [chatmail server network](https://delta.chat/chatmail) 
   and providing "instant onboarding" in all apps released from April 2024 on. 
 
 - In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
