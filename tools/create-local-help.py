@@ -57,7 +57,7 @@ def url_is_reachable(url):
         response = requests.get(url)
         if response.status_code == 200:
             reachable_cache[url] = True
-        elif response.status_code == 403 and url == "https://opentechfund.org":
+        elif response.status_code == 403 and (url.startswith("https://opentechfund.org") or url.startswith("https://www.opentech.fund")):
             reachable_cache[url] = True # maybe a temporary hickup
         elif response.status_code == 404 and url == "https://crates.io/crates/pgp":
             reachable_cache[url] = True # maybe a temporary hickup
