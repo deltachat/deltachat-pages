@@ -1261,7 +1261,7 @@ ordered chronologically:
 - 2023-2024 we successfully completed the OTF-funded 
   [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
   allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://deltachat/chatmail) 
+  creating a [chatmail server network](https://delta.chat/chatmail) 
   and providing "instant onboarding" in all apps released from April 2024 on. 
 
 - In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
