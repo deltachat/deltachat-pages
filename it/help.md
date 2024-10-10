@@ -1175,30 +1175,30 @@ che usa.
 
 ### Come posso eliminare il mio profilo? {#remove-account}
 
-If you use a default chat profile
-you can simply uninstall the app.
-This will automatically trigger deletion of all associated account data on the chatmail server.
-For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
-or the respective page from your chosen [3rd party chatmail server](chatmail).
+Se utilizzi un profilo chat predefinito
+puoi semplicemente disinstallare l'app.
+Questo attiverà automaticamente l'eliminazione di tutti i dati del profilo associato sul server chatmail.
+Per maggiori informazioni, fai riferimento a [nine.testrun.org eliminazione-profilo](https://nine.testrun.org/info.html#account-deletion) per il server d'inserimento predefinito,
+o alla rispettiva pagina del [server chatmail di 3 parti](chatmail) da te scelto.
 
-If you have set up your chat profile on multiple devices
-you need to remove it from all devices.
+Se hai impostato il tuo profilo chat su più dispositivi
+devi rimuoverlo da tutti i dispositivi.
 
-If you are using more than one account,
-but don't want to get rid of all of them,
-you can remove it in the account switcher menu (on android and iOS),
-or in the sidebar with a right click (in the desktop client).
+Se utilizzi più di un profilo,
+ma non vuoi eliminarli tutti,
+puoi rimuoverli nel menu di cambio profilo (su Android e iOS)
+o nella barra laterale con un clic destro (nel client desktop).
 
-Accounts on [classic e-mail providers](https://providers.delta.chat)
-will not be deleted automatically;
-how you can delete your account depends on your e-mail provider.
-We don't have any control over e-mail accounts at those providers,
-so unfortunately we can't help you with that.
+I profili su [fornitori e-mail classici](https://providers.delta.chat)
+non verranno eliminati automaticamente;
+il modo in cui puoi eliminare il tuo profilo dipende dal tuo fornitore e-mail.
+Non abbiamo alcun controllo sui profili e-mail di tali fornitori,
+quindi purtroppo non possiamo aiutarti.
 
-If you want to continue using a classic e-mail account with other apps,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
-Otherwise you might receive undecryptable messages from those group chats.
+Se vuoi continuare a usare un profilo e-mail classico con altre app,
+ma disinstallare Delta Chat,
+si consiglia di abbandonare qualsiasi chat di gruppo prima di disinstallare Delta Chat.
+Altrimenti potresti ricevere messaggi non decifrabili da quelle chat di gruppo.
 
 
 ### Sono interessato ai dettagli tecnici. Mi puoi dire di più?
@@ -1215,7 +1215,8 @@ Utilizziamo piuttosto fonti di finanziamento pubblico, così lontane dalle origi
 i nostri sforzi nell'istigare un ecosistema di messaggistica di chat decentralizzato e diversificato
 basato sugli sviluppi della comunità Free e Open-Source.
 
-Concretamente, gli sviluppi di Delta Chat finora sono stati finanziati da queste fonti:
+Concretely, Delta Chat developments have so far been funded from these sources,
+ordered chronologically: 
 
 - Il progetto UE [NEXTLEAP](https://nextleap.eu) ha finanziato la ricerca
   e implementazione di gruppi verificati e impostazione di protocolli di contatto
@@ -1239,7 +1240,20 @@ proposte, in particolare per [EPPD - directory di portabilità del provider e-ma
 
 - Dalla fine del 2021 fino a Marzo 2023 abbiamo ricevuto finanziamenti *Internet Freedom* (500.000 USD) dall'Ufficio per la democrazia, i diritti umani e il lavoro degli Stati Uniti (DRL). Questo finanziamento ha supportato i nostri obiettivi a lungo termine per rendere Delta Chat più utilizzabile e compatibile con un'ampia gamma di server di posta elettronica in tutto il mondo e più resiliente e sicuro in luoghi spesso colpiti dalla censura e dalla chiusura di Internet.
 
-- A partire dal 2023 siamo stati accettati nel programma Next Generation Internet (NGI) Affidamento per le nostre proposte di "App private decentralizzate". L'importo esatto è da definire (circa 100.000 euro). Questo finanziamento supporta ulteriori sviluppi di [webxdc "app condivise in una chat"](https://webxdc.org). 
+- 2023-2024 we successfully completed the OTF-funded 
+  [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
+  allowing us to introduce guaranteed encryption, 
+  creating a [chatmail server network](https://deltachat/chatmail) 
+  and providing "instant onboarding" in all apps released from April 2024 on. 
+
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on 
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+  All of these projects are partially completed or to be completed in early 2025. 
 
 - A volte riceviamo donazioni una tantum da privati.
 Ad esempio, nel 2021 un generoso individuo ci ha trasferito in banca 4K EUR

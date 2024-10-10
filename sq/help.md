@@ -1236,7 +1236,8 @@ BE dhe ShBA, si ndihmë të përpjekjeve tona për lulëzimin e një ekosistemi 
 decentralizuar dhe të larmishëm shkëmbimi mesazhesh bazuar në zhvillime
 bashkësie të Lirë dhe Me Burim të Hapët.
 
-Konkretisht, zhvillimet e Delta Chat-it deri sot janë financuar nga këto burime:
+Concretely, Delta Chat developments have so far been funded from these sources,
+ordered chronologically: 
 
 - The [NEXTLEAP](https://nextleap.eu) EU project funded the research
   and implementation of verified groups and setup contact protocols
@@ -1267,10 +1268,20 @@ përmirësime në punën në rrjet për krejt platformat.
   botës dhe më të qëndrueshëm dhe më të siguruar
   në vende të prekura shpesh nga censurim dhe fikje të internetit.
 
-- Në fillim të 2023-shit u pranuam për programin Next Generation Internet
-  (NGI) Entrust, me propozimet tona “Private Decentralized Apps”. 
-  Sasia e saktë është për t’u vendosur (rreth 100K euro). 
-  Ky financim mbështet zhvillime të mëtejshme të [webxdc-së, “aplikacione të dhënë në një fjalosje”](https://webxdc.org). 
+- 2023-2024 we successfully completed the OTF-funded 
+  [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
+  allowing us to introduce guaranteed encryption, 
+  creating a [chatmail server network](https://deltachat/chatmail) 
+  and providing "instant onboarding" in all apps released from April 2024 on. 
+
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on 
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+  All of these projects are partially completed or to be completed in early 2025. 
 
 - Ndonjëherë marrim dhurime unike nga individë privatë. 
   Për shembull, më 2021-shin një individ bujar na dërgoi një dërgesë

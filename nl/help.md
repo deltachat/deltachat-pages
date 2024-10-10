@@ -1212,7 +1212,8 @@ We maken gebruik van publieke financieringsprocessen, zoals EU- en VS-financieri
 het opzetten van een gedecentraliseerd en divers gesprekssysteem, te verwezenlijken,
 op basis van vrije en opensource-gemeenschapsontwikkelingen.
 
-De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door deze grote spelers:
+Concretely, Delta Chat developments have so far been funded from these sources,
+ordered chronologically: 
 
 - The [NEXTLEAP](https://nextleap.eu) EU project funded the research
   and implementation of verified groups and setup contact protocols
@@ -1240,10 +1241,20 @@ De Delta Chat-ontwikkeling wordt tot op heden gefinancierd door deze grote spele
   evenals compatibeler met meer e-mailservers wereldwijd. Ook kunnen we extra beveiliging toevoegen
   voor geheim communiceren vanaf locaties met internetcensuur of waar het internet is afgesloten.
 
-- Aan het begin van 2023 werden we toegelaten tot het Next Generation Internet (NGI)-
-  programma omwille van onze voorstellen omtrent ‘private, gedecentraliseerde apps’. 
-  Het bedrag moet nog nader worden vastgesteld, maar ligt rond de €100.000. 
-  Met behulp van deze financiering kunnen we de [webxdc ‘gedeelde apps in een gesprek’](https://webxdc.org) verder uitwerken.
+- 2023-2024 we successfully completed the OTF-funded 
+  [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
+  allowing us to introduce guaranteed encryption, 
+  creating a [chatmail server network](https://deltachat/chatmail) 
+  and providing "instant onboarding" in all apps released from April 2024 on. 
+
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on 
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+  All of these projects are partially completed or to be completed in early 2025. 
 
 - Soms ontvangen we eenmalige donaties van privépersonen, waar we
   uiteraard zeer dankbaar voor zijn. Zo ontvingen we in 2021 een zeer royaal bedrag op onze rekening, te weten €4000, 
