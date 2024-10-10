@@ -1179,7 +1179,7 @@ Se utilizzi un profilo chat predefinito
 puoi semplicemente disinstallare l'app.
 Questo attiverà automaticamente l'eliminazione di tutti i dati del profilo associato sul server chatmail.
 Per maggiori informazioni, fai riferimento a [nine.testrun.org eliminazione-profilo](https://nine.testrun.org/info.html#account-deletion) per il server d'inserimento predefinito,
-o alla rispettiva pagina del [server chatmail di 3 parti](chatmail) da te scelto.
+o alla rispettiva pagina del [server chatmail di 3 parti](https://delta.chat/chatmail) da te scelto.
 
 Se hai impostato il tuo profilo chat su più dispositivi
 devi rimuoverlo da tutti i dispositivi.
@@ -1243,7 +1243,7 @@ proposte, in particolare per [EPPD - directory di portabilità del provider e-ma
 - 2023-2024 we successfully completed the OTF-funded 
   [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
   allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://deltachat/chatmail) 
+  creating a [chatmail server network](https://delta.chat/chatmail) 
   and providing "instant onboarding" in all apps released from April 2024 on. 
 
 - In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)

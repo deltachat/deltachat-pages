@@ -703,7 +703,7 @@ Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą uż
 
 ### Jak mogę usunąć swoje konto? {#remove-account}
 
-Jeśli używasz domyślnego profilu czatu, możesz po prostu odinstalować aplikację. Spowoduje to automatyczne usunięcie wszystkich powiązanych danych konta na serwerze czatu. Aby uzyskać więcej informacji, zapoznaj się z [nine.testrun.org usuwanie kont](https://nine.testrun.org/info.html#account-deletion) dla domyślnego serwera powitalnego lub odpowiednią stroną wybranego [serwera czatu innej firmy](chatmail).
+Jeśli używasz domyślnego profilu czatu, możesz po prostu odinstalować aplikację. Spowoduje to automatyczne usunięcie wszystkich powiązanych danych konta na serwerze czatu. Aby uzyskać więcej informacji, zapoznaj się z [nine.testrun.org usuwanie kont](https://nine.testrun.org/info.html#account-deletion) dla domyślnego serwera powitalnego lub odpowiednią stroną wybranego [serwera czatu innej firmy](https://delta.chat/chatmail).
 
 Jeśli skonfigurowałeś swój profil czatu na wielu urządzeniach, musisz go usunąć ze wszystkich urządzeń.
 
@@ -742,7 +742,7 @@ Fundusze te wspierają nasze długofalowe cele, aby uczynić Delta Chat bardziej
 - 2023-2024 we successfully completed the OTF-funded 
   [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
   allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://deltachat/chatmail) 
+  creating a [chatmail server network](https://delta.chat/chatmail) 
   and providing "instant onboarding" in all apps released from April 2024 on. 
 
 - In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)

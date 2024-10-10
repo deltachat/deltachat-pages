@@ -1178,7 +1178,7 @@ Protonmail, Tutanota или Criptext. Однако, эти сообщения н
 вы можете просто удалить приложение.
 Это автоматически удалит все данные, связанные с учетной записью, на сервере chatmail.
 Для получения дополнительной информации, обратитесь к [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion), для настройки сервера по умолчанию,
-или соответствующей страницы с вашего выбранного [стороннего сервера chatmail](chatmail).
+или соответствующей страницы с вашего выбранного [стороннего сервера chatmail](https://delta.chat/chatmail).
 
 Если вы настроили свой профиль чата на нескольких устройствах,
 вы должны удалить его со всех устройств.
@@ -1247,7 +1247,7 @@ ordered chronologically:
 - 2023-2024 we successfully completed the OTF-funded 
   [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
   allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://deltachat/chatmail) 
+  creating a [chatmail server network](https://delta.chat/chatmail) 
   and providing "instant onboarding" in all apps released from April 2024 on. 
 
 - In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
