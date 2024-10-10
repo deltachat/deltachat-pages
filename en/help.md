@@ -1193,7 +1193,7 @@ If you use a default chat profile
 you can simply uninstall the app.
 This will automatically trigger deletion of all associated account data on the chatmail server.
 For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
-or the respective page from your chosen [3rd party chatmail server](chatmail).
+or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
 
 If you have set up your chat profile on multiple devices
 you need to remove it from all devices.
