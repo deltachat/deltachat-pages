@@ -703,30 +703,15 @@ Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą uż
 
 ### Jak mogę usunąć swoje konto? {#remove-account}
 
-If you use a default chat profile
-you can simply uninstall the app.
-This will automatically trigger deletion of all associated account data on the chatmail server.
-For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
-or the respective page from your chosen [3rd party chatmail server](chatmail).
+Jeśli używasz domyślnego profilu czatu, możesz po prostu odinstalować aplikację. Spowoduje to automatyczne usunięcie wszystkich powiązanych danych konta na serwerze czatu. Aby uzyskać więcej informacji, zapoznaj się z [nine.testrun.org usuwanie kont](https://nine.testrun.org/info.html#account-deletion) dla domyślnego serwera powitalnego lub odpowiednią stroną wybranego [serwera czatu innej firmy](chatmail).
 
-If you have set up your chat profile on multiple devices
-you need to remove it from all devices.
+Jeśli skonfigurowałeś swój profil czatu na wielu urządzeniach, musisz go usunąć ze wszystkich urządzeń.
 
-If you are using more than one account,
-but don't want to get rid of all of them,
-you can remove it in the account switcher menu (on android and iOS),
-or in the sidebar with a right click (in the desktop client).
+Jeśli używasz więcej niż jednego konta, ale nie chcesz pozbywać się ich wszystkich, możesz je usunąć w menu przełączania kont (na Androidzie i iOS) lub w pasku bocznym, klikając prawym przyciskiem myszy (w kliencie komputerowym).
 
-Accounts on [classic e-mail providers](https://providers.delta.chat)
-will not be deleted automatically;
-how you can delete your account depends on your e-mail provider.
-We don't have any control over e-mail accounts at those providers,
-so unfortunately we can't help you with that.
+Konta u [klasycznych dostawców poczty e-mail](https://providers.delta.chat) nie zostaną usunięte automatycznie; sposób usunięcia konta zależy od dostawcy poczty e-mail. Nie mamy żadnej kontroli nad kontami e-mail u tych dostawców, więc niestety nie możemy ci w tym pomóc.
 
-If you want to continue using a classic e-mail account with other apps,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
-Otherwise you might receive undecryptable messages from those group chats.
+Jeśli chcesz nadal używać klasycznego konta e-mail z innymi aplikacjami, ale odinstalować Delta Chat, zaleca się opuszczenie każdego czatu grupowego przed odinstalowaniem Delta Chat. W przeciwnym razie możesz otrzymywać nieodszyfrowywane wiadomości z tych czatów grupowych.
 
 
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi coś więcej?
@@ -739,7 +724,8 @@ Otherwise you might receive undecryptable messages from those group chats.
 Delta Chat nie otrzymuje żadnego kapitału wysokiego ryzyka, nie jest zadłużony i nie jest pod presją generowania ogromnych zysków lub sprzedawania reklamodawcom użytkowników i ich przyjaciół oraz rodziny (lub gorzej).
 Raczej korzystamy z publicznych źródeł finansowania, jak dotąd pochodzących z UE i USA, aby wspomóc nasze wysiłki w inicjowaniu zdecentralizowanego i zróżnicowanego ekosystemu komunikatora, opartego na rozwoju społeczności Free i Open-Source.
 
-Konkretnie, rozwój Delta Chat był dotychczas finansowany z tych źródeł:
+Concretely, Delta Chat developments have so far been funded from these sources,
+ordered chronologically: 
 
 - Unijny projekt [NEXTLEAP](https://nextleap.eu) sfinansował badania i wdrożenie zweryfikowanych grup i ustawień protokołów kontaktowych w latach 2017 i 2018, a także pomógł zintegrować szyfrowanie end-to-end poprzez [Autocrypt](https://autocrypt.org).
 
@@ -753,7 +739,20 @@ Druga dotacja w 2019/2020 (~300 000 4) pomogła nam wydać wersje Delta/iOS, prz
 - Od końca 2021 do marca 2023 otrzymaliśmy dofinansowanie *Wolność Internetu* (~500 tys. $) z amerykańskiego Biura Demokracji, Praw Człowieka i Pracy (DRL).
 Fundusze te wspierają nasze długofalowe cele, aby uczynić Delta Chat bardziej użytecznym i kompatybilnym z szeroką gamą serwerów e-mail na całym świecie, a także bardziej odpornym i bezpiecznym w miejscach często dotkniętych cenzurą i wyłączeniami Internetu.
 
-- Od 2023 roku zostaliśmy zaakceptowani w programie Next Generation Internet (NGI) Entrust dla naszych propozycji „Prywatnych zdecentralizowanych aplikacji”. Dokładna kwota do ustalenia (około 100 tys. EUR). Finansowanie to wspiera dalszy rozwój [„aplikacji udostępnianych na czacie” webxdc](https://webxdc.org). 
+- 2023-2024 we successfully completed the OTF-funded 
+  [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
+  allowing us to introduce guaranteed encryption, 
+  creating a [chatmail server network](https://deltachat/chatmail) 
+  and providing "instant onboarding" in all apps released from April 2024 on. 
+
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on 
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+  All of these projects are partially completed or to be completed in early 2025. 
 
 - Czasami otrzymujemy jednorazowe darowizny od osób prywatnych. Na przykład w 2021 roku pewna hojna osoba przekazała nam 4K EUR w formie przelewu bankowego tytułem "kontynuujcie dobry rozwój!". 💜 Takie pieniądze przeznaczamy na finansowanie spotkań rozwojowych lub na doraźne wydatki, których nie da się łatwo przewidzieć lub zrefundować z publicznych dotacji. Otrzymywanie większej ilości darowizn pomaga nam również stać się bardziej niezależnymi i długoterminowo rentownymi jako społeczność współpracowników.
 

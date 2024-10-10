@@ -1,5 +1,5 @@
 ---
-title: Внести свой вклад
+title: Принять участие
 lang: ru
 ---
 
@@ -9,17 +9,17 @@ lang: ru
 
 - [Fediverse](https://chaos.social/web/@delta) для объявлений и обратной связи.
 
-- [Delta Chat форум поддержки](https://support.delta.chat) больше
-  дискуссии для новых возможностей и получения тех. поддержки.
+- [Форум поддержки Delta Chat](https://support.delta.chat) для
+обсуждения новых функций и получения технической поддержки.
 
-- [Репозитории Delta Chat](https://github.com/deltachat/), где вы можете
-  найти код для приложений DeltaChat и этого веб-сайта.
+- [Репозитории Delta Chat](https://github.com/deltachat/), где размещен
+  код приложений DeltaChat и этого веб-сайта.
 
 - Другие ссылки можно найти в [cosmos](https://cosmos.delta.chat)
 
-[Пожертвовать деньги](donate){: .cta-button}
+[Пожертвовать](donate){: .cta-button}
 
-# Переводы и Отчёты об Ошибках
+# Переводы и Отчеты об ошибках
 
 - [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)
 - [Проблемы Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
@@ -35,23 +35,23 @@ lang: ru
 Для получения более подробной информации рекомендуем прочитать и подписатья на наш [блог](https://delta.chat/ru/blog).
 
 
-# Каналы связи от третьих лиц
+# Каналы связи сторонних разработчиков
 
-Следующие каналы связи, связанные с Delta Chat, управляются третьими лицами
+Следующие каналы связи, связанные с Delta Chat, управляются третьими сторонами
 которые могут следовать или не следовать нашим [Стандартам сообщества](community-standards): 
 
-- Англоязычная группа сообщества Delta Chat, вы можете присоединиться к группе:
+- Англоязычная группа сообщества Delta Chat, к которой вы можете присоединиться:
   * [В Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
   * [В Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [В XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [В Telegram](https://t.me/deltachat_community)
 
-- Сообщество [Лемми](https://lemmy.zip/c/delta_chat)
-  на которое вы можете подписаться введя `!delta_chat@lemmy.zip` 
-  в поле поиска вашего федивёрс приложения.
+- [Сообщество Lemmy](https://lemmy.zip/c/delta_chat)
+  на которое вы можете подписаться, добавив `!delta_chat@lemmy.zip` 
+  в поле поиска вашего приложения Федивёрс.
 
--  [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+-  [Сообщество DeltaChat на Reddit](https://old.reddit.com/r/DeltaChat/).
 
-Если вы знаете или сами создали дополнительные каналы,
+Если вы знаете о других каналах или создали их сами,
 пожалуйста, сообщите нам об этом (см. Каналы и репозитории выше)
 или [отредактируйте эту страницу на GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).

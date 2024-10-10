@@ -1028,7 +1028,20 @@ Die zweite Förderung 2019/2020 (~$300K) half uns bei der  Erstellung der iOS-Ve
 
 - Von Ende 2021 bis März 2023 erhielten wir eine *Internet Freedom* Finanzierung (500K USD) vom U.S. Bureau of Democracy, Human Rights and Labor (DRL). Diese Finanzierung unterstützte unsere langjährigen Ziele, Delta Chat benutzerfreundlicher und kompatibel mit einer breiten Palette von E-Mail-Servern weltweit zu machen, sowie widerstandsfähiger und sicherer an Orten, die häufig von Internetzensur und Abschaltungen betroffen sind.
 
-- Anfang 2023 wurden unsere Vorschläge für "Private Decentralized Apps" vom Next Generation Internet (NGI) Entrust Programm angenommen. Der genaue Betrag ist noch zu bestimmen (ca. 100K EUR). Diese Finanzierung unterstützt die weitere Entwicklung von [webxdc "apps shared in a chat"](https://webxdc.org).
+- 2023-2024 schlossen wir erfolgreich das vom OTF finanzierte 
+[Secure-Chatmail-Projekt](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/) ab. 
+Dieses fügt "Garantierte Verschlüsselung", 
+ein [Chatmail-Server-Netzwerk](https://deltachat/chatmail) 
+und „Instant Onboarding“ allen ab April 2024 veröffentlichten Anwendungen hinzu.
+
+- 2023 und 2024 wurden wir in das Next Generation Internet (NGI)
+Programm für unsere Arbeit an [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/) aufgenommen,
+zusammen mit Kooperationspartnern, die an 
+[webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+[webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+[DeltaTouch](https://nlnet.nl/project/DeltaTouch/) und 
+[DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+Alle diese Projekte sind teilweise abgeschlossen oder sollen Anfang 2025 abgeschlossen werden. 
 
 - Manchmal erhalten wir einmalige Spenden von Privatpersonen, wofür wir sehr dankbar sind. Im Jahr 2021 hat uns zum Beispiel eine großzügige Privatperson 4000 EUR überwiesen mit dem Betreff "Weiter so!" 💜  Wir verwenden dieses Geld zur Finanzierung von Entwicklungstreffen oder zur Deckung von Ad-hoc-Ausgaben, die nicht ohne weiteres vorhersehbar sind oder nicht aus öffentlichen Fördermitteln erstattet werden können.
 Der Erhalt von Spenden hilft uns auch, unabhängiger und langfristig lebensfähig zu werden, als Gemeinschaft.

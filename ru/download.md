@@ -14,13 +14,13 @@ downloads: true
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Альтернативные Клиенты](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Альтернативные клиенты](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
 
-- [База Провайдеров](https://providers.delta.chat/)
+- [База провайдеров](https://providers.delta.chat/)
 
-- [Проверка Загрузок](verify-downloads)
+- [Проверка загрузок](verify-downloads)
 
-- [Решение Проблем Установки на ПК](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Решение проблем установки на ПК](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
 - Предварительные сборки: [ПК]({% include desktop-previews-url %}),
   [Android Ночные](https://download.delta.chat/android/nightly/),

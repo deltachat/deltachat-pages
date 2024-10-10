@@ -1,8 +1,8 @@
 ru:
   
   meta:
-    description: "Delta Chat - Мгновенный Мессенджер, Основанный на Эл.почте"
-    keywords: "delta chat, приложение для обмена сообщениями по электронной почте, скачать delta chat"
+    description: Delta Chat - Мгновенный мессенджер на основе электронной почты
+    keywords: "Delta Chat, приложение для обмена сообщениями по электронной почте, скачать Delta Chat"
     rss_news_title: Новости Delta Chat
 
   menu:
@@ -28,12 +28,12 @@ ru:
     install_via_packagemanager: Установка через Диспетчер пакетов
     outdated: устаревшее
     minimum: Минимальные требования
-    dl_flathub: Загрузить с Flathub
+    dl_flathub: Загрузить из Flathub
     dl_microsoft: Загрузить из Microsoft Store
     dl_mac_appstore: Загрузить из Apple Mac AppStore
     dl_appstore: Загрузить из Apple AppStore
     beta_on: Включая бета-версии
-    dl_fdroid: Загрузить с F-Droid
+    dl_fdroid: Загрузить из F-Droid
     gplay: Загрузить из Google Play
     dl_amazon:
       small: Загрузить
@@ -43,4 +43,4 @@ ru:
       after: (экспериментально)
 
   help:
-    offline_hint: "Торопитесь? Вы сможете прочитать раздел Помощь в любое время внутри приложения, без использования интернета."
+    offline_hint: "Торопитесь? Вы сможете прочитать раздел Помощь в любое время внутри приложения, даже без подключения к интернету."
