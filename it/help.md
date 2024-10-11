@@ -1215,8 +1215,8 @@ Utilizziamo piuttosto fonti di finanziamento pubblico, così lontane dalle origi
 i nostri sforzi nell'istigare un ecosistema di messaggistica di chat decentralizzato e diversificato
 basato sugli sviluppi della comunità Free e Open-Source.
 
-Concretely, Delta Chat developments have so far been funded from these sources,
-ordered chronologically: 
+Concretamente, lo sviluppo di Delta Chat è stato finora finanziato da queste fonti,
+ordinate cronologicamente:
 
 - Il progetto UE [NEXTLEAP](https://nextleap.eu) ha finanziato la ricerca
   e implementazione di gruppi verificati e impostazione di protocolli di contatto
@@ -1240,20 +1240,19 @@ proposte, in particolare per [EPPD - directory di portabilità del provider e-ma
 
 - Dalla fine del 2021 fino a Marzo 2023 abbiamo ricevuto finanziamenti *Internet Freedom* (500.000 USD) dall'Ufficio per la democrazia, i diritti umani e il lavoro degli Stati Uniti (DRL). Questo finanziamento ha supportato i nostri obiettivi a lungo termine per rendere Delta Chat più utilizzabile e compatibile con un'ampia gamma di server di posta elettronica in tutto il mondo e più resiliente e sicuro in luoghi spesso colpiti dalla censura e dalla chiusura di Internet.
 
-- 2023-2024 we successfully completed the OTF-funded 
-  [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
-  allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://delta.chat/chatmail) 
-  and providing "instant onboarding" in all apps released from April 2024 on. 
+- 2023-2024 abbiamo completato con successo il progetto [Chatmail Sicuro](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/) finanziato da OTF, 
+consentendoci di introdurre la crittografia garantita, 
+creando una [rete di server di chatmail](https://delta.chat/chatmail) 
+e fornendo "inserimento immediato" in tutte le app rilasciate da aprile 2024 in poi.
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on 
+- Nel 2023 e nel 2024 siamo stati accettati nel programma Next Generation Internet (NGI)
+  per il nostro lavoro in [webxdc PUSH].(https://nlnet.nl/project/WebXDC-Push/),
+  insieme ai partner di collaborazione che lavorano su 
   [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
   [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) e 
   [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
-  All of these projects are partially completed or to be completed in early 2025. 
+  Tutti questi progetti sono parzialmente completati o saranno completati all'inizio del 2025.
 
 - A volte riceviamo donazioni una tantum da privati.
 Ad esempio, nel 2021 un generoso individuo ci ha trasferito in banca 4K EUR

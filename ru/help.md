@@ -1214,8 +1214,8 @@ Delta Chat не получает никакого венчурного капи�
 продолжить создавать децентрализованную экосистему обмена сообщениями,
 основанную на Свободном и Открытом исходном коде.
 
-Concretely, Delta Chat developments have so far been funded from these sources,
-ordered chronologically: 
+В частности, разработка Delta Chat финансировалась из следующих источников,
+перечисленны в хронологическом порядке: 
 
 - Проект ЕС [NEXTLEAP](https://nextleap.eu) финансировал исследование
 и внедрение проверенных групп и настройку протоколов контактов
@@ -1244,20 +1244,20 @@ ordered chronologically:
 и совместимость с широким спектром серверов эл. почты по всему миру, а также большую отказоустойчивость и безопасеность
 в местах, часто подвергающихся интернет-цензуре и отключениям.
 
-- 2023-2024 we successfully completed the OTF-funded 
+- 2023-2024 мы завершили проект финансируемый OTF 
   [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
-  allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://delta.chat/chatmail) 
-  and providing "instant onboarding" in all apps released from April 2024 on. 
+  что позволило нам внедрить гарантированное шифрование, 
+  создать сеть серверов [chatmail](https://delta.chat/chatmail) 
+  и обеспечить "немедленную регистрацию" во всех приложениях, выпущенных с апреля 2024 года. 
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on 
+- В 2023 и 2024 годах мы были приняты в программу Next Generation Internet (NGI)
+  за нашу работу над [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  в сотрудничестве с партнерами, работающими над 
   [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
   [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) и 
   [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
-  All of these projects are partially completed or to be completed in early 2025. 
+  Все эти проекты частично завершены или будут завершены в начале 2025 года. 
 
 - Иногда мы получаем разовые пожертвования от физических лиц. 
 Например, в 2021 году щедрый индивидуальный банк перевел нам 4 тыс. евро. 
