@@ -1220,7 +1220,7 @@ a través de [Autocrypt](https://autocrypt.org).
   Receiving more donations also helps us to become more independent and long-term viable
   as a contributor community. 
 
- [Donar dinero](donate){: .cta-button}
+  [Donar dinero](donate){: .cta-button}
 
 - Por último, pero no por ello menos importante, varios expertos pro-bono y entusiastas contribuyeron
 y contribuyen a los desarrollos de Delta Chat sin recibir dinero, o sólo

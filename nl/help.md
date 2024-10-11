@@ -1263,7 +1263,7 @@ ordered chronologically:
   Ook kunnen we zo onafhankelijk blijven en lang blijven
   voortbestaan.
 
-[Geld doneren](donate){: .cta-button}
+  [Geld doneren](donate){: .cta-button}
 
 - Ook hebben verschillende experts en enthousiastelingen op vrijwillige basis bijgedragen
   aan Delta Chat, en sommige doen dat nog steeds. Zij hebben geen of bijna geen

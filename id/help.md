@@ -1281,7 +1281,7 @@ ordered chronologically:
   Menerima lebih banyak donasi juga membantu kami untuk menjadi lebih mandiri dan
   sebagai komunitas penyumbang. 
 
-  [Donasi Uang](donate){: .cta-tombol}
+  [Donasi Uang](donate){: .cta-button}
 
 - Terakhir, beberapa ahli dan penggemar pro-bono turut berkontribusi 
   dan berkontribusi pada pengembangan Delta Chat tanpa menerima uang, atau hanya 
