@@ -1262,7 +1262,7 @@ che non possono essere facilmente previsti o rimborsati da finanziamenti pubblic
 Ricevere più donazioni ci aiuta anche a diventare più indipendenti e vitali a lungo termine
 come comunità di contributori.
 
-[Dona denaro](donate){: .cta-button}
+  [Dona denaro](donate){: .cta-button}
 
 - Ultimo ma non meno importante, hanno contribuito diversi esperti e appassionati pro-bono
 e contribuito allo sviluppo di Delta Chat senza ricevere denaro, o solo
