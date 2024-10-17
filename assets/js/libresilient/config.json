@@ -1,0 +1,15 @@
+{
+    "plugins": [{
+        "name": "fetch"
+    },{
+        "name": "cache"
+    },{
+        "name": "alt-fetch",
+        "endpoints": [
+            "https://deltachat.github.io/deltachat-pages/"
+        ]
+    }
+    ],
+    "loggedComponents": ["service-worker", "fetch", "cache", "alt-fetch"]
+}
+
