@@ -28,7 +28,7 @@ if ('serviceWorker' in navigator) {
             // 
             // so, "./" is the broadest scope, also the default. but the ServiceWorker can be registered
             // for a narrower scope, for example "./subdir/".
-            scope: './'
+            scope: '/'
         }).then(function(reg) {
             // Success.
             console.log('LibResilient: Service Worker registered.')
