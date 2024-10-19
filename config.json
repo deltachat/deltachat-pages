@@ -10,6 +10,7 @@
         "name": "cache"
     }
     ],
+    "stillLoadingTimeout": 0,
     "loggedComponents": ["service-worker", "fetch", "cache", "alt-fetch"]
 }
 
