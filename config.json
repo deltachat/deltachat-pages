@@ -1,13 +1,15 @@
 {
     "plugins": [{
         "name": "fetch"
-    },{
+    },
+    {
+        "name": "cache"
+    },
+    {
         "name": "alt-fetch",
         "endpoints": [
             "https://deltachat.github.io/deltachat-pages/"
         ]
-    },{
-        "name": "cache"
     }
     ],
     "stillLoadingTimeout": 0,
