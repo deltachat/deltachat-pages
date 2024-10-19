@@ -1,18 +1,28 @@
 {
-    "plugins": [{
-        "name": "fetch"
+  "plugins": [
+    {
+      "name": "any-of",
+      "uses": [
+        {
+          "name": "fetch"
+        },
+        {
+          "name": "delay",
+          "defaultDelay": 5000,
+          "uses": [
+            {
+              "name": "alt-fetch",
+              "endpoints": ["https://deltachat.github.io/deltachat-pages/"]
+            }
+          ]
+        }
+      ]
     },
     {
-        "name": "cache"
-    },
-    {
-        "name": "alt-fetch",
-        "endpoints": [
-            "https://deltachat.github.io/deltachat-pages/"
-        ]
+      "name": "cache"
     }
-    ],
-    "stillLoadingTimeout": 0,
-    "loggedComponents": ["service-worker", "fetch", "cache", "alt-fetch"]
+  ],
+  "defaultPluginTimeout": 300000,
+  "stillLoadingTimeout": 0,
+  "loggedComponents": ["service-worker", "fetch", "cache", "alt-fetch"]
 }
-
