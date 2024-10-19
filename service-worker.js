@@ -1012,7 +1012,7 @@ let initFromRequest = (req) => {
         //mode: req.mode,        TODO: commented out because mode: navigate is haram in service worker, it seems
         //credentials: req.credentials, TODO: commented out because credentials: "include" is haram if the Access-Control-Allow-Origin header is '*'
         cache: req.cache,
-        redirect: req.redirect,
+        //redirect: req.redirect, // commented out in attempt to fix <https://gitlab.com/rysiekpl/libresilient/-/issues/85>
         referrer: req.referrer,
         integrity: req.integrity
     }
