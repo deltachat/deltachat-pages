@@ -17,7 +17,7 @@
 
 ## Android
 
-| Android version | Core version | GPlay           | [F-Droid](https://f-droid.org/packages/com.b44t.messenger/)| Notes|
+| Release         | Core version | GPlay           | [F-Droid](https://f-droid.org/packages/com.b44t.messenger/) | Remarks |
 |-----------------|--------------|-----------------|--------------------------------|----------|
 | 1.46.15         | 1.145.0      | -               | -                              | There is a Changelog.md entry, but no release |
 | 1.46.14         | 1.142.12     | ✅ (2024-09-12) | ✅ (2024-09-16)                |          |
