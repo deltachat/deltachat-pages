@@ -38,12 +38,12 @@
 
 | Release         | Core version | [Mac App Store] | [Microsoft Windows Store] | [Flathub] | [Snapcraft] (community) | Remarks |
 |-----------------|--------------|-----------------|---------------------------|-----------|-------------------------|---------|
-| 1.46.8          | 1.142.12     | ✅              | ✅                       | ✅        | ?                       |         |
+| 1.46.8          | 1.142.12     | ✅              | ✅                       | ✅        | ✅                      |         |
 
 [Mac App Store]: https://apps.apple.com/us/app/delta-chat-desktop/id1462750497
 [Microsoft Windows Store]: https://www.microsoft.com/en-us/p/deltachat/9pjtxx7hn3pk?activetab=pivot:overviewtab
 [Flathub]: https://flathub.org/apps/details/chat.delta.desktop
-[snapcraft]: https://snapcraft.io/install/deltachat-desktop/debian
+[snapcraft]: https://snapcraft.io/deltachat-desktop
 
 ### Package Managers
 
