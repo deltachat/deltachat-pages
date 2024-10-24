@@ -31,3 +31,11 @@
 | 1.46.2          | 1.139.5      |
 | 1.46.1          | 1.139.5      |
 | 1.44.0          | 1.136.2      |
+
+## Desktop
+
+![Packaging Status](https://camo.githubusercontent.com/ed010643c5cc7bdd689c25a516f51dfdad6e4c694e253d4e23049219f5810e12/68747470733a2f2f7265706f6c6f67792e6f72672f62616467652f766572746963616c2d616c6c7265706f732f64656c7461636861742d6465736b746f702e737667)
+
+| Release         | Core version | Mac App Store | Microsoft Windows Store | Flathub | nix (unstable) | arch | snap (community) | Remarks |
+|-----------------|--------------|---------------|-------------------------|---------|----------------|------|------------------|---------|
+| 1.46.8          | 1.142.12     | ✅            | ✅                     | ✅      | ✅            | ✅   | ?                |         |
