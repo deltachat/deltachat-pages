@@ -10,7 +10,9 @@
 	margin: 10px 0;
 
 	background: linear-gradient(120deg, #77888f, #364e59);
-	color: white !important;
+	background: var(--cta-button-bg);
+	color: white;
+	color: var(--cta-button-text);
 	font-weight: bold;
 }
 

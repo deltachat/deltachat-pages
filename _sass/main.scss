@@ -12,6 +12,8 @@
     --footer: #757575;
     --menu-bg: linear-gradient(120deg, #77888f, #364e59);
     --menu-text: white;
+    --cta-button-bg: linear-gradient(120deg, #77888f, #364e59);
+    --cta-button-text: white;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -28,6 +30,8 @@
     --footer: #757575;
     --menu-bg: linear-gradient(120deg, hsl(198, 10%, 22%), hsl(199, 24%, 14%));
     --menu-text: white;
+    --cta-button-bg: linear-gradient(120deg, hsl(198, 10%, 41%), hsl(199, 24%, 18%));
+    --cta-button-text: rgb(241, 241, 241);
   }
 
   /* can be used to invert simple black / white images for darkmode*/
