@@ -14,17 +14,16 @@ img.avatar{
 div.comment-content{
   align-items: center;
   min-height: 64px;
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid #d7d7d7;
+  border-color: var(--comment-border);
   border-radius: 20px;
-  border-color: #d7d7d7;
   padding: 0.5em;
   background-color: #eee;
   background-image: linear-gradient(120deg, #f3f3f3, #eee);
+  background: var(--comment-bg);
 }
 
 .comment-author{
-    /*font-size: 1.2rem;*/
     margin-right: .4rem;
 }
 
@@ -73,12 +72,15 @@ div.comment-content .comment-date{
 .comment-button, .comment-button:hover, .comment-button:visited {
     	cursor: pointer;
 	border: 1.5px solid #e7e7e7;
+  border-color: var(--comment-button-border);
 	border-radius: 5px;
 	padding: 10px;
 	display: inline-block;
 	margin: 10px 0;
 
 	background: linear-gradient(120deg, #f3f3f3, #e7e7e7);
-	color: #555 !important;
+  background: var(--comment-button-bg);
+	color: #555;
+  color: var(--comment-button-text);
 	font-weight: bold;
 }
