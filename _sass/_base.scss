@@ -392,3 +392,11 @@ sup[role="doc-noteref"]:before {
 sup[role="doc-noteref"]:after {
   content: "]";
 }
+
+figure {
+  display: flex;
+  justify-content: center;
+  figcaption {
+    text-align: center;
+  }
+}

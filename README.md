@@ -36,7 +36,7 @@ How to create a new blog post
   [RSS-Feed](https://delta.chat/feed.xml).
 
 - If you have images of text with transparency (for example a mermaid diagram/flowchart), then consider proving an alternative image for darkmode like this `<img src="diagram-light.svg" data-dark-src="diagram-dark.svg" />`
-  - or if your image is simple and black/white you can also try out `class="invert-in-darkmode"` which uses css to invert the colors.
+  - or if your image is simple and only black on white you can also try out `class="binary-image-invert-in-darkmode"` which uses css to invert the colors and blend it with the pge background.
 
 Testing changes
 --------------------------------------------------------------------------------

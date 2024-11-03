@@ -45,8 +45,9 @@
   }
 
   /* can be used to invert simple black / white images for darkmode*/
-  .invert-in-darkmode {
+  .binary-image-invert-in-darkmode {
     filter: #{"invert()"};
+    mix-blend-mode: difference;
   }
 }
 
