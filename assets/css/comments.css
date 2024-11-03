@@ -1,14 +1,8 @@
 img.avatar{
-  display: inline-block;
-  flex; 0 0 64px;
   opacity: 0.9;
   float: left;
   border-radius: 30%;
   padding: 15px;
-  /*margin: .2rem .5rem;*/
-  /*margin-top: 1rem;*/
-  /*margin-right: 1rem;*/
-  /*margin-bottom: 1rem;*/
 }
 
 div.comment-content{
