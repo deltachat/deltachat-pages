@@ -18,6 +18,7 @@
 <meta property="og:description" content="{{ content | strip_html | xml_escape | normalize_whitespace | truncate: 200 }}">
 <meta property="og:image" content="{%if page.image%}{{ page.image | replace:'../','https://delta.chat/' }}{%else%}https://delta.chat/assets/home/intro1.png{%endif%}">
 <meta property="og:url" content="https://delta.chat{{ page.url }}">
+<meta name="fediverse:creator" content="@delta@chaos.social">
 <meta name="twitter:card" content="summary">
 
 <link rel="stylesheet" href="../assets/css/styles.css" type="text/css" />
