@@ -1,3 +1,37 @@
+:root {
+    --bg: #fff;
+    --text: #000;
+    --lower-heading: #159957;
+    --link-accent:#1e6bb8;
+    /* used in code, pre, blockquote, th */
+    --secondary-bg: #eee;
+    --table-border-color: #ccc;
+    --hr: #ddd;
+    --footnotes: #999;
+    --footer-border: #BBB;
+    --footer: #757575;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111;
+    --text: #dcdcdc;
+    --lower-heading: #0f6e3e;
+    --link-accent:#1e6bb8;
+    /* used in code, pre, blockquote, th */
+    --secondary-bg: #232323;
+    --table-border-color: #555;
+    --hr: #ddd;
+    --footnotes: #999;
+    --footer-border: #BBB;
+    --footer: #757575;
+  }
+
+  /* can be used to invert simple black / white images for darkmode*/
+  .invert-in-darkmode {
+    filter: #{"invert()"};
+  }
+}
+
 @import "_normalize";
 @import "_base";
 @import "_downloadpage";
