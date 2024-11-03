@@ -35,6 +35,7 @@ How to create a new blog post
 - That's all, the result goes to https://delta.chat/en/blog , and the
   [RSS-Feed](https://delta.chat/feed.xml).
 
+- If you have images of text with transparency (for example a mermaid diagram/flowchart), then consider proving an alternative image for darkmode like this `<img src="diagram-light.svg" data-dark-src="diagram-dark.svg" />`
 
 Testing changes
 --------------------------------------------------------------------------------
