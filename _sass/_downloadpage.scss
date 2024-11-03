@@ -1,88 +1,85 @@
-
-
 div.download-content {
+  margin-bottom: 2em;
 
-    margin-bottom: 2em;
+  div.recommendation-section div.recommendation-bg {
+    border: 1px solid red;
+  }
 
-    div.recommendation-section div.recommendation-bg {
-        border: 1px solid red;
+  div.box {
+    margin: 1em 0pt;
+    padding: 2px 2px 7pt 7pt;
+    background-color: #eee;
+    background-image: linear-gradient(120deg, #f3f3f3, #eee);
+    font-size: 12px;
+  }
+
+  div.box div.title {
+    font-size: 20px;
+    margin-top: 5pt;
+    margin-bottom: 8px;
+    margin-right: 0.5em;
+    color: #222;
+  }
+
+  div.box div.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1em 0;
+  }
+
+  div.box div.buttons a:not(.img-badge) {
+    background: #111;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 2px solid #444;
+    border-radius: 5px;
+    line-height: 1.23;
+    min-width: 160px;
+  }
+
+  div.box div.buttons a.img-badge {
+    display: flex;
+    align-content: center;
+    margin: 3px;
+    img {
+      height: 48px;
+      display: block;
     }
+  }
 
-    div.box {
-        margin: 1em 0pt;
-        padding: 2px 2px 7pt 7pt;
-        background-color: #eee;
-        background-image: linear-gradient(120deg, #f3f3f3, #eee);
-        font-size: 12px;
-    }
+  div.box div.buttons small {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+  }
 
-    div.box div.title {
-        font-size: 20px;
-        margin-top: 5pt;
-        margin-bottom: 8px;
-        margin-right: .5em;
-        color: #222;
-    }
+  div.box div.descr {
+    color: #222;
+  }
 
-    div.box div.buttons {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 1em 0;
-    }
-
-    div.box div.buttons a:not(.img-badge) {
-        background: #111;
-        color: white;
-        font-weight: bold;
-        padding: 5px;
-        margin: 3px;
-        text-decoration: none;
-        font-size: 16px;
-        height: 48px;
-        box-sizing: border-box;
-        border: 2px solid #444;
-        border-radius: 5px;
-        line-height: 1.23;
-        min-width: 160px;
-    }
-
-    div.box div.buttons a.img-badge {
-        display: flex;
-        align-content: center;
-        margin: 3px;
-        img{
-            height: 48px;
-            display: block;
-        }
-    }
-
-    div.box div.buttons small {
-        display: block;
-        font-size: 12px;
-        font-weight:normal;
-    }
-
-    div.box div.descr {
-        color: #222;
-    }
-
-    code {
-        background: transparent;
-    }
+  code {
+    background: transparent;
+  }
 }
 
 #boxes-summary {
-    font-weight: bold;
-    cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 summary.noupgrades {
-    color: #1e6bb8;
-    cursor: pointer;
-    list-style: none;
+  color: #1e6bb8;
+  cursor: pointer;
+  list-style: none;
 }
 summary.noupgrades:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
