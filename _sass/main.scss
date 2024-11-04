@@ -20,6 +20,8 @@
     --comment-button-text: #555;
     --comment-border: #d7d7d7;
     --comment-bg: linear-gradient(120deg, #f3f3f3, #eee);
+    --download-box-bg: linear-gradient(120deg, #f3f3f3, #eee);
+    --download-box-title-text: #222;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -44,6 +46,8 @@
     --comment-button-text: white;
     --comment-border: #272727;
     --comment-bg: linear-gradient(120deg, hsl(0, 0%, 9%), hsl(0, 0%, 14%));
+    --download-box-bg: linear-gradient(120deg,hsl(0, 0%, 9%), hsl(0, 0%, 20%));
+    --download-box-title-text: #eee;
   }
 
   /* can be used to invert simple black / white images for darkmode*/

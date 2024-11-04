@@ -6,6 +6,7 @@ div.download-content {
     padding: 2px 2px 7pt 7pt;
     background-color: #eee;
     background-image: linear-gradient(120deg, #f3f3f3, #eee);
+    background: var(--download-box-bg);
     font-size: 12px;
     border-radius: 2px;
   }
@@ -16,6 +17,7 @@ div.download-content {
     margin-bottom: 8px;
     margin-right: 0.5em;
     color: #222;
+    color: var(--download-box-title-text);
   }
 
   div.box div.buttons {
@@ -60,6 +62,7 @@ div.download-content {
 
   div.box div.descr {
     color: #222;
+    color: var(--download-box-title-text);
   }
 
   code {
