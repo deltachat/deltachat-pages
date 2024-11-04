@@ -82,7 +82,7 @@ who are following our WebXDC work with interest.
 
 ## Stepping stones for an E2E "Next-Generation-Internet" 
 
-<img src="../assets/logos/logo_nlnet.svg" width="230" style="clear: both; float:right; margin-left:1em;" />
+<img src="../assets/logos/logo_nlnet.svg" data-dark-src="../assets/logos/logo_nlnet_white.svg" width="230" style="clear: both; float:right; margin-left:1em;" />
 
 Our work on introducing new I/O APIs for WebXDC apps was funded 
 through [NLNET Zero Entrust](https://nlnet.nl/entrust/), 
