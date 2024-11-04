@@ -310,6 +310,8 @@ blockquote {
 pre,
 blockquote {
   padding: 2px 1em;
+  border: 1px solid #d6d6d6;
+  border-color: var(--pre-border);
 }
 blockquote {
   font-style: italic;
@@ -396,7 +398,8 @@ sup[role="doc-noteref"]:after {
 figure {
   display: flex;
   justify-content: center;
-  img, video {
+  img,
+  video {
     max-width: 90vw;
   }
   figcaption {
