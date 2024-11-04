@@ -55,20 +55,18 @@ While using the cffi in android and iOS was working fine, in the desktop version
 
 The main problem was that electron is a full browser which uses multiple processes, and you can't easily keep pass pointers to c-structs over process boundaries, ignoring that it is a bad idea. On android and iOS you can just call Delta Chat core from the UI thread. So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the c bindings, more about that below in the comparison.
 
-The other problem in desktop that it is basically single threaded and while Delta Chat core uses async rust, the CFFI blocks on all calls:
+The other problem in desktop that it is basically single threaded and while Delta Chat core uses async rust, the CFFI blocks on all calls (note the `block_on`):
 
-{% highlight rust mark_lines="7" %}
-{% raw %}
+```rust
 pub unsafe extern "C" fn dc_stop_ongoing_process(context: *mut dc_context_t) {
-if context.is_null() {
-eprintln!("ignoring careless call to dc_stop_ongoing_process()");
-return;
+  if context.is_null() {
+    eprintln!("ignoring careless call to dc_stop_ongoing_process()");
+    return;
+  }
+  let ctx = &*context;
+  block_on(ctx.stop_ongoing());
 }
-let ctx = &*context;
-block_on(ctx.stop_ongoing());
-}
-{% endraw %}
-{% endhighlight %}
+```
 
 In android and iOS you can easily start threads or defer blocking tasks to other threads, so there it is not a problem, but on desktop each call blocked the main process lead to an unresponsive experience.
 Even though the communication between our main and UI process was already using async electron IPC, electron froze the UI process every time the main process was blocked.
