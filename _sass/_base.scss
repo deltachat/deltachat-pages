@@ -396,6 +396,9 @@ sup[role="doc-noteref"]:after {
 figure {
   display: flex;
   justify-content: center;
+  img, video {
+    max-width: 90vw;
+  }
   figcaption {
     text-align: center;
   }
