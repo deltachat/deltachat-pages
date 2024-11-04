@@ -3,6 +3,7 @@ title: Why we have 2 different ways to talk to core
 author: simon
 image: ../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/jsonrpc-vs-cffi-thumbnail.png
 # com_id:
+render_toc: true
 ---
 
 > Foremost this is a quite technical post, read our other blog posts if you want to read something more targeted at end users.
@@ -119,7 +120,7 @@ Take this example from [libimobiledevice](https://libimobiledevice.org/):
 > lockdownd_error_t lockdownd_client_new (idevice_t device, lockdownd_client_t *client, const char *label)
 > ```
 >
-> from https://docs.libimobiledevice.org/libimobiledevice/latest/lockdown_8h.html
+> from <https://docs.libimobiledevice.org/libimobiledevice/latest/lockdown_8h.html>
 
 In our cffi we are not as strict, we mostly use 0 or `NULL` pointers to indicate errors:
 
@@ -204,17 +205,17 @@ With the typescript bindings on the other hand you get named and typed propertie
 Examples of events in jsonrpc:
 
 ```json
-// SmtpMessageSent
-{
-    kind: "SmtpMessageSent",
-    msg: string
-}
-// MsgDelivered
-{
-    kind: "MsgDelivered",
-    chatId: number,
-    msgId: number
-}
+[
+  {
+    "kind": "SmtpMessageSent",
+    "msg": "Message len=2402 was SMTP-sent to example@nine.testrun.org"
+  },
+  {
+    "kind": "MsgDelivered",
+    "chatId": 34,
+    "msgId": 1342
+  }
+]
 ```
 
 Usage in typescript:
@@ -272,11 +273,13 @@ todo technical:
 
 - [ ] convert all image refs
 - [ ] convert all footnotes
-- [ ] dark theme support for the rendered mermaid flowchart
-- [ ] jekyll code highlighting
-- [ ] fix lists
-- [ ] table
-- [ ] different pr -> make a dark theme for the pages repo (rebase this pr onto that)
+- [X] dark theme support for the rendered mermaid flowchart
+- [X] jekyll code highlighting
+- [X] fix lists
+- [ ] make mermaid more readable
+- [X] add toc
+- [X] table
+- [X] different pr -> make a dark theme for the pages repo (rebase this pr onto that)
 
 todo content:
 
