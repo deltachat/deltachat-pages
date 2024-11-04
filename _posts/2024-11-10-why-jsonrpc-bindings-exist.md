@@ -94,7 +94,7 @@ Desktop architecture versions:
 
 <img src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/mermaid-diagram-light.svg" data-dark-src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/mermaid-diagram-dark.svg" />
 
-When adding a new method we need to touch the code for the components outlined in red, no border means that it is not touched, and green border means client code is generated.
+When adding a new method we need to touch the code for the components shown in red, grey means that it is not touched, and green means the code is generated.
 
 ## The benefits of jsonrpc over CFFI
 
