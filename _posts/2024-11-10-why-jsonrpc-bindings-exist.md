@@ -4,6 +4,7 @@ author: simon
 image: ../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/jsonrpc-vs-cffi-thumbnail.png
 # com_id:
 render_toc: true
+excerpt: This is a technical post about why we created the jsonrpc bindings additionally to our cffi bindings. Learn something about the internals of how Delta Chat is implemented.
 ---
 
 > Foremost this is a quite technical post, read our other blog posts if you want to read something more targeted at end users.
@@ -14,7 +15,7 @@ This has the following benefits:
 
 - Because our Core library does all the heavy work and exposes easy methods such as `getAccounts`, `getChatlist`, `getChatContacts` and so on, it's much less work maintaining our apps on all platforms, because they basically only need to implement the UI.
 - We have many tests for this core library, internal tests in rust and many integration tests in python.
-- The core library can easily be used to write bots and new Apps/Clients (like deltatouch, a client for Ubuntu touch made by a community member in about a year, read the [blog post](../2023-07-02-deltatouch)).
+- The core library can easily be used to write bots and new Apps/Clients (like deltatouch, a client for Ubuntu touch made by a community member in about a year, read the [blog post](./2023-07-02-deltatouch)).
 
 ## The C Foreign Function Interface
 
@@ -77,13 +78,17 @@ Out of these and other frustrations the idea for a new way to talk to core was b
 ## The history of our jsonrpc interface
 
 Then treefit started writing a deltachat-command-API project which was passing requests and answers over json.
-There were two goals: make desktop development easier and to make the experiment of a KaiOS client possible^[KaiOS has a similar problem as there are only webapps, so there also a process boundary - KaiOS is small feature phones with T9 keyboard].
+There were two goals: make desktop development easier and to make the experiment of a KaiOS client possible [^kaios].
+
+[^kaios]: KaiOS has a similar problem: Only webapps are allowed, so there also a process boundary - KaiOS is small feature phones with T9 keyboard. BTW: treefit still plans to make that experimental client for KaiOS.
 
 After he got the [first prototype](https://github.com/Simon-Laux/delta-command-api) working, Frando cleaned up and rewrote the code to make it more [idiomatic and professional](https://github.com/deltachat/deltachat-jsonrpc/pull/14).
 He also factored out the jsonrpc library and procedural macro into a dedicated rust crate, so that it can also be used by other projects: [yerpc](https://github.com/deltachat/yerpc)
 
 Then we merged the repo into the core repo and moved desktop over to use the new jsonrpc API, which was easy thanks to the generated typescript bindings that gave good auto-completion.
-Though it still used the cffi and node bindings as transport, until May 17, 2024, when treefit migrated it to use the deltachat-rpc-server binary that uses stdio as a transport^[The pr: [use stdio binary instead of dc node & update electron to 30 & update min node to 20 #3567](https://github.com/deltachat/deltachat-desktop/pull/3567)].
+Though it still used the cffi and node bindings as transport, until May 17, 2024, when treefit migrated it to use the deltachat-rpc-server binary that uses stdio as a transport[^jsonrpc-pr].
+
+[^jsonrpc-pr]: The pr: [use stdio binary instead of dc node & update electron to 30 & update min node to 20 #3567](https://github.com/deltachat/deltachat-desktop/pull/3567).
 
 Desktop architecture versions:
 
@@ -95,7 +100,7 @@ When adding a new method we need to touch the code for the components outlined i
 
 ### Less Code to write - Simplify development
 
-![[new-method-addtion-comparison.png]]
+<img src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/new-method-addtion-comparison.png" />
 
 As you can see in this "meme", adding a method with jsonrpc is much simpler than adding a method to the CFFI.
 This is thanks to 2 factors:
@@ -105,7 +110,8 @@ This is thanks to 2 factors:
 
 ### Error handling
 
-Error handling in c requires much discipline: a common pattern in C is to return a status code and write results to a pointer that was provided as an argument to the function.
+Error handling in c requires much discipline:
+a common pattern in C is to return a status code and write results to a pointer that was provided as an argument to the function.
 Take this example from [libimobiledevice](https://libimobiledevice.org/):
 
 > ```c
@@ -136,13 +142,13 @@ That seems straight forward, but we had a serious bug with an experimental featu
 
 #### The error handling bug that lead to lost accounts
 
-At the time there was a bug in `deltachat-ios` where accounts went missing seemingly randomly. Later we found out that **only experimental** encrypted accounts were affected by this issue.
+At the time there was a bug in the iOS app where accounts went missing seemingly randomly. Later we found out that **only experimental** encrypted accounts were affected by this issue.
 
 The bug was basically that Delta Chat ios thought locked accounts would be unconfigured, because **unconfigured** and **error** **both** did return value `0`.
 And if an account was unconfigured the welcome screen was shown, which has a back button that deleted the unconfigured new accounts.
 Only this account was not new, only dc-iOS thought it was because `dc_is_configured()` returned `0`.
 
-We fixed it by adding a call to `dc_is_open()` to the welcome screen:
+We fixed it by adding a call to `dc_is_open()` to the welcome screen[^ios-issue]:
 
 ```diff
          let selectedAccount = dcAccounts.getSelected()
@@ -153,7 +159,9 @@ We fixed it by adding a call to `dc_is_open()` to the welcome screen:
                  _ = self.dcAccounts.add()
 ```
 
-The [issue](https://github.com/deltachat/deltachat-ios/issues/1504#issuecomment-1172894639) and the [solution](https://github.com/deltachat/deltachat-ios/pull/1638), for those that are interested.
+[^ios-issue]:The [issue](https://github.com/deltachat/deltachat-ios/issues/1504#issuecomment-1172894639) and the [solution](https://github.com/deltachat/deltachat-ios/pull/1638), for those that are interested.
+
+<br />
 
 #### Getting more information about errors than just the fact that an error occurred
 
@@ -175,7 +183,7 @@ There are two kinds of responses to a jsonrpc requests: a response or an error, 
 In Delta Chat we currently only use the error string.
 Our jsonrpc clients (JavaScript and python) automatically convert these error responses to errors in the target language and return/throw them:
 
-![[error thrown in js.png]]
+<img src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/error thrown in js.png" />
 So we always know what call an error belongs to and we don't have the risk of mixing boolean return value and error.
 
 ### Named fields in events
@@ -271,8 +279,8 @@ The webxdc realtime api is also an interesting topic, it will surely get its own
 
 todo technical:
 
-- [ ] convert all image refs
-- [ ] convert all footnotes
+- [X] convert all image refs
+- [X] convert all footnotes
 - [X] dark theme support for the rendered mermaid flowchart
 - [X] jekyll code highlighting
 - [X] fix lists
