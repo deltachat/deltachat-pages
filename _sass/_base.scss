@@ -53,7 +53,7 @@ body {
   padding-top: 0px;
 }
 
-#menu {
+.menu {
   text-align: center;
   margin-bottom: 1em;
   padding: 8px 5px;
@@ -62,23 +62,64 @@ body {
   background: var(--menu-bg);
 }
 
-#menu ul {
+.menu .desktop-menu-items {
   display: flex;
+}
+.menu .desktop-menu-items,
+.menu .mobile-menu-items {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-#menu li {
+.menu li {
   display: inline-block;
   padding-right: 0.5em;
 
   a,
-  a:visited {
+  a:visited, label {
     color: #fff;
     color: var(--menu-text);
     font-size: 16px;
   }
+}
+
+@media only screen and (max-width: 640px) {
+  .menu {
+    .desktop-menu-items {
+      display: none;
+    }
+    .mobile-menu-items {
+      display: flex;
+    }
+  }
+}
+
+.mobile-menu {
+  margin-inline: auto;
+  width: 95vw;
+  padding: 5px;
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    color: var(--menu-text);
+    li {
+      a {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+      margin: 0.4rem;
+    }
+    margin: 1rem;
+  }
+}
+
+#menu:checked ~ .mobile-menu {
+  display: block;
 }
 
 #content {
@@ -149,10 +190,10 @@ body {
   body {
     padding-top: 0px;
   }
-  #menu {
+  .menu {
     padding: 10px 0;
   }
-  #menu li {
+  .menu li {
     padding-right: 1em;
 
     a,
@@ -239,7 +280,7 @@ body {
   background-color: var(--bg);
 }
 
-#menu,
+.menu,
 h1,
 h2,
 h3,
@@ -356,7 +397,7 @@ code {
 h1,
 h2,
 h3,
-h4,
+h4,a
 h5,
 h6 {
   &:hover {

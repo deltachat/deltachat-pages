@@ -29,17 +29,25 @@
 
 <body id="top">
 
-<div id="menu">
-<ul>
+<nav class="menu">
+<ul class="desktop-menu-items">
 <li aria-hidden="true"><a href="../{{page.lang}}/"><img src="../assets/logos/delta-chat.svg" width="32" height="32" style="position: relative; bottom: -3px;" /></a></li>
-<li><a href="../{{page.lang}}/">{%if tx.menu.home != ""%}{{ tx.menu.home }}{%else%}{{ txEn.menu.home }}{%endif%}</a></li>
-<li><a href="download">{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</a></li>
-<li><a href="blog">{%if tx.menu.blog != ""%}{{ tx.menu.blog }}{%else%}{{ txEn.menu.blog }}{%endif%}</a></li>
-<li><a href="contribute">{%if tx.menu.contribute != ""%}{{ tx.menu.contribute }}{%else%}{{ txEn.menu.contribute }}{%endif%}</a></li>
-<li><a href="help">{%if tx.menu.help != ""%}{{ tx.menu.help }}{%else%}{{ txEn.menu.help }}{%endif%}</a></li>
-<li><a href="https://support.delta.chat">{%if tx.menu.forum != ""%}{{ tx.menu.forum }}{%else%}{{ txEn.menu.forum }}{%endif%}</a></li>
+{% include menu-items.html %}
 </ul>
-</div>
+{% comment %} critical styles - so that both menus are not shown at once {% endcomment %}
+<style>.mobile-menu-items, .mobile-menu {display: none;}</style>
+<ul class="mobile-menu-items">
+    <li aria-hidden="true"><a href="../{{page.lang}}/" style="display: flex;align-items: center;"><img src="../assets/logos/delta-chat.svg" width="32" height="32" style="margin-inline:0.4rem" /> Delta Chat</a></li>
+    <li style="flex-grow: 1"></li>
+    <li><label for="menu" id="open-menu">Menu</label></li>
+</ul>
+<input type="checkbox" style="display: none;" id="menu" />
+<nav class="mobile-menu" id="mobile-menu">
+    <ul>
+        {% include menu-items.html %}
+    </ul>
+</nav>
+</nav>
 
 <div id="content">
 
