@@ -60,12 +60,12 @@ The other problem in desktop that it is basically single threaded and while Delt
 {% highlight rust mark_lines="7" %}
 {% raw %}
 pub unsafe extern "C" fn dc_stop_ongoing_process(context: *mut dc_context_t) {
-    if context.is_null() {
-        eprintln!("ignoring careless call to dc_stop_ongoing_process()");
-        return;
-    }
-    let ctx = &*context;
-    block_on(ctx.stop_ongoing());
+if context.is_null() {
+eprintln!("ignoring careless call to dc_stop_ongoing_process()");
+return;
+}
+let ctx = &*context;
+block_on(ctx.stop_ongoing());
 }
 {% endraw %}
 {% endhighlight %}
@@ -130,7 +130,7 @@ Take this example from [libimobiledevice](https://libimobiledevice.org/):
 
 In our cffi we are not as strict, we mostly use 0 or `NULL` pointers to indicate errors:
 
-> [dc_contact_t _ dc_get_contact ( dc_context_t _ context, uint32_t contact_id )](https://c.delta.chat/classdc__context__t.html#a36b0e1a01730411b15294da5024ad311) > \[...]
+> [dc*contact_t * dc*get_contact ( dc_context_t * context, uint32_t contact_id )](https://c.delta.chat/classdc__context__t.html#a36b0e1a01730411b15294da5024ad311) > \[...]
 > Returns
 > The contact object, must be freed using dc_contact_unref() when no longer used. NULL on errors.
 
@@ -159,7 +159,7 @@ We fixed it by adding a call to `dc_is_open()` to the welcome screen[^ios-issue]
                  _ = self.dcAccounts.add()
 ```
 
-[^ios-issue]:The [issue](https://github.com/deltachat/deltachat-ios/issues/1504#issuecomment-1172894639) and the [solution](https://github.com/deltachat/deltachat-ios/pull/1638), for those that are interested.
+[^ios-issue]: The [issue](https://github.com/deltachat/deltachat-ios/issues/1504#issuecomment-1172894639) and the [solution](https://github.com/deltachat/deltachat-ios/pull/1638), for those that are interested.
 
 <br />
 
