@@ -18,9 +18,11 @@ This has the following benefits:
 ## The C Foreign Function Interface
 
 The C Foreign Function Interface short CFFI was the first way to link to core.
-It was introduced back when Björn started the delta chat project.
+It was introduced back when Björn started the Delta Chat project.
 He wrote the [core in C](https://github.com/deltachat/deltachat-core) and forked the Signal android app for the UI, which is written in Java, so the core is connected via CFFI^[the header file [deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h) is an easy way to get an idea of the API] and [JNI](https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c) (java native interface).
 Later [when we moved the core to rust](https://delta.chat/en/2019-05-08-xyiv#the-coming-delta-chat-rustocalypse) the CFFI stayed, and that the API stayed the same is also one of the reason why the migration from c to rust went so well.
+
+The advantage of a CFFI is that most programming languages have some way to bind to it already built-in.
 
 A peek into how methods in [`deltachat.h`](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h) look like:
 
@@ -42,15 +44,19 @@ dc_lot_t* dc_chatlist_get_summary(const dc_chatlist_t* chatlist, size_t index, d
 void      dc_chatlist_unref(dc_chatlist_t* chatlist);
 ```
 
+The majority of methods provide a pointer to a rust structure, which can be used to access its properties through specialized methods.
+After using it you need to free it using the `_unref` methods (like `dc_chatlist_unref`), otherwise you will create memory leaks.
+
 ## Why implement a new way to talk to core?
 
 While using the cffi in android and iOS was working fine, in the desktop version which is based on electron it had some problems.
 
-The main problem was that electron is a full browser which uses multiple processes, and you can't easily keep pass pointers to c-structs over process boundaries, ignoring that it is a bad idea. On android and iOS you can just call delta chat core from the UI thread. So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the c bindings, more about that below in the comparison.
+The main problem was that electron is a full browser which uses multiple processes, and you can't easily keep pass pointers to c-structs over process boundaries, ignoring that it is a bad idea. On android and iOS you can just call Delta Chat core from the UI thread. So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the c bindings, more about that below in the comparison.
 
-The other problem in desktop that it is basically single threaded and while delta chat core uses async rust, the CFFI blocks on all calls:
+The other problem in desktop that it is basically single threaded and while Delta Chat core uses async rust, the CFFI blocks on all calls:
 
-```rust
+{% highlight rust mark_lines="7" %}
+{% raw %}
 pub unsafe extern "C" fn dc_stop_ongoing_process(context: *mut dc_context_t) {
     if context.is_null() {
         eprintln!("ignoring careless call to dc_stop_ongoing_process()");
@@ -59,7 +65,8 @@ pub unsafe extern "C" fn dc_stop_ongoing_process(context: *mut dc_context_t) {
     let ctx = &*context;
     block_on(ctx.stop_ongoing());
 }
-```
+{% endraw %}
+{% endhighlight %}
 
 In android and iOS you can easily start threads or defer blocking tasks to other threads, so there it is not a problem, but on desktop each call blocked the main process lead to an unresponsive experience.
 Even though the communication between our main and UI process was already using async electron IPC, electron froze the UI process every time the main process was blocked.
@@ -130,7 +137,7 @@ That seems straight forward, but we had a serious bug with an experimental featu
 
 At the time there was a bug in `deltachat-ios` where accounts went missing seemingly randomly. Later we found out that **only experimental** encrypted accounts were affected by this issue.
 
-The bug was basically that delta chat ios thought locked accounts would be unconfigured, because **unconfigured** and **error** **both** did return value `0`.
+The bug was basically that Delta Chat ios thought locked accounts would be unconfigured, because **unconfigured** and **error** **both** did return value `0`.
 And if an account was unconfigured the welcome screen was shown, which has a back button that deleted the unconfigured new accounts.
 Only this account was not new, only dc-iOS thought it was because `dc_is_configured()` returned `0`.
 
@@ -164,7 +171,7 @@ There are two kinds of responses to a jsonrpc requests: a response or an error, 
 <-- {"jsonrpc": "2.0", "error": {"code": -32601, "message": "Method not found"}, "id": "1"}
 ```
 
-In delta chat we currently only use the error string.
+In Delta Chat we currently only use the error string.
 Our jsonrpc clients (JavaScript and python) automatically convert these error responses to errors in the target language and return/throw them:
 
 ![[error thrown in js.png]]
@@ -234,7 +241,7 @@ This really speed up desktop and made it more responsive.
 JSON-RPC requires no linking and is transport independent.
 At the moment 3 transport implementations exist (electron ipc, stdio, websocket) and it is easy to create new ones.
 
-You could even use the new [webxdc realtime api](https://webxdc.org/docs/spec/joinRealtimeChannel.html) to connect to a remote delta chat instance on another computer, similar to the idea of implementing some remote desktop webxdc app.
+You could even use the new [webxdc realtime api](https://webxdc.org/docs/spec/joinRealtimeChannel.html) to connect to a remote Delta Chat instance on another computer, similar to the idea of implementing some remote desktop webxdc app.
 The webxdc realtime api is also an interesting topic, it will surely get its own blog-post in time.
 
 > ⚠️ If you use websocket, be sure to use the encrypted `wss://` variant, because plain websockets `ws://` are as unencrypted as `http`
