@@ -23,7 +23,7 @@
     --download-box-bg: linear-gradient(120deg, #f3f3f3, #eee);
     --download-box-title-text: #222;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) { // prefers-color-scheme is available since 2020
   :root {
     --bg: #111;
     --text: #dcdcdc;
@@ -52,8 +52,8 @@
 
   /* can be used to invert simple black / white images for darkmode*/
   .binary-image-invert-in-darkmode {
-    filter: #{"invert()"};
-    mix-blend-mode: difference;
+    filter: #{"invert()"}; // filter invert is available since 2015
+    mix-blend-mode: difference; // mix-blend-mode is available since 2020
   }
 }
 
