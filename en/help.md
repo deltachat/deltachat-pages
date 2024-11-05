@@ -922,6 +922,7 @@ extendable messenger.
 
 - In general, anyone can share webxdc apps with each
   other without restrictions.
+- From the store: [webxdc.org/apps](https://webxdc.org/apps/).
 - You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
   to see an experimental webxdc appstore.
   All of the apps are open source and for free.
