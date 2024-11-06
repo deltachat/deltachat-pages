@@ -25,7 +25,6 @@ en:
     other: Download options for other platforms
     no_upgrades: Download options without automatic updates
     source_code: Source Code
-    install_via_packagemanager: Install via Package Manager
     outdated: outdated
     minimum: Minimum requirements
     dl_flathub: Download from Flathub
@@ -35,12 +34,6 @@ en:
     beta_on: Beta on
     dl_fdroid: Get it on F-Droid
     gplay: Get it on Google Play
-    dl_amazon:
-      small: Get it on
-      title: Amazon Appstore
-    dl_apk_text:
-      before: You can also download as
-      after: (experimental)
 
   help:
     offline_hint: In a hurry? You can read this help relaxed at anytime within the app, also without internet.
