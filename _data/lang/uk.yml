@@ -25,22 +25,14 @@ uk:
     other: Варіанти завантаження для інших платформ
     no_upgrades: Варіанти завантаження без автоматичного оновлення
     source_code: Вихідний код
-    install_via_packagemanager: Інсталювати через пакетний менеджер
     outdated: застаріло
     minimum: Мінімальні вимоги
     dl_flathub: Завантажити з Flathub
     dl_microsoft: Завантажити з Microsoft Store
     dl_mac_appstore: Завантажити з Apple Mac AppStore
     dl_appstore: Завантажити з Apple AppStore
-    beta_on: Бета на
     dl_fdroid: Отримати з F-Droid
     gplay: Отримати з Google Play
-    dl_amazon:
-      small: Отримати з
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Ви також можете завантажити з
-      after: (експеримент)
 
   help:
     offline_hint: "Поспішаєте? Ви можете спокійно почитати цю довідку в будь-який час у додатку, навіть без Інтернету."

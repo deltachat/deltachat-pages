@@ -67,7 +67,7 @@ Ik was WhatsApp-gebruiker van het eerste uur, maar ben daar vanaf gestapt omwill
 -Mijn contactpersonen zijn nog steeds overal en nergens omdat niet iedereen het gebruikt,
 -Ik maak reclame voor veel alternatieven, maar de markt is té verdeeld.
 Delta is DE oplossing voor iedereen die graag één
-alternatief wil - e-mail werkt áltijd! :)_
+alternatief wil - e-mail werkt áltijd! :)"_
 
 **Duitse gebruiker** in een e-mail aan delta@merlinux.eu (2019)
 

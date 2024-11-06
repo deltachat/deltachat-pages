@@ -25,22 +25,14 @@ ca:
     other: ""
     no_upgrades: ""
     source_code: Codi font
-    install_via_packagemanager: Instal·la'l via Gestor de Paquets
     outdated: desactualitzat
     minimum: ""
     dl_flathub: Descarrega'l a Flathub
     dl_microsoft: Descarrega'l a Microsoft Store
     dl_mac_appstore: Descarrega'l a Apple Mac AppStore
     dl_appstore: Descarrega'l a Apple AppStore
-    beta_on: Beta a
     dl_fdroid: Aconsegueix-lo a F-Droid
     gplay: Aconsegueix-lo a Google Play
-    dl_amazon:
-      small: Aconsegueix-lo a
-      title: Appstore d'Amazon
-    dl_apk_text:
-      before: També el pots descarregar com a
-      after: (experimental)
 
   help:
     offline_hint: ""

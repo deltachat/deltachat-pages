@@ -65,7 +65,7 @@ _"Ich bin wirklich froh, dass DeltaChat existiert und dass ich es entdeckt habe.
 Als sehr früher WhatsApp-Benutzer habe ich, aus Datenschutz- und Sicherheitsgründen, aufgehört, WhatsApp zu verwenden. 
 Ich habe deshalb immer noch unterbrochene Kontakte,
 ich mache viel Werbung für Alternativen, aber der Markt ist einfach zu fragmentiert.
-Delta ist DIE Lösung für alle, die mindestens eine Alternative zulassen - E-Mail funktioniert immer! :)_
+Delta ist DIE Lösung für alle, die mindestens eine Alternative zulassen - E-Mail funktioniert immer! :)"_
 
 **Anwender aus Deutschland** in 2019, per E-Mail an delta@merlinux.eu
 

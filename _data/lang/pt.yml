@@ -25,22 +25,14 @@ pt:
     other: ""
     no_upgrades: ""
     source_code: Source Code
-    install_via_packagemanager: Install via Package Manager
     outdated: outdated
     minimum: ""
     dl_flathub: Download from Flathub
     dl_microsoft: Download from Microsoft Store
     dl_mac_appstore: Download on Apple Mac AppStore
     dl_appstore: Download on Apple AppStore
-    beta_on: Beta on
     dl_fdroid: Get it on F-Droid
     gplay: Get it on Google Play
-    dl_amazon:
-      small: Get it on
-      title: Amazon Appstore
-    dl_apk_text:
-      before: You can also download as
-      after: (experimental)
 
   help:
     offline_hint: ""

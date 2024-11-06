@@ -25,22 +25,14 @@ cs:
     other: ""
     no_upgrades: ""
     source_code: Zdrojový kód
-    install_via_packagemanager: Instalace ze správce balíčků
     outdated: zastaralé
     minimum: ""
     dl_flathub: Stáhni z Flathubu
     dl_microsoft: Stáhni z Microsoft Store
     dl_mac_appstore: "Stáhni z AppStore, pro Apple Mac"
     dl_appstore: Stáhni z Apple AppStore
-    beta_on: Betaverze z
     dl_fdroid: Získat z F-Droid
     gplay: Získat z Google PlayStore
-    dl_amazon:
-      small: Získat z
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Lze také stáhnout jako
-      after: (pokusné)
 
   help:
     offline_hint: ""
