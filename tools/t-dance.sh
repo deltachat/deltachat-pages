@@ -55,8 +55,8 @@ push_po_sources_to_tx() {
 	branch=$(git rev-parse --abbrev-ref HEAD)
 	echo $branch
 	git status
-	if [ -z $branch ] || [ $branch != "master" ]; then
-		echo "ERROR: push is only allowed on master, there is a high risk to delete existing translations otherwise"
+	if [ -z $branch ] || [ $branch != "main" ]; then
+		echo "ERROR: push is only allowed on main, there is a high risk to delete existing translations otherwise"
 		exit 1
 	fi
 	tx push -s
@@ -122,7 +122,7 @@ if [ $1 == "pull" ]; then
 	cd ..
 	./tools/check-translations.sh
 	cd tools
-elif [ $1 == "push--do-this-only-from-master" ]; then
+elif [ $1 == "push--do-this-only-from-main" ]; then
 	create_po_sources
 	push_po_sources_to_tx
 # debug usage
@@ -136,7 +136,7 @@ elif [ $1 == "reset-md" ]; then
 	create_html_files
 else
 	echo "pull translations: ./t-dance pull"
-	echo "push sources:      ./t-dance push--do-this-only-from-master"
+	echo "push sources:      ./t-dance push--do-this-only-from-main"
 	echo "debug usage:       ./t-dance {create-po-sources|create-md|reset-md}"
 	echo "to push a single language, copy the files to translations/delta-chat-pages.<file>po/<lang>.po and call: tx push -t -l <lang>"
 fi
