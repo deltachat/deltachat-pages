@@ -25,22 +25,14 @@ it:
     other: Opzioni di scaricamento per altre piattaforme
     no_upgrades: Opzioni di download senza aggiornamenti automatici
     source_code: Codice sorgente
-    install_via_packagemanager: Installa tramite Package Manager
     outdated: obsoleto
     minimum: Requisiti minimi
     dl_flathub: Scarica da Flathub
     dl_microsoft: Scarica da Microsoft Store
     dl_mac_appstore: Scarica da Apple Mac AppStore
     dl_appstore: Scarica da Apple AppStore
-    beta_on: Beta su
     dl_fdroid: Scarica da F-Droid
     gplay: Scarica da Google Play
-    dl_amazon:
-      small: Scarica da
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Puoi anche scaricarlo come
-      after: (sperimentale)
 
   help:
     offline_hint: "Di fretta? Puoi leggere questo aiuto rilassato in qualsiasi momento all'interno dell'app, anche senza Internet."

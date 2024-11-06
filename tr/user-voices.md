@@ -63,7 +63,7 @@ As a very early WhatsApp user, I quit WhatsApp because of privacy and security r
 I still have broken contacts because of that,
 I do a lot of advertising for alternatives, but the market is just too fragmented.
 Delta is THE solution for everyone who allow at least one
-alternative - e-mail always works! :)_
+alternative - e-mail always works! :)"_
 
 **User from Germany** in 2019, via e-mail to delta@merlinux.eu
 

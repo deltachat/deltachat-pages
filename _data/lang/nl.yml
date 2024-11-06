@@ -25,22 +25,14 @@ nl:
     other: Downloadopties voor andere systemen
     no_upgrades: Downloadopties zonder automatische updates
     source_code: Broncode
-    install_via_packagemanager: Installeren via pakketbeheerder
     outdated: verouderd
     minimum: Minimale vereisten
     dl_flathub: Installeren via Flathub
     dl_microsoft: Installeren via de Microsoft Store
     dl_mac_appstore: Installeren via de Apple App Store (macOS)
     dl_appstore: Installeren via de Apple App Store (iOS)
-    beta_on: Bètaversie op
     dl_fdroid: Installeren via F-Droid
     gplay: Installeren via Google Play
-    dl_amazon:
-      small: Installeren via
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Je kunt Delta Chat ook downloaden als
-      after: (experimenteel)
 
   help:
     offline_hint: "Heb je weinig tijd? Dan kun je deze hulppagina ook in de app openen, zelfs zónder internet."

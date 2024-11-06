@@ -25,22 +25,14 @@ es:
     other: ""
     no_upgrades: ""
     source_code: Código Fuente
-    install_via_packagemanager: Instalar a través del Administrador de Paquetes
     outdated: desactualizado
     minimum: ""
     dl_flathub: Descargar desde Flathub
     dl_microsoft: Descargar desde Microsoft Store
     dl_mac_appstore: Descargar en Apple Mac AppStore
     dl_appstore: Descargar en Apple AppStore
-    beta_on: Beta en
     dl_fdroid: Consíguelo en F-Droid
     gplay: Consíguelo en Google Play
-    dl_amazon:
-      small: Consíguelo en
-      title: Amazon Appstore
-    dl_apk_text:
-      before: También puedes descargar como
-      after: (experimental)
 
   help:
     offline_hint: "¿Tienes prisa? Puedes leer esta ayuda de forma relajada en cualquier momento dentro de la aplicación, también sin conexión a internet."

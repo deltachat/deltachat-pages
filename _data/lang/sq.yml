@@ -25,22 +25,14 @@ sq:
     other: Mundësi shkarkimi për platforma të tjera
     no_upgrades: Mundësi shkarkimi pa përditësime automatike
     source_code: Kod Burim
-    install_via_packagemanager: Instalojeni përmes Përgjegjësi Paketash
     outdated: e vjetruar
     minimum: Domosdoshmëri minuimum
     dl_flathub: Shkarkojeni nga Flathub
     dl_microsoft: Shkarkojeni nga Microsoft Store
     dl_mac_appstore: Shkarkojeni nga Apple Mac AppStore
     dl_appstore: Shkarkojeni nga Apple AppStore
-    beta_on: Beta në
     dl_fdroid: Merreni nga F-Droid
     gplay: Merreni në Google Play
-    dl_amazon:
-      small: Merreni nga
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Mund ta shkarkoni edhe si
-      after: (ekperimental)
 
   help:
     offline_hint: "Jeni me ngut? Mund të lexoni këtë ndihmë me qetësi kurdo që të jetë, brenda aplikacionit, edhe pa internet."

@@ -25,22 +25,14 @@ ru:
     other: Загрузите варианты для других платформ
     no_upgrades: Загрузите варианты без возможности автоматического обновления
     source_code: Исходный код
-    install_via_packagemanager: Установка через Диспетчер пакетов
     outdated: устаревшее
     minimum: Минимальные требования
     dl_flathub: Загрузить из Flathub
     dl_microsoft: Загрузить из Microsoft Store
     dl_mac_appstore: Загрузить из Apple Mac AppStore
     dl_appstore: Загрузить из Apple AppStore
-    beta_on: Включая бета-версии
     dl_fdroid: Загрузить из F-Droid
     gplay: Загрузить из Google Play
-    dl_amazon:
-      small: Загрузить
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Также можно скачать как
-      after: (экспериментально)
 
   help:
     offline_hint: "Торопитесь? Вы сможете прочитать раздел Помощь в любое время внутри приложения, даже без подключения к интернету."

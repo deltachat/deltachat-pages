@@ -25,22 +25,14 @@ de:
     other: Download-Optionen für andere Plattformen
     no_upgrades: Downloads ohne automatische Updates
     source_code: Quellcode
-    install_via_packagemanager: Über Paketmanager installieren
     outdated: veraltet
     minimum: Systemanforderungen
     dl_flathub: Download von Flathub
     dl_microsoft: Download aus dem Microsoft Store
     dl_mac_appstore: Download aus dem Apple Mac AppStore
     dl_appstore: Download aus dem Apple AppStore
-    beta_on: Beta auf
     dl_fdroid: Beziehe es auf F-Droid
     gplay: Beziehe es auf Google Play
-    dl_amazon:
-      small: Beziehe es auf
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Du kannst Delta Chat Android auch als experimentelle
-      after: (experimentell)
 
   help:
     offline_hint: "In Eile? Sie können diese Hilfe jederzeit entspannt in der App lesen, auch ohne Internet."
