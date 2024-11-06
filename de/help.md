@@ -785,6 +785,7 @@ In Delta Chat können Sie [Webxdc Apps](https://webxdc.org), Anhänge mit der Da
 ### Wo bekomme ich Webxdc Apps?
 
 - Grundsätzlich kann jeder Webxdc Apps mit anderen ohne Einschränkungen teilen.
+- Von [webxdc.org/apps](https://webxdc.org/apps/).
 - Sie können ['hallo' an xstore@testrun.org senden](https://delta.chat/en/2023-08-11-xstore)
   um einen experimentellen Webxdc Appstore zu sehen.
   Alle Apps dort sind Open Source und umsonst.
