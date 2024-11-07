@@ -4,14 +4,17 @@
 
 | Release                  | Core Version                   | Remarks            |
 | ------------------------ | ------------------------------ |--------------------|
+| [`1.48.3`][ios-1.48.3]   | [`1.148.6`][core-1.148.6]      | ✅ appstore        |
 | [`1.46.10`][ios-1.46.10] | [`1.142.12`][core-1.142.12]    | appstore           |
 | [`1.46.9`][ios-1.46.9]   | [`1.142.2`][core-1.142.2]      | appstore           |
 | [`1.46.8`][ios-1.46.8]   | [`1.142.2`][core-1.142.2]      | Testflight only    |
 
+[ios-1.48.3]: https://github.com/deltachat/deltachat-ios/blob/main/CHANGELOG.md
 [ios-1.46.10]: https://github.com/deltachat/deltachat-ios/releases/tag/1.46.10
 [ios-1.46.9]: https://github.com/deltachat/deltachat-ios/releases/tag/1.46.9
 [ios-1.46.8]: https://github.com/deltachat/deltachat-ios/releases/tag/1.46.8
 
+[core-1.148.6]:  https://github.com/deltachat/deltachat-core-rust/releases/tag/v1.148.6
 [core-1.142.12]: https://github.com/deltachat/deltachat-core-rust/releases/tag/v1.142.12
 [core-1.142.2]: https://github.com/deltachat/deltachat-core-rust/releases/tag/v1.142.2
 
@@ -19,7 +22,7 @@
 
 | Release         | Core version | GPlay           | [F-Droid](https://f-droid.org/packages/com.b44t.messenger/) | Remarks |
 |-----------------|--------------|-----------------|--------------------------------|----------|
-| 1.48.3          | 1.148.6      | -               | -                              |          |
+| 1.48.3          | 1.148.6      | ✅              | 🟨 taggged, not online yet     | ✅ Github         |
 | 1.46.14         | 1.142.12     | ✅ (2024-09-12) | ✅ (2024-09-16)                |          |
 | 1.46.13         | 1.142.8      | -               | ✅ (2024-08-31)                |          |
 | 1.46.10         | 1.142.2      | ✅ (2024-08-15) | Tagged, but not on f-droid.org |          |
