@@ -60,7 +60,7 @@ _„Tak, nasza firma przeprowadziła migrację wszystkich systemów rozliczeń/p
 _„Jestem naprawdę szczęśliwy, że DeltaChat istnieje i że go odkryłem.
 Jako bardzo wczesny użytkownik WhatsApp rzuciłem WhatsApp ze względów prywatności i bezpieczeństwa;
 Wciąż mam z tego powodu zerwane kontakty, dużo reklamuję alternatyw, ale rynek jest po prostu zbyt rozdrobniony.
-Delta to rozwiązanie dla każdego, kto daje przynajmniej jedną alternatywę  e-mail zawsze działa! :)”_
+Delta to rozwiązanie dla każdego, kto daje przynajmniej jedną alternatywę – e-mail zawsze działa! :)”_
 
 **Użytkownik z Niemiec** w 2019, przez e-mail do delta@merlinux.eu
 

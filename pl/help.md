@@ -529,6 +529,7 @@ W Delta Chat możesz udostępniać [aplikacje webxdc](https://webxdc.org) i zał
 ### Gdzie mogę zdobyć aplikacje webxdc?
 
 - Ogólnie rzecz biorąc, każdy może udostępniać sobie aplikacje webxdc bez ograniczeń.
+- Od [webxdc.org/apps](https://webxdc.org/apps/).
 - Możesz [wysłać „hi” na adres xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore), aby zobaczyć eksperymentalny sklep z aplikacjami webxdc. Wszystkie aplikacje są otwarto źródłowe i są bezpłatne.
 - Wiele osób pisze własne, aplikacje webxdc i publikuje je na [forum Delta Chat](https://support.delta.chat/c/webxdc/20).
 
