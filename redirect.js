@@ -30,5 +30,5 @@ function getRedirectFile() {
   return '';
 }
 
-var newLocation = getLanguageFolder() + '/' + getRedirectFile();
+var newLocation = getLanguageFolder() + '/' + getRedirectFile() + window.location.hash;
 window.location.href = newLocation;
