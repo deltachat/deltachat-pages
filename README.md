@@ -111,12 +111,7 @@ for more info see the comments in `./tools/t-dance.sh`.
   and run `./tools/t-dance.sh pull`.
   copy files not handled by Transifex (./en/gdpr*) and adapt the header.
 
-- check the language selection in `/_includes/footer-languages.html`.
-
-- the following step is outside the scope of this repo:
-  add a server-redirect, template is at
-  <https://github.com/deltachat/sysadmin/blob/master/page/delta.chat/delta.chat>
-
+- add the language to `/_includes/footer-languages.html` and `redirect.js`
 
 ### Update translations
 
