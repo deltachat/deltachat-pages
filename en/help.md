@@ -1221,6 +1221,23 @@ Otherwise you might receive undecryptable messages from those group chats.
 - See [Standards used in Delta Chat]({% include standards-url %}).
 
 
+
+### Where can my friends find Delta Chat?
+
+Delta Chat is available for all major platforms:
+
+- The **official website**, <https://delta.chat/download> shows all options in detail
+
+- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+
+- Open one of the following **app store and search for "Delta Chat":**
+  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+
+- Check the **package manager** of your Linux distributions
+
+- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
+
+
 ### How are Delta Chat developments funded? 
 
 Delta Chat does not receive any Venture Capital and
