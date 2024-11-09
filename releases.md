@@ -41,7 +41,8 @@
 
 | Release         | Core version                | [Mac App Store] | [Microsoft Windows Store] | [Flathub] | [Snapcraft] (community) | Remarks |
 |-----------------|-----------------------------|-----------------|---------------------------|-----------|-------------------------|---------|
-| `1.46.8`        | [`1.142.12`][core-1.142.12] | ✅              | ✅                       | ✅        | ✅                      |         |
+| `1.48.0`        | [`1.148.7`][core-1.148.7]   | ✅              | ✅                        |           |                         |         |
+| `1.46.8`        | [`1.142.12`][core-1.142.12] | ✅              | ✅                        | ✅        | ✅                      |         |
 
 [Mac App Store]: https://apps.apple.com/us/app/delta-chat-desktop/id1462750497
 [Microsoft Windows Store]: https://www.microsoft.com/en-us/p/deltachat/9pjtxx7hn3pk?activetab=pivot:overviewtab
