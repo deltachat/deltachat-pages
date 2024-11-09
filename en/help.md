@@ -1230,7 +1230,7 @@ Delta Chat is available for all major and some minor platforms:
 
 - If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app store and search for "Delta Chat":**
+- Open one of the following **app stores and search for "Delta Chat":**
   Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
 
 - Check the **package manager** of your Linux distributions
