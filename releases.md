@@ -14,6 +14,7 @@
 [ios-1.46.9]: https://github.com/deltachat/deltachat-ios/releases/tag/1.46.9
 [ios-1.46.8]: https://github.com/deltachat/deltachat-ios/releases/tag/1.46.8
 
+[core-1.148.7]:  https://github.com/deltachat/deltachat-core-rust/releases/tag/v1.148.7
 [core-1.148.6]:  https://github.com/deltachat/deltachat-core-rust/releases/tag/v1.148.6
 [core-1.142.12]: https://github.com/deltachat/deltachat-core-rust/releases/tag/v1.142.12
 [core-1.142.2]: https://github.com/deltachat/deltachat-core-rust/releases/tag/v1.142.2
@@ -41,7 +42,7 @@
 
 | Release         | Core version                | [Mac App Store] | [Microsoft Windows Store] | [Flathub] | [Snapcraft] (community) | Remarks |
 |-----------------|-----------------------------|-----------------|---------------------------|-----------|-------------------------|---------|
-| `1.48.0`        | [`1.148.7`][core-1.148.7]   | ✅              | ✅                        |           |                         |         |
+| `1.48.0`        |  [`1.148.7`][core-1.148.7]   | ✅              | ✅                        |           |                         |         |
 | `1.46.8`        | [`1.142.12`][core-1.142.12] | ✅              | ✅                        | ✅        | ✅                      |         |
 
 [Mac App Store]: https://apps.apple.com/us/app/delta-chat-desktop/id1462750497
