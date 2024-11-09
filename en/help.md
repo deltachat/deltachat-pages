@@ -1224,7 +1224,7 @@ Otherwise you might receive undecryptable messages from those group chats.
 
 ### Where can my friends find Delta Chat?
 
-Delta Chat is available for all major platforms:
+Delta Chat is available for all major and some minor platforms:
 
 - The **official website**, <https://delta.chat/download> shows all options in detail
 
