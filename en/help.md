@@ -126,8 +126,7 @@ Use these tools to organize your chats and keep everything in its place:
 - When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
   **Muted chats stay archived** until you unarchive them manually.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+To use the functions, long tap or right click a chat in the chat list.
 
 
 ### What does the green dot mean?
