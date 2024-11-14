@@ -849,6 +849,10 @@ One device is not needed for the other to work.
   and make sure, **Private Network** is selected as "Network profile type"
   (after transfer, you can change back to the original value)
 
+- On **iOS**, make sure **System Settings → Delta Chat → Local Network** access is granted
+
+- On **macOS**, enable **System Settings → Privacy & Security → Local Network → Delta Chat**
+
 - Your system might have a "personal firewall",
   which is known to cause problems (especially on Windows).
   **Disable the personal firewall** for Delta Chat on both ends and try again
