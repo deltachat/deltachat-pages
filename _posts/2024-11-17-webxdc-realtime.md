@@ -9,11 +9,11 @@ The rolling Delta Chat 1.48 app releases introduce the new
 [webxdc realtime API](https://webxdc.org/docs/spec/joinRealtimeChannel.html) 
 which establishes a private P2P network between all users of a chat-shared app. 
 Web apps can now ["join" a realtime channel](https://webxdc.org/docs/spec/joinRealtimeChannel.html) to instruct their hosting messenger to establish ephemeral data channels
-with any other active other user of an app. 
+with any other active user of an app. 
 
 To implement webxdc realtime channels, 
 Delta Chat uses the [Iroh P2P Networking library](https://iroh.computer),
-driven by an experienced developer team with whom we enjoy collaboration;
+driven by an experienced developer team with which we greatly enjoy collaboration;
 big shoutout as they are also behind the multi-device setup of Delta Chat! 💜
 
 The new webxdc realtime API is not only easier to use than the classic 
