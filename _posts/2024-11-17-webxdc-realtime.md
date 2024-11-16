@@ -8,12 +8,13 @@ image: ../assets/logos/webxdc-centered.png
 The rolling Delta Chat 1.48 app releases introduce the new 
 [webxdc realtime API](https://webxdc.org/docs/spec/joinRealtimeChannel.html) 
 which establishes a private P2P network between all users of a chat-shared app. 
-Web apps can now call [webxdc.joinRealtimeChannel()](https://webxdc.org/docs/spec/joinRealtimeChannel.html) and thereby instruct the hosting messenger to establish ephemeral 
-realtime channels with peers.  
+Web apps can now ["join" a realtime channel](https://webxdc.org/docs/spec/joinRealtimeChannel.html) to instruct their hosting messenger to establish ephemeral data channels
+with any other active other user of an app. 
 
 To implement webxdc realtime channels, 
-Delta Chat uses the [Iroh Networking library](https://iroh.computer),
-driven by an experienced developer team with whom we enjoy collaboration for a longer time; big shoutout as Iroh is also behind the multi-device setup of Delta Chat!
+Delta Chat uses the [Iroh P2P Networking library](https://iroh.computer),
+driven by an experienced developer team with whom we enjoy collaboration;
+big shoutout as they are also behind the multi-device setup of Delta Chat! 💜
 
 The new webxdc realtime API is not only easier to use than the classic 
 [WebRTC Browser API](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection).
@@ -24,9 +25,10 @@ between an iPhone and an old Android phone.
 
 <video controls style="width:560px; max-width: 100%;"><source src="https://merlinux.eu/webxdc-realtime-148.mp4" type="video/mp4"></video>
 
-In the following sections, we provide technical details about "Pixel" 
-and highlight a few other first realtime apps
+In the following sections, we provide technical details about 
+this little "Pixel app" and highlight some other first realtime apps
 that are available through the [webxdc app store](https://webxdc.org/apps/). 
+
 
 ## Pixel app is small, offline-first and realtime 
 
@@ -59,7 +61,7 @@ There already is the [ColorPixel app](https://apps.testrun.org/deltazen-pixel-v0
 which is a [Pixel fork](https://github.com/DeltaZen/pixel) 
 where each participant draws pixels in a different color. 
 
-## The "Pong" app is realtime-only and implements delay compensation 
+## The "Pong" app is realtime-only and implements clock synchronization
 
 XXX provide 10-second Pong video of two players playing 
 
@@ -70,6 +72,10 @@ It's UX wise rudimentary but implements basic "clock synchronization"
 which is an important consideration for any realtime networked gaming app.  
 Please see the [pong source code](https://codeberg.org/webxdc/pong/src/branch/main) 
 for details. 
+To provide a more thorough implementation of Pong, 
+it might be worthwhile to look into [WebRTC Pong](https://mitxela.com/projects/webrtc-pong)
+and port it to Webxdc. And you may ignore all the parts about WebRTC -- 
+webxdc is much simpler to use :) 
 
 ## The Unix terminal app using a realtime channel to a chat bot 
 
