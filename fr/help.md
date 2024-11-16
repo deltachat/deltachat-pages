@@ -800,6 +800,10 @@ L'un n'a pas besoin de l'autre pour pouvoir fonctionner.
   and make sure, **Private Network** is selected as "Network profile type"
   (after transfer, you can change back to the original value)
 
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+
 - Il se peut que votre système dispose d'un "pare-feu personnalisé",
   source bien connue de dysfonctionnements (en particulier sur Windows).
   **Désactivez le pare-feu personnalisé** sur chaque appareil pour Delta Chat et réessayez.
@@ -1129,6 +1133,23 @@ Otherwise you might receive undecryptable messages from those group chats.
 ### Les détails techniques m'intéressent. Pouvez-vous m'en dire plus ?
 
 - Consultez les [standards utilisés dans Delta Chat]({% include standards-url %}).
+
+
+
+### Where can my friends find Delta Chat?
+
+Delta Chat is available for all major and some minor platforms:
+
+- The **official website**, <https://delta.chat/download> shows all options in detail
+
+- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+
+- Open one of the following **app stores and search for "Delta Chat":**
+  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+
+- Check the **package manager** of your Linux distributions
+
+- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Comment est financé le développement de Delta Chat ?

@@ -846,6 +846,10 @@ Delta Chat не будут иметь никакого ключа, прежде 
   и убедитесь, что в качестве "Типа сетевого профиля" выбрана **Частная сеть**.
   (после передачи, вы можете изменить обратно на исходное значение)
 
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+
 - В вашей системе может быть установлен "персональный брандмауэр",
   который может вызвать проблемы (особенно на Windows).
   **Отключите персональный брандмауэр** для Delta Chat на обоих сторонах и попробуйте снова
@@ -1214,6 +1218,23 @@ Delta Chat автоматически устанавливает (и [шифру
 ### Меня интересуют технические детали. Можете рассказать больше?
 
 - Смотрите [Стандарты, используемые в Delta Chat]({% include standards-url %}).
+
+
+
+### Где мои друзья могут найти Delta Chat?
+
+Delta Chat доступен на всех популярных и некоторых менее известных платформах:
+
+- На **официальной странице загрузки**, <https://delta.chat/download> можно найти подробную информацию о всех вариантах
+
+- Если основной сайт недоступен, используйте **зеркало** <https://deltachat.github.io/deltachat-pages>
+
+- Откройте один из следующих **онлайн-магазинов приложений и введите запрос "Delta Chat":**
+ Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, App Store для iOS и macOS, Microsoft Store
+
+- Проверьте **менеджер пакетов** вашего дистрибутива Linux
+
+- Файлы **APK для Android** доступны на <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Как финансируются разработки Delta Chat? 

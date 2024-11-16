@@ -125,8 +125,7 @@ Use these tools to organize your chats and keep everything in its place:
 - When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
   **Muted chats stay archived** until you unarchive them manually.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+To use the functions, long tap or right click a chat in the chat list.
 
 
 ### What does the green dot mean?
@@ -848,6 +847,10 @@ One device is not needed for the other to work.
   and make sure, **Private Network** is selected as "Network profile type"
   (after transfer, you can change back to the original value)
 
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+
 - Your system might have a "personal firewall",
   which is known to cause problems (especially on Windows).
   **Disable the personal firewall** for Delta Chat on both ends and try again
@@ -1218,6 +1221,23 @@ Otherwise you might receive undecryptable messages from those group chats.
 ### Teknik ayrıntılarla ilgileniyorum. Bana daha fazlasını söyleyebilir misin?
 
 - Bkz. [Delta Chat'te kullanılan standartlar]({% include standards-url %}).
+
+
+
+### Where can my friends find Delta Chat?
+
+Delta Chat is available for all major and some minor platforms:
+
+- The **official website**, <https://delta.chat/download> shows all options in detail
+
+- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+
+- Open one of the following **app stores and search for "Delta Chat":**
+  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+
+- Check the **package manager** of your Linux distributions
+
+- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Delta Chat geliştirmeleri nasıl finanse ediliyor?
