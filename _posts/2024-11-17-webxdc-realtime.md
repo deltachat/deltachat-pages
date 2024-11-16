@@ -73,20 +73,22 @@ for details.
 
 ## The Unix terminal app using a realtime channel to a chat bot 
 
-XXX provide screenshot of an xdcterminal in a messagelist 
+XXX provide 1-second video of using a mobile to open a terminal 
 
 The [xdcterm app demo](https://github.com/link2xt/xdcterm) requires
 a npm/node install to run a chat bot and then provides a Terminal app 
 so that you (or a group member of a chat group) can open a realtime terminal 
 to where the chat bot runs. 
 
-## The LiveChat app providing true realtime ephemeral chatting 
+## The LiveChat app providing realtime ephemeral chatting 
 
 XXX provide a 10-second video of 3 people live chatting 
 
-## The editor with offline-first optional realtime syncing 
-
-XXX provide a 20-second video of 3 people editing 
+The [LiveChat app](https://github.com/deltazen/live-chat) 
+provides ephemeral "irc-style" chatting with typing-indicators
+for anyone from a chat groups who joins. 
+Messages are not persisted and history is lost 
+when the last users closes the app. 
 
 
 ## Get ready, player one!
