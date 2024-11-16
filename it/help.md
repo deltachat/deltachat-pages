@@ -839,6 +839,10 @@ Un dispositivo non è necessario perché l'altro funzioni.
 e assicurati che **Rete Privata** sia selezionata come "Tipo di profilo di rete"
 (dopo il trasferimento è possibile ripristinare il valore originale)
 
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+
 - Il sistema potrebbe avere un "personal firewall",
   che è noto per causare problemi (soprattutto su Windows).
   **Disattivare il firewall personale** per Delta Chat su entrambe le estremità e riprovare.
@@ -1204,6 +1208,23 @@ Altrimenti potresti ricevere messaggi non decifrabili da quelle chat di gruppo.
 ### Sono interessato ai dettagli tecnici. Mi puoi dire di più?
 
 - Vedi [Standard usati in Delta Chat]({% include standards-url %}).
+
+
+
+### Where can my friends find Delta Chat?
+
+Delta Chat is available for all major and some minor platforms:
+
+- The **official website**, <https://delta.chat/download> shows all options in detail
+
+- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+
+- Open one of the following **app stores and search for "Delta Chat":**
+  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+
+- Check the **package manager** of your Linux distributions
+
+- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Come viene finanziato lo sviluppo di Delta Chat?

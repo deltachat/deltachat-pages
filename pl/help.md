@@ -483,6 +483,10 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 - Na **Windowsie**, przejdź do **Panel sterowania / Sieć i internet** i upewnij się, że **Sieć prywatna** jest wybrana jako "Typ profilu sieci"
   (po przeniesieniu możesz wrócić do pierwotnej wartości)
 
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+
 - Twój system może mieć „zaporę ogniową”, o której wiadomo, że powoduje problemy (szczególnie w systemie Windows).
 **Wyłącz zaporę** dla Delta Chat po obu stronach i spróbuj ponownie
 
@@ -718,6 +722,22 @@ Jeśli chcesz nadal używać klasycznego konta e-mail z innymi aplikacjami, ale 
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi coś więcej?
 
 - Zobacz [Standardy używane w Delta Chat]({% include standards-url %}).
+
+
+
+### Gdzie moi znajomi mogą znaleźć Delta Chat?
+
+Delta Chat jest dostępny na wszystkich głównych i niektórych mniejszych platformach:
+
+- Oficjalna **strona internetowa** <https://delta.chat/download> pokazuje wszystkie opcje szczegółowo
+
+- Jeśli nie jest dostępna, użyj **kopii strony** pod adresem <https://deltachat.github.io/deltachat-pages>
+
+- Otwórz jeden z następujących **sklepów z aplikacjami i wyszukaj „Delta Chat”**: Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS i macOS App Store, Microsoft Store
+
+- Sprawdź **menedżera pakietów** swoich dystrybucji Linuksa
+
+- **Aplikacje na Androida** są również dostępne na <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### W jaki sposób finansowany jest rozwój Delta Chat?

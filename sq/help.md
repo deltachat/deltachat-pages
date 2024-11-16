@@ -849,6 +849,10 @@ Njëra pajisja s’ka nevojë për tjetrën që të funksionojë.
   and make sure, **Private Network** is selected as "Network profile type"
   (after transfer, you can change back to the original value)
 
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+
 - Sistemi juaj mund të ketë një “firewall personal”,
   që dihet se shkakton probleme (veçanërisht në Windows).
   **Çaktivizoni firewall-in personal** për Delta Chat-in në të dy anët dhe riprovoni
@@ -1224,6 +1228,23 @@ Otherwise you might receive undecryptable messages from those group chats.
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
 - Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
+
+
+
+### Where can my friends find Delta Chat?
+
+Delta Chat is available for all major and some minor platforms:
+
+- The **official website**, <https://delta.chat/download> shows all options in detail
+
+- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+
+- Open one of the following **app stores and search for "Delta Chat":**
+  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+
+- Check the **package manager** of your Linux distributions
+
+- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Si financohet zhvillimi i Delta Chat-it? 

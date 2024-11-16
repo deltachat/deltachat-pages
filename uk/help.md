@@ -481,6 +481,10 @@ Delta Chat підтримує поширені формати приватних
 
 - У **Windows** перейдіть до **Панель керування / Мережа та Інтернет** і переконайтеся, що **Приватна мережа** вибрано як "Тип мережевого профілю" (після перенесення ви можете повернути початкове значення)
 
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+
 - Ваша система може мати "персональний брандмауер", який, як відомо, викликає проблеми (особливо у Windows). **Вимкніть персональний брандмауер** для Delta Chat на обох кінцях і повторіть спробу
 
 - **Гостьові мережі** можуть не дозволяти пристроям зв'язуватися один з одним. Якщо можливо, використовуйте негостьову мережу.
@@ -712,6 +716,23 @@ Delta Chat встановлює (і [шифрує](#message-metadata)!) клас
 ### Мене цікавлять технічні деталі. Можете розповісти більше?
 
 - Дивіться [Стандарти, що використовуються у Delta Chat]({% include standards-url %}).
+
+
+
+### Where can my friends find Delta Chat?
+
+Delta Chat is available for all major and some minor platforms:
+
+- The **official website**, <https://delta.chat/download> shows all options in detail
+
+- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+
+- Open one of the following **app stores and search for "Delta Chat":**
+  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+
+- Check the **package manager** of your Linux distributions
+
+- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Як фінансується розробка Delta Chat?

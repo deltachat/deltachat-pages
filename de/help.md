@@ -111,7 +111,7 @@ Verwenden Sie diese Tools, um Ihre Chats zu organisieren:
 
 - Wenn ein archivierter Chat eine neue Nachricht erhält, wird er, sofern er nicht stummgeschaltet ist, **wieder in die normale Chatliste verschoben**.  **Stummgeschaltete Chats bleiben archiviert**, bis Sie sie manuell aus dem Archiv entfernen.
 
-Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwenden Sie das Chatmenü (Android/Desktop) oder wischen Sie nach links (iOS); zum Stummschalten, verwenden Sie das Chatmenü (Android/Desktop) oder das Chatprofil (iOS).
+Um die Funktionen zu nutzen, lang auf einen Chat in der Chatliste tippen oder den Chat mit der rechten Maustaste anklicken.
 
 
 ### Was bedeutet der grüne Punkt?
@@ -739,6 +739,10 @@ Im Gegensatz zu vielen anderen Messengern, sind nach erfolgreicher Übertragung 
 und sicherstellen, dass **Privates Netzwerk** als "Netzwerkprofiltyp" ausgewählt ist.
 (nach der Übertragung kann wieder der ursprüngliche Wert verwendet werden)
 
+- Auf **iOS**, sicherstellen, dass „Systemeinstellungen / Apps / Delta Chat / **Lokales Netzwerk**“ eingeschaltet ist
+
+- Auf **macOS,** „Systemeinstellungen / Datenschutz & Sicherheit / **Lokales Netzwerk** / Delta Chat“ aktivieren
+
 - Ihr System verfügt möglicherweise über eine "Personal Firewall", diese sind dafür bekannt, Probleme zu verursachen (insbesondere bei Windows). **Deaktivieren Sie die Personal Firewall** für Delta Chat auf beiden Seiten und versuchen Sie es erneut
 
 - In **Gastnetzwerken** z.B. der **Fritz!Box**, können Geräte möglicherweise nicht miteinander kommunizieren.
@@ -1004,6 +1008,22 @@ Andernfalls könnten Sie unverschlüsselte Nachrichten aus diesen Gruppenchats e
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 
 - Siehe hierzu [in Delta Chat genutzte Standards]({% include standards-url %}).
+
+
+
+###  Wo können meine Freunde Delta Chat finden?
+
+Delta Chat ist für alle großen und einige kleinere Plattformen verfügbar:
+
+- Die **offizielle Website**, <https://delta.chat/download> zeigt alle Optionen im Detail
+
+-  Falls nicht verfügbar, verwenden Sie den **Mirror** auf <https://deltachat.github.io/deltachat-pages>
+
+- Öffnen Sie einen der folgenden **App-Stores und suchen Sie nach „Delta Chat“:** Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS und macOS App Store, Microsoft Store
+
+- Im **Paketmanager** Ihrer Linux-Distribution nachschauen
+
+ - **Android APKs** sind auch auf <https://github.com/deltachat/deltachat-android/releases> verfügbar.
 
 
 ### Wie wird Delta Chat finanziert?
