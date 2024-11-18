@@ -30,9 +30,9 @@ this little "Pixel app" and highlight some other first realtime apps
 that are available through the [webxdc app store](https://webxdc.org/apps/). 
 
 
-## Pixel app is small, offline-first and realtime 
+## The pixel app is small, offline-first and realtime 
 
-XXX add pixel image on the right side 
+<img src="../assets/blog/2024-11-pixel.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="pixel1-screenshot" />
 
 The [source code of the pixel app](https://codeberg.org/webxdc/pixel/src/branch/main/script.js) 
 
@@ -61,10 +61,9 @@ There already is the [ColorPixel app](https://apps.testrun.org/deltazen-pixel-v0
 which is a [Pixel fork](https://github.com/DeltaZen/pixel) 
 where each participant draws pixels in a different color. 
 
-## The "Pong" app is realtime-only and implements clock synchronization
+## The Pong app is realtime-only and implements clock synchronization
 
-XXX provide 10-second Pong video of two players playing 
-
+<video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-pong2.mp4" type="video/mp4"></video>
 The [pong app](https://apps.testrun.org/pong-v1.xdc) 
 is a simple two-player implementation of the classic ping pong 
 experience back in the 1970ties. 
@@ -72,29 +71,57 @@ It's UX wise rudimentary but implements basic "clock synchronization"
 which is an important consideration for any realtime networked gaming app.  
 Please see the [pong source code](https://codeberg.org/webxdc/pong/src/branch/main) 
 for details. 
-To provide a more thorough implementation of Pong, 
+
+Wouldn't it be nice if the rackets and the ball look nicer? 
+Maybe make some retro sounds? 
+Also, to provide a more refined network handling of Pong, 
 it might be worthwhile to look into [WebRTC Pong](https://mitxela.com/projects/webrtc-pong)
-and port it to Webxdc. And you may ignore all the parts about WebRTC -- 
-webxdc is much simpler to use :) 
+and port it to Webxdc. It goes further in providing a synchronized realtime experience for users. 
 
-## The Unix terminal app using a realtime channel to a chat bot 
+If you want to improve the app, please feel free to fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
 
-XXX provide 1-second video of using a mobile to open a terminal 
+## Editor with realtime cursor positions and updates
 
-The [xdcterm app demo](https://github.com/link2xt/xdcterm) requires
-a npm/node install to run a chat bot and then provides a Terminal app 
-so that you (or a group member of a chat group) can open a realtime terminal 
-to where the chat bot runs. 
+<video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-realtimeditor.mp4" type="video/mp4"></video>
+The [realtime editor app](https://apps.testrun.org/realtime-editor-v4.0.1.xdc)
+is a collaborative editor that can show realtime cursors and changes. 
+However, it's also behaving as an offline-first app, similar to the pixel app above. 
+If you join the chat-shared realtime editor app later, 
+you'll see all changes combined. 
+
+The [realtime editor repository](https://codeberg.org/jagtalon/editor) 
+is a fork of the base webxdc editor but with realtime capabilities added. 
+You can find more info in a [previous webxdc blog post](https://delta.chat/en/2024-02-15-webxdc-m3#a-basic-cross-platform-editor-using-prosemirror-and-yjs-148kb). 
+
+## Unix terminal app: realtime channel to a chat bot 
+
+<video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-xdcterm2.mp4" type="video/mp4"></video>
+The [xdcterm app demo](https://github.com/link2xt/xdcterm) allows
+to start a chat bot on some Unix machine and then open a terminal 
+from any Delta Chat profile that has a connection to the bot. 
+The [xdcterm repository](https://github.com/link2xt/xdcterm) 
+is a technology *demo* that shows 
+how to create a chat bot in Javascript
+which will establish a realtime connection to any app
+which is in contact with the bot. 
+If you add the chat bot to a group then anyone in the group
+can get the terminal which is shared (so it's like if "tmux" is built in). 
+Note that for real usage the xdcterm example should be modified 
+and maybe create a "genesis" group and allow only 
+users who are members of the genesis group to join terminals. 
+
 
 ## The LiveChat app providing realtime ephemeral chatting 
 
-XXX provide a 10-second video of 3 people live chatting 
+<video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-livechat2.mp4" type="video/mp4"></video>
 
-The [LiveChat app](https://github.com/deltazen/live-chat) 
+The [ephemeral LiveChat app](https://github.com/deltazen/live-chat) 
 provides ephemeral "irc-style" chatting with typing-indicators
 for anyone from a chat groups who joins. 
 Messages are not persisted and history is lost 
 when the last users closes the app. 
+This can render it useful if you want to have a truly 
+ephemeral chat that only live online peers will see. 
 
 
 ## Get ready, player one!
