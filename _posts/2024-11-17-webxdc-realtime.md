@@ -11,6 +11,7 @@ which establishes a private P2P network between all users of a chat-shared app.
 Web apps can now ["join" a realtime channel](https://webxdc.org/docs/spec/joinRealtimeChannel.html) to instruct their hosting messenger to establish ephemeral data channels
 with any other active user of an app. 
 
+<img src="../assets/logos/iroh.svg" style="width:160px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Iroh Logo" />
 To implement webxdc realtime channels, 
 Delta Chat uses the [Iroh P2P Networking library](https://iroh.computer),
 driven by an experienced developer team with which we greatly enjoy collaboration;
@@ -111,17 +112,17 @@ and maybe create a "genesis" group and allow only
 users who are members of the genesis group to join terminals. 
 
 
-## The LiveChat app providing realtime ephemeral chatting 
+## Live Chat or: realtime ephemeral chatting :)
 
 <video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-livechat2.mp4" type="video/mp4"></video>
 
 The [ephemeral LiveChat app](https://github.com/deltazen/live-chat) 
-provides ephemeral "irc-style" chatting with typing-indicators
-for anyone from a chat groups who joins. 
+provides ephemeral chatting with realtime typing-indicators
+between anyone in a chat group who starts the live chat. 
 Messages are not persisted and history is lost 
-when the last users closes the app. 
-This can render it useful if you want to have a truly 
-ephemeral chat that only live online peers will see. 
+when you close the app. 
+If all users have closed the app all content is gone. 
+There you go, fully ephemeral, convenient, end-to-end encrypted P2P chat :) 
 
 
 ## Get ready, player one!
@@ -135,5 +136,5 @@ If you are interested in webxdc app development, we recommend the following read
 
 - [Bringing E2E privacy to the Web: 4th security audit 😅](https://delta.chat/en/2023-05-22-webxdc-security)
 
-Don't hestitate to get back to our fediverse account or other contact addresses
+Don't hesitate to get back to our fediverse account or other contact addresses
 with any questions! 
