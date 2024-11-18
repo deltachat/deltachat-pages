@@ -18,8 +18,8 @@ driven by an experienced developer team with which we greatly enjoy collaboratio
 big shoutout as they are also behind the multi-device setup of Delta Chat! 💜
 
 The new webxdc realtime API is not only easier to use than the classic 
-[WebRTC Browser API](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection).
-but it is also faster in some situations, according to preliminary measurements. 
+[WebRTC Browser API](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection)
+but maybe also faster in some situations, according to preliminary measurements. 
 Here is a little 30 second video showcasing the
 [offline-first and realtime Pixel app](XXX link to latest release) 
 between an iPhone and an old Android phone. 
