@@ -140,8 +140,9 @@ we recommend the following readings:
 
 - [Bringing E2E privacy to the Web: 4th security audit 😅](https://delta.chat/en/2023-05-22-webxdc-security)
 
-Please don't hesitate to get back to our fediverse account 
-or other contact addresses with any questions!
+Please don't hesitate to get back to our fediverse account, 
+the [webxdc support forum category](https://support.delta.chat/c/webxdc/20)
+or other contact addresses. 
 
 ## Technical background on our Iroh/P2P integration 
 
