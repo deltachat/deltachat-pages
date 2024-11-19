@@ -20,9 +20,6 @@ that uses the new [joinRealtimeChannel API](https://webxdc.org/docs/spec/joinRea
 In the following sections, we discuss the "Pixel app" and other realtime example apps,
 before providing more technical background 
 and a closing note on the importance of protocols and specifications in our endeavours. 
-
-## How to use the xstore bot to get realtime and other apps 
-
 If you want to try the "Pixel" or one of the other below realtime apps with chat partners 
 
 0. Install Delta Chat, create a profile and establish a chat with someone
