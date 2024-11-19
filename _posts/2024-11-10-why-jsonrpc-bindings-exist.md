@@ -249,7 +249,7 @@ JSON-RPC requires no linking and is transport independent.
 At the moment 3 transport implementations exist (electron ipc, stdio, websocket) and it is easy to create new ones.
 
 You could even use the new [webxdc realtime api](https://webxdc.org/docs/spec/joinRealtimeChannel.html) to connect to a remote Delta Chat instance on another computer, similar to the idea of implementing some remote desktop webxdc app.
-The webxdc realtime api is also an interesting topic, it will surely get its own blog-post in time.
+The webxdc realtime api is also an interesting topic in of its own, read the its [announcement blog-post](./2024-11-17-webxdc-realtime) to learn more.
 
 > ⚠️ If you use websocket, be sure to use the encrypted `wss://` variant, because plain websockets `ws://` are as unencrypted as `http`
 
