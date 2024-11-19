@@ -160,7 +160,7 @@ or other contact addresses.
 </a>
 
 A joint focus with the Iroh team has been to support all platforms reliably,
-including mobile platforms, and to get it stable enough. 
+including mobile platforms. 
 For the last half year Delta apps had an opt-in experimental "webxdc realtime" setting
 which, after extensive testing and bug fixing, is now enabled by default. 
 
@@ -232,7 +232,7 @@ Delta Chat will then never attempt any Peer-to-Peer connection with anyone.
 This is similar to how you can opt into "protect your IP address" in Signal or Whatsapp
 which by default establish Peer-to-Peer connections for calls between users, as well. 
 
-## On other implementations, specifications and protocols 
+## Specifications, protocols and the freedom to exit
 
 When other webxdc-supporting XMPP messengers like [Cheogram](https://cheogram.com) and [Monocles](https://monocles.eu/more/) implement the new webxdc realtime API,
 they are not required to use Iroh but can instead 
@@ -241,7 +241,7 @@ use other existing XMPP ephemeral messaging capabilities.
 The [webxdc.joinRealtimeChannel() API](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
 is a minimal high-level API 
 that is easier to use than the [classic WebRTC Browser P2P API](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection)
-because a [webxdc messenger implementator](https://webxdc.org/docs/spec/messenger.html)
+because a [webxdc messenger implementor](https://webxdc.org/docs/spec/messenger.html)
 carries the burden to manage all dynamic connectivity, discovery and network routing aspects. 
 
 In fact Delta Chat apps themselves 
@@ -254,6 +254,5 @@ and the new realtime API specification is a practical example for that.
 <img alt="NLNet Logo" src="../assets/logos/logo_nlnet.svg" width="140" style="float:right; margin-left:1em;" />  
 Our introduction of the webxdc realtime API has been 
 supported by [NLnet](https://nlnet.nl/)
-themselves funded by the European Commission's [Next Generation Internet](https://ngi.eu/) 
-programme.
+themselves funded by the European Commission's [Next Generation Internet](https://ngi.eu/) programme.
 
