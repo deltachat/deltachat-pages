@@ -1,6 +1,6 @@
 ---
 title: Delta Chat introduces Peer-to-Peer networking 
-author: olgax
+author: olgax,l,r10s,adb,hocuri
 image: ../assets/logos/webxdc-centered.png
 ---
 
@@ -26,7 +26,7 @@ which was in the making for almost two years.
 
 <img src="../assets/blog/2024-11-pixel.jpg" style="width:180px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="pixel1-screenshot" />
 
-The [source code of the pixel app](https://codeberg.org/webxdc/pixel/src/branch/main/script.js) 
+The [source code of the pixel app](https://codeberg.org/webxdc/pixel/src/commit/8331769a5b3020a11ea789b311585e42c59c123b/script.js)
 
 - consists of 241 lines of Javascript (including all dependencies),
 
@@ -41,12 +41,12 @@ by using two separate webxdc messaging APIs:
   to relay "application updates" through the regular host messenger channel 
   (e-mail for Delta Chat, XMPP message for Cheogram and Monocles). 
 
-- [realtimeChannel.send](https://webxdc.org/docs/spec/sendUpdate.html) 
+- [realtimeChannel.send](https://webxdc.org/docs/spec/joinRealtimeChannel.html#realtimechannelsenddata)
   to relay ephemeral application messages to any P2P-connected chat partner. 
 
 To learn the theory behind how the pixel app achieves "eventual synchronization for all users",
 we suggest to dive into our [Shared Web Application state chapter](https://webxdc.org/docs/shared_state/index.html)
-and then re-read [the 241 lines of Javascript](https://codeberg.org/webxdc/pixel/src/branch/main/script.js) with a particular eye to "Lamport Clocks" :) 
+and then re-read [the 241 lines of Javascript](https://codeberg.org/webxdc/pixel/src/commit/8331769a5b3020a11ea789b311585e42c59c123b/script.js) with a particular eye to "Lamport Clocks" :) 
 
 If you want to improve the app, please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
 There already is the [ColorPixel app](https://apps.testrun.org/deltazen-pixel-v0.3.0.xdc)
@@ -63,11 +63,11 @@ which is an important consideration for any realtime networked gaming app.
 
 Wouldn't it be nice to have more original or more modern versions of Pong? 
 Maybe also with sounds and colors? 
-Also, to provide a more refined network handling of Pong, 
-it might be worthwhile to look into [WebRTC Pong](https://mitxela.com/projects/webrtc-pong)
-and port it to Webxdc. 
+Also, to provide a "rollback algorithm" you might look at 
+a 3rd party [WebRTC-based Pong development writeup](https://mitxela.com/projects/webrtc-pong)
+to understand what's involved. 
 
-Again, if you want to improve this little classic, 
+In any case, if you want to improve on this little Pong classic game, 
 please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
 
 ## Realtime Editor: cursor positions and immediate collab 
@@ -85,30 +85,28 @@ Wouldn't it be nice if there would be coloring of edits?
 Maybe provide a slider that allows to go back in document history? 
 Or maybe a way to import a picture into the realtime pad? 
 
-Again, if you can and want to improve this editor tool 
-you are more than welcome. 
+Again, if you can improve this editor tool you are more than welcome. 
 Please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
 
 ## Unix terminal app: realtime with a chat bot 
 
 <video controls style="width:150px; max-width: 50%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-xdcterm2.mp4" type="video/mp4"></video>
 The [xdcterm app demo](https://github.com/link2xt/xdcterm) allows
-to start a chat bot on some Unix machine and then open a terminal 
-from any Delta Chat profile that has a connection to the bot. 
-Note that XDCTerm is a technology *demo* that shows 
-how to create a chat bot in Javascript
-which will establish a realtime connection to any app
-which is in contact with the bot. 
+to run a chat bot in Javascript and then establish contact with it
+from your chat profile. 
+After saying "hello" in the chat to the bot,
+it will send you a webxdc realtime terminal app
+that you can start to open a terminal where the chatbot is running. 
 If you add the chat bot to a group then anyone in the group
-can get the terminal which is shared (so it's like if "tmux" is built in). 
-For real-life usage the xdcterm example should better be modified 
-and maybe rather create a "genesis" group and allow only 
-users who are members of the genesis group to join terminals. 
+can get the terminal which is shared (so it's like if screen-sharing is built in). 
+For real-life usage the xdcterm example should better be secured 
+and maybe rather create a "genesis" group with its first user 
+and then allow only users who are members of the genesis group to join terminals. 
 
-Again, if you want to improve this terminal app,
+If you want to play with or improve this terminal app,
 please fork and feel free to let us know. 
-You can't submit it into the [webxdc apps collection](https://webxdc.org/apps)
-because it depends on a running chat bot. 
+You can not submit it to the webxdc app store 
+because it requires a running chat bot on some unix-ish server. 
 
 ## Live Chat: realtime chat in a chat :)
 
@@ -124,7 +122,6 @@ There you go. Fully ephemeral, end-to-end encrypted P2P chat at your fingertips 
 You may also use a Live Chat app in a larger existing chat group 
 to announce a fast "ephemeral side conversation" that will not cause any network traffic
 for other chat group members who don't join the live chat. 
-Not all large group chats want to 
 
 ## Get ready, player one!
 
@@ -140,11 +137,10 @@ we recommend the following readings:
 
 - [Bringing E2E privacy to the Web: 4th security audit 😅](https://delta.chat/en/2023-05-22-webxdc-security)
 
-- To share your app with everyone, [submit it to our store](https://delta.chat/en/2023-08-11-xstore#how-can-i-submit-my-own-webxdc-app-to-xstore)!
-
 Please don't hesitate to get back to our fediverse account, 
 the [webxdc support forum category](https://support.delta.chat/c/webxdc/20)
 or other contact addresses. 
+
 
 ## Technical background on our Iroh/P2P integration 
 
