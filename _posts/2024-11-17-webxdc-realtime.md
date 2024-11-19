@@ -140,6 +140,8 @@ we recommend the following readings:
 
 - [Bringing E2E privacy to the Web: 4th security audit 😅](https://delta.chat/en/2023-05-22-webxdc-security)
 
+- To share your app with everyone, [submit it to our store](https://delta.chat/en/2023-08-11-xstore#how-can-i-submit-my-own-webxdc-app-to-xstore)!
+
 Please don't hesitate to get back to our fediverse account, 
 the [webxdc support forum category](https://support.delta.chat/c/webxdc/20)
 or other contact addresses. 
