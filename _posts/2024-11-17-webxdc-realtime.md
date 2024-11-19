@@ -155,7 +155,10 @@ which, after extensive testing and bug fixing, is now enabled by default.
 
 ### How private P2P networking is established 
 
+<a href="https://github.com/webxdc/webxdc-realtime-check">
 <img src="../assets/blog/2024-11-realtimecheck.png" width="150" style="float:right; margin-left:1em;" />
+</a>
+
 Only if you start an app that uses the 
 [webxdc.joinRealtimeChannel() API](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
 will Delta Chat initiate participation of your device in a P2P network. 
