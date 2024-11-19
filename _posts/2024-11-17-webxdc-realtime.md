@@ -253,7 +253,7 @@ could evolve to use a different implementation for webxdc realtime communication
 We've noted in the Fediverse lately that [Protocols and specifications provide freedom of exit](https://chaos.social/@delta/113492052382161817) 
 and the new realtime API specification is a practical example for that. 
 
-## Thanks to NLNET and NGI for their support and joint vision!
+## Thanks to NLNET and NGI for support and vision!
 
 <img alt="NLNet Logo" src="../assets/logos/logo_nlnet.svg" width="140" style="float:right; margin-left:1em;" />  
 Our introduction of the webxdc realtime API has been 
