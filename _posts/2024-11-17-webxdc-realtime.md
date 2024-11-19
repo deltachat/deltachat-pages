@@ -181,9 +181,6 @@ mirroring the existing e-mail federation.
 If your chat profile is using a classic e-mail server
 then a global default relay is used, operated from the Iroh team. 
 
-<a href="https://github.com/deltachat/deltachat-core-rust">
-<img src="../assets/blog/rust-delta.png" width="80" style="float:left; margin-right:1em;" />
-</a>
 The Iroh relay server combines both [Stun](https://en.wikipedia.org/wiki/STUN)
 and [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT) functionality,
 to allow peers to discover and directly connect and to 
