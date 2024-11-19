@@ -210,9 +210,12 @@ Delta Chat uses ephemeral cryptographic identities for any P2P messaging.
 When Delta Chat is closed or stopped by the operating system,
 then a new ephemeral identity will be created on the next start. 
 Moreover, Iroh uses [QUIC](https://en.wikipedia.org/wiki/QUIC) on the networking layer 
-which implements [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) 
-so that a network traffic collector 
-can not later compromise your device to decrypt past recorded traffic. 
+which implements [Forward-Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) 
+or "Deletable Encryption" as one of our long-term collaborators prefers to term it. 
+
+Ephemeral identities and forward-secret encryption shield against 
+an attacker that collects encrypted network traffic 
+and later compromises your device to try to decrypt past recorded traffic. 
 Not only the Live Chat app but all realtime webxdc apps benefit 
 from the ephemeral, end-to-end-encrypted and forward-secret P2P messaging
 provided by the Iroh stack and its Delta Chat integration on all platforms. 
@@ -223,15 +226,15 @@ Delta Chat does not store IP-addresses permanently anywhere
 and it does not expose IP addresses in the user interface or to webxdc apps. 
 Iroh relay servers do not see all the IP addresses 
 that user devices advertise to each other (for example relays don't see peer's WLAN addresses),
-and they also do not store any IP addresses involved in facilitating a P2P connection. 
+and relays also do not store any IP addresses when facilitating a P2P connection. 
 
-However, your chat partners may learn about your IP address if they deploy
+However, chat partners may learn about your IP address if they deploy
 some network monitoring tool or use a modified version of Delta Chat. 
 If using webxdc apps with a potentially hostile chat partner is a concern for you 
-you may disable the "webxdc realtime" setting in "advanced settings". 
-Delta Chat will then never attempt any Peer-to-Peer connection with anyone. 
-This is similar to how you can opt into "protect your IP address" in Signal or Whatsapp
-which by default establish Peer-to-Peer connections for calls between users, as well. 
+you may disable the "webxdc realtime" setting in "advanced settings" to be sure 
+that Delta Chat will never attempt any Peer-to-Peer connection with anyone. 
+Don't forget to then also be careful when clicking on any HTTPS-link in a chat 
+as a hostile sender could use it to extract your IP-address as well. 
 
 ## Specifications, protocols and the freedom to exit
 
