@@ -201,12 +201,14 @@ Just start a LiveChat in a chat group :)
 <img src="../assets/blog/two-faces.jpg" width="140" style="float:right; margin-left:1em;" />
 Delta Chat does not store IP-addresses permanently anywhere 
 and it does not expose IP addresses in the user interface or to web apps. 
-Even the Iroh relay servers do not see the IP addresses 
-that devices advertise to each other (for example, two devices in a local WLAN). 
+Iroh relay servers do not see all IP addresses 
+that user devices advertise to each other (for example they don't see the WLAN addresses),
+and they also do not store IP addresses. 
 
 However, your chat partners may learn about your IP address if they deploy
 some network monitoring tool or use a modified version of Delta Chat. 
-You can disable the "webxdc realtime" setting in "advanced settings". 
+If this is a concern for you 
+you may disable the "webxdc realtime" setting in "advanced settings". 
 Delta Chat will then never attempt any Peer-to-Peer connection with anyone. 
 This is similar to how you can opt into "protect your IP address" in Signal or Whatsapp
 who by default establish Peer-to-Peer connections for calls between users. 
