@@ -18,8 +18,9 @@ that uses the new [joinRealtimeChannel API](https://webxdc.org/docs/spec/joinRea
 <video controls style="width:560px; max-width: 100%;"><source src="https://merlinux.eu/webxdc-realtime-148.mp4" type="video/mp4"></video>
 
 In the following sections, we discuss the "Pixel app" and other realtime example apps,
-before providing more background on this major project milestone,
+before providing more background on this major project milestone
 which was in the making for almost two years. 
+
 
 ## Pixel app: small, offline-first and realtime 
 
@@ -55,20 +56,16 @@ where each participant draws pixels in a different color.
 ## Pong app: realtime-only and implements clock synchronization
 
 <video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-pong2.mp4" type="video/mp4"></video>
-The [pong app](https://apps.testrun.org/pong-v1.xdc) 
-is a simple two-player implementation of the classic ping pong 
-experience back in the 1970ties. 
-It's UX wise rudimentary but implements basic "clock synchronization" 
+The [pong app repository](https://codeberg.org/webxdc/pong/src/branch/main) 
+provides a simple two-player implementation of the [classic pong game](https://en.wikipedia.org/wiki/Pong). 
+UX-wise it's rudimentary but it does implement basic "clock synchronization" 
 which is an important consideration for any realtime networked gaming app.  
-Please see the [pong source code](https://codeberg.org/webxdc/pong/src/branch/main) 
-for details. 
 
-Wouldn't it be nice if the rackets and the ball look nicer? 
-Maybe make some retro sounds? 
+Wouldn't it be nice to have more original or more modern versions of Pong? 
+Maybe also with sounds and colors? 
 Also, to provide a more refined network handling of Pong, 
 it might be worthwhile to look into [WebRTC Pong](https://mitxela.com/projects/webrtc-pong)
 and port it to Webxdc. 
-It goes further than our app in providing a synchronized realtime experience for users. 
 
 Again, if you want to improve this little classic, 
 please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
@@ -76,17 +73,21 @@ please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/bra
 ## Realtime Editor: cursor positions and immediate collab 
 
 <video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-realtimeditor.mp4" type="video/mp4"></video>
-The [realtime editor app](https://apps.testrun.org/realtime-editor-v4.0.1.xdc)
+The [realtime editor app](https://codeberg.org/jagtalon/editor)
 is a collaborative editor that can show realtime cursors and changes. 
 However, it's also behaving as an offline-first app, similar to the pixel app above. 
-If you join the chat-shared realtime editor app later, 
+If you join a chat-shared realtime editor app later, 
 you'll see all changes consistently combined. 
+The realtime editor is a fork of the [basic webxdc editor](https://codeberg.org/webxdc/editor) 
+but with realtime capabilities added. 
 
-The [realtime editor repository](https://codeberg.org/jagtalon/editor) 
-is a fork of the more basic webxdc editor but with realtime capabilities added. 
+Wouldn't it be nice if there would be coloring of edits? 
+Maybe provide a slider that allows to go back in document history? 
+Or maybe a way to import a picture into the realtime pad? 
 
-Again, if you want to improve a tool universally useful for many users, 
-please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
+Again, if you can and want to improve this editor tool 
+you are more than welcome. 
+Please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
 
 ## Unix terminal app: realtime with a chat bot 
 
@@ -94,16 +95,20 @@ please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/bra
 The [xdcterm app demo](https://github.com/link2xt/xdcterm) allows
 to start a chat bot on some Unix machine and then open a terminal 
 from any Delta Chat profile that has a connection to the bot. 
-The [xdcterm repository](https://github.com/link2xt/xdcterm) 
-is a technology *demo* that shows 
+Note that XDCTerm is a technology *demo* that shows 
 how to create a chat bot in Javascript
 which will establish a realtime connection to any app
 which is in contact with the bot. 
 If you add the chat bot to a group then anyone in the group
 can get the terminal which is shared (so it's like if "tmux" is built in). 
-Note that for real usage the xdcterm example should be modified 
-and maybe create a "genesis" group and allow only 
+For real-life usage the xdcterm example should better be modified 
+and maybe rather create a "genesis" group and allow only 
 users who are members of the genesis group to join terminals. 
+
+Again, if you want to improve this terminal app,
+please fork and feel free to let us know. 
+You can't submit it into the [webxdc apps collection](https://webxdc.org/apps)
+because it depends on a running chat bot. 
 
 ## Live Chat: realtime chat in a chat :)
 
@@ -112,10 +117,15 @@ users who are members of the genesis group to join terminals.
 The [LiveChat app](https://github.com/deltazen/live-chat) 
 provides ephemeral chatting with realtime typing-indicators
 between anyone in a chat group who starts the live chat. 
-Messages are not persisted and history is lost 
+Messages are not persisted and all history is cleared
 when you close the app. 
 If all users have closed the app all content is gone. 
 There you go. Fully ephemeral, end-to-end encrypted P2P chat at your fingertips :) 
+
+You may also use a Live Chat app in a larger existing chat group 
+to announce a fast "ephemeral side conversation" that will not cause any network traffic
+for other chat group members who don't join the live chat. 
+Not all large group chats want to 
 
 ## Get ready, player one!
 
@@ -161,6 +171,9 @@ No lookup in a global [distributed hash table](https://en.wikipedia.org/wiki/Dis
 slows down or complicates the initial connection. 
 The federated e-mail system is used to bootstrap an ephemeral Peer-to-Peer network. 
 
+<a href="https://github.com/deltachat/deltachat-core-rust">
+<img src="../assets/blog/rust-delta.png" width="270" style="float:right; margin-left:1em;" />
+</a>
 To establish a direct P2P connection, 
 two interested devices will use an ephemeral [Iroh Relay](https://www.iroh.computer/docs/protocols/net#relays) 
 which typically runs on every chatmail server, 
@@ -187,13 +200,14 @@ which provides a variant of so called [Forward Secrecy](https://en.wikipedia.org
 can not later compromise your device to decrypt past recorded traffic. 
 Just start a LiveChat in a chat group :) 
 
-### Some privacy considerations 
+### Some privacy considerations around IP-addresses
 
+<img src="../assets/blog/two-faces.jpg" width="140" style="float:right; margin-left:1em;" />
 Once two users have started an app and their devices are P2P-connected, 
 their devices may now know about each other's IP address. 
 Delta Chat does not expose this IP address in its user interface anywhere 
 but a *malfeasant* chat partner using a hacked Delta Chat app version,
-or some networking monitoring tooling, could try to obtain your IP address. 
+or some extra monitoring tooling, could try to obtain your IP address. 
 
 However, if an attacker wanted to get your IP address they could also just send
 you a promising website link and once you tap on it, 
@@ -215,11 +229,10 @@ they are not required to use Iroh but can instead
 use other existing XMPP ephemeral messaging capabilities. 
 
 The [webxdc.joinRealtimeChannel() API](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
-is a rather "high level API" 
-and much easier to use than the [WebRTC Browser P2P API](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection)
-because a webxdc messenger implementor carries the burden to manage 
-all dynamic connectivity, discovery and network routing aspects 
-for you as an webxdc app developer. 
+is a minimal high-level API 
+that is easier to use than the [classic WebRTC Browser P2P API](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection)
+because a [webxdc messenger implementator](https://webxdc.org/docs/spec/messenger.html)
+carries the burden to manage all dynamic connectivity, discovery and network routing aspects. 
 
 In fact Delta Chat apps themselves 
 could evolve to use a different implementation for webxdc realtime communications. 
