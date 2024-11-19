@@ -37,13 +37,13 @@ If you want to try the "Pixel" or one of the other below realtime apps with chat
 
 <img src="../assets/blog/2024-11-pixel.jpg" style="width:180px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="pixel1-screenshot" />
 
-The [source code of the pixel app](https://codeberg.org/webxdc/pixel/src/commit/8331769a5b3020a11ea789b311585e42c59c123b/script.js)
+The [source code of the pixel app](https://codeberg.org/webxdc/pixel/src/commit/8331769a5b3020a11ea789b311585e42c59c123b/script.js) shown in the above [video](https://merlinux.eu/webxdc-realtime-148.mp4)
 
 - consists of 241 lines of Javascript (including all dependencies),
 
-- offers collaborative realtime pixel-drawing 
+- offers collaborative realtime pixel-drawing
 
-- BUT does not require users to be online at the same time. 
+- and is offline-first as it does not require users to be online at the same time. 
 
 The pixel app achieves its hybrid offline-first and realtime connectivity 
 by using two separate webxdc messaging APIs:
@@ -57,7 +57,8 @@ by using two separate webxdc messaging APIs:
 
 To learn the theory behind how the pixel app achieves "eventual synchronization for all users",
 we suggest to dive into our [Shared Web Application state chapter](https://webxdc.org/docs/shared_state/index.html)
-and then re-read [the 241 lines of Javascript](https://codeberg.org/webxdc/pixel/src/commit/8331769a5b3020a11ea789b311585e42c59c123b/script.js) with a particular eye to "Lamport Clocks" :) 
+and then re-read [the 241 lines of Javascript](https://codeberg.org/webxdc/pixel/src/commit/8331769a5b3020a11ea789b311585e42c59c123b/script.js) with a particular eye to "Lamport Clocks" -- 
+no framework or dependency needed to use this science-fiction-sounding technology ;) 
 
 If you want to improve the app, please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
 There already is the [ColorPixel app](https://apps.testrun.org/deltazen-pixel-v0.3.0.xdc)
