@@ -24,7 +24,7 @@ which was in the making for almost two years.
 
 ## Pixel app: small, offline-first and realtime 
 
-<img src="../assets/blog/2024-11-pixel.jpg" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="pixel1-screenshot" />
+<img src="../assets/blog/2024-11-pixel.jpg" style="width:180px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="pixel1-screenshot" />
 
 The [source code of the pixel app](https://codeberg.org/webxdc/pixel/src/branch/main/script.js) 
 
@@ -55,7 +55,7 @@ where each participant draws pixels in a different color.
 
 ## Pong app: realtime-only and implements clock synchronization
 
-<video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-pong2.mp4" type="video/mp4"></video>
+<video controls style="width:150px; max-width: 50%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-pong2.mp4" type="video/mp4"></video>
 The [pong app repository](https://codeberg.org/webxdc/pong/src/branch/main) 
 provides a simple two-player implementation of the [classic pong game](https://en.wikipedia.org/wiki/Pong). 
 UX-wise it's rudimentary but it does implement basic "clock synchronization" 
@@ -72,7 +72,7 @@ please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/bra
 
 ## Realtime Editor: cursor positions and immediate collab 
 
-<video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-realtimeditor.mp4" type="video/mp4"></video>
+<video controls style="width:150px; max-width: 50%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-realtimeditor.mp4" type="video/mp4"></video>
 The [realtime editor app](https://codeberg.org/jagtalon/editor)
 is a collaborative editor that can show realtime cursors and changes. 
 However, it's also behaving as an offline-first app, similar to the pixel app above. 
@@ -91,7 +91,7 @@ Please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/bra
 
 ## Unix terminal app: realtime with a chat bot 
 
-<video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-xdcterm2.mp4" type="video/mp4"></video>
+<video controls style="width:150px; max-width: 50%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-xdcterm2.mp4" type="video/mp4"></video>
 The [xdcterm app demo](https://github.com/link2xt/xdcterm) allows
 to start a chat bot on some Unix machine and then open a terminal 
 from any Delta Chat profile that has a connection to the bot. 
@@ -112,8 +112,7 @@ because it depends on a running chat bot.
 
 ## Live Chat: realtime chat in a chat :)
 
-<video controls style="width:120px; max-width: 100%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-livechat2.mp4" type="video/mp4"></video>
-
+<video controls style="width:150px; max-width: 50%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-livechat2.mp4" type="video/mp4"></video>
 The [LiveChat app](https://github.com/deltazen/live-chat) 
 provides ephemeral chatting with realtime typing-indicators
 between anyone in a chat group who starts the live chat. 
@@ -129,7 +128,7 @@ Not all large group chats want to
 
 ## Get ready, player one!
 
-<img src="../assets/logos/webxdc2.png" style="width:160px; float:left; clear:both; margin-right:3em; margin-bottom:.2em;" alt="Webxdc Logo" />
+<img src="../assets/logos/webxdc2.png" style="width:140px; float:left; clear:both; margin-right:3em; margin-bottom:.2em;" alt="Webxdc Logo" />
 
 To get started on webxdc app development, apart from the above app source links,
 we recommend the following readings: 
@@ -148,7 +147,7 @@ or other contact addresses.
 ## Technical background on our Iroh/P2P integration 
 
 <a href="https://iroh.computer">
-<img src="../assets/logos/iroh.svg" style="width:150px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Iroh Logo" />
+<img src="../assets/logos/iroh.svg" style="width:150px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" alt="Iroh Logo" />
 </a>
 
 A joint focus with the Iroh team has been to support all platforms reliably,
