@@ -145,6 +145,9 @@ or other contact addresses with any questions!
 
 ## Technical background on our Iroh/P2P integration 
 
+<a href="https://iroh.computer">
+<img src="../assets/logos/iroh.svg" style="width:150px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Iroh Logo" />
+</a>
 A joint focus with the Iroh team has been to support all platforms reliably,
 including mobile platforms, and to get it stable enough to support it by default. 
 For the last half year Delta apps had an opt-in experimental "webxdc realtime" setting
@@ -152,10 +155,7 @@ which, after extensive testing and bug fixing, is now enabled by default.
 
 ### How private P2P networking is established 
 
-<a href="https://iroh.computer">
-<img src="../assets/logos/iroh.svg" style="width:160px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Iroh Logo" />
-</a>
-
+<img src="../assets/blog/2024-11-realtimecheck.png" width="150" style="float:right; margin-left:1em;" />
 Only if you start an app that uses the 
 [webxdc.joinRealtimeChannel() API](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
 will Delta Chat initiate participation of your device in a P2P network. 
@@ -167,9 +167,10 @@ No lookup in a global [distributed hash table](https://en.wikipedia.org/wiki/Dis
 slows down or complicates the initial connection. 
 The federated e-mail system is used to bootstrap an ephemeral Peer-to-Peer network. 
 
-<a href="https://github.com/deltachat/deltachat-core-rust">
-<img src="../assets/blog/rust-delta.png" width="270" style="float:right; margin-left:1em;" />
-</a>
+You may download the [Realtime Check app](https://apps.testrun.org/webxdc-realtime-check-v1.0.5.xdc)
+and share it into a chat to perform network latency analysis between realtime messaging peers. 
+You can already run it in "Saved Messages" between two devices in a multi-device setup. 
+
 To establish a direct P2P connection, 
 two interested devices will use an ephemeral [Iroh Relay](https://www.iroh.computer/docs/protocols/net#relays) 
 which typically runs on every chatmail server, 
@@ -177,17 +178,21 @@ mirroring the existing e-mail federation.
 If your chat profile is using a classic e-mail server
 then a global default relay is used, operated from the Iroh team. 
 
+<a href="https://github.com/deltachat/deltachat-core-rust">
+<img src="../assets/blog/rust-delta.png" width="80" style="float:left; margin-right:1em;" />
+</a>
 The Iroh relay server combines both [Stun](https://en.wikipedia.org/wiki/STUN)
 and [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT) functionality,
 to allow peers to discover and directly connect and to 
 facilitate relaying of messages as long as no direct connection is established. 
-
-For even more details than presented in this section, please check our 
+For more details please check our 
 [Rust deltachat::peer_channels docs](https://rs.delta.chat/deltachat/peer_channels/index.html). 
+
 
 
 ### Identity on the P2P network is ephemeral only 
 
+<img src="../assets/blog/two-faces.jpg" width="140" style="float:right; margin-left:1em;" />
 Delta Chat uses ephemeral cryptographic identities for any P2P messaging. 
 When Delta Chat is closed or stopped by the operating system,
 then a new identity will be created on the next start. 
@@ -198,7 +203,6 @@ Just start a LiveChat in a chat group :)
 
 ### A privacy note on IP-addresses
 
-<img src="../assets/blog/two-faces.jpg" width="140" style="float:right; margin-left:1em;" />
 Delta Chat does not store IP-addresses permanently anywhere 
 and it does not expose IP addresses in the user interface or to web apps. 
 Iroh relay servers do not see all the IP addresses 
@@ -211,7 +215,7 @@ If using webxdc apps with a potentially hostile chat partner is a concern for yo
 you may disable the "webxdc realtime" setting in "advanced settings". 
 Delta Chat will then never attempt any Peer-to-Peer connection with anyone. 
 This is similar to how you can opt into "protect your IP address" in Signal or Whatsapp
-who by default establish Peer-to-Peer connections for calls between users, as well. 
+which by default establish Peer-to-Peer connections for calls between users, as well. 
 
 ## On other implementations, specifications and protocols 
 
