@@ -130,6 +130,7 @@ Not all large group chats want to
 ## Get ready, player one!
 
 <img src="../assets/logos/webxdc2.png" style="width:160px; float:left; clear:both; margin-right:3em; margin-bottom:.2em;" alt="Webxdc Logo" />
+
 To get started on webxdc app development, apart from the above app source links,
 we recommend the following readings: 
 
@@ -149,6 +150,7 @@ or other contact addresses.
 <a href="https://iroh.computer">
 <img src="../assets/logos/iroh.svg" style="width:150px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Iroh Logo" />
 </a>
+
 A joint focus with the Iroh team has been to support all platforms reliably,
 including mobile platforms, and to get it stable enough. 
 For the last half year Delta apps had an opt-in experimental "webxdc realtime" setting
@@ -194,6 +196,7 @@ For more details please check our
 ### Identity on the P2P network is ephemeral only 
 
 <img src="../assets/blog/two-faces.jpg" width="140" style="float:right; margin-left:1em;" />
+
 Delta Chat uses ephemeral cryptographic identities for any P2P messaging. 
 When Delta Chat is closed or stopped by the operating system,
 then a new identity will be created on the next start. 
