@@ -150,7 +150,7 @@ or other contact addresses.
 <img src="../assets/logos/iroh.svg" style="width:150px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Iroh Logo" />
 </a>
 A joint focus with the Iroh team has been to support all platforms reliably,
-including mobile platforms, and to get it stable enough to support it by default. 
+including mobile platforms, and to get it stable enough. 
 For the last half year Delta apps had an opt-in experimental "webxdc realtime" setting
 which, after extensive testing and bug fixing, is now enabled by default. 
 
