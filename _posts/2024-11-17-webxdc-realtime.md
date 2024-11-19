@@ -176,7 +176,7 @@ You can already run it in "Saved Messages" between two devices in a multi-device
 
 To establish a direct P2P connection, 
 two interested devices will use an ephemeral [Iroh Relay](https://www.iroh.computer/docs/protocols/net#relays) 
-which typically runs on every chatmail server, 
+which typically runs on every [chatmail server](https://delta.chat/chatmail),
 mirroring the existing e-mail federation. 
 If your chat profile is using a classic e-mail server
 then a global default relay is used, operated from the Iroh team. 
