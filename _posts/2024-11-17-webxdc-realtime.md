@@ -131,8 +131,8 @@ when you close the app.
 If all users have closed the app all content is gone. 
 There you go. Fully ephemeral, end-to-end encrypted P2P chat at your fingertips :) 
 
-You may also use a Live Chat app in a larger existing chat group 
-to announce a fast "ephemeral side conversation" that will not cause any network traffic
+You may use a Live Chat app in a larger existing chat group 
+to host a fast "ephemeral side conversation" that will not cause any network traffic
 for other chat group members who don't join the live chat. 
 
 ## Get ready, player one!
