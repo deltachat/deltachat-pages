@@ -155,10 +155,6 @@ which, after extensive testing and bug fixing, is now enabled by default.
 <a href="https://iroh.computer">
 <img src="../assets/logos/iroh.svg" style="width:160px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="Iroh Logo" />
 </a>
-If you don't "start" a realtime app within a chat, 
-Delta Chat will not start any P2P network related activity. 
-If you start an app that does not use the new realtime capability,
-then also no P2P networking is established, either. 
 
 Only if you start an app that uses the 
 [webxdc.joinRealtimeChannel() API](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
@@ -200,27 +196,20 @@ which provides a variant of so called [Forward Secrecy](https://en.wikipedia.org
 can not later compromise your device to decrypt past recorded traffic. 
 Just start a LiveChat in a chat group :) 
 
-### Some privacy considerations around IP-addresses
+### A privacy note on IP-addresses
 
 <img src="../assets/blog/two-faces.jpg" width="140" style="float:right; margin-left:1em;" />
-Once two users have started an app and their devices are P2P-connected, 
-their devices may now know about each other's IP address. 
-Delta Chat does not expose this IP address in its user interface anywhere 
-but a *malfeasant* chat partner using a hacked Delta Chat app version,
-or some extra monitoring tooling, could try to obtain your IP address. 
+Delta Chat does not store IP-addresses permanently anywhere 
+and it does not expose IP addresses in the user interface or to web apps. 
+Even the Iroh relay servers do not see the IP addresses 
+that devices advertise to each other (for example, two devices in a local WLAN). 
 
-However, if an attacker wanted to get your IP address they could also just send
-you a promising website link and once you tap on it, 
-you may have revealed your IP address. 
-
-If you want to generally protect against your IP leaking 
-to communication partners and sites, 
-we recommend using Tor or a VPN. 
-You can also disable the "webxdc realtime" setting in "advanced settings". 
+However, your chat partners may learn about your IP address if they deploy
+some network monitoring tool or use a modified version of Delta Chat. 
+You can disable the "webxdc realtime" setting in "advanced settings". 
 Delta Chat will then never attempt any Peer-to-Peer connection with anyone. 
-
-On a last note, Signal also defaults to establishing video calls via P2P channels
-and gives you an "opt-out" to protect your IP address. 
+This is similar to how you can opt into "protect your IP address" in Signal or Whatsapp
+who by default establish Peer-to-Peer connections for calls between users. 
 
 ## On other implementations, specifications and protocols 
 
