@@ -11,15 +11,26 @@ we are happy to announce that **Delta Chat 1.48 apps on all platforms
 contain state-of-the-art Peer-to-Peer networking support**,
 including [hole punching](https://en.wikipedia.org/wiki/Hole_punching_(networking)),
 end-to-end encryption and [gossipping](https://en.wikipedia.org/wiki/Gossip_protocol). 
-Private Peer-to-Peer networks are established 
+Concretely, private Peer-to-Peer networks are automatically and efficiently established 
 between users who start a [webxdc app](https://webxdc.org/apps)
 that uses the new [joinRealtimeChannel API](https://webxdc.org/docs/spec/joinRealtimeChannel.html). 
 
 <video controls style="width:560px; max-width: 100%;"><source src="https://merlinux.eu/webxdc-realtime-148.mp4" type="video/mp4"></video>
 
 In the following sections, we discuss the "Pixel app" and other realtime example apps,
-before providing more background on this major project milestone
-which was in the making for almost two years. 
+before providing more technical background 
+and a closing note on the importance of protocols and specifications in our endeavours. 
+
+## How to use the xstore bot to get realtime and other apps 
+
+If you want to try the "Pixel" or one of the other below realtime apps with chat partners 
+
+0. Install Delta Chat, create a profile and establish a chat with someone
+
+1. [Tap this invitelink to the xstore bot](https://i.delta.chat/#37DC2B704A2AE2F6A96235CE0C3A0EBCA4F5801D&a=xstore%40testrun.org&n=&i=-1IGtynaivZ&s=JqHsvvcDmnW)
+   and wait for receiving the store frontend 
+
+2. Start the store app, pick an app for download and then share it to any chat
 
 
 ## Pixel app: small, offline-first and realtime 
@@ -168,14 +179,14 @@ When receiving devices also join the realtime channel,
 they can establish a direct connection immediately because the ticket is already on record. 
 No lookup in a global [distributed hash table](https://en.wikipedia.org/wiki/Distributed_hash_table)
 slows down or complicates the initial connection. 
-The federated e-mail system is used to bootstrap an ephemeral Peer-to-Peer network. 
+**The federated e-mail system is used to bootstrap an ephemeral Peer-to-Peer network.**
 
 You may download the [Realtime Check app](https://apps.testrun.org/webxdc-realtime-check-v1.0.5.xdc)
 and share it into a chat to perform network latency analysis between realtime messaging peers. 
 You can already run it in "Saved Messages" between two devices in a multi-device setup. 
 
 To establish a direct P2P connection, 
-two interested devices will use an ephemeral [Iroh Relay](https://www.iroh.computer/docs/protocols/net#relays) 
+two interested devices will use an [Iroh Relay](https://www.iroh.computer/docs/protocols/net#relays) 
 which typically runs on every [chatmail server](https://delta.chat/chatmail),
 mirroring the existing e-mail federation. 
 If your chat profile is using a classic e-mail server
@@ -190,24 +201,27 @@ For more details please check our
 
 
 
-### Identity on the P2P network is ephemeral only 
+### Identity on the P2P network is ephemeral, and encryption is forward-secret 
 
 <img src="../assets/blog/two-faces.jpg" width="140" style="float:right; margin-left:1em;" />
 
 Delta Chat uses ephemeral cryptographic identities for any P2P messaging. 
 When Delta Chat is closed or stopped by the operating system,
-then a new identity will be created on the next start. 
-All previous decryption keys will be forgotten
-which provides a variant of so called [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) because a network traffic collector and attacker 
+then a new ephemeral identity will be created on the next start. 
+Moreover, Iroh uses [QUIC](https://en.wikipedia.org/wiki/QUIC) on the networking layer 
+which implements [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) 
+so that a network traffic collector 
 can not later compromise your device to decrypt past recorded traffic. 
-Just start a LiveChat in a chat group :) 
+Not only the Live Chat app but all realtime webxdc apps benefit 
+from the ephemeral, end-to-end-encrypted and forward-secret P2P messaging
+provided by the Iroh stack and its Delta Chat integration on all platforms. 
 
 ### A privacy note on IP-addresses
 
 Delta Chat does not store IP-addresses permanently anywhere 
-and it does not expose IP addresses in the user interface or to web apps. 
+and it does not expose IP addresses in the user interface or to webxdc apps. 
 Iroh relay servers do not see all the IP addresses 
-that user devices advertise to each other (for example they don't see the WLAN addresses),
+that user devices advertise to each other (for example relays don't see peer's WLAN addresses),
 and they also do not store any IP addresses involved in facilitating a P2P connection. 
 
 However, your chat partners may learn about your IP address if they deploy
