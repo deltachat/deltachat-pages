@@ -60,8 +60,7 @@ and then re-read [the 241 lines of Javascript](https://codeberg.org/webxdc/pixel
 no framework or dependency needed to use this science-fiction-sounding technology ;) 
 
 If you want to improve the app, please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
-There already is the [ColorPixel app](https://apps.testrun.org/deltazen-pixel-v0.3.0.xdc)
-which is a [Pixel fork](https://github.com/DeltaZen/pixel) 
+There already is a [ColorPixel app](https://github.com/DeltaZen/pixel) fork
 where each participant draws pixels in a different color. 
 
 ## Pong app: realtime-only and implements clock synchronization
