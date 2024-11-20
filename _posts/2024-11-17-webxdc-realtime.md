@@ -188,8 +188,8 @@ then a global default relay is used, operated kindly by the Iroh team.
 
 The Iroh relay server combines both [Stun](https://en.wikipedia.org/wiki/STUN)
 and [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT) functionality,
-to allow peers to discover and directly connect and to 
-facilitate relaying of messages as long as no direct connection is established. 
+to allow peers to discover and directly connect. Additionally it 
+relays messages as long as no direct connection is established. 
 For more details please check our 
 [Rust deltachat::peer_channels docs](https://rs.delta.chat/deltachat/peer_channels/index.html). 
 
