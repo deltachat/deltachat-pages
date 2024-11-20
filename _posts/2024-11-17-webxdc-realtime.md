@@ -4,7 +4,7 @@ author: olgax,l,r10s,adb,hocuri,jag
 image: ../assets/logos/webxdc-centered.png
 ---
 
-Are you interested in enshittification-resistant application developments? 
+Are you interested in enshittification-resistant application development? 
 After almost two years of collaboration 
 with the wonderful [Iroh team](https://iroh.computer),
 and years of discussions with numerous experts in the decentralization space, 
