@@ -204,8 +204,7 @@ Delta Chat uses ephemeral cryptographic identities for any P2P messaging.
 When Delta Chat is closed or stopped by the operating system,
 then a new ephemeral identity will be created on the next start. 
 Moreover, Iroh uses [QUIC](https://en.wikipedia.org/wiki/QUIC) on the networking layer 
-which implements [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) 
-or "Deletable Encryption" as one of our long-term collaborators prefers to term it. 
+which implements [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
 
 Ephemeral identities and forward-secret encryption shield against 
 an attacker that collects encrypted network traffic 
