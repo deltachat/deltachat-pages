@@ -1,6 +1,6 @@
 ---
 title: Delta Chat introduces Peer-to-Peer networking with Forward-Secrecy 
-author: olgax,l,r10s,adb,hocuri,jag
+author: olgax,l,r10s,adb,hocuri,jag,simon
 image: ../assets/logos/webxdc-centered.png
 ---
 
