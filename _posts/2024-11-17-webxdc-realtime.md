@@ -134,7 +134,7 @@ You may use a Live Chat app in a larger existing chat group
 to host a fast "ephemeral side conversation" that will not cause any network traffic
 for other chat group members who don't join the live chat. 
 
-## Get ready, player one!
+## Get ready, player two!
 
 <img src="../assets/logos/webxdc2.png" style="width:140px; float:left; clear:both; margin-right:3em; margin-bottom:.2em;" alt="Webxdc Logo" />
 
