@@ -10,10 +10,10 @@ with the wonderful [Iroh team](https://iroh.computer),
 and years of discussions with numerous experts in the decentralization space, 
 we are happy to announce that **Delta Chat 1.48 apps on all platforms 
 contain state-of-the-art Peer-to-Peer networking support**,
-including [hole punching](https://en.wikipedia.org/wiki/Hole_punching_(networking)),
-forward-secret end-to-end encryption 
-and [gossipping](https://en.wikipedia.org/wiki/Gossip_protocol). 
-Concretely, Delta Chat now establishes private Peer-to-Peer networks 
+including [hole punching](https://en.wikipedia.org/wiki/Hole_punching_(networking))
+and [forward-secret end-to-end encryption](https://en.wikipedia.org/wiki/Forward_secrecy).
+Concretely, Delta Chat now establishes private Peer-to-Peer 
+[gossipping](https://en.wikipedia.org/wiki/Gossip_protocol) networks 
 between users who start a [webxdc app](https://webxdc.org/apps)
 that uses the new [joinRealtimeChannel() API](https://webxdc.org/docs/spec/joinRealtimeChannel.html). 
 
