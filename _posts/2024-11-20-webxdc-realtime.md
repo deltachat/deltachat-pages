@@ -114,7 +114,7 @@ because it requires a running chat bot on some unix-ish server.
 
 ## Live Chat: realtime chat in a chat :)
 
-<video controls style="width:150px; max-width: 50%;float:right;margin-left:5px;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-livechat2.mp4" type="video/mp4"></video>
+<video controls style="width:150px; max-width: 50%;float:right;margin-left:5px;clear:both;margin-top:1em;" autoplay muted loop playsinline><source src="../assets/blog/2024-11-livechat2.mp4" type="video/mp4"></video>
 The [LiveChat app](https://github.com/deltazen/live-chat) 
 provides ephemeral chatting with realtime typing-indicators
 between anyone in a chat group who starts the live chat. 
