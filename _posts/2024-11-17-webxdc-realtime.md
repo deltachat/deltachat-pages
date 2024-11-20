@@ -215,7 +215,7 @@ provided by the Iroh stack and its Delta Chat integration on all platforms.
 
 ### A privacy note on IP-addresses
 
-Delta Chat does not store IP-addresses permanently anywhere 
+Delta Chat does not store IP-addresses anywhere 
 and it does not expose IP addresses in the user interface or to webxdc apps. 
 Iroh relay servers do not see all the IP addresses 
 that user devices advertise to each other (for example relays don't see peer's WLAN addresses),
