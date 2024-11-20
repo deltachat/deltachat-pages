@@ -138,10 +138,11 @@ for other chat group members who don't join the live chat.
 
 <img src="../assets/logos/webxdc2.png" style="width:140px; float:left; clear:both; margin-right:3em; margin-bottom:.2em;" alt="Webxdc Logo" />
 
-To get started on webxdc app development, apart from the above app source links,
-we recommend the following readings: 
+To get started on webxdc app development, we recommend the following readings: 
 
 - [Getting started on developing your own app](https://webxdc.org/docs/)
+
+- [Shared Web Application state](https://webxdc.org/docs/shared_state/index.html)
 
 - [Webxdc (Psst!) reclaiming Peer-to-Peer Web
   technology](https://delta.chat/en/2024-02-15-webxdc-m3)
