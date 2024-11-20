@@ -250,6 +250,6 @@ and the new realtime API specification is a practical example for that.
 
 <img alt="NLNet Logo" src="../assets/logos/logo_nlnet.svg" width="140" style="float:right; margin-left:1em;" />  
 Our introduction of the webxdc realtime API has been 
-supported by [NLnet](https://nlnet.nl/)
+supported by [NLnet](https://nlnet.nl/),
 themselves funded by the European Commission's [Next Generation Internet](https://ngi.eu/) programme.
 
