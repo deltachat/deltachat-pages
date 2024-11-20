@@ -1,5 +1,5 @@
 ---
-title: Delta Chat introduces Peer-to-Peer networking with Forward-Secrecy 
+title: Delta Chat introduces realtime Peer-to-Peer networking 
 author: olgax,l,r10s,adb,hocuri,jag,simon
 image: ../assets/logos/webxdc-centered.png
 ---
@@ -210,7 +210,7 @@ Ephemeral identities and forward-secret encryption shield against
 an attacker that collects encrypted network traffic 
 and later compromises your device to try to decrypt past recorded traffic. 
 Not only the Live Chat app but all realtime webxdc apps benefit 
-from the ephemeral, end-to-end-encrypted and forward-secret P2P messaging
+from the ephemeral and end-to-end-encrypted Peer-to-Peer messaging
 provided by the Iroh stack and its Delta Chat integration on all platforms. 
 
 ### A privacy note on IP-addresses
