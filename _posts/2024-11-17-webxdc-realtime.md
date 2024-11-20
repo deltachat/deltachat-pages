@@ -4,23 +4,25 @@ author: olgax,l,r10s,adb,hocuri,jag
 image: ../assets/logos/webxdc-centered.png
 ---
 
+Are you interested in enshittification-resistant technology development? 
 After almost two years of collaboration 
 with the wonderful [Iroh team](https://iroh.computer),
 and years of discussions with numerous experts in the decentralization space, 
 we are happy to announce that **Delta Chat 1.48 apps on all platforms 
 contain state-of-the-art Peer-to-Peer networking support**,
 including [hole punching](https://en.wikipedia.org/wiki/Hole_punching_(networking)),
-end-to-end encryption and [gossipping](https://en.wikipedia.org/wiki/Gossip_protocol). 
+forward-secret end-to-end encryption 
+and [gossipping](https://en.wikipedia.org/wiki/Gossip_protocol). 
 Concretely, private Peer-to-Peer networks are automatically and efficiently established 
 between users who start a [webxdc app](https://webxdc.org/apps)
 that uses the new [joinRealtimeChannel API](https://webxdc.org/docs/spec/joinRealtimeChannel.html). 
 
 <video controls style="width:560px; max-width: 100%;"><source src="https://merlinux.eu/webxdc-realtime-148.mp4" type="video/mp4"></video>
 
-In the following sections, we discuss the "Pixel app" and other realtime example apps,
-before providing more technical background 
+In the following sections, we discuss the "Pixel app" shown in the video 
+and other realtime example apps, before providing more technical background 
 and a closing note on the importance of protocols and specifications in our endeavours. 
-If you want to try the "Pixel" or one of the other below realtime apps with chat partners 
+If you want to try any webxdc app yourself today:
 
 0. Install Delta Chat, create a profile and establish a chat with someone
 
