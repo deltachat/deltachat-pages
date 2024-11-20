@@ -2,6 +2,7 @@
 title: Delta Chat introduces realtime Peer-to-Peer networking 
 author: olgax,l,r10s,adb,hocuri,jag,simon
 image: ../assets/logos/webxdc-centered.png
+com_id: 113514874537852340
 ---
 
 Are you interested in enshittification-resistant application development? 
