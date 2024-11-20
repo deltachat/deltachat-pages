@@ -184,7 +184,7 @@ two interested devices will use an [Iroh Relay](https://www.iroh.computer/docs/p
 which typically runs on every [chatmail server](https://delta.chat/chatmail),
 mirroring the existing e-mail federation. 
 If your chat profile is using a classic e-mail server
-then a global default relay is used, operated from the Iroh team. 
+then a global default relay is used, operated kindly by the Iroh team. 
 
 The Iroh relay server combines both [Stun](https://en.wikipedia.org/wiki/STUN)
 and [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT) functionality,
