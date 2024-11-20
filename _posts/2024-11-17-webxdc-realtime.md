@@ -27,7 +27,7 @@ If you want to try out any webxdc app, including the realtime ones:
 0. Install Delta Chat, create a profile and establish a chat with someone
 
 1. [Tap this invitelink to the xstore bot](https://i.delta.chat/#37DC2B704A2AE2F6A96235CE0C3A0EBCA4F5801D&a=xstore%40testrun.org&n=&i=-1IGtynaivZ&s=JqHsvvcDmnW)
-   and wait for receiving the store frontend 
+   and wait until you receive the store app 
 
 2. Start the store app, pick an app for download and then share it to any chat
 
@@ -60,7 +60,7 @@ and then re-read [the 241 lines of Javascript](https://codeberg.org/webxdc/pixel
 no framework or dependency needed to use this science-fiction-sounding technology ;) 
 
 If you want to improve the app, please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/branch/main/SUBMIT.md). 
-There already is a [ColorPixel app](https://github.com/DeltaZen/pixel) fork
+There already is a [Color Pixel app](https://github.com/DeltaZen/pixel) fork
 where each participant draws pixels in a different color. 
 
 ## Pong app: realtime-only and implements clock synchronization
@@ -186,7 +186,7 @@ mirroring the existing e-mail federation.
 If your chat profile is using a classic e-mail server
 then a global default relay is used, operated kindly by the Iroh team. 
 
-The Iroh relay server combines both [Stun](https://en.wikipedia.org/wiki/STUN)
+The Iroh relay server combines both [STUN](https://en.wikipedia.org/wiki/STUN)
 and [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT) functionality,
 to allow peers to discover and directly connect. Additionally it 
 relays messages as long as no direct connection is established. 
@@ -203,7 +203,7 @@ Delta Chat uses ephemeral cryptographic identities for any P2P messaging.
 When Delta Chat is closed or stopped by the operating system,
 then a new ephemeral identity will be created on the next start. 
 Moreover, Iroh uses [QUIC](https://en.wikipedia.org/wiki/QUIC) on the networking layer 
-which implements [Forward-Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) 
+which implements [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) 
 or "Deletable Encryption" as one of our long-term collaborators prefers to term it. 
 
 Ephemeral identities and forward-secret encryption shield against 
