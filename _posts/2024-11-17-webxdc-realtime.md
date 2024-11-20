@@ -104,16 +104,10 @@ Please fork and [submit your variant](https://codeberg.org/webxdc/xdcget/src/bra
 The [xdcterm app demo](https://github.com/link2xt/xdcterm) allows
 to run a chat bot in Javascript and then establish contact with it
 from your chat profile. 
-After saying "hello" in the chat to the bot,
-it will send you a webxdc realtime terminal app
-that you can start to open a terminal where the chatbot is running. 
-If you add the chat bot to a group then anyone in the group
-can get the terminal which is shared (so it's like if screen-sharing is built in). 
-For real-life usage the xdcterm example should better be secured 
-and maybe rather create a "genesis" group with its first user 
-and then allow only users who are members of the genesis group to join terminals. 
+The bot will create a group where you can add more members 
+all of which can see a shared terminal (it's as if screen-sharing is built-in). 
 
-If you want to play with or improve this terminal app,
+If you want to play with or improve this rudimentary terminal app,
 please fork and feel free to let us know. 
 You can not submit it to the webxdc app store 
 because it requires a running chat bot on some unix-ish server. 
