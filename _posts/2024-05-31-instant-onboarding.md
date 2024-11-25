@@ -122,7 +122,7 @@ Chat profiles use servers only for end-to-end encrypted message transport.
 
 ## Are we turning our back on classic e-mail? 
 
-<img src="../assets/logos/chatmail.png" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
+<img src="../assets/logos/chatmail.png" style="width:200px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;"  class="binary-image-invert-in-darkmode" />
 
 No. 
 
@@ -208,5 +208,5 @@ to provide a fast and secure basis for decentralized instant messaging.
 In other words, 
 Delta Chat is a messenger that fundamentally heeds the warning of XKCD 927 :) 
 
-<figure> <a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" width="500px" style="float:center; clear:both; margin-left:.5em; margin-bottom:.2em;" alt="XKCD 927 comic" /><figcaption>XKCD 927</figcaption> </a></figure>
+<figure> <a href="https://xkcd.com/927/"><img src="https://imgs.xkcd.com/comics/standards_2x.png" width="500px" style="float:center; clear:both; margin-left:.5em; margin-bottom:.2em;border: 14px white solid;" alt="XKCD 927 comic" class="binary-image-invert-in-darkmode" /><figcaption>XKCD 927</figcaption> </a></figure>
 
