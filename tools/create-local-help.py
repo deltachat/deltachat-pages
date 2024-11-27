@@ -176,7 +176,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) < 3:
         raise SystemExit("usage: create-local-help.py INPUT_DIR OUTPUT_DIR [--add-top-links]"
-                      +"\n   eg. create-local-help.py _site     ../foobar")
+                      +"\n   eg. create-local-help.py result    ../foobar")
 
     srcdir = sys.argv[1]
     print("using source directory:        " + srcdir)
