@@ -26,7 +26,7 @@ zh_CN:
     no_upgrades: 无自动更新的下载选项
     source_code: 源代码
     outdated: 过时的
-    minimum: ""
+    minimum: 最低要求
     dl_flathub: 从 Flathub 下载
     dl_microsoft: 从 Microsoft Store 下载
     dl_mac_appstore: 从 Apple Mac AppStore 上下载

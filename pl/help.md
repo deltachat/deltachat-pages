@@ -91,8 +91,7 @@ Użyj tych narzędzi, aby uporządkować swoje czaty i mieć wszystko na swoim m
 - Gdy zarchiwizowany czat otrzyma nową wiadomość, o ile nie zostanie wyciszony, **wyskoczy z archiwum** i wróci na twoją listę czatów.
 **Wyciszone czaty pozostają zarchiwizowane** do czasu ich ręcznego przywrócenia.
 
-Aby zarchiwizować lub przypiąć czat, dotknij i przytrzymaj (Android), użyj menu czatu (Android/Desktop) lub przesuń palcem w lewo (iOS);
-aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
+Aby skorzystać z tych funkcji, przytrzymaj dłużej lub kliknij prawym przyciskiem myszy czat na liście czatów.
 
 
 ### Co oznacza zielona kropka?
@@ -483,9 +482,9 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 - Na **Windowsie**, przejdź do **Panel sterowania / Sieć i internet** i upewnij się, że **Sieć prywatna** jest wybrana jako "Typ profilu sieci"
   (po przeniesieniu możesz wrócić do pierwotnej wartości)
 
-- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+- W systemie **iOS** upewnij się, że jest przydzielony dostęp do opcji „Ustawienia » Aplikacje » Delta Chat » **Sieć lokalna**”
 
-- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+- W systemie **macOS** włącz „Ustawienia systemowe » Prywatność i bezpieczeństwo » **Sieć lokalna** » Delta Chat”
 
 - Twój system może mieć „zaporę ogniową”, o której wiadomo, że powoduje problemy (szczególnie w systemie Windows).
 **Wyłącz zaporę** dla Delta Chat po obu stronach i spróbuj ponownie

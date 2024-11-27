@@ -142,4 +142,4 @@ interops with all the mail clients"_
 **gozala** in 2020 via [Twitter](https://twitter.com/gozala/status/1281346020664729600)
 
 
-Also check out [press references](references).
+Також перегляньте [публікації про нас](references).

@@ -92,7 +92,7 @@ Delta Chat схожий на Whatsapp або Telegram, але ви також м
 - Коли архівний чат отримує нове повідомлення, якщо не приглушений, він **вискочить з архіву** і повернеться у ваш список чатів.
   **Приглушені чати залишаються заархівованим** доки ви не розархівуєте їх вручну.
 
-Щоб заархівувати або закріпити чат, довго торкніться (Android), скористайтеся меню чату (Android/комп'ютер) або проведіть пальцем ліворуч (iOS); щоб вимкнути звук чату, скористайтеся меню чату (Android/комп'ютер) або профілем чату (iOS).
+Щоб скористатися функціями, утримуйте натиснутою клавішу або клацніть правою кнопкою миші на чаті у списку чатів.
 
 
 ### Що означає зелена точка?
@@ -481,9 +481,9 @@ Delta Chat підтримує поширені формати приватних
 
 - У **Windows** перейдіть до **Панель керування / Мережа та Інтернет** і переконайтеся, що **Приватна мережа** вибрано як "Тип мережевого профілю" (після перенесення ви можете повернути початкове значення)
 
-- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+- На **iOS** переконайтеся, що доступ до "Системні налаштування / Програми / Delta Chat / **Локальна мережа**" дозволено
 
-- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+- У **macOS** увімкніть "Системні налаштування / Конфіденційність і безпека / **Локальна мережа** / Delta Chat"
 
 - Ваша система може мати "персональний брандмауер", який, як відомо, викликає проблеми (особливо у Windows). **Вимкніть персональний брандмауер** для Delta Chat на обох кінцях і повторіть спробу
 
@@ -529,9 +529,11 @@ Delta Chat підтримує поширені формати приватних
 
 ### Де я можу отримати webxdc-додатки?
 
-- Загалом, будь-хто може ділитися додатками webxdc один з одним один з одним без обмежень.
-- Ви можете [надіслати "hi" на xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore) щоб побачити експериментальний магазин додатків webxdc. Всі програми мають відкритий вихідний код і є безкоштовними.
-- Багато людей пишуть власні програми для webxdc і публікують їх на [форумі Delta Chat](https://support.delta.chat/c/webxdc/20).
+- Загалом, будь-хто може ділитися додатками webxdc один з одним без обмежень.
+- З [webxdc.org/apps](https://webxdc.org/apps/).
+- Ви можете [надіслати "привіт" на xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore) щоб побачити експериментальний магазин додатків webxdc.
+  Всі програми мають відкритий вихідний код і є безкоштовними.
+- Багато людей пишуть власні програми webxdc і публікують їх на [форумі Delta Chat](https://support.delta.chat/c/webxdc/20).
 
 
 ### Як я можу створювати власні програми webxdc?
@@ -719,20 +721,19 @@ Delta Chat встановлює (і [шифрує](#message-metadata)!) клас
 
 
 
-### Where can my friends find Delta Chat?
+### Де мої друзі можуть знайти Delta Chat?
 
-Delta Chat is available for all major and some minor platforms:
+Delta Chat доступний для всіх основних і деяких другорядних платформ:
 
-- The **official website**, <https://delta.chat/download> shows all options in detail
+- На **офіційному сайті**, <https://delta.chat/download> детально описані всі варіанти
 
-- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+- Якщо вона недоступна, скористайтеся **дзеркалом** за адресою <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+- Відкрийте один з наступних **магазинів додатків і введіть у пошук "Delta Chat":** Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS та macOS App Store, Microsoft Store
 
-- Check the **package manager** of your Linux distributions
+- Перевірте **менеджер пакунків** вашого дистрибутива Linux
 
-- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
+- **APK для Android** також доступні на <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Як фінансується розробка Delta Chat?

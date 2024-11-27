@@ -1,9 +1,9 @@
 ---
-title: Посилання
+title: Публікації 
 lang: uk
 ---
 
-# Посилання
+# Публікації
 
 Цей список далеко не повний - ми щось проґавили? Будь ласка [дайте нам знати](imprint) або зробіть [пулл-реквест](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
