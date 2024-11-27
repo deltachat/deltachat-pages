@@ -147,10 +147,8 @@ The messages are deleted
 both in each email account on the server,
 and in the app itself.
 
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can take photos,
-or otherwise save, copy or forward messages before deletion.
+请注意，只有当您信任您的聊天伙伴时，您才可以依赖“消息定时销毁”；
+不怀好意的人可能会拍照，或者在删除之前以其他方式保存、复制或转发消息。
 
 Apart from that,
 if one chat partner uninstalls Delta Chat,
@@ -217,43 +215,38 @@ They will most likely also not be decryptable anymore
 ## Instant message delivery and Push Notifications {#instant-delivery}
 
 
-### What are Push Notifications? How can I get instant message delivery?
+### 什么是推送通知？如何获得即时消息传递？
 
-Push Notifications are sent by Apple and Google "Push services" to a user's device
-so that an inactive Delta Chat app can fetch messages in the background
-and show notifications on a user's phone if needed.
+推送通知由 Apple 和 Google 的“推送服务”发送到用户的设备，以便非活动状态的 Delta Chat 应用可以在后台获取消息，并在需要时在用户的手机上显示通知。
 
-Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
+推送通知适用于以下所有 [chatmail](https://delta.chat/chatmail) 服务器：
 
-- iOS devices, by integrating with Apple Push services.
+- iOS 设备通过与 Apple Push 服务集成。
 
-- Android devices, by integrating with the Google FCM Push service,
-  including on devices that use [microG](https://microg.org)
-  instead of proprietary Google code on the phone.
+- Android 设备，通过与 Google FCM Push 服务集成，
+包括使用 [microG](https://microg.org)
+而不是手机上专有 Google 代码的设备。
 
-As of May 2024, classic e-mail servers do not support Push Notifications
-for Delta Chat users.
+自 2024 年 5 月起，传统电子邮件服务器不再支持 Delta Chat 用户的推送通知。
 
 
-### Are Push Notifications enabled on iOS devices? Is there an alternative?
+### iOS 设备上是否启用了推送通知？我还有其他的选择吗？
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+是的，Delta Chat 会自动使用推送通知来接收 [chatmail](https://delta.chat/chatmail) 个人资料。
+而且，Apple 手机上没有其他方式可以实现即时消息传递
+因为 Apple 设备不允许 Delta Chat 在后台获取数据。
+推送通知会自动为 iOS 用户激活，因为
+[Delta Chat 的隐私保护推送通知系统](#privacy-notifications)
+不会向 Apple 泄露其尚未拥有的数据。
 
 
-### Are Push notifications enabled / needed on Android devices? {#android-push}
+### Android 设备上是否启用/需要推送通知？{#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
-If you are using a classic e-mail provider instead of [chatmail](https://delta.chat/chatmail) servers,
-Push Notifications are not available.
+如果有“推送服务”可用，Delta Chat 将启用推送通知，
+以实现所有聊天邮件用户的即时消息传递。
+如果您使用的是传统电子邮件提供商而不是 [chatmail](https://delta.chat/chatmail) 服务器，则无法使用推送通知。
 
-In the Delta Chat "Notifications" settings for "Instant delivery"
-you can change the following settings effecting all chat profiles:
+在 Delta Chat“通知”的“推送通知”设置中，您可以更改以下影响所有聊天配置文件的设置：
 
 - Use Background Connection: If you are not using a Push service,
   you may disable "battery optimizations" for Delta Chat,
@@ -381,15 +374,11 @@ Now wait while [Secure-Join network messages are exchanged](https://securejoin.d
   <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
   next to the title.
 
-- If one of the devices is offline, the green checkmarks will only
-  appear later when the device is internet-connected again
-  and the Secure-Join network protocol completed. 
+- 如果其中一个设备处于离线状态，则只有当设备再次连接互联网且安全加入网络协议完成时，绿色复选标记才会出现。
 
-Congratulations! 
-You now will automatically use guaranteed end-to-end encryption
-with this contact and both of you can add each other to green-checkmarked groups
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>,
-thereby automatically spreading guaranteed end-to-end encryption among its members. 
+恭喜！
+从现在开始您将会自动使用安全的端到端加密与此联系人联系，并且双方都可以将对方添加到绿色复选标记的群组
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>，从而自动在其成员之间传播有保障的端到端加密。
 
 
 ### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#e2eeguarantee}
@@ -536,13 +525,12 @@ see also our answers to [device-seizure](#device-seizure)
 and [message-metadata](#message-metadata) questions. 
 
 
-### Is Delta Chat vulnerable to EFAIL?
+### Delta Chat 是否容易受到 EFAIL 攻击？
 
-No, [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
-because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
-uses Modification Detection Code when encrypting messages
-and returns [an error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
-if the Modification Detection Code is incorrect.
+不，[Delta Chat 从未受到任何 EFAIL 攻击](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
+因为所使用的 OpenPGP 实现了 [rPGP](https://github.com/rpgp/rpgp)
+在加密消息时“修改检测代码”
+并且如果“修改检测代码”不正确则返回 [错误](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)。
 
 Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
 because it only decrypts `multipart/encrypted` messages
@@ -666,18 +654,18 @@ If you don't need a longer-lived copy of your messages on the server,
 you can also turn on ["delete messages from server automatically"](#delold).
 
 
-### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
+### Delta Chat 是否支持完美前向保密？{#pfs}
 
-No, Delta Chat doesn't support Perfect Forward Secrecy (PFS).
-This means that if your Delta Chat private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
+不，Delta Chat 不支持完美前向保密 (PFS)。
+这意味着，如果您的 Delta Chat 私人解密密钥泄露，
+并且有人收集了您之前传输的消息，
+他们将能够使用泄露的解密密钥解密并阅读这些消息。
 
-Note, however, that if anyone obtains to your decryption keys, 
-they will typically also be able to obtain your messages, 
-irrespective if Perfect Forward Secrecy is in place or not. 
-The typical real-world situation for leaked decryption keys is device seizure
-which we discuss in our answer [on metadata and device seizure](#device-seizure). 
+但请注意，如果有人获得您的解密密钥，
+他们通常也能够获得您的消息，
+无论是否实施了完全前向保密。
+泄露解密密钥的典型现实情况是设备扣押，
+我们在[关于元数据和设备扣押](#device-seizure)的回答中讨论了这一点。
 
 It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
 because OpenPGP is just a container for encrypted messages 
