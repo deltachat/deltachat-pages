@@ -654,7 +654,7 @@ If you don't need a longer-lived copy of your messages on the server,
 you can also turn on ["delete messages from server automatically"](#delold).
 
 
-### Delta Chat 是否支持完美前向保密？{#pfs}
+### Delta Chat 是否支持完美前向保密？ {#pfs}
 
 不，Delta Chat 不支持完美前向保密 (PFS)。
 这意味着，如果您的 Delta Chat 私人解密密钥泄露，
