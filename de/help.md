@@ -393,7 +393,7 @@ Das Einführen geschieht automatisch, wenn Sie Mitglieder zu Gruppen hinzufügen
 Wer einen Kontakt zu einer Gruppe mit grünem Häkchen hinzufügt, wird zum Einführenden 
 für die Mitglieder, die noch nichts von dem hinzugefügten Kontakt wussten.
 In einem Kontaktprofil können Sie wiederholt auf den Text "Eingeführt von ..." tippen
-bis du zu demjenigen gelangst, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) gemacht haben.
+bis Sie zu demjenigen gelangen, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) gemacht haben.
 
 Beachten Sie, dass Sie in einem Kontaktprofil unter Umständen Einführende sehen und antippen können, aber kein grünes Häkchen im Profiltitel vorhanden ist. 
 Dies bedeutet normalerweise, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
