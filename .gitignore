@@ -5,9 +5,6 @@ _site/
 .*.swp
 *.po
 
-# ignore private scripts and directories, eg. jekyll-build-local.prv.sh
-*.prv*
-
 # ignore tools/tranlations, we copy the files to the corresponding language directories
 tools/translations/
 

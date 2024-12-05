@@ -89,13 +89,11 @@ create_markdown_files() {
 
 
 create_html_files() {
-	# if you want to rebuild the html files when markdown is updated,
-	# create the file `tools/create-html.prv.sh` with eg. the following content:
-	# `cd ..; jekyll build --destination <html-folder>; echo "Options +MultiViews" > <html-folder>/.htaccess; cd tools`  
-	if [ -f ./create-html.prv.sh ]; then
-		echo "Creating html-files from the markdown files ..."
-		./create-html.prv.sh
-	fi
+  # create html files from markdown
+  cd ..
+  bundle exec jekyll build
+  mv _site result
+  cd tools
 }
 
 
