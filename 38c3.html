@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Delta Chat @ 38c3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+@font-face {
+    font-family: 'pilowlava';
+    src: URL('fonts/pilowlava/Fonts/webfonts/Pilowlava-Regular.woff2')  format('woff2');
+}
+@font-face {
+    font-family: 'spacegrotesk';
+    src: URL('fonts/space-grotesk-1.1.4/webfont/SpaceGrotesk-Regular.woff2') format('woff2');
+    src: URL('fonts/space-grotesk-1.1.4/webfont/SpaceGrotesk-Bold.woff2') format('woff2');
+    src: URL('fonts/space-grotesk-1.1.4/webfont/SpaceGrotesk-Light.woff2') format('woff2');
+    src: URL('fonts/space-grotesk-1.1.4/webfont/SpaceGrotesk-Medium.woff2') format('woff2');
+    src: URL('fonts/space-grotesk-1.1.4/webfont/SpaceGrotesk-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'space-mono';
+    src: URL('fonts/space-mono/SpaceMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'uncut-sans';
+    src: URL('fonts/uncut-sans/Webfonts/UncutSans-Regular.woff2') format('woff2');
+}
+
+:root {
+    --color-primary: #FF5053;
+    --color-highlight: #FEF2FF;
+    --color-accent-a: #B2AAFF;
+    --color-accent-b: #6A5FDB;
+    --color-accent-c: #29114C;
+    --color-accent-d: #261A66;
+    --color-accent-e: #190B2F;
+    --color-background: #0F000A;
+}
+</style>
+    <style>
+      body {
+        font-family: 'spacegrotesk';
+        line-height: 1.4em;
+	color: var(--color-accent-a);
+        background-color: var(--color-background);
+      }
+      .logo {
+        height: 50px;
+        max-width: 200px;
+        padding: 1em;
+      }
+
+      .banner {
+        background: rgba(35, 143, 221, 0.44);
+        border: 1px solid rgba(35, 143, 221, 0.44);
+        border-radius: 5px;
+      }
+
+      .map {
+        max-width: 500px;
+        border-radius: 4px;
+        width: 90vw;
+      }
+      a {
+	color: var(--color-highlight);
+      }
+
+      .event {
+        border-radius: 4px;
+        background-color: rgba(141, 141, 255, 0.15);
+        padding: 2px 10px;
+      }
+
+      h2 {
+	font-family: pilowlava;
+        line-height: 1.4;
+	color: var(--color-primary);
+      }
+
+      .qrcode {
+        max-width: 300px;
+        width: 60vw;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2 id="delta-chat-37c3">Delta Chat @ 37c3</h2>
+    <div style="display: flex; align-items: center">
+      <img
+        class="logo"
+        src="./assets/logos/delta-chat.svg"
+        alt="deltachat logo"
+      />
+      <p>
+        Delta Chat uses the existing email infrastructure for Messaging, it
+        enables you to use email for chatting and reach anyone that uses email.
+      </p>
+    </div>
+    <p>
+      💬 Message anyone with an e-mail address
+      <a href="https://www.youtube-nocookie.com/embed/8LbrGXKZN70"
+        >even if they don’t use Delta Chat</a
+      >.
+    </p>
+    <p>
+      🥳 Enjoy interactive chat experiences through
+      <a href="https://webxdc.org">webxdc apps</a>.
+    </p>
+    <p>
+      🔒 End-to-End Encryption using
+      <a href="https://autocrypt.org">Autocrypt</a> and
+      <a href="https://securejoin.delta.chat/en/latest/new.html">SecureJoin</a>
+      protocols, with
+      <a
+        href="https://delta.chat/en/2023-03-27-third-independent-security-audit"
+        >multiple security audits</a
+      >.
+    </p>
+
+    <h2 id="test-delta-chat-without-registration">
+      Test Delta Chat without Registration
+    </h2>
+    <p>
+      No one likes creating new accounts when you just want to quickly test an
+      app, that&#39;s why we created chatmail, a email server where you can get
+      a slot/account with just a qr code scan: no personal details required, not
+      even a password.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Download Delta Chat on your device:
+          <a href="https://get.delta.chat">https://get.delta.chat</a> (available
+          for Android, iOS, Linux, Windows, MacOS and even Ubuntu Touch /
+          Ubports)
+        </p>
+      </li>
+      <li>
+        <p>
+          Scan or tap/click the qr code to get an account instantly:
+          <br />
+          <a href="dcaccount:https://nine.testrun.org/cgi-bin/newemail.py"
+            ><img
+              src="https://nine.testrun.org/qr-chatmail-invite-nine.testrun.org.png"
+              alt="qr code for account creation"
+              class="qrcode"
+          /></a>
+        </p>
+      </li>
+      <li>
+        <p>
+          Optional: join our event group with this qr code (click or scan)
+          <br />
+          <a
+            href="OPENPGP4FPR:6FE1642916908F1AC9CC7557CC99CF5DDB92043C#a=groupsbot%40testrun.org&g=Delta%20Chat%20%40%2037c3&x=nsPqJMGqPC5&i=zSMGD0NKD0e&s=2-Y4FTj5xx1"
+            ><img
+              src="assets/37c3/37c3group.png"
+              alt="qr code to join our event group"
+              class="qrcode"
+          /></a>
+        </p>
+      </li>
+    </ol>
+    <p>
+      The chatmail account you get is limited (can&#39;t send unencrypted
+      messages to the outside for example), read more at:
+      <a href="https://nine.testrun.org">https://nine.testrun.org</a>
+    </p>
+
+    <h2 id="our-sessions">Our Sessions</h2>
+    <div class="event">
+      <h4>
+        chatmail: self-hosting email servers, optimized for chatting with Delta
+        Chat
+      </h4>
+      <p>Day 1 18:00 Stage H</p>
+      <p>
+        This workshop shows how set up a simple mail server with
+        <a
+          href="https://events.ccc.de/congress/2023/hub/dereferrer/https%3A//github.com/deltachat/chatmail"
+          >chatmail</a
+        >, that is optimized for chatting with Delta Chat. It's never been
+        easier to create your own decentralized chat server.
+      </p>
+      <p>
+        <a
+          href="https://events.ccc.de/congress/2023/hub/de/event/chatmail-self-hosting-email-servers-optimized-for-/"
+        >
+          Event on events.ccc.de</a
+        >
+      </p>
+    </div>
+    <p>
+      Maybe we will do more sessions, follow us on the mastodon to be notified
+      when we decided:
+      <a href="https://chaos.social/@delta">https://chaos.social/@delta</a>
+    </p>
+    <h3 id="find-us">Find us</h3>
+    <p>📞 <a href="tel:3358">DELT</a> (or <a href="tel:3358">3358</a>)</p>
+    <p>
+      Fediverse:
+      <a href="https://chaos.social/@delta">https://chaos.social/@delta</a>
+    </p>
+
+    <a href="https://37c3.c3nav.de/l/c:0:140.67:109.93/"
+      ><img
+        src="assets/37c3/location.png"
+        class="map"
+        alt="screenshot of map, click to go to c3nav map"
+    /></a>
+
+    <h2 id="more">More</h2>
+    <ul>
+      <li>
+        <a href="https://delta.chat">Go to website: https://delta.chat</a>
+      </li>
+      <li>
+        <a href="https://delta.chat/en/2023-12-13-chatmail">
+          Blogpost: Chatmail - replicable, fast and secure chatting
+          infrastructure for all</a
+        >
+      </li>
+      <li>
+        <a href="https://get.delta.chat">
+          Download (iOS / Android / macOS / Linux / Windows / Ubuntu Touch)</a
+        ><br />
+      </li>
+      <li>
+        <a href="https://deltachat-bot.github.io/public-bots/#/home"
+          >List of public bots</a
+        >
+        (for nine.testrun.org accounts you need to click the links on the
+        website otherwise it won't work because you can not send unencrypted
+        messages to the outside with nine.testrun.org)
+      </li>
+      <li>
+        <a
+          href="openpgp4fpr:37DC2B704A2AE2F6A96235CE0C3A0EBCA4F5801D#a=xstore%40testrun.org&n=&i=-1IGtynaivZ&s=JqHsvvcDmnW"
+          >Webxdc appstore bot</a
+        >
+        (xstore.testrun.org, but this link also works for nine.testrun.org
+        users)
+      </li>
+      <li>
+        <a href="https://webxdc.org/apps/">Webxdc app list</a> (website version
+        of the bot above)
+      </li>
+    </ul>
+
+    Feel free to get in touch with us at our
+    <a href="https://37c3.c3nav.de/l/c:0:140.67:109.93/">assembly</a>
+    and let us help you if you have any issues with the installation, want
+    stickers or just want to talk with us.
+    <br />
+  </body>
+</html>
