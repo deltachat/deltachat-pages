@@ -32,6 +32,9 @@ securely interoperable with chatmail and classic e-mail servers.
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   operates in the US and has been stable since July 2024.
 
+- [tarpit.fun](https://tarpit.fun)
+  is hosted in Austria and has been stable since December 2024.
+
 All chatmail servers are operated by different groups and people. 
 The nine.testrun.org default server is operated by core Delta Chat team members. 
 
