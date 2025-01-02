@@ -5,7 +5,7 @@ lang: de
 
 # Delta-Chat-Gemeinschaftsstandards
 
-Im Interesse der Förderung eines offenen und einladenden Umfelds, sind wir als Mitwirkende und Projektbetreiber bestrebt, die Teilnahme an der Delta-Chat-Gemeinschaft zu einer angenehmen, belästigungsfreien Erfahrung zu machen.
+Im Interesse der Förderung eines offenen und einladenden Umfelds sind wir als Mitwirkende und Projektbetreiber bestrebt die Teilnahme an der Delta-Chat-Gemeinschaft zu einer angenehmen, belästigungsfreien Erfahrung zu machen.
 
 
 ## Unsere Standards

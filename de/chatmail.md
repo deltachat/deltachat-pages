@@ -44,7 +44,7 @@ Es ist also in Ordnung, ein Konto mit Ihrer regulären E-Mail-Adresse zu haben, 
 
 Chatmail-Server sind minimale E-Mail-Server, die auf Geschwindigkeit, Sicherheit und Komfort ausgelegt sind:
 
-- **Komfort:** Sie bekommen ein Profil In wenigen Sekunden automatisch und erhalten Push-Benachrichtigungen
+- **Komfort:** Sie bekommen ein Profil in wenigen Sekunden automatisch und erhalten Push-Benachrichtigungen
 
 - **Datenschutz:** Keine Fragen, keine Namen, Nummern oder E-Mail-Adressen erforderlich
 
@@ -52,7 +52,7 @@ Chatmail-Server sind minimale E-Mail-Server, die auf Geschwindigkeit, Sicherheit
 
 - **Zuverlässigkeit:** Keine lästigen Spam-Prüfungen oder Limits
 
-- **Sicherheit:** Ausgehende Nachrichten müssen Ende-zu-Ende verschlüsselt sein, eingehende Nachrichten werden streng auf ihre Authentizität geprüft.
+- **Sicherheit:** Ausgehende Nachrichten müssen Ende-zu-Ende-verschlüsselt sein, eingehende Nachrichten werden streng auf ihre Authentizität geprüft.
 
 
 ## Wie vertrauenswürdig sind Chatmail-Server?
