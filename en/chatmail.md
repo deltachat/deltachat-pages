@@ -38,7 +38,7 @@ securely interoperable with chatmail and classic e-mail servers.
 All chatmail servers are operated by different groups and people. 
 The nine.testrun.org default server is operated by core Delta Chat team members. 
 
-## Can i also use a regular e-mail server instead of chatmail?
+## Can I also use a regular e-mail server instead of chatmail?
 
 Yes, many users successfully use regular e-mail servers
 especially if they want to handle their regular e-mail communications with Delta Chat.
@@ -72,10 +72,10 @@ implements automatic, unconditional message deletion after at most 20 days.
 
 Delta Chat provides [guaranteed end-to-end encryption](https://delta.chat/en/2023-11-23-jumbo-42)
 which means that in most use cases, server operators can never read your messages even if they try,
-a guarantee backed up by a recent [security analysis from ETH Zuerich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
+a guarantee backed up by a recent [security analysis from ETH Zurich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## How are chatmail servers run? Can i run one myself? {#selfhosted}
+## How are chatmail servers run? Can I run one myself? {#selfhosted}
 
 All chatmail servers are automatically deployed and updated using
 [the public chatmail development repository](https://github.com/deltachat/chatmail).
