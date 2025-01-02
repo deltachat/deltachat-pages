@@ -31,6 +31,9 @@ en zijn compatibel met zowel chatmailservers onderling als traditionele mailserv
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   wordt beheerd vanuit de VS en is sinds juli 2024 stabiel verklaard.
 
+- [tarpit.fun](https://tarpit.fun)
+  is hosted in Austria and has been stable since December 2024.
+
 Alle chatmailservers worden beheerd door verschillende (groepen) mensen. 
 De nine.testrun.org-server wordt beheerd door personen van het Delta Chat-team.
 

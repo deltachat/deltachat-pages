@@ -26,6 +26,9 @@ Chatmail 服务器为 Delta Chat 优化，提供保护隐私且快速的用户�
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   operates in the US and has been stable since July 2024.
 
+- [tarpit.fun](https://tarpit.fun)
+  is hosted in Austria and has been stable since December 2024.
+
 所有chatmail 服务器由不同的团体和人员运营。  默认服务器 nine.testrun.org 由 Delta Chat 核心团队成员运营。
 
 ## 我可以使用常规电子邮件服务器代替 chatmail 吗？
