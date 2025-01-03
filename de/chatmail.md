@@ -27,7 +27,7 @@ für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigun
   wird in den USA betrieben und ist seit July 2024 stabil.
 
 - [tarpit.fun](https://tarpit.fun)
-  is hosted in Austria and has been stable since December 2024.
+  wird in Österreich betrieben und ist seit Dezember 2024 stabil.
 
 Alle Chatmail-Server werden von verschiedenen Gruppen und Personen betrieben. 
 Der Standard-Server nine.testrun.org wird vom Delta-Chat-Kernteam betrieben. 

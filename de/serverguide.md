@@ -5,7 +5,7 @@ lang: de
 
 # E-Mail-Server für Delta Chat einrichten
 
-Delta Chat ist ein Chat-Messenger, der über E-Mail läuft. Das heißt, wir können jeden E-Mail-Server verwenden, um Delta Chat-Konten zu betreiben. Ein E-Mail-Server, der leicht einzurichten und zu verwalten ist und sofort mit Delta Chat funktioniert, ist [Mailcow](https://mailcow.email).
+Delta Chat ist ein Chat-Messenger, der über E-Mail läuft. Das heißt, wir können jeden E-Mail-Server verwenden, um Delta-Chat-Konten zu betreiben. Ein E-Mail-Server, der leicht einzurichten und zu verwalten ist und sofort mit Delta Chat funktioniert, ist [Mailcow](https://mailcow.email).
 
 Sie können es zusammen mit [mailadm](https://mailadm.readthedocs.io) ausführen, das Ihren Benutzern eine einfache Möglichkeit bietet, ein E-Mail-Konto zu erstellen und sich direkt bei Delta Chat anzumelden. Es ist ebenfalls in diesem Leitfaden enthalten.
 
@@ -62,7 +62,7 @@ Sie können mehr als 5 Minuten einstellen, aber wenn Sie merken, dass etwas fals
 
 ### Mailcow-Optionen festlegen
 
-Klonen Sie zuerst das mailcow git repository - wenn Ihr Server keinen Zugang zu github.com hat, können Sie diesen Schritt auch woanders machen und `scp` benutzen, um es auf Ihren Server zu kopieren.
+Klonen Sie zuerst das Mailcow-Git-Repository - wenn Ihr Server keinen Zugang zu github.com hat, können Sie diesen Schritt auch woanders machen und `scp` benutzen, um es auf Ihren Server zu kopieren.
 
 ```
 sudo apt install -y git
@@ -70,7 +70,7 @@ git clone https://github.com/mailcow/mailcow-dockerized
 cd mailcow-dockerized
 ```
 
-Nun sollten Sie `./generate_config.sh` ausführen, um die Datei mailcow.conf zu erzeugen. Wenn Ihr Server keinen Zugang zu github.com hat, müssen Sie zuerst jeden git Befehl aus dem Skript entfernen. Geben Sie die Optionen wie folgt ein:
+Nun sollten Sie `./generate_config.sh` ausführen, um die Datei mailcow.conf zu erzeugen. Wenn Ihr Server keinen Zugang zu github.com hat, müssen Sie zuerst jeden Git-Befehl aus dem Skript entfernen. Geben Sie die Optionen wie folgt ein:
 
 ```
 Mail server hostname (FQDN) - this is not your mail domain, but your mail servers hostname: mail.example.org
@@ -97,7 +97,7 @@ Die letzten drei Optionen entfernen Dienste, die für eine Minimaleinrichtung ni
 
 Danach müssen wir `echo '#' > data/conf/dovecot/global_sieve_before` ausführen.
 
-### Mailadm NGINX Konfiguration
+### Mailadm NGINX-Konfiguration
 
 `mailadm.example.org/new_email` muss erreichbar sein, damit HTTP-Anfragen funktionieren.
 Wir müssen also zwei Dateien für Mailcows Nginx-Umleitung erstellen.
@@ -205,7 +205,7 @@ Bei `MAILCOW_TOKEN` geben Sie den API-Schlüssel ein, den Sie gerade von der mai
 
 Wenn Sie sich nicht sicher sind, wie Sie die Werte in .env auswählen, werfen Sie einen Blick in die [Dokumentation](https://mailadm.readthedocs.io/en/latest/#configuration-details) von mailadm.
 
-### mailadm-alias hinzufügen
+### Mailadm-Alias hinzufügen
 
 Um die Ausführung der mailadm-Befehle zu erleichtern, fügen Sie diesen Alias hinzu:
 

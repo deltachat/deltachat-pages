@@ -4,94 +4,102 @@ lang: sq
 ---
 
 
-## Ç’janë shërbyes chatmail dhe si të përzgjidhet një i tillë? 
+## Ç’janë shërbyesit për “chatmail” dhe si të përzgjidhet një i tillë? 
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers are optimized for messaging with Delta Chat 
-to provide a privacy-preserving and speedy user experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Shërbyesit “chatmail” janë optimizuar për dërgim me Delta Chat-in, 
+për t’u dhënë përdoruesve funksionim që ruan privatësinë dhe të shpejtë, 
+që ndërvepron në mënyrë të siguruar me shërbyes chatmail-i dhe ata klasikë
+për email. 
+**Prekni një lidhje shërbyes “chatmail”**, që të shihni faqen hyrëse dhe
+mandej prekni kodin QR të ftesës atje: 
 
-- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
-  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+- [nine.testrun.org](https://nine.testrun.org) është shërbyesi parazgjedhje “chatmail” i mirëseardhjes
+  për aplikacione Delta Chat dhe ka qenë i qëndrueshëm që prej [dhjetorit të 2023-shit, me njoftimin e Chatmail-it](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users and has been stable since January 2024.
+- [mehl.cloud](https://mehl.cloud) synon përdorues që flasin
+  gjermanisht dhe ka qenë i qëndrueshëm që prej janarit të 2024-s.
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking
-  users and has been stable since January 2024.
+- [mailchat.pl](https://mailchat.pl) synon përdorues që flasin
+  polonisht dhe ka qenë i qëndrueshëm që prej janarit të 2024-s.
 
-- [bcc.chat](https://bcc.chat) operates in the US and has been
-  stable since February 2024.
+- [bcc.chat](https://bcc.chat) funksionon në ShBA dje ka qenë
+  i qëndrueshëm që prej shkurtit të 2024-s.
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been 
-  stable since May 2024.
+  synon përdorues që flasin italisht dhe ka qenë
+  i qëndrueshëm që prej janarit të 2024-s.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US and has been stable since July 2024.
+  funksionon në ShBA dhe ka qenë i qëndrueshëm që prej korrikut të 2024-s.
 
 - [tarpit.fun](https://tarpit.fun)
-  is hosted in Austria and has been stable since December 2024.
+  strehohet në Austria dhe ka qenë i qëndrueshëm që prej dhjetorit të 2024-s.
 
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Tërë shërbyesit “chatmail” mbahen në punë nga grupe dhe persona të ndryshëm. 
+Shërbyesi parazgjedhje nine.testrun.org mbahet në punë nga anëtarët
+e ekipit bazë të Delta Chat-it.
 
-## Can I also use a regular e-mail server instead of chatmail?
+## A mund të përdor edhe shërbim të zakonshëm email-i, në vend se “chatmail”?
 
-Yes, many users successfully use regular e-mail servers
-especially if they want to handle their regular e-mail communications with Delta Chat.
-See the [provider database](https://providers.delta.chat) for options.
-Note that Delta Chat has multi-account support so
-it's fine to have one account configured with your regular e-mail address,
-and another account for chatting.
-
-
-## How are chatmail servers different from e-mail servers?
-
-Chatmail servers are minimal e-mail servers designed for speed, security and convenience:
-
-- **Convenience:** Onboard automatically in a few seconds and receive push notifications
-
-- **Privacy:** No questions asked, no name, numbers or e-mail needed
-
-- **Speed:** Message delivery in well under a second, end-to-end
-
-- **Reliability:** No annoying spam-checking or rate-limits
-
-- **Security:** Outbound messages are required to be end-to-end encrypted,
-  incoming messages are strictly checked for authenticity.
+Po, mjaft përdorues përdorin me sukses shërbyes email-i normal, veçanërisht
+nëse duan të kryejnë komunikimet e tyre normale email me Delta Chat-in.
+Për mundësi, shihni [bazën e të dhënave mbi shërbimet](https://providers.delta.chat).
+Kini parasysh se Delta Chat ka mbulim për shumë llogari, pra s’ka problem
+të kihet një llogari e formësuar me adresën tuaj të email-it të zakonshëm
+dhe një tjetër llogari për fjalosje.
 
 
-## How trustable are chatmail servers?
+## Nga se ndryshojnë shërbyesit për “chatmail” nga shërbyesitpër email?
 
-Each chatmail server provides additional privacy information on their web page.
-Typically, a chatmail server only processes encrypted messages and
-implements automatic, unconditional message deletion after at most 20 days.
+Shërbyesit Chatmail janë shërbyes minimalë email-i, të hartuar për shpejtësi, siguri dhe leverdi:
 
-Delta Chat provides [guaranteed end-to-end encryption](https://delta.chat/en/2023-11-23-jumbo-42)
-which means that in most use cases, server operators can never read your messages even if they try,
-a guarantee backed up by a recent [security analysis from ETH Zurich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
+- **Leverdi:** Bëni automatikisht mirëseardhjen në pak sekonda dhe merrni njoftime push
 
+- **Privatësi:** S’ju pyet kush për gjë, s’do emra, numra apo email
 
-## How are chatmail servers run? Can I run one myself? {#selfhosted}
+- **Shpejtësi:** Dërgim mesazhi nën një sekondë, skaj-më-skaj
 
-All chatmail servers are automatically deployed and updated using
-[the public chatmail development repository](https://github.com/deltachat/chatmail).
-Chatmail servers are composed of proven standard e-mail server components,
-[Postfix](https://postfix.org) and [Dovecot](https://dovecot.org),
-and configured to run unattended and to require very low maintenance effort.
-Chatmail servers happily run on low-end hardware like a Raspberry Pi.
+- **I besueshëm:** Pa marrje mesazhet të padëshiruar bezdisës apo kufizime trafiku
+
+- **Siguri:** Mesazhet që dërgohen duhet doemos të jenë të fshehtëzuar
+  skaj-më-skaj, mesazhet e ardhur kontrollohen në mënyrë strikte për
+  të qenë të mirëfilltë.
 
 
-# How are chatmail servers funded?
+## Sa të besueshëm janë shërbyesit “chatmail”?
 
-Chatmail servers are designed to be very cheap to run,
-and they are generally self-funded by the operators.
-Please see the front page of each chatmail server for further information.
+Çdo shërbyes “chatmail” jep në faqen e vet web hollësi shtesë mbi privatësinë.
+Zakonisht, një shërbyes “chatmail” përpunon vetëm mesazhe të fshehtëzuar dhe vë
+në punë fshirje të automatizuar, të pakushtëzuar mesazhesh pas e shumta
+20 ditësh.
 
-To support chatmail development and the running of the default onboarding server
-you are very welcome to chip in.
+Delta Chat ofron [fshehtëzim skaj-më-skaj të garantuar](https://delta.chat/en/2023-11-23-jumbo-42)
+që do të thotë se, në shumicën e rasteve të përdorimit, operatorët e shërbyesve
+s’munden kurrë të lexojnë mesazhet tuaj, edhe nëse rreken, garanci e dëshmuar edhe nga një
+[analizë sigurie nga ETH Zurich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) kohët e fundit.
+
+
+## Si xhirojnë shërbyesit “chatmail”? A mund të xhiroj dhe unë një? {#selfhosted}
+
+Krejt shërbyesit “chatmail” sendërtohen dhe përditësohen automatikisht
+duke përdorur [depon publike të zhvillimit të chatmail-it](https://github.com/deltachat/chatmail).
+Shërbyesit “chatmail” ngrihen mbi përbërës të  provuar shërbyesish standard
+email-i, [Postfix](https://postfix.org) dhe [Dovecot](https://dovecot.org) dhe
+formësohen për të xhiruar pa pasur nevojë për dikë dhe për të dashur përpjekje
+mirëmbajtje shumë të pakët.
+Shërbyesit “chatmail” xhirojnë pa problem në “hardware” të shkallës së ulët,
+fjala vjen, Raspberry Pi.
+
+
+# Si financohen shërbyesit për “chatmail”?
+
+Shërbyesi “chatmail” janë konceptuar të jenë shumë të lirë për t’u
+xhiruar dhe zakonisht financohen nga vetë operatorët. Për më tepër,
+ju lutemi, shihni faqen ballore të secilit shërbyes “chatmail”.
+
+Jeni shumë të mirëpritur të jepni diçka, që të përkrahni zhvillimin e chatmail-it dhe
+mbajtjen në punë të shërbyesit parazgjedhje të mirëseardhjes.
 
 [Dhuroni Para](donate){: .cta-button}
