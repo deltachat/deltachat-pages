@@ -31,19 +31,19 @@ Es funktioniert! Und es ist barrierefrei benutzbar! Ich kann die App anderen Bli
 
 ### Beliebt in Regionen mit strenger Internetüberwachung
 
-_"Da gibt es diesen netten Messenger, der einfach auf E-Mail basiert und Delta Chat heißt. Ich bin froh, dass unser Internet-Watchdog diese App populär gemacht hat, indem er versucht hat, sie zu blockieren. Es ist genau wie bei Telegram, das nach dem Verbot bei Nicht-Tech-Zuschauern weit verbreitet ist."_
+_"Da gibt es diesen netten Messenger, der einfach auf E-Mail basiert und Delta Chat heißt. Ich bin froh, dass unser Internet-Watchdog diese App populär gemacht hat, indem er versucht hat, sie zu blockieren. Es ist genau wie bei Telegram, das nach dem Verbot bei Nicht-Tech-Benutzern weit verbreitet ist."_
 
-**Benutzer aus Russland**, 2020 über Delta Chat's Ablehnung bzgl. des russischen Internet-Watchdog RKN, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**Benutzer aus Russland**, 2020 über Delta Chats Ablehnung bzgl. des russischen Internet-Watchdog RKN, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
 
 ### Chat-Interface mit robuster Verschlüsselung
 
-_"Ich weiss, ich bin vielleicht spät, aber Delta Chat scheint wirklich ordentlich zu sein, besonders wenn Sie Datenschutzbedenken haben, da es sich wirklich nur um einen speziellen, verschlüsselnden E-Mail-Client handelt, der eine Chat-Oberfläche bietet."_
+_"Ich weiß, ich bin vielleicht spät, aber Delta Chat scheint wirklich ordentlich zu sein, besonders wenn Sie Datenschutzbedenken haben, da es sich wirklich nur um einen speziellen, verschlüsselnden E-Mail-Client handelt, der eine Chat-Oberfläche bietet."_
 
 **Amerikanischer Benutzer**, 2020 empfiehlt Delta Chat für die alltägliche Verwendung
 
 ### Funktioniert während Internet-Shutdowns
 
-_"Ich war froh, dass ich Delta Chat von der Webseite unterladen konnte, nicht nur über Google Play, da dieses in Belarus blockiert war. Das Runterladen der apk war ein bisschen langsam, aber als ich die App hatte, funktionierte sie einwandfrei. Wir konnten Fotos und sogar Videos verschlüsselt teilen."_
+_"Ich war froh, dass ich Delta Chat von der Webseite herunterladen konnte, nicht nur über Google Play, da dieses in Belarus blockiert war. Das Runterladen der apk war ein bisschen langsam, aber als ich die App hatte, funktionierte sie einwandfrei. Wir konnten Fotos und sogar Videos verschlüsselt teilen."_
 
 **Benutzer aus Belarus**, während der Proteste im August 2020, via E-Mail an delta@merlinux.eu
 

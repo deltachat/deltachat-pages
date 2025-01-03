@@ -14,7 +14,7 @@ Request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.
 
 Übersetzte Zusammenfassung:
 _"In der Antwort an die Agentur
-stellte Delta Chat auch klar, dass eine App
+stellte Delta Chat auch klar, dass eine App,
 die es Nutzern erlaubt, E-Mail-Anbieter nach Belieben zu wählen,
 keinen Zugriff auf den Inhalt der Nachrichten hat.
 Geschweige denn auf die Verschlüsselungsschlüssel, die sich nur auf den Geräten der Nutzer befinden."_
@@ -82,7 +82,7 @@ I would argue that even beats Matrix or XMPP."_
 14.01.2021, <https://jlelse.blog/posts/email-messenger-delta-chat>
 
 
-### NixFAQ: Delta Chat, eine freie, dezentralisierte Chat-over-Email Ende-zu-Ende-verschlüsselte Messaging Lösung
+### NixFAQ: Delta Chat, eine freie, dezentralisierte Chat-over-Email Ende-zu-Ende-verschlüsselte Messaging-Lösung
 
 Delta Chat verwendet vorhandene E-Mail-Adressen.
 Standardmäßig werden keine Adressbuchdaten (wie z. B. Telefonnummern)
@@ -103,14 +103,14 @@ _"Deine Nachrichten sind auf keinem (Dienst-)Server gespeichert, es gibt keine z
 06.05.2020, <https://www.vodafone.de/featured/apps/delta-chat-app-funktionen-e-mail-test/#/>
 
 
-### Tuxicoman (Französischer Blog): Deltachat
+### Tuxicoman (französischer Blog): Deltachat
 
 _"L’adresse de vos destinataires est simplement leur email que vous avez déjà sûrement."_
 
 29.03.2020, <https://tuxicoman.jesuislibre.net/2020/03/deltachat.html>
 
 
-### Hambi Bleibt (Deutscher Blog): Nützliche, dezentrale Online-Tools für Organisierung
+### Hambi Bleibt (deutscher Blog): Nützliche, dezentrale Online-Tools für Organisierung
 
 _"Wenn eure Gruppe oder Stadt-Szene einen Messenger sucht, der mit vielen Leuten kompatibel ist, ist Delta Chat eine gute Wahl."_
 
@@ -124,14 +124,14 @@ _"El cifrado de extremo a extremo no solo funciona entre las aplicaciones de Del
 26.02.2020, <https://blog.desdelinux.net/delta-chat-aplicacion-mensajeria-libre-abierta-correo-electronico/>
 
 
-### Techlog360 (Großer indischer Technologie-Blog): 15 Best Open-Source Encrypted Messaging Android Apps for Privacy Concerned People (2020 List)
+### Techlog360 (großer indischer Technologie-Blog): 15 Best Open-Source Encrypted Messaging Android Apps for Privacy Concerned People (2020 List)
 
 _"Delta Chat requires no additional server-side infrastructure — chat with anyone if you know their e-mail address, no need for them to install DeltaChat."_
 
 07.02.2020, <https://techlog360.com/open-source-messenger-voip-android-apps/#11_Delta_Chat>
 
 
-### Basic Thinking (Deutscher Technologie-Blog): WhatsApp-Alternativen unter der Lupe: Was kann Delta Chat?
+### Basic Thinking (deutscher Technologie-Blog): WhatsApp-Alternativen unter der Lupe: Was kann Delta Chat?
 
 _"Anders als WhatsApp, kann man Delta Chat auch parallel auf mehreren Geräten gleichzeitig benutzen. Wer also beispielsweise am Smartphone und Tablet arbeitet, kann auf beiden Geräten kommunizieren."_
 
@@ -150,7 +150,7 @@ _"Mit Delta-Chat gewinnt man die Vorteile der Mail-Nutzung (z. B. sehr verbreite
 14.01.2020, <http://www.geekotg.com/pc/11509.html>
 
 
-### Le Alternative (Italienischer Technologieblog): Alternative a Whatsapp
+### Le Alternative (italienischer Technologieblog): Alternative a Whatsapp
 
 _"Si tratta di un progetto sperimentale davvero molto interessante. Non ci sono server proprietari, non ci sono tracciamenti e non c’è un controllo centralizzato."_
 
@@ -171,7 +171,7 @@ _"La idea detrás de esto: todos tienen una dirección de correo, así que todos
 01.09.2019, <https://www.prensalibre.com/vida/tecnologia/delta-chat-el-mensajero-que-utiliza-el-correo-electronico/>
 
 
-### DPA (Deutsche Presse Agentur): Delta Chat: A messenger app that uses email
+### DPA (Deutsche Presse-Agentur): Delta Chat: A messenger app that uses email
 
 _"One issue with messenger apps is compatibility - [...] A new app seeks to solve that problem."_
 
@@ -194,7 +194,7 @@ Diese Logik wollten die Entwickler von Delta Chat nicht gelten lassen"_
 20.08.2019, <https://www.t-online.de/digital/id_86296398/delta-chat-der-messenger-der-e-mail-nutzt.html>
 
 
-### c't (Großes deutsches Technologiemagazin): Volks-Messenger
+### c't (großes deutsches Technologiemagazin): Volks-Messenger
 
 _"Mit normalen Instant Messengern erreicht man nur Partner, die denselben Dienst verwenden wie man selbst. Delta Chat hebelt diese Beschränkung aus."_
 
@@ -257,14 +257,14 @@ _"Für mich sieht das Ganze bisher sehr sehr gut aus und ich könnte mir vorstel
 03.08.2017, <https://cloudette.net/2017/08/03/delta-chat-ein-neuer-star-am-messenger-himmel/>
 
 
-### Wissensarbeiter Jochen Plikat (German blog): Zur Zukunft von SMS, WhatsApp & Co. (3)
+### Wissensarbeiter Jochen Plikat (deutscher Blog): Zur Zukunft von SMS, WhatsApp & Co. (3)
 
 _"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
 
 30.04.2019, <https://jochen-plikat.com/2019/04/30/zur-zukunft-von-sms-whatsapp-co-3/> 
 
 
-### Mobilsicher.de (German mobil security website) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
+### Mobilsicher.de (deutsche Webseite zu mobiler Sicherheit) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
 
 _"Delta.Chat: Sicher und dezentral – geht das?"_
 
