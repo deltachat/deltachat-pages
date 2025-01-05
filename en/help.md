@@ -17,7 +17,7 @@ which are minimal e-mail servers optimized for fast and secure operations.
 Or you may use classic e-mail servers and an existing e-mail account
 in which case Delta Chat acts as an e-mail app. 
 
-<img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
+<img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" class="binary-image-invert-in-darkmode" />
 
 
 ### How can I find people to chat with? 

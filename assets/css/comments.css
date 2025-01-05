@@ -1,84 +1,80 @@
-img.avatar{
-  display: inline-block;
-  flex; 0 0 64px;
+img.avatar {
   opacity: 0.9;
   float: left;
   border-radius: 30%;
   padding: 15px;
-  /*margin: .2rem .5rem;*/
-  /*margin-top: 1rem;*/
-  /*margin-right: 1rem;*/
-  /*margin-bottom: 1rem;*/
 }
 
-div.comment-content{
+div.comment-content {
   align-items: center;
   min-height: 64px;
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid #d7d7d7;
+  border-color: var(--comment-border);
   border-radius: 20px;
-  border-color: #d7d7d7;
   padding: 0.5em;
   background-color: #eee;
   background-image: linear-gradient(120deg, #f3f3f3, #eee);
+  background: var(--comment-bg);
 }
 
-.comment-author{
-    /*font-size: 1.2rem;*/
-    margin-right: .4rem;
+.comment-author {
+  margin-right: 0.4rem;
 }
-
-
 
 /*p.mastodon-comment-content{*/
-.mastodon-comment{
-    /*min-height: 85px;*/
-    background: var(--code-bg);
-    /*word-break: break-word;*/
-    /*overflow-wrap: break-word;*/
-    border-radius: 8px;
-    padding: 1rem 1rem 0;
+.mastodon-comment {
+  /*min-height: 85px;*/
+  background: var(--code-bg);
+  /*word-break: break-word;*/
+  /*overflow-wrap: break-word;*/
+  border-radius: 8px;
+  padding: 1rem 1rem 0;
 }
-.mastodon-comment-content{
-    text-decoration: none;
-    /*font-size: .85rem;*/
-    /*padding-left: 80px;*/
-    /*padding-top: 3rem;*/
-    /*padding-bottom: .4rem;*/
-    /*padding-right: 25px;*/
-    padding-bottom: .6rem;
-    padding-right: .6rem;
-    padding-left: 80px;
+.mastodon-comment-content {
+  text-decoration: none;
+  /*font-size: .85rem;*/
+  /*padding-left: 80px;*/
+  /*padding-top: 3rem;*/
+  /*padding-bottom: .4rem;*/
+  /*padding-right: 25px;*/
+  padding-bottom: 0.6rem;
+  padding-right: 0.6rem;
+  padding-left: 80px;
 }
 
-div.mastodon-username{
+div.mastodon-username {
   justify-content: space-between;
   display: flex;
   padding-left: 1rem;
 }
 
-div.comment-content .comment-date{
-    font-size: 0.8rem;
-    font-weight: 400;
-    text-align: right;
+div.comment-content .comment-date {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: right;
 }
 
 @media only screen and (max-width: 720px) {
-    div.mastodon-username{
-        display: block;
-        text-align: right;
-    }
+  div.mastodon-username {
+    display: block;
+    text-align: right;
+  }
 }
 
-.comment-button, .comment-button:hover, .comment-button:visited {
-    	cursor: pointer;
-	border: 1.5px solid #e7e7e7;
-	border-radius: 5px;
-	padding: 10px;
-	display: inline-block;
-	margin: 10px 0;
+.comment-button,
+.comment-button:hover,
+.comment-button:visited {
+  cursor: pointer;
+  border: 1.5px solid #e7e7e7;
+  border-color: var(--comment-button-border);
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px 0;
 
-	background: linear-gradient(120deg, #f3f3f3, #e7e7e7);
-	color: #555 !important;
-	font-weight: bold;
+  background: linear-gradient(120deg, #f3f3f3, #e7e7e7);
+  background: var(--comment-button-bg);
+  color: #555;
+  color: var(--comment-button-text);
+  font-weight: bold;
 }

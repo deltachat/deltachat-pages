@@ -1,3 +1,67 @@
+:root {
+    --bg: #fff;
+    --text: #000;
+    --lower-heading: #159957;
+    --link-accent:#1e6bb8;
+    /* used in code, pre, blockquote, th */
+    --secondary-bg: #eee;
+    /* used in pre and blockquote */
+    --pre-border: #d6d6d6;
+    --table-border-color: #ccc;
+    --hr: #ddd;
+    --footnotes: #999;
+    --footer-border: #BBB;
+    --footer: #757575;
+    --menu-bg: linear-gradient(120deg, #77888f, #364e59);
+    --menu-text: white;
+    --cta-button-border: #a4c2d0;
+    --cta-button-bg: linear-gradient(120deg, #77888f, #364e59);
+    --cta-button-text: white;
+    --comment-button-border: #e7e7e7;
+    --comment-button-bg: linear-gradient(120deg, #f3f3f3, #e7e7e7);
+    --comment-button-text: #555;
+    --comment-border: #d7d7d7;
+    --comment-bg: linear-gradient(120deg, #f3f3f3, #eee);
+    --download-box-bg: linear-gradient(120deg, #f3f3f3, #eee);
+    --download-box-title-text: #222;
+}
+@media (prefers-color-scheme: dark) { // prefers-color-scheme is available since 2020
+  :root {
+    --bg: #111;
+    --text: #dcdcdc;
+    --lower-heading: #0f6e3e;
+    --link-accent:#1e6bb8;
+    /* used in code, pre, blockquote, th */
+    --secondary-bg: #232323;
+    /* used in pre and blockquote */
+    --pre-border: #1f1f1f;
+    --table-border-color: #555;
+    --hr: #ddd;
+    --footnotes: #999;
+    --footer-border: #191919;
+    --footer: #757575;
+    --menu-bg: linear-gradient(120deg, hsl(198, 10%, 22%), hsl(199, 24%, 14%));
+    --menu-text: white;
+    --cta-button-border: #3d4549;
+    --cta-button-bg: linear-gradient(120deg, hsl(198, 10%, 41%), hsl(199, 24%, 18%));
+    --cta-button-text: rgb(241, 241, 241);
+    --comment-button-border: #e7e7e7;
+    --comment-button-bg: transparent;
+    --comment-button-text: white;
+    --comment-border: #272727;
+    --comment-bg: linear-gradient(120deg, hsl(0, 0%, 9%), hsl(0, 0%, 14%));
+    --download-box-bg: linear-gradient(120deg,hsl(0, 0%, 9%), hsl(0, 0%, 20%));
+    --download-box-title-text: #eee;
+  }
+
+  /* can be used to invert simple black / white images for darkmode*/
+  .binary-image-invert-in-darkmode {
+    filter: #{"invert()"}; // filter invert is available since 2015
+    mix-blend-mode: difference; // mix-blend-mode is available since 2020
+  }
+}
+
 @import "_normalize";
 @import "_base";
 @import "_downloadpage";
+@import "_code_highlight";
