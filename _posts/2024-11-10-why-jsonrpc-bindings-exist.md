@@ -49,7 +49,8 @@ void      dc_chatlist_unref(dc_chatlist_t* chatlist);
 The majority of methods provide a pointer to a rust structure, which can be used to access its properties through specialized methods.
 After using it you need to free it using the `_unref` methods (like `dc_chatlist_unref`), otherwise you will create memory leaks.
 
-## Why implement a new way to talk to core?
+## <a id="why-implement-a-new-way"></a> Why implement a new way to talk to core? 
+
 
 While using the cffi in android and iOS was working fine, in the desktop version which is based on electron it had some problems.
 
@@ -239,7 +240,7 @@ This works very well with IDE auto-completion and "IntelliSense" (hover to get d
 
 ### Async usage in Delta Chat desktop
 
-As described in the [[#Why implement a new way to talk to core?|beginning]], before jsonrpc we had issues with desktop getting unresponsive when there was a bit more api traffic, for example on fetching a lot of messages.
+As described in the [beginning](#why-implement-a-new-way), before jsonrpc we had issues with desktop getting unresponsive when there was a bit more api traffic, for example on fetching a lot of messages.
 While the cffi is blocking, you never block on a single method call with jsonrpc since you just have one bidirectional stream of jsonrpc messages.
 This really speed up desktop and made it more responsive.
 
