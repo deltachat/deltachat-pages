@@ -68,7 +68,7 @@ or checkout [cosmos.delta.chat](https://cosmos.delta.chat) for further links.
 <img src="../assets/blog/2023-06-03-cheogram-webxdc.jpg" width="190" style="float:right; margin-left:1em;" />
 
 In recent months we happily noticed that 
-two Android XMPP-messengers, [Cheogram](https://cheogram.com/) and [Monocles](https://monocles.wiki/index.php?title=Main_Page),
+two Android XMPP-messengers, [Cheogram](https://cheogram.com/) and [Monocles](https://monocles.eu/more/),
 added experimental support for WebXDC apps. 
 
 We hope that the new Export/Import APIs may soon become available there as well 
