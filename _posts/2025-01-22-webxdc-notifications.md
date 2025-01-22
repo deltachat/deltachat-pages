@@ -86,7 +86,7 @@ without having to scream at Google or Apple compliance buereaucracy themselves.
 For webxdc apps to "notify" users they need to specify a list of *identities*
 when [sending application updates](https://webxdc.org/docs/spec/sendUpdate.html). 
 The [`webxdc.selfAddr` spec](https://webxdc.org/docs/spec/selfAddr_and_selfName.html#selfaddr) 
-describes the details of the new carefully designed "per-app" identity scoping. 
+describes the details of the new carefully designed "per-app" identity scope. 
 
 ![view on a chat where a chess-app challenge is arranged](../assets/blog/2025-01-chess-setup.png)
 
