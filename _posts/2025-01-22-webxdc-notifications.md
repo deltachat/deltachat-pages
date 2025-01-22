@@ -30,7 +30,7 @@ allowing to rebase relations between developers and users by saying
   and can have piece of mind of not being responsible for any data, 
   and not having to program identity management and social discovery UIs. 
 
-- **Bye Bye to depending on an org or project that enshittiffies**: 
+- **Bye Bye to depending on an corp or org that enshittiffies**: 
   Messengers, as decentralized runners of webxdc apps in chat groups, 
   can not hold web app developers, their users or data hostage. 
   Consult [Cory Doctorow's "Ulysses Pact"](https://pluralistic.net/2024/11/02/ulysses-pact/)
