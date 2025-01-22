@@ -21,7 +21,7 @@ that webxdc-capapble messengers implement,
 allowing to rebase relations between developers and users by saying
 
 - **Bye Bye to surveillance capitalism**:
-  users have both the code and the data of their web apps on their end devices 
+  users have both the code and the data of their web apps in their hands 
   and benefit from end-to-end encrypted messaging not only during regular chat messaging 
   but also during their private web app usage.
 
