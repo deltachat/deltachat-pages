@@ -123,7 +123,7 @@ while being itself
 
 # Replacing VC-funded platforms with a ZIP file ... 
 
-There is no shortage of Venture-Capital backed mediator platforms that 
+There is no shortage of Venture-Capital fueled mediator platforms that 
 offer "free" web apps or mobile apps (mostly web-apps in disguise) 
 to mediate interactions between private circles. 
 What if you could run such apps in your private chats without needing any mediator,
