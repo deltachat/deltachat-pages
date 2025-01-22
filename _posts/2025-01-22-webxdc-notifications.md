@@ -107,7 +107,7 @@ that called the [joinRealtime API](https://webxdc.org/docs/spec/joinRealtimeChan
 
 ## Webxdc apps can be placed on mobile home screens
 
-XXX insert screenshots of 2-3 webxdc apps on a android or iOS screen
+![Webxdc Apps on Android and iOS home screens](../assets/blog/2025-01-homescreen.png)
 
 Both on Android and iOS you can now add a running webxdc app to your home screen. 
 Tapping a webxdc app on your mobile home screen will directly start it,
