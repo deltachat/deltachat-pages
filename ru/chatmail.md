@@ -33,7 +33,7 @@ lang: ru
   расположен в США и работает стабильно с июля 2024 года.
 
 - [tarpit.fun](https://tarpit.fun)
-  is hosted in Austria and has been stable since December 2024.
+  расположен в Австрии и работает стабильно с декабря 2024 года.
 
 Все chatmail серверы управляются разными группами и людьми. 
 По умолчанию сервер nine.testrun.org, управляется основными членами команды Delta Chat. 

@@ -267,14 +267,13 @@ an irgendein System, das an der Zustellung von Push-Benachrichtigungen beteiligt
 
 So verwendet Delta Chat Push-Benachrichtigungen:
 
-- Eine Delta-Chat-Anwendung erhält lokal ein „Geräte-Token“ (eine zufällige Zahl) und speichert es
+- Eine Delta-Chat-Anwendung erhält lokal ein „Geräte-Token“, verschlüsselt und speichert es
 auf dem [Chatmail](https://delta.chat/chatmail)-Server.
 
 - Wenn ein [Chatmail](https://delta.chat/chatmail)-Server eine E-Mail für einen Delta-Chat-Benutzer erhält
-erhält, leitet er den „Geräte-Token“ an den zentralen Delta-Chat-Benachrichtigungs-Proxy weiter.
+erhält, leitet er das verschlüsselte Geräte-Token an den zentralen Delta-Chat-Benachrichtigungs-Proxy weiter.
 
-- Der zentrale Delta-Chat-Benachrichtigungs-Proxy leitet
-das „Geräte-Token“ an den jeweiligen Push-Dienst (Apple, Google, etc.) weiter,
+- Der zentrale Delta-Chat-Benachrichtigungs-Proxy entschlüsselt das Geräte-Token und leitet es an den jeweiligen Push-Dienst (Apple, Google, etc.) weiter,
 ohne jemals die IP- oder E-Mail-Adresse des Delta-Chat-Benutzers zu kennen.
 
 - Der zentrale Push-Dienst (Apple, Google, etc.)
@@ -283,13 +282,15 @@ um im Hintergrund nach neuen Nachrichten zu suchen.
 Der zentrale Push-Dienst weiß nichts über die Chatmail- oder E-Mail-Adresse des Geräts, das er aufweckt und sieht nie eine E-Mail-Adresse (Absender oder Empfänger)
 und auch nie den Inhalt einer Nachricht (auch nicht in verschlüsselter Form).
 
-Stand Mai 2024 kennen die Chatmail-Server die Geräte-Token,
-aber wir planen, diese Informationen an den Benachrichtigungs-Proxy zu verschlüsseln
-zu verschlüsseln, so dass der Chatmail-Server niemals das „Geräte-Token“ erfährt.
 
 Der zentrale Delta-Chat-Benachrichtigungs-Proxy [ist klein und vollständig in Rust implementiert](https://github.com/deltachat/notifiers)
 und vergisst die Geräte-Token, sobald Apple/Google/etc. sie verarbeitet hat,
 normalerweise innerhalb weniger Millisekunden.
+
+Beachten Sie, dass das Geräte-Token zwischen Anwendungen und dem Benachrichtigungs-Proxy verschlüsselt,
+aber nicht signiert ist. 
+Der Benachrichtigungs-Proxy sieht also niemals E-Mail-Adressen, IP-Adressen oder
+irgendwelche kryptografischen Identitätsinformationen, die mit dem Gerät oder dem Geräte-Token eines Nutzers verbunden sind. 
 
 Aufgrund dieses umfassenden Datenschutzkonzepts würde sogar die Beschlagnahmung eines Chatmail-Servers,
 oder die vollständige Beschlagnahmung des zentralen Delta-Chat-Benachrichtigungsproxys
