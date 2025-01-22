@@ -172,11 +172,11 @@ Every chat group gets their own unique Wonster challenge.
 
 ## "Finished Software" could be a thing again!
 
-While webxdc app developers may improve an app over time but they may also call it a day. 
+Webxdc app developers may improve an app over time or they may call it a day. 
 The webxdc specification aims to provide long-term backward-compatibility.
-Webxdc implementors are carefully adding new APIs,
-with increasingly extensive discussions between all parties involved. 
-Say Bye to broken dependencies, "forced API level upgrades" or crazy buereaucracy like 
+Once written apps are to work for a long time. 
+Say Bye to broken dependencies, "forced API level upgrades", new toolchains 
+or crazy buereaucracy like 
 "you app will be delisted if you don't declare compliancy with X" etc. 
 Nothing can block using an app with friends if you have the zip-file on your disc, 
 and a webxdc-capable messenger with a chat group/room to "run" it. 
