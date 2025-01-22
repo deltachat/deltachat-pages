@@ -103,6 +103,15 @@ Ephemeral realtime application updates
 are only distributed between devices actively running a webxdc app
 that called the [joinRealtime API](https://webxdc.org/docs/spec/joinRealtimeChannel.html). 
 
+
+## Webxdc apps can now be placed on mobile home screens
+
+XXX insert screenshots of 2-3 webxdc apps on android and iOS screens
+
+Both on Android and iOS you can now add an app to your home screen. 
+Tapping it will directly open the app without showing any messenger screen. 
+
+
 # Replacing VC-funded platforms with a ZIP file ... 
 
 There is no shortage of Venture-Capital backed mediator platforms that 
