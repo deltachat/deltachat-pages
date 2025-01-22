@@ -65,7 +65,7 @@ offer this new instant attach-app action.
 Delta Chat apps run the app-picker with cached data so it works during offline times. 
 Most messengers also allow to configure a different URL for an alternative app-picker web page. 
 
-Note that webxdc app store sites *seed* apps but don't control their usage afterwards. 
+Note that webxdc app store sites *seed* apps but don't control anything afterwards. 
 They can not collect any metadata or content data about their usage. 
 It's like distributing `.exe` files in former times, 
 only [safer](https://delta.chat/en/2023-05-22-webxdc-security)
