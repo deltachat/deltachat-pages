@@ -31,7 +31,7 @@ allowing to rebase relations between developers and users by saying
   and not having to program identity management and social discovery UIs. 
   Messenger already provide all of this through arranging chat groups or rooms. 
 
-- **Bye Bye to depending on an corp or org that enshittiffies**: 
+- **Bye Bye to depending on a corp or org that enshittiffies**: 
   Messengers, as decentralized runners of webxdc apps in chat groups, 
   can not hold web app developers, their users or data hostage. 
   Consult [Cory Doctorow's "Ulysses Pact"](https://pluralistic.net/2024/11/02/ulysses-pact/)
@@ -69,7 +69,7 @@ Note that webxdc app store sites *seed* apps but don't control their usage after
 They can not collect any metadata or content data about their usage. 
 It's like distributing `.exe` files in former times, 
 only [safer](https://delta.chat/en/2023-05-22-webxdc-security)
-and more convenient through permission-free, decentralized, non-tracking app collection sites. 
+and more convenient through permission-free and decentralized web-app collection sites. 
 Sorry GAFAM, not sorry. 
 
 
