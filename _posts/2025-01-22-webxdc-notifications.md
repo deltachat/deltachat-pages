@@ -30,7 +30,7 @@ allowing to rebase relations between developers and users by saying
   and can have piece of mind of not being responsible for any data, 
   and not having to program identity management and social discovery UIs. 
 
-- **Bye Bye to dependencies on an org or project that enshittiffies**: 
+- **Bye Bye to depending on an org or project that enshittiffies**: 
   Messengers, as decentralized runners of webxdc apps in chat groups, 
   can not hold web app developers, their users or data hostage. 
   Consult [Cory Doctorow's "Ulysses Pact"](https://pluralistic.net/2024/11/02/ulysses-pact/)
@@ -76,7 +76,7 @@ Sorry GAFAM, not sorry.
 
 ![notification showing that it's Hocuri's turn to make a move](../assets/blog/2025-01-chess-noti.jpg)
 
-We specified and implemented a new webxdc notification mechanism so that apps like
+We collectively specified and implemented a new webxdc notification mechanism so that apps like
 [Chess](https://webxdc.org/apps/#arcanecircle-chess) can cause a system-level notification between app users aka "it's your turn",
 and the calendar can notify about "your chat partner added a new meeting date". 
 Webxdc apps re-use the existing push notification machinery of their host messengers 
@@ -109,11 +109,8 @@ There is no shortage of Venture-Capital backed platforms that
 offer "free" web apps or mobile apps (mostly web-apps in disguise) 
 to mediate interactions between private circles. 
 What if you could run such apps in your private chats without needing any mediator,
-sign-ups, logins etc?  We'll close this little blog post 
-higlighting a few already existing apps 
-that can be used for some typical "group" activities,
-removing any need to use or depend on superflous billionaire-serving mediation platforms. 
-
+sign-ups, logins etc?
+Here are a few fun candidate apps to try out. 
 
 ![View on the app store entry of the new SplitBill app](../assets/blog/2025-01-splitbillmeta.png)
 
@@ -147,13 +144,21 @@ Who doesn't love todo-lists?  Now you can do them nicely in a chat group.
 Or maybe you prefer the classic [checklist](https://webxdc.org/apps/#webxdc-checklist),
 one of the first webxdc apps back in 2023. 
 
+
+![View on the app store entry of the Wonster app](../assets/blog/2025-01-wonster.png)
+
+[Wonster](https://webxdc.org/apps/#arcanecircle-wonster)
+is a popular daily family puzzle challenge. 
+Every chat group gets their own unique Wonster challenge. 
+
+
 ## "Finished Software" could be a thing again!
 
 While some authors may improve an app over time they may also call it a day. 
 Webxdc implementors are only carefully adding new APIs,
 with increasingly extensive discussions between all parties involved. 
 The webxdc specification aims to provide long-term backward-compatibility.
-Say no to broken dependencies, "forced API level upgrades" or crazy buereaucracy like 
+Say Bye to broken dependencies, "forced API level upgrades" or crazy buereaucracy like 
 "you app will be delisted if you don't declare compliancy with X" etc. 
 Nothing can block using an app with friends if you have the zip-file on your disc, 
 and a webxdc-capable messenger with a chat group/room to "run" it. 
