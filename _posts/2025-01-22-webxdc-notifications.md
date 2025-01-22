@@ -115,7 +115,7 @@ and everything remains responsive also while offline.
 Remember, there is no HTTP server for webxdc apps. 
 All webxdc app state is local, and each webxdc app sends and receives updates 
 by interacting with "localhost" only, 
-leaving all actual network message routing to messengers,
+leaving all actual network routing to messengers,
 while being itself
 [blocked from leaking anything to the Internet](https://delta.chat/en/2023-05-22-webxdc-security). 
 
