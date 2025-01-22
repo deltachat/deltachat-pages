@@ -164,7 +164,7 @@ Every chat group gets their own unique Wonster challenge.
 ## "Finished Software" could be a thing again!
 
 While some authors may improve an app over time they may also call it a day. 
-Webxdc implementors are only carefully adding new APIs,
+Webxdc implementors are carefully adding new APIs,
 with increasingly extensive discussions between all parties involved. 
 The webxdc specification aims to provide long-term backward-compatibility.
 Say Bye to broken dependencies, "forced API level upgrades" or crazy buereaucracy like 
