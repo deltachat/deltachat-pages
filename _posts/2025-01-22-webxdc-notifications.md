@@ -123,9 +123,9 @@ What if you could run such apps in your private chats without needing any mediat
 sign-ups, logins etc?
 Here are a few fun candidate apps to try out. 
 
-![View on the app store entry of the new SplitBill app](../assets/blog/2025-01-splitbillmeta.png)
+![View on the app store entry of the new Split Bill app](../assets/blog/2025-01-splitbillmeta.png)
 
-[SplitBill](https://webxdc.org/apps/#jagtalon-splitbill)
+[Split Bill](https://webxdc.org/apps/#jagtalon-splitbill)
 allows everyone in a chat group to register "expenses" and provides a "balance" view
 of who owes/is owed currently. 
 Anybody who enters an expense becomes part of the bill but
@@ -167,9 +167,9 @@ Every chat group gets their own unique Wonster challenge.
 ## "Finished Software" could be a thing again!
 
 While some authors may improve an app over time they may also call it a day. 
+The webxdc specification aims to provide long-term backward-compatibility.
 Webxdc implementors are carefully adding new APIs,
 with increasingly extensive discussions between all parties involved. 
-The webxdc specification aims to provide long-term backward-compatibility.
 Say Bye to broken dependencies, "forced API level upgrades" or crazy buereaucracy like 
 "you app will be delisted if you don't declare compliancy with X" etc. 
 Nothing can block using an app with friends if you have the zip-file on your disc, 
