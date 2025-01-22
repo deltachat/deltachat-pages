@@ -25,7 +25,7 @@ allowing to rebase relations between developers and users by saying
   and benefit from end-to-end encrypted messaging not only during regular chat messaging 
   but also during their private web app usage.
 
-- **Bye Bye to user policing (logins, passwords, OAUTH, privacy policies etc.)**: 
+- **Bye Bye to user policing (logins, passwords, OAUTH, TOS and privacy policies etc.)**: 
   Web app developers never obtain or touch any user data or user identities,
   and can have peace of mind of not being responsible for any data, 
   and not having to program identity management and social discovery UIs. 
