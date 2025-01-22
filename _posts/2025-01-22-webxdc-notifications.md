@@ -127,7 +127,7 @@ offer "free" web apps or mobile apps (mostly web-apps in disguise)
 to mediate interactions between private circles. 
 What if you could run such apps in your private chats without needing any mediator,
 sign-ups, logins etc?
-Here are a few fun candidate apps to try out. 
+Here are a few fun VC-platform-replacement candidate zip files. 
 
 ![View on the app store entry of the new Split Bill app](../assets/blog/2025-01-splitbillmeta.png)
 
