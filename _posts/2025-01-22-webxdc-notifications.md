@@ -12,7 +12,7 @@ with their possibly unprecedented power and money concentrations today.
 
 <img alt="three spidermen pointing to each other, respectively labeled with 'messenger devs', 'webxdc app devs' and 'web app users'" src="../assets/blog/2025-01-spider3.jpg" width="360" style="float:right; margin-left:1em;" />
 Joined by XMPP-messengers [Cheogram](https://cheogram.com) and [Monocles](https://monocles.eu), 
-and supported by several contributing experts in the background, 
+and supported by many contributing experts in the background, 
 we are playfully addressing the no-billionaire-platforms challenge with 
 [webxdc](https://webxdc.org), a container format and API for "chat-shared web apps". 
 Technically, webxdc apps are HTML5 apps but instead of the HTTP protocol 
