@@ -17,7 +17,7 @@ we are playfully addressing the no-billionaire-platforms challenge with
 [webxdc](https://webxdc.org), a container format and API for "chat-shared web apps". 
 Technically, webxdc apps are HTML5 apps but instead of the HTTP protocol 
 they use [Peer-to-Peer send/receive APIs](https://webxdc.org/docs/spec/sendUpdate.html) 
-that webxdc-capable messengers implement,
+implemented by webxdc-capable messengers,
 allowing to rebase relations between developers and users by saying
 
 - **Bye Bye to surveillance capitalism**:
