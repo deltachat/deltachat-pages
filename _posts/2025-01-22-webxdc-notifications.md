@@ -108,10 +108,17 @@ that called the [joinRealtime API](https://webxdc.org/docs/spec/joinRealtimeChan
 
 ## Webxdc apps can be placed on mobile home screens
 
-XXX insert screenshots of 2-3 webxdc apps on android and iOS screens
+XXX insert screenshots of 2-3 webxdc apps on a android or iOS screen
 
-Both on Android and iOS you can now add an app to your home screen. 
-Tapping it will directly open the app without showing any messenger screen. 
+Both on Android and iOS you can now add a running webxdc app to your home screen. 
+Tapping a webxdc app on your mobile home screen will directly start it,
+and everything remains responsive also while offline. 
+Remember, there is no HTTP server for webxdc apps. 
+All webxdc app state is local, and each webxdc app sends and receives updates 
+by interacting with "localhost" only, 
+leaving all actual network message routing to messengers,
+while being itself
+[blocked from leaking anything to the Internet](https://delta.chat/en/2023-05-22-webxdc-security). 
 
 
 # Replacing VC-funded platforms with a ZIP file ... 
