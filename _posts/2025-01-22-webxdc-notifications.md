@@ -94,7 +94,7 @@ describes the details of the new carefully designed "per-app" identity scope.
 
 ![view on an editor-app showing information about upcoming "DC OFFDEM/FOSDEM logistics](../assets/blog/2025-01-editor.png)
 Different messengers and transport servers have different "send rate limits",
-namely how many messages are allowed to be send per time duration,
+namely how many messages are allowed to be sent per time duration,
 and how many bytes an application update can carry. 
 The [updated editor app](https://webxdc.org/apps/#webxdc-editor) now respects 
 [sendUpdate limits](https://webxdc.org/docs/spec/sendUpdate.html#messaging-layer-limits-for-sendupdate),
@@ -150,8 +150,8 @@ app to help accounting when organizing monetary support for people in need?
 allows families, friends and other collectives to easily arrange for daily shopping. 
 The "Shopping list app" provides a simple view for entering "missing" items 
 which can be "checked" when someone bought it. 
-It's recommended to have a special-purpose "Shopping" chat where the topic is shopping only. 
-You can use the chat group/room to ask for, or clarify, specifics about shopping items. 
+It's recommended to have a special-purpose "Shopping" chat group/room 
+to ask ask about, or clarify, specifics of shopping items. 
 There even is a "dark mode" and an icon to disable/enable "chat notifications"
 when the shopping-todo-list changes. 
 
