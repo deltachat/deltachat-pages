@@ -7,7 +7,7 @@ image: ../assets/blog/2025-01-pushicon.png
 How can we evolve and deploy web apps without allowing developers or operators to become a "billionaire in the middle"? 
 There are many ways to try to answer this challenge and some are technical. 
 The "Web", and the HTTP protocol in particular, 
-arguably played a crucial part in producing billionaires
+arguably played a crucial part in producing tech billionaires
 with their possibly unprecedented power and money concentrations today. 
 
 <img alt="three spidermens pointing to each other, respectively labled with 'messenger devs', 'webxdc app devs' and 'web app users'" src="../assets/blog/2025-01-spider3.jpg" width="360" style="float:right; margin-left:1em;" />
@@ -40,7 +40,7 @@ allowing to rebase relations between developers and users by saying
 This all sounds too good to be true, right? 
 But what if another reality is possible by just stretching out our hands and grabbing it? 
 
-Let's look at some of the recent webxdc community advances,
+Let's look at some recent webxdc community advances,
 several new webxdc capabilities in several messengers along with 
 updates to the [webxdc specification](https://webxdc.org/docs/spec/index.html),
 and finally at some webxdc apps already in everyday use,
