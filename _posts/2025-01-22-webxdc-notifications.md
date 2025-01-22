@@ -172,7 +172,7 @@ Every chat group gets their own unique Wonster challenge.
 
 ## "Finished Software" could be a thing again!
 
-While some authors may improve an app over time they may also call it a day. 
+While webxdc app developers may improve an app over time but they may also call it a day. 
 The webxdc specification aims to provide long-term backward-compatibility.
 Webxdc implementors are carefully adding new APIs,
 with increasingly extensive discussions between all parties involved. 
