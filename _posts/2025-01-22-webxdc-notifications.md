@@ -40,9 +40,10 @@ allowing to rebase relations between developers and users by saying
 This all sounds to good to be true, right? 
 But what if another reality is possible by just stretching out our hands and grabbing it? 
 
-Let's look at some of the recent webxdc-related app releases and community advances,
-around webxdc-capable messengers and the [webxdc specification](https://webxdc.org/docs/spec/index.html),
-and then proceed to highlight chat-shared web apps already in everyday use,
+Let's look at some of the recent webxdc community advances,
+several new webxdc capabilities in several messengers along with 
+updates to the [webxdc specification](https://webxdc.org/docs/spec/index.html),
+and finally at some webxdc apps already in everyday use,
 as working approximations on how to replace whole Venture-Capital platforms with a ZIP file :)
 
 ## Integrated and streamlined webxdc app discovery 
