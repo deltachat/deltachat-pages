@@ -1,106 +1,175 @@
 ---
-title: Releases towards billionaire-proof web app "platforms" 
+title: Replacing billionairish platforms with ZIP files
 author: olgax
-image: ../assets/logos/webxdc-centered.png
+image: ../assets/blog/2025-01-pushicon.png
 ---
 
-How can we develop and deploy social web apps without allowing developers and operators 
-to become a "billionaire in the middle"? 
+How can we evolve and deploy web apps without allowing developers or operators to become a "billionaire in the middle"? 
+There are many ways to try to answer this challenge and some are technical. 
+The "Web", and the HTTP protocol in particular, 
+arguably played a crucial part in producing billionaires
+with their possibly unprecedented power and money concentrations today. 
 
-There are many ways to try to answer this question and only few are technical. 
-
-For example, [#FediWave FairTradeMusic artist-run initiative for promotion and marketing](https://dok.kompot.si/FediWaveArtistRunPromoMachine#) or [#faircamp](https://simonrepp.com/faircamp/)
-are part of brewing fediversal activities out of the music-platform-mediation misery. 
-
-# Revisiting core Internet protocols to develop social web apps 
-
-However, many of today's billionaires built their empires on a house of Internet protocols
-which co-effected central control and monetization of social flows between billions of people. 
-
-The "Web", and the HTTP protocol in particular, played a crucial part in producing billionaires
-and possibly unprecedented political power concentration. 
-Our evolving [webxdc](https://webxdc.org) efforts are about 
-exploring a world of web apps without HTTP ... sorry Google, not sorry. 
-
+<img alt="three spidermens pointing to each other, respectively labled with 'messenger devs', 'webxdc app devs' and 'web app users'" src="../assets/blog/2025-01-spider3.jpg" width="360" style="float:right; margin-left:1em;" />
 Joined by XMPP-messengers [Cheogram](https://cheogram.com) and [Monocles](https://monocles.eu), 
 and supported by several contributing experts in the background, 
-we are playing with addressing the no-billionaire-platforms challenge (tm) with 
+we are playfully addressing the no-billionaire-platforms challenge with 
 [webxdc](https://webxdc.org), a container format and API for "chat-shared web apps". 
-
 Technically, webxdc apps are HTML5 apps but instead of the HTTP protocol 
 they use [Peer-to-Peer send/receive APIs](https://webxdc.org/docs/spec/sendUpdate.html) 
-implemented by a webxdc-app hosting messenger.  
-You can take a webxdc `.xdc` zip file and run it unmodified in different chats/rooms or messengers,
-providing for some interesting billionaire-prevention characteristics: 
+implemented by any webxdc-app hosting messenger, 
+providing for the following billionaire-capture-prevention characteristics. 
 
-- users have both the code and the data of web apps on their end devices 
+- **Bye Bye to surveillance capitalism**:
+  users have both the code and the data of their web apps on their end devices 
   and benefit from end-to-end encrypted messaging not only during regular chat messaging 
-  but also during their private social web app usage. 
+  but also during their private web app usage.
 
-- web app developers never obtain any data or identities of users;
+- **Bye Bye logins, passwords, user registries, OAUTH, privacy policies or consent
+  dialogues**: 
+  Web app developers never obtain or touch any user data or user identities,
+  and can have piece of mind of not being responsible for any data, 
+  and not having to program identity management and social discovery UIs. 
 
-- messengers can not hold web app developers or users hostage;
+- **Bye Bye being dependent on an org or project that enshittiffies**: 
+  Messengers, as decentralized runners of webxdc apps in chat groups, 
+  can not hold web app developers, their users or data hostage. 
+  Consult [Cory Doctorow's "Ulysses Pact"](https://pluralistic.net/2024/11/02/ulysses-pact/)
+  for why this is a good idea. 
 
-But big claims of new or, um, revolutionary Peer-to-Peer "platforms" are plenty
-and were particularly inflated during [Web3 times](https://en.wikipedia.org/wiki/Web3)
-as some of you may remember. 
-So instead of further engaing in big-word games,
-let's look at some of the recent webxdc-related releases and advances
-around aforementioned messengers and the specification itself. 
+This all sounds to good to be true, right? 
+But what if another reality is possible by just stretching out our hands and grabbing it? 
 
+Let's look at some of the recent webxdc-related app releases and community advances,
+around webxdc-capable messengers and the [webxdc specification](https://webxdc.org/docs/spec/index.html),
+and then proceed to highlight chat-shared web apps already in everyday use,
+as working approximations on how to replace whole Venture-Capital platforms with a ZIP file :)
 
-## All messengers now integrate instant app discovery and selection
+## Integrated and streamlined webxdc app discovery 
 
-There is now a curated collection of apps available at [https://webxdc.org/apps](https://webxdc.org/apps) which got a thorough UX/UI streamlining by Jag, a former DuckDuckGo UX/UI frontend engineer. 
+![screenshot of new web app store view on a desktop browser](../assets/blog/2025-01-browser-store.png)
+There is a curated collection of apps available at [https://webxdc.org/apps](https://webxdc.org/apps) which got a thorough UX/UI streamlining by Jag Talon, 
+a former DuckDuckGo frontend designer. 
 It's a static web page offering "tool" and "game" search 
-with short descriptions and per-app URLs so you can point people to a particular app. 
-More interestingly, all webxdc-supporting messengers integrated the new "app picker" 
-into their primary UX/UI which you can find in the "attach" menu when sending messages. 
+with short descriptions and per-app URLs so you can point people to a particular app.
+The web page obtains its content from this [json app list file](https://apps.testrun.org/xdcget-lock.json),
+generated by commits to the [codeberg submission respository](https://codeberg.org/webxdc/xdcget/). 
+Anyone can run their own curation pipelining and [re-use the web interface](https://github.com/webxdc/website/tree/main/website/apps). 
 
+![view on input field after 'attach' action with the 'app' selection circled](../assets/blog/2025-01-appattach.jpg)
+The new webxdc-app store web view was designed to integrate well
+with webxdc-supporting messengers through an "attach-app" action of the chat message input field. 
 Apart from Cheogram, Monocles and the mainline Delta Chat apps, 
-also ArcaneChat (a soft Android-fork) and DeltaTouch (a Lorimi-based UI for UbuntuTouch phones, 
-also running in some Desktop environments)
-offer this new instant discover + pick app action. 
+also [ArcaneChat (a soft Android-fork)](https://arcanechat.me/) and [DeltaTouch (a Lorimi-based UI for UbuntuTouch phones and some desktop environments)](https://delta.chat/en/2023-07-02-deltatouch) 
+offer this new instant attach-app action. 
+Delta Chat apps run the app-picker with cached data so it works during offline times. 
 Most messengers also allow to configure a different URL for an alternative app-picker web page. 
+
+Note that webxdc app store sites *seed* apps but don't control their usage afterwards. 
+They can not collect any metadata or content data about their usage. 
+It's like distributing `.exe` files in former times, 
+only [safer](https://delta.chat/en/2023-05-22-webxdc-security)
+and more convenient through permission-free, decentralized, non-tracking app collection sites. 
+Sorry GAFAM, not sorry. 
 
 
 ## Webxdc apps can now cause instant notifications 
 
-We specified and implemented a new notification mechanism so that apps like Chess and XXX 
-can cause a system-level notification between app users aka "it's your turn"
-or "your chat partner added a new meeting date". 
+![notification showing that it's Hocuri's turn to make a move](../assets/blog/2025-01-chess-noti.jpg)
+
+We specified and implemented a new webxdc notification mechanism so that apps like
+[Chess](https://webxdc.org/apps/#arcanecircle-chess) can cause a system-level notification between app users aka "it's your turn",
+and the calendar can notify about "your chat partner added a new meeting date". 
+Webxdc apps re-use the existing push notification machinery of their host messengers 
+without having to interact with Google or Apple compliance buereaucracy. 
 For webxdc apps to "notify" users they need to specify a list of *identities*
 when [sending application updates](https://webxdc.org/docs/spec/sendUpdate.html). 
-Each user gets a unique identity per app 
-that can not be correlated to user identities of a different app (instance). 
-[`webxdc.selfAddr`](https://webxdc.org/docs/spec/selfAddr_and_selfName.html#selfaddr) 
-now provides a per-app user identifier. 
-Even if an app managed to trick its users to use "copy+paste" of identity strings
-`selfAddr` identities of the same user are different and un-linkable between any two apps. 
+The [`webxdc.selfAddr` spec](https://webxdc.org/docs/spec/selfAddr_and_selfName.html#selfaddr) 
+describes the details of the new carefully designed "per-app" identity scoping. 
 
-Webxdc apps basically re-use the existing push notification machinery of their host messengers. 
-without having to interact with Google or Apple at all. 
-Webxdc apps can just trigger notifications without going through all the troubles. 
+![view on a chat where a chess-app challenge is arranged](../assets/blog/2025-01-chess-setup.png)
 
 
-## Webxdc apps can query rate limits of send APIs
+## Webxdc apps can query sending rate limits 
 
+![view on an editor-app showing information about upcoming "DC OFFDEM/FOSSDEM logistics](../assets/blog/2025-01-editor.png)
 Different messengers and transport servers have different "send rate limits",
 namely how many messages are allowed to be send per time duration,
-and how big application updates can be. 
-Apps can query freshly specified [sendUpdate limits](https://webxdc.org/docs/spec/sendUpdate.html#messaging-layer-limits-for-sendupdate) for the "reliable" application update channel (currently chatmail and XMPP).
-The [recently introduced webxdc realtime channels](https://delta.chat/en/2024-11-20-webxdc-realtime) also introduced a static limit of 128KB for ephemeral application updates
-which are only distributed between all "currently online" participants. 
+and how many bytes an application update can carry. 
+The [updated editor app](https://webxdc.org/apps/#webxdc-editor) respects these rate limits,
+providing for a smoother more network-adaptive user experience. 
+Webxdc apps can query [sendUpdate limits](https://webxdc.org/docs/spec/sendUpdate.html#messaging-layer-limits-for-sendupdate). 
+The [recently introduced webxdc realtime channels](https://delta.chat/en/2024-11-20-webxdc-realtime) have a 128KB size limit for ephemeral application payload. 
+Ephemeral realtime application updates 
+are only distributed between devices actively running a webxdc app
+which called the [joinRealtime API](https://webxdc.org/docs/spec/joinRealtimeChannel.html). 
 
-
-# Replacing Venture-Capital platforms with ZIP files? 
+# Replacing VC-funded platforms with a ZIP file ... 
 
 There is no shortage of Venture-Capital backed platforms that 
-offer "free" web apps or native mobile apps to mediate interactions between friends. 
+offer "free" web apps or mobile apps (mostly web-apps in disguise) 
+to mediate interactions between private circles. 
 What if you could run such apps in your private chats without needing any mediator,
-sign-ups, logins etc? 
-Meet [Split Bill](https://webxdc.org/apps/#jagtalon-splitbill)
-which provides a way to jointly record expenses for a trip or dinner event 
-and get a balance of who owes/is owed. 
-You can "join" a bill even if you had no expenses. 
+sign-ups, logins etc?  We'll close this little blog post 
+higlighting a few already existing apps 
+that can be used for some typical "group" activities,
+removing any need to use or depend on superflous billionaire-serving mediation platforms. 
+
+
+![View on the app store entry of the new SplitBill app](../assets/blog/2025-01-splitbillmeta.png)
+
+[SplitBill](https://webxdc.org/apps/#jagtalon-splitbill)
+allows everyone in a chat group to register "expenses" and provides a "balance" view
+of who owes/is owed currently. 
+Anybody who enters an expense becomes part of the bill but
+you can also "join the bill" if you don't add expenses. 
+Split Bill intentionally provides a basic UI. 
+If you feel inclined to add features like a "settle up" button, 
+please fork [from the codeberg split-bill repository](https://codeberg.org/jagtalon/split-bill/),
+maybe tell the author about it, and submit a new app to the webxdc collection. 
+Or maybe you have an idea how to evolve the split-bill app to become a "solidarity-party" 
+app to help accounting when organizing monetary support for people in need? 
+
+
+![View on the app store entry of the Shopping List app](../assets/blog/2025-01-shopping1.png)
+
+[Shopping List](https://webxdc.org/apps/#shoppinglist)
+allows families, friends and other collectives to easily arrange for daily shopping. 
+The "Shopping list app" provides a simple view for entering "missing" items 
+which can be "checked" when someone bought it. 
+It's recommended to have a special-purpose "Shopping" chat where the topic is shopping only. 
+You can use the chat group/room to ask for, or clarify, specifics about shopping items. 
+There even is a "dark mode" and an icon to disable/enable "chat notifications"
+when the shopping-todo-list changes. 
+
+![View on the app store entry of the Todo List app](../assets/blog/2025-01-todolist.png)
+
+Who doesn't love todo-lists?  Now you can do them nicely in a chat group.
+Or maybe you prefer the classic [checklist](https://webxdc.org/apps/#webxdc-checklist),
+one of the first webxdc apps back in 2023. 
+
+## "Finished Software" could be a thing again!
+
+While some authors may improve an app over time they may also call it a day. 
+Webxdc implementors are only carefully adding new APIs,
+with increasingly extensive discussions between all parties involved. 
+The webxdc specification aims to provide long-term backward-compatibility.
+Say no to broken dependencies, "forced API level upgrades" or crazy buereaucracy like 
+"you app will be delisted if you don't declare compliancy with X" etc. 
+Nothing can block using an app with friends if you have the zip-file on your disc, 
+and a webxdc-capable messenger with a chat group/room to "run" it. 
+No VPS or web hosting, DNS or SSL certificate worries. Peace!
+
+Curious and interested to join some "replace-VCs-with-ZIP-files" fun? 
+[Getting started with webxdc development](https://webxdc.org/docs/) 
+provides tutorial material and introduction chapters on what is involved
+when replacing HTTP with Peer-to-Peer protocols. 
+
+## Thanks to NLNET and NGI for their support and vision!
+
+<img alt="NLNet Logo" src="../assets/logos/logo_nlnet.svg" width="140" style="float:right; margin-left:1em;" />  
+Much of our efforts described above became possible
+by the vision and support of [NLnet-managed funds](https://nlnet.nl/),
+financially supported by the European Commission's 
+[Next Generation Internet](https://ngi.eu/) programme.
 
