@@ -27,7 +27,7 @@ allowing to rebase relations between developers and users by saying
 
 - **Bye Bye to user policing (logins, passwords, OAUTH, privacy policies etc.)**: 
   Web app developers never obtain or touch any user data or user identities,
-  and can have piece of mind of not being responsible for any data, 
+  and can have peace of mind of not being responsible for any data, 
   and not having to program identity management and social discovery UIs. 
   Messengers already provide all of this through arranging chat groups or rooms. 
 
@@ -37,7 +37,7 @@ allowing to rebase relations between developers and users by saying
   Consult [Cory Doctorow's "Ulysses Pact"](https://pluralistic.net/2024/11/02/ulysses-pact/)
   for why this is a good idea. 
 
-This all sounds to good to be true, right? 
+This all sounds too good to be true, right? 
 But what if another reality is possible by just stretching out our hands and grabbing it? 
 
 Let's look at some of the recent webxdc community advances,
