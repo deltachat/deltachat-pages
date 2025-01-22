@@ -41,8 +41,7 @@ This all sounds too good to be true, right?
 But what if another reality is possible by just stretching out our hands and grabbing it? 
 
 Let's look at some recent webxdc community advances,
-new webxdc capabilities in a bunch of messengers along with 
-updates to the [webxdc specification](https://webxdc.org/docs/spec/index.html),
+new webxdc app capabilities along with updates to the [webxdc specification](https://webxdc.org/docs/spec/index.html),
 and finally at some webxdc apps already in everyday use,
 as working approximations on how to replace whole Venture-Capital platforms with a ZIP file :)
 
