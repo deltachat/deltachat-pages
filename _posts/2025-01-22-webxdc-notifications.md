@@ -109,7 +109,7 @@ that called the [joinRealtime API](https://webxdc.org/docs/spec/joinRealtimeChan
 
 ![Webxdc Apps on Android and iOS home screens](../assets/blog/2025-01-homescreen.png)
 
-Both on Android and iOS you can now add a running webxdc app to your home screen. 
+On Delta Chat Android and iOS phones you can now add a running webxdc app to your home screen. 
 Tapping a webxdc app on your mobile home screen will directly start it,
 and everything remains responsive also while offline. 
 Remember, there is no HTTP server for webxdc apps. 
