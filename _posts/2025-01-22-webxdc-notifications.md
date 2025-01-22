@@ -17,21 +17,20 @@ we are playfully addressing the no-billionaire-platforms challenge with
 [webxdc](https://webxdc.org), a container format and API for "chat-shared web apps". 
 Technically, webxdc apps are HTML5 apps but instead of the HTTP protocol 
 they use [Peer-to-Peer send/receive APIs](https://webxdc.org/docs/spec/sendUpdate.html) 
-implemented by any webxdc-app hosting messenger, 
-providing for the following billionaire-capture-prevention characteristics. 
+that webxdc-capapble messengers implement,
+allowing to rebase relations between developers and users by saying
 
 - **Bye Bye to surveillance capitalism**:
   users have both the code and the data of their web apps on their end devices 
   and benefit from end-to-end encrypted messaging not only during regular chat messaging 
   but also during their private web app usage.
 
-- **Bye Bye logins, passwords, user registries, OAUTH, privacy policies or consent
-  dialogues**: 
+- **Bye Bye to user policing (logins, passwords, OAUTH, privacy policies etc.)**: 
   Web app developers never obtain or touch any user data or user identities,
   and can have piece of mind of not being responsible for any data, 
   and not having to program identity management and social discovery UIs. 
 
-- **Bye Bye being dependent on an org or project that enshittiffies**: 
+- **Bye Bye to dependencies on an org or project that enshittiffies**: 
   Messengers, as decentralized runners of webxdc apps in chat groups, 
   can not hold web app developers, their users or data hostage. 
   Consult [Cory Doctorow's "Ulysses Pact"](https://pluralistic.net/2024/11/02/ulysses-pact/)
@@ -96,10 +95,10 @@ describes the details of the new carefully designed "per-app" identity scoping.
 Different messengers and transport servers have different "send rate limits",
 namely how many messages are allowed to be send per time duration,
 and how many bytes an application update can carry. 
-The [updated editor app](https://webxdc.org/apps/#webxdc-editor) respects these rate limits,
-providing for a smoother more network-adaptive user experience. 
-Webxdc apps can query [sendUpdate limits](https://webxdc.org/docs/spec/sendUpdate.html#messaging-layer-limits-for-sendupdate). 
-The [recently introduced webxdc realtime channels](https://delta.chat/en/2024-11-20-webxdc-realtime) have a 128KB size limit for ephemeral application payload. 
+The [updated editor app](https://webxdc.org/apps/#webxdc-editor) now respects 
+[sendUpdate limits](https://webxdc.org/docs/spec/sendUpdate.html#messaging-layer-limits-for-sendupdate),
+providing for a smoother transport-adaptive user experience. 
+The [recently introduced webxdc realtime channels](https://delta.chat/en/2024-11-20-webxdc-realtime) have a specified 128KB size limit for ephemeral application updates. 
 Ephemeral realtime application updates 
 are only distributed between devices actively running a webxdc app
 which called the [joinRealtime API](https://webxdc.org/docs/spec/joinRealtimeChannel.html). 
