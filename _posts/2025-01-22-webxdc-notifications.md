@@ -180,7 +180,7 @@ or crazy buereaucracy like
 "your app will be delisted if you don't declare compliancy with X" etc. 
 Nothing can prevent using an app with friends if you have the zip-file on your disc, 
 and a webxdc-capable messenger with a chat group/room to "run" it. 
-No VPS or web hosting, DNS or SSL certificate worries. Peace!
+No worries about VPS or web hosting, DNS or SSL certificates. Peace!
 
 Curious and interested to join some "replace-VCs-with-ZIP-files" fun? 
 [Getting started with webxdc development](https://webxdc.org/docs/) 
