@@ -292,14 +292,14 @@ to any system involved in the delivery of Push Notifications.
 
 Here is how Delta Chat apps perform Push Notification delivery:
 
-- A Delta Chat app obtains a "device token" locally and stores it
+- A Delta Chat app obtains a "device token" locally, encrypts it and stores it
   on the [chatmail](https://delta.chat/chatmail) server.
 
 - When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
-  it forwards the "device token" to the central Delta Chat notification proxy.
+  it forwards the encrypted device token to the central Delta Chat notification proxy.
 
-- The central Delta Chat notification proxy forwards
-  the "device token" to the respective Push service (Apple, Google, etc.),
+- The central Delta Chat notification proxy decrypts the device token
+  and forwards it to the respective Push service (Apple, Google, etc.),
   without ever knowing the IP or e-mail address of Delta Chat users.
 
 - The central Push Service (Apple, Google, etc.)
@@ -309,13 +309,15 @@ Here is how Delta Chat apps perform Push Notification delivery:
   The central Apple/Google Push services never see an e-mail address (sender or receiver)
   and also never see any message content (also not in encrypted forms).
 
-As of May 2024, chatmail servers know about "device tokens"
-but we plan to encrypt this information to the notification proxy
-such that the chatmail server never learns the device token.
 
 The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
 and forgets about device-tokens as soon as Apple/Google/etc processed them,
 usually in a matter of milliseconds.
+
+Note that the device token is encrypted between apps and notification proxy
+but it is not signed. 
+The notification proxy thus never sees e-mail addresses, IP-addresses or
+any cryptographic identity information associated with a user's device (token). 
 
 Resulting from this overall privacy design, even the seizure of a chatmail server,
 or the full seizure of the central Delta Chat notification proxy

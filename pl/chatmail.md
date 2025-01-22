@@ -24,7 +24,7 @@ Serwery Chatmail są zoptymalizowane do przesyłania wiadomości za pomocą Delt
   działa w USA i od lipca 2024 roku utrzymuje się na stabilnym poziomie.
 
 - [tarpit.fun](https://tarpit.fun)
-  is hosted in Austria and has been stable since December 2024.
+  ma hostowany w Austrii i jest stabilny od grudnia 2024 r.
 
 Wszystkie serwery chatmail są obsługiwane przez różne grupy i osoby. Domyślny serwer nine.testrun.org jest obsługiwany przez głównych członków zespołu Delta Chat.
 
