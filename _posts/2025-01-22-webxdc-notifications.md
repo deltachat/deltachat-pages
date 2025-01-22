@@ -150,7 +150,7 @@ when the shopping-todo-list changes.
 
 ![View on the app store entry of the Todo List app](../assets/blog/2025-01-todolist.png)
 
-Who doesn't love todo-lists, the bane of western existence?  
+Who doesn't love todo-lists, the bane of modern existence?  
 Now you can do them nicely in a chat group.
 Or maybe you prefer the classic [checklist](https://webxdc.org/apps/#webxdc-checklist),
 one of the first webxdc apps back in 2023. 
