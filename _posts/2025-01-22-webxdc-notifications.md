@@ -60,7 +60,7 @@ Anyone can run their own curation pipelining and [re-use the web interface](http
 The new webxdc "app-store" web view was designed to integrate well
 with webxdc-supporting messengers through an "attach-app" action of the chat message input field. 
 Apart from Cheogram, Monocles and the mainline Delta Chat apps, 
-also [ArcaneChat (a soft Android-fork)](https://arcanechat.me/) and [DeltaTouch (a Lorimi-based UI for UbuntuTouch phones and some desktop environments)](https://delta.chat/en/2023-07-02-deltatouch) 
+also [ArcaneChat (a soft Android-fork)](https://arcanechat.me/) and [DeltaTouch (a Lomiri-based UI for UbuntuTouch phones and some desktop environments)](https://delta.chat/en/2023-07-02-deltatouch) 
 offer this new instant attach-app action. 
 Delta Chat apps run the app-picker with cached data so it works during offline times. 
 Most messengers also allow to configure a different URL for an alternative app-picker web page. 
