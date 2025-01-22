@@ -80,7 +80,7 @@ We collectively specified and implemented a new webxdc notification mechanism so
 [Chess](https://webxdc.org/apps/#arcanecircle-chess) can cause a system-level notification between app users aka "it's your turn",
 and the calendar can notify about "your chat partner added a new meeting date". 
 Webxdc apps re-use the existing push notification machinery of their host messengers 
-without having to interact with Google or Apple compliance buereaucracy. 
+without having to scream at Google or Apple compliance buereaucracy. 
 For webxdc apps to "notify" users they need to specify a list of *identities*
 when [sending application updates](https://webxdc.org/docs/spec/sendUpdate.html). 
 The [`webxdc.selfAddr` spec](https://webxdc.org/docs/spec/selfAddr_and_selfName.html#selfaddr) 
@@ -101,11 +101,11 @@ providing for a smoother transport-adaptive user experience.
 The [recently introduced webxdc realtime channels](https://delta.chat/en/2024-11-20-webxdc-realtime) have a specified 128KB size limit for ephemeral application updates. 
 Ephemeral realtime application updates 
 are only distributed between devices actively running a webxdc app
-which called the [joinRealtime API](https://webxdc.org/docs/spec/joinRealtimeChannel.html). 
+that called the [joinRealtime API](https://webxdc.org/docs/spec/joinRealtimeChannel.html). 
 
 # Replacing VC-funded platforms with a ZIP file ... 
 
-There is no shortage of Venture-Capital backed platforms that 
+There is no shortage of Venture-Capital backed mediator platforms that 
 offer "free" web apps or mobile apps (mostly web-apps in disguise) 
 to mediate interactions between private circles. 
 What if you could run such apps in your private chats without needing any mediator,
