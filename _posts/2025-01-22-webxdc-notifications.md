@@ -29,7 +29,7 @@ allowing to rebase relations between developers and users by saying
   Web app developers never obtain or touch any user data or user identities,
   and can have piece of mind of not being responsible for any data, 
   and not having to program identity management and social discovery UIs. 
-  Messenger already provide all of this through arranging chat groups or rooms. 
+  Messengers already provide all of this through arranging chat groups or rooms. 
 
 - **Bye Bye to depending on a corp or org that enshittiffies**: 
   Messengers, as decentralized runners of webxdc apps in chat groups, 
