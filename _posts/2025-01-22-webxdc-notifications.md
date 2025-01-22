@@ -82,7 +82,7 @@ We collectively specified and implemented a new webxdc notification mechanism so
 [Chess](https://webxdc.org/apps/#arcanecircle-chess) can cause a system-level notification between app users aka "it's your turn",
 and the calendar can notify about "your chat partner added a new meeting date". 
 Webxdc app developers re-use the existing push notification machinery of their host messengers 
-without having to scream at Google or Apple compliance buereaucracy themselves. 
+without having to scream into the void when facing Google or Apple compliance buereaucracy. 
 For webxdc apps to "notify" users they need to specify a list of *identities*
 when [sending application updates](https://webxdc.org/docs/spec/sendUpdate.html). 
 The [`webxdc.selfAddr` spec](https://webxdc.org/docs/spec/selfAddr_and_selfName.html#selfaddr) 
