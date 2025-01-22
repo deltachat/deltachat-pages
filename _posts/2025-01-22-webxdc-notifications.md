@@ -151,7 +151,7 @@ allows families, friends and other collectives to easily arrange for daily shopp
 The "Shopping list app" provides a simple view for entering "missing" items 
 which can be "checked" when someone bought it. 
 It's recommended to have a special-purpose "Shopping" chat group/room 
-to ask ask about, or clarify, specifics of shopping items. 
+to ask aboutor clarify specifics of shopping items. 
 There even is a "dark mode" and an icon to disable/enable "chat notifications"
 when the shopping-todo-list changes. 
 
