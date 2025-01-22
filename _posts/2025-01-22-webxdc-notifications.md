@@ -139,7 +139,7 @@ you can also "join the bill" if you don't add expenses.
 Split Bill intentionally provides a basic UI. 
 If you feel inclined to add features like a "settle up" button, 
 please fork [from the codeberg split-bill repository](https://codeberg.org/jagtalon/split-bill/),
-maybe tell the author about it, and submit a new app to the webxdc collection. 
+maybe tell Jag about it, and submit a new app to the webxdc collection. 
 Or maybe you have an idea how to evolve the split-bill app to become a "solidarity-party" 
 app to help accounting when organizing monetary support for people in need? 
 
