@@ -192,6 +192,11 @@ Curious and interested to join some "replace-VCs-with-ZIP-files" fun and work?
 provides tutorial material and introduction chapters on what is involved
 when replacing HTTP with Peer-to-Peer protocols. 
 
+We are handing over the mike to the wonderful [Rosano](https://rosano.ca/)
+who did a succinct intro video a while ago. 
+<video controls="" style="width:560px; max-width: 100%;"><source src="https://webxdc.org/assets/just-web-apps.mp4" type="video/mp4"><a href="https://www.youtube.com/watch?v=I1K4pBvb2pI">watch "just web apps" on youtube</a></video>
+
+
 ## Thanks to NLNET and NGI for their support and vision!
 
 <img alt="NLNet Logo" src="../assets/logos/logo_nlnet.svg" width="140" style="float:right; margin-left:1em;" />  
