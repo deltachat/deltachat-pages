@@ -2,6 +2,7 @@
 title: Replacing billionairish platforms with ZIP files
 author: olgax
 image: ../assets/blog/2025-01-pushicon.png
+com_id: 113877745572056794
 ---
 
 How can we evolve and deploy web apps without allowing developers or operators to become a "billionaire in the middle"? 
