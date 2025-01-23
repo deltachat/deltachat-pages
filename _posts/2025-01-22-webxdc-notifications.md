@@ -16,13 +16,14 @@ Joined by XMPP-messengers [Cheogram](https://cheogram.com) and [Monocles](https:
 and supported by many contributing experts in the background, 
 we are playfully addressing the no-billionaire-platforms challenge with 
 [webxdc](https://webxdc.org), a container format and API for "chat-shared web apps". 
-Technically, webxdc apps are HTML5 apps but instead of the HTTP protocol 
+Technically, webxdc apps are [network-sandboxed HTML5 apps](https://delta.chat/en/2023-05-22-webxdc-security)
+and instead of the HTTP protocol
 they use [Peer-to-Peer send/receive APIs](https://webxdc.org/docs/spec/sendUpdate.html) 
 implemented by webxdc-capable messengers,
-allowing to rebase relations between developers and users by saying
+allowing to rebase relations between developers and users, and saying
 
 - **Bye Bye to surveillance capitalism**:
-  users have both the code and the data of their web apps in their hands 
+  Users have both the code and the data of their web apps in their hands
   and benefit from end-to-end encrypted messaging not only during regular chat messaging 
   but also during their private web app usage.
 
