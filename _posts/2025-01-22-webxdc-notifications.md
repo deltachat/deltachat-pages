@@ -5,9 +5,10 @@ image: ../assets/blog/2025-01-pushicon.png
 ---
 
 How can we evolve and deploy web apps without allowing developers or operators to become a "billionaire in the middle"? 
-There are many ways to try to address this challenge and some are technical. 
+There are many ways to try to address this challenge and 
+some involve the technical Internet protocol foundations. 
 The "Web", and the HTTP protocol in particular, 
-arguably played a crucial part in producing tech billionaires
+arguably played a big part in producing tech billionaires
 with their possibly unprecedented power and money concentrations today. 
 
 <img alt="three spidermen pointing to each other, respectively labeled with 'messenger devs', 'webxdc app devs' and 'web app users'" src="../assets/blog/2025-01-spider3.jpg" width="360" style="float:right; margin-left:1em;" />
@@ -29,7 +30,7 @@ allowing to rebase relations between developers and users by saying
   Web app developers never obtain or touch any user data or user identities,
   and can have peace of mind of not being responsible for any data, 
   and not having to program identity management and social discovery UIs. 
-  Messengers already provide all of this through arranging chat groups or rooms. 
+  Messengers already provide it through arranging chat groups or rooms. 
 
 - **Bye Bye to depending on a corp or org that enshittifies**: 
   Messengers, as decentralized runners of webxdc apps in chat groups, 
@@ -42,8 +43,8 @@ But what if another reality is possible by just stretching out our hands and gra
 
 Let's look at some recent webxdc community advances,
 new webxdc app capabilities along with updates to the [webxdc specification](https://webxdc.org/docs/spec/index.html),
-and finally at some webxdc apps already in everyday use,
-as working approximations on how to replace whole Venture-Capital platforms with a ZIP file :)
+and finally at some community-produced webxdc apps already in everyday use,
+as working first approximations on how to replace whole Venture-Capital platforms with a ZIP file :)
 
 ## Integrated and streamlined webxdc app discovery 
 
@@ -181,8 +182,8 @@ on today's as well as future webxdc-capable messengers.
 Say Bye Bye to integrating with complex frameworks, broken dependencies, 
 "forced API level upgrades", new toolchains or store buereaucracy like 
 "your app will be delisted if you don't declare compliancy with X" etc. 
-Nothing can prevent using a webxdc app with friends if you have the zip file
-and a webxdc-capable messenger with a chat group/room to "run" it. 
+Nothing can prevent using a webxdc app with friends if you have, in your hand, 
+the zip file and a webxdc-capable messenger with a chat group/room to "run" it. 
 No worries about VPS or web hosting, DNS or SSL certificates. Peace!
 
 Curious and interested to join some "replace-VCs-with-ZIP-files" fun and work? 
