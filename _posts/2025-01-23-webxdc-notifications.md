@@ -21,7 +21,7 @@ Technically, webxdc apps are [network-sandboxed HTML5 apps](https://delta.chat/e
 and instead of the HTTP protocol
 they use [Peer-to-Peer send/receive APIs](https://webxdc.org/docs/spec/sendUpdate.html) 
 implemented by webxdc-capable messengers,
-allowing to rebase relations between developers and users, and saying
+rebasing relations between developers and users by saying
 
 - **Bye Bye to surveillance capitalism**:
   Users have both the code and the data of their web apps in their hands
@@ -193,7 +193,7 @@ Curious and interested to join some "replace-VCs-with-ZIP-files" fun and work?
 provides tutorial material and introduction chapters on what is involved
 when replacing HTTP with Peer-to-Peer protocols. 
 
-We are handing over the mike to the wonderful [Rosano](https://rosano.ca/)
+We are handing over the mic to the wonderful [Rosano](https://rosano.ca/)
 who did a succinct intro video a while ago. 
 <video controls="" style="width:560px; max-width: 100%;"><source src="https://webxdc.org/assets/just-web-apps.mp4" type="video/mp4"><a href="https://www.youtube.com/watch?v=I1K4pBvb2pI">watch "just web apps" on youtube</a></video>
 
