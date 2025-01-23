@@ -5,7 +5,7 @@ image: ../assets/blog/2025-01-pushicon.png
 ---
 
 How can we evolve and deploy web apps without allowing developers or operators to become a "billionaire in the middle"? 
-There are many ways to try to answer this challenge and some are technical. 
+There are many ways to try to address this challenge and some are technical. 
 The "Web", and the HTTP protocol in particular, 
 arguably played a crucial part in producing tech billionaires
 with their possibly unprecedented power and money concentrations today. 
@@ -170,19 +170,22 @@ is a popular daily family puzzle challenge.
 Every chat group gets their own unique Wonster challenge. 
 
 
-## "Finished Software" could be a thing again!
+## Sharing "Finished Software" could be a thing again!
+
+![View of a CD-ROM from 1991, with "So much Shareware!" printed on it](../assets/blog/2025-01-shareware.jpg)
 
 Webxdc app developers may improve an app over time or they may call it a day. 
 The webxdc specification aims to provide long-term backward-compatibility.
-Once written apps are to work for a long time. 
-Say Bye Bye to broken dependencies, "forced API level upgrades", new toolchains 
-or crazy buereaucracy like 
+Once written apps are to work for a long time, 
+on today's as well as future webxdc-capable messengers. 
+Say Bye Bye to integrating with complex frameworks, broken dependencies, 
+"forced API level upgrades", new toolchains or store buereaucracy like 
 "your app will be delisted if you don't declare compliancy with X" etc. 
-Nothing can prevent using an app with friends if you have the zip-file on your disc, 
+Nothing can prevent using a webxdc app with friends if you have the zip file
 and a webxdc-capable messenger with a chat group/room to "run" it. 
 No worries about VPS or web hosting, DNS or SSL certificates. Peace!
 
-Curious and interested to join some "replace-VCs-with-ZIP-files" fun? 
+Curious and interested to join some "replace-VCs-with-ZIP-files" fun and work? 
 [Getting started with webxdc development](https://webxdc.org/docs/) 
 provides tutorial material and introduction chapters on what is involved
 when replacing HTTP with Peer-to-Peer protocols. 
