@@ -6,16 +6,6 @@ header: 常见问题
 ---
 
 
---- START OF FILE help.md ---
-
----
-title: FAQ
-lang: zh
-render_toc: true
-header: 常见问题解答
----
-
-
 ## 什么是 Delta Chat？
 
 Delta Chat 是一款可靠、去中心化且安全的即时通讯应用，
