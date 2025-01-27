@@ -23,7 +23,7 @@ Delta Chat 感觉就像 Whatsapp 或 Telegram，但你也可以把它当作电�
 ### 如何找到可以聊天的人？
 
 要安全地与他人建立联系[扫描邀请二维码 
-或分享邀请链接]（#howtoe2ee）。 
+或分享邀请链接](#howtoe2ee)。 
 使用（默认的）基于chatmail的聊天账户时需要这样做 
 因为chatmail会拒绝未加密的发送信息。
 
@@ -238,7 +238,7 @@ Delta Chat 感觉就像 Whatsapp 或 Telegram，但你也可以把它当作电�
 不会向 Apple 泄露其尚未拥有的数据。
 
 
-### Android 设备上是否启用/需要推送通知？{#android-push}
+### Android 设备上是否启用/需要推送通知？ {#android-push}
 
 如果有“推送服务”可用，Delta Chat 将启用推送通知，
 以实现所有聊天邮件用户的即时消息传递。
@@ -334,7 +334,7 @@ Autocrypt 使用 OpenPGP 标准的有限且[安全子集](#openpgp-secure)。
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
 保证端到端加密消息。
 
-### 我如何知道信息是否经过端到端加密？{#whene2e}
+### 我如何知道信息是否经过端到端加密？ {#whene2e}
 
 所有端到端加密的消息都带有挂锁：
 
