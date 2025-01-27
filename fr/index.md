@@ -9,7 +9,7 @@ lang: fr
 
 ⚡️ Inscrivez-vous à [des serveurs chatmail rapides et sécurisés](chatmail) ou utilisez [des serveurs de courriel classique](https://providers.delta.chat/)
 
-🥳 [web apps in chats] interactifs (https://webxdc.org/) pour les jeux et la collaboration
+🥳 [web apps in chats](https://webxdc.org/) interactifs pour les jeux et la collaboration
 
 🔒 [Chiffrement end-to-end audité](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) à l'abri contre les attaques ciblées sur le réseau ou les serveurs
 
