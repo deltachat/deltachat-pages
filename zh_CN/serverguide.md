@@ -7,9 +7,7 @@ lang: zh_CN
 
 Delta Chat 是运行在电子邮件之上的聊天软件。这意味着可以使用任意电子邮件服务器来支持 Delta Chat 账户。 [Mailcow](https://mailcow.email) 是易于搭建与管理，并且可对 Delta Chat 开箱即用的电子邮件服务器。
 
-You can run it together with [mailadm](https://mailadm.readthedocs.io), which
-offers your users an easy way to create an e-mail account and directly login
-with Delta Chat. It is also included in this guide.
+你可以将其与 [mailadm](https://mailadm.readthedocs.io) 一起运行，mailadm 为你的用户提供了一种简单的方式来创建电子邮件账户并直接使用 Delta Chat 登录。本指南也包含了 mailadm 的安装说明。
 
 你需要：
 
@@ -22,43 +20,27 @@ with Delta Chat. It is also included in this guide.
 
 ## 安装 Docker
 
-As a prerequisite you need to install [docker and
-docker-compose](https://docs.mailcow.email/getstarted/install/#docker-and-docker-compose-installation).
+作为前提条件，你需要安装 [docker 和 docker-compose](https://docs.mailcow.email/getstarted/install/#docker-and-docker-compose-installation)。
 
 ### 如果 docker.com 被屏蔽：
 
-Depending on the country where your server is in, docker.com may be blocked. You
-can also get docker & docker-compose from other sources, which may work:
+取决于你的服务器所在的国家/地区，docker.com 可能会被屏蔽。你也可以从其他来源获取 docker 和 docker-compose，这些来源可能可以工作：
 
-- Ubuntu's official apt repository usually has an outdated docker version; that
-  is not the best idea.
-- [snap](https://docs.docker.com/engine/install/ubuntu/) is another way to
-  install docker, but for docker-compose the snap variant doesn't work. Note
-  that if you install docker via snap, it doesn't run in systemd, but in snap.
-- You can try to download the docker-compose binary [from GitHub](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64)
-  and copy it to [the right location](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
-- And finally you can try to get access to a server outside your country,
-  create a HTTPS proxy, and use that to install docker and docker-compose. It's
-  tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
-  you run into problems.
+- Ubuntu 官方 apt 仓库通常提供过时的 Docker 版本；这不是最佳选择。
+- [snap](https://docs.docker.com/engine/install/ubuntu/) 是安装 Docker 的另一种方式，但对于 docker-compose，snap 版本无法正常工作。 请注意，如果你通过 snap 安装 Docker，它不会在 systemd 中运行，而是在 snap 中运行。
+- 你可以尝试[从 GitHub 下载 docker-compose 二进制文件](https://github.com/docker/compose/releases/download/v2.12.0/docker-compose-linux-x86_64) 并将其复制到[正确的位置](https://docs.docker.com/compose/install/linux/#install-the-plugin-manually)
+- 最后，你可以尝试访问你所在国家/地区以外的服务器，创建 HTTPS 代理，并使用它来安装 docker 和 docker-compose。这有点棘手，但可能会奏效。如果你遇到问题，可以[联系我们](mailto:mailadm@testrun.org)
 
-## Create DNS Entries
+## 创建 DNS 记录
 
-If you don't have a domain yet, you can use a service like
-[njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
-pay with PayPal, Bitcoin, or Monero.
+如果你还没有域名，可以使用 [njal.la](https://njal.la) 等服务购买一个 .net 或 .org 域名，每年 15 欧元。你可以使用 PayPal、比特币或 Monero 付款。
 
-Let's assume:
-- you bought example.org. For now you only want a mail server, but you think
-  about hosting a website at https://example.org later.
-- your server has the IPv4 address 24.48.100.24 - you can find out with the
-  command `ip a` and look for a similar-looking number (which doesn't start
-  with 127 or 172).
-- your server has the IPv6 address 7fe5:2f4:1ba:2381::3 (you can find it in `ip
-  a`, 2 lines below the IPv4 address. Ignore the `/64` at the end. Don't use
-  the one starting with `fe80`, it doesn't count).
+假设：
+- 你购买了 example.org。目前你只需要一个邮件服务器，但你考虑稍后在 https://example.org 上托管一个网站。
+- 你的服务器的 IPv4 地址是 24.48.100.24 - 你可以使用命令 `ip a` 找到它，并查找类似的数字（不以 127 或 172 开头）。
+- 你的服务器的 IPv6 地址是 7fe5:2f4:1ba:2381::3 （你可以在 `ip a` 中找到它，在 IPv4 地址下方 2 行。忽略末尾的 `/64`。不要使用以 `fe80` 开头的地址，它不算数）。
 
-Now you could configure the domain settings for example.org like this:
+现在你可以像这样配置 example.org 的域名设置：
 
 | Type  | Name                      | Data                                                 | TTL  | Priority |
 |-------|---------------------------|------------------------------------------------------|------|----------|
@@ -71,19 +53,15 @@ Now you could configure the domain settings for example.org like this:
 | TXT   | @                         | "v=spf1 mx -all"                                     | 5min |          |
 | TXT   | \_dmarc.example.org       | v=DMARC1;p=quarantine;rua=mailto:mailadm@example.org | 5min |          |
 
-You can setup the DKIM key after setting up mailcow,
-in System>Configuration>Options>ARC/DKIM keys.
+你可以在设置 mailcow 后设置 DKIM 密钥，位置在 System>Configuration>Options>ARC/DKIM keys。
 
-You can do more than 5 minutes, but in case you notice something is wrong a
-short time helps with fixing the wrong entry.
+你可以设置超过 5 分钟的 TTL，但如果你注意到某些设置错误，较短的时间有助于更快地修复错误的条目。
 
 ## 安装 Mailcow
 
-### Set Mailcow Options
+### 设置 Mailcow 选项
 
-First clone the mailcow git repository - if your server doesn't have access to
-github.com, you can do this step somewhere else and use `scp` to copy it to
-your server.
+首先克隆 mailcow git 仓库 - 如果你的服务器无法访问 github.com，你可以先在其他地方执行此步骤，然后使用 `scp` 将其复制到你的服务器。
 
 ```
 sudo apt install -y git
@@ -91,9 +69,7 @@ git clone https://github.com/mailcow/mailcow-dockerized
 cd mailcow-dockerized
 ```
 
-Now you should run `./generate_config.sh` to generate the mailcow.conf file.
-If your server doesn't have access to github.com, you first need to remove any
-git command from the script. Enter the options like this:
+现在你应该运行 `./generate_config.sh` 来生成 mailcow.conf 文件。如果你的服务器无法访问 github.com，你首先需要从脚本中删除任何 git 命令。像这样输入选项：
 
 ```
 Mail server hostname (FQDN) - this is not your mail domain, but your mail servers hostname: mail.example.org
@@ -107,7 +83,7 @@ Available Branches:
 Choose the Branch with it´s number [1/2] 1
 ```
 
-You should specify the following variables in mailcow.conf:
+你应该在 mailcow.conf 中指定以下变量：
 
 ```
 ADDITIONAL_SAN=mailadm.example.org
@@ -116,17 +92,13 @@ SKIP_SOLR=y
 SKIP_SOGO=y
 ```
 
-The last 3 options remove services which are not needed for a minimal setup.
+最后 3 个选项移除了最小化设置不需要的服务。
 
-After that we need to run `echo '#' > data/conf/dovecot/global_sieve_before`.
+之后我们需要运行 `echo '#' > data/conf/dovecot/global_sieve_before`。
 
-### Mailadm NGINX config
+### Mailadm NGINX 配置
 
-`mailadm.example.org/new_email` needs to be reachable for HTTP requests to work.
-So we need to create two files for Mailcows Nginx redirection.
-First we do `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`
-and then we create the file `data/conf/nginx/site.mailadm.custom`
-and add the following block to it:
+`mailadm.example.org/new_email` 需要能够通过 HTTP 请求访问才能工作。因此我们需要为 Mailcow 的 Nginx 重定向创建两个文件。首先我们执行 `echo 'mailadm.example.org' > data/conf/nginx/server_name.active`，然后我们创建文件 `data/conf/nginx/site.mailadm.custom` 并向其中添加以下块：
 
 ```
   location /new_email {
@@ -134,64 +106,53 @@ and add the following block to it:
   }
 ```
 
-Make sure to replace this example IP address with your server's IP address.
+请务必将此示例 IP 地址替换为你的服务器的 IP 地址。
 
-This will forward all requests to `mailadm.example.org/new_email` to the mailadm
-container later.
+这将把所有对 `mailadm.example.org/new_email` 的请求转发到稍后的 mailadm 容器。
 
-### Download mailcow containers
+### 下载 mailcow 容器
 
-Now run `sudo docker compose pull` to download the mailcow containers. If you don't
-have access to docker.com at this step, you can [use an HTTP
-proxy](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/).
+现在运行 `sudo docker compose pull` 来下载 mailcow 容器。如果你在此步骤中无法访问 docker.com，你可以[使用 HTTP 代理](https://elegantinfrastructure.com/docker/ultimate-guide-to-docker-http-proxy-configuration/)。
 
 ### 启动 Mailcow
 
-Now start mailcow with `sudo docker compose up -d`.
+现在使用 `sudo docker compose up -d` 启动 mailcow。
 
 ### 为 mailcow 禁用 IPv6
 
 在服务器没有 IPv6 地址的情况下，你应当[禁用 IPv6](https://docs.mailcow.email/post_installation/firststeps-disable_ipv6/)。
 
-### Adding Domain in Mailcow
+### 在 Mailcow 中添加域名
 
-Now you can login to the mailcow web interface at https://mail.example.org. The
-default username is `admin` and the password is `moohoo`. You should change
-this password to something more secure.
+现在你可以使用 https://mail.example.org 登录 mailcow Web 界面。默认用户名是 `admin`，密码是 `moohoo`。你应该将此密码更改为更安全的密码。
 
-![The Mailcow web interface.](../assets/blog/mailcow-UI-login.png)
+![Mailcow Web 界面登录页面。](../assets/blog/mailcow-UI-login.png)
 
-Next, add a domain in the web interface under "E-Mail > Configuration > Domains".
-Somethings like this makes sense:
+接下来，在 Web 界面中的 "E-Mail > Configuration > Domains" 下添加一个域名。像这样的设置是合理的：
 
-- domain: example.org
-- max. mailboxes: 999999
-- default mailbox quota: 3076 (it doesn't matter, mailadm will override this)
-- max. mailbox quota: 17240 (basically a bit less than your free disk space)
-- domain quota: 17240 (basically a bit less than your free disk space)
+- 域名: example.org
+- 最大邮箱数: 999999
+- 默认邮箱配额: 3076 (没关系，mailadm 会覆盖它)
+- 最大邮箱配额: 17240 (基本上比你的可用磁盘空间略小)
+- 域名配额: 17240 (基本上比你的可用磁盘空间略小)
 
-![Creating a domain in mailcow](../assets/blog/mailcow-create-domain.png)
+![在 Mailcow 中创建域名](../assets/blog/mailcow-create-domain.png)
 
-After this, you can go to "E-Mail > Configuration > Mailboxes" and create a first account.
-You can try it out with Delta Chat now.
+完成此操作后，你可以转到 "E-Mail > Configuration > Mailboxes" 并创建第一个帐户。现在你可以用 Delta Chat 尝试一下了。
 
-#### Recommended: Add Additional DNS Entries
+#### 推荐：添加额外的 DNS 记录
 
-In "E-Mail > Configuration > Domains", on the right next to your domain, you can see a blue
-"DNS" button. It provides further recommendations for DNS entries which might
-help if you have problems getting your e-mails delivered to other servers.
+在 "E-Mail > Configuration > Domains" 中，在你的域名右侧，你可以看到一个蓝色的 "DNS" 按钮。它提供了进一步的 DNS 记录建议，如果你在将电子邮件传递到其他服务器时遇到问题，这些记录可能会有所帮助。
 
-![Showing DNS settings in Mailcow](../assets/blog/mailcow-dns-settings.png)
+![在 Mailcow 中显示 DNS 设置](../assets/blog/mailcow-dns-settings.png)
 
 ## 安装 mailadm
 
-Now we can set up mailadm - with this tool you can generate QR codes, which
-people can scan from Delta Chat to create an e-mail account on your server. It
-is probably the easiest way for users to get started with Delta Chat.
+现在我们可以设置 mailadm 了 - 使用此工具，你可以生成二维码，人们可以使用 Delta Chat 扫描二维码，以便在你的服务器上创建电子邮件帐户。这可能是用户开始使用 Delta Chat 最简单的方式。
 
 ### 下载 mailadm
 
-You can use these commands to download mailadm:
+现在你可以使用 `sudo docker build . -t mailadm-mailcow` 构建 mailadm docker 容器。
 
 ```
 cd ~
@@ -202,14 +163,11 @@ mkdir docker-data
 
 ### 构建 mailadm
 
-Now you can build the mailadm docker container with
-`sudo docker build . -t mailadm-mailcow`.
+现在你可以使用 `sudo docker build . -t mailadm-mailcow` 构建 mailadm docker 容器。
 
 #### 如果 docker.com 或 pypi.org 被屏蔽
 
-If your server can't reach docker.com, dl-cdn.alpinelinux.org, or pypi.org,
-this will fail. But you can build the docker container on a different machine
-and copy it to the VPS:
+如果你的服务器无法访问 docker.com、dl-cdn.alpinelinux.org 或 pypi.org，这将失败。但你可以在另一台机器上构建 docker 容器并将其复制到 VPS：
 
 ```
 sudo docker build . -t mailadm-mailcow
@@ -219,23 +177,17 @@ ssh example.org
 sudo docker load --import mailadm-image.tar
 ```
 
-### Getting an API token from the web interface
+### 从 Web 界面获取 API 令牌
 
-Now you can go to https://mail.example.org/admin again, to get a mailcow API
-key.
+现在你可以再次访问 https://mail.example.org/admin，以获取 mailcow API 密钥。
 
-You have to activate the API (Make sure to use the "Read-Write Access API" and
-not the "Read-Only Access API"!) and enter your server's br-mailcow interface
-IP address under "Allow API access from these IPs/CIDR network notations". You
-can find out the IP address with `ip a show br-mailcow`.
+你必须激活 API（请务必使用“读写访问 API”，而不是“只读访问 API”！），并在“允许来自这些 IP/CIDR 网络符号的 API 访问”下输入你的服务器的 br-mailcow 接口 IP 地址。你可以使用 `ip a show br-mailcow` 找到 IP 地址。
 
-Check the checkbox "Activate API and then click on "Save Changes" and copy the
-API key.
+选中“激活 API”复选框，然后单击“保存更改”并复制 API 密钥。
 
-### Configuring mailadm
+### 配置 mailadm
 
-Then, in the mailadm directory, create a `.env` file and configure mailadm like
-this:
+然后，在 mailadm 目录中，创建一个 `.env` 文件并像这样配置 mailadm：
 
 ```
 MAIL_DOMAIN=example.org
@@ -244,79 +196,60 @@ MAILCOW_ENDPOINT=https://mail.example.org/api/v1/
 MAILCOW_TOKEN=238473-081241-7A78B1-B7098C-E798BA
 ```
 
-At `MAILCOW_TOKEN`, enter the API key which you just got from the mailcow web
-interface.
+在 `MAILCOW_TOKEN` 中，输入你刚刚从 mailcow Web 界面获得的 API 密钥。
 
-If you are unsure how to choose the values in .env, take a look at the
-[documentation](https://mailadm.readthedocs.io/en/latest/#configuration-details)
-of mailadm.
+如果你不确定如何选择 .env 中的值，请查看 mailadm 的[文档](https://mailadm.readthedocs.io/en/latest/#configuration-details)。
 
-### Add mailadm alias
+### 添加 mailadm 别名
 
-Now to make it easier to run mailadm commands, add this alias:
+现在为了更轻松地运行 mailadm 命令，添加此别名：
 
 ```
 alias mailadm="$PWD/scripts/mailadm.sh"
 echo "alias mailadm=$PWD/scripts/mailadm.sh" >> ~/.bashrc
 ```
 
-### Start mailadm
+### 启动 mailadm
 
-Then you can initialize the database and setup the bot mailadm will use to
-receive commands and support requests from your users:
+然后你可以初始化数据库并设置 mailadm 将用于接收来自用户的命令和支持请求的机器人：
 
 ```
 mailadm init
 mailadm setup-bot
 ```
 
-Then you are asked to scan a QR code to join the Admin Group, a verified Delta
-Chat group. Anyone in the group can issue commands to mailadm via Delta Chat.
-You can send “/help” to the group to learn how to use it.
+然后会要求你扫描二维码以加入管理组，这是一个经过验证的 Delta Chat 群组。群组中的任何人都可以通过 Delta Chat 向 mailadm 发出命令。你可以向群组发送 “/help” 以了解如何使用它
 
-Now, as everything is configured, we can start the mailadm container for good:
+现在，由于一切都已配置好，我们可以永久启动 mailadm 容器了：
 
 ```
 sudo docker run -d -p 3691:3691 --mount type=bind,source=$PWD/docker-data,target=/mailadm/docker-data --name mailadm mailadm-mailcow gunicorn -b :3691 -w 1 mailadm.app:app
 ```
 
-This starts a `mailadm` docker container. You can restart it with `sudo docker
-restart mailadm`, should you ever want to.
+这将启动一个 `mailadm` docker 容器。你可以使用 `sudo docker restart mailadm` 重启它，如果你想这样做的话。
 
-#### First steps with mailadm
+#### mailadm 的初步使用
 
-That's it! You can now get started with creating tokens and users with mailadm.
-Best look at the documentation for the [first
-steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
-contains hints for troubleshooting the setup if something doesn't work.
+就这样！你现在可以开始使用 mailadm 创建令牌和用户了。最好查看[初步使用](https://mailadm.readthedocs.io/en/latest/#first-steps)的文档 - 它还包含如果某些内容无法正常工作时，故障排除的提示。
 
-## Recommended: Disable POP3
+## 推荐：禁用 POP3
 
-Delta Chat uses only SMTP and IMAP,
-so if all of your users use Delta Chat,
-you can disable POP3.
+Delta Chat 仅使用 SMTP 和 IMAP，因此如果你的所有用户都使用 Delta Chat，则可以禁用 POP3。
 
-To do this, add the following to `mailcow.conf`:
+为此，请将以下内容添加到 `mailcow.conf`：
 
 ```
 POP_PORT=127.0.0.1:110
 POPS_PORT=127.0.0.1:995
 ```
 
-Then apply the changes with `sudo docker compose up -d`.
+然后使用 `sudo docker compose up -d` 应用更改。
 
-## Recommended: Redirect all HTTP traffic to HTTPS
+## 推荐：将所有 HTTP 流量重定向到 HTTPS
 
-By default,
-the nginx server also responds unencrypted
-on port 80.
-This can be bad,
-as some users might enter passwords
-over this unencrypted connection.
+默认情况下，nginx 服务器也会在端口 80 上以未加密的方式响应。这可能不好，因为某些用户可能会通过此未加密的连接输入密码。
 
-To prevent this,
-create a new file `data/conf/nginx/redirect.conf`
-and add the following server config to the file:
+为了防止这种情况，创建一个新文件 `data/conf/nginx/redirect.conf` 并将以下服务器配置添加到该文件：
 
 ```
 server {
@@ -335,24 +268,17 @@ server {
 }
 ```
 
-Then apply the changes with `sudo docker compose restart nginx-mailcow`.
+然后使用 `sudo docker compose restart nginx-mailcow` 应用更改。
 
-## Recommended: No Logs, No Masters
+## 推荐：无日志，无主日志
 
-Mailcow logs the IP addresses of your users for debugging purposes, so if you
-don't want to keep this critical information on your server, you might want to
-disable logging. Note that this makes debugging of issues considerably harder.
-Nobody but you can guess whether this is necessary in your environment.
+Mailcow 会记录用户的 IP 地址以进行调试，因此如果你不想在服务器上保留此关键信息，你可能需要禁用日志记录。请注意，这会使问题调试变得更加困难。只有你自己才能判断这在你的环境中是否必要。
 
-Mailcow keeps some logs in redis, so you can show it in the web interface - but
-if you add `command: '--save ""'` to the redis-server container in
-docker-compose.yml, it keeps them only in the RAM, which is hopefully not saved
-by a potential attacker.
+Mailcow 将一些日志保存在 Redis 中，因此你可以在 Web 界面中显示它 - 但如果你在 docker-compose.yml 中的 redis-server 容器中添加 `command: '--save ""'`，它只会将它们保存在 RAM 中，希望潜在的攻击者不会保存 RAM 中的数据。
 
-To point the actual log files in `/dev/null`, aka Nirvana, you can:
+要将实际的日志文件指向 `/dev/null`，又名涅槃，你可以：
 
-Add the following lines to each container in
-`mailcow-dockerized/docker-compose.yml`:
+在 `mailcow-dockerized/docker-compose.yml` 中的每个容器中添加以下行：
 
 ```
       logging:
@@ -362,39 +288,27 @@ Add the following lines to each container in
           syslog-facility: "local3"
 ```
 
-Now you can configure rsyslog to listen on that port for log input. Uncomment
-the following lines in `/etc/rsyslog.conf`:
+现在你可以配置 rsyslog 以侦听该端口的日志输入。取消注释 `/etc/rsyslog.conf` 中的以下行：
 
 ```
 module(load="imudp")
 input(type="imudp" port="514")
 ```
 
-And put this in `/etc/rsyslog.d/` to redirect all of that to nirvana:
+并将此内容放入 `/etc/rsyslog.d/` 中，以将所有内容重定向到涅槃：
 
 ```
 local3.*        /dev/null
 & stop
 ```
 
-Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
-`sudo docker compose up -d`.
+最后，使用 `sudo service rsyslog restart` 重启 rsyslog，并使用 `sudo docker compose up -d` 重启 mailcow。
 
-Consider looking at the [Mailcow logging
-documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
-for alternatives to this configuration.
+可以考虑查看 [Mailcow 日志记录文档](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation) 以获取此配置的替代方案。
 
-## Recommended: Add Reverse DNS Entries at Your Provider
+## 推荐：在你的提供商处添加反向 DNS 记录
 
-You might also create reverse DNS entries
-for the IPv4 and IPv6 addresses of your server,
-containing your domain.
-Reverse DNS entries improve deliverability;
-it helps other mail server
-distinguish your user's mails from spam.
+你还可以为服务器的 IPv4 和 IPv6 地址创建反向 DNS 记录，其中包含你的域名。反向 DNS 记录可以提高送达率；它有助于其他邮件服务器将你用户的邮件与垃圾邮件区分开来。
 
-Setting rDNS entries should be possible
-in the hosting provider web interface.
-You can read more about it
-[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+应该可以在托管提供商的 Web 界面中设置 rDNS 记录。你可以在[本文](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/)中阅读有关它的更多信息。
 

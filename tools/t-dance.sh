@@ -92,6 +92,7 @@ create_html_files() {
   # create html files from markdown
   cd ..
   bundle exec jekyll build
+  rm -r result || true
   mv _site result
   cd tools
 }

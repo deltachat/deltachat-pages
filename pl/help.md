@@ -211,25 +211,18 @@ Obsługa powiadomień push w Delta Chat pozwala uniknąć wycieku prywatnych inf
 
 Oto jak aplikacje Delta Chat realizują dostarczanie powiadomień push:
 
-- A Delta Chat app obtains a "device token" locally, encrypts it and stores it
-  on the [chatmail](https://delta.chat/chatmail) server.
+- Aplikacja Delta Chat uzyskuje lokalnie „token urządzenia”, szyfruje i przechowuje go na serwerze [chatmail](https://delta.chat/chatmail).
 
-- When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- Kiedy serwer [chatmail](https://delta.chat/chatmail) odbierze wiadomość e-mail od użytkownika Delta Chat, przekazuje zaszyfrowany token urządzenia do centralnego serwera proxy powiadomień Delta Chat.
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or e-mail address of Delta Chat users.
+- Centralny serwer proxy powiadomień Delta Chat deszyfruje token urządzenia i przekazuje go do odpowiedniej usługi Push (Apple, Google itp.), nie znając nawet adresu IP ani adresu e-mail użytkowników Delta Chat.
 
 - Centralna usługa Push (Apple, Google itp.) budzi aplikację Delta Chat na twoim urządzeniu, aby sprawdzić w tle nowe wiadomości. Nie zna chatmaila ani adresu e-mail urządzenia, na którym się budzi. Centralne usługi push Apple/Google nigdy nie widzą adresu e-mail (nadawcy ani odbiorcy), a także nigdy nie widzą treści wiadomości (również w formie zaszyfrowanej).
 
 
 Centralny serwer proxy powiadomień Delta Chat [jest mały i w pełni zaimplementowany w Rust](https://github.com/deltachat/notifiers) i zapomina o tokenach urządzeń zaraz po ich przetworzeniu przez Apple/Google/itp, zwykle w ciągu kilku milisekund.
 
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees e-mail addresses, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
+Pamiętaj, że token urządzenia jest szyfrowany między aplikacjami a serwerem proxy powiadomień, ale nie jest podpisany. Serwer proxy powiadomień nigdy nie widzi adresów e-mail, adresów IP ani żadnych kryptograficznych informacji identyfikujących powiązanych z urządzeniem użytkownika (tokenem).
 
 W wyniku tego ogólnego projektu ochrony prywatności nawet przejęcie serwera chatmail lub pełne przejęcie centralnego serwera proxy powiadomień Delta Chat nie spowodowałoby ujawnienia prywatnych informacji, których usługi Push jeszcze nie posiadają.
 

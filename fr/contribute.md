@@ -32,10 +32,10 @@ Si vous avez envie de nous aider, n'hésitez pas à nous contacter à (delta [at
 Pour plus de renseignements concernant nos activités, nous vous recommandons de lire notre [blog](https://delta.chat/en/blog) et de vous y abonner.
 
 
-# Third party communication channels 
+# Canaux de communication tiers 
 
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
+Les canaux de communication suivants, liés à Delta Chat, sont gérés par des tiers
+qui peuvent ou non respecter nos [normes communautaires](community-standards) : 
 
 - English-speaking Delta Chat community group, you can join the group:
   * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
@@ -43,12 +43,12 @@ which may or may not follow our [Community Standards](community-standards):
   * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [In Telegram](https://t.me/deltachat_community)
 
-- A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
+- Une [Communauté Lemmy](https://lemmy.zip/c/delta_chat)
+  que vous pouvez suivre en ajoutant `!delta_chat@lemmy.zip` 
+  dans le champ de recherche de votre app fediverse.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- Une [subreddit DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above)
-or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+Si vous avez connaissance, ou créez-vous même, des canaux additionnels,
+s'il vous plaît dites le nous (reportez vous aux canaux et repo ci-dessus)
+or [ou éditez cette page sur GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
