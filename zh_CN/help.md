@@ -38,7 +38,7 @@ Delta Chat 感觉就像 Whatsapp 或 Telegram，但你也可以把它当作电�
 - 使用快速、安全、可互操作的 [chatmail 服务器](https://delta.chat/chatmail) 创建匿名聊天账户
   为 iOS 和 Android 设备提供即时推送通知。 
 
-- 跨平台支持 [多配置文件]（#多账户）和多设备。 
+- 跨平台支持 [多配置文件](#多账户) 和多设备。 
 
 - 交互性 [聊天中的网页小程序](https://webxdc.org/apps)
 
@@ -1155,5 +1155,5 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
 
 上面提到的钱款资助主要是由在弗赖堡（德国）的 merlinux GmbH 组织的，分发给了来自世界各地的十多位贡献者。
 
-请参阅 [Delta Chat 捐款渠道]（捐款）
+请参阅 [Delta Chat 捐款渠道](contribute)
 以了解货币捐款和其他捐款的可能性。  
