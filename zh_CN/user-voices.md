@@ -1,117 +1,130 @@
 ---
-title: 用户故事与发言
+title: 用户故事与用户之声
 lang: zh_CN
 ---
 
-# 用户故事与发言
+# 用户故事与用户之声  
 
-### more fun with e-mail
+### 让电子邮件更像聊天  
 
-_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+_"一个有趣的发现：用 #DeltaChat 来收发电子邮件，比传统的电子邮件客户端更令人愉快。我想，这主要是因为它的现代化设计——将电子邮件呈现得像聊天消息一样直观。"_
 
-**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
+**一位波兰用户**在 [Mastodon](https://101010.pl/@michal/107107322703871076) 上分享  
 
-### supports more than one account
+### 多账户支持  
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"嗨，Delta.chat 团队！感谢你们开发这款应用；它既非常实用，也几乎达到了完美的用户体验（UX）。能否提供更简单的方式在多个电子邮件账户之间切换？[……]"_  
+**一位用户**在我们优化多账户功能之前，在 [Mastodon](https://oc.todon.fr/@borispaing/106607795144753681) 上的留言  
 
-### audio and video call possible
+### 支持音视频通话  
 
-_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+_"最棒的是，它通过创建 Jitsi 房间并发送邀请的方式，支持视频和音频通话，这真是一个非常酷的解决方案！:)"_  
 
-**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
+**一位用户**在 [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273) 上评论  
 
-### 可以推荐给盲人
+### 推荐给视障人士  
 
-_“ 就在发邮件给你们后，我昨晚安装了Delta Chat，我立刻注意到了无障碍性方面的改进 [...]应用正常工作！我可以无障碍使用它！我可以把这个应用推荐给其他盲人！干得好，伙计们！ [...]”_
+_"昨晚刚装了 Delta Chat，就在给你们写信之后，  
+我立刻感受到了无障碍功能的改进。[……]  
+它运行得非常流畅！而且操作也很便捷！  
+我可以毫不犹豫地向其他视障人士推荐这款应用！  
+干得好！[……]"_  
 
-**盲人用户** 2019年的Android版本，发送电子邮件到delta@merlinux.eu
+**一位视障用户**2019 年通过电子邮件向 delta@merlinux.eu 反馈 Android 版本体验  
 
-### Popular in regions with strict Internet governance
+### 在网络监管严格的地区走红  
 
-_"There's this nice messenger, based on a simple email, called Delta Chat. I am happy that our Internet watchdog has made this app popular by trying to block it. It's just like with Telegram that has become widely popular across non-tech audiences after the ban"._ 
+_"有一个非常棒的即时通讯工具，叫 Delta Chat，它基于简单的电子邮件。我很高兴，我们的互联网监管机构试图封锁它的举动反而让它更受欢迎了。就像当年封禁 Telegram 后，反而让它在非技术用户中更流行了一样。"_
 
-**Russian user** from 2020 in response to Delta Chat's rejection to satisfy Russian Internet watchdog RKN's request for user data, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**一位俄罗斯用户**2020 年在 Delta Chat 拒绝满足俄罗斯互联网监管机构的用户数据请求后，在 [Twitter](https://twitter.com/Alex0s/status/1256841124427313153) 上留言  
 
-### Chatty interface with robust encryption
+### 聊天界面与强大的加密功能  
 
-_"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
+_"虽然我晚了一些才发现，但 Delta Chat 确实很出色，尤其是对于关注隐私的人来说。它本质上是一个专为加密设计的电子邮件客户端，但呈现出了聊天的界面。"_
 
-**American user** from 2020 recommending Delta Chat for everyday usage
+**一位美国用户**2020 年推荐 Delta Chat 用于日常使用  
 
-### Works during Internet shutdowns
+### 在网络中断时依然可用  
 
-_"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
+_"我很高兴可以直接从官方网站下载 Delta Chat，而不只是通过 Google Play，因为在白俄罗斯，Google Play 被屏蔽了。虽然下载 APK 稍有点慢，但安装后应用运行非常出色。我们甚至可以加密分享照片和视频。"_
 
-**Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
+**一位白俄罗斯用户**2020 年 8 月抗议期间，通过电子邮件向 delta@merlinux.eu 反馈  
 
-### 公司通知系统已迁移
+### 公司内部通知系统的迁移  
 
-_“是的，公司将所有的帐单/停机通知系统从 Telegram 迁移到了 Delta Chat 以提升保密性。于是，我们的摄像头会发送入侵检测警报到 delta 群聊中。”_
+_"是的，我们公司已经将所有计费和故障通知系统从 Telegram 迁移到了 Delta Chat，以提高企业信息保密性。因此，现在我们的安防摄像头可以将入侵警报直接发送到 Delta 的群聊中。"_
 
-**早期用户** 2018年发表于[支持论坛](https://support.delta.chat/t/clear-chat-function/163/8)
+**一位早期用户**2018 年在 [支持论坛](https://support.delta.chat/t/clear-chat-function/163/8) 中提到  
 
+### 电子邮件，始终在线  
 
-### 电子邮件始终管用
+_"我真的很庆幸 Delta Chat 存在，也很高兴自己发现了它。  
+作为一名 WhatsApp 的早期用户，我因为隐私和安全问题而退出了 WhatsApp，这导致了一些联系的中断。  
+尽管我为很多替代产品做了宣传，但市场上的选择实在太分散了。  
+Delta Chat 是对所有愿意接受至少一种替代方案的人来说的终极解决方案——电子邮件永远可用！:)"_  
 
-_"我真的很高兴有 DeltaChat 这样的应用，而且我发现了它。作为一个很早就使用 WhatsApp 的用户，我因为隐私和安全原因退出了 WhatsApp；因为这个，我和好友的联络中断了；我做了很多广告寻找替代品，但市场太分散了。对每个允许至少一个替代方案的人，Delta 就是解决方案 - 电子邮件始终管用！ :)_
+**一位德国用户**2019 年通过电子邮件向 delta@merlinux.eu 提供反馈  
 
-**来自德国的用户** 2019年发给delta@merlinux.eu的邮件
+### 等待已久的解决方案  
 
+_"这是一个令人期待已久的项目，  
+我一直在寻找一个真正支持端到端加密的聊天应用，  
+它可以替代像 WhatsApp、Signal 和 Telegram 这样的封闭服务。"_
 
-### 等了很久
+**一位德国用户**2019 年通过电子邮件向 delta@merlinux.eu 表达喜爱  
 
-_" 一个了不起的项目，我等待一款可以真正替代WhatsApp、Signal、Telegram的端到端加密聊天应用程序已经很久了。“_
+### 与古巴友人的畅通交流  
 
-**来自德国的用户** 2019年发给delta@merlinux.eu的邮件
+_"我不得不承认，我非常喜欢这个应用。  
+它真的很棒，让我更愿意与朋友们交流，  
+因为写电子邮件让我觉得繁琐，而聊天更轻松——全世界都更喜欢聊天吧。"_
 
+**一位古巴用户**2019 年通过电子邮件向 delta@merlinux.eu 分享体验  
 
-### 与古巴通信
+### 完全实现去中心化  
 
-_"我要坦白我对这个应用程序的喜爱。”它真的很神奇，它让我和我的朋友有了更多的交流，因为写电子邮件对我来说真的很烦，我更喜欢聊天，世界更喜欢聊天。"_
+_"我们在 /e/ 中讨论了很多关于 Telegram 和 Signal 的话题。  
+但我必须说，在我看来，最好的安全即时通讯服务就是 @delta_chat。  
+Delta Chat 使用电子邮件来传递即时消息：  
+它完全去中心化，拥有强大的加密功能，而且你几乎可以联系到任何人。"_
 
-**来自古巴的用户** 2019年发给delta@merlinux.eu的邮件
+**Gaël Duval**，Mandrake Linux 的创始人，在 [Twitter](https://twitter.com/gael_duval/status/1122906779002777600) 上分享  
 
+### 去中心化且易于使用  
 
-### 完全去中心化
+_"人们开始关注去中心化，但许多人觉得配置服务端来使用 Matrix 或 XMPP 太复杂。相比之下，使用 Delta Chat 只需要一个电子邮件地址即可，非常简单。"_
 
-_" 在/e/，我们有许多关于Telegram、Signal和其他类似应用的比较... 但我必须说，在我看来，最好的即时通讯安全服务是@delta_chat。Delta Chat使用电子邮件传输即时消息:它是完全去中心的，高度加密的，你可以联系到任何联系人"_
+**一位俄罗斯用户**LGBT+ 活动家在 Telegram 的一次在线讨论中提到  
 
-**Gaël Duval**，Mandrake Linux创始人发表于[推特](https://twitter.com/gael_duval/status/1122906779002777600)
+### 传统电子邮件，依然强大  
 
-### Decentralized but easy for users
+_"最近我意识到，这个世界可能并不需要更多的即时通讯工具了。  
+传统的电子邮件已经够用了。  
+试试用 #DeltaChat 配合现有的电子邮件账户吧。#去中心化网络。"_
 
-_"People start caring about decentralization. But it seems that for a lot of people setting servers and all to use Matrix or XMPP is too complicated while you can use Delta with just an e-mail address"_
+**一位波兰用户**2020 年在 [Twitter](https://twitter.com/MichalNarecki/status/1280820973902745600) 上分享  
 
-**Russian user** LGBT+ activist, from an online discussion over Telegram
+### 当前最彻底的去中心化通信概念  
 
-### 好的古老的电子邮件做得很好
+_"结合当前最去中心化的通信理念，  
+再加上像 @delta 这样的聊天应用，事情就迎刃而解了。"_
 
-_"我最近得出一个结论这个世界不需要另一个即时通讯工具。好的古老的电子邮件可以做得很好。用你现有的电子邮件账户使用 #DeltaChat。#让互联网去中心化。"_
+**一位德国用户**2020 年在 [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883) 上提到  
 
-**来自波兰的用户** 2020年发表于 [推特](https://twitter.com/MichalNarecki/status/1280820973902745600)
+### 开源、去孤岛、基于标准  
 
+_"已经使用 @delta_chat 一年多了：  
+它是一个很棒的开源/去孤岛/基于标准的 WhatsApp 替代品！  
+很高兴看到开发进展顺利！！"_  
 
-### 目前可用的去中心化程度最高的的沟通概念
+**Séverin Lemaignan**2020 年在 [Twitter](https://twitter.com/skadge/status/1276515066393878529) 上留言  
 
-_"将目前可用的去中心化程度最高的沟通概念应用于类似@delta这样的聊天应用上就完事儿了。"_
+### 优选的聊天方式！  
 
-**来自德国的用户** 2020年发表于 [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
+_"我正打算将 @delta_chat 作为首选的聊天方式！  
+与其他系统不同，它赋予双方自由选择客户端的权利，  
+还能与所有电子邮件客户端实现互操作！"_  
 
+**gozala**2020 年在 [Twitter](https://twitter.com/gozala/status/1281346020664729600) 上表达喜爱  
 
-### 开源、非封闭、基于标准
-
-_" 使用 @delta_chat 已经一年多了：伟大的开源/非封闭/基于标准的whatsapp替代品 ！很高兴知道软件开发与时俱进！！"_
-
-**Séverin Lemaignan** 2020年发表于 [推特](https://twitter.com/skadge/status/1276515066393878529)
-
-
-### 发起聊天的默认方式！
-
-_" 正考虑将@delta_chat用作发起聊天的默认方式！与其他系统不同，它允许两端的用户选择他们想要使用的代理+与所有邮件客户端交互"_
-
-**gozala** 2020年发表于[推特](https://twitter.com/gozala/status/1281346020664729600)
-
-
-还可以查看[媒体报道](references)
+更多内容请查看 [媒体参考文献](references)。
