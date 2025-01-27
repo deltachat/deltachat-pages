@@ -1,98 +1,98 @@
 ---
-title: Privacy policy website
+title: 网站隐私政策
 lang: zh_CN
 ---
 
-# Website Privacy Policy
+# 网站隐私政策
 
-**This is the privacy policy for this website. The Delta Chat apps have a [separate privacy policy](gdpr).**
+**这是本网站的隐私政策。Delta Chat 应用程序有[单独的隐私政策](gdpr)。**
 
-You can get all necessary information about us and our project on our Delta Chat website. However, it is only fair that you know which personal data is processed when you use our service at all times.
+你可以在我们的 Delta Chat 网站上获取关于我们和我们项目的所有必要信息。但是，公平起见，您应该始终了解在使用我们的服务时哪些个人数据会被处理。
 
-The following information also serves to provide you with information about this and how we protect your personal data from manipulation, loss, destruction or misuse.
+以下信息还旨在向您提供有关此方面的信息，以及我们如何保护您的个人数据免受操纵、丢失、破坏或滥用。
 
-If you have any further questions about data protection, please contact us via e-mail: delta-privacy@merlinux.eu
+如果您对数据保护有任何其他问题，请通过电子邮件联系我们：delta-privacy@merlinux.eu
 
-## 1. Name and contact information of the data controller
+## 1. 数据控制者的名称和联系方式
 
-Responsible for the processing of your personal data is
+负责处理您个人数据的实体是：
 
 ```
-merlinux GmbH  
-Represented by the managing director Holger Krekel  
-Reichsgrafen Str. 20  
-79102 Freiburg  
-Germany
+merlinux GmbH
+代表人为总经理 Holger Krekel
+Reichsgrafen Str. 20
+79102 Freiburg
+德国
 ```
-mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
+邮箱: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
-Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at [info@lexict.de](mailto:info@lexict.de) Keyword: DeltaChat.
+我们的数据保护官：**Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover。您可以通过 [info@lexict.de](mailto:info@lexict.de) 联系他，主题：DeltaChat。
 
-## 2. Processing when using the website
+## 2. 使用网站时的数据处理
 
-When you visit our website, the browser used on your end device automatically sends information to the server of our website. This information is temporarily stored in a so-called log file. The following information is collected and stored until it is automatically deleted (usually 7 days):
+当您访问我们的网站时，您终端设备上使用的浏览器会自动向我们网站的服务器发送信息。此信息会临时存储在一个所谓的日志文件中。以下信息会被收集并存储，直到自动删除（通常为 7 天）：
 
-- used type of browser,
-- used operating system, 
-- access date and time as well as
-- country of origin and IP address, 
-- the name of the file,
-- the amount of data transferred,
-- the access status (file transferred, file not found, etc.) and
-- the page from which the file was requested.
+- 使用的浏览器类型，
+- 使用的操作系统，
+- 访问日期和时间，以及
+- 来源国家和 IP 地址，
+- 文件名，
+- 传输的数据量，
+- 访问状态（文件已传输、文件未找到等）以及
+- 请求文件的来源页面。
 
-This website is hosted by an external hoster (Hetzner GmbH). The personal data collected on this website is stored on the hoster's servers. Our hoster will process your data only to the extent necessary to fulfill its obligations to perform under our instructions. In order to ensure data protection-compliant processing, we have concluded data processing agreement with our hoster.
+本网站由外部托管商 (Hetzner GmbH) 托管。在本网站上收集的个人数据存储在托管商的服务器上。我们的托管商将仅在履行我们指示下的义务所需的范围内处理您的数据。为了确保符合数据保护的处理，我们已与我们的托管商签订了数据处理协议。
 
-The aforementioned data is processed by us for the following purposes:
+我们处理上述数据的目的是：
 
-- Ensuring a reliable connection setup of the website,
-- Ensuring a convenient use of our website,
-- checking and ensuring system security and stability, and
-- for other administrative purposes.
+- 确保网站连接的可靠建立，
+- 确保您方便地使用我们的网站，
+- 检查和确保系统安全和稳定性，以及
+- 用于其他管理目的。
 
-The legal basis for the data processing is [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest results from the aforementioned purposes of data collection. We will not use the collected data for the purpose of drawing conclusions about your person.
+数据处理的法律依据是 [GDPR 第 6 条第 1 款 f 项](https://gdpr-info.eu/art-6-gdpr/)。我们的合法利益源于上述数据收集的目的。我们不会将收集的数据用于推断您个人身份的目的。
 
-## 3. Transfer of data
+## 3. 数据传输
 
-We do not transfer your personal data to third parties for purposes other than those listed below. We will only share your personal data with third parties if:
+我们不会将您的个人数据传输给除以下列出的目的之外的第三方。我们仅会在以下情况下与第三方共享您的个人数据：
 
-1. you have given your explicit consent in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/),
-2. the disclosure is necessary for the establishment, exercise or defense of legal claims pursuant to [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) and there is no reason to assume that you have an overriding interest worthy of protection in the non-disclosure of your data,
-3. in the event that a legal obligation exists for the disclosure pursuant to [Art.6 (1) lit.c GDPR](https://gdpr-info.eu/art-6-gdpr/), as well as
-4. it is legally permitted and necessary according to [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) for the processing of contractual relationships with you
-5. it is carried out by a service provider acting on our behalf and on our exclusive instructions, whom we have carefully selected [(Art.28 (1) GDPR)](https://gdpr-info.eu/art-28-gdpr/) and with whom we have concluded a corresponding data processing agreement [(Art.28 (3) GDPR)](https://gdpr-info.eu/art-28-gdpr/), which obligates our contractor to implement, in particular, appropriate security measures and grants us comprehensive control powers.
+1. 您已根据 [GDPR 第 6 条第 1 款 a 项](https://gdpr-info.eu/art-6-gdpr/) 给予明确同意，
+2. 根据 [GDPR 第 6 条第 1 款 b 项](https://gdpr-info.eu/art-6-gdpr/)，为了建立、行使或辩护法律索赔而必须披露，并且没有理由认为您在不披露您的数据方面具有值得保护的压倒性利益，
+3. 如果根据 [GDPR 第 6 条第 1 款 c 项](https://gdpr-info.eu/art-6-gdpr/)，存在法律义务要求披露，以及
+4. 根据 [GDPR 第 6 条第 1 款 b 项](https://gdpr-info.eu/art-6-gdpr/)，为了处理与您的合同关系而在法律上允许且必要，
+5. 由代表我们并根据我们的专属指示行事的，我们精心挑选的服务提供商执行 ([GDPR 第 28 条第 1 款](https://gdpr-info.eu/art-28-gdpr/))，并且我们已与其签订了相应的数据处理协议 ([GDPR 第 28 条第 3 款](https://gdpr-info.eu/art-28-gdpr/))，该协议规定我们的承包商尤其有义务实施适当的安全措施，并授予我们全面的控制权。
 
-## Delta Chat forum
+## Delta Chat 论坛
 
-We also provide a forum for you to join discussions. For this purpose, we use the open source software “Discourse”. We process personal data of our users only to the extent necessary to provide the functions of the platform "Discourse".
+我们还提供了一个论坛供您参与讨论。为此，我们使用开源软件 “Discourse”。我们仅在提供 “Discourse” 平台功能所需的范围内处理用户的个人数据。
 
-### a) Registration
+### a) 注册
 
-In the registration process, we collect your username, password and e-mail address. When register at the platform, you will enter into a user agreement for the purpose of processing your profile data. [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) serves as the legal basis for this. The registration and the resulting storage of data is necessary for the use of the platform. We cannot provide this service without this data. The data provided will be stored by us until you request anonymization or deletion of your user account.
+在注册过程中，我们会收集您的用户名、密码和电子邮件地址。当您在平台上注册时，您将签订用户协议，目的是处理您的个人资料数据。[GDPR 第 6 条第 1 款 b 项](https://gdpr-info.eu/art-6-gdpr/) 是此项的法律依据。注册以及由此产生的数据存储对于平台的使用是必要的。没有这些数据，我们无法提供此服务。我们会在您请求匿名化或删除您的用户帐户之前存储所提供的数据。
 
-### b) Forum posts
+### b) 论坛帖子
 
-As a registered user you can edit your user profile. You can change the mandatory registration information, email and username. In addition, you can enter and change voluntary information, which will be stored by us and displayed to other registered users.
+作为注册用户，您可以编辑您的用户个人资料。您可以更改强制性注册信息、电子邮件和用户名。此外，您可以输入和更改自愿信息，这些信息将由我们存储并显示给其他注册用户。
 
-Posts which are in context with information of other users may also be available at a later time, when you are no longer active. At the end of the fifth calendar year after these posts were written or after the deletion of your user account, anonymization will take place, i.e. the author of the post will be listed as "Anonymous". If the post still contains personal data despite anonymization, users are entitled to have the post deleted or modified in the individual case.
+与其他用户信息相关的帖子，在您不再活跃后也可能仍然可用。在这些帖子撰写后的第五个日历年末或在您的用户帐户删除后，将进行匿名化，即帖子的作者将被列为 “匿名”。如果帖子在匿名化后仍然包含个人数据，用户有权要求在个别情况下删除或修改帖子。
 
-All posts that you write, the time since your registration, the Likes received and awards for particularly popular posts are recorded. In addition, to prevent bots and spam, the reading time is recorded and other data regarding the misuse of our forum, including the frequency of posts in relation to an implausibly short period of time, implausibly high number of web links or use of words on a blocked word list, etc. are recorded.
+您撰写的所有帖子、自您注册以来的时间、收到的点赞以及特别受欢迎的帖子的奖励都会被记录下来。此外，为了防止机器人和垃圾邮件，还会记录阅读时间以及有关滥用我们论坛的其他数据，包括在难以置信的短时间内发帖的频率、难以置信的大量网络链接或使用被阻止的单词列表中的单词等。
 
-Your user behavior is recorded in server log files in order to analyze technical problems and possible abuse. The legal basis for this processing to protect our legitimate interests is [Art.6 (1) lit.b and f GDPR](https://gdpr-info.eu/art-6-gdpr/). The recordings are deleted after 30 days. The purposes of this processing are the proper operation of the forum (including the technical provision), processing to improve the forum, to moderate the posts and to prevent advertising bots and spammers.
+您的用户行为会记录在服务器日志文件中，以便分析技术问题和可能的滥用行为。保护我们合法利益的此项处理的法律依据是 [GDPR 第 6 条第 1 款 b 项和 f 项](https://gdpr-info.eu/art-6-gdpr/)。记录将在 30 天后删除。此处理的目的在于论坛的正常运行（包括技术提供）、为改进论坛而进行的处理、审核帖子以及防止广告机器人和垃圾邮件发送者。
 
-### c) Processing during the use of the forum website
+### c) 使用论坛网站期间的数据处理
 
-Various data is transmitted to us from your computer, this varies depending on the browser and operating system type, version and settings.
+来自您计算机的各种数据会传输给我们，这取决于浏览器和操作系统类型、版本和设置而有所不同。
 
-Some of them may be:
+其中一些可能是：
 
-- browser type/version
-- Operating system used
-- Referrer URL (the previously visited page)
-- Host name of the accessing computer (IP address)
-- Time of the server request
+- 浏览器类型/版本
+- 使用的操作系统
+- 引用 URL（先前访问的页面）
+- 访问计算机的主机名（IP 地址）
+- 服务器请求的时间
 
-We host the instance of Discourse on our own servers and do not transmit any data from you to Discourse. Discourse is an open source project, which is maintained by 
+我们在自己的服务器上托管 Discourse 实例，并且不会将您的任何数据传输到 Discourse。Discourse 是一个开源项目，由以下机构维护：
 
 ```
 M. Régis Hanol
@@ -104,35 +104,35 @@ UBIDOCA, 15232
 FRANCE
 ```
 
-The privacy policy can be found under [https://www.discourse.org/privacy](https://www.discourse.org/privacy).
+隐私政策可以在 [https://www.discourse.org/privacy](https://www.discourse.org/privacy) 中找到。
 
-## 5. Mailing list
+## 5. 邮件列表
 
-You can also subscribe to our mailing list if you would like to be informed about community discussions and news in the form of newsletters. If you add your email address and optionally your name to the mailing list, you will receive a confirmation email to complete your registration. The legal basis for the processing is your consent, [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/). Registration is voluntary and you can revoke your consent at any time with effect for the future.
+如果您想以新闻通讯的形式了解社区讨论和新闻，您还可以订阅我们的邮件列表。如果您将您的电子邮件地址以及可选的姓名添加到邮件列表，您将收到一封确认电子邮件以完成您的注册。处理的法律依据是您的同意，[GDPR 第 6 条第 1 款 a 项](https://gdpr-info.eu/art-6-gdpr/)。注册是自愿的，您可以随时撤销您的同意，且撤销对未来有效。
 
-We use the interface Postorius for the mailing software GNU Mailman to operate the mailing list. The software is run on our servers.
+我们使用接口 Postorius 和邮件软件 GNU Mailman 来运营邮件列表。该软件在我们的服务器上运行。
 
-The privacy policy for GNU Mailman can be found under [https://list.org/privacy.html](https://list.org/privacy.html).
+GNU Mailman 的隐私政策可以在 [https://list.org/privacy.html](https://list.org/privacy.html) 中找到。
 
-## 6. Social media appearance
+## 6. 社交媒体形象
 
-Delta.chat runs profiles on social networks – in particular on [Twitter](https://twitter.com/delta_chat?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [YouTube](https://www.youtube.com/results?search_query=delta+chat) and [Mastodon](https://chaos.social/@delta).
+Delta.chat 在社交网络上运行个人资料，特别是 [Twitter](https://twitter.com/delta_chat?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [YouTube](https://www.youtube.com/results?search_query=delta+chat) 和 [Mastodon](https://chaos.social/@delta)。
 
-Social networks can generally analyze your user behavior on a broad scale. This applies if you use the social networks to visit our social media sites. Site operators can record your visit and assign it to your user account. Even if you are not logged in, a collection may be possible, for example via your IP address, browser details or through the use of cookies.
+社交网络通常可以大规模分析您的用户行为。如果您使用社交网络访问我们的社交媒体网站，则适用此规则。网站运营商可以记录您的访问并将其分配给您的用户帐户。即使您未登录，也可能进行收集，例如通过您的 IP 地址、浏览器详细信息或通过使用 Cookie。
 
-The information collected this way can be used by the operators of social networks to create profiles. Among other things, your (presumed) interests and preferences may be recorded to display personalized advertising.
+社交网络的运营商可以使用通过这种方式收集的信息来创建个人资料。除其他外，您的（推测的）兴趣和偏好可能会被记录下来，以显示个性化广告。
 
-It is not possible for us to track all of these data processing operations within the social networks, nor do we have access to this data. You can find more information in the respective privacy statements of the networks.
-However, we do process your data when you contact us, for example, via comments, likes, messages or in any other way, such as to reply to you. In doing so, we process your interactions with our social media profile as well as publicly viewable profile information (you can set the settings for which of your personal data is publicly viewable in your respective profile). The legal basis for this processing is [Art.6 (1) lit.f and b GDPR](https://gdpr-info.eu/art-6-gdpr/). Our interests lie in answering your inquiries and in informing interested persons about our offer.
-The storage period depends on the respective platform. However, we delete personal data as soon as the purpose of the required processing ceases to apply and unless there are legal obligations for longer storage.
+我们无法追踪社交网络内的所有这些数据处理操作，也无法访问这些数据。您可以在各网络的各自隐私声明中找到更多信息。
+但是，当您联系我们时，例如通过评论、点赞、消息或任何其他方式，例如回复您，我们会处理您的数据。在这样做时，我们会处理您与我们的社交媒体个人资料的互动以及公开可见的个人资料信息（您可以在您的各自个人资料中设置哪些个人数据是公开可见的）。此处理的法律依据是 [GDPR 第 6 条第 1 款 f 项和 b 项](https://gdpr-info.eu/art-6-gdpr/)。我们的利益在于回答您的询问，并向感兴趣的人员告知我们的产品。
+存储期限取决于各个平台。但是，一旦所需处理的目的不再适用，并且除非有法律义务要求更长时间的存储，否则我们会删除个人数据。
 
-Below you will find information on data protection on the respective portals.
+以下是关于各个门户网站数据保护的信息。
 
 ### a) Twitter
 
-We maintain a Twitter account. To the extent that we determine the means and purposes of the processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account. If questions are asked in the comments or DM are sent to us, we will of course answer them.
+我们维护一个 Twitter 帐户。在我们确定处理的方式和目的的范围内，您的个人数据将因此由我们作为控制者进行处理。我们<u>不</u>会系统地评估与我们帐户的互动。如果评论中提出问题或向我们发送 DM，我们当然会回答。
 
-In all other cases in which data is processed in connection with our Twitter account and for which Twitter determines the means and purposes, the processing is carried out by Twitter as the sole controller:
+在与我们的 Twitter 帐户相关联且 Twitter 确定方式和目的的所有其他数据处理情况下，处理由 Twitter 作为唯一控制者进行：
 
 ```
 Twitter International Company
@@ -144,17 +144,17 @@ Ireland
 fax +1 415 222 9958
 ```
 
-You can contact Twitter's data protection officer under [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp)
+您可以通过 [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp) 联系 Twitter 的数据保护官。
 
-Information about the processing of personal data when using Twitter, such as our Twitter profile, is described in the Twitter Privacy Policy, available at [https://twitter.com/de/privacy](https://twitter.com/de/privacy).
+有关使用 Twitter（例如我们的 Twitter 个人资料）时个人数据处理的信息，请参见 Twitter 隐私政策，该政策可在 [https://twitter.com/de/privacy](https://twitter.com/de/privacy) 中获取。
 
-If you contact us via Twitter, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is to respond to your request. Otherwise, the use of Twitter is based on your consent to Twitter pursuant to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
+如果您通过 Twitter 联系我们，法律依据是根据 [GDPR 第 6 条第 1 款 f 项](https://gdpr-info.eu/art-6-gdpr/) 的合法利益。我们的合法利益是回应您的请求。否则，Twitter 的使用基于您根据 [GDPR 第 6 条第 1 款 a 项](https://gdpr-info.eu/art-6-gdpr/) 向 Twitter 提供的同意。
 
 ### b) YouTube
 
-Furthermore, we maintain a YouTube account. To the extent that we determine the means and purposes of processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account.  If questions are asked in the comments or DM are sent to us, we answer them.
+此外，我们维护一个 YouTube 帐户。在我们确定处理的方式和目的的范围内，您的个人数据将因此由我们作为控制者进行处理。我们<u>不</u>会系统地评估与我们帐户的互动。如果评论中提出问题或向我们发送 DM，我们会回答。
 
-In all other cases in which data is processed in connection with our YouTube account and for which YouTube determines the means and purposes, the processing is carried out by YouTube as the sole controller:
+在与我们的 YouTube 帐户相关联且 YouTube 确定方式和目的的所有其他数据处理情况下，处理由 YouTube 作为唯一控制者进行：
 
 ```
 Google Ireland Limited
@@ -164,84 +164,84 @@ Dublin 4
 Irland
 ```
 
-You can contact YouTube's data protection officer under [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general_privacy_form).
+您可以通过 [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general\_privacy\_form) 联系 YouTube 的数据保护官。
 
-Information about the processing of personal data when using YouTube, such as our YouTube profile, is described in the YouTube Privacy Policy, available at [https://policies.google.com/privacy](https://policies.google.com/privacy).
+有关使用 YouTube（例如我们的 YouTube 个人资料）时个人数据处理的信息，请参见 YouTube 隐私政策，该政策可在 [https://policies.google.com/privacy](https://policies.google.com/privacy) 中获取。
 
-If you interact with us via YouTube, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is the interaction with our followers and other interested social media users on our social media profiles, the increase of reach of our products (advertising) and to respond to your request. In addition, the use of YouTube is based on your consent to YouTube pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/).
+如果您通过 YouTube 与我们互动，法律依据是根据 [GDPR 第 6 条第 1 款 f 项](https://gdpr-info.eu/art-6-gdpr/) 的合法利益。我们的合法利益是在我们的社交媒体个人资料上与我们的关注者和其他感兴趣的社交媒体用户互动，提高我们产品的覆盖范围（广告）以及回应您的请求。此外，YouTube 的使用基于您根据 [GDPR 第 6 条第 1 款 f 项](https://gdpr-info.eu/art-6-gdpr/) 向 YouTube 提供的同意。
 
 ### c) Mastodon
 
-In addition, we maintain a Mastodon account. To the extent that we determine the means and purposes of processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account.  If questions are asked in the comments or DM are sent to us, we answer them.
+此外，我们维护一个 Mastodon 帐户。在我们确定处理的方式和目的的范围内，您的个人数据将因此由我们作为控制者进行处理。我们<u>不</u>会系统地评估与我们帐户的互动。如果评论中提出问题或向我们发送 DM，我们会回答。
 
-In all other cases in which data is processed in connection with our Mastodon account and for which Mastodon determines the means and purposes, the processing is carried out by the operator of the Mastodon instance as the sole responsible party. In our case, this is operated on chaos.social.
+在与我们的 Mastodon 帐户相关联且 Mastodon 确定方式和目的的所有其他数据处理情况下，处理由 Mastodon 实例的运营商作为唯一责任方进行。在我们的例子中，这是在 chaos.social 上运营的。
 
-Information about the processing of personal data when using chaos.social, are described in the privacy policy, available at [https://chaos.social/terms](https://chaos.social/terms).
+有关使用 chaos.social 时个人数据处理的信息，请参见隐私政策，该政策可在 [https://chaos.social/terms](https://chaos.social/terms) 中获取。
 
-If you interact with us via Mastodon, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is to interact with our followers and other interested social media users on our social media profiles, to increase the reach of our products (advertising) and to respond to your request. Otherwise, the use of Mastodon is based on your consent to Mastodon pursuant to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
+如果您通过 Mastodon 与我们互动，法律依据是根据 [GDPR 第 6 条第 1 款 f 项](https://gdpr-info.eu/art-6-gdpr/) 的合法利益。我们的合法利益是在我们的社交媒体个人资料上与我们的关注者和其他感兴趣的社交媒体用户互动，提高我们产品的覆盖范围（广告）以及回应您的请求。否则，Mastodon 的使用基于您根据 [GDPR 第 6 条第 1 款 a 项](https://gdpr-info.eu/art-6-gdpr/) 向 Mastodon 提供的同意。
 
-## 7. Donations
+## 7. 捐赠
 
-You can make payments (donations) to us in different ways.
+您可以通过不同的方式向我们付款（捐赠）。
 
 ### a) Liberapay
 
-We use services of Association Liberapay, Chez M. Coste, Le Bourg, St Jean Le Blanc 14770 Terres de Druance, France, represented by Charly Coste. The service allows donations to be made to us. For this purpose, Liberapay collects data such as e-mail address, name and, if applicable, account information for payment processing. We do not have access to this data ourselves. The privacy policy of Liberapay can be found under [https://liberapay.com/about/privacy](https://liberapay.com/about/privacy)
+我们使用 Association Liberapay 的服务，地址：Chez M. Coste, Le Bourg, St Jean Le Blanc 14770 Terres de Druance, France，代表人为 Charly Coste。该服务允许向我们捐款。为此，Liberapay 收集数据，例如电子邮件地址、姓名以及（如果适用）用于付款处理的帐户信息。我们自己无法访问此数据。Liberapay 的隐私政策可以在 [https://liberapay.com/about/privacy](https://liberapay.com/about/privacy) 中找到。
 
 ### b) Open Collective
 
-We also use services from Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA. The service enables donations to be made to us. For this purpose, Open Collective collects data such as the e-mail address, name and, if applicable, account information for payment processing. We do not have access to this data ourselves. Open Collective's privacy policy can be found under [https://opencollective.com/privacypolicy](https://opencollective.com/privacypolicy).
+我们还使用来自 Open Collective 的服务，地址：340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA。该服务使捐款能够捐赠给我们。为此，Open Collective 收集数据，例如电子邮件地址、姓名以及（如果适用）用于付款处理的帐户信息。我们自己无法访问此数据。Open Collective 的隐私政策可以在 [https://opencollective.com/privacypolicy](https://opencollective.com/privacypolicy) 中找到。
 
-### c) Bitcoin Wallet
+### c) 比特币钱包
 
-You can also donate Bitcoins to us. In this case, the decentralized Bitcoin network processes data that is necessary to execute the transaction. The transaction is also public, but anonymous, as long as your account is not linked to personal data. Otherwise, the processing is pseudonymous. Accordingly, a corresponding donation receipt cannot be issued by us. If you use the payment services of third parties (e.g. Coinbase, Kraken, MoonPay), the terms and conditions and privacy policies of the respective third party providers apply, which are available within the respective websites or transaction applications.
+您也可以向我们捐赠比特币。在这种情况下，去中心化的比特币网络会处理执行交易所需的数据。交易也是公开的，但只要您的帐户未与个人数据关联，则是匿名的。否则，处理是假名的。因此，我们无法开具相应的捐赠收据。如果您使用第三方的支付服务（例如 Coinbase、Kraken、MoonPay），则适用各自第三方提供商的条款和条件以及隐私政策，这些条款和条件可以在各自的网站或交易应用程序中找到。
 
-### d) Bank transfer
+### d) 银行转账
 
-You can also support us with a standard bank payment.
-If you use the payment services of third parties (e.g. PayPal or “Sofortüberweisung”), the terms and conditions and privacy policy of the respective third party providers apply, which are available within the respective websites or transaction applications.
+您也可以通过标准银行付款来支持我们。
+如果您使用第三方的支付服务（例如 PayPal 或 “Sofortüberweisung”），则适用各自第三方提供商的条款和条件以及隐私政策，这些条款和条件可以在各自的网站或交易应用程序中找到。
 
-### e) Data processing and legal basis
+### e) 数据处理和法律依据
 
-Depending on the payment service provider and the type of transfer, we process the name, email address, account number, credit institution, time and amount of the transfer. The legal basis for this is found in [Art. 6 (1) lit. c and f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is the administration of our donations.
+根据支付服务提供商和转账类型，我们会处理姓名、电子邮件地址、帐号、信贷机构、转账时间和金额。法律依据在 [GDPR 第 6 条第 1 款 c 项和 f 项](https://gdpr-info.eu/art-6-gdpr/) 中找到。我们的合法利益是我们捐款的管理。
 
-## 8. Right to object
+## 8. 反对权
 
-If your personal data is processed on the basis of our legitimate interests in accordance with [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/), you have the right to object to the processing of your personal data in accordance with [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/), provided that there are grounds for this based on your particular situation or the objection is directed against direct advertising. In the latter case, you have a general right of objection, which will be implemented by us without specifying a particular situation.
+如果您的个人数据是基于我们根据 [GDPR 第 6 条第 1 款 f 项](https://gdpr-info.eu/art-6-gdpr/) 的合法利益进行处理的，您有权根据 [GDPR 第 21 条](https://gdpr-info.eu/art-21-gdpr/) 反对处理您的个人数据，前提是您的特定情况有理由支持这样做，或者反对是针对直接广告的。在后一种情况下，您拥有一般反对权，我们将无需说明具体情况即可实施该权利。
 
-If you wish to exercise your right of objection, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
+如果您希望行使您的反对权，只需发送电子邮件至 [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)。
 
-## 9. Right to withdraw
+## 9. 撤回权
 
-If your personal data is processed on the basis of your consent in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) (e.g. via the mailing list), you can withdraw your consent at any time and without any disadvantages. As a result, we may no longer continue the data processing that was based on this consent for the future. However, the withdrawal of your consent does not affect the lawfulness of the processing carried out on the basis of the consent until the withdrawal.
+如果您的个人数据是基于您根据 [GDPR 第 6 条第 1 款 a 项](https://gdpr-info.eu/art-6-gdpr/) 提供的同意（例如通过邮件列表）进行处理的，您可以随时且无任何不利后果地撤回您的同意。因此，我们可能不再继续进行未来基于此同意的数据处理。但是，撤回您的同意不会影响在撤回之前基于同意进行的处理的合法性。
 
-If you wish to make use of your right of withdrawal, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
+如果您希望行使您的撤回权，只需发送电子邮件至 [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)。
 
-## 10. Rights of the data subject and right to lodge a complaint with a supervisory authority
+## 10. 数据主体的权利以及向监管机构提出申诉的权利
 
-As a data subject of a processing of personal data, you have the right to
+作为个人数据处理的数据主体，您有权：
 
-1. request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the purposes of processing, the categories of personal data, the categories of recipients to whom your data has been or will be disclosed, the envisaged period for which the data will be stored, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data, if it was not collected by us, as well as the existence of automated decision-making, including profiling and, if applicable, meaningful information about its details;
-2. demand the immediate rectification of inaccurate or incomplete personal data stored by us, in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/);
-3. request the erasure of your personal data stored by us in accordance with [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/), unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defense of legal claims;
-4. demand the restriction of the processing of your personal data in accordance with [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you oppose its erasure and we no longer need the data, but you need it for the establishment, exercise or defence of legal claims or you have objected to the processing in accordance with [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
-5. receive the personal data that you have provided to us in a structured, commonly used and machine-readable format, or to request the transfer to another controller, in accordance with [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/);
-6. withdraw your consent at any time in accordance with [Art.7 (3) GDPR](https://gdpr-info.eu/art-7-gdpr/). As a result, we may no longer continue the data processing that was based on this consent in the future, and
-7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/). You can therefore usually contact the supervisory authority of your usual place of residence or workplace or our registered office. The supervisory authority responsible for our place of business is The State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
+1. 根据 [GDPR 第 15 条](https://gdpr-info.eu/art-15-gdpr/)，请求查阅我们处理的关于您的个人数据的信息。特别是，您可以要求获得关于处理目的、个人数据类别、您的数据已披露或将要披露给的接收者类别、数据预计存储期限、更正权、删除权、限制处理权或反对权的存在、申诉权的存在、您的数据的来源（如果数据不是由我们收集的）以及自动化决策（包括分析）的存在以及（如果适用）关于其详细信息的有意义的信息；
+2. 根据 [GDPR 第 16 条](https://gdpr-info.eu/art-16-gdpr/)，要求立即更正我们存储的不准确或不完整的个人数据；
+3. 根据 [GDPR 第 17 条](https://gdpr-info.eu/art-17-gdpr/)，请求删除我们存储的关于您的个人数据，除非处理对于行使言论和信息自由权、履行法律义务、出于公共利益原因或为了建立、行使或辩护法律索赔是必要的；
+4. 根据 [GDPR 第 18 条](https://gdpr-info.eu/art-18-gdpr/)，要求限制处理您的个人数据，如果数据的准确性受到您的质疑，处理是非法的，但您反对删除并且我们不再需要这些数据，但您需要它来建立、行使或辩护法律索赔，或者您已根据 [GDPR 第 21 条](https://gdpr-info.eu/art-21-gdpr/) 反对处理；
+5. 以结构化、常用且机器可读的格式接收您提供给我们的个人数据，或根据 [GDPR 第 20 条](https://gdpr-info.eu/art-20-gdpr/)，要求将其传输给另一个控制者；
+6. 根据 [GDPR 第 7 条第 3 款](https://gdpr-info.eu/art-7-gdpr/)，随时撤回您的同意。因此，我们未来可能不再继续进行基于此同意的数据处理，以及
+7. 根据 [GDPR 第 77 条](https://gdpr-info.eu/art-77-gdpr/)，向监管机构投诉。因此，您通常可以联系您常住地或工作地点的监管机构或我们的注册办事处。负责我们营业地点的监管机构是巴登-符腾堡州数据保护和信息自由专员，地址：70173 Stuttgart。
 
-To exercise your data protection rights or your right to lodge a complaint, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
+要行使您作为数据主体的权利或您的投诉权，只需发送电子邮件至 [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)。
 
-## 11. Data security
+## 11. 数据安全
 
-We use the SSL procedure (Secure Socket Layer) in connection with the highest encryption level supported by your browser when visiting the website. This is usually a 256-bit encryption. If your browser does not support 256-bit encryption, we use 128-bit v3 technology instead. To see whether an individual page of our website is encrypted, click on the closed key or lock symbol in the lower status bar of your browser.
+当访问网站时，我们使用 SSL 程序（安全套接字层）以及您的浏览器支持的最高加密级别。这通常是 256 位加密。如果您的浏览器不支持 256 位加密，我们将改为使用 128 位 v3 技术。要查看我们网站的单个页面是否已加密，请单击浏览器底部状态栏中的闭合密钥或锁形符号。
 
-We use appropriate technical and organizational security measures to protect your data against accidental or intentional manipulation, partial or complete loss, destruction or against unauthorized access by third parties. We continuously adapt our security measures in line with technological developments.
+我们使用适当的技术和组织安全措施来保护您的数据，防止意外或故意的操纵、部分或完全丢失、破坏或防止第三方未经授权的访问。我们会根据技术发展不断调整我们的安全措施。
 
-## 12. Up-to-dateness and modification of this data protection declaration
+## 12. 本数据保护声明的最新性和修改
 
-This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
+本数据保护声明自 2021 年 11 月起生效。由于我们网站和产品的进一步开发或由于法律或官方要求的变更，可能有必要不时修订本数据保护声明。
 
-You can access and print out the current data protection declaration at any time under [https://support.delta.chat/privacy](https://support.delta.chat/privacy).
+您可以随时在 [https://support.delta.chat/privacy](https://support.delta.chat/privacy) 下访问和打印当前的数据保护声明。
 
 <style>
 ol.p {
@@ -259,6 +259,3 @@ ol.p > li:before {
   left: -1.4em;
 }
 </style>
-
-
-
