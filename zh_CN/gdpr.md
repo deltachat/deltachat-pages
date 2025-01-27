@@ -1,212 +1,216 @@
 ---
-title: Privacy Policy Delta Chat Apps
+title: Delta Chat 应用隐私政策
 lang: zh_CN
 ---
 
-# Privacy Policy Delta Chat Apps
+# Delta Chat 应用隐私政策
 
-**This is the privacy policy for the Delta Chat apps. You can find the [privacy policy for this website here](gdpr-website).**
+**这是 Delta Chat 应用的隐私政策。您可以在[这里找到本网站的隐私政策](gdpr-website)。**
 
-## Summary
+## 摘要
 
-Delta Chat is an e-mail app that follows a strict privacy-by-design approach. All communication data remains on the end devices or on the e-mail servers selected by the user.
+Delta Chat 是一款电子邮件应用，它遵循严格的“隐私设计”方法。所有通信数据都保留在终端设备或用户选择的电子邮件服务器上。
 
 <table>
     <thead>
         <tr>
-            <th>Requirement</th>
-            <th>Implementation</th>
+            <th>要求</th>
+            <th>实施</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Confidentiality</td>
+            <td>保密性</td>
             <td>
-<b>End-to-end encryption</b> by implementing <a href="https://autocrypt.org">Autocrypt</a> and <a href="https://countermitm.readthedocs.io/en/latest/new.html">Verified groups</a>. User-friendly end-to-end encryption means that the requirements of the GDPR are already implemented at the technical level, <b>Privacy by Design</b>.
+通过实施 <a href="https://autocrypt.org">Autocrypt</a> 和 <a href="https://securejoin.delta.chat/en/latest/new.html">验证群组</a> 实现 <b>端到端加密</b>。用户友好的端到端加密意味着 GDPR 的要求已经在技术层面得到实施，即 <b>隐私设计</b>。
             </td>
         </tr>
         <tr>
-            <td>Data minimization</td>
-            <td><b>No upload</b> of contact lists from your phone.</td>
+            <td>数据最小化</td>
+            <td><b>不上传</b> 您手机中的联系人列表。</td>
         </tr>
         <tr>
-            <td>Data avoidance</td>
-            <td><b>No Delta Chat servers</b>, no processing of personal data. All data remains with your e-mail provider.
+            <td>数据规避</td>
+            <td><b>没有 Delta Chat 服务器</b>，不处理个人数据。所有数据都保留在您的电子邮件提供商处。
             </td>
         </tr>
         <tr>
-            <td>Legal basis</td>
+            <td>法律依据</td>
             <td>
-There is no need to obtain consent for address book matching, <a href="https://gdpr-info.eu/art-7-gdpr/">Art.7 GDPR</a>, as no address book data is transferred. Therefore, <b>no additional legal basis</b> is required.
+无需为地址簿匹配获得同意，<a href="https://gdpr-info.eu/art-7-gdpr/">GDPR 第 7 条</a>，因为没有传输地址簿数据。因此，<b>不需要额外的法律依据</b>。
             </td>
         </tr>
         <tr>
-            <td>Data to third parties</td>
-            <td>We only receive the <b>token for the push notification</b> and forward it to the provider of your operating system. If you don't want to receive push notifications, we won't forward a token.</td>
+            <td>向第三方提供数据</td>
+            <td>我们仅接收 <b>推送通知的令牌</b> 并将其转发给您的操作系统提供商。如果您不想接收推送通知，我们将不会转发令牌。</td>
         </tr>
         <tr>
-            <td>Data from third parties</td>
+            <td>来自第三方的数据</td>
             <td>
-Easy implementation in companies: Delta Chat does not process personal data on behalf of the controller and therefore <b>does not require any instruction or data processing agreement</b>. Easy connection with the own corporate e-mail server.
+在公司中易于实施：Delta Chat 不代表控制者处理个人数据，因此 <b>不需要任何指示或数据处理协议</b>。易于与公司自己的企业电子邮件服务器连接。
             </td>
         </tr>
         <tr>
             <td>
-DPIA
+DPIA (数据保护影响评估)
             </td>
             <td>
-No <b>data protection impact assessment</b> needs to be carried out for Delta Chat <a href="https://gdpr-info.eu/art-35-gdpr/">Art.35 GDPR</a>, as no specific additional data is processed beyond the e-mail messenger process.
+Delta Chat 不需要进行 <b>数据保护影响评估</b> <a href="https://gdpr-info.eu/art-35-gdpr/">GDPR 第 35 条</a>，因为除了电子邮件即时通讯过程之外，没有处理任何特定的额外数据。
 
-The risk to the rights and freedoms of natural persons is limited to the internal company data processing of the e-mail communication and that of the e-mail providers.
+对自然人权利和自由的风险仅限于电子邮件通信的内部公司数据处理以及电子邮件提供商的数据处理。
             </td>
         </tr>
         <tr>
             <td>
-Documentation
+文档
             </td>
             <td>
-Inclusion of the measures implemented by Delta Chat in the <b>record of processing activities</b> may have a positive impact on possible evidence, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30 GDPR</a> as well as certification processes, <a href="https://gdpr-info.eu/art-25-gdpr/">Art.25 (4) GDPR</a>,<a href="https://gdpr-info.eu/art-42-gdpr/">Art.42 GDPR</a>.
+将 Delta Chat 实施的措施纳入<b>处理活动记录</b>可能对可能的证据产生积极影响，<a href="https://gdpr-info.eu/art-30-gdpr/">GDPR 第 30 条</a> 以及认证过程，<a href="https://gdpr-info.eu/art-25-gdpr/">GDPR 第 25 条第 4 款</a>,<a href="https://gdpr-info.eu/art-42-gdpr/">GDPR 第 42 条</a>。
 
-The <b>documentation of processing activities</b> related to Messenger communication is omitted and shifts only to the record of processing activities of your e-mail provider, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30(2) GDPR</a>.
+与 Messenger 通信相关的<b>处理活动文档</b>被省略，仅转移到您的电子邮件提供商的处理活动记录中，<a href="https://gdpr-info.eu/art-30-gdpr/">GDPR 第 30 条第 2 款</a>。
             </td>
         </tr>
     </tbody>
 </table>
 
-## Detailed data protection information
+## 详细的数据保护信息
 
-### 1. Name and contact information of the data controller
+### 1. 数据控制者的名称和联系方式
 
-Responsible for the processing of your personal data is 
+负责处理您个人数据的实体是
 ```
     merlinux GmbH
-    Represented by the managing director Holger Krekel
+    代表人为总经理 Holger Krekel
     Reichsgrafen Str. 20
     79102 Freiburg
-    Germany
+    德国
 ```
-E-mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
+邮箱: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
-Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at [info@lexict.de](mailto:info@lexict.de) Keyword: DeltaChat.
+我们的数据保护官：**Prof. Dr. Fabian Schmieder**，lexICT UG (limited)，Ostfeldstr. 49, 30559 Hannover。您可以通过 [info@lexict.de](mailto:info@lexict.de) 联系他，关键词：DeltaChat。
 
-### 2. Processing when using the Delta chat e-mail messenger
+### 2. 使用 Delta Chat 电子邮件即时通讯软件时的数据处理
 
-All data is stored locally on your device or with your e-mail provider. Neither we nor Delta Chat developers have any possibility to access the end user's data, as all communication and data processing takes place on the end user's device without Delta Chat servers being involved. Only for the optional Push Notification (see 2.2) the Push Notification Token is processed by Delta Chat servers without them having any knowledge about the messages themselves, not even in encrypted form.
+所有数据都本地存储在您的设备上或您的电子邮件提供商处。我们和 Delta Chat 开发者都无法访问最终用户的数据，因为所有通信和数据处理都在最终用户的设备上进行，而没有 Delta Chat 服务器的参与。仅对于可选的推送通知（见 2.2），Delta Chat 服务器会处理推送通知令牌，但它们不知道消息本身的内容，甚至不知道加密形式的消息内容。
 
-#### 2.1 Sign up with your e-mail provider
+#### 2.1 注册您的电子邮件提供商帐户
 
-Delta Chat communication works through your e-mail account. In order to establish the connection, the app needs the access data. These are only stored locally on your end device:
+Delta Chat 通信通过您的电子邮件帐户工作。为了建立连接，该应用程序需要访问数据。这些数据仅本地存储在您的终端设备上：
 
-- e-mail address
-- your password
+- 电子邮件地址
+- 您的密码
 
-The legal basis for the processing is [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services. 
+数据处理的法律依据是 [GDPR 第 6 条第 1 款 b 项](https://gdpr-info.eu/art-6-gdpr/)，因为您通过使用我们的服务与我们签订了使用合同。
 
-#### 2.2 Heartbeat push notification
+安全程序到位以保护数据的机密性：
+仅存储满足用户登录请求所需的最低限度数据，
+进行加密以及本地沙盒化，
+有关更多详细信息，请参见 2.3。
 
-Push notifications can be sent to the user's phone at regular intervals to enable receipt of messages while the Delta Chat app is not currently active. Current messages can then be retrieved on the end device. The token is only created if the user wants reliable receipt of messages even when the app is not active. 
+#### 2.2 心跳推送通知
 
-In order to use push notifications, a unique identifier or token (Push Notification Token) is created after the app is downloaded and installed. This token allows Delta Chat servers to send notifications to the user's device. The token is generated and provided by the provider. The token is then stored on our systems and sent to the device at regular intervals to cause the app to retrieve new messages from the e-mail provider. Our systems have no knowledge of whether a message arrives or who may have sent a message.
+推送通知可以定期发送到用户的手机，以便在 Delta Chat 应用当前未激活时也能接收消息。然后可以在终端设备上检索当前消息。仅当用户希望即使在应用未激活时也能可靠地接收消息时，才会创建令牌。
 
-- Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). You can find the privacy policy under [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).  
+为了使用推送通知，在下载并安装应用后，会创建一个唯一的标识符或令牌（推送通知令牌）。此令牌允许 Delta Chat 服务器向用户的设备发送通知。令牌由提供商生成和提供。然后，令牌存储在我们的系统中，并定期发送到设备，以使应用从电子邮件提供商处检索新消息。我们的系统不知道是否有消息到达或谁可能发送了消息。
 
-The aforementioned data will only be processed with your consent, in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
+- iOS 系统的推送通知提供商是 Apple 服务。如果启用了推送通知，则使用 Apple 推送通知服务（iOS 版本）来提供此功能。有关更多信息，请访问 [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web)。您可以在 [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/) 下找到隐私政策。
 
-#### 2.3 Data in the app
+上述数据将仅在您同意的情况下进行处理，符合 [GDPR 第 6 条第 1 款 a 项](https://gdpr-info.eu/art-6-gdpr/)。
 
-The Delta Chat app works in a data-saving way. All relevant data is stored exclusively on the respective end devices:
+#### 2.3 应用内数据
+
+Delta Chat 应用以节省数据的方式工作。所有相关数据都专门存储在各自的终端设备上：
 
 ```
-- chat histories (text messages, voice messages, media, ...).
-- contacts
-- settings 
+- 聊天记录（文本消息、语音消息、媒体等）
+- 联系人
+- 设置
 ```
-Delta Chat servers have no access to this data, not even in encrypted form, as data processing takes place only on the end devices.
+Delta Chat 服务器无权访问此数据，即使是以加密形式，因为数据处理仅在终端设备上进行。
 
-#### 2.4 App permissions
+#### 2.4 应用权限
 
-Within the app, you can enter, manage, and edit various information, tasks, and activities. The app also requires the following permissions:
+在应用内，您可以输入、管理和编辑各种信息、任务和活动。该应用还需要以下权限：
 
 <table>
     <thead>
         <tr>
-            <th>Permission</th>
-            <th>Reason</th>
+            <th>权限</th>
+            <th>原因</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Internet access</td>
-            <td>This is needed to send the messages to the communication partner. </td>
+            <td>互联网访问</td>
+            <td>这是将消息发送给通信伙伴所必需的。</td>
         </tr>
         <tr>
-            <td>Camera access</td>
+            <td>相机访问</td>
             <td>
-This is needed for you to take photos and send them via the app. In addition, the camera access allows you to scan QR codes.
+这是您拍照并通过应用发送照片所必需的。此外，相机访问权限允许您扫描二维码。
             </td>
         </tr>
         <tr>
-            <td>Microphone access (optional)</td>
+            <td>麦克风访问（可选）</td>
             <td>
-This permission allows you to send voice messages.
+此权限允许您发送语音消息。
             </td>
         </tr>
         <tr>
-            <td>Location access (optional)</td>
+            <td>位置访问（可选）</td>
             <td>
-This is needed if you want to share your location with a communication partner.
+如果您想与通信伙伴分享您的位置，则需要此权限。
             </td>
         </tr>
         <tr>
-            <td>Background location access (optional)</td>
+            <td>后台位置访问（可选）</td>
             <td>
-This will be needed if you want to share your location over a certain period of time.
+如果您想在一段时间内分享您的位置，则需要此权限。
             </td>
         </tr>
         <tr>
-            <td>Contact access (optional)</td>
+            <td>联系人访问（可选）</td>
             <td>
-This allows you to load and save contacts from your phone book into the app. The contact data is stored locally in the app and not forwarded and stored on Delta Chat server.
+这允许您从手机通讯录加载联系人并将其保存到应用中。联系人数据本地存储在应用中，不会转发和存储在 Delta Chat 服务器上。
             </td>
         </tr>
         <tr>
             <td>
-Storage (optional)
+存储（可选）
             </td>
-            <td>You can save images and files from the app to your device.</td>
+            <td>您可以将应用中的图像和文件保存到您的设备。</td>
         </tr>
     </tbody>
 </table>
 
-The processing and use of the above permissions are performed to provide the service. The internet access is necessary for the use, therefore the legal basis of the processing is [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services.
+处理和使用上述权限是为了提供服务。互联网访问对于使用是必要的，因此处理的法律依据是 [GDPR 第 6 条第 1 款 a 项](https://gdpr-info.eu/art-6-gdpr/)，因为您通过使用我们的服务与我们签订了使用合同。
 
-The optional permissions only take place based on your consent according to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) and can also be reduced to individual services, e.g. only internet usage to send messages without pictures or location data. Delta Chat does not receive any access to this data.
+可选权限仅在您根据 [GDPR 第 6 条第 1 款 a 项](https://gdpr-info.eu/art-6-gdpr/) 的同意下进行，并且也可以减少到单个服务，例如仅互联网使用以发送消息而无需图片或位置数据。Delta Chat 不会收到对此数据的任何访问权限。
 
-### 3. Platform dependent processing
+### 3. 平台相关处理
 
-Certain information is already processed automatically as soon as you use the app. We have listed below which personal data is processed exactly:
+某些信息在您使用该应用后会自动处理。我们在下面列出了具体处理哪些个人数据：
 
-When you download the app, certain required information is transmitted to the app store you use ( e.g. Google Play or Apple App Store), in particular the username, the email address, the customer number of your account, the time of the download, payment information as well as the individual device identification number may be processed. The processing of this data is carried out exclusively by the respective app store and is beyond our control.
+当您下载该应用时，某些必需的信息会传输到您使用的应用商店（例如 Google Play 或 Apple App Store），特别是用户名、电子邮件地址、您的帐户客户编号、下载时间、付款信息以及个人设备识别号可能会被处理。此数据的处理完全由相应的应用商店进行，并且超出我们的控制范围。
 
-For the rest, we refer to the data protection policies of the respective app store providers or responsible parties of the operating systems. We do not collect and/or process any other data.
+对于其余部分，我们参考各个应用商店提供商或操作系统负责方的数据保护政策。我们不收集和/或处理任何其他数据。
 
-Your personal data will not be transferred to third parties for purposes other than those listed below.
+您的个人数据不会出于下列目的以外的目的传输给第三方。
 
-# 4. Rights of the data subject
+# 4. 数据主体的权利
 
-As a data subject of a processing of personal data, you have the right to 
+作为个人数据处理的数据主体，您有权：
 
-1. request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the processing purposes, the category of personal data, the categories of recipients to whom your data have been or will be disclosed, the planned storage period, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data if it has not been collected by us, as well as the existence of automated decision-making including profiling and, if applicable, meaningful information about its details;
-2. in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/) of the GDPR, immediately request the correction of inaccurate or incomplete personal data stored by us;
-3. pursuant to [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/) of the GDPR, to request the erasure of your personal data stored by us, unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defence of legal claims;
-4. pursuant to [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), to request the restriction of the processing of your personal data, insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you object to its erasure and we no longer require the data, but you need it for the assertion, exercise or defence of legal claims or you have objected to the processing pursuant to [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
-5. pursuant to [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/), to receive your personal data that you have provided to us in a structured, common and machine-readable format or to request that it be transferred to another controller;
-6. in accordance with [Art.7 (3) GDPR](https://gdpr-info.eu/art-7-gdpr/), to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
-7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/) of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
+1. 根据 [GDPR 第 15 条](https://gdpr-info.eu/art-15-gdpr/)，请求查阅我们处理的关于您的个人数据的信息。特别是，您可以要求获得关于处理目的、个人数据类别、您的数据已披露或将要披露给的接收者类别、计划的存储期限、更正权、删除权、限制处理权或反对权的存在、申诉权的存在、您的数据的来源（如果数据不是由我们收集的）以及自动化决策（包括分析）的存在以及（如果适用）关于其详细信息的有意义的信息；
+2. 根据 [GDPR 第 16 条](https://gdpr-info.eu/art-16-gdpr/)，立即要求更正我们存储的不准确或不完整的个人数据；
+3. 根据 [GDPR 第 17 条](https://gdpr-info.eu/art-17-gdpr/)，请求删除我们存储的关于您的个人数据，除非处理对于行使言论和信息自由权、履行法律义务、出于公共利益原因或为了建立、行使或辩护法律索赔是必要的；
+4. 根据 [GDPR 第 18 条](https://gdpr-info.eu/art-18-gdpr/)，要求限制处理您的个人数据，如果数据的准确性受到您的质疑，处理是非法的，但您反对删除并且我们不再需要这些数据，但您需要它来主张、行使或辩护法律索赔，或者您已根据 [GDPR 第 21 条](https://gdpr-info.eu/art-21-gdpr/) 反对处理；
+5. 根据 [GDPR 第 20 条](https://gdpr-info.eu/art-20-gdpr/)，以结构化、常用且机器可读的格式接收您提供给我们的个人数据，或要求将其传输给另一个控制者；
+6. 根据 [GDPR 第 7 条第 3 款](https://gdpr-info.eu/art-7-gdpr/)，随时撤销您给予我们的同意。这将导致我们将来可能不再继续基于此同意的数据处理；以及
+7. 根据 [GDPR 第 77 条](https://gdpr-info.eu/art-77-gdpr/)，向监管机构投诉。通常，您可以为此目的联系您常住地或工作地点的监管机构或我们的注册办事处。负责我们营业地点的监管机构是巴登-符腾堡州数据保护和信息自由专员，地址：70173 Stuttgart。
 
+# 5. 本数据保护声明的最新性和修改
 
-# 5. Up-to-dateness and modification of this data protection declaration
+本数据保护声明自 2021 年 11 月起生效。由于我们网站和产品的进一步开发或由于法律或官方要求的变更，可能有必要不时修订本数据保护声明。
 
-This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
-
-You can access and print out the current data protection declaration at any time at [https://delta.chat/gdpr](https://delta.chat/gdpr).
+您可以随时在 [https://delta.chat/gdpr](https://delta.chat/gdpr) 访问和打印当前的数据保护声明。
