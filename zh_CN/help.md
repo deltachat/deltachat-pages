@@ -38,7 +38,7 @@ Delta Chat 感觉就像 Whatsapp 或 Telegram，但你也可以把它当作电�
 - 使用快速、安全、可互操作的 [chatmail 服务器](https://delta.chat/chatmail) 创建匿名聊天账户
   为 iOS 和 Android 设备提供即时推送通知。 
 
-- 跨平台支持 [多配置文件](#多账户) 和多设备。 
+- 跨平台支持 [多配置文件](#multiple-accounts) 和多设备。 
 
 - 交互性 [聊天中的网页小程序](https://webxdc.org/apps)
 

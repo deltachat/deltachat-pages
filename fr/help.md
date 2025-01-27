@@ -8,46 +8,46 @@ header: Foire aux questions
 
 ## Qu'est-ce que Delta Chat ?
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
-available for mobile and desktop platforms.
+Delta Chat est une application de messagerie fiable, décentralisée et sécurisée, 
+Disponible pour les plateformes smartphone et ordinateurs de bureau.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+Delta Chat ressemble à Whatsapp ou Telegram mais vous pouvez aussi l'utiliser et la considérer comme une application e-mail. 
+Vous pouvez vous inscrire anonymement à une variété [de serveurs chatmail interéopérables](https://delta.chat/chatmail)
+Qui sont des serveurs e-mails minimalistes optimisés pour des opérations rapides et sécurisées. 
+Ou vous pouvez utiliser des serveurs e-mail classiques et utiliser votre compte e-mail
+dans ce cas Delta Chat agit comme une application de courriel.
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Comment puis-je trouver des gens avec qui discuter ?
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
+Pour établir un contact en toute sécurité avec d'autres personnes [scanner un code QR d'invitation 
+ou partager un lien d'invitation](#howtoe2ee). 
+Cette opération est nécessaire lors de l'utilisation d'un profil de discussion basé sur le chatmail (par défaut). 
+car les serveurs de chatmail rejettent les messages sortants non chiffrés.
 
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+Si vous créez un profil discussion avec une adresse courriel classique 
+vous pouvez créer manuellement un contact si vous connaissez son adresse courriel 
+et lui écrire un message 
+même si le destinataire n'utilise pas Delta Chat.
 
 
 ### Quels sont les avantages de Delta Chat par rapport aux autres messageries ?
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices. 
+- Profils anonymes de discussion avec des [serveurs de chatmail](https://delta.chat/chatmail) rapides, sécurisés et interopérables 
+  qui offrent des notifications push instantanées pour les appareils iOS et Android. 
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+- Fonctionnalités de [multi-profil](#multiple-accounts) et de multi-appareil supportées sur toutes les plateformes. 
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+- [web apps dans les chats](https://webxdc.org/apps) interactifs pour le gaming et la collaboration
 
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
+- [Chiffrement de bout en bout audité](#security-audits) 
+  contre les attaques ciblées sur le réseau et les serveurs. 
 
-- Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
+- Logiciel libre et open source, à la fois appli et côté serveur. 
+  Construit sur des [Standards d'Internet et d'e-mail](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  [pour éviter le syndrome du "standard de plus" (xkcd 927)](https://xkcd.com/927/) 
 
 
 ### Et si j'attends un message de quelqu'un avec qui je n'ai encore jamais échangé ?
@@ -99,13 +99,13 @@ Dans les paramètres vous pouvez ajouter une photo de profil. Si vous écrivez �
 - Votre photo de profil n'est pas envoyée avec chaque message, mais assez régulièrement pour que vos contacts aient une photo à jour même s'ils ajoutent un nouvel appareil.
 
 
-### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
+### Puis-je afficher une Bio/Signature ou un Status/Motto avec Delta Chat? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Your contacts who use Delta Chat will see it
-when they view your contact details.
-Moreover, it will appear as a classic e-mail signature.
+Oui,
+vous pouvez le faire sous **Paramètres → Profil → Bio**.
+Vos contacts qui utilisent Delta Chat le verront
+lorsqu'ils consulteront vos coordonnées.
+De plus, elle apparaîtra sous la forme d'une signature classique sur vos courriels.
 
 
 ### Que signifient "épingler", "sourdine" et "archiver" ?

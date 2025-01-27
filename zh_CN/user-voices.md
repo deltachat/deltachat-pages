@@ -5,22 +5,22 @@ lang: zh_CN
 
 # 用户故事与发言
 
-### more fun with e-mail
+### 让电子邮件更像聊天
 
-_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+_"一个有趣的发现：用 #DeltaChat 来收发电子邮件，比传统的电子邮件客户端更令人愉快。我想，这主要是因为它的现代化设计——将电子邮件呈现得像聊天消息一样直观。"_
 
-**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
+**一位波兰用户**在 [Mastodon](https://101010.pl/@michal/107107322703871076) 上分享 
 
-### supports more than one account
+### 多账户支持 
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"嗨，Delta.chat 团队！感谢你们开发这款应用；它既非常实用，也几乎达到了完美的用户体验（UX）。能否提供更简单的方式在多个电子邮件账户之间切换？[……]"_ 
+**一位用户**在我们优化多账户功能之前，在 [Mastodon](https://oc.todon.fr/@borispaing/106607795144753681) 上的留言 
 
-### audio and video call possible
+### 支持音视频通话
 
-_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+_"最棒的是，它通过创建 Jitsi 房间并发送邀请的方式，支持视频和音频通话，这真是一个非常酷的解决方案！:)"_ 
 
-**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
+**一位用户**在 [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273) 上评论 
 
 ### 可以推荐给盲人
 
@@ -28,23 +28,23 @@ _“ 就在发邮件给你们后，我昨晚安装了Delta Chat，我立刻注�
 
 **盲人用户** 2019年的Android版本，发送电子邮件到delta@merlinux.eu
 
-### Popular in regions with strict Internet governance
+### 在网络监管严格的地区走红 
 
-_"There's this nice messenger, based on a simple email, called Delta Chat. I am happy that our Internet watchdog has made this app popular by trying to block it. It's just like with Telegram that has become widely popular across non-tech audiences after the ban"._ 
+_"有一个非常棒的即时通讯工具，叫 Delta Chat，它基于简单的电子邮件。我很高兴，我们的互联网监管机构试图封锁它的举动反而让它更受欢迎了。就像当年封禁 Telegram 后，反而让它在非技术用户中更流行了一样。"_
 
-**Russian user** from 2020 in response to Delta Chat's rejection to satisfy Russian Internet watchdog RKN's request for user data, via [Twitter](https://twitter.com/Alex0s/status/1256841124427313153)
+**一位俄罗斯用户**2020 年在 Delta Chat 拒绝满足俄罗斯互联网监管机构的用户数据请求后，在 [Twitter](https://twitter.com/Alex0s/status/1256841124427313153) 上留言 
 
-### Chatty interface with robust encryption
+### 聊天界面与强大的加密功能 
 
-_"Other things I know I'm late to the party on but delta-chat seems really neat, especially if you have privacy concerns, since it's really just a specialized encryption heavy email client that presents a chat interface"_
+_"虽然我晚了一些才发现，但 Delta Chat 确实很出色，尤其是对于关注隐私的人来说。它本质上是一个专为加密设计的电子邮件客户端，但呈现出了聊天的界面。"_
 
-**American user** from 2020 recommending Delta Chat for everyday usage
+**一位美国用户**2020 年推荐 Delta Chat 用于日常使用 
 
-### Works during Internet shutdowns
+### 在网络中断时依然可用 
 
-_"I was happy that I could get Delta Chat from the website, not just via Google Play since it was blocked in Belarus. It was a bit slow to get the apk, but once I got the app, it worked just fine. We could share some photos and even videos encrypted"_ 
+_"我很高兴可以直接从官方网站下载 Delta Chat，而不只是通过 Google Play，因为在白俄罗斯，Google Play 被屏蔽了。虽然下载 APK 稍有点慢，但安装后应用运行非常出色。我们甚至可以加密分享照片和视频。"_
 
-**Belarusian user** during protests in August 2020, via email to delta@merlinux.eu
+**一位白俄罗斯用户**2020 年 8 月抗议期间，通过电子邮件向 delta@merlinux.eu 反馈 
 
 ### 公司通知系统已迁移
 
@@ -80,11 +80,11 @@ _" 在/e/，我们有许多关于Telegram、Signal和其他类似应用的比较
 
 **Gaël Duval**，Mandrake Linux创始人发表于[推特](https://twitter.com/gael_duval/status/1122906779002777600)
 
-### Decentralized but easy for users
+### 去中心化且易于使用
 
-_"People start caring about decentralization. But it seems that for a lot of people setting servers and all to use Matrix or XMPP is too complicated while you can use Delta with just an e-mail address"_
+_"人们开始关注去中心化，但许多人觉得配置服务端来使用 Matrix 或 XMPP 太复杂。相比之下，使用 Delta Chat 只需要一个电子邮件地址即可，非常简单。"_
 
-**Russian user** LGBT+ activist, from an online discussion over Telegram
+**一位俄罗斯用户**LGBT+ 活动家在 Telegram 的一次在线讨论中提到 
 
 ### 好的古老的电子邮件做得很好
 

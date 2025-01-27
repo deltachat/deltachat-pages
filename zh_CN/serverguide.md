@@ -196,79 +196,60 @@ MAILCOW_ENDPOINT=https://mail.example.org/api/v1/
 MAILCOW_TOKEN=238473-081241-7A78B1-B7098C-E798BA
 ```
 
-At `MAILCOW_TOKEN`, enter the API key which you just got from the mailcow web
-interface.
+在 `MAILCOW_TOKEN` 中，输入你刚刚从 mailcow Web 界面获得的 API 密钥。
 
-If you are unsure how to choose the values in .env, take a look at the
-[documentation](https://mailadm.readthedocs.io/en/latest/#configuration-details)
-of mailadm.
+如果你不确定如何选择 .env 中的值，请查看 mailadm 的[文档](https://mailadm.readthedocs.io/en/latest/#configuration-details)。
 
-### Add mailadm alias
+### 添加 mailadm 别名
 
-Now to make it easier to run mailadm commands, add this alias:
+现在为了更轻松地运行 mailadm 命令，添加此别名：
 
 ```
 alias mailadm="$PWD/scripts/mailadm.sh"
 echo "alias mailadm=$PWD/scripts/mailadm.sh" >> ~/.bashrc
 ```
 
-### Start mailadm
+### 启动 mailadm
 
-Then you can initialize the database and setup the bot mailadm will use to
-receive commands and support requests from your users:
+然后你可以初始化数据库并设置 mailadm 将用于接收来自用户的命令和支持请求的机器人：
 
 ```
 mailadm init
 mailadm setup-bot
 ```
 
-Then you are asked to scan a QR code to join the Admin Group, a verified Delta
-Chat group. Anyone in the group can issue commands to mailadm via Delta Chat.
-You can send “/help” to the group to learn how to use it.
+然后会要求你扫描二维码以加入管理组，这是一个经过验证的 Delta Chat 群组。群组中的任何人都可以通过 Delta Chat 向 mailadm 发出命令。你可以向群组发送 “/help” 以了解如何使用它
 
-Now, as everything is configured, we can start the mailadm container for good:
+现在，由于一切都已配置好，我们可以永久启动 mailadm 容器了：
 
 ```
 sudo docker run -d -p 3691:3691 --mount type=bind,source=$PWD/docker-data,target=/mailadm/docker-data --name mailadm mailadm-mailcow gunicorn -b :3691 -w 1 mailadm.app:app
 ```
 
-This starts a `mailadm` docker container. You can restart it with `sudo docker
-restart mailadm`, should you ever want to.
+这将启动一个 `mailadm` docker 容器。你可以使用 `sudo docker restart mailadm` 重启它，如果你想这样做的话。
 
-#### First steps with mailadm
+#### mailadm 的初步使用
 
-That's it! You can now get started with creating tokens and users with mailadm.
-Best look at the documentation for the [first
-steps](https://mailadm.readthedocs.io/en/latest/#first-steps) - it also
-contains hints for troubleshooting the setup if something doesn't work.
+就这样！你现在可以开始使用 mailadm 创建令牌和用户了。最好查看[初步使用](https://mailadm.readthedocs.io/en/latest/#first-steps)的文档 - 它还包含如果某些内容无法正常工作时，故障排除的提示。
 
-## Recommended: Disable POP3
+## 推荐：禁用 POP3
 
-Delta Chat uses only SMTP and IMAP,
-so if all of your users use Delta Chat,
-you can disable POP3.
+Delta Chat 仅使用 SMTP 和 IMAP，因此如果你的所有用户都使用 Delta Chat，则可以禁用 POP3。
 
-To do this, add the following to `mailcow.conf`:
+为此，请将以下内容添加到 `mailcow.conf`：
 
 ```
 POP_PORT=127.0.0.1:110
 POPS_PORT=127.0.0.1:995
 ```
 
-Then apply the changes with `sudo docker compose up -d`.
+然后使用 `sudo docker compose up -d` 应用更改。
 
-## Recommended: Redirect all HTTP traffic to HTTPS
+## 推荐：将所有 HTTP 流量重定向到 HTTPS
 
-By default,
-the nginx server also responds unencrypted
-on port 80.
-This can be bad,
-as some users might enter passwords
-over this unencrypted connection.
+默认情况下，nginx 服务器也会在端口 80 上以未加密的方式响应。这可能不好，因为某些用户可能会通过此未加密的连接输入密码。
 
-To prevent this,
-create a new file `data/conf/nginx/redirect.conf`
-and add the following server config to the file:
+为了防止这种情况，创建一个新文件 `data/conf/nginx/redirect.conf` 并将以下服务器配置添加到该文件：
 
 ```
 server {
@@ -287,24 +268,17 @@ server {
 }
 ```
 
-Then apply the changes with `sudo docker compose restart nginx-mailcow`.
+然后使用 `sudo docker compose restart nginx-mailcow` 应用更改。
 
-## Recommended: No Logs, No Masters
+## 推荐：无日志，无主日志
 
-Mailcow logs the IP addresses of your users for debugging purposes, so if you
-don't want to keep this critical information on your server, you might want to
-disable logging. Note that this makes debugging of issues considerably harder.
-Nobody but you can guess whether this is necessary in your environment.
+Mailcow 会记录用户的 IP 地址以进行调试，因此如果你不想在服务器上保留此关键信息，你可能需要禁用日志记录。请注意，这会使问题调试变得更加困难。只有你自己才能判断这在你的环境中是否必要。
 
-Mailcow keeps some logs in redis, so you can show it in the web interface - but
-if you add `command: '--save ""'` to the redis-server container in
-docker-compose.yml, it keeps them only in the RAM, which is hopefully not saved
-by a potential attacker.
+Mailcow 将一些日志保存在 Redis 中，因此你可以在 Web 界面中显示它 - 但如果你在 docker-compose.yml 中的 redis-server 容器中添加 `command: '--save ""'`，它只会将它们保存在 RAM 中，希望潜在的攻击者不会保存 RAM 中的数据。
 
-To point the actual log files in `/dev/null`, aka Nirvana, you can:
+要将实际的日志文件指向 `/dev/null`，又名涅槃，你可以：
 
-Add the following lines to each container in
-`mailcow-dockerized/docker-compose.yml`:
+在 `mailcow-dockerized/docker-compose.yml` 中的每个容器中添加以下行：
 
 ```
       logging:
@@ -314,39 +288,27 @@ Add the following lines to each container in
           syslog-facility: "local3"
 ```
 
-Now you can configure rsyslog to listen on that port for log input. Uncomment
-the following lines in `/etc/rsyslog.conf`:
+现在你可以配置 rsyslog 以侦听该端口的日志输入。取消注释 `/etc/rsyslog.conf` 中的以下行：
 
 ```
 module(load="imudp")
 input(type="imudp" port="514")
 ```
 
-And put this in `/etc/rsyslog.d/` to redirect all of that to nirvana:
+并将此内容放入 `/etc/rsyslog.d/` 中，以将所有内容重定向到涅槃：
 
 ```
 local3.*        /dev/null
 & stop
 ```
 
-Finally, restart rsyslog with `sudo service rsyslog restart` and mailcow with
-`sudo docker compose up -d`.
+最后，使用 `sudo service rsyslog restart` 重启 rsyslog，并使用 `sudo docker compose up -d` 重启 mailcow。
 
-Consider looking at the [Mailcow logging
-documentation](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation)
-for alternatives to this configuration.
+可以考虑查看 [Mailcow 日志记录文档](https://docs.mailcow.email/post_installation/firststeps-logging/#log-rotation) 以获取此配置的替代方案。
 
-## Recommended: Add Reverse DNS Entries at Your Provider
+## 推荐：在你的提供商处添加反向 DNS 记录
 
-You might also create reverse DNS entries
-for the IPv4 and IPv6 addresses of your server,
-containing your domain.
-Reverse DNS entries improve deliverability;
-it helps other mail server
-distinguish your user's mails from spam.
+你还可以为服务器的 IPv4 和 IPv6 地址创建反向 DNS 记录，其中包含你的域名。反向 DNS 记录可以提高送达率；它有助于其他邮件服务器将你用户的邮件与垃圾邮件区分开来。
 
-Setting rDNS entries should be possible
-in the hosting provider web interface.
-You can read more about it
-[in this article](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/).
+应该可以在托管提供商的 Web 界面中设置 rDNS 记录。你可以在[本文](https://docs.hetzner.com/dns-console/dns/general/reverse-dns/)中阅读有关它的更多信息。
 
