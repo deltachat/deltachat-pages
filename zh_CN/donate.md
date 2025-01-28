@@ -13,4 +13,4 @@ lang: zh_CN
 - 通过 [Open Collective](https://opencollective.com/delta-chat/donate) 进行一次性或经常性捐赠
 - 发送比特币到 [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
-[其他贡献方式]（贡献）{: .cta-button}
+[其他贡献方式](contribute){: .cta-button}
