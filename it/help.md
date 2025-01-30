@@ -310,15 +310,13 @@ a qualsiasi sistema coinvolto nella consegna di Notifiche Push.
 
 Ecco come le app Delta Chat eseguono l'invio delle Notifiche Push:
 
-- A Delta Chat app obtains a "device token" locally, encrypts it and stores it
-  on the [chatmail](https://delta.chat/chatmail) server.
+- Un'app Delta Chat ottiene un "token del dispositivo" localmente, lo crittografa e lo memorizza sul server [chatmail](https://delta.chat/chatmail).
 
-- When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- Quando un server [chatmail](https://delta.chat/chatmail) riceve un'e-mail per un utente Delta Chat, inoltra il token del dispositivo crittografato al proxy di notifica centrale Delta Chat.
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or e-mail address of Delta Chat users.
+- Il proxy di notifica centrale di Delta Chat decifra il token del dispositivo
+  e lo inoltra al rispettivo servizio Push (Apple, Google, ecc.),
+  senza mai conoscere l'IP o l'indirizzo e-mail degli utenti di Delta Chat.
 
 - Il Servizio Push centrale (Apple, Google, ecc.)
 attiva l'app Delta Chat sul tuo dispositivo
@@ -332,10 +330,10 @@ Il proxy di notifica centrale di Delta Chat [è piccolo e completamente implemen
 e si dimentica dei gettoni del dispositivo non appena Apple/Google/ecc li elabora,
 di solito nel giro di pochi millisecondi.
 
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees e-mail addresses, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
+Si noti che il token del dispositivo è crittografato tra le app e il proxy di notifica
+ma non è firmato.
+Il proxy di notifica quindi non vede mai indirizzi e-mail, indirizzi IP o
+alcune informazioni di identità crittografica associate al dispositivo di un utente (token).
 
 Come risultato di questo disegno complessivo sulla riservatezza, anche il sequestro di un server chatmail,
 o il sequestro totale del proxy di notifica centrale di Delta Chat
@@ -585,7 +583,7 @@ compresi eventuali allegati,
 se non sono crittografati end-to-end.
 
 Delta Chat per impostazione predefinita utilizza
-[Crittografia TLS] rigorosa (https://en.wikipedia.org/wiki/Transport_Layer_Security)
+[Crittografia TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) rigorosa 
 che protegge le connessioni tra il tuo dispositivo e il tuo provider e-mail.
 Tutta la gestione TLS di Delta Chat è stata sottoposta a [controlli di sicurezza](#security-audits) in modo indipendente.
 Inoltre, la connessione tra il tuo provider e-mail e quello del destinatario
@@ -1250,7 +1248,7 @@ ordinate cronologicamente:
 prima sovvenzione 2018/2019 (~$200K) durante la quale abbiamo notevolmente migliorato l'app Android
 e ha rilasciato una prima versione beta dell'app desktop, e che inoltre
 ancorato i nostri sviluppi delle funzionalità nella ricerca sulla UX nei contesti dei diritti umani,
-vedete il nostro [Rapporto Needfinding e UX] conclusivo (https://delta.chat/en/2019-07-19-uxreport).
+vedete il nostro [Rapporto Needfinding e UX](https://delta.chat/en/2019-07-19-uxreport) conclusivo.
 La seconda sovvenzione 2019/2020 (~$300K) ci ha aiutato a farlo
 rilasciare nelle versioni Delta/iOS, per convertire la nostra libreria principale in Rust, e
 per fornire nuove funzionalità per tutte le piattaforme.
@@ -1269,7 +1267,7 @@ creando una [rete di server di chatmail](https://delta.chat/chatmail)
 e fornendo "inserimento immediato" in tutte le app rilasciate da aprile 2024 in poi.
 
 - Nel 2023 e nel 2024 siamo stati accettati nel programma Next Generation Internet (NGI)
-  per il nostro lavoro in [webxdc PUSH].(https://nlnet.nl/project/WebXDC-Push/),
+  per il nostro lavoro in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
   insieme ai partner di collaborazione che lavorano su 
   [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
   [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
