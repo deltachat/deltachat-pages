@@ -9,13 +9,13 @@ excerpt: This is a technical post about why we created the jsonrpc bindings addi
 
 > Foremost this is a quite technical post, read our other blog posts if you want to read something more targeted at end users.
 
-If you have not yet looked at delta the delta chat source code, you might not know yet that we have a core library that is used by all UI implementation.
-This means the core features like encryption, email protocols, chat and message management are using the same code on in all our apps (desktop, android, iOS).
+If you have not yet looked at the Delta Chat source code, you might not know yet that we have a core library that is used by all UI implementations.
+This means the core features like encryption, email protocols, chat and message management are using the same code on in all our apps (desktop, Android, iOS).
 This has the following benefits:
 
 - Because our Core library does all the heavy work and exposes easy methods such as `getAccounts`, `getChatlist`, `getChatContacts` and so on, it's much less work maintaining our apps on all platforms, because they basically only need to implement the UI.
 - We have many tests for this core library, internal tests in rust and many integration tests in python.
-- The core library can easily be used to write bots and new Apps/Clients (like deltatouch, a client for Ubuntu touch made by a community member in about a year, read the [blog post](./2023-07-02-deltatouch)).
+- The core library can easily be used to write bots and new apps/clients (like deltatouch, a client for Ubuntu touch made by a community member in about a year, read the [blog post](./2023-07-02-deltatouch)).
 
 ## The C Foreign Function Interface
 
@@ -24,13 +24,11 @@ It was introduced back when Björn started the Delta Chat project.
 He wrote the [core in C](https://github.com/deltachat/deltachat-core) and forked the Signal android app for the UI, which is written in Java, so the core is connected via CFFI^[the header file [deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h) is an easy way to get an idea of the API] and [JNI](https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c) (java native interface).
 Later [when we moved the core to rust](https://delta.chat/en/2019-05-08-xyiv#the-coming-delta-chat-rustocalypse) the CFFI stayed, and that the API stayed the same is also one of the reason why the migration from c to rust went so well.
 
-The advantage of a CFFI is that most programming languages have some way to bind to it already built-in.
+The advantage of a CFFI is that most programming languages have a built-in way to bind to it.
 
-A peek into how methods in [`deltachat.h`](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h) look like:
+A peek into how the CFFI methods look like (from [`deltachat.h`](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)):
 
 ```c
-char* dc_get_info(const dc_context_t* context);
-
 #define DC_CONNECTIVITY_NOT_CONNECTED        1000
 #define DC_CONNECTIVITY_CONNECTING           2000
 #define DC_CONNECTIVITY_WORKING              3000
@@ -54,7 +52,7 @@ After using it you need to free it using the `_unref` methods (like `dc_chatlist
 
 While using the cffi in android and iOS was working fine, in the desktop version which is based on electron it had some problems.
 
-The main problem was that electron is a full browser which uses multiple processes, and you can't easily keep pass pointers to c-structs over process boundaries, ignoring that it is a bad idea. On android and iOS you can just call Delta Chat core from the UI thread. So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the c bindings, more about that below in the comparison.
+The main problem was that Electron is a full browser which uses multiple processes, and you can't easily pass pointers to C-structs over process boundaries, ignoring that it is a bad idea. On Android and iOS you can just call Delta Chat core from the UI thread. So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the C bindings, more about that below in the comparison.
 
 The other problem in desktop that it is basically single threaded and while Delta Chat core uses async rust, the CFFI blocks on all calls (note the `block_on`):
 
@@ -69,20 +67,20 @@ pub unsafe extern "C" fn dc_stop_ongoing_process(context: *mut dc_context_t) {
 }
 ```
 
-In android and iOS you can easily start threads or defer blocking tasks to other threads, so there it is not a problem, but on desktop each call blocked the main process lead to an unresponsive experience.
+In android and iOS you can easily start threads or offload blocking tasks to other threads, but on desktop each call blocked the main process **and** led to an unresponsive experience.
 Even though the communication between our main and UI process was already using async electron IPC, electron froze the UI process every time the main process was blocked.
 
-Out of these and other frustrations the idea for a new way to talk to core was born. First there was only talk, like were discussions of what wire format to use: CBOR, message-pack or just plain JSON. A while nothing happened.
+Out of these and other frustrations the idea for a new way to talk to core was born. First there was only talk, like there were discussions of what wire format to use: CBOR, message-pack or just plain JSON.
 
 ## The history of our jsonrpc interface
 
 Then treefit started writing a deltachat-command-API project which was passing requests and answers over json.
 There were two goals: make desktop development easier and to make the experiment of a KaiOS client possible [^kaios].
 
-[^kaios]: KaiOS has a similar problem: Only webapps are allowed, so there also a process boundary - KaiOS is small feature phones with T9 keyboard. BTW: treefit still plans to make that experimental client for KaiOS.
+[^kaios]: KaiOS has a similar problem: Only webapps are allowed, so there also is a process boundary - KaiOS is an OS for small feature phones with T9 keyboard. BTW: treefit still plans to make that experimental client for KaiOS.
 
 After he got the [first prototype](https://github.com/Simon-Laux/delta-command-api) working, Frando cleaned up and rewrote the code to make it more [idiomatic and professional](https://github.com/deltachat/deltachat-jsonrpc/pull/14).
-He also factored out the jsonrpc library and procedural macro into a dedicated rust crate, so that it can also be used by other projects: [yerpc](https://github.com/deltachat/yerpc)
+He also factored out the jsonrpc library and procedural macro into a dedicated rust crate, so that it can also be used by other projects, which was named [yerpc](https://github.com/deltachat/yerpc).
 
 Then we merged the repo into the core repo and moved desktop over to use the new jsonrpc API, which was easy thanks to the generated typescript bindings that gave good auto-completion.
 Though it still used the cffi and node bindings as transport, until May 17, 2024, when treefit migrated it to use the deltachat-rpc-server binary that uses stdio as a transport[^jsonrpc-pr].
@@ -111,21 +109,19 @@ This is thanks to 2 factors:
 
 Error handling in c requires much discipline:
 a common pattern in C is to return a status code and write results to a pointer that was provided as an argument to the function.
-Take this example from [libimobiledevice](https://libimobiledevice.org/):
+Take this example from [libimobiledevice](https://libimobiledevice.org/)'s [`lockdown.h`](https://docs.libimobiledevice.org/libimobiledevice/latest/lockdown_8h.html):
 
-> ```c
-> enum lockdownd_error_t {
->   LOCKDOWN_E_SUCCESS = 0,
->   LOCKDOWN_E_INVALID_ARG = -1,
->   LOCKDOWN_E_INVALID_CONF = -2,
->   LOCKDOWN_E_PLIST_ERROR = -3,
->   LOCKDOWN_E_PAIRING_FAILED = -4,
->   // ...
-> }
-> lockdownd_error_t lockdownd_client_new (idevice_t device, lockdownd_client_t *client, const char *label)
-> ```
->
-> from <https://docs.libimobiledevice.org/libimobiledevice/latest/lockdown_8h.html>
+```c
+enum lockdownd_error_t {
+  LOCKDOWN_E_SUCCESS = 0,
+  LOCKDOWN_E_INVALID_ARG = -1,
+  LOCKDOWN_E_INVALID_CONF = -2,
+  LOCKDOWN_E_PLIST_ERROR = -3,
+  LOCKDOWN_E_PAIRING_FAILED = -4,
+  // ...
+}
+lockdownd_error_t lockdownd_client_new (idevice_t device, lockdownd_client_t *client, const char *label)
+```
 
 In our cffi we are not as strict, we mostly use 0 or `NULL` pointers to indicate errors:
 
@@ -145,7 +141,7 @@ At the time there was a bug in the iOS app where accounts went missing seemingly
 
 The bug was basically that Delta Chat ios thought locked accounts would be unconfigured, because **unconfigured** and **error** **both** did return value `0`.
 And if an account was unconfigured the welcome screen was shown, which has a back button that deleted the unconfigured new accounts.
-Only this account was not new, only dc-iOS thought it was because `dc_is_configured()` returned `0`.
+But this account was not new, only dc-iOS thought it was because `dc_is_configured()` returned `0`.
 
 We fixed it by adding a call to `dc_is_open()` to the welcome screen[^ios-issue]:
 
