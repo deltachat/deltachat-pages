@@ -9,8 +9,10 @@ excerpt: This is a technical post about why we created the jsonrpc bindings addi
 
 > Foremost this is a quite technical post, read our other blog posts if you want to read something more targeted at end users.
 
-If you have not yet looked at the Delta Chat source code, you might not know yet that we have a core library that is used by all UI implementations.
-This means the core features like encryption, email protocols, chat and message management are using the same code on in all our apps (desktop, Android, iOS).
+If you have not yet looked at the Delta Chat source code,
+you might not know yet that we have a core library that is used by all UI implementations.
+This means the core features like encryption, email protocols,
+chat and message management are using the same code on in all our apps (desktop, Android, iOS).
 This has the following benefits:
 
 - Because our Core library does all the heavy work and exposes easy methods such as `getAccounts`, `getChatlist`, `getChatContacts` and so on, it's much less work maintaining our apps on all platforms, because they basically only need to implement the UI.
@@ -24,9 +26,10 @@ It was introduced back when Björn started the Delta Chat project.
 He wrote the [core in C](https://github.com/deltachat/deltachat-core) and forked the Signal android app for the UI,
 which is written in Java, so the core is connected via CFFI[^CFFI] and [JNI](https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c) (java native interface).
 Later [when we moved the core to rust](https://delta.chat/en/2019-05-08-xyiv#the-coming-delta-chat-rustocalypse) the CFFI stayed,
-and that fact that its API stayed the same is also one of the reasons why the migration from c to rust went so well.
+and that fact that its API stayed the same is also one of the reasons why the migration from C to Rust went so well.
 
-[^CFFI]: the header file [deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h) is an easy way to get an idea of the API
+[^CFFI]: the header file [deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
+is an easy way to get an idea of the API
 
 The advantage of a CFFI is that most programming languages have a built-in way to bind to it.
 
@@ -77,7 +80,11 @@ While using the cffi in android and iOS was working fine, in the desktop version
 
 The main problem was that Electron is a full browser which uses multiple processes,
 and you can't easily pass pointers to C-structs over process boundaries,
-ignoring that this would a bad idea[^bad-idea]. On Android and iOS you can just call Delta Chat core from the UI thread. So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the C bindings, more about that below in the comparison.
+ignoring that this would a bad idea[^bad-idea].
+On Android and iOS you can just call Delta Chat core from the UI thread,
+because the UI thread there is not a completely different process.
+So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the C bindings,
+more about that below in the comparison.
 
 [^bad-idea]: Why is passing memory pointers across process boundaries potentially dangerous?
 Two main reasons: you still need to free/cleanup the remote resource after using it
@@ -130,7 +137,7 @@ KaiOS has a similar problem: Only webapps are allowed, so there also is a proces
 After he got the [first prototype](https://github.com/Simon-Laux/delta-command-api) working,
 [Frando](https://github.com/Frando) cleaned up and rewrote the code to make it more
 [idiomatic and professional](https://github.com/deltachat/deltachat-jsonrpc/pull/14).
-He also factored out the jsonrpc library and procedural macro into a dedicated rust crate,
+He also factored out the generic jsonrpc code into a seperate library and procedural macro into a dedicated rust crate,
 so that it can also be used by other projects, which was named [yerpc](https://github.com/deltachat/yerpc).
 
 Then we merged our temporary "deltachat jsonrpc" repo into the core repo
@@ -160,11 +167,12 @@ As you can see in this "meme", adding a method with jsonrpc is much simpler than
 This is thanks to 2 factors:
 
 - A new method does not need to be specified at every stage. (see also the "Desktop architecture versions" diagram above)
-- Code generation: typescript client wrapper code and [OpenRPC](https://open-rpc.org/) definition are auto generated from the rust code. (including documentation comments)
+- Code generation: TypeScript client wrapper code and [OpenRPC](https://open-rpc.org/) definition
+are auto generated from the Rust code. (including documentation comments)
 
 ### Error handling
 
-Error handling in c requires much discipline:
+Error handling in C requires much discipline:
 a common pattern in C is to return a status code and write results to a pointer that was provided as an argument to the function.
 Take this example from [libimobiledevice](https://libimobiledevice.org/)'s [`lockdown.h`](https://docs.libimobiledevice.org/libimobiledevice/latest/lockdown_8h.html):
 
@@ -180,7 +188,7 @@ enum lockdownd_error_t {
 lockdownd_error_t lockdownd_client_new (idevice_t device, lockdownd_client_t *client, const char *label)
 ```
 
-In our cffi we are not as strict, we mostly use 0 or `NULL` pointers to indicate errors:
+In our CFFI we are not as strict, we mostly use 0 or `NULL` pointers to indicate errors:
 
 > [dc*contact_t * dc*get_contact ( dc_context_t * context, uint32_t contact_id )](https://c.delta.chat/classdc__context__t.html#a36b0e1a01730411b15294da5024ad311) > \[...]
 > Returns
@@ -194,11 +202,15 @@ That seems straight forward, but we had a serious bug with an experimental featu
 
 #### The error handling bug that lead to lost accounts
 
-At the time there was a bug in the iOS app where accounts went missing seemingly randomly. Later we found out that **only experimental** encrypted accounts were affected by this issue.
+At the time there was a bug in the iOS app where accounts went missing seemingly randomly.
+Later we found out that **only experimental** encrypted accounts were affected by this issue.
 
-The bug was basically that Delta Chat ios thought locked accounts would be unconfigured, because **unconfigured** and **error** **both** did return value `0`.
-And if an account was unconfigured the welcome screen was shown, which has a back button that deleted the unconfigured new accounts.
-But this account was not new, only dc-iOS thought it was because `dc_is_configured()` returned `0`.
+The bug was basically that Delta Chat iOS thought locked accounts would be unconfigured,
+because **unconfigured** and **error** **both** did return value `0`.
+And if an account was unconfigured the welcome screen was shown,
+which has a back button that deleted the unconfigured new accounts.
+But this account was not new,
+only dc-iOS thought it was, because `dc_is_configured()` returned `0`.
 
 We fixed it by adding a call to `dc_is_open()` to the welcome screen[^ios-issue]:
 
@@ -217,15 +229,20 @@ We fixed it by adding a call to `dc_is_open()` to the welcome screen[^ios-issue]
 
 #### Getting more information about errors than just the fact that an error occurred
 
-As written above, you mostly get to know that and error happened but not what error. So where do we get the error from?
+As written above, you mostly get to know that and error happened but not what error.
+So where do we get the error from?
 
-- For [`dc_configure()`](https://c.delta.chat/classdc__context__t.html#adfe52669a5bed893df78a620566dd698), you can listen for the [`DC_EVENT_CONFIGURE_PROGRESS`](https://c.delta.chat/group__DC__EVENT.html#gae047f9361d57c42d82a794324f5b9fd6) event, if progress/`data1` is 0 then comment/`data2` contains the error message.
-- For the other cases you can use [`dc_get_last_error()`](https://c.delta.chat/classdc__context__t.html#a84c9f09e57c2985fd1c47809eea01969) to get the last error sting from the last error event - without possible races from waiting for or looping through events.
+- For [`dc_configure()`](https://c.delta.chat/classdc__context__t.html#adfe52669a5bed893df78a620566dd698),
+you can listen for the [`DC_EVENT_CONFIGURE_PROGRESS`](https://c.delta.chat/group__DC__EVENT.html#gae047f9361d57c42d82a794324f5b9fd6) event,
+if progress/`data1` is 0 then comment/`data2` contains the error message.
+- For the other cases you can use [`dc_get_last_error()`](https://c.delta.chat/classdc__context__t.html#a84c9f09e57c2985fd1c47809eea01969)
+to get the last error sting from the last error event - without possible races from waiting for or looping through events.
   - But if you do many operations from different threads there can still be races, at-least in theory.
 
 #### How jsonrpc solves these issues
 
-There are two kinds of responses to a jsonrpc requests: a response or an error, the error contains an error code and an error message string.
+There are two kinds of responses to a jsonrpc requests:
+a response or an error, the error contains an error code and an error message string.
 
 ```
 --> {"jsonrpc": "2.0", "method": "foobar", "id": "1"}
@@ -233,14 +250,15 @@ There are two kinds of responses to a jsonrpc requests: a response or an error, 
 ```
 
 In Delta Chat we currently only use the error string.
-Our jsonrpc clients (JavaScript and python) automatically convert these error responses to errors in the target language and return/throw them:
+Our jsonrpc clients (JavaScript and Python) automatically convert these error responses to errors in the target language
+and return/throw them:
 
 <img src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/error thrown in js.png" />
 So we always know what call an error belongs to and we don't have the risk of mixing boolean return value and error.
 
 ### Named fields in events
 
-In the cffi you have the following functions to get the data from events:
+In the CFFI you have the following functions to get the data from events:
 
 | Return Type | Call Signature                                                                                                                                                              |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -293,24 +311,37 @@ This works very well with IDE auto-completion and "IntelliSense" (hover to get d
 
 ### Async usage in Delta Chat desktop
 
-As described in the [beginning](#why-implement-a-new-way), before jsonrpc we had issues with desktop getting unresponsive when there was a bit more api traffic, for example on fetching a lot of messages.
-While the cffi is blocking, you never block on a single method call with jsonrpc since you just have one bidirectional stream of jsonrpc messages.
+As described in the [beginning](#why-implement-a-new-way),
+before jsonrpc we had issues with desktop getting unresponsive when there was a bit more API traffic,
+for example on fetching a lot of messages.
+While the CFFI is blocking, you never block on a single method call with jsonrpc
+since you just have one bidirectional stream of jsonrpc messages.
 This really speed up desktop and made it more responsive.
 
-### Easier to use than cffi over process boundaries
+### Easier to use than CFFI over process boundaries
 
 CFFI needs to be linked, which also means it will become part of the process that linked it,
-JSON-RPC on the other hand requires no linking and is transport independent.
-At the moment 3 transport implementations exist (electron ipc, stdio, websocket) and it is easy to create new ones.
+JSON-RPC on the other hand requires no linking and is transport independent,
+since it it is just sending and receiving json objects.
+At the moment 3 transport implementations exist (Electron-IPC, StdIO, WebSocket) and it is easy to create new ones.
 
-You could even use the new [webxdc realtime api](https://webxdc.org/docs/spec/joinRealtimeChannel.html) to connect to a remote Delta Chat instance on another computer, similar to the idea of implementing some remote desktop webxdc app.
-The webxdc realtime api is also an interesting topic in of its own, read the its [announcement blog-post](./2024-11-17-webxdc-realtime) to learn more.
+You could even use the new [webxdc realtime api](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
+to connect to a remote Delta Chat instance on another computer,
+similar to the idea of implementing some remote desktop webxdc app.
+The webxdc realtime API is also an interesting topic in of its own,
+read the its [announcement blog-post](./2024-11-17-webxdc-realtime) to learn more.
 
 ## Current Usage
 
-Obviously we use this API in desktop, but we already use it sometimes to add new APIs also on iOS, android and for writing bots.
-We have no autogenerated wrapper/client for any language besides typescript yet, so it is not as cool as it could be.
-Though it is still easier to add new methods to jsonrpc than to the C-FFI, especially where core returns complex struct with many fields: In C-FFI you would need to create a new opaque struct, accessor functions for the properties and an unref function and wrappers for those functions; in jsonrpc you don't need all that, just write the rust struct & method and process the returned JSON in the client.
+Obviously we use this API in desktop,
+but we already use it sometimes to add new APIs also on iOS, android and for writing bots.
+We have no autogenerated wrapper/client for any language besides typescript yet,
+so it is not as cool as it could be.
+Though it is still easier to add new methods to jsonrpc than to the C-FFI,
+especially where core returns complex struct with many fields:
+In C-FFI you would need to create a new opaque struct,
+accessor functions for the properties and an unref function and wrappers for those functions;
+in jsonrpc you don't need all that, just write the rust struct & method and process the returned JSON in the client.
 
 For this purpose, the C-FFI API embeds the jsonrpc API and provides both synchronous and asynchronous access to it[^jsonrpc_in_cffi].
 (These APIs were also used in desktop before we switched to the stdio-rpc-server binary.
@@ -323,9 +354,12 @@ we did this to provide a way to move in an incremental fashion instead of moving
 
 Currently we only have autogeneration for the typescript bindings,
 it would be great to also have autogenerated bindings for atleast Swift, Java and Python.
-Also the documentation should be improved.
-The code documentation part can easily be done by copying the great documentation from the cffi and adapting it to fit to the jsonrpc api
-(this is a good-first-issue, if you, dear reader, want to help; improving documentation is easy to get into and is always welcome).
+Also the documentation is still incomplete and the method naming in the Delta Chat jsonrpc API is a it inconsistent.
+The code documentation part can easily be done by
+copying the great documentation from the CFFI
+and adapting it to fit to the jsonrpc API
+(this is a good-first-issue, if you, dear reader, want to help;
+improving documentation is easy to get into and is always welcome).
 
 ## Further reading
 
@@ -336,7 +370,7 @@ The code documentation part can easily be done by copying the great documentatio
 
 **Source code:**
 
-- where the jsonrpc api methods are defined: [deltachat-core-rust/deltachat-jsonrpc/src/api/types/mod.rs](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-jsonrpc/src/api/types/mod.rs)
+- where the jsonrpc API methods are defined: [deltachat-core-rust/deltachat-jsonrpc/src/api/types/mod.rs](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-jsonrpc/src/api/types/mod.rs)
 - yerpc, the jsonrpc library: <https://github.com/deltachat/yerpc>
-- cffi header file, that is the source for the documentation site on <https://c.delta.chat>: [deltachat-core-rust/deltachat-ffi/deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
-- implementation of cffi functions: [deltachat-core-rust/deltachat-ffi/src/lib.rs](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/src/lib.rs)
+- CFFI header file, that is the source for the documentation site on <https://c.delta.chat>: [deltachat-core-rust/deltachat-ffi/deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
+- implementation of CFFI functions: [deltachat-core-rust/deltachat-ffi/src/lib.rs](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/src/lib.rs)
