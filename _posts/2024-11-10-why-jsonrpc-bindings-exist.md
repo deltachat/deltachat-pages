@@ -17,11 +17,11 @@ This has the following benefits:
 
 - Because our Core library does all the heavy work and exposes easy methods such as `getAccounts`, `getChatlist`, `getChatContacts` and so on, it's much less work maintaining our apps on all platforms, because they basically only need to implement the UI.
 - The core library is thoroughly tested with rust unit tests and integration tests in Python that actually transfer e-mails.
-- The core library can easily be used to write bots and new apps/clients (like deltatouch, a client for Ubuntu touch made by a community member in about a year, read the [blog post](./2023-07-02-deltatouch)).
+- The core library can easily be used to write bots and new apps/clients (like DeltaTouch, a client for Ubuntu touch made by a community member in about a year, read the [blog post](./2023-07-02-deltatouch)).
 
 ## The C Foreign Function Interface
 
-The C Foreign Function Interface short CFFI was the first way to link to core.
+The C Foreign Function Interface, short CFFI was the first way to link to core.
 It was introduced back when Björn started the Delta Chat project.
 He wrote the [core in C](https://github.com/deltachat/deltachat-core) and forked the Signal android app for the UI,
 which is written in Java, so the core is connected via CFFI[^CFFI] and [JNI](https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c) (java native interface).
@@ -71,7 +71,7 @@ void      dc_chatlist_unref(
 ```
 
 The majority of methods provide a pointer to a Rust structure, which can be used to access its properties through specialized methods.
-After using it you need to free it using the `_unref` methods (like `dc_chatlist_unref`), otherwise you will create memory leaks.
+After using it, you need to free it using the `_unref` methods (like `dc_chatlist_unref`), otherwise you will create memory leaks.
 
 <a id="why-implement-a-new-way"></a>
 ## Why implement a new way to talk to core? 
@@ -81,8 +81,8 @@ While using the CFFI in android and iOS was working fine, in the desktop version
 The main problem was that Electron is a full browser which uses multiple processes,
 and you can't easily pass pointers to C-structs over process boundaries,
 ignoring that this would a bad idea[^bad-idea].
-On Android and iOS you can just call Delta Chat core from the UI thread,
-because the UI thread there is not a completely different process.
+On Android and iOS, you can just call Delta Chat core from the UI thread,
+because this thread is in the same process the Delta Chat core library was linked to and not a completely different process like in electron.
 So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the C bindings,
 more about that below in the comparison.
 
@@ -90,7 +90,7 @@ more about that below in the comparison.
 Two main reasons: you still need to free/cleanup the remote resource after using it
 and common tools will be unable to remind you of the need to do this, because they won't understand what you are doing.
 Another potential issue lies in implementation, if you just do the easy thing and pass raw memory locations as numbers,
-then congratulations you just added really big security issue,
+then congratulations, you just added a really big security issue,
 since most exploits begin by accessing memory that they were not supposed to
 (use after free, access to out of bounds memory and so on). Though if you're lucky it just crashes. 
 
@@ -117,17 +117,17 @@ pub unsafe extern "C" fn dc_get_fresh_msg_cnt(
 }
 ```
 
-In android and iOS you can easily start threads or offload blocking tasks to other threads,
-but on desktop each call blocked the main process **and** led to an unresponsive experience.
+In android and iOS, you can easily start threads or offload blocking tasks to other threads,
+but on desktop, each call blocked the main process **and** led to an unresponsive experience.
 Even though the communication between our main and UI process was already using async electron IPC,
 electron froze the UI process every time the main process was blocked.
 
-Out of these and other frustrations the idea for a new way to talk to core was born.
+Out of these and other frustrations, the idea for a new way to talk to core was born.
 First there was only talk, like there were discussions of what wire format to use: CBOR, message-pack or just plain JSON.
 
 ## The history of our jsonrpc interface
 
-Then treefit started writing a deltachat-command-API project which was passing requests and answers over json.
+Then treefit started writing a deltachat-command-API project which was passing requests and answers over JSON.
 There were two goals: make desktop development easier and to make the experiment of a KaiOS client possible [^kaios].
 
 [^kaios]: KaiOS is an OS for small feature phones with T9 keyboard.
@@ -137,16 +137,16 @@ KaiOS has a similar problem: Only webapps are allowed, so there also is a proces
 After he got the [first prototype](https://github.com/Simon-Laux/delta-command-api) working,
 [Frando](https://github.com/Frando) cleaned up and rewrote the code to make it more
 [idiomatic and professional](https://github.com/deltachat/deltachat-jsonrpc/pull/14).
-He also factored out the generic jsonrpc code into a seperate library and procedural macro into a dedicated rust crate,
+He also factored out the generic jsonrpc code into a separate library and procedural macro into a dedicated Rust crate,
 so that it can also be used by other projects, which was named [yerpc](https://github.com/deltachat/yerpc).
 
 Then we merged our temporary "deltachat jsonrpc" repo into the core repo
 and moved desktop over to use the new jsonrpc API,
 which was easy thanks to the generated typescript bindings that gave good auto-completion.
-Though it still used the CFFI and node bindings as transport(see picture below), until May 17, 2024,
+Though it still used the CFFI and node bindings as transport (see picture below), until May 17, 2024,
 when treefit migrated it to use the deltachat-rpc-server binary that uses stdio as a transport[^jsonrpc-pr].
 
-[^jsonrpc-pr]: The pr: [use stdio binary instead of dc node & update electron to 30 & update min node to 20 #3567](https://github.com/deltachat/deltachat-desktop/pull/3567).
+[^jsonrpc-pr]: The PR: [use stdio binary instead of dc node & update electron to 30 & update min node to 20 #3567](https://github.com/deltachat/deltachat-desktop/pull/3567).
 
 > [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) stands for Remote Procedure Call.
 > Which is basically a way to call functions/methods remotely.
@@ -156,7 +156,7 @@ Desktop architecture versions:
 <figure>
 <img src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/mermaid-diagram-light.svg" data-dark-src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/mermaid-diagram-dark.svg" />
 <figcaption>
-Figure 1: When adding a new method we need to touch the code for the components shown in red, grey means that it is not touched, and green means the api code is generated and you can directly use call it in the UI code.
+Figure 1: When adding a new method we need to touch the code for the components shown in red, gray means that it is not touched, and green means the API code is generated and you can directly use call it in the UI code.
 </figcaption>
 </figure>
 
@@ -205,7 +205,7 @@ That seems straight forward, but we had a serious bug with an experimental featu
 
 #### The error handling bug that lead to lost accounts
 
-At the time there was a bug in the iOS app where accounts went missing seemingly randomly.
+At the time, there was a bug in the iOS app where accounts went missing seemingly randomly.
 Later we found out that **only experimental** encrypted accounts were affected by this issue.
 
 The bug was basically that Delta Chat iOS thought locked accounts would be unconfigured,
@@ -257,7 +257,7 @@ Our jsonrpc clients (JavaScript and Python) automatically convert these error re
 and return/throw them:
 
 <img src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/error thrown in js.png" />
-So we always know what call an error belongs to and we don't have the risk of mixing boolean return value and error.
+So we always know what call an error belongs to, and we don't have the risk of mixing boolean return value and error.
 
 ### Named fields in events
 
@@ -269,7 +269,7 @@ In the CFFI you have the following functions to get the data from events:
 | int         | [dc_event_get_data2_int](https://c.delta.chat/classdc__event__t.html#a189a61d211040263eb9c19582539c941) ([dc_event_t](https://c.delta.chat/classdc__event__t.html) \*event) |
 | char \*     | [dc_event_get_data2_str](https://c.delta.chat/classdc__event__t.html#a65954ff569082bf7c2f2f3f1ea1ef401) ([dc_event_t](https://c.delta.chat/classdc__event__t.html) \*event) |
 
-To know what the `data1` and `data2` are about and if `data2` is a string or integer you need to look at the event's documentation: https://c.delta.chat/group__DC__EVENT.html
+To know what the `data1` and `data2` are about and if `data2` is a string or integer, you need to look at the event's documentation: https://c.delta.chat/group__DC__EVENT.html
 
 ```c
 /**
@@ -281,7 +281,7 @@ To know what the `data1` and `data2` are about and if `data2` is a string or int
 #define DC_EVENT_SMTP_CONNECTED           101
 ```
 
-With the typescript bindings on the other hand you get named and typed properties.
+With the typescript bindings on the other hand, you get named and typed properties.
 
 Examples of events in jsonrpc:
 
@@ -299,7 +299,7 @@ Examples of events in jsonrpc:
 ]
 ```
 
-Usage in typescript:
+Usage in TypeScript:
 
 ```ts
 dc.on("SmtpMessageSent", ({ msg }) => {
@@ -325,14 +325,14 @@ This really speed up desktop and made it more responsive.
 
 CFFI needs to be linked, which also means it will become part of the process that linked it,
 JSON-RPC on the other hand requires no linking and is transport independent,
-since it it is just sending and receiving json objects.
-At the moment 3 transport implementations exist (Electron-IPC, StdIO, WebSocket) and it is easy to create new ones.
+since it is just sending and receiving JSON objects.
+At the moment 3 transport implementations exist (Electron-IPC, StdIO, Web Socket) and it is easy to create new ones.
 
 You could even use the new [webxdc realtime api](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
 to connect to a remote Delta Chat instance on another computer,
 similar to the idea of implementing some remote desktop webxdc app.
 The webxdc realtime API is also an interesting topic in of its own,
-read the its [announcement blog-post](./2024-11-17-webxdc-realtime) to learn more.
+read its [announcement blog-post](./2024-11-17-webxdc-realtime) to learn more.
 
 ## Current Usage
 
@@ -348,16 +348,16 @@ in jsonrpc you don't need all that, just write the rust struct & method and proc
 
 For this purpose, the C-FFI API embeds the jsonrpc API and provides both synchronous and asynchronous access to it[^jsonrpc_in_cffi].
 (These APIs were also used in desktop before we switched to the stdio-rpc-server binary.
-see the graphic above in "The history of our jsonrpc interface",
+See the graphic above in "The history of our jsonrpc interface",
 we did this to provide a way to move in an incremental fashion instead of moving all methods at once)
 
 [^jsonrpc_in_cffi]: JSON-RPC API in the C-FFI: [`dc_jsonrpc_instance_t`](https://c.delta.chat/classdc__jsonrpc__instance__t.html)
 
 ## What's Next?
 
-Currently we only have autogeneration for the typescript bindings,
-it would be great to also have autogenerated bindings for atleast Swift, Java and Python.
-Also the documentation is still incomplete and the method naming in the Delta Chat jsonrpc API is inconsistent in some places.
+Currently, we only have autogeneration for the typescript bindings,
+it would be great to also have autogenerated bindings for at least Swift, Java and Python.
+Also, the documentation is still incomplete and the method naming in the Delta Chat jsonrpc API is inconsistent in some places.
 
 The code documentation part can easily be done by
 copying the great documentation from the CFFI
