@@ -4,13 +4,16 @@
 
 .cta-button, .cta-button:hover, .cta-button:visited {
 	border: 1.5px solid #a4c2d0;
+	border-color: var(--cta-button-border);
 	border-radius: 5px;
 	padding: 10px;
 	display: inline-block;
 	margin: 10px 0;
 
 	background: linear-gradient(120deg, #77888f, #364e59);
-	color: white !important;
+	background: var(--cta-button-bg);
+	color: white;
+	color: var(--cta-button-text);
 	font-weight: bold;
 }
 
