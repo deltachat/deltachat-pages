@@ -154,7 +154,7 @@ when treefit migrated it to use the deltachat-rpc-server binary that uses stdio 
 Desktop architecture versions:
 
 <figure>
-<img src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/excalidraw-diagram-light.svg" data-dark-src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/excalidraw-diagram-dark.svg" />
+<img style="max-width: 100%" src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/excalidraw-diagram-light.svg" data-dark-src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/excalidraw-diagram-dark.svg" />
 <figcaption>
 Figure 1: When adding a new method we need to touch the code for the components shown in red, gray means that it is not touched, and green means the API code is generated and you can directly use call it in the UI code.
 </figcaption>
