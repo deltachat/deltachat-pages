@@ -70,13 +70,13 @@ void      dc_chatlist_unref(
 );
 ```
 
-The majority of methods provide a pointer to a rust structure, which can be used to access its properties through specialized methods.
+The majority of methods provide a pointer to a Rust structure, which can be used to access its properties through specialized methods.
 After using it you need to free it using the `_unref` methods (like `dc_chatlist_unref`), otherwise you will create memory leaks.
 
 <a id="why-implement-a-new-way"></a>
 ## Why implement a new way to talk to core? 
 
-While using the cffi in android and iOS was working fine, in the desktop version which is based on electron it had some problems.
+While using the CFFI in android and iOS was working fine, in the desktop version which is based on electron it had some problems.
 
 The main problem was that Electron is a full browser which uses multiple processes,
 and you can't easily pass pointers to C-structs over process boundaries,
@@ -143,10 +143,13 @@ so that it can also be used by other projects, which was named [yerpc](https://g
 Then we merged our temporary "deltachat jsonrpc" repo into the core repo
 and moved desktop over to use the new jsonrpc API,
 which was easy thanks to the generated typescript bindings that gave good auto-completion.
-Though it still used the cffi and node bindings as transport(see picture below), until May 17, 2024,
+Though it still used the CFFI and node bindings as transport(see picture below), until May 17, 2024,
 when treefit migrated it to use the deltachat-rpc-server binary that uses stdio as a transport[^jsonrpc-pr].
 
 [^jsonrpc-pr]: The pr: [use stdio binary instead of dc node & update electron to 30 & update min node to 20 #3567](https://github.com/deltachat/deltachat-desktop/pull/3567).
+
+> [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) stands for Remote Procedure Call.
+> Which is basically a way to call functions/methods remotely.
 
 Desktop architecture versions:
 
