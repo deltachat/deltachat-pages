@@ -29,7 +29,7 @@ Later [when we moved the core to rust](https://delta.chat/en/2019-05-08-xyiv#the
 and this fact that it stayed the same is also one of the reasons why the migration from C to Rust went so well. As we didn't need to change the UIs to adapt to some new API.
 
 [^CFFI]: The header file [deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
-  is an easy way to get an idea of the API
+    is an easy way to get an idea of the API
 
 The advantage of a CFFI is that most programming languages have a built-in way to bind to it.
 
@@ -87,12 +87,12 @@ So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of 
 more about that below in the comparison.
 
 [^bad-idea]: Why is passing memory pointers across process boundaries potentially dangerous?
-  Two main reasons: you still need to free/cleanup the remote resource after using it
-  and common tools will be unable to remind you of the need to do this, because they won't understand what you are doing.
-  Another potential issue lies in implementation, if you just do the easy thing and pass raw memory locations as numbers,
-  then congratulations, you just added a really big security issue,
-  since most exploits begin by accessing memory that they were not supposed to
-  (use after free, access to out of bounds memory and so on). Though if you're lucky it just crashes. 
+    Two main reasons: you still need to free/cleanup the remote resource after using it
+    and common tools will be unable to remind you of the need to do this, because they won't understand what you are doing.
+    Another potential issue lies in implementation, if you just do the easy thing and pass raw memory locations as numbers,
+    then congratulations, you just added a really big security issue,
+    since most exploits begin by accessing memory that they were not supposed to
+    (use after free, access to out of bounds memory and so on). Though if you're lucky it just crashes. 
 
 The other problem in desktop that it is basically single threaded and while Delta Chat core uses async rust, 
 the CFFI blocks on nearly all calls (note the `block_on`):
@@ -131,8 +131,8 @@ Then treefit started writing a deltachat-command-API project which was passing r
 There were two goals: make desktop development easier and to make the experiment of a KaiOS client possible [^kaios].
 
 [^kaios]: KaiOS is an OS for small feature phones with T9 keyboard.
-  KaiOS has a similar problem: Only webapps are allowed, so there also is a process boundary. - 
-  BTW: treefit still plans to make that experimental client for KaiOS.  
+    KaiOS has a similar problem: Only webapps are allowed, so there also is a process boundary. - 
+    BTW: treefit still plans to make that experimental client for KaiOS.  
 
 After he got the [first prototype](https://github.com/Simon-Laux/delta-command-api) working,
 [Frando](https://github.com/Frando) cleaned up and rewrote the code to make it more
