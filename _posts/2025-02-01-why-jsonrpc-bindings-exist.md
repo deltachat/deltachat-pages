@@ -21,14 +21,14 @@ This has the following benefits:
 
 ## The C Foreign Function Interface
 
-The C Foreign Function Interface, short CFFI was the first way to link to core.
+The C Foreign Function Interface, for short CFFI, was the first way to link to core.
 It was introduced back when Björn started the Delta Chat project.
 He wrote the [core in C](https://github.com/deltachat/deltachat-core) and forked the Signal android app for the UI,
-which is written in Java, so the core is connected via CFFI[^CFFI] and [JNI](https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c) (java native interface).
+which is written in Java, so the core is connected via CFFI[^CFFI] and [JNI](https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c) (Java Native Interface).
 Later [when we moved the core to rust](https://delta.chat/en/2019-05-08-xyiv#the-coming-delta-chat-rustocalypse) the CFFI stayed,
-and that fact that its API stayed the same is also one of the reasons why the migration from C to Rust went so well.
+and this fact that it stayed the same is also one of the reasons why the migration from C to Rust went so well. As we didn't need to change the UIs to adapt to some new API.
 
-[^CFFI]: the header file [deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
+[^CFFI]: The header file [deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
 is an easy way to get an idea of the API
 
 The advantage of a CFFI is that most programming languages have a built-in way to bind to it.
