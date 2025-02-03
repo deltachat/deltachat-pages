@@ -269,7 +269,7 @@ In the CFFI you have the following functions to get the data from events:
 | int         | [dc_event_get_data2_int](https://c.delta.chat/classdc__event__t.html#a189a61d211040263eb9c19582539c941) ([dc_event_t](https://c.delta.chat/classdc__event__t.html) \*event) |
 | char \*     | [dc_event_get_data2_str](https://c.delta.chat/classdc__event__t.html#a65954ff569082bf7c2f2f3f1ea1ef401) ([dc_event_t](https://c.delta.chat/classdc__event__t.html) \*event) |
 
-To know what the `data1` and `data2` are about and if `data2` is a string or integer, you need to look at the event's documentation: https://c.delta.chat/group__DC__EVENT.html
+To know what the `data1` and `data2` are about and if `data2` is a string or integer, you need to look at the event's documentation: <https://c.delta.chat/group__DC__EVENT.html>
 
 ```c
 /**
