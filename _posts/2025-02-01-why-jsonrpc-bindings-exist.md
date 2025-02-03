@@ -378,3 +378,5 @@ improving documentation is easy to get into and is always welcome).
 - yerpc, the jsonrpc library: <https://github.com/deltachat/yerpc>
 - CFFI header file, that is the source for the documentation site on <https://c.delta.chat>: [deltachat-core-rust/deltachat-ffi/deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
 - implementation of CFFI functions: [deltachat-core-rust/deltachat-ffi/src/lib.rs](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/src/lib.rs)
+
+*[CFFI]: C Foreign Function Interface
