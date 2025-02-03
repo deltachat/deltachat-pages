@@ -7,6 +7,8 @@ render_toc: true
 excerpt: This is a technical post about why we created the jsonrpc bindings additionally to our cffi bindings. Learn something about the internals of how Delta Chat is implemented.
 ---
 
+*[CFFI]: C Foreign Function Interface
+
 > Foremost this is a quite technical post, read our other blog posts if you want to read something more targeted at end users.
 
 If you have not yet looked at the Delta Chat source code,
@@ -379,4 +381,3 @@ improving documentation is easy to get into and is always welcome).
 - CFFI header file, that is the source for the documentation site on <https://c.delta.chat>: [deltachat-core-rust/deltachat-ffi/deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
 - implementation of CFFI functions: [deltachat-core-rust/deltachat-ffi/src/lib.rs](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/src/lib.rs)
 
-*[CFFI]: C Foreign Function Interface
