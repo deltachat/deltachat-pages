@@ -772,7 +772,8 @@ For other programs, you should be able to find a solution online.
 
 ### Was Delta Chat independently audited for security vulnerabilities? {#security-audits}
 
-Yes. The Delta Chat project continously undergoes independent security audits and analysis,
+Yes, multiple times. 
+The Delta Chat project continously undergoes independent security audits and analysis,
 from most recent to older: 
 
 - 2024 December, An [NLNET-commissioned Evaluation of
