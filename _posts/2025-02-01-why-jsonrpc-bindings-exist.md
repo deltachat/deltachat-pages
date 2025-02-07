@@ -19,6 +19,7 @@ excerpt: This is a technical post about why we created the JSON-RPC bindings add
 *[IPC]: Inter-process communication
 *[stdio]: standard input/output
 *[IDE]: Integrated Development Environment
+*[JNI]: Java Native Interface
 
 <style>
 abbr[title] {
@@ -347,7 +348,7 @@ This really speed up desktop and made it more responsive.
 CFFI needs to be linked, which also means it will become part of the process that linked it,
 JSON-RPC on the other hand requires no linking and is transport independent,
 since it is just sending and receiving JSON objects.
-At the moment 3 transport implementations exist (Electron-IPC, StdIO, Web Socket) and it is easy to create new ones.
+At the moment 3 transport implementations exist (Electron-IPC, stdio, Web Socket) and it is easy to create new ones.
 
 You could even use the new [webxdc realtime api](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
 to connect to a remote Delta Chat instance on another computer,
@@ -385,6 +386,20 @@ copying the great documentation from the CFFI
 and adapting it to fit to the JSON-RPC API
 (this is a good-first-issue, if you, dear reader, want to help;
 improving documentation is easy to get into and is always welcome).
+
+## Conclusion / TL;DR:
+
+Our JSON-RPC API has the following benefits over our CFFI API:
+
+- Reduces time to change the API, because you need to edit fewer files.
+- Better, more robust error reporting
+- Complete typescript client code generation helps to catch some bugs early during build time
+- All methods are non-blocking, which allows for a very smooth user experience without UI freezes.
+- JSONRPC over stdio makes it easy to use from all kinds of programming languages without any complicated linking steps. (like NAPI or the JNI we need to use in the android app[^jni])
+
+So all in all JSON-RPC is a huge step forward in simplifying delta chat development.
+
+[^jni]: https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c
 
 ## Further reading
 
