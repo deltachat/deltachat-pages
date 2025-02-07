@@ -1,5 +1,5 @@
 ---
-title: Why we have 2 different ways to talk to our core library
+title: Why we have 2 different ways to talk to our core library 📚
 author: treefit/simon, WofWca
 image: ../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/jsonrpc-vs-cffi-thumbnail.png
 # com_id:
