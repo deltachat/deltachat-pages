@@ -772,8 +772,8 @@ For other programs, you should be able to find a solution online.
 
 ### Was Delta Chat independently audited for security vulnerabilities? {#security-audits}
 
-The Delta Chat project underwent four independent security audits and one
-independent security analysis, from most recent to older: 
+Yes. The Delta Chat project continously undergoes independent security audits and analysis,
+from most recent to older: 
 
 - 2024 December, An [NLNET-commissioned Evaluation of
   rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.  Two advisories were released about the findings of this audit:
