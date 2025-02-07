@@ -93,8 +93,7 @@ void      dc_chatlist_unref(
 The majority of methods provide a pointer to a Rust structure, which can be used to access its properties through specialized methods.
 After using it, you need to free it using the `_unref` methods (like `dc_chatlist_unref`), otherwise you will create memory leaks.
 
-<a id="why-implement-a-new-way"></a>
-## Why implement a new way to talk to core? 
+## Why implement a new way to talk to core? {#why-implement-a-new-way}
 
 While using the CFFI in android and iOS was working fine, in the desktop version which is based on electron it had some problems.
 
@@ -397,7 +396,7 @@ Our JSON-RPC API has the following benefits over our CFFI API:
 - All methods are non-blocking, which allows for a very smooth user experience without UI freezes.
 - JSONRPC over stdio makes it easy to use from all kinds of programming languages without any complicated linking steps. (like NAPI or the JNI we need to use in the android app[^jni])
 
-So all in all JSON-RPC is a huge step forward in simplifying delta chat development.
+So all in all JSON-RPC is a huge step forward in simplifying Delta Chat development.
 
 [^jni]: https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c
 
