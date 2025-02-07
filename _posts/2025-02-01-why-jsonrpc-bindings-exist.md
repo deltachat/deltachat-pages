@@ -15,6 +15,7 @@ excerpt: This is a technical post about why we created the JSON-RPC bindings add
 *[UI]: User Interface
 *[NAPI]: Node-API
 *[BTW]: by the way
+*[CBOR]: Concise Binary Object Representation
 
 > Foremost this is a quite technical post, read our other blog posts if you want to read something more targeted at end users.
 
