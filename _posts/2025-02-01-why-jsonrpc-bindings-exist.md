@@ -18,6 +18,7 @@ excerpt: This is a technical post about why we created the JSON-RPC bindings add
 *[CBOR]: Concise Binary Object Representation
 *[IPC]: Inter-process communication
 *[stdio]: standard input/output
+*[IDE]: Integrated Development Environment
 
 <style>
 abbr[title] {
