@@ -705,8 +705,20 @@ Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来
 
 ### Delta Chat 是否已进行独立的安全漏洞审计？ {#security-audits}
 
-Delta Chat 项目经历了四次独立的安全性审计和一次
-独立的安全性分析，从最近到最旧：
+Yes, multiple times. 
+The Delta Chat project continuously undergoes independent security audits and analysis,
+from most recent to older: 
+
+- 2024 December, an [NLNET-commissioned Evaluation of
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Two advisories were released related to the findings of this audit:
+
+  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+
+  The issues outlined in these advisories have been fixed and are part of Delta Chat 
+  releases on all appstores since December 2024. 
 
 - 2024 年 3 月，我们收到了苏黎世联邦理工学院应用密码学
 研究小组的深入安全性分析，并解决了所有提出的问题。

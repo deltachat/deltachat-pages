@@ -761,8 +761,20 @@ Per altri programmi, dovresti essere in grado di trovare una soluzione online.
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 
-Il progetto Delta Chat è stato sottoposto a quattro controlli di sicurezza indipendenti e
-un'analisi di sicurezza indipendente, dal più recente al più vecchio:
+Yes, multiple times. 
+The Delta Chat project continuously undergoes independent security audits and analysis,
+from most recent to older: 
+
+- 2024 December, an [NLNET-commissioned Evaluation of
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Two advisories were released related to the findings of this audit:
+
+  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+
+  The issues outlined in these advisories have been fixed and are part of Delta Chat 
+  releases on all appstores since December 2024. 
 
 - Marzo 2024, abbiamo ricevuto un'analisi approfondita della sicurezza dalla Crittografia Applicata
 gruppo di ricerca dell'ETH di Zurigo e ha affrontato tutte le questioni sollevate. 
