@@ -27,7 +27,7 @@ abbr[title] {
 }
 </style>
 
-> Foremost this is a quite technical post, read our other blog posts if you want to read something more targeted at end users.
+> Foremost this is a quite technical post. Read our other blog posts if you want something more targeted at end users.
 
 If you have not yet looked at the Delta Chat source code,
 you might not know yet that we have a core library that is used by all UI implementations.
@@ -36,16 +36,16 @@ chat and message management are using the same code on in all our apps (desktop,
 This has the following benefits:
 
 - Because our Core library does all the heavy work and exposes easy methods such as `getAccounts`, `getChatlist`, `getChatContacts` and so on, it's much less work maintaining our apps on all platforms, because they basically only need to implement the UI.
-- The core library is thoroughly tested with rust unit tests and integration tests in Python that actually transfer e-mails.
+- The core library is thoroughly tested with Rust unit tests and integration tests in Python that actually transfer e-mails.
 - The core library can easily be used to write bots and new apps/clients (like DeltaTouch, a client for Ubuntu touch made by a community member in about a year, read the [blog post](./2023-07-02-deltatouch)).
 
 ## The C Foreign Function Interface
 
 The C Foreign Function Interface, for short CFFI, was the first way to link to core.
 It was introduced back when Björn started the Delta Chat project.
-He wrote the [core in C](https://github.com/deltachat/deltachat-core) and forked the Signal android app for the UI,
+He wrote the [core in C](https://github.com/deltachat/deltachat-core) and forked the Signal Android app for the UI,
 which is written in Java, so the core is connected via CFFI[^CFFI] and [JNI](https://github.com/deltachat/deltachat-android/blob/main/jni/dc_wrapper.c) (Java Native Interface).
-Later [when we moved the core to rust](https://delta.chat/en/2019-05-08-xyiv#the-coming-delta-chat-rustocalypse) the CFFI stayed,
+Later [when we moved the core to Rust](https://delta.chat/en/2019-05-08-xyiv#the-coming-delta-chat-rustocalypse), the CFFI stayed,
 and this fact that it stayed the same is also one of the reasons why the migration from C to Rust went so well. As we didn't need to change the UIs to adapt to some new API.
 
 [^CFFI]: The header file [deltachat.h](https://github.com/deltachat/deltachat-core-rust/blob/main/deltachat-ffi/deltachat.h)
@@ -91,17 +91,17 @@ void      dc_chatlist_unref(
 ```
 
 The majority of methods provide a pointer to a Rust structure, which can be used to access its properties through specialized methods.
-After using it, you need to free it using the `_unref` methods (like `dc_chatlist_unref`), otherwise you will create memory leaks.
+After using such a structure, you need to free it using the `_unref` methods (like `dc_chatlist_unref`), otherwise you will create memory leaks.
 
 ## Why implement a new way to talk to core? {#why-implement-a-new-way}
 
-While using the CFFI in android and iOS was working fine, in the desktop version which is based on electron it had some problems.
+While using the CFFI in Android and iOS it was working fine. In the desktop version which is based on Electron it had some problems.
 
 The main problem was that Electron is a full browser which uses multiple processes,
 and you can't easily pass pointers to C-structs over process boundaries,
 ignoring that this would a bad idea[^bad-idea].
 On Android and iOS, you can just call Delta Chat core from the UI thread,
-because this thread is in the same process the Delta Chat core library was linked to and not a completely different process like in electron.
+because this thread is in the same process that the Delta Chat core library was linked to and not a completely different process like in Electron.
 So we ended up writing a JSON API on top of the Node.js NAPI bindings on top of the C bindings,
 more about that below in the comparison.
 
@@ -113,7 +113,7 @@ more about that below in the comparison.
     since most exploits begin by accessing memory that they were not supposed to
     (use after free, access to out of bounds memory and so on). Though if you're lucky it just crashes. 
 
-The other problem in desktop that it is basically single threaded and while Delta Chat core uses async rust, 
+The other problem in desktop that it is basically single-threaded and while Delta Chat core uses async Rust, 
 the CFFI blocks on nearly all calls (note the `block_on`):
 
 ```rust
@@ -136,16 +136,16 @@ pub unsafe extern "C" fn dc_get_fresh_msg_cnt(
 }
 ```
 
-In android and iOS, you can easily start threads or offload blocking tasks to other threads,
+In Android and iOS, you can easily start threads or offload blocking tasks to other threads,
 but on desktop, each call blocked the main process **and** led to an unresponsive experience.
-Even though the communication between our main and UI process was already using async electron IPC,
-electron froze the UI process every time the main process was blocked.
+Even though the communication between our main and UI process was already using async Electron IPC,
+Electron froze the UI process every time the main process was blocked.
 
 Out of these and other frustrations, the idea for a new way to talk to core was born.
-First there was only talk, like there were discussions of what wire format to use: CBOR, message-pack or just plain JSON.
 
 ## The history of our JSON-RPC interface
 
+First there was only talk, like there were discussions of what wire format to use: CBOR, message-pack or just plain JSON.
 Then treefit started writing a deltachat-command-API project which was passing requests and answers over JSON.
 There were two goals: make desktop development easier and to make the experiment of a KaiOS client possible [^kaios].
 
@@ -154,15 +154,15 @@ There were two goals: make desktop development easier and to make the experiment
     BTW: treefit still plans to make that experimental client for KaiOS.  
 
 After he got the [first prototype](https://github.com/Simon-Laux/delta-command-api) working,
-[Frando](https://github.com/Frando) cleaned up and rewrote the code to make it more
+[Frando](https://github.com/Frando) cleaned up and rewrote its code to make it more
 [idiomatic and professional](https://github.com/deltachat/deltachat-jsonrpc/pull/14).
-He also factored out the generic JSON-RPC code into a separate library and procedural macro into a dedicated Rust crate,
+He also factored out the generic JSON-RPC code into a separate library and the procedural macro into a dedicated Rust crate,
 so that it can also be used by other projects, which was named [yerpc](https://github.com/deltachat/yerpc).
 
 Then we merged our temporary "Delta Chat JSON-RPC" repo into the core repo
 and moved desktop over to use the new JSON-RPC API,
-which was easy thanks to the generated typescript bindings that gave good auto-completion.
-Though it still used the CFFI and node bindings as transport (see picture below), until May 17, 2024,
+which was easy thanks to the generated TypeScript bindings that gave good auto-completion.
+Though DC Desktop still used the CFFI and Node bindings as transport (see picture below), until May 17, 2024,
 when treefit migrated it to use the deltachat-rpc-server binary that uses stdio as a transport[^jsonrpc-pr].
 
 [^jsonrpc-pr]: The PR: [use stdio binary instead of dc node & update electron to 30 & update min node to 20 #3567](https://github.com/deltachat/deltachat-desktop/pull/3567).
@@ -176,7 +176,7 @@ Desktop architecture versions:
 <img style="max-width: 100%" src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/excalidraw-diagram-light.svg" data-dark-src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/excalidraw-diagram-dark.svg" alt="Three Flow charts highlighting the differences between the versions. Before JSON-RPC: UI process, talks with custom JSON API in main process of delta chat desktop over electron IPC. that jsonapi makes use of the javascript wrapper and NAPI over JavaScript calls (this happens in delta chat node). The NAP communicates over CFFI with deltachat-ffi, which then calls Rust functions from the actual core. To add a method, all of these 6 code places need to be touched. After v1.33.0 (2022-10-16), main process until deltachat-ffi don't need to be touched anymore. Now there is instead a new JSON-RPC module between deltachat-ffi and core; only this JSON-RPC api module and the actual core need to be changed to add a new method (reducing the file to edit from 6 to 2). The api wrapper for the UI is now autogenerated from the JSON-RPC module.Since v1.45.0 (2024-05-24), deltachat-node (NAPI and its JS wrapper) got removed, and deltachat-ffi was replaced by deltachat-rpc-server which connects via stdio pipe to the deltachat desktop main process."/>
 <figcaption>
 
-Figure 1: When adding a new method we need to touch the code for the components shown in red, gray means that it is not touched, and green means the API code is generated and you can directly use call it in the UI code.
+Figure 1: When adding a new method we need to touch the code for the components shown in red, gray means that it is not touched, and green means the API code is generated and you can directly call it in the UI code.
 
 </figcaption>
 </figure>
@@ -190,7 +190,7 @@ Figure 1: When adding a new method we need to touch the code for the components 
 As you can see in this "meme", adding a method with JSON-RPC is much simpler than adding a method to the CFFI.
 This is thanks to 2 factors:
 
-- A new method does not need to be specified at every stage. (see also the "Desktop architecture versions" diagram above)
+- A new method does not need to be defined in every component. (see also the "Desktop architecture versions" diagram above)
 - Code generation: TypeScript client wrapper code and [OpenRPC](https://open-rpc.org/) definition
 are auto generated from the Rust code. (including documentation comments)
 
@@ -224,19 +224,19 @@ In our CFFI we are not as strict, we mostly use 0 or `NULL` pointers to indicate
 
 That seems straight forward, but we had a serious bug with an experimental feature because of this.
 
-#### The error handling bug that lead to lost accounts
+#### The error handling bug that led to lost accounts
 
-At the time, there was a bug in the iOS app where accounts went missing seemingly randomly.
+At the time, there was a bug in the iOS app where accounts would go missing seemingly randomly.
 Later we found out that **only experimental** encrypted accounts were affected by this issue.
 
-The bug was basically that Delta Chat iOS thought locked accounts would be unconfigured,
-because **unconfigured** and **error** **both** did return value `0`.
-And if an account was unconfigured the welcome screen was shown,
-which has a back button that deleted the unconfigured new accounts.
-But this account was not new,
+The bug was basically that Delta Chat iOS thought that locked accounts would be unconfigured,
+because **both** **unconfigured** and **error** did return the value `0`.
+And if an account was unconfigured, the welcome screen was shown,
+and this welcome screen has a "back" button that deleted the unconfigured new accounts.
+But such an account was not in fact new,
 only dc-iOS thought it was, because `dc_is_configured()` returned `0`.
 
-We fixed it by adding a call to `dc_is_open()` to the welcome screen[^ios-issue]:
+We fixed this bug by adding a call to `dc_is_open()` to the welcome screen[^ios-issue]:
 
 ```diff
          let selectedAccount = dcAccounts.getSelected()
@@ -253,7 +253,7 @@ We fixed it by adding a call to `dc_is_open()` to the welcome screen[^ios-issue]
 
 #### Getting more information about errors than just the fact that an error occurred
 
-As written above, you mostly get to know that and error happened but not what error.
+As written above, you mostly get to know that and error happened but not _what_ error.
 So where do we get the error from?
 
 - For [`dc_configure()`](https://c.delta.chat/classdc__context__t.html#adfe52669a5bed893df78a620566dd698),
@@ -266,7 +266,7 @@ to get the last error sting from the last error event - without possible races f
 #### How JSON-RPC solves these issues
 
 There are two kinds of responses to a JSON-RPC requests:
-a response or an error, the error contains an error code and an error message string.
+a response or an error. An error contains an error code and an error message string.
 
 ```
 --> {"jsonrpc": "2.0", "method": "foobar", "id": "1"}
@@ -278,7 +278,7 @@ Our JSON-RPC clients (JavaScript and Python) automatically convert these error r
 and return/throw them:
 
 <img src="../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/error thrown in js.png" />
-So we always know what call an error belongs to, and we don't have the risk of mixing boolean return value and error.
+So we always know which call an error belongs to, and we don't have the risk of mixing up a boolean return value and error.
 
 ### Named fields in events
 
@@ -290,7 +290,7 @@ In the CFFI you have the following functions to get the data from events:
 | int         | [dc_event_get_data2_int](https://c.delta.chat/classdc__event__t.html#a189a61d211040263eb9c19582539c941) ([dc_event_t](https://c.delta.chat/classdc__event__t.html) \*event) |
 | char \*     | [dc_event_get_data2_str](https://c.delta.chat/classdc__event__t.html#a65954ff569082bf7c2f2f3f1ea1ef401) ([dc_event_t](https://c.delta.chat/classdc__event__t.html) \*event) |
 
-To know what the `data1` and `data2` are about and if `data2` is a string or integer, you need to look at the event's documentation: <https://c.delta.chat/group__DC__EVENT.html>
+To know what the `data1` and `data2` are about and if `data2` is a string or an integer, you need to look at the event's documentation: <https://c.delta.chat/group__DC__EVENT.html>
 
 ```c
 /**
@@ -302,7 +302,7 @@ To know what the `data1` and `data2` are about and if `data2` is a string or int
 #define DC_EVENT_SMTP_CONNECTED           101
 ```
 
-With the typescript bindings on the other hand, you get named and typed properties.
+With the TypeScript bindings on the other hand, you get named and typed properties.
 
 Examples of events in JSON-RPC:
 
@@ -337,64 +337,64 @@ This works very well with IDE auto-completion and "IntelliSense" (hover to get d
 
 As described in the [beginning](#why-implement-a-new-way),
 before JSON-RPC we had issues with desktop getting unresponsive when there was a bit more API traffic,
-for example on fetching a lot of messages.
-While the CFFI is blocking, you never block on a single method call with JSON-RPC
+for example when fetching a lot of messages.
+While the CFFI is blocking, with JSON-RPC you never block on a single method call
 since you just have one bidirectional stream of JSON-RPC messages.
 This really speed up desktop and made it more responsive.
 
 ### Easier to use than CFFI over process boundaries
 
-CFFI needs to be linked, which also means it will become part of the process that linked it,
-JSON-RPC on the other hand requires no linking and is transport independent,
+CFFI needs to be linked, which also means it will become part of the process that linked it.
+JSON-RPC on the other hand requires no linking and is transport-independent,
 since it is just sending and receiving JSON objects.
-At the moment 3 transport implementations exist (Electron-IPC, stdio, Web Socket) and it is easy to create new ones.
+At the moment 3 transport implementations exist (Electron-IPC, stdio, WebSocket) and it is easy to create new ones.
 
-You could even use the new [webxdc realtime api](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
+It is even possible to use the new [webxdc realtime API](https://webxdc.org/docs/spec/joinRealtimeChannel.html)
 to connect to a remote Delta Chat instance on another computer,
 similar to the idea of implementing some remote desktop webxdc app.
 The webxdc realtime API is also an interesting topic in of its own,
-read its [announcement blog-post](./2024-11-17-webxdc-realtime) to learn more.
+read its [announcement blog-post](./2024-11-20-webxdc-realtime) to learn more.
 
 ## Current Usage
 
 Obviously we use this API in desktop,
-but we already use it sometimes to add new APIs also on iOS, android and for writing bots.
-We have no autogenerated wrapper/client for any language besides typescript yet,
+but we also already use it sometimes to add new APIs also on iOS, Android and for writing bots.
+We have no autogenerated wrapper/client for any language besides TypeScript yet,
 so it is not as cool as it could be.
 Though it is still easier to add new methods to JSON-RPC than to the CFFI,
 especially where core returns complex struct with many fields:
 In CFFI you would need to create a new opaque struct,
-accessor functions for the properties and an unref function and wrappers for those functions;
-in JSON-RPC you don't need all that, just write the rust struct & method and process the returned JSON in the client.
+accessor functions for the properties and an unref function and wrappers for those functions.
+In JSON-RPC you don't need all that: just write the Rust struct & method and process the returned JSON in the client.
 
 For this purpose, the CFFI API embeds the JSON-RPC API and provides both synchronous and asynchronous access to it[^jsonrpc_in_cffi].
 (These APIs were also used in desktop before we switched to the stdio-rpc-server binary.
-See the graphic above in "The history of our JSON-RPC interface",
-we did this to provide a way to move in an incremental fashion instead of moving all methods at once)
+See the graphic above in "The history of our JSON-RPC interface".
+We did this to provide a way to move in an incremental fashion instead of moving all methods at once)
 
 [^jsonrpc_in_cffi]: JSON-RPC API in the CFFI: [`dc_jsonrpc_instance_t`](https://c.delta.chat/classdc__jsonrpc__instance__t.html)
 
 ## What's Next?
 
-Currently, we only have autogeneration for the typescript bindings,
-it would be great to also have autogenerated bindings for at least Swift, Java and Python.
+Currently, we only have autogeneration for the TypeScript bindings.
+It would be great to also have autogenerated bindings for at least Swift, Java and Python.
 Also, the documentation is still incomplete and the method naming in the Delta Chat JSON-RPC API is inconsistent in some places.
 
 The code documentation part can easily be done by
 copying the great documentation from the CFFI
 and adapting it to fit to the JSON-RPC API
-(this is a good-first-issue, if you, dear reader, want to help;
+(this is a good-first-issue. If you, dear reader, want to help,
 improving documentation is easy to get into and is always welcome).
 
-## Conclusion / TL;DR:
+## Conclusion / TL;DR
 
 Our JSON-RPC API has the following benefits over our CFFI API:
 
 - Reduces time to change the API, because you need to edit fewer files.
-- Better, more robust error reporting
-- Complete typescript client code generation helps to catch some bugs early during build time
+- Better, more robust error reporting.
+- Complete TypeScript client code generation helps to catch some bugs early during build time.
 - All methods are non-blocking, which allows for a very smooth user experience without UI freezes.
-- JSONRPC over stdio makes it easy to use from all kinds of programming languages without any complicated linking steps. (like NAPI or the JNI we need to use in the android app[^jni])
+- JSON-RPC over stdio is easy to use from all kinds of programming languages without any complicated linking steps. (like NAPI or the JNI we need to use in the Android app[^jni])
 
 So all in all JSON-RPC is a huge step forward in simplifying Delta Chat development.
 
