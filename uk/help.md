@@ -443,7 +443,20 @@ Delta Chat підтримує поширені формати приватних
 
 ### Чи проходив Delta Chat незалежний аудит на наявність вразливостей у безпеці? {#security-audits}
 
-Проект Delta Chat пройшов чотири незалежні аудити безпеки та один незалежний аналіз безпеки, від найновіших до найстаріших: 
+Yes, multiple times. 
+The Delta Chat project continuously undergoes independent security audits and analysis,
+from most recent to older: 
+
+- 2024 December, an [NLNET-commissioned Evaluation of
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Two advisories were released related to the findings of this audit:
+
+  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+
+  The issues outlined in these advisories have been fixed and are part of Delta Chat 
+  releases on all appstores since December 2024. 
 
 - 2024 березня ми отримали глибокий аналіз безпеки від дослідницької групи Applied Cryptography дослідницької групи з прикладної криптографії в ETH Zuerich і вирішили всі порушені питання. Більш детальну інформацію можна знайти в нашому блозі в статті [Hardening Guaranteed End-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), а також в дослідженні [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf), опублікованому пізніше. 
 

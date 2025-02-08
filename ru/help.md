@@ -769,8 +769,20 @@ Delta Chat не будут иметь никакого ключа, прежде 
 
 ### Проходил ли Delta Chat независимую проверку на наличие уязвимостей безопасности? {#security-audits}
 
-Проект Delta Chat прошёл четыре независимых аудита безопасности и один
-независимый анализ безопасности, от самого последнего к более старому:
+Yes, multiple times. 
+The Delta Chat project continuously undergoes independent security audits and analysis,
+from most recent to older: 
+
+- 2024 December, an [NLNET-commissioned Evaluation of
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Two advisories were released related to the findings of this audit:
+
+  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+
+  The issues outlined in these advisories have been fixed and are part of Delta Chat 
+  releases on all appstores since December 2024. 
 
 - В марте 2024 года мы получили подробный анализ безопасности от исследовательской группы
   Applied Cryptography в ETH Цюрихе и устранили все выявленные проблемы. 
