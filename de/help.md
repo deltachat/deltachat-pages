@@ -485,7 +485,7 @@ und _GnuPG (GPG)_, einem Kommandozeilenprogramm, das OpenPGP implementiert, zu u
 In vielen öffentlichen Kritiken zu OpenPGP wird GnuPG diskutiert, das Delta Chat nie verwendet hat. 
 Delta Chat verwendet stattdessen die OpenPGP-Rust-Implementierung [rPGP](https://github.com/rpgp/rpgp),
 die als [ein unabhängiges "pgp"-Paket](https://crates.io/crates/pgp),
-verfügbar und [2019 sicherheitsgeprüft](https://delta.chat/assets/blog/2019-first-security-review.pdf) wurde.
+verfügbar ist und [2019 und 2024 sicherheitsgeprüft](#security-audits) wurde.
 
 Unser Ziel ist, zusammen mit anderen OpenPGP-Implementierungen, 
 die Sicherheitseigenschaften durch das im Sommer 2023 angenommene

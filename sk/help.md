@@ -543,7 +543,7 @@ and GnuPG (GPG), a command line tool implementing OpenPGP.
 Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
 Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
 available as [an independent "pgp" package](https://crates.io/crates/pgp),
-and [security-audited in 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf). 
+and [security-audited in 2019 and 2024](#security-audits). 
 
 We aim, along with other OpenPGP implementors, 
 to further improve security characteristics by implementing the
