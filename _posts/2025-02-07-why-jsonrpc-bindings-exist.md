@@ -37,7 +37,7 @@ and [all apps of the current Delta Chat family](https://support.delta.chat/t/lis
 as well as chat bots benefit from it: 
 
 - The core library does all the infrastructure and interoperability work and exposes
-  high-level methods such as `getAccounts`, `getChatlist`, `getChatContacts` and so on
+  high-level methods such as `getAccounts`, `getChatlist`, `getChatContacts` etc. 
   so that it's much less work maintaining apps or bots on all platforms, 
   because they can fully focus on implementing user interactions and interfaces. 
 
@@ -46,7 +46,7 @@ as well as chat bots benefit from it:
   and core is what makes all apps fully interoperable with each other. 
 
 - The core library can easily be used to write bots and new apps/clients
-  (like DeltaTouch, a client for Ubuntu touch made by a community member in about a year as a side project, read the [blog post](./2023-07-02-deltatouch)).
+  (like DeltaTouch, a client for Ubuntu touch made by Lothar in about a year as a side project, read the [blog post](./2023-07-02-deltatouch)).
 
 ## The C Foreign Function Interface (CFFI)
 
