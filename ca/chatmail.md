@@ -85,11 +85,11 @@ and configured to run unattended and to require very low maintenance effort.
 Chatmail servers happily run on low-end hardware like a Raspberry Pi.
 
 
-# How are chatmail servers funded?
+# Com es financien els servidors de xat per correu?
 
-Chatmail servers are designed to be very cheap to run,
-and they are generally self-funded by the operators.
-Please see the front page of each chatmail server for further information.
+Els servidors de xat per correu estan dissenyats per tenir un cost de funcionament molt econòmic,
+i habitualment són autofinançats pels operadors
+Vegeu la pàgina principal de cada servidor de xat per correu per a més informació.
 
 To support chatmail development and the running of the default onboarding server
 you are very welcome to chip in.
