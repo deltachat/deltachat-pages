@@ -30,7 +30,7 @@ abbr[title] {
 > Foremost this is a quite technical post. Read our other blog posts if you want something more targeted at end users.
 
 If you have not yet looked at the Delta Chat source code,
-you might not know that we have a Rust core library that holds everything together. 
+you might not know that we have a [Rust core library](https://github.com/deltachat/deltachat-core-rust/) that holds everything together. 
 Infrastructure features like encryption, email and network protocols,
 chat, contact and message management are implemented in this Rust core library
 and [all apps of the current Delta Chat family](https://support.delta.chat/t/list-of-all-known-client-projects/3059) 
