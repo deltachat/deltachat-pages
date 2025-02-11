@@ -2,7 +2,7 @@
 title: From C- to JSON-based APIs of the Rust "core" library 📚
 author: treefit/simon, WofWca
 image: ../assets/blog/2024-11-10-why-jsonrpc-bindings-exist/jsonrpc-vs-cffi-thumbnail.png
-# com_id:
+com_id: 113986195771829545
 render_toc: true
 excerpt: This is a technical post about why we created the JSON-RPC bindings additionally to our CFFI bindings. Learn something about the internals of how Delta Chat is implemented.
 ---
