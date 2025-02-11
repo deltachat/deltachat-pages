@@ -526,14 +526,14 @@ se l'intero messaggio è crittografato e firmato correttamente.
 Ad esempio, le "Firme distaccate" non sono considerate sicure.
 
 OpenPGP non è insicuro di per sé.
-I problemi di sicurezza di OpenPGP più discussi pubblicamente
-in realtà derivano da una cattiva usabilità o da cattive implementazioni di strumenti o app (o entrambi).
+La maggior parte dei problemi di sicurezza di OpenPGP discussi pubblicamentederivano in realtà da una cattiva usabilità o da cattive implementazioni di strumenti o app (o entrambi).
 È particolarmente importante distinguere tra OpenPGP, lo standard di crittografia IETF,
 e GnuPG (GPG), uno strumento da riga di comando che implementa OpenPGP.
 Molte critiche pubbliche di OpenPGP in realtà discutono di GnuPG che Delta Chat non ha mai utilizzato.
-Delta Chat utilizza piuttosto l'implementazione OpenPGP Rust [rPGP](https://github.com/rpgp/rpgp),
+Delta Chat utilizza piuttosto l'implementazione Rust di OpenPGP [rPGP]
+(https://github.com/rpgp/rpgp),
 disponibile come [un pacchetto "pgp" indipendente](https://crates.io/crates/pgp),
-e [controllato sulla sicurezza nel 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf).
+e [verificato per la sicurezza nel 2019 e nel 2024](#security-audits).
 
 Puntiamo, insieme ad altri implementatori di OpenPGP,
 per migliorare ulteriormente le caratteristiche di sicurezza implementando il
