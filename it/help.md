@@ -530,8 +530,7 @@ La maggior parte dei problemi di sicurezza di OpenPGP discussi pubblicamentederi
 È particolarmente importante distinguere tra OpenPGP, lo standard di crittografia IETF,
 e GnuPG (GPG), uno strumento da riga di comando che implementa OpenPGP.
 Molte critiche pubbliche di OpenPGP in realtà discutono di GnuPG che Delta Chat non ha mai utilizzato.
-Delta Chat utilizza piuttosto l'implementazione Rust di OpenPGP [rPGP]
-(https://github.com/rpgp/rpgp),
+Delta Chat utilizza piuttosto l'implementazione Rust di OpenPGP [rPGP](https://github.com/rpgp/rpgp),
 disponibile come [un pacchetto "pgp" indipendente](https://crates.io/crates/pgp),
 e [verificato per la sicurezza nel 2019 e nel 2024](#security-audits).
 
