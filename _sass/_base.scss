@@ -208,6 +208,9 @@ code {
     border-radius: 5px;
 }
 
+pre code {
+    padding: 0px;
+}
 
 #content table td, #content table th { border: 1px solid #ccc; padding: 0.2em 0.4em; }
 #content table th { background-color: #eee; font-weight: bold; }
