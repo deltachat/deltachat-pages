@@ -35,8 +35,8 @@ anche se il destinatario non utilizza Delta Chat.
 
 ### Quali sono i vantaggi di Delta Chat rispetto ad altri messenger?
 
-- Profili chat anonimi con [server chatmail] veloci, sicuri e interoperabili (https://delta.chat/chatmail)
-che offrono notifiche push istantanee per dispositivi iOS e Android.
+- Profili chat anonimi con [server chatmail](https://delta.chat/chatmail) veloci, sicuri e interoperabili
+  che offrono Notifiche Push istantanee per dispositivi iOS e Android.
 
 - Pervasivo [multi-profilo](#multiple-accounts) e supporto multi-dispositivo su tutte le piattaforme.
 
@@ -102,15 +102,13 @@ i tuoi contatti riceveranno nuovamente la tua immagine del profilo, anche se agg
 dispositivo.
 
 
-### Posso impostare una Firma Testo/Stato/Motto con Delta Chat?  {#firma}
+### Posso impostare una Bio/Firma/Stato/Motto con Delta Chat? {#signature}
 
-SÌ,
-puoi farlo in "Impostazioni > Profilo > Firma".
-I tuoi contatti che utilizzano Delta Chat lo vedranno
-quando visualizzano i tuoi dettagli di contatto.
-A tutti gli altri,
-apparirà come una firma di posta elettronica
-sotto il testo di tutti i tuoi messaggi.
+Sì,
+puoi farlo in **Impostazioni → Profilo → Biografia**.
+I tuoi contatti che usano Delta Chat lo vedranno
+quando visualizzeranno i tuoi dati di contatto.
+Inoltre, apparirà come una classica firma e-mail.
 
 
 ### Cosa significa Fissare, Silenziare, Archiviare?
@@ -268,12 +266,12 @@ per gli utenti di Delta Chat.
 
 ### Le Notifiche Push sono abilitate sui dispositivi iOS? Esiste un'alternativa?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Sì, Delta Chat utilizza automaticamente le notifiche push per i profili [chatmail](https://delta.chat/chatmail).
+E no, non esiste alcuna alternativa sui telefoni Apple per ottenere la consegna dei messaggi istantanei
+perché i dispositivi Apple non consentono a Delta Chat di recuperare i dati in background.
+Le notifiche push vengono attivate automaticamente per gli utenti iOS perché
+[Sistema di notifiche push che tutela la privacy di Delta Chat](#privacy-notifications)
+non espone ad Apple i dati che non possiede già.
 
 
 ### Le Notifiche Push sono abilitate / necessarie sui dispositivi Android? {#android-push}
@@ -285,12 +283,6 @@ Le notifiche push non sono disponibili.
 
 Nelle impostazioni "Notifiche" di Delta Chat per "Consegna istantanea"
 puoi modificare le seguenti impostazioni che interessano tutti i profili chat:
-
-- Utilizza Servizio Push: l'impostazione predefinita quando si utilizzano i profili chatmail e se
-sul telefono è disponibile un servizio Push.
-Se disponi sia di profili chatmail che di e-mail classica,
-la Notifica Push funzionerà solo
-per i messaggi in arrivo sui profili chatmail.
 
 - Utilizza Connessione in Background: se non stai utilizzando un servizio Push,
 puoi disattivare le "ottimizzazioni della batteria" per Delta Chat,
@@ -318,15 +310,13 @@ a qualsiasi sistema coinvolto nella consegna di Notifiche Push.
 
 Ecco come le app Delta Chat eseguono l'invio delle Notifiche Push:
 
-- Un'app Delta Chat ottiene un "gettone del dispositivo" localmente e lo memorizza
-sul server [chatmail](https://delta.chat/chatmail).
+- Un'app Delta Chat ottiene un "token del dispositivo" localmente, lo crittografa e lo memorizza sul server [chatmail](https://delta.chat/chatmail).
 
-- Quando un server [chatmail](https://delta.chat/chatmail) riceve un'e-mail per un utente Delta Chat
-inoltra il "gettone del dispositivo" al proxy di notifica centrale di Delta Chat.
+- Quando un server [chatmail](https://delta.chat/chatmail) riceve un'e-mail per un utente Delta Chat, inoltra il token del dispositivo crittografato al proxy di notifica centrale Delta Chat.
 
-- Il proxy di notifica centrale di Delta Chat inoltra
-il "gettone del dispositivo" al rispettivo servizio Push (Apple, Google, ecc.),
-senza mai conoscere l'IP o l'indirizzo e-mail degli utenti Delta Chat.
+- Il proxy di notifica centrale di Delta Chat decifra il token del dispositivo
+  e lo inoltra al rispettivo servizio Push (Apple, Google, ecc.),
+  senza mai conoscere l'IP o l'indirizzo e-mail degli utenti di Delta Chat.
 
 - Il Servizio Push centrale (Apple, Google, ecc.)
 attiva l'app Delta Chat sul tuo dispositivo
@@ -335,13 +325,15 @@ Non conosce chatmail o l'indirizzo e-mail del dispositivo che si attiva.
 I servizi centrali Apple/Google Push non vedono mai un indirizzo e-mail (mittente o destinatario)
 e inoltre non vedono mai il contenuto del messaggio (anche non in forma crittografata).
 
-A partire da Maggio 2024, i server chatmail conoscono i "gettoni del dispositivo"
-ma prevediamo di crittografare queste informazioni nel proxy di notifica
-in modo tale che il server chatmail non apprenda mai il gettone del dispositivo.
 
 Il proxy di notifica centrale di Delta Chat [è piccolo e completamente implementato in Rust](https://github.com/deltachat/notifiers)
 e si dimentica dei gettoni del dispositivo non appena Apple/Google/ecc li elabora,
 di solito nel giro di pochi millisecondi.
+
+Si noti che il token del dispositivo è crittografato tra le app e il proxy di notifica
+ma non è firmato.
+Il proxy di notifica quindi non vede mai indirizzi e-mail, indirizzi IP o
+alcune informazioni di identità crittografica associate al dispositivo di un utente (token).
 
 Come risultato di questo disegno complessivo sulla riservatezza, anche il sequestro di un server chatmail,
 o il sequestro totale del proxy di notifica centrale di Delta Chat
@@ -534,14 +526,13 @@ se l'intero messaggio è crittografato e firmato correttamente.
 Ad esempio, le "Firme distaccate" non sono considerate sicure.
 
 OpenPGP non è insicuro di per sé.
-I problemi di sicurezza di OpenPGP più discussi pubblicamente
-in realtà derivano da una cattiva usabilità o da cattive implementazioni di strumenti o app (o entrambi).
+La maggior parte dei problemi di sicurezza di OpenPGP discussi pubblicamentederivano in realtà da una cattiva usabilità o da cattive implementazioni di strumenti o app (o entrambi).
 È particolarmente importante distinguere tra OpenPGP, lo standard di crittografia IETF,
 e GnuPG (GPG), uno strumento da riga di comando che implementa OpenPGP.
 Molte critiche pubbliche di OpenPGP in realtà discutono di GnuPG che Delta Chat non ha mai utilizzato.
-Delta Chat utilizza piuttosto l'implementazione OpenPGP Rust [rPGP](https://github.com/rpgp/rpgp),
+Delta Chat utilizza piuttosto l'implementazione Rust di OpenPGP [rPGP](https://github.com/rpgp/rpgp),
 disponibile come [un pacchetto "pgp" indipendente](https://crates.io/crates/pgp),
-e [controllato sulla sicurezza nel 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf).
+e [verificato per la sicurezza nel 2019 e nel 2024](#security-audits).
 
 Puntiamo, insieme ad altri implementatori di OpenPGP,
 per migliorare ulteriormente le caratteristiche di sicurezza implementando il
@@ -591,7 +582,7 @@ compresi eventuali allegati,
 se non sono crittografati end-to-end.
 
 Delta Chat per impostazione predefinita utilizza
-[Crittografia TLS] rigorosa (https://en.wikipedia.org/wiki/Transport_Layer_Security)
+[Crittografia TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) rigorosa 
 che protegge le connessioni tra il tuo dispositivo e il tuo provider e-mail.
 Tutta la gestione TLS di Delta Chat è stata sottoposta a [controlli di sicurezza](#security-audits) in modo indipendente.
 Inoltre, la connessione tra il tuo provider e-mail e quello del destinatario
@@ -734,7 +725,7 @@ messaggi crittografati precedenti.
 In ogni caso, la crittografia end-to-end di Delta Chat utilizza un [sottoinsieme sicuro di OpenPGP](#openpgp-secure)
 che è stato [controllato in modo indipendente sulla sicurezza](../assets/blog/2019-first-security-review.pdf).
 
-### Posso riutilizzare la mia chiave privata esistente?
+### Posso riutilizzare la mia chiave privata esistente? {#importkey}
 
 Sì.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.
@@ -769,12 +760,26 @@ Per altri programmi, dovresti essere in grado di trovare una soluzione online.
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 
-Il progetto Delta Chat è stato sottoposto a quattro controlli di sicurezza indipendenti e
-un'analisi di sicurezza indipendente, dal più recente al più vecchio:
+Yes, multiple times. 
+The Delta Chat project continuously undergoes independent security audits and analysis,
+from most recent to older: 
+
+- 2024 December, an [NLNET-commissioned Evaluation of
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Two advisories were released related to the findings of this audit:
+
+  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+
+  The issues outlined in these advisories have been fixed and are part of Delta Chat 
+  releases on all appstores since December 2024. 
 
 - Marzo 2024, abbiamo ricevuto un'analisi approfondita della sicurezza dalla Crittografia Applicata
-gruppo di ricerca dell'ETH di Zurigo e ha affrontato tutte i problemi emersi.
-Consulta il nostro post sul blog sul [rafforzamento della crittografia end-to-end garantita](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) per informazioni più dettagliate.
+gruppo di ricerca dell'ETH di Zurigo e ha affrontato tutte le questioni sollevate. 
+Consulta il nostro post sul blog su [Rafforzamento della crittografia end-to-end garantita](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) per informazioni più dettagliate e
+[Analisi crittografica di Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
+articolo di ricerca pubblicato successivamente.
 
 - A partire dal 2023, abbiamo risolto i problemi di sicurezza e privacy con il servizio "web
 app condivise in una chat", relativa ai guasti del sandboxing
@@ -844,6 +849,10 @@ Un dispositivo non è necessario perché l'altro funzioni.
 - Su **Windows**, vai su **Pannello di controllo / Rete e Internet**
 e assicurati che **Rete Privata** sia selezionata come "Tipo di profilo di rete"
 (dopo il trasferimento è possibile ripristinare il valore originale)
+
+- Su **iOS**, assicurati che l'accesso a "Impostazioni di Sistema / App / Delta Chat / **Rete locale**" sia concesso
+
+- Su **macOS**, abilita "Impostazioni di Sistema / Privacy & Sicurezza / **Rete locale** / Delta Chat"
 
 - Il sistema potrebbe avere un "personal firewall",
   che è noto per causare problemi (soprattutto su Windows).
@@ -991,22 +1000,6 @@ fare clic con il tasto destro sulla mappa e descrivere una posizione, che verrà
 un messaggio, ma appare anche sulla mappa.
 
 
-### Cosa protegge effettivamente la crittografia sperimentale del database?
-
-- In questo momento, la crittografia del database è ancora molto sperimentale.  Non affidarti su di essa
- per sicurezza, dovresti inoltre utilizzare la crittografia del tuo sistema
- operativo, se ne prevede una.
- - La crittografia del database non crittografa ancora i BLOB, solo le righe e le
-colonne del database. Questo più o meno significa che i tuoi messaggi sono al sicuro,
-ma non i tuoi allegati.
-- Per iOS e Android, le chiavi di crittografia sono memorizzate nel portachiavi di sistema.
-Ciò significa che la crittografia è sicura quanto il sistema operativo
-in esecuzione.
-- Il client desktop Delta Chat non offre ancora la crittografia del database, come qui
-non c'è un modo standard per memorizzare le chiavi di crittografia sulle diverse piattaforme
-supportate.
-
-
 ### Perché posso scegliere di guardare solo la cartella DeltaChat?
 
 Questa è un'impostazione sperimentale per alcune persone che stanno sperimentando
@@ -1098,10 +1091,6 @@ programma ha bisogno della password in modo da poterla utilizzare per inviare ma
 password è memorizzata solo sul tuo dispositivo. La password viene trasmessa solo a
 il tuo fornitore E-Mail (quando effettui il login), che ha comunque accesso alla tua posta.
 
-Se utilizzi un provider E-Mail con supporto OAuth2 come gmail.com o yandex.ru,
-non è necessario memorizzare la password sul dispositivo. In questo caso, solo un
-token di accesso viene utilizzato.
-
 Poiché Delta Chat è Open Source, puoi controllare il [Codice
 Sorgente](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
 se vuoi verificare che le tue credenziali siano gestite in modo sicuro. Siamo felici dei feedback che rendono l'app più sicura per tutti i nostri utenti.
@@ -1147,7 +1136,7 @@ Se i destinatari non utilizzano Delta Chat,
 sembrerà come,
 un'e-mail formale.
 Otterrai punti professionalità bonus
-se imposti un [testo della firma](#firma).
+se imposti un [testo della firma](#signature).
 
 
 ### A cosa serve l'impostazione "Invia copia a se stessi"?
@@ -1199,21 +1188,54 @@ che usa.
 [App di posta elettronica abilitata per Autocrypt](https://autocrypt.org/dev-status.html).
 
 
-### Come posso eliminare il mio profilo?
+### Come posso eliminare il mio profilo? {#remove-account}
 
-Poiché utilizzi un profilo e-mail per Delta Chat,
-il modo in cui puoi eliminare il tuo profilo dipende dal tuo provider e-mail.
-Non abbiamo alcun controllo sul tuo profilo e-mail,
-quindi purtroppo non possiamo aiutarti in questo.
+Se utilizzi un profilo chat predefinito
+puoi semplicemente disinstallare l'app.
+Questo attiverà automaticamente l'eliminazione di tutti i dati del profilo associato sul server chatmail.
+Per maggiori informazioni, fai riferimento a [nine.testrun.org eliminazione-profilo](https://nine.testrun.org/info.html#account-deletion) per il server d'inserimento predefinito,
+o alla rispettiva pagina del [server chatmail di 3 parti](https://delta.chat/chatmail) da te scelto.
 
-Se vuoi mantenere il profilo,
+Se hai impostato il tuo profilo chat su più dispositivi
+devi rimuoverlo da tutti i dispositivi.
+
+Se utilizzi più di un profilo,
+ma non vuoi eliminarli tutti,
+puoi rimuoverli nel menu di cambio profilo (su Android e iOS)
+o nella barra laterale con un clic destro (nel client desktop).
+
+I profili su [fornitori e-mail classici](https://providers.delta.chat)
+non verranno eliminati automaticamente;
+il modo in cui puoi eliminare il tuo profilo dipende dal tuo fornitore e-mail.
+Non abbiamo alcun controllo sui profili e-mail di tali fornitori,
+quindi purtroppo non possiamo aiutarti.
+
+Se vuoi continuare a usare un profilo e-mail classico con altre app,
 ma disinstallare Delta Chat,
-si consiglia di uscire da qualsiasi chat di gruppo prima di disinstallare Delta Chat.
+si consiglia di abbandonare qualsiasi chat di gruppo prima di disinstallare Delta Chat.
+Altrimenti potresti ricevere messaggi non decifrabili da quelle chat di gruppo.
 
 
 ### Sono interessato ai dettagli tecnici. Mi puoi dire di più?
 
 - Vedi [Standard usati in Delta Chat]({% include standards-url %}).
+
+
+
+### Dove possono trovare Delta Chat i miei amici?
+
+Delta Chat è disponibile per tutte le piattaforme principali e alcune minori:
+
+- Il **sito ufficiale**, <https://delta.chat/download> mostra tutte le opzioni in dettaglio
+
+- Se non disponibile, utilizzare **mirror** su <https://deltachat.github.io/deltachat-pages>
+
+- Apri uno dei seguenti **app store e cerca "Delta Chat":**
+Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS e macOS App Store, Microsoft Store
+
+- Controlla il **gestore pacchetti** delle tue distribuzioni Linux
+
+- **APK Android** sono disponibili anche su <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Come viene finanziato lo sviluppo di Delta Chat?
@@ -1225,7 +1247,8 @@ Utilizziamo piuttosto fonti di finanziamento pubblico, così lontane dalle origi
 i nostri sforzi nell'istigare un ecosistema di messaggistica di chat decentralizzato e diversificato
 basato sugli sviluppi della comunità Free e Open-Source.
 
-Concretamente, gli sviluppi di Delta Chat finora sono stati finanziati da queste fonti:
+Concretamente, lo sviluppo di Delta Chat è stato finora finanziato da queste fonti,
+ordinate cronologicamente:
 
 - Il progetto UE [NEXTLEAP](https://nextleap.eu) ha finanziato la ricerca
   e implementazione di gruppi verificati e impostazione di protocolli di contatto
@@ -1236,7 +1259,7 @@ Concretamente, gli sviluppi di Delta Chat finora sono stati finanziati da queste
 prima sovvenzione 2018/2019 (~$200K) durante la quale abbiamo notevolmente migliorato l'app Android
 e ha rilasciato una prima versione beta dell'app desktop, e che inoltre
 ancorato i nostri sviluppi delle funzionalità nella ricerca sulla UX nei contesti dei diritti umani,
-vedete il nostro [Rapporto Needfinding e UX] conclusivo (https://delta.chat/en/2019-07-19-uxreport).
+vedete il nostro [Rapporto Needfinding e UX](https://delta.chat/en/2019-07-19-uxreport) conclusivo.
 La seconda sovvenzione 2019/2020 (~$300K) ci ha aiutato a farlo
 rilasciare nelle versioni Delta/iOS, per convertire la nostra libreria principale in Rust, e
 per fornire nuove funzionalità per tutte le piattaforme.
@@ -1249,17 +1272,29 @@ proposte, in particolare per [EPPD - directory di portabilità del provider e-ma
 
 - Dalla fine del 2021 fino a Marzo 2023 abbiamo ricevuto finanziamenti *Internet Freedom* (500.000 USD) dall'Ufficio per la democrazia, i diritti umani e il lavoro degli Stati Uniti (DRL). Questo finanziamento ha supportato i nostri obiettivi a lungo termine per rendere Delta Chat più utilizzabile e compatibile con un'ampia gamma di server di posta elettronica in tutto il mondo e più resiliente e sicuro in luoghi spesso colpiti dalla censura e dalla chiusura di Internet.
 
-- A partire dal 2023 siamo stati accettati nel programma Next Generation Internet (NGI) Affidamento per le nostre proposte di "App private decentralizzate". L'importo esatto è da definire (circa 100.000 euro). Questo finanziamento supporta ulteriori sviluppi di [webxdc "app condivise in una chat"](https://webxdc.org). 
+- 2023-2024 abbiamo completato con successo il progetto [Chatmail Sicuro](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/) finanziato da OTF, 
+consentendoci di introdurre la crittografia garantita, 
+creando una [rete di server di chatmail](https://delta.chat/chatmail) 
+e fornendo "inserimento immediato" in tutte le app rilasciate da aprile 2024 in poi.
+
+- Nel 2023 e nel 2024 siamo stati accettati nel programma Next Generation Internet (NGI)
+  per il nostro lavoro in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  insieme ai partner di collaborazione che lavorano su 
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) e 
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+  Tutti questi progetti sono parzialmente completati o saranno completati all'inizio del 2025.
 
 - A volte riceviamo donazioni una tantum da privati.
 Ad esempio, nel 2021 un generoso individuo ci ha trasferito in banca 4K EUR
-con l'oggetto "mantenete il buoni sviluppi!". 💜
+con l'oggetto "continuate il buon sviluppo!". 💜
 Usiamo questi soldi per finanziare incontri di sviluppo o per sostenere spese ad hoc
 che non possono essere facilmente previsti o rimborsati da finanziamenti pubblici.
 Ricevere più donazioni ci aiuta anche a diventare più indipendenti e vitali a lungo termine
 come comunità di contributori.
 
-[Dona denaro](donate){: .cta-button}
+  [Dona denaro](donate){: .cta-button}
 
 - Ultimo ma non meno importante, hanno contribuito diversi esperti e appassionati pro-bono
 e contribuito allo sviluppo di Delta Chat senza ricevere denaro, o solo

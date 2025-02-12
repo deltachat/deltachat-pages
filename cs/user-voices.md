@@ -68,7 +68,7 @@ Jako velmi brzký uživatel WhatsAppu jsem z něj odešel z důvodu ochrany souk
 Kvůli tomu mám stále rozbité kontakty,
 Dělám hodně reklamy na alternativy, ale trh je prostě příliš roztříštěný.
 Delta je řešením pro všechny, kteří přopouští alespoň jednu
-alternativu - e-mail vždy funguje! :)_
+alternativu - e-mail vždy funguje! :)"_
 
 **Uživatel z Německa** ve 2019, přes e-mail na delta@merlinux.eu
 

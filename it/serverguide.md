@@ -26,7 +26,7 @@ Quello che ti serve:
 ## Installazione di Docker
 
 Come prerequisito è necessario installare [docker e
-docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
+docker-compose](https://docs.mailcow.email/getstarted/install/#docker-and-docker-compose-installation).
 
 ### Se docker.com è bloccato:
 

@@ -69,7 +69,7 @@ Ako veľmi skorý používateľ WhatsApp som ukončil WhatsApp z dôvodu ochrany
 Kvôli tomu mám stále prerušené kontakty,
 Robím veľa reklamy alternatívam, ale trh je príliš roztrieštený.
 Delta je riešením pre každého, kto povolí aspoň jedno
-alternatíva - e-mail vždy funguje! :)_
+alternatíva - e-mail vždy funguje! :)"_
 
 **User from Germany** in 2019, via e-mail to delta@merlinux.eu
 

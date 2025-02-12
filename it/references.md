@@ -10,6 +10,29 @@ Non è certo una lista completa - abbiamo dimenticato qualcosa? Per favore
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Roskomsvoboda: Delta Chat ha nuovamente rifiutato di collaborare con le autorità Russe
+
+Riepilogo tradotto:
+_"Nella risposta all'agenzia,
+il servizio ha anche chiarito che si tratta di un'app
+che consente agli utenti di scegliere i provider di posta elettronica a piacimento,
+e non ha accesso al contenuto dei messaggi,
+per non parlare delle chiavi di crittografia che esistono solo sui dispositivi degli utenti."_
+
+14-06-2024, <https://roskomsvoboda.org/ru/post/delta-chat-snova-otkazal-roskomnadzoru/>
+
+
+### РБК (importante quotidiano russo): Perché le interruzioni di Internet in Russia stanno diventando sempre più frequenti e come rimanere in contatto?
+
+Riepilogo tradotto:
+_"Un altro messenger resistente ai problemi di comunicazione è Delta Chat.
+Invia messaggi utilizzando i normali protocolli di posta elettronica,
+e la posta elettronica, come notano gli esperti,
+è molto resistente ai comuni problemi di comunicazione."_
+
+21-04-2024, <https://www.rbc.ru/spb_sz/21/04/2024/662216e09a79475ba9366e20>
+
+
 ### c't, una rivista tecnologica tedesca, ha testato Delta Chat 1½ anni
 
 Riepilogo tradotto:
@@ -61,6 +84,20 @@ Ma la cosa più importante: Delta Chat ti consente di comunicare anche con perso
 Direi che batte anche Matrix o XMPP. "_
 
 2021-01-14, <https://jlelse.blog/posts/email-messenger-delta-chat>
+
+
+### NixFAQ: Delta Chat, una soluzione di messaggistica Crittografata End-to-End decentralizzata e gratuita per Chat-over-Email
+
+_"Delta Chat utilizza gli indirizzi email esistenti come identificatore.
+Per impostazione predefinita, nessun dato della rubrica (come il numero di telefono)
+vengono letti o trasmessi a server esterni,
+come nel caso di messaggerir come WhatsApp e Co.
+A differenza di molti altri messaggeri,
+Delta Chat abilita un identificatore
+che non è legato al numero di telefono.
+Una gradita eccezione."_
+
+27-09-2020, <https://nixfaq.org/2020/09/delta-chat-a-libre-decentralized-chat-over-email-end-to-end-encrypted-messaging-solution.html>
 
 
 ### Vodafone (fornitore di telecomunicazioni in Germania): Delta Chat: come funziona il concorrente di messaggistica WhatsApp

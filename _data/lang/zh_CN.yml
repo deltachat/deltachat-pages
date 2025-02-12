@@ -25,21 +25,14 @@ zh_CN:
     other: 其他平台的下载选项
     no_upgrades: 无自动更新的下载选项
     source_code: 源代码
-    install_via_packagemanager: 通过包管理器安装
     outdated: 过时的
+    minimum: 最低要求
     dl_flathub: 从 Flathub 下载
     dl_microsoft: 从 Microsoft Store 下载
     dl_mac_appstore: 从 Apple Mac AppStore 上下载
     dl_appstore: 从 Apple AppStore 上下载
-    beta_on: Beta 测试于
     dl_fdroid: 从 F-Droid 获取
     gplay: 从 Google Play 获取
-    dl_amazon:
-      small: 获取于
-      title: 亚马逊应用商店
-    dl_apk_text:
-      before: 您也可以下载为
-      after: （实验性）
 
   help:
     offline_hint: 现在还忙？您可以随时在应用程序中轻松阅读此帮助，即使在离线状态下。

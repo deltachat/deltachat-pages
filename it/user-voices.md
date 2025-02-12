@@ -68,7 +68,7 @@ Essendo uno dei primi utenti di WhatsApp, ho chiuso WhatsApp per motivi di priva
 Ho ancora contatti interrotti per questo motivo,
 Faccio molta pubblicità per alternative, ma il mercato è troppo frammentato.
 Delta è LA soluzione per tutti coloro che ne consentono almeno un'
-alternativa: l'e-mail funziona sempre! :)_
+alternativa: l'e-mail funziona sempre! :)"_
 
 **Utente dalla Germania** nel 2019, via e-mail a delta@merlinux.eu
 

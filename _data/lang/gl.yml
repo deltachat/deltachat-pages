@@ -25,21 +25,14 @@ gl:
     other: ""
     no_upgrades: ""
     source_code: Código Fonte
-    install_via_packagemanager: Instalar vía Xestor de Paquetes
     outdated: antigo
+    minimum: ""
     dl_flathub: Descarga desde Flathub
     dl_microsoft: Descarga desde Microsoft Store
     dl_mac_appstore: Descarga desde Apple Mac AppStore
     dl_appstore: Descarga na Apple AppStore
-    beta_on: Beta en
     dl_fdroid: Para ti en F-Droid
     gplay: Desde Google Play
-    dl_amazon:
-      small: Consíguea
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Tamén descargable como
-      after: (experimental)
 
   help:
     offline_hint: ""

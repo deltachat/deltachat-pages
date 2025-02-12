@@ -10,15 +10,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 <meta name="description" content="{{ content | strip_html | xml_escape | normalize_whitespace | truncate: 200 }}" />
 <meta name="keywords" content="{%if tx.meta.keywords != ""%}{{ tx.meta.keywords }}{%else%}{{ txEn.meta.keywords }}{%endif%}" />
+{% if page.downloads == true %}
+<meta name="apple-itunes-app" content="app-id=1459523234">
+{% endif %}
 
 <meta property="og:title" content="Delta Chat: {{ page.title }}">
 <meta property="og:description" content="{{ content | strip_html | xml_escape | normalize_whitespace | truncate: 200 }}">
 <meta property="og:image" content="{%if page.image%}{{ page.image | replace:'../','https://delta.chat/' }}{%else%}https://delta.chat/assets/home/intro1.png{%endif%}">
 <meta property="og:url" content="https://delta.chat{{ page.url }}">
+<meta name="fediverse:creator" content="@delta@chaos.social">
 <meta name="twitter:card" content="summary">
 
 <link rel="stylesheet" href="../assets/css/styles.css" type="text/css" />
 <link rel="alternate" href="https://delta.chat/feed.xml" type="application/atom+xml" title="{%if tx.rss_news_title != ""%}{{ tx.rss_news_title }}{%else%}{{ txEn.rss_news_title }}{%endif%}" />
+<script defer src="../libresilient.js"></script>
 <script defer src="https://cosmos.delta.chat/banner.js"></script>
 </head>
 
@@ -86,7 +91,7 @@
 <p>
 {% include subscribe-to-feed-links.html %}
 <br>
-© 2024 Delta Chat contributors <!-- when bumping year, see also .well-known/security.txt -->
+© 2025 Delta Chat contributors <!-- when bumping year, see also .well-known/security.txt -->
 </p>
 </div>
 

@@ -3,7 +3,7 @@ title: How to Setup a Mail Server for Delta Chat
 lang: fr
 ---
 
-# How to Setup a Mail Server for Delta Chat
+# Comment configurer un serveur de messagerie pour Delta Chat
 
 Delta Chat is a chat messenger which runs on e-mail. This means we can use any
 e-mail server to run Delta Chat accounts. One e-mail server which is easy to
@@ -14,7 +14,7 @@ You can run it together with [mailadm](https://mailadm.readthedocs.io), which
 offers your users an easy way to create an e-mail account and directly login
 with Delta Chat. It is also included in this guide.
 
-What you need:
+Ce dont vous avez besoin:
 
 - basic command line knowledge
 - a domain name, and access to its DNS settings
@@ -26,9 +26,9 @@ What you need:
 ## Installing Docker
 
 As a prerequisite you need to install [docker and
-docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
+docker-compose](https://docs.mailcow.email/getstarted/install/#docker-and-docker-compose-installation).
 
-### If docker.com is Blocked:
+### Si docker.com est bloqué:
 
 Depending on the country where your server is in, docker.com may be blocked. You
 can also get docker & docker-compose from other sources, which may work:
@@ -45,7 +45,7 @@ can also get docker & docker-compose from other sources, which may work:
   tricky, but might work. You can [contact us](mailto:mailadm@testrun.org) if
   you run into problems.
 
-## Create DNS Entries
+## Création des entrées DNS
 
 If you don't have a domain yet, you can use a service like
 [njal.la](https://njal.la) to buy a .net or .org domain for 15€ a year. You can
@@ -80,9 +80,9 @@ in System>Configuration>Options>ARC/DKIM keys.
 You can do more than 5 minutes, but in case you notice something is wrong a
 short time helps with fixing the wrong entry.
 
-## Setup Mailcow
+## Configuration de Mailcow
 
-### Set Mailcow Options
+### Configuration des options de Mailcow
 
 First clone the mailcow git repository - if your server doesn't have access to
 github.com, you can do this step somewhere else and use `scp` to copy it to

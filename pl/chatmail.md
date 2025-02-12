@@ -18,7 +18,13 @@ Serwery Chatmail są zoptymalizowane do przesyłania wiadomości za pomocą Delt
 
 - [bcc.chat](https://bcc.chat) działa w USA i od lutego 2024 roku jest stabilny.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) jest skierowany do użytkowników włoskojęzycznych i działa stabilnie od maja 2024 r.
+- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/) jest skierowany do użytkowników włoskojęzycznych i działa stabilnie od maja 2024 r.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  działa w USA i od lipca 2024 roku utrzymuje się na stabilnym poziomie.
+
+- [tarpit.fun](https://tarpit.fun)
+  ma hostowany w Austrii i jest stabilny od grudnia 2024 r.
 
 Wszystkie serwery chatmail są obsługiwane przez różne grupy i osoby. Domyślny serwer nine.testrun.org jest obsługiwany przez głównych członków zespołu Delta Chat.
 

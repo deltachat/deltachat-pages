@@ -11,6 +11,20 @@ czy coś przeoczyliśmy?
 lub po prostu [poproś o pobranie](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Roskomsvoboda: Delta Chat ponownie odmówił współpracy z rosyjskimi władzami
+
+Przetłumaczone podsumowanie: „W odpowiedzi udzielonej agencji serwis wyjaśnił również, że jest to aplikacja, która pozwala użytkownikom na dowolny wybór dostawców poczty e-mail, a nie ma dostępu do treści wiadomości, nie mówiąc już o kluczach szyfrujących, które tylko istnieją na urządzeniach użytkowników.”
+
+2024-06-14, <https://roskomsvoboda.org/ru/post/delta-chat-snova-otkazal-roskomnadzoru/>
+
+
+### РБК (Główna gazeta rosyjska): Dlaczego awarie Internetu w Rosji stają się coraz częstsze i jak pozostać w kontakcie?
+
+Przetłumaczone podsumowanie: „Kolejnym komunikatorem, który również jest odporny na problemy z komunikacją, jest Delta Chat. Wysyła wiadomości za pomocą zwykłych protokołów e-mail, a poczta e-mail, jak zauważają eksperci, jest bardzo odporna na typowe problemy komunikacyjne.”
+
+2024-04-21, <https://www.rbc.ru/spb_sz/21/04/2024/662216e09a79475ba9366e20>
+
+
 ### c't, niemiecki magazyn technologiczny, testował Delta Chat przez 1½ roku
 
 Przetłumaczone podsumowanie: „Delta Chat zdecydowanie zasługuje na dłuższą uwagę. Aplikacja harmonijnie łączy czat jako formę komunikacji ze sprawdzonym środkiem komunikacji e-mail, a nawet oferuje funkcje, których nie znajdziesz w innych komunikatorach, takie jak małe aplikacje „webxdc”, które możesz osadzać bezpośrednio w czatach i używać z partnerami rozmów. Szkoda, że Delta Chat nie istniał przed WhatsAppem i tym podobnymi.”
@@ -56,6 +70,13 @@ But the most important thing: Delta Chat allows you to communicate even with peo
 I would argue that even beats Matrix or XMPP."_
 
 2021-01-14, <https://jlelse.blog/posts/email-messenger-delta-chat>
+
+
+### NixFAQ: Delta Chat, darmowe, zdecentralizowane rozwiązanie do rozmów przez e-mail, przesyłające wiadomości szyfrowane metodą end-to-end
+
+„Delta Chat wykorzystuje istniejące adresy e-mail jako identyfikatory. Domyślnie żadne dane książki adresowej (takie jak numer telefonu) nie są odczytywane ani przesyłane do serwerów zewnętrznych, jak ma to miejsce w przypadku komunikatorów takich jak WhatsApp i spółka. W przeciwieństwie do wielu innych komunikatorów Delta Chat udostępnia identyfikator, który nie jest powiązany z numerem telefonu. Mile widziany wyjątek.”
+
+2020-09-27, <https://nixfaq.org/2020/09/delta-chat-a-libre-decentralized-chat-over-email-end-to-end-encrypted-messaging-solution.html>
 
 
 ### Vodafone (Niemiecki operator telekomunikacyjny): Delta Chat: Jak działa konkurent komunikatora WhatsApp

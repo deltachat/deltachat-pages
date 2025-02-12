@@ -20,8 +20,7 @@ Potrzebujesz do tego:
 
 ## Zainstaluj Dockera
 
-Jako warunek wstępny musisz zainstalować [docker i
-docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/).
+Jako warunek wstępny musisz zainstalować [docker i docker-compose](https://docs.mailcow.email/getstarted/install/#docker-and-docker-compose-installation).
 
 ### Jeśli docker.com jest zablokowany:
 

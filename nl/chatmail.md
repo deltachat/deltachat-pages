@@ -25,8 +25,15 @@ en zijn compatibel met zowel chatmailservers onderling als traditionele mailserv
 - [bcc.chat](https://bcc.chat) wordt beheerd vanuit de VS en is sinds
   februari 2024 stabiel verklaard.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) is georiënteerd op Italiaanssprekenden
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+is georiënteerd op Italiaanssprekenden
   en is sinds mei 2024 stabiel verklaard.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  wordt beheerd vanuit de VS en is sinds juli 2024 stabiel verklaard.
+
+- [tarpit.fun](https://tarpit.fun)
+wordt beheerd vanuit Oostenrijk en is sinds december 2024 stabiel verklaard.
 
 Alle chatmailservers worden beheerd door verschillende (groepen) mensen. 
 De nine.testrun.org-server wordt beheerd door personen van het Delta Chat-team.

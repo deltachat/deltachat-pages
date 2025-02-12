@@ -20,7 +20,14 @@ für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigun
 
 - [bcc.chat](https://bcc.chat) wird in den USA betrieben und ist seit Februar 2024 stabil.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) ist auf Italienisch sprechende Nutzer ausgerichtet und ist seit Mai 2024 stabil.
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  ist auf Italienisch sprechende Nutzer ausgerichtet und ist seit Mai 2024 stabil.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  wird in den USA betrieben und ist seit July 2024 stabil.
+
+- [tarpit.fun](https://tarpit.fun)
+  wird in Österreich betrieben und ist seit Dezember 2024 stabil.
 
 Alle Chatmail-Server werden von verschiedenen Gruppen und Personen betrieben. 
 Der Standard-Server nine.testrun.org wird vom Delta-Chat-Kernteam betrieben. 
@@ -37,7 +44,7 @@ Es ist also in Ordnung, ein Konto mit Ihrer regulären E-Mail-Adresse zu haben, 
 
 Chatmail-Server sind minimale E-Mail-Server, die auf Geschwindigkeit, Sicherheit und Komfort ausgelegt sind:
 
-- **Komfort:** Sie bekommen ein Profil In wenigen Sekunden automatisch und erhalten Push-Benachrichtigungen
+- **Komfort:** Sie bekommen ein Profil in wenigen Sekunden automatisch und erhalten Push-Benachrichtigungen
 
 - **Datenschutz:** Keine Fragen, keine Namen, Nummern oder E-Mail-Adressen erforderlich
 
@@ -45,7 +52,7 @@ Chatmail-Server sind minimale E-Mail-Server, die auf Geschwindigkeit, Sicherheit
 
 - **Zuverlässigkeit:** Keine lästigen Spam-Prüfungen oder Limits
 
-- **Sicherheit:** Ausgehende Nachrichten müssen Ende-zu-Ende verschlüsselt sein, eingehende Nachrichten werden streng auf ihre Authentizität geprüft.
+- **Sicherheit:** Ausgehende Nachrichten müssen Ende-zu-Ende-verschlüsselt sein, eingehende Nachrichten werden streng auf ihre Authentizität geprüft.
 
 
 ## Wie vertrauenswürdig sind Chatmail-Server?

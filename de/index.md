@@ -3,7 +3,7 @@ title: Delta Chat, Dezentralisierter, sicherer Messenger
 lang: de
 ---
 
-# Delta Chat is ein dezentralisierter und sicherer Messenger {#homepage-heading}
+# Delta Chat ist ein dezentralisierter und sicherer Messenger {#homepage-heading}
 
 💬 Zuverlässiges Instant-Messaging mit Unterstützung für mehrere Profile und mehrere Geräte
 
@@ -13,7 +13,7 @@ lang: de
 
 🔒 [Geprüfte Ende-zu-Ende-Verschlüsselung](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), sicher gegen Netzwerk- und Serverangriffe
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software)-Software, basierend auf [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), [xkcd927](https://xkcd.com/927/) vermeidend :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software)-Software, basierend auf [Internet-Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), [xkcd927](https://xkcd.com/927/) vermeidend :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">

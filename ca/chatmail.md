@@ -27,12 +27,18 @@ securely interoperable with chatmail and classic e-mail servers.
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
   is geared towards Italian speaking users and has been 
-  stable since May 2024. 
+  stable since May 2024.
+
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  operates in the US and has been stable since July 2024.
+
+- [tarpit.fun](https://tarpit.fun)
+  is hosted in Austria and has been stable since December 2024.
 
 All chatmail servers are operated by different groups and people. 
 The nine.testrun.org default server is operated by core Delta Chat team members. 
 
-## Can i also use a regular e-mail server instead of chatmail?
+## Can I also use a regular e-mail server instead of chatmail?
 
 Yes, many users successfully use regular e-mail servers
 especially if they want to handle their regular e-mail communications with Delta Chat.
@@ -66,10 +72,10 @@ implements automatic, unconditional message deletion after at most 20 days.
 
 Delta Chat provides [guaranteed end-to-end encryption](https://delta.chat/en/2023-11-23-jumbo-42)
 which means that in most use cases, server operators can never read your messages even if they try,
-a guarantee backed up by a recent [security analysis from ETH Zuerich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
+a guarantee backed up by a recent [security analysis from ETH Zurich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
 
 
-## How are chatmail servers run? Can i run one myself? {#selfhosted}
+## How are chatmail servers run? Can I run one myself? {#selfhosted}
 
 All chatmail servers are automatically deployed and updated using
 [the public chatmail development repository](https://github.com/deltachat/chatmail).
@@ -79,11 +85,11 @@ and configured to run unattended and to require very low maintenance effort.
 Chatmail servers happily run on low-end hardware like a Raspberry Pi.
 
 
-# How are chatmail servers funded?
+# Com es financien els servidors de xat per correu?
 
-Chatmail servers are designed to be very cheap to run,
-and they are generally self-funded by the operators.
-Please see the front page of each chatmail server for further information.
+Els servidors de xat per correu estan dissenyats per tenir un cost de funcionament molt econòmic,
+i habitualment són autofinançats pels operadors
+Vegeu la pàgina principal de cada servidor de xat per correu per a més informació.
 
 To support chatmail development and the running of the default onboarding server
 you are very welcome to chip in.

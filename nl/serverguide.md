@@ -26,7 +26,7 @@ Vereisten:
 ## Installeer Docker
 
 Als eerste dien je [docker en
-docker-compose](https://docs.mailcow.email/i_u_m/i_u_m_install/) te installeren.
+docker-compose](https://docs.mailcow.email/getstarted/install/#docker-and-docker-compose-installation) te installeren.
 
 ### Als docker.com geblokkeerd is:
 

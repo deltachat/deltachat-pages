@@ -5,24 +5,24 @@ lang: uk
 
 # Історії користувачів
 
-### more fun with e-mail
+### веселіше з електронною поштою
 
-_"A somewhat weird observation: sending and receiving emails with #DeltaChat makes the whole experience more enjoyable than using a traditional email client. I guess it's about the modern approach: making emails looks like chat messages."_
+_"Дещо дивне спостереження: надсилання та отримання електронних листів за допомогою #DeltaChat робить весь процес приємнішим, ніж використання традиційного поштового клієнта. Гадаю, справа в сучасному підході: зробити електронні листи схожими на повідомлення в чаті."_
 
-**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
+**Польський користувач** на [Mastodon](https://101010.pl/@michal/107107322703871076)
 
-### supports more than one account
+### підтримує більше одного облікового запису
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"Привіт, команда Delta.chat! Дякуємо за додаток; він надзвичайно корисний, а його UX близький до ідеального. Чи не могли б ви запропонувати нам легке перемикання між обліковими записами електронної пошти? [...]."_  
+**Користувач**, до того, як ми покращили мультиакаунт, на [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
-### audio and video call possible
+### можливий аудіо та відеодзвінок
 
-_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+_"Найкрутіше, що він підтримує відео та аудіо дзвінки, створюючи jitsi-кімнату та надсилаючи запрошення, круте рішення:)"_
 
-**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
+**User** на [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
-### Can recommend to blind people
+### можу рекомендувати незрячим людям
 
 _"I installed Delta Chat last night, just after writing to you,
 and I immediately noticed the improvement in accessibility [...]
@@ -68,7 +68,7 @@ As a very early WhatsApp user, I quit WhatsApp because of privacy and security r
 I still have broken contacts because of that,
 I do a lot of advertising for alternatives, but the market is just too fragmented.
 Delta is THE solution for everyone who allow at least one
-alternative - e-mail always works! :)_
+alternative - e-mail always works! :)"_
 
 **User from Germany** in 2019, via e-mail to delta@merlinux.eu
 
@@ -142,4 +142,4 @@ interops with all the mail clients"_
 **gozala** in 2020 via [Twitter](https://twitter.com/gozala/status/1281346020664729600)
 
 
-Also check out [press references](references).
+Також перегляньте [публікації про нас](references).

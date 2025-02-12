@@ -73,9 +73,9 @@ Możesz także dowiedzieć się, [jak używać tego samego profilu na wielu urz�
 - Twoje zdjęcie profilowe nie jest wysyłane z każdą wiadomością, ale wystarczająco regularnie, aby kontakty ponownie otrzymały Twoje zdjęcie profilowe, nawet jeśli dodadzą nowe urządzenie.
 
 
-### Czy w Delta Chat mogę ustawić tekst podpisu/status/motto? {#signature}
+### Czy w Delta Chat mogę ustawić Biografię/Podpis/Status/Motto? {#signature}
 
-Tak, możesz to zrobić w „Ustawienia » Profil » Tekst podpisu”. Twoje kontakty korzystające z Delta Chat, zobaczą go, przeglądając twoje dane kontaktowe. Dla wszystkich innych będzie on widoczny jako podpis e-mail pod tekstem wszystkich twoich wiadomości.
+Tak, możesz to zrobić w **Ustawienia » Profil » Biografia**. Twoje kontakty korzystające z Delta Chat, zobaczą go, przeglądając twoje dane kontaktowe. Ponadto będzie on wyglądał jak klasyczny podpis w wiadomości e-mail.
 
 
 ### Co oznacza przypinanie, wyciszanie i archiwizowanie?
@@ -91,8 +91,7 @@ Użyj tych narzędzi, aby uporządkować swoje czaty i mieć wszystko na swoim m
 - Gdy zarchiwizowany czat otrzyma nową wiadomość, o ile nie zostanie wyciszony, **wyskoczy z archiwum** i wróci na twoją listę czatów.
 **Wyciszone czaty pozostają zarchiwizowane** do czasu ich ręcznego przywrócenia.
 
-Aby zarchiwizować lub przypiąć czat, dotknij i przytrzymaj (Android), użyj menu czatu (Android/Desktop) lub przesuń palcem w lewo (iOS);
-aby wyciszyć czat, użyj menu czatu (Android/Desktop) lub profilu czatu (iOS).
+Aby skorzystać z tych funkcji, przytrzymaj dłużej lub kliknij prawym przyciskiem myszy czat na liście czatów.
 
 
 ### Co oznacza zielona kropka?
@@ -189,12 +188,8 @@ Od maja 2024 r. klasyczne serwery poczty e-mail nie obsługują powiadomień pus
 
 ### Czy powiadomienia push są włączone na urządzeniach z iOS? Czy istnieje alternatywa?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Tak, Delta Chat automatycznie korzysta z powiadomień push dla profili [chatmail](https://delta.chat/chatmail)
+. I nie, w telefonach Apple nie ma alternatywy umożliwiającej natychmiastowe dostarczanie wiadomości, ponieważ urządzenia Apple nie pozwalają Delta Chat na pobieranie danych w tle. Powiadomienia push są automatycznie aktywowane dla użytkowników iOS, ponieważ [system prywatności powiadomień Delta Chat](#privacy-notifications) nie udostępnia Apple danych, których jeszcze nie posiada.
 
 
 ### Czy powiadomienia Push są włączone/potrzebne na urządzeniach z Androidem? {#android-push}
@@ -202,8 +197,6 @@ does not expose data to Apple that it doesn't already have.
 Jeśli dostępna jest „Usługa Push”, Delta Chat włącza Powiadomienia Push w celu zapewnienia natychmiastowego dostarczania wiadomości dla wszystkich użytkowników chatmail. Jeśli zamiast serwerów [chatmail](https://delta.chat/chatmail) korzystasz z klasycznego dostawcy poczty e-mail, powiadomienia push nie są dostępne. 
 
 W ustawieniach „Powiadomień” Delta Chat dla „Natychmiastowej dostawy” możesz zmienić następujące ustawienia wpływające na wszystkie profile czatu:
-
-- Użyj usługi Push: ustawienie domyślne podczas korzystania z profili czatu i jeśli w telefonie dostępna jest usługa Push. Jeśli masz zarówno chatmail, jak i klasyczny profil e-mail, powiadomienie push będzie działać tylko w przypadku wiadomości przychodzących z profili chatmail.
 
 -  Użyj połączenia w tle: Jeśli nie korzystasz z usługi Push, możesz wyłączyć „optymalizację baterii” dla Delta Chat, umożliwiając mu pobieranie wiadomości w tle. Mogą jednak wystąpić opóźnienia od minut do godzin. Niektórzy dostawcy Androida nawet całkowicie ograniczają aplikacje (zobacz [dontkillmyapp.com](https://dontkillmyapp.com)), a Delta Chat może nie wyświetlać wiadomości przychodzących, dopóki ręcznie ponownie nie otworzysz aplikacji.
   
@@ -218,17 +211,18 @@ Obsługa powiadomień push w Delta Chat pozwala uniknąć wycieku prywatnych inf
 
 Oto jak aplikacje Delta Chat realizują dostarczanie powiadomień push:
 
-- Aplikacja Delta Chat uzyskuje lokalnie „token urządzenia” i przechowuje go na serwerze [chatmail](https://delta.chat/chatmail).
+- Aplikacja Delta Chat uzyskuje lokalnie „token urządzenia”, szyfruje i przechowuje go na serwerze [chatmail](https://delta.chat/chatmail).
 
-- Kiedy serwer [chatmail](https://delta.chat/chatmail) odbierze wiadomość e-mail od użytkownika Delta Chat, przekazuje „token urządzenia” do centralnego serwera proxy powiadomień Delta Chat.
+- Kiedy serwer [chatmail](https://delta.chat/chatmail) odbierze wiadomość e-mail od użytkownika Delta Chat, przekazuje zaszyfrowany token urządzenia do centralnego serwera proxy powiadomień Delta Chat.
 
-- Centralny serwer proxy powiadomień Delta Chat przekazuje „token urządzenia” do odpowiedniej usługi Push (Apple, Google itp.), nie znając nawet adresu IP ani adresu e-mail użytkowników Delta Chat.
+- Centralny serwer proxy powiadomień Delta Chat deszyfruje token urządzenia i przekazuje go do odpowiedniej usługi Push (Apple, Google itp.), nie znając nawet adresu IP ani adresu e-mail użytkowników Delta Chat.
 
 - Centralna usługa Push (Apple, Google itp.) budzi aplikację Delta Chat na twoim urządzeniu, aby sprawdzić w tle nowe wiadomości. Nie zna chatmaila ani adresu e-mail urządzenia, na którym się budzi. Centralne usługi push Apple/Google nigdy nie widzą adresu e-mail (nadawcy ani odbiorcy), a także nigdy nie widzą treści wiadomości (również w formie zaszyfrowanej).
 
-Od maja 2024 r. serwery chatmail znają „tokeny urządzenia”, ale planujemy szyfrować te informacje na serwerze proxy powiadomień, tak aby serwer chatmail nigdy nie poznał tokena urządzenia.
 
 Centralny serwer proxy powiadomień Delta Chat [jest mały i w pełni zaimplementowany w Rust](https://github.com/deltachat/notifiers) i zapomina o tokenach urządzeń zaraz po ich przetworzeniu przez Apple/Google/itp, zwykle w ciągu kilku milisekund.
+
+Pamiętaj, że token urządzenia jest szyfrowany między aplikacjami a serwerem proxy powiadomień, ale nie jest podpisany. Serwer proxy powiadomień nigdy nie widzi adresów e-mail, adresów IP ani żadnych kryptograficznych informacji identyfikujących powiązanych z urządzeniem użytkownika (tokenem).
 
 W wyniku tego ogólnego projektu ochrony prywatności nawet przejęcie serwera chatmail lub pełne przejęcie centralnego serwera proxy powiadomień Delta Chat nie spowodowałoby ujawnienia prywatnych informacji, których usługi Push jeszcze nie posiadają.
 
@@ -423,7 +417,7 @@ To zależy od tego, co jest dla ciebie ważne. Delta Chat [nie obsługuje PFS](#
 
 W każdym razie szyfrowanie end-to-end Delta Chat wykorzystuje [bezpieczny podzbiór OpenPGP](#openpgp-secure), który został poddany [niezależnemu audytowi bezpieczeństwa](../assets/blog/2019-first-security-review.pdf).
 
-### Czy mogę ponownie wykorzystać mój istniejący klucz prywatny?
+### Czy mogę ponownie wykorzystać mój istniejący klucz prywatny? {#importkey}
 
 Tak.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.
@@ -449,9 +443,22 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 
 ### Czy Delta Chat był niezależnie kontrolowany pod kątem luk w zabezpieczeniach? {#security-audits}
 
-Projekt Delta Chat przeszedł cztery niezależne audyty bezpieczeństwa i jedną niezależną analizę bezpieczeństwa, od najnowszego do najstarszego:
+Yes, multiple times. 
+The Delta Chat project continuously undergoes independent security audits and analysis,
+from most recent to older: 
 
-W marcu 2024 r. otrzymaliśmy dogłębną analizę bezpieczeństwa od grupy badawczej ds. kryptografii stosowanej w ETH Zuerich i zajęliśmy się wszystkimi poruszonymi kwestiami. Bardziej szczegółowe informacje można znaleźć w naszym poście na blogu na temat [szyfrowania typu „end-to-end” z gwarancją hartowania](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
+- 2024 December, an [NLNET-commissioned Evaluation of
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Two advisories were released related to the findings of this audit:
+
+  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+
+  The issues outlined in these advisories have been fixed and are part of Delta Chat 
+  releases on all appstores since December 2024. 
+
+- W marcu 2024 r. otrzymaliśmy dogłębną analizę bezpieczeństwa od grupy badawczej ds. kryptografii stosowanej w ETH Zuerich i zajęliśmy się wszystkimi poruszonymi kwestiami. Więcej szczegółowych informacji można znaleźć na naszym blogu na temat [szyfrowania typu End-to-End z gwarancją Hardening](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) oraz opublikowanym później artykule badawczym [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf).
 
 - W kwietniu 2023 r. naprawiliśmy problemy z bezpieczeństwem i prywatnością w funkcji „aplikacje internetowe udostępniane na czacie”, związane z awariami piaskownicy, szczególnie w przypadku Chromium. Następnie przeprowadziliśmy niezależny audyt bezpieczeństwa od Cure53 i wszystkie wykryte problemy zostały naprawione w aplikacji z serii 1.36 wydanej w kwietniu 2023 r. [Pełną historię bezpieczeństwa end-to-end w sieci można znaleźć tutaj](https://delta.chat/en/2023-05-22-webxdc-security).
 
@@ -488,6 +495,10 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 
 - Na **Windowsie**, przejdź do **Panel sterowania / Sieć i internet** i upewnij się, że **Sieć prywatna** jest wybrana jako "Typ profilu sieci"
   (po przeniesieniu możesz wrócić do pierwotnej wartości)
+
+- W systemie **iOS** upewnij się, że jest przydzielony dostęp do opcji „Ustawienia » Aplikacje » Delta Chat » **Sieć lokalna**”
+
+- W systemie **macOS** włącz „Preferencje systemowe » Ochrona i prywatność » **Sieć lokalna** » Delta Chat”
 
 - Twój system może mieć „zaporę ogniową”, o której wiadomo, że powoduje problemy (szczególnie w systemie Windows).
 **Wyłącz zaporę** dla Delta Chat po obu stronach i spróbuj ponownie
@@ -535,6 +546,7 @@ W Delta Chat możesz udostępniać [aplikacje webxdc](https://webxdc.org) i zał
 ### Gdzie mogę zdobyć aplikacje webxdc?
 
 - Ogólnie rzecz biorąc, każdy może udostępniać sobie aplikacje webxdc bez ograniczeń.
+- Od [webxdc.org/apps](https://webxdc.org/apps/).
 - Możesz [wysłać „hi” na adres xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore), aby zobaczyć eksperymentalny sklep z aplikacjami webxdc. Wszystkie aplikacje są otwarto źródłowe i są bezpłatne.
 - Wiele osób pisze własne, aplikacje webxdc i publikuje je na [forum Delta Chat](https://support.delta.chat/c/webxdc/20).
 
@@ -577,14 +589,6 @@ Jesteśmy bardzo wdzięczni za opinie na temat tych funkcji — chcesz podzieli�
 - Aby zobaczyć mapę i wyświetlić lokalizacje innych osób, musisz włączyć tę funkcję w ustawieniach zaawansowanych.
 - Ta funkcja nie będzie udostępniać twojej lokalizacji nikomu poza partnerami czatu. Mapy są pobierane z [OpenStreetMap](https://openstreetmap.org).
 - Na komputerze system operacyjny zwykle nie może określić twojej lokalizacji. Zamiast tego możesz kliknąć prawym przyciskiem myszy na mapie i opisać lokalizację, która jest wysyłana do czatu jako wiadomość, ale także pojawia się na mapie.
-
-
-### Co właściwie chroni eksperymentalne szyfrowanie bazy danych?
-
-- W tej chwili szyfrowanie bazy danych jest jeszcze bardzo eksperymentalne. Nie polegaj na nim w kwestii ochrony, powinieneś dodatkowo użyć szyfrowania systemu operacyjnego, jeśli takie zapewnia.
-- Szyfrowanie bazy danych nie szyfruje jeszcze obiektów blob, tylko wiersze i kolumny bazy danych. Oznacza to mniej więcej tyle, że Twoje wiadomości są bezpieczne, ale nie załączniki.
-- W systemach iOS i Android klucze szyfrujące są przechowywane w pęku kluczy systemowych. Oznacza to, że szyfrowanie jest tak bezpieczne, jak system operacyjny, na którym działa.
-- Klient Delta Chat na komputer nie oferuje jeszcze szyfrowania bazy danych, ponieważ nie ma standardowego sposobu przechowywania kluczy szyfrowania na różnych obsługiwanych platformach.
 
 
 ### Dlaczego mogę wybrać, aby widzieć tylko folder DeltaChat?
@@ -659,8 +663,6 @@ Oto, co robi Delta Chat z tymi uprawnieniami:
 
 Podobnie jak w przypadku innych programów pocztowych, takich jak Thunderbird, K9-Mail lub Outlook, program potrzebuje hasła, aby można było go używać do wysyłania i odbierania e-maili. Oczywiście hasło jest przechowywane tylko na Twoim urządzeniu. Hasło jest przesyłane tylko do Twojego dostawcy poczty e-mail (po zalogowaniu), który i tak ma dostęp do Twojej poczty
 
-Jeśli korzystasz z dostawcy poczty e-mail z obsługą OAuth2, takiego jak gmail.com lub yandex.ru, nie musisz przechowywać hasła na urządzeniu. W takim przypadku używany jest tylko token dostępu.
-
 Ponieważ Delta Chat jest Open Source, możesz sprawdzić [Kod źródłowy](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
 jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny sposób. Cieszymy się z opinii, które sprawiają, że aplikacja jest bezpieczniejsza dla wszystkich naszych użytkowników. 
 
@@ -717,12 +719,17 @@ Niektórzy używają Delta Chat jako zwykłego klienta poczty e-mail i chcą uż
 - Delta Chat może zaszyfrować metodą end-to-end za pośrednictwem dowolnego dostawcy poczty e-mail z dowolną [aplikacją e-mail z włączoną funkcją Autocrypt](https://autocrypt.org/dev-status.html).
 
 
-### Jak mogę usunąć swoje konto?
+### Jak mogę usunąć swoje konto? {#remove-account}
 
-Gdy korzystasz z konta e-mail w Delta Chat, sposób usunięcia konta zależy od dostawcy poczty e-mail.
-Nie mamy żadnej kontroli nad twoim kontem e-mail, więc niestety nie możemy ci w tym pomóc.
+Jeśli używasz domyślnego profilu czatu, możesz po prostu odinstalować aplikację. Spowoduje to automatyczne usunięcie wszystkich powiązanych danych konta na serwerze czatu. Aby uzyskać więcej informacji, zapoznaj się z [nine.testrun.org usuwanie kont](https://nine.testrun.org/info.html#account-deletion) dla domyślnego serwera powitalnego lub odpowiednią stroną wybranego [serwera czatu innej firmy](https://delta.chat/chatmail).
 
-Jeśli chcesz zachować konto, ale odinstalować Delta Chat, zaleca się opuszczenie każdego czatu grupowego przed odinstalowaniem Delta Chat.
+Jeśli skonfigurowałeś swój profil czatu na wielu urządzeniach, musisz go usunąć ze wszystkich urządzeń.
+
+Jeśli używasz więcej niż jednego konta, ale nie chcesz pozbywać się ich wszystkich, możesz je usunąć w menu przełączania kont (na Androidzie i iOS) lub w pasku bocznym, klikając prawym przyciskiem myszy (w kliencie komputerowym).
+
+Konta u [klasycznych dostawców poczty e-mail](https://providers.delta.chat) nie zostaną usunięte automatycznie; sposób usunięcia konta zależy od dostawcy poczty e-mail. Nie mamy żadnej kontroli nad kontami e-mail u tych dostawców, więc niestety nie możemy ci w tym pomóc.
+
+Jeśli chcesz nadal używać klasycznego konta e-mail z innymi aplikacjami, ale odinstalować Delta Chat, zaleca się opuszczenie każdego czatu grupowego przed odinstalowaniem Delta Chat. W przeciwnym razie możesz otrzymywać nieodszyfrowywane wiadomości z tych czatów grupowych.
 
 
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi coś więcej?
@@ -730,12 +737,28 @@ Jeśli chcesz zachować konto, ale odinstalować Delta Chat, zaleca się opuszcz
 - Zobacz [Standardy używane w Delta Chat]({% include standards-url %}).
 
 
+
+### Gdzie moi znajomi mogą znaleźć Delta Chat?
+
+Delta Chat jest dostępny na wszystkich głównych i niektórych mniejszych platformach:
+
+- Oficjalna **strona internetowa** <https://delta.chat/download> pokazuje wszystkie opcje szczegółowo
+
+- Jeśli nie jest dostępna, użyj **kopii strony** pod adresem <https://deltachat.github.io/deltachat-pages>
+
+- Otwórz jeden z następujących **sklepów z aplikacjami i wyszukaj „Delta Chat”**: Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS i macOS App Store, Microsoft Store
+
+- Sprawdź **menedżera pakietów** swoich dystrybucji Linuksa
+
+- **Aplikacje na Androida** są również dostępne na <https://github.com/deltachat/deltachat-android/releases>
+
+
 ### W jaki sposób finansowany jest rozwój Delta Chat?
 
 Delta Chat nie otrzymuje żadnego kapitału wysokiego ryzyka, nie jest zadłużony i nie jest pod presją generowania ogromnych zysków lub sprzedawania reklamodawcom użytkowników i ich przyjaciół oraz rodziny (lub gorzej).
 Raczej korzystamy z publicznych źródeł finansowania, jak dotąd pochodzących z UE i USA, aby wspomóc nasze wysiłki w inicjowaniu zdecentralizowanego i zróżnicowanego ekosystemu komunikatora, opartego na rozwoju społeczności Free i Open-Source.
 
-Konkretnie, rozwój Delta Chat był dotychczas finansowany z tych źródeł:
+Konkretnie, rozwój Delta Chat był dotychczas finansowany z tych źródeł, uporządkowanych chronologicznie:
 
 - Unijny projekt [NEXTLEAP](https://nextleap.eu) sfinansował badania i wdrożenie zweryfikowanych grup i ustawień protokołów kontaktowych w latach 2017 i 2018, a także pomógł zintegrować szyfrowanie end-to-end poprzez [Autocrypt](https://autocrypt.org).
 
@@ -749,11 +772,13 @@ Druga dotacja w 2019/2020 (~300 000 4) pomogła nam wydać wersje Delta/iOS, prz
 - Od końca 2021 do marca 2023 otrzymaliśmy dofinansowanie *Wolność Internetu* (~500 tys. $) z amerykańskiego Biura Demokracji, Praw Człowieka i Pracy (DRL).
 Fundusze te wspierają nasze długofalowe cele, aby uczynić Delta Chat bardziej użytecznym i kompatybilnym z szeroką gamą serwerów e-mail na całym świecie, a także bardziej odpornym i bezpiecznym w miejscach często dotkniętych cenzurą i wyłączeniami Internetu.
 
-- Od 2023 roku zostaliśmy zaakceptowani w programie Next Generation Internet (NGI) Entrust dla naszych propozycji „Prywatnych zdecentralizowanych aplikacji”. Dokładna kwota do ustalenia (około 100 tys. EUR). Finansowanie to wspiera dalszy rozwój [„aplikacji udostępnianych na czacie” webxdc](https://webxdc.org). 
+- W latach 2023-2024 pomyślnie ukończyliśmy finansowany przez OTF [projekt Secure Chatmail](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), co pozwoliło nam wprowadzić gwarantowane szyfrowanie, stworzyć [sieć serwerów chatmail](https://delta.chat/chatmail) i zapewnić „natychmiastowe wdrażanie” we wszystkich aplikacjach wydanych od kwietnia 2024 r.
+
+- W latach 2023 i 2024 zostaliśmy przyjęci do programu Next Generation Internet (NGI) za naszą pracę w [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/), wraz z partnerami współpracującymi pracującymi nad [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) i [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). Wszystkie te projekty są częściowo ukończone lub zostaną ukończone na początku 2025 r.
 
 - Czasami otrzymujemy jednorazowe darowizny od osób prywatnych. Na przykład w 2021 roku pewna hojna osoba przekazała nam 4K EUR w formie przelewu bankowego tytułem "kontynuujcie dobry rozwój!". 💜 Takie pieniądze przeznaczamy na finansowanie spotkań rozwojowych lub na doraźne wydatki, których nie da się łatwo przewidzieć lub zrefundować z publicznych dotacji. Otrzymywanie większej ilości darowizn pomaga nam również stać się bardziej niezależnymi i długoterminowo rentownymi jako społeczność współpracowników.
 
-[Przekaż pieniądze](donate){: .cta-button}
+  [Przekaż pieniądze](donate){: .cta-button}
 
 - Wreszcie, ale zdecydowanie nie najmniej ważne, kilku ekspertów i entuzjastów pro-bono wniosło wkład i przyczyniło się do rozwoju Delta Chat bez otrzymywania pieniędzy lub tylko niewielkich kwot. Bez nich Delta Chat nie byłby tam, gdzie jest dzisiaj, nawet w pobliżu.
 

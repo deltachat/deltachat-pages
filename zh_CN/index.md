@@ -1,19 +1,19 @@
 ---
-title: Delta Chat, decentralized secure messenger 
+title: Delta Chat，去中心化的安全聊天软件
 lang: zh_CN
 ---
 
-# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
+# Delta Chat，去中心化的安全聊天软件 {#homepage-heading}
 
-💬 Reliable instant messaging with multi-profile and multi-device support
+💬 稳定可靠的即时通讯，支持多账户和多设备
 
-⚡️ Sign up to [secure fast chatmail servers](chatmail) or use [classic e-mail servers](https://providers.delta.chat/)
+⚡️ 注册[安全快速的 Chatmail 服务器](chatmail) 或使用[传统电子邮件服务器](https://providers.delta.chat/)
 
-🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
+🥳 在聊天中体验互动[网页应用](https://webxdc.org/)，一起游戏和协作
 
-🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
+🔒 [经过审计的端到端加密](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin)，安全可靠，防御网络和服务器攻击
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+👉 [自由](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6)[开源](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%94%BE%E6%BA%90%E4%BB%A3%E7%A0%81)软件，基于[互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)构建，告别 [xkcd927](https://xkcd.com/927/) 困境 :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">
@@ -57,6 +57,6 @@ lang: zh_CN
 
 [下载](https://get.delta.chat){: .cta-button}
 
-Available on mobile and desktop.
+可在手机和桌面设备上使用。
 
 

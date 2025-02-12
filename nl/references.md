@@ -11,6 +11,28 @@ Hebben we iets gemist?
 of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
+### Roskomsvoboda: Delta Chat weigerde wederom samen te werken met Russische autoriteiten
+
+Vertaalde samenvatting:
+_“Delta Chat antwoordde aan de autoriteiten
+dat de dienst een app is waar gebruikers hun eigen e-mailproviders kiezen
+en daarom geen toegang heeft tot berichtinhoud,
+noch de beveiligingssleutels van gebruikersapparaten.”_
+
+2024-06-14, <https://roskomsvoboda.org/ru/post/delta-chat-snova-otkazal-roskomnadzoru/>
+
+
+### РБК (belangrijke Russische krant): Waarom valt het internet in Rusland steeds vaker uit?
+
+Vertaalde samenvatting:
+_“Een andere gespreksdienst waarom communicatieproblemen zich nooit voordoen is Delta Chat.
+Berichten worden verstuurd via gebruikelijke e-mailprotocollen,
+en e-mail is volgens experts
+zeer goed bestand tegen communicatieproblemen.”_
+
+2024-04-21, <https://www.rbc.ru/spb_sz/21/04/2024/662216e09a79475ba9366e20>
+
+
 ### c't, een Duits technologietijdschrift, testte Delta Chat 1½ jaar lang
 
 Samenvatting (vertaald):
@@ -62,6 +84,20 @@ Maar het belangrijkste is: met Delta Chat kun je óók communiceren met mensen d
 Ik durf zelfs te zeggen het daardoor beter is dan Matrix en XMPP."_
 
 2021-01-14, <https://jlelse.blog/posts/email-messenger-delta-chat>
+
+
+### NixFAQ: Delta Chat, een vrije, gedecentraliseerde chat-via-e-mailoplossing met eind-tot-eindversleuteling
+
+_“Delta Chat maakt gebruik van bestaande e-mailadressen.
+Er wordt standaard geen adresboekinformatie, zoals telefoonnummers,
+verstuurd naar externe servers,
+in tegenstelling tot WhatsApp en zo.
+In tegenstelling tot andere gespreksdiensten
+gebruikt Delta Chat identificatie die niet
+gekoppeld is aan een telefoonnummer.
+Een ware verademing.”_
+
+2020-09-27, <https://nixfaq.org/2020/09/delta-chat-a-libre-decentralized-chat-over-email-end-to-end-encrypted-messaging-solution.html>
 
 
 ### Vodafone (Duitse telecommunicatieprovider): Delta Chat: Zó functioneert de messenger-concurrent van WhatsApp

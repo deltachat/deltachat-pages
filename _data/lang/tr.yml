@@ -25,21 +25,14 @@ tr:
     other: ""
     no_upgrades: ""
     source_code: Kaynak Kodu
-    install_via_packagemanager: Paket Yöneticisi Yoluyla Kur
     outdated: eski
+    minimum: ""
     dl_flathub: Flathub'dan indir
     dl_microsoft: Microsoft Store'dan indir
     dl_mac_appstore: Apple Mac App Store'dan indir
     dl_appstore: Apple App Store'dan indir
-    beta_on: Beta
     dl_fdroid: F-Droid'den indir
     gplay: Google Play'den alın
-    dl_amazon:
-      small: Amazon Appstore'dan
-      title: edinin
-    dl_apk_text:
-      before: Şöyle de indirebilirsiniz
-      after: (deneysel)
 
   help:
     offline_hint: ""

@@ -103,15 +103,13 @@ para que os teus contactos a teñan actualizada, e tamén se engaden un
 novo dispositivo.
 
 
-### Can I set a Signature Text/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
 
 Yes,
-you can do so under "Settings > Profile > Signature Text".
+you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-To everyone else,
-It will appear as an e-mail signature
-below the text of all your messages.
+Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -128,8 +126,7 @@ Use these tools to organize your chats and keep everything in its place:
 - When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
   **Muted chats stay archived** until you unarchive them manually.
 
-To archive or pin a chat, long tap (Android), use the chat's menu (Android/Desktop) or swipe to the left (iOS);
-to mute a chat, use the chat's menu (Android/Desktop) or the chat's profile (iOS).
+To use the functions, long tap or right click a chat in the chat list.
 
 
 ### What does the green dot mean?
@@ -290,12 +287,6 @@ Push Notifications are not available.
 In the Delta Chat "Notifications" settings for "Instant delivery"
 you can change the following settings effecting all chat profiles:
 
-- Use Push Service: the default when using chatmail profiles and if
-  a Push service is available on the phone.
-  If you have both chatmail and classic e-mail profiles,
-  then Push Notification will only work
-  for incoming messages on chatmail profiles.
-
 - Use Background Connection: If you are not using a Push service,
   you may disable "battery optimizations" for Delta Chat,
   allowing it to fetch messages in the background.
@@ -322,14 +313,14 @@ to any system involved in the delivery of Push Notifications.
 
 Here is how Delta Chat apps perform Push Notification delivery:
 
-- A Delta Chat app obtains a "device token" locally and stores it
+- A Delta Chat app obtains a "device token" locally, encrypts it and stores it
   on the [chatmail](https://delta.chat/chatmail) server.
 
 - When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
-  it forwards the "device token" to the central Delta Chat notification proxy.
+  it forwards the encrypted device token to the central Delta Chat notification proxy.
 
-- The central Delta Chat notification proxy forwards
-  the "device token" to the respective Push service (Apple, Google, etc.),
+- The central Delta Chat notification proxy decrypts the device token
+  and forwards it to the respective Push service (Apple, Google, etc.),
   without ever knowing the IP or e-mail address of Delta Chat users.
 
 - The central Push Service (Apple, Google, etc.)
@@ -339,13 +330,15 @@ Here is how Delta Chat apps perform Push Notification delivery:
   The central Apple/Google Push services never see an e-mail address (sender or receiver)
   and also never see any message content (also not in encrypted forms).
 
-As of May 2024, chatmail servers know about "device tokens"
-but we plan to encrypt this information to the notification proxy
-such that the chatmail server never learns the device token.
 
 The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
 and forgets about device-tokens as soon as Apple/Google/etc processed them,
 usually in a matter of milliseconds.
+
+Note that the device token is encrypted between apps and notification proxy
+but it is not signed. 
+The notification proxy thus never sees e-mail addresses, IP-addresses or
+any cryptographic identity information associated with a user's device (token). 
 
 Resulting from this overall privacy design, even the seizure of a chatmail server,
 or the full seizure of the central Delta Chat notification proxy
@@ -550,7 +543,7 @@ and GnuPG (GPG), a command line tool implementing OpenPGP.
 Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
 Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
 available as [an independent "pgp" package](https://crates.io/crates/pgp),
-and [security-audited in 2019](https://delta.chat/assets/blog/2019-first-security-review.pdf). 
+and [security-audited in 2019 and 2024](#security-audits). 
 
 We aim, along with other OpenPGP implementors, 
 to further improve security characteristics by implementing the
@@ -744,7 +737,7 @@ past encrypted messages.
 In any case, Delta Chat's end-to-end encryption uses a [secure subset of OpenPGP](#openpgp-secure)
 which has been [independently security-audited](../assets/blog/2019-first-security-review.pdf).
 
-### Can I reuse my existing private key?
+### Can I reuse my existing private key? {#importkey}
 
 Yes.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.
@@ -779,12 +772,26 @@ For other programs, you should be able to find a solution online.
 
 ### Was Delta Chat independently audited for security vulnerabilities? {#security-audits}
 
-The Delta Chat project underwent four independent security audits and one
-independent security analysis, from most recent to older: 
+Yes, multiple times. 
+The Delta Chat project continuously undergoes independent security audits and analysis,
+from most recent to older: 
+
+- 2024 December, an [NLNET-commissioned Evaluation of
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Two advisories were released related to the findings of this audit:
+
+  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+
+  The issues outlined in these advisories have been fixed and are part of Delta Chat 
+  releases on all appstores since December 2024. 
 
 - 2024 March, we received a deep security analysis from the Applied Cryptography
   research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information. 
+  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
+  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
+  research paper published afterwards. 
 
 - 2023 April, we fixed security and privacy issues with the "web
   apps shared in a chat" feature, related to failures of sandboxing
@@ -854,6 +861,10 @@ One device is not needed for the other to work.
 - On **Windows**, go to **Control Panel / Network and Internet**
   and make sure, **Private Network** is selected as "Network profile type"
   (after transfer, you can change back to the original value)
+
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
 
 - Your system might have a "personal firewall",
   which is known to cause problems (especially on Windows).
@@ -928,6 +939,7 @@ extendable messenger.
 
 - In general, anyone can share webxdc apps with each
   other without restrictions.
+- From [webxdc.org/apps](https://webxdc.org/apps/).
 - You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
   to see an experimental webxdc appstore.
   All of the apps are open source and for free.
@@ -1002,22 +1014,6 @@ dialog.
 - On desktop, the OS typically can't determine your location. Instead you can
   right click on the map and describe a location, which is sent to the chat as
   a message, but also appears on the map.
-
-
-### What does the experimental database encryption actually protect?
-
-- Right now, the database encryption is still very experimental. Don't rely on
-  it for protection, you should additionally use encryption of your operating
-  system, if it provides any.
-- The database encryption does not yet encrypt the blobs, only the rows and
-  columns of the database. This more or less means that your messages are safe,
-  but not your attachments.
-- For iOS and Android, the encryption keys are stored in the system keychain.
-  This means the encryption is as secure as the operating system it's running
-  on.
-- The Delta Chat desktop client doesn't offer database encryption yet, as there
-  is no standard way to store the encryption keys on the different supported
-  platforms.
 
 
 ### Why can I choose to only watch the DeltaChat folder?
@@ -1110,9 +1106,6 @@ Como con calquera outro programa de email como Thundirbird, K9-mail, ou Outlook,
 programa precisa o contrasinal para poder enviar emails. Por suposto, o
 contrasinal gárdase só no teu dispositivo. O contrasinal só se transmite ao
 teu provedor de email (ao conectarte), que de todas formas xa ten acceso ao teu correo.
-
-Se usas un provedor de email con soporte OAuth2 como gmail.com ou yandex.ru,
-non hai necesidade de almacenar o contrasinal no dispositivo. Neste caso, só se usa o testemuño (token) de acceso.
 
 Como Delta Chat é Código Aberto, podes mirar o [Código Fonte]
 (https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
@@ -1212,21 +1205,54 @@ Otherwise, deleting messages or multi-device setups might not work properly.
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 
-### How can I delete my account?
+### How can I delete my account? {#remove-account}
 
-As you use an e-mail account for Delta Chat,
+If you use a default chat profile
+you can simply uninstall the app.
+This will automatically trigger deletion of all associated account data on the chatmail server.
+For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
+or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
+
+If you have set up your chat profile on multiple devices
+you need to remove it from all devices.
+
+If you are using more than one account,
+but don't want to get rid of all of them,
+you can remove it in the account switcher menu (on android and iOS),
+or in the sidebar with a right click (in the desktop client).
+
+Accounts on [classic e-mail providers](https://providers.delta.chat)
+will not be deleted automatically;
 how you can delete your account depends on your e-mail provider.
-We don't have any control over your e-mail account,
+We don't have any control over e-mail accounts at those providers,
 so unfortunately we can't help you with that.
 
-If you want to keep the account,
+If you want to continue using a classic e-mail account with other apps,
 but uninstall Delta Chat,
 it is recommended to leave any group chat before uninstalling Delta Chat.
+Otherwise you might receive undecryptable messages from those group chats.
 
 
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
+
+
+
+### Where can my friends find Delta Chat?
+
+Delta Chat is available for all major and some minor platforms:
+
+- The **official website**, <https://delta.chat/download> shows all options in detail
+
+- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+
+- Open one of the following **app stores and search for "Delta Chat":**
+  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+
+- Check the **package manager** of your Linux distributions
+
+- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### How are Delta Chat developments funded? 
@@ -1238,7 +1264,8 @@ We rather use public funding sources, so far from EU and US origins, to help
 our efforts in instigating a decentralized and diverse chat messaging eco-system
 based on Free and Open-Source community developments.
 
-Concretely, Delta Chat developments have so far been funded from these sources:
+Concretely, Delta Chat developments have so far been funded from these sources,
+ordered chronologically: 
 
 - The [NEXTLEAP](https://nextleap.eu) EU project funded the research
   and implementation of verified groups and setup contact protocols
@@ -1266,10 +1293,20 @@ Concretely, Delta Chat developments have so far been funded from these sources:
   and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
   in places often affected by internet censorship and shutdowns.
 
-- Beginning 2023 we got accepted in the Next Generation Internet (NGI)
-  Entrust program for our "Private Decentralized Apps" proposals. 
-  Exact amount is to be determined (around 100K EUR). 
-  This funding supports further developments of [webxdc "apps shared in a chat"](https://webxdc.org). 
+- 2023-2024 we successfully completed the OTF-funded 
+  [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
+  allowing us to introduce guaranteed encryption, 
+  creating a [chatmail server network](https://delta.chat/chatmail) 
+  and providing "instant onboarding" in all apps released from April 2024 on. 
+
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on 
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+  All of these projects are partially completed or to be completed in early 2025. 
 
 - Sometimes we receive one-time donations from private individuals. 
   For example, in 2021 a generous individual bank-wired us 4K EUR 

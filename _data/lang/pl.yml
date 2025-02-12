@@ -25,21 +25,14 @@ pl:
     other: Opcje pobierania dla innych platform
     no_upgrades: Opcje pobierania bez automatycznych aktualizacji
     source_code: Kod źródłowy
-    install_via_packagemanager: Zainstaluj za pomocą Menedżera pakietów
     outdated: przestarzały
+    minimum: Minimalne wymagania
     dl_flathub: Pobierz z Flathub
     dl_microsoft: Pobierz z Microsoft Store
     dl_mac_appstore: Pobierz z Apple Mac AppStore
     dl_appstore: Pobierz z Apple AppStore
-    beta_on: Beta jest na
     dl_fdroid: Pobierz z F-Droid
     gplay: Pobierz z Google Play
-    dl_amazon:
-      small: Pobierz z
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Możesz także pobrać jako
-      after: (eksperymentalne)
 
   help:
     offline_hint: "Spieszysz się? W każdej chwili możesz przeczytać tę pomoc w aplikacji, także bez internetu."

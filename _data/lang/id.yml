@@ -25,21 +25,14 @@ id:
     other: ""
     no_upgrades: ""
     source_code: Source Code
-    install_via_packagemanager: Instal melalui Package Manager
     outdated: ketinggalan jaman
+    minimum: ""
     dl_flathub: Unduh dari Flathub
     dl_microsoft: Unduh dari Microsoft Store
     dl_mac_appstore: Unduh di Apple Mac AppStore
     dl_appstore: unduh di Apple AppStore
-    beta_on: Beta di
     dl_fdroid: Dapatkan di F-Droid
     gplay: Dapatkan di Google Play
-    dl_amazon:
-      small: Dapatkan di
-      title: Amazon Appstore
-    dl_apk_text:
-      before: Anda juga dapat mengunduh sebagai
-      after: (eksperimental)
 
   help:
     offline_hint: "Terburu-buru? Anda dapat membaca bantuan ini dengan santai kapan saja di dalam aplikasi, juga tanpa internet."

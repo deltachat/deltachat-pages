@@ -58,7 +58,7 @@ Testing changes
 
 - If you get Ruby dependency problems, you can also build the page in a docker
   container:  
-  ```sudo docker run -i -p 4000:4000 -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:3 /bin/bash -c "chmod 777 /srv/jekyll && jekyll serve"```  
+  ```sudo docker run -i -p 4000:4000 -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:4 /bin/bash -c "chmod 777 /srv/jekyll && jekyll serve"```  
   You can open the page in the browser at http://localhost:4000.
 
 Directory structure
@@ -111,12 +111,7 @@ for more info see the comments in `./tools/t-dance.sh`.
   and run `./tools/t-dance.sh pull`.
   copy files not handled by Transifex (./en/gdpr*) and adapt the header.
 
-- check the language selection in `/_includes/footer-languages.html`.
-
-- the following step is outside the scope of this repo:
-  add a server-redirect, template is at
-  <https://github.com/deltachat/sysadmin/blob/master/page/delta.chat/delta.chat>
-
+- add the language to `/_includes/footer-languages.html` and `redirect.js`
 
 ### Update translations
 

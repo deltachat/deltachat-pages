@@ -55,8 +55,8 @@ push_po_sources_to_tx() {
 	branch=$(git rev-parse --abbrev-ref HEAD)
 	echo $branch
 	git status
-	if [ -z $branch ] || [ $branch != "master" ]; then
-		echo "ERROR: push is only allowed on master, there is a high risk to delete existing translations otherwise"
+	if [ -z $branch ] || [ $branch != "main" ]; then
+		echo "ERROR: push is only allowed on main, there is a high risk to delete existing translations otherwise"
 		exit 1
 	fi
 	tx push -s
@@ -89,13 +89,12 @@ create_markdown_files() {
 
 
 create_html_files() {
-	# if you want to rebuild the html files when markdown is updated,
-	# create the file `tools/create-html.prv.sh` with eg. the following content:
-	# `cd ..; jekyll build --destination <html-folder>; echo "Options +MultiViews" > <html-folder>/.htaccess; cd tools`  
-	if [ -f ./create-html.prv.sh ]; then
-		echo "Creating html-files from the markdown files ..."
-		./create-html.prv.sh
-	fi
+  # create html files from markdown
+  cd ..
+  bundle exec jekyll build
+  rm -r result || true
+  mv _site result
+  cd tools
 }
 
 
@@ -122,7 +121,7 @@ if [ $1 == "pull" ]; then
 	cd ..
 	./tools/check-translations.sh
 	cd tools
-elif [ $1 == "push--do-this-only-from-master" ]; then
+elif [ $1 == "push--do-this-only-from-main" ]; then
 	create_po_sources
 	push_po_sources_to_tx
 # debug usage
@@ -136,7 +135,7 @@ elif [ $1 == "reset-md" ]; then
 	create_html_files
 else
 	echo "pull translations: ./t-dance pull"
-	echo "push sources:      ./t-dance push--do-this-only-from-master"
+	echo "push sources:      ./t-dance push--do-this-only-from-main"
 	echo "debug usage:       ./t-dance {create-po-sources|create-md|reset-md}"
 	echo "to push a single language, copy the files to translations/delta-chat-pages.<file>po/<lang>.po and call: tx push -t -l <lang>"
 fi

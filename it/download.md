@@ -4,16 +4,10 @@ lang: it
 downloads: true
 ---
 
-Requisiti minimi:
-Android 4.1 Jelly Bean
-o iOS 12, iPhone 5s o iPad 5/Air/Mini 2
-o Windows 10, macOS 10.15 Catalina, Ubuntu 18.04, Fedora 29 o Debian 10
-o un sistema compatibile.
-
 Le versioni Desktop non necessitano che Delta Chat sia installato su un telefono.
 
 
-## Registri delle modifiche e altro {#registri delle modifiche}
+## Registri delle Modifiche e Altro {#changelogs}
 
 - Registri delle modifiche: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
@@ -22,7 +16,7 @@ Le versioni Desktop non necessitano che Delta Chat sia installato su un telefono
 
 - [Client Alternativi](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
 
-- [Database dei Fornitori](https://provviders.delta.chat/)
+- [Database dei Fornitori](https://providers.delta.chat/)
 
 - [Verifica Download](verifica-download)
 

@@ -33,7 +33,7 @@ auch wenn der Empfänger Delta Chat nicht benutzt.
 - Anonyme Chat-Profile mit schnellen, sicheren und interoperablen [Chatmail-Servern](https://delta.chat/chatmail),
 die sofortige Push-Benachrichtigungen für iOS- und Android-Geräte bieten. 
 
-- Durchgängige [Multi-Profil](#multiple-accounts) und Multi-Geräte-Unterstützung auf allen Plattformen. 
+- Durchgängige [Multi-Profil-](#multiple-accounts) und Multi-Geräte-Unterstützung auf allen Plattformen. 
 
 - Interaktive [Webanwendungen in Chats](https://webxdc.org/apps) für Spiele und für die Zusammenarbeit
 
@@ -111,7 +111,7 @@ Verwenden Sie diese Tools, um Ihre Chats zu organisieren:
 
 - Wenn ein archivierter Chat eine neue Nachricht erhält, wird er, sofern er nicht stummgeschaltet ist, **wieder in die normale Chatliste verschoben**.  **Stummgeschaltete Chats bleiben archiviert**, bis Sie sie manuell aus dem Archiv entfernen.
 
-Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwenden Sie das Chatmenü (Android/Desktop) oder wischen Sie nach links (iOS); zum Stummschalten, verwenden Sie das Chatmenü (Android/Desktop) oder das Chatprofil (iOS).
+Um die Funktionen zu nutzen, lang auf einen Chat in der Chatliste tippen oder den Chat mit der rechten Maustaste anklicken.
 
 
 ### Was bedeutet der grüne Punkt?
@@ -121,7 +121,7 @@ Zum Archivieren oder Anheften, tippen Sie lange auf den Chat  (Android), verwend
   - entweder weil der Kontakt Ihnen direkt eine Nachricht gesendet hat,
   - weil der Kontakt etwas an eine Gruppe geschrieben hat, in der sie beide Mitglied sind,
   - weil der Kontakt Ihnen eine Lesebestätigung für eine von Ihnen geschriebene Nachricht gesendet hat
-  - oder weil der Kontakt Daten mithilfe einer [Webxdc App](#webxdc) an Ihre Delta Chat-App gesendet hat.
+  - oder weil der Kontakt Daten mithilfe einer [Webxdc-App](#webxdc) an Ihre Delta-Chat-App gesendet hat.
 - Dies ist also kein Echtzeit-Online-Status - und wenn jemand nicht sofort antwortet, obwohl er online zu sein scheint, machen Sie sich keine Sorgen und geben Sie ihm etwas Raum. ;-)
 - Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
 
@@ -221,7 +221,7 @@ Push-Benachrichtigungen funktionieren mit allen [Chatmail](https://delta.chat/ch
 
 - iOS-Geräten, durch die Integration mit den Apple-Push-Diensten.
 
-- Android-Geräten, durch die Integration des Google FCM Push-Dienste,
+- Android-Geräten, durch die Integration des Google-FCM-Push-Dienstes,
 auch auf Geräten, die [microG](https://microg.org)
 anstelle von proprietärem Google-Code auf dem Telefon.
 
@@ -240,19 +240,13 @@ keine Daten an Apple weitergibt, die Apple nicht bereits hat.
 
 ### Sind Push-Benachrichtigungen auf Android-Geräten aktiviert/erforderlich? {#android-push}
 
-Wenn ein „Push-Service“ verfügbar ist, aktiviert Delta Chat Push-Benachrichtigungen
+Wenn ein „Push-Service“ verfügbar ist, aktiviert Delta Chat Push-Benachrichtigungen,
 um eine sofortige Nachrichtenzustellung für alle Chatmail-Benutzer zu erreichen.
 Wenn Sie einen klassischen E-Mail-Anbieter anstelle von [chatmail](https://delta.chat/chatmail) Servern verwenden,
 sind Push-Benachrichtigungen nicht verfügbar.
 
 In den Delta-Chat-Einstellungen „Benachrichtigungen“ für „Sofortige Benachrichtigungen“
 können Sie die folgenden Einstellungen ändern, die alle Chat-Profile betreffen:
-
-- Push-Dienst verwenden: die Standardeinstellung bei Verwendung von Chatmail-Profilen und wenn
-ein Push-Service auf dem Telefon verfügbar ist.
-Wenn Sie sowohl Chatmail- als auch klassische E-Mail-Profile haben,
-dann funktioniert die Push-Benachrichtigung nur
-für eingehende Nachrichten auf Chatmail-Profilen.
 
 - Hintergrundverbindung verwenden: Wenn Sie keinen Push-Dienst verwenden, können Sie die „Batterie-Optimierung“ für Delta Chat deaktivieren, damit Nachrichten im Hintergrund abgerufen werden können. Dabei kann es jedoch zu Verzögerungen von Minuten bis Stunden kommen.
 Einige Android-Hersteller schränken Apps sogar vollständig ein
@@ -265,7 +259,7 @@ Beide „Hintergrundverbindung“-Optionen sind energiesparend und
 können sicher ausprobiert werden, wenn Sie feststellen, dass Nachrichten nur mit großer Verzögerung ankommen.
 
 
-### Wie privat sind Delta Chat Push-Benachrichtigungen? {#privacy-notifications}
+### Wie privat sind Delta-Chat-Push-Benachrichtigungen? {#privacy-notifications}
 
 Delta Chats Vorgehensweise, Push-Benachrichtigungen zu verwenden, vermeidet die Weitergabe privater Informationen.
 Es werden keine E-Mail- oder IP-Adressen oder Nachrichteninhalte (auch nicht verschlüsselt)
@@ -273,14 +267,13 @@ an irgendein System, das an der Zustellung von Push-Benachrichtigungen beteiligt
 
 So verwendet Delta Chat Push-Benachrichtigungen:
 
-- Eine Delta-Chat-Anwendung erhält lokal ein „Geräte-Token“ (eine zufällige Zahl) und speichert es
+- Eine Delta-Chat-Anwendung erhält lokal ein „Geräte-Token“, verschlüsselt und speichert es
 auf dem [Chatmail](https://delta.chat/chatmail)-Server.
 
-- Wenn ein [Chatmail](https://delta.chat/chatmail)-Server eine E-Mail für einen Delta Chat-Benutzer erhält
-erhält, leitet er den „Geräte-Token“ an den zentralen Delta-Chat-Benachrichtigungs-Proxy weiter.
+- Wenn ein [Chatmail](https://delta.chat/chatmail)-Server eine E-Mail für einen Delta-Chat-Benutzer erhält
+erhält, leitet er das verschlüsselte Geräte-Token an den zentralen Delta-Chat-Benachrichtigungs-Proxy weiter.
 
-- Der zentrale Delta-Chat-Benachrichtigungs-Proxy leitet
-das „Geräte-Token“ an den jeweiligen Push-Dienst (Apple, Google, etc.) weiter,
+- Der zentrale Delta-Chat-Benachrichtigungs-Proxy entschlüsselt das Geräte-Token und leitet es an den jeweiligen Push-Dienst (Apple, Google, etc.) weiter,
 ohne jemals die IP- oder E-Mail-Adresse des Delta-Chat-Benutzers zu kennen.
 
 - Der zentrale Push-Dienst (Apple, Google, etc.)
@@ -289,13 +282,15 @@ um im Hintergrund nach neuen Nachrichten zu suchen.
 Der zentrale Push-Dienst weiß nichts über die Chatmail- oder E-Mail-Adresse des Geräts, das er aufweckt und sieht nie eine E-Mail-Adresse (Absender oder Empfänger)
 und auch nie den Inhalt einer Nachricht (auch nicht in verschlüsselter Form).
 
-Stand Mai 2024 kennen die Chatmail-Server die Geräte-Token,
-aber wir planen, diese Informationen an den Benachrichtigungs-Proxy zu verschlüsseln
-zu verschlüsseln, so dass der Chatmail-Server niemals das „Geräte-Token“ erfährt.
 
 Der zentrale Delta-Chat-Benachrichtigungs-Proxy [ist klein und vollständig in Rust implementiert](https://github.com/deltachat/notifiers)
 und vergisst die Geräte-Token, sobald Apple/Google/etc. sie verarbeitet hat,
 normalerweise innerhalb weniger Millisekunden.
+
+Beachten Sie, dass das Geräte-Token zwischen Anwendungen und dem Benachrichtigungs-Proxy verschlüsselt,
+aber nicht signiert ist. 
+Der Benachrichtigungs-Proxy sieht also niemals E-Mail-Adressen, IP-Adressen oder
+irgendwelche kryptografischen Identitätsinformationen, die mit dem Gerät oder dem Geräte-Token eines Nutzers verbunden sind. 
 
 Aufgrund dieses umfassenden Datenschutzkonzepts würde sogar die Beschlagnahmung eines Chatmail-Servers,
 oder die vollständige Beschlagnahmung des zentralen Delta-Chat-Benachrichtigungsproxys
@@ -322,7 +317,7 @@ Willkommen bei der Macht des interoperablen und massiven Chatmail- und E-Mail-Sy
 [Autocrypt](https://autocrypt.org) wird verwendet, um automatisch
 eine Ende-zu-Ende-Verschlüsselung mit Kontakten und Gruppenchats herzustellen.
 Autocrypt verwendet eine begrenzte und [sichere Untermenge des OpenPGP-Standards](#openpgp-secure).
-Ende-zu-Ende verschlüsselte Nachrichten sind mit einem Vorhängeschloss gekennzeichnet <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>
+Ende-zu-Ende-verschlüsselte Nachrichten sind mit einem Vorhängeschloss gekennzeichnet <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>
 
 [Secure-Join-Protokolle](https://securejoin.delta.chat/en/latest/new.html)
 werden für Chats mit garantierter Ende-zu-Ende-Verschlüsselung verwendet, 
@@ -331,7 +326,7 @@ Chats, die mit einem grünen Häkchen markiert sind
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
 garantieren Ende-zu-Ende-verschlüsselte Nachrichten.
 
-### Wie kann ich wissen, ob Nachrichten Ende-zu-Ende verschlüsselt sind? {#whene2e}
+### Wie kann ich wissen, ob Nachrichten Ende-zu-Ende-verschlüsselt sind? {#whene2e}
 
 Ende-zu-Ende-verschlüsselten Nachrichten sind mit einem Vorhängeschloss versehen:
 
@@ -399,7 +394,7 @@ Das Einführen geschieht automatisch, wenn Sie Mitglieder zu Gruppen hinzufügen
 Wer einen Kontakt zu einer Gruppe mit grünem Häkchen hinzufügt, wird zum Einführenden 
 für die Mitglieder, die noch nichts von dem hinzugefügten Kontakt wussten.
 In einem Kontaktprofil können Sie wiederholt auf den Text "Eingeführt von ..." tippen
-bis du zu demjenigen gelangst, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) gemacht haben.
+bis Sie zu demjenigen gelangen, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) gemacht haben.
 
 Beachten Sie, dass Sie in einem Kontaktprofil unter Umständen Einführende sehen und antippen können, aber kein grünes Häkchen im Profiltitel vorhanden ist. 
 Dies bedeutet normalerweise, dass der Kontakt ["eine Nachricht von einem anderen Gerät gesendet hat"](#nocryptanymore).
@@ -425,7 +420,7 @@ auch wenn der Kontakt dort Mitglied ist.
 **Ihr Kontakt verwendet Delta Chat auf einem zweiten Gerät (Smartphone oder Laptop)**
 
 Wenn Ihr Kontakt ein weiteres Gerät mit Delta Chat eingerichtet hat,
-sollte das Konto von dem neuen Gerät entfernen werden und [als zweites Gerät, wie hier beschrieben](#multiclient) erneut hinzugefügt werden.
+sollte das Konto von dem neuen Gerät entfernen werden und [als zweites Gerät, wie hier beschrieben](#multiclient), erneut hinzugefügt werden.
 Sobald sie sich danach schreiben, wird die Warnung verschwinden
 und die Verschlüsselung ist mit beiden Geräten Ihres Kontakts garantiert.
 
@@ -490,7 +485,7 @@ und _GnuPG (GPG)_, einem Kommandozeilenprogramm, das OpenPGP implementiert, zu u
 In vielen öffentlichen Kritiken zu OpenPGP wird GnuPG diskutiert, das Delta Chat nie verwendet hat. 
 Delta Chat verwendet stattdessen die OpenPGP-Rust-Implementierung [rPGP](https://github.com/rpgp/rpgp),
 die als [ein unabhängiges "pgp"-Paket](https://crates.io/crates/pgp),
-verfügbar und [2019 sicherheitsgeprüft](https://delta.chat/assets/blog/2019-first-security-review.pdf) wurde.
+verfügbar ist und [2019 und 2024 sicherheitsgeprüft](#security-audits) wurde.
 
 Unser Ziel ist, zusammen mit anderen OpenPGP-Implementierungen, 
 die Sicherheitseigenschaften durch das im Sommer 2023 angenommene
@@ -527,7 +522,7 @@ wenn dieser falsch ist.
 Delta Chat war auch nie anfällig für den EFAIL-Angriff "Direct Exfiltration",
 da nur `multipart/encrypted` Nachrichten entschlüsselt werden,
 die genau einen verschlüsselten und signierten Teil enthalten;
-so wie in der Autocrypt Level 1 Spezifikation definiert.
+so wie in der Autocrypt-Level-1-Spezifikation definiert.
 
 
 ### Wird eine Nachricht im Klartext gesendet, wenn keine Ende-zu-Ende-Verschlüsselung verfügbar ist? {#tls}
@@ -576,7 +571,7 @@ Nachrichten an die Geräte der Empfänger weiterzuleiten und zuzustellen.
 
 ### Wie schützt man Metadaten und Kontakte, wenn ein Gerät beschlagnahmt wird? {#device-seizure}
 
-Sowohl zum Schutz vor E-Mail-Servern, die Metadaten sammeln 
+Sowohl zum Schutz vor E-Mail-Servern, die Metadaten sammeln, 
 als auch gegen die Gefahr der Beschlagnahmung von Geräten
 empfehlen wir die Verwendung einer für Delta Chat optimierten [E-Mail-Server-Instanz](https://delta.chat/serverguide), um pseudonym-temporäre Konten durch Scannen von QR-Codes zu erstellen.
 Beachten Sie, dass Delta-Chat-Apps auf allen Plattformen mehrere Konten unterstützen. 
@@ -608,7 +603,7 @@ ohne Ende-zu-Ende-Unterstützung verwendet.
 ### Warum sehe ich unverschlüsselte Nachrichten?
 
 Wenn ein Kontakt keine Autocrypt-fähige App verwendet,
-werden alle Nachrichten, die diesen Kontakt betreffen (in Gruppen- oder Direkt-Chats)
+werden alle Nachrichten, die diesen Kontakt betreffen (in Gruppen- oder Direkt-Chats),
 nicht Ende-zu-Ende-verschlüsselt und zeigen daher kein "Vorhängeschloss".
 Beachten Sie, auch Kontakte, die primär Delta Chat verwenden,
 können gleichzeitig auch nicht-Autocrypt-fähige Apps verwenden.
@@ -618,7 +613,7 @@ um zu verhindern, dass unlesbare Nachrichten auf der Seite Ihrer Kontakte ankomm
 ### Wie kann ich einen Ende-zu-Ende-verschlüsselten Chat mit einem Delta-Chat-Kontakt führen, der manchmal Webmail oder eine andere E-Mail-Anwendung ohne Autocrypt verwendet?
 
 Wenn Sie einen sicheren Ende-zu-Ende-verschlüsselten Chat mit einem Kontakt benötigen, 
-der sowohl Delta Chat als auch nicht-Autocrypt-Anwendungen nutzt,
+der sowohl Delta Chat als auch Nicht-Autocrypt-Anwendungen nutzt,
 können Sie eine [garantierte Ende-zu-Ende-Verschlüsselung](#howtoe2ee) einrichten, mit einer Gruppe mit Ihnen beiden als Mitgliedern. 
 In diesem Gruppenchat werden alle Nachrichten Ende-zu-Ende verschlüsselt werdejn,
 auch wenn im Direkt-Chat eine
@@ -627,10 +622,10 @@ auch wenn im Direkt-Chat eine
 
 ### Wie kann ich Ende-zu-Ende-Verschlüsselung und Löschen von Nachrichten sicherstellen?
 
-Der beste Weg, um sicherzustellen, dass alle Nachrichten Ende-zu-Ende verschlüsselt sind
+Der beste Weg, um sicherzustellen, dass alle Nachrichten Ende-zu-Ende-verschlüsselt sind
 und Metadaten so schnell wie möglich gelöscht werden,
 ist [die Verwendung von Chats mit garantierter Ende-zu-Ende-Verschlüsselung](#howtoe2ee)
-und die Aktivierung von [Verschwindende Nachrichten](#ephemeralmsgs).
+und die Aktivierung von [verschwindenden Nachrichten](#ephemeralmsgs).
 
 Garantierte Ende-zu-Ende-Verschlüsselung schützt vor [MITM-Angriffen](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 und das Aktivieren von "Verschwindende Nachrichten" löscht die Nachrichten
@@ -642,7 +637,7 @@ Wenn Sie die Nachrichten auf Ihrem Gerät, aber nicht auf dem Server benötigen,
 ### Unterstützt Delta Chat "Perfect Forward Secrecy"? {#pfs}
 
 Nein, Delta Chat unterstützt kein "Perfect Forward Secrecy" (PFS).
-Das bedeutet, dass wenn Ihr privater Delta-Chat-Schlüssel durchgesickert ist,
+Das bedeutet, wenn Ihr privater Delta-Chat-Schlüssel durchgesickert ist
 und jemand Ihre vorherigen In-Transit-Nachrichten gesammelt hat,
 können diese mit dem veröffentlichtem Schlüssel entschlüsselt werden.
 
@@ -653,7 +648,7 @@ Es ist möglich, dass Delta Chat eine Tages "Perfect Forward Secrecy" unterstüt
 OpenPGP ist nur ein Container für verschlüsselte Nachrichten mit dem
 die Verwaltung der Schlüssel (und damit die Schlüsselrotation oder das Schlüssel-"Ratcheting") 
 auf flexible Weise organisiert werden kann. 
-Siehe [Seqouia's PFS-Prototyp](https://gitlab.com/sequoia-pgp/openpgp-dr)
+Siehe [Seqouias PFS-Prototyp](https://gitlab.com/sequoia-pgp/openpgp-dr)
 für bestehende Experimente in der OpenPGP-Community.
 
 
@@ -671,9 +666,9 @@ aber irgendwie nicht Ihre Nachrichten - gleichzeitig aber eine vollständige Auf
 vergangenen verschlüsselten Nachrichten hat.
 
 In jedem Fall verwendet die Ende-zu-Ende-Verschlüsselung von Delta Chat eine [sichere Untermenge von OpenPGP](#openpgp-secure)
-das [unabhängig sicherheitsgeprüft] wurde (../assets/blog/2019-first-security-review.pdf).
+das [unabhängig sicherheitsgeprüft](../assets/blog/2019-first-security-review.pdf) wurde.
 
-### Kann ich meinen existierenden privaten Schlüssel weiter verwenden?
+### Kann ich meinen existierenden privaten Schlüssel weiter verwenden? {#importkey}
 
 Ja.
 The best way is to send an Autocrypt Setup Message from the other e-mail client.
@@ -701,20 +696,30 @@ Für andere Programme können Sie online eine Lösung finden.
 
 ### Wurde Delta Chat unabhängig auf Sicherheitslücken geprüft? {#security-audits}
 
-Das Delta-Chat-Projekt wurde in den letzten Jahren fünf unabhängigen Sicherheitsprüfungen und -analysen unterzogen:
+Ja, mehrfach.
+Das Delta-Chat-Projekt wird kontinuierlich unabhängigen Sicherheitsaudits und -analysen unterzogen:
+
+- Im Dezember 2024 fand eine [von NLNET in Auftrag gegebene Bewertung von rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) durch [Radically Open Security](https://www.radicallyopensecurity.com/) statt.
+rPGP wird für die [OpenPGP](https://openpgp.org)-Ende-zu-Ende-Verschlüsselung verwendet. 
+Im Zusammenhang mit den Ergebnissen dieser Prüfung wurden zwei Hinweise veröffentlicht:
+
+  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+
+  Die in diesen Hinweisen beschriebenen Probleme wurden behoben und sind Bestandteil der Delta Chat Veröffentlichungen in allen Appstores seit Dezember 2024.
 
 - Im März 2024 erhielten wir von der Forschungsgruppe "Applied Cryptography" der ETH Zürich eine umfassende Sicherheitsanalyse und haben alle aufgeworfenen Fragen adressiert. 
-Weitere Informationen finden Sie in unserem Blogbeitrag über [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin). 
+Weitere Informationen finden Sie in unserem Blogbeitrag über [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) und in der hinterher publizierten [Kryptografischen Analyse von Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
 
-- Im April 2023 haben wir Sicherheits- und Datenschutzprobleme mit den "In Chats geteilten Apps"-Feature behoben, die mit Fehlern beim Sandboxing, insbesondere mit Chromium zusammenhängen. Wir haben daraufhin eine unabhängige Sicherheitsprüfung von Cure53 durchführen lassen, und alle gefundenen Probleme wurden mit den im April 2023 veröffentlichten 1.36 Releases behoben. Siehe [hier für die vollständige Hintergrundgeschichte](https://delta.chat/en/2023-05-22-webxdc-security).
+- Im April 2023 haben wir Sicherheits- und Datenschutzprobleme mit dem "In Chats geteilten Apps"-Feature behoben, die mit Fehlern beim Sandboxing, insbesondere mit Chromium zusammenhängen. Wir haben daraufhin eine unabhängige Sicherheitsprüfung von Cure53 durchführen lassen, und alle gefundenen Probleme wurden mit den im April 2023 veröffentlichten 1.36 Releases behoben. Siehe [hier für die vollständige Hintergrundgeschichte](https://delta.chat/en/2023-05-22-webxdc-security).
 
 - Im März 2023 analysierte [Cure53](https://cure53.de) sowohl die Transportverschlüsselung von Delta Chats Netzwerkverbindungen als auch das reproduzierbare Mailserver-Setup wie [auf dieser Seite empfohlen](serverguide). Sie können mehr über das Audit [in unserem Blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) lesen oder Sie lesen den [vollständigen Bericht hier](../assets/blog/MER-01-report.pdf).
 
 - Im Jahr 2020 analysierte [Include Security](https://includesecurity.com) Delta Chats Rust [core](https://github.com/deltachat/deltachat-core-rust/), [IMAP](https://github.com/async-email/async-imap),[SMTP](https://github.com/async-email/async-smtp), und [TLS](https://github.com/async-email/async-native-tls) Bibliotheken.
 Es wurden keine kritischen oder hochgradig gefährlichen Probleme gefunden. Der Bericht wies auf einige Schwachstellen mittlerer Schwere hin - sie stellen für sich genommen keine Bedrohung für Delta-Chat-Benutzer dar, da sie von der Umgebung abhängen, in der Delta Chat verwendet wird. Aus Gründen der Benutzerfreundlichkeit und der Kompatibilität können wir nicht alle Schwachstellen beseitigen und haben beschlossen, Sicherheitsempfehlungen für bedrohte Benutzer zu geben. Sie können den [vollständigen Bericht hier](../assets/blog/2020-second-security-review.pdf) lesen.
 
-- Im Jahr 2019 analysierte [Include Security](https://includesecurity.com) die von Delta Chat verwendeten [PGP](https://github.com/rpgp/rpgp) und [RSA](https://github.com/RustCrypto/RSA) Bibliotheken.
-Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schweregrad, die wir anschließend behoben haben. Außerdem wurden ein mittelschweres und einige weniger schwerwiegende Probleme gefunden, aber es gab keine Möglichkeit, diese Schwachstellen in der Delta-Chat-Implementierung auszunutzen. Einige dieser Schwachstellen haben wir dennoch nach Abschluss des Audits behoben. Sie können den [vollständigen Bericht hier] lesen (../assets/blog/2019-first-security-review.pdf).
+- Im Jahr 2019 analysierte [Include Security](https://includesecurity.com) die von Delta Chat verwendeten [PGP-](https://github.com/rpgp/rpgp) und [RSA-](https://github.com/RustCrypto/RSA) Bibliotheken.
+Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schweregrad, die wir anschließend behoben haben. Außerdem wurden ein mittelschweres und einige weniger schwerwiegende Probleme gefunden, aber es gab keine Möglichkeit, diese Schwachstellen in der Delta-Chat-Implementierung auszunutzen. Einige dieser Schwachstellen haben wir dennoch nach Abschluss des Audits behoben. Sie können den [vollständigen Bericht hier](../assets/blog/2019-first-security-review.pdf) lesen.
 
 
 
@@ -745,6 +750,10 @@ Im Gegensatz zu vielen anderen Messengern, sind nach erfolgreicher Übertragung 
 und sicherstellen, dass **Privates Netzwerk** als "Netzwerkprofiltyp" ausgewählt ist.
 (nach der Übertragung kann wieder der ursprüngliche Wert verwendet werden)
 
+- Auf **iOS**, sicherstellen, dass „Systemeinstellungen / Apps / Delta Chat / **Lokales Netzwerk**“ eingeschaltet ist
+
+- Auf **macOS,** „Systemeinstellungen / Datenschutz & Sicherheit / **Lokales Netzwerk** / Delta Chat“ aktivieren
+
 - Ihr System verfügt möglicherweise über eine "Personal Firewall", diese sind dafür bekannt, Probleme zu verursachen (insbesondere bei Windows). **Deaktivieren Sie die Personal Firewall** für Delta Chat auf beiden Seiten und versuchen Sie es erneut
 
 - In **Gastnetzwerken** z.B. der **Fritz!Box**, können Geräte möglicherweise nicht miteinander kommunizieren.
@@ -766,18 +775,18 @@ Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben be
 - Auf dem alten Gerät gehen Sie zu "Einstellungen → Chats und Medien → Chats auf externem Speicher speichern". Geben Sie Ihre PIN, Ihr Muster oder Ihr Passwort zum Entsperren des Bildschirms ein. Anschließend können Sie auf "Backup starten" klicken. Dadurch wird die Backup-Datei auf Ihrem Gerät gespeichert. Jetzt müssen Sie sie irgendwie auf das andere Gerät übertragen.
 - Auf dem neuen Gerät, auf dem Anmeldebildschirm, wählen Sie, anstatt sich bei Ihrem E-Mail-Konto anzumelden, "Wiederherstellen aus Backup". Nach dem Import sollten Ihre Unterhaltungen, Verschlüsselungsschlüssel und Medien auf das neue Gerät kopiert sein.
   - **Wenn Sie iOS verwenden** und auf Schwierigkeiten stoßen, hilft Ihnen vielleicht [diese Anleitung](https://support.delta.chat/t/import-backup-to-ios/1628).
-- Sie sind nun synchronisiert und können beide Geräte zum Senden und Empfangen von Ende-zu-Ende verschlüsselten Nachrichten mit Ihren Kommunikationspartnern verwenden.
+- Sie sind nun synchronisiert und können beide Geräte zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten-Nachrichten mit Ihren Kommunikationspartnern verwenden.
 
-### Gibt es Pläne für eine Delta Chat Web-Anwendung?
+### Gibt es Pläne für eine Delta-Chat-Web-Anwendung?
 
 - Es gibt keine direkten Pläne, aber einige vorläufige Gedanken.
-- Es gibt 2-3 Möglichkeiten, einen Delta Chat Web-Client einzuführen, aber sie bedeuten alle immense Arbeit. Im Moment fokussieren wir uns darauf, stabile native Apps in den Appstores (Google Play/iOS/Windows/macOS/Linux repositories) anzubieten. 
-- Sollten Sie einen Web-Client benötigen, weil Sie auf Ihrem Arbeitsrechner keine Software installieren dürfen, können Sie den Windows Desktop-Client bzw. Applmage für Linux nutzen. Sie finden diese unter [get.delta.chat](https://get.delta.chat).
+- Es gibt 2-3 Möglichkeiten, einen Delta-Chat-Web-Client einzuführen, aber sie bedeuten alle immense Arbeit. Im Moment fokussieren wir uns darauf, stabile native Apps in den Appstores (Google Play/iOS/Windows/macOS/Linux repositories) anzubieten. 
+- Sollten Sie einen Web-Client benötigen, weil Sie auf Ihrem Arbeitsrechner keine Software installieren dürfen, können Sie den Windows-Desktop-Client bzw. Applmage für Linux nutzen. Sie finden diese unter [get.delta.chat](https://get.delta.chat).
 
 
-## Webxdc Apps {#webxdc}
+## Webxdc-Apps {#webxdc}
 
-In Delta Chat können Sie [Webxdc Apps](https://webxdc.org), Anhänge mit der Dateierweiterung ".xdc" teilen. Sie können sehr unterschiedliche Dinge tun und machen Delta Chat zu einem wirklich erweiterbaren Messenger. 
+In Delta Chat können Sie [Webxdc-Apps](https://webxdc.org), Anhänge mit der Dateierweiterung ".xdc" teilen. Sie können sehr unterschiedliche Dinge tun und machen Delta Chat zu einem wirklich erweiterbaren Messenger. 
 
 
 ### Wie privat sind Webxdc Apps?
@@ -790,7 +799,8 @@ In Delta Chat können Sie [Webxdc Apps](https://webxdc.org), Anhänge mit der Da
 
 ### Wo bekomme ich Webxdc Apps?
 
-- Grundsätzlich kann jeder Webxdc Apps mit anderen ohne Einschränkungen teilen.
+- Grundsätzlich kann jeder Webxdc-Apps mit anderen ohne Einschränkungen teilen.
+- Von [webxdc.org/apps](https://webxdc.org/apps/).
 - Sie können ['hallo' an xstore@testrun.org senden](https://delta.chat/en/2023-08-11-xstore)
   um einen experimentellen Webxdc Appstore zu sehen.
   Alle Apps dort sind Open Source und umsonst.
@@ -801,7 +811,7 @@ In Delta Chat können Sie [Webxdc Apps](https://webxdc.org), Anhänge mit der Da
 ### Wie kann ich meine eigenen Webxdc Apps erstellen?
 
 - Webxdc Apps sind nur ZIP-Dateien, die HTML-, CSS- und JavaScript-Code enthalten.
-- Sie können die [Hello World-Beispiel-App](https://github.com/webxdc/hello) erweitern, um loszulegen.
+- Sie können die [Hello-World-Beispiel-App](https://github.com/webxdc/hello) erweitern, um loszulegen.
 - Alles andere, was Sie wissen müssen, steht in der [Dokumentation](https://docs.webxdc.org/).
 - Wenn Sie Fragen haben, können Sie andere mit Erfahrung im [Delta-Chat-Forum](https://support.delta.chat/c/webxdc/20) fragen.
 
@@ -836,14 +846,6 @@ Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ide
 - Um die Karte und die Standorte anderer anzuzeigen, müssen Sie die Funktion in den erweiterten Einstellungen aktivieren.
 - Diese Funktion teilt Ihren Standort mit niemandem außer Ihren Chat-Partnern. Kartendaten werden von  [OpenStreetMap](https://openstreetmap.org) heruntergeladen.
 - Auf dem Desktop kann das Betriebssystem Ihren Standort normalerweise nicht bestimmen. Stattdessen können Sie mit der rechten Maustaste auf die Karte klicken und einen Ort beschreiben, der als Nachricht an den Chat gesendet wird, aber auch auf der Karte erscheint.
-
-
-### Was schützt die experimentelle Datenbankverschlüsselung tatsächlich?
-
-- Im Moment ist die Datenbankverschlüsselung noch sehr experimentell. Verlassen Sie sich zum Schutz nicht darauf, sondern nutzen Sie zusätzlich die Verschlüsselung Ihres Betriebssystems, sofern vorhanden.
-- Die Datenbankverschlüsselung verschlüsselt noch nicht die Blobs, sondern nur die Zeilen und Spalten der Datenbank. Dies bedeutet mehr oder weniger, dass Ihre Nachrichten sicher sind, aber nicht Ihre Anhänge.
-- Für iOS und Android werden die Verschlüsselungsschlüssel im Systemschlüsselbund gespeichert. Das bedeutet, dass die Verschlüsselung so sicher ist wie das Betriebssystem, auf dem sie ausgeführt wird.
-- Der Delta-Chat-Desktop-Client bietet noch keine Datenbankverschlüsselung, da es keine Standardmethode zum Speichern der Verschlüsselungsschlüssel auf den verschiedenen unterstützten Plattformen gibt.
 
 
 ### Warum kann ich mich dafür entscheiden, nur den DeltaChat-Ordner zu beobachten?
@@ -925,8 +927,6 @@ Je nach verwendetem Betriebssystem werden Sie möglicherweise aufgefordert, der 
 
 Genau wie auch bei anderen E-Mail-Programmen (z. B. Thunderbird, K9-Mail oder Outlook) benötigt Delta Chat das Passwort, um E-Mails versenden zu können. Das Passwort wird nur auf Ihrem Gerät gespeichert und bei der Anmeldung an Ihren E-Mail-Anbieter gesendet.
 
-Wenn Sie einen E-Mail-Anbieter wie gmail.com oder yandex.ru nutzen, der OAuth2 unterstützt, wird Ihr Passwort nicht auf Ihrem Gerät gespeichert. In diesem Fall wird nur ein Zugriffstoken genutzt.
-
 Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) einsehen und sich davon überzeugen, dass Ihre Zugangsdaten sicher gehandhabt werden. Wir freuen uns über Feedback, das unsere App sicherer für all unsere NutzerInnen macht.
 
 
@@ -988,21 +988,53 @@ Einige BenutzerInnen verwenden Delta Chat als reguläres E-Mail-Programm und mö
 
 - Ja und Nein.
 - Nein, Sie können sich nicht mit Delta Chat in ein Protonmail-, Tutanota- oder Criptext-Konto einloggen, da diese keinen Standard-E-Mail-Empfang über IMAP anbieten.
-- Ja, Sie können Delta Chat verwenden, um Nachrichten an Personen zu senden, die Protonmail, Tutanota oder Criptext verwenden. Diese Nachrichten werden jedoch nicht ende-zu-ende-verschlüsselt, da diese Anbieter keine mit dem [Autocrypt](https://autocrypt.org/)-Standard kompatible Verschlüsselung verwenden.
+- Ja, Sie können Delta Chat verwenden, um Nachrichten an Personen zu senden, die Protonmail, Tutanota oder Criptext verwenden. Diese Nachrichten werden jedoch nicht Ende-zu-Ende-verschlüsselt, da diese Anbieter keine mit dem [Autocrypt](https://autocrypt.org/)-Standard kompatible Verschlüsselung verwenden.
 - Delta Chat kann Ende-zu-Ende-Verschlüsselung über jeden E-Mail-Anbieter mit jeder
 [Autocrypt-fähige E-Mail-Anwendung](https://autocrypt.org/dev-status.html) herstellen
 
 
-### Wie kann ich mein Konto löschen?
+### Wie kann ich mein Konto löschen? {#remove-account}
 
-Da Sie ein E-Mail-Konto für Delta Chat verwenden, hängt von Ihrem E-Mail-Anbieter ab, wie Sie Ihr Konto löschen können. Wir haben keine Kontrolle über Ihr E-Mail-Konto, daher können wir Ihnen dabei leider nicht helfen.
+Wenn Sie ein Standard-Profil verwenden, können Sie die Anwendung einfach deinstallieren.
+Dies löst automatisch die Löschung aller zugehörigen Account-Daten auf dem Chatmail-Server aus.
+Weitere Informationen finden Sie unter [nine.testrun.org](https://nine.testrun.org/info.html#account-deletion) für den Standard-Onboarding-Server,
+oder die entsprechende Seite des von Ihnen gewählten [Chatmail-Server](https://delta.chat/chatmail).
 
-Wenn Sie das Konto behalten, aber Delta Chat deinstallieren möchten, ist es ratsam, aktive Gruppen zu verlassen, bevor Sie Delta Chat deinstallieren.
+Wenn Sie Ihr Profil auf mehreren Geräten eingerichtet haben müssen Sie es von allen Geräten entfernen.
+
+Wenn Sie mehr als ein Account verwenden,
+aber nicht alle loswerden wollen,können Sie es im Menü „Profilwechsel“ (auf Android und iOS) entfernen,
+oder in der Seitenleiste mit einem Rechtsklick (im Desktop-Client).
+
+Konten bei [klassischen E-Mail-Anbietern](https://providers.delta.chat)
+werden nicht automatisch gelöscht;
+wie Sie Ihr Konto löschen können, hängt von Ihrem E-Mail-Anbieter ab. Wir haben keine Kontrolle über E-Mail-Konten bei diesen Anbietern.
+
+Wenn Sie ein klassisches E-Mail-Konto weiterhin mit anderen Anwendungen verwenden möchten,
+aber Delta Chat deinstallieren,
+ist es ratsam, jeden Gruppenchat zu verlassen, bevor Sie Delta Chat deinstallieren.
+Andernfalls könnten Sie unverschlüsselte Nachrichten aus diesen Gruppenchats erhalten.
 
 
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 
 - Siehe hierzu [in Delta Chat genutzte Standards]({% include standards-url %}).
+
+
+
+###  Wo können meine Freunde Delta Chat finden?
+
+Delta Chat ist für alle großen und einige kleinere Plattformen verfügbar:
+
+- Die **offizielle Website**, <https://delta.chat/download> zeigt alle Optionen im Detail
+
+-  Falls nicht verfügbar, verwenden Sie den **Mirror** auf <https://deltachat.github.io/deltachat-pages>
+
+- Öffnen Sie einen der folgenden **App-Stores und suchen Sie nach „Delta Chat“:** Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS und macOS App Store, Microsoft Store
+
+- Im **Paketmanager** Ihrer Linux-Distribution nachschauen
+
+ - **Android-APKs** sind auch auf <https://github.com/deltachat/deltachat-android/releases> verfügbar.
 
 
 ### Wie wird Delta Chat finanziert?
@@ -1019,11 +1051,24 @@ Die zweite Förderung 2019/2020 (~$300K) half uns bei der  Erstellung der iOS-Ve
 
 - Die [NLnet-Stiftung](https://nlnet.nl/) bewilligte 2019/2020 46K  EUR für die Fertigstellung von Rust-/Python-Bindungs und die Einrichtung eines Chat-Bot-Ökosystems.
 
-- Im Jahr 2021 erhielten wir weitere EU-Mittel für zwei "Next-Generation-Internet" Anträge, nämlich für [EPPD - E-Mail-Provider-Portabilitätsverzeichnis](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) und [AEAP - E-Mail-Adressportierung](https://nlnet.nl/project/EmailPorting/) (~90K EUR). Ziel sind bessere Unterstützung von Mehrfachkonten, verbesserten QR-Code-Kontakt- und -Gruppen-Setups sowie Netzwerkverbesserungen auf allen Plattformen.
+- Im Jahr 2021 erhielten wir weitere EU-Mittel für zwei "Next-Generation-Internet"-Anträge, nämlich für [EPPD - E-Mail-Provider-Portabilitätsverzeichnis](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) und [AEAP - E-Mail-Adressportierung](https://nlnet.nl/project/EmailPorting/) (~90K EUR). Ziel sind bessere Unterstützung von Mehrfachkonten, verbesserten QR-Code-Kontakt- und -Gruppen-Setups sowie Netzwerkverbesserungen auf allen Plattformen.
 
-- Von Ende 2021 bis März 2023 erhielten wir eine *Internet Freedom* Finanzierung (500K USD) vom U.S. Bureau of Democracy, Human Rights and Labor (DRL). Diese Finanzierung unterstützte unsere langjährigen Ziele, Delta Chat benutzerfreundlicher und kompatibel mit einer breiten Palette von E-Mail-Servern weltweit zu machen, sowie widerstandsfähiger und sicherer an Orten, die häufig von Internetzensur und Abschaltungen betroffen sind.
+- Von Ende 2021 bis März 2023 erhielten wir eine *Internet-Freedom*-Finanzierung (500K USD) vom U.S. Bureau of Democracy, Human Rights and Labor (DRL). Diese Finanzierung unterstützte unsere langjährigen Ziele, Delta Chat benutzerfreundlicher und kompatibel mit einer breiten Palette von E-Mail-Servern weltweit zu machen, sowie widerstandsfähiger und sicherer an Orten, die häufig von Internetzensur und Abschaltungen betroffen sind.
 
-- Anfang 2023 wurden unsere Vorschläge für "Private Decentralized Apps" vom Next Generation Internet (NGI) Entrust Programm angenommen. Der genaue Betrag ist noch zu bestimmen (ca. 100K EUR). Diese Finanzierung unterstützt die weitere Entwicklung von [webxdc "apps shared in a chat"](https://webxdc.org).
+- 2023-2024 schlossen wir erfolgreich das vom OTF finanzierte 
+[Secure-Chatmail-Projekt](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/) ab. 
+Dieses fügt "Garantierte Verschlüsselung", 
+das [Chatmail-Server-Netzwerk](https://delta.chat/chatmail) 
+und „Instant Onboarding“ allen ab April 2024 veröffentlichten Anwendungen hinzu.
+
+- 2023 und 2024 wurden wir in das Next-Generation-Internet-Programm (NGI)
+für unsere Arbeit an [Webxdc-PUSH](https://nlnet.nl/project/WebXDC-Push/) aufgenommen,
+zusammen mit Kooperationspartnern, die an 
+[Webxdc-Evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+[Webxdc-XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+[DeltaTouch](https://nlnet.nl/project/DeltaTouch/) und 
+[DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+Alle diese Projekte sind teilweise abgeschlossen oder sollen Anfang 2025 abgeschlossen werden. 
 
 - Manchmal erhalten wir einmalige Spenden von Privatpersonen, wofür wir sehr dankbar sind. Im Jahr 2021 hat uns zum Beispiel eine großzügige Privatperson 4000 EUR überwiesen mit dem Betreff "Weiter so!" 💜  Wir verwenden dieses Geld zur Finanzierung von Entwicklungstreffen oder zur Deckung von Ad-hoc-Ausgaben, die nicht ohne weiteres vorhersehbar sind oder nicht aus öffentlichen Fördermitteln erstattet werden können.
 Der Erhalt von Spenden hilft uns auch, unabhängiger und langfristig lebensfähig zu werden, als Gemeinschaft.
@@ -1034,4 +1079,4 @@ Der Erhalt von Spenden hilft uns auch, unabhängiger und langfristig lebensfähi
 
 Die oben aufgeführte finanzielle Förderung wird hauptsächlich von der merlinux GmbH in Freiburg (Deutschland) organisiert und an mehr als ein Dutzend Mitwirkende weltweit verteilt.
 
-Möglichkeiten mitzuwirken finden Sie Auf der [Delta Chat Seite "Mitwirken"](contribute).
+Möglichkeiten mitzuwirken finden Sie Auf der [Delta-Chat-Seite "Mitwirken"](contribute).

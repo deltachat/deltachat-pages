@@ -1,7 +1,8 @@
 {% assign txEn = site.data.lang['en']['en'] %}
 {% assign tx = site.data.lang[page.lang][page.lang] %}
-{% assign VERSION_DESKTOP = "1.46.1" %}
-{% assign VERSION_ANDROID = "1.46.5" %}
+
+{% assign VERSION_DESKTOP = "1.52.1" %}
+{% assign VERSION_ANDROID = "1.54.0" %}
 
 <div class="download-content">
     <h1>{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h1>
@@ -27,13 +28,6 @@
                       <img src="../assets/badges/get-it-on-fdroid.png" alt="{%if tx.download.dl_fdroid != ""%}{{ tx.download.dl_fdroid }}{%else%}{{ txEn.download.dl_fdroid }}{%endif%}" width=161 height=48 />
                     </picture>
                 </a>
-                <a href="https://paskoocheh.com/tools/138/android.html" class="img-badge">
-                    <picture>
-                      <source srcset="../assets/badges/get-it-on-paskoocheh.webp" type="image/webp">
-                      <source srcset="../assets/badges/get-it-on-paskoocheh.png" type="image/png">
-                      <img src="../assets/badges/get-it-on-paskoocheh.png" alt="Get it on Paskoocheh" width=161 height=48 />
-                    </picture>
-                </a>
                 <a href="https://www.amazon.com/dp/B0864PKVW3/" class="img-badge">
                     <picture>
                       <source srcset="../assets/badges/amazon-appstore.webp" type="image/webp">
@@ -49,19 +43,19 @@
                     </picture>
                 </a>
             </div>
+            <div class="descr">
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                Android 5.0 Lollipop
+            </div>
             <details>
                 <summary class="noupgrades">
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="buttons">
-                    <a href="https://www.apklis.cu/application/chat.delta" class="img-badge">
-                        <picture>
-                          <source srcset="../assets/badges/get-it-on-apklis.webp" type="image/webp">
-                          <source srcset="../assets/badges/get-it-on-apklis.png" type="image/png">
-                          <img src="../assets/badges/get-it-on-apklis.png" alt="Disponible en Apklis" width=139 height=48 />
-                        </picture>
-                    </a>
                     <a href="https://download.delta.chat/android/deltachat-gplay-release-{{VERSION_ANDROID}}.apk"><small>Download</small> APK</a>
+                    <a href="https://github.com/deltachat/deltachat-android/releases" class="img-badge">
+                        <img src="../assets/badges/get-it-on-github.png" alt="Get APK on Github" width=160 height=48 />
+                    </a>
                 </div>
             </details>
             <div class="descr">
@@ -80,6 +74,10 @@
                 </a>
             </div>
             <div class="descr">
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                iOS 14, iPhone 6s, iPad 5/Air 2/Mini 4
+            </div>
+            <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-ios">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
         </div>
@@ -90,6 +88,10 @@
                     <img src="../assets/badges/mac-appstore.svg" alt="{%if tx.download.dl_mac_appstore != ""%}{{ tx.download.dl_mac_appstore }}{%else%}{{ txEn.download.dl_mac_appstore }}{%endif%}" width=187 height=48 />
                 </a>
                 <a href="https://formulae.brew.sh/cask/deltachat"><small>Install with</small>Homebrew</a>
+            </div>
+            <div class="descr">
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                macOS 10.15 Catalina
             </div>
             <div class="descr">
                 Homebrew manual install: <code>brew install --cask deltachat</code>
@@ -110,9 +112,13 @@
         <div class="box" id="windows">
             <div class="title">Windows</div>
             <div class="buttons">
-                <a href="https://www.microsoft.com/en-us/p/deltachat/9pjtxx7hn3pk?activetab=pivot:overviewtab" class="img-badge">
+                <a href="https://apps.microsoft.com/detail/9pjtxx7hn3pk" class="img-badge">
                     <img src="../assets/badges/microsoft.svg" alt="{%if tx.download.dl_microsoft != ""%}{{ tx.download.dl_microsoft }}{%else%}{{ txEn.download.dl_microsoft }}{%endif%}" width=133 height=48 />
                 </a>
+            </div>
+            <div class="descr">
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                Windows 10
             </div>
             <div class="descr">
                 Winget install: <code>winget install 9PJTXX7HN3PK</code>
@@ -122,10 +128,10 @@
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="buttons">
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20Setup%20{{VERSION_DESKTOP}}.exe"><small>Download</small> Setup.exe</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-Setup.x64.exe"><small>Download</small> Setup.exe</a>
                 </div>
                 <div class="descr">
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat%20{{VERSION_DESKTOP}}.exe">Get portable version (experimental)</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-Portable.x64.exe">Get portable version (experimental)</a>
                 </div>
             </details>
             <div class="descr">
@@ -144,6 +150,10 @@
                 </a>
             </div>
             <div class="descr">
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                Ubuntu 18.04, Fedora 29, Debian 10, Compatible Systems
+            </div>
+            <div class="descr">
                 Flatpak manual install: <code>flatpak install flathub chat.delta.desktop</code><br />
                 Arch manual install: <code>pacman -S deltachat-desktop</code><br />
                 Nix manual install: <code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code><br />
@@ -156,13 +166,13 @@
                 <div class="buttons">
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Get .deb for x86_64</small> Debian/Ubuntu</a>
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.x86_64.rpm"><small>Get .rpm for x86_64</small> Fedora</a>
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}.AppImage"><small>Get x86_64</small> AppImage</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-x86_64.AppImage"><small>Get x86_64</small> AppImage</a>
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.tar.gz"><small>Get x86_64</small> tar.gz</a>
                     <br />
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_arm64.deb"><small>Get .deb for arm64</small> Debian/Ubuntu</a>
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.aarch64.rpm"><small>Get .rpm for arm64</small> Fedora</a>
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.AppImage"><small>Get arm64</small> AppImage</a>
-                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}-arm64.tar.gz.tar.gz"><small>Get arm64</small> tar.gz</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}-arm64.tar.gz"><small>Get arm64</small> tar.gz</a>
                 </div>
             </details>
             <div class="descr">
@@ -179,6 +189,10 @@
                         <img src="../assets/badges/ubuntutouch-openstore.png" alt="Ubuntu Touch" width=156 height=48 />
                     </picture>
                 </a>
+            </div>
+            <div class="descr">
+                {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
+                Ubuntu Touch 16.04
             </div>
             <div class="descr">
                 See <a href="https://delta.chat/en/2023-07-02-deltatouch">blog</a> for details about this community driven effort<br />

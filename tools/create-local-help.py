@@ -57,7 +57,9 @@ def url_is_reachable(url):
         response = requests.get(url)
         if response.status_code == 200:
             reachable_cache[url] = True
-        elif response.status_code == 403 and url == "https://opentechfund.org":
+        elif response.status_code == 403 and (url.startswith("https://opentechfund.org") or url.startswith("https://www.opentech.fund")):
+            reachable_cache[url] = True # maybe a temporary hickup
+        elif response.status_code == 502 and url == "https://saltpack.org/":
             reachable_cache[url] = True # maybe a temporary hickup
         elif response.status_code == 404 and url == "https://crates.io/crates/pgp":
             reachable_cache[url] = True # maybe a temporary hickup
@@ -176,7 +178,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) < 3:
         raise SystemExit("usage: create-local-help.py INPUT_DIR OUTPUT_DIR [--add-top-links]"
-                      +"\n   eg. create-local-help.py _site     ../foobar")
+                      +"\n   eg. create-local-help.py result    ../foobar")
 
     srcdir = sys.argv[1]
     print("using source directory:        " + srcdir)
