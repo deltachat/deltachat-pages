@@ -30,7 +30,7 @@ securely interoperable with chatmail and classic e-mail servers.
   stable since May 2024.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US and has been stable since July 2024.
+  has been stable since July 2024.
 
 - [tarpit.fun](https://tarpit.fun)
   is hosted in Austria and has been stable since December 2024.
