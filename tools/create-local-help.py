@@ -82,9 +82,13 @@ def generate_file(srcdir, destdir, lang, file, add_top_links):
                      +   "<head>"
                      +     "<meta charset=\"UTF-8\" />"
                      +     "<meta name=\"viewport\" content=\"initial-scale=1.0\" />"
+                     +     "<title>Delta Chat Help</title>"
                      +     "<link rel=\"stylesheet\" href=\"../help.css\" />"
+                     +     "<script src=\"./pagefind/pagefind-ui.js\"></script>"
+                     +     "<script src=\"../start-pagefind.js\"></script>"
                      +   "</head>"
                      +   "<body>"
+                     +     "<span id=\"search\"></span>"
                      +     "<ul id=\"top\">",
                      content,
                      flags=re.MULTILINE|re.DOTALL)
