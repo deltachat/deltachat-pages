@@ -88,7 +88,7 @@ def generate_file(srcdir, destdir, lang, file, add_top_links, add_pagefind):
     # remove boilerplate
     content = re.sub(r"^.*<div id=\"content\">.*<h1>.*?</h1>.*?<ul.*?>",
                        "<!DOCTYPE html>\n"
-                     + "<html>"
+                     + "<html lang=\"" + lang + "\">"
                      +   "<head>"
                      +     "<meta charset=\"UTF-8\" />"
                      +     "<meta name=\"viewport\" content=\"initial-scale=1.0\" />"
@@ -134,7 +134,7 @@ def generate_file(srcdir, destdir, lang, file, add_top_links, add_pagefind):
                          flags=re.MULTILINE|re.DOTALL) + top_link
     if add_pagefind:
         content = re.sub(r"</head>",
-                            "<script src=\"./pagefind/pagefind-ui.js\"></script>"
+                            "<script src=\"../pagefind/pagefind-ui.js\"></script>"
                           + "<script src=\"../start-pagefind.js\"></script>"
                           + "</head>",
                          content,
