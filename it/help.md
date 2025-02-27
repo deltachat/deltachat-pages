@@ -760,20 +760,21 @@ Per altri programmi, dovresti essere in grado di trovare una soluzione online.
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 
-Yes, multiple times. 
-The Delta Chat project continuously undergoes independent security audits and analysis,
-from most recent to older: 
+Sì, più volte.
+Il progetto Delta Chat è sottoposto costantemente a verifiche e analisi di sicurezza indipendenti,
+dal più recente al più vecchio:
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+- Dicembre 2024, un [Valutazione commissionata da NLNET di
+rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) di [Radically Open Security](https://www.radicallyopensecurity.com/) ha preso parte.
   rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+  Sono stati rilasciati due avvisi relativi ai risultati di questa verifica:
 
-  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
-  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+  - ["Panico per Input non Attendibili e Malformati"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+  - ["Potenziale Esaurimento delle Risorse durante la gestione di Messaggi non Attendibili"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
 
-  The issues outlined in these advisories have been fixed and are part of Delta Chat 
-  releases on all appstores since December 2024. 
+  I problemi descritti in questi avvisi sono stati risolti e fanno
+parte delle versioni di Delta Chat
+  su tutti gli appstore da Dicembre 2024.
 
 - Marzo 2024, abbiamo ricevuto un'analisi approfondita della sicurezza dalla Crittografia Applicata
 gruppo di ricerca dell'ETH di Zurigo e ha affrontato tutte le questioni sollevate. 

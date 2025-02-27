@@ -142,7 +142,7 @@ Make sure to replace this example IP address with your server's IP address.
 This will forward all requests to `mailadm.example.org/new_email` to the mailadm
 container later.
 
-### Download mailcow containers
+### Baixada dels contenidors mailcow
 
 Now run `sudo docker compose pull` to download the mailcow containers. If you don't
 have access to docker.com at this step, you can [use an HTTP
@@ -193,9 +193,9 @@ Now we can set up mailadm - with this tool you can generate QR codes, which
 people can scan from Delta Chat to create an e-mail account on your server. It
 is probably the easiest way for users to get started with Delta Chat.
 
-### Downloading mailadm
+### Baixada de mailadm
 
-You can use these commands to download mailadm:
+Podeu usar aquestes ordres per a baixar mailadm:
 
 ```
 cd ~

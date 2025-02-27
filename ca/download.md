@@ -7,21 +7,21 @@ downloads: true
 A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un telèfon.
 
 
-## Changelogs & More {#changelogs}
+## Registre de canvis i més {#changelogs}
 
-- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Registre de canvis: [Escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Nucli](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Alternative Clients](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Clients alternatius](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
 
 - [Provider Database](https://providers.delta.chat/)
 
-- [Verify Downloads](verify-downloads)
+- [Verifiqueu les baixades](verify-downloads)
 
 - [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
-  [Android Nightlies](https://download.delta.chat/android/nightly/),
+- Construccions prelminars: [Escriptori]({% include desktop-previews-url %}),
+  [Android Nightly](https://download.delta.chat/android/nightly/),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)

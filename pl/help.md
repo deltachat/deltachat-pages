@@ -325,7 +325,7 @@ Kiedy mówimy o „wiadomości zaszyfrowanej metodą end-to-end”, zawsze mamy 
 
 Tak, Delta Chat korzysta z bezpiecznego podzbioru OpenPGP i wyświetla wskaźnik bezpieczeństwa kłódki na wiadomości tylko wtedy, gdy cała wiadomość jest prawidłowo zaszyfrowana i podpisana. Na przykład „Odłączone podpisy” nie są traktowane jako bezpieczne.
 
-OpenPGP samo w sobie nie jest niebezpieczne. Większość publicznie omawianych problemów związanych z bezpieczeństwem OpenPGP tak naprawdę wynika ze złej użyteczności lub złej implementacji narzędzi, lub aplikacji (lub obu). Szczególnie ważne jest rozróżnienie pomiędzy OpenPGP, standardem szyfrowania IETF, a GnuPG (GPG), narzędziem wiersza poleceń implementującym OpenPGP. Wiele publicznych komentarzy krytycznych na temat OpenPGP tak naprawdę omawia GnuPG, którego Delta Chat nigdy nie używał. Delta Chat korzysta raczej z implementacji OpenPGP Rust [rPGP](https://github.com/rpgp/rpgp), dostępnej jako [niezależny pakiet „pgp”](https://crates.io/crates/pgp) i poddanej [audytowi bezpieczeństwa w 2019 roku](https://delta.chat/assets/blog/2019-first-security-review.pdf).
+OpenPGP samo w sobie nie jest niebezpieczne. Większość publicznie omawianych problemów związanych z bezpieczeństwem OpenPGP tak naprawdę wynika ze złej użyteczności lub złej implementacji narzędzi, lub aplikacji (lub obu). Szczególnie ważne jest rozróżnienie pomiędzy OpenPGP, standardem szyfrowania IETF, a GnuPG (GPG), narzędziem wiersza poleceń implementującym OpenPGP. Wiele publicznych komentarzy krytycznych na temat OpenPGP tak naprawdę omawia GnuPG, którego Delta Chat nigdy nie używał. Delta Chat korzysta raczej z implementacji OpenPGP Rust [rPGP](https://github.com/rpgp/rpgp), dostępnej jako [niezależny pakiet „pgp”](https://crates.io/crates/pgp) i poddanej [audytowi bezpieczeństwa w 2019 i 2024 roku](#security-audits).
 
 Naszym celem, wraz z innymi wdrażającymi OpenPGP, jest dalsza poprawa parametrów bezpieczeństwa poprzez wdrożenie [nowego IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/), który na szczęście został przyjęty latem 2023 roku.
 
@@ -443,20 +443,16 @@ W przypadku innych programów można znaleźć rozwiązanie online.
 
 ### Czy Delta Chat był niezależnie kontrolowany pod kątem luk w zabezpieczeniach? {#security-audits}
 
-Yes, multiple times. 
-The Delta Chat project continuously undergoes independent security audits and analysis,
-from most recent to older: 
+Tak, wielokrotnie.
+Projekt Delta Chat stale przechodzi niezależne audyty bezpieczeństwa i analizy,
+od najnowszych do najstarszych:
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+W grudniu 2024 r. [NLNET](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) wykonała ocenę rPGP zleconą przez [Radically Open Security](https://www.radicallyopensecurity.com/). rPGP służy jako kompleksowy silnik szyfrowania [OpenPGP](https://openpgp.org) w Delta Chat. Wydano dwa ostrzeżenia związane z wynikami tego audytu:
 
-  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
-  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+- [„Paniki przy nieprawidłowym wprowadzaniu niezaufanych danych wejściowych”](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
+- [„Potencjalne wyczerpanie zasobów podczas obsługi niezaufanych wiadomości”](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
 
-  The issues outlined in these advisories have been fixed and are part of Delta Chat 
-  releases on all appstores since December 2024. 
+Problemy opisane w tych ostrzeżeniach zostały naprawione i są częścią wydań Delta Chat we wszystkich sklepach z aplikacjami od grudnia 2024 r.
 
 - W marcu 2024 r. otrzymaliśmy dogłębną analizę bezpieczeństwa od grupy badawczej ds. kryptografii stosowanej w ETH Zuerich i zajęliśmy się wszystkimi poruszonymi kwestiami. Więcej szczegółowych informacji można znaleźć na naszym blogu na temat [szyfrowania typu End-to-End z gwarancją Hardening](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) oraz opublikowanym później artykule badawczym [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf).
 
