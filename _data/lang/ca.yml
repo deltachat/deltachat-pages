@@ -2,12 +2,12 @@ ca:
   
   meta:
     description: Delta Chat - Missatgeria Instantània basada en correu electrònic
-    keywords: "delta chat, app de missatgeria per correu electrònic, descarrega't delta chat"
+    keywords: "delta chat, aplicació de missatgeria per correu electrònic, baixa delta chat"
     rss_news_title: Novetats sobre Delta Chat
 
   menu:
     home: Inici
-    download: Descàrregues
+    download: Baixada
     blog: Blog
     contribute: Contribueix
     help: Preguntes freqüents
@@ -22,15 +22,15 @@ ca:
   language: Idioma
 
   download:
-    other: ""
-    no_upgrades: ""
+    other: Opcions de baixada per a altres plataformes
+    no_upgrades: Opcions de baixada sense actualitzacions automàtiques
     source_code: Codi font
     outdated: desactualitzat
     minimum: ""
-    dl_flathub: Descarrega'l a Flathub
-    dl_microsoft: Descarrega'l a Microsoft Store
-    dl_mac_appstore: Descarrega'l a Apple Mac AppStore
-    dl_appstore: Descarrega'l a Apple AppStore
+    dl_flathub: Baixa de Flathub
+    dl_microsoft: Baixa de Microsoft Store
+    dl_mac_appstore: Baixa d'Apple Mac AppStore
+    dl_appstore: Baixa d'Apple AppStore
     dl_fdroid: Aconsegueix-lo a F-Droid
     gplay: Aconsegueix-lo a Google Play
 

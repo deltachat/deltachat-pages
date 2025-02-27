@@ -55,8 +55,8 @@ lang: ca
 </a>
 </div>
 
-[Descarregueu-lo](https://get.delta.chat){: .cta-button}
+[Baixa](https://get.delta.chat){: .cta-button}
 
-Available on mobile and desktop.
+Disponible en mòbil i escriptori.
 
 

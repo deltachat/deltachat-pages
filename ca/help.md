@@ -1243,7 +1243,7 @@ Otherwise you might receive undecryptable messages from those group chats.
 
 Delta Chat is available for all major and some minor platforms:
 
-- The **official website**, <https://delta.chat/download> shows all options in detail
+- El **lloc web oficial**, <https://delta.chat/download> mostra totes les opcions en detall
 
 - If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
 

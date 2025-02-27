@@ -484,15 +484,15 @@ Autocrypt 使用 OpenPGP 标准的有限且[安全子集](#openpgp-secure)。
 ，前提是整个消息都已正确加密和签名。
 例如，“分离签名”不被视为安全。
 
-OpenPGP 本身并不不安全。
-大多数公开讨论的 OpenPGP 安全问题
-实际上都源于工具或应用的糟糕可用性或糟糕实现（或两者兼而有之）。
-区分 OpenPGP（IETF 加密标准）
-和 GnuPG (GPG)（实现 OpenPGP 的命令行工具）尤为重要。
-许多对 OpenPGP 的公开批评实际上是在讨论 GnuPG，而 Delta Chat 从未使用过 GnuPG。
-Delta Chat 而是使用 OpenPGP Rust 实现 [rPGP](https://github.com/rpgp/rpgp)，
-作为 [独立的“pgp”软件包](https://crates.io/crates/pgp) 提供，
-并且 [在 2019 年进行了安全审计](https://delta.chat/assets/blog/2019-first-security-review.pdf)。
+OpenPGP is not insecure by itself.
+Most publically discussed OpenPGP security problems
+actually stem from bad usability or bad implementations of tools or apps (or both).
+It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
+and GnuPG (GPG), a command line tool implementing OpenPGP. 
+Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
+Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
+available as [an independent "pgp" package](https://crates.io/crates/pgp),
+and [security-audited in 2019 and 2024](#security-audits). 
 
 我们的目标是与其他 OpenPGP 实现者一起，
 通过实施 [新的 IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/)
