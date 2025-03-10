@@ -59,7 +59,7 @@ Testing changes
 - If you get Ruby dependency problems, you can also build the page in a docker
   container:  
   ```sudo docker run -i -p 4000:4000 -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:4 /bin/bash -c "chmod 777 /srv/jekyll && jekyll serve"```  
-  You can open the page in the browser at http://localhost:4000.
+  You can open the page in the browser at http://localhost:4000/en/.
 
 Directory structure
 --------------------------------------------------------------------------------
