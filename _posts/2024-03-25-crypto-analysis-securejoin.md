@@ -5,7 +5,7 @@ image: ../assets/blog/green-check-chain.png
 com_id: 112156902140296303
 ---
 
-We released [guaranteed end-to-end encryption](https://delta.chat/2023-11-23-jumbo-42) 
+We released [guaranteed end-to-end encryption](https://delta.chat/en/2023-11-23-jumbo-42)
 in November 2023 and were in for a pleasant surprise three months later.
 The [Applied Cryptography Group at ETH Zurich](https://appliedcrypto.ethz.ch/)
 handed us a cryptographic security analysis 
