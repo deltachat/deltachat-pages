@@ -1,7 +1,7 @@
 ---
 title: Feature bloom: Edit messages, delete for everyone and more
 author: Delta Chat Team
-image: ../assets/blog/2025-03-TODO.png
+image: ../assets/blog/2025-03-edit-msg.jpeg
 com_id: TODO
 ---
 
@@ -10,7 +10,7 @@ In less than three months of 2025 three major new features are already available
 
 ## Improved Saved Messages
 
-<!-- TODO: add image -->
+![screenshot showing the new Saved Messages chat feature](../assets/blog/2025-03-saved-msgs-v2.jpeg)
 
 The "Saved Messages" feature got an upgrade! Now when you forward a message to the "Saved Messages" chat
 the message will preserve the context (sender etc.) and a button to jump to the original message.
@@ -21,7 +21,7 @@ This feature on its own has a lot of potential to make your life easier and save
 
 ## Editing Messages
 
-<!-- TODO: add image -->
+![screenshot showing the new edit message feature](../assets/blog/2025-03-edit-msg.jpeg)
 
 Being able to edit messages has been a long-cherished Utopian dream of some Delta Chat users.
 Some considered it technically impossible since you can't edit messages in e-mail, the underlying technology powering Delta Chat.
@@ -31,7 +31,7 @@ Nonetheless, we still decided to push the boundaries, approaching the problem in
 
 ## Delete them all
 
-<!-- TODO: add image -->
+![screenshot showing the new "delete for everyone" feature](../assets/blog/2025-03-delete-msg-for-all.jpeg)
 
 In the past every time you deleted a chat or a message from one device you would need to go to all your other devices and manually repeat the process over and over.
 Now message and chat deletion is seamlessly synchronized across all your devices without breaking a sweat.
