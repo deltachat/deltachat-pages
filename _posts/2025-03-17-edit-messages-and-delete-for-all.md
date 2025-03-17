@@ -39,7 +39,7 @@ Now message and chat deletion is seamlessly synchronized across all your devices
 Furthermore, now you can delete/retract your messages for everyone in the chat!
 Notice that Delta Chat is an app for private chats with family and friends, not to "chat with the enemy",
 in any platform someone with bad intentions can find ways to preserve your message with a manipulated client app or take screenshots,
-so while most of the time it is good enough, you shouldn't blindly relay in this feature in chats with people you don't trust.
+so while most of the time it is good enough, you shouldn't blindly rely on this feature in chats with people you don't trust.
 
 **Note:** For this feature to work properly, make sure your contacts upgrade to the latest version of Delta Chat.
 
