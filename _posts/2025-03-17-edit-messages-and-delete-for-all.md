@@ -2,7 +2,7 @@
 title: Feature bloom: Edit messages, delete for everyone and more
 author: Delta Chat Team
 image: ../assets/blog/2025-03-edit-msg.jpeg
-com_id: 1742225595
+com_id: 
 ---
 
 The spring is not here yet but some long-awaited Delta Chat features are blooming already!
