@@ -741,36 +741,14 @@ which has been [independently security-audited](../assets/blog/2019-first-securi
 
 ### A mund të ripërdor kyçin tim ekzistues privat? {#importkey}
 
-Po
-The best way is to send an Autocrypt Setup Message from the other e-mail client.
-Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+No. 
 
-Ndryshe, mund ta importoni kyçin dorazi te “Rregullime -> Rregullime të mëtejshme -> Importoni kyçe të fshehtë”.
-Kujdes: Sigurohuni se kyçi s’është i mbrojtur me fjalëkalim, ose hiqeni fjalëkalimin që më parë.
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1. 
+You can export your private key but you can not import additional private keys. 
 
-Nëse s’keni kyç, ose as që e dinit se mund t’ju duhej një i tillë… mos u bëni merak: Delta Chat-i prodhon një të tillë, kur duhet dhe s’ju duhet të shtypni një buton për këtë.
-
-### S’eksportoj dot kyçet e mi ekzistues PGP në Delta Chat.
-
-Ka shumë mundësi që problemi të jetë se kyçi juaj është i fshehtëzuar dhe/ose
-përdor një fjalëkalim. Kyçe të tillë nuk mbulohen nga Delta Chat. Ju lutemi,
-hiqeni fshehtëzimin dhe fjalëkalimin dhe riprovoni importimin.
-
-Another common error is having the wrong file ending.
-Use the ASCII armored format and an `.asc` file ending.
-
-Për sa u takon formateve, Delta Chat-i mbulon formate të rëndomtë OpenPGP
-kyçesh private, megjithatë, ka pak gjasa që të mbulojmë 100% të krejt kyçeve
-private të çfarëdo burimi. Kjo gjithashtu s’është fokusi kryesor i Delta Chat-it
-(në fakt, shumica dërrmuese e përdoruesve të Delta Chat-it s’do të kenë ndonjë
-kyç përpara se të zënë të përdorin Delta-n). Sidofoqtë, përpiqemi të mbulojmë
-kyçe private prej burimesh të tjera sa më mirë që të mundet. 
-
-Heqja e fjalëkalimi nga kyçi privat do të jetë e ndryshme, varet nga software-i
-që ju përdorni për administrim kyçesh PGP. Me Enigmail-in, mund t’i jepni
-fjalëkalimit tuaj një vlerë të zbrazët, që nga dritarja Administrim Kyçesh. Me
-GnuPG-në mund ta bëni [përmes rreshti urdhrash](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
-Për programe të tjera, mund të gjeni një zgjidhje në internet.
+In general, we do not recommend or offer users to perform manual key management. 
+We want to ensure that security audits can focus on a few proven cryptographic algorithms 
+instead of the full breath of possible algorithms allowed with OpenPGP. 
 
 ### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie? {#security-audits}
 

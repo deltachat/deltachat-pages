@@ -426,23 +426,14 @@ Delta Chat захищає більшість метаданих повідомл
 
 ### Чи можна повторно використовувати існуючий закритий ключ? {#importkey}
 
-Так.
-The best way is to send an Autocrypt Setup Message from the other e-mail client.
-Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+No. 
 
-Крім того, ви можете імпортувати ключ вручну в "Налаштування -> Додаткові налаштування -> Імпорт секретних ключів". Застереження: Переконайтеся, що ключ не захищено паролем, або видаліть його заздалегідь.
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1. 
+You can export your private key but you can not import additional private keys. 
 
-Якщо у вас немає ключа або ви навіть не знаєте, що він вам знадобиться -- не хвилюйтеся: Delta Chat генерує ключі в міру необхідності, вам не потрібно натискати кнопку для цього.
-
-### Я не можу імпортувати свій існуючий PGP ключ у Delta Chat.
-
-Найімовірнішою причиною є те, що ваш ключ зашифрований та/або використовується пароль. Такі ключі не підтримуються Delta Chat. Ви можете видалити шифрування парольної фрази та пароль і спробувати імпорт знову.
-
-Ще одна поширена помилка -- неправильне закінчення файлу. Використовуйте захищений формат ASCII і закінчення файлу `.asc`.
-
-Delta Chat підтримує поширені формати приватних ключів OpenPGP, однак навряд чи приватні ключі з усіх джерел будуть повністю підтримуватися. Це не головна мета Delta Chat. Фактично, більшість нових користувачів не матимуть жодного ключа до використання Delta Chat. Однак ми намагаємось підтримувати приватні ключі з якомога більшої кількості джерел.
-
-Видалення пароля з приватного ключа буде залежати від програмного забезпечення, яке використовується для управління ключами PGP. За допомогою Enigmail ви можете встановити для порожній пароль у вікні Керування ключами. За допомогою GnuPG ви можете встановити його [через командний рядок](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429). Для інших програм ви зможете знайти рішення в інтернеті.
+In general, we do not recommend or offer users to perform manual key management. 
+We want to ensure that security audits can focus on a few proven cryptographic algorithms 
+instead of the full breath of possible algorithms allowed with OpenPGP. 
 
 ### Чи проходив Delta Chat незалежний аудит на наявність вразливостей у безпеці? {#security-audits}
 

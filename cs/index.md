@@ -1,26 +1,26 @@
 ---
-title: Delta Chat, decentralized secure messenger 
+title: Delta Chat, decentralizovaný zabezpečený chat
 lang: cs
 ---
 
-# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
+# Delta Chat je decentralizovaná a zabezpečená chatovací aplikace {#homepage-heading}
 
-💬 Reliable instant messaging with multi-profile and multi-device support
+💬 Spolehlivé posílání zpráv s podporou pro používání více profilů na několika zařízeních
 
-⚡️ Sign up to [secure fast chatmail servers](chatmail) or use [classic e-mail servers](https://providers.delta.chat/)
+⚡️ Můžete se zaregistrovat na [rychlých a zabezpečených chatmail serverech](chatmail) nebo používat [klasické e-mailové servery](https://providers.delta.chat/)
 
-🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
+🥳 Interaktivní [webové aplikace přímo v chatu](https://webxdc.org/) - pro zábavu i spolupráci
 
-🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
+🔒 [Auditované koncové šifrování](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) zabezpečené proti útokům na síť i na servery
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software postavený na [internetových standardech](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md) - vyhýbáme se [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">
 <picture>
 <source srcset="../assets/home/screenshots/android1-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/android1-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/android1-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing chat list" />
+<img src="../assets/home/screenshots/android1-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="Screenshot aplikace Delta Chat na systému Android zobrazující seznam chatů"/>
 </picture>
 </a>
 </div>
@@ -30,7 +30,7 @@ lang: cs
 <picture>
 <source srcset="../assets/home/screenshots/android2-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/android2-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/android2-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing a chat" />
+<img src="../assets/home/screenshots/android2-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="Screenshot aplikace Delta Chat na systému Android zobrazující chat"/>
 </picture>
 </a>
 </div>
@@ -40,7 +40,7 @@ lang: cs
 <picture>
 <source srcset="../assets/home/screenshots/desktop-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/desktop-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/desktop-thumbnail.png" width="305" height="242" style="float:left;" alt="A screenshot of Delta Chat on desktop" />
+<img src="../assets/home/screenshots/desktop-thumbnail.png" width="305" height="242" style="float:left;" alt="Screenshot aplikace Delta Chat na desktopu"/>
 </picture>
 </a>
 </div>
@@ -50,13 +50,13 @@ lang: cs
 <picture>
 <source srcset="../assets/home/screenshots/ios-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/ios-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/ios.png" width="124" height="242" alt="A screenshot of Delta Chat on iOS" />
+<img src="../assets/home/screenshots/ios.png" width="124" height="242" alt="Screenshot aplikace Delta Chat na systému iOS"/>
 </picture>
 </a>
 </div>
 
-[Download](https://get.delta.chat){: .cta-button}
+[Stáhnout](https://get.delta.chat){: .cta-button}
 
-Available on mobile and desktop.
+Dostupné pro telefony i počítače.
 
 

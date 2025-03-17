@@ -22,9 +22,6 @@ interopérables en toute sécurité avec les serveurs chatmail et de courriel cl
 - [mailchat.pl](https://mailchat.pl) s'adresse aux personnes parlant le polonais
 et est stable depuis janvier 2024.
 
-- [bcc.chat](https://bcc.chat) opère aux États-Unis
-  stable depuis février 2024.
-
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
   s'adresse aux utilisateurs italophones et est  
   stable depuis mai 2024.
@@ -35,8 +32,10 @@ et est stable depuis janvier 2024.
 - [tarpit.fun](https://tarpit.fun)
   est hébergé en Autriche et est stable depuis décembre 2024.
 
-Tous les serveurs de chatmail sont gérés par différents groupes et personnes. 
-Le serveur par défaut nine.testrun.org est administré par les membres centraux de l'équipe de développement de Delta Chat . 
+There are also additional chatmail servers not listed publically.  
+All chatmail servers are operated by different groups and people. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
+
 
 ## Puis-je également utiliser un serveur courriel classique au lieu de chatmail ?
 

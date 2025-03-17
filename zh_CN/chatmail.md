@@ -17,8 +17,6 @@ Chatmail 服务器为 Delta Chat 优化，提供保护隐私且快速的用户�
 
 - [mailchat.pl](https://mailchat.pl) 面向波兰语用户，自 2024年1月 以来一直稳定运行。
 
-- [bcc.chat](https://bcc.chat) 在美国运营，自 2024年2月 以来一直稳定运行。
-
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
 主要面向意大利语用户，自2024年5月以来运行稳定。
 
@@ -28,7 +26,10 @@ Chatmail 服务器为 Delta Chat 优化，提供保护隐私且快速的用户�
 - [tarpit.fun](https://tarpit.fun)
 托管于奥地利，自2024年12月以来运行稳定。
 
-所有chatmail 服务器由不同的团体和人员运营。  默认服务器 nine.testrun.org 由 Delta Chat 核心团队成员运营。
+There are also additional chatmail servers not listed publically.  
+All chatmail servers are operated by different groups and people. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
+
 
 ## 我可以使用常规电子邮件服务器代替 chatmail 吗？
 

@@ -24,9 +24,6 @@ mandej prekni kodin QR të ftesës atje:
 - [mailchat.pl](https://mailchat.pl) synon përdorues që flasin
   polonisht dhe ka qenë i qëndrueshëm që prej janarit të 2024-s.
 
-- [bcc.chat](https://bcc.chat) funksionon në ShBA dje ka qenë
-  i qëndrueshëm që prej shkurtit të 2024-s.
-
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
   synon përdorues që flasin italisht dhe ka qenë
   i qëndrueshëm që prej janarit të 2024-s.
@@ -37,9 +34,10 @@ mandej prekni kodin QR të ftesës atje:
 - [tarpit.fun](https://tarpit.fun)
   strehohet në Austria dhe ka qenë i qëndrueshëm që prej dhjetorit të 2024-s.
 
-Tërë shërbyesit “chatmail” mbahen në punë nga grupe dhe persona të ndryshëm. 
-Shërbyesi parazgjedhje nine.testrun.org mbahet në punë nga anëtarët
-e ekipit bazë të Delta Chat-it.
+There are also additional chatmail servers not listed publically.  
+All chatmail servers are operated by different groups and people. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
+
 
 ## A mund të përdor edhe shërbim të zakonshëm email-i, në vend se “chatmail”?
 

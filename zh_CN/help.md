@@ -682,26 +682,14 @@ Signal 和大多数其他支持 PFS 的即时通讯应用
 
 ### 我可以重复使用现有的私钥吗？ {#importkey}
 
-是的。
-The best way is to send an Autocrypt Setup Message from the other e-mail client.
-Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+No. 
 
-或者，你可以在“设置 -> 高级设置 -> 导入私钥”中手动导入密钥。
-注意：确保密钥未受密码保护，或事先删除密码。
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1. 
+You can export your private key but you can not import additional private keys. 
 
-如果你没有密钥，甚至不知道你需要密钥 - 不用担心：Delta Chat 会根据需要生成密钥，你无需点击按钮。
-
-### 我无法将现有的 PGP 密钥导入 Delta Chat。
-
-最可能的原因是您的密钥被加密了和/或使用了密码。Delta Chat 不支持这样的密钥。您可以移除密码，之后再尝试导入。如果想保留密码，您
-需要创建电子邮件别名来使用 Delta Chat ，这样 Delta Chat 的密钥是绑定到这个电子邮件别名上的
-
-另一个常见错误是文件扩展名错误。
-使用 ASCII 编码格式和 `.asc` 文件扩展名。
-
-Delta Chat 支持常见的 OpenPGP 私钥格式。然而，不可能使每种来源的私钥都被完整支持。这不是 Delta Chat 的主要目标。实际上，大多数新用户在使用 Delta Chat 之前根本没有密钥。不过，我们确实在尝试支持尽可能多的私钥来源。
-
-移除私钥密码的操作取决于您用于管理 PGP 密钥的软件。对于 Enigmail，您可以在密钥管理窗口中将密码设为空值。 对于 GnuPG，您可以[通过命令行](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429)来进行设置。对于其他程序，您应该能在网上找到解决方案。
+In general, we do not recommend or offer users to perform manual key management. 
+We want to ensure that security audits can focus on a few proven cryptographic algorithms 
+instead of the full breath of possible algorithms allowed with OpenPGP. 
 
 ### Delta Chat 是否已进行独立的安全漏洞审计？ {#security-audits}
 

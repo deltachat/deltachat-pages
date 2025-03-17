@@ -18,8 +18,6 @@ für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigun
 
 - [mailchat.pl](https://mailchat.pl) ist auf Polnisch sprechende Nutzer ausgerichtet und ist seit Januar 2024 stabil.
 
-- [bcc.chat](https://bcc.chat) wird in den USA betrieben und ist seit Februar 2024 stabil.
-
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
   ist auf Italienisch sprechende Nutzer ausgerichtet und ist seit Mai 2024 stabil.
 
@@ -29,8 +27,10 @@ für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigun
 - [tarpit.fun](https://tarpit.fun)
   wird in Österreich betrieben und ist seit Dezember 2024 stabil.
 
+Es gibt auch zusätzliche Chatmail-Server, die nicht öffentlich aufgeführt sind. 
 Alle Chatmail-Server werden von verschiedenen Gruppen und Personen betrieben. 
-Der Standard-Server nine.testrun.org wird vom Delta-Chat-Kernteam betrieben. 
+Der Standard-Server nine.testrun.org wird vom Delta-Chat-Team betrieben. 
+
 
 ## Kann ich auch einen klassischen E-Mail-Server verwenden?
 
