@@ -6,7 +6,7 @@ com_id: 1742225595
 ---
 
 The spring is not here yet but some long-awaited Delta Chat features are blooming already!
-In less than three months of 2025 three major new features are already available:
+In less than three months of 2025 three major new features are already available.
 
 ## Improved Saved Messages
 
