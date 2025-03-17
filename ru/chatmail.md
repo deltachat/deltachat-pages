@@ -22,9 +22,6 @@ lang: ru
 - [mailchat.pl](https://mailchat.pl) ориентирован на польскоговорящих
   пользователей и стабилен с января 2024 года.
 
-- [bcc.chat](https://bcc.chat) расположен в США
-  и работает стабильно с февраля 2024 года.
-
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
   ориентирован на итальяноговорящих пользователей 
   и работает стабильно с мая 2024 года.
@@ -35,8 +32,10 @@ lang: ru
 - [tarpit.fun](https://tarpit.fun)
   расположен в Австрии и работает стабильно с декабря 2024 года.
 
-Все chatmail серверы управляются разными группами и людьми. 
-По умолчанию сервер nine.testrun.org, управляется основными членами команды Delta Chat. 
+There are also additional chatmail servers not listed publically.  
+All chatmail servers are operated by different groups and people. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
+
 
 ## Можно ли использовать обычный сервер электронной почты вместо chatmail?
 

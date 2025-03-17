@@ -22,9 +22,6 @@ en zijn compatibel met zowel chatmailservers onderling als traditionele mailserv
 - [mailchat.pl](https://mailchat.pl) is georiënteerd op Poolssprekenden
   en is sinds januari 2024 stabiel verklaard.
 
-- [bcc.chat](https://bcc.chat) wordt beheerd vanuit de VS en is sinds
-  februari 2024 stabiel verklaard.
-
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
 is georiënteerd op Italiaanssprekenden
   en is sinds mei 2024 stabiel verklaard.
@@ -35,8 +32,10 @@ is georiënteerd op Italiaanssprekenden
 - [tarpit.fun](https://tarpit.fun)
 wordt beheerd vanuit Oostenrijk en is sinds december 2024 stabiel verklaard.
 
-Alle chatmailservers worden beheerd door verschillende (groepen) mensen. 
-De nine.testrun.org-server wordt beheerd door personen van het Delta Chat-team.
+There are also additional chatmail servers not listed publically.  
+All chatmail servers are operated by different groups and people. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
+
 
 ## Kan ik ook gebruikmaken van een gewone e-mailserver?
 

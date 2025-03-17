@@ -727,36 +727,14 @@ che è stato [controllato in modo indipendente sulla sicurezza](../assets/blog/2
 
 ### Posso riutilizzare la mia chiave privata esistente? {#importkey}
 
-Sì.
-The best way is to send an Autocrypt Setup Message from the other e-mail client.
-Look for something like **Start Autocrypt Setup Transfer** in the settings of the other client and follow the instructions shown there.
+No. 
 
-In alternativa è possibile importare manualmente la chiave in "Impostazioni -> Avanzate -> Gestisci Chiavi -> Importa Chiavi Segrete".
-Attenzione: assicurarsi che la chiave non sia protetta da password oppure rimuovere prima la password.
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1. 
+You can export your private key but you can not import additional private keys. 
 
-Se non hai una chiave o non sai nemmeno che ne avrai bisogno - non preoccuparti: Delta Chat genera le chiavi secondo necessità, non devi premere un pulsante per ottenerle.
-
-### Non riesco a importare la mia chiave PGP esistente in Delta Chat.
-
-Con molta probabilità, il problema sta nel fatto che la tua chiave è cifata e/o usa
-una password. Queste chiavi non sono supportate da Delta Chat. Rimuovi la
-cifratura e la password e prova ad importarla nuovamente.
-
-Un altro errore comune è avere la fine del file sbagliata.
-Utilizza il formato corazzato ASCII e l'estensione del file ".asc".
-
-Delta Chat supporta i formati di chiave privata OpenPGP comuni, tuttavia,
-è improbabile che le chiavi private di tutte le fonti siano completamente supportate. Questo
-non è l'obiettivo principale di Delta Chat. In effetti, la maggior parte dei nuovi utenti
-non avrà alcuna chiave prima di utilizzare Delta Chat.
-Tuttavia, cerchiamo di supportare le chiavi private dal maggior numero possibile di fonti.
-
-La rimozione della password dalla chiave privata dipenderà dal
-software che usi per gestire le tue chiavi PGP. Con Enigmail puoi impostare la tua
-password su un valore vuoto nella finestra Gestione chiavi. Con GnuPG puoi impostarla
-[tramite la linea
-di comando](https://github.com/deltachat/deltachat-android/issues/98#issuecomment-378383429).
-Per altri programmi, dovresti essere in grado di trovare una soluzione online.
+In general, we do not recommend or offer users to perform manual key management. 
+We want to ensure that security audits can focus on a few proven cryptographic algorithms 
+instead of the full breath of possible algorithms allowed with OpenPGP. 
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 

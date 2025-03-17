@@ -22,9 +22,6 @@ ed è stabile da gennaio 2024.
 - [mailchat.pl](https://mailchat.pl) è orientato agli utenti di lingua polacca
 ed è stabile da gennaio 2024.
 
-- [bcc.chat](https://bcc.chat) opera negli Stati Uniti ed è stato
-stabile da febbraio 2024.
-
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
 è rivolto agli utenti di lingua italiana ed è
 stabile da maggio 2024.
@@ -35,14 +32,16 @@ opera negli Stati Uniti ed è stabile da Luglio 2024.
 - [tarpit.fun](https://tarpit.fun)
   è ospitato in Austria ed è stabile da dicembre 2024.
 
-Tutti i server chatmail sono gestiti da gruppi e persone diversi. 
-Il server predefinito nine.testrun.org è gestito dai membri principali del team Delta Chat.
+There are also additional chatmail servers not listed publically.  
+All chatmail servers are operated by different groups and people. 
+The nine.testrun.org default server is operated by core Delta Chat team members. 
+
 
 ## Posso utilizzare anche un normale server e-mail invece di chatmail?
 
 Sì, molti utenti utilizzano con successo i normali server e-mail
 soprattutto se desiderano gestire le normali comunicazioni e-mail con Delta Chat.
-Consulta il [database dei fornitori](https://providers.delta.chat) per le opzioni.
+Consulta il [database dei fornitori](https://provviders.delta.chat) per le opzioni.
 Tieni presente che Delta Chat supporta quindi più profili
 va bene avere un profilo configurato con il tuo normale indirizzo e-mail,
 e un altro profilo per chattare.

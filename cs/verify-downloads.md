@@ -1,18 +1,18 @@
 ---
-title: Ověř si stažené soubory
+title: Ověření stažených souborů
 lang: cs
 ---
 
-# Ověř stažené soubory
+# Ověření stažených souborů
 
-Na Androidu lze ověřit certifikát APK souboru porovnáním s následujícím otiskem SHA256:  
+Na systému Android můžete ověřit, zda podpisový certifikát souboru APK odpovídá jednomu z následujících otisků SHA256:  
 
-* Pro stažení v F-Droidu:  
+* Pro soubory z F-Droidu:  
   `{% include fingerprint-f-droid %}`
 
-* Ostatní stažené APK soubory:  
+* Ostatní soubory APK:  
   `{% include fingerprint-local %}`
 
-Zobrazit otisk SHA256 pro certifikát APK souboru lze napřiklad takto:  
+Zobrazit otisk SHA256 pro certifikát APK souboru lze napřiklad následujícím příkazem:  
 `keytool -printcert -jarfile <APK-file>`
 

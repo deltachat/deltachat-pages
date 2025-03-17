@@ -1,27 +1,27 @@
 ---
-title: Stáhni si Delta Chat
+title: Získejte Delta Chat
 lang: cs
 downloads: true
 ---
 
-Desktop verze nevyžaduje Delta Chat na mobilním telefonu.
+Verze pro počítače nevyžaduje instalaci aplikace Delta Chat na mobilní telefon.
 
 
-## Changelogs & More {#changelogs}
+## Seznamy změn a další {#changelogs}
 
-- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Seznamy změn: [PC](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Jádro](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Alternative Clients](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Alternativní klienti](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
 
-- [Provider Database](https://providers.delta.chat/)
+- [Databáze poskytovatelů](https://providers.delta.chat/)
 
-- [Verify Downloads](verify-downloads)
+- [Ověření stažených souborů](verify-downloads)
 
-- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Řešení potíží při instalaci na počítač](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+- Testovací vydání: [PC]({% include desktop-previews-url %}),
   [Android Nightlies](https://download.delta.chat/android/nightly/),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
