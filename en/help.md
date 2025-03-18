@@ -147,6 +147,23 @@ To use the functions, long tap or right click a chat in the chat list.
   message them or write to a group they're in as well.
 
 
+### Correct typos and delete messages after sending {#edit}
+
+- You can edit the text of your messages after sending.
+  For that, long tap or right click the message and select **Edit**
+  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+
+- If you have sent a message accidentally,
+  from the same menu, select **Delete** and then **Delete for Everyone**.
+
+While edited messages will have the word "Edited" next to the timestamp,
+deleted messages will be removed without a marker in the chat.
+Notifications are not sent and there is no time limit.
+
+Note, that the original message may still be received by chat members
+who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+
+
 ### How do disappearing messages work? {#ephemeralmsgs}
 
 You can turn on "disappearing messages"
