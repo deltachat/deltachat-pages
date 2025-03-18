@@ -153,20 +153,24 @@ may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing m
 
 ### What does the green dot mean?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [webxdc app](#webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+next to the avatar of a contact.
+It means they were **recently seen** in the last 10 minutes:
+
+- either because they messaged you directly,
+- because they wrote something to a group you are both a member of,
+- because they sent you a read receipt for a message you wrote,
+- because they edit or delete a message in a chat shared with you,
+- or because they use an [app](#webxdc) in a chat shared with you.
+
+So this is not a real time online status -
+and if someone doesn't answer right away even though they seem to be online,
+don't worry and give them some space :)
+
+On the other hand, others will not always "see that you are online".
+If you have turned off read receipts,
+they will not see the green dot
+until one of the above conditions are met.
 
 
 ### Correct typos and delete messages after sending {#edit}
