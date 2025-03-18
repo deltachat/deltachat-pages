@@ -24,9 +24,7 @@ Serwery Chatmail są zoptymalizowane do przesyłania wiadomości za pomocą Delt
 - [tarpit.fun](https://tarpit.fun)
   ma hostowany w Austrii i jest stabilny od grudnia 2024 r.
 
-There are also additional chatmail servers not listed publically.  
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Istnieją również dodatkowe serwery chatmail, które nie są publicznie wymieniane. Wszystkie serwery chatmail są obsługiwane przez różne grupy i osoby. Domyślny serwer nine.testrun.org jest obsługiwany przez głównych członków zespołu Delta Chat.
 
 
 ## Czy zamiast chatmaila mogę także używać zwykłego serwera poczty e-mail?

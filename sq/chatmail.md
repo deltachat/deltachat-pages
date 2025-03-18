@@ -34,9 +34,9 @@ mandej prekni kodin QR të ftesës atje:
 - [tarpit.fun](https://tarpit.fun)
   strehohet në Austria dhe ka qenë i qëndrueshëm që prej dhjetorit të 2024-s.
 
-There are also additional chatmail servers not listed publically.  
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Ka edhe shërbyes të tjerë “chatmail”, të paparaqitur publikisht.  
+Krejt shërbyesit “chatmail” mbahen në punë nga grupe dhe persona të ndryshëm. 
+Shërbyesi parazgjedhje nine.testrun.org mbahet në punë nga anëtarët bazë të ekipit të Delta Chat-it. 
 
 
 ## A mund të përdor edhe shërbim të zakonshëm email-i, në vend se “chatmail”?
