@@ -936,7 +936,7 @@ it will be deleted on your desktop as soon as it comes online again.
 
 Notable exceptions are [Delete old messages from Device](#delold),
 as different devices may have different storage capacities,
-and some very system specific settings as notification sounds.
+and system specific settings as notification sounds.
 
 
 ### Are there any plans for introducing a Delta Chat Web Client?
