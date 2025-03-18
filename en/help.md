@@ -898,6 +898,18 @@ This method is only recommended if "Add Second Device" as described above does n
 - You are now synchronized, and can use both devices for sending and receiving
   end-to-end encrypted messages with your communication partners.
 
+### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+
+Yes.
+
+If you e.g. delete a chat or a message from your phone,
+it will be deleted on your desktop as soon as it comes online again.
+
+Notable exceptions are [Delete old messages from Device](#delold),
+as different devices may have different storage capacities,
+and some very system specific settings as notification sounds.
+
+
 ### Are there any plans for introducing a Delta Chat Web Client?
 
 - There are no immediate plans but some preliminary thoughts.
