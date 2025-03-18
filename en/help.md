@@ -817,7 +817,7 @@ from most recent to older:
 
 ### Can I use Delta Chat on multiple devices at the same time?
 
-Yes. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
+Yes. You can use the same profile on different devices:
 
 - Make sure both devices are on the same Wi-Fi or network
 
@@ -854,6 +854,9 @@ One device is not needed for the other to work.
 
 - **Guest Networks** may not allow devices to communicate with each other.
   If possible, use a non-guest network.
+
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
 
 - Ensure there is **enough storage** on the destination device
 
