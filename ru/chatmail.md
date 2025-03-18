@@ -32,9 +32,9 @@ lang: ru
 - [tarpit.fun](https://tarpit.fun)
   расположен в Австрии и работает стабильно с декабря 2024 года.
 
-There are also additional chatmail servers not listed publically.  
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Существуют и другие серверы chatmail, которые не указаны в публичных списках. 
+Все серверы chatmail управляются различными группами и людьми. 
+Сервер по умолчанию nine.testrun.org управляется членами основной команды Delta Chat.
 
 
 ## Можно ли использовать обычный сервер электронной почты вместо chatmail?

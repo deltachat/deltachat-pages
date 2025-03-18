@@ -736,14 +736,14 @@ Signal и большинство других мессенджеров, подд
 
 ### Можно ли повторно использовать существующий секретный ключ? {#importkey}
 
-No. 
+Нет.
 
-Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1. 
-You can export your private key but you can not import additional private keys. 
+Delta Chat генерирует безопасные ключи OpenPGP в соответствии со спецификацией Autocrypt 1.1. 
+Вы можете экспортировать свой закрытый ключ, но не можете импортировать дополнительные закрытые ключи.
 
-In general, we do not recommend or offer users to perform manual key management. 
-We want to ensure that security audits can focus on a few proven cryptographic algorithms 
-instead of the full breath of possible algorithms allowed with OpenPGP. 
+В целом, мы не рекомендуем и не предлагаем пользователям выполнять ручное управление ключами. 
+Мы стремимся к тому, чтобы аудиты безопасности могли сосредоточиться на нескольких проверенных криптографических алгоритмах, 
+а не на всем разнообразии возможных алгоритмов, доступных с OpenPGP.
 
 ### Проходил ли Delta Chat независимую проверку на наличие уязвимостей безопасности? {#security-audits}
 

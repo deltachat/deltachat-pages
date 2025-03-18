@@ -32,9 +32,9 @@ is georiënteerd op Italiaanssprekenden
 - [tarpit.fun](https://tarpit.fun)
 wordt beheerd vanuit Oostenrijk en is sinds december 2024 stabiel verklaard.
 
-There are also additional chatmail servers not listed publically.  
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+Ook zijn er chatmailservers die niet publiekelijk worden vermeld.
+Alle chatmailservers worden beheerd door verschillende (groepen) mensen. 
+De nine.testrun.org-server wordt beheerd door personen van het Delta Chat-team.
 
 
 ## Kan ik ook gebruikmaken van een gewone e-mailserver?
