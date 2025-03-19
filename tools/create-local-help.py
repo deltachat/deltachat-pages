@@ -27,11 +27,15 @@ import argparse
 # list all files that should go to the local help here.
 # the path should be the path used eg. in the <img> tag.
 linked_files = [
+    "assets/help/edit-icon.png",
+    "assets/help/go-to-original.png",
     "assets/help/green-checkmark.png",
     "assets/help/green-checkmark-screenshot.png",
+    "assets/help/green-dot.png",
     "assets/help/lock-icon.png",
     "assets/help/lock-screenshot.png",
     "assets/help/qr-icon.png",
+    "assets/help/saved-icon.png",
     "assets/home/delta-what-optim.png"
 ]
 
