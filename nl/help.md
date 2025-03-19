@@ -128,20 +128,61 @@ Archiveer of maak een gesprek vast door het gesprek in kwestie lang ingedrukt te
 Negeer een gesprek via het gespreksmenu (Android/computer) of het gespreksprofiel (iOS).
 
 
+### How do "Saved Messages" work? {#save}
+
+**Saved Messages** is a chat that you can use to easily remember and find messages.
+
+- In any chat, long tap or right click a message and select **Save**
+
+- Saved messages are marked by the symbol
+  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  next to the timestamp
+
+- Later, open the "Saved Messages" chat - and you will see the saved messages there.
+  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  you can go back to the original message in the original chat
+
+- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+
+- As "Saved Message" are synced, they can become very handy for transferring data between devices
+
+Messages stay saved even if they are edited or deleted -
+may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+
+
 ### Wat betekent die groene stip?
 
-- Sinds Delta Chat 1.34 wordt er soms een groen stipje naast een profielfoto van een
-  contactpersoon getoond. Dit betekent dat ze onlangs actief waren,
-  dat wil zeggen: in de afgelopen 10 minuten. Dit komt omdat ze
-  - je een bericht hebben gestuurd;
-  - iets in een van je groepen hebben geplaatst;
-  - een leesbevestiging hebben verstuurd;
-  - gegevens naar je Delta Chat-app middels een zogeheten
-    [privé-app](#webxdc) hebben verstuurd.
-- De online-status is dus **niet** realtime. Geef ze dus even de tijd om te antwoorden. ;-)
-- Anderen kunnen ook niet altijd zien dat je actief was. Als je
-  leesbevestigingen hebt uitgeschakeld, dan wordt er geen groen stipje getoond totdat je
-  iemand benaderd of iets in een groep plaatst..
+Wordt er soms een **groen stipje** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> naast een profielfoto van een
+contactpersoon getoond. Dit betekent dat ze onlangs actief waren,
+dat wil zeggen: in de afgelopen 10 minuten. Dit komt omdat ze
+
+- je een bericht hebben gestuurd;
+- iets in een van je groepen hebben geplaatst;
+- een leesbevestiging hebben verstuurd;
+- gegevens naar je Delta Chat-app middels een zogeheten [privé-app](#webxdc) hebben verstuurd.
+
+De online-status is dus **niet** realtime. Geef ze dus even de tijd om te antwoorden :)
+
+Anderen kunnen ook niet altijd zien dat je actief was. Als je
+leesbevestigingen hebt uitgeschakeld, dan wordt er geen groen stipje getoond totdat je
+iemand benaderd of iets in een groep plaatst..
+
+
+### Correct typos and delete messages after sending {#edit}
+
+- You can edit the text of your messages after sending.
+  For that, long tap or right click the message and select **Edit**
+  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+
+- If you have sent a message accidentally,
+  from the same menu, select **Delete** and then **Delete for Everyone**.
+
+While edited messages will have the word "Edited" next to the timestamp,
+deleted messages will be removed without a marker in the chat.
+Notifications are not sent and there is no time limit.
+
+Note, that the original message may still be received by chat members
+who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
 ### How do disappearing messages work? {#ephemeralmsgs}
@@ -807,7 +848,7 @@ from most recent to older:
 
 ### Kan ik Delta Chat op meerdere apparaten tegelijk gebruiken?
 
-Ja, Delta Chat 1.36 bevat een nieuwe, experimentele functie om hetzelfde account op meerdere apparaten te gebruiken:
+Yes. You can use the same profile on different devices:
 
 - Controleer of beide apparaten verbonden zijn met hetzelfde (wifi)netwerk
 
@@ -844,6 +885,9 @@ op beide apparaten**. Hierdoor hoef je niet het ene apparaat bij de hand te hebb
 - **Guest Networks** may not allow devices to communicate with each other.
   If possible, use a non-guest network.
 
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+
 - Zorg voor **voldoende ruimte** op het bestemmingsapparaat
 
 - Zorg dat beide apparaten tijdens de overdracht **ingeschakeld blijven** en niet op zwart/in de slaapstand gaan.
@@ -873,6 +917,18 @@ Deze methode is vooral bedoeld voor situaties waarin ‘Tweede apparaat toevoege
     help you.
 - You are now synchronized, and can use both devices for sending and receiving
   end-to-end encrypted messages with your communication partners.
+
+### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+
+Yes.
+
+If you e.g. delete a chat or a message from your phone,
+it will be deleted on your desktop as soon as it comes online again.
+
+Notable exceptions are [Delete old messages from Device](#delold),
+as different devices may have different storage capacities,
+and system specific settings as notification sounds.
+
 
 ### Bestaan er plannen om een Delta Chat-webclient te maken?
 

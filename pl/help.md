@@ -94,16 +94,57 @@ Użyj tych narzędzi, aby uporządkować swoje czaty i mieć wszystko na swoim m
 Aby skorzystać z tych funkcji, przytrzymaj dłużej lub kliknij prawym przyciskiem myszy czat na liście czatów.
 
 
+### How do "Saved Messages" work? {#save}
+
+**Saved Messages** is a chat that you can use to easily remember and find messages.
+
+- In any chat, long tap or right click a message and select **Save**
+
+- Saved messages are marked by the symbol
+  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  next to the timestamp
+
+- Later, open the "Saved Messages" chat - and you will see the saved messages there.
+  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  you can go back to the original message in the original chat
+
+- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+
+- As "Saved Message" are synced, they can become very handy for transferring data between devices
+
+Messages stay saved even if they are edited or deleted -
+may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+
+
 ### Co oznacza zielona kropka?
 
-- Od wersji Delta Chat 1.34 czasami można zobaczyć „zieloną kropkę” obok awatara kontaktu. Oznacza to, że był on „niedawno widziany”.
-- Dokładnie oznacza to, że w ciągu ostatnich 10 minut Delta Chat widział go:
+Czasami można zobaczyć **zieloną kropkę** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> obok awatara kontaktu. Oznacza to, że był on „niedawno widziany”. Dokładnie oznacza to, że w ciągu ostatnich 10 minut Delta Chat widział go:
+
 - dlatego, że wysłał Ci bezpośrednio wiadomość,
 - ponieważ napisał coś do grupy, której oboje jesteście członkami,
 - ponieważ wysłał Ci potwierdzenie przeczytania napisanej przez Ciebie wiadomości,
 - lub dlatego, że wysłał dane do Twojej aplikacji Delta Chat za pomocą [Webxdc aplikacji](#webxdc).
-- Nie jest to więc status online w czasie rzeczywistym – a jeśli ktoś nie odpowie od razu, mimo że wydaje się, że jest online, nie martw się i daj mu trochę miejsca ;-)
-- Z drugiej strony inni nie zawsze „zobaczą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą oni zielonej kropki, dopóki nie wyślesz do nich wiadomości lub nie napiszesz do grupy, w której również się znajdują.
+
+Nie jest to więc status online w czasie rzeczywistym – a jeśli ktoś nie odpowie od razu, mimo że wydaje się, że jest online, nie martw się i daj mu trochę miejsca :)
+
+Z drugiej strony inni nie zawsze „zobaczą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą oni zielonej kropki, dopóki nie wyślesz do nich wiadomości lub nie napiszesz do grupy, w której również się znajdują.
+
+
+### Correct typos and delete messages after sending {#edit}
+
+- You can edit the text of your messages after sending.
+  For that, long tap or right click the message and select **Edit**
+  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+
+- If you have sent a message accidentally,
+  from the same menu, select **Delete** and then **Delete for Everyone**.
+
+While edited messages will have the word "Edited" next to the timestamp,
+deleted messages will be removed without a marker in the chat.
+Notifications are not sent and there is no time limit.
+
+Note, that the original message may still be received by chat members
+who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
 ### Jak działają znikające wiadomości? {#ephemeralmsgs}
@@ -454,7 +495,7 @@ Problemy opisane w tych ostrzeżeniach zostały naprawione i są częścią wyda
 
 ### Czy mogę korzystać z Delta Chat na wielu urządzeniach w tym samym czasie?
 
-Tak. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
+Tak. You can use the same profile on different devices:
 
 - Upewnij się, że oba urządzenia są połączone z tego samego Wi-Fi lub sieci
 
@@ -485,6 +526,9 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 
 - **Sieci dla gości** mogą nie pozwalać urządzeniom na komunikację między sobą. Jeśli to możliwe, korzystaj z sieci innej niż gość.
 
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+
 - Upewnij się, że na urządzeniu docelowym jest **wystarczająca ilość miejsca**
 
 - Jeśli przenoszenie się rozpoczęło, upewnij się, że urządzenia **pozostają aktywne** i nie zasypiają. Nie wychodź z Delta Chat. (dokładamy wszelkich starań, aby aplikacja działała w tle, ale [systemy mają tendencję do ubijania aplikacji](https://dontkillmyapp.com), niestety)
@@ -502,6 +546,18 @@ Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne
 - Na nowym urządzeniu, na ekranie logowania, zamiast logować się na swoje konto e-mail, wybierz „Przywróć z kopii zapasowej”. Po zaimportowaniu Twoje rozmowy, klucze szyfrujące i multimedia powinny zostać skopiowane na nowe urządzenie.
   - **Jeśli korzystasz z iOS** i napotykasz trudności, może [ten poradnik](https://support.delta.chat/t/import-backup-to-ios/1628) Ci pomoże.
 - Jesteś teraz zsynchronizowany i możesz używać obu urządzeń do wysyłania i odbierania wiadomości zaszyfrowanych end-to-end w komunikacji ze swoimi partnerami.
+
+### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+
+Tak.
+
+If you e.g. delete a chat or a message from your phone,
+it will be deleted on your desktop as soon as it comes online again.
+
+Notable exceptions are [Delete old messages from Device](#delold),
+as different devices may have different storage capacities,
+and system specific settings as notification sounds.
+
 
 ### Czy są jakieś plany wprowadzenia klienta Web Delta Chat?
 

@@ -114,16 +114,57 @@ Verwenden Sie diese Tools, um Ihre Chats zu organisieren:
 Um die Funktionen zu nutzen, lang auf einen Chat in der Chatliste tippen oder den Chat mit der rechten Maustaste anklicken.
 
 
+### Wie funktionieren "Gespeicherte Nachrichten"? {#save}
+
+**Gespeicherte Nachrichten** ist ein Chat, den Sie verwenden können, um sich Nachrichten zu merken und wiederzufinden.
+
+- Tippen Sie in einem beliebigen Chat lange auf eine Nachricht oder klicken Sie mit der rechten Maustaste darauf und wählen **Speichern**.
+
+- Gespeicherte Nachrichten werden mit dem Symbol
+  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  neben dem Datum markiert
+
+- Öffnen Sie später den Chat „Gespeicherte Nachrichten“, sehen Sie dort die gespeicherten Nachrichten.
+Durch Tippen auf <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+können Sie zu der ursprünglichen Nachricht im ursprünglichen Chat zurückkehren
+
+- Schließlich können Sie auch „Gespeicherte Nachrichten“ verwenden, um **persönliche Notizen** zu machen - öffnen Sie den Chat, geben Sie etwas ein, fügen Sie ein Foto oder eine Sprachnachricht hinzu usw.
+
+- Da „Gespeicherte Nachrichten“ synchronisiert werden, können sie sehr praktisch für die Übertragung von Daten zwischen Geräten sein
+
+Nachrichten bleiben gespeichert, auch wenn sie bearbeitet oder gelöscht werden -
+sei es durch den [Absender](#edit), durch [Automatisches Löschen](#delold) oder durch [verschwindende Nachrichten anderer Chats](#ephemeralmsgs).
+
+
 ### Was bedeutet der grüne Punkt?
 
-- Seit Delta Chat 1.34 sehen Sie manchmal einen "grünen Punkt" neben dem Avatar eines Kontakts. Es bedeutet, dass der Kontakt "kürzlich gesehen" wurde.
-- Im Detail: Das bedeutet, dass Delta Chat den Kontakt in den letzten 10 Minuten gesehen hat:
-  - entweder weil der Kontakt Ihnen direkt eine Nachricht gesendet hat,
-  - weil der Kontakt etwas an eine Gruppe geschrieben hat, in der sie beide Mitglied sind,
-  - weil der Kontakt Ihnen eine Lesebestätigung für eine von Ihnen geschriebene Nachricht gesendet hat
-  - oder weil der Kontakt Daten mithilfe einer [Webxdc-App](#webxdc) an Ihre Delta-Chat-App gesendet hat.
-- Dies ist also kein Echtzeit-Online-Status - und wenn jemand nicht sofort antwortet, obwohl er online zu sein scheint, machen Sie sich keine Sorgen und geben Sie ihm etwas Raum. ;-)
-- Andererseits werden andere nicht immer "sehen, dass Sie online sind". Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn Sie ihnen eine Nachricht senden oder einer Gruppe schreiben, in der sie sich ebenfalls befinden.
+Sie können manchmal einen “grünen Punkt” <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> neben dem Avatar eines Kontakts sehen. Es bedeutet, dass der Kontakt **kürzlich gesehen** wurde, in den letzten 10 Minuten:
+
+- entweder weil der Kontakt Ihnen direkt eine Nachricht gesendet hat,
+- weil der Kontakt etwas an eine Gruppe geschrieben hat, in der sie beide Mitglied sind,
+- weil der Kontakt Ihnen eine Lesebestätigung für eine von Ihnen geschriebene Nachricht gesendet hat
+- weil der Kontakt eine Nachricht bearbeitet oder gelöscht hat
+- oder weil der Kontakt Daten mithilfe einer [App](#webxdc) in einem geteilten Chat gesendet hat.
+
+Dies ist also kein Echtzeit-Online-Status - und wenn jemand nicht sofort antwortet, obwohl er online zu sein scheint, machen Sie sich keine Sorgen und geben Sie ihm etwas Raum. ;-)
+
+Andererseits werden andere nicht immer “sehen, dass Sie online sind”. Wenn Sie Lesebestätigungen deaktiviert haben, sehen sie den grünen Punkt erst, wenn einer der oben aufgeführten Punkte erfüllt ist.
+
+
+### Schreibfehler korrigieren und Nachrichten nach dem Senden löschen {#edit}
+
+- Sie können den Text Ihrer Nachrichten nach dem Senden bearbeiten.
+Tippen Sie dazu lange auf die Nachricht oder klicken Sie mit der rechten Maustaste auf die Nachricht und wählen Sie **Bearbeiten** oder <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>
+
+- Wenn Sie versehentlich eine Nachricht gesendet haben,
+wählen Sie im selben Menü **Löschen** und dann **Für alle löschen**.
+
+Während bei bearbeiteten Nachrichten das „Bearbeitet“ neben dem Datum erscheint,
+werden gelöschte Nachrichten ohne Markierung im Chat entfernt.
+Es werden keine Benachrichtigungen verschickt und es gibt kein Zeitlimit.
+
+Beachten Sie, dass die ursprüngliche Nachricht dennoch von Chatteilnehmern empfangen werden konnte,
+die die Nachricht bereits beantwortet, weitergeleitet, gespeichert, mit einem Screenshot versehen oder anderweitig kopiert haben könnten.
 
 
 ### Wie funktionieren "Verschwindende Nachrichten"? {#ephemeralmsgs}
@@ -711,7 +752,7 @@ Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schwe
 
 ### Kann ich Delta Chat auf mehreren Geräten zur selben Zeit verwenden?
 
-Ja. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
+Ja. You can use the same profile on different devices:
 
 - Stellen Sie sicher, dass sich beide Geräte im selben Wi-Fi oder Netzwerk befinden
 
@@ -743,6 +784,9 @@ und sicherstellen, dass **Privates Netzwerk** als "Netzwerkprofiltyp" ausgewähl
 - In **Gastnetzwerken** z.B. der **Fritz!Box**, können Geräte möglicherweise nicht miteinander kommunizieren.
 Verwenden Sie nach Möglichkeit ein Nicht-Gast-Netzwerk. Wenn Sie Zugriff auf den Router haben, können Sie auch die Kommunikation der Geräte untereinander für die Dauer der Übertragung erlauben.
 
+- Wenn Sie immer noch Probleme bei der Verwendung desselben Netzwerks haben,
+versuchen Sie, einen **Mobilen Hotspot** auf einem Gerät zu öffnen und sich mit dem anderen Gerät in dieses WLAN einzuwählen.
+
 - Vergewissern Sie sich, dass das Zielgerät über **genügend Speicher** verfügt
 
 - Wenn die Übertragung begonnen hat, stellen Sie sicher, dass die Geräte **aktiv bleiben** und nicht ausgehen. Beenden Sie Delta Chat nicht. (wir bemühen uns, die App im Hintergrund laufen zu lassen, aber [Systeme neigen dazu, Apps zu beenden](https://dontkillmyapp.com), leider)
@@ -760,6 +804,18 @@ Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben be
 - Auf dem neuen Gerät, auf dem Anmeldebildschirm, wählen Sie, anstatt sich bei Ihrem E-Mail-Konto anzumelden, "Wiederherstellen aus Backup". Nach dem Import sollten Ihre Unterhaltungen, Verschlüsselungsschlüssel und Medien auf das neue Gerät kopiert sein.
   - **Wenn Sie iOS verwenden** und auf Schwierigkeiten stoßen, hilft Ihnen vielleicht [diese Anleitung](https://support.delta.chat/t/import-backup-to-ios/1628).
 - Sie sind nun synchronisiert und können beide Geräte zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten-Nachrichten mit Ihren Kommunikationspartnern verwenden.
+
+### Wird Löschen, Anheften, Archivieren, Speichern, Stummschalten usw. über alle Geräte synchronisiert?
+
+Ja.
+
+Wenn Sie z.B. einen Chat oder eine Nachricht von Ihrem Telefon löschen,
+wird sie auch auf Ihrem Desktop gelöscht, sobald dieser online ist.
+
+Ausnahmen sind [Alte Nachrichten vom Gerät löschen](#delold),
+da verschiedene Geräte unterschiedliche Speicherkapazitäten haben können,
+und systemspezifische Einstellungen wie Benachrichtigungstöne.
+
 
 ### Gibt es Pläne für eine Delta-Chat-Web-Anwendung?
 

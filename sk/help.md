@@ -129,22 +129,65 @@ Use these tools to organize your chats and keep everything in its place:
 To use the functions, long tap or right click a chat in the chat list.
 
 
+### How do "Saved Messages" work? {#save}
+
+**Saved Messages** is a chat that you can use to easily remember and find messages.
+
+- In any chat, long tap or right click a message and select **Save**
+
+- Saved messages are marked by the symbol
+  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  next to the timestamp
+
+- Later, open the "Saved Messages" chat - and you will see the saved messages there.
+  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  you can go back to the original message in the original chat
+
+- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+
+- As "Saved Message" are synced, they can become very handy for transferring data between devices
+
+Messages stay saved even if they are edited or deleted -
+may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+
+
 ### What does the green dot mean?
 
-- Since Delta Chat 1.34 you can sometimes see a "green dot" next to the avatar
-  of a contact. It means they were "recently seen".
-- In detail: it means, that in the last 10 minutes, Delta Chat has seen them:
-  - either because they messaged you directly,
-  - because they wrote something to a group you are both a member of,
-  - because they sent you a read receipt for a message you wrote,
-  - or because they sent data to your Delta Chat app by using a
-    [webxdc app](#webxdc).
-- So this is not a real time online status - and if someone doesn't answer
-  right away even though they seem to be online, don't worry and give them some
-  space ;-)
-- On the other hand, others will not always "see that you are online". If you
-  have turned off read receipts, they will not see the green dot until you
-  message them or write to a group they're in as well.
+You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+next to the avatar of a contact.
+It means they were **recently seen** in the last 10 minutes:
+
+- either because they messaged you directly,
+- because they wrote something to a group you are both a member of,
+- because they sent you a read receipt for a message you wrote,
+- because they edit or delete a message in a chat shared with you,
+- or because they use an [app](#webxdc) in a chat shared with you.
+
+So this is not a real time online status -
+and if someone doesn't answer right away even though they seem to be online,
+don't worry and give them some space :)
+
+On the other hand, others will not always "see that you are online".
+If you have turned off read receipts,
+they will not see the green dot
+until one of the above conditions are met.
+
+
+### Correct typos and delete messages after sending {#edit}
+
+- You can edit the text of your messages after sending.
+  For that, long tap or right click the message and select **Edit**
+  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+
+- If you have sent a message accidentally,
+  from the same menu, select **Delete** and then **Delete for Everyone**.
+
+While edited messages will have the word "Edited" next to the timestamp,
+deleted messages will be removed without a marker in the chat.
+Notifications are not sent and there is no time limit.
+
+Note, that the original message may still be received by chat members
+who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
 ### How do disappearing messages work? {#ephemeralmsgs}
@@ -813,7 +856,7 @@ from most recent to older:
 
 ### Môžem používať Delta Chat na viacerých zariadeniach súčasne?
 
-Yes. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
+Yes. You can use the same profile on different devices:
 
 - Make sure both devices are on the same Wi-Fi or network
 
@@ -851,6 +894,9 @@ One device is not needed for the other to work.
 - **Guest Networks** may not allow devices to communicate with each other.
   If possible, use a non-guest network.
 
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+
 - Ensure there is **enough storage** on the destination device
 
 - If transfer started, make sure, the devices **stay active** and do not fall asleep.
@@ -880,6 +926,18 @@ This method is only recommended if "Add Second Device" as described above does n
     help you.
 - You are now synchronized, and can use both devices for sending and receiving
   end-to-end encrypted messages with your communication partners.
+
+### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+
+Yes.
+
+If you e.g. delete a chat or a message from your phone,
+it will be deleted on your desktop as soon as it comes online again.
+
+Notable exceptions are [Delete old messages from Device](#delold),
+as different devices may have different storage capacities,
+and system specific settings as notification sounds.
+
 
 ### Máte nejaké plány na zavedenie webového klienta Delta Chat?
 

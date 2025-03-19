@@ -120,17 +120,59 @@ Delta Chat 感觉就像 Whatsapp 或 Telegram，但你也可以把它当作电�
 要静音一个聊天，可以使用聊天内部的菜单（Android/桌面版）或者通过聊天概要（iOS）。
 
 
+### How do "Saved Messages" work? {#save}
+
+**Saved Messages** is a chat that you can use to easily remember and find messages.
+
+- In any chat, long tap or right click a message and select **Save**
+
+- Saved messages are marked by the symbol
+  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  next to the timestamp
+
+- Later, open the "Saved Messages" chat - and you will see the saved messages there.
+  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  you can go back to the original message in the original chat
+
+- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+
+- As "Saved Message" are synced, they can become very handy for transferring data between devices
+
+Messages stay saved even if they are edited or deleted -
+may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+
+
 ### 绿色圆点代表什么？
 
-- 自 Delta Chat 1.34 版起，您有时可以在联系人头像旁看到一个 "绿点"。
-  绿点。这意味着他们 "最近被看到"。
-- 具体来说：这意味着在过去 10 分钟内，Delta Chat 看到过他们：
-  - 因为他们直接给你发了消息、
-  - 因为他们在你们都是成员的群组里写了什么、
-  - 因为他们向您发送了您所写信息的读取回执、
+您有时可以在联系人头像旁看到一个 "绿点"。
+绿点。这意味着他们 "最近被看到"。<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> 
+具体来说：这意味着在过去 10 分钟内，Delta Chat 看到过他们：
+
+- 因为他们直接给你发了消息、
+- 因为他们在你们都是成员的群组里写了什么、
+- 因为他们向您发送了您所写信息的读取回执、
 - 或者因为他们通过使用 [webxdc 应用程序](#webxdc) 向您的 Delta Chat 应用发送数据。
-- 因此，这并不是实时在线状态 -- 如果有人没有立即回复，即使他们看起来是在线的，也不要担心，给他们一些空间 ;-)
-- 另一方面，别人也不会总是 "看到你在线"。如果您关闭了读取收据功能，他们就不会看到绿点，直到您给他们发消息或给他们所在的群组写信。
+
+因此，这并不是实时在线状态 -- 如果有人没有立即回复，即使他们看起来是在线的，也不要担心，给他们一些空间 :)
+
+另一方面，别人也不会总是 "看到你在线"。如果您关闭了读取收据功能，他们就不会看到绿点，直到您给他们发消息或给他们所在的群组写信。
+
+
+### Correct typos and delete messages after sending {#edit}
+
+- You can edit the text of your messages after sending.
+  For that, long tap or right click the message and select **Edit**
+  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+
+- If you have sent a message accidentally,
+  from the same menu, select **Delete** and then **Delete for Everyone**.
+
+While edited messages will have the word "Edited" next to the timestamp,
+deleted messages will be removed without a marker in the chat.
+Notifications are not sent and there is no time limit.
+
+Note, that the original message may still be received by chat members
+who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
 ### 消息定时销毁是如何工作的？ {#ephemeralmsgs}
@@ -753,7 +795,7 @@ Chat 的 [PGP](https://github.com/rpgp/rpgp) 和
 
 ### 我能同时在多个设备上使用 Delta Chat 吗?
 
-是的。 Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
+是的。 You can use the same profile on different devices:
 
 - 确保两台设备都在同一个 Wi-Fi 或网络中
 
@@ -791,6 +833,9 @@ Chat 的 [PGP](https://github.com/rpgp/rpgp) 和
 - **访客网络**可能不允许设备相互通信。
 如果可能，请使用非访客网络。
 
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+
 - 确保目标设备上有**足够的存储空间**
 
 - 如果传输已开始，请确保设备**保持活动状态**，并且不会进入睡眠状态。
@@ -820,6 +865,18 @@ Chat 的 [PGP](https://github.com/rpgp/rpgp) 和
 帮助你。
 - 你现在已同步，并且可以使用两台设备与你的通信伙伴发送和接收
 端到端加密消息。
+
+### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+
+是的。
+
+If you e.g. delete a chat or a message from your phone,
+it will be deleted on your desktop as soon as it comes online again.
+
+Notable exceptions are [Delete old messages from Device](#delold),
+as different devices may have different storage capacities,
+and system specific settings as notification sounds.
+
 
 ### 有推出 Delta Chat Web 客户端的计划吗？
 
