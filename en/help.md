@@ -65,7 +65,7 @@ If a message comes from an unknown contact, it appears as a **request**.
 
 ### Does Delta Chat support images, videos and other attachments?
 
-- Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
+- Yes. Images, videos, files, voice messages etc. are handled as usual.
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
