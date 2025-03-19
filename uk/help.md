@@ -95,16 +95,65 @@ Delta Chat схожий на Whatsapp або Telegram, але ви також м
 Щоб скористатися функціями, утримуйте натиснутою клавішу або клацніть правою кнопкою миші на чаті у списку чатів.
 
 
+### How do "Saved Messages" work? {#save}
+
+**Saved Messages** is a chat that you can use to easily remember and find messages.
+
+- In any chat, long tap or right click a message and select **Save**
+
+- Saved messages are marked by the symbol
+  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  next to the timestamp
+
+- Later, open the "Saved Messages" chat - and you will see the saved messages there.
+  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  you can go back to the original message in the original chat
+
+- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+
+- As "Saved Message" are synced, they can become very handy for transferring data between devices
+
+Messages stay saved even if they are edited or deleted -
+may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+
+
 ### Що означає зелена точка?
 
-- Починаючи з Delta Chat 1.34, ви іноді можете бачити "зелену крапку" поруч із аватаром контакту. Це означає, що контакт «нещодавно бачили». 
-- Детально: це означає, що за останні 10 хвилин Delta Chat бачив їх: 
-- або тому, що вони надіслали вам повідомлення безпосередньо, 
-- тому що вони написали щось групі, учасником якої є ви обоє, 
-- тому що вони надіслали вам сповіщення про прочитання повідомлення, яке ви написали, 
-- або тому, що вони надіслали дані до вашої програми Delta Chat за допомогою a [приватна програма](#webxdc). 
-– Отже, це не онлайн-статус у реальному часі – і якщо хтось не відповідає відразу, навіть якщо вони, здаються, онлайн, не хвилюйтесь і дайте їм трохи простору ;-) 
-– З іншого боку, інші не завжди «побачать, що ви онлайн». Якщо ви вимкнули сповіщення про прочитання, вони не побачать зелену крапку, доки ви не надішлете їм повідомлення або напишете у групу, до якої вони входять.
+You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+next to the avatar of a contact.
+It means they were **recently seen** in the last 10 minutes:
+
+- either because they messaged you directly,
+- because they wrote something to a group you are both a member of,
+- because they sent you a read receipt for a message you wrote,
+- because they edit or delete a message in a chat shared with you,
+- or because they use an [app](#webxdc) in a chat shared with you.
+
+So this is not a real time online status -
+and if someone doesn't answer right away even though they seem to be online,
+don't worry and give them some space :)
+
+On the other hand, others will not always "see that you are online".
+If you have turned off read receipts,
+they will not see the green dot
+until one of the above conditions are met.
+
+
+### Correct typos and delete messages after sending {#edit}
+
+- You can edit the text of your messages after sending.
+  For that, long tap or right click the message and select **Edit**
+  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+
+- If you have sent a message accidentally,
+  from the same menu, select **Delete** and then **Delete for Everyone**.
+
+While edited messages will have the word "Edited" next to the timestamp,
+deleted messages will be removed without a marker in the chat.
+Notifications are not sent and there is no time limit.
+
+Note, that the original message may still be received by chat members
+who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
 ### Як працюють повідомлення, що зникають? {#ephemeralmsgs}
@@ -462,7 +511,7 @@ instead of the full breath of possible algorithms allowed with OpenPGP.
 
 ### Чи можна використовувати Delta Chat на декількох пристроях одночасно?
 
-Так. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
+Так. You can use the same profile on different devices:
 
 - Упевніться, що обидва пристрої підключені до одного Wi-Fi або мережі
 
@@ -491,6 +540,9 @@ instead of the full breath of possible algorithms allowed with OpenPGP.
 
 - **Гостьові мережі** можуть не дозволяти пристроям зв'язуватися один з одним. Якщо можливо, використовуйте негостьову мережу.
 
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+
 - Переконайтеся, що на цільовому пристрої **достатньо пам’яті**
 
 - Якщо передача почалася, переконайтеся, що пристрої **залишаються активними** і не засинають.  Не виходьте з Delta Chat. (ми докладаємо всіх зусиль, щоб програма працювала у фоновому режимі, але [системи, як правило, вбивають програми](https://dontkillmyapp.com), на жаль)
@@ -508,6 +560,18 @@ instead of the full breath of possible algorithms allowed with OpenPGP.
 - На новому пристрої на екрані входу замість того, щоб увійти до свого облікового запису електронної пошти, виберіть "Імпортувати резервну копію" виберіть "Імпортувати резервну копію". Після імпорту ваші листування, ключі шифрування ключі шифрування та медіа повинні бути скопійовані на новий пристрій.
   - Якщо ви користуєтеся iOS:** і у вас виникли труднощі, можливо [цей посібник](https://support.delta.chat/t/import-backup-to-ios/1628) допоможе вам.
 - Тепер ви синхронізовані і можете використовувати обидва пристрої для надсилання та отримання наскрізно зашифрованих повідомлень зі своїми партнерами по спілкуванню.
+
+### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+
+Так.
+
+If you e.g. delete a chat or a message from your phone,
+it will be deleted on your desktop as soon as it comes online again.
+
+Notable exceptions are [Delete old messages from Device](#delold),
+as different devices may have different storage capacities,
+and system specific settings as notification sounds.
+
 
 ### Чи планується впровадження веб-клієнта Delta Chat?
 

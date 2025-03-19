@@ -130,22 +130,61 @@ Që të arkivoni ose fiksoni një fjalosje, prekeni gjatë (në Android), përdo
 që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Desktop), ose profilin e fjalosjes (në iOS).
 
 
+### How do "Saved Messages" work? {#save}
+
+**Saved Messages** is a chat that you can use to easily remember and find messages.
+
+- In any chat, long tap or right click a message and select **Save**
+
+- Saved messages are marked by the symbol
+  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  next to the timestamp
+
+- Later, open the "Saved Messages" chat - and you will see the saved messages there.
+  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  you can go back to the original message in the original chat
+
+- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+
+- As "Saved Message" are synced, they can become very handy for transferring data between devices
+
+Messages stay saved even if they are edited or deleted -
+may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+
+
 ### Ç’do të thotë pika e gjelbër?
 
-- Nga Delta Chat 1.34 e këtej mundeni të shihni ndonjëherë një “pikë të gjelbër”
-  në krah të avatarit të një kontakti. Ajo do të thotë se është “parë së fundi”.
-- Hollësisht: do të thotë se, në 10 minutat e fundit, Delta Chat-i i ka parë:
-  - ose pse ju dërguan mesazh drejtpërsëdrejti,
-  - ngaqë shkruan diçka te një grup ku jeni pjesë të dy palët,
-  - ngaqë ju dërguan një dëftesë leximi për një mesazh që shkruat,
-  - ose ngaqë dërguan të dhëna te aplikacioni juaj Delta Chat përmes një
-    [aplikacioni webxdc](#webxdc).
-- Pra, kjo s’është gjendje e njëmendtë aty për aty për qenie në linjë - dhe
-  nëse dikush nuk përgjigjet menjëherë, edhe pse duket të jetë në linjë, mos
-  u merakosni dhe lëruni ca kohë ;-)
-- Më anë tjetër, të tjerët jo përherë “do të shohin se jeni në linjë”. Nëse keni
-  çaktivizuar dëftesa leximesh, s’do të shohin pikën e gjelbër para se ju
-  t’u dërgoni një mesazh, ose të shkruani te një grup ku bëjnë pjesë edhe ata.
+Këtej mundeni të shihni ndonjëherë një **pikë të gjelbër** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> në krah të avatarit të një kontakti. Hollësisht: do të thotë se, në 10 minutat e fundit, Delta Chat-i i ka parë:
+
+- ose pse ju dërguan mesazh drejtpërsëdrejti,
+- ngaqë shkruan diçka te një grup ku jeni pjesë të dy palët,
+- ngaqë ju dërguan një dëftesë leximi për një mesazh që shkruat,
+- ose ngaqë dërguan të dhëna te aplikacioni juaj Delta Chat përmes një [aplikacioni webxdc](#webxdc).
+
+Pra, kjo s’është gjendje e njëmendtë aty për aty për qenie në linjë - dhe
+nëse dikush nuk përgjigjet menjëherë, edhe pse duket të jetë në linjë, mos
+u merakosni dhe lëruni ca kohë :)
+
+Më anë tjetër, të tjerët jo përherë “do të shohin se jeni në linjë”. Nëse keni
+çaktivizuar dëftesa leximesh, s’do të shohin pikën e gjelbër para se ju
+t’u dërgoni një mesazh, ose të shkruani te një grup ku bëjnë pjesë edhe ata.
+
+
+### Correct typos and delete messages after sending {#edit}
+
+- You can edit the text of your messages after sending.
+  For that, long tap or right click the message and select **Edit**
+  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+
+- If you have sent a message accidentally,
+  from the same menu, select **Delete** and then **Delete for Everyone**.
+
+While edited messages will have the word "Edited" next to the timestamp,
+deleted messages will be removed without a marker in the chat.
+Notifications are not sent and there is no time limit.
+
+Note, that the original message may still be received by chat members
+who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
 ### How do disappearing messages work? {#ephemeralmsgs}
@@ -814,7 +853,7 @@ from most recent to older:
 
 ### A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
 
-Po Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
+Po You can use the same profile on different devices:
 
 - Siguroni që të dyja pajisjet të gjenden në të njëjtin rrjet Wi-Fi, ose me fill
 
@@ -852,6 +891,9 @@ Njëra pajisja s’ka nevojë për tjetrën që të funksionojë.
 - **Guest Networks** may not allow devices to communicate with each other.
   If possible, use a non-guest network.
 
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+
 - Garantoni se ka **depozitë të mjaftueshme** te pajisja vendmbërritje
 
 - Nëse shpërngulja nisni, siguroni që pajisja **mbetet aktive** dhe nuk bie në gjumë.
@@ -881,6 +923,18 @@ Kjo metodë rekomandohet vetëm nëse “Shtoni Pajisje të Dytë” si përshkr
     help you.
 - You are now synchronized, and can use both devices for sending and receiving
   end-to-end encrypted messages with your communication partners.
+
+### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+
+Po
+
+If you e.g. delete a chat or a message from your phone,
+it will be deleted on your desktop as soon as it comes online again.
+
+Notable exceptions are [Delete old messages from Device](#delold),
+as different devices may have different storage capacities,
+and system specific settings as notification sounds.
+
 
 ### A ka ndonjë plan për të sjellë një Klient Web Delta Chat?
 

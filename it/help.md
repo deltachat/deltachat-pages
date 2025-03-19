@@ -129,22 +129,60 @@ Per archiviare o fissare una chat, premi a lungo (Android), usa il menu della ch
 per silenziare una chat, usa il menu della chat (Android/Desktop) o il profilo della chat (iOS).
 
 
+### How do "Saved Messages" work? {#save}
+
+**Saved Messages** is a chat that you can use to easily remember and find messages.
+
+- In any chat, long tap or right click a message and select **Save**
+
+- Saved messages are marked by the symbol
+  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  next to the timestamp
+
+- Later, open the "Saved Messages" chat - and you will see the saved messages there.
+  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  you can go back to the original message in the original chat
+
+- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+
+- As "Saved Message" are synced, they can become very handy for transferring data between devices
+
+Messages stay saved even if they are edited or deleted -
+may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+
+
 ### Cosa significa il punto verde?
 
-- A partire da Delta Chat 1.34 a volte puoi vedere un "punto verde" accanto all'avatar
-  di un contatto. Significa che è stato "visto di recente".
-- Nel dettaglio: significa che negli ultimi 10 minuti Delta Chat lo ha visto:
+A volte puoi vedere un **punto verde** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> accanto all'avatar
+- di un contatto. Significa che è stato "visto di recente". Nel dettaglio: significa che negli ultimi 10 minuti Delta Chat lo ha visto:
+
 - o perché ti ha inviato un messaggio direttamente,
 - perché ha scritto qualcosa a un gruppo di cui siete entrambi membri,
 - perché ti ha inviato una conferma di lettura per un messaggio che hai scritto,
-- o perché ha inviato dati alla tua app Delta Chat utilizzando l'
-[applicazione webxdc](#webxdc).
-- Quindi questo non è uno stato online in tempo reale - e se qualcuno non risponde
-subito anche se sembra online, non preoccuparti e dagli un po'
-di spazio ;-)
+- o perché ha inviato dati alla tua app Delta Chat utilizzando l'[applicazione webxdc](#webxdc).
+
+- Quindi questo non è uno stato online in tempo reale - e se qualcuno non risponde subito anche se sembra online, non preoccuparti e dagli un po' di spazio :)
+
 - D'altra parte, non sempre gli altri "vedranno che sei online". Se tu
 hai disattivato le conferme di lettura, non vedranno il punto verde finché non lo farai tu
 invia loro un messaggio o scrivi anche a un gruppo a cui appartengono.
+
+
+### Correct typos and delete messages after sending {#edit}
+
+- You can edit the text of your messages after sending.
+  For that, long tap or right click the message and select **Edit**
+  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+
+- If you have sent a message accidentally,
+  from the same menu, select **Delete** and then **Delete for Everyone**.
+
+While edited messages will have the word "Edited" next to the timestamp,
+deleted messages will be removed without a marker in the chat.
+Notifications are not sent and there is no time limit.
+
+Note, that the original message may still be received by chat members
+who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
 ### Come funzionano i messaggi a scomparsa? {#ephemeralmsgs}
@@ -802,7 +840,7 @@ Puoi leggere il [rapporto completo qui](../assets/blog/2019-first-security-revie
 
 ### Posso utilizzare Delta Chat su più dispositivi contemporaneamente?
 
-Sì. Delta Chat 1.36 comes with a new, experimental function for using the same profile on different devices:
+Sì. You can use the same profile on different devices:
 
 - Assicurati che entrambi i dispositivi siano collegati alla stessa rete Wi-Fi o network
 
@@ -840,6 +878,9 @@ e assicurati che **Rete Privata** sia selezionata come "Tipo di profilo di rete"
 - **Reti Ospite** potrebbero non consentire ai dispositivi di comunicare tra loro.
 Se possibile, utilizza una rete non ospite.
 
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+
 - Assicurarsi che sul dispositivo di destinazione ci sia **disponibilità di memoria sufficiente**.
 
 - Se il trasferimento è iniziato, assicurarsi che i dispositivi **rimangano attivi** e non si addormentino.
@@ -869,6 +910,18 @@ i tasti e i supporti devono essere copiati sul nuovo dispositivo.
 Aiutarti.
 - Ora sei sincronizzato e puoi utilizzare entrambi i dispositivi per inviare e ricevere
 messaggi crittografati end-to-end con i tuoi partner di comunicazione.
+
+### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+
+Sì.
+
+If you e.g. delete a chat or a message from your phone,
+it will be deleted on your desktop as soon as it comes online again.
+
+Notable exceptions are [Delete old messages from Device](#delold),
+as different devices may have different storage capacities,
+and system specific settings as notification sounds.
+
 
 ### Sono previsti piani per l'introduzione di un client Web Delta Chat?
 
