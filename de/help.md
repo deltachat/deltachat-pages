@@ -47,14 +47,20 @@ um das [„Noch-ein-Standard-Syndrom“ (xkcd 927)](https://xkcd.com/927/) zu ve
 
 ### Was ist, wenn ich eine Nachricht von jemandem erwarte, dem ich in der Vergangenheit nicht geschrieben habe?
 
-- Wenn eine Nachricht von einem unbekannten Kontakt stammt, erscheint sie als **Anfrage**. Sie müssen die Anfrage akzeptieren, bevor Sie antworten können.
-- Sie können sie auch "löschen", wenn Sie vorerst nicht mit ihm chatten möchten. Dadurch wird die Nachricht *nicht* auf dem Server gelöscht, sondern nur auf Ihrem Gerät. Sie können die Nachricht also weiterhin in einer anderen E-Mail-App bearbeiten.
-- Wenn Sie eine Anfrage löschen, werden zukünftige Nachrichten von diesem Kontakt weiterhin als Nachrichtenanfrage angezeigt, sodass Sie Ihre Meinung ändern können. Wenn Sie wirklich keine Nachrichten von dieser Person erhalten möchten, sollten Sie sie *blockieren*.
+Wenn eine Nachricht von einem unbekannten Kontakt stammt, erscheint sie als **Anfrage**.
+
+- Sie müssen die Anfrage **akzeptieren**, bevor Sie antworten können.
+
+- Sie können sie auch "löschen", wenn Sie vorerst nicht mit ihm chatten möchten.
+
+- If you delete a request, future messages from that contact will still appear
+as message request, so you can change your mind. If you really don't want to
+receive messages from this person, consider **blocking** them.
 
 
 ### Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
 
-- Ja. Alle E-Mail-Anhänge werden als separate Nachrichten angezeigt. Ausgehende Nachrichten erhalten bei Bedarf automatisch Anhänge.
+- Ja. Bilder, Videos, Dokumente, Sprachnachrichten usw. funktionieren wie üblich.
 
 - Um die Leistung zu verbessern, werden die Bilder standardmäßig optimiert und in einer kleineren Größe gesendet, aber Sie können sie auch als "Datei" senden, um das Original zu erhalten.
 
