@@ -8,42 +8,42 @@ header: Preguntes freqüents
 
 ## Què és Delta Chat?
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
-available for mobile and desktop platforms.
+Delta Chat és una aplicació de missatgeria fiable, descentralitzada i segura,
+Disponible per a plataformes mòbils i d'escriptori.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+Delta Chat sent com WhatsApp o Telegram, però també podeu utilitzar-lo i considerar-lo com una aplicació de correu electrònic.
+Podeu registrar-vos de forma anònima a una varietat de [servidors de chatmail interoperables](https://delta.chat/chatmail)
+que són mínims servidors de correu electrònic optimitzats per a operacions ràpides i segures.
+O podeu utilitzar servidors de correu electrònic clàssics i un compte de correu electrònic existent
+on Delta Chat actua com a aplicació de correu electrònic.
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### Com puc trobar gent amb qui xatejar?
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
+Per configurar de forma segura el contacte amb altres [escaneu el codi QR Invite 
+o compartiu un enllaç de invitacions](#howtoe2ee). 
+Això és necessari quan s'utilitzi un perfil de xat basat en el chatmail (per defecte) 
+perquè els servidors de chatmail rebutgen els missatges sortints no xifrats.
 
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+Si creeu un perfil de xat amb una adreça de correu electrònic clàssica 
+Podeu crear un contacte manualment si coneixeu la seva adreça de correu electrònic 
+i després escriviu-los un missatge 
+fins i tot si el destinatari no utilitza Delta Chat.
 
 
 ### Quins són els avantatges de Delta Chat comparat amb altres missatgers?
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices. 
+- Perfils de xat anònims amb ràpids, segurs i interoperables [servidors de chatmail](https://delta.chat/chatmail)
+que ofereixen notificacions Push instantània per a dispositius iOS i Android.
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+- [Multi-perfil](#múltiples comptes) pervasiu i suport multi-dispositiu a totes les plataformes.
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+- Interactive [aplicacions web en xats](https://webxdc.org/apps) per a jocs i col·laboració
 
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
+-[Xifratge de final a punta auditat](#Audits de seguretat) 
+Segur contra els atacs de xarxa i del servidor.
 
 - Free and Open Source software, both app and server side. 
   Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
@@ -52,19 +52,20 @@ even if the recipient is not using Delta Chat.
 
 ### What if I expect a message from someone I didn't write to in the past?
 
-- If a message comes from an unknown contact, it appears as a **request**. You
-  need to accept the request before you can reply.
-- You can also "delete" it if you don't want to chat with them for now. This
-  does *not* delete the message on the server, only on your device. So you can
-  still deal with the message in a different mail app.
+If a message comes from an unknown contact, it appears as a **request**.
+
+- You need to **accept** the request before you can reply.
+
+- You can also **delete** it if you don't want to chat with them for now.
+
 - If you delete a request, future messages from that contact will still appear
   as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider *blocking* them.
+  receive messages from this person, consider **blocking** them.
 
 
 ### Does Delta Chat support images, videos and other attachments?
 
-- Yes. Beside the plain text, all e-mail attachments are displayed as separate messages. Outgoing messages get attachments as needed automatically.
+- Yes. Images, videos, files, voice messages etc. are handled as usual.
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
