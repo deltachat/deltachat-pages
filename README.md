@@ -2,7 +2,7 @@ Delta Chat Website
 ================================================================================
 
 This repository contains the default website of Delta Chat -
-feel free to edit any file as you like and send a pull request.
+feel free to edit any file you like and send a pull request.
 
 Formatting of blog posts and web pages
 --------------------------------------
@@ -10,7 +10,7 @@ Formatting of blog posts and web pages
 In the various source text files that are used 
 for generating the static https://delta.chat website 
 we use [Semantic linefeeds](http://rhodesmill.org/brandon/2012/one-sentence-per-line/)
-to keep "diffs" for changes small. The gist of it is
+to keep "diffs" for small changes. The gist of it is
 that you put each "phrase" part of a sentence into a single line.
 
 
@@ -21,7 +21,7 @@ How to create a new blog post
   e.g by copying an existing file.
 
 - Write your blog post to the file and do not forget 
-  to add or modify the `title:` and `author:` line atop it.
+  to add or modify the `title:` and `author:` line on the top.
 
 - **images up to a width of ~400px**
   can be added with `<img style="float: left" ...>` or `<img style="float: left" ...>` -
@@ -44,9 +44,9 @@ Testing changes
   `https://<your-username>.github.io/deltachat-pages/`
 
 - If you have Nix installed,
-  you can build website preview in `result/` with `nix build`
+  you can build a website preview in `result/` with `nix build`
   or run `nix develop` and start `jekyll serve` in development shell
-  to have live preview at http://127.0.0.1:4000/en/
+  to have a live preview at http://127.0.0.1:4000/en/
   If you don't have Nix installed,
   you can install it with [The Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer).
 
@@ -59,16 +59,16 @@ Testing changes
 - If you get Ruby dependency problems, you can also build the page in a docker
   container:  
   ```sudo docker run -i -p 4000:4000 -v $PWD:/srv/jekyll -v $PWD/_site:/srv/jekyll/_site jekyll/builder:4 /bin/bash -c "chmod 777 /srv/jekyll && jekyll serve"```  
-  You can open the page in the browser at http://localhost:4000/en/.
+  You can open the page in a browser at http://localhost:4000/en/.
 
 Directory structure
 --------------------------------------------------------------------------------
 
 - `/en` - Contains the source language files in Markdown. Can be edited directly.
 
-- `/de`, `/es`, `fr` … - Contain the translated files, use Transifex to edit them;
-  you **MUST NOT** edit any file in these directories,
-  they will be overwritten with the next pull from Transifex.
+- `/de`, `/es`, `fr` … - Contains the translated files, use Transifex to edit them;
+  you **MUST NOT** edit any files in these directories,
+  as they will be overwritten with the next pull from Transifex.
 
 - `/_layouts` - This directory contains a default layout template 
   for each language (the layout is referenced in Markdown using _layout: name_)
@@ -92,7 +92,7 @@ see the scripts in the `tools` folder.
 
 - make sure `translate-toolkit` and `transifex-client` are installed
 
-- run following commands (answer n to the question `Do you want to delete it and reinit the project? [Y/n]:`)
+- run the following commands (answer `n` to the question `Do you want to delete it and reinit the project? [Y/n]:`)
 ```
 cd ./tools
 tx init --user=api --pass=<your api token>
@@ -135,16 +135,14 @@ for more info see the comments in `./tools/t-dance.sh`.
 
 ### Update _typos_ in sources
 
-Updating typos in the english sources
+Updating typos in the English sources
 **that shall not result in retranslations**
 is a bit tricky:
 
-The english source is used as the ID for the translations -
-fixing a typo will change the ID an
-will result in translations needed to be redone.
+The English source is used as the ID for the translations, so fixing a typo will change the ID and result in translations needing to be redone.
 
 Currently, this can be handled only manually:
-- fix the typo, grammar minor change
+- fix the typo or grammar
 - run `./tools/t-dance push--do-this-only-from-master`
   and then `./tools/t-dance.sh pull`
 - use `git diff` to check if translations are missing,
@@ -152,12 +150,12 @@ Currently, this can be handled only manually:
   the old translation is typically shown as a **suggestion**
 
 Of course, that can also be done by the translators,
-but it is good to have that in mind,
-and avoid unnecessary changes on the english sources.
+but it is good to keep that in mind,
+and avoid unnecessary changes to the English sources.
 
 If a **retranslation is wanted**, of course,
 all these manual steps are not needed.
-Same for the blog that is not translated.
+Same for a blog post that is not translated.
 
 
 Further Hints
@@ -167,12 +165,12 @@ Further Hints
   esp. in files for translation.
 
 - **no JavaScript** wherever possible, 
-  no **weird CSS** nor other complicated things.
+  no **weird CSS** or other complicated things.
 
 - the layout should be **as simple as possible** 
   and should always work on **small mobile screens** as well as on **desktops**.
 
-- when layouting, do not force a special structure. Header, Content, Footer - done.
+- while laying out a page, don't force a special structure. Header, Content, Footer - done.
 
 - no complex navigation - Simply link subpages from the main pages.
 
