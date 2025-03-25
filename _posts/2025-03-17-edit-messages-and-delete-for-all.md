@@ -22,7 +22,7 @@ This feature on its own has a lot of potential to make your life easier and save
 
 ![screenshot showing the new edit message feature](../assets/blog/2025-03-edit-msg.jpeg)
 
-Being able to edit messages has been a long-cherished Utopian dream of some Delta Chat users.
+Being able to edit messages has been a long-cherished Utopian dream of many Delta Chat users.
 Some considered it technically impossible since you can't edit messages in e-mail, the underlying technology powering Delta Chat.
 Nonetheless, we still decided to push the boundaries, approaching the problem in a practical way and implemented message editing on top of e-mail!
 
