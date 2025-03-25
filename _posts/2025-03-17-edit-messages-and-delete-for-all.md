@@ -69,7 +69,7 @@ and there is no history of message edits.
 You can retract your own message from a year ago,
 and edit a message 10 times. 
 Will this happen in any annoying scale? 
-If so, we'll see to address them and iterate. 
+If so, we'll see to address it and iterate. 
 But note that antagonistic chat partners have also many other ways 
 to trick and annoy, and it may be a good idea to avoid them generally.
 Meanwhile, enjoy your new typo-fixing, organizing and retracting powers!
