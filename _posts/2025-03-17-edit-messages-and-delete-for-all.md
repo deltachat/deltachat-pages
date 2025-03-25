@@ -1,48 +1,75 @@
 ---
-title: "Feature bloom: Edit messages, delete for everyone and more"
-author: Delta Chat Team
+title: "Messaging editing, deletion and saving now available!"
+author: adb,holga
 image: ../assets/blog/2025-03-edit-msg.jpeg
 ---
 
-The spring is not here yet but some long-awaited Delta Chat features are blooming already!
-In less than three months of 2025 three major new features are already available.
+No need to blush or melt in agony after sending a message anymore!
+Editing and deleting messages is now available in most app stores :) 
 
-## Improved Saved Messages
+How is this possible you might wonder?  Two reasons: 
+
+1. **Delta Chat is not a classic e-mail client.**
+   It doesn't show you the content of a mailbox (IMAP) folder. 
+   Delta only fetches new messages but never looks back at them. 
+   The e-mail server functions not a message store but as a message transport. 
+   Chatmail servers in particular are less like GMail and more like Signal 
+   in that they constantly remove messages after they were received. 
+
+2. **Delta Chat uses special messages to co-ordinate metadata and group interactions.**
+   Examples for special messages are reactions, group creation or membership changes, 
+   and indeed now editing or deleting a chat message. 
+   Unlike Signal, there is no server state or group metadata,
+   also not in encrypted form. 
+   Rather, **Delta Chat implements a Peer-to-Peer messaging paradigm**, 
+   using e-mail servers as transport, and not for storage. 
+
+With those fundamentals out of the way, let's highlight the new features
+and maybe start with "saving" a message before editing or deleting it ;) 
+
+
+## Empowering "Saved Messages" memory 
 
 ![screenshot showing the new Saved Messages chat feature](../assets/blog/2025-03-saved-msgs-v2.jpeg)
 
-The "Saved Messages" feature got an upgrade! Now when you forward a message to the "Saved Messages" chat
-the message will preserve the context (sender etc.) and a button to jump to the original message.
-Messages you saved will have a small bookmark icon in the chat so you can easily recognize that you already saved them.
-There is also a new option when you select a message to easily save it in "Saved Messages" or un-save it.
-The messages and other notes you save in the "Saved Messages" chat are also smoothly (and end-to-end encrypted) synchronized across all your devices.
-This feature on its own has a lot of potential to make your life easier and save you a lot of time boosting your productivity and organization.
+When you forward a message to the "Saved Messages" chat
+the message will preserve a ">" link jump to the original message.
+Messages you saved will have a small bookmark icon in the chat 
+so you can easily recognize that you already saved them.
 
-## Editing Messages
+There also is a new action when you select a message 
+to easily save or bookmark it so that it appears in "Saved Messages". 
+The best: it all is properly synchronized between your devices. 
+
+## Typo-fixing galore: Editing Messages
 
 ![screenshot showing the new edit message feature](../assets/blog/2025-03-edit-msg.jpeg)
 
-Being able to edit messages has been a long-cherished Utopian dream of many Delta Chat users.
-Some considered it technically impossible since you can't edit messages in e-mail, the underlying technology powering Delta Chat.
-Nonetheless, we still decided to push the boundaries, approaching the problem in a practical way and implemented message editing on top of e-mail!
+When you select a message, you can now pick the stencil ("edit" action)
+and will be back as if the message were a draft. 
+Note that you can only edit the text but you can not change any attachments. 
+Once you send the message, all your chat partners will see a changed messages,
+indicated by an "edited" tag next in the message bubble. 
 
-**Note:** For this feature to work properly, make sure your contacts upgrade to the latest version of Delta Chat.
-
-## Delete them all
+## Deleting messages across devices 
 
 ![screenshot showing the new "delete for everyone" feature](../assets/blog/2025-03-delete-msg-for-all.jpeg)
 
-In the past every time you deleted a chat or a message from one device you would need to go to all your other devices and manually repeat the process over and over.
-Now message and chat deletion is seamlessly synchronized across all your devices without breaking a sweat.
+In the past, every time you deleted a chat or a message from one device 
+you would need to go to all your other devices and repeat the process over and over.
+Now message and chat deletion is synchronized across all your devices without breaking a sweat.
 
-Furthermore, now you can delete/retract your messages for everyone in the chat!
-Notice that Delta Chat is an app for private chats with family and friends, not to "chat with the enemy",
-in any platform someone with bad intentions can find ways to preserve your message with a manipulated client app or take screenshots,
-so while most of the time it is good enough, you shouldn't blindly rely on this feature in chats with people you don't trust.
+If you posted something accidentally (passwords, wrong files or pictures etc.) 
+you can also delete your own messages for everyone in the chat now. 
 
-**Note:** For this feature to work properly, make sure your contacts upgrade to the latest version of Delta Chat.
+## Limits of rewriting the past? 
 
-## More to come
-
-The year is just kicking off, and there are still several features we would like to deliver to our dear users to help them navigate the unpredictable future.
-If you would like to support our work, please consider [donating or contributing](/contribute)
+Neither deletion or editing currently have particular restrictions,
+and there is no history of message edits. 
+You can retract your own message from a year ago,
+and edit a message 10 times. 
+Will this happen in any annoying scale? 
+If so, we'll see to address them and iterate. 
+But note that antagonistic chat partners have also many other ways 
+to trick and annoy, and it may be a good idea to avoid them generally.
+Meanwhile, enjoy your new typo-fixing, organizing and retracting powers!
