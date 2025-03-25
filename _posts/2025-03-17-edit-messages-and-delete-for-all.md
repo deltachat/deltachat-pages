@@ -48,8 +48,8 @@ The best: it all is properly synchronized between your devices.
 When you select a message, you can now pick the stencil ("edit" action)
 and will be back as if the message were a draft. 
 Note that you can only edit the text but you can not change any attachments. 
-Once you send the message, all your chat partners will see a changed messages,
-indicated by an "edited" tag next in the message bubble. 
+Once you send the message, all your chat partners will see an "edited" message,
+also indicated the message bubble. 
 
 ## Deleting messages across devices 
 
