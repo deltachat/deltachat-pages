@@ -12,7 +12,7 @@ How is this possible you might wonder?  Two reasons:
 1. **Delta Chat is not a classic e-mail client.**
    It doesn't show you the content of a mailbox (IMAP) folder. 
    Delta only fetches new messages but never looks back at them. 
-   The e-mail server functions not a message store but as a message transport. 
+   The e-mail server functions not as a message store but as a message transport. 
    Chatmail servers in particular are less like GMail and more like Signal 
    in that they constantly remove messages after they were received. 
 
