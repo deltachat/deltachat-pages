@@ -8,7 +8,6 @@ No need to blush or melt in agony after sending a message anymore!
 Editing and deleting messages is now available in most app stores :) 
 
 How is this possible you might wonder?  
-
 There are three core pillars about how Delta Chat functions 
 that maybe also help to rectify often occuring misconceptions: 
 
