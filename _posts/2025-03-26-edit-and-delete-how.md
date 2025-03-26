@@ -2,6 +2,7 @@
 title: "Messaging editing, deletion and saving now available!"
 author: olgax
 image: ../assets/blog/2025-03-edit-msg.jpeg
+com_id: 114230232869417282
 ---
 
 No need to blush or melt in agony after sending a message anymore!
