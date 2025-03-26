@@ -1,6 +1,6 @@
 ---
 title: "Messaging editing, deletion and saving now available!"
-author: adb,holga
+author: olgax
 image: ../assets/blog/2025-03-edit-msg.jpeg
 ---
 
