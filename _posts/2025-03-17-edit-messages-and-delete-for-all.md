@@ -38,10 +38,9 @@ When you forward a message to the "Saved Messages" chat
 the message will preserve a ">" link jump to the original message.
 Messages you saved will have a small bookmark icon in the chat 
 so you can easily recognize that you already saved them.
-
 There also is a new action when you select a message 
-to easily save or bookmark it so that it appears in "Saved Messages". 
-The best: it all is properly synchronized between your devices. 
+to save or bookmark it so that it appears in "Saved Messages". 
+The best: saving/bookmarking is always synchronized between your devices. 
 
 ## Typo-fixing galore: Editing Messages
 
@@ -60,7 +59,6 @@ also indicated the message bubble.
 In the past, every time you deleted a chat or a message from one device 
 you would need to go to all your other devices and repeat the process over and over.
 Now message and chat deletion is synchronized across all your devices without breaking a sweat.
-
 If you posted something accidentally (passwords, wrong files or pictures etc.) 
 you can also delete your own messages for everyone in the chat now. 
 
