@@ -23,8 +23,9 @@ that maybe also help to rectify often occuring misconceptions:
    and now also editing or deleting a past message. 
 
 3. **Delta Chat implements a Peer-to-Peer messaging paradigm**. 
-   There is no server side metadata or message state so there is nothing to modify.
-   Edit/Delete are just special messages interpreted by receiving chat devices only. 
+   Unlike with other messengers including WhatsApp, Matrix, Threema or Signal, 
+   there is **no server side metadata or message state** so there is nothing to modify.
+   Edit/Delete are just special messages interpreted by chat partners' devices. 
    
 With those fundamentals out of the way, let's look at the new features in turn
 and maybe start with "saving" messages before editing or deleting them ;) 
