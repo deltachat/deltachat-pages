@@ -7,28 +7,23 @@ image: ../assets/blog/2025-03-edit-msg.jpeg
 No need to blush or melt in agony after sending a message anymore!
 Editing and deleting messages is now available in most app stores :) 
 
-How is this possible you might wonder?  
-If you are not interested just skip to the new feature descriptions below. 
-Otherwise here are the two reasons 
-why Delta Chat can do instant messenger things like WhatsApp,
-while using the e-mail system:
+How is this possible you might wonder?  Let us explain it three core pillars about Delta Chat 
+that maybe also help to clarify often occuring misconceptions: 
 
 1. **Delta Chat is not a classic e-mail client.**
    It doesn't show you the content of a mailbox (IMAP) folder. 
    Delta only fetches new messages but never looks back at them. 
-   The e-mail server functions not as a message store but as a message transport. 
-   Chatmail servers in particular are less like GMail and more like Signal 
-   in that they constantly remove messages after they were received. 
+   E-mail servers function as message transport only, not storage. 
 
 2. **Delta Chat uses special messages to co-ordinate encryption, metadata and group interactions.**
-   Examples for special messages are secure encryption setup, reactions, 
-   group creation or membership changes, multi-device synchronization messages
-   and indeed now editing or deleting a chat message. 
-   Unlike Signal, there is no server state, no server-side group metadata,
-   also not in encrypted form. 
-   Rather, **Delta Chat implements a Peer-to-Peer messaging paradigm**, 
-   using e-mail servers as transport, and not for storage. 
+   Examples for special messages are reactions, group creation or membership changes, 
+   multi-device synchronization messages
+   and now also editing or deleting a past chat message. 
 
+3. **Delta Chat implements a Peer-to-Peer messaging paradigm**. 
+   There is no server side metadata or message state so there is nothing to modify. 
+   Edit/Delete are just special messages interpreted by peers only. 
+   
 With those fundamentals out of the way, let's highlight the new features
 and maybe start with "saving" messages before editing or deleting them ;) 
 
