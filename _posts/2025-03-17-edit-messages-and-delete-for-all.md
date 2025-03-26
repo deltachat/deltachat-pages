@@ -7,8 +7,10 @@ image: ../assets/blog/2025-03-edit-msg.jpeg
 No need to blush or melt in agony after sending a message anymore!
 Editing and deleting messages is now available in most app stores :) 
 
-How is this possible you might wonder?  Let us explain it three core pillars about Delta Chat 
-that maybe also help to clarify often occuring misconceptions: 
+How is this possible you might wonder?  
+
+There are three core pillars about how Delta Chat functions 
+that maybe also help to rectify often occuring misconceptions: 
 
 1. **Delta Chat is not a classic e-mail client.**
    It doesn't show you the content of a mailbox (IMAP) folder. 
@@ -17,14 +19,14 @@ that maybe also help to clarify often occuring misconceptions:
 
 2. **Delta Chat uses special messages to co-ordinate encryption, metadata and group interactions.**
    Examples for special messages are reactions, group creation or membership changes, 
-   multi-device synchronization messages
-   and now also editing or deleting a past chat message. 
+   multi-device synchronization messages, secure encryption negotiation 
+   and now also editing or deleting a past message. 
 
 3. **Delta Chat implements a Peer-to-Peer messaging paradigm**. 
-   There is no server side metadata or message state so there is nothing to modify. 
-   Edit/Delete are just special messages interpreted by peers only. 
+   There is no server side metadata or message state so there is nothing to modify.
+   Edit/Delete are just special messages interpreted by receiving chat devices only. 
    
-With those fundamentals out of the way, let's highlight the new features
+With those fundamentals out of the way, let's look at the new features in turn
 and maybe start with "saving" messages before editing or deleting them ;) 
 
 
@@ -71,5 +73,6 @@ and edit a message 10 times.
 Will this happen in any annoying scale? 
 If so, we'll see to address it and iterate. 
 But note that antagonistic chat partners have also many other ways 
-to trick and annoy, and it may be a good idea to avoid them generally.
+to trick and annoy, and it may be a good idea to avoid or block them generally.
+
 Meanwhile, enjoy your new typo-fixing, organizing and retracting powers!
