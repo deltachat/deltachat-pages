@@ -68,9 +68,8 @@ Neither deletion or editing currently have particular restrictions,
 and there is no history of message edits. 
 You can retract your own message from a year ago,
 and edit a message 10 times. 
-Will this happen in any annoying scale? 
-If so, we'll see to address it and iterate. 
-But note that antagonistic chat partners have also many other ways 
+Will this happen and cause annoyances? 
+If so, we'll see to address issues and iterate. 
+In any case, antagonistic or malfeasant chat partners have also many other ways 
 to trick and annoy, and it may be a good idea to avoid or block them generally.
-
 Meanwhile, enjoy your new typo-fixing, organizing and retracting powers!
