@@ -41,7 +41,7 @@ The following Delta Chat related communication channels are run by third parties
 which may or may not follow our [Community Standards](community-standards): 
 
 - English-speaking Delta Chat community group, you can join the group:
-  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [In Delta Chat](https://i.delta.chat/#C2846EB4C1CB8DF84B1818F5E3A638FC3FBDC981&a=stalebot1%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=H4GBlkVA4yFMuzwZNSQWRu1c&s=Ka0vRWlOWSbu05mXK6rCzVsi)
   * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [In Telegram](https://t.me/deltachat_community)
