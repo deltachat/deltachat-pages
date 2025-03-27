@@ -139,7 +139,9 @@ Updating typos in the English sources
 **that shall not result in retranslations**
 is a bit tricky:
 
-The English source is used as the ID for the translations, so fixing a typo will change the ID and result in translations needing to be redone.
+The English source is used as the ID for the translations,
+so fixing a typo will change the ID
+and result in translations needing to be redone.
 
 Currently, this can be handled only manually:
 - fix the typo or grammar
