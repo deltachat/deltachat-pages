@@ -52,9 +52,13 @@ even if the recipient is not using Delta Chat.
 
 ### ¿Qué pasa si espero un mensaje de alguien a quien no le escribí en el pasado?
 
-- Si un mensaje proviene de un contacto desconocido, aparece como una **solicitud**. Necesitas aceptar la solicitud antes de poder responder.
-- También puedes "eliminarlo" si no quieres chatear con ellos por ahora. Esto *no* elimina el mensaje en el servidor, solo en tu dispositivo. Por lo tanto, aún puedes manejar el mensaje en una aplicación de correo diferente.
-- Si eliminas una solicitud, los mensajes futuros de ese contacto seguirán apareciendo como solicitud de mensaje, por lo que puedes cambiar de opinión. Si realmente no quieres recibir mensajes de esta persona, considera *bloquearlos*.
+Si un mensaje proviene de un contacto desconocido, aparece como una **solicitud**.
+
+- Necesitas **aceptar** la solicitud antes de poder responder.
+
+- También puedes **eliminarlo** si no quieres chatear con ellos por ahora.
+
+- Si eliminas una solicitud, los mensajes futuros de ese contacto seguirán apareciendo como solicitud de mensaje, por lo que puedes cambiar de opinión. Si realmente no quieres recibir mensajes de esta persona, considera **bloquearlos**.
 
 
 ### ¿Delta Chat soporta envío de imágenes, videos, documentos y otros archivos?

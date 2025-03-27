@@ -26,9 +26,9 @@ Chatmail 服务器为 Delta Chat 优化，提供保护隐私且快速的用户�
 - [tarpit.fun](https://tarpit.fun)
 托管于奥地利，自2024年12月以来运行稳定。
 
-There are also additional chatmail servers not listed publically.  
-All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
+除公开列表外，还存在其他未公开的 chatmail 服务器。
+需注意的是，这些服务器由不同的组织和个人独立运营。
+其中，默认服务器 nine.testrun.org 由 Delta Chat 核心团队直接维护。
 
 
 ## 我可以使用常规电子邮件服务器代替 chatmail 吗？
