@@ -1111,10 +1111,10 @@ Delta Chat 会自动将经典电子邮件主题设置为群组名称或发件人
 有些人将 Delta Chat 用作常规电子邮件客户端并希望将收件箱文件夹用于其邮件，而不是使用 DeltaChat 文件夹。如果禁用了“监视 DeltaChat 文件夹”，则还应该禁用“将聊天消息移动到 DeltaChat”。否则，删除消息或多设备设置可能无法正常工作。
 
 
-### Delta Chat 与 Protonmail / Tutanota / Criptext 兼容吗？
+### Delta Chat 与 Proton Mail / Tutanota / Criptext 兼容吗？
 
  - 是的，也不是。
-- 否，你不能将你的 Protonmail、Tutanota 或 Criptext 帐户与 Delta
+- 否，你不能将你的 Proton Mail、Tutanota 或 Criptext 帐户与 Delta
 Chat 一起使用； 它们不提供通过 IMAP 接收邮件的功能。
 - 在任何情况下，你都可以使用 Delta Chat 向使用 
  

@@ -393,7 +393,7 @@ would not reveal private information that Push services do not already have.
 
 Delta Chat is a free and open source decentralized messenger with free server choice,
 but we want users to reliably experience "instant delivery" of messages,
-like they experience from Whatsapp, Signal or Telegram apps,
+like they experience from WhatsApp, Signal or Telegram apps,
 without asking questions up-front that are more suited to expert users or developers.
 
 Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
@@ -580,7 +580,7 @@ if the whole message is properly encrypted and signed.
 For example, "Detached signatures" are not treated as secure.
 
 OpenPGP is not insecure by itself.
-Most publically discussed OpenPGP security problems
+Most publicly discussed OpenPGP security problems
 actually stem from bad usability or bad implementations of tools or apps (or both).
 It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
 and GnuPG (GPG), a command line tool implementing OpenPGP. 
@@ -773,7 +773,7 @@ but it provides [guaranteed end-to-end encrypted chats](#e2eeguarantee)
 that are safe against compromised servers or corrupted networks. 
 Signal and most other PFS-supporting messengers do not provide 
 a practical scheme for protecting chat groups from network attacks
-which are arguably more worrysome 
+which are arguably more worrisome 
 than a potential attacker who seizes your phone and private encryption setup
 but somehow not your messages, yet has a full record of all 
 past encrypted messages. 
@@ -790,7 +790,7 @@ You can export your private key but you can not import additional private keys.
 
 In general, we do not recommend or offer users to perform manual key management. 
 We want to ensure that security audits can focus on a few proven cryptographic algorithms 
-instead of the full breath of possible algorithms allowed with OpenPGP. 
+instead of the full breadth of possible algorithms allowed with OpenPGP. 
 
 ### Was Delta Chat independently audited for security vulnerabilities? {#security-audits}
 
@@ -1015,12 +1015,12 @@ another rather stable experiment we run on the side (sic!).
   link in the settings.
 - For example, to use the flagship Jitsi Meet instance, you could enter
   `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+  this way, you will have a new random Jitsi room every time you call someone.
 
 
 ### What are Broadcast Lists and how can I use them?
 
-- With a Broadcast List you can send a message to many recipents at once; when
+- With a Broadcast List you can send a message to many recipients at once; when
   they reply to you, you get the reply in your direct 1:1 chat with them. The
 recipients can't see each other.
 - Technically, it is an E-Mail with many recipients in BCC.
@@ -1224,18 +1224,17 @@ priečinok DeltaChat“, mali by ste tiež zakázať „presunúť chatové spr�
 V opačnom prípade nemusí odstraňovanie správ alebo nastavenia viacerých zariadení fungovať správne.
 
 
-### Je Delta Chat kompatibilný s Protonmail / Tutanota / Criptext?
+### Je Delta Chat kompatibilný s Proton Mail / Tutanota / Criptext?
 
-- Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be end-to-end
-  encrypted, though. The end-to-end encryption those providers offer is not
-  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
-  uses.
-- Delta Chat can end-to-end-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
+- Áno a nie.
+- Nie, nemôžete používať svoj účet Proton Mail, Tutanota alebo Criptext s Delta
+  Chat; neponúkajú prijímanie pošty cez IMAP.
+- V každom prípade môžete použiť Delta Chat na odosielanie správ ľuďom, ktorí to používajú
+Protonmail, Tutanota alebo Criptext. Avšak tieto správy nebudú End-to-End
+  zašifrované. Šifrovanie typu End-to-End, ktoré títo poskytovatelia                                ponúkajú, funguje iba   
+  na ich platformách a nie sú kompatibilné s nikým mimo.
+- Delta Chat môže e2e šifrovať prostredníctvom akéhokoľvek poskytovateľa e-mailu s ktoroukoľvek
+[E-mailovou aplikáciou s povoleným automatickým šifrovaním](https://autocrypt.org/dev-status.html).
 
 
 ### How can I delete my account? {#remove-account}
@@ -1360,4 +1359,4 @@ The monetary funding mentioned above is mostly organized by merlinux GmbH in
 Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
 
 Please see [Delta Chat Contribution channels](contribute)
-for both monetary and and other contribution possibilities.  
+for both monetary and other contribution possibilities.  

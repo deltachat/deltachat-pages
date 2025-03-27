@@ -386,7 +386,7 @@ would not reveal private information that Push services do not already have.
 
 Delta Chat is a free and open source decentralized messenger with free server choice,
 but we want users to reliably experience "instant delivery" of messages,
-like they experience from Whatsapp, Signal or Telegram apps,
+like they experience from WhatsApp, Signal or Telegram apps,
 without asking questions up-front that are more suited to expert users or developers.
 
 Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
@@ -573,7 +573,7 @@ if the whole message is properly encrypted and signed.
 For example, "Detached signatures" are not treated as secure.
 
 OpenPGP is not insecure by itself.
-Most publically discussed OpenPGP security problems
+Most publicly discussed OpenPGP security problems
 actually stem from bad usability or bad implementations of tools or apps (or both).
 It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
 and GnuPG (GPG), a command line tool implementing OpenPGP. 
@@ -766,7 +766,7 @@ but it provides [guaranteed end-to-end encrypted chats](#e2eeguarantee)
 that are safe against compromised servers or corrupted networks. 
 Signal and most other PFS-supporting messengers do not provide 
 a practical scheme for protecting chat groups from network attacks
-which are arguably more worrysome 
+which are arguably more worrisome 
 than a potential attacker who seizes your phone and private encryption setup
 but somehow not your messages, yet has a full record of all 
 past encrypted messages. 
@@ -783,7 +783,7 @@ You can export your private key but you can not import additional private keys.
 
 In general, we do not recommend or offer users to perform manual key management. 
 We want to ensure that security audits can focus on a few proven cryptographic algorithms 
-instead of the full breath of possible algorithms allowed with OpenPGP. 
+instead of the full breadth of possible algorithms allowed with OpenPGP. 
 
 ### Heeft Delta Chat ooit onafhankelijke beveiligingscontroles ondergaan? {#security-audits}
 
@@ -996,18 +996,18 @@ another rather stable experiment we run on the side (sic!).
 
 ### Hoe kan ik audio- en videogesprekken voeren in Delta Chat?
 
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "Video Chat Instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to the video chat. 
-  This way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random jitsi room every time you call someone.
+- Audio-/Videogesprekken kunnen worden ingeschakeld in de sectie ‘experimentele functies’ in de
+  geavanceerde instellingen. Kies daar een ‘instantie’. 
+- Als je anderen uitnodigt, dan wordt het gesprek meteen in je webbrowser of een app
+  geopend. Anderen ontvangen een e-mail met een link naar de jitsi-/BBB-kamer. Op deze
+  manier is het gesprek compatibel met gesprekspartners die geen gebruikmaken van Delta Chat.
+- Let op: de ander hoort geen beltoon en je gesprekspartners
+  worden niet gestoord door de uitnodiging.
+- Je kunt kiezen uit verschillende videogespreksdiensten die op basis van links werken. Voeg hiervoor de
+  link toe in de instellingen.
+- Voorbeeld: als je gebruik wilt maken van Jitsi Meet, dan kun je
+  `https://meet.jit.si/$KAMER` invoeren. `$KAMER` is hierbij een willekeurige waarde,
+  zodat er telkens een nieuwe jitsi-kamer als je iemand belt.
 
 
 ### Wat zijn verzendlijsten en hoe gebruik ik deze?
@@ -1212,10 +1212,10 @@ schakel dan ook de optie ‘Berichten verplaatsen naar de DeltaChat-map’ uit.
 Anders kun je mogelijk geen berichten verwijderen of problemen ervaren op andere apparaten.
 
 
-### Is Delta Chat compatibel met Protonmail/Tutanota/Criptext?
+### Is Delta Chat compatible with Proton Mail / Tutanota / Criptext?
 
 - Yes and No.
-- No, you can not use your Protonmail, Tutanota, or Criptext account with Delta
+- No, you can not use your Proton Mail, Tutanota, or Criptext account with Delta
   Chat; they do not offer receiving mails via IMAP.
 - In any case you can use Delta Chat to send Messages to people who use
   Protonmail, Tutanota, or Criptext. Those messages will not be end-to-end
