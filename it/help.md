@@ -773,7 +773,7 @@ You can export your private key but you can not import additional private keys.
 
 In general, we do not recommend or offer users to perform manual key management. 
 We want to ensure that security audits can focus on a few proven cryptographic algorithms 
-instead of the full breath of possible algorithms allowed with OpenPGP. 
+instead of the full breadth of possible algorithms allowed with OpenPGP. 
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 
@@ -1207,10 +1207,10 @@ cartella DeltaChat", dovresti anche disabilitare "sposta messaggi chat in DeltaC
 In caso contrario, l'eliminazione dei messaggi o configurazioni multi-dispositivo potrebbero non funzionare correttamente.
 
 
-### Delta Chat è compatibile con Protonmail / Tutanota / Criptext?
+### Delta Chat è compatibile con Proton Mail / Tutanota / Criptext?
 
 - Sì e no.
-- No, non puoi utilizzare il tuo profilo Protonmail, Tutanota o Criptext con Delta
+- No, non puoi utilizzare il tuo profilo Proton Mail, Tutanota o Criptext con Delta
   Chat; non offrono la ricezione di posta tramite IMAP.
 - In ogni caso puoi utilizzare Delta Chat per inviare messaggi alle persone che lo utilizzano
   Protonmail, Tutanota o Criptext. Tali messaggi non saranno end-to-end

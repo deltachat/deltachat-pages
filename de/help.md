@@ -348,7 +348,7 @@ keine privaten Informationen preisgeben, die den zentralen Push-Diensten nicht b
 
 Delta Chat ist ein freier, quelloffener, dezentraler Messenger mit freier Serverwahl,
 aber wir wollen, dass die Nutzer eine zuverlässige „Sofortzustellung“ von Nachrichten haben,
-wie sie es von Whatsapp, Signal oder Telegram kennen,
+wie sie es von WhatsApp, Signal oder Telegram kennen,
 ohne im Vorfeld Fragen zu stellen, die eher für erfahrene Nutzer oder Entwickler geeignet sind.
 
 Beachten Sie, dass Delta Chat ein [kleines, die Privatsphäre wahrendes Push-Benachrichtigungssystem](#privacy-notifications)
@@ -1030,10 +1030,10 @@ Wir empfehlen für diesen Zweck aber "Delta Chat Desktop"; Sie können die App u
 Einige BenutzerInnen verwenden Delta Chat als reguläres E-Mail-Programm und möchten lieber den Posteingang anstatt des DeltaChat-Ordners verwenden. Wenn Sie "DeltaChat-Ordner beobachten" ausschalten, sollten Sie auch "Autom. Verschieben in den DeltaChat-Ordner" ausschalten. Andernfalls funktioniert die Verwendung auf mehreren Geräten möglicherweise nicht richtig.
 
 
-### Ist Delta Chat kompatibel mit Protonmail / Tutanota / Criptext?
+### Ist Delta Chat kompatibel mit Proton Mail / Tutanota / Criptext?
 
 - Ja und Nein.
-- Nein, Sie können sich nicht mit Delta Chat in ein Protonmail-, Tutanota- oder Criptext-Konto einloggen, da diese keinen Standard-E-Mail-Empfang über IMAP anbieten.
+- Nein, Sie können sich nicht mit Delta Chat in ein Proton-Mail-, Tutanota- oder Criptext-Konto einloggen, da diese keinen Standard-E-Mail-Empfang über IMAP anbieten.
 - Ja, Sie können Delta Chat verwenden, um Nachrichten an Personen zu senden, die Protonmail, Tutanota oder Criptext verwenden. Diese Nachrichten werden jedoch nicht Ende-zu-Ende-verschlüsselt, da diese Anbieter keine mit dem [Autocrypt](https://autocrypt.org/)-Standard kompatible Verschlüsselung verwenden.
 - Delta Chat kann Ende-zu-Ende-Verschlüsselung über jeden E-Mail-Anbieter mit jeder
 [Autocrypt-fähige E-Mail-Anwendung](https://autocrypt.org/dev-status.html) herstellen
