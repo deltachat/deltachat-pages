@@ -10,7 +10,7 @@ Formatting of blog posts and web pages
 In the various source text files that are used 
 for generating the static https://delta.chat website 
 we use [Semantic linefeeds](http://rhodesmill.org/brandon/2012/one-sentence-per-line/)
-to keep "diffs" for small changes. The gist of it is
+to keep "diffs" for changes small. The gist of it is
 that you put each "phrase" part of a sentence into a single line.
 
 
