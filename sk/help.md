@@ -52,19 +52,20 @@ even if the recipient is not using Delta Chat.
 
 ### What if I expect a message from someone I didn't write to in the past?
 
-- If a message comes from an unknown contact, it appears as a **request**. You
-  need to accept the request before you can reply.
-- You can also "delete" it if you don't want to chat with them for now. This
-  does *not* delete the message on the server, only on your device. So you can
-  still deal with the message in a different mail app.
+If a message comes from an unknown contact, it appears as a **request**.
+
+- You need to **accept** the request before you can reply.
+
+- You can also **delete** it if you don't want to chat with them for now.
+
 - If you delete a request, future messages from that contact will still appear
   as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider *blocking* them.
+  receive messages from this person, consider **blocking** them.
 
 
 ### Podporuje Delta Chat obrázky, videá a iné prílohy?
 
-- Áno. Okrem čistého textu sa všetky prílohy e-mailov zobrazujú ako samostatné správy. Odchádzajúce správy dostávajú prílohy podľa potreby automaticky.
+Áno. Okrem čistého textu sa všetky prílohy e-mailov zobrazujú ako samostatné správy. Odchádzajúce správy dostávajú prílohy podľa potreby automaticky.
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 

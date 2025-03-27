@@ -52,14 +52,15 @@ even if the recipient is not using Delta Chat.
 
 ### Po nëse pres një mesazh prej dikujt të cilit s’i kam shkruar në të kaluarën?
 
-- Nëse një mesazh vjen prej një kontakti të panjohur, shfaqet si **kërkesë**.
-  Duhet të pranoni kërkesën, para se të mund të përgjigjeni.
-- Mundeni edhe ta “fshini”, nëse s’doni të bisedoni me të tani. Kjo **nuk**
-  fshin mesazhin te shërbyesi, vetëm te pajisja juaj. Kështu, mundeni
-  të merreni me mesazhin që nga një tjetër aplikacion email-esh.
+Nëse një mesazh vjen prej një kontakti të panjohur, shfaqet si **kërkesë**.
+
+- Duhet të **pranoni** kërkesën, para se të mund të përgjigjeni.
+
+- Mundeni edhe ta **fshini**, nëse s’doni të bisedoni me të tani.
+
 - Nëse fshini një kërkesë, mesazhet e ardhshëm prej atij kontakti do të shfaqen
-  ende si kërkesë për mesazh, që të mund të ndërroni mendje. Nëse vërtet
-  s’doni të merrni mesazhe prej këtij personi, shihni mundësinë e *bllokimit* të tij.
+ende si kërkesë për mesazh, që të mund të ndërroni mendje. Nëse vërtet
+s’doni të merrni mesazhe prej këtij personi, shihni mundësinë e **bllokimit** të tij.
 
 
 ### A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?

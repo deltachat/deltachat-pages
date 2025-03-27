@@ -52,14 +52,15 @@ même si le destinataire n'utilise pas Delta Chat.
 
 ### Et si j'attends un message de quelqu'un avec qui je n'ai encore jamais échangé ?
 
-- Si vous recevez un message de la part d'un contact inconnu, vous recevez une **invitation** que vous
-  devez d'abord accepter pour pouvoir répondre au message.
-- Vous pouvez également choisir de "supprimer" l'invitation si vous ne souhaitez pas discuter avec cet inconnu maintenant. Cela
-  ne supprime *pas* le message sur le serveur, seulement sur votre appareil. Vous pouvez donc
-  toujours traiter le message depuis une application de courriel différente.
+Si vous recevez un message de la part d'un contact inconnu, vous recevez une **invitation**.
+
+- Vous devez d'abord **accepter** pour pouvoir répondre au message.
+
+- Vous pouvez également choisir de **supprimer** l'invitation si vous ne souhaitez pas discuter avec cet inconnu maintenant.
+
 - Si vous supprimez une invitation, les futurs messages de ce contact apparaîtront
-  de nouveau comme des invitations, de sorte que vous pouvez changer d'avis par la suite. Si vous ne voulez vraiment pas
-  recevoir de messages de cette personne, nous vous conseillons de la *bloquer*.
+de nouveau comme des invitations, de sorte que vous pouvez changer d'avis par la suite. Si vous ne voulez vraiment pas
+recevoir de messages de cette personne, nous vous conseillons de la **bloquer**.
 
 
 ### Delta Chat prend-il en charge les images, vidéos et autres pièces jointes ?

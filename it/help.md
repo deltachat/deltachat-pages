@@ -52,14 +52,15 @@ Basato su [Standard E-mail e Web Internet](https://github.com/deltachat/deltacha
 
 ### Cosa succede se aspetto un messaggio da qualcuno a cui non ho scritto in passato?
 
-- Se un messaggio proviene da un contatto sconosciuto, appare come una **richiesta**. È necessario
-accettare la richiesta prima di poter rispondere.
-- Si può anche "cancellare" il messaggio se non si vuole più chattare con esso. Questo
-non cancella il messaggio sul server, ma solo sul dispositivo. Quindi è possibile
-continuare a gestire il messaggio in un'altra applicazione di posta.
+Se un messaggio proviene da un contatto sconosciuto, appare come una **richiesta**.
+
+- È necessario **accettare** la richiesta prima di poter rispondere.
+
+- Si può anche **cancellare** il messaggio se non si vuole più chattare con esso.
+
 - Se si elimina una richiesta, i futuri messaggi di quel contatto continueranno a essere visualizzati come richieste di contatto
 in modo da poter cambiare idea. Se non si vuole davvero ricevere
-messaggi da questa persona, prendete in considerazione la possibilità di *bloccarla*.
+messaggi da questa persona, prendete in considerazione la possibilità di **bloccarla**.
 
 
 ### Delta Chat supporta immagini, video e altri allegati?

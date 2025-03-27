@@ -52,13 +52,15 @@ even if the recipient is not using Delta Chat.
 
 ### Wat nu als ik een bericht verwacht van iemand die ik nog niet heb aangeschreven?
 
-- Als een bericht afkomstig is van een onbekende contactpersoon, dan wordt er een **verzoek** getoond.
-   Accepteer het verzoek om te kunnen antwoorden.
-- Ook kun je het verzoek verwijderen als je op dat moment geen gesprek met ze wilt voeren.
-   Hierdoor wordt het bericht in kwestie niet op de server verwijderd, maar alleen op je apparaat, zodat je in een andere app kunt antwoorden.
+Als een bericht afkomstig is van een onbekende contactpersoon, dan wordt er een **verzoek** getoond.
+
+- **Accepteer** het verzoek om te kunnen antwoorden.
+
+- Ook kun je het verzoek **verwijderen** als je op dat moment geen gesprek met ze wilt voeren.
+
 - Als je een verzoek verwijderd, dan worden toekomstige berichten nog steeds als verzoek getoond,
-   zodat je te allen tijde kunt bepalen of je het alsnog wilt accepteren. Als je écht geen contact wilt leggen, overweeg dan
-   om de persoon in kwestie te **blokkeren**.
+zodat je te allen tijde kunt bepalen of je het alsnog wilt accepteren. Als je écht geen contact wilt leggen, overweeg dan
+om de persoon in kwestie te **blokkeren**.
 
 
 ### Ondersteunt Delta Chat afbeeldingen, video's en ander soort bijlagen?

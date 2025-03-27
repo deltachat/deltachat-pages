@@ -37,14 +37,18 @@ Anonimowe profile czatów z szybkimi, bezpiecznymi i interoperacyjnymi [serweram
 
 ### Co zrobić, jeśli oczekuję wiadomości od osoby, do której nie pisałem w przeszłości?
 
-- Jeśli wiadomość przychodzi od nieznanego kontaktu, pojawia się jako **prośba**. Musisz zaakceptować prośbę, zanim będziesz mógł odpowiedzieć.
-- Możesz również „usunąć” ją, jeśli nie chcesz na razie z nią rozmawiać. To *nie* usuwa wiadomości na serwerze, tylko na Twoim urządzeniu. Możesz więc nadal zajmować się tą wiadomością w innej aplikacji pocztowej.
-- Jeśli usuniesz prośbę, przyszłe wiadomości od tego kontaktu będą nadal wyświetlane jako prośba o wiadomość, więc możesz zmienić zdanie. Jeśli naprawdę nie chcesz otrzymywać wiadomości od tej osoby, rozważ *zablokowanie* jej.
+Jeśli wiadomość pochodzi od nieznanego kontaktu, wyświetla się jako **prośba**.
+
+- Musisz **zaakceptować** prośbę, zanim będziesz mógł odpowiedzieć.
+
+- Możesz także **usunąć** wiadomość, jeśli nie chcesz w tej chwili z nią rozmawiać.
+
+- Jeśli usuniesz prośbę, przyszłe wiadomości od tego kontaktu nadal będą wyświetlane jako prośba o wiadomość, więc możesz zmienić zdanie. Jeśli naprawdę nie chcesz otrzymywać wiadomości od tej osoby, rozważ **zablokowanie** jej.
 
 
 ### Czy Delta Chat obsługuje obrazy, filmy i inne załączniki?
 
-- Tak. Oprócz zwykłego tekstu wszystkie załączniki wiadomości e-mail są wyświetlane jako oddzielne wiadomości. Wiadomości wychodzące automatycznie otrzymują załączniki w razie potrzeby.
+- Tak. Obrazy, filmy, pliki, wiadomości głosowe itp. są obsługiwane jak zwykle.
 
 - Ze względu na wydajność obrazy są domyślnie optymalizowane i wysyłane w mniejszym rozmiarze, ale można je wysłać jako „plik”, aby zachować oryginał.
 
@@ -118,16 +122,17 @@ may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing m
 
 ### Co oznacza zielona kropka?
 
-Czasami można zobaczyć **zieloną kropkę** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> obok awatara kontaktu. Oznacza to, że był on „niedawno widziany”. Dokładnie oznacza to, że w ciągu ostatnich 10 minut Delta Chat widział go:
+Czasami można zobaczyć **zieloną kropkę** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> obok awatara kontaktu. Oznacza to, że był on „niedawno widziany” w ciągu ostatnich 10 minut:
 
 - dlatego, że wysłał Ci bezpośrednio wiadomość,
 - ponieważ napisał coś do grupy, której oboje jesteście członkami,
 - ponieważ wysłał Ci potwierdzenie przeczytania napisanej przez Ciebie wiadomości,
-- lub dlatego, że wysłał dane do Twojej aplikacji Delta Chat za pomocą [Webxdc aplikacji](#webxdc).
+- ponieważ edytował lub usunął wiadomość w udostępnionym Tobie czacie,
+- lub dlatego, że używał [aplikacji](#webxdc) w udostępnionym Tobie czacie.
 
-Nie jest to więc status online w czasie rzeczywistym – a jeśli ktoś nie odpowie od razu, mimo że wydaje się, że jest online, nie martw się i daj mu trochę miejsca :)
+Nie jest to więc status online w czasie rzeczywistym – a jeśli ktoś nie odpowie od razu, mimo że wydaje się, że jest online, nie martw się i daj mu trochę czasu :)
 
-Z drugiej strony inni nie zawsze „zobaczą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą oni zielonej kropki, dopóki nie wyślesz do nich wiadomości lub nie napiszesz do grupy, w której również się znajdują.
+Z drugiej strony, inni nie zawsze „zauważą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą zielonej kropki, dopóki nie zostanie spełniony jeden z powyższych warunków.
 
 
 ### Correct typos and delete messages after sending {#edit}
