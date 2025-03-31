@@ -33,7 +33,7 @@ There are additional chatmail servers not listed publically.
 All chatmail servers are operated by different groups and people. 
 
 
-## Can I use a pre-existing e-mail address instead of a chatmail one?
+## Can I also use a pre-existing e-mail address? 
 
 Yes, you can use a pre-existing e-mail address with Delta Chat
 but we recommend to use a **dedicated e-mail address for chatting**
