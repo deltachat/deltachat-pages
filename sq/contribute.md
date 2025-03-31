@@ -41,7 +41,7 @@ Kanalet vijues të komunikimit të lidhura me Delta Chat-in xhirohen nga palë t
 të cilat mund të ndjekin ose jo [Standardet tona për Bashkësinë](community-standards): 
 
 - Grup anglishtfolës bashkësie Delta Chat-i, mund të bëheni pjesë e grupit:
-  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [Në Delta Chat]({% include dc-community-url %})
   * [Në Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [Në XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [Në Telegram](https://t.me/deltachat_community)

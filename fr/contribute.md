@@ -38,7 +38,7 @@ Les canaux de communication suivants, liés à Delta Chat, sont gérés par des 
 qui peuvent ou non respecter nos [normes communautaires](community-standards) : 
 
 - English-speaking Delta Chat community group, you can join the group:
-  * [In Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [In Delta Chat]({% include dc-community-url %})
   * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [In Telegram](https://t.me/deltachat_community)

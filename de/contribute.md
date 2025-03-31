@@ -39,7 +39,7 @@ Die folgenden Delta-Chat-bezogenen Kommunikationskanäle werden von Drittanbiete
 die unsere [Community-Standards](Community-Standards) befolgen können oder auch nicht:
 
 - Englischsprachige Delta-Chat-Community-Gruppe; Sie können der Gruppe beitreten:
-  * [Mit Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [Mit Delta Chat]({% include dc-community-url %})
   * [Mit Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [Mit XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [Mit Telegram](https://t.me/deltachat_community)
