@@ -40,7 +40,7 @@ Hieronder volgt een lijst met Delta Chat-kanalen die door anderen worden beheerd
 Het zou kunnen dat zij zich niet aan onze [gemeenschapsstandaarden](community-standards) houden.
 
 - Engelssprekende Delta Chat-gebruikersgroep, waaraan je kunt deelnemen:
-  * [in Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [in Delta Chat]({% include dc-community-url %})
   * [in Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [in XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [in Telegram](https://t.me/deltachat_community)

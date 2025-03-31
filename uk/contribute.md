@@ -36,7 +36,7 @@ lang: uk
 Наступні канали зв'язку, пов'язані із Delta Chat, управляються третіми сторонами, які можуть чи не можуть дотримуватися наших [Стандартів спільноти](community-standards):
 
 -  Англомовна спільнота Delta Chat, ви можете приєднатися до груп:
-  * [У Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [У Delta Chat]({% include dc-community-url %})
   * [У Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [В XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [У Telegram](https://t.me/deltachat_community)

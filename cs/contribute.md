@@ -41,7 +41,7 @@ Následující komunikační kanály ohledně Delta Chatu jsou provozovány tře
 které se mohou, ale nemusí řídit našimi [Standardy komunity](community-standards):
 
 - Anglicky hovořící komunitní skupina Delta Chatu, ke které se můžete připojit:
-  * [V Delta Chatu](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [V Delta Chatu]({% include dc-community-url %})
   * [Na Matrixu](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [Přes XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [Na Telegramu](https://t.me/deltachat_community)

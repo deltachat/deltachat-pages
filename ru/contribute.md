@@ -41,7 +41,7 @@ lang: ru
 которые могут следовать или не следовать нашим [Стандартам сообщества](community-standards): 
 
 - Англоязычная группа сообщества Delta Chat, к которой вы можете присоединиться:
-  * [В Delta Chat](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [В Delta Chat]({% include dc-community-url %})
   * [В Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [В XMPP](xmpp:deltachat-en@chat.disroot.org?join)
   * [В Telegram](https://t.me/deltachat_community)

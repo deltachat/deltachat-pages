@@ -35,7 +35,7 @@ lang: zh_CN
 - 英语 Delta Chat 社区群组，你可以加入该群组：
 
 - 英语 Delta Chat 社区群组，你可以加入该群组：
-  * [在 Delta Chat 中加入](https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=DC%20Community&x=y6dS91dlLLi&i=0bzEm4zAacX&s=GQQlKuqD-zH)
+  * [在 Delta Chat 中加入]({% include dc-community-url %})
   * [在 Matrix 中加入](https://matrix.to/#/#Delta.Chat:matrix.org)
   * [在 XMPP 中加入](xmpp:deltachat-en@chat.disroot.org?join)
   * [在 Telegram 中加入](https://t.me/deltachat_community)
