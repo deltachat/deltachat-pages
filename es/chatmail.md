@@ -8,8 +8,7 @@ lang: es
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers are optimized for messaging with Delta Chat 
-to provide a privacy-preserving and speedy user experience, 
+Chatmail servers provide a privacy-preserving and speedy messaging experience, 
 securely interoperable with chatmail and classic e-mail servers. 
 **Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
 
@@ -17,80 +16,40 @@ securely interoperable with chatmail and classic e-mail servers.
   for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
 
 - [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users and has been stable since January 2024.
+  users 
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking
-  users and has been stable since January 2024.
+- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been 
-  stable since May 2024.
+  is geared towards Italian speaking users and has been stable 
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US and has been stable since July 2024.
+  operates in the US 
 
-- [tarpit.fun](https://tarpit.fun)
-  is hosted in Austria and has been stable since December 2024.
+- [tarpit.fun](https://tarpit.fun) is hosted in Austria 
 
-There are also additional chatmail servers not listed publically.  
+There are additional chatmail servers not listed publically.  
+
 All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
 
 
-## Can I also use a regular e-mail server instead of chatmail?
+## Can I also use a pre-existing e-mail address? 
 
-Yes, many users successfully use regular e-mail servers
-especially if they want to handle their regular e-mail communications with Delta Chat.
-See the [provider database](https://providers.delta.chat) for options.
-Note that Delta Chat has multi-account support so
-it's fine to have one account configured with your regular e-mail address,
-and another account for chatting.
+Yes, you can use a pre-existing e-mail address with Delta Chat
+but we recommend to use a **dedicated e-mail address for chatting**
+so that your classic usually un-encrypted e-mail does not mix 
+with end-to-end encrypted chat messages. 
 
+You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
 
-## How are chatmail servers different from e-mail servers?
+Delta Chat has multi-profile support so you can have 
+one profile with your classic e-mail address,
+and another for instant always-encrypted chatting. 
+Chatmail addresses are cheap. 
 
-Chatmail servers are minimal e-mail servers designed for speed, security and convenience:
+## How can i learn more about chatmail servers? Can i run one? 
 
-- **Convenience:** Onboard automatically in a few seconds and receive push notifications
-
-- **Privacy:** No questions asked, no name, numbers or e-mail needed
-
-- **Speed:** Message delivery in well under a second, end-to-end
-
-- **Reliability:** No annoying spam-checking or rate-limits
-
-- **Security:** Outbound messages are required to be end-to-end encrypted,
-  incoming messages are strictly checked for authenticity.
-
-
-## How trustable are chatmail servers?
-
-Each chatmail server provides additional privacy information on their web page.
-Typically, a chatmail server only processes encrypted messages and
-implements automatic, unconditional message deletion after at most 20 days.
-
-Delta Chat provides [guaranteed end-to-end encryption](https://delta.chat/en/2023-11-23-jumbo-42)
-which means that in most use cases, server operators can never read your messages even if they try,
-a guarantee backed up by a recent [security analysis from ETH Zurich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
-
-
-## How are chatmail servers run? Can I run one myself? {#selfhosted}
-
-All chatmail servers are automatically deployed and updated using
-[the public chatmail development repository](https://github.com/deltachat/chatmail).
-Chatmail servers are composed of proven standard e-mail server components,
-[Postfix](https://postfix.org) and [Dovecot](https://dovecot.org),
-and configured to run unattended and to require very low maintenance effort.
-Chatmail servers happily run on low-end hardware like a Raspberry Pi.
-
-
-# How are chatmail servers funded?
-
-Chatmail servers are designed to be very cheap to run,
-and they are generally self-funded by the operators.
-Please see the front page of each chatmail server for further information.
-
-To support chatmail development and the running of the default onboarding server
-you are very welcome to chip in.
+Please visit our [chatmail project page](https://chatmail.at) 
+for more details and links. 
 
 [Donar dinero](donate){: .cta-button}

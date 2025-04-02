@@ -8,61 +8,47 @@ lang: uk
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail-сервери оптимізовані для обміну повідомленнями з Delta Chat щоб забезпечити конфіденційність і швидкість роботи користувачів, безпечну взаємодію chatmail-серверів та класичної електронної пошти. **Натисніть на посилання chatmail-сервера**, щоб перейти на домашню сторінку, а потім натисніть на QR-код запрошення: 
+Chatmail servers provide a privacy-preserving and speedy messaging experience, 
+securely interoperable with chatmail and classic e-mail servers. 
+**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
 
 - [nine.testrun.org](https://nine.testrun.org) - це chatmail-сервер за замовчуванням для додатків Delta Chat, який працює стабільно з моменту [оголошення про вихід Chatmail у грудні 2023 року](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) орієнтований на німецькомовних користувачів і стабільно працює з січня 2024 року.
+- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
+  users 
 
-- [mailchat.pl](https://mailchat.pl) орієнтований на польськомовних користувачів і працює стабільно з січня 2024 року.
+- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)   орієнтований на італомовних користувачів і стабільно працює з травня 2024 року.
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  is geared towards Italian speaking users and has been stable 
 
-- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)   працює в США і стабільно працює з липня 2024 року.
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
+  operates in the US 
 
-- [tarpit.fun](https://tarpit.fun) розміщується в Австрії і стабільно працює з грудня 2024 року.
+- [tarpit.fun](https://tarpit.fun) is hosted in Austria 
 
-There are also additional chatmail servers not listed publically.  
+There are additional chatmail servers not listed publically.  
+
 All chatmail servers are operated by different groups and people. 
-The nine.testrun.org default server is operated by core Delta Chat team members. 
 
 
-## Чи можу я також використовувати звичайний поштовий сервер замість chatmail-сервера?
+## Can I also use a pre-existing e-mail address? 
 
-Так, багато користувачів успішно використовують звичайні поштові сервери особливо якщо вони хочуть обробляти свої звичайні повідомлення електронної пошти за допомогою Delta Chat. Дивіться [базу даних провайдерів](https://providers.delta.chat) для отримання додаткової інформації. Зверніть увагу, що Delta Chat підтримує декілька акаунтів, тому добре мати один обліковий запис, налаштований на вашу звичайну адресу електронної пошти, а інший - для спілкування в чаті.
+Yes, you can use a pre-existing e-mail address with Delta Chat
+but we recommend to use a **dedicated e-mail address for chatting**
+so that your classic usually un-encrypted e-mail does not mix 
+with end-to-end encrypted chat messages. 
 
+You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
 
-## Чим chatmail-сервери відрізняються від серверів електронної пошти?
+Delta Chat has multi-profile support so you can have 
+one profile with your classic e-mail address,
+and another for instant always-encrypted chatting. 
+Chatmail addresses are cheap. 
 
-Chatmail-сервери - це мінімальні поштові сервери, розроблені для швидкості, безпеки та зручності:
+## How can i learn more about chatmail servers? Can i run one? 
 
-- **Зручність:** Підключайтеся автоматично за кілька секунд і отримуйте push-повідомлення
-
-- **Приватність:** Ніяких запитань, жодних імен, номерів телефонів чи електронної пошти
-
-- **Швидкість:** Доставка повідомлень менш ніж за секунду, з кінця в кінець
-
-- **Надійність:** Без надокучливої перевірки спаму чи обмежень швидкості
-
-- **Безпека:** Вихідні повідомлення обов'язково наскрізно зашифровані, вхідні повідомлення суворо перевіряються на автентичність.
-
-
-## Наскільки надійні chatmail-сервери?
-
-Кожен chatmail-сервер надає додаткову інформацію про конфіденційність на своїй веб-сторінці. Зазвичай, chatmail-сервер обробляє лише зашифровані повідомлення і реалізує автоматичне, безумовне видалення повідомлень максимум через 20 днів.
-
-Delta Chat забезпечує [гарантоване наскрізне шифрування](https://delta.chat/en/2023-11-23-jumbo-42), що означає, що в більшості випадків оператори серверів ніколи не зможуть прочитати ваші повідомлення, навіть якщо спробують, ця гарантія підтверджується нещодавнім [аналізом безпеки від ETH Zuerich](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin).
-
-
-## Як працюють chatmail-сервери? Чи можу я запустити його сам? {#selfhosted}
-
-Всі chatmail-сервери автоматично розгортаються і оновлюються за допомогою [загальнодоступного репозиторію розробки chatmail](https://github.com/deltachat/chatmail). Chatmail-сервери складаються з перевірених стандартних компонентів поштових серверів, [Postfix](https://postfix.org) та [Dovecot](https://dovecot.org), і налаштовані так, щоб працювати без нагляду і вимагати дуже мало зусиль для обслуговування. Chatmail-сервери успішно працюють на недорогих пристроях, таких як Raspberry Pi.
-
-
-# Як фінансуються chatmail-сервери?
-
-Chatmail-сервери чату розроблені таким чином, щоб бути дуже дешевими в експлуатації, і вони, як правило, самофінансуються операторами. Будь ласка, дивіться домашню сторінку кожного сервера для отримання додаткової інформації.
-
-Щоб підтримати розробку chatmail та роботу стандартного онбордінгового сервера ви можете зробити свій внесок.
+Please visit our [chatmail project page](https://chatmail.at) 
+for more details and links. 
 
 [Задонатити грошей](donate){: .cta-button}

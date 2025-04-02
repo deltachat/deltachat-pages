@@ -1179,7 +1179,7 @@ De lo contrario, eliminar mensajes o configuraciones de dispositivos múltiples 
 - Si y no.
 - No, no puede usar su cuenta de Proton Mail, Tutanota o Criptext con Delta Chat; esos servicios no permiten recibir correos a través de IMAP.
 - En cualquier caso, puede usar Delta Chat para enviar mensajes a personas que usan Protonmail, Tutanota o Criptext. Sin embargo, esos mensajes no se cifrarán de extremo a extremo. El cifrado de extremo a extremo que ofrecen esos proveedores solo funciona dentro de sus plataformas y no es compatible con nadie externo.
-- Delta Chat puede encriptar e2e a través de cualquier proveedor de correo electrónico con cualquier [https://autocrypt.org/dev-status.html](aplicación de correo electrónico compatible con Autocrypt).
+- Delta Chat puede encriptar e2e a través de cualquier proveedor de correo electrónico con cualquier [aplicación de correo electrónico compatible con Autocrypt](https://autocrypt.org/dev-status.html).
 
 
 ### ¿Cómo puedo eliminar mi cuenta? {#remove-account}
