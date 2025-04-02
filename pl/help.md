@@ -98,26 +98,21 @@ Użyj tych narzędzi, aby uporządkować swoje czaty i mieć wszystko na swoim m
 Aby skorzystać z tych funkcji, przytrzymaj dłużej lub kliknij prawym przyciskiem myszy czat na liście czatów.
 
 
-### How do "Saved Messages" work? {#save}
+### Jak działają „Zapisane wiadomości”? {#save}
 
-**Saved Messages** is a chat that you can use to easily remember and find messages.
+**Zapisane wiadomości** to czat, którego możesz użyć, aby łatwo zapisać i znaleźć wiadomości.
 
-- In any chat, long tap or right click a message and select **Save**
+- W dowolnym czacie naciśnij i przytrzymaj lub kliknij prawym przyciskiem myszy wiadomość i wybierz **Zapisz**
 
-- Saved messages are marked by the symbol
-  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
-  next to the timestamp
+- Zapisane wiadomości są oznaczone symbolem <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="ikona Zapisz"/> obok znacznika czasu
 
-- Later, open the "Saved Messages" chat - and you will see the saved messages there.
-  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
-  you can go back to the original message in the original chat
+- Później otwórz czat „Zapisane wiadomości” — zobaczysz tam zapisane wiadomości. Naciskając <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="ikona strzałki w prawo"/>, możesz wrócić do oryginalnej wiadomości w oryginalnym czacie
 
-- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Na koniec możesz również użyć „Zapisz wiadomości”, aby robić **osobiste notatki** — otwórz czat, wpisz coś, dodaj zdjęcie lub wiadomość głosową itp.
 
-- As "Saved Message" are synced, they can become very handy for transferring data between devices
+- Ponieważ „Zapisane wiadomości” są zsynchronizowane, mogą być bardzo przydatne do przesyłania danych między urządzeniami
 
-Messages stay saved even if they are edited or deleted -
-may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+Wiadomości pozostają zapisane, nawet jeśli zostaną edytowane lub usunięte — może to być przez [nadawcę](#edit), [czyszczenie urządzenia](#delold) lub [znikające wiadomości z innych czatów](#ephemeralmsgs).
 
 
 ### Co oznacza zielona kropka?
@@ -135,21 +130,15 @@ Nie jest to więc status online w czasie rzeczywistym – a jeśli ktoś nie odp
 Z drugiej strony, inni nie zawsze „zauważą, że jesteś online”. Jeśli wyłączyłeś potwierdzenia odczytu, nie zobaczą zielonej kropki, dopóki nie zostanie spełniony jeden z powyższych warunków.
 
 
-### Correct typos and delete messages after sending {#edit}
+### Poprawianie literówek i usuwanie wiadomości po wysłaniu {#edit}
 
-- You can edit the text of your messages after sending.
-  For that, long tap or right click the message and select **Edit**
-  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+- Możesz edytować tekst wiadomości po wysłaniu. W tym celu naciśnij i przytrzymaj lub kliknij prawym przyciskiem myszy wiadomość i wybierz Edytuj, lub<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="ikona Edytuj"/>. 
 
-- If you have sent a message accidentally,
-  from the same menu, select **Delete** and then **Delete for Everyone**.
+- Jeśli wysłałeś wiadomość przypadkowo, z tego samego menu wybierz **Usuń**, a następnie **Usuń u wszystkich**.
 
-While edited messages will have the word "Edited" next to the timestamp,
-deleted messages will be removed without a marker in the chat.
-Notifications are not sent and there is no time limit.
+Podczas gdy edytowane wiadomości będą miały słowo „Edytowana” obok znacznika czasu, usunięte wiadomości zostaną usunięte bez znacznika na czacie. Powiadomienia nie są wysyłane i nie ma limitu czasowego.
 
-Note, that the original message may still be received by chat members
-who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+Pamiętaj, że oryginalną wiadomość nadal mogą otrzymać członkowie czatu, którzy mogli już odpowiedzieć, przesłać dalej, zapisać, wykonać zrzut ekranu lub w inny sposób skopiować wiadomość.
 
 
 ### Jak działają znikające wiadomości? {#ephemeralmsgs}
@@ -531,8 +520,7 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 
 - **Sieci dla gości** mogą nie pozwalać urządzeniom na komunikację między sobą. Jeśli to możliwe, korzystaj z sieci innej niż gość.
 
-- If you still have troubles using the same network,
-  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+- Jeśli nadal masz problemy z korzystaniem z tej samej sieci, spróbuj otworzyć **Hotspot** na jednym urządzeniu i połączyć się z tą siecią Wi-Fi z drugiego urządzenia
 
 - Upewnij się, że na urządzeniu docelowym jest **wystarczająca ilość miejsca**
 
@@ -552,16 +540,13 @@ Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne
   - **Jeśli korzystasz z iOS** i napotykasz trudności, może [ten poradnik](https://support.delta.chat/t/import-backup-to-ios/1628) Ci pomoże.
 - Jesteś teraz zsynchronizowany i możesz używać obu urządzeń do wysyłania i odbierania wiadomości zaszyfrowanych end-to-end w komunikacji ze swoimi partnerami.
 
-### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+### Czy usuwanie, przypinanie, archiwizowanie, zapisywanie, wyciszanie itp. jest synchronizowane ze wszystkimi urządzeniami?
 
 Tak.
 
-If you e.g. delete a chat or a message from your phone,
-it will be deleted on your desktop as soon as it comes online again.
+Jeśli np. usuniesz czat lub wiadomość z telefonu, zostaną one usunięte z aplikacji na komputer, gdy tylko ponownie będą online.
 
-Notable exceptions are [Delete old messages from Device](#delold),
-as different devices may have different storage capacities,
-and system specific settings as notification sounds.
+Wyjątkiem jest [usuwanie starych wiadomości z urządzenia](#delold), ponieważ różne urządzenia mogą mieć różne pojemności pamięci i ustawienia specyficzne dla systemu, takie jak dźwięki powiadomień.
 
 
 ### Czy są jakieś plany wprowadzenia klienta Web Delta Chat?
