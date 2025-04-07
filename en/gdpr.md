@@ -145,6 +145,10 @@ Within the app, you can enter, manage, and edit various information, tasks, and 
             <td>This is needed to send the messages to the communication partner. </td>
         </tr>
         <tr>
+            <td>Local network access</td>
+            <td>This is used to establish serverless p2p connections in webxdc realtime channels and while adding second devices. </td>
+        </tr>
+        <tr>
             <td>Camera access</td>
             <td>
 This is needed for you to take photos and send them via the app. In addition, the camera access allows you to scan QR codes.
