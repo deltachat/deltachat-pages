@@ -130,26 +130,26 @@ Per archiviare o fissare una chat, premi a lungo (Android), usa il menu della ch
 per silenziare una chat, usa il menu della chat (Android/Desktop) o il profilo della chat (iOS).
 
 
-### How do "Saved Messages" work? {#save}
+### Come funziona "Messaggi Salvati"? {#save}
 
-**Saved Messages** is a chat that you can use to easily remember and find messages.
+**Messaggi Salvati** è una chat che puoi usare per ricordare e trovare facilmente i messaggi.
 
-- In any chat, long tap or right click a message and select **Save**
+- in qualunque chat, premi a lungo o click destro sul messaggio e seleziona **Salva**
 
-- Saved messages are marked by the symbol
-  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
-  next to the timestamp
+- I messaggi salvati sono marcati col simbolo
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+accanto all'ora d'invio
 
-- Later, open the "Saved Messages" chat - and you will see the saved messages there.
-  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
-  you can go back to the original message in the original chat
+- Successivamente, apri la chat "Messaggi Salvati" - e vedrai là i messaggi che hai salvato.
+Toccando<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+puoi tornare al messaggio originale nella chat di provenienza.
 
-- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Infine, puoi anche usare "Messaggi Salvati" per prendere **appunti** - apri la chat, digita qualcosa, aggiungi una foto o un messaggio vocale, ecc.
 
-- As "Saved Message" are synced, they can become very handy for transferring data between devices
+- Dato che i "Messaggi Salvati" sono sincronizzati, possono essere molto comodi per trasferire dati tra i dispositivi
 
-Messages stay saved even if they are edited or deleted -
-may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+I messaggi restano salvati anche se vengono modificati o eliminati -
+che sia dal [mittente](#edit), [ripulendo il dispositivo](#delold) o per i [messaggi a scomparsa di altre chat](#ephemeralmsgs).
 
 
 ### Cosa significa il punto verde?
@@ -169,21 +169,21 @@ hai disattivato le conferme di lettura, non vedranno il punto verde finché non 
 invia loro un messaggio o scrivi anche a un gruppo a cui appartengono.
 
 
-### Correct typos and delete messages after sending {#edit}
+### Correggi gli errori e cancella i messaggi dopo averli inviati {#edit}
 
-- You can edit the text of your messages after sending.
-  For that, long tap or right click the message and select **Edit**
-  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+- Puoi modificare il testo dei tuoi messaggi già inviati.
+Per farlo, premi a lungo o click destro sul messaggio e seleziona **Edit**
+o <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
 
-- If you have sent a message accidentally,
-  from the same menu, select **Delete** and then **Delete for Everyone**.
+- Se hai inviato un messaggio accidentalmente,
+dallo stesso menu, seleziona **Elimina** e quindi **Cancella per Tutti**.
 
-While edited messages will have the word "Edited" next to the timestamp,
-deleted messages will be removed without a marker in the chat.
-Notifications are not sent and there is no time limit.
+Una volta modificati i messaggi avranno scritto "Modificato" accanto all'orario d'invio,
+i messaggi eliminati saranno rimossi senza alcun avviso in chat.
+Non vengono inviate notifiche e non c'è limite di tempo.
 
-Note, that the original message may still be received by chat members
-who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+Nota che il messaggio originale potrebbe essere ancora sui dispositivi dei membri della chat
+che avrebbero già potuto rispondere, inoltrare, salvare, scattare una schermata o copiare il messaggio in altri modi. 
 
 
 ### Come funzionano i messaggi a scomparsa? {#ephemeralmsgs}
@@ -730,9 +730,9 @@ puoi anche attivare ["elimina messaggi dal server"](#delold).
 ### Delta Chat supporta Perfect Forward Secrecy? {#pfs}
 
 No, Delta Chat non supporta Perfect Forward Secrecy (PFS).
-Ciò significa che se la tua chiave di decrittazione privata Delta Chat viene divulgata,
+Ciò significa che se la tua chiave di cifratura privata Delta Chat viene divulgata,
 e qualcuno ha raccolto i tuoi precedenti messaggi in transito,
-sarà in grado di decrittografarli e leggerli utilizzando la chiave di decrittazione trapelata.
+sarà in grado di decifrarli e leggerli utilizzando la chiave di cifratura trapelata.
 
 Tieni presente, tuttavia, che se qualcuno ottiene le tue chiavi di decrittazione,
 in genere saranno anche in grado di ricevere i tuoi messaggi,
@@ -766,14 +766,14 @@ che è stato [controllato in modo indipendente sulla sicurezza](../assets/blog/2
 
 ### Posso riutilizzare la mia chiave privata esistente? {#importkey}
 
-No. 
+No.
 
-Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1. 
-You can export your private key but you can not import additional private keys. 
+Delta Chat genera chiavi OpenPGP sicure in conformità alle specifiche di Autocrypt 1.1.
+Puoi esportare le tue chiavi private ma non puoi importare chiavi private aggiuntive.
 
-In general, we do not recommend or offer users to perform manual key management. 
-We want to ensure that security audits can focus on a few proven cryptographic algorithms 
-instead of the full breadth of possible algorithms allowed with OpenPGP. 
+In generale, non raccomandiamo on proponiamo agli utenti di gestire manualmente le chiavi.
+Noi vogliamo assicurare che gli audit di sicurezza si possano focalizzare su pochi algoritmi crittografici comprovati
+invece che sull'intera estensione dei possibili algoritmi consentiti con OpenPGP.
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 
@@ -879,8 +879,8 @@ e assicurati che **Rete Privata** sia selezionata come "Tipo di profilo di rete"
 - **Reti Ospite** potrebbero non consentire ai dispositivi di comunicare tra loro.
 Se possibile, utilizza una rete non ospite.
 
-- If you still have troubles using the same network,
-  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+- Se continui ad aver problemi usando la stessa rete,
+prova ad aprire l' **Hotspot** su uno dei dispositivi e collegati al quel Wi-Fi con l'altro
 
 - Assicurarsi che sul dispositivo di destinazione ci sia **disponibilità di memoria sufficiente**.
 
@@ -912,16 +912,16 @@ Aiutarti.
 - Ora sei sincronizzato e puoi utilizzare entrambi i dispositivi per inviare e ricevere
 messaggi crittografati end-to-end con i tuoi partner di comunicazione.
 
-### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+### Cancella, Fissa, Archivia, Salva, Silenzia ecc. sono sincronizzate su tutti i dispositivi?
 
 Sì.
 
-If you e.g. delete a chat or a message from your phone,
-it will be deleted on your desktop as soon as it comes online again.
+Se per esempio cancelli una chat o un messaggio dal tuo telefono,
+sarà cancellato sul tuo desktop non appena tornerà in linea di nuovo.
 
-Notable exceptions are [Delete old messages from Device](#delold),
-as different devices may have different storage capacities,
-and system specific settings as notification sounds.
+Eccezioni rilevanti sono [Elimina vecchi messaggi dal Dispositivo](#delold),
+poiché diversi dispositivi possono avere differenti capacità di memoria,
+e impostazioni di sistema specifiche come i suoni di notifica.
 
 
 ### Sono previsti piani per l'introduzione di un client Web Delta Chat?
