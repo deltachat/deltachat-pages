@@ -1,11 +1,11 @@
 ---
-title: Otisk
+title: Impressum
 lang: cs
 ---
 
-# Otisk
+# Impressum
 
-Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
+Delta Chat je [otevřený komunitní projekt](https://github.com/deltachat). Za obsah našich webových stránek zodpovídá:
 
     merlinux GmbH
     Reichsgrafenstr. 20
@@ -17,6 +17,6 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Managing Director: Holger Krekel
 
-[Komunitní způsoby](přispívat)
+[Komunitní kanály](contribute)
 
-E-mailová skupina je provozována přes <https://github.com/codespeaknet/sysadmin>.
+E-mailový seznam je provozován pomocí <https://github.com/codespeaknet/sysadmin>.
