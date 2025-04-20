@@ -1,76 +1,79 @@
 ---
-title: Community Standards
+title: Standardy komunity
 lang: cs
 ---
 
-# Delta Chat Community Standards
+# Standardy komunity Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
-
-
-## Our Standards
-
-Examples of behavior that contribute to creating a positive environment include:
-
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
-
-Examples of behavior which we ask everybody to avoid include:
-
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+V zájmu zachování otevřeného a bezpečného prostředí usilujeme my,
+přispěvatelé a správci projektu Delta Chat, o to, aby účast na projektu
+byla příjemnou zkušeností, bez známek obtěžování či šikany.
 
 
-## Maintainers and Responsibilities
+## Naše standardy
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Mezi příklady chování, které přispívají k utváření pozitivního prostředí, patří:
 
-## Scope
+* užívání otevřeného a inkluzivního jazyka;
+* respekt k odlišným úhlům pohledu a zkušenostem;
+* přijímání konstruktivní kritiky;
+* empatický přístup ke členům komunity a k nováčkům;
+* napomáhání při řešení sporů
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Mezi příklady chování, kterému bychom se rádi vyhnuli, patří:
 
-## Reporting and Responses
+* používání sexualizovaného či sexistického jazyka, obrazových materiálů či narážek;
+* trolling, urážlivé/ponižující komentáře či osobní nebo politické útoky
+* obtěžování prostřednictvím kanálů veřejných i soukromých;
+* zveřejňování osobních údajů ostatních, např. fyzické či elektronické
+adresy, bez jejich výslovného souhlasu
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
-
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Je pochopitelné, že lidé mívají špatné dny nebo si nemusí být vědomi
+implikací svého chování. V případě, že se tak stane, můžete je slušně upozornit.
+V závislosti na situaci k tomu můžete použít veřejné nebo soukromé kanály.
+Vždy však předpokládejte dobrý úmysl; je pravděpodobnější, že
+daný účastník neví, čeho se dopouští,
+než že by ostatní záměrně špinil nebo jinak poškozoval kvalitu diskuze.
 
 
-## Attribution
+## Správci a odpovědnosti
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Správci projektu jsou ti, kteří jsou oprávněni zapisovat do repozitářů projektu Delta Chat nebo mají administrativní oprávnění k jeho komunikačním kanálům.
+Každý správce je tímto nabádán k zodpovědnému přístupu k řešení
+případů problematického chování, jejichž je svědkem.
+Správci projektu jsou oprávněni a zodpovídají za odstraňování,
+úpravu
+či zamítání komentářů, commitů, kódu, změn do wiki stránek, hlášení chyb a jiných příspěvků,
+které neodpovídají našim standardům.
+Mohou rovněž dočasně či permanentně blokovat přispěvatele
+za další chování, které považují za nevhodné, ohrožující, urážlivé či jinak škodlivé.
+
+## Rozsah
+
+Naše Standardy komunity se vztahují jak na komunikační kanály projektu a jeho
+shromážděná, tak na veřejné prostory,
+pokud jednotlivec reprezentuje projekt či jeho komunitu.
+Za reprezentaci
+projektu či jeho komunity se považuje například používání
+projektové e-mailové adresy,
+vytváření příspěvků na oficiálních sociálních médiích či
+účast na online i offline akcích jakožto reprezentant komunity.
+
+## Nahlašování a reakce na situace
+
+Pokud se stanete obětí či svědkem obtěžujícího, urážlivého či jiným způsobém neakceptovatelného chování,
+neváhejte kontaktovat vybrané členy komunity, kterými jsou v současné době [Nami](mailto:missytake@systemli.org) a [Xenia](mailto:ksenia@transcyberian.org).
+Tito členové situaci vyhodnotí a dle potřeby zahrnou do řešení ostatní správce.
+Budou jednat způsobem považovaným za nezbytný a vhodný
+vzhledem k okolnostem, ale nikdy proti Vaší vůli.
+
+Správci jsou povinni zachovat důvernost
+v přístupu k ohlašovateli incidentu.
+Správci samotní mohou být bez výjimek rovněž nahlášeni
+a mohou čelit dočasným či trvalým následkům
+dle rozhodnutí ostatních správců.
+
+
+## Zdroj
+
+Náš dokument Standardů komunity je adaptací dokumentu [Contributor Covenant](https://contributor-covenant.org), verze 1.4, dostupného na adrese <https://contributor-covenant.org/version/1/4>

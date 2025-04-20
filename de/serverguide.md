@@ -38,7 +38,7 @@ Wenn Sie noch keine Domain haben, können Sie bei einem Dienst wie [njal.la](htt
 
 Nehmen wir an:
 - Sie haben example.org gekauft. Im Moment wollen Sie nur einen Mailserver, aber Sie überlegen, später eine Website unter https://example.org zu hosten.
-- Ihr Server hat die IPv4-Adresse 24.48.100.24 - Sie können die echte IPv4-Adresse  mit dem Befehl `ip a` herausfinden und nach einer ähnlich aussehenden Nummer suchen (die nicht mit mit 127 oder 172 beginnt).
+- Ihr Server hat die IPv4-Adresse 24.48.100.24 - Sie können die echte IPv4-Adresse  mit dem Befehl `ip a` herausfinden und nach einer ähnlich aussehenden Nummer suchen (die nicht mit 127 oder 172 beginnt).
 - Ihr Server hat die IPv6-Adresse 7fe5:2f4:1ba:2381::3 (Sie finden sie in `ip a", 2 Zeilen unterhalb der IPv4-Adresse. Ignorieren Sie das `/64` am Ende. Verwenden Sie nicht die, die mit `fe80` beginnt).
 
 Nun könnten Sie die Domäneneinstellungen für example.org wie folgt konfigurieren:
