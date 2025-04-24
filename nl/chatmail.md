@@ -8,48 +8,48 @@ lang: nl
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers provide a privacy-preserving and speedy messaging experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Chatmailservers zijn speciaal gemaakt voor het voeren van gesprekken via Delta Chat 
+en bieden een hoge mate van privacybescherming, hoge snelheid, 
+en zijn compatibel met zowel chatmailservers onderling als traditionele mailservers. 
+**Druk op een chatmailserverlink** om de bijbehorende website te openen en druk daar op de QR-code: 
 
 - [nine.testrun.org](https://nine.testrun.org) is de standaard chatmailserver
   van Delta Chat-apps en is sinds [december 2023 stabiel verklaard](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users 
+- [mehl.cloud](https://mehl.cloud) is georiënteerd op Duitssprekenden.
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
+- [mailchat.pl](https://mailchat.pl) is georiënteerd op Poolssprekenden.
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been stable 
+is georiënteerd op Italiaanssprekenden
+  en is stabiel verklaard.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US 
+  wordt beheerd vanuit de VS.
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Austria 
+- [tarpit.fun](https://tarpit.fun)
+wordt beheerd vanuit Oostenrijk.
 
-There are additional chatmail servers not listed publically.  
+Er zijn nog meer chatmailservers die niet openbaar genoemd zijn.
 
-All chatmail servers are operated by different groups and people. 
+Alle chatmailservers worden beheerd door verschillende mensen of groepen.
 
 
-## Can I also use a pre-existing e-mail address? 
+## Kan ik ook gebruikmaken van een gewone e-mailserver?
 
-Yes, you can use a pre-existing e-mail address with Delta Chat
-but we recommend to use a **dedicated e-mail address for chatting**
-so that your classic usually un-encrypted e-mail does not mix 
-with end-to-end encrypted chat messages. 
+Ja, je kunt je eigen e-mailadres gebruiken in Delta Chat,
+maar we raden aan een **speciaal adres voor gespreksdoeleinden** te gebruiken,
+zodat je het overzicht houdt, met name tussen klassieke onversleutelde en versleutelde Delta Chat-berichten.
 
-You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
+Je kunt Delta Chat ook gebruiken als klassieke e-mailapp.
 
-Delta Chat has multi-profile support so you can have 
-one profile with your classic e-mail address,
-and another for instant always-encrypted chatting. 
-Chatmail addresses are cheap. 
+Delta Chat heeft ondersteuning voor meerdere profielen. Zo kun je
+één profiel aanmaken voor klassieke e-mails en een ander voor
+versleutelde gesprekken.
+Chatmailadressen zijn gratis.
 
-## How can i learn more about chatmail servers? Can i run one? 
+## Hoe worden chatmailservers beheerd en kan ik dat zelf ook?
 
-Please visit our [chatmail project page](https://chatmail.at) 
-for more details and links. 
+Meer informatie is te vinden op de [chatmail-projectpagina](https://chatmail.at). 
 
 [Geld doneren](donate){: .cta-button}
