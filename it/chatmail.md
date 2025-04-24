@@ -1,5 +1,5 @@
 ---
-title: Chatmail per messaggistica istantanea, interoperabile e rispettosa della privacy
+title: Chatmail per messaggistica istantanea, interoperabile e rispettoso della privacy
 lang: it
 ---
 
@@ -8,48 +8,45 @@ lang: it
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers provide a privacy-preserving and speedy messaging experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+I server chatmail forniscono un'esperienza di messaggistica veloce e che preserva i propri dati,
+interoperabile in sicurezza con altri server chatmail e di e-mail classici.
+**Tocca il collegamento ad un server chatmail** per vedere la home e quindi tocca l'invito QR:
 
 - [nine.testrun.org](https://nine.testrun.org) è il server chatmail di inserimento predefinito
 per le app Delta Chat ed è stabile dall' [Annuncio Chatmail di Dicembre 2023](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users 
+- [mehl.cloud](https://mehl.cloud) è orientato agli utenti di lingua tedesca
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
+- [mailchat.pl](https://mailchat.pl) è orientato agli utenti di lingua polacca
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been stable 
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) è orientato agli utenti di lingua italiana
 
-- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US 
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/) opera negli USA
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Austria 
+- [tarpit.fun](https://tarpit.fun) è ospitato in Austria
 
-There are additional chatmail servers not listed publically.  
+Ci sono anche altri server chatmail non elencati pubblicamente.
 
-All chatmail servers are operated by different groups and people. 
+I vari server chatmail sono gestiti da diversi gruppi o persone.
 
 
-## Can I also use a pre-existing e-mail address? 
+## Posso anche usare un indirizzo e-mail preesistente?
 
-Yes, you can use a pre-existing e-mail address with Delta Chat
-but we recommend to use a **dedicated e-mail address for chatting**
-so that your classic usually un-encrypted e-mail does not mix 
-with end-to-end encrypted chat messages. 
+Sì, puoi usare un indirizzo e-mail preesistente con Delta Chat
+ma noi raccomandiamo di usare un **indirizzo e-mail dedicato alla chat**
+in modo tale da non mescolare le tue classiche e-mail non cifrate
+con i messaggi di chat cifrati end-to-end.
 
-You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
+Puoi anche usare Delta Chat come un'app per le mail (in chiaro) per un indirizzo e-mail esistente.
 
-Delta Chat has multi-profile support so you can have 
-one profile with your classic e-mail address,
-and another for instant always-encrypted chatting. 
-Chatmail addresses are cheap. 
+Delta Chat ha il supporto multi-profilo così puoi avere
+un profilo col tuo classico indirizzo e-mail,
+e un altro per chattare con messaggi sempre cifrati.
+Gli indirizzi chatmail sono economici.
 
-## How can i learn more about chatmail servers? Can i run one? 
+## Come posso saperne di più sui server chatmail? Posso gestirmene uno?
 
-Please visit our [chatmail project page](https://chatmail.at) 
-for more details and links. 
+Visita la nostra [pagina del progetto chatmail](https://chatmail.at)
+per più dettagli e collegamenti.
 
 [Donate Soldi](donate){: .cta-button}
