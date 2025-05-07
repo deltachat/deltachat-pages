@@ -46,7 +46,7 @@ even if the recipient is not using Delta Chat.
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
@@ -1133,7 +1133,7 @@ Delta Chat doet het volgende met deze rechten:
 Delta Chat heeft, net zoals andere e-mailprogramma's (Thunderbird, K9-Mail, Outlook, etc.), je wachtwoord nodig om berichten te versturen. Het wordt alleen opgeslagen op je apparaat en alleen uitgewisseld met je e-mailprovider, die toch al toegang heeft tot je mails.
 
 Delta Chat is open source. Dit betekent dat je de [bron-
-code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+code](https://github.com/chatmail/core/blob/main/src/login_param.rs)
 kunt bekijken om er zeker van te zijn dat er veilig wordt omgegaan met je inloggegevens. We ontvangen graag feedback hierover.
 
 

@@ -46,7 +46,7 @@ even if the recipient is not using Delta Chat.
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
@@ -1133,7 +1133,7 @@ ver [Visão Geral dos Provedores](https://providers.delta.chat)
 
 Como acontece em qualquer outro programa de comunicação que usa email, como Thunderbird, K9-Mail ou Outlook, sua senha é necessária para poder receber e enviar emails. Obviamente, sua senha fica guardada no seu dispositivo. E ela só é transmitida para o seu provedor de email (no momento que você faz login), que é quem já tem inevitavelmente acesso aos seus emails.
 
-Como o Delta Chat é um programa de Código Aberto, você pode revisar seu [Código Fonte](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) se você quiser verificar que as suas credenciais estão sendo manuseadas de forma segura. Ficaremos felizes de receber comentários que contribuam para fazer o aplicativo mais seguro para todos os nossos usuários.
+Como o Delta Chat é um programa de Código Aberto, você pode revisar seu [Código Fonte](https://github.com/chatmail/core/blob/main/src/login_param.rs) se você quiser verificar que as suas credenciais estão sendo manuseadas de forma segura. Ficaremos felizes de receber comentários que contribuam para fazer o aplicativo mais seguro para todos os nossos usuários.
 
 
 ### Quais mensagens aparecem no Delta Chat?

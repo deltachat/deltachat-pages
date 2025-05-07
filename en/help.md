@@ -46,7 +46,7 @@ even if the recipient is not using Delta Chat.
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/chatmail/core/blob/main/standards.md),
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 

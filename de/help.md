@@ -41,7 +41,7 @@ die sofortige Push-Benachrichtigungen für iOS- und Android-Geräte bieten.
 sicher gegen Netzwerk- und Serverangriffe. 
 
 - Freie und quelloffene Software, sowohl app- als auch serverseitig. 
-Basiert auf [E-Mail- und Web-Internet-Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+Basiert auf [E-Mail- und Web-Internet-Standards]({% include standards-url %}), 
 um das [„Noch-ein-Standard-Syndrom“ (xkcd 927)](https://xkcd.com/927/) zu vermeiden.
 
 
@@ -973,7 +973,7 @@ Je nach verwendetem Betriebssystem werden Sie möglicherweise aufgefordert, der 
 
 Genau wie auch bei anderen E-Mail-Programmen (z. B. Thunderbird, K9-Mail oder Outlook) benötigt Delta Chat das Passwort, um E-Mails versenden zu können. Das Passwort wird nur auf Ihrem Gerät gespeichert und bei der Anmeldung an Ihren E-Mail-Anbieter gesendet.
 
-Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) einsehen und sich davon überzeugen, dass Ihre Zugangsdaten sicher gehandhabt werden. Wir freuen uns über Feedback, das unsere App sicherer für all unsere NutzerInnen macht.
+Da Delta Chat Open Source ist, können Sie den [Quellcode](https://github.com/chatmail/core/blob/main/src/login_param.rs) einsehen und sich davon überzeugen, dass Ihre Zugangsdaten sicher gehandhabt werden. Wir freuen uns über Feedback, das unsere App sicherer für all unsere NutzerInnen macht.
 
 
 ### Welche Nachrichten erscheinen in Delta Chat?

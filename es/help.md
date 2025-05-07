@@ -46,7 +46,7 @@ even if the recipient is not using Delta Chat.
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
@@ -1101,7 +1101,7 @@ programa necesita la contraseña para que pueda usarla para enviar correos. Por 
 contraseña se almacena solo en su dispositivo. La contraseña solo se transmite a
 su proveedor de correo electrónico (cuando inicia sesión), que tiene acceso a sus correos de todos modos.
 
-Como Delta Chat es de Código Abierto, puedes investigar el Código Fuente si quieres verificar que tus credenciales son gestionadas de manera segura.
+Como Delta Chat es de Código Abierto, puedes investigar el [Código Fuente](https://github.com/chatmail/core/blob/main/src/login_param.rs) si quieres verificar que tus credenciales son gestionadas de manera segura.
 Estamos felices de recibir críticas que hagan la aplicación más segura para todos los usuarios.
 
 

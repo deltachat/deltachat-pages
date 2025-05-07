@@ -46,7 +46,7 @@ anche se il destinatario non utilizza Delta Chat.
 sicuro contro gli attacchi alla rete e al server.
 
 - Software Libero e Open Source, sia lato app che lato server. 
-Basato su [Standard E-mail e Web Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+Basato su [Standard E-mail e Web Internet]({% include standards-url %}), 
 [per evitare "l'ennesima sindrome standard (xkcd 927)"](https://xkcd.com/927/)
 
 
@@ -1125,7 +1125,7 @@ password è memorizzata solo sul tuo dispositivo. La password viene trasmessa so
 il tuo fornitore E-Mail (quando effettui il login), che ha comunque accesso alla tua posta.
 
 Poiché Delta Chat è Open Source, puoi controllare il [Codice
-Sorgente](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+Sorgente](https://github.com/chatmail/core/blob/main/src/login_param.rs)
 se vuoi verificare che le tue credenziali siano gestite in modo sicuro. Siamo felici dei feedback che rendono l'app più sicura per tutti i nostri utenti.
 
 

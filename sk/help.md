@@ -46,7 +46,7 @@ even if the recipient is not using Delta Chat.
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
@@ -1144,7 +1144,7 @@ program potrebuje heslo, aby ste ho mohli používať na odosielanie e-mailov. S
 heslo je uložené iba vo vašom zariadení. Heslo sa prenáša iba na vášho poskytovateľa e-mailu (keď sa prihlásite), ktorý má aj tak prístup k vašim e-mailom. 
 
 Keďže Delta Chat je Open Source, môžete skontrolovať [Zdrojový
-Kód](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+Kód](https://github.com/chatmail/core/blob/main/src/login_param.rs)
 ak chcete overiť, že vaše poverenia sú spracované bezpečne. Sme radi
 o spätnej väzbe, vďaka ktorej je aplikácia bezpečnejšia pre všetkých našich používateľov.
 
