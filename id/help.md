@@ -46,7 +46,7 @@ even if the recipient is not using Delta Chat.
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
@@ -1145,7 +1145,7 @@ kata sandi hanya disimpan di perangkat Anda. Kata sandi hanya dikirimkan ke
 penyedia E-Mail Anda (saat Anda login), yang tetap memiliki akses ke email Anda.
 
 Karena Delta Chat adalah Open Source, Anda dapat memeriksa file [Source
-Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+Code](https://github.com/chatmail/core/blob/main/src/login_param.rs)
 jika Anda ingin memverifikasi bahwa kredensial Anda ditangani dengan aman. Kami bahagia
 tentang umpan balik yang membuat aplikasi lebih aman untuk semua pengguna kami.
 

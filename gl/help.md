@@ -46,7 +46,7 @@ even if the recipient is not using Delta Chat.
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
@@ -1145,7 +1145,7 @@ contrasinal gárdase só no teu dispositivo. O contrasinal só se transmite ao
 teu provedor de email (ao conectarte), que de todas formas xa ten acceso ao teu correo.
 
 Como Delta Chat é Código Aberto, podes mirar o [Código Fonte]
-(https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+(https://github.com/chatmail/core/blob/main/src/login_param.rs)
 se queres verificar que as túas credenciais se xestionan de xeito seguro.
 Encántanos recibir comentarios que fagan a app máis segura para todas as usuarias.
 

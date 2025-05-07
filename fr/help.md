@@ -46,7 +46,7 @@ même si le destinataire n'utilise pas Delta Chat.
   contre les attaques ciblées sur le réseau et les serveurs. 
 
 - Logiciel libre et open source, à la fois appli et côté serveur. 
-  Construit sur des [Standards d'Internet et d'e-mail](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Construit sur des [Standards d'Internet et d'e-mail]({% include standards-url %}), 
   [pour éviter le syndrome du "standard de plus" (xkcd 927)](https://xkcd.com/927/) 
 
 
@@ -1077,7 +1077,7 @@ Cependant, il faut activer des options spéciales pour que cela fonctionne corre
 Comme pour les autres clients de courriel, Thunderbird, FairEmail, K9-Mail, Outlook, etc, celui-ci a besoin des identifiants / mots de passe pour recevoir et envoyer des courriels. 
 Bien sûr le mot de passe est uniquement stocké sur votre appareil. Et il est utilisé uniquement pour vous authentifier auprès de votre fournisseur de courriel, qui a, rappelons-le, accès à vos courriels non chiffrés.
 
-Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs) pour vérifier que vos identifiants / mots de passe sont utilisés de façon sécurisée. Nous sommes très heureux d'avoir des retours pour renforcer la sécurité de l'application.
+Comme Delta Chat est un logiciel libre, vous pouvez étudier le [code source](https://github.com/chatmail/core/blob/main/src/login_param.rs) pour vérifier que vos identifiants / mots de passe sont utilisés de façon sécurisée. Nous sommes très heureux d'avoir des retours pour renforcer la sécurité de l'application.
 
 
 ### Quels sont les messages qui apparaissent dans Delta Chat ?

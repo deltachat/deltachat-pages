@@ -46,7 +46,7 @@ even if the recipient is not using Delta Chat.
   safe against network and server attacks. 
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
@@ -1144,7 +1144,7 @@ vetëm furnizuesit të email-it tuaj (kur bëni hyrjen), i cili mund të hyjë t
 tuaj, sido qoftë. 
 
 Ngaqë Delta Chat-i është Me Burim të Hapur, mund të kontrolloni [Kodin
-Burim](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs),
+Burim](https://github.com/chatmail/core/blob/main/src/login_param.rs),
 nëse doni të verifikoni se a trajtohen me siguri kredencialet tuaja. Na gëzojnë
 përshtypjet që e bëjn aplikacionin më të sigurt për krejt përdoruesit tanë.
 

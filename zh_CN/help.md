@@ -46,7 +46,7 @@ Delta Chat 感觉就像 Whatsapp 或 Telegram，但你也可以把它当作电�
   安全地抵御网络和服务器攻击。 
 
 - 免费开源软件，包括应用程序和服务器端。 
-  基于[电子邮件和网络互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)、 
+  基于[电子邮件和网络互联网标准]({% include standards-url %})、 
   [避免 "又一个标准综合症（xkcd 927）"](https://xkcd.com/927/) 
 
 
@@ -1053,7 +1053,7 @@ mailcow 和 mailadm 的组合，如 [本
 
 与其他电子邮件程序（比如 Thunderbird、K9-Mail 或 Outlook）一样，本程序需要您的密码来允许您通过它发送邮件。当然，密码仅储存在您的设备上，并只会在登录时发送给您的电子邮件提供商（无论如何，您的提供商总是能够访问您的邮件）。
 
-由于 Delta Chat 是开源的，要验证您的凭据是否被安全地处理了，可以检查[源代码](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)。我们很高兴能收到使本应用对我们的所有用户更加安全的反馈。
+由于 Delta Chat 是开源的，要验证您的凭据是否被安全地处理了，可以检查[源代码](https://github.com/chatmail/core/blob/main/src/login_param.rs)。我们很高兴能收到使本应用对我们的所有用户更加安全的反馈。
 
 
 ### 哪些消息会在 Delta Chat 中出现？

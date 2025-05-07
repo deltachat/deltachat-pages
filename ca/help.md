@@ -46,7 +46,7 @@ que ofereixen notificacions Push instantània per a dispositius iOS i Android.
 Segur contra els atacs de xarxa i del servidor.
 
 - Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), 
+  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
   [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
 
 
@@ -1145,7 +1145,7 @@ password is stored only on your device. The password is only transmitted to
 your E-Mail provider (when you login), which has access to your mails anyway.
 
 As Delta Chat is Open Source, you can check the [Source
-Code](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+Code](https://github.com/chatmail/core/blob/main/src/login_param.rs)
 if you want to verify that your credentials are handled securely. We are happy
 about feedback which makes the app more secure for all of our users.
 

@@ -32,7 +32,7 @@ Anonimowe profile czatów z szybkimi, bezpiecznymi i interoperacyjnymi [serweram
 
 - [Audytowne szyfrowanie end-to-end](#security-audits) zabezpieczające przed atakami sieciowymi i serwerowymi.
 
-- Bezpłatne i otwartoźródłowe oprogramowanie zarówno po stronie aplikacji, jak i serwera. Stworzone w oparciu o [standardy e-mail i internetowe](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), [aby uniknąć „kolejnego standardowego syndromu (xkcd 927)”](https://xkcd.com/927/).
+- Bezpłatne i otwartoźródłowe oprogramowanie zarówno po stronie aplikacji, jak i serwera. Stworzone w oparciu o [standardy e-mail i internetowe]({% include standards-url %}), [aby uniknąć „kolejnego standardowego syndromu (xkcd 927)”](https://xkcd.com/927/).
 
 
 ### Co zrobić, jeśli oczekuję wiadomości od osoby, do której nie pisałem w przeszłości?
@@ -689,7 +689,7 @@ Oto, co robi Delta Chat z tymi uprawnieniami:
 
 Podobnie jak w przypadku innych programów pocztowych, takich jak Thunderbird, K9-Mail lub Outlook, program potrzebuje hasła, aby można było go używać do wysyłania i odbierania e-maili. Oczywiście hasło jest przechowywane tylko na Twoim urządzeniu. Hasło jest przesyłane tylko do Twojego dostawcy poczty e-mail (po zalogowaniu), który i tak ma dostęp do Twojej poczty
 
-Ponieważ Delta Chat jest Open Source, możesz sprawdzić [Kod źródłowy](https://github.com/deltachat/deltachat-core-rust/blob/master/src/login_param.rs)
+Ponieważ Delta Chat jest Open Source, możesz sprawdzić [Kod źródłowy](https://github.com/chatmail/core/blob/main/src/login_param.rs)
 jeśli chcesz sprawdzić, czy Twoje poświadczenia są przetwarzane w bezpieczny sposób. Cieszymy się z opinii, które sprawiają, że aplikacja jest bezpieczniejsza dla wszystkich naszych użytkowników. 
 
 
