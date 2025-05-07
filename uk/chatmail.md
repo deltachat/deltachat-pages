@@ -21,7 +21,7 @@ lang: uk
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/) працює в США 
 
-- [tarpit.fun](https://tarpit.fun) розміщується в Австрії 
+- [tarpit.fun](https://tarpit.fun) is hosted in Germany
 
 Існують додаткові chatmail-сервери, які не вказані у відкритому доступі.  
 

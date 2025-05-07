@@ -8,48 +8,47 @@ lang: ru
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers provide a privacy-preserving and speedy messaging experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Chatmail серверы обеспечивают конфиденциальное и быстрое общение, 
+безопасно взаимодействуя с chatmail и классическими почтовыми серверами. 
+**Нажмите на ссылку chatmail сервера,** чтобы увидеть домашнюю страницу, а затем отсканируйте там QR-код приглашения: 
 
 - [nine.testrun.org](https://nine.testrun.org) - это сервер chatmail по умолчанию
   для приложений Delta Chat, стабильно работающий с [анонса Chatmail в декабре 2023](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users 
+- [mehl.cloud](https://mehl.cloud) ориентирован на немецкоговорящих
+  пользователей 
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
+- [mailchat.pl](https://mailchat.pl) ориентирован на польскоговорящих пользователей
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been stable 
+  ориентирован на итальяноговорящих пользователей и отличается надёжностью 
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US 
+  работает в США
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Austria 
+- [tarpit.fun](https://tarpit.fun) is hosted in Germany
 
-There are additional chatmail servers not listed publically.  
+Есть и другие chatmail серверы, которые не публикуются в открытом доступе.
 
-All chatmail servers are operated by different groups and people. 
+Все chatmail серверы управляются разными группами и людьми.
 
 
-## Can I also use a pre-existing e-mail address? 
+## Можно ли использовать уже имеющийся адрес электронной почты?
 
-Yes, you can use a pre-existing e-mail address with Delta Chat
-but we recommend to use a **dedicated e-mail address for chatting**
-so that your classic usually un-encrypted e-mail does not mix 
-with end-to-end encrypted chat messages. 
+Да, вы можете использовать существующий адрес электронной почты с Delta Chat,
+но мы рекомендуем использовать **отдельный адрес электронной почты для общения,**
+чтобы ваша обычная незашифрованная почта не смешивалась 
+с сообщениями чата, защищёнными сквозным шифрованием. 
 
-You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
+Вы также можете использовать Delta Chat как (обычное) почтовое приложение для существующего адреса электронной почты. 
 
-Delta Chat has multi-profile support so you can have 
-one profile with your classic e-mail address,
-and another for instant always-encrypted chatting. 
-Chatmail addresses are cheap. 
+Delta Chat поддерживает несколько профилей, поэтому у вас может быть 
+один профиль с вашим обычным адресом электронной почты,
+а другой для мгновенного общения с постоянным шифрованием. 
+Chatmail адреса стоят недорого. 
 
-## How can i learn more about chatmail servers? Can i run one? 
+## Как получить больше информации о серверах chatmail? Могу ли я запустить один?
 
-Please visit our [chatmail project page](https://chatmail.at) 
-for more details and links. 
+Для получения более подробной информации и ссылок посетите нашу [страницу проекта](https://chatmail.at).
 
 [Пожертвовать](donate){: .cta-button}
