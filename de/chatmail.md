@@ -25,7 +25,7 @@ für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigun
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
 ist in den USA aktiv
 
-- [tarpit.fun](https://tarpit.fun) wird in Österreich betrieben
+- [tarpit.fun](https://tarpit.fun) is hosted in Germany
 
 Es gibt weitere Chatmail-Server, die nicht öffentlich gelistet sind.
 

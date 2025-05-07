@@ -27,8 +27,7 @@ is georiënteerd op Italiaanssprekenden
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   wordt beheerd vanuit de VS.
 
-- [tarpit.fun](https://tarpit.fun)
-wordt beheerd vanuit Oostenrijk.
+- [tarpit.fun](https://tarpit.fun) is hosted in Germany
 
 Er zijn nog meer chatmailservers die niet openbaar genoemd zijn.
 

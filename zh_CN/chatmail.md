@@ -25,7 +25,7 @@ securely interoperable with chatmail and classic e-mail servers.
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   operates in the US 
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Austria 
+- [tarpit.fun](https://tarpit.fun) is hosted in Germany
 
 There are additional chatmail servers not listed publically.  
 
