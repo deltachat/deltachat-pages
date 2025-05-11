@@ -32,6 +32,8 @@ The school will be generally open from early morning till evening
 and everyone is free to cling together in groups, take a room and also do internal project sessions. 
 We'll see to arrange for cooking food or walk over to some commercial food places. 
 One some days we probably do presentation/demo evenings, to be announced publically. 
+The place is exceptionally well suited to have kids around and Freiburg
+ist also generally a vacationing area. 
 
 ## Wait, where is the program and the time table? 
 
