@@ -19,7 +19,6 @@ an Ukrainian video and photo artist, piano and noise musicians
 and a theater professional who is to help creating the "Can you arrest a protocol?" play about three anti-cryptography court cases ... 
 which might see an experimental premiere during the DIFF gathering. 
 
-
 ## Co-working, cross-concern hacking and playing
 
 As of May 12th there are around 30 people arranging themselves to make it,
@@ -34,12 +33,11 @@ One some days we probably do presentation/demo evenings, to be announced publica
 
 ## Wait, where is the program and the time table? 
 
-It's not yet settled what will happen on which days. 
-Delta Chat development and co-ordination practises do not use clock timing much. 
+It's not yet settled what will happen on which days and not everybody comes the full duration. 
 Maybe check out our report about a [gathering in Kyiv a few years ago](https://delta.chat/en/2019-05-08-xyiv) 
 to get a more concrete idea. 
-The so called [Union of Egoists](https://en.wikipedia.org/wiki/Union_of_egoists)
-is not an entirely unfitting reflection to describe the attitudes of attendees. 
+A so called [Union of Egoists](https://en.wikipedia.org/wiki/Union_of_egoists)
+is not an entirely unfitting characterization of attendees' attitudes. 
 
 ## How to join and participate 
 
