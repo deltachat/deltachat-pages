@@ -8,6 +8,8 @@ image: ../assets/logos/kap-logo.jpg
 During June 7-17th many of our contributors and from neighboring projects will gather in the Black Forest. 
 We will use outsides and insides of the oldest "free and democratic school" in Germany, the "Kapriole".
 DIFF stands for "Decentralized Internet Federation Fusion". 
+You may join if you wanted to get into current developments or do your own related thing on the side
+and get to know, or get help from many of the currently active contributors. 
 
 ## Who is coming? What is happening at DIFF? 
 
@@ -36,7 +38,7 @@ One some days we probably do presentation/demo evenings, to be announced publica
 It's not yet settled what will happen on which days and not everybody comes the full duration. 
 Maybe check out our report about a [gathering in Kyiv a few years ago](https://delta.chat/en/2019-05-08-xyiv) 
 to get a more concrete idea. 
-A so called [Union of Egoists](https://en.wikipedia.org/wiki/Union_of_egoists)
+Maybe a so called [Union of Egoists](https://en.wikipedia.org/wiki/Union_of_egoists)
 is not an entirely unfitting characterization of attendees' attitudes. 
 
 ## How to join and participate 
