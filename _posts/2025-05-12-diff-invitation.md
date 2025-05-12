@@ -2,6 +2,7 @@
 title: "DIFF Invitation June 7-17th"
 author: olgax
 image: ../assets/logos/kap-logo.jpg
+com_id: 114494151406863516
 ---
 
 <video controls style="width:560px; max-width: 100%;"><source src="https://chatmail.at/video/diff-invitation2-2025.mp4" type="video/mp4"></video>
