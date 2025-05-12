@@ -1,12 +1,11 @@
 ---
-title: "decentralized internet federation fusion 2025"
+title: "DIFF Invitation June 7-17th"
 author: olgax
 image: ../assets/logos/kap-logo.jpg
 ---
 
 <video controls style="width:560px; max-width: 100%;"><source src="https://chatmail.at/video/diff-invitation2-2025.mp4" type="video/mp4"></video>
-During June 7-17th many of our contributors and from neighboring projects will gather in Freiburg in the Black Forest,
-at the bottom left of germany. 
+During June 7-17th many of our contributors and from neighboring projects will gather in Freiburg in the Black Forest.
 We will use outsides and insides of the oldest "free and democratic school" in Germany, the "Kapriole".
 DIFF currently stands for "Decentralized Internet Federation Fusion". 
 
@@ -23,7 +22,7 @@ about three anti-cryptography court cases ... which might see an experimental pr
 You are invited to join any of this. 
 If you want to bring some friends or conspirators, be our guests. 
 
-## Co-working, cross-concern hacking, playing and diverting
+## Co-working, cross-concern hacking and diversions 
 
 As of May 12th there are 30+ people arranging themselves to make it,
 with about a dozen to do so during the full date frame. 
