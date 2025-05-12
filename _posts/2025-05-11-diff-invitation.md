@@ -13,7 +13,7 @@ DIFF currently stands for "Decentralized Internet Federation Fusion".
 
 There will be plenty folks from [Chatmail developments](https://chatmail.at), from Delta Chat Android/iOS/Desktop/UbuntuTouch, chat bots, 
 [webxdc app development](https://webxdc.org) as well as [Iroh](https://iroh.computer) and [rPGP](https://github.com/rpgp/rpgp) projects,
-and then some who engage with reviving Peer-to-Peer file sharing, or develop [Watch2Gather](https://w2g.tv/en/). 
+and then some who engage with reviving Peer-to-Peer file sharing, or develop [Watch2Gether](https://w2g.tv/en/). 
 We are to be joined by people from international solidarity groups,
 an Ukrainian video and photo artist, piano and noise musicians
 and likely a theater professional who is to help creating the "Can you arrest a protocol?" play 
