@@ -47,7 +47,7 @@ If you are an individual interested in any of the above, we'll see to help you f
 Please take note of our [Community standards](https://delta.chat/en/community-standards). 
 
 Please send a direct message to our Fediverse [@delta@chaos.social](https://chaos.social/@delta)
-or to our [delta team address](mailto:delta@merlinux.eu) ([invite link])(https://i.delta.chat/#56136E70473FB9E59331D760C007984652839B20&a=delta%40merlinux.eu&n=Delta%20Chat%20team&i=ZVfPYn6j2fvtpc_0M6V45uEP&s=WWjjkBKJJ3So8AfuHGXNjcyE) 
+or to our [delta team address](mailto:delta@merlinux.eu) ([invite link](https://i.delta.chat/#56136E70473FB9E59331D760C007984652839B20&a=delta%40merlinux.eu&n=Delta%20Chat%20team&i=ZVfPYn6j2fvtpc_0M6V45uEP&s=WWjjkBKJJ3So8AfuHGXNjcyE))
 and from there we'll add you to a group chat that uses an webxdc editor and other chat apps for further co-ordination. 
 You will need to care for some accommodation yourself. 
 There also are some possibilities for sharing a room or space if you bring some sleeping gear. 
