@@ -36,14 +36,13 @@ The school will be generally open from morning till evening
 and everyone may also cling together in small groups, take a room and also do internal project sessions. 
 We'll see to arrange for some food and drinks. Commercial food places are in walking distance. 
 On some days we probably do presentation/demo evenings, and announce them publically. 
-The place is also exceptionally well suited to have kids around and Freiburg,
-is also generally a vacationing area. Feel free to also spend your vacation and only
-drop by some of the days. 
+The place is also exceptionally well suited to have kids around and Freiburg
+is also generally a vacationing area, with quick train rides to Switzerland and France. 
 
 ## Attending and joining DIFF
 
 If you, maybe along with a group of like-minded people, want to join DIFF, that's quite possible still! 
-If you are an individual interested in any of the above, we'll see to help you feel at home. 
+If you are an individual interested in any of the above, we'll see to help you feel at home and welcome. 
 Please take note of our [Community standards](https://delta.chat/en/community-standards). 
 
 Please send a direct message to our Fediverse [@delta@chaos.social](https://chaos.social/@delta)
