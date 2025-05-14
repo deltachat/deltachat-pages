@@ -21,13 +21,14 @@ en zijn compatibel met zowel chatmailservers onderling als traditionele mailserv
 - [mailchat.pl](https://mailchat.pl) is georiënteerd op Poolssprekenden.
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-is georiënteerd op Italiaanssprekenden
-  en is stabiel verklaard.
+  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  are focused on Italian speaking users.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   wordt beheerd vanuit de VS.
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Germany
+- [tarpit.fun](https://tarpit.fun) wordt beheerd vanuit Duitsland
+
 
 Er zijn nog meer chatmailservers die niet openbaar genoemd zijn.
 

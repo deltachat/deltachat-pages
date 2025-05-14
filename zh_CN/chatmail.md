@@ -20,12 +20,14 @@ securely interoperable with chatmail and classic e-mail servers.
 - [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been stable 
+  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  are focused on Italian speaking users.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   operates in the US 
 
 - [tarpit.fun](https://tarpit.fun) is hosted in Germany
+
 
 There are additional chatmail servers not listed publically.  
 

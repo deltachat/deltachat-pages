@@ -19,11 +19,14 @@ per le app Delta Chat ed è stabile dall' [Annuncio Chatmail di Dicembre 2023](h
 
 - [mailchat.pl](https://mailchat.pl) è orientato agli utenti di lingua polacca
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) è orientato agli utenti di lingua italiana
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  are focused on Italian speaking users.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/) opera negli USA
 
 - [tarpit.fun](https://tarpit.fun) is hosted in Germany
+
 
 Ci sono anche altri server chatmail non elencati pubblicamente.
 

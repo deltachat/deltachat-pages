@@ -21,12 +21,14 @@ Chatmail серверы обеспечивают конфиденциально�
 - [mailchat.pl](https://mailchat.pl) ориентирован на польскоговорящих пользователей
 
 - [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  ориентирован на итальяноговорящих пользователей и отличается надёжностью 
+  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  are focused on Italian speaking users.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   работает в США
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Germany
+- [tarpit.fun](https://tarpit.fun) размещается в Германии
+
 
 Есть и другие chatmail серверы, которые не публикуются в открытом доступе.
 
