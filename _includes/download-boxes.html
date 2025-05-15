@@ -42,6 +42,9 @@
                         <img src="../assets/badges/appgallery.png" alt="Explore it on AppGallery" width=159 height=48 />
                     </picture>
                 </a>
+                <a href="{% include obtainium-url %}" class="img-badge">
+                    <img src="../assets/badges/obtainium.png" alt="Get it on Obtainium" width=161 height=48 />
+                </a>
             </div>
             <div class="descr">
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
