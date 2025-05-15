@@ -14,6 +14,3 @@ build/
 venv/ 
 
 vendor/bundle
-
-# Nix output.
-result

@@ -1,0 +1,35 @@
+name: Deploy Master Branch
+
+on:
+  push:
+    branches:
+      - master
+      - new-deployment
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Bundler
+        run: sudo gem install bundler
+      - name: Cache bundle
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Install Jekyll
+        run: bundle install
+      - name: Build the site with Jekyll
+        run: |
+          bundle exec jekyll build --future
+
+      - name: Upload
+        run: |
+          mkdir -p "$HOME/.ssh"
+          echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
+          chmod 600 "$HOME/.ssh/key"
+          rsync -avzh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/_site/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/_site"
