@@ -5,7 +5,7 @@ image: ../assets/logos/kap-logo.jpg
 com_id: 114494151406863516
 ---
 
-<video controls style="width:560px; max-width: 100%;"><source src="https://chatmail.at/video/diff-invitation2-2025.mp4" type="video/mp4"></video>
+<video controls style="width:560px; max-width: 100%;"><source src="https://delta.chat/video/diff-invitation2-2025.mp4" type="video/mp4"></video>
 During June 7-17th many of our contributors and from neighboring projects will gather in Freiburg in the Black Forest.
 We will use outsides and insides of the oldest "free and democratic school" in Germany, the "Kapriole".
 DIFF currently stands for "Decentralized Internet Federation Fusion". 
