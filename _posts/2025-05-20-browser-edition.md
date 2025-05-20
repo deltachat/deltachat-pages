@@ -1,8 +1,8 @@
 ---
 title: "Can Delta Chat run in a Browser?"
 author: treefit
-image: #TODO
-# com_id: 114494151406863516
+image: ../assets/blog/2025-05-20-browser-edition/browser-thumbnail.png
+# com_id:
 ---
 
 Over the years, many people have asked this question. Until recently the answer was "no", now it is "kinda". In the following blog post, we will explore this idea.
