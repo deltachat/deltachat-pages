@@ -82,7 +82,9 @@ The code of the runtime interface: <https://github.com/deltachat/deltachat-deskt
         <li>
             Currently, only one client can connect to the chatmail core at a time, because there is only a single event queue. <br /> If you would connect multiple clients right now, then they would steal events from each other. 
         </li>
-        <li>The current security could be improved: The WebSocket server does not perform origin validation and the login has no timeout/cooldown on wrong passwords. But those would be easy to add.</li>
+        <li>
+            The current security could be improved: The WebSocket server does not perform origin validation and the login has no timeout/cooldown on wrong passwords. But those would be easy to add.
+        </li>
     </ol>
     <p>
     Also, not all features are implemented yet in the browser version. Missing are:
