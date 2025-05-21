@@ -96,7 +96,7 @@ The code of the runtime interface: <https://github.com/deltachat/deltachat-deskt
         <li>viewing HTML emails</li>
     </ul> 
     <p>
-        These missing features, and especially the webxdc app sandboxing, require more work. See [Webxdc security blog post](https://delta.chat/en/2023-05-22-webxdc-security) for a deep dive into the issues. 
+        These missing features, and especially the webxdc app sandboxing, require more work. See <a href="https://delta.chat/en/2023-05-22-webxdc-security">Webxdc security blog post</a> for a deep dive into the issues. 
     </p>
 </details>
 
