@@ -9,7 +9,7 @@ excerpt: As part of the project to port Delta Chat Desktop from Electron to Taur
 As part of the project to port Delta Chat Desktop from Electron to Tauri[^3], we'll showcase a setup where our Desktop app runs in Firefox and does not depend on Electron or Chromium anymore. This video and post walks through what works already, and what doesn't and is generally aimed at developers and expert users. 
 
 <figure>
-    <img src="../assets/blog/2025-05-20-browser-edition/browser-screenshot-firefox.png" alt="Delta Chat Desktop UI running in the Firefox Browser" style="max-width: 100%" />
+    <img src="../assets/blog/2025-05-20-browser-edition/browser-screenshot-firefox.png" alt="Delta Chat Desktop UI running in the Firefox Browser" style="max-width: 100%; aspect-ratio: 2934 / 1782;" />
     <figcaption>
         Delta Chat, running in the Firefox Browser
     </figcaption>
