@@ -125,7 +125,7 @@ While some of our work is funded through public bodies, a lot of it is not.  Ple
 If you want to try the experimental browser version yourself, then you can find the instructions at <https://github.com/deltachat/deltachat-desktop/blob/main/packages/target-browser/Readme.md>.
 
 
-[^1]: formerly known as Delta Chat Core. It is the core library all our UI implementations use.
+[^1]: Formerly known as Delta Chat Core. It is the core library all our UI implementations use.
 
 [^2]: I'm thinking BSD flavors, Haiku, or other rare enthusiast operating systems here
 
