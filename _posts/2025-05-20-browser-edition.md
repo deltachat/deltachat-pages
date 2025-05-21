@@ -1,5 +1,5 @@
 ---
-title: "Delta Chat Desktop running on Firefox 🦊"
+title: "Delta Chat Desktop, but running inside of Firefox 🦊"
 author: treefit
 image: ../assets/blog/2025-05-20-browser-edition/browser-thumbnail.png
 # com_id:
