@@ -1,6 +1,6 @@
 ---
 title: "Delta Chat Desktop, but running inside of Firefox 🦊"
-author: treefit
+author: treefit, nojisan
 image: ../assets/blog/2025-05-20-browser-edition/browser-thumbnail.png
 # com_id:
 excerpt: As part of the project to port Delta Chat Desktop from Electron to Tauri, we'll showcase a setup where our Desktop app runs in Firefox and does not depend on Electron or Chromium anymore. This video and post walks through what works already, and what doesn't and is generally aimed at developers and expert users. 
