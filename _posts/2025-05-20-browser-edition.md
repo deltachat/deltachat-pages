@@ -29,7 +29,7 @@ Features:
 
 Here is a video that shows the Browser Version in action:
 
-<video controls style="max-width: 100%;" alt="Demo video of the Delta Chat Web version in action"><source src="https://chatmail.at/video/browser-edition-blogpost-demo.mp4" type="video/mp4"></video>
+<video controls style="max-width: 100%;" alt="Demo video of the Delta Chat Web version in action"><source src="https://delta.chat/video/browser-edition-blogpost-demo.mp4" type="video/mp4"></video>
 
 Though it is not standalone, it still needs a server component because chatmail core[^1] can not yet be compiled into a web assembly to run fully in the browser, but more on that later.
 
