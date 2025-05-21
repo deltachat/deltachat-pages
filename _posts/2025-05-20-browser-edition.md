@@ -97,13 +97,13 @@ The code of the runtime interface: <https://github.com/deltachat/deltachat-deskt
 
 Besides the issues noted, a Web version of Delta Chat that fully satisfies end-to-end encryption guarantees needs the Rust chatmail core library to run in the browser. Rust in general compiles to [WebAssembly (WASM)](https://webassembly.org/). For example, the security-audited [rPGP end-to-end encryption library](https://github.com/rpgp/rpgp) is implemented fully in Rust and  is continuously tested with WebAssembly targets. However, there are some key challenges to address for a "standalone" Web version: 
 
- - find a solution for both database storage (currently chatmail core uses sqlite as an embedded C-library) and arrange fast file storage for media files, avatars etc.   
+- Find a solution for both database storage (currently chatmail core uses sqlite as an embedded C-library) and arrange fast file storage for media files, avatars etc.   
 
-- find a solution to Browsers being unable to perform SMTP or IMAP network protocols; this could involve [[Chatmail relays](https://chatmail.at/relays) offering a minimal HTTP/Websocket interface to bridge the gap.
+- Find a solution to Browsers being unable to perform SMTP or IMAP network protocols; this could involve [[Chatmail relays](https://chatmail.at/relays) offering a minimal HTTP/Websocket interface to bridge the gap.
 
-- support webxdc realtime P2P networking and support running [in-chat multiplayer Quake3 Arena realtime gameplay](https://chaos.social/@delta/114517181096683376);  Our friends at [Iroh](https://iroh.computer) are themselves working on Web-versions 
+- Support webxdc realtime P2P networking and support running [in-chat multiplayer Quake3 Arena realtime gameplay](https://chaos.social/@delta/114517181096683376);  Our friends at [Iroh](https://iroh.computer) are themselves working on Web-versions 
 
-- explore how well the chatmail core async Rust code can run in WebAssembly; this could involve a lot of refactoring.
+- Explore how well the chatmail core async Rust code can run in WebAssembly; this could involve a lot of refactoring.
 
 See the [Web version topic in the Delta Chat Forum](https://support.delta.chat/t/what-would-be-needed-for-a-standalone-web-version-without-a-server-component/3789) for further discussion. 
 
