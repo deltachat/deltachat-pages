@@ -1,18 +1,11 @@
 ---
-title: "Can Delta Chat run in a Browser?"
+title: "Delta Chat Desktop running on Firefox 🎉"
 author: treefit
 image: ../assets/blog/2025-05-20-browser-edition/browser-thumbnail.png
 # com_id:
 ---
 
-Over the years, many people have asked this question. Until recently the answer was "no", now it is "kinda". In the following blog post, we will explore this idea.
-
-> With running in the browser we mean a delta chat web, like WhatsApp web or telegram web.
->
-> Another way to understand web chat is through support or sales chats on websites.
-> This post is not about those, but if you are looking for those you may be interested in the support chat system [chatwoot](https://github.com/chatwoot), for which we made a [deltachat plugin](https://github.com/deltachat-bot/deltawoot/). Our plugin allows your clients to contact you securely over delta chat.
-
-As part of the project to port delta chat desktop from electron to Tauri[^3], we made a version of the delta chat desktop user interface that runs in a browser.
+As part of the project to port Delta Chat Desktop from Electron to Tauri[^3],  we'll showcase a setup where our Desktop app runs in Firefox and does not depend on Electron or Chromium anymore. This video and post walks through what works already, and what doesn't and is generally aimed at developers and expert users. 
 
 <figure>
     <img src="../assets/blog/2025-05-20-browser-edition/browser-screenshot-firefox.png" alt="Delta Chat Desktop UI running in the Firefox Browser" style="max-width: 100%" />
@@ -50,10 +43,10 @@ So why did we make it? We had three reasons:
 
 There are many more ways this web version could be used besides the ones already mentioned:
 
--  "delta chat web" - run core on an Android device, connect to it from a computer over a local network for a WhatsApp web-like experience.
-- delta chat as a service (for example, a company could host instances for all their employees).
+-  "delta chat web" - run core on a mobile device and connect to it from a computer over a local network for a WhatsApp web-like experience.
+- Delta chat as a service (for example, a company could host instances for all their employees).
 - It could be a way to port Delta Chat to special operating systems[^2] that have a browser and rust support, but have no support for electron or tauri[^3].
-- run delta chat web on your Raspberry Pi / home server connect from your devices
+- Run delta chat web on your Raspberry Pi / home server connect from your devices
 	- treefit already made a [plugin for running it on home assistant](https://codeberg.org/treefit/deltachat-homeassistant-addon)
 
 <figure>
@@ -61,15 +54,15 @@ There are many more ways this web version could be used besides the ones already
     <figcaption>Delta Chat Web inside of Home Assistant</figcaption>
 </figure>
 
-### Technical Details for the Interested
+### Diving deeper into technical details 
 
 To make the Web UI of delta chat desktop independent of electron, we needed to make our code more modular:
 
-- We switched to the JSON-RPC API, which we explored in detail in a [previous blog post](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist).
-- We created a new `Runtime` interface and moved all direct calls to electron into a `ReuntimeElectron` class that implements this interface.
+- We switched to the JSON-RPC API, which we highlighted in a [previous blog post](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist).
+- We created a new `Runtime` interface and moved all direct calls to electron into a `RuntimeElectron` class that implements this interface.
 - We also moved nearly all the logic to the frontend/UI code, so the runtimes are even simpler to make and maintain because they contain less and simpler code.
 
-This way, the web-based UI of the desktop client became fully independent of electron.
+Effectively, the web-based UI of the desktop client became independent of Electron or Chromium. 
 To add a new Runtime you just need to implement the runtime interface and load it when you start the app.
 
 The code of the runtime interface: <https://github.com/deltachat/deltachat-desktop/blob/main/packages/runtime/runtime.ts#L29>
@@ -87,20 +80,42 @@ The code of the runtime interface: <https://github.com/deltachat/deltachat-deskt
             You need to host the server component for each user, so you need to build management software if you want to use this for a SaaS project/product.
         </li>
         <li>
-            Currently, only one client can connect to the chatmail core at a time, because there is only a single event queue. <br /> But there are ideas to change this in the future to allow for more concurrent event listeners. (If you would connect multiple clients right now, then they would steal events from each other.).
+            Currently, only one client can connect to the chatmail core at a time, because there is only a single event queue. <br /> If you would connect multiple clients right now, then they would steal events from each other. 
         </li>
     </ol>
     <p>
-    Also, not all features are implemented yet in the browser version, mainly maps/location-streaming, webxdc mini apps, and viewing HTML emails. But those are not impossible to implement; we just need some considerations about sandboxing.
+    Also, not all features are implemented yet in the browser version. Missing are:
+    - webxdc chat-shared apps
+    - experimental maps/location-streaming
+    - viewing HTML emails. 
+     
+    These missing features, and especially the webxdc app sandboxing, require more work. See [Webxdc security blog post](https://delta.chat/en/2023-05-22-webxdc-security) for a deep dive into the issues. 
     </p>
 </details>
 
-### What's next?
+### What comes next requires helping hands and contributions
 
-While we have no immediate plans for the browser version (besides using it for more e2e testing), there are many ideas on what it could be used for ([Possible future use cases](#future-usecases)).
+Besides the issues noted, a Web version of Delta Chat that fully satisfies end-to-end encryption guarantees needs the Rust chatmail core library to run in the browser. Rust in general compiles to [WebAssembly (WASM)](https://webassembly.org/). For example, the security-audited [rPGP end-to-end encryption library](https://github.com/rpgp/rpgp) is implemented fully in Rust and  is continuously tested with WebAssembly targets. However, there are some key challenges to address for a "standalone" Web version: 
 
-Ideally, the web version shouldn't need this local server component. To make that work, we need to compile our core library to wasm. It should be possible since our core library is written in rust, and rust is one of the most popular languages for compiling to web assembly, but there are a few challenges (missing TCP support in browsers, a fast SQLite database, fast file storage, threading, and more).
-If you want to help, here is the forum discussion about it: [What would be needed for a standalone web version without a server component? | Delta Chat Forum](https://support.delta.chat/t/what-would-be-needed-for-a-standalone-web-version-without-a-server-component/3789).
+ - find a solution for both database storage (currently chatmail core uses sqlite as an embedded C-library) and arrange fast file storage for media files, avatars etc.   
+
+- find a solution to Browsers being unable to perform SMTP or IMAP network protocols; this could involve [[Chatmail relays](https://chatmail.at/relays) offering a minimal HTTP interface
+
+- support webxdc realtime P2P networking and support running [in-chat multiplayer Quake3 Arena realtime gameplay](https://chaos.social/@delta/114517181096683376);  Our friends at [Iroh](https://iroh.computer) are themselves working on Web-versions 
+
+- explore how well the chatmail core async Rust code can run in WebAssembly; this could involve a lot of refactoring 
+
+See the [Web version topic in the Delta Chat Forum](https://support.delta.chat/t/what-would-be-needed-for-a-standalone-web-version-without-a-server-component/3789) for further discussion. 
+
+If you are not really into programming, it might be hard to understand how hard these issues are. But no worries, even if you are a programmer, or even with ourselves as matter experts, it's hard to predict :) 
+
+## Invitation to DIFF June 7-17th in Freiburg
+
+The best way to discuss with many of us is by making it to an in-person community gathering. This crazy year of 2025 around we are [inviting to the DIFF gathering](https://delta.chat/en/2025-05-12-diff-invitation) starting in just a few weeks.  
+
+## Donations needed
+
+While some of our work is funded through public bodies, a lot of it is not.  Please consider [sending a monetary contribution](https://delta.chat/en/donate) if you can and appreciate our efforts and want to enable more. Thanks! 
 
 If you want to try the experimental browser version yourself, then you can find the instructions at <https://github.com/deltachat/deltachat-desktop/blob/main/packages/target-browser/Readme.md>.
 
