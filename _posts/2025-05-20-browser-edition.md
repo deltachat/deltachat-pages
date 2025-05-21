@@ -37,16 +37,16 @@ Though it is not standalone, it still needs a server component because chatmail 
 So why did we make a Desktop version that works in a Browser? We had three reasons:
 1. Lots of people rightfully criticized depending on Google's Chromium and resource-hungry Electron[^electron]. 
 2. To give access to development tools and add-ons on all browsers.
-3. To bring back automated integration testing for Delta Chat desktop.
+3. To bring back automated integration testing for Delta Chat Desktop.
 
 ### Possible future use cases {#future-usecases}
 
 There are many more ways this web version could be used besides the ones already mentioned:
 
--  "delta chat web" - run core on a mobile device and connect to it from a computer over a local network for a WhatsApp web-like experience.
-- Delta chat as a service (for example, a company could host instances for all their employees).
-- It could be a way to port Delta Chat to special operating systems[^2] that have a browser and rust support, but have no support for electron or tauri[^3].
-- Run delta chat web on your Raspberry Pi / home server connect from your devices
+-  "Delta Chat Web" - run core on a mobile device and connect to it from a computer over a local network for a WhatsApp web-like experience.
+- Delta Chat as a service (for example, a company could host instances for all their employees).
+- It could be a way to port Delta Chat to special operating systems[^2] that have a browser and rust support, but have no support for Electron or Tauri[^3].
+- Run Delta chat Web on your Raspberry Pi / home server connect from your devices
 	- treefit already made a [plugin for running it on home assistant](https://codeberg.org/treefit/deltachat-homeassistant-addon)
 
 <figure>
@@ -56,10 +56,10 @@ There are many more ways this web version could be used besides the ones already
 
 ### Diving deeper into technical details 
 
-To make the Web UI of delta chat desktop independent of electron, we needed to make our code more modular:
+To make the Web UI of Delta Chat Desktop independent of Electron, we needed to make our code more modular:
 
 - We switched to the JSON-RPC API, which we highlighted in a [previous blog post](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist).
-- We created a new `Runtime` interface and moved all direct calls to electron into a `RuntimeElectron` class that implements this interface.
+- We created a new `Runtime` interface and moved all direct calls to Electron into a `RuntimeElectron` class that implements this interface.
 - We also moved nearly all the logic to the frontend/UI code, so the runtimes are even simpler to make and maintain because they contain less and simpler code.
 
 Effectively, the web-based UI of the desktop client became independent of Electron or Chromium. 
@@ -121,10 +121,10 @@ While some of our work is funded through public bodies, a lot of it is not.  Ple
 If you want to try the experimental browser version yourself, then you can find the instructions at <https://github.com/deltachat/deltachat-desktop/blob/main/packages/target-browser/Readme.md>.
 
 
-[^1]: formerly known as delta chat core. It is the core library all our UI implementations use.
+[^1]: formerly known as Delta Chat Core. It is the core library all our UI implementations use.
 
 [^2]: I'm thinking BSD flavors, Haiku, or other rare enthusiast operating systems here
 
-[^3]: Tauri is an alternative to electron that is smaller, because it uses the web view provided by the operating system instead of including a whole Chromium browser. It is also written in the memory-safe compiled language rust, which offers security and speed benefits. There will be another blog post going into more detail soon; in the meantime, you can learn more at <https://tauri.app/>.
+[^3]: Tauri is an alternative to Electron that is smaller, because it uses the web view provided by the operating system instead of including a whole Chromium browser. It is also written in the memory-safe compiled language rust, which offers security and speed benefits. There will be another blog post going into more detail soon; in the meantime, you can learn more at <https://tauri.app/>.
 
 [^electron]: Though It should be said that despite it's flaws, Electron has served us well over the years and we are grateful that it exists. But it is never good to be too dependent on a single framework, especially one that is so resource wasteful and hard for us to extend or contribute back to.
