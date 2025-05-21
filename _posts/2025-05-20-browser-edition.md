@@ -34,9 +34,10 @@ Though it is not standalone, it still needs a server component because chatmail 
 
 ### Why we made a Browser Edition
 
-So why did we make it? We had three reasons:
-1. As proof that the delta chat desktop react-based user interface is not dependent on electron anymore (an important stepping stone to the tauri[^3] version).
-2. To help us to improve and develop the web-based user interface by giving us access to the development tools and add-ons on all browsers.
+So why did we make a Desktop version that works in a Browser? We had three reasons:
+1. Lots of people rightfully criticized depending on Google's Chromium and resource-hungry Electron.
+
+2. To give access to development tools and add-ons on all browsers.
 3. To bring back automated integration testing for Delta Chat desktop.
 
 ### Possible future use cases {#future-usecases}
