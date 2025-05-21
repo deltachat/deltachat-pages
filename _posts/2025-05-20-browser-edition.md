@@ -88,12 +88,15 @@ The code of the runtime interface: <https://github.com/deltachat/deltachat-deskt
         </li>
     </ol>
     <p>
-    Also, not all features are implemented yet in the browser version. Missing are:
-    - webxdc chat-shared apps
-    - experimental maps/location-streaming
-    - viewing HTML emails. 
-     
-    These missing features, and especially the webxdc app sandboxing, require more work. See [Webxdc security blog post](https://delta.chat/en/2023-05-22-webxdc-security) for a deep dive into the issues. 
+        Also, some features are still missing in the browser version:
+    </p>
+    <ul>
+        <li>webxdc chat-shared apps</li>
+        <li>experimental maps/location-streaming</li>
+        <li>viewing HTML emails</li>
+    </ul> 
+    <p>
+        These missing features, and especially the webxdc app sandboxing, require more work. See [Webxdc security blog post](https://delta.chat/en/2023-05-22-webxdc-security) for a deep dive into the issues. 
     </p>
 </details>
 
@@ -103,7 +106,7 @@ Besides the issues noted, a Web version of Delta Chat that fully satisfies end-t
 
 - Find a solution for both database storage (currently chatmail core uses sqlite as an embedded C-library) and arrange fast file storage for media files, avatars etc.   
 
-- Find a solution to Browsers being unable to perform SMTP or IMAP network protocols; this could involve [[Chatmail relays](https://chatmail.at/relays) offering a minimal HTTP/Websocket interface to bridge the gap.
+- Find a solution to Browsers being unable to perform SMTP or IMAP network protocols; this could involve [Chatmail relays](https://chatmail.at/relays) offering a minimal HTTP/Websocket interface to bridge the gap.
 
 - Support webxdc realtime P2P networking and support running [in-chat multiplayer Quake3 Arena realtime gameplay](https://chaos.social/@delta/114517181096683376);  Our friends at [Iroh](https://iroh.computer) are themselves working on Web-versions 
 
