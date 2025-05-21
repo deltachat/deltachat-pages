@@ -35,8 +35,7 @@ Though it is not standalone, it still needs a server component because chatmail 
 ### Why we made a Browser Edition
 
 So why did we make a Desktop version that works in a Browser? We had three reasons:
-1. Lots of people rightfully criticized depending on Google's Chromium and resource-hungry Electron.
-
+1. Lots of people rightfully criticized depending on Google's Chromium and resource-hungry Electron[^electron]. 
 2. To give access to development tools and add-ons on all browsers.
 3. To bring back automated integration testing for Delta Chat desktop.
 
@@ -127,3 +126,5 @@ If you want to try the experimental browser version yourself, then you can find 
 [^2]: I'm thinking BSD flavors, Haiku, or other rare enthusiast operating systems here
 
 [^3]: Tauri is an alternative to electron that is smaller, because it uses the web view provided by the operating system instead of including a whole Chromium browser. It is also written in the memory-safe compiled language rust, which offers security and speed benefits. There will be another blog post going into more detail soon; in the meantime, you can learn more at <https://tauri.app/>.
+
+[^electron]: Though It should be said that despite it's flaws, Electron has served us well over the years and we are grateful that it exists. But it is never good to be too dependent on a single framework, especially one that is so resource wasteful and hard for us to extend or contribute back to.
