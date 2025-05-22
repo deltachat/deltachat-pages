@@ -31,7 +31,7 @@ Here is a video that shows the Browser Version in action:
 
 <video controls style="max-width: 100%;" alt="Demo video of the Delta Chat Web version in action"><source src="https://delta.chat/video/browser-edition-blogpost-demo.mp4" type="video/mp4"></video>
 
-Though it is not standalone, it still needs a server component because chatmail core[^1] can not yet be compiled into a web assembly to run fully in the browser, but more on that later.
+Though it is not standalone, it still needs a server component because Chatmail core[^1] can not yet be compiled into a WebAssembly to run fully in the browser, but more on that later.
 
 ### Why we made a Browser Edition
 
@@ -47,7 +47,7 @@ There are many more ways this web version could be used besides the ones already
 -  "Delta Chat Web" - run core on a mobile device and connect to it from a computer over a local network for a WhatsApp web-like experience.
 - Delta Chat as a service (for example, a company could host instances for all their employees).
 - It could be a way to port Delta Chat to special operating systems[^2] that have a browser and rust support, but have no support for Electron or Tauri[^3].
-- Run Delta chat Web on your Raspberry Pi / home server connect from your devices
+- Run Delta Chat Web on your Raspberry Pi / home server connect from your devices
 	- treefit already made a [plugin for running it on home assistant](https://codeberg.org/treefit/deltachat-homeassistant-addon)
 
 <figure>
@@ -81,7 +81,7 @@ The code of the runtime interface: <https://github.com/deltachat/deltachat-deskt
             You need to host the server component for each user, so you need to build management software if you want to use this for a SaaS project/product.
         </li>
         <li>
-            Currently, only one client can connect to the chatmail core at a time, because there is only a single event queue. <br /> If you would connect multiple clients right now, then they would steal events from each other. 
+            Currently, only one client can connect to the Chatmail core at a time, because there is only a single event queue. <br /> If you would connect multiple clients right now, then they would steal events from each other. 
         </li>
         <li>
             The current security could be improved: The WebSocket server does not perform origin validation and the login has no timeout/cooldown on wrong passwords. But those would be easy to add.
@@ -102,15 +102,15 @@ The code of the runtime interface: <https://github.com/deltachat/deltachat-deskt
 
 ### What comes next requires helping hands and contributions
 
-Besides the issues noted, a Web version of Delta Chat that fully satisfies end-to-end encryption guarantees needs the Rust chatmail core library to run in the browser. Rust in general compiles to [WebAssembly (WASM)](https://webassembly.org/). For example, the security-audited [rPGP end-to-end encryption library](https://github.com/rpgp/rpgp) is implemented fully in Rust and  is continuously tested with WebAssembly targets. However, there are some key challenges to address for a "standalone" Web version: 
+Besides the issues noted, a Web version of Delta Chat that fully satisfies end-to-end encryption guarantees needs the Rust Chatmail core library to run in the browser. Rust in general compiles to [WebAssembly (WASM)](https://webassembly.org/). For example, the security-audited [rPGP end-to-end encryption library](https://github.com/rpgp/rpgp) is implemented fully in Rust and  is continuously tested with WebAssembly targets. However, there are some key challenges to address for a "standalone" Web version: 
 
-- Find a solution for both database storage (currently chatmail core uses sqlite as an embedded C-library) and arrange fast file storage for media files, avatars etc.   
+- Find a solution for both database storage (currently Chatmail core uses SQLite as an embedded C-library) and arrange fast file storage for media files, avatars etc.   
 
-- Find a solution to Browsers being unable to perform SMTP or IMAP network protocols; this could involve [Chatmail relays](https://chatmail.at/relays) offering a minimal HTTP/Websocket interface to bridge the gap.
+- Find a solution to Browsers being unable to perform SMTP or IMAP network protocols; this could involve [Chatmail relays](https://chatmail.at/relays) offering a minimal HTTP/WebSocket interface to bridge the gap.
 
-- Support webxdc realtime P2P networking and support running [in-chat multiplayer Quake3 Arena realtime gameplay](https://chaos.social/@delta/114517181096683376);  Our friends at [Iroh](https://iroh.computer) are themselves working on Web-versions 
+- Support webxdc realtime P2P networking and support running [in-chat multiplayer Quake III Arena realtime gameplay](https://chaos.social/@delta/114517181096683376);  Our friends at [Iroh](https://iroh.computer) are themselves working on Web-versions 
 
-- Explore how well the chatmail core async Rust code can run in WebAssembly; this could involve a lot of refactoring.
+- Explore how well the Chatmail core async Rust code can run in WebAssembly; this could involve a lot of refactoring.
 
 See the [Web version topic in the Delta Chat Forum](https://support.delta.chat/t/what-would-be-needed-for-a-standalone-web-version-without-a-server-component/3789) for further discussion. 
 
