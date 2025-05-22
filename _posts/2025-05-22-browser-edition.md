@@ -125,7 +125,7 @@ The best way to discuss with many of us is by making it to an in-person communit
 
 While some of our work is funded through public bodies, a lot of it is not.  Please consider [sending a monetary contribution](https://delta.chat/en/donate) if you can and appreciate our efforts and want to enable more. Thanks! 
 
-If you want to try the experimental browser version yourself, then you can find the instructions at <https://github.com/deltachat/deltachat-desktop/blob/main/packages/target-browser/Readme.md>.
+If you want to try the experimental browser version yourself, then you can find the instructions in [this README](https://github.com/deltachat/deltachat-desktop/blob/41916ea9b8219797255ad817c02a2d940cb0bd3f/packages/target-browser/Readme.md).
 
 
 [^1]: Formerly known as Delta Chat Core. It is the core library all our UI implementations use.
