@@ -1,7 +1,7 @@
 ---
 title: "Delta Chat Desktop, but running inside of Firefox 🦊"
 author: treefit, nojisan
-image: ../assets/blog/2025-05-20-browser-edition/browser-thumbnail.png
+image: ../assets/blog/2025-05-22-browser-edition/browser-thumbnail.png
 # com_id:
 excerpt: As part of the project to port Delta Chat Desktop from Electron to Tauri, we'll showcase a setup where our Desktop app runs in Firefox and does not depend on Electron or Chromium anymore. This video and post walks through what works already, and what doesn't and is generally aimed at developers and expert users. 
 ---
@@ -9,7 +9,7 @@ excerpt: As part of the project to port Delta Chat Desktop from Electron to Taur
 As part of the project to port Delta Chat Desktop from Electron to Tauri[^3], we'll showcase a setup where our Desktop app runs in Firefox and does not depend on Electron or Chromium anymore. This video and post walks through what works already, and what doesn't and is generally aimed at developers and expert users. 
 
 <figure>
-    <img src="../assets/blog/2025-05-20-browser-edition/browser-screenshot-firefox.png" alt="Delta Chat Desktop UI running in the Firefox Browser" style="max-width: 100%; aspect-ratio: 2934 / 1782;" />
+    <img src="../assets/blog/2025-05-22-browser-edition/browser-screenshot-firefox.png" alt="Delta Chat Desktop UI running in the Firefox Browser" style="max-width: 100%; aspect-ratio: 2934 / 1782;" />
     <figcaption>
         Delta Chat, running in the Firefox Browser
     </figcaption>
@@ -51,7 +51,7 @@ There are many more ways this web version could be used besides the ones already
 	- treefit already made a [plugin for running it on home assistant](https://codeberg.org/treefit/deltachat-homeassistant-addon)
 
 <figure>
-    <img alt="Delta Chat Web inside of Home Assistant" src="../assets/blog/2025-05-20-browser-edition/browser-edition-in-home-assistant.png" style="max-width: 100%" />
+    <img alt="Delta Chat Web inside of Home Assistant" src="../assets/blog/2025-05-22-browser-edition/browser-edition-in-home-assistant.png" style="max-width: 100%" />
     <figcaption>Delta Chat Web inside of Home Assistant</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ To add a new Runtime you just need to implement the runtime interface and load i
 
 The code of the runtime interface: <https://github.com/deltachat/deltachat-desktop/blob/main/packages/runtime/runtime.ts#L29>
 
-<img src="../assets/blog/2025-05-20-browser-edition/runtime-interface.svg" style="max-width: 100%" alt="Diagram visualizing the before and after"/>
+<img src="../assets/blog/2025-05-22-browser-edition/runtime-interface.svg" style="max-width: 100%" alt="Diagram visualizing the before and after"/>
 
 <details>
     <summary>Downsides and Caveats of the Current Browser Version</summary>
