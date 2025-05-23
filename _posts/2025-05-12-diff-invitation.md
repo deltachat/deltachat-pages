@@ -53,3 +53,13 @@ You will need to care for some accommodation yourself.
 There also are some possibilities for sharing a room or space if you bring some sleeping gear. 
 DIFF also serves as a testbed for arranging event onboarding and communications in chat groups and chat apps,
 ahead, during and after the gathering. 
+
+
+## Thanks to the Wauland Stiftung for support!
+
+![Logo of Wauland Stiftung](../assets/logos/WHS-Logo.RAL5002.svg)
+
+We are grateful for the the support of the [Wauland Stiftung](https://wauland.de) 
+who agreed to finance the rent for the location and a travel grant. Many thanks!
+
+
