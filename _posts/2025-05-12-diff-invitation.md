@@ -55,11 +55,11 @@ DIFF also serves as a testbed for arranging event onboarding and communications 
 ahead, during and after the gathering. 
 
 
-## Thanks to the Wauland Stiftung for support!
+## Thanks to the Wau-Holland Stiftung 
 
-![Logo of Wauland Stiftung](../assets/logos/WHS-Logo.RAL5002.svg)
+![Logo of Wau-Holand Stiftung](../assets/logos/WHS-Logo.RAL5002.svg)
 
-We are grateful for the the support of the [Wauland Stiftung](https://wauland.de) 
+We are grateful for the the support of the [Wau-Holland Stiftung](https://wauland.de) 
 who agreed to finance the rent for the location and a travel grant. Many thanks!
 
 
