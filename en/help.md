@@ -1028,8 +1028,6 @@ recipients can't see each other.
 - You can turn on the feature in the "experimental features" section in the
   advanced settings. Then you can create a Broadcast List from the "New Chat"
 dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
 - Messages sent to broadcast lists are not encrypted. Encryption would break
   anonymity, because then all recipients would know who else received it
   (Sending individual mails to everyone would be worse for rate limit and network
