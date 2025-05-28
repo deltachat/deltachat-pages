@@ -1021,17 +1021,10 @@ another rather stable experiment we run on the side (sic!).
 
 ### What are Broadcast Lists and how can I use them?
 
-- With a Broadcast List you can send a message to many recipients at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probable be replaced by something else, stay tuned :)
 
 
 ### How can I share my location with my chat partners?
