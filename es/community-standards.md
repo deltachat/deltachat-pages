@@ -5,72 +5,69 @@ lang: es
 
 # Normas de la Comunidad de Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
-
+Con el fin de fomentar un entorno abierto y acogedor, nosotros, como colaboradores y mantenedores, nos esforzamos por
+hacer de la participación en las comunidades de Delta Chat una experiencia agradable y libre de acoso.
 
 ## Nuestros estándares
 
 Ejemplos de comportamiento que contribuyen a crear un ambiente positivo incluyen:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
+* Utilizar un lenguaje acogedor e inclusivo
+* Respetar los diferentes puntos de vista y experiencias
+* Aceptar con gracia las críticas constructivas
+* Mostrar empatía hacia los miembros de la comunidad y los recién llegados
+* Ayudar y mediar en caso de malentendidos o conflictos
 
-Examples of behavior which we ask everybody to avoid include:
+Ejemplos de comportamientos que pedimos a todos evitar incluyen:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
+* El uso de lenguaje o imágenes de contenido sexualizado y atenciones o insinuaciones sexuales no deseadas
+* Trollear, insultar o hacer comentarios despectivos, y ataques personales o políticos
+* Acoso público o privado
+* Publicar información privada de otras personas, como una dirección física o electrónica, sin su permiso explícito
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
-
+Reconocemos que a veces las personas pueden tener un mal día o no ser conscientes del impacto de su comportamiento.
+Cuando esto ocurra, puedes recordarles con cuidado, en público o en privado, lo que consideres más apropiado. Asume
+buena fe; es más probable que los participantes desconozcan las normas a que intenten degradar a otros o reducir la
+calidad de la discusión.
 
 ## Mantenedores y Responsabilidades
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Los mantenedores del proyecto son aquellos con derechos de commit en los repositorios de Delta Chat o derechos
+administrativos en los canales de comunicación de la comunidad.
+Se pide a cada mantenedor que asuma la responsabilidad y actúe de manera apropiada y cuidadosa
+en respuesta a instancias presenciadas de comportamiento cuestionable.
+Los mantenedores del proyecto tienen el derecho y la responsabilidad de eliminar, editar o
+rechazar comentarios, commits, código, ediciones de wiki, problemas y otras contribuciones
+que no estén alineadas con nuestros estándares.
+También pueden prohibir temporal o permanentemente a un colaborador por
+otros comportamientos que consideren inapropiados, amenazantes, ofensivos o dañinos.
 
 ## Alcance
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Nuestros estándares comunitarios se aplican tanto dentro de los canales de comunicación del proyecto y
+reuniones, como en espacios públicos
+cuando un individuo está representando al proyecto o su comunidad. Ejemplos de
+representar a un proyecto o comunidad incluyen el uso de un correo electrónico oficial del proyecto,
+publicar a través de una cuenta oficial de redes sociales, o actuar como un
+representante en un evento en línea o fuera de línea.
 
 ## Informes y Respuestas
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
+Si experimentas o presencias un comportamiento abusivo, de acoso u otro inaceptable,
+puedes hablar con determinados mantenedores del proyecto, actualmente [Nami](mailto:missytake@systemli.org)
+y [Xenia](mailto:ksenia@transcyberian.org).
+Ellos revisarán los informes e involucrarán a otros mantenedores según corresponda,
+y responderán de la manera necesaria y apropiada a las circunstancias, pero
+sin obligarte a nada en contra de tu voluntad.
 
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
-
+Los mantenedores están obligados a mantener la confidencialidad
+con respecto a la persona que reporta el incidente.
+Los mantenedores no están exentos de poder ser reportados
+y pueden enfrentar repercusiones temporales o permanentes
+de acuerdo con lo que determinen otros mantenedores.
 
 ## Atribución
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Nuestro documento de Normas de la Comunidad está adaptado de
+la [Contributor Covenant](https://contributor-covenant.org), versión 1.4,
+disponible en <https://contributor-covenant.org/version/1/4>

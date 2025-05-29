@@ -1,98 +1,98 @@
 ---
-title: Privacy policy website
+title: Política de privacidad del sitio web
 lang: es
 ---
 
-# Website Privacy Policy
+# Política de privacidad del sitio web
 
-**This is the privacy policy for this website. The Delta Chat apps have a [separate privacy policy](gdpr).**
+**Esta es la política de privacidad de este sitio web. Las aplicaciones Delta Chat tienen una [política de privacidad separada](gdpr).**
 
-You can get all necessary information about us and our project on our Delta Chat website. However, it is only fair that you know which personal data is processed when you use our service at all times.
+Puedes obtener toda la información necesaria sobre nosotros y nuestro proyecto en nuestro sitio web de Delta Chat. Sin embargo, es justo que sepas qué datos personales se procesan cuando utilizas nuestro servicio en todo momento.
 
-The following information also serves to provide you with information about this and how we protect your personal data from manipulation, loss, destruction or misuse.
+La siguiente información también sirve para informarte sobre esto y cómo protegemos tus datos personales de manipulaciones, pérdidas, destrucción o usos indebidos.
 
-If you have any further questions about data protection, please contact us via e-mail: delta-privacy@merlinux.eu
+Si tienes más preguntas sobre la protección de datos, por favor, contáctanos por correo electrónico: delta-privacy@merlinux.eu
 
-## 1. Name and contact information of the data controller
+## 1. Nombre e información de contacto del responsable del tratamiento
 
-Responsible for the processing of your personal data is
+Responsable del tratamiento de tus datos personales es:
 
 ```
 merlinux GmbH  
-Represented by the managing director Holger Krekel  
+Representada por el director general Holger Krekel  
 Reichsgrafen Str. 20  
 79102 Freiburg  
-Germany
+Alemania
 ```
-mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
+correo: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
-Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at [info@lexict.de](mailto:info@lexict.de) Keyword: DeltaChat.
+Nuestro delegado de protección de datos: **Prof. Dr. Fabian Schmieder**, lexICT UG (responsabilidad limitada), Ostfeldstr. 49, 30559 Hannover. Puedes contactarlo en [info@lexict.de](mailto:info@lexict.de) Asunto: DeltaChat.
 
-## 2. Processing when using the website
+## 2. Tratamiento al utilizar el sitio web
 
-When you visit our website, the browser used on your end device automatically sends information to the server of our website. This information is temporarily stored in a so-called log file. The following information is collected and stored until it is automatically deleted (usually 7 days):
+Cuando visitas nuestro sitio web, el navegador de tu dispositivo envía automáticamente información al servidor. Esta información se almacena temporalmente en un archivo de registro. Se recopila y almacena la siguiente información hasta que se elimina automáticamente (generalmente después de 7 días):
 
-- used type of browser,
-- used operating system, 
-- access date and time as well as
-- country of origin and IP address, 
-- the name of the file,
-- the amount of data transferred,
-- the access status (file transferred, file not found, etc.) and
-- the page from which the file was requested.
+- Tipo de navegador utilizado
+- Sistema operativo utilizado
+- Fecha y hora de acceso
+- País de origen y dirección IP
+- Nombre del archivo solicitado
+- Cantidad de datos transferidos
+- Estado de acceso (archivo transferido, archivo no encontrado, etc.)
+- Página desde la que se solicitó el archivo
 
-This website is hosted by an external hoster (Hetzner GmbH). The personal data collected on this website is stored on the hoster's servers. Our hoster will process your data only to the extent necessary to fulfill its obligations to perform under our instructions. In order to ensure data protection-compliant processing, we have concluded data processing agreement with our hoster.
+Este sitio web está alojado por un proveedor externo (Hetzner GmbH). Los datos personales recopilados en este sitio web se almacenan en los servidores del proveedor. Nuestro proveedor procesará tus datos solo en la medida necesaria para cumplir con nuestras instrucciones. Para asegurar un tratamiento conforme a la protección de datos, hemos firmado un acuerdo de tratamiento de datos con nuestro proveedor.
 
-The aforementioned data is processed by us for the following purposes:
+La información antes mencionada se procesa para los siguientes fines:
 
-- Ensuring a reliable connection setup of the website,
-- Ensuring a convenient use of our website,
-- checking and ensuring system security and stability, and
-- for other administrative purposes.
+- Garantizar una conexión fiable al sitio web
+- Asegurar un uso cómodo de nuestro sitio web
+- Comprobar y garantizar la seguridad y estabilidad del sistema
+- Fines administrativos
 
-The legal basis for the data processing is [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest results from the aforementioned purposes of data collection. We will not use the collected data for the purpose of drawing conclusions about your person.
+La base legal para el tratamiento de datos es el [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Nuestro interés legítimo se deriva de los fines mencionados de recopilación de datos. No utilizaremos los datos recopilados para inferir conclusiones sobre tu persona.
 
-## 3. Transfer of data
+## 3. Cesión de datos
 
-We do not transfer your personal data to third parties for purposes other than those listed below. We will only share your personal data with third parties if:
+No transferimos tus datos personales a terceros para fines distintos de los que se detallan a continuación. Compartiremos tus datos personales con terceros solo si:
 
-1. you have given your explicit consent in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/),
-2. the disclosure is necessary for the establishment, exercise or defense of legal claims pursuant to [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) and there is no reason to assume that you have an overriding interest worthy of protection in the non-disclosure of your data,
-3. in the event that a legal obligation exists for the disclosure pursuant to [Art.6 (1) lit.c GDPR](https://gdpr-info.eu/art-6-gdpr/), as well as
-4. it is legally permitted and necessary according to [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) for the processing of contractual relationships with you
-5. it is carried out by a service provider acting on our behalf and on our exclusive instructions, whom we have carefully selected [(Art.28 (1) GDPR)](https://gdpr-info.eu/art-28-gdpr/) and with whom we have concluded a corresponding data processing agreement [(Art.28 (3) GDPR)](https://gdpr-info.eu/art-28-gdpr/), which obligates our contractor to implement, in particular, appropriate security measures and grants us comprehensive control powers.
+1. Has dado tu consentimiento explícito según el [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/)
+2. La divulgación es necesaria para el establecimiento, ejercicio o defensa de reclamaciones legales de conformidad con el [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) y no hay razones para suponer que tienes un interés legítimo contrario a la divulgación
+3. Existe una obligación legal que exige la divulgación según el [Art.6 (1) lit.c GDPR](https://gdpr-info.eu/art-6-gdpr/)
+4. Es legalmente permitido y necesario de acuerdo con el [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) para el tratamiento de relaciones contractuales contigo
+5. Lo realiza un proveedor de servicios que actúa en nuestro nombre y bajo nuestras instrucciones, con el que hemos suscrito un acuerdo de tratamiento de datos conforme al [Art.28 GDPR](https://gdpr-info.eu/art-28-gdpr/) que le impone medidas de seguridad adecuadas y nos otorga facultades de control.
 
-## Delta Chat forum
+## Foro Delta Chat
 
-We also provide a forum for you to join discussions. For this purpose, we use the open source software “Discourse”. We process personal data of our users only to the extent necessary to provide the functions of the platform "Discourse".
+También ofrecemos un foro para que participes en discusiones. Para este propósito, utilizamos el software de código abierto "Discourse". Procesamos los datos personales de nuestros usuarios solo en la medida necesaria para proporcionar las funciones de la plataforma "Discourse".
 
-### a) Registration
+### a) Registro
 
-In the registration process, we collect your username, password and e-mail address. When register at the platform, you will enter into a user agreement for the purpose of processing your profile data. [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) serves as the legal basis for this. The registration and the resulting storage of data is necessary for the use of the platform. We cannot provide this service without this data. The data provided will be stored by us until you request anonymization or deletion of your user account.
+En el proceso de registro, recopilamos tu nombre de usuario, contraseña y dirección de correo electrónico. Al registrarte en la plataforma, entras en un acuerdo de usuario para el procesamiento de los datos de tu perfil. El [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/) sirve como base legal para esto. El registro y el almacenamiento resultante de los datos son necesarios para el uso de la plataforma. No podemos proporcionar este servicio sin estos datos. Los datos proporcionados serán almacenados por nosotros hasta que solicites la anonimización o eliminación de tu cuenta de usuario.
 
-### b) Forum posts
+### b) Publicaciones en el foro
 
-As a registered user you can edit your user profile. You can change the mandatory registration information, email and username. In addition, you can enter and change voluntary information, which will be stored by us and displayed to other registered users.
+Como usuario registrado, puedes editar tu perfil de usuario. Puedes cambiar la información obligatoria de registro, correo electrónico y nombre de usuario. Además, puedes ingresar y cambiar información voluntaria, que será almacenada por nosotros y mostrada a otros usuarios registrados.
 
-Posts which are in context with information of other users may also be available at a later time, when you are no longer active. At the end of the fifth calendar year after these posts were written or after the deletion of your user account, anonymization will take place, i.e. the author of the post will be listed as "Anonymous". If the post still contains personal data despite anonymization, users are entitled to have the post deleted or modified in the individual case.
+Las publicaciones que estén en contexto con la información de otros usuarios también pueden estar disponibles en un momento posterior, cuando ya no estés activo. Al final del quinto año calendario después de que se escribieron estas publicaciones o después de la eliminación de tu cuenta de usuario, se llevará a cabo la anonimización, es decir, el autor de la publicación será listado como "Anónimo". Si la publicación aún contiene datos personales a pesar de la anonimización, los usuarios tienen derecho a que se elimine o modifique la publicación en el caso individual.
 
-All posts that you write, the time since your registration, the Likes received and awards for particularly popular posts are recorded. In addition, to prevent bots and spam, the reading time is recorded and other data regarding the misuse of our forum, including the frequency of posts in relation to an implausibly short period of time, implausibly high number of web links or use of words on a blocked word list, etc. are recorded.
+Todas las publicaciones que escribas, el tiempo transcurrido desde tu registro, los "Me gusta" recibidos y los premios por publicaciones particularmente populares son registrados. Además, para prevenir bots y spam, se registra el tiempo de lectura y otros datos relacionados con el uso indebido de nuestro foro, incluida la frecuencia de publicaciones en relación con un período de tiempo implausiblemente corto, un número implausiblemente alto de enlaces web o el uso de palabras en una lista de palabras bloqueadas, etc.
 
-Your user behavior is recorded in server log files in order to analyze technical problems and possible abuse. The legal basis for this processing to protect our legitimate interests is [Art.6 (1) lit.b and f GDPR](https://gdpr-info.eu/art-6-gdpr/). The recordings are deleted after 30 days. The purposes of this processing are the proper operation of the forum (including the technical provision), processing to improve the forum, to moderate the posts and to prevent advertising bots and spammers.
+Tu comportamiento de usuario se registra en archivos de registro del servidor con el fin de analizar problemas técnicos y posibles abusos. La base legal para este procesamiento para proteger nuestros intereses legítimos es el [Art.6 (1) lit.b y f GDPR](https://gdpr-info.eu/art-6-gdpr/). Las grabaciones se eliminan después de 30 días. Los propósitos de este procesamiento son el correcto funcionamiento del foro (incluida la provisión técnica), el procesamiento para mejorar el foro, moderar las publicaciones y prevenir bots publicitarios y spammers.
 
-### c) Processing during the use of the forum website
+### c) Tratamiento durante el uso del sitio web del foro
 
-Various data is transmitted to us from your computer, this varies depending on the browser and operating system type, version and settings.
+Se nos transmite varios datos desde tu computadora, esto varía según el tipo de navegador y sistema operativo, versión y configuraciones.
 
-Some of them may be:
+Algunos de ellos pueden ser:
 
-- browser type/version
-- Operating system used
-- Referrer URL (the previously visited page)
-- Host name of the accessing computer (IP address)
-- Time of the server request
+- Tipo de navegador / versión
+- Sistema operativo utilizado
+- URL de referencia (la página visitada anteriormente)
+- Nombre del host de la computadora de acceso (dirección IP)
+- Hora de la solicitud del servidor
 
-We host the instance of Discourse on our own servers and do not transmit any data from you to Discourse. Discourse is an open source project, which is maintained by 
+Alojamos la instancia de Discourse en nuestros propios servidores y no transmitimos ningún dato tuyo a Discourse. Discourse es un proyecto de código abierto, mantenido por 
 
 ```
 M. Régis Hanol
@@ -104,35 +104,35 @@ UBIDOCA, 15232
 FRANCE
 ```
 
-The privacy policy can be found under [https://www.discourse.org/privacy](https://www.discourse.org/privacy).
+La política de privacidad se puede encontrar en [https://www.discourse.org/privacy](https://www.discourse.org/privacy).
 
-## 5. Mailing list
+## 5. Lista de correo
 
-You can also subscribe to our mailing list if you would like to be informed about community discussions and news in the form of newsletters. If you add your email address and optionally your name to the mailing list, you will receive a confirmation email to complete your registration. The legal basis for the processing is your consent, [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/). Registration is voluntary and you can revoke your consent at any time with effect for the future.
+También puedes suscribirte a nuestra lista de correo si deseas ser informado sobre discusiones y noticias de la comunidad en forma de boletines. Si agregas tu dirección de correo electrónico y opcionalmente tu nombre a la lista de correo, recibirás un correo electrónico de confirmación para completar tu registro. La base legal para el tratamiento es tu consentimiento, [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/). El registro es voluntario y puedes revocar tu consentimiento en cualquier momento con efecto para el futuro.
 
-We use the interface Postorius for the mailing software GNU Mailman to operate the mailing list. The software is run on our servers.
+Utilizamos la interfaz Postorius para el software de correo GNU Mailman para operar la lista de correo. El software se ejecuta en nuestros servidores.
 
-The privacy policy for GNU Mailman can be found under [https://list.org/privacy.html](https://list.org/privacy.html).
+La política de privacidad de GNU Mailman se puede encontrar en [https://list.org/privacy.html](https://list.org/privacy.html).
 
-## 6. Social media appearance
+## 6. Apariencia en redes sociales
 
-Delta.chat runs profiles on social networks – in particular on [Twitter](https://twitter.com/delta_chat?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [YouTube](https://www.youtube.com/results?search_query=delta+chat) and [Mastodon](https://chaos.social/@delta).
+Delta.chat tiene perfiles en redes sociales, en particular en [Twitter](https://twitter.com/delta_chat?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [YouTube](https://www.youtube.com/results?search_query=delta+chat) y [Mastodon](https://chaos.social/@delta).
 
-Social networks can generally analyze your user behavior on a broad scale. This applies if you use the social networks to visit our social media sites. Site operators can record your visit and assign it to your user account. Even if you are not logged in, a collection may be possible, for example via your IP address, browser details or through the use of cookies.
+Las redes sociales pueden analizar tu comportamiento como usuario a gran escala. Esto se aplica si utilizas las redes sociales para visitar nuestros sitios en redes sociales. Los operadores de los sitios pueden registrar tu visita y asignarla a tu cuenta de usuario. Incluso si no has iniciado sesión, puede ser posible una recopilación, por ejemplo, a través de tu dirección IP, detalles del navegador o mediante el uso de cookies.
 
-The information collected this way can be used by the operators of social networks to create profiles. Among other things, your (presumed) interests and preferences may be recorded to display personalized advertising.
+La información recopilada de esta manera puede ser utilizada por los operadores de redes sociales para crear perfiles. Entre otras cosas, se pueden registrar tus intereses y preferencias (presuntos) para mostrar publicidad personalizada.
 
-It is not possible for us to track all of these data processing operations within the social networks, nor do we have access to this data. You can find more information in the respective privacy statements of the networks.
-However, we do process your data when you contact us, for example, via comments, likes, messages or in any other way, such as to reply to you. In doing so, we process your interactions with our social media profile as well as publicly viewable profile information (you can set the settings for which of your personal data is publicly viewable in your respective profile). The legal basis for this processing is [Art.6 (1) lit.f and b GDPR](https://gdpr-info.eu/art-6-gdpr/). Our interests lie in answering your inquiries and in informing interested persons about our offer.
-The storage period depends on the respective platform. However, we delete personal data as soon as the purpose of the required processing ceases to apply and unless there are legal obligations for longer storage.
+No es posible para nosotros rastrear todas estas operaciones de procesamiento de datos dentro de las redes sociales, ni tenemos acceso a estos datos. Puedes encontrar más información en las respectivas declaraciones de privacidad de las redes.
+Sin embargo, procesamos tus datos cuando te pones en contacto con nosotros, por ejemplo, a través de comentarios, "me gusta", mensajes o de cualquier otra manera, como para responderte. Al hacerlo, procesamos tus interacciones con nuestro perfil en redes sociales así como la información de perfil visible públicamente (puedes configurar los ajustes sobre qué datos personales son visibles públicamente en tu respectivo perfil). La base legal para este procesamiento es el [Art.6 (1) lit.f y b GDPR](https://gdpr-info.eu/art-6-gdpr/). Nuestros intereses radican en responder a tus consultas e informar a las personas interesadas sobre nuestra oferta.
+El período de almacenamiento depende de la plataforma respectiva. Sin embargo, eliminamos los datos personales tan pronto como el propósito del procesamiento requerido deja de aplicarse y a menos que existan obligaciones legales para un almacenamiento más prolongado.
 
-Below you will find information on data protection on the respective portals.
+A continuación, encontrarás información sobre la protección de datos en los respectivos portales.
 
 ### a) Twitter
 
-We maintain a Twitter account. To the extent that we determine the means and purposes of the processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account. If questions are asked in the comments or DM are sent to us, we will of course answer them.
+Mantenemos una cuenta de Twitter. En la medida en que determinamos los medios y propósitos del procesamiento, tus datos personales serán procesados por nosotros como el responsable. No evaluamos sistemáticamente la interacción con nuestra cuenta. Si se hacen preguntas en los comentarios o se nos envían DM, por supuesto que las responderemos.
 
-In all other cases in which data is processed in connection with our Twitter account and for which Twitter determines the means and purposes, the processing is carried out by Twitter as the sole controller:
+En todos los demás casos en los que se procesen datos en relación con nuestra cuenta de Twitter y para los cuales Twitter determine los medios y propósitos, el procesamiento es llevado a cabo por Twitter como el único responsable:
 
 ```
 Twitter International Company
@@ -144,17 +144,17 @@ Ireland
 fax +1 415 222 9958
 ```
 
-You can contact Twitter's data protection officer under [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp)
+Puedes contactar al delegado de protección de datos de Twitter en [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp)
 
-Information about the processing of personal data when using Twitter, such as our Twitter profile, is described in the Twitter Privacy Policy, available at [https://twitter.com/de/privacy](https://twitter.com/de/privacy).
+La información sobre el procesamiento de datos personales al usar Twitter, como nuestro perfil de Twitter, se describe en la Política de Privacidad de Twitter, disponible en [https://twitter.com/de/privacy](https://twitter.com/de/privacy).
 
-If you contact us via Twitter, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is to respond to your request. Otherwise, the use of Twitter is based on your consent to Twitter pursuant to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
+Si te pones en contacto con nosotros a través de Twitter, la base legal es un interés legítimo de conformidad con el [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Nuestro interés legítimo es responder a tu solicitud. De lo contrario, el uso de Twitter se basa en tu consentimiento a Twitter de conformidad con el [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
 ### b) YouTube
 
-Furthermore, we maintain a YouTube account. To the extent that we determine the means and purposes of processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account.  If questions are asked in the comments or DM are sent to us, we answer them.
+Además, mantenemos una cuenta de YouTube. En la medida en que determinamos los medios y propósitos del procesamiento, tus datos personales serán procesados por nosotros como el responsable. No evaluamos sistemáticamente la interacción con nuestra cuenta.  Si se hacen preguntas en los comentarios o se nos envían DM, las respondemos.
 
-In all other cases in which data is processed in connection with our YouTube account and for which YouTube determines the means and purposes, the processing is carried out by YouTube as the sole controller:
+En todos los demás casos en los que se procesen datos en relación con nuestra cuenta de YouTube y para los cuales YouTube determine los medios y propósitos, el procesamiento es llevado a cabo por YouTube como el único responsable:
 
 ```
 Google Ireland Limited
@@ -164,84 +164,84 @@ Dublin 4
 Irland
 ```
 
-You can contact YouTube's data protection officer under [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general_privacy_form).
+Puedes contactar al delegado de protección de datos de YouTube en [https://support.google.com/policies/contact/general\_privacy\_form](https://support.google.com/policies/contact/general_privacy_form).
 
-Information about the processing of personal data when using YouTube, such as our YouTube profile, is described in the YouTube Privacy Policy, available at [https://policies.google.com/privacy](https://policies.google.com/privacy).
+La información sobre el procesamiento de datos personales al usar YouTube, como nuestro perfil de YouTube, se describe en la Política de Privacidad de YouTube, disponible en [https://policies.google.com/privacy](https://policies.google.com/privacy).
 
-If you interact with us via YouTube, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is the interaction with our followers and other interested social media users on our social media profiles, the increase of reach of our products (advertising) and to respond to your request. In addition, the use of YouTube is based on your consent to YouTube pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/).
+Si interactúas con nosotros a través de YouTube, la base legal es un interés legítimo de conformidad con el [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Nuestro interés legítimo es la interacción con nuestros seguidores y otros usuarios interesados en las redes sociales en nuestros perfiles en redes sociales, el aumento del alcance de nuestros productos (publicidad) y responder a tu solicitud. Además, el uso de YouTube se basa en tu consentimiento a YouTube de conformidad con el [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
 ### c) Mastodon
 
-In addition, we maintain a Mastodon account. To the extent that we determine the means and purposes of processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account.  If questions are asked in the comments or DM are sent to us, we answer them.
+Además, mantenemos una cuenta de Mastodon. En la medida en que determinamos los medios y propósitos del procesamiento, tus datos personales serán procesados por nosotros como el responsable. No evaluamos sistemáticamente la interacción con nuestra cuenta.  Si se hacen preguntas en los comentarios o se nos envían DM, las respondemos.
 
-In all other cases in which data is processed in connection with our Mastodon account and for which Mastodon determines the means and purposes, the processing is carried out by the operator of the Mastodon instance as the sole responsible party. In our case, this is operated on chaos.social.
+En todos los demás casos en los que se procesen datos en relación con nuestra cuenta de Mastodon y para los cuales Mastodon determine los medios y propósitos, el procesamiento es llevado a cabo por el operador de la instancia de Mastodon como la única parte responsable. En nuestro caso, esto es operado en chaos.social.
 
-Information about the processing of personal data when using chaos.social, are described in the privacy policy, available at [https://chaos.social/terms](https://chaos.social/terms).
+La información sobre el procesamiento de datos personales al usar chaos.social, se describe en la política de privacidad, disponible en [https://chaos.social/terms](https://chaos.social/terms).
 
-If you interact with us via Mastodon, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is to interact with our followers and other interested social media users on our social media profiles, to increase the reach of our products (advertising) and to respond to your request. Otherwise, the use of Mastodon is based on your consent to Mastodon pursuant to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
+Si interactúas con nosotros a través de Mastodon, la base legal es un interés legítimo de conformidad con el [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Nuestro interés legítimo es interactuar con nuestros seguidores y otros usuarios interesados en las redes sociales en nuestros perfiles en redes sociales, aumentar el alcance de nuestros productos (publicidad) y responder a tu solicitud. De lo contrario, el uso de Mastodon se basa en tu consentimiento a Mastodon de conformidad con el [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
-## 7. Donations
+## 7. Donaciones
 
-You can make payments (donations) to us in different ways.
+Puedes realizar pagos (donaciones) a nosotros de diferentes maneras.
 
 ### a) Liberapay
 
-We use services of Association Liberapay, Chez M. Coste, Le Bourg, St Jean Le Blanc 14770 Terres de Druance, France, represented by Charly Coste. The service allows donations to be made to us. For this purpose, Liberapay collects data such as e-mail address, name and, if applicable, account information for payment processing. We do not have access to this data ourselves. The privacy policy of Liberapay can be found under [https://liberapay.com/about/privacy](https://liberapay.com/about/privacy)
+Utilizamos los servicios de la Asociación Liberapay, Chez M. Coste, Le Bourg, St Jean Le Blanc 14770 Terres de Druance, Francia, representada por Charly Coste. El servicio permite realizar donaciones a nosotros. Para este propósito, Liberapay recopila datos como dirección de correo electrónico, nombre y, si corresponde, información de cuenta para el procesamiento de pagos. Nosotros no tenemos acceso a estos datos. La política de privacidad de Liberapay se puede encontrar en [https://liberapay.com/about/privacy](https://liberapay.com/about/privacy)
 
 ### b) Open Collective
 
-We also use services from Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, USA. The service enables donations to be made to us. For this purpose, Open Collective collects data such as the e-mail address, name and, if applicable, account information for payment processing. We do not have access to this data ourselves. Open Collective's privacy policy can be found under [https://opencollective.com/privacypolicy](https://opencollective.com/privacypolicy).
+También utilizamos servicios de Open Collective, 340 S. Lemon Avenue, #3717 Walnut, CA 91789, EE. UU. El servicio permite realizar donaciones a nosotros. Para este propósito, Open Collective recopila datos como dirección de correo electrónico, nombre y, si corresponde, información de cuenta para el procesamiento de pagos. Nosotros no tenemos acceso a estos datos. La política de privacidad de Open Collective se puede encontrar en [https://opencollective.com/privacypolicy](https://opencollective.com/privacypolicy).
 
-### c) Bitcoin Wallet
+### c) Billetera de Bitcoin
 
-You can also donate Bitcoins to us. In this case, the decentralized Bitcoin network processes data that is necessary to execute the transaction. The transaction is also public, but anonymous, as long as your account is not linked to personal data. Otherwise, the processing is pseudonymous. Accordingly, a corresponding donation receipt cannot be issued by us. If you use the payment services of third parties (e.g. Coinbase, Kraken, MoonPay), the terms and conditions and privacy policies of the respective third party providers apply, which are available within the respective websites or transaction applications.
+También puedes donarnos Bitcoins. En este caso, la red descentralizada de Bitcoin procesa los datos necesarios para ejecutar la transacción. La transacción también es pública, pero anónima, siempre que tu cuenta no esté vinculada a datos personales. De lo contrario, el procesamiento es seudónimo. En consecuencia, no podemos emitir un recibo de donación correspondiente. Si utilizas los servicios de pago de terceros (por ejemplo, Coinbase, Kraken, MoonPay), se aplican los términos y condiciones y las políticas de privacidad de los respectivos proveedores de terceros, que están disponibles en los respectivos sitios web o aplicaciones de transacción.
 
-### d) Bank transfer
+### d) Transferencia bancaria
 
-You can also support us with a standard bank payment.
-If you use the payment services of third parties (e.g. PayPal or “Sofortüberweisung”), the terms and conditions and privacy policy of the respective third party providers apply, which are available within the respective websites or transaction applications.
+También puedes apoyarnos con un pago bancario estándar.
+Si utilizas los servicios de pago de terceros (por ejemplo, PayPal o “Sofortüberweisung”), se aplican los términos y condiciones y la política de privacidad de los respectivos proveedores de terceros, que están disponibles en los respectivos sitios web o aplicaciones de transacción.
 
-### e) Data processing and legal basis
+### e) Tratamiento de datos y base legal
 
-Depending on the payment service provider and the type of transfer, we process the name, email address, account number, credit institution, time and amount of the transfer. The legal basis for this is found in [Art. 6 (1) lit. c and f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is the administration of our donations.
+Dependiendo del proveedor de servicios de pago y del tipo de transferencia, procesamos el nombre, dirección de correo electrónico, número de cuenta, institución de crédito, hora y monto de la transferencia. La base legal para esto se encuentra en el [Art. 6 (1) lit. c y f GDPR](https://gdpr-info.eu/art-6-gdpr/). Nuestro interés legítimo es la administración de nuestras donaciones.
 
-## 8. Right to object
+## 8. Derecho de oposición
 
-If your personal data is processed on the basis of our legitimate interests in accordance with [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/), you have the right to object to the processing of your personal data in accordance with [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/), provided that there are grounds for this based on your particular situation or the objection is directed against direct advertising. In the latter case, you have a general right of objection, which will be implemented by us without specifying a particular situation.
+Si tus datos personales se procesan sobre la base de nuestros intereses legítimos de conformidad con el [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/), tienes derecho a oponerte al procesamiento de tus datos personales de conformidad con el [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/), siempre que haya motivos para ello basados en tu situación particular o la oposición esté dirigida contra la publicidad directa. En este último caso, tienes un derecho general de oposición, que será implementado por nosotros sin necesidad de especificar una situación particular.
 
-If you wish to exercise your right of objection, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
+Si deseas ejercer tu derecho de oposición, simplemente envía un correo electrónico a [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
-## 9. Right to withdraw
+## 9. Derecho de retirada
 
-If your personal data is processed on the basis of your consent in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) (e.g. via the mailing list), you can withdraw your consent at any time and without any disadvantages. As a result, we may no longer continue the data processing that was based on this consent for the future. However, the withdrawal of your consent does not affect the lawfulness of the processing carried out on the basis of the consent until the withdrawal.
+Si tus datos personales se procesan sobre la base de tu consentimiento de conformidad con el [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) (por ejemplo, a través de la lista de correo), puedes retirar tu consentimiento en cualquier momento y sin ningún tipo de desventaja. Como resultado, es posible que ya no podamos continuar con el procesamiento de datos que se basó en este consentimiento en el futuro. Sin embargo, la retirada de tu consentimiento no afecta la legalidad del procesamiento llevado a cabo sobre la base del consentimiento hasta la retirada.
 
-If you wish to make use of your right of withdrawal, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
+Si deseas hacer uso de tu derecho de retirada, simplemente envía un correo electrónico a [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
-## 10. Rights of the data subject and right to lodge a complaint with a supervisory authority
+## 10. Derechos del interesado y derecho a presentar una reclamación ante una autoridad de control
 
-As a data subject of a processing of personal data, you have the right to
+Como interesado en un procesamiento de datos personales, tienes derecho a
 
-1. request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the purposes of processing, the categories of personal data, the categories of recipients to whom your data has been or will be disclosed, the envisaged period for which the data will be stored, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data, if it was not collected by us, as well as the existence of automated decision-making, including profiling and, if applicable, meaningful information about its details;
-2. demand the immediate rectification of inaccurate or incomplete personal data stored by us, in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/);
-3. request the erasure of your personal data stored by us in accordance with [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/), unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defense of legal claims;
-4. demand the restriction of the processing of your personal data in accordance with [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you oppose its erasure and we no longer need the data, but you need it for the establishment, exercise or defence of legal claims or you have objected to the processing in accordance with [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
-5. receive the personal data that you have provided to us in a structured, commonly used and machine-readable format, or to request the transfer to another controller, in accordance with [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/);
-6. withdraw your consent at any time in accordance with [Art.7 (3) GDPR](https://gdpr-info.eu/art-7-gdpr/). As a result, we may no longer continue the data processing that was based on this consent in the future, and
-7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/). You can therefore usually contact the supervisory authority of your usual place of residence or workplace or our registered office. The supervisory authority responsible for our place of business is The State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
+1. solicitar información sobre tus datos personales procesados por nosotros de conformidad con el [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). En particular, puedes solicitar información sobre los fines del procesamiento, las categorías de datos personales, las categorías de destinatarios a quienes se han divulgado o se divulgarán tus datos, el período previsto durante el cual se almacenarán los datos, la existencia de un derecho de rectificación, supresión, restricción del procesamiento u oposición, la existencia de un derecho de reclamación, el origen de tus datos, si no fueron recopilados por nosotros, así como la existencia de decisiones automatizadas, incluida la elaboración de perfiles y, en su caso, información significativa sobre sus detalles;
+2. exigir la rectificación inmediata de datos personales inexactos o incompletos almacenados por nosotros, de conformidad con el [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/);
+3. solicitar la supresión de tus datos personales almacenados por nosotros de conformidad con el [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/), a menos que el procesamiento sea necesario para el ejercicio del derecho a la libertad de expresión e información, para el cumplimiento de una obligación legal, por razones de interés público, o para el establecimiento, ejercicio o defensa de reclamaciones legales;
+4. exigir la restricción del procesamiento de tus datos personales de conformidad con el [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), en la medida en que se dispute la exactitud de los datos, el procesamiento sea ilícito, pero te opongas a su supresión y nosotros ya no necesitemos los datos, pero tú los necesites para el establecimiento, ejercicio o defensa de reclamaciones legales o te hayas opuesto al procesamiento de conformidad con el [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
+5. recibir los datos personales que nos has proporcionado en un formato estructurado, de uso común y legible por máquina, o solicitar la transferencia a otro responsable, de conformidad con el [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/);
+6. retirar tu consentimiento en cualquier momento de conformidad con el [Art.7 (3) GDPR](https://gdpr-info.eu/art-7-gdpr/). Como resultado, es posible que ya no podamos continuar con el procesamiento de datos que se basó en este consentimiento en el futuro, y
+7. presentar una reclamación ante una autoridad de control de conformidad con el [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/). Por lo tanto, generalmente puedes contactar a la autoridad de control de tu lugar de residencia habitual o lugar de trabajo o nuestra oficina registrada. La autoridad de control responsable de nuestro lugar de negocio es El Comisionado Estatal para la Protección de Datos y la Libertad de Información de Baden-Württemberg en 70173 Stuttgart.
 
-To exercise your data protection rights or your right to lodge a complaint, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
+Para ejercer tus derechos de protección de datos o tu derecho a presentar una reclamación, simplemente envía un correo electrónico a [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
-## 11. Data security
+## 11. Seguridad de los datos
 
-We use the SSL procedure (Secure Socket Layer) in connection with the highest encryption level supported by your browser when visiting the website. This is usually a 256-bit encryption. If your browser does not support 256-bit encryption, we use 128-bit v3 technology instead. To see whether an individual page of our website is encrypted, click on the closed key or lock symbol in the lower status bar of your browser.
+Utilizamos el procedimiento SSL (Secure Socket Layer) en conexión con el nivel más alto de cifrado soportado por tu navegador al visitar el sitio web. Este es generalmente un cifrado de 256 bits. Si tu navegador no soporta cifrado de 256 bits, utilizamos en su lugar la tecnología de 128 bits v3. Para ver si una página individual de nuestro sitio web está cifrada, haz clic en el símbolo de llave o candado cerrado en la barra de estado inferior de tu navegador.
 
-We use appropriate technical and organizational security measures to protect your data against accidental or intentional manipulation, partial or complete loss, destruction or against unauthorized access by third parties. We continuously adapt our security measures in line with technological developments.
+Utilizamos medidas de seguridad técnicas y organizativas apropiadas para proteger tus datos contra manipulaciones accidentales o intencionadas, pérdida parcial o total, destrucción o acceso no autorizado por parte de terceros. Adaptamos continuamente nuestras medidas de seguridad de acuerdo con los desarrollos tecnológicos.
 
-## 12. Up-to-dateness and modification of this data protection declaration
+## 12. Actualidad y modificación de esta declaración de protección de datos
 
-This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
+Esta declaración de protección de datos es válida desde noviembre de 2021. Debido al desarrollo posterior de nuestro sitio web y ofertas o debido a cambios en los requisitos legales o oficiales, puede ser necesario revisar esta declaración de protección de datos de vez en cuando.
 
-You can access and print out the current data protection declaration at any time under [https://support.delta.chat/privacy](https://support.delta.chat/privacy).
+Puedes acceder e imprimir en cualquier momento la declaración de protección de datos actual en [https://support.delta.chat/privacy](https://support.delta.chat/privacy).
 
 <style>
 ol.p {

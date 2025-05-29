@@ -1,212 +1,208 @@
 ---
-title: Privacy Policy Delta Chat Apps
+title: Política de privacidad de las aplicaciones Delta Chat
 lang: es
 ---
 
-# Privacy Policy Delta Chat Apps
+# Política de privacidad de las aplicaciones Delta Chat
 
-**This is the privacy policy for the Delta Chat apps. You can find the [privacy policy for this website here](gdpr-website).**
+**Esta es la política de privacidad para las aplicaciones Delta Chat. Puedes consultar la [política de privacidad de este sitio web aquí](gdpr-website).**
 
-## Summary
+## Resumen
 
-Delta Chat is an e-mail app that follows a strict privacy-by-design approach. All communication data remains on the end devices or on the e-mail servers selected by the user.
+Delta Chat es una aplicación de correo electrónico que sigue un estricto enfoque de privacidad desde el diseño. Todos los datos de comunicación permanecen en los dispositivos finales o en los servidores de correo electrónico seleccionados por el usuario.
 
 <table>
     <thead>
         <tr>
-            <th>Requirement</th>
-            <th>Implementation</th>
+            <th>Requisito</th>
+            <th>Implementación</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Confidentiality</td>
+            <td>Confidencialidad</td>
             <td>
-<b>End-to-end encryption</b> by implementing <a href="https://autocrypt.org">Autocrypt</a> and <a href="https://countermitm.readthedocs.io/en/latest/new.html">Verified groups</a>. User-friendly end-to-end encryption means that the requirements of the GDPR are already implemented at the technical level, <b>Privacy by Design</b>.
+<b>Cifrado de extremo a extremo</b> mediante la implementación de <a href="https://autocrypt.org">Autocrypt</a> y <a href="https://countermitm.readthedocs.io/en/latest/new.html">Grupos verificados</a>. Un cifrado de extremo a extremo fácil de usar significa que los requisitos del RGPD ya se implementan a nivel técnico, <b>Privacidad desde el diseño</b>.
             </td>
         </tr>
         <tr>
-            <td>Data minimization</td>
-            <td><b>No upload</b> of contact lists from your phone.</td>
+            <td>Minimización de datos</td>
+            <td><b>No subir</b> la lista de contactos de tu teléfono.</td>
         </tr>
         <tr>
-            <td>Data avoidance</td>
-            <td><b>No Delta Chat servers</b>, no processing of personal data. All data remains with your e-mail provider.
+            <td>Evitación de datos</td>
+            <td><b>No hay servidores de Delta Chat</b>, no se procesan datos personales. Todos los datos permanecen con tu proveedor de correo electrónico.
             </td>
         </tr>
         <tr>
-            <td>Legal basis</td>
+            <td>Base legal</td>
             <td>
-There is no need to obtain consent for address book matching, <a href="https://gdpr-info.eu/art-7-gdpr/">Art.7 GDPR</a>, as no address book data is transferred. Therefore, <b>no additional legal basis</b> is required.
+No es necesario obtener consentimiento para la comparación de agendas, <a href="https://gdpr-info.eu/art-7-gdpr/">Art.7 RGPD</a>, ya que no se transfieren datos de la agenda. Por lo tanto, <b>no se requiere ninguna base legal adicional</b>.
             </td>
         </tr>
         <tr>
-            <td>Data to third parties</td>
-            <td>We only receive the <b>token for the push notification</b> and forward it to the provider of your operating system. If you don't want to receive push notifications, we won't forward a token.</td>
+            <td>Datos a terceros</td>
+            <td>Solo recibimos el <b>token de notificaciones push</b> y lo reenviamos al proveedor de tu sistema operativo. Si no quieres recibir notificaciones push, no enviaremos ningún token.</td>
         </tr>
         <tr>
-            <td>Data from third parties</td>
+            <td>Datos de terceros</td>
             <td>
-Easy implementation in companies: Delta Chat does not process personal data on behalf of the controller and therefore <b>does not require any instruction or data processing agreement</b>. Easy connection with the own corporate e-mail server.
+Implementación sencilla en empresas: Delta Chat no procesa datos personales en nombre del responsable y, por lo tanto, <b>no requiere instrucciones ni acuerdo de tratamiento</b>. Conexión fácil con el servidor de correo corporativo.
             </td>
         </tr>
         <tr>
+            <td>Evaluación de impacto (DPIA)</td>
             <td>
-DPIA
-            </td>
-            <td>
-No <b>data protection impact assessment</b> needs to be carried out for Delta Chat <a href="https://gdpr-info.eu/art-35-gdpr/">Art.35 GDPR</a>, as no specific additional data is processed beyond the e-mail messenger process.
+No es necesario realizar una <b>evaluación de impacto en la protección de datos</b> para Delta Chat según el <a href="https://gdpr-info.eu/art-35-gdpr/">Art.35 RGPD</a>, ya que no se procesan datos adicionales específicos más allá del proceso de mensajería por correo electrónico.
 
-The risk to the rights and freedoms of natural persons is limited to the internal company data processing of the e-mail communication and that of the e-mail providers.
+El riesgo para los derechos y libertades de las personas físicas se limita al procesamiento interno de la comunicación por correo electrónico y al de los proveedores de correo electrónico.
             </td>
         </tr>
         <tr>
+            <td>Documentación</td>
             <td>
-Documentation
-            </td>
-            <td>
-Inclusion of the measures implemented by Delta Chat in the <b>record of processing activities</b> may have a positive impact on possible evidence, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30 GDPR</a> as well as certification processes, <a href="https://gdpr-info.eu/art-25-gdpr/">Art.25 (4) GDPR</a>,<a href="https://gdpr-info.eu/art-42-gdpr/">Art.42 GDPR</a>.
+Incluir las medidas implementadas por Delta Chat en el <b>registro de actividades de tratamiento</b> puede tener un impacto positivo en posibles pruebas, según el <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30 RGPD</a>, así como en procesos de certificación, <a href="https://gdpr-info.eu/art-25-gdpr/">Art.25 (4) RGPD</a> y <a href="https://gdpr-info.eu/art-42-gdpr/">Art.42 RGPD</a>.
 
-The <b>documentation of processing activities</b> related to Messenger communication is omitted and shifts only to the record of processing activities of your e-mail provider, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30(2) GDPR</a>.
+La <b>documentación de actividades de tratamiento</b> relacionadas con la comunicación de mensajería se omite y se traslada únicamente al registro de tu proveedor de correo electrónico, <a href="https://gdpr-info.eu/art-30-gdpr/">Art.30(2) RGPD</a>.
             </td>
         </tr>
     </tbody>
 </table>
 
-## Detailed data protection information
+## Información detallada sobre protección de datos
 
-### 1. Name and contact information of the data controller
+### 1. Nombre y datos de contacto del responsable del tratamiento
 
-Responsible for the processing of your personal data is 
+El responsable del tratamiento de tus datos personales es 
 ```
     merlinux GmbH
-    Represented by the managing director Holger Krekel
+    Representado por el director general Holger Krekel
     Reichsgrafen Str. 20
-    79102 Freiburg
-    Germany
+    79102 Friburgo
+    Alemania
 ```
-E-mail: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
+Correo electrónico: [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu)
 
-Our data protection officer: **Prof. Dr. Fabian Schmieder**, lexICT UG (limited), Ostfeldstr. 49, 30559 Hannover. You can contact him at [info@lexict.de](mailto:info@lexict.de) Keyword: DeltaChat.
+Nuestro delegado de protección de datos: **Prof. Dr. Fabian Schmieder**, lexICT UG (limitada), Ostfeldstr. 49, 30559 Hannover. Puedes contactar con él en [info@lexict.de](mailto:info@lexict.de) Palabra clave: DeltaChat.
 
-### 2. Processing when using the Delta chat e-mail messenger
+### 2. Tratamiento al usar el mensajero de correo electrónico Delta
 
-All data is stored locally on your device or with your e-mail provider. Neither we nor Delta Chat developers have any possibility to access the end user's data, as all communication and data processing takes place on the end user's device without Delta Chat servers being involved. Only for the optional Push Notification (see 2.2) the Push Notification Token is processed by Delta Chat servers without them having any knowledge about the messages themselves, not even in encrypted form.
+Todos los datos se almacenan localmente en tu dispositivo o con tu proveedor de correo electrónico. Ni nosotros ni los desarrolladores de Delta Chat tenemos la posibilidad de acceder a los datos del usuario final, ya que toda la comunicación y el procesamiento de datos se realizan en el dispositivo del usuario final sin la intervención de servidores de Delta Chat. Solo para la opción de Notificación Push (ver 2.2) se procesa el Token de Notificación Push en los servidores de Delta Chat sin que estos tengan conocimiento sobre los mensajes en sí, ni siquiera en forma cifrada.
 
-#### 2.1 Sign up with your e-mail provider
+#### 2.1 Registro con tu proveedor de correo electrónico
 
-Delta Chat communication works through your e-mail account. In order to establish the connection, the app needs the access data. These are only stored locally on your end device:
+La comunicación de Delta Chat funciona a través de tu cuenta de correo electrónico. Para establecer la conexión, la aplicación necesita los datos de acceso. Estos se almacenan únicamente de forma local en tu dispositivo:
 
-- e-mail address
-- your password
+- dirección de correo electrónico
+- tu contraseña
 
-The legal basis for the processing is [Art.6 (1) lit.b GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services. 
+La base legal para el tratamiento es el [Art.6 (1) lit.b RGPD](https://gdpr-info.eu/art-6-gdpr/), ya que tienes un contrato de uso con nosotros al utilizar nuestros servicios. 
 
-#### 2.2 Heartbeat push notification
+#### 2.2 Notificación push de latido
 
-Push notifications can be sent to the user's phone at regular intervals to enable receipt of messages while the Delta Chat app is not currently active. Current messages can then be retrieved on the end device. The token is only created if the user wants reliable receipt of messages even when the app is not active. 
+Se pueden enviar notificaciones push al teléfono del usuario a intervalos regulares para permitir la recepción de mensajes mientras la aplicación Delta Chat no está activa. Los mensajes actuales se pueden recuperar en el dispositivo final. El token solo se crea si el usuario desea una recepción fiable de los mensajes incluso cuando la aplicación no está activa. 
 
-In order to use push notifications, a unique identifier or token (Push Notification Token) is created after the app is downloaded and installed. This token allows Delta Chat servers to send notifications to the user's device. The token is generated and provided by the provider. The token is then stored on our systems and sent to the device at regular intervals to cause the app to retrieve new messages from the e-mail provider. Our systems have no knowledge of whether a message arrives or who may have sent a message.
+Para utilizar las notificaciones push, se crea un identificador único o token (Token de Notificación Push) después de que la aplicación se descarga e instala. Este token permite a los servidores de Delta Chat enviar notificaciones al dispositivo del usuario. El token lo genera y proporciona el proveedor. El token se almacena en nuestros sistemas y se envía al dispositivo a intervalos regulares para hacer que la aplicación recupere nuevos mensajes del proveedor de correo electrónico. Nuestros sistemas no tienen conocimiento de si llega un mensaje o de quién puede haber enviado un mensaje.
 
-- Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). You can find the privacy policy under [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).  
+- El proveedor de notificaciones push para sistemas iOS son los Servicios de Apple. Si las notificaciones push están habilitadas, se utiliza el Servicio de Notificaciones Push de Apple (versión iOS) para proporcionar esta función. Para más información, visita [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). Puedes encontrar la política de privacidad en [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).  
 
-The aforementioned data will only be processed with your consent, in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
+Los datos mencionados anteriormente solo se procesarán con tu consentimiento, de acuerdo con el [Art.6 (1) lit.a RGPD](https://gdpr-info.eu/art-6-gdpr/).
 
-#### 2.3 Data in the app
+#### 2.3 Datos en la aplicación
 
-The Delta Chat app works in a data-saving way. All relevant data is stored exclusively on the respective end devices:
+La aplicación Delta Chat funciona de manera que ahorra datos. Todos los datos relevantes se almacenan exclusivamente en los respectivos dispositivos finales:
 
 ```
-- chat histories (text messages, voice messages, media, ...).
-- contacts
-- settings 
+- historiales de chat (mensajes de texto, mensajes de voz, medios, ...).
+- contactos
+- configuraciones 
 ```
-Delta Chat servers have no access to this data, not even in encrypted form, as data processing takes place only on the end devices.
+Los servidores de Delta Chat no tienen acceso a estos datos, ni siquiera en forma cifrada, ya que el procesamiento de datos solo tiene lugar en los dispositivos finales.
 
-#### 2.4 App permissions
+#### 2.4 Permisos de la aplicación
 
-Within the app, you can enter, manage, and edit various information, tasks, and activities. The app also requires the following permissions:
+Dentro de la aplicación, puedes ingresar, gestionar y editar varias informaciones, tareas y actividades. La aplicación también requiere los siguientes permisos:
 
 <table>
     <thead>
         <tr>
-            <th>Permission</th>
-            <th>Reason</th>
+            <th>Permiso</th>
+            <th>Razón</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Internet access</td>
-            <td>This is needed to send the messages to the communication partner. </td>
+            <td>Acceso a Internet</td>
+            <td>Esto es necesario para enviar los mensajes al compañero de comunicación. </td>
         </tr>
         <tr>
-            <td>Camera access</td>
+            <td>Acceso a la cámara</td>
             <td>
-This is needed for you to take photos and send them via the app. In addition, the camera access allows you to scan QR codes.
+Esto es necesario para que puedas tomar fotos y enviarlas a través de la aplicación. Además, el acceso a la cámara te permite escanear códigos QR.
             </td>
         </tr>
         <tr>
-            <td>Microphone access (optional)</td>
+            <td>Acceso al micrófono (opcional)</td>
             <td>
-This permission allows you to send voice messages.
+Este permiso te permite enviar mensajes de voz.
             </td>
         </tr>
         <tr>
-            <td>Location access (optional)</td>
+            <td>Acceso a la ubicación (opcional)</td>
             <td>
-This is needed if you want to share your location with a communication partner.
+Esto es necesario si deseas compartir tu ubicación con un compañero de comunicación.
             </td>
         </tr>
         <tr>
-            <td>Background location access (optional)</td>
+            <td>Acceso a la ubicación en segundo plano (opcional)</td>
             <td>
-This will be needed if you want to share your location over a certain period of time.
+Esto será necesario si deseas compartir tu ubicación durante un cierto período de tiempo.
             </td>
         </tr>
         <tr>
-            <td>Contact access (optional)</td>
+            <td>Acceso a contactos (opcional)</td>
             <td>
-This allows you to load and save contacts from your phone book into the app. The contact data is stored locally in the app and not forwarded and stored on Delta Chat server.
+Esto te permite cargar y guardar contactos de tu agenda telefónica en la aplicación. Los datos de contacto se almacenan localmente en la aplicación y no se reenvían ni se almacenan en el servidor de Delta Chat.
             </td>
         </tr>
         <tr>
             <td>
-Storage (optional)
+Almacenamiento (opcional)
             </td>
-            <td>You can save images and files from the app to your device.</td>
+            <td>Puedes guardar imágenes y archivos de la aplicación en tu dispositivo.</td>
         </tr>
     </tbody>
 </table>
 
-The processing and use of the above permissions are performed to provide the service. The internet access is necessary for the use, therefore the legal basis of the processing is [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/), as you have a usage contract with us by using our services.
+El procesamiento y uso de los permisos anteriores se realizan para proporcionar el servicio. El acceso a Internet es necesario para su uso, por lo tanto, la base legal del procesamiento es el [Art.6 (1) lit.a RGPD](https://gdpr-info.eu/art-6-gdpr/), ya que tienes un contrato de uso con nosotros al utilizar nuestros servicios.
 
-The optional permissions only take place based on your consent according to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) and can also be reduced to individual services, e.g. only internet usage to send messages without pictures or location data. Delta Chat does not receive any access to this data.
+Los permisos opcionales solo se llevan a cabo con base en tu consentimiento de acuerdo con el [Art.6 (1) lit.a RGPD](https://gdpr-info.eu/art-6-gdpr/) y también se pueden reducir a servicios individuales, por ejemplo, solo el uso de Internet para enviar mensajes sin imágenes o datos de ubicación. Delta Chat no recibe ningún acceso a estos datos.
 
-### 3. Platform dependent processing
+### 3. Procesamiento dependiente de la plataforma
 
-Certain information is already processed automatically as soon as you use the app. We have listed below which personal data is processed exactly:
+Cierta información ya se procesa automáticamente tan pronto como usas la aplicación. A continuación, hemos enumerado qué datos personales se procesan exactamente:
 
-When you download the app, certain required information is transmitted to the app store you use ( e.g. Google Play or Apple App Store), in particular the username, the email address, the customer number of your account, the time of the download, payment information as well as the individual device identification number may be processed. The processing of this data is carried out exclusively by the respective app store and is beyond our control.
+Cuando descargas la aplicación, cierta información requerida se transmite a la tienda de aplicaciones que utilizas (por ejemplo, Google Play o Apple App Store), en particular, el nombre de usuario, la dirección de correo electrónico, el número de cliente de tu cuenta, la hora de la descarga, la información de pago, así como el número de identificación del dispositivo individual pueden ser procesados. El procesamiento de estos datos es realizado exclusivamente por la respectiva tienda de aplicaciones y está más allá de nuestro control.
 
-For the rest, we refer to the data protection policies of the respective app store providers or responsible parties of the operating systems. We do not collect and/or process any other data.
+Para el resto, nos remitimos a las políticas de protección de datos de los respectivos proveedores de la tienda de aplicaciones o de las partes responsables de los sistemas operativos. No recopilamos ni procesamos ningún otro dato.
 
-Your personal data will not be transferred to third parties for purposes other than those listed below.
+Tus datos personales no se transferirán a terceros para fines distintos a los enumerados a continuación.
 
-# 4. Rights of the data subject
+# 4. Derechos del interesado
 
-As a data subject of a processing of personal data, you have the right to 
+Como interesado en un tratamiento de datos personales, tienes derecho a 
 
-1. request information about your personal data processed by us in accordance with [Art.15 GDPR](https://gdpr-info.eu/art-15-gdpr/). In particular, you can request information about the processing purposes, the category of personal data, the categories of recipients to whom your data have been or will be disclosed, the planned storage period, the existence of a right to rectification, erasure, restriction of processing or objection, the existence of a right of complaint, the origin of your data if it has not been collected by us, as well as the existence of automated decision-making including profiling and, if applicable, meaningful information about its details;
-2. in accordance with [Art.16 GDPR](https://gdpr-info.eu/art-16-gdpr/) of the GDPR, immediately request the correction of inaccurate or incomplete personal data stored by us;
-3. pursuant to [Art.17 GDPR](https://gdpr-info.eu/art-17-gdpr/) of the GDPR, to request the erasure of your personal data stored by us, unless the processing is necessary for the exercise of the right to freedom of expression and information, for compliance with a legal obligation, for reasons of public interest, or for the establishment, exercise or defence of legal claims;
-4. pursuant to [Art.18 GDPR](https://gdpr-info.eu/art-18-gdpr/), to request the restriction of the processing of your personal data, insofar as the accuracy of the data is disputed by you, the processing is unlawful, but you object to its erasure and we no longer require the data, but you need it for the assertion, exercise or defence of legal claims or you have objected to the processing pursuant to [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/);
-5. pursuant to [Art.20 GDPR](https://gdpr-info.eu/art-20-gdpr/), to receive your personal data that you have provided to us in a structured, common and machine-readable format or to request that it be transferred to another controller;
-6. in accordance with [Art.7 (3) GDPR](https://gdpr-info.eu/art-7-gdpr/), to revoke your consent given to us at any time. This has the consequence that we may no longer continue the data processing based on this consent in the future; and
-7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/) of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
+1. solicitar información sobre tus datos personales procesados por nosotros de acuerdo con el [Art.15 RGPD](https://gdpr-info.eu/art-15-gdpr/). En particular, puedes solicitar información sobre los fines del procesamiento, la categoría de datos personales, las categorías de destinatarios a quienes se han divulgado o se divulgarán tus datos, el plazo de almacenamiento previsto, la existencia de un derecho de rectificación, supresión, restricción del procesamiento u oposición, la existencia de un derecho de reclamación, el origen de tus datos si no han sido recopilados por nosotros, así como la existencia de decisiones automatizadas, incluido el perfilado y, en su caso, información significativa sobre sus detalles;
+2. de acuerdo con el [Art.16 RGPD](https://gdpr-info.eu/art-16-gdpr/) del RGPD, solicitar inmediatamente la corrección de datos personales inexactos o incompletos almacenados por nosotros;
+3. de conformidad con el [Art.17 RGPD](https://gdpr-info.eu/art-17-gdpr/) del RGPD, solicitar la supresión de tus datos personales almacenados por nosotros, a menos que el procesamiento sea necesario para el ejercicio del derecho a la libertad de expresión e información, para el cumplimiento de una obligación legal, por razones de interés público, o para el establecimiento, ejercicio o defensa de reclamaciones legales;
+4. de acuerdo con el [Art.18 RGPD](https://gdpr-info.eu/art-18-gdpr/), solicitar la restricción del procesamiento de tus datos personales, en la medida en que tú disputes la exactitud de los datos, el procesamiento sea ilícito, pero te opongas a su supresión y nosotros ya no necesitemos los datos, pero tú los necesites para la afirmación, ejercicio o defensa de reclamaciones legales o te hayas opuesto al procesamiento de acuerdo con el [Art.21 RGPD](https://gdpr-info.eu/art-21-gdpr/);
+5. de conformidad con el [Art.20 RGPD](https://gdpr-info.eu/art-20-gdpr/), recibir tus datos personales que nos has proporcionado en un formato estructurado, común y legible por máquina o solicitar que se transfieran a otro responsable;
+6. de acuerdo con el [Art.7 (3) RGPD](https://gdpr-info.eu/art-7-gdpr/), revocar tu consentimiento dado a nosotros en cualquier momento. Esto tiene como consecuencia que ya no podremos continuar con el procesamiento de datos basado en este consentimiento en el futuro; y
+7. presentar una reclamación ante una autoridad de supervisión de acuerdo con el [Art.77 RGPD](https://gdpr-info.eu/art-77-gdpr/) del RGPD. Como regla general, puedes contactar con la autoridad de supervisión de tu lugar habitual de residencia o trabajo o con nuestra oficina registrada para este propósito. La autoridad de supervisión responsable de nuestro lugar de negocio es el Comisionado Estatal para la Protección de Datos y la Libertad de Información de Baden-Württemberg en 70173 Stuttgart.
 
 
-# 5. Up-to-dateness and modification of this data protection declaration
+# 5. Actualidad y modificación de esta declaración de protección de datos
 
-This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
+Esta declaración de protección de datos es válida desde noviembre de 2021. Debido al desarrollo posterior de nuestro sitio web y ofertas o debido a cambios en los requisitos legales o administrativos, puede ser necesario revisar esta declaración de protección de datos de vez en cuando.
 
-You can access and print out the current data protection declaration at any time at [https://delta.chat/gdpr](https://delta.chat/gdpr).
+Puedes acceder e imprimir la declaración de protección de datos actual en cualquier momento en [https://delta.chat/gdpr](https://delta.chat/gdpr).
