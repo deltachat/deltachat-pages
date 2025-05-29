@@ -8,46 +8,46 @@ header: Preguntas Frecuentes
 
 ## ¿Qué es Delta Chat? 
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
-available for mobile and desktop platforms.
+Delta Chat es una aplicación de mensajería confiable, descentralizada y segura,
+Disponible para plataformas móviles y de escritorio.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+Delta Chat se siente como WhatsApp o Telegram, pero también puede usarlo y considerarlo como una aplicación de correo electrónico.
+Puede registrarse de forma anónima a una variedad de [servidores de chatmail interoperables] (https://delta.chat/chatmail)
+que son servidores de correo electrónico mínimos optimizados para operaciones rápidas y seguras.
+O puede usar servidores de correo electrónico clásicos y una cuenta de correo electrónico existente
+en cuyo caso Delta Chat actúa como una aplicación de correo electrónico.
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### ¿Cómo puedo encontrar personas con las que chatear? 
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
+Para configurar de forma segura el contacto con otros [Escanee un código de invitación QR
+o comparta un enlace de invitación] (#howtoe2ee).
+Esto se requiere cuando se usa un perfil de chat basado en chatmail (predeterminado)
+Porque los servidores de chatmail rechazan los mensajes salientes no cifrados.
 
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+Si crea un perfil de chat con una dirección de correo electrónico clásica
+Puede crear manualmente un contacto si conoce su dirección de correo electrónico
+y luego escriba un mensaje
+Incluso si el destinatario no está usando el chat delta.
 
 
-### ¿Cuáles son las ventajas de Delta Chat comparado con otras aplicaciones de mensajería?
+### ¿cuáles hijo las ventajas de delta comparado comparado con otras aplicacaciones de mensajería?
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices. 
+- Perfiles de chat anónimos con rápidos, seguros e interoperables [servidores de chatmail] (https://delta.chat/chatmail)
+  que ofrecen notificaciones impulsoras instantáneas para dispositivos iOS y Android.
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+-Permanente [multiprofile] (#cuenta múltiple) y soporte de dispositivos múltiples en todas las plataformas.
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+- Interactive [aplicaciones web en chats] (https://webxdc.org/apps) para juegos y colaboración
 
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
+-[Cifrado de extremo a extremo auditado] (#Auditos de seguridad)
+seguro contra ataques de red y servidor.
 
-- Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
+- Software de código abierto y abierto, tanto la aplicación como el lado del servidor.
+  Construido en [correo electrónico e estándares de Internet web] ({ % incluye estándares-url %}),
+  [Para evitar "otro síndrome estándar (XKCD 927)"] (https://xkcd.com/927/)
 
 
 ### ¿Qué pasa si espero un mensaje de alguien a quien no le escribí en el pasado?
@@ -68,22 +68,22 @@ Si un mensaje proviene de un contacto desconocido, aparece como una **solicitud*
 - Para mejorar el rendimiento, las imágenes se optimizan y se envían en un tamaño más pequeño de forma predeterminada, pero puedes enviarla como un "archivo" para conservar la original.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### ¿Qué son los perfiles? ¿Cómo puedo cambiar entre ellos? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses a chatmail or a classic e-mail server to transport messages.
+Un perfil es ** un nombre, una imagen ** y alguna información adicional para cifrar mensajes.
+Un perfil vive solo en sus dispositivos
+y usa un chatmail o un servidor de correo electrónico clásico para transportar mensajes.
 
-On first installation of Delta Chat a first profile is created.
+En la primera instalación de Delta Chat se crea un primer perfil.
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+Más tarde, puede tocar la imagen de su perfil en la esquina superior izquierda a ** Agregar perfiles **
+o para ** Cambiar perfiles **.
 
-You may want to use separate profiles for political, family or work related activities,
-or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
-that tend to cause unsolicited messages ("spam") sooner or later.
+Es posible que desee utilizar perfiles separados para actividades políticas, familiares o de trabajo,
+o e. gramo. Para un "perfil de spam" dedicado con el que se registra en sitios web y plataformas
+Eso tiende a causar mensajes no solicitados ("spam") tarde o temprano.
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+También es posible que desee aprender [cómo usar el mismo perfil en múltiples dispositivos] (#multiclient).
 
 
 ### ¿Quién ve mi foto de perfil?
@@ -101,13 +101,13 @@ que sus contactos vuelvan a recibir su foto de perfil, incluso si agregan un nue
 dispositivo.
 
 
-### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
+### ¿Puedo configurar un bio/firma/estado/lema con chat delta? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Your contacts who use Delta Chat will see it
-when they view your contact details.
-Moreover, it will appear as a classic e-mail signature.
+Sí,
+Puede hacerlo en ** Configuración → Perfil → Bio **.
+Sus contactos que usan el chat delta lo verán
+Cuando ven sus datos de contacto.
+Además, aparecerá como una firma clásica de correo electrónico.
 
 
 ### ¿Qué significa fijar, mutear, archivar?
@@ -128,65 +128,65 @@ Para archivar o fijar un chat, toque prolongadamente (Android), use el menú del
 para silenciar un chat, use el menú del chat (Android/Escritorio) o el perfil del chat (iOS).
 
 
-### How do "Saved Messages" work? {#save}
+### ¿Cómo funcionan los "mensajes guardados"? {#save}
 
-**Saved Messages** is a chat that you can use to easily remember and find messages.
+** Mensajes guardados ** es un chat que puede usar para recordar y encontrar mensajes fácilmente.
 
-- In any chat, long tap or right click a message and select **Save**
+- En cualquier chat, toque largo o haga clic derecho en un mensaje y seleccione ** Guardar **
 
-- Saved messages are marked by the symbol
-  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
-  next to the timestamp
+- Los mensajes guardados están marcados por el símbolo
+  <img style = "vertical-align: medio; ancho: 1.2em; margen: 1px" src = "../ assets/help/saved-icon.png" alt = "icono guardado"/>
+  al lado de la marca de tiempo
 
-- Later, open the "Saved Messages" chat - and you will see the saved messages there.
-  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
-  you can go back to the original message in the original chat
+- Más tarde, abra el chat de "mensajes guardados", y verá los mensajes guardados allí.
+  Tocando <img style = "vertical-align: medio; ancho: 1.2em; margen: 1px" src = "../ assets/help/go-to-Original.png" alt = "icono de flecha-right"/>,,
+  Puedes volver al mensaje original en el chat original
 
-- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Finalmente, también puede usar "Guardar mensajes" para tomar ** Notas personales ** - Abra el chat, escriba algo, agregue una foto o un mensaje de voz, etc.
 
-- As "Saved Message" are synced, they can become very handy for transferring data between devices
+- Como se sincronizan el "mensaje guardado", pueden ser muy útiles para transferir datos entre dispositivos
 
-Messages stay saved even if they are edited or deleted -
-may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+Los mensajes permanecen guardados incluso si se editan o eliminan -
+Que sea por [remitente] (#editar), mediante [limpieza del dispositivo] (#delold) o [desapareciendo mensajes de otros chats] (#efemeralmsgs).
 
 
 ### ¿Qué significa el punto verde?
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen** in the last 10 minutes:
+A veces puede ver un ** dot verde ** <img style = "vertical-align: medio; ancho: 1.2em; margen: 1px" src = "../ assets/help/green-dot.png" alt = "/>>
+al lado del avatar de un contacto.
+Significa que fueron ** vistos recientemente ** en los últimos 10 minutos:
 
-- either because they messaged you directly,
-- because they wrote something to a group you are both a member of,
-- because they sent you a read receipt for a message you wrote,
-- because they edit or delete a message in a chat shared with you,
-- or because they use an [app](#webxdc) in a chat shared with you.
+- ya sea porque te enviaron un mensaje directamente,
+- Porque escribieron algo a un grupo del que eres miembro,
+- Porque le enviaron un recibo de lectura para un mensaje que escribió,
+- Porque editan o eliminan un mensaje en un chat compartido con usted,
+- O porque usan una [aplicación] (#webXDC) en un chat compartido con usted.
 
-So this is not a real time online status -
-and if someone doesn't answer right away even though they seem to be online,
-don't worry and give them some space :)
+Entonces este no es un estado en línea en tiempo real -
+Y si alguien no responde de inmediato a pesar de que parece estar en línea,
+No te preocupes y dales algo de espacio :)
 
-On the other hand, others will not always "see that you are online".
-If you have turned off read receipts,
-they will not see the green dot
-until one of the above conditions are met.
+Por otro lado, otros no siempre "verán que esté en línea".
+Si ha apagado los recibos de lectura,
+no verán el punto verde
+Hasta que se cumplan una de las condiciones anteriores.
 
 
-### Correct typos and delete messages after sending {#edit}
+### Correcto tipográficos y eliminar mensajes después de enviar {#edit}
 
-- You can edit the text of your messages after sending.
-  For that, long tap or right click the message and select **Edit**
-  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+- Puede editar el texto de sus mensajes después de enviar.
+  Para eso, toque largo o haga clic derecho en el mensaje y seleccione ** Editar **
+  o <img style = "vertical-align: medio; ancho: 1.2em; margen: 1px" src = "../ assets/help/edit-icon.png" alt = "editar icono"/>.
 
-- If you have sent a message accidentally,
-  from the same menu, select **Delete** and then **Delete for Everyone**.
+- Si ha enviado un mensaje accidentalmente,
+  En el mismo menú, seleccione ** Eliminar ** y luego ** Eliminar para todos **.
 
-While edited messages will have the word "Edited" next to the timestamp,
-deleted messages will be removed without a marker in the chat.
-Notifications are not sent and there is no time limit.
+Mientras que los mensajes editados tendrán la palabra "editado" junto a la marca de tiempo,
+Los mensajes eliminados se eliminarán sin un marcador en el chat.
+No se envían notificaciones y no hay límite de tiempo.
 
-Note, that the original message may still be received by chat members
-who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+Tenga en cuenta que el mensaje original aún puede ser recibido por los miembros del chat
+¿Quién podría haber respondido, reenviado, guardado, capturado de captura o copiado por el mensaje?
 
 
 ### ¿Cómo funciona la desaparición de mensajes? {#ephemeralmsgs}
@@ -259,162 +259,161 @@ por lo que aunque sólo veas una marca, el mensaje puede haber sido leído.
 - A la inversa, dos marcas no significan automáticamente que un humano haya leído o entendido el mensaje ;)
 
 
-### ¿Qué pasa si activo "Borrar mensajes del servidor"?
+### ¿Qé Pasa si Activo "Borrar Mensajes del Servidor"?
 
-- De forma predeterminada, Delta Chat almacena todos los mensajes localmente en su dispositivo.
-Si por ej. desea ahorrar espacio de almacenamiento en su proveedor de correo,
-puedes configurar Delta Chat
-para eliminar automáticamente los mensajes antiguos ya recibidos en el servidor.
-Aún permanecen en su dispositivo hasta que los elimine allí también.
+- de forma predeterminada, chat delta almacena Todos Los Mensajes Localmentar en su disposición.
+  Si por eJ. Desea Ahorrar Espacio de Almacenamiento en su Probador de Correo,
+  chat de delta de configuración Puedes
+  Para Eliminar Auticamete Los Mensajes Antiguos Ya Recibidos en El Servidor.
+  Aún permanecen en su dispositivo Hasta que el elimine Allí También.
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- Para encenderlo, vaya a ** Eliminar mensajes antiguos → Eliminar mensajes del servidor **
+  En la configuración "Chats and Media".
+  Puede establecer un marco de tiempo entre "a la vez" y "después de 1 año".
+  Todos los correos electrónicos recibidos por Delta Chat se eliminarán del servidor después de este plazo.
 
-- Tenga en cuenta que si utiliza Delta Chat en más de un dispositivo,
-debes dejar el mensaje en el servidor con un plazo de tiempo suficiente
-para que los otros dispositivos también puedan descargarlos.
+- Tenga en cuenta que si utiliza delta chat en más de unpositivo,
+  Debes Dejar el Mensaje en El Servidor con un Plazo de Tió Suficiente
+  para que los otros dispositivos también Puedan Descargarlos.
 
 
 ### ¿Qué pasa si activo "Borrar mensajes del dispositivo"? {#delold}
 
-- If you want to save storage on your device, you can choose to delete old
-  messages automatically. 
-- To turn it on, go to "delete old messages from device" in the "Chats & Media"
-  settings. You can set a timeframe between "after an hour" and "after a year";
-  this way, *all* messages will be deleted from your device as soon as they are
-  older than that.
+- Si desea guardar el almacenamiento en su dispositivo, puede optar por eliminar
+  mensajes automáticamente.
+- Para encenderlo, vaya a "Eliminar mensajes antiguos del dispositivo" en los "Chats & Media"
+  ajustes. Puede establecer un plazo entre "después de una hora" y "después de un año";
+  De esta manera, * todos * los mensajes se eliminarán de su dispositivo tan pronto como estén
+  Mayor que eso.
 
 
-## Instant message delivery and Push Notifications {#instant-delivery}
+## Entrega de mensajes instantáneos y notificaciones push {#entrega instantánea}
 
 
-### What are Push Notifications? How can I get instant message delivery?
+### ¿Qué son las notificaciones push? ¿Cómo puedo obtener la entrega de mensajes instantáneos?
 
-Push Notifications are sent by Apple and Google "Push services" to a user's device
-so that an inactive Delta Chat app can fetch messages in the background
-and show notifications on a user's phone if needed.
+Apple y Google "Push Services" envían notificaciones a push al dispositivo de un usuario
+para que una aplicación de chat delta inactiva pueda obtener mensajes en segundo plano
+y mostrar notificaciones en el teléfono de un usuario si es necesario.
 
-Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
+Las notificaciones push funcionan con todos los servidores [chatmail] (https://delta.chat/chatmail) en
 
-- iOS devices, by integrating with Apple Push services.
+- Dispositivos iOS, integrándose con Apple Push Services.
 
-- Android devices, by integrating with the Google FCM Push service,
-  including on devices that use [microG](https://microg.org)
-  instead of proprietary Google code on the phone.
+- Dispositivos Android, integrándose con el servicio Push Google FCM,
+  Incluyendo en dispositivos que usan [Microg] (https://microg.org)
+  en lugar de el código de Google patentado por teléfono.
 
-As of May 2024, classic e-mail servers do not support Push Notifications
-for Delta Chat users.
-
-
-### Are Push Notifications enabled on iOS devices? Is there an alternative?
-
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+A partir de mayo de 2024, los servidores de correo electrónico clásicos no admiten notificaciones push
+para usuarios de chat delta.
 
 
-### Are Push notifications enabled / needed on Android devices? {#android-push}
+### ¿Las notificaciones push habilitadas en los dispositivos iOS? ¿Hay una alternativa?
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
-If you are using a classic e-mail provider instead of [chatmail](https://delta.chat/chatmail) servers,
-Push Notifications are not available.
-
-In the Delta Chat "Notifications" settings for "Instant delivery"
-you can change the following settings effecting all chat profiles:
-
-- Use Background Connection: If you are not using a Push service,
-  you may disable "battery optimizations" for Delta Chat,
-  allowing it to fetch messages in the background.
-  However, there could be delays from minutes to hours.
-  Some Android vendors even restrict apps completely
-  (see [dontkillmyapp.com](https://dontkillmyapp.com))
-  and Delta Chat might not show  incoming messages
-  until you manually open the app again.
-  
-- Force Background Connection: This is the fallback option
-  if the previous options are not available or do not achieve "instant delivery".
-  Enabling it causes a permanent notification on your phone
-  which may sometimes be "minified" with recent Android phones.
-
-Both "Background Connection" options are energy-efficient and
-safe to try if you experience messages arrive only with long delays.
+Sí, Delta Chat utiliza automáticamente notificaciones push para los perfiles [chatmail] (https://delta.chat/chatmail).
+Y no, no hay alternativa en los teléfonos de Apple para lograr la entrega de mensajes instantáneos
+Porque los dispositivos Apple no permiten que Delta Chat obtenga datos en segundo plano.
+Las notificaciones push se activan automáticamente para los usuarios de iOS porque
+[Sistema de notificación push de preservación de la privacidad de Delta Chat] (#-Notificaciones de privacidad)
+No expone datos a Apple que aún no tiene.
 
 
-### How private are Delta Chat Push Notifications? {#privacy-notifications}
+### ¿Las notificaciones push habilitadas / necesarias en los dispositivos Android? {#android-push}
 
-Delta Chat Push Notification support avoids leakage of private information.
-It does not leak e-mail, IP address or message content (not even encrypted)
-to any system involved in the delivery of Push Notifications.
+Si hay un "servicio de empuje" disponible, Delta Chat habilita las notificaciones push
+Para lograr la entrega de mensajes instantáneos para todos los usuarios de chatmail.
+Si está utilizando un proveedor de correo electrónico clásico en lugar de servidores [chatmail] (https://delta.chat/chatmail),
+Las notificaciones push no están disponibles.
 
-Here is how Delta Chat apps perform Push Notification delivery:
+En la configuración de "notificaciones" de Delta Chat para "Entrega instantánea"
+Puede cambiar la siguiente configuración que efectúa todos los perfiles de chat:
 
-- A Delta Chat app obtains a "device token" locally, encrypts it and stores it
-  on the [chatmail](https://delta.chat/chatmail) server.
+- Utilice la conexión de fondo: si no está utilizando un servicio push,
+  Puede deshabilitar "Optimizaciones de batería" para el chat delta,
+  permitiendo que obtenga mensajes en segundo plano.
+  Sin embargo, podría haber retrasos de minutos a horas.
+  Algunos proveedores de Android incluso restringen las aplicaciones por completo
+  (Ver [Dontkillmyapp.com] (https://dontkillmyapp.com))
+  y el chat delta podría no mostrar mensajes entrantes
+  Hasta que vuelvas a abrir manualmente la aplicación.
 
-- When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- Fuerza Conexión de fondo: esta es la opción de retroceso
+  Si las opciones anteriores no están disponibles o no logran una "entrega instantánea".
+  Habilitarlo causa una notificación permanente en su teléfono
+  que a veces puede estar "minificado" con teléfonos Android recientes.
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or e-mail address of Delta Chat users.
-
-- The central Push Service (Apple, Google, etc.)
-  wakes up the Delta Chat app on your device
-  to check for new messages in the background.
-  It does not know about the chatmail or e-mail address of the device it wakes up.
-  The central Apple/Google Push services never see an e-mail address (sender or receiver)
-  and also never see any message content (also not in encrypted forms).
-
-
-The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
-and forgets about device-tokens as soon as Apple/Google/etc processed them,
-usually in a matter of milliseconds.
-
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees e-mail addresses, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
-
-Resulting from this overall privacy design, even the seizure of a chatmail server,
-or the full seizure of the central Delta Chat notification proxy
-would not reveal private information that Push services do not already have.
+Ambas opciones de "conexión de fondo" son eficientes en energía y
+Es seguro intentarlo si experimenta mensajes llega solo con retrasos largos.
 
 
-### Why does Delta Chat integrate with centralized proprietary Apple/Google push services?
+### ¿Qué tan privados son las notificaciones de empuje de chat delta? {#privacy-notifications}
 
-Delta Chat is a free and open source decentralized messenger with free server choice,
-but we want users to reliably experience "instant delivery" of messages,
-like they experience from WhatsApp, Signal or Telegram apps,
-without asking questions up-front that are more suited to expert users or developers.
+El soporte de notificación push de Delta Chat evita la fuga de información privada.
+No filtra el correo electrónico, la dirección IP o el contenido del mensaje (ni siquiera en cifrado)
+a cualquier sistema involucrado en la entrega de notificaciones push.
 
-Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
-that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable and massive chatmail and e-mail system :)
+Así es como las aplicaciones de chat delta realizan la entrega de notificaciones push:
 
+- Una aplicación de chat delta obtiene un "token de dispositivo" localmente, la cifra y la almacena
+  en el servidor [chatmail] (https://delta.chat/chatmail).
+
+- Cuando un servidor [chatmail] (https://delta.chat/chatmail) recibe un correo electrónico para un usuario de chat delta
+  Reenvía el token de dispositivo cifrado al proxy de notificación de chat delta central.
+
+- El proxy de notificación de chat de Delta Central descifra el token del dispositivo
+  y lo reenvía al servicio de empuje respectivo (Apple, Google, etc.),
+  sin saber nunca la dirección IP o correo electrónico de los usuarios de chat delta.
+
+- El servicio central de empuje (Apple, Google, etc.)
+  despierta la aplicación de chat delta en su dispositivo
+  Para verificar los nuevos mensajes en segundo plano.
+  No sabe sobre el chatmail o la dirección de correo electrónico del dispositivo que despierta.
+  Los servicios centrales de Apple/Google Push nunca ven una dirección de correo electrónico (remitente o receptor)
+  y tampoco vea ningún contenido de mensaje (tampoco en formularios cifrados).
+
+
+El proxy de notificación de chat de Delta Central [es pequeño e implementado completamente en Rust] (https://github.com/deltachat/notifiers)
+y se olvida de los tokens de dispositivo tan pronto como Apple/Google/Etc los procesó,
+generalmente en cuestión de milisegundos.
+
+Tenga en cuenta que el token del dispositivo está encriptado entre aplicaciones y proxy de notificación
+Pero no está firmado.
+Por lo tanto, el proxy de notificación nunca ve direcciones de correo electrónico, direcciones IP o
+Cualquier información de identidad criptográfica asociada con el dispositivo de un usuario (token).
+
+Resultante de este diseño general de privacidad, incluso la incautación de un servidor de chatmail,
+o la incautación completa del proxy de notificación de chat de Delta Central
+No revelaría información privada que los servicios push aún no tienen.
+
+
+### ¿Por qué se integra el chat delta con los servicios de Apple/Google Push de patrón centralizado?
+
+Delta Chat es un mensajero descentralizado gratuito y de código abierto con elección de servidor gratuita,
+Pero queremos que los usuarios experimenten de manera confiable la "entrega instantánea" de mensajes,
+Como experimentan con las aplicaciones de WhatsApp, Signal o Telegram,
+sin hacer preguntas por adelantado que sean más adecuados para usuarios o desarrolladores expertos.
+
+Tenga en cuenta que Delta Chat tiene un [Sistema de notificación push Push Push Push] (#Notificaciones de privacidad)
+que logra "entrega instantánea" de mensajes para todos los servidores de chatmail
+incluyendo uno potencial [puede configurarse sin nuestro permiso] (https://delta.chat/chatmail#selfhosted).
+Bienvenido al poder del sistema de chat de chat y el sistema de correo electrónico interoperable :)
 
 ## Cifrado y seguridad
 
 ### ¿Qué estándares se utilizan para el cifrado de extremo a extremo? 
 
-[Autocrypt](https://autocrypt.org) is used for automatically
-establishing end-to-end encryption with contacts and group chats.
-Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
-End-to-End encrypted messages are marked with a padlock 
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
+[Autocrypt] (https://autocrypt.org) se usa para automáticamente
+Establecer el cifrado de extremo a extremo con contactos y chats grupales.
+Autocrypt utiliza un subconjunto limitado y [seguro del estándar OpenPGP] (#openpgp-secure).
+Los mensajes cifrados de extremo a extremo están marcados con un candado
+<img style = "vertical-align: medio; ancho: 1.2em; margen: 1px" src = "../ assets/help/lock-icon.png" alt = "cadlock"/>.
 
-[Protocolos de Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
-se utilizan para establecer chats con cifrado de extremo a extremo garantizado
-que protege contra ataques de red y servidores comprometidos.
-Los chats marcados con una estampilla verde
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-garantizan mensajes cifrados de extremo a extremo.
+[Protocolos de Secure-Join] (https://segurejoin.delta.chat/en/latest/new.html)
+se utilizan para chats estableceros con cifrado de extremo un extremo garantizado
+Cola protegida contra Ataques de Red Y servidores Comprometidos.
+Los chats Marcados con una estampilla verde
+<img style = "vertical-align: medio; ancho: 1.5em; margen: 1px" src = "../ assets/help/green-checkmark.png" alt = "verde de verificación"/>>
+Garantizan Mensajes Cifrados de Extreme A Extremo.
 
 ### ¿Cómo puedo saber si los mensajes están cifrados de extremo a extremo? {#whene2e}
 
@@ -429,27 +428,27 @@ El cifrado de extremo a extremo está garantizado si hay una estampilla verde  c
 
 ### ¿Cómo puedo obtener cifrado de extremo a extremo garantizado y estampillas verdes? {#howtoe2ee}
 
-If you have a second communication channel with your chat partner,
-like a video chat or a different messenger,
-you can generate an invite link.
+Si tiene un segundo canal de comunicación con su compañero de chat,
+Como un chat de video o un mensajero diferente,
+Puede generar un enlace de invitación.
 
-If you are together in person,
-you can show a QR code to your chat partner.
+Si están juntos en persona
+Puede mostrar un código QR a su compañero de chat.
 
-- For **Group invitations**,
-  tap the chat group title to see its member list,
-  and select "QR Invite code".
+- para ** Invitaciones grupales **,
+  Toque el título del grupo de chat para ver su lista de miembros,
+  y seleccione "Código de invitación de QR".
 
-- For **direct 1:1 chat invitations**,
-  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
+- para ** Invitaciones de chat directas 1: 1 **,
+  Toque el icono del código QR <img style = "vertical-align: medio; ancho: 1.8em; margen: 1px" src = "../ assets/help/qr-icon.png"/>>
+  en la pantalla principal de la aplicación de chat delta.
 
-Let your chat partner scan the QR image
-with their Delta Chat app,
-or click "Copy" or "Share" to create an invite link
-and share it with your chat partner.
+Deje que su compañero de chat escanee la imagen QR
+con su aplicación de chat delta,
+o haga clic en "Copiar" o "compartir" para crear un enlace de invitación
+y compártelo con tu compañero de chat.
 
-Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Ahora espere mientras se intercambien los mensajes de red de unión segura] (https://segurejoin.delta.chat/en/latest/new.html#setup-contact-protocol) entre ambos dispositivos.
 
 - Si ambos dispositivos están en línea,
 ambas partes eventualmente verán un chat (grupal o directo) con una estampilla verde
@@ -560,74 +559,74 @@ y solo muestra un indicador de seguridad de candado en un mensaje
 si todo el mensaje está correctamente cifrado y firmado.
 Por ejemplo, las "firmas desvinculadas" no se consideran seguras.
 
-OpenPGP is not insecure by itself.
-Most publicly discussed OpenPGP security problems
-actually stem from bad usability or bad implementations of tools or apps (or both).
-It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
-and GnuPG (GPG), a command line tool implementing OpenPGP. 
-Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
-Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
-available as [an independent "pgp" package](https://crates.io/crates/pgp),
-and [security-audited in 2019 and 2024](#security-audits). 
+OpenPGP no es inseguro por sí mismo.
+La mayoría de los problemas de seguridad de OpenPGP sobre PROPGP
+En realidad, se deriva de la mala usabilidad o las malas implementaciones de herramientas o aplicaciones (o ambas).
+Es particularmente importante distinguir entre OpenPGP, el estándar de cifrado IETF,
+y Gnupg (GPG), una herramienta de línea de comandos que implementa OpenPGP.
+Muchas críticas públicas de OpenPGP en realidad discuten Gnupg que Delta Chat nunca ha utilizado.
+Delta Chat más bien utiliza la implementación de óxido OpenPGP [RPGP] (https://github.com/rpgp/rpgp),
+Disponible como [un paquete "PGP" independiente] (https://crates.io/crates/pgp),
+y [auditados de seguridad en 2019 y 2024] (#security-audits).
 
-We aim, along with other OpenPGP implementors, 
-to further improve security characteristics by implementing the
-[new IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) 
-which was thankfully adopted in summer 2023. 
+Apuntamos, junto con otros implementadores de OpenPGP,
+para mejorar aún más las características de seguridad mediante la implementación del
+[Nuevo IETF OpenPGP Crypto-Refresh] (https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-fresh/)
+que afortunadamente fue adoptado en el verano de 2023.
 
 
 ### ¿Consideraron usar alternativas a OpenPGP para el cifrado de extremo a extremo? {#openpgp-alternatives}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-or [Saltpack](https://saltpack.org/) 
-but adopting them would mean breaking end-to-end encryption interoperability 
-with all other e-mail apps that typically support OpenPGP encryption. 
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+Sí, estamos siguiendo esfuerzos como [MLS] (https://en.wikipedia.org/wiki/messaging_layer_security)
+o [Saltpack] (https://saltpack.org/)
+Pero adoptarlos significaría romper la interoperabilidad de cifrado de extremo a extremo
+con todas las demás aplicaciones de correo electrónico que generalmente admiten el cifrado OpenPGP.
+Entonces no sería una decisión ligera tomar
+y debe haber mejoras tangibles para los usuarios.
 
-Delta Chat takes a holistic "usable security" approach 
-and works with a wide range of activist groupings as well as 
-renowned researchers such as [TeamUSEC](https://teamusec.de) 
-to improve actual user outcomes against security threats. 
-The wire protocol and standard for establishing end-to-end encryption is
-only one part of "user outcomes",
-see also our answers to [device-seizure](#device-seizure)
-and [message-metadata](#message-metadata) questions. 
+Delta Chat adopta un enfoque holístico de "seguridad utilizable"
+y funciona con una amplia gama de agrupaciones activistas, así como
+Investigadores de renombre como [Teamusec] (https://teamusec.de)
+Para mejorar los resultados reales del usuario contra las amenazas de seguridad.
+El protocolo de cable y el estándar para establecer el cifrado de extremo a extremo es
+Solo una parte de "resultados del usuario",
+Consulte también nuestras respuestas a [Seguridad del dispositivo] (#device-seizure)
+y preguntas [Mensaje-Metadata] (#Mensaje-Metadata).
 
 
 ### ¿Es Delta Chat vulnerable a EFAIL?
 
-No, [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
-because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
-uses Modification Detection Code when encrypting messages
-and returns [an error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
-if the Modification Detection Code is incorrect.
+No, [Delta Chat nunca fue vulnerable a Efail] (https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-defail)
+Porque su implementación OpenPGP [RPGP] (https://github.com/rpgp/rpgp)
+Utiliza código de detección de modificación al cifrar mensajes
+y devuelve [un error] (https://docs.rs/pgp/latest/pgp/errors/enum.error.html#variant.mdcerror)
+Si el código de detección de modificación es incorrecto.
 
-Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
-because it only decrypts `multipart/encrypted` messages
-which contain exactly one encrypted and signed part,
-as defined by the Autocrypt Level 1 specification. 
+Delta Chat tampoco fue vulnerable al ataque de efail "exfiltración directa"
+Porque solo descifra mensajes `multipart/cifrado '
+que contienen exactamente una parte encriptada y firmada,
+según lo definido por la especificación de nivel 1 de autocrypt.
 
 
 ### ¿Se expone un mensaje en texto claro si no está disponible el cifrado de extremo a extremo? {#tls}
 
-Even if your messages are not guaranteed to be end-to-end encrypted, 
-they are still protected from Internet providers like cell or cable companies. 
-However, your and your recipient's e-mail providers 
-may read, analyze or even modify your messages, 
-including any attachments,
-if they are not end-to-end encrypted. 
+Incluso si sus mensajes no están garantizados para estar encriptados de extremo a extremo,
+Todavía están protegidos de proveedores de Internet como compañías de celdas o cable.
+Sin embargo, usted y los proveedores de correo electrónico de su destinatario
+puede leer, analizar o incluso modificar sus mensajes,
+incluyendo cualquier archivo adjunto,
+Si no están encriptados de extremo a extremo.
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your e-mail provider. 
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's e-mail provider
-will typically be transport-encrypted as well.
-If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between e-mail providers 
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+Delta Chat de forma predeterminada usa estricto
+[Cifrado TLS] (https://en.wikipedia.org/wiki/transport_layer_security)
+que asegura conexiones entre su dispositivo y su proveedor de correo electrónico.
+Todo el manejo TLS de Delta Chat ha sido independientemente [auditado de seguridad] (#Auditos de seguridad).
+Además, la conexión entre su proveedor de correo electrónico y el receptor
+Por lo general, también estará encriptado por el transporte.
+Si los servidores de correo electrónico involucrados admiten [MTA-STS] (https://datatracker.ietf.org/doc/html/rfc8461)
+entonces se aplicará el cifrado de transporte entre los proveedores de correo electrónico
+En cuyo caso, las comunicaciones de chat delta nunca se expondrán en ClearText a Internet
+Incluso si el mensaje no estaba encriptado de extremo a extremo.
 
 Ten en cuenta que [mantener un cifrado de extremo a extremo garantizado](#howtoe2ee) sobre el cifrado TLS proporciona seguridad generalizada entre tus dispositivos y los del destinatario. Ni siquiera tu proveedor de correo electrónico o de Internet podrá leer o modificar tus mensajes.
 
@@ -654,17 +653,16 @@ entregar mensajes a los dispositivos del destinatario.
 
 ### ¿Cómo proteger los metadatos y los contactos cuando se incauta un dispositivo? {#device-seizure}
 
-Both for protecting against metadata-collecting e-mail servers 
-as well as against the threat of device seizure
-we recommend to use a [chatmail server](https://delta.chat/chatmail)
-to create pseudonymous temporary profiles through QR-code scans.
-Note that Delta Chat apps on all platforms support multiple profiles
-so you can easily use situation-specific profiles next to your "main" profile
-with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then contacts using temporary profiles
-can not be identified easily, as compared to messengers which reveal
-phone numbers in chat groups which in turn are often associated with legal identities.
-
+Ambos para proteger contra servidores de correo electrónico de recolección de metadatos
+así como contra la amenaza de la incautación de dispositivos
+Recomendamos usar un [servidor chatmail] (https://delta.chat/chatmail)
+Para crear perfiles temporales seudónimo a través de escaneos de código QR.
+Tenga en cuenta que las aplicaciones de chat delta en todas las plataformas admiten múltiples perfiles
+Por lo tanto, puede usar fácilmente perfiles específicos de la situación junto a su perfil "principal"
+Con el conocimiento de que todos sus datos, junto con todos los metadatos, serán eliminados.
+Además, si se incauta un dispositivo, entonces contactos utilizando perfiles temporales
+no se puede identificar fácilmente, en comparación con los mensajeros que revelan
+Los números de teléfono en los grupos de chat que a su vez a menudo se asocian con identidades legales.
 
 ### ¿Cómo puedo verificar la información de cifrado?
 
@@ -678,15 +676,15 @@ Un pequeño **candado** en una burbuja de mensaje indica que el mensaje fue corr
 
 ### ¿Por qué veo mensajes sin cifrar?
 
-If a contact uses a non-Autocrypt e-mail app,
-all messages involving this contact (in a group or 1:1 chat)
-will not be end-to-end encrypted, and thus not show a "padlock" with messages.
-Note that even if your contacts use Delta Chat on their account,
-they might also use a non-Autocrypt e-mail app on that account
-which then may cause intermittently unencrypted messages.
-Replying unencrypted to unencrypted messages is mandated by Autocrypt
-to prevent unreadable messages on the side of your contacts
-and their non-Autocrypt e-mail app.
+Si un contacto utiliza una aplicación de correo electrónico que no es de autocrypt,
+Todos los mensajes que involucran este contacto (en un grupo o chat 1: 1)
+no estará encriptado de extremo a extremo y, por lo tanto, no mostrará un "candado" con mensajes.
+Tenga en cuenta que incluso si sus contactos usan el chat delta en su cuenta,
+También pueden usar una aplicación de correo electrónico que no es de autocrypt en esa cuenta
+que luego pueden causar mensajes intermitentemente sin cifrar.
+Responder sin cifrar a los mensajes sin cifrar es ordenado por Autocrypt
+Para evitar mensajes ilegibles en el lado de sus contactos
+y su aplicación de correo electrónico que no es de autocrypt.
 
 ### ¿Cómo puedo obtener un chat cifrado de extremo a extremo con un contacto de Delta Chat que a veces utiliza webmail u otra aplicación de correo electrónico no Autocrypt?
 
@@ -721,99 +719,98 @@ independientemente de si se implementa o no el Perfect Forward Secrecy.
 La situación típica en el mundo real para las claves de descifrado filtradas es la incautación del dispositivo,
 que discutimos en nuestra respuesta [sobre metadatos e incautación de dispositivos](#device-seizure).
 
-It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
-because OpenPGP is just a container for encrypted messages 
-but encryption key management (and thus key rotation or key "ratcheting") 
-could be organized in flexible ways. 
-See [Seqouia's PFS prototype](https://gitlab.com/sequoia-pgp/openpgp-dr)
-for existing experiments in the OpenPGP implementor community.
+Es posible que el chat delta evolucione para admitir el secreto perfecto para avanzar,
+Porque OpenPGP es solo un contenedor para mensajes cifrados
+pero la gestión de teclas de cifrado (y, por lo tanto, la rotación de la tecla o la tecla "Ratcheting")
+podría organizarse de manera flexible.
+Ver [Prototipo PFS de Seqouia] (https://gitlab.com/SOCHOIA-PGP/OPENPGPDR)
+para experimentos existentes en la comunidad de implementadores OpenPGP.
 
 
 ### ¿Es el cifrado de extremo a extremo de Delta Chat tan seguro como el de Signal? 
 
-It depends on what is important to you. 
-Delta Chat [does not support PFS](#pfs) like Signal does
-but it provides [guaranteed end-to-end encrypted chats](#e2eeguarantee)
-that are safe against compromised servers or corrupted networks. 
-Signal and most other PFS-supporting messengers do not provide 
-a practical scheme for protecting chat groups from network attacks
-which are arguably more worrisome 
-than a potential attacker who seizes your phone and private encryption setup
-but somehow not your messages, yet has a full record of all 
-past encrypted messages. 
+Depende de lo que sea importante para ti.
+Delta Chat [no admite PFS] (#PFS) como lo hace la señal
+Pero proporciona [chats encriptados de extremo a extremo garantizados] (#E2EEGUARANTEE)
+que son seguros contra servidores comprometidos o redes corruptas.
+La señal y la mayoría de los otros mensajeros que soportan PFS no proporcionan
+un esquema práctico para proteger a los grupos de chat de los ataques de redes
+que posiblemente son más preocupantes
+que un posible atacante que toma la configuración de su teléfono y cifrado privado
+Pero de alguna manera no tus mensajes, pero tiene un registro completo de todos
+Mensajes cifrados pasados.
 
-In any case, Delta Chat's end-to-end encryption uses a [secure subset of OpenPGP](#openpgp-secure)
-which has been [independently security-audited](../assets/blog/2019-first-security-review.pdf).
+En cualquier caso, el cifrado de extremo a extremo de Delta Chat utiliza un [subconjunto seguro de OpenPGP] (#openpgp-secure)
+que ha sido [independientemente de seguridad-auditada] (../assets/blog/2019-first-security-review.pdf).
 
 ### ¿Puedo reutilizar mi clave privada existente? {#importkey}
 
 No. 
 
-Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1. 
-You can export your private key but you can not import additional private keys. 
+El chat delta genera teclas seguras de OpenPGP de acuerdo con la especificación de autocrypt 1.1.
+Puede exportar su clave privada, pero no puede importar claves privadas adicionales.
 
-In general, we do not recommend or offer users to perform manual key management. 
-We want to ensure that security audits can focus on a few proven cryptographic algorithms 
-instead of the full breadth of possible algorithms allowed with OpenPGP. 
+En general, no recomendamos ni ofrecemos a los usuarios realizar una administración de clave manual.
+Queremos asegurarnos de que las auditorías de seguridad puedan centrarse en algunos algoritmos criptográficos probados
+En lugar de la amplitud completa de posibles algoritmos permitidos con OpenPGP.
 
 ### ¿Se auditó Delta Chat de forma independiente en busca de vulnerabilidades de seguridad? {#security-audits}
+Sí, varias veces.
+El proyecto de chat delta sufre continuamente auditorías y análisis de seguridad independientes,
+De más reciente a más antiguo:
 
-Yes, multiple times. 
-The Delta Chat project continuously undergoes independent security audits and analysis,
-from most recent to older: 
+- 2024 diciembre, una evaluación de [NLNET comisionada de
+  rpgp] (https://github.com/rpgp/docs/blob/main/audits/ngi%20Core%20Rpgp%20PeNetration%20Test%20Report%202024%201.0.pdf) por [seguridad radicalmente abierta] (https://wwww.RadicallyopensCurity.com/).
+  RPGP sirve como el motor Encyption de extremo a extremo [OpenPGP] (https://openpgp.org) del chat delta.
+  Se publicaron dos avisos relacionados con los hallazgos de esta auditoría:
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+-["Panics en entrada no confiable mal confidencial"] (https://github.com/rpgp/rpgp/security/advisories/ghsa-9rmp-2568-59rv) cVe-2024-53856
+-["Agotamiento de recursos potenciales al manejar mensajes no confiables"] (https://github.com/rpgp/rpgp/security/advisories/ghsa-4grw-m28r-q285) CVE-2024-53857
 
-  - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
-  - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
+Los problemas descritos en estos avisos se han solucionado y son parte del chat delta
+Libera en todas las aplicaciones desde diciembre de 2024.
 
-  The issues outlined in these advisories have been fixed and are part of Delta Chat 
-  releases on all appstores since December 2024. 
+- 2024 Marzo, recibimos un análisis de seguridad profunda de la criptografía aplicada
+  Grupo de investigación en ETH Zuerich y abordó todos los problemas planteados.
+  Consulte nuestra publicación de blog sobre [Cifrado de extremo a extremo garantizado] (https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) para obtener información más detallada y el
+  [Análisis criptográfico del chat delta] (https://eprint.iacr.org/2024/918.pdf)
+  Documento de investigación publicado después.
 
-- 2024 March, we received a deep security analysis from the Applied Cryptography
-  research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
-  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
-  research paper published afterwards. 
+- 2023 de abril, solucionamos problemas de seguridad y privacidad con la "web
+  Aplicaciones compartidas en una función de chat ", relacionada con fallas de sandboxing
+  Especialmente con cromo. Posteriormente obtuvimos una seguridad independiente
+  La auditoría de Cure53 y todos los problemas encontrados se solucionaron en la serie de aplicaciones 1.36 lanzada en abril de 2023.
+  Consulte [aquí para obtener la historia de fondo completa sobre la seguridad de extremo a extremo en la web] (https://delta.chat/en/2023-05-22-webxdc-security).
 
-- 2023 April, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
-  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
+- 2023 marzo, [cure53] (https://cure53.de) analizó tanto el cifrado de transporte de
+  Conexiones de red de Delta Chat y una configuración de servidor de correo reproducible como
+  [Recomendado en este sitio] (ServerGuide).
+  Puede leer más sobre la auditoría [en nuestro blog] (https://delta.chat/en/2023-03-27-third-independent-security-audit)
+  O lea el [informe completo aquí] (../ assets/Blog/Mer-01-Report.pdf).
 
-- 2023 March, [Cure53](https://cure53.de) analyzed both the transport encryption of
-  Delta Chat's network connections and a reproducible mail server setup as
-  [recommended on this site](serverguide).
-  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-  or read the [full report here](../assets/blog/MER-01-report.pdf).
+- 2020, [incluir seguridad] (https://includesecurity.com) analizó Delta
+  Chat's Rust [Core] (https://github.com/deltachat/deltachat-core-rust/),
+  [IMAP] (https://github.com/async-email/async-imap),
+  [SMTP] (https://github.com/async-email/async-smtp), y
+  [TLS] (https://github.com/async-email/async-native-tls) bibliotecas.
+  No encontró problemas críticos o de alta severidad.
+  El informe planteó algunas debilidades de severidad media -
+  No son una amenaza para los usuarios de Delta Chat por su cuenta
+  Porque dependen del entorno en el que se usa el chat delta.
+  Por razones de usabilidad y compatibilidad,
+  No podemos mitigarlos a todos
+  y decidió proporcionar recomendaciones de seguridad a los usuarios amenazados.
+  Puede leer el informe completo aquí] (../ assets/Blog/2020-Second-Security-review.pdf).
 
-- 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
-  [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
-
-- 2019, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's [PGP](https://github.com/rpgp/rpgp) and
-  [RSA](https://github.com/RustCrypto/RSA) libraries.
-  It found no critical issues,
-  but two high-severity issues that we subsequently fixed.
-  It also revealed one medium-severity and some less severe issues,
-  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
-  Some of them we nevertheless fixed since the audit was concluded.
-  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+- 2019, [incluir seguridad] (https://includesecurity.com) analizó Delta
+  Chat's [PGP] (https://github.com/rpgp/rpgp) y
+  [RSA] (https://github.com/rustcrypto/rsa) bibliotecas.
+  No encontró problemas críticos,
+  Pero dos problemas de alta severidad que posteriormente solucionamos.
+  También reveló una severidad media y algunos problemas menos severos,
+  Pero no había forma de explotar estas vulnerabilidades en la implementación del Delta Chat.
+  Sin embargo, algunos de ellos solucionamos desde que se concluyó la auditoría.
+  Puede leer el informe [completo aquí] (../ assets/Blog/2019-First-Security-review.pdf).
 
 
 
@@ -821,16 +818,16 @@ from most recent to older:
 
 ### ¿Puedo usar Delta Chat en varios dispositivos al mismo tiempo?
 
-Yes. You can use the same profile on different devices:
+Sí. Puede usar el mismo perfil en diferentes dispositivos:
 
-- Asegurate que ambos dispositivos estén en la misma Wi-Fi o red
+- Asegure que Ambos Apositivos Estén en la Misma Wi-Fi o rojo
 
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+- En el primer dispositivo, vaya a ** Configuración → Agregar segundo dispositivo **, desbloquee la pantalla si es necesario
+  y espere un momento hasta que se muestre un código QR
 
-- En el otro dispositivo, [instala Delta Chat](https://get.delta.chat)
+- En el otro dispositivo, [chat de delta instala] (https://get.delta.chat)
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- En el segundo dispositivo, inicie el chat delta, seleccione ** Agregar como segundo dispositivo ** y escanea el código QR desde el dispositivo anterior
 
 - La transferencia debería comenzar después de unos segundos y durante la transferencia ambos dispositivos mostrarán el **progreso**.
 Espere hasta que termine en ambos dispositivos.
@@ -844,64 +841,64 @@ No es necesario un dispositivo para que el otro funcione.
 
 - Vuelve a verificar que ambos dispositivos estén en la **misma Wi-Fi o red**
 
-- On **Windows**, go to **Control Panel / Network and Internet**
-  and make sure, **Private Network** is selected as "Network profile type"
-  (after transfer, you can change back to the original value)
+- En ** Windows **, vaya a ** Panel de control / red e Internet **
+  y asegúrese de que ** red privada ** se seleccione como "tipo de perfil de red"
+  (Después de la transferencia, puede cambiar al valor original)
 
-- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+- En ** iOS **, asegúrese de "configuración del sistema / aplicaciones / chat delta / ** red local **" Se otorga el acceso
 
-- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+- en ** macOS **, habilite "Configuración del sistema / Privacidad y seguridad / ** Red local ** / Delta Chat"
 
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
+- Su sistema podría tener un "firewall personal",
+  que se sabe que causa problemas (especialmente en Windows).
+  ** Desactive el firewall personal ** para el chat delta en ambos extremos y vuelva a intentarlo
 
-- **Guest Networks** may not allow devices to communicate with each other.
-  If possible, use a non-guest network.
+- ** Las redes de invitados ** pueden no permitir que los dispositivos se comuniquen entre sí.
+  Si es posible, use una red que no sean huéspedes.
 
-- If you still have troubles using the same network,
-  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+- Si aún tiene problemas con la misma red,
+  Intente abrir ** punto de acceso móvil ** en un dispositivo y une a ese wi-fi del otro
 
-- Asegurate que haya **suficiente espacio** en el dispositivo destino
+- Aseeguro que Haya ** Suficiente Espacio ** en El Dispositivo Destino
 
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+- Si se inicia la transferencia, asegúrese de que los dispositivos ** permanezcan activos ** y no se duermen.
+  No salga del chat delta.
+  (Nos esforzamos por hacer que la aplicación funcione en segundo plano, pero [los sistemas tienden a matar aplicaciones] (https://dontkillmyapp.com), desafortunadamente)
 
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple profiles per device, just [add another profile](#multiple-accounts)
+- Delta Chat ya está registrado ** en el dispositivo de destino?
+  Puede usar múltiples perfiles por dispositivo, solo [agregar otro perfil] (#multiple-accounts)
 
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+- Si aún tiene problemas o si ** no puede escanear un código QR **
+  Pruebe la transferencia manual ** ** descrita a continuación
 
 
 ### Transferencia manual {#backup}
 
-This method is only recommended if "Add Second Device" as described above does not work.
+Este método solo se recomienda si "Agregar segundo dispositivo" como se describe anteriormente no funciona.
 
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, in the "I already have a profile" menu,
-  choose "restore from backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-  - **If you use iOS:** and you encounter difficulties, maybe
-    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
-    help you.
-- You are now synchronized, and can use both devices for sending and receiving
-  end-to-end encrypted messages with your communication partners.
+-En el dispositivo anterior, vaya a "Configuración -> Chats and Media -> Exportar copia de seguridad". Entra tu
+pantalla Desbloquear PIN, patrón o contraseña. Entonces puede hacer clic en "Iniciar
+Copia de seguridad ". Esto guarda el archivo de copia de seguridad en su dispositivo. Ahora tiene que transferir
+Es al otro dispositivo de alguna manera.
+- En el nuevo dispositivo, en el menú "Ya tengo un perfil",
+  Elija "Restaurar desde la copia de seguridad". Después de importar, sus conversaciones, cifrado
+  Las claves y los medios deben copiarse en el nuevo dispositivo.
+- ** Si usa iOS: ** y encuentras dificultades, tal vez
+  [Esta guía] (https://support.delta.chat/t/import-backup-to-ios/1628)
+  ayudarte.
+- Ahora está sincronizado y puede usar ambos dispositivos para enviar y recibir
+  Mensajes cifrados de extremo a extremo con sus socios de comunicación.
 
-### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
+### ¿La eliminación, el fijación, el archivo, el ahorro, el silenciamiento, etc. se sincronizan con todos los dispositivos?
 
-Yes.
+Sí.
 
-If you e.g. delete a chat or a message from your phone,
-it will be deleted on your desktop as soon as it comes online again.
+Si usted, p. eliminar un chat o un mensaje de su teléfono,
+Se eliminará en su escritorio tan pronto como se vaya en línea nuevamente.
 
-Notable exceptions are [Delete old messages from Device](#delold),
-as different devices may have different storage capacities,
-and system specific settings as notification sounds.
+Las excepciones notables son [eliminar mensajes antiguos del dispositivo] (#delold),
+Como diferentes dispositivos pueden tener diferentes capacidades de almacenamiento,
+y configuración específica del sistema como sonidos de notificación.
 
 
 ### ¿Tienen planeado crear un cliente web de Delta Chat?
@@ -918,9 +915,9 @@ o el AppImage para Linux. Puedes encontrarlos en
 
 ## aplicaciones webxdc  {#webxdc}
 
-In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger.
+En el chat delta, puede compartir [aplicaciones webXDC] (https://webxdc.org), archivos adjuntos con un archivo `xdc`
+extensión. Pueden hacer cosas muy diferentes y hacer del chat delta un verdadero
+Messenger extensible.
 
 
 ### ¿Qué tan privadas son las aplicaciones webxdc?
@@ -938,90 +935,87 @@ solo abre archivos adjuntos de remitentes en los que confía y no de spammers.
 
 ### ¿Dónde puedo obtener aplicaciones webxdc?
 
-- In general, anyone can share webxdc apps with each
-  other without restrictions.
-- From [webxdc.org/apps](https://webxdc.org/apps/).
-- You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
-  to see an experimental webxdc appstore.
-  All of the apps are open source and for free.
-- Many people write their own webxdc apps and post them to [the Delta Chat
-  forum](https://support.delta.chat/c/webxdc/20).
-
+- En general, cualquiera puede compartir aplicaciones webxdc con cada
+  otro sin restricciones.
+- De [webxdc.org/appsfont>(https://webxdc.org/apps/).
+  -Puede [enviar 'Hi' a xstore@testrun.org] (https://delta.chat/en/2023-08-11-xstore)
+  Para ver una tienda de aplicaciones webxdc experimental.
+  Todas las aplicaciones son de código abierto y de forma gratuita.
+- Muchas personas escriben sus propias aplicaciones WebXDC y las publican para [el chat delta
+  Foro] (https://support.delta.chat/c/webxdc/20).
 
 ### ¿Cómo puedo crear mis propias aplicaciones webxdc?
 
-- webxdc apps are just zip files containing html, css, and javascript code.
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
-- All else you need to know is written in the
-  [documentation](https://docs.webxdc.org/).
-- If you have question, you can ask others with experience in the [Delta Chat
-  Forum](https://support.delta.chat/c/webxdc/20).
-
+- Las aplicaciones webxdc son solo archivos zip que contienen código HTML, CSS y JavaScript.
+- Puede extender la aplicación [Hello World Ejemplo] (https://github.com/webxdc/hello)
+  para comenzar.
+- Todo lo demás que necesite saber está escrito en el
+  [Documentación] (https://docs.webxdc.org/).
+- Si tiene una pregunta, puede hacerle experiencia a otros en el [Delta Chat
+  Foro] (https://support.delta.chat/c/webxdc/20).
 
 ## Funcionalidades experimentales
 
-We are very grateful for feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute. 
-You may conveniently login via Delta Chat and a QR code scan,
-another rather stable experiment we run on the side (sic!).
+Estamos muy agradecidos por los comentarios sobre estas características: ¿quieres compartir?
+tus ideas? Únase al [Foro] (https://support.delta.chat) para contribuir.
+Puede iniciar sesión convenientemente a través del chat delta y un escaneo de código QR,
+Otro experimento bastante estable que ejecutamos de lado (¡sic!).
 
 ### ¿Cómo puedo usar llamadas de audio/video con Delta Chat?
 
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "Video Chat Instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to the video chat. 
-  This way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random Jitsi room every time you call someone.
+- Para activar las llamadas de audio/video, vaya a la sección "Características experimentales" en
+  la configuración avanzada y elija una "instancia de chat de video".
+- Cuando invitas a otros a un chat de video, se abre en tu navegador/aplicación en
+  una vez. Los otros reciben un correo electrónico con un enlace al chat de video.
+  De esta manera, también es compatible si sus socios de chat no usan Delta Chat.
+- Tenga en cuenta que no hay tono de llamada en el otro lado y sus socios de chat
+  No se interrumpirá por una invitación de chat de video.
+- Puede usar cualquier servicio de chat de video que permita unir por enlace. Solo agregue el
+  enlace en la configuración.
+- Por ejemplo, para usar la instancia de reunión de jitsi insignia, puede ingresar
+  `https: // meet.jit.si/$ Room`. La variable `$ Room` será un valor aleatorio;
+  De esta manera, tendrá una nueva sala de jitsi aleatoria cada vez que llame a alguien.
 
 
 ### ¿Qué son las listas de difusión y cómo puedo usarlas?
 
-- With a Broadcast List you can send a message to many recipients at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+- Con una lista de transmisión, puede enviar un mensaje a muchos destinatarios a la vez; cuando
+  Te responden, obtienes la respuesta en tu chat 1: 1 directo con ellos. El
+  Los destinatarios no pueden verse.
+- Técnicamente, es un correo electrónico con muchos destinatarios en BCC.
+- Puede activar la función en la sección "Características experimentales" en el
+  Configuración avanzada. Luego puede crear una lista de transmisión del "nuevo chat"
+  diálogo.
+- En caso de que esté utilizando más de un dispositivo, las listas de transmisión actualmente no son
+  sincronizado entre ellos.
+- Los mensajes enviados a las listas de transmisión no están encriptados. El cifrado se rompería
+  anonimato, porque entonces todos los destinatarios sabrían quién más lo recibieron
+  (Enviar correos individuales a todos sería peor para el límite de tarifas y la red
+  razón de consumo).
 
 
 ### ¿Cómo puedo compartir mi ubicación con mis compañeros de chat?
 
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat partners.
-  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
-
+- Puede activar la transmisión de ubicación en la sección "Características experimentales" de
+  la configuración avanzada.
+- Ahora, si desea compartir su ubicación en un chat, vaya a "Adjuntar" y seleccione
+  "ubicación". Ahora puede establecer un marco de tiempo en el que su ubicación será
+  Transmitió a sus compañeros de chat, entre 5 minutos y 6 horas.
+- Cuando cambia su ubicación, los otros en el chat pueden verlo en un mapa en
+  el chat.
+- Para ver el mapa y ver ubicaciones de otros, debe activar la función
+  En la configuración avanzada.
+- Esta función no compartirá su ubicación con nadie excepto sus socios de chat.
+  Las baldosas de mapas se descargan de [OpenStreetMap] (https://openstreetmap.org).
+- En el escritorio, el sistema operativo generalmente no puede determinar su ubicación. En su lugar que puedas
+  Haga clic derecho en el mapa y describa una ubicación, que se envía al chat como
+  Un mensaje, pero también aparece en el mapa.
 
 ### ¿Por qué puedo seleccionar "solo obtener de la carpeta DeltaChat"?
 
 Esta es una configuración experimental para algunas personas que están experimentando con reglas del lado del servidor. No todos los proveedores lo admiten, pero con algunos puede mover todos los correos con el encabezado "Chat-Version" a la carpeta DeltaChat. Normalmente, esto lo haría la aplicación Delta Chat.
 
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
+Habilitar "solo obtener la carpeta Deltachat" tiene sentido si tiene ** ambos **:
 
 - habilitó una regla del lado del servidor para mover todos los mensajes con el encabezado Chat-Version a la carpeta DeltaChat, y
 - ha configurado la opción "Mostrar correos clásicos" en "no, solo chats".
@@ -1031,22 +1025,22 @@ En este caso, Delta Chat no necesita monitorear la Bandeja de entrada, y es sufi
 
 ### ¿Cómo puedo cambiar mi cuenta a una dirección de correo electrónico diferente?
 
-1. Change your address in “Settings → Advanced → Password and Account” and
-   enter the password of your new e-mail account (and if necessary, server settings).
-   You will get an information notice about the fact that you are moving to a new address. 
-   An additional notice will also show up in your "Device messages" chat. 
+1. Cambie su dirección en “Configuración → Avanzado → Contraseña y cuenta” y
+   Ingrese la contraseña de su nueva cuenta de correo electrónico (y si es necesario, configuración del servidor).
+   Recibirá un aviso de información sobre el hecho de que se está moviendo a una nueva dirección.
+   Un aviso adicional también aparecerá en su chat de "mensajes de dispositivo".
 
-2. Si es posible, permite que tu antiguo proveedor de correo electrónico reenvíe todos los mensajes a tu nueva dirección.
+2. Si es posible, permita que tu antiguo se pruebe de corre electrónico reenvíe Todos los mensajes a tu Nueva Dirección.
 
-3. Dile a tus contactos que cambiaste tu dirección. Escribir en chats y grupos con cifrado de extremo a extremo garantizado, hará que ellos noten tu cambio automáticamente y seguirán chateando contigo usando tu nueva dirección.
+3. DILE A TUS CONTACTOS QUE CAMBISTE TU DIRECCIÓN. Escrontear en chats y Grupos con cifrado de extremo un extremo garantizado, hará que ellos nonen tu Cambio Auticamete y Seguirán Chateando Contigo Usando tu Nueva Dirección.
 
-Note that Delta Chat will not retrieve messages anymore from your old e-mail provider.
-If you didn't configure your e-mail provider to forward messages (step 2.) 
-only those contacts to whom you sent a message in a guaranteed end-to-end encrypted chat
-will send messages to your new address. 
+Tenga en cuenta que Delta Chat ya no recuperará los mensajes de su antiguo proveedor de correo electrónico.
+Si no configuró su proveedor de correo electrónico para reenviar mensajes (Paso 2)
+Solo aquellos contactos a quienes envió un mensaje en un chat encriptado de extremo a extremo garantizado
+Enviará mensajes a su nueva dirección.
 
-To learn more about this the details behind this, [read our blogpost on
-it](https://delta.chat/en/2022-09-14-aeap).
+Para obtener más información sobre esto, los detalles detrás de esto, [Lea nuestro blog Post on
+IT] (https://delta.chat/en/2022-09-14-aeap).
 
 
 ## Miscelaneo
@@ -1057,28 +1051,27 @@ Dependiendo del sistema operativo en uso,
 quizás se te solicite garantizar permisos a la app.
 Esto es lo que hace Delta Chat con esos permisos:
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for achieving "instant message delivery"
-
+- cámara *(se puede no permitir) *
+- Tome fotos y videos: para enviar fotos
+- Contactos *(se pueden no permitir) *
+- Lea sus contactos: para descubrir contactos para chatear con
+- ubicación *(se puede no permitir) *
+- Acceso a la ubicación aproximada (fuentes de ubicación de red): para la función de transmisión de ubicación
+- Acceso a la ubicación precisa (GPS y fuentes de ubicación de red): para la función de transmisión de ubicación
+- micrófono *(se puede no permitir) *
+- Grabar audio: para mensajes de audio
+- Almacenamiento *(se puede no permitir) *
+- Modificar o eliminar el contenido de su tarjeta SD: para descargar archivos adjuntos de mensajes
+- Lea el contenido de su tarjeta SD: para compartir archivos con sus contactos
+- Otras capacidades de aplicaciones
+- Cambie su configuración de audio: para que pueda elegir tonos de anillo y volumen para notificaciones y mensajes de audio
+- Ejecute al inicio: para que no tenga que comenzar el chat delta manualmente
+- Vibración de control: para notificaciones
+- Ver conexiones de red: para conectarse a su proveedor de correo electrónico
+- Evite que el teléfono duerma: para que pueda copiar el código de seguridad durante el mensaje de configuración de autocrypt
+- Tener acceso completo a la red: para conectarse a su proveedor de correo electrónico
+  -Ver conexiones Wi-Fi: para conectarse a su proveedor de correo electrónico
+- Solicite ignorar las optimizaciones de la batería: para lograr la "entrega de mensajes instantáneos"
 
 ### ¿Delta Chat funciona con _mi_ proveedor de correo electrónico?
 
@@ -1088,10 +1081,10 @@ Sin embargo, algunos proveedores necesitan opciones especiales para funcionar co
 
 ### Quiero manejar mi propio servidor de correo para Delta Chat. ¿Qué me recomiendan?
 
-- Most mail servers will work well. But what we personally recommend is a
-  combination of mailcow and mailadm, as described [in this
-  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- You can find an [installation guide on our website](serverguide).
+- La mayoría de los servidores de correo funcionarán bien. Pero lo que personalmente recomendamos es un
+  Combinación de MailCow y Mailadm, como se describe [en este
+  BlogPost] (https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
+- Puede encontrar una [Guía de instalación en nuestro sitio web] (serverguide).
 
 
 ### ¿Por qué debo ingresar mi contraseña de correo electrónico en Delta Chat? ¿Es esto seguro?
@@ -1109,19 +1102,19 @@ Estamos felices de recibir críticas que hagan la aplicación más segura para t
 
 Por defecto, Delta Chat muestra todos los e-mail
 
-At "Settings → Advanced → Show Classic E-Mails",
-you can change this. You have these options:
+En "Configuración → Avanzado → Mostrar correos electrónicos clásicos",
+Puedes cambiar esto. Tienes estas opciones:
 
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
+- "No, chats solamente": Solo mensajes enviados por otros usuarios de chat delta y responden a
+  Se muestran sus mensajes de chat delta. Esto tiene más sentido si usas lo mismo
+  Correo electrónico también para los correos electrónicos normales.
+- "Todos": Delta Chat muestra todos los correos electrónicos que se envían a su dirección de correo electrónico. Este
+  tiene sentido si desea usar el chat delta para todos sus correos electrónicos, por lo que no hay mensaje
+  se pierde. Esta es la configuración predeterminada.
+- "Para contactos aceptados": el chat delta muestra todos los correos electrónicos de los contactos con quienes
+  Ya tienes un chat, pero los nuevos chats solo aparecen para los mensajes de chat delta.
+  Esto ayuda a decidir caso por caso si desea tener un
+  conversación en el chat delta o en una aplicación de correo electrónico "normal".
 
 
 ### ¿Delta Chat soporta mensajes con formato HTML?
@@ -1129,22 +1122,22 @@ you can change this. You have these options:
 Sí, los mensajes HTML entrantes vienen con un botón "Mostrar mensaje completo". Los mensajes salientes siempre usan texto plano.
 
 
-### Can I set the E-Mail Subject with Delta Chat?
+### ¿Puedo configurar el tema de correo electrónico con el chat delta?
 
-Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
-automatically to  the group name or to the sender name.
+Conjuntos de chat delta (y [cifrados] (#message-metadata)!) El clásico correo electrónico
+automáticamente al nombre del grupo o al nombre del remitente.
 
-So if you want to set the subject yourself,
-for example for a formal e-mail to a business contact,
-you can create a group
-with only yourself and the recipient(s).
-Set the Chat Title to the Subject you want,
-and then send your e-mail as the first message.
-If the recipients don't use Delta Chat,
-it will look like a normal,
-formal e-mail to them.
-You will get bonus professionalism points
-if you set a [signature text](#signature).
+Entonces, si quieres establecer el tema tú mismo,
+Por ejemplo, para un correo electrónico formal a un contacto comercial,
+puedes crear un grupo
+Con solo usted y el receptor (s).
+Establezca el título de chat en el tema que desee,
+y luego envíe su correo electrónico como el primer mensaje.
+Si los destinatarios no usan el chat delta,
+se verá como una normalidad
+Correo electrónico formal para ellos.
+Obtendrás puntos de profesionalismo de bonificación
+Si establece un [Texto de la firma] (#signature).
 
 
 ### ¿Para qué sirve la configuración "Enviar autocopia"?
@@ -1184,30 +1177,30 @@ De lo contrario, eliminar mensajes o configuraciones de dispositivos múltiples 
 
 ### ¿Cómo puedo eliminar mi cuenta? {#remove-account}
 
-If you use a default chat profile
-you can simply uninstall the app.
-This will automatically trigger deletion of all associated account data on the chatmail server.
-For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
-or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
+Si usa un perfil de chat predeterminado
+Simplemente puede desinstalar la aplicación.
+Esto activará automáticamente la eliminación de todos los datos de la cuenta asociados en el servidor ChatMail.
+Para obtener más información, consulte [nine.testrun.org cuenta-deletion] (https://nine.testrun.org/info.html#account-deletion) para el servidor de entrada predeterminado,
+o la página respectiva de su elegido servidor de chatmail de terceros] (https://delta.chat/chatmail).
 
-If you have set up your chat profile on multiple devices
-you need to remove it from all devices.
+Si ha configurado su perfil de chat en múltiples dispositivos
+Debe eliminarlo de todos los dispositivos.
 
-If you are using more than one account,
-but don't want to get rid of all of them,
-you can remove it in the account switcher menu (on android and iOS),
-or in the sidebar with a right click (in the desktop client).
+Si está utilizando más de una cuenta,
+Pero no quiero deshacerse de todos ellos,
+Puede eliminarlo en el menú Switcher de cuenta (en Android e iOS),
+o en la barra lateral con un clic derecho (en el cliente de escritorio).
 
 Accounts on [classic e-mail providers](https://providers.delta.chat)
-will not be deleted automatically;
-how you can delete your account depends on your e-mail provider.
-We don't have any control over e-mail accounts at those providers,
-so unfortunately we can't help you with that.
+no se eliminará automáticamente;
+La forma en que puede eliminar su cuenta depende de su proveedor de correo electrónico.
+No tenemos ningún control sobre las cuentas de correo electrónico en esos proveedores,
+Así que desafortunadamente no podemos ayudarte con eso.
 
-If you want to continue using a classic e-mail account with other apps,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
-Otherwise you might receive undecryptable messages from those group chats.
+Si desea continuar usando una cuenta de correo electrónico clásica con otras aplicaciones,
+Pero desinstale el chat delta,
+Se recomienda dejar cualquier chat grupal antes de desinstalar Delta Chat.
+De lo contrario, puede recibir mensajes indescriptibles de esos chats grupales.
 
 
 ### Estoy interesado en los detalles técnicos. ¿Pueden decirme más?
@@ -1216,82 +1209,81 @@ Otherwise you might receive undecryptable messages from those group chats.
 
 
 
-### Where can my friends find Delta Chat?
+### ¿Dónde pueden mis amigos encontrar el chat de Delta?
 
-Delta Chat is available for all major and some minor platforms:
+Delta Chat está disponible para todas las plataformas principales y algunas de las menores:
 
-- The **official website**, <https://delta.chat/download> shows all options in detail
+- El sitio web oficial ** **, <https://delta.chat/download> muestra todas las opciones en detalle
 
-- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+- Si no está disponible, use el espejo ** ** en <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+- Abra una de las siguientes tiendas ** de aplicaciones y busque "Delta Chat": **
+  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS y MacOS App Store, Microsoft Store
 
-- Check the **package manager** of your Linux distributions
+- Verifique el ** Administrador de paquetes ** de sus distribuciones de Linux
 
-- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
-
+- ** Android Apks ** también están disponibles en <https://github.com/deltachat/deltachat-antroid/releases>
 
 ### ¿Cómo se financia el desarrollo de Delta Chat?
 
-Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
-We rather use public funding sources, so far from EU and US origins, to help
-our efforts in instigating a decentralized and diverse chat messaging eco-system
-based on Free and Open-Source community developments.
+Delta Chat no recibe ningún capital de riesgo y
+no está en deuda, y no tiene presión para producir grandes ganancias, o para
+Vender usuarios y sus amigos y familiares a los anunciantes (o peor).
+Preferimos usar fuentes de financiación pública, muy lejos de la UE y los orígenes de EE. UU., Para ayudar
+Nuestros esfuerzos para instigar un ecosistema de mensajería de chat descentralizado y diverso
+Basado en desarrollos comunitarios gratuitos y de código abierto.
 
-Concretely, Delta Chat developments have so far been funded from these sources,
-ordered chronologically: 
+Concretamente, los desarrollos de chat de Delta han sido financiados hasta ahora de estas fuentes,
+ordenado cronológicamente:
 
 - El proyecto de la UE [NEXTLEAP](https://nextleap.eu) financió la investigación
 e implementación de grupos verificados y protocolos de contacto
 en 2017 y 2018 y también ayudó a integrar el cifrado de extremo a extremo
 a través de [Autocrypt](https://autocrypt.org).
 
-- The [Open Technology Fund](https://opentechfund.org) gave us a 
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app 
-  and released a first Desktop app beta version, and which moreover 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  
+- El [Fondo de Tecnología Open] (https://opentechfund.org) nos dio un
+  Primera subvención 2018/2019 (~ $ 200k) durante la cual mejoramos principalmente la aplicación Android
+  y lanzó una primera versión beta de la aplicación de escritorio, y que además
+  amarró nuestros desarrollos de características en la investigación de UX en contextos de derechos humanos,
+  Consulte nuestro informe final [NeedFinding y UX] (https://delta.chat/en/2019-07-19-uxreport).
+  La segunda subvención 2019/2020 (~ $ 300k) nos ayudó a
+  Libere las versiones delta/iOS, para convertir nuestra biblioteca principal en óxido, y
+  Para proporcionar nuevas características para todas las plataformas.
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system. 
+- La [Fundación NLNET] (https://nlnet.nl/) otorgada en 2019/2020 EUR 46K para
+  Completando enlaces de óxido/pitón e instigando un ecosistema de chat-bot.
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
+-En 2021 recibimos más fondos de la UE para dos próximas generaciones.
+Propuestas, a saber, [EPPD-Directorio de portabilidad del proveedor de correo electrónico] (https://dapsi.ngi.eu/hall-of-fame/eppd/) (~ 97k eur) y [aeap-la portada de la dirección de correo electrónico] (https://nlnet.nl/project/Emailporting/) (~ 90k EURO resulta en mejores QR-Code Contact y configuraciones de grupos y muchas mejoras de red en todas las plataformas.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- Desde finales de 2021 hasta marzo de 2023 recibimos * Freedom Internet * Financiación (500k USD) del
+  Oficina de Democracia, Derechos Humanos y Trabajo de los Estados Unidos (DRL).
+  Este financiamiento apoyó nuestros objetivos de larga duración para hacer que Delta Chat sea más utilizable
+  y compatible con una amplia gama de servidores de correo electrónico en todo el mundo, y más resistente y seguro
+  en lugares a menudo afectados por la censura y el cierre de Internet.
 
-- 2023-2024 we successfully completed the OTF-funded 
-  [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
-  allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://delta.chat/chatmail) 
-  and providing "instant onboarding" in all apps released from April 2024 on. 
+-2023-2024 completamos con éxito el OTF financiado
+[Proyecto de chatmail seguro] (https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/),,
+permitiéndonos introducir un cifrado garantizado,
+Creación de una [red de servidor de chatmail] (https://delta.chat/chatmail)
+y proporcionar "incorporación instantánea" en todas las aplicaciones lanzadas a partir de abril de 2024.
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on 
-  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
-  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
-  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
-  All of these projects are partially completed or to be completed in early 2025. 
+- En 2023 y 2024 fuimos aceptados en la próxima generación de Internet (NGI)
+  Programa para nuestro trabajo en [WebXDC Push] (https://nlnet.nl/project/webxdc-push/),
+  junto con socios de colaboración trabajando en
+  [WebXDC Evolve] (https://nlnet.nl/project/webxdc-evolve/),
+  [webxdc xmpp] (https://nlnet.nl/project/webxdc-xmpp/),
+  [Deltatouch] (https://nlnet.nl/project/deltatouch/) y
+  [Deltatauri] (https://nlnet.nl/project/deltatauri/).
+  Todos estos proyectos se completan parcialmente o se completan a principios de 2025.
 
-- Sometimes we receive one-time donations from private individuals. 
-  For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". 💜 
-  We use such money to fund development gatherings or to care for ad-hoc expenses 
-  that can not easily be predicted for, or reimbursed from, public funding grants. 
-  Receiving more donations also helps us to become more independent and long-term viable
-  as a contributor community. 
+- A veces recibimos donaciones únicas de particulares.
+  Por ejemplo, en 2021 un generoso individuo de US 4K EUR, cableado de un banco, EUR
+  con el tema "¡Sigan con los buenos desarrollos!". 💜
+  Utilizamos dicho dinero para financiar reuniones de desarrollo o para atender los gastos ad-hoc.
+  Eso no se puede predecir fácilmente o reembolsarse de las subvenciones de financiación pública.
+  Recibir más donaciones también nos ayuda a ser más independientes y viables a largo plazo
+  como comunidad colaboradora.
 
   [Donar dinero](donate){: .cta-button}
 
