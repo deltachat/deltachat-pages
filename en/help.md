@@ -1024,7 +1024,7 @@ another rather stable experiment we run on the side (sic!).
 With a Broadcast List you can send a message to many recipients at once;
 the recipients cannot reply in that list.
 Broadcast lists are still highly experimental
-and will very probable be replaced by something else, stay tuned :)
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### How can I share my location with my chat partners?
