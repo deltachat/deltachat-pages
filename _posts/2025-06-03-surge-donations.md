@@ -1,10 +1,10 @@
 ---
-title: "A big user surge and going for global scalability" 
+title: "A user surge and funding for decentralized scale" 
 author: olgax
 image: ../assets/blog/reclaim.jpg
 ---
 
-Last days saw a dramatic uptake of Delta Chat usage especially in the US and Cuba. 
+Last days saw a big uptake of Delta Chat usage especially in the US and Cuba. 
 We can only guess about the dynamics behind this surge. 
 Delta Chat is increasingly advertised by 3rd parties as a resilient and reliable decentralized messenger, 
 and as offering a pleasing and capable user interface that many families, groups and communities appreciate. 
@@ -36,7 +36,7 @@ There was a big ~80K download increase the last day.
 
 While there are about 30 community-operated [chatmail relays](https://chatmail.at/relays) on all continents 
 most new users choose the default onboarding server,
-reproducing the known problem of "formally decentralized but centralized in practise" offerings. 
+reproducing **the known problem of formally decentralized but centralized in practise** offerings. 
 We are engaging in two key R&D areas to fundamentally neutralize this centralization tendency 
 and achieve unprecedented resiliency, distributed scale and privacy:
 
@@ -48,11 +48,10 @@ These infrastructure developments take place within the [chatmail development co
 which provides the infrastructural basis for [all chatmail client apps and bots](https://chatmail.at/clients).
 
 However, public funding suddenly dried up earlier in 2025,
-disrupting our ability to sustain our efforts and stay focused on challenging goals. 
-
+disrupting our ability to sustain our efforts. 
 We have no debt to any Venture Capital investors. 
-We'd like to keep it this way. 
-Public infrastructure for secure decentralized private messaging. 
+We'd like to keep it this way and provide templates, core libraries and beautiful apps 
+for secure decentralized private messaging. 
 
 <p><a href="https://opencollective.com/chatmail" class="cta-button">Donate to the new chatmail infrastructure OpenCollective (Europe)</a></p>
 
