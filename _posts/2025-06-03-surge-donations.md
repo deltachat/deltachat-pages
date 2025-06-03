@@ -52,6 +52,7 @@ disrupting our ability to sustain our efforts and stay focused on challenging go
 
 We have no debt to any Venture Capital investors. 
 We'd like to keep it this way. 
+Public infrastructure for secure decentralized private messaging. 
 
 <p><a href="https://opencollective.com/chatmail" class="cta-button">Donate to the new chatmail infrastructure OpenCollective (Europe)</a></p>
 
