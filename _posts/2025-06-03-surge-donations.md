@@ -38,15 +38,14 @@ While there are about 30 community-operated [chatmail relays](https://chatmail.a
 most new users choose the default onboarding server,
 reproducing the known problem of "formally decentralized but centralized in practise" offerings. 
 We are engaging in two key R&D areas to fundamentally neutralize this centralization tendency 
-and achieve unprecedented resiliency, reliability and privacy:
+and achieve unprecedented resiliency, distributed scale and privacy:
 
 - **Zero-metadata**: Hardening Delta Chat's end-to-end encryption properties, providing sealed-sender 
 
 - **Multi-transport**: Allowing a chat profile to use multiple chatmail relays *interchangeably and automatically*
 
 These infrastructure developments take place within the [chatmail development community](https://chatmail.at)
-which provides the infrastructural basis for [all chatmail client apps and bots](https://chatmail.at/clients)
-from many 3rd parties. 
+which provides the infrastructural basis for [all chatmail client apps and bots](https://chatmail.at/clients).
 
 However, public funding suddenly dried up earlier in 2025,
 disrupting our ability to sustain our efforts and stay focused on challenging goals. 
