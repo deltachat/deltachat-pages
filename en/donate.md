@@ -5,9 +5,8 @@ lang: en
 
 # Donate Money
 
-Delta Chat is developed by a dedicated FOSS (Free and open-source software) contributor community. 
-Your donation helps to shape the future of digital private communication - 
-without surveillance, advertising, or billionaries. 
+Your donation helps to shape the free and open source future of decentralized private communication 
+without surveillance, advertising or billionaries in the middle. 
 
 - Donate via [Liberapay](https://liberapay.com/delta.chat/)
 
