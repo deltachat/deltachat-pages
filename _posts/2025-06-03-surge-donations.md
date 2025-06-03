@@ -1,13 +1,14 @@
 ---
-title: "Big usage surge happening and funding for continued independence" 
+title: "Big user surge, new chatmail OpenCollective" 
 author: olgax
 image: ../assets/logos/kap-logo.jpg
 ---
 
-Last days saw drastic uptake of Delta Chat app usage especially in the US and Cuba. 
+Last days saw dramatic uptake of Delta Chat app usage especially in the US and Cuba. 
 We can only guess about the dynamics behind this surge. 
 Delta Chat is increasingly advertised by 3rd parties as a resilient and reliable decentralized messenger, 
 and as offering a pleasing and capable user interface that many families and small groups appreciate. 
+We have no marketing department to speak off. 
 
 ## ~5000 new users per hour with default chatmail relay 
 
@@ -15,23 +16,24 @@ and as offering a pleasing and capable user interface that many families and sma
 
 After a few adjustments the small physical server is still humming along at 20% CPU and IO pressure. 
 
-## 1.8 Million delivered Google/Apple push notifications 
+## 1.8 Million Google/Apple push notifications per day 
 
 <img alt="Graph about push notifications of the last day" src="../assets/blog/2025-06-direct-notifications-per-day.png" style="max-width: 100%" />
 
-Our small ephemeral privacy-preserving Push notification proxy is at 3% CPU usage. 
+This number reflects the number of incoming messages for users who installed from Google Play or Apple store. 
+F-droid, Desktop or classic e-mail users are all not reflected in this number. 
 
 ## Google Play Android downloads crossed 500K downloads 
 
 <img alt="Google Play store showing 500K+ downloads" src="../assets/blog/2025-06-google-play.png" style="max-width: 100%" />
 
+There was a big ~80K download increase the last day. 
 
 ## Scaling the interoperable chatmail relay network 
 
-There are about 30 [chatmail relays](https://chatmail.at/relays) on all continents 
-each operated by different individuals, groups or companies. 
-Most new users use the default onboarding server,
-reproducing the known problem of "formally decentralized but centralized in practise" (Mastodon, Matrix, SimpleX ...). 
+While there are about 30 [chatmail relays](https://chatmail.at/relays) on all continents 
+most new users use the default onboarding server,
+reproducing the known problem of "formally decentralized but centralized in practise" offerings. 
 
 We are engaging in two development areas to fundamentally neutralize this centralization tendency 
 and improve resiliency and reliability of service in an increasingly fragmented Internet: 
@@ -41,20 +43,18 @@ and improve resiliency and reliability of service in an increasingly fragmented 
 
 - "Multi-transport": Allowing a chat profile to use multiple chatmail relays *interchangeably and automatically*
 
-Both these somewhat complex development areas will see more detailed discussion and work towards releases 
-at the upcoming [DIFF gathering in the black forest starting June 7th](https://delta.chat/en/2025-05-12-diff-invitation). 
+These developments take place within the [chatmail core infrastructure project](https://chatmail.at)
+which provides the basis for many [chatmail client apps and bots](https://chatmail.at/clients)
+also from many 3rd parties. 
 
+## From public funding to donation based funding 
 
-## We'd like to become fully funded by donations to remain independent 
+Public funding dried up in 2025. 
 
-All parts of our projects, the UIs and apps, the chatmail core Rust library or the chatmail relay templates
-are freely used by others. 
-There are no hidden proprietary parts. 
-We also have no debt to any Venture Capital investors and we'd like to keep it this way. 
+We have no debt to any Venture Capital investors. 
 
-Please consider donating if you want our efforts to continue. 
+We'd like to keep it this way. 
 
-<p><a href="https://opencollective.com/chatmail" class="cta-button">Donate to chatmail OpenCollective (Europe)</a></p>
+<p><a href="https://opencollective.com/chatmail" class="cta-button">Donate to the new chatmail OpenCollective (Europe)</a></p>
 
-<p><a href="https://delta.chat/en/donate" class="cta-button">Donate to Delta Chat app and webxdc developments</a></p>
-
+<p><a href="../../en/donate" class="cta-button">Donate to Delta Chat app developments</a></p>
