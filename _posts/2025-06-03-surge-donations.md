@@ -5,12 +5,11 @@ image: ../assets/blog/reclaim.jpg
 ---
 
 Beginning June we witnessed a sudden surge of Delta Chat usage especially in the US and Cuba. 
-While we don't know the details of the social dynamics behind it
-we guess it helps that 
-Delta Chat apps work across all platforms and offer a pleasing user interface 
+We don't know the social dynamics behind it but it probably helps that 
+Delta Chat apps resiliently work on all platforms and offer a pleasing user interface 
 which increasingly many families, groups and communities appreciate. 
-Let's look at some indicators of the recent surge, 
-then highlight some centralization risks and our mitigation plans. 
+Be that as it may, let's look at some indicators of the recent surge, 
+then highlight centralization risks and our mitigation efforts. 
 
 ## 5000 new users per hour on the default chatmail relay 
 
