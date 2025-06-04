@@ -2,6 +2,7 @@
 title: "A big user surge and funding for decentralized scale" 
 author: olgax
 image: ../assets/blog/reclaim.jpg
+com_id: 114624988283739502
 ---
 
 Beginning June we witnessed a sudden surge of Delta Chat usage especially in the US and Cuba. 
