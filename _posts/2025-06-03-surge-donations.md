@@ -25,7 +25,7 @@ at 20% CPU and 20% IO pressure without consuming noticeable disk storage.
 <img alt="Graph about push notifications of the last day" src="../assets/blog/2025-06-direct-notifications-per-day.png" style="max-width: 100%" />
 
 This number reflects the number of incoming messages for users 
-who installed their app from Google Play or Apple store and use any chatmail address. 
+who installed their app from Google Play or Apple store and use any chatmail relay. 
 F-droid, Desktop or classic e-mail users are all not reflected in this number.
 Number of daily Push notifications was around 350K end of February 2025. 
 
@@ -66,8 +66,10 @@ A Minecraft-like world for messaging.
 
 <p><a href="../../en/donate" class="cta-button">Donate to Delta Chat app developments (Libera, BTC, IBAN, OC)</a></p>
 
+## Nothing like in-person cross-project gatherings: DIFF!
+
 Last but not least, if you are interested in more technical details 
 and want to engage with our various contributor teams and communities,
 the place to be is [DIFF in the Black Forest starting this weekend](https://delta.chat/en/2025-05-12-diff-invitation) 
-or, else, for now, sorting your way through our development repositories. 
- 
+or, else, for now, sorting your way through our development repositories
+and the twisted maze of community and contributor chat groups :) 
