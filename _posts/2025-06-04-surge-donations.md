@@ -23,10 +23,10 @@ at 20% CPU and 20% IO pressure without consuming noticeable disk storage.
 
 <img alt="Graph about push notifications of the last day" src="../assets/blog/2025-06-direct-notifications-per-day.png" style="max-width: 100%" />
 
-This number reflects the number of incoming messages for users 
-who installed their app from Google Play or Apple store and use any chatmail relay. 
-F-droid, Desktop or classic e-mail users are all not reflected in this number.
-Number of daily Push notifications was around 350K end of February 2025. 
+This daily number reflects the incoming messages for chatmail users 
+who installed their app from Google Play or Apple store. 
+F-droid, Desktop or classic e-mail users are not reflected in this number.
+Number of daily push notifications was around 350K end of February 2025. 
 
 ## Google Play Android downloads crossed 500K downloads 
 
