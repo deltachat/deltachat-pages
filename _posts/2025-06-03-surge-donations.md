@@ -41,7 +41,7 @@ and only have a somewhat informed guess that at most half of Android users use n
 
 There are many community-operated [chatmail relays](https://chatmail.at/relays) on all continents 
 but most new users choose the default onboarding relay in Germany,
-reproducing **the known problem of formally decentralized but centralized in practise** offerings. 
+reproducing **the known problem of formally decentralized but centralized in practice** offerings. 
 We are engaging in two key Research and Development areas 
 to fundamentally mitigate this centralization tendency 
 and achieve distributed scale, along with improved resiliency and privacy:
