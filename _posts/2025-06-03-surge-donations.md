@@ -52,8 +52,8 @@ and achieve distributed scale, along with improved resiliency and privacy:
   and further minimizing visibility of meta-data in messages. 
 
 - **Multi-transport**: Allowing a chat profile to use multiple chatmail relays 
-  interchangeably allowing users and operators to not make "life-long choices" but
-  "as long as it works" choices about chatmail relays, or about operating them. 
+  interchangeably, releasing users and operators from making "life-long choices" 
+  in favor of "as long as it works" choices. 
 
 However, public funding for these key infrastructure efforts suddenly dried up earlier in 2025,
 disrupting our ability to follow through with our always usability-driven work. 
