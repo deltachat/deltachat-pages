@@ -49,7 +49,7 @@ and achieve distributed scale, along with improved resiliency and privacy:
 
 - **Cryptographic hardening**: Using e-mail addresses as transport but not as a
   source of identity; hiding cryptographic identities from transports; 
-  implementing "Sealed Sender" and maybe "Sealed recipients" while we are at it. 
+  and further minimizing visibility of meta-data in messages. 
 
 - **Multi-transport**: Allowing a chat profile to use multiple chatmail relays 
   interchangeably allowing users and operators to not make "life-long choices" but
