@@ -55,7 +55,7 @@ and achieve distributed scale, along with improved resiliency and privacy:
   interchangeably allowing users and operators to not make "life-long choices" but
   "as long as it works" choices about chatmail relays, or about operating them. 
 
-However, public funding for these key R&D efforts suddenly dried up earlier in 2025,
+However, public funding for these key infrastructure efforts suddenly dried up earlier in 2025,
 disrupting our ability to follow through with our always usability-driven work. 
 We are now seeking to at finance key parts of our developments through donations. 
 
