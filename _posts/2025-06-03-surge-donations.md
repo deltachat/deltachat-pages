@@ -1,5 +1,5 @@
 ---
-title: "A user surge and funding for decentralized scale" 
+title: "A big user surge and funding for decentralized scale" 
 author: olgax
 image: ../assets/blog/reclaim.jpg
 ---
@@ -57,7 +57,10 @@ and achieve distributed scale, along with improved resiliency and privacy:
 
 However, public funding for these key infrastructure efforts suddenly dried up earlier in 2025,
 disrupting our ability to follow through with our always usability-driven work. 
-We are now seeking to at finance key parts of our developments through donations. 
+We are now seeking to finance key development work through donations,
+aiming to provide decentralized secure messaging infrastructure at global scale,
+all open to third parties joining the fun in a permission-free manner. 
+A Minecraft-like world for messaging. 
 
 <p><a href="https://opencollective.com/chatmail" class="cta-button">Donate to the new chatmail infrastructure OpenCollective (Europe)</a></p>
 
