@@ -922,9 +922,10 @@ extendable messenger.
   isolated from the Internet.
 - The privacy a webxdc app offers is the privacy of your chat - as long as you
   trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open webxdc apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### Where can I get webxdc apps?
@@ -968,12 +969,10 @@ another rather stable experiment we run on the side (sic!).
 
 ### Que sont les listes de diffusion et comment les utiliser ?
 
-- Une liste de diffusion vous permet d'envoyer un message à plusieurs destinataires en même temps sans qu'ils puissent se voir mutuellement. Vous recevez leurs réponses respectives dans les discussions privées que vous avez avec chacun d'eux.
-- Concrètement, c'est un courriel avec plusieurs destinataires en copie cachée.
-- Vous pouvez activer cette option dans la section "Fonctionnalités expérimentales" des paramètres avancés. Vous pourrez ensuite créer une liste de diffusion à partir du bouton "Nouvelle discussion".
-- Si vous utilisez plusieurs appareils, veuillez noter qu'il n'est pas possible, pour l'instant, de synchroniser les listes de diffusion.
-- Les messages envoyés à des listes de diffusion ne sont pas chiffrés, parce que le chiffrement romprait l'anonymat puisque tous les destinataires pourraient alors voir qui d'autre a reçu le message.
-  (Mais envoyer des courriels individuels à tout le monde serait encore pire à cause de la consommation du réseau requise et des limites d'envoi).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### Comment partager ma géolocalisation avec mes contacts ?

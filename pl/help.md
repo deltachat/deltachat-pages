@@ -563,10 +563,16 @@ W Delta Chat możesz udostępniać [aplikacje webxdc](https://webxdc.org) i zał
 
 ### Jak prywatne są aplikacje webxdc?
 
-- Aplikacje webxdc nie mogą wysyłać danych do Internetu ani niczego pobierać.
-- Aplikacja webxdc może wymieniać dane wyłącznie w ramach czatu Delta Chat, a ich kopie znajdują się na urządzeniach twoich partnerów czatu. Poza tym jest całkowicie odizolowana od Internetu.
-- Prywatność, jaką oferuje aplikacja webxdc, to prywatność twojego czatu – jeśli ufasz osobom, z którymi rozmawiasz, możesz ufać także aplikacji webxdc.
-- Oznacza to również: otwieranie aplikacji webxdc na czatach, w przypadku których nie ufa się członkom, może stanowić ryzyko dla prywatności – tak jak załączniki do wiadomości e-mail, gdzie otwiera się tylko załączniki od nadawców, którym ufasz, a nie od spamerów.
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### Gdzie mogę zdobyć aplikacje webxdc?
@@ -600,11 +606,10 @@ Jesteśmy bardzo wdzięczni za opinie na temat tych funkcji — chcesz podzieli�
 
 ### Co to są Listy rozgłoszeniowe i jak mogę ich używać?
 
-- Dzięki liście rozgłoszeniowej możesz wysłać wiadomość do wielu odbiorców jednocześnie; kiedy ci odpowiedzą, otrzymasz odpowiedź w bezpośrednim czacie 1: 1 z nimi. Odbiorcy nie widzą siebie nawzajem.
-- Technicznie, jest to e-mail z wieloma odbiorcami w „ukrytej kopii”.
-- Możesz włączyć tę funkcję w sekcji „Funkcje eksperymentalne” w ustawieniach zaawansowanych. Następnie możesz utworzyć listę rozgłoszeniową z okna dialogowego „Nowy czat”.
-- Jeśli używasz więcej niż jednego urządzenia, listy rozgłoszeniowe nie są obecnie synchronizowane między nimi.
-- Wiadomości wysyłane do list rozgłoszeniowych nie są szyfrowane. Szyfrowanie złamałoby anonimowość, ponieważ wtedy wszyscy odbiorcy wiedzieliby, kto jeszcze je otrzymał (wysyłanie indywidualnych wiadomości do wszystkich byłoby gorsze z powodu limitu prędkości i zużycia sieci).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### Jak mogę udostępnić swoją lokalizację moim rozmówcom?

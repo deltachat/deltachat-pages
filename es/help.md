@@ -925,15 +925,16 @@ extendable messenger.
 
 ### ¿Qué tan privadas son las aplicaciones webxdc?
 
-- Las aplicaciones webxdc no pueden enviar datos a Internet ni descargar nada.
-- Una aplicación webxdc solo puede intercambiar datos dentro de un chat de Delta Chat, con su
-copias en los dispositivos de tus compañeros de chat. Aparte de eso, es completamente
-aislado de Internet.
-- La privacidad que ofrece una aplicación webxdc es la privacidad de tu chat, siempre y cuando
-confíe en las personas con las que chateas, también puedes confiar en la aplicación webxdc.
-- Esto también significa: puede suponer un riesgo para la privacidad abrir aplicaciones webxdc en chats donde
-no confías en los miembros, como lo sabes por los archivos adjuntos de correos electrónicos, donde
-solo abre archivos adjuntos de remitentes en los que confía y no de spammers.
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### ¿Dónde puedo obtener aplicaciones webxdc?
@@ -984,19 +985,10 @@ another rather stable experiment we run on the side (sic!).
 
 ### ¿Qué son las listas de difusión y cómo puedo usarlas?
 
-- With a Broadcast List you can send a message to many recipients at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### ¿Cómo puedo compartir mi ubicación con mis compañeros de chat?

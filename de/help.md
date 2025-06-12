@@ -837,10 +837,16 @@ In Delta Chat können Sie [Webxdc-Apps](https://webxdc.org), Anhänge mit der Da
 
 ### Wie privat sind Webxdc Apps?
 
-- Webxdc Apps können keine Daten ins Internet senden oder etwas herunterladen.
-- Eine Webxdc App kann Daten nur innerhalb eines Delta-Chat-Chats mit ihren Kopien auf den Geräten Ihrer Chat-Partner austauschen. Ansonsten ist sie komplett vom Internet isoliert.
-- Die Privatsphäre, die eine Webxdc App bietet, ist die Privatsphäre Ihres Chats - solange Sie den Personen vertrauen, mit denen Sie chatten, können Sie auch der Webxdc App vertrauen.
-- Das bedeutet auch: Es kann ein Datenschutzrisiko darstellen, Webxdc Apps in Chats zu öffnen, in denen man den Mitgliedern nicht vertraut - so wie man es von E-Mail-Anhängen kennt, wo man nur Anhänge von Absendern öffnet, denen man vertraut, und nicht von Spammern.
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### Wo bekomme ich Webxdc Apps?
@@ -877,11 +883,10 @@ Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ide
 
 ### Was sind Broadcast-Listen und wie kann ich sie verwenden?
 
-- Mit einer Broadcast-Liste können Sie eine Nachricht an viele Empfänger gleichzeitig senden; wenn sie Ihnen antworten, erhalten Sie die Antwort im Direktchat mit ihnen. Die Empfänger können einander nicht sehen.
-- Technisch gesehen handelt es sich um eine E-Mail mit vielen Empfängern in BCC.
-- Sie können die Funktion im Abschnitt "Experimentelle Features" in den erweiterten Einstellungen aktivieren. Dann können Sie im Dialogfeld "Neuer Chat" eine Broadcast-Liste erstellen.
-- Falls Sie mehr als ein Gerät verwenden, werden Broadcast-Listen derzeit nicht zwischen ihnen synchronisiert.
-- An Broadcast-Listen gesendete Nachrichten werden nicht verschlüsselt. Eine Verschlüsselung würde die Anonymität brechen, denn dann wüssten alle Empfänger, wer sie sonst noch erhalten hat. (Das Senden einzelner E-Mails an alle wäre aus Gründen der Ratenbegrenzung und des Netzwerkverbrauchs schlechter.)
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### Wie kann ich meinen Standort mit meinen Chat-Partnern teilen?

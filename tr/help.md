@@ -966,9 +966,10 @@ extendable messenger.
   isolated from the Internet.
 - The privacy a webxdc app offers is the privacy of your chat - as long as you
   trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open webxdc apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### Where can I get webxdc apps?
@@ -1019,19 +1020,10 @@ another rather stable experiment we run on the side (sic!).
 
 ### What are Broadcast Lists and how can I use them?
 
-- With a Broadcast List you can send a message to many recipients at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### How can I share my location with my chat partners?

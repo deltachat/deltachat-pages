@@ -16,7 +16,7 @@ Serwery Chatmail zapewniają ochronę prywatności i szybką obsługę użytkown
 
 - [mailchat.pl](https://mailchat.pl) jest skierowany do użytkowników mówiących po polsku
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
   and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
   are focused on Italian speaking users.
 

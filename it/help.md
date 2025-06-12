@@ -945,15 +945,16 @@ un messenger estensibile.
 
 ### Quanto sono private le apps webxdc?
 
-- Le apps webxdc non possono inviare dati a Internet o scaricare nulla.
-- Un'app webxdc può scambiare dati solo all'interno di una chat Delta Chat, con la sua
-copia sui dispositivi dei tuoi partner di chat. A parte questo, è completamente
-isolato da Internet.
-- La privacy offerta da un'app webxdc è la privacy della tua chat, purché tu
-ti fidi delle persone con cui chatti e quindi puoi fidarti anche dell'app webxdc.
-- Ciò significa anche: può essere un rischio per la privacy aprire le app webxdc nelle chat dove
-non ti fidi dei membri, come sai dagli allegati di posta elettronica, dove
-apri solo gli allegati provenienti dai mittenti di cui ti fidi e non da spammer.
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### Dove posso trovare le apps webxdc?
@@ -1003,16 +1004,10 @@ in questo modo, avrai una nuova stanza jitsi casuale ogni volta che chiami qualc
 
 ### Cosa sono le Liste di Trasmissione e come si possono usare?
 
-- Con una Lista di Trasmissione è possibile inviare un messaggio a molti destinatari contemporaneamente; quando questi vi rispondono, ricevete la risposta nella vostra chat diretta 1:1 con loro.
-I destinatari non possono vedersi a vicenda.
-- Tecnicamente, si tratta di un messaggio di posta elettronica con molti destinatari in BCC.
-- È possibile attivare questa funzione nella sezione "Funzionalità Sperimentali" delle impostazioni avanzate.
-Quindi è possibile creare una Lista di Trasmissione dalla finestra di dialogo "Nuova chat".
-- Nel caso in cui si utilizzi più di un dispositivo, le Liste di Trasmissione non sono attualmente sincronizzate tra loro.
-- I messaggi inviati alle Liste di Trasmissione non sono crittografate. La crittografia romperebbe l'anonimato, perché
-tutti i destinatari saprebbero chi altro ha ricevuto il messaggio.
-(l'invio di singoli messaggi di posta elettronica a tutti sarebbe peggiore per il limite di velocità e il
-consumo di rete).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### Come posso condividere la mia posizione con i miei partner di chat?

@@ -5,11 +5,15 @@ lang: nl
 
 # Geld doneren
 
-Ondersteun de ontwikkeling van Delta Chat als een onafhankelijk project:
+Your donation helps to shape the free and open source future of decentralized private communication 
+without surveillance, advertising or billionaries in the middle. 
 
-- IBAN DE86100777770428658900, rekeninghouder (altijd opgeven): Björn Petersen, BIC NORSDE51XXX
-- Sponsor ons via [Liberapay](https://liberapay.com/delta.chat/)
-- Sponsor ons middels een eenmalige of terugkerende bijdrage via [Open Collective](https://opencollective.com/delta-chat/donate)
-- Verstuur bitcoins naar [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+
+- Donate via [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+
+- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, Account holder (please always specify): Björn Petersen
 
 [Andere manieren om bij te dragen](contribute){: .cta-button}
