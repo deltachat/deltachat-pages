@@ -566,10 +566,16 @@ Delta Chat генерує безпечні ключі OpenPGP відповідн
 
 ### Наскільки приватними є додатки webxdc?
 
-- Додатки webxdc не можуть надсилати дані в Інтернет або завантажувати щось.
-- Програма webxdc може обмінюватися даними лише в межах чату Delta Chat з її копіями на пристроях ваших партнерів по чату. В іншому, вони повністю ізольовані від Інтернету.
-- Конфіденційність, яку пропонує додаток webxdc, є конфіденційністю вашого чату - доки ви довіряєте людям, з якими ви спілкуєтеся, ви можете довіряти і додатку webxdc.
-- Це також означає, що відкриття додатків webxdc в чатах, де ви не довіряєте учасникам, як ви знаєте з вкладень в електронній пошті, де ви відкриваєте вкладення тільки від відправників, яким довіряєте, а не від спамерів.
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### Де я можу отримати webxdc-додатки?
@@ -604,11 +610,10 @@ Delta Chat генерує безпечні ключі OpenPGP відповідн
 
 ### Що таке списки широкомовлення та як ними користуватися?
 
-- За допомогою списку розсилки ви можете надіслати повідомлення багатьом одержувачам одночасно; коли вони відповідають вам, ви отримуєте відповідь у своєму прямому чаті 1:1 з ними. Одержувачі не бачать один одного. 
-- Технічно це електронний лист із багатьма одержувачами в BCC. 
-- Ви можете ввімкнути функцію в розділі «експериментальні функції» в розширених налаштуваннях. Потім ви можете створити список трансляцій у діалоговому вікні «Новий чат». 
-- Якщо ви використовуєте більше ніж один пристрій, списки трансляцій наразі не синхронізуються між ними. 
-- Повідомлення, надіслані до списків розсилки, не шифруються. Шифрування порушило б анонімність, оскільки тоді всі одержувачі знали б, хто ще його отримав (надсилання окремих листів усім було б гіршим через обмеження швидкості та споживання мережі).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### Як я можу поділитися своїм місцезнаходженням зі своїми співрозмовниками в чаті?

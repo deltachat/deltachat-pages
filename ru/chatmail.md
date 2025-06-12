@@ -20,7 +20,7 @@ Chatmail серверы обеспечивают конфиденциально�
 
 - [mailchat.pl](https://mailchat.pl) ориентирован на польскоговорящих пользователей
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
   and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
   are focused on Italian speaking users.
 

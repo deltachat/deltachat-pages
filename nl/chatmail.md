@@ -20,7 +20,7 @@ en zijn compatibel met zowel chatmailservers onderling als traditionele mailserv
 
 - [mailchat.pl](https://mailchat.pl) is georiënteerd op Poolssprekenden.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
   and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
   are focused on Italian speaking users.
 

@@ -959,9 +959,10 @@ extendable messenger.
   isolated from the Internet.
 - The privacy a webxdc app offers is the privacy of your chat - as long as you
   trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open webxdc apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### Where can I get webxdc apps?
@@ -1012,19 +1013,10 @@ another rather stable experiment we run on the side (sic!).
 
 ### Wat zijn verzendlijsten en hoe gebruik ik deze?
 
-- Met behulp van verzendlijsten kun je berichten naar meerdere ontvangers tegelijk versturen. Als zij vervolgens
-  antwoorden, dan wordt het antwoord in het een-op-eengesprek getoond. De
-ontvangers kunnen elkaar niet zien.
-- Technisch gezien is een verzendlijst een e-mail met meerdere ontvangers in de bcc.
-- Schakel deze functie in in de sectie ‘experimentele functies ’in de
-  geavanceerde instellingen. Vervolgens kun je in het venster ‘Nieuw gesprek’ een verzendlijst
-samenstellen.
-- Let op: als je gebruikmaakt van meer dan één apparaat, dan worden verzendlijsten momenteel
-  niet gesynchroniseerd.
-- Ook zijn zulke berichten niet versleuteld. Versleuteling zou immers de
-  anonimiteit doorbreken omdat iedereen van elkaar kan zien wie de berichten ontvangt.
-  (En het versturen van meerdere individuele e-mails tegelijk zou funest zijn voor de beperkingen van sommige e-maildiensten en het
-  netwerkverbruik).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### Hoe kan ik mijn locatie delen met anderen?

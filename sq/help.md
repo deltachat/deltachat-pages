@@ -966,9 +966,10 @@ extendable messenger.
   isolated from the Internet.
 - The privacy a webxdc app offers is the privacy of your chat - as long as you
   trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open webxdc apps in chats where
-  you don't trust the members - as you know it from e-mail attachments, where 
-  you only open attachments from senders you trust, and not from spammers.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### Ku mund të marr aplikacione webxdc?
@@ -1017,20 +1018,10 @@ another rather stable experiment we run on the side (sic!).
 
 ### Ç’janë Listat e Transmetimeve dhe si mund t’i përdor?
 
-- Me një Listë Transmetimi mund të dërgoni një mesazh te shumë marrës njëherësh;
-  kur ju përgjigjen, përgjigjen e merrni një fjalosjen tuaj të drejtpërdrejt tek për tek
-  Marrësit s’mund të shohin njëri-tjetrin.
-- Teknikisht, është një email me shumë marrës si BCC.
-- Veçorinë mund ta aktivizoni te ndarja “veçori eksperimentale”, te rregullimet
-  e mëtejshme. Mandej mund të krijoni një Listë Transmetimi që nga dialogu
-  “Fjalosje e Re”.
-- Në rast se përdorni më shumë se një pajisje, Listat e Transmetimit aktualisht nuk
-  njëkohësohen mes tyre.
-- Mesazhet e dërguar te lista transmetimi s’janë të fshehtëzuar. Fshehtëzimi
-  do të dëmtonte anonimitetin, ngaqë atëherë krejt marrësit do të dinin se cili tjetër
-  e mori mesazhin.
-  (Dërgimi i email-eve individualë për këdo do të ishte edhe më keq, për shkak
-  kufizimesh sasie email-esh që dërgohen dhe konsum trafiku në rrjet).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### Si mund t’u tregoj partnerëve të mi në fjalosje vendndodhjen time?

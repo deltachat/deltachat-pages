@@ -895,12 +895,16 @@ Chat 的 [PGP](https://github.com/rpgp/rpgp) 和
 
 ### Webxdc 应用的隐私性如何？
 
-- Webxdc 应用无法向互联网发送数据或下载任何内容。
-- Webxdc 应用只能在 Delta Chat 聊天中与其聊天伙伴设备上的副本交换数据。 除此之外，它与互联网完全隔离。
-- Webxdc 应用提供的隐私性就是你的聊天的隐私性 - 只要你
-信任与你聊天的人，你也可以信任 Webxdc 应用。
-- 这也意味着：在你不信任成员的聊天中打开 WebXDC 应用可能存在隐私风险 - 正如你从电子邮件附件中了解到的那样，你
-只打开来自你信任的发件人的附件，而不是来自垃圾邮件发送者的附件。
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### 我在哪里可以获得 Webxdc 应用？
@@ -949,11 +953,10 @@ Chat 的 [PGP](https://github.com/rpgp/rpgp) 和
 
 ### 什么是广播列表？怎样使用它们？
 
-- 使用广播列表，您可以一次性将一条消息发送给多个接收者；当他们回复您时，回复会出现在您与他们的直接 1 对 1 聊天中。 接收者之间无法相互看到。 
-- 从技术上讲，它是密件抄送了许多收件人的电子邮件。 
-- 您可以在高级设置的“实验性功能”部分启用该功能。启用后，您便能在“新建聊天”对话框中新建广播列表了。
-- 在使用多台设备的情况下，目前广播列表不会在它们之间同步。
-- 发送到广播列表的消息不会被加密。加密会使接收者们知道还有谁收到了消息，进而破坏了匿名性（出于发送速率限制和网络消耗的原因，向每个人发送单独的邮件会更糟）。
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### 如何与聊天伙伴分享位置？
