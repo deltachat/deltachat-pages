@@ -547,7 +547,7 @@ to not read or manipulate your messages, and to not hand them to third parties.
 
 In any case, you can not do much else than accept the warning.
 Please also remove the contact from any active green-checkmarked group 
-which you can find in "Shared chats" in the Contact profile. 
+which you can find in "Chats in Common" in the Contact profile.
 This spares your contact from getting "unreadable" messages. 
 
 If the contact removed Delta Chat because of buggy or undesirable behaviour, 
