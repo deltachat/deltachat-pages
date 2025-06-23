@@ -21,7 +21,7 @@ mencari kode untuk aplikasi DeltaChat dan website ini.
 
 # Terjemahan dan pelaporan bug
 
-- [Terjemahan di Transifex](https://www.transifex.com/delta-chat/public/)
+- [Terjemahan di Transifex](https://explore.transifex.com/delta-chat/)
 - [Delta Chat Masalah di Android](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Masalah di Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat Masalah di iOS](https://github.com/deltachat/deltachat-ios/issues)

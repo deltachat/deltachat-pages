@@ -19,7 +19,7 @@ lang: zh_CN
 
 # 翻译与报告错误
 
-- [Transifex 上的翻译](https://www.transifex.com/delta-chat/public/)
+- [Transifex 上的翻译](https://explore.transifex.com/delta-chat/)
 - [Delta Chat Android 版问题](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat 桌面版问题](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS 版问题](https://github.com/deltachat/deltachat-ios/issues)

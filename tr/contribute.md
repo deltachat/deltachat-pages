@@ -21,7 +21,7 @@ For community interactions around Delta Chat please read our [Community Standard
 
 # Translations and Bug Reports
 
-- [Çeviriler Transifex'te](https://www.transifex.com/delta-chat/public/)
+- [Çeviriler Transifex'te](https://explore.transifex.com/delta-chat/)
 - [Delta Chat Android Sorunları](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Masaüstü Sorunları](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Sorunları](https://github.com/deltachat/deltachat-ios/issues)

@@ -21,7 +21,7 @@ Për ndërveprime bashkësie rreth Delta Chat-it, ju lutemi, lexoni [Standarded 
 
 # Përkthime dhe Njoftime të Metash
 
-- [Përkthime në Transifex](https://www.transifex.com/delta-chat/public/)
+- [Përkthime në Transifex](https://explore.transifex.com/delta-chat/)
 - [Probleme në Delta Chat për Android](https://github.com/deltachat/deltachat-android/issues)
 - [Probleme në Delta Chat për Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)

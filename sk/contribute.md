@@ -20,7 +20,7 @@ For community interactions around Delta Chat please read our [Community Standard
 
 # Translations and Bug Reports
 
-- [Preklady na Transifex](https://www.transifex.com/delta-chat/public/)
+- [Preklady na Transifex](https://explore.transifex.com/delta-chat/)
 - [Problémy Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Problémy Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problémy Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)

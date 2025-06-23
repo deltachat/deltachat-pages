@@ -21,7 +21,7 @@ lang: ru
 
 # Переводы и Отчеты об ошибках
 
-- [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)
+- [Переводы на Transifex](https://explore.transifex.com/delta-chat/)
 - [Проблемы Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Проблемы Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Проблемы Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)

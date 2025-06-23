@@ -20,7 +20,7 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 
 # Tłumaczenia i raportowanie błędów
 
-- [Tłumaczenia na Transifex](https://www.transifex.com/delta-chat/public/)
+- [Tłumaczenia na Transifex](https://explore.transifex.com/delta-chat/)
 - [Problemy z Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Problemy z Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problemy z Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
