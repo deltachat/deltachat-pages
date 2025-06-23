@@ -19,7 +19,7 @@ Veuillez lire nos [Standards de la communauté](community-standards) pour en sav
 
 # Traductions et rapports de bugs
 
-- [Traductions sur Transifex](https://www.transifex.com/delta-chat/public/)
+- [Traductions sur Transifex](https://explore.transifex.com/delta-chat/)
 - [Problèmes de Delta Chat sur Android](https://github.com/deltachat/deltachat-android/issues)
 - [Problèmes de l'application de bureau Delta Chat](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problèmes de Delta Chat sur iOS](https://github.com/deltachat/deltachat-ios/issues)
