@@ -21,7 +21,7 @@ Als je wilt meepraten in de Delta Chat-gemeenschap, neem dan onze [gemeenschapsr
 
 # Vertaling en bugmeldingen 
 
-- [Vertalen via Transifex](https://www.transifex.com/delta-chat/public/)
+- [Vertalen via Transifex](https://explore.transifex.com/delta-chat/)
 - [Delta Chat voor Android-problemen](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat voor computers-problemen](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat voor iOS-problemen](https://github.com/deltachat/deltachat-ios/issues)

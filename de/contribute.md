@@ -20,7 +20,7 @@ Diskussion über Features und um Unterstützung zu erhalten.
 
 # Übersetzungen und Fehlerberichte
 
-- [Übersetzungen auf Transifex](https://www.transifex.com/delta-chat/public/)
+- [Übersetzungen auf Transifex](https://explore.transifex.com/delta-chat/)
 - [Delta-Chat-Android-Probleme](https://github.com/deltachat/deltachat-android/issues)
 - [Delta-Chat-Desktop-Probleme](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta-Chat-iOS-Probleme](https://github.com/deltachat/deltachat-ios/issues)

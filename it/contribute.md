@@ -21,7 +21,7 @@ il codice delle applicazioni DeltaChat e di questo sito web.
 
 # Traduzioni e segnalazioni di errori
 
-- [Traduzioni su Transifex](https://www.transifex.com/delta-chat/public/)
+- [Traduzioni su Transifex](https://explore.transifex.com/delta-chat/)
 - [Problemi su Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Problemi su Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problemi su Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)

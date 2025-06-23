@@ -21,7 +21,7 @@ Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estànd
 
 # Traduccions i informes d'error
 
-- [Traduccions a Transifex](https://www.transifex.com/delta-chat/public/)
+- [Traduccions a Transifex](https://explore.transifex.com/delta-chat/)
 - [Tasques del Delta Chat per a Android](https://github.com/deltachat/deltachat-android/issues)
 - [Tasques del Delta Chat per a escriptori](https://github.com/deltachat/deltachat-desktop/issues)
 - [Tasques del Delta Chat per a iOS](https://github.com/deltachat/deltachat-ios/issues)

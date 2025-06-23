@@ -21,7 +21,7 @@ diskuzi o funkcích a pro získání podpory.
 
 # Překlady a hlášení bugů
 
-- [Překlady na Transifex](https://www.transifex.com/delta-chat/public/)
+- [Překlady na Transifex](https://explore.transifex.com/delta-chat/)
 - [Problémy s Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Problémy s Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problémy s Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
