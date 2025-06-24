@@ -1062,6 +1062,11 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 
 ### How can I use a different e-mail address with my profile?
 
+Note: 
+Changing email addresses is temporarily disabled
+because of ongoing changes to the DeltaChat core.
+It should be available again in a few months.
+
 1. Change your address in “Settings → Advanced → Password and Account” and
    enter the password of your new e-mail account (and if necessary, server settings).
    You will get an information notice about the fact that you are moving to a new address. 
