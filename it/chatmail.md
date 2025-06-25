@@ -15,13 +15,13 @@ interoperabile in sicurezza con altri server chatmail e di e-mail classici.
 - [nine.testrun.org](https://nine.testrun.org) è il server chatmail di inserimento predefinito
 per le app Delta Chat ed è stabile dall' [Annuncio Chatmail di Dicembre 2023](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) è orientato agli utenti di lingua tedesca
+- [mehl.cloud](https://mehl.cloud) è indirizzato agli utenti di lingua tedesca
 
-- [mailchat.pl](https://mailchat.pl) è orientato agli utenti di lingua polacca
+- [mailchat.pl](https://mailchat.pl) è indirizzato agli utenti di lingua polacca
 
 - [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
-  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
-  are focused on Italian speaking users.
+e [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+sono indirizzati agli utenti di lingua italiana.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/) opera negli USA
 

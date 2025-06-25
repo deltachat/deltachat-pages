@@ -20,8 +20,8 @@ für Delta Chat-Anwendungen und ist seit der [Dezember 2023 Chatmail-Ankündigun
 - [mailchat.pl](https://mailchat.pl) richtet sich an polnischsprachige Nutzer
 
 - [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
-  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
-  are focused on Italian speaking users.
+  und [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  sind auf Italienisch sprechende Nutzer ausgelegt.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
 ist in den USA aktiv

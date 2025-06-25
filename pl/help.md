@@ -344,7 +344,7 @@ Jeśli masz pewność, że kontakt czasami korzysta z poczty internetowej lub in
 
 Czasami utrzymanie kontaktu jest ważniejsze niż szyfrowanie end-to-end. [„Szyfrowanie warstwy transportowej” (TLS)](#tls) może w dalszym ciągu w znaczący sposób chronić poufność wiadomości przesyłanych między urządzeniem a serwerem poczty e-mail. Jednak bez kompleksowego szyfrowania Ty i Twój kontakt ufacie swojemu serwerowi poczty e-mail, że nie będzie czytać ani manipulować waszymi wiadomościami i nie będzie przekazywać ich osobom trzecim.
 
-W każdym razie nie możesz zrobić nic innego, jak zaakceptować ostrzeżenie. Usuń także kontakt z aktywnej grupy oznaczonej zielonym znacznikiem, którą znajdziesz w sekcji „Współdzielone czaty” w profilu kontaktu. Dzięki temu twój kontakt nie otrzyma „nieczytelnych” wiadomości.
+W każdym razie nie możesz zrobić nic innego, jak zaakceptować ostrzeżenie. Usuń także kontakt z aktywnej grupy oznaczonej zielonym znacznikiem, którą znajdziesz w sekcji „Wspólne czaty” w profilu kontaktu. Dzięki temu twój kontakt nie otrzyma „nieczytelnych” wiadomości.
 
 Jeśli kontakt usunął Delta Chat z powodu błędów lub niepożądanego zachowania, rozważ opublikowanie postu na naszym [forum pomocy](https://support.delta.chat), aby pomóc nam zidentyfikować i rozwiązać typowe problemy. Dzięki!
 
@@ -563,16 +563,10 @@ W Delta Chat możesz udostępniać [aplikacje webxdc](https://webxdc.org) i zał
 
 ### Jak prywatne są aplikacje webxdc?
 
-- webxdc apps can not send data to the Internet, or download anything.
-- A webxdc app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a webxdc app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open apps in chats with untrusted members.
-  Just like with e-mail attachments, video calls or plain links:
-  open them only from senders you trust, and not from spammers.
-  Spammers can get to know any data you send to them, as well as your IP address.
+- Aplikacje webxdc nie mogą wysyłać danych do Internetu ani niczego pobierać.
+- Aplikacja webxdc może wymieniać dane wyłącznie w ramach czatu Delta Chat, a ich kopie znajdują się na urządzeniach twoich partnerów czatu. Poza tym jest całkowicie odizolowana od Internetu.
+- Prywatność, jaką oferuje aplikacja webxdc, to prywatność twojego czatu – jeśli ufasz osobom, z którymi rozmawiasz, możesz ufać także aplikacji webxdc.
+- Oznacza to również: otwieranie aplikacji w czatach z niezaufanymi członkami, co może stanowić ryzyko dla prywatności. Podobnie jak w przypadku załączników do wiadomości e-mail, połączeń wideo lub zwykłych linków: otwieraj je tylko od nadawców, którym ufasz, a nie od spamerów. Spamerzy mogą poznać wszelkie dane, które im wysyłasz, a także twój adres IP.
 
 
 ### Gdzie mogę zdobyć aplikacje webxdc?
@@ -606,10 +600,8 @@ Jesteśmy bardzo wdzięczni za opinie na temat tych funkcji — chcesz podzieli�
 
 ### Co to są Listy rozgłoszeniowe i jak mogę ich używać?
 
-With a Broadcast List you can send a message to many recipients at once;
-the recipients cannot reply in that list.
-Broadcast lists are still highly experimental
-and will very probably be replaced by something else, stay tuned :)
+Za pomocą listy rozgłoszeniowej możesz wysłać wiadomość do wielu odbiorców naraz; odbiorcy nie mogą odpowiedzieć na tej liście.
+Listy rozgłoszeniowe są nadal wysoce eksperymentalne i bardzo prawdopodobne, że zostaną zastąpione czymś innym, bądźcie czujni :)
 
 
 ### Jak mogę udostępnić swoją lokalizację moim rozmówcom?

@@ -1,10 +1,10 @@
 ---
-title: Chatmail for instant, interoperable and privacy-preserving messaging
+title: Chatmail para la mensajería intercorporativa, instantánea y quedando de privacidad. 
 lang: es
 ---
 
 
-## What are chatmail servers and how to select one? 
+## ¿Qué son los servidores de chatmail y cómo se elige uno?
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
@@ -30,12 +30,12 @@ securely interoperable with chatmail and classic e-mail servers.
 - [tarpit.fun](https://tarpit.fun) is hosted in Germany
 
 
-There are additional chatmail servers not listed publically.  
+Hay adicionales servidores  de chatmail que no son en la lista publica.
 
 All chatmail servers are operated by different groups and people. 
 
 
-## Can I also use a pre-existing e-mail address? 
+## ¿Puedo usar mi dirección de correo electrónico que ya existe?
 
 Yes, you can use a pre-existing e-mail address with Delta Chat
 but we recommend to use a **dedicated e-mail address for chatting**

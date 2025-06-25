@@ -1,19 +1,19 @@
 ---
-title: Delta Chat, decentralized secure messenger 
+title: Delta Chat, mensajería seguro y descentralizado
 lang: es
 ---
 
-# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
+# Delta Chat es un application de mensajería seguro y descentralizado {#homepage-heading}
 
-💬 Reliable instant messaging with multi-profile and multi-device support
+💬 Mensajería instantánea y confiable con soporte para multiples perfiles y dispositivos
 
-⚡️ Sign up to [secure fast chatmail servers](chatmail) or use [classic e-mail servers](https://providers.delta.chat/)
+⚡️ Registrarse en [servicios rápidos y seguros de chatmail](chatmail) o use su [servicio de correo electronico clásico](https://providers.delta.chat/)
 
-🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
+🥳 Interactivas [aplicaciones de web en un chat](https://webxdc.org/) para jugar y colaborar
 
-🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
+🔒 [Cifrado de extremo a extremo auditado](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) seguro contra ataques a la red y al servidor.
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, creado con [estándares del Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitando el problema de [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">
@@ -55,8 +55,8 @@ lang: es
 </a>
 </div>
 
-[Download](https://get.delta.chat){: .cta-button}
+[Descargar](https://get.delta.chat){: .cta-button}
 
-Available on mobile and desktop.
+Disponible para celulares y escritorio
 
 

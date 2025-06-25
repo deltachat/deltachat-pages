@@ -7,21 +7,21 @@ downloads: true
 Las versiones de escritorio no requieren que Delta Chat sea instalado en un celular.
 
 
-## Changelogs & More {#changelogs}
+## Registro de cambios y más {#changelogs}
 
-- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Registro de cambios: [Escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Núcleo](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Alternative Clients](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Aplicaciones alternativas](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
 
-- [Provider Database](https://providers.delta.chat/)
+- [Base de datos de proveedores](https://providers.delta.chat/)
 
-- [Verify Downloads](verify-downloads)
+- [Verificar el descargo](verify-downloads)
 
-- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Troubleshooting de instalación al escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+- Preview Builds: [Escritorio]({% include desktop-previews-url %}),
   [Android Nightlies](https://download.delta.chat/android/nightly/),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
