@@ -14,8 +14,9 @@ without surveillance, advertising or billionaries in the middle.
 
 - Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX, Account holder (please always specify): Björn Petersen  
-  Alternatively, scan the following to wire money to that account:  
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, Account holder (please always specify): Björn Petersen
+
+- Alternatively, scan the following to wire money to that account:  
   ![Scan to wire money](../assets/donate-via-epc-qr.png)
 
 [Cara lain untuk kontribusi](contribute){: .cta-button}
