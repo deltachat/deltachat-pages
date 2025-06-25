@@ -40,4 +40,4 @@ nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Download: [deltachat_certificate.asc.txt](/assets/deltachat_certificate.asc.txt>)
+Download: [deltachat_certificate.asc.txt](/assets/deltachat_certificate.asc.txt)
