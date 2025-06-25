@@ -5,15 +5,17 @@ lang: it
 
 # Donare Soldi
 
-Your donation helps to shape the free and open source future of decentralized private communication 
-without surveillance, advertising or billionaries in the middle. 
+La tua donazione aiuta a dar forma al futuro libero e a codice aperto della comunicazione privata decentralizzata
+senza sorveglianza, pubblicità o miliardari di mezzo.
 
-- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+- Dona via [Liberapay](https://liberapay.com/delta.chat/)
 
-- Donate via [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+- Dona via [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
 
-- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- Invia bitcoin a [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX, Account holder (please always specify): Björn Petersen
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, conto intestato a (si prega di specificare sempre): Björn Petersen  
+  Alternatively, scan the following to wire money to that account:  
+  ![Scan to wire money](../assets/donate-via-epc-qr.png)
 
 [Altri modi per contribuire](contribuire){: .cta-button}

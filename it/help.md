@@ -945,16 +945,16 @@ un messenger estensibile.
 
 ### Quanto sono private le apps webxdc?
 
-- webxdc apps can not send data to the Internet, or download anything.
-- A webxdc app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a webxdc app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open apps in chats with untrusted members.
-  Just like with e-mail attachments, video calls or plain links:
-  open them only from senders you trust, and not from spammers.
-  Spammers can get to know any data you send to them, as well as your IP address.
+- Le app webxdc non possono inviare dati in internet, o scaricare niente.
+- Un'app webxdc può solo scambiare dati all'interno di una chat di Delta Chat, con le sue
+copie sui dispositivi dei tuoi corrispondenti. Oltre a questo, è completamente
+isolata da internet.
+- La privacy che un'app webxdc offre è la privacy della tua chat - fino a che ti
+fidi delle persone con cui ti scrivi, ti puoi fidare dell'app webxdc allo stesso modo.
+- Questo inoltre significa: può esserci un rischio per la privacy ad usare le app in chat con utenti non fidati.
+Esattamente come per gli allegati delle e-mail, le videochiamate o i collegamenti in chiaro:
+aprile solo da mittenti di cui ti fidi e non dagli spammer.
+Gli spammer possono riuscire ad ottenere qualunque dato tu mandi loro, come il tuo indirizzo IP.
 
 
 ### Dove posso trovare le apps webxdc?
@@ -1004,10 +1004,10 @@ in questo modo, avrai una nuova stanza jitsi casuale ogni volta che chiami qualc
 
 ### Cosa sono le Liste di Trasmissione e come si possono usare?
 
-With a Broadcast List you can send a message to many recipients at once;
-the recipients cannot reply in that list.
-Broadcast lists are still highly experimental
-and will very probably be replaced by something else, stay tuned :)
+Con le Liste Trasmissioni puoi inviare un messaggio a più indirizzi contemporaneamente;
+i destinatari non possono rispondere in quella chat.
+Le Liste Trasmissioni sono ancora altamente sperimentali
+e saranno molto probabilmente rimpiazzate con qualcos'altro, restate sintonizzati :)
 
 
 ### Come posso condividere la mia posizione con i miei partner di chat?

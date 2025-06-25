@@ -11,14 +11,13 @@ Para las interacciones comunitarias en torno a Delta Chat, por favor lee nuestra
 
 - [Foro de soporte de Delta Chat](https://support.delta.chat) para discusiones más amplias sobre las funcionalidades y para obtener ayuda.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Repositorios de Delta Chat](https://github.com/deltachat/) donde puedes encontrar el código de las aplicaciones de Delta Chat y de esta página del web.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Más enlaces puedes encontrar en el [cosmos](https://cosmos.delta.chat)
 
 [Donar dinero](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Traducciones y reportes de errores
 
 - [Traducciones en Transifex](https://www.transifex.com/delta-chat/public/)
 - [Problemas de Delta Chat en Android](https://github.com/deltachat/deltachat-android/issues)
@@ -26,31 +25,30 @@ Para las interacciones comunitarias en torno a Delta Chat, por favor lee nuestra
 - [Problemas de Delta Chat en iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemas del núcleo Delta Chat y enlaces para Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
+Estamos buscando desarrolladores y diseñadores.
+Ofrecemos empleos de 20-30 horas semanales  o contratos (si se trabaja en Alemania).
+No dudes en ponerte en contacto con nosotros (delta@merlinux.eu)
+¡Si estás interesado en colaborar con nosotros!
 
-For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+Para más informaciones, nosotros te recomendamos leer y seguir a nuestro [blog](https://delta.chat/en/blog).
 
 
-# Third party communication channels 
+# Canales de comunicación de terceras personas
 
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
+Los siguientes canales relacionados con Delta Chat son creados por terceras personas que tal vez cumplen o no cumplen con nuestros [estándares de la comunidad](community-standards): 
 
-- English-speaking Delta Chat community group, you can join the group:
-  * [In Delta Chat]({% include dc-community-url %})
-  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [In Telegram](https://t.me/deltachat_community)
+- Grupos para la comunidad de Delta Chat en inglés, puedes unirte en los siguientes grupos:
+  * [en Delta Chat]({% include dc-community-url %})
+  * [en Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
+  * [en XMPP](xmpp:deltachat-en@chat.disroot.org?join)
+  * [en Telegram](https://t.me/deltachat_community)
 
-- A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
+- Una [comunidad de Lemmy](https://lemmy.zip/c/delta_chat)
+  el la que puedes unirte para escribir `!delta_chat@lemmy.zip` 
+  en la búsqueda de tu aplicación del Fediverse.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- Un [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above)
-or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+Si conoces otros canales, o los has creado,
+por favor, háznoslo saber (ver canales y repositorios más arriba)
+o [edita a esta página en GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).

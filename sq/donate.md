@@ -5,15 +5,17 @@ lang: sq
 
 # Dhuroni Para
 
-Your donation helps to shape the free and open source future of decentralized private communication 
-without surveillance, advertising or billionaries in the middle. 
+Dhurimi juaj ndihmon t’i jepet formë të ardhmes së lirë dhe me burim të hapët të komunikimeve private të decentralizuara 
+pa mbikëqyrje, reklama apo miliarderë në mes. 
 
-- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+- Dhuroni përmes [Liberapay](https://liberapay.com/delta.chat/)
 
-- Donate via [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+- Dhuroni përmes [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
 
-- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- Bitcoins dërgoni te [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX, Account holder (please always specify): Björn Petersen
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, I zoti i llogarisë (ju lutemi, jepeni përherë): Björn Petersen  
+  Alternatively, scan the following to wire money to that account:  
+  ![Scan to wire money](../assets/donate-via-epc-qr.png)
 
 [Rrugë të tjera për të kontribuar](contribute){: .cta-button}

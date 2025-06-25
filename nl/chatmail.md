@@ -20,9 +20,9 @@ en zijn compatibel met zowel chatmailservers onderling als traditionele mailserv
 
 - [mailchat.pl](https://mailchat.pl) is georiënteerd op Poolssprekenden.
 
-- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
-  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
-  are focused on Italian speaking users.
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
+  en [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+zijn georiënteerd op Italiaanssprekenden.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   wordt beheerd vanuit de VS.
