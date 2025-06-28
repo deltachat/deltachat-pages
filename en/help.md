@@ -1121,12 +1121,12 @@ This is what Delta Chat does with these permissions:
   see [Provider Overview](https://providers.delta.chat)
 
 
-### I want to manage my own e-mail server for Delta Chat. What do you recommend?
+### I want to manage my own server for Delta Chat. What do you recommend?
 
 - Most mail servers will work well. But what we personally recommend is a
-  combination of mailcow and mailadm, as described [in this
-  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- You can find an [installation guide on our website](serverguide).
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### Why do I have to enter my E-Mail password into Delta Chat? Is this secure?
