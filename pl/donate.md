@@ -15,7 +15,7 @@ Twoja darowizna pomaga kształtować wolną i otwartą przyszłość zdecentrali
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX, Właściciel konta (proszę zawsze podawać): Björn Petersen
 
-- Alternatively, scan the following to wire money to that account:  
-  ![Scan to wire money](../assets/donate-via-epc-qr.png)
+- Alternatywnie, zeskanuj poniższy kod QR, aby przelać pieniądze na to konto::  
+  ![Zeskanuj, aby przelać pieniądze](../assets/donate-via-epc-qr.png)
 
 [Inne sposoby wniesienia wkładu](contribute){: .cta-button}

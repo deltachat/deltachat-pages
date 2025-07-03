@@ -837,16 +837,10 @@ In Delta Chat können Sie [Webxdc-Apps](https://webxdc.org), Anhänge mit der Da
 
 ### Wie privat sind Webxdc Apps?
 
-- webxdc apps can not send data to the Internet, or download anything.
-- A webxdc app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a webxdc app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open apps in chats with untrusted members.
-  Just like with e-mail attachments, video calls or plain links:
-  open them only from senders you trust, and not from spammers.
-  Spammers can get to know any data you send to them, as well as your IP address.
+- Webxdc Apps können keine Daten ins Internet senden oder etwas herunterladen.
+- Eine Webxdc App kann Daten nur innerhalb eines Delta-Chat-Chats mit ihren Kopien auf den Geräten Ihrer Chat-Partner austauschen. Ansonsten ist sie komplett vom Internet isoliert.
+- Die Privatsphäre, die eine Webxdc App bietet, ist die Privatsphäre Ihres Chats - solange Sie den Personen vertrauen, mit denen Sie chatten, können Sie auch der Webxdc App vertrauen.
+- Das bedeutet auch: Es kann ein Datenschutzrisiko darstellen, Webxdc Apps in Chats zu öffnen, in denen man den Mitgliedern nicht vertraut - so wie man es von E-Mail-Anhängen kennt, wo man nur Anhänge von Absendern öffnet, denen man vertraut, und nicht von Spammern. Spammer erhalten alle Daten, die Sie Ihnen senden zusammen mit Ihrer IP-Adresse.
 
 
 ### Wo bekomme ich Webxdc Apps?
@@ -883,10 +877,7 @@ Wir sind sehr dankbar für Feedback zu diesen Funktionen - möchten Sie Ihre Ide
 
 ### Was sind Broadcast-Listen und wie kann ich sie verwenden?
 
-With a Broadcast List you can send a message to many recipients at once;
-the recipients cannot reply in that list.
-Broadcast lists are still highly experimental
-and will very probably be replaced by something else, stay tuned :)
+Mit einer Broadcast-Liste können Sie eine Nachricht an viele Empfänger auf einmal senden; die Empfänger können in dieser Liste nicht antworten. Broadcast-Listen sind experimentell und werden sehr wahrscheinlich durch etwas anderes ersetzt werden, bleiben Sie dran :)
 
 
 ### Wie kann ich meinen Standort mit meinen Chat-Partnern teilen?
@@ -968,10 +959,12 @@ Je nach verwendetem Betriebssystem werden Sie möglicherweise aufgefordert, der 
   Allerdings benötigen einige Anbieter besondere Einstellungen, um ordnungsgemäß zu funktionieren; eine von NutzerInnen erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://providers.delta.chat).
 
 
-### Ich möchte meinen eigenen E-Mail-Server für Delta Chat verwalten. Gibt es Empfehlungen?
+### I want to manage my own server for Delta Chat. What do you recommend?
 
-- Die meisten Mailserver werden gut funktionieren. Was wir persönlich jedoch empfehlen, ist eine Kombination aus mailcow und mailadm, wie [in diesem Blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops) beschrieben.
-- Auf unserer Webseite finden Sie eine [Installationsanleitung](serverguide).
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### Weshalb muss ich mein E-Mail-Kennwort in Delta Chat eingeben? Ist das sicher?

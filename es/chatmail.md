@@ -25,14 +25,14 @@ securely interoperable with chatmail and classic e-mail servers.
   are focused on Italian speaking users.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US 
+  está operado para los UU. EE.
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Germany
+- [tarpit.fun](https://tarpit.fun) está ubicado en Alemania
 
 
 Hay adicionales servidores  de chatmail que no son en la lista publica.
 
-All chatmail servers are operated by different groups and people. 
+Todos los servidores de chatmail están operados por diferentes grupos y personas.
 
 
 ## ¿Puedo usar mi dirección de correo electrónico que ya existe?
@@ -42,16 +42,16 @@ but we recommend to use a **dedicated e-mail address for chatting**
 so that your classic usually un-encrypted e-mail does not mix 
 with end-to-end encrypted chat messages. 
 
-You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
+También puede utilizar Delta Chat como aplicación de correo electrónico (en texto claro) para una dirección de correo electrónico existente. 
 
 Delta Chat has multi-profile support so you can have 
 one profile with your classic e-mail address,
 and another for instant always-encrypted chatting. 
 Chatmail addresses are cheap. 
 
-## How can i learn more about chatmail servers? Can i run one? 
+## ¿Dónde puedo conseguir más información sobre los servidores de chatmail? ¿Puedo tener mi propio?
 
-Please visit our [chatmail project page](https://chatmail.at) 
-for more details and links. 
+Por favor, visita a nuestra [página del proyecto chatmail](https://chatmail.at)
+para más detalles y enlaces.
 
 [Donar dinero](donate){: .cta-button}

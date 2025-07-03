@@ -1118,12 +1118,12 @@ Ja se ç’bën Delta Chat-i me këto leje:
   të funksionojnë si duhet, shihni [Provider Overview](https://providers.delta.chat)
 
 
-### Dua të administroj shërbyesin tim email për Delta Chat. Ç’rekomandoni?
+### I want to manage my own server for Delta Chat. What do you recommend?
 
-- Shumica e shërbyesve email do të funksionojnë mirë. Por çka
-  rekomandojmë personalisht është një ndërthurje e Mailcow-ut dhe Mailadm-it,
-  siç përshkruhet [në këtë postim blogu](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- Mund të gjeni një [udhërrëfyes instalimi në sajtin tonë](serverguide).
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### Pse më duhet të jap fjalëkalimin e email-it tim në Delta Chat? A është e sigurt kjo?

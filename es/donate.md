@@ -5,18 +5,18 @@ lang: es
 
 # Donar Dinero
 
-Your donation helps to shape the free and open source future of decentralized private communication 
-without surveillance, advertising or billionaries in the middle. 
+Tu donación apoya para mejorar el futuro de la comunicación privada y descentralizada del código libre y abierto
+sin vigilancia, anuncio o billonarios en el centro.
 
-- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+- Donaciones por [Liberapay](https://liberapay.com/delta.chat/)
 
-- Donate via [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+- Donaciones por [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
 
-- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- Enviar bitcoins por [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX, Account holder (please always specify): Björn Petersen
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, Propietario de la cuenta (por favor, siempre se usa): Björn Petersen
 
-- Alternatively, scan the following to wire money to that account:  
-  ![Scan to wire money](../assets/donate-via-epc-qr.png)
+- Como alternativa, escanee lo que sigue para transferir dinero a esa cuenta:  
+  ![Escanear para transferir dinero](../assets/donate-via-epc-qr.png)
 
 [Otras maneras de contribuir](contribute){: .cta-button}
