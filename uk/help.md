@@ -686,10 +686,12 @@ and will very probably be replaced by something else, stay tuned :)
 Проте для коректної роботи деяких провайдерів потрібні специфічні налаштування. Дивіться наш [огляд провайдерів](https://providers.delta.chat)
 
 
-### Я хочу керувати власним сервером електронної пошти для Delta Chat. Що ви порадите?
+### I want to manage my own server for Delta Chat. What do you recommend?
 
-- Більшість поштових серверів працюватимуть добре. Але ми особисто рекомендуємо поєднання mailcow і mailadm, як описано [у цьому пості](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops). 
-- Ви можете знайти [посібник із встановлення на нашому веб-сайті](serverguide).
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### Чому я маю вводити пароль до моєї електронної пошти у Delta Chat? Чи це безпечно?

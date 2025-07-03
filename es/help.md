@@ -8,29 +8,28 @@ header: Preguntas Frecuentes
 
 ## ¿Qué es Delta Chat? 
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
-available for mobile and desktop platforms.
+Delta Chat es una aplicación de mensajería segura, descentralizada y confiable. Está disponible para las plataformas móviles y del escritorio.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+Delta Chat parece como Whatsapp o Telegram, pero también puedes utilizarlo y considerarlo como una aplicación de correo electrónico.
+Puedes registrarte de forma anónima en varios [servidores de chatmail interoperables](https://delta.chat/chatmail)
+que son servidores de correo electrónico mínimos y optimizados para operaciones rápidas y seguras.
+O puedes utilizar servidores de correo electrónico clásicos y una cuenta de correo electrónico existente
+en cuyo caso, Delta Chat actúa como una aplicación de correo electrónico.
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### ¿Cómo puedo encontrar personas con las que chatear? 
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
+Para establecer contacto con otros de forma segura [escanea un código QR de invitación 
+o comparte un enlace de invitación](#howtoe2ee). 
+Esto es necesario cuando se utiliza un perfil de chat (predeterminado) basado en chatmail 
+porque los servidores de chatmail rechazan los mensajes salientes no cifrados.
 
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+Si crees un perfil de chat con una dirección de correo electrónico clásica
+puedes crear manualmente un contacto si conoces su dirección de correo electrónico
+y escribirle un mensaje
+aunque el destinatario no utilice Delta Chat.
 
 
 ### ¿Cuáles son las ventajas de Delta Chat comparado con otras aplicaciones de mensajería?
@@ -38,12 +37,12 @@ even if the recipient is not using Delta Chat.
 - Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
   which offer instant Push Notifications for iOS and Android devices. 
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+Soporte omnipresente, [múltiples perfiles](#multiple-accounts) y múltiples dispositivos en todas las plataformas. 
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+Interactivas [aplicaciones de web en un chat](https://webxdc.org/apps) para jugar y colaborar
 
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
+ [Cifrado de extremo a extremo auditado](#security-audits)
+seguro contra ataques a la red y al servidor.
 
 - Free and Open Source software, both app and server side. 
   Built on [E-mail and Web Internet Standards]({% include standards-url %}),
@@ -74,16 +73,16 @@ A profile is **a name, a picture** and some additional information for encryptin
 A profile lives on your device(s) only
 and uses a chatmail or a classic e-mail server to transport messages.
 
-On first installation of Delta Chat a first profile is created.
+En la primera instalación de Delta Chat se crea un primer perfil.
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+Después, puedes tocar la imagen de tu perfil en la esquina superior izquierda para **Añadir perfiles**
+o para **Cambiar perfiles**.
 
 You may want to use separate profiles for political, family or work related activities,
 or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
 that tend to cause unsolicited messages ("spam") sooner or later.
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+Quizás quieres aprender [cómo se usa el mismo perfil en múltiples dispositivos](#multiclient).
 
 
 ### ¿Quién ve mi foto de perfil?
@@ -101,7 +100,7 @@ que sus contactos vuelvan a recibir su foto de perfil, incluso si agregan un nue
 dispositivo.
 
 
-### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
+### ¿Puedo establecer un texto de firma con Delta Chat? {#signature}
 
 Yes,
 you can do so under **Settings → Profile → Bio**.
@@ -128,19 +127,19 @@ Para archivar o fijar un chat, toque prolongadamente (Android), use el menú del
 para silenciar un chat, use el menú del chat (Android/Escritorio) o el perfil del chat (iOS).
 
 
-### How do "Saved Messages" work? {#save}
+### ¿Cómo funcionan los "Mensajes guardados"? {#save}
 
-**Saved Messages** is a chat that you can use to easily remember and find messages.
+**Mensajes guardados** es un chat que puedes utilizar para recordar y encontrar mensajes fácilmente.
 
-- In any chat, long tap or right click a message and select **Save**
+- En cualquier chat, mantén pulsado o haz clic con el botón derecho en un mensaje y selecciona **Guardar**
 
-- Saved messages are marked by the symbol
-  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
-  next to the timestamp
+- Los mensajes guardados se marcan con el símbolo
+ <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  junto a la marca de tiempo
 
-- Later, open the "Saved Messages" chat - and you will see the saved messages there.
-  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
-  you can go back to the original message in the original chat
+- Después puedes abrir el chat "Mensajes guardados" - y allí verás los mensajes guardados.
+  Con pulsar a <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  puedes volver al mensaje original en el chat original
 
 - Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
 
@@ -152,9 +151,9 @@ may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing m
 
 ### ¿Qué significa el punto verde?
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen** in the last 10 minutes:
+A veces puede ver un **punto verde** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+junto al avatar de un contacto.
+Significa que ha sido **visto recientemente** en los últimos 10 minutos:
 
 - either because they messaged you directly,
 - because they wrote something to a group you are both a member of,
@@ -178,12 +177,12 @@ until one of the above conditions are met.
   For that, long tap or right click the message and select **Edit**
   or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
 
-- If you have sent a message accidentally,
-  from the same menu, select **Delete** and then **Delete for Everyone**.
+- Si has enviado un mensaje accidentalmente
+  desde el mismo menú, seleccione **Borrar** y después **Borrar para todos**.
 
-While edited messages will have the word "Edited" next to the timestamp,
-deleted messages will be removed without a marker in the chat.
-Notifications are not sent and there is no time limit.
+Mientras que los mensajes editados tendrán la palabra "Editado" junto a la marca de tiempo,
+los mensajes borrados serán eliminados sin un marcador en el chat.
+No se envían notificaciones y no hay límite de tiempo.
 
 Note, that the original message may still be received by chat members
 who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
@@ -1078,12 +1077,12 @@ Esto es lo que hace Delta Chat con esos permisos:
 Sin embargo, algunos proveedores necesitan opciones especiales para funcionar correctamente, ver [Descripción de proveedores](https://providers.delta.chat)
 
 
-### Quiero manejar mi propio servidor de correo para Delta Chat. ¿Qué me recomiendan?
+### I want to manage my own server for Delta Chat. What do you recommend?
 
 - Most mail servers will work well. But what we personally recommend is a
-  combination of mailcow and mailadm, as described [in this
-  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- You can find an [installation guide on our website](serverguide).
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### ¿Por qué debo ingresar mi contraseña de correo electrónico en Delta Chat? ¿Es esto seguro?

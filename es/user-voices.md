@@ -9,18 +9,18 @@ lang: es
 
 _"Una extraña observación: enviar y recibir emails con #DeltaChar hace la experiencia más disfrutable que usar el cliente de email tradicional. Creo que es más un acercamiento moderno: hacer que los emails luzcan como mensajes de chat."_
 
-**Polish user** on [Mastodon](https://101010.pl/@michal/107107322703871076)
+**Usuario polaco** en [Mastodon](https://101010.pl/@michal/107107322703871076)
 
 ### admite más de una cuenta
 
-_"Hi Delta.chat team! Thanks for the app ; it is both extremely useful and the UX is near-to-perfect. Could you offer us easy switching between e-mail accounts? [...]."_  
-**User,** before we improved multiple accounts, on [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
+_"¡Hola, team de Delta.chat! Gracias por la app ; Está ambos, extremadamente útil y la UX es casi perfecta. ¿Podrían ofertarnos la posibilidad de cambiar la cuenta de correo electrónico simple? [...]."_  
+**Usuario,** antes que mejoramos el sistema de múltiples cuentas, en [mastodon](https://oc.todon.fr/@borispaing/106607795144753681)
 
 ### posible hacer llamada de audio y video
 
-_"Coolest thing is it supports video and audio calls by creating a jitsi room and sending an invite, cool solution:)"_
+_"La cosa más genial es que hay soporte para llamadas de video y audio con crear una sala de jitsi y enviar la invitación, una solución bien genial:)"_
 
-**User** on [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
+**Usuario** en [Mastodon](https://masto.1146.nohost.me/@lps/106303722917783273)
 
 ### Recomendable para personas invidentes
 
@@ -122,16 +122,16 @@ Use #DeltaChat with your existing email account. #decentralize the net."_
 _"Take the most decentralized communication concept currently available
 and put on a chat app like @delta and you're done."_
 
-**User from Germany** in 2020, via [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
+**Usuario de Alemania** en 2020, por [Mastodon](https://mastodon.bayern/@binaryflo85/103273050438673883)
 
 
 ### De código abierto, sin silo, basado en estándares
 
-_"Been using  @delta_chat for more than a year:
-great open-source/non-silo/standard-based replacement to whatsapp!
-Glad to know that the development is keeping pace!!"_
+_"Estoy usando @delta_chat para más que un año:
+¡Bien remplazo para WhatsApp con código abierto/non-silo/base-Estándar!
+¡¡Es bien saber que el desarrollo está siguiendo!!"_
 
-**Séverin Lemaignan** in 2020, via [Twitter](https://twitter.com/skadge/status/1276515066393878529)
+**Séverin Lemaignan** en 2020, por [Twitter](https://twitter.com/skadge/status/1276515066393878529)
 
 
 ### ¡Una forma predeterminada de iniciar chats!
@@ -140,7 +140,7 @@ _"Considering to use  @delta_chat as a default way to start chats!
 Unlike other systems it empowers people on both end with choice of the agent they want to use +
 interops with all the mail clients"_
 
-**gozala** in 2020 via [Twitter](https://twitter.com/gozala/status/1281346020664729600)
+**gozala** en 2020 por [Twitter](https://twitter.com/gozala/status/1281346020664729600)
 
 
 Consulte también las [referencias de prensa](references).

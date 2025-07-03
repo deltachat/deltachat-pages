@@ -1044,12 +1044,12 @@ and will very probably be replaced by something else, stay tuned :)
   不过，某些提供商需要一些特殊设置才能正常工作，请参阅[提供商概览](https://providers.delta.chat)
 
 
-### 我想管理自己的 Delta Chat 电子邮件服务器。 你有什么建议？
+### I want to manage my own server for Delta Chat. What do you recommend?
 
-- 大多数邮件服务器都能很好地工作。 但我们个人推荐的是
-mailcow 和 mailadm 的组合，如 [本
-博客文章](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops) 中所述。
-- 你可以在我们的 [网站上找到安装指南](serverguide)。
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### 为什么我必须在 Delta Chat 中输入我的电子邮件密码？ 这样安全吗？

@@ -1112,12 +1112,12 @@ Delta Chat doet het volgende met deze rechten:
   Sommige providers verwachten echter bepaalde opties. Bekijk hiervoor het [provideroverzicht](https://providers.delta.chat)
 
 
-### Ik wil mijn eigen e-mailserver opzetten. Hoe kan ik dat het beste doen?
+### I want to manage my own server for Delta Chat. What do you recommend?
 
-- De meeste e-mailservers werken prima, maar wij raden een
-  combinatie van mailcow en mailadm aan, zoals uitgelegd op [ons
-  blog](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- In de [installatiehandleiding op onze website](serverguide) lees je hoe je dit opzet.
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### Waarom moet ik mijn e-mailwachtwoord invoeren in Delta Chat? Is dat wel veilig?

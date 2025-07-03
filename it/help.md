@@ -1104,12 +1104,12 @@ Tuttavia, alcuni provider necessitano di opzioni speciali per funzionare corrett
 vedi [Panoramica fornitore](https://providers.delta.chat)
 
 
-### Voglio gestire il mio server di posta elettronica per Delta Chat. Che cosa mi consigliate?
+### I want to manage my own server for Delta Chat. What do you recommend?
 
-- La maggior parte dei server di posta funzionerà bene. Ma quello che raccomandiamo personalmente è una
-combinazione di mailcow e mailadm, come descritto [in questo
-blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- È possibile trovare una [guida all'installazione sul nostro sito Web](serverguide).
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### Perché devo inserire la mia password E-Mail in Delta Chat? È sicuro?

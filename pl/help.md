@@ -676,10 +676,12 @@ Oto, co robi Delta Chat z tymi uprawnieniami:
   Jednak niektórzy dostawcy potrzebują specjalnych opcji, aby działać poprawnie, zobacz [Przegląd dostawców](https://providers.delta.chat)
 
 
-### Chcę zarządzać własnym serwerem e-mail dla Delta Chat. Co polecacie?
+### I want to manage my own server for Delta Chat. What do you recommend?
 
-- Większość serwerów pocztowych będzie działać dobrze. Ale to, co osobiście polecamy, to połączenie mailcow i mailadm, jak opisano [w tym poście na blogu](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- Instrukcję instalacji można znaleźć [na naszej stronie internetowej](serverguide).
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### Dlaczego muszę wpisać moje hasło e-mail do Delta Chat? Czy to jest bezpieczne?

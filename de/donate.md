@@ -15,7 +15,7 @@ Ihre Spende hilft dabei, die freie und Open Source-Zukunft der dezentralen priva
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX, Kontoinhaber (bitte immer angeben): Björn Petersen
 
-- Alternatively, scan the following to wire money to that account:  
-  ![Scan to wire money](../assets/donate-via-epc-qr.png)
+- Alternativ den folgenden QR-code scannen, um Geld auf das obige Konto zu überweisen:  
+  ![Scannen zum Überweisen](../assets/donate-via-epc-qr.png)
 
 [Andere Wege mitzuwirken](contribute){: .cta-button}
