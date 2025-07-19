@@ -409,7 +409,7 @@ Welcome to the power of the interoperable and massive chatmail and e-mail system
 [Autocrypt](https://autocrypt.org) is used for automatically
 establishing end-to-end encryption with contacts and group chats.
 Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
-If messages are not End-to-End they are are marked with an email icon
+If messages are **not** end-to-end encrypted they are are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email.png" alt="email"/>.
 
 [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
@@ -421,7 +421,7 @@ guarantee end-to-end encrypted messages.
 
 ### How can i know if messages are end-to-end encrypted? {#whene2e}
 
-All not end-to-end encrypted messages show an email icon:
+All **not** end-to-end encrypted messages show an email icon:
 
 <img style="width:160px; margin:1px" src="../assets/help/email-icon-screenshot.png" alt="email icon in bubble"/>
 
