@@ -409,8 +409,8 @@ Welcome to the power of the interoperable and massive chatmail and e-mail system
 [Autocrypt](https://autocrypt.org) is used for automatically
 establishing end-to-end encryption with contacts and group chats.
 Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
-End-to-End encrypted messages are marked with a padlock 
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
+If messages are not End-to-End they are are marked with an email icon
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email.png" alt="email"/>.
 
 [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
 are used for establishing chats with guaranteed end-to-end encryption 
@@ -421,9 +421,9 @@ guarantee end-to-end encrypted messages.
 
 ### How can i know if messages are end-to-end encrypted? {#whene2e}
 
-All end-to-end encrypted messages carry a padlock:
+All not end-to-end encrypted messages show an email icon:
 
-<img style="width:160px; margin:1px" src="../assets/help/lock-screenshot.png" alt="padlock in bubble"/>
+<img style="width:160px; margin:1px" src="../assets/help/email-icon-screenshot.png" alt="email icon in bubble"/>
 
 End-to-end encryption is guaranteed if there is a green checkmark next to the chat title:
 
@@ -575,8 +575,8 @@ and attachment metadata such as filenames.
 ### Is OpenPGP secure? {#openpgp-secure}
 
 Yes, Delta Chat uses a secure subset of OpenPGP
-and only displays a padlock security indicator on a message
-if the whole message is properly encrypted and signed.
+and displays an email icon on a message
+if the whole message is not properly encrypted and signed.
 For example, "Detached signatures" are not treated as secure.
 
 OpenPGP is not insecure by itself.
@@ -699,9 +699,8 @@ the connection is safe.
 
 ### How can I check the encryption status of messages?
 
-A little **padlock** in a message bubble denotes
-that the message was properly end-to-end encrypted from the given sender.
-If there is **no padlock**, the message was not properly end-to-end encrypted
+If there is **no email icon** in a message bubble the message was properly end-to-end encrypted from the given sender.
+If there is an **email icon**, the message was not properly end-to-end encrypted
 most likely because the sender uses an app or webmail interface
 without support for end-to-end--encryption.
 
@@ -710,7 +709,7 @@ without support for end-to-end--encryption.
 
 If a contact uses a non-Autocrypt e-mail app,
 all messages involving this contact (in a group or 1:1 chat)
-will not be end-to-end encrypted, and thus not show a "padlock" with messages.
+will not be end-to-end encrypted, and thus show an "email icon" at the bottom.
 Note that even if your contacts use Delta Chat on their account,
 they might also use a non-Autocrypt e-mail app on that account
 which then may cause intermittently unencrypted messages.
