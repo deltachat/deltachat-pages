@@ -555,12 +555,10 @@ as defined by the Autocrypt Level 1 specification.
 
 ### Are messages marked with the mail icon exposed on the Internet? {#tls}
 
-No, but they are only weakly protected. 
-
 If you are sending or receiving email messages without end-to-end encryption (using a classic e-mail server),
-they are protected from cell or cable companies snooping on the networks. 
+they are protected from cell or cable companies who can not read or modify your email messages. 
 But your and your recipient's e-mail providers 
-may read, analyze or modify your messages, including any attachments.
+may read, analyze or modify your messages, including any attachments. 
 
 Delta Chat by default uses strict 
 [TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
