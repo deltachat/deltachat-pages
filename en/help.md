@@ -641,8 +641,8 @@ which we also discuss in our answer [on metadata and device seizure](#device-sei
 Yes. 
 
 We devised a forward secrecy scheme that withstood initial scrutiny from cryptographers and usable security experts. 
-Our tentative scheme is designed to reliably work in federated messaging and with multi-device usage. 
-The actual implementation has not been scheduled yet (Mid 2025). 
+Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
+However, an implementation has not been scheduled yet (Mid 2025). 
 
 ### Can I reuse my existing private key? {#importkey}
 
