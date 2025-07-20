@@ -406,31 +406,39 @@ Welcome to the power of the interoperable and massive chatmail and e-mail system
 
 ### Which standards are used for end-to-end encryption? 
 
-[Autocrypt](https://autocrypt.org) is used for automatically
-establishing end-to-end encryption with contacts and group chats.
-Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
-End-to-End encrypted messages are marked with a padlock 
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
+Delta Chat uses a [secure subset of the OpenPGP standard](#openpgp-secure)
+to provide automatic end-to-end encryption using these protocols: 
 
-[Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-are used for establishing chats with guaranteed end-to-end encryption 
-which protects against network attacks and compromised servers.
-Chats marked with a green checkmark 
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-guarantee end-to-end encrypted messages. 
+- [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
+  to exchange encryption setup information through QR-code scanning or "invite links". 
+
+- [Autocrypt](https://autocrypt.org) is used for automatically
+  establishing end-to-end encryption between contacts and all members of a group chat. 
+
+- [Sharing a contact to a
+  chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
+  enables receivers to use end-to-end encryption with the contact. 
+
+Delta Chat does not query, publish or interact with any OpenPGP key servers. 
 
 ### How can i know if messages are end-to-end encrypted? {#whene2e}
 
-All end-to-end encrypted messages carry a padlock:
+All messages in Delta Chat are end-to-end encrypted by default. 
+Since the Delta Chat Version 2 release series (July 2025) 
+there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-<img style="width:160px; margin:1px" src="../assets/help/lock-screenshot.png" alt="padlock in bubble"/>
+## Can i still receive or send mails without end-to-end encryption? 
 
-End-to-end encryption is guaranteed if there is a green checkmark next to the chat title:
+If you use [chatmail relays](https://chatmail.at/relays)
+it is impossible to receive or send messages without end-to-end encryption. 
 
-<img style="width:211px; margin:1px" src="../assets/help/green-checkmark-screenshot.png" alt="green checkmark in title"/>
+If you create a profile using a classic e-mail server
+you may send and receive messages without end-to-end encryption. 
+Messages lacking end-to-end encryption are marked with a mail icon 
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email.png" alt="email"/>.
 
+### How can I get end-to-end encryption and green checkmarks? {#howtoe2ee}
 
-### How can I get guaranteed end-to-end encryption and green checkmarks? {#howtoe2ee}
 
 If you have a second communication channel with your chat partner,
 like a video chat or a different messenger,
