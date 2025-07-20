@@ -478,7 +478,7 @@ Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with y
 or was introduced by a another green-checkmarked contact.
 Introductions happen automatically when adding members to groups. 
 Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
-becomes an introducer to those members who didn't yet know about the added contact.
+becomes an introducer. 
 In a contact profile you can tap on the "Introduced by ..." text repeatedly
 until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
