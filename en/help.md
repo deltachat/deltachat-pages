@@ -434,48 +434,44 @@ it is impossible to receive or send messages without end-to-end encryption.
 
 If you create a profile using a classic e-mail server
 you may send and receive messages without end-to-end encryption. 
-Messages lacking end-to-end encryption are marked with a mail icon 
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email.png" alt="email"/>.
+Messages lacking end-to-end encryption are marked with an e-mail icon 
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-### How can I get end-to-end encryption and green checkmarks? {#howtoe2ee}
+### How can I establish a chat with a new contact? {#howtoe2ee}
 
+You can send an invite link through another private chat, 
+show an invitation QR code when next to each other or in a video call,
+or click on a "contact" that was shared in a chat. 
 
-If you have a second communication channel with your chat partner,
-like a video chat or a different messenger,
-you can generate an invite link.
+For Group invitations, 
+tap the chat group title to see its member list,
+and select "QR Invite code".
 
-If you are together in person,
-you can show a QR code to your chat partner.
+For **direct 1:1 chat invitations**,
+tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+on the Delta Chat app main screen.
 
-- For **Group invitations**,
-  tap the chat group title to see its member list,
-  and select "QR Invite code".
-
-- For **direct 1:1 chat invitations**,
-  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
-
-Let your chat partner scan the QR image
+Ask your chat partner to scan the QR image
 with their Delta Chat app,
 or click "Copy" or "Share" to create an invite link
 and share it with your chat partner.
 
-Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Now wait while [end-to-end encryption is established](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol). 
 
-- If both devices are online,
-  both sides will eventually see a (group or direct) chat with a green checkmark
+- If both sides are online,
+  the will soon see a (group or direct) chat with a green checkmark
   <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
   next to the title.
 
-- If one of the devices is offline, the green checkmarks will only
-  appear later when the device is internet-connected again
-  and the Secure-Join network protocol completed. 
+- If one side is offline, end-to-end encryption establishment and the
+  ability to chat is delayed until it is online again. 
 
 Congratulations! 
-You now will automatically use guaranteed end-to-end encryption
-with this contact and both of you can add each other to green-checkmarked groups
+You now will automatically use end-to-end encryption
+with this contact. 
+Additionally, both of you can add each other to green-checkmarked groups
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>,
-thereby automatically spreading guaranteed end-to-end encryption among its members. 
+thereby automatically spreading guaranteed end-to-end encryption among all members. 
 
 
 ### What does the green checkmark and "guaranteed end-to-end encryption" mean? {#e2eeguarantee}
