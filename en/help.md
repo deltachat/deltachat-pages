@@ -626,10 +626,10 @@ This means that if your Delta Chat private decryption key is leaked,
 and someone has collected your prior in-transit messages,
 they will be able to decrypt and read them using the leaked decryption key.
 
-To benefit from Forward Secrecy, 
-you need to delete messages or use ephemeral deletion timers.
+Note however, that Forward Secrecy only increases your security
+if you delete messages or use ephemeral deletion timers.
 Otherwise, if anyone obtains your decryption keys, 
-they are typically able to get all your non-deleted messages
+they are typically also able to get all your non-deleted messages
 and don't need to decrypt any previously collected messages. 
 
 The typical real-world situation for leaked decryption keys is device seizure
@@ -641,7 +641,7 @@ Yes.
 
 We devised a forward secrecy scheme that withstood initial scrutiny from cryptographers and usable security experts. 
 Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
-However, an implementation has not been scheduled yet (Mid 2025). 
+However, an implementation has not been scheduled yet (as of Mid 2025). 
 
 ### Can I reuse my existing private key? {#importkey}
 
