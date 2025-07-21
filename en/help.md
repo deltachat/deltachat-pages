@@ -402,7 +402,7 @@ including a potential one [you might setup yourself without our permission](http
 Welcome to the power of the interoperable and massive chatmail and e-mail system :)
 
 
-## Encryption and Security 
+## Encryption and Security {#e2ee}
 
 ### Which standards are used for end-to-end encryption? 
 
