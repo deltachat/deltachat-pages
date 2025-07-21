@@ -429,10 +429,10 @@ there are no lock or similar markers on end-to-end encrypted messages, anymore.
 
 ### Can i still receive or send mails without end-to-end encryption? 
 
-If you use default [chatmail relays](https://chatmail.at/relays)
+If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
 
-If you instead create a profile using a classic e-mail server
+If you instead create a profile using a classic e-mail server,
 you can send and receive messages without end-to-end encryption. 
 Such messages lacking end-to-end encryption are marked with an e-mail icon 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
@@ -467,7 +467,7 @@ Now wait while [end-to-end encryption is getting established](https://securejoin
 Congratulations! 
 You now will automatically use end-to-end encryption
 with this contact. 
-If you add each other to chat groups 
+If you add each other to chat groups,
 end-to-end encryption will be established among all members. 
 
 
