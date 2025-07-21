@@ -443,7 +443,7 @@ You can send an invite link through another private chat,
 show an invitation QR code when next to each other or in a video call,
 or click on a "contact" that was shared in a chat. 
 
-For Group invitations, 
+For **Group invitations**,
 tap the chat group title to see its member list,
 and select "QR Invite code".
 
@@ -473,7 +473,9 @@ end-to-end encryption will be established among all members.
 
 ### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
 
-A contact profile might show a green checkmark and an "Introduced by" line. 
+A contact profile might show a green checkmark
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
+and an "Introduced by" line.
 Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
 or was introduced by a another green-checkmarked contact.
 Introductions happen automatically when adding members to groups. 
@@ -500,8 +502,7 @@ and attachment metadata such as filenames.
 ### Is OpenPGP secure? {#openpgp-secure}
 
 Yes, Delta Chat uses a secure subset of OpenPGP
-and only displays a padlock security indicator on a message
-if the whole message is properly encrypted and signed.
+requiring the whole message to be properly encrypted and signed.
 For example, "Detached signatures" are not treated as secure.
 
 OpenPGP is not insecure by itself.
