@@ -21,11 +21,11 @@ lang: ru
 
 # Переводы и Отчеты об ошибках
 
-- [Переводы на Transifex](https://explore.transifex.com/delta-chat/)
-- [Проблемы Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Проблемы Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Проблемы Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Проблемы Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Мы постоянно ищем разработчиков и дизайнеров.
 Обычно мы предлагаем контракты на 20-30 часов в неделю или работу по найму (если вы находитесь в Германии).

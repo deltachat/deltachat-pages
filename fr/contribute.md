@@ -19,11 +19,11 @@ Veuillez lire nos [Standards de la communauté](community-standards) pour en sav
 
 # Traductions et rapports de bugs
 
-- [Traductions sur Transifex](https://explore.transifex.com/delta-chat/)
-- [Problèmes de Delta Chat sur Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problèmes de l'application de bureau Delta Chat](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problèmes de Delta Chat sur iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problèmes de la bibliothèque Rust Core et de liaisons Python](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Nous recherchons constamment des développeurs/développeuses et des conceptrices/concepteurs.
 Nous offrons des postes ou des contrats standards de 20/30 heures par semaine (uniquement pour les personnes basées en Allemagne). 

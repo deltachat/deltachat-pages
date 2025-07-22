@@ -37,17 +37,17 @@ Todos los servidores de chatmail están operados por diferentes grupos y persona
 
 ## ¿Puedo usar mi dirección de correo electrónico que ya existe?
 
-Yes, you can use a pre-existing e-mail address with Delta Chat
-but we recommend to use a **dedicated e-mail address for chatting**
-so that your classic usually un-encrypted e-mail does not mix 
-with end-to-end encrypted chat messages. 
+Sí, puede utilizar una dirección de correo electrónico preexistente con Delta Chat
+pero le recomendamos que utilice una **dirección de correo electrónico dedicada para chatear**
+para que su correo electrónico clásico normalmente no cifrado no se mezcle 
+con los mensajes de chat cifrados de extremo a extremo. 
 
 También puede utilizar Delta Chat como aplicación de correo electrónico (en texto claro) para una dirección de correo electrónico existente. 
 
-Delta Chat has multi-profile support so you can have 
-one profile with your classic e-mail address,
-and another for instant always-encrypted chatting. 
-Chatmail addresses are cheap. 
+Delta Chat tiene soporte de múltiples perfiles para que pueda tener 
+un perfil con tu dirección de correo electrónico clásica
+y otro para el chat instantáneo, siempre cifrado. 
+Las direcciones de chatmail son baratas. 
 
 ## ¿Dónde puedo conseguir más información sobre los servidores de chatmail? ¿Puedo tener mi propio?
 

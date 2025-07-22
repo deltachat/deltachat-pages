@@ -362,156 +362,92 @@ Delta Chat 是一款免费且开源的去中心化即时通讯应用，用户可
 欢迎来到可互操作且庞大的 Chatmail 和电子邮件系统的力量 :)
 
 
-## 加密和安全 
+## 加密和安全 {#e2ee}
 
 ### 端到端加密使用了哪些标准 ？ 
 
- [Autocrypt](https://autocrypt.org) 用于自动
-与联系人和群组聊天建立端到端加密。
-Autocrypt 使用 OpenPGP 标准的有限且[安全子集](#openpgp-secure)。
-端到端加密消息标有挂锁
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>。
+Delta Chat uses a [secure subset of the OpenPGP standard](#openpgp-secure)
+to provide automatic end-to-end encryption using these protocols: 
 
- [安全加入协议](https://securejoin.delta.chat/en/latest/new.html)
-用于建立具有保证的端到端加密的聊天，
-从而防止网络攻击和受损服务器。
-标有绿色复选标记的聊天
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-保证端到端加密消息。
+- [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
+  to exchange encryption setup information through QR-code scanning or "invite links". 
+
+- [Autocrypt](https://autocrypt.org) is used for automatically
+  establishing end-to-end encryption between contacts and all members of a group chat. 
+
+- [Sharing a contact to a
+  chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
+  enables receivers to use end-to-end encryption with the contact. 
+
+Delta Chat does not query, publish or interact with any OpenPGP key servers. 
 
 ### 我如何知道信息是否经过端到端加密？ {#whene2e}
 
-所有端到端加密的消息都带有挂锁：
+All messages in Delta Chat are **end-to-end encrypted by default**.
+Since the Delta Chat Version 2 release series (July 2025) 
+there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-<img style="width:160px; margin:1px" src="../assets/help/lock-screenshot.png" alt="padlock in bubble"/>
+### Can i still receive or send mails without end-to-end encryption? 
 
-如果聊天标题旁边有绿色复选标记，则保证端到端加密：
+If you use default [chatmail relays](https://chatmail.at/relays),
+it is impossible to receive or send messages without end-to-end encryption. 
 
-<img style="width:211px; margin:1px" src="../assets/help/green-checkmark-screenshot.png" alt="green checkmark in title"/>
+If you instead create a profile using a classic e-mail server,
+you can send and receive messages without end-to-end encryption. 
+Such messages lacking end-to-end encryption are marked with an e-mail icon 
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
+### How can I establish a chat with a new contact? {#howtoe2ee}
 
-### 如何获得保证的端到端加密和绿色复选标记？ {#howtoe2ee}
-
-如果你与你的聊天伙伴有第二个通信渠道，
-例如视频聊天或不同的即时通讯应用，
-你可以生成邀请链接。
-
-如果你们面对面在一起，
-你可以向你的聊天伙伴展示二维码。
+You can send an invite link through another private chat, 
+show an invitation QR code when next to each other or in a video call,
+or click on a "contact" that was shared in a chat. 
 
 - 对于**群组邀请**，
 点击聊天群组标题以查看其成员列表，
 然后选择“QR 邀请码”。
 
- - 对于**直接 1:1 聊天邀请**，
-点击 Delta Chat 应用主屏幕上的二维码图标 <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />。
+- For **direct 1:1 chat invitations**, 
+  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
 
-让你的聊天伙伴用他们的 Delta Chat 应用扫描二维码图像，
-或点击“复制”或“分享”以创建邀请链接
-并与你的聊天伙伴分享。
+Ask your chat partner to scan the QR image
+with their Delta Chat app,
+or click "Copy" or "Share" to create an invite link
+and share it with your chat partner.
 
-现在等待 [安全加入网络消息在两个设备之间交换](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol)。
+Now wait while [end-to-end encryption is getting established](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol). 
 
-- 如果两个设备都处于在线状态，
-双方最终都会看到一个（群组或直接）聊天，标题旁边带有绿色复选标记
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>。
+- If both sides are online, they will soon see a (group or direct) chat
+  and can start messaging securely. 
 
-- 如果其中一个设备处于离线状态，则只有当设备再次连接互联网且安全加入网络协议完成时，绿色复选标记才会出现。
+- If one side is offline or in bad network, 
+  the  ability to chat is delayed until connectivity is restored. 
 
-恭喜！
-从现在开始您将会自动使用安全的端到端加密与此联系人联系，并且双方都可以将对方添加到绿色复选标记的群组
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>，从而自动在其成员之间传播有保障的端到端加密。
+Congratulations! 
+You now will automatically use end-to-end encryption
+with this contact. 
+If you add each other to chat groups,
+end-to-end encryption will be established among all members. 
 
 
-### 绿色复选标记和“保证的端到端加密”是什么意思？ {#e2eeguarantee}
+### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
 
-带有绿色复选标记的聊天标题
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="绿色复选标记" />
-表示聊天中的所有消息都将进行端到端加密，
-并且不会被受损的电子邮件服务器或互联网提供商读取或更改。
-加入带有绿色复选标记的群组聊天
-可以安全地传播每个人的加密信息（和绿色复选标记），
-从而保证群组和成员之间的端到端加密。
-
-带有绿色复选标记的联系人配置文件
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="绿色复选标记" />
-表示当前保证与联系人的消息传递是端到端加密的。
-每个带有绿色复选标记的联系人要么直接与你进行了 [二维码扫描](#howtoe2ee)，
-要么由另一个带有绿色复选标记的联系人介绍。
-当向群组添加成员时，介绍会自动发生。
-任何将联系人添加到带有绿色复选标记的群组的人都成为
-那些还不认识添加的联系人的成员的介绍人。
-在联系人配置文件中，你可以反复点击“由...介绍”文本
-，直到你到达直接与你进行 [二维码扫描](#howtoe2ee) 的那个人。
-
-请注意，在联系人配置文件中，你可能会看到并点击介绍人，<br>但在配置文件标题中没有绿色复选标记。<br>这通常意味着联系人“[从另一台设备发送了消息](#nocryptanymore)”。
+A contact profile might show a green checkmark
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
+and an "Introduced by" line.
+Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
+or was introduced by a another green-checkmarked contact.
+Introductions happen automatically when adding members to groups. 
+Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
+becomes an introducer. 
+In a contact profile you can tap on the "Introduced by ..." text repeatedly
+until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
 有关“保证的端到端加密”的更深入讨论，
 请参阅 [安全加入协议](https://securejoin.delta.chat/en/latest/new.html)，
 并专门阅读有关“已验证群组”的内容，这是
 此处所谓的“带有绿色复选标记”或“保证的端到端加密”聊天的技术术语。
-
-
-### 联系人“从另一台设备发送了消息”，我该怎么办？ {#nocryptanymore}
-
-你与联系人的聊天失去了保证的端到端加密。
-当你看到此警告时，此聊天的绿色复选标记和联系人已被删除。
-**如果你发现保证的端到端加密突然下降
-对于此联系人来说很意外，请不要接受警告！**
-相反，请通过第二个渠道（
-如视频通话、其他即时通讯应用或电话）与你的联系人核实
-，以找出发生了什么。
-
-如果你的联系人实际上导致了保证的端到端加密下降， 
-请参阅以下段落，了解常见原因及其缓解措施。
-无论如何，所有其他带有绿色复选标记的聊天都保持保证的端到端加密，
-即使该联系人是那里的成员。
-
-**你的联系人在第二台设备（手机或笔记本电脑）上使用 Delta Chat**
-
-如果他们有另一台运行 Delta Chat 应用的设备，
-他们应该从新设备中删除配置文件，
-并[按照此处所述将其添加为第二台设备](#multiclient)。
-在他们之后给你发消息后，警告将消失，
-并且保证的加密将在你的联系人的两台设备之间建立。
-
-**你的联系人使用他们的旧帐户登录名重新安装了 Delta Chat**
- 
-如果他们有[备份文件](#backup)，
-他们应该从新设备中删除配置文件，
-而是导入备份文件以重新创建他们的配置文件。
-在他们之后给你发消息后，警告将消失，
-并且保证的加密将为此联系人重新建立。
-
-如果他们没有备份文件，最好与你的聊天伙伴执行 [二维码扫描](#howtoe2ee)，
-以重新建立保证的端到端加密。
-
-**你的联系人通过 Webmail 界面或其他电子邮件应用发送了邮件，
-并且将很快恢复使用 Delta Chat。**
-
-如果你确定联系人有时使用 Webmail，
-或其他缺少端到端加密的邮件应用，
-那么你可以接受警告。
-一旦你的联系人再次使用 Delta Chat，
-保证的端到端加密将自动重新建立。
-
-**你的联系人完全停止使用 Delta Chat**
-
-有时保持联系比端到端加密更重要。
-["传输层加密" (TLS)](#tls) 可能仍然有意义地保护
-你的设备和电子邮件服务器之间消息的机密性。
-但是，如果没有端到端加密，你和你的联系人将信任你的电子邮件服务器
-不会读取或操纵你的消息，也不会将其交给第三方。
-
-在任何情况下，你都无法做太多其他事情，只能接受警告。
-另请从任何活动的带有绿色复选标记的群组中删除该联系人，
-你可以在联系人配置文件中的“共享聊天”中找到这些群组。
-这可以避免你的联系人收到“无法读取”的消息。
-
-如果联系人因为错误或不良行为而删除了 Delta Chat，
-请考虑发布到我们的 [支持论坛](https://support.delta.chat)，
-以帮助我们识别和解决常见问题。 谢谢！
-
 
 ### 附件（图片、文件、音频等）是否已端到端加密？
 
@@ -524,10 +460,9 @@ Autocrypt 使用 OpenPGP 标准的有限且[安全子集](#openpgp-secure)。
 
 ### OpenPGP 安全吗？ {#openpgp-secure}
 
-是的，Delta Chat 使用 OpenPGP 的安全子集，
-并且仅在消息上显示挂锁安全指示器
-，前提是整个消息都已正确加密和签名。
-例如，“分离签名”不被视为安全。
+Yes, Delta Chat uses a secure subset of OpenPGP
+requiring the whole message to be properly encrypted and signed.
+For example, "Detached signatures" are not treated as secure.
 
 OpenPGP 加密标准本身不存在安全隐患。 
 目前公众讨论中涉及的 OpenPGP 安全问题， 
@@ -544,7 +479,7 @@ Delta Chat 实际使用的是 Rust 语言编写的 OpenPGP 实现库 [rPGP](http
 来进一步提高安全特性，该标准已于 2023 年夏季获得通过，令人欣慰。
 
 
-### 你们是否考虑过使用 OpenPGP 的替代方案进行端到端加密？ {#openpgp-alternatives}
+### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
 
 是的，我们正在关注 [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
 或 [Saltpack](https://saltpack.org/) 等工作，
@@ -576,14 +511,12 @@ Delta Chat 也从未容易受到“直接泄露”EFAIL 攻击，
 如 Autocrypt Level 1 规范所定义。
 
 
-### 如果端到端加密不可用，消息是否会以明文形式暴露？ {#tls}
+### Are messages marked with the mail icon exposed on the Internet? {#tls}
 
- 即使你的消息未保证端到端加密，
-它们仍然受到互联网提供商（如手机或有线电视公司）的保护。
-但是，你的和你的接收者的电子邮件提供商
-可能会读取、分析甚至修改你的消息，
-包括任何附件，
-如果它们未进行端到端加密。
+If you are sending or receiving e-mail messages without end-to-end encryption (using a classic e-mail server),
+they are still protected from cell or cable companies who can not read or modify your e-mail messages. 
+But both your and your recipient's e-mail providers 
+may read, analyze or modify your messages, including any attachments. 
 
 Delta Chat 默认使用严格的
 [TLS 加密](https://en.wikipedia.org/wiki/Transport_Layer_Security)，
@@ -594,10 +527,6 @@ Delta Chat 的所有 TLS 处理都经过了独立的 [安全审计](#security-au
 如果所涉及的电子邮件服务器支持 [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)，
 则将在电子邮件提供商之间强制执行传输加密，
 在这种情况下，即使消息未进行端到端加密，Delta Chat 通信也永远不会以明文形式暴露给互联网。
-
-请注意，[在 TLS 加密之上保持保证的端到端加密](#howtoe2ee)
-可在你的和接收者的设备之间提供普遍的安全性。
-即使你的电子邮件或互联网提供商也无法读取或修改你的消息。
 
 
 ### Delta Chat 如何保护消息中的元数据？ {#message-metadata}
@@ -643,87 +572,31 @@ Delta Chat 在此处显示两个指纹。
 则连接是安全的。
 
 
-### 如何检查消息的加密状态？
-
-消息气泡中的小**挂锁**表示
-消息已从给定的发件人正确进行端到端加密。
-如果**没有挂锁**，则消息未正确进行端到端加密，
-最可能是因为发件人使用的应用或 Webmail 界面
-不支持端到端加密。
-
-
-### 为什么我会看到未加密的消息？
-
-如果联系人使用非 Autocrypt 电子邮件应用，
-则涉及此联系人（在群组或 1:1 聊天中）的所有消息
-将不会进行端到端加密，因此消息中不会显示“挂锁”。
-请注意，即使你的联系人在其帐户上使用 Delta Chat，
-他们也可能在该帐户上使用非 Autocrypt 电子邮件应用，
-这可能会导致间歇性未加密的消息。
-回复未加密的消息是 Autocrypt 强制执行的
-，以防止你的联系人及其非 Autocrypt 电子邮件应用端出现无法读取的消息。
-
-### 如何与有时使用 Webmail 或其他非 Autocrypt 电子邮件应用的 Delta Chat 联系人获得端到端加密的聊天？
-
-如果你需要与
-同时使用 Delta Chat 和非 Autocrypt 应用（例如 Webmail）的电子邮件帐户的联系人进行安全端到端加密的聊天，
-最好与他们设置 [保证的端到端加密](#howtoe2ee)，
-然后创建一个由你二人作为成员的保证的端到端加密的群组聊天。
-在此群组聊天中，所有消息都将进行端到端加密，
-即使你二人之间的直接聊天有
-[“...从另一台设备发送了消息”](#nocryptanymore) 警告
-
-
-### 如何确保消息端到端加密和删除？
-
-确保每条消息都进行端到端加密，
-并尽快删除元数据的最佳方法是
-[使用具有保证的端到端加密的聊天](#howtoe2ee)
-并开启 [阅后即焚消息](#ephemeralmsgs)。
-
-保证的端到端加密聊天可防止 [MITM 攻击](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)，
-而开启阅后即焚消息会在用户配置的时间后删除服务器上的消息。
-
-如果你不需要在服务器上保留消息的长期副本，
-你还可以开启 [“自动从服务器删除消息”](#delold)。
-
-
 ### Delta Chat 是否支持完美前向保密？ {#pfs}
 
-不，Delta Chat 不支持完美前向保密 (PFS)。
-这意味着，如果您的 Delta Chat 私人解密密钥泄露，
-并且有人收集了您之前传输的消息，
-他们将能够使用泄露的解密密钥解密并阅读这些消息。
+No, not yet. 
 
-但请注意，如果有人获得您的解密密钥，
-他们通常也能够获得您的消息，
-无论是否实施了完全前向保密。
-泄露解密密钥的典型现实情况是设备扣押，
-我们在[关于元数据和设备扣押](#device-seizure)的回答中讨论了这一点。
+Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
+This means that if your Delta Chat private decryption key is leaked,
+and someone has collected your prior in-transit messages,
+they will be able to decrypt and read them using the leaked decryption key.
 
-Delta Chat 可能会发展为支持完美前向保密，
-因为 OpenPGP 只是加密消息的容器，
-但密钥管理（以及密钥轮换或密钥“棘轮”）
-可以以灵活的方式组织。
-请参阅 [Seqouia 的 PFS 原型](https://gitlab.com/sequoia-pgp/openpgp-dr)，
-了解 OpenPGP 实现者社区中现有的实验。
+Note however, that Forward Secrecy only increases your security
+if you delete messages or use ephemeral deletion timers.
+Otherwise, if anyone obtains your decryption keys, 
+they are typically also able to get all your non-deleted messages
+and don't need to decrypt any previously collected messages. 
 
+The typical real-world situation for leaked decryption keys is device seizure
+which we also discuss in our answer [on metadata and device seizure](#device-seizure). 
 
-### Delta Chat 的端到端加密是否与 Signal 一样安全？
+### Will Delta Chat support Forward Secrecy? 
 
-这取决于对你而言重要的是什么。
-Delta Chat [不支持像 Signal 那样的 PFS](#pfs)，
-但它提供了 [保证的端到端加密聊天](#e2eeguarantee)，
-可以安全地抵御受损的服务器或损坏的网络。
-Signal 和大多数其他支持 PFS 的即时通讯应用
-没有提供实用的方案来保护聊天群组免受网络攻击，
-而网络攻击可以说比
-潜在的攻击者查封你的手机和私有加密设置
-但不知何故没有你的消息，却完整记录了所有
-过去的加密消息更令人担忧。
+是的。 
 
-在任何情况下，Delta Chat 的端到端加密都使用 [OpenPGP 的安全子集](#openpgp-secure)，
-该子集已 [通过独立的安全审计](../assets/blog/2019-first-security-review.pdf)。
+We devised a forward secrecy scheme that withstood initial scrutiny from cryptographers and usable security experts. 
+Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
+However, an implementation has not been scheduled yet (as of Mid 2025). 
 
 ### 我可以重复使用现有的私钥吗？ {#importkey}
 
@@ -987,6 +860,11 @@ and will very probably be replaced by something else, stay tuned :)
 
 
 ### 如何将我的账户迁移到一个不同的电子邮件地址？
+
+Note: 
+Changing email addresses is temporarily disabled
+because of ongoing changes to the DeltaChat core.
+It should be available again in a few months.
 
  1. 在“设置 → 高级 → 密码和帐户”中更改你的地址，
 然后输入你的新电子邮件帐户的密码（如有必要，还需输入服务器设置）。

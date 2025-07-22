@@ -21,11 +21,11 @@ diskuzi o funkcích a pro získání podpory.
 
 # Překlady a hlášení bugů
 
-- [Překlady na Transifex](https://explore.transifex.com/delta-chat/)
-- [Problémy s Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problémy s Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problémy s Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problémy s Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Stále hledáme vývojáře a designéry.
 Typicky nabízíme práci na 20-30 hodin týdně na kontrakt či zaměstnání (pokud žijete v Německu).

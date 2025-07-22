@@ -20,11 +20,11 @@ Diskussion über Features und um Unterstützung zu erhalten.
 
 # Übersetzungen und Fehlerberichte
 
-- [Übersetzungen auf Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta-Chat-Android-Probleme](https://github.com/deltachat/deltachat-android/issues)
-- [Delta-Chat-Desktop-Probleme](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta-Chat-iOS-Probleme](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust-Kernbibliothek + Python-Probleme](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Wir sind immer auf der Suche nach Entwicklern und Designern.
 Wir bieten in der Regel 20-30-Stundenwoche-Verträge oder Anstellungen (in Deutschland). 

@@ -20,7 +20,7 @@ lang: uk
 
 # Переклади і звіти про помилки
 
-- [Переклади на Transifex](https://explore.transifex.com/delta-chat/)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)

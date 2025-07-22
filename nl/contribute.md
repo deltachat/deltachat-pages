@@ -21,11 +21,11 @@ Als je wilt meepraten in de Delta Chat-gemeenschap, neem dan onze [gemeenschapsr
 
 # Vertaling en bugmeldingen 
 
-- [Vertalen via Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat voor Android-problemen](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat voor computers-problemen](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat voor iOS-problemen](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust-kernbibliotheek- en Python Bindings-problemen](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 We zijn altijd op zoek naar ontwikkelaars en ontwerpers.
 Doorgaans bieden we 20-30-urencontracten of vaste indienststelling aan (laatstgenoemde alleen in Duitsland). 

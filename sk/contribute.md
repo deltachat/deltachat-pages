@@ -20,11 +20,11 @@ For community interactions around Delta Chat please read our [Community Standard
 
 # Translations and Bug Reports
 
-- [Preklady na Transifex](https://explore.transifex.com/delta-chat/)
-- [Problémy Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problémy Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problémy Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problémy s knižnicou Rust Core + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 We are always looking for developers and designers.
 We typically offer 20-30 hours per week contracts or employments (if based in germany).
