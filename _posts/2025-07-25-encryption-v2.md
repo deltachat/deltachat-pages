@@ -7,6 +7,7 @@ image: ../assets/blog/handbag.png
 <img src="../assets/blog/handbag.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 A while ago, a contributor's parent and long-time Delta Chat user 
 got back saying "Everything is fine! But why does each message have a hand bag?" 
+
 After 1000+ hours of collective work on Delta Chat V2 releases 
 we dutifully report: lock icons on messages are gone 
 and end-to-end encrypted chats can not degrade anymore. 
