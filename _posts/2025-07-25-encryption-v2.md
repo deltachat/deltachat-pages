@@ -6,30 +6,30 @@ image: ../assets/blog/handbag.jpg
 
 A while ago, a contributor's parent and long-time Delta Chat user 
 got back saying "Everything is fine! But why does each message have a hand bag?" 
-Oh well. After 1000+ hours of collective work Delta Chat V2 releases are rolling out
-and we dutifully report: lock icons on messages are gone 
-and end-to-end encrypted chats can not degrade anymore 😅
-We recognize that most users can't and don't want to engage in theorizing and checking end-to-end encryption
-but "just" want a reliable and easy-to-use messenger that keeps their chats, messages and contacts private. 
+After 1000+ hours of collective work on Delta Chat V2 releases 
+we dutifully report: lock icons on messages are gone 
+and end-to-end encrypted chats can not degrade anymore. 
+Most users can't and don't want to engage in theorizing and checking end-to-end encryption
+and "just" want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
 
 <a href="https://chatmail.at">
 <img src="../assets/logos/chatmail.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 </a>
 
-With V2, not even e-mail providers can compromise messaging privacy and authenticity 
-because contact identity is not tied to e-mail addresses anymore. 
-The e-mail network is relegated to provide ephemeral message transport 
+With V2 releases, not even e-mail providers can compromise messaging privacy and authenticity anymore. 
+Contact identity is not tied to e-mail addresses anymore. 
+E-mail servers are relegated to provide ephemeral message transport 
 instead of controling a user's digital identity. 
-If this design sounds familiar it's because of [chatmail relays](https://chatmail.at/relays)
-which are used for instant onboarding in all Delta Chat apps since mid 2024. 
-Meanwhile, more than 50 chatmail 3rd party relays run on all continents and 
+If this design sounds familiar it's because of [chatmail relays](https://chatmail.at/relays),
+used for instant onboarding in all Delta Chat apps since 2024. 
+A year later, there are 50 chatmail relays operated by 3rd parties that 
 
-- provide random e-mail addresses without asking any private info, 
+- provide random interoperable e-mail addresses without asking any private info, 
 
 - enforce end-to-end encryption with metadata-minimization for sent and received e-mails, 
 
-- jointly add a second robust layer of TLS and E2EE security enforcement
-  for [chatmail](https://chatmail.at) messaging. 
+- jointly add a **second layer of security enforcement**
+  for Delta Chat and other [chatmail clients](https://chatmail.at/clients).
 
 <a href="http://github.com/chatmail/core/blob/main/README.md">
 <img src="../assets/logos/core-rust-logo.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
@@ -39,11 +39,11 @@ Like always, the new releases maintain compatibility with older releases.
 We never needed to ask users or developers for "co-ordinated upgrades" 
 like [Matrix](https://matrix.org/blog/2025/07/security-predisclosure/) 
 and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025. 
-The e-mail system has a mature separation between transport and message content 
-and all Delta Chat apps and bots rely on the 
-[chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md),
-greatly easing our jobs of maintaining a consistent experience for users and 
-[client developers](https://chatmail.at/clients).
+Not only does the planetary-scaling e-mail system have a mature separation between transport protocols and message formats. 
+But all of the transport and message handling is 
+centrally implemented in the [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md),
+greatly helping to provide a consistent and robust user experience, 
+between Delta Chat apps and all other [chatmail clients](https://chatmail.at/clients). 
 
 
 ## Better encryption with less code and less noise in UIs
