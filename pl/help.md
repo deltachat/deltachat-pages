@@ -459,10 +459,7 @@ Tak, wielokrotnie.
 Projekt Delta Chat stale przechodzi niezależne audyty bezpieczeństwa i analizy,
 od najnowszych do najstarszych:
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encryption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+W grudniu 2024 r. [NLNET](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) wykonała ocenę rPGP zleconą przez [Radically Open Security](https://www.radicallyopensecurity.com/). rPGP służy jako kompleksowy silnik szyfrowania [OpenPGP](https://openpgp.org) w Delta Chat. Wydano dwa ostrzeżenia związane z wynikami tego audytu:
 
 - [„Paniki przy nieprawidłowym wprowadzaniu niezaufanych danych wejściowych”](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
 - [„Potencjalne wyczerpanie zasobów podczas obsługi niezaufanych wiadomości”](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857

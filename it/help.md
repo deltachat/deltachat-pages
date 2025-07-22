@@ -648,10 +648,10 @@ Sì, più volte.
 Il progetto Delta Chat è sottoposto costantemente a verifiche e analisi di sicurezza indipendenti,
 dal più recente al più vecchio:
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encryption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+- Dicembre 2024, un [Valutazione commissionata da NLNET di
+rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) di [Radically Open Security](https://www.radicallyopensecurity.com/) ha preso parte.
+  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Sono stati rilasciati due avvisi relativi ai risultati di questa verifica:
 
   - ["Panico per Input non Attendibili e Malformati"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
   - ["Potenziale Esaurimento delle Risorse durante la gestione di Messaggi non Attendibili"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857

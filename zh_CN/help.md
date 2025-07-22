@@ -615,10 +615,9 @@ Delta Chat 采用 Autocrypt 1.1 标准规范生成 OpenPGP 加密密钥。
 Delta Chat 长期接受第三方独立机构的安全审计与漏洞分析，
 以下按时间倒序列出历年检测记录：
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encryption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+-  2024年12月，网络安全机构[Radically Open Security](https://www.radicallyopensecurity.com/) 受NLNET委托，完成了对加密协议[rPGP的专项审计](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf)。
+作为即时通讯工具Delta Chat的核心加密引擎，rPGP采用[OpenPGP](https://openpgp.org) 标准实现端到端加密。
+基于审计发现，研究团队同步公开了两份技术通告：
 
 - [畸形数据触发系统崩溃漏洞](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv)（编号CVE-2024-53856）
 - [恶意消息潜在导致资源枯竭漏洞](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285)（编号CVE-2024-53857）

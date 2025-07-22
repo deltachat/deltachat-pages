@@ -658,10 +658,10 @@ Delta Chat генерирует безопасные ключи OpenPGP в со�
 Проект Delta Chat находится в постоянном режиме аудита безопасности и анализа,
 от последних до более ранних: 
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encryption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+- Декабрь 2024 года, [экспертиза rPGP, организованная
+ NLNET](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) выполненная [Radically Open Security](https://www.radicallyopensecurity.com/).
+  rPGP является движком сквозного шифрования OpenPGP [OpenPGP](https://openpgp.org) в Delta Chat. 
+  В результате этого аудита были подготовлены два отчета по безопасности:
 
   - ["Паника при обработке некорректных, недоверенных входных данных"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
   - ["Возможная нехватка ресурсов при обработке непроверенных сообщений"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
