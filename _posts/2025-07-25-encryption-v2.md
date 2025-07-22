@@ -90,11 +90,11 @@ and chat messages in mail chats will never become end-to-end encrypted.
 
 XXX screenshosts of contact profiles on multiple platforms 
 
-While users have fewer problems navigating identities in small private circles,
+While users have few problems navigating identities in small private circles,
 the new more beautiful contact profiles aim to help navigate larger chat circles 
 where members frequently get added or removed. 
 The new contact profile aims to help users 
-to identify group members and chat partners: 
+to identify group members and chat partners by answering these questions: 
 
 - Do you recognize the name and avatar? 
 
