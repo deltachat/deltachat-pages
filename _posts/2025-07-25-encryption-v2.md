@@ -61,8 +61,8 @@ the best course of action is to *remove* complexity which is what V2 releases ac
   and "encryption broken" chat dialogues from the user interface, 
   providing for a default end-to-end encrypted user experience, no special signals needed. 
 
-For more technical details and background, 
-please visit the [Revised Encryption and Security FAQ section](help#encryption-and-security)
+For more technical details and background, including some news on "forward secrecy", 
+please visit the [Revised Encryption and Security FAQ section](help#e2ee)
 or watch [two security talks from June 2025](https://chaos.social/@delta/114794093068029745). 
 
 
