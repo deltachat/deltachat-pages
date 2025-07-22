@@ -9,8 +9,8 @@ got back saying "Everything is fine! But why does each message have a hand bag?"
 After 1000+ hours of collective work on Delta Chat V2 releases 
 we dutifully report: lock icons on messages are gone 
 and end-to-end encrypted chats can not degrade anymore. 
-Most users can't and don't want to engage in theorizing and checking end-to-end encryption
-and "just" want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
+After all, most users can't and don't want to engage in theorizing and checking end-to-end encryption.
+They "just" want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
 
 <a href="https://chatmail.at">
 <img src="../assets/logos/chatmail.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
@@ -28,7 +28,7 @@ A year later, there are 50 chatmail relays operated by 3rd parties that
 
 - enforce end-to-end encryption with metadata-minimization for sent and received e-mails, 
 
-- jointly add a **second layer of security enforcement**
+- jointly add a **second layer of security enforcements**
   for Delta Chat and other [chatmail clients](https://chatmail.at/clients).
 
 <a href="http://github.com/chatmail/core/blob/main/README.md">
