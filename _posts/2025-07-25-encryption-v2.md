@@ -77,12 +77,12 @@ While it's impossible
 to receive or send messages without end-to-end encryption
 when onboarding instantly with [chatmail relays](https://chatmail.at/relays)
 you can alternatively manually setup classic e-mail accounts. 
-Messages without end-to-end encryption will then be marked with a "mail icon". 
+Messages without end-to-end encryption will then be marked with a mail icon. 
 There also is an additional "new email" UI action 
 that allows to set a subject and add e-mail address recipients
 before sending a cleartext e-mail message. 
 With Version 2 releases, e-mail messages without end-to-end encryption 
-are generally easier to recognize because chat avatars will also use the same boring "mail icon"
+are generally easier to recognize because chat avatars will also use the same boring mail icon
 and chat messages in mail chats will never become end-to-end encrypted. 
 
 
