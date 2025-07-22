@@ -48,6 +48,7 @@ linked_files = [
 # (using a bit more cryptic/basic anchors
 # protects against renaming in UI and translation of the anchors :)
 anchors_from_external = [
+    "e2ee",
     "e2eeguarantee",
     "ephemeralmsgs",
     "howtoe2ee",
