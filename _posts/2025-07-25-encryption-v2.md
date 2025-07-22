@@ -25,7 +25,7 @@ If this design sounds familiar it's probably because of [chatmail relays](https:
 used for instant onboarding in all Delta Chat apps since 2024. 
 A year later, there are 50 third-party operated chatmail relays which 
 
-- provide random interoperable e-mail addresses without asking any private info, 
+- provide random interoperable e-mail addresses without asking for any private information, 
 
 - enforce end-to-end encryption with metadata-minimization for sent and received e-mails, 
 
@@ -53,7 +53,7 @@ XXX screenshot of a desktop chatlist + message list without any green checkmarks
 
 Experienced developers and maintainers know 
 that in any sufficiently complex system, 
-the best course of action is to *remove* complexity which is what V2 releases achieve on two levels:
+the best course of action is to *remove* complexity, which is what V2 releases achieve on two levels:
 
 - The [massive "keycontacts" rework in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
   added 4969 and removed 6299 lines of code, netting to an impressive **removal of 1330 Lines of Code**. 
