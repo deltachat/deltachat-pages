@@ -423,7 +423,7 @@ Delta Chat does not query, publish or interact with any OpenPGP key servers.
 
 ### How can i know if messages are end-to-end encrypted? {#whene2e}
 
-All messages in Delta Chat are end-to-end encrypted by default. 
+All messages in Delta Chat are **end-to-end encrypted by default**.
 Since the Delta Chat Version 2 release series (July 2025) 
 there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
