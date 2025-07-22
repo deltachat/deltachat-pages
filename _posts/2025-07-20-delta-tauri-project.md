@@ -3,7 +3,7 @@ title: DeltaTauri – Porting Delta Chat Desktop to Tauri.
 author: treefit, WofWca, septias, nojisan
 image: ../assets/blog/2025-07-20-delta-tauri-project/thumbnail_low_res.png
 # com_id:
-# TODO: imporive excerpt
+# TODO: improve excerpt
 excerpt: |
   Our journey of porting Delta Chat Desktop from Electron to Tauri.
 asset_prefix: ../assets/blog/2025-07-20-delta-tauri-project
