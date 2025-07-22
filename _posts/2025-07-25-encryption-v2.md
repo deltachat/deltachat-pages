@@ -16,11 +16,11 @@ They "just" want a reliable fun-to-use messenger that keeps their chats, message
 <img src="../assets/logos/chatmail.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 </a>
 
-With V2 releases, not even e-mail providers can compromise messaging privacy and authenticity anymore. 
-Contact identity is not tied to e-mail addresses anymore. 
+With V2 releases, not even e-mail providers can compromise messaging privacy and authenticity. 
+User identities are not tied to e-mail addresses anymore. 
 E-mail servers are relegated to provide ephemeral message transport 
 instead of controling a user's digital identity. 
-If this design sounds familiar it's because of [chatmail relays](https://chatmail.at/relays),
+If this design sounds familiar it's probably because of [chatmail relays](https://chatmail.at/relays),
 used for instant onboarding in all Delta Chat apps since 2024. 
 A year later, there are 50 chatmail relays operated by 3rd parties that 
 
@@ -38,10 +38,12 @@ A year later, there are 50 chatmail relays operated by 3rd parties that
 Like always, the new releases maintain compatibility with older releases. 
 We never needed to ask users or developers for "co-ordinated upgrades" 
 like [Matrix](https://matrix.org/blog/2025/07/security-predisclosure/) 
-and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025. 
+and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025,
+but still are able to roll out major security upgrades ecosystem-wide.
+[Moxie may have been wrong after all](https://chaos.social/@delta/114710708299242142).  
 Not only does the planetary-scaling e-mail system have a mature separation between transport protocols and message formats. 
-But all of the transport and message handling is 
-centrally implemented in the [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md),
+But all transport and message handling is 
+*centrally implemented* in the [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md),
 greatly helping to provide a consistent and robust user experience, 
 between Delta Chat apps and all other [chatmail clients](https://chatmail.at/clients). 
 
@@ -52,7 +54,7 @@ XXX screenshot of a desktop chatlist + message list without any green checkmarks
 
 Experienced developers and maintainers know 
 that in any sufficiently complex system, 
-the best course of action is to *remove* complexity which is what V2 releases achieve: 
+the best course of action is to *remove* complexity which is what V2 releases achieve on two levels:
 
 - The [massive "keycontacts" rework in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
   added 4969 and removed 6299 lines of code, netting to an impressive **removal of 1330 Lines of Code**. 
@@ -66,11 +68,12 @@ please visit the [Revised Encryption and Security FAQ section](help#e2ee)
 or watch [two security talks from June 2025](https://chaos.social/@delta/114794093068029745). 
 
 
-## Classic e-mail usage is enhanced but requires opt-in 
+## Classic e-mail usage was enhanced but requires opt-in 
 
 XXX screenshot of "new email" compose window 
 XXX screenshot of "email chat" showing mail icon as avatar
 
+<img src="../assets/blog/email-icon.png" style="width:100px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" />
 While it's impossible 
 to receive or send messages without end-to-end encryption
 when onboarding instantly with [chatmail relays](https://chatmail.at/relays)
