@@ -23,7 +23,7 @@ E-mail servers are relegated to provide ephemeral message transport
 instead of controling a user's digital identity. 
 If this design sounds familiar it's probably because of [chatmail relays](https://chatmail.at/relays),
 used for instant onboarding in all Delta Chat apps since 2024. 
-A year later, there are 50 chatmail relays operated by 3rd parties that 
+A year later, there are 50 third-party operated chatmail relays which 
 
 - provide random interoperable e-mail addresses without asking any private info, 
 
