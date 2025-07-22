@@ -21,11 +21,11 @@ Për ndërveprime bashkësie rreth Delta Chat-it, ju lutemi, lexoni [Standarded 
 
 # Përkthime dhe Njoftime të Metash
 
-- [Përkthime në Transifex](https://explore.transifex.com/delta-chat/)
-- [Probleme në Delta Chat për Android](https://github.com/deltachat/deltachat-android/issues)
-- [Probleme në Delta Chat për Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Probleme Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Kërkojmë përherë zhvillues dhe hartues grafikë.
 Zakonisht ofrojmë kontrata ose punësime 20-30 orë në javë (në qofshi banor i Gjermanisë).

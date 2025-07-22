@@ -21,11 +21,11 @@ Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estànd
 
 # Traduccions i informes d'error
 
-- [Traduccions a Transifex](https://explore.transifex.com/delta-chat/)
-- [Tasques del Delta Chat per a Android](https://github.com/deltachat/deltachat-android/issues)
-- [Tasques del Delta Chat per a escriptori](https://github.com/deltachat/deltachat-desktop/issues)
-- [Tasques del Delta Chat per a iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Tasques de la biblioteca de nucli Rust + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Sempre cerquem desenvolupadors i dissenyadors.
 Habitualment oferim contractes de 20-30 hores setmanals (si sou a Alemanya).

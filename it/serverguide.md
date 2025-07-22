@@ -5,9 +5,9 @@ lang: it
 
 # Come Configurare un Server E-mail per Delta Chat
 
-> **Update:** This is outdated - we no longer recommend mailcow Servers,
-> but [Chatmail Relays](2023-12-13-chatmail) for chatting with Delta Chat.
-> Read more [on GitHub](https://github.com/chatmail/relay) about how to set it up!
+> **Aggiornamento:** Questa funzionalità è obsoleta: non consigliamo più i Server mailcow,
+> ma [Chatmail Relay](2023-12-13-chatmail) per chattare con Delta Chat.
+> Scopri di più [su GitHub](https://github.com/chatmail/relay) su come configurarlo!
 
 Delta Chat è un messenger di chat che funziona su e-mail. Ciò significa che possiamo usare qualsiasi
 server e-mail per eseguire gli account Delta Chat. Un server e-mail facile da usare

@@ -5,12 +5,12 @@ lang: es
 
 # Referencias
 
-This list is far from being complete - did we miss something? Please
-[let us know](imprint) or just do a [pull
+A esta lista falta mucho de estar completa. ¿Nos hemos dejado algo? Por favor,
+[háznoslo saber](imprint) o simplemente haz un [pull
 request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
 
 
-### Roskomsvoboda: Delta Chat again refused to cooperate with Russian authorities
+### Roskomsvoboda: Delta Chat vuelve a negarse a cooperar con las autoridades rusas
 
 Translated summary:
 _"In its response to the agency,

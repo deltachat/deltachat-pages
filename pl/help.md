@@ -269,85 +269,87 @@ Delta Chat to darmowy i otwartoźródłowy zdecentralizowany komunikator  z moż
 Pamiętaj, że Delta Chat posiada [mały i chroniący prywatność system powiadomień push](#privacy-notifications), który zapewnia „natychmiastowe dostarczanie” wiadomości ze wszystkich serwerów chatmail, w tym potencjalnego, który [możesz skonfigurować samodzielnie bez naszej zgody](https://delta.chat/chatmail#selfhosted). Witamy w potędze interoperacyjnego i ogromnego systemu chatmail i e-mail :)
 
 
-## Szyfrowanie i bezpieczeństwo
+## Szyfrowanie i bezpieczeństwo {#e2ee}
 
 ### Jakie standardy są stosowane do szyfrowania end-to-end?
 
-[Autocrypt](https://autocrypt.org) służy do automatycznego ustanawiania szyfrowania end-to-end kontaktów i czatów grupowych. Autocrypt wykorzystuje ograniczony i [bezpieczny podzbiór standardu OpenPGP](#openpgp-secure). W pełni zaszyfrowane wiadomości są oznaczone kłódką <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
+Delta Chat uses a [secure subset of the OpenPGP standard](#openpgp-secure)
+to provide automatic end-to-end encryption using these protocols: 
 
-[Protokoły Secure-Join](https://securejoin.delta.chat/en/latest/new.html) służą do nawiązywania rozmów z gwarantowanym szyfrowaniem typu end-to-end, które chroni przed atakami sieciowymi i zagrożonymi serwerami. Czaty oznaczone zielonym znacznikiem wyboru <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/> gwarantują szyfrowanie end-to-end wiadomości.
+- [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
+  to exchange encryption setup information through QR-code scanning or "invite links". 
+
+- [Autocrypt](https://autocrypt.org) is used for automatically
+  establishing end-to-end encryption between contacts and all members of a group chat. 
+
+- [Sharing a contact to a
+  chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
+  enables receivers to use end-to-end encryption with the contact. 
+
+Delta Chat does not query, publish or interact with any OpenPGP key servers. 
 
 ### Skąd mogę wiedzieć, czy wiadomości są szyfrowane metodą e2e? {#whene2e}
 
-Wszystkie całkowicie zaszyfrowane wiadomości są oznaczone kłódką:
+All messages in Delta Chat are **end-to-end encrypted by default**.
+Since the Delta Chat Version 2 release series (July 2025) 
+there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-<img style="width:160px; margin:1px" src="../assets/help/lock-screenshot.png" alt="padlock in bubble"/>
+### Can i still receive or send mails without end-to-end encryption? 
 
-Pełne szyfrowanie jest gwarantowane, jeśli obok tytułu czatu znajduje się zielony znacznik wyboru:
+If you use default [chatmail relays](https://chatmail.at/relays),
+it is impossible to receive or send messages without end-to-end encryption. 
 
-<img style="width:211px; margin:1px" src="../assets/help/green-checkmark-screenshot.png" alt="green checkmark in title"/>
+If you instead create a profile using a classic e-mail server,
+you can send and receive messages without end-to-end encryption. 
+Such messages lacking end-to-end encryption are marked with an e-mail icon 
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
+### How can I establish a chat with a new contact? {#howtoe2ee}
 
-### Jak mogę uzyskać gwarancję kompleksowego szyfrowania i zielone znaczniki wyboru? {#howtoe2ee}
-
-Jeśli masz drugi kanał komunikacji ze swoim partnerem na czacie, np. czat wideo lub inny komunikator, możesz wygenerować link zaproszenia.
-
-Jeśli jesteście razem osobiście, możesz pokazać kod QR swojemu rozmówcy.
+You can send an invite link through another private chat, 
+show an invitation QR code when next to each other or in a video call,
+or click on a "contact" that was shared in a chat. 
 
 -  W przypadku **zaproszeń grupowych** dotknij tytułu czatu grupy, aby wyświetlić listę jej członków, i wybierz „Kod QR zaproszenia”.
 
--  Aby uzyskać **bezpośrednie zaproszenia na czat 1:1**, dotknij ikony kodu QR <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> na ekranie głównym aplikacji Delta Chat.
+- For **direct 1:1 chat invitations**, 
+  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
 
-Pozwól swojemu partnerowi czatu zeskanować obraz QR za pomocą aplikacji Delta Chat lub dotknij „Kopiuj” lub „Udostępnij”, aby utworzyć link zaproszenia i udostępnić go swojemu partnerowi czatu.
+Ask your chat partner to scan the QR image
+with their Delta Chat app,
+or click "Copy" or "Share" to create an invite link
+and share it with your chat partner.
 
-Teraz poczekaj, aż między obydwoma urządzeniami [nastąpi wymiana wiadomości sieciowych Secure-Join](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol).
+Now wait while [end-to-end encryption is getting established](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol). 
 
-- Jeśli oba urządzenia są w trybie online, obie strony ostatecznie zobaczą czat (grupowy lub bezpośredni) z zielonym znacznikiem wyboru <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/> obok tytułu.
+- If both sides are online, they will soon see a (group or direct) chat
+  and can start messaging securely. 
 
-- Jeśli jedno z urządzeń jest w trybie offline, zielone znaczniki wyboru pojawią się później, dopiero gdy urządzenie zostanie ponownie połączone z Internetem i zostanie zrealizowany protokół sieciowy Secure-Join.
+- If one side is offline or in bad network, 
+  the  ability to chat is delayed until connectivity is restored. 
 
-Gratulacje! Teraz będziecie automatycznie korzystać z gwarantowanego kompleksowego szyfrowania tego kontaktu i oboje będziecie mogli dodawać się nawzajem do grup oznaczonych zielonym znacznikiem wyboru <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/> , w ten sposób automatycznie rozpowszechniając gwarantowane kompleksowe szyfrowanie wśród swoich członków.
+Congratulations! 
+You now will automatically use end-to-end encryption
+with this contact. 
+If you add each other to chat groups,
+end-to-end encryption will be established among all members. 
 
 
-### Co oznacza zielony znacznik wyboru i „gwarantowane kompleksowe szyfrowanie”? {#e2eeguarantee}
+### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
 
-Tytuły czatów z zielonymi znacznikami wyboru <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" /> oznaczają, że wszystkie wiadomości na czacie będą w pełni szyfrowane i nie będą mogły zostać odczytane ani zmodyfikowane przez zhakowane serwery poczty e-mail lub dostawców Internetu. Dołączanie do czatów grupowych oznaczonych zielonym znacznikiem bezpiecznie rozpowszechnia informacje o szyfrowaniu wszystkich osób (i zielone znaczniki wyboru) w sposób gwarantujący kompleksowe szyfrowanie w grupie i pomiędzy członkami.
-
-Profile kontaktów z zielonymi znacznikami wyboru <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" /> oznaczają, że obecnie gwarantujemy, że wiadomości kontaktu będą szyfrowane metodą end-to-end. Każdy kontakt oznaczony zielonym znacznikiem albo wykonał z tobą bezpośrednie [skanowanie QR](#howtoe2ee), albo został zweryfikowany przez inny kontakt oznaczony zielonym znacznikiem. Weryfikacje odbywają się automatycznie podczas dodawania członków do grup. Ktokolwiek doda kontakt do grupy oznaczonej zielonym znacznikiem, staje się osobą weryfikującą dla tych członków, którzy jeszcze nie wiedzieli o dodanym kontakcie. W profilu kontaktu możesz wielokrotnie dotykać tekstu „Zweryfikowano przez…”, aż dojdziesz do osoby, z którą bezpośrednio wykonałeś [skanowanie QR](#howtoe2ee).
-
-Pamiętaj, że w profilu kontaktu możesz widzieć i klikać osoby weryfikujące, ale w tytule profilu nie ma zielonego znacznika wyboru. Zwykle oznacza to, że kontakt [„wysłał wiadomość z innego urządzenia”](#nocryptanymore).
+A contact profile might show a green checkmark
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
+and an "Introduced by" line.
+Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
+or was introduced by a another green-checkmarked contact.
+Introductions happen automatically when adding members to groups. 
+Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
+becomes an introducer. 
+In a contact profile you can tap on the "Introduced by ..." text repeatedly
+until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
 Aby uzyskać bardziej szczegółowe omówienie „gwarantowanego szyfrowania typu end-to-end”, zobacz [Protokoły Secure-Join](https://securejoin.delta.chat/en/latest/new.html), a w szczególności przeczytaj o „zweryfikowanych grupach”, technicznym określeniu tak zwanego tutaj „zielonego znacznika wyboru” lub „gwarantowanego szyfrowania end-to-end” czatów.
-
-
-### Kontakt „wysłał wiadomość z innego urządzenia”, co mogę zrobić? {#nocryptanymore}
-
-Twój czat z kontaktem utracił gwarantowane szyfrowanie typu end-to-end. Gdy zobaczysz to ostrzeżenie, zielony znacznik wyboru dla tego czatu i kontaktu został usunięty. **Jeśli zdziwi cię nagły spadek gwarantowanego szyfrowania end-to-end tego kontaktu, nie akceptuj ostrzeżenia!** Zamiast tego skontaktuj się ze swoim kontaktem za pośrednictwem drugiego kanału, takiego jak rozmowa wideo, inny komunikator lub rozmowa telefoniczna, aby dowiedzieć się, co się stało.
-
-Jeśli twój kontakt rzeczywiście spowodował spadek gwarantowanego szyfrowania typu end-to-end, zapoznaj się z kolejnymi akapitami, aby poznać typowe przyczyny i sposoby ich łagodzenia. Niezależnie od tego, wszystkie inne czaty oznaczone zielonym znacznikiem są w pełni szyfrowane, nawet jeśli kontakt jest ich członkiem.
-
-**Twój kontakt korzysta z Delta Chat na drugim urządzeniu (telefonie lub laptopie)**
-
-Jeśli ma inne urządzenie z uruchomioną aplikacją Delta Chat, powinien usunąć konto z nowego urządzenia i dodać je [jako drugie urządzenie zgodnie z opisem tutaj](#multiclient). Gdy tylko skontaktuje się z tobą później, ostrzeżenie zniknie, a na obu urządzeniach twojego kontaktu zostanie ustanowione gwarantowane szyfrowanie.
-
-**Twój kontakt ponownie zainstalował Delta Chat, używając swojego starego loginu do konta**
- 
-Jeśli ma [plik kopii zapasowej](#backup), powinien usunąć konto z nowego urządzenia i zamiast tego zaimportować plik kopii zapasowej, aby ponownie utworzyć konto. Gdy tylko skontaktuje się z tobą później, ostrzeżenie zniknie, a dla tego kontaktu zostanie przywrócone gwarantowane szyfrowanie.
-
-Jeśli nie ma pliku kopii zapasowej, najlepiej wykonać [skanowanie QR](#howtoe2ee) ze swoim partnerem czatu, aby przywrócić gwarantowane szyfrowanie end-to-end.
-
-**Twój kontakt wysłał wiadomość e-mail za pośrednictwem interfejsu poczty internetowej lub innej aplikacji e-mail i wkrótce ponownie zacznie korzystać z Delta Chat.**
-
-Jeśli masz pewność, że kontakt czasami korzysta z poczty internetowej lub innej aplikacji pocztowej, która nie zapewnia szyfrowania end-to-end, możesz zaakceptować ostrzeżenie. Gdy tylko twój kontakt ponownie skorzysta z Delta Chat, gwarantowane szyfrowanie end-to-end zostanie automatycznie przywrócone.
-
-**Twój kontakt całkowicie przestał korzystać z Delta Chat**
-
-Czasami utrzymanie kontaktu jest ważniejsze niż szyfrowanie end-to-end. [„Szyfrowanie warstwy transportowej” (TLS)](#tls) może w dalszym ciągu w znaczący sposób chronić poufność wiadomości przesyłanych między urządzeniem a serwerem poczty e-mail. Jednak bez kompleksowego szyfrowania Ty i Twój kontakt ufacie swojemu serwerowi poczty e-mail, że nie będzie czytać ani manipulować waszymi wiadomościami i nie będzie przekazywać ich osobom trzecim.
-
-W każdym razie nie możesz zrobić nic innego, jak zaakceptować ostrzeżenie. Usuń także kontakt z aktywnej grupy oznaczonej zielonym znacznikiem, którą znajdziesz w sekcji „Wspólne czaty” w profilu kontaktu. Dzięki temu twój kontakt nie otrzyma „nieczytelnych” wiadomości.
-
-Jeśli kontakt usunął Delta Chat z powodu błędów lub niepożądanego zachowania, rozważ opublikowanie postu na naszym [forum pomocy](https://support.delta.chat), aby pomóc nam zidentyfikować i rozwiązać typowe problemy. Dzięki!
-
 
 ### Czy załączniki (zdjęcia, pliki, pliki audio itp.) są szyfrowane metodą end-to-end?
 
@@ -358,14 +360,16 @@ Kiedy mówimy o „wiadomości zaszyfrowanej metodą end-to-end”, zawsze mamy 
 
 ### Czy OpenPGP jest bezpieczny? {#openpgp-secure}
 
-Tak, Delta Chat korzysta z bezpiecznego podzbioru OpenPGP i wyświetla wskaźnik bezpieczeństwa kłódki na wiadomości tylko wtedy, gdy cała wiadomość jest prawidłowo zaszyfrowana i podpisana. Na przykład „Odłączone podpisy” nie są traktowane jako bezpieczne.
+Yes, Delta Chat uses a secure subset of OpenPGP
+requiring the whole message to be properly encrypted and signed.
+For example, "Detached signatures" are not treated as secure.
 
 OpenPGP samo w sobie nie jest niebezpieczne. Większość publicznie omawianych problemów związanych z bezpieczeństwem OpenPGP tak naprawdę wynika ze złej użyteczności lub złej implementacji narzędzi, lub aplikacji (lub obu). Szczególnie ważne jest rozróżnienie pomiędzy OpenPGP, standardem szyfrowania IETF, a GnuPG (GPG), narzędziem wiersza poleceń implementującym OpenPGP. Wiele publicznych komentarzy krytycznych na temat OpenPGP tak naprawdę omawia GnuPG, którego Delta Chat nigdy nie używał. Delta Chat korzysta raczej z implementacji OpenPGP Rust [rPGP](https://github.com/rpgp/rpgp), dostępnej jako [niezależny pakiet „pgp”](https://crates.io/crates/pgp) i poddanej [audytowi bezpieczeństwa w 2019 i 2024 roku](#security-audits).
 
 Naszym celem, wraz z innymi wdrażającymi OpenPGP, jest dalsza poprawa parametrów bezpieczeństwa poprzez wdrożenie [nowego IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/), który na szczęście został przyjęty latem 2023 roku.
 
 
-### Czy rozważałeś użycie alternatyw dla OpenPGP do szyfrowania typu end-to-end? {#openpgp-alternatives}
+### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
 
 Tak, podążamy za rozwiązaniami takimi jak [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security) lub [Saltpack](https://saltpack.org/), ale przyjęcie ich oznaczałoby zerwanie kompleksowej interoperacyjności szyfrowania ze wszystkimi innymi aplikacjami e-mail, które zazwyczaj obsługują szyfrowanie OpenPGP. Nie byłaby to więc łatwa decyzja i użytkownicy muszą wprowadzić wymierne ulepszenia.
 
@@ -379,13 +383,14 @@ Nie, [Delta Chat nigdy nie był podatny na atak EFAIL](https://delta.chat/en/201
 Delta Chat również nigdy nie był podatny na atak EFAIL „Direct Exfiltration”, ponieważ odszyfrowuje jedynie wiadomości `multipart/encrypted`, które zawierają dokładnie jedną zaszyfrowaną i podpisaną część, zgodnie ze specyfikacją Autocrypt Level 1.
 
 
-### Czy wiadomość jest udostępniana w postaci zwykłego tekstu, jeśli szyfrowanie end-to-end nie jest dostępne? {#tls}
+### Are messages marked with the mail icon exposed on the Internet? {#tls}
 
-Nawet jeśli nie ma gwarancji, że twoje wiadomości będą zaszyfrowane metodą end-to-end, nadal są chronione przed dostawcami Internetu, takimi jak operatorzy komórkowi lub telewizji kablowej. Jednakże dostawcy poczty e-mail zarówno twoi, jak i twojego odbiorcy mogą czytać, analizować, a nawet modyfikować twoje wiadomości, w tym wszelkie załączniki, jeśli nie są one w pełni zaszyfrowane.
+If you are sending or receiving e-mail messages without end-to-end encryption (using a classic e-mail server),
+they are still protected from cell or cable companies who can not read or modify your e-mail messages. 
+But both your and your recipient's e-mail providers 
+may read, analyze or modify your messages, including any attachments. 
 
 Delta Chat domyślnie korzysta ze ścisłego [szyfrowania TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security), które zabezpiecza połączenia pomiędzy twoim urządzeniem a dostawcą poczty e-mail. Cała obsługa TLS Delta Chat została poddana niezależnemu [audytowi bezpieczeństwa](#security-audits). Co więcej, połączenie między tobą a dostawcą poczty e-mail odbiorcy będzie zazwyczaj również szyfrowane. Jeśli zaangażowane serwery poczty e-mail obsługują [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461), pomiędzy dostawcami poczty e-mail będzie egzekwowane szyfrowanie transportu. W takim przypadku komunikacja Delta Chat nigdy nie będzie udostępniana w Internecie w postaci zwykłego tekstu, nawet jeśli wiadomość nie została zaszyfrowana metodą end-to-end.
-
-Pamiętaj, że [utrzymywanie gwarantowanego szyfrowania typu end-to-end](#howtoe2ee) oprócz szyfrowania TLS zapewnia wszechstronne bezpieczeństwo między urządzeniami twoimi i odbiorców. Nawet twój dostawca poczty e-mail lub Internetu nie będzie w stanie przeczytać ani zmodyfikować twoich wiadomości.
 
 
 ### W jaki sposób Delta Chat chroni metadane w wiadomościach? {#message-metadata}
@@ -414,43 +419,31 @@ Zarówno w celu ochrony przed serwerami poczty e-mail gromadzącymi metadane, ja
 Możesz sprawdzić stan szyfrowania end-to-end ręcznie w oknie dialogowym „Szyfrowanie” (profil użytkownika w systemie Android/iOS lub kliknij prawym przyciskiem myszy element listy czatu użytkownika na komputerze). Delta Chat pokazuje tam dwa odciski palców. Jeśli te same odciski palców pojawią się u ciebie i urządzeniu twojego kontaktu, połączenie jest bezpieczne.
 
 
-### Jak mogę sprawdzić stan szyfrowania wiadomości?
-
-Mała **kłódka** w dymku wiadomości oznacza, że wiadomość od danego nadawcy została prawidłowo zaszyfrowana. Jeśli **nie ma kłódki**, wiadomość nie została prawidłowo zaszyfrowana metodą end-to-end, najprawdopodobniej dlatego, że nadawca korzysta z aplikacji lub interfejsu poczty internetowej bez obsługi szyfrowania typu end-to-end.
-
-
-### Dlaczego widzę niezaszyfrowane wiadomości?
-
-Jeśli kontakt korzysta z aplikacji e-mail bez Autocrypt, wszystkie wiadomości od tego kontaktu (w czacie grupowym lub 1:1) nie będą w pełni szyfrowane, w związku z czym nie będą wyświetlane z „kłódką” przy wiadomościach. Pamiętaj, że nawet jeśli twoje kontakty korzystają z Delta Chat na swoim koncie, mogą również używać na tym koncie aplikacji e-mail bez Autocrypt, co może powodować sporadyczne wysyłanie niezaszyfrowanych wiadomości. Odpowiadanie niezaszyfrowanych wiadomości na niezaszyfrowane wiadomości jest wymagane przez funkcję Autocrypt, aby zapobiec nieczytelnym wiadomościom po stronie twoich kontaktów i ich aplikacji e-mail bez Autocrypt.
-
-### Jak mogę uzyskać zaszyfrowany ened-to-end czat z kontaktem Delta Chat, który czasami korzysta z poczty internetowej lub innej aplikacji e-mail bez Autocrypt?
-
-Jeśli potrzebujesz bezpiecznie, kompleksowo zaszyfrowanego czatu z kontaktem, który korzysta ze swojego konta zarówno w Delta Chat, jak i w aplikacjach bez Autocrypt (np. poczta internetowa), najlepiej skonfigurować z nim gwarantowane szyfrowanie typu end-to-end, a następnie utworzyć [gwarantowany zaszyfrowany end-to-end](#howtoe2ee) czat grupowy z wami dwoma jako członkami. W tym czacie grupowym wszystkie wiadomości będą w pełni szyfrowane, nawet jeśli bezpośredni czat między wami zawiera ostrzeżenie [„…wysłano wiadomość z innego urządzenia”](#nocryptanymore).
-
-
-### Jak mogę zapewnić kompleksowe szyfrowanie i usuwanie wiadomości?
-
-Najlepszym sposobem, aby mieć pewność, że każda wiadomość jest kompleksowo zaszyfrowana, a metadane usunięte tak szybko, jak to możliwe, jest [korzystanie z czatów z gwarantowanym szyfrowaniem end-to-end](#howtoe2ee) i włączonymi [znikającymi wiadomościami](#ephemeralmsgs).
-
-Gwarantowane szyfrowane metodą end-to-end czaty chronią przed atakami [MITM attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack), a włączenie znikających wiadomości powoduje usunięcie wiadomości z serwera po upływie czasu skonfigurowanego przez użytkownika.
-
-Jeśli nie potrzebujesz dłuższej kopii wiadomości na serwerze, możesz także włączyć opcję [„automatycznie usuń wiadomości z serwera”](#delold).
-
-
 ### Czy Delta Chat obsługuje funkcję Perfect Forward Secrecy? {#pfs}
 
-Nie, Delta Chat nie obsługuje funkcji Perfect Forward Secrecy (PFS). Oznacza to, że jeśli twój prywatny klucz deszyfrujący Delta Chat wycieknie i ktoś zdobędzie twoje wcześniejsze wiadomości w trakcie przesyłania, będzie mógł je odszyfrować i odczytać przy użyciu ujawnionego klucza deszyfrowania.
+No, not yet. 
 
-Należy jednak pamiętać, że jeśli ktoś zdobędzie twoje klucze deszyfrujące, zazwyczaj będzie mógł również uzyskać twoje wiadomości, niezależnie od tego, czy obowiązuje zasada Perfect Forward Secrecy, czy nie. Typową sytuacją w świecie rzeczywistym w przypadku wycieku kluczy deszyfrujących jest przejęcie urządzenia, które omawiamy w naszej odpowiedzi na temat [przejęcia metadanych i urządzenia](#device-seizure).
+Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
+This means that if your Delta Chat private decryption key is leaked,
+and someone has collected your prior in-transit messages,
+they will be able to decrypt and read them using the leaked decryption key.
 
-Możliwe, że Delta Chat ewoluuje, aby wspierać Perfect Forward Secrecy, ponieważ OpenPGP to tylko kontener na zaszyfrowane wiadomości, ale zarządzanie kluczami szyfrowania (a tym samym rotacja kluczy lub „zapadanie kluczy”) mogłoby być zorganizowane w elastyczny sposób. Zobacz [prototyp PFS firmy Seqouia](https://gitlab.com/sequoia-pgp/openpgp-dr), aby zapoznać się z istniejącymi eksperymentami w społeczności implementatorów OpenPGP.
+Note however, that Forward Secrecy only increases your security
+if you delete messages or use ephemeral deletion timers.
+Otherwise, if anyone obtains your decryption keys, 
+they are typically also able to get all your non-deleted messages
+and don't need to decrypt any previously collected messages. 
 
+The typical real-world situation for leaked decryption keys is device seizure
+which we also discuss in our answer [on metadata and device seizure](#device-seizure). 
 
-### Czy szyfrowanie end-to-end Delta Chat jest tak samo bezpieczne jak Signal? 
+### Will Delta Chat support Forward Secrecy? 
 
-To zależy od tego, co jest dla ciebie ważne. Delta Chat [nie obsługuje PFS](#pfs) tak jak Signal, ale zapewnia [gwarantowane szyfrowane end-to-end czatów](#e2eeguarantee), które jest zabezpieczeniem przed zaatakowanymi serwerami lub uszkodzonymi sieciami. Signal i większość innych komunikatorów obsługujących PFS nie zapewniają praktycznego schematu ochrony czatów grupowych przed atakami sieciowymi, które są prawdopodobnie bardziej niepokojące niż potencjalny atakujący, który przejmuje twój telefon i prywatne ustawienia szyfrowania i w ten sposób nie twoje wiadomości i mimo to ma pełny zapis wszystkich poprzednio zaszyfrowanych wiadomości.
+Tak. 
 
-W każdym razie szyfrowanie end-to-end Delta Chat wykorzystuje [bezpieczny podzbiór OpenPGP](#openpgp-secure), który został poddany [niezależnemu audytowi bezpieczeństwa](../assets/blog/2019-first-security-review.pdf).
+We devised a forward secrecy scheme that withstood initial scrutiny from cryptographers and usable security experts. 
+Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
+However, an implementation has not been scheduled yet (as of Mid 2025). 
 
 ### Czy mogę ponownie wykorzystać mój istniejący klucz prywatny? {#importkey}
 
@@ -466,7 +459,10 @@ Tak, wielokrotnie.
 Projekt Delta Chat stale przechodzi niezależne audyty bezpieczeństwa i analizy,
 od najnowszych do najstarszych:
 
-W grudniu 2024 r. [NLNET](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) wykonała ocenę rPGP zleconą przez [Radically Open Security](https://www.radicallyopensecurity.com/). rPGP służy jako kompleksowy silnik szyfrowania [OpenPGP](https://openpgp.org) w Delta Chat. Wydano dwa ostrzeżenia związane z wynikami tego audytu:
+- 2024 December, an [NLNET-commissioned Evaluation of
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
+  rPGP serves as the end-to-end encryption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  Two advisories were released related to the findings of this audit:
 
 - [„Paniki przy nieprawidłowym wprowadzaniu niezaufanych danych wejściowych”](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
 - [„Potencjalne wyczerpanie zasobów podczas obsługi niezaufanych wiadomości”](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
@@ -628,6 +624,11 @@ W tym przypadku Delta Chat nie musi obserwować skrzynki odbiorczej, a wystarczy
 
 ### Jak mogę zmienić moje konto na inny adres e-mail?
 
+Note: 
+Changing email addresses is temporarily disabled
+because of ongoing changes to the DeltaChat core.
+It should be available again in a few months.
+
 1. Zmień swój adres w „Ustawienia → Zaawansowane → Hasło i konto” i wprowadź hasło do swojego nowego konta (i jeśli to konieczne, ustawienia serwera). Otrzymasz informację o przeniesieniu na nowy adres. Dodatkowe powiadomienie pojawi się również na czacie „Komunikaty urządzenia”.
 
 2. Jeśli to możliwe, pozwól, aby twój stary dostawca poczty e-mail przekazywał wszystkie wiadomości na twój nowy adres.
@@ -676,12 +677,10 @@ Oto, co robi Delta Chat z tymi uprawnieniami:
   Jednak niektórzy dostawcy potrzebują specjalnych opcji, aby działać poprawnie, zobacz [Przegląd dostawców](https://providers.delta.chat)
 
 
-### I want to manage my own server for Delta Chat. What do you recommend?
+### Chcę zarządzać własnym serwerem dla Delta Chat. Co polecacie?
 
-- Most mail servers will work well. But what we personally recommend is a
-  chatmail relay server, as described [in this
-  blogpost](https://delta.chat/en/2023-12-13-chatmail).
-- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
+- Większość serwerów pocztowych będzie działać dobrze. Ale my osobiście polecamy serwer przekaźnikowy chatmail, jak opisano [w tym wpisie na blogu](https://delta.chat/en/2023-12-13-chatmail).
+- Możesz znaleźć [przewodnik instalacji na GitHub](https://github.com/chatmail/relay).
 
 
 ### Dlaczego muszę wpisać moje hasło e-mail do Delta Chat? Czy to jest bezpieczne?

@@ -21,11 +21,11 @@ il codice delle applicazioni DeltaChat e di questo sito web.
 
 # Traduzioni e segnalazioni di errori
 
-- [Traduzioni su Transifex](https://explore.transifex.com/delta-chat/)
-- [Problemi su Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problemi su Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problemi su Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problemi su Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Siamo sempre alla ricerca di sviluppatori e designer.
 In genere offriamo contratti o impieghi di 20-30 ore settimanali (se la sede è in Germania).

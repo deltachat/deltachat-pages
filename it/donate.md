@@ -16,7 +16,7 @@ senza sorveglianza, pubblicità o miliardari di mezzo.
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX, conto intestato a (si prega di specificare sempre): Björn Petersen
 
-- Alternatively, scan the following to wire money to that account:  
-  ![Scan to wire money](../assets/donate-via-epc-qr.png)
+- In alternativa, scansiona quanto segue per trasferire denaro a quel conto: 
+![Scansiona per trasferire denaro](../assets/donate-via-epc-qr.png)
 
 [Altri modi per contribuire](contribuire){: .cta-button}

@@ -21,11 +21,11 @@ mencari kode untuk aplikasi DeltaChat dan website ini.
 
 # Terjemahan dan pelaporan bug
 
-- [Terjemahan di Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Masalah di Android](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Masalah di Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat Masalah di iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Masalah Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Kami selalu mencari pengembang dan desainer.
 Kami biasanya menawarkan kontrak atau pekerjaan 20-30 jam per minggu (jika berbasis di Jerman).
