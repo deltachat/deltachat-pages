@@ -4,6 +4,7 @@ author: olgax
 image: ../assets/blog/handbag.jpg
 ---
 
+<img src="../assets/blog/handbag.jpg" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 A while ago, a contributor's parent and long-time Delta Chat user 
 got back saying "Everything is fine! But why does each message have a hand bag?" 
 After 1000+ hours of collective work on Delta Chat V2 releases 
@@ -45,7 +46,6 @@ But all transport and message handling is
 *centrally implemented* in the [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md),
 greatly helping to provide a consistent and robust user experience, 
 between Delta Chat apps and all other [chatmail clients](https://chatmail.at/clients). 
-
 
 ## Better encryption with less code and less noise in UIs
 
