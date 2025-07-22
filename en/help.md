@@ -443,13 +443,13 @@ You can send an invite link through another private chat,
 show an invitation QR code when next to each other or in a video call,
 or click on a "contact" that was shared in a chat. 
 
-For **Group invitations**,
-tap the chat group title to see its member list,
-and select "QR Invite code".
+- For **Group invitations**,
+  tap the chat group title to see its member list,
+  and select "QR Invite code".
 
-For **direct 1:1 chat invitations**,
-tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-on the Delta Chat app main screen.
+- For **direct 1:1 chat invitations**, 
+  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the Delta Chat app main screen.
 
 Ask your chat partner to scan the QR image
 with their Delta Chat app,
