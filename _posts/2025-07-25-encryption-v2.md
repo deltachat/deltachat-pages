@@ -40,12 +40,12 @@ We never needed to ask users or developers for "co-ordinated upgrades"
 like [Matrix](https://matrix.org/blog/2025/07/security-predisclosure/) 
 and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025,
 but still are able to roll out major security upgrades ecosystem-wide.
-[Moxie may have been wrong after all](https://chaos.social/@delta/114710708299242142).  
 Not only does the planetary-scaling e-mail system have a mature separation between transport protocols and message formats. 
 But all transport and message handling is 
 *centrally implemented* in the [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md),
 greatly helping to provide a consistent and robust user experience, 
 between Delta Chat apps and all other [chatmail clients](https://chatmail.at/clients). 
+[Moxie may have been wrong after all](https://chaos.social/@delta/114710708299242142).  
 
 
 ## Better encryption with less code and less noise in UIs
