@@ -1,6 +1,6 @@
 ---
 title: "Delta Chat V2: the chatmail ecosystem is moving" 
-author: olgax, (r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, simon, lothar, gerry, dignifiedquire, hko-s, dkg, ...)
+author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, simon, lothar, gerry, dignifiedquire, hko-s, dkg, ...
 image: ../assets/blog/2vampire.png
 ---
 
@@ -165,3 +165,7 @@ we revised our [Encryption and security FAQ](https://delta.chat/en/help#e2ee)
 to include notes on [Forward Secrecy](https://delta.chat/en/help#pfs)
 and XXX Sealed-sender and XXX Post Quantum Cryptography.  
 V3 is coming :) 
+
+
+XXX verify who wants to be listed in authors actually 
+
