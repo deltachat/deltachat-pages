@@ -16,6 +16,7 @@ The decade long discourse on how to achieve this "just" is ongoing, and V2 relea
 
 <img src="../assets/blog/2025-07-no-desktop-padlock.png" style="width:600px; margin-right:.5em; margin-bottom:.2em;" />
 
+XXX replace with better and more funny screenshot of a maybe blog-posted related conversation 
 
 ## Rolling out major security-upgrades into federated ecosystems
 
