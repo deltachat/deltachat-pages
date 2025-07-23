@@ -11,6 +11,7 @@ Not anymore.
 Consequently, Version 2 drops all lock icons, most green checkmarks and a few "decryption problem" dialogues,
 simplifying the user interface and raising the floor for real-world security outcomes. 
 After all, most users don't want to engage in theorizing and checking end-to-end encryption.
+They have actual lifes to live, and enough challenges to tackle already. 
 They *just* want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
 The decade long discourse on how to achieve this "just" is ongoing, and V2 releases are our contribution to it :) 
 
