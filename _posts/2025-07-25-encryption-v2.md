@@ -50,8 +50,6 @@ between Delta Chat apps and all other [chatmail clients](https://chatmail.at/cli
 
 ## Better encryption with less code and less noise in UIs
 
-XXX screenshot of a desktop chatlist + message list without any green checkmarks or padlocks in messages 
-
 Experienced developers and maintainers know 
 that in any sufficiently complex system, 
 the best course of action is to *remove* complexity, which is what V2 releases achieve on two levels:
@@ -66,6 +64,8 @@ the best course of action is to *remove* complexity, which is what V2 releases a
 For more technical details and background, including some news on "forward secrecy", 
 please visit the [Revised Encryption and Security FAQ section](help#e2ee)
 or watch [two security talks from June 2025](https://chaos.social/@delta/114794093068029745). 
+
+<img src="../assets/blog/2025-07-no-desktop-padlock.png" style="width:600px; margin-right:.5em; margin-bottom:.2em;" />
 
 
 ## Classic e-mail usage was enhanced but requires opt-in
@@ -88,8 +88,6 @@ and chat messages in mail chats will never become end-to-end encrypted.
 
 ## Contact Profiles are more beautiful on all platforms
 
-XXX screenshosts of contact profiles on multiple platforms 
-
 While users have few problems navigating identities in small private circles,
 the new more beautiful contact profiles aim to help navigate larger chat circles 
 where members frequently get added or removed. 
@@ -106,3 +104,4 @@ to identify group members and chat partners by answering these questions:
 
 - Is there a green-checkmark indicating who introduced this contact to you? 
 
+<img src="../assets/blog/2025-07-profile-android.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
