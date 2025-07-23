@@ -151,7 +151,7 @@ Few know that Delta Chat uses the same ED25519 Rust signing crate as Signal,
 that chatmail only uses a *minimal carefully selected subset* of OpenPGP,
 and that current-day OpenPGP collaboration between various players is pretty enjoyable. 
 
-To make a longer story short, [Federation and diversity is worth it](https://chaos.social/@delta/114710708299242142): 
+To make a longer story short, [Federation, Interoperability and Diversity is worth it](https://chaos.social/@delta/114710708299242142): 
 
 > We are basically doing what #signal and in particular moxie refused to do or declares impossible: federation. 
 
@@ -160,6 +160,8 @@ To make a longer story short, [Federation and diversity is worth it](https://cha
 > However, #deltachat is vertically centralized in that all UIs use the same #rust core which implements all networking, encryption, chat/group/message logic in a single centralized place. The now 40+ #chatmail mail relay network is driven from centralized code.  
 
 > At each level replication and federation is built in.
+
+## PPS: yes, we know what some of you are skeptic about
 
 To celebrate this historic "V2" day, 
 we revised our [Encryption and security FAQ](https://delta.chat/en/help#e2ee) 
