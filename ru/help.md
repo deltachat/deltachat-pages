@@ -416,7 +416,7 @@ to provide automatic end-to-end encryption using these protocols:
   chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
   enables receivers to use end-to-end encryption with the contact. 
 
-Delta Chat does not query, publish or interact with any OpenPGP key servers. 
+Delta Chat не запрашивает, не публикует и не взаимодействует с какими-либо серверами ключей OpenPGP.
 
 ### Как узнать зашифрованы ли сообщения сквозным шифрованием? {#whene2e}
 
@@ -424,7 +424,7 @@ All messages in Delta Chat are **end-to-end encrypted by default**.
 Since the Delta Chat Version 2 release series (July 2025) 
 there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-### Can i still receive or send mails without end-to-end encryption? 
+### Могу ли я получать или отправлять письма без сквозного шифрования?
 
 If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
@@ -434,7 +434,7 @@ you can send and receive messages without end-to-end encryption.
 Such messages lacking end-to-end encryption are marked with an e-mail icon 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-### How can I establish a chat with a new contact? {#howtoe2ee}
+### Как мне установить чат с новым контактом? {#howtoe2ee}
 
 You can send an invite link through another private chat, 
 show an invitation QR code when next to each other or in a video call,
@@ -468,7 +468,7 @@ If you add each other to chat groups,
 end-to-end encryption will be established among all members. 
 
 
-### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
+### Что означает зеленая галочка в профиле контакта? {#e2eeguarantee}
 
 A contact profile might show a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
@@ -551,7 +551,7 @@ Delta Chat также никогда не был уязвим к атаке "Dir
 как определено спецификацией Autocrypt Level 1.
 
 
-### Are messages marked with the mail icon exposed on the Internet? {#tls}
+### Видны ли в Интернете сообщения, отмеченные значком почты? {#tls}
 
 If you are sending or receiving e-mail messages without end-to-end encryption (using a classic e-mail server),
 they are still protected from cell or cable companies who can not read or modify your e-mail messages. 
@@ -617,7 +617,7 @@ Delta Chat показывает там два отпечатка.
 
 ### Поддерживает ли Delta Chat совершенную прямую секретность (Perfect forward secrecy, PFS)? {#pfs}
 
-No, not yet. 
+Нет, пока нет.
 
 Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your Delta Chat private decryption key is leaked,
