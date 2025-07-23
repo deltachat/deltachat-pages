@@ -639,8 +639,16 @@ Our tentative scheme is designed to reliably work in federated messaging network
 However, a [chatmail core](https://github.com/chatmail/core) implementation has not been scheduled yet,
 which would make Forward Secret messaging immediately available in all [chatmail clients](https://chatmail.at/clients). 
 
+### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
 
-### How can i check encryption information?
+No, not yet. 
+
+Delta Chat uses the [Open rPGP Rust library](https://github.com/rpg/rpg)
+which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://www.ietf.org/archive/id/draft-ietf-openpgp-pqc-10.html). 
+We aim to add PQC support in [chatmail core](https://github.com/chatmail/core) 
+in collaboration with Proton Mail and other OpenPGP implementors. 
+
+### How can i manually check encryption information?
 
 You may check the end-to-end encryption status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop).
