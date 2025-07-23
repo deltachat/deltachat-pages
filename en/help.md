@@ -595,7 +595,7 @@ All other message, contact and group metadata resides in the end-to-end encrypte
 Both for protecting against metadata-collecting e-mail servers 
 as well as against the threat of device seizure
 we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create temporary chat profiles through QR-code scans.
+to create chat profiles using random e-mail addresses for transport. 
 Note that Delta Chat apps on all platforms support multiple profiles
 so you can easily use situation-specific profiles next to your "main" profile
 with the knowledge that all their data, along with all metadata, will be deleted.
