@@ -132,6 +132,7 @@ that federated systems, and email in particular, can fundamentally not do end-to
 > federated protocols are going to have trouble existing in a software
 > climate that demands movement as it does today. (Moxie Marlinspike July 25, 2017) 
 
+Challenge accepted :) 
 Today, the [chatmail](https://chatmail.at) ecosystem of apps, servers and bots 
 is living proof that e-mail based end-to-end encrypted messaging is not only possible, 
 but even rolling out big security changes throughout a federated system can work. 
