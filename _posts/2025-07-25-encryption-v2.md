@@ -161,7 +161,7 @@ To make a longer story short, [Federation, Interoperability and Diversity is wor
 
 > At each level replication and federation is built in.
 
-## PPS: yes, we know what some of you are skeptic about
+## PPS: We know what some of you remain skeptic about :) 
 
 To celebrate this historic "V2" day, 
 we revised our [Encryption and security FAQ](https://delta.chat/en/help#e2ee) 
