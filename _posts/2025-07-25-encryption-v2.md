@@ -11,7 +11,7 @@ Not anymore.
 Consequently, Version 2 drops all lock icons, most green checkmarks and a few "decryption problem" dialogues,
 simplifying the user interface and raising the floor for real-world security outcomes. 
 After all, most users don't want to engage in theorizing and checking end-to-end encryption.
-They have actual lifes to live, and enough challenges to tackle already. 
+They have actual lives to live, and enough challenges to tackle already. 
 They *just* want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
 The decade long discourse on how to achieve this "just" is ongoing, and V2 releases are our contribution to it :) 
 
@@ -27,12 +27,12 @@ across many hundred thousand devices, across dozens of apps and bots,
 who all upgrade at some random time in the future (or never). 
 During 8 years of development, we never needed to ask users or developers for "co-ordinated upgrades" 
 like for example [Matrix](https://matrix.org/blog/2025/07/security-predisclosure/) 
-and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025. 
-But how could we avoid asking such painful questions when other federated messaging projects struggle? 
+and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025.
+But how could we avoid asking for such painful coordination, when other federated messaging projects struggle?
 
-First of all, the planetary-scaling e-mail system is mature 
+First of all, the planetary-scale e-mail system is mature 
 and has separation between transport protocols and message formats. 
-There are no sudden changes in the SMTP protocols which deliver 360 Billion messages per day. 
+There are no sudden changes in the SMTP protocols which deliver 360 billion messages per day. 
 There are many battle-tested server implementations. 
 Upgrading any of the many [chatmail clients](https://chatmail.at/clients) 
 is largely unrelated to how email servers upgrade. 
@@ -47,18 +47,18 @@ The [key v2 work in the chatmail core Rust library](https://github.com/chatmail/
 added 4969 and removed 6299 lines of code, netting to an impressive **removal of 1330 Lines of Code**. 
 It fundamentally changed how "identity" is handled in chatmail V2 messaging. 
 Chatmail clients, though? 
-They needn't do much more than pulling in a V2 core version, drop some UI elements, adapt some APIs
-and enjoy compatilibity and consistency benefits, as good as it gets. 
+They don't need to do much more than pulling in a V2 core version, drop some UI elements, adapt some APIs
+and enjoy compatibility and consistency benefits, as good as it gets. 
 
 Third, low-level chatmail core developments are moored to UI and UX goals,
 and involve [ongoing usable security research into federated messaging systems](https://passthesalt.ubicast.tv/videos/always-more-secure-analyzing-user-migrations-to-federated-e2ee-messaging-apps-trimmed/). 
-The protocol and cryptography experts accept to be constrained in their designs 
-which must fit actual UI and UX goals, not the other way round. 
+The protocol- and cryptography-experts accept constraining their designs 
+so that they fit actual UI and UX goals, not the other way round. 
 And providing smoothly distributed upgrading across the ecosystem is a key UX goal, if there ever was one. 
 
 Fourth, luck. We may have been just lucky, all things considered :) 
 
-"Nothing works all the time" is a long running meme in chatmail circles, with a double meaning. 
+"Nothing works all the time" is a long-running meme in chatmail circles, with a double meaning. 
 It was probably coined around the second [10-day gathering in Kyiv 2019](https://delta.chat/en/2019-05-08-xyiv). 
 
 
@@ -137,31 +137,31 @@ Challenge accepted :)
 Today, the [chatmail](https://chatmail.at) ecosystem of apps, servers and bots 
 is living proof that e-mail based end-to-end encrypted messaging is not only possible, 
 but even rolling out big security changes throughout a federated system can work. 
-But here is the fun twist with any irony not being lost on us. 
+But here is the fun twist with any irony not being lost on us: 
 [chatmail Rust core](https://github.com/chatmail/core/blob/main/README.md) 
-*beats* Signal in terms of centralization 
-because it runs in all [chatmail clients](https://chatmail.at/clients)
-with a single database schema whereas Signal Android, iOS and Desktop versions 
-each use different databases (making multi-device migration hard)
+*beats* Signal in terms of being one centralized codebase 
+that is used in all [chatmail clients](https://chatmail.at/clients)
+with a single database schema, whereas Signal's Android, iOS and Desktop versions 
+each use different databases (making migration between platforms hard)
 and different languages to implement higher level data structures 
 or even cryptographic properties like "Sealed Sender". 
 
 In the cryptographic machine rooms,
 chatmail efforts co-evolve with the security-audited [rPGP Rust library](https://github.com/rpgp/rpgp)
 which implements state-of-the-art end-to-end encryption protocols and algorithms. 
-Few know that Delta Chat uses the same ED25519 Rust signing crate as Signal,
+Few know that Delta Chat uses the same Ed25519 Rust signing crate as Signal,
 that chatmail only uses a *minimal carefully selected subset* of OpenPGP,
 and that current-day OpenPGP collaboration between various players is pretty enjoyable. 
 
 To make a longer story short, [Federation, Interoperability and Diversity is worth it](https://chaos.social/@delta/114710708299242142): 
 
-> We are basically doing what #signal and in particular moxie refused to do or declares impossible: federation. 
+- We are basically doing what #signal and in particular Moxie refused to do, or declared impossible: federation. 
 
-> Both #email and #activitypub ecosystems are all about federation.  
+- Both the #email and #activitypub ecosystems are all about federation.  
 
-> However, #deltachat is vertically centralized in that all UIs use the same #rust core which implements all networking, encryption, chat/group/message logic in a single centralized place. The now 40+ #chatmail mail relay network is driven from centralized code.  
+- However, #deltachat is vertically centralized in that all UIs use the same #rust core which implements all networking, encryption, chat/group/message logic in a single centralized place. The now 40+ #chatmail mail relay network is driven by centralized code.  
 
-> At each level replication and federation is built in.
+- At each level, replication and federation is built in.
 
 ## PPS: We know what some of you remain skeptic about :) 
 
