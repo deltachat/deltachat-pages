@@ -121,8 +121,7 @@ to identify group members and chat partners by answering these questions:
 
 ## PS: the chatmail ecosystem is moving
 
-Exactly 8 years ago, to the day, 
-Moxie Marlinspike claimed in [the ecosystem is moving](https://signal.org/blog/the-ecosystem-is-moving/)
+In 2016, Moxie Marlinspike claimed in [the ecosystem is moving](https://signal.org/blog/the-ecosystem-is-moving/)
 that federated systems, and email in particular, can fundamentally not do end-to-end encryption: 
 
 > So while it’s nice that I’m able to host my own email, that’s also the
@@ -163,11 +162,10 @@ To make a longer story short, [Federation, Interoperability and Diversity is wor
 
 - At each level, replication and federation is built in.
 
-## PPS: We know what some of you remain skeptic about :) 
+## PPS: We know what some of you remain skeptical about :) 
 
-To celebrate this historic "V2" day, 
-we revised our [Encryption and security FAQ](https://delta.chat/en/help#e2ee) 
-to include notes on [Forward Secrecy](https://delta.chat/en/help#pfs)
+We revised our [Encryption and security FAQ](https://delta.chat/en/help#e2ee) 
+and include notes on [Forward Secrecy](https://delta.chat/en/help#pfs)
 and XXX Sealed-sender and XXX Post Quantum Cryptography.  
 V3 is coming :) 
 
