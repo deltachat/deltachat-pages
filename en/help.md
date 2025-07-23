@@ -648,7 +648,7 @@ which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https:/
 We aim to add PQC support in [chatmail core](https://github.com/chatmail/core) 
 in collaboration with Proton Mail and other OpenPGP implementors. 
 
-### How can i manually check encryption information?
+### How can I manually check encryption information?
 
 You may check the end-to-end encryption status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop).
