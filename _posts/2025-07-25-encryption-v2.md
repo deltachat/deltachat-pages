@@ -1,72 +1,81 @@
 ---
-title: "Delta Chat V2: End-to-end encryption in chats, forever!"
-author: olgax
+title: "Delta Chat V2: the chatmail ecosystem is moving" 
+author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, lothar, gerry
 image: ../assets/blog/handbag.png
 ---
 
-<img src="../assets/blog/handbag.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
-A while ago, a contributor's parent and long-time Delta Chat user 
-got back saying "Everything is fine! But why does each message have a hand bag?" 
+<img src="../assets/blog/handbag.png" style="width:100px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" />
+**With Delta Chat Version 2, chats are end-to-end encrypted, always and by default.**
+Previously it was possible that chats without green checkmarks could contain messages without end-to-end encryption. 
+Not anymore. 
+Consequently, Version 2 drops all lock icons, most green checkmarks and a few "decryption problem" dialogues,
+majorly simplifying the user interface and majorly improving security outcomes for users. 
+After all, most users don't want to engage in theorizing and checking end-to-end encryption.
+They *just* want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
+The decade long discourse on how to achieve this "just" is ongoing, and V2 releases are our contribution to it :) 
 
-After 1000+ hours of collective work on Delta Chat V2 releases 
-we dutifully report: lock icons on messages are gone 
-and end-to-end encrypted chats can not degrade anymore. 
-After all, most users can't and don't want to engage in theorizing and checking end-to-end encryption.
-They "just" want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
+<img src="../assets/blog/2025-07-no-desktop-padlock.png" style="width:600px; margin-right:.5em; margin-bottom:.2em;" />
+
+
+## Rolling out major security-upgrades into federated ecosystems
+
+V2 releases maintain compatibility with older releases, 
+even though they roll out a major security upgrade
+across many hundred thousand devices, across dozens of apps and bots, 
+who all upgrade at some random time in the future (or never). 
+During 8 years of development, we never needed to ask users or developers for "co-ordinated upgrades" 
+like for example [Matrix](https://matrix.org/blog/2025/07/security-predisclosure/) 
+and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025. 
+But how could we avoid asking such painful questions when other federated messaging projects struggle? 
+
+First of all, the planetary-scaling e-mail system is mature 
+and has separation between transport protocols and message formats. 
+There are no sudden changes in the SMTP protocols which deliver 360 Billion messages per day. 
+There are many battle-tested server implementations. 
+Upgrading any of the many [chatmail clients](https://chatmail.at/clients) 
+is largely unrelated to how email servers upgrade. 
+
+<a href="http://github.com/chatmail/core/blob/main/README.md">
+<img src="../assets/logos/core-rust-logo.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
+</a>
+Second, Delta Chat and all other chatmail clients 
+use a *centrally implemented* [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md). 
+This means there is a single place where "moving the ecosystem" can be implemented. 
+The [key v2 work in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
+added 4969 and removed 6299 lines of code, netting to an impressive **removal of 1330 Lines of Code**. 
+It fundamentally changed how "identity" is handled in chatmail V2 messaging. 
+Chatmail clients, though? 
+They didn't do much more than dropping some UI elements and adapting some APIs
+and pull in the new core version. Consistency guaranteed. 
+
+Third, low-level chatmail core developments are still moored to UI and UX goals,
+and involve [ongoing usable security research into federated messaging systems](https://passthesalt.ubicast.tv/videos/always-more-secure-analyzing-user-migrations-to-federated-e2ee-messaging-apps-trimmed/). 
+The protocol and cryptography experts accept to be constrained in their designs 
+which must fit actual UI and UX goals, not the other way round. 
+And providing smoothly distributed upgrading across the ecosystem is a key UX goal if there is any. 
+
+Fourth, luck. We may have been just lucky, all things considered :) 
+
+"Nothing works all the time" is a long running meme in chatmail circles, with a double meaning. 
+It was probably coined around the second [10-day gathering in Kyiv 2019](https://delta.chat/en/2019-05-08-xyiv). 
+
+
+## Chatmail relays: a second layer of E2E enforcement
 
 <a href="https://chatmail.at">
 <img src="../assets/logos/chatmail.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 </a>
 
-With V2 releases, not even e-mail providers can compromise messaging privacy and authenticity. 
-User identities are not tied to e-mail addresses anymore. 
-E-mail servers are relegated to provide ephemeral message transport 
-instead of controling a user's digital identity. 
-If this design sounds familiar it's probably because of [chatmail relays](https://chatmail.at/relays),
-used for instant onboarding in all Delta Chat apps since 2024. 
-A year later, there are 50 third-party operated chatmail relays which 
+[chatmail relays](https://chatmail.at/relays) are used for default onboarding of Delta Chat users and 
 
 - provide random interoperable e-mail addresses without asking for any private information, 
 
-- enforce end-to-end encryption with metadata-minimization for sent and received e-mails, 
+- enforce OpenPGP end-to-end encryption with metadata-minimization for all sent and received e-mails, 
 
-- jointly add a **second layer of security enforcements**
-  for Delta Chat and other [chatmail clients](https://chatmail.at/clients).
+- enforce strict Transport Layer Security (TLS) and Domain signing (DKIM)
 
-<a href="http://github.com/chatmail/core/blob/main/README.md">
-<img src="../assets/logos/core-rust-logo.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
-</a>
-
-Like always, the new releases maintain compatibility with older releases. 
-We never needed to ask users or developers for "co-ordinated upgrades" 
-like [Matrix](https://matrix.org/blog/2025/07/security-predisclosure/) 
-and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025,
-but still are able to roll out major security upgrades ecosystem-wide.
-Not only does the planetary-scaling e-mail system have a mature separation between transport protocols and message formats. 
-But all transport and message handling is 
-*centrally implemented* in the [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md),
-greatly helping to provide a consistent and robust user experience, 
-between Delta Chat apps and all other [chatmail clients](https://chatmail.at/clients). 
-
-## Better encryption with less code and less noise in UIs
-
-Experienced developers and maintainers know 
-that in any sufficiently complex system, 
-the best course of action is to *remove* complexity, which is what V2 releases achieve on two levels:
-
-- The [massive "keycontacts" rework in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
-  added 4969 and removed 6299 lines of code, netting to an impressive **removal of 1330 Lines of Code**. 
-
-- Delta Chat apps on all platforms removed pad locks, green checkmarks (mostly) 
-  and "encryption broken" chat dialogues from the user interface, 
-  providing for a default end-to-end encrypted user experience, no special signals needed. 
-
-For more technical details and background, including some news on "forward secrecy", 
-please visit the [Revised Encryption and Security FAQ section](help#e2ee)
-or watch [two security talks from June 2025](https://chaos.social/@delta/114794093068029745). 
-
-<img src="../assets/blog/2025-07-no-desktop-padlock.png" style="width:600px; margin-right:.5em; margin-bottom:.2em;" />
-
+In other words, chatmail apps and relays each independently enforce transport and end-to-end encryption
+across the growing world-wide ecosystem. 
 
 ## Classic e-mail usage was enhanced but requires opt-in
 
@@ -85,6 +94,7 @@ and chat messages in mail chats will never become end-to-end encrypted.
 
 <img src="../assets/blog/2025-07-email-subject.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
 <img src="../assets/blog/2025-07-emails.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
+
 
 ## Contact Profiles are more beautiful on all platforms
 
@@ -105,3 +115,52 @@ to identify group members and chat partners by answering these questions:
 - Is there a green-checkmark indicating who introduced this contact to you? 
 
 <img src="../assets/blog/2025-07-profile-android.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
+
+
+## PS: the chatmail ecosystem is moving
+
+Exactly 8 years ago, to the day, 
+Moxie Marlinspike claimed in [the ecosystem is moving](https://signal.org/blog/the-ecosystem-is-moving/)
+that federated systems, and email in particular, can fundamentally not do end-to-end encryption: 
+
+> So while it’s nice that I’m able to host my own email, that’s also the
+> reason why my email isn’t end-to-end encrypted, and probably never
+> will be. By contrast, WhatsApp was able to introduce end-to-end
+> encryption to over a billion users with a single software update. So
+> long as federation means stasis while centralization means movement,
+> federated protocols are going to have trouble existing in a software
+> climate that demands movement as it does today. (Moxie Marlinspike July 25, 2017) 
+
+Today, the [chatmail](https://chatmail.at) ecosystem of apps, servers and bots 
+is living proof that e-mail based end-to-end encrypted messaging is not only possible, 
+but even rolling out big security changes throughout a federated system can work. 
+But here is the fun twist with no irony being lost on us. 
+[chatmail Rust core](https://github.com/chatmail/core/blob/main/README.md) 
+*beats* Signal in terms of centralization 
+because it runs in all [chatmail clients](https://chatmail.at/clients)
+with a single database schema whereas Signal Android, iOS and Desktop versions 
+each use different databases (making multi-device migration hard)
+and different languages to implement higher level data structures 
+or even cryptographic properties like "Sealed Sender". 
+
+Chatmail efforts co-evolve with the security-audited [rPGP Rust library](https://github.com/rpgp/rpgp)
+which implements state-of-the-art end-to-end encryption protocols and algorithms. 
+Few know that Delta Chat uses the same ED25519 Rust signing crate as Signal
+that chatmail only uses a *minimal carefully selected subset* of OpenPGP,
+and that current-day OpenPGP collaboration between various players is pretty enjoyable. 
+
+To make a longer story short, [Federation and diversity is worth it](https://chaos.social/@delta/114710708299242142): 
+
+> We are basically doing what #signal and in particular moxie refused to do or declares impossible: federation. 
+
+> Both #email and #activitypub ecosystems are all about federation.  
+
+> However, #deltachat is vertically centralized in that all UIs use the same #rust core which implements all networking, encryption, chat/group/message logic in a single centralized place. The now 40+ #chatmail mail relay network is driven from centralized code.  
+
+> At each level replication and federation is built in.
+
+To celebrate this historic "V2" day, 
+we revised our [Encryption and security FAQ](https://delta.chat/en/help#e2ee) 
+to include notes on [Forward Secrecy](https://delta.chat/en/help#pfs)
+and XXX Sealed-sender and XXX Post Quantum Cryptography.  
+V3 is coming :) 
