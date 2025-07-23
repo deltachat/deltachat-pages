@@ -1,6 +1,6 @@
 ---
 title: "Delta Chat V2: the chatmail ecosystem is moving" 
-author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, simon, lothar, gerry, dignifiedquire, hko-s, dkg, ...
+author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, simon, lothar, gerry, dignifiedquire, hko, dkg, ...
 image: ../assets/blog/2vampire.png
 ---
 
