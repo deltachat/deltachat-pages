@@ -628,7 +628,6 @@ Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your private decryption key is leaked,
 and someone has collected your prior in-transit messages,
 they will be able to decrypt and read them using the leaked decryption key.
-
 Note that Forward Secrecy only increases security if you delete messages. 
 Otherwise, someone obtaining your decryption keys
 is typically also able to get all your non-deleted messages
