@@ -634,7 +634,7 @@ is typically also able to get all your non-deleted messages
 and doesn't even need to decrypt any previously collected messages. 
 
 We tentatively designed a Forward Secrecy scheme that withstood 
-some scrutiny from cryptographers and usable security experts. 
+initial scrutiny from several cryptographers and usable security experts. 
 Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
 However, a [chatmail core](https://github.com/chatmail/core) implementation has not been scheduled yet,
 which would make Forward Secret messaging immediately available in all [chatmail clients](https://chatmail.at/clients). 
