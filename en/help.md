@@ -609,7 +609,7 @@ No, not yet.
 The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
 to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
 It is particularly important because the Signal server knows the mobile number of each account,
-which is often typically associated with passport identities.
+which is most of the time associated with passport identities.
 
 Even if [chatmail relays](https://chatmail.at/relays) 
 do not ask any private data, including no phone numbers, 
