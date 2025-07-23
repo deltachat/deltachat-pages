@@ -53,7 +53,7 @@ Third, low-level chatmail core developments are still moored to UI and UX goals,
 and involve [ongoing usable security research into federated messaging systems](https://passthesalt.ubicast.tv/videos/always-more-secure-analyzing-user-migrations-to-federated-e2ee-messaging-apps-trimmed/). 
 The protocol and cryptography experts accept to be constrained in their designs 
 which must fit actual UI and UX goals, not the other way round. 
-And providing smoothly distributed upgrading across the ecosystem is a key UX goal if there is any. 
+And providing smoothly distributed upgrading across the ecosystem is a key UX goal, if there ever was one. 
 
 Fourth, luck. We may have been just lucky, all things considered :) 
 
