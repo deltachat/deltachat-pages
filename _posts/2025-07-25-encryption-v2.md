@@ -147,7 +147,7 @@ or even cryptographic properties like "Sealed Sender".
 
 Chatmail efforts co-evolve with the security-audited [rPGP Rust library](https://github.com/rpgp/rpgp)
 which implements state-of-the-art end-to-end encryption protocols and algorithms. 
-Few know that Delta Chat uses the same ED25519 Rust signing crate as Signal
+Few know that Delta Chat uses the same ED25519 Rust signing crate as Signal,
 that chatmail only uses a *minimal carefully selected subset* of OpenPGP,
 and that current-day OpenPGP collaboration between various players is pretty enjoyable. 
 
