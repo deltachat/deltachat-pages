@@ -575,37 +575,70 @@ even if the message was not end-to-end encrypted.
 
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
 
-Delta Chat protects most message metadata by putting the following information
-into the end-to-end encrypted part of messages:
+Unlike most other messengers, 
+Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
+Instead, all group metadata is end-to-end encrypted 
+[using a simulation-tested Peer-to-Peer group membership model](https://github.com/chatmail/models/tree/main/group-membership#readme). 
 
-- Subject line 
-- Group avatar and name 
-- MDN (read receipt) requests (`Chat-Disposition-Notification-To`)
-- Disappearing message timer (`Ephemeral-Timer`) 
-- `Chat-Group-Member-Removed`, `Chat-Group-Member-Added` 
-- `Secure-Join` header containing secure join commands
-- Notification about enabling location streaming
-- WebRTC room URL
+E-mail Servers can therefore only see
 
-E-Mail servers do not get access to this protected metadata 
-but they do see the message date as well as the message size,
-and, more importantly, the sender and receiver addresses. 
-E-mail servers need receiver addresses to route and 
-deliver messages to recipient's devices. 
+- the message date, 
 
+- sender and receiver addresses 
+
+- and message size. 
+
+All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
 
 ### How to protect metadata and contacts when a device is seized? {#device-seizure}
 
 Both for protecting against metadata-collecting e-mail servers 
 as well as against the threat of device seizure
-we recommend to use a [chatmail server](https://delta.chat/chatmail)
-to create pseudonymous temporary profiles through QR-code scans.
+we recommend to use a [chatmail relay](https://chatmail.at/relays)
+to create temporary chat profiles through QR-code scans.
 Note that Delta Chat apps on all platforms support multiple profiles
 so you can easily use situation-specific profiles next to your "main" profile
 with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then contacts using temporary profiles
-can not be identified easily, as compared to messengers which reveal
-phone numbers in chat groups which in turn are often associated with legal identities.
+Moreover, if a device is seized then chat contacts using short-lived profiles
+can not be identified easily. 
+
+### Does Delta Chat support "Sealed Sender"? {#sealedsender}
+
+No, not yet. 
+
+The Signal messenger introduced ["Sealed Sender" in 2020](https://signalapp.home.blog/2020/03/05/what-is-signals-sealed-sender-and-how-it-works/)
+to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
+It is particularly important because the Signal server knows the mobile number of each account,
+which is often typically associated with passport identities.
+
+Even if [chatmail relays](https://chatmail.at/relays) 
+do not ask any private data, including no phone numbers, 
+it's still worthwhile to protect relational metadata between addresses. 
+We tentatively designed a "Sealed Sender" scheme that withstood initial scrutiny 
+from cryptographers and 
+is waiting for [chatmail](https://chatmail.at) implementation 
+after which all [chatmail clients](https://chatmail.at/clients) 
+will grow "Sealed Sender" support without any change in client code. 
+
+### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
+
+No, not yet. 
+
+Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
+This means that if your private decryption key is leaked,
+and someone has collected your prior in-transit messages,
+they will be able to decrypt and read them using the leaked decryption key.
+
+Note that Forward Secrecy only increases security if you delete messages. 
+Otherwise, someone obtaining your decryption keys
+is typically also able to get all your non-deleted messages
+and doesn't even need to decrypt any previously collected messages. 
+
+We tentatively designed a Forward Secrecy scheme that withstood 
+some scrutiny from cryptographers and usable security experts. 
+Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
+However, a [chatmail core](https://github.com/chatmail/core) implementation has not been scheduled yet,
+which would make Forward Secret messaging immediately available in all [chatmail clients](https://chatmail.at/clients). 
 
 
 ### How can i check encryption information?
@@ -615,33 +648,6 @@ You may check the end-to-end encryption status manually in the "Encryption" dial
 Delta Chat shows two fingerprints there.
 If the same fingerprints appear on your own and your contact's device,
 the connection is safe.
-
-
-### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
-
-No, not yet. 
-
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your Delta Chat private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
-
-Note however, that Forward Secrecy only increases your security
-if you delete messages or use ephemeral deletion timers.
-Otherwise, if anyone obtains your decryption keys, 
-they are typically also able to get all your non-deleted messages
-and don't need to decrypt any previously collected messages. 
-
-The typical real-world situation for leaked decryption keys is device seizure
-which we also discuss in our answer [on metadata and device seizure](#device-seizure). 
-
-### Will Delta Chat support Forward Secrecy? 
-
-Yes. 
-
-We devised a forward secrecy scheme that withstood initial scrutiny from cryptographers and usable security experts. 
-Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
-However, an implementation has not been scheduled yet (as of Mid 2025). 
 
 ### Can I reuse my existing private key? {#importkey}
 
