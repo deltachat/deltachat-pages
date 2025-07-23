@@ -606,7 +606,7 @@ can not be identified easily.
 
 No, not yet. 
 
-The Signal messenger introduced ["Sealed Sender" in 2020](https://signalapp.home.blog/2020/03/05/what-is-signals-sealed-sender-and-how-it-works/)
+The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
 to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
 It is particularly important because the Signal server knows the mobile number of each account,
 which is often typically associated with passport identities.
