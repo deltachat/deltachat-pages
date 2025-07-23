@@ -46,7 +46,7 @@ The [key v2 work in the chatmail core Rust library](https://github.com/chatmail/
 added 4969 and removed 6299 lines of code, netting to an impressive **removal of 1330 Lines of Code**. 
 It fundamentally changed how "identity" is handled in chatmail V2 messaging. 
 Chatmail clients, though? 
-They needn't do much more than dropping some UI elements and adapting some APIs
+They needn't do much more than dropping some UI elements and adapting some APIs,
 pulling in the new core version, and enjoying compatilibity and consistency benefits, as good as it gets. 
 
 Third, low-level chatmail core developments are still moored to UI and UX goals,
