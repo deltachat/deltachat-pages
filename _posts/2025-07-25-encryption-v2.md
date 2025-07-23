@@ -136,7 +136,7 @@ Challenge accepted :)
 Today, the [chatmail](https://chatmail.at) ecosystem of apps, servers and bots 
 is living proof that e-mail based end-to-end encrypted messaging is not only possible, 
 but even rolling out big security changes throughout a federated system can work. 
-But here is the fun twist with no irony being lost on us. 
+But here is the fun twist with any irony not being lost on us. 
 [chatmail Rust core](https://github.com/chatmail/core/blob/main/README.md) 
 *beats* Signal in terms of centralization 
 because it runs in all [chatmail clients](https://chatmail.at/clients)
