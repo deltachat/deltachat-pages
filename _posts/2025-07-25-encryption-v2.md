@@ -68,10 +68,7 @@ please visit the [Revised Encryption and Security FAQ section](help#e2ee)
 or watch [two security talks from June 2025](https://chaos.social/@delta/114794093068029745). 
 
 
-## Classic e-mail usage was enhanced but requires opt-in 
-
-XXX screenshot of "new email" compose window 
-XXX screenshot of "email chat" showing mail icon as avatar
+## Classic e-mail usage was enhanced but requires opt-in
 
 <img src="../assets/blog/email-icon.png" style="width:100px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" />
 While it's impossible 
@@ -86,6 +83,8 @@ With Version 2 releases, e-mail messages without end-to-end encryption
 are generally easier to recognize because chat avatars will also use the same boring mail icon
 and chat messages in mail chats will never become end-to-end encrypted. 
 
+<img src="../assets/blog/2025-07-email-subject.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
+<img src="../assets/blog/2025-07-emails.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
 
 ## Contact Profiles are more beautiful on all platforms
 
