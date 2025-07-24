@@ -613,7 +613,7 @@ which is usually associated with a passport identity.
 Even if [chatmail relays](https://chatmail.at/relays) 
 do not ask for any private data (including no phone numbers), 
 it might still be worthwhile to protect relational metadata between addresses. 
-We don't foresee bigger problems in using random throw-away e-mail addresses for sending
+We don't foresee bigger problems in using random throw-away e-mail addresses for sealed sending
 but an implementation has not been agreed as a priority yet. 
 
 ### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
