@@ -85,7 +85,7 @@ across the world-wide growing [chatmail](https://chatmail.at) ecosystem.
 <img src="../assets/blog/email-icon.png" style="width:100px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" />
 While it's impossible 
 to receive or send messages without end-to-end encryption
-when onboarding instantly with [chatmail relays](https://chatmail.at/relays)
+when onboarding instantly with [chatmail relays](https://chatmail.at/relays),
 you can alternatively manually setup classic e-mail accounts. 
 Messages without end-to-end encryption will then be marked with a mail icon. 
 There also is an additional "new email" UI action 
