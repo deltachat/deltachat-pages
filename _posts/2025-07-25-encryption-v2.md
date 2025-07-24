@@ -43,7 +43,7 @@ Second, Delta Chat and all other chatmail clients
 use a *centrally implemented* [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md). 
 This means there is a single place where "moving the ecosystem" can be implemented. 
 The [key v2 work in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
-added 4969 and removed 6299 lines of code, netting a **removal of 1330 Lines of Code**. 
+added 4696 and removed 6299 lines of code, netting a **removal of 1603 Lines of Code**. 
 It fundamentally changed how "identity" is handled in chatmail V2 messaging. 
 Chatmail clients, though? 
 They don't need to do much more than pulling in a V2 core version, drop some UI elements, adapt some APIs
