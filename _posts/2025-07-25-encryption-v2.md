@@ -5,7 +5,6 @@ image: ../assets/blog/2vampire.png
 ---
 
 <img src="../assets/blog/2vampire.png" style="width:240px; float:right; clear:both; margin-bottom:.2em;" />
-
 **With Delta Chat Version 2, chats are end-to-end encrypted, always and by default.**
 Previously it was possible that chats without green checkmarks could contain messages without end-to-end encryption. 
 Not anymore. 
@@ -106,7 +105,7 @@ The new contact profile aims to help users
 to identify group members and chat partners more easily. 
 
 <img src="../assets/blog/2025-07-profile-android.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
-
+<img src="../assets/blog/2025-07-profile-ios.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
 
 ## Shortcuts to recently used apps in chats 
 
