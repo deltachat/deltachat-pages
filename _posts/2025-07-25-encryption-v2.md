@@ -117,7 +117,7 @@ at [Replacing billionarish platforms with zip-files](https://delta.chat/en/2025-
 and about the introduction of [realtime Peer-to-Peer networking](https://delta.chat/en/2024-11-20-webxdc-realtime),
 followed by [running a Quake multiplayer game co-ordinated between chatmail peers](https://chaos.social/@delta/114517181096683376). 
 
-XXX add screenshosts with apps in chat title 
+<img src="../assets/blog/2025-07-app-quick-start.png" style="width:500px; margin-right:.5em; margin-bottom:.2em;" />
 
 
 ## PS: the chatmail ecosystem is moving
