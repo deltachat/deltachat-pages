@@ -613,12 +613,9 @@ which is usually associated with a passport identity.
 
 Even if [chatmail relays](https://chatmail.at/relays) 
 do not ask for any private data (including no phone numbers), 
-it's still worthwhile to protect relational metadata between addresses. 
-We tentatively designed a "Sealed Sender" scheme that withstood initial scrutiny 
-from cryptographers and 
-is waiting for [chatmail](https://chatmail.at) implementation 
-after which all [chatmail clients](https://chatmail.at/clients) 
-will grow "Sealed Sender" support without any change in client code. 
+it might still be worthwhile to protect relational metadata between addresses. 
+We don't foresee bigger problems in using random throw-away e-mail addresses for sending
+but an implementation has not been agreed as a priority yet. 
 
 ### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
 
@@ -633,11 +630,12 @@ Otherwise, someone obtaining your decryption keys
 is typically also able to get all your non-deleted messages
 and doesn't even need to decrypt any previously collected messages. 
 
-We tentatively designed a Forward Secrecy scheme that withstood 
-initial scrutiny from several cryptographers and usable security experts. 
-Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
-However, a [chatmail core](https://github.com/chatmail/core) implementation has not been scheduled yet,
-but once implemented, Forward Secret messaging would be immediately available in all [chatmail clients](https://chatmail.at/clients). 
+We designed a Forward Secrecy approach that withstood 
+initial examination from some cryptographers and implementation experts 
+but is pending a more formal write up 
+to ascertain it reliably works in federated messaging and with multi-device usage,
+before it could be implemented in [chatmail core](https://github.com/chatmail/core),
+which would make it available in all [chatmail clients](https://chatmail.at/clients). 
 
 ### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
 
