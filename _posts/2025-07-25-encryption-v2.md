@@ -78,7 +78,7 @@ It was probably coined around the second [10-day gathering in Kyiv 2019](https:/
 - enforce strict Transport Layer Security (TLS) and Domain signing (DKIM)
 
 In other words, chatmail apps and relays each independently enforce transport and end-to-end encryption
-across the growing world-wide ecosystem. 
+across the world-wide growing [chatmail](https://chatmail.at) ecosystem. 
 
 ## Classic e-mail usage was enhanced but requires opt-in
 
