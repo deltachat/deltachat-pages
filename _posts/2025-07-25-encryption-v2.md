@@ -162,13 +162,17 @@ To make a longer story short, [Federation, Interoperability and Diversity is wor
 
 - At each level, replication and federation is built in.
 
-## PPS: We know what some of you remain skeptical about :) 
+## PPS: What some of you may be curious about
 
 We revised our [Encryption and security FAQ](https://delta.chat/en/help#e2ee) 
-and include notes on [Forward Secrecy](https://delta.chat/en/help#pfs)
-and XXX Sealed-sender and XXX Post Quantum Cryptography.  
-V3 is coming :) 
+and include notes on [Forward Secrecy](https://delta.chat/en/help#pfs),
+[Sealed Sender](https://delta.chat/en/help#sealedsender)
+and [Post Quantum Cryptography](https://delta.chat/en/help#pqc). 
 
+## PPPS: What regular end-users wonder about :)
 
-XXX verify who wants to be listed in authors actually 
+<img src="../assets/blog/handbag.png" style="width:100px; float:right; clear:both; margin-left:.5em; " />
+A while ago, a contributor's parent and long-time Delta Chat user
+got back saying "Everything is fine! But why does each message have a hand bag?"
+
 
