@@ -577,8 +577,7 @@ even if the message was not end-to-end encrypted.
 
 Unlike most other messengers, 
 Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
-Instead, all group metadata is end-to-end encrypted 
-[using a simulation-tested Peer-to-Peer group membership model](https://github.com/chatmail/models/tree/main/group-membership#readme). 
+Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
 
 E-mail Servers can therefore only see
 
