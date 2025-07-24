@@ -48,7 +48,8 @@ added 4969 and removed 6299 lines of code, netting to an impressive **removal of
 It fundamentally changed how "identity" is handled in chatmail V2 messaging. 
 Chatmail clients, though? 
 They don't need to do much more than pulling in a V2 core version, drop some UI elements, adapt some APIs
-and enjoy compatibility and consistency benefits, as good as it gets. 
+and enjoy compatibility and consistency benefits. 
+It's as relaxing as it sounds. 
 
 Third, low-level chatmail core developments are moored to UI and UX goals,
 and involve [ongoing usable security research into federated messaging systems](https://passthesalt.ubicast.tv/videos/always-more-secure-analyzing-user-migrations-to-federated-e2ee-messaging-apps-trimmed/). 
