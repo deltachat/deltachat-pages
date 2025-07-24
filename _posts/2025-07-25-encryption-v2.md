@@ -82,9 +82,9 @@ across the world-wide growing [chatmail](https://chatmail.at) ecosystem.
 ## Classic email usage was enhanced but requires opt-in
 
 <img src="../assets/blog/email-icon.png" style="width:100px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" />
-It's impossible to receive or send messages without end-to-end encryption
-when onboarding instantly with [chatmail relays](https://chatmail.at/relays),
-but you can manually setup a classic email account, also as an additional profile. 
+You can not receive or send messages without end-to-end encryption
+when onboarding with [chatmail relays](https://chatmail.at/relays),
+but you may manually setup a classic email account, also as an additional profile. 
 Messages without end-to-end encryption will then be marked with a mail icon. 
 Only classic email profiles offer the new "new email" UI action 
 that allows to set a subject and add email address recipients
