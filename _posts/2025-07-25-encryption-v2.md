@@ -158,6 +158,8 @@ We revised our [Encryption and security FAQ](https://delta.chat/en/help#e2ee)
 and include notes on [Forward Secrecy](https://delta.chat/en/help#pfs),
 [Sealed Sender](https://delta.chat/en/help#sealedsender)
 and [Post Quantum Cryptography](https://delta.chat/en/help#pqc). 
+To hear about our conceptions of usable security and future plans
+you may watch [two security talks from June 2025](https://chaos.social/@delta/114794093068029745).
 
 ## PPPS: What regular end-users wonder about :)
 
