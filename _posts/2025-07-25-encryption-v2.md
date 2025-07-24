@@ -110,7 +110,7 @@ to identify group members and chat partners more easily.
 
 ## Shortcuts to recently used apps in chats 
 
-All Delta Chat clients now provide direct access in the chat title bar to recently used [webxdc apps](https://webxdc.org).
+All Delta Chat clients now provide direct access in the chat title bar to recently used [webxdc apps](https://webxdc.org/apps).
 For more background, we recently wrote about refined app discovery, notifications and home screen integration 
 at [Replacing billionarish platforms with zip-files](https://delta.chat/en/2025-01-23-webxdc-no-billionaires),
 and about the introduction of [realtime Peer-to-Peer networking](https://delta.chat/en/2024-11-20-webxdc-realtime),
