@@ -104,17 +104,7 @@ While users have few problems navigating identities in small private circles,
 the new more beautiful contact profiles aim to help navigate larger chat circles 
 where members frequently get added or removed. 
 The new contact profile aims to help users 
-to identify group members and chat partners by answering these questions: 
-
-- Do you recognize the name and avatar? 
-
-- When did you last see a message from them? 
-
-- What does the "bio" say about the profile? 
-
-- Do you have any chats in common? 
-
-- Is there a green-checkmark indicating who introduced this contact to you? 
+to identify group members and chat partners more easily. 
 
 <img src="../assets/blog/2025-07-profile-android.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
 
@@ -152,15 +142,15 @@ Few know that Delta Chat uses the same Ed25519 Rust signing crate as Signal,
 that chatmail only uses a *minimal carefully selected subset* of OpenPGP,
 and that current-day OpenPGP collaboration between various players is pretty enjoyable. 
 
-To make a longer story short, [Federation, Interoperability and Diversity is worth it](https://chaos.social/@delta/114710708299242142): 
+To make a longer story short, we recently posted about [our commitments to Federation](https://chaos.social/@delta/114710708299242142): 
 
-- We are basically doing what #signal and in particular Moxie refused to do, or declared impossible: federation. 
-
-- Both the #email and #activitypub ecosystems are all about federation.  
-
-- However, #deltachat is vertically centralized in that all UIs use the same #rust core which implements all networking, encryption, chat/group/message logic in a single centralized place. The now 40+ #chatmail mail relay network is driven by centralized code.  
-
-- At each level, replication and federation is built in.
+> We are basically doing what #signal and in particular Moxie refused to do, or declared impossible: federation. 
+>
+> Both the #email and #activitypub ecosystems are all about federation.  
+>
+> However, #deltachat is vertically centralized in that all UIs use the same #rust core which implements all networking, encryption, chat/group/message logic in a single centralized place. The now 40+ #chatmail mail relay network is driven by centralized code.  
+>
+> At each level, replication and federation is built in.
 
 ## PPS: What some of you may be curious about
 
