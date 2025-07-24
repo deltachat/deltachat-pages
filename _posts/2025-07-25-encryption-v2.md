@@ -35,7 +35,7 @@ and has separation between transport protocols and message formats.
 There are no sudden changes in the SMTP protocols which deliver 360 billion messages per day. 
 There are many battle-tested server implementations. 
 Upgrading any of the many [chatmail clients](https://chatmail.at/clients) 
-is largely unrelated to how email servers upgrade. 
+is largely unrelated to how servers upgrade. 
 
 <a href="http://github.com/chatmail/core/blob/main/README.md">
 <img src="../assets/logos/core-rust-logo.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
