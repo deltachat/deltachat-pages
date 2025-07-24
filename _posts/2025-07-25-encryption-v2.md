@@ -13,7 +13,8 @@ simplifying the user interface and raising the floor for real-world security out
 After all, most users don't want to engage in theorizing and checking end-to-end encryption.
 They have actual lives to live, and enough challenges to tackle already. 
 They *just* want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
-The decade long discourse on how to achieve this "just" is ongoing, and V2 releases are our contribution to it :) 
+The decade long discourse on how to achieve this "just" is ongoing, and V2 releases are our contribution to it.
+Working code is hard to argue with, let alone by claiming "it can't work" :) 
 
 <img src="../assets/blog/2025-07-no-desktop-padlock.png" style="width:100%; margin-bottom:.2em;" />
 
