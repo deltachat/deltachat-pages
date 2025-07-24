@@ -15,7 +15,7 @@ They have actual lives to live, and enough challenges to tackle already.
 They *just* want a reliable fun-to-use messenger that keeps their chats, messages and contacts private. 
 The decade long discourse on how to achieve this "just" is ongoing, and V2 releases are our contribution to it :) 
 
-<a href="../assets/blog/2025-07-no-desktop-padlock.png"><img src="../assets/blog/2025-07-no-desktop-padlock.png" style="width:100%; margin-bottom:.2em;" /></a>
+<img src="../assets/blog/2025-07-no-desktop-padlock.png" style="width:100%; margin-bottom:.2em;" />
 
 ## Rolling out major security-upgrades into federated ecosystems
 
