@@ -29,7 +29,7 @@ like for example [Matrix](https://matrix.org/blog/2025/07/security-predisclosure
 and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025.
 But how could we avoid asking for such painful coordination, when other federated messaging projects struggle?
 
-First of all, the planetary-scale e-mail system is mature 
+First of all, the planetary-scale email system is mature 
 and has separation between transport protocols and message formats. 
 There are no sudden changes in the SMTP protocols which deliver 360 billion messages per day. 
 There are many battle-tested server implementations. 
@@ -70,27 +70,26 @@ It was probably coined around the second [10-day gathering in Kyiv 2019](https:/
 
 [chatmail relays](https://chatmail.at/relays) are used for default onboarding of Delta Chat users and 
 
-- provide random interoperable e-mail addresses without asking for any private information, 
+- provide random interoperable email addresses without asking for any private information, 
 
-- enforce OpenPGP end-to-end encryption with metadata-minimization for all sent and received e-mails, 
+- enforce OpenPGP end-to-end encryption with metadata-minimization for all sent and received emails, 
 
 - enforce strict Transport Layer Security (TLS) and Domain signing (DKIM)
 
 In other words, chatmail apps and relays each independently enforce transport and end-to-end encryption
 across the world-wide growing [chatmail](https://chatmail.at) ecosystem. 
 
-## Classic e-mail usage was enhanced but requires opt-in
+## Classic email usage was enhanced but requires opt-in
 
 <img src="../assets/blog/email-icon.png" style="width:100px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" />
-While it's impossible 
-to receive or send messages without end-to-end encryption
+It's impossible to receive or send messages without end-to-end encryption
 when onboarding instantly with [chatmail relays](https://chatmail.at/relays),
-you can alternatively manually setup classic e-mail accounts. 
+but you can manually setup a classic email account, also as an additional profile. 
 Messages without end-to-end encryption will then be marked with a mail icon. 
-There also is an additional "new email" UI action 
-that allows to set a subject and add e-mail address recipients
-before sending a cleartext e-mail message. 
-With Version 2 releases, e-mail messages without end-to-end encryption 
+There now is an additional "new email" UI action 
+that allows to set a subject and add email address recipients
+before sending a cleartext email. 
+With Version 2 releases, emails without end-to-end encryption 
 are generally easier to recognize because chat avatars will also use the same boring mail icon
 and chat messages in mail chats will never become end-to-end encrypted. 
 
@@ -135,7 +134,7 @@ that federated systems, and email in particular, can fundamentally not do end-to
 
 Challenge accepted :) 
 Today, the [chatmail](https://chatmail.at) ecosystem of apps, servers and bots 
-is living proof that e-mail based end-to-end encrypted messaging is not only possible, 
+is living proof that email based end-to-end encrypted messaging is not only possible, 
 but even rolling out big security changes throughout a federated system can work. 
 But here is the fun twist with any irony not being lost on us: 
 [chatmail Rust core](https://github.com/chatmail/core/blob/main/README.md) 
