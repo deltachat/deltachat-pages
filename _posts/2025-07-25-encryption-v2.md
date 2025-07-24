@@ -68,7 +68,7 @@ It was probably coined around the second [10-day gathering in Kyiv 2019](https:/
 <img src="../assets/logos/chatmail.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 </a>
 
-[chatmail relays](https://chatmail.at/relays) are used for default onboarding of Delta Chat users and 
+[Chatmail relays](https://chatmail.at/relays) are used for default onboarding of Delta Chat users and
 
 - provide random interoperable email addresses without asking for any private information, 
 
