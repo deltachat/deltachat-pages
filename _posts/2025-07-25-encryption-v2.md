@@ -86,7 +86,7 @@ It's impossible to receive or send messages without end-to-end encryption
 when onboarding instantly with [chatmail relays](https://chatmail.at/relays),
 but you can manually setup a classic email account, also as an additional profile. 
 Messages without end-to-end encryption will then be marked with a mail icon. 
-There now is an additional "new email" UI action 
+Only classic email profiles offer the new "new email" UI action 
 that allows to set a subject and add email address recipients
 before sending a cleartext email. 
 With Version 2 releases, emails without end-to-end encryption 
