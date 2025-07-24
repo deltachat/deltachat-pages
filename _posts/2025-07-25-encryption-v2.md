@@ -174,8 +174,8 @@ you may watch [two security talks from June 2025](https://chaos.social/@delta/11
 
 ## PPPS: What regular end-users wonder about :)
 
-<img src="../assets/blog/handbag.png" style="width:100px; float:right; clear:both; margin-left:.5em; " />
+
 A while ago, a contributor's parent and long-time Delta Chat user
-got back saying "Everything is fine! But why does each message have a hand bag?"
+got back saying: "Everything is fine! But why does each message have a hand bag?"
 
-
+<img src="../assets/blog/handbag.png" style="width:100px; display: block; margin: auto;" />
