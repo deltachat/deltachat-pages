@@ -642,7 +642,7 @@ No, not yet.
 
 Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpg/rpg)
 which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://www.ietf.org/archive/id/draft-ietf-openpgp-pqc-10.html). 
-We aim to add PQC support in [chatmail core](https://github.com/chatmail/core) 
+We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
 in collaboration with other OpenPGP implementers. 
 
 ### How can I manually check encryption information?
