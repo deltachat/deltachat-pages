@@ -110,6 +110,15 @@ to identify group members and chat partners more easily.
 <img src="../assets/blog/2025-07-profile-android.png" style="width:300px; margin-right:.5em; margin-bottom:.2em;" />
 
 
+## Shortcuts to recently used webxdc apps in chats 
+
+All Delta Chat clients now provide direct access in the chat title bar to recently used [webxdc apps](https://webxdc.org).
+For more background, we recently wrote about refined webxdc app discovery, notifications and home screen integration 
+at [Replacing billionarish platforms with zip-files](https://delta.chat/en/2025-01-23-webxdc-no-billionaires). 
+
+XXX add screenshosts with direct screenshots
+
+
 ## PS: the chatmail ecosystem is moving
 
 In 2016, Moxie Marlinspike claimed in [the ecosystem is moving](https://signal.org/blog/the-ecosystem-is-moving/)
