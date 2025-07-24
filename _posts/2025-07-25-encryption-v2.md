@@ -4,7 +4,8 @@ author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, t
 image: ../assets/blog/2vampire.png
 ---
 
-<img src="../assets/blog/2vampire.png" style="width:100px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" />
+<img src="../assets/blog/2vampire.png" style="width:240px; float:right; clear:both; margin-bottom:.2em;" />
+
 **With Delta Chat Version 2, chats are end-to-end encrypted, always and by default.**
 Previously it was possible that chats without green checkmarks could contain messages without end-to-end encryption. 
 Not anymore. 
