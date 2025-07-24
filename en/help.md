@@ -576,12 +576,10 @@ even if the message was not end-to-end encrypted.
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
 
 Unlike most other messengers, 
-servers do not see or keep any metadata about contacts or groups, also not in encrypted form. 
+Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
+Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
 
-All group metadata is end-to-end encrypted 
-[using an extensively simulation-tested Peer-to-Peer group membership model](https://github.com/chatmail/models/tree/main/group-membership#readme). 
-
-E-mail Servers can only see
+E-mail Servers can therefore only see
 
 - the message date, 
 
@@ -589,39 +587,34 @@ E-mail Servers can only see
 
 - and message size. 
 
-All other message metadata resides in the end-to-end encrypted part of messages. 
+All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
 
 ### How to protect metadata and contacts when a device is seized? {#device-seizure}
 
 Both for protecting against metadata-collecting e-mail servers 
 as well as against the threat of device seizure
 we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create temporary chat profiles through QR-code scans.
+to create chat profiles using random e-mail addresses for transport. 
 Note that Delta Chat apps on all platforms support multiple profiles
 so you can easily use situation-specific profiles next to your "main" profile
 with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then contacts using short-lived profiles
-can not be identified easily, as compared to messengers which reveal
-phone numbers in chat groups which in turn are often associated with passport identities.
+Moreover, if a device is seized then chat contacts using short-lived profiles
+can not be identified easily. 
 
 ### Does Delta Chat support "Sealed Sender"? {#sealedsender}
 
 No, not yet. 
 
-The Signal messenger introduced ["Sealed Sender" in 2020](https://signalapp.home.blog/2020/03/05/what-is-signals-sealed-sender-and-how-it-works/)
+The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
 to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
-It is particualarly important because the Signal server knows the mobile number of each account,
-which these days is typically associated with passport identities. 
+It is particularly important because the Signal server knows the mobile number of each account,
+which is usually associated with a passport identity.
 
-While [chatmail relays](https://chatmail.at/relays) 
-do not ask any private data, including no phone numbers, 
-when a new user onboards with a random address,
-it's still worthwhile to protect relational metadata. 
-
-We designed a "Sealed Sender" scheme that withstood initial scrutiny 
-from cryptographers and is waiting for [chatmail](https://chatmail.at) 
-implementation after which all [chatmail clients](https://chatmail.at/clients) 
-will grow "Sealed Sender" support without any change in client code. 
+Even if [chatmail relays](https://chatmail.at/relays) 
+do not ask for any private data (including no phone numbers), 
+it might still be worthwhile to protect relational metadata between addresses. 
+We don't foresee bigger problems in using random throw-away e-mail addresses for sealed sending
+but an implementation has not been agreed as a priority yet. 
 
 ### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
 
@@ -631,25 +624,34 @@ Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your private decryption key is leaked,
 and someone has collected your prior in-transit messages,
 they will be able to decrypt and read them using the leaked decryption key.
+Note that Forward Secrecy only increases security if you delete messages. 
+Otherwise, someone obtaining your decryption keys
+is typically also able to get all your non-deleted messages
+and doesn't even need to decrypt any previously collected messages. 
 
-Note however, that Forward Secrecy only increases security
-if you delete messages or use ephemeral deletion timers.
-Otherwise, if anyone obtains your decryption keys, 
-they are typically also able to get all your non-deleted messages
-and don't need to decrypt any previously collected messages. 
+We designed a Forward Secrecy approach that withstood 
+initial examination from some cryptographers and implementation experts 
+but is pending a more formal write up 
+to ascertain it reliably works in federated messaging and with multi-device usage,
+before it could be implemented in [chatmail core](https://github.com/chatmail/core),
+which would make it available in all [chatmail clients](https://chatmail.at/clients). 
 
-We devised a Forward Secrecy scheme that withstood initial scrutiny from cryptographers and usable security experts. 
-Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
-However, a [chatmail core](https://github.com/chatmail/core) implementation has not been tackled yet. 
+### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
 
-### How can i check encryption information?
+No, not yet. 
+
+Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpg/rpg)
+which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
+We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
+in collaboration with other OpenPGP implementers. 
+
+### How can I manually check encryption information?
 
 You may check the end-to-end encryption status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop).
 Delta Chat shows two fingerprints there.
 If the same fingerprints appear on your own and your contact's device,
 the connection is safe.
-
 
 ### Can I reuse my existing private key? {#importkey}
 
