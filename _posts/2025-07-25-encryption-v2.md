@@ -29,7 +29,7 @@ like for example [Matrix](https://matrix.org/blog/2025/07/security-predisclosure
 and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025.
 But how could we avoid asking for such painful coordination, when other federated messaging projects struggle?
 
-First of all, the planetary-scale email system is mature 
+**First of all,** the planetary-scale email system is mature
 and has separation between transport protocols and message formats. 
 There are no sudden changes in the SMTP protocols which deliver 360 billion messages per day. 
 There are many battle-tested server implementations. 
@@ -39,7 +39,7 @@ is largely unrelated to how servers upgrade.
 <a href="http://github.com/chatmail/core/blob/main/README.md">
 <img src="../assets/logos/core-rust-logo.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 </a>
-Second, Delta Chat and all other chatmail clients 
+**Second,** Delta Chat and all other chatmail clients
 use a *centrally implemented* [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md). 
 This means there is a single place where "moving the ecosystem" can be implemented. 
 The [key v2 work in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
@@ -50,13 +50,13 @@ They don't need to do much more than pulling in a V2 core version, drop some UI 
 and enjoy compatibility and consistency benefits. 
 It's as relaxing as it sounds. 
 
-Third, low-level chatmail core developments are moored to UI and UX goals,
+**Third,** low-level chatmail core developments are moored to UI and UX goals,
 and involve [ongoing usable security research into federated messaging systems](https://passthesalt.ubicast.tv/videos/always-more-secure-analyzing-user-migrations-to-federated-e2ee-messaging-apps-trimmed/). 
 Our protocol- and cryptography-experts accept constraining their designs 
 so that they fit actual UI and UX goals, not the other way round. 
 And providing smoothly distributed upgrading across the ecosystem is a key UX goal, if there ever was one. 
 
-Fourth, luck. We may have been just lucky, all things considered :) 
+**Fourth,** luck. We may have been just lucky, all things considered :)
 
 "Nothing works all the time" is a long-running meme in chatmail circles, with a double meaning. 
 It was probably coined around the second [10-day gathering in Kyiv 2019](https://delta.chat/en/2019-05-08-xyiv). 
