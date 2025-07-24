@@ -81,7 +81,7 @@ across the world-wide growing [chatmail](https://chatmail.at) ecosystem.
 
 ## Classic email usage was enhanced but requires opt-in
 
-<img src="../assets/blog/email-icon.png" style="width:100px; float:left; clear:both; margin-right:.5em; margin-bottom:.2em;" />
+<img src="../assets/blog/email-icon.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 You can not receive or send messages without end-to-end encryption
 when onboarding with [chatmail relays](https://chatmail.at/relays),
 but you may manually setup a classic email account, also as an additional profile. 
