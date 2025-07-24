@@ -609,10 +609,10 @@ No, not yet.
 The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
 to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
 It is particularly important because the Signal server knows the mobile number of each account,
-which is most of the time associated with passport identities.
+which is usually associated with a passport identity.
 
 Even if [chatmail relays](https://chatmail.at/relays) 
-do not ask any private data, including no phone numbers, 
+do not ask for any private data (including no phone numbers), 
 it's still worthwhile to protect relational metadata between addresses. 
 We tentatively designed a "Sealed Sender" scheme that withstood initial scrutiny 
 from cryptographers and 
@@ -643,7 +643,7 @@ which would make Forward Secret messaging immediately available in all [chatmail
 
 No, not yet. 
 
-Delta Chat uses the [Open rPGP Rust library](https://github.com/rpg/rpg)
+Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpg/rpg)
 which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://www.ietf.org/archive/id/draft-ietf-openpgp-pqc-10.html). 
 We aim to add PQC support in [chatmail core](https://github.com/chatmail/core) 
 in collaboration with Proton Mail and other OpenPGP implementors. 
