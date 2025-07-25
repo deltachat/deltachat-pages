@@ -18,11 +18,11 @@ lang: ru
 Чтобы вывести отпечатки SHA256 сертификата подписи APK, можно использовать, например:  
 `keytool -printcert -jarfile <APK-file>`
 
-## Desktop
+## Компьютер
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+Открытый ключ, используемый для подписи версий для компьютера, опубликован ниже и на <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/<version>/signature.asc` (example: for v1.59.1 you can find instructions in <https://download.delta.chat/desktop/v1.59.1/signature.asc>).
+Подробные инструкции по проверке можно найти по адресу `https://download.delta.chat/desktop/<version>/signature.asc` (например: инструкции для версии 1.59.1 можно найти по адресу: <https://download.delta.chat/desktop/v1.59.1/signature.asc>).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -40,4 +40,4 @@ nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Download: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
+Загрузить: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
