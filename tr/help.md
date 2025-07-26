@@ -639,7 +639,7 @@ which would make it available in all [chatmail clients](https://chatmail.at/clie
 
 No, not yet. 
 
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpg/rpg)
+Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
 which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
 We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
 in collaboration with other OpenPGP implementers. 
