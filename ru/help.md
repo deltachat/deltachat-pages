@@ -416,7 +416,7 @@ to provide automatic end-to-end encryption using these protocols:
   chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
   enables receivers to use end-to-end encryption with the contact. 
 
-Delta Chat does not query, publish or interact with any OpenPGP key servers. 
+Delta Chat не запрашивает, не публикует и не взаимодействует с какими-либо серверами ключей OpenPGP.
 
 ### Как узнать зашифрованы ли сообщения сквозным шифрованием? {#whene2e}
 
@@ -424,7 +424,7 @@ All messages in Delta Chat are **end-to-end encrypted by default**.
 Since the Delta Chat Version 2 release series (July 2025) 
 there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-### Can i still receive or send mails without end-to-end encryption? 
+### Могу ли я получать или отправлять письма без сквозного шифрования?
 
 If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
@@ -434,7 +434,7 @@ you can send and receive messages without end-to-end encryption.
 Such messages lacking end-to-end encryption are marked with an e-mail icon 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-### How can I establish a chat with a new contact? {#howtoe2ee}
+### Как мне установить чат с новым контактом? {#howtoe2ee}
 
 You can send an invite link through another private chat, 
 show an invitation QR code when next to each other or in a video call,
@@ -468,7 +468,7 @@ If you add each other to chat groups,
 end-to-end encryption will be established among all members. 
 
 
-### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
+### Что означает зеленая галочка в профиле контакта? {#e2eeguarantee}
 
 A contact profile might show a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
@@ -551,7 +551,7 @@ Delta Chat также никогда не был уязвим к атаке "Dir
 как определено спецификацией Autocrypt Level 1.
 
 
-### Are messages marked with the mail icon exposed on the Internet? {#tls}
+### Видны ли в Интернете сообщения, отмеченные значком почты? {#tls}
 
 If you are sending or receiving e-mail messages without end-to-end encryption (using a classic e-mail server),
 they are still protected from cell or cable companies who can not read or modify your e-mail messages. 
@@ -572,74 +572,83 @@ Delta Chat по умолчанию использует строгое
 
 ### Как Delta Chat защищает метаданные в сообщениях? {#message-metadata}
 
-Delta Chat защищает большинство метаданных сообщений, помещая следующую информацию,
-в зашифрованную сквозным шифрованием часть сообщений:
+Unlike most other messengers, 
+Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
+Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
 
-- Тема сообщения 
-- Аватар и название группы 
-- Запросы MDN (уведомление о прочтении) (`Chat-Disposition-Notification-To`)
-- Таймер исчезающих сообщений (`Ephemeral-Timer`)
-- Участник-группы-чата-удалён (`Chat-Group-Member-Removed`); Участник-группы-чата-добавлен (`Chat-Group-Member-Added`) 
-- Заголовок `Secure-Join`, содержащий команды безопасного соединения
-- Уведомление о включении потоковой передачи местоположения
-- URL-адрес комнаты WebRTC
+E-mail Servers can therefore only see
 
-Серверы электронной почты не получают доступ к этим защищённым метаданным, 
-но они видят дату сообщения, а также его размер,
-и, что более важно, адреса отправителя и получателя. 
-Серверам электронной почты нужны адреса получателей для маршрутизации и 
-доставки сообщений на устройства получателей.
+- the message date, 
 
+- sender and receiver addresses 
+
+- and message size. 
+
+All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
 
 ### Как защитить метаданные и контакты при изъятии устройства? {#device-seizure}
 
-Для защиты от серверов электронной почты, собирающих метаданные, 
-а также от угрозы конфискации устройства,
-мы рекомендуем использовать [сервер chatmail](https://delta.chat/chatmail),
-для создания безымянных (псевдонимных), временных профилей через сканирование QR-кодов.
-Обратите внимание, что приложения Delta Chat на всех платформах поддерживают несколько профилей,
-так что вы можете легко использовать отдельные профили, для конкретной ситуации,
-помимо вашего "основного" профиля,
-зная, что все их данные, вместе с метаданными, будут удалены.
-Кроме того, если устройство будет конфисковано, контакты, использующие временные профили,
-не могут быть легко идентифицированы, в отличие от мессенджеров, которые раскрывают
-номера телефонов в групповых чатах, которые часто связаны с реальными личностями.
+Both for protecting against metadata-collecting e-mail servers 
+as well as against the threat of device seizure
+we recommend to use a [chatmail relay](https://chatmail.at/relays)
+to create chat profiles using random e-mail addresses for transport. 
+Note that Delta Chat apps on all platforms support multiple profiles
+so you can easily use situation-specific profiles next to your "main" profile
+with the knowledge that all their data, along with all metadata, will be deleted.
+Moreover, if a device is seized then chat contacts using short-lived profiles
+can not be identified easily. 
 
+### Does Delta Chat support "Sealed Sender"? {#sealedsender}
 
-### Как я могу проверить информацию о шифровании?
+Нет, пока нет.
+
+The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
+to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
+It is particularly important because the Signal server knows the mobile number of each account,
+which is usually associated with a passport identity.
+
+Even if [chatmail relays](https://chatmail.at/relays) 
+do not ask for any private data (including no phone numbers), 
+it might still be worthwhile to protect relational metadata between addresses. 
+We don't foresee bigger problems in using random throw-away e-mail addresses for sealed sending
+but an implementation has not been agreed as a priority yet. 
+
+### Поддерживает ли Delta Chat совершенную прямую секретность (Perfect forward secrecy, PFS)? {#pfs}
+
+Нет, пока нет.
+
+Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
+This means that if your private decryption key is leaked,
+and someone has collected your prior in-transit messages,
+they will be able to decrypt and read them using the leaked decryption key.
+Note that Forward Secrecy only increases security if you delete messages. 
+Otherwise, someone obtaining your decryption keys
+is typically also able to get all your non-deleted messages
+and doesn't even need to decrypt any previously collected messages. 
+
+We designed a Forward Secrecy approach that withstood 
+initial examination from some cryptographers and implementation experts 
+but is pending a more formal write up 
+to ascertain it reliably works in federated messaging and with multi-device usage,
+before it could be implemented in [chatmail core](https://github.com/chatmail/core),
+which would make it available in all [chatmail clients](https://chatmail.at/clients). 
+
+### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
+
+Нет, пока нет.
+
+Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
+which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
+We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
+in collaboration with other OpenPGP implementers. 
+
+### How can I manually check encryption information?
 
 Вы можете проверить статус сквозного шифрования вручную в диалоговом окне "Шифрование"
 (профиль пользователя на Android/iOS или щелкните правой кнопкой мыши элемент списка чата пользователя в приложении для ПК).
 Delta Chat показывает там два отпечатка.
 Если на вашем устройстве и на устройстве вашего контакта показаны одинаковые отпечатки,
 соединение безопасно.
-
-
-### Поддерживает ли Delta Chat совершенную прямую секретность (Perfect forward secrecy, PFS)? {#pfs}
-
-No, not yet. 
-
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your Delta Chat private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
-
-Note however, that Forward Secrecy only increases your security
-if you delete messages or use ephemeral deletion timers.
-Otherwise, if anyone obtains your decryption keys, 
-they are typically also able to get all your non-deleted messages
-and don't need to decrypt any previously collected messages. 
-
-The typical real-world situation for leaked decryption keys is device seizure
-which we also discuss in our answer [on metadata and device seizure](#device-seizure). 
-
-### Will Delta Chat support Forward Secrecy? 
-
-Да. 
-
-We devised a forward secrecy scheme that withstood initial scrutiny from cryptographers and usable security experts. 
-Our tentative scheme is designed to reliably work in federated messaging networks and with multi-device usage. 
-However, an implementation has not been scheduled yet (as of Mid 2025). 
 
 ### Можно ли повторно использовать существующий секретный ключ? {#importkey}
 

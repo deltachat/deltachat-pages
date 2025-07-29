@@ -18,11 +18,11 @@ W przypadku systemu Android można sprawdzić, czy certyfikat APK jest zgodny z 
 Do wydrukowania odcisków palców SHA256 certyfikatu podpisu aplikacji można użyć np.
 `keytool -printcert -jarfile <APK-file>`
 
-## Desktop
+## Komputer stacjonarny
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+Klucz publiczny używany do podpisywania wydań na komputery stacjonarne jest opublikowany poniżej i na <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/<version>/signature.asc` (example: for v1.59.1 you can find instructions in <https://download.delta.chat/desktop/v1.59.1/signature.asc>).
+Szczegółowe instrukcje dotyczące weryfikacji można znaleźć pod adresem `https://download.delta.chat/desktop/<version>/signature.asc` (przykład: dla wersji 1.59.1 instrukcje można znaleźć w <https://download.delta.chat/desktop/v1.59.1/signature.asc>).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -40,4 +40,4 @@ nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Download: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
+Pobierz: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
