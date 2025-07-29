@@ -1,6 +1,6 @@
 ---
 title: "Delta Chat V2: a major security upgrade, beautified contact profiles, new email action and direct app access in chats"
-author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, treefit, sebi, lothar, gerry, dignifiedquire, hko, alireza, feld, flub, dkg, ...
+author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, treefit, sebi, lothar, gerry, dignifiedquire, hko, alireza, feld, flub, rako, dkg, ...
 image: ../assets/blog/2vampire.png
 ---
 
