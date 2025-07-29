@@ -124,7 +124,7 @@ followed by [running a Quake multiplayer game co-ordinated between chatmail peer
 
 ## PS: the chatmail ecosystem is moving
 
-In 2016, Moxie Marlinspike claimed in [the ecosystem is moving](https://signal.org/blog/the-ecosystem-is-moving/)
+In 2016, Signal founder Moxie Marlinspike claimed in [the ecosystem is moving](https://signal.org/blog/the-ecosystem-is-moving/)
 that federated systems, and email in particular, can fundamentally not do end-to-end encryption: 
 
 > So while it’s nice that I’m able to host my own email, that’s also the
