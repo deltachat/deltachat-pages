@@ -1,6 +1,6 @@
 ---
-title: "Delta Chat V2: the chatmail ecosystem is moving" 
-author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, treefit, lothar, gerry, dignifiedquire, hko, alireza, feld, flub, dkg, ...
+title: "Delta Chat V2: a major security upgrade, beautified contact profiles, new email action and direct app access in chats"
+author: olgax, r10s, l, hocuri, adb, ndh, amzd, xenia, nami, wofwca, iequidoo, treefit, sebi, lothar, gerry, dignifiedquire, hko, alireza, feld, flub, dkg, ...
 image: ../assets/blog/2vampire.png
 ---
 
@@ -40,24 +40,25 @@ is largely unrelated to how servers upgrade.
 <img src="../assets/logos/core-rust-logo.png" style="width:100px; float:right; clear:both; margin-left:.5em; margin-bottom:.2em;" />
 </a>
 **Second,** Delta Chat and all other chatmail clients
-use a *centrally implemented* [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md). 
-This means there is a single place where "moving the ecosystem" can be implemented. 
+embed the [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md). 
+This means there is a single central place where "moving the ecosystem" can be implemented. 
 The [key v2 work in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
 added 4696 and removed 6299 lines of code, netting a **removal of 1603 Lines of Code**. 
-It fundamentally changed how "identity" is handled in chatmail V2 messaging. 
+It fundamentally changed how "identity" is handled in chatmail V2 messaging.
 Chatmail clients, though? 
-They don't need to do much more than pulling in a V2 core version, drop some UI elements, adapt some APIs
-and enjoy compatibility and consistency benefits. 
-It's as relaxing as it sounds. 
+They don't need to do much more than pulling in a V2 core version, drop some UI elements, adapt a few APIs
+and enjoy vast security and compatibility benefits. 
+It's as relaxing as it sounds (except for chatmail core developers who bear the brunt if anything goes wrong). 
 
 **Third,** low-level chatmail core developments are moored to UI and UX goals,
 and involve [ongoing usable security research into federated messaging systems](https://passthesalt.ubicast.tv/videos/always-more-secure-analyzing-user-migrations-to-federated-e2ee-messaging-apps-trimmed/). 
 Our protocol- and cryptography-experts accept constraining their designs 
 so that they fit actual UI and UX goals, not the other way round. 
-And providing smoothly distributed upgrading across the ecosystem is a key UX goal, if there ever was one. 
+Providing smooth distributed upgrading across the ecosystem is a key UX goal which all teams aim for. 
 
-**Fourth,** luck. We may have been just lucky, all things considered :)
-
+**Fourth,** luck. We may have been just lucky, all things considered :) 
+Our centralized core Rust architecture and mature email protocols with transport/content separation help
+but do not guarantee that we never have to ask users unpleasant questions or for forgiveness. 
 "Nothing works all the time" is a long-running meme in chatmail circles, with a double meaning. 
 It was probably coined around the second [10-day gathering in Kyiv 2019](https://delta.chat/en/2019-05-08-xyiv). 
 
@@ -74,10 +75,12 @@ It was probably coined around the second [10-day gathering in Kyiv 2019](https:/
 
 - enforce OpenPGP end-to-end encryption with metadata-minimization for all sent and received emails, 
 
-- enforce strict Transport Layer Security (TLS) and Domain signing (DKIM)
+- enforce strict Transport Layer Security (TLS) and Domain Key signing (DKIM)
 
-In other words, chatmail apps and relays each independently enforce transport and end-to-end encryption
-across the world-wide growing [chatmail](https://chatmail.at) ecosystem. 
+Chatmail relays and apps each independently enforce transport and end-to-end encryption
+across the world-wide growing [secure chatmail](https://chatmail.at) ecosystem. 
+New relays are automatically interoperable based on cryptography and IETF standards. 
+No permission from us needed. 
 
 ## Classic email usage was enhanced but requires opt-in
 
@@ -135,24 +138,28 @@ that federated systems, and email in particular, can fundamentally not do end-to
 Challenge accepted :) 
 Today, the [chatmail](https://chatmail.at) ecosystem of apps, servers and bots 
 is living proof that email based end-to-end encrypted messaging is not only possible, 
-but even rolling out big security changes throughout a federated system can work. 
-But here is the fun twist with any irony not being lost on us: 
+but even rolling out big security enhancements throughout a federated system can work. 
+But there is a fun twist that *reinforces* Moxie's core "centralization means movement" argument: 
 [chatmail Rust core](https://github.com/chatmail/core/blob/main/README.md) 
 *beats* Signal in terms of being one centralized codebase 
-that is used in all [chatmail clients](https://chatmail.at/clients)
+that is used in all [chatmail clients](https://chatmail.at/clients). 
+All federation protocols and IETF standards are implemented in this one centralized library
 with a single database schema, whereas Signal's Android, iOS and Desktop versions 
 each use different databases (making migration between platforms hard)
-and different languages to implement higher level data structures 
-or even cryptographic properties like "Sealed Sender". 
+and different languages to implement networking, higher level data structures 
+or even some cryptographic properties like [Sealed Sender](https://delta.chat/en/help#sealedsender). 
 
 In the cryptographic machine rooms,
-chatmail efforts co-evolve with the security-audited [rPGP Rust library](https://github.com/rpgp/rpgp)
+centralized chatmail core efforts co-evolve with the security-audited [rPGP Rust library](https://github.com/rpgp/rpgp)
 which implements state-of-the-art end-to-end encryption protocols and algorithms. 
 Few know that Delta Chat uses the same Ed25519 Rust signing crate as Signal,
 that chatmail only uses a *minimal carefully selected subset* of OpenPGP,
 and that current-day OpenPGP collaboration between various players is pretty enjoyable. 
+Chatmail clients are not implementing any aspect of OpenPGP, TLS or email protocols. 
+The embedded chatmail Rust core and rPGP do all the heavy lifting,
+both backed by multiple [security audits](https://delta.chat/en/help#security-audits). 
 
-To make a longer story short, we recently posted about [our commitments to Federation](https://chaos.social/@delta/114710708299242142): 
+To make a longer story short, we recently posted about [our commitments to federation](https://chaos.social/@delta/114710708299242142):
 
 > We are basically doing what #signal and in particular Moxie refused to do, or declared impossible: federation. 
 >
