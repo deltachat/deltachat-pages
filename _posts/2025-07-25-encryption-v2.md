@@ -43,7 +43,7 @@ is largely unrelated to how servers upgrade.
 embed the [chatmail core Rust library](https://github.com/chatmail/core/blob/main/README.md). 
 This means there is a single central place where "moving the ecosystem" can be implemented. 
 The [key v2 work in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
-added 4696 and removed 6299 lines of code, netting a **removal of 1603 Lines of Code**. 
+added 4696 and removed 6299 lines of code, netting a **removal of 1603 lines of code**. 
 It fundamentally changed how "identity" is handled in chatmail V2 messaging.
 Chatmail clients, though? 
 They don't need to do much more than pulling in a V2 core version, drop some UI elements, adapt a few APIs
