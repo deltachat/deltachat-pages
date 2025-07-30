@@ -998,6 +998,22 @@ This is what Delta Chat does with these permissions:
   see [Provider Overview](https://providers.delta.chat)
 
 
+### Can I use Delta Chat in parallel with other E-Mail apps?
+
+Yes, but it is not recommended.
+
+Parallel usage with the same E-Mail address might lead to the following inconveniences:
+
+- Next to your Delta Chat notifications,
+  you might also get notifications for (encrypted, so unreadable) chat mail messages
+  in your other email app
+- If Delta Chat is not running
+  or "Advanced > Move automatically to the DeltaChat Folder" is disabled,
+  encrypted Delta Chat messages might clutter the Inbox in your other E-Mail apps.
+
+[Sieve rules](https://support.delta.chat/t/sieve-rule-to-move-deltachat-mails-to-deltachat-folder/288/10) can solve these problems.
+
+
 ### I want to manage my own server for Delta Chat. What do you recommend?
 
 - Most mail servers will work well. But what we personally recommend is a
