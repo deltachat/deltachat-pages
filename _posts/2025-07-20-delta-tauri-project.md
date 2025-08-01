@@ -112,13 +112,13 @@ Tauri has really great security features, we used their [capability system](http
 identifier = "webxdc"
 webviews = ["webxdc:*"]
 permissions = [
-    "allow-send-webxdc-update",
-    "allow-get-webxdc-updates",
-    "allow-join-webxdc-realtime-channel",
-    "allow-leave-webxdc-realtime-channel",
-    "allow-send-webxdc-realtime-data",
-    "allow-register-webxdc-channel",
-    "allow-webxdc-send-to-chat",
+  "allow-send-webxdc-update",
+  "allow-get-webxdc-updates",
+  "allow-join-webxdc-realtime-channel",
+  "allow-leave-webxdc-realtime-channel",
+  "allow-send-webxdc-realtime-data",
+  "allow-register-webxdc-channel",
+  "allow-webxdc-send-to-chat",
 ]
 ```
 
@@ -143,7 +143,7 @@ Tauri uses the Operating System's webview for the frontend and native Rust code 
 This has the advantage of resulting in smaller binaries and install size. Additionally, the system webview is updated independently of Delta Chat, so security updates may reach the users faster - but only if they update their system.
 
 But using the system webview can also be a disadvantage, in electron we ship the webview/browser with the app, so we know exactly what version it has, in Tauri we do not control this aspect.
-The system webview also means we now have two target browser engines to work with: webkit on macOS and linux, and WebView2/chromium on Windows. If you familiar with web-development then you already know that there are sometimes inconsistencies in how browsers behaves, what features and APIs they support and how they render style sheets.
+The system webview also means we now have two target browser engines to work with: webkit on macOS and linux, and WebView2/chromium on Windows. If you are familiar with web-development then you already know that there are sometimes inconsistencies in how browsers behaves, what features and APIs they support and how they render style sheets.
 
 #### Download and Installation Size
 
