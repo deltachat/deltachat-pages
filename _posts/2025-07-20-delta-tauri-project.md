@@ -38,7 +38,7 @@ There are quite some opinions floating around that Electron apps are bad because
 Which is understandable in theory, because Electron is basically a whole Chromium browser plus Node.js runtime in a package, in addition to your app. So it's no surprise that even a hello world app in Electron can already be around 80 MB in download size.
 
 But foremost, what even is Electron? Electron is a framework that makes it easy to build cross-platform apps, meaning you write your code once and it runs on all 3 major platforms (Linux, macOS, and Windows). With Electron, you write your app like you would write a web app.
-Many modern and popular applications are made with Electron: Discord, Slack, MS Teams, VSCode, 1Password, Obsidian, and Signal, to name a few.
+Many modern and popular applications are made with Electron: Discord, Slack, MS Teams, VSCode, 1Password, Obsidian and Signal, to name a few.
 Other apps like Spotify and Steam also embed a Chromium browser for parts of their user interface.
 
 [Tauri](https://tauri.app/) is a relatively new alternative to Electron.
@@ -47,9 +47,8 @@ Tauri promises smaller builds and a more advanced security concept compared to E
 ### Our Journey
 
 The idea of porting Delta Chat Desktop to Tauri intrigued us for some years now, but at the time our code still depended very heavily on Electron, so we took small steps in making our code more modular by starting [the Runtime interface](https://delta.chat/en/2025-05-22-browser-edition#diving-deeper-into-technical-details) and the [JSON-RPC API](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist). The project picked up more speed at the beginning of 2024 when we got [NLnet](https://nlnet.nl/) funding for the project, which we named ["DeltaTauri"](https://nlnet.nl/project/DeltaTauri/).
-The project had a slow start because we were still preoccupied with normal desktop development.
 
-We started in May with packaging the JSONRPC over StdIO server as an npm package ([`@deltachat/stdio-rpc-server`](https://www.npmjs.com/package/@deltachat/stdio-rpc-server)) and using that for the electron version instead of the old npm package, which still utilized the Node-API and CFFI. The [JSONRPC vs. CFFI blog post](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist#the-history-of-the-json-rpc-interface) goes into more details on this.
+We started in May with packaging the JSON-RPC over StdIO server as an npm package ([`@deltachat/stdio-rpc-server`](https://www.npmjs.com/package/@deltachat/stdio-rpc-server)) and using that for the electron version instead of the old npm package, which still utilized the Node-API and CFFI. The [JSON-RPC vs. CFFI blog post](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist#the-history-of-the-json-rpc-interface) goes into more details on this.
 
 The project picked up steam in September: treefit started to reorganize the folder structure of the Delta Chat Desktop repository to turn it into a monorepo[^monorepo].
 The new folder structure splits up the desktop client into smaller more modular packages:
@@ -70,11 +69,11 @@ The new folder structure splits up the desktop client into smaller more modular 
 
 In October, we finished the Browser Edition, which serves as proof that the app reached independence of Electron and running in the browser helps with development: you get access to development tools and plugins of all browsers and a more reliable way to do integration testing. We wrote more about the browser edition in it's [blog post](https://delta.chat/en/2025-05-22-browser-edition).
 
-In November, Nico introduced automated end-to-end testing for Delta Chat Desktop with playwright, an industry standard tool for testing web-applications. This ensures the reliability of the app, each test can be thought of as a checkpoint. If a future change breaks the test, we get an alarm and can fix it before the new bug even reaches a test release.
+In November, [Nico](https://github.com/nicodh) introduced automated end-to-end testing for Delta Chat Desktop with playwright, an industry standard tool for testing web-applications. This ensures the reliability of the app, each test can be thought of as a checkpoint. If a future change breaks the test, we get an alarm and can fix it before the new bug even reaches a test release.
 
 <figure>
 	<img src="{{ page.asset_prefix }}/hero.png">
-	<figcaption>Delta Chat Desktop Tauri Edition, as you can see, visually it looks the same as the Electron Edition</figcaption>
+	<figcaption>Delta Chat Desktop Tauri Edition. As you can see, visually it looks the same as the Electron Edition</figcaption>
 </figure>
 
 In January we had Delta Chat Desktop running on Tauri, however the system integrations were still missing, which we then added in the following months.
@@ -89,19 +88,19 @@ Now to the advantages that Tauri brought us:
 
 - Easy to expand
   - It's written in Rust - memory safety and a strong type system gives you confidence to contribute.
-  - The rust package ecosystem has many great systems API crates that work really well and are easy to integrate.
-  - <!-- TODO: refine and merge this point with the previous one? --> more direct access to everything, like it is easy to contribute and leverage the underlying native APIs from rust, whereas with electron you would need more work, because there your backend code is written in JavaScript not C++, so you additionally need to add bindings for your new code.
+  - The Rust package ecosystem has many great systems API crates that work really well and are easy to integrate.
+  - <!-- TODO: refine and merge this point with the previous one? --> more direct access to everything, like it is easy to contribute and leverage the underlying native APIs from Rust, whereas with electron you would need more work, because there your backend code is written in JavaScript not C++, so you additionally need to add bindings for your new code.
 - Confidence to contribute:
-  - We can easily compile rust for all platforms and also Tauri is small so it does not take hours or days to compile compared the beast of a C++ project that is chromium.
+  - We can easily compile Rust for all platforms and also Tauri is small so it does not take hours or days to compile compared the beast of a C++ project that is chromium.
   - It's code base is relatively easy to grasp, because at it's core it is "just" a web view wrapper instead of a whole browser fork with custom patches.
 - Smaller package size (because it uses the system's browser)
 
 But it is not without its disadvantages: you suddenly have 2 different browser engines to optimize for (Chromium and WebKit[^webkit]) and Tauri is much younger than Electron.
-While Electron has a fairly complete API out of the box, in Tauri you have plugin, but some Tauri plugins lack important functionality.
-Like in the notification plugin there is no way to listen for clicks on notifications (from rust), so we made our own crate to directly interface with the system APIs.
+While Electron has a fairly complete API out of the box, in Tauri you have plugins, but some Tauri plugins lack important functionality.
+Like in the notification plugin there is no way to listen for clicks on notifications (from Rust), so we made our own crate to directly interface with the system APIs.
 
 Another point is compiling speed and cross-packaging for other platforms, both are faster on
-Electron because there you don't need to compile code, just package it together. And of course rust still takes some it's to compile, which can take about 10-15 min (cold/full build) or much longer if you are using a slow computer.
+Electron because there you don't need to compile code, just package it together. And of course Rust still takes its time to compible, which can be about 10-15 min (cold/full build) or much longer if you are using a slow computer.
 
 [^webkit]: WebKit is the engine of the safari browser.
 
@@ -139,7 +138,7 @@ dcblob://<account folder name>/<blob filename>
 
 ### The Differences
 
-Tauri uses the Operating System's webview for the frontend and native rust code instead of a Node.js runtime for the backend.
+Tauri uses the Operating System's webview for the frontend and native Rust code instead of a Node.js runtime for the backend.
 
 This has the advantage of resulting in smaller binaries and install size. Additionally, the system webview is updated independently of Delta Chat, so security updates may reach the users faster - but only if they update their system.
 
