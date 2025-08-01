@@ -136,6 +136,8 @@ dcblob://<account folder name>/<blob filename>
 
 <!-- TODO: mention audit and quotes from it  -->
 
+If you want to dive deeper, here is a list of the other security meassures that we implemented: [tauri-apps/tauri#5755 (comment)](https://github.com/tauri-apps/tauri/issues/5755#issuecomment-2815613067)
+
 ### The Differences
 
 Tauri uses the Operating System's webview for the frontend and native Rust code instead of a Node.js runtime for the backend.
@@ -152,11 +154,11 @@ The size of the Flatpak download decreased, but the platform dependency increase
 
 <figure>
 	<img src="{{ page.asset_prefix }}/download-size-comparison-chart.svg">
-	<figcaption>Download size comparison between Electron and Tauri releases (pre-release 1.59.0)</figcaption>
+	<figcaption>Download size comparison between Electron and Tauri releases (pre-release 1.59.0) in megabytes</figcaption>
 </figure>
 <figure>
 	<img src="{{ page.asset_prefix }}/install-size-comparison-chart.svg">
-	<figcaption>Installation size comparison between Electron and Tauri releases (pre-release 1.59.0)</figcaption>
+	<figcaption>Installation size comparison between Electron and Tauri releases (pre-release 1.59.0) in megabytes</figcaption>
 </figure>
 
 You can find the data from our test on <https://github.com/deltachat/deltachat-desktop/issues/5239>.
