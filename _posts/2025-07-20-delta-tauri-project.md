@@ -187,7 +187,7 @@ Unfortunately RAM usage is not much less compared to Electron, often Delta Chat 
 
 ### State of Tauri Edition
 
-The Tauri edition has all features that the electron version has besides of the location streaming map, but there are still some bugs especially on Linux.
+The Tauri edition has all features that the electron version has besides of the location streaming map, but there are still some bugs especially on Linux, which prevent us from fully switching to Tauri.
 
 The Tauri edition also has a few extras that the Electron Edition has not:
 
@@ -213,8 +213,8 @@ The currently known deal-breaker bugs:
 - upstream issues in Tauri/WebKit:
   - Windows: focus issues with keyboard navigation [tauri#13466](https://github.com/tauri-apps/tauri/issues/13466)
   - Linux: crash because of missing `gstreamer` dependency [deltachat-desktop#5195](https://github.com/deltachat/deltachat-desktop/issues/5195)
-  - Crashes and Glitches on Nvidia GPU [tauri#9394](https://github.com/tauri-apps/tauri/issues/9394)
-  - missing camera and microphone support [deltachat-desktop#4932](https://github.com/deltachat/deltachat-desktop/issues/4932#issuecomment-2927910551) [tauri#8426](https://github.com/tauri-apps/tauri/discussions/8426#discussioncomment-8268622)
+  - Linux: Crashes and Glitches on Nvidia GPU [tauri#9394](https://github.com/tauri-apps/tauri/issues/9394)
+  - Linux: missing camera and microphone support [deltachat-desktop#4932](https://github.com/deltachat/deltachat-desktop/issues/4932#issuecomment-2927910551) [tauri#8426](https://github.com/tauri-apps/tauri/discussions/8426#discussioncomment-8268622)
 
 We tested the features that depend on system integration and documented the results in [deltachat-desktop#5239](https://github.com/deltachat/deltachat-desktop/issues/5239).
 
@@ -224,7 +224,13 @@ As we established in this Blog post, the Tauri edition is not good enough yet to
 
 ### Conclusion
 
-<!-- TODO rephrase, what's our message? -->
-
 While Tauri's Linux support is disappointing, the project still opened up a lot of possibilities and is working nicely on Windows and macOS for the most part.
-The only feature still missing is the map for location streaming.
+All features are implemented, except for the location streaming map.
+
+So for now we will stay with the Electron edition for the official releases.
+For the curious, we release the Tauri edition as well with each new release since `1.60.0`.
+
+Thanks to the Tauri developers for making Tauri and
+Thanks to nlnet for funding the DeltaTauri project.
+
+<img src="../assets/logos/logo_nlnet.svg" width="230" style="clear: both; float:right; margin-left:1em;" />
