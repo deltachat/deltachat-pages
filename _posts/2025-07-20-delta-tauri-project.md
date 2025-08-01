@@ -136,7 +136,7 @@ dcblob://<account folder name>/<blob filename>
 
 <!-- TODO: mention audit and quotes from it  -->
 
-If you want to dive deeper, here is a list of the other security meassures that we implemented: [tauri-apps/tauri#5755 (comment)](https://github.com/tauri-apps/tauri/issues/5755#issuecomment-2815613067)
+If you want to dive deeper, here is a list of the other security measures that we implemented: [tauri-apps/tauri#5755 (comment)](https://github.com/tauri-apps/tauri/issues/5755#issuecomment-2815613067)
 
 ### The Differences
 
@@ -165,7 +165,8 @@ You can find the data from our test on <https://github.com/deltachat/deltachat-d
 
 #### RAM usage
 
-> This is not generally about Tauri, instead this is about the Tauri Edition of Delta Chat Desktop. You could see more benefits in your project. (most benchmarks comparing Tauri and Electron, that I saw, reported that Tauri has big savings)
+> Although Tauri is said to have big savings in RAM usage compared to electron we didn't find that in our project.
+This comparison is only about Delta Chat Desktop, you could see more benefits in your project.
 
 <br />
 
