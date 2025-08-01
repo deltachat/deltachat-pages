@@ -88,8 +88,7 @@ Now to the advantages that Tauri brought us:
 
 - Easy to expand
   - It's written in Rust - memory safety and a strong type system gives you confidence to contribute.
-  - The Rust package ecosystem has many great systems API crates that work really well and are easy to integrate.
-  - <!-- TODO: refine and merge this point with the previous one? --> more direct access to everything, like it is easy to contribute and leverage the underlying native APIs from Rust, whereas with electron you would need more work, because there your backend code is written in JavaScript not C++, so you additionally need to add bindings for your new code.
+  - The Rust package ecosystem has many great systems API crates that work really well and are easy to integrate into Taui. In Electron using native apis that are not already implemented in electron is much harder [^complexity-of-electron-native-api].
 - Confidence to contribute:
   - We can easily compile Rust for all platforms and also Tauri is small so it does not take hours or days to compile compared the beast of a C++ project that is chromium.
   - It's code base is relatively easy to grasp, because at it's core it is "just" a web view wrapper instead of a whole browser fork with custom patches.
@@ -103,6 +102,8 @@ Another point is compiling speed and cross-packaging for other platforms, both a
 Electron because there you don't need to compile code, just package it together. And of course Rust still takes its time to compible, which can be about 10-15 min (cold/full build) or much longer if you are using a slow computer.
 
 [^webkit]: WebKit is the engine of the safari browser.
+
+[^complexity-of-electron-native-api]: In your electron project you can not just use a native api, like you would in tauri. You would need more work, because in electron your backend code is written in JavaScript not C++, so you additionally need to add bindings via the NodeAPI for your new code or you need to build and maintain a custom fork of electron. With tauri you just import the Rust crate you want to use.
 
 ### Security
 
