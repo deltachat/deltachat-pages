@@ -153,11 +153,22 @@ In the case of Delta Chat Tauri the download size was reduced by around 60-80% a
 The size of the Flatpak download decreased, but the platform dependency increased by 54%, so the space-saving is not that huge, unless you also have other Flatpak apps using the gnome platform dependency.
 
 <figure>
-	<img src="{{ page.asset_prefix }}/download-size-comparison-chart.svg">
+	<img
+alt="Chart that compares download size between Electron and Tauri Editions:
+Linux flatpak app from 547.5mb to 60.2mb (But the flatpak platform dependency is now larger from 674.6mb to 1038.5mb).
+Linux debian package was reduced from 102.3mb to 33.4mb. Windows installer reduced from 122mb to 26.7mb.
+macOS Apple silicon/arm version was reduced from 153mb to 44mb
+and the universal version (x86_64 + arm64) was reduced from 213mb to 91mb."
+src="{{ page.asset_prefix }}/download-size-comparison-chart.svg">
 	<figcaption>Download size comparison between Electron and Tauri releases (pre-release 1.59.0) in megabytes</figcaption>
 </figure>
 <figure>
-	<img src="{{ page.asset_prefix }}/install-size-comparison-chart.svg">
+	<img alt="Chart that compares installation size between Electron and Tauri
+ Editions: Linux debian install size reduced from 369mb to 55mb.
+ Windows install was reduced from 370mb to 53.7mb.
+ macOS Apple silicon/arm install size was reduced from 360mb to 44mb
+ and the install size of the universal version (x86_64 + arm64) was reduced from 519mb to 91mb."
+	src="{{ page.asset_prefix }}/install-size-comparison-chart.svg">
 	<figcaption>Installation size comparison between Electron and Tauri releases (pre-release 1.59.0) in megabytes</figcaption>
 </figure>
 
