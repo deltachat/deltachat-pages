@@ -247,6 +247,6 @@ So for now we will stay with the Electron edition for the official releases.
 For the curious, we release the Tauri edition as well with each new release since `1.60.0`.
 
 Thanks to the Tauri developers for making Tauri and
-Thanks to nlnet for funding the DeltaTauri project.
+Thanks to NLnet for funding the DeltaTauri project.
 
 <img src="../assets/logos/logo_nlnet.svg" width="230" style="clear: both; float:right; margin-left:1em;" />
