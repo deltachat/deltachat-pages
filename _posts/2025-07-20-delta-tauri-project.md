@@ -103,8 +103,7 @@ Electron because there you don't need to compile code, just package it together.
 
 [^webkit]: WebKit is the engine of the safari browser.
 
-[^complexity-of-electron-native-api]: In your Electron project you can not just use a native api, like you would in tauri. You would need more work, because in
-Electron your backend code is written in JavaScript not C++, so you additionally need to add bindings via the NodeAPI for your new code or you need to build and maintain a custom fork of Electron. With tauri you just import the Rust crate you want to use.
+[^complexity-of-electron-native-api]: In your Electron project you can not just use a native api, like you would in tauri. You would need more work, because in Electron your backend code is written in JavaScript not C++, so you additionally need to add bindings via the NodeAPI for your new code or you need to build and maintain a custom fork of Electron. With tauri you just import the Rust crate you want to use.
 
 ### Security
 
