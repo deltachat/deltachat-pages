@@ -48,7 +48,7 @@ Tauri promises smaller builds and a more advanced security concept compared to E
 
 The idea of porting Delta Chat Desktop to Tauri intrigued us for some years now, but at the time our code still depended very heavily on Electron, so we took small steps in making our code more modular by starting [the Runtime interface](https://delta.chat/en/2025-05-22-browser-edition#diving-deeper-into-technical-details) and the [JSON-RPC API](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist). The project picked up more speed at the beginning of 2024 when we got [NLnet](https://nlnet.nl/) funding for the project, which we named ["DeltaTauri"](https://nlnet.nl/project/DeltaTauri/).
 
-We started in May with packaging the JSON-RPC over StdIO server as an npm package ([`@deltachat/stdio-rpc-server`](https://www.npmjs.com/package/@deltachat/stdio-rpc-server)) and using that for the electron version instead of the old npm package, which still utilized the Node-API and CFFI. The [JSON-RPC vs. CFFI blog post](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist#the-history-of-the-json-rpc-interface) goes into more details on this.
+We started in May with packaging the JSON-RPC over StdIO server as an npm package ([`@deltachat/stdio-rpc-server`](https://www.npmjs.com/package/@deltachat/stdio-rpc-server)) and using that for the Electron version instead of the old npm package, which still utilized the Node-API and CFFI. The [JSON-RPC vs. CFFI blog post](https://delta.chat/en/2025-02-11-why-jsonrpc-bindings-exist#the-history-of-the-json-rpc-interface) goes into more details on this.
 
 The project picked up steam in September: treefit started to reorganize the folder structure of the Delta Chat Desktop repository to turn it into a monorepo[^monorepo].
 The new folder structure splits up the desktop client into smaller more modular packages:
@@ -88,7 +88,7 @@ Now to the advantages that Tauri brought us:
 
 - Easy to expand
   - It's written in Rust - memory safety and a strong type system gives you confidence to contribute.
-  - The Rust package ecosystem has many great systems API crates that work really well and are easy to integrate into Taui. In Electron using native apis that are not already implemented in electron is much harder [^complexity-of-electron-native-api].
+  - The Rust package ecosystem has many great systems API crates that work really well and are easy to integrate into Taui. In Electron using native apis that are not already implemented in Electron is much harder [^complexity-of-electron-native-api].
 - Confidence to contribute:
   - We can easily compile Rust for all platforms and also Tauri is small so it does not take hours or days to compile compared the beast of a C++ project that is chromium.
   - It's code base is relatively easy to grasp, because at it's core it is "just" a web view wrapper instead of a whole browser fork with custom patches.
@@ -103,7 +103,8 @@ Electron because there you don't need to compile code, just package it together.
 
 [^webkit]: WebKit is the engine of the safari browser.
 
-[^complexity-of-electron-native-api]: In your electron project you can not just use a native api, like you would in tauri. You would need more work, because in electron your backend code is written in JavaScript not C++, so you additionally need to add bindings via the NodeAPI for your new code or you need to build and maintain a custom fork of electron. With tauri you just import the Rust crate you want to use.
+[^complexity-of-electron-native-api]: In your Electron project you can not just use a native api, like you would in tauri. You would need more work, because in
+Electron your backend code is written in JavaScript not C++, so you additionally need to add bindings via the NodeAPI for your new code or you need to build and maintain a custom fork of Electron. With tauri you just import the Rust crate you want to use.
 
 ### Security
 
@@ -145,12 +146,12 @@ Tauri uses the Operating System's webview for the frontend and native Rust code 
 
 This has the advantage of resulting in smaller binaries and install size. Additionally, the system webview is updated independently of Delta Chat, so security updates may reach the users faster - but only if they update their system.
 
-But using the system webview can also be a disadvantage, in electron we ship the webview/browser with the app, so we know exactly what version it has, in Tauri we do not control this aspect.
+But using the system webview can also be a disadvantage, in Electron we ship the webview/browser with the app, so we know exactly what version it has, in Tauri we do not control this aspect.
 The system webview also means we now have two target browser engines to work with: webkit on macOS and linux, and WebView2/chromium on Windows. If you are familiar with web-development then you already know that there are sometimes inconsistencies in how browsers behaves, what features and APIs they support and how they render style sheets.
 
 #### Download and Installation Size
 
-In the case of Delta Chat Tauri the download size was reduced by around 60-80% and the installation size was reduced by over 80% compared to the electron edition.
+In the case of Delta Chat Tauri the download size was reduced by around 60-80% and the installation size was reduced by over 80% compared to the Electron edition.
 The size of the Flatpak download decreased, but the platform dependency increased by 54%, so the space-saving is not that huge, unless you also have other Flatpak apps using the gnome platform dependency.
 
 <figure>
@@ -177,7 +178,7 @@ You can find the data from our test on <https://github.com/deltachat/deltachat-d
 
 #### RAM usage
 
-> Although Tauri is said to have big savings in RAM usage compared to electron we didn't find that in our project.
+> Although Tauri is said to have big savings in RAM usage compared to Electron we didn't find that in our project.
 This comparison is only about Delta Chat Desktop, you could see more benefits in your project.
 
 <br />
@@ -202,7 +203,7 @@ Unfortunately RAM usage is not much less compared to Electron, often Delta Chat 
 
 ### State of Tauri Edition
 
-The Tauri edition has all features that the electron version has besides of the location streaming map, but there are still some bugs especially on Linux, which prevent us from fully switching to Tauri.
+The Tauri edition has all features that the Electron version has besides of the location streaming map, but there are still some bugs especially on Linux, which prevent us from fully switching to Tauri.
 
 The Tauri edition also has a few extras that the Electron Edition has not:
 
@@ -235,7 +236,7 @@ We tested the features that depend on system integration and documented the resu
 
 ### Where can you try it?
 
-As we established in this Blog post, the Tauri edition is not good enough yet to fully replace the electron version. We already release it next to the electron version, so if you want to try it, checkout this forum post for details: <https://support.delta.chat/t/help-test-the-tauri-pre-release/3827>
+As we established in this Blog post, the Tauri edition is not good enough yet to fully replace the Electron version. We already release it next to the Electron version, so if you want to try it, checkout this forum post for details: <https://support.delta.chat/t/help-test-the-tauri-pre-release/3827>
 
 ### Conclusion
 
