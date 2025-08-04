@@ -21,8 +21,7 @@ The decade long discourse on how to achieve this "just" is ongoing, and V2 relea
 
 V2 releases maintain compatibility with older releases, 
 even though they roll out a major security upgrade
-across many hundred thousand devices, across dozens of apps and bots, 
-who all upgrade at some random time in the future (or never). 
+across many hundred thousand devices, across dozens of apps and bots, at relatively random points in time. 
 During 8 years of development, we never needed to ask users or developers for "co-ordinated upgrades" 
 like for example [Matrix](https://matrix.org/blog/2025/07/security-predisclosure/) 
 and [Session](https://getsession.org/blog/groups-v2-how-to-upgrade) did in 2025.
@@ -43,7 +42,7 @@ embed the [chatmail core Rust library](https://github.com/chatmail/core/blob/mai
 This means there is a single central place where "moving the ecosystem" can be implemented. 
 The [key v2 work in the chatmail core Rust library](https://github.com/chatmail/core/pull/6796) 
 added 4696 and removed 6299 lines of code, netting a **removal of 1603 lines of code**. 
-It fundamentally changed how "identity" is handled in chatmail V2 messaging.
+It fundamentally changed how "identity" and end-to-end encryption is handled in chatmail V2 messaging.
 Chatmail clients, though? 
 They don't need to do much more than pulling in a V2 core version, drop some UI elements, adapt a few APIs
 and enjoy vast security and compatibility benefits. 
