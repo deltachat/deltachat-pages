@@ -271,3 +271,10 @@ sup[role="doc-noteref"]:before {
 sup[role="doc-noteref"]:after {
     content: "]";
 }
+
+
+@media print {
+    #menu, #footer, #load-comment, #comments-hint, .deltachat-banner {
+        display: none !important;
+    }
+}
