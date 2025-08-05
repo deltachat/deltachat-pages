@@ -5,18 +5,17 @@ lang: uk
 
 # Задонатити гроші
 
-Your donation helps to shape the free and open source future of decentralized private communication 
-without surveillance, advertising or billionaries in the middle. 
+Ваша пожертва допомагає формувати майбутнє децентралізованого приватного спілкування з відкритим вихідним кодом без стеження, реклами та мільярдерів посередині. 
 
-- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+- Пожертвувати через [Liberapay] (https://liberapay.com/delta.chat/)
 
-- Donate via [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+- Пожертвувати через [Delta Chat Open Collective] (https://opencollective.com/delta-chat/donate)
 
-- Send bitcoins to [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- Надсилайте біткоїни на [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
-- IBAN DE86100777770428658900, BIC NORSDE51XXX, Account holder (please always specify): Björn Petersen
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, Власник рахунку (будь ласка, завжди вказуйте): Björn Petersen
 
-- Alternatively, scan the following to wire money to that account:  
-  ![Scan to wire money](../assets/donate-via-epc-qr.png)
+- Або відскануйте наступне, щоб переказати гроші на цей рахунок:  
+  ![Сканування для переказу грошей](../assets/donate-via-epc-qr.png)
 
 [Інші способи допомогти](contribute){: .cta-button}

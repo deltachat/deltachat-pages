@@ -20,11 +20,11 @@ lang: uk
 
 # Переклади і звіти про помилки
 
-- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Переклади на Transifex](https://explore.transifex.com/delta-chat/)
+- [Проблеми з Delta Chat на Android](https://github.com/deltachat/deltachat-android/issues)
+- [Проблеми з Delta Chat на комп'ютері](https://github.com/deltachat/deltachat-desktop/issues)
+- [Проблеми з Delta Chat на iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Проблеми з бібліотекою Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Ми завжди шукаємо розробників і дизайнерів. Зазвичай ми пропонуємо 20-30 годин на тиждень за контрактом або працевлаштування (якщо знаходитесь в Німеччині). Будь ласка, не соромтеся звертатися (delta at merlinux eu), якщо ви зацікавлені допомогти!
 
