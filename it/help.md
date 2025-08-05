@@ -463,16 +463,16 @@ la crittografia end-to-end sarà stabilita tra tutti i membri.
 
 ### Cosa significa il segno di spunta verde nel profilo di un contatto? {#e2eeguarantee}
 
-A contact profile might show a green checkmark
+Il profilo di un contatto potrebbe mostrare una spunta verde
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line.
-Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by a another green-checkmarked contact.
-Introductions happen automatically when adding members to groups. 
-Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
-becomes an introducer. 
-In a contact profile you can tap on the "Introduced by ..." text repeatedly
-until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
+e una linea "Verificato da".
+Ogni contatto con la spunta verde ha fatto un [QR-scan](#howtoe2ee) con te
+o è stato verificato da un altro contatto con la spunta verde.
+La verifica si ha automaticamente all'aggiunta dei membri nei gruppi.
+Chiunque aggiunga un contatto con spunta verde a un gruppo con solo membri con la spunta verde
+diventa colui che l'ha verificato.
+Nel profilo di un contatto puoi premere sul campo "Verificato da ..." ripetutamente
+fino a che vedi con chi hai avuto un [QR-scan](#howtoe2ee).
 
 Per una discussione più approfondita sulla "crittografia end-to-end garantita"
 consultare [Protocolli Secure-Join](https://securejoin.delta.chat/en/latest/new.html)

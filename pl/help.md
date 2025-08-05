@@ -371,61 +371,31 @@ Wszystkie pozostałe metadane dotyczące wiadomości, kontaktów i grup znajduj�
 
 ### Jak chronić metadane i kontakty w przypadku przejęcia urządzenia? {#device-seizure}
 
-Both for protecting against metadata-collecting e-mail servers 
-as well as against the threat of device seizure
-we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create chat profiles using random e-mail addresses for transport. 
-Note that Delta Chat apps on all platforms support multiple profiles
-so you can easily use situation-specific profiles next to your "main" profile
-with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then chat contacts using short-lived profiles
-can not be identified easily. 
+Zarówno w celu ochrony przed serwerami poczty e-mail gromadzącymi metadane, jak i przed zagrożeniem przejęcia urządzenia, zalecamy użycie [przełącznika chatmail](https://chatmail.at/relays) do tworzenia profili czatu z losowymi adresami e-mail do przesyłania. Pamiętaj, że aplikacje Delta Chat na wszystkich platformach obsługują wiele kont, dzięki czemu możesz z łatwością korzystać z kont „1-tygodniowych” lub „1-miesięcznych” związanych z konkretnymi działaniami obok konta „głównego”, wiedząc, że wszystkie tymczasowe dane konta wraz ze wszystkimi metadanymi zostaną usunięte. Co więcej, jeśli urządzenie zostanie przejęte, kontakty czatu korzystające z profili krótkotrwałych nie będą mogły zostać łatwo zidentyfikowane.
 
-### Does Delta Chat support "Sealed Sender"? {#sealedsender}
+### Czy Delta Chat obsługuje funkcję „Sealed Sender”? {#sealedsender}
 
-No, not yet. 
+Nie, jeszcze nie.
 
-The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
-to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
-It is particularly important because the Signal server knows the mobile number of each account,
-which is usually associated with a passport identity.
+Komunikator Signal wprowadził funkcję [„Sealed Sender”](https://signal.org/blog/sealed-sender/) w 2018 roku, aby infrastruktura serwerowa nie wiedziała, kto wysyła wiadomość do grupy odbiorców. Jest to szczególnie ważne, ponieważ serwer Signal zna numer telefonu komórkowego każdego konta, który zazwyczaj jest powiązany z identyfikatorem paszportu.
 
-Even if [chatmail relays](https://chatmail.at/relays) 
-do not ask for any private data (including no phone numbers), 
-it might still be worthwhile to protect relational metadata between addresses. 
-We don't foresee bigger problems in using random throw-away e-mail addresses for sealed sending
-but an implementation has not been agreed as a priority yet. 
+Nawet jeśli [przekaźniki chatmail](https://chatmail.at/relays) nie proszą o żadne prywatne dane (w tym numery telefonów), warto chronić metadane relacji między adresami. Nie przewidujemy poważniejszych problemów w korzystaniu z losowych, jednorazowych adresów e-mail do wysyłania wiadomości w tajemnicy, ale wdrożenie tej funkcji nie zostało jeszcze uznane za priorytetowe.
 
 ### Czy Delta Chat obsługuje funkcję Perfect Forward Secrecy? {#pfs}
 
-No, not yet. 
+Nie, jeszcze nie.
 
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
-Note that Forward Secrecy only increases security if you delete messages. 
-Otherwise, someone obtaining your decryption keys
-is typically also able to get all your non-deleted messages
-and doesn't even need to decrypt any previously collected messages. 
+Delta Chat obecnie nie obsługuje mechanizmu Perfect Forward Secrecy (PFS). Oznacza to, że jeśli twój prywatny klucz deszyfrujący zostanie ujawniony, a ktoś zdobędzie twoje wcześniejsze wiadomości w trakcie transmisji, będzie mógł je odszyfrować i odczytać za pomocą ujawnionego klucza deszyfrującego. Należy pamiętać, że mechanizm Forward Secrecy zwiększa bezpieczeństwo tylko w przypadku usuwania wiadomości. W przeciwnym razie osoba, która uzyska twoje klucze deszyfrujące, zazwyczaj będzie mogła uzyskać dostęp do wszystkich nieusuniętych wiadomości i nie będzie musiała odszyfrowywać żadnych wcześniej zebranych wiadomości.
 
-We designed a Forward Secrecy approach that withstood 
-initial examination from some cryptographers and implementation experts 
-but is pending a more formal write up 
-to ascertain it reliably works in federated messaging and with multi-device usage,
-before it could be implemented in [chatmail core](https://github.com/chatmail/core),
-which would make it available in all [chatmail clients](https://chatmail.at/clients). 
+Opracowaliśmy metodę Forward Secrecy, która przeszła wstępną analizę niektórych kryptografów i ekspertów ds. wdrożeń, ale oczekuje na bardziej formalne opracowanie, które potwierdzi jej niezawodne działanie w federacyjnym przesyłaniu wiadomości i w przypadku korzystania z wielu urządzeń, zanim zostanie zaimplementowana w [rdzeniu chatmail](https://github.com/chatmail/core), co uczyniłoby ją dostępną we wszystkich [klientach chatmail](https://chatmail.at/clients).
 
-### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
+### Czy Delta Chat obsługuje kryptografię postkwantową? {#pqc}
 
-No, not yet. 
+Nie, jeszcze nie.
 
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
-We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
-in collaboration with other OpenPGP implementers. 
+Delta Chat korzysta z biblioteki Rust OpenPGP [rPGP](https://github.com/rpgp/rpgp), która obsługuje najnowszy [projekt OpenPGP IETF Post-Quantum-Cryptography](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). Planujemy dodać obsługę PQC do [rdzenia chatmail](https://github.com/chatmail/core) po sfinalizowaniu projektu w IETF we współpracy z innymi implementatorami OpenPGP.
 
-### How can I manually check encryption information?
+### Jak mogę ręcznie sprawdzić informacje o szyfrowaniu?
 
 Możesz sprawdzić stan szyfrowania end-to-end ręcznie w oknie dialogowym „Szyfrowanie” (profil użytkownika w systemie Android/iOS lub kliknij prawym przyciskiem myszy element listy czatu użytkownika na komputerze). Delta Chat pokazuje tam dwa odciski palców. Jeśli te same odciski palców pojawią się u ciebie i urządzeniu twojego kontaktu, połączenie jest bezpieczne.
 
@@ -605,10 +575,9 @@ W tym przypadku Delta Chat nie musi obserwować skrzynki odbiorczej, a wystarczy
 
 ### Jak mogę zmienić moje konto na inny adres e-mail?
 
-Note: 
-Changing email addresses is temporarily disabled
-because of ongoing changes to the DeltaChat core.
-It should be available again in a few months.
+Uwaga: Zmiana adresów e-mail jest tymczasowo wyłączona
+z powodu trwających zmian w rdzeniu DeltaChat.
+Powinna być ponownie dostępna za kilka miesięcy.
 
 1. Zmień swój adres w „Ustawienia → Zaawansowane → Hasło i konto” i wprowadź hasło do swojego nowego konta (i jeśli to konieczne, ustawienia serwera). Otrzymasz informację o przeniesieniu na nowy adres. Dodatkowe powiadomienie pojawi się również na czacie „Komunikaty urządzenia”.
 

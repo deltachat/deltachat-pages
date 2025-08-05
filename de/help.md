@@ -361,20 +361,17 @@ Willkommen bei der Macht des interoperablen und massiven Chatmail- und E-Mail-Sy
 
 ### Welche Standards werden für die Ende-zu-Ende-Verschlüsselung verwendet?
 
-Delta Chat uses a [secure subset of the OpenPGP standard](#openpgp-secure)
-to provide automatic end-to-end encryption using these protocols: 
+Delta Chat verwendet eine [sichere Teilmenge des OpenPGP-Standards](#openpgp-secure), um eine automatische End-to-End-Verschlüsselung mit folgenden Protokollen bereitzustellen: 
 
 - [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
-  to exchange encryption setup information through QR-code scanning or "invite links". 
+zum Austausch von Verschlüsselungsinformationen durch Scannen von QR-Codes oder „Einladungslinks“. 
 
-- [Autocrypt](https://autocrypt.org) is used for automatically
-  establishing end-to-end encryption between contacts and all members of a group chat. 
+- [Autocrypt](https://autocrypt.org) wird verwendet, um automatisch eine Ende-zu-Ende-Verschlüsselung zwischen Kontakten und allen Mitgliedern einer Gruppe herzustellen. 
 
-- [Sharing a contact to a
-  chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
-  enables receivers to use end-to-end encryption with the contact. 
+- [Teilen eines Kontakts im Chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
+ermöglicht es den Empfängern, eine Ende-zu-Ende-Verschlüsselung mit dem Kontakt zu verwenden. 
 
-Delta Chat does not query, publish or interact with any OpenPGP key servers. 
+Delta Chat fragt keine OpenPGP-Keyserver ab, veröffentlicht dort keine Daten und interagiert auch sonst nicht mit diesen.
 
 ### Wie kann ich wissen, ob Nachrichten Ende-zu-Ende-verschlüsselt sind? {#whene2e}
 

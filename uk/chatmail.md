@@ -18,8 +18,8 @@ lang: uk
 - [mailchat.pl](https://mailchat.pl) орієнтований на польськомовних користувачів
 
 - [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
-  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
-  are focused on Italian speaking users.
+  та [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  орієнтовані на італійськомовних користувачів.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/) працює в США 
 
