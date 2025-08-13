@@ -7,9 +7,9 @@ lang: uk
 
 Ваша пожертва допомагає формувати майбутнє децентралізованого приватного спілкування з відкритим вихідним кодом без стеження, реклами та мільярдерів посередині. 
 
-- Пожертвувати через [Liberapay] (https://liberapay.com/delta.chat/)
+- Пожертвувати через [Liberapay](https://liberapay.com/delta.chat/)
 
-- Пожертвувати через [Delta Chat Open Collective] (https://opencollective.com/delta-chat/donate)
+- Пожертвувати через [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
 
 - Надсилайте біткоїни на [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
 
