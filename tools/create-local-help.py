@@ -24,7 +24,7 @@ import re
 from shutil import copyfile
 
 import requests
-from requests.exceptions import ConnectTimeout
+from requests.exceptions import ConnectTimeout, ReadTimeout
 
 www = requests.Session()
 www.request = functools.partial(www.request, timeout=15)
@@ -74,7 +74,7 @@ def url_is_reachable(url):
         print(f"  checking {url}")
         try:
             response = www.get(url)
-        except ConnectTimeout:
+        except (ConnectTimeout, ReadTimeout):
             print(f"  connection timed out for {url}")
             reachable_cache[url] = False
             return False
