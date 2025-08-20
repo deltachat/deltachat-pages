@@ -1,8 +1,8 @@
 ---
-titolo: FAQ
-lingua: en
+title: FAQ
+lang: it
 render_toc: true
-intestazione: Domande Frequenti
+header: Domande Frequenti
 ---
 
 
