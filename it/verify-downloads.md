@@ -19,9 +19,9 @@ Per stampare il fingerprint SHA256 del certificato di firma dell'APK, puoi usare
 
 ## Desktop
 
-La chiave pubblica utilizzata per firmare le versioni desktop è pubblicata di seguito e su <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-Le istruzioni dettagliate per la verifica sono disponibili all'indirizzo `https://download.delta.chat/desktop/<version>/signature.asc` (Esempio: per la v1.59.1 puoi trovare le istruzioni in <https://download.delta.chat/desktop/v1.59.1/signature.asc>).
+La chiave pubblica utilizzata per firmare le versioni desktop è pubblicata di seguito e su <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

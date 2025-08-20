@@ -20,11 +20,11 @@ Diskussion über Features und um Unterstützung zu erhalten.
 
 # Übersetzungen und Fehlerberichte
 
-- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Übersetzungen auf Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta-Chat-Android-Probleme](https://github.com/deltachat/deltachat-android/issues)
+- [Delta-Chat-Desktop-Probleme](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta-Chat-iOS-Probleme](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust-Kernbibliothek + Python-Probleme](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Wir sind immer auf der Suche nach Entwicklern und Designern.
 Wir bieten in der Regel 20-30-Stundenwoche-Verträge oder Anstellungen (in Deutschland). 
@@ -38,11 +38,8 @@ Für mehr Hintergrundinformationen empfehlen wir Ihnen, unseren [Blog](https://d
 Die folgenden Delta-Chat-bezogenen Kommunikationskanäle werden von Drittanbietern betrieben
 die unsere [Community-Standards](Community-Standards) befolgen können oder auch nicht:
 
-- Englischsprachige Delta-Chat-Community-Gruppe; Sie können der Gruppe beitreten:
-  * [Mit Delta Chat]({% include dc-community-url %})
-  * [Mit Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [Mit XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [Mit Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}), ein anonymes
+  Soziales Netzwerk innerhalb von Delta Chat.
 
 - Eine [Lemmy-Community](https://lemmy.zip/c/delta_chat);
 geben Sie `!delta_chat@lemmy.zip` 

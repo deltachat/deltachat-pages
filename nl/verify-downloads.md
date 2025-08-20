@@ -18,9 +18,9 @@ Om de SHA256-vingerafdrukken van het APK-certificaat te tonen, kun je bijv. <br>
 
 ## Desktop
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/<version>/signature.asc` (example: for v1.59.1 you can find instructions in <https://download.delta.chat/desktop/v1.59.1/signature.asc>).
+The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

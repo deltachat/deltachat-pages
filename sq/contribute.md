@@ -40,11 +40,8 @@ Për më tepër sfond rekomandojmë të lexoni dhe ndiqni [blogun tonë](https:/
 Kanalet vijues të komunikimit të lidhura me Delta Chat-in xhirohen nga palë të treta
 të cilat mund të ndjekin ose jo [Standardet tona për Bashkësinë](community-standards): 
 
-- Grup anglishtfolës bashkësie Delta Chat-i, mund të bëheni pjesë e grupit:
-  * [Në Delta Chat]({% include dc-community-url %})
-  * [Në Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [Në XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [Në Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) an anonymous
+  social network inside Delta Chat.
 
 - Një [bashkësi Lemmy](https://lemmy.zip/c/delta_chat)
   të cilin mund ta ndiqni duke vendosur `!delta_chat@lemmy.zip` 

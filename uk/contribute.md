@@ -35,11 +35,8 @@ lang: uk
 
 Наступні канали зв'язку, пов'язані із Delta Chat, управляються третіми сторонами, які можуть чи не можуть дотримуватися наших [Стандартів спільноти](community-standards):
 
--  Англомовна спільнота Delta Chat, ви можете приєднатися до груп:
-  * [У Delta Chat]({% include dc-community-url %})
-  * [У Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [В XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [У Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) an anonymous
+  social network inside Delta Chat.
 
 - [Спільнота Lemmy](https://lemmy.zip/c/delta_chat) яку ви можете зафоловити помістивши `!delta_chat@lemmy.zip` у поле пошуку вашого fediverse-застосунку.
 

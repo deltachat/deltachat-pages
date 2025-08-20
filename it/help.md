@@ -1,8 +1,8 @@
 ---
-title: FAQ
-lang: it
+titolo: FAQ
+lingua: en
 render_toc: true
-header: Frequently Asked Questions
+intestazione: Domande Frequenti
 ---
 
 
@@ -563,77 +563,77 @@ anche se il messaggio non sarà crittografato end-to-end.
 
 ### In che modo Delta Chat protegge i metadati nei messaggi? {#message-metadata}
 
-Unlike most other messengers, 
-Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
-Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
+A differenza della maggior parte degli altri servizi di messaggistica,
+le apps Delta Chat non memorizzano alcun metadato sui contatti o sui gruppi sui server, né in forma crittografata.
+Tutti i metadati dei gruppi sono invece crittografati end-to-end e memorizzati esclusivamente sui dispositivi degli utenti finali.
 
-E-mail Servers can therefore only see
+I Server E-mail possono quindi vedere solo
 
-- the message date, 
+- la data del messaggio,
 
-- sender and receiver addresses 
+- indirizzi del mittente e del destinatario
 
-- and message size. 
+- e dimensione del messaggio.
 
-All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
+Tutti gli altri metadati dei messaggi, dei contatti e dei gruppi risiedono nella parte crittografata end-to-end dei messaggi.
 
 ### Come proteggere i metadati e contatti quando un dispositivo viene sequestrato? {#device-seizure}
 
-Both for protecting against metadata-collecting e-mail servers 
-as well as against the threat of device seizure
-we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create chat profiles using random e-mail addresses for transport. 
-Note that Delta Chat apps on all platforms support multiple profiles
-so you can easily use situation-specific profiles next to your "main" profile
-with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then chat contacts using short-lived profiles
-can not be identified easily. 
+Sia per proteggersi dai server e-mail che raccolgono metadati
+sia per proteggersi dal rischio di sequestro del dispositivo,
+consigliamo di utilizzare un [chatmail relay](https://chatmail.at/relays)
+per creare profili di chat utilizzando indirizzi e-mail casuali per il trasporto.
+Si noti che le apps Delta Chat su tutte le piattaforme supportano più profili,
+quindi è possibile utilizzare facilmente profili specifici per ogni situazione accanto al profilo "principale",
+con la consapevolezza che tutti i loro dati, insieme a tutti i metadati, verranno eliminati.
+Inoltre, se un dispositivo viene sequestrato, i contatti di chat che utilizzano profili di breve durata
+non possono essere identificati facilmente.
 
-### Does Delta Chat support "Sealed Sender"? {#sealedsender}
+### Delta Chat supporta "Mittente Sigillato"? {#sealedsender}
 
 No, non ancora.
 
-The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
-to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
-It is particularly important because the Signal server knows the mobile number of each account,
-which is usually associated with a passport identity.
+Il messenger Signal ha introdotto ["Mittente Sigillato" nel 2018](https://signal.org/blog/sealed-sender/)
+per impedire che la propria infrastruttura server venga a conoscenza di chi sta inviando un messaggio a un insieme di destinatari.
+È particolarmente importante perché il server Signal conosce il numero di cellulare di ciascun profilo,
+che di solito è associato a un'identità tramite passaporto.
 
-Even if [chatmail relays](https://chatmail.at/relays) 
-do not ask for any private data (including no phone numbers), 
-it might still be worthwhile to protect relational metadata between addresses. 
-We don't foresee bigger problems in using random throw-away e-mail addresses for sealed sending
-but an implementation has not been agreed as a priority yet. 
+Anche se i [relays di chat](https://chatmail.at/relays)
+non richiedono dati privati (inclusi numeri di telefono),
+potrebbe comunque valere la pena proteggere i metadati relazionali tra gli indirizzi.
+Non prevediamo problemi maggiori nell'utilizzo di indirizzi e-mail casuali usa e getta per l'invio sigillato,
+ma un'implementazione non è stata ancora concordata come priorità.
 
 ### Delta Chat supporta Perfect Forward Secrecy? {#pfs}
 
 No, non ancora.
 
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
-Note that Forward Secrecy only increases security if you delete messages. 
-Otherwise, someone obtaining your decryption keys
-is typically also able to get all your non-deleted messages
-and doesn't even need to decrypt any previously collected messages. 
+Delta Chat al momento non supporta la tecnologia Perfect Forward Secrecy (PFS).
+Ciò significa che se la tua chiave di decrittazione privata viene divulgata
+e qualcuno ha raccolto i tuoi messaggi in transito precedenti,
+sarà in grado di decifrarli e leggerli utilizzando la chiave di decrittazione divulgata.
+Tieni presente che la tecnologia Forward Secrecy aumenta la sicurezza solo se elimini i messaggi.
+In caso contrario, chi ottiene le tue chiavi di decrittazione
+in genere è in grado di ottenere anche tutti i tuoi messaggi non eliminati
+e non ha nemmeno bisogno di decifrare i messaggi raccolti in precedenza.
 
-We designed a Forward Secrecy approach that withstood 
-initial examination from some cryptographers and implementation experts 
-but is pending a more formal write up 
-to ascertain it reliably works in federated messaging and with multi-device usage,
-before it could be implemented in [chatmail core](https://github.com/chatmail/core),
-which would make it available in all [chatmail clients](https://chatmail.at/clients). 
+Abbiamo progettato un approccio Forward Secrecy che ha superato
+l'esame iniziale di alcuni crittografi ed esperti di implementazione
+ma è in attesa di una stesura più formale
+per accertarne l'affidabilità nella messaggistica federata e nell'utilizzo su più dispositivi,
+prima di poter essere implementato in [chatmail core](https://github.com/chatmail/core),
+che lo renderebbe disponibile in tutti i [clients di chatmail](https://chatmail.at/clients).
 
-### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
+### Delta Chat supporta la Crittografia Post-Quantistica? {#pqc}
 
 No, non ancora.
 
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
-We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
-in collaboration with other OpenPGP implementers. 
+Delta Chat utilizza la libreria Rust OpenPGP [rPGP](https://github.com/rpgp/rpgp)
+che supporta l'ultima [bozza IETF Post-Quantum-Cryptography OpenPGP](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
+Il nostro obiettivo è aggiungere il supporto PQC nel [core di chatmail](https://github.com/chatmail/core) dopo che la bozza sarà stata finalizzata dall'IETF
+in collaborazione con altri implementatori di OpenPGP.
 
-### How can I manually check encryption information?
+### Come posso controllare manualmente le informazioni di crittografia?
 
 È possibile verificare manualmente lo stato della crittografia end-to-end nella finestra di dialogo "Crittografia".
 (profilo utente su Android/iOS o clic con il pulsante destro del mouse sull'elemento dell'elenco chat di un utente sul desktop).
@@ -648,8 +648,8 @@ No.
 Delta Chat genera chiavi OpenPGP sicure in conformità alle specifiche di Autocrypt 1.1.
 Puoi esportare le tue chiavi private ma non puoi importare chiavi private aggiuntive.
 
-In generale, non raccomandiamo on proponiamo agli utenti di gestire manualmente le chiavi.
-Noi vogliamo assicurare che gli audit di sicurezza si possano focalizzare su pochi algoritmi crittografici comprovati
+In generale, non raccomandiamo o proponiamo agli utenti di gestire manualmente le chiavi.
+Noi vogliamo assicurare che gli audits di sicurezza si possano focalizzare su pochi algoritmi crittografici comprovati
 invece che sull'intera estensione dei possibili algoritmi consentiti con OpenPGP.
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
