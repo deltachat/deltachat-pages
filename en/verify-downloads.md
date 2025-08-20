@@ -20,9 +20,9 @@ To print the SHA256 fingerprints of the APK signing certificate you can use eg.
 
 ## Desktop
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
-
 You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+
+The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
