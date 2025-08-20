@@ -20,9 +20,9 @@ Do wydrukowania odcisków palców SHA256 certyfikatu podpisu aplikacji można u�
 
 ## Komputer stacjonarny
 
-Klucz publiczny używany do podpisywania wydań na komputery stacjonarne jest opublikowany poniżej i na <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-Szczegółowe instrukcje dotyczące weryfikacji można znaleźć pod adresem `https://download.delta.chat/desktop/<version>/signature.asc` (przykład: dla wersji 1.59.1 instrukcje można znaleźć w <https://download.delta.chat/desktop/v1.59.1/signature.asc>).
+Klucz publiczny używany do podpisywania wydań na komputery stacjonarne jest opublikowany poniżej i na <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

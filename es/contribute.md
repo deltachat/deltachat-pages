@@ -37,11 +37,8 @@ Para más informaciones, nosotros te recomendamos leer y seguir a nuestro [blog]
 
 Los siguientes canales relacionados con Delta Chat son creados por terceras personas que tal vez cumplen o no cumplen con nuestros [estándares de la comunidad](community-standards): 
 
-- Grupos para la comunidad de Delta Chat en inglés, puedes unirte en los siguientes grupos:
-  * [en Delta Chat]({% include dc-community-url %})
-  * [en Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [en XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [en Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) an anonymous
+  social network inside Delta Chat.
 
 - Una [comunidad de Lemmy](https://lemmy.zip/c/delta_chat)
   el la que puedes unirte para escribir `!delta_chat@lemmy.zip` 

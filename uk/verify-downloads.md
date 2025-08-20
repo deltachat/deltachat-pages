@@ -20,9 +20,9 @@ lang: uk
 
 ## Комп'ютер
 
-Відкритий ключ, який використовується для підписання десктопних випусків, опубліковано нижче та на <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-Детальні інструкції з перевірки можна знайти за адресою `https://download.delta.chat/desktop/<version>/signature.asc` (наприклад, для v1.59.1 ви можете знайти інструкції за адресою <https://download.delta.chat/desktop/v1.59.1/signature.asc>).
+Відкритий ключ, який використовується для підписання десктопних випусків, опубліковано нижче та на <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

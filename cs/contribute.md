@@ -40,11 +40,8 @@ Pro další informace ze zákulisí doporučujeme číst a sledovat náš [blog]
 Následující komunikační kanály ohledně Delta Chatu jsou provozovány třetími stranami,
 které se mohou, ale nemusí řídit našimi [Standardy komunity](community-standards):
 
-- Anglicky hovořící komunitní skupina Delta Chatu, ke které se můžete připojit:
-  * [V Delta Chatu]({% include dc-community-url %})
-  * [Na Matrixu](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [Přes XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [Na Telegramu](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) an anonymous
+  social network inside Delta Chat.
 
 - [Komunita na Lemmy](https://lemmy.zip/c/delta_chat)
   kterou můžete sledovat zadáním `!delta_chat@lemmy.zip`

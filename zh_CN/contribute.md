@@ -34,11 +34,8 @@ lang: zh_CN
 
 - 英语 Delta Chat 社区群组，你可以加入该群组：
 
-- 英语 Delta Chat 社区群组，你可以加入该群组：
-  * [在 Delta Chat 中加入]({% include dc-community-url %})
-  * [在 Matrix 中加入](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [在 XMPP 中加入](xmpp:deltachat-en@chat.disroot.org?join)
-  * [在 Telegram 中加入](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) an anonymous
+  social network inside Delta Chat.
 
 - 一个 [Lemmy 社区](https://lemmy.zip/c/delta_chat)
 你可以通过在你的联邦宇宙 (Fediverse) 应用的搜索栏中输入 `!delta_chat@lemmy.zip` 来关注它。

@@ -40,11 +40,8 @@ Per ulteriori approfondimenti si consiglia di leggere e seguire il nostro [blog]
 I seguenti canali di comunicazione relativi a Delta Chat sono gestiti da terze parti
 che possono o meno seguire i nostri [Standard Comunitari](standard-comunitari):
 
-- Gruppo della community Delta Chat di lingua inglese, puoi unirti al gruppo:
-  * [In Delta Chat]({% include dc-community-url %})
-  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [In Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) an anonymous
+  social network inside Delta Chat.
 
 - Una [comunità Lemmy](https://lemmy.zip/c/delta_chat)
 che puoi seguire inserendo `!delta_chat@lemmy.zip`
