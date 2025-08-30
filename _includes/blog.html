@@ -3,7 +3,7 @@
 {% assign index = index | plus:1 %}
 {% if post.image and index <= 12 %}
 <div class="post-box">
-  <a href="{{ site.baseurl }}{{ post.url }}">
+  <a href="..{{ post.url }}">
     <div class="featured-image">
       <img src="{{ post.image }}" />
     </div>
@@ -12,7 +12,7 @@
   <p>
     <em>{{ post.date | date: "%B %d, %Y" }}</em> -
     {{ post.excerpt | strip_html }} 
-    <a href="{{ site.baseurl }}{{ post.url }}">Read on...</a>
+    <a href="..{{ post.url }}">Read on...</a>
   </p>
 </div>
 {% else %}
@@ -22,7 +22,7 @@
   {% endif %}
   <p>
     <em>{{ post.date | date: "%B %Y" }}</em> -
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <a href="..{{ post.url }}">{{ post.title }}</a>
   </p>
 </div>
 {% endif %}
