@@ -187,7 +187,7 @@ You can turn on "disappearing messages"
 in the settings of a chat,
 at the top right of the chat window,
 by selecting a time span
-between 1 minute and 5 weeks.
+between 5 minutes and 1 year.
 
 Until the setting is turned off again,
 each chat member's Delta Chat app takes care
@@ -411,8 +411,8 @@ If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
 
 If you instead create a profile using a classic e-mail server,
-you can send and receive messages without end-to-end encryption. 
-Such messages lacking end-to-end encryption are marked with an e-mail icon 
+you can send and receive messages with or without end-to-end encryption.
+Messages lacking end-to-end encryption are marked with an e-mail icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 ### How can I establish a chat with a new contact? {#howtoe2ee}
@@ -940,6 +940,22 @@ Voici ce que fait Delta Chat avec ces autorisations:
 
 - Il y a de bonnes chances que oui :)
 Cependant, il faut activer des options spéciales pour que cela fonctionne correctement avec certains fournisseurs... Voir [la liste des fournisseurs](https://providers.delta.chat).
+
+
+### Can I use Delta Chat in parallel with other E-Mail apps?
+
+Yes, but it is not recommended.
+
+Parallel usage with the same E-Mail address might lead to the following inconveniences:
+
+- Next to your Delta Chat notifications,
+  you might also get notifications for (encrypted, so unreadable) chat mail messages
+  in your other email app
+- If Delta Chat is not running
+  or "Advanced > Move automatically to the DeltaChat Folder" is disabled,
+  encrypted Delta Chat messages might clutter the Inbox in your other E-Mail apps.
+
+[Sieve rules](https://support.delta.chat/t/sieve-rule-to-move-deltachat-mails-to-deltachat-folder/288/10) can solve these problems.
 
 
 ### I want to manage my own server for Delta Chat. What do you recommend?

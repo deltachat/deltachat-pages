@@ -8,21 +8,18 @@ lang: es
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers provide a privacy-preserving and speedy messaging experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Los servidores de chatmail ofrecen una experiencia de mensajería rápida, privada y segura e interoperable con otros servidores de chatmail y clásicos de correo electrónico.
+**Haz clic en el enlace de un servidor de chatmail** para ver su página de inicio y luego haz clic en el código de invitación QR allí:
 
-- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
-  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+- [nine.testrun.org](https://nine.testrun.org) es el servidor de chatmail predeterminado para las aplicaciones de Delta Chat y se ha mantenido estable desde [diciembre de 2023 con el anuncio de chatmail](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users 
+- [mehl.cloud](https://mehl.cloud) está destinado a hablantes de alemán.
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
+- [mailchat.pl](https://mailchat.pl) está destinado a hablantes de polaco.
 
 - [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
-  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
-  are focused on Italian speaking users.
+  y [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  están destinados a hablantes de italiano.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   está operado para los UU. EE.

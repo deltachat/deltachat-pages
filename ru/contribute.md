@@ -40,8 +40,8 @@ lang: ru
 Следующие каналы связи, связанные с Delta Chat, управляются третьими сторонами
 которые могут следовать или не следовать нашим [Стандартам сообщества](community-standards): 
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}) анонимная
+  социальная сеть внутри Delta Chat.
 
 - [Сообщество Lemmy](https://lemmy.zip/c/delta_chat)
   на которое вы можете подписаться, добавив `!delta_chat@lemmy.zip` 

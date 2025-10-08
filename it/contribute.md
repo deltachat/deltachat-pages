@@ -40,8 +40,8 @@ Per ulteriori approfondimenti si consiglia di leggere e seguire il nostro [blog]
 I seguenti canali di comunicazione relativi a Delta Chat sono gestiti da terze parti
 che possono o meno seguire i nostri [Standard Comunitari](standard-comunitari):
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}) un social network
+  anonimo, dentro Delta Chat.
 
 - Una [comunità Lemmy](https://lemmy.zip/c/delta_chat)
 che puoi seguire inserendo `!delta_chat@lemmy.zip`

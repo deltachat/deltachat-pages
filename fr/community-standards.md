@@ -1,24 +1,22 @@
 ---
-title: Community Standards
+title: Standards de la Communauté
 lang: fr
 ---
 
-# Delta Chat Community Standards
+# Standards de la communauté Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
+Dans le but de favoriser un environnement ouvert et accueillant, nous, les contributeur⋅rices et mainteneur⋅euses faisant en sorte que la participation à la communauté Delta Chat soit une expérience agréable et sans présence de harcèlement quel qu'il soit.
 
 
-## Our Standards
+## Nos standards
 
-Examples of behavior that contribute to creating a positive environment include:
+Les comportements contribuant à un environnement favorable à la participation sont :
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
+* Utiliser un langage inclusif et bienveillant
+* Être respectueux⋅euse des différences de points de vue et expériences de tout le monde
+* Recevoir positivement la critique constructive
+* Être attentionné⋅e auprès des membres de la communauté et des membres arrivants
+* Être aidant⋅e et participer à être médiateur⋅e lors de l'apparition de mécontentements ou de conflits
 
 Examples of behavior which we ask everybody to avoid include:
 

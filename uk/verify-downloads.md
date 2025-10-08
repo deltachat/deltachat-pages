@@ -20,7 +20,7 @@ lang: uk
 
 ## Комп'ютер
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+Детальну інструкцію з перевірки можна знайти за посиланням `https://download.delta.chat/desktop/v<version>/signature.asc`.
 
 Відкритий ключ, який використовується для підписання десктопних випусків, опубліковано нижче та на <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 

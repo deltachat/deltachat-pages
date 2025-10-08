@@ -1,39 +1,40 @@
 ---
-titolo: Norme comunitarie
+titolo: Norme Comunitarie
 lang: it
 ---
 
-# Standards della comunità di Delta Chat
+# Standards Comunità Delta Chat
 
 Nell'interesse di promuovere un ambiente aperto e accogliente, noi come
 contributori e manutentori ci sforziamo di rendere la partecipazione nelle comunità Delta Chat
-sia un'esperienza piacevole, priva di molestie.
+un'esperienza piacevole, priva di molestie.
 
 
-## I nostri standards
+## I Nostri Standards
 
-Esempi di comportamenti che contribuiscono a creare un ambiente positivo sono:
+Esempi di comportamenti che contribuiscono a creare un ambiente positivo includono:
 
 * Usare un linguaggio accogliente e inclusivo
-* Essere rispettosi dei diversi punti di vista e delle diverse esperienze
+* Essere rispettosi dei diversi punti di vista ed esperienze
 * Accettare con grazia le critiche costruttive
 * Mostrare empatia nei confronti dei membri della comunità e dei nuovi arrivati
-* Aiutare e mediare in caso di turbamenti o conflitti
+* Aiutare e mediare in caso di disturbi o conflitti
 
-Esempi di comportamenti che chiediamo a tutti di evitare sono:
+Esempi di comportamenti che chiediamo a tutti di evitare includono:
 
 * L'uso di linguaggio o immagini sessualizzate e attenzioni o avances sessuali indesiderate
-* Trolling, commenti offensivi/derogatori e attacchi personali o politici
+* Trolling, commenti offensivi/derogatori, e attacchi personali o politici
 * Molestie pubbliche o private
 * Pubblicazione di informazioni private altrui, come un indirizzo fisico o elettronico, senza esplicita autorizzazione
 
-Riconosciamo che a volte le persone hanno una giornata storta o non sono consapevoli
-dell'impatto del loro comportamento. Quando ciò accade, potete ricordarglielo
-attentamente in pubblico o in privato, a seconda di ciò che è più appropriato. Presumiamo la buona fede;
-è più probabile che i partecipanti siano inconsapevoli piuttosto che stiano intenzionalmente denigrando gli altri o di ridurre la qualità della discussione.
+Sappiamo che a volte le persone possono avere una brutta giornata o non essere consapevoli
+del'impatto del loro comportamento. Quando ciò accade, potete ricordarglielo con attenzione
+in pubblico o in privato, a seconda di come è più appropriato. Presupponete la buona fede;
+è più probabile che i partecipanti non ne siano consapevoli piuttosto che cercare intenzionalmente
+di denigrare gli altri o di ridurre la qualità della discussione.
 
 
-## Manutentori e responsabilità
+## Manutentori e Responsabilità
 
 I manutentori del progetto sono coloro che hanno i diritti di compiere sui depositi di Delta Chat o i diritti di amministrazione sui canali di comunicazione della comunità.
 A ogni manutentore viene chiesto di assumersi la responsabilità e di agire in modo appropriato e attento

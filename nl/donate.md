@@ -12,7 +12,7 @@ zonder surveillance, reclame of miljardairs aan het roer.
 
 - Doneren via [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
 
-- Verstuur bitcoins naar [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX - rekeninghouder (altijd invullen s.v.p.): Björn Petersen
 

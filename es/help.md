@@ -69,18 +69,16 @@ Si un mensaje proviene de un contacto desconocido, aparece como una **solicitud*
 
 ### ¿Qué son los perfiles? ¿Cómo puedo cambiar entre ellos? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses a chatmail or a classic e-mail server to transport messages.
+Un perfil es **un nombre, una foto** y algunas informaciones adicionales para encriptar los mensajes.
+Un perfil solo existe dentro de tu dispositivo(s)
+y utilice un servidor de chatmail o correo electrónico clásico para el transporte de los mensajes.
 
 En la primera instalación de Delta Chat se crea un primer perfil.
 
 Después, puedes tocar la imagen de tu perfil en la esquina superior izquierda para **Añadir perfiles**
 o para **Cambiar perfiles**.
 
-You may want to use separate profiles for political, family or work related activities,
-or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
-that tend to cause unsolicited messages ("spam") sooner or later.
+Se podría considerar la utilización de perfiles diferenciados para actividades vinculadas con políticas, familia o trabajo, o para un perfil dedicado a "spam", que podría ser utilizado para páginas web y plataformas que tendrán la capacidad de generar mensajes no solicitados.
 
 Quizás quieres aprender [cómo se usa el mismo perfil en múltiples dispositivos](#multiclient).
 
@@ -102,11 +100,11 @@ dispositivo.
 
 ### ¿Puedo establecer un texto de firma con Delta Chat? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Your contacts who use Delta Chat will see it
-when they view your contact details.
-Moreover, it will appear as a classic e-mail signature.
+Sí,
+es posible hacerlo en "Ajustes → Perfil → Texto de firma".
+Los contactos que usan Delta Chat podrán ver
+si revisan los detalles de tu perfil.  
+Además, se encontrará en la firma de correos electrónicos clásicos.
 
 
 ### ¿Qué significa fijar, mutear, archivar?
@@ -141,12 +139,12 @@ para silenciar un chat, use el menú del chat (Android/Escritorio) o el perfil d
   Con pulsar a <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
   puedes volver al mensaje original en el chat original
 
-- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Finalmente, también se puede utilizar "Mensajes guardados" para tomar **notas personales** - abre el chat, escribe algo, añade una foto o un mensaje de voz, etc.
 
-- As "Saved Message" are synced, they can become very handy for transferring data between devices
+- Como los "mensajes guardados" se sincronizan, pueden ser muy útiles para transferir datos entre dispositivos.
 
-Messages stay saved even if they are edited or deleted -
-may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+Los mensajes se quedan guardados, también si se han cambiado o están borrados -
+Sea por el [remitente](#edit), por la [limpieza del dispositivo](#delold) o por la [desaparición de mensajes de otros chats](#ephemeralmsgs).
 
 
 ### ¿Qué significa el punto verde?
@@ -155,15 +153,15 @@ A veces puede ver un **punto verde** <img style="vertical-align:middle; width:1.
 junto al avatar de un contacto.
 Significa que ha sido **visto recientemente** en los últimos 10 minutos:
 
-- either because they messaged you directly,
-- because they wrote something to a group you are both a member of,
-- because they sent you a read receipt for a message you wrote,
-- because they edit or delete a message in a chat shared with you,
-- or because they use an [app](#webxdc) in a chat shared with you.
+- sea porque te enviaron un mensaje directamente,
+- porque escribieron algo en un grupo en que ambos son miembros,
+- porque te enviaron un acuse de recibo de un mensaje que escribiste,
+- porque editaron o borraron un mensaje en un chat compartido contigo,
+- o porque utilizan una [app](#webxdc) en un chat compartido contigo.
 
-So this is not a real time online status -
-and if someone doesn't answer right away even though they seem to be online,
-don't worry and give them some space :)
+Así que esto no es un estado de en línea en tiempo real -
+y si alguien no responde de inmediato, aunque parece que estar en línea,
+no te preocupes y dale un poco de espacio :)
 
 On the other hand, others will not always "see that you are online".
 If you have turned off read receipts,
@@ -171,11 +169,11 @@ they will not see the green dot
 until one of the above conditions are met.
 
 
-### Correct typos and delete messages after sending {#edit}
+### Corregir errores y borrar mensajes después de enviar {#edit}
 
-- You can edit the text of your messages after sending.
-  For that, long tap or right click the message and select **Edit**
-  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+- Se puede editar el texto de los mensajes después de enviarlos.
+Para ello, mantenga pulsado o haz clic con el botón derecho en el mensaje y seleccione **Editar**
+o <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
 
 - Si has enviado un mensaje accidentalmente
   desde el mismo menú, seleccione **Borrar** y después **Borrar para todos**.
@@ -190,11 +188,11 @@ who could have already replied, forwarded, saved, screenshotted or otherwise cop
 
 ### ¿Cómo funciona la desaparición de mensajes? {#ephemeralmsgs}
 
-Puedes activar "desaparición de mensajes"
-en la configuración de un chat,
-en la parte superior derecha de la ventana de chat,
-seleccionando un lapso de tiempo
-entre 1 minuto y 5 semanas.
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 5 minutes and 1 year.
 
 Hasta que la configuración se desactive nuevamente,
 La aplicación Delta Chat de cada miembro del chat se encarga
@@ -286,28 +284,28 @@ para que los otros dispositivos también puedan descargarlos.
   older than that.
 
 
-## Instant message delivery and Push Notifications {#instant-delivery}
+## Entrega de mensajes instantáneos y notificaciones Push {#instant-delivery}
 
 
-### What are Push Notifications? How can I get instant message delivery?
+### ¿Qué son las Notificaciones Push? ¿Cómo puedo recibir mensajes instantáneos?
 
 Push Notifications are sent by Apple and Google "Push services" to a user's device
 so that an inactive Delta Chat app can fetch messages in the background
 and show notifications on a user's phone if needed.
 
-Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
+Las notificaciones push funcionan con todos los servidores de [chatmail](https://delta.chat/chatmail) en
 
-- iOS devices, by integrating with Apple Push services.
+- dispositivos iOS, por la integración de los servicios Push de Apple.
 
 - Android devices, by integrating with the Google FCM Push service,
   including on devices that use [microG](https://microg.org)
   instead of proprietary Google code on the phone.
 
-As of May 2024, classic e-mail servers do not support Push Notifications
-for Delta Chat users.
+A partir de mayo de 2024, los servidores de correo electrónico clásicos no admiten notificaciones push
+para los usuarios de Delta Chat.
 
 
-### Are Push Notifications enabled on iOS devices? Is there an alternative?
+### ¿Están activadas las notificaciones Push en los dispositivos iOS? ¿Existe alguna alternativa?
 
 Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
 And no, there is no alternative on Apple's phones to achieve instant message delivery
@@ -317,7 +315,7 @@ Push notifications are automatically activated for iOS users because
 does not expose data to Apple that it doesn't already have.
 
 
-### Are Push notifications enabled / needed on Android devices? {#android-push}
+### ¿Están habilitadas / son necesarias las notificaciones Push en los dispositivos Android? {#android-push}
 
 If a "Push Service" is available, Delta Chat enables Push Notifications
 to achieve instant message delivery for all chatmail users.
@@ -345,13 +343,13 @@ Both "Background Connection" options are energy-efficient and
 safe to try if you experience messages arrive only with long delays.
 
 
-### How private are Delta Chat Push Notifications? {#privacy-notifications}
+### ¿Qué privadas son las notificaciones push de Delta Chat? {#privacy-notifications}
 
 Delta Chat Push Notification support avoids leakage of private information.
 It does not leak e-mail, IP address or message content (not even encrypted)
 to any system involved in the delivery of Push Notifications.
 
-Here is how Delta Chat apps perform Push Notification delivery:
+Así es como las aplicaciones Delta Chat realizan la entrega de Notificaciones Push:
 
 - A Delta Chat app obtains a "device token" locally, encrypts it and stores it
   on the [chatmail](https://delta.chat/chatmail) server.
@@ -429,11 +427,11 @@ If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
 
 If you instead create a profile using a classic e-mail server,
-you can send and receive messages without end-to-end encryption. 
-Such messages lacking end-to-end encryption are marked with an e-mail icon 
+you can send and receive messages with or without end-to-end encryption.
+Messages lacking end-to-end encryption are marked with an e-mail icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-### How can I establish a chat with a new contact? {#howtoe2ee}
+### ¿Cómo puedo establecer un chat con un nuevo contacto? {#howtoe2ee}
 
 You can send an invite link through another private chat, 
 show an invitation QR code when next to each other or in a video call,
@@ -978,6 +976,22 @@ Esto es lo que hace Delta Chat con esos permisos:
 
 - Es muy probable que sí :)
 Sin embargo, algunos proveedores necesitan opciones especiales para funcionar correctamente, ver [Descripción de proveedores](https://providers.delta.chat)
+
+
+### Can I use Delta Chat in parallel with other E-Mail apps?
+
+Yes, but it is not recommended.
+
+Parallel usage with the same E-Mail address might lead to the following inconveniences:
+
+- Next to your Delta Chat notifications,
+  you might also get notifications for (encrypted, so unreadable) chat mail messages
+  in your other email app
+- If Delta Chat is not running
+  or "Advanced > Move automatically to the DeltaChat Folder" is disabled,
+  encrypted Delta Chat messages might clutter the Inbox in your other E-Mail apps.
+
+[Sieve rules](https://support.delta.chat/t/sieve-rule-to-move-deltachat-mails-to-deltachat-folder/288/10) can solve these problems.
 
 
 ### I want to manage my own server for Delta Chat. What do you recommend?

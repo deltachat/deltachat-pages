@@ -16,7 +16,7 @@ ca:
   subscribe_to_feed: Subscriu-te al nostre canal
 
   references: Referències
-  donate: ""
+  donate: Dona
   imprint: Empremta
   privacy: Política de privacitat
   language: Idioma
@@ -26,7 +26,7 @@ ca:
     no_upgrades: Opcions de baixada sense actualitzacions automàtiques
     source_code: Codi font
     outdated: desactualitzat
-    minimum: ""
+    minimum: Requisits mínims
     dl_flathub: Baixa de Flathub
     dl_microsoft: Baixa de Microsoft Store
     dl_mac_appstore: Baixa d'Apple Mac AppStore
@@ -35,4 +35,4 @@ ca:
     gplay: Aconsegueix-lo a Google Play
 
   help:
-    offline_hint: ""
+    offline_hint: "Amb pressa? Pots llegir aquesta ajuda amb tranquil·litat en qualsevol moment dins de l’app, fins i tot sense connexió a Internet."

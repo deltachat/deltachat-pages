@@ -19,11 +19,11 @@ Para las interacciones comunitarias en torno a Delta Chat, por favor lee nuestra
 
 # Traducciones y reportes de errores
 
-- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translaciones por Transifex](https://explore.transifex.com/delta-chat/)
+- [Errores y mejoras para Delta Chat de Android](https://github.com/deltachat/deltachat-android/issues)
+- [Errores y mejoras para Delta Chat de escritorio](https://github.com/deltachat/deltachat-desktop/issues)
+- [Errores y mejoras para Delta Chat de iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Errores y mejoras para la biblioteca del core y las interfaces de Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Estamos buscando desarrolladores y diseñadores.
 Ofrecemos empleos de 20-30 horas semanales  o contratos (si se trabaja en Alemania).
@@ -37,8 +37,7 @@ Para más informaciones, nosotros te recomendamos leer y seguir a nuestro [blog]
 
 Los siguientes canales relacionados con Delta Chat son creados por terceras personas que tal vez cumplen o no cumplen con nuestros [estándares de la comunidad](community-standards): 
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}), una red social anónima dentro del mismo Delta Chat.
 
 - Una [comunidad de Lemmy](https://lemmy.zip/c/delta_chat)
   el la que puedes unirte para escribir `!delta_chat@lemmy.zip` 

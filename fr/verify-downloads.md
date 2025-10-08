@@ -17,11 +17,11 @@ Pour Android, vous pouvez vérifier que le certificat de signature sur l'APK cor
 
 Pour imprimer les empreintes SHA256 du certificat de signature de l'APK vous pouvez utiliser, par ex. `keytool -printcert -jarfile <APK-file>`
 
-## Desktop
+## Version PC
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+Vous pouvez trouver des instructions détaillées pour effectuer la vérification sur la page `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+La clé publique utilisée pour signer les versions PC sont publiées ci-dessous et sur <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -39,4 +39,4 @@ nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Download: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
+Téléchargement : [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
