@@ -20,7 +20,7 @@ lang: ru
 
 ## Компьютер
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+Подробные инструкции по проверке можно найти по адресу `https://download.delta.chat/desktop/v<version>/signature.asc`
 
 Открытый ключ, используемый для подписи версий для компьютера, опубликован ниже и на <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 

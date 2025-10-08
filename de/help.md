@@ -175,10 +175,11 @@ die die Nachricht bereits beantwortet, weitergeleitet, gespeichert, mit einem Sc
 
 ### Wie funktionieren "Verschwindende Nachrichten"? {#ephemeralmsgs}
 
-Sie schalten "Verschwindende Nachrichten"
-oben rechts im Chatfenster,
-durch Auswahl einer Zeitspanne
-zwischen 1 Minute und 5 Wochen ein.
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 5 minutes and 1 year.
 
 Bis die Einstellung wieder ausgeschaltet wird,
 kümmern sich die Delta-Chat-Apps der Chat-Teilnehmer
@@ -375,51 +376,50 @@ Delta Chat fragt keine OpenPGP-Keyserver ab, veröffentlicht dort keine Daten un
 
 ### Wie kann ich wissen, ob Nachrichten Ende-zu-Ende-verschlüsselt sind? {#whene2e}
 
-All messages in Delta Chat are **end-to-end encrypted by default**.
-Since the Delta Chat Version 2 release series (July 2025) 
-there are no lock or similar markers on end-to-end encrypted messages, anymore. 
+Alle Nachrichten in Delta Chat sind **standardmäßig Ende-zu-Ende-verschlüsselt**.
+Seit der Veröffentlichung von Delta Chat Version 2 (Juli 2025) gibt es keine Schlösser oder ähnliche Markierungen mehr an Ende‑zu‑Ende-verschlüsselten Nachrichten.
 
 ### Kann ich E-Mails ohne Ende-zu-Ende-Verschlüsselung empfangen oder senden?
 
 Wenn Sie die Standard-[Chatmail-Relays](https://chatmail.at/relays) verwenden, ist es unmöglich, Nachrichten ohne End-to-End-Verschlüsselung zu empfangen oder zu senden. 
 
-Wenn Sie stattdessen ein Profil mit einem klassischen E-Mail-Server erstellen,
-können Sie Nachrichten ohne End-to-End-Verschlüsselung senden und empfangen. 
-Solche Nachrichten werden mit einem E-Mail-Symbol gekennzeichnet 
+If you instead create a profile using a classic e-mail server,
+you can send and receive messages with or without end-to-end encryption.
+Messages lacking end-to-end encryption are marked with an e-mail icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 ### Wie kann ich einen Chat mit einem neuen Kontakt erstellen? {#howtoe2ee}
 
-You can send an invite link through another private chat, 
-show an invitation QR code when next to each other or in a video call,
-or click on a "contact" that was shared in a chat. 
+Man kann einen Einladungslink über einen anderen privaten Chat senden, 
+einen Einladungs-QR-Code zeigen, wenn man nebeneinander steht oder einen Videoanruf tätigen,
+oder auf einen "Kontakt" klicken der per Chat geteilt wurde.
 
 - Für **Gruppeneinladungen**,
 tippen Sie auf den Titel der Gruppe, um die Mitgliederliste anzuzeigen,
 und wählen Sie „QR-Einladungscode“.
 
-- For **direct 1:1 chat invitations**, 
-  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
+- Für **direkte 1:1-Chat-Einladungen**, 
+  tippt man auf das QR-Code-Symbol <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  auf dem Hauptbildschirm der Delta-Chat-App.
 
-Ask your chat partner to scan the QR image
-with their Delta Chat app,
-or click "Copy" or "Share" to create an invite link
-and share it with your chat partner.
+Man kann seinen Chat-Partner bitten, denn QR-Code
+mit seiner Delta Chat-App zu scannen,
+oder auf "Kopieren" oder "Teilen" drücken, um einen Einladungslink zu erstellen
+und diesen mit seinem Chat-Partner zu teilen.
 
-Now wait while [end-to-end encryption is getting established](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol). 
+Nun wartet man, während die [Ende-zu-Ende-Verschlüsselung eingerichtet wird](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol).
 
-- If both sides are online, they will soon see a (group or direct) chat
-  and can start messaging securely. 
+- Wenn beide Seiten online sind, sehen sie bald einen (Gruppen- oder direkten) Chat
+  und können mit der sicheren Nachrichtenübermittlung beginnen. 
 
-- If one side is offline or in bad network, 
-  the  ability to chat is delayed until connectivity is restored. 
+- Wenn eine Seite offline ist oder eine schlechte Verbindung hat, 
+  wird die Möglichkeit zu chatten verzögert, bis die Verbindung wiederhergestellt ist. 
 
-Congratulations! 
-You now will automatically use end-to-end encryption
-with this contact. 
-If you add each other to chat groups,
-end-to-end encryption will be established among all members. 
+Glückwunsch! 
+Du verwenden jetzt automatisch eine Ende-zu-Ende-Verschlüsselung
+mit diesem Kontakt. 
+Wenn man sich gegenseitig zu Chatgruppen hinzufügt,
+wird eine Ende-zu-Ende-Verschlüsselung zwischen allen Mitgliedern eingerichtet. 
 
 
 ### Was bedeutet das grüne Häkchen in einem Kontaktprofil? {#e2eeguarantee}
@@ -452,9 +452,9 @@ und Anhang-Metadaten wie Dateinamen.
 
 ### Ist OpenPGP sicher? {#openpgp-secure}
 
-Yes, Delta Chat uses a secure subset of OpenPGP
-requiring the whole message to be properly encrypted and signed.
-For example, "Detached signatures" are not treated as secure.
+Ja, Delta Chat verwendet ein sicheres subset von OpenPGP
+das verlangt, dass die gesamte Nachricht ordnungsgemäß verschlüsselt und signiert wurde.
+Als Beispiel, werden "angehängte Signaturen" nicht als sicher behandelt.
 
 Die meisten öffentlich diskutierten OpenPGP-Probleme
 resultieren in Wirklichkeit aus schlechter Usability oder schlechter Implementierung von Tools oder Anwendungen - oder beidem.
@@ -505,10 +505,11 @@ so wie in der Autocrypt-Level-1-Spezifikation definiert.
 
 ### Sind mit dem Mail-Symbol markierte Nachrichten im Internet sichtbar? {#tls}
 
-If you are sending or receiving e-mail messages without end-to-end encryption (using a classic e-mail server),
-they are still protected from cell or cable companies who can not read or modify your e-mail messages. 
-But both your and your recipient's e-mail providers 
-may read, analyze or modify your messages, including any attachments. 
+Wenn Sie E-Mail-Nachrichten ohne Ende-zu-Ende-Verschlüsselung senden oder empfangen (mit einem klassischen E-Mail-Server),
+sind sie immer noch vor Mobilfunkanbietern oder Kabelnetzbetreibern geschützt, die Ihre E-Mail-Nachrichten nicht lesen oder verändern können. 
+
+Aber sowohl Ihr E-Mail-Anbieter als auch der E-Mail-Anbieter des Empfängers 
+können Ihre Nachrichten, einschließlich aller Anhänge, lesen, analysieren oder verändern. 
 
 Delta Chat verwendet standardmäßig strikte 
 [TLS-Verschlüsselung](https://en.wikipedia.org/wiki/Transport_Layer_Security), 
@@ -536,7 +537,7 @@ E-Mail-Server können deshalb nur das Folgende sehen:
 
 - Größe der Nachricht
 
-All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
+Alle anderen Metadaten zu Nachrichten, Kontakten und Gruppen befinden sich im Ende-zu-Ende-verschlüsselten Teil der Nachrichten. 
 
 ### Wie schützt man Metadaten und Kontakte, wenn ein Gerät beschlagnahmt wird? {#device-seizure}
 
@@ -552,12 +553,12 @@ can not be identified easily.
 
 ### Unterstützt Delta Chat „Sealed Sender“? {#sealedsender}
 
-No, not yet. 
+Nein, noch nichts. 
 
-The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
-to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
-It is particularly important because the Signal server knows the mobile number of each account,
-which is usually associated with a passport identity.
+Der Signal-Messenger führte 2018 ["Sealed Sender"](https://signal.org/blog/sealed-sender/) ein
+um seine Serverinfrastruktur darüber im Unklaren zu lassen, wer eine Nachricht an eine Gruppe von Empfängern sendet. 
+Dies ist besonders wichtig, weil der Signal-Server die Handynummer jedes Kontos kennt,
+die in der Regel mit einer Passidentität verbunden ist.
 
 Even if [chatmail relays](https://chatmail.at/relays) 
 do not ask for any private data (including no phone numbers), 
@@ -567,7 +568,7 @@ but an implementation has not been agreed as a priority yet.
 
 ### Unterstützt Delta Chat "Perfect Forward Secrecy"? {#pfs}
 
-No, not yet. 
+Nein, noch nichts. 
 
 Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your private decryption key is leaked,
@@ -587,12 +588,11 @@ which would make it available in all [chatmail clients](https://chatmail.at/clie
 
 ### Unterstützt Delta Chat Post-Quantum-Verschlüsselung? {#pqc}
 
-No, not yet. 
+Nein, noch nichts. 
 
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
-We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
-in collaboration with other OpenPGP implementers. 
+Delta Chat verwendet die Rust OpenPGP-Bibliothek [rPGP](https://github.com/rpgp/rpgp)
+die den neuesten [IETF Post-Quantum-Cryptography OpenPGP Entwurf](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/) unterstützt. 
+Wir beabsichtigen, PQC-Unterstützung zum [chatmail core](https://github.com/chatmail/core) hinzuzufügen, sobald der Entwurf bei der IETF in Zusammenarbeit mit anderen OpenPGP-Implementierern fertiggestellt ist. 
 
 ### Wie kann ich die Verschlüsselung manuell überprüfen?
 
@@ -791,10 +791,10 @@ In diesem Fall muss Delta Chat den Posteingang nicht beobachten, und es reicht a
 
 ### Wie kann ich mein Profil auf eine andere E-Mail-Adresse ändern?
 
-Note: 
-Changing email addresses is temporarily disabled
-because of ongoing changes to the DeltaChat core.
-It should be available again in a few months.
+Anmerkung: 
+Das Ändern von E-Mail-Adressen ist vorübergehend deaktiviert
+wegen laufender Änderungen am DeltaChat-Core.
+Es sollte in ein paar Monaten wieder verfügbar sein.
 
 1. Ändern Sie Ihre E-Mail-Adresse unter "Einstellungen → Erweitert → Passwort und E-Mail-Konto" und
 geben Sie das Passwort Ihres neuen E-Mail-Konto (und ggf. die Servereinstellungen) ein.
@@ -851,12 +851,28 @@ Je nach verwendetem Betriebssystem werden Sie möglicherweise aufgefordert, der 
   Allerdings benötigen einige Anbieter besondere Einstellungen, um ordnungsgemäß zu funktionieren; eine von NutzerInnen erstellte Sammlung zu einigen Optionen findet sich unter [Provider Overview](https://providers.delta.chat).
 
 
+### Can I use Delta Chat in parallel with other E-Mail apps?
+
+Yes, but it is not recommended.
+
+Parallel usage with the same E-Mail address might lead to the following inconveniences:
+
+- Next to your Delta Chat notifications,
+  you might also get notifications for (encrypted, so unreadable) chat mail messages
+  in your other email app
+- If Delta Chat is not running
+  or "Advanced > Move automatically to the DeltaChat Folder" is disabled,
+  encrypted Delta Chat messages might clutter the Inbox in your other E-Mail apps.
+
+[Sieve rules](https://support.delta.chat/t/sieve-rule-to-move-deltachat-mails-to-deltachat-folder/288/10) can solve these problems.
+
+
 ### Ich möchte meinen eigenen Server für Delta Chat verwalten. Gibt es Empfehlungen?
 
-- Most mail servers will work well. But what we personally recommend is a
-  chatmail relay server, as described [in this
-  blogpost](https://delta.chat/en/2023-12-13-chatmail).
-- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
+- Die meisten Mailserver werden gut funktionieren. Aber wir persönlich empfehlen ein
+  Chatmail-Relay-Server, wie er [in diesem
+  Blogpost](https://delta.chat/en/2023-12-13-chatmail) beschrieben wird.
+- Man kann eine [Installationsanleitung auf GitHub](https://github.com/chatmail/relay) finden.
 
 
 ### Weshalb muss ich mein E-Mail-Kennwort in Delta Chat eingeben? Ist das sicher?

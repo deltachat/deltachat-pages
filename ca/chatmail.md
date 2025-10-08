@@ -1,57 +1,56 @@
 ---
-title: Chatmail for instant, interoperable and privacy-preserving messaging
+title: Chatmail per a missatgeria instantània, interoperable i que preserva la privadesa
 lang: ca
 ---
 
 
-## What are chatmail servers and how to select one? 
+## Què són els servidors de chatmail i com triar-ne un? 
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers provide a privacy-preserving and speedy messaging experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Els servidors de Chatmail ofereixen una experiència de missatgeria ràpida i que preserva la privavitat,
+interoperable de manera segura amb servidors Chatmail i servidors de correu electrònic clàssics.
+**Toca l’enllaç del servidor Chatmail per veure la pàgina principal i després toca el codi QR d’invitació que hi ha:
 
-- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
-  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+- [nine.testrun.org](https://nine.testrun.org) és el servidor Chatmail predeterminat
+ ha estat estable a les aplicacions Delta Chat des de [l'anunci de Chatmail el Desembre de 2023](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users 
+- [mehl.cloud](https://mehl.cloud) està orientat a usuaris de parla alemanya
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
+- [mailchat.pl](https://mailchat.pl) està orientat a usuaris de parla polonesa
 
 - [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
-  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
-  are focused on Italian speaking users.
+  i [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  estan orientats a usuaris de parla italiana.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US 
+  opera als EUA
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Germany
-
-
-There are additional chatmail servers not listed publically.  
-
-All chatmail servers are operated by different groups and people. 
+- [tarpit.fun](https://tarpit.fun) està allotjat a Alemanya
 
 
-## Can I also use a pre-existing e-mail address? 
+Hi ha servidors Chatmail addicionals que no estan llistats públicament.
 
-Yes, you can use a pre-existing e-mail address with Delta Chat
-but we recommend to use a **dedicated e-mail address for chatting**
-so that your classic usually un-encrypted e-mail does not mix 
-with end-to-end encrypted chat messages. 
+Tots els servidors Chatmail estan gestionats per diferents grups i persones.
 
-You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
 
-Delta Chat has multi-profile support so you can have 
-one profile with your classic e-mail address,
-and another for instant always-encrypted chatting. 
-Chatmail addresses are cheap. 
+## Puc utilitzar també una adreça de correu electrònic preexistent?
 
-## How can i learn more about chatmail servers? Can i run one? 
+Sí, pots utilitzar una adreça de correu electrònic preexistent amb Delta Chat,
+però recomanem utilitzar una adreça de correu electrònic **dedicada per xatejar**
+per tal que el teu correu electrònic clàssic, que normalment no està xifrat, no es barregi
+amb els missatges de xat xifrats de punta a punta.
 
-Please visit our [chatmail project page](https://chatmail.at) 
-for more details and links. 
+També pots utilitzar Delta Chat com a (cleartext) aplicació de correu electrònic amb a una adreça de correu electrònic existent.
+
+Delta Chat té suport per a múltiples perfils, de manera que pots tenir
+un perfil amb la teva adreça clàssica de correu electrònic
+i un altre per xatejar de manera instantània i xifrada.
+Les adreces Chatmail són econòmiques.
+
+## Com puc aprendre més sobre els servidors Chatmail? Puc gestionar-ne un?
+
+Visita la nostra [chatmail project page](https://chatmail.at) 
+per a més detalls i enllaços. 
 
 [Donatius](donate){: .cta-button}

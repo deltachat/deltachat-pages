@@ -35,8 +35,7 @@ lang: uk
 
 Наступні канали зв'язку, пов'язані із Delta Chat, управляються третіми сторонами, які можуть чи не можуть дотримуватися наших [Стандартів спільноти](community-standards):
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}) анонімна соціальна мережа всередині Delta Chat.
 
 - [Спільнота Lemmy](https://lemmy.zip/c/delta_chat) яку ви можете зафоловити помістивши `!delta_chat@lemmy.zip` у поле пошуку вашого fediverse-застосунку.
 

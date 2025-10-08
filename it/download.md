@@ -18,7 +18,7 @@ Le versioni Desktop non necessitano che Delta Chat sia installato su un telefono
 
 - [Database dei Fornitori](https://providers.delta.chat/)
 
-- [Verifica Download](verifica-download)
+- [Verifica Download](verify-downloads)
 
 - [Risoluzione Problemi Installazione Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 

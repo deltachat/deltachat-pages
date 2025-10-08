@@ -35,8 +35,8 @@ Aby uzyskać więcej informacji, zalecamy przeczytanie i śledzenie naszego [blo
 
 Następujące kanały komunikacji związane z Delta Chat są prowadzone przez strony trzecie, które mogą, ale nie muszą, przestrzegać naszych [Standardów społeczności](community-standards):
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}) anonimowa
+sieć społecznościowa w Delta Chat.
 
 - [Społeczność Lemmy](https://lemmy.zip/c/delta_chat), którą możesz śledzić, wpisując `!delta_chat@lemmy.zip` w polu wyszukiwania swojej aplikacji fediverse.
 

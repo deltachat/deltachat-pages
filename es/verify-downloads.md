@@ -18,11 +18,11 @@ Para Android, puede verificar que el certificado de firma en la APK coincida con
 Para imprimir las firmas SHA256 del certificado de firma de APK, puede usar, por ejemplo:
 `keytool -printcert -jarfile <APK-file>`
 
-## Desktop
+## Escritorio
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+Encontrará instrucciones detalladas para la verificación en `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+La clave pública utilizada para firmar las versiones de escritorio está publicada abajo y en <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -40,4 +40,4 @@ nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Download: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
+Descargo: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)

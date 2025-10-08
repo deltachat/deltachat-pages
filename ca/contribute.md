@@ -21,34 +21,33 @@ Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estànd
 
 # Traduccions i informes d'error
 
-- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traduccions a Transifex](https://explore.transifex.com/delta-chat/)
+- [Problemes de Delta Chat a Android](https://github.com/deltachat/deltachat-android/issues)
+- [Problemes amb Delta Chat d'Escriptori](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problemes amb Delta Chat a iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Problemes de la biblioteca principal de Rust i dels Bindings de Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Sempre cerquem desenvolupadors i dissenyadors.
 Habitualment oferim contractes de 20-30 hores setmanals (si sou a Alemanya).
 No dubteu a posar-vos en contacte (delta a merlinux eu)
 si esteu interessat a ajudar-nos!
 
-For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
+Per a més context, recomanem llegir i seguir el nostre [blog](https://delta.chat/en/blog).
 
 
 # Canals de comunicació de tercers
 
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
+Els següents canals de comunicació relacionats amb Delta Chat són gestionats per terceres parts
+que poden o no seguir els nostres [Community Standards](community-standards): 
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}) una xarxa social anònima dins de Delta Chat.
 
 - A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
+que pots seguir introduint `!delta_chat@lemmy.zip` 
+al camp de cerca de la teva aplicació del fediverse.
 
 - Un [subreddit de DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above)
-or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+Si coneixes o has creat canals addicionals,
+fes-nos-ho saber (vegeu Canals i repositoris més amunt)
+o [edita aquesta pàgina a GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).

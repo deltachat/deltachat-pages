@@ -8,50 +8,38 @@ lang : fr
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers provide a privacy-preserving and speedy messaging experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Les serveurs Chatmail permettent des discussions instantanées, préservant la vie privée, et interopérable de manière sécurisée avec d'autres serveurs chatmail ou des serveurs mail classiques.
+**Choisissez un lien de serveur chatmail** pour voir les détails du serveur et pour utilisez l'invitation à le rejoindre via le QR code :
 
 - [nine.testrun.org](https://nine.testrun.org) est le serveur de messagerie instantanée par défaut 
-  par défaut pour les applications Delta Chat et est stable depuis l'[annonce de Chatmail de décembre 2023](https://delta.discussion/en/2023-12-13-chatmail).
+  pour les applications Delta Chat et est stable depuis l'[annonce de Chatmail de décembre 2023](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users 
+- [mehl.cloud](https://mehl.cloud) est orienté vers les utilisateurs et utilisatrices germanophones.
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
+- [mailchat.pl](https://mailchat.pl) est orienté vers les utilisateurs et utilisatrices parlant polonais.
 
-- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
-  and [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
-  are focused on Italian speaking users.
+- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) et [chatmail.culturanerd.it](https://chatmail.culturanerd.it) s'adresse aux utilisateurs et utilisatrices parlant italien.
 
-- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US 
+- [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/) est un serveur chatmail situé aux États-Unis.
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Germany
+- [tarpit.fun](https://tarpit.fun) est hébergé en Allemagne.
 
 
-There are additional chatmail servers not listed publically.  
+Il existe aussi des serveurs chatmail non publics qui ne sont donc pas listés ici.
 
-All chatmail servers are operated by different groups and people. 
+Tous les serveurs chatmail sont opérés par des groupes et personnes différentes.
 
 
-## Can I also use a pre-existing e-mail address? 
+## Est-ce que je peux aussi utiliser une adresse mail qui existe déjà ?
 
-Yes, you can use a pre-existing e-mail address with Delta Chat
-but we recommend to use a **dedicated e-mail address for chatting**
-so that your classic usually un-encrypted e-mail does not mix 
-with end-to-end encrypted chat messages. 
+Oui il est possible d'utiliser une adresse mail existante avec Delta Chat mais nous recommandons l'utilisation d'une **adresse mail dédiée** pour vos discussions afin de ne pas mélanger vos échanges mails classiques non chiffrés avec vos discussions non chiffrées.
 
-You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
+Vous pouvez aussi utiliser Delta Chat comme application de courriel (en texte clair) pour des adresses mail existantes.
 
-Delta Chat has multi-profile support so you can have 
-one profile with your classic e-mail address,
-and another for instant always-encrypted chatting. 
-Chatmail addresses are cheap. 
+Delta Chat supporte des profils multiples ce qui permet d'avoir des profils différents pour des usages différents : l'un pour une adresse mail classique par exemple, et d'autres pour des discussions instantanées et chiffrées. Les adresses chatmail sont peu consommatrices de ressources.
 
-## How can i learn more about chatmail servers? Can i run one? 
+## Comment en savoir plus sur les serveurs chatmail ? Est-ce que je peux en héberger un moi-même ?
 
-Please visit our [chatmail project page](https://chatmail.at) 
-for more details and links. 
+Merci de visiter [notre projet chatmail](https://chatmail.at) pour plus de détails et de liens.
 
 [Faire un don](donate){: .cta-button}

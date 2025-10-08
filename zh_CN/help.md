@@ -180,7 +180,11 @@ Delta Chat 感觉就像 Whatsapp 或 Telegram，但你也可以把它当作电�
 
 ### 消息定时销毁是如何工作的？ {#ephemeralmsgs}
 
-您可以在聊天窗口右上角的聊天设置中通过选择 1 分钟到 5 周之间的时间跨度打开“消息定时销毁”。
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 5 minutes and 1 year.
 
 在再次关闭该设置之前，
 每个聊天成员的 Delta Chat 应用都会负责
@@ -393,8 +397,8 @@ If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
 
 If you instead create a profile using a classic e-mail server,
-you can send and receive messages without end-to-end encryption. 
-Such messages lacking end-to-end encryption are marked with an e-mail icon 
+you can send and receive messages with or without end-to-end encryption.
+Messages lacking end-to-end encryption are marked with an e-mail icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 ### How can I establish a chat with a new contact? {#howtoe2ee}
@@ -931,6 +935,22 @@ It should be available again in a few months.
 
 - 有很大的可能性是：可以的 :) 
   不过，某些提供商需要一些特殊设置才能正常工作，请参阅[提供商概览](https://providers.delta.chat)
+
+
+### Can I use Delta Chat in parallel with other E-Mail apps?
+
+Yes, but it is not recommended.
+
+Parallel usage with the same E-Mail address might lead to the following inconveniences:
+
+- Next to your Delta Chat notifications,
+  you might also get notifications for (encrypted, so unreadable) chat mail messages
+  in your other email app
+- If Delta Chat is not running
+  or "Advanced > Move automatically to the DeltaChat Folder" is disabled,
+  encrypted Delta Chat messages might clutter the Inbox in your other E-Mail apps.
+
+[Sieve rules](https://support.delta.chat/t/sieve-rule-to-move-deltachat-mails-to-deltachat-folder/288/10) can solve these problems.
 
 
 ### I want to manage my own server for Delta Chat. What do you recommend?

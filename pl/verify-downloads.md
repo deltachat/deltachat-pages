@@ -20,7 +20,7 @@ Do wydrukowania odcisków palców SHA256 certyfikatu podpisu aplikacji można u�
 
 ## Komputer stacjonarny
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+Szczegółowe instrukcje dotyczące weryfikacji można znaleźć pod adresem `https://download.delta.chat/desktop/v<version>/signature.asc` 
 
 Klucz publiczny używany do podpisywania wydań na komputery stacjonarne jest opublikowany poniżej i na <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 

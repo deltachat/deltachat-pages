@@ -16,11 +16,11 @@ Bij de Android-versie kun je het APK-certificaat verifiëren middels één van d
 
 Om de SHA256-vingerafdrukken van het APK-certificaat te tonen, kun je bijv. <br>`keytool -printcert -jarfile <APK-file>`<br>gebruiken.
 
-## Desktop
+## Computer
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+Uitgebreide verificatie-instructies zijn te vinden op `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+De openbare sleutel voor computeruitgaven is hieronder gepubliceerd en op <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -38,4 +38,4 @@ nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Download: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
+Downloaden: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)

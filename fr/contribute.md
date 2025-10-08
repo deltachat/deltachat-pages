@@ -19,7 +19,7 @@ Veuillez lire nos [Standards de la communauté](community-standards) pour en sav
 
 # Traductions et rapports de bugs
 
-- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Traductions sur Transifex](https://explore.transifex.com/delta-chat/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
@@ -37,8 +37,7 @@ Pour plus de renseignements concernant nos activités, nous vous recommandons de
 Les canaux de communication suivants, liés à Delta Chat, sont gérés par des tiers
 qui peuvent ou non respecter nos [normes communautaires](community-standards) : 
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}) un réseau social anonyme opérant dans Delta Chat.
 
 - Une [Communauté Lemmy](https://lemmy.zip/c/delta_chat)
   que vous pouvez suivre en ajoutant `!delta_chat@lemmy.zip` 

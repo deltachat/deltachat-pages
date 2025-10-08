@@ -39,8 +39,8 @@ Meer achtergrondinformatie is te vinden op ons [blog](https://delta.chat/en/blog
 Hieronder volgt een lijst met Delta Chat-kanalen die door anderen worden beheerd.
 Het zou kunnen dat zij zich niet aan onze [gemeenschapsstandaarden](community-standards) houden.
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}) een anoniem
+  sociaal netwerk binnen Delta Chat.
 
 - Een [Lemmy-gemeenschap](https://lemmy.zip/c/delta_chat)
   die je kunt volgen door `!delta_chat@lemmy.zip` 
