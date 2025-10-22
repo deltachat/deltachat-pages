@@ -1,55 +1,54 @@
 ---
-title: Chatmail for instant, interoperable and privacy-preserving messaging
+title: Chatmail para la mensajería intercorporativa, instantánea y quedando de privacidad. 
 lang: es
 ---
 
 
-## What are chatmail servers and how to select one? 
+## ¿Qué son los servidores de chatmail y cómo se elige uno?
 
 <img alt="Chatmail logo" src="../assets/logos/chatmail.svg" width="80" style="float:right;" />
 
-Chatmail servers provide a privacy-preserving and speedy messaging experience, 
-securely interoperable with chatmail and classic e-mail servers. 
-**Tap a chatmail server link** to see the home page and then tap the QR invite code there: 
+Los servidores de chatmail ofrecen una experiencia de mensajería rápida, privada y segura e interoperable con otros servidores de chatmail y clásicos de correo electrónico.
+**Haz clic en el enlace de un servidor de chatmail** para ver su página de inicio y luego haz clic en el código de invitación QR allí:
 
-- [nine.testrun.org](https://nine.testrun.org) is the default onboarding chatmail server
-  for Delta Chat apps and has been stable since the [December 2023 Chatmail announcement](https://delta.chat/en/2023-12-13-chatmail).
+- [nine.testrun.org](https://nine.testrun.org) es el servidor de chatmail predeterminado para las aplicaciones de Delta Chat y se ha mantenido estable desde [diciembre de 2023 con el anuncio de chatmail](https://delta.chat/en/2023-12-13-chatmail).
 
-- [mehl.cloud](https://mehl.cloud) is geared towards German speaking
-  users 
+- [mehl.cloud](https://mehl.cloud) está destinado a hablantes de alemán.
 
-- [mailchat.pl](https://mailchat.pl) is geared towards Polish speaking users
+- [mailchat.pl](https://mailchat.pl) está destinado a hablantes de polaco.
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/)
-  is geared towards Italian speaking users and has been stable 
+- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
+  y [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  están destinados a hablantes de italiano.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
-  operates in the US 
+  está operado para los UU. EE.
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Germany
-
-There are additional chatmail servers not listed publically.  
-
-All chatmail servers are operated by different groups and people. 
+- [tarpit.fun](https://tarpit.fun) está ubicado en Alemania
 
 
-## Can I also use a pre-existing e-mail address? 
+Hay adicionales servidores  de chatmail que no son en la lista publica.
 
-Yes, you can use a pre-existing e-mail address with Delta Chat
-but we recommend to use a **dedicated e-mail address for chatting**
-so that your classic usually un-encrypted e-mail does not mix 
-with end-to-end encrypted chat messages. 
+Todos los servidores de chatmail están operados por diferentes grupos y personas.
 
-You may also use Delta Chat as a (cleartext) e-mail app for an existing e-mail address. 
 
-Delta Chat has multi-profile support so you can have 
-one profile with your classic e-mail address,
-and another for instant always-encrypted chatting. 
-Chatmail addresses are cheap. 
+## ¿Puedo usar mi dirección de correo electrónico que ya existe?
 
-## How can i learn more about chatmail servers? Can i run one? 
+Sí, puede utilizar una dirección de correo electrónico preexistente con Delta Chat
+pero le recomendamos que utilice una **dirección de correo electrónico dedicada para chatear**
+para que su correo electrónico clásico normalmente no cifrado no se mezcle 
+con los mensajes de chat cifrados de extremo a extremo. 
 
-Please visit our [chatmail project page](https://chatmail.at) 
-for more details and links. 
+También puede utilizar Delta Chat como aplicación de correo electrónico (en texto claro) para una dirección de correo electrónico existente. 
+
+Delta Chat tiene soporte de múltiples perfiles para que pueda tener 
+un perfil con tu dirección de correo electrónico clásica
+y otro para el chat instantáneo, siempre cifrado. 
+Las direcciones de chatmail son baratas. 
+
+## ¿Dónde puedo conseguir más información sobre los servidores de chatmail? ¿Puedo tener mi propio?
+
+Por favor, visita a nuestra [página del proyecto chatmail](https://chatmail.at)
+para más detalles y enlaces.
 
 [Donar dinero](donate){: .cta-button}

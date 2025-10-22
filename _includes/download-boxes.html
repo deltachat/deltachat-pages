@@ -1,8 +1,8 @@
 {% assign txEn = site.data.lang['en']['en'] %}
 {% assign tx = site.data.lang[page.lang][page.lang] %}
 
-{% assign VERSION_DESKTOP = "1.58.1" %}
-{% assign VERSION_ANDROID = "1.58.3" %}
+{% assign VERSION_DESKTOP = "2.22.0" %}
+{% assign VERSION_ANDROID = "2.22.0" %}
 
 <div class="download-content">
     <h1>{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h1>
@@ -41,6 +41,9 @@
                         <source srcset="../assets/badges/appgallery.png" type="image/png">
                         <img src="../assets/badges/appgallery.png" alt="Explore it on AppGallery" width=159 height=48 />
                     </picture>
+                </a>
+                <a href="{% include obtainium-url %}" class="img-badge">
+                    <img src="../assets/badges/obtainium.png" alt="Get it on Obtainium" width=161 height=48 />
                 </a>
             </div>
             <div class="descr">

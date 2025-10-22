@@ -5,6 +5,10 @@ lang: pl
 
 # Jak skonfigurować serwer pocztowy dla Delta Chat
 
+> **Aktualizacja:** To jest nieaktualne – nie polecamy już serwerów mailcow,
+> ale [Chatmail Relays](2023-12-13-chatmail) do czatowania z Delta Chat.
+> Przeczytaj więcej [na GitHub](https://github.com/chatmail/relay) o tym, jak to skonfigurować!
+
 Delta Chat jest komunikatorem, który działa w oparciu o e-mail. Oznacza to, że możemy użyć dowolnego serwera e-mail do uruchomienia kont Delta Chat. Jednym z serwerów e-mail, który jest łatwy do skonfigurowania i zarządzania, a także od razu współpracuje z Delta Chat, jest [Mailcow](https://mailcow.email).
 
 Możesz go uruchomić razem z [mailadm](https://mailadm.readthedocs.io), który oferuje twoim użytkownikom łatwy sposób na utworzenie konta e-mail i bezpośrednie logowanie za pomocą Delta Chat. Jest to również zawarte w tym przewodniku.

@@ -21,10 +21,10 @@ lang: ru
 
 # Переводы и Отчеты об ошибках
 
-- [Переводы на Transifex](https://www.transifex.com/delta-chat/public/)
-- [Проблемы Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Проблемы Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Проблемы Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Переводы на Transifex](https://explore.transifex.com/delta-chat/)
+- [Проблемы Delta Chat для Android](https://github.com/deltachat/deltachat-android/issues)
+- [Проблемы Delta Chat для компьютера](https://github.com/deltachat/deltachat-desktop/issues)
+- [Проблемы Delta Chat для iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Проблемы Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Мы постоянно ищем разработчиков и дизайнеров.
@@ -40,11 +40,8 @@ lang: ru
 Следующие каналы связи, связанные с Delta Chat, управляются третьими сторонами
 которые могут следовать или не следовать нашим [Стандартам сообщества](community-standards): 
 
-- Англоязычная группа сообщества Delta Chat, к которой вы можете присоединиться:
-  * [В Delta Chat]({% include dc-community-url %})
-  * [В Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [В XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [В Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) анонимная
+  социальная сеть внутри Delta Chat.
 
 - [Сообщество Lemmy](https://lemmy.zip/c/delta_chat)
   на которое вы можете подписаться, добавив `!delta_chat@lemmy.zip` 

@@ -22,11 +22,11 @@ es:
   language: Idioma
 
   download:
-    other: ""
-    no_upgrades: ""
+    other: Opciones de descargas para otras plataformas
+    no_upgrades: Opciones de descargas sin actualización automática
     source_code: Código Fuente
     outdated: desactualizado
-    minimum: ""
+    minimum: Requisitos mínimos
     dl_flathub: Descargar desde Flathub
     dl_microsoft: Descargar desde Microsoft Store
     dl_mac_appstore: Descargar en Apple Mac AppStore

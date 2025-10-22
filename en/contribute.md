@@ -21,7 +21,7 @@ For community interactions around Delta Chat please read our [Community Standard
 
 # Translations and Bug Reports
 
-- [Translations on Transifex](https://www.transifex.com/delta-chat/public/)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
@@ -40,11 +40,8 @@ For more background we recommend to read and follow our [blog](https://delta.cha
 The following Delta Chat related communication channels are run by third parties
 which may or may not follow our [Community Standards](community-standards): 
 
-- English-speaking Delta Chat community group, you can join the group:
-  * [In Delta Chat]({% include dc-community-url %})
-  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [In Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) an anonymous
+  social network inside Delta Chat.
 
 - A [Lemmy community](https://lemmy.zip/c/delta_chat)
   which you can follow by putting `!delta_chat@lemmy.zip` 

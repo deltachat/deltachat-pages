@@ -5,7 +5,7 @@ image: ../assets/logos/kap-logo.jpg
 com_id: 114494151406863516
 ---
 
-<video controls style="width:560px; max-width: 100%;"><source src="https://chatmail.at/video/diff-invitation2-2025.mp4" type="video/mp4"></video>
+<video controls style="width:560px; max-width: 100%;"><source src="https://delta.chat/video/diff-invitation2-2025.mp4" type="video/mp4"></video>
 During June 7-17th many of our contributors and from neighboring projects will gather in Freiburg in the Black Forest.
 We will use outsides and insides of the oldest "free and democratic school" in Germany, the "Kapriole".
 DIFF currently stands for "Decentralized Internet Federation Fusion". 
@@ -53,3 +53,13 @@ You will need to care for some accommodation yourself.
 There also are some possibilities for sharing a room or space if you bring some sleeping gear. 
 DIFF also serves as a testbed for arranging event onboarding and communications in chat groups and chat apps,
 ahead, during and after the gathering. 
+
+
+## Thanks to the Wau-Holland Stiftung 
+
+![Logo of Wau-Holand Stiftung](../assets/logos/WHS-Logo.RAL5002.svg)
+
+We are grateful for the the support of the [Wau-Holland Stiftung](https://wauland.de) 
+who agreed to finance the rent for the location and a travel grant. Many thanks!
+
+

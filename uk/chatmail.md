@@ -17,11 +17,14 @@ lang: uk
 
 - [mailchat.pl](https://mailchat.pl) орієнтований на польськомовних користувачів
 
-- [chatmail.woodpeckersnet.space](https://chatmail.woodpeckersnest.space/) орієнтований на італомовних користувачів і працює стабільно 
+- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
+  та [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  орієнтовані на італійськомовних користувачів.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/) працює в США 
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Germany
+- [tarpit.fun](https://tarpit.fun) розміщений на хостингу в Німеччині
+
 
 Існують додаткові chatmail-сервери, які не вказані у відкритому доступі.  
 

@@ -5,6 +5,10 @@ lang: pt
 
 # How to Setup a Mail Server for Delta Chat
 
+> **Update:** This is outdated - we no longer recommend mailcow Servers,
+> but [Chatmail Relays](2023-12-13-chatmail) for chatting with Delta Chat.
+> Read more [on GitHub](https://github.com/chatmail/relay) about how to set it up!
+
 Delta Chat is a chat messenger which runs on e-mail. This means we can use any
 e-mail server to run Delta Chat accounts. One e-mail server which is easy to
 setup and manage, and works with Delta Chat out of the box, is

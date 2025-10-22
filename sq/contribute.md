@@ -21,11 +21,11 @@ Për ndërveprime bashkësie rreth Delta Chat-it, ju lutemi, lexoni [Standarded 
 
 # Përkthime dhe Njoftime të Metash
 
-- [Përkthime në Transifex](https://www.transifex.com/delta-chat/public/)
-- [Probleme në Delta Chat për Android](https://github.com/deltachat/deltachat-android/issues)
-- [Probleme në Delta Chat për Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Probleme Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Kërkojmë përherë zhvillues dhe hartues grafikë.
 Zakonisht ofrojmë kontrata ose punësime 20-30 orë në javë (në qofshi banor i Gjermanisë).
@@ -40,11 +40,8 @@ Për më tepër sfond rekomandojmë të lexoni dhe ndiqni [blogun tonë](https:/
 Kanalet vijues të komunikimit të lidhura me Delta Chat-in xhirohen nga palë të treta
 të cilat mund të ndjekin ose jo [Standardet tona për Bashkësinë](community-standards): 
 
-- Grup anglishtfolës bashkësie Delta Chat-i, mund të bëheni pjesë e grupit:
-  * [Në Delta Chat]({% include dc-community-url %})
-  * [Në Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [Në XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [Në Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) an anonymous
+  social network inside Delta Chat.
 
 - Një [bashkësi Lemmy](https://lemmy.zip/c/delta_chat)
   të cilin mund ta ndiqni duke vendosur `!delta_chat@lemmy.zip` 

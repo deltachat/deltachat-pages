@@ -19,11 +19,11 @@ Veuillez lire nos [Standards de la communauté](community-standards) pour en sav
 
 # Traductions et rapports de bugs
 
-- [Traductions sur Transifex](https://www.transifex.com/delta-chat/public/)
-- [Problèmes de Delta Chat sur Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problèmes de l'application de bureau Delta Chat](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problèmes de Delta Chat sur iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problèmes de la bibliothèque Rust Core et de liaisons Python](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traductions sur Transifex](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Nous recherchons constamment des développeurs/développeuses et des conceptrices/concepteurs.
 Nous offrons des postes ou des contrats standards de 20/30 heures par semaine (uniquement pour les personnes basées en Allemagne). 
@@ -37,11 +37,7 @@ Pour plus de renseignements concernant nos activités, nous vous recommandons de
 Les canaux de communication suivants, liés à Delta Chat, sont gérés par des tiers
 qui peuvent ou non respecter nos [normes communautaires](community-standards) : 
 
-- English-speaking Delta Chat community group, you can join the group:
-  * [In Delta Chat]({% include dc-community-url %})
-  * [In Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [In XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [In Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) un réseau social anonyme opérant dans Delta Chat.
 
 - Une [Communauté Lemmy](https://lemmy.zip/c/delta_chat)
   que vous pouvez suivre en ajoutant `!delta_chat@lemmy.zip` 

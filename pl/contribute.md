@@ -20,7 +20,7 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 
 # Tłumaczenia i raportowanie błędów
 
-- [Tłumaczenia na Transifex](https://www.transifex.com/delta-chat/public/)
+- [Tłumaczenia na Transifex](https://explore.transifex.com/delta-chat/)
 - [Problemy z Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Problemy z Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problemy z Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
@@ -35,11 +35,8 @@ Aby uzyskać więcej informacji, zalecamy przeczytanie i śledzenie naszego [blo
 
 Następujące kanały komunikacji związane z Delta Chat są prowadzone przez strony trzecie, które mogą, ale nie muszą, przestrzegać naszych [Standardów społeczności](community-standards):
 
-- Anglojęzyczne grupy Delta Chat (możesz dołączyć do grupy):
-  * [W Delta Chat]({% include dc-community-url %})
-  * [W Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [W XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [W Telegramie](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) anonimowa
+sieć społecznościowa w Delta Chat.
 
 - [Społeczność Lemmy](https://lemmy.zip/c/delta_chat), którą możesz śledzić, wpisując `!delta_chat@lemmy.zip` w polu wyszukiwania swojej aplikacji fediverse.
 

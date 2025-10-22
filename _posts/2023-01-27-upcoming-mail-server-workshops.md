@@ -5,6 +5,10 @@ image: ../assets/blog/mailcow-UI-login.png
 com_id: 109761861452626888
 ---
 
+> **Update:** This is outdated - we no longer recommend mailcow Servers,
+> but [Chatmail Relays](2023-12-13-chatmail) for chatting with Delta Chat.
+> Read more [on GitHub](https://github.com/chatmail/relay) about how to set it up!
+
 Every once in a while we get asked what mail server is best suited for Delta
 Chat. In short - most mail servers will work well, and reliability depends more on their
 IP reputation and configuration parameters like spam checking, rate limits, and

@@ -15,7 +15,6 @@ jobs:
           echo "prid=$PULLREQUEST_ID" >> $GITHUB_OUTPUT
           if [ $(expr length "${{ secrets.USERNAME }}") -gt "1" ]; then echo "uploadtoserver=true" >> $GITHUB_OUTPUT; fi
       - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
       - run: |
           echo "baseurl: /${{ steps.prepare.outputs.prid }}" >> _config.yml
       - name: Build the site with Jekyll

@@ -5,11 +5,17 @@ lang: de
 
 # Geld spenden
 
-Helfen Sie Delta Chat dabei, sich als unabhängiges Projekt im Dienste der Nutzer zu entwickeln und zu wachsen:
+Ihre Spende hilft dabei, die freie und Open Source-Zukunft der dezentralen privaten Kommunikation ohne Überwachung, Werbung oder Milliardäre dazwischen zu gestalten.
 
-- IBAN DE86100777770428658900, Kontoinhaber (bitte immer angeben): Björn Petersen, BIC NORSDE51XXX
-- Spenden mit [Liberapay](https://liberapay.com/delta.chat/)
-- Einmalig oder regelmäßig spenden mit [Open Collective](https://opencollective.com/delta-chat/donate)
-- Senden Sie Bitcoins an [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+- Über [Liberapay](https://liberapay.com/delta.chat/) spenden
+
+- Über [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate) spenden
+
+- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
+
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, Kontoinhaber (bitte immer angeben): Björn Petersen
+
+- Alternativ den folgenden QR-code scannen, um Geld auf das obige Konto zu überweisen:  
+  ![Scannen zum Überweisen](../assets/donate-via-epc-qr.png)
 
 [Andere Wege mitzuwirken](contribute){: .cta-button}

@@ -20,11 +20,11 @@ lang: uk
 
 # Переклади і звіти про помилки
 
-- [Переклади на Transifex](https://www.transifex.com/delta-chat/public/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Переклади на Transifex](https://explore.transifex.com/delta-chat/)
+- [Проблеми з Delta Chat на Android](https://github.com/deltachat/deltachat-android/issues)
+- [Проблеми з Delta Chat на комп'ютері](https://github.com/deltachat/deltachat-desktop/issues)
+- [Проблеми з Delta Chat на iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Проблеми з бібліотекою Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Ми завжди шукаємо розробників і дизайнерів. Зазвичай ми пропонуємо 20-30 годин на тиждень за контрактом або працевлаштування (якщо знаходитесь в Німеччині). Будь ласка, не соромтеся звертатися (delta at merlinux eu), якщо ви зацікавлені допомогти!
 
@@ -35,11 +35,7 @@ lang: uk
 
 Наступні канали зв'язку, пов'язані із Delta Chat, управляються третіми сторонами, які можуть чи не можуть дотримуватися наших [Стандартів спільноти](community-standards):
 
--  Англомовна спільнота Delta Chat, ви можете приєднатися до груп:
-  * [У Delta Chat]({% include dc-community-url %})
-  * [У Matrix](https://matrix.to/#/#Delta.Chat:matrix.org)
-  * [В XMPP](xmpp:deltachat-en@chat.disroot.org?join)
-  * [У Telegram](https://t.me/deltachat_community)
+- [PixelSocial]({% include dc-community-url %}) анонімна соціальна мережа всередині Delta Chat.
 
 - [Спільнота Lemmy](https://lemmy.zip/c/delta_chat) яку ви можете зафоловити помістивши `!delta_chat@lemmy.zip` у поле пошуку вашого fediverse-застосунку.
 

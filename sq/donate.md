@@ -5,11 +5,18 @@ lang: sq
 
 # Dhuroni Para
 
-Ndihmoni të zhvillohet dhe fuqizohet Delta Chat-i si një projekt i pavarur që u shërben njerëzve që e përdorin:
+Dhurimi juaj ndihmon t’i jepet formë të ardhmes së lirë dhe me burim të hapët të komunikimeve private të decentralizuara 
+pa mbikëqyrje, reklama apo miliarderë në mes. 
 
-- IBAN DE86100777770428658900, I zoti i llogarisë (ju lutemi, jepeni përherë): Björn Petersen, BIC NORSDE51XXX
 - Dhuroni përmes [Liberapay](https://liberapay.com/delta.chat/)
-- Bëni një dhurim një herësh, ose ripërsëritës përmes [Open Collective](https://opencollective.com/delta-chat/donate)
-- Dërgoni “bitcoins” te [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+
+- Dhuroni përmes [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+
+- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
+
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, I zoti i llogarisë (ju lutemi, jepeni përherë): Björn Petersen
+
+- Alternatively, scan the following to wire money to that account:  
+  ![Scan to wire money](../assets/donate-via-epc-qr.png)
 
 [Rrugë të tjera për të kontribuar](contribute){: .cta-button}

@@ -5,11 +5,17 @@ lang: uk
 
 # Задонатити гроші
 
-Допоможіть Delta Chat розвиватися та рости як незалежний проект, який обслуговує людей, які його використовують:
+Ваша пожертва допомагає формувати майбутнє децентралізованого приватного спілкування з відкритим вихідним кодом без стеження, реклами та мільярдерів посередині. 
 
-- IBAN DE86100777770428658900, власник рахунку (обов'язково вказати): Björn Petersen, BIC NORSDE51XXX
 - Пожертвувати через [Liberapay](https://liberapay.com/delta.chat/)
-- Зробити одноразову або регулярну пожертву через [Open Collective](https://opencollective.com/delta-chat/donate)
-- Надсилайте біткоїни на [bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka](bitcoin:bc1qt3xhfvwmdqvxkk089tllvvtzqs8ts06u3u6qka)
+
+- Пожертвувати через [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+
+- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
+
+- IBAN DE86100777770428658900, BIC NORSDE51XXX, Власник рахунку (будь ласка, завжди вказуйте): Björn Petersen
+
+- Або відскануйте наступне, щоб переказати гроші на цей рахунок:  
+  ![Сканування для переказу грошей](../assets/donate-via-epc-qr.png)
 
 [Інші способи допомогти](contribute){: .cta-button}

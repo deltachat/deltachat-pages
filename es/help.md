@@ -8,46 +8,45 @@ header: Preguntas Frecuentes
 
 ## ¿Qué es Delta Chat? 
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
-available for mobile and desktop platforms.
+Delta Chat es una aplicación de mensajería segura, descentralizada y confiable. Está disponible para las plataformas móviles y del escritorio.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+Delta Chat parece como Whatsapp o Telegram, pero también puedes utilizarlo y considerarlo como una aplicación de correo electrónico.
+Puedes registrarte de forma anónima en varios [servidores de chatmail interoperables](https://delta.chat/chatmail)
+que son servidores de correo electrónico mínimos y optimizados para operaciones rápidas y seguras.
+O puedes utilizar servidores de correo electrónico clásicos y una cuenta de correo electrónico existente
+en cuyo caso, Delta Chat actúa como una aplicación de correo electrónico.
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
 
 ### ¿Cómo puedo encontrar personas con las que chatear? 
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
+Para establecer contacto con otros de forma segura [escanea un código QR de invitación 
+o comparte un enlace de invitación](#howtoe2ee). 
+Esto es necesario cuando se utiliza un perfil de chat (predeterminado) basado en chatmail 
+porque los servidores de chatmail rechazan los mensajes salientes no cifrados.
 
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+Si crees un perfil de chat con una dirección de correo electrónico clásica
+puedes crear manualmente un contacto si conoces su dirección de correo electrónico
+y escribirle un mensaje
+aunque el destinatario no utilice Delta Chat.
 
 
 ### ¿Cuáles son las ventajas de Delta Chat comparado con otras aplicaciones de mensajería?
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices. 
+- Perfiles de chat anónimos con [servidores de chatmail](https://delta.chat/chatmail) rápidos, seguros e interoperables
+  que ofrecen notificaciones Push instantáneas para dispositivos con iOS y Android. 
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
+Soporte omnipresente, [múltiples perfiles](#multiple-accounts) y múltiples dispositivos en todas las plataformas. 
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+Interactivas [aplicaciones de web en un chat](https://webxdc.org/apps) para jugar y colaborar
 
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
+ [Cifrado de extremo a extremo auditado](#security-audits)
+seguro contra ataques a la red y al servidor.
 
-- Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
+- Software libre y de código abierto, tanto para aplicaciones como para servidores. 
+  Basado en [Estándares de Internet para correo electrónico y web]({% include standards-url %}),
+  [para evitar el "síndrome de otro estándar más (xkcd 927)"](https://xkcd.com/927/) 
 
 
 ### ¿Qué pasa si espero un mensaje de alguien a quien no le escribí en el pasado?
@@ -68,22 +67,20 @@ Si un mensaje proviene de un contacto desconocido, aparece como una **solicitud*
 - Para mejorar el rendimiento, las imágenes se optimizan y se envían en un tamaño más pequeño de forma predeterminada, pero puedes enviarla como un "archivo" para conservar la original.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### ¿Qué son los perfiles? ¿Cómo puedo cambiar entre ellos? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses a chatmail or a classic e-mail server to transport messages.
+Un perfil es **un nombre, una foto** y algunas informaciones adicionales para encriptar los mensajes.
+Un perfil solo existe dentro de tu dispositivo(s)
+y utilice un servidor de chatmail o correo electrónico clásico para el transporte de los mensajes.
 
-On first installation of Delta Chat a first profile is created.
+En la primera instalación de Delta Chat se crea un primer perfil.
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+Después, puedes tocar la imagen de tu perfil en la esquina superior izquierda para **Añadir perfiles**
+o para **Cambiar perfiles**.
 
-You may want to use separate profiles for political, family or work related activities,
-or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
-that tend to cause unsolicited messages ("spam") sooner or later.
+Se podría considerar la utilización de perfiles diferenciados para actividades vinculadas con políticas, familia o trabajo, o para un perfil dedicado a "spam", que podría ser utilizado para páginas web y plataformas que tendrán la capacidad de generar mensajes no solicitados.
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+Quizás quieres aprender [cómo se usa el mismo perfil en múltiples dispositivos](#multiclient).
 
 
 ### ¿Quién ve mi foto de perfil?
@@ -101,13 +98,13 @@ que sus contactos vuelvan a recibir su foto de perfil, incluso si agregan un nue
 dispositivo.
 
 
-### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
+### ¿Puedo establecer un texto de firma con Delta Chat? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Your contacts who use Delta Chat will see it
-when they view your contact details.
-Moreover, it will appear as a classic e-mail signature.
+Sí,
+es posible hacerlo en "Ajustes → Perfil → Texto de firma".
+Los contactos que usan Delta Chat podrán ver
+si revisan los detalles de tu perfil.  
+Además, se encontrará en la firma de correos electrónicos clásicos.
 
 
 ### ¿Qué significa fijar, mutear, archivar?
@@ -128,43 +125,43 @@ Para archivar o fijar un chat, toque prolongadamente (Android), use el menú del
 para silenciar un chat, use el menú del chat (Android/Escritorio) o el perfil del chat (iOS).
 
 
-### How do "Saved Messages" work? {#save}
+### ¿Cómo funcionan los "Mensajes guardados"? {#save}
 
-**Saved Messages** is a chat that you can use to easily remember and find messages.
+**Mensajes guardados** es un chat que puedes utilizar para recordar y encontrar mensajes fácilmente.
 
-- In any chat, long tap or right click a message and select **Save**
+- En cualquier chat, mantén pulsado o haz clic con el botón derecho en un mensaje y selecciona **Guardar**
 
-- Saved messages are marked by the symbol
-  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
-  next to the timestamp
+- Los mensajes guardados se marcan con el símbolo
+ <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  junto a la marca de tiempo
 
-- Later, open the "Saved Messages" chat - and you will see the saved messages there.
-  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
-  you can go back to the original message in the original chat
+- Después puedes abrir el chat "Mensajes guardados" - y allí verás los mensajes guardados.
+  Con pulsar a <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  puedes volver al mensaje original en el chat original
 
-- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Finalmente, también se puede utilizar "Mensajes guardados" para tomar **notas personales** - abre el chat, escribe algo, añade una foto o un mensaje de voz, etc.
 
-- As "Saved Message" are synced, they can become very handy for transferring data between devices
+- Como los "mensajes guardados" se sincronizan, pueden ser muy útiles para transferir datos entre dispositivos.
 
-Messages stay saved even if they are edited or deleted -
-may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+Los mensajes se quedan guardados, también si se han cambiado o están borrados -
+Sea por el [remitente](#edit), por la [limpieza del dispositivo](#delold) o por la [desaparición de mensajes de otros chats](#ephemeralmsgs).
 
 
 ### ¿Qué significa el punto verde?
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen** in the last 10 minutes:
+A veces puede ver un **punto verde** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+junto al avatar de un contacto.
+Significa que ha sido **visto recientemente** en los últimos 10 minutos:
 
-- either because they messaged you directly,
-- because they wrote something to a group you are both a member of,
-- because they sent you a read receipt for a message you wrote,
-- because they edit or delete a message in a chat shared with you,
-- or because they use an [app](#webxdc) in a chat shared with you.
+- sea porque te enviaron un mensaje directamente,
+- porque escribieron algo en un grupo en que ambos son miembros,
+- porque te enviaron un acuse de recibo de un mensaje que escribiste,
+- porque editaron o borraron un mensaje en un chat compartido contigo,
+- o porque utilizan una [app](#webxdc) en un chat compartido contigo.
 
-So this is not a real time online status -
-and if someone doesn't answer right away even though they seem to be online,
-don't worry and give them some space :)
+Así que esto no es un estado de en línea en tiempo real -
+y si alguien no responde de inmediato, aunque parece que estar en línea,
+no te preocupes y dale un poco de espacio :)
 
 On the other hand, others will not always "see that you are online".
 If you have turned off read receipts,
@@ -172,18 +169,18 @@ they will not see the green dot
 until one of the above conditions are met.
 
 
-### Correct typos and delete messages after sending {#edit}
+### Corregir errores y borrar mensajes después de enviar {#edit}
 
-- You can edit the text of your messages after sending.
-  For that, long tap or right click the message and select **Edit**
-  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+- Se puede editar el texto de los mensajes después de enviarlos.
+Para ello, mantenga pulsado o haz clic con el botón derecho en el mensaje y seleccione **Editar**
+o <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
 
-- If you have sent a message accidentally,
-  from the same menu, select **Delete** and then **Delete for Everyone**.
+- Si has enviado un mensaje accidentalmente
+  desde el mismo menú, seleccione **Borrar** y después **Borrar para todos**.
 
-While edited messages will have the word "Edited" next to the timestamp,
-deleted messages will be removed without a marker in the chat.
-Notifications are not sent and there is no time limit.
+Mientras que los mensajes editados tendrán la palabra "Editado" junto a la marca de tiempo,
+los mensajes borrados serán eliminados sin un marcador en el chat.
+No se envían notificaciones y no hay límite de tiempo.
 
 Note, that the original message may still be received by chat members
 who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
@@ -191,11 +188,11 @@ who could have already replied, forwarded, saved, screenshotted or otherwise cop
 
 ### ¿Cómo funciona la desaparición de mensajes? {#ephemeralmsgs}
 
-Puedes activar "desaparición de mensajes"
-en la configuración de un chat,
-en la parte superior derecha de la ventana de chat,
-seleccionando un lapso de tiempo
-entre 1 minuto y 5 semanas.
+You can turn on "disappearing messages"
+in the settings of a chat,
+at the top right of the chat window,
+by selecting a time span
+between 5 minutes and 1 year.
 
 Hasta que la configuración se desactive nuevamente,
 La aplicación Delta Chat de cada miembro del chat se encarga
@@ -287,28 +284,28 @@ para que los otros dispositivos también puedan descargarlos.
   older than that.
 
 
-## Instant message delivery and Push Notifications {#instant-delivery}
+## Entrega de mensajes instantáneos y notificaciones Push {#instant-delivery}
 
 
-### What are Push Notifications? How can I get instant message delivery?
+### ¿Qué son las Notificaciones Push? ¿Cómo puedo recibir mensajes instantáneos?
 
 Push Notifications are sent by Apple and Google "Push services" to a user's device
 so that an inactive Delta Chat app can fetch messages in the background
 and show notifications on a user's phone if needed.
 
-Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
+Las notificaciones push funcionan con todos los servidores de [chatmail](https://delta.chat/chatmail) en
 
-- iOS devices, by integrating with Apple Push services.
+- dispositivos iOS, por la integración de los servicios Push de Apple.
 
 - Android devices, by integrating with the Google FCM Push service,
   including on devices that use [microG](https://microg.org)
   instead of proprietary Google code on the phone.
 
-As of May 2024, classic e-mail servers do not support Push Notifications
-for Delta Chat users.
+A partir de mayo de 2024, los servidores de correo electrónico clásicos no admiten notificaciones push
+para los usuarios de Delta Chat.
 
 
-### Are Push Notifications enabled on iOS devices? Is there an alternative?
+### ¿Están activadas las notificaciones Push en los dispositivos iOS? ¿Existe alguna alternativa?
 
 Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
 And no, there is no alternative on Apple's phones to achieve instant message delivery
@@ -318,7 +315,7 @@ Push notifications are automatically activated for iOS users because
 does not expose data to Apple that it doesn't already have.
 
 
-### Are Push notifications enabled / needed on Android devices? {#android-push}
+### ¿Están habilitadas / son necesarias las notificaciones Push en los dispositivos Android? {#android-push}
 
 If a "Push Service" is available, Delta Chat enables Push Notifications
 to achieve instant message delivery for all chatmail users.
@@ -346,13 +343,13 @@ Both "Background Connection" options are energy-efficient and
 safe to try if you experience messages arrive only with long delays.
 
 
-### How private are Delta Chat Push Notifications? {#privacy-notifications}
+### ¿Qué privadas son las notificaciones push de Delta Chat? {#privacy-notifications}
 
 Delta Chat Push Notification support avoids leakage of private information.
 It does not leak e-mail, IP address or message content (not even encrypted)
 to any system involved in the delivery of Push Notifications.
 
-Here is how Delta Chat apps perform Push Notification delivery:
+Así es como las aplicaciones Delta Chat realizan la entrega de Notificaciones Push:
 
 - A Delta Chat app obtains a "device token" locally, encrypts it and stores it
   on the [chatmail](https://delta.chat/chatmail) server.
@@ -399,149 +396,89 @@ including a potential one [you might setup yourself without our permission](http
 Welcome to the power of the interoperable and massive chatmail and e-mail system :)
 
 
-## Cifrado y seguridad
+## Cifrado y seguridad {#e2ee}
 
 ### ¿Qué estándares se utilizan para el cifrado de extremo a extremo? 
 
-[Autocrypt](https://autocrypt.org) is used for automatically
-establishing end-to-end encryption with contacts and group chats.
-Autocrypt uses a limited and [secure subset of the OpenPGP standard](#openpgp-secure).
-End-to-End encrypted messages are marked with a padlock 
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/lock-icon.png" alt="padlock"/>.
+Delta Chat uses a [secure subset of the OpenPGP standard](#openpgp-secure)
+to provide automatic end-to-end encryption using these protocols: 
 
-[Protocolos de Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
-se utilizan para establecer chats con cifrado de extremo a extremo garantizado
-que protege contra ataques de red y servidores comprometidos.
-Los chats marcados con una estampilla verde
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-garantizan mensajes cifrados de extremo a extremo.
+- [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
+  to exchange encryption setup information through QR-code scanning or "invite links". 
+
+- [Autocrypt](https://autocrypt.org) is used for automatically
+  establishing end-to-end encryption between contacts and all members of a group chat. 
+
+- [Sharing a contact to a
+  chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
+  enables receivers to use end-to-end encryption with the contact. 
+
+Delta Chat does not query, publish or interact with any OpenPGP key servers. 
 
 ### ¿Cómo puedo saber si los mensajes están cifrados de extremo a extremo? {#whene2e}
 
-Todos los mensajes cifrados de extremo a extremo tienen un candado:
+All messages in Delta Chat are **end-to-end encrypted by default**.
+Since the Delta Chat Version 2 release series (July 2025) 
+there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-<img style="width:160px; margin:1px" src="../assets/help/lock-screenshot.png" alt="padlock in bubble"/>
+### Can i still receive or send mails without end-to-end encryption? 
 
-El cifrado de extremo a extremo está garantizado si hay una estampilla verde  cerca del nombre del chat: 
+If you use default [chatmail relays](https://chatmail.at/relays),
+it is impossible to receive or send messages without end-to-end encryption. 
 
-<img style="width:211px; margin:1px" src="../assets/help/green-checkmark-screenshot.png" alt="green checkmark in title"/>
+If you instead create a profile using a classic e-mail server,
+you can send and receive messages with or without end-to-end encryption.
+Messages lacking end-to-end encryption are marked with an e-mail icon
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
+### ¿Cómo puedo establecer un chat con un nuevo contacto? {#howtoe2ee}
 
-### ¿Cómo puedo obtener cifrado de extremo a extremo garantizado y estampillas verdes? {#howtoe2ee}
-
-If you have a second communication channel with your chat partner,
-like a video chat or a different messenger,
-you can generate an invite link.
-
-If you are together in person,
-you can show a QR code to your chat partner.
+You can send an invite link through another private chat, 
+show an invitation QR code when next to each other or in a video call,
+or click on a "contact" that was shared in a chat. 
 
 - For **Group invitations**,
   tap the chat group title to see its member list,
   and select "QR Invite code".
 
-- For **direct 1:1 chat invitations**,
+- For **direct 1:1 chat invitations**, 
   tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
   on the Delta Chat app main screen.
 
-Let your chat partner scan the QR image
+Ask your chat partner to scan the QR image
 with their Delta Chat app,
 or click "Copy" or "Share" to create an invite link
 and share it with your chat partner.
 
-Now wait while [Secure-Join network messages are exchanged](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol) between both devices.
+Now wait while [end-to-end encryption is getting established](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol). 
 
-- Si ambos dispositivos están en línea,
-ambas partes eventualmente verán un chat (grupal o directo) con una estampilla verde
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>
-junto al título.
+- If both sides are online, they will soon see a (group or direct) chat
+  and can start messaging securely. 
 
-- Si uno de los dispositivos está sin conexión, las estampillas verdes solo aparecerán más tarde cuando el dispositivo vuelva a estar conectado a Internet y se complete el protocolo de red Secure-Join.
+- If one side is offline or in bad network, 
+  the  ability to chat is delayed until connectivity is restored. 
 
-¡Felicitaciones!
-Ahora utilizarás automáticamente el cifrado de extremo a extremo garantizado
-con este contacto y ambos pueden agregarse mutuamente a grupos con estampilla verde
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark"/>,
-de esta manera se propagará automáticamente el cifrado de extremo a extremo garantizado entre sus miembros.
+Congratulations! 
+You now will automatically use end-to-end encryption
+with this contact. 
+If you add each other to chat groups,
+end-to-end encryption will be established among all members. 
 
 
-### ¿Qué significa la estampilla verde y "cifrado de extremo a extremo garantizado"? {#e2eeguarantee}
+### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
 
-Títulos de chat con estampillas verdes
+A contact profile might show a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-significan que todos los mensajes en el chat estarán cifrados de extremo a extremo
-y no pueden ser leídos o alterados por servidores de correo electrónico o proveedores de Internet comprometidos.
-Unirse a chats grupales con estampillas verdes
-difunde de manera segura la información de cifrado de todos (y las estampillas verdes)
-de una manera que garantiza el cifrado de extremo a extremo en el grupo y entre los miembros.
-
-Perfiles de contacto con estampillas verdes
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-significa que el envío de mensajes a un contacto está actualmente garantizado que está cifrado de extremo a extremo.
-Cada contacto con estampilla verde hizo un escaneo directo de [QR](#howtoe2ee) contigo
-o fue presentado por otro contacto con estampilla verde.
-Las presentaciones ocurren automáticamente al agregar miembros a grupos.
-Quien agregue un contacto a un grupo con estampilla verde se convierte en un presentador
-para aquellos miembros que aún no conocían al contacto agregado.
-En un perfil de contacto, puedes tocar repetidamente el texto "Presentado por ..."
-hasta llegar al que hizo un escaneo directo de [QR](#howtoe2ee) contigo.
-
-Ten en cuenta que en un perfil de contacto puedes ver y tocar a las personas que te presentaron a ese contacto, pero puede pasar que no haya una estampilla verde en el título del perfil. Esto generalmente significa que el contacto ["envió un mensaje desde otro dispositivo"](#nocryptanymore).
+and an "Introduced by" line.
+Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
+or was introduced by a another green-checkmarked contact.
+Introductions happen automatically when adding members to groups. 
+Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
+becomes an introducer. 
+In a contact profile you can tap on the "Introduced by ..." text repeatedly
+until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
 Para obtener una discusión más detallada sobre "cifrado de extremo a extremo garantizado", por favor consulta los [protocolos Secure-Join](https://securejoin.delta.chat/en/latest/new.html) y lee específicamente sobre "Grupos Verificados", el término técnico de lo que aquí se llama chats "marcados con una estampilla verde" o "cifrados de extremo a extremo garantizado".
-
-
-### Un contacto "envió un mensaje desde otro dispositivo", ¿qué puedo hacer? {#nocryptanymore}
-
-Tu chat con un contacto perdió el cifrado de extremo a extremo garantizado.
-La estampilla verde fue eliminada para este chat y contacto cuando veas esta advertencia.
-**Si encuentras sorprendente la repentina pérdida de cifrado de extremo a extremo garantizado
-para este contacto, ¡no aceptes la advertencia!**
-En su lugar, verifica con tu contacto a través de un segundo canal
-como una videollamada, otra app de chat o una llamada telefónica,
-para averiguar qué sucedió.
-
-Si tu contacto realmente causó la caída del cifrado de extremo a extremo garantizado, por favor vea los siguientes párrafos para conocer las razones comunes y sus mitigaciones. Sin embargo, todos los demás chats marcados con una estampilla verde siguen estando cifrados de extremo a extremo garantizado, incluso si el contacto es miembro allí.
-
-**Tu contacto está usando Delta Chat en un segundo dispositivo (teléfono o computadora portátil)**
-
-Si tienen otro dispositivo con la aplicación Delta Chat en funcionamiento,
-deben eliminar la cuenta del nuevo dispositivo
-y agregarla [como un segundo dispositivo según se describe aquí](#multiclient).
-Tan pronto como te envíen un mensaje después, la advertencia desaparecerá
-y se establecerá el cifrado garantizado con ambos dispositivos de tu contacto.
-
-**Tu contacto reinstaló Delta Chat utilizando su antiguo inicio de sesión de cuenta**
- 
-Si tienen [un archivo de respaldo](#backup),
-deben eliminar la cuenta del nuevo dispositivo
-y en su lugar importar el archivo de respaldo para recrear su cuenta.
-Tan pronto como te envíen un mensaje después, la advertencia desaparecerá
-y se restablecerá el cifrado garantizado para este contacto.
-
-Si no tienen un archivo de respaldo, es mejor realizar un [escaneo QR](#howtoe2ee) con tu compañero de chat para restablecer el cifrado de extremo a extremo garantizado.
-
-**Tu contacto envió un correo a través de una interfaz de correo web o otra aplicación de correo electrónico y volverá a usar Delta Chat pronto.**
-
-Si estás seguro de que el contacto a veces utiliza webmail,
-o alguna otra aplicación de correo que carece de cifrado de extremo a extremo,
-entonces puedes aceptar la advertencia.
-Tan pronto como tu contacto vuelva a utilizar Delta Chat,
-el cifrado de extremo a extremo garantizado se restablecerá automáticamente.
-
-**Tus contactos dejaron de usar Delta Chat completamente**
-
-A veces, mantenerse en contacto es más importante que el cifrado de extremo a extremo. El cifrado de capa de transporte [("Transport Layer Encryption" o TLS)](#tls) puede proteger de manera significativa la confidencialidad de tus mensajes entre tu dispositivo y el servidor de correo electrónico. Pero sin el cifrado de extremo a extremo, tú y tu contacto están confiando en que el servidor de correo electrónico no lea ni manipule tus mensajes, y que no los entregue a terceros.
-
-En cualquier caso, no puedes hacer mucho más que aceptar la advertencia.
-Por favor, también elimina el contacto de cualquier grupo activo con estampilla verde
-que puedas encontrar en "Chats compartidos" en el perfil del contacto.
-Esto evitará que tu contacto reciba mensajes "ilegibles".
-
-Si el contacto eliminó Delta Chat debido a un comportamiento defectuoso o indeseable,
-por favor considera publicar en nuestro [foro de soporte](https://support.delta.chat)
-para ayudarnos a identificar y solucionar problemas comunes. ¡Gracias!
-
 
 ### ¿Los adjuntos (imágenes, archivos, audio, etc.) están cifrados de extremo a extremo?
 
@@ -555,10 +492,9 @@ y los metadatos de los archivos adjuntos, como los nombres de archivo.
 
 ### ¿Es OpenPGP seguro? {#openpgp-secure}
 
-Sí, Delta Chat utiliza un subconjunto seguro de OpenPGP
-y solo muestra un indicador de seguridad de candado en un mensaje
-si todo el mensaje está correctamente cifrado y firmado.
-Por ejemplo, las "firmas desvinculadas" no se consideran seguras.
+Yes, Delta Chat uses a secure subset of OpenPGP
+requiring the whole message to be properly encrypted and signed.
+For example, "Detached signatures" are not treated as secure.
 
 OpenPGP is not insecure by itself.
 Most publicly discussed OpenPGP security problems
@@ -576,7 +512,7 @@ to further improve security characteristics by implementing the
 which was thankfully adopted in summer 2023. 
 
 
-### ¿Consideraron usar alternativas a OpenPGP para el cifrado de extremo a extremo? {#openpgp-alternatives}
+### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
 
 Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
 or [Saltpack](https://saltpack.org/) 
@@ -609,14 +545,12 @@ which contain exactly one encrypted and signed part,
 as defined by the Autocrypt Level 1 specification. 
 
 
-### ¿Se expone un mensaje en texto claro si no está disponible el cifrado de extremo a extremo? {#tls}
+### Are messages marked with the mail icon exposed on the Internet? {#tls}
 
-Even if your messages are not guaranteed to be end-to-end encrypted, 
-they are still protected from Internet providers like cell or cable companies. 
-However, your and your recipient's e-mail providers 
-may read, analyze or even modify your messages, 
-including any attachments,
-if they are not end-to-end encrypted. 
+If you are sending or receiving e-mail messages without end-to-end encryption (using a classic e-mail server),
+they are still protected from cell or cable companies who can not read or modify your e-mail messages. 
+But both your and your recipient's e-mail providers 
+may read, analyze or modify your messages, including any attachments. 
 
 Delta Chat by default uses strict 
 [TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
@@ -629,121 +563,82 @@ then transport encryption will be enforced between e-mail providers
 in which case Delta Chat communications will never be exposed in cleartext to the Internet
 even if the message was not end-to-end encrypted.
 
-Ten en cuenta que [mantener un cifrado de extremo a extremo garantizado](#howtoe2ee) sobre el cifrado TLS proporciona seguridad generalizada entre tus dispositivos y los del destinatario. Ni siquiera tu proveedor de correo electrónico o de Internet podrá leer o modificar tus mensajes.
-
 
 ### ¿Cómo Delta Chat protege los metadatos en los mensajes? {#message-metadata}
 
-Delta Chat protege la mayoría de los metadatos de los mensajes al colocar la siguiente información en la parte cifrada de extremo a extremo de los mensajes:
+Unlike most other messengers, 
+Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
+Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
 
-- Subject line 
-- Group avatar and name 
-- MDN (read receipt) requests (`Chat-Disposition-Notification-To`)
-- Disappearing message timer (`Ephemeral-Timer`) 
-- `Chat-Group-Member-Removed`, `Chat-Group-Member-Added` 
-- `Secure-Join` header containing secure join commands
-- Notification about enabling location streaming
-- WebRTC room URL
+E-mail Servers can therefore only see
 
-Los servidores de correo electrónico no obtienen acceso a estos metadatos protegidos
-pero sí ven la fecha del mensaje así como el tamaño del mensaje,
-y, lo que es más importante, las direcciones del remitente y del destinatario.
-Los servidores de correo electrónico necesitan direcciones de destinatarios para enrutar y
-entregar mensajes a los dispositivos del destinatario.
+- the message date, 
 
+- sender and receiver addresses 
+
+- and message size. 
+
+All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
 
 ### ¿Cómo proteger los metadatos y los contactos cuando se incauta un dispositivo? {#device-seizure}
 
 Both for protecting against metadata-collecting e-mail servers 
 as well as against the threat of device seizure
-we recommend to use a [chatmail server](https://delta.chat/chatmail)
-to create pseudonymous temporary profiles through QR-code scans.
+we recommend to use a [chatmail relay](https://chatmail.at/relays)
+to create chat profiles using random e-mail addresses for transport. 
 Note that Delta Chat apps on all platforms support multiple profiles
 so you can easily use situation-specific profiles next to your "main" profile
 with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then contacts using temporary profiles
-can not be identified easily, as compared to messengers which reveal
-phone numbers in chat groups which in turn are often associated with legal identities.
+Moreover, if a device is seized then chat contacts using short-lived profiles
+can not be identified easily. 
 
+### Does Delta Chat support "Sealed Sender"? {#sealedsender}
 
-### ¿Cómo puedo verificar la información de cifrado?
+No, not yet. 
 
-Puede verificar manualmente el estado de cifrado de extremo a extremo en el diálogo "Cifrado" (perfil de usuario en Android/iOS o hacer clic derecho en el elemento de lista de chat de un usuario en el escritorio). Delta Chat muestra dos huellas digitales allí. Si las mismas huellas digitales aparecen en su propio dispositivo y en el dispositivo de su contacto, la conexión es segura.
+The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
+to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
+It is particularly important because the Signal server knows the mobile number of each account,
+which is usually associated with a passport identity.
 
-
-### ¿Cómo puedo verificar el estado de cifrado de los mensajes?
-
-Un pequeño **candado** en una burbuja de mensaje indica que el mensaje fue correctamente cifrado de extremo a extremo por el remitente dado. Si no hay **candado**, es probable que el mensaje no esté correctamente cifrado de extremo a extremo, ya que el remitente utiliza una aplicación o interfaz de correo web sin soporte para el cifrado de extremo a extremo.
-
-
-### ¿Por qué veo mensajes sin cifrar?
-
-If a contact uses a non-Autocrypt e-mail app,
-all messages involving this contact (in a group or 1:1 chat)
-will not be end-to-end encrypted, and thus not show a "padlock" with messages.
-Note that even if your contacts use Delta Chat on their account,
-they might also use a non-Autocrypt e-mail app on that account
-which then may cause intermittently unencrypted messages.
-Replying unencrypted to unencrypted messages is mandated by Autocrypt
-to prevent unreadable messages on the side of your contacts
-and their non-Autocrypt e-mail app.
-
-### ¿Cómo puedo obtener un chat cifrado de extremo a extremo con un contacto de Delta Chat que a veces utiliza webmail u otra aplicación de correo electrónico no Autocrypt?
-
-Si necesitas un chat cifrado de extremo a extremo de forma segura con un contacto que está utilizando su cuenta tanto con Delta Chat como con aplicaciones no-Autocrypt (por ejemplo, webmail), lo mejor es configurar [cifrado de extremo a extremo garantizado con ellos](#howtoe2ee) y luego crear un grupo cifrado de extremo a extremo garantizado con ustedes dos como miembros. En este chat de grupo, todos los mensajes estarán cifrados de extremo a extremo, incluso si el chat directo entre ustedes dos tiene una advertencia de ["… envió un mensaje desde otro dispositivo"](#nocryptanymore).
-
-
-### ¿Cómo puedo asegurar el cifrado de extremo a extremo y la eliminación de mensajes?
-
-La mejor manera de asegurar que cada mensaje esté cifrado de extremo a extremo
-y que los metadatos se borren lo más rápido posible
-es [utilizando chats con cifrado de extremo a extremo garantizado](#howtoe2ee)
-y activando la [desaparición de mensajes](#ephemeralmsgs).
-
-Los chats con cifrado de extremo a extremo garantizado protegen contra ataques [MITM](https://es.wikipedia.org/wiki/Ataque_de_intermediario)
-y al activar "mensajes efímeros" se borran los mensajes
-en el servidor después de un tiempo configurado por el usuario.
-
-Si no necesitas una copia de tus mensajes en el servidor durante más tiempo,
-también puedes activar ["eliminar mensajes del servidor automáticamente"](#delold).
-
+Even if [chatmail relays](https://chatmail.at/relays) 
+do not ask for any private data (including no phone numbers), 
+it might still be worthwhile to protect relational metadata between addresses. 
+We don't foresee bigger problems in using random throw-away e-mail addresses for sealed sending
+but an implementation has not been agreed as a priority yet. 
 
 ### ¿Soporta Delta Chat Perfect Forward Secrecy? {#pfs}
 
-No, Delta Chat no soporta  Perfect Forward Secrecy (PFS).
-Esto significa que si se filtra tu clave privada de descifrado de Delta Chat,
-y alguien ha recopilado tus mensajes previos en tránsito,
-podrán descifrarlos y leerlos utilizando la clave de descifrado filtrada.
+No, not yet. 
 
-Ten en cuenta, sin embargo, que si alguien obtiene tus claves de descifrado,
-también podrán obtener tus mensajes,
-independientemente de si se implementa o no el Perfect Forward Secrecy.
-La situación típica en el mundo real para las claves de descifrado filtradas es la incautación del dispositivo,
-que discutimos en nuestra respuesta [sobre metadatos e incautación de dispositivos](#device-seizure).
+Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
+This means that if your private decryption key is leaked,
+and someone has collected your prior in-transit messages,
+they will be able to decrypt and read them using the leaked decryption key.
+Note that Forward Secrecy only increases security if you delete messages. 
+Otherwise, someone obtaining your decryption keys
+is typically also able to get all your non-deleted messages
+and doesn't even need to decrypt any previously collected messages. 
 
-It is possible that Delta Chat evolves to support Perfect Forward Secrecy,
-because OpenPGP is just a container for encrypted messages 
-but encryption key management (and thus key rotation or key "ratcheting") 
-could be organized in flexible ways. 
-See [Seqouia's PFS prototype](https://gitlab.com/sequoia-pgp/openpgp-dr)
-for existing experiments in the OpenPGP implementor community.
+We designed a Forward Secrecy approach that withstood 
+initial examination from some cryptographers and implementation experts 
+but is pending a more formal write up 
+to ascertain it reliably works in federated messaging and with multi-device usage,
+before it could be implemented in [chatmail core](https://github.com/chatmail/core),
+which would make it available in all [chatmail clients](https://chatmail.at/clients). 
 
+### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
 
-### ¿Es el cifrado de extremo a extremo de Delta Chat tan seguro como el de Signal? 
+No, not yet. 
 
-It depends on what is important to you. 
-Delta Chat [does not support PFS](#pfs) like Signal does
-but it provides [guaranteed end-to-end encrypted chats](#e2eeguarantee)
-that are safe against compromised servers or corrupted networks. 
-Signal and most other PFS-supporting messengers do not provide 
-a practical scheme for protecting chat groups from network attacks
-which are arguably more worrisome 
-than a potential attacker who seizes your phone and private encryption setup
-but somehow not your messages, yet has a full record of all 
-past encrypted messages. 
+Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
+which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
+We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
+in collaboration with other OpenPGP implementers. 
 
-In any case, Delta Chat's end-to-end encryption uses a [secure subset of OpenPGP](#openpgp-secure)
-which has been [independently security-audited](../assets/blog/2019-first-security-review.pdf).
+### How can I manually check encryption information?
+
+Puede verificar manualmente el estado de cifrado de extremo a extremo en el diálogo "Cifrado" (perfil de usuario en Android/iOS o hacer clic derecho en el elemento de lista de chat de un usuario en el escritorio). Delta Chat muestra dos huellas digitales allí. Si las mismas huellas digitales aparecen en su propio dispositivo y en el dispositivo de su contacto, la conexión es segura.
 
 ### ¿Puedo reutilizar mi clave privada existente? {#importkey}
 
@@ -764,7 +659,7 @@ from most recent to older:
 
 - 2024 December, an [NLNET-commissioned Evaluation of
   rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encyption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
+  rPGP serves as the end-to-end encryption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
   Two advisories were released related to the findings of this audit:
 
   - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
@@ -925,15 +820,16 @@ extendable messenger.
 
 ### ¿Qué tan privadas son las aplicaciones webxdc?
 
-- Las aplicaciones webxdc no pueden enviar datos a Internet ni descargar nada.
-- Una aplicación webxdc solo puede intercambiar datos dentro de un chat de Delta Chat, con su
-copias en los dispositivos de tus compañeros de chat. Aparte de eso, es completamente
-aislado de Internet.
-- La privacidad que ofrece una aplicación webxdc es la privacidad de tu chat, siempre y cuando
-confíe en las personas con las que chateas, también puedes confiar en la aplicación webxdc.
-- Esto también significa: puede suponer un riesgo para la privacidad abrir aplicaciones webxdc en chats donde
-no confías en los miembros, como lo sabes por los archivos adjuntos de correos electrónicos, donde
-solo abre archivos adjuntos de remitentes en los que confía y no de spammers.
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
 
 
 ### ¿Dónde puedo obtener aplicaciones webxdc?
@@ -984,19 +880,10 @@ another rather stable experiment we run on the side (sic!).
 
 ### ¿Qué son las listas de difusión y cómo puedo usarlas?
 
-- With a Broadcast List you can send a message to many recipients at once; when
-  they reply to you, you get the reply in your direct 1:1 chat with them. The
-recipients can't see each other.
-- Technically, it is an E-Mail with many recipients in BCC.
-- You can turn on the feature in the "experimental features" section in the
-  advanced settings. Then you can create a Broadcast List from the "New Chat"
-dialog.
-- In case you are using more than one device, Broadcast Lists are currently not
-  synced between them.
-- Messages sent to broadcast lists are not encrypted. Encryption would break
-  anonymity, because then all recipients would know who else received it
-  (Sending individual mails to everyone would be worse for rate limit and network
-  consumption reason).
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
 
 
 ### ¿Cómo puedo compartir mi ubicación con mis compañeros de chat?
@@ -1030,6 +917,11 @@ En este caso, Delta Chat no necesita monitorear la Bandeja de entrada, y es sufi
 
 
 ### ¿Cómo puedo cambiar mi cuenta a una dirección de correo electrónico diferente?
+
+Note: 
+Changing email addresses is temporarily disabled
+because of ongoing changes to the DeltaChat core.
+It should be available again in a few months.
 
 1. Change your address in “Settings → Advanced → Password and Account” and
    enter the password of your new e-mail account (and if necessary, server settings).
@@ -1086,12 +978,28 @@ Esto es lo que hace Delta Chat con esos permisos:
 Sin embargo, algunos proveedores necesitan opciones especiales para funcionar correctamente, ver [Descripción de proveedores](https://providers.delta.chat)
 
 
-### Quiero manejar mi propio servidor de correo para Delta Chat. ¿Qué me recomiendan?
+### Can I use Delta Chat in parallel with other E-Mail apps?
+
+Yes, but it is not recommended.
+
+Parallel usage with the same E-Mail address might lead to the following inconveniences:
+
+- Next to your Delta Chat notifications,
+  you might also get notifications for (encrypted, so unreadable) chat mail messages
+  in your other email app
+- If Delta Chat is not running
+  or "Advanced > Move automatically to the DeltaChat Folder" is disabled,
+  encrypted Delta Chat messages might clutter the Inbox in your other E-Mail apps.
+
+[Sieve rules](https://support.delta.chat/t/sieve-rule-to-move-deltachat-mails-to-deltachat-folder/288/10) can solve these problems.
+
+
+### I want to manage my own server for Delta Chat. What do you recommend?
 
 - Most mail servers will work well. But what we personally recommend is a
-  combination of mailcow and mailadm, as described [in this
-  blogpost](https://delta.chat/en/2023-01-27-upcoming-mail-server-workshops).
-- You can find an [installation guide on our website](serverguide).
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
 ### ¿Por qué debo ingresar mi contraseña de correo electrónico en Delta Chat? ¿Es esto seguro?

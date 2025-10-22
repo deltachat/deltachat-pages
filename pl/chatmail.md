@@ -16,12 +16,15 @@ Serwery Chatmail zapewniają ochronę prywatności i szybką obsługę użytkown
 
 - [mailchat.pl](https://mailchat.pl) jest skierowany do użytkowników mówiących po polsku
 
-- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/) jest skierowany do użytkowników włoskojęzycznych i działa stabilnie
+- [chatmail.woodpeckersnest.space](https://chatmail.woodpeckersnest.space/)
+  i [chatmail.culturanerd.it](https://chatmail.culturanerd.it)
+  są skierowane do użytkowników włoskojęzycznych.
 
 - [chika.aangat.lahat.computer](https://chika.aangat.lahat.computer/)
   działa w USA
 
-- [tarpit.fun](https://tarpit.fun) is hosted in Germany
+- [tarpit.fun](https://tarpit.fun) jest hostowany w Niemczech
+
 
 Istnieją dodatkowe serwery chatmail, które nie są publicznie wymienione.
 

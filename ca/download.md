@@ -16,11 +16,11 @@ A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un t
 
 - [Clients alternatius](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
 
-- [Provider Database](https://providers.delta.chat/)
+- [Proveidors de Base de Dades](https://providers.delta.chat/)
 
 - [Verifiqueu les baixades](verify-downloads)
 
-- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Resolució de problemes d’instal·lació a l’escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
 - Construccions prelminars: [Escriptori]({% include desktop-previews-url %}),
   [Android Nightly](https://download.delta.chat/android/nightly/),

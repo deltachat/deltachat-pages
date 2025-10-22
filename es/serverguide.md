@@ -5,6 +5,10 @@ lang: es
 
 # Cómo Configurar un Servidor de Correo para Delta Chat
 
+> **Update:** This is outdated - we no longer recommend mailcow Servers,
+> but [Chatmail Relays](2023-12-13-chatmail) for chatting with Delta Chat.
+> Read more [on GitHub](https://github.com/chatmail/relay) about how to set it up!
+
 Delta Chat es una aplicación de mensajería que funciona sobre e-mail. Esto significa que podemos usar cualquier proveedor de e-mail para configurar una cuenta de Delta Chat. Un proveedor que es fácil de configurar y administrar y funciona con Delta Chat instantáneamente es [Mailcow](https://mailcow.email).
 
 You can run it together with [mailadm](https://mailadm.readthedocs.io), which
