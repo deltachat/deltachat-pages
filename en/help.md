@@ -868,83 +868,6 @@ extendable messenger.
   Forum](https://support.delta.chat/c/webxdc/20).
 
 
-## Experimental Features
-
-We are very grateful for feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute. 
-You may conveniently login via Delta Chat and a QR code scan,
-another rather stable experiment we run on the side (sic!).
-
-### How can I use audio/video calls with Delta Chat?
-
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "Video Chat Instance". 
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to the video chat. 
-  This way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random Jitsi room every time you call someone.
-
-
-### What are Broadcast Lists and how can I use them?
-
-With a Broadcast List you can send a message to many recipients at once;
-the recipients cannot reply in that list.
-Broadcast lists are still highly experimental
-and will very probably be replaced by something else, stay tuned :)
-
-
-### How can I share my location with my chat partners?
-
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat partners.
-  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
-
-
-### How can I use a different e-mail address with my profile?
-
-Note: 
-Changing email addresses is temporarily disabled
-because of ongoing changes to the DeltaChat core.
-It should be available again in a few months.
-
-1. Change your address in “Settings → Advanced → Password and Account” and
-   enter the password of your new e-mail account (and if necessary, server settings).
-   You will get an information notice about the fact that you are moving to a new address. 
-   An additional notice will also show up in your "Device messages" chat. 
-
-2. If possible, let your old e-mail provider forward all messages to your new address.
-
-3. Tell your contacts that you changed your address. 
-   Writing to guaranteed end-to-end encrypted chats and groups,
-   will make them notice your move automatically 
-   and they will continue chatting with you using your new address. 
-
-Note that Delta Chat will not retrieve messages anymore from your old e-mail provider.
-If you didn't configure your e-mail provider to forward messages (step 2.) 
-only those contacts to whom you sent a message in a guaranteed end-to-end encrypted chat
-will send messages to your new address. 
-
-To learn more about this the details behind this, [read our blogpost on
-it](https://delta.chat/en/2022-09-14-aeap).
-
-
 ## Advanced
 
 
@@ -1093,6 +1016,83 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
+
+
+## Experimental Features
+
+We are very grateful for feedback on these features - do you want to share
+your ideas? Join the [Forum](https://support.delta.chat) to contribute.
+You may conveniently login via Delta Chat and a QR code scan,
+another rather stable experiment we run on the side (sic!).
+
+### How can I use audio/video calls with Delta Chat?
+
+- To turn on audio/video calls, go to the "experimental features" section in
+  the advanced settings and choose a "Video Chat Instance".
+- When you invite others to a video chat, it is opened in your browser/app at
+  once. The others receive an e-mail with a link to the video chat.
+  This way, it is also compatible if your chat partners don't use Delta Chat.
+- Note that there is no ring tone on the other side, and your chat partners
+  will not get interrupted by a video chat invite.
+- You can use any video chat service which allows joining by link. Just add the
+  link in the settings.
+- For example, to use the flagship Jitsi Meet instance, you could enter
+  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
+  this way, you will have a new random Jitsi room every time you call someone.
+
+
+### What are Broadcast Lists and how can I use them?
+
+With a Broadcast List you can send a message to many recipients at once;
+the recipients cannot reply in that list.
+Broadcast lists are still highly experimental
+and will very probably be replaced by something else, stay tuned :)
+
+
+### How can I share my location with my chat partners?
+
+- You can turn on location streaming in the "experimental features" section of
+  the advanced settings.
+- Now, if you want to share your location in a chat, go to "attach" and select
+  "location". You can now set a time frame in which your location will be
+  streamed to your chat partners, between 5 minutes and 6 hours.
+- When your location changes, the others in the chat can view it on a map in
+  the chat.
+- To see the map and view locations of others, you need to turn on the feature
+  in the advanced settings.
+- This feature will not share your location with anyone except your chat partners.
+  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
+- On desktop, the OS typically can't determine your location. Instead you can
+  right click on the map and describe a location, which is sent to the chat as
+  a message, but also appears on the map.
+
+
+### How can I use a different e-mail address with my profile?
+
+Note:
+Changing email addresses is temporarily disabled
+because of ongoing changes to the DeltaChat core.
+It should be available again in a few months.
+
+1. Change your address in “Settings → Advanced → Password and Account” and
+   enter the password of your new e-mail account (and if necessary, server settings).
+   You will get an information notice about the fact that you are moving to a new address.
+   An additional notice will also show up in your "Device messages" chat.
+
+2. If possible, let your old e-mail provider forward all messages to your new address.
+
+3. Tell your contacts that you changed your address.
+   Writing to guaranteed end-to-end encrypted chats and groups,
+   will make them notice your move automatically
+   and they will continue chatting with you using your new address.
+
+Note that Delta Chat will not retrieve messages anymore from your old e-mail provider.
+If you didn't configure your e-mail provider to forward messages (step 2.)
+only those contacts to whom you sent a message in a guaranteed end-to-end encrypted chat
+will send messages to your new address.
+
+To learn more about this the details behind this, [read our blogpost on
+it](https://delta.chat/en/2022-09-14-aeap).
 
 
 ## Miscellaneous
