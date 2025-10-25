@@ -174,6 +174,17 @@ they will not see the green dot
 until one of the above conditions are met.
 
 
+### What do the ticks shown beside outgoing messages mean?
+
+- **One tick** means that the message was sent successfully to your provider.
+- **Two ticks** mean that at least one recipient's device
+  reported back to having received the message.
+- Recipients may have disabled read-receipts,
+  so even if you see only one tick, the message may have been read.
+- The other way round, two ticks do not automatically mean
+  that a human has read or understood the message ;)
+
+
 ### Correct typos and delete messages after sending {#edit}
 
 - You can edit the text of your messages after sending.
@@ -277,20 +288,6 @@ They will most likely also not be decryptable anymore
 
 - As an alternative, you can also "Mute" a group - doing so means you get all messages and 
   can still write, but are no longer notified of any new messages.
-
-
-### What do the ticks shown beside outgoing messages mean?
-
-- **One tick** means that the message was sent successfully to your provider.
-- **Two ticks** mean that at least one recipient's device
-  reported back to having received the message.
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
-
-
-
 
 
 ## Instant message delivery and Push Notifications {#instant-delivery}
