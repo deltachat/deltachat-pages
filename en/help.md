@@ -1090,14 +1090,6 @@ folder might go away in the future. It was introduced at a time where there was
 no Delta Chat Desktop client available on all platforms.
 
 
-### Why can I choose not to watch the DeltaChat folder?
-
-Some people use Delta Chat as a regular email client, and want to use the Inbox
-folder for their mail, instead of the DeltaChat folder. If you disable "Watch
-DeltaChat folder", you should also disable "move chat messages to DeltaChat".
-Otherwise, deleting messages or multi-device setups might not work properly.
-
-
 ### Why can I choose to only watch the DeltaChat folder?
 
 This is an experimental setting for some people who are experimenting with
