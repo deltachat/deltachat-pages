@@ -221,6 +221,34 @@ They will most likely also not be decryptable anymore
 (as long as they were encrypted in the first place).
 
 
+### What happens if I turn on "Delete old messages from server"?
+
+- By default, Delta Chat stores all messages locally on your device.
+  If you  e.g. want to save storage space at your mail provider,
+  you can configure  Delta Chat
+  to delete old already-received messages on the server automatically.
+  They still remain on your device until you delete them there, too.
+
+- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
+  in the "Chats and Media" settings.
+  You can set a timeframe between "At once" and "After 1 year".
+  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+
+- Note that if you use Delta Chat on more than one device,
+  you need to leave the message on the server with a sufficient timeframe
+  so that the other device(s) can download them, too.
+
+
+### What happens if I turn on "Delete old messages from device"? {#delold}
+
+- If you want to save storage on your device, you can choose to delete old
+  messages automatically.
+- To turn it on, go to "delete old messages from device" in the "Chats & Media"
+  settings. You can set a timeframe between "after an hour" and "after a year";
+  this way, *all* messages will be deleted from your device as soon as they are
+  older than that.
+
+
 ## Groups
 
 ### Creation of a group
@@ -262,32 +290,7 @@ They will most likely also not be decryptable anymore
   that a human has read or understood the message ;)
 
 
-### What happens if I turn on "Delete old messages from server"?
 
-- By default, Delta Chat stores all messages locally on your device.
-  If you  e.g. want to save storage space at your mail provider,
-  you can configure  Delta Chat
-  to delete old already-received messages on the server automatically.
-  They still remain on your device until you delete them there, too.
-
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
-
-- Note that if you use Delta Chat on more than one device,
-  you need to leave the message on the server with a sufficient timeframe
-  so that the other device(s) can download them, too.
-
-
-### What happens if I turn on "Delete old messages from device"? {#delold}
-
-- If you want to save storage on your device, you can choose to delete old
-  messages automatically. 
-- To turn it on, go to "delete old messages from device" in the "Chats & Media"
-  settings. You can set a timeframe between "after an hour" and "after a year";
-  this way, *all* messages will be deleted from your device as soon as they are
-  older than that.
 
 
 ## Instant message delivery and Push Notifications {#instant-delivery}
