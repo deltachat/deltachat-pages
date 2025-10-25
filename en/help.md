@@ -917,21 +917,6 @@ and will very probably be replaced by something else, stay tuned :)
   a message, but also appears on the map.
 
 
-### Why can I choose to only watch the DeltaChat folder?
-
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
-
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
-
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
-
-In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
-
-
 ### How can I use a different e-mail address with my profile?
 
 Note: 
@@ -1111,6 +1096,21 @@ Some people use Delta Chat as a regular email client, and want to use the Inbox
 folder for their mail, instead of the DeltaChat folder. If you disable "Watch
 DeltaChat folder", you should also disable "move chat messages to DeltaChat".
 Otherwise, deleting messages or multi-device setups might not work properly.
+
+
+### Why can I choose to only watch the DeltaChat folder?
+
+This is an experimental setting for some people who are experimenting with
+server-side rules. Not all providers support this, but with some you can move
+all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
+would be done by the Delta Chat app.
+
+Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
+
+- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
+- have set the "Show classic emails" setting to "no, chats only".
+
+In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
 
 
 ### Is Delta Chat compatible with Proton Mail / Tutanota / Criptext?
