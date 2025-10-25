@@ -945,35 +945,7 @@ To learn more about this the details behind this, [read our blogpost on
 it](https://delta.chat/en/2022-09-14-aeap).
 
 
-## Miscellaneous
-
-### Which permissions does Delta Chat need?
-
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
-
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for achieving "instant message delivery"
+## Advanced
 
 
 ### Does Delta Chat work with _my_ e-mail-provider?
@@ -1118,6 +1090,41 @@ In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to onl
 - Delta Chat can end-to-end-encrypt through any e-mail provider with any
   [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
+### I'm interested in the technical details. Can you tell me more?
+
+- See [Standards used in Delta Chat]({% include standards-url %}).
+
+
+## Miscellaneous
+
+### Which permissions does Delta Chat need?
+
+Depending on the operating system in use,
+you may be asked to grant permissions to the app.
+This is what Delta Chat does with these permissions:
+
+- Camera *(can be disallowed)*
+  - take pictures and videos: for sending Photos
+- Contacts *(can be disallowed)*
+  - read your contacts: to discover contacts to chat with
+- Location *(can be disallowed)*
+  - access approximate location (network location sources): for the location streaming feature
+  - access precise location (GPS and network location sources): for the location streaming feature
+- Microphone *(can be disallowed)*
+  - record audio: for audio messages
+- Storage *(can be disallowed)*
+  - modify or delete the contents of your SD card: to download message attachments
+  - read the contents of your SD card: to share files with your contacts
+- Other app capabilities
+  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
+  - run at startup: so you don't have to start Delta Chat manually
+  - control vibration: for notifications
+  - view network connections: to connect to your E-Mail provider
+  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
+  - have full network access: to connect to your E-Mail provider
+  - view Wi-Fi connections: to connect to your E-Mail provider
+  - ask to ignore battery optimisations: for achieving "instant message delivery"
+
 
 ### How can I delete my account? {#remove-account}
 
@@ -1145,12 +1152,6 @@ If you want to continue using a classic e-mail account with other apps,
 but uninstall Delta Chat,
 it is recommended to leave any group chat before uninstalling Delta Chat.
 Otherwise you might receive undecryptable messages from those group chats.
-
-
-### I'm interested in the technical details. Can you tell me more?
-
-- See [Standards used in Delta Chat]({% include standards-url %}).
-
 
 
 ### Where can my friends find Delta Chat?
