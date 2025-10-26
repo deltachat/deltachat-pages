@@ -11,11 +11,19 @@ header: Frequently Asked Questions
 Delta Chat is a reliable, decentralized and secure messaging app, 
 available for mobile and desktop platforms.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
+  which offer instant Push Notifications for iOS and Android devices.
+
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms.
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](#security-audits)
+  safe against network and server attacks.
+
+- Free and Open Source software, both app and server side.
+  Built on [Internet Standards]({% include standards-url %}),
+  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/)
 
 <img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
 
@@ -23,31 +31,7 @@ in which case Delta Chat acts as an e-mail app.
 ### How can I find people to chat with? 
 
 To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
-
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
-
-
-### What are the advantages of Delta Chat compared to other messengers?
-
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices. 
-
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
-
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
-
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
-
-- Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
+or share an invite link](#howtoe2ee).
 
 
 ### What if I expect a message from someone I didn't write to in the past?
