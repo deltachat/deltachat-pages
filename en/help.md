@@ -872,15 +872,15 @@ extendable messenger.
 
 ### What is "Send statistics do Delta Chat's developers"? {#statssending}
 
-Delta Chat for Android asks in a device message whether you want
+We would like to improve Delta Chat with your help,
+which is why Delta Chat for Android asks whether you want
 to send anonymous usage statistics.
 
 You can turn it on and off at
 "Settings -> Advanced -> Send statistics do Delta Chat's developers".
 
 When you turn it on,
-weekly anonymous statistics will be automatically sent to a bot,
-helping us to improve Delta Chat.
+weekly statistics will be automatically sent to a bot.
 
 We are interested e.g. in statistics like:
 
