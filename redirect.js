@@ -18,11 +18,11 @@ function getLanguageFolder() {
   return 'en'
 }
 
-function getRedirectParam() {
+function getRedirectFile() {
   var metaTag = document.querySelector('meta[http-equiv="refresh"]');
   var content = metaTag.getAttribute('content');
 
-  var urlMatch = content.match(/url\s*=\s*([^;]+)/i);
+  var urlMatch = content.match(/url\s*=\s*en\/([^;]+)/i);
   if (urlMatch && urlMatch[1]) {
     return urlMatch[1].trim();
   }
@@ -30,16 +30,5 @@ function getRedirectParam() {
   return '';
 }
 
-function getAbsRedirect() {
-  var param = getRedirectParam();
-
-  var urlMatch = param.match(/en\/(.+)/i);
-  if (urlMatch && urlMatch[1]) {
-    return getLanguageFolder() + '/' + urlMatch[1] + window.location.hash;
-  }
-
-  return param;
-}
-
-var newLocation = getAbsRedirect();
+var newLocation = getLanguageFolder() + '/' + getRedirectFile() + window.location.hash;
 window.location.href = newLocation;
