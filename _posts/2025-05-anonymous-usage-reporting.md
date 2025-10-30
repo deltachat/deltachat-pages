@@ -31,11 +31,11 @@ You can enable it at:
 
 We are interested in numbers like:
 
-- How many of your contacts have a green checkmark, and how many of these were introduced by personally scanning a QR code, rather than introduced by someone else?
-- How many of your messages are sent to contacts with a green checkmark?
-- Whether features like disappearing messages are used
+- How many contacts are introduced by personally scanning a QR code?
+- Which versions of Delta Chat are being used?
+- How many messages are unencrypted?
 
-The full list of statistics we want to collect at first is here: XXX
+The full list of statistics we want to collect at first is here: XXX (do we want this?)
 
 No personally identifiable information is sent,
 only statistics about your usage of Delta Chat
@@ -54,3 +54,5 @@ real-world usability, security, and [usable security](https://cispa.de/en/resear
 and prioritize improvements that actually matter to you and other users.
 
 Thanks for supporting Delta Chat!
+
+XXX forum link
