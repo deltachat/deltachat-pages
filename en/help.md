@@ -855,6 +855,20 @@ extendable messenger.
 ## Advanced
 
 
+### Can I create a profile using a classic E-Mail Account?
+
+Yes, this is possible at **Create New Profile / Use Other Server**.
+
+In addition to encrypted messages, 
+you will then be able to send and receive **unencrypted messages.**
+
+However, **do not use the same account in other e-mail apps**.
+If you ignore that advice, you need to deal with
+lots of chat messages in the inbox,
+double notifications,
+accidentally deleted emails.
+
+
 ### Does Delta Chat work with _my_ e-mail-provider?
 
 - With a rather good chance: Yes :)  
@@ -886,44 +900,6 @@ Parallel usage with the same E-Mail address might lead to the following inconven
 - You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
-### Why do I have to enter my E-Mail password into Delta Chat? Is this secure?
-
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
-
-As Delta Chat is Open Source, you can check the [Source
-Code](https://github.com/chatmail/core/blob/main/src/login_param.rs)
-if you want to verify that your credentials are handled securely. We are happy
-about feedback which makes the app more secure for all of our users.
-
-
-### Which messages do appear in Delta Chat?
-
-By default, Delta Chat shows all e-mails.
-
-At "Settings → Advanced → Show Classic E-Mails",
-you can change this. You have these options:
-
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
-
-
-### Does Delta Chat support HTML e-mails?
-
-Yes, incoming HTML messages come with a "Show full message" button.
-Outgoing messages always use plain text.
-
-
 ### Can I set the E-Mail Subject with Delta Chat?
 
 Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
@@ -940,48 +916,6 @@ it will look like a normal,
 formal e-mail to them.
 You will get bonus professionalism points
 if you set a [signature text](#signature).
-
-
-### What is the "Send Copy to Self" setting good for?
-
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
-
-The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
-
-The default setting for "Send Copy to Self" is "on".
-
-
-### Why can I choose to watch the "Sent" folder?
-
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
-
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
-
-
-### Why can I choose to only watch the DeltaChat folder?
-
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
-
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
-
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
-
-In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
 
 
 ### Is Delta Chat compatible with Proton Mail / Tutanota / Criptext?
