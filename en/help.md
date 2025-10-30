@@ -870,6 +870,25 @@ extendable messenger.
 
 ## Advanced
 
+### What is "Send statistics do Delta Chat's developers"? {#statssending}
+
+Delta Chat for Android asks in a device message whether you want
+to send anonymous usage statistics.
+
+You can turn it on and off at
+"Settings -> Advanced -> Send statistics do Delta Chat's developers".
+
+When you turn it on,
+weekly anonymous statistics will be automatically sent to a bot,
+helping us to improve Delta Chat.
+
+We are interested e.g. in statistics like:
+
+- How many contacts are introduced by personally scanning a QR code?
+- Which versions of Delta Chat are being used?
+- How many messages are unencrypted?
+
+We will _not_ collect any personally identifyable information about you.
 
 ### Does Delta Chat work with _my_ e-mail-provider?
 
