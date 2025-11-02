@@ -6,7 +6,7 @@ lang: en
 # References
 
 > This list is not updated frequently.
-> You can find many more recent references and user voices on [Mastodon](https://chaos.social/tags/deltachat).
+> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Roskomsvoboda: Delta Chat again refused to cooperate with Russian authorities
