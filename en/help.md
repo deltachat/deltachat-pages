@@ -877,7 +877,7 @@ which is why Delta Chat for Android asks whether you want
 to send anonymous usage statistics.
 
 You can turn it on and off at
-"Settings -> Advanced -> Send statistics do Delta Chat's developers".
+**Settings → Advanced → Send statistics to Delta Chat's developers**.
 
 When you turn it on,
 weekly statistics will be automatically sent to a bot.
