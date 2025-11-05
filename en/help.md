@@ -77,24 +77,16 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 - You can add a profile picture in your settings. If you write to your contacts
   or add them via QR code, they automatically see it as your profile picture.
 
-- Contacts who don't use Delta Chat do not see the profile picture
-  (however, of course, they can install Delta Chat :)
-
 - For privacy reasons, no one sees your profile picture until you write a
   message to them.
 
-- Your profile picture isn't sent with every message, but regularly enough that
-  your contacts will re-receive your profile picture, even if they add a new
-  device.
 
-
-### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Status with Delta Chat? {#signature}
 
 Yes,
 you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -211,27 +203,20 @@ or otherwise save, copy or forward messages before deletion.
 
 Apart from that,
 if one chat partner uninstalls Delta Chat,
-the messages will not get deleted from their email account.
-They will most likely also not be decryptable anymore
-(as long as they were encrypted in the first place).
+the (anyway encrypted) messages may take longer to get deleted from their server.
 
 
-### What happens if I turn on "Delete old messages from server"?
+### How does "Delete messages from server" work?
 
-- By default, Delta Chat stores all messages locally on your device.
-  If you  e.g. want to save storage space at your mail provider,
-  you can configure  Delta Chat
-  to delete old already-received messages on the server automatically.
-  They still remain on your device until you delete them there, too.
+- If you are using only one device,
+  messages are deleted **At once** from the server.
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- If you are using Multiple devices,
+  this option is switched to **Automatic**,
+  meaning the server will keep the messages for a while so that all devices have a chance to receive them.
 
-- Note that if you use Delta Chat on more than one device,
-  you need to leave the message on the server with a sufficient timeframe
-  so that the other device(s) can download them, too.
+- If you are no longer using additional devices,
+  you can switch the option manually at **Delete Old Messages → Delete Messages from Server**.
 
 
 ### What happens if I turn on "Delete old messages from device"? {#delold}
