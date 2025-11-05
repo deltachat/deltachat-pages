@@ -276,9 +276,6 @@ Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers
   including on devices that use [microG](https://microg.org)
   instead of proprietary Google code on the phone.
 
-As of May 2024, classic e-mail servers do not support Push Notifications
-for Delta Chat users.
-
 
 ### Are Push Notifications enabled on iOS devices? Is there an alternative?
 
@@ -396,7 +393,7 @@ All messages in Delta Chat are **end-to-end encrypted by default**.
 Since the Delta Chat Version 2 release series (July 2025) 
 there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-### Can i still receive or send mails without end-to-end encryption? 
+### Can i still receive or send messages without end-to-end encryption?
 
 If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
@@ -852,6 +849,8 @@ If you ignore that advice, you need to deal with
 lots of chat messages in the inbox,
 double notifications,
 accidentally deleted emails.
+
+Note, that [Push notifications](#instant-delivery) are not supported by classic e-mail servers.
 
 
 ### Does Delta Chat work with _my_ e-mail-provider?
