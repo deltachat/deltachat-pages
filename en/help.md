@@ -16,7 +16,7 @@ available for mobile and desktop platforms.
 
 - Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms.
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+- Interactive [in-chat apps](#webxdc) for gaming and collaboration
 
 - [Audited end-to-end encryption](#security-audits)
   safe against network and server attacks.
@@ -58,7 +58,7 @@ Your friends may share your contact with other friends, this appears as a **requ
 
 A profile is **a name, a picture** and some additional information for encrypting messages.
 A profile lives on your device(s) only
-and uses a chatmail or a classic e-mail server to transport messages.
+and uses the server only to relay messages.
 
 On first installation of Delta Chat a first profile is created.
 
@@ -132,22 +132,11 @@ may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing m
 
 You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
 next to the avatar of a contact.
-It means they were **recently seen** in the last 10 minutes:
+It means they were **recently seen by you** in the last 10 minutes,
+e.g. because they messaged you or sent a read receipt.
 
-- either because they messaged you directly,
-- because they wrote something to a group you are both a member of,
-- because they sent you a read receipt for a message you wrote,
-- because they edit or delete a message in a chat shared with you,
-- or because they use an [app](#webxdc) in a chat shared with you.
-
-So this is not a real time online status -
-and if someone doesn't answer right away even though they seem to be online,
-don't worry and give them some space :)
-
-On the other hand, others will not always "see that you are online".
-If you have turned off read receipts,
-they will not see the green dot
-until one of the above conditions are met.
+So this is not a real time online status
+and others will as well not always see that you are "online".
 
 
 ### What do the ticks shown beside outgoing messages mean?
@@ -192,9 +181,9 @@ of deleting the messages
 after the selected time span.
 The time span begins
 when the receiver first sees the message in Delta Chat.
-The messages are deleted
-both in each email account on the server,
-and in the app itself.
+The messages are deleted both,
+on the servers,
+and in the apps itself.
 
 Note that you can rely on disappearing messages
 only as long as you trust your chat partners;
@@ -308,8 +297,6 @@ does not expose data to Apple that it doesn't already have.
 
 If a "Push Service" is available, Delta Chat enables Push Notifications
 to achieve instant message delivery for all chatmail users.
-If you are using a classic e-mail provider instead of [chatmail](https://delta.chat/chatmail) servers,
-Push Notifications are not available.
 
 In the Delta Chat "Notifications" settings for "Instant delivery"
 you can change the following settings effecting all chat profiles:
@@ -335,7 +322,7 @@ safe to try if you experience messages arrive only with long delays.
 ### How private are Delta Chat Push Notifications? {#privacy-notifications}
 
 Delta Chat Push Notification support avoids leakage of private information.
-It does not leak e-mail, IP address or message content (not even encrypted)
+It does not leak profile data, IP address or message content (not even encrypted)
 to any system involved in the delivery of Push Notifications.
 
 Here is how Delta Chat apps perform Push Notification delivery:
@@ -343,18 +330,18 @@ Here is how Delta Chat apps perform Push Notification delivery:
 - A Delta Chat app obtains a "device token" locally, encrypts it and stores it
   on the [chatmail](https://delta.chat/chatmail) server.
 
-- When a [chatmail](https://delta.chat/chatmail) server receives an e-mail for a Delta Chat user
+- When a [chatmail](https://delta.chat/chatmail) server receives a message for a Delta Chat user
   it forwards the encrypted device token to the central Delta Chat notification proxy.
 
 - The central Delta Chat notification proxy decrypts the device token
   and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or e-mail address of Delta Chat users.
+  without ever knowing the IP or profile data of Delta Chat users.
 
 - The central Push Service (Apple, Google, etc.)
   wakes up the Delta Chat app on your device
   to check for new messages in the background.
-  It does not know about the chatmail or e-mail address of the device it wakes up.
-  The central Apple/Google Push services never see an e-mail address (sender or receiver)
+  It does not know about the profile data of the device it wakes up.
+  The central Apple/Google Push services never see any profile data (sender or receiver)
   and also never see any message content (also not in encrypted forms).
 
 
@@ -364,7 +351,7 @@ usually in a matter of milliseconds.
 
 Note that the device token is encrypted between apps and notification proxy
 but it is not signed. 
-The notification proxy thus never sees e-mail addresses, IP-addresses or
+The notification proxy thus never sees profile data, IP-addresses or
 any cryptographic identity information associated with a user's device (token). 
 
 Resulting from this overall privacy design, even the seizure of a chatmail server,
@@ -382,7 +369,7 @@ without asking questions up-front that are more suited to expert users or develo
 Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
 that achieves "instant delivery" of messages for all chatmail servers
 including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable and massive chatmail and e-mail system :)
+Welcome to the power of the interoperable chatmail relay network :)
 
 
 
@@ -475,46 +462,46 @@ This method is only recommended if "Add Second Device" as described above does n
 
 
 
-## Webxdc apps {#webxdc}
+## In-chat apps {#webxdc}
 
-In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger.
-
-
-### How private are webxdc apps?
-
-- webxdc apps can not send data to the Internet, or download anything.
-- A webxdc app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a webxdc app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open apps in chats with untrusted members.
-  Just like with e-mail attachments, video calls or plain links:
-  open them only from senders you trust, and not from spammers.
-  Spammers can get to know any data you send to them, as well as your IP address.
+You can send apps to a chat - games, editors, polls and other tools.
+This makes Delta Chat a truly extensible messenger.
 
 
-### Where can I get webxdc apps?
+### Where can I get in-chat apps?
 
 - In a chat, using **Attachment Button → Apps**
 
-- You can also create your own `.xdc` and attach it in a chat using **Attachment Button → File**
+- You can also [create your own app](#create-xdc) and attach it using **Attachment Button → File**
 
 
-### How can I create my own webxdc apps?
+### How private are in-chat apps?
 
-- Webxdc apps are just zip files containing html, css, and javascript code.
+- In-chat apps can not send data to the Internet, or download anything.
+
+- An in-chat app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+
+- The privacy an in-chat app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the in-chat app as well.
+
+- This also means: Just like for web links, do not open apps from untrusted contacts.
+
+
+### How can I create my own in-chat apps? {#create-xdc}
+
+- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
 
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
 
 - All else you need to know is written in the
-  [documentation](https://webxdc.org/docs).
+  [Webxdc documentation](https://webxdc.org/docs).
 
 - If you have question, you can ask others with experience
   in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+
 
 
 ## Advanced
@@ -531,7 +518,7 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Can I create a profile using a classic E-Mail Account?
+### Can I create a profile using a classic E-Mail Account? {#classic-email}
 
 In general, this is possible at **Create New Profile → Use Other Server**.
 Some classic e-mail providers have limitations,
@@ -593,7 +580,7 @@ there are no lock or similar markers on end-to-end encrypted messages, anymore.
 If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
 
-If you instead create a profile using a classic e-mail server,
+If you instead use a [classic e-mail server](#classic-email),
 you can send and receive messages with or without end-to-end encryption.
 Messages lacking end-to-end encryption are marked with an e-mail icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
@@ -685,9 +672,7 @@ which was thankfully adopted in summer 2023.
 ### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
 
 Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-or [Saltpack](https://saltpack.org/) 
-but adopting them would mean breaking end-to-end encryption interoperability 
-with all other e-mail apps that typically support OpenPGP encryption. 
+but adopting them would mean breaking end-to-end encryption interoperability.
 So it would not be a light decision to take 
 and there must be tangible improvements for users. 
 
@@ -752,10 +737,10 @@ All other message, contact and group metadata resides in the end-to-end encrypte
 
 ### How to protect metadata and contacts when a device is seized? {#device-seizure}
 
-Both for protecting against metadata-collecting e-mail servers 
+Both for protecting against metadata-collecting servers 
 as well as against the threat of device seizure
 we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create chat profiles using random e-mail addresses for transport. 
+to create chat profiles using random addresses for transport. 
 Note that Delta Chat apps on all platforms support multiple profiles
 so you can easily use situation-specific profiles next to your "main" profile
 with the knowledge that all their data, along with all metadata, will be deleted.
@@ -774,7 +759,7 @@ which is usually associated with a passport identity.
 Even if [chatmail relays](https://chatmail.at/relays) 
 do not ask for any private data (including no phone numbers), 
 it might still be worthwhile to protect relational metadata between addresses. 
-We don't foresee bigger problems in using random throw-away e-mail addresses for sealed sending
+We don't foresee bigger problems in using random throw-away addresses for sealed sending
 but an implementation has not been agreed as a priority yet. 
 
 ### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
