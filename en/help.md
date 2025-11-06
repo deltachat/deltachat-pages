@@ -545,7 +545,7 @@ Unlike most other messengers,
 Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
 Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
 
-E-mail Servers can therefore only see
+Servers can therefore only see:
 
 - the message date, 
 
@@ -790,7 +790,7 @@ and system specific settings as notification sounds.
   [get.delta.chat](https://get.delta.chat).
 
 
-## webxdc apps {#webxdc}
+## Webxdc apps {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly
@@ -813,25 +813,24 @@ extendable messenger.
 
 ### Where can I get webxdc apps?
 
-- In general, anyone can share webxdc apps with each
-  other without restrictions.
-- From [webxdc.org/apps](https://webxdc.org/apps/).
-- You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
-  to see an experimental webxdc appstore.
-  All of the apps are open source and for free.
-- Many people write their own webxdc apps and post them to [the Delta Chat
-  forum](https://support.delta.chat/c/webxdc/20).
+- In a chat, using **attachment button → Apps**
+
+- You can also create your own `.xdc` and attach it in a chat using **attachment button → File**
+
 
 
 ### How can I create my own webxdc apps?
 
-- webxdc apps are just zip files containing html, css, and javascript code.
+- Webxdc apps are just zip files containing html, css, and javascript code.
+
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
+
 - All else you need to know is written in the
-  [documentation](https://docs.webxdc.org/).
-- If you have question, you can ask others with experience in the [Delta Chat
-  Forum](https://support.delta.chat/c/webxdc/20).
+  [documentation](https://webxdc.org/docs).
+
+- If you have question, you can ask others with experience
+  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
 
 
 ## Advanced
