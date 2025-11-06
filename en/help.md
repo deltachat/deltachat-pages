@@ -16,7 +16,7 @@ available for mobile and desktop platforms.
 
 - Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms.
 
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+- Interactive [in-chat apps](#webxdc) for gaming and collaboration
 
 - [Audited end-to-end encryption](#security-audits)
   safe against network and server attacks.
@@ -464,46 +464,46 @@ This method is only recommended if "Add Second Device" as described above does n
 
 
 
-## Webxdc apps {#webxdc}
+## In-chat apps {#webxdc}
 
-In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger.
-
-
-### How private are webxdc apps?
-
-- webxdc apps can not send data to the Internet, or download anything.
-- A webxdc app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a webxdc app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open apps in chats with untrusted members.
-  Just like with e-mail attachments, video calls or plain links:
-  open them only from senders you trust, and not from spammers.
-  Spammers can get to know any data you send to them, as well as your IP address.
+You can send apps to a chat - games, editors, polls and other tools.
+This makes Delta Chat a truly extensible messenger.
 
 
-### Where can I get webxdc apps?
+### Where can I get in-chat apps?
 
 - In a chat, using **Attachment Button → Apps**
 
-- You can also create your own `.xdc` and attach it in a chat using **Attachment Button → File**
+- You can also [create your own app](#create-xdc) and attach it using **Attachment Button → File**
 
 
-### How can I create my own webxdc apps?
+### How private are in-chat apps?
 
-- Webxdc apps are just zip files containing html, css, and javascript code.
+- In-chat apps can not send data to the Internet, or download anything.
+
+- An in-chat app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+
+- The privacy an in-chat app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the in-chat app as well.
+
+- This also means: Just like for web links, do not open apps from untrusted contacts.
+
+
+### How can I create my own in-chat apps? {#create-xdc}
+
+- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
 
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
 
 - All else you need to know is written in the
-  [documentation](https://webxdc.org/docs).
+  [Webxdc documentation](https://webxdc.org/docs).
 
 - If you have question, you can ask others with experience
   in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+
 
 
 ## Advanced
