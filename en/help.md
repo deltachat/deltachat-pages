@@ -11,48 +11,32 @@ header: Frequently Asked Questions
 Delta Chat is a reliable, decentralized and secure messaging app, 
 available for mobile and desktop platforms.
 
-Delta Chat feels like Whatsapp or Telegram but you can also use and regard it as an e-mail app. 
-You can signup anonymously to a variety of [interoperable chatmail servers](https://delta.chat/chatmail)
-which are minimal e-mail servers optimized for fast and secure operations. 
-Or you may use classic e-mail servers and an existing e-mail account
-in which case Delta Chat acts as an e-mail app. 
+- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
+  which offer instant Push Notifications for iOS and Android devices.
 
-<img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
+- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms.
+
+- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
+
+- [Audited end-to-end encryption](#security-audits)
+  safe against network and server attacks.
+
+- Free and Open Source software, both app and server side,
+  built on [Internet Standards]({% include standards-url %}).
 
 
 ### How can I find people to chat with? 
 
 To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee). 
-This is required when using a (default) chatmail-based chat profile 
-because chatmail servers reject un-encrypted outgoing messages.
-
-If you create a chat profile with a classic e-mail address 
-you may manually create a contact if you know their e-mail address
-and then write a message to them 
-even if the recipient is not using Delta Chat.
+or share an invite link](#howtoe2ee).
 
 
-### What are the advantages of Delta Chat compared to other messengers?
+### Why is a chat marked as "Request"?
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices. 
+First, note that Delta Chat is a private messenger.
+Only friends and family you share your QR code or invite link with can write to you.
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms. 
-
-- Interactive [web apps in chats](https://webxdc.org/apps) for gaming and collaboration
-
-- [Audited end-to-end encryption](#security-audits) 
-  safe against network and server attacks. 
-
-- Free and Open Source software, both app and server side. 
-  Built on [E-mail and Web Internet Standards]({% include standards-url %}),
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/) 
-
-
-### What if I expect a message from someone I didn't write to in the past?
-
-If a message comes from an unknown contact, it appears as a **request**.
+Your friends may share your contact with other friends, this appears as a **request**.
 
 - You need to **accept** the request before you can reply.
 
@@ -93,24 +77,16 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 - You can add a profile picture in your settings. If you write to your contacts
   or add them via QR code, they automatically see it as your profile picture.
 
-- Contacts who don't use Delta Chat do not see the profile picture
-  (however, of course, they can install Delta Chat :)
-
 - For privacy reasons, no one sees your profile picture until you write a
   message to them.
 
-- Your profile picture isn't sent with every message, but regularly enough that
-  your contacts will re-receive your profile picture, even if they add a new
-  device.
 
-
-### Can I set a Bio/Signature/Status/Motto with Delta Chat? {#signature}
+### Can I set a Bio/Status with Delta Chat? {#signature}
 
 Yes,
 you can do so under **Settings → Profile → Bio**.
 Your contacts who use Delta Chat will see it
 when they view your contact details.
-Moreover, it will appear as a classic e-mail signature.
 
 
 ### What do Pinning, Muting and Archiving mean?
@@ -227,27 +203,20 @@ or otherwise save, copy or forward messages before deletion.
 
 Apart from that,
 if one chat partner uninstalls Delta Chat,
-the messages will not get deleted from their email account.
-They will most likely also not be decryptable anymore
-(as long as they were encrypted in the first place).
+the (anyway encrypted) messages may take longer to get deleted from their server.
 
 
-### What happens if I turn on "Delete old messages from server"?
+### How does "Delete messages from server" work?
 
-- By default, Delta Chat stores all messages locally on your device.
-  If you  e.g. want to save storage space at your mail provider,
-  you can configure  Delta Chat
-  to delete old already-received messages on the server automatically.
-  They still remain on your device until you delete them there, too.
+- If you are using only one device,
+  messages are deleted **At once** from the server.
 
-- To turn it on, go to **Delete Old Messages → Delete Messages from Server**
-  in the "Chats and Media" settings.
-  You can set a timeframe between "At once" and "After 1 year".
-  All e-mails received by Delta Chat will be deleted from the server after this timeframe.
+- If you are using Multiple devices,
+  this option is switched to **Automatic**,
+  meaning the server will keep the messages for a while so that all devices have a chance to receive them.
 
-- Note that if you use Delta Chat on more than one device,
-  you need to leave the message on the server with a sufficient timeframe
-  so that the other device(s) can download them, too.
+- If you are no longer using additional devices,
+  you can switch the option manually at **Delete Old Messages → Delete Messages from Server**.
 
 
 ### What happens if I turn on "Delete old messages from device"? {#delold}
@@ -306,9 +275,6 @@ Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers
 - Android devices, by integrating with the Google FCM Push service,
   including on devices that use [microG](https://microg.org)
   instead of proprietary Google code on the phone.
-
-As of May 2024, classic e-mail servers do not support Push Notifications
-for Delta Chat users.
 
 
 ### Are Push Notifications enabled on iOS devices? Is there an alternative?
@@ -427,7 +393,7 @@ All messages in Delta Chat are **end-to-end encrypted by default**.
 Since the Delta Chat Version 2 release series (July 2025) 
 there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-### Can i still receive or send mails without end-to-end encryption? 
+### Can i still receive or send messages without end-to-end encryption?
 
 If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
@@ -579,7 +545,7 @@ Unlike most other messengers,
 Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
 Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
 
-E-mail Servers can therefore only see
+Servers can therefore only see:
 
 - the message date, 
 
@@ -824,7 +790,7 @@ and system specific settings as notification sounds.
   [get.delta.chat](https://get.delta.chat).
 
 
-## webxdc apps {#webxdc}
+## Webxdc apps {#webxdc}
 
 In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
 extension. They can do very different things, and make Delta Chat a truly
@@ -847,51 +813,56 @@ extendable messenger.
 
 ### Where can I get webxdc apps?
 
-- In general, anyone can share webxdc apps with each
-  other without restrictions.
-- From [webxdc.org/apps](https://webxdc.org/apps/).
-- You can [send 'hi' to xstore@testrun.org](https://delta.chat/en/2023-08-11-xstore)
-  to see an experimental webxdc appstore.
-  All of the apps are open source and for free.
-- Many people write their own webxdc apps and post them to [the Delta Chat
-  forum](https://support.delta.chat/c/webxdc/20).
+- In a chat, using **Attachment Button → Apps**
+
+- You can also create your own `.xdc` and attach it in a chat using **Attachment Button → File**
+
 
 
 ### How can I create my own webxdc apps?
 
-- webxdc apps are just zip files containing html, css, and javascript code.
+- Webxdc apps are just zip files containing html, css, and javascript code.
+
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
+
 - All else you need to know is written in the
-  [documentation](https://docs.webxdc.org/).
-- If you have question, you can ask others with experience in the [Delta Chat
-  Forum](https://support.delta.chat/c/webxdc/20).
+  [documentation](https://webxdc.org/docs).
+
+- If you have question, you can ask others with experience
+  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
 
 
 ## Advanced
 
 
-### Does Delta Chat work with _my_ e-mail-provider?
+### Experimental Features
 
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly,
-  see [Provider Overview](https://providers.delta.chat)
+At **Settings → Advanced → Experimental Features**
+you can try out features we are working on.
+
+The features may be **unstable** and may be **changed or removed**.
+
+You can find more information
+and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Can I use Delta Chat in parallel with other E-Mail apps?
+### Can I create a profile using a classic E-Mail Account?
 
-Yes, but it is not recommended.
+In general, this is possible at **Create New Profile → Use Other Server**.
+Some classic e-mail providers have limitations,
+see [Provider Overview](https://providers.delta.chat).
 
-Parallel usage with the same E-Mail address might lead to the following inconveniences:
+In addition to encrypted messages, 
+you will then be able to send and receive unencrypted messages.
 
-- Next to your Delta Chat notifications,
-  you might also get notifications for (encrypted, so unreadable) chat mail messages
-  in your other email app
-- If Delta Chat is not running
-  or "Advanced > Move automatically to the DeltaChat Folder" is disabled,
-  encrypted Delta Chat messages might clutter the Inbox in your other E-Mail apps.
+However, **do not use the same account in other e-mail apps**.
+If you ignore that advice, you need to deal with
+lots of chat messages in the inbox,
+double notifications,
+accidentally deleted emails.
 
-[Sieve rules](https://support.delta.chat/t/sieve-rule-to-move-deltachat-mails-to-deltachat-folder/288/10) can solve these problems.
+Note, that [Push notifications](#instant-delivery) are not supported by classic e-mail servers.
 
 
 ### I want to manage my own server for Delta Chat. What do you recommend?
@@ -902,197 +873,9 @@ Parallel usage with the same E-Mail address might lead to the following inconven
 - You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
 
-### Why do I have to enter my E-Mail password into Delta Chat? Is this secure?
-
-As with other E-Mail programs like Thunderbird, K9-Mail, or Outlook, the
-program needs the password so you can use it to send and receive mails. Of course, the
-password is stored only on your device. The password is only transmitted to
-your E-Mail provider (when you login), which has access to your mails anyway.
-
-As Delta Chat is Open Source, you can check the [Source
-Code](https://github.com/chatmail/core/blob/main/src/login_param.rs)
-if you want to verify that your credentials are handled securely. We are happy
-about feedback which makes the app more secure for all of our users.
-
-
-### Which messages do appear in Delta Chat?
-
-By default, Delta Chat shows all e-mails.
-
-At "Settings → Advanced → Show Classic E-Mails",
-you can change this. You have these options:
-
-- "No, chats only": Only messages sent by other Delta Chat users and replies to
-  your Delta Chat messages are shown. This makes most sense if you use the same
-  e-mail account for normal e-mails as well.
-- "All": Delta Chat shows all e-mails that are sent to your email address. This
-  makes sense if you want to use Delta Chat for all your e-mails, so no message
-  gets lost. This is the default setting.
-- "For accepted contacts": Delta Chat shows all e-mails from contacts with whom
-  you already have a chat, but new chats only pop up for Delta Chat messages.
-  This helps to decide on a case-by-case basis whether you want to have a
-  conversation in Delta Chat or in a "normal" e-mail app.
-
-
-### Does Delta Chat support HTML e-mails?
-
-Yes, incoming HTML messages come with a "Show full message" button.
-Outgoing messages always use plain text.
-
-
-### Can I set the E-Mail Subject with Delta Chat?
-
-Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
-automatically to  the group name or to the sender name.
-
-So if you want to set the subject yourself,
-for example for a formal e-mail to a business contact,
-you can create a group
-with only yourself and the recipient(s).
-Set the Chat Title to the Subject you want,
-and then send your e-mail as the first message.
-If the recipients don't use Delta Chat,
-it will look like a normal,
-formal e-mail to them.
-You will get bonus professionalism points
-if you set a [signature text](#signature).
-
-
-### What is the "Send Copy to Self" setting good for?
-
-Sending a copy of your messages to yourself ensures that you receive your own
-messages on all devices. If you have multiple devices and don't turn it on, you
-see only the messages from other people, and the messages you send from the
-current device.
-
-The copy is sent to the Inbox, and then moved to the DeltaChat folder; it's not
-put into the "Sent" folder. Delta Chat *never* uploads anything to the Sent
-folder because this would mean uploading a message twice (once through SMTP,
-and once through IMAP to Sent folder).
-
-The default setting for "Send Copy to Self" is "on".
-
-
-### Why can I choose to watch the "Sent" folder?
-
-The only reason one wants to watch the Sent folder is if you are using another
-mail program (like Thunderbird) next to your Delta Chat app, and want your MUA
-to participate in chat conversations.
-
-However, we recommend using the Delta Chat Desktop Client; you can download it
-on [get.delta.chat](https://get.delta.chat). The option to watch the "Sent"
-folder might go away in the future. It was introduced at a time where there was
-no Delta Chat Desktop client available on all platforms.
-
-
-### Why can I choose to only watch the DeltaChat folder?
-
-This is an experimental setting for some people who are experimenting with
-server-side rules. Not all providers support this, but with some you can move
-all mails with a "Chat-Version" header to the DeltaChat folder. Normally, this
-would be done by the Delta Chat app.
-
-Enabling "Only Fetch from DeltaChat folder" makes sense if you have **both**:
-
-- enabled a server-side rule to move all messages with Chat-Version header to the DeltaChat folder, and
-- have set the "Show classic emails" setting to "no, chats only".
-
-In this case, Delta Chat doesn't need to watch the Inbox, and it's enough to only watch the DeltaChat folder.
-
-
-### Is Delta Chat compatible with Proton Mail / Tutanota / Criptext?
-
-- Yes and No.
-- No, you can not use your Proton Mail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be end-to-end
-  encrypted, though. The end-to-end encryption those providers offer is not
-  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
-  uses.
-- Delta Chat can end-to-end-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
-
 ### I'm interested in the technical details. Can you tell me more?
 
 - See [Standards used in Delta Chat]({% include standards-url %}).
-
-
-## Experimental Features
-
-We are very grateful for feedback on these features - do you want to share
-your ideas? Join the [Forum](https://support.delta.chat) to contribute.
-You may conveniently login via Delta Chat and a QR code scan,
-another rather stable experiment we run on the side (sic!).
-
-### How can I use audio/video calls with Delta Chat?
-
-- To turn on audio/video calls, go to the "experimental features" section in
-  the advanced settings and choose a "Video Chat Instance".
-- When you invite others to a video chat, it is opened in your browser/app at
-  once. The others receive an e-mail with a link to the video chat.
-  This way, it is also compatible if your chat partners don't use Delta Chat.
-- Note that there is no ring tone on the other side, and your chat partners
-  will not get interrupted by a video chat invite.
-- You can use any video chat service which allows joining by link. Just add the
-  link in the settings.
-- For example, to use the flagship Jitsi Meet instance, you could enter
-  `https://meet.jit.si/$ROOM`. The `$ROOM` variable will be a random value;
-  this way, you will have a new random Jitsi room every time you call someone.
-
-
-### What are Broadcast Lists and how can I use them?
-
-With a Broadcast List you can send a message to many recipients at once;
-the recipients cannot reply in that list.
-Broadcast lists are still highly experimental
-and will very probably be replaced by something else, stay tuned :)
-
-
-### How can I share my location with my chat partners?
-
-- You can turn on location streaming in the "experimental features" section of
-  the advanced settings.
-- Now, if you want to share your location in a chat, go to "attach" and select
-  "location". You can now set a time frame in which your location will be
-  streamed to your chat partners, between 5 minutes and 6 hours.
-- When your location changes, the others in the chat can view it on a map in
-  the chat.
-- To see the map and view locations of others, you need to turn on the feature
-  in the advanced settings.
-- This feature will not share your location with anyone except your chat partners.
-  Map tiles are downloaded from [OpenStreetMap](https://openstreetmap.org).
-- On desktop, the OS typically can't determine your location. Instead you can
-  right click on the map and describe a location, which is sent to the chat as
-  a message, but also appears on the map.
-
-
-### How can I use a different e-mail address with my profile?
-
-Note:
-Changing email addresses is temporarily disabled
-because of ongoing changes to the DeltaChat core.
-It should be available again in a few months.
-
-1. Change your address in “Settings → Advanced → Password and Account” and
-   enter the password of your new e-mail account (and if necessary, server settings).
-   You will get an information notice about the fact that you are moving to a new address.
-   An additional notice will also show up in your "Device messages" chat.
-
-2. If possible, let your old e-mail provider forward all messages to your new address.
-
-3. Tell your contacts that you changed your address.
-   Writing to guaranteed end-to-end encrypted chats and groups,
-   will make them notice your move automatically
-   and they will continue chatting with you using your new address.
-
-Note that Delta Chat will not retrieve messages anymore from your old e-mail provider.
-If you didn't configure your e-mail provider to forward messages (step 2.)
-only those contacts to whom you sent a message in a guaranteed end-to-end encrypted chat
-will send messages to your new address.
-
-To learn more about this the details behind this, [read our blogpost on
-it](https://delta.chat/en/2022-09-14-aeap).
 
 
 ## Miscellaneous
@@ -1141,17 +924,6 @@ If you are using more than one account,
 but don't want to get rid of all of them,
 you can remove it in the account switcher menu (on android and iOS),
 or in the sidebar with a right click (in the desktop client).
-
-Accounts on [classic e-mail providers](https://providers.delta.chat)
-will not be deleted automatically;
-how you can delete your account depends on your e-mail provider.
-We don't have any control over e-mail accounts at those providers,
-so unfortunately we can't help you with that.
-
-If you want to continue using a classic e-mail account with other apps,
-but uninstall Delta Chat,
-it is recommended to leave any group chat before uninstalling Delta Chat.
-Otherwise you might receive undecryptable messages from those group chats.
 
 
 ### Where can my friends find Delta Chat?
