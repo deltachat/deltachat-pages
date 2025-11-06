@@ -132,22 +132,11 @@ may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing m
 
 You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
 next to the avatar of a contact.
-It means they were **recently seen** in the last 10 minutes:
+It means they were **recently seen by you** in the last 10 minutes,
+e.g. because they messaged you or sent a read receipt.
 
-- either because they messaged you directly,
-- because they wrote something to a group you are both a member of,
-- because they sent you a read receipt for a message you wrote,
-- because they edit or delete a message in a chat shared with you,
-- or because they use an [app](#webxdc) in a chat shared with you.
-
-So this is not a real time online status -
-and if someone doesn't answer right away even though they seem to be online,
-don't worry and give them some space :)
-
-On the other hand, others will not always "see that you are online".
-If you have turned off read receipts,
-they will not see the green dot
-until one of the above conditions are met.
+So this is not a real time online status
+and others will as well not always see that you are "online".
 
 
 ### What do the ticks shown beside outgoing messages mean?
