@@ -228,6 +228,23 @@ the (anyway encrypted) messages may take longer to get deleted from their server
   this way, *all* messages will be deleted from your device as soon as they are
   older than that.
 
+### How can I delete my account? {#remove-account}
+
+If you use a default chat profile
+you can simply uninstall the app.
+This will automatically trigger deletion of all associated account data on the chatmail server.
+For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
+or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
+
+If you have set up your chat profile on multiple devices
+you need to remove it from all devices.
+
+If you are using more than one account,
+but don't want to get rid of all of them,
+you can remove it in the account switcher menu (on android and iOS),
+or in the sidebar with a right click (in the desktop client).
+
+
 
 ## Groups
 
@@ -366,6 +383,184 @@ Note that Delta Chat has a [small and privacy-preserving Push Notification syste
 that achieves "instant delivery" of messages for all chatmail servers
 including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
 Welcome to the power of the interoperable and massive chatmail and e-mail system :)
+
+
+
+## Multi-client {#multiclient}
+
+### Can I use Delta Chat on multiple devices at the same time?
+
+Yes. You can use the same profile on different devices:
+
+- Make sure both devices are on the same Wi-Fi or network
+
+- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
+  and wait a moment until a QR code is shown
+
+- On the second device, [install Delta Chat](https://get.delta.chat)
+
+- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+
+- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
+  Wait until it is finished on both devices.
+
+In contrast to many other messengers, after successful transfer,
+both **devices are completely independent.**
+One device is not needed for the other to work.
+
+
+### Troubleshooting
+
+- Double-check both devices are in the **same Wi-Fi or network**
+
+- On **Windows**, go to **Control Panel / Network and Internet**
+  and make sure, **Private Network** is selected as "Network profile type"
+  (after transfer, you can change back to the original value)
+
+- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+
+- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+
+- Your system might have a "personal firewall",
+  which is known to cause problems (especially on Windows).
+  **Disable the personal firewall** for Delta Chat on both ends and try again
+
+- **Guest Networks** may not allow devices to communicate with each other.
+  If possible, use a non-guest network.
+
+- If you still have troubles using the same network,
+  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+
+- Ensure there is **enough storage** on the destination device
+
+- If transfer started, make sure, the devices **stay active** and do not fall asleep.
+  Do not exit Delta Chat.
+  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+
+- Delta Chat is **already logged in** on the destination device?
+  You can use multiple profiles per device, just [add another profile](#multiple-accounts)
+
+- If you still have problems or if you **cannot scan a QR code**
+  try the **manual transfer** described below
+
+
+### Manual Transfer {#backup}
+
+This method is only recommended if "Add Second Device" as described above does not work.
+
+- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
+  screen unlock PIN, pattern, or password. Then you can click on "Start
+  Backup". This saves the backup file to your device. Now you have to transfer
+  it to the other device somehow.
+- On the new device, in the "I already have a profile" menu,
+  choose "restore from backup". After import, your conversations, encryption
+  keys, and media should be copied to the new device.
+  - **If you use iOS:** and you encounter difficulties, maybe
+    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
+    help you.
+- You are now synchronized, and can use both devices for sending and receiving
+  end-to-end encrypted messages with your communication partners.
+
+
+### Are there any plans for introducing a Delta Chat Web Client?
+
+- There are no immediate plans but some preliminary thoughts.
+- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
+  significant work. For now, we focus on getting stable releases into all
+  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
+- If you need a Web Client, because you are not allowed to install software on
+  the computer you work with, you can use the portable Windows Desktop Client,
+  or the AppImage for Linux. You can find them on
+  [get.delta.chat](https://get.delta.chat).
+
+
+
+## Webxdc apps {#webxdc}
+
+In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
+extension. They can do very different things, and make Delta Chat a truly
+extendable messenger.
+
+
+### How private are webxdc apps?
+
+- webxdc apps can not send data to the Internet, or download anything.
+- A webxdc app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+- The privacy a webxdc app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the webxdc app as well.
+- This also means: it can be a privacy risk to open apps in chats with untrusted members.
+  Just like with e-mail attachments, video calls or plain links:
+  open them only from senders you trust, and not from spammers.
+  Spammers can get to know any data you send to them, as well as your IP address.
+
+
+### Where can I get webxdc apps?
+
+- In a chat, using **Attachment Button → Apps**
+
+- You can also create your own `.xdc` and attach it in a chat using **Attachment Button → File**
+
+
+### How can I create my own webxdc apps?
+
+- Webxdc apps are just zip files containing html, css, and javascript code.
+
+- You can extend the [Hello World example app](https://github.com/webxdc/hello)
+  to get started.
+
+- All else you need to know is written in the
+  [documentation](https://webxdc.org/docs).
+
+- If you have question, you can ask others with experience
+  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+
+
+## Advanced
+
+
+### Experimental Features
+
+At **Settings → Advanced → Experimental Features**
+you can try out features we are working on.
+
+The features may be **unstable** and may be **changed or removed**.
+
+You can find more information
+and give feedback in the [Forum](https://support.delta.chat).
+
+
+### Can I create a profile using a classic E-Mail Account?
+
+In general, this is possible at **Create New Profile → Use Other Server**.
+Some classic e-mail providers have limitations,
+see [Provider Overview](https://providers.delta.chat).
+
+In addition to encrypted messages,
+you will then be able to send and receive unencrypted messages.
+
+However, **do not use the same account in other e-mail apps**.
+If you ignore that advice, you need to deal with
+lots of chat messages in the inbox,
+double notifications,
+accidentally deleted emails.
+
+Note, that [Push notifications](#instant-delivery) are not supported by classic e-mail servers.
+
+
+### I want to manage my own server for Delta Chat. What do you recommend?
+
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
+
+
+### I'm interested in the technical details. Can you tell me more?
+
+- See [Standards used in Delta Chat]({% include standards-url %}).
+
 
 
 ## Encryption and Security {#e2ee}
@@ -690,240 +885,14 @@ from most recent to older:
   You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
 
 
-
-## Multi-client {#multiclient}
-
-### Can I use Delta Chat on multiple devices at the same time?
-
-Yes. You can use the same profile on different devices:
-
-- Make sure both devices are on the same Wi-Fi or network
-
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
-
-- On the second device, [install Delta Chat](https://get.delta.chat)
-
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
-
-- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
-  Wait until it is finished on both devices.
-
-In contrast to many other messengers, after successful transfer,
-both **devices are completely independent.**
-One device is not needed for the other to work.
-
-
-### Troubleshooting
-
-- Double-check both devices are in the **same Wi-Fi or network**
-
-- On **Windows**, go to **Control Panel / Network and Internet**
-  and make sure, **Private Network** is selected as "Network profile type"
-  (after transfer, you can change back to the original value)
-
-- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
-
-- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
-
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
-
-- **Guest Networks** may not allow devices to communicate with each other.
-  If possible, use a non-guest network.
-
-- If you still have troubles using the same network,
-  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
-
-- Ensure there is **enough storage** on the destination device
-
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
-
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple profiles per device, just [add another profile](#multiple-accounts)
-
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
-
-
-### Manual Transfer {#backup}
-
-This method is only recommended if "Add Second Device" as described above does not work.
-
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
-- On the new device, in the "I already have a profile" menu,
-  choose "restore from backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-  - **If you use iOS:** and you encounter difficulties, maybe
-    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
-    help you.
-- You are now synchronized, and can use both devices for sending and receiving
-  end-to-end encrypted messages with your communication partners.
-
-### Is Deletion, Pinning, Archiving, Saving, Muting etc. synced to all devices?
-
-Yes.
-
-If you e.g. delete a chat or a message from your phone,
-it will be deleted on your desktop as soon as it comes online again.
-
-Notable exceptions are [Delete old messages from Device](#delold),
-as different devices may have different storage capacities,
-and system specific settings as notification sounds.
-
-
-### Are there any plans for introducing a Delta Chat Web Client?
-
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
-  [get.delta.chat](https://get.delta.chat).
-
-
-## Webxdc apps {#webxdc}
-
-In Delta Chat, you can share [webxdc apps](https://webxdc.org), attachments with an `.xdc` file
-extension. They can do very different things, and make Delta Chat a truly
-extendable messenger.
-
-
-### How private are webxdc apps?
-
-- webxdc apps can not send data to the Internet, or download anything.
-- A webxdc app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-- The privacy a webxdc app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the webxdc app as well.
-- This also means: it can be a privacy risk to open apps in chats with untrusted members.
-  Just like with e-mail attachments, video calls or plain links:
-  open them only from senders you trust, and not from spammers.
-  Spammers can get to know any data you send to them, as well as your IP address.
-
-
-### Where can I get webxdc apps?
-
-- In a chat, using **Attachment Button → Apps**
-
-- You can also create your own `.xdc` and attach it in a chat using **Attachment Button → File**
-
-
-
-### How can I create my own webxdc apps?
-
-- Webxdc apps are just zip files containing html, css, and javascript code.
-
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
-
-- All else you need to know is written in the
-  [documentation](https://webxdc.org/docs).
-
-- If you have question, you can ask others with experience
-  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
-
-
-## Advanced
-
-
-### Experimental Features
-
-At **Settings → Advanced → Experimental Features**
-you can try out features we are working on.
-
-The features may be **unstable** and may be **changed or removed**.
-
-You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
-
-
-### Can I create a profile using a classic E-Mail Account?
-
-In general, this is possible at **Create New Profile → Use Other Server**.
-Some classic e-mail providers have limitations,
-see [Provider Overview](https://providers.delta.chat).
-
-In addition to encrypted messages, 
-you will then be able to send and receive unencrypted messages.
-
-However, **do not use the same account in other e-mail apps**.
-If you ignore that advice, you need to deal with
-lots of chat messages in the inbox,
-double notifications,
-accidentally deleted emails.
-
-Note, that [Push notifications](#instant-delivery) are not supported by classic e-mail servers.
-
-
-### I want to manage my own server for Delta Chat. What do you recommend?
-
-- Most mail servers will work well. But what we personally recommend is a
-  chatmail relay server, as described [in this
-  blogpost](https://delta.chat/en/2023-12-13-chatmail).
-- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
-
-
-### I'm interested in the technical details. Can you tell me more?
-
-- See [Standards used in Delta Chat]({% include standards-url %}).
-
-
 ## Miscellaneous
 
 ### Which permissions does Delta Chat need?
 
-Depending on the operating system in use,
-you may be asked to grant permissions to the app.
-This is what Delta Chat does with these permissions:
+Some features require certain permissions,
+e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
 
-- Camera *(can be disallowed)*
-  - take pictures and videos: for sending Photos
-- Contacts *(can be disallowed)*
-  - read your contacts: to discover contacts to chat with
-- Location *(can be disallowed)*
-  - access approximate location (network location sources): for the location streaming feature
-  - access precise location (GPS and network location sources): for the location streaming feature
-- Microphone *(can be disallowed)*
-  - record audio: for audio messages
-- Storage *(can be disallowed)*
-  - modify or delete the contents of your SD card: to download message attachments
-  - read the contents of your SD card: to share files with your contacts
-- Other app capabilities
-  - change your audio settings: so you can choose ring tones and volume for notifications and audio messages
-  - run at startup: so you don't have to start Delta Chat manually
-  - control vibration: for notifications
-  - view network connections: to connect to your E-Mail provider
-  - prevent phone from sleeping: so you can easier copy the security code during the Autocrypt Setup Message
-  - have full network access: to connect to your E-Mail provider
-  - view Wi-Fi connections: to connect to your E-Mail provider
-  - ask to ignore battery optimisations: for achieving "instant message delivery"
-
-
-### How can I delete my account? {#remove-account}
-
-If you use a default chat profile
-you can simply uninstall the app.
-This will automatically trigger deletion of all associated account data on the chatmail server.
-For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
-or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
-
-If you have set up your chat profile on multiple devices
-you need to remove it from all devices.
-
-If you are using more than one account,
-but don't want to get rid of all of them,
-you can remove it in the account switcher menu (on android and iOS),
-or in the sidebar with a right click (in the desktop client).
+See [Privacy Policy](https://delta.chat/en/gdpr#24-app-permissions) for a detailed overview.
 
 
 ### Where can my friends find Delta Chat?
@@ -935,7 +904,7 @@ Delta Chat is available for all major and some minor platforms:
 - If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
 
 - Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, Amazon App Store, iOS and macOS App Store, Microsoft Store
+  Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
 
 - Check the **package manager** of your Linux distributions
 
