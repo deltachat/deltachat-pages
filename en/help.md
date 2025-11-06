@@ -813,9 +813,9 @@ extendable messenger.
 
 ### Where can I get webxdc apps?
 
-- In a chat, using **attachment button → Apps**
+- In a chat, using **Attachment Button → Apps**
 
-- You can also create your own `.xdc` and attach it in a chat using **attachment button → File**
+- You can also create your own `.xdc` and attach it in a chat using **Attachment Button → File**
 
 
 
@@ -838,7 +838,7 @@ extendable messenger.
 
 ### Experimental Features
 
-At **Settings -> Advanced -> Experimental Features**
+At **Settings → Advanced → Experimental Features**
 you can try out features we are working on.
 
 The features may be **unstable** and may be **changed or removed**.
