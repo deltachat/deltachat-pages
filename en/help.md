@@ -228,6 +228,23 @@ the (anyway encrypted) messages may take longer to get deleted from their server
   this way, *all* messages will be deleted from your device as soon as they are
   older than that.
 
+### How can I delete my account? {#remove-account}
+
+If you use a default chat profile
+you can simply uninstall the app.
+This will automatically trigger deletion of all associated account data on the chatmail server.
+For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
+or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
+
+If you have set up your chat profile on multiple devices
+you need to remove it from all devices.
+
+If you are using more than one account,
+but don't want to get rid of all of them,
+you can remove it in the account switcher menu (on android and iOS),
+or in the sidebar with a right click (in the desktop client).
+
+
 
 ## Groups
 
@@ -498,6 +515,51 @@ extendable messenger.
 
 - If you have question, you can ask others with experience
   in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+
+
+## Advanced
+
+
+### Experimental Features
+
+At **Settings → Advanced → Experimental Features**
+you can try out features we are working on.
+
+The features may be **unstable** and may be **changed or removed**.
+
+You can find more information
+and give feedback in the [Forum](https://support.delta.chat).
+
+
+### Can I create a profile using a classic E-Mail Account?
+
+In general, this is possible at **Create New Profile → Use Other Server**.
+Some classic e-mail providers have limitations,
+see [Provider Overview](https://providers.delta.chat).
+
+In addition to encrypted messages,
+you will then be able to send and receive unencrypted messages.
+
+However, **do not use the same account in other e-mail apps**.
+If you ignore that advice, you need to deal with
+lots of chat messages in the inbox,
+double notifications,
+accidentally deleted emails.
+
+Note, that [Push notifications](#instant-delivery) are not supported by classic e-mail servers.
+
+
+### I want to manage my own server for Delta Chat. What do you recommend?
+
+- Most mail servers will work well. But what we personally recommend is a
+  chatmail relay server, as described [in this
+  blogpost](https://delta.chat/en/2023-12-13-chatmail).
+- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
+
+
+### I'm interested in the technical details. Can you tell me more?
+
+- See [Standards used in Delta Chat]({% include standards-url %}).
 
 
 
@@ -823,51 +885,6 @@ from most recent to older:
   You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
 
 
-## Advanced
-
-
-### Experimental Features
-
-At **Settings → Advanced → Experimental Features**
-you can try out features we are working on.
-
-The features may be **unstable** and may be **changed or removed**.
-
-You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
-
-
-### Can I create a profile using a classic E-Mail Account?
-
-In general, this is possible at **Create New Profile → Use Other Server**.
-Some classic e-mail providers have limitations,
-see [Provider Overview](https://providers.delta.chat).
-
-In addition to encrypted messages, 
-you will then be able to send and receive unencrypted messages.
-
-However, **do not use the same account in other e-mail apps**.
-If you ignore that advice, you need to deal with
-lots of chat messages in the inbox,
-double notifications,
-accidentally deleted emails.
-
-Note, that [Push notifications](#instant-delivery) are not supported by classic e-mail servers.
-
-
-### I want to manage my own server for Delta Chat. What do you recommend?
-
-- Most mail servers will work well. But what we personally recommend is a
-  chatmail relay server, as described [in this
-  blogpost](https://delta.chat/en/2023-12-13-chatmail).
-- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
-
-
-### I'm interested in the technical details. Can you tell me more?
-
-- See [Standards used in Delta Chat]({% include standards-url %}).
-
-
 ## Miscellaneous
 
 ### Which permissions does Delta Chat need?
@@ -898,22 +915,6 @@ This is what Delta Chat does with these permissions:
   - view Wi-Fi connections: to connect to your E-Mail provider
   - ask to ignore battery optimisations: for achieving "instant message delivery"
 
-
-### How can I delete my account? {#remove-account}
-
-If you use a default chat profile
-you can simply uninstall the app.
-This will automatically trigger deletion of all associated account data on the chatmail server.
-For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
-or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
-
-If you have set up your chat profile on multiple devices
-you need to remove it from all devices.
-
-If you are using more than one account,
-but don't want to get rid of all of them,
-you can remove it in the account switcher menu (on android and iOS),
-or in the sidebar with a right click (in the desktop client).
 
 
 ### Where can my friends find Delta Chat?
