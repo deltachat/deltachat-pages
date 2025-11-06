@@ -39,8 +39,7 @@ linked_files = [
     "assets/help/green-dot.png",
     "assets/help/lock-icon.png",
     "assets/help/qr-icon.png",
-    "assets/help/saved-icon.png",
-    "assets/home/delta-what-optim.png"
+    "assets/help/saved-icon.png"
 ]
 
 # list all anchors (fragments) that are used from outside to access the help

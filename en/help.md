@@ -21,11 +21,8 @@ available for mobile and desktop platforms.
 - [Audited end-to-end encryption](#security-audits)
   safe against network and server attacks.
 
-- Free and Open Source software, both app and server side.
-  Built on [Internet Standards]({% include standards-url %}),
-  [to avoid "yet another standard syndrome (xkcd 927)"](https://xkcd.com/927/)
-
-<img style="float:right; width:50%; max-width:360%; margin:1em;" src="../assets/home/delta-what-optim.png" />
+- Free and Open Source software, both app and server side,
+  built on [Internet Standards]({% include standards-url %}).
 
 
 ### How can I find people to chat with? 
