@@ -31,7 +31,7 @@ To securely setup contact with others [scan an invite QR code
 or share an invite link](#howtoe2ee).
 
 
-### What if I expect a message from someone I didn't write to in the past?
+### What if I receive a message from someone I didn't write to in the past?
 
 If a message comes from an unknown contact, it appears as a **request**.
 
