@@ -838,10 +838,12 @@ extendable messenger.
 
 ### Can I create a profile using a classic E-Mail Account?
 
-Yes, this is possible at **Create New Profile / Use Other Server**.
+In general, this is possible at **Create New Profile → Use Other Server**.
+Some classic e-mail providers have limitations,
+see [Provider Overview](https://providers.delta.chat).
 
 In addition to encrypted messages, 
-you will then be able to send and receive **unencrypted messages.**
+you will then be able to send and receive unencrypted messages.
 
 However, **do not use the same account in other e-mail apps**.
 If you ignore that advice, you need to deal with
@@ -852,29 +854,6 @@ accidentally deleted emails.
 Note, that [Push notifications](#instant-delivery) are not supported by classic e-mail servers.
 
 
-### Does Delta Chat work with _my_ e-mail-provider?
-
-- With a rather good chance: Yes :)  
-  However, some providers need special options to work properly,
-  see [Provider Overview](https://providers.delta.chat)
-
-
-### Can I use Delta Chat in parallel with other E-Mail apps?
-
-Yes, but it is not recommended.
-
-Parallel usage with the same E-Mail address might lead to the following inconveniences:
-
-- Next to your Delta Chat notifications,
-  you might also get notifications for (encrypted, so unreadable) chat mail messages
-  in your other email app
-- If Delta Chat is not running
-  or "Advanced > Move automatically to the DeltaChat Folder" is disabled,
-  encrypted Delta Chat messages might clutter the Inbox in your other E-Mail apps.
-
-[Sieve rules](https://support.delta.chat/t/sieve-rule-to-move-deltachat-mails-to-deltachat-folder/288/10) can solve these problems.
-
-
 ### I want to manage my own server for Delta Chat. What do you recommend?
 
 - Most mail servers will work well. But what we personally recommend is a
@@ -882,37 +861,6 @@ Parallel usage with the same E-Mail address might lead to the following inconven
   blogpost](https://delta.chat/en/2023-12-13-chatmail).
 - You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
 
-
-### Can I set the E-Mail Subject with Delta Chat?
-
-Delta Chat sets (and [encrypts](#message-metadata)!) the classic e-mail subject
-automatically to  the group name or to the sender name.
-
-So if you want to set the subject yourself,
-for example for a formal e-mail to a business contact,
-you can create a group
-with only yourself and the recipient(s).
-Set the Chat Title to the Subject you want,
-and then send your e-mail as the first message.
-If the recipients don't use Delta Chat,
-it will look like a normal,
-formal e-mail to them.
-You will get bonus professionalism points
-if you set a [signature text](#signature).
-
-
-### Is Delta Chat compatible with Proton Mail / Tutanota / Criptext?
-
-- Yes and No.
-- No, you can not use your Proton Mail, Tutanota, or Criptext account with Delta
-  Chat; they do not offer receiving mails via IMAP.
-- In any case you can use Delta Chat to send Messages to people who use
-  Protonmail, Tutanota, or Criptext. Those messages will not be end-to-end
-  encrypted, though. The end-to-end encryption those providers offer is not
-  compatible with [Autocrypt](https://autocrypt.org/), the standard Delta Chat
-  uses.
-- Delta Chat can end-to-end-encrypt through any e-mail provider with any
-  [Autocrypt-enabled e-mail app](https://autocrypt.org/dev-status.html).
 
 ### I'm interested in the technical details. Can you tell me more?
 
