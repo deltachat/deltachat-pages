@@ -31,9 +31,12 @@ To securely setup contact with others [scan an invite QR code
 or share an invite link](#howtoe2ee).
 
 
-### What if I receive a message from someone I didn't write to in the past?
+### Why is a chat marked as "Request"?
 
-If a message comes from an unknown contact, it appears as a **request**.
+First, note that Delta Chat is a private messenger.
+Only friends and family you share your QR code or invite link with can write to you.
+
+Your friends may share your contact with other friends, this appears as a **request**.
 
 - You need to **accept** the request before you can reply.
 
