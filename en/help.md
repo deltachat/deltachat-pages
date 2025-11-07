@@ -518,22 +518,22 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Can I create a profile using a classic E-Mail Account? {#classic-email}
+### Can I create a profile using a classic email account? {#classic-email}
 
 In general, this is possible at **Create New Profile → Use Other Server**.
-Some classic e-mail providers have limitations,
+Some classic email providers have limitations,
 see [Provider Overview](https://providers.delta.chat).
 
 In addition to encrypted messages,
 you will then be able to send and receive unencrypted messages.
 
-However, **do not use the same account in other e-mail apps**.
+However, **do not use the same account in other email apps**.
 If you ignore that advice, you need to deal with
 lots of chat messages in the inbox,
 double notifications,
 accidentally deleted emails.
 
-Note, that [Push notifications](#instant-delivery) are not supported by classic e-mail servers.
+Note, that [Push notifications](#instant-delivery) are not supported by classic email servers.
 
 
 ### I want to manage my own server for Delta Chat. What do you recommend?
@@ -580,9 +580,9 @@ there are no lock or similar markers on end-to-end encrypted messages, anymore.
 If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
 
-If you instead use a [classic e-mail server](#classic-email),
+If you instead use a [classic email server](#classic-email),
 you can send and receive messages with or without end-to-end encryption.
-Messages lacking end-to-end encryption are marked with an e-mail icon
+Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 ### How can I establish a chat with a new contact? {#howtoe2ee}
@@ -702,19 +702,19 @@ as defined by the Autocrypt Level 1 specification.
 
 ### Are messages marked with the mail icon exposed on the Internet? {#tls}
 
-If you are sending or receiving e-mail messages without end-to-end encryption (using a classic e-mail server),
-they are still protected from cell or cable companies who can not read or modify your e-mail messages. 
-But both your and your recipient's e-mail providers 
+If you are sending or receiving email messages without end-to-end encryption (using a classic email server),
+they are still protected from cell or cable companies who can not read or modify your email messages.
+But both your and your recipient's email providers
 may read, analyze or modify your messages, including any attachments. 
 
 Delta Chat by default uses strict 
 [TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your e-mail provider. 
+which secures connections between your device and your email provider.
 All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's e-mail provider
+Moreover, the connection between your and the recipient's email provider
 will typically be transport-encrypted as well.
-If the involved e-mail servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between e-mail providers 
+If the involved email servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
+then transport encryption will be enforced between email providers
 in which case Delta Chat communications will never be exposed in cleartext to the Internet
 even if the message was not end-to-end encrypted.
 
@@ -926,12 +926,12 @@ ordered chronologically:
   completing Rust/Python bindings and instigating a Chat-bot eco-system. 
 
 - In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
+  proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
 
 - From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
   U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
   This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of e-mail servers world-wide, and more resilient and secure
+  and compatible with a wide range of email servers world-wide, and more resilient and secure
   in places often affected by internet censorship and shutdowns.
 
 - 2023-2024 we successfully completed the OTF-funded 
