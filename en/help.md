@@ -728,9 +728,7 @@ Instead, all group metadata is end-to-end encrypted and stored on end-user devic
 
 Servers can therefore only see:
 
-- the message date, 
-
-- sender and receiver addresses 
+- random sender and receiver addresses, by default
 
 - and message size. 
 
