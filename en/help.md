@@ -727,9 +727,10 @@ Instead, all group metadata is end-to-end encrypted and stored on end-user devic
 
 Servers can therefore only see:
 
-- random sender and receiver addresses, by default
+- the sender and receiver addresses
+- and the message size.
 
-- and message size. 
+By default, the addresses are randomly generated.
 
 All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
 
