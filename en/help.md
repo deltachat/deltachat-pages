@@ -70,6 +70,15 @@ Your friends may share your contact with other friends, this appears as a **requ
   receive messages from this person, consider **blocking** them.
 
 
+### How can I put two of my friends in contact with each other?
+
+Attach the first contact to the chat of the second using **Attachment Button → Contact**.
+You can also add a little introduction message.
+
+The second contact will receive a **card** then
+and can tap it to start chatting with the first contact.
+
+
 ### Does Delta Chat support images, videos and other attachments?
 
 - Yes. Images, videos, files, voice messages etc. are handled as usual.
