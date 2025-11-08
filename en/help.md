@@ -25,16 +25,39 @@ available for mobile and desktop platforms.
   built on [Internet Standards]({% include standards-url %}).
 
 
-### How can I find people to chat with? 
+### How can I find people to chat with? {#howtoe2ee}
 
-To securely setup contact with others [scan an invite QR code 
-or share an invite link](#howtoe2ee).
+First, note that Delta Chat is a private messenger.
+There is no public discovery, _you_ decide about your contacts.
+
+- If you are **face to face** with your friend or family,
+  tap the **QR Code** icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  on the main screen.  
+  Ask your chat partner to **scan** the QR image
+  with their Delta Chat app.
+
+- For a **remote** contact setup,
+  from the same screen,
+  click "Copy" or "Share" and send the **invite link**
+  through another private chat.
+
+Now wait while connection gets established.
+
+- If both sides are online, they will soon see a chat
+  and can start messaging securely.
+
+- If one side is offline or in bad network,
+  the ability to chat is delayed until connectivity is restored.
+
+Congratulations!
+You now will automatically use [end-to-end encryption](#e2ee) with this contact.
+If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
 
 
 ### Why is a chat marked as "Request"?
 
-First, note that Delta Chat is a private messenger.
-Only friends and family you share your QR code or invite link with can write to you.
+As being a private messenger,
+only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
 
 Your friends may share your contact with other friends, this appears as a **request**.
 
@@ -235,7 +258,7 @@ or in the sidebar with a right click (in the desktop client).
 
 
 
-## Groups
+## Groups {#groups}
 
 ### Creation of a group
 
@@ -246,8 +269,19 @@ or in the sidebar with a right click (in the desktop client).
 
 ### Add members to a group
 
-- Every group member has the **same rights** as any other. For this reason every one can delete every member or add new ones.
-- To add or delete members, click on the group name in the chat.
+- All group members have the **same rights**.
+  For this reason, everyone can delete any member or add new ones.
+
+- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+
+- If the member is not yet in your contact list, but **face to face** with you,
+  from the same screen, show a **QR code**.  
+  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
+  <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+
+- For a **remote** member addition,
+  click "Copy" or "Share" and send the **invite link**
+  through another private chat to the new member.
 
 
 ### I have deleted myself by accident.
@@ -584,39 +618,6 @@ If you instead use a [classic email server](#classic-email),
 you can send and receive messages with or without end-to-end encryption.
 Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
-
-### How can I establish a chat with a new contact? {#howtoe2ee}
-
-You can send an invite link through another private chat, 
-show an invitation QR code when next to each other or in a video call,
-or click on a "contact" that was shared in a chat. 
-
-- For **Group invitations**,
-  tap the chat group title to see its member list,
-  and select "QR Invite code".
-
-- For **direct 1:1 chat invitations**, 
-  tap the QR Code icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the Delta Chat app main screen.
-
-Ask your chat partner to scan the QR image
-with their Delta Chat app,
-or click "Copy" or "Share" to create an invite link
-and share it with your chat partner.
-
-Now wait while [end-to-end encryption is getting established](https://securejoin.delta.chat/en/latest/new.html#setup-contact-protocol). 
-
-- If both sides are online, they will soon see a (group or direct) chat
-  and can start messaging securely. 
-
-- If one side is offline or in bad network, 
-  the  ability to chat is delayed until connectivity is restored. 
-
-Congratulations! 
-You now will automatically use end-to-end encryption
-with this contact. 
-If you add each other to chat groups,
-end-to-end encryption will be established among all members. 
 
 
 ### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
