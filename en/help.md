@@ -561,22 +561,23 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Can I create a profile using a classic email account? {#classic-email}
+### Can classic email be used as transport for a profile? {#classic-email}
 
-In general, this is possible at **Create New Profile → Use Other Server**.
+In general, this is possible at **New Profile → Use Other Server → Use Classic Mail as Transport**.
 Some classic email providers have limitations,
-see [Provider Overview](https://providers.delta.chat).
+see [Provider Overview](https://providers.delta.chat),
+and [Push notifications](#instant-delivery) will not be supported.
+
+**Do not use the same account in other email apps.**
+If you ignore that advice, you need to deal with
+encrypted messages in the inbox,
+double notifications
+and accidentally deleted emails.
 
 In addition to encrypted messages,
 you will then be able to send and receive unencrypted messages.
-
-However, **do not use the same account in other email apps**.
-If you ignore that advice, you need to deal with
-lots of chat messages in the inbox,
-double notifications,
-accidentally deleted emails.
-
-Note, that [Push notifications](#instant-delivery) are not supported by classic email servers.
+These messages are marked with an email icon
+<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
 ### I want to manage my own server for Delta Chat. What do you recommend?
