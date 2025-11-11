@@ -72,7 +72,7 @@ Your friends may share your contact with other friends, this appears as a **requ
 
 ### How can I put two of my friends in contact with each other?
 
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.1em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
+Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
 You can also add a little introduction message.
 
 The second contact will receive a **card** then
@@ -81,8 +81,8 @@ and can tap it to start chatting with the first contact.
 
 ### Does Delta Chat support images, videos and other attachments?
 
-- Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.1em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.9em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+- Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
@@ -519,9 +519,9 @@ This makes Delta Chat a truly extensible messenger.
 
 ### Where can I get in-chat apps?
 
-- In a chat, using <img style="vertical-align:middle; width:1.1em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
+- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
 
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.1em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
 
 
 ### How private are in-chat apps?
