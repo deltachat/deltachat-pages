@@ -72,7 +72,7 @@ Your friends may share your contact with other friends, this appears as a **requ
 
 ### How can I put two of my friends in contact with each other?
 
-Attach the first contact to the chat of the second using **Attachment Button → Contact**.
+Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.1em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
 You can also add a little introduction message.
 
 The second contact will receive a **card** then
@@ -518,9 +518,9 @@ This makes Delta Chat a truly extensible messenger.
 
 ### Where can I get in-chat apps?
 
-- In a chat, using **Attachment Button → Apps**
+- In a chat, using <img style="vertical-align:middle; width:1.1em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
 
-- You can also [create your own app](#create-xdc) and attach it using **Attachment Button → File**
+- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.1em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
 
 
 ### How private are in-chat apps?
