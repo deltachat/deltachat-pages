@@ -117,8 +117,8 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 
 Yes,
 you can do so under **Settings → Profile → Bio**.
-Your contacts who use Delta Chat will see it
-when they view your contact details.
+Once you sent a message to a contact,
+they will see it when they view your contact details.
 
 
 ### What do Pinning, Muting and Archiving mean?
