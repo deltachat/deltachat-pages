@@ -173,11 +173,16 @@ and others will as well not always see that you are "online".
 
 ### What do the ticks shown beside outgoing messages mean?
 
-- **One tick** means that the message was sent successfully to your provider.
-- **Two ticks** mean that at least one recipient's device
+- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  means that the message was sent successfully to your provider.
+
+- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+  mean that at least one recipient's device
   reported back to having received the message.
+
 - Recipients may have disabled read-receipts,
   so even if you see only one tick, the message may have been read.
+
 - The other way round, two ticks do not automatically mean
   that a human has read or understood the message ;)
 
