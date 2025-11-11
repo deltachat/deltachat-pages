@@ -81,7 +81,8 @@ and can tap it to start chatting with the first contact.
 
 ### Does Delta Chat support images, videos and other attachments?
 
-- Yes. Images, videos, files, voice messages etc. are handled as usual.
+- Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.1em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+  or <img style="vertical-align:middle; width:0.9em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
