@@ -38,6 +38,8 @@ linked_files = [
     "assets/help/green-checkmark.png",
     "assets/help/green-dot.png",
     "assets/help/lock-icon.png",
+    "assets/help/mic.png",
+    "assets/help/paperclip.png",
     "assets/help/qr-icon.png",
     "assets/help/saved-icon.png",
     "assets/help/tick1.png",
