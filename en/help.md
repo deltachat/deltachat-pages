@@ -596,6 +596,7 @@ You can configure a classic email address at **New Profile → Use Other Server 
 Some classic email providers have limitations,
 see [Provider Overview](https://providers.delta.chat),
 and [Push notifications](#instant-delivery) will not be supported.
+Chatmail uses the default INBOX for message relay; ensure the provider does too. 
 
 In addition to encrypted messages,
 you will then be able to send and receive unencrypted messages.
