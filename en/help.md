@@ -570,7 +570,7 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Can i use a classic email address with Delta Chat?
+### Can I use a classic email address with Delta Chat?
 
 Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
 
@@ -586,7 +586,7 @@ It is not supported to share a mailbox with non-chatmail apps or web-based maile
   would require considerable development and maintenance efforts,
   and complicate making chatmail-based messaging more resilient, reliable and fast.
 
-### How can i configure a chat profile with a classic email address? {#classic-email}
+### How can I configure a chat profile with a classic email address? {#classic-email}
 
 First off, **please do not use the same classic email address with non-chatmail apps**
 unless you are prepared to deal with encrypted messages in the inbox,
@@ -636,13 +636,13 @@ to provide automatic end-to-end encryption using these protocols:
 
 Delta Chat does not query, publish or interact with any OpenPGP key servers. 
 
-### How can i know if messages are end-to-end encrypted? {#whene2e}
+### How can I know if messages are end-to-end encrypted? {#whene2e}
 
 All messages in Delta Chat are **end-to-end encrypted by default**.
 Since the Delta Chat Version 2 release series (July 2025) 
 there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-### Can i still receive or send messages without end-to-end encryption?
+### Can I still receive or send messages without end-to-end encryption?
 
 If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
