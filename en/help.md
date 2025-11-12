@@ -11,7 +11,7 @@ header: Frequently Asked Questions
 Delta Chat is a reliable, decentralized and secure instant messaging app,
 available for mobile and desktop platforms.
 
-- Instant creation of private chat profiles
+- Instant creation of **private chat profiles**
   with secure and interoperable [chatmail relays](https://chatmail.at/relays)
   that offer instant message delivery and Push Notifications for iOS and Android devices.
 
