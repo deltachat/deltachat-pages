@@ -570,11 +570,11 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Can I use a classic email address with Delta Chat?
+### Can I use a classic email account with Delta Chat?
 
-Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
+Yes, but only if the email account is used exclusively by [chatmail clients](https://chatmail.at/clients).
 
-It is not supported to share a mailbox with non-chatmail apps or web-based mailers for the following reasons:
+It is not supported to share an email account with non-chatmail apps or web-based mailers for the following reasons:
 
 - Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
   while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
@@ -586,13 +586,13 @@ It is not supported to share a mailbox with non-chatmail apps or web-based maile
   would require considerable development and maintenance efforts,
   and complicate making chatmail-based messaging more resilient, reliable and fast.
 
-### How can I configure a chat profile with a classic email address? {#classic-email}
+### How can I configure a chat profile with a classic email account? {#classic-email}
 
-First off, **please do not use the same classic email address with non-chatmail apps**
+First off, **please do not use the same classic email account with non-chatmail apps**
 unless you are prepared to deal with encrypted messages in the inbox,
 double notifications, accidentally deleted emails or similar annoyances.
 
-You can configure a classic email address at **New Profile → Use Other Server → Use Classic Mail as Transport**.
+You can configure a classic email account at **New Profile → Use Other Server → Use Classic Mail as Transport**.
 Some classic email providers have limitations,
 see [Provider Overview](https://providers.delta.chat),
 and [Push notifications](#instant-delivery) will not be supported.
