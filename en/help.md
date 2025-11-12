@@ -8,13 +8,16 @@ header: Frequently Asked Questions
 
 ## What is Delta Chat?
 
-Delta Chat is a reliable, decentralized and secure messaging app, 
+Delta Chat is a reliable, decentralized and secure instant messaging app,
 available for mobile and desktop platforms.
 
-- Anonymous chat profiles with fast, secure and interoperable [chatmail servers](https://delta.chat/chatmail)
-  which offer instant Push Notifications for iOS and Android devices.
+- Instant creation of private chat profiles
+  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
+  that offer instant message delivery and Push Notifications for iOS and Android devices.
 
-- Pervasive [multi-profile](#multiple-accounts) and multi-device support on all platforms.
+- Pervasive [multi-profile](#multiple-accounts) and
+  [multi-device](#multiclient) support on all platforms
+  and between different [chatmail clients](https://chatmail.at/clients).
 
 - Interactive [in-chat apps](#webxdc) for gaming and collaboration
 
@@ -567,18 +570,32 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Can classic email be used as transport for a profile? {#classic-email}
+### Can i use a classic email address with Delta Chat?
 
-In general, this is possible at **New Profile → Use Other Server → Use Classic Mail as Transport**.
+Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
+
+It is not supported to share a mailbox with non-chatmail apps or web-based mailers for the following reasons:
+
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
+
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message transport.
+
+- Supporting the full variety of classic email setups
+  would require considerable development and maintenance efforts,
+  and complicate making chatmail-based messaging more resilient, reliable and fast.
+
+### How can i configure a chat profile with a classic email address? {#classic-email}
+
+First off, **please do not use the same classic email address with non-chatmail apps**
+unless you are prepared to deal with encrypted messages in the inbox,
+double notifications, accidentally deleted emails or similar annoyances.
+
+You can configure a classic email address at **New Profile → Use Other Server → Use Classic Mail as Transport**.
 Some classic email providers have limitations,
 see [Provider Overview](https://providers.delta.chat),
 and [Push notifications](#instant-delivery) will not be supported.
-
-**Do not use the same account in other email apps.**
-If you ignore that advice, you need to deal with
-encrypted messages in the inbox,
-double notifications
-and accidentally deleted emails.
 
 In addition to encrypted messages,
 you will then be able to send and receive unencrypted messages.
