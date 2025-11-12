@@ -17,7 +17,7 @@ available for mobile and desktop platforms.
 
 - Pervasive [multi-profile](#multiple-accounts) and
   [multi-device](#multiclient) support on all platforms
-  and between different [chatmail clients](https://chatmail.at/clients).
+  and between different [chatmail apps](https://chatmail.at/clients).
 
 - Interactive [in-chat apps](#webxdc) for gaming and collaboration
 
