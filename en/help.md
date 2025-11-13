@@ -31,7 +31,7 @@ First, note that Delta Chat is a private messenger.
 There is no public discovery, _you_ decide about your contacts.
 
 - If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" />
+  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
   on the main screen.  
   Ask your chat partner to **scan** the QR image
   with their Delta Chat app.
@@ -292,7 +292,7 @@ or in the sidebar with a right click (in the desktop client).
 - If the member is not yet in your contact list, but **face to face** with you,
   from the same screen, show a **QR code**.  
   Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; width:1.8em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
 
 - For a **remote** member addition,
   click "Copy" or "Share" and send the **invite link**
