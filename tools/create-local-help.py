@@ -26,8 +26,13 @@ from shutil import copyfile
 import requests
 from requests.exceptions import ConnectTimeout, ReadTimeout
 
+# if we do not mimic end-user user-agent, we'll get 403 for wikipedia, opentechfund and others
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36'
+}
+
 www = requests.Session()
-www.request = functools.partial(www.request, timeout=15)
+www.request = functools.partial(www.request, timeout=15, headers=headers)
 
 # list all files that should go to the local help here.
 # the path should be the path used eg. in the <img> tag.
@@ -83,10 +88,6 @@ def url_is_reachable(url):
 
         if response.status_code == 200:
             reachable_cache[url] = True
-        elif response.status_code == 403 and (url.startswith("https://opentechfund.org") or url.startswith("https://www.opentech.fund")):
-            reachable_cache[url] = True # maybe a temporary hickup
-        elif response.status_code == 502 and url == "https://saltpack.org/":
-            reachable_cache[url] = True # maybe a temporary hickup
         elif response.status_code == 404 and url == "https://crates.io/crates/pgp":
             reachable_cache[url] = True # maybe a temporary hickup
         else:
