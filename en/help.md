@@ -15,7 +15,7 @@ available for mobile and desktop platforms.
   with secure and interoperable [chatmail relays](https://chatmail.at/relays)
   that offer instant message delivery and Push Notifications for iOS and Android devices.
 
-- Pervasive [multi-profile](#multiple-accounts) and
+- Pervasive [multi-profile](#multiprofile) and
   [multi-device](#multiclient) support on all platforms
   and between different [chatmail apps](https://chatmail.at/clients).
 
@@ -90,7 +90,7 @@ and can tap it to start chatting with the first contact.
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### What are profiles? How can I switch between them? {#multiple-accounts} {#multiprofile}
 
 A profile is **a name, a picture** and some additional information for encrypting messages.
 A profile lives on your device(s) only
@@ -258,23 +258,18 @@ the (anyway encrypted) messages may take longer to get deleted from their server
   this way, *all* messages will be deleted from your device as soon as they are
   older than that.
 
-### How can I delete my account? {#remove-account}
+### How can I delete my chat profile? {#remove-account} 
 
-If you use a default chat profile
-you can simply uninstall the app.
-This will automatically trigger deletion of all associated account data on the chatmail server.
-For more info, please refer to [nine.testrun.org account-deletion](https://nine.testrun.org/info.html#account-deletion) for the default onboarding server,
-or the respective page from your chosen [3rd party chatmail server](https://delta.chat/chatmail).
+If you are using more than one chat profile,
+you can remove single ones in the top profile switcher menu (on Android and iOS),
+or in the sidebar with a right click (in the Desktop app).
+Chat profiles are only removed on the device where deletion was triggered. 
+Chat profiles on other devices will continue to fully function. 
 
-If you have set up your chat profile on multiple devices
-you need to remove it from all devices.
-
-If you are using more than one account,
-but don't want to get rid of all of them,
-you can remove it in the account switcher menu (on android and iOS),
-or in the sidebar with a right click (in the desktop client).
-
-
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
+or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
 
 ## Groups {#groups}
 
@@ -477,7 +472,7 @@ One device is not needed for the other to work.
   (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
 
 - Delta Chat is **already logged in** on the destination device?
-  You can use multiple profiles per device, just [add another profile](#multiple-accounts)
+  You can use multiple profiles per device, just [add another profile](#multiprofile)
 
 - If you still have problems or if you **cannot scan a QR code**
   try the **manual transfer** described below
@@ -570,11 +565,12 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Can I use a classic email account with Delta Chat?
+### Can I use a classic email address with Delta Chat?
 
-Yes, but only if the email account is used exclusively by [chatmail clients](https://chatmail.at/clients).
+Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
 
-It is not supported to share an email account with non-chatmail apps or web-based mailers for the following reasons:
+It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
+for the following reasons:
 
 - Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
   while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
@@ -586,30 +582,30 @@ It is not supported to share an email account with non-chatmail apps or web-base
   would require considerable development and maintenance efforts,
   and complicate making chatmail-based messaging more resilient, reliable and fast.
 
-### How can I configure a chat profile with a classic email account? {#classic-email}
+### How can I configure a chat profile with a classic email address as transport? {#classic-email}
 
-First off, **please do not use the same classic email account with non-chatmail apps**
+First off, **please do not use the same classic email address also from non-chatmail classic email apps**
 unless you are prepared to deal with encrypted messages in the inbox,
 double notifications, accidentally deleted emails or similar annoyances.
 
-You can configure a classic email account at **New Profile → Use Other Server → Use Classic Mail as Transport**.
-Some classic email providers have limitations,
-see [Provider Overview](https://providers.delta.chat),
-and [Push notifications](#instant-delivery) will not be supported.
-Chatmail uses the default INBOX for message relay; ensure the provider does too. 
-
-In addition to encrypted messages,
-you will then be able to send and receive unencrypted messages.
-These messages are marked with an email icon
+You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Transport**.
+Note that classic email providers will generally not support [Push notifications](#instant-delivery)
+and have other limitations, see [Provider Overview](https://providers.delta.chat).
+Chatmail uses the default INBOX for relay; ensure the provider setup does too. 
+A chat profile using a classic email address allows to to send and receive unencrypted messages.
+These messages, and the chats they appear in, are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
 ### I want to manage my own server for Delta Chat. What do you recommend?
 
-- Most mail servers will work well. But what we personally recommend is a
-  chatmail relay server, as described [in this
-  blogpost](https://delta.chat/en/2023-12-13-chatmail).
-- You can find an [installation guide on GitHub](https://github.com/chatmail/relay).
+Any well behaving email server setup will do fine 
+except if your users' devices require Google/Apple Push notifications to work properly. 
+
+We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
+[Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
+and [core Rust developments](https://github.com/chatmail/core) 
+that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
 
 
 ### I'm interested in the technical details. Can you tell me more?
