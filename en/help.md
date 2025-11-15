@@ -327,19 +327,16 @@ Because all members have the same rights, it is better to use groups among trust
 
 ### Cloning a group
 
-It can be useful to duplicate an existing group,
-for example to talk about something specific but different from what is happening in the existing group,
-or to exclude an abusive person without them noticing. To do so:
+You can duplicate a group to start a separate discussion
+or to exclude members without them noticing.
 
-- Select **Clone Chat** from the group profile on Android/iOS,
-  or right-click a groups's chat list item on Desktop
+- Open the group profile and tap **Clone Chat** (Android/iOS),
+  or right-click the group in the chat list (Desktop).
 
-- Enter the new name and optionally a new avatar or remove/add members
+- Set a new name, choose an avatar, and adjust the member list if needed.
 
-The new created group is created when you send the first message.
-It has no relationship with the previous one:
-members added/removed in one are not added not removed in the other,
-names can be set independently, you start with an empty history, etc...
+The new group is **fully independent** from the original,
+which continues to work as before.
 
 
 ## Instant message delivery and Push Notifications {#instant-delivery}
