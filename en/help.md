@@ -101,9 +101,7 @@ On first installation of Delta Chat a first profile is created.
 Later, you can tap your profile image in the upper left corner to **Add Profiles**
 or to **Switch Profiles**.
 
-You may want to use separate profiles for political, family or work related activities,
-or e. g. for a dedicated "spam-profile" with which you register at websites and platforms
-that tend to cause unsolicited messages ("spam") sooner or later.
+You may want to use separate profiles for political, family or work related activities.
 
 You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
 
