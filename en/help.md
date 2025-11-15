@@ -13,7 +13,7 @@ available for mobile and desktop platforms.
 
 - Instant creation of **private chat profiles**
   with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery and Push Notifications for iOS and Android devices.
+  that offer instant message delivery, and Push Notifications for iOS and Android devices.
 
 - Pervasive [multi-profile](#multiple-accounts) and
   [multi-device](#multiclient) support on all platforms
