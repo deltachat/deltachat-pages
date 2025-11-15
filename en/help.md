@@ -15,7 +15,7 @@ available for mobile and desktop platforms.
   with secure and interoperable [chatmail relays](https://chatmail.at/relays)
   that offer instant message delivery and Push Notifications for iOS and Android devices.
 
-- Pervasive [multi-profile](#multiprofile) and
+- Pervasive [multi-profile](#multiple-accounts) and
   [multi-device](#multiclient) support on all platforms
   and between different [chatmail apps](https://chatmail.at/clients).
 
@@ -90,7 +90,7 @@ and can tap it to start chatting with the first contact.
 - For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts} {#multiprofile}
+### What are profiles? How can I switch between them? {#multiple-accounts}
 
 A profile is **a name, a picture** and some additional information for encrypting messages.
 A profile lives on your device(s) only
@@ -472,7 +472,7 @@ One device is not needed for the other to work.
   (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
 
 - Delta Chat is **already logged in** on the destination device?
-  You can use multiple profiles per device, just [add another profile](#multiprofile)
+  You can use multiple profiles per device, just [add another profile](#multiple-accounts)
 
 - If you still have problems or if you **cannot scan a QR code**
   try the **manual transfer** described below
