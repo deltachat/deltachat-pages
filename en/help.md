@@ -271,7 +271,19 @@ This will still automatically trigger deletion of all associated address data on
 For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
 or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
 
+
 ## Groups {#groups}
+
+Groups let several people chat together privately with **equal rights**.
+
+Anyone can
+change the group name or avatar,
+[add or remove members](#addmembers) (including the creator),
+set [disappearing messages](#ephemeralmsgs),
+and [delete their own messages](#edit) from all member's devices.
+
+Because all members have the same rights, groups work best among **trusted friends and family**.
+
 
 ### Creation of a group
 
@@ -280,7 +292,7 @@ or the respective page from your chosen [3rd party chatmail server](https://chat
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
-### Add members to a group
+### Add and remove members {#addmembers}
 
 - All group members have the **same rights**.
   For this reason, everyone can delete any member or add new ones.
@@ -296,6 +308,9 @@ or the respective page from your chosen [3rd party chatmail server](https://chat
   click "Copy" or "Share" and send the **invite link**
   through another private chat to the new member.
 
+QR code and invite link can be reused to add several members.
+However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+
 
 ### I have deleted myself by accident.
 
@@ -310,6 +325,19 @@ or the respective page from your chosen [3rd party chatmail server](https://chat
 
 - As an alternative, you can also "Mute" a group - doing so means you get all messages and 
   can still write, but are no longer notified of any new messages.
+
+### Cloning a group
+
+You can duplicate a group to start a separate discussion
+or to exclude members without them noticing.
+
+- Open the group profile and tap **Clone Chat** (Android/iOS),
+  or right-click the group in the chat list (Desktop).
+
+- Set a new name, choose an avatar, and adjust the member list if needed.
+
+The new group is **fully independent** from the original,
+which continues to work as before.
 
 
 ## Instant message delivery and Push Notifications {#instant-delivery}
