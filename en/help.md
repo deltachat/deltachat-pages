@@ -323,9 +323,8 @@ Because all members have the same rights, it is better to use groups among trust
 
 It can be useful to duplicate an existing group, for example to talk about something specific but different from what is happening in the existing group, or to exclude an abusive person without them noticing. To do so:
 
-- On desktop, right-click on the group. On iOS/Android, long-press on the group
-
-- Select "Clone Chat"
+- Select **Clone Chat** from the group profile on Android/iOS,
+  or right-click a groups's chat list item on Desktop
 
 - Enter the new name and optionally a new avatar or remove/add members
 
