@@ -273,11 +273,11 @@ or the respective page from your chosen [3rd party chatmail server](https://chat
 
 ## Groups {#groups}
 
-### What is a group ?
+### What is a group?
 
 A group is a list of members talking with each other. There are no roles in groups: every member has the possibility to add or remove anyone, including the creator.
 
-Groups can have an avatar and a subject. Just like members, those can be set by anyone in the group. Every member also has the possibility to set disappearing messages: messages older than the given duration starting from the moment the option is set are automatically deleted by DeltaChat. Each member can delete their own message from everyone's device but cannot delete messages of others.
+Groups can have an avatar and a name. Just like members, those can be set by anyone in the group. Every member also has the possibility to set disappearing messages: messages older than the given duration starting from the moment the option is set are automatically deleted by DeltaChat. Each member can delete their own message from everyone's device but cannot delete messages of others.
 
 Because all members have the same rights, it is better to use groups among trusted peers.
 
@@ -327,9 +327,9 @@ It can be useful to duplicate an existing group, for example to talk about somet
 
 - Select "Clone Chat"
 
-- Enter the new subject and optionally a new avatar or remove/add members
+- Enter the new name and optionally a new avatar or remove/add members
 
-The new created group is created when you send the first message. It has no relationship with the previous one: members added/removed in one are not added nor removed in the other, subjects can be set independently, you start with an empty history, etc...
+The new created group is created when you send the first message. It has no relationship with the previous one: members added/removed in one are not added not removed in the other, names can be set independently, you start with an empty history, etc...
 
 
 ## Instant message delivery and Push Notifications {#instant-delivery}
