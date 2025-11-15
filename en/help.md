@@ -271,21 +271,19 @@ This will still automatically trigger deletion of all associated address data on
 For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
 or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
 
+
 ## Groups {#groups}
 
-### What is a group?
+Groups let several people chat together privately with **equal rights**.
 
-A group is a list of members talking with each other.
-There are no roles in groups:
-every member has the possibility to add or remove anyone, including the creator.
+Anyone can
+change the group name or avatar,
+[add or remove members](#addmembers) (including the creator),
+set [disappearing messages](#ephemeralmsgs),
+and [delete their own messages](#edit) from all member's devices.
 
-Groups can have an avatar and a name.
-Just like members, those can be set by anyone in the group.
-Every member also has the possibility to set disappearing messages:
-messages older than the given duration starting from the moment the option is set are automatically deleted by DeltaChat.
-Each member can delete their own message from everyone's device but cannot delete messages of others.
+Because all members have the same rights, groups work best among **trusted friends and family**.
 
-Because all members have the same rights, it is better to use groups among trusted peers.
 
 ### Creation of a group
 
@@ -294,7 +292,7 @@ Because all members have the same rights, it is better to use groups among trust
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
-### Add members to a group
+### Add and remove members {#addmembers}
 
 - All group members have the **same rights**.
   For this reason, everyone can delete any member or add new ones.
