@@ -589,7 +589,7 @@ unless you are prepared to deal with encrypted messages in the inbox,
 double notifications, accidentally deleted emails or similar annoyances.
 
 You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Transport**.
-Note that classic email providers will generally not support [Push notifications](#instant-delivery)
+Note that classic email providers will generally not support [Push Notifications](#instant-delivery)
 and have other limitations, see [Provider Overview](https://providers.delta.chat).
 Chatmail uses the default INBOX for relay; ensure the provider setup does too. 
 A chat profile using a classic email address allows to to send and receive unencrypted messages.
@@ -600,7 +600,7 @@ These messages, and the chats they appear in, are marked with an email icon
 ### I want to manage my own server for Delta Chat. What do you recommend?
 
 Any well behaving email server setup will do fine 
-except if your users' devices require Google/Apple Push notifications to work properly. 
+except if your users' devices require Google/Apple [Push Notifications](#instant-delivery) to work properly.
 
 We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
 [Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
