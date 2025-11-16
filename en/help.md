@@ -276,7 +276,7 @@ Groups let several people chat together privately with **equal rights**.
 
 Anyone can
 change the group name or avatar,
-[add or remove members](#addmembers) (including the creator),
+[add or remove members](#addmembers),
 set [disappearing messages](#ephemeralmsgs),
 and [delete their own messages](#edit) from all member's devices.
 
