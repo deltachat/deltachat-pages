@@ -306,7 +306,7 @@ Because all members have the same rights, groups work best among **trusted frien
   click "Copy" or "Share" and send the **invite link**
   through another private chat to the new member.
 
-QR code and invite link can be reused to add several members.
+QR code and invite link can be used to add several members.
 However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
 
 
