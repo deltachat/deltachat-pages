@@ -222,7 +222,6 @@ Your browser does not support the video tag.
 The currently known deal-breaker bugs:
 
 - In our responsibility:
-  - macOS: Received Attachments are disappearing [deltachat-desktop#5211](https://github.com/deltachat/deltachat-desktop/issues/5211) [deltachat-desktop#5212](https://github.com/deltachat/deltachat-desktop/issues/5212)
   - Linux: single instance hand-off does not work, this means opening delta chat again if it is already open will not work and opening links and webxdc file with delta chat is also broken when the app is already running [deltachat-desktop#5178](https://github.com/deltachat/deltachat-desktop/issues/5178)
   - Linux: notification issue with flatpak [deltachat-desktop#5095](https://github.com/deltachat/deltachat-desktop/issues/5095)
 - upstream issues in Tauri/WebKit:
