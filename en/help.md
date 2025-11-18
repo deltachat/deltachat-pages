@@ -590,14 +590,15 @@ The features may be **unstable** and may be **changed or removed**.
 You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
-### What is "Send statistics do Delta Chat's developers"? {#statssending}
+
+### What is "Send statistics to Delta Chat's developers"? {#statssending}
 
 We would like to improve Delta Chat with your help,
 which is why Delta Chat for Android asks whether you want
 to send anonymous usage statistics.
 
 You can turn it on and off at
-"Settings -> Advanced -> Send statistics do Delta Chat's developers".
+**Settings → Advanced → Send statistics to Delta Chat's developers**.
 
 When you turn it on,
 weekly statistics will be automatically sent to a bot.
@@ -608,7 +609,8 @@ We are interested e.g. in statistics like:
 - Which versions of Delta Chat are being used?
 - How many messages are unencrypted?
 
-We will _not_ collect any personally identifyable information about you.
+We will _not_ collect any personally identifiable information about you.
+
 
 ### Can I use a classic email address with Delta Chat?
 
