@@ -234,19 +234,6 @@ if one chat partner uninstalls Delta Chat,
 the (anyway encrypted) messages may take longer to get deleted from their server.
 
 
-### How does "Delete messages from server" work?
-
-- If you are using only one device,
-  messages are deleted **At once** from the server.
-
-- If you are using Multiple devices,
-  this option is switched to **Automatic**,
-  meaning the server will keep the messages for a while so that all devices have a chance to receive them.
-
-- If you are no longer using additional devices,
-  you can switch the option manually at **Delete Old Messages → Delete Messages from Server**.
-
-
 ### What happens if I turn on "Delete old messages from device"? {#delold}
 
 - If you want to save storage on your device, you can choose to delete old
