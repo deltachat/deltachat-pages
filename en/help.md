@@ -338,8 +338,48 @@ The new group is **fully independent** from the original,
 which continues to work as before.
 
 
-## Instant message delivery and Push Notifications {#instant-delivery}
+## In-chat apps {#webxdc}
 
+You can send apps to a chat - games, editors, polls and other tools.
+This makes Delta Chat a truly extensible messenger.
+
+
+### Where can I get in-chat apps?
+
+- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
+
+- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+
+
+### How private are in-chat apps?
+
+- In-chat apps can not send data to the Internet, or download anything.
+
+- An in-chat app can only exchange data within a Delta Chat chat, with its
+  copies on the devices of your chat partners. Other than that, it's completely
+  isolated from the Internet.
+
+- The privacy an in-chat app offers is the privacy of your chat - as long as you
+  trust the people you chat with, you can trust the in-chat app as well.
+
+- This also means: Just like for web links, do not open apps from untrusted contacts.
+
+
+### How can I create my own in-chat apps? {#create-xdc}
+
+- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
+
+- You can extend the [Hello World example app](https://github.com/webxdc/hello)
+  to get started.
+
+- All else you need to know is written in the
+  [Webxdc documentation](https://webxdc.org/docs).
+
+- If you have question, you can ask others with experience
+  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+
+
+## Instant message delivery and Push Notifications {#instant-delivery}
 
 ### What are Push Notifications? How can I get instant message delivery?
 
@@ -534,51 +574,7 @@ This method is only recommended if "Add Second Device" as described above does n
   [get.delta.chat](https://get.delta.chat).
 
 
-
-## In-chat apps {#webxdc}
-
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
-
-
-### Where can I get in-chat apps?
-
-- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
-
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
-
-
-### How private are in-chat apps?
-
-- In-chat apps can not send data to the Internet, or download anything.
-
-- An in-chat app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-
-- The privacy an in-chat app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the in-chat app as well.
-
-- This also means: Just like for web links, do not open apps from untrusted contacts.
-
-
-### How can I create my own in-chat apps? {#create-xdc}
-
-- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
-
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
-
-- All else you need to know is written in the
-  [Webxdc documentation](https://webxdc.org/docs).
-
-- If you have question, you can ask others with experience
-  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
-
-
-
 ## Advanced
-
 
 ### Experimental Features
 
