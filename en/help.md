@@ -527,7 +527,12 @@ One device is not needed for the other to work.
 - Delta Chat is **already logged in** on the destination device?
   You can use multiple profiles per device, just [add another profile](#multiple-accounts)
 
-- If you still have problems or if you **cannot scan a QR code**
+- **No camera?** on the first device, click "Copy to Clipboard".
+  Do not close the screen.
+  Transfer the clipboard content to the second device (e.g. by another chat or file transfer),
+  and paste it there from "Add as Second Device / Paste from Clipboard"
+
+- If you still have problems
   try the **manual transfer** described below
 
 
