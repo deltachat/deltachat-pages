@@ -59,8 +59,9 @@ anchors_from_external = [
     "e2eeguarantee",
     "ephemeralmsgs",
     "howtoe2ee",
+    "multiclient",
     "statssending",
-    "multiclient"
+    "webxdc"
 ]
 
 def read_file(filename):
