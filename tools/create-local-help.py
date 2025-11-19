@@ -59,6 +59,7 @@ anchors_from_external = [
     "e2eeguarantee",
     "ephemeralmsgs",
     "howtoe2ee",
+    "statssending",
     "multiclient"
 ]
 
