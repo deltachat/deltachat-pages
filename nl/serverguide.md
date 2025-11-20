@@ -5,9 +5,12 @@ lang: nl
 
 # Hoe zet ik een e-mailserver voor Delta Chat op?
 
-> **Update:** deze informatie is verouderd, daar we mailcow-servers niet meer aanraden.
-> [Chatmail-relays](2023-12-13-chatmail) zijn de beoogde opvolger van deze servers.
-> Meer informatie is te lezen [op GitHub](https://github.com/chatmail/relay), ook hoe je deze relays instelt!
+> **Update:** This is outdated - we now recommend
+> [Chatmail Relays](2023-12-13-chatmail) over mailcow servers for chatting with Delta Chat,
+> for faster delivery, reliable push notifications, and enforced message encryption.
+> Read more [on GitHub](https://github.com/chatmail/relay) about how to set it up!
+> mailcow is mostly an option
+> if you want to communicate with classic mail users who can't use encryption.
 
 Delta Chat is een gespreksapp die op basis van e-mail werkt. Dit houdt in dat je elke
 e-mailserver kunt gebruiken. Een van de eenvoudigste e-mailservers

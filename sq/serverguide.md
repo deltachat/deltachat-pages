@@ -5,9 +5,12 @@ lang: sq
 
 # Si të Ujdiset një Shërbyes Poste për Delta Chat-in
 
-> **Update:** This is outdated - we no longer recommend mailcow Servers,
-> but [Chatmail Relays](2023-12-13-chatmail) for chatting with Delta Chat.
+> **Update:** This is outdated - we now recommend
+> [Chatmail Relays](2023-12-13-chatmail) over mailcow servers for chatting with Delta Chat,
+> for faster delivery, reliable push notifications, and enforced message encryption.
 > Read more [on GitHub](https://github.com/chatmail/relay) about how to set it up!
+> mailcow is mostly an option
+> if you want to communicate with classic mail users who can't use encryption.
 
 Delta Chat-i është një shkëmbyes mesazhesh fjalosjeje që xhiron në email. Kjo
 do të thotë se mundemi të përdorim çfarëdo shërbyesi email për të krijuar llogari

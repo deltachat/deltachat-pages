@@ -5,9 +5,8 @@ lang: ru
 
 # Упоминания
 
-Этот список далеко не полный - неужели мы что-то упустили? Пожалуйста,
-[сообщите нам](imprint) или просто сделайте 
-[запрос на изменение](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+> This list is not updated frequently.
+> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Роскомсвобода: Delta Chat снова отказался от сотрудничества с российскими властями

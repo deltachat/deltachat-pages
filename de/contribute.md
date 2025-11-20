@@ -48,5 +48,4 @@ in das Suchfeld Ihrer Fediverse-App ein.
 - Ein [DeltaChat-Subreddit](https://old.reddit.com/r/DeltaChat/).
 
 Wenn Sie von zusätzlichen Kanälen wissen oder selbst welche einrichten,
-lassen Sie es uns bitte wissen (siehe Kanäle und Repositorys oben)
-oder [bearbeiten Sie diese Seite auf GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+lassen Sie es uns bitte wissen (siehe Kanäle und Repositorys oben).

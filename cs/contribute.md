@@ -49,6 +49,5 @@ které se mohou, ale nemusí řídit našimi [Standardy komunity](community-stan
 
 - [Subreddit Delta Chatu](https://old.reddit.com/r/DeltaChat/).
 
-Pokud znáte nebo jste založili další kanály,
-dejte nám prosím vědět (vizte Kanály a repozitáře výše)
-nebo [upravte tuto stránku na GitHubu](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md)
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above).

@@ -3,7 +3,7 @@ title: Delta Chat, mensajería seguro y descentralizado
 lang: es
 ---
 
-# Delta Chat es un application de mensajería seguro y descentralizado {#homepage-heading}
+# Delta Chat es una aplicación de mensajería segura y descentralizada {#homepage-heading}
 
 💬 Mensajería instantánea y confiable con soporte para multiples perfiles y dispositivos
 

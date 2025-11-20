@@ -49,6 +49,5 @@ nel campo di ricerca della tua app fediverse.
 
 - Un [subreddit DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-Se conosci o hai configurato personalmente canali aggiuntivi,
-fatecelo sapere (vedi Canali e repository sopra)
-o [modifica questa pagina su GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above).

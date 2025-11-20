@@ -5,9 +5,8 @@ lang: es
 
 # Referencias
 
-A esta lista falta mucho de estar completa. ¿Nos hemos dejado algo? Por favor,
-[háznoslo saber](imprint) o simplemente haz un [pull
-request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+> This list is not updated frequently.
+> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Roskomsvoboda: Delta Chat vuelve a negarse a cooperar con las autoridades rusas

@@ -11,7 +11,7 @@ Twoja darowizna pomaga kształtować wolną i otwartą przyszłość zdecentrali
 
 - Wesprzyj przez [Open Collective Delta Chat](https://opencollective.com/delta-chat/donate)
 
-- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
+- Wyślij bitcoiny do [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX, Właściciel konta (proszę zawsze podawać): Björn Petersen
 

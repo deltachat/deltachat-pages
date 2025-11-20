@@ -5,9 +5,12 @@ lang: zh_CN
 
 # 如何为 Delta Chat 搭建邮件服务器
 
-> **Update:** This is outdated - we no longer recommend mailcow Servers,
-> but [Chatmail Relays](2023-12-13-chatmail) for chatting with Delta Chat.
+> **Update:** This is outdated - we now recommend
+> [Chatmail Relays](2023-12-13-chatmail) over mailcow servers for chatting with Delta Chat,
+> for faster delivery, reliable push notifications, and enforced message encryption.
 > Read more [on GitHub](https://github.com/chatmail/relay) about how to set it up!
+> mailcow is mostly an option
+> if you want to communicate with classic mail users who can't use encryption.
 
 Delta Chat 是运行在电子邮件之上的聊天软件。这意味着可以使用任意电子邮件服务器来支持 Delta Chat 账户。 [Mailcow](https://mailcow.email) 是易于搭建与管理，并且可对 Delta Chat 开箱即用的电子邮件服务器。
 

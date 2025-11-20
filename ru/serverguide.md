@@ -5,9 +5,12 @@ lang: ru
 
 # Как настроить сервер электронной почты для Delta Chat
 
-> **Обновление:** Информация устарела - мы больше не рекомендуем серверы mailcow,
-> вместо них рекомендуем [Chatmail Relays](2023-12-13-chatmail) для общения в Delta Chat.
-> Подробнее о настройке читайте [на GitHub](https://github.com/chatmail/relay)!
+> **Update:** This is outdated - we now recommend
+> [Chatmail Relays](2023-12-13-chatmail) over mailcow servers for chatting with Delta Chat,
+> for faster delivery, reliable push notifications, and enforced message encryption.
+> Read more [on GitHub](https://github.com/chatmail/relay) about how to set it up!
+> mailcow is mostly an option
+> if you want to communicate with classic mail users who can't use encryption.
 
 Delta Chat — это мессенджер, работающий по электронной почте. Это означает, что мы можем использовать любой
 сервер электронной почты для создания аккаунтов Delta Chat. Одним из простых в настройке и управлении

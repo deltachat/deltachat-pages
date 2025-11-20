@@ -20,9 +20,9 @@ Për shtypjen e shenjave të gishtave SHA256 të dëshmisë së nënshkrimit të
 
 ## Desktop
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+Udhëzime të hollësishme rreth verifikimit mund të gjeni te `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+Kyçi publik i përdorur për nënshkrimin e hedhjeve në qarkullim të versionit për desktop jepet më poshtë dhe te <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -40,4 +40,4 @@ nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Download: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
+Shkarkim: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)

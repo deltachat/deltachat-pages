@@ -42,4 +42,5 @@ sieć społecznościowa w Delta Chat.
 
 - [Subreddit DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-Jeśli znasz dodatkowe kanały lub je skonfigurowałeś, daj nam znać (zobacz kanały i repozytoria powyżej) lub [edytuj tę stronę w GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above).
