@@ -45,6 +45,5 @@ Los siguientes canales relacionados con Delta Chat son creados por terceras pers
 
 - Un [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
 
-Si conoces otros canales, o los has creado,
-por favor, háznoslo saber (ver canales y repositorios más arriba)
-o [edita a esta página en GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above).

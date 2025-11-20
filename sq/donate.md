@@ -12,11 +12,11 @@ pa mbikëqyrje, reklama apo miliarderë në mes.
 
 - Dhuroni përmes [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
 
-- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
+- “Bitcoins” dërgoni te [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX, I zoti i llogarisë (ju lutemi, jepeni përherë): Björn Petersen
 
-- Alternatively, scan the following to wire money to that account:  
-  ![Scan to wire money](../assets/donate-via-epc-qr.png)
+- Ndryshe, skanoni sa vijon që të dërgoni para te ajo llogari:  
+  ![Skanojeni, që të dërgoni para](../assets/donate-via-epc-qr.png)
 
 [Rrugë të tjera për të kontribuar](contribute){: .cta-button}

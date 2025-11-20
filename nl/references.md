@@ -5,10 +5,8 @@ lang: nl
 
 # Verwijzingen
 
-Deze lijst is verre van volledig.
-Hebben we iets gemist?
-[Laat het ons weten](imprint)
-of doe een [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md).
+> This list is not updated frequently.
+> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Roskomsvoboda: Delta Chat weigerde wederom samen te werken met Russische autoriteiten

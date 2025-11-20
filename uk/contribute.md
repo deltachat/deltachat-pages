@@ -41,4 +41,5 @@ lang: uk
 
 - [Сабредіт DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-Якщо у вас є додаткові канали, про які ви знаєте або які ви налаштували, будь ласка, повідомте нас (див. канали та репозиторії вище) або [відредагуйте цю сторінку на GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above).

@@ -42,6 +42,5 @@ lang: zh_CN
 
 - 一个 [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/)。
 
-如果你知道或自己建立了其他渠道，
-请告知我们（见上方的“渠道和仓库”部分）
-或 [在 GitHub 上编辑此页面](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md)。
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above).

@@ -50,5 +50,4 @@ which may or may not follow our [Community Standards](community-standards):
 - A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
 
 If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above)
-or [edit this page on GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+please let us know (see Channels and repositories above).

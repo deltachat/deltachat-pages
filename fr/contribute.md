@@ -45,6 +45,5 @@ qui peuvent ou non respecter nos [normes communautaires](community-standards) :
 
 - Une [subreddit DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-Si vous avez connaissance, ou créez-vous même, des canaux additionnels,
-s'il vous plaît dites le nous (reportez vous aux canaux et repo ci-dessus)
-or [ou éditez cette page sur GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above).

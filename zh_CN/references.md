@@ -5,7 +5,8 @@ lang: zh_CN
 
 # 参考资料
 
-这个列表距离完整还很遥远——我们错过了什么吗？请[让我们知道](imprint)或直接发起一个 [pull request](https://github.com/deltachat/deltachat-pages/edit/master/en/references.md)。
+> This list is not updated frequently.
+> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Roskomsvoboda：Delta Chat 再次拒绝与俄罗斯当局合作

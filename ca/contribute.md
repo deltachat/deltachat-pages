@@ -48,6 +48,5 @@ al camp de cerca de la teva aplicació del fediverse.
 
 - Un [subreddit de DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-Si coneixes o has creat canals addicionals,
-fes-nos-ho saber (vegeu Canals i repositoris més amunt)
-o [edita aquesta pàgina a GitHub](https://github.com/deltachat/deltachat-pages/edit/master/en/contribute.md).
+If you know of, or setup yourself, additional channels,
+please let us know (see Channels and repositories above).
