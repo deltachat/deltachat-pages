@@ -8,61 +8,61 @@ header: Domande Frequenti
 
 ## Cos'è Delta Chat? 
 
-Delta Chat is a reliable, decentralized and secure instant messaging app,
-available for mobile and desktop platforms.
+Delta Chat è un'app di messaggistica istantanea affidabile, decentralizzata e sicura,
+disponibile per piattaforme mobili e desktop.
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- Creazione istantanea di **profili chat privati**
+  con [relay di chat](https://chatmail.at/relays)
+  sicuri e interoperabili che offrono l'invio di messaggi istantanei e notifiche push per dispositivi iOS e Android.
 
-- Pervasive [multi-profile](#multiple-accounts) and
-  [multi-device](#multiclient) support on all platforms
-  and between different [chatmail apps](https://chatmail.at/clients).
+- Supporto pervasivo [multi-profilo](#multiple-accounts) e
+  [multi-dispositivo](#multiclient) su tutte le piattaforme
+  e tra diverse [app di chatmail](https://chatmail.at/clients).
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+- Applicazioni interattive [in-chat](#webxdc) per giochi e collaborazione
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [Crittografia end-to-end verificata](#security-audits)
+sicura contro gli attacchi alla rete e al server.
 
-- Free and Open Source software, both app and server side,
-  built on [Internet Standards]({% include standards-url %}).
-
-
-### How can I find people to chat with? {#howtoe2ee}
-
-First, note that Delta Chat is a private messenger.
-There is no public discovery, _you_ decide about your contacts.
-
-- If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the main screen.  
-  Ask your chat partner to **scan** the QR image
-  with their Delta Chat app.
-
-- For a **remote** contact setup,
-  from the same screen,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat.
-
-Now wait while connection gets established.
-
-- If both sides are online, they will soon see a chat
-  and can start messaging securely.
-
-- If one side is offline or in bad network,
-  the ability to chat is delayed until connectivity is restored.
-
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+- Software Libero e Open Source, sia lato app che lato server,
+basato su [standard Internet]({% include standards-url %}).
 
 
-### Why is a chat marked as "Request"?
+### Come posso trovare persone con cui chattare? {#howtoe2ee}
 
-As being a private messenger,
-only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
+Innanzitutto, tieni presente che Delta Chat è un servizio di messaggistica privato.
+Non c'è accesso pubblico, sei tu a decidere quali sono i tuoi contatti.
 
-Your friends may share your contact with other friends, this appears as a **request**.
+- Se ti trovi **faccia a faccia** con un amico o un familiare,
+  tocca l'icona del **Codice QR** <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
+  nella schermata principale.  
+  Chiedi al tuo interlocutore di **scansionare** l'immagine QR
+  con la sua app Delta Chat.
+
+- Per impostare un contatto **remoto**,
+  dalla stessa schermata,
+  clicca su "Copia" o "Condividi" e invia il **link di invito**
+  tramite un'altra chat privata.
+
+Ora attendi che la connessione venga stabilita.
+
+- Se entrambe le parti sono online, vedranno presto una chat
+  e potranno iniziare a inviare messaggi in modo sicuro.
+
+- Se una delle due parti è offline o ha una rete scadente,
+  la possibilità di chattare viene ritardata finché la connettività non viene ripristinata.
+
+Congratulazioni!
+Ora utilizzerai automaticamente la [crittografia end-to-end](#e2ee) con questo contatto.
+Se vi aggiungete a vicenda a [gruppi](#groups), la crittografia end-to-end verrà stabilita tra tutti i membri.
+
+
+### Perché una chat è contrassegnata come "Richiesta"?
+
+Essendo un messenger privato,
+solo gli amici e i familiari con cui [condividi il tuo codice QR o il link di invito](#howtoe2ee) possono scriverti.
+
+I tuoi amici potrebbero condividere i tuoi contatti con altri amici; ciò apparirà come una **richiesta**.
 
 - È necessario **accettare** la richiesta prima di poter rispondere.
 
@@ -73,35 +73,35 @@ in modo da poter cambiare idea. Se non si vuole davvero ricevere
 messaggi da questa persona, prendete in considerazione la possibilità di **bloccarla**.
 
 
-### How can I put two of my friends in contact with each other?
+### Come posso mettere in contatto due miei amici?
 
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
-You can also add a little introduction message.
+Collega il primo contatto alla chat del secondo utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pulsante Allegato → Contatto**.
+Puoi anche aggiungere un breve messaggio di presentazione.
 
-The second contact will receive a **card** then
-and can tap it to start chatting with the first contact.
+Il secondo contatto riceverà una **scheda**
+e potrà toccarla per iniziare a chattare con il primo contatto.
 
 
 ### Delta Chat supporta immagini, video e altri allegati?
 
-- Sì. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+- Sì. Immagini, video, files, messaggi vocali ecc. possono essere inviati utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Allegato-**
+o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> pulsanti **Messaggio Vocale**
 
 - Per le prestazioni, le immagini sono ottimizzate e inviate in dimensioni inferiori per impostazione predefinita, ma è possibile inviarle come "file" per preservare l'originale.
 
 
 ### Cosa sono i profili? Come posso passare dall'uno all'altro? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses the server only to relay messages.
+Un profilo è costituito da **un nome, un'immagine** e alcune informazioni aggiuntive per la crittografia dei messaggi.
+Un profilo è memorizzato solo sui tuoi dispositivo(i)
+e utilizza il server solo per inoltrare i messaggi.
 
 Alla prima installazione di Delta Chat viene creato un primo profilo.
 
 Successivamente, puoi toccare l'immagine del tuo profilo nell'angolo in alto a sinistra per **Aggiungere Profili**
 o **Cambiare Profili**.
 
-You may want to use separate profiles for political, family or work related activities.
+Potresti voler utilizzare profili separati per le attività politiche, familiari o lavorative.
 
 Potresti anche voler imparare [come utilizzare lo stesso profilo su più dispositivi](#multiclient).
 
@@ -115,12 +115,12 @@ o li aggiungi tramite codice QR, la vedranno automaticamente come immagine del t
 messaggio a loro.
 
 
-### Can I set a Bio/Status with Delta Chat? {#signature}
+### Posso impostare una Biografia/Stato con Delta Chat? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Once you sent a message to a contact,
-they will see it when they view your contact details.
+Sì,
+puoi farlo in **Impostazioni → Profilo → Biografia**.
+Una volta inviato un messaggio a un contatto,
+lo vedrà quando visualizzerà i tuoi dati di contatto.
 
 
 ### Cosa significa Fissare, Silenziare, Archiviare?
@@ -165,29 +165,29 @@ che sia dal [mittente](#edit), [ripulendo il dispositivo](#delold) o per i [mess
 
 ### Cosa significa il punto verde?
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen by you** in the last 10 minutes,
-e.g. because they messaged you or sent a read receipt.
+A volte puoi vedere un **punto verde** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+accanto all'avatar di un contatto.
+Significa che sono stati **visti di recente** negli ultimi 10 minuti,
+ad es. perché ti hanno inviato un messaggio o una conferma di lettura.
 
-So this is not a real time online status
-and others will as well not always see that you are "online".
+Quindi questo non è uno stato online in tempo reale
+e anche gli altri non sempre vedranno che sei "online".
 
 
 ### Cosa significano i segni di spunta visualizzati accanto ai messaggi in uscita?
 
-- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  means that the message was sent successfully to your provider.
+- **Un segno di spunta** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  significa che il messaggio è stato inviato correttamente al tuo fornitore.
 
-- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  mean that at least one recipient's device
-  reported back to having received the message.
+- **Due spunte**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+  significa che almeno il dispositivo di un destinatario
+  ha segnalato di aver ricevuto il messaggio.
 
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
+- I destinatari potrebbero aver disattivato le conferme di lettura,
+  quindi anche se vedi solo un segno di spunta, il messaggio potrebbe essere stato letto.
 
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+- Al contrario, due spunte non significano automaticamente
+  che un essere umano abbia letto o compreso il messaggio ;)
 
 
 ### Correggi gli errori e cancella i messaggi dopo averli inviati {#edit}
@@ -215,24 +215,23 @@ in alto a destra nella finestra della chat,
 selezionando un intervallo di tempo
 compreso tra 5 minuti e 1 anno.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted both,
-on the servers,
-and in the apps itself.
+Finché l'impostazione non viene disattivata nuovamente,
+l'app Delta Chat di ciascun membro della chat si occupa
+di eliminare i messaggidopo l'intervallo di tempo selezionato.
+L'intervallo di tempo inizia
+quando il destinatario vede per la prima volta il messaggio in Delta Chat.
+I messaggi vengono eliminati sia
+sui server
+che nell'app stessa.
 
 Tieni presente che puoi fare affidamento sui messaggi che scompaiono
 solo finché ti fidi dei tuoi partner di chat;
 i partner di chat dannosi possono scattare foto,
 o altrimenti salvare, copiare o inoltrare messaggi prima della cancellazione.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the (anyway encrypted) messages may take longer to get deleted from their server.
+Oltre a ciò,
+se uno dei partecipanti alla chat disinstalla Delta Chat,
+i messaggi (comunque crittografati) potrebbero richiedere più tempo per essere eliminati dal server.
 
 
 ### Cosa succede se attivo "Elimina Messaggi dal Dispositivo"? {#delold}
@@ -244,31 +243,31 @@ messaggi automaticamente.
 in questo modo, *tutti* i messaggi saranno eliminati dal dispositivo non appena saranno
 più vecchi di quel periodo.
 
-### How can I delete my chat profile? {#remove-account} 
+### Come posso eliminare il mio profilo chat? {#remove-account}
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+Se utilizzi più di un profilo chat,
+puoi rimuoverne uno solo dal menu di selezione profilo in alto (su Android e iOS)
+o dalla barra laterale con un clic destro (nell'app Desktop).
+I profili chat vengono rimossi solo sul dispositivo in cui è stata attivata l'eliminazione.
+I profili chat sugli altri dispositivi continueranno a funzionare correttamente.
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+Se utilizzi un singolo profilo chat predefinito, puoi semplicemente disinstallare l'app.
+Ciò attiverà comunque l'eliminazione automatica di tutti i dati di indirizzo associati sul server di chatmail.
+Per maggiori informazioni, consulta [nine.testrun.org cancellazione dell'indirizzo](https://nine.testrun.org/info.html#account-deletion)
+o la pagina corrispondente del [server chatmail di 3e parti](https://chatmail.at/relays) da te scelto.
 
 
-## Groups {#groups}
+## Gruppi {#gruppi}
 
-Groups let several people chat together privately with **equal rights**.
+I gruppi consentono a più persone di chattare insieme in privato con **uguali diritti**.
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+Chiunque può
+modificare il nome o l'avatar del gruppo,
+[aggiungere o rimuovere membri](#addmembers),
+impostare [messaggi che scompaiono](#ephemeralmsgs)
+ed [eliminare i propri messaggi](#edit) dai dispositivi di tutti i membri.
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+Poiché tutti i membri hanno gli stessi diritti, i gruppi funzionano meglio se formati da **amici e familiari fidati**.
 
 
 ### Creazione di un gruppo
@@ -278,10 +277,10 @@ Because all members have the same rights, groups work best among **trusted frien
 - Non appena scrivi il **primo messaggio** nel gruppo, tutti i membri vengono informati del nuovo gruppo e possono rispondere nel gruppo (finché non scrivi un messaggio nel gruppo il gruppo è invisibile ai membri).
 
 
-### Add and remove members {#addmembers}
+### Aggiungi e rimuovi membri {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+- Tutti i membri del gruppo hanno gli **stessi diritti**.
+  Per questo motivo, tutti possono eliminare qualsiasi membro o aggiungerne di nuovi.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 

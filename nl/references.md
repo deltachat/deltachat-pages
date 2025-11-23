@@ -5,8 +5,8 @@ lang: nl
 
 # Verwijzingen
 
-> This list is not updated frequently.
-> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
+> Let op: deze lijst wordt onregelmatig bijgewerkn.
+> Meer referenties en live-recensies zijn te vinden op [de fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Roskomsvoboda: Delta Chat weigerde wederom samen te werken met Russische autoriteiten

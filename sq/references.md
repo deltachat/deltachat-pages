@@ -5,29 +5,30 @@ lang: sq
 
 # Referenca
 
-> This list is not updated frequently.
-> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
+> Kjo listë s’përditësohet shpesh.
+> Mund të gjeni më tepër referenca më të freskëta dhe përshtypje nga përdorues, në [Fedivers](https://chaos.social/tags/deltachat).
 
 
-### Roskomsvoboda: Delta Chat again refused to cooperate with Russian authorities
+### Roskomsvoboda: Delta Chat s’pranoi sërish të bashkëpunojë me autoritetet ruse
 
-Translated summary:
-_"In its response to the agency,
-the service also clarified that it is an app
-that allows users to choose email providers at will,
-and it does not have access to the contents of messages,
-let alone the encryption keys that only exist on users' devices."_
+Përmbledhje përkthimi:
+_“Në përgjigjen e vet për agjencinë,
+shërbimi sqaroi gjithashtu se është një aplikacion
+që i lejon përdoruesit të zgjedhin shërbim email sipas dëshirës,
+dhe se nuk hyn te lënda e mesazheve,
+pa lere te kyçet e fshehtëzimit, që ekzistojnë vetëm në pajisjet e përdoruesve.”_
 
 2024-06-14, <https://roskomsvoboda.org/ru/post/delta-chat-snova-otkazal-roskomnadzoru/>
 
 
-### РБК (Major Russian Newspaper): Why are Russian Internet outages becoming more frequent and how to stay connected?
+### РБК (Gazetë e Njohur Ruse): Pse po bëhen më të shpeshta ndërprerjet e internetit në Rusi dhe si të mbeteni të lidhur në internet?
 
-Translated summary:
-_"Another messenger that is also resistant to communication problems is Delta Chat.
-It sends messages using regular e-mail protocols,
-and e-mail, as experts note,
-is very resistant to common communication problems."_
+Përmbledhje e përkthyer:
+_“Një tjetër shkëmbyes mesazhesh që është gjithashtu i qëndrueshëmt
+ndaj problemesh komunikimi është Delta Chat.
+I dërgon mesazhet duke përdorur protokolle të rregullta email-i,
+dhe email-i, siç vënë në dukje ekspertët, është shumë i qëndrueshëm
+ndaj problemeve të rëndomtë të komunikimit.”_
 
 2024-04-21, <https://www.rbc.ru/spb_sz/21/04/2024/662216e09a79475ba9366e20>
 
@@ -85,18 +86,17 @@ Mund të thosha edhe se mund madje Matrix-in ose XMPP-në."_
 14.01.2021, <https://jlelse.blog/posts/email-messenger-delta-chat>
 
 
-### NixFAQ: Delta Chat, a libre decentralized Chat-over-Email End-to-End Encrypted messaging solution
+### NixFAQ: Delta Chat, një zgjidhje “libre”, e decentralizuar shkëmbimi mesazhesh Fjalosje-përmes-Email-i, e Fshehtëzuar Skaj-Më-Skaj
 
-_"Delta Chat uses existing email addresses as an identifier.
-By default, no address book data (such as telephone number)
-are read out or transmitted to external servers,
-as is the case with messengers such as WhatsApp and Co.
-In contrast to many other messengers,
-Delta Chat enables an identifier
-that is not linked to the telephone number.
-A welcome exception."_
+_“Delta Chat përdor si identifikues adresa ekzistuese email.
+Si parazgjedhje, nuk lexohen, apo transmetohen te shërbyes
+të jashtëm të dhëna libri adresash (b.f., një numër telefoni),
+siç bëjnë shkëmbyes të tillë mesazhesh si WhatsApp me shokë.
+Ndryshe nga shumë shkëmbyes të tjerë mesazhesh, Delta Chat
+përdor një identifikues që s’është i lidhur me numër telefoni.
+Një përjashtim i mirëpritur.”_
 
-2020-09-27, <https://nixfaq.org/2020/09/delta-chat-a-libre-decentralized-chat-over-email-end-to-end-encrypted-messaging-solution.html>
+27.09.2020, <https://nixfaq.org/2020/09/delta-chat-a-libre-decentralized-chat-over-email-end-to-end-encrypted-messaging-solution.html>
 
 
 ### Vodafone (Operator gjerman telekomunikacionesh): Delta Chat: So funktioniert der Messenger-Konkurrent von WhatsApp

@@ -49,5 +49,5 @@ lang: ru
 
 -  [Сообщество DeltaChat на Reddit](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above).
+Если вы знаете или настроили дополнительные каналы,
+пожалуйста, сообщите нам об этом (см. разделы Каналы и репозитории выше).

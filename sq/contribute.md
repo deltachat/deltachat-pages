@@ -49,5 +49,5 @@ te fusha e kërkimeve të aplikacionit tuaj për fediverse.
 
 - Një [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above).
+Nëse dini ndonjë, ose ujdisni ju vetë, kanale shtesë,
+ju lutemi, na thoni (shihni Kanale dhe depo më sipër).

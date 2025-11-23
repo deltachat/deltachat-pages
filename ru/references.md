@@ -5,8 +5,8 @@ lang: ru
 
 # Упоминания
 
-> This list is not updated frequently.
-> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
+> Этот список обновляется нечасто.
+> Вы можете найти множество новых упоминаний и отзывов пользователей в режиме реального времени на [Fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Роскомсвобода: Delta Chat снова отказался от сотрудничества с российскими властями

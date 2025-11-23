@@ -8,8 +8,8 @@ header: Часто задаваемые вопросы (FAQ)
 
 ## Что такое Delta Chat? 
 
-Delta Chat is a reliable, decentralized and secure instant messaging app,
-available for mobile and desktop platforms.
+Delta Chat — надежное, децентрализованное и безопасное приложение для мгновенных сообщений,
+доступное для мобильных и настольных платформ.
 
 - Instant creation of **private chat profiles**
   with secure and interoperable [chatmail relays](https://chatmail.at/relays)
@@ -336,7 +336,7 @@ This makes Delta Chat a truly extensible messenger.
 - You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
 
 
-### How private are in-chat apps?
+### Насколько конфиденциальны приложения внутри чата?
 
 - In-chat apps can not send data to the Internet, or download anything.
 
@@ -350,7 +350,7 @@ This makes Delta Chat a truly extensible messenger.
 - This also means: Just like for web links, do not open apps from untrusted contacts.
 
 
-### How can I create my own in-chat apps? {#create-xdc}
+### Как создать собственные приложения внутри чата? {#create-xdc}
 
 - In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
 
@@ -392,8 +392,8 @@ Push-уведомления автоматически активируются 
 
 ### Включены / нужны ли Push-уведомления на устройствах Android? {#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
+Если доступен "push-сервис" Delta Chat включает push-уведомления,
+чтобы обеспечить мгновенную доставку сообщений для всех пользователей chatmail.
 
 В настройках Delta Chat "Уведомления", раздел "Мгновенная доставка"
 вы можете изменить следующие настройки, которые влияют на все профили чата:
@@ -446,10 +446,10 @@ to any system involved in the delivery of Push Notifications.
 забывает о токенах устройств, как только Apple/Google/и т. д. обработали их,
 обычно за несколько миллисекунд.
 
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees profile data, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
+Обратите внимание, что токен устройства шифруется при передаче между приложениями и прокси-сервером уведомлений
+но не подписывается. 
+Таким образом, прокси-сервер уведомлений никогда не видит данные профиля, IP-адреса или
+какую-либо криптографическую идентификационную информацию, связанную с устройством (токеном) пользователя. 
 
 В результате такого общего подхода к обеспечению конфиденциальности, даже захват почтового сервера chatmail,
 или полный захват центрального прокси-сервера уведомлений Delta Chat
@@ -463,10 +463,10 @@ Delta Chat — это бесплатный децентрализованный 
 такую же, что и в приложениях WhatsApp, Signal или Telegram,
 не задавая вопросов, которые больше подходят для опытных пользователей или разработчиков.
 
-Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
-that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable chatmail relay network :)
+Обратите внимание, что в Delta Chat используется [компактная и приватная система push-уведомлений](#privacy-notifications)
+которая обеспечивает "мгновенную доставку" сообщений для всех серверов chatmail
+включая тот, [который вы можете настроить сами без нашего разрешения](https://delta.chat/chatmail#selfhosted).
+Добро пожаловать в мощную интероперабельную сеть релеев chatmail :)
 
 
 
@@ -560,7 +560,7 @@ Welcome to the power of the interoperable chatmail relay network :)
 
 ## Расширенные
 
-### Experimental Features
+### Экспериментальные функции
 
 At **Settings → Advanced → Experimental Features**
 you can try out features we are working on.
@@ -592,7 +592,7 @@ We are interested e.g. in statistics like:
 We will _not_ collect any personally identifiable information about you.
 
 
-### Can I use a classic email address with Delta Chat?
+### Могу ли я использовать обычный адрес электронной почты с Delta Chat?
 
 Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
 
@@ -626,13 +626,12 @@ These messages, and the chats they appear in, are marked with an email icon
 
 ### Я хочу управлять своим собственным сервером для Delta Chat. Что вы посоветуете?
 
-Any well behaving email server setup will do fine 
-except if your users' devices require Google/Apple [Push Notifications](#instant-delivery) to work properly.
+Подойдет любая корректная настройка почтового сервера, за исключением случаев, когда для корректной работы устройств ваших пользователей требуются [Push-уведомления](#instant-delivery) Google/Apple.
 
-We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
-[Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
-and [core Rust developments](https://github.com/chatmail/core) 
-that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
+Мы обычно рекомендуем [настроить chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
+[Chatmail](https://chatmail.at)  — это проект, поддерживаемый сообществом который охватывает как настройку релеев, так
+и [основные разработки на Rust](https://github.com/chatmail/core) 
+которые обеспечивают работу [клиентов chatmail](https://chatmail.at/clients) наиболее известным из которых является Delta Chat. 
 
 
 ### Меня интересуют технические детали. Можете рассказать больше?
@@ -660,20 +659,20 @@ Delta Chat использует [безопасное подмножество �
 
 Delta Chat не запрашивает, не публикует и не взаимодействует с какими-либо серверами ключей OpenPGP.
 
-### How can I know if messages are end-to-end encrypted? {#whene2e}
+### Как узнать, зашифрованы ли сообщения с помощью сквозного шифрования? {#whene2e}
 
 Все сообщения в Delta Chat **по умолчанию шифруются сквозным шифрованием**.
 С момента выхода серии релизов Delta Chat версии 2 (июль 2025 года) 
 на сообщениях со сквозным шифрованием больше не отображаются замки или другие подобные индикаторы. 
 
-### Can I still receive or send messages without end-to-end encryption?
+### Могу ли я получать или отправлять сообщения без сквозного шифрования?
 
 Если вы используете стандартные [ретрансляторы chatmail](https://chatmail.at/relays),
 невозможно получать или отправлять сообщения без сквозного шифрования. 
 
-If you instead use a [classic email server](#classic-email),
-you can send and receive messages with or without end-to-end encryption.
-Messages lacking end-to-end encryption are marked with an email icon
+Если вы вместо этого используете [классический почтовый сервер](#classic-email),
+вы можете отправлять и получать сообщения с использованием или без сквозного шифрования.
+Сообщения, не имеющие сквозного шифрования, отмечены значком электронной почты
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
@@ -729,10 +728,10 @@ Delta Chat вместо этого использует реализацию Ope
 
 ### Рассматривали ли вы альтернативы OpenPGP для сквозного шифрования? {#openpgp-alternatives}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-but adopting them would mean breaking end-to-end encryption interoperability.
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+Да, мы следим за разработками, такими как [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
+но их внедрение означало бы потерю совместимости сквозного шифрования.
+Так что это будет непростое решение 
+и оно должно принести пользователям ощутимые улучшения. 
 
 Delta Chat использует комплексный подход "удобной безопасности" 
 и работает с широким кругом групп активистов, а также 
@@ -760,21 +759,21 @@ Delta Chat также никогда не был уязвим к атаке "Dir
 
 ### Видны ли в Интернете сообщения, отмеченные значком почты? {#tls}
 
-If you are sending or receiving email messages without end-to-end encryption (using a classic email server),
-they are still protected from cell or cable companies who can not read or modify your email messages.
-But both your and your recipient's email providers
-may read, analyze or modify your messages, including any attachments. 
+Если вы отправляете или получаете электронные сообщения без сквозного шифрования (используя классический почтовый сервер),
+они всё равно защищены от операторов сотовой связи или интернет-провайдеров, которые не могут прочитать или изменить ваши электронные сообщения. 
+Однако и ваш почтовый провайдер, и почтовый провайдер вашего получателя 
+могут читать, анализировать или изменять ваши сообщения, включая любые вложения. 
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your email provider.
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's email provider
-will typically be transport-encrypted as well.
-If the involved email servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between email providers
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+Delta Chat по умолчанию использует строгое 
+[TLS-шифрование](https://en.wikipedia.org/wiki/Transport_Layer_Security), 
+которое защищает соединения между вашим устройством и провайдером электронной почты. 
+Вся обработка TLS в Delta Chat прошла независимый [аудит безопасности](#security-audits).
+Более того, соединение между вашим устройством и провайдером электронной почты получателя
+как правило, также будет зашифровано.
+Если задействованные серверы электронной почты поддерживают [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461),
+то между провайдерами электронной почты будет применяться протокол защиты транспортного уровня. 
+В этом случае сообщения Delta Chat никогда не будут переданы в открытом виде через Интернет,
+даже если сообщение не было зашифровано сквозным шифрованием.
 
 
 ### Как Delta Chat защищает метаданные в сообщениях? {#message-metadata}
@@ -783,26 +782,26 @@ even if the message was not end-to-end encrypted.
 приложения Delta Chat не сохраняют никакие метаданные о контактах или группах на серверах, даже в зашифрованной форме. 
 Вместо этого все групповые метаданные шифруются сквозным шифрованием и хранятся исключительно на устройствах конечных пользователей. 
 
-Servers can therefore only see:
+Таким образом, серверы могут видеть только:
 
-- the sender and receiver addresses
-- and the message size.
+- адрес отправителя и получателя
+- а также размер сообщения.
 
-By default, the addresses are randomly generated.
+По умолчанию адреса генерируются случайным образом.
 
 Все прочие метаданные сообщений, контактов и групп содержатся в части сообщений, защищённой сквозным шифрованием.
 
 ### Как защитить метаданные и контакты при изъятии устройства? {#device-seizure}
 
-Both for protecting against metadata-collecting servers 
-as well as against the threat of device seizure
-we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create chat profiles using random addresses for transport. 
-Note that Delta Chat apps on all platforms support multiple profiles
-so you can easily use situation-specific profiles next to your "main" profile
-with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then chat contacts using short-lived profiles
-can not be identified easily. 
+Для защиты от серверов электронной почты, собирающих метаданные, 
+а также от угрозы конфискации устройства,
+мы рекомендуем использовать [релей chatmail](https://chatmail.at/relays)
+для создания чат-профилей с использованием случайных электронных адресов для передачи сообщений. 
+Обратите внимание, что приложения Delta Chat на всех платформах поддерживают несколько профилей,
+так что вы можете легко использовать отдельные профили, для конкретной ситуации, помимо вашего "основного" профиля,
+зная, что все их данные, вместе с метаданными, будут удалены.
+Кроме того, если устройство изъято, контакты, использующие временные профили,
+не могут быть легко идентифицированы. 
 
 ### Поддерживает ли Delta Chat функцию "Sealed Sender" (Засекреченный отправитель)? {#sealedsender}
 
@@ -813,11 +812,11 @@ can not be identified easily.
 Это особенно важно, поскольку сервер Signal знает мобильный номер каждого аккаунта,
 который обычно привязан к паспортным данным.
 
-Even if [chatmail relays](https://chatmail.at/relays) 
-do not ask for any private data (including no phone numbers), 
-it might still be worthwhile to protect relational metadata between addresses. 
-We don't foresee bigger problems in using random throw-away addresses for sealed sending
-but an implementation has not been agreed as a priority yet. 
+Даже если [релеи chatmail](https://chatmail.at/relays) 
+не запрашивают никаких личных данных (включая телефонные номера), 
+всё равно может быть полезно защитить реляционные метаданные между адресами 
+Мы не видим серьёзных проблем в использовании случайных одноразовых электронных адресов для функции sealed sender,
+но реализация пока не определена как приоритетная задача. 
 
 ### Поддерживает ли Delta Chat свойство Perfect forward secrecy, PFS (Совершенную прямую секретность)? {#pfs}
 
@@ -931,10 +930,10 @@ Delta Chat генерирует безопасные ключи OpenPGP в со�
 
 ### Какие разрешения нужны Delta Chat?
 
-Some features require certain permissions,
-e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
+Некоторые функции требуют определенных разрешений,
+например, вам нужно предоставить разрешение на использование камеры, если вы хотите [отсканировать QR-код приглашения](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/en/gdpr#24-app-permissions) for a detailed overview.
+Подробную информацию можно найти в [Политике конфиденциальности](https://delta.chat/en/gdpr#24-app-permissions).
 
 
 ### Где мои друзья могут найти Delta Chat?
@@ -945,8 +944,8 @@ Delta Chat доступен на всех популярных и некотор
 
 - Если основной сайт недоступен, используйте **зеркало** <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
+- Откройте один из следующих **магазинов приложений и найдите "Delta Chat":**
+  Google Play Store, F-Droid, Huawei App Gallery, iOS и macOS App Store, Microsoft Store
 
 - Проверьте **менеджер пакетов** вашего дистрибутива Linux
 
@@ -982,14 +981,14 @@ Delta Chat не получает никакого венчурного капи�
 - [Фонд NLnet](https://nlnet.nl/) выделил в 2019/2020 году 46 тыс. евро на
 завершение привязки Rust/Python и создание экосистемы чат-ботов.
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
+- В 2021 г. мы получили дополнительное финансирование из ЕС для двух Next-Generation-Internet
+  целей, а именно для [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97 тыс. евро) и [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90 тыс. евро). Это привело к улучшению поддержки нескольких профилей, улучшению настройки контактов и групп с помощью QR-кода и многим улучшениям в сетевом взаимодействии на всех платформах.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of email servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- С конца 2021 года по март 2023 года мы получили финансирование в размере ($500 тыс.) от
+  U.S. Bureau of Democracy, Human Rights and Labor (DRL) для поддержки *свободы интернета*. 
+  Это финансирование поддержало наши долгосрочные цели, сделать Delta Chat более удобным для использования 
+  и совместимым с широким спектром электронных почтовых серверов по всему миру, а также более устойчивым
+  и безопасным в местах, часто подвергающихся интернет-цензуре и отключениям.
 
 - 2023-2024 мы завершили проект финансируемый OTF 
   [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 

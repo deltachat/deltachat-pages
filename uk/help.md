@@ -8,12 +8,12 @@ header: Часті питання
 
 ## Що таке Delta Chat?
 
-Delta Chat is a reliable, decentralized and secure instant messaging app,
-available for mobile and desktop platforms.
+Delta Chat це надійний, децентралізований застосунок, для безпечного та миттєвого спілкування, 
+доступний на мобільних та настільних платформах.
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- Миттєве створення **приватних профілів чату**
+ за допомогою безпечних та сумісних [ретрансляторів чат-пошти](https://chatmail.at/relays)
+ які пропонують миттєву доставку повідомлень та push-сповіщення для пристроїв iOS та Android.
 
 - Pervasive [multi-profile](#multiple-accounts) and
   [multi-device](#multiclient) support on all platforms
@@ -28,7 +28,7 @@ available for mobile and desktop platforms.
   built on [Internet Standards]({% include standards-url %}).
 
 
-### How can I find people to chat with? {#howtoe2ee}
+### Як мені знайти людей для спілкування? {#howtoe2ee}
 
 First, note that Delta Chat is a private messenger.
 There is no public discovery, _you_ decide about your contacts.
