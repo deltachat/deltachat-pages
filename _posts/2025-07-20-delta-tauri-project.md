@@ -202,7 +202,7 @@ Unfortunately RAM usage is not much less compared to Electron, often Delta Chat 
 
 ### State of Tauri Edition
 
-The Tauri edition has all features that the Electron version has besides of the location streaming map, but there are still some bugs especially on Linux, which prevent us from fully switching to Tauri.
+The Tauri edition has all features that the Electron version has (except for calling and the location streaming map), but there are still some bugs especially on Linux, which prevent us from fully switching to Tauri.
 
 The Tauri edition also has a few extras that the Electron Edition has not:
 
