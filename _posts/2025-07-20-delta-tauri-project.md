@@ -125,8 +125,10 @@ permissions = [
 
 You can find the capabilities for all windows at [deltachat-desktop/packages/target-tauri/src-tauri/capabilities](https://github.com/deltachat/deltachat-desktop/tree/main/packages/target-tauri/src-tauri/capabilities).
 
-> As someone who worked on the Tauri 2.0 audit, I appreciated the use of window capabilities to further sandbox webxdc apps. 
-> - Morgan Hill from Radically Open Security
+<blockquote>
+  <p>As someone who worked on the Tauri 2.0 audit, I appreciated the use of window capabilities to further sandbox webxdc apps.</p>
+  <footer>— Morgan Hill <a href="https://infosec.exchange/@pcwizz">@pcwizz@infosec.exchange</a></footer>
+</blockquote>
 
 <!-- TODO rephrase -->
 
