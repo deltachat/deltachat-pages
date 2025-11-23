@@ -48,5 +48,5 @@ Het zou kunnen dat zij zich niet aan onze [gemeenschapsstandaarden](community-st
 
 - Een [DeltaChat-subreddit](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above).
+Als je andere kanalen kent of zelf iets hebt opgezet,
+laat het ons dan weten. Ga hiervoor naar ‘Kanalen en repo's’.
