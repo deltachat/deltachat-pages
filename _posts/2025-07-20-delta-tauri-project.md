@@ -125,6 +125,9 @@ permissions = [
 
 You can find the capabilities for all windows at [deltachat-desktop/packages/target-tauri/src-tauri/capabilities](https://github.com/deltachat/deltachat-desktop/tree/main/packages/target-tauri/src-tauri/capabilities).
 
+> As someone who worked on the Tauri 2.0 audit, I appreciated the use of window capabilities to further sandbox webxdc apps. 
+> - Morgan Hill from Radically Open Security
+
 <!-- TODO rephrase -->
 
 We gave the sandboxing of webxdc apps special attention, because webxdc apps can run user defined code and we gave webxdc the strong privacy by prohibiting data ex-filtration over the internet. Fortunately Tauri has a reliable way to deny access to the WebRTC API on all platforms without the [FILL500 hack](https://delta.chat/en/2023-05-22-webxdc-security#fill500-disabling-webrtc-on-chromium) (which we currently still use on Android and in the Electron edition).
@@ -134,8 +137,6 @@ Tauri does not have access to the file scheme in general, so we load all files o
 ```
 dcblob://<account folder name>/<blob filename>
 ```
-
-<!-- TODO: mention audit and quotes from it  -->
 
 If you want to dive deeper, here is a list of the other security measures that we implemented: [tauri-apps/tauri#5755 (comment)](https://github.com/tauri-apps/tauri/issues/5755#issuecomment-2815613067)
 
