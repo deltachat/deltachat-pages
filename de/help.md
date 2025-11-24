@@ -8,53 +8,46 @@ header: Häufig gestellte Fragen
 
 ## Was ist Delta Chat?
 
-Delta Chat is a reliable, decentralized and secure instant messaging app,
-available for mobile and desktop platforms.
+Delta Chat ist eine zuverlässige, dezentralisierte und sichere Instant-Messaging-App, verfügbar für Mobile- und Desktop-Plattformen.
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- Einfache Erstellung von **privaten Chat-Profile** mit sicheren, schnellen und interoperablen [Chatmail-Servern](https://chatmail.at/relays),
+die sofortige Push-Benachrichtigungen für iOS- und Android-Geräte bieten. 
 
-- Pervasive [multi-profile](#multiple-accounts) and
-  [multi-device](#multiclient) support on all platforms
-  and between different [chatmail apps](https://chatmail.at/clients).
+- Durchgängige [Mehrprofil](#multiple-accounts)- und [Mehrgeräte](#multiclient)-Unterstützung auf allen Plattformen und zwischen verschiedenen [Chatmail Apps](https://chatmail.at/clients)
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+- Interaktive [In-Chats-Apps](#webxdc) zum Spielen und für die Zusammenarbeit
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [Geprüfte Ende-zu-Ende-Verschlüsselung](#security-audits), 
+sicher gegen Netzwerk- und Serverangriffe. 
 
-- Free and Open Source software, both app and server side,
-  built on [Internet Standards]({% include standards-url %}).
+- Freie und quelloffene Software, sowohl app- als auch serverseitig, 
+basierend auf [Internet-Standards]({% include standards-url %}).
 
 
 ### Wie finde ich Leute, mit denen ich chatten kann? {#howtoe2ee}
 
-First, note that Delta Chat is a private messenger.
-There is no public discovery, _you_ decide about your contacts.
+Beachte zunächst, dass Delta Chat ein privater Messenger ist.
+Es gibt keine öffentliches Verzeichnis, du entscheiden selbst über deine Kontakte.
 
-- If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the main screen.  
-  Ask your chat partner to **scan** the QR image
-  with their Delta Chat app.
+- Wenn du **persönlich** mit deinen Freunden oder Familie zusammen bist,
+  tippe auf das **QR-Code**-Symbol <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
+  auf dem Hauptbildschirm.  
+  Bitte deinen Chatpartner den QR-Code mit Delta Chat zu **scannen**.
 
-- For a **remote** contact setup,
-  from the same screen,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat.
+ Für eine Kontaktaufnahme **aus der Ferne**, klicke im selben Bildschirm auf "Kopieren" oder "Teilen" und sende den **Einladungslink** über einen anderen privaten Chat.
 
-Now wait while connection gets established.
+Wartet nun, bis die Verbindung hergestellt ist.
 
-- If both sides are online, they will soon see a chat
-  and can start messaging securely.
+- Wenn beide Seiten online sind, wird ein Chat angezeigt und ihr könnt sicher miteinander chatten.
 
-- If one side is offline or in bad network,
-  the ability to chat is delayed until connectivity is restored.
+- Wenn eine Seite offline ist oder eine schlechte Netzwerkverbindung hat,
+wird die Chat-Funktion verzögert, bis die Verbindung wiederhergestellt ist.
 
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+Glückwunsch! 
+Du verwendest jetzt automatisch eine [Ende-zu-Ende-Verschlüsselung](#e2ee)
+mit deinem Kontakt. 
+Wenn man sich gegenseitig zu [Gruppen](#groups) hinzufügt,
+wird eine Ende-zu-Ende-Verschlüsselung zwischen allen Mitgliedern eingerichtet. 
 
 
 ### Warum ist ein Chat als "Anfrage" markiert?
