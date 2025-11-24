@@ -11,7 +11,7 @@ Ihre Spende hilft dabei, die freie und Open Source-Zukunft der dezentralen priva
 
 - Über [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate) spenden
 
-- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
+- Bitcoins senden an [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX, Kontoinhaber (bitte immer angeben): Björn Petersen
 

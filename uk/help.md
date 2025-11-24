@@ -19,10 +19,10 @@ Delta Chat це надійний, децентралізований засто�
   [multi-device](#multiclient) support on all platforms
   and between different [chatmail apps](https://chatmail.at/clients).
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+- Інтерактивні [веб-застосунки у чатах](https://webxdc.org/) для ігор та співпраці
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [Аудитоване наскрізне шифрування](#security-audits)
+ захищене від мережевих та серверних атак. 
 
 - Free and Open Source software, both app and server side,
   built on [Internet Standards]({% include standards-url %}).
@@ -44,7 +44,7 @@ There is no public discovery, _you_ decide about your contacts.
   click "Copy" or "Share" and send the **invite link**
   through another private chat.
 
-Now wait while connection gets established.
+Зараз зачекайте, поки встановлюється з'єднання.
 
 - If both sides are online, they will soon see a chat
   and can start messaging securely.
@@ -52,9 +52,9 @@ Now wait while connection gets established.
 - If one side is offline or in bad network,
   the ability to chat is delayed until connectivity is restored.
 
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+Вітаємо! 
+Тепер Ви автоматично використовуватимете [наскрізне шифрування](#e2ee) з цим контактом.
+Якщо ви додасте один одного у [групи](#groups), наскрізне шифрування буде встановлено між усіма учасниками. 
 
 
 ### Why is a chat marked as "Request"?
@@ -98,7 +98,7 @@ and uses the server only to relay messages.
 
 Пізніше ви можете натиснути на зображення вашого профілю у верхньому лівому кутку, щоб вибрати **Додати профілі** або **Переключити профілі**.
 
-You may want to use separate profiles for political, family or work related activities.
+Ви можете використовувати окремі профілі для політичної, сімейної або робочої діяльності.
 
 Ви також можете дізнатися [як використовувати один і той самий профіль на декількох пристроях](#multiclient).
 
@@ -110,7 +110,7 @@ You may want to use separate profiles for political, family or work related acti
 - Із міркувань приватності, ніхто не бачить ваше зображення профілю доки ви їм не напишете.
 
 
-### Can I set a Bio/Status with Delta Chat? {#signature}
+### Чи можу я встановити біографію/статус у Delta Chat? {#signature}
 
 Yes,
 you can do so under **Settings → Profile → Bio**.
@@ -221,7 +221,7 @@ the (anyway encrypted) messages may take longer to get deleted from their server
 - Щоб увімкнути його, перейдіть до «видалити старі повідомлення з пристрою» в налаштуваннях «Чатів та медіа» . Ви можете встановити часові рамки від «через годину» до «через рік»; 
 Таким чином, *усі* повідомлення будуть видалені з вашого пристрою, як тільки вони будуть старішими за це.
 
-### How can I delete my chat profile? {#remove-account} 
+Як я можу видалити свій профіль у Delta Chat? {#remove-account} 
 
 If you are using more than one chat profile,
 you can remove single ones in the top profile switcher menu (on Android and iOS),
@@ -235,9 +235,9 @@ For more info, please refer to [nine.testrun.org address-deletion](https://nine.
 or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
 
 
-## Groups {#groups}
+## Групи {#groups}
 
-Groups let several people chat together privately with **equal rights**.
+Групи дозволяють кільком людям спілкуватися у приватному чаті з **рівними правами**.
 
 Anyone can
 change the group name or avatar,
@@ -245,7 +245,7 @@ change the group name or avatar,
 set [disappearing messages](#ephemeralmsgs),
 and [delete their own messages](#edit) from all member's devices.
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+Оскільки усі учасники мають однакові права, групи найкраще працюють серед **довірених друзів та родичів**.
 
 
 ### Створення групи
@@ -255,10 +255,10 @@ Because all members have the same rights, groups work best among **trusted frien
 - Як тільки ви напишете **перше повідомлення** у групу, усі учасники будуть проінформовані про нову групу і зможуть відповісти у нову групу (доки ви не напишете повідомлення у групі, група залишатиметься невидимою для учасників).
 
 
-### Add and remove members {#addmembers}
+### Додавання та видалення учасників {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+- Усі учасники групи мають **однакові права**.
+  Тому кожен може видалити будь-якого учасника або додати нових.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -286,7 +286,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 - Ви також можете "Заглушити" групу - це означає, що ви будете отримувати усі повідомлення та можете писати у групу, але ви більше не будете отримувати сповіщення про нові повідомлення.
 
-### Cloning a group
+### Клонування групи
 
 You can duplicate a group to start a separate discussion
 or to exclude members without them noticing.
@@ -296,8 +296,8 @@ or to exclude members without them noticing.
 
 - Set a new name, choose an avatar, and adjust the member list if needed.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
+Нова група є **цілком незалежною** від оригінальної,
+котра продовжує працювати як раніше.
 
 
 ## In-chat apps {#webxdc}
@@ -334,8 +334,8 @@ This makes Delta Chat a truly extensible messenger.
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
 
-- All else you need to know is written in the
-  [Webxdc documentation](https://webxdc.org/docs).
+- Все інше, що Вам потрібно знати, написано у
+[документації Webxdc](https://webxdc.org/docs).
 
 - If you have question, you can ask others with experience
   in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
@@ -484,15 +484,15 @@ Welcome to the power of the interoperable chatmail relay network :)
 
 ## Advanced
 
-### Experimental Features
+### Експериментальні функції
 
 At **Settings → Advanced → Experimental Features**
 you can try out features we are working on.
 
-The features may be **unstable** and may be **changed or removed**.
+Ці функції можуть бути **нестабільними** та можуть бути **змінені або видалені**.
 
-You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
+Ви можете знайти додаткову інформацію
+та залишити відгук на [форумі](https://support.delta.chat).
 
 
 ### What is "Send statistics to Delta Chat's developers"? {#statssending}
@@ -504,8 +504,8 @@ to send anonymous usage statistics.
 You can turn it on and off at
 **Settings → Advanced → Send statistics to Delta Chat's developers**.
 
-When you turn it on,
-weekly statistics will be automatically sent to a bot.
+Коли Ви увімкнете цю функцію,
+щотижнева статистика буде автоматично надсилатися боту.
 
 We are interested e.g. in statistics like:
 
@@ -513,7 +513,7 @@ We are interested e.g. in statistics like:
 - Which versions of Delta Chat are being used?
 - How many messages are unencrypted?
 
-We will _not_ collect any personally identifiable information about you.
+Ми _не_ будемо збирати жодних персональних даних, які б могли ідентифікувати Вас особисто.
 
 
 ### Can I use a classic email address with Delta Chat?
@@ -579,11 +579,11 @@ Delta Chat використовує [безпечну підмножину ст�
 
 Delta Chat не запитує, не публікує і не взаємодіє з будь-якими серверами ключів OpenPGP. 
 
-### How can I know if messages are end-to-end encrypted? {#whene2e}
+### Як дізнатися, чи повідомлення зашифровано наскрізним шифруванням? {#whene2e}
 
 Всі повідомлення в Delta Chat за замовчуванням **наскрізно зашифровані**. Починаючи з версії 2 Delta Chat (липень 2025 року) на наскрізних зашифрованих повідомленнях більше немає замків або інших подібних маркерів. 
 
-### Can I still receive or send messages without end-to-end encryption?
+### Чи можу я отримувати та надсилати пошту без наскрізного шифрування? 
 
 Якщо ви використовуєте стандартні [ретранслятори чату](https://chatmail.at/relays), неможливо отримувати або надсилати повідомлення без наскрізного шифрування. 
 
@@ -660,10 +660,10 @@ even if the message was not end-to-end encrypted.
 
 Servers can therefore only see:
 
-- the sender and receiver addresses
-- and the message size.
+- адреси відправника та одержувача
+- та розмір повідомлення.
 
-By default, the addresses are randomly generated.
+За замовчуванням адреси генеруються випадковим чином.
 
 Усі інші метадані повідомлень, контактів і груп містяться в наскрізно зашифрованій частині повідомлень.
 
@@ -746,7 +746,7 @@ Delta Chat генерує безпечні ключі OpenPGP відповідн
 Some features require certain permissions,
 e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/en/gdpr#24-app-permissions) for a detailed overview.
+Дивіться [політику конфіденційності](https://delta.chat/en/gdpr#24-app-permissions) для детального огляду.
 
 
 ### Де мої друзі можуть знайти Delta Chat?
