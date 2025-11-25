@@ -868,7 +868,7 @@ We do not recommend or offer users to perform manual key management.
 We want to ensure that security audits can focus on a few proven cryptographic algorithms
 instead of the full breadth of possible algorithms allowed with OpenPGP.
 If you want to extract your OpenPGP key, there only is an expert method:
-you need to look it up in the "keypairs" sqlite table of a profile backup tar-file.
+you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
 
 
 ### Was Delta Chat independently audited for security vulnerabilities? {#security-audits}
