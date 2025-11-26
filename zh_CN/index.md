@@ -7,7 +7,7 @@ lang: zh_CN
 
 💬 稳定可靠的即时通讯，支持多账户和多设备
 
-⚡️ 注册[安全快速的 Chatmail 服务器](chatmail) 或使用[传统电子邮件服务器](https://providers.delta.chat/)
+⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
 
 🥳 在聊天中体验互动[网页应用](https://webxdc.org/)，一起游戏和协作
 

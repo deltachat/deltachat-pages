@@ -7,7 +7,7 @@ lang: pl
 
 💬 Niezawodny komunikator z obsługą wielu profili i wielu urządzeń
 
-⚡️ Zarejestruj się, aby korzystać z [bezpiecznych i szybkich serwerów chatmail](chatmail) lub korzystaj z [tradycyjnych serwerów e-mail](https://providers.delta.chat/)
+⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
 
 🥳 Interaktywne [aplikacje internetowe w czatach](https://webxdc.org/) do gier i współpracy
 

@@ -7,7 +7,7 @@ lang: de
 
 ## Android
 
-Um Android-APKs zu verifizieren, können Sie überprüfen, ob das Signatur-Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:
+Um Android-APKs zu verifizieren, prüfe, ob das Signatur-Zertifikat einem der folgenden SHA256-Fingerabdrücke entspricht:
 
 * Für F-Droid-Downloads: 
 `{% include fingerprint-f-droid %}`
@@ -20,9 +20,9 @@ Um den SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das fo
 
 ## Desktop
 
-You can find detailed instructions for verification at `https://download.delta.chat/desktop/v<version>/signature.asc`
+Detaillierte Anweisungen zur Verifikation findest du unter `https://download.delta.chat/desktop/v<version>/signature.asc`
 
-The public key used for signing desktop releases is published below and on <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+Der für die Signierung von Desktop-Versionen verwendete öffentliche Schlüssel wird unten und unter <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu> veröffentlicht.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

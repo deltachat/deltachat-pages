@@ -7,7 +7,7 @@ lang: es
 
 💬 Mensajería instantánea y confiable con soporte para multiples perfiles y dispositivos
 
-⚡️ Registrarse en [servicios rápidos y seguros de chatmail](chatmail) o use su [servicio de correo electronico clásico](https://providers.delta.chat/)
+⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
 
 🥳 Interactivas [aplicaciones de web en un chat](https://webxdc.org/) para jugar y colaborar
 

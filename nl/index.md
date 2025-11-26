@@ -7,7 +7,7 @@ lang: nl
 
 💬 Betrouwbare communicatie met ondersteuning voor meerdere accounts en apparaten
 
-⚡️ Registreer een account op [veilige en snelle chatmailservers](chatmail) of maak gebruik van [traditionele e-mailservers](https://providers.delta.chat/)
+⚡️ Registreen een account op beveiligde en overal te gebruiken [chatmail-relays](https://chatmail.at/relays)
 
 🥳 Geniet van interactieve gesprekken met behulp van [webapps](https://webxdc.org/), bijvoorbeeld samen werken of gamen
 

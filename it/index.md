@@ -7,7 +7,7 @@ lang: it
 
 💬 Messaggistica istantanea affidabile con supporto multiprofilo e multidispositivo
 
-⚡️ Iscriviti a [server e-mail sicuri e veloci](chatmail) o utilizza [server e-mail classici](https://providers.delta.chat/)
+⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
 
 🥳 Interattive [Web App nelle chat](https://webxdc.org/) per giocare e collaborare
 

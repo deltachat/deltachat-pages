@@ -7,7 +7,7 @@ lang: cs
 
 💬 Spolehlivé posílání zpráv s podporou pro používání více profilů na několika zařízeních
 
-⚡️ Můžete se zaregistrovat na [rychlých a zabezpečených chatmail serverech](chatmail) nebo používat [klasické e-mailové servery](https://providers.delta.chat/)
+⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
 
 🥳 Interaktivní [webové aplikace přímo v chatu](https://webxdc.org/) - pro zábavu i spolupráci
 
