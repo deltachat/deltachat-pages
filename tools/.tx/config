@@ -19,12 +19,6 @@ source_file = translations/delta-chat-pages.community-standardspo/en.po
 source_lang = en
 type        = PO
 
-[o:delta-chat:p:delta-chat-pages:r:chatmailpo]
-file_filter = translations/delta-chat-pages.chatmailpo/<lang>.po
-source_file = translations/delta-chat-pages.chatmailpo/en.po
-source_lang = en
-type        = PO
-
 [o:delta-chat:p:delta-chat-pages:r:contributepo]
 file_filter = translations/delta-chat-pages.contributepo/<lang>.po
 source_file = translations/delta-chat-pages.contributepo/en.po
