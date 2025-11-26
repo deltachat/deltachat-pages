@@ -7,7 +7,7 @@ lang: gl
 
 💬 Reliable instant messaging with multi-profile and multi-device support
 
-⚡️ Sign up to [secure fast chatmail servers](chatmail) or use [classic e-mail servers](https://providers.delta.chat/)
+⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
 
 🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
 

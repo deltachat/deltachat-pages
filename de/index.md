@@ -7,7 +7,7 @@ lang: de
 
 💬 Zuverlässiges Instant-Messaging mit Unterstützung für mehrere Profile und mehrere Geräte
 
-⚡️ Melden Sie sich bei [sicheren, schnellen Chatmail-Servern](chatmail) an oder verwenden Sie [klassische E-Mail-Server](https://providers.delta.chat/)
+⚡️ Bei sicheren und interoperablen [Chatmail Relays](https://chatmail.at/relays) anmelden
 
 🥳 Interaktive [Web Apps in Chats](https://webxdc.org/) zum Spielen und für die Zusammenarbeit
 

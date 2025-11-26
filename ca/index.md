@@ -7,7 +7,7 @@ lang: ca
 
 💬 Missatgeria instantània fiable amb suport per a múltiples perfils i dispositius
 
-⚡️ Registra’t a [servidors de Chatmail segurs i ràpids](chatmail) o utilitza [servidors de correu electrònic clàssic](https://providers.delta.chat/)
+⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
 
 🥳 Aplicacions [web interactives als xats](https://webxdc.org/) per a jocs i col·laboració
 

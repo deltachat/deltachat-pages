@@ -214,7 +214,7 @@ the (anyway encrypted) messages may take longer to get deleted from their server
 - Wenn du Speicherplatz auf deinem Gerät sparen möchtest, kannst du alte Nachrichten automatisch löschen lassen.
 - Hierzu, öffne die "Chats und Medien"-Einstellungen und dort "Alte Nachrichten vom Gerät löschen". Du kannst einen Zeitraum zwischen "1 Stunde" und "1 Jahr" festlegen; auf diese Weise werden *alle* Nachrichten von Ihrem Gerät gelöscht, sobald sie älter als angegeben sind.
 
-### How can I delete my chat profile? {#remove-account} 
+### Wie kann ich mein Chat-Profil löschen? {#remove-account} 
 
 If you are using more than one chat profile,
 you can remove single ones in the top profile switcher menu (on Android and iOS),
@@ -228,7 +228,7 @@ For more info, please refer to [nine.testrun.org address-deletion](https://nine.
 or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
 
 
-## Groups {#groups}
+## Gruppen {#groups}
 
 Groups let several people chat together privately with **equal rights**.
 
@@ -248,7 +248,7 @@ Because all members have the same rights, groups work best among **trusted frien
 - Sobald du die **erste Nachricht** in die Gruppe schreibst, werden alle Mitglieder über die neue Gruppe informiert und können in der Gruppe antworten (solange du keine Nachricht in die Gruppe schreibst, ist die Gruppe für die Gruppenmitglieder nicht sichtbar).
 
 
-### Add and remove members {#addmembers}
+### Mitglieder hinzufügen und entfernen {#addmembers}
 
 - All group members have the **same rights**.
   For this reason, everyone can delete any member or add new ones.
@@ -281,7 +281,7 @@ Wenn du der Gruppe später erneut beitreten möchtest, bitten ein anderes Gruppe
 
 - Alternativ kannst du eine Gruppe auch "stummschalten" - dies bedeutet, dass du weiterhin alle Nachrichten erhälst und neue schreiben kannst, aber nicht mehr über neue Nachrichten informiert wirst.
 
-### Cloning a group
+### Eine Gruppe klonen
 
 You can duplicate a group to start a separate discussion
 or to exclude members without them noticing.
@@ -295,20 +295,20 @@ The new group is **fully independent** from the original,
 which continues to work as before.
 
 
-## In-chat apps {#webxdc}
+## In-Chat-Apps {#webxdc}
 
 You can send apps to a chat - games, editors, polls and other tools.
 This makes Delta Chat a truly extensible messenger.
 
 
-### Where can I get in-chat apps?
+### Wo bekomme ich In-Chat-Apps?
 
 - In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
 
 - You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
 
 
-### How private are in-chat apps?
+### Wie privat sind In-Chat-Apps?
 
 - In-chat apps can not send data to the Internet, or download anything.
 
@@ -322,7 +322,7 @@ This makes Delta Chat a truly extensible messenger.
 - This also means: Just like for web links, do not open apps from untrusted contacts.
 
 
-### How can I create my own in-chat apps? {#create-xdc}
+### Wie kann mich meine eigene In-Chat-Apps erstellen? {#create-xdc}
 
 - In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
 
@@ -489,7 +489,7 @@ versuche, einen **Mobilen Hotspot** auf einem Gerät zu öffnen und dich mit dem
 Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben beschrieben, nicht funktioniert.
 
 - Auf dem alten Gerät, gehe zu "Einstellungen → Chats und Medien → Chats auf externem Speicher speichern". Gib deine PIN, dein Muster oder dein Passwort zum Entsperren des Bildschirms ein. Anschließend kannst du auf "Backup starten" klicken. Dadurch wird die Backup-Datei auf deinem Gerät gespeichert. Jetzt musst du sie auf das andere Gerät übertragen.
-- Auf dem neuen Gerät, auf dem Anmeldebildschirm, wählen, anstatt sich bei Ihrem E-Mail-Konto anzumelden, "Wiederherstellen aus Backup". Nach dem Import sollten Ihre Unterhaltungen, Verschlüsselungsschlüssel und Medien auf das neue Gerät kopiert sein.
+- Auf dem neuen Gerät, auf dem Anmeldebildschirm, wähle "Ich habe bereits ein Profil" und dann "Wiederherstellen aus Backup". Nach dem Import sind deine Chats, Medien und Einstellungen auf das neue Gerät kopiert.
   - **Wenn du iOS verwendest** und auf Schwierigkeiten stößt, hilft dir vielleicht [diese Anleitung](https://support.delta.chat/t/import-backup-to-ios/1628).
 - Du bist nun synchronisiert und kannst beide Geräte zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten-Nachrichten mit deinen Kommunikationspartnern verwenden.
 
@@ -503,7 +503,7 @@ Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben be
 
 ## Erweitert
 
-### Experimental Features
+### Experimentelle Features
 
 At **Settings → Advanced → Experimental Features**
 you can try out features we are working on.
@@ -514,7 +514,7 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### What is "Send statistics to Delta Chat's developers"? {#statssending}
+### Was ist "Statistik an Delta Chat Entwickler senden"? {#statssending}
 
 We would like to improve Delta Chat with your help,
 which is why Delta Chat for Android asks whether you want
@@ -535,7 +535,7 @@ We are interested e.g. in statistics like:
 We will _not_ collect any personally identifiable information about you.
 
 
-### Can I use a classic email address with Delta Chat?
+### Kann ich eine klassische E-Mail-Adresse mit Delta Chat verwenden?
 
 Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
 
@@ -552,7 +552,7 @@ for the following reasons:
   would require considerable development and maintenance efforts,
   and complicate making chatmail-based messaging more resilient, reliable and fast.
 
-### How can I configure a chat profile with a classic email address as transport? {#classic-email}
+### Wie kann ich ein Chat-Profil mit einer klassischen E-Mail-Adresse als Transport konfigurieren? {#classic-email}
 
 First off, **please do not use the same classic email address also from non-chatmail classic email apps**
 unless you are prepared to deal with encrypted messages in the inbox,
@@ -600,12 +600,12 @@ ermöglicht es den Empfängern, eine Ende-zu-Ende-Verschlüsselung mit dem Konta
 
 Delta Chat fragt keine OpenPGP-Keyserver ab, veröffentlicht dort keine Daten und interagiert auch sonst nicht mit diesen.
 
-### How can I know if messages are end-to-end encrypted? {#whene2e}
+### Wie kann ich wissen, ob Nachrichten Ende-zu-Ende-verschlüsselt sind? {#whene2e}
 
 Alle Nachrichten in Delta Chat sind **standardmäßig Ende-zu-Ende-verschlüsselt**.
 Seit der Veröffentlichung von Delta Chat Version 2 (Juli 2025) gibt es keine Schlösser oder ähnliche Markierungen mehr an Ende‑zu‑Ende-verschlüsselten Nachrichten.
 
-### Can I still receive or send messages without end-to-end encryption?
+### Kann ich Nachrichten ohne Ende-zu-Ende-Verschlüsselung empfangen oder senden?
 
 Wenn du die Standard-[Chatmail-Relays](https://chatmail.at/relays) verwendest, ist es unmöglich, Nachrichten ohne End-to-End-Verschlüsselung zu empfangen oder zu senden. 
 
@@ -849,8 +849,7 @@ Delta Chat ist für alle großen und einige kleinere Plattformen verfügbar:
 
 -  Falls nicht verfügbar, verwende den **Mirror** auf <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
+- Öffne einen der folgenden **App-Stores und suchen Sie nach „Delta Chat“:** Google Play Store, F-Droid, Huawei App Gallery, iOS und macOS App Store, Microsoft Store
 
 - Im **Paketmanager** Ihrer Linux-Distribution nachschauen
 
@@ -871,14 +870,9 @@ Die zweite Förderung 2019/2020 (~$300K) half uns bei der  Erstellung der iOS-Ve
 
 - Die [NLnet-Stiftung](https://nlnet.nl/) bewilligte 2019/2020 46K  EUR für die Fertigstellung von Rust-/Python-Bindungs und die Einrichtung eines Chat-Bot-Ökosystems.
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
+- Im Jahr 2021 erhielten wir weitere EU-Mittel für zwei "Next-Generation-Internet"-Anträge, nämlich für [EPPD - E-Mail-Provider-Portabilitätsverzeichnis](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) und [AEAP - E-Mail-Adressportierung](https://nlnet.nl/project/EmailPorting/) (~90K EUR). Ziel sind bessere Unterstützung von Mehrfachkonten, verbesserten QR-Code-Kontakt- und -Gruppen-Setups sowie Netzwerkverbesserungen auf allen Plattformen.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of email servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- Von Ende 2021 bis März 2023 erhielten wir eine *Internet-Freedom*-Finanzierung (500K USD) vom U.S. Bureau of Democracy, Human Rights and Labor (DRL). Diese Finanzierung unterstützte unsere langjährigen Ziele, Delta Chat benutzerfreundlicher und kompatibel mit einer breiten Palette von E-Mail-Servern weltweit zu machen, sowie widerstandsfähiger und sicherer an Orten, die häufig von Internetzensur und Abschaltungen betroffen sind.
 
 - 2023-2024 schlossen wir erfolgreich das vom OTF finanzierte 
 [Secure-Chatmail-Projekt](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/) ab. 
