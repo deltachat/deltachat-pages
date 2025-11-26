@@ -795,11 +795,13 @@ ist die Verbindung sicher.
 
 Nein.
 
-Delta Chat erzeugt sichere OpenPGP-Schlüssel gemäß der Autocrypt-Spezifikation 1.1. 
-Du kannst deinen privaten Schlüssel exportieren, aber du kannst keinen weiteren privaten Schlüssel importieren. 
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
+We do not recommend or offer users to perform manual key management.
+We want to ensure that security audits can focus on a few proven cryptographic algorithms
+instead of the full breadth of possible algorithms allowed with OpenPGP.
+If you want to extract your OpenPGP key, there only is an expert method:
+you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
 
-Im Allgemeinen empfehlen wir, die Schlüsselverwaltung nicht manuell vorzunehmen, und bieten dies auch nicht an. 
-Wir wollen sicherstellen, dass sich Sicherheitsaudits auf wenige, bewährte kryptographische Algorithmen konzentrieren können - statt einen Strauß möglicher Algorithmen, die mit OpenPGP erlaubt sind. 
 
 ### Wurde Delta Chat unabhängig auf Sicherheitslücken geprüft? {#security-audits}
 

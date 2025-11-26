@@ -708,9 +708,13 @@ Możesz sprawdzić stan szyfrowania end-to-end ręcznie w oknie dialogowym „Sz
 
 Nie.
 
-Delta Chat generuje bezpieczne klucze OpenPGP zgodnie ze specyfikacją Autocrypt 1.1. Możesz wyeksportować swój prywatny klucz, ale nie możesz zaimportować dodatkowych kluczy prywatnych.
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
+We do not recommend or offer users to perform manual key management.
+We want to ensure that security audits can focus on a few proven cryptographic algorithms
+instead of the full breadth of possible algorithms allowed with OpenPGP.
+If you want to extract your OpenPGP key, there only is an expert method:
+you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
 
-Generalnie nie zalecamy ani nie oferujemy użytkownikom wykonywania ręcznego zarządzania kluczami. Chcemy się upewnić, że audyty bezpieczeństwa mogą skupić się na kilku sprawdzonych algorytmach kryptograficznych, a nie na pełnym zakresie możliwych algorytmów dozwolonych w OpenPGP.
 
 ### Czy Delta Chat był niezależnie kontrolowany pod kątem luk w zabezpieczeniach? {#security-audits}
 

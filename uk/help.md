@@ -713,9 +713,13 @@ Delta Chat використовує бібліотеку Rust OpenPGP [rPGP](htt
 
 Ні.
 
-Delta Chat генерує безпечні ключі OpenPGP відповідно до специфікації Autocrypt 1.1. Ви можете експортувати свій приватний ключ, але не можете імпортувати додаткові приватні ключі. 
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
+We do not recommend or offer users to perform manual key management.
+We want to ensure that security audits can focus on a few proven cryptographic algorithms
+instead of the full breadth of possible algorithms allowed with OpenPGP.
+If you want to extract your OpenPGP key, there only is an expert method:
+you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
 
-Загалом, ми не рекомендуємо і не пропонуємо користувачам керувати ключами вручну. Ми хочемо гарантувати, що аудит безпеки може зосередитися на декількох перевірених криптографічних алгоритмах а не на всій широті можливих алгоритмів, дозволених у OpenPGP. 
 
 ### Чи проходив Delta Chat незалежний аудит на наявність вразливостей у безпеці? {#security-audits}
 
