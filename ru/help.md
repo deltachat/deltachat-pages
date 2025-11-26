@@ -859,12 +859,13 @@ Delta Chat показывает там два отпечатка.
 
 Нет.
 
-Delta Chat генерирует безопасные ключи OpenPGP в соответствии со спецификацией Autocrypt 1.1. 
-Вы можете экспортировать свой закрытый ключ, но не можете импортировать дополнительные закрытые ключи.
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
+We do not recommend or offer users to perform manual key management.
+We want to ensure that security audits can focus on a few proven cryptographic algorithms
+instead of the full breadth of possible algorithms allowed with OpenPGP.
+If you want to extract your OpenPGP key, there only is an expert method:
+you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
 
-В целом, мы не рекомендуем и не предлагаем пользователям выполнять ручное управление ключами. 
-Мы стремимся к тому, чтобы аудиты безопасности могли сосредоточиться на нескольких проверенных криптографических алгоритмах, 
-а не на всем разнообразии возможных алгоритмов, доступных с OpenPGP.
 
 ### Проходил ли Delta Chat независимую проверку на наличие уязвимостей безопасности? {#security-audits}
 

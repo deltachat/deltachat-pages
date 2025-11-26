@@ -860,12 +860,13 @@ la connessione è sicura.
 
 No.
 
-Delta Chat genera chiavi OpenPGP sicure in conformità alle specifiche di Autocrypt 1.1.
-Puoi esportare le tue chiavi private ma non puoi importare chiavi private aggiuntive.
+Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
+We do not recommend or offer users to perform manual key management.
+We want to ensure that security audits can focus on a few proven cryptographic algorithms
+instead of the full breadth of possible algorithms allowed with OpenPGP.
+If you want to extract your OpenPGP key, there only is an expert method:
+you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
 
-In generale, non raccomandiamo o proponiamo agli utenti di gestire manualmente le chiavi.
-Noi vogliamo assicurare che gli audits di sicurezza si possano focalizzare su pochi algoritmi crittografici comprovati
-invece che sull'intera estensione dei possibili algoritmi consentiti con OpenPGP.
 
 ### Delta Chat è stata verificata in modo indipendente per le vulnerabilità di sicurezza? {#security-audits}
 
