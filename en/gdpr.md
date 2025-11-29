@@ -169,12 +169,6 @@ This will be needed if you want to share your location over a certain period of 
             </td>
         </tr>
         <tr>
-            <td>Contact access (optional)</td>
-            <td>
-This allows you to load and save contacts from your phone book into the app. The contact data is stored locally in the app and not forwarded and stored on Delta Chat server.
-            </td>
-        </tr>
-        <tr>
             <td>
 Storage (optional)
             </td>
