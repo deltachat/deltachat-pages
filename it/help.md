@@ -282,12 +282,12 @@ Poiché tutti i membri hanno gli stessi diritti, i gruppi funzionano meglio se f
 - Tutti i membri del gruppo hanno gli **stessi diritti**.
   Per questo motivo, tutti possono eliminare qualsiasi membro o aggiungerne di nuovi.
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- Per **aggiungere o eliminare membri**, tocca il nome del gruppo nella chat e seleziona il membro da aggiungere o rimuovere.
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- Se il membro non è ancora nella tua lista contatti, ma è **faccia a faccia** con te,
+dalla stessa schermata, mostra un **codice QR**.
+Chiedi al tuo interlocutore di **scansionare** l'immagine QR con la sua app Delta Chat toccando
+  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> nella schermata principale.
 
 - For a **remote** member addition,
   click "Copy" or "Share" and send the **invite link**

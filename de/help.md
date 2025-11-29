@@ -67,11 +67,11 @@ receive messages from this person, consider **blocking** them.
 
 ### Wie kann ich zwei meiner Freunde miteinander in Kontakt bringen?
 
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
-You can also add a little introduction message.
+Füge den ersten Kontakt zum Chat des zweiten Kontakts hinzu, indem du auf <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhängen → Kontakt** klickst.
+Du kannst auch eine kurze Nachricht hinzufügen.
 
-The second contact will receive a **card** then
-and can tap it to start chatting with the first contact.
+Der zweite Kontakt erhält dann die **Kontaktdaten** und
+kann darauf tippen, um mit dem ersten Kontakt zu chatten.
 
 
 ### Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
@@ -204,9 +204,7 @@ Beachte, dass du dich auf verschwindende Nachrichten nur so lange verlassen kann
 böswillige Chatpartner können Fotos machen,
 oder auf andere Weise Nachrichten vor dem Löschen speichern, kopieren oder weiterleiten.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the (anyway encrypted) messages may take longer to get deleted from their server.
+Abgesehen davon, wenn ein Chat-Partner Delta Chat deinstalliert, kann es länger dauern, bis die (ohnehin verschlüsselten) Nachrichten vom Server gelöscht werden.
 
 
 ### Was passiert, wenn ich "Alte Nachrichten vom Gerät löschen" aktiviere? {#delold}
