@@ -11,58 +11,58 @@ header: Часто задаваемые вопросы (FAQ)
 Delta Chat — надежное, децентрализованное и безопасное приложение для мгновенных сообщений,
 доступное для мобильных и настольных платформ.
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- Мгновенное создание **приватных профилей чата**
+  с безопасными и совместимыми [релеями chatmail](https://chatmail.at/relays)
+  которые обеспечивают мгновенную доставку сообщений, а также Push-уведомления для устройств iOS и Android.
 
-- Pervasive [multi-profile](#multiple-accounts) and
-  [multi-device](#multiclient) support on all platforms
-  and between different [chatmail apps](https://chatmail.at/clients).
+- Повсеместная поддержка [мультипрофиля](#multiple-accounts) и
+  поддержка [multi-device](#multiclient) на всех платформах
+  и между различными приложениями [chatmail](https://chatmail.at/clients).
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+- Интерактивные [приложения чата](#webxdc) для игр и совместной работы
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [Проверенное сквозное шифрование](#security-audits)
+  защита от сетевых и серверных атак.
 
-- Free and Open Source software, both app and server side,
-  built on [Internet Standards]({% include standards-url %}).
-
-
-### How can I find people to chat with? {#howtoe2ee}
-
-First, note that Delta Chat is a private messenger.
-There is no public discovery, _you_ decide about your contacts.
-
-- If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the main screen.  
-  Ask your chat partner to **scan** the QR image
-  with their Delta Chat app.
-
-- For a **remote** contact setup,
-  from the same screen,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat.
-
-Now wait while connection gets established.
-
-- If both sides are online, they will soon see a chat
-  and can start messaging securely.
-
-- If one side is offline or in bad network,
-  the ability to chat is delayed until connectivity is restored.
-
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+- Бесплатное программное обеспечение с открытым исходным кодом, как на стороне приложений, так и на стороне сервера,
+  построенное на [Интернет-стандартах]({% include standards-url %}).
 
 
-### Why is a chat marked as "Request"?
+### Как найти людей для общения? {#howtoe2ee}
 
-As being a private messenger,
-only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
+Во-первых, обратите внимание, что Delta Chat — это приватный мессенджер.
+Публичного поиска контактов нет, вы сами решаете, с кем общаться.
 
-Your friends may share your contact with other friends, this appears as a **request**.
+- Если вы находитесь **рядом** с другом или членом семьи,
+  нажмите значок **QR-код** <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
+  на главном экране.  
+  Попросите вашего собеседника **отсканировать** QR-код
+  с помощью приложения Delta Chat.
+
+- Для **удалённой** настройки контакта,
+  на том же экране,
+  нажмите "Копировать" или "Поделиться" и отправьте **ссылку-приглашение**
+  через другой приватный чат.
+
+Теперь подождите, пока устанавливается соединение.
+
+- Если оба пользователя онлайн, вскоре они увидят чат
+  и смогут начать безопасное общение.
+
+- Если один из пользователей не в сети или имеет плохое соединение,
+  возможность общаться появится после восстановления соединения.
+
+Поздравляем!
+Теперь вы будете автоматически использовать [сквозное шифрование](#e2ee) с этим контактом.
+Если вы добавите друг друга в [группы](#groups), сквозное шифрование будет установлено между всеми участниками.
+
+
+### Почему чат помечен как "Запрос"?
+
+Поскольку это приватный мессенджер,
+писать вам могут только друзья и члены семьи, с которыми вы [поделились QR-кодом или ссылкой-приглашением.](#howtoe2ee)
+
+Ваши друзья могут поделиться вашим контактом с другими друзьями, это отображается как **запрос**.
 
 — Нужно **принять** запрос, прежде чем ответить.
 
@@ -73,35 +73,35 @@ Your friends may share your contact with other friends, this appears as a **requ
   получать сообщения от этого человека, подумайте о его **блокировке**.
 
 
-### How can I put two of my friends in contact with each other?
+### Как я могу связать двух своих друзей друг с другом?
 
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
-You can also add a little introduction message.
+Прикрепите первый контакт к чату второго используя кнопку <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Вложение → Контакт**.
+Вы также можете добавить небольшое вступительное сообщение.
 
-The second contact will receive a **card** then
-and can tap it to start chatting with the first contact.
+Второй контакт получит **карточку**
+на которую можно нажать, чтобы начать общение с первым контактом.
 
 
 ### Поддерживает ли Delta Chat изображения, видео и другие вложения?
 
-- Да. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+- Да. Изображения, видео, файлы, голосовые сообщения и т.д. можно отправлять с помощью кнопок <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Вложение**
+  или <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Голосовое сообщение**.
 
 - Для лучшей производительности изображения по умолчанию оптимизируются и отправляются в меньшем размере, но вы можете отправить их как "файл", чтобы сохранить оригинал.
 
 
 ### Что такое профили? Как я могу переключатся между ними? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses the server only to relay messages.
+Профиль - это **имя, фотография** и некоторая дополнительная информация для шифрования сообщений.
+Профиль живет только на вашем устройстве (устройствах)
+и использует сервер только для передачи сообщений.
 
 При первой установке Delta Chat создаётся первый профиль.
 
 Позже, вы можете нажать на изображение вашего профиля в верхнем левом углу, чтобы **Добавить профили**
 или **Сменить профили**.
 
-You may want to use separate profiles for political, family or work related activities.
+Возможно, вы захотите использовать разные профили для политической деятельности, общения с семьёй или работы.
 
 Вы также можете изучить [как использовать один и тот же профиль на нескольких устройствах](#multiclient).
 
@@ -115,12 +115,12 @@ You may want to use separate profiles for political, family or work related acti
   пока вы не напишете им сообщение.
 
 
-### Can I set a Bio/Status with Delta Chat? {#signature}
+### Могу ли я установить статус/подпись в Delta Chat? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Once you sent a message to a contact,
-they will see it when they view your contact details.
+Да,
+вы можете сделать это в разделе **Настройки → Профиль → О себе**.
+После отправки сообщения контакту,
+они увидят его при просмотре ваших контактных данных.
 
 
 ### Что означают: Закрепить, Отключить уведомления и Отправить в архив?
@@ -164,29 +164,28 @@ they will see it when they view your contact details.
 
 ### Что означает зеленая точка?
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen by you** in the last 10 minutes,
-e.g. because they messaged you or sent a read receipt.
+Иногда рядом с аватаром контакта можно увидеть **зелёную точку**. <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+Это означает, что вы **недавно видели** этого человека в течение последних 10 минут,
+например, потому что он вам написал или отправил подтверждение прочтения.
 
-So this is not a real time online status
-and others will as well not always see that you are "online".
+Таким образом, это не индикатор онлайн-статуса в реальном времени
+и другие пользователи не всегда будут видеть, что вы "онлайн".
 
 
 ### Что означают галочки рядом с исходящими сообщениями?
 
-- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  means that the message was sent successfully to your provider.
+- **Одна галочка** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  означает, что сообщение было успешно отправлено вашему провайдеру.
 
-- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  mean that at least one recipient's device
-  reported back to having received the message.
+- **Две галочки** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+  означают, что по крайней мере одно устройство получателя
+  сообщило об успешном получении сообщения.
 
-- Recipients may have disabled read-receipts,
-  so even if you see only one tick, the message may have been read.
+- Получатели могли отключить подтверждения прочтения,
+  поэтому даже если вы видите только одну галочку, сообщение могло быть прочитано.
 
-- The other way round, two ticks do not automatically mean
-  that a human has read or understood the message ;)
+- И наоборот, две галочки не обязательно означают
+  что человек прочитал или понял сообщение ;)
 
 
 ### Исправление опечаток и удаление сообщений после отправки {#edit}
@@ -214,24 +213,24 @@ and others will as well not always see that you are "online".
 выбрав временной интервал
 от 5 минут до 1 года.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted both,
-on the servers,
-and in the apps itself.
+Пока эта настройка не будет отключена,
+приложение Delta Chat каждого участника чата позаботится
+об удалении сообщений
+по истечении выбранного периода времени.
+Отсчёт времени начинается
+с момента первого просмотра сообщения получателем в Delta Chat.
+Сообщения будут удалены
+как на серверах,
+так и в самих приложениях.
 
 Обратите внимание, что на исчезающие сообщения можно полагаться
 только до тех пор, пока вы доверяете своим собеседникам;
 злонамеренные собеседники могут делать фотографии,
 или иным образом сохранить, скопировать или переслать сообщения перед удалением.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the (anyway encrypted) messages may take longer to get deleted from their server.
+Кроме того,
+если один из собеседников удалит Delta Chat,
+(зашифрованные) сообщения могут дольше оставаться на сервере перед удалением.
 
 
 ### Что произойдет, если я включу функцию "Удалять старые сообщения с устройства"? {#delold}
@@ -242,31 +241,31 @@ the (anyway encrypted) messages may take longer to get deleted from their server
   Вы можете установить период от "Через 1 час" до "Через 1 год";
   Таким образом, *все* сообщения будут удалены с устройства, как только они станут старше выбранного срока.
 
-### How can I delete my chat profile? {#remove-account} 
+### Как удалить свой профиль в чате? {#remove-account} 
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+Если вы используете несколько профилей чата,
+вы можете удалить отдельные из них в верхнем переключателе профилей (на Android и iOS),
+или в боковой панели щелчком правой кнопкой мыши (в настольном приложении).
+Профили чата удаляются только с устройства, на котором была запущена операция удаления. 
+Профили чата на других устройствах будут продолжать полностью функционировать.
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+Если вы используете один профиль чата по умолчанию, вы можете просто удалить приложение.
+Это автоматически инициирует удаление всех связанных данных об адресе на сервере chatmail.
+Подробную информацию смотрите на странице [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
+или на соответствующей странице выбранного вами [стороннего сервера chatmail](https://chatmail.at/relays).
 
 
-## Groups {#groups}
+## Группы {#groups}
 
-Groups let several people chat together privately with **equal rights**.
+Группы позволяют нескольким пользователям общаться друг с другом конфиденциально **на равных правах**.
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+Любой может
+изменить название группы или аватар,
+[добавить или удалить участников](#addmembers),
+включить [исчезающие сообщения](#ephemeralmsgs),
+и [удалять собственные сообщения](#edit) со всех устройств участников.
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+Поскольку все участники имеют одинаковые права, группы лучше всего подходят для общения с **проверенными друзьями и семьёй**.
 
 
 ### Создание группы
@@ -276,24 +275,24 @@ Because all members have the same rights, groups work best among **trusted frien
 - Как только вы напишете **первое сообщение** в группе, все участники будут проинформированы о новой группе и смогут ответить. (Пока вы не напишете сообщение в группе, группа будет невидима для участников).
 
 
-### Add and remove members {#addmembers}
+### Добавление и удаление участников {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+- У всех участников группы **одинаковые права**.
+  Поэтому каждый может удалить любого участника или добавить новых.
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- Чтобы **добавлять или удалять участников**, коснитесь названия группы в чате и выберите участника, которого нужно добавить или удалить.
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- Если участника еще нет в вашем списке контактов, но он находится с **вами лично**,
+  на том же экране покажите **QR-код**.  
+  Попросите его **отсканировать** QR-код приложением Delta Chat, нажав
+  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> на главном экране.
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- Для **удалённого** добавления участника,
+  нажмите "Копировать" или "Поделиться" и отправьте **ссылку-приглашение**
+  через другой приватный чат новому участнику.
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+QR-код и ссылку-приглашение можно использовать для добавления нескольких участников.
+Однако, поскольку группы [предназначены для проверенных людей](#groups), не распространяйте их публично.
 
 
 ### Я случайно удалил самого себя.
@@ -309,59 +308,59 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 - Или, вместо этого, вы можете "отключить уведомления" для группы — это означает, что вы будете получать все сообщения и сможете их писать, но больше не будете получать уведомления о новых сообщениях.
 
-### Cloning a group
+### Клонирование группы
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+Вы можете дублировать группу, чтобы начать отдельное обсуждение
+или исключить участников, незаметно для них.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Откройте профиль группы и нажмите **Клонировать чат** (Android/iOS),
+  или щелкните правой кнопкой мыши по группе в списке чатов (приложение для ПК).
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- Установите новое имя, выберите аватар и при необходимости отредактируйте список участников.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
-
-
-## In-chat apps {#webxdc}
-
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
+Новая группа **полностью независима** от исходной,
+которая продолжает работать как прежде.
 
 
-### Where can I get in-chat apps?
+## Встроенные приложения чата {#webxdc}
 
-- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
+Вы можете отправлять приложения в чат - игры, редакторы, опросы и другие инструменты.
+Это делает Delta Chat по-настоящему расширяемым мессенджером.
 
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+
+### Где можно найти встроенные приложения?
+
+- В чате используйте кнопку <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Вложение → Приложения**.
+
+- Вы также можете [создать собственное приложение](#create-xdc) и прикрепить его с помощью кнопки <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Вложение → Файл**.
 
 
 ### Насколько конфиденциальны приложения внутри чата?
 
-- In-chat apps can not send data to the Internet, or download anything.
+- Встроенные приложения не могут отправлять данные в Интернет или что-либо загружать.
 
-- An in-chat app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
+- Встроенное приложение может обмениваться данными только внутри чата Delta Chat с его
+  копиями на устройствах ваших собеседников. В остальном оно полностью
+  изолировано от Интернета.
 
-- The privacy an in-chat app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the in-chat app as well.
+- Конфиденциальность встроенного приложения соответствует конфиденциальности вашего чата
+  — пока вы доверяете людям, с которыми общаетесь, можете доверять и встроенному приложению.
 
-- This also means: Just like for web links, do not open apps from untrusted contacts.
+- Это также означает: как и в случае с веб-ссылками, не открывайте приложения от ненадежных контактов.
 
 
 ### Как создать собственные приложения внутри чата? {#create-xdc}
 
-- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
+- Встроенные приложения - это ZIP-файлы с расширением .xdc, содержащие HTML-, CSS- и JavaScript-код.
 
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
+- Вы можете расширить пример приложения [Hello World](https://github.com/webxdc/hello)
+  чтобы начать работу.
 
-- All else you need to know is written in the
-  [Webxdc documentation](https://webxdc.org/docs).
+- Всю остальную информацию вы найдёте в
+  [документации Webxdc](https://webxdc.org/docs).
 
-- If you have question, you can ask others with experience
-  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+- Если у вас есть вопросы, вы можете обратиться к другим пользователям с опытом
+  на форуме [Delta Chat](https://support.delta.chat/c/webxdc/20).
 
 
 ## Мгновенная доставка сообщений и Push-уведомления {#instant-delivery}
@@ -418,28 +417,28 @@ Push-уведомления автоматически активируются 
 
 ### Насколько конфиденциальны Push-уведомления Delta Chat? {#privacy-notifications}
 
-Delta Chat Push Notification support avoids leakage of private information.
-It does not leak profile data, IP address or message content (not even encrypted)
-to any system involved in the delivery of Push Notifications.
+Поддержка push-уведомлений в Delta Chat предотвращает утечку личной информации.
+Она не передаёт данные профиля, IP-адрес или содержимое сообщений (даже зашифрованных)
+ни одной системе, участвующей в доставке уведомлений.
 
 Вот как приложения Delta Chat выполняют доставку Push-уведомлений:
 
 - Приложение Delta Chat локально получает "токен устройства" шифрует его и сохраняет
   на сервере [chatmail](https://delta.chat/chatmail).
 
-- When a [chatmail](https://delta.chat/chatmail) server receives a message for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- Когда сервер [chatmail](https://delta.chat/chatmail) получает сообщение для пользователя Delta Chat,
+  он пересылает зашифрованный токен устройства центральному прокси-серверу уведомлений Delta Chat.
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or profile data of Delta Chat users.
+- Центральный прокси-сервер уведомлений Delta Chat расшифровывает токен устройства
+  и пересылает его соответствующему сервису push-уведомлений (Apple, Google и т.д.),
+  не зная IP-адреса или данных профиля пользователей Delta Chat.
 
-- The central Push Service (Apple, Google, etc.)
-  wakes up the Delta Chat app on your device
-  to check for new messages in the background.
-  It does not know about the profile data of the device it wakes up.
-  The central Apple/Google Push services never see any profile data (sender or receiver)
-  and also never see any message content (also not in encrypted forms).
+- Центральный сервис push-уведомлений (Apple, Google и т.д.)
+  пробуждает приложение Delta Chat на вашем устройстве
+  для проверки новых сообщений в фоновом режиме.
+  Он не знает о данных профиля устройства, которое он пробуждает.
+  Центральные сервисы Apple/Google Push никогда не видят никаких данных профиля (отправителя или получателя),
+  а также не видят содержимого сообщений (в том числе в зашифрованном виде).
 
 
 Центральный прокси-сервер уведомлений Delta Chat [небольшой и полностью реализован на Rust](https://github.com/deltachat/notifiers)
@@ -562,65 +561,65 @@ Delta Chat — это бесплатный децентрализованный 
 
 ### Экспериментальные функции
 
-At **Settings → Advanced → Experimental Features**
-you can try out features we are working on.
+В разделе **Настройки → Дополнительно → Экспериментальные функции**
+вы можете опробовать функции, над которыми мы работаем.
 
-The features may be **unstable** and may be **changed or removed**.
+Эти функции могут быть **нестабильными** и могут быть **изменены или удалены**.
 
-You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
+Вы можете найти дополнительную информацию
+и оставить отзыв на [Форуме](https://support.delta.chat).
 
 
-### What is "Send statistics to Delta Chat's developers"? {#statssending}
+### Что означает "Отправлять статистику разработчикам Delta Chat"? {#statssending}
 
-We would like to improve Delta Chat with your help,
-which is why Delta Chat for Android asks whether you want
-to send anonymous usage statistics.
+Мы хотели бы улучшить Delta Chat с вашей помощью,
+поэтому Delta Chat для Android спрашивает, хотите ли вы
+отправлять анонимную статистику использования.
 
-You can turn it on and off at
-**Settings → Advanced → Send statistics to Delta Chat's developers**.
+Вы можете включить или отключить эту функцию
+в разделе **Настройки → Дополнительно → Отправить статистику разработчикам Delta Chat**.
 
-When you turn it on,
-weekly statistics will be automatically sent to a bot.
+При включении
+еженедельная статистика будет автоматически отправляться боту.
 
-We are interested e.g. in statistics like:
+Нас интересует, например, следующая статистика:
 
-- How many contacts are introduced by personally scanning a QR code?
-- Which versions of Delta Chat are being used?
-- How many messages are unencrypted?
+- Сколько контактов добавляется путём личного сканирования QR-кода?
+- Какие версии Delta Chat используются?
+- Сколько сообщений в незашифрованном виде?
 
-We will _not_ collect any personally identifiable information about you.
+Мы _не_ собираем какую-либо информацию, позволяющую идентифицировать вас лично.
 
 
 ### Могу ли я использовать обычный адрес электронной почты с Delta Chat?
 
-Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
+Да, но только если адрес электронной почты используется исключительно [chatmail клиентами](https://chatmail.at/clients).
 
-It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
-for the following reasons:
+Не поддерживается совместное использование адреса электронной почты с приложениями, не являющимися клиентами chatmail или веб-интерфейсами для работы с почтой,
+по следующим причинам:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
+- Приложения, не являющиеся клиентами chatmail, в основном не обеспечивают автоматическое сквозное шифрование электронной почты для своих пользователей,
+  тогда как приложения и релеи chatmail повсеместно применяют сквозное шифрование и стандарты безопасности.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message transport.
+- Приложения, не являющиеся клиентами chatmail, используют серверы электронной почты в качестве долгосрочного архива сообщений,
+  тогда как клиенты chatmail используют почтовые серверы для передачи мгновенных сообщений с коротким сроком жизни.
 
-- Supporting the full variety of classic email setups
-  would require considerable development and maintenance efforts,
-  and complicate making chatmail-based messaging more resilient, reliable and fast.
+- Поддержка всего разнообразия классических настроек электронной почты
+  потребует значительных усилий по разработке и сопровождению,
+  а также усложнит повышение устойчивости, надёжности и скорости обмена сообщениями на основе chatmail.
 
-### How can I configure a chat profile with a classic email address as transport? {#classic-email}
+### Как настроить профиль чата с использованием классического адреса электронной почты в качестве транспорта? {#classic-email}
 
-First off, **please do not use the same classic email address also from non-chatmail classic email apps**
-unless you are prepared to deal with encrypted messages in the inbox,
-double notifications, accidentally deleted emails or similar annoyances.
+Прежде всего, **не используйте те же классические адреса электронной почты, которые используются в обычных приложениях для отправки писем**
+если вы не готовы к зашифрованным сообщениям во входящих,
+двойным уведомлениям, случайному удалению писем или подобным неудобствам.
 
-You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Transport**.
-Note that classic email providers will generally not support [Push Notifications](#instant-delivery)
-and have other limitations, see [Provider Overview](https://providers.delta.chat).
-Chatmail uses the default INBOX for relay; ensure the provider setup does too. 
-A chat profile using a classic email address allows to to send and receive unencrypted messages.
-These messages, and the chats they appear in, are marked with an email icon
+Вы можете настроить адрес электронной почты для чата в разделе **Новый профиль → Использовать другой сервер → Использовать классическую почту в качестве транспорта**.
+Обратите внимание, что классические почтовые провайдеры обычно не поддерживают [Push-уведомления](#instant-delivery)
+и имеют другие ограничения, см. раздел [Обзор провайдеров](https://providers.delta.chat).
+Chatmail использует INBOX по умолчанию для ретрансляции; убедитесь, что провайдер также настроен. 
+Профиль чата, использующий классический адрес электронной почты, позволяет отправлять и получать незашифрованные сообщения.
+Эти сообщения и чаты, в которых они появляются, помечаются значком электронной почты
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
@@ -628,7 +627,7 @@ These messages, and the chats they appear in, are marked with an email icon
 
 Подойдет любая корректная настройка почтового сервера, за исключением случаев, когда для корректной работы устройств ваших пользователей требуются [Push-уведомления](#instant-delivery) Google/Apple.
 
-Мы обычно рекомендуем [настроить chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
+Мы обычно рекомендуем [настроить chatmail релей](https://chatmail.at/doc/relay/getting_started.html). 
 [Chatmail](https://chatmail.at)  — это проект, поддерживаемый сообществом который охватывает как настройку релеев, так
 и [основные разработки на Rust](https://github.com/chatmail/core) 
 которые обеспечивают работу [клиентов chatmail](https://chatmail.at/clients) наиболее известным из которых является Delta Chat. 
@@ -667,7 +666,7 @@ Delta Chat не запрашивает, не публикует и не взаи
 
 ### Могу ли я получать или отправлять сообщения без сквозного шифрования?
 
-Если вы используете стандартные [ретрансляторы chatmail](https://chatmail.at/relays),
+Если вы используете стандартные [релеи chatmail](https://chatmail.at/relays),
 невозможно получать или отправлять сообщения без сквозного шифрования. 
 
 Если вы вместо этого используете [классический почтовый сервер](#classic-email),
@@ -859,12 +858,12 @@ Delta Chat показывает там два отпечатка.
 
 Нет.
 
-Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
-We do not recommend or offer users to perform manual key management.
-We want to ensure that security audits can focus on a few proven cryptographic algorithms
-instead of the full breadth of possible algorithms allowed with OpenPGP.
-If you want to extract your OpenPGP key, there only is an expert method:
-you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
+Delta Chat генерирует безопасные ключи OpenPGP в соответствии со спецификацией Autocrypt 1.1.
+Мы не рекомендуем и не предлагаем пользователям управлять ключами вручную.
+Мы хотим, чтобы аудиты безопасности могли сосредоточиться на нескольких проверенных криптографических алгоритмах
+а не на всем многообразии возможных алгоритмов, разрешенных в OpenPGP.
+Если вы хотите извлечь свой ключ OpenPGP, существует только экспертный метод:
+вам нужно найти его в SQLite-таблице "keypairs" в tar-файле резервной копии профиля.
 
 
 ### Проходил ли Delta Chat независимую проверку на наличие уязвимостей безопасности? {#security-audits}

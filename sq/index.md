@@ -1,26 +1,26 @@
 ---
-title: Delta Chat, decentralized secure messenger 
+title: Delta Chat, shkëmbyes mesazhesh i siguruar, i decentralizuar 
 lang: sq
 ---
 
-# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
+# Delta Chat është një aplikacion shkëmbimi mesazhesh i decentralizuar dhe i siguruar {#homepage-heading}
 
-💬 Reliable instant messaging with multi-profile and multi-device support
+💬 Shkëmbim mesazhesh aty për aty, i qëndrueshëm, me aftësi për të pasur profile të shumtë dhe mbulim të shumë pajisjeve
 
-⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
+⚡️ Regjistrohuni te [rele fjalosjeje me email](https://chatmail.at/relays) të siguruara dhe që ndërveprojnë njëra me tjetrën
 
-🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
+🥳 [Aplikacione web me ndërveprim](https://webxdc.org/) në fjalosje, për të luajtur dhe bashkëpunuar
 
-🔒 [Audited end-to-end encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) safe against network and server attacks
+🔒 [Fshehtëzim skaj-më-skaj i audituar](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) i parrezik kundrejt sulmesh rrjeti dhe shërbyesish
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+👉 Program [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software), ngritur mbi [Standarde Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), që shmangin [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">
 <picture>
 <source srcset="../assets/home/screenshots/android1-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/android1-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/android1-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing chat list" />
+<img src="../assets/home/screenshots/android1-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="Një foto ekrani për Delta Chat në Android, ku duket listë fjalosjesht" />
 </picture>
 </a>
 </div>
@@ -30,7 +30,7 @@ lang: sq
 <picture>
 <source srcset="../assets/home/screenshots/android2-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/android2-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/android2-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="A screenshot of Delta Chat on Android showing a chat" />
+<img src="../assets/home/screenshots/android2-thumbnail.png" width="136" height="242" style="float: left; display: block;" alt="Një foto ekrani e Delta Chat-it në Android, ku duket një fjalosje" />
 </picture>
 </a>
 </div>
@@ -40,7 +40,7 @@ lang: sq
 <picture>
 <source srcset="../assets/home/screenshots/desktop-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/desktop-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/desktop-thumbnail.png" width="305" height="242" style="float:left;" alt="A screenshot of Delta Chat on desktop" />
+<img src="../assets/home/screenshots/desktop-thumbnail.png" width="305" height="242" style="float:left;" alt="Një foto ekrani e Delta Chat-it në desktop" />
 </picture>
 </a>
 </div>
@@ -50,13 +50,13 @@ lang: sq
 <picture>
 <source srcset="../assets/home/screenshots/ios-thumbnail.webp" type="image/webp" />
 <source srcset="../assets/home/screenshots/ios-thumbnail.png" type="image/png" />
-<img src="../assets/home/screenshots/ios.png" width="124" height="242" alt="A screenshot of Delta Chat on iOS" />
+<img src="../assets/home/screenshots/ios.png" width="124" height="242" alt="Një foto ekrani e Delta Chat-it në iOS" />
 </picture>
 </a>
 </div>
 
 [Shkarkojeni](https://get.delta.chat){: .cta-button}
 
-Available on mobile and desktop.
+Gati për celular dhe desktop.
 
 
