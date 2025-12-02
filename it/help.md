@@ -257,7 +257,7 @@ Per maggiori informazioni, consulta [nine.testrun.org cancellazione dell'indiriz
 o la pagina corrispondente del [server chatmail di 3e parti](https://chatmail.at/relays) da te scelto.
 
 
-## Gruppi {#gruppi}
+## Gruppi {#groups}
 
 I gruppi consentono a più persone di chattare insieme in privato con **uguali diritti**.
 
