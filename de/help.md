@@ -503,10 +503,10 @@ Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben be
 
 ### Experimentelle Features
 
-At **Settings → Advanced → Experimental Features**
-you can try out features we are working on.
+Unter **Einstellungen → Erweitert → Experimentelle Features**
+kannst du unfertige Features ausprobieren, an denen gearbeitet wird.
 
-The features may be **unstable** and may be **changed or removed**.
+Die Features können **instabil** sein und **geändert oder entfernt** werden.
 
 You can find more information
 and give feedback in the [Forum](https://support.delta.chat).

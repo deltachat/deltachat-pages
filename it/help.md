@@ -289,12 +289,12 @@ dalla stessa schermata, mostra un **codice QR**.
 Chiedi al tuo interlocutore di **scansionare** l'immagine QR con la sua app Delta Chat toccando
   <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> nella schermata principale.
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- Per aggiungere un membro **da remoto**,
+clicca su "Copia" o "Condividi" e invia il **link di invito**
+tramite un'altra chat privata al nuovo membro.
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+Il codice QR e il link di invito possono essere utilizzati per aggiungere più membri.
+Tuttavia, poiché i gruppi sono [destinati a persone fidate](#gruppi), evita di condividerli pubblicamente.
 
 
 ### Mi sono cancellato per sbaglio.
@@ -311,29 +311,29 @@ Se vuoi unirti di nuovo al gruppo in un secondo momento, chiedi a un altro membr
 - In alternativa, puoi anche "Silenziare" un gruppo - così facendo riceverai tutti i messaggi e
 puoi ancora scrivere, ma non viene più notificato alcun nuovo messaggio.
 
-### Cloning a group
+### Clonazione di un gruppo
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+Puoi duplicare un gruppo per avviare una discussione separata
+o per escludere membri senza che se ne accorgano.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Apri il profilo del gruppo e tocca **Clona Chat** (Android/iOS),
+  oppure fai clic con il pulsante destro del mouse sul gruppo nell'elenco delle chat (Desktop).
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- Imposta un nuovo nome, scegli un avatar e modifica l'elenco dei membri, se necessario.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
-
-
-## In-chat apps {#webxdc}
-
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
+Il nuovo gruppo è **completamente indipendente** dall'originale,
+che continua a funzionare come prima.
 
 
-### Where can I get in-chat apps?
+## Apps in chat {#webxdc}
 
-- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
+È possibile inviare apps a una chat: giochi, editor, sondaggi e altri strumenti.
+Questo rende Delta Chat un servizio di messaggistica davvero espandibile.
+
+
+### Dove posso trovare le apps in chat?
+
+- In una chat, utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pulsante Allegato → Apps**
 
 - You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
 
