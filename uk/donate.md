@@ -11,7 +11,7 @@ lang: uk
 
 - Пожертвувати через [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
 
-- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
+- Надсилайте біткоїни на [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX, Власник рахунку (будь ласка, завжди вказуйте): Björn Petersen
 
