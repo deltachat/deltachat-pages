@@ -28,6 +28,7 @@ from requests.exceptions import ConnectTimeout, ReadTimeout
 
 # if we do not mimic end-user user-agent, we'll get 403 for wikipedia, opentechfund and others
 headers = {
+    'Accept': 'text/html',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36'
 }
 
@@ -90,8 +91,9 @@ def url_is_reachable(url):
 
         if response.status_code == 200:
             reachable_cache[url] = True
-        elif response.status_code == 404 and url == "https://crates.io/crates/pgp":
-            reachable_cache[url] = True # maybe a temporary hickup
+        elif response.status_code == 429:
+            print(f"\033[93m  got 429 Too Many Requests\033[0m for for {url}")
+            reachable_cache[url] = True
         else:
             print(f"  status code for {url}: {response.status_code}")
             reachable_cache[url] = False
