@@ -294,7 +294,7 @@ clicca su "Copia" o "Condividi" e invia il **link di invito**
 tramite un'altra chat privata al nuovo membro.
 
 Il codice QR e il link di invito possono essere utilizzati per aggiungere più membri.
-Tuttavia, poiché i gruppi sono [destinati a persone fidate](#gruppi), evita di condividerli pubblicamente.
+Tuttavia, poiché i gruppi sono [destinati a persone fidate](#groups), evita di condividerli pubblicamente.
 
 
 ### Mi sono cancellato per sbaglio.
