@@ -177,6 +177,7 @@ def generate_file(srcdir, destdir, lang, file, add_top_links, add_pagefind):
             if not pathlib.Path(local_file).exists() and not url.startswith("./pagefind"):
                 print(f"\033[91m  ERROR: unresolved link in {lang}/{file}: \033[0m {url}")
 
+    print("  checking external anchors: " + " ".join(f"#{a}" for a in anchors_from_external))
     for anchor in anchors_from_external:
         if content.find('id="' + anchor + '"') == -1:
             print(f"\033[91m  ERROR: missing anchor in {lang}/{file}: \033[0m {anchor}")
