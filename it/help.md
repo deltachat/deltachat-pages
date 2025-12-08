@@ -335,24 +335,24 @@ Questo rende Delta Chat un servizio di messaggistica davvero espandibile.
 
 - In una chat, utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pulsante Allegato → Apps**
 
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+- Puoi anche [creare la tua app](#create-xdc) e allegarla usando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pulsante Allegato → File**
 
 
-### How private are in-chat apps?
+### Quanto sono private le apps di chat?
 
-- In-chat apps can not send data to the Internet, or download anything.
+- Le apps di chat non possono inviare dati a Internet né scaricare nulla.
 
-- An in-chat app can only exchange data within a Delta Chat chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
+- Un'app in-chat può scambiare dati solo all'interno di una chat Delta Chat, con le sue
+  copie sui dispositivi dei tuoi interlocutori. A parte questo, è completamente
+  isolata da Internet.
 
-- The privacy an in-chat app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the in-chat app as well.
+- La privacy offerta da un'app di chat è la privacy della tua chat: finché
+  ti fidi delle persone con cui chatti, puoi fidarti anche dell'app di chat.
 
-- This also means: Just like for web links, do not open apps from untrusted contacts.
+- questo significa anche: proprio come per i link web, non aprire app provenienti da contatti non attendibili.
 
 
-### How can I create my own in-chat apps? {#create-xdc}
+### Come posso creare le mie app di chat? {#create-xdc}
 
 - In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
 
