@@ -310,7 +310,7 @@ This makes Delta Chat a truly extensible messenger.
 
 - In-chat apps can not send data to the Internet, or download anything.
 
-- An in-chat app can only exchange data within a Delta Chat chat, with its
+- An in-chat app can only exchange data within a chat, with its
   copies on the devices of your chat partners. Other than that, it's completely
   isolated from the Internet.
 
@@ -544,19 +544,19 @@ for the following reasons:
   while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
 
 - Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message transport.
+  while chatmail clients use email servers for ephemeral instant message relay.
 
 - Supporting the full variety of classic email setups
   would require considerable development and maintenance efforts,
   and complicate making chatmail-based messaging more resilient, reliable and fast.
 
-### Wie kann ich ein Chat-Profil mit einer klassischen E-Mail-Adresse als Transport konfigurieren? {#classic-email}
+### Wie kann ich ein Chat-Profil mit einer klassischen E-Mail-Adresse als Relay konfigurieren? {#classic-email}
 
 First off, **please do not use the same classic email address also from non-chatmail classic email apps**
 unless you are prepared to deal with encrypted messages in the inbox,
 double notifications, accidentally deleted emails or similar annoyances.
 
-You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Transport**.
+You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Relay**.
 Note that classic email providers will generally not support [Push Notifications](#instant-delivery)
 and have other limitations, see [Provider Overview](https://providers.delta.chat).
 Chatmail uses the default INBOX for relay; ensure the provider setup does too. 
