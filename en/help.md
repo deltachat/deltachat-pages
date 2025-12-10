@@ -635,7 +635,7 @@ We are interested e.g. in statistics like:
 
 - Which versions of Delta Chat are being used?
 
-- Which errors happen to user?
+- What errors occur for users?
 
 We will _not_ collect any personally identifiable information about you.
 
