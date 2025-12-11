@@ -22,6 +22,6 @@ Le versioni desktop non necessitano che Delta Chat sia installato su un telefono
 
 - [Risoluzione Problemi Installazione Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
-  [Android](https://download.delta.chat/android/beta),
-  [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
+- Build Anteprima: [Desktop]({% include desktop-previews-url %}),
+[Android](https://download.delta.chat/android/beta),
+[Testflight iOS](https://testflight.apple.com/join/uEMc1NxS)

@@ -22,6 +22,6 @@ A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un t
 
 - [Resolució de problemes d’instal·lació a l’escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+- Construccions prelminars: [Escriptori]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
