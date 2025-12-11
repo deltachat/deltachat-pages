@@ -91,11 +91,8 @@ def url_is_reachable(url):
 
         if response.status_code == 200:
             reachable_cache[url] = True
-        elif response.status_code == 429:
-            print(f"\033[93m  got 429 Too Many Requests\033[0m for for {url}")
-            reachable_cache[url] = True
-        elif response.status_code == 503:
-            print(f"\033[93m  got 503 Service Temporarily Unavailable\033[0m for for {url}")
+        elif response.status_code in {429, 503, 504}:
+            print(f"\033[93m  got {response.status_code} ~ Too Fast Requests\033[0m for for {url}")
             reachable_cache[url] = True
         else:
             print(f"  status code for {url}: {response.status_code}")
