@@ -1,21 +1,21 @@
 ---
-title: Verifica Download
+title: Verifica dei download
 lang: it
 ---
 
-# Verifica Download
+# Verifica dei download
 
 ## Android
 
-Per Android, puoi verificare che il certificato di firma dell'APK corrisponda ad uno dei seguenti fingerprint SHA256:
+Per Android, puoi verificare che il certificato di firma dell'APK corrisponda ad una delle seguenti impronte SHA256:
 
-* Per download da F-Droid: 
+* Per i download da F-Droid: 
 `{% include fingerprint-f-droid %}`
 
-* Altri download APK: 
+* Altri download di APK: 
 `{% include fingerprint-local %}`
 
-Per stampare il fingerprint SHA256 del certificato di firma dell'APK, puoi usare ad es. <br>`keytool -printcert -jarfile <APK-file>`
+Per stampare l'impronta SHA256 del certificato di firma dell'APK puoi usare, per esempio, <br>`keytool -printcert -jarfile <APK-file>`
 
 ## Desktop
 
@@ -39,4 +39,4 @@ nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Scarica: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
+Scaricala: [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)

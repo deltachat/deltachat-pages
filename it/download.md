@@ -4,7 +4,7 @@ lang: it
 downloads: true
 ---
 
-Le versioni Desktop non necessitano che Delta Chat sia installato su un telefono.
+Le versioni desktop non necessitano che Delta Chat sia installato su un telefono.
 
 
 ## Registri delle Modifiche e Altro {#changelogs}

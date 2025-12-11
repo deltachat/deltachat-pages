@@ -7,7 +7,7 @@ lang: it
 
 💬 Messaggistica istantanea affidabile con supporto multiprofilo e multidispositivo
 
-⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
+⚡️ Iscriviti a [ripetitori chatmail](https://chatmail.at/relays) sicuri e interoperabili
 
 🥳 Interattive [Web App nelle chat](https://webxdc.org/) per giocare e collaborare
 
