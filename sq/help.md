@@ -578,27 +578,6 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### What is "Send statistics to Delta Chat's developers"? {#statssending}
-
-We would like to improve Delta Chat with your help,
-which is why Delta Chat for Android asks whether you want
-to send anonymous usage statistics.
-
-You can turn it on and off at
-**Settings → Advanced → Send statistics to Delta Chat's developers**.
-
-When you turn it on,
-weekly statistics will be automatically sent to a bot.
-
-We are interested e.g. in statistics like:
-
-- How many contacts are introduced by personally scanning a QR code?
-- Which versions of Delta Chat are being used?
-- How many messages are unencrypted?
-
-We will _not_ collect any personally identifiable information about you.
-
-
 ### Can I use a classic email address with Delta Chat?
 
 Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
@@ -640,6 +619,29 @@ We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/rela
 [Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
 and [core Rust developments](https://github.com/chatmail/core) 
 that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
+
+
+### What is "Send statistics to Delta Chat's developers"? {#statssending}
+
+We would like to improve Delta Chat with your help,
+which is why Delta Chat for Android asks whether you want
+to send anonymous usage statistics.
+
+You can turn it on and off at
+**Settings → Advanced → Send statistics to Delta Chat's developers**.
+
+When you turn it on,
+weekly statistics will be automatically sent to a bot.
+
+We are interested e.g. in statistics like:
+
+- How many contacts are introduced by personally scanning a QR code?
+
+- Which versions of Delta Chat are being used?
+
+- What errors occur for users?
+
+We will _not_ collect any personally identifiable information about you.
 
 
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?

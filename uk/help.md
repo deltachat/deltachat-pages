@@ -491,27 +491,6 @@ you can try out features we are working on.
 та залишити відгук на [форумі](https://support.delta.chat).
 
 
-### What is "Send statistics to Delta Chat's developers"? {#statssending}
-
-We would like to improve Delta Chat with your help,
-which is why Delta Chat for Android asks whether you want
-to send anonymous usage statistics.
-
-You can turn it on and off at
-**Settings → Advanced → Send statistics to Delta Chat's developers**.
-
-Коли Ви увімкнете цю функцію,
-щотижнева статистика буде автоматично надсилатися боту.
-
-We are interested e.g. in statistics like:
-
-- How many contacts are introduced by personally scanning a QR code?
-- Which versions of Delta Chat are being used?
-- How many messages are unencrypted?
-
-Ми _не_ будемо збирати жодних персональних даних, які б могли ідентифікувати Вас особисто.
-
-
 ### Can I use a classic email address with Delta Chat?
 
 Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
@@ -553,6 +532,29 @@ We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/rela
 [Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
 and [core Rust developments](https://github.com/chatmail/core) 
 that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
+
+
+### What is "Send statistics to Delta Chat's developers"? {#statssending}
+
+We would like to improve Delta Chat with your help,
+which is why Delta Chat for Android asks whether you want
+to send anonymous usage statistics.
+
+You can turn it on and off at
+**Settings → Advanced → Send statistics to Delta Chat's developers**.
+
+Коли Ви увімкнете цю функцію,
+щотижнева статистика буде автоматично надсилатися боту.
+
+We are interested e.g. in statistics like:
+
+- How many contacts are introduced by personally scanning a QR code?
+
+- Which versions of Delta Chat are being used?
+
+- What errors occur for users?
+
+Ми _не_ будемо збирати жодних персональних даних, які б могли ідентифікувати Вас особисто.
 
 
 ### Мене цікавлять технічні деталі. Можете розповісти більше?
