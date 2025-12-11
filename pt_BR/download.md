@@ -23,5 +23,5 @@ As versões do desktop não requerem que o Delta Chat seja instalado em um telef
 - [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
 - Preview Builds: [Desktop]({% include desktop-previews-url %}),
-  [Android Nightlies](https://download.delta.chat/android/nightly/),
+  [Android](https://download.delta.chat/android/beta),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)

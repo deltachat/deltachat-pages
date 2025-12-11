@@ -22,6 +22,6 @@ downloads: true
 
 - [Решение проблем установки на ПК](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Предварительные сборки: [ПК]({% include desktop-previews-url %}),
-  [Android Ночные](https://download.delta.chat/android/nightly/),
+- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+  [Android](https://download.delta.chat/android/beta),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
