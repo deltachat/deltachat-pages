@@ -22,6 +22,6 @@ Verze pro počítače nevyžaduje instalaci aplikace Delta Chat na mobilní tele
 
 - [Řešení potíží při instalaci na počítač](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Testovací vydání: [PC]({% include desktop-previews-url %}),
-  [Android Nightlies](https://download.delta.chat/android/nightly/),
+- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+  [Android](https://download.delta.chat/android/beta),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)

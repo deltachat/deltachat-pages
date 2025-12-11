@@ -573,6 +573,34 @@ Puoi trovare maggiori informazioni
 e lasciare un riscontro nel [Forum](https://support.delta.chat).
 
 
+### What are Relays? {#relays}
+
+Relays are used to temporarily hold messages in case your devices is offline.
+Relays are cheap and dumb servers,
+that do not store data as group states, your name or avatar -
+all that exist only on your device.
+Relays are operated by different groups and people.
+
+By default, after installation, a relay is **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at At **Settings → Advanced → Relays**:
+
+- You can **add** a relay by scanning its QR code;
+  <https://chatmail.at/relays> shows some known ones.
+  If your have multiple relays, your will receive messages on all of them.
+
+- The **default** defines the one where your chat partners send future messages to.
+
+- If you **remove** a relay,
+  make sure another default relay was used for a sufficient amount of time.
+  Otherwise, messages from your chat partners won't reach you.
+  If in doubt, remove later.
+
+For more details and future possibilities of relays,
+you can follow discussions in the [Forum](https://support.delta.chat).
+
+
 ### Posso usare un indirizzo email classico con Delta Chat?
 
 Sì, ma solo se l'indirizzo e-mail viene utilizzato esclusivamente dai [client di chatmail](https://chatmail.at/clients).

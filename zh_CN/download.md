@@ -22,6 +22,6 @@ downloads: true
 
 - [桌面版安装故障解决](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- 预览版本：[桌面版]({% include desktop-previews-url %})、
-  [安卓 每日版](https://download.delta.chat/android/nightly/)、
-  [iOS 测试版](https://testflight.apple.com/join/uEMc1NxS)
+- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+  [Android](https://download.delta.chat/android/beta),
+  [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)

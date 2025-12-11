@@ -508,8 +508,34 @@ kannst du unfertige Features ausprobieren, an denen gearbeitet wird.
 
 Die Features können **instabil** sein und **geändert oder entfernt** werden.
 
-You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
+Du findest weitere Informationen im [Forum](https://support.delta.chat), wo du auch Feedback geben kannst.
+
+
+### Was sind Relays? {#relays}
+
+Relays werden verwendet, um Nachrichten vorübergehend zu speichern, falls dein Gerät offline ist.
+Relays sind billige und einfache Server,
+die keine Daten wie Gruppenstatus, deinen Namen oder deinen Avatar speichern –
+all das existiert nur auf deinem Gerät.
+Relays werden von verschiedenen Gruppen und Personen betrieben.
+
+Standardmäßig wird nach der Installation ein Relay **automatisch** hinzugefügt;
+darum musst du dich nicht kümmern.
+Wenn du möchtest,
+kannst du jedoch unter **Einstellungen → Erweitert → Relays** Änderungen vornehmen:
+
+- Du kannst ein Relay **hinzufügen**, indem du einen QR-Code scannst,
+z.B. von <https://chatmail.at/relays>.
+Bei mehreren Relays, empfängst du die Nachrichten von allen Relays.
+
+- **Standard** legt das Relay fest, an das deine Chatpartner zukünftig Nachrichten senden.
+
+- Wenn du ein Relay **entfernst**,
+stelle sicher, dass ein anderes Standard-Relay ausreichend lange verwendet wurde.
+Andernfalls erreichen dich keine Nachrichten von deinen Kontakten.
+Im Zweifelsfall entferne das Relay später.
+
+Weitere Details und zukünftige Möglichkeiten findest du im [Forum](https://support.delta.chat).
 
 
 ### Kann ich eine klassische E-Mail-Adresse mit Delta Chat verwenden?

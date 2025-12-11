@@ -22,4 +22,6 @@ downloads: true
 
 - [Виправлення неполадок під час встановлення десктопних версій](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Попередній перегляд збірок: [Десктоп]({% include desktop-previews-url %}), [Android Nightlies](https://download.delta.chat/android/nightly/), [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
+- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+  [Android](https://download.delta.chat/android/beta),
+  [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
