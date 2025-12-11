@@ -19,6 +19,6 @@ Je kunt de computerversies gebruiken zonder de app op je telefoon.
 
 - [Probleemoplossing omtrent installatie](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+- Vooraf vrijgegeven versies: [Computer]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),
-  [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
+  [iOS](https://testflight.apple.com/join/uEMc1NxS)

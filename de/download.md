@@ -22,6 +22,6 @@ Die Desktop-Versionen erfordern keine Installation von Delta Chat auf einem Mobi
 
 - [Desktop-Installations-Fehlersuche](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
-- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+- Previews: [Desktop]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
