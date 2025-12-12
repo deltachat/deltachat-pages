@@ -506,7 +506,7 @@ you can configure relays at At **Settings → Advanced → Relays**:
 
 - You can **add** a relay by scanning its QR code;
   <https://chatmail.at/relays> shows some known ones.
-  If your have multiple relays, your will receive messages on all of them.
+  If you have multiple relays, your will receive messages on all of them.
 
 - The **default** defines the one where your chat partners send future messages to.
 
@@ -663,21 +663,9 @@ Delta Chat також ніколи не був вразливим до EFAIL-а�
 
 ### Чи повідомлення, позначені значком пошти, доступні в Інтернеті?{#tls}
 
-If you are sending or receiving email messages without end-to-end encryption (using a classic email server),
-they are still protected from cell or cable companies who can not read or modify your email messages.
-But both your and your recipient's email providers
-may read, analyze or modify your messages, including any attachments. 
+Якщо ви надсилаєте або отримуєте електронні листи без наскрізного шифрування (використовуючи класичний сервер електронної пошти), вони все одно захищені від мобільних або кабельних компаній, які не можуть читати чи змінювати ваші повідомлення. Однак як ваш, так і поштовий провайдер одержувача можуть читати, аналізувати або змінювати ваші листи, включаючи будь-які вкладення.
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your email provider.
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's email provider
-will typically be transport-encrypted as well.
-If the involved email servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between email providers
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+За замовчуванням Delta Chat використовує суворе [TLS-шифрування](https://en.wikipedia.org/wiki/Transport_Layer_Security) яке захищає з'єднання між вашим пристроєм і провайдером електронної пошти. Вся робота з TLS-шифруванням Delta Chat пройшла незалежний [аудит безпеки](#security-audits). Крім того, з'єднання між вашим провайдером та провайдером електронної пошти одержувача зазвичай також шифрується при передачі даних. Якщо задіяні поштові сервери підтримують [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461) то між провайдерами електронної пошти буде застосовуватися транспортне шифрування в цьому випадку повідомлення Delta Chat ніколи не будуть доступні в Інтернеті у вигляді відкритого тексту навіть якщо повідомлення не було наскрізь зашифровано.
 
 
 ### Як Delta Chat захищає метадані у повідомленнях? {#message-metadata}

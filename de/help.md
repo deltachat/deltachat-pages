@@ -691,10 +691,11 @@ die Sicherheitseigenschaften durch das im Sommer 2023 angenommene
 
 ### Wurden Alternativen zu OpenPGP für die Ende-zu-Ende-Verschlüsselung in Betracht gezogen? {#openpgp-alternatives}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-but adopting them would mean breaking end-to-end encryption interoperability.
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+Ja, wir verfolgen Ansätze wie [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security). 
+Diese zu übernehmen würde aber bedeuten, die Interoperabilität der Ende-zu-Ende-Verschlüsselung 
+mit allen anderen Anwendungen zu zerstören. 
+Die Entscheidung wäre also nicht leicht zu treffen 
+und müsste spürbare Verbesserungen für die Nutzer bringen.
 
 Delta Chat verfolgt einen ganzheitlichen Ansatz bei der "nutzbaren Sicherheit": 
 Wir arbeiteten mit vielen Aktivistengruppen sowie mit 
@@ -722,21 +723,22 @@ so wie in der Autocrypt-Level-1-Spezifikation definiert.
 
 ### Sind mit dem Mail-Symbol markierte Nachrichten im Internet sichtbar? {#tls}
 
-If you are sending or receiving email messages without end-to-end encryption (using a classic email server),
-they are still protected from cell or cable companies who can not read or modify your email messages.
-But both your and your recipient's email providers
-may read, analyze or modify your messages, including any attachments. 
+Wenn du E-Mail-Nachrichten ohne Ende-zu-Ende-Verschlüsselung sendest oder empfängst (mit einem klassischen E-Mail-Server),
+sind sie immer noch vor Mobilfunkanbietern oder Kabelnetzbetreibern geschützt, die Ihre E-Mail-Nachrichten nicht lesen oder verändern können. 
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your email provider.
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's email provider
-will typically be transport-encrypted as well.
-If the involved email servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between email providers
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+Aber sowohl dein E-Mail-Anbieter als auch der E-Mail-Anbieter des Empfängers 
+können Nachrichten, einschließlich aller Anhänge, lesen, analysieren oder verändern. 
+
+Delta Chat verwendet standardmäßig strikte 
+[TLS-Verschlüsselung](https://en.wikipedia.org/wiki/Transport_Layer_Security), 
+die die Verbindungen zwischen Ihrem Gerät und Ihrem E-Mail-Anbieter sichert. 
+Die gesamte TLS-Implementierung wurde unabhängig [sicherheitsgeprüft](#security-audits).
+Die Verbindung zwischen Ihrem E-Mail-Providern und dem des Empfängers
+ist in der Regel ebenfalls transportverschlüsselt.
+Wenn die beteiligten E-Mail-Server [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461) unterstützen,
+wird TLS zwischen den E-Mail-Anbietern durchgesetzt. 
+In diesem Fall wird die Delta-Chat-Kommunikation niemals im Klartext ins Internet gelangen
+selbst wenn die Nachricht nicht Ende-zu-Ende-verschlüsselt war.
 
 
 ### Wie schützt Delta Chat Metadaten in Nachrichten? {#message-metadata}
