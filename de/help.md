@@ -85,7 +85,7 @@ kann darauf tippen, um mit dem ersten Kontakt zu chatten.
 ### Was sind Profile? Wie kann ich zwischen ihnen wechseln? {#multiple-accounts}
 
 Ein Profil besteht aus **einem Namen, einem Bild** und einigen zusätzlichen Informationen zum Verschlüsseln von Nachrichten.
-Ein Profil existiert nur auf Ihren Geräten
+Ein Profil existiert nur auf deinen Geräten
 und verwendet den Server nur für den Transport von Nachrichten.
 
 Bei der Installation von Delta Chat wird ein erstes Profil erstellt.
@@ -162,7 +162,7 @@ Dies ist also kein Echtzeit-Online-Status - und auch andere werden nicht immer s
 
 - **Zwei Häkchen**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/> bedeuten, dass mindestens ein Gerät des Empfängers zurückgemeldet hat, die Nachricht empfangen zu haben.
 
-- Lesebestätigungen können deaktiviert werden. D.h. auch wenn Sie nur ein Häkchen sehen, kann die Nachricht gelesen worden sein.
+- Lesebestätigungen können deaktiviert werden. D.h. auch wenn du nur ein Häkchen siehst, kann die Nachricht gelesen worden sein.
 
 - Umgekehrt bedeuten zwei Häkchen nicht automatisch, dass ein Mensch die Nachricht gelesen oder verstanden hat ;)
 
@@ -210,7 +210,7 @@ Abgesehen davon, wenn ein Chat-Partner Delta Chat deinstalliert, kann es länger
 ### Was passiert, wenn ich "Alte Nachrichten vom Gerät löschen" aktiviere? {#delold}
 
 - Wenn du Speicherplatz auf deinem Gerät sparen möchtest, kannst du alte Nachrichten automatisch löschen lassen.
-- Hierzu, öffne die "Chats und Medien"-Einstellungen und dort "Alte Nachrichten vom Gerät löschen". Du kannst einen Zeitraum zwischen "1 Stunde" und "1 Jahr" festlegen; auf diese Weise werden *alle* Nachrichten von Ihrem Gerät gelöscht, sobald sie älter als angegeben sind.
+- Hierzu, öffne die "Chats und Medien"-Einstellungen und dort "Alte Nachrichten vom Gerät löschen". Du kannst einen Zeitraum zwischen "1 Stunde" und "1 Jahr" festlegen; auf diese Weise werden *alle* Nachrichten von deinem Gerät gelöscht, sobald sie älter als angegeben sind.
 
 ### Wie kann ich mein Chat-Profil löschen? {#remove-account} 
 
@@ -374,7 +374,7 @@ Einige Android-Hersteller schränken Apps sogar vollständig ein
 (siehe [dontkillmyapp.com](https://dontkillmyapp.com))
 und Delta Chat zeigt möglicherweise keine eingehenden Nachrichten an, bis du die App erneut manuell öffnest.
   
-- Hintergrundverbindung erzwingen: Dies ist die Ausweichoption wenn die vorherigen Optionen nicht verfügbar sind oder keine „sofortige Zustellung“ erreichen. Die Aktivierung dieser Option führt zu einer permanenten Benachrichtigung auf Ihrem Telefon, die bei neueren Android-Telefonen manchmal „verkleinert“ werden kann.
+- Hintergrundverbindung erzwingen: Dies ist die Ausweichoption wenn die vorherigen Optionen nicht verfügbar sind oder keine „sofortige Zustellung“ erreichen. Die Aktivierung dieser Option führt zu einer permanenten Benachrichtigung auf deinem Telefon, die bei neueren Android-Telefonen manchmal „verkleinert“ werden kann.
 
 Beide „Hintergrundverbindung“-Optionen sind energiesparend und
 können sicher ausprobiert werden, wenn du feststellst, dass Nachrichten nur mit großer Verzögerung ankommen.
@@ -814,7 +814,7 @@ Wir beabsichtigen, PQC-Unterstützung zum [chatmail core](https://github.com/cha
 Du kannst den Status der Ende-zu-Ende-Verschlüsselung manuell im Dialog "Verschlüsselung"
 (Android/iOS: Benutzerprofil, Desktop: Rechtsklick auf den Chat eines Benutzers) überprüfen.
 Delta Chat zeigt dort zwei Fingerabdrücke an.
-Wenn die gleichen Fingerabdrücke auf Ihrem eigenen Gerät und auf dem Gerät Ihres Kontakts erscheinen,
+Wenn die gleichen Fingerabdrücke auf deinem eigenen Gerät und auf dem Gerät deines Kontakts erscheinen,
 ist die Verbindung sicher.
 
 ### Kann ich meinen existierenden privaten Schlüssel weiter verwenden? {#importkey}
@@ -875,9 +875,9 @@ Delta Chat ist für alle großen und einige kleinere Plattformen verfügbar:
 
 -  Falls nicht verfügbar, verwende den **Mirror** auf <https://deltachat.github.io/deltachat-pages>
 
-- Öffne einen der folgenden **App-Stores und suchen Sie nach „Delta Chat“:** Google Play Store, F-Droid, Huawei App Gallery, iOS und macOS App Store, Microsoft Store
+- Öffne einen der folgenden **App-Stores und suche nach „Delta Chat“:** Google Play Store, F-Droid, Huawei App Gallery, iOS und macOS App Store, Microsoft Store
 
-- Im **Paketmanager** Ihrer Linux-Distribution nachschauen
+- Im **Paketmanager** deiner Linux-Distribution nachschauen
 
  - **Android-APKs** sind auch auf <https://github.com/deltachat/deltachat-android/releases> verfügbar.
 

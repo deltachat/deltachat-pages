@@ -574,7 +574,7 @@ and give feedback in the [Forum](https://support.delta.chat).
 
 ### What are Relays? {#relays}
 
-Relays are used to temporarily hold messages in case your devices is offline.
+Relays are used to temporarily hold messages in case your device is offline.
 Relays are cheap and dumb servers,
 that do not store data as group states, your name or avatar -
 all that exist only on your device.
