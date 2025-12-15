@@ -467,10 +467,12 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 
 Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne urządzenie” nie działa.
 
-- Na starym urządzeniu przejdź do „Ustawienia » Czaty i media » Eksport kopii zapasowej”. Wprowadź swój PIN odblokowania ekranu, wzór lub hasło. Następnie możesz nacisnąć „Utwórz kopię”. Spowoduje to zapisanie pliku kopii zapasowej na urządzeniu. Teraz musisz jakoś przenieść go na inne urządzenie.
-- Na nowym urządzeniu, na ekranie logowania, zamiast logować się na swoje konto e-mail, wybierz „Przywróć z kopii zapasowej”. Po zaimportowaniu Twoje rozmowy, klucze szyfrujące i multimedia powinny zostać skopiowane na nowe urządzenie.
-  - **Jeśli korzystasz z iOS** i napotykasz trudności, może [ten poradnik](https://support.delta.chat/t/import-backup-to-ios/1628) Ci pomoże.
-- Jesteś teraz zsynchronizowany i możesz używać obu urządzeń do wysyłania i odbierania wiadomości zaszyfrowanych end-to-end w komunikacji ze swoimi partnerami.
+- Na starym urządzeniu przejdź do **Ustawienia → Czaty i media → Eksport kopii zapasowej**. Wprowadź swój PIN odblokowania ekranu, wzór lub hasło. Następnie możesz nacisnąć „Utwórz kopię”. Spowoduje to zapisanie pliku kopii zapasowej na urządzeniu. Teraz musisz jakoś przenieść go na inne urządzenie.
+
+- Na nowym urządzeniu, na ekranie logowania, zamiast logować się na swoje konto e-mail, wybierz **Przywróć z kopii zapasowej**. Po zaimportowaniu Twoje rozmowy, klucze szyfrujące i multimedia powinny zostać skopiowane na nowe urządzenie.
+Jeśli korzystasz z iOS i napotykasz trudności, może [ten poradnik](https://support.delta.chat/t/import-backup-to-ios/1628) Ci pomoże.
+
+Jesteś teraz zsynchronizowany i możesz używać obu urządzeń do wysyłania i odbierania wiadomości zaszyfrowanych end-to-end w komunikacji ze swoimi partnerami.
 
 
 ### Czy są jakieś plany wprowadzenia klienta Web Delta Chat?
