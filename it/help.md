@@ -534,18 +534,12 @@ prova ad aprire l' **Hotspot** su uno dei dispositivi e collegati al quel Wi-Fi 
 
 Questo metodo è consigliato solo se "Aggiungi Secondo Dispositivo" come descritto sopra non funziona.
 
-- Sul vecchio dispositivo, vai su "Impostazioni -> Chat e Media -> Backup Chat su Memoria Esterna". Inserisci il tuo
-PIN, sequenza o password di sblocco dello schermo. Quindi puoi fare clic su "Avvia
-Backup". Questo salva il file di backup sul tuo dispositivo. Ora devi trasferirlo
-in qualche modo all'altro dispositivo.
-- Sul nuovo dispositivo, nella schermata di accesso, invece di accedere al tuo profilo
-e-mail, seleziona "Importa backup". Dopo l'importazione, le tue conversazioni, la crittografia
-i tasti e i supporti devono essere copiati sul nuovo dispositivo.
-- **Se usi iOS:** e incontri difficoltà, forse
-[questa guida](https://support.delta.chat/t/import-backup-to-ios/1628)
-Aiutarti.
-- Ora sei sincronizzato e puoi utilizzare entrambi i dispositivi per inviare e ricevere
-messaggi crittografati end-to-end con i tuoi partner di comunicazione.
+- Sul vecchio dispositivo, vai su **Impostazioni → Chat e Media → Backup Chat su Memoria Esterna**. Inserisci il tuo PIN, sequenza o password di sblocco dello schermo. Quindi puoi fare clic su "Avvia Backup". Questo salva il file di backup sul tuo dispositivo. Ora devi trasferirlo in qualche modo all'altro dispositivo.
+
+- Sul nuovo dispositivo, nella schermata di accesso, invece di accedere al tuo profilo e-mail, seleziona **Importa backup**. Dopo l'importazione, le tue conversazioni, la crittografia i tasti e i supporti devono essere copiati sul nuovo dispositivo.
+ Se usi iOS: e incontri difficoltà, forse [questa guida](https://support.delta.chat/t/import-backup-to-ios/1628) Aiutarti.
+
+Ora sei sincronizzato e puoi utilizzare entrambi i dispositivi per inviare e ricevere messaggi crittografati end-to-end con i tuoi partner di comunicazione.
 
 
 ### Sono previsti piani per l'introduzione di un client Web Delta Chat?

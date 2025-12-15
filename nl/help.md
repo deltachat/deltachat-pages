@@ -533,18 +533,17 @@ op beide apparaten**. Hierdoor hoef je niet het ene apparaat bij de hand te hebb
 
 Deze methode is vooral bedoeld voor situaties waarin ‘Tweede apparaat toevoegen’ niet lukt.
 
-- On the old device, go to "Settings -> Chats and media -> Export Backup". Enter your
+- On the old device, go to **Settings → Chats → Export Backup**. Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.
-- On the new device, in the "I already have a profile" menu,
-  choose "restore from backup". After import, your conversations, encryption
-  keys, and media should be copied to the new device.
-  - **If you use iOS:** and you encounter difficulties, maybe
-    [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) will
-    help you.
-- You are now synchronized, and can use both devices for sending and receiving
-  end-to-end encrypted messages with your communication partners.
+
+- On the new device, select **I Already Have a Profile → Restore from Backup**.
+  If you use iOS and encounter difficulties,
+  [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) might help you.
+
+You are now synchronized, and can use both devices for sending and receiving
+end-to-end encrypted messages with your communication partners.
 
 
 ### Bestaan er plannen om een Delta Chat-webclient te maken?

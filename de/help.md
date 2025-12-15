@@ -485,10 +485,12 @@ versuche, einen **Mobilen Hotspot** auf einem Gerät zu öffnen und dich mit dem
 
 Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben beschrieben, nicht funktioniert.
 
-- Auf dem alten Gerät, gehe zu "Einstellungen → Chats und Medien → Chats auf externem Speicher speichern". Gib deine PIN, dein Muster oder dein Passwort zum Entsperren des Bildschirms ein. Anschließend kannst du auf "Backup starten" klicken. Dadurch wird die Backup-Datei auf deinem Gerät gespeichert. Jetzt musst du sie auf das andere Gerät übertragen.
-- Auf dem neuen Gerät, auf dem Anmeldebildschirm, wähle "Ich habe bereits ein Profil" und dann "Wiederherstellen aus Backup". Nach dem Import sind deine Chats, Medien und Einstellungen auf das neue Gerät kopiert.
-  - **Wenn du iOS verwendest** und auf Schwierigkeiten stößt, hilft dir vielleicht [diese Anleitung](https://support.delta.chat/t/import-backup-to-ios/1628).
-- Du bist nun synchronisiert und kannst beide Geräte zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten-Nachrichten mit deinen Kommunikationspartnern verwenden.
+- Auf dem alten Gerät, gehe zu **Einstellungen → Chats und Medien → Chats auf externem Speicher speichern**. Gib deine PIN, dein Muster oder dein Passwort zum Entsperren des Bildschirms ein. Anschließend kannst du auf "Backup starten" klicken. Dadurch wird die Backup-Datei auf deinem Gerät gespeichert. Jetzt musst du sie auf das andere Gerät übertragen.
+
+- Auf dem neuen Gerät, auf dem Anmeldebildschirm, wähle **Ich habe bereits ein Profil → Wiederherstellen aus Backup**. Nach dem Import sind deine Chats, Medien und Einstellungen auf das neue Gerät kopiert.
+Wenn du iOS verwendest und auf Schwierigkeiten stößt, hilft dir vielleicht [diese Anleitung](https://support.delta.chat/t/import-backup-to-ios/1628).
+
+Du bist nun synchronisiert und kannst beide Geräte zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten-Nachrichten mit deinen Kommunikationspartnern verwenden.
 
 
 ### Gibt es Pläne für eine Delta-Chat-Web-Anwendung?
