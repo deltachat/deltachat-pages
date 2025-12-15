@@ -214,16 +214,15 @@ Abgesehen davon, wenn ein Chat-Partner Delta Chat deinstalliert, kann es länger
 
 ### Wie kann ich mein Chat-Profil löschen? {#remove-account} 
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+Wenn du mehr als ein Chat-Profil verwendest,
+kannst du einzelne Profile über den Avatar oben links (Android/iOS)
+oder über die Seitenleiste (Desktop, Rechtsklick) entfernen.
+Chat-Profile werden nur auf dem Gerät entfernt, auf dem "Löschen" ausgewählt wurde. 
+Chat-Profile auf anderen Geräten funktionieren uneingeschränkt weiter. 
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+Wenn du ein einzelnes Standard-Chat-Profil verwendest, kannst du die App einfach deinstallieren.
+Dadurch werden automatisch alle zugehörigen Daten gelöscht.
+Weitere Informationen findest du auf der Seite des ausgewählten [Relay](https://chatmail.at/relays).
 
 
 ## Gruppen {#groups}

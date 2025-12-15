@@ -573,32 +573,30 @@ Puoi trovare maggiori informazioni
 e lasciare un riscontro nel [Forum](https://support.delta.chat).
 
 
-### What are Relays? {#relays}
+### Cosa sono i ripetitori? {#relays}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store data as group states, your name or avatar -
-all that exist only on your device.
-Relays are operated by different groups and people.
+I ripetitori vengono utilizzati per conservare temporaneamente i messaggi nel caso in cui il dispositivo sia offline.
+I ripetitori sono server economici e poco intelligenti,
+che non memorizzano dati come stati di gruppo, nome o avatar,
+tutti dati che esistono solo sul dispositivo.
+I ripetitori sono gestiti da gruppi e persone diverse.
 
-By default, after installation, a relay is **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at At **Settings → Advanced → Relays**:
+Per impostazione predefinita, dopo l'installazione, un ripetitore viene **configurato automaticamente**,
+quindi non è necessario preoccuparsene.
+Tuttavia, se lo si desidera,
+è possibile configurare i ripetitori in **Impostazioni → Avanzate → Ripetitori**:
 
-- You can **add** a relay by scanning its QR code;
-  <https://chatmail.at/relays> shows some known ones.
-  If you have multiple relays, your will receive messages on all of them.
+- Puoi **aggiungere** un ripetitore scansionando il suo codice QR;<https://chatmail.at/relays> ne mostra alcuni noti.
+Se hai più ripetitori, riceverai messaggi su tutti.
 
-- The **default** defines the one where your chat partners send future messages to.
+- L'opzione **predefinita** definisce quella a cui i tuoi partner di chat invieranno messaggi futuri.
 
-- If you **remove** a relay,
-  make sure another default relay was used for a sufficient amount of time.
-  Otherwise, messages from your chat partners won't reach you.
-  If in doubt, remove later.
+- Se **rimuovi** un ripetitore,
+  assicurati che un altro ripetitore predefinito sia stato utilizzato per un periodo di tempo sufficiente.
+  In caso contrario, i messaggi dei tuoi interlocutori di chat non ti   arriveranno.In caso di dubbio, rimuovilo in seguito.
 
-For more details and future possibilities of relays,
-you can follow discussions in the [Forum](https://support.delta.chat).
+Per maggiori dettagli e future possibilità di utilizzo dei ripetitori,
+potete seguire le discussioni nel [Forum](https://support.delta.chat).
 
 
 ### Posso usare un indirizzo email classico con Delta Chat?
