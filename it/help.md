@@ -62,7 +62,7 @@ Se vi aggiungete a vicenda a [gruppi](#groups), la crittografia end-to-end verr�
 Essendo un messenger privato,
 solo gli amici e i familiari con cui [condividi il tuo codice QR o il link di invito](#howtoe2ee) possono scriverti.
 
-I tuoi amici potrebbero condividere i tuoi contatti con altri amici; ciò apparirà come una **richiesta**.
+I tuoi amici potrebbero condividere i tuoi contatti con altri amici; ciò apparirà come una <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Richiesta</b>
 
 - È necessario **accettare** la richiesta prima di poter rispondere.
 
@@ -131,8 +131,7 @@ Usa questi strumenti per organizzare le tue chat e tenere tutto in ordine:
 
 - **Silenzia chat** se non vuoi ricevere notifiche da queste. Le chat silenziate restano al loro posto e puoi anche fissare una chat silenziata.
 
-- **Archivia chats** se non vuoi più vederle nel tuo elenco chat.
-Le chat archiviate rimangono accessibili sopra l'elenco delle chat o tramite la ricerca.
+- **Archivia chats** se non vuoi più vederle nel tuo elenco chat. Le chat archiviate rimangono accessibili sopra l'elenco delle chat o tramite la ricerca.
 
 - Quando una chat archiviata riceve un nuovo messaggio, a meno che non sia silenziata, **salterà fuori dall'archivio** e tornerà nell'elenco delle chat.
 **Le chat silenziate restano archiviate** fino a che non le estrai manualmente.

@@ -54,7 +54,7 @@ wird eine Ende-zu-Ende-Verschlüsselung zwischen allen Mitgliedern eingerichtet.
 
 Da Delta Chat ein privater Messenger ist, können dir zunächst nur Freunde und Familienmitglieder, denen du deinen [QR-Code oder Einladungslink](#howtoe2ee) schickst, schreiben.
 
-Deine Freunde können deine Kontaktdaten dann mit anderen Freunden teilen. Dies wird als **Anfrage** angezeigt.
+Deine Freunde können deine Kontaktdaten dann mit anderen Freunden teilen. Dies wird als <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Anfrage</b> angezeigt.
 
 - Du musst die Anfrage **akzeptieren**, bevor du antworten kannst.
 
@@ -120,7 +120,7 @@ Verwende diese Tools, um deine Chats zu organisieren:
 
 - **Stummgeschaltete Chats** erhalten keine Benachrichtigungen, bleiben ansonsten aber an ihrem Platz. Du kannst auch stummgeschaltete Chats anheften.
 
-- **Archiviere Chats**, wenn du diese nicht mehr in deiner Chatliste sehen möchtest. Archivierte Chats bleiben oberhalb der Chatliste oder über die Suche zugänglich.
+- **Archiviere Chats**, wenn du diese nicht mehr in deiner Chatliste sehen möchtest; sie bleiben oberhalb der Chatliste oder über die Suche zugänglich und werden als <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Archiviert</b> gekennzeichnet
 
 - Wenn ein archivierter Chat eine neue Nachricht erhält, wird er, sofern er nicht stummgeschaltet ist, **wieder in die normale Chatliste verschoben**.  **Stummgeschaltete Chats bleiben archiviert**, bis du sie manuell aus dem Archiv entfernst.
 

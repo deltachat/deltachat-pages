@@ -62,7 +62,8 @@ If you add each other to [groups](#groups), end-to-end encryption will be establ
 As being a private messenger,
 only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
 
-Your friends may share your contact with other friends, this appears as a **request**.
+Your friends may share your contact with other friends,
+this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
 
 - **Accepteer** het verzoek om te kunnen antwoorden.
 
@@ -131,8 +132,7 @@ Met deze hulpmiddelen kun je je gesprekken geordend houden:
 
 - Stel gesprekken in op **Negeren** als je geen meldingen meer wilt ontvangen. Wel blijven genegeerde gesprekken op de lijst staan en kun je ze te allen tijde vastmaken.
 
-- **Archiveer gesprekken** als je ze niet meer op de gesprekslijst wilt zien.
-  Gearchiveerde gesprekken zijn te allen tijde te bekijken boven de lijst of via een zoekopdracht.
+- **Archiveer gesprekken** als je ze niet meer op de gesprekslijst wilt zien. Gearchiveerde gesprekken zijn te allen tijde te bekijken boven de lijst of via een zoekopdracht.
 
 - Als er een nieuw bericht in een gearchiveerd gesprek wordt ontvangen, dan wordt het gesprek in kwestie **ge-dearchiveerd** en dus weer op de gesprekslijst geplaatst.
   **Genegeerde gesprekken blijven in het archief staan** totdat je ze er zelf uithaalt.

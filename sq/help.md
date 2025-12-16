@@ -62,7 +62,8 @@ If you add each other to [groups](#groups), end-to-end encryption will be establ
 As being a private messenger,
 only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
 
-Your friends may share your contact with other friends, this appears as a **request**.
+Your friends may share your contact with other friends,
+this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
 
 - Duhet të **pranoni** kërkesën, para se të mund të përgjigjeni.
 
@@ -131,8 +132,7 @@ Përdorini këto mjete për të sistemuar fjalosjet tuaja dhe për ta mbajtur gj
 
 - **Heshtoni fjalosje**, nëse s’doni të merrni njoftime mbi to. Fjalosjet e heshtuara qëndrojnë në vend dhe mundeni edhe të fiksoni një fjalosje të heshtuar.
 
-- **Arkivoni fjalosje**, nëse s’doni t’i shihni më në listën tuaj të fjalosjeve.
-  Fjalosjet e arkivuara mbesin të përdorshme mbi listën e fjalosjeve, ose përmes kërkimit. 
+- **Arkivoni fjalosje**, nëse s’doni t’i shihni më në listën tuaj të fjalosjeve. Fjalosjet e arkivuara mbesin të përdorshme mbi listën e fjalosjeve, ose përmes kërkimit.
 
 - Kur te një fjalosje e arkivuar vjen një mesazh i ri, do të **hapet jashtë arkivit** dhe kalojë te lista juaj e fjalosjeve, veç në mos qoftë e heshtuar.
   **Fjalosjet e heshtuara mbeten të arkivuara**, veç në i çarkivofshi dorazi.

@@ -62,7 +62,8 @@ If you add each other to [groups](#groups), end-to-end encryption will be establ
 As being a private messenger,
 only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
 
-Your friends may share your contact with other friends, this appears as a **request**.
+Your friends may share your contact with other friends,
+this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
 
 - Necesitas **aceptar** la solicitud antes de poder responder.
 
@@ -128,8 +129,7 @@ Usa estas herramientas para organizar tus chats y mantener todo en su lugar:
 
 - **Chats muteados** si no quieres recibir notificaciones de ellos. Chats muteados se mantienen en su lugar e inclusive puedes fijarlos.
 
-- **Archivar chats** si no deseas verlos en tu lista de chats.
-Los chats archivados siguen siendo accesibles arriba de la lista de chats o a través de la búsqueda.
+- **Archivar chats** si no deseas verlos en tu lista de chats. Los chats archivados siguen siendo accesibles arriba de la lista de chats o a través de la búsqueda.
 
 - Cuando un chat archivado recibe un nuevo mensaje, a menos que esté silenciado, **saldrá del archivo** y volverá a aparecer en tu lista de chats.
 Los chats **silenciados permanecen archivados** hasta que los desarchivas manualmente.

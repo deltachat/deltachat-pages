@@ -62,7 +62,8 @@ If you add each other to [groups](#groups), end-to-end encryption will be establ
 As being a private messenger,
 only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
 
-Your friends may share your contact with other friends, this appears as a **request**.
+Your friends may share your contact with other friends,
+this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
 
 - Vous devez d'abord **accepter** pour pouvoir répondre au message.
 
@@ -129,8 +130,7 @@ Ces options vous permettent d'organiser et trier vos discussions :
 
 - Utilisez la **sourdine** pour les discussions dont vous ne voulez pas recevoir les notifications. Les discussions en sourdine figurent toujours dans votre liste et peuvent aussi être les épinglées.
 
-- **Archivez les discussions** si vous ne voulez plus les voir apparaître dans votre liste de discussions.
-  Les discussions archivées restent accessibles au-dessus de la liste de discussions ou via la recherche. 
+- **Archivez les discussions** si vous ne voulez plus les voir apparaître dans votre liste de discussions.  Les discussions archivées restent accessibles au-dessus de la liste de discussions ou via la recherche.
 
 - Lorsqu'un nouveau message est envoyé sur une discussion que vous avez archivée, et que vous n'avez pas mise en sourdine, la discussion **sort des archives** et reprend sa place dans votre liste de discussions.
   **Les discussions en sourdine restent archivées** tant que vous ne les désarchivez pas manuellement.

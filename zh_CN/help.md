@@ -62,7 +62,8 @@ If you add each other to [groups](#groups), end-to-end encryption will be establ
 As being a private messenger,
 only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
 
-Your friends may share your contact with other friends, this appears as a **request**.
+Your friends may share your contact with other friends,
+this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
 
 - 需先**通过**该验证请求，用户方可发送回复。
 
@@ -130,7 +131,7 @@ they will see it when they view your contact details.
 - **静音聊天**，如果您不想再得到关于它们的通知。被静音的聊天会呆在原地，并且您可以固定被静音的聊天。
 
 - 如果您不想再在聊天列表中看到聊天记录，请**归档聊天**。
-  已归档的聊天仍可在聊天列表上方或通过搜索访问。 
+已归档的聊天仍可在聊天列表上方或通过搜索访问。
 
 - 当被归档的聊天接收到一条新消息，除非其被静音，它会**从归档中弹出**并返回聊天列表。
   **被静音的聊天会保持被归档的状态**，除非您手动解档它们。 
