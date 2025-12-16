@@ -173,18 +173,16 @@ Delta Chat — надежное, децентрализованное и без�
 
 ### Что означают галочки рядом с исходящими сообщениями?
 
-- **Одна галочка** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  означает, что сообщение было успешно отправлено вашему провайдеру.
+- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  means that the message was sent successfully to the [relay](#relays).
 
-- **Две галочки** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  означают, что по крайней мере одно устройство получателя
-  сообщило об успешном получении сообщения.
+- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+  indicate your contact has read the message.
 
-- Получатели могли отключить подтверждения прочтения,
-  поэтому даже если вы видите только одну галочку, сообщение могло быть прочитано.
+In [groups](#groups) the second tick means that at least one member has reported back having read the message.
 
-- И наоборот, две галочки не обязательно означают
-  что человек прочитал или понял сообщение ;)
+You will only get the second tick if both you and one of the recipients who read the message
+has **Settings → Chats → Read Receipts** enabled.
 
 
 ### Исправление опечаток и удаление сообщений после отправки {#edit}

@@ -158,13 +158,13 @@ Dies ist also kein Echtzeit-Online-Status - und auch andere werden nicht immer s
 
 ### Was bedeuten die Häkchen neben den ausgehenden Nachrichten?
 
-- **Ein Häkchen** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/> bedeutet, dass die Nachricht erfolgreich versandt wurde.
+- **Ein Häkchen** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/> bedeutet, dass die Nachricht erfolgreich versandt wurde und das [Relay](#relays) erreicht hat.
 
-- **Zwei Häkchen**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/> bedeuten, dass mindestens ein Gerät des Empfängers zurückgemeldet hat, die Nachricht empfangen zu haben.
+- **Zwei Häkchen**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/> bedeuten, dass der Empfänger die Nachricht gelesen hat.
 
-- Lesebestätigungen können deaktiviert werden. D.h. auch wenn du nur ein Häkchen siehst, kann die Nachricht gelesen worden sein.
+In [Gruppen](#groups) bedeutet das zweite Häkchen, dass die Nachricht von mindestens einem Mitglied gelesen wurde.
 
-- Umgekehrt bedeuten zwei Häkchen nicht automatisch, dass ein Mensch die Nachricht gelesen oder verstanden hat ;)
+Du erhälst nur dann das zweite Häkchen, wenn sowohl du als auch einer der Empfänger, die die Nachricht gelesen haben, **Einstellungen → Chats → Lesebestätigungen** aktiviert haben.
 
 
 ### Schreibfehler korrigieren und Nachrichten nach dem Senden löschen {#edit}

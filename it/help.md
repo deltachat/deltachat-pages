@@ -175,18 +175,16 @@ e anche gli altri non sempre vedranno che sei "online".
 
 ### Cosa significano i segni di spunta visualizzati accanto ai messaggi in uscita?
 
-- **Un segno di spunta** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  significa che il messaggio è stato inviato correttamente al tuo fornitore.
+- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  means that the message was sent successfully to the [relay](#relays).
 
-- **Due spunte**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  significa che almeno il dispositivo di un destinatario
-  ha segnalato di aver ricevuto il messaggio.
+- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+  indicate your contact has read the message.
 
-- I destinatari potrebbero aver disattivato le conferme di lettura,
-  quindi anche se vedi solo un segno di spunta, il messaggio potrebbe essere stato letto.
+In [groups](#groups) the second tick means that at least one member has reported back having read the message.
 
-- Al contrario, due spunte non significano automaticamente
-  che un essere umano abbia letto o compreso il messaggio ;)
+You will only get the second tick if both you and one of the recipients who read the message
+has **Settings → Chats → Read Receipts** enabled.
 
 
 ### Correggi gli errori e cancella i messaggi dopo averli inviati {#edit}
