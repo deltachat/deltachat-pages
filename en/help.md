@@ -185,8 +185,8 @@ and others will as well not always see that you are "online".
 
 In [groups](#groups) the second tick means that at least one member has reported back having read the message.
 
-Both you and your contacts may have disabled read receipts at **Settings → Chats → Read Receipts**,
-in this case you will not get the second tick.
+You will only get the second tick if both you and one of the recipients who read the message
+has the setting **Settings → Chats → Read Receipts** enabled.
 
 
 ### Correct typos and delete messages after sending {#edit}
