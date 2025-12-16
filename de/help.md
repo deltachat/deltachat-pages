@@ -34,7 +34,7 @@ Es gibt keine öffentliches Verzeichnis, du entscheiden selbst über deine Konta
   auf dem Hauptbildschirm.  
   Bitte deinen Chatpartner den QR-Code mit Delta Chat zu **scannen**.
 
- Für eine Kontaktaufnahme **aus der Ferne**, klicke im selben Bildschirm auf "Kopieren" oder "Teilen" und sende den **Einladungslink** über einen anderen privaten Chat.
+- Für eine Kontaktaufnahme **aus der Ferne**, klicke im selben Bildschirm auf "Kopieren" oder "Teilen" und sende den **Einladungslink** über einen anderen privaten Chat.
 
 Wartet nun, bis die Verbindung hergestellt ist.
 
@@ -227,15 +227,15 @@ Weitere Informationen findest du auf der Seite des ausgewählten [Relay](https:/
 
 ## Gruppen {#groups}
 
-Groups let several people chat together privately with **equal rights**.
+Gruppen ermöglichen es mehreren Personen, privat miteinander bei **gleichen Rechte** zu chatten.
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+Jeder kann
+den Gruppennamen oder Avatar ändern,
+[Mitglieder hinzufügen oder entfernen](#addmembers),
+[Verschwindende Nachrichten](#ephemeralmsgs) einstellen 
+und seine [eigenen Nachrichten von Geräten der Mitglieder löschen](#edit).
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+Da alle Mitglieder die gleichen Rechte haben, funktionieren Gruppen am besten unter **vertrauten Freunden und Familienmitgliedern**.
 
 
 ### Eine Gruppe anlegen
@@ -247,22 +247,15 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Mitglieder hinzufügen und entfernen {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+- Alle Gruppenmitglieder haben **dieselben Rechte**. Jeder kann daher jeden löschen oder weitere Mitglieder hinzufügen.
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- Um **Mitglieder hinzuzufügen oder zu entfernen**, tippe im Chat auf den Gruppennamen und wähle das Mitglied aus, das du hinzufügen oder entfernen möchtest.
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- Wenn das Mitglied noch nicht in deiner Kontaktliste ist, sie sich aber **persönlich** treffen, wählen Sie dort **QR-Einladungscode** an. Dein Chat-Partner kann nun den QR-Code mit seiner Delta Chat-App **scannen** indem er auf <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> auf dem Hauptbildschirm tippt.
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- Für eine Kontaktaufnahme **aus der Ferne**, tippe dort “Kopieren” oder “Teilen” und sende den Einladungslink über einen anderen privaten Chat zum neuen Mitglied.
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+Mit einem QR-Code und dem Einladungslink können mehrere Mitglieder hinzugefügt werden. Da Gruppen jedoch [für vertrauenswürdige Personen gedacht sind](#groups), solltest du diese nicht öffentlich teilen.
 
 
 ### Ich habe mich selbst versehentlich gelöscht.
@@ -280,57 +273,53 @@ Wenn du der Gruppe später erneut beitreten möchtest, bitten ein anderes Gruppe
 
 ### Eine Gruppe klonen
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+Du kannst eine Gruppe duplizieren, um eine separate Diskussion zu starten
+oder um Mitglieder auszuschließen, ohne dass diese es bemerken.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Öffnen das Gruppenprofil und tippe auf **Chat klonen** (Android/iOS)
+oder klicken mit der rechten Maustaste auf die Gruppe in der Chat-Liste (Desktop).
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- Legen einen neuen Namen fest, wähle einen Avatar und passe gegebenenfalls die Mitgliederliste an.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
+Die neue Gruppe ist **völlig unabhängig** von der ursprünglichen,
+die weiterhin wie bisher funktioniert.
 
 
 ## In-Chat-Apps {#webxdc}
 
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
+Du kannst Apps an einen Chat senden – Spiele, Editoren, Umfragen und andere Tools.
+Dies macht Delta Chat zu einem wirklich erweiterbaren Messenger.
 
 
 ### Wo bekomme ich In-Chat-Apps?
 
-- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
+- Im Chat unter <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhängen → Apps**
 
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+- Du kannst deine [eigenen Apps erstellen](#create-xdc) und mit <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhängen → Datei** anhängen
 
 
 ### Wie privat sind In-Chat-Apps?
 
-- In-chat apps can not send data to the Internet, or download anything.
+- In-Chat-Apps können keine Daten ins Internet senden oder etwas herunterladen.
 
-- An in-chat app can only exchange data within a chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
+- Eine App kann nur Daten innerhalb eines Chats austauschen. Ansonsten ist sie vollständig vom Internet isoliert.
 
-- The privacy an in-chat app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the in-chat app as well.
+- Die Privatsphäre, die eine App bietet, ist die Privatsphäre des Chats – solange Sie den Personen, mit denen Sie chatten, vertrauen, können Sie auch der App vertrauen.
 
-- This also means: Just like for web links, do not open apps from untrusted contacts.
+- Das bedeutet auch: Genauso wie bei Weblinks, öffne keine Apps von nicht-vertrauenswürdigen Kontakten.
 
 
 ### Wie kann mich meine eigene In-Chat-Apps erstellen? {#create-xdc}
 
-- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
+- In-Chat-Apps sind ZIP-Dateien mit der Erweiterung `.xdc`, die HTML-, CSS- und JavaScript-Code enthalten.
 
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
+- Um loszulegen, kannst du das [Hello-World-Beispiel](https://github.com/webxdc/hello) bearbeiten.
 
-- All else you need to know is written in the
-  [Webxdc documentation](https://webxdc.org/docs).
+- Alle weitere, was du wissen musst, ist in der 
+  [Webxdc-Dokumentation](https://webxdc.org/docs) beschrieben.
 
-- If you have question, you can ask others with experience
-  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+- Wenn du Fragen hast, kannst du andere mit mehr Erfahrung
+im [Forum](https://support.delta.chat/c/webxdc/20) ansprechen.
 
 
 ## Sofortige Nachrichtenzustellung und Push-Benachrichtigungen {#instant-delivery}
@@ -362,8 +351,8 @@ keine Daten an Apple weitergibt, die Apple nicht bereits hat.
 
 ### Sind Push-Benachrichtigungen auf Android-Geräten aktiviert/erforderlich? {#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
+Wenn ein „Push-Dienst“ verfügbar ist, aktiviert Delta Chat Push-Benachrichtigungen,
+um eine sofortige Nachrichtenzustellung für alle Chatmail-Benutzer zu erreichen.
 
 In den Delta-Chat-Einstellungen „Benachrichtigungen“ für „Sofortige Benachrichtigungen“
 kannst du die folgenden Einstellungen ändern, die alle Chat-Profile betreffen:
@@ -381,38 +370,37 @@ können sicher ausprobiert werden, wenn du feststellst, dass Nachrichten nur mit
 
 ### Wie privat sind Delta-Chat-Push-Benachrichtigungen? {#privacy-notifications}
 
-Delta Chat Push Notification support avoids leakage of private information.
-It does not leak profile data, IP address or message content (not even encrypted)
-to any system involved in the delivery of Push Notifications.
+Delta Chats Vorgehensweise, Push-Benachrichtigungen zu verwenden, vermeidet die Weitergabe privater Informationen.
+Es werden keine Profildaten, IP-Adressen oder Nachrichteninhalte (auch nicht verschlüsselt)
+an irgendein System, das an der Zustellung von Push-Benachrichtigungen beteiligt ist, weitergegeben.
 
 So verwendet Delta Chat Push-Benachrichtigungen:
 
 - Eine Delta-Chat-Anwendung erhält lokal ein „Geräte-Token“, verschlüsselt und speichert es
 auf dem [Chatmail](https://delta.chat/chatmail)-Server.
 
-- When a [chatmail](https://delta.chat/chatmail) server receives a message for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- Wenn ein [Chatmail](https://delta.chat/chatmail)-Server eine Nachricht für einen Delta-Chat-Benutzer erhält
+erhält, leitet er das verschlüsselte Geräte-Token an den zentralen Delta-Chat-Benachrichtigungs-Proxy weiter.
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or profile data of Delta Chat users.
+- Der zentrale Delta-Chat-Benachrichtigungs-Proxy entschlüsselt das Geräte-Token und leitet es an den jeweiligen Push-Dienst (Apple, Google, etc.) weiter,
+ohne jemals die Adresse oder IP-Adresse des Delta-Chat-Benutzers zu kennen.
 
-- The central Push Service (Apple, Google, etc.)
-  wakes up the Delta Chat app on your device
-  to check for new messages in the background.
-  It does not know about the profile data of the device it wakes up.
-  The central Apple/Google Push services never see any profile data (sender or receiver)
-  and also never see any message content (also not in encrypted forms).
+- Der zentrale Push-Dienst (Apple, Google, etc.)
+weckt die Delta-Chat-App auf deinem Gerät auf
+um im Hintergrund nach neuen Nachrichten zu suchen.
+Der zentrale Push-Dienst weiß nichts über das Profil des Geräts, das er aufweckt,
+sieht nie eine Adresse (weder Absender noch Empfänger)
+und auch nie den Inhalt einer Nachricht (auch nicht in verschlüsselter Form).
 
 
 Der zentrale Delta-Chat-Benachrichtigungs-Proxy [ist klein und vollständig in Rust implementiert](https://github.com/deltachat/notifiers)
 und vergisst die Geräte-Token, sobald Apple/Google/etc. sie verarbeitet hat,
 normalerweise innerhalb weniger Millisekunden.
 
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees profile data, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
+Beachten, dass das Geräte-Token zwischen Anwendungen und dem Benachrichtigungs-Proxy verschlüsselt,
+aber nicht signiert ist. 
+Der Benachrichtigungs-Proxy sieht also niemals Profildaten, IP-Adressen oder
+irgendwelche kryptografischen Identitätsinformationen, die mit dem Gerät oder dem Geräte-Token eines Nutzers verbunden sind. 
 
 Aufgrund dieses umfassenden Datenschutzkonzepts würde sogar die Beschlagnahmung eines Chatmail-Servers,
 oder die vollständige Beschlagnahmung des zentralen Delta-Chat-Benachrichtigungsproxys
@@ -426,10 +414,9 @@ aber wir wollen, dass die Nutzer eine zuverlässige „Sofortzustellung“ von N
 wie sie es von WhatsApp, Signal oder Telegram kennen,
 ohne im Vorfeld Fragen zu stellen, die eher für erfahrene Nutzer oder Entwickler geeignet sind.
 
-Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
-that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable chatmail relay network :)
+Beachte, dass Delta Chat ein [kleines, die Privatsphäre wahrendes Push-Benachrichtigungssystem](#privacy-notifications)
+hat, das eine „sofortige Zustellung“ von Nachrichten für alle Chatmail-Server erreicht.
+Einschließlich dem Chatmail-Server, [den du selbst ohne unsere Erlaubnis einrichten kannst](https://delta.chat/chatmail#selfhosted).
 
 
 
@@ -636,10 +623,7 @@ Seit der Veröffentlichung von Delta Chat Version 2 (Juli 2025) gibt es keine Sc
 
 Wenn du die Standard-[Chatmail-Relays](https://chatmail.at/relays) verwendest, ist es unmöglich, Nachrichten ohne End-to-End-Verschlüsselung zu empfangen oder zu senden. 
 
-If you instead use a [classic email server](#classic-email),
-you can send and receive messages with or without end-to-end encryption.
-Messages lacking end-to-end encryption are marked with an email icon
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
+Wenn du stattdessen ein Profil mit einem [klassischen E-Mail-Server](#classic-email) erstellst, kannst du Nachrichten mit und ohne Ende-zu-Ende-Verschlüsselung senden und empfangen.  Nachrichten ohne Ende-zu-Ende-Verschlüsselung werden mit einem E-Mail-Symbol gekennzeichnet  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
 ### Was bedeutet das grüne Häkchen in einem Kontaktprofil? {#e2eeguarantee}
@@ -725,16 +709,16 @@ so wie in der Autocrypt-Level-1-Spezifikation definiert.
 ### Sind mit dem Mail-Symbol markierte Nachrichten im Internet sichtbar? {#tls}
 
 Wenn du E-Mail-Nachrichten ohne Ende-zu-Ende-Verschlüsselung sendest oder empfängst (mit einem klassischen E-Mail-Server),
-sind sie immer noch vor Mobilfunkanbietern oder Kabelnetzbetreibern geschützt, die Ihre E-Mail-Nachrichten nicht lesen oder verändern können. 
+sind sie immer noch vor Mobilfunkanbietern oder Kabelnetzbetreibern geschützt, die deine E-Mail-Nachrichten nicht lesen oder verändern können. 
 
 Aber sowohl dein E-Mail-Anbieter als auch der E-Mail-Anbieter des Empfängers 
 können Nachrichten, einschließlich aller Anhänge, lesen, analysieren oder verändern. 
 
 Delta Chat verwendet standardmäßig strikte 
 [TLS-Verschlüsselung](https://en.wikipedia.org/wiki/Transport_Layer_Security), 
-die die Verbindungen zwischen Ihrem Gerät und Ihrem E-Mail-Anbieter sichert. 
+die die Verbindungen zwischen deinem Gerät und dem E-Mail-Anbieter sichert. 
 Die gesamte TLS-Implementierung wurde unabhängig [sicherheitsgeprüft](#security-audits).
-Die Verbindung zwischen Ihrem E-Mail-Providern und dem des Empfängers
+Die Verbindung zwischen deinem E-Mail-Provider und dem des Empfängers
 ist in der Regel ebenfalls transportverschlüsselt.
 Wenn die beteiligten E-Mail-Server [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461) unterstützen,
 wird TLS zwischen den E-Mail-Anbietern durchgesetzt. 
