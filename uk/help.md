@@ -294,6 +294,16 @@ or to exclude members without them noticing.
 котра продовжує працювати як раніше.
 
 
+### How many members can participate in a single group?
+
+There is no strict technical limit,
+but more than 150 is not recommended.
+
+As groups get larger, they can become socially unstable and may need a hierarchy -
+where Delta Chat is a private messenger for chatting with [equal rights](#groups).
+See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
+
+
 ## In-chat apps {#webxdc}
 
 You can send apps to a chat - games, editors, polls and other tools.

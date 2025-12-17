@@ -319,6 +319,16 @@ QR-код и ссылку-приглашение можно использова
 которая продолжает работать как прежде.
 
 
+### How many members can participate in a single group?
+
+There is no strict technical limit,
+but more than 150 is not recommended.
+
+As groups get larger, they can become socially unstable and may need a hierarchy -
+where Delta Chat is a private messenger for chatting with [equal rights](#groups).
+See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
+
+
 ## Встроенные приложения чата {#webxdc}
 
 Вы можете отправлять приложения в чат - игры, редакторы, опросы и другие инструменты.

@@ -285,6 +285,14 @@ Die neue Gruppe ist **völlig unabhängig** von der ursprünglichen,
 die weiterhin wie bisher funktioniert.
 
 
+### Wie viele Mitglieder können in einer einzelnen Gruppe sein?
+
+Es gibt keine technische Begrenzung,
+aber mehr als 150 sind nicht empfohlen.
+
+Wenn Gruppen größer werden, können sie sozial instabil werden und benötigen möglicherweise eine Hierarchie - und Delta Chat ist ein privater Messenger für Chats mit [gleichen Rechten](#groups). Vgl. [Dunbar-Zahl](https://de.wikipedia.org/wiki/Dunbar-Zahl).
+
+
 ## In-Chat-Apps {#webxdc}
 
 Du kannst Apps an einen Chat senden – Spiele, Editoren, Umfragen und andere Tools.
@@ -628,16 +636,15 @@ Wenn du stattdessen ein Profil mit einem [klassischen E-Mail-Server](#classic-em
 
 ### Was bedeutet das grüne Häkchen in einem Kontaktprofil? {#e2eeguarantee}
 
-A contact profile might show a green checkmark
+Ein Kontaktprofile kann ein grünes Häkchen 
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line.
-Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by a another green-checkmarked contact.
-Introductions happen automatically when adding members to groups. 
-Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
-becomes an introducer. 
-In a contact profile you can tap on the "Introduced by ..." text repeatedly
-until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
+und "Eingeführt von" enthalten. 
+Jeder so markierte Kontakt hat entweder einen direkten [QR-Scan](#howtoe2ee) mit Ihnen durchgeführt
+oder wurde von einem anderen Kontakt mit grünem Häkchen eingeführt.
+Das Einführen geschieht automatisch, wenn Sie Mitglieder zu Gruppen hinzufügen. 
+Wer einen Kontakt mit grünem Häkchen zu einer Gruppe hinzufügt, wird zum Einführenden.
+In einem Kontaktprofil können Sie wiederholt auf den Text "Eingeführt von" tippen
+bis Sie zu demjenigen gelangen, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) gemacht haben.
 
 Für eine ausführlichere Diskussion der "Garantierten Ende-zu-Ende-Verschlüsselung",
 siehe [Secure-Join-Protokolle](https://securejoin.delta.chat/en/latest/new.html)
