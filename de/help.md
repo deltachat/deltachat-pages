@@ -451,7 +451,7 @@ Im Gegensatz zu vielen anderen Messengern, sind nach erfolgreicher Übertragung 
 
 - Vergewissere dich, dass beide Geräte mit dem **gleichen Wi-Fi, WLAN oder Netzwerk** verbunden sind.
 
-- Unter **Windows**, **Systemsteuerung / Netzwerk und Internet** öffnen
+- Unter **Windows**, "Systemsteuerung / Netzwerk und Internet" öffnen
 und sicherstellen, dass **Privates Netzwerk** als "Netzwerkprofiltyp" ausgewählt ist.
 (nach der Übertragung kann wieder der ursprüngliche Wert verwendet werden)
 

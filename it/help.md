@@ -506,7 +506,7 @@ Un dispositivo non è necessario perché l'altro funzioni.
 
 - Verificare che entrambi i dispositivi siano nella **stessa rete o Wi-Fi**.
 
-- Su **Windows**, vai su **Pannello di controllo / Rete e Internet**
+- Su **Windows**, vai su "Pannello di controllo / Rete e Internet"
 e assicurati che **Rete Privata** sia selezionata come "Tipo di profilo di rete"
 (dopo il trasferimento è possibile ripristinare il valore originale)
 

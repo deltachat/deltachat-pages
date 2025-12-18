@@ -506,7 +506,7 @@ No es necesario un dispositivo para que el otro funcione.
 
 - Vuelve a verificar que ambos dispositivos estén en la **misma Wi-Fi o red**
 
-- On **Windows**, go to **Control Panel / Network and Internet**
+- On **Windows**, go to "Control Panel / Network and Internet"
   and make sure, **Private Network** is selected as "Network profile type"
   (after transfer, you can change back to the original value)
 

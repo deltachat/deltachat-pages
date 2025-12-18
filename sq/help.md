@@ -155,7 +155,7 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
   By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
   you can go back to the original message in the original chat
 
-- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Finally, you can also use "Saved Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
 
 - As "Saved Message" are synced, they can become very handy for transferring data between devices
 
@@ -510,7 +510,7 @@ Njëra pajisja s’ka nevojë për tjetrën që të funksionojë.
 
 - Kontrolloni sërish që të dyja pajisjet të gjenden në **të njëjtin rrjet Wi-Fi ose klasik**
 
-- On **Windows**, go to **Control Panel / Network and Internet**
+- On **Windows**, go to "Control Panel / Network and Internet"
   and make sure, **Private Network** is selected as "Network profile type"
   (after transfer, you can change back to the original value)
 

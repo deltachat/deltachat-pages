@@ -449,7 +449,7 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 
 - Sprawdź dokładnie, czy oba urządzenia są w tym **samym Wi-Fi lub tej samej sieci**
 
-- Na **Windowsie**, przejdź do **Panel sterowania / Sieć i internet** i upewnij się, że **Sieć prywatna** jest wybrana jako "Typ profilu sieci"
+- Na **Windowsie**, przejdź do "Panel sterowania / Sieć i internet" i upewnij się, że **Sieć prywatna** jest wybrana jako "Typ profilu sieci"
   (po przeniesieniu możesz wrócić do pierwotnej wartości)
 
 - W systemie **iOS** upewnij się, że jest przydzielony dostęp do opcji „Ustawienia » Aplikacje » Delta Chat » **Sieć lokalna**”

@@ -493,7 +493,7 @@ Welcome to the power of the interoperable chatmail relay network :)
 
 - 仔细检查两台设备是否在**同一个 Wi-Fi 或网络中**
 
-- 在 **Windows** 上，转到**控制面板 / 网络和 Internet**
+- 在 **Windows** 上，转到"控制面板 / 网络和 Internet"
 并确保**专用网络**被选为“网络配置文件类型”
 （传输后，你可以更改回原始值）
 

@@ -153,7 +153,7 @@ pour mettre une discussion en sourdine, ouvrez le menu de la conversation (Andro
   By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
   you can go back to the original message in the original chat
 
-- Finally, you can also use "Save Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Finally, you can also use "Saved Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
 
 - As "Saved Message" are synced, they can become very handy for transferring data between devices
 
@@ -500,7 +500,7 @@ L'un n'a pas besoin de l'autre pour pouvoir fonctionner.
 
 - Vérifier à nouveau que les deux appareils sont sur **le même réseau ou le même Wi-Fi**.
 
-- On **Windows**, go to **Control Panel / Network and Internet**
+- On **Windows**, go to "Control Panel / Network and Internet"
   and make sure, **Private Network** is selected as "Network profile type"
   (after transfer, you can change back to the original value)
 
