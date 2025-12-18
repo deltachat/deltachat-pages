@@ -594,7 +594,7 @@ you can configure relays at At **Settings → Advanced → Relays**:
 
 - You can **add** a relay by scanning its QR code;
   <https://chatmail.at/relays> shows some known ones.
-  If you have multiple relays, your will receive messages on all of them.
+  If you have multiple relays, you will receive messages on all of them.
 
 - The **default** defines the one where your chat partners send future messages to.
 
