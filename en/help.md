@@ -852,7 +852,7 @@ can not be identified easily.
 ### Who sees my IP Address?
 
 The used [relay](#relays) needs to know your IP Address,
-as well as sometimes your contact's devices if you [call](#experimental-features) them
+as well as sometimes your contact's devices if you have a [call](#experimental-features)
 or use [apps](#webxdc) together.
 
 IP Addresses are needed for connectivity and efficiency.
