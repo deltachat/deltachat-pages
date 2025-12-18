@@ -85,10 +85,10 @@ and can tap it to start chatting with the first contact.
 
 ### Dá para mandar imagens, vídeos e outros anexos pelo Delta Chat?
 
-- Sim. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Sim. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
 
 ### What are profiles? How can I switch between them? {#multiple-accounts}
@@ -109,9 +109,9 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 
 ### Quem consegue ver a imagem do meu perfil?
 
-- Você pode adicionar uma imagem de perfil nas suas configurações. Se você escrever aos seus contatos ou adicioná-los via código QR, eles automaticamente verão a imagem do seu perfil.
+Você pode adicionar uma imagem de perfil nas suas configurações. Se você escrever aos seus contatos ou adicioná-los via código QR, eles automaticamente verão a imagem do seu perfil.
 
-- Por motivos de privacidade, ninguém pode ver a imagem do seu ṕerfil até que você escreva para as pessoas.
+Por motivos de privacidade, ninguém pode ver a imagem do seu ṕerfil até que você escreva para as pessoas.
 
 
 ### Can I set a Bio/Status with Delta Chat? {#signature}

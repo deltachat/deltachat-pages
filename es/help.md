@@ -83,10 +83,10 @@ and can tap it to start chatting with the first contact.
 
 ### ¿Delta Chat soporta envío de imágenes, videos, documentos y otros archivos?
 
-- Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
-- Para mejorar el rendimiento, las imágenes se optimizan y se envían en un tamaño más pequeño de forma predeterminada, pero puedes enviarla como un "archivo" para conservar la original.
+Para mejorar el rendimiento, las imágenes se optimizan y se envían en un tamaño más pequeño de forma predeterminada, pero puedes enviarla como un "archivo" para conservar la original.
 
 
 ### ¿Qué son los perfiles? ¿Cómo puedo cambiar entre ellos? {#multiple-accounts}
@@ -107,10 +107,10 @@ Quizás quieres aprender [cómo se usa el mismo perfil en múltiples dispositivo
 
 ### ¿Quién ve mi foto de perfil?
 
-- Puede agregar una foto de perfil en su configuración. Si escribe a sus contactos
+Puede agregar una foto de perfil en su configuración. Si escribe a sus contactos
 o los agrega a través de un código QR, ellos lo verán automáticamente como su foto de perfil.
 
-- Por cuestiones de privacidad, nadie verá su foto de perfil hasta que les escriba un mensaje.
+Por cuestiones de privacidad, nadie verá su foto de perfil hasta que les escriba un mensaje.
 
 
 ### Can I set a Bio/Status with Delta Chat? {#signature}

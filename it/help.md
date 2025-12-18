@@ -84,10 +84,10 @@ e potrà toccarla per iniziare a chattare con il primo contatto.
 
 ### Delta Chat supporta immagini, video e altri allegati?
 
-- Sì. Immagini, video, files, messaggi vocali ecc. possono essere inviati utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Allegato-**
+Sì. Immagini, video, files, messaggi vocali ecc. possono essere inviati utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Allegato-**
 o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> pulsanti **Messaggio Vocale**
 
-- Per le prestazioni, le immagini sono ottimizzate e inviate in dimensioni inferiori per impostazione predefinita, ma è possibile inviarle come "file" per preservare l'originale.
+Per le prestazioni, le immagini sono ottimizzate e inviate in dimensioni inferiori per impostazione predefinita, ma è possibile inviarle come "file" per preservare l'originale.
 
 
 ### Cosa sono i profili? Come posso passare dall'uno all'altro? {#multiple-accounts}
@@ -108,10 +108,10 @@ Potresti anche voler imparare [come utilizzare lo stesso profilo su più disposi
 
 ### Chi vede la mia immagine del profilo?
 
-- Puoi aggiungere un'immagine del profilo nelle tue impostazioni. Se scrivi ai tuoi contatti
+Puoi aggiungere un'immagine del profilo nelle tue impostazioni. Se scrivi ai tuoi contatti
 o li aggiungi tramite codice QR, la vedranno automaticamente come immagine del tuo profilo.
 
-- Per motivi di privacy, nessuno vede la tua immagine del profilo finché non scrivi un
+Per motivi di privacy, nessuno vede la tua immagine del profilo finché non scrivi un
 messaggio a loro.
 
 

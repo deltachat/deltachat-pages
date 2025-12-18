@@ -85,10 +85,10 @@ and can tap it to start chatting with the first contact.
 
 ### Delta Chat resimleri, videoları ve diğer ekleri destekler mi?
 
-- Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
 
 ### What are profiles? How can I switch between them? {#multiple-accounts}
@@ -109,10 +109,10 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 
 ### Profil resmimi kimler görüyor?
 
-- Ayarlarınıza bir profil resmi ekleyebilirsiniz. Kişilerinize yazarsanız veya
+Ayarlarınıza bir profil resmi ekleyebilirsiniz. Kişilerinize yazarsanız veya
 QR kodu ile eklerseniz, bunu otomatik olarak profil resminiz olarak görürler.
 
-- Gizlilik nedeniyle, siz onlara bir mesaj yazana kadar hiç kimse profil resminizi görmez.
+Gizlilik nedeniyle, siz onlara bir mesaj yazana kadar hiç kimse profil resminizi görmez.
 
 
 ### Can I set a Bio/Status with Delta Chat? {#signature}
