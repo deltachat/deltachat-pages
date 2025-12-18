@@ -499,7 +499,7 @@ Du bist nun synchronisiert und kannst beide Geräte zum Senden und Empfangen von
 
 ## Erweitert
 
-### Experimentelle Features
+### Experimentelle Features {#experiments}
 
 Unter **Einstellungen → Erweitert → Experimentelle Features**
 kannst du unfertige Features ausprobieren, an denen gearbeitet wird.
@@ -766,7 +766,7 @@ can not be identified easily.
 ### Wer sieht meine IP-Adresse?
 
 Das verwendete [Rekay](#relays) muss Ihre IP-Adresse kennen,
-sowie manchmal auch die Geräte Ihrer Kontakte, wenn Sie einen [Anruf](#experimental-features) tätigen
+sowie manchmal auch die Geräte Ihrer Kontakte, wenn Sie einen [Anruf](#experiments) tätigen
 oder gemeinsam [Apps](#webxdc) verwenden.
 
 IP-Adressen sind für Verbindungen und für Effizienz erforderlich.

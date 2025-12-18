@@ -561,7 +561,7 @@ o l'AppImage per Linux. Le trovi su
 
 ## Avanzato
 
-### Funzionalità Sperimentali
+### Funzionalità Sperimentali {#experiments}
 
 In **Impostazioni → Avanzate → Funzionalità Sperimentali**
 puoi provare le funzionalità su cui stiamo lavorando.
@@ -835,7 +835,7 @@ non possono essere identificati facilmente.
 ### Who sees my IP Address?
 
 The used [relay](#relays) needs to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#experimental-features)
+as well as sometimes your contact's devices if you have a [call](#experiments)
 or use [apps](#webxdc) together.
 
 IP Addresses are needed for connectivity and efficiency.

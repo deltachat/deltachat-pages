@@ -547,7 +547,7 @@ Welcome to the power of the interoperable chatmail relay network :)
 
 ## Advanced
 
-### Experimental Features
+### Experimental Features {#experiments}
 
 At **Settings → Advanced → Experimental Features**
 you can try out features we are working on.
@@ -822,7 +822,7 @@ can not be identified easily.
 ### Who sees my IP Address?
 
 The used [relay](#relays) needs to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#experimental-features)
+as well as sometimes your contact's devices if you have a [call](#experiments)
 or use [apps](#webxdc) together.
 
 IP Addresses are needed for connectivity and efficiency.
