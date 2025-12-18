@@ -235,12 +235,14 @@ the (anyway encrypted) messages may take longer to get deleted from their server
 
 ### Ç’ndodh, nëse aktivizoj “Fshi prej pajisjes mesazhe të vjetër”? {#delold}
 
-- Nëse doni të kurseni hapësirë në pajisjen tuaj, mund të zgjidhni të fshihen
-  automatikisht mesazhe të vjetër. 
-- Për ta aktivizuar, kaloni te “fshi prej pajisjeje mesazhe të vjetër”, te rregullimet
-  “Fjalosje & Media”. Mund të caktoni një periudhë nga “pas një ore” e deri
-  “pas një viti”; në këtë mënyrë, *krejt* mesazhet do të fshihen nga pajisja juaj
-  sapo të jenë më të vjetër se aq.
+Nëse doni të kurseni hapësirë në pajisjen tuaj, mund të zgjidhni të fshihen
+automatikisht mesazhe të vjetër. 
+
+Për ta aktivizuar, kaloni te “fshi prej pajisjeje mesazhe të vjetër”, te rregullimet
+“Fjalosje & Media”. Mund të caktoni një periudhë nga “pas një ore” e deri
+“pas një viti”; në këtë mënyrë, *krejt* mesazhet do të fshihen nga pajisja juaj
+sapo të jenë më të vjetër se aq.
+
 
 ### How can I delete my chat profile? {#remove-account} 
 

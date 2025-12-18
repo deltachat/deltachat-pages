@@ -235,10 +235,10 @@ the (anyway encrypted) messages may take longer to get deleted from their server
 
 ### Wat gebeurt er als ik ‘Oude berichten van server verwijderen’ inschakel? {#delold}
 
-- Als je ruimte wilt besparen op je apparaat, dan kun je er voor kiezen om oude
-  berichten automatisch te verwijderen.
-- Inschakelen kan via de sectie ‘Gesprekken en media’ in de instellingen. Je kunt een periode tussen
-  ‘na één uur’ en ‘na één jaar’ kiezen. *Alle berichten die ouder zijn, worden verwijderd.
+Als je ruimte wilt besparen op je apparaat, dan kun je er voor kiezen om oude berichten automatisch te verwijderen.
+
+Inschakelen kan via de sectie ‘Gesprekken en media’ in de instellingen. Je kunt een periode tussen ‘na één uur’ en ‘na één jaar’ kiezen. *Alle* berichten die ouder zijn, worden verwijderd.
+
 
 ### How can I delete my chat profile? {#remove-account} 
 

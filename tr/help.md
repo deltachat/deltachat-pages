@@ -233,14 +233,16 @@ if one chat partner uninstalls Delta Chat,
 the (anyway encrypted) messages may take longer to get deleted from their server.
 
 
-### What happens if I turn on "Delete old messages from device"? {#delold}
+### What happens if I turn on "Delete Messages from Device"? {#delold}
 
-- If you want to save storage on your device, you can choose to delete old
-  messages automatically.
-- To turn it on, go to "delete old messages from device" in the "Chats & Media"
-  settings. You can set a timeframe between "after an hour" and "after a year";
-  this way, *all* messages will be deleted from your device as soon as they are
-  older than that.
+If you want to save storage on your device, you can choose to delete old
+messages automatically.
+
+To turn it on, go to **Settings → Chats → Delete Message from Device**.
+You can set a timeframe between "after an hour" and "after a year";
+this way, *all* messages will be deleted from your device as soon as they are
+older than that.
+
 
 ### How can I delete my chat profile? {#remove-account} 
 

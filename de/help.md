@@ -207,10 +207,12 @@ oder auf andere Weise Nachrichten vor dem Löschen speichern, kopieren oder weit
 Abgesehen davon, wenn ein Chat-Partner Delta Chat deinstalliert, kann es länger dauern, bis die (ohnehin verschlüsselten) Nachrichten vom Server gelöscht werden.
 
 
-### Was passiert, wenn ich "Alte Nachrichten vom Gerät löschen" aktiviere? {#delold}
+### Was passiert, wenn ich “Nachrichten vom Gerät löschen” aktiviere? {#delold}
 
-- Wenn du Speicherplatz auf deinem Gerät sparen möchtest, kannst du alte Nachrichten automatisch löschen lassen.
-- Hierzu, öffne die "Chats und Medien"-Einstellungen und dort "Alte Nachrichten vom Gerät löschen". Du kannst einen Zeitraum zwischen "1 Stunde" und "1 Jahr" festlegen; auf diese Weise werden *alle* Nachrichten von deinem Gerät gelöscht, sobald sie älter als angegeben sind.
+Wenn du Speicherplatz auf deinem Gerät sparen möchtest, kannst du alte Nachrichten automatisch löschen lassen.
+
+Hierzu, öffne **Einstellungen → Chats → Nachrichten vom Gerät löschen**. Du kannst einen Zeitraum zwischen “1 Stunde” und “1 Jahr” festlegen; auf diese Weise werden alleNachrichten von deinem Gerät gelöscht, sobald sie älter als angegeben sind.
+
 
 ### Wie kann ich mein Chat-Profil löschen? {#remove-account} 
 
@@ -762,7 +764,7 @@ can not be identified easily.
 
 ### Unterstützt Delta Chat „Sealed Sender“? {#sealedsender}
 
-Nein, noch nichts. 
+Nein, noch nicht.
 
 Der Signal-Messenger führte 2018 ["Sealed Sender"](https://signal.org/blog/sealed-sender/) ein
 um seine Serverinfrastruktur darüber im Unklaren zu lassen, wer eine Nachricht an eine Gruppe von Empfängern sendet. 
@@ -777,7 +779,7 @@ but an implementation has not been agreed as a priority yet.
 
 ### Unterstützt Delta Chat "Perfect Forward Secrecy"? {#pfs}
 
-Nein, noch nichts. 
+Nein, noch nicht.
 
 Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your private decryption key is leaked,
@@ -797,7 +799,7 @@ which would make it available in all [chatmail clients](https://chatmail.at/clie
 
 ### Unterstützt Delta Chat Post-Quantum-Verschlüsselung? {#pqc}
 
-Nein, noch nichts. 
+Nein, noch nicht.
 
 Delta Chat verwendet die Rust OpenPGP-Bibliothek [rPGP](https://github.com/rpgp/rpgp)
 die den neuesten [IETF Post-Quantum-Cryptography OpenPGP Entwurf](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/) unterstützt. 

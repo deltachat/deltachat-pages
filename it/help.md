@@ -233,12 +233,10 @@ i messaggi (comunque crittografati) potrebbero richiedere più tempo per essere 
 
 ### Cosa succede se attivo "Elimina Messaggi dal Dispositivo"? {#delold}
 
-- Se si desidera risparmiare spazio sul dispositivo, è possibile scegliere di eliminare i vecchi
-messaggi automaticamente.
-- Per attivarla, andare su "Elimina Messaggi dal Dispositivo" nelle impostazioni di "Chat e Media".
-È possibile impostare un intervallo di tempo compreso tra "Dopo 1 ora" e "Dopo 1 anno";
-in questo modo, *tutti* i messaggi saranno eliminati dal dispositivo non appena saranno
-più vecchi di quel periodo.
+Se si desidera risparmiare spazio sul dispositivo, è possibile scegliere di eliminare i vecchi messaggi automaticamente.
+
+Per attivarla, andare su "Elimina Messaggi dal Dispositivo" nelle impostazioni di "Chat e Media". È possibile impostare un intervallo di tempo compreso tra "Dopo 1 ora" e "Dopo 1 anno"; in questo modo, *tutti* i messaggi saranno eliminati dal dispositivo non appena saranno più vecchi di quel periodo.
+
 
 ### Come posso eliminare il mio profilo chat? {#remove-account}
 
