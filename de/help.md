@@ -76,10 +76,10 @@ kann darauf tippen, um mit dem ersten Kontakt zu chatten.
 
 ### Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
 
-- Ja. Bilder, Videos, Dateien, Sprachnachrichten und mehr können über die <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhang-**
+Ja. Bilder, Videos, Dateien, Sprachnachrichten und mehr können über die <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhang-**
   bzw. <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Sprachnachricht**-Buttons hinzugefügt werden
 
-- Um die Leistung zu verbessern, werden die Bilder standardmäßig optimiert und in einer kleineren Größe gesendet, aber du kannst sie auch als "Datei" senden, um das Original zu erhalten.
+Um die Leistung zu verbessern, werden die Bilder standardmäßig optimiert und in einer kleineren Größe gesendet, aber du kannst sie auch als "Datei" senden, um das Original zu erhalten.
 
 
 ### Was sind Profile? Wie kann ich zwischen ihnen wechseln? {#multiple-accounts}
@@ -100,9 +100,9 @@ Vielleicht möchtest due auch erfahren, wie du [Profile auf mehreren Geräten ve
 
 ### Wer sieht mein Profilbild?
 
-- Du kannst ein Profilbild in den Einstellungen hinzufügen. Wenn du deinen Kontakten eine Nachricht sendest oder sie über einen QR-Code hinzufügst, sehen diese automatisch dein Profilbild.
+Du kannst ein Profilbild in den Einstellungen hinzufügen. Wenn du deinen Kontakten eine Nachricht sendest oder sie über einen QR-Code hinzufügst, sehen diese automatisch dein Profilbild.
 
-- Aus Datenschutzgründen sieht niemand dein Profilbild, dem du nicht zuvor eine Nachricht gesendet hast.
+Aus Datenschutzgründen sieht niemand dein Profilbild, dem du nicht zuvor eine Nachricht gesendet hast.
 
 
 ### Kann ich einen Status festlegen? {#signature}

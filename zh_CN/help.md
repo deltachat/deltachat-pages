@@ -85,10 +85,10 @@ and can tap it to start chatting with the first contact.
 
 ### Delta Chat 支持图像、视频和其他附件吗？
 
-- 是的。 Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+是的。 Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
-- 为了提高性能，默认情况下会对图像进行优化并以较小的尺寸发送，但您也可以将其作为 "文件 "发送，以保留原始图像。
+为了提高性能，默认情况下会对图像进行优化并以较小的尺寸发送，但您也可以将其作为 "文件 "发送，以保留原始图像。
 
 
 ### 什么是账户资料？如何在它们之间切换？ {#multiple-accounts}
@@ -109,9 +109,9 @@ You may want to use separate profiles for political, family or work related acti
 
 ### 谁会看见我的个人资料图片？
 
-- 您可以在设置中添加个人资料图片。如果您给您的联系人发消息或者通过二维码添加他们，他们会自动看到您的个人资料图片。
+您可以在设置中添加个人资料图片。如果您给您的联系人发消息或者通过二维码添加他们，他们会自动看到您的个人资料图片。
 
-- 出于隐私原因，在您向他们发送消息之前，没有人会看到您的个人资料照片。
+出于隐私原因，在您向他们发送消息之前，没有人会看到您的个人资料照片。
 
 
 ### Can I set a Bio/Status with Delta Chat? {#signature}

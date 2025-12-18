@@ -85,10 +85,10 @@ and can tap it to start chatting with the first contact.
 
 ### A mbulon Delta Chat-i figura, video dhe bashkëngjitje të tjera?
 
-- Po Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Po Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
-- Si parazgjedhje, për funksionim më të mirë, figurat optimizohen dhe dërgohen në madhësi më të vogël, por mund ta dërgoni si një “kartelë”, që të ruhet origjinali.
+Si parazgjedhje, për funksionim më të mirë, figurat optimizohen dhe dërgohen në madhësi më të vogël, por mund ta dërgoni si një “kartelë”, që të ruhet origjinali.
 
 
 ### What are profiles? How can I switch between them? {#multiple-accounts}
@@ -109,10 +109,10 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 
 ### Kush e sheh profilin tim?
 
-- Mund të shtoni një foto profili te rregullimet tuaja. Nëse u shkruani kontakteve
+Mund të shtoni një foto profili te rregullimet tuaja. Nëse u shkruani kontakteve
   tuaja ose i shtoni përmes kodi QR, e shohin automatikisht si foton e profilit tuaj.
 
-- Për arsye privatësie, askush s’e sheh foton tuaj të profilit, deri sa
+Për arsye privatësie, askush s’e sheh foton tuaj të profilit, deri sa
    t’u shkruani një mesazh.
 
 

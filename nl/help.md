@@ -85,10 +85,10 @@ and can tap it to start chatting with the first contact.
 
 ### Ondersteunt Delta Chat afbeeldingen, video's en ander soort bijlagen?
 
-- Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
-- Om de prestaties te verhogen, worden afbeeldingen standaard geoptimaliseerd en verkleind verstuurd, maar je kunt ze als een bestand verzenden om het origineel te sturen.
+Om de prestaties te verhogen, worden afbeeldingen standaard geoptimaliseerd en verkleind verstuurd, maar je kunt ze als een bestand verzenden om het origineel te sturen.
 
 
 ### What are profiles? How can I switch between them? {#multiple-accounts}
@@ -109,10 +109,10 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 
 ### Wie kan mijn profielfoto zien?
 
-- In de instellingen kun je een profielfoto toevoegen. Als je een bericht stuurt aan
+In de instellingen kun je een profielfoto toevoegen. Als je een bericht stuurt aan
   je contactpersonen of ze toevoegt middels hun QR-code, dan krijgen ze je profielfoto te zien.
 
-- Omwille van je privacy, krijgen anderen je profielfoto pas te zien
+Omwille van je privacy, krijgen anderen je profielfoto pas te zien
   als je ze een bericht stuurt.
 
 

@@ -79,10 +79,10 @@ and can tap it to start chatting with the first contact.
 
 ### Чи підтримує Delta Chat вкладення у вигляді фото, відео тощо?
 
-- Так. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Так. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
-- З міркувань продуктивності, зображення оптимізовані та надсилаються в меншому розмірі за замовчуванням, але ви можете надіслати їх як «файл», щоб зберегти оригінал.
+З міркувань продуктивності, зображення оптимізовані та надсилаються в меншому розмірі за замовчуванням, але ви можете надіслати їх як «файл», щоб зберегти оригінал.
 
 
 ### Що таке профілі? Як я можу перемикатися між ними? {#multiple-accounts}
@@ -102,9 +102,9 @@ and uses the server only to relay messages.
 
 ### Хто бачить моє зображення профілю?
 
-- Ви можете додати зображення профілю в ваших налаштуваннях. Якщо ви пишете комусь із ваших контактів чи додаєте їх через QR код, вони автоматично побачать ваше зображення профілю.
+Ви можете додати зображення профілю в ваших налаштуваннях. Якщо ви пишете комусь із ваших контактів чи додаєте їх через QR код, вони автоматично побачать ваше зображення профілю.
 
-- Із міркувань приватності, ніхто не бачить ваше зображення профілю доки ви їм не напишете.
+Із міркувань приватності, ніхто не бачить ваше зображення профілю доки ви їм не напишете.
 
 
 ### Чи можу я встановити біографію/статус у Delta Chat? {#signature}

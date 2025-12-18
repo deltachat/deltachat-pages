@@ -85,10 +85,10 @@ and can tap it to start chatting with the first contact.
 
 ### Delta Chat ten soporte para imaxes, vídeos e outros anexos?
 
-- Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-  or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
 
-- For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
 
 
 ### What are profiles? How can I switch between them? {#multiple-accounts}
@@ -109,10 +109,10 @@ You may also wish to learn [how to use the same profile on multiple devices](#mu
 
 ### Quen pode ver a miña foto de perfil?
 
-- Podes engadir unha foto de perfil nos axustes. Se lle escribes aos teus contactos
+Podes engadir unha foto de perfil nos axustes. Se lle escribes aos teus contactos
 ou os engades vía código QR, verán de xeito automático a túa foto de perfil.
 
-- Por razóns de privacidade, ninguén ve a túa foto de perfil ata que lle escribes
+Por razóns de privacidade, ninguén ve a túa foto de perfil ata que lle escribes
 unha mensaxe.
 
 
