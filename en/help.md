@@ -866,8 +866,8 @@ we do not offer options here or ask upfront questions.
 
 If you see your IP Address as a security or privacy risk,
 we recommend to use a VPN, in combination with system lockdown mode.
-Hunting down options in all system apps will leave gaps,
-eg. tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
+Hunting down options in all apps on your system will leave gaps.
+For example, tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
 
 
 ### Does Delta Chat support "Sealed Sender"? {#sealedsender}
