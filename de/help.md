@@ -762,6 +762,28 @@ with the knowledge that all their data, along with all metadata, will be deleted
 Moreover, if a device is seized then chat contacts using short-lived profiles
 can not be identified easily. 
 
+
+### Wer sieht meine IP-Adresse?
+
+Das verwendete [Rekay](#relays) muss Ihre IP-Adresse kennen,
+sowie manchmal auch die Geräte Ihrer Kontakte, wenn Sie einen [Anruf](#experimental-features) tätigen
+oder gemeinsam [Apps](#webxdc) verwenden.
+
+IP-Adressen sind für Verbindungen und für Effizienz erforderlich.
+Sie werden weder gespeichert noch offengelegt.
+Beachten Sie, dass die IP-Adresse
+nicht mit einer Adresse, die Sie einem Lieferdienst geben,  vergleichbar ist - 
+sondern viel gröber ist und oft nur die Region oder das Land angibt.
+
+Da dies die Standardfunktion des Internets und anderer Messenger ist,
+bieten wir hier keine Optionen an und stellen auch keine Fragen im Voraus.
+
+Wenn Sie Ihre IP-Adresse als Sicherheits- oder Datenschutzrisiko betrachten,
+empfehlen wir Ihnen, ein VPN in Kombination mit dem System-Lockdown-Modus zu verwenden.
+Alle einzelnen Apps auf Ihrem System nach IP-Optionen abzusuchen wird nicht zufriedenstellen sein;
+beispielsweise legt das Antippen eines Links IP-Adressen gegenüber unbekannten Parteien offen und stellt hier das weitaus größere Risiko dar.
+
+
 ### Unterstützt Delta Chat „Sealed Sender“? {#sealedsender}
 
 Nein, noch nicht.

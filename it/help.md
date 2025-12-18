@@ -831,6 +831,28 @@ con la consapevolezza che tutti i loro dati, insieme a tutti i metadati, verrann
 Inoltre, se un dispositivo viene sequestrato, i contatti di chat che utilizzano profili di breve durata
 non possono essere identificati facilmente.
 
+
+### Who sees my IP Address?
+
+The used [relay](#relays) needs to know your IP Address,
+as well as sometimes your contact's devices if you have a [call](#experimental-features)
+or use [apps](#webxdc) together.
+
+IP Addresses are needed for connectivity and efficiency.
+They are neither persisted nor exposed.
+Note that the IP Address
+is not like a detailed address you give to a delivery service,
+but much more coarse, often defining region or country only.
+
+As this is just how the internet and other messengers work by default,
+we do not offer options here or ask upfront questions.
+
+If you see your IP Address as a security or privacy risk,
+we recommend to use a VPN, in combination with system lockdown mode.
+Hunting down options in all apps on your system will leave gaps.
+For example, tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
+
+
 ### Delta Chat supporta "Mittente Sigillato"? {#sealedsender}
 
 No, non ancora.
