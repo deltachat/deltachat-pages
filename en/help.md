@@ -681,7 +681,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### I'm interested in the technical details. Can you tell me more?
 
-- See [Standards used in Delta Chat]({% include standards-url %}).
+See [Standards used in Delta Chat]({% include standards-url %}).
 
 
 

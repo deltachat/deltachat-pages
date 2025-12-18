@@ -666,7 +666,7 @@ _Non_ raccoglieremo alcuna informazione personale identificabile su di te.
 
 ### Sono interessato ai dettagli tecnici. Mi puoi dire di più?
 
-- Vedi [Standard usati in Delta Chat]({% include standards-url %}).
+Vedi [Standard usati in Delta Chat]({% include standards-url %}).
 
 
 

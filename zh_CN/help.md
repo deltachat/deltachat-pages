@@ -654,7 +654,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### 我对技术细节很感兴趣。能告诉我更多吗？
 
-- 请参阅 [Delta Chat 中使用的标准]({% include standards-url %})。
+请参阅 [Delta Chat 中使用的标准]({% include standards-url %})。
 
 
 

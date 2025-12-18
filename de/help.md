@@ -604,7 +604,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 
-- Siehe hierzu [in Delta Chat genutzte Standards]({% include standards-url %}).
+Siehe hierzu [in Delta Chat genutzte Standards]({% include standards-url %}).
 
 
 

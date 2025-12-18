@@ -599,7 +599,7 @@ We are interested e.g. in statistics like:
 
 ### Мене цікавлять технічні деталі. Можете розповісти більше?
 
-- Дивіться [Стандарти, що використовуються у Delta Chat]({% include standards-url %}).
+Дивіться [Стандарти, що використовуються у Delta Chat]({% include standards-url %}).
 
 
 

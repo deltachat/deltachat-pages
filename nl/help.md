@@ -675,7 +675,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### Ik wil graag meer weten over de gebruikte technieken. Waar kan ik meer informatie vinden?
 
-- Bekijk de pagina [Door Delta Chat gebruikte standaarden]({% include standards-url %}).
+Bekijk de pagina [Door Delta Chat gebruikte standaarden]({% include standards-url %}).
 
 
 

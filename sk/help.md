@@ -681,7 +681,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### Zaujímajú ma technické detaily. Môžete mi povedať viac?
 
-- Pozrite si [Štandardy používané v Delta Chate]({% include standards-url %}). 
+Pozrite si [Štandardy používané v Delta Chate]({% include standards-url %}). 
 
 
 

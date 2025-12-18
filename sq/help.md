@@ -683,7 +683,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
-- Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
+Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
 
 
 

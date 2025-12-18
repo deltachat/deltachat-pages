@@ -679,7 +679,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### Mám zájem o technické podrobnosti. Kde najdu víc?
 
-- Dobrý začátek je [Standards used in Delta Chat]({% include standards-url %}).
+Dobrý začátek je [Standards used in Delta Chat]({% include standards-url %}).
 
 
 

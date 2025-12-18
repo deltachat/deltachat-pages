@@ -677,7 +677,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### Estoy interesado en los detalles técnicos. ¿Pueden decirme más?
 
-- Visita la página [Estándares usados en Delta Chat]({% include standards-url %}).
+Visita la página [Estándares usados en Delta Chat]({% include standards-url %}).
 
 
 

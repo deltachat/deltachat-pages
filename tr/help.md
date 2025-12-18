@@ -680,7 +680,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### Teknik ayrıntılarla ilgileniyorum. Bana daha fazlasını söyleyebilir misin?
 
-- Bkz. [Delta Chat'te kullanılan standartlar]({% include standards-url %}).
+Bkz. [Delta Chat'te kullanılan standartlar]({% include standards-url %}).
 
 
 

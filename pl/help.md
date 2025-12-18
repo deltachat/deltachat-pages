@@ -602,7 +602,7 @@ We will _not_ collect any personally identifiable information about you.
 
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi coś więcej?
 
-- Zobacz [Standardy używane w Delta Chat]({% include standards-url %}).
+Zobacz [Standardy używane w Delta Chat]({% include standards-url %}).
 
 
 
