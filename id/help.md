@@ -281,8 +281,8 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Add and remove members {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+All group members have the **same rights**.
+For this reason, everyone can delete any member or add new ones.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -301,8 +301,8 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 ### I have deleted myself by accident.
 
-- As you're no longer a group member, you cannot add yourself again. 
-  However, no problem, just ask any other group member in a normal chat to re-add you.
+As you're no longer a group member, you cannot add yourself again. 
+However, no problem, just ask any other group member in a normal chat to re-add you.
 
 
 ### I do not want to receive the messages of a group any longer.
@@ -310,8 +310,8 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 - Either delete yourself from the member list or delete the whole chat. 
   If you want to join the group again later on, ask another group member to add you again.
 
-- As an alternative, you can also "Mute" a group - doing so means you get all messages and 
-  can still write, but are no longer notified of any new messages.
+As an alternative, you can also "Mute" a group - doing so means you get all messages and 
+can still write, but are no longer notified of any new messages.
 
 ### Cloning a group
 

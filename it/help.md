@@ -274,7 +274,7 @@ Poiché tutti i membri hanno gli stessi diritti, i gruppi funzionano meglio se f
 
 ### Aggiungi e rimuovi membri {#addmembers}
 
-- Tutti i membri del gruppo hanno gli **stessi diritti**.
+Tutti i membri del gruppo hanno gli **stessi diritti**.
   Per questo motivo, tutti possono eliminare qualsiasi membro o aggiungerne di nuovi.
 
 - Per **aggiungere o eliminare membri**, tocca il nome del gruppo nella chat e seleziona il membro da aggiungere o rimuovere.
@@ -294,7 +294,7 @@ Tuttavia, poiché i gruppi sono [destinati a persone fidate](#groups), evita di 
 
 ### Mi sono cancellato per sbaglio.
 
-- Poiché non sei più un membro del gruppo, non puoi aggiungerti di nuovo.
+Poiché non sei più un membro del gruppo, non puoi aggiungerti di nuovo.
 Tuttavia, nessun problema, chiedi a qualsiasi altro membro del gruppo in una normale chat di aggiungerti nuovamente.
 
 
@@ -303,7 +303,7 @@ Tuttavia, nessun problema, chiedi a qualsiasi altro membro del gruppo in una nor
 - Elimina te stesso dall'elenco dei membri o elimina l'intera chat.
 Se vuoi unirti di nuovo al gruppo in un secondo momento, chiedi a un altro membro del gruppo di aggiungerti di nuovo.
 
-- In alternativa, puoi anche "Silenziare" un gruppo - così facendo riceverai tutti i messaggi e
+In alternativa, puoi anche "Silenziare" un gruppo - così facendo riceverai tutti i messaggi e
 puoi ancora scrivere, ma non viene più notificato alcun nuovo messaggio.
 
 ### Clonazione di un gruppo

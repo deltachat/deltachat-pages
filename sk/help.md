@@ -281,8 +281,8 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Add and remove members {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+All group members have the **same rights**.
+For this reason, everyone can delete any member or add new ones.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -301,7 +301,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 ### Omylom som sa vymazal.
 
-- Keďže už nie ste členom skupiny, nemôžete sa znova pridať. 
+Keďže už nie ste členom skupiny, nemôžete sa znova pridať. 
   Žiadny problém, jednoducho požiadajte ktoréhokoľvek iného člena skupiny v bežnom chate, aby vás znova pridal. 
 
 
@@ -310,7 +310,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 - Vymažte sa zo zoznamu členov alebo odstráňte celý chat.
  Ak sa chcete neskôr znova pripojiť k skupine, požiadajte iného člena skupiny, aby vás znova pridal. 
 
-- Ako alternatívu môžete tiež "Stlmiť" skupinu - znamená to, že budete dostávať všetky správy a
+Ako alternatívu môžete tiež "Stlmiť" skupinu - znamená to, že budete dostávať všetky správy a
 môžete stále písať, ale už nebudete upozorňovaní na žiadne nové správy.
 
 ### Cloning a group

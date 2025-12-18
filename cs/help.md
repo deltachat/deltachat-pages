@@ -280,8 +280,8 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Add and remove members {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+All group members have the **same rights**.
+For this reason, everyone can delete any member or add new ones.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -300,7 +300,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 ### Kdyź se nedopatřením odstraníš.
 
-- Když nejsi členem skupiny nelze se znovu připojit. Nicméně, není to velká potíž - 
+Když nejsi členem skupiny nelze se znovu připojit. Nicméně, není to velká potíž - 
 požádej běžnou zprávou jiného člena skupiny o znovupřipojení.
 
 
@@ -309,7 +309,7 @@ požádej běžnou zprávou jiného člena skupiny o znovupřipojení.
 - Buď se odeber ze seznamu členů a nebo vymaž celý skupinový hovor.
   K opětovnému připojení v budoucnu požádej nějakého člena skupiny o znovupřidání.
 
-- Jiná možnost je "Umlčení" skupiny, což znamená nadále přijímat a také posílat zprávy, 
+Jiná možnost je "Umlčení" skupiny, což znamená nadále přijímat a také posílat zprávy, 
 ale nebudeš dostávat upozrnění na nově příchozí zprávy.
 
 ### Cloning a group

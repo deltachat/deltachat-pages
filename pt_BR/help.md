@@ -279,8 +279,8 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Add and remove members {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+All group members have the **same rights**.
+For this reason, everyone can delete any member or add new ones.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -299,7 +299,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 ### Deletei minha própria conta por acidente.
 
-- Já que você não é mais um membro do grupo, não tem como se adicionar novamente. Entretanto, não tem problema, é só pedir para outra pessoa do grupo, através de um chat normal, adicionar você.
+Já que você não é mais um membro do grupo, não tem como se adicionar novamente. Entretanto, não tem problema, é só pedir para outra pessoa do grupo, através de um chat normal, adicionar você.
 
 
 ### Não quero mais receber as mensagens de um grupo.
@@ -307,7 +307,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 - Ou você se exclui do grupo ou apaga a conversa inteira do grupo.
 Se você quiser entrar mais tarde no grupo novamente, peça a outra pessoa do grupo para adicioná-la novamente.
 
-- Uma alternativa é "silenciar" um grupo. Fazendo isso, você receberá todas as mensagens e ainda poderá escrever, mas não será receberá mais notificações d enovas mensagens.
+Uma alternativa é "silenciar" um grupo. Fazendo isso, você receberá todas as mensagens e ainda poderá escrever, mas não será receberá mais notificações d enovas mensagens.
 
 ### Cloning a group
 

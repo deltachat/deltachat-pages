@@ -280,8 +280,8 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Add and remove members {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+All group members have the **same rights**.
+For this reason, everyone can delete any member or add new ones.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -300,7 +300,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 ### Fshiva veten padashje.
 
-- Ngaqë s’jeni më anëtar i grupit, s’mund të shtoni veten sërish. 
+Ngaqë s’jeni më anëtar i grupit, s’mund të shtoni veten sërish. 
   Megjithatë, s’ka problem, thjesht kërkojini një anëtari tjetër të grupit në një fjalosje të zakonshme t’ju shtojë sërish.
 
 
@@ -309,7 +309,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 - Ose fshini veten si anëtar i listës, ose fshini krejt bisedën. 
   Nëse më vonë doni të ribëheni pjesë e grupit, kërkojini një anëtari tjetër të grupit t’ju shtojë sërish.
 
-- Ndryshe, mundeni edhe ta "Heshtoni" një grup - duke bërë këtë, do të merrni
+Ndryshe, mundeni edhe ta "Heshtoni" një grup - duke bërë këtë, do të merrni
 krejt mesazhet dhe prapë mund të shkruani, por nuk njoftoheni më, 
 për çfarëdo mesazhesh të rinj.
 

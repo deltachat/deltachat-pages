@@ -252,8 +252,8 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Add and remove members {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+All group members have the **same rights**.
+For this reason, everyone can delete any member or add new ones.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -272,7 +272,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 ### Usunąłem się przez przypadek.
 
-- Ponieważ nie jesteś członkiem grupy, nie możesz dodać siebie ponownie. 
+Ponieważ nie jesteś członkiem grupy, nie możesz dodać siebie ponownie. 
   Jednak nie ma problemu, po prostu poproś dowolnego członka grupy na normalnym czacie, aby dodał cię ponownie.
 
 
@@ -281,7 +281,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 - Usuń siebie z listy członków lub usuń cały czat. 
   Jeśli później będziesz chciał ponownie dołączyć do grupy, poproś innego członka grupy, aby dodał cię do grupy.
 
-- Alternatywnie możesz też „Wyłączyć powiadomienia” dla grupy  dzięki temu otrzymasz wszystkie wiadomości i 
+Alternatywnie możesz też „Wyłączyć powiadomienia” dla grupy  dzięki temu otrzymasz wszystkie wiadomości i 
   nadal będziesz mógł pisać, ale nie będziesz już powiadamiany o żadnych nowych wiadomościach.
 
 ### Cloning a group

@@ -249,7 +249,7 @@ Da alle Mitglieder die gleichen Rechte haben, funktionieren Gruppen am besten un
 
 ### Mitglieder hinzufügen und entfernen {#addmembers}
 
-- Alle Gruppenmitglieder haben **dieselben Rechte**. Jeder kann daher jeden löschen oder weitere Mitglieder hinzufügen.
+Alle Gruppenmitglieder haben **dieselben Rechte**. Jeder kann daher jeden löschen oder weitere Mitglieder hinzufügen.
 
 - Um **Mitglieder hinzuzufügen oder zu entfernen**, tippe im Chat auf den Gruppennamen und wähle das Mitglied aus, das du hinzufügen oder entfernen möchtest.
 
@@ -262,7 +262,7 @@ Mit einem QR-Code und dem Einladungslink können mehrere Mitglieder hinzugefügt
 
 ### Ich habe mich selbst versehentlich gelöscht.
 
-- Da du kein Gruppenmitglied mehr bist, kannst du sich selbst nicht mehr hinzufügen.
+Da du kein Gruppenmitglied mehr bist, kannst du sich selbst nicht mehr hinzufügen.
 Kein Problem, bitte einfach ein anderes Gruppenmitglied in einem normalen Chat, dich hinzuzufügen.
 
 
@@ -271,7 +271,7 @@ Kein Problem, bitte einfach ein anderes Gruppenmitglied in einem normalen Chat, 
 - Lösche dich entweder aus der Mitgliederliste oder lösche den gesamten Chat. 
 Wenn du der Gruppe später erneut beitreten möchtest, bitten ein anderes Gruppenmitglied, dich hinzuzufügen.
 
-- Alternativ kannst du eine Gruppe auch "stummschalten" - dies bedeutet, dass du weiterhin alle Nachrichten erhälst und neue schreiben kannst, aber nicht mehr über neue Nachrichten informiert wirst.
+Alternativ kannst du eine Gruppe auch "stummschalten" - dies bedeutet, dass du weiterhin alle Nachrichten erhälst und neue schreiben kannst, aber nicht mehr über neue Nachrichten informiert wirst.
 
 ### Eine Gruppe klonen
 

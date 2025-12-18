@@ -276,8 +276,8 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Add and remove members {#addmembers}
 
-- All group members have the **same rights**.
-  For this reason, everyone can delete any member or add new ones.
+All group members have the **same rights**.
+For this reason, everyone can delete any member or add new ones.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -296,7 +296,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 ### Ik heb mezelf per ongeluk verwijderd
 
-- Je neemt geen deel meer aan de groep en kunt jezelf dus niet meer toevoegen.
+Je neemt geen deel meer aan de groep en kunt jezelf dus niet meer toevoegen.
   Vraag iemand via een één-op-ééngesprek of hij/zij je weer wilt toevoegen.
 
 
@@ -305,7 +305,7 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 - Verwijder jezelf van de groepslijst of verwijder het hele groepsgesprek.
   Als je later weer wilt deelnemen, vraag dan iemand anders of hij/zij je weer wilt toevoegen.
 
-- Wat ook kan doen is groepsmeldingen uitschakelen. Zo blijf je in de groep, maar ontvang je
+Wat ook kan doen is groepsmeldingen uitschakelen. Zo blijf je in de groep, maar ontvang je
   geen meldingen meer als er nieuwe berichten zijn.
 
 ### Cloning a group
