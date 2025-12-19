@@ -7,12 +7,6 @@ source_file = translations/delta-chat-pages.blogpo/en.po
 source_lang = en
 type        = PO
 
-[o:delta-chat:p:delta-chat-pages:r:serverguidepo]
-file_filter = translations/delta-chat-pages.serverguidepo/<lang>.po
-source_file = translations/delta-chat-pages.serverguidepo/en.po
-source_lang = en
-type        = PO
-
 [o:delta-chat:p:delta-chat-pages:r:community-standardspo]
 file_filter = translations/delta-chat-pages.community-standardspo/<lang>.po
 source_file = translations/delta-chat-pages.community-standardspo/en.po
