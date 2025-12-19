@@ -20,7 +20,7 @@
 
 set -e
 
-sfiles=(blog contribute community-standards donate download help imprint index references verify-downloads serverguide)
+sfiles=(blog contribute community-standards donate download help imprint index references verify-downloads)
 tlangs=(ca cs de es fr gl id it nl pl pt pt_BR ru sk sq tr uk zh_CN)  # do not add `en` to this list
 
 
