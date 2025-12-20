@@ -274,7 +274,9 @@ Because all members have the same rights, groups work best among **trusted frien
 ### Grup oluşturma
 
 - Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+
 - On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
+
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 

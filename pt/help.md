@@ -273,7 +273,9 @@ Because all members have the same rights, groups work best among **trusted frien
 ### Criação de um grupo
 
 - Selecione **Nova Conversa** e em seguida **Novo Grupo** no menu que fica na parte de cima da tela, no canto direito, ou clique no botão correspondente no ANdroid/iOS.
+
 - Na tela seguinte, selecione **os membros do grupo** e defina o **nome do grupo**. Você também pode selecionar o **avatar do grupo** (uma imagem).
+
 - Logo após você escrever a **primeira mensagem**, todas as pessoas do grupo serão informadas sobre o novo grupo e poderão responder no grupo (a não que você escreva uma mensagem ali, o grupo estará invisível para os membros).
 
 

@@ -243,7 +243,9 @@ Da alle Mitglieder die gleichen Rechte haben, funktionieren Gruppen am besten un
 ### Eine Gruppe anlegen
 
 - Wähle **Neuer Chat** und dann **Neue Gruppe** aus dem Menü oben rechts oder über das entsprechende Symbol unter Android/iOS.
-- Wähle auf dem folgenden Bildschirm die **Gruppenmitglieder** aus und klicke auf das Häkchen in der oberen rechten Ecke. Danach kannst du einen **Gruppennamen** und auch einen **Gruppenbild**  festlegen.
+
+- Wähle auf dem folgenden Bildschirm die **Gruppenmitglieder** aus und klicke auf das Häkchen in der oberen rechten Ecke. Danach kannst du einen **Gruppennamen** und auch einen **Gruppenbild**  festlegen.
+
 - Sobald du die **erste Nachricht** in die Gruppe schreibst, werden alle Mitglieder über die neue Gruppe informiert und können in der Gruppe antworten (solange du keine Nachricht in die Gruppe schreibst, ist die Gruppe für die Gruppenmitglieder nicht sichtbar).
 
 

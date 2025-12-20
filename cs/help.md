@@ -274,7 +274,9 @@ Because all members have the same rights, groups work best among **trusted frien
 ### Vytvoření skupiny
 
 - Z menu v pravém horním rohu, nebo stiskem příslušného tlačítka na Androidu / iOS vyber **Nový hovor** a pak **Nová skupina**.
-- Na další obrazovce, vyber **členy skupiny** a zadej **Název skupiny**. Také můžeš vybrat  **obrázek skupiny**.
+
+- Na další obrazovce, vyber **členy skupiny** a zadej **Název skupiny**. Také můžeš vybrat  **obrázek skupiny**.
+
 - Jakmile do skupiny pošleš **první zprávu**, všichni členové budou vyrozuměni o nové skupině a mohou do ní také psát (dokud nepošleš první zprávu členové skupiny o ní nebudou vědět).
 
 

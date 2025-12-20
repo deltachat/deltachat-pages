@@ -275,7 +275,9 @@ Because all members have the same rights, groups work best among **trusted frien
 ### Vytvorenie skupiny
 
 - Vyberte **Nový chat** a potom **Nová skupina** z ponuky v pravom hornom rohu alebo stlačte príslušné tlačidlo v systéme Android/iOS.
+
 - Na nasledujúcej obrazovke vyberte **členov skupiny** a definujte **názov skupiny**. Môžete si tiež vybrať **avatara skupiny**.
+
 - Hneď ako napíšete **prvú správu** v skupine, všetci členovia sú informovaní o novej skupine a môžu odpovedať v skupine (pokiaľ nenapíšete správu v skupine, skupina je pre skupinu neviditeľná členovia).
 
 

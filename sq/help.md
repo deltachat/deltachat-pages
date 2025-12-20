@@ -274,7 +274,9 @@ Because all members have the same rights, groups work best among **trusted frien
 ### Krijimi i një grupi
 
 - Prej menusë në cepin e sipërm djathtas, përzgjidhni **Fjalosje e re** dhe mandej **Grup i ri**, ose shtypni butonin përgjegjës në Android/iOS.
+
 - Te skena vijuese, përzgjidhni **anëtarë grupi** dhe përcaktoni një **emër grupi**. Mund të përzgjidhni edhe një **avatar grupi**.
+
 - Sapo të shkruani **mesazhin e parë** te grupi, krejt anëtarët marrin vesh për grupin e ri dhe mund të përgjigjen në të (për sa kohë që te grupi s’shkruani një mesazh i cili është i padukshëm për anëtarët).
 
 

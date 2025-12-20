@@ -246,7 +246,9 @@ Because all members have the same rights, groups work best among **trusted frien
 ### Tworzenie grupy
 
 - Wybierz **Nowy czat**, a następnie **Nowa grupa** z menu w prawym górnym rogu lub naciśnij odpowiedni przycisk na Androidzie / iOS.
-- Na następnym ekranie wybierz **członków grupy** i zdefiniuj **nazwę grupy**. Możesz też wybrać awatar **grupy**. 
+
+- Na następnym ekranie wybierz **członków grupy** i zdefiniuj **nazwę grupy**. Możesz też wybrać awatar **grupy**.
+
 - Zaraz po napisaniu pierwszej wiadomości w grupie wszyscy członkowie zostaną poinformowani o nowej grupie i mogą odpowiedzieć w grupie (jeżeli nie napiszesz wiadomości w grupie, grupa jest niewidoczna dla członków).
 
 
