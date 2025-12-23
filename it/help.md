@@ -175,16 +175,16 @@ e anche gli altri non sempre vedranno che sei "online".
 
 ### Cosa significano i segni di spunta visualizzati accanto ai messaggi in uscita?
 
-- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  means that the message was sent successfully to the [relay](#relays).
+- **Una spunta** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  significa che il messaggio è stato inviato correttamente al [ripetitore](#relays).
 
-- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  indicate your contact has read the message.
+- **Due spunte** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+  indica che il tuo contatto ha letto il messaggio.
 
-In [groups](#groups) the second tick means that at least one member has reported back having read the message.
+In [gruppi](#groups) il secondo segno di spunta significa che almeno un membro ha segnalato di aver letto il messaggio.
 
-You will only get the second tick if both you and one of the recipients who read the message
-has **Settings → Chats → Read Receipts** enabled.
+Riceverai la seconda spunta solo se sia tu che uno dei destinatari che hanno letto il messaggio
+avete abilitato **Impostazioni → Chat → Conferme di Lettura**.
 
 
 ### Correggi gli errori e cancella i messaggi dopo averli inviati {#edit}
@@ -322,14 +322,14 @@ Il nuovo gruppo è **completamente indipendente** dall'originale,
 che continua a funzionare come prima.
 
 
-### How many members can participate in a single group?
+### Quanti membri possono partecipare a un singolo gruppo?
 
-There is no strict technical limit,
-but more than 150 is not recommended.
+Non esiste un limite tecnico preciso,
+ma non è consigliabile superare i 150.
 
-As groups get larger, they can become socially unstable and may need a hierarchy -
-where Delta Chat is a private messenger for chatting with [equal rights](#groups).
-See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
+Man mano che i gruppi diventano più grandi, possono diventare socialmente instabili e potrebbero aver bisogno di una gerarchia,
+dove Delta Chat è un servizio di messaggistica privato per chattare con [uguali diritti](#groups).
+Vedi [numero di Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) per ulteriori approfondimenti.
 
 
 ## Apps in chat {#webxdc}
@@ -834,25 +834,25 @@ Inoltre, se un dispositivo viene sequestrato, i contatti di chat che utilizzano 
 non possono essere identificati facilmente.
 
 
-### Who sees my IP Address?
+### Chi vede il mio Indirizzo IP?
 
-The used [relay](#relays) needs to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#experiments)
-or use [apps](#webxdc) together.
+Il [ripetitore](#relays) utilizzato deve conoscere il tuo indirizzo IP,
+e talvolta anche i dispositivi dei tuoi contatti se avete una [chiamata](#experiments)
+o utilizzate [apps](#webxdc) insieme.
 
-IP Addresses are needed for connectivity and efficiency.
-They are neither persisted nor exposed.
-Note that the IP Address
-is not like a detailed address you give to a delivery service,
-but much more coarse, often defining region or country only.
+Gli indirizzi IP sono necessari per la connettività e l'efficienza.
+Non sono né persistenti né esposti.
+Si noti che l'indirizzo IP
+non è come un indirizzo dettagliato che si fornisce a un servizio di consegna,
+ma molto più generico, che spesso definisce solo la regione o il paese.
 
-As this is just how the internet and other messengers work by default,
-we do not offer options here or ask upfront questions.
+Poiché questo è il modo in cui Internet e altri servizi di messaggistica funzionano di default,
+non offriamo opzioni né poniamo domande in anticipo.
 
-If you see your IP Address as a security or privacy risk,
-we recommend to use a VPN, in combination with system lockdown mode.
-Hunting down options in all apps on your system will leave gaps.
-For example, tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
+Se ritieni che il tuo indirizzo IP rappresenti un rischio per la sicurezza o la privacy,
+ti consigliamo di utilizzare una VPN, in combinazione con la modalità di blocco del sistema.
+Esplorare le opzioni in tutte le app del tuo sistema lascerà delle lacune.
+Ad esempio, cliccare su un link espone gli indirizzi IP a sconosciuti e rappresenta il rischio di gran lunga maggiore.
 
 
 ### Delta Chat supporta "Mittente Sigillato"? {#sealedsender}

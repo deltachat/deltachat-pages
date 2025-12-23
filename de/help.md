@@ -540,45 +540,42 @@ Weitere Details und zukünftige Möglichkeiten findest du im [Forum](https://sup
 
 ### Kann ich eine klassische E-Mail-Adresse mit Delta Chat verwenden?
 
-Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
+Ja, aber nur, wenn die E-Mail-Adresse ausschließlich von [Chatmail-Clients](https://chatmail.at/clients) verwendet wird.
 
-It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
-for the following reasons:
+Die gemeinsame Nutzung einer E-Mail-Adresse mit Nicht-Chatmail-Apps oder webbasierten Mailprogrammen wird aus folgenden Gründen nicht unterstützt:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
+- Nicht-Chatmail-Apps bieten ihren Nutzern größtenteils keine automatische End-to-End-Verschlüsselung,
+während Chatmail-Apps und Relays durchgängig End-to-End-Verschlüsselung und Sicherheitsstandards durchsetzen.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message relay.
+- Nicht-Chatmail-Anwendungen nutzen E-Mail-Server als langfristiges Nachrichtenarchiv,
+während Chatmail-Clients E-Mail-Server für die kurzlebige Weiterleitung von Nachrichten verwenden.
 
-- Supporting the full variety of classic email setups
-  would require considerable development and maintenance efforts,
-  and complicate making chatmail-based messaging more resilient, reliable and fast.
+- Die Unterstützung der gesamten Bandbreite klassischer E-Mail-Konfigurationen
+würde einen erheblichen Entwicklungs- und Wartungsaufwand erfordern
+und Chatmail-basiertes Messaging weniger robust, zuverlässig und schnell machen.
 
 ### Wie kann ich ein Chat-Profil mit einer klassischen E-Mail-Adresse als Relay konfigurieren? {#classic-email}
 
-First off, **please do not use the same classic email address also from non-chatmail classic email apps**
-unless you are prepared to deal with encrypted messages in the inbox,
-double notifications, accidentally deleted emails or similar annoyances.
+Zunächst einmal, **verwenden bitte nicht dieselbe klassische E-Mail-Adresse auch in anderen klassischen E-Mail-Anwendungen**,
+es sei denn, du bist sind bereit, dich mit verschlüsselten Nachrichten im Posteingang,
+doppelten Benachrichtigungen, versehentlich gelöschten E-Mails oder ähnlichen Ärgernissen auseinanderzusetzen.
 
-You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Relay**.
-Note that classic email providers will generally not support [Push Notifications](#instant-delivery)
-and have other limitations, see [Provider Overview](https://providers.delta.chat).
-Chatmail uses the default INBOX for relay; ensure the provider setup does too. 
-A chat profile using a classic email address allows to to send and receive unencrypted messages.
-These messages, and the chats they appear in, are marked with an email icon
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
+Sie können eine E-Mail-Adresse unter **Neues Profil → Anderen Server verwenden → Klassische E-Mail als Relay** konfigurieren.
+Beachten Sie, dass klassische E-Mail-Anbieter in der Regel keine [Push-Benachrichtigungen](#instant-delivery) unterstützen
+und andere Einschränkungen haben, siehe [Provider-Overview](https://providers.delta.chat).
+Chatmail verwendet den Standard-INBOX für die Weiterleitung; stellen Sie sicher, dass dies auch bei der Einrichtung Ihres Anbieters der Fall ist. 
+Ein Chat-Profil mit klassischer E-Mail-Adresse, ermöglicht das Senden und Empfangen unverschlüsselter Nachrichten; diese sind mit dem E-Mail-Symbol <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>  gekennzeichnet.
 
 
 ### Ich möchte meinen eigenen Server für Delta Chat verwalten. Gibt es Empfehlungen?
 
-Any well behaving email server setup will do fine 
-except if your users' devices require Google/Apple [Push Notifications](#instant-delivery) to work properly.
+Jede gut funktionierende E-Mail-Server-Konfiguration ist geeignet, 
+es sei denn, die Geräte Ihrer Benutzer erfordern Google/Apple [Push-Benachrichtigungen](#instant-delivery), um ordnungsgemäß zu funktionieren.
 
-We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
-[Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
-and [core Rust developments](https://github.com/chatmail/core) 
-that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
+Wir empfehlen generell, [ein Chatmail-Relay einzurichten](https://chatmail.at/doc/relay/getting_started.html). 
+[Chatmail](https://chatmail.at) ist ein Community-basiertes Projekt, das sowohl die Einrichtung von Relays
+als auch [Entwicklungen in Rust](https://github.com/chatmail/core) 
+für die [Chatmail-Clients](https://chatmail.at/clients) umfasst, von denen Delta Chat der bekannteste ist.
 
 
 ### Was ist "Statistik an Delta Chat Entwickler senden"? {#statssending}
