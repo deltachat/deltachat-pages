@@ -8,7 +8,7 @@
 
 // check if the browser implements ServiceWorkers API
 if ('serviceWorker' in navigator) {
-    if (!caches) {
+    if (typeof caches === 'undefined') {
       console.error('LibResilient: CacheStorage API is not available.')
     } else if (navigator.serviceWorker.controller) {
         // Service worker already registered.
