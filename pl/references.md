@@ -5,8 +5,7 @@ lang: pl
 
 # Referencje
 
-> This list is not updated frequently.
-> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
+> Ta lista nie jest często aktualizowana.> Wiele nowszych odniesień i głosów użytkowników transmitowanych w czasie rzeczywistym można znaleźć w [Fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Roskomsvoboda: Delta Chat ponownie odmówił współpracy z rosyjskimi władzami
