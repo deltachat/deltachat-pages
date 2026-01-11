@@ -1,19 +1,19 @@
 ---
-title: Delta Chat, un messagerie décentralisée et sécurisé 
+title: Delta Chat, une messagerie décentralisée et sécurisée
 lang: fr
 ---
 
 # Delta Chat est une application de messagerie décentralisée et sécurisée {#homepage-heading}
 
-💬 Une messagerie instantanée fiable avec le support du multi-comptes et de plusieurs appareils 
+💬 Une messagerie instantanée fiable avec le support de plusieurs comptes et de plusieurs appareils 
 
-⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
+⚡️ Inscrivez-vous à des [relais chatmail](https://chatmail.at/relays) sécurisés et interopérables
 
-🥳 [web apps in chats](https://webxdc.org/) interactifs pour les jeux et la collaboration
+🥳 [Applications web interactives dans les discussions](https://webxdc.org/) pour les jeux et la collaboration
 
-🔒 [Chiffrement end-to-end audité](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) à l'abri contre les attaques ciblées sur le réseau ou les serveurs
+🔒 [Chiffrement de bout-en-bout audité](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), à l'abri contre les attaques ciblées sur le réseau ou les serveurs
 
-👉 [F](https://fr.wikipedia.org/wiki/Logiciel_libre)[OSS](https://fr.wikipedia.org/wiki/Open_source) software, basé sur des [Standards d'internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), évitant [xkcd927](https://xkcd.com/927/) :)
+👉 Logiciel [libre](https://fr.wikipedia.org/wiki/Logiciel_libre) et [Open Source](https://fr.wikipedia.org/wiki/Open_source), basé sur des [Standards d'Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), évitant [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">

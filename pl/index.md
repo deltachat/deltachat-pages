@@ -7,7 +7,7 @@ lang: pl
 
 💬 Niezawodny komunikator z obsługą wielu profili i wielu urządzeń
 
-⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
+⚡️ Zarejestruj się w bezpiecznym i interoperacyjnym systemie [przekaźników chatmail](https://chatmail.at/relays)
 
 🥳 Interaktywne [aplikacje internetowe w czatach](https://webxdc.org/) do gier i współpracy
 

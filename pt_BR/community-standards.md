@@ -1,32 +1,19 @@
----
-title: Community Standards
-lang: pt_BR
----
+---  title: Normas da Comunidade  lang: pt_BR  ---
 
-# Delta Chat Community Standards
+# Normas da Comunidade do Delta Chat
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers strive to make participation in Delta Chat
-communities a pleasurable, harassment-free experience.
+No interesse de promover um ambiente aberto e acolhedor, nós, como colaboradores e mantenedores nos esforçamos para tornar a participação no Delta Chat uma experiência agradável e livre de assédio.
 
 
-## Our Standards
+## Nossas Normas
 
-Examples of behavior that contribute to creating a positive environment include:
+Exemplos de comportamento que contribuem para a criação de um ambiente positivo incluem:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Showing empathy towards community members and newcomers
-* Helping and mediating in cases of upsets or conflict
+* Usar linguagem acolhedora e inclusiva  * Respeitar os diferentes pontos de vista e experiências  * Aceitar críticas construtivas de forma graciosa  * Demonstração de empatia para com os membros da comunidade e recém-chegados  * Ajudar e mediar em casos de transtornos ou conflitos
 
-Examples of behavior which we ask everybody to avoid include:
+Exemplos de comportamento que pedimos a todos que evitem incluem:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
+* O uso de linguagem ou imagens sexualizadas e atenção ou avanços sexuais indesejados  * Trollagem, comentários insultantes/derrogatórios e ataques pessoais ou políticos  * Assédio público ou privado  * Publicação de informações privadas de outras pessoas, como endereço físico ou eletrônico, sem permissão explícita. 
 
 We recognize that sometimes people may have a bad day, or may be unaware of
 the impact of their behaviour. When that happens, you may carefully remind
