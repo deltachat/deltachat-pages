@@ -764,7 +764,7 @@ can not be identified easily.
 
 ### Wer sieht meine IP-Adresse?
 
-Das verwendete [Rekay](#relays) muss Ihre IP-Adresse kennen,
+Das verwendete [Relay](#relays) muss Ihre IP-Adresse kennen,
 sowie manchmal auch die Geräte Ihrer Kontakte, wenn Sie einen [Anruf](#experiments) tätigen
 oder gemeinsam [Apps](#webxdc) verwenden.
 
