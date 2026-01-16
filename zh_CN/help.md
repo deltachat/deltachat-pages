@@ -995,34 +995,31 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
 具体而言，Delta Chat 的开发迄今为止已从以下来源获得资金，
 按时间顺序排列：
 
-- [NEXTLEAP](https://nextleap.eu)欧盟项目资助了以下研究和实施工作：在 2017 年和 2018 年实施的验证组和设置联系协议和通过 [Autocrypt](https://autocrypt.org)整合了端到端加密。
-
-- 在[开放技术基金](https://opentechfund.org) 2018/2019 年提供的第一笔赠款（约 20 万美元）期间，我们显著改善了安卓应用，发布了第一个桌面测试版，并根据人权方面的用户体验研究进行了功能开发，请参阅我们的结论[《需求发现与用户体验报告》](https://delta.chat/en/2019-07-19-uxreport)。2019/2020 年的第二笔赠款（约 30 万美元）对发布 Delta/iOS 版本，将核心库转换到 Rust ，以及为所有平台开发新功能提供了帮助。
-
-- [NLnet 基金会](https://nlnet.nl/) 2019/2020 年拨款 4.6 万欧元，用于完成 Rust/Python 绑定并建立聊天机器人生态系统。 
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
+  All of these projects are partially completed or to be completed in early 2025.
 
 - In 2021 we received further EU funding for two Next-Generation-Internet
   proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of email servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
+  completing Rust/Python bindings and instigating a Chat-bot eco-system.
 
-- 2023-2024 年，我们成功完成了 OTF 资助的
-[安全 Chatmail 项目](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/)，
-使我们能够引入保证的加密，
-创建一个 [Chatmail 服务器网络](https://delta.chat/chatmail)，
-并在 2024 年 4 月起发布的所有应用中提供“即时入职”。
+- The [Open Technology Fund](https://opentechfund.org) gave us a
+  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
+  and released a first Desktop app beta version, and which moreover
+  moored our feature developments in UX research in human rights contexts,
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant (~$300K) helped us to
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.
 
-- 在 2023 年和 2024 年，我们的 [WebXDC PUSH](https://nlnet.nl/project/WebXDC-Push/) 工作已在下一代互联网 (NGI) 中获得认可，
-并与致力于
-[WebXDC evolve](https://nlnet.nl/project/Webxdc-Evolve/)、
-[WebXDC XMPP](https://nlnet.nl/project/WebXDC-XMPP/)、
-[DeltaTouch](https://nlnet.nl/project/DeltaTouch/) 和
-[DeltaTauri](https://nlnet.nl/project/DeltaTauri/) 的合作伙伴合作。
-所有这些项目都已部分完成或将在 2025 年初完成。
+- [NEXTLEAP](https://nextleap.eu)欧盟项目资助了以下研究和实施工作：在 2017 年和 2018 年实施的验证组和设置联系协议和通过 [Autocrypt](https://autocrypt.org)整合了端到端加密。
 
 - 我们有时会收到个人的一次性捐款。 例如，2021 年，一位慷慨的人士以 "继续保持良好的发展态势！"为主题通过银行向我们捐赠了4千欧元💜。 我们用这些钱来资助发展活动或支付不容易预测或从公共基金中报销的临时费用。收到更多的捐款也有助于我们作为一个贡献者社区变得更加独立和长期可持续。
 

@@ -825,32 +825,31 @@ Delta Chat не отримує жодного Венчурного Капіта�
 
 Конкретно, розробка Delta Chat на сьогодні фінансувалися з наступних джерел, в хронологічному порядку:
 
-- Проект ЄС [NEXTLEAP](https://nextleap.eu) фінансував дослідження та впровадження верифікованих груп і протоколів встановлення контактів у 2017 та 2018 роках, а також допоміг інтегрувати наскрізне шифрування через [Autocrypt](https://autocrypt.org).
-
-- [Open Technology Fund](https://opentechfund.org) надав нам два гранти. 
-  Перший грант 2018/2019 року (~$200K), допоміг значно покращили додаток для Android
-  і випустили першу бета-версію додатка для ПК, і який до того ж
-  закріпив наші розробки функцій у дослідженнях UX у контексті прав людини, 
-  дивіться наш підсумковий звіт [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  Другий грант 2019/2020 року (~$300K) допоміг нам 
-  випустити Delta/iOS версію, конвертувати нашу основному бібліотеку на Rust,
-  і додати нові функції для всіх платформ.  
-
-- Фонд [NLnet](https://nlnet.nl/) виділив у 2019/2020 роках 46 тисяч євро на
-  завершення прив'язок Rust/Python та запуск екосистеми чат-ботів. 
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
+  All of these projects are partially completed or to be completed in early 2025.
 
 - In 2021 we received further EU funding for two Next-Generation-Internet
   proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of email servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
+  completing Rust/Python bindings and instigating a Chat-bot eco-system.
 
-- У 2023-2024 роках ми успішно завершили проєкт [Secure Chatmail](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), що фінансувався OTF, що дозволило нам запровадити гарантоване шифрування, створити [мережу серверів chatmail](https://delta.chat/chatmail) та забезпечити "миттєву реєстрацію" у всіх застосунках, випущених з квітня 2024 року.
+- The [Open Technology Fund](https://opentechfund.org) gave us a
+  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
+  and released a first Desktop app beta version, and which moreover
+  moored our feature developments in UX research in human rights contexts,
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant (~$300K) helped us to
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.
 
-- У 2023 та 2024 роках нас прийняли до програми Next Generation Internet (NGI) за нашу роботу над [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/), а також у співпраці з партнерами, які працюють над [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) та [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). Усі ці проєкти частково завершені або будуть завершені на початку 2025 року.
+- Проект ЄС [NEXTLEAP](https://nextleap.eu) фінансував дослідження та впровадження верифікованих груп і протоколів встановлення контактів у 2017 та 2018 роках, а також допоміг інтегрувати наскрізне шифрування через [Autocrypt](https://autocrypt.org).
 
 - Іноді ми отримуємо одноразові пожертви від приватних осіб. Наприклад, у 2021 році щедра приватна особа перерахував нам 4 тис. євро з повідомленням «так тримати!». 💜 Ми використовуємо такі пожертви для фінансування зборів на розвиток або для тимчасових витрат, які важко передбачити або відшкодувати за рахунок грантів державного фінансування. Отримання більшої кількості пожертв також допомагає нам стати більш незалежними та довгостроково життєздатними як спільнота контриб'юторів.
 

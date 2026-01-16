@@ -8,103 +8,103 @@ header: Perguntas Frequentes
 
 ## O que é o Delta Chat
 
-Delta Chat is a reliable, decentralized and secure instant messaging app,
-available for mobile and desktop platforms.
+Delta Chat é um aplicativo de mensagens instantâneas confiável, descentralizado e seguro,
+disponível para desktop e plataformas móveis.
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- Criação instantânea de **contas de chat privadas**
+  com [relays chatmail](https://chatmail.at/relays) seguros e interoperáveis 
+  que oferecem entrega de mensagens instantâneas e Notificações Push para dispositivos iOS e Android.
 
-- Pervasive [multi-profile](#multiple-accounts) and
-  [multi-device](#multiclient) support on all platforms
-  and between different [chatmail apps](https://chatmail.at/clients).
+- Suporte a [várias contas](#multiple-accounts) e
+  a [vários dispositivos](#multicliente) em todas as plataformas
+  e entre diferentes [aplicativos de chatmail](https://chatmail.at/clients).
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+- [Aplicativos interativos embutidos](#webxdc) para jogos e colaboração
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [Criptografia de ponta a ponta auditada](#security-audits)
+  segura contra ataques à rede e ao servidor.
 
-- Free and Open Source software, both app and server side,
-  built on [Internet Standards]({% include standards-url %}).
-
-
-### How can I find people to chat with? {#howtoe2ee}
-
-First, note that Delta Chat is a private messenger.
-There is no public discovery, _you_ decide about your contacts.
-
-- If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the main screen.  
-  Ask your chat partner to **scan** the QR image
-  with their Delta Chat app.
-
-- For a **remote** contact setup,
-  from the same screen,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat.
-
-Now wait while connection gets established.
-
-- If both sides are online, they will soon see a chat
-  and can start messaging securely.
-
-- If one side is offline or in bad network,
-  the ability to chat is delayed until connectivity is restored.
-
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+- Software gratuito e de código aberto, tanto no aplicativo quanto no servidor,
+  desenvolvido com base nos [Padrões da Internet]({% include standards-url %}).
 
 
-### Why is a chat marked as "Request"?
+### Como posso encontrar pessoas para conversar? {#howtoe2ee}
 
-As being a private messenger,
-only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
+Primeiro, observe que o Delta Chat é um mensageiro privado.
+Não há descoberta pública, _você_ decide sobre seus contatos.
 
-Your friends may share your contact with other friends,
-this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
+- Se você estiver **cara a cara** com seu amigo ou parente,
+  toque no ícone de **QR Code** <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
+  na tela principal.  
+  Peça ao seu parceiro para **escanear** o QR code
+  com o aplicativo Delta Chat dele.
 
-- You need to **accept** the request before you can reply.
+- Para criar um contato **remotamente**,
+  na mesma tela,
+  clique em "Copiar" ou "Compartilhar" e envie o **link do convite**
+  por meio de outro mensageiro privado.
 
-- You can also **delete** it if you don't want to chat with them for now.
+Agora, aguarde enquanto a conexão se estabelece.
 
-- If you delete a request, future messages from that contact will still appear
-  as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider **blocking** them.
+- Se ambos os lados estiverem on-line, vocês logo verão um chat
+  e poderão começar a enviar mensagens com segurança.
+
+- Se um lado estiver off-line ou em uma rede ruim,
+  a capacidade de acessar o chat será atrasada até que a conectividade seja restaurada.
+
+Parabéns!
+Agora você usará automaticamente a [criptografia de ponta a ponta](#e2ee) com esse contato.
+Se vocês se adicionarem a [grupos](#groups), a criptografia de ponta a ponta será estabelecida entre todos os membros.
 
 
-### How can I put two of my friends in contact with each other?
+### Por que um chat está marcado como "Solicitação"?
 
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
-You can also add a little introduction message.
+Por ser um mensageiro privado,
+somente amigos e familiares com quem você [compartilha seu QR code ou link de convite](#howtoe2ee) podem escrever para você.
 
-The second contact will receive a **card** then
-and can tap it to start chatting with the first contact.
+Seus amigos podem compartilhar seu contato com outros amigos,
+isso aparece como <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Solicitação</b>
+
+- Você precisa **aceitar** a solicitação antes de poder responder.
+
+- Você também pode **excluir** a solicitação se não quiser conversar com a pessoa por enquanto.
+
+- Se você excluir uma solicitação, as mensagens futuras desse contato ainda aparecerão
+  como solicitação de mensagem, assim você pode mudar de ideia. Se você realmente não quiser
+  receber mensagens dessa pessoa, considere **bloqueá-la**.
+
+
+### Como posso colocar dois dos meus amigos em contato um com o outro?
+
+Anexe o primeiro contato ao chat do segundo clicando em <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botão de Anexo → Contato**.
+Você também pode adicionar uma pequena mensagem de apresentação.
+
+O segundo contato receberá um **cartão**
+e poderá tocar nele para começar a conversar com o primeiro contato.
 
 
 ### Dá para mandar imagens, vídeos e outros anexos pelo Delta Chat?
 
-Sim. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Sim. Imagens, vídeos, arquivos, mensagens de voz etc. podem ser enviados usando os botões de<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anexo-**
+ou <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Mensagem de Voz**
 
-For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+Para fins de desempenho, as imagens são otimizadas e enviadas em um tamanho menor por padrão, mas você pode enviá-las como um "arquivo" para preservar o original.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### O que são contas? Como posso alternar entre elas? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses the server only to relay messages.
+Uma conta é **um nome, uma foto** e algumas informações adicionais para criptografar mensagens.
+Uma conta reside apenas em seu(s) dispositivo(s)
+e usa o servidor somente para transportar mensagens.
 
-On first installation of Delta Chat a first profile is created.
+Na primeira instalação do Delta Chat, uma primeira conta é criada.
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+Depois, você pode tocar em sua imagem de perfil no canto superior esquerdo para **Adicionar Conta**
+ou para **Mudar de Conta**.
 
-You may want to use separate profiles for political, family or work related activities.
+Talvez você queira usar perfis separados para atividades políticas, familiares ou atividades do trabalho.
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+Talvez você também queira aprender [como usar a mesma conta em vários dispositivos](#multiclient).
 
 
 ### Quem consegue ver a imagem do meu perfil?
@@ -114,30 +114,30 @@ Você pode adicionar uma imagem de perfil nas suas configurações. Se você esc
 Por motivos de privacidade, ninguém pode ver a imagem do seu ṕerfil até que você escreva para as pessoas.
 
 
-### Can I set a Bio/Status with Delta Chat? {#signature}
+### Posso definir uma Bio/Assinatura com o Delta Chat? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Once you sent a message to a contact,
-they will see it when they view your contact details.
+Sim,
+você pode fazer isso em **Configurações → Conta → Assinatura**.
+Depois de enviar uma mensagem para um contato,
+ele verá sua assinatura quando visualizar seus detalhes de contato.
 
 
-### What do Pinning, Muting and Archiving mean?
+### O que significa Fixar, Silenciar e Arquivar?
 
-Use these tools to organize your chats and keep everything in its place:
+Use essas ferramentas para organizar seus chats e manter tudo em seu devido lugar:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- Os **chats fixados** sempre ficam no topo da lista de conversas. Você pode usá-los para acessar seus chats mais queridos rapidamente ou temporariamente para não se esquecer de nada.
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **Silencie os chats** se não quiser receber notificações deles. Os bate-papos silenciados permanecem no lugar e você também pode fixar um chat silenciado.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  They remain accessible above the chat list or via search
-  and are marked by <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Archived</b>
+- **Arquive chats** se não quiser mais vê-los em sua lista de conversas.
+  Eles permanecem acessíveis acima da lista conversa ou por meio de pesquisa
+  e são marcados como <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Arquivado</b>
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- Quando um chat arquivado receber uma nova mensagem, a menos que esteja silenciado, ele **sairá do arquivo** e voltará à sua lista de conversas.
+  **Os chats silenciados permanecem arquivados** até que você os desarquive manualmente.
 
-To use the functions, long tap or right click a chat in the chat list.
+Para usar as funções, toque e segure ou clique com o botão direito do mouse em um conversa na lista de conversas.
 
 
 ### How do "Saved Messages" work? {#save}
@@ -1030,46 +1030,34 @@ based on Free and Open-Source community developments.
 Concretely, Delta Chat developments have so far been funded from these sources,
 ordered chronologically: 
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018 and also helped to integrate end-to-end Encryption
-  through [Autocrypt](https://autocrypt.org).
-
-- The [Open Technology Fund](https://opentechfund.org) gave us a 
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app 
-  and released a first Desktop app beta version, and which moreover 
-  moored our feature developments in UX research in human rights contexts, 
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to 
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.  
-
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system. 
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
+  All of these projects are partially completed or to be completed in early 2025.
 
 - In 2021 we received further EU funding for two Next-Generation-Internet
   proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
 
-- From End 2021 till March 2023 we received *Internet Freedom* funding (500K USD) from the
-  U.S. Bureau of Democracy, Human Rights and Labor (DRL). 
-  This funding supported our long-running goals to make Delta Chat more usable 
-  and compatible with a wide range of email servers world-wide, and more resilient and secure
-  in places often affected by internet censorship and shutdowns.
+- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
+  completing Rust/Python bindings and instigating a Chat-bot eco-system.
 
-- 2023-2024 we successfully completed the OTF-funded 
-  [Secure Chatmail project](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/), 
-  allowing us to introduce guaranteed encryption, 
-  creating a [chatmail server network](https://delta.chat/chatmail) 
-  and providing "instant onboarding" in all apps released from April 2024 on. 
+- The [Open Technology Fund](https://opentechfund.org) gave us a
+  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
+  and released a first Desktop app beta version, and which moreover
+  moored our feature developments in UX research in human rights contexts,
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant (~$300K) helped us to
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on 
-  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
-  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and 
-  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
-  All of these projects are partially completed or to be completed in early 2025. 
+- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
+  and implementation of verified groups and setup contact protocols
+  in 2017 and 2018 and also helped to integrate end-to-end Encryption
+  through [Autocrypt](https://autocrypt.org).
 
 - Sometimes we receive one-time donations from private individuals. 
   For example, in 2021 a generous individual bank-wired us 4K EUR 

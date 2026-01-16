@@ -1018,43 +1018,33 @@ basato sugli sviluppi della comunità Free e Open-Source.
 Concretamente, lo sviluppo di Delta Chat è stato finora finanziato da queste fonti,
 ordinate cronologicamente:
 
+- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
+  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  along with collaboration partners working on
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
+  All of these projects are partially completed or to be completed in early 2025.
+
+- Nel 2021 abbiamo ricevuto ulteriori finanziamenti dall'UE per due proposte di Next-Generation-Internet, ovvero per [EPPD - directory di portabilità dei provider di posta elettronica](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97.000 EUR) e [AEAP - portabilità degli indirizzi email](https://nlnet.nl/project/EmailPorting/) (~90.000 EUR), che hanno portato a un migliore supporto multi-profilo, a un miglioramento delle impostazioni di contatto e di gruppo tramite codice QR e a numerosi miglioramenti di rete su tutte le piattaforme.
+
+- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
+  completing Rust/Python bindings and instigating a Chat-bot eco-system.
+
+- The [Open Technology Fund](https://opentechfund.org) gave us a
+  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
+  and released a first Desktop app beta version, and which moreover
+  moored our feature developments in UX research in human rights contexts,
+  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  The second 2019/2020 grant (~$300K) helped us to
+  release Delta/iOS versions, to convert our core library to Rust, and
+  to provide new features for all platforms.
+
 - Il progetto UE [NEXTLEAP](https://nextleap.eu) ha finanziato la ricerca
   e implementazione di gruppi verificati e impostazione di protocolli di contatto
   nel 2017 e nel 2018 e ha anche contribuito a integrare la crittografia end-to-end
   tramite [Autocrypt](https://autocrypt.org).
-
-- L'[Open Technology Fund](https://opentechfund.org) ci ha dato una
-prima sovvenzione 2018/2019 (~$200K) durante la quale abbiamo notevolmente migliorato l'app Android
-e ha rilasciato una prima versione beta dell'app desktop, e che inoltre
-ancorato i nostri sviluppi delle funzionalità nella ricerca sulla UX nei contesti dei diritti umani,
-vedete il nostro [Rapporto Needfinding e UX](https://delta.chat/en/2019-07-19-uxreport) conclusivo.
-La seconda sovvenzione 2019/2020 (~$300K) ci ha aiutato a farlo
-rilasciare nelle versioni Delta/iOS, per convertire la nostra libreria principale in Rust, e
-per fornire nuove funzionalità per tutte le piattaforme.
-
-- La [fondazione NLnet](https://nlnet.nl/) ha concesso nel 2019/2020 46.000 EUR per
-  completando i collegamenti Rust/Python e avviando un ecosistema Chat-bot.
-
-- Nel 2021 abbiamo ricevuto ulteriori finanziamenti dall'UE per due proposte di Next-Generation-Internet, ovvero per [EPPD - directory di portabilità dei provider di posta elettronica](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97.000 EUR) e [AEAP - portabilità degli indirizzi email](https://nlnet.nl/project/EmailPorting/) (~90.000 EUR), che hanno portato a un migliore supporto multi-profilo, a un miglioramento delle impostazioni di contatto e di gruppo tramite codice QR e a numerosi miglioramenti di rete su tutte le piattaforme.
-
-- Da fine 2021 a marzo 2023 abbiamo ricevuto un finanziamento *Internet Freedom* (500.000 USD) dall'Ufficio per la Democrazia, i Diritti Umani e il Lavoro (DRL) degli Stati Uniti.
-Questo finanziamento ha supportato i nostri obiettivi a lungo termine: rendere Delta Chat più utilizzabile
-e compatibile con un'ampia gamma di server email in tutto il mondo, e più resiliente e sicura
-in luoghi spesso colpiti da censura e blocchi di Internet.
-
-- 2023-2024 abbiamo completato con successo il progetto [Chatmail Sicuro](https://www.opentech.fund/projects-we-support/supported-projects/secure-chat-mail-with-delta-chat/) finanziato da OTF, 
-consentendoci di introdurre la crittografia garantita, 
-creando una [rete di server di chatmail](https://delta.chat/chatmail) 
-e fornendo "inserimento immediato" in tutte le app rilasciate da aprile 2024 in poi.
-
-- Nel 2023 e nel 2024 siamo stati accettati nel programma Next Generation Internet (NGI)
-  per il nostro lavoro in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  insieme ai partner di collaborazione che lavorano su 
-  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
-  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) e 
-  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
-  Tutti questi progetti sono parzialmente completati o saranno completati all'inizio del 2025.
 
 - A volte riceviamo donazioni una tantum da privati.
 Ad esempio, nel 2021 un generoso individuo ci ha trasferito in banca 4K EUR

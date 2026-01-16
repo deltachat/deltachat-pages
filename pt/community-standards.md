@@ -15,49 +15,48 @@ Exemplos de comportamento que pedimos a todos que evitem incluem:
 
 * O uso de linguagem ou imagens sexualizadas e atenção ou avanços sexuais indesejados  * Trollagem, comentários insultantes/derrogatórios e ataques pessoais ou políticos  * Assédio público ou privado  * Publicação de informações privadas de outras pessoas, como endereço físico ou eletrônico, sem permissão explícita. 
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behaviour. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Reconhecemos que, às vezes, as pessoas podem ter um dia ruim ou podem não estar cientes do impacto de seu comportamento. Quando isso acontecer, você pode avisar a elas cuidadosamente
+em público ou em particular, o que for mais apropriado. Presuma a boa-fé;
+é mais provável que os participantes não estejam cientes de seu comportamento do que estejam intencionalmente
+tentando denegrir os outros ou reduzir a qualidade da discussão.
 
 
-## Maintainers and Responsibilities
+## Mantenedores e Responsabilidades
 
-Project maintainers are those with commit rights to Delta Chat repositories or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to our standards.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Os mantenedores do projeto são aqueles com direitos de commit nos repositórios Delta Chat ou direitos administrativos nos canais de comunicação da comunidade.
+Cada mantenedor deve assumir a responsabilidade e a ação apropriada e cuidadosa
+em resposta a casos testemunhados de comportamento questionável.
+Os mantenedores do projeto têm o direito e a responsabilidade de remover, editar ou
+rejeitar comentários, commits, códigos, edições na wiki, issues e outras contribuições
+que não estejam alinhadas aos nossos padrões.
+Eles também podem banir temporária ou permanentemente um colaborador por
+outros comportamentos considerados inadequados, ameaçadores, ofensivos ou prejudiciais.
 
-## Scope
+## Escopo
 
-Our Community Standards apply both within project communication channels and
-gatherings as well as in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an
-representative at an online or offline event.
+Nossas Normas da Comunidade se aplicam tanto aos canais de comunicação e 
+reuniões do projeto, bem como em espaços públicos
+quando um indivíduo estiver representando o projeto ou sua comunidade. Exemplos de
+representação de projeto ou comunidade incluem o uso de um endereço de e-mail oficial do projeto,
+publicação em uma conta oficial de rede social ou atuação como
+representante em um evento on-line ou off-line.
 
-## Reporting and Responses
+## Denúncias e Respostas
 
-If you experience or witness abusive, harassing, or otherwise unacceptable behavior
-you can talk to select project maintainers, currently [Nami](mailto:missytake@systemli.org) and [Xenia](mailto:ksenia@transcyberian.org).
-They will review reports and involve other maintainers as appropriate,
-and will respond in a way that is deemed necessary and appropriate
-to the circumstances, but not against your will.
+Se você presenciar ou testemunhar abuso, assédio ou qualquer outro comportamento inaceitável,
+você poderá falar com os mantenedores selecionados do projeto, atualmente [Nami](mailto:missytake@systemli.org) e [Xenia](mailto:ksenia@transcyberian.org).
+Eles analisarão as denúncias e envolverão outros mantenedores, conforme apropriado,
+e responderão da maneira que for considerada necessária e apropriada
+às circunstâncias, mas não o farão contra sua vontade.
 
-Maintainers are obligated to maintain confidentiality
-with regard to the reporter of an incident.
-Maintainers are themselves not exempt from being reported about
-and may face temporary or permanent repercussions
-as determined by other maintainers.
+Os mantenedores são obrigados a manter a confidencialidade
+com relação ao relator de um incidente.
+Os mantenedores não estão isentos de serem denunciados
+e podem sofrer repercussões temporárias ou permanentes
+conforme determinado por outros mantenedores.
 
 
-## Attribution
+## Atribuição
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>
+Nosso documento das Normas da Comunidade é adaptado do [Código de Conduta de Colaboração](https://contributor-covenant.org), versão 1.4,
+disponível em <https://contributor-covenant.org/version/1/4>

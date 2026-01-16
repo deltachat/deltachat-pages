@@ -20,7 +20,11 @@ Para as interações da comunidade em torno do Delta Chat, leia as nossas [Norma
 
 # Traduções e Relatórios de Bug
 
-- [Traduções no Transifex](https://explore.transifex.com/delta-chat/)- [Issues do Delta Chat no Android](https://github.com/deltachat/deltachat-android/issues)- [Issues do Delta Chat no desktop](https://github.com/deltachat/deltachat-desktop/issues)- [Issues do Delta Chat no iOS](https://github.com/deltachat/deltachat-ios/issues)- [Issues da Biblioteca Principal Rust + Bindings Python](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traduções no Transifex](https://explore.transifex.com/delta-chat/) 
+- [Issues do Delta Chat no Android](https://github.com/deltachat/deltachat-android/issues)
+- [Issues do Delta Chat no desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Issues do Delta Chat no iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Issues da Biblioteca Principal Rust + Bindings Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Estamos sempre procurando desenvolvedores e designers.  Normalmente, oferecemos empregos ou contratos de 20-30 horas por semana (se localizado na Alemanha).  Por favor, não hesite em entrar em contato (delta arroba merlinux eu)  se estiver interessado em ajudar em nossos esforços!
 
