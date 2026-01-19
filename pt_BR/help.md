@@ -140,163 +140,162 @@ Use essas ferramentas para organizar seus chats e manter tudo em seu devido luga
 Para usar as funções, toque e segure ou clique com o botão direito do mouse em um conversa na lista de conversas.
 
 
-### How do "Saved Messages" work? {#save}
+### Como funcionam as "Mensagens salvas"? {#save}
 
-**Saved Messages** is a chat that you can use to easily remember and find messages.
+**Mensagens Salvas** é um chat que você pode usar para lembrar e localizar facilmente as mensagens.
 
-- In any chat, long tap or right click a message and select **Save**
+- Em qualquer chat, dê um toque longo ou clique com o botão direito do mouse em uma mensagem e selecione **Salvar**
 
-- Saved messages are marked by the symbol
-  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
-  next to the timestamp
+- As mensagens salvas são marcadas com o símbolo
+ <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
+  ao lado do registro de data e hora
 
-- Later, open the "Saved Messages" chat - and you will see the saved messages there.
-  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
-  you can go back to the original message in the original chat
+- Depois, abra o chat de "Mensagens salvas" - e você verá as mensagens salvas lá.
+  Ao tocar em <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+  você pode voltar para a mensagem original no chat original
 
-- Finally, you can also use "Saved Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Por fim, você também pode usar "Mensagens Salvas" para fazer **notas pessoais** - abra o chat, digite algo, adicione uma foto ou uma mensagem de voz etc.
 
-- As "Saved Message" are synced, they can become very handy for transferring data between devices
+- Como as "Mensagens salvas" são sincronizadas, elas podem se tornar muito úteis para a transferência de dados entre dispositivos
 
-Messages stay saved even if they are edited or deleted -
-may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
-
-
-### What does the green dot mean?
-
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen by you** in the last 10 minutes,
-e.g. because they messaged you or sent a read receipt.
-
-So this is not a real time online status
-and others will as well not always see that you are "online".
+As mensagens permanecem salvas mesmo que sejam editadas ou excluídas -
+seja pelo [remetente](#edit), por [limpeza do dispositivo](#delold) ou por [mensagens temporárias de outros chats](#ephemeralmsgs).
 
 
-### O que significam os carrapatos mostrados ao lado das mensagens de saída?
+### O que significa o ponto verde?
 
-- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  means that the message was sent successfully to the [relay](#relays).
+Às vezes, você pode ver um **ponto verde** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+ao lado do avatar de um contato.
+Isso significa que ele foi **visto recentemente por você** nos últimos 10 minutos,
+por exemplo, porque ele enviou uma mensagem para você ou uma confirmação de leitura.
 
-- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  indicate your contact has read the message.
-
-In [groups](#groups) the second tick means that at least one member has reported back having read the message.
-
-You will only get the second tick if both you and one of the recipients who read the message
-has **Settings → Chats → Read Receipts** enabled.
+Portanto, essa não é uma checagem de status on-line em tempo real
+e outras pessoas também nem sempre verão que você está "on-line".
 
 
-### Correct typos and delete messages after sending {#edit}
+### O que significam os tiques mostrados ao lado das mensagens de saída?
 
-- You can edit the text of your messages after sending.
-  For that, long tap or right click the message and select **Edit**
-  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+- **Um tique** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  significa que a mensagem foi enviada com sucesso para o [servidor](#relays).
 
-- If you have sent a message accidentally,
-  from the same menu, select **Delete** and then **Delete for Everyone**.
+- **Dois ticks** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+  indicam que seu contato leu a mensagem.
 
-While edited messages will have the word "Edited" next to the timestamp,
-deleted messages will be removed without a marker in the chat.
-Notifications are not sent and there is no time limit.
+Em [grupos](#groups), o segundo tique significa que pelo menos um membro leu a mensagem.
 
-Note, that the original message may still be received by chat members
-who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+Você só receberá o segundo tique se tanto você quanto um dos destinatários que leu a mensagem
+tiverem **Configurações → Conversas → Confirmação de leitura** ativada.
 
 
-### How do disappearing messages work? {#ephemeralmsgs}
+### Corrigir erros de digitação e excluir mensagens após o envio {#edit}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 5 minutes and 1 year.
+- Você pode editar o texto de suas mensagens após o envio.
+  Para isso, toque longamente ou clique com o botão direito do mouse na mensagem e selecione **Editar Mensagem**
+  ou <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted both,
-on the servers,
-and in the apps itself.
+- Se você tiver enviado uma mensagem acidentalmente,
+  no mesmo menu, selecione **Apagar** e, em seguida, **Apagar para Toda a Gente**.
 
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can take photos,
-or otherwise save, copy or forward messages before deletion.
+Enquanto as mensagens editadas terão a palavra "Editado" ao lado do registro de data e hora,
+as mensagens excluídas serão removidas sem um marcador no chat.
+Não são enviadas notificações e não há limite de tempo.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the (anyway encrypted) messages may take longer to get deleted from their server.
+Observe que a mensagem original ainda pode ser recebida pelos membros do conversa 
+que podem ter respondido, encaminhado, salvo, capturado a tela ou copiado a mensagem antes da alteração dela.
 
 
-### What happens if I turn on "Delete Messages from Device"? {#delold}
+### Como funcionam as mensagens efêmeras? {#ephemeralmsgs}
 
-If you want to save storage on your device, you can choose to delete old
-messages automatically.
+Você pode ativar a opção "mensagens temporárias"
+nas configurações de um conversa,
+no canto superior direito da janela conversa,
+selecionando um intervalo de tempo
+entre 5 minutos e 1 ano.
 
-To turn it on, go to **Settings → Chats → Delete Message from Device**.
-You can set a timeframe between "after an hour" and "after a year";
-this way, *all* messages will be deleted from your device as soon as they are
-older than that.
+Até que a configuração seja desativada novamente,
+o aplicativo Delta Chat de cada membro da conversa se encarrega de
+de excluir as mensagens
+após o período de tempo selecionado.
+O intervalo de tempo começa
+quando o destinatário vê a mensagem pela primeira vez no Delta Chat.
+As mensagens são excluídas tanto
+nos servidores
+como nos próprios aplicativos.
+
+Observe que você pode confiar no desaparecimento das mensagens
+somente se você confiar em seus parceiros de conversa;
+parceiros mal-intencionados de conversa podem tirar fotos,
+ou salvar, copiar ou encaminhar mensagens antes de excluí-las.
+
+Além disso,
+se um parceiro de conversa desinstalar o Delta Chat,
+as mensagens (criptografadas) podem demorar mais para serem excluídas do servidor deles.
 
 
-### How can I delete my chat profile? {#remove-account} 
+### O que acontece se eu ativar a opção "Apagar mensagens do dispositivo"? {#delold}
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+Se quiser economizar espaço de armazenamento no dispositivo, você pode optar por excluir mensagens antigas automaticamente.
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+Para ativá-la, vá para **Configurações → Conversas → Apagar mensagens do dispositivo**.
+Você pode definir um período de tempo entre "após uma hora" e "após um ano";
+Dessa forma, *todas* as mensagens serão excluídas de seu dispositivo assim que forem
+mais antigas do que isso.
 
 
-## Groups {#groups}
+### Como posso excluir minha conta? {#remove-account} 
 
-Groups let several people chat together privately with **equal rights**.
+Se estiver usando mais de uma conta,
+você pode removê-las individualmente no menu superior de mudar de conta (no Android e no iOS),
+ou na barra lateral com um clique no botão direito do mouse (no aplicativo para desktop).
+As contas são removidas somente no dispositivo em que a exclusão foi acionada. 
+Contas em outros dispositivos continuarão funcionando plenamente. 
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+Se você usar uma conta única padrão, poderá simplesmente desinstalar o aplicativo.
+Isso ainda acionará automaticamente a exclusão de todos os dados de endereço associados no servidor de chatmail.
+Para obter mais informações, consulte [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
+ou a respectiva página do [servidor de chatmail de terceiros](https://chatmail.at/relays) que você escolheu.
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+
+## Grupos {#grupos}
+
+Os grupos permitem que várias pessoas conversem em particular com **direitos iguais**.
+
+Qualquer pessoa pode
+alterar o nome do grupo ou o avatar,
+[adicionar ou remover membros](#addmembers),
+definir [mensagens temporárias](#ephemeralmsgs),
+e [excluir suas próprias mensagens](#edit) dos dispositivos de todos os membros.
+
+Como todos os membros têm os mesmos direitos, os grupos funcionam melhor entre **amigos e familiares de confiança**.
 
 
 ### Criação de um grupo
 
-- Selecione **Nova Conversa** e em seguida **Novo Grupo** no menu que fica na parte de cima da tela, no canto direito, ou clique no botão correspondente no ANdroid/iOS.
+- Selecione **Nova Conversa** e em seguida **Novo Grupo** no menu que fica na parte de cima da tela, no canto direito, ou clique no botão correspondente no Android/iOS.
 
-- Na tela seguinte, selecione **os membros do grupo** e defina o **nome do grupo**. Você também pode selecionar o **avatar do grupo** (uma imagem).
+- Na tela seguinte, selecione **os membros do grupo** e defina o **nome do grupo**. Você também pode selecionar o **avatar do grupo**.
 
-- Logo após você escrever a **primeira mensagem**, todas as pessoas do grupo serão informadas sobre o novo grupo e poderão responder no grupo (a não que você escreva uma mensagem ali, o grupo estará invisível para os membros).
+- Logo após você escrever a **primeira mensagem**, todas as pessoas do grupo serão informadas sobre o novo grupo e poderão responder no grupo (a não ser que você escreva uma mensagem, o grupo estará invisível para os membros).
 
 
-### Add and remove members {#addmembers}
+### Adicionar e remover membros {#addmembers}
 
-All group members have the **same rights**.
-For this reason, everyone can delete any member or add new ones.
+Todos os membros do grupo têm os **mesmos direitos**.
+Por este motivo, todos podem remover qualquer membro ou adicionar novos membros.
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- Para **adicionar ou remover membros**, toque no nome do grupo dentro do chat e selecione o membro a adicionar ou a remover.
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- Se o membro ainda não estiver na sua lista de contactos, mas estiver **cara a cara** com você,
+  na mesma tela, moste um **QR code**.  
+  Peça ao seu parceiro de conversa para **escanear** o QR code com o Delta Chat dele, tocando em
+  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> na tela inicial.
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- Para adicionar um membro **remotamente**,
+  clique em "Copiar" ou "Compartilhar" e envie o link do **convite**
+  por meio de outro mensageiro privado para o novo membro.
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+O QR code e o link de convite podem ser usados para adicionar vários membros.
+No entanto, como os grupos são [destinados a pessoas de confiança](#grupos), evite compartilhá-los publicamente.
 
 
 ### Deletei minha própria conta por acidente.
@@ -311,37 +310,37 @@ Se você quiser entrar mais tarde no grupo novamente, peça a outra pessoa do gr
 
 Uma alternativa é "silenciar" um grupo. Fazendo isso, você receberá todas as mensagens e ainda poderá escrever, mas não será receberá mais notificações d enovas mensagens.
 
-### Cloning a group
+### Clonagem de grupos
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+Você pode duplicar um grupo para iniciar uma discussão separada
+ou para excluir membros sem que eles percebam.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Abra o perfil do grupo e toque em **Clonar conversa** (Android/iOS),
+ ou clique com o botão direito do mouse no grupo na lista de conversa (desktop).
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- Defina um novo nome, escolha um avatar e ajuste a lista de membros, se necessário.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
-
-
-### How many members can participate in a single group?
-
-There is no strict technical limit,
-but more than 150 is not recommended.
-
-As groups get larger, they can become socially unstable and may need a hierarchy -
-where Delta Chat is a private messenger for chatting with [equal rights](#groups).
-See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
+O novo grupo é **totalmente independente** do original,
+que continua funcionando como antes.
 
 
-## In-chat apps {#webxdc}
+### Quantos membros podem participar em um único grupo?
 
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
+Não há um limite técnico rigoroso,
+mas não é recomendável mais de 150.
+
+À medida que os grupos se tornam maiores, eles podem se tornar socialmente instáveis e podem precisar de uma hierarquia -
+mas o Delta Chat é um mensageiro privado para conversar com [direitos iguais](#grupos).
+Consulte o [Número de Dunbar](https://pt.wikipedia.org/wiki/N%C3%BAmero_de_Dunbar) para obter mais informações.
 
 
-### Where can I get in-chat apps?
+## Aplicativos embutidos {#webxdc}
+
+Você pode enviar aplicativos para um chat - jogos, editores, enquetes e outras ferramentas.
+Isso torna o Delta Chat um mensageiro realmente extensível.
+
+
+### Onde posso obter aplicativos embutidos?
 
 - In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
 
