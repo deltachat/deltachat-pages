@@ -107,12 +107,19 @@ Only the bare data needed to fulfil the user request of login are stored,
 encryption takes place as well as local sandboxing,
 see 2.3 for further details.
 
-#### 2.2 Heartbeat push notification
+#### 2.2 Push notifications
 
-Push notifications can be sent to the user's phone at regular intervals to enable receipt of messages while the Delta Chat app is not currently active. Current messages can then be retrieved on the end device. The token is only created if the user wants reliable receipt of messages even when the app is not active. 
+Push notifications can be sent when a user received a message via a chatmail relay, or at regular intervals, to wake up the user's phone while the Delta Chat app is not currently active, which enables it to receive messages. Current messages can then be retrieved on the end device. The token is only created if the user wants reliable receipt of messages even when the app is not active.
 
-In order to use push notifications, a unique identifier or token (Push Notification Token) is created after the app is downloaded and installed. This token allows Delta Chat servers to send notifications to the user's device. The token is generated and provided by the provider. The token is then stored on our systems and sent to the device at regular intervals to cause the app to retrieve new messages from the e-mail provider. Our systems have no knowledge of whether a message arrives or who may have sent a message.
+In order to use push notifications, a unique identifier or token (Push Notification Token) is created after the app is downloaded and installed. This token allows Delta Chat servers to send notifications to the user's device. The token is generated and provided by the provider, depending on the user's Operating System.
 
+- For chatmail relay users it is encrypted and uploaded to the chatmail relay, which sends the encrypted token to our systems. Without storing it, we decrypt the token and forward it to the Push Notification Provider which generated it, to wake up the user's phone.
+- For iOS users which do not use chatmail relays, the token is stored directly on our systems and sent to the Push Notification Provider at regular intervals, to cause the app to retrieve new messages from the e-mail provider.
+
+In both cases, our systems have no knowledge of whether a message arrives or who may have sent a message.
+The chatmail relays do not see the unencrypted token and can therefore not identify users based on it.
+
+- Push Notification Provider for Android systems are the Google Services. If push notifications are enabled, the Firebase Cloud Messaging Service (Android version) is used to provided this feature. For more information, please visit <https://firebase.google.com/docs/cloud-messaging/>. You can find the privacy policy under <https://policies.google.com/privacy>.
 - Push Notification Provider for iOS systems are the Apple Services. If push notifications are enabled, the Apple Push Notification Service (iOS version) is used to provide this feature. For more information, please visit [https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web](https://support.apple.com/en-au/guide/deployment-reference-ios/ior9d28751c0/web). You can find the privacy policy under [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).  
 
 The aforementioned data will only be processed with your consent, in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
@@ -143,6 +150,10 @@ Within the app, you can enter, manage, and edit various information, tasks, and 
         <tr>
             <td>Internet access</td>
             <td>This is needed to send the messages to the communication partner. </td>
+        </tr>
+        <tr>
+            <td>Local network access</td>
+            <td>This is used to establish serverless p2p connections in webxdc realtime channels and while adding second devices. </td>
         </tr>
         <tr>
             <td>Camera access</td>
