@@ -580,25 +580,25 @@ für die [Chatmail-Clients](https://chatmail.at/clients) umfasst, von denen Delt
 
 ### Was ist "Statistik an Delta Chat Entwickler senden"? {#statssending}
 
-We would like to improve Delta Chat with your help,
-which is why Delta Chat for Android asks whether you want
-to send anonymous usage statistics.
+Wir möchten Delta Chat mit deiner Hilfe verbessern.
+Deshalb fragt Delta Chat für Android, ob du
+anonyme Nutzungsstatistiken senden möchtest.
 
-You can turn it on and off at
-**Settings → Advanced → Send statistics to Delta Chat's developers**.
+Du kannst dies unter
+**Einstellungen → Erweitert → Statistik an Delta Chat Entwickler senden** ein- und ausschalten.
 
-When you turn it on,
-weekly statistics will be automatically sent to a bot.
+Wenn eingeschaltet,
+werden wöchentlich Statistiken automatisch an einen Bot gesendet.
 
-We are interested e.g. in statistics like:
+Wir sind beispielsweise an folgenden Statistiken interessiert:
 
-- How many contacts are introduced by personally scanning a QR code?
+- Wie viele Kontakte werden durch das persönliche Scannen eines QR-Codes hergestellt?
 
-- Which versions of Delta Chat are being used?
+- Welche Versionen von Delta Chat werden verwendet?
 
-- What errors occur for users?
+- Welche Fehler treten bei Benutzern auf?
 
-We will _not_ collect any personally identifiable information about you.
+Wir werden _keinerlei_ personenbezogene Daten über dich sammeln.
 
 
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
@@ -740,26 +740,26 @@ Anders als die meisten anderen Messenger
 speichern Delta-Chat-Apps keine Metadaten über Kontakte oder Gruppen auf Servern. Auch nicht in verschlüsselter Form. 
 Stattdessen werden alle Gruppen-Metadaten durchgängig verschlüsselt und ausschließlich auf den Endgeräten der Nutzer gespeichert. 
 
-Servers can therefore only see:
+Server können daher nur das folgende sehen:
 
-- the sender and receiver addresses
-- and the message size.
+- die Absender- und Empfängeradressen
+- und die Größe der Nachricht.
 
-By default, the addresses are randomly generated.
+Standardmäßig werden die Adressen zufällig generiert.
 
 Alle anderen Metadaten zu Nachrichten, Kontakten und Gruppen befinden sich im Ende-zu-Ende-verschlüsselten Teil der Nachrichten. 
 
 ### Wie schützt man Metadaten und Kontakte, wenn ein Gerät beschlagnahmt wird? {#device-seizure}
 
-Both for protecting against metadata-collecting servers 
-as well as against the threat of device seizure
-we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create chat profiles using random addresses for transport. 
-Note that Delta Chat apps on all platforms support multiple profiles
-so you can easily use situation-specific profiles next to your "main" profile
-with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then chat contacts using short-lived profiles
-can not be identified easily. 
+Sowohl zum Schutz vor Servern, die Metadaten sammeln, 
+als auch als Schutz bei Beschlagnahmung von Geräten
+empfehlen wir die Verwendung eines [Chatmail-Relays](https://chatmail.at/relays),
+um Chat-Profile mit zufälligen Adressen für den Transport zu erstellen. 
+Beachte, dass Delta-Chat-Apps mehrere Profile unterstützen,
+sodass du neben deinem „Hauptprofil” ganz einfach situationsspezifische Profile verwenden kannst,
+mit der Gewissheit, dass alle Daten sowie alle Metadaten gelöscht werden.
+Darüber hinaus können Chat-Kontakte, die kurzlebige Profile verwenden,
+im Falle einer Beschlagnahmung des Geräts nicht ohne Weiteres identifiziert werden. 
 
 
 ### Wer sieht meine IP-Adresse?
@@ -792,31 +792,29 @@ um seine Serverinfrastruktur darüber im Unklaren zu lassen, wer eine Nachricht 
 Dies ist besonders wichtig, weil der Signal-Server die Handynummer jedes Kontos kennt,
 die in der Regel mit einer Passidentität verbunden ist.
 
-Even if [chatmail relays](https://chatmail.at/relays) 
-do not ask for any private data (including no phone numbers), 
-it might still be worthwhile to protect relational metadata between addresses. 
-We don't foresee bigger problems in using random throw-away addresses for sealed sending
-but an implementation has not been agreed as a priority yet. 
+Auch wenn [Chatmail-Relays](https://chatmail.at/relays) 
+keine privaten Daten (einschließlich Telefonnummern) abfragen, 
+könnte es dennoch sinnvoll sein, Metadaten zwischen Adressen zu schützen. 
+Wir sehen keine größeren Probleme bei der Verwendung von zufälligen Wegwerfadressen für aber eine Umsetzung wurde noch nicht als priorisiert. 
 
 ### Unterstützt Delta Chat "Perfect Forward Secrecy"? {#pfs}
 
 Nein, noch nicht.
 
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
-Note that Forward Secrecy only increases security if you delete messages. 
-Otherwise, someone obtaining your decryption keys
-is typically also able to get all your non-deleted messages
-and doesn't even need to decrypt any previously collected messages. 
+Delta Chat unterstützt derzeit keine Perfect Forward Secrecy (PFS).
+Das bedeutet, dass, wenn Ihr privater Schlüssel offengelegt wird
+und jemand Ihre früheren Nachrichten während der Übertragung gesammelt hat,
+diese mit dem offengelegten Schlüssel entschlüsselt und gelesen werden können.
+Beachten Sie, dass Forward Secrecy die Sicherheit nur erhöht, wenn du Nachrichten löschst. 
+Andernfalls kann jemand, der deinen Schlüssel erhält,
+in der Regel auch alle deine nicht gelöschten Nachrichten abrufen
+und muss zuvor gesammelte Nachrichten nicht einmal entschlüsseln. 
 
-We designed a Forward Secrecy approach that withstood 
-initial examination from some cryptographers and implementation experts 
-but is pending a more formal write up 
-to ascertain it reliably works in federated messaging and with multi-device usage,
-before it could be implemented in [chatmail core](https://github.com/chatmail/core),
-which would make it available in all [chatmail clients](https://chatmail.at/clients). 
+Wir haben einen Forward-Secrecy-Ansatz entwickelt, der 
+einer ersten Prüfung durch Kryptographen und Implementierungsexperten standgehalten hat. Eine formellere Beschreibung steht noch aus,
+um sicherzustellen, dass er zuverlässig in föderierten Nachrichten und bei der Nutzung mehrerer Geräte funktioniert,
+bevor er in [chatmail core](https://github.com/chatmail/core) implementiert werden kann,
+wodurch er in allen [chatmail-Clients](https://chatmail.at/clients) verfügbar ist. 
 
 ### Unterstützt Delta Chat Post-Quantum-Verschlüsselung? {#pqc}
 
@@ -838,12 +836,11 @@ ist die Verbindung sicher.
 
 Nein.
 
-Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
-We do not recommend or offer users to perform manual key management.
-We want to ensure that security audits can focus on a few proven cryptographic algorithms
-instead of the full breadth of possible algorithms allowed with OpenPGP.
-If you want to extract your OpenPGP key, there only is an expert method:
-you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
+Delta Chat generiert sichere OpenPGP-Schlüssel gemäß der Autocrypt-Spezifikation 1.1.
+Wir bieten Benutzern keine manuelle Schlüsselverwaltung an, noch empfehlen diese.
+Wir wollen sicherstellen, dass sich Sicherheitsüberprüfungen auf einige wenige bewährte kryptografische Algorithmen konzentrieren können,
+anstatt auf die gesamte Bandbreite der mit OpenPGP zulässigen Algorithmen.
+Wenn Sie Ihren OpenPGP-Schlüssel extrahieren möchten, gibt es nur eine Methode für Experten: Sie müssen ihn in der SQLite-Tabelle „keypairs” des Backups nachschlagen.
 
 
 ### Wurde Delta Chat unabhängig auf Sicherheitslücken geprüft? {#security-audits}
