@@ -47,7 +47,7 @@ If so, you should switch to a dedicated chat profile as follows:
 
 2. Tap **Add Relay**
 
-3. Go to https://chatmail.at/relays, and select one of the relays shown there
+3. Go to <https://chatmail.at/relays>, and select one of the relays shown there
 
 4. **Scan the QR code** shown on the relay's website
 
