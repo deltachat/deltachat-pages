@@ -47,12 +47,14 @@ If so, you should switch to a dedicated chat profile as follows:
 
 2. Tap **Add Relay**
 
-3. **Scan the QR code** shown on <https://nine.testrun.org>
+3. Go to https://chatmail.at/relays, and select one of the relays shown there
 
-    - **If you cannot scan,** right click or long tap [here](dcaccount:https://nine.testrun.org/new),
+4. **Scan the QR code** shown on the relay's website
+
+    - **If you cannot scan,** right click or long tap the QR code,
       select "Copy Link" and paste that to the scanner window
 
-4. Tab the newly added relay so that it becomes **Default**
+5. Tab the newly added relay so that it becomes **Default**
 
 Then, continue chatting, **your contacts will learn the new relay** over time -
 until then, you are still reachable on the old email
