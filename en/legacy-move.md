@@ -67,7 +67,7 @@ which will then stop cluttering your classic Inbox with encrypted messages
 
 We want Delta Chat users to have a easy, reliable and secure messenger experience.
 
-Sharing email addresses with classic email apps was the default in the early years,
+Using the same email addresses in Delta Chat and in classic email apps was the default in the early years,
 however, turned out to stand in the way of these goals.
 E.g. notifications could not be made reliable, onboarding was complex,
 encrypted messages are annoying in the inbox - and plaintext are not what we want to have in Delta Chat by default.
@@ -76,12 +76,12 @@ Also, while we keep on using email technically,
 this is nothing the average user should care about -
 similar to other messenger using https under the hood.
 
-Therefore, by default, user get a dedicated profile since quite some time
+Therefore, by default, user get a dedicated, exclusive profile since quite some time
 and there is no need to enter an email address - let alone a phone number.
 
 **Since then, the onboarding is one of the easiest around - you only need to enter a name 🎉**
 
-Finally removing the legacy "Shared Profile" options is the next logical step -
+Finally removing the legacy options is the next logical step -
 it makes the app clearer and easier to support,
 freeing up developer mind space to to much more impactful things -
 as multi relay, channels and calls.
