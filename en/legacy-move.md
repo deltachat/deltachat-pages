@@ -84,5 +84,5 @@ and there is no need to enter an email address - let alone a phone number.
 Finally removing the legacy "Shared Profile" options is the next logical step -
 it makes the app clearer and easier to support,
 freeing up developer mind space to to much more impactful things -
-as multi relay, channels calls.
+as multi relay, channels and calls.
 And, of course fixing bugs, making Delta Chat a truely stable experience
