@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Delta Chat @ FOSDEM 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* CSS Variables from the Congress style */
+    :root {
+      --color-dark: #141414;
+      --color-neutral: #faf5f5;
+      --color-primary: #00ff00;
+      --color-secondary: #9673ff;
+      --color-additional-01: #ff3719;
+      --color-additional-02: #66f2ff;
+    }
+
+    body {
+      font-family: 'OfficerSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.4em;
+      color: var(--color-neutral);
+      background-color: var(--color-dark);
+      padding-inline: 0.4em;
+      padding-bottom: 0.4em;
+      margin: 0;
+    }
+
+    #content {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+    }
+
+    .logo-main {
+      height: 60px;
+      width: 60px;
+      padding-right: 1.2em;
+      object-fit: contain;
+    }
+
+    /* Specific style for Chatmail logo with white circle */
+    .logo-chatmail {
+      background: white;
+      border-radius: 50%;
+      padding: 5px;
+      height: 50px;
+      width: 50px;
+      margin-right: 1.2em;
+      object-fit: contain;
+      border: 2px solid white;
+    }
+
+    .logo-autocrypt {
+      height: 40px;
+      float: right;
+      margin-left: 15px;
+      background: white;
+      padding: 4px;
+      border-radius: 4px;
+    }
+
+    h1,
+    h2 {
+      font-family: 'KarioDuplexVar', sans-serif;
+      line-height: 1.4;
+      color: var(--color-secondary);
+      margin-top: 1.5em;
+    }
+
+    h3 {
+      color: var(--color-primary);
+      margin-top: 1.2em;
+    }
+
+    a {
+      color: var(--color-primary);
+      text-decoration: underline;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+    .intro-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1em;
+      background: rgba(150, 115, 255, 0.05);
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid rgba(150, 115, 255, 0.2);
+    }
+
+    .event {
+      border-radius: 4px;
+      background-color: rgba(141, 141, 255, 0.15);
+      padding: 15px 20px;
+      margin-block: 12px;
+      overflow: hidden;
+    }
+
+    .event h4 {
+      color: var(--color-primary);
+      line-height: 1.2rem;
+      margin: 0 0 10px 0;
+      font-size: 1.2rem;
+    }
+
+    .event-time {
+      font-weight: bold;
+      font-size: 0.95rem;
+      margin-bottom: 8px;
+      color: var(--color-additional-02);
+    }
+
+    .interaction-links {
+      margin-top: 15px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 0.85rem;
+    }
+
+    .interaction-links a {
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .booth-info {
+      border: 2px solid var(--color-secondary);
+      background: rgba(150, 115, 255, 0.1);
+      padding: 15px;
+      border-radius: 5px;
+      margin-block: 20px;
+    }
+
+    ul {
+      padding-left: 1.2em;
+    }
+
+    li {
+      margin-bottom: 0.5em;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      border-top: 1px solid #333;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="content">
+    <h2>Delta Chat @ FOSDEM 2026</h2>
+
+    <!-- Meeting Point 1: Delta Chat -->
+    <div class="intro-container">
+      <img class="logo-main"
+        src="https://raw.githubusercontent.com/deltachat/deltachat-pages/main/assets/logos/delta-chat.svg"
+        alt="Delta Chat Logo">
+      <p>
+        <strong>Delta Chat</strong> is a secure and decentralized super app offering reliable instant messaging with
+        multi-profile and multi-device support.
+      </p>
+    </div>
+
+    <!-- Meeting Point 2: Chatmail -->
+    <div class="intro-container">
+      <img class="logo-chatmail" src="https://chatmail.at/assets/logos/chatmail.svg" alt="Chatmail Logo">
+      <p>
+        <strong>Chatmail</strong> provides replicable, fast, and secure infrastructure. It decouples identity from the
+        server, enabling decentralized messaging for everyone.
+      </p>
+    </div>
+
+    <!-- Meeting Point 3: Webxdc -->
+    <div class="intro-container">
+      <img class="logo-main"
+        src="https://raw.githubusercontent.com/deltachat/deltachat-pages/main/assets/logos/webxdc2.png" alt="webxdc">
+      <p>
+        <strong>Webxdc</strong> enables interactive chat-shared <a href="https://webxdc.org/apps">apps</a>, including
+        realtime Peer-to-Peer games and tools directly inside your chat.
+      </p>
+    </div>
+
+    <p>
+      🔒 Guaranteed End-to-End Encryption using <a
+        href="https://securejoin.delta.chat/en/latest/new.html">SecureJoin</a> and <a
+        href="https://autocrypt.org">Autocrypt</a> protocols, with <a
+        href="https://delta.chat/en/help#security-audits">many security audits</a>.
+    </p>
+
+    <h3 id="find-us">Find us on Saturday</h3>
+    <div class="booth-info" style="margin-top: 10px;">
+      <strong>⛺ Main Booth (AW1124-01):</strong> Building AW, Level 1. We are part of the Instant Messaging group. Visit
+      us for stickers and installation help!
+    </div>
+    <p>
+      Fediverse: <a href="https://chaos.social/@delta">https://chaos.social/@delta</a>
+    </p>
+
+    <h2 id="events">Events</h2>
+    <p>
+      Official list of talks and sessions. Follow us on Mastodon for live updates: <a
+        href="https://chaos.social/@delta">@delta</a>
+    </p>
+
+    <h3>🗓️ Day 1: Saturday, Jan 31</h3>
+    <div class="booth-info">
+      <strong>⛺ Booth AW1124-01:</strong> Building AW, Level 1<br>
+      <strong>Hours:</strong> 09:00 – 19:00
+    </div>
+
+    <article class="event">
+      <img class="logo-autocrypt"
+        src="https://codeberg.org/autocrypt2/autocrypt-v2-cert/raw/commit/97ae9bb2697e9c96e4b265fd1a6542f5ccaedbbe2d465ff7de068c655a4d7215/fosdem2026-talk-slides/img/autocrypt2-logo.png"
+        alt="Autocrypt 2 Logo">
+      <h4><a
+          href="https://fosdem.org/2026/schedule/event/TV7GCC-autocrypt_2_post-quantum-cryptography_and_reliable_deletion_forward-secrecy/">Autocrypt
+          2: Post-Quantum-Cryptography and Reliable Deletion ("Forward-Secrecy")</a></h4>
+      <div class="event-time">13:00 – 13:30 | Room K.4.201 | Modern Email</div>
+      <p>
+        Implementing a multi-device chat system that supports reliable deletion and forward secrecy. We'll present the
+        new "Autocrypt 2 certificate" draft designed to resist future Quantum computers.
+      </p>
+      <p><strong>Speaker:</strong> holger krekel</p>
+      <div class="interaction-links">
+        <a href="https://chat.fosdem.org/#/room/#2026-modern-email:fosdem.org">💬 Chat(web)</a>
+        <a href="https://matrix.to/#/#2026-modern-email:fosdem.org?web-instance[element.io]=chat.fosdem.org">📱
+          Chat(app)</a>
+        <a href="https://pretalx.fosdem.org/fosdem-2026/talk/TV7GCC/feedback/">📝 Feedback</a>
+      </div>
+    </article>
+
+    <h3>🗓️ Day 2: Sunday, Feb 1</h3>
+
+    <article class="event">
+      <h4><a href="https://fosdem.org/2026/schedule/event/3F9VTU-deltachat-chatmail-relays-multi-transport/">Multi-relay
+          chat messaging & cryptographic identities</a></h4>
+      <div class="event-time">16:30 – 16:55 | Room UD2.218A | Decentralized Internet</div>
+      <p>
+        Technical details of multi-relay messaging. Your identity remains on your device while the decentralized
+        chatmail relay network transmits messages seamlessly across transport layers.
+      </p>
+      <p><strong>Speaker:</strong> missytake</p>
+      <div class="interaction-links">
+        <a href="https://chat.fosdem.org/#/room/#2026-decentralized-internet-and-privacy:fosdem.org">💬 Chat(web)</a>
+        <a
+          href="https://matrix.to/#/#2026-decentralized-internet-and-privacy:fosdem.org?web-instance[element.io]=chat.fosdem.org">📱
+          Chat(app)</a>
+        <a href="https://pretalx.fosdem.org/fosdem-2026/talk/3F9VTU/feedback/">📝 Feedback</a>
+      </div>
+    </article>
+
+    <h2 id="more">More Links</h2>
+    <ul>
+      <li><a href="https://delta.chat">Official Website</a></li>
+      <li><a href="https://chatmail.at/doc/relay/">Chatmail Relay Documentation</a></li>
+      <li><a href="https://get.delta.chat">Download Delta Chat</a></li>
+      <li><a href="https://webxdc.org/apps/">Webxdc app list</a></li>
+    </ul>
+
+    <footer>
+      <p>Get in touch with us at our Saturday booth (AW1124-01) for stickers and tech discussion.</p>
+      <p>&copy; 2026 Delta Chat Project</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
