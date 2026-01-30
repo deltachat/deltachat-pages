@@ -5,6 +5,20 @@
   <meta charset="utf-8">
   <title>Delta Chat @ FOSDEM 2026</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Social Media Preview Meta Tags -->
+  <meta name="description" content="Visit Delta Chat at FOSDEM 2026! Meet us at booth AW1124-01, attend our talks on Autocrypt 2 and multi-relay messaging, and learn about secure decentralized chat.">
+  <meta property="og:title" content="Delta Chat @ FOSDEM 2026">
+  <meta property="og:description" content="Visit Delta Chat at FOSDEM 2026! Meet us at booth AW1124-01, attend our talks on Autocrypt 2 and multi-relay messaging, and learn about secure decentralized chat.">
+  <meta property="og:image" content="https://delta.chat/assets/home/intro1.png">
+  <meta property="og:url" content="https://delta.chat/fosdem26.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Delta Chat @ FOSDEM 2026">
+  <meta name="twitter:description" content="Visit Delta Chat at FOSDEM 2026! Meet us at booth AW1124-01, attend our talks on Autocrypt 2 and multi-relay messaging.">
+  <meta name="twitter:image" content="https://delta.chat/assets/home/intro1.png">
+  <meta name="fediverse:creator" content="@delta@chaos.social">
+  
   <style>
     /* CSS Variables from the Congress style */
     :root {
@@ -152,6 +166,38 @@
       font-size: 0.9rem;
       color: #888;
     }
+
+    .invite-button {
+      display: inline-block;
+      background: var(--color-primary);
+      color: var(--color-dark);
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 15px;
+      transition: opacity 0.2s;
+    }
+
+    .invite-button:hover {
+      opacity: 0.8;
+    }
+
+    .warning-box {
+      background: rgba(255, 55, 25, 0.15);
+      border: 2px solid var(--color-additional-01);
+      border-radius: 5px;
+      padding: 12px 15px;
+      margin-top: 15px;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .warning-box strong {
+      color: var(--color-additional-01);
+      display: block;
+      margin-bottom: 5px;
+    }
   </style>
 </head>
 
@@ -159,7 +205,14 @@
 
   <div id="content">
     <h2>Delta Chat @ FOSDEM 2026</h2>
-    <p>Follow us on Fediverse: <a href="https://chaos.social/@delta">https://chaos.social/@delta</a></p>
+    <p>
+      Follow us on Fediverse: <a href="https://chaos.social/@delta">https://chaos.social/@delta</a>
+      <a href="https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=Fosdem%202026&x=AjYC5YcO-x2Uioq9ZoNPFEUh&i=oKBUjU_D2vbpSg0VP9tA23gv&s=ZfUOyrKGon_ahzU32Cej0WWw" class="invite-button">Join Delta Chat Group</a>
+    </p>
+    <div class="warning-box">
+      <strong>⚠️ Attention:</strong>
+      Consider joining with a dedicated conference chat profile because large public groups can attract trolls. Your private profiles are safe/unaffected then.
+    </div>
 
     <!-- Combined intro box for Delta Chat ecosystem -->
     <div class="intro-container">
@@ -173,16 +226,13 @@
       </div>
       <div>
         <p style="margin-top: 0;">
-          <strong>Delta Chat</strong> is a secure and decentralized super app offering reliable instant messaging with
-          multi-profile and multi-device support.
+          <strong>Delta Chat</strong> is a secure decentralized messenger with multi-profile and multi-device support.
         </p>
         <p>
-          <strong>Chatmail</strong> provides replicable, fast, and secure infrastructure. It decouples identity from the
-          server, enabling decentralized messaging for everyone.
+          <strong>Chatmail</strong> provides fast, secure infrastructure that decouples identity from servers.
         </p>
         <p style="margin-bottom: 0;">
-          <strong>Webxdc</strong> enables interactive chat-shared <a href="https://webxdc.org/apps">apps</a>, including
-          realtime Peer-to-Peer games and tools directly inside your chat.
+          <strong>Webxdc</strong> enables interactive <a href="https://webxdc.org/apps">apps</a> and realtime P2P games directly in chat.
         </p>
       </div>
     </div>
