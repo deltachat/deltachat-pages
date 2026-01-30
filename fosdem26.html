@@ -183,6 +183,11 @@
       opacity: 0.8;
     }
 
+    .invite-button:focus {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
+
     .warning-box {
       background: rgba(255, 55, 25, 0.15);
       border: 2px solid var(--color-additional-01);
@@ -209,7 +214,7 @@
       Follow us on Fediverse: <a href="https://chaos.social/@delta">https://chaos.social/@delta</a>
       <a href="https://i.delta.chat/#6CBFF8FFD505C0FDEA20A66674F2916EA8FBEE99&a=invitebot%40nine.testrun.org&g=Fosdem%202026&x=AjYC5YcO-x2Uioq9ZoNPFEUh&i=oKBUjU_D2vbpSg0VP9tA23gv&s=ZfUOyrKGon_ahzU32Cej0WWw" class="invite-button" aria-label="Join the FOSDEM 2026 Delta Chat Group">Join Delta Chat Group</a>
     </p>
-    <div class="warning-box">
+    <div class="warning-box" role="alert">
       <strong>⚠️ Attention:</strong>
       Consider joining with a dedicated conference chat profile because large public groups can attract trolls. Your other profiles will remain safe and unaffected.
     </div>
