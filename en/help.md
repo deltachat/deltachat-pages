@@ -887,25 +887,23 @@ it might still be worthwhile to protect relational metadata between addresses.
 We don't foresee bigger problems in using random throw-away addresses for sealed sending
 but an implementation has not been agreed as a priority yet. 
 
-### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
+### Does Delta Chat support Forward Secrecy/Reliable Deletion? {#pfs}
 
 No, not yet. 
+We aim to protect against store-now-decrypt-later-attacks
+by implementing the [Autocrypt v2](https://autocrypt2.org) specification
+for Reliable Deletion.
 
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your private decryption key is leaked,
+Reliable Deletion/Perfect Forward Secrecy
+protect against store-now-decrypt-later-attack:
+this means that if your private decryption key is leaked,
 and someone has collected your prior in-transit messages,
 they will be able to decrypt and read them using the leaked decryption key.
-Note that Forward Secrecy only increases security if you delete messages. 
+
+Note that Reliable Deletion/Perfect Forward Secrecy only increase security if you delete messages. 
 Otherwise, someone obtaining your decryption keys
 is typically also able to get all your non-deleted messages
 and doesn't even need to decrypt any previously collected messages. 
-
-We designed a Forward Secrecy approach that withstood 
-initial examination from some cryptographers and implementation experts 
-but is pending a more formal write up 
-to ascertain it reliably works in federated messaging and with multi-device usage,
-before it could be implemented in [chatmail core](https://github.com/chatmail/core),
-which would make it available in all [chatmail clients](https://chatmail.at/clients). 
 
 ### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
 
@@ -915,6 +913,46 @@ Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
 which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
 We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
 in collaboration with other OpenPGP implementers. 
+
+### Does Delta Chat support Plausible Deniability? {#deniability}
+
+No, [Plausible Deniability/Deniable Authentication](https://en.wikipedia.org/wiki/Deniable_encryption#Deniable_authentication) will not be supported.
+Instead, Delta Chat offers strong options to stay as anonymous as possible,
+and signs messages in a Non-Repudiable way:
+
+![A comic which compares Non-Repudiation, Deniability, and Anonymity](../assets/help/deniability.png)
+
+A [2023 study](https://www.usenix.org/system/files/usenixsecurity23-yadav.pdf) found out that
+- users do not understand how Plausible Deniability works,
+- courts do not accept it as proof that a message could have been forged, and
+- most users prefer and need Non-Repudiability rather than Deniability.
+
+In practice, this can lead to situations where
+- users believe that they can argue in court
+  that they did not send a message,
+  but the courts don't believe them, and situations where
+- users believe they can use messages as evidence in court
+  but courts don't accept the messages as evidence.
+
+Non-Repudiability is what users expect,
+and leads to better actual security outcomes.
+
+### Does Delta Chat support Post-Compromise Security?
+
+No, instead we recommend affected users to create a new profile.
+
+Post-Compromise-Security helps in cases where
+an attacker gained physical or electronical access to your private keys;
+after they lost access to your system,
+Post-Compromise Security denies them control of your cryptographic identity.
+
+Instead of relying on Post-Compromise Security,
+if you suspect an attacker had access to your app
+(e.g. during an arrest),
+you should take these steps:
+1. Create a new profile,
+2. ask friends to remove your old profile from groups, and
+3. let them add your new profile to the groups to continue chatting.
 
 ### How can I manually check encryption information?
 
