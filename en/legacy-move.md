@@ -9,7 +9,7 @@ lang: en
 > This page is a service for users still using legacy options.
 >
 > If you did not get a warning,
-> go for for something else, [maybe play a game inside Delta Chat](help#webxdc) :)
+> go for something else, [maybe play a game inside Delta Chat](help#webxdc) :)
 
 
 ### Required Steps
