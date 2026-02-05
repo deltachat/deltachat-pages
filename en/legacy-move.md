@@ -23,9 +23,7 @@ To see how the change affects you,
 
 1. Open Delta Chat, go to **Settings → Advanced**
 
-2. **Disable "Move automatically to DeltaChat Folder"**,  
-   **disable "Only fetch from DeltaChat Folder"** and  
-   **set "Show Classic Emails" to "All"**.
+2. **Disable "Move automatically to DeltaChat Folder"**
 
 If you do not do this explicitly today,
 this will happen implicitly the next weeks.
@@ -43,18 +41,23 @@ the encrypted messages in the Inbox may be annoying.
 
 If so, you should change the profile as follows:
 
-1. Open Delta Chat, go to **Settings → Advanced → Relays**
+1. Open Delta Chat, go to **Settings → Advanced**
 
-2. Tap **Add Relay**
+2. **Disable "Only fetch from DeltaChat Folder"** and  
+   **set "Show Classic Emails" to "All"**
 
-3. Go to <https://chatmail.at/relays>, and select one of the relays shown there
+3. Go to **Settings → Advanced → Relays**
 
-4. **Scan the QR code** shown on the relay's website
+4. Tap **Add Relay**
+
+5. Go to <https://chatmail.at/relays>, and select one of the relays shown there
+
+6. **Scan the QR code** shown on the relay's website
 
     - **If you cannot scan,** right click or long tap the QR code,
       select "Copy Link" and paste that to the scanner window
 
-5. Tab the newly added relay so that it becomes **Default**
+7. Tab the newly added relay so that it becomes **Default**
 
 Then, continue chatting, **your contacts will learn the new relay** over time -
 until then, you are still reachable on the old email
