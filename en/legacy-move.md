@@ -43,7 +43,7 @@ If so, you should change the profile as follows:
 
 1. Open Delta Chat, go to **Settings → Advanced**
 
-2. **Disable "Only fetch from DeltaChat Folder"** and  
+2. If not yet the case, **disable "Only fetch from DeltaChat Folder"** and  
    **set "Show Classic Emails" to "All"**
 
 3. Go to **Settings → Advanced → Relays**
