@@ -31,11 +31,11 @@ this will happen implicitly the next weeks.
 
 ### Optional Steps
 
-If you are using the email for chatting only,
+If you are using the email address for chatting only,
 and not using another email app for that address beside Delta Chat,
 the following steps are not needed.
 
-**Only if you share the same email** for chatting and classic usage,
+**Only if you share the same email address** for chatting and classic usage,
 which is discouraged since some time,
 the encrypted messages in the Inbox may be annoying.
 
@@ -55,10 +55,10 @@ If so, you should change the profile as follows:
 5. Tab the newly added relay so that it becomes **Default**
 
 Then, continue chatting, **your contacts will learn the new relay** over time -
-until then, you are still reachable on the old email
+until then, you are still reachable on the old email address.
 
-**Some weeks later,** you can remove the old email, 
-which will then stop cluttering your classic Inbox with encrypted messages
+**Some weeks later,** you can remove the old email address, 
+which will then stop cluttering your classic Inbox with encrypted messages.
 
 
 ## Background
