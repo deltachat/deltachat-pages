@@ -52,7 +52,7 @@ If so, you should change the profile as follows:
     - **If you cannot scan,** right click or long tap the QR code,
       select "Copy Link" and paste that to the scanner window
 
-5. Tab the newly added relay so that it becomes **Default**
+5. Tap the newly added relay so that it becomes **Default**
 
 Then, continue chatting, **your contacts will learn the new relay** over time -
 until then, you are still reachable on the old email address.
