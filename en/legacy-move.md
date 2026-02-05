@@ -41,7 +41,7 @@ the encrypted messages in the Inbox may be annoying.
 
 If so, you should change the profile as follows:
 
-1. Go to **Settings → Advanced → Relays**
+1. Open Delta Chat, go to **Settings → Advanced → Relays**
 
 2. Tap **Add Relay**
 
