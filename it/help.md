@@ -685,6 +685,9 @@ per fornire la crittografia end-to-end automatica utilizzando questi protocolli:
 - [Autocrypt](https://autocrypt.org) viene utilizzato per stabilire
   automaticamente la crittografia end-to-end tra i contatti e tutti i membri di una chat di gruppo.
 
+- [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
+  will bring post-quantum resistant encryption and forward secrecy. 
+
 - [Condivisione di un contatto con una
   chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
   consente ai destinatari di utilizzare la crittografia end-to-end con il contatto.
@@ -872,7 +875,7 @@ ma un'implementazione non è stata ancora concordata come priorità.
 
 ### Delta Chat supporta Perfect Forward Secrecy? {#pfs}
 
-No, non ancora.
+Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
 
 Delta Chat al momento non supporta la tecnologia Perfect Forward Secrecy (PFS).
 Ciò significa che se la tua chiave di decrittazione privata viene divulgata
@@ -883,21 +886,19 @@ In caso contrario, chi ottiene le tue chiavi di decrittazione
 in genere è in grado di ottenere anche tutti i tuoi messaggi non eliminati
 e non ha nemmeno bisogno di decifrare i messaggi raccolti in precedenza.
 
-Abbiamo progettato un approccio Forward Secrecy che ha superato
-l'esame iniziale di alcuni crittografi ed esperti di implementazione
-ma è in attesa di una stesura più formale
-per accertarne l'affidabilità nella messaggistica federata e nell'utilizzo su più dispositivi,
-prima di poter essere implementato in [chatmail core](https://github.com/chatmail/core),
-che lo renderebbe disponibile in tutti i [clients di chatmail](https://chatmail.at/clients).
+[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
+will provide reliable deletion (forward secrecy) through automatic key rotation.
+This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
 ### Delta Chat supporta la Crittografia Post-Quantistica? {#pqc}
 
-No, non ancora.
+Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
 
-Delta Chat utilizza la libreria Rust OpenPGP [rPGP](https://github.com/rpgp/rpgp)
-che supporta l'ultima [bozza IETF Post-Quantum-Cryptography OpenPGP](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
-Il nostro obiettivo è aggiungere il supporto PQC nel [core di chatmail](https://github.com/chatmail/core) dopo che la bozza sarà stata finalizzata dall'IETF
-in collaborazione con altri implementatori di OpenPGP.
+[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
+will bring post-quantum resistant encryption to protect against quantum computer attacks.
+Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
+which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
+The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
 ### Come posso controllare manualmente le informazioni di crittografia?
 
@@ -1018,28 +1019,28 @@ basato sugli sviluppi della comunità Free e Open-Source.
 Concretamente, lo sviluppo di Delta Chat è stato finora finanziato da queste fonti,
 ordinate cronologicamente:
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on
-  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
-  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
-  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
-  All of these projects are partially completed or to be completed in early 2025.
+- Nel 2023 e nel 2024 siamo stati accettati nel programma Next Generation Internet (NGI)
+  per il nostro lavoro in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  insieme ai partner di collaborazione che lavorano su 
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) e 
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+  Tutti questi progetti sono parzialmente completati o saranno completati all'inizio del 2025.
 
 - Nel 2021 abbiamo ricevuto ulteriori finanziamenti dall'UE per due proposte di Next-Generation-Internet, ovvero per [EPPD - directory di portabilità dei provider di posta elettronica](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97.000 EUR) e [AEAP - portabilità degli indirizzi email](https://nlnet.nl/project/EmailPorting/) (~90.000 EUR), che hanno portato a un migliore supporto multi-profilo, a un miglioramento delle impostazioni di contatto e di gruppo tramite codice QR e a numerosi miglioramenti di rete su tutte le piattaforme.
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system.
+- La [fondazione NLnet](https://nlnet.nl/) ha concesso nel 2019/2020 46.000 EUR per
+  completando i collegamenti Rust/Python e avviando un ecosistema Chat-bot.
 
-- The [Open Technology Fund](https://opentechfund.org) gave us a
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
-  and released a first Desktop app beta version, and which moreover
-  moored our feature developments in UX research in human rights contexts,
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.
+- L'[Open Technology Fund](https://opentechfund.org) ci ha dato una
+prima sovvenzione 2018/2019 (~$200K) durante la quale abbiamo notevolmente migliorato l'app Android
+e ha rilasciato una prima versione beta dell'app desktop, e che inoltre
+ancorato i nostri sviluppi delle funzionalità nella ricerca sulla UX nei contesti dei diritti umani,
+vedete il nostro [Rapporto Needfinding e UX](https://delta.chat/en/2019-07-19-uxreport) conclusivo.
+La seconda sovvenzione 2019/2020 (~$300K) ci ha aiutato a farlo
+rilasciare nelle versioni Delta/iOS, per convertire la nostra libreria principale in Rust, e
+per fornire nuove funzionalità per tutte le piattaforme.
 
 - Il progetto UE [NEXTLEAP](https://nextleap.eu) ha finanziato la ricerca
   e implementazione di gruppi verificati e impostazione di protocolli di contatto
