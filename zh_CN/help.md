@@ -673,6 +673,9 @@ Delta Chat 使用 [OpenPGP 标准的安全子集](#openpgp-secure)
 - [Autocrypt](https://autocrypt.org) is used for automatically
   用于在联系人和群聊的所有成员之间自动建立端到端加密。
 
+- [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
+  will bring post-quantum resistant encryption and forward secrecy. 
+
 - [将联系人分享到聊天中
 ](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
   接收者可以与该联系人使用端到端加密。
@@ -859,7 +862,7 @@ but an implementation has not been agreed as a priority yet.
 
 ### Delta Chat 是否支持完美前向保密？ {#pfs}
 
-No, not yet. 
+Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
 
 Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your private decryption key is leaked,
@@ -870,21 +873,19 @@ Otherwise, someone obtaining your decryption keys
 is typically also able to get all your non-deleted messages
 and doesn't even need to decrypt any previously collected messages. 
 
-We designed a Forward Secrecy approach that withstood 
-initial examination from some cryptographers and implementation experts 
-but is pending a more formal write up 
-to ascertain it reliably works in federated messaging and with multi-device usage,
-before it could be implemented in [chatmail core](https://github.com/chatmail/core),
-which would make it available in all [chatmail clients](https://chatmail.at/clients). 
+[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
+will provide reliable deletion (forward secrecy) through automatic key rotation.
+This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
 ### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
 
-No, not yet. 
+Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
 
+[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
+will bring post-quantum resistant encryption to protect against quantum computer attacks.
 Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
-We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
-in collaboration with other OpenPGP implementers. 
+which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
+The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
 ### How can I manually check encryption information?
 
@@ -995,29 +996,19 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
 具体而言，Delta Chat 的开发迄今为止已从以下来源获得资金，
 按时间顺序排列：
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on
-  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
-  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
-  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
-  All of these projects are partially completed or to be completed in early 2025.
+- 在 2023 年和 2024 年，我们的 [WebXDC PUSH](https://nlnet.nl/project/WebXDC-Push/) 工作已在下一代互联网 (NGI) 中获得认可，
+并与致力于
+[WebXDC evolve](https://nlnet.nl/project/Webxdc-Evolve/)、
+[WebXDC XMPP](https://nlnet.nl/project/WebXDC-XMPP/)、
+[DeltaTouch](https://nlnet.nl/project/DeltaTouch/) 和
+[DeltaTauri](https://nlnet.nl/project/DeltaTauri/) 的合作伙伴合作。
+所有这些项目都已部分完成或将在 2025 年初完成。
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
+- 在 2021 年，我们从两项下一代互联网提案收到了欧盟的进一步资助，即 [EPPD - 电子邮件提供商可移植性目录](https://dapsi.ngi.eu/hall-of-fame/eppd/)（约 9.7 万欧元）和 [AEAP - 电子邮件地址移植](https://nlnet.nl/project/EmailPorting/)（约 9 万欧元）。这带来了更好的多账户支持，改进的二维码联系人和群组设置，和所有平台上的多处网络改进。
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system.
+- [NLnet 基金会](https://nlnet.nl/) 2019/2020 年拨款 4.6 万欧元，用于完成 Rust/Python 绑定并建立聊天机器人生态系统。 
 
-- The [Open Technology Fund](https://opentechfund.org) gave us a
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
-  and released a first Desktop app beta version, and which moreover
-  moored our feature developments in UX research in human rights contexts,
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.
+- 在[开放技术基金](https://opentechfund.org) 2018/2019 年提供的第一笔赠款（约 20 万美元）期间，我们显著改善了安卓应用，发布了第一个桌面测试版，并根据人权方面的用户体验研究进行了功能开发，请参阅我们的结论[《需求发现与用户体验报告》](https://delta.chat/en/2019-07-19-uxreport)。2019/2020 年的第二笔赠款（约 30 万美元）对发布 Delta/iOS 版本，将核心库转换到 Rust ，以及为所有平台开发新功能提供了帮助。
 
 - [NEXTLEAP](https://nextleap.eu)欧盟项目资助了以下研究和实施工作：在 2017 年和 2018 年实施的验证组和设置联系协议和通过 [Autocrypt](https://autocrypt.org)整合了端到端加密。
 

@@ -702,6 +702,9 @@ to provide automatic end-to-end encryption using these protocols:
 - [Autocrypt](https://autocrypt.org) is used for automatically
   establishing end-to-end encryption between contacts and all members of a group chat. 
 
+- [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
+  will bring post-quantum resistant encryption and forward secrecy. 
+
 - [Sharing a contact to a
   chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
   enables receivers to use end-to-end encryption with the contact. 
@@ -891,7 +894,7 @@ but an implementation has not been agreed as a priority yet.
 
 ### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
 
-No, not yet. 
+Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
 
 Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your private decryption key is leaked,
@@ -902,21 +905,19 @@ Otherwise, someone obtaining your decryption keys
 is typically also able to get all your non-deleted messages
 and doesn't even need to decrypt any previously collected messages. 
 
-We designed a Forward Secrecy approach that withstood 
-initial examination from some cryptographers and implementation experts 
-but is pending a more formal write up 
-to ascertain it reliably works in federated messaging and with multi-device usage,
-before it could be implemented in [chatmail core](https://github.com/chatmail/core),
-which would make it available in all [chatmail clients](https://chatmail.at/clients). 
+[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
+will provide reliable deletion (forward secrecy) through automatic key rotation.
+This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
 ### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
 
-No, not yet. 
+Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
 
+[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
+will bring post-quantum resistant encryption to protect against quantum computer attacks.
 Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
-We aim to add PQC support in [chatmail core](https://github.com/chatmail/core)  after the draft is finalized at the IETF
-in collaboration with other OpenPGP implementers. 
+which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
+The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
 ### How can I manually check encryption information?
 
@@ -1045,25 +1046,28 @@ ordered chronologically:
   [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
   All of these projects are partially completed or to be completed in early 2025.
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
+- Më 2021-n morëm financime të mëtejshme nga BE për dy propozime që shtrihen në
+  “Internetin e Brezit Tjetër”, konkretisht për [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K euro) dhe [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K euro) që sollën mbulim më të mirë për përdorues me shumë
+llogari, përmirësim të gjërave për kontakte me kod QR dhe grupe, si dhe mjaft
+përmirësime në punën në rrjet për krejt platformat.
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system.
+- [Fondacioni NLnet](https://nlnet.nl/) dhuroi 46K euro gjatë 2019/2020 për
+  plotësimin e <em>Rust/Python bindings</em> dhe për t’i dhënë udhë një ekosistemi
+  Chat-bot. 
 
-- The [Open Technology Fund](https://opentechfund.org) gave us a
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
-  and released a first Desktop app beta version, and which moreover
-  moored our feature developments in UX research in human rights contexts,
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.
+- [Open Technology Fund](https://opentechfund.org) na dha grantin e parë 
+  për 2018/2019 (~200 mijë dollarë) me të cilin përmirësuam ndjeshëm aplikacionin
+  për Android dhe hodhëm në qarkullim një version të parë beta aplikacioni për Desktop,
+  si dhe i afroi më tepër zhvillimet tona për veçori me kërkime UX në kontekste të drejtash të njeriut, 
+  shihni [raportin tonë përfundimtar “Needfinding and UX”](https://delta.chat/en/2019-07-19-uxreport).
+  Granti i dytë për 2019/2020 (~$300K) na ndihmoi të hedhim në qarkullim 
+  versione Delta/iOS, për të shndërruar bibliotekën tonë bazë në Rust, si dhe
+  për të sjellë veçori të reja për krejt platformat.  
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018 and also helped to integrate end-to-end Encryption
-  through [Autocrypt](https://autocrypt.org).
+- Projekti [NEXTLEAP](https://nextleap.eu) i BE-së financoi kërkimin
+  për dhe sendërtimin e grupeve të verifikuara dhe protokolleve të
+  ujdisjes së kontakteve më 2017-n dhe 2018-n dhe ndihmoi gjithashtu
+  të integrohet Fshehtëzim Skaj-më-Skaj përmes [Autocrypt](https://autocrypt.org).
 
 - Ndonjëherë marrim dhurime unike nga individë privatë. 
   Për shembull, më 2021-shin një individ bujar na dërgoi një dërgesë

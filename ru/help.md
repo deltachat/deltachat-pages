@@ -697,6 +697,9 @@ Delta Chat использует [безопасное подмножество �
 - [Autocrypt](https://autocrypt.org) используется для автоматической
   настройки сквозного шифрования между контактами и всеми членами группового чата. 
 
+- [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
+  will bring post-quantum resistant encryption and forward secrecy. 
+
 - [Обмен контактом в
   чате](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
   позволяет получателям настроить сквозное шифрование с этим контактом. 
@@ -871,7 +874,7 @@ IP-адреса необходимы для обеспечения соедин�
 
 ### Поддерживает ли Delta Chat функцию "Sealed Sender" (Засекреченный отправитель)? {#sealedsender}
 
-Нет, еще нет. 
+Нет, пока нет.
 
 Мессенджер Signal внедрил функцию ["Sealed Sender" (Засекреченный отправитель) в 2018 году](https://signal.org/blog/sealed-sender/),
 чтобы их серверная инфраструктура не имела информации о том, кто отправляет сообщение группе получателей. 
@@ -886,7 +889,7 @@ IP-адреса необходимы для обеспечения соедин�
 
 ### Поддерживает ли Delta Chat свойство Perfect forward secrecy, PFS (Совершенную прямую секретность)? {#pfs}
 
-Нет, еще нет. 
+Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
 
 На данный момент, Delta Chat не поддерживает Perfect Forward Secrecy (PFS) (Совершенную прямую секретность).
 Это означает, что если ваш приватный ключ дешифрования будет скомпрометирован,
@@ -897,21 +900,19 @@ IP-адреса необходимы для обеспечения соедин�
 также может получить все ваши не удалённые сообщения
 и ему даже не нужно расшифровывать какие-либо ранее собранные сообщения.
 
-Мы разработали подход к Forward Secrecy (Прямой секретности), который прошёл 
-первичную проверку некоторыми криптографами и экспертами по реализации 
-но требует более формального описания 
-чтобы убедиться, что он надёжно работает в федеративном обмене сообщениями и при использовании нескольких устройств,
-прежде чем он может быть внедрён в [ядро chatmail](https://github.com/chatmail/core),
-что сделает его доступным во всех [клиентах clients](https://chatmail.at/clients). 
+[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
+will provide reliable deletion (forward secrecy) through automatic key rotation.
+This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
 ### Поддерживает ли Delta Chat Post-Quantum-Cryptography (Постквантовую криптографию)? {#pqc}
 
-Нет, еще нет. 
+Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
 
-Delta Chat использует библиотеку OpenPGP на Rust [rPGP](https://github.com/rpgp/rpgp),
-которая поддерживает последний [черновик IETF Post-Quantum-Cryptography OpenPGP](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/). 
-Мы планируем добавить поддержку PQC в [ядро chatmail](https://github.com/chatmail/core)  после того, как черновик будет окончательно утвержден в IETF
-в сотрудничестве с другими разработчиками OpenPGP. 
+[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
+will bring post-quantum resistant encryption to protect against quantum computer attacks.
+Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
+which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
+The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
 ### Как можно вручную проверить информацию о шифровании?
 
@@ -1031,29 +1032,29 @@ Delta Chat не получает никакого венчурного капи�
 В частности, разработка Delta Chat финансировалась из следующих источников,
 перечислены в хронологическом порядке: 
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on
-  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
-  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
-  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
-  All of these projects are partially completed or to be completed in early 2025.
+- В 2023 и 2024 годах мы были приняты в программу Next Generation Internet (NGI)
+  за нашу работу над [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  в сотрудничестве с партнерами, работающими над 
+  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) и 
+  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+  Все эти проекты частично завершены или будут завершены в начале 2025 года. 
 
 - В 2021 г. мы получили дополнительное финансирование из ЕС для двух Next-Generation-Internet
   целей, а именно для [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97 тыс. евро) и [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90 тыс. евро). Это привело к улучшению поддержки нескольких профилей, улучшению настройки контактов и групп с помощью QR-кода и многим улучшениям в сетевом взаимодействии на всех платформах.
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system.
+- [Фонд NLnet](https://nlnet.nl/) выделил в 2019/2020 году 46 тыс. евро на
+завершение привязки Rust/Python и создание экосистемы чат-ботов.
 
-- The [Open Technology Fund](https://opentechfund.org) gave us a
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
-  and released a first Desktop app beta version, and which moreover
-  moored our feature developments in UX research in human rights contexts,
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.
+- Фонд [Open Technology Fund](https://opentechfund.org) предоставил нам 
+  первый грант в 2018/2019 году (~$200 тыс.), благодаря которому мы существенно улучшили приложение для Android 
+  и выпустили первую бета-версию приложения для настольных систем, а также провели 
+  исследования в области UX в контексте прав человека, 
+   см. наш заключительный отчет [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
+  Второй грант, полученный в 2019/2020 году (~$300 тыс.), помог нам 
+  выпустить версии Delta/iOS, перевести наш основной код на Rust и 
+  предоставить новые функции для всех платформ.  
 
 - Проект ЕС [NEXTLEAP](https://nextleap.eu) финансировал исследование
   и внедрение проверенных групп и настройку протоколов контактов
