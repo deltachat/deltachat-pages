@@ -697,8 +697,8 @@ Delta Chat использует [безопасное подмножество �
 - [Autocrypt](https://autocrypt.org) используется для автоматической
   настройки сквозного шифрования между контактами и всеми членами группового чата. 
 
-- [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
-  will bring post-quantum resistant encryption and forward secrecy. 
+- [Autocrypt v2](https://autocrypt2.org), полное внедрение которого запланировано на 2026 год, 
+  обеспечит поддержку постквантового шифрования и прямой секретности.
 
 - [Обмен контактом в
   чате](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
@@ -889,7 +889,7 @@ IP-адреса необходимы для обеспечения соедин�
 
 ### Поддерживает ли Delta Chat свойство Perfect forward secrecy, PFS (Совершенную прямую секретность)? {#pfs}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
+Пока нет, но это будет реализовано в [Autocrypt v2](https://autocrypt2.org). 
 
 На данный момент, Delta Chat не поддерживает Perfect Forward Secrecy (PFS) (Совершенную прямую секретность).
 Это означает, что если ваш приватный ключ дешифрования будет скомпрометирован,
@@ -900,19 +900,19 @@ Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
 также может получить все ваши не удалённые сообщения
 и ему даже не нужно расшифровывать какие-либо ранее собранные сообщения.
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will provide reliable deletion (forward secrecy) through automatic key rotation.
-This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[Autocrypt v2](https://autocrypt2.org), полное внедрение которого запланировано на 2026 год,
+обеспечит надёжное удаление (прямую секретность) за счёт автоматической ротации ключей.
+Этот подход описан в черновике спецификации [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/). 
 
 ### Поддерживает ли Delta Chat Post-Quantum-Cryptography (Постквантовую криптографию)? {#pqc}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
+Пока нет, но эта возможность появится в [Autocrypt v2](https://autocrypt2.org).
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will bring post-quantum resistant encryption to protect against quantum computer attacks.
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
-The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[Autocrypt v2](https://autocrypt2.org), полное внедрение которого запланировано на 2026 год,
+обеспечит поддержку постквантового шифрования для защиты от атак с использованием квантовых компьютеров.
+Delta Chat использует Rust-библиотеку OpenPGP [rPGP](https://github.com/rpgp/rpgp)
+которая поддерживает актуальный черновик IETF [IETF Post-Quantum-Cryptography OpenPGP](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
+Особенности реализации описаны в черновике спецификации [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/). 
 
 ### Как можно вручную проверить информацию о шифровании?
 
@@ -1033,19 +1033,19 @@ Delta Chat не получает никакого венчурного капи�
 перечислены в хронологическом порядке: 
 
 - В 2023 и 2024 годах мы были приняты в программу Next Generation Internet (NGI)
-  за нашу работу над [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  в сотрудничестве с партнерами, работающими над 
-  [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
-  [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) и 
-  [DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
-  Все эти проекты частично завершены или будут завершены в начале 2025 года. 
+за нашу работу над [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+в сотрудничестве с партнерами, работающими над 
+[webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/), 
+[webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/), 
+[DeltaTouch](https://nlnet.nl/project/DeltaTouch/) и 
+[DeltaTauri](https://nlnet.nl/project/DeltaTauri/). 
+Все эти проекты частично завершены или будут завершены в начале 2025 года. 
 
 - В 2021 г. мы получили дополнительное финансирование из ЕС для двух Next-Generation-Internet
   целей, а именно для [EPPD - e-mail provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97 тыс. евро) и [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90 тыс. евро). Это привело к улучшению поддержки нескольких профилей, улучшению настройки контактов и групп с помощью QR-кода и многим улучшениям в сетевом взаимодействии на всех платформах.
 
-- [Фонд NLnet](https://nlnet.nl/) выделил в 2019/2020 году 46 тыс. евро на
-завершение привязки Rust/Python и создание экосистемы чат-ботов.
+- Фонд [NLnet Foundation](https://nlnet.nl/) выделил в 2019/2020 году 46 тысяч евро на
+  доработку связки Rust/Python и создание экосистемы чат-ботов..
 
 - Фонд [Open Technology Fund](https://opentechfund.org) предоставил нам 
   первый грант в 2018/2019 году (~$200 тыс.), благодаря которому мы существенно улучшили приложение для Android 

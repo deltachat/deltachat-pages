@@ -685,8 +685,8 @@ per fornire la crittografia end-to-end automatica utilizzando questi protocolli:
 - [Autocrypt](https://autocrypt.org) viene utilizzato per stabilire
   automaticamente la crittografia end-to-end tra i contatti e tutti i membri di una chat di gruppo.
 
-- [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
-  will bring post-quantum resistant encryption and forward secrecy. 
+- [Autocrypt v2](https://autocrypt2.org), la cui piena implementazione è prevista per il 2026,
+  introdurrà una crittografia post-quantistica resistente e una segretezza avanzata.
 
 - [Condivisione di un contatto con una
   chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
@@ -875,7 +875,7 @@ ma un'implementazione non è stata ancora concordata come priorità.
 
 ### Delta Chat supporta Perfect Forward Secrecy? {#pfs}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
+Non ancora, ma arriverà con [Autocrypt v2](https://autocrypt2.org).
 
 Delta Chat al momento non supporta la tecnologia Perfect Forward Secrecy (PFS).
 Ciò significa che se la tua chiave di decrittazione privata viene divulgata
@@ -886,19 +886,19 @@ In caso contrario, chi ottiene le tue chiavi di decrittazione
 in genere è in grado di ottenere anche tutti i tuoi messaggi non eliminati
 e non ha nemmeno bisogno di decifrare i messaggi raccolti in precedenza.
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will provide reliable deletion (forward secrecy) through automatic key rotation.
-This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[autocrypt v2](https://autocrypt2.org), la cui piena implementazione è prevista per il 2026,
+garantirà un'eliminazione affidabile (segretezza in avanti) tramite rotazione automatica delle chiavi.
+Questo approccio è specificato nella bozza dei [certificati OpenPGP di Autocrypt v2](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/).
 
 ### Delta Chat supporta la Crittografia Post-Quantistica? {#pqc}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
+Non ancora, ma arriverà con [Autocrypt v2](https://autocrypt2.org).
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will bring post-quantum resistant encryption to protect against quantum computer attacks.
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
-The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[Autocrypt v2](https://autocrypt2.org), la cui piena implementazione è prevista per il 2026,
+offrirà una crittografia post-quantistica resistente per proteggere dagli attacchi ai computer quantistici.
+Delta Chat utilizza la libreria Rust OpenPGP [rPGP](https://github.com/rpgp/rpgp)
+che supporta l'ultima [bozza IETF Post-Quantum-Cryptography OpenPGP](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
+L'implementazione è specificata nella bozza dei [Certificati OpenPGP Autocrypt v2](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/).
 
 ### Come posso controllare manualmente le informazioni di crittografia?
 
