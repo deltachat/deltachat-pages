@@ -745,10 +745,8 @@ Stattdessen werden alle Gruppen-Metadaten durchgängig verschlüsselt und aussch
 
 Server können daher nur das folgende sehen:
 
-- die Absender- und Empfängeradressen
-- und die Größe der Nachricht.
-
-Standardmäßig werden die Adressen zufällig generiert.
+- Absender- und Empfängeradressen, standardmäßig zufällig generiert 
+- Größe der Nachricht
 
 Alle anderen Metadaten zu Nachrichten, Kontakten und Gruppen befinden sich im Ende-zu-Ende-verschlüsselten Teil der Nachrichten. 
 
