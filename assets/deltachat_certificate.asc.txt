@@ -1,4 +1,6 @@
 -----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: 63CD 1F81 5BA5 6051 8376  999C 626E 26C8 1695 1308
+Comment: deltachat-signing@merlinux.eu
 
 xjMEaDSKLBYJKwYBBAHaRw8BAQdAbpU7t0wU34c3csvF60TBF+8NoH+xxew6vpG4
 zjHdSlrNHWRlbHRhY2hhdC1zaWduaW5nQG1lcmxpbnV4LmV1wo8EEBYIADcCGQEF
