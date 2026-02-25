@@ -28,7 +28,7 @@ To print the SHA256 fingerprints of the APK signing certificate you can use eg.
    `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
 
    ```
-   wget https://download.delta.chat/desktop/v<VERSION>/signature.asc
+   wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
    wget https://delta.chat/assets/deltachat_certificate.asc.txt
    gpg --import deltachat_certificate.asc.txt
    ```
@@ -38,7 +38,7 @@ To print the SHA256 fingerprints of the APK signing certificate you can use eg.
 3. **Verify and check results**
 
    ```
-   gpg --decrypt signature.asc | shasum -a 512 --ignore-missing -c -
+   gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
    Expected output:
@@ -55,6 +55,6 @@ To print the SHA256 fingerprints of the APK signing certificate you can use eg.
    The warning is normal as you have not explicitly trusted the key.
 
 If gpg is broken on your system, you can use  
-`cat signature.asc | rsop inline-verify deltachat_certificate.asc.txt` or  
-`cat signature.asc | grep deltachat | shasum -a 512 --ignore-missing -c -` -
+`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
+`cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
 note, that the latter checks integrity but _not_ the developer's key.
