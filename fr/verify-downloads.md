@@ -17,26 +17,43 @@ Pour Android, vous pouvez vérifier que le certificat de signature sur l'APK cor
 
 Pour imprimer les empreintes SHA256 du certificat de signature de l'APK vous pouvez utiliser, par ex. `keytool -printcert -jarfile <APK-file>`
 
+
 ## Version PC
 
-Vous pouvez trouver des instructions détaillées pour effectuer la vérification sur la page `https://download.delta.chat/desktop/v<version>/signature.asc`
+1. Open your terminal and **change directory** to the file you want to verify, eg.  
+   `deltachat-desktop_<VERSION>_amd64.deb`
 
-La clé publique utilisée pour signer les versions PC sont publiées ci-dessous et sur <https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu>.
+2. **Download signed checksums and import key;**
+   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
 
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
+   ```
+   wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
+   wget https://delta.chat/assets/deltachat_certificate.asc.txt
+   gpg --import deltachat_certificate.asc.txt
+   ```
 
-xjMEaDSKLBYJKwYBBAHaRw8BAQdAbpU7t0wU34c3csvF60TBF+8NoH+xxew6vpG4
-zjHdSlrNHWRlbHRhY2hhdC1zaWduaW5nQG1lcmxpbnV4LmV1wo8EEBYIADcCGQEF
-Amg0iiwCGwMICwkIBwoNDAsFFQoJCAsCFgIBJxYhBGPNH4FbpWBRg3aZnGJuJsgW
-lRMIAAoJEGJuJsgWlRMIQPoBAMjOBiayYuO2Eukfk1nC05sAOWeuEHuPnFugagMN
-4ZjQAQCTS+YU83ydgv38sK6P5DykrrOaJRpxCA8K4xeRAPwlAM44BGg0iiwSCisG
-AQQBl1UBBQEBB0Au68F0n/3QcRDzr2C3NYba3kCow4HkT/KnQs0YatVGdgMBCAfC
-eAQYFggAIAUCaDSKLAIbDBYhBGPNH4FbpWBRg3aZnGJuJsgWlRMIAAoJEGJuJsgW
-lRMIMYAA/3DQ+rGyobJzQjLcXgG3ZZoUe/WqIFZi2kIvG1k4h9uaAP9IwEKD/BmE
-nHM0/o16fERF1PNx1mqPhUsXYQmUFPmeCg==
-=isjO
------END PGP PUBLIC KEY BLOCK-----
-```
+   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-Téléchargement : [deltachat_certificate.asc.txt](../assets/deltachat_certificate.asc.txt)
+3. **Verify and check results**
+
+   ```
+   gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
+   ```
+
+   Expected output:
+
+   ```
+   gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
+   gpg: WARNING: This key is not certified with a trusted signature!
+   gpg:          There is no indication that the signature belongs to the owner.
+   Primary key fingerprint: 63CD 1F81 5BA5 6051 8376 999C 626E 26C8 1695 1308
+   <FILE>: OK
+   ```
+
+   Make sure the fingerprint matches and that the file you want to verify is listed.
+   The warning is normal as you have not explicitly trusted the key.
+
+If gpg is broken on your system, you can use  
+`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
+`cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
+note, that the latter checks integrity but _not_ the developer's key.

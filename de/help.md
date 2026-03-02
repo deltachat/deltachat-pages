@@ -10,7 +10,7 @@ header: Häufig gestellte Fragen
 
 Delta Chat ist eine zuverlässige, dezentralisierte und sichere Instant-Messaging-App, verfügbar für Mobile- und Desktop-Plattformen.
 
-- Einfache Erstellung von **privaten Chat-Profile** mit sicheren, schnellen und interoperablen [Chatmail-Servern](https://chatmail.at/relays),
+- Einfache Erstellung von **privaten Chat-Profilen** mit sicheren, schnellen und interoperablen [Chatmail-Servern](https://chatmail.at/relays),
 die sofortige Push-Benachrichtigungen für iOS- und Android-Geräte bieten. 
 
 - Durchgängige [Mehrprofil](#multiple-accounts)- und [Mehrgeräte](#multiclient)-Unterstützung auf allen Plattformen und zwischen verschiedenen [Chatmail Apps](https://chatmail.at/clients)
@@ -27,14 +27,14 @@ basierend auf [Internet-Standards]({% include standards-url %}).
 ### Wie finde ich Leute, mit denen ich chatten kann? {#howtoe2ee}
 
 Beachte zunächst, dass Delta Chat ein privater Messenger ist.
-Es gibt keine öffentliches Verzeichnis, du entscheiden selbst über deine Kontakte.
+Es gibt kein öffentliches Verzeichnis, du entscheidest selbst über deine Kontakte.
 
 - Wenn du **persönlich** mit deinen Freunden oder Familie zusammen bist,
   tippe auf das **QR-Code**-Symbol <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
   auf dem Hauptbildschirm.  
-  Bitte deinen Chatpartner den QR-Code mit Delta Chat zu **scannen**.
+  Bitte dann deinen Chatpartner den QR-Code mit Delta Chat zu **scannen**.
 
-- Für eine Kontaktaufnahme **aus der Ferne**, klicke im selben Bildschirm auf "Kopieren" oder "Teilen" und sende den **Einladungslink** über einen anderen privaten Chat.
+- Für eine Kontaktaufnahme **aus der Ferne** klicke im selben Bildschirm auf "Kopieren" oder "Teilen" und sende den **Einladungslink** über einen anderen privaten Chat.
 
 Wartet nun, bis die Verbindung hergestellt ist.
 
@@ -52,17 +52,17 @@ wird eine Ende-zu-Ende-Verschlüsselung zwischen allen Mitgliedern eingerichtet.
 
 ### Warum ist ein Chat als "Anfrage" markiert?
 
-Da Delta Chat ein privater Messenger ist, können dir zunächst nur Freunde und Familienmitglieder, denen du deinen [QR-Code oder Einladungslink](#howtoe2ee) schickst, schreiben.
+Da Delta Chat ein privater Messenger ist, können dir zunächst nur Freunde und Familienmitglieder schreiben, denen du deinen [QR-Code oder Einladungslink](#howtoe2ee) schickst.
 
 Deine Freunde können deine Kontaktdaten dann mit anderen Freunden teilen. Dies wird als <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Anfrage</b> angezeigt.
 
 - Du musst die Anfrage **akzeptieren**, bevor du antworten kannst.
 
-- Du kannst sie auch "löschen", wenn du vorerst nicht mit ihm chatten möchten.
+- Du kannst sie auch "löschen", wenn du vorerst nicht mit dieser Person chatten möchtest.
 
-- If you delete a request, future messages from that contact will still appear
-as message request, so you can change your mind. If you really don't want to
-receive messages from this person, consider **blocking** them.
+- Wenn du eine Anfrage löschst, werden zukünftige Nachrichten von diesem Kontakt weiterhin
+als Nachrichtenanfrage angezeigt, sodass du deine Meinung ändern kannst. Wenn du wirklich keine
+Nachrichten von dieser Person erhalten möchtest, solltest du sie **blockieren**.
 
 
 ### Wie kann ich zwei meiner Freunde miteinander in Kontakt bringen?
@@ -77,9 +77,9 @@ kann darauf tippen, um mit dem ersten Kontakt zu chatten.
 ### Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
 
 Ja. Bilder, Videos, Dateien, Sprachnachrichten und mehr können über die <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhang-**
-  bzw. <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Sprachnachricht**-Buttons hinzugefügt werden
+  bzw. <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Sprachnachricht**-Buttons hinzugefügt werden.
 
-Um die Leistung zu verbessern, werden die Bilder standardmäßig optimiert und in einer kleineren Größe gesendet, aber du kannst sie auch als "Datei" senden, um das Original zu erhalten.
+Um die Leistung zu verbessern, werden die Bilder standardmäßig optimiert und in einer kleineren Größe gesendet. Du kannst sie auch als "Datei" senden, um das Original zu versenden.
 
 
 ### Was sind Profile? Wie kann ich zwischen ihnen wechseln? {#multiple-accounts}
@@ -95,7 +95,7 @@ oder **Profile zu wechseln**.
 
 Du kannst separate Profile für politische, familiäre oder berufliche Aktivitäten verwenden.
 
-Vielleicht möchtest due auch erfahren, wie du [Profile auf mehreren Geräten verwenden kannst](#multiclient).
+Vielleicht möchtest du auch erfahren, wie du [Profile auf mehreren Geräten verwenden kannst](#multiclient).
 
 
 ### Wer sieht mein Profilbild?
@@ -116,7 +116,7 @@ Sobald du eine Nachricht an einen Kontakt sendest, kann dieser deine Signatur in
 
 Verwende diese Tools, um deine Chats zu organisieren:
 
-- **Angeheftete Chats** bleiben immer ganz oben in der Chatliste. So kannst du schnell auf deine Lieblingschats zugreifen oder du verwendest vorübergehend angeheftete Chats um Dinge nicht zu vergessen.
+- **Angeheftete Chats** bleiben immer ganz oben in der Chatliste. So kannst du schnell auf deine Lieblingschats zugreifen oder du verwendest vorübergehend angeheftete Chats, um Dinge nicht zu vergessen.
 
 - **Stummgeschaltete Chats** erhalten keine Benachrichtigungen, bleiben ansonsten aber an ihrem Platz. Du kannst auch stummgeschaltete Chats anheften.
 
@@ -124,12 +124,12 @@ Verwende diese Tools, um deine Chats zu organisieren:
 
 - Wenn ein archivierter Chat eine neue Nachricht erhält, wird er, sofern er nicht stummgeschaltet ist, **wieder in die normale Chatliste verschoben**.  **Stummgeschaltete Chats bleiben archiviert**, bis du sie manuell aus dem Archiv entfernst.
 
-Um die Funktionen zu nutzen, lang auf einen Chat in der Chatliste tippen oder den Chat mit der rechten Maustaste anklicken.
+Um die Funktionen zu nutzen, tippe lang auf einen Chat in der Chatliste oder klicke den Chat mit der rechten Maustaste an.
 
 
 ### Wie funktionieren "Gespeicherte Nachrichten"? {#save}
 
-**Gespeicherte Nachrichten** ist ein Chat, den du verwenden kannst, um dir Nachrichten zu merken und wiederzufinden.
+**Gespeicherte Nachrichten** ist ein Chat, den du verwenden kannst, um dir Nachrichten zu merken und sie wiederzufinden.
 
 - Tippen in einem beliebigen Chat lange auf eine Nachricht oder klicken mit der rechten Maustaste darauf und wähle **Speichern**.
 
@@ -141,7 +141,7 @@ Um die Funktionen zu nutzen, lang auf einen Chat in der Chatliste tippen oder de
 Durch Tippen auf <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
 kannst du zu der ursprünglichen Nachricht im ursprünglichen Chat zurückkehren
 
-- Schließlich kannst du auch „Gespeicherte Nachrichten“ verwenden, um **persönliche Notizen** zu machen - öffnen den Chat, gib etwas ein, fügen ein Foto oder eine Sprachnachricht hinzu usw.
+- Schließlich kannst du auch „Gespeicherte Nachrichten“ verwenden, um **persönliche Notizen** zu machen. Öffne den Chat, gib etwas ein, fügen ein Foto oder eine Sprachnachricht hinzu usw.
 
 - Da „Gespeicherte Nachrichten“ synchronisiert werden, können sie sehr praktisch für die Übertragung von Daten zwischen Geräten sein
 
@@ -164,7 +164,7 @@ Dies ist also kein Echtzeit-Online-Status - und auch andere werden nicht immer s
 
 In [Gruppen](#groups) bedeutet das zweite Häkchen, dass die Nachricht von mindestens einem Mitglied gelesen wurde.
 
-Du erhälst nur dann das zweite Häkchen, wenn sowohl du als auch einer der Empfänger, die die Nachricht gelesen haben, **Einstellungen → Chats → Lesebestätigungen** aktiviert haben.
+Du erhältst nur dann das zweite Häkchen, wenn sowohl du als auch einer der Empfänger, die die Nachricht gelesen haben, **Einstellungen → Chats → Lesebestätigungen** aktiviert haben.
 
 
 ### Schreibfehler korrigieren und Nachrichten nach dem Senden löschen {#edit}
@@ -257,7 +257,7 @@ Alle Gruppenmitglieder haben **dieselben Rechte**. Jeder kann daher jeden lösch
 
 - Wenn das Mitglied noch nicht in deiner Kontaktliste ist, sie sich aber **persönlich** treffen, wählen Sie dort **QR-Einladungscode** an. Dein Chat-Partner kann nun den QR-Code mit seiner Delta Chat-App **scannen** indem er auf <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> auf dem Hauptbildschirm tippt.
 
-- Für eine Kontaktaufnahme **aus der Ferne**, tippe dort “Kopieren” oder “Teilen” und sende den Einladungslink über einen anderen privaten Chat zum neuen Mitglied.
+- Für eine Kontaktaufnahme **aus der Ferne** tippe dort “Kopieren” oder “Teilen” und sende den Einladungslink über einen anderen privaten Chat zum neuen Mitglied.
 
 Mit einem QR-Code und dem Einladungslink können mehrere Mitglieder hinzugefügt werden. Da Gruppen jedoch [für vertrauenswürdige Personen gedacht sind](#groups), solltest du diese nicht öffentlich teilen.
 
@@ -273,7 +273,7 @@ Kein Problem, bitte einfach ein anderes Gruppenmitglied in einem normalen Chat, 
 - Lösche dich entweder aus der Mitgliederliste oder lösche den gesamten Chat. 
 Wenn du der Gruppe später erneut beitreten möchtest, bitten ein anderes Gruppenmitglied, dich hinzuzufügen.
 
-Alternativ kannst du eine Gruppe auch "stummschalten" - dies bedeutet, dass du weiterhin alle Nachrichten erhälst und neue schreiben kannst, aber nicht mehr über neue Nachrichten informiert wirst.
+Alternativ kannst du eine Gruppe auch "stummschalten" - dies bedeutet, dass du weiterhin alle Nachrichten erhältst und neue schreiben kannst, aber nicht mehr über neue Nachrichten informiert wirst.
 
 ### Eine Gruppe klonen
 
