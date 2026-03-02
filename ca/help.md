@@ -8,8 +8,8 @@ header: Preguntes freqüents
 
 ## Què és Delta Chat?
 
-Delta Chat is a reliable, decentralized and secure instant messaging app,
-available for mobile and desktop platforms.
+Delta Chat és una aplicació de missatgeria instantània fiable, descentralitzada i segura,
+disponible per a plataformes mòbils i d'escriptori.
 
 - Instant creation of **private chat profiles**
   with secure and interoperable [chatmail relays](https://chatmail.at/relays)
