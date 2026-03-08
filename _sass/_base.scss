@@ -58,14 +58,14 @@ body {
 	}
 }
 
-#footer {
+footer {
     margin: 1.5em 0 2.5em 0;
     border-top: 1px solid #BBB;
     padding: 1em;
     color: #757575;
     text-align: center;
 }
-#footer a, #footer a:visited {
+footer a, footer a:visited {
     color: #757575;
 }
 #languages {
@@ -128,7 +128,7 @@ body {
         min-width: 580px;
         max-width: 800px;
     }
-    #footer {
+    footer {
         padding: 2em;
     }	
     #languages {
@@ -274,7 +274,7 @@ sup[role="doc-noteref"]:after {
 
 
 @media print {
-    #menu, #footer, #load-comment, #comments-hint, .deltachat-banner {
+    #menu, footer, #load-comment, #comments-hint, .deltachat-banner {
         display: none !important;
     }
 }
