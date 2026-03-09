@@ -131,7 +131,7 @@ Um die Funktionen zu nutzen, tippe lang auf einen Chat in der Chatliste oder kli
 
 **Gespeicherte Nachrichten** ist ein Chat, den du verwenden kannst, um dir Nachrichten zu merken und sie wiederzufinden.
 
-- Tippen in einem beliebigen Chat lange auf eine Nachricht oder klicken mit der rechten Maustaste darauf und wähle **Speichern**.
+- Tippe im Chat lange auf eine Nachricht oder klicke mit der rechten Maustaste darauf und wähle **Speichern**.
 
 - Gespeicherte Nachrichten werden mit dem Symbol
   <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>

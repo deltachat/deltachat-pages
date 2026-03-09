@@ -8,62 +8,56 @@ header: 常见问题
 
 ## 什么是 Delta Chat？
 
-Delta Chat is a reliable, decentralized and secure instant messaging app,
-available for mobile and desktop platforms.
+Delta Chat 是一款可靠、去中心化和安全的消息应用程序、 
+适用于移动和桌面平台。
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- 立即创建快速、安全、可互操作的 [chatmail 服务器](https://chatmail.at/relays) 创建匿名聊天账户
+  为 iOS 和 Android 设备提供即时推送通知。 
 
-- Pervasive [multi-profile](#multiple-accounts) and
-  [multi-device](#multiclient) support on all platforms
-  and between different [chatmail apps](https://chatmail.at/clients).
+- 跨平台且跨[邮件提供商](https://chatmail.at/clients)支持[多配置文件](#multiple-accounts) 和[多设备](#multiclient)。
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+🥳 在聊天中体验互动[网页应用](https://webxdc.org/)，一起游戏和协作
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [经审计的端到端加密](#security-audits) 
+  安全地抵御网络和服务器攻击。 
 
-- Free and Open Source software, both app and server side,
-  built on [Internet Standards]({% include standards-url %}).
+- 免费开源软件，包括应用程序和服务器端、
+  基于[互联网标准]（{% include standards-url %}）。
 
 
-### How can I find people to chat with? {#howtoe2ee}
+### 如何找到可以聊天的人？ {#howtoe2ee}
 
-First, note that Delta Chat is a private messenger.
-There is no public discovery, _you_ decide about your contacts.
+首先，请注意Delta Chat 是一个私人信使。
+没有公开的发现功能，由您决定您的联系人。
 
-- If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the main screen.  
-  Ask your chat partner to **scan** the QR image
-  with their Delta Chat app.
+- 如果您与朋友或家人**面对面**、
+  点击主屏幕上的 **二维码** 图标<img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
+  图标。  
+  请您的聊天对象在 Delta Chat 上**扫描** 二维码 。
 
-- For a **remote** contact setup,
-  from the same screen,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat.
+- 对于**远程**联络设置、
+  在同一屏幕上，点击 "复制 "或 "分享"，然后通过另一个私聊发送**邀请链接**。
 
-Now wait while connection gets established.
+现在等待连接 建立。
 
-- If both sides are online, they will soon see a chat
-  and can start messaging securely.
+- 如果双方都在线，他们很快就会看到一个聊天
+  并开始安全地发送信息。
 
-- If one side is offline or in bad network,
-  the ability to chat is delayed until connectivity is restored.
+- 如果一方离线或网络状况不佳、
+  聊天功能会延迟，直到恢复连接。
 
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+恭喜您！
+现在您将自动与该联系人使用 [端到端加密](#e2ee)。
+如果你们将对方添加到 [群组](#groups)，所有成员之间将建立端对端加密 。
 
 
-### Why is a chat marked as "Request"?
+### 为什么聊天被标记为 "请求"？
 
-As being a private messenger,
-only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
+作为私人信使，
+只有您[分享二维码或邀请链接]（#howtoe2ee）的亲朋好友才能给您写信。
 
-Your friends may share your contact with other friends,
-this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
+您的朋友可能会与其他朋友分享您的联系方式、
+这将显示为<b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">请求</b>
 
 - 需先**通过**该验证请求，用户方可发送回复。
 
@@ -74,35 +68,35 @@ this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-s
 建议直接启用 ​**Block** 功能进行屏蔽。
 
 
-### How can I put two of my friends in contact with each other?
+### 如何让我的两个朋友相互联系？
 
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
-You can also add a little introduction message.
+使用<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **附加按钮 → 联系人**，将第一个联系人附加到第二个联系人的聊天中。
+您还可以添加一条小小的介绍信息。
 
-The second contact will receive a **card** then
-and can tap it to start chatting with the first contact.
+第二个联系人将收到一张**卡**，
+然后可以点击它与第一个联系人开始聊天。
 
 
 ### Delta Chat 支持图像、视频和其他附件吗？
 
-是的。 Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+可以。可以使用<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **附件-** 或 **语音留言**按钮发送图片、视频、文件和语音留言等。
+或<img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **语音信息** 按钮进行发送
 
 为了提高性能，默认情况下会对图像进行优化并以较小的尺寸发送，但您也可以将其作为 "文件 "发送，以保留原始图像。
 
 
 ### 什么是账户资料？如何在它们之间切换？ {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses the server only to relay messages.
+一份账户资料包括**姓名、照片**和一些额外的加密信息。
+个人配置只存在于您的设备(们)中
+并使用聊天邮件或传统电子邮件服务器传输信息。
 
 首次安装Delta Chat 时，会创建第一个账户资料文件。
 
 之后，您可以点击左上角的个人资料图像，**添加个人账户**
 或**切换账户**。
 
-You may want to use separate profiles for political, family or work related activities.
+您可能需要为政治、家庭或工作相关活动使用单独的个人资料。
 
 您可能还想了解 [如何在多台设备上使用同一账户资料](#multiclient)。
 
@@ -114,12 +108,12 @@ You may want to use separate profiles for political, family or work related acti
 出于隐私原因，在您向他们发送消息之前，没有人会看到您的个人资料照片。
 
 
-### Can I set a Bio/Status with Delta Chat? {#signature}
+#### 我可以用Delta Chat 设置个人介绍/个人照片/状态吗？{#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Once you sent a message to a contact,
-they will see it when they view your contact details.
+是的、
+您可以在“设置 > 个人资料 > 签名文本”下执行此操作。
+向联系人发送信息后、
+他们在查看您的联系人详情时就会看到。
 
 
 ### 固定、静音、归档是什么意思？
@@ -130,8 +124,9 @@ they will see it when they view your contact details.
 
 - **静音聊天**，如果您不想再得到关于它们的通知。被静音的聊天会呆在原地，并且您可以固定被静音的聊天。
 
-- 如果您不想再在聊天列表中看到聊天记录，请**归档聊天**。
-已归档的聊天仍可在聊天列表上方或通过搜索访问。
+- 如果不想再在聊天列表中看到聊天内容，**归档聊天**。
+  已归档的聊天仍可在聊天列表上方或通过搜索访问。
+  并标记为<b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">存档</b>
 
 - 当被归档的聊天接收到一条新消息，除非其被静音，它会**从归档中弹出**并返回聊天列表。
   **被静音的聊天会保持被归档的状态**，除非您手动解档它们。 
@@ -163,27 +158,26 @@ they will see it when they view your contact details.
 
 ### 绿色圆点代表什么？
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen by you** in the last 10 minutes,
-e.g. because they messaged you or sent a read receipt.
+有时您会在联系人头像旁边看到一个**绿点**。<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+在联系人的头像旁边。
+这意味着您在过去 10 分钟内**最近看到过他们、
+例如，因为他们给您发了信息或发送了阅读回执。
 
-So this is not a real time online status
-and others will as well not always see that you are "online".
+因此，这不是实时在线状态
+其他人也不会总是看到你 "在线"。
 
 
 ### 显示在发出消息旁边的对勾表示什么？
 
-- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  means that the message was sent successfully to the [relay](#relays).
+- 一勾**<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  表示信息已成功发送到 [中继]（#relays）。
 
-- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  indicate your contact has read the message.
+- 两勾** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+  表示您的联系人已阅读信息。
 
-In [groups](#groups) the second tick means that at least one member has reported back having read the message.
+在 [群组](#群组) 中，第二个"√"表示至少有一名成员报告已阅读该信息。
 
-You will only get the second tick if both you and one of the recipients who read the message
-has **Settings → Chats → Read Receipts** enabled.
+只有您和其中一位阅读过信息的收信人都启用了**设置 → 隐私 → 已读回执**，您才会得到第二个勾。
 
 
 ### 发送后更正错别字并删除邮件 {#edit}
@@ -203,28 +197,25 @@ has **Settings → Chats → Read Receipts** enabled.
 
 ### 消息定时销毁是如何工作的？ {#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 5 minutes and 1 year.
+您可以在聊天设置中开启 " 消息定时销毁 "功能
+在聊天设置中、
+聊天窗口右上方、
+选择时间范围
+5 分钟到 1 年之间。
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted both,
-on the servers,
-and in the apps itself.
+在再次关闭该设置之前，
+每个聊天成员的 Delta Chat 应用都会负责
+在选定的时间跨度后删除消息。
+时间跨度从
+接收者首次在 Delta Chat 中看到消息时开始。
+消息将在
+服务器上的每个电子邮件帐户中以及应用本身中删除。
 
 请注意，只有当您信任您的聊天伙伴时，您才可以依赖“消息定时销毁”；
 不怀好意的人可能会拍照，或者在删除之前以其他方式保存、复制或转发消息。
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the (anyway encrypted) messages may take longer to get deleted from their server.
+但是，如果一个聊天伙伴卸载了Delta Chat 、
+(加密）信息可能需要更长的时间才能从他们的服务器上删除。
 
 
 ### 打开“从设备删除旧消息”后，会发生什么？ {#delold}
@@ -234,31 +225,31 @@ the (anyway encrypted) messages may take longer to get deleted from their server
 找到“聊天与媒体”设置中的“从设备删除旧消息”，在从“一小时后”到“一年后”的一系列选项中选择一个。这样，设备上 *所有* 比所选择时间长度老的消息将被删除
 
 
-### How can I delete my chat profile? {#remove-account} 
+### 如何删除我的账户？ {#remove-account}
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+如果您使用多个聊天配置文件、
+你可以在顶部的配置文件切换器菜单中删除单个配置文件（在 Android 和 iOS 上）、
+或在侧边栏中右键单击（在桌面应用中）。
+聊天配置文件只会在本设备上删除。 
+其他设备上的聊天配置文件将继续完整运行。 
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+如果您只使用一个默认聊天配置文件，可以直接卸载应用程序。
+这将自动触发删除 Chatmail 服务器上的所有关联帐户数据。
+有关更多信息，请参阅 [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
+或您选择的 [第三方 Chatmail 服务器](https://chatmail.at/relays) 的相关页面。
 
 
-## Groups {#groups}
+## 群组 {# 群组｝
 
-Groups let several people chat together privately with **equal rights**.
+群组允许几个人私下一起聊天，他们享有**相同的权力**。
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+任何人都可以
+更改群组名称或头像、
+[添加或删除成员]（#addmembers）、
+设置[消息自动销毁]（#ephemeralmsgs）、
+[删除自己的信息](#edit)。
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+由于所有成员都拥有相同的权力，因此群组在**信任的朋友和家人**之间效果最佳。
 
 
 ### 创建群组
@@ -270,24 +261,22 @@ Because all members have the same rights, groups work best among **trusted frien
 - 当您在群组中发送**第一条消息**时，所有成员都会被告知新群组的信息并可以在该群组中应答（只要您不在群组中发送第一条消息，那么群组对成员就是不可见的）。
 
 
-### Add and remove members {#addmembers}
+### 添加和删除成员 {#addmembers}
 
-All group members have the **same rights**.
-For this reason, everyone can delete any member or add new ones.
+所有群组成员都拥有**相同的权限。
+因此，每个人都可以删除任何成员或添加新成员。
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- 要**添加或删除成员**，请点击聊天中的群组名称，然后选择要添加或删除的成员。
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- 如果会员还不在您的联系人列表中，但可以**与您面对面**、
+  在同一屏幕上，显示**二维码**。  
+  在 Delta Chat 主屏幕上点击。
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- 如需添加**远程**成员、
+  点击 "复制 "或 "分享"，然后通过另一个私聊向新会员发送**邀请链接**。
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+二维码和邀请链接可用于添加多个成员。
+不过，由于群组是[为信任的人准备的]（#群组），因此应避免公开分享。
 
 
 ### 我不小心删除了我自己。
@@ -301,69 +290,69 @@ However, since groups are [meant for trusted people](#groups), avoid sharing the
 
 另外，您也可以“静音”群组——这样做意味着您会收到所有消息并且仍可以编写消息，但不会再收到任何新消息的通知。
 
-### Cloning a group
+### 克隆群组
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+您可以复制一个组以开始单独的讨论
+或在不被成员察觉的情况下排除成员。
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- 打开群组配置文件，然后点击 ** 克隆聊天** （Android/iOS）、
+  或右键单击聊天列表中的群组（桌面）。
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- 设置新名称、选择头像，并根据需要调整成员名单。
 
-The new group is **fully independent** from the original,
-which continues to work as before.
-
-
-### How many members can participate in a single group?
-
-There is no strict technical limit,
-but more than 150 is not recommended.
-
-As groups get larger, they can become socially unstable and may need a hierarchy -
-where Delta Chat is a private messenger for chatting with [equal rights](#groups).
-See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
+新群组与原群组完全独立、
+新群组将一如既往地工作。
 
 
-## In-chat apps {#webxdc}
+#### 一个小组可以有多少成员？
 
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
+没有严格的技术限制、
+但不建议超过 150 个。
 
-
-### Where can I get in-chat apps?
-
-- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
-
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+随着群体规模的扩大，他们的社会地位可能会变得不同，可能需要一个等级制度。
+其中Delta Chat 是与[平等权利]（#群组）聊天的私人信使。
+相关知识，请参阅[邓巴数](https://en.wikipedia.org/wiki/Dunbar%27s_number)。
 
 
-### How private are in-chat apps?
+## Webxdc 应用 {#webxdc}
 
-- In-chat apps can not send data to the Internet, or download anything.
-
-- An in-chat app can only exchange data within a chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
-
-- The privacy an in-chat app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the in-chat app as well.
-
-- This also means: Just like for web links, do not open apps from untrusted contacts.
+您可以向聊天发送应用程序--游戏、编辑器、投票和其他工具。
+这使得Delta Chat 成为一个真正可扩展的聊天工具。
 
 
-### How can I create my own in-chat apps? {#create-xdc}
+### 我在哪里可以获得 Webxdc 应用？
 
-- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
+- 在聊天中，使用<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **附件按钮 → 应用程序**
 
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
+- 您还可以[创建自己的应用程序]（#create-xdc），并使用<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **附件按钮 → 文件**附加它。
 
-- All else you need to know is written in the
-  [Webxdc documentation](https://webxdc.org/docs).
 
-- If you have question, you can ask others with experience
-  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+### Webxdc 应用的隐私性如何？
+
+- 聊天应用程序不能向互联网发送数据，也不能下载任何东西。
+
+- 聊天中的应用程序只能在对话中交换数据，其可以与
+  聊天对象设备上的副本进行数据交换。除此之外，它完全
+  与互联网隔离。
+
+- 聊天应用提供的隐私保护仅限于您的聊天隐私——只要您
+
+只要您信任与您聊天的人，您也可以信任聊天应用本身。
+
+- 这也意味着：就像网页链接一样，不要打开来自不可信联系人的应用程序。
+
+
+### 如何创建自己的 WebXDC 应用？{#create-xdc}
+
+- 聊天应用程序是以`.xdc`为扩展名的压缩文件，包含 html、css 和 javascript 代码。
+
+- 您可以扩展 [Hello World 示例应用程序](https://github.com/webxdc/hello)
+  来快速入门。
+
+- 您需要了解的所有其他信息都写在
+  [Webxdc 文档](https://webxdc.org/docs)。
+
+- 如果您有问题，可以在 [Delta Chat 论坛]        (https://support.delta.chat/c/webxdc/20)。
 
 
 ## 即时消息传递和推送通知 {#instant-delivery}
@@ -393,8 +382,8 @@ This makes Delta Chat a truly extensible messenger.
 
 ### Android 设备上是否启用/需要推送通知？ {#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
+如果推送服务可用，Delta Chat 会启用推送通知
+为所有聊天邮件用户发送即时信息。
 
 在 Delta Chat“通知”的“推送通知”设置中，您可以更改以下影响所有聊天配置文件的设置：
 
@@ -418,38 +407,37 @@ to achieve instant message delivery for all chatmail users.
 
 ### Delta Chat 推送通知的隐私性如何？ {#privacy-notifications}
 
-Delta Chat Push Notification support avoids leakage of private information.
-It does not leak profile data, IP address or message content (not even encrypted)
-to any system involved in the delivery of Push Notifications.
+Delta Chat 推送通知支持可避免泄漏私人信息。
+它不会将个人资料数据、IP 地址或信息内容（即使是加密的）泄露给参与通知推送的任何系统。
 
 以下是 Delta Chat 应用如何执行推送通知传递：
 
 - Delta Chat 应用在本地获取“设备令牌”，对其进行加密并将其存储在
 [Chatmail](https://delta.chat/chatmail) 服务器上。
 
-- When a [chatmail](https://delta.chat/chatmail) server receives a message for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- 当 [chatmail](https://delta.chat/chatmail) 服务器收到Delta Chat 用户的信息时
+  就会将加密设备令牌转发到Delta Chat 中央通知代理。
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or profile data of Delta Chat users.
+- 中央 Delta Chat 通知代理解密设备令牌
+并将其转发到相应的推送服务（Apple、Google 等），
+而永远不知道 Delta Chat 用户的 IP 或电子邮件地址。
 
-- The central Push Service (Apple, Google, etc.)
-  wakes up the Delta Chat app on your device
-  to check for new messages in the background.
-  It does not know about the profile data of the device it wakes up.
-  The central Apple/Google Push services never see any profile data (sender or receiver)
-  and also never see any message content (also not in encrypted forms).
+- 中央推送服务（Apple、Google 等）
+唤醒你设备上的 Delta Chat 应用
+，以便在后台检查新消息。
+它不知道它唤醒的设备的 Chatmail 或电子邮件地址。
+中央 Apple/Google 推送服务永远不会看到电子邮件地址（发件人或收件人），
+也永远不会看到任何消息内容（也包括未加密的形式）。
 
 
 中央 Delta Chat 通知代理[体积小，完全用 Rust 实现](https://github.com/deltachat/notifiers)
 ，并在 Apple/Google 等处理设备令牌后立即忘记它们，
 通常在几毫秒内。
 
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees profile data, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
+请注意，设备令牌在应用和通知代理之间加密，
+但未签名。
+因此，通知代理永远不会看到与用户设备（令牌）关联的电子邮件地址、IP 地址或
+任何加密身份信息。
 
 由此产生的整体隐私设计，即使查封 Chatmail 服务器，
 或完全查封中央 Delta Chat 通知代理
@@ -463,10 +451,10 @@ Delta Chat 是一款免费且开源的去中心化即时通讯应用，用户可
 就像他们从 Whatsapp、Signal 或 Telegram 应用体验到的那样，
 而无需预先提出更适合专家用户或开发人员的问题。
 
-Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
-that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable chatmail relay network :)
+请注意，Delta Chat 具有[小型且隐私保护的推送通知系统](#privacy-notifications)，
+可为所有 Chatmail 服务器实现“即时消息传递”，
+包括[你可能在未经我们许可的情况下自行设置的服务器](https://delta.chat/chatmail#selfhosted)。
+欢迎来到可互操作且庞大的 Chatmail 和电子邮件系统的力量 :)
 
 
 
@@ -547,111 +535,125 @@ Welcome to the power of the interoperable chatmail relay network :)
 - 如果是因为不能在工作的电脑上安装软件而需要一个 Web 客户端，您可以使用便携版的 Windows 桌面客户端，或者在 Linux 上使用 AppImage 版。您可以在 [get.delta.chat](https://get.delta.chat) 找到它们。
 
 
-## Advanced
+## 高级
 
-### Experimental Features {#experiments}
+## 实验性功能 {#experiments}
 
-At **Settings → Advanced → Experimental Features**
-you can try out features we are working on.
+在**设置 → 高级 → 实验功能**
+您可以试用我们正在开发的功能。
 
-The features may be **unstable** and may be **changed or removed**.
+这些功能可能**不稳定**，可能会**更改或删除**。
 
-You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
-
-
-### What are Relays? {#relays}
-
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store data as group states, your name or avatar -
-all that exist only on your device.
-Relays are operated by different groups and people.
-
-By default, after installation, a relay is **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at At **Settings → Advanced → Relays**:
-
-- You can **add** a relay by scanning its QR code;
-  <https://chatmail.at/relays> shows some known ones.
-  If you have multiple relays, you will receive messages on all of them.
-
-- The **default** defines the one where your chat partners send future messages to.
-
-- If you **remove** a relay,
-  make sure another default relay was used for a sufficient amount of time.
-  Otherwise, messages from your chat partners won't reach you.
-  If in doubt, remove later.
-
-For more details and future possibilities of relays,
-you can follow discussions in the [Forum](https://support.delta.chat).
+您可以在 [论坛](https://support.delta.chat) 提供反馈。
 
 
-### Can I use a classic email address with Delta Chat?
+### 什么是中继服务器？{#relays}
 
-Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
+中继服务器用于在您的设备离线时临时保存消息。
 
-It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
-for the following reasons:
+中继服务器是廉价且功能简单的服务器，
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
+它们不会存储群组状态、您的姓名或头像等数据——
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message relay.
+这些数据仅存在于您的设备上。
 
-- Supporting the full variety of classic email setups
-  would require considerable development and maintenance efforts,
-  and complicate making chatmail-based messaging more resilient, reliable and fast.
+中继服务器由不同的团队和个人运营。
 
-### How can I configure a chat profile with a classic email address as relay? {#classic-email}
+默认情况下，安装完成后会自动设置中继服务器，
 
-First off, **please do not use the same classic email address also from non-chatmail classic email apps**
-unless you are prepared to deal with encrypted messages in the inbox,
-double notifications, accidentally deleted emails or similar annoyances.
+因此您无需担心。
 
-You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Relay**.
-Note that classic email providers will generally not support [Push Notifications](#instant-delivery)
-and have other limitations, see [Provider Overview](https://providers.delta.chat).
-Chatmail uses the default INBOX for relay; ensure the provider setup does too. 
-A chat profile using a classic email address allows to to send and receive unencrypted messages.
-These messages, and the chats they appear in, are marked with an email icon
+但是，如果您需要，
+
+可以在“设置 → 高级 → 中继服务器”中配置：
+
+- 您可以通过扫描二维码来**添加**中继；
+
+<https://chatmail.at/relays> 显示了一些已知的中继服务器。
+
+如果您添加了多个中继，您将在所有中继上收到消息。
+
+- **默认**地址确定了聊天伙伴今后发送消息的目标地址。
+
+- 如果您**移除**某个中继服务器，
+
+请确保已使用另一个默认中继服务器足够长的时间。
+
+否则，您将无法收到聊天伙伴的消息。
+
+如有问题，请稍后再移除。
+
+有关中继服务器的更多细节和未来可能性、
+您可以关注 [论坛](https://support.delta.chat) 中的讨论。
+
+
+#### 我可以在Delta Chat 中使用传统电子邮件吗？
+
+可以，但前提是该电子邮件地址只能由 [chatmail 客户端](https://chatmail.at/clients) 使用。
+
+不支持与非聊天邮件应用程序或网络邮件程序共享电子邮件地址、
+原因如下：
+
+- 非聊天邮件应用程序在很大程度上无法为用户实现自动端到端电子邮件加密 、
+  而 Chatmail 则普遍执行端到端加密 和安全标准。
+
+- 非聊天邮件应用程序使用电子邮件服务器作为长期信息存档
+  而聊天邮件客户端使用电子邮件服务器作为短暂的即时信息中继。
+
+- 支持各种经典的电子邮件设置
+  需要大量的开发和维护工作、
+  这将使基于聊天邮件的信息传送变得更加灵活、可靠和快速。
+
+#### 如何使用经典电子邮件地址作为中继配置聊天配置文件？{#classic-email}
+
+首先，**请不要在非 Chatmail 经典电子邮件应用程序中使用相同的经典电子邮件地址**。
+除非你准备好处理收件箱中的加密邮件、
+双重通知、误删邮件或类似的烦恼。
+
+您可以在 ** 新配置文件 → 使用其他服务器 → 使用经典邮件作为中继** 配置用于聊天的电子邮件地址。
+请注意，经典电子邮件提供商一般不支持 [推送通知](#即时发送)
+并有其他限制，请参阅[提供商概述](https://providers.delta.chat)。
+Chatmail 使用默认的 INBOX 进行中继；请确保提供商的设置也是如此。 
+使用传统电子邮件地址的聊天配置文件允许收发未加密信息。
+这些信息及其在聊天中出现的信息都会用电子邮件图标标记
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### I want to manage my own server for Delta Chat. What do you recommend?
+#### 我想管理自己的服务器Delta Chat 。您有什么建议？
 
-Any well behaving email server setup will do fine 
-except if your users' devices require Google/Apple [Push Notifications](#instant-delivery) to work properly.
+任何表现良好的电子邮件服务器设置都可以正常工作 
+除非用户的设备需要 Google/Apple [推送通知]（#即时发送）才能正常工作。
 
-We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
-[Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
-and [core Rust developments](https://github.com/chatmail/core) 
-that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
+我们通常建议您[设置一个聊天邮件中继服务器](https://chatmail.at/doc/relay/getting_started.html)。
+
+[Chatmail](https://chatmail.at)是一个社区驱动的项目，涵盖了中继的设置
+
+以及[核心Rust开发](https://github.com/chatmail/core)
+
+这些核心Rust开发为[聊天邮件客户端](https://chatmail.at/clients)提供支持，其中Delta Chat是最知名的客户端。
 
 
-### What is "Send statistics to Delta Chat's developers"? {#statssending}
+#### 什么是 "向Delta Chat'开发人员发送统计数据"？{#statssending}
 
-We would like to improve Delta Chat with your help,
-which is why Delta Chat for Android asks whether you want
-to send anonymous usage statistics.
+我们希望在您的帮助下改进Delta Chat 、
+这就是为什么Delta Chat for Android 会询问您是否希望
+发送匿名使用统计数据。
 
-You can turn it on and off at
-**Settings → Advanced → Send statistics to Delta Chat's developers**.
+您可以在以下位置打开或关闭它
+**设置 → 高级 → 将统计数据发送给Delta Chat 的开发人员**。
 
-When you turn it on,
-weekly statistics will be automatically sent to a bot.
+打开后
+每周统计数据将自动发送到机器人。
 
-We are interested e.g. in statistics like:
+我们感兴趣的统计数据包括
 
-- How many contacts are introduced by personally scanning a QR code?
+- 通过亲自扫描二维码，有多少人被介绍认识？
 
-- Which versions of Delta Chat are being used?
+- 使用的是Delta Chat 的哪些版本？
 
-- What errors occur for users?
+- 用户出现哪些错误？
 
-We will _not_ collect any personally identifiable information about you.
+我们**不会**收集您的任何个人身份信息。
 
 
 ### 我对技术细节很感兴趣。能告诉我更多吗？
@@ -673,8 +675,8 @@ Delta Chat 使用 [OpenPGP 标准的安全子集](#openpgp-secure)
 - [Autocrypt](https://autocrypt.org) is used for automatically
   用于在联系人和群聊的所有成员之间自动建立端到端加密。
 
-- [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
-  will bring post-quantum resistant encryption and forward secrecy. 
+- [Autocrypt v2](https://autocrypt2.org)，计划于 2026 年全面实施、 
+  将带来后量子抗加密 和前向保密。 
 
 - [将联系人分享到聊天中
 ](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
@@ -682,35 +684,35 @@ Delta Chat 使用 [OpenPGP 标准的安全子集](#openpgp-secure)
 
 Delta Chat 不会查询、发布或与任何 OpenPGP 密钥服务器交互。
 
-### How can I know if messages are end-to-end encrypted? {#whene2e}
+#### 我如何知道信息是否经过端到端加密？{#whene2e}
 
 Delta Chat 中的所有消息 **默认都采用端到端加密**。
 自 Delta Chat 版本 2 发布系列（2025 年 7 月）起， 
 端到端加密消息上不再有锁或类似的标记。
 
-### Can I still receive or send messages without end-to-end encryption?
+### 没有端到端加密 ，我还能接收或发送信息吗？
 
 如果您使用默认的 [chatmail 中继](https://chatmail.at/relays)，
 则不可能在没有端到端加密的情况下接收或发送消息。
 
-If you instead use a [classic email server](#classic-email),
-you can send and receive messages with or without end-to-end encryption.
-Messages lacking end-to-end encryption are marked with an email icon
+如果您使用的是 [classic 电子邮件服务器](#classic-email)、
+您可以发送和接收带有或不带端到端加密 的邮件。
+没有端到端加密 的邮件会用电子邮件图标标出
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
+### 联系人资料中的绿色复选标记是什么意思？{#e2eeguarantee}
 
-A contact profile might show a green checkmark
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line.
-Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by a another green-checkmarked contact.
-Introductions happen automatically when adding members to groups. 
-Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
-becomes an introducer. 
-In a contact profile you can tap on the "Introduced by ..." text repeatedly
-until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
+带有绿色复选标记的联系人配置文件
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="绿色复选标记" />
+表示当前保证与联系人的消息传递是端到端加密的。
+每个带有绿色复选标记的联系人要么直接与你进行了 [二维码扫描](#howtoe2ee)，
+要么由另一个带有绿色复选标记的联系人介绍。
+当向群组添加成员时，介绍会自动发生。
+任何将联系人添加到带有绿色复选标记的群组的人都成为
+那些还不认识添加的联系人的成员的介绍人。
+在联系人配置文件中，你可以反复点击“由...介绍”文本
+，直到你到达直接与你进行 [二维码扫描](#howtoe2ee) 的那个人。
 
 有关“保证的端到端加密”的更深入讨论，
 请参阅 [安全加入协议](https://securejoin.delta.chat/en/latest/new.html)，
@@ -728,9 +730,11 @@ until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
 ### OpenPGP 安全吗？ {#openpgp-secure}
 
-Yes, Delta Chat uses a secure subset of OpenPGP
-requiring the whole message to be properly encrypted and signed.
-For example, "Detached signatures" are not treated as secure.
+是的，Delta Chat 使用的是 OpenPGP 的一个安全子集，
+
+它要求整条消息都必须经过正确的加密和签名。
+
+例如，“分离式签名”不被视为安全。
 
 OpenPGP 加密标准本身不存在安全隐患。 
 目前公众讨论中涉及的 OpenPGP 安全问题， 
@@ -747,12 +751,12 @@ Delta Chat 实际使用的是 Rust 语言编写的 OpenPGP 实现库 [rPGP](http
 来进一步提高安全特性，该标准已于 2023 年夏季获得通过，令人欣慰。
 
 
-### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
+#### 您是否考虑过使用 OpenPGP 的替代版端到端加密 ？{#openpgp-alternatives}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-but adopting them would mean breaking end-to-end encryption interoperability.
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+是的，我们正在关注 [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)等努力。
+但采用它们将意味着破坏端到端加密 的互操作性。
+因此，这不是一个轻而易举的决定。 
+而且必须为用户带来切实的改进。 
 
 Delta Chat 采用整体“可用安全性”方法，
 并与广泛的活动家团体以及
@@ -777,115 +781,120 @@ Delta Chat 也从未容易受到“直接泄露”EFAIL 攻击，
 如 Autocrypt Level 1 规范所定义。
 
 
-### Are messages marked with the mail icon exposed on the Internet? {#tls}
+### 带有邮件图标的邮件是否会在互联网上公开显示？{#tls}
 
-If you are sending or receiving email messages without end-to-end encryption (using a classic email server),
-they are still protected from cell or cable companies who can not read or modify your email messages.
-But both your and your recipient's email providers
-may read, analyze or modify your messages, including any attachments. 
+如果您发送或接收电子邮件时没有端到端加密 （使用传统电子邮件服务器）、
+它们仍然受到手机或有线电视公司的保护，他们无法阅读或修改您的电子邮件。
+但您和收件人的电子邮件提供商
+可以阅读、分析或修改您的邮件，包括任何附件。 
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your email provider.
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's email provider
-will typically be transport-encrypted as well.
-If the involved email servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between email providers
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+Delta Chat 默认使用严格的
+[TLS 加密](https://en.wikipedia.org/wiki/Transport_Layer_Security)，
+这可以保护你的设备和电子邮件提供商之间的连接安全。
+Delta Chat 的所有 TLS 处理都经过了独立的 [安全审计](#security-audits)。
+此外，你的和接收者的电子邮件提供商之间的连接
+通常也会进行传输加密。
+如果所涉及的电子邮件服务器支持 [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)，
+则将在电子邮件提供商之间强制执行传输加密，
+在这种情况下，即使消息未进行端到端加密，Delta Chat 通信也永远不会以明文形式暴露给互联网。
 
 
 ### Delta Chat 如何保护消息中的元数据？ {#message-metadata}
 
-Unlike most other messengers, 
-Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
-Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
+与其他大多数聊天工具不同、 
+Delta Chat 应用程序不会在服务器上存储任何有关联系人或群组的元数据，也不会以加密形式存储。 
+相反，所有群组元数据都经过端到端加密，仅存储在终端用户设备上。 
 
-Servers can therefore only see:
+因此，服务器只能看到
 
-- Sender and receiver addresses, randomly generated by default
-- Message size
+- 发件人和收件人地址，默认情况下随机生成
+- 信息大小
 
-All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
+所有其他信息、联系人和群组元数据都保存在信息的端到端加密部分。 
 
 ### 当设备被查封时，如何保护元数据和联系人？ {#device-seizure}
 
-Both for protecting against metadata-collecting servers 
-as well as against the threat of device seizure
-we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create chat profiles using random addresses for transport. 
-Note that Delta Chat apps on all platforms support multiple profiles
-so you can easily use situation-specific profiles next to your "main" profile
-with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then chat contacts using short-lived profiles
-can not be identified easily. 
+为了防止收集元数据的电子邮件服务器
+以及设备查封的威胁，
+我们建议使用 [Chatmail 服务器](https://chatmail.at/relays)
+通过二维码扫描创建匿名临时配置文件。
+请注意，所有平台上的 Delta Chat 应用都支持多配置文件，
+因此你可以轻松地在你“主要”配置文件旁边使用特定于情况的配置文件，
+并且知道它们的所有数据以及所有元数据都将被删除。
+此外，如果设备被查封，则与使用临时配置文件的联系人
+相比，无法轻易识别，因为即时通讯应用会在聊天群组中显示
+电话号码，而电话号码通常与合法身份相关联。
 
 
-### Who sees my IP Address?
+#### 谁能看到我的 IP 地址？
 
-The used [relay](#relays) needs to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#experiments)
-or use [apps](#webxdc) together.
+使用的 [中继服务器](#relays) 需要知道您的 IP 地址、
+有时还需要知道联系人的设备（如果你们有 [通话](#experiments)），或一起使用 [Webxdc应用程序](#webxdc)。
 
-IP Addresses are needed for connectivity and efficiency.
-They are neither persisted nor exposed.
-Note that the IP Address
-is not like a detailed address you give to a delivery service,
-but much more coarse, often defining region or country only.
+IP 地址是连接和提高效率所必需的。
+它们既不会持久存在，也不会暴露。
+请注意，IP 地址
+不像你给快递服务的详细地址、
+而是更粗略，通常只定义地区或国家。
 
-As this is just how the internet and other messengers work by default,
-we do not offer options here or ask upfront questions.
+这只是互联网和其他信使的默认工作方式、
+我们在此不提供选项，也不预先提问。
 
-If you see your IP Address as a security or privacy risk,
-we recommend to use a VPN, in combination with system lockdown mode.
-Hunting down options in all apps on your system will leave gaps.
-For example, tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
+如果你认为你的 IP 地址存在安全或隐私风险、
+我们建议使用 VPN 并结合系统锁定模式。
+在系统的所有应用程序中查找选项会留下漏洞。
+例如，点击链接会将 IP 地址暴露给未知方，这是目前最大的风险。
 
 
-### Does Delta Chat support "Sealed Sender"? {#sealedsender}
+###Delta Chat 是否支持 "密封发件人"？{#sealedsender}
 
-No, not yet. 
+不，还没有。 
 
-The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
-to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
-It is particularly important because the Signal server knows the mobile number of each account,
-which is usually associated with a passport identity.
+Signal 信使在 2018 年推出["密封发件人"](https://signal.org/blog/sealed-sender/)
+以保持其服务器基础设施不知道谁在向一组收件人发送信息。 
+这一点尤为重要，因为 Signal 服务器知道每个账户的手机号码、
+这通常与个人身份信息相关联。
 
-Even if [chatmail relays](https://chatmail.at/relays) 
-do not ask for any private data (including no phone numbers), 
-it might still be worthwhile to protect relational metadata between addresses. 
-We don't foresee bigger problems in using random throw-away addresses for sealed sending
-but an implementation has not been agreed as a priority yet. 
+即使 [chatmail relays](https://chatmail.at/relays) 
+不要求提供任何私人数据（包括电话号码）、 
+还是值得保护地址之间的关系元数据。 
+我们认为使用随机地址进行密封发送不会有太大问题。
+但目前还没有达成优先实施方案。 
 
 ### Delta Chat 是否支持完美前向保密？ {#pfs}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
+目前还没有，但 [Autocrypt v2](https://autocrypt2.org) 会提供。 
 
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
-Note that Forward Secrecy only increases security if you delete messages. 
-Otherwise, someone obtaining your decryption keys
-is typically also able to get all your non-deleted messages
-and doesn't even need to decrypt any previously collected messages. 
+Delta Chat 如今不支持完美前向保密（PFS）。
+这意味着，如果你的私人解密密钥被泄露、
+并且有人收集了你之前的传输中信息、
+他们就能使用泄漏的解密密钥解密并读取这些信息。
+请注意，只有在删除信息的情况下，前向保密才能提高安全性。 
+否则，获得你的解密密钥的人
+通常也能获得所有未删除的信息
+甚至不需要对以前收集的任何信息进行解密。 
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will provide reliable deletion (forward secrecy) through automatic key rotation.
-This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[Autocrypt v2](https://autocrypt2.org)计划于2026年全面实施，
 
-### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
+它将通过自动密钥轮换提供可靠的删除（前向保密）。
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
+该方法在[Autocrypt v2 OpenPGP证书](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/)草案中进行了详细说明。
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will bring post-quantum resistant encryption to protect against quantum computer attacks.
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
-The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+###Delta Chat 支持后量子加密吗？{#pqc}
 
-### How can I manually check encryption information?
+目前还没有，但 [Autocrypt v2](https://autocrypt2.org) 会提供。
+
+[Autocrypt v2](https://autocrypt2.org)计划于2026年全面实施，
+
+它将带来后量子加密技术，以抵御量子计算机攻击。
+
+Delta Chat使用Rust OpenPGP库[rPGP](https://github.com/rpgp/rpgp)，
+
+该库支持最新的[IETF后量子加密OpenPGP草案](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/)。
+
+具体实现详见[Autocrypt v2 OpenPGP证书](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/)草案。
+
+#### 如何手动检查加密 信息？
 
 你可以在“加密”对话框中手动检查端到端加密状态
 （Android/iOS 上的用户配置文件或桌面上的用户聊天列表项上右键单击）。
@@ -897,12 +906,12 @@ Delta Chat 在此处显示两个指纹。
 
 不。
 
-Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
-We do not recommend or offer users to perform manual key management.
-We want to ensure that security audits can focus on a few proven cryptographic algorithms
-instead of the full breadth of possible algorithms allowed with OpenPGP.
-If you want to extract your OpenPGP key, there only is an expert method:
-you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
+Delta Chat 根据 Autocrypt 规范 1.1 生成安全 OpenPGP 密钥。
+我们不建议或提供用户进行手动密钥管理。
+我们希望确保安全审计能专注于少数几种经过验证的加密算法
+而不是 OpenPGP 允许的所有可能算法。
+如果您想提取 OpenPGP 密钥，只有一种专业方法：
+您需要在配置文件备份 tar 文件的 "keypairs "SQLite 表中查找它。
 
 
 ### Delta Chat 是否已进行独立的安全漏洞审计？ {#security-audits}
@@ -965,10 +974,10 @@ Chat 的 [PGP](https://github.com/rpgp/rpgp) 和
 
 ### Delta Chat 需要哪些权限？
 
-Some features require certain permissions,
-e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
+某些功能需要特定权限、
+例如，如果您想[扫描邀请二维码]（#howtoe2ee），则需要授予相机权限。
 
-See [Privacy Policy](https://delta.chat/en/gdpr#24-app-permissions) for a detailed overview.
+详见 [隐私政策](https://delta.chat/en/gdpr#24-app-permissions)。
 
 
 ### 我的朋友在哪里可以找到 Delta Chat？
@@ -979,8 +988,8 @@ Delta Chat 适用于所有主要平台和一些次要平台：
 
 - 如果不可用，请使用 **镜像** <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
+- 打开下列**应用商店之一，搜索 "Delta Chat"：**
+  谷歌应用商店、F-Droid、华为应用商店、iOS 和 macOS 应用商店、微软应用商店
 
 - 检查你的 Linux 发行版的 **软件包管理器**
 
@@ -1002,7 +1011,9 @@ Delta Chat 没有接受风险投资，也没有负债累累，更没有承受产
 [DeltaTauri](https://nlnet.nl/project/DeltaTauri/) 的合作伙伴合作。
 所有这些项目都已部分完成或将在 2025 年初完成。
 
-- 在 2021 年，我们从两项下一代互联网提案收到了欧盟的进一步资助，即 [EPPD - 电子邮件提供商可移植性目录](https://dapsi.ngi.eu/hall-of-fame/eppd/)（约 9.7 万欧元）和 [AEAP - 电子邮件地址移植](https://nlnet.nl/project/EmailPorting/)（约 9 万欧元）。这带来了更好的多账户支持，改进的二维码联系人和群组设置，和所有平台上的多处网络改进。
+- 2021年，我们获得了欧盟的进一步资助，用于两项下一代互联网提案
+
+分别是[EPPD - 电子邮件提供商可移植性目录](https://dapsi.ngi.eu/hall-of-fame/eppd/)（约9.7万欧元）和[AEAP - 电子邮件地址可移植性](https://nlnet.nl/project/EmailPorting/)（约9万欧元）。这两项提案带来了更好的多配置文件支持、改进的二维码联系人和群组设置，以及所有平台上的许多网络改进。
 
 - [NLnet 基金会](https://nlnet.nl/) 2019/2020 年拨款 4.6 万欧元，用于完成 Rust/Python 绑定并建立聊天机器人生态系统。 
 

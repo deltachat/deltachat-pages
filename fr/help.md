@@ -8,62 +8,45 @@ header: Foire aux questions
 
 ## Qu'est-ce que Delta Chat ?
 
-Delta Chat is a reliable, decentralized and secure instant messaging app,
-available for mobile and desktop platforms.
+Delta Chat est une application de messagerie fiable, décentralisée et sécurisée, disponible pour smartphones et ordinateurs de bureau.
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- Création à la volée de **profils de discussion privés** grâce à des [relais chatmail](https://chatmail.at/relays) sécurisés et interopérables qui permettent des échanges instantanés et des notifications Push pour les appareils iOS et Android.
 
 - Pervasive [multi-profile](#multiple-accounts) and
   [multi-device](#multiclient) support on all platforms
   and between different [chatmail apps](https://chatmail.at/clients).
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+- [Applications](#webxdc) interactives permettant de jouer et collaborer au sein des discussions.
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [Chiffrement de bout-en-bout audité](#security-audits) protégé contre les attaques réseaux et de serveurs.
 
-- Free and Open Source software, both app and server side,
-  built on [Internet Standards]({% include standards-url %}).
+- Logiciel libre et gratuit, autant côté serveur que côté application, développé autour des [standards d'internet]({% include standards-url %}).
 
 
-### How can I find people to chat with? {#howtoe2ee}
+### Comment trouver des personnes avec qui discuter ? {#howtoe2ee}
 
-First, note that Delta Chat is a private messenger.
-There is no public discovery, _you_ decide about your contacts.
+Delta Chat est une application de messagerie privée. Il n'y a pas de mécanisme de découverte publique des utilisateurs et utilisatrices. _Vous_ décidez avec qui vous échangez dans Delta Chat.
 
-- If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the main screen.  
-  Ask your chat partner to **scan** the QR image
-  with their Delta Chat app.
+- En **présence physique** de vos amis ou de membres de votre famille, appuyez sur l'icône **QR code** <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> sur l'écran principal. Demandez à votre contact de **scanner** le QR code avec leur application Delta Chat.
 
-- For a **remote** contact setup,
-  from the same screen,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat.
+- Pour la mise en place d'un échange **à distance**, cliquez sur l'icône **QR code** sur l'écran principal, puis sur le bouton "Lien", puis sur "Copier" ou "Partager" et envoyez le lien d'invitation via une autre messagerie privée.
 
-Now wait while connection gets established.
+Il suffit ensuite d'attendre que la connexion soit établie.
 
-- If both sides are online, they will soon see a chat
-  and can start messaging securely.
+- Si les deux contacts sont en ligne, ils verront rapidement apparaître une nouvelle discussion et pourront tout de suite commencer une discussion sécurisée.
 
-- If one side is offline or in bad network,
-  the ability to chat is delayed until connectivity is restored.
+- Si l'un des contacts n'est pas en ligne ou a des problèmes de réseau, la possibilité de démarrer la discussion aura lieu dès que la connectivité sera rétablie.
 
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+Félicitations !
+Vous utiliserez désormais le [chiffrement de bout-en-bout](#e2ee) avec ce contact.
+Si vous vous ajoutez à des discussions de [groupe](#groups) le chiffrement de bout-en-bout sera établi entre tous les membres de la discussion.
 
 
-### Why is a chat marked as "Request"?
+### Pourquoi une discussion est marquée comme "invitation" ?
 
-As being a private messenger,
-only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
+Delta Chat étant une messagerie privée, seules les personnes avec qui vous [partagez votre QR code ou lien d'invitation](#howtoe2ee) peuvent vous écrire.
 
-Your friends may share your contact with other friends,
-this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
+Vos contacts peuvent cependant partager votre profil avec d'autres personnes, ce qui apparaît alors comme une <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">invitation</b>.
 
 - Vous devez d'abord **accepter** pour pouvoir répondre au message.
 
@@ -74,37 +57,33 @@ de nouveau comme des invitations, de sorte que vous pouvez changer d'avis par la
 recevoir de messages de cette personne, nous vous conseillons de la **bloquer**.
 
 
-### How can I put two of my friends in contact with each other?
+### Comment mettre deux personnes en relation entre elles ?
 
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
-You can also add a little introduction message.
+Joignez le premier contact à votre discussion avec le second en utilisant <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Bouton pièce jointe → Contact**.
+Profitez-en pour ajouter un message de présentation.
 
-The second contact will receive a **card** then
-and can tap it to start chatting with the first contact.
+Le deuxième contact recevra une **carte** qu'il pourra cliquer pour commencer une discussion avec le premier.
 
 
 ### Delta Chat prend-il en charge les images, vidéos et autres pièces jointes ?
 
-Oui. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
+Oui. Images, vidéos, fichiers, messages vocaux etc. peuvent être envoyé avec les boutons <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pièce jointe** ou <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Message vocal**.
 
 Pour améliorer les performances, les images sont redimensionnées et envoyées en taille réduite par défaut ; mais vous pouvez les envoyer en tant que "fichier" pour en conserver la taille originale.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### À quoi correspondent les profils ? Comment est-ce que je peux passer de l'un à l'autre ? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses the server only to relay messages.
+Un profil est **un nom, une photo** et quelques informations supplémentaires pour chiffrer des messages.
+Un profil n'est présent que sur votre appareil/vos appareils et utilise le serveur seulement pour relayer les messages vers vos contacts.
 
-On first installation of Delta Chat a first profile is created.
+Lors de la première installation de Delta Chat un premier profil est créé.
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+Par la suite vous pourrez cliquer sur votre image de profil en haut à gauche de l'écran principal pour **Ajouter un profil** ou **Changer de profil**.
 
-You may want to use separate profiles for political, family or work related activities.
+Vous souhaiterez peut être utiliser des profils différents pour vos activités familiales, professionnelles ou politiques.
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
+Vous souhaiterez peut être aussi apprendre [comment utiliser le même profil sur plusieurs appareils](#multiclient).
 
 
 ### Qui peut voir ma photo de profil ?
@@ -114,12 +93,10 @@ Dans les paramètres vous pouvez ajouter une photo de profil. Si vous écrivez �
 Pour des raisons de confidentialité, personne ne peut voir votre photo de profil sans que vous ayez d'abord entamé une discussion.
 
 
-### Can I set a Bio/Status with Delta Chat? {#signature}
+### Est-il possible de définir une Bio/un Statut avec Delta Chat ? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Once you sent a message to a contact,
-they will see it when they view your contact details.
+Oui, vous pouvez le faire dans **Paramètres → Profil → Signature**.
+À partir du moment ou vous échangez avec quelqu'un, cette personne pourra voir votre Signature en regardant les détails de votre profil.
 
 
 ### Que signifient "épingler", "sourdine" et "archiver" ?
@@ -139,34 +116,28 @@ Pour archiver ou épingler une discussion, faites un appui long sur la discussio
 pour mettre une discussion en sourdine, ouvrez le menu de la conversation (Android/application de bureau) ou le profil de la discussion (iOS).
 
 
-### How do "Saved Messages" work? {#save}
+### Comment fonctionnent les "Messages enregistrés" ? {#save}
 
-**Saved Messages** is a chat that you can use to easily remember and find messages.
+**Messages enregistrés** est une discussion que vous pouvez utiliser pour sauvegarder et retrouver facilement des messages.
 
-- In any chat, long tap or right click a message and select **Save**
+- Dans n'importe quelle discussion, touchez <img style="vertical-align:middle; width:1.2em; margin:1px;" src="../assets/help/saved-icon.png" alt="Saved icon"/> ou faites un clic droit sur un message et sélectionnez **Enregistrer**.
 
-- Saved messages are marked by the symbol
-  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
-  next to the timestamp
+- Les messages enregistrés sont identifiés par le symbole <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/> à côté de l'horodatage du message.
 
-- Later, open the "Saved Messages" chat - and you will see the saved messages there.
-  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
-  you can go back to the original message in the original chat
+- Par la suite vous pourrez retrouver tous ces messages dans la discussion "Messages enregistrés".
+En touchant <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/> vous retrouverez le message dans sa discussion d'origine.
 
-- Finally, you can also use "Saved Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Enfin vous pouvez aussi utiliser la discussion "Messages enregistrés" pour prendre des **notes privées** - ouvrez la discussion, écrivez votre message, ajoutez une photo, un message vocal, etc.
 
-- As "Saved Message" are synced, they can become very handy for transferring data between devices
+- La discussion "Messages enregistrés" étant synchronisée elle peut être très pratique pour transférer des informations d'un appareil à un autre.
 
-Messages stay saved even if they are edited or deleted -
-may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+Les messages restent enregistrés même lorsqu'ils sont édités ou supprimés, que ça soit par [l'expéditeur⋅rice](#edit), par [suppression des anciens messages de l'appareil](#delold) ou par [disparition des messages éphémères au sein d'une discussion](#ephemeralmsgs).
 
 
 ### Que signifie le point vert ?
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen by you** in the last 10 minutes,
-e.g. because they messaged you or sent a read receipt.
+Vous pourrez parfois voir un **point vert** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> sur le profil d'un contact.
+Cela veut dire que vous avez **récemment vu** le contact dans les 10 dernières minutes, par exemple parce que vous avez échangé avec ce contact, ou que vous avez reçu un accusé de lecture.
 
 So this is not a real time online status
 and others will as well not always see that you are "online".

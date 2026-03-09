@@ -1,5 +1,5 @@
 ---
-title: Delta Chat, missatger descentralitzat i segur
+title: Delta Chat, missatgeria descentralitzada i segura
 lang: ca
 ---
 
@@ -7,11 +7,11 @@ lang: ca
 
 💬 Missatgeria instantània fiable amb suport per a múltiples perfils i dispositius
 
-⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
+⚡️ Registra't a un dels [relés de chatmail](https://chatmail.at/relays) segur i interoperable 
 
-🥳 Aplicacions [web interactives als xats](https://webxdc.org/) per a jocs i col·laboració
+🥳 Aplicacions [web interactives als xats](https://webxdc.org/) per a jugar i col·laborar
 
-🔒 [Xifrat de punta a punta auditat](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) segur davant atacs a la xarxa i al servidor
+🔒 [Xifrat d'extrem a extrem auditat](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) segur davant d'atacs a la xarxa i al servidor
 
 👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) programari, construït sobre [Estàndards d’Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitant [xkcd927](https://xkcd.com/927/) :)
 
@@ -55,8 +55,8 @@ lang: ca
 </a>
 </div>
 
-[Baixa](https://get.delta.chat){: .cta-button}
+[Baixar](https://get.delta.chat){: .cta-button}
 
-Disponible per a mòbil i escriptori.
+Disponible al mòbil i a l'escriptori.
 
 

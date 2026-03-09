@@ -1,11 +1,11 @@
 ---
-title: Contribueix
+title: Col·labora
 lang: ca
 ---
 
 # Canals i repositoris
 
-Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estàndards de Comunitat](community-standards).
+Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estàndards de la Comunitat](community-standards).
 
 - [Fedivers](https://chaos.social/web/@delta) per anuncis i retroalimentació.
 
@@ -48,5 +48,5 @@ al camp de cerca de la teva aplicació del fediverse.
 
 - Un [subreddit de DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above).
+Si coneixes o has creat canals addicionals,
+fes-nos-ho saber (vegeu Canals i repositoris més amunt).

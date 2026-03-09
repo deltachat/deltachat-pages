@@ -224,7 +224,7 @@ _"Basically, it is an email client that uses a UI similar to most chat apps. I t
 2019-02, <https://tecnolikecuba.com/delta-chat-chatea-por-correo-al-mas-puro-estilo-whatsapp/>
 
 
-### blog.lenzg.net: Using Delta Chat with email sub-addresses
+### blog.lenzg.net: Utilitzant Delta Chat amb sub-adreces de correu-e
 
 2019-02-21, <http://blog.lenzg.net/2019/02/using-delta-chat-with-email-sub-addresses/>
 
@@ -267,9 +267,9 @@ _"Die Einrichtung von Delta Chat könnte kaum einfacher sein [...]"_
 
 ### Mobilsicher.de (German mobil security website) Das Infoportal für mehr Sicherheit auf Smartphone und Tablet
 
-_"Delta.Chat: Sicher und dezentral – geht das?"_
+_"Delta.Chat: Segur i descentralitzat – és possible?"_
 
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out [user stories and voices](user-voices).
+Fes un cop d'ull a les [històries i veus d'usuaris](user-voices).

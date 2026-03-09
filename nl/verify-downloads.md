@@ -19,11 +19,11 @@ Om de SHA256-vingerafdrukken van het APK-certificaat te tonen, kun je bijv. <br>
 
 ## Computer
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
+1. Open een terminalvester, **verander de map** in die waar het te verifiëren bestand staat, bijv.  
    `deltachat-desktop_<VERSION>_amd64.deb`
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Download de controlesommen en importsleutel;**
+   `<VERSION>` dient te worden vervangen door het versienummer, bijv. `2.33.0`
 
    ```
    wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
@@ -31,15 +31,15 @@ Om de SHA256-vingerafdrukken van het APK-certificaat te tonen, kun je bijv. <br>
    gpg --import deltachat_certificate.asc.txt
    ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+   De openbare sleutel is tevens beschikbaar op [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-3. **Verify and check results**
+3. **Verifieer en controleer de resultaten**
 
    ```
    gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
-   Expected output:
+   Verwachte uitvoer:
 
    ```
    gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
@@ -49,10 +49,10 @@ Om de SHA256-vingerafdrukken van het APK-certificaat te tonen, kun je bijv. <br>
    <FILE>: OK
    ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Ga na of de vingerafdruk overeenkomt en dat het te verifiëren bestand vermeld is.
+   De waarschuwing kan worden genegeerd, daar je de sleutel nog niet als vertrouwelijk hebt aangemerkt.
 
-If gpg is broken on your system, you can use  
+Als gpg niet naar behoren werkt, kun je deze opdracht gebruiken:  
 `cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
 `cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+Maar let op: hierdoor wordt alléén de integriteit gecontroleerd, dus _niet_ de ontwikkelaarssleutel.
