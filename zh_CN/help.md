@@ -162,7 +162,7 @@ Delta Chat 是一款可靠、去中心化和安全的消息应用程序、
 ### 显示在发出消息旁边的对勾表示什么？
 
 - 一勾**<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  表示信息已成功发送到 [中继]（#relays）。
+  表示信息已成功发送到 [中继](#relays)。
 
 - 两勾** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
   表示您的联系人已阅读信息。
@@ -246,7 +246,7 @@ or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/he
 或您选择的 [第三方 Chatmail 服务器](https://chatmail.at/relays) 的相关页面。
 
 
-## 群组 {# 群组｝
+## 群组 {#groups｝
 
 群组允许几个人私下一起聊天，他们享有**相同的权力**。
 
@@ -611,7 +611,7 @@ Delta Chat 是一款免费且开源的去中心化即时通讯应用，用户可
   需要大量的开发和维护工作、
   这将使基于聊天邮件的信息传送变得更加灵活、可靠和快速。
 
-#### 如何使用经典电子邮件地址作为中继配置聊天配置文件？{#classic-email}
+#### 如何使用经典电子邮件地址作为中继配置聊天配置文件？ {#classic-email}
 
 首先，**请不要在非 Chatmail 经典电子邮件应用程序中使用相同的经典电子邮件地址**。
 除非你准备好处理收件箱中的加密邮件、
