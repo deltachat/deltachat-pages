@@ -107,7 +107,7 @@ def generate_file(srcdir, destdir, lang, file, add_top_links, add_pagefind):
     content = read_file(srcdir + "/" + lang + "/" + file)
 
     # remove boilerplate
-    content = re.sub(r"^.*<div id=\"content\">.*<h1>.*?</h1>.*?<ul.*?>",
+    content = re.sub(r"^.*<main>.*<h1>.*?</h1>.*?<ul.*?>",
                        "<!DOCTYPE html>\n"
                      + "<html lang=\"" + lang + "\">"
                      +   "<head>"
@@ -120,7 +120,7 @@ def generate_file(srcdir, destdir, lang, file, add_top_links, add_pagefind):
                      content,
                      flags=re.MULTILINE|re.DOTALL)
 
-    content = re.sub(r"</div>.*?</body>.*</html>.*$",
+    content = re.sub(r"</main>.*?</body>.*</html>.*$",
                          "</body>"
                      + "</html>",
                      content,
