@@ -21,11 +21,11 @@ Për shtypjen e shenjave të gishtave SHA256 të dëshmisë së nënshkrimit të
 
 ## Desktop
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
+1. Hapni terminalin tuaj dhe **ndryshoni drejtori** te kartela që doni të verifikohet, p.sh.,  
    `deltachat-desktop_<VERSION>_amd64.deb`
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Shkarkoni checksum-e të nënshkruar dhe importoni kyçe;**
+   `<VERSION>` duhet zëvendësuar me numrin e versionit, p.sh., `2.33.0`
 
    ```
    wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
@@ -33,15 +33,15 @@ Për shtypjen e shenjave të gishtave SHA256 të dëshmisë së nënshkrimit të
    gpg --import deltachat_certificate.asc.txt
    ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+   Kyçi mund të gjendet edhe në [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-3. **Verify and check results**
+3. **Bëni verifikimin dhe kontrolloni përfundimet**
 
    ```
    gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
-   Expected output:
+   Përfundim i pritshëm:
 
    ```
    gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
@@ -51,10 +51,10 @@ Për shtypjen e shenjave të gishtave SHA256 të dëshmisë së nënshkrimit të
    <FILE>: OK
    ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Sigurohuni se shenjat e gishtit përputhen dhe se kartela që doni të verifikoni është e pranishme.
+   Sinjalizimi është normal, ngaqë s’e keni besuar shprehimisht kyçin.
 
-If gpg is broken on your system, you can use  
-`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
+Nëse gpg në sistemin tuaj është e dëmtuar, mund të përdorni  
+`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` ose  
 `cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+Kini parasysh se e dyta kontrollon integritetin, por _jo_ kyçin e zhvilluesit.

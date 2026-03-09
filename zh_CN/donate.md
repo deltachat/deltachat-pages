@@ -5,18 +5,19 @@ lang: zh_CN
 
 # 捐款
 
-Your donation helps to shape the free and open source future of decentralized private communication 
-without surveillance, advertising or billionaries in the middle. 
+您的捐赠有助于塑造去中心化私密通信的自由开源未来，
 
-- Donate via [Liberapay](https://liberapay.com/delta.chat/)
+没有监控、广告，也没有亿万富翁的介入。
 
-- Donate via [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+- 通过 [Liberapay] 捐款(https://liberapay.com/delta.chat/)
 
-- Send bitcoins to [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
+- 通过 [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate) 捐款
+
+- 发送比特币到 [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
 
 - IBAN DE86100777770428658900, BIC NORSDE51XXX, Account holder (please always specify): Björn Petersen
 
-- Alternatively, scan the following to wire money to that account:  
-  ![Scan to wire money](../assets/donate-via-epc-qr.png)
+- 或者，扫描以下内容，向该账户汇款：  
+  [扫描汇款](../assets/donate-via-epc-qr.png)
 
 [其他贡献方式](contribute){: .cta-button}

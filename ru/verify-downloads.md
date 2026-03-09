@@ -21,11 +21,11 @@ lang: ru
 
 ## Компьютер
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
-   `deltachat-desktop_<VERSION>_amd64.deb`
+1. Откройте терминал и **измените папку** на файл, который вы хотите проверить, например.  
+   `deltachat-desktop_<VERSION>_amd64.deb`.
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Загрузите подписанные контрольные суммы и импортируйте ключ;**.
+   `<VERSION>` необходимо заменить на номер версии, например `2.33.0`.
 
    ```
    wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
@@ -33,28 +33,28 @@ lang: ru
    gpg --import deltachat_certificate.asc.txt
    ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+   Ключ также доступен по адресу [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-3. **Verify and check results**
+3. **Проверьте и сравните результаты**.
 
    ```
    gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
-   Expected output:
+   Ожидаемый результат:
 
    ```
-   gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
-   gpg: WARNING: This key is not certified with a trusted signature!
-   gpg:          There is no indication that the signature belongs to the owner.
-   Primary key fingerprint: 63CD 1F81 5BA5 6051 8376 999C 626E 26C8 1695 1308
-   <FILE>: OK
+   gpg: Хорошая подпись от "deltachat-signing@merlinux.eu" [неизвестно]
+   gpg: ПРЕДУПРЕЖДЕНИЕ: Этот ключ не сертифицирован доверенной подписью!
+   gpg: Нет никаких указаний на то, что подпись принадлежит владельцу.
+   Отпечаток первичного ключа: 63CD 1F81 5BA5 6051 8376 999C 626E 26C8 1695 1308
+  <FILE>: OK
    ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Убедитесь, что отпечаток ключа совпадает и что файл, который вы хотите проверить, указан в списке.
+   Предупреждение является нормальным, поскольку вы явно не подтвердили доверие к ключу.
 
-If gpg is broken on your system, you can use  
-`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
-`cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+Если gpg не работает в вашей системе, вы можете использовать  
+`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` или  
+`cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -.
+обратите внимание, что последняя команда проверяет целостность, а _не_ ключ разработчика.

@@ -11,120 +11,111 @@ header: Preguntes freqüents
 Delta Chat és una aplicació de missatgeria instantània fiable, descentralitzada i segura,
 disponible per a plataformes mòbils i d'escriptori.
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- Creació instantània de **perfils de xat privats**
+  amb [chatmail relays](https://chatmail.at/relays) segurs i interoperables
+  que ofereix lliurament de missatges instantànis i Notificacions Push per dispositius iOS i Android.
 
-- Pervasive [multi-profile](#multiple-accounts) and
-  [multi-device](#multiclient) support on all platforms
-  and between different [chatmail apps](https://chatmail.at/clients).
+- Suport omnipresent [multi-perfil](#multiple-accounts) i
+[multi-dispositiu](#multiclient) en totes les plataformes
+i entre les diferents [aplicacions de chatmail](https://chatmail.at/clients).
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+- [Apps de xat](#webxdc) interactives per a jocs i col·laboració
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [Encriptació d'extrem a extrem auditada](#security-audits)  protegit contra atacs de xarxa i de servidor.
 
-- Free and Open Source software, both app and server side,
-  built on [Internet Standards]({% include standards-url %}).
-
-
-### How can I find people to chat with? {#howtoe2ee}
-
-First, note that Delta Chat is a private messenger.
-There is no public discovery, _you_ decide about your contacts.
-
-- If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the main screen.  
-  Ask your chat partner to **scan** the QR image
-  with their Delta Chat app.
-
-- For a **remote** contact setup,
-  from the same screen,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat.
-
-Now wait while connection gets established.
-
-- If both sides are online, they will soon see a chat
-  and can start messaging securely.
-
-- If one side is offline or in bad network,
-  the ability to chat is delayed until connectivity is restored.
-
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+- Programari lliure i de codi obert, tant pel que fa a l'app com al servidor,
+ construït sobre [estàndards d'Internet]({% include standards-url %}).
 
 
-### Why is a chat marked as "Request"?
+### Com puc trobar a les persones amb qui xatejar? {#howtoe2ee}
 
-As being a private messenger,
-only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
+En primer lloc, tingues en compte que Delta Chat és missatgeria privada.
+No hi ha descobriment públic: _tu_ decideixes sobre els teus contactes.
 
-Your friends may share your contact with other friends,
-this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
+- Si estàs **cara a cara** amb la persona,
+  toca la icona del **codi QR** <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
+  a la pantalla principal.  
+  Demana que **escanegi** la imatge QR
+  des de la seva app de Delta Chat.
 
-- You need to **accept** the request before you can reply.
+- Per configurar el contacte **a distancia**,
+des de la mateixa pantalla,
+fes clic a "Copiar" o "Compartir" i envia **l'enllaç d'invitació**
+a través d'un altre xat privat.
 
-- You can also **delete** it if you don't want to chat with them for now.
+Ara espera que la connexió s'estableixi.
 
-- If you delete a request, future messages from that contact will still appear
-  as message request, so you can change your mind. If you really don't want to
-  receive messages from this person, consider **blocking** them.
+- Si tots dos esteu en línia, aviat veureu un xat
+i podreu començar a xatejar de manera segura.
 
+Si un dels dos no està connectat o la connexió és dolenta,
+la possibilitat de xatejar es posposa fins que es restableixi la connectivitat.
 
-### How can I put two of my friends in contact with each other?
-
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
-You can also add a little introduction message.
-
-The second contact will receive a **card** then
-and can tap it to start chatting with the first contact.
-
-
-### Does Delta Chat support images, videos and other attachments?
-
-Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
-
-For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
+Enhorabona! A partir d'ara, amb aquest contacte utilitzareu automàticament el [xifrat d'extrem a extrem](#e2ee). Si us afegiu mútuament a [grups](#groups), s'establirà el xifratge punt a punt entre tots els membres.
 
 
-### What are profiles? How can I switch between them? {#multiple-accounts}
+### Perquè un xat és marcat com a "Sol·licitud"?
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses the server only to relay messages.
+Al ser missatgeria privada,
+només les amistats i familia que [comparteixis el teu codi QR o l'enllaç d'invitació](#howtoe2ee) poden escriure't.
 
-On first installation of Delta Chat a first profile is created.
+Les teves amistats poden compartir el teu contacte amb altres amistats,
+això es mostra com a <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Sol·licitud</b>
 
-Later, you can tap your profile image in the upper left corner to **Add Profiles**
-or to **Switch Profiles**.
+- Cal que **acceptis** la sol·licitud abans de poder respondre.
 
-You may want to use separate profiles for political, family or work related activities.
+- També pots **esborrar-ho** si no vols parlar-hi per ara.
 
-You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
-
-
-### Who sees my profile picture?
-
-You can add a profile picture in your settings. If you write to your contacts
-or add them via QR code, they automatically see it as your profile picture.
-
-For privacy reasons, no one sees your profile picture until you write a
-message to them.
+- Si esborres una sol·licitud, els missatges futurs d'aquest contacte seguiran apareixen
+ com una sol·licitud de missatge, perquè puguis canviar d'idea. Si realment no vols
+rebre missatges d'aquesta persona, pots **bloquejar-la**.
 
 
-### Can I set a Bio/Status with Delta Chat? {#signature}
+### Com puc posar en contacte a dues de les meves amistats?
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Once you sent a message to a contact,
-they will see it when they view your contact details.
+Adjunta el primer contacte en el xat del segon utilitzant el <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botó Adjunt → Contacte**.
+També pots afegir un petit missatge introductori.
+
+El segon contacte llavors rebrà una **tarjeta**
+i hi podrà premer per iniciar una conversa amb el primer contacte.
 
 
-### What do Pinning, Muting and Archiving mean?
+### Delta Chat  permet enviar imatges, vídeos i altres adjunts?
+
+Sí. Es poden enviar imatges, vídeos, fitxers, missatges de veu, etc. utilitzant els botons d'<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjunt-**
+o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Missatge de veu**.
+
+Per rendiment, les imatges, per defecte, són optimitzades i enviades amb una mida més petita, però pots enviar-les com un fitxer per preservar la original.
+
+
+### Què són els perfils? Com puc canviar entre ells?{#multiple-accounts}
+
+Un perfil és **un nom, una imatge** i informació adicional per xifrar missatges.
+Un perfil només existeix en els teu dispositiu(s) 
+i utilitza el servidor per enviar missatges.
+
+Durant la instal·lació de Delta Chat es crea un primer perfil.
+
+Després, pots premer a la teva imatge de perfil, a la part superior esquerra, per **Afegir perfils** o **Canviar de perfil**.
+
+Potser vols utilitzar perfils separats per a activitats polítiques, familiars o laborals.
+
+Potser també vols aprendre [com utilitzar el mateix perfil en múltiples dispositius](#multiclient).
+
+
+### Qui veu la meva imatge de perfil?
+
+Pots afegir una foto de perfil a la teva configuració. Si escrius als teus contactes o els afegeixes mitjançant un codi QR, la veuran automàticament com la teva foto de perfil.
+
+Per motius de privacitat, ningú no veu la teva foto de perfil fins que no els envies un missatge.
+
+
+Puc establir una biografia/estat amb Delta Chat? {#signature}
+
+Sí, ho pots fer a **Configuració → Perfil → Biografia**. Un cop has enviat un missatge a un contacte, aquest el veurà quan consulti les teves dades de contacte.
+
+
+### Què signifiquen Fixar, Silencia i Arxivar?
 
 Use these tools to organize your chats and keep everything in its place:
 
@@ -142,7 +133,7 @@ Use these tools to organize your chats and keep everything in its place:
 To use the functions, long tap or right click a chat in the chat list.
 
 
-### How do "Saved Messages" work? {#save}
+### Com funcionen els "Missatges Desats" {#save}
 
 **Saved Messages** is a chat that you can use to easily remember and find messages.
 
@@ -164,7 +155,7 @@ Messages stay saved even if they are edited or deleted -
 may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
 
 
-### What does the green dot mean?
+### Què significa el punt verd?
 
 You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
 next to the avatar of a contact.
@@ -206,7 +197,7 @@ Note, that the original message may still be received by chat members
 who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
-### How do disappearing messages work? {#ephemeralmsgs}
+### Com funcionen els missatges que desapareixen? {#ephemeralmsgs}
 
 You can turn on "disappearing messages"
 in the settings of a chat,
@@ -259,7 +250,7 @@ For more info, please refer to [nine.testrun.org address-deletion](https://nine.
 or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
 
 
-## Groups {#groups}
+## Grups {#groups}
 
 Groups let several people chat together privately with **equal rights**.
 
@@ -272,7 +263,7 @@ and [delete their own messages](#edit) from all member's devices.
 Because all members have the same rights, groups work best among **trusted friends and family**.
 
 
-### Creation of a group
+### Creació d'un grup
 
 - Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
 
@@ -281,7 +272,7 @@ Because all members have the same rights, groups work best among **trusted frien
 - As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
 
 
-### Add and remove members {#addmembers}
+### Afegeix i elimina membres {#addmembers}
 
 All group members have the **same rights**.
 For this reason, everyone can delete any member or add new ones.
@@ -301,7 +292,7 @@ QR code and invite link can be used to add several members.
 However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
 
 
-### I have deleted myself by accident.
+### M'he esborrat a mi mateix per accident
 
 As you're no longer a group member, you cannot add yourself again. 
 However, no problem, just ask any other group member in a normal chat to re-add you.
@@ -315,7 +306,7 @@ However, no problem, just ask any other group member in a normal chat to re-add 
 As an alternative, you can also "Mute" a group - doing so means you get all messages and 
 can still write, but are no longer notified of any new messages.
 
-### Cloning a group
+### Clonar un grup
 
 You can duplicate a group to start a separate discussion
 or to exclude members without them noticing.
@@ -339,36 +330,36 @@ where Delta Chat is a private messenger for chatting with [equal rights](#groups
 See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
 
 
-## In-chat apps {#webxdc}
+## Apps de xat {#webxdc}
 
 You can send apps to a chat - games, editors, polls and other tools.
 This makes Delta Chat a truly extensible messenger.
 
 
-### Where can I get in-chat apps?
+### On puc trobar les apps de xat?
 
 - In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
 
 - You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
 
 
-### How private are in-chat apps?
+### Quin nivell de privacitat tenen les aplicacions de xat?
 
-- In-chat apps can not send data to the Internet, or download anything.
+- Les apps de xat no poden enviar dades a Internet o descarregar res.
 
-- An in-chat app can only exchange data within a chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
+- Una app de xat només pot intercanviar dades dins d'un xat i amb les
+còpies als dispositius dels teus companys de xat. Més enllà d'això,
+està completament aillada d'Internet.
 
-- The privacy an in-chat app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the in-chat app as well.
+- La privacitat d'una app de xat és la privacitat del teu xat, 
+si confies amb la gent amb qui xateges, pots confiar amb la app de xat.
 
 - This also means: Just like for web links, do not open apps from untrusted contacts.
 
 
-### How can I create my own in-chat apps? {#create-xdc}
+### Com puc crear la meva app de xat? {#create-xdc}
 
-- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
+- Les apps de xat són fitxers zip amb extensió `.xdc` que contenen codi html, css, i javascript.
 
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
@@ -380,7 +371,7 @@ This makes Delta Chat a truly extensible messenger.
   in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
 
 
-## Instant message delivery and Push Notifications {#instant-delivery}
+## Lliurament de missatges instantanis i Notificacions Push {#instant-delivery}
 
 ### What are Push Notifications? How can I get instant message delivery?
 
@@ -388,7 +379,7 @@ Push Notifications are sent by Apple and Google "Push services" to a user's devi
 so that an inactive Delta Chat app can fetch messages in the background
 and show notifications on a user's phone if needed.
 
-Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
+Les Notificacions Push funcionen amb tots els servidors de [chatmail](https://delta.chat/chatmail) activats
 
 - iOS devices, by integrating with Apple Push services.
 
@@ -491,14 +482,14 @@ Welcome to the power of the interoperable chatmail relay network :)
 
 ### Can I use Delta Chat on multiple devices at the same time?
 
-Yes. You can use the same profile on different devices:
+Sí. You can use the same profile on different devices:
 
 - Make sure both devices are on the same Wi-Fi or network
 
 - On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
   and wait a moment until a QR code is shown
 
-- On the second device, [install Delta Chat](https://get.delta.chat)
+- En el segon dispositiu, [instal·lar Delta Chat](https://get.delta.chat)
 
 - On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
 
@@ -510,7 +501,7 @@ both **devices are completely independent.**
 One device is not needed for the other to work.
 
 
-### Troubleshooting
+### Resolució de problemes
 
 - Double-check both devices are in the **same Wi-Fi or network**
 
@@ -545,7 +536,7 @@ One device is not needed for the other to work.
   try the **manual transfer** described below
 
 
-### Manual Transfer {#backup}
+### Transferència Manual {#backup}
 
 This method is only recommended if "Add Second Device" as described above does not work.
 
@@ -558,8 +549,7 @@ This method is only recommended if "Add Second Device" as described above does n
   If you use iOS and encounter difficulties,
   [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) might help you.
 
-You are now synchronized, and can use both devices for sending and receiving
-end-to-end encrypted messages with your communication partners.
+Ja esteu sincronitzats i podeu utilitzar els dos dispositius per enviar i rebre missatges xifrats d'extrem a extrem amb els vostres contactes.
 
 
 ### Are there any plans for introducing a Delta Chat Web Client?
@@ -574,9 +564,9 @@ end-to-end encrypted messages with your communication partners.
   [get.delta.chat](https://get.delta.chat).
 
 
-## Advanced
+## Avançat
 
-### Experimental Features {#experiments}
+### Funcionalitats experimentals {#experiments}
 
 At **Settings → Advanced → Experimental Features**
 you can try out features we are working on.
@@ -587,7 +577,7 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### What are Relays? {#relays}
+### Què són els relés? {#relays}
 
 Relays are used to temporarily hold messages in case your device is offline.
 Relays are cheap and dumb servers,
@@ -622,8 +612,7 @@ Yes, but only if the email address is used exclusively by [chatmail clients](htt
 It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
 for the following reasons:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
+Les aplicacions que no són de chatmail, en general, no aconsegueixen oferir xifratge automàtic d'extrem a extrem per correu electrònic als seus usuaris, mentre que les aplicacions i els relés de chatmail apliquen de manera omnipresent el xifrat d'extrem a extrem i els estàndards de seguretat.
 
 - Non-chatmail apps use email servers as a long-term message archive
   while chatmail clients use email servers for ephemeral instant message relay.
@@ -670,13 +659,13 @@ You can turn it on and off at
 When you turn it on,
 weekly statistics will be automatically sent to a bot.
 
-We are interested e.g. in statistics like:
+Ens interessen, per exemple, estadístiques com ara:
 
 - How many contacts are introduced by personally scanning a QR code?
 
 - Which versions of Delta Chat are being used?
 
-- What errors occur for users?
+- Quins errors es produeixen pels usuaris?
 
 We will _not_ collect any personally identifiable information about you.
 
@@ -687,43 +676,33 @@ See [Standards used in Delta Chat]({% include standards-url %}).
 
 
 
-## Encryption and Security {#e2ee}
+## Encriptació i Seguretat {#e2ee}
 
-### Which standards are used for end-to-end encryption? 
+### Quins estàndards s'utlitzen per una xifrat d'extrem a extrem?
 
-Delta Chat uses a [secure subset of the OpenPGP standard](#openpgp-secure)
-to provide automatic end-to-end encryption using these protocols: 
+Delta Chat utilitza un [subconjunt segur de l'estandard OpenPGP](#openpgp-secure) Oferint xifrat d'extrem a extrem automàtic utilitzant aquests protocols:
 
 - [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
   to exchange encryption setup information through QR-code scanning or "invite links". 
 
-- [Autocrypt](https://autocrypt.org) is used for automatically
-  establishing end-to-end encryption between contacts and all members of a group chat. 
+- S'utilitza [Autocrypt](https://autocrypt.org) per establir automaticament xifrat d'extrem a extrem entre contactes i tots els membres d'un grup de xat.
 
 - [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
   will bring post-quantum resistant encryption and forward secrecy. 
 
-- [Sharing a contact to a
-  chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
-  enables receivers to use end-to-end encryption with the contact. 
+- [Compartir un contacte en un xat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message) permet a qui ho rep, utilitzar xifrat d'extrem a extrem amb el contacte.
 
 Delta Chat does not query, publish or interact with any OpenPGP key servers. 
 
-### How can I know if messages are end-to-end encrypted? {#whene2e}
+### Com puc saber si els missatges són xifrats d'extrem a extrem? {#whene2e}
 
-All messages in Delta Chat are **end-to-end encrypted by default**.
-Since the Delta Chat Version 2 release series (July 2025) 
-there are no lock or similar markers on end-to-end encrypted messages, anymore. 
+Tots els missatges a Delta Chat són **xifrats d'extrem a extrem per defecte**. Desde el llançament de la versió 2 de Delta Chat (Juliol 2025) ja no hi haurà més candaus o marques semblants als missatges xifrats d'extrem a extrem.
 
-### Can I still receive or send messages without end-to-end encryption?
+### Encara es pot rebre missatges sense xifrat d'extrem a extrem?
 
-If you use default [chatmail relays](https://chatmail.at/relays),
-it is impossible to receive or send messages without end-to-end encryption. 
+Si utilitzes el [relé de chatmail](https://chatmail.at/relays) per defecte, no és possible de rebre o enviar missatges sense xifrat d'extrem a extrem.
 
-If you instead use a [classic email server](#classic-email),
-you can send and receive messages with or without end-to-end encryption.
-Messages lacking end-to-end encryption are marked with an email icon
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
+Si enlloc d'això utilitzes un [servidor de correu clàssic](#classic-email), podràs enviar i rebre missatges amb o sense xifrat d'extrem a extrem. Els missatges que no vagin xifrats d'extrem a extrem es marcaran amb la icona de correu-e <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
 ### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
@@ -739,22 +718,16 @@ becomes an introducer.
 In a contact profile you can tap on the "Introduced by ..." text repeatedly
 until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
 
-For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-and specifically read about "Verified Groups", the technical term
-of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+Per a una discussió més profunda sobre el "xifratge d'extrem a extrem garantit", consulteu els [protocols Secure-Join](https://securejoin.delta.chat/en/latest/new.html) i llegiu específicament sobre els "Grups Verificats", el terme tècnic que designa el que aquí s'anomenen xats amb "marcat de verificació verda" o de "xifratge d'extrem a extrem garantit".
 
-### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
+### Els adjunts (imatges, fitxers, audio, etc.) es xifren d'extrem a extrem?
 
-Yes.
+Sí.
 
-When we talk about an "end-to-end encrypted message"
-we always mean a whole message is encrypted,
-including all the attachments
-and attachment metadata such as filenames.
+Quan parlem d'un "missatge xifrat d'extrem a extrem", sempre ens referim a un missatge xifrat sencer, incloent-hi  tots els fitxers adjunts i les metadades d'aquests, com ara els noms de fitxer.
 
 
-### Is OpenPGP secure? {#openpgp-secure}
+### És OpenPGP segur? {#openpgp-secure}
 
 Yes, Delta Chat uses a secure subset of OpenPGP
 requiring the whole message to be properly encrypted and signed.
@@ -776,24 +749,14 @@ to further improve security characteristics by implementing the
 which was thankfully adopted in summer 2023. 
 
 
-### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
+### Heu considerat utilitzar alternatives a l'OpenPGP per al xifratge d'extrem a extrem? {#openpgp-alternatives}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-but adopting them would mean breaking end-to-end encryption interoperability.
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+Sí, estem seguint iniciatives com [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security), però adoptar-les significaria trencar la interoperabilitat del xifrat d'extrem a extrem. Per tant, no seria una decisió fàcil de prendre i hi hauria d'haver millores tangibles per a les usuaries. 
 
-Delta Chat takes a holistic "usable security" approach 
-and works with a wide range of activist groupings as well as 
-renowned researchers such as [TeamUSEC](https://teamusec.de) 
-to improve actual user outcomes against security threats. 
-The wire protocol and standard for establishing end-to-end encryption is
-only one part of "user outcomes",
-see also our answers to [device-seizure](#device-seizure)
-and [message-metadata](#message-metadata) questions. 
+Delta Chat adopta un enfocament holístic de "seguretat usable" i treballa amb una àmplia gamma de col·lectius activistes, així com amb investigadors de renom com [TeamUSEC](https://teamusec.de), per millorar els resultats reals dels usuaris davant de les amenaces de seguretat. El protocol i estàndard de xifrat d'extrem a extrem és només una part dels "resultats per a l'usuari", vegeu les respostes a les preguntes sobre [confiscació del dispositiu](#device-seizure) i [metadades dels missatge](#message-metadata). 
 
 
-### Is Delta Chat vulnerable to EFAIL?
+### És Delta Chat vulnerable a EFAIL?
 
 No, [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
 because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
@@ -809,21 +772,9 @@ as defined by the Autocrypt Level 1 specification.
 
 ### Are messages marked with the mail icon exposed on the Internet? {#tls}
 
-If you are sending or receiving email messages without end-to-end encryption (using a classic email server),
-they are still protected from cell or cable companies who can not read or modify your email messages.
-But both your and your recipient's email providers
-may read, analyze or modify your messages, including any attachments. 
+Si envieu o rebeu missatges de correu electrònic sense xifratge de punta a punta (fent servir un servidor de correu electrònic clàssic), encara estan protegits de les companyies de telefonia mòbil o per cable, que no poden llegir ni modificar els vostres missatges de correu electrònic. Però tant el vostre proveïdor de correu electrònic com el del destinatari poden llegir, analitzar o modificar els vostres missatges, inclosos els fitxers adjunts. 
 
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your email provider.
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's email provider
-will typically be transport-encrypted as well.
-If the involved email servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between email providers
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
+Delta Chat utilitza per defecte un [xifrat TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) estricte, que protegeix les connexions entre el teu dispositiu i el teu proveïdor de correu electrònic. Tota la gestió de TLS de Delta Chat ha estat objecte d'una [auditoria de seguretat](#security-audits) independent. A més a més, la connexió entre el vostre proveïdor de correu electrònic i el del destinatari també sol xifrar les comunicacions. Si els servidors de correu electrònic implicats admeten [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461), aleshores es xifraran les comunicacions entre els proveïdors de correu electrònic, i en aquest cas les comunicacions de Delta Chat mai no estaran exposades en text pla a Internet, fins i tot si el missatge no estava xifrat d'extrem a extrem.
 
 
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
@@ -832,7 +783,7 @@ Unlike most other messengers,
 Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
 Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
 
-Servers can therefore only see:
+Per tant, els servidors només poden veure:
 
 - Sender and receiver addresses, randomly generated by default
 - Message size
@@ -852,7 +803,7 @@ Moreover, if a device is seized then chat contacts using short-lived profiles
 can not be identified easily. 
 
 
-### Who sees my IP Address?
+### Qui veu la meva Adreça IP?
 
 The used [relay](#relays) needs to know your IP Address,
 as well as sometimes your contact's devices if you have a [call](#experiments)
@@ -873,9 +824,9 @@ Hunting down options in all apps on your system will leave gaps.
 For example, tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
 
 
-### Does Delta Chat support "Sealed Sender"? {#sealedsender}
+### Delta Chat admet "Remitent Segellat""? {#sealedsender}
 
-No, not yet. 
+No, encara no.
 
 The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
 to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
@@ -905,7 +856,7 @@ and doesn't even need to decrypt any previously collected messages.
 will provide reliable deletion (forward secrecy) through automatic key rotation.
 This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
-### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
+### Delta Chat implementa Criptografia Post-Quàntica? {#pqc}
 
 Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
 
@@ -915,7 +866,7 @@ Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
 which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
 The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
-### How can I manually check encryption information?
+### Com puc comprobar manualment la informació d'encriptació?
 
 You may check the end-to-end encryption status manually in the "Encryption" dialog
 (user profile on Android/iOS or right-click a user's chat-list item on desktop).
@@ -925,7 +876,7 @@ the connection is safe.
 
 ### Can I reuse my existing private key? {#importkey}
 
-No. 
+No.
 
 Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
 We do not recommend or offer users to perform manual key management.
@@ -995,33 +946,33 @@ from most recent to older:
   You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
 
 
-## Miscellaneous
+## Miscel·lània
 
-### Which permissions does Delta Chat need?
+### Quins permissos necessita Delta Chat?
 
 Some features require certain permissions,
 e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/en/gdpr#24-app-permissions) for a detailed overview.
+Consulta la [política de privacitat](https://delta.chat/en/gdpr#24-app-permissions) per una visió general detallada.
 
 
-### Where can my friends find Delta Chat?
+### On poden trobar Delta Chat els meus amics?
 
 Delta Chat is available for all major and some minor platforms:
 
 - El **lloc web oficial**, <https://delta.chat/download> mostra totes les opcions en detall
 
-- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+- Si no està disponible, utilitza un **mirall** a <https://deltachat.github.io/deltachat-pages>
 
 - Open one of the following **app stores and search for "Delta Chat":**
   Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
 
 - Check the **package manager** of your Linux distributions
 
-- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
+- Els **APKs d'Android** també estan disponibles a <https://github.com/deltachat/deltachat-android/releases>
 
 
-### How are Delta Chat developments funded? 
+### Com es finança el desenvolupament de Delta Chat? 
 
 Delta Chat does not receive any Venture Capital and
 is not indebted, and under no pressure to produce huge profits, or to 
@@ -1070,7 +1021,7 @@ ordered chronologically:
   Receiving more donations also helps us to become more independent and long-term viable
   as a contributor community. 
 
-  [Donate Money](donate){: .cta-button}
+  [Donatius](donate){: .cta-button}
 
 - Last but by far not least, several pro-bono experts and enthusiasts contributed 
   and contribute to Delta Chat developments without receiving money, or only 
