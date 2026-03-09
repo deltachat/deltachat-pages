@@ -198,7 +198,7 @@ Note, that the original message may still be received by chat members
 who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
-### How is media quality handled?
+### How is media quality handled? {#mediaquality}
 
 Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach-**
 or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons.
