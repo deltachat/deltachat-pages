@@ -83,14 +83,6 @@ The second contact will receive a **card** then
 and can tap it to start chatting with the first contact.
 
 
-### Does Delta Chat support images, videos and other attachments?
-
-Yes. Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment-**
-or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons
-
-For performance, images are optimized and sent at a smaller size by default, but you can send it as a "file" to preserve the original.
-
-
 ### What are profiles? How can I switch between them? {#multiple-accounts}
 
 A profile is **a name, a picture** and some additional information for encrypting messages.
@@ -204,6 +196,21 @@ Notifications are not sent and there is no time limit.
 
 Note, that the original message may still be received by chat members
 who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+
+
+### How is media quality handled?
+
+Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons.
+
+- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
+  This is ideal for everyday communication.
+
+- In regions with worse connectivity,
+  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+
+- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
+  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
 
 
 ### How do disappearing messages work? {#ephemeralmsgs}
