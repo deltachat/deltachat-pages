@@ -83,14 +83,6 @@ O segundo contato receberá um **cartão**
 e poderá tocar nele para começar a conversar com o primeiro contato.
 
 
-### Dá para mandar imagens, vídeos e outros anexos pelo Delta Chat?
-
-Sim. Imagens, vídeos, arquivos, mensagens de voz etc. podem ser enviados usando os botões de<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anexo-**
-ou <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Mensagem de Voz**
-
-Para fins de desempenho, as imagens são otimizadas e enviadas em um tamanho menor por padrão, mas você pode enviá-las como um "arquivo" para preservar o original.
-
-
 ### O que são contas? Como posso alternar entre elas? {#multiple-accounts}
 
 Uma conta é **um nome, uma foto** e algumas informações adicionais para criptografar mensagens.
@@ -202,6 +194,21 @@ Não são enviadas notificações e não há limite de tempo.
 
 Observe que a mensagem original ainda pode ser recebida pelos membros do conversa 
 que podem ter respondido, encaminhado, salvo, capturado a tela ou copiado a mensagem antes da alteração dela.
+
+
+### How is media quality handled? {#mediaquality}
+
+Imagens, vídeos, arquivos, mensagens de voz etc. podem ser enviados usando os botões de<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anexo-**
+ou <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Mensagem de Voz**
+
+- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
+  This is ideal for everyday communication.
+
+- In regions with worse connectivity,
+  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+
+- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
+  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
 
 
 ### Como funcionam as mensagens efêmeras? {#ephemeralmsgs}

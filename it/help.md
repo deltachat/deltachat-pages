@@ -82,14 +82,6 @@ Il secondo contatto riceverà una **scheda**
 e potrà toccarla per iniziare a chattare con il primo contatto.
 
 
-### Delta Chat supporta immagini, video e altri allegati?
-
-Sì. Immagini, video, files, messaggi vocali ecc. possono essere inviati utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Allegato-**
-o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> pulsanti **Messaggio Vocale**
-
-Per le prestazioni, le immagini sono ottimizzate e inviate in dimensioni inferiori per impostazione predefinita, ma è possibile inviarle come "file" per preservare l'originale.
-
-
 ### Cosa sono i profili? Come posso passare dall'uno all'altro? {#multiple-accounts}
 
 Un profilo è costituito da **un nome, un'immagine** e alcune informazioni aggiuntive per la crittografia dei messaggi.
@@ -202,6 +194,21 @@ Non vengono inviate notifiche e non c'è limite di tempo.
 
 Nota che il messaggio originale potrebbe essere ancora sui dispositivi dei membri della chat
 che avrebbero già potuto rispondere, inoltrare, salvare, scattare una schermata o copiare il messaggio in altri modi. 
+
+
+### How is media quality handled? {#mediaquality}
+
+Immagini, video, files, messaggi vocali ecc. possono essere inviati utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Allegato-**
+o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> pulsanti **Messaggio Vocale**
+
+- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
+  This is ideal for everyday communication.
+
+- In regions with worse connectivity,
+  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+
+- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
+  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
 
 
 ### Come funzionano i messaggi a scomparsa? {#ephemeralmsgs}

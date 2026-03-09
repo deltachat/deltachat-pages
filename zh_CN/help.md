@@ -77,14 +77,6 @@ Delta Chat 是一款可靠、去中心化和安全的消息应用程序、
 然后可以点击它与第一个联系人开始聊天。
 
 
-### Delta Chat 支持图像、视频和其他附件吗？
-
-可以。可以使用<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **附件-** 或 **语音留言**按钮发送图片、视频、文件和语音留言等。
-或<img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **语音信息** 按钮进行发送
-
-为了提高性能，默认情况下会对图像进行优化并以较小的尺寸发送，但您也可以将其作为 "文件 "发送，以保留原始图像。
-
-
 ### 什么是账户资料？如何在它们之间切换？ {#multiple-accounts}
 
 一份账户资料包括**姓名、照片**和一些额外的加密信息。
@@ -193,6 +185,21 @@ Delta Chat 是一款可靠、去中心化和安全的消息应用程序、
 
 需特别提示：若聊天成员已对消息进行过回复、转发、保存本地、截图留存或其他形式的复制操作，
 即使您后续编辑了原始消息，对方设备上仍可能留存原内容。
+
+
+### How is media quality handled? {#mediaquality}
+
+Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach-**
+or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons.
+
+- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
+  This is ideal for everyday communication.
+
+- In regions with worse connectivity,
+  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+
+- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
+  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
 
 
 ### 消息定时销毁是如何工作的？ {#ephemeralmsgs}
