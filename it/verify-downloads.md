@@ -20,11 +20,11 @@ Per stampare l'impronta SHA256 del certificato di firma dell'APK puoi usare, per
 
 ## Desktop
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
+1. Apri il terminale e **cambia cartella** per trovare il file che vuoi verificare, ad esempio
    `deltachat-desktop_<VERSION>_amd64.deb`
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Scarica i codici di verifica firmati e importa la chiave;**
+   `<VERSION>` deve essere sostituito dal numero di versione, ad esempio `2.33.0`
 
    ```
    wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
@@ -32,15 +32,15 @@ Per stampare l'impronta SHA256 del certificato di firma dell'APK puoi usare, per
    gpg --import deltachat_certificate.asc.txt
    ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+   La chiave è disponibile anche su [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-3. **Verify and check results**
+3. **Verifica e controlla i risultati**
 
    ```
    gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
-   Expected output:
+   Risultato previsto:
 
    ```
    gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
@@ -50,10 +50,10 @@ Per stampare l'impronta SHA256 del certificato di firma dell'APK puoi usare, per
    <FILE>: OK
    ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Assicurati che l'impronta digitale corrisponda e che il file che desideri verificare sia elencato.
+L'avviso è normale, poiché non hai esplicitamente considerato attendibile la chiave.
 
-If gpg is broken on your system, you can use  
+Se gpg è danneggiato sul tuo sistema, puoi usare
 `cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
 `cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+si noti che quest'ultimo verifica l'integrità ma _non_ la chiave dello sviluppatore.

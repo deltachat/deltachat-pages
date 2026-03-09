@@ -74,14 +74,6 @@ Der zweite Kontakt erhält dann die **Kontaktdaten** und
 kann darauf tippen, um mit dem ersten Kontakt zu chatten.
 
 
-### Unterstützt Delta Chat Bilder, Videos und Dateianhänge?
-
-Ja. Bilder, Videos, Dateien, Sprachnachrichten und mehr können über die <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhang-**
-  bzw. <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Sprachnachricht**-Buttons hinzugefügt werden.
-
-Um die Leistung zu verbessern, werden die Bilder standardmäßig optimiert und in einer kleineren Größe gesendet. Du kannst sie auch als "Datei" senden, um das Original zu versenden.
-
-
 ### Was sind Profile? Wie kann ich zwischen ihnen wechseln? {#multiple-accounts}
 
 Ein Profil besteht aus **einem Namen, einem Bild** und einigen zusätzlichen Informationen zum Verschlüsseln von Nachrichten.
@@ -181,6 +173,20 @@ Es werden keine Benachrichtigungen verschickt und es gibt kein Zeitlimit.
 
 Beachten, dass die ursprüngliche Nachricht dennoch von Chatteilnehmern empfangen worden sein könnte,
 die die Nachricht bereits beantwortet, weitergeleitet, gespeichert, mit einem Screenshot versehen oder anderweitig kopiert haben könnten.
+
+
+### Medienqualität und Datenverbrauch {#mediaquality}
+
+Bilder, Videos, Dateien, Sprachnachrichten und mehr können über die <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhang-**
+  bzw. <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Sprachnachricht**-Buttons hinzugefügt werden.
+
+- Standardmäßig sorgt Komprimierung für eine **schnelle, effiziente Übertragung**, die die Datenlimits und Speicherplatzkapazitäten aller Beteiligten berücksichtigt.
+Dies ist ideal für die tägliche Kommunikation.
+
+- In Regionen mit schlechter Verbindung können Sie unter **Einstellungen → Chats →  Medienqualität beim Senden** eine höhere Komprimierung wählen.
+
+- Wenn Sie Medien ausdrücklich in ihrer **Originalqualität** senden müssen, verwende im Chat die Option <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhängen → Datei**.
+Verwende diese Methode nur sparsam, da das Senden von Originaldateien den Datenverbrauch für dich und alle Empfänger im Chat erheblich erhöht.
 
 
 ### Wie funktionieren "Verschwindende Nachrichten"? {#ephemeralmsgs}

@@ -80,14 +80,6 @@ El segon contacte llavors rebrà una **tarjeta**
 i hi podrà premer per iniciar una conversa amb el primer contacte.
 
 
-### Delta Chat  permet enviar imatges, vídeos i altres adjunts?
-
-Sí. Es poden enviar imatges, vídeos, fitxers, missatges de veu, etc. utilitzant els botons d'<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjunt-**
-o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Missatge de veu**.
-
-Per rendiment, les imatges, per defecte, són optimitzades i enviades amb una mida més petita, però pots enviar-les com un fitxer per preservar la original.
-
-
 ### Què són els perfils? Com puc canviar entre ells?{#multiple-accounts}
 
 Un perfil és **un nom, una imatge** i informació adicional per xifrar missatges.
@@ -195,6 +187,21 @@ Notifications are not sent and there is no time limit.
 
 Note, that the original message may still be received by chat members
 who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+
+
+### How is media quality handled? {#mediaquality}
+
+Es poden enviar imatges, vídeos, fitxers, missatges de veu, etc. utilitzant els botons d'<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjunt-**
+o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Missatge de veu**.
+
+- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
+  This is ideal for everyday communication.
+
+- In regions with worse connectivity,
+  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+
+- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
+  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
 
 
 ### Com funcionen els missatges que desapareixen? {#ephemeralmsgs}
