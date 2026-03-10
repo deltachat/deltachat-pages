@@ -29,7 +29,8 @@
 
 <body id="top">
 
-<div id="menu">
+<header>
+<nav>
 <ul>
 <li aria-hidden="true"><a href="../{{page.lang}}/"><img src="../assets/logos/delta-chat.svg" width="32" height="32" style="position: relative; bottom: -3px;" /></a></li>
 <li><a href="../{{page.lang}}/">{%if tx.menu.home != ""%}{{ tx.menu.home }}{%else%}{{ txEn.menu.home }}{%endif%}</a></li>
@@ -39,7 +40,8 @@
 <li><a href="help">{%if tx.menu.help != ""%}{{ tx.menu.help }}{%else%}{{ txEn.menu.help }}{%endif%}</a></li>
 <li><a href="https://support.delta.chat">{%if tx.menu.forum != ""%}{{ tx.menu.forum }}{%else%}{{ txEn.menu.forum }}{%endif%}</a></li>
 </ul>
-</div>
+</nav>
+</header>
 
 <main>
 
