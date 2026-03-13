@@ -94,8 +94,6 @@ footer a, footer a:visited {
 /* rough layout: desktop second 
 *******************************************************************************/
 
-.desktoponly { display: none; }
-
 @media only screen and (min-width: 640px) {
     body {
         padding-top: 0px;
@@ -134,10 +132,6 @@ footer a, footer a:visited {
     #languages {
         margin: 1em 20vw;
     }
-
-    .nodesktop { display: none; }
-    span.desktoponly, i.desktoponly, b.desktoponly { display: inline !important; }
-    div.desktoponly, p.desktoponly { display: block !important; }
 }
 
 
