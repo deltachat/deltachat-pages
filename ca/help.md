@@ -109,18 +109,16 @@ Sí, ho pots fer a **Configuració → Perfil → Biografia**. Un cop has enviat
 
 ### Què signifiquen Fixar, Silencia i Arxivar?
 
-Use these tools to organize your chats and keep everything in its place:
+Utilitza aquestes eines per organitzar els teus xats i mantenir-ho tot al seu lloc:
 
-- **Pinned chats** always stay atop of the chat list. You can use them to access your most loved chats quickly or temporarily to not forget about things.
+- **Xats fixats** sempre es mantenen a sobre de la llista de xats. Els pots utilitzar per accedir ràpidament als teus xats preferits o per fixar-los temporalment per no oblidar-te d'alguna cosa.
 
-- **Mute chats** if you do not want to get notifications for them. Muted chats stay in place and you can also pin a muted chat.
+- **Silencia xats** si no vols rebre'n notificacions. Els xats silenciatats continuen sent al seu lloc i igualment es poden fixar.
 
-- **Archive chats** if you do not want to see them in your chat list any longer.
-  They remain accessible above the chat list or via search
-  and are marked by <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Archived</b>
+- **Arxiva xats** si no els vols veure més a la llista de xats.
+  Continuen sent accessibles a sobre de la llista de xats o mitjançant la cerca i estan marcats amb un ** <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Arxivat**</b>
 
-- When an archived chat gets a new message, unless muted, it will **pop out of the archive** and back into your chat list.
-  **Muted chats stay archived** until you unarchive them manually.
+- Quan un xat arxivat rep un missatge nou, tret que l'hàgiu silenciat, **sortirà de l'arxiu** i tornarà a la vostra llista de xats.  **Els xats silenciats es mantenen arxivats** fins que els desarxiveu manualment.
 
 To use the functions, long tap or right click a chat in the chat list.
 
@@ -158,21 +156,20 @@ So this is not a real time online status
 and others will as well not always see that you are "online".
 
 
-### What do the ticks shown beside outgoing messages mean?
+Què signifiquen les marques de verificació que es mostren al costat dels missatges enviats?
 
-- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  means that the message was sent successfully to the [relay](#relays).
+- **Una marca de verificació** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+  significa que el missatge s'ha enviat correctament al [relé](#relays).
 
-- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  indicate your contact has read the message.
+- **Dos tics** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/> 
+  indiquen que el teu contacte ha llegit el missatge.
 
-In [groups](#groups) the second tick means that at least one member has reported back having read the message.
+En [grups](#groups), la segona marca de verificació significa que almenys un membre ha confirmat que ha llegit el missatge.
 
-You will only get the second tick if both you and one of the recipients who read the message
-has **Settings → Chats → Read Receipts** enabled.
+Només rebràs la segona marca de verificació si tant tu com un dels destinataris que llegeixi el missatge teniu activats **Configuració → Xats → Rebuts de lectura**.
 
 
-### Correct typos and delete messages after sending {#edit}
+### Corregir errors tipogràfics i esborrar missatges després d'enviar {#edit}
 
 - You can edit the text of your messages after sending.
   For that, long tap or right click the message and select **Edit**
