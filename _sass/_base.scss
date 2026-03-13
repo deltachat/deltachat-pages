@@ -230,13 +230,6 @@ main hr { border: 1px solid #ddd; margin: 2em 0; }
   background: url(mastodon-icon.png) no-repeat 0 50%;
 }
 
-.twitter {
-  margin-left: 9px;
-  padding: 0 0 0 21px;
-  background: url(twitter-icon.png) no-repeat 0 50%;
-}
-
-
 h1,h2,h3,h4,h5,h6 {
     &:hover {
         .anchor::before {
