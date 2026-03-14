@@ -5,10 +5,6 @@ img.avatar{
   float: left;
   border-radius: 30%;
   padding: 15px;
-  /*margin: .2rem .5rem;*/
-  /*margin-top: 1rem;*/
-  /*margin-right: 1rem;*/
-  /*margin-bottom: 1rem;*/
 }
 
 div.comment-content{
@@ -24,28 +20,18 @@ div.comment-content{
 }
 
 .comment-author{
-    /*font-size: 1.2rem;*/
     margin-right: .4rem;
 }
 
 
 
-/*p.mastodon-comment-content{*/
 .mastodon-comment{
-    /*min-height: 85px;*/
     background: var(--code-bg);
-    /*word-break: break-word;*/
-    /*overflow-wrap: break-word;*/
     border-radius: 8px;
     padding: 1rem 1rem 0;
 }
 .mastodon-comment-content{
     text-decoration: none;
-    /*font-size: .85rem;*/
-    /*padding-left: 80px;*/
-    /*padding-top: 3rem;*/
-    /*padding-bottom: .4rem;*/
-    /*padding-right: 25px;*/
     padding-bottom: .6rem;
     padding-right: .6rem;
     padding-left: 80px;
