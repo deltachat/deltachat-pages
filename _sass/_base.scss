@@ -214,16 +214,12 @@ main hr { border: 1px solid #ddd; margin: 2em 0; }
 .socials {
     display: inline-flex;
     gap: 12px;
-}
 
-.feed {
-  padding: 0 0 0 21px;
-  background: url(feed-icon.png) no-repeat 0 50%;
-}
-
-.mastodon {
-  padding: 0 0 0 21px;
-  background: url(mastodon-icon.png) no-repeat 0 50%;
+    a {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 }
 
 h1,h2,h3,h4,h5,h6 {
