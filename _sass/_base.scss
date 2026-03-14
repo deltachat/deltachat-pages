@@ -211,15 +211,17 @@ main table th { background-color: #eee; font-weight: bold; }
 
 main hr { border: 1px solid #ddd; margin: 2em 0; }
 
+.socials {
+    display: inline-flex;
+    gap: 12px;
+}
 
 .feed {
-  margin-left: 9px;
   padding: 0 0 0 21px;
   background: url(feed-icon.png) no-repeat 0 50%;
 }
 
 .mastodon {
-  margin-left: 9px;
   padding: 0 0 0 21px;
   background: url(mastodon-icon.png) no-repeat 0 50%;
 }
