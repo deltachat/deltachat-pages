@@ -22,11 +22,11 @@ nav ul {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 0.5em;
 }
     
 nav li {
     display: inline-block;
-    padding-right: 0.5em;
 
     a, a:visited {
         color: #fff;
@@ -92,10 +92,12 @@ footer a, footer a:visited {
 @media only screen and (min-width: 640px) {
     nav {
         padding: 10px 0;
+
+        ul {
+            gap: 1em;
+        }
     }
     nav li {
-        padding-right: 1.0em;
-        
         a, a:visited {
             font-size: 1.125rem;
         }
