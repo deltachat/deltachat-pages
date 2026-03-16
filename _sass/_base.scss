@@ -155,8 +155,6 @@ p.blogdate {
 body {
     font-family: Arial, Verdana, Helvetica, sans-serif;
     line-height: 1.5em;
-    color: #000;
-    background-color: #fff;
 }
 
 nav, h1, h2, h3, h4, h5, h6 {
@@ -167,19 +165,16 @@ main ul, ol { margin-left: 1.5em; }
 main ul li { list-style: disc outside; margin: 0.5em 0.2em; padding-left: 0.5em; }
 ol li { list-style: decimal; margin: 0.5em 0.2em; padding-left: 0.5em; }
 
-h1,h2 { font-weight: normal; font-size: 1.625rem; letter-spacing: 1px; line-height: 1.4em; color: #000; }
+h1,h2 { font-weight: normal; font-size: 1.625rem; letter-spacing: 1px; line-height: 1.4em; }
 h3 { font-weight: bold; letter-spacing: 1px; color: #159957; }
 h4 { font-weight: bold; letter-spacing: 1px; color: #159957; }
 
 a, a:visited {
-    /*color: #0063DC;*/
     color: #1e6bb8;
     text-decoration: none;
 }
 
 a:hover {
-    /*color: #0063DC;*/
-    color: #1e6bb8;;
     text-decoration: underline;	
 }
 

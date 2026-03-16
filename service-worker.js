@@ -1360,7 +1360,6 @@ let getUserFacingHTML = (init_msgs, success_msgs=false, failure_msgs=false) => {
                 width: 30em;
                 margin: 2em auto;
                 background: #dddddd;
-                color: black;
                 font-family: sans-serif;
             }
             h1 {
