@@ -1,8 +1,8 @@
 /* reset
 *******************************************************************************/
 
-* {margin:0;padding:0} iframe,a img,fieldset,form,table {border:0} h6,h5,h4,h3,h2,h1,caption,th,td {font-size:100%;font-weight:normal}
-dd,dt,li,dl,ul,ol {list-style:none} legend {color:#000} select,textarea,input {font:100% serif} table {border-collapse:collapse} caption,th,td{text-align:left}
+* {margin:0;padding:0} iframe,a img,fieldset,form,table {border:0} h6,h5,h4,h3,h2,h1,caption,th,td {font-size:100%;}
+dd,dt,li,dl,ul,ol {list-style:none} legend {color:#000} select,textarea,input {font:100% serif} table {border-collapse:collapse} caption,th,td{font-weight:normal;text-align:left}
 
 
 
@@ -168,8 +168,8 @@ main ul li { list-style: disc outside; margin: 0.5em 0.2em; padding-left: 0.5em;
 ol li { list-style: decimal; margin: 0.5em 0.2em; padding-left: 0.5em; }
 
 h1,h2 { font-weight: normal; font-size: 1.625rem; line-height: 1.4em; }
-h3 { font-weight: bold; color: #159957; }
-h4 { font-weight: bold; color: #159957; }
+h3 { color: #159957; }
+h4 { color: #159957; }
 
 a, a:visited {
     color: #1e6bb8;
