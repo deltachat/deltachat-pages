@@ -120,40 +120,39 @@ Utilitza aquestes eines per organitzar els teus xats i mantenir-ho tot al seu ll
 
 - Quan un xat arxivat rep un missatge nou, tret que l'hàgiu silenciat, **sortirà de l'arxiu** i tornarà a la vostra llista de xats.  **Els xats silenciats es mantenen arxivats** fins que els desarxiveu manualment.
 
-To use the functions, long tap or right click a chat in the chat list.
+Per utilitzar les funcions, mantingueu premut llargament o feu clic amb el botó dret en un xat a la llista de xats.
 
 
 ### Com funcionen els "Missatges Desats" {#save}
 
-**Saved Messages** is a chat that you can use to easily remember and find messages.
+**Missatges desats** és un xat que pots utilitzar per recordar i trobar missatges fàcilment.
 
-- In any chat, long tap or right click a message and select **Save**
+- A qualsevol xat, prem llargament o clica amb el botó dret un missatge i tria **Desar**
 
-- Saved messages are marked by the symbol
+- Els missatges desats estan marcats amb aquest símbol
   <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
-  next to the timestamp
+al costat de la marca horària
 
-- Later, open the "Saved Messages" chat - and you will see the saved messages there.
-  By tapping <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
-  you can go back to the original message in the original chat
+- Després, obre el xat "Missatges desats" i veuràs els missatges desats.
+  Prement <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/go-to-original.png" alt="Arrow-right icon"/>,
+pots tornar al missatge original en el xat d'on prové.
 
-- Finally, you can also use "Saved Messages" to take **personal notes** - open the chat, type something, add a photo or a voice message etc.
+- Finalment, també pots fer servir "Missatges desats" per prendre **notes personals**, obre el xat i escriu alguna cosa o afegeix una imatge, un missatge de veu, etc.
 
-- As "Saved Message" are synced, they can become very handy for transferring data between devices
+- Ja que els "Missatges Desats" són sincronitzats, és molt pràctic per transferir dades entre dispositius
 
-Messages stay saved even if they are edited or deleted -
-may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+Els missatges es mantenen desats fins i tot si s'editen o esborren, ja sigui  pel [remitent](#edit), per [neteja del dispositiu](#delold) o per [missatges efímers d'altres xats](#ephemeralmsgs).
 
 
 ### Què significa el punt verd?
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen by you** in the last 10 minutes,
-e.g. because they messaged you or sent a read receipt.
+Algunes vegades veuràs un **punt verd** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+en l'avatar d'un contacte.
+Vol dir que **els has vist recentment** en els últims 10 minuts,
+ja sigui perquè t'han enviat un missatge o han enviat una confirmació de lectura.
 
-So this is not a real time online status
-and others will as well not always see that you are "online".
+Per tant, no és un estat en línia en temps real
+i els altres tampóc veuran sempre que estàs "en línia".
 
 
 Què signifiquen les marques de verificació que es mostren al costat dels missatges enviats?
@@ -171,180 +170,139 @@ Només rebràs la segona marca de verificació si tant tu com un dels destinatar
 
 ### Corregir errors tipogràfics i esborrar missatges després d'enviar {#edit}
 
-- You can edit the text of your messages after sending.
-  For that, long tap or right click the message and select **Edit**
-  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+- Pots modificar el text dels teus missatges després d'enviats. Per a fer-ho, prem llargament o clica amb el botó dret el missatge i tria **Modifica** o <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
 
-- If you have sent a message accidentally,
-  from the same menu, select **Delete** and then **Delete for Everyone**.
+- Si has enviat un missatge per error, des del mateix menú, tria **Esborra el missatge** i després **Esborra per a tothom**.
 
-While edited messages will have the word "Edited" next to the timestamp,
-deleted messages will be removed without a marker in the chat.
-Notifications are not sent and there is no time limit.
+Mentres que els missatges editats tindran la paraula "Editat" al costat de la marca horaria, els missatges esborrats seran esborrats sense cap marcador en el xat. No s'envien notificacions i no hi ha límit de temps.
 
-Note, that the original message may still be received by chat members
-who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+Tingues en compte que el missatge original pot haver estat rebut pels membres del xat i poden haver respost, reenviat, desat, fet una captura de pantalla o copiat el missatge.
 
 
-### How is media quality handled? {#mediaquality}
+### Com es gestiona la qualitat dels fitxers multimèdia? {#mediaquality}
 
 Es poden enviar imatges, vídeos, fitxers, missatges de veu, etc. utilitzant els botons d'<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjunt-**
 o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Missatge de veu**.
 
-- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
-  This is ideal for everyday communication.
+- Per defecte, la compressió assegura una **entrega ràpida i eficient** que respecta els límits d'emmagatzematge i transferència de dades.
 
-- In regions with worse connectivity,
-  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+- A les zones amb pitjor connexió, pots triar una compressió més alta anant a **Configuració → Xats i multimèdia → Qualitat del contingut multimèdia sortint**.
 
-- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
-  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
+- Si necessites enviar **fitxers multimedia** amb la qualitat original, fes-ho a través de <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjunta → Fitxer** al xat.
+ Utilitza aquest mètode amb moderació, ja que fent-ho així s'augmenta considerablement lel consum de dades tant per a tu com per a tots els destinataris del xat.
 
 
-### Com funcionen els missatges que desapareixen? {#ephemeralmsgs}
+### Com funcionen els missatges efímers? {#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 5 minutes and 1 year.
+Pots activar els «missatges efímers» a la configuració d'un xat, a la part superior dreta de la finestra de xat, seleccionant un interval de temps entre 5 minuts i 1 any.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted both,
-on the servers,
-and in the apps itself.
+Fins que la configuració es torni a desactivar, l'aplicació Delta Chat de cada membre de la conversa s'encarregarà d'eliminar els missatges després de l'interval de temps seleccionat. L'interval de temps comença quan el destinatari veu el missatge per primera vegada a Delta Chat. Els missatges s'eliminen tant als servidors com a les aplicacions.
 
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can take photos,
-or otherwise save, copy or forward messages before deletion.
+Tingueu en compte que podeu confiar en els missatges efímers només si confieu en els vostres interlocutors; els interlocutors maliciosos poden fer fotos o d'una altra manera, desar, copiar o reenviar missatges abans que s'esborrin.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the (anyway encrypted) messages may take longer to get deleted from their server.
+A part d'això, si un interlocutor desinstal·la Delta Chat, els missatges (de tota manera xifrats) poden trigar més a ser eliminats del seu servidor.
 
 
-### What happens if I turn on "Delete Messages from Device"? {#delold}
+### Què passa si activo "Esborra els missatges del dispositiu"?{#delold}
 
-If you want to save storage on your device, you can choose to delete old
-messages automatically.
+Si vols estalviar espai d'emmagatzematge al dispositiu, pots triar d'esborrar automàticament els missatges antics.
 
-To turn it on, go to **Settings → Chats → Delete Message from Device**.
-You can set a timeframe between "after an hour" and "after a year";
-this way, *all* messages will be deleted from your device as soon as they are
-older than that.
+Per activar-ho, ves a **Configuració → Xats → Esborra missatges del dispositiu**. Podeu establir un interval de temps entre "d'aquí a una hora" fins a "d'aquí a un any"; d'aquesta manera, *tots* els missatges s'esborraran del teu dispositiu tan bon punt passi el temps indicat.
 
 
-### How can I delete my chat profile? {#remove-account} 
+### Com puc esborrar el meu perfil de xat? {#remove-account} 
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+Si estàs fent servir més d'un perfil de xat, en pots eliminar de manera individual al menú superior de canvi de perfil (a Android i iOS),
+o a la barra lateral amb un clic amb el botó dret (a l'aplicació d'escriptori).
+Els perfils de xat només s'eliminen del dispositiu des del qual s'ha eliminat.
+Aquell perfil de xat en altres dispositius continuarà funcionant. 
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+Si utilitzes un sol perfil de xat per defecte, directament pots desinstal·lar l'aplicació.
+Això igualment desencadenarà l'eliminació automàtica de totes les dades d'adreça associades al servidor de chatmail.
+Per a més informació, consulta [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
+o la pàgina corresponent del [servidor de chatmail de tercers](https://chatmail.at/relays) que hagis triat.
 
 
 ## Grups {#groups}
 
-Groups let several people chat together privately with **equal rights**.
+Els grups permeten que diverses persones xategin juntes de manera privada amb **igualtat de drets**.
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+Qualsevol pot canviar el nom o l'avatar del grup, [afegir o eliminar membres](#addmembers), establir [missatges efímers](#ephemeralmsgs) i [esborrar els seus propis missatges](#edit) als dispositius de tots dels membres.
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+Com que tots els membres tenen els mateixos drets, els grups funcionen millor entre **amics i familiars de confiança**.
 
 
 ### Creació d'un grup
 
-- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+- Selecciona **Xat nou**, el botó circular amb un '+' que hi ha abaix de la llista de contactes i llavors **Grup nou** a la nova finestra que ha aparegut.
 
-- On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
+- A la pantalla següent, selecciona els **membres del grup** i defineix un **nom del grup**. També pots seleccionar un **avatar del grup**.
 
-- As soon as you write the **first message** in the group, all members are informed about the new group and can answer in the group (as long as you do not write a message in the group the group is invisible to the members).
+- Quan escrius el **primer missatge** al grup, tots els membres en són informats i poden respondre-hi (mentres no escriguis cap missatge al grup, el grup és invisible per als membres).
 
 
 ### Afegeix i elimina membres {#addmembers}
 
-All group members have the **same rights**.
-For this reason, everyone can delete any member or add new ones.
+Tots els membres del grup tenen **els mateixos drets**.
+Per aquest motiu, tothom pot esborrar qualsevol membre o afegir-ne de nous.
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- Per **afegir o eliminar membres**, toca el nom del grup al xat i selecciona el membre que vulguis afegir o eliminar.
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- Si el membre encara no és a la teva llista de contactes, però està **en persona**, des de la mateixa pantalla, mostra un **codi QR**.  
+  Demana a la persona que **escanegi** la imatge QR amb la seva aplicació de Delta Chat prement
+ <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> a la pantalla principal.
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- Per afegir un nou contacte de manera **remota**,
+  feu clic a "Copia" o "Comparteix" i envia l'**enllaç d'invitació**
+  a través d'un altre xat privat amb qui et vulguis comunicar.
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+El codi QR i l'enllaç d'invitació es poden utilitzar per afegir diversos membres.
+No obstant això, com que els grups són [per a persones de confiança](#groups), evita compartir-los públicament.
 
 
 ### M'he esborrat a mi mateix per accident
 
-As you're no longer a group member, you cannot add yourself again. 
-However, no problem, just ask any other group member in a normal chat to re-add you.
+Com que ja no formes part del grup, no et pots tornar a afegir. 
+Tot i així, cap problema, només has de demanar a qualsevol altre membre del grup que et torni a afegir.
 
 
-### I do not want to receive the messages of a group any longer.
+### Ja no vull rebre més missatges d'un grup.
 
-- Either delete yourself from the member list or delete the whole chat. 
-  If you want to join the group again later on, ask another group member to add you again.
+- O bé elimina't de la llista de membres o bé elimina tot el xat. 
+ Si vols tornar a unir-te al grup més endavant, demana a un altre membre del grup que et torni a afegir.
 
-As an alternative, you can also "Mute" a group - doing so means you get all messages and 
-can still write, but are no longer notified of any new messages.
+Com a alternativa, també pots silenciar un grup, així rebràs tots els missatges i encara podràs escriure, però ja no rebràs notificacions de cap missatge nou.
 
 ### Clonar un grup
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+Podeu duplicar un grup per iniciar una discussió separada o per excloure'n membres sense que s'adonin.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Obre el perfil del grup i prem **Clonar xat** (Android/iOS),
+  o fes clic amb el botó dret al grup des de la llista de xats (escriptori).
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- Estableix un nom nou, tria un avatar i ajusta la llista de membres si cal.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
+El grup nou és **totalment independent** de l'original, que continua funcionant com abans.
 
 
-### How many members can participate in a single group?
+### Quants membres poden participar en un sol grup?
 
-There is no strict technical limit,
-but more than 150 is not recommended.
+A nivell tècnic no hi ha un límit fixat, però no es recomana superar els 150 membres.
 
-As groups get larger, they can become socially unstable and may need a hierarchy -
-where Delta Chat is a private messenger for chatting with [equal rights](#groups).
-See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
+A mesura que els grups es fan més grans, poden esdevenir socialment inestables i potser necessiten una jerarquia - on Delta Chat és un sistema de missatgeria privada per parlar entre [entre iguals](#groups).
+Visita [el nombre de Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) per a més informació.
 
 
 ## Apps de xat {#webxdc}
 
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
+Podeu enviar aplicacions a un xat: jocs, editors, enquestes i altres eines. Això converteix Delta Chat en un sistema de missatgeria realment extensible.
 
 
 ### On puc trobar les apps de xat?
 
-- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
+- En un xat, fent servir <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botó d'Adjuntar → App**
 
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+- També podeu [crear la vostra pròpia aplicació](#create-xdc) i adjuntar-la fent servir el botó <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjuntar fitxer → File**
 
 
 ### Quin nivell de privacitat tenen les aplicacions de xat?
@@ -358,176 +316,126 @@ està completament aillada d'Internet.
 - La privacitat d'una app de xat és la privacitat del teu xat, 
 si confies amb la gent amb qui xateges, pots confiar amb la app de xat.
 
-- This also means: Just like for web links, do not open apps from untrusted contacts.
+- Això també vol dir: igual que amb els enllaços web, no obris aplicacions de contactes que no confiis.
 
 
 ### Com puc crear la meva app de xat? {#create-xdc}
 
 - Les apps de xat són fitxers zip amb extensió `.xdc` que contenen codi html, css, i javascript.
 
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
+- Per començar, pots ampliar l'aplicació d'exemple [Hola Món](https://github.com/webxdc/hello).
 
-- All else you need to know is written in the
-  [Webxdc documentation](https://webxdc.org/docs).
+- Tot el que necessites saber està escrit a la [documentació de Webxdc](https://webxdc.org/docs).
 
-- If you have question, you can ask others with experience
-  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+- Si tens cap pregunta, pots preguntar a altres persones amb experiència al [Fòrum de Delta Chat](https://support.delta.chat/c/webxdc/20).
 
 
 ## Lliurament de missatges instantanis i Notificacions Push {#instant-delivery}
 
-### What are Push Notifications? How can I get instant message delivery?
+Què són les notificacions push? Com puc rebre missatges instantanis?
 
-Push Notifications are sent by Apple and Google "Push services" to a user's device
-so that an inactive Delta Chat app can fetch messages in the background
-and show notifications on a user's phone if needed.
+Les notificacions push s'envien pels "serveis push" d'Apple i Google al dispositiu d'un usuari, així una aplicació de Delta Chat inactiva, quan és necessari, pot obtenir missatges en segon pla i mostrar notificacions al telèfon d'un usuari.
 
 Les Notificacions Push funcionen amb tots els servidors de [chatmail](https://delta.chat/chatmail) activats
 
-- iOS devices, by integrating with Apple Push services.
+- Els dispositius iOS, integrant-se amb els serveis Apple Push.
 
-- Android devices, by integrating with the Google FCM Push service,
-  including on devices that use [microG](https://microg.org)
-  instead of proprietary Google code on the phone.
+- Dispositius Android, mitjançant la integració amb el servei de notificacions Push de Google FCM, incloent-hi els dispositius que utilitzen [microG](https://microg.org) al telèfon enlloc del codi propietari de Google.
 
 
-### Are Push Notifications enabled on iOS devices? Is there an alternative?
+Les notificacions push estan habilitades en dispositius iOS? Hi ha alguna alternativa?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Sí, Delta Chat utilitza automàticament les notificacions push per als perfils de [chatmail](https://delta.chat/chatmail).
+I no, no hi ha cap alternativa als telèfons d'Apple per aconseguir la entrega instantània de missatges perquè els dispositius d'Apple no permeten que Delta Chat reculli dades en segon pla.
+Les notificacions push s'activen automàticament per als usuaris d'iOS perquè [el sistema de notificacions push de Delta Chat que preserva la privacitat](#privacy-notifications) no exposa a Apple dades que ja no tingui.
 
 
-### Are Push notifications enabled / needed on Android devices? {#android-push}
+Les notificacions push estan habilitades o són necessàries en dispositius Android?{#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
+Si un "Servei Push" està disponible, Delta Chat activa les notificacions Push per aconseguir l'entrega instantània de missatges per a tots els usuaris de chatmail.
 
-In the Delta Chat "Notifications" settings for "Instant delivery"
-you can change the following settings effecting all chat profiles:
+A la secció "Notificacions" de la configuració de "Entrega immediata" de Delta Chat, pots canviar la configuració següent afectant a tots els perfils de xat:
 
-- Use Background Connection: If you are not using a Push service,
-  you may disable "battery optimizations" for Delta Chat,
-  allowing it to fetch messages in the background.
-  However, there could be delays from minutes to hours.
-  Some Android vendors even restrict apps completely
-  (see [dontkillmyapp.com](https://dontkillmyapp.com))
-  and Delta Chat might not show  incoming messages
-  until you manually open the app again.
+- Utilitza la connexió en segon pla: si no fas servir un servei Push, pots desactivar les «optimitzacions de bateria» per a Delta Chat, la qual cosa li permetrà recollir missatges en segon pla. No obstant això, hi pot haver retards que vagin de minuts a hores.
+Alguns proveïdors d'Android poden restringir completamenta les aplicacions (vegeu [dontkillmyapp.com](https://dontkillmyapp.com)) i és possible que Delta Chat no mostri els missatges entrants fins que no obriu manualment l'aplicació de nou.
   
-- Force Background Connection: This is the fallback option
-  if the previous options are not available or do not achieve "instant delivery".
-  Enabling it causes a permanent notification on your phone
-  which may sometimes be "minified" with recent Android phones.
+- Forçar connexió en segon pla: Aquesta és l'opció predeterminada si les opcions anteriors no estan disponibles o no aconsegueixen una «entrega instantània». Activar-la provoca una notificació permanent al telèfon, que amb telèfons Android recents, a vegades, es pot "minimitzar".
 
-Both "Background Connection" options are energy-efficient and
-safe to try if you experience messages arrive only with long delays.
+Ambdues opcions de "Connexió en segon pla" són eficients energèticament i segures de provar si experimenteu llargs retards en l'entrega de missatges.
 
 
-### How private are Delta Chat Push Notifications? {#privacy-notifications}
+### Quina privacitat tenen les notificacions push de Delta Chat?{#privacy-notifications}
 
-Delta Chat Push Notification support avoids leakage of private information.
-It does not leak profile data, IP address or message content (not even encrypted)
-to any system involved in the delivery of Push Notifications.
+El suport de les notificacions Push de Delta Chat evita la filtració d'informació privada. No filtra les dades del perfil, l'adreça IP ni el contingut dels missatges (ni tan sols els xifrats) a cap sistema implicat en el lliurament de notificacions push.
 
-Here is how Delta Chat apps perform Push Notification delivery:
+Així és com les aplicacions de Delta Chat gestionen l'enviament de notificacions Push:
 
-- A Delta Chat app obtains a "device token" locally, encrypts it and stores it
-  on the [chatmail](https://delta.chat/chatmail) server.
+- Una aplicació de Delta Chat obté localment un "token de dispositiu", el xifra i l'emmagatzema al servidor [chatmail](https://delta.chat/chatmail).
 
-- When a [chatmail](https://delta.chat/chatmail) server receives a message for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- Quan un servidor de [chatmail](https://delta.chat/chatmail) rep un missatge per a un usuari de Delta Chat, envia el token de dispositiu xifrat al proxy central de notificacions de Delta Chat.
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or profile data of Delta Chat users.
+- El proxy central de notificacions de Delta Chat desxifra el token del dispositiu i el reenvía al servei Push corresponent (Apple, Google, etc.), sense conèixer mai la IP ni les dades de perfil dels usuaris de Delta Chat.
 
-- The central Push Service (Apple, Google, etc.)
-  wakes up the Delta Chat app on your device
-  to check for new messages in the background.
-  It does not know about the profile data of the device it wakes up.
-  The central Apple/Google Push services never see any profile data (sender or receiver)
-  and also never see any message content (also not in encrypted forms).
+- El servei central de notificacions push (Apple, Google, etc.) desperta l'aplicació Delta Chat al teu dispositiu per comprovar si hi ha missatges nous en segon pla. No té coneixement de les dades de perfil del dispositiu que desperta. Els serveis push centrals d'Apple/Google mai no veuen cap dada de perfil (ni del remitent ni del destinatari) i tampoc veuen el contingut de cap missatge (ni tan sols veuen la seva forma xifrada).
 
 
-The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
-and forgets about device-tokens as soon as Apple/Google/etc processed them,
-usually in a matter of milliseconds.
+El proxy de notificacions central de Delta Chat [és petit i està totalment implementat en Rust](https://github.com/deltachat/notifiers) i oblida els tokens del dispositiu tan bon punt Apple/Google/etc. els processen, normalment en qüestió de mil·lisegons.
 
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees profile data, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
+Tingues en compte que el token del dispositiu està xifrat entre les aplicacions i el proxy de notificacions, però no està signat. D'aquesta manera, el proxy de notificacions no veu mai les dades del perfil, les adreces IP ni cap informació d'identitat criptogràfica associada al dispositiu de l'usuari(token). 
 
-Resulting from this overall privacy design, even the seizure of a chatmail server,
-or the full seizure of the central Delta Chat notification proxy
-would not reveal private information that Push services do not already have.
+Com a resultat d'aquest disseny global de privadesa, ni tan sols la confiscació d'un servidor de chatmail, o la confiscació completa del proxy central de notificacions del Delta Chat, revelaria informació privada que els serveis Push no tinguin ja.
 
 
-### Why does Delta Chat integrate with centralized proprietary Apple/Google push services?
+Per què Delta Chat s'integra amb serveis centralitzats i propietaris de push d'Apple/Google?
 
-Delta Chat is a free and open source decentralized messenger with free server choice,
-but we want users to reliably experience "instant delivery" of messages,
-like they experience from WhatsApp, Signal or Telegram apps,
-without asking questions up-front that are more suited to expert users or developers.
+Delta Chat és un missatger descentralitzat, gratuït i de codi obert amb lliure elecció de servidor, però volem que els usuaris puguin experimentar de manera fiable "l'entrega instantània" dels missatges, com ho fan amb les aplicacions de WhatsApp, Signal o Telegram, sense haver de fer preguntes previes que són més adequades per a usuaris experts o desenvolupadors.
 
-Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
-that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable chatmail relay network :)
+Tingues en compte que Delta Chat té un [petit sistema de notificacions push que preserva la privacitat](#privacy-notifications) que aconsegueix la "l'entrega immediata" de missatges per a tots els servidors de chatmail, inclòs un de potencial [que podríeu configurar vosaltres mateixos sense el nostre permís](https://delta.chat/chatmail#selfhosted). Benvinguts al poder de la xarxa interoperable de relés de chatmail :)
 
 
 
 ## Multi-client {#multiclient}
 
-### Can I use Delta Chat on multiple devices at the same time?
+### Puc utilitzar Delta Chat en diversos dispositius alhora?
 
-Sí. You can use the same profile on different devices:
+Sí. Pots utilitzar el mateix perfil en diferents dispositius:
 
-- Make sure both devices are on the same Wi-Fi or network
+- Assegura't que ambdós dispositius estan a la mateixa Wi-Fi o xarxa.
 
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+- Al primer dispositiu, aneu a **Configuració → Afegeix un segon dispositiu**, desbloquegeu la pantalla si cal i espereu un moment fins que es mostri un codi QR.
 
 - En el segon dispositiu, [instal·lar Delta Chat](https://get.delta.chat)
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- Al segon dispositiu, obriu Delta Chat, selecciona **Afegeix com a segon dispositiu** i escaneja el codi QR del dispositiu antic.
 
-- Transfer should start after a few seconds and during transfer both devices will show the **progress**.
-  Wait until it is finished on both devices.
+- La transferència hauria de començar al cap d'uns segons i, durant la transferència, tots dos dispositius mostraran el **progrés**.
+  Espera que s'acabi en ambdós dispositius.
 
-In contrast to many other messengers, after successful transfer,
-both **devices are completely independent.**
-One device is not needed for the other to work.
+A diferència de molts altres missatgers, després d'una transferència correcta, ambdós dispositius són completament independents. Cap dispositiu necessita a l'altre per funcionar.
 
 
 ### Resolució de problemes
 
-- Double-check both devices are in the **same Wi-Fi or network**
+- Verifiqueu que ambdós dispositius estiguin a la **mateixa Wi-Fi o xarxa**
 
-- On **Windows**, go to "Control Panel / Network and Internet"
-  and make sure, **Private Network** is selected as "Network profile type"
-  (after transfer, you can change back to the original value)
+- A **Windows**, aneu a «Tauler de control / Xarxa i Internet»
+  i assegureu-vos que **Xarxa privada** estigui seleccionat com a «Tipus de perfil de xarxa»
+  (després de la transferència, podeu tornar a canviar al valor original)
 
-- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+- A **iOS**, assegura't que s'ha concedit l'accés a "Configuració del sistema / Aplicacions / Delta Chat / **Xarxa local**".
 
-- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+- A **macOS**, activa "Preferències del sistema / Privacitat i seguretat / **Xarxa local** / Delta Chat"
 
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
+- El vostre sistema pot tenir un "firewall personal",
+  el cual es conegut per provocar problemes (especialment a Windows).
+  **Desactiva el firewall personal** per a Delta Chat a ambdós extrems i torna-ho a provar
 
-- **Guest Networks** may not allow devices to communicate with each other.
-  If possible, use a non-guest network.
+- **Xarxes per a convidats**: és possible que no permetin que els dispositius es comuniquin entre si.
+  Si és possible, utilitza una xarxa que no sigui per a convidats.
 
-- If you still have troubles using the same network,
-  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+- Si encara tens problemes per utilitzar la mateixa xarxa, prova d'obrir el **Punt d'accés mòbil** en un dispositiu i connectar-te a aquesta xarxa Wi-Fi des de l'altre.
 
-- Ensure there is **enough storage** on the destination device
+- Assegureu-vos que hi hagi **espai d'emmagatzematge suficient** al dispositiu de destí
 
 - If transfer started, make sure, the devices **stay active** and do not fall asleep.
   Do not exit Delta Chat.
@@ -1032,8 +940,6 @@ ordered chronologically:
   small amounts. Without them, Delta Chat would not be where it is today, not
   even close. 
 
-The monetary funding mentioned above is mostly organized by merlinux GmbH in
-Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
+El finançament monetari esmentat anteriorment està organitzat principalment per merlinux GmbH a Freiburg (Alemanya), i es distribueix a més d'una dotzena de col·laboradors d'arreu del món. 
 
-Please see [Delta Chat Contribution channels](contribute)
-for both monetary and other contribution possibilities.  
+Consulteu [Canals de contribució de Delta Chat](contribute) per a les diferents maneres de contribució, tant monetàries com d'altres tipus.  

@@ -12,9 +12,7 @@ Delta Chat est une application de messagerie fiable, décentralisée et sécuris
 
 - Création à la volée de **profils de discussion privés** grâce à des [relais chatmail](https://chatmail.at/relays) sécurisés et interopérables qui permettent des échanges instantanés et des notifications Push pour les appareils iOS et Android.
 
-- Pervasive [multi-profile](#multiple-accounts) and
-  [multi-device](#multiclient) support on all platforms
-  and between different [chatmail apps](https://chatmail.at/clients).
+- Fonctionne en [multi-profils](#multiple-accounts) et [multi-appareils](#multiclient) sur toutes les plateformes et quelque soit [l'application chatmail](https://chatmail.at/clients) utilisée.
 
 - [Applications](#webxdc) interactives permettant de jouer et collaborer au sein des discussions.
 
@@ -132,81 +130,51 @@ Les messages restent enregistrés même lorsqu'ils sont édités ou supprimés, 
 Vous pourrez parfois voir un **point vert** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> sur le profil d'un contact.
 Cela veut dire que vous avez **récemment vu** le contact dans les 10 dernières minutes, par exemple parce que vous avez échangé avec ce contact, ou que vous avez reçu un accusé de lecture.
 
-So this is not a real time online status
-and others will as well not always see that you are "online".
+Ceci n'est donc pas un indicateur temps réel de présence en ligne et vos contacts ne pourront donc pas toujours voir si vous êtes en ligne ou non.
 
 
 ### Que signifient les coches affichées à côté des messages sortants ?
 
-- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  means that the message was sent successfully to the [relay](#relays).
+- **Une marque** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/> veut dire que le message a été envoyé correctement au [relai](#relays).
 
-- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  indicate your contact has read the message.
+- **Deux marques** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/> indiquent que votre contact a lu le message.
 
-In [groups](#groups) the second tick means that at least one member has reported back having read the message.
+Au sein des [groupes](#groups) la seconde marque veut dire qu'au moins un membre du groupe a pu lire le message.
 
-You will only get the second tick if both you and one of the recipients who read the message
-has **Settings → Chats → Read Receipts** enabled.
+La seconde marque ne peut s'afficher que si vous et l'un de vos destinataires du message avez activé **Paramètres → Discussions → Accusés de lecture**.
 
 
-### Correct typos and delete messages after sending {#edit}
+### Corriger des fautes et supprimer des messages après les avoir envoyés {#edit}
 
-- You can edit the text of your messages after sending.
-  For that, long tap or right click the message and select **Edit**
-  or <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
+- Vous pouvez éditer le texte de votre message après l'avoir envoyé. Pour cela, appuyer longtemps ou faire clic droit sur le message et choisir **Modifier** ou <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
 
-- If you have sent a message accidentally,
-  from the same menu, select **Delete** and then **Delete for Everyone**.
+- Si vous avez envoyé un message par erreur vous pouvez le supprimer depuis le même menu en choisissant **Supprimer le message** puis **Supprimer pour moi** ou **Supprimer pour tout le monde**.
 
-While edited messages will have the word "Edited" next to the timestamp,
-deleted messages will be removed without a marker in the chat.
-Notifications are not sent and there is no time limit.
+Les messages modifiés seront indiqués par le mot "Modifié" à côté de l'horodatage du message, tandis que les messages supprimés le sont sans notification, ni dans la discussion, ni sur l'appareil, et peuvent l'être sans limite dans le temps.
 
-Note, that the original message may still be received by chat members
-who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+Remarque : le message original peut toutefois encore exister s'il a déjà été transféré, enregistré, ou si l'un des membres de la discussion en a fait une copie ou une capture d'écran.
 
 
-### How is media quality handled? {#mediaquality}
+### Comment est gérée la qualité des médias envoyés ? {#mediaquality}
 
 Images, vidéos, fichiers, messages vocaux etc. peuvent être envoyé avec les boutons <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pièce jointe** ou <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Message vocal**.
 
-- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
-  This is ideal for everyday communication.
+- Par défaut le niveau de compression choisi permet un **envoi rapide et efficace** des messages en respectant les limites de données et de stockage de tout le monde. C'est un réglage idéal pour des échanges standards.
 
-- In regions with worse connectivity,
-  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+- Dans les régions avec une connectivité limitée il est possible de choisir une compression plus forte dans **Paramètres → Discussions → Qualité du média en sortie**.
 
-- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
-  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
+- Si vous souhaitez absolument transmettre un fichier en **qualité originale**, utilisez <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pièce jointe → Fichier** dans la discussion. Pensez à utiliser cette fonctionnalité avec parcimonie pour limiter l'utilisation des données par toutes les personnes dans la discussion.
 
 
-### How do disappearing messages work? {#ephemeralmsgs}
+### Comment fonctionnent les messages éphémères ? {#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 5 minutes and 1 year.
+Vous pouvez activer les "Messages éphémères" dans les paramètres d'une discussion, dans le menu en haut à droite, en choisissant une durée prédéfinie entre 5 min et 1 an.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted both,
-on the servers,
-and in the apps itself.
+Tant que le paramètre reste activé, les applications de chacun des membres se chargent de supprimer les messages qui dépassent la durée définie. La durée est comptabilisée à partir du moment où le message est vu pour la première fois, et le message est supprimé au sein de l'application et sur le serveur.
 
-Note that you can rely on disappearing messages
-only as long as you trust your chat partners;
-malicious chat partners can take photos,
-or otherwise save, copy or forward messages before deletion.
+Remarque : ne faites confiance au réglage "Messages éphémères" que si vous faites confiance aux membres de la discussion. Des membres mal intentionné⋅es peuvent très bien prendre des photos, copier, sauvegarder, transférer un message avant qu'il ne soit supprimé.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the (anyway encrypted) messages may take longer to get deleted from their server.
+Enfin, si l'un⋅e des membres d'une discussion désinstalle l'application Delta Chat, les messages (chiffrés, pour rappel) peuvent rester plus longtemps sur le serveur avant d'être supprimés.
 
 
 ### Que se passe-t-il si j'active l'option "Supprimer les anciens messages de l'appareil" ? {#delold}
@@ -216,31 +184,20 @@ Vous pouvez choisir de supprimer automatiquement les anciens messages pour libé
 Pour activer cette option, ouvrez les paramètres des "Discussions et fichiers multimédias" et cliquez sur "Supprimer les anciens messages de l'appareil". Vous pouvez définir le délai après lequel *tous* les messages seront supprimés de votre appareil, parmi plusieurs choix allant de "Immédiatement" à "Après 1 année".
 
 
-### How can I delete my chat profile? {#remove-account} 
+### Comment puis-je supprimer un profil de discussion ? {#remove-account}
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+Si vous utilisez plus d'un profil dans l'application, vous pouvez supprimer un profil spécifique via le menu (en haut sur Android et iOS), ou dans la barre latérale (sur l'application de bureau) permettant de passer d'un profil à un autre. Les profils ne sont toujours supprimés que sur l'appareil en question. Les profils continueront donc d'exister sur les autres appareils le cas échéant.
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+Si vous n'utilisez qu'un seul profil vous pouvez tout simplement désinstaller l'application. Cela déclenchera la suppression des données liées au profil en question sur le serveur chatmail. Pour plus d'informations voir [Account deletion sur nine.testrun.org](https://nine.testrun.org/info.html#account-deletion) ou la page respective du [serveur chatmail](https://chatmail.at/relays) que vous utilisez.
 
 
-## Groups {#groups}
+## Groupes {#groups}
 
-Groups let several people chat together privately with **equal rights**.
+Les groupes permettent à plusieurs personnes d'avoir une discussion. Chaque membre du groupe à les **même droits**.
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+Chaque membre du groupe peut changer le nom du groupe ou l'avatar, [ajouter ou supprimer des membres](#addmembers), activer/désactiver [les messages éphémères](#ephemeralmsgs), et [supprimer leurs propres messages](#edit) sur tous les appareils des membres de la discussion.
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+Puisque tous les membres d'une discussion ont les mêmes droits, les groupes fonctionnent mieux avec des **personnes de confiance et la famille**.
 
 
 ### Création d'un groupe
@@ -252,7 +209,7 @@ Because all members have the same rights, groups work best among **trusted frien
 - Lorsque vous enverrez le **premier message** dans le groupe, tous les membres en seront informés et pourront répondre. Le groupe est invisible aux autres membres si vous n'écrivez pas de premier message.
 
 
-### Add and remove members {#addmembers}
+### Ajouter et supprimer des membres {#addmembers}
 
 All group members have the **same rights**.
 For this reason, everyone can delete any member or add new ones.
