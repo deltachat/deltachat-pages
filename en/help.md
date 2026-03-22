@@ -605,18 +605,20 @@ Relays are operated by different groups and people.
 By default, after installation, a relay is **automatically set up**,
 so you do not need to care about that.
 However, if you want to,
-you can configure relays at At **Settings → Advanced → Relays**:
+you can configure relays at **Settings → Advanced → Relays**:
 
 - You can **add** a relay by scanning its QR code;
   <https://chatmail.at/relays> shows some known ones.
   If you have multiple relays, you will receive messages on all of them.
 
-- The **default** defines the one where your chat partners send future messages to.
+- Tap on a relay to define the one that is **used for sending**.
 
 - If you **remove** a relay,
-  make sure another default relay was used for a sufficient amount of time.
-  Otherwise, messages from your chat partners won't reach you.
-  If in doubt, remove later.
+  contacts who only know this relay may not reach you until you message them again -
+  they will then learn your current relay automatically.
+  If in doubt, choose **Hide from Contacts** in the confirmation dialog and remove it later.
+
+- To **show** a hidden relay again, tap it.
 
 For more details and future possibilities of relays,
 you can follow discussions in the [Forum](https://support.delta.chat).
