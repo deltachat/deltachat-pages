@@ -611,7 +611,7 @@ you can configure relays at **Settings → Advanced → Relays**:
   [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
   If you have multiple relays, you will receive messages on all of them.
 
-- Tap on a relay to define the one that is **used for sending**.
+- Tap on a relay to set it as **used for sending**.
 
 - If you **remove** a relay,
   contacts who only know this relay may not reach you until you message them again -
