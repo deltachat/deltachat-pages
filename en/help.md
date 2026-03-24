@@ -610,12 +610,12 @@ you can configure relays at **Settings → Advanced → Relays**:
 - You can **add** a relay by scanning its QR code;
   [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
   If you have multiple relays, you will receive messages on all of them.
+  Contacts learn your current relays automatically when you message them.
 
 - Tap on a relay to set it as **used for sending**.
 
 - If you **remove** a relay,
-  contacts who only know this relay may not reach you until you message them again -
-  they will then learn your current relay automatically.
+  contacts who only know this relay may not reach you until you message them again.
   To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
   instead of removing it right away.
 
