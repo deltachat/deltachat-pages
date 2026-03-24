@@ -608,7 +608,7 @@ However, if you want to,
 you can configure relays at **Settings → Advanced → Relays**:
 
 - You can **add** a relay by scanning its QR code;
-  <https://chatmail.at/relays> shows some known ones.
+  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
   If you have multiple relays, you will receive messages on all of them.
 
 - Tap on a relay to define the one that is **used for sending**.
