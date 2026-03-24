@@ -616,7 +616,8 @@ you can configure relays at **Settings → Advanced → Relays**:
 - If you **remove** a relay,
   contacts who only know this relay may not reach you until you message them again -
   they will then learn your current relay automatically.
-  If in doubt, choose **Hide from Contacts** in the confirmation dialog and remove it later.
+  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
+  instead of completely removing the relay.
 
 - To **show** a hidden relay again, tap on it.
 
