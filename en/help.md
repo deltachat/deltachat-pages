@@ -618,7 +618,7 @@ you can configure relays at **Settings → Advanced → Relays**:
   they will then learn your current relay automatically.
   If in doubt, choose **Hide from Contacts** in the confirmation dialog and remove it later.
 
-- To **show** a hidden relay again, tap it.
+- To **show** a hidden relay again, tap on it.
 
 For more details and future possibilities of relays,
 you can follow discussions in the [Forum](https://support.delta.chat).
