@@ -7,7 +7,7 @@ lang: ca
 
 💬 Missatgeria instantània fiable amb suport per a múltiples perfils i dispositius
 
-⚡️ Registra't a un dels [relés de chatmail](https://chatmail.at/relays) segur i interoperable 
+⚡️ Registra't a un dels [retransmissors de chatmail](https://chatmail.at/relays) segurs i interoperables
 
 🥳 Aplicacions [web interactives als xats](https://webxdc.org/) per a jugar i col·laborar
 

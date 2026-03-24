@@ -574,21 +574,19 @@ Delta Chat 是一款免费且开源的去中心化即时通讯应用，用户可
 
 可以在“设置 → 高级 → 中继服务器”中配置：
 
-- 您可以通过扫描二维码来**添加**中继；
+- You can **add** a relay by scanning its QR code;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
+  If you have multiple relays, you will receive messages on all of them.
+  Contacts learn your current relays automatically when you message them.
 
-<https://chatmail.at/relays> 显示了一些已知的中继服务器。
+- Tap on a relay to set it as **used for sending**.
 
-如果您添加了多个中继，您将在所有中继上收到消息。
+- If you **remove** a relay,
+  contacts who only know this relay may not reach you until you message them again.
+  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
+  instead of removing it right away.
 
-- **默认**地址确定了聊天伙伴今后发送消息的目标地址。
-
-- 如果您**移除**某个中继服务器，
-
-请确保已使用另一个默认中继服务器足够长的时间。
-
-否则，您将无法收到聊天伙伴的消息。
-
-如有问题，请稍后再移除。
+- To **show** a hidden relay again, tap on it.
 
 有关中继服务器的更多细节和未来可能性、
 您可以关注 [论坛](https://support.delta.chat) 中的讨论。

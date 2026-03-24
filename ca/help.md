@@ -12,8 +12,7 @@ Delta Chat és una aplicació de missatgeria instantània fiable, descentralitza
 disponible per a plataformes mòbils i d'escriptori.
 
 - Creació instantània de **perfils de xat privats**
-  amb [chatmail relays](https://chatmail.at/relays) segurs i interoperables
-  que ofereix lliurament de missatges instantànis i Notificacions Push per dispositius iOS i Android.
+  amb [retransmissors de chatmail](https://chatmail.at/relays) segurs i interoperables que ofereix lliurament de missatges instantànis i notificacions Push per dispositius iOS i Android.
 
 - Suport omnipresent [multi-perfil](#multiple-accounts) i
 [multi-dispositiu](#multiclient) en totes les plataformes
@@ -82,9 +81,8 @@ i hi podrà premer per iniciar una conversa amb el primer contacte.
 
 ### Què són els perfils? Com puc canviar entre ells?{#multiple-accounts}
 
-Un perfil és **un nom, una imatge** i informació adicional per xifrar missatges.
-Un perfil només existeix en els teu dispositiu(s) 
-i utilitza el servidor per enviar missatges.
+Un perfil és **un nom, una imatge** i informació adicional per xifrar missatges. Un perfil només existeix en els teus dispositius 
+i utilitza el servidor per retransmetre missatges.
 
 Durant la instal·lació de Delta Chat es crea un primer perfil.
 
@@ -158,7 +156,7 @@ i els altres tampóc veuran sempre que estàs "en línia".
 Què signifiquen les marques de verificació que es mostren al costat dels missatges enviats?
 
 - **Una marca de verificació** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  significa que el missatge s'ha enviat correctament al [relé](#relays).
+  significa que el missatge s'ha enviat correctament al [retransmissor](#relays).
 
 - **Dos tics** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/> 
   indiquen que el teu contacte ha llegit el missatge.
@@ -217,8 +215,7 @@ o a la barra lateral amb un clic amb el botó dret (a l'aplicació d'escriptori)
 Els perfils de xat només s'eliminen del dispositiu des del qual s'ha eliminat.
 Aquell perfil de xat en altres dispositius continuarà funcionant. 
 
-Si utilitzes un sol perfil de xat per defecte, directament pots desinstal·lar l'aplicació.
-Això igualment desencadenarà l'eliminació automàtica de totes les dades d'adreça associades al servidor de chatmail.
+Si utilitzes un sol perfil de xat per defecte, directament pots desinstal·lar l'aplicació. Això igualment desencadenarà l'eliminació automàtica de totes les dades d'adreça associades al servidor de chatmail.
 Per a més informació, consulta [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
 o la pàgina corresponent del [servidor de chatmail de tercers](https://chatmail.at/relays) que hagis triat.
 
@@ -390,7 +387,7 @@ Per què Delta Chat s'integra amb serveis centralitzats i propietaris de push d'
 
 Delta Chat és un missatger descentralitzat, gratuït i de codi obert amb lliure elecció de servidor, però volem que els usuaris puguin experimentar de manera fiable "l'entrega instantània" dels missatges, com ho fan amb les aplicacions de WhatsApp, Signal o Telegram, sense haver de fer preguntes previes que són més adequades per a usuaris experts o desenvolupadors.
 
-Tingues en compte que Delta Chat té un [petit sistema de notificacions push que preserva la privacitat](#privacy-notifications) que aconsegueix la "l'entrega immediata" de missatges per a tots els servidors de chatmail, inclòs un de potencial [que podríeu configurar vosaltres mateixos sense el nostre permís](https://delta.chat/chatmail#selfhosted). Benvinguts al poder de la xarxa interoperable de relés de chatmail :)
+Tingues en compte que Delta Chat té un [petit sistema de notificacions push que preserva la privacitat](#privacy-notifications) que aconsegueix la "l'entrega immediata" de missatges per a tots els servidors de chatmail, inclòs un de potencial [que podríeu configurar vosaltres mateixos sense el nostre permís](https://delta.chat/chatmail#selfhosted). Benvinguts al poder de la xarxa interoperable de retransmissors de chatmail :)
 
 
 
@@ -489,32 +486,30 @@ You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
 
 
-### Què són els relés? {#relays}
+### Què són els retransmissors? {#relays}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store data as group states, your name or avatar -
-all that exist only on your device.
-Relays are operated by different groups and people.
+Els retransmissors s'utilitzen per guardar missatges temporalment en el cas que el teu dispositiu estigui fora de línia. Els retransmissors són servidors barats i tontos.
 
 By default, after installation, a relay is **automatically set up**,
 so you do not need to care about that.
 However, if you want to,
-you can configure relays at At **Settings → Advanced → Relays**:
+you can configure relays at **Settings → Advanced → Relays**:
 
 - You can **add** a relay by scanning its QR code;
-  <https://chatmail.at/relays> shows some known ones.
+  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
   If you have multiple relays, you will receive messages on all of them.
+  Contacts learn your current relays automatically when you message them.
 
-- The **default** defines the one where your chat partners send future messages to.
+- Tap on a relay to set it as **used for sending**.
 
 - If you **remove** a relay,
-  make sure another default relay was used for a sufficient amount of time.
-  Otherwise, messages from your chat partners won't reach you.
-  If in doubt, remove later.
+  contacts who only know this relay may not reach you until you message them again.
+  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
+  instead of removing it right away.
 
-For more details and future possibilities of relays,
-you can follow discussions in the [Forum](https://support.delta.chat).
+- To **show** a hidden relay again, tap on it.
+
+Per a més detalls i possibilitats futures dels retransmissors, pots seguir les discussions al [Fòrum](https://support.delta.chat).
 
 
 ### Can I use a classic email address with Delta Chat?
@@ -524,27 +519,26 @@ Yes, but only if the email address is used exclusively by [chatmail clients](htt
 It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
 for the following reasons:
 
-Les aplicacions que no són de chatmail, en general, no aconsegueixen oferir xifratge automàtic d'extrem a extrem per correu electrònic als seus usuaris, mentre que les aplicacions i els relés de chatmail apliquen de manera omnipresent el xifrat d'extrem a extrem i els estàndards de seguretat.
+Les aplicacions que no són de chatmail, en general, no aconsegueixen oferir xifratge automàtic d'extrem a extrem per correu electrònic als seus usuaris, mentre que les aplicacions i els retransmissors de chatmail apliquen de manera omnipresent el xifrat d'extrem a extrem i els estàndards de seguretat.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message relay.
+- Les aplicacions que no són de chatmail utilitzen servidors de correu electrònic com a arxiu de missatges a llarg termini, mentre que els clients de chatmail utilitzen servidors de correu electrònic per a la retransmissió de missatges instantanis efímers.
 
 - Supporting the full variety of classic email setups
   would require considerable development and maintenance efforts,
   and complicate making chatmail-based messaging more resilient, reliable and fast.
 
-### How can I configure a chat profile with a classic email address as relay? {#classic-email}
+Com puc configurar un perfil de xat amb una adreça de correu electrònic clàssica com a retransmissor? {#classic-email}
 
 First off, **please do not use the same classic email address also from non-chatmail classic email apps**
 unless you are prepared to deal with encrypted messages in the inbox,
 double notifications, accidentally deleted emails or similar annoyances.
 
-You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Relay**.
-Note that classic email providers will generally not support [Push Notifications](#instant-delivery)
-and have other limitations, see [Provider Overview](https://providers.delta.chat).
-Chatmail uses the default INBOX for relay; ensure the provider setup does too. 
-A chat profile using a classic email address allows to to send and receive unencrypted messages.
-These messages, and the chats they appear in, are marked with an email icon
+Pots configurar una adreça de correu electrònic per xatejar a **Perfil nou → Utilitza un altre servidor → Utilitza el correu clàssic com a retransmissor**.
+Tingueu en compte que els proveïdors de correu clàssic generalment no admeten [Notificacions push](#instant-delivery)
+i tenen altres limitacions, visita [Vista general dels proveïdors](https://providers.delta.chat).
+Chatmail utilitza la safata d'entrada (INBOX) per defecte per a retransmetre; assegureu-vos que la configuració del proveïdor també ho faci.
+Un perfil de xat que utilitza una adreça de correu electrònic clàssica permet enviar i rebre missatges sense xifrar.
+Aquests missatges, i els xats en què apareixen, estan marcats amb una icona de correu electrònic
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
@@ -553,10 +547,8 @@ These messages, and the chats they appear in, are marked with an email icon
 Any well behaving email server setup will do fine 
 except if your users' devices require Google/Apple [Push Notifications](#instant-delivery) to work properly.
 
-We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
-[Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
-and [core Rust developments](https://github.com/chatmail/core) 
-that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
+Generalment recomanem [configurar un retransmissor de chatmail](https://chatmail.at/doc/retransmissor/getting_started.html). 
+[Chatmail](https://chatmail.at) és un projecte impulsat per la comunitat que engloba tant la configuració de retransmissors com els [desenvolupaments del nucli en Rust](https://github.com/chatmail/core) que alimenten als [clients de Chatmail](https://chatmail.at/clients), dels quals Delta Chat és el més conegut. 
 
 
 ### What is "Send statistics to Delta Chat's developers"? {#statssending}
@@ -612,7 +604,7 @@ Tots els missatges a Delta Chat són **xifrats d'extrem a extrem per defecte**. 
 
 ### Encara es pot rebre missatges sense xifrat d'extrem a extrem?
 
-Si utilitzes el [relé de chatmail](https://chatmail.at/relays) per defecte, no és possible de rebre o enviar missatges sense xifrat d'extrem a extrem.
+Si utilitzes el [retransmissor de chatmail](https://chatmail.at/relays) per defecte, no és possible rebre o enviar missatges sense xifrar d'extrem a extrem.
 
 Si enlloc d'això utilitzes un [servidor de correu clàssic](#classic-email), podràs enviar i rebre missatges amb o sense xifrat d'extrem a extrem. Els missatges que no vagin xifrats d'extrem a extrem es marcaran amb la icona de correu-e <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 

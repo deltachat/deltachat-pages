@@ -530,16 +530,13 @@ darum musst du dich nicht kümmern.
 Wenn du möchtest,
 kannst du jedoch unter **Einstellungen → Erweitert → Relays** Änderungen vornehmen:
 
-- Du kannst ein Relay **hinzufügen**, indem du einen QR-Code scannst,
-z.B. von <https://chatmail.at/relays>.
-Bei mehreren Relays, empfängst du die Nachrichten von allen Relays.
+- Du kannst ein Relay **hinzufügen**, indem du einen QR-Code scannst, z.B. von [chatmail.at/relays](https://chatmail.at/relays). Bei mehreren Relays, empfängst du die Nachrichten von allen Relays. Deine Kontakte lernen deine Relays automatisch, sobald du ihnen schreibst.
 
-- **Standard** legt das Relay fest, an das deine Chatpartner zukünftig Nachrichten senden.
+- Tippe ein Relay an, um es **Zum Senden zu verwenden**
 
-- Wenn du ein Relay **entfernst**,
-stelle sicher, dass ein anderes Standard-Relay ausreichend lange verwendet wurde.
-Andernfalls erreichen dich keine Nachrichten von deinen Kontakten.
-Im Zweifelsfall entferne das Relay später.
+- Wenn du ein Relay **entfernst**, können Kontakte, die nur dieses Relay kennen, dich nicht erreichen, bis du ihnen wieder schreibst. Um erreichbar zu bleiben,  wähle **Vor Kontakten verstecken** im Bestätigungsdialog anstelle das Relay direkt zu löschen.
+
+- Um ein verstecktes Relay wieder **anzuzeigen** tippe es an.
 
 Weitere Details und zukünftige Möglichkeiten findest du im [Forum](https://support.delta.chat).
 
