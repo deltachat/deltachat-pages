@@ -594,14 +594,19 @@ quindi non è necessario preoccuparsene.
 Tuttavia, se lo si desidera,
 è possibile configurare i ripetitori in **Impostazioni → Avanzate → Ripetitori**:
 
-- Puoi **aggiungere** un ripetitore scansionando il suo codice QR;<https://chatmail.at/relays> ne mostra alcuni noti.
-Se hai più ripetitori, riceverai messaggi su tutti.
+- You can **add** a relay by scanning its QR code;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
+  If you have multiple relays, you will receive messages on all of them.
+  Contacts learn your current relays automatically when you message them.
 
-- L'opzione **predefinita** definisce quella a cui i tuoi partner di chat invieranno messaggi futuri.
+- Tap on a relay to set it as **used for sending**.
 
-- Se **rimuovi** un ripetitore,
-  assicurati che un altro ripetitore predefinito sia stato utilizzato per un periodo di tempo sufficiente.
-  In caso contrario, i messaggi dei tuoi interlocutori di chat non ti   arriveranno.In caso di dubbio, rimuovilo in seguito.
+- If you **remove** a relay,
+  contacts who only know this relay may not reach you until you message them again.
+  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
+  instead of removing it right away.
+
+- To **show** a hidden relay again, tap on it.
 
 Per maggiori dettagli e future possibilità di utilizzo dei ripetitori,
 potete seguire le discussioni nel [Forum](https://support.delta.chat).
