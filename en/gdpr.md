@@ -191,7 +191,7 @@ For the rest, we refer to the data protection policies of the respective app sto
 
 Your personal data will not be transferred to third parties for purposes other than those listed below.
 
-# 4. Rights of the data subject
+### 4. Rights of the data subject
 
 As a data subject of a processing of personal data, you have the right to 
 
@@ -204,7 +204,7 @@ As a data subject of a processing of personal data, you have the right to
 7. complain to a supervisory authority in accordance with [Art.77 GDPR](https://gdpr-info.eu/art-77-gdpr/) of the GDPR. As a rule, you can contact the supervisory authority of your usual place of residence or workplace or our registered office for this purpose. The supervisory authority responsible for our place of business is the State Commissioner for Data Protection and Freedom of Information of Baden-Württemberg in 70173 Stuttgart.
 
 
-# 5. Up-to-dateness and modification of this data protection declaration
+### 5. Up-to-dateness and modification of this data protection declaration
 
 This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
 
