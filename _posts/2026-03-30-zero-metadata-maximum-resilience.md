@@ -81,7 +81,7 @@ with signaling via regular Delta Chat messages.
 The feature is still behind the "debug calls" setting.
 Please let us know about any issues users.
 
-XXX screenshots Android
+<img src="../assets/blog/2026-03-30-android-calls.jpg" />
 
 ## Group and channel descriptions
 
