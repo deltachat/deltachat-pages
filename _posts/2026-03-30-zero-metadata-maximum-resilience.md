@@ -1,10 +1,10 @@
 ---
 title: "Minimal metadata, maximum resilience, native audio/video calls and much more!"
 author: olgax
-image: ../assets/blog/3vampire.jpg
+image: ../assets/blog/2026-03-30-zero.png
 ---
 
-<img src="../assets/blog/3vampire.jpg" style="width:240px; float:right; clear:both; margin-bottom:.2em;" />
+<img src="../assets/blog/2026-03-30-zero.png" style="width:240px; float:right; clear:both; margin-left:1em; margin-bottom:.2em;" />
 
 **With the latest release chatmail releases,
 a chat message reveals close to zero metadata to servers.**
