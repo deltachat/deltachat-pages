@@ -36,8 +36,10 @@ In practice this means:
   Chatmail accounts are created with random addresses
   and without asking for any personal information.
 
-
 XXX screenshot/quote of a real message
+
+<img src="../assets/blog/2026-03-30-near-zero-meta.png" /><br>_orange: random, green: hidden, everything else: no meaningful data_
+
 
 ## Maximizing resilience through multi-path delivery
 
