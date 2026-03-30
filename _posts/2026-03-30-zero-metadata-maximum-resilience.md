@@ -62,7 +62,7 @@ With the [growing network of chatmail relays](https://chatmail.at/relays),
 there is no single point of failure, and anyone can add a new relay to their chat profile.
 Currently, adding secondary relays is a manual step (Advanced Settings -> Relays).
 
-<img src="../assets/blog/2026-03-30-relays.png" />
+<img src="../assets/blog/2026-03-30-relays.png" style="width:320px;" />
 
 Once the dust settles and after some more research and security audits,
 we'll tackle automating this process:
