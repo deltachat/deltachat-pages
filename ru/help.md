@@ -603,21 +603,21 @@ Delta Chat — это бесплатный децентрализованный 
 По умолчанию, после установки, релей **настраивается автоматически**,
 поэтому вам не нужно об этом волноваться.
 Однако, если хотите,
-вы можете настроить релеи в **Настройки → Дополнительно → Релеи**:
+вы можете настроить релеи в меню **Настройки → Дополнительно → Релеи**:
 
-- You can **add** a relay by scanning its QR code;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
-  If you have multiple relays, you will receive messages on all of them.
-  Contacts learn your current relays automatically when you message them.
+- Вы можете **добавить** релей, отсканировав его QR-код;
+  на сайте [chatmail.at/relays](https://chatmail.at/relays) представлен список известных.
+  Если у вас настроено несколько релеев, сообщения будут доставляться через все из них.
+  Ваши контакты автоматически узнают о текущих используемых вами релеях при обмене сообщениями.
 
-- Tap on a relay to set it as **used for sending**.
+- Нажмите на релей, чтобы установить его как **используемый для отправки**.
 
-- If you **remove** a relay,
-  contacts who only know this relay may not reach you until you message them again.
-  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
-  instead of removing it right away.
+- Если вы **удалите** релей,
+  контакты, которые знают только этот релей, не смогут связаться с вами до тех пор, пока вы снова не напишите им.
+  Чтобы оставаться на связи в это время, выберите опцию **Скрыть из контактов** во всплывающем окне
+  вместо того, чтобы удалять его сразу.
 
-- To **show** a hidden relay again, tap on it.
+- Чтобы снова **показать** скрытый релей, нажмите на него.
 
 Для получения более подробной информации и ознакомления с будущими возможностями релеев,
 вы можете следить за обсуждениями на [Форуме](https://support.delta.chat).

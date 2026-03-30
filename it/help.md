@@ -196,19 +196,19 @@ Nota che il messaggio originale potrebbe essere ancora sui dispositivi dei membr
 che avrebbero già potuto rispondere, inoltrare, salvare, scattare una schermata o copiare il messaggio in altri modi. 
 
 
-### How is media quality handled? {#mediaquality}
+### Come viene gestita la qualità dei media? {#mediaquality}
 
 Immagini, video, files, messaggi vocali ecc. possono essere inviati utilizzando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Allegato-**
 o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> pulsanti **Messaggio Vocale**
 
-- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
-  This is ideal for everyday communication.
+- Per impostazione predefinita, la compressione garantisce una **consegna rapida ed efficiente** che rispetta i limiti di dati e di spazio di archiviazione di tutti.
+  Questa soluzione è ideale per la comunicazione quotidiana.
 
-- In regions with worse connectivity,
-  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+- Nelle regioni con connettività peggiore,
+  è possibile scegliere una compressione più elevata in **Impostazioni → Chat → Qualità Media in Uscita**.
 
-- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
-  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
+- Se hai bisogno di inviare i file multimediali nella loro **qualità originale**, usa <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Allega → File** nella chat.
+  Si prega di utilizzare questo metodo con parsimonia, poiché l'invio di file originali aumenterà significativamente il consumo di dati per te e per tutti i destinatari della chat.
 
 
 ### Come funzionano i messaggi a scomparsa? {#ephemeralmsgs}
@@ -594,19 +594,19 @@ quindi non è necessario preoccuparsene.
 Tuttavia, se lo si desidera,
 è possibile configurare i ripetitori in **Impostazioni → Avanzate → Ripetitori**:
 
-- You can **add** a relay by scanning its QR code;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
-  If you have multiple relays, you will receive messages on all of them.
-  Contacts learn your current relays automatically when you message them.
+- Puoi **aggiungere** un ripetitore scansionando il suo codice QR;
+  [chatmail.at/relays](https://chatmail.at/relays) mostra alcuni ripetitori noti.
+  Se hai più ripetitori, riceverai i messaggi su tutti.
+  I contatti vengono a conoscenza automaticamente dei tuoi ripetitori attuali quando invii loro un messaggio.
 
-- Tap on a relay to set it as **used for sending**.
+- Tocca un ripetitore per impostarlo come **utilizzato per l'invio**.
 
-- If you **remove** a relay,
-  contacts who only know this relay may not reach you until you message them again.
-  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
-  instead of removing it right away.
+- Se **rimuovi** un ripetitore,
+  i contatti che conoscono solo quel ripetitore potrebbero non raggiungerti finché non invierai loro un nuovo messaggio.
+  Per rimanere raggiungibile nel frattempo, seleziona **Nascondi dai Contatti** nella finestra di dialogo di conferma
+  invece di rimuoverlo immediatamente.
 
-- To **show** a hidden relay again, tap on it.
+- Per **visualizzare** nuovamente un ripetitore nascosto, toccalo.
 
 Per maggiori dettagli e future possibilità di utilizzo dei ripetitori,
 potete seguire le discussioni nel [Forum](https://support.delta.chat).

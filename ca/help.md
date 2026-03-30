@@ -434,104 +434,89 @@ A diferència de molts altres missatgers, després d'una transferència correcta
 
 - Assegureu-vos que hi hagi **espai d'emmagatzematge suficient** al dispositiu de destí
 
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+- Si la transferència ha començat, assegura't que els dispositius **romanguin actius** i no s'adormin.
+  No surtis de Delta Chat.
+  (ens esforcem molt perquè l'aplicació funcioni en segon pla, però [els sistemes solen tancar les aplicacions](https://dontkillmyapp.com), malauradament)
 
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple profiles per device, just [add another profile](#multiple-accounts)
+- Delta Chat ja ha **iniciat la sessió** al dispositiu de destinació?
+  Pots utilitzar diversos perfils per dispositiu, només [afegeix un altre perfil](#multiple-accounts)
 
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+- Si encara tens problemes o si **no pots escanejar un codi QR**
+  prova la **transferència manual** que es descriu a continuació
 
 
 ### Transferència Manual {#backup}
 
-This method is only recommended if "Add Second Device" as described above does not work.
+Aquest mètode només es recomana si «Afegeix un segon dispositiu», tal com s'ha descrit anteriorment, no funciona.
 
-- On the old device, go to **Settings → Chats → Export Backup**. Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
+- Al dispositiu antic, ves a **Configuració → Xats → Exporta còpia de seguretat**. Introdueix el PIN, el patró o la contrasenya de desbloqueig de la pantalla. Llavors pots clicar a «Comença la còpia de seguretat». Això desa el fitxer de còpia de seguretat al dispositiu. Ara l'has de transferir a l'altre dispositiu d'alguna manera.
 
-- On the new device, select **I Already Have a Profile → Restore from Backup**.
-  If you use iOS and encounter difficulties,
-  [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) might help you.
+- Al dispositiu nou, tria **Ja tinc un perfil → Restaurar còpia de seguretat**.
+  Si feu servir iOS i teniu dificultats,
+  [aquesta guia](https://support.delta.chat/t/import-backup-to-ios/1628) et pot ajudar.
 
 Ja esteu sincronitzats i podeu utilitzar els dos dispositius per enviar i rebre missatges xifrats d'extrem a extrem amb els vostres contactes.
 
 
-### Are there any plans for introducing a Delta Chat Web Client?
+### Hi ha plans per introduir un client web de Delta Chat?
 
-- There are no immediate plans but some preliminary thoughts.
-- There are 2-3 avenues for introducing a Delta Chat Web Client, but all are
-  significant work. For now, we focus on getting stable releases into all
-  app stores (Google Play/iOS/Windows/macOS/Linux repositories) as native apps.
-- If you need a Web Client, because you are not allowed to install software on
-  the computer you work with, you can use the portable Windows Desktop Client,
-  or the AppImage for Linux. You can find them on
-  [get.delta.chat](https://get.delta.chat).
+- No hi ha plans immediats, però sí algunes idees preliminars.
+- Hi ha 2-3 vies per introduir un client web de Delta Chat, però totes requereixen una feina important. De moment, ens centrem a obtenir versions estables a totes les botigues d'aplicacions (Google Play/iOS/Windows/macOS/repositoris de Linux) com a aplicacions nadiues.
+- Si necessites un client web perquè no et permet instal·lar programari a l'ordinador amb el què treballes, pots fer servir el client d'escriptori portàtil per a Windows o l'AppImage per a Linux. Els pots trobar a [get.delta.chat](https://get.delta.chat).
 
 
 ## Avançat
 
 ### Funcionalitats experimentals {#experiments}
 
-At **Settings → Advanced → Experimental Features**
-you can try out features we are working on.
+A **Configuració → Avançat → Funcions experimentals** podeu provar les funcions en què estem treballant.
 
-The features may be **unstable** and may be **changed or removed**.
+Les característiques poden ser **inestables** i poden ser **canviades o eliminades**.
 
-You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
+Pots trobar més informació i donar la teva opinió al [Fòrum](https://support.delta.chat).
 
 
 ### Què són els retransmissors? {#relays}
 
 Els retransmissors s'utilitzen per guardar missatges temporalment en el cas que el teu dispositiu estigui fora de línia. Els retransmissors són servidors barats i tontos.
 
-By default, after installation, a relay is **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Per defecte, després de la instal·lació, es **configura automàticament** un retransmissor,
+així que no us te n'has de preocupar.
+No obstant això, si vols,
+pots configurar els retransmissors a **Configuració → Avançat → Retransmissors**:
 
-- You can **add** a relay by scanning its QR code;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
-  If you have multiple relays, you will receive messages on all of them.
-  Contacts learn your current relays automatically when you message them.
+- Pots **afegir** un retransmissor escanejant el seu codi QR;
+  [chatmail.at/relays](https://chatmail.at/relays) mostra alguns de coneguts.
+  Si tens diversos retransmissors, rebràs missatges en tots ells.
+  Els contactes aprenen automàticament quins són els teus retransmissors actuals quan els hi envies un missatge.
 
-- Tap on a relay to set it as **used for sending**.
+- Prem un retransmissor per establir-lo com a **utilitzat per enviar**.
 
-- If you **remove** a relay,
-  contacts who only know this relay may not reach you until you message them again.
-  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
-  instead of removing it right away.
+- Si **esborres** un retransmissor,
+  els contactes que només coneguin aquest retransmissor pot ser que no et puguin contactar fins que no els enviis un missatge de nou.
+  Per continuar sent localitzable mentrestant, tria **Amagar dels contactes** al quadre de diàleg de confirmació
+  en lloc d'esborrar-lo immediatament.
 
-- To **show** a hidden relay again, tap on it.
+- Per **mostrar** de nou un retransmissor amagat, toca'l.
 
 Per a més detalls i possibilitats futures dels retransmissors, pots seguir les discussions al [Fòrum](https://support.delta.chat).
 
 
-### Can I use a classic email address with Delta Chat?
+### Puc utilitzar una adreça de correu electrònic clàssica amb Delta Chat?
 
-Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
+Sí, però només si l'adreça de correu electrònic s'utilitza exclusivament per a [clients de correu electrònic](https://chatmail.at/clients).
 
-It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
-for the following reasons:
+No es permet compartir l'ús d'una adreça de correu electrònic amb aplicacions que no siguin de chatmail o correu-e basat en web, per les raons següents:
 
 Les aplicacions que no són de chatmail, en general, no aconsegueixen oferir xifratge automàtic d'extrem a extrem per correu electrònic als seus usuaris, mentre que les aplicacions i els retransmissors de chatmail apliquen de manera omnipresent el xifrat d'extrem a extrem i els estàndards de seguretat.
 
 - Les aplicacions que no són de chatmail utilitzen servidors de correu electrònic com a arxiu de missatges a llarg termini, mentre que els clients de chatmail utilitzen servidors de correu electrònic per a la retransmissió de missatges instantanis efímers.
 
-- Supporting the full variety of classic email setups
-  would require considerable development and maintenance efforts,
-  and complicate making chatmail-based messaging more resilient, reliable and fast.
+- Donar suport a tota la varietat de configuracions de correu electrònic clàssiques requeriria un esforç considerable de desenvolupament i manteniment, i dificultaria fer que la missatgeria basada en chatmail fos més resilient, fiable i ràpida.
 
 Com puc configurar un perfil de xat amb una adreça de correu electrònic clàssica com a retransmissor? {#classic-email}
 
-First off, **please do not use the same classic email address also from non-chatmail classic email apps**
-unless you are prepared to deal with encrypted messages in the inbox,
-double notifications, accidentally deleted emails or similar annoyances.
+En primer lloc, **si us plau, no utilitzis la mateixa adreça de correu electrònic clàssica que també feu servir en aplicacions de correu clàssic** a menys que estigueu preparats per gestionar missatges xifrats a la bústia d'entrada, notificacions dobles, correus electrònics eliminats per accident o molèsties similars.
 
 Pots configurar una adreça de correu electrònic per xatejar a **Perfil nou → Utilitza un altre servidor → Utilitza el correu clàssic com a retransmissor**.
 Tingueu en compte que els proveïdors de correu clàssic generalment no admeten [Notificacions push](#instant-delivery)
@@ -542,41 +527,36 @@ Aquests missatges, i els xats en què apareixen, estan marcats amb una icona de 
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### I want to manage my own server for Delta Chat. What do you recommend?
+### Vull gestionar el meu propi servidor per a Delta Chat. Què em recomanes?
 
-Any well behaving email server setup will do fine 
-except if your users' devices require Google/Apple [Push Notifications](#instant-delivery) to work properly.
+Qualsevol configuració d'un servidor de correu electrònic que funcioni correctament serà suficient, excepte si els dispositius dels vostres usuaris requereixen que les [notificacions Push](#instant-delivery) de Google/Apple funcionin correctament.
 
 Generalment recomanem [configurar un retransmissor de chatmail](https://chatmail.at/doc/retransmissor/getting_started.html). 
 [Chatmail](https://chatmail.at) és un projecte impulsat per la comunitat que engloba tant la configuració de retransmissors com els [desenvolupaments del nucli en Rust](https://github.com/chatmail/core) que alimenten als [clients de Chatmail](https://chatmail.at/clients), dels quals Delta Chat és el més conegut. 
 
 
-### What is "Send statistics to Delta Chat's developers"? {#statssending}
+### Què és "Envia estadístiques als desenvolupadors de Delta Chat"? {#statssending}
 
-We would like to improve Delta Chat with your help,
-which is why Delta Chat for Android asks whether you want
-to send anonymous usage statistics.
+Ens agradaria millorar Delta Chat amb la teva ajuda, per això Delta Chat per a Android et pregunta si vols enviar estadístiques d'ús anònimes.
 
-You can turn it on and off at
-**Settings → Advanced → Send statistics to Delta Chat's developers**.
+Ho pots activar i desactivar a **Configuració → Avançat → Envia estadístiques als desenvolupadors de Delta Chat**.
 
-When you turn it on,
-weekly statistics will be automatically sent to a bot.
+Quan ho activis, les estadístiques setmanals s'enviaran automàticament a un bot.
 
 Ens interessen, per exemple, estadístiques com ara:
 
-- How many contacts are introduced by personally scanning a QR code?
+Quants contactes s'introdueixen escanejant personalment un codi QR?
 
-- Which versions of Delta Chat are being used?
+- Quines versions de Delta Chat s'estan utilitzant?
 
 - Quins errors es produeixen pels usuaris?
 
-We will _not_ collect any personally identifiable information about you.
+No recollirem cap informació personalment identificable sobre tu.
 
 
-### I'm interested in the technical details. Can you tell me more?
+### M'interessen els detalls tècnics. Em pots dir-ne més?
 
-See [Standards used in Delta Chat]({% include standards-url %}).
+Mira a [Estàndards utilitzats a Delta Chat]({% include standards-url %}).
 
 
 
@@ -587,16 +567,15 @@ See [Standards used in Delta Chat]({% include standards-url %}).
 Delta Chat utilitza un [subconjunt segur de l'estandard OpenPGP](#openpgp-secure) Oferint xifrat d'extrem a extrem automàtic utilitzant aquests protocols:
 
 - [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
-  to exchange encryption setup information through QR-code scanning or "invite links". 
+  per intercanviar informació de la configuració de xifratge mitjançant l'escaneig de codis QR o "enllaços d'invitació". 
 
 - S'utilitza [Autocrypt](https://autocrypt.org) per establir automaticament xifrat d'extrem a extrem entre contactes i tots els membres d'un grup de xat.
 
-- [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
-  will bring post-quantum resistant encryption and forward secrecy. 
+- [Autocrypt v2](https://autocrypt2.org), amb la implementació completa prevista per al 2026, aportarà xifratge resistent post-quantic i forward secrecy. 
 
 - [Compartir un contacte en un xat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message) permet a qui ho rep, utilitzar xifrat d'extrem a extrem amb el contacte.
 
-Delta Chat does not query, publish or interact with any OpenPGP key servers. 
+Delta Chat no consulta, publica ni interactua amb cap servidor de claus OpenPGP. 
 
 ### Com puc saber si els missatges són xifrats d'extrem a extrem? {#whene2e}
 
@@ -609,18 +588,18 @@ Si utilitzes el [retransmissor de chatmail](https://chatmail.at/relays) per defe
 Si enlloc d'això utilitzes un [servidor de correu clàssic](#classic-email), podràs enviar i rebre missatges amb o sense xifrat d'extrem a extrem. Els missatges que no vagin xifrats d'extrem a extrem es marcaran amb la icona de correu-e <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
+### Què significa la marca de verificació verda en un perfil de contacte? {#e2eeguarantee}
 
-A contact profile might show a green checkmark
+El perfil d'un contacte pot mostrar una marca de verificació verda
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line.
-Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by a another green-checkmarked contact.
-Introductions happen automatically when adding members to groups. 
-Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
-becomes an introducer. 
-In a contact profile you can tap on the "Introduced by ..." text repeatedly
-until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
+i la frase «Presentat per».
+Cada contacte amb marca de verificació verda o bé va haver-hi un [escaneig de QR](#howtoe2ee) directe amb tu
+o va ser presentat per un altre contacte amb marca de verificació verda.
+Les presentacions es produeixen automàticament quan s'afegeixen membres als grups. 
+La persona que afegeix un contacte amb marca de verificació verda a un grup amb només membres amb marca de verificació verda 
+esdevé un presentador. 
+En el perfil d'un contacte, podeu prémer repetidament el text «Afegit per...»
+fins que arribeu a la persona amb qui vau fer directament un [escaneig de QR](#howtoe2ee).
 
 Per a una discussió més profunda sobre el "xifratge d'extrem a extrem garantit", consulteu els [protocols Secure-Join](https://securejoin.delta.chat/en/latest/new.html) i llegiu específicament sobre els "Grups Verificats", el terme tècnic que designa el que aquí s'anomenen xats amb "marcat de verificació verda" o de "xifratge d'extrem a extrem garantit".
 
@@ -633,24 +612,17 @@ Quan parlem d'un "missatge xifrat d'extrem a extrem", sempre ens referim a un mi
 
 ### És OpenPGP segur? {#openpgp-secure}
 
-Yes, Delta Chat uses a secure subset of OpenPGP
-requiring the whole message to be properly encrypted and signed.
-For example, "Detached signatures" are not treated as secure.
+Sí, Delta Chat utilitza un subconjunt segur d'OpenPGP que requereix que tot el missatge estigui correctament xifrat i signat. Per exemple, les «signatures separades» no es consideren segures.
 
-OpenPGP is not insecure by itself.
-Most publicly discussed OpenPGP security problems
-actually stem from bad usability or bad implementations of tools or apps (or both).
-It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
-and GnuPG (GPG), a command line tool implementing OpenPGP. 
-Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
-Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
-available as [an independent "pgp" package](https://crates.io/crates/pgp),
-and [security-audited in 2019 and 2024](#security-audits). 
+OpenPGP no és insegur per si mateix.
+La majoria dels problemes de seguretat d'OpenPGP que es discuteixen públicament
+en realitat provenen d'una mala usabilitat o de males implementacions d'eines o aplicacions (o de totes dues coses).
+És especialment important distingir entre OpenPGP, l'estàndard de xifratge de l'IETF,
+i GnuPG (GPG), una eina de línia d'ordres que implementa OpenPGP.
+Moltes crítiques públiques a OpenPGP en realitat parlen de GnuPG, que Delta Chat mai no ha utilitzat. 
+Delta Chat utilitza més aviat la implementació de Rust d'OpenPGP [rPGP](https://github.com/rpgp/rpgp), disponible com a [paquet "pgp" independent](https://crates.io/crates/pgp), i [auditada des del punt de vista de la seguretat el 2019 i el 2024](#security-audits). 
 
-We aim, along with other OpenPGP implementors, 
-to further improve security characteristics by implementing the
-[new IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) 
-which was thankfully adopted in summer 2023. 
+Tenim com a objectiu, juntament amb altres implementadors d'OpenPGP, millorar encara més les característiques de seguretat implementant el [nou IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/), que afortunadament es va adoptar a l'estiu del 2023. 
 
 
 ### Heu considerat utilitzar alternatives a l'OpenPGP per al xifratge d'extrem a extrem? {#openpgp-alternatives}
@@ -662,275 +634,199 @@ Delta Chat adopta un enfocament holístic de "seguretat usable" i treballa amb u
 
 ### És Delta Chat vulnerable a EFAIL?
 
-No, [Delta Chat never was vulnerable to EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
-because its OpenPGP implementation [rPGP](https://github.com/rpgp/rpgp) 
-uses Modification Detection Code when encrypting messages
-and returns [an error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
-if the Modification Detection Code is incorrect.
+No, [Delta Chat mai va ser vulnerable a EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
+perquè la seva implementació d'OpenPGP [rPGP](https://github.com/rpgp/rpgp) 
+utilitza el Codi de Detecció de Modificacions en xifrar missatges
+i retorna [un error](https://docs.rs/pgp/latest/pgp/errors/enum.Error.html#variant.MdcError)
+si el Codi de Detecció de Modificacions és incorrecte.
 
-Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
-because it only decrypts `multipart/encrypted` messages
-which contain exactly one encrypted and signed part,
-as defined by the Autocrypt Level 1 specification. 
+Delta Chat tampoc no va ser mai vulnerable a l'atac EFAIL de «Direct Exfiltration» perquè només desxifra els missatges 'multipart/encrypted' que contenen exactament una part xifrada i signada, tal com es defineix a l'especificació Autocrypt Level 1. 
 
 
-### Are messages marked with the mail icon exposed on the Internet? {#tls}
+Els missatges marcats amb la icona del correu electrònic estan exposats a Internet? {#tls}
 
 Si envieu o rebeu missatges de correu electrònic sense xifratge de punta a punta (fent servir un servidor de correu electrònic clàssic), encara estan protegits de les companyies de telefonia mòbil o per cable, que no poden llegir ni modificar els vostres missatges de correu electrònic. Però tant el vostre proveïdor de correu electrònic com el del destinatari poden llegir, analitzar o modificar els vostres missatges, inclosos els fitxers adjunts. 
 
 Delta Chat utilitza per defecte un [xifrat TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) estricte, que protegeix les connexions entre el teu dispositiu i el teu proveïdor de correu electrònic. Tota la gestió de TLS de Delta Chat ha estat objecte d'una [auditoria de seguretat](#security-audits) independent. A més a més, la connexió entre el vostre proveïdor de correu electrònic i el del destinatari també sol xifrar les comunicacions. Si els servidors de correu electrònic implicats admeten [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461), aleshores es xifraran les comunicacions entre els proveïdors de correu electrònic, i en aquest cas les comunicacions de Delta Chat mai no estaran exposades en text pla a Internet, fins i tot si el missatge no estava xifrat d'extrem a extrem.
 
 
-### How does Delta Chat protect metadata in messages? {#message-metadata}
+### Com protegeix Delta Chat les metadades dels missatges? {#message-metadata}
 
-Unlike most other messengers, 
-Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
-Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
+A diferència de la majoria d'altres missatgers, 
+les aplicacions de Delta Chat no emmagatzemen cap metadada sobre contactes o grups als servidors, ni tan sols en forma xifrada. 
+En canvi, totes les metadades dels grups estan xifrades d'extrem a extrem i s'emmagatzemen només als dispositius dels usuaris finals. 
 
 Per tant, els servidors només poden veure:
 
-- Sender and receiver addresses, randomly generated by default
-- Message size
+- Adreces de l'emissor i del receptor, generades aleatòriament per defecte
+- Mida del missatge
 
-All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
+Totes les altres metadades del missatge, els contactes i els grups estan a la part xifrada d'extrem a extrem dels missatges.
 
-### How to protect metadata and contacts when a device is seized? {#device-seizure}
+### Com protegir les metadades i els contactes quan un dispositiu és confiscat? {#confiscació-dispositiu}
 
-Both for protecting against metadata-collecting servers 
-as well as against the threat of device seizure
-we recommend to use a [chatmail relay](https://chatmail.at/relays)
-to create chat profiles using random addresses for transport. 
-Note that Delta Chat apps on all platforms support multiple profiles
-so you can easily use situation-specific profiles next to your "main" profile
-with the knowledge that all their data, along with all metadata, will be deleted.
-Moreover, if a device is seized then chat contacts using short-lived profiles
-can not be identified easily. 
+Tant per protegir-se dels servidors que recullen metadades com per a l'amenaça de confiscació d'un dispositiu, recomanem utilitzar un [retransmissor de chatmail](https://chatmail.at/relays) per crear perfils de xat amb adreces aleatòries per al transport. 
+Tingueu en compte que les aplicacions de Delta Chat a totes les plataformes admeten múltiples perfils, de manera que podeu utilitzar fàcilment perfils específics de cada situació al costat del vostre perfil "principal", amb la certesa que totes les seves dades, juntament amb totes les metadades, s'eliminaran. A més, si un dispositiu és confiscat, els contactes de xat que utilitzen perfils de curta durada no es podran identificar fàcilment. 
 
 
 ### Qui veu la meva Adreça IP?
 
-The used [relay](#relays) needs to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#experiments)
-or use [apps](#webxdc) together.
+El [retransmissor](#relays) utilitzat necessita saber la teva adreça IP, de vegades també la del dispositiu del teu contacte si tens una [trucada](#experiments) o comparteixes alguna [apps](#webxdc).
 
-IP Addresses are needed for connectivity and efficiency.
-They are neither persisted nor exposed.
-Note that the IP Address
-is not like a detailed address you give to a delivery service,
-but much more coarse, often defining region or country only.
+Les adreces IP són necessàries per a la connectivitat i l'eficiència.
+Ni es guarden ni s'exposen.
+Tingues en compte que l'adreça IP no és com una adreça detallada que dones a un servei de missatgeria,
+sinó que és molt més genèrica, i sovint només defineix la regió o el país.
 
-As this is just how the internet and other messengers work by default,
-we do not offer options here or ask upfront questions.
+Així és com funcionen per defecte internet i altres missatgers, no oferim opcions ni fem preguntes per endavant.
 
-If you see your IP Address as a security or privacy risk,
-we recommend to use a VPN, in combination with system lockdown mode.
-Hunting down options in all apps on your system will leave gaps.
-For example, tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
+Si consideres la teva adreça IP un risc de seguretat o privacitat, et recomanem utilitzar una VPN, combinada amb el mode de bloqueig del sistema. Buscar opcions a totes les aplicacions del sistema deixarà forats. Per exemple, prémer un enllaç exposa les adreces IP a tercers desconeguts i és, de llarg, el risc més gran.
 
 
 ### Delta Chat admet "Remitent Segellat""? {#sealedsender}
 
 No, encara no.
 
-The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
-to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
-It is particularly important because the Signal server knows the mobile number of each account,
-which is usually associated with a passport identity.
+Signal va introduir ["Sealed Sender" el 2018](https://signal.org/blog/sealed-sender/) per mantenir la seva infraestructura de servidors desconeixedora de qui envia un missatge a un conjunt de destinataris. És especialment important perquè el servidor de Signal coneix el número de mòbil de cada compte, que normalment està associat a una identitat d'un document de passaport.
 
-Even if [chatmail relays](https://chatmail.at/relays) 
-do not ask for any private data (including no phone numbers), 
-it might still be worthwhile to protect relational metadata between addresses. 
-We don't foresee bigger problems in using random throw-away addresses for sealed sending
-but an implementation has not been agreed as a priority yet. 
+Encara que [els retransmissors de chatmail](https://chatmail.at/relays) 
+no demanen cap dada privada (incloent-hi cap número de telèfon), 
+tot i així podria ser convenient protegir les metadades relacionals entre adreces. 
+No preveiem problemes més grans a l'utilitzar adreces aleatòries d'un sol ús per a l'enviament segellat però encara no s'ha acordat prioritzar-ne la implementació.
 
-### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
+### Delta Chat implementa Perfect Forward Secrecy? {#pfs}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
+Encara no, però arribarà amb [Autocrypt v2](https://autocrypt2.org). 
 
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
-Note that Forward Secrecy only increases security if you delete messages. 
-Otherwise, someone obtaining your decryption keys
-is typically also able to get all your non-deleted messages
-and doesn't even need to decrypt any previously collected messages. 
+Delta Chat actualment no implemente Perfect Forward Secrecy (PFS).
+Això vol dir que si la teva clau privada de dexifrat es filtra, i algú ha capturat els teus missatges anteriors en trànsit, podrà desxifrar-los i llegir-los amb la clau de desxifrat filtrada.
+Tingues en compte que Forward Secrecy només millora la seguretat si elimines els missatges del teu dispositiu. Sinó, si algú obté les teves claus de desxifrat, normalment també podrà accedir a tots els teus missatges no eliminats i ni tan sols necessita desxifrar cap missatge capturat anteriorment. 
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will provide reliable deletion (forward secrecy) through automatic key rotation.
-This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[Autocrypt v2](https://autocrypt2.org), es preveu la seva implementació completa el 2026, proporcionarà una eliminació fiable (secretesa anticipada) mitjançant la rotació automàtica de claus.
+Aquest enfocament s'especifica en l'esborrany [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/). 
 
 ### Delta Chat implementa Criptografia Post-Quàntica? {#pqc}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
+Encara no, però ho tindrem amb [Autocrypt v2](https://autocrypt2.org).
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will bring post-quantum resistant encryption to protect against quantum computer attacks.
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
-The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[Autocrypt v2](https://autocrypt2.org), amb una implementació completa prevista per al 2026, portarà xifratge resistent als ordinadors quàntics per protegir-se dels atacs d'aquests.
+Delta Chat utilitza la biblioteca Rust OpenPGP [rPGP](https://github.com/rpgp/rpgp), que és compatible amb l'últim [esborrany de l'IETF de criptografia post quàntica per a OpenPGP](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
+La implementació s'especifica en l'esborrany [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/). 
 
 ### Com puc comprobar manualment la informació d'encriptació?
 
-You may check the end-to-end encryption status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop).
-Delta Chat shows two fingerprints there.
-If the same fingerprints appear on your own and your contact's device,
-the connection is safe.
+Pots comprovar manualment l'estat del xifrat d'extrem a extrem en el quadre de diàleg «Encriptació» (perfil d'usuari a Android/iOS o fent clic amb el botó dret a l'element de la llista de xats d'un usuari a l'escriptori).
+Delta Chat hi mostra dues empremtes digitals.
+Si les mateixes empremtes digitals apareixen al vostre dispositiu i al del vostre contacte, la connexió és segura.
 
-### Can I reuse my existing private key? {#importkey}
+Puc reutilitzar la meva clau privada existent? {#importkey}
 
 No.
 
-Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
-We do not recommend or offer users to perform manual key management.
-We want to ensure that security audits can focus on a few proven cryptographic algorithms
-instead of the full breadth of possible algorithms allowed with OpenPGP.
-If you want to extract your OpenPGP key, there only is an expert method:
-you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
+Delta Chat genera claus OpenPGP segures d'acord amb l'especificació Autocrypt 1.1. No recomanem ni oferim als usuaris que facin una gestió manual de les claus.
+Volem garantir que les auditories de seguretat es puguin centrar en uns quants algorismes criptogràfics provats en lloc de tota la gamma d'algorismes possibles permesos amb OpenPGP. Si vols extreure la teva clau OpenPGP, només hi ha un mètode per a experts: l'heu de buscar a la taula SQLite «keypairs» d'un fitxer tar de còpia de seguretat del perfil.
 
 
-### Was Delta Chat independently audited for security vulnerabilities? {#security-audits}
+### Delta Chat ha estat auditat de manera independent per detectar vulnerabilitats de seguretat?
 
-Yes, multiple times. 
-The Delta Chat project continuously undergoes independent security audits and analysis,
-from most recent to older: 
+Sí, diverses vegades. 
+El projecte Delta Chat es sotmet contínuament auditories i anàlisis de seguretat independents, de la més recent a la més antiga: 
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encryption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+- Desembre de 2024, una [avaluació encarregada per NLNET de
+  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) per [Radically Open Security](https://www.radicallyopensecurity.com/) va tenir lloc.
+  rPGP serveix com a motor de xifrat d'extrem a extrem [OpenPGP](https://openpgp.org) de Delta Chat. 
+ Es van publicar dos avisos relacionats amb les troballes d'aquesta auditoria:
 
   - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
   - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
 
-  The issues outlined in these advisories have been fixed and are part of Delta Chat 
-  releases on all appstores since December 2024. 
+Els problemes exposats en aquests avisos s'han solucionat i formen part de les versions de Delta Chat  a totes les botigues d'aplicacions des del desembre de 2024.
 
-- 2024 March, we received a deep security analysis from the Applied Cryptography
-  research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
-  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
-  research paper published afterwards. 
+- El març de 2024, vam rebre un anàlisi de seguretat profund del grup de recerca de Criptografia Aplicada de l'ETH Zúric i vam resoldre tots els problemes plantejats. 
+  Consulta la nostra entrada al blog sobre [Enduriment del xifrat d'extrem a extrem garantit](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) per a més informació detallada i  l'[Anàlisi criptogràfica de Delta Chat](https://eprint.iacr.org/2024/918.pdf), article de recerca publicat posteriorment. 
 
-- 2023 April, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
-  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
+- Abril de 2023, vam solucionar problemes de seguretat i privacitat amb la funció «aplicacions web compartides en un xat», relacionats amb fallades de sandbox, especialment amb Chromium. Posteriorment, vam rebre una auditoria de seguretat independent de Cure53 i tots els problemes trobats es van solucionar a la sèrie d'aplicacions 1.36, llançada l'abril de 2023.
+  Consulta [aquí la història completa sobre la seguretat d'extrem a extrem al web](https://delta.chat/en/2023-05-22-webxdc-security).
 
-- 2023 March, [Cure53](https://cure53.de) analyzed both the transport encryption of
-  Delta Chat's network connections and a reproducible mail server setup as
-  [recommended on this site](serverguide).
-  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-  or read the [full report here](../assets/blog/MER-01-report.pdf).
+- Març de 2023, [Cure53](https://cure53.de) va analitzar tant el xifratge de transport de les connexions de xarxa de Delta Chat com una configuració reproduïble de servidor de correu, tal com [es recomana en aquest lloc](serverguide).
+  Podeu llegir més sobre l'auditoria [al nostre blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) o llegir [l'informe complet aquí](../assets/blog/MER-01-report.pdf).
 
-- 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
-  [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+- 2020, [Include Security](https://includesecurity.com) va analitzar el [nucli](https://github.com/deltachat/deltachat-core-rust/) de Rust de Delta Chat,
+  les biblioteques d'[IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) i [TLS](https://github.com/async-email/async-native-tls).
+  No es van trobar problemes de gravetat crítica o alta.
+  L'informe va assenyalar algunes vulnerabilitats de gravetat mitjana:
+  per si mateixes no suposen una amenaça per als usuaris de Delta Chat
+  perquè depenen de l'entorn en què s'utilitza Delta Chat.
+  Per motius d'usabilitat i compatibilitat,
+  no podem mitigar-les totes
+  i hem decidit proporcionar recomanacions de seguretat als usuaris afectats.
+  Podeu llegir [l'informe complet aquí](../assets/blog/2020-second-security-review.pdf).
 
-- 2019, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's [PGP](https://github.com/rpgp/rpgp) and
-  [RSA](https://github.com/RustCrypto/RSA) libraries.
-  It found no critical issues,
-  but two high-severity issues that we subsequently fixed.
-  It also revealed one medium-severity and some less severe issues,
-  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
-  Some of them we nevertheless fixed since the audit was concluded.
-  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+- 2019, [Include Security](https://includesecurity.com) va analitzar les biblioteques [PGP](https://github.com/rpgp/rpgp) i [RSA](https://github.com/RustCrypto/RSA) de Delta Chat.
+  No es van trobar problemes crítics, però sí dos problemes de gravetat alta que vam solucionar posteriorment. També es va revelar un problema de gravetat mitjana i alguns problemes menys greus, però no hi havia manera d'aprofitar aquestes vulnerabilitats en la implementació de Delta Chat. Alguns d'ells, tanmateix, els hem solucionat des que es va concloure l'auditoria.
+  Podeu llegir [l'informe complet aquí](../assets/blog/2019-first-security-review.pdf).
 
 
 ## Miscel·lània
 
 ### Quins permissos necessita Delta Chat?
 
-Some features require certain permissions,
-e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
+Algunes funcions requereixen certs permisos,
+p. ex., cal concedir el permís de càmera si es vol [escanejar un codi QR d'invitació](#howtoe2ee).
 
 Consulta la [política de privacitat](https://delta.chat/en/gdpr#24-app-permissions) per una visió general detallada.
 
 
 ### On poden trobar Delta Chat els meus amics?
 
-Delta Chat is available for all major and some minor platforms:
+Delta Chat està disponible per a totes les plataformes principals i algunes secundàries:
 
 - El **lloc web oficial**, <https://delta.chat/download> mostra totes les opcions en detall
 
 - Si no està disponible, utilitza un **mirall** a <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
+- Obre una de les botigues d'aplicacions següents i busca "Delta Chat":
+  Google Play Store, F-Droid, Huawei App Gallery, App Store d'iOS i macOS, Microsoft Store
 
-- Check the **package manager** of your Linux distributions
+- Comprova el **gestor de paquets** de la teva distribució de Linux
 
 - Els **APKs d'Android** també estan disponibles a <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Com es finança el desenvolupament de Delta Chat? 
 
-Delta Chat does not receive any Venture Capital and
-is not indebted, and under no pressure to produce huge profits, or to 
-sell users and their friends and family to advertisers (or worse). 
-We rather use public funding sources, so far from EU and US origins, to help
-our efforts in instigating a decentralized and diverse chat messaging eco-system
-based on Free and Open-Source community developments.
+Delta Chat no rep cap inversió de capital de risc, no té deutes i no està sota la pressió de generar enormes beneficis, ni de vendre als usuaris i els seus amics i familiars als anunciants (o pitjor). En canvi, utilitzem fonts de finançament públiques, provinents sobretot de la UE i els EUA, per ajudar als nostres esforços per impulsar un ecosistema de missatgeria de xat descentralitzat i divers, basat en desenvolupaments comunitaris de codi obert i lliures.
 
-Concretely, Delta Chat developments have so far been funded from these sources,
-ordered chronologically: 
+Concretament, els desenvolupaments de Delta Chat s'han finançat fins ara a partir d'aquestes fonts, ordenades cronològicament: 
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on
+- El 2023 i el 2024 vam ser acceptats al programa Next Generation Internet (NGI) per la nostra feina a [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/), juntament amb socis de col·laboració que treballen en
   [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
   [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) i
   [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
-  All of these projects are partially completed or to be completed in early 2025.
+Tots aquests projectes estan parcialment completats o s'acabaran a principis del 2025.
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
+- El 2021 vam rebre més finançament de la UE per a dos propostes de Next-Generation-Internet, concretament per a [EPPD - directori de portabilitat de proveïdors de correu electrònic](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) i [AEAP - portabilitat d'adreces de correu electrònic](https://nlnet.nl/project/EmailPorting/) (~90K EUR) que van donar com a resultat un millor suport per a múltiples perfils, una millora en la configuració amb codi QR de contactes i grups i moltes millores de xarxa en totes les plataformes.
 
-- The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
-  completing Rust/Python bindings and instigating a Chat-bot eco-system.
+- La [fundació NLnet](https://nlnet.nl/) va concedir el 2019/2020 46 000 EUR per a completar els enllaços de Rust/Python i impulsar un ecosistema de bots de xat.
 
-- The [Open Technology Fund](https://opentechfund.org) gave us a
-  first 2018/2019 grant (~$200K) during which we majorly improved the Android app
-  and released a first Desktop app beta version, and which moreover
-  moored our feature developments in UX research in human rights contexts,
-  see our concluding [Needfinding and UX report](https://delta.chat/en/2019-07-19-uxreport).
-  The second 2019/2020 grant (~$300K) helped us to
-  release Delta/iOS versions, to convert our core library to Rust, and
-  to provide new features for all platforms.
+- L'[Open Technology Fund](https://opentechfund.org) ens va concedir una primera subvenció per al 2018/2019 (~200.000 $) durant la qual vam millorar significativament l'aplicació per a Android i vam llançar una primera versió beta de l'aplicació per a ordinador, i que, a més
+  va fonamentar el nostre desenvolupament de funcions en la recerca d'UX en contextos de drets humans; Mira els resultats del nostre [informe de recerca de necessitats i UX](https://delta.chat/en/2019-07-19-uxreport).
+  La segona subvenció del 2019/2020 (~300 000 $) ens va ajudar a
+  llançar versions per a Delta/iOS, a convertir la nostra biblioteca principal a Rust i a oferir noves funcionalitats per a totes les plataformes.
 
-- The [NEXTLEAP](https://nextleap.eu) EU project funded the research
-  and implementation of verified groups and setup contact protocols
-  in 2017 and 2018 and also helped to integrate end-to-end Encryption
-  through [Autocrypt](https://autocrypt.org).
+- El projecte de la UE [NEXTLEAP](https://nextleap.eu) va finançar la recerca i la implementació de grups verificats i protocols de contacte el 2017 i 2018, i també va ajudar a integrar el xifrat d'extrema a extrem a través d'[Autocrypt](https://autocrypt.org).
 
-- Sometimes we receive one-time donations from private individuals. 
-  For example, in 2021 a generous individual bank-wired us 4K EUR 
-  with the subject "keep up the good developments!". 💜 
-  We use such money to fund development gatherings or to care for ad-hoc expenses 
-  that can not easily be predicted for, or reimbursed from, public funding grants. 
-  Receiving more donations also helps us to become more independent and long-term viable
-  as a contributor community. 
+- De vegades rebem donacions puntuals de particulars. 
+  Per exemple, el 2021 un particular ens va transferir 4.000 EUR 
+  amb l'assumpte "Seguiu amb el bon desenvolupament!". 💜 
+ Fem servir aquests diners per finançar trobades de desenvolupament o per fer front a despeses extraordinàries 
+ que no es poden predir fàcilment o que no es poden reemborsar amb subvencions de finançament públic. 
+ Rebre més donacions també ens ajuda a ser més independents i viables a llarg termini com a comunitat de contribuïdors. 
 
   [Donatius](donate){: .cta-button}
 
-- Last but by far not least, several pro-bono experts and enthusiasts contributed 
-  and contribute to Delta Chat developments without receiving money, or only 
-  small amounts. Without them, Delta Chat would not be where it is today, not
-  even close. 
+- Per últim, però de cap manera el menys important, diversos experts i entusiastes pro-bono han contribuït i contribueixen al desenvolupament de Delta Chat sense rebre diners, o només petites quantitats. Sense ells, Delta Chat no seria on és avui, ni de bon tros. 
 
 El finançament monetari esmentat anteriorment està organitzat principalment per merlinux GmbH a Freiburg (Alemanya), i es distribueix a més d'una dotzena de col·laboradors d'arreu del món. 
 

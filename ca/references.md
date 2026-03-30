@@ -5,8 +5,7 @@ lang: ca
 
 # Referències
 
-> This list is not updated frequently.
-> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
+Aquesta llista no s'actualitza sovint. Pots trobar moltes més referències recents i veus d'usuaris en directe al [Fediverse](https://chaos.social/tags/deltachat).
 
 
 ### Roskomsvoboda: Delta Chat torna a rebutjar col·laborar amb les autoritats russes
