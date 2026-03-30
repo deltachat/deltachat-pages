@@ -67,8 +67,7 @@ Currently, adding secondary relays is a manual step (Advanced Settings -> Relays
 Once the dust settles and after some more research and security audits,
 we'll tackle automating this process:
 You'll be rather onboarding "on the relay network"
-and our chat profile will learn from friends and chat groups about new relays to use.
-The 
+and your chat profile will learn from friends and chat groups about new relays to use.
 
 
 ## Native calls on Android, iOS and UbuntuTouch (preview)
