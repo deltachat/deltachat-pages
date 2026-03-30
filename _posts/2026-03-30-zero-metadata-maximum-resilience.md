@@ -36,8 +36,6 @@ In practice this means:
   Chatmail accounts are created with random addresses
   and without asking for any personal information.
 
-XXX screenshot/quote of a real message
-
 <img src="../assets/blog/2026-03-30-near-zero-meta.png" /><br>_orange: random, green: hidden, everything else: no meaningful data_
 
 
@@ -64,7 +62,7 @@ With the [growing network of chatmail relays](https://chatmail.at/relays),
 there is no single point of failure, and anyone can add a new relay to their chat profile.
 Currently, adding secondary relays is a manual step (Advanced Settings -> Relays).
 
-XXX screenshot of a profile with multiple relay
+<img src="../assets/blog/2026-03-30-relays.png" />
 
 Once the dust settles and after some more research and security audits,
 we'll tackle automating this process:
