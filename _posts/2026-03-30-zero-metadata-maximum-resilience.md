@@ -1,6 +1,6 @@
 ---
-title: "Minimal metadata, maximum resilience, native audio/video calls and much more!"
-author: olgax
+title: "Minimal metadata, group descriptions, native audio/video calls and much more!"
+author: delta chat release team
 image: ../assets/blog/2026-03-30-zero.png
 ---
 
@@ -9,20 +9,29 @@ image: ../assets/blog/2026-03-30-zero.png
 a chat message reveals close to zero metadata to servers.**
 All meaningful metadata now lives exclusively in the encrypted part of messages,
 implementing full [Header Protection (RFC 9788)](https://datatracker.ietf.org/doc/rfc9788/).
-In practice this means:
+For tech folks and enthusiasts, here are the key points on how we turn email very close to zero-metadata:
 
 - **No cleartext To, Subject, or threading headers.**
   Recipients, message subjects, `References` and `In-Reply-To`
   are [moved into the encrypted part](https://github.com/chatmail/core/pull/7425)
   of every message.
-  Transport servers only see a minimal outer envelope.
+  Transport servers only see a minimal so called outer envelope.
 
 - **Securejoin v3 hides cryptographic identities.**
-  The [new 4-step securejoin protocol](https://github.com/chatmail/core/pull/7754)
+  The [new 4-step securejoin protocol (link contains beautiful hand drawings!)](https://github.com/chatmail/core/issues/7396)
   encrypts all verification messages, including the very first one.
   Previously, the initial securejoin message was sent unencrypted,
   leaking the joiner's cryptographic fingerprint to the server.
   No more.
+  The linked pull request also provides a masterclass in how to be both forward- and backward-compatible,
+  to avoid any friction for users.
+
+- **No cryptographic key information in OpenPGP messages anymore.**
+  We have finally [enabled anonymous OpenPGP key IDs](https://github.com/chatmail/core/issues/7384)
+  after waiting five months to give everyone time to upgrade their chatmail clients first.
+  Make sure all your devices (and those of your friends) are up to date with at least 1.60.6 (released June 2025).
+  Together with our Securejoin v3 work this completes our long-term goal of hiding
+  cryptographic identities from the message transport layer.
 
 - **Randomized Date header.**
   The outer Date is randomized, preventing timestamp-correlation attacks.
@@ -32,10 +41,68 @@ In practice this means:
 
 - **No Sealed Sender yet,** but also no phone numbers or private data
   recorded at chatmail relays.
-  Chatmail accounts are created with random addresses
+  Chatmail profiles are created with random addresses
   and without asking for any personal information.
+  Don't fret, though. 
+  We are continously moving respective code bases to land sealed sender eventually.
 
 <img src="../assets/blog/2026-03-30-near-zero-meta.png" /><br>_orange: random, green: hidden, everything else: no meaningful data_
+
+
+## Native calls on Android, iOS!
+
+Audio and video calls on Android, iOS 
+now behave like native phone calls:
+you can keep a call running in the background
+while switching to a different chat or even another app.
+Under the hood, calls use peer-to-peer [WebRTC](https://github.com/deltachat/calls-webapp)
+with signaling via regular Delta Chat messages.
+The feature is still behind the "debug calls" setting.
+
+<img src="../assets/blog/2026-03-30-android-calls.jpg" />
+
+## Native video calls on DeltaTouch (UbuntuTouch)
+
+Google and Apple are highly problematic centralized authorities for the mobile ecosystem,
+which is why we are supporting developments on alternative mobile eco-systems
+to the best of our abilities and resources.
+Luckily, there are some rich and friendly people supporting the "UbuntuTouch" ecosystem
+and DeltaTouch in particular,
+and the lead dev Lothar in conjunction with Douglas recently landed full audio/video calls for "DeltaTouch",
+a pretty much feature-parity Delta Chat client, based on the Lomiri toolkit.
+It is the only messenger that support seamless audio/video calls on UbuntuTouch.
+If you have C++ and QT knowledge and interest,
+please feel free to head over to the [codeberg deltatouch repository](codeberg.org/lk108/deltatouch).
+
+XXX screenshots of a video/audio call on DeltaTouch
+
+## Group and channel descriptions
+
+Groups and broadcast channels now support [descriptions](https://github.com/chatmail/core/pull/7829)
+that members see in the group profile.
+Descriptions are end-to-end encrypted and synced with member additions,
+making it easy to tell new members what a group is about.
+
+XXX 
+
+### Background audio message player
+
+For those of us who like interacting via audio messages, this is gold:
+both Desktop and Android now support playing audio message in background.
+
+<img src="../assets/blog/2026-03-31-audio-player-desktop.png" style="height: 420px; margin-right: 1em;" />
+<img src="../assets/blog/2026-03-31-audio-player-android.png" style="height: 420px;" />
+
+## Download on demand revamped, improved push notifications
+
+XXX more info on pre-messages and our push notification efforts
+
+
+## A note on needs from "at-risk" users
+
+XXX availability is often neglected
+
+XXX servers can be seized, and shoult not contain data
 
 
 ## Maximizing resilience through multi-path delivery
@@ -69,42 +136,4 @@ You'll be rather onboarding "on the relay network"
 and your chat profile will learn from friends and chat groups about new relays to use.
 
 
-## Native calls on Android, iOS and UbuntuTouch (preview)
-
-Audio and video calls on Android, iOS and UbuntuTouch
-now behave like native phone calls:
-you can keep a call running in the background
-while switching to a different chat or even another app.
-Under the hood, calls use peer-to-peer [WebRTC](https://github.com/deltachat/calls-webapp)
-with signaling via regular Delta Chat messages.
-The feature is still behind the "debug calls" setting.
-Please let us know about any issues users.
-
-<img src="../assets/blog/2026-03-30-android-calls.jpg" />
-
-## Group and channel descriptions
-
-Groups and broadcast channels now support
-[descriptions](https://github.com/chatmail/core/pull/7829)
-that members see in the group profile.
-Descriptions are end-to-end encrypted and synced with member additions,
-making it easy to tell new members what a group is about.
-
-XXX 
-
-## Global audio player
-
-Desktop and Android
-
-<img src="../assets/blog/2026-03-31-audio-player-desktop.png" style="height: 420px; margin-right: 1em;" />
-<img src="../assets/blog/2026-03-31-audio-player-android.png" style="height: 420px;" />
-
-## Download on demand revamped, improved push notifications
-
-XXX more info on pre-messages and our push notification efforts
-
-
-## A note on needs from "at-risk" users
-
-XXX availability is often neglected
 
