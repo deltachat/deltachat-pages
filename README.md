@@ -48,7 +48,7 @@ Testing changes
   or run `nix develop` and start `jekyll serve` in development shell
   to have a live preview at http://127.0.0.1:4000/en/
   If you don't have Nix installed,
-  you can install it with [The Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer).
+  follow the [Lix installation instructions](https://lix.systems/install/).
 
 - Alternatively, [install Jekyll](https://jekyllrb.com/docs/installation/) 
   on your local machive, run `bundle install` in this directory,
