@@ -92,11 +92,12 @@ making it easy to tell new members what a group is about.
 
 XXX 
 
-### Global audio player
+## Global audio player
 
-Desktop
+Desktop and Android
 
- <img src="../assets/blog/2026-03-31-audio-player-desktop.png" />
+<img src="../assets/blog/2026-03-31-audio-player-desktop.png" style="height: 420px; margin-right: 1em;" />
+<img src="../assets/blog/2026-03-31-audio-player-android.png" style="height: 420px;" />
 
 ## Download on demand revamped, improved push notifications
 
