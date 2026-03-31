@@ -1,21 +1,20 @@
 ---
 title: "Minimal metadata, group descriptions, native audio/video calls and much more!"
-author: delta chat release team
+author: delta chat and chatmail core release teams
 image: ../assets/blog/2026-03-30-zero.png
 ---
 
 <img src="../assets/blog/2026-03-30-zero.png" style="width:240px; float:right; clear:both; margin-left:1em; margin-bottom:.2em;" />
 **With the latest release chatmail releases,
 a chat message reveals close to zero metadata to servers.**
-All meaningful metadata now lives exclusively in the encrypted part of messages,
-implementing full [Header Protection (RFC 9788)](https://datatracker.ietf.org/doc/rfc9788/).
 For tech folks and enthusiasts, here are the key points on how we turn email very close to zero-metadata:
 
 - **No cleartext To, Subject, or threading headers.**
-  Recipients, message subjects, `References` and `In-Reply-To`
-  are [moved into the encrypted part](https://github.com/chatmail/core/pull/7425)
-  of every message.
+  All meaningful header metadata now lives exclusively in the encrypted part of messages,
+  implementing full [Header Protection (RFC 9788)](https://datatracker.ietf.org/doc/rfc9788/).
   Transport servers only see a minimal so called outer envelope.
+  See [the respective chatmail core Rust PR](https://github.com/chatmail/core/pull/7425)
+  for how it was done.
 
 - **Securejoin v3 hides cryptographic identities.**
   The [new 4-step securejoin protocol (link contains beautiful hand drawings!)](https://github.com/chatmail/core/issues/7396)
@@ -23,15 +22,17 @@ For tech folks and enthusiasts, here are the key points on how we turn email ver
   Previously, the initial securejoin message was sent unencrypted,
   leaking the joiner's cryptographic fingerprint to the server.
   No more.
-  The linked pull request also provides a masterclass in how to be both forward- and backward-compatible,
-  to avoid any friction for users.
+  The linked pull request also provides a masterclass in
+  how to evolve a protocol to be both forward- and backward-compatible,
+  thus avoiding any friction for users.
 
 - **No cryptographic key information in OpenPGP messages anymore.**
   We have finally [enabled anonymous OpenPGP key IDs](https://github.com/chatmail/core/issues/7384)
   after waiting five months to give everyone time to upgrade their chatmail clients first.
   Make sure all your devices (and those of your friends) are up to date with at least 1.60.6 (released June 2025).
   Together with our Securejoin v3 work this completes our long-term goal of hiding
-  cryptographic identities from the message transport layer.
+  cryptographic identities from the message transport layer,
+  after [we already robbed servers of the ability to perform machine-in-the-middle attacks](https://delta.chat/en/2025-08-04-encryption-v2).
 
 - **Randomized Date header.**
   The outer Date is randomized, preventing timestamp-correlation attacks.
@@ -39,17 +40,19 @@ For tech folks and enthusiasts, here are the key points on how we turn email ver
   but we maintain end-to-end compatiblity with other encrypting email apps
   which often require this outer date header to function at all.
 
-- **No Sealed Sender yet,** but also no phone numbers or private data
+- **No "Sealed Sender" yet,** but also no phone numbers or private data
   recorded at chatmail relays.
   Chatmail profiles are created with random addresses
   and without asking for any personal information.
-  Don't fret, though. 
-  We are continously moving respective code bases to land sealed sender eventually.
+  Don't fret, though.
+  We are aiming to land "Sealed Sender" eventually,
+  maybe along with [Autocrypt2 support](https://autocrypt2.org),
+  which provides Post-Quantum-Cryptography and Reliable Deletion ("Forward Secrecy").
 
 <img src="../assets/blog/2026-03-30-near-zero-meta.png" /><br>_orange: random, green: hidden, everything else: no meaningful data_
 
 
-## Native calls on Android, iOS!
+## Native calls on Android and iOS!
 
 Audio and video calls on Android, iOS 
 now behave like native phone calls:
@@ -112,20 +115,17 @@ XXX servers can be seized, and shoult not contain data
 </a>
 
 Single-path messaging systems have a fundamental problem:
-if the one server you depend on goes down or is blocked in a country,
-you can't communicate.
-Signal, WhatsApp, Telegram all are known centralized transport servers
+if the one server you depend on goes down or is blocked, you can't communicate.
+Signal, WhatsApp, Telegram all operate centralized transport infrastructure,
 and are somewhat easily blocked in many places.
-But even with the Matrix system, you choose a single home server,
+But even with the decentraliced Matrix messaging system, you need to choose a single home server,
 and if that gets blocked or goes down, your ability to chat breaks down.
 
-XXX some visiualization of multi-path delivery
-
-Our new release go further with [multi-path delivery](https://github.com/chatmail/core/issues/7357):
+Our new release brings [multi-path delivery](https://github.com/chatmail/core/issues/7357):
 each profile can use multiple chatmail relays for sending and receiving.
-If a receiving relay is blocked or down, messages flow through another.
+If a receiving relay is blocked or goes down, messages flow through another.
 With the [growing network of chatmail relays](https://chatmail.at/relays),
-there is no single point of failure, and anyone can add a new relay to their chat profile.
+there does not need to be a single point of failure, and anyone can add new relays to their chat profile.
 Currently, adding secondary relays is a manual step (Advanced Settings -> Relays).
 
 <img src="../assets/blog/2026-03-30-relays.png" style="width:320px;" />
@@ -134,6 +134,8 @@ Once the dust settles and after some more research and security audits,
 we'll tackle automating this process:
 You'll be rather onboarding "on the relay network"
 and your chat profile will learn from friends and chat groups about new relays to use.
+We are working towards an unstoppable planetary-scale instant messenging experience,
+and if you want to help it, please consider [contributing work or money](https://delta.chat/en/contribute)
+or see if you can motivate and help friends and family to use it, already.
 
-
-
+♥ cheers and thanks from the delta chat and chatmail release teams ♥
