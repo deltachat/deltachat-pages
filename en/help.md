@@ -281,7 +281,7 @@ Because all members have the same rights, groups work best among **trusted frien
 
 ### Creation of a group
 
-- Select **New chat** and then **New group** from the menu in the upper right corner or hit the corresponding button on Android/iOS.
+- Tap on the (+) button at the bottom of the chat list and choose "New Group" option.
 
 - On the following screen, select the **group members** and define a **group name**. You can also select a **group avatar**.
 
