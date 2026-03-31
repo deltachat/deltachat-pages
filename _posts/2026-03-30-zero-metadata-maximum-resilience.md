@@ -92,6 +92,12 @@ making it easy to tell new members what a group is about.
 
 XXX 
 
+### Global audio player
+
+Desktop
+
+ <img src="../assets/blog/2026-03-31-audio-player-desktop.png" />
+
 ## Download on demand revamped, improved push notifications
 
 XXX more info on pre-messages and our push notification efforts
