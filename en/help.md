@@ -979,23 +979,20 @@ can not be identified easily.
 
 ### Who sees my IP Address?
 
-The used [relay](#relays) needs to know your IP Address,
+The used [relays](#relays) need to know your IP Address,
 as well as sometimes your contact's devices if you have a [call](#experiments)
 or use [apps](#webxdc) together.
 
 IP Addresses are needed for connectivity and efficiency.
-They are neither persisted nor exposed.
-Note that the IP Address
-is not like a detailed address you give to a delivery service,
-but much more coarse, often defining region or country only.
+Delta Chat neither persists nor exposes them.
+Note that IP Addresses
+are not like an address you give to a delivery service,
+but typically less precise, often defining city or region only.
 
-As this is just how the internet and other messengers work by default,
-we do not offer options here or ask upfront questions.
-
-If you see your IP Address as a security or privacy risk,
-we recommend to use a VPN, in combination with system lockdown mode.
-Hunting down options in all apps on your system will leave gaps.
-For example, tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
+If you see your IP Address as a risk,
+we recommend to use a VPN and block all traffic not using it.
+Per-app options leave gaps across your whole system.
+For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
 
 
 ### Does Delta Chat support "Sealed Sender"? {#sealedsender}
