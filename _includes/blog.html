@@ -1,7 +1,5 @@
-{% assign index = 0 %}
-{% for post in site.posts %}
-{% assign index = index | plus:1 %}
-{% if index <= 12 %}
+{% assign new_post_count = 12 %}
+{% for post in site.posts limit:new_post_count %}
 <div class="post-box">
   <a href="..{{ post.url }}">
     {% if post.image %}
@@ -17,15 +15,13 @@
     <a href="..{{ post.url }}">Read on...</a>
   </p>
 </div>
-{% else %}
+{% endfor %}
+<h2>Older posts</h2>
+{% for post in site.posts offset:new_post_count %}
 <div>
-  {% if index == 13 %}
-  <h2>Older posts</h2>
-  {% endif %}
-  <p>
-    <em>{{ post.date | date: "%B %Y" }}</em> -
-    <a href="..{{ post.url }}">{{ post.title }}</a>
-  </p>
+	<p>
+		<em>{{ post.date | date: "%B %Y" }}</em> -
+		<a href="..{{ post.url }}">{{ post.title }}</a>
+	</p>
 </div>
-{% endif %}
 {% endfor %}
