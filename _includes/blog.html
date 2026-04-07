@@ -10,7 +10,7 @@
     <h2>{{ post.title }}</h2>
   </a>
   <p>
-    <em>{{ post.date | date: "%B %d, %Y" }}</em> -
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time> -
     {{ post.excerpt | strip_html }} 
     <a href="..{{ post.url }}">Read on...</a>
   </p>
@@ -20,7 +20,7 @@
 {% for post in site.posts offset:new_post_count %}
 <div>
 	<p>
-		<em>{{ post.date | date: "%B %Y" }}</em> -
+		<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y" }}</time> -
 		<a href="..{{ post.url }}">{{ post.title }}</a>
 	</p>
 </div>
