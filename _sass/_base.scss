@@ -150,7 +150,7 @@ p.blogdate {
 
 body {
     font-family: Arial, Verdana, Helvetica, sans-serif;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 
 nav, h1, h2, h3, h4, h5, h6 {
@@ -161,7 +161,7 @@ main ul, ol { margin-left: 1.5em; }
 main ul li { list-style: disc outside; margin: 0.5em 0.2em; padding-left: 0.5em; }
 ol li { list-style: decimal; margin: 0.5em 0.2em; padding-left: 0.5em; }
 
-h1,h2 { font-weight: normal; font-size: 1.625rem; line-height: 1.4em; }
+h1,h2 { font-weight: normal; font-size: 1.625rem; }
 h3 { color: #159957; }
 h4 { color: #159957; }
 
