@@ -64,7 +64,7 @@ footer a, footer a:visited {
     color: #757575;
 }
 #languages {
-    margin: 1em;
+    margin-block: 1em;
 }
 
 .featured-image {
@@ -114,8 +114,9 @@ footer a, footer a:visited {
         margin-left: 20px;
     }
 
+    #languages,
     main {
-        margin: 0 auto;
+        margin-inline: auto;
         width: 75%;
         min-width: 580px;
         max-width: 800px;
@@ -123,9 +124,6 @@ footer a, footer a:visited {
     footer {
         padding: 2em;
     }	
-    #languages {
-        margin: 1em 20vw;
-    }
 }
 
 
