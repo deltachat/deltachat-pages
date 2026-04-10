@@ -21,11 +21,9 @@ Um den SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das fo
 
 ## Desktop
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
-   `deltachat-desktop_<VERSION>_amd64.deb`
+1. Öffnen dein Terminal und **wechsle in das Verzeichnis** in dem sich die zu überprüfende Datei befindet, z. B.  `deltachat-desktop_1_amd64.deb`
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Signierte Prüfsummen und Importschlüssel herunterladen;** `<VERSION>` muss durch die Versionsnummer ersetzt werden, z. B. `2.33.0`
 
    ```
    wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
@@ -33,15 +31,15 @@ Um den SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das fo
    gpg --import deltachat_certificate.asc.txt
    ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+   Der Schlüssel ist auch unter [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu) verfügbar
 
-3. **Verify and check results**
+3. **Ergebnisse überprüfen und kontrollieren**
 
    ```
    gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
-   Expected output:
+   Erwartetes Ergebnis:
 
    ```
    gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
@@ -51,10 +49,9 @@ Um den SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das fo
    <FILE>: OK
    ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Vergewissere dich, dass der Fingerabdruck übereinstimmt und dass die Datei, die du überprüfen möchtest, aufgeführt ist. Die Warnung ist normal, da du dem Schlüssel nicht ausdrücklich vertraut hast.
 
-If gpg is broken on your system, you can use  
-`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
+Falls `gpg` auf deinem System nicht funktioniert, kannst du folgendes tun: 
+`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` oder  
 `cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+beachte, dass letzteres die Integrität prüft, aber _nicht_ den Schlüssel des Entwicklers.
