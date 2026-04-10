@@ -111,7 +111,8 @@ for more info see the comments in `./tools/t-dance.sh`.
   and run `./tools/t-dance.sh pull`.
   copy files not handled by Transifex (./en/gdpr*) and adapt the header.
 
-- add the language to `/_includes/footer-languages.html` and `redirect.js`
+- add the language to `_includes/footer-languages.html`, `redirect.js`
+  and, in case help is mostly complete, to `tools/create-local-help.py`
 
 ### Update translations
 
