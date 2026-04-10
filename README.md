@@ -164,6 +164,10 @@ Same for a blog post that is not translated.
 Further Hints
 --------------------------------------------------------------------------------
 
+- the website is **mirrored to subdirectories** as <https://deltachat.github.io/deltachat-pages>,
+  therefore, wherever possible, do not use absolute paths as `/assets/smth.jpg`.
+  instead, **use relative paths** as `../assets/smth.jpg`.
+
 - wherever possible, use **Markdown** instead of HTML, 
   esp. in files for translation.
 
