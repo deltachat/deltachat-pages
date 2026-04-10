@@ -748,7 +748,7 @@ Els problemes exposats en aquests avisos s'han solucionat i formen part de les v
 - Abril de 2023, vam solucionar problemes de seguretat i privacitat amb la funció «aplicacions web compartides en un xat», relacionats amb fallades de sandbox, especialment amb Chromium. Posteriorment, vam rebre una auditoria de seguretat independent de Cure53 i tots els problemes trobats es van solucionar a la sèrie d'aplicacions 1.36, llançada l'abril de 2023.
   Consulta [aquí la història completa sobre la seguretat d'extrem a extrem al web](https://delta.chat/en/2023-05-22-webxdc-security).
 
-- Març de 2023, [Cure53](https://cure53.de) va analitzar tant el xifratge de transport de les connexions de xarxa de Delta Chat com una configuració reproduïble de servidor de correu, tal com [es recomana en aquest lloc](serverguide).
+- Març de 2023, [Cure53](https://cure53.de) va analitzar tant el xifratge de transport de les connexions de xarxa de Delta Chat com una configuració reproduïble de servidor de correu, tal com [es recomana en aquest lloc](https://delta.chat/serverguide).
   Podeu llegir més sobre l'auditoria [al nostre blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) o llegir [l'informe complet aquí](../assets/blog/MER-01-report.pdf).
 
 - 2020, [Include Security](https://includesecurity.com) va analitzar el [nucli](https://github.com/deltachat/deltachat-core-rust/) de Rust de Delta Chat,

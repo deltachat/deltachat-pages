@@ -964,7 +964,7 @@ Vedi [qui per la storia completa sulla sicurezza end-to-end nel web](https://del
 
 - A partire dal 2023, [Cure53](https://cure53.de) ha analizzato sia la crittografia del trasporto delle
 Connessioni di rete di Delta Chat e una configurazione del server di posta riproducibile come
-[consigliato su questo sito](serverguide).
+[consigliato su questo sito](https://delta.chat/serverguide).
 Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
 o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
 

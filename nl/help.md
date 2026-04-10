@@ -970,7 +970,7 @@ from most recent to older:
 
 - Aan het begin van 2023 heeft [Cure53](https://cure53.de) de transportversleuteling van
   Delta Chats netwerkverbindingen getest, evenals de e-mailserveropzet zoals
-  [beschreven op onze site](serverguide).
+  [beschreven op onze site](https://delta.chat/serverguide).
   Meer informatie over deze test is te lezen [op ons blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   of in het [volledige verslag](../assets/blog/MER-01-report.pdf).
 

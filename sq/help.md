@@ -979,7 +979,7 @@ from most recent to older:
 
 - Në fillim të 2023-it, [Cure53](https://cure53.de) analizoi qoftë fshehtëzimin
   e transporteve për lidhje rrjeti të Delta Chat-it, qoftë një formësim të riprodhueshëm
-  shërbyesi poste si [të rekomanduarin në këtë sajt](serverguide).
+  shërbyesi poste si [të rekomanduarin në këtë sajt](https://delta.chat/serverguide).
   Mund të lexoni më tepër rreth auditimit [në blogun tonë](https://delta.chat/en/2023-03-27-third-independent-security-audit),
   ose të lexoni [raportin e plotë këtu](../assets/blog/MER-01-report.pdf).
 

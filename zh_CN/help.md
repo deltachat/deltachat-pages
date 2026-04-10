@@ -947,7 +947,7 @@ Delta Chat 长期接受第三方独立机构的安全审计与漏洞分析，
 请参阅 [此处，了解有关 Web 中端到端安全性的完整背景故事](https://delta.chat/en/2023-05-22-webxdc-security)。
 
 - 2023 年 3 月，[Cure53](https://cure53.de) 分析了 Delta Chat 网络连接的传输加密和一个可重现的邮件服务器设置，如
-[本网站](serverguide) 推荐的那样。
+[本网站](https://delta.chat/serverguide) 推荐的那样。
 你可以在 [我们的博客](https://delta.chat/en/2023-03-27-third-independent-security-audit) 上阅读有关审计的更多信息
 ，或在此处阅读 [完整报告](../assets/blog/MER-01-report.pdf)。
 

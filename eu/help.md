@@ -302,7 +302,7 @@ klikatu “Kopiatu” edo “Partekatu”, eta bidali **gonbidapen-esteka**
 kide berriari, beste txat pribatu baten bidez.
 
 QR kodeen eta gonbidapen-esteken bidez ere gehitu daitezke kideak.
-Dena den, taldeak [konfidantzazko jendearentzat](#groups) direnez, hobeto da, ahal dela, publikoki ez partekatzea.
+Dena den, taldeak [konfiantzazko jendearentzat](#groups) direnez, hobeto da, ahal dela, publikoki ez partekatzea.
 
 
 ### Neure burua ezabatu dut nahi gabe.
@@ -316,8 +316,8 @@ Ez kezkatu, ordea, badu konponbidea eta: eskatu taldeko beste kide bati, txat no
 - Ezabatu zeure burua kideen zerrendatik, edo ezabatu txat osoa. 
 Geroago berriro taldean sartu nahi baduzu, eskatu taldeko beste kide bati zu berriro taldean gehitzeko.
 
-As an alternative, you can also "Mute" a group - doing so means you get all messages and 
-can still write, but are no longer notified of any new messages.
+Beste aukera bat taldea **mututzea** da; hori hautatzen baduzu, taldeko mezu guztiak jasoko dituzu 
+eta taldean idazten jarraitu ahalko duzu, baina mezuen jakinarazpenik ez duzu jasoko.
 
 ### Nola klonatu talde bat
 
@@ -339,7 +339,7 @@ Ez dago muga tekniko zorrotzik,
 baina ez da komeni 150 baino gehiago izatea.
 
 Zenbat eta talde handiagoa izan, errazagoa da sozialki ezegonkorra bihurtzea eta hierarkia behar izatea.
-Delta Chat [eskubide berberekin](#groups) txateatzeko aukera ematen duen mezularitza pribatuko zerbitzu bat.
+Delta Chat [eskubide berberekin](#groups) txateatzeko aukera ematen duen mezularitza pribatuko zerbitzu bat da.
 Informazio gehiago nahi baduzu, kontsultatu [Dunbarren zenbakia](https://en.wikipedia.org/wiki/Dunbar%27s_number).
 
 
@@ -987,7 +987,7 @@ Hona hemen zerrenda, ordena kronologikoan:
 
 - 2023 March, [Cure53](https://cure53.de) analyzed both the transport encryption of
   Delta Chat's network connections and a reproducible mail server setup as
-  [recommended on this site](serverguide).
+  [recommended on this site](https://delta.chat/serverguide).
   You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   or read the [full report here](../assets/blog/MER-01-report.pdf).
 
