@@ -4,6 +4,10 @@ div.download-content {
 
     margin-bottom: 2em;
 
+    #recommendation:empty {
+        display: none;
+    }
+
     div.box {
         margin: 1em 0pt;
         padding: 2px 2px 7pt 7pt;
