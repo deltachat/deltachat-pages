@@ -1,0 +1,38 @@
+eu:
+  
+  meta:
+    description: Delta Chat - Mezularitza deszentralizatu eta segurua
+    keywords: "delta chat, chatmail, mezularia, deskargatu delta chat"
+    rss_news_title: Delta Chat albisteak
+
+  menu:
+    home: Hasiera
+    download: Deskargatu
+    blog: Bloga
+    contribute: Lagundu
+    help: MEG
+    forum: Foroa
+
+  subscribe_to_feed: Harpidetu gure jariora
+
+  references: Erreferentziak
+  donate: Egin dohaintza
+  imprint: Lege-oharra
+  privacy: Pribatutasun-politika
+  language: Hizkuntza
+
+  download:
+    other: Beste plataforma batzuetarako deskarga-aukerak
+    no_upgrades: Eguneratze automatikorik gabeko deskarga-aukerak
+    source_code: Iturburu kodea
+    outdated: zaharkitua
+    minimum: Gutxieneko eskakizunak
+    dl_flathub: Deskargatu Flathub-etik
+    dl_microsoft: Deskargatu Microsoft Store-tik
+    dl_mac_appstore: Deskargatu Apple Mac App Store-n
+    dl_appstore: Deskargatu Apple AppStore-n
+    dl_fdroid: Lortu F-Droid-en
+    gplay: Lortu Google Play-n
+
+  help:
+    offline_hint: "Presa al duzu? Laguntza-testu hau lasai irakurri ahal izango duzu edonoiz aplikazioaren barruan, baita internetik gabe ere."
