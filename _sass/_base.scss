@@ -2,7 +2,7 @@
 *******************************************************************************/
 
 * {margin:0;padding:0} iframe,a img,table {border:0}
-li,ul,ol {list-style:none} table {border-collapse:collapse} th {text-align:left;}
+table {border-collapse:collapse} th {text-align:left;}
 
 
 
@@ -158,8 +158,8 @@ nav, h1, h2, h3, h4, h5, h6 {
 }
 
 main ul, ol { margin-left: 1.5em; }
-main ul li { list-style: disc outside; margin: 0.5em 0.2em; padding-left: 0.5em; }
-ol li { list-style: decimal; margin: 0.5em 0.2em; padding-left: 0.5em; }
+main ul li { margin: 0.5em 0.2em; padding-left: 0.5em; }
+ol li { margin: 0.5em 0.2em; padding-left: 0.5em; }
 
 h1,h2 { font-weight: normal; font-size: 1.625rem; }
 h3 { color: #159957; }
