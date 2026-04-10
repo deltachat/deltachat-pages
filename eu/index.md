@@ -3,15 +3,15 @@ title: Delta Chat, mezularitza seguru deszentralizatua
 lang: eu
 ---
 
-# Delta Chat mezularitza aplikazio deszentralizatu eta segurua da {#homepage-heading}
+# Delta Chat mezularitza-aplikazio deszentralizatu eta segurua da {#homepage-heading}
 
 💬 Berehalako mezularitza fidagarria, profil anitzeko eta gailu anitzeko euskarriarekin
 
 ⚡️ Eman izena [chatmail errele](https://chatmail.at/relays) seguru eta elkarreragileetan
 
-🥳 [Web aplikazio interaktiboak txatetan](https://webxdc.org/), jolasteko eta elkarlanean aritzeko
+🥳 [Txat barruan aplikazio](https://webxdc.org/) interaktiboak, jolasteko eta elkarlanerako.
 
-🔒 [Amaieratik amaierarako zifratze ikuskatua](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), sarearen eta zerbitzariaren aurkako erasoen aurrean segurua
+🔒 [Muturretik muturrerako zifratze auditatua](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin); segurua da sarearen edo zerbitzariaren kontrako erasoen aurka.
 
 👉 [F](https://eu.wikipedia.org/wiki/Software_libre)[OSS](https://eu.wikipedia.org/wiki/Kode_irekiko_software) softwarea, [Interneteko estandarretan](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md) oinarritua, [xkcd927](https://xkcd.com/927/) saihestuz :)
 
