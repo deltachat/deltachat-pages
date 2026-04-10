@@ -94,7 +94,7 @@ Delta Chat lehenbiziko aldiz instalatutakoan, lehen profil edo kontu bat sortzen
 Gero, pantailaren goialdean ezkerreko izkinan zure profilaren irudia ukituta, **kontua aldatu**
 edo **kontua gehitu** dezakezu.
 
-Agian profil desberdinak erabili nahi dituzu jarduera politikoetarako, lagun eta familikoetarako, eta lanekoetarako.
+Agian profil desberdinak erabili nahi dituzu jarduera politikoetarako, lagun eta familiakoetarako, eta lanekoetarako.
 
 Eta beharbada ikasi nahi duzu [nola erabili profil edo kontu bera zenbait gailutan](#multiclient).
 
@@ -134,7 +134,7 @@ eta marka hau izaten dute: <b style="border: 1px solid currentColor; padding: 0 
 Funtzio horiek erabiltzeko, mahaigainekoan, egin klik eskuineko botoiarekin zerrendako txatean; mugikorrean, berriz, eduki sakatuta txata edo erabili menua.
 
 
-### Zer dira “Gordetetako mezuak”? {#save}
+### Zer dira “Gordetako mezuak”? {#save}
 
 Mezuak erraz aurkitzeko eta gogoratzeko erabil dezakezun txat bat da **Gordetako mezuak**.
 

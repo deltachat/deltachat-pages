@@ -13,20 +13,20 @@ Delta Chat-en inguruko komunitate-elkarreraginetarako, irakurri, mesedez, gure [
 
 - [Delta Chat biltegiak](https://github.com/deltachat/) hemen aurki dezakezu DeltaChat aplikazioen eta webgune honen kodea.
 
-- Esteka gehiago aurki ditzakezu [cosmos-en](https://cosmos.delta.chat)
+- Esteka gehiago aurki ditzakezu [cosmos-en](https://cosmos.delta.chat).
 
 [Diruz lagundu](donate){: .cta-button}
 
 # Itzulpenak eta akats-txostenak
 
-- [Itzulpenak Transifex-en](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android-en arazoak](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop-en arazoak](https://github.com/deltachat/deltachat-desktop/issues)
+- [Itzulpenak Transifex bidez](https://explore.transifex.com/delta-chat/)
+- [Delta Chat Android arazoak](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Desktop arazoak](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS arazoak](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core liburutegia + Python Bindings arazoak](https://github.com/deltachat/deltachat-core-rust/issues)
 
 Beti gaude garatzaileen eta diseinatzaileen bila.
-Normalean, astean 20-30 orduko kontratuak edo enpleguak (Alemanian bazaude) eskaintzen ditugu.
+Normalean, astean 20-30 orduko kontratuak edo enpleguak eskaintzen ditugu (Alemanian bazaude).
 Mesedez, jarri gurekin harremanetan (delta at merlinux eu) gure lanean laguntzeko interesa baduzu!
 
 Informazio gehiago nahi izanez gero, gure [bloga](https://delta.chat/en/blog) irakurtzea eta jarraitzea gomendatzen dizugu.
@@ -34,7 +34,7 @@ Informazio gehiago nahi izanez gero, gure [bloga](https://delta.chat/en/blog) ir
 
 # Hirugarrenen komunikazio-kanalak
 
-Delta Chat-i lotutako ondorengo komunikazio-kanalak hirugarrenek kudeatzen dituzte; baliteke kanal horiek gure [Komunitate-arauak](community-standards) betetzea edo ez:
+Delta Chat-i lotutako ondorengo komunikazio-kanalak hirugarren pertsonek kudeatzen dituzte; baliteke kanal horiek gure [Komunitate-arauak](community-standards) betetzea edo ez:
 
 - [PixelSocial]({% include dc-community-url %}) sare sozial anonimo bat Delta Chat barruan.
 
