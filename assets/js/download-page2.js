@@ -1,12 +1,9 @@
 function main() {
     var os = userAgentToOS();
     if (os!=='') {
-        document.getElementById("recommendation-section").hidden = false;
         document.getElementById("boxes").removeAttribute("open");
         document.getElementById("boxes-summary").hidden = false;
-
-        var recommend = document.getElementById("recommend");
-        recommend.appendChild(document.getElementById(os));
+        document.getElementById("recommendation").appendChild(document.getElementById(os));
     }
 }
 
