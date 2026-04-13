@@ -535,7 +535,7 @@ eta horrek arazoak eragin ohi ditu (Windows-en, batez ere).
 Ahal bada, erabili gonbidatuena ez den beste sare bat.
 
 - Bi gailuak sare berera konektatuta egonda ere oraindik arazoak badituzu,
-saiatu hau egiten: aktibatu gailu bat **sarbide-puntu mugikorra** gisa,
+saiatu hau egiten: aktibatu gailu bat **sarbide-puntu mugikor** gisa,
 eta konektatu wifi-sare horretara beste mugikorra.
 
 - Ziurtatu bigarren gailuan badagoela **nahikoa leku**.
@@ -597,30 +597,29 @@ sartu [foroan](https://support.delta.chat).
 
 ### Zer dira erreleak? {#relays}
 
-Zure gailua konexiorik gabe dagoela-eta mezuak aldi baterako gordetzeko
-erabiltzen dira erreleak. Zerbitzari txiki eta merkeak dira, eta
-ez dute gordetzen taldeen egoera, zure izena eta abarra edo era horretako
-daturik; hori guztia zure gailuan bakarrik dago. Erreleak hainbat
+Zure gailua konexiorik gabe dagoela-eta mezuak aldi baterako gordetzeko erabiltzen dira erreleak. 
+Zerbitzari txiki eta merkeak dira, eta
+ez dute gordetzen taldeen egoera, zure izena eta abatarra edo era horretako daturik; 
+hori guztia zure gailuan bakarrik dago. Erreleak hainbat
 talde eta pertsonak kudeatzen dituzte.
 
-By default, after installation, a relay is **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Besterik adierazi ezean, aplikazioa instalatutakoan, **automatikoki**
+errele bat konfiguratzen da; beraz, ez duzu horretaz kezkatu beharrik.
+Dena den, nahi baduzu, hemen konfigura ditzakezu erreleak:
+**Ezarpenak → Aurreratua → Erreleak**.
 
-- You can **add** a relay by scanning its QR code;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
-  If you have multiple relays, you will receive messages on all of them.
-  Contacts learn your current relays automatically when you message them.
+- Errele bat **gehitu** nahi baduzu, eskaneatu haren QR kodea;
+zerrenda honetan ezagun batzuk daude:  [chatmail.at/relays](https://chatmail.at/relays).
+Errele bat baino gehiago badituzu, mezuak guztietatik jasoko dituzu. 
+Mezu bat bidaltzen diezunean, zure kontaktuek automatikoki ikasten dute oraingo erreleak zein diren
 
-- Tap on a relay to set it as **used for sending**.
+- Sakatu errele baten gainean, **bidaltzeko erabilia** gisa konfiguratzeko.
 
-- If you **remove** a relay,
-  contacts who only know this relay may not reach you until you message them again.
-  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
-  instead of removing it right away.
+- Errele bat **ezabatzen** baduzu,
+gerta liteke errele hori bakarrik ezagutzen duten zure kontaktuak zurekin komunikatu ezin izatea zuk haiei mezu bat bidali arte. 
+Hori ez gertatzeko eta bitartean kontaktuek zu lokalizatu ahal izateko, berehala ezabatu beharrean hautatu **Ezkutatu kontaktuetatik** konfirmatzeko elkarrizketa-koadroan.
 
-- To **show** a hidden relay again, tap on it.
+- Ezkutuan jarritako errele bat berriro **erakusteko**, sakatu gainean.
 
 Informazio gehiago lortu eta erreleen geroko aukeren berri
 jakin nahi baduzu, irakurri eztabaidak [foroan](https://support.delta.chat).
