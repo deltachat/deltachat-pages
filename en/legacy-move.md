@@ -54,11 +54,13 @@ If so, you should change the profile as follows:
 
 5. Tap the newly added relay so that it becomes **Default**
 
-Then, continue chatting, **your contacts will learn the new relay** over time -
-until then, you are still reachable on the old email address.
+6. **Remove the old email address**
 
-**Some weeks later,** you can remove the old email address, 
-which will then stop cluttering your classic Inbox with encrypted messages.
+7. **Message your contacts;** their Delta Chat will learn the new relay automatically.
+
+In step 6. you are also offered to _hide instead of removing._
+In this case, you will continue receiving messages from the old email address,
+however, be prepared that **removing messages in Delta Chat will remove them on the email server.**
 
 
 ## Background
