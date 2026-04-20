@@ -14,7 +14,7 @@ downloads: true
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)、
   [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [可选客户端](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [可选客户端](https://chatmail.at/clients)
 
 - [提供商数据库](https://providers.delta.chat/)
 

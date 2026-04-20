@@ -14,7 +14,7 @@ Verze pro počítače nevyžaduje instalaci aplikace Delta Chat na mobilní tele
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Jádro](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Alternativní klienti](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Alternativní klienti](https://chatmail.at/clients)
 
 - [Databáze poskytovatelů](https://providers.delta.chat/)
 

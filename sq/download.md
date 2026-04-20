@@ -14,7 +14,7 @@ Versionet desktop s’kanë nevojë që Delta Chat të jetë i instaluar në nj�
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Klientë Alternativë](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Klientë Alternativë](https://chatmail.at/clients)
 
 - [Bazë të Dhënash Shërbimesh](https://providers.delta.chat/)
 

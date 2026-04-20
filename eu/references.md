@@ -10,28 +10,21 @@ Zerrenda hau ez da maiz eguneratzen. Erreferentzia berri gehiago eta erabiltzail
 
 ### Roskomsvoboda: Delta Chatek uko egin dio berriro errusiar agintariekin kolaboratzeari
 
-Translated summary:
-_"In its response to the agency,
-the service also clarified that it is an app
-that allows users to choose email providers at will,
-and it does not have access to the contents of messages,
-let alone the encryption keys that only exist on users' devices."_
+Itzulitako laburpena:
+_"Agentziari bidalitako erantzunean, zerbitzuak argitu zuen, halaber, erabiltzaileei posta elektronikoko hornitzaileak nahi bezala hautatzeko aukera ematen dien aplikazioa dela, eta ez duela mezuen edukietara sartzeko aukerarik, are gutxiago erabiltzaileen gailuetan soilik dauden zifratze-gakoetara."_
 
 2024-06-14, <https://roskomsvoboda.org/ru/post/delta-chat-snova-otkazal-roskomnadzoru/>
 
 
-### РБК (Major Russian Newspaper): Why are Russian Internet outages becoming more frequent and how to stay connected?
+### РБК (Errusiako egunkari garrantzitsua): Zergatik ari dira Errusiako Interneteko etenaldiak ugaritzen eta nola mantendu konektatuta?
 
-Translated summary:
-_"Another messenger that is also resistant to communication problems is Delta Chat.
-It sends messages using regular e-mail protocols,
-and e-mail, as experts note,
-is very resistant to common communication problems."_
+Itzulitako laburpena:
+_"Komunikazio-arazoekiko erresistentea den beste mezularitza bat Delta Chat da. Mezuak posta elektronikoko protokolo estandarrak erabiliz bidaltzen ditu; eta posta elektronikoa, adituek nabarmentzen dutenez, oso erresistentea da ohiko komunikazio-arazoen aurrean."_
 
 2024-04-21, <https://www.rbc.ru/spb_sz/21/04/2024/662216e09a79475ba9366e20>
 
 
-### c't, a german technology magazine, tested Delta Chat 1½ years
+### c't, Alemaniako teknologia-aldizkariak, Delta Chat urte eta erdiz probatu zuen
 
 Translated summary:
 _"Delta Chat is definitely worth a longer look.
@@ -41,7 +34,7 @@ and even offers some features that you won't find in other messengers,
 such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
 It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
 
-11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
+2023-11, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
 
 
 ### Ubuntubuzz: Features You May Find Excellent...
@@ -71,7 +64,7 @@ Zeit Online shows 5 alternatives to WhatsApp, including Delta Chat:
 _"Like an e-mail app, Delta.Chat needs the server information of the e-mail address used [...]
 The subsequent operation of the chat interface is intuitive."_
 
-2021-01-16, Article is behind a paywall,
+2021-01-16, Artikulua ordainpeko horma baten atzean dago.
 <https://www.zeit.de/digital/datenschutz/2021-01/messenger-app-whatsapp-signal-telegram-threema-ginlo-vergleich>
 
 
@@ -119,9 +112,9 @@ _"Wenn eure Gruppe oder Stadt-Szene einen Messenger sucht, der mit vielen Leuten
 2020-03-24, <https://hambacherforst.org/blog/2020/03/24/nuetzliche-dezentrale-online-tools-fuer-organisierung/>
 
 
-### DesdeLinux (Spanish technology blog): Delta Chat: La aplicación de mensajería libre y abierta basada en correos
+### DesdeLinux (Espainiako teknologia bloga): Delta Chat: Posta elektronikoan oinarritutako mezularitza-aplikazio libre eta irekia
 
-_"El cifrado de extremo a extremo no solo funciona entre las aplicaciones de Delta Chat, sino también con otras aplicaciones de correo electrónico si son compatibles con el estándar de cifrado Autocrypt Nivel 1."_
+_"Muturretik muturrera zifratzeak ez du soilik Delta Chat aplikazioen artean funtzionatzen, baita beste posta elektronikoko aplikazio batzuekin ere, baldin eta Autocrypt 1. Mailako enkriptatze-estandarrarekin bateragarriak badira.""_
 
 2020-02-26, <https://blog.desdelinux.net/delta-chat-aplicacion-mensajeria-libre-abierta-correo-electronico/>
 

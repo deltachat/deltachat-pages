@@ -14,7 +14,7 @@ A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un t
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Nucli](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Clients alternatius](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Clients alternatius](https://chatmail.at/clients)
 
 - [Proveidors de Base de Dades](https://providers.delta.chat/)
 

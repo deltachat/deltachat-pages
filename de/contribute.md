@@ -36,7 +36,7 @@ Für mehr Hintergrundinformationen empfehlen wir Ihnen, unseren [Blog](https://d
 # Kommunikationskanäle von Dritten
 
 Die folgenden Delta-Chat-bezogenen Kommunikationskanäle werden von Drittanbietern betrieben
-die unsere [Community-Standards](Community-Standards) befolgen können oder auch nicht:
+die unsere [Community-Standards](community-standards) befolgen können oder auch nicht:
 
 - [PixelSocial]({% include dc-community-url %}), ein anonymes
   Soziales Netzwerk innerhalb von Delta Chat.

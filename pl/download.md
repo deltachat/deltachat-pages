@@ -14,7 +14,7 @@ Wersje desktop nie wymagają instalacji Delta Chat na telefonie.
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Rdzeń](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Klienci alternatywni](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Klienci alternatywni](https://chatmail.at/clients)
 
 - [Baza danych dostawców](https://providers.delta.chat/)
 
