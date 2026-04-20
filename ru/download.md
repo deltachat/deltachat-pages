@@ -14,7 +14,7 @@ downloads: true
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Альтернативные клиенты](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Альтернативные клиенты](https://chatmail.at/clients)
 
 - [База провайдеров](https://providers.delta.chat/)
 

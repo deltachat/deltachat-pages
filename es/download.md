@@ -14,7 +14,7 @@ Las versiones de escritorio no requieren que Delta Chat sea instalado en un celu
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Núcleo](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Aplicaciones alternativas](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Aplicaciones alternativas](https://chatmail.at/clients)
 
 - [Base de datos de proveedores](https://providers.delta.chat/)
 

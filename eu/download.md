@@ -14,7 +14,7 @@ Mahaigaineko bertsioek ez dute behar Delta Chat telefonoan instalatuta egotea.
 [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
 [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Bezero alternatiboak](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Bezero alternatiboak](https://chatmail.at/clients)
 
 - [Hornitzaileen datu-basea](https://providers.delta.chat/)
 

@@ -11,7 +11,7 @@ Je kunt de computerversies gebruiken zonder de app op je telefoon.
 
 - Wijzigingslogs: [Computer](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md), [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog), [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog), [intern](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Alternatieve apps](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Alternatieve apps](https://chatmail.at/clients)
 
 - [Providerdatabank](https://providers.delta.chat/)
 

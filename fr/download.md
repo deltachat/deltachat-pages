@@ -14,7 +14,7 @@ L'installation de Delta Chat sur le téléphone n'est pas nécessaire pour utili
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
   [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
-- [Clients alternatifs](https://support.delta.chat/t/list-of-all-know-client-projects/3059)
+- [Clients alternatifs](https://chatmail.at/clients)
 
 - [Base de données des fournisseurs de courriel](https://providers.delta.chat/)
 
