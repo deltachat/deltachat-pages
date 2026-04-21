@@ -18,7 +18,7 @@ Delta Chat es una aplicación de mensajería instantánea confiable, descentrali
   [multi-device](#multiclient) support on all platforms
   and between different [chatmail apps](https://chatmail.at/clients).
 
-- Interactive [in-chat apps](#webxdc) for gaming and collaboration
+- Aplicaciones interactivas [en el chat] (#webxdc) para juegos y colaboración
 
 - [Audited end-to-end encryption](#security-audits)
   safe against network and server attacks.
@@ -27,7 +27,7 @@ Delta Chat es una aplicación de mensajería instantánea confiable, descentrali
   built on [Internet Standards]({% include standards-url %}).
 
 
-### How can I find people to chat with? {#howtoe2ee}
+### ¿Cómo puedo encontrar gente para chatear? {#howtoe2ee}
 
 First, note that Delta Chat is a private messenger.
 There is no public discovery, _you_ decide about your contacts.
@@ -43,7 +43,7 @@ There is no public discovery, _you_ decide about your contacts.
   click "Copy" or "Share" and send the **invite link**
   through another private chat.
 
-Now wait while connection gets established.
+Espera mientras la conexión se establece.
 
 - If both sides are online, they will soon see a chat
   and can start messaging securely.
@@ -56,13 +56,13 @@ You now will automatically use [end-to-end encryption](#e2ee) with this contact.
 If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
 
 
-### Why is a chat marked as "Request"?
+### ¿Por qué un chat aparece marcado como "Solicitud"?
 
 As being a private messenger,
 only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
 
-Your friends may share your contact with other friends,
-this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Request</b>
+Tus amigos pueden compartir tu contacto con otros amigos,
+esto aparecerá como <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Solicitud</b>
 
 - Necesitas **aceptar** la solicitud antes de poder responder.
 
@@ -91,7 +91,7 @@ En la primera instalación de Delta Chat se crea un primer perfil.
 Después, puedes tocar la imagen de tu perfil en la esquina superior izquierda para **Añadir perfiles**
 o para **Cambiar perfiles**.
 
-You may want to use separate profiles for political, family or work related activities.
+Puede utilizar perfiles diferentes para actividades políticas, familiares o laborales.
 
 Quizás quieres aprender [cómo se usa el mismo perfil en múltiples dispositivos](#multiclient).
 
@@ -104,7 +104,7 @@ o los agrega a través de un código QR, ellos lo verán automáticamente como s
 Por cuestiones de privacidad, nadie verá su foto de perfil hasta que les escriba un mensaje.
 
 
-### Can I set a Bio/Status with Delta Chat? {#signature}
+### ¿Puedo establecer una Bio/Estado en Delta Chat? {#signature}
 
 Yes,
 you can do so under **Settings → Profile → Bio**.
@@ -193,7 +193,7 @@ Note, that the original message may still be received by chat members
 who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
 
-### How is media quality handled? {#mediaquality}
+### ¿Cómo se gestiona la calidad de los archivos multimedia? {#mediaquality}
 
 Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach-**
 or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons.
@@ -238,8 +238,8 @@ the (anyway encrypted) messages may take longer to get deleted from their server
 
 ### ¿Qué pasa si activo "Borrar mensajes del dispositivo"? {#delold}
 
-If you want to save storage on your device, you can choose to delete old
-messages automatically.
+Si quieres ahorrar espacio en tu dispositivo, puedes elegir borrar los mensajes antiguos
+automáticamente.
 
 To turn it on, go to **Settings → Chats → Delete Message from Device**.
 You can set a timeframe between "after an hour" and "after a year";
@@ -247,7 +247,7 @@ this way, *all* messages will be deleted from your device as soon as they are
 older than that.
 
 
-### How can I delete my chat profile? {#remove-account} 
+### ¿Cómo puedo borrar mi perfil? {#remove-account}
 
 If you are using more than one chat profile,
 you can remove single ones in the top profile switcher menu (on Android and iOS),
@@ -261,9 +261,9 @@ For more info, please refer to [nine.testrun.org address-deletion](https://nine.
 or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
 
 
-## Groups {#groups}
+## Grupos {#groups}
 
-Groups let several people chat together privately with **equal rights**.
+Los grupos permiten a varias personas chatear juntas en privado con **igualdad de derechos**.
 
 Anyone can
 change the group name or avatar,
@@ -271,7 +271,7 @@ change the group name or avatar,
 set [disappearing messages](#ephemeralmsgs),
 and [delete their own messages](#edit) from all member's devices.
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+Como todos los miembros tienen los mismos derechos, los grupos funcionan mejor entre **amigos de confianza y familiares**.
 
 
 ### Creación de un grupo
@@ -283,12 +283,12 @@ Because all members have the same rights, groups work best among **trusted frien
 - Tan pronto escribas el **primer mensaje** en el grupo, todos los miembros serán informados sobre el nuevo grupo y podrán responder en él (mientras no escribas un mensaje será invisible para los miembros).
 
 
-### Add and remove members {#addmembers}
+### Añadir y eliminar miembros {#addmembers}
 
-All group members have the **same rights**.
-For this reason, everyone can delete any member or add new ones.
+Todos los miembros del grupo tienen los **mismos derechos**.
+Por esta razón, todos pueden eliminar a cualquier miembro o añadir otros nuevos.
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- Para **añadir o eliminar miembros**, pulsa el nombre del grupo en el chat y selecciona el miembro a añadir o eliminar.
 
 - If the member is not yet in your contact list, but **face to face** with you,
   from the same screen, show a **QR code**.  
@@ -317,31 +317,31 @@ Si desea unirse al grupo nuevamente más tarde, pídale a otro miembro del grupo
 Como alternativa, también puede "silenciar" a un grupo, lo que significa que recibirá todos los mensajes y
 aún puede escribir, pero ya no se le notifican nuevos mensajes.
 
-### Cloning a group
+### Clonar un grupo
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+Puedes duplicar un grupo para empezar una discusión separada
+o para excluir a miembros sin notificárselo.
 
 - Open the group profile and tap **Clone Chat** (Android/iOS),
   or right-click the group in the chat list (Desktop).
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- Establece un nuevo nombre, elige un avatar y ajusta la lista de miembros si es necesario.
 
 The new group is **fully independent** from the original,
 which continues to work as before.
 
 
-### How many members can participate in a single group?
+### ¿Cuántos miembros pueden participar en un solo grupo?
 
-There is no strict technical limit,
-but more than 150 is not recommended.
+No hay una limitación técnica,
+pero no se recomiendan más de 150.
 
 As groups get larger, they can become socially unstable and may need a hierarchy -
 where Delta Chat is a private messenger for chatting with [equal rights](#groups).
 See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
 
 
-## In-chat apps {#webxdc}
+## Aplicaciones en chats {#webxdc}
 
 You can send apps to a chat - games, editors, polls and other tools.
 This makes Delta Chat a truly extensible messenger.
@@ -493,7 +493,7 @@ Welcome to the power of the interoperable chatmail relay network :)
 
 ### ¿Puedo usar Delta Chat en varios dispositivos al mismo tiempo?
 
-Yes. You can use the same profile on different devices:
+Sí. Puedes utilizar el mismo perfil en diferentes dispositivos.
 
 - Asegurate que ambos dispositivos estén en la misma Wi-Fi o red
 
@@ -892,7 +892,7 @@ but an implementation has not been agreed as a priority yet.
 
 ### ¿Soporta Delta Chat Perfect Forward Secrecy? {#pfs}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
+Todavía no, pero llegará con [Autocrypt v2](https://autocrypt2.org). 
 
 Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your private decryption key is leaked,
@@ -907,9 +907,9 @@ and doesn't even need to decrypt any previously collected messages.
 will provide reliable deletion (forward secrecy) through automatic key rotation.
 This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
-### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
+### ¿Soporta Delta Chat criptografía postcuántica? {#pqc}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
+Todavía no, pero llegará con [Autocrypt v2](https://autocrypt2.org).
 
 [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
 will bring post-quantum resistant encryption to protect against quantum computer attacks.
@@ -917,13 +917,13 @@ Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
 which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
 The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
 
-### How can I manually check encryption information?
+### ¿Cómo puedo comprobar manualmente la información de cifrado?
 
 Puede verificar manualmente el estado de cifrado de extremo a extremo en el diálogo "Cifrado" (perfil de usuario en Android/iOS o hacer clic derecho en el elemento de lista de chat de un usuario en el escritorio). Delta Chat muestra dos huellas digitales allí. Si las mismas huellas digitales aparecen en su propio dispositivo y en el dispositivo de su contacto, la conexión es segura.
 
 ### ¿Puedo reutilizar mi clave privada existente? {#importkey}
 
-No. 
+No.
 
 Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
 We do not recommend or offer users to perform manual key management.
@@ -1003,9 +1003,9 @@ e.g. you need to grant camera permission if you want to [scan an invite QR code]
 See [Privacy Policy](https://delta.chat/en/gdpr#24-app-permissions) for a detailed overview.
 
 
-### Where can my friends find Delta Chat?
+### ¿Dónde pueden encontrar mis amigos Delta Chat?
 
-Delta Chat is available for all major and some minor platforms:
+Delta Chat está disponible para todas las plataformas principales y algunas secundarias:
 
 - The **official website**, <https://delta.chat/download> shows all options in detail
 
@@ -1014,7 +1014,7 @@ Delta Chat is available for all major and some minor platforms:
 - Open one of the following **app stores and search for "Delta Chat":**
   Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
 
-- Check the **package manager** of your Linux distributions
+- Comprueba el **gestor de paquetes** de tu distribución de Linux
 
 - **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
 
