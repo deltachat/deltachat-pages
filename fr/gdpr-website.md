@@ -242,23 +242,3 @@ We use appropriate technical and organizational security measures to protect you
 This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
 
 You can access and print out the current data protection declaration at any time under [https://support.delta.chat/privacy](https://support.delta.chat/privacy).
-
-<style>
-ol.p {
-  counter-reset: list;
-}
-ol.p > li {
-  list-style: none;
-  position: relative;
-  text-align: justify;
-}
-ol.p > li:before {
-  content: counter(list, lower-alpha) ") ";
-  counter-increment: list;
-  position: absolute;
-  left: -1.4em;
-}
-</style>
-
-
-
