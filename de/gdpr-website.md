@@ -254,21 +254,3 @@ Wir bedienen uns im Übrigen geeigneter technischer und organisatorischer Sicher
 Diese Datenschutzerklärung hat den Stand November 2021. Durch die Weiterentwicklung unserer Website und Angebote oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben, kann es notwendig werden, diese Datenschutzerklärung zu ändern.
 
 Die jeweils aktuelle Datenschutzerklärung kann jederzeit unter [https://support.delta.chat/privacy](https://support.delta.chat/privacy) von dir abgerufen und ausgedruckt werden.
-
-<style>
-ol.p {
-  counter-reset: list;
-}
-ol.p > li {
-  list-style: none;
-  position: relative;
-  text-align: justify;
-}
-ol.p > li:before {
-  content: counter(list, lower-alpha) ") ";
-  counter-increment: list;
-  position: absolute;
-  left: -1.4em;
-}
-</style>
-
