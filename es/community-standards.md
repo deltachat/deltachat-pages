@@ -20,7 +20,7 @@ Ejemplos de comportamiento que contribuyen a crear un ambiente positivo incluyen
 * Showing empathy towards community members and newcomers
 * Helping and mediating in cases of upsets or conflict
 
-Examples of behavior which we ask everybody to avoid include:
+Entre los ejemplos de comportamiento que pedimos a todo el mundo que evite se incluyen:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or advances
 * Trolling, insulting/derogatory comments, and personal or political attacks
