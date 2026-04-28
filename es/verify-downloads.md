@@ -35,13 +35,13 @@ Para imprimir las firmas SHA256 del certificado de firma de APK, puede usar, por
 
    The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-3. **Verify and check results**
+3. **Verifica y comprueba los resultados**
 
    ```
    gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
-   Expected output:
+   Resultado esperado:
 
    ```
    gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]

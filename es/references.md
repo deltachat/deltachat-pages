@@ -5,8 +5,8 @@ lang: es
 
 # Referencias
 
-> This list is not updated frequently.
-> You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
+> Este listado no se actualiza frecuentemente.
+> Puedes encontrar referencias más recientes y las opiniones de los usuarios, transmitidas en tiempo real, en el [Fediverso](https://chaos.social/tags/deltachat).
 
 
 ### Roskomsvoboda: Delta Chat vuelve a negarse a cooperar con las autoridades rusas
@@ -274,4 +274,4 @@ _"Delta.Chat: Sicher und dezentral – geht das?"_
 2019-06-03, <https://mobilsicher.de/kategorie/whatsapp-und-messenger/messenger-app-delta-chat-kurz-vorgestellt/> 
 
 
-Also check out [user stories and voices](user-voices).
+Consulta también [Voces e Historias de los Usuarios](user-voices).

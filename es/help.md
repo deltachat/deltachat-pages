@@ -10,33 +10,33 @@ header: Preguntas Frecuentes
 
 Delta Chat es una aplicación de mensajería instantánea confiable, descentralizada y segura, disponible para dispositivos móviles y computadoras de escritorio.
 
-- Instant creation of **private chat profiles**
-  with secure and interoperable [chatmail relays](https://chatmail.at/relays)
-  that offer instant message delivery, and Push Notifications for iOS and Android devices.
+- Creación instantánea de **perfiles de chat privados**
+con [servidores de chatmail](https://chatmail.at/relays) seguros e interoperables
+que ofrecen un envío instantáneo de mensajes y Notificaciones Push en dispositivos Android e iOS.
 
 - Pervasive [multi-profile](#multiple-accounts) and
   [multi-device](#multiclient) support on all platforms
   and between different [chatmail apps](https://chatmail.at/clients).
 
-- Aplicaciones interactivas [en el chat] (#webxdc) para juegos y colaboración
+- Aplicaciones interactivas [en el chat](#webxdc) para juegos y colaboración
 
-- [Audited end-to-end encryption](#security-audits)
-  safe against network and server attacks.
+- [Cifrado de extremo a extremo auditado](#security-audits)
+  seguro contra ataques a la red y al servidor.
 
-- Free and Open Source software, both app and server side,
-  built on [Internet Standards]({% include standards-url %}).
+- Software gratuito y de código abierto, tanto las aplicaciones como los servidores,
+construido sobre [estándares de internet]({% include standards-url %}).
 
 
 ### ¿Cómo puedo encontrar gente para chatear? {#howtoe2ee}
 
-First, note that Delta Chat is a private messenger.
-There is no public discovery, _you_ decide about your contacts.
+En primer lugar, ten en cuenta que Delta Chat es un sistema de mensajería privado.
+No hay descubrimiento público, _tú_ decides sobre tus contactos.
 
-- If you are **face to face** with your friend or family,
-  tap the **QR Code** icon <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
-  on the main screen.  
-  Ask your chat partner to **scan** the QR image
-  with their Delta Chat app.
+- Si estas **cara a cara** con tus amigos o familia,
+pulsa el icono del **Código QR** <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" />
+en la pantalla principal.
+Pídele a la otra persona que **escanee** el código QR
+con su aplicación de Delta Chat.
 
 - For a **remote** contact setup,
   from the same screen,
@@ -45,11 +45,11 @@ There is no public discovery, _you_ decide about your contacts.
 
 Espera mientras la conexión se establece.
 
-- If both sides are online, they will soon see a chat
-  and can start messaging securely.
+- Si ambas partes están en línea, pronto verán un chat
+  y podrán empezar a mensajearse de forma segura.
 
-- If one side is offline or in bad network,
-  the ability to chat is delayed until connectivity is restored.
+- Si una de las partes no está conectada o tiene una mala conexión,
+la capacidad de chatear se retrasará hasta que la conectividad se haya restaurado.
 
 Congratulations!
 You now will automatically use [end-to-end encryption](#e2ee) with this contact.
@@ -71,7 +71,7 @@ esto aparecerá como <b style="border: 1px solid currentColor; padding: 0 3px; f
 - Si eliminas una solicitud, los mensajes futuros de ese contacto seguirán apareciendo como solicitud de mensaje, por lo que puedes cambiar de opinión. Si realmente no quieres recibir mensajes de esta persona, considera **bloquearlos**.
 
 
-### How can I put two of my friends in contact with each other?
+### ¿Cómo puedo poner en contacto a dos de mis amigos entre ellos?
 
 Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
 You can also add a little introduction message.
@@ -120,7 +120,7 @@ Usa estas herramientas para organizar tus chats y mantener todo en su lugar:
 
 - **Chats muteados** si no quieres recibir notificaciones de ellos. Chats muteados se mantienen en su lugar e inclusive puedes fijarlos.
 
-- **Archivar chats** si no deseas verlos en tu lista de chats. Los chats archivados siguen siendo accesibles arriba de la lista de chats o a través de la búsqueda.
+- **Archivar chats** si no deseas verlos en tu lista de chats. Los chats archivados siguen siendo accesibles arriba de la lista de chats o a través de la búsqueda y aparecen marcados como <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Archivado</b>.
 
 - Cuando un chat archivado recibe un nuevo mensaje, a menos que esté silenciado, **saldrá del archivo** y volverá a aparecer en tu lista de chats.
 Los chats **silenciados permanecen archivados** hasta que los desarchivas manualmente.
@@ -164,13 +164,13 @@ and others will as well not always see that you are "online".
 
 ### ¿Qué significan las marcas que se muestran junto a los mensajes salientes?
 
-- **One tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-  means that the message was sent successfully to the [relay](#relays).
+- **Un tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
+significa que el mensaje se ha enviado correctamente al [servidor](#relays).
 
-- **Two ticks**  <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
-  indicate your contact has read the message.
+- **Dos ticks** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
+indican que tu contacto ha leído el mensaje.
 
-In [groups](#groups) the second tick means that at least one member has reported back having read the message.
+En los [grupos](#groups) el segundo tick indica que, al menos, uno de los miembros ha leído el mensaje.
 
 You will only get the second tick if both you and one of the recipients who read the message
 has **Settings → Chats → Read Receipts** enabled.
@@ -195,8 +195,7 @@ who could have already replied, forwarded, saved, screenshotted or otherwise cop
 
 ### ¿Cómo se gestiona la calidad de los archivos multimedia? {#mediaquality}
 
-Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach-**
-or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Voice Message** buttons.
+Imágenes, vídeos, archivos, mensajes de voz, etc., pueden enviarse utilizando los botones de <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjuntar** o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Mensaje de Voz**.
 
 - By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
   This is ideal for everyday communication.
@@ -327,8 +326,8 @@ o para excluir a miembros sin notificárselo.
 
 - Establece un nuevo nombre, elige un avatar y ajusta la lista de miembros si es necesario.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
+El nuevo grupo es **completamente independiente** del original,
+que continúa funcionando como antes.
 
 
 ### ¿Cuántos miembros pueden participar en un solo grupo?
@@ -347,16 +346,16 @@ You can send apps to a chat - games, editors, polls and other tools.
 This makes Delta Chat a truly extensible messenger.
 
 
-### Where can I get in-chat apps?
+### ¿Dónde puedo conseguir aplicaciones para el chat?
 
 - In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
 
 - You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
 
 
-### How private are in-chat apps?
+### ¿Cómo de privadas son las aplicaciones en el chat?
 
-- In-chat apps can not send data to the Internet, or download anything.
+- Las aplicaciones en el chat no pueden enviar datos a Internet ni descargar nada.
 
 - An in-chat app can only exchange data within a chat, with its
   copies on the devices of your chat partners. Other than that, it's completely
@@ -368,9 +367,9 @@ This makes Delta Chat a truly extensible messenger.
 - This also means: Just like for web links, do not open apps from untrusted contacts.
 
 
-### How can I create my own in-chat apps? {#create-xdc}
+### ¿Cómo puedo crear mis propias aplicaciones para el chat? {#create-xdc}
 
-- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
+- Las aplicaciones de chat son archivos zip con extensión `.xdc` que contienen código html, css y javascript.
 
 - You can extend the [Hello World example app](https://github.com/webxdc/hello)
   to get started.
