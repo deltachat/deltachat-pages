@@ -7,12 +7,16 @@ on:
       # (is there a less hacky way to disable a workflow?)
       - master-disabled
 
+permissions: {}
+
 jobs:
   push-translations:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
       - name: install dependencies
         run: |
           sudo apt update
