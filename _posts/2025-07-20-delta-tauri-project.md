@@ -1,5 +1,5 @@
 ---
-title: DeltaTauri – Porting Delta Chat Desktop to Tauri.
+title: DeltaTauri – Porting Delta Chat Desktop to Tauri
 author: treefit, WofWca, septias, nojisan
 image: ../assets/blog/2025-07-20-delta-tauri-project/thumbnail_low_res.png
 # com_id:
@@ -210,7 +210,6 @@ The Tauri edition has all features that the Electron version has (except for cal
 The Tauri edition also has a few extras that the Electron Edition has not:
 
 - autostart on system startup
-- webxdc apps start instantly without a loading bar
 - macOS: reply directly to notifications
 - macOS: register as handler for invite(i.delta.chat) links, so they open directly in Delta Chat when you click on them
 
