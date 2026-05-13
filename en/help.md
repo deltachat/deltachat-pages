@@ -346,6 +346,116 @@ where Delta Chat is a private messenger for chatting with [equal rights](#groups
 See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
 
 
+## Channels {#channels}
+
+Channels are a one-to-many tool for broadcasting messages.
+
+
+### Subscribe to a channel
+
+- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
+  or tap the **invite link** you got from the channel owner.
+
+That's all!
+You will now receive all new messages from the channel owner
+and up to 10 older ones.
+
+As all of Delta Chat, also Channels are private and decentralized,
+there is no public discovery.
+
+Other channel subscribers will not see that you subscribed and cannot message you.
+The channel owner, however, can message you.
+They will also see that you read a message unless you have read receipts disabled.
+
+If you do not want to share your main profile,
+you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+
+
+### Create a channel
+
+- Tap **New Chat** and choose **New Channel**.
+
+- Enter a **name**, an optional **description**, and hit the **Create** button.
+
+- You can now send and manage messages as usual.
+
+- From the channel's profile, **share the QR code or invite link with others**.
+
+Subscribers will receive your messages,
+but they cannot reply to them.
+When subscribing, they will receive **up to 10 older messages**.
+
+You can see the **view count** beside each message.
+Note that this only counts subscribers who have read receipts enabled,
+so the real view count may be larger.
+
+
+### How many subscribers can a channel have?
+
+Channels are designed for much larger audiences than [groups](#groups).
+
+The practical limit depends on the used [relay](#relays),
+so there is no single fixed number that applies everywhere.
+
+For really large channels with several tens of thousands of subscribers,
+we recommend using a [dedicated profile](#multiple-accounts) for the channel
+and checking whether the relay is suitable.
+
+But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
+so you can change your relay at any point easily -
+your existing subscribers will not even notice.
+You only have to update the invite link for new subscribers in that case.
+
+
+## Calls {#calls}
+
+Delta Chat supports one-to-one **audio calls** and **video calls**.
+
+
+### Place a call
+
+- In a one-to-one chat, tap the 📞 **call icon**.
+
+- This opens a small menu
+  where you can choose whether to place an **Audio Call** or a **Video Call**.
+
+
+### Accept or reject a call
+
+- When someone calls you,
+  Delta Chat shows an **incoming call screen** or notification.
+
+- Tap **Accept** to answer
+  or **Decline** to reject the call.
+
+
+### During a call
+
+- You can **mute** your microphone.
+
+- You can **enable or disable your camera**.
+
+- On mobile, you can **switch between front and back cameras**.
+
+Depending on the device, you can also select the audio output or use picture-in-picture.
+On desktop, the call is using a dedicated window
+and you can continue using the main Delta Chat window as usual.
+
+
+### Missed calls and notifications
+
+- If you do not answer, do not hear the ringing, or do not have your device at hand,
+  the call appears as a **missed call**.
+
+- **Only your accepted contacts** can make your device ring.
+  Contact requests will appear as usual and will not ring.
+
+- At **Settings → Notifications → Calls**,
+  you can disable the special call ringing screen completely.
+  If you do so, you only get notifications as for all other messages -
+  unless you've disabled them as well.
+
+
 ## In-chat apps {#webxdc}
 
 You can send apps to a chat - games, editors, polls and other tools.
