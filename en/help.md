@@ -407,7 +407,7 @@ and checking whether the relay is suitable.
 But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
 so you can change your relay at any point easily -
 your existing subscribers will not even notice.
-You only have to update the invite link for new subscribers in that case.
+You only have to update the invite link you share with new subscribers in that case.
 
 
 ## Calls {#calls}
