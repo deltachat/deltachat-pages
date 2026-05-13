@@ -15,7 +15,7 @@ con [servidores de chatmail](https://chatmail.at/relays) seguros e interoperable
 que ofrecen un envío instantáneo de mensajes y Notificaciones Push en dispositivos Android e iOS.
 
 - Soporte generalizado [multiperfil](#multiple-accounts) y
-  soporte [multidispositivo](#multicliente) en todas las plataformas
+  soporte [multidispositivo](#multiclient) en todas las plataformas
   y entre diferentes [aplicaciones de chatmail](https://chatmail.at/clients).
 
 - Aplicaciones interactivas [en el chat](#webxdc) para juegos y colaboración
@@ -350,7 +350,7 @@ Esto convierte a Delta Chat en una aplicación de mensajería realmente ampliabl
 
 - En un chat, utilizando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botón Adjuntar → Aplicaciones**.
 
-- También puedes [crear tu propia aplicación](#create-xcd) y adjuntarla utilizando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botón Adjuntar → Archivo** 
+- También puedes [crear tu propia aplicación](#create-xdc) y adjuntarla utilizando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botón Adjuntar → Archivo** 
 
 
 ### ¿Cómo de privadas son las aplicaciones en el chat?
