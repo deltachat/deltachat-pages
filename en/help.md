@@ -360,6 +360,9 @@ That's all!
 You will receive a few of the messages from the channel history
 and, from that point on, all new messages from the channel.
 
+**Don't worry,** if that does not happen immediately.
+Once the channel owner comes online, your join request will be processed.
+
 As all of Delta Chat, also Channels are private and decentralized,
 there is no public discovery.
 
