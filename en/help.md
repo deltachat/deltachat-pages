@@ -990,8 +990,8 @@ are not like an address you give to a delivery service,
 but typically less precise, often defining city or region only.
 
 If you see your IP Address as a risk,
-we recommend to use a VPN and block all traffic not using it.
-Per-app options leave gaps across your whole system.
+we recommend to use a VPN for the whole system.
+Per-app options leave gaps across your system.
 For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
 
 
