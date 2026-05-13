@@ -196,16 +196,16 @@ Observe que a mensagem original ainda pode ser recebida pelos membros do convers
 que podem ter respondido, encaminhado, salvo, capturado a tela ou copiado a mensagem antes da alteração dela.
 
 
-### How is media quality handled? {#mediaquality}
+### Como a qualidade da mídia é tratada? {#mediaquality}
 
 Imagens, vídeos, arquivos, mensagens de voz etc. podem ser enviados usando os botões de<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anexo-**
 ou <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Mensagem de Voz**
 
-- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
-  This is ideal for everyday communication.
+- Por padrão, a compactação garante uma **entrega rápida e eficiente** que respeita os limites e o armazenamento de dados de todos.
+  Isso é ideal para a comunicação cotidiana.
 
-- In regions with worse connectivity,
-  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+- Em regiões com pior conectividade,
+  você pode escolher uma compactação mais alta em **Configurações → Chats → Qualidade da mídia de saída**.
 
 - If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
   Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
