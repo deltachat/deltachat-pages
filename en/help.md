@@ -375,7 +375,7 @@ you can also create a [dedicated profile](#multiple-accounts) for joining a chan
 
 - Tap **New Chat** and choose **New Channel**.
 
-- Enter a **name**, an optional **description**, and hit the **Create** button.
+- Enter a **name**, optionally set **image** and **description**, and hit the **Create** button.
 
 - You can now send and manage messages as usual.
 
