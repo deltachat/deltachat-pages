@@ -357,8 +357,8 @@ Channels are a one-to-many tool for broadcasting messages.
   or tap the **invite link** you got from the channel owner.
 
 That's all!
-You will now receive all new messages from the channel owner
-and up to 10 older ones.
+You will receive a few of the messages from the channel history
+and, from that point on, all new messages from the channel.
 
 As all of Delta Chat, also Channels are private and decentralized,
 there is no public discovery.
