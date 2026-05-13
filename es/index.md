@@ -7,7 +7,7 @@ lang: es
 
 💬 Mensajería instantánea y confiable con soporte para multiples perfiles y dispositivos
 
-⚡️ Regístrese en [servidores de chatmail] seguros e interoperables (https://chatmail.at/relays)
+⚡️ Regístrese en [servidores de chatmail](https://chatmail.at/relays) seguros e interoperables 
 
 🥳 Interactivas [aplicaciones de web en un chat](https://webxdc.org/) para jugar y colaborar
 

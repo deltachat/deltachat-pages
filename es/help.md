@@ -14,9 +14,9 @@ Delta Chat es una aplicación de mensajería instantánea confiable, descentrali
 con [servidores de chatmail](https://chatmail.at/relays) seguros e interoperables
 que ofrecen un envío instantáneo de mensajes y Notificaciones Push en dispositivos Android e iOS.
 
-- Pervasive [multi-profile](#multiple-accounts) and
-  [multi-device](#multiclient) support on all platforms
-  and between different [chatmail apps](https://chatmail.at/clients).
+- Soporte generalizado [multiperfil](#multiple-accounts) y
+  soporte [multidispositivo](#multicliente) en todas las plataformas
+  y entre diferentes [aplicaciones de chatmail](https://chatmail.at/clients).
 
 - Aplicaciones interactivas [en el chat](#webxdc) para juegos y colaboración
 
@@ -38,10 +38,10 @@ en la pantalla principal.
 Pídele a la otra persona que **escanee** el código QR
 con su aplicación de Delta Chat.
 
-- For a **remote** contact setup,
-  from the same screen,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat.
+- Para configurar un contacto **a distancia**,
+  desde la misma pantalla,
+  haga clic en "Copiar" o "Compartir" y envíe el **enlace de invitación**
+  a través de otro chat privado.
 
 Espera mientras la conexión se establece.
 
@@ -51,15 +51,15 @@ Espera mientras la conexión se establece.
 - Si una de las partes no está conectada o tiene una mala conexión,
 la capacidad de chatear se retrasará hasta que la conectividad se haya restaurado.
 
-Congratulations!
-You now will automatically use [end-to-end encryption](#e2ee) with this contact.
-If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
+¡Enhorabuena!
+Ahora estás utilizando automáticamente el [cifrado de extremo a extremo](#e2ee) con este contacto.
+Si os añadís mutuamente a [grupos](#groups), el cifrado de extremo a extremo se establecerá entre todos los miembros.
 
 
 ### ¿Por qué un chat aparece marcado como "Solicitud"?
 
-As being a private messenger,
-only friends and family you [share your QR code or invite link with](#howtoe2ee) can write to you.
+Al ser un sistema de mensajería privada
+solo los amigos y familiares con los que [compartas tu código QR o enlace de invitación](#howtoe2ee) pueden escribirte.
 
 Tus amigos pueden compartir tu contacto con otros amigos,
 esto aparecerá como <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Solicitud</b>
@@ -82,9 +82,9 @@ and can tap it to start chatting with the first contact.
 
 ### ¿Qué son los perfiles? ¿Cómo puedo cambiar entre ellos? {#multiple-accounts}
 
-A profile is **a name, a picture** and some additional information for encrypting messages.
-A profile lives on your device(s) only
-and uses the server only to relay messages.
+Un perfil es **un nombre,  una foto** y alguna información adicional para cifrar los mensajes.
+Un perfil se almacena únicamente en tu dispositivo (o dispositivos)
+y solo utiliza el servidor para enviar los mensajes.
 
 En la primera instalación de Delta Chat se crea un primer perfil.
 
@@ -106,10 +106,10 @@ Por cuestiones de privacidad, nadie verá su foto de perfil hasta que les escrib
 
 ### ¿Puedo establecer una Bio/Estado en Delta Chat? {#signature}
 
-Yes,
-you can do so under **Settings → Profile → Bio**.
-Once you sent a message to a contact,
-they will see it when they view your contact details.
+Sí,
+es posible hacerlo en **Ajustes  → Perfil → Texto de firma**.
+Una vez que hayas enviado un mensaje a un contacto,
+este lo verá cuando consulte tus datos de contacto.
 
 
 ### ¿Qué significa fijar, mutear, archivar?
@@ -321,8 +321,8 @@ aún puede escribir, pero ya no se le notifican nuevos mensajes.
 Puedes duplicar un grupo para empezar una discusión separada
 o para excluir a miembros sin notificárselo.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Abre el perfil del grupo y pulsa **Clonar Chat** (Android/iOS),
+o haz clic derecho en el grupo en la lista de chats (Escritorio).
 
 - Establece un nuevo nombre, elige un avatar y ajusta la lista de miembros si es necesario.
 
@@ -342,15 +342,15 @@ See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more 
 
 ## Aplicaciones en chats {#webxdc}
 
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
+Puedes enviar aplicaciones a un chat: juegos, editores, encuestas y otras herramientas.
+Esto convierte a Delta Chat en una aplicación de mensajería realmente ampliable.
 
 
 ### ¿Dónde puedo conseguir aplicaciones para el chat?
 
-- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
+- En un chat, utilizando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botón Adjuntar → Aplicaciones**.
 
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+- También puedes [crear tu propia aplicación](#create-xcd) y adjuntarla utilizando <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botón Adjuntar → Archivo** 
 
 
 ### ¿Cómo de privadas son las aplicaciones en el chat?
@@ -364,18 +364,17 @@ This makes Delta Chat a truly extensible messenger.
 - The privacy an in-chat app offers is the privacy of your chat - as long as you
   trust the people you chat with, you can trust the in-chat app as well.
 
-- This also means: Just like for web links, do not open apps from untrusted contacts.
+- Esto también significa que, al igual que con los enlaces web, no debes abrir aplicaciones de contactos en los que no confíes.
 
 
 ### ¿Cómo puedo crear mis propias aplicaciones para el chat? {#create-xdc}
 
 - Las aplicaciones de chat son archivos zip con extensión `.xdc` que contienen código html, css y javascript.
 
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
+- Para empezar, puedes ampliar la [aplicación de ejemplo Hola, Mundo](https://github.com/webxdc/hello)
 
-- All else you need to know is written in the
-  [Webxdc documentation](https://webxdc.org/docs).
+- Todo lo que necesitas saber lo puedes encontrar en
+la [documentación de Webxdc](https://webxdc.org/docs)
 
 - If you have question, you can ask others with experience
   in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
@@ -496,12 +495,12 @@ Sí. Puedes utilizar el mismo perfil en diferentes dispositivos.
 
 - Asegurate que ambos dispositivos estén en la misma Wi-Fi o red
 
-- On the first device, go to **Settings → Add Second Device**, unlock the screen if needed
-  and wait a moment until a QR code is shown
+- En el primer dispositivo, ve a **Ajustes → Añadir segundo dispositivo**, desbloquea la pantalla si es necesario,
+y espera un momento hasta que aparezca un código QR
 
 - En el otro dispositivo, [instala Delta Chat](https://get.delta.chat)
 
-- On the second device, start Delta Chat, select **Add as Second Device**, and scan the QR code from the old device
+- En el segundo dispositivo, abre Delta Chat, selecciona **Añadir desde otro dispositivo" y escanea el código QR del primer dispositivo
 
 - La transferencia debería comenzar después de unos segundos y durante la transferencia ambos dispositivos mostrarán el **progreso**.
 Espere hasta que termine en ambos dispositivos.
@@ -542,8 +541,8 @@ No es necesario un dispositivo para que el otro funcione.
 - Delta Chat is **already logged in** on the destination device?
   You can use multiple profiles per device, just [add another profile](#multiple-accounts)
 
-- If you still have problems or if you **cannot scan a QR code**
-  try the **manual transfer** described below
+- Si todavía tienes problemas o si **no puedes escanear el código QR**
+utiliza la **transferencia manual** descrita debajo
 
 
 ### Transferencia manual {#backup}
@@ -606,20 +605,20 @@ you can configure relays at **Settings → Advanced → Relays**:
   If you have multiple relays, you will receive messages on all of them.
   Contacts learn your current relays automatically when you message them.
 
-- Tap on a relay to set it as **used for sending**.
+- Pulsa en un retransmisor para establecerlo como **usado para enviar**.
 
 - If you **remove** a relay,
   contacts who only know this relay may not reach you until you message them again.
   To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
   instead of removing it right away.
 
-- To **show** a hidden relay again, tap on it.
+- Para **mostrar** de nuevo un retransmisor oculto, pulsa en él.
 
 For more details and future possibilities of relays,
 you can follow discussions in the [Forum](https://support.delta.chat).
 
 
-### Can I use a classic email address with Delta Chat?
+### ¿Puedo utilizar una dirección de email clásico con Delta Chat?
 
 Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
 
@@ -668,21 +667,21 @@ We would like to improve Delta Chat with your help,
 which is why Delta Chat for Android asks whether you want
 to send anonymous usage statistics.
 
-You can turn it on and off at
-**Settings → Advanced → Send statistics to Delta Chat's developers**.
+Puedes activarlo y desactivarlo en
+**Ajustes → Avanzado → Enviar estadísticas a los desarrolladores de Delta Chat**.
 
-When you turn it on,
-weekly statistics will be automatically sent to a bot.
+Cuando lo activas,
+las estadísticas semanales se envían automáticamente a un bot.
 
-We are interested e.g. in statistics like:
+Estamos interesados en estadísticas como, p. ej.:
 
 - How many contacts are introduced by personally scanning a QR code?
 
-- Which versions of Delta Chat are being used?
+- ¿Qué versiones de Delta Chat están siendo utilizadas?
 
-- What errors occur for users?
+- ¿Qué errores se producen para los usuarios?
 
-We will _not_ collect any personally identifiable information about you.
+Nosotros _no_ recopilaremos ninguna información de carácter personal sobre ti.
 
 
 ### Estoy interesado en los detalles técnicos. ¿Pueden decirme más?
@@ -711,15 +710,15 @@ to provide automatic end-to-end encryption using these protocols:
   chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
   enables receivers to use end-to-end encryption with the contact. 
 
-Delta Chat does not query, publish or interact with any OpenPGP key servers. 
+Delta Chat no consulta, publica o interacciona con ningún servidor de claves OpenPGP.
 
-### How can I know if messages are end-to-end encrypted? {#whene2e}
+### ¿Cómo puedo saber si los mensajes están cifrados de extremo a extremo? {#whene2e}
 
 All messages in Delta Chat are **end-to-end encrypted by default**.
 Since the Delta Chat Version 2 release series (July 2025) 
 there are no lock or similar markers on end-to-end encrypted messages, anymore. 
 
-### Can I still receive or send messages without end-to-end encryption?
+### ¿Puedo enviar o recibir mensajes sin cifrado de extremo a extremo?
 
 If you use default [chatmail relays](https://chatmail.at/relays),
 it is impossible to receive or send messages without end-to-end encryption. 
@@ -853,7 +852,7 @@ Moreover, if a device is seized then chat contacts using short-lived profiles
 can not be identified easily. 
 
 
-### Who sees my IP Address?
+### ¿Quién puede ver mi dirección IP?
 
 The used [relay](#relays) needs to know your IP Address,
 as well as sometimes your contact's devices if you have a [call](#experiments)
@@ -874,9 +873,9 @@ Hunting down options in all apps on your system will leave gaps.
 For example, tapping a link exposes IP Addresses to unknown parties and is the by far larger risk here.
 
 
-### Does Delta Chat support "Sealed Sender"? {#sealedsender}
+### ¿Soporta Delta Chat "Sealed Sender"? {#sealedsender}
 
-No, not yet. 
+No, todavía no.
 
 The Signal messenger introduced ["Sealed Sender" in 2018](https://signal.org/blog/sealed-sender/)
 to keep their server infrastructure ignorant of who is sending a message to a set of recipients. 
@@ -996,26 +995,26 @@ from most recent to older:
 
 ### ¿Qué permisos necesita Delta Chat?
 
-Some features require certain permissions,
-e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
+Algunas características requieren ciertos permisos,
+p. ej., tienes que conceder permiso de acceso a la cámara si quieres [escanear un código QR de invitación](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/en/gdpr#24-app-permissions) for a detailed overview.
+Consulta la [Política de privacidad](https://delta.chat/en/gdpr#24-app-permissions) para obtener información detallada.
 
 
 ### ¿Dónde pueden encontrar mis amigos Delta Chat?
 
 Delta Chat está disponible para todas las plataformas principales y algunas secundarias:
 
-- The **official website**, <https://delta.chat/download> shows all options in detail
+- La **página web oficial**, <https://delta.chat/download>, muestra todas las opciones en detalle.
 
-- If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
+- Si no está disponible, utiliza el **mirror** en <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
+- Abre una de las siguientes **tiendas de aplicaciones y busca "Delta Chat":**
+ Google Play Store, F-Droid, Huawei App Gallery, iOS y macOS App Store, Microsoft Store
 
 - Comprueba el **gestor de paquetes** de tu distribución de Linux
 
-- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
+- Las **Android APKs** están también disponibles en <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### ¿Cómo se financia el desarrollo de Delta Chat?
