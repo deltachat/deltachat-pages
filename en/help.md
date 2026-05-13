@@ -414,6 +414,8 @@ You only have to update the invite link you share with new subscribers in that c
 
 Delta Chat supports one-to-one **audio calls** and **video calls**.
 
+Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
+
 
 ### Place a call
 
