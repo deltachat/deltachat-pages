@@ -386,7 +386,7 @@ you can also create a [dedicated profile](#multiple-accounts) for joining a chan
 
 Subscribers will receive your messages,
 but they cannot send messages in your channel.
-When subscribing, they will receive **up to 10 older messages**.
+When subscribing, they will receive **a few of the latest messages of the channel history**.
 
 You can see the **view count** beside each message.
 Note that this only counts subscribers who have read receipts enabled,
