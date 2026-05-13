@@ -385,7 +385,7 @@ you can also create a [dedicated profile](#multiple-accounts) for joining a chan
 - From the channel's profile, **share the QR code or invite link with others**.
 
 Subscribers will receive your messages,
-but they cannot reply to them.
+but they cannot send messages in your channel.
 When subscribing, they will receive **up to 10 older messages**.
 
 You can see the **view count** beside each message.
