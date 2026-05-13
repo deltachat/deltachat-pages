@@ -457,8 +457,8 @@ and you can continue using the main Delta Chat window as usual.
 
 - At **Settings → Notifications → Calls**,
   you can disable the special call ringing screen completely.
-  If you do so, you only get notifications as for all other messages -
-  unless you've disabled them as well.
+  If you do so, you will not be disturbed by any ringing notification,
+  you can still pick up the call by tapping the incoming call message bubble in its chat.
 
 
 ## In-chat apps {#webxdc}
