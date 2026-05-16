@@ -11,7 +11,7 @@ lang: zh_CN
 
 🥳 在聊天中体验互动[网页应用](https://webxdc.org/)，一起游戏和协作
 
-🔒 [经过审计的端到端加密](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin)，安全可靠，防御网络和服务器攻击
+🔒 [经过审计的端到端加密](help#security-audits)，安全可靠，防御网络和服务器攻击
 
 👉 [自由](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6)[开源](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%94%BE%E6%BA%90%E4%BB%A3%E7%A0%81)软件，基于[互联网标准](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md)构建，告别 [xkcd927](https://xkcd.com/927/) 困境 :)
 

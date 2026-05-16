@@ -290,6 +290,121 @@ A mesura que els grups es fan més grans, poden esdevenir socialment inestables 
 Visita [el nombre de Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) per a més informació.
 
 
+## Channels {#channels}
+
+Channels are a one-to-many tool for broadcasting messages.
+
+
+### Subscribe to a channel
+
+- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
+  or tap the **invite link** you got from the channel owner.
+
+That's all!
+You will receive a few of the messages from the channel history
+and, from that point on, all new messages from the channel.
+
+**Don't worry,** if that does not happen immediately.
+Once the channel owner comes online, your join request will be processed.
+
+As all of Delta Chat, also Channels are private and decentralized,
+there is no public discovery.
+
+Other channel subscribers will not see that you subscribed and cannot message you.
+The channel owner, however, can message you.
+They will also see that you read a message unless you have read receipts disabled.
+
+If you do not want to share your main profile,
+you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+
+
+### Create a channel
+
+- Tap **New Chat** and choose **New Channel**.
+
+- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+
+- You can now send and manage messages as usual.
+
+- From the channel's profile, **share the QR code or invite link with others**.
+
+Subscribers will receive your messages,
+but they cannot send messages in your channel.
+When subscribing, they will receive **a few of the latest messages of the channel history**.
+
+You can see the **view count** beside each message.
+Note that this only counts subscribers who have read receipts enabled,
+so the real view count may be larger.
+
+
+### How many subscribers can a channel have?
+
+Channels are designed for much larger audiences than [groups](#groups).
+
+The practical limit depends on the used [relay](#relays),
+so there is no single fixed number that applies everywhere.
+
+For really large channels with several tens of thousands of subscribers,
+we recommend using a [dedicated profile](#multiple-accounts) for the channel
+and checking whether the relay is suitable.
+
+But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
+so you can change your relay at any point easily -
+your existing subscribers will not even notice.
+You only have to update the invite link you share with new subscribers in that case.
+
+
+## Calls {#calls}
+
+Delta Chat supports one-to-one **audio calls** and **video calls**.
+
+Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
+
+
+### Place a call
+
+- In a one-to-one chat, tap the 📞 **call icon**.
+
+- This opens a small menu
+  where you can choose whether to place an **Audio Call** or a **Video Call**.
+
+
+### Accept or reject a call
+
+- When someone calls you,
+  Delta Chat shows an **incoming call screen** or notification.
+
+- Tap **Accept** to answer
+  or **Decline** to reject the call.
+
+
+### During a call
+
+- You can **mute** your microphone.
+
+- You can **enable or disable your camera**.
+
+- On mobile, you can **switch between front and back cameras**.
+
+Depending on the device, you can also select the audio output or use picture-in-picture.
+On desktop, the call is using a dedicated window
+and you can continue using the main Delta Chat window as usual.
+
+
+### Missed calls and notifications
+
+- If you do not answer, do not hear the ringing, or do not have your device at hand,
+  the call appears as a **missed call**.
+
+- **Only your accepted contacts** can make your device ring.
+  Contact requests will appear as usual and will not ring.
+
+- At **Settings → Notifications → Calls**,
+  you can disable the special call ringing screen completely.
+  If you do so, you will not be disturbed by any ringing notification,
+  you can still pick up the call by tapping the incoming call message bubble in its chat.
+
+
 ## Apps de xat {#webxdc}
 
 Podeu enviar aplicacions a un xat: jocs, editors, enquestes i altres eines. Això converteix Delta Chat en un sistema de missatgeria realment extensible.
@@ -671,16 +786,20 @@ Tingueu en compte que les aplicacions de Delta Chat a totes les plataformes adme
 
 ### Qui veu la meva Adreça IP?
 
-El [retransmissor](#relays) utilitzat necessita saber la teva adreça IP, de vegades també la del dispositiu del teu contacte si tens una [trucada](#experiments) o comparteixes alguna [apps](#webxdc).
+The used [relays](#relays) need to know your IP Address,
+as well as sometimes your contact's devices if you have a [call](#calls)
+or use [apps](#webxdc) together.
 
-Les adreces IP són necessàries per a la connectivitat i l'eficiència.
-Ni es guarden ni s'exposen.
-Tingues en compte que l'adreça IP no és com una adreça detallada que dones a un servei de missatgeria,
-sinó que és molt més genèrica, i sovint només defineix la regió o el país.
+IP Addresses are needed for connectivity and efficiency.
+Delta Chat neither persists nor exposes them.
+Note that IP Addresses
+are not like an address you give to a delivery service,
+but typically less precise, often defining city or region only.
 
-Així és com funcionen per defecte internet i altres missatgers, no oferim opcions ni fem preguntes per endavant.
-
-Si consideres la teva adreça IP un risc de seguretat o privacitat, et recomanem utilitzar una VPN, combinada amb el mode de bloqueig del sistema. Buscar opcions a totes les aplicacions del sistema deixarà forats. Per exemple, prémer un enllaç exposa les adreces IP a tercers desconeguts i és, de llarg, el risc més gran.
+If you see your IP Address as a risk,
+we recommend to use a VPN for the whole system.
+Per-app options leave gaps across your system.
+For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
 
 
 ### Delta Chat admet "Remitent Segellat""? {#sealedsender}
