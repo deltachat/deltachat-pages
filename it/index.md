@@ -11,7 +11,7 @@ lang: it
 
 🥳 Interattive [Web App nelle chat](https://webxdc.org/) per giocare e collaborare
 
-🔒 [Crittografia end-to-end controllata](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) sicura contro attacchi alla rete e al server
+🔒 [Crittografia end-to-end controllata](help#security-audits) sicura contro attacchi alla rete e al server
 
 👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, basato su [Standard Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitando [xkcd927](https://xkcd.com/927/) :)
 

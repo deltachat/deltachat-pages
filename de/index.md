@@ -11,7 +11,7 @@ lang: de
 
 🥳 Interaktive [Web Apps in Chats](https://webxdc.org/) zum Spielen und für die Zusammenarbeit
 
-🔒 [Geprüfte Ende-zu-Ende-Verschlüsselung](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), sicher gegen Netzwerk- und Serverangriffe
+🔒 [Geprüfte Ende-zu-Ende-Verschlüsselung](help#security-audits), sicher gegen Netzwerk- und Serverangriffe
 
 👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software)-Software, basierend auf [Internet-Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), [xkcd927](https://xkcd.com/927/) vermeidend :)
 

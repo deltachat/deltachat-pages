@@ -11,7 +11,7 @@ lang: fr
 
 🥳 [Applications web interactives dans les discussions](https://webxdc.org/) pour les jeux et la collaboration
 
-🔒 [Chiffrement de bout-en-bout audité](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), à l'abri contre les attaques ciblées sur le réseau ou les serveurs
+🔒 [Chiffrement de bout-en-bout audité](help#security-audits), à l'abri contre les attaques ciblées sur le réseau ou les serveurs
 
 👉 Logiciel [libre](https://fr.wikipedia.org/wiki/Logiciel_libre) et [Open Source](https://fr.wikipedia.org/wiki/Open_source), basé sur des [Standards d'Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), évitant [xkcd927](https://xkcd.com/927/) :)
 

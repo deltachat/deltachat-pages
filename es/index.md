@@ -11,7 +11,7 @@ lang: es
 
 🥳 Interactivas [aplicaciones de web en un chat](https://webxdc.org/) para jugar y colaborar
 
-🔒 [Cifrado de extremo a extremo auditado](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) seguro contra ataques a la red y al servidor.
+🔒 [Cifrado de extremo a extremo auditado](help#security-audits) seguro contra ataques a la red y al servidor.
 
 👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, creado con [estándares del Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitando el problema de [xkcd927](https://xkcd.com/927/) :)
 
