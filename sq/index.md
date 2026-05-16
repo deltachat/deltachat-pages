@@ -11,7 +11,7 @@ lang: sq
 
 🥳 [Aplikacione web me ndërveprim](https://webxdc.org/) në fjalosje, për të luajtur dhe bashkëpunuar
 
-🔒 [Fshehtëzim skaj-më-skaj i audituar](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) i parrezik kundrejt sulmesh rrjeti dhe shërbyesish
+🔒 [Fshehtëzim skaj-më-skaj i audituar](help#security-audits) i parrezik kundrejt sulmesh rrjeti dhe shërbyesish
 
 👉 Program [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software), ngritur mbi [Standarde Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), që shmangin [xkcd927](https://xkcd.com/927/) :)
 

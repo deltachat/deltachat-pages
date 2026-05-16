@@ -11,7 +11,7 @@ lang: nl
 
 🥳 Geniet van interactieve gesprekken met behulp van [webapps](https://webxdc.org/), bijvoorbeeld samen werken of gamen
 
-🔒 [Door onderzoek bewezen eind-tot-eindversleuteling](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin), waardoor je beschermd bent tegen netwerk- en serveraanvallen
+🔒 [Door onderzoek bewezen eind-tot-eindversleuteling](help#security-audits), waardoor je beschermd bent tegen netwerk- en serveraanvallen
 
 👉 [Opensource-](https://nl.wikipedia.org/wiki/Opensourcesoftware)
 en [vrije software](https://nl.wikipedia.org/wiki/Vrije_software), gebouwd op [internetstandaarden](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), dus geen last van [xkcd927](https://xkcd.com/927/). :)

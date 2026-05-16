@@ -11,7 +11,7 @@ lang: cs
 
 🥳 Interaktivní [webové aplikace přímo v chatu](https://webxdc.org/) - pro zábavu i spolupráci
 
-🔒 [Auditované koncové šifrování](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) zabezpečené proti útokům na síť i na servery
+🔒 [Auditované koncové šifrování](help#security-audits) zabezpečené proti útokům na síť i na servery
 
 👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software postavený na [internetových standardech](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md) - vyhýbáme se [xkcd927](https://xkcd.com/927/) :)
 

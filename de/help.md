@@ -303,6 +303,121 @@ aber mehr als 150 sind nicht empfohlen.
 Wenn Gruppen größer werden, können sie sozial instabil werden und benötigen möglicherweise eine Hierarchie - und Delta Chat ist ein privater Messenger für Chats mit [gleichen Rechten](#groups). Vgl. [Dunbar-Zahl](https://de.wikipedia.org/wiki/Dunbar-Zahl).
 
 
+## Kanäle {#channels}
+
+Kanäle dienen der Verbreitung von Nachrichten an viele Empfänger.
+
+
+### Einem Kanal beitreten
+
+- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
+  or tap the **invite link** you got from the channel owner.
+
+That's all!
+You will receive a few of the messages from the channel history
+and, from that point on, all new messages from the channel.
+
+**Don't worry,** if that does not happen immediately.
+Once the channel owner comes online, your join request will be processed.
+
+As all of Delta Chat, also Channels are private and decentralized,
+there is no public discovery.
+
+Other channel subscribers will not see that you subscribed and cannot message you.
+The channel owner, however, can message you.
+They will also see that you read a message unless you have read receipts disabled.
+
+If you do not want to share your main profile,
+you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+
+
+### Einen Kanal erstellen
+
+- Tap **New Chat** and choose **New Channel**.
+
+- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+
+- You can now send and manage messages as usual.
+
+- From the channel's profile, **share the QR code or invite link with others**.
+
+Subscribers will receive your messages,
+but they cannot send messages in your channel.
+When subscribing, they will receive **a few of the latest messages of the channel history**.
+
+You can see the **view count** beside each message.
+Note that this only counts subscribers who have read receipts enabled,
+so the real view count may be larger.
+
+
+### Wie viele Empfänger kann ein Kanal haben?
+
+Channels are designed for much larger audiences than [groups](#groups).
+
+The practical limit depends on the used [relay](#relays),
+so there is no single fixed number that applies everywhere.
+
+For really large channels with several tens of thousands of subscribers,
+we recommend using a [dedicated profile](#multiple-accounts) for the channel
+and checking whether the relay is suitable.
+
+But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
+so you can change your relay at any point easily -
+your existing subscribers will not even notice.
+You only have to update the invite link you share with new subscribers in that case.
+
+
+## Anrufe {#calls}
+
+Delta Chat supports one-to-one **audio calls** and **video calls**.
+
+Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
+
+
+### Jemanden anrufen
+
+- In a one-to-one chat, tap the 📞 **call icon**.
+
+- This opens a small menu
+  where you can choose whether to place an **Audio Call** or a **Video Call**.
+
+
+### Einen Anruf annehmen oder ablehnen
+
+- When someone calls you,
+  Delta Chat shows an **incoming call screen** or notification.
+
+- Tap **Accept** to answer
+  or **Decline** to reject the call.
+
+
+### Während des Anrufs
+
+- You can **mute** your microphone.
+
+- You can **enable or disable your camera**.
+
+- On mobile, you can **switch between front and back cameras**.
+
+Depending on the device, you can also select the audio output or use picture-in-picture.
+On desktop, the call is using a dedicated window
+and you can continue using the main Delta Chat window as usual.
+
+
+### Verpasste Anrufe und Benachrichtigungen
+
+- If you do not answer, do not hear the ringing, or do not have your device at hand,
+  the call appears as a **missed call**.
+
+- **Only your accepted contacts** can make your device ring.
+  Contact requests will appear as usual and will not ring.
+
+- At **Settings → Notifications → Calls**,
+  you can disable the special call ringing screen completely.
+  If you do so, you will not be disturbed by any ringing notification,
+  you can still pick up the call by tapping the incoming call message bubble in its chat.
+
+
 ## In-Chat-Apps {#webxdc}
 
 Du kannst Apps an einen Chat senden – Spiele, Editoren, Umfragen und andere Tools.
@@ -768,23 +883,16 @@ im Falle einer Beschlagnahmung des Geräts nicht ohne Weiteres identifiziert wer
 
 ### Wer sieht meine IP-Adresse?
 
-Das verwendete [Relay](#relays) muss Ihre IP-Adresse kennen,
-sowie manchmal auch die Geräte Ihrer Kontakte, wenn Sie einen [Anruf](#experiments) tätigen
-oder gemeinsam [Apps](#webxdc) verwenden.
+Die verwendeten [Relays](#relays) müssen deine IP-Adresse kennen,
+sowie manchmal auch die Geräte deiner Kontakte, wenn du einen [Anruf](#calls) tätigst
+oder ihr gemeinsam [Apps](#webxdc) verwendet.
 
 IP-Adressen sind für Verbindungen und für Effizienz erforderlich.
-Sie werden weder gespeichert noch offengelegt.
-Beachten Sie, dass die IP-Adresse
-nicht mit einer Adresse, die Sie einem Lieferdienst geben,  vergleichbar ist - 
-sondern viel gröber ist und oft nur die Region oder das Land angibt.
+Sie werden von Delta Chat weder gespeichert noch offengelegt.
+IP-Adressen sind nicht mit einer Adresse, die du einem Lieferdienst gibst, vergleichbar - sondern viel gröber und oft nur die Stadt oder die Region beschreibend.
 
-Da dies die Standardfunktion des Internets und anderer Messenger ist,
-bieten wir hier keine Optionen an und stellen auch keine Fragen im Voraus.
-
-Wenn Sie Ihre IP-Adresse als Sicherheits- oder Datenschutzrisiko betrachten,
-empfehlen wir Ihnen, ein VPN in Kombination mit dem System-Lockdown-Modus zu verwenden.
-Alle einzelnen Apps auf Ihrem System nach IP-Optionen abzusuchen wird nicht zufriedenstellen sein;
-beispielsweise legt das Antippen eines Links IP-Adressen gegenüber unbekannten Parteien offen und stellt hier das weitaus größere Risiko dar.
+Wenn du deine IP-Adresse als Risiko betrachtest, empfehlen wir, ein VPN für das gesamte System zu verwenden.
+Einstellungen auf App-Ebene hinterlassen Lücken überall im  System. Wenn man beispielsweise auf einen Link tippt, können IP-Adressen an Unbekannte weitergegeben werden, was bei weitem das größere Risiko darstellt
 
 
 ### Unterstützt Delta Chat „Sealed Sender“? {#sealedsender}

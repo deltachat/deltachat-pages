@@ -11,7 +11,7 @@ lang: ru
 
 🥳 Интерактивные [веб-приложения в чатах](https://webxdc.org/) для игр и совместной работы
 
-🔒 [Проверенное сквозное шифрование](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) - защищённость от сетевых и серверных атак
+🔒 [Проверенное сквозное шифрование](help#security-audits) - защищённость от сетевых и серверных атак
 
 👉 [Свободное и ](https://en.wikipedia.org/wiki/Free_software)[открытое программное обеспечение](https://en.wikipedia.org/wiki/Open-source_software) построенное на [Стандартах Интернета](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), избегающее [xkcd927](https://xkcd.com/927/) :)
 

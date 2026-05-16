@@ -11,7 +11,7 @@ lang: ca
 
 🥳 Aplicacions [web interactives als xats](https://webxdc.org/) per a jugar i col·laborar
 
-🔒 [Xifrat d'extrem a extrem auditat](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) segur davant d'atacs a la xarxa i al servidor
+🔒 [Xifrat d'extrem a extrem auditat](help#security-audits) segur davant d'atacs a la xarxa i al servidor
 
 👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) programari, construït sobre [Estàndards d’Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitant [xkcd927](https://xkcd.com/927/) :)
 
