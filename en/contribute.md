@@ -27,11 +27,6 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-We are always looking for developers and designers.
-We typically offer 20-30 hours per week contracts or employments (if based in germany).
-Please don't hesitate to reach out (delta at merlinux eu)
-if you are interested to help our efforts!
-
 For more background we recommend to read and follow our [blog](https://delta.chat/en/blog).
 
 
