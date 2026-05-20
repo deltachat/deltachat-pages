@@ -21,7 +21,7 @@ jobs:
     needs: authorize
     runs-on: ubuntu-latest
     environment:
-      name: "staging-internal"
+      name: "staging.delta.chat"
 
     # Permission to post to PR details.
     permissions:
