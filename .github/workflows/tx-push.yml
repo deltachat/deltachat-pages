@@ -12,6 +12,8 @@ permissions: {}
 jobs:
   push-translations:
     runs-on: ubuntu-latest
+    environment:
+      name: "translation"
 
     steps:
       - uses: actions/checkout@v3
