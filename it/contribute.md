@@ -27,13 +27,6 @@ il codice delle applicazioni DeltaChat e di questo sito web.
 - [Problemi con Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemi con la libreria Rust Core + i collegamenti Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Siamo sempre alla ricerca di sviluppatori e designer.
-In genere offriamo contratti o impieghi di 20-30 ore settimanali (se la sede è in Germania).
-Non esitate a contattarci (delta at merlinux eu)
-se siete interessati a contribuire ai nostri sforzi!
-
-Per ulteriori approfondimenti si consiglia di leggere e seguire il nostro [blog](https://delta.chat/en/blog).
-
 
 # Canali di comunicazione di terze parti
 

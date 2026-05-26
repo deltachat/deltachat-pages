@@ -27,13 +27,6 @@ Për ndërveprime bashkësie rreth Delta Chat-it, ju lutemi, lexoni [Standarded 
 - [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Probleme Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Kërkojmë përherë zhvillues dhe hartues grafikë.
-Zakonisht ofrojmë kontrata ose punësime 20-30 orë në javë (në qofshi banor i Gjermanisë).
-Ju lutemi, mos ngurroni të lidheni me ne (delta at merlinux eu),
-nëse ju intereson të ndihmoni përpjekjet tona!
-
-Për më tepër sfond rekomandojmë të lexoni dhe ndiqni [blogun tonë](https://delta.chat/en/blog).
-
 
 # Kanale komunikimi palësh të treta
 

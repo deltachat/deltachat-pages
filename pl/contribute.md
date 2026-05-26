@@ -26,10 +26,6 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 - [Problemy z Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemy z Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Stale poszukujemy programistów i projektantów. Zazwyczaj oferujemy kontrakty na 20-30 godzin tygodniowo lub zatrudnienie (jeśli pracujesz w Niemczech). Jeśli chcesz wspomóc nasze wysiłki, nie wahaj się i skontaktuj z nami (delta at merlinux eu)!
-
-Aby uzyskać więcej informacji, zalecamy przeczytanie i śledzenie naszego [bloga](https://delta.chat/en/blog).
-
 
 # Kanały komunikacji stron trzecich
 

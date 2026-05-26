@@ -26,12 +26,6 @@ Diskussion über Features und um Unterstützung zu erhalten.
 - [Delta-Chat-iOS-Probleme](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust-Kernbibliothek + Python-Probleme](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Wir sind immer auf der Suche nach Entwicklern und Designern.
-Wir bieten in der Regel 20-30-Stundenwoche-Verträge oder Anstellungen (in Deutschland). 
-Bitte zögern Sie nicht, uns bei Interesse zu kontaktieren (delta at merlinux eu).
-
-Für mehr Hintergrundinformationen empfehlen wir Ihnen, unseren [Blog](https://delta.chat/en/blog) zu lesen und zu verfolgen.
-
 
 # Kommunikationskanäle von Dritten
 
