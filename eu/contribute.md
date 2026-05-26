@@ -25,12 +25,6 @@ Delta Chat-en inguruko komunitate-elkarreraginetarako, irakurri, mesedez, gure [
 - [Delta Chat iOS arazoak](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core liburutegia + Python Bindings arazoak](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Beti gaude garatzaileen eta diseinatzaileen bila.
-Normalean, astean 20-30 orduko kontratuak edo enpleguak eskaintzen ditugu (Alemanian bazaude).
-Mesedez, jarri gurekin harremanetan (delta at merlinux eu) gure lanean laguntzeko interesa baduzu!
-
-Informazio gehiago nahi izanez gero, gure [bloga](https://delta.chat/en/blog) irakurtzea eta jarraitzea gomendatzen dizugu.
-
 
 # Hirugarrenen komunikazio-kanalak
 

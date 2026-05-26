@@ -25,12 +25,6 @@ Veuillez lire nos [Standards de la communauté](community-standards) pour en sav
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Nous recherchons constamment des développeurs/développeuses et des conceptrices/concepteurs.
-Nous offrons des postes ou des contrats standards de 20/30 heures par semaine (uniquement pour les personnes basées en Allemagne). 
-Si vous avez envie de nous aider, n'hésitez pas à nous contacter à (delta [at] merlinux [point] eu) !
-
-Pour plus de renseignements concernant nos activités, nous vous recommandons de lire notre [blog](https://delta.chat/en/blog) et de vous y abonner.
-
 
 # Canaux de communication tiers 
 

@@ -26,10 +26,6 @@ lang: uk
 - [Проблеми з Delta Chat на iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Проблеми з бібліотекою Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Ми завжди шукаємо розробників і дизайнерів. Зазвичай ми пропонуємо 20-30 годин на тиждень за контрактом або працевлаштування (якщо знаходитесь в Німеччині). Будь ласка, не соромтеся звертатися (delta at merlinux eu), якщо ви зацікавлені допомогти!
-
-Для отримання додаткової інформації рекомендуємо прочитати та підписатися на наш [блог](https://delta.chat/en/blog).
-
 
 # Сторонні канали зв'язку
 

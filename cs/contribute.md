@@ -27,13 +27,6 @@ diskuzi o funkcích a pro získání podpory.
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Stále hledáme vývojáře a designéry.
-Typicky nabízíme práci na 20-30 hodin týdně na kontrakt či zaměstnání (pokud žijete v Německu).
-Prosíme, neváhejte se nám ozvat (delta zavináč merlinux eu)
-máte-li zájem nám pomoci!
-
-Pro další informace ze zákulisí doporučujeme číst a sledovat náš [blog](https://delta.chat/en/blog).
-
 
 # Komunikační kanály třetích stran
 

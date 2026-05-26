@@ -25,13 +25,6 @@ Para las interacciones comunitarias en torno a Delta Chat, por favor lee nuestra
 - [Errores y mejoras para Delta Chat de iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Errores y mejoras para la biblioteca del core y las interfaces de Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Estamos buscando desarrolladores y diseñadores.
-Ofrecemos empleos de 20-30 horas semanales  o contratos (si se trabaja en Alemania).
-No dudes en ponerte en contacto con nosotros (delta@merlinux.eu)
-¡Si estás interesado en colaborar con nosotros!
-
-Para más informaciones, nosotros te recomendamos leer y seguir a nuestro [blog](https://delta.chat/en/blog).
-
 
 # Canales de comunicación de terceras personas
 

@@ -345,119 +345,119 @@ QR-код и ссылку-приглашение можно использова
 Смотрите [число Данбара](https://en.wikipedia.org/wiki/Dunbar%27s_number) для более глубокого понимания.
 
 
-## Channels {#channels}
+## Каналы {#channels}
 
-Channels are a one-to-many tool for broadcasting messages.
-
-
-### Subscribe to a channel
-
-- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
-  or tap the **invite link** you got from the channel owner.
-
-That's all!
-You will receive a few of the messages from the channel history
-and, from that point on, all new messages from the channel.
-
-**Don't worry,** if that does not happen immediately.
-Once the channel owner comes online, your join request will be processed.
-
-As all of Delta Chat, also Channels are private and decentralized,
-there is no public discovery.
-
-Other channel subscribers will not see that you subscribed and cannot message you.
-The channel owner, however, can message you.
-They will also see that you read a message unless you have read receipts disabled.
-
-If you do not want to share your main profile,
-you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+Каналы представляют собой инструмент типа "один-ко-многим" для трансляции сообщений.
 
 
-### Create a channel
+### Подписка на канал
 
-- Tap **New Chat** and choose **New Channel**.
+- Отсканируйте <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR-код**
+  или нажмите на ссылку-приглашение, которую вы получили от владельца канала.
 
-- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+Всё готово!
+Сначала вы получите несколько сообщений из истории канала,
+а затем — все новые сообщения, поступающие в него.
 
-- You can now send and manage messages as usual.
+**Не беспокойтесь,** если это произойдет не сразу.
+Как только владелец канала выйдет в сеть, ваш запрос на вступление будет обработан.
 
-- From the channel's profile, **share the QR code or invite link with others**.
+Как и весь Delta Chat, каналы являются приватными и децентрализованными,
+поэтому возможность публичного поиска каналов отсутствует.
 
-Subscribers will receive your messages,
-but they cannot send messages in your channel.
-When subscribing, they will receive **a few of the latest messages of the channel history**.
+Другие подписчики канала не увидят факта вашей подписки и не смогут отправлять вам сообщения.
+Однако, владелец канала сможет отправить вам сообщение.
+Также он будет видеть, что вы прочитали сообщение, если только вы не отключите подтверждение о прочтении.
 
-You can see the **view count** beside each message.
-Note that this only counts subscribers who have read receipts enabled,
-so the real view count may be larger.
-
-
-### How many subscribers can a channel have?
-
-Channels are designed for much larger audiences than [groups](#groups).
-
-The practical limit depends on the used [relay](#relays),
-so there is no single fixed number that applies everywhere.
-
-For really large channels with several tens of thousands of subscribers,
-we recommend using a [dedicated profile](#multiple-accounts) for the channel
-and checking whether the relay is suitable.
-
-But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
-so you can change your relay at any point easily -
-your existing subscribers will not even notice.
-You only have to update the invite link you share with new subscribers in that case.
+Если вы не хотите использовать свой основной профиль,
+вы можете создать [специальный профиль](#multiple-accounts) для подписки на канал.
 
 
-## Calls {#calls}
+### Создание канала
 
-Delta Chat supports one-to-one **audio calls** and **video calls**.
+- Нажмите **Новый чат** и выберите **Новый канал**.
 
-Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
+- Введите **название**, по желанию добавьте **изображение** и **описание**, а затем нажмите кнопку **Создать**.
 
+- Теперь вы можете отправлять сообщения и управлять ими в обычном режиме.
 
-### Place a call
+- В профиле канала вы можете **поделиться QR-кодом или ссылкой-приглашением с другими пользователями**.
 
-- In a one-to-one chat, tap the 📞 **call icon**.
+Подписчики будут получать ваши сообщения,
+но не смогут отправлять сообщения в вашем канале.
+При подписке они получат **несколько последних сообщений из истории канала**.
 
-- This opens a small menu
-  where you can choose whether to place an **Audio Call** or a **Video Call**.
-
-
-### Accept or reject a call
-
-- When someone calls you,
-  Delta Chat shows an **incoming call screen** or notification.
-
-- Tap **Accept** to answer
-  or **Decline** to reject the call.
+Рядом с каждым сообщением вы можете увидеть **количество просмотров**.
+Обратите внимание, что учитываются только те подписчики, у которых включены уведомления о прочтении,
+поэтому реальное количество просмотров может быть больше.
 
 
-### During a call
+### Какое максимальное количество подписчиков может быть у канала?
 
-- You can **mute** your microphone.
+Каналы предназначены для гораздо более широкой аудитории, чем [группы](#groups).
 
-- You can **enable or disable your camera**.
+Практический предел зависит от используемого [релея](#relays),
+поэтому не существует единого фиксированного значения, применимого во всех случаях.
 
-- On mobile, you can **switch between front and back cameras**.
+Для крайне крупных каналов с десятками тысяч подписчиков,
+мы рекомендуем использовать [специальный профиль](#multiple-accounts) для управления каналом,
+а также предварительно проверить пригодность релея.
 
-Depending on the device, you can also select the audio output or use picture-in-picture.
-On desktop, the call is using a dedicated window
-and you can continue using the main Delta Chat window as usual.
+Не стоит опасаться: архитектура Delta Chat позволяет использовать любой релей (relay-agnostic),
+поэтому вы можете легко изменить его в любой момент -
+ваши текущие подписчики этого даже не заметят.
+В этом случае достаточно будет обновить ссылку-приглашение, которую вы передаёте новым пользователям.
 
 
-### Missed calls and notifications
+## Звонки {#calls}
 
-- If you do not answer, do not hear the ringing, or do not have your device at hand,
-  the call appears as a **missed call**.
+Delta Chat поддерживает **аудио-** и **видеозвонки** в режиме "один-на-один".
 
-- **Only your accepted contacts** can make your device ring.
-  Contact requests will appear as usual and will not ring.
+Звонки работают на ПК, Ubuntu Touch, iOS и Android версии 8 и новее.
 
-- At **Settings → Notifications → Calls**,
-  you can disable the special call ringing screen completely.
-  If you do so, you will not be disturbed by any ringing notification,
-  you can still pick up the call by tapping the incoming call message bubble in its chat.
+
+### Как сделать звонок
+
+- В чате "один-на-один" нажмите на 📞 **значок вызова**.
+
+- Откроется небольшое меню
+  в котором вы сможете выбрать вид связи **аудио-** или **видеозвонок**.
+
+
+### Принять или отклонить вызов
+
+- При входящем звонке,
+  Delta Chat показывает **экран входящего вызова** или уведомление.
+
+- Нажмите **Принять** чтобы ответить
+  или **Отклонить** чтобы сбросить звонок.
+
+
+### Во время звонка
+
+- Вы можете **отключить** звук микрофона.
+
+- Вы можете **включить или выключить камеру**.
+
+- На мобильных устройствах можно **переключаться между фронтальной и основной камерами**.
+
+В зависимости от устройства вы можете выбрать источник аудиовыхода или использовать режим "картинка в картинке".
+В приложении для ПК звонок осуществляется в отдельном окне,
+что позволяет продолжать работу в основном окне Delta Chat в обычном режиме.
+
+
+### Пропущенные вызовы и уведомления
+
+- Если вы не ответите на звонок, не услышите сигнал или ваше устройство будет недоступно,
+  вызов отобразится как **пропущенный**.
+
+- **Только ваши подтвержденные контакты** могут заставить ваше устройство звонить.
+  Запросы на добавление в контакты будут приходить как обычно, но вызова не будет.
+
+- В разделе **Настройки → Уведомления → Звонки**,
+  вы можете полностью отключить специальный экран входящего вызова.
+  Если вы это сделаете, никакие уведомления о звонках не будут вас беспокоить;
+  при этом вы всё равно сможете принять звонок, нажав на иконку сообщения о входящем звонке в соответствующем чате.
 
 
 ## Встроенные приложения чата {#webxdc}
@@ -976,20 +976,20 @@ Delta Chat по умолчанию использует строгое
 
 ### Кто видит мой IP-адрес?
 
-The used [relays](#relays) need to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#calls)
-or use [apps](#webxdc) together.
+Используемым [релеям](#relays) необходимо знать ваш IP-адрес,
+а в некоторых случаях — данные устройств ваших контактов, если вы совершаете [вызов](#calls)
+или совместно используете [приложения](#webxdc).
 
-IP Addresses are needed for connectivity and efficiency.
-Delta Chat neither persists nor exposes them.
-Note that IP Addresses
-are not like an address you give to a delivery service,
-but typically less precise, often defining city or region only.
+IP-адреса необходимы для обеспечения связи и эффективной работы.
+Delta Chat не сохраняет их и не раскрывает третьим лицам.
+Обратите внимание, что IP-адрес
+— это не тот же адрес, который вы указываете службе доставки,
+он, как правило, менее точен и зачастую позволяет определить лишь город или регион.
 
-If you see your IP Address as a risk,
-we recommend to use a VPN for the whole system.
-Per-app options leave gaps across your system.
-For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
+Если вы считаете свой IP-адрес зоной риска,
+мы рекомендуем использовать VPN для всей системы.
+Настройка VPN для отдельных приложений оставляет уязвимости в общей защите устройства.
+Например, нажатие на ссылку может раскрыть ваш IP-адрес неизвестным сторонам, что представляет собой гораздо больший риск.
 
 
 ### Поддерживает ли Delta Chat функцию "Sealed Sender" (Засекреченный отправитель)? {#sealedsender}

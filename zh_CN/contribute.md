@@ -25,10 +25,6 @@ lang: zh_CN
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-我们一直在寻找开发和设计人员。我们一般提供每周 20-30 小时的合同或工作（如果位于德国）。如果您愿意帮助我们，请联系 (delta at merlinux eu) ！ 
-
-想要了解更多背景信息，我们建议阅读和关注我们的 [博客](https://delta.chat/en/blog)。
-
 
 # 第三方沟通渠道
 

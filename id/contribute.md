@@ -27,13 +27,6 @@ mencari kode untuk aplikasi DeltaChat dan website ini.
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-Kami selalu mencari pengembang dan desainer.
-Kami biasanya menawarkan kontrak atau pekerjaan 20-30 jam per minggu (jika berbasis di Jerman).
-Harap jangan ragu untuk menghubungi (delta di merlinux eu)
-jika Anda tertarik untuk membantu upaya kami!
-
-Untuk background lebih lanjut kami sarankan untuk membaca dan mengikuti [blog](https://delta.chat/en/blog).
-
 
 # Third party communication channels 
 
