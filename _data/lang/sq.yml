@@ -32,6 +32,7 @@ sq:
     dl_mac_appstore: Shkarkojeni nga Apple Mac AppStore
     dl_appstore: Shkarkojeni nga Apple AppStore
     dl_fdroid: Merreni nga F-Droid
+    dl_ghs: Merreni nga GitHub Store
     gplay: Merreni në Google Play
 
   help:
