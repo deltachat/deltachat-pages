@@ -32,6 +32,7 @@ ru:
     dl_mac_appstore: Загрузить из Apple Mac AppStore
     dl_appstore: Загрузить из Apple AppStore
     dl_fdroid: Загрузить из F-Droid
+    dl_ghs: Загрузить из GitHub Store
     gplay: Загрузить из Google Play
 
   help:
