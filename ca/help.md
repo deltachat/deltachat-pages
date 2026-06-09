@@ -290,7 +290,7 @@ A mesura que els grups es fan més grans, poden esdevenir socialment inestables 
 Visita [el nombre de Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) per a més informació.
 
 
-## Channels {#channels}
+## Canals {#channels}
 
 Channels are a one-to-many tool for broadcasting messages.
 

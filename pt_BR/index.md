@@ -1,19 +1,19 @@
 ---
-title: Delta Chat, decentralized secure messenger 
+título: Delta Chat, mensageiro seguro descentralizado 
 lang: pt_BR
 ---
 
-# Delta Chat is a decentralized and secure messenger app {#homepage-heading}
+# Delta Chat é um aplicativo de mensagens descentralizado e seguro {#homepage-heading}
 
-💬 Reliable instant messaging with multi-profile and multi-device support
+💬 Mensagens instantâneas confiáveis com suporte a várias contas e vários dispositivos
 
-⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
+⚡️ Inscreva-se em [chatmail ralays] seguros e interoperáveis (https://chatmail.at/relays)
 
-🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
+🥳 Aplicativos interativos [web apps nos chats](https://webxdc.org/) para jogos e colaboração
 
-🔒 [Audited end-to-end encryption](help#security-audits) safe against network and server attacks
+🔒 [Criptografia auditada](help#security-audits) segura contra ataques à rede e ao servidor
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, desenvolvido com base nos [Padrões da Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitando o [xkcd927](https://xkcd.com/927/) :)
 
 <div>
 <a href="../assets/home/screenshots/android1.png">
@@ -57,6 +57,6 @@ lang: pt_BR
 
 [Download](https://get.delta.chat){: .cta-button}
 
-Available on mobile and desktop.
+Disponível para celular e desktop.
 
 

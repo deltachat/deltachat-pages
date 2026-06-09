@@ -175,31 +175,20 @@ Jeśli chcesz zaoszczędzić miejsce na swoim urządzeniu, możesz wybrać opcj�
 Aby ją włączyć, przejdź do **Ustawienia → Czaty → Usuń wiadomości z urządzenia** . Możesz ustawić przedział czasowy pomiędzy „po 1 godzinie” a „po 1 roku”; w ten sposób *wszystkie* wiadomości zostaną usunięte z urządzenia, gdy tylko staną się starsze.
 
 
-### How can I delete my chat profile? {#remove-account} 
+### Jak mogę usunąć swój profil czatu? {#remove-account} 
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+Jeśli używasz więcej niż jednego profilu czatu, możesz usunąć pojedyncze profile w górnym menu przełączania profili (na Androidzie i iOS) lub w pasku bocznym, klikając prawym przyciskiem myszy (w aplikacji na komputery). Profile czatu są usuwane tylko na urządzeniu, na którym nastąpiło usunięcie. Profile czatu na innych urządzeniach będą nadal w pełni działać.
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+Jeśli używasz jednego domyślnego profilu czatu, możesz po prostu odinstalować aplikację. Spowoduje to automatyczne usunięcie wszystkich powiązanych danych adresowych na serwerze czatu. Aby uzyskać więcej informacji, zapoznaj się z informacjami o [usuwaniu adresów na stronie nine.testrun.org](https://nine.testrun.org/info.html#account-deletion) lub odpowiednią stroną wybranego [serwera czatu innej firmy](https://chatmail.at/relays).
 
 
-## Groups {#groups}
+## Grupy {#groups}
 
-Groups let several people chat together privately with **equal rights**.
+Grupy pozwalają kilku osobom na prywatną rozmowę na **równych prawach**.
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+Każdy może zmienić nazwę grupy lub awatar, [dodawać lub usuwać członków](#addmembers), ustawiać [znikające wiadomości](#ephemeralmsgs) oraz [usuwać własne wiadomości](#edit) z urządzeń wszystkich członków.
 
-Because all members have the same rights, groups work best among **trusted friends and family**.
+Ponieważ wszyscy członkowie mają te same uprawnienia, grupy najlepiej sprawdzają się w gronie **zaufanych przyjaciół i rodziny**.
 
 
 ### Tworzenie grupy
@@ -211,24 +200,18 @@ Because all members have the same rights, groups work best among **trusted frien
 - Gdy tylko napiszesz **pierwszą wiadomość** w grupie, wszyscy członkowie zostaną poinformowani o nowej grupie i będą mogli odpowiadać w grupie (dopóki nie napiszesz wiadomości w grupie, grupa będzie niewidoczna dla członków).
 
 
-### Add and remove members {#addmembers}
+### Dodawanie i usuwanie członków {#addmembers}
 
-All group members have the **same rights**.
-For this reason, everyone can delete any member or add new ones.
+Wszyscy członkowie grupy mają **takie same uprawnienia**. Z tego powodu każdy może usunąć dowolnego członka lub dodać nowych.
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- Aby **dodać lub usunąć członków**, dotknij nazwę grupy na czacie i wybierz członka, którego chcesz dodać lub usunąć.
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- Jeśli członek nie znajduje się jeszcze na twojej liście kontaktów, ale rozmawiasz z nim **twarzą w twarz**, na tym samym ekranie pokaż mu **kod QR**.
+Poproś partnera czatu o **zeskanowanie** obrazu QR za pomocą aplikacji Delta Chat, dotykając <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> na ekranie głównym.
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- Aby dodać członka **zdalnie**, naciśnij „Kopiuj” lub „Udostępnij” i wyślij **link zaproszenia** nowemu członkowi za pośrednictwem innego prywatnego czatu.
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+Kod QR i link zaproszenia można wykorzystać do dodania kilku członków. Ponieważ jednak grupy są [przeznaczone dla zaufanych osób](#groups), unikaj udostępniania ich publicznie.
 
 
 ### Usunąłem się przez przypadek.
@@ -243,143 +226,109 @@ Ponieważ nie jesteś członkiem grupy, nie możesz dodać siebie ponownie. Jedn
 
 Alternatywnie możesz też „Wyłączyć powiadomienia” dla grupy, dzięki temu otrzymasz wszystkie wiadomości i nadal będziesz mógł pisać, ale nie będziesz już powiadamiany o żadnych nowych wiadomościach.
 
-### Cloning a group
+### Klonowanie grupy
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+Możesz zduplikować grupę, aby rozpocząć osobną dyskusję lub wykluczyć członków bez ich wiedzy.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Otwórz profil grupy i dotknij opcji **Klonuj czat** (Android/iOS) lub kliknij prawym przyciskiem myszy grupę na liście czatów (komputer).
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- Ustaw nową nazwę, wybierz awatar i w razie potrzeby dostosuj listę członków.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
+Nowa grupa jest **w pełni niezależna** od oryginalnej, która nadal działa jak dotychczas.
 
 
-### How many members can participate in a single group?
+### Ilu członków może należeć do jednej grupy?
 
-There is no strict technical limit,
-but more than 150 is not recommended.
+Nie ma ścisłego limitu technicznego, ale nie zaleca się przekraczania 150 osób.
 
-As groups get larger, they can become socially unstable and may need a hierarchy -
-where Delta Chat is a private messenger for chatting with [equal rights](#groups).
-See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
+W miarę jak grupy się rozrastają, mogą stawać się niestabilne społecznie i wymagać hierarchii – gdzie Delta Chat pełni rolę prywatnego komunikatora do czatowania na [równych prawach](#groups). Więcej informacji znajdziesz w artykule [Liczba Dunbara](https://en.wikipedia.org/wiki/Dunbar%27s_number).
 
 
-## Channels {#channels}
+## Kanały {#channels}
 
-Channels are a one-to-many tool for broadcasting messages.
-
-
-### Subscribe to a channel
-
-- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
-  or tap the **invite link** you got from the channel owner.
-
-That's all!
-You will receive a few of the messages from the channel history
-and, from that point on, all new messages from the channel.
-
-**Don't worry,** if that does not happen immediately.
-Once the channel owner comes online, your join request will be processed.
-
-As all of Delta Chat, also Channels are private and decentralized,
-there is no public discovery.
-
-Other channel subscribers will not see that you subscribed and cannot message you.
-The channel owner, however, can message you.
-They will also see that you read a message unless you have read receipts disabled.
-
-If you do not want to share your main profile,
-you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+Kanały to narzędzie typu jeden do wielu, służące do nadawania wiadomości.
 
 
-### Create a channel
+### Subskrybowanie kanału
 
-- Tap **New Chat** and choose **New Channel**.
+- Zeskanuj <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **kod QR** lub naciśnij link zaproszenia otrzymany od właściciela kanału.
 
-- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+To wszystko! Otrzymasz kilka wiadomości z historii kanału, a od tego momentu wszystkie nowe wiadomości z kanału.
 
-- You can now send and manage messages as usual.
+**Nie martw się**, jeśli to nie nastąpi od razu. Gdy właściciel kanału będzie online, twoja prośba o dołączenie zostanie przetworzona.
 
-- From the channel's profile, **share the QR code or invite link with others**.
+Podobnie jak cała platforma Delta Chat, również kanały są prywatne i zdecentralizowane, dlatego nie ma możliwości publicznego ujawnienia.
 
-Subscribers will receive your messages,
-but they cannot send messages in your channel.
-When subscribing, they will receive **a few of the latest messages of the channel history**.
+Inni subskrybenci kanału nie zobaczą, że go subskrybujesz i nie będą mogli wysyłać ci wiadomości. Właściciel kanału może jednak napisać do ciebie. Zobaczy również, że przeczytałeś wiadomość, chyba że masz wyłączone potwierdzenia odczytu.
 
-You can see the **view count** beside each message.
-Note that this only counts subscribers who have read receipts enabled,
-so the real view count may be larger.
+Jeśli nie chcesz udostępniać swojego głównego profilu, możesz również utworzyć [dedykowany profil](#multiple-accounts) do dołączenia do kanału.
 
 
-### How many subscribers can a channel have?
+### Tworzenie kanału
 
-Channels are designed for much larger audiences than [groups](#groups).
+- Naciśnij **Nowy cza** i wybierz **Nowy kanał**.
 
-The practical limit depends on the used [relay](#relays),
-so there is no single fixed number that applies everywhere.
+- Wprowadź **nazwę**, opcjonalnie ustaw **obraz** i **opis**, a następnie naciśnij przycisk **Utwórz**.
 
-For really large channels with several tens of thousands of subscribers,
-we recommend using a [dedicated profile](#multiple-accounts) for the channel
-and checking whether the relay is suitable.
+- Możesz teraz wysyłać i zarządzać wiadomościami jak zwykle.
 
-But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
-so you can change your relay at any point easily -
-your existing subscribers will not even notice.
-You only have to update the invite link you share with new subscribers in that case.
+- Z profilu kanału **udostępnij kod QR lub link zaproszenia innym osobom**.
+
+Subskrybenci będą otrzymywać twoje wiadomości, ale nie będą mogli wysyłać wiadomości na twoim kanale. Po zasubskrybowaniu otrzymają **kilka najnowszych wiadomości z historii kanału**.
+
+Obok każdej wiadomości jest widoczna **liczba wyświetleń**. Pamiętaj, że uwzględnia ona tylko subskrybentów z włączonymi potwierdzeniami odczytu, więc rzeczywista liczba wyświetleń może być wyższa.
 
 
-## Calls {#calls}
+### Ilu subskrybentów może mieć kanał?
 
-Delta Chat supports one-to-one **audio calls** and **video calls**.
+Kanały są przeznaczone dla znacznie większej publiczności niż [grupy](#groups).
 
-Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
+Praktyczny limit zależy od używanego [przekaźnika](#relays), więc nie ma jednej, stałej liczby, która obowiązywałaby wszędzie.
 
+W przypadku naprawdę dużych kanałów z dziesiątkami tysięcy subskrybentów zalecamy użycie [dedykowanego profilu](#multiple-accounts) dla kanału i sprawdzenie, czy przekaźnik jest odpowiedni.
 
-### Place a call
-
-- In a one-to-one chat, tap the 📞 **call icon**.
-
-- This opens a small menu
-  where you can choose whether to place an **Audio Call** or a **Video Call**.
+Ale nie wahaj się zbytnio: Delta Chat został zaprojektowany tak, aby nie był zależny od przekaźnika, więc możesz go łatwo zmienić w dowolnym momencie – twoi obecni subskrybenci nawet tego nie zauważą. W takim przypadku wystarczy zaktualizować link zaproszenia udostępniany nowym subskrybentom.
 
 
-### Accept or reject a call
+## Połączenia {#calls}
 
-- When someone calls you,
-  Delta Chat shows an **incoming call screen** or notification.
+Delta Chat umożliwia indywidualne **połączenia audio i wideo**.
 
-- Tap **Accept** to answer
-  or **Decline** to reject the call.
+Połączenia są obsługiwane na komputerach stacjonarnych, Ubuntu Touch, iOS oraz Androidzie 8 i nowszych.
 
 
-### During a call
+### Nawiązywanie połączenia
 
-- You can **mute** your microphone.
+- W czacie indywidualnym dotknij **ikony połączenia** 📞.
 
-- You can **enable or disable your camera**.
-
-- On mobile, you can **switch between front and back cameras**.
-
-Depending on the device, you can also select the audio output or use picture-in-picture.
-On desktop, the call is using a dedicated window
-and you can continue using the main Delta Chat window as usual.
+- Otworzy się małe menu, w którym możesz wybrać, czy chcesz nawiązać **połączenie audio**, czy **wideo**.
 
 
-### Missed calls and notifications
+### Odbieranie lub odrzucanie połączenia
 
-- If you do not answer, do not hear the ringing, or do not have your device at hand,
-  the call appears as a **missed call**.
+- Gdy ktoś do ciebie dzwoni, Delta Chat wyświetla **ekran połączenia przychodzącego** lub powiadomienie.
 
-- **Only your accepted contacts** can make your device ring.
-  Contact requests will appear as usual and will not ring.
+- Dotknij **Akceptuj**, aby odebrać, lub **Odrzuć**, aby odrzucić połączenie.
 
-- At **Settings → Notifications → Calls**,
-  you can disable the special call ringing screen completely.
-  If you do so, you will not be disturbed by any ringing notification,
-  you can still pick up the call by tapping the incoming call message bubble in its chat.
+
+### W trakcie połączenia
+
+- Możesz **wyciszyć** mikrofon.
+
+- Możesz **włączyć lub wyłączyć kamerę**.
+
+- Na urządzeniach mobilnych możesz **przełączać się między przednią i tylną kamerą**.
+
+W zależności od urządzenia możesz również wybrać wyjście audio lub skorzystać z trybu obrazu w obrazie. Na komputerach stacjonarnych połączenie jest wyświetlane w dedykowanym oknie i możesz kontynuować korzystanie z głównego okna Delta Chat jak zwykle.
+
+
+### Nieodebrane połączenia i powiadomienia
+
+- Jeśli nie odbierzesz, nie usłyszysz dzwonka lub nie będziesz mieć urządzenia pod ręką, połączenie zostanie oznaczone jako **nieodebrane**.
+
+- **Tylko zaakceptowane przez ciebie kontakty** mogą wywołać dzwonek na urządzeniu. Prośby o kontakt będą wyświetlane normalnie i nie będą dzwonić.
+
+- W **Ustawienia → Powiadomienia → Połączenia** możesz całkowicie wyłączyć specjalny ekran dzwonka. Jeśli to zrobisz, nie będzie ci przeszkadzał żaden dzwonek, a połączenie nadal będzie można odebrać, dotykając w czacie dymku wiadomości o przychodzącym połączeniu.
 
 
 ## In-chat apps {#webxdc}
