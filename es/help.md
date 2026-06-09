@@ -73,11 +73,11 @@ esto aparecerá como <b style="border: 1px solid currentColor; padding: 0 3px; f
 
 ### ¿Cómo puedo poner en contacto a dos de mis amigos entre ellos?
 
-Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
-You can also add a little introduction message.
+Adjunta el primer contacto al chat del segundo utilizando<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botón de adjuntar → Contacto**.
+También puedes añadir un mensaje introductorio.
 
-The second contact will receive a **card** then
-and can tap it to start chatting with the first contact.
+El segundo contacto recibirá una **tarjeta**
+y podrá pulsarla para empezar a chatear con el primer contacto.
 
 
 ### ¿Qué son los perfiles? ¿Cómo puedo cambiar entre ellos? {#multiple-accounts}
@@ -153,13 +153,13 @@ Sea por el [remitente](#edit), por la [limpieza del dispositivo](#delold) o por 
 
 ### ¿Qué significa el punto verde?
 
-You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
-next to the avatar of a contact.
-It means they were **recently seen by you** in the last 10 minutes,
-e.g. because they messaged you or sent a read receipt.
+En ocasiones podrás ver un **punto verde**<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
+al lado del avatar de un contacto.
+Esto significa que ha sido **visto recientemente por ti** en los últimos 10 minutos,
+por ejemplo, porque te han enviado un mensaje o han enviado una confirmación de lectura. 
 
-So this is not a real time online status
-and others will as well not always see that you are "online".
+Así que esto no es un estado en línea en tiempo real
+y los demás tampoco verán siempre que estás "en línea".
 
 
 ### ¿Qué significan las marcas que se muestran junto a los mensajes salientes?
@@ -200,8 +200,8 @@ Imágenes, vídeos, archivos, mensajes de voz, etc., pueden enviarse utilizando 
 - By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
   This is ideal for everyday communication.
 
-- In regions with worse connectivity,
-  you can choose higher compression at **Settings → Chats → Outgoing Media Quality**.
+- En regiones con una mala conectividad,
+puedes elegir una mayor compresión en **Ajustes → Chats → Calidad de multimedia saliente**.
 
 - If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
   Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
@@ -264,11 +264,11 @@ or the respective page from your chosen [3rd party chatmail server](https://chat
 
 Los grupos permiten a varias personas chatear juntas en privado con **igualdad de derechos**.
 
-Anyone can
-change the group name or avatar,
-[add or remove members](#addmembers),
-set [disappearing messages](#ephemeralmsgs),
-and [delete their own messages](#edit) from all member's devices.
+Cualquiera puede
+cambiar el nombre del grupo o el avatar,
+[añadir o eliminar miembros](#addmembers),
+establecer la [desaparición de mensajes](#ephemeralmsgs),
+y [eliminar sus propios mensajes](#edit) de los dispositivos de todos los miembros.
 
 Como todos los miembros tienen los mismos derechos, los grupos funcionan mejor entre **amigos de confianza y familiares**.
 
@@ -340,59 +340,59 @@ where Delta Chat is a private messenger for chatting with [equal rights](#groups
 See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
 
 
-## Channels {#channels}
+## Canales {#channels}
 
-Channels are a one-to-many tool for broadcasting messages.
+Los canales son una herramienta de difusión de mensajes de uno a muchos.
 
 
-### Subscribe to a channel
+### Suscribirse a un canal
 
-- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
-  or tap the **invite link** you got from the channel owner.
+- Escanea el <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **código QR**
+o pulsa el **link de invitación** que has recibido del dueño del canal.
 
-That's all!
-You will receive a few of the messages from the channel history
-and, from that point on, all new messages from the channel.
+¡Eso es todo!
+Recibirás unos pocos mensajes del historial del canal
+y, desde ese momento, todos los mensajes nuevos del canal.
 
-**Don't worry,** if that does not happen immediately.
-Once the channel owner comes online, your join request will be processed.
+**No te preocupes** si esto no ocurre inmediatamente.
+Una vez que el dueño del canal esté online, tu solicitud para unirte será procesada.
 
-As all of Delta Chat, also Channels are private and decentralized,
-there is no public discovery.
+Al igual que todo Delta Chat, también los Canales son privados y descentralizados,
+no hay modo público de descubrirlo.
 
 Other channel subscribers will not see that you subscribed and cannot message you.
 The channel owner, however, can message you.
 They will also see that you read a message unless you have read receipts disabled.
 
-If you do not want to share your main profile,
-you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+Si no quieres compartir tu perfil principal,
+puedes crear un [perfil dedicado](#multiple-accounts) para unirte a un canal.
 
 
-### Create a channel
+### Crear un canal
 
-- Tap **New Chat** and choose **New Channel**.
+- Pulsa **Nuevo Chat** y elige **Nuevo Canal**.
 
-- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+- Introduce un **nombre**, opcionalmente puedes añadir una **imagen** y una **descripción**, y pulsa el botón **Crear**.
 
-- You can now send and manage messages as usual.
+- Ahora puedes enviar y gestionar los mensajes como siempre.
 
-- From the channel's profile, **share the QR code or invite link with others**.
+- Desde el perfil del canal, **compartir el código QR o el enlace de invitación con otros**.
 
-Subscribers will receive your messages,
-but they cannot send messages in your channel.
-When subscribing, they will receive **a few of the latest messages of the channel history**.
+Los suscriptores recibirán tus mensajes,
+pero no podrán enviar mensajes en tu canal.
+Cuando se suscriban, recibirán **algunos de los últimos mensajes del historial del canal**.
 
 You can see the **view count** beside each message.
 Note that this only counts subscribers who have read receipts enabled,
 so the real view count may be larger.
 
 
-### How many subscribers can a channel have?
+### ¿Cuántos suscriptores puede tener un canal?
 
-Channels are designed for much larger audiences than [groups](#groups).
+Los canales están diseñados para tener audiencias mucho mayores que los [grupos](#groups).
 
-The practical limit depends on the used [relay](#relays),
-so there is no single fixed number that applies everywhere.
+El límite práctico depende del [servidor](#relays) utilizado,
+es decir, no hay un número fijo que se aplique siempre.
 
 For really large channels with several tens of thousands of subscribers,
 we recommend using a [dedicated profile](#multiple-accounts) for the channel
@@ -404,50 +404,49 @@ your existing subscribers will not even notice.
 You only have to update the invite link you share with new subscribers in that case.
 
 
-## Calls {#calls}
+## Llamadas {#calls}
 
-Delta Chat supports one-to-one **audio calls** and **video calls**.
+Delta Chat soporta **llamadas** y **videollamadas** individuales.
 
-Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
-
-
-### Place a call
-
-- In a one-to-one chat, tap the 📞 **call icon**.
-
-- This opens a small menu
-  where you can choose whether to place an **Audio Call** or a **Video Call**.
+Las llamadas son compatibles con la versión de escritorio, Ubuntu Touch, iOS y Android 8 o más moderno.
 
 
-### Accept or reject a call
+### Establecer una llamada
 
-- When someone calls you,
-  Delta Chat shows an **incoming call screen** or notification.
+- En chats individuales, pulsa el 📞 **icono de llamada**.
 
-- Tap **Accept** to answer
-  or **Decline** to reject the call.
+- Esto abre un pequeño menú
+donde puedes elegir entre hacer una **Llamada** o una **Videollamada**.
 
 
-### During a call
+### Aceptar o rechazar una llamada
 
-- You can **mute** your microphone.
+- Cuando alguien te llama,
+Delta Chat muestra una **pantalla de llamada entrante** o una notificación.
 
-- You can **enable or disable your camera**.
+- Pulsa **Aceptar** para contestar
+o **Rechazar** para rechazar la llamada.
 
-- On mobile, you can **switch between front and back cameras**.
+
+### Durante una llamada
+
+- Puedes **silenciar** tu micrófono.
+
+- Puedes **activar o desactivar tu cámara**.
+
+- En móviles, puedes **cambiar entre las cámaras frontal y trasera**.
 
 Depending on the device, you can also select the audio output or use picture-in-picture.
 On desktop, the call is using a dedicated window
 and you can continue using the main Delta Chat window as usual.
 
 
-### Missed calls and notifications
+## Llamadas perdidas y notificaciones
 
-- If you do not answer, do not hear the ringing, or do not have your device at hand,
-  the call appears as a **missed call**.
+- Si no contestas, no oyes la llamada o no tienes el dispositivo a mano, la llamada aparecerá como **llamada perdida**.
 
-- **Only your accepted contacts** can make your device ring.
-  Contact requests will appear as usual and will not ring.
+- **Únicamente los contactos que hayas aceptado** pueden hacer que suene tu dispositivo.
+Las solicitudes de contacto aparecerán como siempre y no sonarán.
 
 - At **Settings → Notifications → Calls**,
   you can disable the special call ringing screen completely.
@@ -615,7 +614,7 @@ y espera un momento hasta que aparezca un código QR
 
 - En el otro dispositivo, [instala Delta Chat](https://get.delta.chat)
 
-- En el segundo dispositivo, abre Delta Chat, selecciona **Añadir desde otro dispositivo" y escanea el código QR del primer dispositivo
+- En el segundo dispositivo, abre Delta Chat, selecciona **Añadir desde otro dispositivo** y escanea el código QR del primer dispositivo
 
 - La transferencia debería comenzar después de unos segundos y durante la transferencia ambos dispositivos mostrarán el **progreso**.
 Espere hasta que termine en ambos dispositivos.
@@ -662,7 +661,7 @@ utiliza la **transferencia manual** descrita debajo
 
 ### Transferencia manual {#backup}
 
-This method is only recommended if "Add Second Device" as described above does not work.
+Este método solo se recomienda si el método "Añadir un segundo dispositivo" descrito anteriormente no funciona.
 
 - On the old device, go to **Settings → Chats → Export Backup**. Enter your
   screen unlock PIN, pattern, or password. Then you can click on "Start
@@ -689,20 +688,20 @@ o el AppImage para Linux. Puedes encontrarlos en
 [get.delta.chat](https://get.delta.chat).
 
 
-## Advanced
+## Avanzado
 
-### Experimental Features {#experiments}
+### Características experimentales {#experiments}
 
-At **Settings → Advanced → Experimental Features**
-you can try out features we are working on.
+En **Ajustes → Avanzado → Características Experimentales**
+puedes probar las funcionalidades en las que estamos trabajando.
 
-The features may be **unstable** and may be **changed or removed**.
+Estas funcionalidades pueden ser **inestables** y pueden ser **modificadas o eliminadas**.
 
-You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
+Puedes encontrar más información
+y dejar tus comentarios en el [Foro](https://support.delta.chat).
 
 
-### What are Relays? {#relays}
+### ¿Qué son los servidores? {#relays}
 
 Relays are used to temporarily hold messages in case your device is offline.
 Relays are cheap and dumb servers,
@@ -735,7 +734,7 @@ you can follow discussions in the [Forum](https://support.delta.chat).
 
 ### ¿Puedo utilizar una dirección de email clásico con Delta Chat?
 
-Yes, but only if the email address is used exclusively by [chatmail clients](https://chatmail.at/clients).
+Sí, pero solo si la dirección de email es utilizada exclusivamente por [clientes de chatmail](https://chatmail.at/clients).
 
 It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
 for the following reasons:
@@ -750,7 +749,7 @@ for the following reasons:
   would require considerable development and maintenance efforts,
   and complicate making chatmail-based messaging more resilient, reliable and fast.
 
-### How can I configure a chat profile with a classic email address as relay? {#classic-email}
+### ¿Cómo puedo configurar un perfil de chat con una dirección clásica de email como servidor? {#classic-email}
 
 First off, **please do not use the same classic email address also from non-chatmail classic email apps**
 unless you are prepared to deal with encrypted messages in the inbox,
@@ -765,7 +764,7 @@ These messages, and the chats they appear in, are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### I want to manage my own server for Delta Chat. What do you recommend?
+### Quiero gestionar mi propio servidor de Delta Chat. ¿Qué me recomiendan?
 
 Any well behaving email server setup will do fine 
 except if your users' devices require Google/Apple [Push Notifications](#instant-delivery) to work properly.
@@ -776,7 +775,7 @@ and [core Rust developments](https://github.com/chatmail/core)
 that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
 
 
-### What is "Send statistics to Delta Chat's developers"? {#statssending}
+### ¿Qué es "Enviar estadísticas a los desarrolladores de Delta Chat"? {#statssending}
 
 We would like to improve Delta Chat with your help,
 which is why Delta Chat for Android asks whether you want
@@ -790,7 +789,7 @@ las estadísticas semanales se envían automáticamente a un bot.
 
 Estamos interesados en estadísticas como, p. ej.:
 
-- How many contacts are introduced by personally scanning a QR code?
+- ¿Cuántos contactos se introducen al escanear personalmente un código QR?
 
 - ¿Qué versiones de Delta Chat están siendo utilizadas?
 
@@ -844,7 +843,7 @@ Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
+### ¿Qué significa la marca de verificación verde en el perfil de un contacto? {#e2eeguarantee}
 
 A contact profile might show a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
@@ -891,7 +890,7 @@ to further improve security characteristics by implementing the
 which was thankfully adopted in summer 2023. 
 
 
-### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
+### ¿Considerasteis usar alternativas a OpenPGP para la encriptación de extremo a extremo? {#openpgp-alternatives}
 
 Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
 but adopting them would mean breaking end-to-end encryption interoperability.
@@ -947,10 +946,10 @@ Unlike most other messengers,
 Delta Chat apps do not store any metadata about contacts or groups on servers, also not in encrypted form. 
 Instead, all group metadata is end-to-end encrypted and stored on end-user devices, only. 
 
-Servers can therefore only see:
+Por lo tanto, los servidores solo pueden ver:
 
-- Sender and receiver addresses, randomly generated by default
-- Message size
+- Direcciones del emisor y del receptor, generadas aleatoriamente por defecto
+- Tamaño del mensaje
 
 All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
 
