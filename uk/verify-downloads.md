@@ -21,11 +21,11 @@ lang: uk
 
 ## Комп'ютер
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
+1. Відкрийте ваш термінал і **перейдіть до каталогу**, де знаходиться файл, який потрібно перевірити, наприклад:  
    `deltachat-desktop_<VERSION>_amd64.deb`
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Завантажте підписані контрольні суми та ключ імпорту;**
+   `<VERSION>` потрібно замінити на номер версії, наприклад `2.33.0`
 
    ```
    wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
@@ -33,15 +33,15 @@ lang: uk
    gpg --import deltachat_certificate.asc.txt
    ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+   Цей ключ також доступний за адресою [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-3. **Verify and check results**
+3. **Перевірка та аналіз результатів**
 
    ```
    gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
-   Expected output:
+   Очікуваний вивід:
 
    ```
    gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
@@ -51,10 +51,10 @@ lang: uk
    <FILE>: OK
    ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Переконайтеся, що відбиток збігається і що файл, який ви хочете перевірити, є у списку.
+   Це попередження є нормальним, оскільки ви ще не підтвердили довіру до цього ключа.
 
-If gpg is broken on your system, you can use  
-`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
+Якщо у вашій системі не працює gpg, ви можете скористатися командою  
+`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` або  
 `cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+зверніть увагу, що останнє перевіряє цілісність, але _не_ ключ розробника.

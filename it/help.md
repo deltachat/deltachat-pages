@@ -339,71 +339,70 @@ dove Delta Chat è un servizio di messaggistica privato per chattare con [uguali
 Vedi [numero di Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) per ulteriori approfondimenti.
 
 
-## Channels {#channels}
+## Canali {#canali}
 
-Channels are a one-to-many tool for broadcasting messages.
-
-
-### Subscribe to a channel
-
-- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
-  or tap the **invite link** you got from the channel owner.
-
-That's all!
-You will receive a few of the messages from the channel history
-and, from that point on, all new messages from the channel.
-
-**Don't worry,** if that does not happen immediately.
-Once the channel owner comes online, your join request will be processed.
-
-As all of Delta Chat, also Channels are private and decentralized,
-there is no public discovery.
-
-Other channel subscribers will not see that you subscribed and cannot message you.
-The channel owner, however, can message you.
-They will also see that you read a message unless you have read receipts disabled.
-
-If you do not want to share your main profile,
-you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+I canali sono uno strumento da uno a molti per la trasmissione di messaggi.
 
 
-### Create a channel
+### Iscriversi a un canale
 
-- Tap **New Chat** and choose **New Channel**.
+- Scansiona il <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **Codice QR**
+  oppure tocca il **collegamento di invito** che hai ricevuto dal proprietario del canale.
 
-- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+Ecco fatto!
+Riceverai alcuni dei messaggi dalla cronologia del canale
+e, da quel momento in poi, tutti i nuovi messaggi dal canale.
 
-- You can now send and manage messages as usual.
+**Non preoccuparti,** se non accade immediatamente.
+Non appena il proprietario del canale si connetterà, la tua richiesta di iscrizione verrà elaborata.
 
-- From the channel's profile, **share the QR code or invite link with others**.
+Poiché tutti i Canali di Delta Chat sono privati ​​e decentralizzati,
+non esiste una funzione di ricerca pubblica.
 
-Subscribers will receive your messages,
-but they cannot send messages in your channel.
-When subscribing, they will receive **a few of the latest messages of the channel history**.
+Gli altri iscritti al canale non vedranno che ti sei iscritto e non potranno inviarti messaggi.
+Il proprietario del canale, tuttavia, potrà inviarti messaggi.
+Inoltre, vedrà che hai letto un messaggio, a meno che tu non abbia disabilitato le conferme di lettura.
 
-You can see the **view count** beside each message.
-Note that this only counts subscribers who have read receipts enabled,
-so the real view count may be larger.
-
-
-### How many subscribers can a channel have?
-
-Channels are designed for much larger audiences than [groups](#groups).
-
-The practical limit depends on the used [relay](#relays),
-so there is no single fixed number that applies everywhere.
-
-For really large channels with several tens of thousands of subscribers,
-we recommend using a [dedicated profile](#multiple-accounts) for the channel
-and checking whether the relay is suitable.
-
-But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
-so you can change your relay at any point easily -
-your existing subscribers will not even notice.
-You only have to update the invite link you share with new subscribers in that case.
+Se non desideri condividere il tuo profilo principale,
+puoi anche creare un [profilo dedicato](#profili-multipli) per unirti a un canale.
 
 
-## Calls {#calls}
+### Creare un canale
+
+- Tocca **Nuova Chat** e scegli **Nuovo Canale**.
+
+- Inserisci un **nome**, imposta facoltativamente un'**immagine** e una **descrizione**, e fai clic sul pulsante **Crea**.
+
+- Ora puoi inviare e gestire i messaggi come di consueto.
+
+- Dal profilo del canale, **condividi il codice QR o il collegamento di invito con altri**.
+
+Gli iscritti riceveranno i tuoi messaggi,
+ma non potranno inviare messaggi nel tuo canale.
+Al momento dell'iscrizione, riceveranno **alcuni degli ultimi messaggi della cronologia del canale**.
+
+Accanto a ciascun messaggio puoi vedere il **numero di visualizzazioni**.
+Tieni presente che questo conteggio si riferisce solo agli abbonati che hanno attivato le conferme di lettura,
+quindi il numero reale di visualizzazioni potrebbe essere superiore.
+
+
+### Quanti iscritti può avere un canale?
+
+I canali sono progettati per un pubblico molto più ampio rispetto ai [gruppi](#gruppi).
+
+Il limite pratico dipende dal numero di [ripetitori](#ripetitori) utilizzati, quindi non esiste un singolo numero fisso valido ovunque.
+
+Per canali molto grandi con diverse decine di migliaia di iscritti,
+consigliamo di utilizzare un [profilo dedicato](#profili-multipli) per il canale
+e di verificare se il ripetitore è adatto.
+
+Ma non esitare troppo: Delta Chat è progettato per essere indipendente dal ripetitore,
+quindi puoi cambiare il tuo ripetitore in qualsiasi momento con facilità -
+i tuoi iscritti esistenti non se ne accorgeranno nemmeno.
+In tal caso, dovrai solo aggiornare il collegamento di invito che condividi con i nuovi iscritti.
+
+
+## Chiamate {#chiamate}
 
 Delta Chat supports one-to-one **audio calls** and **video calls**.
 
