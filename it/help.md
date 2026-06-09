@@ -364,7 +364,7 @@ Il proprietario del canale, tuttavia, potrà inviarti messaggi.
 Inoltre, vedrà che hai letto un messaggio, a meno che tu non abbia disabilitato le conferme di lettura.
 
 Se non desideri condividere il tuo profilo principale,
-puoi anche creare un [profilo dedicato](#profili-multipli) per unirti a un canale.
+puoi anche creare un [profilo dedicato](#multiple-accounts) per unirti a un canale.
 
 
 ### Creare un canale
@@ -388,12 +388,12 @@ quindi il numero reale di visualizzazioni potrebbe essere superiore.
 
 ### Quanti iscritti può avere un canale?
 
-I canali sono progettati per un pubblico molto più ampio rispetto ai [gruppi](#gruppi).
+I canali sono progettati per un pubblico molto più ampio rispetto ai [gruppi](#groups).
 
-Il limite pratico dipende dal numero di [ripetitori](#ripetitori) utilizzati, quindi non esiste un singolo numero fisso valido ovunque.
+Il limite pratico dipende dal numero di [ripetitori](#relays) utilizzati, quindi non esiste un singolo numero fisso valido ovunque.
 
 Per canali molto grandi con diverse decine di migliaia di iscritti,
-consigliamo di utilizzare un [profilo dedicato](#profili-multipli) per il canale
+consigliamo di utilizzare un [profilo dedicato](#multiple-accounts) per il canale
 e di verificare se il ripetitore è adatto.
 
 Ma non esitare troppo: Delta Chat è progettato per essere indipendente dal ripetitore,
@@ -402,7 +402,7 @@ i tuoi iscritti esistenti non se ne accorgeranno nemmeno.
 In tal caso, dovrai solo aggiornare il collegamento di invito che condividi con i nuovi iscritti.
 
 
-## Chiamate {#chiamate}
+## Chiamate {#calls}
 
 Delta Chat supports one-to-one **audio calls** and **video calls**.
 
