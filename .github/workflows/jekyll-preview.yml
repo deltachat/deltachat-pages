@@ -48,7 +48,6 @@ jobs:
 
       - name: "Post links to details"
         id: details
-        if: steps.prepare.outputs.uploadtoserver
         run: |
           # URLs for API connection and uploads
           export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.after }}"
