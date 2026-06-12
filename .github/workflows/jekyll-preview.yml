@@ -70,7 +70,7 @@ jobs:
         if: steps.details.outputs.comment
         uses: actions/github-script@v6
         env:
-          PR_ID: ${{ steps.prepare.outputs.prid }}
+          PR_ID: ${{github.event.pull_request.number}}
         with:
           script: |
             github.rest.issues.createComment({
