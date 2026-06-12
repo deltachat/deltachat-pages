@@ -50,14 +50,14 @@ jobs:
         id: details
         run: |
           # URLs for API connection and uploads
-          export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.after }}"
+          export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.pull_request.head.sha }}"
           export PREVIEW_LINK="https://staging.delta.chat/${PR_ID}/en/"
           # Post AppImage download link to check details
           export STATUS_DATA="{\"state\": \"success\", \
                                \"description\": \"Preview the page here:\", \
                                \"context\": \"Page Preview\", \
                                \"target_url\": \"${PREVIEW_LINK}\"}"
-          curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA"
+          curl -X POST --fail-with-body --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA"
 
           #check if comment already exists, if not post it
           export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/issues/${PR_ID}/comments"
