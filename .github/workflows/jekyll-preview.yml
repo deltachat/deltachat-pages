@@ -3,7 +3,6 @@ name: Deploy Preview
 on:
   pull_request_target:  # zizmor: ignore[dangerous-triggers]
     branches: main
-    types: [opened, synchronize, reopened]
 
 permissions: {}
 
