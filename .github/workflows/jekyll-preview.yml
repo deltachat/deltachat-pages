@@ -2,7 +2,9 @@ name: Deploy Preview
 
 on:
   pull_request_target:  # zizmor: ignore[dangerous-triggers]
-    branches: main
+    branches:
+      - main
+      - fix-staging-branch-name
 
 permissions: {}
 
