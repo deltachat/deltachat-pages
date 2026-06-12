@@ -2,9 +2,7 @@ name: Deploy Preview
 
 on:
   pull_request_target:  # zizmor: ignore[dangerous-triggers]
-    branches:
-      - main
-      - fix-staging-branch-name
+    branches: main
 
 permissions: {}
 
@@ -31,17 +29,11 @@ jobs:
         with:
           persist-credentials: false
           ref: ${{ github.event.pull_request.head.sha || github.ref }}
-      - name: Get Pullrequest ID
-        id: prepare
-        run: |
-          export PULLREQUEST_ID=$(echo "${github.head_ref}")  #  | cut -d "/" -f3)
-          echo "prid=$PULLREQUEST_ID" >> $GITHUB_OUTPUT
-          if [ $(expr length "${{ secrets.USERNAME }}") -gt "1" ]; then echo "uploadtoserver=true" >> $GITHUB_OUTPUT; fi
       - uses: cachix/install-nix-action@2126ae7fc54c9df00dd18f7f18754393182c73cd # v31.9.1
       - run: |
           echo "baseurl: /${PR_ID}" >> _config.yml
         env:
-          PR_ID: ${{ steps.prepare.outputs.prid }}
+          PR_ID: ${{github.event.pull_request.number}}
       - name: Build the site with Jekyll
         run: nix build
 
@@ -52,21 +44,20 @@ jobs:
           chmod 600 "$HOME/.ssh/key"
           rsync -rILvh -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/result/ "${{ secrets.USERNAME }}@delta.chat:/var/www/html/staging/${PR_ID}/"
         env:
-          PR_ID: ${{ steps.prepare.outputs.prid }}
+          PR_ID: ${{github.event.pull_request.number}}
 
       - name: "Post links to details"
         id: details
-        if: steps.prepare.outputs.uploadtoserver
         run: |
           # URLs for API connection and uploads
-          export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.after }}"
+          export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/statuses/${{ github.event.pull_request.head.sha }}"
           export PREVIEW_LINK="https://staging.delta.chat/${PR_ID}/en/"
           # Post AppImage download link to check details
           export STATUS_DATA="{\"state\": \"success\", \
                                \"description\": \"Preview the page here:\", \
                                \"context\": \"Page Preview\", \
                                \"target_url\": \"${PREVIEW_LINK}\"}"
-          curl -X POST --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA"
+          curl -X POST --fail-with-body --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --url "$GITHUB_API_URL" --header "content-type: application/json" --data "$STATUS_DATA"
 
           #check if comment already exists, if not post it
           export GITHUB_API_URL="https://api.github.com/repos/deltachat/deltachat-pages/issues/${PR_ID}/comments"
@@ -74,12 +65,12 @@ jobs:
           echo $RESPONSE > response
           grep -v '"Check out the page preview at https://staging.delta.chat/' response && echo "comment=true" >> $GITHUB_OUTPUT || true
         env:
-          PR_ID: ${{ steps.prepare.outputs.prid }}
+          PR_ID: ${{github.event.pull_request.number}}
       - name: "Post link to comments"
         if: steps.details.outputs.comment
         uses: actions/github-script@v6
         env:
-          PR_ID: ${{ steps.prepare.outputs.prid }}
+          PR_ID: ${{github.event.pull_request.number}}
         with:
           script: |
             github.rest.issues.createComment({
