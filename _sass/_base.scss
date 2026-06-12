@@ -2,7 +2,6 @@
 *******************************************************************************/
 
 * {margin:0;padding:0}
-table {border-collapse:collapse} th {text-align:left;}
 
 
 
@@ -192,8 +191,19 @@ pre code {
     padding: 0px;
 }
 
-main table td, main table th { border: 1px solid #ccc; padding: 0.2em 0.4em; }
-main table th { background-color: #eee; }
+table {
+    border-collapse: collapse;
+
+    td, th {
+        border: 1px solid #ccc;
+        padding: 0.2em 0.4em;
+    }
+
+    th {
+        text-align: left;
+        background-color: #eee;
+    }
+}
 
 .socials {
     display: inline-flex;
