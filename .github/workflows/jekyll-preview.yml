@@ -32,7 +32,7 @@ jobs:
       - name: Get Pullrequest ID
         id: prepare
         run: |
-          export PULLREQUEST_ID=$(echo "${GITHUB_REF}" | cut -d "/" -f3)
+          export PULLREQUEST_ID=$(echo "${github.head_ref}")  #  | cut -d "/" -f3)
           echo "prid=$PULLREQUEST_ID" >> $GITHUB_OUTPUT
           if [ $(expr length "${{ secrets.USERNAME }}") -gt "1" ]; then echo "uploadtoserver=true" >> $GITHUB_OUTPUT; fi
       - uses: cachix/install-nix-action@2126ae7fc54c9df00dd18f7f18754393182c73cd # v31.9.1
