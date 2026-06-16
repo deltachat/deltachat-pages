@@ -20,9 +20,10 @@ jobs:
     environment:
       name: "staging.delta.chat"
 
-    # Permission to post to PR details.
+    # Permission to post to PR details and commit statuses.
     permissions:
       pull-requests: write
+      statuses: write
 
     steps:
       - uses: actions/checkout@v3
