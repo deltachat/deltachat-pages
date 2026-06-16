@@ -5,11 +5,11 @@ lang: gl
 
 # Legal
 
-Delta Chat is an [open source community project](https://github.com/deltachat). Responsible for the content of our websites is:
+Delta Chat é un [proxecto comunitario de software libre](https://github.com/deltachat). Responsable do contido dos nosos sitios web é:
 
     merlinux GmbH
     Reichsgrafenstr. 20
-    79102 Freiburg, Germany
+    79102 Freiburg, Alemaña
 
 Email:  {% include email-link %}
 

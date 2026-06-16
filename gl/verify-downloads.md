@@ -19,42 +19,42 @@ Para mostrar a impresión dixital SHA256 do certificado de sinatura do APK podes
 `keytool -printcert -jarfile <APK-file>`
 
 
-## Desktop
+## Escritorio
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
-   `deltachat-desktop_<VERSION>_amd64.deb`
+1. Abre o terminal e **cambia de directorio** ao ficheiro que queres verificar, por exemplo.
+ `deltachat-desktop_<VERSION>_amd64.deb`
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Descargar a suma de comprobación asinadas e importar clave;**
+`<VERSION>` debe ser substituído polo número de versión, por exemplo, `2.33.0`
 
-   ```
-   wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
-   wget https://delta.chat/assets/deltachat_certificate.asc.txt
-   gpg --import deltachat_certificate.asc.txt
-   ```
+```
+wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
+wget https://delta.chat/assets/deltachat_certificate.asc.txt
+gpg --importar deltachat_certificate.asc.txt
+ ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+A clave tamén está dispoñible en [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-3. **Verify and check results**
+3. **Verificar e comprobar os resultados**
 
-   ```
-   gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
-   ```
+ ```
+gpg --descifrar sumas-de-comprobación-asinadas.txt | shasum -a 512 --ignorar-falta -c -
+ ```
 
-   Expected output:
+Saída esperada:
 
-   ```
-   gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
-   gpg: WARNING: This key is not certified with a trusted signature!
-   gpg:          There is no indication that the signature belongs to the owner.
-   Primary key fingerprint: 63CD 1F81 5BA5 6051 8376 999C 626E 26C8 1695 1308
-   <FILE>: OK
-   ```
+ ```
+gpg: Sinatura correcta de "deltachat-signing@merlinux.eu" [descoñecido]
+gpg: AVISO: Esta chave non está certificada cunha sinatura de confianza!
+gpg: Non hai ningunha indicación de que a sinatura pertenza ao propietario.
+Pegada dixital da clave primaria: 63CD 1F81 5BA5 6051 8376 999C 626E 26C8 1695 1308
+<FILE>:OK
+ ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Asegúrate de que a pegada coincida e de que o ficheiro que queres verificar figure na lista.
+   A advertencia é normal xa que non confiaches explicitamente na chave.
 
-If gpg is broken on your system, you can use  
-`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
+Se gpg está roto no teu sistema, podes usar 
+`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` ou 
 `cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+ten en conta que o último comproba a integridade pero _non_ a chave do desenvolvedor.
