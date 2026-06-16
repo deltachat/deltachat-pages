@@ -404,53 +404,53 @@ In tal caso, dovrai solo aggiornare il collegamento di invito che condividi con 
 
 ## Chiamate {#calls}
 
-Delta Chat supports one-to-one **audio calls** and **video calls**.
+Delta Chat supporta **chiamate audio** e **chiamata video** individuali.
 
-Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
-
-
-### Place a call
-
-- In a one-to-one chat, tap the 📞 **call icon**.
-
-- This opens a small menu
-  where you can choose whether to place an **Audio Call** or a **Video Call**.
+Le chiamate sono supportate su Desktop, Ubuntu Touch, iOS e Android 8 e versioni successive.
 
 
-### Accept or reject a call
+### Effettua una chiamata
 
-- When someone calls you,
-  Delta Chat shows an **incoming call screen** or notification.
+- In una chat individuale, tocca l'icona di chiamata 📞 **chiamata**.
 
-- Tap **Accept** to answer
-  or **Decline** to reject the call.
-
-
-### During a call
-
-- You can **mute** your microphone.
-
-- You can **enable or disable your camera**.
-
-- On mobile, you can **switch between front and back cameras**.
-
-Depending on the device, you can also select the audio output or use picture-in-picture.
-On desktop, the call is using a dedicated window
-and you can continue using the main Delta Chat window as usual.
+- Si aprirà un piccolo menu
+  dove potrai scegliere se effettuare una **Chiamata Audio** o una **Chiamata Video**.
 
 
-### Missed calls and notifications
+### Accetta o rifiuta una chiamata
 
-- If you do not answer, do not hear the ringing, or do not have your device at hand,
-  the call appears as a **missed call**.
+- Quando qualcuno ti chiama,
+  Delta Chat mostra una **schermata di chiamata in arrivo** o una notifica.
 
-- **Only your accepted contacts** can make your device ring.
-  Contact requests will appear as usual and will not ring.
+- Tocca **Accetta** per rispondere
+  oppure **Rifiuta** per rifiutare la chiamata.
 
-- At **Settings → Notifications → Calls**,
-  you can disable the special call ringing screen completely.
-  If you do so, you will not be disturbed by any ringing notification,
-  you can still pick up the call by tapping the incoming call message bubble in its chat.
+
+### Durante una chiamata
+
+- Puoi **disattivare** il microfono.
+
+- Puoi **attivare o disattivare la tua fotocamera**.
+
+- Su dispositivi mobili, è possibile **passare dalla fotocamera anteriore a quella posteriore**.
+
+A seconda del dispositivo è anche possibile selezionare l'uscita audio o utilizzare l'immagine nell'immagine.
+Sul desktop la chiamata avviene tramite una finestra dedicata
+e puoi continuare a utilizzare la finestra principale di Delta Chat come al solito.
+
+
+### Chiamate perse e notifiche
+
+- Se non rispondi, non senti lo squillo o non hai il dispositivo a portata di mano,
+  la chiamata viene visualizzata come **chiamata persa**.
+
+- **Solo i tuoi contatti autorizzati** possono far squillare il tuo dispositivo.
+  Le richieste di contatto verranno visualizzate normalmente, ma non faranno squillare il telefono.
+
+- In **Impostazioni → Notifiche → Chiamate**,
+  puoi disattivare completamente la schermata di notifica delle chiamate in arrivo.
+  In questo modo, non verrai disturbato da alcuna notifica di chiamata,
+  ma potrai comunque rispondere toccando la notifica di chiamata in arrivo nella chat.
 
 
 ## Apps in chat {#webxdc}
@@ -965,20 +965,20 @@ non possono essere identificati facilmente.
 
 ### Chi vede il mio Indirizzo IP?
 
-The used [relays](#relays) need to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#calls)
-or use [apps](#webxdc) together.
+I [ripetitori](#relays) utilizzati devono conoscere il tuo indirizzo IP,
+così come a volte i dispositivi dei tuoi contatti se hai una [chiamata](#calls)
+o utilizzi [app](#webxdc) insieme.
 
-IP Addresses are needed for connectivity and efficiency.
-Delta Chat neither persists nor exposes them.
-Note that IP Addresses
-are not like an address you give to a delivery service,
-but typically less precise, often defining city or region only.
+Gli indirizzi IP sono necessari per la connettività e l'efficienza.
+Delta Chat non li memorizza né li espone.
+Si noti che gli indirizzi IP
+non sono come un indirizzo che si fornisce a un servizio di consegna,
+ma in genere sono meno precisi, spesso definendo solo la città o la regione.
 
-If you see your IP Address as a risk,
-we recommend to use a VPN for the whole system.
-Per-app options leave gaps across your system.
-For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
+Se ritieni che il tuo indirizzo IP rappresenti un rischio,
+ti consigliamo di utilizzare una VPN per l'intero sistema.
+Le soluzioni per singola applicazione lasciano delle falle nel sistema.
+Ad esempio, cliccare su un link può esporre gli indirizzi IP a terze parti sconosciute, il che rappresenta di gran lunga il rischio maggiore.
 
 
 ### Delta Chat supporta "Mittente Sigillato"? {#sealedsender}

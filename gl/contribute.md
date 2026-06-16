@@ -5,42 +5,38 @@ lang: gl
 
 # Canles e repositorios
 
-For community interactions around Delta Chat please read our [Community Standards](community-standards).
+Para as interaccións na comunidade de Delta Chat, por favor le as nosas [Normas da Comunidade](community-standards).
 
-- [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
+- [Fediverso](https://chaos.social/web/@delta) para anuncios e comentarios.
 
 - [foro de axuda Delta Chat](https://support.delta.chat) para obter
   axuda e comentar o funcionamento.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Repositorios de Delta Chat](https://github.com/deltachat/) onde podes atopar o código das aplicacións de Delta Chat e deste sitio web.
 
-- More links can be found in the [cosmos](https://cosmos.delta.chat)
+- Pódense atopar máis ligazóns en [cosmos](https://cosmos.delta.chat)
 
-[Donate Money](donate){: .cta-button}
+[Doar diñeiro](donate){: .cta-button}
 
-# Translations and Bug Reports
+# Traducións e informes de erros
 
-- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traducións en Transifex](https://explore.transifex.com/delta-chat/)
+- [Problemas de Delta Chat para Android](https://github.com/deltachat/deltachat-android/issues)
+- [Problemas de Delta Chat para escritorio](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problemas de Delta Chat en iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Problemas coa Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 
-# Third party communication channels 
+# Canles de comunicación de terceiros 
 
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
+Os seguintes canais de comunicación relacionados con Delta Chat son xestionados por terceiras partes que poden ou non seguir os nosos [Estándares Comunitarios](community-standards): 
 
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
+- [PixelSocial]({% include dc-community-url %}) unha rede social anónima dentro de Delta Chat.
 
-- A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
+- Unha [comunidade de Lemmy](https://lemmy.zip/c/delta_chat)
+  á que podes seguir poñendo `!delta_chat@lemmy.zip` 
+  no campo de busca da túa aplicación do fediverse.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- Un [subreddit de DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above).
+Se coñeces ou creas ti mesmo canles adicionais, por favor, fainos saber (ver Canles e repositorios máis arriba).

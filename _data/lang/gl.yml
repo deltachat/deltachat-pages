@@ -1,8 +1,8 @@
 gl:
   
   meta:
-    description: ""
-    keywords: ""
+    description: "Delta Chat: Mensaxería descentralizada e segura"
+    keywords: "delta chat, chatmail, mensaxeiro, descarga delta chat"
     rss_news_title: Novas de Delta Chat
 
   menu:
@@ -16,17 +16,17 @@ gl:
   subscribe_to_feed: Subscríbete a RSS
 
   references: Referencias
-  donate: ""
+  donate: Doar
   imprint: Legal
   privacy: Política de Privacidade
   language: Idioma
 
   download:
-    other: ""
-    no_upgrades: ""
+    other: Opcións de descarga para outras plataformas
+    no_upgrades: Opcións de descarga sen actualizacións automáticas
     source_code: Código Fonte
     outdated: antigo
-    minimum: ""
+    minimum: Requisitos mínimos
     dl_flathub: Descarga desde Flathub
     dl_microsoft: Descarga desde Microsoft Store
     dl_mac_appstore: Descarga desde Apple Mac AppStore
@@ -35,4 +35,4 @@ gl:
     gplay: Desde Google Play
 
   help:
-    offline_hint: ""
+    offline_hint: "Tes présa? Podes ler esta axuda relaxadamente en calquera momento dentro da aplicación, mesmo sen Internet."

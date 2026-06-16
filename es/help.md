@@ -172,8 +172,8 @@ indican que tu contacto ha leído el mensaje.
 
 En los [grupos](#groups) el segundo tick indica que, al menos, uno de los miembros ha leído el mensaje.
 
-You will only get the second tick if both you and one of the recipients who read the message
-has **Settings → Chats → Read Receipts** enabled.
+Solo aparecerá la segunda marca de lectura si tanto tú como uno de los destinatarios que haya leído el mensaje
+tenéis activada la opción **Ajustes → Chats → Confirmaciones de lectura**.
 
 
 ### Corregir errores y borrar mensajes después de enviar {#edit}
@@ -978,10 +978,10 @@ Note that IP Addresses
 are not like an address you give to a delivery service,
 but typically less precise, often defining city or region only.
 
-If you see your IP Address as a risk,
-we recommend to use a VPN for the whole system.
-Per-app options leave gaps across your system.
-For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
+Si consideras que tu dirección IP supone un riesgo,
+te recomendamos que utilices una VPN para todo el sistema.
+Las opciones por aplicación dejan huecos de seguridad en todo el sistema.
+Por ejemplo, al pulsar un enlace puedes revelar tu dirección IP a terceros desconocidos, lo que supone, con diferencia, el mayor riesgo.
 
 
 ### ¿Soporta Delta Chat "Sealed Sender"? {#sealedsender}

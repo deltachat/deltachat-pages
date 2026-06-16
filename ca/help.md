@@ -292,117 +292,102 @@ Visita [el nombre de Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) pe
 
 ## Canals {#channels}
 
-Channels are a one-to-many tool for broadcasting messages.
+Els canals són una eina per a que una persona retransmeti missatges a moltes persones.
 
 
-### Subscribe to a channel
+### Subscriure's a un canal
 
-- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
-  or tap the **invite link** you got from the channel owner.
+- Escaneja el <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **codi QR**
+  o prem l'**enllaç d'invitació** obtingut del propietari del canal.
 
-That's all!
-You will receive a few of the messages from the channel history
-and, from that point on, all new messages from the channel.
+Això és tot!
+Rebràs alguns missatges anteriors i, a partir d'ara, tots els nous missatges del canal.
 
-**Don't worry,** if that does not happen immediately.
-Once the channel owner comes online, your join request will be processed.
+**No et preocupi,** si no succeix immediatament. Un cop el propietari del canal es trobi en línia, la teva petició d'unir-te serà processada.
 
-As all of Delta Chat, also Channels are private and decentralized,
-there is no public discovery.
+Com tota la resta de Delta Chat, els canals també són privats i descentralitzats, i no hi ha cap mecanisme de descobriment públic.
 
-Other channel subscribers will not see that you subscribed and cannot message you.
-The channel owner, however, can message you.
-They will also see that you read a message unless you have read receipts disabled.
+Els altres subscriptors del canal no veuran que t'hi has subscrit ni podran enviar-te missatges.
+El propietari del canal, en canvi, sí que et pot enviar missatges.
+També veurà que has llegit un missatge, tret que tinguis desactivada la confirmació de lectura.
 
-If you do not want to share your main profile,
-you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+Si no vols compartir el teu perfil principal,
+també pots crear un [perfil dedicat](#multiple-accounts) per unir-vos a un canal.
 
 
-### Create a channel
+### Crea un canal
 
-- Tap **New Chat** and choose **New Channel**.
+- Toca **Xat nou** i tria **Canal nou**.
 
-- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+- Introdueix un **nom**, opcionalment configura una **imatge** i **descripció**, i prem el botó **Crea**.
 
-- You can now send and manage messages as usual.
+- Ara ja pots enviar i gestionar missatges com de costum.
 
-- From the channel's profile, **share the QR code or invite link with others**.
+- Des del perfil del canal, **comparteix el codi QR o l'enllaç d'invitació amb altres persones**.
 
-Subscribers will receive your messages,
-but they cannot send messages in your channel.
-When subscribing, they will receive **a few of the latest messages of the channel history**.
+Els subscriptors rebran els teus missatges, però no podran enviar missatges al teu canal. En subscriure's, rebran **uns quants dels missatges més recents del canal**.
 
-You can see the **view count** beside each message.
-Note that this only counts subscribers who have read receipts enabled,
-so the real view count may be larger.
+Pots veure el **nombre de visualitzacions** al costat de cada missatge. Tingues en compte que això només compta els subscriptors que tenen la confirmació de lectura activada, de manera que el nombre real de visualitzacions pot ser més gran.
 
 
-### How many subscribers can a channel have?
+### Quantes subscripcions pot tenir un canal?
 
-Channels are designed for much larger audiences than [groups](#groups).
+Els canals estan dissenyats per a audiències molt més grans que els [grups](#groups).
 
-The practical limit depends on the used [relay](#relays),
-so there is no single fixed number that applies everywhere.
+El límit pràctic depèn del [retransmissor](#relays) utilitzat,
+per tant, no hi ha un únic nombre fix que s'apliqui a tot arreu.
 
-For really large channels with several tens of thousands of subscribers,
-we recommend using a [dedicated profile](#multiple-accounts) for the channel
-and checking whether the relay is suitable.
+Per a canals realment grans amb diverses desenes de milers de subscriptors, recomanem utilitzar un [perfil dedicat](#multiple-accounts) per al canal i comprovar si el retransmissor és apte.
 
-But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
-so you can change your relay at any point easily -
-your existing subscribers will not even notice.
-You only have to update the invite link you share with new subscribers in that case.
+Però no t'hi capfiquis massa: Delta Chat està dissenyat per ser retransmissor-agnòstic, de manera que es pot canviar el retransmissor en qualsevol moment amb facilitat; les subscripcions actuals ni tan sols se n'adonaran. Només cal actualitzar l'enllaç d'invitació que es comparteix per a noves subscripcions.
 
 
-## Calls {#calls}
+## Trucades {#calls}
 
-Delta Chat supports one-to-one **audio calls** and **video calls**.
+Delta Chat admet trucades d'àudio i de vídeo individuals.
 
-Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
-
-
-### Place a call
-
-- In a one-to-one chat, tap the 📞 **call icon**.
-
-- This opens a small menu
-  where you can choose whether to place an **Audio Call** or a **Video Call**.
+Les trucades estan disponibles al Desktop, Ubuntu Touch, iOS i Android 8 o versions posteriors.
 
 
-### Accept or reject a call
+### Fer una trucada
 
-- When someone calls you,
-  Delta Chat shows an **incoming call screen** or notification.
+- En una conversa individual, toca la **icona de trucada** 📞.
 
-- Tap **Accept** to answer
-  or **Decline** to reject the call.
+- Això obre un petit menú on pots triar si vols fer una **trucada d'àudio** o una **trucada de vídeo**.
 
 
-### During a call
+### Acceptar o rebutjar una trucada
 
-- You can **mute** your microphone.
+- Quan algú et truca,
+  Delta Chat mostra una **pantalla de trucada entrant** o una notificació.
 
-- You can **enable or disable your camera**.
-
-- On mobile, you can **switch between front and back cameras**.
-
-Depending on the device, you can also select the audio output or use picture-in-picture.
-On desktop, the call is using a dedicated window
-and you can continue using the main Delta Chat window as usual.
+- Prem **Accepta** per respondre
+  o **Rebutja** per rebutjar la trucada.
 
 
-### Missed calls and notifications
+### En una trucada
 
-- If you do not answer, do not hear the ringing, or do not have your device at hand,
-  the call appears as a **missed call**.
+- Pots **silenciar** el micròfon.
 
-- **Only your accepted contacts** can make your device ring.
-  Contact requests will appear as usual and will not ring.
+- Pots **activar o desactivar la càmera**.
 
-- At **Settings → Notifications → Calls**,
-  you can disable the special call ringing screen completely.
-  If you do so, you will not be disturbed by any ringing notification,
-  you can still pick up the call by tapping the incoming call message bubble in its chat.
+- Al mòbil, pots **canviar entre la càmera frontal i la posterior**.
+
+Segons el dispositiu, també pots seleccionar la sortida d'àudio o utilitzar la imatge dins la imatge.
+A l'escriptori, la trucada s'obre en una finestra dedicada i podeu continuar utilitzant la finestra principal de Delta Chat com de costum.
+
+
+### Trucades perdudes i notificacions
+
+- Si no respons, no sents la trucada o no tens el dispositiu a mà, la trucada apareix com a **trucada perduda**.
+
+- **Només els teus contactes acceptats** poden fer sonar el teu dispositiu.
+Les sol·licituds de contacte apareixeran com de costum i no sonaran.
+
+- A **Configuració → Notificacions → Trucades**,
+  pots desactivar completament la pantalla especial de trucades.
+  Si ho fas, no se't molestarà amb cap notificació de trucada,
+  però encara podràs contestar la trucada prement al missatge de trucada entrant que rebràs al xat.
 
 
 ## Apps de xat {#webxdc}
@@ -786,20 +771,13 @@ Tingueu en compte que les aplicacions de Delta Chat a totes les plataformes adme
 
 ### Qui veu la meva Adreça IP?
 
-The used [relays](#relays) need to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#calls)
-or use [apps](#webxdc) together.
+Els [relés](#relays) que utilitzis necessiten conèixer la teva adreça IP, així com de vegades els dispositius dels teus contactes si fas una [trucada](#calls) o compartiu [aplicacions](#webxdc).
 
-IP Addresses are needed for connectivity and efficiency.
-Delta Chat neither persists nor exposes them.
-Note that IP Addresses
-are not like an address you give to a delivery service,
-but typically less precise, often defining city or region only.
+Les adreces IP són necessàries per a la connectivitat i l'eficiència.
+Delta Chat ni les desa ni les exposa.
+Tingueu en compte que les adreces IP no són com una adreça que doneu a un servei de missatgeria, sinó que normalment són menys precises i sovint només defineixen la ciutat o la regió.
 
-If you see your IP Address as a risk,
-we recommend to use a VPN for the whole system.
-Per-app options leave gaps across your system.
-For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
+Si considereu que la vostra adreça IP és un risc, us recomanem que utilitzeu una VPN per a tot el sistema. Les opcions per aplicació deixen llacunes a tot el sistema. Per exemple, tocar un enllaç pot exposar les adreces IP a tercers desconeguts, que és, de llarg, el risc més gran.
 
 
 ### Delta Chat admet "Remitent Segellat""? {#sealedsender}
