@@ -94,6 +94,9 @@ def url_is_reachable(url):
         elif response.status_code in {429, 503, 504}:
             print(f"\033[93m  got {response.status_code} ~ Too Fast Requests\033[0m for for {url}")
             reachable_cache[url] = True
+        elif response.status_code == 403 and url == "https://eprint.iacr.org/2024/918.pdf":
+            print(f"  got {response.status_code} ~ Captcha Required for for {url}")
+            reachable_cache[url] = True
         else:
             print(f"  status code for {url}: {response.status_code}")
             reachable_cache[url] = False
@@ -168,19 +171,19 @@ def generate_file(srcdir, destdir, lang, file, add_top_links, add_pagefind):
         if url.startswith("#"):
             anchor = url[1:]
             if content.find('"' + anchor) == -1:
-                print(f"\033[91m  ERROR: unresolved anchor in {lang}/{file}: \033[0m {url}")
+                print(f"\033[91m  ERROR: unresolved anchor in {lang}/{file}:\033[0m {url}")
         elif url.startswith("https://"):
             if not url_is_reachable(url):
-                print(f"\033[91m  ERROR: link in {lang}/{file} is not reachable: \033[0m {url}")
+                print(f"\033[91m  ERROR: link in {lang}/{file} is not reachable:\033[0m {url}")
         else:
             local_file = destdir + "/" + lang + "/" + url
             if not pathlib.Path(local_file).exists() and not url.startswith("./pagefind"):
-                print(f"\033[91m  ERROR: unresolved link in {lang}/{file}: \033[0m {url}")
+                print(f"\033[91m  ERROR: unresolved link in {lang}/{file}:\033[0m {url}")
 
     print("  checking external anchors: " + " ".join(f"#{a}" for a in anchors_from_external))
     for anchor in anchors_from_external:
         if content.find('id="' + anchor + '"') == -1:
-            print(f"\033[91m  ERROR: missing anchor in {lang}/{file}: \033[0m {anchor}")
+            print(f"\033[91m  ERROR: missing anchor in {lang}/{file}:\033[0m {anchor}")
 
     write_file(destdir + "/" + lang + "/" + file, content)
 
