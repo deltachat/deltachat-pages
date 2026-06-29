@@ -7,7 +7,7 @@ lang: gl
 
 💬 Mensaxería instantánea fiable con soporte para múltiples perfís e dispositivos
 
-⚡️ Rexístrate para garantir [retransmisores de chatmail](https://chatmail.at/relays) seguros e interoperables
+⚡️ Rexístrate para garantir [repetidores de chatmail](https://chatmail.at/relays) seguros e interoperables
 
 🥳 Interactivo [aplicacións web en chats](https://webxdc.org/) para xogos e colaboración
 

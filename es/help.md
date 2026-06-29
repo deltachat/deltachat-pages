@@ -189,50 +189,50 @@ Mientras que los mensajes editados tendrán la palabra "Editado" junto a la marc
 los mensajes borrados serán eliminados sin un marcador en el chat.
 No se envían notificaciones y no hay límite de tiempo.
 
-Note, that the original message may still be received by chat members
-who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
+Ten en cuenta que es posible que los miembros del chat sigan recibiendo el mensaje original,
+y que ya lo hayan respondido, reenviado, guardado, capturado en pantalla o copiado de cualquier otra forma.
 
 
 ### ¿Cómo se gestiona la calidad de los archivos multimedia? {#mediaquality}
 
 Imágenes, vídeos, archivos, mensajes de voz, etc., pueden enviarse utilizando los botones de <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjuntar** o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Mensaje de Voz**.
 
-- By default, compression ensures **fast, efficient delivery** that respects everyone's data limits and storage.
-  This is ideal for everyday communication.
+- Por defecto, la compresión garantiza una **entrega rápida y eficiente** que respeta los límites de datos y el espacio de almacenamiento de todos los usuarios.
+  Esto resulta ideal para la comunicación diaria.
 
 - En regiones con una mala conectividad,
 puedes elegir una mayor compresión en **Ajustes → Chats → Calidad de multimedia saliente**.
 
-- If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
-  Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
+- Si necesitas enviar archivos multimedia específicamente en su **calidad original**, utiliza la opción « <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> » **Adjuntar → Archivo** en el chat.
+  Utiliza este método con moderación, ya que el envío de archivos originales aumentará considerablemente el consumo de datos tanto para ti como para todos los destinatarios del chat.
 
 
 ### ¿Cómo funciona la desaparición de mensajes? {#ephemeralmsgs}
 
-You can turn on "disappearing messages"
-in the settings of a chat,
-at the top right of the chat window,
-by selecting a time span
-between 5 minutes and 1 year.
+Puedes activar la «desaparición de mensajes»
+en los ajustes de un chat,
+en la esquina superior derecha de la ventana del chat,
+seleccionando un intervalo de tiempo
+entre 5 minutos y 1 año.
 
-Until the setting is turned off again,
-each chat member's Delta Chat app takes care
-of deleting the messages
-after the selected time span.
-The time span begins
-when the receiver first sees the message in Delta Chat.
-The messages are deleted both,
-on the servers,
-and in the apps itself.
+Hasta que se desactive de nuevo esta opción,
+la aplicación de Delta Chat de cada participante en el chat se encarga
+de eliminar los mensajes
+transcurrido el plazo seleccionado.
+El plazo comienza
+cuando el destinatario ve el mensaje por primera vez en Delta Chat.
+Los mensajes se eliminan tanto
+en los servidores
+como en la propia aplicación.
 
 Tenga en cuenta que puede confiar en los mensajes que desaparecen
 sólo mientras confíes en tus compañeros de chat;
 compañeros de chat maliciosos pueden tomar fotos,
 o guardar, copiar o reenviar mensajes antes de eliminarlos.
 
-Apart from that,
-if one chat partner uninstalls Delta Chat,
-the (anyway encrypted) messages may take longer to get deleted from their server.
+Aparte de eso,
+si uno de los interlocutores desinstala Delta Chat,
+los mensajes (que, de todos modos, están cifrados) pueden tardar más tiempo en eliminarse de su servidor.
 
 
 ### ¿Qué pasa si activo "Borrar mensajes del dispositivo"? {#delold}
@@ -240,24 +240,24 @@ the (anyway encrypted) messages may take longer to get deleted from their server
 Si quieres ahorrar espacio en tu dispositivo, puedes elegir borrar los mensajes antiguos
 automáticamente.
 
-To turn it on, go to **Settings → Chats → Delete Message from Device**.
-You can set a timeframe between "after an hour" and "after a year";
-this way, *all* messages will be deleted from your device as soon as they are
-older than that.
+Para activarla, ve a **Ajustes → Chats → Eliminar mensajes del dispositivo**.
+Puedes establecer un plazo que vaya desde «después de una hora» hasta «después de un año»;
+de esta forma, *todos* los mensajes se eliminarán de tu dispositivo en cuanto
+haya pasado más tiempo del establecido.
 
 
 ### ¿Cómo puedo borrar mi perfil? {#remove-account}
 
-If you are using more than one chat profile,
-you can remove single ones in the top profile switcher menu (on Android and iOS),
-or in the sidebar with a right click (in the Desktop app).
-Chat profiles are only removed on the device where deletion was triggered. 
-Chat profiles on other devices will continue to fully function. 
+Si utilizas más de un perfil de chat,
+puedes eliminar algunos de ellos en el menú superior de cambio de perfil (en Android e iOS),
+o en la barra lateral haciendo clic con el botón derecho (en la aplicación de escritorio).
+Los perfiles de chat solo se eliminan en el dispositivo en el que se ha iniciado la eliminación. 
+Los perfiles de chat en otros dispositivos seguirán funcionando con total normalidad. 
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+Si utilizas un único perfil de chat predeterminado, basta con desinstalar la aplicación.
+Esto provocará automáticamente la eliminación de todos los datos de direcciones asociados en el servidor de Chatmail.
+Para obtener más información, consulta [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
+o la página correspondiente del [servidor de chatmail de terceros](https://chatmail.at/relays) que hayas elegido.
 
 
 ## Grupos {#groups}
@@ -289,17 +289,17 @@ Por esta razón, todos pueden eliminar a cualquier miembro o añadir otros nuevo
 
 - Para **añadir o eliminar miembros**, pulsa el nombre del grupo en el chat y selecciona el miembro a añadir o eliminar.
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- Si el usuario aún no está en tu lista de contactos, pero estás **cara a cara** con él,
+  desde la misma pantalla, muestra un **código QR**.  
+  Pide a tu interlocutor que **escanee** el código QR con su aplicación de Delta Chat, pulsando
+  en « <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> » en la pantalla principal.
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- Para añadir a un miembro **a distancia**,
+  haz clic en «Copiar» o «Compartir» y envía el **enlace de invitación**
+  a través de otro chat privado al nuevo miembro.
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+Se pueden utilizar el código QR y el enlace de invitación para añadir a varios miembros.
+Sin embargo, dado que los grupos están [pensados para personas de confianza](#groups), evita compartirlos públicamente.
 
 
 ### Me he eliminado por accidente.
@@ -335,9 +335,9 @@ que continúa funcionando como antes.
 No hay una limitación técnica,
 pero no se recomiendan más de 150.
 
-As groups get larger, they can become socially unstable and may need a hierarchy -
-where Delta Chat is a private messenger for chatting with [equal rights](#groups).
-See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
+A medida que los grupos crecen, pueden volverse socialmente inestables y necesitar una jerarquía,
+en la que Delta Chat es un servicio de mensajería privado para chatear con [igualdad de derechos](#groups).
+Consulta el [número de Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) para más información.
 
 
 ## Canales {#channels}
@@ -360,9 +360,9 @@ Una vez que el dueño del canal esté online, tu solicitud para unirte será pro
 Al igual que todo Delta Chat, también los Canales son privados y descentralizados,
 no hay modo público de descubrirlo.
 
-Other channel subscribers will not see that you subscribed and cannot message you.
-The channel owner, however, can message you.
-They will also see that you read a message unless you have read receipts disabled.
+Los demás suscriptores del canal no verán que te has suscrito y no podrán enviarte mensajes.
+Sin embargo, el propietario del canal sí podrá enviarte mensajes.
+Además, verá que has leído un mensaje, a menos que tengas desactivada la confirmacion de lectura.
 
 Si no quieres compartir tu perfil principal,
 puedes crear un [perfil dedicado](#multiple-accounts) para unirte a un canal.
@@ -382,9 +382,9 @@ Los suscriptores recibirán tus mensajes,
 pero no podrán enviar mensajes en tu canal.
 Cuando se suscriban, recibirán **algunos de los últimos mensajes del historial del canal**.
 
-You can see the **view count** beside each message.
-Note that this only counts subscribers who have read receipts enabled,
-so the real view count may be larger.
+Puedes ver el **número de visualizaciones** junto a cada mensaje.
+Ten en cuenta que esto solo tiene en cuenta a los suscriptores que tienen activada la confirmación de lectura,
+por lo que el número real de visualizaciones puede ser mayor.
 
 
 ### ¿Cuántos suscriptores puede tener un canal?
@@ -394,14 +394,11 @@ Los canales están diseñados para tener audiencias mucho mayores que los [grupo
 El límite práctico depende del [servidor](#relays) utilizado,
 es decir, no hay un número fijo que se aplique siempre.
 
-For really large channels with several tens of thousands of subscribers,
-we recommend using a [dedicated profile](#multiple-accounts) for the channel
-and checking whether the relay is suitable.
+En el caso de canales realmente grandes, con varias decenas de miles de suscriptores,
+recomendamos utilizar un [perfil dedicado](#multiple-accounts) para el canal
+y comprobar si el retransmisor es adecuado.
 
-But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
-so you can change your relay at any point easily -
-your existing subscribers will not even notice.
-You only have to update the invite link you share with new subscribers in that case.
+Pero no dudes demasiado: Delta Chat está diseñado para ser independiente del retransmisor, así que puedes cambiar en cualquier momento tu retransmisor fácilmente; tus contactos actuales ni siquiera lo notarán. Solo tienes que actualizar el enlace de invitación que compartes para establecer nuevos contactos.
 
 
 ## Llamadas {#calls}
@@ -436,9 +433,9 @@ o **Rechazar** para rechazar la llamada.
 
 - En móviles, puedes **cambiar entre las cámaras frontal y trasera**.
 
-Depending on the device, you can also select the audio output or use picture-in-picture.
-On desktop, the call is using a dedicated window
-and you can continue using the main Delta Chat window as usual.
+Dependiendo del dispositivo, también puedes seleccionar la salida de audio o utilizar la función «imagen en imagen».
+En el ordenador, la llamada se realiza en una ventana específica
+y puedes seguir utilizando la ventana principal de Delta Chat como de costumbre.
 
 
 ## Llamadas perdidas y notificaciones
@@ -448,10 +445,10 @@ and you can continue using the main Delta Chat window as usual.
 - **Únicamente los contactos que hayas aceptado** pueden hacer que suene tu dispositivo.
 Las solicitudes de contacto aparecerán como siempre y no sonarán.
 
-- At **Settings → Notifications → Calls**,
-  you can disable the special call ringing screen completely.
-  If you do so, you will not be disturbed by any ringing notification,
-  you can still pick up the call by tapping the incoming call message bubble in its chat.
+- En **Ajustes → Notificaciones → Llamadas**,
+  puedes desactivar por completo la pantalla especial de llamadas.
+  Si lo haces, no te molestará ninguna notificación de llamada,
+  pero podrás seguir contestando la llamada tocando el globo de mensaje de llamada entrante en el chat correspondiente.
 
 
 ## Aplicaciones en chats {#webxdc}
@@ -471,12 +468,12 @@ Esto convierte a Delta Chat en una aplicación de mensajería realmente ampliabl
 
 - Las aplicaciones en el chat no pueden enviar datos a Internet ni descargar nada.
 
-- An in-chat app can only exchange data within a chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
+- Una aplicación integrada en el chat solo puede intercambiar datos dentro de ese chat, con sus
+  copias en los dispositivos de tus interlocutores. Aparte de eso, está completamente
+  aislada de Internet.
 
-- The privacy an in-chat app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the in-chat app as well.
+- La privacidad que ofrece una aplicación integrada en el chat es la privacidad de tu chat: siempre que
+  confíes en las personas con las que chateas, también podrás confiar en la aplicación integrada en el chat.
 
 - Esto también significa que, al igual que con los enlaces web, no debes abrir aplicaciones de contactos en los que no confíes.
 
@@ -490,44 +487,44 @@ Esto convierte a Delta Chat en una aplicación de mensajería realmente ampliabl
 - Todo lo que necesitas saber lo puedes encontrar en
 la [documentación de Webxdc](https://webxdc.org/docs)
 
-- If you have question, you can ask others with experience
-  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+- Si tienes alguna duda, puedes preguntar a otras personas con experiencia
+  en el [foro de Delta Chat ](https://support.delta.chat/c/webxdc/20).
 
 
 ## Entrega de mensajes instantáneos y notificaciones Push {#instant-delivery}
 
 ### ¿Qué son las Notificaciones Push? ¿Cómo puedo recibir mensajes instantáneos?
 
-Push Notifications are sent by Apple and Google "Push services" to a user's device
-so that an inactive Delta Chat app can fetch messages in the background
-and show notifications on a user's phone if needed.
+Las notificaciones push son enviadas por los «servicios push» de Apple y Google al dispositivo del usuario
+para que una aplicación de Delta Chat que esté inactiva pueda recuperar mensajes en segundo plano
+y mostrar notificaciones en el teléfono del usuario si es necesario.
 
 Las notificaciones push funcionan con todos los servidores de [chatmail](https://delta.chat/chatmail) en
 
 - dispositivos iOS, por la integración de los servicios Push de Apple.
 
-- Android devices, by integrating with the Google FCM Push service,
-  including on devices that use [microG](https://microg.org)
-  instead of proprietary Google code on the phone.
+- Dispositivos Android, mediante la integración con el servicio de notificaciones push FCM de Google,
+  incluso en aquellos dispositivos que utilizan [microG](https://microg.org)
+  en lugar del código propietario de Google en el teléfono.
 
 
 ### ¿Están activadas las notificaciones Push en los dispositivos iOS? ¿Existe alguna alternativa?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Sí, Delta Chat utiliza automáticamente notificaciones push para los perfiles de [chatmail](https://delta.chat/chatmail).
+Y no, no existe ninguna alternativa en los teléfonos de Apple para garantizar la entrega instantánea de los mensajes,
+ya que los dispositivos de Apple no permiten que Delta Chat recupere datos en segundo plano.
+Las notificaciones push se activan automáticamente para los usuarios de iOS porque
+[el sistema de notificaciones push deDelta Chat que preserva la privacidad](#privacy-notifications)
+no revela a Apple datos que esta no tenga ya.
 
 
 ### ¿Están habilitadas / son necesarias las notificaciones Push en los dispositivos Android? {#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
+Si hay un «servicio push» disponible, Delta Chat activa las notificaciones push
+para garantizar la entrega instantánea de los mensajes a todos los usuarios de chatmail.
 
-In the Delta Chat "Notifications" settings for "Instant delivery"
-you can change the following settings effecting all chat profiles:
+En la configuración de «Notificaciones» de Delta Chat, en la sección «Entrega inmediata»,
+puedes modificar los siguientes ajustes, que afectará a todos los perfiles de chat:
 
 - Use Background Connection: If you are not using a Push service,
   you may disable "battery optimizations" for Delta Chat,
@@ -543,23 +540,23 @@ you can change the following settings effecting all chat profiles:
   Enabling it causes a permanent notification on your phone
   which may sometimes be "minified" with recent Android phones.
 
-Both "Background Connection" options are energy-efficient and
-safe to try if you experience messages arrive only with long delays.
+Ambas opciones de "Conexión en segundo plano" son energéticamente eficientes y
+puedes probarlas si observas que los mensajes llegan con mucho retraso.
 
 
 ### ¿Qué privadas son las notificaciones push de Delta Chat? {#privacy-notifications}
 
-Delta Chat Push Notification support avoids leakage of private information.
-It does not leak profile data, IP address or message content (not even encrypted)
-to any system involved in the delivery of Push Notifications.
+El soporte de Delta Chat para las notificaciones push evita filtraciones de información privada.
+No filtra información del perfil, dirección IP o contenido del mensaje (ni siquiera encriptado)
+a ningún sistema involucrado en el envío de las notificaciones push.
 
 Así es como las aplicaciones Delta Chat realizan la entrega de Notificaciones Push:
 
-- A Delta Chat app obtains a "device token" locally, encrypts it and stores it
-  on the [chatmail](https://delta.chat/chatmail) server.
+- Una aplicación de Delta Chat obtiene un "token de dispositivo" localmente, lo encripta y lo almacena
+en un servidor de [chatmail](https://delta.chat/chatmail).
 
-- When a [chatmail](https://delta.chat/chatmail) server receives a message for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- Cuando un servidor de [chatmail](https://delta.chat/chatmail) recibe un mensaje para un usuario de Delta Chat
+este envía el token cifrado del dispositivo a la central de notificaciones de Delta Chat.
 
 - The central Delta Chat notification proxy decrypts the device token
   and forwards it to the respective Push service (Apple, Google, etc.),
@@ -587,7 +584,7 @@ or the full seizure of the central Delta Chat notification proxy
 would not reveal private information that Push services do not already have.
 
 
-### Why does Delta Chat integrate with centralized proprietary Apple/Google push services?
+### ¿Por qué Delta Chat se integra con los servicios de notificaciones push centralizados de Apple/Google?
 
 Delta Chat is a free and open source decentralized messenger with free server choice,
 but we want users to reliably experience "instant delivery" of messages,
@@ -640,11 +637,11 @@ No es necesario un dispositivo para que el otro funcione.
   which is known to cause problems (especially on Windows).
   **Disable the personal firewall** for Delta Chat on both ends and try again
 
-- **Guest Networks** may not allow devices to communicate with each other.
-  If possible, use a non-guest network.
+- **Redes invitadas** podrían no permitir la comunicación entre dispositivos.
+Si es posible, utiliza redes no invitadas.
 
-- If you still have troubles using the same network,
-  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+- Si sigues teniendo problemas utilizando la misma red,
+intenta abrir un **Punto de acceso portátil** en un dispositivo y únete a dicho wifi desde el otro.
 
 - Asegurate que haya **suficiente espacio** en el dispositivo destino
 
@@ -672,8 +669,8 @@ Este método solo se recomienda si el método "Añadir un segundo dispositivo" d
   If you use iOS and encounter difficulties,
   [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) might help you.
 
-You are now synchronized, and can use both devices for sending and receiving
-end-to-end encrypted messages with your communication partners.
+Ya estás sincronizado, y puedes utilizar ambos dispositivos para enviar y recibir
+mensajes encriptados de extremo a extremo con tus compañeros.
 
 
 ### ¿Tienen planeado crear un cliente web de Delta Chat?
@@ -728,8 +725,8 @@ you can configure relays at **Settings → Advanced → Relays**:
 
 - Para **mostrar** de nuevo un retransmisor oculto, pulsa en él.
 
-For more details and future possibilities of relays,
-you can follow discussions in the [Forum](https://support.delta.chat).
+Para más detalles y futuras posibilidades de los retransmisores,
+puedes seguir las discusiones en el [Foro](https://support.delta.chat).
 
 
 ### ¿Puedo utilizar una dirección de email clásico con Delta Chat?
@@ -742,8 +739,8 @@ for the following reasons:
 - Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
   while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message relay.
+- Las aplicaciones que no usan chatmail utilizan los servidores de email como archivo a largo plazo de los mensajes
+mientras que los clientes de chatmail utilizan los servidores de email para retransmitir al instante mensajes efímeros.
 
 - Supporting the full variety of classic email setups
   would require considerable development and maintenance efforts,
@@ -777,9 +774,9 @@ that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat i
 
 ### ¿Qué es "Enviar estadísticas a los desarrolladores de Delta Chat"? {#statssending}
 
-We would like to improve Delta Chat with your help,
-which is why Delta Chat for Android asks whether you want
-to send anonymous usage statistics.
+Nos gustaría mejorar Delta Chat con tu ayuda,
+que es por lo que preguntamos en Delta Chat para Android si quieres
+enviar estadísticas de uso anónimas.
 
 Puedes activarlo y desactivarlo en
 **Ajustes → Avanzado → Enviar estadísticas a los desarrolladores de Delta Chat**.
@@ -814,8 +811,8 @@ to provide automatic end-to-end encryption using these protocols:
 - [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
   to exchange encryption setup information through QR-code scanning or "invite links". 
 
-- [Autocrypt](https://autocrypt.org) is used for automatically
-  establishing end-to-end encryption between contacts and all members of a group chat. 
+- [Autocrypt](https://autocrypt.org) se utiliza de manera automática
+para establecer encriptación de extremo a extremo entre contactos y entre todos los miembros de un grupo.
 
 - [Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026, 
   will bring post-quantum resistant encryption and forward secrecy. 
@@ -1001,7 +998,7 @@ but an implementation has not been agreed as a priority yet.
 
 ### ¿Soporta Delta Chat Perfect Forward Secrecy? {#pfs}
 
-Todavía no, pero llegará con [Autocrypt v2](https://autocrypt2.org). 
+Todavía no, pero estará disponible con [Autocrypt v2](https://autocrypt2.org). 
 
 Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
 This means that if your private decryption key is leaked,

@@ -21,11 +21,11 @@ Para imprimir las firmas SHA256 del certificado de firma de APK, puede usar, por
 
 ## Escritorio
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
+1. Abre el terminal y **cambia de directorio** al archivo que quieras comprobar, por ejemplo:  
    `deltachat-desktop_<VERSION>_amd64.deb`
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Descargar las sumas de verificación firmadas y la clave de importación;**
+   Hay que sustituir `<VERSION>` por el número de versión, p. ej., `2.33.0`
 
    ```
    wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
@@ -33,7 +33,7 @@ Para imprimir las firmas SHA256 del certificado de firma de APK, puede usar, por
    gpg --import deltachat_certificate.asc.txt
    ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+   La clave también está disponible en [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
 3. **Verifica y comprueba los resultados**
 
@@ -51,10 +51,10 @@ Para imprimir las firmas SHA256 del certificado de firma de APK, puede usar, por
    <FILE>: OK
    ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Asegúrate de que la huella digital coincida y de que el archivo que deseas verificar aparezca en la lista.
+   La advertencia es normal, ya que no has marcado explícitamente la clave como de confianza.
 
-If gpg is broken on your system, you can use  
-`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
+Si GPG no funciona correctamente en tu sistema, puedes utilizar  
+`cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` o  
 `cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+ten en cuenta que este último comprueba la integridad, pero _no_ la clave del desarrollador.
