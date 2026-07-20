@@ -701,12 +701,7 @@ podes configurar os repetidores en **Configuración → Avanzado → Repetidores
 
 - Preme nun repetidor para configuralo como **usado para enviar**.
 
-- Se **eliminas** un repetidor,
-  os contactos que só coñezan este repetidor poden non poder contactar contigo ata que lles envíe outra mensaxe.
-  Para que poidan contactarte mentres tanto, elixe **Ocultar de contactos** no cadro de diálogo
- de confirmación en lugar de eliminalo de inmediato.
-
-- Para **amosar** de novo un repetidor oculto, pulsa nel.
+- If a relay is no longer working, you can **remove** it.
 
 Para máis detalles e futuras posibilidades dos relevos, podes seguir as discusións no [Foro](https://support.delta.chat).
 

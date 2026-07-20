@@ -726,15 +726,11 @@ Dena den, nahi baduzu, hemen konfigura ditzakezu erreleak:
 - Errele bat **gehitu** nahi baduzu, eskaneatu haren QR kodea;
 zerrenda honetan ezagun batzuk daude:  [chatmail.at/relays](https://chatmail.at/relays).
 Errele bat baino gehiago badituzu, mezuak guztietatik jasoko dituzu. 
-Mezu bat bidaltzen diezunean, zure kontaktuek automatikoki ikasten dute oraingo erreleak zein diren
+Mezu bat bidaltzen diezunean, zure kontaktuek automatikoki ikasten dute oraingo erreleak zein diren.
 
 - Sakatu errele baten gainean, **bidaltzeko erabilia** gisa konfiguratzeko.
 
-- Errele bat **ezabatzen** baduzu,
-gerta liteke errele hori bakarrik ezagutzen duten zure kontaktuak zurekin komunikatu ezin izatea zuk haiei mezu bat bidali arte. 
-Hori ez gertatzeko eta bitartean kontaktuek zu lokalizatu ahal izateko, berehala ezabatu beharrean hautatu **Ezkutatu kontaktuetatik** konfirmatzeko elkarrizketa-koadroan.
-
-- Ezkutuan jarritako errele bat berriro **erakusteko**, sakatu gainean.
+- If a relay is no longer working, you can **remove** it.
 
 Informazio gehiago lortu eta erreleen geroko aukeren berri
 jakin nahi baduzu, irakurri eztabaidak [foroan](https://support.delta.chat).
@@ -773,7 +769,7 @@ Kontuan izan eposta klasikoaren hornitzaileek normalean ez dituztela onartzen [p
 eta bestelako muga batzuk ere badituztela; ikusi [hornitzaileen deskribapen orokorra](https://providers.delta.chat).
 Txatmailek sarrerako ontzi lehenetsia errele bezala erabiltzen du; ziurtatu hornitzailearen konfigurazioan ere hala dagoela.
 Txat-profil batek eposta klasikoko helbidea darabilenean, zifratu gabeko mezuak bidali eta jaso ditzake;
-horrelako mezuek, bai eta mezu horiek dauden txatek, epostaren ikonoazren marka izaten dute:
+horrelako mezuek, bai eta mezu horiek dauden txatek, epostaren ikonoaren marka izaten dute:
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 

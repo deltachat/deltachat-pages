@@ -718,12 +718,7 @@ you can configure relays at **Settings → Advanced → Relays**:
 
 - Pulsa en un retransmisor para establecerlo como **usado para enviar**.
 
-- If you **remove** a relay,
-  contacts who only know this relay may not reach you until you message them again.
-  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
-  instead of removing it right away.
-
-- Para **mostrar** de nuevo un retransmisor oculto, pulsa en él.
+- If a relay is no longer working, you can **remove** it.
 
 Para más detalles y futuras posibilidades de los retransmisores,
 puedes seguir las discusiones en el [Foro](https://support.delta.chat).

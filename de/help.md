@@ -649,9 +649,7 @@ kannst du jedoch unter **Einstellungen → Erweitert → Relays** Änderungen vo
 
 - Tippe ein Relay an, um es **Zum Senden zu verwenden**
 
-- Wenn du ein Relay **entfernst**, können Kontakte, die nur dieses Relay kennen, dich nicht erreichen, bis du ihnen wieder schreibst. Um erreichbar zu bleiben,  wähle **Vor Kontakten verstecken** im Bestätigungsdialog anstelle das Relay direkt zu löschen.
-
-- Um ein verstecktes Relay wieder **anzuzeigen** tippe es an.
+- Wenn ein Relay nicht mehr funktioniert, kann es **entfernt** werden.
 
 Weitere Details und zukünftige Möglichkeiten findest du im [Forum](https://support.delta.chat).
 
