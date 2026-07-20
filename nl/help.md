@@ -723,12 +723,7 @@ you can configure relays at **Settings → Advanced → Relays**:
 
 - Tap on a relay to set it as **used for sending**.
 
-- If you **remove** a relay,
-  contacts who only know this relay may not reach you until you message them again.
-  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
-  instead of removing it right away.
-
-- To **show** a hidden relay again, tap on it.
+- If a relay is no longer working, you can **remove** it.
 
 For more details and future possibilities of relays,
 you can follow discussions in the [Forum](https://support.delta.chat).

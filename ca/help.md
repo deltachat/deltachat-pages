@@ -592,12 +592,7 @@ pots configurar els retransmissors a **Configuració → Avançat → Retransmis
 
 - Prem un retransmissor per establir-lo com a **utilitzat per enviar**.
 
-- Si **esborres** un retransmissor,
-  els contactes que només coneguin aquest retransmissor pot ser que no et puguin contactar fins que no els enviis un missatge de nou.
-  Per continuar sent localitzable mentrestant, tria **Amagar dels contactes** al quadre de diàleg de confirmació
-  en lloc d'esborrar-lo immediatament.
-
-- Per **mostrar** de nou un retransmissor amagat, toca'l.
+- If a relay is no longer working, you can **remove** it.
 
 Per a més detalls i possibilitats futures dels retransmissors, pots seguir les discussions al [Fòrum](https://support.delta.chat).
 

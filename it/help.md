@@ -715,12 +715,7 @@ Tuttavia, se lo si desidera,
 
 - Tocca un ripetitore per impostarlo come **utilizzato per l'invio**.
 
-- Se **rimuovi** un ripetitore,
-  i contatti che conoscono solo quel ripetitore potrebbero non raggiungerti finché non invierai loro un nuovo messaggio.
-  Per rimanere raggiungibile nel frattempo, seleziona **Nascondi dai Contatti** nella finestra di dialogo di conferma
-  invece di rimuoverlo immediatamente.
-
-- Per **visualizzare** nuovamente un ripetitore nascosto, toccalo.
+- If a relay is no longer working, you can **remove** it.
 
 Per maggiori dettagli e future possibilità di utilizzo dei ripetitori,
 potete seguire le discussioni nel [Forum](https://support.delta.chat).

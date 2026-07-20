@@ -511,9 +511,7 @@ Domyślnie po instalacji przekaźnik jest **automatycznie skonfigurowany**, wię
 
 - Dotknij przekaźnika, aby ustawić go jako **używany do wysyłania**.
 
-- Jeśli **usuniesz** przekaźnik, kontakty, które znają tylko ten przekaźnik, mogą nie skontaktować się z tobą, dopóki nie wyślesz do nich ponownie wiadomości. Aby pozostać w kontakcie w międzyczasie, wybierz opcję **Ukryj w kontaktach** w oknie dialogowym potwierdzenia zamiast usuwać go od razu.
-
-- Aby ponownie **wyświetlić** ukryty przekaźnik, dotknij go.
+- If a relay is no longer working, you can **remove** it.
 
 Aby uzyskać więcej szczegółów i poznać przyszłe możliwości przekaźników, śledź dyskusje na [forum](https://support.delta.chat).
 

@@ -696,12 +696,7 @@ Delta Chat 是一款免费且开源的去中心化即时通讯应用，用户可
 
 - Tap on a relay to set it as **used for sending**.
 
-- If you **remove** a relay,
-  contacts who only know this relay may not reach you until you message them again.
-  To stay reachable in the meantime, choose **Hide from Contacts** in the confirmation dialog
-  instead of removing it right away.
-
-- To **show** a hidden relay again, tap on it.
+- If a relay is no longer working, you can **remove** it.
 
 有关中继服务器的更多细节和未来可能性、
 您可以关注 [论坛](https://support.delta.chat) 中的讨论。
