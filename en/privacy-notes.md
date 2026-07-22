@@ -11,6 +11,15 @@ and by default nothing is ever sent to Delta Chat developers.
 Because there is no central data collection,
 a few short notes can take the place of a lengthy privacy policy.
 
+## No Profile Directory, No Search
+
+**Delta Chat has no directory of profiles and no way to search for people.**
+There is no public discovery of any kind:
+nobody can look you up, by name, address or anything else,
+and only people you share your invite link or QR code with can contact you.
+Your name and picture are of course visible to your contacts,
+but they are stored nowhere except on your devices and theirs.
+
 ## Your Data Stays on Your Device
 
 Everything you see in Delta Chat is stored on your device, and only there:
