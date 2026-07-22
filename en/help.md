@@ -712,21 +712,26 @@ and give feedback in the [Forum](https://support.delta.chat).
 
 Relays are used to temporarily hold messages in case your device is offline.
 Relays are cheap and dumb servers,
-that do not store data as group states, your name or avatar -
-all that exist only on your device.
-Relays are operated by different groups and people.
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-By default, after installation, relays are **automatically set up**,
+By default, relays are **automatically set up**,
 so you do not need to care about that.
 However, if you want to,
 you can configure relays at **Settings → Advanced → Relays**:
 
-- You can **add** a relay by scanning its QR code;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
-  If you have multiple relays, you will receive messages on all of them.
-  Contacts learn your current relays automatically when you message them.
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-- If a relay is no longer working, you can **remove** it.
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
+  If you have multiple relays, you will receive messages on all of them.
+
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 ### Can I use a classic email address with Delta Chat?
@@ -737,10 +742,10 @@ It is not supported to share usage of an email address with non-chatmail apps or
 for the following reasons:
 
 - Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and security standards.
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
 - Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message relay.
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - Supporting the full variety of classic email setups
   would require considerable development and maintenance efforts,
@@ -1115,7 +1120,7 @@ from most recent to older:
 Some features require certain permissions,
 e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/en/gdpr#24-app-permissions) for a detailed overview.
+See [Privacy Policy](https://delta.chat/en/gdpr#app-permissions) for a detailed overview.
 
 
 ### Where can my friends find Delta Chat?
