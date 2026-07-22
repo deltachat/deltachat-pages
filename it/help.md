@@ -715,7 +715,7 @@ Tuttavia, se lo si desidera,
 
 - Tocca un ripetitore per impostarlo come **utilizzato per l'invio**.
 
-- If a relay is no longer working, you can **remove** it.
+- Se un ripetitore non funziona più, è possibile **rimuoverlo**.
 
 Per maggiori dettagli e future possibilità di utilizzo dei ripetitori,
 potete seguire le discussioni nel [Forum](https://support.delta.chat).
