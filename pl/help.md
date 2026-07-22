@@ -511,7 +511,7 @@ Domyślnie po instalacji przekaźnik jest **automatycznie skonfigurowany**, wię
 
 - Dotknij przekaźnika, aby ustawić go jako **używany do wysyłania**.
 
-- If a relay is no longer working, you can **remove** it.
+- Jeśli przekaźnik nie działa, możesz go **usunąć**.
 
 Aby uzyskać więcej szczegółów i poznać przyszłe możliwości przekaźników, śledź dyskusje na [forum](https://support.delta.chat).
 
