@@ -119,10 +119,8 @@ by the Ubuntu Touch community, or follow the open Web Push standard.
 - Push services never see message content or names,
   and do not learn who you are or what you write.
 
-- The small Delta Chat forwarding service in between
-  forgets each token within moments and stores nothing about you.
-
-- If you turn notifications off, no token is created at all.
+- The small Delta Chat token forwarding service in between
+  forgets each token within moments and knows nothing about you.
 
 - F-Droid and desktop versions do not use push services at all.
 
