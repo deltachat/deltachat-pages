@@ -5,7 +5,8 @@ lang: en
 
 # Privacy Notes for Delta Chat Apps
 
-**Delta Chat apps collect zero personal data from you.**
+**Neither the Delta Chat apps nor their developers
+collect any personal data from you.**
 You don't create an account with us, there are no ads and no tracking,
 and by default nothing is ever sent to Delta Chat developers.
 Because there is no central data collection,
@@ -13,8 +14,10 @@ a few short notes can take the place of a lengthy privacy policy.
 
 ## No Profile Directory, No Search
 
-**Delta Chat has no directory of profiles and no way to search for people.**
-There is no public discovery of any kind:
+**There is no directory of Delta Chat profiles
+and no way to search for people.**
+Profiles are not registered or indexed anywhere,
+so there is no public discovery of any kind:
 nobody can look you up, by name, address or anything else,
 and only people you share your invite link or QR code with can contact you.
 Your name and picture are of course visible to your contacts,
@@ -30,7 +33,7 @@ Everything you see in Delta Chat is stored on your device, and only there:
 
 - your encryption keys and settings.
 
-Delta Chat never uploads your address book to any server,
+The app never uploads your address book to any server,
 and developers cannot access your data, not even in encrypted form.
 When you add a second device,
 your data moves directly from one of your devices to the other.
