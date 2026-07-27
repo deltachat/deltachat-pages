@@ -343,119 +343,119 @@ Delta Chat [eskubide berberekin](#groups) txateatzeko aukera ematen duen mezular
 Informazio gehiago nahi baduzu, kontsultatu [Dunbarren zenbakia](https://en.wikipedia.org/wiki/Dunbar%27s_number).
 
 
-## Channels {#channels}
+## Kanalak {#channels}
 
-Channels are a one-to-many tool for broadcasting messages.
-
-
-### Subscribe to a channel
-
-- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
-  or tap the **invite link** you got from the channel owner.
-
-That's all!
-You will receive a few of the messages from the channel history
-and, from that point on, all new messages from the channel.
-
-**Don't worry,** if that does not happen immediately.
-Once the channel owner comes online, your join request will be processed.
-
-As all of Delta Chat, also Channels are private and decentralized,
-there is no public discovery.
-
-Other channel subscribers will not see that you subscribed and cannot message you.
-The channel owner, however, can message you.
-They will also see that you read a message unless you have read receipts disabled.
-
-If you do not want to share your main profile,
-you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+Igorle batek mezuak aldi berean jende askori helarazteko bitarteko bat dira kanalak.
 
 
-### Create a channel
+### Nola batu edo harpidetu kanal batera
 
-- Tap **New Chat** and choose **New Channel**.
+- Eskaneatu kanalaren <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR kodea**
+  edo klikatu **gonbidapen-linka** (kanalaren jabeak bidalitakoa).
 
-- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+Kito, hori da guztia!
+Kanalean lehendik zeuden mezu batzuk jasoko dituzu eta,
+hemendik aurrera, kanaleko mezu berri guztiak.
 
-- You can now send and manage messages as usual.
+Baliteke hori unean bertan ez gertatzea, baina **ez kezkatu**.
+Kanalaren jabea konektatu bezain laster, harpidetzeko zure eskaera prozesatuko da.
 
-- From the channel's profile, **share the QR code or invite link with others**.
+Delta Chateko gainerako gauza guztiak bezala, kanalak ere pribatuak eta deszentralizatuak dira,
+ezik dira publikoki aurkitu.
+
+Kanalera harpidetuta dauden gainerakoek ezin dute ikusi harpidetuta zaudela eta ezin dizute mezurik bidali.
+Kanalaren jabeak, ordea, bai, mezuak bidali ahal dizkizu.
+Gainera, mezuak irakurri dituzun ere ikusiko du, salbu eta irakurragiriak desgaituta dituzun.
+
+Zure profil nagusia partekatu nahi ez baduzu,
+kanalera batzeko [berariazko profil bat](#multiple-accounts) sor dezakezu.
+
+
+### Nola sortu kanal bat
+
+- Sakatu **Txat berria** eta aukeratu **Kanal berria**.
+
+- Idatzi **izena**; nahi izanez gero, **irudi bat** eta **deskribapena** ere jar ditzakezu. Gero, sakatu **Sortu** botoia.
+
+- Mezuak ohi bezala bidaltzeko eta kudeatzeko moduan zaude jada.
+
+- Kanalaren profiletik, **partekatu QR kodea edo gonbidapen-esteka beste batzuekin**.
 
 Subscribers will receive your messages,
 but they cannot send messages in your channel.
 When subscribing, they will receive **a few of the latest messages of the channel history**.
 
-You can see the **view count** beside each message.
-Note that this only counts subscribers who have read receipts enabled,
-so the real view count may be larger.
+Mezu bakoitzaren alboan **ikustaldi-kopurua** ikus dezakezu.
+Gogoan izan irakurragiriak gaituta dituzten harpidedunak bakarrik daudela zenbatuta kopuru horretan;
+beraz, baliteke egiazko ikustaldi-kopurua handiagoa izatea.
 
 
-### How many subscribers can a channel have?
+### Zenbat harpidedun izan ditzake kanal batek?
 
-Channels are designed for much larger audiences than [groups](#groups).
+[Taldeek](#groups) baino askoz kide gehiago eduki ahal izateko moduan diseinatuta daude kanalak.
 
-The practical limit depends on the used [relay](#relays),
-so there is no single fixed number that applies everywhere.
+Muga praktikoa erabilitako [errele](#relays) edo zerbitzariaren araberakoa izango da;
+hau da, ez dago kopuru finko bakar bat.
 
-For really large channels with several tens of thousands of subscribers,
-we recommend using a [dedicated profile](#multiple-accounts) for the channel
-and checking whether the relay is suitable.
+Oso kanal handietarako (dozenaka mila harpidedunekoak), hauxe gomendatzen dugu:
+kanalerako [berariazko profil bat](#multiple-accounts) erabiltzea
+eta errelea egokia den ikustea.
 
-But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
-so you can change your relay at any point easily -
-your existing subscribers will not even notice.
-You only have to update the invite link you share with new subscribers in that case.
-
-
-## Calls {#calls}
-
-Delta Chat supports one-to-one **audio calls** and **video calls**.
-
-Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
+Ez gehiegi kezkatu, ordea: Delta Chat errele-zerbitzaritik aparte funtzionatzeko diseinatuta dagoenez,
+edozein unetan erraz aldatu ahalko duzu beste errele batera;
+une horretara arteko harpidedunak ez dira ohartu ere egingo.
+Gero, harpidedun berrientzako gonbidapen-esteka eguneratu, eta kito.
 
 
-### Place a call
+## Deiak {#calls}
 
-- In a one-to-one chat, tap the 📞 **call icon**.
+Delta Chat bidez, banakako **audio-deiak** eta **bideo-deiak** egiteko aukera dago.
 
-- This opens a small menu
-  where you can choose whether to place an **Audio Call** or a **Video Call**.
-
-
-### Accept or reject a call
-
-- When someone calls you,
-  Delta Chat shows an **incoming call screen** or notification.
-
-- Tap **Accept** to answer
-  or **Decline** to reject the call.
+Mahaigaineko bertsioarekin eta Ubuntu Touch, iOS eta Android 8 eta geroagoko bertsioekin dira bateragarriak deiak.
 
 
-### During a call
+### Nola egin deiak
 
-- You can **mute** your microphone.
+- Banakako txatetan, saiatu 📞 **deien ikonoa**.
 
-- You can **enable or disable your camera**.
-
-- On mobile, you can **switch between front and back cameras**.
-
-Depending on the device, you can also select the audio output or use picture-in-picture.
-On desktop, the call is using a dedicated window
-and you can continue using the main Delta Chat window as usual.
+- Menu labur bat irekiko zaizu, eta, hor,
+aukeratu zer egin nahi duzun: **audio-deia** edo **bideo-deia**.
 
 
-### Missed calls and notifications
+### Deiak onartu edo ukatu
 
-- If you do not answer, do not hear the ringing, or do not have your device at hand,
-  the call appears as a **missed call**.
+- Norbaitek deitzen dizunean,
+Delta Chatek jakinarazpen bat edo **sarrerako deiaren pantaila** erakutsiko dizu.
 
-- **Only your accepted contacts** can make your device ring.
-  Contact requests will appear as usual and will not ring.
+- Sakatu **Onartu**, erantzuteko,
+edo **Ukatu**, deia errefusatzeko.
 
-- At **Settings → Notifications → Calls**,
-  you can disable the special call ringing screen completely.
-  If you do so, you will not be disturbed by any ringing notification,
-  you can still pick up the call by tapping the incoming call message bubble in its chat.
+
+### Deiak iraun bitartean
+
+- Zure mikrofonoa **mututu** dezakezu.
+
+- Zure **kamera gaitu edo desgaitu** dezakezu.
+
+- Mugikorretan, **aurreko kamera eta atzekoa aldatu** ditzakezu.
+
+Gailuaren arabera, audio-irteera hautatu ahal izango duzu, baita Picture in Picture funtzioa (irudia gainjartzea) erabili ere.
+Ordenagailuan, deia berariazko leiho batean egiten da, eta, beraz, Delta Chateko leiho nagusia
+ohi bezala erabiltzen jarraitu dezakezu.
+
+
+### Dei galduak eta jakinarazpenak
+
+- Deiari erantzuten ez badiozu, aditzen ez baduzu edo gailua eskura ez baduzu,
+**galdutako dei** gisa agertuko zaizu.
+
+- **Zuk onartutako kontaktuek** bakarrik deitu ahal dizute; hala ez bada, zure gailuak ez du joko.
+Kontaktu-eskaerak ohi bezala agertuko dira, eta ez dute joko.
+
+- **Ezarpenak → Jakinarazpenak → Deiak** aukeran,
+deien pantaila berezia erabat desgaitu dezakezu, nahi baduzu.
+Hala eginez gero, ez duzu dei-jakinarazpenik jasoko, baina erantzun ahal izango diozu deiari,
+txat horretan agertuko den sarrerako deiaren bunbuiloa ukituz.
 
 
 ## Txat barruko aplikazioak {#webxdc}
@@ -730,7 +730,7 @@ Mezu bat bidaltzen diezunean, zure kontaktuek automatikoki ikasten dute oraingo 
 
 - Sakatu errele baten gainean, **bidaltzeko erabilia** gisa konfiguratzeko.
 
-- If a relay is no longer working, you can **remove** it.
+- Errele bat jada ez badabil, **ezabatu** dezakezu.
 
 Informazio gehiago lortu eta erreleen geroko aukeren berri
 jakin nahi baduzu, irakurri eztabaidak [foroan](https://support.delta.chat).
@@ -902,21 +902,21 @@ segurtasun-ezaugarriak hobetzen jarraitzea,
 inplementatuta, zorionez 2023ko udan hartua. 
 
 
-### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
+### Hartu al duzue kontuan muturretik muturrera zifratzeko beste aukeraren bat erabiltzea OpenPGP-ren ordez? {#openpgp-alternatives}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-but adopting them would mean breaking end-to-end encryption interoperability.
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+Bai, [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security) ekimenari adi gaude, adibidez,
+baina halakoak erabiltzeak muturretik muturrerako zifratzearen elkarreragingarritasuna hautsiko luke.
+Beraz, horrelako erabaki bat hartzeak zailtasun handiak izango lituzke 
+eta erabiltzaileentzako hobekuntza nabarmenak ekarri beharko lituzke. 
 
-Delta Chat takes a holistic "usable security" approach 
-and works with a wide range of activist groupings as well as 
-renowned researchers such as [TeamUSEC](https://teamusec.de) 
-to improve actual user outcomes against security threats. 
-The wire protocol and standard for establishing end-to-end encryption is
-only one part of "user outcomes",
-see also our answers to [device-seizure](#device-seizure)
-and [message-metadata](#message-metadata) questions. 
+“Segurtasun erabilgarria" lortzeko ikuspegi integrala du Delta Chatek, 
+eta askotariko kolektibo aktibistekin lankidetzan jarduten du, baita 
+ikertzaile ospetsuekin ere –[TeamUSEC](https://teamusec.de), adibidez–, 
+segurtasun-mehatxuen aurrean erabiltzaileen benetako emaitzak hobetzeko. 
+Muturretik muturrera zifratzeko estandarra eta protokoloa “erabiltzailearentzako emaitza”
+horren zati bat besterik ez da;
+ikus [gailua besteren batek bereganatzeaz](#device-seizure)
+eta [mezuen metadatuez](#message-metadata) egindako galderen erantzunak. 
 
 
 ### Is Delta Chat vulnerable to EFAIL?
@@ -981,20 +981,22 @@ txat-kontaktuak ezin izango dira erraz identifikatu.
 
 ### Nork ikusten du nire IP helbidea?
 
-The used [relays](#relays) need to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#calls)
-or use [apps](#webxdc) together.
+Erabiltzen duzun [erreleak](#relays) zure IP helbidea jakin behar du,
+eta, batzuetan, baita zure kontaktuen gailuena ere; adibidez,
+kontaktu horiekin [deiak](#calls) egiten badituzu edo
+[aplikazioak](#webxdc) erabiltzen badituzu.
 
-IP Addresses are needed for connectivity and efficiency.
-Delta Chat neither persists nor exposes them.
-Note that IP Addresses
-are not like an address you give to a delivery service,
-but typically less precise, often defining city or region only.
+IP helbideak ezinbestekoak dira konektibitaterako eta eraginkortasunerako.
+Delta Chatek ez ditu gordetzen, ez argitara ematen.
+Kontuan izan IP helbideak ez direla banaketa zerbitzuei-eta eman ohi zaiena
+bezalako posta-helbide zehatz bat; orokorragoak izan ohi dira, eta askotan herria edo
+eskualdea baizik ez dute identifikatzen.
 
-If you see your IP Address as a risk,
-we recommend to use a VPN for the whole system.
-Per-app options leave gaps across your system.
-For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
+Uste baduzu zure IP helbidea arriskurako bidea izan daitekeela,
+zera gomendatuko genizuke, sistema osorako VPN bat erabiltzea.
+Aplikaziokako alternatibek segurtasun-zuloak uzten dituzte sistema osoan.
+Adibidez, esteka batean klik egindakoan, IP helbideak agerian gera dakizkieke hirugarren ezezagunei, eta
+horixe da, alde handiz, arriskurik handiena.
 
 
 ### Ba al du Delta Chatek “Ezkutuko igorlea" funtzioa? {#sealedsender}
