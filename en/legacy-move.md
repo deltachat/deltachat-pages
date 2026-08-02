@@ -58,10 +58,6 @@ If so, you should change the profile as follows:
 
 7. **Message your contacts;** their Delta Chat will learn the new relay automatically.
 
-In step 6. you are also offered to _hide instead of removing._
-In this case, you will continue receiving messages from the old email address,
-however, be prepared that **removing messages in Delta Chat will remove them on the email server.**
-
 
 ## Background
 
