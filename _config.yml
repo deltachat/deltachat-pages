@@ -3,6 +3,12 @@ permalink: /en/:year-:month-:day-:title
 # show future post, posts might be confusingly hidden through different timezones otherwise
 future: true
 
+# Persian translations of blog posts (see _fa_posts/)
+collections:
+  fa_posts:
+    output: true
+    permalink: /fa/:year-:month-:day-:title
+
 # the following lines are to make the option {{ page.is_post }} available, thanks to 
 # https://stackoverflow.com/questions/18675610/jekyll-change-layout-if-page-is-a-post
 defaults:
@@ -18,6 +24,14 @@ defaults:
     values:
       is_post: true # automatically set is_post=true for all posts
       lang: en
+  -
+    scope:
+      path: ""
+      type: fa_posts
+    values:
+      is_post: true
+      lang: fa
+      layout: default
 
 kramdown: 
     auto_ids: true  # auto-generate ID's for headings

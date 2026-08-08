@@ -1,0 +1,43 @@
+fa:
+
+  meta:
+    description: دلتاچت - پیام‌رسان غیرمتمرکز و امن
+    keywords: دلتاچت, delta chat, چت‌میل, پیام‌رسان, دانلود دلتاچت
+    rss_news_title: اخبار دلتاچت
+
+  menu:
+    home: خانه
+    download: دانلود
+    blog: وبلاگ
+    contribute: مشارکت
+    help: راهنما
+    forum: انجمن
+
+  subscribe_to_feed: اشتراک در فید
+
+  references: منابع
+  donate: حمایت مالی
+  imprint: شناسه
+  privacy: سیاست حریم خصوصی
+  language: زبان
+
+  download:
+    other: گزینه‌های دانلود برای سایر پلتفرم‌ها
+    no_upgrades: گزینه‌های دانلود بدون به‌روزرسانی خودکار
+    source_code: کد منبع
+    outdated: قدیمی
+    minimum: حداقل نیازمندی‌ها
+    dl_flathub: دانلود از Flathub
+    dl_microsoft: دانلود از Microsoft Store
+    dl_mac_appstore: دانلود از Apple Mac App Store
+    dl_appstore: دانلود از Apple App Store
+    dl_fdroid: دریافت از F-Droid
+    gplay: دریافت از Google Play
+
+  help:
+    offline_hint: عجله دارید؟ می‌توانید این راهنما را هر زمان داخل برنامه و حتی بدون اینترنت با آرامش بخوانید.
+
+  blog:
+    read_on: ادامه مطلب…
+    older_posts: نوشته‌های قدیمی‌تر
+    by: نوشتهٔ

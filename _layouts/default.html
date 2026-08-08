@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{page.lang}}">
+<html lang="{{page.lang}}"{% if page.lang == 'fa' or page.lang == 'ar' %} dir="rtl"{% endif %}>
 {% assign tx = site.data.lang[page.lang][page.lang] %}
 {% assign txEn = site.data.lang['en']['en'] %}
 
@@ -49,7 +49,7 @@
 
 {% if page.is_post == true %}
 <h1>{{ page.title }}</h1>
-<p class="blogdate">{{ page.date | date: "%B %d, %Y" }} {% if page.author %}by {{ page.author }}{% endif %}</p>
+<p class="blogdate">{{ page.date | date: "%Y/%m/%d" }}{% if page.author %} {% if tx.blog.by != "" %}{{ tx.blog.by }}{% else %}{{ txEn.blog.by }}{% endif %} {{ page.author }}{% endif %}</p>
 {% endif %}
 
 {% if page.header != nil and page.header != "" %}

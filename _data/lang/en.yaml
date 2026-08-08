@@ -36,3 +36,8 @@ en:
 
   help:
     offline_hint: In a hurry? You can read this help relaxed at anytime within the app, also without internet.
+
+  blog:
+    read_on: Read on...
+    older_posts: Older posts
+    by: by

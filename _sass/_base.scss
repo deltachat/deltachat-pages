@@ -160,6 +160,95 @@ main ul, ol { margin-left: 1.5em; }
 main ul li { margin: 0.5em 0.2em; padding-left: 0.5em; }
 ol li { margin: 0.5em 0.2em; padding-left: 0.5em; }
 
+/* RTL (Persian / Arabic) */
+html[dir="rtl"] {
+    body {
+        font-family: Tahoma, "Segoe UI", Arial, Verdana, Helvetica, sans-serif;
+    }
+
+    nav, h1, h2, h3, h4, h5, h6 {
+        font-family: Tahoma, "Segoe UI", sans-serif;
+    }
+
+    /*
+     * Nav alignment for Persian only:
+     * - html[dir=rtl] reverses flex row and mis-orders logo vs items
+     * - inline logo bottom:-3px is tuned for Latin metrics and skews Persian text
+     * Keep header chrome in LTR order (logo left, items after) like other languages;
+     * page content below stays RTL.
+     */
+    nav {
+        direction: ltr;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.55em 0.85em;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav li {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+    }
+
+    nav li a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.35;
+        padding: 0.15em 0.2em;
+        white-space: nowrap;
+    }
+
+    nav li img {
+        display: block;
+        position: relative !important;
+        bottom: 0 !important;
+        margin: 0;
+    }
+
+    main ul, ol {
+        margin-left: 0;
+        margin-right: 1.5em;
+    }
+
+    main ul li, ol li {
+        padding-left: 0;
+        padding-right: 0.5em;
+    }
+
+    table th {
+        text-align: right;
+    }
+
+    .featured-image {
+        float: left;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    /* Flip inline floats used in homepage screenshots and blog images */
+    main img[style*="float: left"],
+    main img[style*="float:left"] {
+        float: right !important;
+    }
+    main img[style*="float: right"],
+    main img[style*="float:right"] {
+        float: left !important;
+    }
+}
+
 h1,h2 { font-weight: normal; font-size: 1.625rem; }
 h3 { color: #159957; }
 h4 { color: #159957; }

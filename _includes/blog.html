@@ -1,5 +1,14 @@
+{% assign tx = site.data.lang[page.lang][page.lang] %}
+{% assign txEn = site.data.lang['en']['en'] %}
 {% assign new_post_count = 12 %}
-{% for post in site.posts limit:new_post_count %}
+
+{% if page.lang == 'fa' %}
+  {% assign blog_posts = site.fa_posts | sort: 'date' | reverse %}
+{% else %}
+  {% assign blog_posts = site.posts %}
+{% endif %}
+
+{% for post in blog_posts limit:new_post_count %}
 <div class="post-box">
   <a href="..{{ post.url }}">
     {% if post.image %}
@@ -10,17 +19,17 @@
     <h2>{{ post.title }}</h2>
   </a>
   <p>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time> -
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y/%m/%d" }}</time> -
     {{ post.excerpt | strip_html }} 
-    <a href="..{{ post.url }}">Read on...</a>
+    <a href="..{{ post.url }}">{% if tx.blog.read_on != "" %}{{ tx.blog.read_on }}{% else %}{{ txEn.blog.read_on }}{% endif %}</a>
   </p>
 </div>
 {% endfor %}
-<h2>Older posts</h2>
-{% for post in site.posts offset:new_post_count %}
+<h2>{% if tx.blog.older_posts != "" %}{{ tx.blog.older_posts }}{% else %}{{ txEn.blog.older_posts }}{% endif %}</h2>
+{% for post in blog_posts offset:new_post_count %}
 <div>
 	<p>
-		<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y" }}</time> -
+		<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y/%m" }}</time> -
 		<a href="..{{ post.url }}">{{ post.title }}</a>
 	</p>
 </div>
