@@ -592,7 +592,7 @@ pots configurar els retransmissors a **Configuració → Avançat → Retransmis
 
 - Prem un retransmissor per establir-lo com a **utilitzat per enviar**.
 
-- If a relay is no longer working, you can **remove** it.
+- Si un retransmissor ja no funciona, el podeu **eliminar**.
 
 Per a més detalls i possibilitats futures dels retransmissors, pots seguir les discussions al [Fòrum](https://support.delta.chat).
 
