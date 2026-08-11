@@ -25,7 +25,7 @@ Delta Chat é unha aplicación de mensaxería instantánea fiable, descentraliza
   construído sobre [os estándares de Internet]({% include standards-url %}).
 
 
-### Como podo atopar xente coa que conversar?{#howtoe2ee}
+### Como podo atopar xente coa que conversar? {#howtoe2ee}
 
 Primeiro, ten en conta que Delta Chat é un mensaxeiro privado. Non hai descubrimento público, _ti_ decides sobre os teus contactos.
 
@@ -54,7 +54,7 @@ Se vos engadides mutuamente a [grupos](#groups), establecerase o cifrado de extr
 ### Por que unha conversa está marcada como "Solicitude"?
 
 Como mensaxeiro privado,
- só as amizades e a familia [con quen compartas o teu código QR ou enlace de invitación}(#howtoe2ee) poden escribirche.
+ só as amizades e a familia [con quen compartas o teu código QR ou enlace de invitación](#howtoe2ee) poden escribirche.
 
 As túas amizades poden compartir o teu contacto coas súas amizades,
  isto aparece como <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%">Solicitude</b>
@@ -296,7 +296,7 @@ Por esta razón, calquera pode eliminar a calquera persoa ou engadir novas.
   a través doutra conversa privada á outra persoa.
 
 O código QR e a ligazón de convite pódense usar para engadir a varias persoas.
-Con todo, como os grupos están pensados para persoas de confianza, evita compartilos publicamente.
+Con todo, como os grupos están [pensados para persoas de confianza](#grupos), evita compartilos publicamente.
 
 
 ### Borreime por accidente.
@@ -582,7 +582,7 @@ Delta Chat é unha ferramenta de mensaxería descentralizada, de balde e softwar
 Ten en conta que Delta Chat ten un [pequeno sistema de notificacións push que respecta a privacidade](#privacy-notifications)
 que consegue a "entrega instantánea" de mensaxes para todos os servidores de chatmail,
 incluíndo un potencial [que poderías configurar ti sen o noso permiso](https://delta.chat/chatmail#selfhosted).
-Dámosche a benvida ao poder da rede interoperable de reenvío de chatmail :)
+Dámosche a benvida ao poder da rede interoperable de repetidores de chatmail :)
 
 
 
@@ -684,7 +684,7 @@ Podes atopar máis información e dar a túa opinión no [Foro](https://support.
 ### Que son os repetidores? {#relays}
 
 Os repetidores úsanse para gardar mensaxes temporalmente no caso de que o teu dispositivo estea fóra de liña.
-Os reles son servidores baratos e simples,
+Os repetidores son servidores baratos e simples,
 que non gardan datos como os estados dos grupos, o teu nome ou o teu avatar -
 todo iso existe só no teu dispositivo.
 Os repetidores son operados por diferentes grupos e persoas.
@@ -701,7 +701,7 @@ podes configurar os repetidores en **Configuración → Avanzado → Repetidores
 
 - Preme nun repetidor para configuralo como **usado para enviar**.
 
-- If a relay is no longer working, you can **remove** it.
+- Se un repetidor non está funcionando, pode **eliminalo**.
 
 Para máis detalles e futuras posibilidades dos relevos, podes seguir as discusións no [Foro](https://support.delta.chat).
 
