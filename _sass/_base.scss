@@ -8,6 +8,8 @@ body, nav ul, nav ul li {
 }
 
 nav {
+    /* Keep logo→items order stable on RTL pages too */
+    direction: ltr;
     text-align: center;
     margin-bottom: 1em;
     padding: 8px 5px;
@@ -20,14 +22,26 @@ nav ul {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0.5em;
+    gap: 0.35em 0.75em;
 }
     
 nav li {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 
     a, a:visited {
         color: #fff;
+        display: inline-flex;
+        align-items: center;
+        padding: 0.15em 0.25em;
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+    img {
+        display: block;
+        position: relative !important;
+        bottom: 0 !important; /* inline -3px is tuned for Latin metrics */
     }
 }
 
@@ -36,18 +50,25 @@ main {
     padding: 0em 1em 0.5em 1em;	
 }	
 
-main p img {
+/* Normalize post/content images: size + float consistency */
+main img {
     max-width: 100% !important;
+    height: auto !important;
+}
+
+main p img {
     max-height: 600px; /*avoid portrait smartphone screenshots becoming too big*/
-    height: auto;
 }
 
 @media only screen and (max-width: 640px) {
-	main p img, iframe {
+	main p img, iframe, main img {
 	    float: none !important;
+	    display: block;
+	    margin-inline: auto !important;
+	    margin-block: 0.75em !important;
 	}
 	.post-box {
-	    margin-top: 4em;
+	    margin-top: 1.5em;
 	}
 }
 
@@ -66,15 +87,19 @@ footer a, footer a:visited {
 }
 
 .featured-image {
-    margin-top: 1em;
-    margin-bottom: -2em;
-	overflow: hidden;
-    max-height: 180px !important;
+    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+    overflow: hidden;
+    max-height: 180px;
     max-width: 270px;
+    border-radius: 4px;
 }
 
 .featured-image img {
-	width: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* larger font on homepage, may be removed or adapted whenever homepage changes */
@@ -106,10 +131,17 @@ footer a, footer a:visited {
     }
 
     .featured-image {
-        float: right;
+        float: inline-end;
         margin-top: 0;
         margin-bottom: 1em;
-        margin-left: 20px;
+        margin-inline-start: 20px;
+        margin-inline-end: 0;
+    }
+
+    /* Keep floated post images on the inline-end side with sane max size */
+    main img[style*="float"] {
+        max-width: min(100%, 280px) !important;
+        margin-block: 0.2em 0.8em !important;
     }
 
     #languages,
