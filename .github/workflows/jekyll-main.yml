@@ -28,7 +28,7 @@ jobs:
           persist-credentials: false
       - uses: cachix/install-nix-action@2126ae7fc54c9df00dd18f7f18754393182c73cd # v31.9.1
       - name: Build the site with Jekyll
-        run: nix build
+        run: nix build --print-build-logs
 
       - name: Upload
         run: |

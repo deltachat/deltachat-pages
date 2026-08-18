@@ -37,7 +37,7 @@ jobs:
         env:
           PR_ID: ${{github.event.pull_request.number}}
       - name: Build the site with Jekyll
-        run: nix build
+        run: nix build --print-build-logs
 
       - name: Upload preview
         run: |
