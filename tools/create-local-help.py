@@ -112,10 +112,13 @@ def generate_file(srcdir, destdir, lang, file, add_top_links, add_pagefind):
 
     content = read_file(srcdir + "/" + lang + "/" + file)
 
+    pattern = r'<html[^>]*?\bdir\s*=\s*["\']?rtl'
+    rtl_attr = ' dir="rtl" ' if re.search(pattern, content, re.IGNORECASE) else ''
+
     # remove boilerplate
     content = re.sub(r"^.*<main>.*<h1>.*?</h1>.*?<ul.*?>",
                        "<!DOCTYPE html>\n"
-                     + "<html lang=\"" + lang + "\">"
+                     + "<html lang=\"" + lang + "\"" + rtl_attr + ">"
                      +   "<head>"
                      +     "<meta charset=\"UTF-8\" />"
                      +     "<meta name=\"viewport\" content=\"initial-scale=1.0\" />"
