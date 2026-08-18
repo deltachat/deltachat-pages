@@ -1,9 +1,9 @@
 ---
-title: مرجع‌ها
+title: مراجع
 lang: fa
 ---
 
-# مرجع‌ها
+# مراجع
 
 > This list is not updated frequently.
 > You can find many more recent references and real-time streamed user voices on [the Fediverse](https://chaos.social/tags/deltachat).
