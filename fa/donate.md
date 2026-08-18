@@ -1,16 +1,16 @@
 ---
-title: اعانه
+title: حمایت
 lang: fa
 ---
 
-# اهدای پول
+# حمایت
 
-اعانه شما به شکل‌گیری آینده آزاد و متن‌باز ارتباطات خصوصی نامتمرکز
+حمایت شما به شکل‌گیری آینده آزاد و متن‌باز ارتباطات خصوصی نامتمرکز
 بدون نظارت، تبلیغات یا میلیاردر در میانه کمک می‌کند. 
 
-- اعانه از راه [Liberapay](https://liberapay.com/delta.chat/)
+- حمایت از راه [Liberapay](https://liberapay.com/delta.chat/)
 
-- اعانه از راه [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
+- حمایت از راه [Delta Chat Open Collective](https://opencollective.com/delta-chat/donate)
 
 - بیت‌کوین بفرستید به [bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk](bitcoin:bc1q8jyzyq9vfhzywvz3sgjx8qvfu88wuxmltg34tk)
 
