@@ -1,12 +1,11 @@
-/* reset
-*******************************************************************************/
-
-* {margin:0;padding:0}
-
-
 
 /* rough layout: mobile first 
 *******************************************************************************/
+
+body, nav ul, nav ul li {
+    margin: 0;
+    padding: 0;
+}
 
 nav {
     text-align: center;
@@ -156,10 +155,6 @@ nav, h1, h2, h3, h4, h5, h6 {
     font-family: Tahoma, sans-serif;
 }
 
-main ul, ol { margin-left: 1.5em; }
-main ul li { margin: 0.5em 0.2em; padding-left: 0.5em; }
-ol li { margin: 0.5em 0.2em; padding-left: 0.5em; }
-
 h1,h2 { font-weight: normal; font-size: 1.625rem; }
 h3 { color: #159957; }
 h4 { color: #159957; }
@@ -178,7 +173,7 @@ time {
 }
 
 code, pre, blockquote { background-color: #eee; overflow-x: scroll;}
-pre, blockquote { padding: 2px 1em; }
+pre, blockquote { margin: 0; padding: 2px 1em; }
 blockquote { font-style: italic; }
 
 code {
