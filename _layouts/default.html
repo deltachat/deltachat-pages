@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{page.lang}}">
+<html lang="{{page.lang}}" {% if page.lang == "fa" %}dir="rtl"{% endif %}>
 {% assign tx = site.data.lang[page.lang][page.lang] %}
 {% assign txEn = site.data.lang['en']['en'] %}
 
