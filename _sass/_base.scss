@@ -201,16 +201,25 @@ table {
 }
 
 .socials {
+    /* Brand labels are Latin (RSS/Mastodon); keep icon→label order even on RTL pages */
     display: inline-flex;
+    direction: ltr;
+    unicode-bidi: isolate;
+    justify-content: center;
+    align-items: center;
     gap: 12px;
+    margin-block: 1em;
 
     a {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         gap: 8px;
+        line-height: 1;
 
         img {
+            display: block;
             height: 1em;
+            width: auto;
         }
     }
 }
