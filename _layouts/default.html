@@ -38,7 +38,6 @@
 <li><a href="blog">{%if tx.menu.blog != ""%}{{ tx.menu.blog }}{%else%}{{ txEn.menu.blog }}{%endif%}</a></li>
 <li><a href="contribute">{%if tx.menu.contribute != ""%}{{ tx.menu.contribute }}{%else%}{{ txEn.menu.contribute }}{%endif%}</a></li>
 <li><a href="help">{%if tx.menu.help != ""%}{{ tx.menu.help }}{%else%}{{ txEn.menu.help }}{%endif%}</a></li>
-<li><a href="https://support.delta.chat">{%if tx.menu.forum != ""%}{{ tx.menu.forum }}{%else%}{{ txEn.menu.forum }}{%endif%}</a></li>
 </ul>
 </nav>
 </header>
@@ -80,7 +79,7 @@
 
 <footer>
 <p>
-    <a href="references">{%if tx.references != ""%}{{ tx.references }}{%else%}{{ txEn.references }}{%endif%}</a>
+    <a href="https://support.delta.chat">{%if tx.menu.forum != ""%}{{ tx.menu.forum }}{%else%}{{ txEn.menu.forum }}{%endif%}</a>
     | <a href="https://github.com/deltachat/">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
     | <a href="donate">{%if tx.donate != ""%}{{ tx.donate }}{%else%}{{ txEn.donate }}{%endif%}</a>
     | <a href="imprint">{%if tx.imprint != ""%}{{ tx.imprint }}{%else%}{{ txEn.imprint }}{%endif%}</a>
