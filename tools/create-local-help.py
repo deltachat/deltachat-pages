@@ -203,7 +203,7 @@ def generate_help(srcdir, destdir, add_top_links, add_pagefind):
         print("copy " + srcfile + " to " + destfile)
         copyfile(srcfile, destfile)
 
-    languages = ["cs", "de", "en", "es", "eu", "fr", "id", "it", "pl", "pt", "nl", "ru", "sk", "sq", "uk", "zh_CN"]
+    languages = ["cs", "de", "en", "es", "eu", "fa", "fr", "id", "it", "pl", "pt", "nl", "ru", "sk", "sq", "uk", "zh_CN"]
     for lang in languages:
         generate_lang(srcdir, destdir, lang, add_top_links, add_pagefind)
 

@@ -11,7 +11,7 @@ lang: fa
 
 🥳 [مینی برنامه‌های تعاملی تحت وب](https://webxdc.org/) در چت برای بازی کردن و همکاری
 
-🔒[رمزنگاری سراسری بررسی شده از لحاظ فنی](help#security-audits) که در مقابل حمله‌های شبکه و کارساز امن است.
+🔒 [رمزنگاری سراسری بررسی شده از لحاظ فنی](help#security-audits) که در مقابل حمله‌های شبکه و کارساز امن است.
 
 👈 نرم‌افزار [آزاد](https://fa.wikipedia.org/wiki/نرم‌افزار_آزاد) و [متن‌باز](https://fa.wikipedia.org/wiki/نرم‌افزار_متن‌باز) که بر روی [استاندارد‌های اینترنت](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md) ساخته شده تا از [xkcd927](https://xkcd.com/927/) جلوگیری کند :)
 
