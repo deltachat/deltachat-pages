@@ -1,6 +1,6 @@
 
 function getLanguageFolder() {
-  var supported = ['id', 'ca', 'cs', 'de', 'es', 'eu', 'fr', 'gl', 'it', 'nl',
+  var supported = ['id', 'ca', 'cs', 'de', 'es', 'eu', 'fa', 'fr', 'gl', 'it', 'nl',
                    'pl', 'pt', 'pt_BR', 'sq', 'sk', 'tr', 'ru', 'uk', 'zh_CN'];
 
   var desired = navigator.language || navigator.userLanguage;
