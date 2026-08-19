@@ -32,6 +32,7 @@ nl:
     dl_mac_appstore: Installeren via de Apple App Store (macOS)
     dl_appstore: Installeren via de Apple App Store (iOS)
     dl_fdroid: Installeren via F-Droid
+    dl_ghs: Installeren via GitHub Store
     gplay: Installeren via Google Play
 
   help:

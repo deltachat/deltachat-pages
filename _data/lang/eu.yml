@@ -32,6 +32,7 @@ eu:
     dl_mac_appstore: Deskargatu Apple Mac App Store-n
     dl_appstore: Deskargatu Apple AppStore-n
     dl_fdroid: Lortu F-Droid-en
+    dl_ghs: Lortu GitHub Store-en
     gplay: Lortu Google Play-n
 
   help:
