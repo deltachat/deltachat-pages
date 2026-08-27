@@ -6,12 +6,10 @@ lang: en
 # Decentralized & Secure Messaging {#homepage-heading}
 
 <div style="text-align: center">
-<a href="https://get.delta.chat">
 <picture>
 <source srcset="../assets/home/screenshots/desktop-and-mobile-thumbnail.webp" type="image/webp" />
 <img src="../assets/home/screenshots/desktop-and-mobile.png" style="width:500px; max-width:100%; height:auto;" alt="A screenshot of Delta Chat on Desktop and Mobile" />
 </picture>
-</a>
 </div>
 
 <p style="text-align: center; margin-top: 0!important">
