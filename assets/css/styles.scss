@@ -17,3 +17,15 @@
 main h1:hover .anchor::before {
 	content: unset;
 }
+
+.download-btn, .download-btn:hover, .download-btn:visited {
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+	margin: 10px 0;
+
+	background: #364e59;
+	color: white !important;
+	font-weight: bold;
+	text-decoration: none;
+}
