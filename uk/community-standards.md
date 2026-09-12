@@ -3,12 +3,17 @@ title: Стандарти спільноти
 lang: uk
 ---
 
-# Стандарти спільноти Delta Chat
+# Community Standards
 
-В інтересах сприяння відкритому та доброзичливому середовищу ми як учасники та супроводжувачі прагнемо зробити участь у спільноті Delta Chat приємним досвідом без переслідувань.
+In the interest of fostering an open and welcoming environment,
+we as contributors and maintainers strive to make participation
+in our communities a pleasurable, harassment-free experience.
 
+We also recognize that authentic human-to-human collaboration and
+collective maintenance of our repositories are key to keeping
+our development sustainable and resilient.
 
-## Наші стандарти
+## Participation Standards
 
 Приклади поведінки, які сприяють створенню позитивного середовища, включають:
 
@@ -25,16 +30,70 @@ lang: uk
 * Публічне чи приватне переслідування 
 * Публікація приватної інформації інших, наприклад фізичної чи електронної адреси без явного дозволу
 
-Ми усвідомлюємо, що іноді люди можуть мати поганий день або можуть не знати про вплив їхньої поведінки. Коли це станеться, ви можете обережно нагадати їм про це публічно чи приватно, залежно від того, що більше підходить. Припускаючи добросовісність, більш імовірно, що учасники не знають, ніж навмисно намагаються очорнити інших або знизити якість обговорення.
+We recognize that sometimes people may have a bad day, or may be unaware of
+the impact of their behavior. When that happens, you may carefully remind
+them in public or private, whatever is more appropriate. Assume good faith;
+it's more likely that participants are unaware than that they are intentionally
+trying to denigrate others or reduce the quality of discussion.
+
+
+## Collective Maintenance Standards
+
+Our organizational repositories are collectively maintained, not individually owned.
+To avoid and mitigate single points of knowledge and control,
+we encourage everyone to find and educate other maintainers
+to share knowledge and maintenance responsibilities.
+
+All contributions must be human-authored,
+and fully understood and maintained by the contributors through
+
+- writing all pull request, issue descriptions,
+  comments, documentation and commit messages by hand,
+
+- performing extensive self-review
+  and taking full responsibility for submissions,
+
+- caring for clarity and minimalism to ease the job of reviewers
+  who accept changes into collective maintenance,
+
+- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+
+If LLMs were used in any substantial way,
+contributors are invited to write in their own words how they made use of them.
+Automated "assisted/co-authored-by" trailers
+naming generative tools or models are discouraged
+as they do not properly disclose how those tools were used
+and provide free advertisement for a toxic billionaire-dominated industry.
+
+In specific cases,
+maintainers may agree to configure bots (such as "dependabot")
+to automatically generate pull requests.
+However, these changes must never be automatically merged
+and always require strict human review before merging.
 
 
 ## Супроводжувачі та їх обов'язки
 
-Супроводжувачі проекту — це ті, хто має права на комміт до репозиторіїв Delta Chat або адміністративні права на канали зв’язку спільноти. Кожного супроводжувача просять взяти на себе обов'язки відповідно і обережно діяти у відповідь на очевидні випадки сумнівної поведінки. Супроводжувачі проекту мають право та обов'язок видаляти, редагувати або відхиляти коментарі, коміти, код, редагування вікі, проблеми та інші внески які не відповідають нашим стандартам. Вони також можуть тимчасово або назавжди забанити учасника за іншу поведінку, яку вони вважають невідповідною, загрозливою, образливою або шкідливою.
+Project maintainers are those with commit rights to collective repositories
+or administrative rights to community communication channels.
+Each maintainer is asked to take responsibility and appropriate, careful action
+in response to witnessed instances of questionable behavior.
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned with our standards or do not match current project plans.
+They may also ban temporarily or permanently a contributor for
+other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+
 
 ## Сфера застосування
 
-Наші стандарти спільноти застосовуються як до каналів комунікації проекту, так і до зібрань у громадських місцях коли особа представляє проект або його спільноту. Приклади представлення проекту чи спільноти включає використання офіційної електронної пошти проекту, опублікування повідомлення через офіційний обліковий запис у соціальних мережах або діючи як представник на онлайн- чи офлайн-заході.
+Our Community Standards apply to project repositories, communication channels, and gatherings,
+as well as to public spaces,
+when an individual is representing the project or its community.
+Examples of representing a project or community include using an official project e-mail
+address, posting via a social media account associated with the project,
+or acting as a representative at an online or offline event.
+
 
 ## Повідомлення та реакція
 
@@ -45,4 +104,5 @@ lang: uk
 
 ## Атрибуція
 
-Наш документ про стандарти спільноти адаптовано з [Угоди учасника](https://contributor-covenant.org), версія 1.4, що доступний за адресою <https://contributor-covenant.org/version/1/4>
+Наш документ про стандарти спільноти адаптовано з [Угоди учасника](https://contributor-covenant.org), версія 1.4, що доступний за адресою <https://contributor-covenant.org/version/1/4>,
+with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
