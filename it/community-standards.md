@@ -3,14 +3,17 @@ titolo: Norme Comunitarie
 lang: it
 ---
 
-# Standards Comunità Delta Chat
+# Community Standards
 
-Nell'interesse di promuovere un ambiente aperto e accogliente, noi come
-contributori e manutentori ci sforziamo di rendere la partecipazione nelle comunità Delta Chat
-un'esperienza piacevole, priva di molestie.
+In the interest of fostering an open and welcoming environment,
+we as contributors and maintainers strive to make participation
+in our communities a pleasurable, harassment-free experience.
 
+We also recognize that authentic human-to-human collaboration and
+collective maintenance of our repositories are key to keeping
+our development sustainable and resilient.
 
-## I Nostri Standards
+## Participation Standards
 
 Esempi di comportamenti che contribuiscono a creare un ambiente positivo includono:
 
@@ -27,32 +30,70 @@ Esempi di comportamenti che chiediamo a tutti di evitare includono:
 * Molestie pubbliche o private
 * Pubblicazione di informazioni private altrui, come un indirizzo fisico o elettronico, senza esplicita autorizzazione
 
-Sappiamo che a volte le persone possono avere una brutta giornata o non essere consapevoli
-del'impatto del loro comportamento. Quando ciò accade, potete ricordarglielo con attenzione
-in pubblico o in privato, a seconda di come è più appropriato. Presupponete la buona fede;
-è più probabile che i partecipanti non ne siano consapevoli piuttosto che cercare intenzionalmente
-di denigrare gli altri o di ridurre la qualità della discussione.
+We recognize that sometimes people may have a bad day, or may be unaware of
+the impact of their behavior. When that happens, you may carefully remind
+them in public or private, whatever is more appropriate. Assume good faith;
+it's more likely that participants are unaware than that they are intentionally
+trying to denigrate others or reduce the quality of discussion.
+
+
+## Collective Maintenance Standards
+
+Our organizational repositories are collectively maintained, not individually owned.
+To avoid and mitigate single points of knowledge and control,
+we encourage everyone to find and educate other maintainers
+to share knowledge and maintenance responsibilities.
+
+All contributions must be human-authored,
+and fully understood and maintained by the contributors through
+
+- writing all pull request, issue descriptions,
+  comments, documentation and commit messages by hand,
+
+- performing extensive self-review
+  and taking full responsibility for submissions,
+
+- caring for clarity and minimalism to ease the job of reviewers
+  who accept changes into collective maintenance,
+
+- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+
+If LLMs were used in any substantial way,
+contributors are invited to write in their own words how they made use of them.
+Automated "assisted/co-authored-by" trailers
+naming generative tools or models are discouraged
+as they do not properly disclose how those tools were used
+and provide free advertisement for a toxic billionaire-dominated industry.
+
+In specific cases,
+maintainers may agree to configure bots (such as "dependabot")
+to automatically generate pull requests.
+However, these changes must never be automatically merged
+and always require strict human review before merging.
 
 
 ## Manutentori e Responsabilità
 
-I manutentori del progetto sono coloro che hanno i diritti di compiere sui depositi di Delta Chat o i diritti di amministrazione sui canali di comunicazione della comunità.
-A ogni manutentore viene chiesto di assumersi la responsabilità e di agire in modo appropriato e attento
-in risposta a casi testimoniati di comportamento discutibile.
-I manutentori del progetto hanno il diritto e la responsabilità di rimuovere, modificare o
- rifiutare commenti, impegni, codice, modifiche al wiki, questioni e altri contributi
-che non sono in linea con i nostri standards.
-Possono anche bannare temporaneamente o permanentemente un collaboratore per
-altri comportamenti che ritengono inappropriati, minacciosi, offensivi o dannosi.
+Project maintainers are those with commit rights to collective repositories
+or administrative rights to community communication channels.
+Each maintainer is asked to take responsibility and appropriate, careful action
+in response to witnessed instances of questionable behavior.
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned with our standards or do not match current project plans.
+They may also ban temporarily or permanently a contributor for
+other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+
 
 ## Ambito
 
-I nostri Standard Comunitari si applicano sia all'interno dei canali di comunicazione del progetto e degli
-incontri del progetto, ma anche negli spazi pubblici
-quando un individuo rappresenta il progetto o la sua comunità. Esempi di
-rappresentare un progetto o una comunità sono, ad esempio, l'utilizzo di un indirizzo e-mail ufficiale del progetto,
-la pubblicazione di un profilo ufficiale sui social media o e-mail ufficiale del progetto, postare tramite un profilo ufficiale sui social media o agire in qualità di
-rappresentante a un evento online o offline.
+Our Community Standards apply to project repositories, communication channels, and gatherings,
+as well as to public spaces,
+when an individual is representing the project or its community.
+Examples of representing a project or community include using an official project e-mail
+address, posting via a social media account associated with the project,
+or acting as a representative at an online or offline event.
+
 
 ## Rapporti e Risposte
 
@@ -71,4 +112,5 @@ come stabilito da altri manutentori.
 ## Attribuzione
 
 Il nostro documento sugli Standard della Comunità è adattato dal [Patto dei Collaboratori](https://contributor-covenant.org), versione 1.4,
-disponibile all'indirizzo <https://contributor-covenant.org/version/1/4>
+disponibile all'indirizzo <https://contributor-covenant.org/version/1/4>,
+with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.

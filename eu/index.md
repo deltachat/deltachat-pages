@@ -3,7 +3,18 @@ title: Delta Chat, mezularitza seguru deszentralizatua
 lang: eu
 ---
 
-# Delta Chat mezularitza-aplikazio deszentralizatu eta segurua da {#homepage-heading}
+# Decentralized & Secure Messaging {#homepage-heading}
+
+<div style="text-align: center">
+<picture>
+<source srcset="../assets/home/screenshots/desktop-and-mobile-thumbnail.webp" type="image/webp" />
+<img src="../assets/home/screenshots/desktop-and-mobile.png" style="width:500px; max-width:100%; height:auto;" alt="A screenshot of Delta Chat on Desktop and Mobile" />
+</picture>
+</div>
+
+<p style="text-align: center; margin-top: 0!important">
+<a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
+</p>
 
 💬 Berehalako mezularitza fidagarria, profil anitzeko eta gailu anitzeko euskarriarekin
 
@@ -14,36 +25,3 @@ lang: eu
 🔒 [Muturretik muturrerako zifratze auditatua](help#security-audits); segurua da sarearen edo zerbitzariaren kontrako erasoen aurka
 
 👉 [F](https://eu.wikipedia.org/wiki/Software_libre)[OSS](https://eu.wikipedia.org/wiki/Kode_irekiko_software) softwarea, [Interneteko estandarretan](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md) oinarritua, [xkcd927](https://xkcd.com/927/) saihestuz :)
-
-<div>
-<a href="../assets/home/screenshots/android1.png">
-<picture>
-<source srcset="../assets/home/screenshots/android1-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/android1-thumbnail.png" width="136" height="242" alt="A screenshot of Delta Chat on Android showing chat list" />
-</picture>
-</a>
-<a href="../assets/home/screenshots/android2.png">
-<picture>
-<source srcset="../assets/home/screenshots/android2-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/android2-thumbnail.png" width="136" height="242" alt="A screenshot of Delta Chat on Android showing a chat" />
-</picture>
-</a>
-<a href="../assets/home/screenshots/desktop.png">
-<picture>
-<source srcset="../assets/home/screenshots/desktop-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/desktop-thumbnail.png" width="305" height="242" alt="A screenshot of Delta Chat on desktop" />
-</picture>
-</a>
-<a href="../assets/home/screenshots/ios.png">
-<picture>
-<source srcset="../assets/home/screenshots/ios-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/ios.png" width="124" height="242" alt="A screenshot of Delta Chat on iOS" />
-</picture>
-</a>
-</div>
-
-[Deskargatu](https://get.delta.chat){: .cta-button}
-
-Mugikorrean eta ordenagailuan eskuragarri.
-
-

@@ -3,7 +3,18 @@ title: Delta Chat, Dezentralisierter, sicherer Messenger
 lang: de
 ---
 
-# Delta Chat ist ein dezentralisierter und sicherer Messenger {#homepage-heading}
+# Decentralized & Secure Messaging {#homepage-heading}
+
+<div style="text-align: center">
+<picture>
+<source srcset="../assets/home/screenshots/desktop-and-mobile-thumbnail.webp" type="image/webp" />
+<img src="../assets/home/screenshots/desktop-and-mobile.png" style="width:500px; max-width:100%; height:auto;" alt="A screenshot of Delta Chat on Desktop and Mobile" />
+</picture>
+</div>
+
+<p style="text-align: center; margin-top: 0!important">
+<a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
+</p>
 
 💬 Zuverlässiges Instant-Messaging mit Unterstützung für mehrere Profile und mehrere Geräte
 
@@ -14,36 +25,3 @@ lang: de
 🔒 [Geprüfte Ende-zu-Ende-Verschlüsselung](help#security-audits), sicher gegen Netzwerk- und Serverangriffe
 
 👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software)-Software, basierend auf [Internet-Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), [xkcd927](https://xkcd.com/927/) vermeidend :)
-
-<div>
-<a href="../assets/home/screenshots/android1.png">
-<picture>
-<source srcset="../assets/home/screenshots/android1-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/android1-thumbnail.png" width="136" height="242" alt="A screenshot of Delta Chat on Android showing chat list" />
-</picture>
-</a>
-<a href="../assets/home/screenshots/android2.png">
-<picture>
-<source srcset="../assets/home/screenshots/android2-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/android2-thumbnail.png" width="136" height="242" alt="A screenshot of Delta Chat on Android showing a chat" />
-</picture>
-</a>
-<a href="../assets/home/screenshots/desktop.png">
-<picture>
-<source srcset="../assets/home/screenshots/desktop-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/desktop-thumbnail.png" width="305" height="242" alt="A screenshot of Delta Chat on desktop" />
-</picture>
-</a>
-<a href="../assets/home/screenshots/ios.png">
-<picture>
-<source srcset="../assets/home/screenshots/ios-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/ios.png" width="124" height="242" alt="A screenshot of Delta Chat on iOS" />
-</picture>
-</a>
-</div>
-
-[Herunterladen](https://get.delta.chat){: .cta-button}
-
-Verfügbar auf Mobil- und Desktopgeräten.
-
-

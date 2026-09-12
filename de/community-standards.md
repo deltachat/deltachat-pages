@@ -3,12 +3,17 @@ title: Delta-Chat-Gemeinschaftsstandards
 lang: de
 ---
 
-# Delta-Chat-Gemeinschaftsstandards
+# Community Standards
 
-Im Interesse der Förderung eines offenen und einladenden Umfelds sind wir als Mitwirkende und Projektbetreiber bestrebt die Teilnahme an der Delta-Chat-Gemeinschaft zu einer angenehmen, belästigungsfreien Erfahrung zu machen.
+In the interest of fostering an open and welcoming environment,
+we as contributors and maintainers strive to make participation
+in our communities a pleasurable, harassment-free experience.
 
+We also recognize that authentic human-to-human collaboration and
+collective maintenance of our repositories are key to keeping
+our development sustainable and resilient.
 
-## Unsere Standards
+## Participation Standards
 
 Beispiele für Verhaltensweisen, die zur Schaffung eines positiven Umfelds beitragen, sind:
 
@@ -25,16 +30,70 @@ Beispiele für Verhaltensweisen, die wir zu vermeiden bitten, sind:
 * Öffentliche oder private Belästigung
 * Veröffentlichung privater Informationen anderer, wie z.B. einer physischen oder elektronischen Adresse, ohne ausdrückliche Erlaubnis
 
-Wir wissen, dass Menschen manchmal einen schlechten Tag haben oder sich der Auswirkungen ihres ihres Verhaltens nicht bewusst sind. Wenn dies der Fall ist, können Sie sie vorsichtig daran erinnern, öffentlich oder unter vier Augen, je nachdem, was angemessener ist. Gehen Sie von gutem Willen aus - es ist wahrscheinlicher, dass die Teilnehmer sich dessen nicht bewusst sind, als dass sie absichtlich versuchen, andere zu verunglimpfen oder die Qualität der Diskussion zu mindern.
+We recognize that sometimes people may have a bad day, or may be unaware of
+the impact of their behavior. When that happens, you may carefully remind
+them in public or private, whatever is more appropriate. Assume good faith;
+it's more likely that participants are unaware than that they are intentionally
+trying to denigrate others or reduce the quality of discussion.
+
+
+## Collective Maintenance Standards
+
+Our organizational repositories are collectively maintained, not individually owned.
+To avoid and mitigate single points of knowledge and control,
+we encourage everyone to find and educate other maintainers
+to share knowledge and maintenance responsibilities.
+
+All contributions must be human-authored,
+and fully understood and maintained by the contributors through
+
+- writing all pull request, issue descriptions,
+  comments, documentation and commit messages by hand,
+
+- performing extensive self-review
+  and taking full responsibility for submissions,
+
+- caring for clarity and minimalism to ease the job of reviewers
+  who accept changes into collective maintenance,
+
+- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+
+If LLMs were used in any substantial way,
+contributors are invited to write in their own words how they made use of them.
+Automated "assisted/co-authored-by" trailers
+naming generative tools or models are discouraged
+as they do not properly disclose how those tools were used
+and provide free advertisement for a toxic billionaire-dominated industry.
+
+In specific cases,
+maintainers may agree to configure bots (such as "dependabot")
+to automatically generate pull requests.
+However, these changes must never be automatically merged
+and always require strict human review before merging.
 
 
 ## Projektbetreiber und Verantwortlichkeiten
 
-Projektbetreuer sind diejenigen, die Schreibrechte für Delta-Chat-Repositorys oder administrative Rechte für die Kommunikationskanäle der Gemeinschaft haben. Jeder Projektbetreuer wird gebeten, Verantwortung zu übernehmen und angemessene, sorgfältige Maßnahmen zu ergreifen als Reaktion auf beobachtete Fälle von fragwürdigem Verhalten. Projektbetreuer haben das Recht und die Verantwortung, Kommentare, Commits, Code, Wiki-Bearbeitungen, Issues, Fehlermeldungen und andere Beiträge, die nicht mit unseren Standards übereinstimmen, zu löschen, zu bearbeiten oder abzuweisen. Sie können Contributor auch vorübergehend oder dauerhaft sperren, für Verhaltensweisen, die sie als unangemessen, bedrohlich, beleidigend oder schädlich erachten.
+Project maintainers are those with commit rights to collective repositories
+or administrative rights to community communication channels.
+Each maintainer is asked to take responsibility and appropriate, careful action
+in response to witnessed instances of questionable behavior.
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned with our standards or do not match current project plans.
+They may also ban temporarily or permanently a contributor for
+other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+
 
 ## Umfang
 
-Unsere Gemeinschaftsstandards gelten sowohl innerhalb der Projektkommunikationskanäle und Versammlungen als auch im öffentlichen Raum, wenn eine Person das Projekt oder seine Gemeinschaft repräsentiert. Beispiele für Repräsentation eines Projekts oder einer Gemeinschaft ist beispielsweise die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Posten über ein offizielles Social-Media-Konto oder das Auftreten als Vertreter bei einer Online- oder Offline-Veranstaltung.
+Our Community Standards apply to project repositories, communication channels, and gatherings,
+as well as to public spaces,
+when an individual is representing the project or its community.
+Examples of representing a project or community include using an official project e-mail
+address, posting via a social media account associated with the project,
+or acting as a representative at an online or offline event.
+
 
 ## Melden und Bearbeitung
 
@@ -45,4 +104,5 @@ Die Projektbetreuer sind gegenüber dem Berichterstatter eines Vorfalls zur Vert
 
 ## Dank
 
-Unsere Gemeinschaftsstandards basieren auf [Contributor Covenant](https://contributor-covenant.org), Version 1.4, verfügbar auf <https://contributor-covenant.org/version/1/4>
+Unsere Gemeinschaftsstandards basieren auf [Contributor Covenant](https://contributor-covenant.org), Version 1.4, verfügbar auf <https://contributor-covenant.org/version/1/4>,
+with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
