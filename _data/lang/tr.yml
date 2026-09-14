@@ -32,6 +32,7 @@ tr:
     dl_mac_appstore: Apple Mac App Store'dan indir
     dl_appstore: Apple App Store'dan indir
     dl_fdroid: F-Droid'den indir
+    dl_ghs: GitHub Store'dan indir
     gplay: Google Play'den alın
 
   help:

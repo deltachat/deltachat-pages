@@ -32,6 +32,7 @@ fr:
     dl_mac_appstore: Télécharger depuis l'Apple Mac Appstore
     dl_appstore: Télécharger depuis l'Apple AppStore
     dl_fdroid: Obtenez-le sur F-Droid
+    dl_ghs: Obtenez-le sur GitHub Store
     gplay: Obtenez-le sur Google Play
 
   help:
