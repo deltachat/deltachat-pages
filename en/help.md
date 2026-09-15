@@ -792,7 +792,7 @@ weekly statistics will be automatically sent to a bot.
 
 We are interested e.g. in statistics like:
 
-- How many contacts are introduced by personally scanning a QR code?
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - Which versions of Delta Chat are being used?
 
@@ -846,23 +846,25 @@ Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-A contact profile might show a green checkmark
+Older Delta Chat versions showed a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line.
-Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by a another green-checkmarked contact.
-Introductions happen automatically when adding members to groups. 
-Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
-becomes an introducer. 
-In a contact profile you can tap on the "Introduced by ..." text repeatedly
-until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
+and an "Introduced by" line in some contact profiles.
 
-For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-and specifically read about "Verified Groups", the technical term
-of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
 
