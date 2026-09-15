@@ -792,7 +792,7 @@ weekly statistics will be automatically sent to a bot.
 
 We are interested e.g. in statistics like:
 
-- How many contacts are introduced by personally scanning a QR code?
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - Which versions of Delta Chat are being used?
 
@@ -846,23 +846,18 @@ Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What does the green checkmark in a contact profile mean? {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-A contact profile might show a green checkmark
+Older Delta Chat versions showed a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line.
-Every green-checkmarked contact either did a direct [QR-scan](#howtoe2ee) with you
-or was introduced by a another green-checkmarked contact.
-Introductions happen automatically when adding members to groups. 
-Whoever adds a green-checkmarked contact to a group with only green-checkmarked members 
-becomes an introducer. 
-In a contact profile you can tap on the "Introduced by ..." text repeatedly
-until you get to the one with whom you directly did a [QR-scan](#howtoe2ee).
-
-For more in-depth discussion of "guaranteed end-to-end encryption"
-please see [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-and specifically read about "Verified Groups", the technical term
-of what is called here "green-checkmarked" or "guaranteed end-to-end encrypted" chats.
+and an "Introduced by" line in some contact profiles.
+This line is no longer present because
+since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+a contact simply "is" its key, there is no binding to an email address to confirm,
+and the checkmark was eventually dropped.
+[Scanning a QR code or opening an invite link](#howtoe2ee)
+is still how you start a chat,
+and you can still [see that messages are end-to-end encrypted](#whene2e).
 
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
 
