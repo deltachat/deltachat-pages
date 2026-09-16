@@ -262,8 +262,7 @@ Chat profiles on other devices will continue to fully function.
 
 If you use a single default chat profile you can simply uninstall the app.
 This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-or the respective page from your chosen [3rd party chatmail server](https://chatmail.at/relays).
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## Groups {#groups}
@@ -717,7 +716,7 @@ that do not store data as group states, your name or avatar -
 all that exist only on your device.
 Relays are operated by different groups and people.
 
-By default, after installation, a relay is **automatically set up**,
+By default, after installation, relays are **automatically set up**,
 so you do not need to care about that.
 However, if you want to,
 you can configure relays at **Settings → Advanced → Relays**:
@@ -727,12 +726,7 @@ you can configure relays at **Settings → Advanced → Relays**:
   If you have multiple relays, you will receive messages on all of them.
   Contacts learn your current relays automatically when you message them.
 
-- Tap on a relay to set it as **used for sending**.
-
 - If a relay is no longer working, you can **remove** it.
-
-For more details and future possibilities of relays,
-you can follow discussions in the [Forum](https://support.delta.chat).
 
 
 ### Can I use a classic email address with Delta Chat?
