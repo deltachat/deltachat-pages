@@ -1,6 +1,6 @@
 ---
 title: Privacy policy website
-lang: en
+lang: pt_BR
 ---
 
 # Website Privacy Policy
