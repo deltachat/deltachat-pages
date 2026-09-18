@@ -108,7 +108,7 @@ The privacy policy can be found under [https://www.discourse.org/privacy](https:
 
 ## 5. Social media appearance
 
-Delta.chat runs profiles on social networks – in particular on [Twitter](https://twitter.com/delta_chat?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [YouTube](https://www.youtube.com/results?search_query=delta+chat) and [Mastodon](https://chaos.social/@delta).
+Delta.chat runs profiles on social networks – in particular on [YouTube](https://www.youtube.com/results?search_query=delta+chat) and [Mastodon](https://chaos.social/@delta).
 
 Social networks can generally analyze your user behavior on a broad scale. This applies if you use the social networks to visit our social media sites. Site operators can record your visit and assign it to your user account. Even if you are not logged in, a collection may be possible, for example via your IP address, browser details or through the use of cookies.
 
