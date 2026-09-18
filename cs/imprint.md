@@ -17,6 +17,4 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Managing Director: Holger Krekel
 
-[Komunitní kanály](contribute)
-
-E-mailový seznam je provozován pomocí <https://github.com/codespeaknet/sysadmin>.
+[Website Privacy Policy](gdpr-website)

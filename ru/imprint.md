@@ -17,6 +17,4 @@ Delta Chat - это [проект сообщества с открытым ис�
 Налоговый номер: DE814082730  
 Управляющий директор: Holger Krekel
 
-[Каналы сообществ](contribute)
-
-Сервер почтовой рассылки управляется через <https://github.com/codespeaknet/sysadmin>.
+[Website Privacy Policy](gdpr-website)

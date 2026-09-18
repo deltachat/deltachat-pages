@@ -17,6 +17,4 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Drejtor Ekzekutiv: Holger Krekel
 
-[Community channels](jepni ndihmesë)
-
-Shërbyesi i listave të postimeve përdoret përmes <https://github.com/codespeaknet/sysadmin>.
+[Website Privacy Policy](gdpr-website)

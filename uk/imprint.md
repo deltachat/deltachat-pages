@@ -17,6 +17,4 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730
 Керуючий директор: Holger Krekel
 
-[Спільнота](contribute)
-
-Сервер розсилок <https://github.com/codespeaknet/sysadmin>.
+[Website Privacy Policy](gdpr-website)

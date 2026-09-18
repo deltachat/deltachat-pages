@@ -17,6 +17,4 @@ Sąd rejonowy Freiburg: HRB709589
 VAT: DE814082730  
 Dyrektor zarządzający: Holger Krekel
 
-[Kanały społecznościowe](contribute)
-
-Serwer list dyskusyjnych obsługiwany jest przez <https://github.com/codespeaknet/sysadmin>.
+[Website Privacy Policy](gdpr-website)
