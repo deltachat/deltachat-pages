@@ -17,6 +17,4 @@ Amtsgericht Freiburg: HRB709589
 USt-IdNr.: DE814082730  
 Geschäftsführer: Holger Krekel
 
-[Kontaktkanäle](contribute)
-
-Der Mailinglisten-Server wird verwaltet durch <https://github.com/codespeaknet/sysadmin>.
+[Datenschutzerklärung Internetseite](gdpr-website)

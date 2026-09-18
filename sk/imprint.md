@@ -17,6 +17,4 @@ Okresný súd vo Freiburgu: HRB709589
  DPH: DE814082730
  Výkonný riaditeľ: Holger Krekel
 
-[Komunitné kanály](contribute) 
-
-Server zoznamu adries je prevádzkovaný prostredníctvom <https://github.com/codespeaknet/sysadmin>. 
+[Website Privacy Policy](gdpr-website)

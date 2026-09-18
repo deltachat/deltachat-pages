@@ -17,6 +17,4 @@ Tribunal Amtsgericht Freiburg: HRB709589
 TVA: DE814082730  
 Directeur Général: Holger Krekel
 
-[Canaux communautaires](contribute)
-
-Le serveur des listes de diffusion est géré par <https://github.com/codespeaknet/sysadmin>.
+[Website Privacy Policy](gdpr-website)

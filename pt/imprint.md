@@ -17,6 +17,4 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Managing Director: Holger Krekel
 
-[Community channels](contribute)
-
-O servidor de mailing list é operado pelo <https://github.com/codespeaknet/sysadmin>.
+[Website Privacy Policy](gdpr-website)

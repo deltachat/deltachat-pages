@@ -17,6 +17,4 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Bestuursvoorzitter: Holger Krekel
 
-[Gemeenschapskanalen](contribute)
-
-De mailinglijstserver wordt bijgehouden door <https://github.com/codespeaknet/sysadmin>.
+[Website Privacy Policy](gdpr-website)

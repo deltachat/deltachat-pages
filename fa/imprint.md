@@ -17,6 +17,4 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Managing Director: Holger Krekel
 
-[راه‌های ارتباطی جامعه](contribute)
-
-کارساز فهرست پستی از طریق <https://github.com/codespeaknet/sysadmin> کار می‌کند.
+[Website Privacy Policy](gdpr-website)

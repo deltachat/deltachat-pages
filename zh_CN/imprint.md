@@ -17,6 +17,4 @@ Reichsgrafenstr. 20
 增值税：DE814082730
 常务董事：Holger Krekel
 
-[社区频道](contribute)
-
-邮件列表服务器通过 <https://github.com/codespeaknet/sysadmin> 运行。
+[Website Privacy Policy](gdpr-website)
