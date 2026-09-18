@@ -1,6 +1,6 @@
 ---
 title: Privacy policy website
-lang: cs
+lang: en
 ---
 
 # Website Privacy Policy
@@ -106,15 +106,7 @@ FRANCE
 
 The privacy policy can be found under [https://www.discourse.org/privacy](https://www.discourse.org/privacy).
 
-## 5. Mailing list
-
-You can also subscribe to our mailing list if you would like to be informed about community discussions and news in the form of newsletters. If you add your email address and optionally your name to the mailing list, you will receive a confirmation email to complete your registration. The legal basis for the processing is your consent, [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/). Registration is voluntary and you can revoke your consent at any time with effect for the future.
-
-We use the interface Postorius for the mailing software GNU Mailman to operate the mailing list. The software is run on our servers.
-
-The privacy policy for GNU Mailman can be found under [https://list.org/privacy.html](https://list.org/privacy.html).
-
-## 6. Social media appearance
+## 5. Social media appearance
 
 Delta.chat runs profiles on social networks – in particular on [Twitter](https://twitter.com/delta_chat?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [YouTube](https://www.youtube.com/results?search_query=delta+chat) and [Mastodon](https://chaos.social/@delta).
 
@@ -128,29 +120,7 @@ The storage period depends on the respective platform. However, we delete person
 
 Below you will find information on data protection on the respective portals.
 
-### a) Twitter
-
-We maintain a Twitter account. To the extent that we determine the means and purposes of the processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account. If questions are asked in the comments or DM are sent to us, we will of course answer them.
-
-In all other cases in which data is processed in connection with our Twitter account and for which Twitter determines the means and purposes, the processing is carried out by Twitter as the sole controller:
-
-```
-Twitter International Company
-One Cumberland Place
-Fenian Street
-Dublin 2
-D02 AX07
-Ireland
-fax +1 415 222 9958
-```
-
-You can contact Twitter's data protection officer under [https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp](https://twitter.ethicspointvp.com/custom/twitter/forms/data/form\_data.asp)
-
-Information about the processing of personal data when using Twitter, such as our Twitter profile, is described in the Twitter Privacy Policy, available at [https://twitter.com/de/privacy](https://twitter.com/de/privacy).
-
-If you contact us via Twitter, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is to respond to your request. Otherwise, the use of Twitter is based on your consent to Twitter pursuant to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
-
-### b) YouTube
+### a) YouTube
 
 Furthermore, we maintain a YouTube account. To the extent that we determine the means and purposes of processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account.  If questions are asked in the comments or DM are sent to us, we answer them.
 
@@ -170,7 +140,7 @@ Information about the processing of personal data when using YouTube, such as ou
 
 If you interact with us via YouTube, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is the interaction with our followers and other interested social media users on our social media profiles, the increase of reach of our products (advertising) and to respond to your request. In addition, the use of YouTube is based on your consent to YouTube pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
-### c) Mastodon
+### b) Mastodon
 
 In addition, we maintain a Mastodon account. To the extent that we determine the means and purposes of processing, your personal data will therefore be processed by us as the controller. We do <u>not</u> systematically evaluate the interaction with our account.  If questions are asked in the comments or DM are sent to us, we answer them.
 
@@ -180,7 +150,7 @@ Information about the processing of personal data when using chaos.social, are d
 
 If you interact with us via Mastodon, the legal basis is a legitimate interest pursuant to [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is to interact with our followers and other interested social media users on our social media profiles, to increase the reach of our products (advertising) and to respond to your request. Otherwise, the use of Mastodon is based on your consent to Mastodon pursuant to [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/).
 
-## 7. Donations
+## 6. Donations
 
 You can make payments (donations) to us in different ways.
 
@@ -205,19 +175,19 @@ If you use the payment services of third parties (e.g. PayPal or “Sofortüberw
 
 Depending on the payment service provider and the type of transfer, we process the name, email address, account number, credit institution, time and amount of the transfer. The legal basis for this is found in [Art. 6 (1) lit. c and f GDPR](https://gdpr-info.eu/art-6-gdpr/). Our legitimate interest is the administration of our donations.
 
-## 8. Right to object
+## 7. Right to object
 
 If your personal data is processed on the basis of our legitimate interests in accordance with [Art.6 (1) lit.f GDPR](https://gdpr-info.eu/art-6-gdpr/), you have the right to object to the processing of your personal data in accordance with [Art.21 GDPR](https://gdpr-info.eu/art-21-gdpr/), provided that there are grounds for this based on your particular situation or the objection is directed against direct advertising. In the latter case, you have a general right of objection, which will be implemented by us without specifying a particular situation.
 
 If you wish to exercise your right of objection, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
-## 9. Right to withdraw
+## 8. Right to withdraw
 
-If your personal data is processed on the basis of your consent in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/) (e.g. via the mailing list), you can withdraw your consent at any time and without any disadvantages. As a result, we may no longer continue the data processing that was based on this consent for the future. However, the withdrawal of your consent does not affect the lawfulness of the processing carried out on the basis of the consent until the withdrawal.
+If your personal data is processed on the basis of your consent in accordance with [Art.6 (1) lit.a GDPR](https://gdpr-info.eu/art-6-gdpr/), you can withdraw your consent at any time and without any disadvantages. As a result, we may no longer continue the data processing that was based on this consent for the future. However, the withdrawal of your consent does not affect the lawfulness of the processing carried out on the basis of the consent until the withdrawal.
 
 If you wish to make use of your right of withdrawal, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
-## 10. Rights of the data subject and right to lodge a complaint with a supervisory authority
+## 9. Rights of the data subject and right to lodge a complaint with a supervisory authority
 
 As a data subject of a processing of personal data, you have the right to
 
@@ -231,14 +201,14 @@ As a data subject of a processing of personal data, you have the right to
 
 To exercise your data protection rights or your right to lodge a complaint, simply send an e-mail to [delta-privacy@merlinux.eu](mailto:delta-privacy@merlinux.eu).
 
-## 11. Data security
+## 10. Data security
 
 We use the SSL procedure (Secure Socket Layer) in connection with the highest encryption level supported by your browser when visiting the website. This is usually a 256-bit encryption. If your browser does not support 256-bit encryption, we use 128-bit v3 technology instead. To see whether an individual page of our website is encrypted, click on the closed key or lock symbol in the lower status bar of your browser.
 
 We use appropriate technical and organizational security measures to protect your data against accidental or intentional manipulation, partial or complete loss, destruction or against unauthorized access by third parties. We continuously adapt our security measures in line with technological developments.
 
-## 12. Up-to-dateness and modification of this data protection declaration
+## 11. Up-to-dateness and modification of this data protection declaration
 
-This data protection declaration is valid as of November 2021. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
+This data protection declaration is valid as of September 2026. Due to the further development of our website and offers or due to changed legal or official requirements, it may become necessary to revise this data protection declaration from time to time.
 
-You can access and print out the current data protection declaration at any time under [https://support.delta.chat/privacy](https://support.delta.chat/privacy).
+You can access and print out the current data protection declaration at any time under <https://delta.chat/en/gdpr-website>.
