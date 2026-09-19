@@ -359,4 +359,4 @@ Due to the further development of our apps and offers
 or due to changed legal or official requirements,
 it may become necessary to revise it from time to time.
 You can access and print out the current version at any time
-at [https://delta.chat/gdpr](https://delta.chat/privacy).
+at <https://delta.chat/privacy>.
