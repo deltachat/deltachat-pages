@@ -92,6 +92,7 @@ def url_is_reachable(url):
             reachable_cache[url] = False
             return False
 
+
         if response.status_code == 200:
             reachable_cache[url] = True
         elif response.status_code in {429, 503, 504}:
@@ -99,6 +100,9 @@ def url_is_reachable(url):
             reachable_cache[url] = True
         elif response.status_code == 403 and url == "https://eprint.iacr.org/2024/918.pdf":
             print(f"  got {response.status_code} ~ Captcha Required for for {url}")
+            reachable_cache[url] = True
+        elif response.status_code == 403 and url == "https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation":
+            print(f"  got {response.status_code} - Still regarding {url} fine")
             reachable_cache[url] = True
         else:
             print(f"  status code for {url}: {response.status_code}")
