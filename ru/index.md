@@ -3,7 +3,7 @@ title: Delta Chat, децентрализованный безопасный м�
 lang: ru
 ---
 
-# Decentralized & Secure Messaging {#homepage-heading}
+# Децентрализованный и защищенный мессенджер {#homepage-heading}
 
 <div style="text-align: center">
 <picture>
@@ -13,7 +13,7 @@ lang: ru
 </div>
 
 <p style="text-align: center; margin-top: 0!important">
-<a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
+<a href="https://get.delta.chat" class="download-btn">Загрузить Delta Chat</a>
 </p>
 
 💬 Надёжная и безопасная система обмена сообщениями с поддержкой многопрофильности и различных устройств

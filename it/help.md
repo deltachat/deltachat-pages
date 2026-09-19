@@ -253,10 +253,9 @@ o dalla barra laterale con un clic destro (nell'app Desktop).
 I profili chat vengono rimossi solo sul dispositivo in cui è stata attivata l'eliminazione.
 I profili chat sugli altri dispositivi continueranno a funzionare correttamente.
 
-Se utilizzi un singolo profilo chat predefinito, puoi semplicemente disinstallare l'app.
-Ciò attiverà comunque l'eliminazione automatica di tutti i dati di indirizzo associati sul server di chatmail.
-Per maggiori informazioni, consulta [nine.testrun.org cancellazione dell'indirizzo](https://nine.testrun.org/info.html#account-deletion)
-o la pagina corrispondente del [server chatmail di 3e parti](https://chatmail.at/relays) da te scelto.
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## Gruppi {#groups}
@@ -697,28 +696,28 @@ e lasciare un riscontro nel [Forum](https://support.delta.chat).
 
 ### Cosa sono i ripetitori? {#relays}
 
-I ripetitori vengono utilizzati per conservare temporaneamente i messaggi nel caso in cui il dispositivo sia offline.
-I ripetitori sono server economici e poco intelligenti,
-che non memorizzano dati come stati di gruppo, nome o avatar,
-tutti dati che esistono solo sul dispositivo.
-I ripetitori sono gestiti da gruppi e persone diverse.
+Relays are used to temporarily hold messages in case your device is offline.
+Relays are cheap and dumb servers,
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-Per impostazione predefinita, dopo l'installazione, un ripetitore viene **configurato automaticamente**,
-quindi non è necessario preoccuparsene.
-Tuttavia, se lo si desidera,
-è possibile configurare i ripetitori in **Impostazioni → Avanzate → Ripetitori**:
+By default, relays are **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at **Settings → Advanced → Relays**:
 
-- Puoi **aggiungere** un ripetitore scansionando il suo codice QR;
-  [chatmail.at/relays](https://chatmail.at/relays) mostra alcuni ripetitori noti.
-  Se hai più ripetitori, riceverai i messaggi su tutti.
-  I contatti vengono a conoscenza automaticamente dei tuoi ripetitori attuali quando invii loro un messaggio.
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-- Tocca un ripetitore per impostarlo come **utilizzato per l'invio**.
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
+  If you have multiple relays, you will receive messages on all of them.
 
-- Se un ripetitore non funziona più, è possibile **rimuoverlo**.
-
-Per maggiori dettagli e future possibilità di utilizzo dei ripetitori,
-potete seguire le discussioni nel [Forum](https://support.delta.chat).
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 ### Posso usare un indirizzo email classico con Delta Chat?
@@ -728,11 +727,11 @@ Sì, ma solo se l'indirizzo e-mail viene utilizzato esclusivamente dai [client d
 Non è supportata la condivisione dell'utilizzo di un indirizzo email con apps diverse dalle chatmail o con servizi di posta basati sul web,
 per i seguenti motivi:
 
-- Le apps non-chatmail non implementano in gran parte la crittografia end-to-end automatica delle email per i propri utenti,
-mentre le app e i ripetitori di chatmail applicano in modo pervasivo la crittografia end-to-end e gli standard di sicurezza.
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- Le apps non-chatmail utilizzano i server email come archivio di messaggi a lungo termine,
-mentre i client di chatmail utilizzano i server email per l'inoltro temporaneo di messaggi istantanei.
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - Supportare l'intera gamma di configurazioni email classiche
   richiederebbe notevoli sforzi di sviluppo e manutenzione
@@ -778,7 +777,7 @@ statistiche settimanali verranno inviate automaticamente a un bot.
 
 Siamo interessati, ad esempio, a statistiche come:
 
-- Quanti contatti vengono introdotti tramite la scansione personale di un codice QR?
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - Quali versioni di Delta Chat vengono utilizzate?
 
@@ -832,23 +831,25 @@ I messaggi privi di crittografia end-to-end sono contrassegnati dall'icona di un
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### Cosa significa il segno di spunta verde nel profilo di un contatto? {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-Il profilo di un contatto potrebbe mostrare una spunta verde
+Older Delta Chat versions showed a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-e una linea "Verificato da".
-Ogni contatto con la spunta verde ha fatto un [QR-scan](#howtoe2ee) con te
-o è stato verificato da un altro contatto con la spunta verde.
-La verifica si ha automaticamente all'aggiunta dei membri nei gruppi.
-Chiunque aggiunga un contatto con spunta verde a un gruppo con solo membri con la spunta verde
-diventa colui che l'ha verificato.
-Nel profilo di un contatto puoi premere sul campo "Verificato da ..." ripetutamente
-fino a che vedi con chi hai avuto un [QR-scan](#howtoe2ee).
+and an "Introduced by" line in some contact profiles.
 
-Per una discussione più approfondita sulla "crittografia end-to-end garantita"
-consultare [Protocolli Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
-e leggi nello specifico i "Gruppi Verificati", il termine tecnico
-di quelle che qui vengono chiamate chat "con segno di spunta verde" o "crittografate end-to-end garantite".
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### Gli allegati (immagini, file, audio, ecc.) sono crittografati end-to-end?
 
@@ -1106,7 +1107,7 @@ Puoi leggere il [rapporto completo qui](../assets/blog/2019-first-security-revie
 Alcune funzionalità richiedono determinate autorizzazioni,
 ad esempio, è necessario concedere l'autorizzazione alla fotocamera se si desidera [scansionare un codice QR di invito](#howtoe2ee).
 
-Per una panoramica dettagliata, consultare l' [Informativa sulla riservatezza](https://delta.chat/en/gdpr#24-app-permissions).
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ### Dove possono trovare Delta Chat i miei amici?

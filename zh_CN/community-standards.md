@@ -106,5 +106,6 @@ or acting as a representative at an online or offline event.
 
 ## 来源
 
-我们的社区准则文档改编自[参与者公约](https://contributor-covenant.org)，版本 1.4，可在 <https://contributor-covenant.org/zh-cn/version/1/4/code-of-conduct> 查看。,
+Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at <https://contributor-covenant.org/version/1/4>,
 with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.

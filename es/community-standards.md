@@ -113,6 +113,6 @@ según lo determinen otras responsables del mantenimiento.
 
 ## Atribución
 
-Nuestro documento de Normas de la comunidad se basa en el [Contributor Covenant](https://contributor-covenant.org), versión 1.4,
-disponible en <https://contributor-covenant.org/version/1/4>,
+Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at <https://contributor-covenant.org/version/1/4>,
 with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.

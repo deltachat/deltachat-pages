@@ -257,10 +257,9 @@ edo alboko barran eskuineko botoiarekin klik eginda (mahaigaineko aplikazioan).
 Txat-profilak ezabatu diren gailuan bertan bakarrik ezabatzen dira. 
 Beste gailuetan normal funtzionatzen jarraituko dute. 
 
-Lehenetsitako txat-profil bakarra erabiltzen baduzu, aski duzu aplikazioa desinstalatuta.
-Hori eginda, txateko zerbitzarian profil horri lotuta dauden kontaktuko datu guztiak automatikoki ezabatuko dira.
-Informazio gehiago nahi baduzu, kontsultatu [nine.testrun.org-en helbideak ezabatzearen orria](https://nine.testrun.org/info.html#account-deletion) 
-edo zuk aukeratutako [3.en txat-zerbitzariena](https://chatmail.at/relays).
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## Taldeak {#groups}
@@ -712,28 +711,28 @@ sartu [foroan](https://support.delta.chat).
 
 ### Zer dira erreleak? {#relays}
 
-Zure gailua konexiorik gabe dagoela-eta mezuak aldi baterako gordetzeko erabiltzen dira erreleak. 
-Zerbitzari txiki eta merkeak dira, eta
-ez dute gordetzen taldeen egoera, zure izena eta abatarra edo era horretako daturik; 
-hori guztia zure gailuan bakarrik dago. Erreleak hainbat
-talde eta pertsonak kudeatzen dituzte.
+Relays are used to temporarily hold messages in case your device is offline.
+Relays are cheap and dumb servers,
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-Besterik adierazi ezean, aplikazioa instalatutakoan, **automatikoki**
-errele bat konfiguratzen da; beraz, ez duzu horretaz kezkatu beharrik.
-Dena den, nahi baduzu, hemen konfigura ditzakezu erreleak:
-**Ezarpenak → Aurreratua → Erreleak**.
+By default, relays are **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at **Settings → Advanced → Relays**:
 
-- Errele bat **gehitu** nahi baduzu, eskaneatu haren QR kodea;
-zerrenda honetan ezagun batzuk daude:  [chatmail.at/relays](https://chatmail.at/relays).
-Errele bat baino gehiago badituzu, mezuak guztietatik jasoko dituzu. 
-Mezu bat bidaltzen diezunean, zure kontaktuek automatikoki ikasten dute oraingo erreleak zein diren.
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-- Sakatu errele baten gainean, **bidaltzeko erabilia** gisa konfiguratzeko.
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
+  If you have multiple relays, you will receive messages on all of them.
 
-- Errele bat jada ez badabil, **ezabatu** dezakezu.
-
-Informazio gehiago lortu eta erreleen geroko aukeren berri
-jakin nahi baduzu, irakurri eztabaidak [foroan](https://support.delta.chat).
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 ### Erabil dezaket posta elektronikoko helbide klasiko bat Delta Chaten?
@@ -743,13 +742,11 @@ Bai, baina betiere eposta-helbide hori [txatmail-bezeroek](https://chatmail.at/c
 Ezin da eposta-helbide bera erabili txatmailekoak ez diren aplikazioetan,
 ezta web bidezko posta-bezeroetan ere, arrazoi hauengatik:
 
-- Txatmailekoak ez diren aplikazioek, gehien-gehienek, erabiltzaileei ez diete automatikoki
-muturretik muturrerako zifratzea eskaintzen epostan; txatmail-aplikazioek eta erreleek,
-aldiz, modu orokortuan aplikatzen dituzte muturretik muturrerako zifratzea eta
-segurtasun-estandarrak.
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- Txatmailekoak ez diren aplikazioek mezuak luzaroan gordetzeko erabiltzen dituzte
-eposta-zerbitzariak; txatmail-bezeroek, aldiz, mezu iragankorrak berehala bidaltzeko.
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - Posta elektronikoko konfigurazio klasiko askotarikoei euskarria emateko,
 garapen- eta mantenu-lan handia egin beharko litzateke, eta horrek zaildu
@@ -798,7 +795,7 @@ estatistikak bidaliko zaizkio bot bati.
 
 Gai hauei buruzko estatistikak interesatzen zaizkigu, adibidez:
 
-- Zenbat kontaktu sartzen dira QR kodea aurrez aurre eskaneatuz?
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - Delta Chaten zer bertsio ari dira erabiltzen?
 
@@ -852,23 +849,25 @@ Muturretik muturrera zifratu gabeko mezuek epostaren ikonoaren marka izaten dute
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### Zer esan nahi du kontaktu baten profilean egiaztapen-marka berdea egoteak? {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-Kontaktuetako profil batzuek egiaztapen-marka berdea
+Older Delta Chat versions showed a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-edukiko dute, eta testu hau idatzita: “Halakok egiaztatuta”.
-Marka berdea edukitzeak esan nahi du kontaktu horrek zurekin aurrez aurre [QR kodea eskaneatu](#howtoe2ee) duela
-edo egiaztapen-marka duen beste norbaitek egiaztatu duela.
-Egiaztatzeko horiek automatikoki gertatzen dira taldeetan kideak gehitutakoan. 
-Norbaitek egiaztatze-marka duen beste norbait talde batean gehitzen duenean, eta taldeko kide guztiek egiaztatze-marka badute, 
-gehitu duen kide hori egiaztatzaile bihurtzen da. 
-Kontaktu baten profilera jo, eta “Halakok egiaztatuta” testua behin eta berriz sakatzen baduzu,
-aurrez aurre [QR kodea eskaneatu](#howtoe2ee) zenuen pertsonarenganaino iritsiko zara.
+and an "Introduced by" line in some contact profiles.
 
-“Muturretik muturrerako zifratze bermatuari” buruzko informazio zehatzagoa nahi baduzu,
-kontsultatu [Secure-Join protokoloak](https://securejoin.delta.chat/en/latest/new.html)
-eta irakurri, zehazki, “Talde egiaztatuak" atala; izen tekniko horrexekin deitzen zaie
-guk hemen “marka berdekoak” edo “muturretik muturrerako zifratze bermatukoak” deritzegun txatei.
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### Muturretik muturrera zifratuta al daude eranskinak (argazkiak, fitxategiak, audioak, etab.)?
 
@@ -1130,7 +1129,7 @@ Funtzio batzuetarako, zenbait baimen behar dira;
 adibidez, [QR gonbidapen-kodea eskaneatu](#howtoe2ee) nahi baduzu,
 kamera erabiltzeko baimena eman beharko duzu.
 
-Xehetasunak jakiteko, kontsultatu [pribatutasun-politika](https://delta.chat/en/gdpr#24-app-permissions).
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ### Non lortu dezakete Delta Chat nire lagunek?

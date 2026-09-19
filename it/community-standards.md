@@ -3,17 +3,17 @@ titolo: Norme Comunitarie
 lang: it
 ---
 
-# Community Standards
+# Standards della Comunità
 
-In the interest of fostering an open and welcoming environment,
-we as contributors and maintainers strive to make participation
-in our communities a pleasurable, harassment-free experience.
+Nell'ottica di promuovere un ambiente aperto e accogliente,
+noi, in qualità di collaboratori e manutentori, ci impegniamo a rendere la partecipazione
+alle nostre comunità un'esperienza piacevole e priva di molestie.
 
-We also recognize that authentic human-to-human collaboration and
-collective maintenance of our repositories are key to keeping
-our development sustainable and resilient.
+Riconosciamo inoltre che un'autentica collaborazione tra persone e
+la manutenzione collettiva dei nostri repository sono fondamentali per mantenere
+il nostro sviluppo sostenibile e resiliente.
 
-## Participation Standards
+## Standards di Partecipazione
 
 Esempi di comportamenti che contribuiscono a creare un ambiente positivo includono:
 
@@ -30,69 +30,69 @@ Esempi di comportamenti che chiediamo a tutti di evitare includono:
 * Molestie pubbliche o private
 * Pubblicazione di informazioni private altrui, come un indirizzo fisico o elettronico, senza esplicita autorizzazione
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behavior. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Comprendiamo che a volte le persone possano avere una giornata no o non rendersi conto dell'impatto del 
+proprio comportamento. In questi casi, è possibile far loro notare la cosa con tatto,
+in pubblico o in privato, a seconda di quale modalità risulti più opportuna. Presumi la buona fede:
+è più probabile che i partecipanti non siano consapevoli di quanto accade, piuttosto che stiano intenzionalmente
+cercando di denigrare gli altri o di compromettere la qualità della discussione.
 
 
-## Collective Maintenance Standards
+## Standards di Manutenzione Collettiva
 
-Our organizational repositories are collectively maintained, not individually owned.
-To avoid and mitigate single points of knowledge and control,
-we encourage everyone to find and educate other maintainers
-to share knowledge and maintenance responsibilities.
+I nostri repository organizzativi sono gestiti collettivamente e non sono di proprietà individuale.
+Per evitare e mitigare la concentrazione della conoscenza e del controllo in singoli individui,
+incoraggiamo tutti a individuare e formare altri manutentori,
+così da condividere le competenze e le responsabilità di manutenzione.
 
-All contributions must be human-authored,
-and fully understood and maintained by the contributors through
+Tutti i contributi devono essere di autore umano,
+e pienamente compresi e mantenuti dai contributori attraverso
 
-- writing all pull request, issue descriptions,
-  comments, documentation and commit messages by hand,
+- scrivere manualmente tutte le pull request, le descrizioni delle issue,
+  i commenti, la documentazione e i messaggi di commit, scritti a mano,
 
-- performing extensive self-review
-  and taking full responsibility for submissions,
+- svolgere un'ampia autovalutazione
+  e assumersi la piena responsabilità delle presentazioni,
 
-- caring for clarity and minimalism to ease the job of reviewers
-  who accept changes into collective maintenance,
+- curare la chiarezza e il minimalismo per agevolare il lavoro dei revisori
+  che accettano le modifiche nell'ambito della manutenzione collettiva,
 
-- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+- evitando di introdurre dipendenze, sia in fase di runtime che di sviluppo, dall'infrastruttura LLM.
 
-If LLMs were used in any substantial way,
-contributors are invited to write in their own words how they made use of them.
-Automated "assisted/co-authored-by" trailers
-naming generative tools or models are discouraged
-as they do not properly disclose how those tools were used
-and provide free advertisement for a toxic billionaire-dominated industry.
+Qualora gli LLM venissero utilizzati in modo significativo,
+si invitano i collaboratori a descrivere con parole proprie le modalità di tale utilizzo.
+Sono sconsigliate le diciture automatiche del tipo "assistito da" o "co-autore"
+che citano strumenti o modelli generativi,
+poiché non chiariscono adeguatamente come tali strumenti siano stati impiegati
+e offrono pubblicità gratuita a un settore tossico dominato dai miliardari.
 
-In specific cases,
-maintainers may agree to configure bots (such as "dependabot")
-to automatically generate pull requests.
-However, these changes must never be automatically merged
-and always require strict human review before merging.
+In casi specifici,
+i manutentori possono concordare di configurare dei bot (come "dependabot")
+per generare automaticamente delle pull request.
+Tuttavia, tali modifiche non devono mai essere unite automaticamente
+e richiedono sempre un rigoroso controllo umano prima dell'unione.
 
 
 ## Manutentori e Responsabilità
 
-Project maintainers are those with commit rights to collective repositories
-or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned with our standards or do not match current project plans.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+I manutentori del progetto sono coloro che dispongono di diritti di commit sui repository collettivio
+di diritti amministrativi sui canali di comunicazione della comunità.
+A ciascun manutentore è richiesto di assumersi la responsabilità e di agire in modo appropriato
+e ponderatodi fronte a comportamenti discutibili.
+I manutentori del progetto hanno il diritto e la responsabilità di rimuovere, modificare o
+rifiutare commenti, commit, codice, modifiche alla wiki, segnalazioni e altri contributi
+che non siano conformi ai nostri standard o non siano in linea con gli attuali piani del progetto.
+Possono inoltre escludere temporaneamente o permanentemente un collaboratore
+per altri comportamenti ritenuti inappropriati, minacciosi, offensivi o dannosi.
 
 
 ## Ambito
 
-Our Community Standards apply to project repositories, communication channels, and gatherings,
-as well as to public spaces,
-when an individual is representing the project or its community.
-Examples of representing a project or community include using an official project e-mail
-address, posting via a social media account associated with the project,
-or acting as a representative at an online or offline event.
+I nostri Standards della Comunità si applicano ai repository dei progetti, ai canali di comunicazione e agli incontri,
+nonché agli spazi pubblici,
+quando una persona rappresenta il progetto o la sua comunità.
+Esempi di rappresentanza di un progetto o di una comunità includono l'utilizzo di un indirizzo e-mail ufficiale del progetto,
+la pubblicazione di contenuti tramite un account social associato al progetto
+o la partecipazione in qualità di rappresentante a un evento online o offline.
 
 
 ## Rapporti e Risposte
@@ -111,6 +111,6 @@ come stabilito da altri manutentori.
 
 ## Attribuzione
 
-Il nostro documento sugli Standard della Comunità è adattato dal [Patto dei Collaboratori](https://contributor-covenant.org), versione 1.4,
+Il nostro documento sugli standard della comunità è adattato dal [Contributor Covenant](https://contributor-covenant.org), versione 1.4,
 disponibile all'indirizzo <https://contributor-covenant.org/version/1/4>,
-with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
+con l'aggiunta, nel Settembre 2026, di sezioni supplementari e di un focus sulla "manutenzione collettiva" e sulla "creazione umana".

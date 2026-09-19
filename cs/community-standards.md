@@ -113,5 +113,6 @@ dle rozhodnutí ostatních správců.
 
 ## Zdroj
 
-Náš dokument Standardů komunity je adaptací dokumentu [Contributor Covenant](https://contributor-covenant.org), verze 1.4, dostupného na adrese <https://contributor-covenant.org/version/1/4>,
+Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at <https://contributor-covenant.org/version/1/4>,
 with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.

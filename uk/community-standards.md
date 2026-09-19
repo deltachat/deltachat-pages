@@ -104,5 +104,6 @@ or acting as a representative at an online or offline event.
 
 ## Атрибуція
 
-Наш документ про стандарти спільноти адаптовано з [Угоди учасника](https://contributor-covenant.org), версія 1.4, що доступний за адресою <https://contributor-covenant.org/version/1/4>,
+Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at <https://contributor-covenant.org/version/1/4>,
 with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.

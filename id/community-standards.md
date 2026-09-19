@@ -113,6 +113,6 @@ sebagaimana ditentukan oleh pengelola lainnya.
 
 ## Atribusi
 
-Dokumen Standar Komunitas kami diadaptasi dari [Contributor Covenant](https://contributor-covenant.org), versi 1.4,
-tersedia di <https://contributor-covenant.org/version/1/4>,
+Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at <https://contributor-covenant.org/version/1/4>,
 with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
