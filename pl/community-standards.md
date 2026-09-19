@@ -3,17 +3,13 @@ title: Standardy społeczności
 lang: pl
 ---
 
-# Community Standards
+# Standardy społeczności
 
-In the interest of fostering an open and welcoming environment,
-we as contributors and maintainers strive to make participation
-in our communities a pleasurable, harassment-free experience.
+W trosce o budowanie otwartego i przyjaznego środowiska, my, jako współtwórcy i opiekunowie, dokładamy wszelkich starań, aby uczestnictwo w naszych społecznościach było przyjemnym i wolnym od nękania doświadczeniem.
 
-We also recognize that authentic human-to-human collaboration and
-collective maintenance of our repositories are key to keeping
-our development sustainable and resilient.
+Zdajemy sobie również sprawę, że autentyczna współpraca międzyludzka i wspólne dbanie o nasze repozytoria są kluczem do utrzymania zrównoważonego i odpornego rozwoju.
 
-## Participation Standards
+## Standardy uczestnictwa
 
 Przykłady zachowań, które przyczyniają się do tworzenia pozytywnego środowiska, obejmują:
 
@@ -30,69 +26,36 @@ Przykłady zachowań, o których unikanie prosimy wszystkich, to:
 * Nękanie publiczne lub prywatne
 * Publikowanie bez wyraźnej zgody prywatnych informacji innych osób, takich jak fizyczny lub elektroniczny adres
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behavior. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Zdajemy sobie sprawę, że czasami ludzie mogą mieć gorszy dzień lub nie być świadomi wpływu swojego zachowania. W takiej sytuacji możesz im o tym dyskretnie przypomnieć publicznie lub prywatnie – w zależności od tego, co jest bardziej stosowne. Załóż dobrą wolę; bardziej prawdopodobne jest, że uczestnicy nie są tego świadomi, niż to, że celowo próbują poniżyć innych lub obniżyć jakość dyskusji.
 
 
-## Collective Maintenance Standards
+## Standardy zbiorowego utrzymania 
 
-Our organizational repositories are collectively maintained, not individually owned.
-To avoid and mitigate single points of knowledge and control,
-we encourage everyone to find and educate other maintainers
-to share knowledge and maintenance responsibilities.
+Nasze repozytoria organizacyjne są utrzymywane wspólnie, a nie indywidualnie. Aby uniknąć i ograniczyć pojedyncze punkty wiedzy i kontroli, zachęcamy wszystkich do znajdowania i edukowania innych opiekunów, aby mogli dzielić się wiedzą i obowiązkami związanymi z utrzymaniem.
 
-All contributions must be human-authored,
-and fully understood and maintained by the contributors through
+Wszystkie prace muszą być autorstwa ludzi i w pełni zrozumiane oraz utrzymywane przez współpracowników poprzez:
 
-- writing all pull request, issue descriptions,
-  comments, documentation and commit messages by hand,
+- ręczne pisanie wszystkich żądań ściągnięcia, opisów zgłoszeń, komentarzy, dokumentacji i wiadomości zobowiązań,
 
-- performing extensive self-review
-  and taking full responsibility for submissions,
+- przeprowadzanie obszernej samooceny i branie pełnej odpowiedzialności za zgłoszenia,
 
-- caring for clarity and minimalism to ease the job of reviewers
-  who accept changes into collective maintenance,
+- dbanie o przejrzystość i minimalizm, aby ułatwić pracę recenzentom akceptującym zmiany w ramach zbiorczego utrzymania,
 
-- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+- unikanie wprowadzania jakichkolwiek zależności wykonawczych lub rozwojowych od mechanizmów LLM.
 
-If LLMs were used in any substantial way,
-contributors are invited to write in their own words how they made use of them.
-Automated "assisted/co-authored-by" trailers
-naming generative tools or models are discouraged
-as they do not properly disclose how those tools were used
-and provide free advertisement for a toxic billionaire-dominated industry.
+Jeśli LLM były wykorzystywane w jakikolwiek istotny sposób, zachęcamy współpracowników do opisania własnymi słowami, w jaki sposób z nich korzystali. Automatyczne zwiastuny „wspierane/współtworzone przez” z nazwami narzędzi lub modeli generatywnych są niezalecane, ponieważ nie ujawniają one w odpowiednio, w jaki sposób te narzędzia były wykorzystywane i stanowią darmową reklamę dla toksycznej branży zdominowanej przez miliarderów.
 
-In specific cases,
-maintainers may agree to configure bots (such as "dependabot")
-to automatically generate pull requests.
-However, these changes must never be automatically merged
-and always require strict human review before merging.
+W szczególnych przypadkach osoby odpowiedzialne za utrzymanie mogą zezwolić na skonfigurowanie botów (takich jak „dependabot”) do automatycznego generowania żądań ściągnięcia. Zmiany te nie mogą być jednak nigdy automatycznie scalane i zawsze wymagają ścisłej weryfikacji przez człowieka przed scaleniem.
 
 
 ## Opiekunowie i obowiązki
 
-Project maintainers are those with commit rights to collective repositories
-or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned with our standards or do not match current project plans.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Opiekunowie projektów to osoby posiadające prawa do zatwierdzania repozytoriów zbiorowych lub prawa administracyjne do kanałów komunikacji społeczności. Każdy opiekun jest proszony o wzięcie odpowiedzialności i podjęcie odpowiednich, ostrożnych działań w odpowiedzi na zaobserwowane przypadki wątpliwego zachowania. Opiekunowie projektów mają prawo i obowiązek usuwać, edytować lub odrzucać komentarze, zatwierdzenia, kod, edycje wiki, problemy i inne wkłady, które nie są zgodne z naszymi standardami lub nie odpowiadają bieżącym planom projektu. Mogą także tymczasowo lub na stałe zablokować autora za inne zachowania, które uznają za niewłaściwe, groźne, obraźliwe lub szkodliwe.
 
 
 ## Zakres
 
-Our Community Standards apply to project repositories, communication channels, and gatherings,
-as well as to public spaces,
-when an individual is representing the project or its community.
-Examples of representing a project or community include using an official project e-mail
-address, posting via a social media account associated with the project,
-or acting as a representative at an online or offline event.
+Nasze standardy społeczności mają zastosowanie do repozytoriów projektów, kanałów komunikacji i spotkań, a także do przestrzeni publicznych, gdy dana osoba reprezentuje projekt lub jego społeczność. Przykładami reprezentowania projektu lub społeczności są: korzystanie z oficjalnego adresu e-mail projektu, publikowanie w mediach społecznościowych za pośrednictwem konta powiązanego z projektem lub występowanie w roli przedstawiciela na wydarzeniu online lub offline.
 
 
 ## Zgłoszenia i odpowiedzi
@@ -104,5 +67,4 @@ Opiekunowie są zobowiązani do zachowania poufności w stosunku do zgłaszając
 
 ## Uznanie autorstwa
 
-Nasz dokument dotyczący standardów społeczności został zaadaptowany z dokumentu [Contributor Covenant](https://contributor-covenant.org), wersja 1.4, dostępnego na stronie <https://contributor-covenant.org/version/1/4>,
-with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
+Nasz dokument dotyczący standardów społeczności został zaadaptowany z dokumentu [Contributor Covenant](https://contributor-covenant.org), wersja 1.4, dostępnego na stronie <https://contributor-covenant.org/version/1/4>, a we wrześniu 2026 r. dodano dodatkowe sekcje oraz skupiono się na „zbiorowym utrzymaniu” i „autorstwie ludzkim”.

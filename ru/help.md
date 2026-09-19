@@ -259,10 +259,9 @@ Delta Chat — надежное, децентрализованное и без�
 Профили чата удаляются только с устройства, на котором была запущена операция удаления. 
 Профили чата на других устройствах будут продолжать полностью функционировать.
 
-Если вы используете один профиль чата по умолчанию, вы можете просто удалить приложение.
-Это автоматически инициирует удаление всех связанных данных об адресе на сервере chatmail.
-Подробную информацию смотрите на странице [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-или на соответствующей странице выбранного вами [стороннего сервера chatmail](https://chatmail.at/relays).
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## Группы {#groups}
@@ -709,28 +708,28 @@ Delta Chat — это бесплатный децентрализованный 
 
 ### Что такое релеи chatmail? {#relays}
 
-Релеи используются для временного хранения сообщений, если ваше устройство не в сети.
-Релеи - это недорогие и простые серверы,
-которые не хранят данные о статусах групп, вашем имени или аватаре, -
-всё это существует только на вашем устройстве.
-Релеи управляются разными группами и людьми.
+Relays are used to temporarily hold messages in case your device is offline.
+Relays are cheap and dumb servers,
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-По умолчанию, после установки, релей **настраивается автоматически**,
-поэтому вам не нужно об этом волноваться.
-Однако, если хотите,
-вы можете настроить релеи в меню **Настройки → Дополнительно → Релеи**:
+By default, relays are **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at **Settings → Advanced → Relays**:
 
-- Вы можете **добавить** релей, отсканировав его QR-код;
-  на сайте [chatmail.at/relays](https://chatmail.at/relays) представлен список известных.
-  Если у вас настроено несколько релеев, сообщения будут доставляться через все из них.
-  Ваши контакты автоматически узнают о текущих используемых вами релеях при обмене сообщениями.
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-- Нажмите на релей, чтобы установить его как **используемый для отправки**.
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
+  If you have multiple relays, you will receive messages on all of them.
 
-- Если релей больше не работает, вы можете его **удалить**.
-
-Для получения более подробной информации и ознакомления с будущими возможностями релеев,
-вы можете следить за обсуждениями на [Форуме](https://support.delta.chat).
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 ### Могу ли я использовать обычный адрес электронной почты с Delta Chat?
@@ -740,11 +739,11 @@ Delta Chat — это бесплатный децентрализованный 
 Не поддерживается совместное использование адреса электронной почты с приложениями, не являющимися клиентами chatmail или веб-интерфейсами для работы с почтой,
 по следующим причинам:
 
-- Приложения, не являющиеся клиентами chatmail, в основном не обеспечивают автоматическое сквозное шифрование электронной почты для своих пользователей,
-  тогда как приложения и релеи chatmail повсеместно применяют сквозное шифрование и стандарты безопасности.
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- Приложения, не являющиеся клиентами chatmail, используют серверы электронной почты в качестве долгосрочного архива сообщений,
-  тогда как клиенты chatmail используют их как релей для мгновенной пересылки сообщений.
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - Поддержка всего разнообразия классических настроек электронной почты
   потребует значительных усилий по разработке и сопровождению,
@@ -789,7 +788,7 @@ Chatmail использует INBOX по умолчанию для ретран�
 
 Нас интересует, например, следующая статистика:
 
-- Сколько контактов можно добавить ручным сканированием QR-кода?
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - Какие версии Delta Chat используются?
 
@@ -843,23 +842,25 @@ Delta Chat не запрашивает, не публикует и не взаи
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### Что означает зеленая галочка в профиле контакта? {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-В профиле контакта может отображаться зелёная галочка
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="зелёная галочка" />
-и строка "Подтверждён пользователем".
-Каждый контакт с зелёной галочкой либо выполнил непосредственное сканирование [QR-кода](#howtoe2ee) с вами,
-либо был подтверждён другим контактом с зелёной галочкой.
-Подтверждения происходят автоматически при добавлении участников в группы. 
-Тот, кто добавляет контакт с зелёной галочкой в группу, где только участники с зелёными галочками, 
-становится подтверждающим. 
-В профиле контакта вы можете последовательно нажимать на текст "Подтверждён ..." до тех пор,
-пока не дойдёте до того, с кем вы напрямую выполнили сканирование [QR-кода](#howtoe2ee).
+Older Delta Chat versions showed a green checkmark
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
+and an "Introduced by" line in some contact profiles.
 
-Для более подробного обсуждения "гарантированного сквозного шифрования"
-пожалуйста, обратитесь к [протоколам Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
-и прочитайте о "Проверенных группах", техническом термине,
-который здесь называется "группами с зелёной галочкой" или чатами с "гарантированным сквозным шифрованием".
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### Зашифрованы ли вложения (изображения, файлы, аудио и т. д.) сквозным шифрованием?
 
@@ -1115,7 +1116,7 @@ Delta Chat генерирует безопасные ключи OpenPGP в со�
 Некоторые функции требуют определенных разрешений,
 например, вам нужно предоставить разрешение на использование камеры, если вы хотите [отсканировать QR-код приглашения](#howtoe2ee).
 
-Подробную информацию можно найти в [Политике конфиденциальности](https://delta.chat/en/gdpr#24-app-permissions).
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ### Где мои друзья могут найти Delta Chat?

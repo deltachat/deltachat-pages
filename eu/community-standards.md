@@ -104,5 +104,6 @@ Mantentzaileak gertakari baten berri ematen duen pertsonaren konfidentzialtasuna
 
 ## Aitortza
 
-Gure Komunitate-arauen dokumentua [Contributor Covenant](https://contributor-covenant.org) hitzarmenaren 1.4 bertsioan oinarrituta dago, eta helbide honetan dago eskuragarri: <https://contributor-covenant.org/version/1/4>,
+Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at <https://contributor-covenant.org/version/1/4>,
 with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.

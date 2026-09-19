@@ -240,10 +240,9 @@ or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/he
 聊天配置文件只会在本设备上删除。 
 其他设备上的聊天配置文件将继续完整运行。 
 
-如果您只使用一个默认聊天配置文件，可以直接卸载应用程序。
-这将自动触发删除 Chatmail 服务器上的所有关联帐户数据。
-有关更多信息，请参阅 [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-或您选择的 [第三方 Chatmail 服务器](https://chatmail.at/relays) 的相关页面。
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## 群组 {#groups}
@@ -671,35 +670,28 @@ Delta Chat 是一款免费且开源的去中心化即时通讯应用，用户可
 
 ### 什么是中继服务器？ {#relays}
 
-中继服务器用于在您的设备离线时临时保存消息。
+Relays are used to temporarily hold messages in case your device is offline.
+Relays are cheap and dumb servers,
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-中继服务器是廉价且功能简单的服务器，
+By default, relays are **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at **Settings → Advanced → Relays**:
 
-它们不会存储群组状态、您的姓名或头像等数据——
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-这些数据仅存在于您的设备上。
-
-中继服务器由不同的团队和个人运营。
-
-默认情况下，安装完成后会自动设置中继服务器，
-
-因此您无需担心。
-
-但是，如果您需要，
-
-可以在“设置 → 高级 → 中继服务器”中配置：
-
-- You can **add** a relay by scanning its QR code;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some known ones.
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
   If you have multiple relays, you will receive messages on all of them.
-  Contacts learn your current relays automatically when you message them.
 
-- Tap on a relay to set it as **used for sending**.
-
-- If a relay is no longer working, you can **remove** it.
-
-有关中继服务器的更多细节和未来可能性、
-您可以关注 [论坛](https://support.delta.chat) 中的讨论。
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 #### 我可以在Delta Chat 中使用传统电子邮件吗？
@@ -709,11 +701,11 @@ Delta Chat 是一款免费且开源的去中心化即时通讯应用，用户可
 不支持与非聊天邮件应用程序或网络邮件程序共享电子邮件地址、
 原因如下：
 
-- 非聊天邮件应用程序在很大程度上无法为用户实现自动端到端电子邮件加密 、
-  而 Chatmail 则普遍执行端到端加密 和安全标准。
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- 非聊天邮件应用程序使用电子邮件服务器作为长期信息存档
-  而聊天邮件客户端使用电子邮件服务器作为短暂的即时信息中继。
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - 支持各种经典的电子邮件设置
   需要大量的开发和维护工作、
@@ -762,7 +754,7 @@ Chatmail 使用默认的 INBOX 进行中继；请确保提供商的设置也是�
 
 我们感兴趣的统计数据包括
 
-- 通过亲自扫描二维码，有多少人被介绍认识？
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - 使用的是Delta Chat 的哪些版本？
 
@@ -816,23 +808,25 @@ Delta Chat 中的所有消息 **默认都采用端到端加密**。
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### 联系人资料中的绿色复选标记是什么意思？ {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-带有绿色复选标记的联系人配置文件
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="绿色复选标记" />
-表示当前保证与联系人的消息传递是端到端加密的。
-每个带有绿色复选标记的联系人要么直接与你进行了 [二维码扫描](#howtoe2ee)，
-要么由另一个带有绿色复选标记的联系人介绍。
-当向群组添加成员时，介绍会自动发生。
-任何将联系人添加到带有绿色复选标记的群组的人都成为
-那些还不认识添加的联系人的成员的介绍人。
-在联系人配置文件中，你可以反复点击“由...介绍”文本
-，直到你到达直接与你进行 [二维码扫描](#howtoe2ee) 的那个人。
+Older Delta Chat versions showed a green checkmark
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
+and an "Introduced by" line in some contact profiles.
 
-有关“保证的端到端加密”的更深入讨论，
-请参阅 [安全加入协议](https://securejoin.delta.chat/en/latest/new.html)，
-并专门阅读有关“已验证群组”的内容，这是
-此处所谓的“带有绿色复选标记”或“保证的端到端加密”聊天的技术术语。
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### 附件（图片、文件、音频等）是否已端到端加密？
 
@@ -1090,7 +1084,7 @@ Chat 的 [PGP](https://github.com/rpgp/rpgp) 和
 某些功能需要特定权限、
 例如，如果您想[扫描邀请二维码]（#howtoe2ee），则需要授予相机权限。
 
-详见 [隐私政策](https://delta.chat/en/gdpr#24-app-permissions)。
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ### 我的朋友在哪里可以找到 Delta Chat？

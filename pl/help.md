@@ -179,7 +179,9 @@ Aby ją włączyć, przejdź do **Ustawienia → Czaty → Usuń wiadomości z u
 
 Jeśli używasz więcej niż jednego profilu czatu, możesz usunąć pojedyncze profile w górnym menu przełączania profili (na Androidzie i iOS) lub w pasku bocznym, klikając prawym przyciskiem myszy (w aplikacji na komputery). Profile czatu są usuwane tylko na urządzeniu, na którym nastąpiło usunięcie. Profile czatu na innych urządzeniach będą nadal w pełni działać.
 
-Jeśli używasz jednego domyślnego profilu czatu, możesz po prostu odinstalować aplikację. Spowoduje to automatyczne usunięcie wszystkich powiązanych danych adresowych na serwerze czatu. Aby uzyskać więcej informacji, zapoznaj się z informacjami o [usuwaniu adresów na stronie nine.testrun.org](https://nine.testrun.org/info.html#account-deletion) lub odpowiednią stroną wybranego [serwera czatu innej firmy](https://chatmail.at/relays).
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## Grupy {#groups}
@@ -503,17 +505,28 @@ Więcej informacji i opinii znajdziesz na [forum](https://support.delta.chat).
 
 ### Czym są przekaźniki? {#relays}
 
-Przekaźniki służą do tymczasowego przechowywania wiadomości w przypadku, gdy urządzenie jest offline. Przekaźniki to tanie i proste serwery, które nie przechowują danych takich jak stany grup, nazwa użytkownika czy awatar – wszystko to istnieje tylko na urządzeniu. Przekaźniki są obsługiwane przez różne grupy i osoby.
+Relays are used to temporarily hold messages in case your device is offline.
+Relays are cheap and dumb servers,
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-Domyślnie po instalacji przekaźnik jest **automatycznie skonfigurowany**, więc nie musisz się tym przejmować. Jeśli jednak chcesz, możesz skonfigurować przekaźniki w **Ustawienia → Zaawansowane → Przekaźniki**:
+By default, relays are **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at **Settings → Advanced → Relays**:
 
-- Możesz dodać przekaźnik, skanując jego kod QR;  [chatmail.at/relays](https://chatmail.at/relays) pokazuje niektóre znane przekaźniki. Jeśli masz wiele przekaźników, będziesz otrzymywać wiadomości na wszystkich z nich. Kontakty automatycznie rozpoznają twoje bieżące przekaźniki, gdy do nich wysyłasz wiadomość.
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-- Dotknij przekaźnika, aby ustawić go jako **używany do wysyłania**.
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
+  If you have multiple relays, you will receive messages on all of them.
 
-- Jeśli przekaźnik nie działa, możesz go **usunąć**.
-
-Aby uzyskać więcej szczegółów i poznać przyszłe możliwości przekaźników, śledź dyskusje na [forum](https://support.delta.chat).
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 ### Czy mogę używać klasycznego adresu e-mail w Delta Chat?
@@ -522,9 +535,11 @@ Tak, ale tylko wtedy, gdy adres e-mail jest używany wyłącznie przez [klientó
 
 Współdzielenie adresu e-mail z aplikacjami innymi niż aplikacje chatmail lub internetowymi programami pocztowymi nie jest obsługiwane z następujących powodów:
 
-- Aplikacje inne niż aplikacje chatmail w większości nie zapewniają automatycznego szyfrowania typu end-to-end wiadomości e-mail dla swoich użytkowników, podczas gdy aplikacje i przekaźniki chatmail powszechnie wymuszają szyfrowanie typu end-to-end i standardy bezpieczeństwa.
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- Aplikacje inne niż aplikacje chatmail wykorzystują serwery poczty e-mail jako długoterminowe archiwum wiadomości, podczas gdy klienci chatmail wykorzystują serwery poczty e-mail do tymczasowego przekazywania wiadomości błyskawicznych.
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - Obsługa pełnej gamy klasycznych konfiguracji poczty e-mail wymagałaby znacznych nakładów pracy w zakresie rozwoju i utrzymania oraz utrudniłaby zwiększenie odporności, niezawodności i szybkości wiadomości opartych na chatmail.
 
@@ -552,7 +567,7 @@ Po włączeniu tej opcji cotygodniowe statystyki będą automatycznie wysyłane 
 
 Interesują nas np. takie statystyki, jak:
 
-- Ile kontaktów nawiązano poprzez osobiste zeskanowanie kodu QR?
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - Które wersje Delta Chat są używane?
 
@@ -594,11 +609,25 @@ Jeśli korzystasz z domyślnych [przekaźników chatmail](https://chatmail.at/re
 Jeśli zamiast tego korzystasz z [klasycznego serwera e-mail](#classic-email), możesz wysyłać i odbierać wiadomości z szyfrowaniem typu end-to-end lub bez. Wiadomości bez szyfrowania typu end-to-end są oznaczone ikoną e-mail <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### Co oznacza zielony znacznik wyboru w profilu kontaktu? {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-Profil kontaktu może wyświetlać zielony znacznik wyboru <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" /> i wiersz  „Zweryfikowano przez…”. Każdy kontakt oznaczony zielonym znacznikiem albo wykonał z tobą bezpośrednie [skanowanie QR](#howtoe2ee), albo został zweryfikowany przez inny kontakt oznaczony zielonym znacznikiem. Weryfikacje odbywają się automatycznie podczas dodawania członków do grup. Osoba, która doda kontakt oznaczony zielonym znacznikiem wyboru do grupy zawierającej wyłącznie członków oznaczonych zielonym znacznikiem wyboru, staje się osobą weryfikującą. W profilu kontaktu możesz wielokrotnie dotykać tekstu „Zweryfikowano przez…”, aż dojdziesz do osoby, z którą bezpośrednio wykonałeś [skanowanie QR](#howtoe2ee).
+Older Delta Chat versions showed a green checkmark
+<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
+and an "Introduced by" line in some contact profiles.
 
-Aby uzyskać bardziej szczegółowe omówienie „gwarantowanego szyfrowania typu end-to-end”, zobacz [Protokoły Secure-Join](https://securejoin.delta.chat/en/latest/new.html), a w szczególności przeczytaj o „zweryfikowanych grupach”, technicznym określeniu tak zwanego tutaj „zielonego znacznika wyboru” lub „gwarantowanego szyfrowania end-to-end” czatów.
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### Czy załączniki (zdjęcia, pliki, pliki audio itp.) są szyfrowane metodą end-to-end?
 
@@ -727,7 +756,7 @@ Problemy opisane w tych ostrzeżeniach zostały naprawione i są częścią wyda
 
 Niektóre funkcje wymagają określonych uprawnień, np. musisz udzielić pozwolenia na korzystanie z aparatu, aby [zeskanować kod QR zaproszenia](#howtoe2ee).
 
-Szczegółowy opis znajdziesz w [Polityce Prywatności](https://delta.chat/en/gdpr#24-app-permissions).
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ### Gdzie moi znajomi mogą znaleźć Delta Chat?

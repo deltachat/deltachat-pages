@@ -252,10 +252,9 @@ header: سؤالات متداول
 نمایه‌های گپ تنها روی دستگاهی که پاک کردن از آنجا آغاز شده، پاک می‌شوند. 
 نمایه‌های گپ روی دستگاه‌های دیگر به‌طور کامل به کار خود ادامه خواهند داد. 
 
-اگر از یک نمایهٔ گپ پیش‌فرض تک استفاده می‌کنید می‌توانید به‌سادگی برنامه را uninstall کنید.
-این کار همچنان به‌طور خودکار پاک کردن همهٔ داده‌های نشانی مرتبط روی کارساز چت‌میل را آغاز خواهد کرد.
-برای اطلاعات بیشتر، لطفاً به [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-یا صفحهٔ مربوطه از [کارساز چت‌میل شخص ثالث انتخابی‌تان](https://chatmail.at/relays) مراجعه کنید.
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## گروه‌ها {#groups}
@@ -700,28 +699,28 @@ header: سؤالات متداول
 
 ### گذرگاه‌ها چیستند؟ {#relays}
 
-گذرگاه‌ها برای نگه‌داری موقت پیام‌ها در صورتی که دستگاهتان آفلاین است استفاده می‌شوند.
-گذرگاه‌ها کارسازهای ارزان و ساده هستند،
-که داده‌هایی مانند وضعیت گروه، نام یا نمایهتان را ذخیره نمی‌کنند -
-همهٔ آنها تنها روی دستگاه شما وجود دارند.
-گذرگاه‌ها توسط گروه‌ها و افراد مختلف اداره می‌شوند.
+Relays are used to temporarily hold messages in case your device is offline.
+Relays are cheap and dumb servers,
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-به‌طور پیش‌فرض، پس از نصب، یک گذرگاه **به‌طور خودکار راه‌اندازی می‌شود**،
-پس نیازی به مراقبت از آن ندارید.
-با این حال، اگر بخواهید،
-می‌توانید گذرگاه‌ها را در **تنظیمات → پیشرفته → گذرگاه‌ها** پیکربندی کنید:
+By default, relays are **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at **Settings → Advanced → Relays**:
 
-- می‌توانید یک گذرگاه را با اسکن کد QR آن **بیفزایید**؛
-  [chatmail.at/relays](https://chatmail.at/relays) برخی از شناخته‌شده‌ها را نشان می‌دهد.
-  اگر چندین گذرگاه داشته باشید، پیام‌ها را روی همهٔ آنها دریافت خواهید کرد.
-  مخاطبان به‌طور خودکار گذرگاه‌های فعلی شما را وقتی برایشان پیام می‌فرستید یاد می‌گیرند.
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-- روی یک گذرگاه ضربه بزنید تا آن را به‌عنوان **استفاده‌شده برای فرستادن** تنظیم کنید.
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
+  If you have multiple relays, you will receive messages on all of them.
 
-- اگر یک گذرگاه دیگر کار نمی‌کند، می‌توانید آن را **بردارید**.
-
-برای جزئیات بیشتر و امکانات آیندهٔ گذرگاه‌ها،
-می‌توانید بحث‌ها را در [انجمن](https://support.delta.chat) دنبال کنید.
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 ### آیا می‌توانم از نشانی رایانامهٔ کلاسیک با دلتاچت استفاده کنم؟
@@ -731,11 +730,11 @@ header: سؤالات متداول
 نمایش میزان استفاده از یک نشانی رایانامه با برنامه‌های غیرچت‌میل یا میلرهای مبتنی بر وب پشتیبانی نمی‌شود،
 به دلایل زیر:
 
-- برنامه‌های غیرچت‌میل عمدتاً رمزنگاری سراسری رایانامهٔ خودکار را برای کاربرانشان انجام نمی‌دهند،
-  در حالی که برنامه‌ها و گذرگاه‌های چت‌میل به‌طور گسترده رمزنگاری سراسری و استانداردهای امنیتی را اعمال می‌کنند.
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- برنامه‌های غیرچت‌میل از کارسازهای رایانامه به‌عنوان بایگانی پیام بلندمدت استفاده می‌کنند
-  در حالی که کلاینت‌های چت‌میل از کارسازهای رایانامه برای انتقال پیام فوری گذرا استفاده می‌کنند.
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - پشتیبانی از تنوع کامل تنظیمات رایانامهٔ کلاسیک
   نیازمند تلاش‌های توسعه و نگهداری قابل توجه خواهد بود،
@@ -781,7 +780,7 @@ header: سؤالات متداول
 
 ما مثلاً به آمارهایی مانند این علاقه‌مندیم:
 
-- چند مخاطب با اسکن شخصی کد QR معرفی می‌شوند؟
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - کدام نگارش‌های دلتاچت استفاده می‌شوند؟
 
@@ -835,23 +834,25 @@ header: سؤالات متداول
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### علامت تیک سبز در نمایهٔ مخاطب به چه معناست؟ {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-نمایهٔ یک مخاطب ممکن است علامت تیک سبز
+Older Delta Chat versions showed a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-و خط «معرفی‌شده توسط» را نشان دهد.
-هر مخاطب تیک‌دار سبز یا [اسکن QR](#howtoe2ee) مستقیم با شما انجام داده
-یا توسط مخاطب تیک‌دار دیگری معرفی شده است.
-معرفی‌ها هنگام افزودن اعضا به گروه‌ها به‌طور خودکار رخ می‌دهند. 
-هر کسی که مخاطب تیک‌دار را به گروهی با تنها اعضای تیک‌دار بیفزاید 
-معرفی‌کننده می‌شود. 
-در نمایهٔ مخاطب می‌توانید روی متن «معرفی‌شده توسط ...» بارها ضربه بزنید
-تا به کسی برسید که با او مستقیم [اسکن QR](#howtoe2ee) انجام داده‌اید.
+and an "Introduced by" line in some contact profiles.
 
-برای بحث عمیق‌تر دربارهٔ «رمزنگاری سراسری تضمین‌شده»
-لطفاً به [شیوه‌نامه‌های Secure-Join](https://securejoin.delta.chat/en/latest/new.html) مراجعه کنید
-و به‌طور خاص دربارهٔ «گروه‌های تأییدشده»، اصطلاح فنی
-آنچه اینجا «تیک‌دار سبز» یا «گپ‌های رمزنگاری سراسری تضمین‌شده» نامیده می‌شود بخوانید.
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### آیا پیوست‌ها (تصاویر، پرونده‌ها، صدا و غیره) رمزنگاری سراسری می‌شوند
 
@@ -1102,7 +1103,7 @@ OpenPGP به‌خودی‌خود ناامن نیست.
 برخی ویژگی‌ها به دسترسی‌های خاصی نیاز دارند،
 مثلاً اگر بخواهید [کد QR دعوت را اسکن کنید](#howtoe2ee) باید دسترسی به دوربین بدهید.
 
-برای بررسی دقیق به [سیاست حریم خصوصی](https://delta.chat/en/gdpr#24-app-permissions) مراجعه کنید.
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ### دوستانم دلتاچت را کجا پیدا کنند؟

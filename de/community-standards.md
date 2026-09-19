@@ -104,5 +104,6 @@ Die Projektbetreuer sind gegenüber dem Berichterstatter eines Vorfalls zur Vert
 
 ## Dank
 
-Unsere Gemeinschaftsstandards basieren auf [Contributor Covenant](https://contributor-covenant.org), Version 1.4, verfügbar auf <https://contributor-covenant.org/version/1/4>,
+Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at <https://contributor-covenant.org/version/1/4>,
 with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.

@@ -251,10 +251,9 @@ ou na barra lateral premendo co botón dereito (na aplicación de escritorio).
 Os perfís só se eliminan no dispositivo no que se iniciou a eliminación. 
 Os perfís noutros dispositivos continuarán a funcionar completamente. 
 
-Se utilizas un único perfil predeterminado, podes simplemente desinstalar a aplicación.
-Isto desencadeará automaticamente a eliminación de todos os datos de enderezos asociados no servidor de chatmail.
-Para máis información, consulte [nine.testrun.org address-deletion](https://nine.testrun.org/info.html#account-deletion) 
-ou a páxina correspondente do [servidor de chatmail](https://chatmail.at/relays) que escolleu.
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## Grupos {#groups}
@@ -683,27 +682,28 @@ Podes atopar máis información e dar a túa opinión no [Foro](https://support.
 
 ### Que son os repetidores? {#relays}
 
-Os repetidores úsanse para gardar mensaxes temporalmente no caso de que o teu dispositivo estea fóra de liña.
-Os repetidores son servidores baratos e simples,
-que non gardan datos como os estados dos grupos, o teu nome ou o teu avatar -
-todo iso existe só no teu dispositivo.
-Os repetidores son operados por diferentes grupos e persoas.
+Relays are used to temporarily hold messages in case your device is offline.
+Relays are cheap and dumb servers,
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-Por defecto, despois da instalación, establécese automaticamente un repetidor,
-polo que non tes que preocuparte por iso.
-Con todo, se queres,
-podes configurar os repetidores en **Configuración → Avanzado → Repetidores**:
+By default, relays are **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at **Settings → Advanced → Relays**:
 
-- Podes **engadir** un repetidor escaneando o seu código QR;
-  [chatmail.at/relays](https://chatmail.at/relays) amosa algúns dos coñecidos.
-  Se tes varios repetidores, recibirás mensaxes en todos eles.
-  Os contactos aprenden automaticamente os teus repetidores actuais cando lles envías unha mensaxe.
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-- Preme nun repetidor para configuralo como **usado para enviar**.
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
+  If you have multiple relays, you will receive messages on all of them.
 
-- Se un repetidor non está funcionando, pode **eliminalo**.
-
-Para máis detalles e futuras posibilidades dos relevos, podes seguir as discusións no [Foro](https://support.delta.chat).
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 ### Podo usar un enderezo de correo electrónico clásico con Delta Chat?
@@ -712,11 +712,11 @@ Si, pero só se a dirección de correo electrónico é utilizada exclusivamente 
 
 Non está permitido compartir o uso dun enderezo de correo electrónico con aplicacións que non sexan de chatmail nin con clientes de correo web, polas seguintes razóns:
 
-- As aplicacións que non son de chatmail en gran medida non están a ofrecer ás persoas usuarias
- cifrado de correo electrónico automático de extremo a extremo, mentres que as aplicacións de
- chatmail e os repetidores aplican de xeito xeneralizado o cifrado de extremo a extremo e os estándares de seguridade.
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- As aplicacións que non son de chatmail usan servidores de correo electrónico como arquivo de mensaxes a longo prazo, mentres que os clientes de chatmail usan servidores de correo electrónico para o reenvío temporal de mensaxes instantáneas.
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - Darlle soporte á total variedade de configuracións de correo electrónico clásicas
  requiriría esforzos considerables de desenvolvemento e mantemento, 
@@ -762,7 +762,7 @@ as estatísticas semanais enviaranse automaticamente a un bot.
 
 Temos interese, por exemplo, en estatísticas como:
 
-- Cantos contactos se engaden escaneando un código QR en persoa?
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - Que versións de Delta Chat se están a usar?
 
@@ -813,19 +813,25 @@ As mensaxes que non teñen cifrado de extremo a extremo márcanse cunha icona de
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### Que significa a símbolo de verificación verde nun perfil de contacto? {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-Un perfil de contacto pode amosar unha marca de verificación verde
+Older Delta Chat versions showed a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-e unha liña de "Presentado por".
-Cada contacto con marca de verificación verde ou ben fixo un [escaneo de QR](#howtoe2ee) directo contigo
-ou foi presentado por outro contacto con marca de verificación verde.
-As presentacións prodúcense automaticamente ao engadir participantes aos grupos. 
-A persoa que engada un contacto con marca de verificación verde a un grupo con só participantes con marca de verificación verde convértese en "contacto presentador". 
-Nun perfil de contacto podes tocar repetidamente no texto "Presentado por ..." ata chegar á persoa coa que fixeches directamente un [escaneo de QR](#howtoe2ee).
+and an "Introduced by" line in some contact profiles.
 
-Para unha discusión máis profunda sobre a "criptografía de extremo a extremo garantida", consulte [Secure-Join protocols](https://securejoin.delta.chat/en/latest/new.html)
-e concretamente le sobre "Grupos verificados", o termo técnico do que aquí se chama conversas "marcadas con verde e un aspa" ou "cifrados de extremo a extremo garantidos".
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### Están os anexos (imaxes, ficheiros, sons, etc.) cifrados de extremo a extremo?
 
@@ -1052,7 +1058,7 @@ Tamén se revelou un de gravidade media e algúns problemas de menor gravidade, 
 Algunhas funcións requiren certos permisos,
 por exemplo, necesitas conceder o permiso de cámara se queres [escanear un código QR de convite](#howtoe2ee).
 
-Consulte [Política de privacidade](https://delta.chat/en/gdpr#24-app-permissions) para unha visión detallada.
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ### Onde poden atopar Delta Chat as miñas amizades?

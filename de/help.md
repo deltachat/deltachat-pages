@@ -228,9 +228,9 @@ oder über die Seitenleiste (Desktop, Rechtsklick) entfernen.
 Chat-Profile werden nur auf dem Gerät entfernt, auf dem "Löschen" ausgewählt wurde. 
 Chat-Profile auf anderen Geräten funktionieren uneingeschränkt weiter. 
 
-Wenn du ein einzelnes Standard-Chat-Profil verwendest, kannst du die App einfach deinstallieren.
-Dadurch werden automatisch alle zugehörigen Daten gelöscht.
-Weitere Informationen findest du auf der Seite des ausgewählten [Relay](https://chatmail.at/relays).
+If you use a single default chat profile you can simply uninstall the app.
+This will still automatically trigger deletion of all associated address data on the chatmail server.
+For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
 
 ## Gruppen {#groups}
@@ -634,24 +634,28 @@ Du findest weitere Informationen im [Forum](https://support.delta.chat), wo du a
 
 ### Was sind Relays? {#relays}
 
-Relays werden verwendet, um Nachrichten vorübergehend zu speichern, falls dein Gerät offline ist.
-Relays sind billige und einfache Server,
-die keine Daten wie Gruppenstatus, deinen Namen oder deinen Avatar speichern –
-all das existiert nur auf deinem Gerät.
-Relays werden von verschiedenen Gruppen und Personen betrieben.
+Relays are used to temporarily hold messages in case your device is offline.
+Relays are cheap and dumb servers,
+that do not store any user data as group states, your name or avatar -
+all those exist only on your device.
+Relays are operated by different groups and people,
+not under the control of Delta Chat developers.
 
-Standardmäßig wird nach der Installation ein Relay **automatisch** hinzugefügt;
-darum musst du dich nicht kümmern.
-Wenn du möchtest,
-kannst du jedoch unter **Einstellungen → Erweitert → Relays** Änderungen vornehmen:
+By default, relays are **automatically set up**,
+so you do not need to care about that.
+However, if you want to,
+you can configure relays at **Settings → Advanced → Relays**:
 
-- Du kannst ein Relay **hinzufügen**, indem du einen QR-Code scannst, z.B. von [chatmail.at/relays](https://chatmail.at/relays). Bei mehreren Relays, empfängst du die Nachrichten von allen Relays. Deine Kontakte lernen deine Relays automatisch, sobald du ihnen schreibst.
+- You can **remove** a relay from the relay list (by long-tapping on it)
+  and choosing the remove action. Before you remove your last relay,
+  you will need to add another relay first.
 
-- Tippe ein Relay an, um es **Zum Senden zu verwenden**
+- You can **add** a relay by scanning its QR code or pasting its invite link;
+  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
+  If you have multiple relays, you will receive messages on all of them.
 
-- Wenn ein Relay nicht mehr funktioniert, kann es **entfernt** werden.
-
-Weitere Details und zukünftige Möglichkeiten findest du im [Forum](https://support.delta.chat).
+Adding or removing a relay will automatically inform your chat partners
+so they start or stop using a relay for chatting with you, respectively.
 
 
 ### Kann ich eine klassische E-Mail-Adresse mit Delta Chat verwenden?
@@ -660,11 +664,11 @@ Ja, aber nur, wenn die E-Mail-Adresse ausschließlich von [Chatmail-Clients](htt
 
 Die gemeinsame Nutzung einer E-Mail-Adresse mit Nicht-Chatmail-Apps oder webbasierten Mailprogrammen wird aus folgenden Gründen nicht unterstützt:
 
-- Nicht-Chatmail-Apps bieten ihren Nutzern größtenteils keine automatische End-to-End-Verschlüsselung,
-während Chatmail-Apps und Relays durchgängig End-to-End-Verschlüsselung und Sicherheitsstandards durchsetzen.
+- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
+  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- Nicht-Chatmail-Anwendungen nutzen E-Mail-Server als langfristiges Nachrichtenarchiv,
-während Chatmail-Clients E-Mail-Server für die kurzlebige Weiterleitung von Nachrichten verwenden.
+- Non-chatmail apps use email servers as a long-term message archive
+  while chatmail clients use email servers for ephemeral instant message forwarding.
 
 - Die Unterstützung der gesamten Bandbreite klassischer E-Mail-Konfigurationen
 würde einen erheblichen Entwicklungs- und Wartungsaufwand erfordern
@@ -708,7 +712,7 @@ werden wöchentlich Statistiken automatisch an einen Bot gesendet.
 
 Wir sind beispielsweise an folgenden Statistiken interessiert:
 
-- Wie viele Kontakte werden durch das persönliche Scannen eines QR-Codes hergestellt?
+- How many contacts are added by scanning a QR code or opening an invite link?
 
 - Welche Versionen von Delta Chat werden verwendet?
 
@@ -754,22 +758,25 @@ Wenn du die Standard-[Chatmail-Relays](https://chatmail.at/relays) verwendest, i
 Wenn du stattdessen ein Profil mit einem [klassischen E-Mail-Server](#classic-email) erstellst, kannst du Nachrichten mit und ohne Ende-zu-Ende-Verschlüsselung senden und empfangen.  Nachrichten ohne Ende-zu-Ende-Verschlüsselung werden mit einem E-Mail-Symbol gekennzeichnet  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### Was bedeutet das grüne Häkchen in einem Kontaktprofil? {#e2eeguarantee}
+### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
-Ein Kontaktprofile kann ein grünes Häkchen 
+Older Delta Chat versions showed a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-und "Eingeführt von" enthalten. 
-Jeder so markierte Kontakt hat entweder einen direkten [QR-Scan](#howtoe2ee) mit Ihnen durchgeführt
-oder wurde von einem anderen Kontakt mit grünem Häkchen eingeführt.
-Das Einführen geschieht automatisch, wenn Sie Mitglieder zu Gruppen hinzufügen. 
-Wer einen Kontakt mit grünem Häkchen zu einer Gruppe hinzufügt, wird zum Einführenden.
-In einem Kontaktprofil können Sie wiederholt auf den Text "Eingeführt von" tippen
-bis Sie zu demjenigen gelangen, mit dem Sie einen direkten [QR-Scan](#howtoe2ee) gemacht haben.
+and an "Introduced by" line in some contact profiles.
 
-Für eine ausführlichere Diskussion der "Garantierten Ende-zu-Ende-Verschlüsselung",
-siehe [Secure-Join-Protokolle](https://securejoin.delta.chat/en/latest/new.html)
-und dort speziell den Abschnitt zu "Verified Groups", dem technischen Begriff
-für "Chats mit grünem Häkchen" oder "Garantierter Ende-zu-Ende-Verschlüsselung".
+This line is no longer present.
+Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+contacts are identified by their cryptographic key ("public key"),
+and there is never any possibility for the relay operator
+to exchange a key in order to execute a man-in-the-middle (MitM) attack
+(in fact, the operator does not even see the key at any point).
+
+It is still possible for an attacker to give you an invite link
+that impersonates someone else, and an attacker who has your Delta Chat contact
+(because they are in a group chat with you)
+could try to start a chat with you under a wrong name.
+These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+and we are planning future improvements in order to mitigate them.
 
 ### Sind Anhänge (Bilder, Dateien, Audio usw.) Ende-zu-Ende-verschlüsselt?
 
@@ -988,7 +995,7 @@ Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schwe
 Einige Features erfordern bestimmte Berechtigungen.
 So muss z.B. der Kamerazugriff gewährt werden, wenn du einen [QR-Code scannen](#howtoe2ee) möchtest.
 
-Siehe [Datenschutzhinweise](https://delta.chat/de/gdpr#24-berechtigungen-der-app) für eine detaillierte Übersicht.
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ###  Wo können meine Freunde Delta Chat finden?
