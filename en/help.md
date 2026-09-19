@@ -1120,7 +1120,7 @@ from most recent to older:
 Some features require certain permissions,
 e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/en/gdpr#app-permissions) for a detailed overview.
+See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
 
 
 ### Where can my friends find Delta Chat?
