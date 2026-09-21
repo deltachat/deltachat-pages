@@ -5,8 +5,7 @@ lang: en
 
 # Privacy Policy Delta Chat Apps
 
-**Neither the Delta Chat apps nor their developers
-collect or store any personal data or messages from you.**
+**Delta Chat developers do not collect or store any personal data or messages from you.**
 
 You don't create an account with us, there are no ads and there is no tracking.
 
@@ -47,7 +46,7 @@ without any server in between.
 
 ## Creating a Chat Profile
 
-When you create a profile, Delta Chat sets it up on community-run
+When you create a profile, Delta Chat by default sets it up on community-run
 "chatmail relays" (or "chat relays" in short),
 so that messages reach you even if one relay is down or becomes unreachable.
 No phone number, email address, name or other personal data is ever asked
