@@ -3,17 +3,13 @@ title: Estàndards de la Comunitat
 lang: ca
 ---
 
-# Community Standards
+# Normes de la comunitat
 
-In the interest of fostering an open and welcoming environment,
-we as contributors and maintainers strive to make participation
-in our communities a pleasurable, harassment-free experience.
+Amb la voluntat de fomentar un entorn obert i acollidor, nosaltres, com a contribuïdors i mantenidors, ens esforcem per fer que la participació en les nostres comunitats sigui una experiència agradable i lliure d'assetjament.
 
-We also recognize that authentic human-to-human collaboration and
-collective maintenance of our repositories are key to keeping
-our development sustainable and resilient.
+També reconeixem que la col·laboració autèntica entre persones i el manteniment col·lectiu dels nostres repositoris són clau per mantenir el nostre desenvolupament sostenible i resilient.
 
-## Participation Standards
+## Normes de participació
 
 Exemples de comportaments que contribueixen a crear un entorn positiu inclouen:
 
@@ -30,69 +26,41 @@ Exemples de comportaments que demanem a tothom que eviti inclouen:
 * Assetjament públic o privat
 * Publicar informació privada d’altres persones, com adreces físiques o electròniques, sense permís explícit
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behavior. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Reconeixem que de vegades la gent pot tenir un mal dia o potser no és conscient de l'impacte del seu comportament. Quan això passi, els podeu recordar amb cura, en públic o en privat, segons el que sigui més adient. Suposeu bona fe;
+És més probable que els participants no se n'adonin que no pas que intentin intencionadament denigrar els altres o reduir la qualitat del debat.
 
 
-## Collective Maintenance Standards
+## Normes de manteniment col·lectiu
 
-Our organizational repositories are collectively maintained, not individually owned.
-To avoid and mitigate single points of knowledge and control,
-we encourage everyone to find and educate other maintainers
-to share knowledge and maintenance responsibilities.
+Els nostres repositoris organitzatius es mantenen col·lectivament, no són propietat individual. Per evitar i mitigar els punts únics de coneixement i control, animem tothom a trobar i formar altres mantenidors per compartir el coneixement i les responsabilitats de manteniment.
 
-All contributions must be human-authored,
-and fully understood and maintained by the contributors through
+Totes les contribucions han de ser escrites per un humà, i han de ser plenament enteses i mantingudes pels propis contribuïdors
 
-- writing all pull request, issue descriptions,
-  comments, documentation and commit messages by hand,
+- escriure a mà totes les pull request, descripcions d'issues, comentaris, documentació i missatges de commit,
 
-- performing extensive self-review
-  and taking full responsibility for submissions,
+- realitzar una revisió exhaustiva i assumir la plena responsabilitat del que s'envia.
 
-- caring for clarity and minimalism to ease the job of reviewers
-  who accept changes into collective maintenance,
+- Tenir cura de la claredat i el minimalisme per facilitar la feina dels revisors que accepten canvis en el manteniment col·lectiu,
 
-- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+- evitant la introducció de qualsevol dependència d'execució o de desenvolupament en la maquinària MLG (LLM).
 
-If LLMs were used in any substantial way,
-contributors are invited to write in their own words how they made use of them.
-Automated "assisted/co-authored-by" trailers
-naming generative tools or models are discouraged
-as they do not properly disclose how those tools were used
-and provide free advertisement for a toxic billionaire-dominated industry.
+Si s'haguessin utilitzat MLG (LLM) d'una manera substancial, es convida els col·laboradors a escriure amb les seves pròpies paraules com els van utilitzar.
+Es desaconsella la publicitat automàtica «assistida/coescrita per» que esmenti eines o models generatius, ja que no informen correctament de com es van utilitzar aquestes eines i fan publicitat gratuïta per a una indústria tòxica dominada per multimilionaris.
 
-In specific cases,
-maintainers may agree to configure bots (such as "dependabot")
-to automatically generate pull requests.
-However, these changes must never be automatically merged
-and always require strict human review before merging.
+En casos específics, els administradors poden acordar configurar bots (com ara «dependabot») per generar sol·licituds d'extracció automàticament. No obstant això, aquests canvis mai no s'han de fusionar automàticament i sempre requereixen una revisió humana estricta abans de fusionar-los.
 
 
 ## Responsables i Responsabilitats
 
-Project maintainers are those with commit rights to collective repositories
-or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned with our standards or do not match current project plans.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Els mantenidors del projecte són aquells que tenen drets de comit a repositoris col·lectius o drets administratius als canals de comunicació de la comunitat. Es demana a cada mantenidor que assumeixi la responsabilitat i prengui les mesures adequades i acurades en resposta a casos constatats de comportament qüestionable.
+Els mantenidors del projecte tenen el dret i la responsabilitat de suprimir, editar o rebutjar comentaris, commits, codi, edicions de la wiki, incidències i altres contribucions que no estiguin alineades amb els nostres estàndards o no coincideixin amb els plans actuals del projecte.
+També poden prohibir temporalment o permanentment la participació d'un col·laborador per altres comportaments que considerin inadequats, amenaçadors, ofensius o nocius.
 
 
 ## Àmbit
 
-Our Community Standards apply to project repositories, communication channels, and gatherings,
-as well as to public spaces,
-when an individual is representing the project or its community.
-Examples of representing a project or community include using an official project e-mail
-address, posting via a social media account associated with the project,
-or acting as a representative at an online or offline event.
+Les nostres normes comunitàries s'apliquen als repositoris de projectes, als canals de comunicació i a les trobades, així com als espais públics, quan una persona representa el projecte o la seva comunitat.
+Alguns exemples de representar un projecte o una comunitat inclouen utilitzar una adreça de correu electrònic oficial del projecte, publicar a través d'un compte de xarxa social associat al projecte o actuar com a representant en un esdeveniment en línia o presencial.
 
 
 ## Informar i Respostes
@@ -107,6 +75,4 @@ Els responsables no estan exempts de poder ser reportats i poden enfrontar reper
 
 ## Atribució
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>,
-with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
+El nostre document de Normes Comunitàries està adaptat del [Contributor Covenant](https://contributor-covenant.org), versió 1.4, disponible a <https://contributor-covenant.org/version/1/4>, amb seccions addicionals i un enfocament en el «manteniment col·lectiu» i la «redacció humana» afegits el setembre de 2026.

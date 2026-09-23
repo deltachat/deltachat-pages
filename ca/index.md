@@ -3,7 +3,7 @@ title: Delta Chat, missatgeria descentralitzada i segura
 lang: ca
 ---
 
-# Decentralized & Secure Messaging {#homepage-heading}
+# Missatgeria descentralitzada i segura {#homepage-heading}
 
 <div style="text-align: center">
 <picture>
@@ -13,7 +13,7 @@ lang: ca
 </div>
 
 <p style="text-align: center; margin-top: 0!important">
-<a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
+<a href="https://get.delta.chat" class="download-btn">Obté Delta Chat</a>
 </p>
 
 💬 Missatgeria instantània fiable amb suport per a múltiples perfils i dispositius

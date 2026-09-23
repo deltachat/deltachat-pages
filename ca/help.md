@@ -215,9 +215,9 @@ o a la barra lateral amb un clic amb el botó dret (a l'aplicació d'escriptori)
 Els perfils de xat només s'eliminen del dispositiu des del qual s'ha eliminat.
 Aquell perfil de xat en altres dispositius continuarà funcionant. 
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
+Si utilitzes un sol perfil de xat per defecte, pots desinstal·lar l'aplicació.
+Això activarà automàticament l'eliminació de totes les dades d'adreça associades al servidor de chatmail.
+Per a més informació, consulta la pàgina corresponent del teu [servidor de xatmail de tercers](https://chatmail.at/relays).
 
 
 ## Grups {#groups}
@@ -578,28 +578,25 @@ Pots trobar més informació i donar la teva opinió al [Fòrum](https://support
 
 ### Què són els retransmissors? {#relays}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store any user data as group states, your name or avatar -
-all those exist only on your device.
-Relays are operated by different groups and people,
-not under the control of Delta Chat developers.
+Els retransmissors s'utilitzen per a emmagatzemar missatges temporalment en cas que el teu dispositiu estigui desconnectat.
+Els retransmissors són servidors barats i tontos,
+que no emmagatzemen cap dada d'usuari com ara l'estat del grup, el teu nom o el teu avatar:
+tot això només existeix al teu dispositiu.
+Els retransmissors són operats per diferents grups i persones,
+i no estan sota el control dels desenvolupadors de Delta Chat.
 
-By default, relays are **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Per defecte, els retransmissors s'**estableixen automàticament**,
+així que no us n'heu de preocupar.
+No obstant això, si ho desitgeu,
+podeu configurar els retransmissors a **Configuració → Avançat → Relés**:
 
-- You can **remove** a relay from the relay list (by long-tapping on it)
-  and choosing the remove action. Before you remove your last relay,
-  you will need to add another relay first.
+- Pots **eliminar** un retransmissor de la llista de retransmissors (tocant-lo llargament) i seleccionant l'acció d'eliminació. Abans d'eliminar el teu últim retransmissor, primer hauràs d'afegir-ne un altre.
 
-- You can **add** a relay by scanning its QR code or pasting its invite link;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
-  If you have multiple relays, you will receive messages on all of them.
+- Pots **afegir** un ** retransmissor ** escanejant el seu codi QR o enganxant-hi l'enllaç d'invitació;
+  [chatmail.at/relays](https://chatmail.at/relays) en mostra alguns de coneguts públicament.
+  Si tens diversos retransmissors, rebràs missatges en tots.
 
-Adding or removing a relay will automatically inform your chat partners
-so they start or stop using a relay for chatting with you, respectively.
+Afegir o eliminar un retransmissor informarà automàticament els teus contactes de xat perquè comencin o deixin d'utilitzar un retransmissor per xatejar amb tu, respectivament.
 
 
 ### Puc utilitzar una adreça de correu electrònic clàssica amb Delta Chat?
@@ -608,11 +605,9 @@ Sí, però només si l'adreça de correu electrònic s'utilitza exclusivament pe
 
 No es permet compartir l'ús d'una adreça de correu electrònic amb aplicacions que no siguin de chatmail o correu-e basat en web, per les raons següents:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
+- Les aplicacions que no són de chatmail en gran part no ofereixen als seus usuaris un xifrat automàtic de correu-e d'extrem a extrem, mentre que les aplicacions de chatmail i els retransmissors apliquen de manera generalitzada el xifrat d'extrem a extrem i altres estàndards de seguretat.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message forwarding.
+- Les aplicacions que no són de chatmail utilitzen els servidors de correu electrònic com a arxiu de missatges a llarg termini, mentre que els clients de chatmail els utilitzen per al reenviament efímer de missatges instantanis.
 
 - Donar suport a tota la varietat de configuracions de correu electrònic clàssiques requeriria un esforç considerable de desenvolupament i manteniment, i dificultaria fer que la missatgeria basada en chatmail fos més resilient, fiable i ràpida.
 
@@ -647,7 +642,7 @@ Quan ho activis, les estadístiques setmanals s'enviaran automàticament a un bo
 
 Ens interessen, per exemple, estadístiques com ara:
 
-- How many contacts are added by scanning a QR code or opening an invite link?
+Quants contactes s'afegeixen en escanejar un codi QR o obrir un enllaç d'invitació?
 
 - Quines versions de Delta Chat s'estan utilitzant?
 
@@ -690,25 +685,20 @@ Si utilitzes el [retransmissor de chatmail](https://chatmail.at/relays) per defe
 Si enlloc d'això utilitzes un [servidor de correu clàssic](#classic-email), podràs enviar i rebre missatges amb o sense xifrat d'extrem a extrem. Els missatges que no vagin xifrats d'extrem a extrem es marcaran amb la icona de correu-e <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
+### Què ha passat amb la marca de verificació verda als perfils de contacte? {#e2eeguarantee}
 
-Older Delta Chat versions showed a green checkmark
+Les versions antigues de Delta Chat mostraven una marca de verificació verda
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
+i una línia «Introduït per» en alguns perfils de contacte.
 
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
+Aquesta línia ja no hi és.
+Des de [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+els contactes s'identifiquen per la seva clau criptogràfica ("clau pública"),
+i mai no hi ha cap possibilitat que l'operador del retransmissor intercanviï una clau per dur a terme un atac de "home al mig" (MitM)
+(de fet, l'operador ni tan sols veu la clau en cap moment).
 
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
+Encara és possible que un atacant us doni un enllaç d'invitació que suplantï la identitat d'una altra persona, i un atacant que tingui el vostre contacte de Delta Chat (perquè està en una conversa de grup amb vosaltres) podria intentar iniciar una conversa amb vosaltres sota un nom fals.
+Aquests tipus d'atacs són [presents en tots els missatgers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation), i estem planificant millores futures per mitigar-los.
 
 ### Els adjunts (imatges, fitxers, audio, etc.) es xifren d'extrem a extrem?
 

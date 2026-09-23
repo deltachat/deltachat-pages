@@ -179,9 +179,7 @@ Aby ją włączyć, przejdź do **Ustawienia → Czaty → Usuń wiadomości z u
 
 Jeśli używasz więcej niż jednego profilu czatu, możesz usunąć pojedyncze profile w górnym menu przełączania profili (na Androidzie i iOS) lub w pasku bocznym, klikając prawym przyciskiem myszy (w aplikacji na komputery). Profile czatu są usuwane tylko na urządzeniu, na którym nastąpiło usunięcie. Profile czatu na innych urządzeniach będą nadal w pełni działać.
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
+Jeśli używasz jednego domyślnego profilu czatu, możesz po prostu odinstalować aplikację. Spowoduje to automatyczne usunięcie wszystkich powiązanych danych adresowych na serwerze czatu. Aby uzyskać więcej informacji, zapoznaj się z informacjami na odpowiedniej stronie wybranego [serwera czatu innej firmy](https://chatmail.at/relays).
 
 
 ## Grupy {#groups}
@@ -505,28 +503,15 @@ Więcej informacji i opinii znajdziesz na [forum](https://support.delta.chat).
 
 ### Czym są przekaźniki? {#relays}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store any user data as group states, your name or avatar -
-all those exist only on your device.
-Relays are operated by different groups and people,
-not under the control of Delta Chat developers.
+Przekaźniki służą do tymczasowego przechowywania wiadomości w przypadku, gdy urządzenie jest offline. Przekaźniki to tanie i proste serwery, które nie przechowują żadnych danych użytkownika takich jak stany grup, nazwa użytkownika czy awatar – wszystko to istnieje tylko na twoim urządzeniu. Przekaźniki są obsługiwane przez różne grupy i osoby, niepodlegające kontroli twórców Delta Chat.
 
-By default, relays are **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Domyślnie przekaźniki są **automatycznie skonfigurowane**, więc nie musisz się tym przejmować. Jeśli jednak chcesz, możesz skonfigurować przekaźniki w **Ustawienia → Zaawansowane → Przekaźniki**:
 
-- You can **remove** a relay from the relay list (by long-tapping on it)
-  and choosing the remove action. Before you remove your last relay,
-  you will need to add another relay first.
+- Możesz **usunąć** przekaźnik z listy (przytrzymując go dłużej) i wybierając opcję usuwania. Zanim usuniesz ostatni przekaźnik, musisz najpierw dodać kolejny.
 
-- You can **add** a relay by scanning its QR code or pasting its invite link;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
-  If you have multiple relays, you will receive messages on all of them.
+- Możesz dodać przekaźnik, skanując jego kod QR lub wklejając jego link zaproszenia;  [chatmail.at/relays](https://chatmail.at/relays) pokazuje niektóre znane publicznie przekaźniki. Jeśli masz wiele przekaźników, będziesz otrzymywać wiadomości na wszystkich z nich.
 
-Adding or removing a relay will automatically inform your chat partners
-so they start or stop using a relay for chatting with you, respectively.
+Dodanie lub usunięcie przekaźnika automatycznie powiadomi osoby, z którymi rozmawiasz, dzięki czemu zaczną one korzystać z przekaźnika do rozmów z tobą lub przestaną to robić.
 
 
 ### Czy mogę używać klasycznego adresu e-mail w Delta Chat?
@@ -535,11 +520,9 @@ Tak, ale tylko wtedy, gdy adres e-mail jest używany wyłącznie przez [klientó
 
 Współdzielenie adresu e-mail z aplikacjami innymi niż aplikacje chatmail lub internetowymi programami pocztowymi nie jest obsługiwane z następujących powodów:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
+- Aplikacje inne niż aplikacje chatmail w większości nie zapewniają automatycznego szyfrowania typu end-to-end wiadomości e-mail dla swoich użytkowników, podczas gdy aplikacje i przekaźniki chatmail powszechnie wymuszają szyfrowanie typu end-to-end i inne standardy bezpieczeństwa.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message forwarding.
+- Aplikacje inne niż aplikacje chatmail wykorzystują serwery poczty e-mail jako długoterminowe archiwum wiadomości, podczas gdy klienci chatmail wykorzystują serwery poczty e-mail do tymczasowego przesyłania wiadomości błyskawicznych.
 
 - Obsługa pełnej gamy klasycznych konfiguracji poczty e-mail wymagałaby znacznych nakładów pracy w zakresie rozwoju i utrzymania oraz utrudniłaby zwiększenie odporności, niezawodności i szybkości wiadomości opartych na chatmail.
 
@@ -567,7 +550,7 @@ Po włączeniu tej opcji cotygodniowe statystyki będą automatycznie wysyłane 
 
 Interesują nas np. takie statystyki, jak:
 
-- How many contacts are added by scanning a QR code or opening an invite link?
+- Ile kontaktów jest dodawanych poprzez zeskanowanie kodu QR lub otwarcie linku zaproszenia?
 
 - Które wersje Delta Chat są używane?
 
@@ -609,25 +592,13 @@ Jeśli korzystasz z domyślnych [przekaźników chatmail](https://chatmail.at/re
 Jeśli zamiast tego korzystasz z [klasycznego serwera e-mail](#classic-email), możesz wysyłać i odbierać wiadomości z szyfrowaniem typu end-to-end lub bez. Wiadomości bez szyfrowania typu end-to-end są oznaczone ikoną e-mail <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
+### Co stało się z zielonym znacznikiem w profilach kontaktów? {#e2eeguarantee}
 
-Older Delta Chat versions showed a green checkmark
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
+W starszych wersjach aplikacji Delta Chat w niektórych profilach kontaktów widoczny był zielony znacznik <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" /> oraz informacja „Kontakt zweryfikowany przez”.
 
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
+Element ten został usunięty. Wynika to z faktu, że w [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2) kontakty są identyfikowane za pomocą klucza kryptograficznego („klucza publicznego”), a operator przekaźnika nie ma możliwości podmienienia klucza w celu przeprowadzenia ataku typu „man-in-the-middle” (MitM) – co więcej, operator w ogóle nie widzi tego klucza.
 
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
+Nadal jednak istnieje ryzyko, że atakujący prześle ci link zaproszenia, podszywając się pod inną osobę, lub – jeśli znajduje się z tobą w tej samej grupie – spróbuje nawiązać rozmowę, używając fałszywej nazwy. Tego typu zagrożenia [występują we wszystkich komunikatorach](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation), a my planujemy wprowadzenie ulepszeń, które pozwolą je ograniczyć.
 
 ### Czy załączniki (zdjęcia, pliki, pliki audio itp.) są szyfrowane metodą end-to-end?
 

@@ -5,9 +5,13 @@ lingua: gl
 
 # Regras comunitarias
 
-Co fin de fomentar un entorno aberto e acolledor, nós, en tanto que colaboradores e mantedores, tratamos de face-la participación nas nosas comunidades unha experiencia agradábel e libre de acoso.
+Co fin de fomentar un entorno aberto e acolledor, nós,
+en tanto que contribuíntes e mantedores, tratamos de face-la participación
+nas nosas comunidades unha experiencia agradábel e libre de acoso.
 
-Tamén recoñecemos que unha colaboración entre humanos real e unha mantenza colectiva dos nosos repositorios son clave para resgarda-lo noso desenvolvemento sostíbel e resiliente.
+Tamén recoñecemos que unha colaboración entre humanos real e 
+unha mantenza colectiva dos nosos repositorios son clave 
+para resgarda-lo noso desenvolvemento sostíbel e resiliente.
 
 ## Regras de participación
 
@@ -26,21 +30,31 @@ Exemplos de comportamentos que pedimos a todo o mundo que eviten inclúen:
 * Acoso público ou privado
 * Publicar información privada doutras persoas, como un enderezo físico ou electrónico, sen permiso explícito
 
-Recoñecemos que en ocasións as persoas poden pasar un mal día, ou quizais non ser conscientes do impacto do seu comportamento. Cando iso ocorre, podes lembrarlles discretamente, en público ou privado, o que é máis apropiado. Suxerimos asumir boa intención; é máis probábel que os participantes son inconscientes que que estean tratando de denigrar outros ou reducir a calidade da discusión intencionalmente.
+Recoñecemos que en ocasións as persoas poden pasar un mal día, ou quizais non ser conscientes 
+do impacto do seu comportamento. Cando iso ocorre, podes lembrarlles discretamente, 
+en público ou privado, o que é máis apropiado. Suxerimos asumir boa intención;
+é máis probábel que os participantes son inconscientes que que estean tratando de denigrar outros 
+ou reducir a calidade da discusión intencionalmente.
 
 
 ## Regras de mantenza colectiva
 
 Os repositorios da nosa organización son mantidos colectivamente e non de propiedade individual.
-Para evitar e mitigar lugares úncos de coñecemento e control, animamos a todo o mundo a atopar e ensinar a outros mantedores para compartir o coñecemento e as responsabilidades de mantenza.
+Para evitar e mitigar lugares úncos de coñecemento e control,
+animamos a todo o mundo a atopar e ensinar a outros mantedores
+para compartir o coñecemento e as responsabilidades de mantenza.
 
-Tódalas contribucións deben ser de autoría humana, e plenamente entendidas e mantidas polas persoas colaboradoras mediante
+Tódalas contribucións deben ser de autoría humana,
+e plenamente entendidas e mantidas polas persoas colaboradoras mediante
 
-- escribindo tódalas solicitudes de puxada, descricións de incidencias, comentarios, documentación e mensaxes de compromiso manuais,
+- escribindo tódalas solicitudes de puxada, descricións de incidencias,
+comentarios, documentación e mensaxes de compromiso manuais,
 
-- facendo unha autoavaliación completa e asumindo a responsabilidade plena dos envíos,
+- facendo unha autoavaliación completa
+e asumindo a responsabilidade plena dos envíos,
 
-- coidando a claridade e o minimalismo para facilitar o traballo dos/as revisores/as que aceptan os cambios para a súa mantenza colectiva,
+- coidando a claridade e o minimalismo para facilitar o traballo dos/as revisores/as
+que aceptan os cambios para a súa mantenza colectiva,
 
 - evitando a introdución de calquera execución ou dependencias de desenvolvemento dependentes de LLM.
 
@@ -65,7 +79,8 @@ ou dereitos administrativos nas canles de comunicación da comunidade.
 Se require ós mantedores asumi-la responsabilidade e medidas apropiadas e cautas
 en resposta a feitos de procederes cuestionábeis.
 Os mantedores do proxecto teñen o dereito e a responsabilidade de eliminar, editar ou
-rexeitar comentarios, remisións, código, edicións da wiki, incidencias, e outras contribucións que non están aliñadas coas nosas regras ou non corresponden ós plans actuais do proxecto. Tamén poden vetar temporal ou permanentemente un contribuínte por
+rexeitar comentarios, remisións, código, edicións da wiki, incidencias, e outras contribucións
+que non están aliñadas coas nosas regras ou non corresponden ós plans actuais do proxecto. Tamén poden vetar temporal ou permanentemente un contribuínte por
 outros comportamentos que consideraron impropios, ameazantes, ofensivos, ou nocivos.
 
 
