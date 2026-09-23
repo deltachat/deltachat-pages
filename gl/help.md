@@ -251,9 +251,9 @@ ou na barra lateral premendo co botón dereito (na aplicación de escritorio).
 Os perfís só se eliminan no dispositivo no que se iniciou a eliminación. 
 Os perfís noutros dispositivos continuarán a funcionar completamente. 
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
+Se empregas un único perfil de conversa, podes simplemente desinstalar a aplicación.
+Desta maneira activarase a elimnación de tódolos datos asociados ao mesmo no servidor de chatmail.
+Para máis información, pode consultar a páxina respectiva do seu [servidor de chatmail por terceiros](https://chatmail.at/relays).
 
 
 ## Grupos {#groups}
@@ -537,7 +537,7 @@ Ambas as opcións "Conexión de fondo" son eficientes a nivel enerxético e
  seguras para probar en caso de que as mensaxes cheguen con longos atrasos.
 
 
-### Que privadas son as notificacións push de Delta Chat?{#privacy-notifications}
+### Que privadas son as notificacións push de Delta Chat? {#privacy-notifications}
 
 O soporte de notificacións Push de Delta Chat evita a fuga de información privada.
 Non filtra datos do perfil, enderezo IP nin o contido das mensaxes (nin sequera cifrado) 
@@ -682,25 +682,25 @@ Podes atopar máis información e dar a túa opinión no [Foro](https://support.
 
 ### Que son os repetidores? {#relays}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store any user data as group states, your name or avatar -
-all those exist only on your device.
-Relays are operated by different groups and people,
-not under the control of Delta Chat developers.
+Os repetidores empréganse para manter temporalmente as mensaxes cando o seu dispositivo non está en liña.
+Os repetidores son servidores baratos e simples,
+que non almacenan ningún dato dos usuarios, en tanto que os estados de grupo, o seu nome ou avatar -
+existen exclusivamente no seu dispositivo.
+Os repetidores son operados por diferentes grupos e persoas,
+e non están baixo o control dos desenvolvedores de Delta Chat.
 
 Por defecto, os repetidores son **automáticamente configurados**,
 de maneira que non debes preocuparte ao respecto.
 Non obstante, se queres,
 podes configurar os repetidores en **Configuración → Avanzado → Repetidores**:
 
-- You can **remove** a relay from the relay list (by long-tapping on it)
-  and choosing the remove action. Before you remove your last relay,
-  you will need to add another relay first.
+Pode **eliminar** un repetidor da lista de repetidores (premendo algún tempo nel e)
+escollendo a acción de borrar. Antes de eliminar o seu último repetidor,
+ necesitará engadir outro repetidor primeiro.
 
-- You can **add** a relay by scanning its QR code or pasting its invite link;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
-  If you have multiple relays, you will receive messages on all of them.
+Pode **engadir** un repetidor escaneando o código QR ou pegando a súa ligazón de convite;
+ [chatmail.at/relays](https://chatmail.at/relays) mostra algúns públicos e coñecidos.
+Se ten múltiples repetidores, recibirá mensaxes en todos eles.
 
 Engadir ou eliminar un repetidor será notificado automáticamente aos demais membros do chat
 de maneira que comecen ou paren de empregar un repetidor para conversar contigo, respectivamente.
@@ -712,8 +712,8 @@ Si, pero só se a dirección de correo electrónico é utilizada exclusivamente 
 
 Non está permitido compartir o uso dun enderezo de correo electrónico con aplicacións que non sexan de chatmail nin con clientes de correo web, polas seguintes razóns:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
+As aplicacións que non empregan chatmail en grande medida non cumpren o cifrado punta a punta automático de correo electrónico para as súas persoas usuarias,
+mentres que as aplicacións clientes de chatmail e os repetidores impoñen completamente o cifrado punta a punta e outros estándares de seguridade.
 
 - As aplicacións que non implementan chatmail empregan os servidores de correo electrónico como arquivos de mensaxes a longo prazo
 mentres que os clientes de chatmail empregan os servidores de correo electrónico para o reenvío de mensaxes instantáneas efímeras.
@@ -819,19 +819,20 @@ Versións vellas de Delta Chat mostraba unha marca verde
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
 e unha liña "Introducido por" nos perfís dalgúns contactos.
 
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
+Esta liña xa non está presente.
+Dende  [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+os contactos identifícanse pola súa clave criptográfica ("chave pública")
+,
+e nunca hai posibilidade algunha para o operador do repetidor
+de intercambia-la clave para executar un ataque home-no-medio (MitM)
+(de feito, o operador non pode ver a clave en ningún momento).
 
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
+Inda así é posíbel para un atacante dar un código de convite
+facéndose pasar por outra persoa, e un atacante que ten o seu contacto de Delta Chat
+(porque están nunha conversa de grupo compartida)
+podería iniciar unha conversa con vostede baixo un nome falso.
+Este tipo de ataques están [presentes en tódalas aplicacións de mensaxería](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+e estamos planeando melloras futuras co fin de mitigalos.
 
 ### Están os anexos (imaxes, ficheiros, sons, etc.) cifrados de extremo a extremo?
 
