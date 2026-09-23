@@ -689,10 +689,10 @@ all those exist only on your device.
 Relays are operated by different groups and people,
 not under the control of Delta Chat developers.
 
-By default, relays are **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Por defecto, os repetidores son **automáticamente configurados**,
+de maneira que non debes preocuparte ao respecto.
+Non obstante, se queres,
+podes configurar os repetidores en **Configuración → Avanzado → Repetidores**:
 
 - You can **remove** a relay from the relay list (by long-tapping on it)
   and choosing the remove action. Before you remove your last relay,
@@ -702,8 +702,8 @@ you can configure relays at **Settings → Advanced → Relays**:
   [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
   If you have multiple relays, you will receive messages on all of them.
 
-Adding or removing a relay will automatically inform your chat partners
-so they start or stop using a relay for chatting with you, respectively.
+Engadir ou eliminar un repetidor será notificado automáticamente aos demais membros do chat
+de maneira que comecen ou paren de empregar un repetidor para conversar contigo, respectivamente.
 
 
 ### Podo usar un enderezo de correo electrónico clásico con Delta Chat?
@@ -715,8 +715,8 @@ Non está permitido compartir o uso dun enderezo de correo electrónico con apli
 - Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
   while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message forwarding.
+- As aplicacións que non implementan chatmail empregan os servidores de correo electrónico como arquivos de mensaxes a longo prazo
+mentres que os clientes de chatmail empregan os servidores de correo electrónico para o reenvío de mensaxes instantáneas efímeras.
 
 - Darlle soporte á total variedade de configuracións de correo electrónico clásicas
  requiriría esforzos considerables de desenvolvemento e mantemento, 
@@ -762,7 +762,7 @@ as estatísticas semanais enviaranse automaticamente a un bot.
 
 Temos interese, por exemplo, en estatísticas como:
 
-- How many contacts are added by scanning a QR code or opening an invite link?
+- Cantos contactos se engaden escaneando un código QR ou abrindo unha ligazón de convite?
 
 - Que versións de Delta Chat se están a usar?
 
@@ -813,11 +813,11 @@ As mensaxes que non teñen cifrado de extremo a extremo márcanse cunha icona de
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
+### Qué aconteceu coa marca verde nos perfiles dos contactos?{#e2eeguarantee}
 
-Older Delta Chat versions showed a green checkmark
+Versións vellas de Delta Chat mostraba unha marca verde
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
+e unha liña "Introducido por" nos perfís dalgúns contactos.
 
 This line is no longer present.
 Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)

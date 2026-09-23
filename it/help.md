@@ -253,9 +253,9 @@ o dalla barra laterale con un clic destro (nell'app Desktop).
 I profili chat vengono rimossi solo sul dispositivo in cui è stata attivata l'eliminazione.
 I profili chat sugli altri dispositivi continueranno a funzionare correttamente.
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
+Se utilizzi un unico profilo chat predefinito, puoi semplicemente disinstallare l'app.
+Ciò avvierà automaticamente l'eliminazione di tutti i dati dell'indirizzo associati sul server chatmail.
+Per ulteriori informazioni, consulta la pagina dedicata del tuo [server chatmail di terze parti](https://chatmail.at/relays).
 
 
 ## Gruppi {#groups}
@@ -696,28 +696,28 @@ e lasciare un riscontro nel [Forum](https://support.delta.chat).
 
 ### Cosa sono i ripetitori? {#relays}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store any user data as group states, your name or avatar -
-all those exist only on your device.
-Relays are operated by different groups and people,
-not under the control of Delta Chat developers.
+I ripetitori vengono utilizzati per conservare temporaneamente i messaggi nel caso in cui il tuo dispositivo sia offline.
+I ripetitori sono server semplici ed economici,
+che non memorizzano alcun dato dell'utente, come lo stato dei gruppi, il tuo nome o l'avatar:
+tutte queste informazioni risiedono esclusivamente sul tuo dispositivo.
+I ripetitori sono gestiti da gruppi e persone diverse,
+e non sono sotto il controllo degli sviluppatori di Delta Chat.
 
-By default, relays are **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Per impostazione predefinita, i ripetitori vengono **configurati automaticamente**,
+quindi non devi preoccupartene.
+Tuttavia, se lo desideri,
+puoi configurare i ripetitori in **Impostazioni → Avanzate → Ripetitori**:
 
-- You can **remove** a relay from the relay list (by long-tapping on it)
-  and choosing the remove action. Before you remove your last relay,
-  you will need to add another relay first.
+- Puoi **rimuovere** un ripetitore dall'elenco dei ripetitori (tenendolo premuto a lungo)
+  e selezionando l'azione di rimozione. Prima di rimuovere l'ultimo ripetitore,
+  dovrai prima aggiungerne un altro.
 
-- You can **add** a relay by scanning its QR code or pasting its invite link;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
-  If you have multiple relays, you will receive messages on all of them.
+- puoi **aggiungere** un ripetitore scansionando il suo codice QR o incollando il suo link di invito;
+  [chatmail.at/relays](https://chatmail.at/relays) ne elenca alcuni di dominio pubblico.
+  Se utilizzi più ripetitori, riceverai i messaggi su tutti quanti.
 
-Adding or removing a relay will automatically inform your chat partners
-so they start or stop using a relay for chatting with you, respectively.
+Aggiungere o rimuovere un ripetitore informerà automaticamente i tuoi interlocutori,
+cosicché inizino o smettano di utilizzare un ripetitore per chattare con te, rispettivamente.
 
 
 ### Posso usare un indirizzo email classico con Delta Chat?
@@ -727,11 +727,11 @@ Sì, ma solo se l'indirizzo e-mail viene utilizzato esclusivamente dai [client d
 Non è supportata la condivisione dell'utilizzo di un indirizzo email con apps diverse dalle chatmail o con servizi di posta basati sul web,
 per i seguenti motivi:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
+- Le applicazioni che non sono di tipo chatmail non riescono, nella maggior parte dei casi, a garantire la crittografia end-to-end automatica delle e-mail per i propri utenti,
+  mentre le applicazioni e i ripetitori chatmail impongono in modo capillare la crittografia end-to-end e altri standard di sicurezza.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message forwarding.
+- Le applicazioni non chatmail utilizzano i server e-mail come archivio di messaggi a lungo termine,
+  mentre i client chatmail utilizzano i server e-mail per l'inoltro effimero di messaggi istantanei.
 
 - Supportare l'intera gamma di configurazioni email classiche
   richiederebbe notevoli sforzi di sviluppo e manutenzione
@@ -777,7 +777,7 @@ statistiche settimanali verranno inviate automaticamente a un bot.
 
 Siamo interessati, ad esempio, a statistiche come:
 
-- How many contacts are added by scanning a QR code or opening an invite link?
+- Quanti contatti vengono aggiunti scansionando un codice QR o aprendo un link di invito?
 
 - Quali versioni di Delta Chat vengono utilizzate?
 
@@ -831,25 +831,25 @@ I messaggi privi di crittografia end-to-end sono contrassegnati dall'icona di un
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
+### Che fine ha fatto la spunta verde nei profili dei contatti? {#e2eeguarantee}
 
-Older Delta Chat versions showed a green checkmark
+Le versioni precedenti di Delta Chat mostravano un segno di spunta verde.
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
+e una riga "Presentato da" in alcuni profili di contatto.
 
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
+Questa riga non è più presente.
+A partire da [Delta Chat v2](https://delta.chat/en/2025-08-04-encryption-v2),
+i contatti vengono identificati tramite la loro chiave crittografica ("chiave pubblica")
+e non vi è alcuna possibilità per l'operatore del ripetitore
+di sostituire una chiave per eseguire un attacco man-in-the-middle (MitM)
+(di fatto, l'operatore non vede nemmeno la chiave in alcun momento).
 
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
+È comunque possibile che un malintenzionato ti invii un link di invito
+fingendosi qualcun altro; inoltre, un attaccante che possiede il tuo contatto Delta Chat
+(poiché partecipa a una chat di gruppo insieme a te)
+potrebbe tentare di avviare una conversazione usando un nome falso.
+Questo tipo di attacchi è [presente in tutte le app di messaggistica](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation)
+e stiamo pianificando miglioramenti futuri per mitigarli.
 
 ### Gli allegati (immagini, file, audio, ecc.) sono crittografati end-to-end?
 
