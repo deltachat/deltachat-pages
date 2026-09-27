@@ -32,6 +32,7 @@ gl:
     dl_mac_appstore: Descarga desde Apple Mac AppStore
     dl_appstore: Descarga na Apple AppStore
     dl_fdroid: Para ti en F-Droid
+    dl_ghs: Para ti en GitHub Store
     gplay: Desde Google Play
 
   help:
