@@ -9,8 +9,8 @@ Para as interaccións na comunidade de Delta Chat, por favor le as nosas [Normas
 
 - [Fediverso](https://chaos.social/web/@delta) para anuncios e comentarios.
 
-- [foro de axuda Delta Chat](https://support.delta.chat) para obter
-  axuda e comentar o funcionamento.
+- [Foro de apoio de Delta Chat](https://support.delta.chat) para discusións máis amplas
+das funcións e obter apoio.
 
 - [Repositorios de Delta Chat](https://github.com/deltachat/) onde podes atopar o código das aplicacións de Delta Chat e deste sitio web.
 
