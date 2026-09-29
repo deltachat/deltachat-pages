@@ -228,9 +228,8 @@ oder über die Seitenleiste (Desktop, Rechtsklick) entfernen.
 Chat-Profile werden nur auf dem Gerät entfernt, auf dem "Löschen" ausgewählt wurde. 
 Chat-Profile auf anderen Geräten funktionieren uneingeschränkt weiter. 
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
+Wenn du ein einzelnes Standard-Chat-Profil verwendest, kannst du die App einfach deinstallieren. Dies löscht automatisch alle zugehörigen Daten auf dem Chatmail-Relay.
+Weitere Informationen findest du auf der entsprechenden Seite des verwendeten [Chatmail-Server](https://chatmail.at/relays).
 
 
 ## Gruppen {#groups}
@@ -758,7 +757,7 @@ Wenn du die Standard-[Chatmail-Relays](https://chatmail.at/relays) verwendest, i
 Wenn du stattdessen ein Profil mit einem [klassischen E-Mail-Server](#classic-email) erstellst, kannst du Nachrichten mit und ohne Ende-zu-Ende-Verschlüsselung senden und empfangen.  Nachrichten ohne Ende-zu-Ende-Verschlüsselung werden mit einem E-Mail-Symbol gekennzeichnet  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
+### Was ist mit dem "Grünen Haken" in Kontaktprofilen passiert? {#e2eeguarantee}
 
 Older Delta Chat versions showed a green checkmark
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />

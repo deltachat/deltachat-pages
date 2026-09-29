@@ -3,17 +3,18 @@ title: Стандарты сообщества
 lang: ru
 ---
 
-# Community Standards
+# Стандарты сообщества
 
-In the interest of fostering an open and welcoming environment,
-we as contributors and maintainers strive to make participation
-in our communities a pleasurable, harassment-free experience.
+В интересах создания открытой и приветливой среды,
+мы – команда разработчиков и участников проекта
+– стараемся сделать участие в наших сообществах приятным процессом,
+свободным от любых форм преследований.
 
-We also recognize that authentic human-to-human collaboration and
-collective maintenance of our repositories are key to keeping
-our development sustainable and resilient.
+Мы также понимаем, что подлинное человеческое взаимодействие и
+коллективная поддержка наших репозиториев – это залог устойчивого
+и жизнеспособного развития проекта.
 
-## Participation Standards
+## Стандарты участия
 
 Примеры поведения, способствующего созданию позитивной среды, включают в себя:
 
@@ -31,69 +32,69 @@ our development sustainable and resilient.
 * Публикация частной информации других людей, такой как физический или электронный
   адрес, без явного разрешения
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behavior. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Мы понимаем, что иногда у людей случаются неудачные дни или они могут не осознавать,
+как их поведение влияет на окружающих. В таких случаях можно аккуратно напомнить об этом – 
+публично или лично, в зависимости от того, что будет уместнее. Исходите из принципа доброй воли:
+скорее всего, участники просто не осознают своих действий,
+а не пытаются намеренно задеть других или снизить качество дискуссии.
 
 
-## Collective Maintenance Standards
+## Стандарты коллективной поддержки
 
-Our organizational repositories are collectively maintained, not individually owned.
-To avoid and mitigate single points of knowledge and control,
-we encourage everyone to find and educate other maintainers
-to share knowledge and maintenance responsibilities.
+Наши организационные репозитории поддерживаются коллективно, а не принадлежат кому-то одному.
+Чтобы избежать возникновения единых точек знания и контроля,
+мы призываем всех находить и обучать других сопровождающих,
+чтобы распределять между ними знания и обязанности по поддержке.
 
-All contributions must be human-authored,
-and fully understood and maintained by the contributors through
+Все вклады должны быть созданы человеком;
+при этом участники обязаны полностью понимать их и обеспечивать их поддержку посредством
 
-- writing all pull request, issue descriptions,
-  comments, documentation and commit messages by hand,
+- написание всех запросов на слияние, описаний задач,
+  комментариев, документации и сообщений коммитов вручную,
 
-- performing extensive self-review
-  and taking full responsibility for submissions,
+- проведения тщательной самопроверки
+  и принятия полной ответственности за отправляемые изменения,
 
-- caring for clarity and minimalism to ease the job of reviewers
-  who accept changes into collective maintenance,
+- стремления к ясности и лаконичности, чтобы облегчить работу рецензентов,
+  принимающих изменения в коллективную поддержку,
 
-- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+- избегания возникновения каких-либо зависимостей от механизмов LLM во время выполнения или разработки.
 
-If LLMs were used in any substantial way,
-contributors are invited to write in their own words how they made use of them.
-Automated "assisted/co-authored-by" trailers
-naming generative tools or models are discouraged
-as they do not properly disclose how those tools were used
-and provide free advertisement for a toxic billionaire-dominated industry.
+Если при работе существенно использовались LLM,
+просим описывать процесс их применения своими словами.
+Автоматические пометки "assisted/co-authored-by"
+с упоминанием конкретных генеративных инструментов или моделей не приветствуются:
+они не раскрывают суть работы с ними и служат
+бесплатной рекламой для токсичной индустрии, контролируемой миллиардерами.
 
-In specific cases,
-maintainers may agree to configure bots (such as "dependabot")
-to automatically generate pull requests.
-However, these changes must never be automatically merged
-and always require strict human review before merging.
+В отдельных случаях
+допускается настройка ботов (например, "dependabot")
+для автоматического создания пул-реквестов.
+Однако такие изменения никогда не должны объединяться автоматически
+и всегда требуют обязательной тщательной проверки человеком перед слиянием.
 
 
 ## Сопровождающие и обязанности
 
-Project maintainers are those with commit rights to collective repositories
-or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned with our standards or do not match current project plans.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Мейнтейнеры проекта – это участники, обладающие правами на внесение изменений в общие репозитории
+или административными правами в каналах связи сообщества.
+От мейнтейнеров ожидается ответственность и принятие соответствующих, взвешенных мер
+при обнаружении случаев сомнительного поведения.
+Мейнтейнеры проекта имеют право и обязанность удалять, редактировать или
+отклонять комментарии, коммиты, код, правки вики, задачи (issues) и другие вклады,
+которые не соответствуют нашим стандартам или текущим планам проекта.
+Также допускается временная или постоянная блокировка участников за
+любое другое поведение, которое будет признано неподобающим, угрожающим, оскорбительным или вредным.
 
 
 ## Область действия
 
-Our Community Standards apply to project repositories, communication channels, and gatherings,
-as well as to public spaces,
-when an individual is representing the project or its community.
-Examples of representing a project or community include using an official project e-mail
-address, posting via a social media account associated with the project,
-or acting as a representative at an online or offline event.
+Наши Правила сообщества распространяются на репозитории проекта, каналы связи и встречи,
+а также на публичные пространства,
+в случаях представления проекта или его сообщества.
+Примеры такого представительства включают использование официального адреса электронной
+почты проекта, публикации через аккаунт в социальных сетях, связанный с проектом,
+или участие в качестве представителя на онлайн- или офлайн-мероприятиях.
 
 
 ## Сообщение о нарушениях и реакции
@@ -113,6 +114,6 @@ or acting as a representative at an online or offline event.
 
 ## Атрибуция
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>,
-with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
+"Стандарты сообщества" адаптированы на основе [Contributor Covenant](https://contributor-covenant.org), версия 1.4,
+доступного по адресу <https://contributor-covenant.org/version/1/4>,
+с добавлением разделов и акцентом на "коллективное сопровождение" и "человеческое авторство" в сентябре 2026 года.
