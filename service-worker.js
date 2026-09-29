@@ -480,7 +480,14 @@ let initServiceWorker = async () => {
         let lrpcBackup = new Map(self.LibResilientPluginConstructors)
         
         // config sources to try
-        let config_sources = ['v1', 'v1:verified', 'fetch']
+        // NOTE: 'v1:verified' (populated only after a successfully fetched
+        // and validated config.json) MUST be preferred over the generic,
+        // opportunistically-populated 'v1' cache, which can be poisoned
+        // (e.g. via a MITM'd/cache-deceived response) without ever going
+        // through validation. Checking it first would let an attacker-
+        // controlled config.json (including a malicious OAuth redirect_uri)
+        // be trusted ahead of the verified source.
+        let config_sources = ['v1:verified', 'v1', 'fetch']
         
         // keep track
         let config_executed = false
