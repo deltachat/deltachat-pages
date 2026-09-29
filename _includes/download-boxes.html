@@ -33,6 +33,10 @@
                         <img src="../assets/badges/appgallery.png" alt="Explore it on AppGallery" width=159 height=48 />
                     </picture>
                 </a>
+                <a href="https://download.delta.chat/android/deltachat-gplay-release-{{VERSION_ANDROID}}.apk"><small>Download</small> APK</a>
+                <a href="https://github.com/deltachat/deltachat-android/releases" class="img-badge">
+                    <img src="../assets/badges/get-it-on-github.png" alt="Get APK on Github" width=160 height=48 />
+                </a>
                 <a href="{% include obtainium-url %}" class="img-badge">
                     <img src="../assets/badges/obtainium.png" alt="Get it on Obtainium" width=161 height=48 />
                 </a>
@@ -41,17 +45,6 @@
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Android 5.0 Lollipop
             </div>
-            <details>
-                <summary class="noupgrades">
-                    {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
-                </summary>
-                <div class="buttons">
-                    <a href="https://download.delta.chat/android/deltachat-gplay-release-{{VERSION_ANDROID}}.apk"><small>Download</small> APK</a>
-                    <a href="https://github.com/deltachat/deltachat-android/releases" class="img-badge">
-                        <img src="../assets/badges/get-it-on-github.png" alt="Get APK on Github" width=160 height=48 />
-                    </a>
-                </div>
-            </details>
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
