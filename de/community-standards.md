@@ -1,19 +1,15 @@
 ---
-title: Delta-Chat-Gemeinschaftsstandards
+title: Gemeinschaftsstandards
 lang: de
 ---
 
-# Community Standards
+# Gemeinschaftsstandards
 
-In the interest of fostering an open and welcoming environment,
-we as contributors and maintainers strive to make participation
-in our communities a pleasurable, harassment-free experience.
+Um ein offenes und einladendes Umfeld zu fördern, sind wir als Mitwirkende und Projektbetreiber bestrebt, die Teilnahme zu einer angenehmen, belästigungsfreien Erfahrung zu machen.
 
-We also recognize that authentic human-to-human collaboration and
-collective maintenance of our repositories are key to keeping
-our development sustainable and resilient.
+Um die Entwicklung nachhaltig und widerstandsfähig zu gestalten, sind wir außerdem davon überzeugt, dass echte Zusammenarbeit von Mensch zu Mensch und die gemeinsame Wartung unserer Repositories von entscheidender Bedeutung sind.
 
-## Participation Standards
+## Standards für die Teilnahme
 
 Beispiele für Verhaltensweisen, die zur Schaffung eines positiven Umfelds beitragen, sind:
 
@@ -30,69 +26,36 @@ Beispiele für Verhaltensweisen, die wir zu vermeiden bitten, sind:
 * Öffentliche oder private Belästigung
 * Veröffentlichung privater Informationen anderer, wie z.B. einer physischen oder elektronischen Adresse, ohne ausdrückliche Erlaubnis
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behavior. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Wir wissen, dass Menschen manchmal einen schlechten Tag haben oder sich der Auswirkungen ihres Verhaltens nicht bewusst sind. Wenn dies der Fall ist, kannst du sie vorsichtig daran erinnern, öffentlich oder unter vier Augen, je nachdem, was angemessener ist. Gehen von gutem Willen aus - es ist wahrscheinlicher, dass die Teilnehmer sich dessen nicht bewusst sind, als dass sie absichtlich versuchen, andere zu verunglimpfen oder die Qualität der Diskussion zu mindern.
 
 
-## Collective Maintenance Standards
+## Standards für die gemeinsame Arbeit
 
-Our organizational repositories are collectively maintained, not individually owned.
-To avoid and mitigate single points of knowledge and control,
-we encourage everyone to find and educate other maintainers
-to share knowledge and maintenance responsibilities.
+Die Repositories werden gemeinsam gewartet und gehören nicht einzelnen Personen. Damit Wissen und Kontrolle nicht an einzelnen Personen hängen, ermutigen wir alle, weitere Projektbetreuer zu finden und einzuarbeiten, um Wissen und Verantwortung für die Wartung zu teilen.
 
-All contributions must be human-authored,
-and fully understood and maintained by the contributors through
+Alle Beiträge müssen von Menschen gestaltet und vollständig verstanden und gepflegt werden, durch
 
-- writing all pull request, issue descriptions,
-  comments, documentation and commit messages by hand,
+- Schreiben aller Pull-Request- und Issue-Beschreibungen, sowie Kommentare, Dokumentation und Commit-Nachrichten von Hand,
 
-- performing extensive self-review
-  and taking full responsibility for submissions,
+- gründliche Selbstüberprüfung von Beiträgen und die volle Übernahme der Verantwortung,
 
-- caring for clarity and minimalism to ease the job of reviewers
-  who accept changes into collective maintenance,
+- Klarheit und Minimalismus, um die Arbeit derjenigen zu erleichtern, die Änderungen prüfen und in die gemeinsame Wartung übernehmen,
 
-- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+- Verzicht auf Laufzeit- oder Entwicklungsabhängigkeiten von LLM-Technik.
 
-If LLMs were used in any substantial way,
-contributors are invited to write in their own words how they made use of them.
-Automated "assisted/co-authored-by" trailers
-naming generative tools or models are discouraged
-as they do not properly disclose how those tools were used
-and provide free advertisement for a toxic billionaire-dominated industry.
+Falls LLMs in nennenswertem Umfang eingesetzt wurden, ermutigen wir, in eigenen Worten zu beschreiben, wie sie genutzt wurden. Von automatisch erzeugten „Assisted-/Co-authored-by“-Zeilen raten wir ab. Diese legen nicht angemessen offen, wie die Werkzeuge eingesetzt wurden, und sind zudem kostenlose Werbung für eine toxische, von Milliardären dominierte Branche.
 
-In specific cases,
-maintainers may agree to configure bots (such as "dependabot")
-to automatically generate pull requests.
-However, these changes must never be automatically merged
-and always require strict human review before merging.
+In bestimmten Fällen können Projektbetreuer vereinbaren, Bots (wie „dependabot“) so einzurichten, dass sie automatisch Pull-Requests erstellen. Diese Änderungen dürfen jedoch niemals automatisch gemergt werden und erfordern immer eine sorgfältige Prüfung durch einen Menschen.
 
 
 ## Projektbetreiber und Verantwortlichkeiten
 
-Project maintainers are those with commit rights to collective repositories
-or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned with our standards or do not match current project plans.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Projektbetreuer sind diejenigen, die Schreibrechte für Repositories oder administrative Rechte für die Kommunikationskanäle der Gemeinschaft haben. Jeder Projektbetreuer wird gebeten, Verantwortung zu übernehmen und angemessene, sorgfältige Maßnahmen zu ergreifen als Reaktion auf beobachtete Fälle von fragwürdigem Verhalten. Projektbetreuer haben das Recht und die Verantwortung, Kommentare, Commits, Code, Wiki-Bearbeitungen, Issues, Fehlermeldungen und andere Beiträge, die nicht mit unseren Standards oder Projektplänen übereinstimmen, zu löschen, zu bearbeiten oder abzuweisen. Sie können Contributor auch vorübergehend oder dauerhaft sperren, für Verhaltensweisen, die sie als unangemessen, bedrohlich, beleidigend oder schädlich erachten.
 
 
 ## Umfang
 
-Our Community Standards apply to project repositories, communication channels, and gatherings,
-as well as to public spaces,
-when an individual is representing the project or its community.
-Examples of representing a project or community include using an official project e-mail
-address, posting via a social media account associated with the project,
-or acting as a representative at an online or offline event.
+Unsere Gemeinschaftsstandards gelten in Projekt-Repositories, Kommunikationskanälen, bei Treffen und im öffentlichen Raum, wenn eine Person das Projekt oder seine Gemeinschaft repräsentiert. Beispiele für Repräsentation eines Projekts oder einer Gemeinschaft sind beispielsweise die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Posten über ein offizielles Social-Media-Konto oder das Auftreten als Vertreter bei einer Online- oder Offline-Veranstaltung.
 
 
 ## Melden und Bearbeitung
@@ -104,6 +67,4 @@ Die Projektbetreuer sind gegenüber dem Berichterstatter eines Vorfalls zur Vert
 
 ## Dank
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>,
-with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
+Unsere Gemeinschaftsstandards sind eine Bearbeitung des [Contributor Covenant](https://contributor-covenant.org), Version 1.4, verfügbar unter <https://contributor-covenant.org/version/1/4>, ergänzt im September 2026 um zusätzliche Abschnitte mit Schwerpunkt auf „gemeinsamer Wartung“ und „menschlicher Verantwortung“.

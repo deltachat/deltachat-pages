@@ -165,7 +165,7 @@ y los demás tampoco verán siempre que estás "en línea".
 ### ¿Qué significan las marcas que se muestran junto a los mensajes salientes?
 
 - **Un tick** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick1.png" alt=""/>
-significa que el mensaje se ha enviado correctamente al [servidor](#relays).
+significa que el mensaje se ha enviado correctamente al [retransmisor](#relays).
 
 - **Dos ticks** <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/tick2.png" alt=""/>
 indican que tu contacto ha leído el mensaje.
@@ -254,9 +254,9 @@ o en la barra lateral haciendo clic con el botón derecho (en la aplicación de 
 Los perfiles de chat solo se eliminan en el dispositivo en el que se ha iniciado la eliminación. 
 Los perfiles de chat en otros dispositivos seguirán funcionando con total normalidad. 
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
+Si utilizas un único perfil de chat, basta con que desinstales la aplicación.
+Esto provocará automáticamente la eliminación de todos los datos asociados al perfil en el servidor de Chatmail.
+Para obtener más información, consulta la página correspondiente de tu [servidor de Chatmail de terceros](https://chatmail.at/relays).
 
 
 ## Grupos {#groups}
@@ -390,7 +390,7 @@ por lo que el número real de visualizaciones puede ser mayor.
 
 Los canales están diseñados para tener audiencias mucho mayores que los [grupos](#groups).
 
-El límite práctico depende del [servidor](#relays) utilizado,
+El límite práctico depende del [retransmisor](#relays) utilizado,
 es decir, no hay un número fijo que se aplique siempre.
 
 En el caso de canales realmente grandes, con varias decenas de miles de suscriptores,
@@ -525,19 +525,19 @@ para garantizar la entrega instantánea de los mensajes a todos los usuarios de 
 En la configuración de «Notificaciones» de Delta Chat, en la sección «Entrega inmediata»,
 puedes modificar los siguientes ajustes, que afectará a todos los perfiles de chat:
 
-- Use Background Connection: If you are not using a Push service,
-  you may disable "battery optimizations" for Delta Chat,
-  allowing it to fetch messages in the background.
-  However, there could be delays from minutes to hours.
-  Some Android vendors even restrict apps completely
-  (see [dontkillmyapp.com](https://dontkillmyapp.com))
-  and Delta Chat might not show  incoming messages
-  until you manually open the app again.
+- Utilizar la conexión en segundo plano: si no utilizas un servicio Push,
+  deberias desactivar las «optimizaciones de batería» para Delta Chat,
+  lo que le permitirá recuperar mensajes en segundo plano.
+  Sin embargo, pueden producirse retrasos de entre unos minutos y varias horas.
+  Algunos fabricantes de dispositivos Android incluso restringen las aplicaciones por completo
+  (véase [dontkillmyapp.com](https://dontkillmyapp.com))
+  y es posible que Delta Chat no muestre  los mensajes entrantes
+  hasta que vuelvas a abrir la aplicación manualmente.
   
-- Force Background Connection: This is the fallback option
-  if the previous options are not available or do not achieve "instant delivery".
-  Enabling it causes a permanent notification on your phone
-  which may sometimes be "minified" with recent Android phones.
+- Forzar conexión en segundo plano: esta es la opción de respaldo
+  si las opciones anteriores no están disponibles o no permiten la «entrega instantánea».
+  Al activarla, mostrará una notificación permanente en el móvil,
+  que en ocasiones puede aparecer «reducida» en los móviles Android más actuales
 
 Ambas opciones de "Conexión en segundo plano" son energéticamente eficientes y
 puedes probarlas si observas que los mensajes llegan con mucho retraso.
@@ -557,43 +557,42 @@ en un servidor de [chatmail](https://delta.chat/chatmail).
 - Cuando un servidor de [chatmail](https://delta.chat/chatmail) recibe un mensaje para un usuario de Delta Chat
 este envía el token cifrado del dispositivo a la central de notificaciones de Delta Chat.
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or profile data of Delta Chat users.
+- El proxy central de notificaciones de Delta Chat descifra el token del dispositivo
+  y lo reenvía al servicio Push correspondiente (Apple, Google, etc.),
+  sin llegar a conocer en ningún momento la dirección IP ni los datos del perfil de los usuarios de Delta Chat.
 
-- The central Push Service (Apple, Google, etc.)
-  wakes up the Delta Chat app on your device
-  to check for new messages in the background.
-  It does not know about the profile data of the device it wakes up.
-  The central Apple/Google Push services never see any profile data (sender or receiver)
-  and also never see any message content (also not in encrypted forms).
+- El servicio central de notificaciones Push (Apple, Google, etc.)
+  activa la aplicación « Delta Chat » en tu dispositivo
+  para comprobar si hay mensajes nuevos en segundo plano.
+  No tiene conocimiento de los datos de perfil del dispositivo que activa.
+  Los servicios Push centrales de Apple/Google nunca ven ningún dato de perfil (ni del remitente ni del destinatario)
+  y tampoco ven nunca el contenido de los mensajes (ni siquiera en formato cifrado).
 
 
-The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
-and forgets about device-tokens as soon as Apple/Google/etc processed them,
-usually in a matter of milliseconds.
+El proxy central de notificaciones de Delta Chat [es pequeño y está totalmente implementado en Rust](https://github.com/deltachat/notifiers)
+y se deshace de los tokens de dispositivo tan pronto como Apple, Google, etc., los procesan,
+normalmente en cuestión de milisegundos.
 
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees profile data, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
+Ten en cuenta que el token del dispositivo se cifra entre las aplicaciones y el proxy de notificaciones,
+pero no está firmado.
+Por lo tanto, el proxy de notificaciones nunca tiene acceso a los datos de perfil, las direcciones IP ni
+ninguna información de identidad criptográfica asociada al dispositivo de un usuario (token).
 
-Resulting from this overall privacy design, even the seizure of a chatmail server,
-or the full seizure of the central Delta Chat notification proxy
-would not reveal private information that Push services do not already have.
+Gracias a este diseño global orientado a la privacidad, ni siquiera la incautación de un servidor de chatmail,
+ni la incautación total del proxy central de notificaciones Delta Chat revelarían información privada que los servicios Push no tuvieran ya.
 
 
 ### ¿Por qué Delta Chat se integra con los servicios de notificaciones push centralizados de Apple/Google?
 
-Delta Chat is a free and open source decentralized messenger with free server choice,
-but we want users to reliably experience "instant delivery" of messages,
-like they experience from WhatsApp, Signal or Telegram apps,
-without asking questions up-front that are more suited to expert users or developers.
+Delta Chat es una aplicación de mensajería descentralizada, gratuita y de código abierto que permite elegir libremente el servidor,
+pero queremos que los usuarios disfruten de una "entrega instantánea" de los mensajes de forma fiable,
+tal y como lo hacen con las aplicaciones WhatsApp, Signal o Telegram,
+sin tener que responder primero a preguntas que suelen estar más dirigidas a usuarios expertos o desarrolladores.
 
-Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
-that achieves "instant delivery" of messages for all chatmail servers
-including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
-Welcome to the power of the interoperable chatmail relay network :)
+Ten en cuenta que Delta Chat cuenta con un [sistema de notificaciones push pequeño y que respeta la privacidad](#privacy-notifications)
+que permite la "entrega instantánea" de mensajes para todos los servidores de chatmail,
+incluido uno que [podrías configurar tú mismo sin nuestro permiso](https://delta.chat/chatmail#selfhosted).
+Bienvenido al poder de la red interoperable de retransmisión de chatmail :)
 
 
 
@@ -624,17 +623,17 @@ No es necesario un dispositivo para que el otro funcione.
 
 - Vuelve a verificar que ambos dispositivos estén en la **misma Wi-Fi o red**
 
-- On **Windows**, go to "Control Panel / Network and Internet"
-  and make sure, **Private Network** is selected as "Network profile type"
-  (after transfer, you can change back to the original value)
+- En **Windows**, ve a «Panel de control / Red e Internet»
+  y asegúrate de que, en «Tipo de perfil de red», esté seleccionada la opción **Red privada**
+  (una vez realizada la transferencia, puedes volver a dejarlo como estaba antes)
 
-- On **iOS**, make sure "System Settings / Apps / Delta Chat / **Local Network**" access is granted
+- En **iOS**, asegúrate de que se haya concedido el acceso a «Ajustes del sistema / Aplicaciones / Delta Chat / **Red local**».
 
-- On **macOS**, enable "System Settings / Privacy & Security / **Local Network** / Delta Chat"
+- En **macOS**, activa «Ajustes del sistema / Privacidad y seguridad / **Red local** / Delta Chat ».
 
-- Your system might have a "personal firewall",
-  which is known to cause problems (especially on Windows).
-  **Disable the personal firewall** for Delta Chat on both ends and try again
+- Es posible que tu sistema tenga un «cortafuegos personal»,
+  que suele causar problemas (sobre todo en Windows).
+  **Desactiva el cortafuegos personal** para Delta Chat en ambos extremos e inténtalo de nuevo
 
 - **Redes invitadas** podrían no permitir la comunicación entre dispositivos.
 Si es posible, utiliza redes no invitadas.
@@ -644,12 +643,12 @@ intenta abrir un **Punto de acceso portátil** en un dispositivo y únete a dich
 
 - Asegurate que haya **suficiente espacio** en el dispositivo destino
 
-- If transfer started, make sure, the devices **stay active** and do not fall asleep.
-  Do not exit Delta Chat.
-  (we try hard to make the app work in background, but [systems tend to kill apps](https://dontkillmyapp.com), unfortunately)
+- Si la transferencia ya ha comenzado, asegúrate de que los dispositivos **permanezcan activos** y no entren en modo de suspensión.
+  No cierres Delta Chat.
+  (Nos esforzamos por que la aplicación funcione en segundo plano, pero, por desgracia, [los sistemas tienden a cerrar las aplicaciones](https://dontkillmyapp.com)).
 
-- Delta Chat is **already logged in** on the destination device?
-  You can use multiple profiles per device, just [add another profile](#multiple-accounts)
+- ¿ Delta Chat **ya ha iniciado sesión** en el dispositivo de destino?
+  Puedes utilizar varios perfiles por dispositivo; solo tienes que [añadir otro perfil](#multiple-accounts)
 
 - Si todavía tienes problemas o si **no puedes escanear el código QR**
 utiliza la **transferencia manual** descrita debajo
@@ -659,14 +658,14 @@ utiliza la **transferencia manual** descrita debajo
 
 Este método solo se recomienda si el método "Añadir un segundo dispositivo" descrito anteriormente no funciona.
 
-- On the old device, go to **Settings → Chats → Export Backup**. Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
+- En el dispositivo antiguo, ve a **Ajustes → Chats → Exportar copia de seguridad**. Introduce tu
+  PIN, patrón o contraseña de desbloqueo de pantalla. A continuación, puedes pulsar en "Iniciar
+  copia de seguridad". De este modo, el archivo de copia de seguridad se guardará en tu dispositivo. Ahora tienes que transferirlo
+  al otro dispositivo de alguna forma.
 
-- On the new device, select **I Already Have a Profile → Restore from Backup**.
-  If you use iOS and encounter difficulties,
-  [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) might help you.
+- En el nuevo dispositivo, selecciona **Ya tengo un perfil → Restaurar desde una copia de seguridad**.
+  Si utilizas iOS y tienes dificultades,
+  [esta guía](https://support.delta.chat/t/import-backup-to-ios/1628) podría resultarte útil.
 
 Ya estás sincronizado, y puedes utilizar ambos dispositivos para enviar y recibir
 mensajes encriptados de extremo a extremo con tus compañeros.
@@ -697,54 +696,54 @@ Puedes encontrar más información
 y dejar tus comentarios en el [Foro](https://support.delta.chat).
 
 
-### ¿Qué son los servidores? {#relays}
+### ¿Qué son los retransmisores? {#relays}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store any user data as group states, your name or avatar -
-all those exist only on your device.
-Relays are operated by different groups and people,
-not under the control of Delta Chat developers.
+Los retransmisores se utilizan para almacenar temporalmente los mensajes en caso de que tu dispositivo esté desconectado.
+Los retransmisores son servidores económicos y sin inteligencia,
+que no almacenan ningún dato de usuario, como el estado de los grupos, tu nombre o tu avatar;
+todo eso solo existe en tu dispositivo.
+Los retransmisores son gestionados por diferentes grupos y personas,
+y no están bajo el control de los desarrolladores de Delta Chat.
 
-By default, relays are **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Por defecto, los retransmisores se **configuran automáticamente**,
+por lo que no tienes que preocuparte por eso.
+Sin embargo, si lo deseas,
+puedes configurar los retransmisores en **Configuración → Avanzado → Retransmisores**:
 
-- You can **remove** a relay from the relay list (by long-tapping on it)
-  and choosing the remove action. Before you remove your last relay,
-  you will need to add another relay first.
+- Puedes **eliminar** un retransmisor de la lista de retransmisores (manteniendo pulsado sobre él)
+  y seleccionando la acción de eliminar. Antes de eliminar tu último retransmisor,
+ primero tendrás que añadir otro retransmisor.
 
-- You can **add** a relay by scanning its QR code or pasting its invite link;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
-  If you have multiple relays, you will receive messages on all of them.
+- Puedes **añadir** un retransmisor escaneando su código QR o pegando su enlace de invitación;
+  [chatmail.at/relays](https://chatmail.at/relays) muestra algunos de los que son de dominio público.
+  Si tienes varios retransmisores, recibirás mensajes en todos ellos.
 
-Adding or removing a relay will automatically inform your chat partners
-so they start or stop using a relay for chatting with you, respectively.
+Al añadir o eliminar un retransmisor, se informará automáticamente a tus contactos
+para que, respectivamente, empiecen o dejen de utilizar ese retransmisor para chatear contigo.
 
 
 ### ¿Puedo utilizar una dirección de email clásico con Delta Chat?
 
 Sí, pero solo si la dirección de email es utilizada exclusivamente por [clientes de chatmail](https://chatmail.at/clients).
 
-It is not supported to share usage of an email address with non-chatmail apps or web-based mailers,
-for the following reasons:
+No se admite compartir el uso de una dirección de correo electrónico con aplicaciones que no sean de Chatmail ni con clientes de correo web,
+por las siguientes razones:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
+- Las aplicaciones que no son de chatmail, en su mayoría, no ofrecen a sus usuarios un cifrado automático de extremo a extremo para el correo electrónico,
+  mientras que las aplicaciones de chatmail y los servidores de retransmisión aplican de forma generalizada el cifrado de extremo a extremo y otras normas de seguridad.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message forwarding.
+- Las aplicaciones que no son de chatmail utilizan los servidores de correo electrónico como archivo de mensajes a largo plazo,
+  mientras que los clientes de chatmail utilizan los servidores de correo electrónico para reenviar mensajes instantáneos efímeros.
 
-- Supporting the full variety of classic email setups
-  would require considerable development and maintenance efforts,
-  and complicate making chatmail-based messaging more resilient, reliable and fast.
+- Dar soporte a toda la variedad de configuraciones clásicas de correo electrónico
+  requeriría un esfuerzo considerable de desarrollo y mantenimiento,
+  y complicaría la tarea de hacer que la mensajería basada en «chatmail» fuera más resiliente, fiable y rápida.
 
 ### ¿Cómo puedo configurar un perfil de chat con una dirección clásica de email como servidor? {#classic-email}
 
-First off, **please do not use the same classic email address also from non-chatmail classic email apps**
-unless you are prepared to deal with encrypted messages in the inbox,
-double notifications, accidentally deleted emails or similar annoyances.
+En primer lugar, **por favor, no utilices la misma dirección de correo electrónico clásica que la de otras aplicaciones de correo electrónico clásicas que no sean Chatmail**,
+a menos que estés dispuesto a lidiar con mensajes cifrados en la bandeja de entrada,
+notificaciones duplicadas, correos electrónicos borrados accidentalmente o molestias similares.
 
 You can configure a email address for chatting at **New Profile → Use Other Server → Use Classic Mail as Relay**.
 Note that classic email providers will generally not support [Push Notifications](#instant-delivery)
@@ -780,7 +779,7 @@ las estadísticas semanales se envían automáticamente a un bot.
 
 Estamos interesados en estadísticas como, p. ej.:
 
-- How many contacts are added by scanning a QR code or opening an invite link?
+- ¿Cuántos contactos se añaden al escanear un código QR o al abrir un enlace de invitación?
 
 - ¿Qué versiones de Delta Chat están siendo utilizadas?
 
@@ -834,25 +833,24 @@ Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
+### ¿Qué ha pasado con la marca de verificación verde en los perfiles de los contactos? {#e2eeguarantee}
 
-Older Delta Chat versions showed a green checkmark
+Las versiones anteriores de Delta Chat mostraban una marca de verificación verde
 <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
+y una línea que decía "Presentado por" en algunos perfiles de contacto.
 
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
+Esta línea ya no aparece.
+Dado que [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
+los contactos se identifican mediante su clave criptográfica ("clave pública"),
+y nunca existe la posibilidad de que el operador del retransmisor
+intercambie una clave para llevar a cabo un ataque de intermediario (MitM)
+(de hecho, el operador ni siquiera ve la clave en ningún momento).
 
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
+Sigue siendo posible que un atacante te envíe un enlace de invitación
+que se haga pasar por otra persona, y un atacante que tenga tu contacto de Delta Chat (porque está en un chat grupal contigo)
+podría intentar iniciar un chat contigo con un nombre falso.
+Este tipo de ataques están [presentes en todas las aplicaciones de mensajería](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
+y tenemos previsto introducir mejoras en el futuro para mitigarlos.
 
 ### ¿Los adjuntos (imágenes, archivos, audio, etc.) están cifrados de extremo a extremo?
 
@@ -917,7 +915,7 @@ which contain exactly one encrypted and signed part,
 as defined by the Autocrypt Level 1 specification. 
 
 
-### Are messages marked with the mail icon exposed on the Internet? {#tls}
+### ¿Los mensajes marcados con el icono del correo electrónico quedan expuestos en Internet? {#tls}
 
 If you are sending or receiving email messages without end-to-end encryption (using a classic email server),
 they are still protected from cell or cable companies who can not read or modify your email messages.
@@ -947,7 +945,7 @@ Por lo tanto, los servidores solo pueden ver:
 - Direcciones del emisor y del receptor, generadas aleatoriamente por defecto
 - Tamaño del mensaje
 
-All other message, contact and group metadata resides in the end-to-end encrypted part of messages. 
+El resto de metadatos de los mensajes, los contactos y los grupos se almacenan en la parte de los mensajes cifrada de extremo a extremo. 
 
 ### ¿Cómo proteger los metadatos y los contactos cuando se incauta un dispositivo? {#device-seizure}
 

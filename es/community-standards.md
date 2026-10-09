@@ -3,17 +3,17 @@ title: Normas de la Comunidad
 lang: es
 ---
 
-# Community Standards
+# Normas de la comunidad
 
-In the interest of fostering an open and welcoming environment,
-we as contributors and maintainers strive to make participation
-in our communities a pleasurable, harassment-free experience.
+Con el fin de fomentar un entorno abierto y acogedor,
+nosotros, como colaboradores y responsables del mantenimiento, nos esforzamos por hacer que la participación
+en nuestras comunidades sea una experiencia agradable y libre de acoso.
 
-We also recognize that authentic human-to-human collaboration and
-collective maintenance of our repositories are key to keeping
-our development sustainable and resilient.
+También somos conscientes de que la colaboración auténtica entre personas y
+el mantenimiento colectivo de nuestros repositorios son fundamentales para garantizar
+que nuestro desarrollo sea sostenible y resiliente.
 
-## Participation Standards
+## Normas de participación
 
 Ejemplos de comportamiento que contribuyen a crear un ambiente positivo incluyen:
 
