@@ -3,7 +3,7 @@ title: Delta Chat, mezularitza seguru deszentralizatua
 lang: eu
 ---
 
-# Decentralized & Secure Messaging {#homepage-heading}
+# Mezu-trukatze dezentralizatu eta segurua {#homepage-heading}
 
 <div style="text-align: center">
 <picture>
@@ -13,7 +13,7 @@ lang: eu
 </div>
 
 <p style="text-align: center; margin-top: 0!important">
-<a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
+<a href="https://get.delta.chat" class="download-btn">Lortu Delta Chat</a>
 </p>
 
 💬 Berehalako mezularitza fidagarria, profil anitzeko eta gailu anitzeko euskarriarekin

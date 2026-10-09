@@ -3,7 +3,7 @@ title: Delta Chat, Dezentralisierter, sicherer Messenger
 lang: de
 ---
 
-# Decentralized & Secure Messaging {#homepage-heading}
+# Dezentralisierter und sicherer Messenger {#homepage-heading}
 
 <div style="text-align: center">
 <picture>

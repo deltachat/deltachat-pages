@@ -5,7 +5,7 @@ lang: de
 
 # Kanäle und Quellen
 
-Für Community-Interaktionen rund um Delta Chat lesen Sie bitte unsere [Delta-Chat-Gemeinschaftsstandards](community-standards).
+Für Community-Interaktionen rund um Delta Chat lesen Sie bitte unsere [Gemeinschaftsstandards](community-standards).
 
 - [Fediverse](https://chaos.social/web/@delta) für Ankündigungen und Feedback.
 

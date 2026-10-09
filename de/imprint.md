@@ -17,4 +17,4 @@ Amtsgericht Freiburg: HRB709589
 USt-IdNr.: DE814082730  
 Geschäftsführer: Holger Krekel
 
-[Website Privacy Policy](gdpr-website)
+[Datenschutzerklärung der Webseite](gdpr-website)

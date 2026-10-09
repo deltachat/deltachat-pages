@@ -309,112 +309,85 @@ Kanäle dienen der Verbreitung von Nachrichten an viele Empfänger.
 
 ### Einem Kanal beitreten
 
-- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
-  or tap the **invite link** you got from the channel owner.
+- Scanne den <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR-Code**
+  oder tippe auf den **Einladungslink**, den du vom Kanalinhaber erhalten hast.
 
-That's all!
-You will receive a few of the messages from the channel history
-and, from that point on, all new messages from the channel.
+Das war’s! Du erhältst einige alte und alle neuen Nachrichten des Kanals.
 
-**Don't worry,** if that does not happen immediately.
-Once the channel owner comes online, your join request will be processed.
+**Keine Sorge**, falls das nicht sofort passiert. Sobald der Kanalinhaber online ist, wird deine Anfrage bearbeitet.
 
-As all of Delta Chat, also Channels are private and decentralized,
-there is no public discovery.
+Wie alles in Delta Chat sind auch Kanäle privat und dezentral; es gibt kein öffentliches Verzeichnis.
 
-Other channel subscribers will not see that you subscribed and cannot message you.
-The channel owner, however, can message you.
-They will also see that you read a message unless you have read receipts disabled.
+Andere Abonnenten des Kanals sehen nicht, dass du dem Kanal beigetreten bist, und können dir nicht schreiben. Der Kanalinhaber jedoch kann dir schreiben. Er sieht außerdem, dass du eine Nachricht gelesen hast, sofern du Lesebestätigungen nicht deaktiviert hast.
 
-If you do not want to share your main profile,
-you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+Wenn du dein bestehendes Profil nicht teilen möchtest, kannst du für den Beitritt zu einem Kanal auch ein [eigenes Profil](#multiple-accounts) erstellen.
 
 
 ### Einen Kanal erstellen
 
-- Tap **New Chat** and choose **New Channel**.
+- Tippe auf **Neuer Chat** und dann **Neuer Kanal**.
 
-- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+- Gib einen **Namen** ein, lege optional ein **Bild** und eine **Beschreibung** fest und tippe auf **Erstellen**.
 
-- You can now send and manage messages as usual.
+- Jetzt kannst du wie gewohnt Nachrichten senden und verwalten.
 
-- From the channel's profile, **share the QR code or invite link with others**.
+- **Teile den QR-Code oder den Einladungslink** aus dem Kanalprofil mit anderen.
 
-Subscribers will receive your messages,
-but they cannot send messages in your channel.
-When subscribing, they will receive **a few of the latest messages of the channel history**.
+Abonnenten erhalten deine Nachrichten, können aber selbst keine Nachrichten in deinem Kanal senden. Beim Abonnieren erhalten sie **einige der neuesten Nachrichten aus dem Kanalverlauf**.
 
-You can see the **view count** beside each message.
-Note that this only counts subscribers who have read receipts enabled,
-so the real view count may be larger.
+Neben jeder Nachricht siehst du die **Anzahl der Aufrufe**. Dabei werden nur Abonnenten gezählt, die Lesebestätigungen aktiviert haben, die tatsächliche Zahl kann also höher sein.
 
 
 ### Wie viele Empfänger kann ein Kanal haben?
 
-Channels are designed for much larger audiences than [groups](#groups).
+Kanäle sind für ein viel größeres Publikum als [Gruppen](#groups) ausgelegt.
 
-The practical limit depends on the used [relay](#relays),
-so there is no single fixed number that applies everywhere.
+Die praktische Grenze hängt von den verwendeten [Relays](#relays) ab, daher gibt es keine feste Zahl, die überall gilt.
 
-For really large channels with several tens of thousands of subscribers,
-we recommend using a [dedicated profile](#multiple-accounts) for the channel
-and checking whether the relay is suitable.
+Für sehr große Kanäle mit mehreren Zehntausend Abonnenten empfehlen wir, ein [eigenes Profil](#multiple-accounts) für den Kanal zu verwenden und zu prüfen, ob das Relay dafür geeignet ist.
 
-But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
-so you can change your relay at any point easily -
-your existing subscribers will not even notice.
-You only have to update the invite link you share with new subscribers in that case.
+Aber grundsätzlich ist Delta Chat relay-unabhängig gestaltet, du kannst dein Relay also auch später jederzeit einfach wechseln. Deine bestehenden Abonnenten merken davon nichts. Du musst dann nur den Einladungslink aktualisieren, den du mit neuen Abonnenten teilst.
 
 
 ## Anrufe {#calls}
 
-Delta Chat supports one-to-one **audio calls** and **video calls**.
+Delta Chat unterstützt **Audioanrufe** und **Videoanrufe** zwischen zwei Personen.
 
-Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
+Anrufe werden auf Desktop, Ubuntu Touch, iOS sowie Android 8 und neuer unterstützt.
 
 
 ### Jemanden anrufen
 
-- In a one-to-one chat, tap the 📞 **call icon**.
+- Tippe in einem Einzelchat auf das 📞 **Anruf-Symbol**.
 
-- This opens a small menu
-  where you can choose whether to place an **Audio Call** or a **Video Call**.
+- Dadurch öffnet sich ein kleines Menü, in dem du zwischen **Audioanruf** und **Videoanruf** wählen kannst.
 
 
 ### Einen Anruf annehmen oder ablehnen
 
-- When someone calls you,
-  Delta Chat shows an **incoming call screen** or notification.
+- Wenn dich jemand anruft, zeigt Delta Chat einen **Bildschirm für eingehende Anrufe** oder eine Benachrichtigung an.
 
-- Tap **Accept** to answer
-  or **Decline** to reject the call.
+- Tippe auf **Annehmen**, um den Anruf entgegenzunehmen, oder auf **Ablehnen**, um ihn abzulehnen.
 
 
 ### Während des Anrufs
 
-- You can **mute** your microphone.
+- Du kannst dein Mikrofon **stummschalten**.
 
-- You can **enable or disable your camera**.
+- Du kannst deine **Kamera ein- oder ausschalten**.
 
-- On mobile, you can **switch between front and back cameras**.
+- Auf Mobilgeräten kannst du **zwischen Front- und Rückkamera wechseln**.
 
-Depending on the device, you can also select the audio output or use picture-in-picture.
-On desktop, the call is using a dedicated window
-and you can continue using the main Delta Chat window as usual.
+Je nach Gerät kannst du auch die Audioausgabe auswählen oder Bild-im-Bild verwenden. Auf dem Desktop läuft der Anruf in einem eigenen Fenster, und du kannst das Delta-Chat-Hauptfenster wie gewohnt weiter nutzen.
 
 
 ### Verpasste Anrufe und Benachrichtigungen
 
-- If you do not answer, do not hear the ringing, or do not have your device at hand,
-  the call appears as a **missed call**.
+- Wenn du nicht antwortest, das Klingeln nicht hörst oder dein Gerät nicht zur Hand hast, erscheint der Anruf als **verpasster Anruf**.
 
-- **Only your accepted contacts** can make your device ring.
-  Contact requests will appear as usual and will not ring.
+- **Nur deine angenommenen Kontakte** können dein Gerät klingeln lassen. Kontaktanfragen erscheinen wie gewohnt und klingeln nicht.
 
-- At **Settings → Notifications → Calls**,
-  you can disable the special call ringing screen completely.
-  If you do so, you will not be disturbed by any ringing notification,
-  you can still pick up the call by tapping the incoming call message bubble in its chat.
+- Unter **Einstellungen → Benachrichtigungen → Anrufe** kannst du den Anrufbildschirm komplett deaktivieren. Dann stört dich keine Klingel-Benachrichtigung mehr, du kannst den Anruf aber trotzdem annehmen, indem du im Chat auf die Nachricht zum eingehenden Anruf tippst.
 
 
 ## In-Chat-Apps {#webxdc}
@@ -633,28 +606,22 @@ Du findest weitere Informationen im [Forum](https://support.delta.chat), wo du a
 
 ### Was sind Relays? {#relays}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store any user data as group states, your name or avatar -
-all those exist only on your device.
-Relays are operated by different groups and people,
-not under the control of Delta Chat developers.
+Relays werden verwendet, um Nachrichten vorübergehend zu speichern, falls dein Gerät offline ist.
+Relays sind billige und einfache Server,
+die keine Daten wie Gruppenstatus, deinen Namen oder deinen Avatar speichern –
+all das existiert nur auf deinem Gerät.
+Relays werden von verschiedenen Gruppen und Personen betrieben und unterliegen nicht der Kontrolle der Delta-Chat-Entwickler.
 
-By default, relays are **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Standardmäßig werden Relays nach der Installation **automatisch** hinzugefügt;
+darum musst du dich nicht kümmern.
+Wenn du möchtest,
+kannst du jedoch unter **Einstellungen → Erweitert → Relays** Änderungen vornehmen:
 
-- You can **remove** a relay from the relay list (by long-tapping on it)
-  and choosing the remove action. Before you remove your last relay,
-  you will need to add another relay first.
+- Du kannst ein Relay aus der Relay-Liste **entfernen**. Bevor du dein letztes Relay entfernst, musst du zuerst ein anderes hinzufügen.
 
-- You can **add** a relay by scanning its QR code or pasting its invite link;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
-  If you have multiple relays, you will receive messages on all of them.
+- Du kannst ein Relay **hinzufügen**, indem du den entsprechenden QR-Code scannst oder den Einladungslink einfügst; [chatmail.at/relays](https://chatmail.at/relays) listet einige öffentlich bekannte auf. Wenn du mehrere Relays hast, empfängst du Nachrichten über alle.
 
-Adding or removing a relay will automatically inform your chat partners
-so they start or stop using a relay for chatting with you, respectively.
+Wenn du ein Relay hinzufügst oder entfernst, werden deine Chatpartner automatisch informiert, damit sie dieses Relay für Chats mit dir verwenden bzw. nicht mehr verwenden.
 
 
 ### Kann ich eine klassische E-Mail-Adresse mit Delta Chat verwenden?
@@ -663,11 +630,9 @@ Ja, aber nur, wenn die E-Mail-Adresse ausschließlich von [Chatmail-Clients](htt
 
 Die gemeinsame Nutzung einer E-Mail-Adresse mit Nicht-Chatmail-Apps oder webbasierten Mailprogrammen wird aus folgenden Gründen nicht unterstützt:
 
-- Non-chatmail apps are largely not accomplishing automatic end-to-end email encryption for their users,
-  while chatmail apps and relays pervasively enforce end-to-end encryption and other security standards.
+- Nicht-Chatmail-Apps schaffen es weitgehend nicht, ihren Nutzern automatische Ende-zu-Ende-Verschlüsselung für E-Mails zu bieten, während Chatmail-Apps und -Relays Ende-zu-Ende-Verschlüsselung und andere Sicherheitsstandards durchgängig durchsetzen.
 
-- Non-chatmail apps use email servers as a long-term message archive
-  while chatmail clients use email servers for ephemeral instant message forwarding.
+- Nicht-Chatmail-Apps nutzen E-Mail-Server als langfristiges Nachrichtenarchiv, während Chatmail-Clients E-Mail-Server nur zur kurzlebigen Weiterleitung von Sofortnachrichten nutzen.
 
 - Die Unterstützung der gesamten Bandbreite klassischer E-Mail-Konfigurationen
 würde einen erheblichen Entwicklungs- und Wartungsaufwand erfordern
@@ -711,7 +676,7 @@ werden wöchentlich Statistiken automatisch an einen Bot gesendet.
 
 Wir sind beispielsweise an folgenden Statistiken interessiert:
 
-- How many contacts are added by scanning a QR code or opening an invite link?
+- Wie viele Kontakte werden durch Scannen eines QR-Codes oder Öffnen eines Einladungslinks hinzugefügt?
 
 - Welche Versionen von Delta Chat werden verwendet?
 
@@ -759,23 +724,11 @@ Wenn du stattdessen ein Profil mit einem [klassischen E-Mail-Server](#classic-em
 
 ### Was ist mit dem "Grünen Haken" in Kontaktprofilen passiert? {#e2eeguarantee}
 
-Older Delta Chat versions showed a green checkmark
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
+Ältere Delta-Chat-Versionen zeigten in manchen Kontaktprofilen ein grünes Häkchen <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="grünes Häkchen" /> und eine Zeile „Eingeführt von“ an.
 
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
+Diese Zeile gibt es nicht mehr. Seit [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2) werden Kontakte über ihren kryptografischen Schlüssel („öffentlicher Schlüssel“) identifiziert, und der Relay-Betreiber hat nie die Möglichkeit, einen Schlüssel auszutauschen, um einen Man-in-the-Middle-Angriff (MitM) durchzuführen (tatsächlich sieht der Betreiber den Schlüssel zu keinem Zeitpunkt).
 
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
+Ein Angreifer kann dir weiterhin einen Einladungslink geben, mit dem er sich als jemand anderes ausgibt, und ein Angreifer, der deinen Delta-Chat-Kontakt hat (weil ihr zusammen in einem Gruppenchat seid), könnte versuchen, unter falschem Namen einen Chat mit dir zu beginnen. Solche Angriffe [gibt es in allen Messengern](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation), und wir planen künftige Verbesserungen, um sie abzuschwächen.
 
 ### Sind Anhänge (Bilder, Dateien, Audio usw.) Ende-zu-Ende-verschlüsselt?
 

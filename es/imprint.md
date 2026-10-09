@@ -17,4 +17,4 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730
 Director general: Holger Krekel
 
-[Website Privacy Policy](gdpr-website)
+[Política de privacidad del sitio web](gdpr-website)

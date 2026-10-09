@@ -213,8 +213,8 @@ Puisque tous les membres d'une discussion ont les mêmes droits, les groupes fon
 
 ### Ajouter et supprimer des membres {#addmembers}
 
-All group members have the **same rights**.
-For this reason, everyone can delete any member or add new ones.
+Tous les membres d'un groupe disposent des **mêmes droits**.
+C'est pourquoi chacun peut supprimer des membres ou en ajouter de nouveaux.
 
 - To **add or delete members**, tap the group name in the chat and select the member to add or remove.
 
@@ -268,12 +268,12 @@ where Delta Chat is a private messenger for chatting with [equal rights](#groups
 See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
 
 
-## Channels {#channels}
+## Canaux {#channels}
 
 Channels are a one-to-many tool for broadcasting messages.
 
 
-### Subscribe to a channel
+### S'abonner à un canal
 
 - Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
   or tap the **invite link** you got from the channel owner.
@@ -296,7 +296,7 @@ If you do not want to share your main profile,
 you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
 
 
-### Create a channel
+### Créer un canal
 
 - Tap **New Chat** and choose **New Channel**.
 
@@ -332,14 +332,14 @@ your existing subscribers will not even notice.
 You only have to update the invite link you share with new subscribers in that case.
 
 
-## Calls {#calls}
+## Appels {#calls}
 
 Delta Chat supports one-to-one **audio calls** and **video calls**.
 
 Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
 
 
-### Place a call
+### Passer un appel
 
 - In a one-to-one chat, tap the 📞 **call icon**.
 
@@ -347,7 +347,7 @@ Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
   where you can choose whether to place an **Audio Call** or a **Video Call**.
 
 
-### Accept or reject a call
+### Accepter ou rejeter un appel
 
 - When someone calls you,
   Delta Chat shows an **incoming call screen** or notification.
@@ -356,17 +356,17 @@ Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
   or **Decline** to reject the call.
 
 
-### During a call
+###Durant un appel
 
-- You can **mute** your microphone.
+- Vous pouvez **couper le son** de votre micro.
 
-- You can **enable or disable your camera**.
+- Vous pouvez **activer ou désactiver votre caméra**.
 
-- On mobile, you can **switch between front and back cameras**.
+- Sur votre téléphone, vous pouvez **basculer entre la caméra avant et la caméra arrière**.
 
-Depending on the device, you can also select the audio output or use picture-in-picture.
-On desktop, the call is using a dedicated window
-and you can continue using the main Delta Chat window as usual.
+Selon l'appareil utilisé, vous pouvez aussi choisir la sortie audio ou utiliser le mode « image dans l'image ».
+Sur un ordinateur de bureau, l'appel s'affiche dans une fenêtre dédiée
+et vous pouvez continuer à utiliser la fenêtre principale de Delta Chat comme d'habitude.
 
 
 ### Missed calls and notifications
@@ -1027,12 +1027,12 @@ Delta Chat is available for all major and some minor platforms:
 
 - If unavailable, use the **mirror** at <https://deltachat.github.io/deltachat-pages>
 
-- Open one of the following **app stores and search for "Delta Chat":**
-  Google Play Store, F-Droid, Huawei App Gallery, iOS and macOS App Store, Microsoft Store
+- Ouvrez un des **magasins d'appli suivants et recherchez «Delta Chat » :**
+Google Play Store, F-Droid, l'App Gallery d'Huawei, l'App Store d'iOS et macOS, Microsoft Store
 
-- Check the **package manager** of your Linux distributions
+- Vérifiez le **gestionnaire de paquets** de votre distribution Linux
 
-- **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
+- Les **fichiers APK pour Android** sont également disponibles à l'adresse <https://github.com/deltachat/deltachat-android/releases>
 
 
 ### Comment est financé le développement de Delta Chat ?
