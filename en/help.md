@@ -781,7 +781,7 @@ that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat i
 
 We would like to improve Delta Chat with your help,
 which is why Delta Chat for Android asks whether you want
-to send anonymous usage statistics.
+to send anonymous usage statistics. This option is not available in desktop version.
 
 You can turn it on and off at
 **Settings → Advanced → Send statistics to Delta Chat's developers**.
@@ -1199,4 +1199,5 @@ The monetary funding mentioned above is mostly organized by merlinux GmbH in
 Freiburg (Germany), and is distributed to more than a dozen contributors world-wide. 
 
 Please see [Delta Chat Contribution channels](contribute)
-for both monetary and other contribution possibilities.  
+for both monetary and other contribution possibilities.
+
