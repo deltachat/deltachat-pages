@@ -9,11 +9,11 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
 
-- [Delta Chat support forum](https://support.delta.chat) for wider
-  feature discussions and getting support.
+- [Forum](https://forum.delta.chat) for wider
+  feature discussions and mutual help.
 
-- [Delta Chat repositories](https://github.com/deltachat/) where you can
-  find the code for DeltaChat apps and this web site.
+- [Repositories](https://github.com/deltachat/) where you can
+  find the code for Delta Chat apps.
 
 - More links can be found in the [cosmos](https://cosmos.delta.chat)
 
@@ -25,7 +25,7 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
 - [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Rust Core Library + Python Bindings Issues](https://github.com/chatmail/core/issues)
 
 
 # Third party communication channels 
@@ -40,7 +40,7 @@ which may or may not follow our [Community Standards](community-standards):
   which you can follow by putting `!delta_chat@lemmy.zip` 
   into the search field of your fediverse app.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- A [Delta Chat subreddit](https://old.reddit.com/r/DeltaChat/).
 
 If you know of, or setup yourself, additional channels,
 please let us know (see Channels and repositories above).
