@@ -32,6 +32,7 @@ id:
     dl_mac_appstore: Unduh di Apple Mac AppStore
     dl_appstore: unduh di Apple AppStore
     dl_fdroid: Dapatkan di F-Droid
+    dl_ghs: Dapatkan di GitHub Store
     gplay: Dapatkan di Google Play
 
   help:

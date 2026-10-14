@@ -32,6 +32,7 @@ ca:
     dl_mac_appstore: Baixa d'Apple Mac AppStore
     dl_appstore: Baixa d'Apple AppStore
     dl_fdroid: Aconsegueix-lo a F-Droid
+    dl_ghs: Aconsegueix-lo a GitHub Store
     gplay: Aconsegueix-lo a Google Play
 
   help:
