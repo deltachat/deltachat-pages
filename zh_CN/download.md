@@ -6,7 +6,6 @@ downloads: true
 
 桌面版不要求在手机上安装 Delta Chat。
 
-
 ## 更新日志 & 更多信息 {#changelogs}
 
 - 更新日志：[桌面](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)、

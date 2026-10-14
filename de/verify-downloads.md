@@ -18,7 +18,6 @@ Um Android-APKs zu verifizieren, prüfe, ob das Signatur-Zertifikat einem der fo
 Um den SHA256-Fingerabduck des Signatur-Zertifikats anzuzeigen, kann z.B. das folgende Kommando verwendet werden: 
 `keytool -printcert -jarfile <APK-file>`
 
-
 ## Desktop
 
 1. Öffnen dein Terminal und **wechsle in das Verzeichnis** in dem sich die zu überprüfende Datei befindet, z. B.  `deltachat-desktop_1_amd64.deb`

@@ -6,7 +6,6 @@ downloads: true
 
 Le versioni desktop non necessitano che Delta Chat sia installato su un telefono.
 
-
 ## Registri delle Modifiche e Altro {#changelogs}
 
 - Registri delle modifiche: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

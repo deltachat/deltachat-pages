@@ -26,7 +26,6 @@ Diskussion über Features und um Unterstützung zu erhalten.
 - [Delta-Chat-iOS-Probleme](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust-Kernbibliothek + Python-Probleme](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Kommunikationskanäle von Dritten
 
 Die folgenden Delta-Chat-bezogenen Kommunikationskanäle werden von Drittanbietern betrieben

@@ -38,7 +38,6 @@ them in public or private, whatever is more appropriate. Assume good faith;
 it's more likely that participants are unaware than that they are intentionally
 trying to denigrate others or reduce the quality of discussion.
 
-
 ## Collective Maintenance Standards
 
 Our organizational repositories are collectively maintained, not individually owned.
@@ -73,7 +72,6 @@ to automatically generate pull requests.
 However, these changes must never be automatically merged
 and always require strict human review before merging.
 
-
 ## Mirëmbajtës dhe Përgjegjës
 
 Project maintainers are those with commit rights to collective repositories
@@ -86,7 +84,6 @@ that are not aligned with our standards or do not match current project plans.
 They may also ban temporarily or permanently a contributor for
 other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-
 ## Fushëveprim
 
 Our Community Standards apply to project repositories, communication channels, and gatherings,
@@ -95,7 +92,6 @@ when an individual is representing the project or its community.
 Examples of representing a project or community include using an official project e-mail
 address, posting via a social media account associated with the project,
 or acting as a representative at an online or offline event.
-
 
 ## Raportim dhe Përgjigje
 
@@ -111,7 +107,6 @@ lidhur me raportuesin e një incidenti.
 Mirëmbajtësit vetë nuk janë të përjashtuar nga të qenët subjekt raportimi
 dhe mund të përballen me reperkusione të përkohshme, ose të përhershme
 siç përcaktohet nga mirëmbajtës të tjerë.
-
 
 ## Atribuim
 

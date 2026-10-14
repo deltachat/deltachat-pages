@@ -27,7 +27,6 @@ il codice delle applicazioni DeltaChat e di questo sito web.
 - [Problemi con Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemi con la libreria Rust Core + i collegamenti Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Canali di comunicazione di terze parti
 
 I seguenti canali di comunicazione relativi a Delta Chat sono gestiti da terze parti

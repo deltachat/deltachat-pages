@@ -6,7 +6,6 @@ downloads: true
 
 Mahaigaineko bertsioek ez dute behar Delta Chat telefonoan instalatuta egotea.
 
-
 ## Aldaketen erregistroak eta gehiago {#changelogs}
 
 - Aldaketa erregistroak: [Mahaigaina](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

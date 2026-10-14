@@ -5,7 +5,6 @@ render_toc: true
 header: Häufig gestellte Fragen
 ---
 
-
 ## Was ist Delta Chat?
 
 Delta Chat ist eine zuverlässige, dezentralisierte und sichere Instant-Messaging-App, verfügbar für Mobile- und Desktop-Plattformen.
@@ -22,7 +21,6 @@ sicher gegen Netzwerk- und Serverangriffe.
 
 - Freie und quelloffene Software, sowohl app- als auch serverseitig, 
 basierend auf [Internet-Standards]({% include standards-url %}).
-
 
 ### Wie finde ich Leute, mit denen ich chatten kann? {#howtoe2ee}
 
@@ -49,7 +47,6 @@ mit deinem Kontakt.
 Wenn man sich gegenseitig zu [Gruppen](#groups) hinzufügt,
 wird eine Ende-zu-Ende-Verschlüsselung zwischen allen Mitgliedern eingerichtet. 
 
-
 ### Warum ist ein Chat als "Anfrage" markiert?
 
 Da Delta Chat ein privater Messenger ist, können dir zunächst nur Freunde und Familienmitglieder schreiben, denen du deinen [QR-Code oder Einladungslink](#howtoe2ee) schickst.
@@ -64,7 +61,6 @@ Deine Freunde können deine Kontaktdaten dann mit anderen Freunden teilen. Dies 
 als Nachrichtenanfrage angezeigt, sodass du deine Meinung ändern kannst. Wenn du wirklich keine
 Nachrichten von dieser Person erhalten möchtest, solltest du sie **blockieren**.
 
-
 ### Wie kann ich zwei meiner Freunde miteinander in Kontakt bringen?
 
 Füge den ersten Kontakt zum Chat des zweiten Kontakts hinzu, indem du auf <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhängen → Kontakt** klickst.
@@ -72,7 +68,6 @@ Du kannst auch eine kurze Nachricht hinzufügen.
 
 Der zweite Kontakt erhält dann die **Kontaktdaten** und
 kann darauf tippen, um mit dem ersten Kontakt zu chatten.
-
 
 ### Was sind Profile? Wie kann ich zwischen ihnen wechseln? {#multiple-accounts}
 
@@ -89,20 +84,17 @@ Du kannst separate Profile für politische, familiäre oder berufliche Aktivitä
 
 Vielleicht möchtest du auch erfahren, wie du [Profile auf mehreren Geräten verwenden kannst](#multiclient).
 
-
 ### Wer sieht mein Profilbild?
 
 Du kannst ein Profilbild in den Einstellungen hinzufügen. Wenn du deinen Kontakten eine Nachricht sendest oder sie über einen QR-Code hinzufügst, sehen diese automatisch dein Profilbild.
 
 Aus Datenschutzgründen sieht niemand dein Profilbild, dem du nicht zuvor eine Nachricht gesendet hast.
 
-
 ### Kann ich einen Status festlegen? {#signature}
 
 Ja,
 Du kannst dies unter "Einstellungen → Profil → Signatur" tun.
 Sobald du eine Nachricht an einen Kontakt sendest, kann dieser deine Signatur in deinem Profil sehen.
-
 
 ### Was bedeutet Anheften, Stummschalten, Archivieren?
 
@@ -117,7 +109,6 @@ Verwende diese Tools, um deine Chats zu organisieren:
 - Wenn ein archivierter Chat eine neue Nachricht erhält, wird er, sofern er nicht stummgeschaltet ist, **wieder in die normale Chatliste verschoben**.  **Stummgeschaltete Chats bleiben archiviert**, bis du sie manuell aus dem Archiv entfernst.
 
 Um die Funktionen zu nutzen, tippe lang auf einen Chat in der Chatliste oder klicke den Chat mit der rechten Maustaste an.
-
 
 ### Wie funktionieren "Gespeicherte Nachrichten"? {#save}
 
@@ -140,13 +131,11 @@ kannst du zu der ursprünglichen Nachricht im ursprünglichen Chat zurückkehren
 Nachrichten bleiben gespeichert, auch wenn sie bearbeitet oder gelöscht werden -
 sei es durch den [Absender](#edit), durch [Automatisches Löschen](#delold) oder durch [verschwindende Nachrichten anderer Chats](#ephemeralmsgs).
 
-
 ### Was bedeutet der grüne Punkt?
 
 Manchmal ist ein “grüner Punkt” <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> neben dem Avatar eines Kontakts. Er bedeutet, dass der Kontakt **kürzlich von dir gesehen** wurde, in den letzten 10 Minuten, z.B. da du eine Nachricht oder eine Lesebestätigung empfangen hast.
 
 Dies ist also kein Echtzeit-Online-Status - und auch andere werden nicht immer sehen, wenn du online bist.
-
 
 ### Was bedeuten die Häkchen neben den ausgehenden Nachrichten?
 
@@ -157,7 +146,6 @@ Dies ist also kein Echtzeit-Online-Status - und auch andere werden nicht immer s
 In [Gruppen](#groups) bedeutet das zweite Häkchen, dass die Nachricht von mindestens einem Mitglied gelesen wurde.
 
 Du erhältst nur dann das zweite Häkchen, wenn sowohl du als auch einer der Empfänger, die die Nachricht gelesen haben, **Einstellungen → Chats → Lesebestätigungen** aktiviert haben.
-
 
 ### Schreibfehler korrigieren und Nachrichten nach dem Senden löschen {#edit}
 
@@ -174,7 +162,6 @@ Es werden keine Benachrichtigungen verschickt und es gibt kein Zeitlimit.
 Beachten, dass die ursprüngliche Nachricht dennoch von Chatteilnehmern empfangen worden sein könnte,
 die die Nachricht bereits beantwortet, weitergeleitet, gespeichert, mit einem Screenshot versehen oder anderweitig kopiert haben könnten.
 
-
 ### Medienqualität und Datenverbrauch {#mediaquality}
 
 Bilder, Videos, Dateien, Sprachnachrichten und mehr können über die <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhang-**
@@ -187,7 +174,6 @@ Dies ist ideal für die tägliche Kommunikation.
 
 - Wenn Sie Medien ausdrücklich in ihrer **Originalqualität** senden müssen, verwende im Chat die Option <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhängen → Datei**.
 Verwende diese Methode nur sparsam, da das Senden von Originaldateien den Datenverbrauch für dich und alle Empfänger im Chat erheblich erhöht.
-
 
 ### Wie funktionieren "Verschwindende Nachrichten"? {#ephemeralmsgs}
 
@@ -212,13 +198,11 @@ oder auf andere Weise Nachrichten vor dem Löschen speichern, kopieren oder weit
 
 Abgesehen davon, wenn ein Chat-Partner Delta Chat deinstalliert, kann es länger dauern, bis die (ohnehin verschlüsselten) Nachrichten vom Server gelöscht werden.
 
-
 ### Was passiert, wenn ich “Nachrichten vom Gerät löschen” aktiviere? {#delold}
 
 Wenn du Speicherplatz auf deinem Gerät sparen möchtest, kannst du alte Nachrichten automatisch löschen lassen.
 
 Hierzu, öffne **Einstellungen → Chats → Nachrichten vom Gerät löschen**. Du kannst einen Zeitraum zwischen “1 Stunde” und “1 Jahr” festlegen; auf diese Weise werden alleNachrichten von deinem Gerät gelöscht, sobald sie älter als angegeben sind.
-
 
 ### Wie kann ich mein Chat-Profil löschen? {#remove-account} 
 
@@ -230,7 +214,6 @@ Chat-Profile auf anderen Geräten funktionieren uneingeschränkt weiter.
 
 Wenn du ein einzelnes Standard-Chat-Profil verwendest, kannst du die App einfach deinstallieren. Dies löscht automatisch alle zugehörigen Daten auf dem Chatmail-Relay.
 Weitere Informationen findest du auf der entsprechenden Seite des verwendeten [Chatmail-Server](https://chatmail.at/relays).
-
 
 ## Gruppen {#groups}
 
@@ -244,7 +227,6 @@ und seine [eigenen Nachrichten von Geräten der Mitglieder löschen](#edit).
 
 Da alle Mitglieder die gleichen Rechte haben, funktionieren Gruppen am besten unter **vertrauten Freunden und Familienmitgliedern**.
 
-
 ### Eine Gruppe anlegen
 
 - Wähle **Neuer Chat** und dann **Neue Gruppe** aus dem Menü oben rechts oder über das entsprechende Symbol unter Android/iOS.
@@ -252,7 +234,6 @@ Da alle Mitglieder die gleichen Rechte haben, funktionieren Gruppen am besten un
 - Wähle auf dem folgenden Bildschirm die **Gruppenmitglieder** aus und klicke auf das Häkchen in der oberen rechten Ecke. Danach kannst du einen **Gruppennamen** und auch einen **Gruppenbild**  festlegen.
 
 - Sobald du die **erste Nachricht** in die Gruppe schreibst, werden alle Mitglieder über die neue Gruppe informiert und können in der Gruppe antworten (solange du keine Nachricht in die Gruppe schreibst, ist die Gruppe für die Gruppenmitglieder nicht sichtbar).
-
 
 ### Mitglieder hinzufügen und entfernen {#addmembers}
 
@@ -266,12 +247,10 @@ Alle Gruppenmitglieder haben **dieselben Rechte**. Jeder kann daher jeden lösch
 
 Mit einem QR-Code und dem Einladungslink können mehrere Mitglieder hinzugefügt werden. Da Gruppen jedoch [für vertrauenswürdige Personen gedacht sind](#groups), solltest du diese nicht öffentlich teilen.
 
-
 ### Ich habe mich selbst versehentlich gelöscht.
 
 Da du kein Gruppenmitglied mehr bist, kannst du sich selbst nicht mehr hinzufügen.
 Kein Problem, bitte einfach ein anderes Gruppenmitglied in einem normalen Chat, dich hinzuzufügen.
-
 
 ### Ich möchte keine Nachrichten einer Gruppe mehr empfangen.
 
@@ -293,7 +272,6 @@ oder klicken mit der rechten Maustaste auf die Gruppe in der Chat-Liste (Desktop
 Die neue Gruppe ist **völlig unabhängig** von der ursprünglichen,
 die weiterhin wie bisher funktioniert.
 
-
 ### Wie viele Mitglieder können in einer einzelnen Gruppe sein?
 
 Es gibt keine technische Begrenzung,
@@ -301,11 +279,9 @@ aber mehr als 150 sind nicht empfohlen.
 
 Wenn Gruppen größer werden, können sie sozial instabil werden und benötigen möglicherweise eine Hierarchie - und Delta Chat ist ein privater Messenger für Chats mit [gleichen Rechten](#groups). Vgl. [Dunbar-Zahl](https://de.wikipedia.org/wiki/Dunbar-Zahl).
 
-
 ## Kanäle {#channels}
 
 Kanäle dienen der Verbreitung von Nachrichten an viele Empfänger.
-
 
 ### Einem Kanal beitreten
 
@@ -322,7 +298,6 @@ Andere Abonnenten des Kanals sehen nicht, dass du dem Kanal beigetreten bist, un
 
 Wenn du dein bestehendes Profil nicht teilen möchtest, kannst du für den Beitritt zu einem Kanal auch ein [eigenes Profil](#multiple-accounts) erstellen.
 
-
 ### Einen Kanal erstellen
 
 - Tippe auf **Neuer Chat** und dann **Neuer Kanal**.
@@ -337,7 +312,6 @@ Abonnenten erhalten deine Nachrichten, können aber selbst keine Nachrichten in 
 
 Neben jeder Nachricht siehst du die **Anzahl der Aufrufe**. Dabei werden nur Abonnenten gezählt, die Lesebestätigungen aktiviert haben, die tatsächliche Zahl kann also höher sein.
 
-
 ### Wie viele Empfänger kann ein Kanal haben?
 
 Kanäle sind für ein viel größeres Publikum als [Gruppen](#groups) ausgelegt.
@@ -348,13 +322,11 @@ Für sehr große Kanäle mit mehreren Zehntausend Abonnenten empfehlen wir, ein 
 
 Aber grundsätzlich ist Delta Chat relay-unabhängig gestaltet, du kannst dein Relay also auch später jederzeit einfach wechseln. Deine bestehenden Abonnenten merken davon nichts. Du musst dann nur den Einladungslink aktualisieren, den du mit neuen Abonnenten teilst.
 
-
 ## Anrufe {#calls}
 
 Delta Chat unterstützt **Audioanrufe** und **Videoanrufe** zwischen zwei Personen.
 
 Anrufe werden auf Desktop, Ubuntu Touch, iOS sowie Android 8 und neuer unterstützt.
-
 
 ### Jemanden anrufen
 
@@ -362,13 +334,11 @@ Anrufe werden auf Desktop, Ubuntu Touch, iOS sowie Android 8 und neuer unterstü
 
 - Dadurch öffnet sich ein kleines Menü, in dem du zwischen **Audioanruf** und **Videoanruf** wählen kannst.
 
-
 ### Einen Anruf annehmen oder ablehnen
 
 - Wenn dich jemand anruft, zeigt Delta Chat einen **Bildschirm für eingehende Anrufe** oder eine Benachrichtigung an.
 
 - Tippe auf **Annehmen**, um den Anruf entgegenzunehmen, oder auf **Ablehnen**, um ihn abzulehnen.
-
 
 ### Während des Anrufs
 
@@ -380,7 +350,6 @@ Anrufe werden auf Desktop, Ubuntu Touch, iOS sowie Android 8 und neuer unterstü
 
 Je nach Gerät kannst du auch die Audioausgabe auswählen oder Bild-im-Bild verwenden. Auf dem Desktop läuft der Anruf in einem eigenen Fenster, und du kannst das Delta-Chat-Hauptfenster wie gewohnt weiter nutzen.
 
-
 ### Verpasste Anrufe und Benachrichtigungen
 
 - Wenn du nicht antwortest, das Klingeln nicht hörst oder dein Gerät nicht zur Hand hast, erscheint der Anruf als **verpasster Anruf**.
@@ -389,19 +358,16 @@ Je nach Gerät kannst du auch die Audioausgabe auswählen oder Bild-im-Bild verw
 
 - Unter **Einstellungen → Benachrichtigungen → Anrufe** kannst du den Anrufbildschirm komplett deaktivieren. Dann stört dich keine Klingel-Benachrichtigung mehr, du kannst den Anruf aber trotzdem annehmen, indem du im Chat auf die Nachricht zum eingehenden Anruf tippst.
 
-
 ## In-Chat-Apps {#webxdc}
 
 Du kannst Apps an einen Chat senden – Spiele, Editoren, Umfragen und andere Tools.
 Dies macht Delta Chat zu einem wirklich erweiterbaren Messenger.
-
 
 ### Wo bekomme ich In-Chat-Apps?
 
 - Im Chat unter <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhängen → Apps**
 
 - Du kannst deine [eigenen Apps erstellen](#create-xdc) und mit <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Anhängen → Datei** anhängen
-
 
 ### Wie privat sind In-Chat-Apps?
 
@@ -412,7 +378,6 @@ Dies macht Delta Chat zu einem wirklich erweiterbaren Messenger.
 - Die Privatsphäre, die eine App bietet, ist die Privatsphäre des Chats – solange Sie den Personen, mit denen Sie chatten, vertrauen, können Sie auch der App vertrauen.
 
 - Das bedeutet auch: Genauso wie bei Weblinks, öffne keine Apps von nicht-vertrauenswürdigen Kontakten.
-
 
 ### Wie kann mich meine eigene In-Chat-Apps erstellen? {#create-xdc}
 
@@ -425,7 +390,6 @@ Dies macht Delta Chat zu einem wirklich erweiterbaren Messenger.
 
 - Wenn du Fragen hast, kannst du andere mit mehr Erfahrung
 im [Forum](https://support.delta.chat/c/webxdc/20) ansprechen.
-
 
 ## Sofortige Nachrichtenzustellung und Push-Benachrichtigungen {#instant-delivery}
 
@@ -443,7 +407,6 @@ Push-Benachrichtigungen funktionieren mit allen [Chatmail](https://delta.chat/ch
 auch auf Geräten, die [microG](https://microg.org)
 anstelle von proprietärem Google-Code auf dem Telefon.
 
-
 ### Sind Push-Benachrichtigungen auf iOS-Geräten aktiviert? Gibt es Alternativen?
 
 Ja, Delta Chat verwendet automatisch Push-Benachrichtigungen für [Chatmail](https://delta.chat/chatmail)-Profile.
@@ -452,7 +415,6 @@ Apple-Geräte erlauben es Delta Chat nicht, Daten im Hintergrund abzurufen.
 Push-Benachrichtigungen werden für iOS-Nutzer automatisch aktiviert, da
 [Delta Chats datenschutzwahrendes Push-Benachrichtigungssystem](#privacy-notifications)
 keine Daten an Apple weitergibt, die Apple nicht bereits hat.
-
 
 ### Sind Push-Benachrichtigungen auf Android-Geräten aktiviert/erforderlich? {#android-push}
 
@@ -466,12 +428,11 @@ kannst du die folgenden Einstellungen ändern, die alle Chat-Profile betreffen:
 Einige Android-Hersteller schränken Apps sogar vollständig ein
 (siehe [dontkillmyapp.com](https://dontkillmyapp.com))
 und Delta Chat zeigt möglicherweise keine eingehenden Nachrichten an, bis du die App erneut manuell öffnest.
-  
+
 - Hintergrundverbindung erzwingen: Dies ist die Ausweichoption wenn die vorherigen Optionen nicht verfügbar sind oder keine „sofortige Zustellung“ erreichen. Die Aktivierung dieser Option führt zu einer permanenten Benachrichtigung auf deinem Telefon, die bei neueren Android-Telefonen manchmal „verkleinert“ werden kann.
 
 Beide „Hintergrundverbindung“-Optionen sind energiesparend und
 können sicher ausprobiert werden, wenn du feststellst, dass Nachrichten nur mit großer Verzögerung ankommen.
-
 
 ### Wie privat sind Delta-Chat-Push-Benachrichtigungen? {#privacy-notifications}
 
@@ -497,7 +458,6 @@ Der zentrale Push-Dienst weiß nichts über das Profil des Geräts, das er aufwe
 sieht nie eine Adresse (weder Absender noch Empfänger)
 und auch nie den Inhalt einer Nachricht (auch nicht in verschlüsselter Form).
 
-
 Der zentrale Delta-Chat-Benachrichtigungs-Proxy [ist klein und vollständig in Rust implementiert](https://github.com/deltachat/notifiers)
 und vergisst die Geräte-Token, sobald Apple/Google/etc. sie verarbeitet hat,
 normalerweise innerhalb weniger Millisekunden.
@@ -511,7 +471,6 @@ Aufgrund dieses umfassenden Datenschutzkonzepts würde sogar die Beschlagnahmung
 oder die vollständige Beschlagnahmung des zentralen Delta-Chat-Benachrichtigungsproxys
 keine privaten Informationen preisgeben, die den zentralen Push-Diensten nicht bereits vorliegen.
 
-
 ### Warum integriert sich Delta Chat in zentralisierte, proprietäre Apple/Google-Push-Dienste?
 
 Delta Chat ist ein freier, quelloffener, dezentraler Messenger mit freier Serverwahl,
@@ -522,8 +481,6 @@ ohne im Vorfeld Fragen zu stellen, die eher für erfahrene Nutzer oder Entwickle
 Beachte, dass Delta Chat ein [kleines, die Privatsphäre wahrendes Push-Benachrichtigungssystem](#privacy-notifications)
 hat, das eine „sofortige Zustellung“ von Nachrichten für alle Chatmail-Server erreicht.
 Einschließlich dem Chatmail-Server, [den du selbst ohne unsere Erlaubnis einrichten kannst](https://delta.chat/chatmail#selfhosted).
-
-
 
 ## Mehrere Geräte verwenden {#multiclient}
 
@@ -542,7 +499,6 @@ Ja. Du kannst dasselbe Profil auf mehreren Geräten verwenden:
 - Die Übertragung sollte nach ein paar Sekunden beginnen und während der Übertragung zeigen beide Geräte den **Fortschritt** an. Warte, bis der Vorgang auf beiden Geräten abgeschlossen ist.
 
 Im Gegensatz zu vielen anderen Messengern, sind nach erfolgreicher Übertragung beide **Geräte völlig unabhängig voneinander. Das eine Gerät wird nicht benötigt, damit das Andere funktioniert.
-
 
 ### Fehlersuche
 
@@ -572,7 +528,6 @@ versuche, einen **Mobilen Hotspot** auf einem Gerät zu öffnen und dich mit dem
 
 - Wenn du immer noch Probleme hast oder wenn du **keinen QR-Code scannen kannst**, versuche die **manuelle Übertragung** wie unten beschrieben
 
-
 ### Manueller Transfer {#backup}
 
 Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben beschrieben, nicht funktioniert.
@@ -584,13 +539,11 @@ Wenn du iOS verwendest und auf Schwierigkeiten stößt, hilft dir vielleicht [di
 
 Du bist nun synchronisiert und kannst beide Geräte zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten-Nachrichten mit deinen Kommunikationspartnern verwenden.
 
-
 ### Gibt es Pläne für eine Delta-Chat-Web-Anwendung?
 
 - Es gibt keine direkten Pläne, aber einige vorläufige Gedanken.
 - Es gibt 2-3 Möglichkeiten, einen Delta-Chat-Web-Client einzuführen, aber sie bedeuten alle immense Arbeit. Im Moment fokussieren wir uns darauf, stabile native Apps in den Appstores (Google Play/iOS/Windows/macOS/Linux repositories) anzubieten. 
 - Solltest du einen Web-Client benötigen, weil du auf deinem Arbeitsrechner keine Software installieren darfst, kannst du den portablen Windows-Desktop-Client bzw. Applmage für Linux nutzen. Du findest diese unter [get.delta.chat](https://get.delta.chat).
-
 
 ## Erweitert
 
@@ -602,7 +555,6 @@ kannst du unfertige Features ausprobieren, an denen gearbeitet wird.
 Die Features können **instabil** sein und **geändert oder entfernt** werden.
 
 Du findest weitere Informationen im [Forum](https://support.delta.chat), wo du auch Feedback geben kannst.
-
 
 ### Was sind Relays? {#relays}
 
@@ -622,7 +574,6 @@ kannst du jedoch unter **Einstellungen → Erweitert → Relays** Änderungen vo
 - Du kannst ein Relay **hinzufügen**, indem du den entsprechenden QR-Code scannst oder den Einladungslink einfügst; [chatmail.at/relays](https://chatmail.at/relays) listet einige öffentlich bekannte auf. Wenn du mehrere Relays hast, empfängst du Nachrichten über alle.
 
 Wenn du ein Relay hinzufügst oder entfernst, werden deine Chatpartner automatisch informiert, damit sie dieses Relay für Chats mit dir verwenden bzw. nicht mehr verwenden.
-
 
 ### Kann ich eine klassische E-Mail-Adresse mit Delta Chat verwenden?
 
@@ -650,7 +601,6 @@ und andere Einschränkungen haben, siehe [Provider-Overview](https://providers.d
 Chatmail verwendet den Standard-INBOX für die Weiterleitung; stellen Sie sicher, dass dies auch bei der Einrichtung Ihres Anbieters der Fall ist. 
 Ein Chat-Profil mit klassischer E-Mail-Adresse, ermöglicht das Senden und Empfangen unverschlüsselter Nachrichten; diese sind mit dem E-Mail-Symbol <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>  gekennzeichnet.
 
-
 ### Ich möchte meinen eigenen Server für Delta Chat verwalten. Gibt es Empfehlungen?
 
 Jede gut funktionierende E-Mail-Server-Konfiguration ist geeignet, 
@@ -660,7 +610,6 @@ Wir empfehlen generell, [ein Chatmail-Relay einzurichten](https://chatmail.at/do
 [Chatmail](https://chatmail.at) ist ein Community-basiertes Projekt, das sowohl die Einrichtung von Relays
 als auch [Entwicklungen in Rust](https://github.com/chatmail/core) 
 für die [Chatmail-Clients](https://chatmail.at/clients) umfasst, von denen Delta Chat der bekannteste ist.
-
 
 ### Was ist "Statistik an Delta Chat Entwickler senden"? {#statssending}
 
@@ -684,12 +633,9 @@ Wir sind beispielsweise an folgenden Statistiken interessiert:
 
 Wir werden _keinerlei_ personenbezogene Daten über dich sammeln.
 
-
 ### Ich bin an technischen Details interessiert. Gibt es hierzu weitere Infos?
 
 Siehe hierzu [in Delta Chat genutzte Standards]({% include standards-url %}).
-
-
 
 ## Verschlüsselung und Sicherheit {#e2ee}
 
@@ -721,7 +667,6 @@ Wenn du die Standard-[Chatmail-Relays](https://chatmail.at/relays) verwendest, i
 
 Wenn du stattdessen ein Profil mit einem [klassischen E-Mail-Server](#classic-email) erstellst, kannst du Nachrichten mit und ohne Ende-zu-Ende-Verschlüsselung senden und empfangen.  Nachrichten ohne Ende-zu-Ende-Verschlüsselung werden mit einem E-Mail-Symbol gekennzeichnet  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### Was ist mit dem "Grünen Haken" in Kontaktprofilen passiert? {#e2eeguarantee}
 
 Ältere Delta-Chat-Versionen zeigten in manchen Kontaktprofilen ein grünes Häkchen <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="grünes Häkchen" /> und eine Zeile „Eingeführt von“ an.
@@ -738,7 +683,6 @@ Wenn wir von einer "Ende-zu-Ende-verschlüsselten Nachricht" sprechen
 meinen wir immer, dass eine ganze Nachricht verschlüsselt ist,
 einschließlich aller Anhänge
 und Anhang-Metadaten wie Dateinamen.
-
 
 ### Ist OpenPGP sicher? {#openpgp-secure}
 
@@ -759,7 +703,6 @@ Unser Ziel ist, zusammen mit anderen OpenPGP-Implementierungen,
 die Sicherheitseigenschaften durch das im Sommer 2023 angenommene
 [IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) weiter zu verbessern.
 
-
 ### Wurden Alternativen zu OpenPGP für die Ende-zu-Ende-Verschlüsselung in Betracht gezogen? {#openpgp-alternatives}
 
 Ja, wir verfolgen Ansätze wie [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security). 
@@ -777,7 +720,6 @@ nur ein Teil der Ergebnisse,
 siehe auch unsere Antworten auf [Gerätebeschlagnahmung](#device-seizure)
 und [Metadaten](#message-metadata) Fragen.
 
-
 ### Ist Delta Chat anfällig für EFAIL?
 
 Nein, [Delta Chat war nie anfällig für EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail).
@@ -790,7 +732,6 @@ Delta Chat war auch nie anfällig für den EFAIL-Angriff "Direct Exfiltration",
 da nur `multipart/encrypted` Nachrichten entschlüsselt werden,
 die genau einen verschlüsselten und signierten Teil enthalten;
 so wie in der Autocrypt-Level-1-Spezifikation definiert.
-
 
 ### Sind mit dem Mail-Symbol markierte Nachrichten im Internet sichtbar? {#tls}
 
@@ -810,7 +751,6 @@ Wenn die beteiligten E-Mail-Server [MTA-STS](https://datatracker.ietf.org/doc/ht
 wird TLS zwischen den E-Mail-Anbietern durchgesetzt. 
 In diesem Fall wird die Delta-Chat-Kommunikation niemals im Klartext ins Internet gelangen
 selbst wenn die Nachricht nicht Ende-zu-Ende-verschlüsselt war.
-
 
 ### Wie schützt Delta Chat Metadaten in Nachrichten? {#message-metadata}
 
@@ -837,7 +777,6 @@ mit der Gewissheit, dass alle Daten sowie alle Metadaten gelöscht werden.
 Darüber hinaus können Chat-Kontakte, die kurzlebige Profile verwenden,
 im Falle einer Beschlagnahmung des Geräts nicht ohne Weiteres identifiziert werden. 
 
-
 ### Wer sieht meine IP-Adresse?
 
 Die verwendeten [Relays](#relays) müssen deine IP-Adresse kennen,
@@ -850,7 +789,6 @@ IP-Adressen sind nicht mit einer Adresse, die du einem Lieferdienst gibst, vergl
 
 Wenn du deine IP-Adresse als Risiko betrachtest, empfehlen wir, ein VPN für das gesamte System zu verwenden.
 Einstellungen auf App-Ebene hinterlassen Lücken überall im  System. Wenn man beispielsweise auf einen Link tippt, können IP-Adressen an Unbekannte weitergegeben werden, was bei weitem das größere Risiko darstellt
-
 
 ### Unterstützt Delta Chat „Sealed Sender“? {#sealedsender}
 
@@ -911,7 +849,6 @@ Wir wollen sicherstellen, dass sich Sicherheitsüberprüfungen auf einige wenige
 anstatt auf die gesamte Bandbreite der mit OpenPGP zulässigen Algorithmen.
 Wenn Sie Ihren OpenPGP-Schlüssel extrahieren möchten, gibt es nur eine Methode für Experten: Sie müssen ihn in der SQLite-Tabelle „keypairs” des Backups nachschlagen.
 
-
 ### Wurde Delta Chat unabhängig auf Sicherheitslücken geprüft? {#security-audits}
 
 Ja, mehrfach.
@@ -939,7 +876,6 @@ Es wurden keine kritischen oder hochgradig gefährlichen Probleme gefunden. Der 
 - Im Jahr 2019 analysierte [Include Security](https://includesecurity.com) die von Delta Chat verwendeten [PGP-](https://github.com/rpgp/rpgp) und [RSA-](https://github.com/RustCrypto/RSA) Bibliotheken.
 Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schweregrad, die wir anschließend behoben haben. Außerdem wurden ein mittelschweres und einige weniger schwerwiegende Probleme gefunden, aber es gab keine Möglichkeit, diese Schwachstellen in der Delta-Chat-Implementierung auszunutzen. Einige dieser Schwachstellen haben wir dennoch nach Abschluss des Audits behoben. Du kannst den [vollständigen Bericht hier](../assets/blog/2019-first-security-review.pdf) lesen.
 
-
 ## Verschiedenes
 
 ### Welche App-Berechtigungen benötigt Delta Chat?
@@ -948,7 +884,6 @@ Einige Features erfordern bestimmte Berechtigungen.
 So muss z.B. der Kamerazugriff gewährt werden, wenn du einen [QR-Code scannen](#howtoe2ee) möchtest.
 
 See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
-
 
 ###  Wo können meine Freunde Delta Chat finden?
 
@@ -963,7 +898,6 @@ Delta Chat ist für alle großen und einige kleinere Plattformen verfügbar:
 - Im **Paketmanager** deiner Linux-Distribution nachschauen
 
  - **Android-APKs** sind auch auf <https://github.com/deltachat/deltachat-android/releases> verfügbar.
-
 
 ### Wie wird Delta Chat finanziert?
 

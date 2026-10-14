@@ -18,7 +18,6 @@ Na systému Android můžete ověřit, zda podpisový certifikát souboru APK od
 Zobrazit otisk SHA256 pro certifikát APK souboru lze napřiklad následujícím příkazem:  
 `keytool -printcert -jarfile <APK-file>`
 
-
 ## Desktop
 
 1. Open your terminal and **change directory** to the file you want to verify, eg.  

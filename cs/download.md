@@ -6,7 +6,6 @@ downloads: true
 
 Verze pro počítače nevyžaduje instalaci aplikace Delta Chat na mobilní telefon.
 
-
 ## Seznamy změn a další {#changelogs}
 
 - Seznamy změn: [PC](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

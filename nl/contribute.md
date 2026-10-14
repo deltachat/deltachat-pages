@@ -27,7 +27,6 @@ Als je wilt meepraten in de Delta Chat-gemeenschap, neem dan onze [gemeenschapsr
 - [Delta Chat voor iOS-problemen](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust-kernbibliotheek- en Python Bindings-problemen](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Externe communicatiekanalen
 
 Hieronder volgt een lijst met Delta Chat-kanalen die door anderen worden beheerd.

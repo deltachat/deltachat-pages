@@ -6,7 +6,6 @@ downloads: true
 
 Die Desktop-Versionen erfordern keine Installation von Delta Chat auf einem Mobiltelefon.
 
-
 ## Changelogs & mehr {#changelogs}
 
 - Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

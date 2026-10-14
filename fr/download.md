@@ -6,7 +6,6 @@ downloads: true
 
 L'installation de Delta Chat sur le téléphone n'est pas nécessaire pour utiliser l'application sur l'ordinateur.
 
-
 ## Journaux des modifications & plus {#changelogs}
 
 - Journaux des modifications : [Ordinateur](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

@@ -27,7 +27,6 @@ lang: ru
 - [Проблемы Delta Chat для iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Проблемы Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Каналы связи сторонних разработчиков
 
 Следующие каналы связи, связанные с Delta Chat, управляются третьими сторонами

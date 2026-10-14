@@ -18,7 +18,6 @@ Per Android, podeu verificar que el certificat signat a l'APK coincideix amb alg
 Si voleu imprimir les empremtes SHA256 del certificat de signatura APK podeu fer servir, per ex.  
 `keytool -printcert -jarfile <APK-file>`
 
-
 ## Escriptori
 
 1. Obre un terminal i **canvia de directori** al fitxer que vols verificar, per exemple:  

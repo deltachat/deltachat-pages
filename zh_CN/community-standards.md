@@ -36,7 +36,6 @@ them in public or private, whatever is more appropriate. Assume good faith;
 it's more likely that participants are unaware than that they are intentionally
 trying to denigrate others or reduce the quality of discussion.
 
-
 ## Collective Maintenance Standards
 
 Our organizational repositories are collectively maintained, not individually owned.
@@ -71,7 +70,6 @@ to automatically generate pull requests.
 However, these changes must never be automatically merged
 and always require strict human review before merging.
 
-
 ## 维护者与义务
 
 Project maintainers are those with commit rights to collective repositories
@@ -84,7 +82,6 @@ that are not aligned with our standards or do not match current project plans.
 They may also ban temporarily or permanently a contributor for
 other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-
 ## 适用范围
 
 Our Community Standards apply to project repositories, communication channels, and gatherings,
@@ -94,7 +91,6 @@ Examples of representing a project or community include using an official projec
 address, posting via a social media account associated with the project,
 or acting as a representative at an online or offline event.
 
-
 ## 报告与处理
 
 如果你经历或目睹了辱骂、骚扰或其他不可接受的行为，可以致信给选定的项目维护者，目前是 [Nami](mailto:missytake@systemli.org) 和 [Xenia](mailto:ksenia@transcyberian.org)。
@@ -102,7 +98,6 @@ or acting as a representative at an online or offline event.
 
 维护者有义务保密举报者信息。
 维护者本身不能免于被投诉，经其他维护者决议后，可能会被暂时或永久地剥夺参与本项目的资格。
-
 
 ## 来源
 

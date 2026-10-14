@@ -6,7 +6,6 @@ downloads: true
 
 برای استفاده از نگارش‌های میزکار، احتیاجی به نصب بودن دلتاچت روی تلفن همراه خود ندارید.
 
-
 ## گزارش تغییرات {#changelogs}
 
 * [ نسخهٔ رایانه](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)

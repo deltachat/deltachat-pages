@@ -18,7 +18,6 @@ Android için APK üzerindeki imzalama sertifikasının aşağıdaki SHA256 parm
 APK imzalama sertifikasının SHA256 parmak izlerini yazdırmak için ör.  
 `keytool -printcert -jarfile <APK dosyası>` kullanabilirsiniz
 
-
 ## Desktop
 
 1. Open your terminal and **change directory** to the file you want to verify, eg.  

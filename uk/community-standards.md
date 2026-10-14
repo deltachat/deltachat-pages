@@ -36,7 +36,6 @@ them in public or private, whatever is more appropriate. Assume good faith;
 it's more likely that participants are unaware than that they are intentionally
 trying to denigrate others or reduce the quality of discussion.
 
-
 ## Collective Maintenance Standards
 
 Our organizational repositories are collectively maintained, not individually owned.
@@ -71,7 +70,6 @@ to automatically generate pull requests.
 However, these changes must never be automatically merged
 and always require strict human review before merging.
 
-
 ## Супроводжувачі та їх обов'язки
 
 Project maintainers are those with commit rights to collective repositories
@@ -84,7 +82,6 @@ that are not aligned with our standards or do not match current project plans.
 They may also ban temporarily or permanently a contributor for
 other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-
 ## Сфера застосування
 
 Our Community Standards apply to project repositories, communication channels, and gatherings,
@@ -94,13 +91,11 @@ Examples of representing a project or community include using an official projec
 address, posting via a social media account associated with the project,
 or acting as a representative at an online or offline event.
 
-
 ## Повідомлення та реакція
 
 Якщо ви зазнаєте або стали свідком знущань, образливої ​​чи іншої неприйнятної поведінки ви можете поговорити з вибраними супроводжуючими проектів, наразі з [Намі](mailto:missytake@systemli.org) і [Ксенією](mailto:ksenia@transcyberian.org). Вони розглядатимуть звіти та залучатимуть інших супроводжувачів у разі потреби, і відповість у спосіб, який вважатиметься за потрібне та відповідним обставинам, але не проти вашої волі.
 
 Супроводжувачі зобов'язані зберігати конфіденційність щодо особи, що повідомила про інцидент. Технічні працівники самі не звільняються від звітності і можуть отримати до тимчасові або постійні наслідки які визначать інші супроводжуючі.
-
 
 ## Атрибуція
 

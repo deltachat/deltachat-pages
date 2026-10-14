@@ -18,7 +18,6 @@ Pre Android môžete overiť, že podpisový certifikát na APK sa zhoduje s jed
 Na tlač odtlačkov SHA256 podpisového certifikátu APK môžete použiť napr.
 `keytool -printcert -jarfile <APK-file> `
 
-
 ## Desktop
 
 1. Open your terminal and **change directory** to the file you want to verify, eg.  

@@ -6,7 +6,6 @@ downloads: true
 
 Versi desktop tidak memerlukan Delta Chat untuk diinstal di ponsel.
 
-
 ## Changelogs & More {#changelogs}
 
 - Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

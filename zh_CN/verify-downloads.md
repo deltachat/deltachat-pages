@@ -18,7 +18,6 @@ lang: zh_CN
 要打印 APK 签名证书的 SHA256 指纹，可以使用
 `keytool -printcert -jarfile <APK-file>`
 
-
 ## Desktop
 
 1.打开终端，**更改目录**到要验证的文件，例如  

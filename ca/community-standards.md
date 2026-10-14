@@ -29,7 +29,6 @@ Exemples de comportaments que demanem a tothom que eviti inclouen:
 Reconeixem que de vegades la gent pot tenir un mal dia o potser no és conscient de l'impacte del seu comportament. Quan això passi, els podeu recordar amb cura, en públic o en privat, segons el que sigui més adient. Suposeu bona fe;
 És més probable que els participants no se n'adonin que no pas que intentin intencionadament denigrar els altres o reduir la qualitat del debat.
 
-
 ## Normes de manteniment col·lectiu
 
 Els nostres repositoris organitzatius es mantenen col·lectivament, no són propietat individual. Per evitar i mitigar els punts únics de coneixement i control, animem tothom a trobar i formar altres mantenidors per compartir el coneixement i les responsabilitats de manteniment.
@@ -49,19 +48,16 @@ Es desaconsella la publicitat automàtica «assistida/coescrita per» que esment
 
 En casos específics, els administradors poden acordar configurar bots (com ara «dependabot») per generar sol·licituds d'extracció automàticament. No obstant això, aquests canvis mai no s'han de fusionar automàticament i sempre requereixen una revisió humana estricta abans de fusionar-los.
 
-
 ## Responsables i Responsabilitats
 
 Els mantenidors del projecte són aquells que tenen drets de comit a repositoris col·lectius o drets administratius als canals de comunicació de la comunitat. Es demana a cada mantenidor que assumeixi la responsabilitat i prengui les mesures adequades i acurades en resposta a casos constatats de comportament qüestionable.
 Els mantenidors del projecte tenen el dret i la responsabilitat de suprimir, editar o rebutjar comentaris, commits, codi, edicions de la wiki, incidències i altres contribucions que no estiguin alineades amb els nostres estàndards o no coincideixin amb els plans actuals del projecte.
 També poden prohibir temporalment o permanentment la participació d'un col·laborador per altres comportaments que considerin inadequats, amenaçadors, ofensius o nocius.
 
-
 ## Àmbit
 
 Les nostres normes comunitàries s'apliquen als repositoris de projectes, als canals de comunicació i a les trobades, així com als espais públics, quan una persona representa el projecte o la seva comunitat.
 Alguns exemples de representar un projecte o una comunitat inclouen utilitzar una adreça de correu electrònic oficial del projecte, publicar a través d'un compte de xarxa social associat al projecte o actuar com a representant en un esdeveniment en línia o presencial.
-
 
 ## Informar i Respostes
 
@@ -71,7 +67,6 @@ Ells revisaran els informes i involucraran altres responsables segons sigui nece
 
 Els responsables tenen l’obligació de mantenir la confidencialitat respecte a la persona que informa d’un incident.
 Els responsables no estan exempts de poder ser reportats i poden enfrontar repercussions temporals o permanents segons el criteri dels altres responsables.
-
 
 ## Atribució
 

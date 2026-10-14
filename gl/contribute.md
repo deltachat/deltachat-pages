@@ -26,7 +26,6 @@ das funcións e obter apoio.
 - [Problemas de Delta Chat en iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemas coa Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Canles de comunicación de terceiros 
 
 Os seguintes canais de comunicación relacionados con Delta Chat son xestionados por terceiras partes que poden ou non seguir os nosos [Estándares Comunitarios](community-standards): 

@@ -18,7 +18,6 @@ W przypadku systemu Android można sprawdzić, czy certyfikat APK jest zgodny z 
 Do wydrukowania odcisków palców SHA256 certyfikatu podpisu aplikacji można użyć np.
 `keytool -printcert -jarfile <APK-file>`
 
-
 ## Komputer stacjonarny
 
 1. Otwórz terminal i **zmień katalog** na ten, w którym znajduje się plik, który chcesz zweryfikować, np.  

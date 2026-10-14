@@ -36,7 +36,6 @@ en público ou privado, o que é máis apropiado. Suxerimos asumir boa intenció
 é máis probábel que os participantes son inconscientes que que estean tratando de denigrar outros 
 ou reducir a calidade da discusión intencionalmente.
 
-
 ## Regras de mantenza colectiva
 
 Os repositorios da nosa organización son mantidos colectivamente e non de propiedade individual.
@@ -71,7 +70,6 @@ para xerar solicitudes de puxada automáticas.
 Con todo, estas modificacións nunca deben ser automáticamente incorporadas
 e requiren sempre unha supervisión estricta humana previa á incorporación.
 
-
 ## Persoas Mantedoras e Responsabilidades
 
 Os mantedores do proxecto son aqueles con dereitos de remisión ós repositorios colectivos
@@ -83,7 +81,6 @@ rexeitar comentarios, remisións, código, edicións da wiki, incidencias, e out
 que non están aliñadas coas nosas regras ou non corresponden ós plans actuais do proxecto. Tamén poden vetar temporal ou permanentemente un contribuínte por
 outros comportamentos que consideraron impropios, ameazantes, ofensivos, ou nocivos.
 
-
 ## Alcance
 
 As nosas Regras comunitarias son aplicábeis aos repositorios do proxecto, canles de comunicación, e xuntanzas, 
@@ -92,7 +89,6 @@ cando un individuo está representando o proxecto ou a comunidade.
 Exemplos de representación do proxecto ou a comunidade inclúen o uso dunha dirección de correo electrónico oficial do proxecto, 
 publicar a través das contas de redes  sociais asociadas co proxecto, 
 ou actuar como representante nun evento presencial ou en liña.
-
 
 ## Informes e respostas
 
@@ -107,7 +103,6 @@ As persoas mantedoras están obrigadas a manter a confidencialidade
 As persoas mantedoras non están exentas de que se informe sobre elas 
 e poden enfrontarse a repercusións temporais ou permanentes,
  segundo determine outra persoa mantedora.
-
 
 ## Atribución
 

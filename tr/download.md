@@ -6,7 +6,6 @@ downloads: true
 
 Masaüstü sürümleri, Delta Chat'in bir telefona kurulmasını gerektirmez.
 
-
 ## Changelogs & More {#changelogs}
 
 - Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

@@ -26,7 +26,6 @@ lang: uk
 - [Проблеми з Delta Chat на iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Проблеми з бібліотекою Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Сторонні канали зв'язку
 
 Наступні канали зв'язку, пов'язані із Delta Chat, управляються третіми сторонами, які можуть чи не можуть дотримуватися наших [Стандартів спільноти](community-standards):

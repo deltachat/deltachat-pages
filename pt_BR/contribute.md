@@ -26,7 +26,6 @@ Para as interações da comunidade em torno do Delta Chat, leia as nossas [Norma
 - [Issues do Delta Chat no iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Issues da Biblioteca Principal Rust + Bindings Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Canais de comunicação de terceiros 
 
 Os seguintes canais de comunicação relacionados ao Delta Chat são administrados por terceiros que podem ou não seguir nossas [Normas da Comunidade](community-standards): 

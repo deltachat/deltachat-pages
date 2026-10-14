@@ -36,7 +36,6 @@ them in public or private, whatever is more appropriate. Assume good faith;
 it's more likely that participants are unaware than that they are intentionally
 trying to denigrate others or reduce the quality of discussion.
 
-
 ## Collective Maintenance Standards
 
 Our organizational repositories are collectively maintained, not individually owned.
@@ -71,7 +70,6 @@ to automatically generate pull requests.
 However, these changes must never be automatically merged
 and always require strict human review before merging.
 
-
 ## Mantentzaileak eta erantzukizunak
 
 Project maintainers are those with commit rights to collective repositories
@@ -84,7 +82,6 @@ that are not aligned with our standards or do not match current project plans.
 They may also ban temporarily or permanently a contributor for
 other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-
 ## Esparrua
 
 Our Community Standards apply to project repositories, communication channels, and gatherings,
@@ -94,13 +91,11 @@ Examples of representing a project or community include using an official projec
 address, posting via a social media account associated with the project,
 or acting as a representative at an online or offline event.
 
-
 ## Salaketak eta erantzunak
 
 Jokabide iraingarririk, jazarpenik edo onartu ezin den beste edozein jokabiderik jasan edo ikusiz gero, aukeratutako proiektu-mantentzaileekin hitz egin dezakezu; gaur egun, [Nami](mailto:missytake@systemli.org) eta [Xenia](mailto:ksenia@transcyberian.org) dira horiek. Salaketak aztertuko dituzte eta, bidezkoa denean, beste mantentzaile batzuk ere inplikatuko dituzte. Egoeraren arabera beharrezko eta egokitzat jotzen den moduan erantzungo dute, baina inoiz ez zure nahiaren aurka.
 
 Mantentzaileak gertakari baten berri ematen duen pertsonaren konfidentzialtasuna mantentzera behartuta daude. Mantentzaileak ere ez daude salatuak izatetik libre, eta aldi baterako zein betiko ondorioak jasan ditzakete, gainerako mantentzaileek hala erabakiz gero.
-
 
 ## Aitortza
 

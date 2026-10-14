@@ -25,7 +25,6 @@ Delta Chat-en inguruko komunitate-elkarreraginetarako, irakurri, mesedez, gure [
 - [Delta Chat iOS arazoak](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core liburutegia + Python Bindings arazoak](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Hirugarrenen komunikazio-kanalak
 
 Delta Chat-i lotutako ondorengo komunikazio-kanalak hirugarren pertsonek kudeatzen dituzte; baliteke kanal horiek gure [Komunitate-arauak](community-standards) betetzea edo ez:

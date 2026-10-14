@@ -17,7 +17,6 @@ Android-erako, APK fitxategiaren sinadura-ziurtagiria ondorengo SHA256 hatz-mark
 
 APKaren sinadura-ziurtagiriaren SHA256 hatz-markak bistaratzeko, adibidez, honako hau erabili dezakezu: `keytool -printcert -jarfile <APK-file>`
 
-
 ## Mahaigaina
 
 1. Ireki terminala eta **aldatu direktorioa** egiaztatu nahi duzun fitxategia dagoen tokira, adibidez:  

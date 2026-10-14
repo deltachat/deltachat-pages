@@ -5,7 +5,6 @@ render_toc: true
 header: Ohiko galderak
 ---
 
-
 ## Zer da Delta Chat?
 
 Delta Chat bat-bateko mezularitzako app bat da, fidagarria, deszentralizatua eta segurua,
@@ -26,7 +25,6 @@ segurua da sarearen edo zerbitzariaren kontrako erasoen aurka.
 
 - Software libre eta kode irekikoa, bai aplikazioan eta bai zerbitzarian,
 [Interneteko estandarretan]({% include standards-url %}) oinarritua.
-
 
 ### Nola aurkitu dezaket jendea, txateatzeko? {#howtoe2ee}
 
@@ -56,7 +54,6 @@ Zorionak!
 Hemendik aurrera [muturretik muturrerako zifratzea](#e2ee) automatikoki erabiliko duzu kontaktu honekin.
 [Taldeetan](#groups) elkar gehitzen baduzue, kide guztien artean muturretik muturrerako zifratzea ezarriko da.
 
-
 ### Zergatik dago txat bat “Eskaera” gisa markatuta?
 
 Mezularitza-aplikazio pribatua denez,
@@ -73,7 +70,6 @@ eta hori <b style="border: 1px solid currentColor; padding: 0 3px; font-size:90%
 mezu-eskaera bezala agertuko dira; beraz, iritziz aldatzeko aukera izango duzu. Benetan pertsona horren mezurik
 jaso nahi ez baduzu, kontuan izan **blokeatu** ditzakezula.
 
-
 ### Nola jar ditzaket nire bi lagun elkarren artean harremanetan?
 
 Gehitu lagunetako baten kontaktua bestearen txatean, botoi hauek erabiliz: <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Eranskina → Kontaktua**.
@@ -81,7 +77,6 @@ Aurkezpena egiteko mezutxo bat idaztea ere badaukazu.
 
 Hori egindakoan, bigarrenak **txartel** bat jasoko du
 eta, sakatutakoan, lehenengo kontaktuarekin txateatzen hasi ahalko da.
-
 
 ### Zer dira profilak edo kontuak? Zer egin behar dut profil batetik beste batera aldatzeko? {#multiple-accounts}
 
@@ -98,7 +93,6 @@ Agian profil desberdinak erabili nahi dituzu jarduera politikoetarako, lagun eta
 
 Eta beharbada ikasi nahi duzu [nola erabili profil edo kontu bera zenbait gailutan](#multiclient).
 
-
 ### Nork ikus dezake nire profileko argazkia?
 
 Kontua konfiguratzean, profileko argazki edo irudi bat jartzeko aukera duzu. Zure kontaktuei idatzitakoan,
@@ -107,14 +101,12 @@ edo QR kode baten bidez gehitutakoan, zure profileko argazki gisa ikusiko dute a
 Pribatutasun-arrazoiengatik, inork ez du zure profileko argazkia ikusiko
 zuk haiei mezu bat idatzi arte.
 
-
 ### Jar dezaket biografia/egoera Delta Chaten? {#signature}
 
 Bai,
 jar dezakezu, honela: **Ezarpenak → Profila → Sinaduraren testua**.
 Kontaktu bati mezu bat bidaltzen diozunean,
 hark zure kontaktuko datuak begiratutakoan ikusiko du.
-
 
 ### Zer da txatak finkatzea, mututzea eta artxibatzea?
 
@@ -132,7 +124,6 @@ eta marka hau izaten dute: <b style="border: 1px solid currentColor; padding: 0 
 **Mutututako txatek artxibatuta jarraitzen dute** zuk eskuz artxibotik atera arte.
 
 Funtzio horiek erabiltzeko, mahaigainekoan, egin klik eskuineko botoiarekin zerrendako txatean; mugikorrean, berriz, eduki sakatuta txata edo erabili menua.
-
 
 ### Zer dira “Gordetako mezuak”? {#save}
 
@@ -155,7 +146,6 @@ jatorrizko mezura joango zara, jatorrizko txatera.
 Mezuak gordeta geratzen dira, baita gerora editatu edo ezabatuz gero ere,
 bai [igorleak](#edit) hala egin duenean, bai [gailutik mezuak ezabatzea](#delold) aukeratuta dagoenean, bai [beste txat batzuetatik mezuak desagertzea](#ephemeralmsgs) aukeratuta dagoenean.
 
-
 ### Zer esan nahi du puntu berdeak?
 
 Baliteke batzuetan **puntu berde bat** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
@@ -165,7 +155,6 @@ adibidez, mezu bat edo irakurragiria bidali dizulako.
 
 Beraz, ez du adierazten denbora errealeko online-egoera,
 eta besteek ere ez dute beti ikusiko zu online zauden.
-
 
 ### Zer esan nahi dute bidalitako mezuen alboko egiaztapen-markek?
 
@@ -179,7 +168,6 @@ adierazten du zure kontaktuak mezua irakurri duela.
 
 Dena den, bigarren marka hori ikusteko, ezinbestekoa da bai zuk eta bai mezua irakurri duten hartzaileetako batek gutxienez
 gaituta edukitzea **Ezarpenak → Txatak → Irakurragiriak**.
-
 
 ### Mezuak bidali ondoren ezabatzea edo akatsak zuzentzea {#edit}
 
@@ -197,7 +185,6 @@ Ez da jakinarazpenik bidaltzen, eta ez dago denbora-mugarik.
 Kontuan izan gerta litekeela txateko kideek hala ere jatorrizko mezua jasotzea,
 eta erantzun izana, edo birbidali, gorde, pantaila-argazkia egin edo beste moduren batean kopiatu.
 
-
 ### Nola kudeatzen da multimediaren kalitatea? {#mediaquality}
 
 Irudiak, bideoak, fitxategiak, ahots-mezuak eta abar, botoi hauek erabiliz bidal daitezke: <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Eranskina**
@@ -208,7 +195,6 @@ edo <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/h
 - Konektibitate kaskarragoko lekuetan, are gehiago konprimatzea aukeratu dezakezu, honela: **Ezarpenak → Txatak → Bidalitako multimediaren kalitatea**.
 
 - Multimedia-fitxategiren bat **jatorrizko kalitatean** bidali beharra baldin badaukazu, erabili aukera hau txatean: <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Eranskina → Fitxategia**. Mesedez, erabili modu hori ahal den gutxiena; izan ere, jatorrizko fitxategiak bidaliz, datu-kontsumoa nabarmen handitzen da, bai zuretzat eta bai txateko hartzaile guztientzat.
-
 
 ### Zer da mezuen desagerpena? {#ephemeralmsgs}
 
@@ -237,7 +223,6 @@ Bestalde,
 txateko norbaitek Delta Chat desinstalatzen badu,
 baliteke mezuak (edonola ere zifratuta daude) haren zerbitzaritik ezabatzeko denbora gehiago behar izatea.
 
-
 ### Zer gertatzen da “Ezabatu mezuak gailutik" gaitzen badut? {#delold}
 
 Zure gailuan biltegiratzeko lekua aurreztu nahi baduzu, ezarpenetan
@@ -247,7 +232,6 @@ Horretarako, joan hona: **Ezarpenak → Txatak → Ezabatu mezuak gailutik**.
 Zenbait denbora-tarte dituzu aukeran, “ordubete eta gero”-tik hasi eta
 “urtebete eta gero”-raino; horrela, mezu *guztiak* zure gailutik ezabatuko dira
 denbora-tarte hori igarotakoan.
-
 
 ### Zer egin behar dut nire txateko profila edo kontua ezabatzeko? {#remove-account} 
 
@@ -261,7 +245,6 @@ Lehenetsitako txat-profil bakarra erabiltzen baduzu, aski duzu aplikazioa desins
 Hori eginda, txateko zerbitzarian profil horri lotuta dauden kontaktuko datu guztiak automatikoki ezabatuko dira.
 Informazio gehiago nahi baduzu, kontsultatu zure [3.en txat-zerbitzariaren orria](https://chatmail.at/relays).
 
-
 ## Taldeak {#groups}
 
 Zenbait pertsonak modu pribatuan eta **eskubide berberekin** elkarrekin txateatzeko aukera ematen dute taldeek.
@@ -274,7 +257,6 @@ eta [norberaren mezuak ezabatu](#edit) kide guztien gailuetatik.
 
 Kide guztiek eskubide berberak dituztenez, **konfiantzazko lagun eta senideen artean** funtzionatzen dute ondoen taldeek.
 
-
 ### Nola sortu talde bat
 
 - Hautatu **Txat berria** eta, gero, **Talde berria**.
@@ -282,7 +264,6 @@ Kide guztiek eskubide berberak dituztenez, **konfiantzazko lagun eta senideen ar
 - Hurrengo pantailan, hautatu **taldeko kideak** eta idatzi **taldearen izena**. Gainera, **taldearen abatarra** ere hautatu dezakezu hor.
 
 - Taldean **lehenengo mezua** idatzi bezain laster, kide guztiek taldearen berri jakingo dute eta zerbait erantzun ahalko dute (zuk zerbait idatzi arte, ikustezina izango da beste kideentzat).
-
 
 ### Nola gehitu edo ezabatu kideak {#addmembers}
 
@@ -303,12 +284,10 @@ kide berriari, beste txat pribatu baten bidez.
 QR kodeen eta gonbidapen-esteken bidez ere gehitu daitezke kideak.
 Dena den, taldeak [konfiantzazko jendearentzat](#groups) direnez, hobeto da, ahal dela, publikoki ez partekatzea.
 
-
 ### Neure burua ezabatu dut nahi gabe.
 
 Orain taldeko kide ez zarenez, ezin duzu zeure burua berriro taldean gehitu. 
 Ez kezkatu, ordea, badu konponbidea eta: eskatu taldeko beste kide bati, txat normal baten bidez, zu berriro taldean sartzeko.
-
 
 ### Ez dut talde bateko mezurik gehiago jaso nahi.
 
@@ -331,7 +310,6 @@ edo egin klik eskuineko botoiarekin taldearen gainean, txaten zerrendan (mahaiga
 Talde berri hori jatorrizkotik **guztiz apartekoa** da;
 jatorrizkoak lehen bezala jarraituko du.
 
-
 ### Zenbat kide izan ditzake talde batek?
 
 Ez dago muga tekniko zorrotzik,
@@ -341,11 +319,9 @@ Zenbat eta talde handiagoa izan, errazagoa da sozialki ezegonkorra bihurtzea eta
 Delta Chat [eskubide berberekin](#groups) txateatzeko aukera ematen duen mezularitza pribatuko zerbitzu bat da.
 Informazio gehiago nahi baduzu, kontsultatu [Dunbarren zenbakia](https://en.wikipedia.org/wiki/Dunbar%27s_number).
 
-
 ## Kanalak {#channels}
 
 Igorle batek mezuak aldi berean jende askori helarazteko bitarteko bat dira kanalak.
-
 
 ### Nola batu edo harpidetu kanal batera
 
@@ -369,7 +345,6 @@ Gainera, mezuak irakurri dituzun ere ikusiko du, salbu eta irakurragiriak desgai
 Zure profil nagusia partekatu nahi ez baduzu,
 kanalera batzeko [berariazko profil bat](#multiple-accounts) sor dezakezu.
 
-
 ### Nola sortu kanal bat
 
 - Sakatu **Txat berria** eta aukeratu **Kanal berria**.
@@ -388,7 +363,6 @@ Mezu bakoitzaren alboan **ikustaldi-kopurua** ikus dezakezu.
 Gogoan izan irakurragiriak gaituta dituzten harpidedunak bakarrik daudela zenbatuta kopuru horretan;
 beraz, baliteke egiazko ikustaldi-kopurua handiagoa izatea.
 
-
 ### Zenbat harpidedun izan ditzake kanal batek?
 
 [Taldeek](#groups) baino askoz kide gehiago eduki ahal izateko moduan diseinatuta daude kanalak.
@@ -405,13 +379,11 @@ edozein unetan erraz aldatu ahalko duzu beste errele batera;
 une horretara arteko harpidedunak ez dira ohartu ere egingo.
 Gero, harpidedun berrientzako gonbidapen-esteka eguneratu, eta kito.
 
-
 ## Deiak {#calls}
 
 Delta Chat bidez, banakako **audio-deiak** eta **bideo-deiak** egiteko aukera dago.
 
 Mahaigaineko bertsioarekin eta Ubuntu Touch, iOS eta Android 8 eta geroagoko bertsioekin dira bateragarriak deiak.
-
 
 ### Nola egin deiak
 
@@ -420,7 +392,6 @@ Mahaigaineko bertsioarekin eta Ubuntu Touch, iOS eta Android 8 eta geroagoko ber
 - Menu labur bat irekiko zaizu, eta, hor,
 aukeratu zer egin nahi duzun: **audio-deia** edo **bideo-deia**.
 
-
 ### Deiak onartu edo ukatu
 
 - Norbaitek deitzen dizunean,
@@ -428,7 +399,6 @@ Delta Chatek jakinarazpen bat edo **sarrerako deiaren pantaila** erakutsiko dizu
 
 - Sakatu **Onartu**, erantzuteko,
 edo **Ukatu**, deia errefusatzeko.
-
 
 ### Deiak iraun bitartean
 
@@ -441,7 +411,6 @@ edo **Ukatu**, deia errefusatzeko.
 Gailuaren arabera, audio-irteera hautatu ahal izango duzu, baita Picture in Picture funtzioa (irudia gainjartzea) erabili ere.
 Ordenagailuan, deia berariazko leiho batean egiten da, eta, beraz, Delta Chateko leiho nagusia
 ohi bezala erabiltzen jarraitu dezakezu.
-
 
 ### Dei galduak eta jakinarazpenak
 
@@ -456,19 +425,16 @@ deien pantaila berezia erabat desgaitu dezakezu, nahi baduzu.
 Hala eginez gero, ez duzu dei-jakinarazpenik jasoko, baina erantzun ahal izango diozu deiari,
 txat horretan agertuko den sarrerako deiaren bunbuiloa ukituz.
 
-
 ## Txat barruko aplikazioak {#webxdc}
 
 Txat batera aplikazioak bidal ditzakezu: jokoak, editoreak, inkestak eta bestelako tresna batzuk.
 Mezularitza hutsa baino askoz gauza zabalagoa bihurtzen du horrek Delta Chat.
-
 
 ### Non lortu ditzaket txat barruko aplikazioak?
 
 - Txat batean zaudela, sakatu <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Eranskina → Aplikazioa**
 
 - Beste aukera bat [zuk aplikazio bat sortzea](#create-xdc) da eta, gero, eranstea: <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Eranskina → Fitxategia**
-
 
 ### Zenbateraino dira pribatuak txat barruko aplikazioak?
 
@@ -483,7 +449,6 @@ txateatzeko zure solaskideez fidatzen bazara, fida zaitezke txat barruko aplikaz
 
 - Horrek beste zerbait ere esan nahi du: web-estekak bezalaxe, ez zenuke ireki behar fidagarria ez zaizun inongo kontakturen aplikaziorik.
 
-
 ### Nola sortu ditzaket txat barruko aplikazioak? {#create-xdc}
 
 - Txat barruko aplikazioak ZIP fitxategiak dira, `.xdc` luzapendunak, eta HTML, CSS eta JavaScript kodea dute.
@@ -496,7 +461,6 @@ zabaldu dezakezu.
 
 - Zalantzarik baduzu, galdetu eskarmentua duten beste erabiltzaile batzuei
 [Delta Chat-en foroan](https://support.delta.chat/c/webxdc/20).
-
 
 ## Bat-bateko mezuak eta push jakinarazpenak {#instant-delivery}
 
@@ -514,7 +478,6 @@ Push jakinarazpenak [txatmail-errele](https://delta.chat/chatmail) guztietan dab
 baita telefonoan Googleren kode jabedunaren ordez
 [microG](https://microg.org) darabilten gailuetan ere.
 
-
 ### Aktibatuta al daude push jakinarazpenak iOS gailuetan? Badago beste modurik?
 
 Bai, Delta Chatek automatikoki push jakinarazpenak erabiltzen ditu [txatmaileko](https://delta.chat/chatmail) profiletarako.
@@ -523,7 +486,6 @@ Appleren gailuek ez baitute uzten Delta Chat atzeko planoan datuetara iristea.
 iOS erabiltzaileei push jakinarazpenak automatikoki aktibatzen zaizkie,
 [Delta Chaten push jakinarazpenetarako sistemak, pribatutasuna babestearren](#privacy-notifications),
 Appleri ez diolako erakusten daturik Applek lehendik ez duenik.
-
 
 ### Gaituta al daude edo beharrezkoak al dira push jakinarazpenak Android gailuetan? {#android-push}
 
@@ -541,7 +503,7 @@ jasotzea. Izan ere, Android gailuen fabrikatzaile batzuek aplikazioak erabat
 murrizten dituzte (ikusi [dontkillmyapp.com](https://dontkillmyapp.com))
 eta baliteke jasotako mezuak Delta Chatek ez erakustea zuk eskuz
 aplikazioa berriro ireki arte.
-  
+
 - Behartu atzeko planoko konexioa: aurreko aukerak baliatu ezin badituzu,
 edo “berehalako bidalketa” lortzen ez badute, hauxe da aukera alternatiboa.
 Hau aktibatutakoan, telefonoan jakinarazpen iraunkorra sortuko zaizu;
@@ -549,7 +511,6 @@ baliteke Android telefono berrienetan “minifikatuta” agertzea.
 
 “Atzeko planoko konexioa” baliatzeko bi modu horiek energiaren aldetik eraginkorrak dira
 eta segurtasun osoz probatu ditzakezu mezuak atzerapen handiz iristen badira.
-
 
 ### Zenbateraino dira pribatuak Delta Chaten push jakinarazpenak? {#privacy-notifications}
 
@@ -576,7 +537,6 @@ Aktibatzen ari den gailuaren profil-daturik ez daki.
 Appleren edo Googleren push zerbitzu zentralek ez dute inoiz ikusten
 ez profil-daturik (ez igorlearenak, ez hartzailearenak), ez mezuen edukirik (ezta zifratuta ere).
 
-
 Delta Chaten jakinarazpenen proxy zentrala [txikia da eta Rusten inplementatuta dago osorik](https://github.com/deltachat/notifiers);
 gailu-tokenak Apple, Google eta abarrek prozesatu bezain laster ahazten ditu,
 eta normalean milisegundotan gertatzen da hori.
@@ -590,7 +550,6 @@ Pribatutasuna lortzeko diseinu orokor hori dela-eta, norbaitek txatmail-zerbitza
 hartuko balu ere, edo Delta Chaten jakinarazpenen proxy zentrala osorik hartuta ere,
 sekula ez da agerian geratuko informazio pribaturik push zerbitzuek lehendik ez dutenik.
 
-
 ### Zergatik integratzen da Delta Chat Appleren eta Googleren push jakinarazpenen zerbitzu zentralizatu eta jabedunekin?
 
 Delta Chat mezularitza-aplikazio deszentralizatua, doakoa eta kode irekikoa da,
@@ -603,8 +562,6 @@ Kontuan izan: Delta Chaten [push jakinarazpenen sistema txikia da eta pribatutas
 eta txat-zerbitzari guztietara mezuak berehala bidaltzea lortzen du hala;
 [guri baimena eskatu beharrik gabe zeuk konfiguratzea daukazun zerbitzarira](https://delta.chat/chatmail#selfhosted) ere bai, hala nahi baduzu.
 Ongi etorri txatmail-erreleen sare elkarreragingarriaren boterera! :)
-
-
 
 ## Gailu asko {#multiclient}
 
@@ -627,7 +584,6 @@ eta itxaron pixka bat QR kode bat azaldu arte.
 Beste mezularitza-aplikazio askotan ez bezala, Delta Chaten,
 transferentzia ondo egin ondoren, **bi gailuak guztiz independenteak dira.**
 Ez du zertan gailu batek aktibo egon besteak funtzionatzeko.
-
 
 ### Arazoak nola konpondu
 
@@ -665,7 +621,6 @@ Profil bat baino gehiago erabil ditzakezu gailu bakoitzean;
 - Oraindik arazoak badituzu, edo **QR kode bat eskaneatu ezin** baduzu,
 saiatu **transferentzia eskuz** egiten, hurrengo atalean azalduko dugun bezala.
 
-
 ### Transferentzia eskuz egitea {#backup}
 
 Aurreko atalean azaldu bezala “Gehitu bigarren gailua" ataletik lortu ez bada bakarrik erabili beharko litzateke metodo hau.
@@ -682,7 +637,6 @@ iOS badarabilzu eta arazoak badituzu,
 Lortu duzu. Bi gailuak sinkronizatuta daude, eta biak erabil ditzakezu
 zure kontaktuekin muturretik muturrera zifratutako mezuak bidali eta jasotzeko.
 
-
 ### Delta Chaten web-bezerorik sortzeko asmorik bai?
 
 - Oraintxe sortzeko asmorik ez dugu, baina aurretiazko ideia batzuk, bai.
@@ -695,7 +649,6 @@ web-bezeroa behar baduzu, Windows Desktop Client eramangarria erabil dezakezu,
 edo Linuxerako AppImage. Hemen aurkituko dituzu:
 [get.delta.chat](https://get.delta.chat).
 
-
 ## Aurreratua
 
 ### Ezaugarri esperimentalak {#experiments}
@@ -707,7 +660,6 @@ Baliteke ezaugarri horiek **ezegonkorrak** izatea eta gerora **aldatzea edo kent
 
 Informazio gehiago lortu edo iruzkinak egin nahi badituzu,
 sartu [foroan](https://support.delta.chat).
-
 
 ### Zer dira erreleak? {#relays}
 
@@ -733,7 +685,6 @@ Errele bat baino gehiago badituzu, mezuak guztietatik jasoko dituzu.
 Zuk errele bat gehitutakoan (edo kendutakoan), zure txat-kideei automatikoki
 jakinaraziko zaie hori, eta zurekin txateatu behar dutenean errele hori
 erabiltzen hasiko dira (edo erabiltzeari utziko diote) automatikoki.
-
 
 ### Erabil dezaket posta elektronikoko helbide klasiko bat Delta Chaten?
 
@@ -771,7 +722,6 @@ Txat-profil batek eposta klasikoko helbidea darabilenean, zifratu gabeko mezuak 
 horrelako mezuek, bai eta mezu horiek dauden txatek, epostaren ikonoaren marka izaten dute:
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### Delta Chaterako neure zerbitzaria kudeatu nahi dut. Zer gomendatzen didazue?
 
 Ondo badabil, edozein eposta-zerbitzarik balioko dizu, 
@@ -781,7 +731,6 @@ Gure gomendioa normalean zera da, [txatmaileko errele bat konfiguratzea](https:/
 [Txatmaila](https://chatmail.at) komunitate zabal batek sustatutako proiektua da; horren barruan daude
 bai erreleak konfiguratzea eta bai [muina garatzea Rusten](https://github.com/chatmail/core), 
 zeinak zerbitzua ematen baitie [txatmail-bezeroei](https://chatmail.at/clients) (Delta Chat bezero ezagunena da). 
-
 
 ### Zer da Delta Chateko garatzaileei estatistikak bidaltzea? {#statssending}
 
@@ -805,12 +754,9 @@ Gai hauei buruzko estatistikak interesatzen zaizkigu, adibidez:
 
 _Ez_ dugu bilduko zuri buruzko informazio pertsonal identifikagarririk.
 
-
 ### Xehetasun teknikoak jakin nahi ditut. Informazio gehiago ematerik bai?
 
 Jo ezazu [Delta Chatek darabiltzan estandarrak]({% include standards-url %}) orrira.
-
-
 
 ## Zifratzea eta segurtasuna {#e2ee}
 
@@ -850,7 +796,6 @@ muturretik muturrera zifratutako nahiz zifratu gabeko mezuak bidali eta jaso dit
 Muturretik muturrera zifratu gabeko mezuek epostaren ikonoaren marka izaten dute:
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### Zer gertatu da kontaktuen profilean zegoen egiaztapen-marka berdearekin? {#e2eeguarantee}
 
 Delta Chaten aurreko bertsioetan, kontaktu batzuen profilek egiaztapen-marka berdea
@@ -880,7 +825,6 @@ mezua osorik zifratuta dagoela adierazten ari gara beti;
 horren barruan sartzen dira fitxategi erantsiak
 eta fitxategien metadatuak (fitxategi-izenak, adibidez).
 
-
 ### Segurua al da OpenPGP? {#openpgp-secure}
 
 Bai, Delta Chatek OpenPGP-ren azpimultzo seguru bat darabil,
@@ -902,7 +846,6 @@ segurtasun-ezaugarriak hobetzen jarraitzea,
 [IETF-ren OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) berria
 inplementatuta, zorionez 2023ko udan hartua. 
 
-
 ### Hartu al duzue kontuan muturretik muturrera zifratzeko beste aukeraren bat erabiltzea OpenPGP-ren ordez? {#openpgp-alternatives}
 
 Bai, [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security) ekimenari adi gaude, adibidez,
@@ -919,7 +862,6 @@ horren zati bat besterik ez da;
 ikus [gailua besteren batek bereganatzeaz](#device-seizure)
 eta [mezuen metadatuez](#message-metadata) egindako galderen erantzunak. 
 
-
 ### Ba al du Delta Chatek EFAIL segurtasun-ahulezia?
 
 Ez, [Delta Chatek ez du inoiz EFAIL segurtasun-ahuleziarik izan](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail);
@@ -932,7 +874,6 @@ Bestalde, "Direct Exfiltration" moduko EFAIL segurtasun-ahuleziarik ere ez du iz
 izan ere, `multipart/encrypted` erako mezuak bakarrik deszifratzen ditu,
 eta halakoek hain zuzen alde bat zifratua eta sinatua dute,
 Autocrypt Level 1 espezifikazioan definitu bezala. 
-
 
 ### Epostaren ikonoaz markatuta dauden mezuak Interneten agerian geratzen dira? {#tls}
 
@@ -950,7 +891,6 @@ Erabilitako eposta-zerbitzariek [MTA-STS](https://datatracker.ietf.org/doc/html/
 garraio-zifratzea aplikatuko da eposta-hornitzaileen artean, eta, kasu horretan,
 Delta Chateko mezuak ez dira inoiz testu sinple gisa Interneten agerian geratuko,
 ezta muturretik muturrera zifratuta ez badaude ere.
-
 
 ### Nola babesten ditu Delta Chatek mezuen metadatuak? {#message-metadata}
 
@@ -979,7 +919,6 @@ segurtasun osoz jakinda datu guztiak, metadatuak barne, ezabatu egingo direla.
 Gainera, gailua besteren batek hartzen badu, epe laburrerako profil edo kontuak darabiltzaten
 txat-kontaktuak ezin izango dira erraz identifikatu. 
 
-
 ### Nork ikusten du nire IP helbidea?
 
 Erabiltzen duzun [erreleak](#relays) zure IP helbidea jakin behar du,
@@ -998,7 +937,6 @@ zera gomendatuko genizuke, sistema osorako VPN bat erabiltzea.
 Aplikaziokako alternatibek segurtasun-zuloak uzten dituzte sistema osoan.
 Adibidez, esteka batean klik egindakoan, IP helbideak agerian gera dakizkieke hirugarren ezezagunei, eta
 horixe da, alde handiz, arriskurik handiena.
-
 
 ### Ba al du Delta Chatek “Ezkutuko igorlea" funtzioa? {#sealedsender}
 
@@ -1062,7 +1000,6 @@ algoritmo mota guztien sorta zabalean. Zure OpenPGP gakoa atera nahi baduzu,
 adituentzako metodoa baino ez dago: profilaren babeskopiaren tar fitxategi bateko
 "keypairs" SQLite taulan bilatu behar duzu.
 
-
 ### Auditatu al da Delta Chat inoiz modu independentean segurtasun-zuloak bilatzeko? {#security-audits}
 
 Bai, behin baino gehiagotan.
@@ -1122,7 +1059,6 @@ Hona hemen zerrenda, ordena kronologikoan:
   Some of them we nevertheless fixed since the audit was concluded.
   You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
 
-
 ## Saski-naskia
 
 ### Zer baimen behar ditu Delta Chatek?
@@ -1132,7 +1068,6 @@ adibidez, [QR gonbidapen-kodea eskaneatu](#howtoe2ee) nahi baduzu,
 kamera erabiltzeko baimena eman beharko duzu.
 
 See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
-
 
 ### Non lortu dezakete Delta Chat nire lagunek?
 
@@ -1148,7 +1083,6 @@ Google Play Store, F-Droid, Huawei App Gallery, iOS eta macOS App Store, Microso
 - Begiratu zure Linux banaketaren **pakete-kudeatzailean**.
 
 - **Androiderako APK-ak** hemen ere badaude: <https://github.com/deltachat/deltachat-android/releases>
-
 
 ### Nola finantzatzen da Delta Chaten garapena? 
 

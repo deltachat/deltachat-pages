@@ -17,7 +17,6 @@ Per Android, puoi verificare che il certificato di firma dell'APK corrisponda ad
 
 Per stampare l'impronta SHA256 del certificato di firma dell'APK puoi usare, per esempio, <br>`keytool -printcert -jarfile <APK-file>`
 
-
 ## Desktop
 
 1. Apri il terminale e **cambia cartella** per trovare il file che vuoi verificare, ad esempio
