@@ -36,7 +36,6 @@ them in public or private, whatever is more appropriate. Assume good faith;
 it's more likely that participants are unaware than that they are intentionally
 trying to denigrate others or reduce the quality of discussion.
 
-
 ## Collective Maintenance Standards
 
 Our organizational repositories are collectively maintained, not individually owned.
@@ -71,7 +70,6 @@ to automatically generate pull requests.
 However, these changes must never be automatically merged
 and always require strict human review before merging.
 
-
 ## نگه‌دارندگان و مسئولیت‌ها
 
 Project maintainers are those with commit rights to collective repositories
@@ -84,7 +82,6 @@ that are not aligned with our standards or do not match current project plans.
 They may also ban temporarily or permanently a contributor for
 other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-
 ## دامنه
 
 Our Community Standards apply to project repositories, communication channels, and gatherings,
@@ -94,7 +91,6 @@ Examples of representing a project or community include using an official projec
 address, posting via a social media account associated with the project,
 or acting as a representative at an online or offline event.
 
-
 ## گزارش و پاسخ‌ها
 
 اگر رفتار آزاردهنده، آزاررسان یا غیرقابل قبول دیگری را تجربه کردید یا شاهد بودید، می‌توانید با نگه‌دارندگان منتخب پروژه صحبت کنید، در حال حاضر [Nami](mailto:missytake@systemli.org) و [Xenia](mailto:ksenia@transcyberian.org).
@@ -102,7 +98,6 @@ or acting as a representative at an online or offline event.
 
 نگه‌دارندگان موظف‌اند محرمانگی گزارش‌دهنده حادثه را حفظ کنند.
 خود نگه‌دارندگان نیز از گزارش شدن معاف نیستند و ممکن است با پیامدهای موقت یا دائم روبه‌رو شوند که توسط دیگر نگه‌دارندگان تعیین می‌شود.
-
 
 ## انتساب
 

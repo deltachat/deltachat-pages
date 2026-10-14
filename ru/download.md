@@ -6,7 +6,6 @@ downloads: true
 
 Версия для компьютера не требует, чтобы Delta Chat был установлен на телефон.
 
-
 ## Список изменений и Другое {#changelogs}
 
 - Список изменений: [ПК](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

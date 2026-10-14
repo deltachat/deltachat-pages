@@ -17,4 +17,4 @@ Freiburgeko Eskualdeko Auzitegia: HRB709589
 BEZ (VAT): DE814082730
 Zuzendari kudeatzailea: Holger Krekel
 
-[Website Privacy Policy](gdpr-website)
+[Webgunearen pribatutasun-politika](gdpr-website)

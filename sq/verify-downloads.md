@@ -18,7 +18,6 @@ Për Android, mund të verifikoni se dëshmia e nënshkrimit në APK përputhet 
 Për shtypjen e shenjave të gishtave SHA256 të dëshmisë së nënshkrimit të APK-së mund të përdorni, për shembull, 
 `keytool -printcert -jarfile <APK-file>`
 
-
 ## Desktop
 
 1. Hapni terminalin tuaj dhe **ndryshoni drejtori** te kartela që doni të verifikohet, p.sh.,  

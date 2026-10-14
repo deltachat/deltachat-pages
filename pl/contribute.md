@@ -26,7 +26,6 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 - [Problemy z Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemy z Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Kanały komunikacji stron trzecich
 
 Następujące kanały komunikacji związane z Delta Chat są prowadzone przez strony trzecie, które mogą, ale nie muszą, przestrzegać naszych [Standardów społeczności](community-standards):

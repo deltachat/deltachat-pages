@@ -6,7 +6,6 @@ downloads: true
 
 A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un telèfon.
 
-
 ## Registre de canvis i més {#changelogs}
 
 - Registre de canvis: [Escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

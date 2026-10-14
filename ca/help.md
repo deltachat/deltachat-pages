@@ -5,7 +5,6 @@ render_toc: true
 header: Preguntes freqüents
 ---
 
-
 ## Què és Delta Chat?
 
 Delta Chat és una aplicació de missatgeria instantània fiable, descentralitzada i segura,
@@ -24,7 +23,6 @@ i entre les diferents [aplicacions de chatmail](https://chatmail.at/clients).
 
 - Programari lliure i de codi obert, tant pel que fa a l'app com al servidor,
  construït sobre [estàndards d'Internet]({% include standards-url %}).
-
 
 ### Com puc trobar a les persones amb qui xatejar? {#howtoe2ee}
 
@@ -52,7 +50,6 @@ la possibilitat de xatejar es posposa fins que es restableixi la connectivitat.
 
 Enhorabona! A partir d'ara, amb aquest contacte utilitzareu automàticament el [xifrat d'extrem a extrem](#e2ee). Si us afegiu mútuament a [grups](#groups), s'establirà el xifratge punt a punt entre tots els membres.
 
-
 ### Perquè un xat és marcat com a "Sol·licitud"?
 
 Al ser missatgeria privada,
@@ -69,7 +66,6 @@ això es mostra com a <b style="border: 1px solid currentColor; padding: 0 3px; 
  com una sol·licitud de missatge, perquè puguis canviar d'idea. Si realment no vols
 rebre missatges d'aquesta persona, pots **bloquejar-la**.
 
-
 ### Com puc posar en contacte a dues de les meves amistats?
 
 Adjunta el primer contacte en el xat del segon utilitzant el <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botó Adjunt → Contacte**.
@@ -77,7 +73,6 @@ També pots afegir un petit missatge introductori.
 
 El segon contacte llavors rebrà una **tarjeta**
 i hi podrà premer per iniciar una conversa amb el primer contacte.
-
 
 ### Què són els perfils? Com puc canviar entre ells?{#multiple-accounts}
 
@@ -92,18 +87,15 @@ Potser vols utilitzar perfils separats per a activitats polítiques, familiars o
 
 Potser també vols aprendre [com utilitzar el mateix perfil en múltiples dispositius](#multiclient).
 
-
 ### Qui veu la meva imatge de perfil?
 
 Pots afegir una foto de perfil a la teva configuració. Si escrius als teus contactes o els afegeixes mitjançant un codi QR, la veuran automàticament com la teva foto de perfil.
 
 Per motius de privacitat, ningú no veu la teva foto de perfil fins que no els envies un missatge.
 
-
 Puc establir una biografia/estat amb Delta Chat? {#signature}
 
 Sí, ho pots fer a **Configuració → Perfil → Biografia**. Un cop has enviat un missatge a un contacte, aquest el veurà quan consulti les teves dades de contacte.
-
 
 ### Què signifiquen Fixar, Silencia i Arxivar?
 
@@ -119,7 +111,6 @@ Utilitza aquestes eines per organitzar els teus xats i mantenir-ho tot al seu ll
 - Quan un xat arxivat rep un missatge nou, tret que l'hàgiu silenciat, **sortirà de l'arxiu** i tornarà a la vostra llista de xats.  **Els xats silenciats es mantenen arxivats** fins que els desarxiveu manualment.
 
 Per utilitzar les funcions, mantingueu premut llargament o feu clic amb el botó dret en un xat a la llista de xats.
-
 
 ### Com funcionen els "Missatges Desats" {#save}
 
@@ -141,7 +132,6 @@ pots tornar al missatge original en el xat d'on prové.
 
 Els missatges es mantenen desats fins i tot si s'editen o esborren, ja sigui  pel [remitent](#edit), per [neteja del dispositiu](#delold) o per [missatges efímers d'altres xats](#ephemeralmsgs).
 
-
 ### Què significa el punt verd?
 
 Algunes vegades veuràs un **punt verd** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
@@ -151,7 +141,6 @@ ja sigui perquè t'han enviat un missatge o han enviat una confirmació de lectu
 
 Per tant, no és un estat en línia en temps real
 i els altres tampóc veuran sempre que estàs "en línia".
-
 
 Què signifiquen les marques de verificació que es mostren al costat dels missatges enviats?
 
@@ -165,7 +154,6 @@ En [grups](#groups), la segona marca de verificació significa que almenys un me
 
 Només rebràs la segona marca de verificació si tant tu com un dels destinataris que llegeixi el missatge teniu activats **Configuració → Xats → Rebuts de lectura**.
 
-
 ### Corregir errors tipogràfics i esborrar missatges després d'enviar {#edit}
 
 - Pots modificar el text dels teus missatges després d'enviats. Per a fer-ho, prem llargament o clica amb el botó dret el missatge i tria **Modifica** o <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
@@ -175,7 +163,6 @@ Només rebràs la segona marca de verificació si tant tu com un dels destinatar
 Mentres que els missatges editats tindran la paraula "Editat" al costat de la marca horaria, els missatges esborrats seran esborrats sense cap marcador en el xat. No s'envien notificacions i no hi ha límit de temps.
 
 Tingues en compte que el missatge original pot haver estat rebut pels membres del xat i poden haver respost, reenviat, desat, fet una captura de pantalla o copiat el missatge.
-
 
 ### Com es gestiona la qualitat dels fitxers multimèdia? {#mediaquality}
 
@@ -189,7 +176,6 @@ o <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/hel
 - Si necessites enviar **fitxers multimedia** amb la qualitat original, fes-ho a través de <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjunta → Fitxer** al xat.
  Utilitza aquest mètode amb moderació, ja que fent-ho així s'augmenta considerablement lel consum de dades tant per a tu com per a tots els destinataris del xat.
 
-
 ### Com funcionen els missatges efímers? {#ephemeralmsgs}
 
 Pots activar els «missatges efímers» a la configuració d'un xat, a la part superior dreta de la finestra de xat, seleccionant un interval de temps entre 5 minuts i 1 any.
@@ -200,13 +186,11 @@ Tingueu en compte que podeu confiar en els missatges efímers només si confieu 
 
 A part d'això, si un interlocutor desinstal·la Delta Chat, els missatges (de tota manera xifrats) poden trigar més a ser eliminats del seu servidor.
 
-
 ### Què passa si activo "Esborra els missatges del dispositiu"?{#delold}
 
 Si vols estalviar espai d'emmagatzematge al dispositiu, pots triar d'esborrar automàticament els missatges antics.
 
 Per activar-ho, ves a **Configuració → Xats → Esborra missatges del dispositiu**. Podeu establir un interval de temps entre "d'aquí a una hora" fins a "d'aquí a un any"; d'aquesta manera, *tots* els missatges s'esborraran del teu dispositiu tan bon punt passi el temps indicat.
-
 
 ### Com puc esborrar el meu perfil de xat? {#remove-account} 
 
@@ -219,7 +203,6 @@ Si utilitzes un sol perfil de xat per defecte, pots desinstal·lar l'aplicació.
 Això activarà automàticament l'eliminació de totes les dades d'adreça associades al servidor de chatmail.
 Per a més informació, consulta la pàgina corresponent del teu [servidor de xatmail de tercers](https://chatmail.at/relays).
 
-
 ## Grups {#groups}
 
 Els grups permeten que diverses persones xategin juntes de manera privada amb **igualtat de drets**.
@@ -228,7 +211,6 @@ Qualsevol pot canviar el nom o l'avatar del grup, [afegir o eliminar membres](#a
 
 Com que tots els membres tenen els mateixos drets, els grups funcionen millor entre **amics i familiars de confiança**.
 
-
 ### Creació d'un grup
 
 - Selecciona **Xat nou**, el botó circular amb un '+' que hi ha abaix de la llista de contactes i llavors **Grup nou** a la nova finestra que ha aparegut.
@@ -236,7 +218,6 @@ Com que tots els membres tenen els mateixos drets, els grups funcionen millor en
 - A la pantalla següent, selecciona els **membres del grup** i defineix un **nom del grup**. També pots seleccionar un **avatar del grup**.
 
 - Quan escrius el **primer missatge** al grup, tots els membres en són informats i poden respondre-hi (mentres no escriguis cap missatge al grup, el grup és invisible per als membres).
-
 
 ### Afegeix i elimina membres {#addmembers}
 
@@ -256,12 +237,10 @@ Per aquest motiu, tothom pot esborrar qualsevol membre o afegir-ne de nous.
 El codi QR i l'enllaç d'invitació es poden utilitzar per afegir diversos membres.
 No obstant això, com que els grups són [per a persones de confiança](#groups), evita compartir-los públicament.
 
-
 ### M'he esborrat a mi mateix per accident
 
 Com que ja no formes part del grup, no et pots tornar a afegir. 
 Tot i així, cap problema, només has de demanar a qualsevol altre membre del grup que et torni a afegir.
-
 
 ### Ja no vull rebre més missatges d'un grup.
 
@@ -281,7 +260,6 @@ Podeu duplicar un grup per iniciar una discussió separada o per excloure'n memb
 
 El grup nou és **totalment independent** de l'original, que continua funcionant com abans.
 
-
 ### Quants membres poden participar en un sol grup?
 
 A nivell tècnic no hi ha un límit fixat, però no es recomana superar els 150 membres.
@@ -289,11 +267,9 @@ A nivell tècnic no hi ha un límit fixat, però no es recomana superar els 150 
 A mesura que els grups es fan més grans, poden esdevenir socialment inestables i potser necessiten una jerarquia - on Delta Chat és un sistema de missatgeria privada per parlar entre [entre iguals](#groups).
 Visita [el nombre de Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) per a més informació.
 
-
 ## Canals {#channels}
 
 Els canals són una eina per a que una persona retransmeti missatges a moltes persones.
-
 
 ### Subscriure's a un canal
 
@@ -314,7 +290,6 @@ També veurà que has llegit un missatge, tret que tinguis desactivada la confir
 Si no vols compartir el teu perfil principal,
 també pots crear un [perfil dedicat](#multiple-accounts) per unir-vos a un canal.
 
-
 ### Crea un canal
 
 - Toca **Xat nou** i tria **Canal nou**.
@@ -329,7 +304,6 @@ Els subscriptors rebran els teus missatges, però no podran enviar missatges al 
 
 Pots veure el **nombre de visualitzacions** al costat de cada missatge. Tingues en compte que això només compta els subscriptors que tenen la confirmació de lectura activada, de manera que el nombre real de visualitzacions pot ser més gran.
 
-
 ### Quantes subscripcions pot tenir un canal?
 
 Els canals estan dissenyats per a audiències molt més grans que els [grups](#groups).
@@ -341,20 +315,17 @@ Per a canals realment grans amb diverses desenes de milers de subscriptors, reco
 
 Però no t'hi capfiquis massa: Delta Chat està dissenyat per ser retransmissor-agnòstic, de manera que es pot canviar el retransmissor en qualsevol moment amb facilitat; les subscripcions actuals ni tan sols se n'adonaran. Només cal actualitzar l'enllaç d'invitació que es comparteix per a noves subscripcions.
 
-
 ## Trucades {#calls}
 
 Delta Chat admet trucades d'àudio i de vídeo individuals.
 
 Les trucades estan disponibles al Desktop, Ubuntu Touch, iOS i Android 8 o versions posteriors.
 
-
 ### Fer una trucada
 
 - En una conversa individual, toca la **icona de trucada** 📞.
 
 - Això obre un petit menú on pots triar si vols fer una **trucada d'àudio** o una **trucada de vídeo**.
-
 
 ### Acceptar o rebutjar una trucada
 
@@ -363,7 +334,6 @@ Les trucades estan disponibles al Desktop, Ubuntu Touch, iOS i Android 8 o versi
 
 - Prem **Accepta** per respondre
   o **Rebutja** per rebutjar la trucada.
-
 
 ### En una trucada
 
@@ -375,7 +345,6 @@ Les trucades estan disponibles al Desktop, Ubuntu Touch, iOS i Android 8 o versi
 
 Segons el dispositiu, també pots seleccionar la sortida d'àudio o utilitzar la imatge dins la imatge.
 A l'escriptori, la trucada s'obre en una finestra dedicada i podeu continuar utilitzant la finestra principal de Delta Chat com de costum.
-
 
 ### Trucades perdudes i notificacions
 
@@ -389,18 +358,15 @@ Les sol·licituds de contacte apareixeran com de costum i no sonaran.
   Si ho fas, no se't molestarà amb cap notificació de trucada,
   però encara podràs contestar la trucada prement al missatge de trucada entrant que rebràs al xat.
 
-
 ## Apps de xat {#webxdc}
 
 Podeu enviar aplicacions a un xat: jocs, editors, enquestes i altres eines. Això converteix Delta Chat en un sistema de missatgeria realment extensible.
-
 
 ### On puc trobar les apps de xat?
 
 - En un xat, fent servir <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Botó d'Adjuntar → App**
 
 - També podeu [crear la vostra pròpia aplicació](#create-xdc) i adjuntar-la fent servir el botó <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Adjuntar fitxer → File**
-
 
 ### Quin nivell de privacitat tenen les aplicacions de xat?
 
@@ -415,7 +381,6 @@ si confies amb la gent amb qui xateges, pots confiar amb la app de xat.
 
 - Això també vol dir: igual que amb els enllaços web, no obris aplicacions de contactes que no confiis.
 
-
 ### Com puc crear la meva app de xat? {#create-xdc}
 
 - Les apps de xat són fitxers zip amb extensió `.xdc` que contenen codi html, css, i javascript.
@@ -425,7 +390,6 @@ si confies amb la gent amb qui xateges, pots confiar amb la app de xat.
 - Tot el que necessites saber està escrit a la [documentació de Webxdc](https://webxdc.org/docs).
 
 - Si tens cap pregunta, pots preguntar a altres persones amb experiència al [Fòrum de Delta Chat](https://support.delta.chat/c/webxdc/20).
-
 
 ## Lliurament de missatges instantanis i Notificacions Push {#instant-delivery}
 
@@ -439,13 +403,11 @@ Les Notificacions Push funcionen amb tots els servidors de [chatmail](https://de
 
 - Dispositius Android, mitjançant la integració amb el servei de notificacions Push de Google FCM, incloent-hi els dispositius que utilitzen [microG](https://microg.org) al telèfon enlloc del codi propietari de Google.
 
-
 Les notificacions push estan habilitades en dispositius iOS? Hi ha alguna alternativa?
 
 Sí, Delta Chat utilitza automàticament les notificacions push per als perfils de [chatmail](https://delta.chat/chatmail).
 I no, no hi ha cap alternativa als telèfons d'Apple per aconseguir la entrega instantània de missatges perquè els dispositius d'Apple no permeten que Delta Chat reculli dades en segon pla.
 Les notificacions push s'activen automàticament per als usuaris d'iOS perquè [el sistema de notificacions push de Delta Chat que preserva la privacitat](#privacy-notifications) no exposa a Apple dades que ja no tingui.
-
 
 Les notificacions push estan habilitades o són necessàries en dispositius Android?{#android-push}
 
@@ -455,11 +417,10 @@ A la secció "Notificacions" de la configuració de "Entrega immediata" de Delta
 
 - Utilitza la connexió en segon pla: si no fas servir un servei Push, pots desactivar les «optimitzacions de bateria» per a Delta Chat, la qual cosa li permetrà recollir missatges en segon pla. No obstant això, hi pot haver retards que vagin de minuts a hores.
 Alguns proveïdors d'Android poden restringir completamenta les aplicacions (vegeu [dontkillmyapp.com](https://dontkillmyapp.com)) i és possible que Delta Chat no mostri els missatges entrants fins que no obriu manualment l'aplicació de nou.
-  
+
 - Forçar connexió en segon pla: Aquesta és l'opció predeterminada si les opcions anteriors no estan disponibles o no aconsegueixen una «entrega instantània». Activar-la provoca una notificació permanent al telèfon, que amb telèfons Android recents, a vegades, es pot "minimitzar".
 
 Ambdues opcions de "Connexió en segon pla" són eficients energèticament i segures de provar si experimenteu llargs retards en l'entrega de missatges.
-
 
 ### Quina privacitat tenen les notificacions push de Delta Chat?{#privacy-notifications}
 
@@ -475,21 +436,17 @@ Així és com les aplicacions de Delta Chat gestionen l'enviament de notificacio
 
 - El servei central de notificacions push (Apple, Google, etc.) desperta l'aplicació Delta Chat al teu dispositiu per comprovar si hi ha missatges nous en segon pla. No té coneixement de les dades de perfil del dispositiu que desperta. Els serveis push centrals d'Apple/Google mai no veuen cap dada de perfil (ni del remitent ni del destinatari) i tampoc veuen el contingut de cap missatge (ni tan sols veuen la seva forma xifrada).
 
-
 El proxy de notificacions central de Delta Chat [és petit i està totalment implementat en Rust](https://github.com/deltachat/notifiers) i oblida els tokens del dispositiu tan bon punt Apple/Google/etc. els processen, normalment en qüestió de mil·lisegons.
 
 Tingues en compte que el token del dispositiu està xifrat entre les aplicacions i el proxy de notificacions, però no està signat. D'aquesta manera, el proxy de notificacions no veu mai les dades del perfil, les adreces IP ni cap informació d'identitat criptogràfica associada al dispositiu de l'usuari(token). 
 
 Com a resultat d'aquest disseny global de privadesa, ni tan sols la confiscació d'un servidor de chatmail, o la confiscació completa del proxy central de notificacions del Delta Chat, revelaria informació privada que els serveis Push no tinguin ja.
 
-
 Per què Delta Chat s'integra amb serveis centralitzats i propietaris de push d'Apple/Google?
 
 Delta Chat és un missatger descentralitzat, gratuït i de codi obert amb lliure elecció de servidor, però volem que els usuaris puguin experimentar de manera fiable "l'entrega instantània" dels missatges, com ho fan amb les aplicacions de WhatsApp, Signal o Telegram, sense haver de fer preguntes previes que són més adequades per a usuaris experts o desenvolupadors.
 
 Tingues en compte que Delta Chat té un [petit sistema de notificacions push que preserva la privacitat](#privacy-notifications) que aconsegueix la "l'entrega immediata" de missatges per a tots els servidors de chatmail, inclòs un de potencial [que podríeu configurar vosaltres mateixos sense el nostre permís](https://delta.chat/chatmail#selfhosted). Benvinguts al poder de la xarxa interoperable de retransmissors de chatmail :)
-
-
 
 ## Multi-client {#multiclient}
 
@@ -509,7 +466,6 @@ Sí. Pots utilitzar el mateix perfil en diferents dispositius:
   Espera que s'acabi en ambdós dispositius.
 
 A diferència de molts altres missatgers, després d'una transferència correcta, ambdós dispositius són completament independents. Cap dispositiu necessita a l'altre per funcionar.
-
 
 ### Resolució de problemes
 
@@ -544,7 +500,6 @@ A diferència de molts altres missatgers, després d'una transferència correcta
 - Si encara tens problemes o si **no pots escanejar un codi QR**
   prova la **transferència manual** que es descriu a continuació
 
-
 ### Transferència Manual {#backup}
 
 Aquest mètode només es recomana si «Afegeix un segon dispositiu», tal com s'ha descrit anteriorment, no funciona.
@@ -557,13 +512,11 @@ Aquest mètode només es recomana si «Afegeix un segon dispositiu», tal com s'
 
 Ja esteu sincronitzats i podeu utilitzar els dos dispositius per enviar i rebre missatges xifrats d'extrem a extrem amb els vostres contactes.
 
-
 ### Hi ha plans per introduir un client web de Delta Chat?
 
 - No hi ha plans immediats, però sí algunes idees preliminars.
 - Hi ha 2-3 vies per introduir un client web de Delta Chat, però totes requereixen una feina important. De moment, ens centrem a obtenir versions estables a totes les botigues d'aplicacions (Google Play/iOS/Windows/macOS/repositoris de Linux) com a aplicacions nadiues.
 - Si necessites un client web perquè no et permet instal·lar programari a l'ordinador amb el què treballes, pots fer servir el client d'escriptori portàtil per a Windows o l'AppImage per a Linux. Els pots trobar a [get.delta.chat](https://get.delta.chat).
-
 
 ## Avançat
 
@@ -574,7 +527,6 @@ A **Configuració → Avançat → Funcions experimentals** podeu provar les fun
 Les característiques poden ser **inestables** i poden ser **canviades o eliminades**.
 
 Pots trobar més informació i donar la teva opinió al [Fòrum](https://support.delta.chat).
-
 
 ### Què són els retransmissors? {#relays}
 
@@ -597,7 +549,6 @@ podeu configurar els retransmissors a **Configuració → Avançat → Relés**:
   Si tens diversos retransmissors, rebràs missatges en tots.
 
 Afegir o eliminar un retransmissor informarà automàticament els teus contactes de xat perquè comencin o deixin d'utilitzar un retransmissor per xatejar amb tu, respectivament.
-
 
 ### Puc utilitzar una adreça de correu electrònic clàssica amb Delta Chat?
 
@@ -623,14 +574,12 @@ Un perfil de xat que utilitza una adreça de correu electrònic clàssica permet
 Aquests missatges, i els xats en què apareixen, estan marcats amb una icona de correu electrònic
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### Vull gestionar el meu propi servidor per a Delta Chat. Què em recomanes?
 
 Qualsevol configuració d'un servidor de correu electrònic que funcioni correctament serà suficient, excepte si els dispositius dels vostres usuaris requereixen que les [notificacions Push](#instant-delivery) de Google/Apple funcionin correctament.
 
 Generalment recomanem [configurar un retransmissor de chatmail](https://chatmail.at/doc/retransmissor/getting_started.html). 
 [Chatmail](https://chatmail.at) és un projecte impulsat per la comunitat que engloba tant la configuració de retransmissors com els [desenvolupaments del nucli en Rust](https://github.com/chatmail/core) que alimenten als [clients de Chatmail](https://chatmail.at/clients), dels quals Delta Chat és el més conegut. 
-
 
 ### Què és "Envia estadístiques als desenvolupadors de Delta Chat"? {#statssending}
 
@@ -650,12 +599,9 @@ Quants contactes s'afegeixen en escanejar un codi QR o obrir un enllaç d'invita
 
 No recollirem cap informació personalment identificable sobre tu.
 
-
 ### M'interessen els detalls tècnics. Em pots dir-ne més?
 
 Mira a [Estàndards utilitzats a Delta Chat]({% include standards-url %}).
-
-
 
 ## Encriptació i Seguretat {#e2ee}
 
@@ -684,7 +630,6 @@ Si utilitzes el [retransmissor de chatmail](https://chatmail.at/relays) per defe
 
 Si enlloc d'això utilitzes un [servidor de correu clàssic](#classic-email), podràs enviar i rebre missatges amb o sense xifrat d'extrem a extrem. Els missatges que no vagin xifrats d'extrem a extrem es marcaran amb la icona de correu-e <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### Què ha passat amb la marca de verificació verda als perfils de contacte? {#e2eeguarantee}
 
 Les versions antigues de Delta Chat mostraven una marca de verificació verda
@@ -706,7 +651,6 @@ Sí.
 
 Quan parlem d'un "missatge xifrat d'extrem a extrem", sempre ens referim a un missatge xifrat sencer, incloent-hi  tots els fitxers adjunts i les metadades d'aquests, com ara els noms de fitxer.
 
-
 ### És OpenPGP segur? {#openpgp-secure}
 
 Sí, Delta Chat utilitza un subconjunt segur d'OpenPGP que requereix que tot el missatge estigui correctament xifrat i signat. Per exemple, les «signatures separades» no es consideren segures.
@@ -721,13 +665,11 @@ Delta Chat utilitza més aviat la implementació de Rust d'OpenPGP [rPGP](https:
 
 Tenim com a objectiu, juntament amb altres implementadors d'OpenPGP, millorar encara més les característiques de seguretat implementant el [nou IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/), que afortunadament es va adoptar a l'estiu del 2023. 
 
-
 ### Heu considerat utilitzar alternatives a l'OpenPGP per al xifratge d'extrem a extrem? {#openpgp-alternatives}
 
 Sí, estem seguint iniciatives com [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security), però adoptar-les significaria trencar la interoperabilitat del xifrat d'extrem a extrem. Per tant, no seria una decisió fàcil de prendre i hi hauria d'haver millores tangibles per a les usuaries. 
 
 Delta Chat adopta un enfocament holístic de "seguretat usable" i treballa amb una àmplia gamma de col·lectius activistes, així com amb investigadors de renom com [TeamUSEC](https://teamusec.de), per millorar els resultats reals dels usuaris davant de les amenaces de seguretat. El protocol i estàndard de xifrat d'extrem a extrem és només una part dels "resultats per a l'usuari", vegeu les respostes a les preguntes sobre [confiscació del dispositiu](#device-seizure) i [metadades dels missatge](#message-metadata). 
-
 
 ### És Delta Chat vulnerable a EFAIL?
 
@@ -739,13 +681,11 @@ si el Codi de Detecció de Modificacions és incorrecte.
 
 Delta Chat tampoc no va ser mai vulnerable a l'atac EFAIL de «Direct Exfiltration» perquè només desxifra els missatges 'multipart/encrypted' que contenen exactament una part xifrada i signada, tal com es defineix a l'especificació Autocrypt Level 1. 
 
-
 Els missatges marcats amb la icona del correu electrònic estan exposats a Internet? {#tls}
 
 Si envieu o rebeu missatges de correu electrònic sense xifratge de punta a punta (fent servir un servidor de correu electrònic clàssic), encara estan protegits de les companyies de telefonia mòbil o per cable, que no poden llegir ni modificar els vostres missatges de correu electrònic. Però tant el vostre proveïdor de correu electrònic com el del destinatari poden llegir, analitzar o modificar els vostres missatges, inclosos els fitxers adjunts. 
 
 Delta Chat utilitza per defecte un [xifrat TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) estricte, que protegeix les connexions entre el teu dispositiu i el teu proveïdor de correu electrònic. Tota la gestió de TLS de Delta Chat ha estat objecte d'una [auditoria de seguretat](#security-audits) independent. A més a més, la connexió entre el vostre proveïdor de correu electrònic i el del destinatari també sol xifrar les comunicacions. Si els servidors de correu electrònic implicats admeten [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461), aleshores es xifraran les comunicacions entre els proveïdors de correu electrònic, i en aquest cas les comunicacions de Delta Chat mai no estaran exposades en text pla a Internet, fins i tot si el missatge no estava xifrat d'extrem a extrem.
-
 
 ### Com protegeix Delta Chat les metadades dels missatges? {#message-metadata}
 
@@ -765,7 +705,6 @@ Totes les altres metadades del missatge, els contactes i els grups estan a la pa
 Tant per protegir-se dels servidors que recullen metadades com per a l'amenaça de confiscació d'un dispositiu, recomanem utilitzar un [retransmissor de chatmail](https://chatmail.at/relays) per crear perfils de xat amb adreces aleatòries per al transport. 
 Tingueu en compte que les aplicacions de Delta Chat a totes les plataformes admeten múltiples perfils, de manera que podeu utilitzar fàcilment perfils específics de cada situació al costat del vostre perfil "principal", amb la certesa que totes les seves dades, juntament amb totes les metadades, s'eliminaran. A més, si un dispositiu és confiscat, els contactes de xat que utilitzen perfils de curta durada no es podran identificar fàcilment. 
 
-
 ### Qui veu la meva Adreça IP?
 
 Els [relés](#relays) que utilitzis necessiten conèixer la teva adreça IP, així com de vegades els dispositius dels teus contactes si fas una [trucada](#calls) o compartiu [aplicacions](#webxdc).
@@ -775,7 +714,6 @@ Delta Chat ni les desa ni les exposa.
 Tingueu en compte que les adreces IP no són com una adreça que doneu a un servei de missatgeria, sinó que normalment són menys precises i sovint només defineixen la ciutat o la regió.
 
 Si considereu que la vostra adreça IP és un risc, us recomanem que utilitzeu una VPN per a tot el sistema. Les opcions per aplicació deixen llacunes a tot el sistema. Per exemple, tocar un enllaç pot exposar les adreces IP a tercers desconeguts, que és, de llarg, el risc més gran.
-
 
 ### Delta Chat admet "Remitent Segellat""? {#sealedsender}
 
@@ -820,7 +758,6 @@ No.
 Delta Chat genera claus OpenPGP segures d'acord amb l'especificació Autocrypt 1.1. No recomanem ni oferim als usuaris que facin una gestió manual de les claus.
 Volem garantir que les auditories de seguretat es puguin centrar en uns quants algorismes criptogràfics provats en lloc de tota la gamma d'algorismes possibles permesos amb OpenPGP. Si vols extreure la teva clau OpenPGP, només hi ha un mètode per a experts: l'heu de buscar a la taula SQLite «keypairs» d'un fitxer tar de còpia de seguretat del perfil.
 
-
 ### Delta Chat ha estat auditat de manera independent per detectar vulnerabilitats de seguretat?
 
 Sí, diverses vegades. 
@@ -860,7 +797,6 @@ Els problemes exposats en aquests avisos s'han solucionat i formen part de les v
   No es van trobar problemes crítics, però sí dos problemes de gravetat alta que vam solucionar posteriorment. També es va revelar un problema de gravetat mitjana i alguns problemes menys greus, però no hi havia manera d'aprofitar aquestes vulnerabilitats en la implementació de Delta Chat. Alguns d'ells, tanmateix, els hem solucionat des que es va concloure l'auditoria.
   Podeu llegir [l'informe complet aquí](../assets/blog/2019-first-security-review.pdf).
 
-
 ## Miscel·lània
 
 ### Quins permissos necessita Delta Chat?
@@ -869,7 +805,6 @@ Algunes funcions requereixen certs permisos,
 p. ex., cal concedir el permís de càmera si es vol [escanejar un codi QR d'invitació](#howtoe2ee).
 
 See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
-
 
 ### On poden trobar Delta Chat els meus amics?
 
@@ -885,7 +820,6 @@ Delta Chat està disponible per a totes les plataformes principals i algunes sec
 - Comprova el **gestor de paquets** de la teva distribució de Linux
 
 - Els **APKs d'Android** també estan disponibles a <https://github.com/deltachat/deltachat-android/releases>
-
 
 ### Com es finança el desenvolupament de Delta Chat? 
 

@@ -6,7 +6,6 @@ downloads: true
 
 As versións de escritorio non requiren que se instale Delta Chat nun teléfono.
 
-
 ## Rexistros de cambios e máis {#changelogs}
 
 - Rexistros de cambios: [Escritorio](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

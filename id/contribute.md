@@ -27,7 +27,6 @@ mencari kode untuk aplikasi DeltaChat dan website ini.
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Third party communication channels 
 
 The following Delta Chat related communication channels are run by third parties

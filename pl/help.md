@@ -5,7 +5,6 @@ render_toc: true
 header: Często Zadawane Pytania
 ---
 
-
 ## Czym jest Delta Chat?
 
 Delta Chat to niezawodna, zdecentralizowana i bezpieczna aplikacja do błyskawicznego przesyłania wiadomości, dostępna na platformy mobilne i stacjonarne.
@@ -19,7 +18,6 @@ Natychmiastowe tworzenie **prywatnych profili czatu** z bezpiecznymi i interoper
 - [Audytowne szyfrowanie end-to-end](#security-audits) zabezpieczające przed atakami sieciowymi i serwerowymi.
 
 - Bezpłatne i otwartoźródłowe oprogramowanie zarówno po stronie aplikacji, jak i serwera, stworzone w oparciu o [standardy internetowe]({% include standards-url %}).
-
 
 ### Jak znaleźć osoby do czatu? {#howtoe2ee}
 
@@ -38,7 +36,6 @@ Poczekaj, aż połączenie zostanie nawiązane.
 
 Gratulacje! Teraz będziesz automatycznie korzystać z [szyfrowania typu end-to-end](#e2ee) dla tego kontaktu. Jeśli dodacie się nawzajem do [grup](#groups), szyfrowanie typu end-to-end zostanie nawiązane między wszystkimi członkami.
 
-
 ### Dlaczego czat jest oznaczony jako „Prośba”?
 
 Ponieważ jest to prywatny komunikator, tylko znajomi i rodzina, którym [udostępnisz swój kod QR lub link zaproszenia](#howtoe2ee), mogą do ciebie pisać.
@@ -51,13 +48,11 @@ Twoi znajomi mogą udostępniać twoje dane kontaktowe innym znajomym, co jest o
 
 - Jeśli usuniesz prośbę, przyszłe wiadomości od tego kontaktu nadal będą wyświetlane jako prośba o wiadomość, więc możesz zmienić zdanie. Jeśli naprawdę nie chcesz otrzymywać wiadomości od tej osoby, rozważ **zablokowanie** jej.
 
-
 ### Jak mogę skontaktować ze sobą dwóch znajomych?
 
 Dołącz pierwszy kontakt do czatu drugiego, używając przycisku <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Dołączania → Kontakt**. Możesz również dodać krótką wiadomość powitalną.
 
 Drugi kontakt otrzyma wtedy **kartkę** i może ją nacisnąć, aby rozpocząć czat z pierwszym kontaktem.
-
 
 ### Czym są profile? Jak mogę przełączać się między nimi? {#multiple-accounts}
 
@@ -71,18 +66,15 @@ Możesz używać osobnych profili dla aktywności politycznych, rodzinnych lub z
 
 Możesz także dowiedzieć się, [jak używać tego samego profilu na wielu urządzeniach](#multiclient).
 
-
 ### Kto widzi moje zdjęcie profilowe?
 
 Możesz dodać zdjęcie profilowe w swoich ustawieniach. Jeśli napiszesz do swoich kontaktów lub dodasz je za pomocą kodu QR, automatycznie zobaczą je jako twoje zdjęcie profilowe.
 
 Ze względów prywatności nikt nie widzi twojego zdjęcia profilowego, dopóki nie napiszesz do niego wiadomości.
 
-
 ### Czy w Delta Chat mogę ustawić biografię/status? {#signature}
 
 Tak, możesz to zrobić w **Ustawieniach → Profil → Biografia**. Po wysłaniu wiadomości do kontaktu zostanie ona wyświetlona, ​​gdy będzie on przeglądał twoje dane kontaktowe.
-
 
 ### Co oznacza przypinanie, wyciszanie i archiwizowanie?
 
@@ -98,7 +90,6 @@ Użyj tych narzędzi, aby uporządkować swoje czaty i mieć wszystko na swoim m
 **Wyciszone czaty pozostają zarchiwizowane** do czasu ich ręcznego przywrócenia.
 
 Aby skorzystać z tych funkcji, przytrzymaj dłużej lub kliknij prawym przyciskiem myszy czat na liście czatów.
-
 
 ### Jak działają „Zapisane wiadomości”? {#save}
 
@@ -116,13 +107,11 @@ Aby skorzystać z tych funkcji, przytrzymaj dłużej lub kliknij prawym przycisk
 
 Wiadomości pozostają zapisane, nawet jeśli zostaną edytowane lub usunięte — może to być przez [nadawcę](#edit), [czyszczenie urządzenia](#delold) lub [znikające wiadomości z innych czatów](#ephemeralmsgs).
 
-
 ### Co oznacza zielona kropka?
 
 Czasami można zobaczyć **zieloną kropkę** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/> obok awatara kontaktu. Oznacza to, że był on **niedawno widziany przez ciebie** w ciągu ostatnich 10 minut, np. wysłał ci wiadomość lub potwierdzenie odczytu.
 
 Nie jest to więc status online w czasie rzeczywistym i inni również nie zawsze zobaczą, że jesteś „online”.
-
 
 ### Co oznaczają znaczniki wyświetlane obok wiadomości wychodzących?
 
@@ -134,7 +123,6 @@ W [grupach](#groups) drugi znacznik oznacza, że ​​co najmniej jeden człone
 
 Drugi znacznik pojawi się tylko wtedy, gdy ty i jeden z odbiorców, którzy przeczytali wiadomość, macie włączoną opcję **Ustawienia → Czaty → Potwierdzenie odczytu**.
 
-
 ### Poprawianie literówek i usuwanie wiadomości po wysłaniu {#edit}
 
 - Możesz edytować tekst wiadomości po wysłaniu. W tym celu naciśnij i przytrzymaj lub kliknij prawym przyciskiem myszy wiadomość i wybierz Edytuj, lub<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="ikona Edytuj"/>. 
@@ -144,7 +132,6 @@ Drugi znacznik pojawi się tylko wtedy, gdy ty i jeden z odbiorców, którzy prz
 Podczas gdy edytowane wiadomości będą miały słowo „Edytowana” obok znacznika czasu, usunięte wiadomości zostaną usunięte bez znacznika na czacie. Powiadomienia nie są wysyłane i nie ma limitu czasowego.
 
 Pamiętaj, że oryginalną wiadomość nadal mogą otrzymać członkowie czatu, którzy mogli już odpowiedzieć, przesłać dalej, zapisać, wykonać zrzut ekranu lub w inny sposób skopiować wiadomość.
-
 
 ### Jak obsługiwana jest jakość multimediów? {#mediaquality}
 
@@ -156,7 +143,6 @@ Obrazy, filmy, pliki, wiadomości głosowe itp. można wysyłać za pomocą przy
 
 - Jeśli chcesz wysłać multimedia w **oryginalnej jakości**, użyj w czacie opcji <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Załącz → Plik**. Używaj tej metody oszczędnie, ponieważ wysyłanie oryginalnych plików znacznie zwiększy zużycie danych przez ciebie i wszystkich odbiorców na czacie.
 
-
 ### Jak działają znikające wiadomości? {#ephemeralmsgs}
 
 Możesz włączyć „znikające wiadomości” w ustawieniach czatu, w prawym górnym rogu okna czatu, wybierając przedział czasu od 5 minut do 1 roku.
@@ -167,20 +153,17 @@ Pamiętaj, że na znikających wiadomościach możesz polegać tylko wtedy, gdy 
 
 Poza tym, jeśli jeden z uczestników czatu odinstaluje aplikację Delta Chat, usunięcie (i tak zaszyfrowanych) wiadomości z jego serwera może potrwać dłużej.
 
-
 ### Co się stanie, jeśli włączę opcję „Usuń wiadomości z urządzenia”? {#delold}
 
 Jeśli chcesz zaoszczędzić miejsce na swoim urządzeniu, możesz wybrać opcję automatycznego usuwania starych wiadomości.
 
 Aby ją włączyć, przejdź do **Ustawienia → Czaty → Usuń wiadomości z urządzenia** . Możesz ustawić przedział czasowy pomiędzy „po 1 godzinie” a „po 1 roku”; w ten sposób *wszystkie* wiadomości zostaną usunięte z urządzenia, gdy tylko staną się starsze.
 
-
 ### Jak mogę usunąć swój profil czatu? {#remove-account} 
 
 Jeśli używasz więcej niż jednego profilu czatu, możesz usunąć pojedyncze profile w górnym menu przełączania profili (na Androidzie i iOS) lub w pasku bocznym, klikając prawym przyciskiem myszy (w aplikacji na komputery). Profile czatu są usuwane tylko na urządzeniu, na którym nastąpiło usunięcie. Profile czatu na innych urządzeniach będą nadal w pełni działać.
 
 Jeśli używasz jednego domyślnego profilu czatu, możesz po prostu odinstalować aplikację. Spowoduje to automatyczne usunięcie wszystkich powiązanych danych adresowych na serwerze czatu. Aby uzyskać więcej informacji, zapoznaj się z informacjami na odpowiedniej stronie wybranego [serwera czatu innej firmy](https://chatmail.at/relays).
-
 
 ## Grupy {#groups}
 
@@ -190,7 +173,6 @@ Każdy może zmienić nazwę grupy lub awatar, [dodawać lub usuwać członków]
 
 Ponieważ wszyscy członkowie mają te same uprawnienia, grupy najlepiej sprawdzają się w gronie **zaufanych przyjaciół i rodziny**.
 
-
 ### Tworzenie grupy
 
 - Wybierz **Nowy czat**, a następnie **Nowa grupa** z menu w prawym górnym rogu lub naciśnij odpowiedni przycisk na Androidzie / iOS.
@@ -198,7 +180,6 @@ Ponieważ wszyscy członkowie mają te same uprawnienia, grupy najlepiej sprawdz
 - Na następnym ekranie wybierz **członków grupy** i zdefiniuj **nazwę grupy**. Możesz też wybrać **awatar grupy**.
 
 - Gdy tylko napiszesz **pierwszą wiadomość** w grupie, wszyscy członkowie zostaną poinformowani o nowej grupie i będą mogli odpowiadać w grupie (dopóki nie napiszesz wiadomości w grupie, grupa będzie niewidoczna dla członków).
-
 
 ### Dodawanie i usuwanie członków {#addmembers}
 
@@ -213,11 +194,9 @@ Poproś partnera czatu o **zeskanowanie** obrazu QR za pomocą aplikacji Delta C
 
 Kod QR i link zaproszenia można wykorzystać do dodania kilku członków. Ponieważ jednak grupy są [przeznaczone dla zaufanych osób](#groups), unikaj udostępniania ich publicznie.
 
-
 ### Usunąłem się przez przypadek.
 
 Ponieważ nie jesteś członkiem grupy, nie możesz dodać siebie ponownie. Jednak nie ma problemu, po prostu poproś dowolnego członka grupy na normalnym czacie, aby dodał cię ponownie.
-
 
 ### Nie chcę już otrzymywać wiadomości od grupy.
 
@@ -236,18 +215,15 @@ Możesz zduplikować grupę, aby rozpocząć osobną dyskusję lub wykluczyć cz
 
 Nowa grupa jest **w pełni niezależna** od oryginalnej, która nadal działa jak dotychczas.
 
-
 ### Ilu członków może należeć do jednej grupy?
 
 Nie ma ścisłego limitu technicznego, ale nie zaleca się przekraczania 150 osób.
 
 W miarę jak grupy się rozrastają, mogą stawać się niestabilne społecznie i wymagać hierarchii – gdzie Delta Chat pełni rolę prywatnego komunikatora do czatowania na [równych prawach](#groups). Więcej informacji znajdziesz w artykule [Liczba Dunbara](https://en.wikipedia.org/wiki/Dunbar%27s_number).
 
-
 ## Kanały {#channels}
 
 Kanały to narzędzie typu jeden do wielu, służące do nadawania wiadomości.
-
 
 ### Subskrybowanie kanału
 
@@ -263,7 +239,6 @@ Inni subskrybenci kanału nie zobaczą, że go subskrybujesz i nie będą mogli 
 
 Jeśli nie chcesz udostępniać swojego głównego profilu, możesz również utworzyć [dedykowany profil](#multiple-accounts) do dołączenia do kanału.
 
-
 ### Tworzenie kanału
 
 - Naciśnij **Nowy cza** i wybierz **Nowy kanał**.
@@ -278,7 +253,6 @@ Subskrybenci będą otrzymywać twoje wiadomości, ale nie będą mogli wysyła�
 
 Obok każdej wiadomości jest widoczna **liczba wyświetleń**. Pamiętaj, że uwzględnia ona tylko subskrybentów z włączonymi potwierdzeniami odczytu, więc rzeczywista liczba wyświetleń może być wyższa.
 
-
 ### Ilu subskrybentów może mieć kanał?
 
 Kanały są przeznaczone dla znacznie większej publiczności niż [grupy](#groups).
@@ -289,13 +263,11 @@ W przypadku naprawdę dużych kanałów z dziesiątkami tysięcy subskrybentów 
 
 Ale nie wahaj się zbytnio: Delta Chat został zaprojektowany tak, aby nie był zależny od przekaźnika, więc możesz go łatwo zmienić w dowolnym momencie – twoi obecni subskrybenci nawet tego nie zauważą. W takim przypadku wystarczy zaktualizować link zaproszenia udostępniany nowym subskrybentom.
 
-
 ## Połączenia {#calls}
 
 Delta Chat umożliwia indywidualne **połączenia audio i wideo**.
 
 Połączenia są obsługiwane na komputerach stacjonarnych, Ubuntu Touch, iOS oraz Androidzie 8 i nowszych.
-
 
 ### Nawiązywanie połączenia
 
@@ -303,13 +275,11 @@ Połączenia są obsługiwane na komputerach stacjonarnych, Ubuntu Touch, iOS or
 
 - Otworzy się małe menu, w którym możesz wybrać, czy chcesz nawiązać **połączenie audio**, czy **wideo**.
 
-
 ### Odbieranie lub odrzucanie połączenia
 
 - Gdy ktoś do ciebie dzwoni, Delta Chat wyświetla **ekran połączenia przychodzącego** lub powiadomienie.
 
 - Dotknij **Akceptuj**, aby odebrać, lub **Odrzuć**, aby odrzucić połączenie.
-
 
 ### W trakcie połączenia
 
@@ -321,7 +291,6 @@ Połączenia są obsługiwane na komputerach stacjonarnych, Ubuntu Touch, iOS or
 
 W zależności od urządzenia możesz również wybrać wyjście audio lub skorzystać z trybu obrazu w obrazie. Na komputerach stacjonarnych połączenie jest wyświetlane w dedykowanym oknie i możesz kontynuować korzystanie z głównego okna Delta Chat jak zwykle.
 
-
 ### Nieodebrane połączenia i powiadomienia
 
 - Jeśli nie odbierzesz, nie usłyszysz dzwonka lub nie będziesz mieć urządzenia pod ręką, połączenie zostanie oznaczone jako **nieodebrane**.
@@ -330,18 +299,15 @@ W zależności od urządzenia możesz również wybrać wyjście audio lub skorz
 
 - W **Ustawienia → Powiadomienia → Połączenia** możesz całkowicie wyłączyć specjalny ekran dzwonka. Jeśli to zrobisz, nie będzie ci przeszkadzał żaden dzwonek, a połączenie nadal będzie można odebrać, dotykając w czacie dymku wiadomości o przychodzącym połączeniu.
 
-
 ## Aplikacje w czacie {#webxdc}
 
 Możesz wysyłać aplikacje do czatu – gry, edytory, ankiety i inne narzędzia. Dzięki temu Delta Chat jest naprawdę rozszerzalnym komunikatorem.
-
 
 ### Gdzie mogę znaleźć aplikacje do czatu?
 
 - Na czacie, używając <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Przycisku Załącz → Aplikacje**
 
 - Możesz również [utworzyć własną aplikację](#create-xdc) i dołączyć ją, używając <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Przycisku Załącz → Plik**
-
 
 ### Jak prywatne są aplikacje w czacie?
 
@@ -353,7 +319,6 @@ Możesz wysyłać aplikacje do czatu – gry, edytory, ankiety i inne narzędzia
 
 - Oznacza to również: podobnie jak w przypadku linków internetowych, nie otwieraj aplikacji od niezaufanych kontaktów.
 
-
 ### Jak mogę stworzyć własne aplikacje do czatu? {#create-xdc}
 
 - Aplikacje w czacie to pliki ZIP z rozszerzeniem .xdc zawierające kod HTML, CSS i JavaScript.
@@ -363,7 +328,6 @@ Możesz wysyłać aplikacje do czatu – gry, edytory, ankiety i inne narzędzia
 - Wszystko, co musisz wiedzieć, znajdziesz w [dokumentacji Webxdc](https://webxdc.org/docs).
 
 - W razie pytań możesz je zadać innym osobom z doświadczeniem na [forum Delta Chat](https://support.delta.chat/c/webxdc/20).
-
 
 ## Natychmiastowe dostarczanie wiadomości i powiadomienia push {#instant-delivery}
 
@@ -377,12 +341,10 @@ Powiadomienia push działają na wszystkich włączonych serwerach [chatmail](ht
 
 - Urządzenia z Androidem, poprzez integrację z usługą Google FCM Push, w tym na urządzeniach korzystających z [microG](https://microg.org) zamiast autorskiego kodu Google w telefonie.
 
-
 ### Czy powiadomienia push są włączone na urządzeniach z iOS? Czy istnieje alternatywa?
 
 Tak, Delta Chat automatycznie korzysta z powiadomień push dla profili [chatmail](https://delta.chat/chatmail)
 . I nie, w telefonach Apple nie ma alternatywy umożliwiającej natychmiastowe dostarczanie wiadomości, ponieważ urządzenia Apple nie pozwalają Delta Chat na pobieranie danych w tle. Powiadomienia push są automatycznie aktywowane dla użytkowników iOS, ponieważ [system prywatności powiadomień Delta Chat](#privacy-notifications) nie udostępnia Apple danych, których jeszcze nie posiada.
-
 
 ### Czy powiadomienia Push są włączone/potrzebne na urządzeniach z Androidem? {#android-push}
 
@@ -391,11 +353,10 @@ Jeśli dostępna jest usługa „Push”, Delta Chat włącza powiadomienia push
 W ustawieniach „Powiadomień” Delta Chat dla „Natychmiastowej dostawy” możesz zmienić następujące ustawienia wpływające na wszystkie profile czatu:
 
 -  Użyj połączenia w tle: Jeśli nie korzystasz z usługi Push, możesz wyłączyć „optymalizację baterii” dla Delta Chat, umożliwiając mu pobieranie wiadomości w tle. Mogą jednak wystąpić opóźnienia od minut do godzin. Niektórzy dostawcy Androida nawet całkowicie ograniczają aplikacje (zobacz [dontkillmyapp.com](https://dontkillmyapp.com)), a Delta Chat może nie wyświetlać wiadomości przychodzących, dopóki ręcznie ponownie nie otworzysz aplikacji.
-  
+
 Wymuś połączenie w tle: Jest to opcja awaryjna, jeśli poprzednie opcje nie są dostępne lub nie zapewniają „natychmiastowej dostawy”. Włączenie tej opcji powoduje stałe powiadomienie na twoim telefonie, które czasami może zostać „minifikowane” w przypadku najnowszych telefonów z Androidem.
 
 Obie opcje „Połączenia w tle” są energooszczędne i można je bezpiecznie wypróbować, jeśli wiadomości docierają do ciebie z dużym opóźnieniem.
-
 
 ### Jak prywatne są powiadomienia push na Delta Chat? {#privacy-notifications}
 
@@ -411,21 +372,17 @@ Oto jak aplikacje Delta Chat realizują dostarczanie powiadomień push:
 
 - Centralna usługa Push (Apple, Google itp.) budzi aplikację Delta Chat na twoim urządzeniu, aby sprawdzić w tle nowe wiadomości. Nie zna danych profilowych urządzenia, na którym się budzi. Centralne usługi push Apple/Google nigdy nie widzą żadnych danych profilowych (nadawcy ani odbiorcy), a także nigdy nie widzą treści wiadomości (również w formie zaszyfrowanej).
 
-
 Centralny serwer proxy powiadomień Delta Chat [jest mały i w pełni zaimplementowany w Rust](https://github.com/deltachat/notifiers) i zapomina o tokenach urządzeń zaraz po ich przetworzeniu przez Apple/Google/itp, zwykle w ciągu kilku milisekund.
 
 Pamiętaj, że token urządzenia jest szyfrowany między aplikacjami a serwerem proxy powiadomień, ale nie jest podpisany. Serwer proxy powiadomień nigdy nie widzi danych profilowych, adresów IP ani żadnych kryptograficznych informacji identyfikujących powiązanych z urządzeniem użytkownika (tokenem).
 
 W wyniku tego ogólnego projektu ochrony prywatności nawet przejęcie serwera chatmail lub pełne przejęcie centralnego serwera proxy powiadomień Delta Chat nie spowodowałoby ujawnienia prywatnych informacji, których usługi Push jeszcze nie posiadają.
 
-
 ### Dlaczego Delta Chat integruje się ze scentralizowanymi, zastrzeżonymi usługami push Apple/Google?
 
 Delta Chat to darmowy i otwartoźródłowy zdecentralizowany komunikator  z możliwością wyboru serwera, ale chcemy, aby użytkownicy mogli niezawodnie doświadczać „natychmiastowego dostarczania” wiadomości, tak jak w przypadku aplikacji Whatsapp, Signal lub Telegram, bez zadawania z góry pytań, które są bardziej odpowiednie dla doświadczonych użytkowników lub programistów.
 
 Pamiętaj, że Delta Chat posiada [mały i chroniący prywatność system powiadomień push](#privacy-notifications), który zapewnia „natychmiastowe dostarczanie” wiadomości ze wszystkich serwerów chatmail, w tym potencjalnego, który [możesz skonfigurować samodzielnie bez naszej zgody](https://delta.chat/chatmail#selfhosted). Witamy w potędze interoperacyjnej sieci przekaźników chatmail :)
-
-
 
 ## Multi-klient {#multiclient}
 
@@ -444,7 +401,6 @@ Tak. Możesz używać tego samego profilu na różnych urządzeniach:
 Przenoszenie powinno rozpocząć się po kilku sekundach, a podczas przenoszenia oba urządzenia będą pokazywać **postęp**. Poczekaj, aż zakończy się na obu urządzeniach.
 
 W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **urządzenia są całkowicie niezależne**. Jedno urządzenie nie jest potrzebne do działania drugiego.
-
 
 ### Rozwiązywanie problemów
 
@@ -471,7 +427,6 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 
 - Jeśli nadal masz problemy lub **nie możesz zeskanować kodu QR**, wypróbuj **ręczne przenoszenie** opisane poniżej
 
-
 ### Ręczny transfer {#backup}
 
 Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne urządzenie” nie działa.
@@ -482,13 +437,11 @@ Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne
 
 Jesteś teraz zsynchronizowany i w komunikacji ze swoimi partnerami możesz używać obu urządzeń do wysyłania i odbierania wiadomości zaszyfrowanych metodą end-to-end.
 
-
 ### Czy są jakieś plany wprowadzenia klienta Web Delta Chat?
 
 - Nie ma bezpośrednich planów, ale wstępne przemyślenia.
 - Istnieją 2-3 możliwości wprowadzenia klienta Web Delta Chat, ale wszystkie wymagają znaczącej pracy. Na razie skupiamy się na udostępnianiu stabilnych wersji we wszystkich sklepach z aplikacjami (repozytoria Google Play/iOS/Windows/macOS/Linux) jako aplikacji natywnych.
 - Jeśli potrzebujesz klienta Web, ponieważ nie możesz instalować oprogramowania na komputerze, na którym pracujesz, możesz użyć przenośnego klienta Windows Desktop lub AppImage dla Linuxa. Możesz je znaleźć na [get.delta.chat](https://get.delta.chat).
-
 
 ## Zaawansowane
 
@@ -499,7 +452,6 @@ W **Ustawienia → Zaawansowane → Funkcje eksperymentalne** możesz wypróbowa
 Funkcje mogą być **niestabilne** i mogą zostać **zmienione lub usunięte**.
 
 Więcej informacji i opinii znajdziesz na [forum](https://support.delta.chat).
-
 
 ### Czym są przekaźniki? {#relays}
 
@@ -512,7 +464,6 @@ Domyślnie przekaźniki są **automatycznie skonfigurowane**, więc nie musisz s
 - Możesz dodać przekaźnik, skanując jego kod QR lub wklejając jego link zaproszenia;  [chatmail.at/relays](https://chatmail.at/relays) pokazuje niektóre znane publicznie przekaźniki. Jeśli masz wiele przekaźników, będziesz otrzymywać wiadomości na wszystkich z nich.
 
 Dodanie lub usunięcie przekaźnika automatycznie powiadomi osoby, z którymi rozmawiasz, dzięki czemu zaczną one korzystać z przekaźnika do rozmów z tobą lub przestaną to robić.
-
 
 ### Czy mogę używać klasycznego adresu e-mail w Delta Chat?
 
@@ -532,13 +483,11 @@ Przede wszystkim, **nie używaj tego samego klasycznego adresu e-mail również 
 
 Możesz skonfigurować adres e-mail do czatu, wybierając **Nowy profil → Użyj innego serwera → Użyj klasycznego e-maila jako przekaźnika**. Pamiętaj, że tradycyjni dostawcy poczty e-mail zazwyczaj nie obsługują [powiadomień push](#instant-delivery) i mają inne ograniczenia, patrz [Przegląd dostawców](https://providers.delta.chat). Chatmail używa domyślnej SKRZYNKI ODBIORCZEJ do przekazywania; upewnij się, że konfiguracja dostawcy również ją obsługuje. Profil czatu z klasycznym adresem e-mail umożliwia wysyłanie i odbieranie niezaszyfrowanych wiadomości. Te wiadomości i czaty, w których się pojawiają, są oznaczone ikoną e-mail <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### Chcę zarządzać własnym serwerem dla Delta Chat. Co polecacie?
 
 Każdy poprawnie skonfigurowany serwer poczty e-mail będzie działać dobrze, chyba że urządzenia użytkowników wymagają [powiadomień](#instant-delivery) push Google/Apple.
 
 Zazwyczaj zalecamy [skonfigurowanie przekaźnika chatmail](https://chatmail.at/doc/relay/getting_started.html). [Chatmail](https://chatmail.at) to projekt społecznościowy, który obejmuje zarówno konfigurację przekaźników, jak i podstawowe [rozwiązania w języku Rust](https://github.com/chatmail/core), które napędzają [klientów chatmail](https://chatmail.at/clients), z których najbardziej znanym jest Delta Chat.
-
 
 ### Czym jest opcja „Wyślij statystyki do programistów Delta Chat”? {#statssending}
 
@@ -558,12 +507,9 @@ Interesują nas np. takie statystyki, jak:
 
 _Nie_ będziemy gromadzić żadnych danych osobowych.
 
-
 ### Interesują mnie szczegóły techniczne. Możesz powiedzieć mi coś więcej?
 
 Zobacz [Standardy używane w Delta Chat]({% include standards-url %}).
-
-
 
 ## Szyfrowanie i bezpieczeństwo {#e2ee}
 
@@ -591,7 +537,6 @@ Jeśli korzystasz z domyślnych [przekaźników chatmail](https://chatmail.at/re
 
 Jeśli zamiast tego korzystasz z [klasycznego serwera e-mail](#classic-email), możesz wysyłać i odbierać wiadomości z szyfrowaniem typu end-to-end lub bez. Wiadomości bez szyfrowania typu end-to-end są oznaczone ikoną e-mail <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### Co stało się z zielonym znacznikiem w profilach kontaktów? {#e2eeguarantee}
 
 W starszych wersjach aplikacji Delta Chat w niektórych profilach kontaktów widoczny był zielony znacznik <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" /> oraz informacja „Kontakt zweryfikowany przez”.
@@ -606,7 +551,6 @@ Tak.
 
 Kiedy mówimy o „wiadomości zaszyfrowanej metodą end-to-end”, zawsze mamy na myśli, że zaszyfrowana jest cała wiadomość, łącznie ze wszystkimi załącznikami i metadanymi załączników, takimi jak nazwy plików.
 
-
 ### Czy OpenPGP jest bezpieczny? {#openpgp-secure}
 
 Tak, Delta Chat korzysta z bezpiecznego podzbioru OpenPGP, który wymaga prawidłowego zaszyfrowania i podpisania całej wiadomości. Na przykład „Odłączone podpisy” nie są traktowane jako bezpieczne.
@@ -615,13 +559,11 @@ OpenPGP samo w sobie nie jest niebezpieczne. Większość publicznie omawianych 
 
 Naszym celem, wraz z innymi wdrażającymi OpenPGP, jest dalsza poprawa parametrów bezpieczeństwa poprzez wdrożenie [nowego IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/), który na szczęście został przyjęty latem 2023 roku.
 
-
 ### Czy rozważałeś użycie alternatyw dla OpenPGP do szyfrowania typu end-to-end? {#openpgp-alternatives}
 
 Tak, śledzimy inicjatywy takie jak [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security), ale ich wdrożenie oznaczałoby zerwanie interoperacyjności szyfrowania end-to-end. Dlatego nie byłaby to łatwa decyzja i muszą pojawić się namacalne korzyści dla użytkowników.
 
 Delta Chat przyjmuje holistyczne podejście do „użytecznego bezpieczeństwa” i współpracuje z szeroką gamą grup aktywistów, a także renomowanymi badaczami, takimi jak [TeamUSEC](https://teamusec.de), aby poprawić rzeczywiste wyniki użytkowników przed zagrożeniami bezpieczeństwa. Protokół przewodowy i standard ustanawiania szyfrowania end-to-end to tylko jedna część „wyników użytkownika”. Zobacz także nasze odpowiedzi na pytania dotyczące [przejęcia urządzenia](#device-seizure) i [metadanych wiadomości](#message-metadata).
-
 
 ### Czy Delta Chat jest podatny na EFAIL?
 
@@ -629,13 +571,11 @@ Nie, [Delta Chat nigdy nie był podatny na atak EFAIL](https://delta.chat/en/201
 
 Delta Chat również nigdy nie był podatny na atak EFAIL „Direct Exfiltration”, ponieważ odszyfrowuje jedynie wiadomości `multipart/encrypted`, które zawierają dokładnie jedną zaszyfrowaną i podpisaną część, zgodnie ze specyfikacją Autocrypt Level 1.
 
-
 ### Czy wiadomości oznaczone ikoną poczty są widoczne w internecie? {#tls}
 
 Jeśli wysyłasz lub odbierasz wiadomości e-mail bez szyfrowania end-to-end (korzystając z klasycznego serwera poczty), są one nadal chronione przed operatorami komórkowymi lub kablowymi, którzy nie mogą ich czytać ani modyfikować. Jednak zarówno twoi dostawcy poczty e-mail, jak i dostawcy poczty e-mail odbiorcy mogą czytać, analizować lub modyfikować twoje wiadomości, w tym wszelkie załączniki.
 
 Delta Chat domyślnie korzysta ze ścisłego [szyfrowania TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security), które zabezpiecza połączenia pomiędzy twoim urządzeniem a dostawcą poczty e-mail. Cała obsługa TLS Delta Chat została poddana niezależnemu [audytowi bezpieczeństwa](#security-audits). Co więcej, połączenie między tobą a dostawcą poczty e-mail odbiorcy będzie zazwyczaj również szyfrowane. Jeśli zaangażowane serwery poczty e-mail obsługują [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461), pomiędzy dostawcami poczty e-mail będzie egzekwowane szyfrowanie transportu. W takim przypadku komunikacja Delta Chat nigdy nie będzie udostępniana w Internecie w postaci zwykłego tekstu, nawet jeśli wiadomość nie została zaszyfrowana metodą end-to-end.
-
 
 ### W jaki sposób Delta Chat chroni metadane w wiadomościach? {#message-metadata}
 
@@ -652,7 +592,6 @@ Wszystkie pozostałe metadane dotyczące wiadomości, kontaktów i grup znajduj�
 
 Zarówno w celu ochrony przed serwerami gromadzącymi metadane, jak i przed zagrożeniem przejęcia urządzenia, zalecamy użycie [przełącznika chatmail](https://chatmail.at/relays) do tworzenia profili czatu z losowymi adresami do przesyłania. Pamiętaj, że aplikacje Delta Chat na wszystkich platformach obsługują wiele kont, dzięki czemu możesz z łatwością korzystać z kont „1-tygodniowych” lub „1-miesięcznych” związanych z konkretnymi działaniami obok konta „głównego”, wiedząc, że wszystkie tymczasowe dane konta wraz ze wszystkimi metadanymi zostaną usunięte. Co więcej, jeśli urządzenie zostanie przejęte, kontakty czatu korzystające z profili krótkotrwałych nie będą mogły zostać łatwo zidentyfikowane.
 
-
 ### Kto widzi mój adres IP?
 
 Używane [przekaźniki](#relays)
@@ -662,7 +601,6 @@ Używane [przekaźniki](#relays)
 Adresy IP są niezbędne do łączności i wydajności. Delta Chat ich nie przechowuje ani nie ujawnia. Należy pamiętać, że adresy IP nie są jak adresy podawane firmie kurierskiej, ale zazwyczaj są mniej precyzyjne, często określając jedynie miasto lub region.
 
 Jeśli postrzegasz swój adres IP jako zagrożenie, zalecamy korzystanie z VPN dla całego systemu. Opcje dla poszczególnych aplikacji pozostawiają luki w systemie. Na przykład kliknięcie linku może ujawnić adresy IP nieznanym osobom, co stanowi zdecydowanie większe ryzyko.
-
 
 ### Czy Delta Chat obsługuje funkcję „Sealed Sender”? {#sealedsender}
 
@@ -696,7 +634,6 @@ Nie.
 
 Delta Chat generuje bezpieczne klucze OpenPGP zgodnie ze specyfikacją Autocrypt 1.1. Nie zalecamy ani nie oferujemy użytkownikom ręcznego zarządzania kluczami. Chcemy zapewnić, aby audyty bezpieczeństwa koncentrowały się na kilku sprawdzonych algorytmach kryptograficznych, a nie na pełnym zakresie algorytmów dozwolonych przez OpenPGP. Aby wyodrębnić klucz OpenPGP, istnieje tylko metoda ekspercka: należy go wyszukać w tabeli SQLite „keypairs” w pliku tar kopii zapasowej profilu.
 
-
 ### Czy Delta Chat był niezależnie kontrolowany pod kątem luk w zabezpieczeniach? {#security-audits}
 
 Tak, wielokrotnie.
@@ -720,7 +657,6 @@ Problemy opisane w tych ostrzeżeniach zostały naprawione i są częścią wyda
 
 - W 2019 r. firma [Include Security](https://includesecurity.com) przeanalizowała biblioteki [PGP](https://github.com/rpgp/rpgp) i [RSA](https://github.com/RustCrypto/RSA) Delta Chat. Nie znaleziono żadnych krytycznych problemów, ale dwa poważne problemy, które później naprawiliśmy. Ujawniła również jeden problem o średniej wadze i kilka mniej poważnych, ale nie było możliwości wykorzystania tych luk w implementacji Delta Chat. Niektóre z nich jednak naprawiliśmy od czasu zakończenia kontroli. Pełny raport można przeczytać [tutaj](../assets/blog/2019-first-security-review.pdf).
 
-
 ## Różne
 
 ### Jakich uprawnień potrzebuje Delta Chat?
@@ -728,7 +664,6 @@ Problemy opisane w tych ostrzeżeniach zostały naprawione i są częścią wyda
 Niektóre funkcje wymagają określonych uprawnień, np. musisz udzielić pozwolenia na korzystanie z aparatu, aby [zeskanować kod QR zaproszenia](#howtoe2ee).
 
 See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
-
 
 ### Gdzie moi znajomi mogą znaleźć Delta Chat?
 
@@ -743,7 +678,6 @@ Delta Chat jest dostępny na wszystkich głównych i niektórych mniejszych plat
 - Sprawdź **menedżera pakietów** swoich dystrybucji Linuksa
 
 - **Aplikacje na Androida** są również dostępne na <https://github.com/deltachat/deltachat-android/releases>
-
 
 ### W jaki sposób finansowany jest rozwój Delta Chat?
 

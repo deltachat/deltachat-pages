@@ -25,7 +25,6 @@ Veuillez lire nos [Standards de la communauté](community-standards) pour en sav
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Canaux de communication tiers 
 
 Les canaux de communication suivants, liés à Delta Chat, sont gérés par des tiers

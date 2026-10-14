@@ -27,7 +27,6 @@ Për ndërveprime bashkësie rreth Delta Chat-it, ju lutemi, lexoni [Standarded 
 - [Probleme në Delta Chat për iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Probleme Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Kanale komunikimi palësh të treta
 
 Kanalet vijues të komunikimit të lidhura me Delta Chat-in xhirohen nga palë të treta

@@ -27,7 +27,6 @@ diskuzi o funkcích a pro získání podpory.
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Komunikační kanály třetích stran
 
 Následující komunikační kanály ohledně Delta Chatu jsou provozovány třetími stranami,

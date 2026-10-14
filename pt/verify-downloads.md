@@ -18,7 +18,6 @@ Para a versão Android, você pode verificar o certificado do APK comparando com
 Para obter as impressões SHA256 do APK você pode usar, por exemplo 
 `keytool -printcert -jarfile <APK-file>`
 
-
 ## Desktop
 
 1. Open your terminal and **change directory** to the file you want to verify, eg.  

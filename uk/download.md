@@ -6,7 +6,6 @@ downloads: true
 
 Версії для комп'ютера не потребують встановлення DeltaChat на телефоні.
 
-
 ## Журнали змін та інше {#changelogs}
 
 - Журнали змін: [Десктоп](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

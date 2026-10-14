@@ -28,7 +28,6 @@ Przykłady zachowań, o których unikanie prosimy wszystkich, to:
 
 Zdajemy sobie sprawę, że czasami ludzie mogą mieć gorszy dzień lub nie być świadomi wpływu swojego zachowania. W takiej sytuacji możesz im o tym dyskretnie przypomnieć publicznie lub prywatnie – w zależności od tego, co jest bardziej stosowne. Załóż dobrą wolę; bardziej prawdopodobne jest, że uczestnicy nie są tego świadomi, niż to, że celowo próbują poniżyć innych lub obniżyć jakość dyskusji.
 
-
 ## Standardy zbiorowego utrzymania 
 
 Nasze repozytoria organizacyjne są utrzymywane wspólnie, a nie indywidualnie. Aby uniknąć i ograniczyć pojedyncze punkty wiedzy i kontroli, zachęcamy wszystkich do znajdowania i edukowania innych opiekunów, aby mogli dzielić się wiedzą i obowiązkami związanymi z utrzymaniem.
@@ -47,23 +46,19 @@ Jeśli LLM były wykorzystywane w jakikolwiek istotny sposób, zachęcamy wspó�
 
 W szczególnych przypadkach osoby odpowiedzialne za utrzymanie mogą zezwolić na skonfigurowanie botów (takich jak „dependabot”) do automatycznego generowania żądań ściągnięcia. Zmiany te nie mogą być jednak nigdy automatycznie scalane i zawsze wymagają ścisłej weryfikacji przez człowieka przed scaleniem.
 
-
 ## Opiekunowie i obowiązki
 
 Opiekunowie projektów to osoby posiadające prawa do zatwierdzania repozytoriów zbiorowych lub prawa administracyjne do kanałów komunikacji społeczności. Każdy opiekun jest proszony o wzięcie odpowiedzialności i podjęcie odpowiednich, ostrożnych działań w odpowiedzi na zaobserwowane przypadki wątpliwego zachowania. Opiekunowie projektów mają prawo i obowiązek usuwać, edytować lub odrzucać komentarze, zatwierdzenia, kod, edycje wiki, problemy i inne wkłady, które nie są zgodne z naszymi standardami lub nie odpowiadają bieżącym planom projektu. Mogą także tymczasowo lub na stałe zablokować autora za inne zachowania, które uznają za niewłaściwe, groźne, obraźliwe lub szkodliwe.
 
-
 ## Zakres
 
 Nasze standardy społeczności mają zastosowanie do repozytoriów projektów, kanałów komunikacji i spotkań, a także do przestrzeni publicznych, gdy dana osoba reprezentuje projekt lub jego społeczność. Przykładami reprezentowania projektu lub społeczności są: korzystanie z oficjalnego adresu e-mail projektu, publikowanie w mediach społecznościowych za pośrednictwem konta powiązanego z projektem lub występowanie w roli przedstawiciela na wydarzeniu online lub offline.
-
 
 ## Zgłoszenia i odpowiedzi
 
 Jeśli doświadczysz lub będziesz świadkiem obraźliwego, nękającego lub w inny sposób nieakceptowalnego zachowania, możesz porozmawiać z wybranymi opiekunami projektu, obecnie [Nami](mailto:missytake@systemli.org) i [Xenią](mailto:ksenia@transcyberian.org). Zapoznają się oni z raportami i zaangażują innych opiekunów w razie potrzeby, a także zareagują w sposób uznany za konieczny i odpowiedni do okoliczności, ale nie wbrew Twojej woli.
 
 Opiekunowie są zobowiązani do zachowania poufności w stosunku do zgłaszającego incydent. Opiekunowie sami nie są zwolnieni z bycia zgłoszonym i mogą spotkać się z tymczasowymi lub trwałymi reperkusjami określonymi przez innych opiekunów.
-
 
 ## Uznanie autorstwa
 

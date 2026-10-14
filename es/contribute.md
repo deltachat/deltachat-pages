@@ -25,7 +25,6 @@ Para las interacciones comunitarias en torno a Delta Chat, por favor lee nuestra
 - [Errores y mejoras para Delta Chat de iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Errores y mejoras para la biblioteca del core y las interfaces de Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Canales de comunicación de terceras personas
 
 Los siguientes canales relacionados con Delta Chat son creados por terceras personas que tal vez cumplen o no cumplen con nuestros [estándares de la comunidad](community-standards): 

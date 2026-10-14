@@ -16,7 +16,6 @@ Bij de Android-versie kun je het APK-certificaat verifiëren middels één van d
 
 Om de SHA256-vingerafdrukken van het APK-certificaat te tonen, kun je bijv. <br>`keytool -printcert -jarfile <APK-file>`<br>gebruiken.
 
-
 ## Computer
 
 1. Open een terminalvester, **verander de map** in die waar het te verifiëren bestand staat, bijv.  

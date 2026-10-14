@@ -17,7 +17,6 @@ Pour Android, vous pouvez vérifier que le certificat de signature sur l'APK cor
 
 Pour imprimer les empreintes SHA256 du certificat de signature de l'APK vous pouvez utiliser, par ex. `keytool -printcert -jarfile <APK-file>`
 
-
 ## Version PC
 
 1. Open your terminal and **change directory** to the file you want to verify, eg.  

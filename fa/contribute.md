@@ -26,7 +26,6 @@ lang: fa
 - [مسئله‌های iOS دلتاچت](https://github.com/deltachat/deltachat-ios/issues)
 - [کتابخانه هسته Rust + بایندینگ‌های پایتون](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # کانال‌های ارتباطی شخص ثالث 
 
 کانال‌های ارتباطی زیر مرتبط با دلتاچت توسط اشخاص ثالث اداره می‌شوند

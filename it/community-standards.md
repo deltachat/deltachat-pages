@@ -36,7 +36,6 @@ in pubblico o in privato, a seconda di quale modalità risulti più opportuna. P
 è più probabile che i partecipanti non siano consapevoli di quanto accade, piuttosto che stiano intenzionalmente
 cercando di denigrare gli altri o di compromettere la qualità della discussione.
 
-
 ## Standards di Manutenzione Collettiva
 
 I nostri repository organizzativi sono gestiti collettivamente e non sono di proprietà individuale.
@@ -71,7 +70,6 @@ per generare automaticamente delle pull request.
 Tuttavia, tali modifiche non devono mai essere unite automaticamente
 e richiedono sempre un rigoroso controllo umano prima dell'unione.
 
-
 ## Manutentori e Responsabilità
 
 I manutentori del progetto sono coloro che dispongono di diritti di commit sui repository collettivio
@@ -84,7 +82,6 @@ che non siano conformi ai nostri standard o non siano in linea con gli attuali p
 Possono inoltre escludere temporaneamente o permanentemente un collaboratore
 per altri comportamenti ritenuti inappropriati, minacciosi, offensivi o dannosi.
 
-
 ## Ambito
 
 I nostri Standards della Comunità si applicano ai repository dei progetti, ai canali di comunicazione e agli incontri,
@@ -93,7 +90,6 @@ quando una persona rappresenta il progetto o la sua comunità.
 Esempi di rappresentanza di un progetto o di una comunità includono l'utilizzo di un indirizzo e-mail ufficiale del progetto,
 la pubblicazione di contenuti tramite un account social associato al progetto
 o la partecipazione in qualità di rappresentante a un evento online o offline.
-
 
 ## Rapporti e Risposte
 
@@ -107,7 +103,6 @@ nei confronti del segnalante di un incidente.
 I manutentori non sono esenti dall'essere segnalati
 e possono incorrere in ripercussioni temporanee o permanenti
 come stabilito da altri manutentori.
-
 
 ## Attribuzione
 

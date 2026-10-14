@@ -18,7 +18,6 @@ En Android, podes verificar que o certificado da sinatura no APK concorda cunha 
 Para mostrar a impresión dixital SHA256 do certificado de sinatura do APK podes utilizar 
 `keytool -printcert -jarfile <APK-file>`
 
-
 ## Escritorio
 
 1. Abre o terminal e **cambia de directorio** ao ficheiro que queres verificar, por exemplo.

@@ -25,7 +25,6 @@ lang: zh_CN
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # 第三方沟通渠道
 
 - 英语 Delta Chat 社区群组，你可以加入该群组：

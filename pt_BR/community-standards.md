@@ -26,7 +26,6 @@ them in public or private, whatever is more appropriate. Assume good faith;
 it's more likely that participants are unaware than that they are intentionally
 trying to denigrate others or reduce the quality of discussion.
 
-
 ## Collective Maintenance Standards
 
 Our organizational repositories are collectively maintained, not individually owned.
@@ -61,7 +60,6 @@ to automatically generate pull requests.
 However, these changes must never be automatically merged
 and always require strict human review before merging.
 
-
 ## Mantenedores e Responsabilidades
 
 Project maintainers are those with commit rights to collective repositories
@@ -74,7 +72,6 @@ that are not aligned with our standards or do not match current project plans.
 They may also ban temporarily or permanently a contributor for
 other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-
 ## Escopo
 
 Our Community Standards apply to project repositories, communication channels, and gatherings,
@@ -83,7 +80,6 @@ when an individual is representing the project or its community.
 Examples of representing a project or community include using an official project e-mail
 address, posting via a social media account associated with the project,
 or acting as a representative at an online or offline event.
-
 
 ## Denúncias e Respostas
 
@@ -98,7 +94,6 @@ com relação ao relator de um incidente.
 Os mantenedores não estão isentos de serem denunciados
 e podem sofrer repercussões temporárias ou permanentes
 conforme determinado por outros mantenedores.
-
 
 ## Atribuição
 

@@ -27,7 +27,6 @@ Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estànd
 - [Problemes amb Delta Chat a iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Problemes de la biblioteca principal de Rust i dels Bindings de Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
-
 # Canals de comunicació de tercers
 
 Els següents canals de comunicació relacionats amb Delta Chat són gestionats per terceres parts

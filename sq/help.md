@@ -5,7 +5,6 @@ render_toc: true
 header: Pyetje të Bëra Rëndom
 ---
 
-
 ## Ç’është Delta Chat-i?
 
 Delta Chat is a reliable, decentralized and secure instant messaging app,
@@ -26,7 +25,6 @@ available for mobile and desktop platforms.
 
 - Free and Open Source software, both app and server side,
   built on [Internet Standards]({% include standards-url %}).
-
 
 ### How can I find people to chat with? {#howtoe2ee}
 
@@ -56,7 +54,6 @@ Congratulations!
 You now will automatically use [end-to-end encryption](#e2ee) with this contact.
 If you add each other to [groups](#groups), end-to-end encryption will be established among all members.
 
-
 ### Why is a chat marked as "Request"?
 
 As being a private messenger,
@@ -73,7 +70,6 @@ this appears as <b style="border: 1px solid currentColor; padding: 0 3px; font-s
 ende si kërkesë për mesazh, që të mund të ndërroni mendje. Nëse vërtet
 s’doni të merrni mesazhe prej këtij personi, shihni mundësinë e **bllokimit** të tij.
 
-
 ### How can I put two of my friends in contact with each other?
 
 Attach the first contact to the chat of the second using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Contact**.
@@ -81,7 +77,6 @@ You can also add a little introduction message.
 
 The second contact will receive a **card** then
 and can tap it to start chatting with the first contact.
-
 
 ### What are profiles? How can I switch between them? {#multiple-accounts}
 
@@ -98,7 +93,6 @@ You may want to use separate profiles for political, family or work related acti
 
 You may also wish to learn [how to use the same profile on multiple devices](#multiclient).
 
-
 ### Kush e sheh profilin tim?
 
 Mund të shtoni një foto profili te rregullimet tuaja. Nëse u shkruani kontakteve
@@ -107,14 +101,12 @@ Mund të shtoni një foto profili te rregullimet tuaja. Nëse u shkruani kontakt
 Për arsye privatësie, askush s’e sheh foton tuaj të profilit, deri sa
    t’u shkruani një mesazh.
 
-
 ### Can I set a Bio/Status with Delta Chat? {#signature}
 
 Yes,
 you can do so under **Settings → Profile → Bio**.
 Once you sent a message to a contact,
 they will see it when they view your contact details.
-
 
 ### Ç’do të thotë Fiksim, Heshtim, Arkivim?
 
@@ -131,7 +123,6 @@ Përdorini këto mjete për të sistemuar fjalosjet tuaja dhe për ta mbajtur gj
 
 Që të arkivoni ose fiksoni një fjalosje, prekeni gjatë (në Android), përdorni menunë e fjalosjes (në Android/Desktop), ose fërkojeni për majtas (në iOS);
 që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Desktop), ose profilin e fjalosjes (në iOS).
-
 
 ### How do "Saved Messages" work? {#save}
 
@@ -154,7 +145,6 @@ që të heshtoni një fjalosje, përdorni menunë e fjalosjes (në Android/Deskt
 Messages stay saved even if they are edited or deleted -
 may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
 
-
 ### Ç’do të thotë pika e gjelbër?
 
 You can sometimes see a **green dot** <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/green-dot.png" alt=""/>
@@ -164,7 +154,6 @@ e.g. because they messaged you or sent a read receipt.
 
 So this is not a real time online status
 and others will as well not always see that you are "online".
-
 
 ### Ç’duan të thonë shenjat e shfaqura pas mesazheve që dërgohen?
 
@@ -178,7 +167,6 @@ In [groups](#groups) the second tick means that at least one member has reported
 
 You will only get the second tick if both you and one of the recipients who read the message
 has **Settings → Chats → Read Receipts** enabled.
-
 
 ### Correct typos and delete messages after sending {#edit}
 
@@ -196,7 +184,6 @@ Notifications are not sent and there is no time limit.
 Note, that the original message may still be received by chat members
 who could have already replied, forwarded, saved, screenshotted or otherwise copied the message.
 
-
 ### How is media quality handled? {#mediaquality}
 
 Images, videos, files, voice messages etc. can be sent using the <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach-**
@@ -210,7 +197,6 @@ or <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/he
 
 - If you specifically need to send media in its **original quality**, use <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attach → File** in the chat.
   Please use this method sparingly, as sending original files will significantly increase data usage for you and all recipients in the chat.
-
 
 ### How do disappearing messages work? {#ephemeralmsgs}
 
@@ -239,7 +225,6 @@ Apart from that,
 if one chat partner uninstalls Delta Chat,
 the (anyway encrypted) messages may take longer to get deleted from their server.
 
-
 ### Ç’ndodh, nëse aktivizoj “Fshi prej pajisjes mesazhe të vjetër”? {#delold}
 
 Nëse doni të kurseni hapësirë në pajisjen tuaj, mund të zgjidhni të fshihen
@@ -249,7 +234,6 @@ Për ta aktivizuar, kaloni te “fshi prej pajisjeje mesazhe të vjetër”, te 
 “Fjalosje & Media”. Mund të caktoni një periudhë nga “pas një ore” e deri
 “pas një viti”; në këtë mënyrë, *krejt* mesazhet do të fshihen nga pajisja juaj
 sapo të jenë më të vjetër se aq.
-
 
 ### How can I delete my chat profile? {#remove-account} 
 
@@ -263,7 +247,6 @@ If you use a single default chat profile you can simply uninstall the app.
 This will still automatically trigger deletion of all associated address data on the chatmail server.
 For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
 
-
 ## Groups {#groups}
 
 Groups let several people chat together privately with **equal rights**.
@@ -276,7 +259,6 @@ and [delete their own messages](#edit) from all member's devices.
 
 Because all members have the same rights, groups work best among **trusted friends and family**.
 
-
 ### Krijimi i një grupi
 
 - Prej menusë në cepin e sipërm djathtas, përzgjidhni **Fjalosje e re** dhe mandej **Grup i ri**, ose shtypni butonin përgjegjës në Android/iOS.
@@ -284,7 +266,6 @@ Because all members have the same rights, groups work best among **trusted frien
 - Te skena vijuese, përzgjidhni **anëtarë grupi** dhe përcaktoni një **emër grupi**. Mund të përzgjidhni edhe një **avatar grupi**.
 
 - Sapo të shkruani **mesazhin e parë** te grupi, krejt anëtarët marrin vesh për grupin e ri dhe mund të përgjigjen në të (për sa kohë që te grupi s’shkruani një mesazh i cili është i padukshëm për anëtarët).
-
 
 ### Add and remove members {#addmembers}
 
@@ -305,12 +286,10 @@ For this reason, everyone can delete any member or add new ones.
 QR code and invite link can be used to add several members.
 However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
 
-
 ### Fshiva veten padashje.
 
 Ngaqë s’jeni më anëtar i grupit, s’mund të shtoni veten sërish. 
   Megjithatë, s’ka problem, thjesht kërkojini një anëtari tjetër të grupit në një fjalosje të zakonshme t’ju shtojë sërish.
-
 
 ### S’dua t’i marr më mesazhet e një grupi.
 
@@ -334,7 +313,6 @@ or to exclude members without them noticing.
 The new group is **fully independent** from the original,
 which continues to work as before.
 
-
 ### How many members can participate in a single group?
 
 There is no strict technical limit,
@@ -344,11 +322,9 @@ As groups get larger, they can become socially unstable and may need a hierarchy
 where Delta Chat is a private messenger for chatting with [equal rights](#groups).
 See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more insights.
 
-
 ## Channels {#channels}
 
 Channels are a one-to-many tool for broadcasting messages.
-
 
 ### Subscribe to a channel
 
@@ -372,7 +348,6 @@ They will also see that you read a message unless you have read receipts disable
 If you do not want to share your main profile,
 you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
 
-
 ### Create a channel
 
 - Tap **New Chat** and choose **New Channel**.
@@ -391,7 +366,6 @@ You can see the **view count** beside each message.
 Note that this only counts subscribers who have read receipts enabled,
 so the real view count may be larger.
 
-
 ### How many subscribers can a channel have?
 
 Channels are designed for much larger audiences than [groups](#groups).
@@ -408,13 +382,11 @@ so you can change your relay at any point easily -
 your existing subscribers will not even notice.
 You only have to update the invite link you share with new subscribers in that case.
 
-
 ## Calls {#calls}
 
 Delta Chat supports one-to-one **audio calls** and **video calls**.
 
 Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
-
 
 ### Place a call
 
@@ -423,7 +395,6 @@ Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
 - This opens a small menu
   where you can choose whether to place an **Audio Call** or a **Video Call**.
 
-
 ### Accept or reject a call
 
 - When someone calls you,
@@ -431,7 +402,6 @@ Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
 
 - Tap **Accept** to answer
   or **Decline** to reject the call.
-
 
 ### During a call
 
@@ -444,7 +414,6 @@ Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
 Depending on the device, you can also select the audio output or use picture-in-picture.
 On desktop, the call is using a dedicated window
 and you can continue using the main Delta Chat window as usual.
-
 
 ### Missed calls and notifications
 
@@ -459,19 +428,16 @@ and you can continue using the main Delta Chat window as usual.
   If you do so, you will not be disturbed by any ringing notification,
   you can still pick up the call by tapping the incoming call message bubble in its chat.
 
-
 ## In-chat apps {#webxdc}
 
 You can send apps to a chat - games, editors, polls and other tools.
 This makes Delta Chat a truly extensible messenger.
-
 
 ### Where can I get in-chat apps?
 
 - In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
 
 - You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
-
 
 ### How private are in-chat apps?
 
@@ -486,7 +452,6 @@ This makes Delta Chat a truly extensible messenger.
 
 - This also means: Just like for web links, do not open apps from untrusted contacts.
 
-
 ### How can I create my own in-chat apps? {#create-xdc}
 
 - In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
@@ -499,7 +464,6 @@ This makes Delta Chat a truly extensible messenger.
 
 - If you have question, you can ask others with experience
   in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
-
 
 ## Instant message delivery and Push Notifications {#instant-delivery}
 
@@ -517,7 +481,6 @@ Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers
   including on devices that use [microG](https://microg.org)
   instead of proprietary Google code on the phone.
 
-
 ### Are Push Notifications enabled on iOS devices? Is there an alternative?
 
 Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
@@ -526,7 +489,6 @@ because Apple devices do not allow Delta Chat to fetch data in the background.
 Push notifications are automatically activated for iOS users because
 [Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
 does not expose data to Apple that it doesn't already have.
-
 
 ### Are Push notifications enabled / needed on Android devices? {#android-push}
 
@@ -544,7 +506,7 @@ you can change the following settings effecting all chat profiles:
   (see [dontkillmyapp.com](https://dontkillmyapp.com))
   and Delta Chat might not show  incoming messages
   until you manually open the app again.
-  
+
 - Force Background Connection: This is the fallback option
   if the previous options are not available or do not achieve "instant delivery".
   Enabling it causes a permanent notification on your phone
@@ -552,7 +514,6 @@ you can change the following settings effecting all chat profiles:
 
 Both "Background Connection" options are energy-efficient and
 safe to try if you experience messages arrive only with long delays.
-
 
 ### How private are Delta Chat Push Notifications? {#privacy-notifications}
 
@@ -579,7 +540,6 @@ Here is how Delta Chat apps perform Push Notification delivery:
   The central Apple/Google Push services never see any profile data (sender or receiver)
   and also never see any message content (also not in encrypted forms).
 
-
 The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
 and forgets about device-tokens as soon as Apple/Google/etc processed them,
 usually in a matter of milliseconds.
@@ -593,7 +553,6 @@ Resulting from this overall privacy design, even the seizure of a chatmail serve
 or the full seizure of the central Delta Chat notification proxy
 would not reveal private information that Push services do not already have.
 
-
 ### Why does Delta Chat integrate with centralized proprietary Apple/Google push services?
 
 Delta Chat is a free and open source decentralized messenger with free server choice,
@@ -606,13 +565,11 @@ that achieves "instant delivery" of messages for all chatmail servers
 including a potential one [you might setup yourself without our permission](https://delta.chat/chatmail#selfhosted).
 Welcome to the power of the interoperable chatmail relay network :)
 
-
-
 ## Multi-klient {#multiclient}
 
 ### A mund ta përdor Delta Chat-in në shumë pajisje njëherësh në të njëjtën kohë?
 
-Po You can use the same profile on different devices:
+Yes. You can use the same profile on different devices:
 
 - Siguroni që të dyja pajisjet të gjenden në të njëjtin rrjet Wi-Fi, ose me fill
 
@@ -629,7 +586,6 @@ Po You can use the same profile on different devices:
 Ndryshe nga mjaft shkëmbyes të tjerë mesazhesh, pas një
 shpërngulje të suksesshme, që të dyja **pajisjet janë plotësisht të pavarura.**
 Njëra pajisja s’ka nevojë për tjetrën që të funksionojë.
-
 
 ### Diagnostikim
 
@@ -665,7 +621,6 @@ Njëra pajisja s’ka nevojë për tjetrën që të funksionojë.
 - Nëse keni ende probleme, ose **s’mundeni të skanoni një kod QR**
   provoni **shpërnguljen dorazi** të përshkruar më poshtë
 
-
 ### Manual Transfer {#backup}
 
 Kjo metodë rekomandohet vetëm nëse “Shtoni Pajisje të Dytë” si përshkruhet më sipër s’funksionon.
@@ -682,7 +637,6 @@ Kjo metodë rekomandohet vetëm nëse “Shtoni Pajisje të Dytë” si përshkr
 You are now synchronized, and can use both devices for sending and receiving
 end-to-end encrypted messages with your communication partners.
 
-
 ### A ka ndonjë plan për të sjellë një Klient Web Delta Chat?
 
 - S’ka plane të afërta, por ca mendime paraprake.
@@ -696,7 +650,6 @@ end-to-end encrypted messages with your communication partners.
   Windows Desktop, ose AppImage për Linux. Mund t’i gjeni te
   [get.delta.chat](https://get.delta.chat).
 
-
 ## Advanced
 
 ### Experimental Features {#experiments}
@@ -708,7 +661,6 @@ The features may be **unstable** and may be **changed or removed**.
 
 You can find more information
 and give feedback in the [Forum](https://support.delta.chat).
-
 
 ### What are Relays? {#relays}
 
@@ -734,7 +686,6 @@ you can configure relays at **Settings → Advanced → Relays**:
 
 Adding or removing a relay will automatically inform your chat partners
 so they start or stop using a relay for chatting with you, respectively.
-
 
 ### Can I use a classic email address with Delta Chat?
 
@@ -767,7 +718,6 @@ A chat profile using a classic email address allows to to send and receive unenc
 These messages, and the chats they appear in, are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### I want to manage my own server for Delta Chat. What do you recommend?
 
 Any well behaving email server setup will do fine 
@@ -777,7 +727,6 @@ We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/rela
 [Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
 and [core Rust developments](https://github.com/chatmail/core) 
 that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
-
 
 ### What is "Send statistics to Delta Chat's developers"? {#statssending}
 
@@ -801,12 +750,9 @@ We are interested e.g. in statistics like:
 
 We will _not_ collect any personally identifiable information about you.
 
-
 ### Më interesojnë hollësitë teknike. Mund të më tregoni diçka më tepër?
 
 Shihni [Standarde të përdorur në Delta Chat]({% include standards-url %}).
-
-
 
 ## Fshehtëzim dhe Siguri {#e2ee}
 
@@ -846,7 +792,6 @@ you can send and receive messages with or without end-to-end encryption.
 Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-
 ### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
 
 Older Delta Chat versions showed a green checkmark
@@ -876,7 +821,6 @@ we always mean a whole message is encrypted,
 including all the attachments
 and attachment metadata such as filenames.
 
-
 ### A është i siguruar OpenPGP? {#openpgp-secure}
 
 Yes, Delta Chat uses a secure subset of OpenPGP
@@ -898,7 +842,6 @@ to further improve security characteristics by implementing the
 [new IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) 
 which was thankfully adopted in summer 2023. 
 
-
 ### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
 
 Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
@@ -915,7 +858,6 @@ only one part of "user outcomes",
 see also our answers to [device-seizure](#device-seizure)
 and [message-metadata](#message-metadata) questions. 
 
-
 ### A mund të preket Delta Chat-i nga EFAIL?
 
 Jo, [Delta Chat s’qe kurrë i cenueshëm nga EFAIL](https://delta.chat/en/2018-05-15-delta-chat-not-vulnerable-to-efail)
@@ -928,7 +870,6 @@ Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
 because it only decrypts `multipart/encrypted` messages
 which contain exactly one encrypted and signed part,
 as defined by the Autocrypt Level 1 specification. 
-
 
 ### Are messages marked with the mail icon exposed on the Internet? {#tls}
 
@@ -947,7 +888,6 @@ If the involved email servers support [MTA-STS](https://datatracker.ietf.org/doc
 then transport encryption will be enforced between email providers
 in which case Delta Chat communications will never be exposed in cleartext to the Internet
 even if the message was not end-to-end encrypted.
-
 
 ### Si i mbron Delta Chat-i tejtëdhënat në mesazhe? {#message-metadata}
 
@@ -974,7 +914,6 @@ with the knowledge that all their data, along with all metadata, will be deleted
 Moreover, if a device is seized then chat contacts using short-lived profiles
 can not be identified easily. 
 
-
 ### Who sees my IP Address?
 
 The used [relays](#relays) need to know your IP Address,
@@ -991,7 +930,6 @@ If you see your IP Address as a risk,
 we recommend to use a VPN for the whole system.
 Per-app options leave gaps across your system.
 For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
-
 
 ### Does Delta Chat support "Sealed Sender"? {#sealedsender}
 
@@ -1054,7 +992,6 @@ instead of the full breadth of possible algorithms allowed with OpenPGP.
 If you want to extract your OpenPGP key, there only is an expert method:
 you need to look it up in the "keypairs" SQLite table of a profile backup tar-file.
 
-
 ### A është bërë auditim i pavarur i Delta Chat-it për cenueshmëri sigurie? {#security-audits}
 
 Yes, multiple times. 
@@ -1113,7 +1050,6 @@ from most recent to older:
   Pavarësisht, disa nga këto i ndreqëm që kur përfundoi auditimi.
   Mund të lexoni [raportin e plotë këtu](../assets/blog/2019-first-security-review.pdf).
 
-
 ## Të ndryshme
 
 ### Ç’leje lyp Delta Chat-i?
@@ -1122,7 +1058,6 @@ Some features require certain permissions,
 e.g. you need to grant camera permission if you want to [scan an invite QR code](#howtoe2ee).
 
 See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
-
 
 ### Where can my friends find Delta Chat?
 
@@ -1138,7 +1073,6 @@ Delta Chat is available for all major and some minor platforms:
 - Check the **package manager** of your Linux distributions
 
 - **Android APKs** are also available on <https://github.com/deltachat/deltachat-android/releases>
-
 
 ### Si financohet zhvillimi i Delta Chat-it? 
 

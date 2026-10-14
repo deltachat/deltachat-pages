@@ -6,7 +6,6 @@ downloads: true
 
 Desktop verzia nevyžaduje Delta Chat na telefóne.
 
-
 ## Changelogs & More {#changelogs}
 
 - Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),

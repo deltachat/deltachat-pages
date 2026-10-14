@@ -16,7 +16,7 @@ lang: pt
 <a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
 </p>
 
-Mensagens instantâneas confiáveis com suporte a várias contas e vários dispositivos
+💬 Mensagens instantâneas confiáveis com suporte a várias contas e vários dispositivos
 
 ⚡️ Inscreva-se em [chatmail ralays] seguros e interoperáveis (https://chatmail.at/relays)
 
