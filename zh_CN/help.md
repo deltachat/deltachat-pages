@@ -438,7 +438,7 @@ and you can continue using the main Delta Chat window as usual.
 - 您需要了解的所有其他信息都写在
   [Webxdc 文档](https://webxdc.org/docs)。
 
-- 如果您有问题，可以在 [Delta Chat 论坛]        (https://support.delta.chat/c/webxdc/20)。
+- 如果您有问题，可以在 [Delta Chat 论坛](https://forum.delta.chat/c/webxdc/20)。
 
 ## 即时消息传递和推送通知 {#instant-delivery}
 

@@ -9,11 +9,11 @@ Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estànd
 
 - [Fedivers](https://chaos.social/web/@delta) per anuncis i retroalimentació.
 
-- [Fòrum de suport de Delta Chat](https://support.delta.chat) per a converses més extenses
+- [Fòrum](https://forum.delta.chat) per a converses més extenses
   sobre funcionalitats i per a rebre suport.
 
-- [Repositoris de Delta Chat](https://github.com/deltachat/) on podreu
-  trobar el codi de les aplicacions de DeltaChat i aquest web.
+- [Repositoris](https://github.com/deltachat/) on podreu
+  trobar el codi de les aplicacions de Delta Chat i aquest web.
 
 - Podeu trobar més enllaços a [cosmos](https://cosmos.delta.chat)
 
@@ -25,7 +25,7 @@ Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estànd
 - [Problemes de Delta Chat a Android](https://github.com/deltachat/deltachat-android/issues)
 - [Problemes amb Delta Chat d'Escriptori](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problemes amb Delta Chat a iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problemes de la biblioteca principal de Rust i dels Bindings de Python](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Problemes de la biblioteca principal de Rust i dels Bindings de Python](https://github.com/chatmail/core/issues)
 
 # Canals de comunicació de tercers
 
@@ -38,7 +38,7 @@ que poden o no seguir els nostres [Community Standards](community-standards):
 que pots seguir introduint `!delta_chat@lemmy.zip` 
 al camp de cerca de la teva aplicació del fediverse.
 
-- Un [subreddit de DeltaChat](https://old.reddit.com/r/DeltaChat/).
+- Un [subreddit de Delta Chat](https://old.reddit.com/r/DeltaChat/).
 
 Si coneixes o has creat canals addicionals,
 fes-nos-ho saber (vegeu Canals i repositoris més amunt).

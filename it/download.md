@@ -8,10 +8,10 @@ Le versioni desktop non necessitano che Delta Chat sia installato su un telefono
 
 ## Registri delle Modifiche e Altro {#changelogs}
 
-- Registri delle modifiche: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Core](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
 
 - [Client Alternativi](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ Le versioni desktop non necessitano che Delta Chat sia installato su un telefono
 
 - [Verifica Download](verify-downloads)
 
-- [Risoluzione Problemi Installazione Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
 
 - Build Anteprima: [Desktop]({% include desktop-previews-url %}),
 [Android](https://download.delta.chat/android/beta),

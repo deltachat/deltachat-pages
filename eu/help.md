@@ -460,7 +460,7 @@ zabaldu dezakezu.
 [Webxdc-en dokumentazioan](https://webxdc.org/docs) dago.
 
 - Zalantzarik baduzu, galdetu eskarmentua duten beste erabiltzaile batzuei
-[Delta Chat-en foroan](https://support.delta.chat/c/webxdc/20).
+[Delta Chat-en foroan](https://forum.delta.chat/c/webxdc/20).
 
 ## Bat-bateko mezuak eta push jakinarazpenak {#instant-delivery}
 
@@ -632,7 +632,7 @@ beste gailura eraman behar duzu.
 
 - Bigarren gailuan, hautatu **Badut profila → Berrezarri babeskopiatik**.
 iOS badarabilzu eta arazoak badituzu,
-[gida hau](https://support.delta.chat/t/import-backup-to-ios/1628) baliagarria izango zaizu.
+[gida hau](https://forum.delta.chat/t/import-backup-to-ios/1628) baliagarria izango zaizu.
 
 Lortu duzu. Bi gailuak sinkronizatuta daude, eta biak erabil ditzakezu
 zure kontaktuekin muturretik muturrera zifratutako mezuak bidali eta jasotzeko.
@@ -659,7 +659,7 @@ oraintxe lantzen ari garen funtzioak probatzeko aukera izango duzu.
 Baliteke ezaugarri horiek **ezegonkorrak** izatea eta gerora **aldatzea edo kentzea**.
 
 Informazio gehiago lortu edo iruzkinak egin nahi badituzu,
-sartu [foroan](https://support.delta.chat).
+sartu [foroan](https://forum.delta.chat).
 
 ### Zer dira erreleak? {#relays}
 
@@ -1036,7 +1036,7 @@ Hona hemen zerrenda, ordena kronologikoan:
   or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 - 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+  Chat's Rust [core](https://github.com/chatmail/core/),
   [IMAP](https://github.com/async-email/async-imap),
   [SMTP](https://github.com/async-email/async-smtp), and
   [TLS](https://github.com/async-email/async-native-tls) libraries.

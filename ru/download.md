@@ -8,10 +8,10 @@ downloads: true
 
 ## Список изменений и Другое {#changelogs}
 
-- Список изменений: [ПК](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Core](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
 
 - [Альтернативные клиенты](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ downloads: true
 
 - [Проверка загрузок](verify-downloads)
 
-- [Решение проблем установки на ПК](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
 
 - Предварительные сборки: [ПК]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),

@@ -24,4 +24,4 @@ lang: ca
 
 🔒 [Xifrat d'extrem a extrem auditat](help#security-audits) segur davant d'atacs a la xarxa i al servidor
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) programari, construït sobre [Estàndards d’Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitant [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) programari, construït sobre [Estàndards d’Internet](https://github.com/chatmail/core/blob/main/standards.md), evitant [xkcd927](https://xkcd.com/927/) :)

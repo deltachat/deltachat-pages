@@ -8,10 +8,10 @@ A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un t
 
 ## Registre de canvis i més {#changelogs}
 
-- Registre de canvis: [Escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Registre de canvis: [Escriptori](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Nucli](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Nucli](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
 
 - [Clients alternatius](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ A les versions d'escriptori no els cal que Delta Chat estigui instal·lat a un t
 
 - [Verifiqueu les baixades](verify-downloads)
 
-- [Resolució de problemes d’instal·lació a l’escriptori](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Resolució de problemes d’instal·lació a l’escriptori](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
 
 - Construccions preliminars: [Escriptori]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),

@@ -389,7 +389,7 @@ Dies macht Delta Chat zu einem wirklich erweiterbaren Messenger.
   [Webxdc-Dokumentation](https://webxdc.org/docs) beschrieben.
 
 - Wenn du Fragen hast, kannst du andere mit mehr Erfahrung
-im [Forum](https://support.delta.chat/c/webxdc/20) ansprechen.
+im [Forum](https://forum.delta.chat/c/webxdc/20) ansprechen.
 
 ## Sofortige Nachrichtenzustellung und Push-Benachrichtigungen {#instant-delivery}
 
@@ -535,7 +535,7 @@ Diese Methode wird nur empfohlen, wenn "Zweites Gerät hinzufügen", wie oben be
 - Auf dem alten Gerät, gehe zu **Einstellungen → Chats und Medien → Chats auf externem Speicher speichern**. Gib deine PIN, dein Muster oder dein Passwort zum Entsperren des Bildschirms ein. Anschließend kannst du auf "Backup starten" klicken. Dadurch wird die Backup-Datei auf deinem Gerät gespeichert. Jetzt musst du sie auf das andere Gerät übertragen.
 
 - Auf dem neuen Gerät, auf dem Anmeldebildschirm, wähle **Ich habe bereits ein Profil → Wiederherstellen aus Backup**. Nach dem Import sind deine Chats, Medien und Einstellungen auf das neue Gerät kopiert.
-Wenn du iOS verwendest und auf Schwierigkeiten stößt, hilft dir vielleicht [diese Anleitung](https://support.delta.chat/t/import-backup-to-ios/1628).
+Wenn du iOS verwendest und auf Schwierigkeiten stößt, hilft dir vielleicht [diese Anleitung](https://forum.delta.chat/t/import-backup-to-ios/1628).
 
 Du bist nun synchronisiert und kannst beide Geräte zum Senden und Empfangen von Ende-zu-Ende-verschlüsselten-Nachrichten mit deinen Kommunikationspartnern verwenden.
 
@@ -554,7 +554,7 @@ kannst du unfertige Features ausprobieren, an denen gearbeitet wird.
 
 Die Features können **instabil** sein und **geändert oder entfernt** werden.
 
-Du findest weitere Informationen im [Forum](https://support.delta.chat), wo du auch Feedback geben kannst.
+Du findest weitere Informationen im [Forum](https://forum.delta.chat), wo du auch Feedback geben kannst.
 
 ### Was sind Relays? {#relays}
 
@@ -883,7 +883,7 @@ Es wurden keine kritischen Probleme gefunden, aber zwei Probleme mit hohem Schwe
 Einige Features erfordern bestimmte Berechtigungen.
 So muss z.B. der Kamerazugriff gewährt werden, wenn du einen [QR-Code scannen](#howtoe2ee) möchtest.
 
-See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
+Eine ausführliche Übersicht findest du in der [Datenschutzerklärung](https://delta.chat/privacy#app-permissions).
 
 ###  Wo können meine Freunde Delta Chat finden?
 

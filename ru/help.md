@@ -1052,7 +1052,7 @@ Delta Chat генерирует безопасные ключи OpenPGP в со�
 Некоторые функции требуют определенных разрешений,
 например, вам нужно предоставить разрешение на использование камеры, если вы хотите [отсканировать QR-код приглашения](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
+Подробная информация в [Политике конфиденциальности](https://delta.chat/en/gdpr#app-permissions).
 
 ### Где мои друзья могут найти Delta Chat?
 

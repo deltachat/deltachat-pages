@@ -24,4 +24,4 @@ lang: sq
 
 🔒 [Fshehtëzim skaj-më-skaj i audituar](help#security-audits) i parrezik kundrejt sulmesh rrjeti dhe shërbyesish
 
-👉 Program [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software), ngritur mbi [Standarde Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), që shmangin [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/chatmail/core/blob/main/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)

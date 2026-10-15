@@ -389,7 +389,7 @@ si confies amb la gent amb qui xateges, pots confiar amb la app de xat.
 
 - Tot el que necessites saber està escrit a la [documentació de Webxdc](https://webxdc.org/docs).
 
-- Si tens cap pregunta, pots preguntar a altres persones amb experiència al [Fòrum de Delta Chat](https://support.delta.chat/c/webxdc/20).
+- Si tens cap pregunta, pots preguntar a altres persones amb experiència al [Fòrum de Delta Chat](https://forum.delta.chat/c/webxdc/20).
 
 ## Lliurament de missatges instantanis i Notificacions Push {#instant-delivery}
 
@@ -508,7 +508,7 @@ Aquest mètode només es recomana si «Afegeix un segon dispositiu», tal com s'
 
 - Al dispositiu nou, tria **Ja tinc un perfil → Restaurar còpia de seguretat**.
   Si feu servir iOS i teniu dificultats,
-  [aquesta guia](https://support.delta.chat/t/import-backup-to-ios/1628) et pot ajudar.
+  [aquesta guia](https://forum.delta.chat/t/import-backup-to-ios/1628) et pot ajudar.
 
 Ja esteu sincronitzats i podeu utilitzar els dos dispositius per enviar i rebre missatges xifrats d'extrem a extrem amb els vostres contactes.
 
@@ -526,7 +526,7 @@ A **Configuració → Avançat → Funcions experimentals** podeu provar les fun
 
 Les característiques poden ser **inestables** i poden ser **canviades o eliminades**.
 
-Pots trobar més informació i donar la teva opinió al [Fòrum](https://support.delta.chat).
+Pots trobar més informació i donar la teva opinió al [Fòrum](https://forum.delta.chat).
 
 ### Què són els retransmissors? {#relays}
 
@@ -782,7 +782,7 @@ Els problemes exposats en aquests avisos s'han solucionat i formen part de les v
 - Març de 2023, [Cure53](https://cure53.de) va analitzar tant el xifratge de transport de les connexions de xarxa de Delta Chat com una configuració reproduïble de servidor de correu, tal com [es recomana en aquest lloc](https://delta.chat/serverguide).
   Podeu llegir més sobre l'auditoria [al nostre blog](https://delta.chat/en/2023-03-27-third-independent-security-audit) o llegir [l'informe complet aquí](../assets/blog/MER-01-report.pdf).
 
-- 2020, [Include Security](https://includesecurity.com) va analitzar el [nucli](https://github.com/deltachat/deltachat-core-rust/) de Rust de Delta Chat,
+- 2020, [Include Security](https://includesecurity.com) va analitzar el [nucli](https://github.com/chatmail/core/) de Rust de Delta Chat,
   les biblioteques d'[IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) i [TLS](https://github.com/async-email/async-native-tls).
   No es van trobar problemes de gravetat crítica o alta.
   L'informe va assenyalar algunes vulnerabilitats de gravetat mitjana:
@@ -804,7 +804,7 @@ Els problemes exposats en aquests avisos s'han solucionat i formen part de les v
 Algunes funcions requereixen certs permisos,
 p. ex., cal concedir el permís de càmera si es vol [escanejar un codi QR d'invitació](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
+Consulta [Política de privadesa](https://delta.chat/privacy#app-permissions) per a més detalls.
 
 ### On poden trobar Delta Chat els meus amics?
 

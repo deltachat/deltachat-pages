@@ -8,10 +8,10 @@ Versionet desktop s’kanë nevojë që Delta Chat të jetë i instaluar në nj�
 
 ## Regjistra Ndryshimesh & Etj. {#changelogs}
 
-- Regjistra ndryshimesh: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Core](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
 
 - [Klientë Alternativë](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ Versionet desktop s’kanë nevojë që Delta Chat të jetë i instaluar në nj�
 
 - [Verifikim Shkarkimesh](verify-downloads)
 
-- [Diagnostikim Instalimi Në Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
 
 - Montime Paraparje: [Desktop]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),

@@ -24,4 +24,4 @@ lang: cs
 
 🔒 [Auditované koncové šifrování](help#security-audits) zabezpečené proti útokům na síť i na servery
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software postavený na [internetových standardech](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md) - vyhýbáme se [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software postavený na [internetových standardech](https://github.com/chatmail/core/blob/main/standards.md) - vyhýbáme se [xkcd927](https://xkcd.com/927/) :)

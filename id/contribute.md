@@ -21,11 +21,11 @@ mencari kode untuk aplikasi DeltaChat dan website ini.
 
 # Terjemahan dan pelaporan bug
 
-- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Terjemahan di Transifex](https://www.transifex.com/delta-chat/public/)
+- [Delta Chat Masalah di Android](https://github.com/deltachat/deltachat-android/issues)
+- [Delta Chat Masalah di Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Delta Chat Masalah di iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Masalah Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
 
 # Third party communication channels 
 
@@ -39,7 +39,7 @@ which may or may not follow our [Community Standards](community-standards):
   which you can follow by putting `!delta_chat@lemmy.zip` 
   into the search field of your fediverse app.
 
-- A [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- A [Delta Chat subreddit](https://old.reddit.com/r/DeltaChat/).
 
 If you know of, or setup yourself, additional channels,
 please let us know (see Channels and repositories above).

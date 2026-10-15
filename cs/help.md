@@ -462,7 +462,7 @@ This makes Delta Chat a truly extensible messenger.
   [Webxdc documentation](https://webxdc.org/docs).
 
 - If you have question, you can ask others with experience
-  in the [Delta Chat Forum](https://support.delta.chat/c/webxdc/20).
+  in the [Forum](https://forum.delta.chat/c/webxdc/20).
 
 ## Instant message delivery and Push Notifications {#instant-delivery}
 
@@ -631,7 +631,7 @@ This method is only recommended if "Add Second Device" as described above does n
 
 - On the new device, select **I Already Have a Profile → Restore from Backup**.
   If you use iOS and encounter difficulties,
-  [this guide](https://support.delta.chat/t/import-backup-to-ios/1628) might help you.
+  [this guide](https://forum.delta.chat/t/import-backup-to-ios/1628) might help you.
 
 You are now synchronized, and can use both devices for sending and receiving
 end-to-end encrypted messages with your communication partners.
@@ -656,7 +656,7 @@ you can try out features we are working on.
 The features may be **unstable** and may be **changed or removed**.
 
 You can find more information
-and give feedback in the [Forum](https://support.delta.chat).
+and give feedback in the [Forum](https://forum.delta.chat).
 
 ### What are Relays? {#relays}
 
@@ -1024,7 +1024,7 @@ from most recent to older:
   or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 - 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+  Chat's Rust [core](https://github.com/chatmail/core/),
   [IMAP](https://github.com/async-email/async-imap),
   [SMTP](https://github.com/async-email/async-smtp), and
   [TLS](https://github.com/async-email/async-native-tls) libraries.

@@ -12,7 +12,7 @@ lang: uk
 - [Delta Chat форум підтримки](https://support.delta.chat) більше
   дискусії для нових можливостей і отримання техпідтримки.
 
-- [Репозиторії Delta Chat](https://github.com/deltachat/) де ви можете знайти початковий код додатків DeltaChat та цього веб-сайту.
+- [Репозиторії Delta Chat](https://github.com/deltachat/) де ви можете знайти початковий код додатків Delta Chat та цього веб-сайту.
 
 - Більше посилань можна знайти в [космосі](https://cosmos.delta.chat)
 
@@ -34,6 +34,6 @@ lang: uk
 
 - [Спільнота Lemmy](https://lemmy.zip/c/delta_chat) яку ви можете зафоловити помістивши `!delta_chat@lemmy.zip` у поле пошуку вашого fediverse-застосунку.
 
-- [Сабредіт DeltaChat](https://old.reddit.com/r/DeltaChat/).
+- [Сабредіт Delta Chat](https://old.reddit.com/r/DeltaChat/).
 
 Якщо ви знаєте про інші канали або створили їх самостійно, будь ласка, повідомте нам про це (див. Канали та репозиторії вище).

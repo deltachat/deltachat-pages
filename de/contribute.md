@@ -9,8 +9,7 @@ Für Community-Interaktionen rund um Delta Chat lesen Sie bitte unsere [Gemeinsc
 
 - [Fediverse](https://chaos.social/web/@delta) für Ankündigungen und Feedback.
 
-- [Delta-Chat-Support-Forum](https://support.delta.chat) für eine breitere
-Diskussion über Features und um Unterstützung zu erhalten.
+- [Delta-Chat-Support-Forum](https://forum.delta.chat) für eine breitere Diskussion über Features und für gegenseitige Hilfe.
 
 - [Delta-Chat-Quellen](https://github.com/deltachat/) in denen Sie den Code für die Delta Chat-Anwendungen und diese Website finden können.
 
@@ -38,7 +37,7 @@ die unsere [Community-Standards](community-standards) befolgen können oder auch
 geben Sie `!delta_chat@lemmy.zip` 
 in das Suchfeld Ihrer Fediverse-App ein.
 
-- Ein [DeltaChat-Subreddit](https://old.reddit.com/r/DeltaChat/).
+- Ein [Delta Chat-Subreddit](https://old.reddit.com/r/DeltaChat/).
 
 Wenn Sie von zusätzlichen Kanälen wissen oder selbst welche einrichten,
 lassen Sie es uns bitte wissen (siehe Kanäle und Repositorys oben).

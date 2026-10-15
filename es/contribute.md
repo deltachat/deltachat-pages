@@ -9,7 +9,7 @@ Para las interacciones comunitarias en torno a Delta Chat, por favor lee nuestra
 
 - [Fediverso](https://chaos.social/web/@delta) para anuncios y comentarios.
 
-- [Foro de soporte de Delta Chat](https://support.delta.chat) para discusiones más amplias sobre las funcionalidades y para obtener ayuda.
+- [Foro de soporte de Delta Chat](https://forum.delta.chat) para discusiones más amplias sobre las funcionalidades y para obtener ayuda.
 
 - [Repositorios de Delta Chat](https://github.com/deltachat/) donde puedes encontrar el código de las aplicaciones de Delta Chat y de esta página del web.
 
@@ -23,7 +23,7 @@ Para las interacciones comunitarias en torno a Delta Chat, por favor lee nuestra
 - [Errores y mejoras para Delta Chat de Android](https://github.com/deltachat/deltachat-android/issues)
 - [Errores y mejoras para Delta Chat de escritorio](https://github.com/deltachat/deltachat-desktop/issues)
 - [Errores y mejoras para Delta Chat de iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Errores y mejoras para la biblioteca del core y las interfaces de Python](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Errores y mejoras para la biblioteca del core y las interfaces de Python](https://github.com/chatmail/core/issues)
 
 # Canales de comunicación de terceras personas
 
@@ -35,7 +35,7 @@ Los siguientes canales relacionados con Delta Chat son creados por terceras pers
   el la que puedes unirte para escribir `!delta_chat@lemmy.zip` 
   en la búsqueda de tu aplicación del Fediverse.
 
-- Un [DeltaChat subreddit](https://old.reddit.com/r/DeltaChat/).
+- Un [Delta Chat subreddit](https://old.reddit.com/r/DeltaChat/).
 
 Si conoce o ha creado otros canales, comuníquenoslo,
 háznoslo saber (véase Canales y repositorios más arriba).
