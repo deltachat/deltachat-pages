@@ -604,9 +604,9 @@ Este método só se recomenda se "Engadir segundo dispositivo", tal como se desc
  copia de seguridade". Isto garda o ficheiro de copia de seguridade no teu dispositivo. Agora tes que transferilo
  ao outro dispositivo dalgún xeito.
 
-- On the new device, select **I Already Have a Profile → Restore from Backup**.
-  If you use iOS and encounter difficulties,
-  [this guide](https://forum.delta.chat/t/import-backup-to-ios/1628) might help you.
+- No novo dispositivo, selecciona **Xa teño un perfil → Restaurar desde copia de seguridade**.
+Se usas iOS e tes dificultades,
+[esta guía](https://support.delta.chat/t/import-backup-to-ios/1628) pode axudarche.
 
 Xa se completou a sincronización e podes usar ambos dispositivos para enviar e recibir mensaxes cifradas de extremo a extremo co resto de persoas.
 
@@ -630,8 +630,7 @@ En **Configuración → Avanzado → Funcións experimentais**
 
 As características poden ser **inestables** e poden ser **cambadas ou eliminadas**.
 
-You can find more information
-and give feedback in the [Forum](https://forum.delta.chat).
+Podes atopar máis información e dar a túa opinión no [Foro](https://support.delta.chat).
 
 ### Que son os repetidores? {#relays}
 
@@ -973,19 +972,14 @@ de Criptografía Aplicada da ETH Zuerich e corriximos todos os problemas sinalad
   Podes ler máis sobre a auditoría [no noso blogue](https://delta.chat/en/2023-03-27-third-independent-security-audit)
   ou ler o [informe completo aquí](../assets/blog/MER-01-report.pdf).
 
-- 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/chatmail/core/),
+- 2020, [Include Security](https://includesecurity.com) analizou o [núcleo de Rust de Delta Chat](https://github.com/deltachat/deltachat-core-rust/),
   [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+  [SMTP](https://github.com/async-email/async-smtp), e as bibliotecas [TLS](https://github.com/async-email/async-native-tls).
+  Non se atoparon vulnerabilidades de gravidade crítica ou alta.
+  O informe sinalou varias debilidades de gravidade media:
+  estas non supoñen unha ameaza por si mesmas para as persoas usuarias de Delta Chat
+  porque dependen do contorno no que se usa Delta Chat.
+  Por razóns de uso e compatibilidade, non podemos mitigar todas elas e decidimos ofrecer recomendacións de seguridade ás persoas ameazadas. Podes ler o [informe completo aquí](../assets/blog/2020-second-security-review.pdf).
 
 - 2019, [Include Security](https://includesecurity.com) analizou
   as bibliotecas [PGP](https://github.com/rpgp/rpgp) e [RSA](https://github.com/RustCrypto/RSA) de Delta Chat.
@@ -1001,7 +995,7 @@ Tamén se revelou un de gravidade media e algúns problemas de menor gravidade, 
 Algunhas funcións requiren certos permisos,
 por exemplo, necesitas conceder o permiso de cámara se queres [escanear un código QR de convite](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
+Véxase a [política de privacidade](https://delta.chat/en/gdpr#app-permissions) para unha explicación detallada.
 
 ### Onde poden atopar Delta Chat as miñas amizades?
 

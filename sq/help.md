@@ -1028,19 +1028,17 @@ from most recent to older:
   Mund të lexoni më tepër rreth auditimit [në blogun tonë](https://delta.chat/en/2023-03-27-third-independent-security-audit),
   ose të lexoni [raportin e plotë këtu](../assets/blog/MER-01-report.pdf).
 
-- 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/chatmail/core/),
-  [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+- Më 2020-n, [Include Security](https://includesecurity.com) analizoi [bazën](https://github.com/deltachat/deltachat-core-rust/)
+  në Rust të Delta Chat-it, si dhe bibliotekat [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp)
+  dhe [TLS](https://github.com/async-email/async-native-tls).
+  S’gjeti ndonjë problem kritik apo të rëndësisë së madhe.
+  Raporti ngriti pak dobësi të rëndësisë mesatare -
+  ato në vetvete s’përbëjnë kërcënim për përdoruesit e Delta Chat-it
+  ngaqë varen në mjedisin në të cilin përdoret Delta Chat-i.
+  Për arsye përputhjeje dhe përdorimi,
+  s’mund t’i shmangim krejt ato
+  dhe vendosëm të ofrojmë rekomandime sigurie për përdoruesit e kërcënuar.
+  Mund të lexoni [raportin e plotë këtu](../assets/blog/2020-second-security-review.pdf).
 
 - Më 2019-n, [Include Security](https://includesecurity.com) analizoi libraritë
   [PGP](https://github.com/rpgp/rpgp) dhe

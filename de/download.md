@@ -8,10 +8,10 @@ Die Desktop-Versionen erfordern keine Installation von Delta Chat auf einem Mobi
 
 ## Changelogs & mehr {#changelogs}
 
-- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
+- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
+  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 - [Alternative Anwendungen](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ Die Desktop-Versionen erfordern keine Installation von Delta Chat auf einem Mobi
 
 - [Downloads überprüfen](verify-downloads)
 
-- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
+- [Desktop-Installations-Fehlersuche](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
 - Previews: [Desktop]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),

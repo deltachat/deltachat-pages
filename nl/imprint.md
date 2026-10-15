@@ -17,4 +17,4 @@ Amtsgericht Freiburg: HRB709589
 VAT: DE814082730  
 Bestuursvoorzitter: Holger Krekel
 
-[Website Privacy Policy](gdpr-website)
+[Privacybeleid van website](gdpr-website)

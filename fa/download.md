@@ -8,10 +8,10 @@ downloads: true
 
 ## گزارش تغییرات {#changelogs}
 
-- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
-  [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
-  [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
+* [ نسخهٔ رایانه](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)
+* [اندروید](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)
+* [آی‌او‌اس](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)
+* [هسته](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
 
 - [کارخواه‌های جایگزین](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ downloads: true
 
 - [صحت‌سنجی دریافت‌ها](verify-downloads)
 
-- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
+- [عیب‌یابی نصب نسخهٔ رایانه](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
 
  - نسخه‌های آزمایشی:‌ [نسخهٔ رایانه]({% include desktop-previews-url %})،
 [اندروید](https://download.delta.chat/android/beta)

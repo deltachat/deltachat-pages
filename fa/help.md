@@ -1009,19 +1009,19 @@ OpenPGP به‌خودی‌خود ناامن نیست.
   می‌توانید دربارهٔ بررسی بیشتر [در بلاگ ما](https://delta.chat/en/2023-03-27-third-independent-security-audit) بخوانید
   یا [گزارش کامل را اینجا](../assets/blog/MER-01-report.pdf) بخوانید.
 
-- 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/chatmail/core/),
-  [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+- ۲۰۲۰، [Include Security](https://includesecurity.com)
+  [هستهٔ Rust دلتاچت](https://github.com/deltachat/deltachat-core-rust/)،
+  [IMAP](https://github.com/async-email/async-imap)،
+  [SMTP](https://github.com/async-email/async-smtp)، و
+  کتابخانه‌های [TLS](https://github.com/async-email/async-native-tls) را تحلیل کرد.
+  هیچ مسئلهٔ بحرانی یا با شدت بالا نیافت.
+  گزارش چند ضعف با شدت متوسط مطرح کرد -
+  آنها به‌خودی‌خود تهدیدی برای کاربران دلتاچت نیستند
+  چون به محیطی که دلتاچت در آن استفاده می‌شود وابسته هستند.
+  به دلایل قابلیت استفاده و هم‌سازی،
+  ما نمی‌توانیم همهٔ آنها را کاهش دهیم
+  و تصمیم گرفتیم توصیه‌های امنیتی به کاربران در معرض خطر ارائه دهیم.
+  می‌توانید [گزارش کامل را اینجا](../assets/blog/2020-second-security-review.pdf) بخوانید.
 
 - ۲۰۱۹، [Include Security](https://includesecurity.com) کتابخانه‌های [PGP](https://github.com/rpgp/rpgp) و
   [RSA](https://github.com/RustCrypto/RSA) دلتاچت را تحلیل کرد.

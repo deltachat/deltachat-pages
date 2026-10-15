@@ -3,7 +3,7 @@ title: Delta Chat, dé veilige, gedecentraliseerde berichtenapp
 lang: nl
 ---
 
-# Decentralized & Secure Messaging {#homepage-heading}
+# Veilige, gedecentraliseerde berichtenapp {#homepage-heading}
 
 <div style="text-align: center">
 <picture>
@@ -13,7 +13,7 @@ lang: nl
 </div>
 
 <p style="text-align: center; margin-top: 0!important">
-<a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
+<a href="https://get.delta.chat" class="download-btn">Download Delta Chat</a>
 </p>
 
 💬 Betrouwbare communicatie met ondersteuning voor meerdere accounts en apparaten
