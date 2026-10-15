@@ -24,4 +24,4 @@ lang: ru
 
 🔒 [Проверенное сквозное шифрование](help#security-audits) - защищённость от сетевых и серверных атак
 
-👉 [Свободное и ](https://en.wikipedia.org/wiki/Free_software)[открытое программное обеспечение](https://en.wikipedia.org/wiki/Open-source_software) построенное на [Стандартах Интернета](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), избегающее [xkcd927](https://xkcd.com/927/) :)
+👉 [Свободное и ](https://en.wikipedia.org/wiki/Free_software)[открытое программное обеспечение](https://en.wikipedia.org/wiki/Open-source_software) построенное на [Стандартах Интернета](https://github.com/chatmail/core/blob/main/standards.md), избегающее [xkcd927](https://xkcd.com/927/) :)

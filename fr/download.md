@@ -8,10 +8,10 @@ L'installation de Delta Chat sur le téléphone n'est pas nécessaire pour utili
 
 ## Journaux des modifications & plus {#changelogs}
 
-- Journaux des modifications : [Ordinateur](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Core](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
 
 - [Clients alternatifs](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ L'installation de Delta Chat sur le téléphone n'est pas nécessaire pour utili
 
 - [Vérifier les téléchargements](verify-downloads)
 
-- [Dépannez votre installation sur ordinateur](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
 
 - Preview Builds: [Desktop]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),

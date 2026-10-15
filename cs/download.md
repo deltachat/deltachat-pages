@@ -8,10 +8,10 @@ Verze pro počítače nevyžaduje instalaci aplikace Delta Chat na mobilní tele
 
 ## Seznamy změn a další {#changelogs}
 
-- Seznamy změn: [PC](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md),
+- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
   [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
   [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
-  [Jádro](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+  [Core](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
 
 - [Alternativní klienti](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ Verze pro počítače nevyžaduje instalaci aplikace Delta Chat na mobilní tele
 
 - [Ověření stažených souborů](verify-downloads)
 
-- [Řešení potíží při instalaci na počítač](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
 
 - Testovací vydání: [PC]({% include desktop-previews-url %}),
   [Android](https://download.delta.chat/android/beta),

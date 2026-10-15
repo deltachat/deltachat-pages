@@ -452,7 +452,7 @@ Esto convierte a Delta Chat en una aplicación de mensajería realmente ampliabl
 la [documentación de Webxdc](https://webxdc.org/docs)
 
 - Si tienes alguna duda, puedes preguntar a otras personas con experiencia
-  en el [foro de Delta Chat ](https://support.delta.chat/c/webxdc/20).
+  en el [foro de Delta Chat ](https://forum.delta.chat/c/webxdc/20).
 
 ## Entrega de mensajes instantáneos y notificaciones Push {#instant-delivery}
 
@@ -618,9 +618,9 @@ Este método solo se recomienda si el método "Añadir un segundo dispositivo" d
   copia de seguridad". De este modo, el archivo de copia de seguridad se guardará en tu dispositivo. Ahora tienes que transferirlo
   al otro dispositivo de alguna forma.
 
-- En el nuevo dispositivo, selecciona **Ya tengo un perfil → Restaurar desde una copia de seguridad**.
-  Si utilizas iOS y tienes dificultades,
-  [esta guía](https://support.delta.chat/t/import-backup-to-ios/1628) podría resultarte útil.
+- On the new device, select **I Already Have a Profile → Restore from Backup**.
+  If you use iOS and encounter difficulties,
+  [this guide](https://forum.delta.chat/t/import-backup-to-ios/1628) might help you.
 
 Ya estás sincronizado, y puedes utilizar ambos dispositivos para enviar y recibir
 mensajes encriptados de extremo a extremo con tus compañeros.
@@ -646,7 +646,7 @@ puedes probar las funcionalidades en las que estamos trabajando.
 Estas funcionalidades pueden ser **inestables** y pueden ser **modificadas o eliminadas**.
 
 Puedes encontrar más información
-y dejar tus comentarios en el [Foro](https://support.delta.chat).
+y dejar tus comentarios en el [Foro](https://forum.delta.chat).
 
 ### ¿Qué son los retransmisores? {#relays}
 
@@ -1009,7 +1009,7 @@ from most recent to older:
   or read the [full report here](../assets/blog/MER-01-report.pdf).
 
 - 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
+  Chat's Rust [core](https://github.com/chatmail/core/),
   [IMAP](https://github.com/async-email/async-imap),
   [SMTP](https://github.com/async-email/async-smtp), and
   [TLS](https://github.com/async-email/async-native-tls) libraries.

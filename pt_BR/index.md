@@ -24,4 +24,4 @@ lang: pt_BR
 
 🔒 [Criptografia auditada](help#security-audits) segura contra ataques à rede e ao servidor
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, desenvolvido com base nos [Padrões da Internet](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), evitando o [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/chatmail/core/blob/main/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)

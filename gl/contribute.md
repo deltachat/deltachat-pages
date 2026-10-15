@@ -12,7 +12,8 @@ Para as interaccións na comunidade de Delta Chat, por favor le as nosas [Normas
 - [Foro de apoio de Delta Chat](https://support.delta.chat) para discusións máis amplas
 das funcións e obter apoio.
 
-- [Repositorios de Delta Chat](https://github.com/deltachat/) onde podes atopar o código das aplicacións de Delta Chat e deste sitio web.
+- [repositorios Delta Chat](https://github.com/deltachat/) onde podes 
+  atopar o código da app DeltaChat e este sitio web.
 
 - Pódense atopar máis ligazóns en [cosmos](https://cosmos.delta.chat)
 
@@ -20,11 +21,11 @@ das funcións e obter apoio.
 
 # Traducións e informes de erros
 
-- [Traducións en Transifex](https://explore.transifex.com/delta-chat/)
-- [Problemas de Delta Chat para Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problemas de Delta Chat para escritorio](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problemas de Delta Chat en iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problemas coa Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traducións en Transifex](https://www.transifex.com/delta-chat/public/)
+- [Problemas Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Problemas Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problemas Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Problemas entre Rust Core Library e Python](https://github.com/deltachat/deltachat-core-rust/issues)
 
 # Canles de comunicación de terceiros 
 
@@ -36,6 +37,6 @@ Os seguintes canais de comunicación relacionados con Delta Chat son xestionados
   á que podes seguir poñendo `!delta_chat@lemmy.zip` 
   no campo de busca da túa aplicación do fediverse.
 
-- Un [subreddit de DeltaChat](https://old.reddit.com/r/DeltaChat/).
+- A [Delta Chat subreddit](https://old.reddit.com/r/DeltaChat/).
 
 Se coñeces ou creas ti mesmo canles adicionais, por favor, fainos saber (ver Canles e repositorios máis arriba).

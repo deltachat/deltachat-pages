@@ -663,7 +663,7 @@ Problemy opisane w tych ostrzeżeniach zostały naprawione i są częścią wyda
 
 Niektóre funkcje wymagają określonych uprawnień, np. musisz udzielić pozwolenia na korzystanie z aparatu, aby [zeskanować kod QR zaproszenia](#howtoe2ee).
 
-See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
+Szczegółowe informacje znajdują się w [Polityce prywatności](https://delta.chat/en/gdpr#app-permissions).
 
 ### Gdzie moi znajomi mogą znaleźć Delta Chat?
 

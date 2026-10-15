@@ -24,4 +24,4 @@ lang: uk
 
 🔒 [Перевірене наскрізне шифрування](help#security-audits) захищене від мережевих та серверних атак
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) програмне забезпечення, побудоване на [інтернет-стандартах](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), уникаючи [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) програмне забезпечення, побудоване на [інтернет-стандартах](https://github.com/chatmail/core/blob/main/standards.md), уникаючи [xkcd927](https://xkcd.com/927/) :)

@@ -24,4 +24,4 @@ lang: sk
 
 🔒 [Audited end-to-end encryption](help#security-audits) safe against network and server attacks
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/chatmail/core/blob/main/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)

@@ -12,7 +12,7 @@ Para as interações da comunidade em torno do Delta Chat, leia as nossas [Norma
 - [Fórum do Delta Chat](https://support.delta.chat) para discussões
   abrangentes, funcionalidades e ajuda.
 
-- [Repositórios do DeltaChat](https://github.com/deltachat/) onde você pode   encontrar o código-fonte dos aplicativos do DeltaChat e deste site.
+- [Repositórios do Delta Chat](https://github.com/deltachat/) onde você pode  encontrar o código dos aplicativos DeltaChat e deste website.
 
 - Mais links podem ser encontrados no [cosmo](https://cosmos.delta.chat)
 
@@ -21,8 +21,8 @@ Para as interações da comunidade em torno do Delta Chat, leia as nossas [Norma
 # Traduções e Relatórios de Bug
 
 - [Traduções no Transifex](https://explore.transifex.com/delta-chat/) 
-- [Issues do Delta Chat no Android](https://github.com/deltachat/deltachat-android/issues)
-- [Issues do Delta Chat no desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Issues do Delta Chat no Android](https://github.com/deltachat/deltachat-android/issues) 
+- [Issues do Delta Chat no desktop](https://github.com/deltachat/deltachat-desktop/issues) 
 - [Issues do Delta Chat no iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Issues da Biblioteca Principal Rust + Bindings Python](https://github.com/deltachat/deltachat-core-rust/issues)
 

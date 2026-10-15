@@ -707,7 +707,7 @@ Delta Chat генерує безпечні ключі OpenPGP відповідн
 
 Для використання деяких функцій потрібні певні дозволи, наприклад, якщо ви хочете [відсканувати QR-код запрошення](#howtoe2ee), вам потрібно надати дозвіл на використання камери.
 
-See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
+Дивіться [політику конфіденційності](https://delta.chat/en/gdpr#24-app-permissions) для детального огляду.
 
 ### Де мої друзі можуть знайти Delta Chat?
 

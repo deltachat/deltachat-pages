@@ -1012,19 +1012,19 @@ Connessioni di rete di Delta Chat e una configurazione del server di posta ripro
 Puoi leggere ulteriori informazioni sull'audit [sul nostro blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
 o leggere il [rapporto completo qui](../assets/blog/MER-01-report.pdf).
 
-- Nel 2020, [Include Security](https://includesecurity.com) ha analizzato il Delta
-Chat's Rust [core](https://github.com/deltachat/deltachat-core-rust/),
-[IMAP](https://github.com/async-email/async-imap),
-[SMTP](https://github.com/async-email/async-smtp) e
-[TLS](https://github.com/async-email/async-native-tls) librerie.
-Non ha rilevato problemi critici o di elevata gravità.
-Il rapporto ha sollevato alcuni punti deboli di media gravità:
-da soli non rappresentano una minaccia per gli utenti di Delta Chat
-perché dipendono dall'ambiente in cui viene utilizzato Delta Chat.
-Per motivi di usabilità e compatibilità,
-non possiamo mitigarli tutti
-e ha deciso di fornire consigli sulla sicurezza agli utenti minacciati.
-Puoi leggere il [rapporto completo qui](../assets/blog/2020-second-security-review.pdf).
+- 2020, [Include Security](https://includesecurity.com) analyzed Delta
+  Chat's Rust [core](https://github.com/chatmail/core/),
+  [IMAP](https://github.com/async-email/async-imap),
+  [SMTP](https://github.com/async-email/async-smtp), and
+  [TLS](https://github.com/async-email/async-native-tls) libraries.
+  It did not find any critical or high-severity issues.
+  The report raised a few medium-severity weaknesses -
+  they are no threat to Delta Chat users on their own
+  because they depend on the environment in which Delta Chat is used.
+  For usability and compatibility reasons,
+  we can not mitigate all of them
+  and decided to provide security recommendations to threatened users.
+  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
 
 - Nel 2019, [Include Security](https://includesecurity.com) ha analizzato le librerie
 [PGP](https://github.com/rpgp/rpgp) e

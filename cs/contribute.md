@@ -9,7 +9,7 @@ Před interakcí s komunitou okolo aplikace Delta Chat si, prosíme, nejprve př
 
 - [Fediverse](https://chaos.social/web/@delta) pro oznámení a zpětnou vazbu.
 
-- [Fórum podpory Delta Chat](https://support.delta.chat) pro veřejnou
+- [Fórum](https://forum.delta.chat) pro veřejnou
 diskuzi o funkcích a pro získání podpory.
 
 - [Repozitáře aplikací Delta Chat](https://github.com/deltachat/) kde najdete
@@ -21,11 +21,11 @@ diskuzi o funkcích a pro získání podpory.
 
 # Překlady a hlášení bugů
 
-- [Translations on Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
-- [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Překlady na Transifex](https://explore.transifex.com/delta-chat/)
+- [Problémy s Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Problémy s Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Problémy s Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Problémy s Rust Core Library + Python Bindings](https://github.com/chatmail/core/issues)
 
 # Komunikační kanály třetích stran
 
@@ -39,7 +39,7 @@ které se mohou, ale nemusí řídit našimi [Standardy komunity](community-stan
   kterou můžete sledovat zadáním `!delta_chat@lemmy.zip`
   do vyhledávacího pole vaší fediverse aplikace.
 
-- [Subreddit Delta Chatu](https://old.reddit.com/r/DeltaChat/).
+- [Subreddit](https://old.reddit.com/r/DeltaChat/).
 
 If you know of, or setup yourself, additional channels,
 please let us know (see Channels and repositories above).

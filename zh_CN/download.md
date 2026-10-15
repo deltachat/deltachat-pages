@@ -8,10 +8,10 @@ downloads: true
 
 ## 更新日志 & 更多信息 {#changelogs}
 
-- 更新日志：[桌面](https://github.com/deltachat/deltachat-desktop/blob/master/CHANGELOG.md)、
-  [安卓](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog)、
-  [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog)、
-  [Core](https://github.com/deltachat/deltachat-core-rust/blob/master/CHANGELOG.md)
+- Changelogs: [Desktop](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md),
+  [Android](https://deltachat.github.io/deltachat-android/CHANGELOG#delta-chat-android-changelog),
+  [iOS](https://deltachat.github.io/deltachat-ios/CHANGELOG#delta-chat-ios-changelog),
+  [Core](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
 
 - [可选客户端](https://chatmail.at/clients)
 
@@ -19,7 +19,7 @@ downloads: true
 
 - [验证下载](verify-downloads)
 
-- [桌面版安装故障解决](https://github.com/deltachat/deltachat-desktop/blob/master/docs/TROUBLESHOOTING.md)
+- [Desktop Installation Troubleshooting](https://github.com/deltachat/deltachat-desktop/blob/main/docs/TROUBLESHOOTING.md)
 
 - 预览版本：[桌面版]({% include desktop-previews-url %})、
   [Android](https://download.delta.chat/android/beta)、
