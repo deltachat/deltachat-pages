@@ -9,11 +9,11 @@ For community interactions around Delta Chat please read our [Community Standard
 
 - [Fediverse](https://chaos.social/web/@delta) for announcements and feedback.
 
-- [Forum](https://forum.delta.chat) for wider
-  feature discussions and mutual help.
+- Daha geniş özellik tartışmaları ve destek almak için
+  [Delta Chat destek forumu](https://support.delta.chat).
 
-- [Repositories](https://github.com/deltachat/) where you can
-  find the code for Delta Chat apps.
+- Delta Chat uygulamaları ve bu web sitesi için 
+  kodu bulabileceğiniz [Delta Chat depoları](https://github.com/deltachat/).
 
 - More links can be found in the [cosmos](https://cosmos.delta.chat)
 

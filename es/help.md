@@ -618,9 +618,9 @@ Este método solo se recomienda si el método "Añadir un segundo dispositivo" d
   copia de seguridad". De este modo, el archivo de copia de seguridad se guardará en tu dispositivo. Ahora tienes que transferirlo
   al otro dispositivo de alguna forma.
 
-- On the new device, select **I Already Have a Profile → Restore from Backup**.
-  If you use iOS and encounter difficulties,
-  [this guide](https://forum.delta.chat/t/import-backup-to-ios/1628) might help you.
+- En el nuevo dispositivo, selecciona **Ya tengo un perfil → Restaurar desde una copia de seguridad**.
+Si utilizas iOS y tienes dificultades,
+[esta guía](https://forum.delta.chat/t/import-backup-to-ios/1628) podría resultarte útil.
 
 Ya estás sincronizado, y puedes utilizar ambos dispositivos para enviar y recibir
 mensajes encriptados de extremo a extremo con tus compañeros.

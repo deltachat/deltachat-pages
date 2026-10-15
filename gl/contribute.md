@@ -12,7 +12,7 @@ Para as interaccións na comunidade de Delta Chat, por favor le as nosas [Normas
 - [Foro de apoio de Delta Chat](https://support.delta.chat) para discusións máis amplas
 das funcións e obter apoio.
 
-- [repositorios Delta Chat](https://github.com/deltachat/) onde podes 
+- [Repositorios Delta Chat](https://github.com/deltachat/) onde podes 
   atopar o código da app DeltaChat e este sitio web.
 
 - Pódense atopar máis ligazóns en [cosmos](https://cosmos.delta.chat)

@@ -9,11 +9,11 @@ lang: ru
 
 - [Fediverse](https://chaos.social/web/@delta) для объявлений и обратной связи.
 
-- [Форум поддержки Delta Chat](https://support.delta.chat) для
-обсуждения новых функций и получения технической поддержки.
+- [Форум](https://forum.delta.chat) для
+более широкого обсуждения функциональных возможностей и взаимопомощи.
 
-- [Репозитории Delta Chat](https://github.com/deltachat/), где размещен
-  код приложений DeltaChat и этого веб-сайта.
+- [Репозитории](https://github.com/deltachat/), с исходным
+  кодом приложений Delta Chat.
 
 - Другие ссылки можно найти в [cosmos](https://cosmos.delta.chat)
 
@@ -22,10 +22,10 @@ lang: ru
 # Переводы и Отчеты об ошибках
 
 - [Переводы на Transifex](https://explore.transifex.com/delta-chat/)
-- [Проблемы Delta Chat для Android](https://github.com/deltachat/deltachat-android/issues)
-- [Проблемы Delta Chat для компьютера](https://github.com/deltachat/deltachat-desktop/issues)
-- [Проблемы Delta Chat для iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Проблемы Rust Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Проблемы Delta Chat на Android](https://github.com/deltachat/deltachat-android/issues)
+- [Проблемы Delta Chat на компьютере](https://github.com/deltachat/deltachat-desktop/issues)
+- [Проблемы Delta Chat на iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Проблемы Rust Core Library + Python Bindings](https://github.com/chatmail/core/issues)
 
 # Каналы связи сторонних разработчиков
 

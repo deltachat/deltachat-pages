@@ -30,7 +30,7 @@ Per a interaccions de la comunitat sobre Delta Chat, llegiu els nostres [Estànd
 # Canals de comunicació de tercers
 
 Els següents canals de comunicació relacionats amb Delta Chat són gestionats per terceres parts
-que poden o no seguir els nostres [Community Standards](community-standards): 
+que poden o no seguir els nostres [Estàndards Comunitaris](community-standards): 
 
 - [PixelSocial]({% include dc-community-url %}) una xarxa social anònima dins de Delta Chat.
 

@@ -37,7 +37,7 @@ die unsere [Community-Standards](community-standards) befolgen können oder auch
 geben Sie `!delta_chat@lemmy.zip` 
 in das Suchfeld Ihrer Fediverse-App ein.
 
-- Ein [Delta Chat-Subreddit](https://old.reddit.com/r/DeltaChat/).
+- Ein [Delta-Chat-Subreddit](https://old.reddit.com/r/DeltaChat/).
 
 Wenn Sie von zusätzlichen Kanälen wissen oder selbst welche einrichten,
 lassen Sie es uns bitte wissen (siehe Kanäle und Repositorys oben).
