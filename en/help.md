@@ -116,7 +116,7 @@ Once you sent a message to a contact,
 they will see it when they view your contact details.
 
 
-### What do Pinning, Muting and Archiving mean?
+### Pin, mute and archive a chat {#pin-chats}
 
 Use these tools to organize your chats and keep everything in its place:
 
@@ -154,6 +154,29 @@ To use the functions, long tap or right click a chat in the chat list.
 
 Messages stay saved even if they are edited or deleted -
 may it be by [sender](#edit), by [device cleanup](#delold) or by [disappearing messages of other chats](#ephemeralmsgs).
+
+
+### How do pinned messages work? {#pin-messages}
+
+**Pin important messages** such as an address, a meeting time or the rules of a group,
+so everyone can find them quickly.
+Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
+pinned messages are visible to **all chat members**.
+
+- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
+  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
+  Unpinning also affects all chat members, not only you.
+
+- Pinned messages are shown in a **bar at the top of the chat**.
+  Tap the bar to jump to the pinned message.
+  If there are several, you can step through them.
+
+- If you pin an [app](#webxdc), it gets a **start button**
+  so that everyone has easy access to it without scrolling or searching around.
+
+- There is no limit on the number of pinned messages or on how long they stay pinned.
+
+To keep messages just for yourself, use [Saved Messages](#save).
 
 
 ### What does the green dot mean?
