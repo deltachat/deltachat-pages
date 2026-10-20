@@ -845,26 +845,6 @@ Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
 
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
-
-Older Delta Chat versions showed a green checkmark
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
-
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
-
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
-
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
 
 Yes.
