@@ -41,7 +41,6 @@ linked_files = [
     "assets/help/edit-icon.png",
     "assets/help/email-icon.png",
     "assets/help/go-to-original.png",
-    "assets/help/green-checkmark.png",
     "assets/help/green-dot.png",
     "assets/help/mic.png",
     "assets/help/paperclip.png",
