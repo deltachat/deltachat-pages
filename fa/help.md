@@ -103,7 +103,7 @@ header: سؤالات متداول
 به محض اینکه پیامی برای مخاطبی بفرستید،
 وقتی جزئیات مخاطب شما را ببینند، آن را خواهند دید.
 
-### سنجاق کردن، ساکت کردن و بایگانی کردن به چه معناست؟
+### Pin, mute and archive a chat {#pin-chats}
 
 از این ابزار‌ها برای سازماندهی گپ‌ها و نگه‌داشتن هر چیز در جای خود کمک بگیرید:
 
@@ -140,6 +140,28 @@ header: سؤالات متداول
 
 پیام‌ها حتی اگر ویرایش یا پاک شوند، ذخیره می‌مانند -
 چه توسط [فرستنده](#edit)، چه توسط [پاک‌سازی دستگاه](#delold) یا توسط [پیام‌های ناپدیدشوندهٔ گپ‌های دیگر](#ephemeralmsgs).
+
+### How do pinned messages work? {#pin-messages}
+
+**Pin important messages** such as an address, a meeting time or the rules of a group,
+so everyone can find them quickly.
+Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
+pinned messages are visible to **all chat members**.
+
+- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
+  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
+  Unpinning also affects all chat members, not only you.
+
+- Pinned messages are shown in a **bar at the top of the chat**.
+  Tap the bar to jump to the pinned message.
+  If there are several, you can step through them.
+
+- If you pin an [app](#webxdc), it gets a **start button**
+  so that everyone has easy access to it without scrolling or searching around.
+
+- There is no limit on the number of pinned messages or on how long they stay pinned.
+
+To keep messages just for yourself, use [Saved Messages](#save).
 
 ### نقطه سبز به چه معناست؟
 
@@ -778,26 +800,6 @@ so they start or stop using a relay for chatting with you, respectively.
 می‌توانید پیام‌ها را با یا بدون رمزنگاری سراسری بفرستید و دریافت کنید.
 پیام‌هایی که فاقد رمزنگاری سراسری هستند با نماد رایانامه علامت‌گذاری می‌شوند
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
-
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
-
-Older Delta Chat versions showed a green checkmark
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
-
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
-
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
 
 ### آیا پیوست‌ها (تصاویر، پرونده‌ها، صدا و غیره) رمزنگاری سراسری می‌شوند
 

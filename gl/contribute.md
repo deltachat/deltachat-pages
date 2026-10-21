@@ -37,6 +37,6 @@ Os seguintes canais de comunicación relacionados con Delta Chat son xestionados
   á que podes seguir poñendo `!delta_chat@lemmy.zip` 
   no campo de busca da túa aplicación do fediverse.
 
-- A [Delta Chat subreddit](https://old.reddit.com/r/DeltaChat/).
+Un [subreddit de Delta Chat](https://old.reddit.com/r/DeltaChat/).
 
 Se coñeces ou creas ti mesmo canles adicionais, por favor, fainos saber (ver Canles e repositorios máis arriba).

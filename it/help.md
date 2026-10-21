@@ -107,7 +107,7 @@ puoi farlo in **Impostazioni → Profilo → Biografia**.
 Una volta inviato un messaggio a un contatto,
 lo vedrà quando visualizzerà i tuoi dati di contatto.
 
-### Cosa significa Fissare, Silenziare, Archiviare?
+### Pin, mute and archive a chat {#pin-chats}
 
 Usa questi strumenti per organizzare le tue chat e tenere tutto in ordine:
 
@@ -143,6 +143,28 @@ puoi tornare al messaggio originale nella chat di provenienza.
 
 I messaggi restano salvati anche se vengono modificati o eliminati -
 che sia dal [mittente](#edit), [ripulendo il dispositivo](#delold) o per i [messaggi a scomparsa di altre chat](#ephemeralmsgs).
+
+### How do pinned messages work? {#pin-messages}
+
+**Pin important messages** such as an address, a meeting time or the rules of a group,
+so everyone can find them quickly.
+Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
+pinned messages are visible to **all chat members**.
+
+- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
+  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
+  Unpinning also affects all chat members, not only you.
+
+- Pinned messages are shown in a **bar at the top of the chat**.
+  Tap the bar to jump to the pinned message.
+  If there are several, you can step through them.
+
+- If you pin an [app](#webxdc), it gets a **start button**
+  so that everyone has easy access to it without scrolling or searching around.
+
+- There is no limit on the number of pinned messages or on how long they stay pinned.
+
+To keep messages just for yourself, use [Saved Messages](#save).
 
 ### Cosa significa il punto verde?
 
@@ -775,26 +797,6 @@ Se invece utilizzi un [server email classico](#classic-email),
 puoi inviare e ricevere messaggi con o senza crittografia end-to-end.
 I messaggi privi di crittografia end-to-end sono contrassegnati dall'icona di un'e-mail
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
-
-### Che fine ha fatto la spunta verde nei profili dei contatti? {#e2eeguarantee}
-
-Le versioni precedenti di Delta Chat mostravano un segno di spunta verde.
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-e una riga "Presentato da" in alcuni profili di contatto.
-
-Questa riga non è più presente.
-A partire da [Delta Chat v2](https://delta.chat/en/2025-08-04-encryption-v2),
-i contatti vengono identificati tramite la loro chiave crittografica ("chiave pubblica")
-e non vi è alcuna possibilità per l'operatore del ripetitore
-di sostituire una chiave per eseguire un attacco man-in-the-middle (MitM)
-(di fatto, l'operatore non vede nemmeno la chiave in alcun momento).
-
-È comunque possibile che un malintenzionato ti invii un link di invito
-fingendosi qualcun altro; inoltre, un attaccante che possiede il tuo contatto Delta Chat
-(poiché partecipa a una chat di gruppo insieme a te)
-potrebbe tentare di avviare una conversazione usando un nome falso.
-Questo tipo di attacchi è [presente in tutte le app di messaggistica](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation)
-e stiamo pianificando miglioramenti futuri per mitigarli.
 
 ### Gli allegati (immagini, file, audio, ecc.) sono crittografati end-to-end?
 

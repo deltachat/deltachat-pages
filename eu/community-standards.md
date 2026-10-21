@@ -3,7 +3,7 @@ title: Komunitate-arauak
 lang: eu
 ---
 
-# Community Standards
+# Komunitate-arauak
 
 In the interest of fostering an open and welcoming environment,
 we as contributors and maintainers strive to make participation

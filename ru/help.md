@@ -108,7 +108,7 @@ Delta Chat — надежное, децентрализованное и без�
 После отправки сообщения контакту,
 они увидят его при просмотре ваших контактных данных.
 
-### Что означают: Закрепить, Отключить уведомления и Отправить в архив?
+### Pin, mute and archive a chat {#pin-chats}
 
 Используйте эти инструменты, чтобы организовать чаты и поддерживать порядок во всём:
 
@@ -145,6 +145,28 @@ Delta Chat — надежное, децентрализованное и без�
 
 Сообщения остаются сохраненными, даже если они были отредактированы или удалены -
 будь то [отправителем](#edit), [очисткой устройства](#delold) или [исчезающими сообщениями из других чатов](#ephemeralmsgs).
+
+### How do pinned messages work? {#pin-messages}
+
+**Pin important messages** such as an address, a meeting time or the rules of a group,
+so everyone can find them quickly.
+Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
+pinned messages are visible to **all chat members**.
+
+- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
+  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
+  Unpinning also affects all chat members, not only you.
+
+- Pinned messages are shown in a **bar at the top of the chat**.
+  Tap the bar to jump to the pinned message.
+  If there are several, you can step through them.
+
+- If you pin an [app](#webxdc), it gets a **start button**
+  so that everyone has easy access to it without scrolling or searching around.
+
+- There is no limit on the number of pinned messages or on how long they stay pinned.
+
+To keep messages just for yourself, use [Saved Messages](#save).
 
 ### Что означает зеленая точка?
 
@@ -786,26 +808,6 @@ Delta Chat не запрашивает, не публикует и не взаи
 вы можете отправлять и получать сообщения с использованием или без сквозного шифрования.
 Сообщения, не имеющие сквозного шифрования, отмечены значком электронной почты
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
-
-### Что случилось с зеленой галочкой в профилях контактов? {#e2eeguarantee}
-
-Старые версии Delta Chat отображали зеленую галочку
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="зеленая галочка" />
-и строку "Представлено" в некоторых профилях контактов.
-
-Этой строки больше нет.
-Поскольку в [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-контакты идентифицируются по их криптографическому ключу ("публичный ключ"),
-у оператора релея нет возможности подменить ключ
-для проведения атаки типа "человек посередине" (MitM)
-(на самом деле, оператор даже не видит этот ключ).
-
-Злоумышленник всё ещё может прислать вам пригласительную ссылку,
-выдавая себя за другого человека. Кроме того, если у злоумышленника есть ваш контакт в Delta Chat
-(например, из общего чата),
-он может попытаться начать диалог под чужим именем. 
-Подобные атаки встречаются [во всех мессенджерах](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-и мы планируем внедрить улучшения, чтобы минимизировать такие риски.
 
 ### Зашифрованы ли вложения (изображения, файлы, аудио и т. д.) сквозным шифрованием?
 
