@@ -108,7 +108,7 @@ jar dezakezu, honela: **Ezarpenak → Profila → Sinaduraren testua**.
 Kontaktu bati mezu bat bidaltzen diozunean,
 hark zure kontaktuko datuak begiratutakoan ikusiko du.
 
-### Zer da txatak finkatzea, mututzea eta artxibatzea?
+### Pin, mute and archive a chat {#pin-chats}
 
 Txatak antolatzeko tresnak dira, eta honela erabil ditzakezu:
 
@@ -145,6 +145,28 @@ jatorrizko mezura joango zara, jatorrizko txatera.
 
 Mezuak gordeta geratzen dira, baita gerora editatu edo ezabatuz gero ere,
 bai [igorleak](#edit) hala egin duenean, bai [gailutik mezuak ezabatzea](#delold) aukeratuta dagoenean, bai [beste txat batzuetatik mezuak desagertzea](#ephemeralmsgs) aukeratuta dagoenean.
+
+### How do pinned messages work? {#pin-messages}
+
+**Pin important messages** such as an address, a meeting time or the rules of a group,
+so everyone can find them quickly.
+Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
+pinned messages are visible to **all chat members**.
+
+- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
+  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
+  Unpinning also affects all chat members, not only you.
+
+- Pinned messages are shown in a **bar at the top of the chat**.
+  Tap the bar to jump to the pinned message.
+  If there are several, you can step through them.
+
+- If you pin an [app](#webxdc), it gets a **start button**
+  so that everyone has easy access to it without scrolling or searching around.
+
+- There is no limit on the number of pinned messages or on how long they stay pinned.
+
+To keep messages just for yourself, use [Saved Messages](#save).
 
 ### Zer esan nahi du puntu berdeak?
 
@@ -796,26 +818,6 @@ muturretik muturrera zifratutako nahiz zifratu gabeko mezuak bidali eta jaso dit
 Muturretik muturrera zifratu gabeko mezuek epostaren ikonoaren marka izaten dute:
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-### Zer gertatu da kontaktuen profilean zegoen egiaztapen-marka berdearekin? {#e2eeguarantee}
-
-Delta Chaten aurreko bertsioetan, kontaktu batzuen profilek egiaztapen-marka berdea
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-zeukaten, eta testu hau idatzita: “Halakok egiaztatuta”.
-
-Testu hori jada ez dago.
-Izan ere, [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2) bertsiotik aurrera,
-kontaktuak beren gako kriptografikoaren bidez identifikatzen dira (“gako publikoa“),
-eta ez dago modurik errele-zerbitzariaren operadoreak
-man-in-the-middle (MitM) erasoa eginez inoren gakoa trukatzeko
-(hain zuzen, operadoreak ez du inoiz gakorik ikusi ere egiten).
-
-Oraindik ere posible da erasotzaileren batek beste norbaiten identitatea ordeztuz
-zuri gonbidapen-esteka bat bidaltzea; bestalde, posible da zure Delta Chateko kontaktua duen norbait
-(talde-txat berean zaudetelako, adibidez)
-izen faltsu bat erabiliz zurekin hitz egiten saiatzea.
-Horrelako erasoak [mezularitza-aplikazio guztietan](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation) gerta daitezke,
-eta etorkizunean halakoak murrizteko hobekuntzak egiteko asmotan gara.
-
 ### Muturretik muturrera zifratuta al daude eranskinak (argazkiak, fitxategiak, audioak, etab.)?
 
 Bai.
@@ -1067,7 +1069,7 @@ Funtzio batzuetarako, zenbait baimen behar dira;
 adibidez, [QR gonbidapen-kodea eskaneatu](#howtoe2ee) nahi baduzu,
 kamera erabiltzeko baimena eman beharko duzu.
 
-See [Privacy Policy](https://delta.chat/privacy#app-permissions) for a detailed overview.
+Xehetasunak jakiteko, kontsultatu [pribatutasun-politika](https://delta.chat/privacy#app-permissions).
 
 ### Non lortu dezakete Delta Chat nire lagunek?
 

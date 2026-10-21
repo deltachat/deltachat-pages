@@ -97,7 +97,7 @@ Puc establir una biografia/estat amb Delta Chat? {#signature}
 
 Sí, ho pots fer a **Configuració → Perfil → Biografia**. Un cop has enviat un missatge a un contacte, aquest el veurà quan consulti les teves dades de contacte.
 
-### Què signifiquen Fixar, Silencia i Arxivar?
+### Pin, mute and archive a chat {#pin-chats}
 
 Utilitza aquestes eines per organitzar els teus xats i mantenir-ho tot al seu lloc:
 
@@ -131,6 +131,28 @@ pots tornar al missatge original en el xat d'on prové.
 - Ja que els "Missatges Desats" són sincronitzats, és molt pràctic per transferir dades entre dispositius
 
 Els missatges es mantenen desats fins i tot si s'editen o esborren, ja sigui  pel [remitent](#edit), per [neteja del dispositiu](#delold) o per [missatges efímers d'altres xats](#ephemeralmsgs).
+
+### How do pinned messages work? {#pin-messages}
+
+**Pin important messages** such as an address, a meeting time or the rules of a group,
+so everyone can find them quickly.
+Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
+pinned messages are visible to **all chat members**.
+
+- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
+  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
+  Unpinning also affects all chat members, not only you.
+
+- Pinned messages are shown in a **bar at the top of the chat**.
+  Tap the bar to jump to the pinned message.
+  If there are several, you can step through them.
+
+- If you pin an [app](#webxdc), it gets a **start button**
+  so that everyone has easy access to it without scrolling or searching around.
+
+- There is no limit on the number of pinned messages or on how long they stay pinned.
+
+To keep messages just for yourself, use [Saved Messages](#save).
 
 ### Què significa el punt verd?
 
@@ -629,21 +651,6 @@ Tots els missatges a Delta Chat són **xifrats d'extrem a extrem per defecte**. 
 Si utilitzes el [retransmissor de chatmail](https://chatmail.at/relays) per defecte, no és possible rebre o enviar missatges sense xifrar d'extrem a extrem.
 
 Si enlloc d'això utilitzes un [servidor de correu clàssic](#classic-email), podràs enviar i rebre missatges amb o sense xifrat d'extrem a extrem. Els missatges que no vagin xifrats d'extrem a extrem es marcaran amb la icona de correu-e <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
-
-### Què ha passat amb la marca de verificació verda als perfils de contacte? {#e2eeguarantee}
-
-Les versions antigues de Delta Chat mostraven una marca de verificació verda
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-i una línia «Introduït per» en alguns perfils de contacte.
-
-Aquesta línia ja no hi és.
-Des de [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-els contactes s'identifiquen per la seva clau criptogràfica ("clau pública"),
-i mai no hi ha cap possibilitat que l'operador del retransmissor intercanviï una clau per dur a terme un atac de "home al mig" (MitM)
-(de fet, l'operador ni tan sols veu la clau en cap moment).
-
-Encara és possible que un atacant us doni un enllaç d'invitació que suplantï la identitat d'una altra persona, i un atacant que tingui el vostre contacte de Delta Chat (perquè està en una conversa de grup amb vosaltres) podria intentar iniciar una conversa amb vosaltres sota un nom fals.
-Aquests tipus d'atacs són [presents en tots els missatgers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation), i estem planificant millores futures per mitigar-los.
 
 ### Els adjunts (imatges, fitxers, audio, etc.) es xifren d'extrem a extrem?
 

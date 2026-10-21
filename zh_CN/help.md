@@ -100,7 +100,7 @@ Delta Chat 是一款可靠、去中心化和安全的消息应用程序、
 向联系人发送信息后、
 他们在查看您的联系人详情时就会看到。
 
-### 固定、静音、归档是什么意思？
+### Pin, mute and archive a chat {#pin-chats}
 
 使用这些工具来管理您的聊天，让其井然有序：
 
@@ -137,6 +137,28 @@ Delta Chat 是一款可靠、去中心化和安全的消息应用程序、
 - "Saved Message" 的同步特性使其成为设备间数据迁移的实用方案——用户通过该功能可轻松实现手机、电脑等多终端信息流转。
 
 即使消息遭到修改或删除 - 无论是[发送者编辑](#edit)、[设备清理操作](#delold)，还是[其他聊天中的临时消息功能](#ephemeralmsgs)所触发 - 这些信息仍将保留在系统中。
+
+### How do pinned messages work? {#pin-messages}
+
+**Pin important messages** such as an address, a meeting time or the rules of a group,
+so everyone can find them quickly.
+Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
+pinned messages are visible to **all chat members**.
+
+- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
+  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
+  Unpinning also affects all chat members, not only you.
+
+- Pinned messages are shown in a **bar at the top of the chat**.
+  Tap the bar to jump to the pinned message.
+  If there are several, you can step through them.
+
+- If you pin an [app](#webxdc), it gets a **start button**
+  so that everyone has easy access to it without scrolling or searching around.
+
+- There is no limit on the number of pinned messages or on how long they stay pinned.
+
+To keep messages just for yourself, use [Saved Messages](#save).
 
 ### 绿色圆点代表什么？
 
@@ -752,26 +774,6 @@ Delta Chat 中的所有消息 **默认都采用端到端加密**。
 您可以发送和接收带有或不带端到端加密 的邮件。
 没有端到端加密 的邮件会用电子邮件图标标出
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
-
-### What happened to the green checkmark in contact profiles? {#e2eeguarantee}
-
-Older Delta Chat versions showed a green checkmark
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-and an "Introduced by" line in some contact profiles.
-
-This line is no longer present.
-Since [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-contacts are identified by their cryptographic key ("public key"),
-and there is never any possibility for the relay operator
-to exchange a key in order to execute a man-in-the-middle (MitM) attack
-(in fact, the operator does not even see the key at any point).
-
-It is still possible for an attacker to give you an invite link
-that impersonates someone else, and an attacker who has your Delta Chat contact
-(because they are in a group chat with you)
-could try to start a chat with you under a wrong name.
-These kinds of attacks are [present in all messengers](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-and we are planning future improvements in order to mitigate them.
 
 ### 附件（图片、文件、音频等）是否已端到端加密？
 

@@ -96,7 +96,7 @@ Ja,
 Du kannst dies unter "Einstellungen → Profil → Signatur" tun.
 Sobald du eine Nachricht an einen Kontakt sendest, kann dieser deine Signatur in deinem Profil sehen.
 
-### Was bedeutet Anheften, Stummschalten, Archivieren?
+### Chats anheften, stummschalten und archivieren {#pin-chats}
 
 Verwende diese Tools, um deine Chats zu organisieren:
 
@@ -130,6 +130,28 @@ kannst du zu der ursprünglichen Nachricht im ursprünglichen Chat zurückkehren
 
 Nachrichten bleiben gespeichert, auch wenn sie bearbeitet oder gelöscht werden -
 sei es durch den [Absender](#edit), durch [Automatisches Löschen](#delold) oder durch [verschwindende Nachrichten anderer Chats](#ephemeralmsgs).
+
+### Angeheftete Nachrichten {#pin-messages}
+
+**Hefte wichtige Nachrichten an**, etwa eine Adresse, einen Termin oder die Regeln einer Gruppe,
+damit alle sie schnell finden.
+Anders als [angeheftete Chats](#pin-chats), die nur _deine_ Chatliste ordnen,
+sind angeheftete Nachrichten für **alle Chat-Mitglieder** sichtbar.
+
+- Tippe im Chat lange auf eine Nachricht oder klicke mit der rechten Maustaste darauf und wähle <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Anheften**.
+Zum Entfernen wähle im selben Menü <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Loslösen**.
+Das Loslösen gilt ebenfalls für alle Chat-Mitglieder, nicht nur für dich.
+
+- Angeheftete Nachrichten werden in einer **Leiste oben im Chat** angezeigt.
+Tippe auf die Leiste, um zur angehefteten Nachricht zu springen.
+Sind es mehrere, kannst du sie durch antippen durchblättern.
+
+- Wenn du eine [App](#webxdc) anheftest, erhält sie eine **Start-Schaltfläche**,
+damit alle ohne Scrollen oder Suchen leicht darauf zugreifen können.
+
+- Es gibt keine Begrenzung für die Anzahl angehefteter Nachrichten oder dafür, wie lange sie angeheftet bleiben.
+
+Um Nachrichten nur für dich zu behalten, verwende [Gespeicherte Nachrichten](#save).
 
 ### Was bedeutet der grüne Punkt?
 
@@ -666,14 +688,6 @@ Seit der Veröffentlichung von Delta Chat Version 2 (Juli 2025) gibt es keine Sc
 Wenn du die Standard-[Chatmail-Relays](https://chatmail.at/relays) verwendest, ist es unmöglich, Nachrichten ohne End-to-End-Verschlüsselung zu empfangen oder zu senden. 
 
 Wenn du stattdessen ein Profil mit einem [klassischen E-Mail-Server](#classic-email) erstellst, kannst du Nachrichten mit und ohne Ende-zu-Ende-Verschlüsselung senden und empfangen.  Nachrichten ohne Ende-zu-Ende-Verschlüsselung werden mit einem E-Mail-Symbol gekennzeichnet  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
-
-### Was ist mit dem "Grünen Haken" in Kontaktprofilen passiert? {#e2eeguarantee}
-
-Ältere Delta-Chat-Versionen zeigten in manchen Kontaktprofilen ein grünes Häkchen <img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="grünes Häkchen" /> und eine Zeile „Eingeführt von“ an.
-
-Diese Zeile gibt es nicht mehr. Seit [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2) werden Kontakte über ihren kryptografischen Schlüssel („öffentlicher Schlüssel“) identifiziert, und der Relay-Betreiber hat nie die Möglichkeit, einen Schlüssel auszutauschen, um einen Man-in-the-Middle-Angriff (MitM) durchzuführen (tatsächlich sieht der Betreiber den Schlüssel zu keinem Zeitpunkt).
-
-Ein Angreifer kann dir weiterhin einen Einladungslink geben, mit dem er sich als jemand anderes ausgibt, und ein Angreifer, der deinen Delta-Chat-Kontakt hat (weil ihr zusammen in einem Gruppenchat seid), könnte versuchen, unter falschem Namen einen Chat mit dir zu beginnen. Solche Angriffe [gibt es in allen Messengern](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation), und wir planen künftige Verbesserungen, um sie abzuschwächen.
 
 ### Sind Anhänge (Bilder, Dateien, Audio usw.) Ende-zu-Ende-verschlüsselt?
 

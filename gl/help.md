@@ -102,7 +102,7 @@ podes facelo en **Configuración → Perfil → Biografía**.
 Unha vez que envíes unha mensaxe a un contacto,
 este poderá vela cando consulte os teus datos de contacto.
 
-### Que significan o fixado, o silenciado e o arquivado?
+### Pin, mute and archive a chat {#pin-chats}
 
 Emprega estas ferramentas para organizar as túas conversas e manter todo no seu lugar:
 
@@ -139,6 +139,28 @@ xunto ao selo de tempo.
 
 As mensaxes permanecen gardadas aínda que sexan editadas ou eliminadas -
 xa sexa polo [remitente](#edit), pola [limpeza do dispositivo](#delold) ou polas [mensaxes que desaparecen doutros chats](#ephemeralmsgs).
+
+### How do pinned messages work? {#pin-messages}
+
+**Pin important messages** such as an address, a meeting time or the rules of a group,
+so everyone can find them quickly.
+Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
+pinned messages are visible to **all chat members**.
+
+- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
+  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
+  Unpinning also affects all chat members, not only you.
+
+- Pinned messages are shown in a **bar at the top of the chat**.
+  Tap the bar to jump to the pinned message.
+  If there are several, you can step through them.
+
+- If you pin an [app](#webxdc), it gets a **start button**
+  so that everyone has easy access to it without scrolling or searching around.
+
+- There is no limit on the number of pinned messages or on how long they stay pinned.
+
+To keep messages just for yourself, use [Saved Messages](#save).
 
 ### Que significa o punto verde?
 
@@ -757,27 +779,6 @@ Se en vez diso usas un [servidor de correo electrónico clásico](#classic-email
 podes enviar e recibir mensaxes con ou sen cifrado de extremo a extremo.
 As mensaxes que non teñen cifrado de extremo a extremo márcanse cunha icona de correo electrónico
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
-
-### Qué aconteceu coa marca verde nos perfiles dos contactos?{#e2eeguarantee}
-
-Versións vellas de Delta Chat mostraba unha marca verde
-<img style="vertical-align:middle; width:1.5em; margin:1px" src="../assets/help/green-checkmark.png" alt="green checkmark" />
-e unha liña "Introducido por" nos perfís dalgúns contactos.
-
-Esta liña xa non está presente.
-Dende  [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2)
-os contactos identifícanse pola súa clave criptográfica ("chave pública")
-,
-e nunca hai posibilidade algunha para o operador do repetidor
-de intercambia-la clave para executar un ataque home-no-medio (MitM)
-(de feito, o operador non pode ver a clave en ningún momento).
-
-Inda así é posíbel para un atacante dar un código de convite
-facéndose pasar por outra persoa, e un atacante que ten o seu contacto de Delta Chat
-(porque están nunha conversa de grupo compartida)
-podería iniciar unha conversa con vostede baixo un nome falso.
-Este tipo de ataques están [presentes en tódalas aplicacións de mensaxería](https://support.signal.org/hc/en-us/articles/9932566320410-Staying-Safe-from-Phishing-Scams-and-Impersonation),
-e estamos planeando melloras futuras co fin de mitigalos.
 
 ### Están os anexos (imaxes, ficheiros, sons, etc.) cifrados de extremo a extremo?
 
