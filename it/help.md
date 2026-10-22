@@ -107,7 +107,7 @@ puoi farlo in **Impostazioni → Profilo → Biografia**.
 Una volta inviato un messaggio a un contatto,
 lo vedrà quando visualizzerà i tuoi dati di contatto.
 
-### Pin, mute and archive a chat {#pin-chats}
+### Fissa, disattiva e archivia una chat {#pin-chats}
 
 Usa questi strumenti per organizzare le tue chat e tenere tutto in ordine:
 
@@ -144,27 +144,27 @@ puoi tornare al messaggio originale nella chat di provenienza.
 I messaggi restano salvati anche se vengono modificati o eliminati -
 che sia dal [mittente](#edit), [ripulendo il dispositivo](#delold) o per i [messaggi a scomparsa di altre chat](#ephemeralmsgs).
 
-### How do pinned messages work? {#pin-messages}
+### Come funzionano i messaggi fissati? {#pin-messages}
 
-**Pin important messages** such as an address, a meeting time or the rules of a group,
-so everyone can find them quickly.
-Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
-pinned messages are visible to **all chat members**.
+**Fissa i messaggi importanti**, come un indirizzo, l'orario di un incontro o le regole di un gruppo,
+così che tutti possano ritrovarli rapidamente.
+A differenza delle [chat fissate](#pin-chats), che servono solo a organizzare il _tuo_ elenco delle chat,
+i messaggi fissati sono visibili a **tutti i membri della chat**.
 
-- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
-  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
-  Unpinning also affects all chat members, not only you.
+- In qualsiasi chat, tieni premuto a lungo o fai clic con il tasto destro su un messaggio e seleziona <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Fissa**.
+  Per rimuoverlo, seleziona <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Sblocca** dallo stesso menu.
+  La rimozione del fissaggio ha effetto anche su tutti i membri della chat, non solo su di te.
 
-- Pinned messages are shown in a **bar at the top of the chat**.
-  Tap the bar to jump to the pinned message.
-  If there are several, you can step through them.
+- I messaggi fissati vengono visualizzati in una **barra nella parte superiore della chat**.
+  Tocca la barra per passare al messaggio fissato.
+  Se ce ne sono diversi, puoi scorrerli uno dopo l'altro..
 
-- If you pin an [app](#webxdc), it gets a **start button**
-  so that everyone has easy access to it without scrolling or searching around.
+- Se aggiungi un' [app](#webxdc), ai preferiti, questa ottiene un **pulsante di avvio**,
+  così che tutti possano accedervi facilmente senza dover scorrere o cercare.
 
-- There is no limit on the number of pinned messages or on how long they stay pinned.
+- Non c'è alcun limite al numero di messaggi fissati né alla durata per cui rimangono fissati.
 
-To keep messages just for yourself, use [Saved Messages](#save).
+Per conservare i messaggi solo per te, usa [Messaggi Salvati](#save).
 
 ### Cosa significa il punto verde?
 
