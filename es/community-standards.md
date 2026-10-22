@@ -37,26 +37,26 @@ them in public or private, whatever is more appropriate. Assume good faith;
 it's more likely that participants are unaware than that they are intentionally
 trying to denigrate others or reduce the quality of discussion.
 
-## Collective Maintenance Standards
+## Normas de mantenimiento colectivo
 
-Our organizational repositories are collectively maintained, not individually owned.
-To avoid and mitigate single points of knowledge and control,
-we encourage everyone to find and educate other maintainers
-to share knowledge and maintenance responsibilities.
+Nuestros repositorios organizativos se gestionan de forma colectiva, no son propiedad de una sola persona.
+Para evitar y mitigar los puntos únicos de conocimiento y control,
+animamos a todo el mundo a buscar y formar a otros responsables
+para compartir conocimientos y responsabilidades de mantenimiento.
 
-All contributions must be human-authored,
-and fully understood and maintained by the contributors through
+Todas las contribuciones deben ser obra de personas,
+y los colaboradores deben comprenderlas y mantenerlas plenamente a través de
 
-- writing all pull request, issue descriptions,
-  comments, documentation and commit messages by hand,
+- redactar a mano todas las solicitudes de incorporación de cambios, descripciones de incidencias,
+  comentarios, documentación y mensajes de confirmación,
 
-- performing extensive self-review
-  and taking full responsibility for submissions,
+- realizar una revisión exhaustiva por cuenta propia
+  y asumir toda la responsabilidad sobre los trabajos presentados,
 
-- caring for clarity and minimalism to ease the job of reviewers
-  who accept changes into collective maintenance,
+- primando la claridad y el minimalismo para facilitar el trabajo de los revisores
+  que aprueban los cambios para su incorporación al mantenimiento colectivo,
 
-- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+- evitar la introducción de cualquier dependencia de tiempo de ejecución o de desarrollo en la infraestructura de modelos LLM.
 
 If LLMs were used in any substantial way,
 contributors are invited to write in their own words how they made use of them.

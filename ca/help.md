@@ -97,7 +97,7 @@ Puc establir una biografia/estat amb Delta Chat? {#signature}
 
 Sí, ho pots fer a **Configuració → Perfil → Biografia**. Un cop has enviat un missatge a un contacte, aquest el veurà quan consulti les teves dades de contacte.
 
-### Pin, mute and archive a chat {#pin-chats}
+### Fixar, silenciar i arxivar una conversa {#pin-chats}
 
 Utilitza aquestes eines per organitzar els teus xats i mantenir-ho tot al seu lloc:
 
@@ -132,27 +132,26 @@ pots tornar al missatge original en el xat d'on prové.
 
 Els missatges es mantenen desats fins i tot si s'editen o esborren, ja sigui  pel [remitent](#edit), per [neteja del dispositiu](#delold) o per [missatges efímers d'altres xats](#ephemeralmsgs).
 
-### How do pinned messages work? {#pin-messages}
+### Com es poden fixar missatges? {#pin-messages}
 
-**Pin important messages** such as an address, a meeting time or the rules of a group,
-so everyone can find them quickly.
-Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
-pinned messages are visible to **all chat members**.
+**Fixar missatges importants** com  una adreça, l'hora d'una cita o les normes d'un grup,
+per a que tothom ho pugui trobar rapidament.
+A diferència dels [xats fixats](#pin-chats) que organitza la _teva_ llista de xats,
+els missatges fixats són visibles per a **tots els membres**.
 
-- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
-  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
-  Unpinning also affects all chat members, not only you.
+- Al xat que vulguis fixar el missatge, mantingues premut o fes click dret al missatge i tria <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Fixar**.
+  per desfixar-lo, tria <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Desfixar** del mateix menu.
+  Desfixar també afecta a tothom del xat.
 
-- Pinned messages are shown in a **bar at the top of the chat**.
-  Tap the bar to jump to the pinned message.
-  If there are several, you can step through them.
+- Els missatges fixats es mostren en una **barra a dalt de tot del xat**.
+ Prem la barra per saltar al missatge fixat.
+ Si n'hi ha més d'un, pots saltar d'un a l'altre.
 
-- If you pin an [app](#webxdc), it gets a **start button**
-  so that everyone has easy access to it without scrolling or searching around.
+- Si fixes una [app](#webxdc), es mostra un **botó de Start**, d'aquesta manera tothom té fàcil accés sense haver-la de buscar.
 
-- There is no limit on the number of pinned messages or on how long they stay pinned.
+- No hi ha límit en el nombre ni per quan de temps poden romandre els missatges fixats.
 
-To keep messages just for yourself, use [Saved Messages](#save).
+Per guardar missatges només per a tu, utilitza [Missatges desats](#save).
 
 ### Què significa el punt verd?
 
