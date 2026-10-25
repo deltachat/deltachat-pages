@@ -349,8 +349,7 @@ can still write, but are no longer notified of any new messages.
 You can duplicate a group to start a separate discussion
 or to exclude members without them noticing.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Open the group profile and tap **Clone Chat**.
 
 - Set a new name, choose an avatar, and adjust the member list if needed.
 
