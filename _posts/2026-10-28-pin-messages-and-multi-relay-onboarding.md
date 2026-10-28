@@ -26,7 +26,7 @@ If one of your relays fails, Delta Chat automatically falls back to another, ens
 
 ## Preparing for the future: Post-Quantum Cryptography
 
-<img src="../assets/blog/2026-10-28-pqc-future-loading.jpg" />
+<img src="../assets/blog/2026-10-28-pqc-future-loading.png" />
 <!-- original image source: https://www.publicdomainpictures.net/en/view-image.php?image=221604&picture=future-downloading -->
 
 Delta Chat now supports Post-Quantum Cryptography (PQC). While PQC keys aren't used by default yet, this preparation step ensures forward compatibility with future versions of Delta Chat where it will be the standard. Older Delta Chat clients will already be able to handle them without any incompatibility issues.
