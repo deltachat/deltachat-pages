@@ -21,7 +21,7 @@ This makes it easy to find group rules,
 important announcements or quickly access mini-apps that are used often,
 without endless scrolling.
 
-## More decentralized but just as simple
+## More decentralized, but just as simple
 
 **XXX: add screenshot from desktop or iOS showing the instant onboarding screen without the nine.testrun.org and another one showing 3 random relays selected**
 
