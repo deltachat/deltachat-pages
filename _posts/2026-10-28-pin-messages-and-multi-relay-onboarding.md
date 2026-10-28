@@ -11,11 +11,11 @@ We've moved away from centralized default onboarding,
 added Post-Quantum Cryptography support,
 and polished the UI across all platforms.
 
-## Pinned Messages
+## Pinned Messages are here
 
 **XXX: add screenshot**
 
-Keep important information right at hand.
+A long-awaited feature to keep important information right at hand.
 You can now pin relevant or frequently needed messages to the top of your chats.
 This makes it easy to find group rules,
 important announcements or quickly access mini-apps that are used often,
@@ -43,7 +43,7 @@ avoiding the loss of messages while you are giving your profile a new home.
 
 ## Preparations for a Post-Quantum Future
 
-<img src="../assets/blog/2026-10-28-pqc-future-loading.png" />
+<img src="../assets/blog/2026-10-28-pqc-future-loading.webp" />
 <!-- original image source: https://www.publicdomainpictures.net/en/view-image.php?image=221604&picture=future-downloading -->
 
 Delta Chat now supports Post-Quantum Cryptography (PQC).
@@ -63,10 +63,13 @@ while advanced debugging information (meant primarily for developers) has been m
 
 ## Forgotten Gems
 
+<img src="../assets/blog/2026-10-28-gemstones.png" />
+<!-- original image source: https://www.pexels.com/photo/person-holding-gemstones-7965819/ -->
+
 Some of the features listed here actually landed before 2.64.0 releases.
-Honestly, we were so busy shipping the next batch of improvements
-that they didn't get a chance to shine.
-So let's recap:
+Honestly, we were so busy working on the next batch of improvements
+that they didn't get a chance to shine in this blog.
+So let's recap.
 
 ### Reactions in channels and nicer reactions details
 
