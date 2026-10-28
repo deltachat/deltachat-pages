@@ -4,84 +4,136 @@ author: "Delta Chat team"
 image: ../assets/blog/2026-10-28-pin-messages-preview.jpg
 ---
 
-Delivery time! The latest Delta Chat releases bring improvements in resilience, decentralization and everyday usability. We've moved away from centralized default onboarding, added Post-Quantum Cryptography support, and polished the UI across all platforms.
+Delivery time!
+The latest Delta Chat releases
+bring improvements in resilience, decentralization and everyday usability.
+We've moved away from centralized default onboarding,
+added Post-Quantum Cryptography support,
+and polished the UI across all platforms.
 
 ## Pinned Messages
 
 **XXX: add screenshot**
 
-Keep important information always at hand. You can now pin relevant or frequently needed messages to the top of your chats, making it easy to find group rules, announcements/news or quickly access a mini-app that is used often.
+Keep important information right at hand.
+You can now pin relevant or frequently needed messages to the top of your chats.
+This makes it easy to find group rules,
+important announcements or quickly access mini-apps that are used often,
+without endless scrolling.
 
 ## More decentralized but just as simple
 
 **XXX: add screenshot from desktop or iOS showing the instant onboarding screen without the nine.testrun.org and another one showing 3 random relays selected**
 
-We are no longer onboarding new users into a single default relay. Instead, new setups are automatically distributed across multiple independent relays. This ensures no single point of failure and keeps the network truly decentralized while for the users the onboarding experience is just as simple as before.
+We are no longer onboarding new users into a single default relay.
+Instead, new setups are automatically distributed across multiple independent relays.
+This ensures no single point of failure
+and keeps the network truly decentralized
+while for the users the onboarding experience is just as simple as before.
 
 ## Improved Resilience: Relay auto-fallback & seamless sync
 
 **XXX: maybe add a screenshot of someone's sent message "AWS us-east-1 is down again, half the internet is down, but somehow my messages still go out here" with read receipts**
 
-If one of your relays fails, Delta Chat automatically falls back to another, ensuring your messages always get through. If you add or remove relays, the changes sync seamlessly with your contacts. You don't need to manually notify your contacts, so it is less likely you would lose a message while migrating to a new home for your profile.
+If one of your relays fails, Delta Chat automatically falls back to another,
+ensuring your messages always get through.
+If you add or remove relays, the changes sync seamlessly with your contacts.
+You don't need to manually notify your contacts,
+avoiding the loss of messages while you are giving your profile a new home.
 
-## Preparing for the future: Post-Quantum Cryptography
+## Preparations for a Post-Quantum Future
 
 <img src="../assets/blog/2026-10-28-pqc-future-loading.png" />
 <!-- original image source: https://www.publicdomainpictures.net/en/view-image.php?image=221604&picture=future-downloading -->
 
-Delta Chat now supports Post-Quantum Cryptography (PQC). While PQC keys aren't used by default yet, this preparation step ensures forward compatibility with future versions of Delta Chat where it will be the standard. Older Delta Chat clients will already be able to handle them without any incompatibility issues.
+Delta Chat now supports Post-Quantum Cryptography (PQC).
+While PQC keys aren't used by default yet,
+this preparation step ensures forward compatibility
+with future versions of Delta Chat where it will be the standard.
+Older Delta Chat clients will already be able to handle them without any incompatibility issues.
 
 
-## Better message info
+## Better Message Info
 
-**XXX: add screenshot**
+**XXX: [android|ios] add screenshot**
 
-Now you can nicely see the list of contacts that read your message when accessing the message info, the advanced debugging info, meant for developers and troubleshooting, was moved to the menu in that dialog.
+Checking who has read your message is now much cleaner across all platforms.
+The list of contacts is clearly visible,
+while advanced debugging information (meant primarily for developers) has been moved away into the dialog's menu.
 
-## Oldie but goodie
+## Forgotten Gems
 
-Some of the features listed here were already available even before 2.64.0 releases, but honestly we were so busy shipping the next batch of improvements that they didn't get a chance to shine, so let's recap:
+Some of the features listed here actually landed before 2.64.0 releases.
+Honestly, we were so busy shipping the next batch of improvements
+that they didn't get a chance to shine.
+So let's recap:
 
 ### Reactions in channels and nicer reactions details
 
-**XXX: add screenshot of a channel with reactions and the reactions details**
+**XXX: [android] add screenshot of a channel with reactions and the reactions details**
 
-Channels just got more interactive. You can now react to messages in channels, allowing to get some feedback from subscribers and making them look more alive. The reactions details dialog also got polished in the process. For now just a handful of default reactions are allowed but the idea is to allow channel owners to personalize what reactions are allowed in their channel, stay tuned!
+Channels just got more interactive.
+You can now react to messages in channels,
+allowing to get some feedback from subscribers and making them look more alive.
+The reactions details dialog also got polished in the process.
+For now just a handful of default reactions are allowed
+but the idea is to allow channel owners to personalize what reactions are allowed in their channel,
+stay tuned!
 
-### Delta Chat iOS now has LiquidGlass support
+### Delta Chat iOS now has Liquid Glass support
 
-**XXX: here say something about what is nicer now?**
+**XXX: add screenshot**
 
-### Mark chat as unread
-
-You want to read a chat but you can't answer now and want to come back to it later? We got you covered with the new "Mark as unread" option available in the chat list.
-
-On the other side of the spectrum, the feature to mark whole profile as read has landed across all platforms.
-
-
-### Improved image quality
-
-To the joy of every family chat, the photos you share now look noticeably sharper and retain more detail.
-
-### Multi-select everywhere
-
-Multi-select is now fully supported on all platforms, including a long-requested implementation for Desktop.
+Delta Chat iOS added support for Apple's new Liquid Glass UI language,
+looking more integrated in such devices.
 
 ### In-app upgrades on Android
 
-**XXX**
+**XXX: add screenshot**
+
+If you like to get the Android apk directly from us,
+ex. via our download page or GitHub, without any store in the middle,
+we have great news for you!
+Now the app will notify you when there is a new release and smoothly allow you to directly download and install the new version.
+Don't worry, this doesn't work by pinging some central server,
+instead the information is provided by the chatmail relays you are already connecting to!
+
+### Mark chat as unread
+
+Want to read a chat now but answer later?
+We've got you covered with the new "Mark as unread" option
+in the chat's context menu in the chat list.
+
+On the other end of the spectrum,
+the ability to mark a whole profile as read has landed across all platforms.
+
+### Improved image quality
+
+To the joy of every family chat,
+the photos you share now look noticeably sharper and retain more detail.
+
+### Multi-select everywhere
+
+Multi-select is now fully supported on all platforms,
+including a long-requested implementation for Desktop.
 
 ### New Webxdc APIs
 
-Mini-apps have now access to the new `webxdc.isAppSender` and `webxdc.isBroadcast` APIs, enabling smarter and more context-aware app experiences.
+Mini-apps now have access to the new `webxdc.isAppSender` and `webxdc.isBroadcast` APIs,
+enabling smarter and more context-aware app experiences within groups and channels.
 
 ## Get the Update
 
-Visit [get.delta.chat](https://get.delta.chat) or your preferred store to grab the update and try out the new features, [let us know](/contribute#translations-and-bug-reports) in you encounter any problem.
+Visit [get.delta.chat](https://get.delta.chat) or your preferred store to grab the update and try out the new features.
+Please [let us know](/contribute#translations-and-bug-reports) if you encounter any problems.
 
-Curious for more? For the complete lists of changes see:
-- [Desktop changes](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md) 
-- [Android changes](https://github.com/deltachat/deltachat-android/blob/main/CHANGELOG.md)
-- [iOS changes](https://github.com/deltachat/deltachat-ios/blob/main/CHANGELOG.md)
-- [Ubuntu Touch changes](https://codeberg.org/lk108/deltatouch/src/branch/main/CHANGELOG)
-- [Chatmail Core changes](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
+## Final Remarks
+
+Thanks for making it to the end of this post!
+If you would like to support our efforts, please consider
+[contributing or donating](https://delta.chat/en/contribute),
+running a [chatmail relay](https://chatmail.at/relays),
+trying out the enjoyable experience of creating [secure mini-apps](https://webxdc.org)
+or just leaving us a review in your app store of choice.
+
+♥ **thanks for following and supporting us** ♥
