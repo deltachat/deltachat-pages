@@ -83,4 +83,5 @@ Curious for more? For the complete lists of changes see:
 - [Desktop changes](https://github.com/deltachat/deltachat-desktop/blob/main/CHANGELOG.md) 
 - [Android changes](https://github.com/deltachat/deltachat-android/blob/main/CHANGELOG.md)
 - [iOS changes](https://github.com/deltachat/deltachat-ios/blob/main/CHANGELOG.md)
+- [Ubuntu Touch changes](https://codeberg.org/lk108/deltatouch/src/branch/main/CHANGELOG)
 - [Chatmail Core changes](https://github.com/chatmail/core/blob/main/CHANGELOG.md)
