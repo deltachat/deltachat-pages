@@ -101,27 +101,28 @@ Now the app will notify you when there is a new release and smoothly allow you t
 Don't worry, this doesn't work by pinging some central server,
 instead the information is provided by the chatmail relays you are already connecting to!
 
-### Mark chat as unread
+### And more!
 
+Some more improvements deserving an honorable mention:
+
+**Mark chat as unread:**
 Want to read a chat now but answer later?
 We've got you covered with the new "Mark as unread" option
 in the chat's context menu in the chat list.
 
+**Mark profile as read:**
 On the other end of the spectrum,
-the ability to mark a whole profile as read has landed across all platforms.
+the ability to mark a whole profile as read has landed across all platforms!
 
-### Improved image quality
-
-To the joy of every family chat,
+**Improved image quality:**
+To the joy of every family chat out there,
 the photos you share now look noticeably sharper and retain more detail.
 
-### Multi-select everywhere
-
+**Multi-select everywhere:**
 Multi-select is now fully supported on all platforms,
 including a long-requested implementation for Desktop.
 
-### New Webxdc APIs
-
+**New Webxdc APIs:**
 Mini-apps now have access to the new `webxdc.isAppSender` and `webxdc.isBroadcast` APIs,
 enabling smarter and more context-aware app experiences within groups and channels.
 
