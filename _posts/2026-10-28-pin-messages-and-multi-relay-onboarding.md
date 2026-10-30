@@ -15,8 +15,8 @@ But let's start with a long awaited feature:
 
 ## Pinned Messages are here
 
-<img src="../assets/blog/2026-10-28-pin-msg-desktop.png" style="width:49%"/>
-<img src="../assets/blog/2026-10-28-pin-msg-ios.png" style="width:49%"
+<img src="../assets/blog/2026-10-28-pin-msg-desktop.png" />
+<img src="../assets/blog/2026-10-28-pin-msg-ios.png"
 alt="XXX: add iOS screenshot" />
 
 
@@ -29,11 +29,12 @@ without endless scrolling.
 
 ## More decentralized, but just as simple
 
-**XXX: add screenshot from desktop or iOS showing the instant onboarding screen without the nine.testrun.org and another one showing 3 random relays selected**
-XXX: maybe add to relay FAQ
+<img src="../assets/blog/2026-10-28-instant-onboarding-ios.png"
+alt="XXX: iOS instant onboarding screen" />
+<img src="../assets/blog/2026-10-28-relays-desktop.png" />
 
 
-The moment we introduced nine.testrun.org as default onboarding relay,
+The moment we introduced nine.testrun.org as default onboarding [relay](/help#relays),
 we already knew that we would work towards removing it.
 It should not become a central point of failure.
 At the same time, we could not just onboard users to a random single relay
