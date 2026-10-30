@@ -76,9 +76,9 @@ without incompatibility issues.
 
 Speaking of the future:
 with upcoming releases,
-it will not be possible to disable encryption.
 Users will have the guarantee,
-that everything sent or received is encrypted, without exception.
+that everything sent or received is encrypted,
+without exception.
 
 If you still use Delta Chat for unencrypted messages with classic email addresses,
 now is a good time to move to a dedicated email app
@@ -99,25 +99,31 @@ Honestly, we were so busy working on the next batch of improvements
 that they didn't get a chance to shine in this blog.
 So let's recap.
 
+
 ### Better Message Info
 
 **XXX: [android|ios] add screenshot**
 
 Checking who has read your message is now much cleaner across all platforms.
 The list of contacts is clearly visible,
-while advanced debugging information (meant primarily for developers) has been moved away into the dialog's menu.
+while advanced debugging information (meant primarily for developers)
+has been moved away into the dialog's menu.
 
-### Reactions in channels and nicer reactions details
+
+### Reactions in channels and nicer reaction details
 
 **XXX: [android] add screenshot of a channel with reactions and the reactions details**
 
 Channels just got more interactive.
 You can now react to messages in channels,
 allowing to get some feedback from subscribers and making them look more alive.
-The reactions details dialog also got polished in the process.
+The reaction details dialog also got polished in the process.
+
 For now just a handful of default reactions are allowed
-but the idea is to allow channel owners to personalize what reactions are allowed in their channel,
+but the idea is to allow channel owners
+to personalize what reactions are allowed in their channel,
 stay tuned!
+
 
 ### Delta Chat iOS now has Liquid Glass support
 
@@ -130,9 +136,10 @@ looking more integrated in such devices.
 
 **XXX: add screenshot**
 
-If you like to get the Android apk directly from us,
-ex. via our download page or GitHub, without any store in the middle,
+If you like to get the Android APK-file directly from us,
+without any big tech store in the middle,
 we have great news for you!
+
 Now the app will notify you when there is a new release and smoothly allow you to directly download and install the new version.
 Don't worry, this doesn't work by pinging some central server,
 instead the information is provided by the chatmail relays you are already connecting to!
