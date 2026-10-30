@@ -15,7 +15,10 @@ But let's start with a long awaited feature:
 
 ## Pinned Messages are here
 
-**XXX: add screenshot**
+<img src="../assets/blog/2026-10-28-pin-msg-desktop.png" style="width:49%"/>
+<img src="../assets/blog/2026-10-28-pin-msg-ios.png" style="width:49%"
+alt="XXX: add iOS screenshot" />
+
 
 **Keep important information** right at hand.
 You can now pin relevant or frequently needed messages to the top of your chats.
