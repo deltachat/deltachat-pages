@@ -77,7 +77,8 @@ without incompatibility issues.
 Speaking of the future:
 with upcoming releases,
 it will not be possible to disable encryption.
-Users will have the guarantee, that everything is encrypted, always.
+Users will have the guarantee,
+that everything sent or received is encrypted, without exception.
 
 If you still use Delta Chat for unencrypted messages with classic email addresses,
 now is a good time to move to a dedicated email app
