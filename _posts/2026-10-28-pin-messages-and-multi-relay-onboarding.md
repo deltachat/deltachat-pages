@@ -25,7 +25,12 @@ without endless scrolling.
 
 **XXX: add screenshot from desktop or iOS showing the instant onboarding screen without the nine.testrun.org and another one showing 3 random relays selected**
 
-We are no longer onboarding new users into a single default relay.
+From the very moment we introduced nine.testrun.org relay as default relay for onboarding,
+we knew that we should work towards removing it to avoid it becoming a central point of failure.
+We couldn't just onboard users in a random single relay because if it goes down then its users would be left incommunicated, and we give great value to stability and reliability.
+
+Today we finally reached that milestone:
+we are no longer onboarding new users into a single default relay.
 Instead, new setups are automatically distributed across multiple independent relays.
 This ensures no single point of failure
 and keeps the network truly decentralized
