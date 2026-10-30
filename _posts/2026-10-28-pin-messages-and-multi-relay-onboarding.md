@@ -4,12 +4,14 @@ author: "Delta Chat team"
 image: ../assets/blog/2026-10-28-pin-messages-preview.jpg
 ---
 
-Delivery time!
-The latest Delta Chat releases
-bring improvements in resilience, decentralization and everyday usability.
-We've made onboarding more decentralized and resilient,
-added Post-Quantum Cryptography support,
-and polished the UI across all platforms.
+Delivery time! Delta Chat has always been decentralized,
+and the latest releases take this even further,
+along with improvements in resilience and everyday usability.
+
+New users are now spread across multiple independent relays by default,
+we've added Post-Quantum Cryptography support,
+and polished the UI across all platforms ... 
+and there are pinned messages 🎉 ... last things first:
 
 ## Pinned Messages are here
 
@@ -60,14 +62,21 @@ this preparation step ensures forward compatibility
 with future versions of Delta Chat where it will be the standard.
 Older Delta Chat clients will already be able to handle them without any incompatibility issues.
 
+## End-to-end encrypted, always
 
-## Better Message Info
+Speaking of the future:
+with upcoming releases, Delta Chat becomes *end-to-end encrypted, always*.
+Every message you send or receive will be encrypted,
+without exceptions and without you having to double-check.
 
-**XXX: [android|ios] add screenshot**
+If you still use Delta Chat for unencrypted messages with classic email addresses,
+now is a good time to move that to a dedicated email app
+such as Thunderbird, FairEmail or Claws Mail.
 
-Checking who has read your message is now much cleaner across all platforms.
-The list of contacts is clearly visible,
-while advanced debugging information (meant primarily for developers) has been moved away into the dialog's menu.
+Signal took a similar step in 2022 by
+[dropping plain-text SMS support](https://signal.org/blog/sms-removal-android/),
+and we share most of their reasoning.
+
 
 ## Forgotten Gems
 
@@ -78,6 +87,14 @@ Some of the features listed here actually landed before 2.64.0 releases.
 Honestly, we were so busy working on the next batch of improvements
 that they didn't get a chance to shine in this blog.
 So let's recap.
+
+### Better Message Info
+
+**XXX: [android|ios] add screenshot**
+
+Checking who has read your message is now much cleaner across all platforms.
+The list of contacts is clearly visible,
+while advanced debugging information (meant primarily for developers) has been moved away into the dialog's menu.
 
 ### Reactions in channels and nicer reactions details
 
