@@ -29,8 +29,7 @@ without endless scrolling.
 
 ## More decentralized, but just as simple
 
-<img src="../assets/blog/2026-10-28-instant-onboarding-ios.png"
-alt="XXX: iOS instant onboarding screen" />
+<img src="../assets/blog/2026-10-28-instant-onboarding-desktop.png" />
 <img src="../assets/blog/2026-10-28-relays-desktop.png" />
 
 
