@@ -7,7 +7,7 @@ image: ../assets/blog/2026-10-28-pin-messages-preview.jpg
 Delivery time!
 The latest Delta Chat releases
 bring improvements in resilience, decentralization and everyday usability.
-We've moved away from centralized default onboarding,
+We've made onboarding more decentralized and resilient,
 added Post-Quantum Cryptography support,
 and polished the UI across all platforms.
 
