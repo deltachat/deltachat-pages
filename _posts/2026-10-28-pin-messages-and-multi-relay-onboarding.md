@@ -106,7 +106,7 @@ So let's recap.
 
 ### Better Message Info
 
-**XXX: [android|ios] add screenshot**
+<img src="../assets/blog/2026-10-28-msg-info-android.jpg" />
 
 Checking who has read your message is now much cleaner across all platforms.
 The list of contacts is clearly visible,
@@ -116,7 +116,7 @@ has been moved away into the dialog's menu.
 
 ### Reactions in channels and nicer reaction details
 
-**XXX: [android] add screenshot of a channel with reactions and the reactions details**
+<img src="../assets/blog/2026-10-28-reaction-details.jpg" />
 
 Channels just got more interactive.
 You can now react to messages in channels,
@@ -139,7 +139,8 @@ looking more integrated in such devices.
 
 ### In-app upgrades on Android
 
-**XXX: add screenshot**
+<img src="../assets/blog/2026-10-28-app-update2-android.jpg" />
+<img src="../assets/blog/2026-10-28-app-update-android.jpg" />
 
 If you like to get the Android APK-file directly from us,
 without any big tech store in the middle,
