@@ -41,7 +41,7 @@ while for the users the onboarding experience is just as simple as before.
 
 ## Improved Resilience: Relay auto-fallback & seamless sync
 
-**XXX: maybe add a screenshot of someone's sent message "AWS us-east-1 is down again, half the internet is down, but somehow my messages still go out here" with read receipts**
+<img src="../assets/blog/2026-10-28-chat-us-east-1.jpg" />
 
 If one of your relays fails, Delta Chat automatically falls back to another,
 ensuring your messages always get through.
