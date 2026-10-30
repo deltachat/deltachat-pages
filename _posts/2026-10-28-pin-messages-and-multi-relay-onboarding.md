@@ -1,7 +1,7 @@
 ---
 title: "Delta Chat 2.64.0: more resilience, decentralization and new features!"
 author: "Delta Chat team"
-image: ../assets/blog/2026-10-28-pin-messages-preview.jpg
+image: ../assets/blog/2026-10-28-pqc-future-loading.webp
 ---
 
 Delivery time! Delta Chat has always been decentralized,
