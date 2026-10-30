@@ -75,13 +75,13 @@ without incompatibility issues.
 ## End-to-end encrypted, always
 
 Speaking of the future:
-with upcoming releases, Delta Chat becomes *end-to-end encrypted, always*.
-Every message you send or receive will be encrypted,
-without exceptions and without you having to double-check.
+with upcoming releases,
+it will not be possible to disable encryption.
+Users will have the guarantee, that everything is encrypted, always.
 
 If you still use Delta Chat for unencrypted messages with classic email addresses,
-now is a good time to move that to a dedicated email app
-such as Thunderbird, FairEmail or Claws Mail.
+now is a good time to move to a dedicated email app
+such as Thunderbird, FairEmail or K-9 Mail.
 
 Signal took a similar step in 2022 by
 [dropping plain-text SMS support](https://signal.org/blog/sms-removal-android/),
