@@ -25,8 +25,8 @@ without endless scrolling.
 
 **XXX: add screenshot from desktop or iOS showing the instant onboarding screen without the nine.testrun.org and another one showing 3 random relays selected**
 
-From the very moment we introduced nine.testrun.org relay as default relay for onboarding,
-we knew that we should work towards removing it
+From the very moment we introduced nine.testrun.org as default onboarding relay,
+we knew that we should work towards removing it,
 to avoid it becoming a central point of failure.
 We couldn't just onboard users in a random single relay
 because if it goes down then its users would be left unable to communicate,
