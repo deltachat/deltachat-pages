@@ -9,47 +9,56 @@ and the latest releases take this even further,
 along with improvements in resilience and everyday usability.
 
 New users are now spread across multiple independent relays by default,
-we've added Post-Quantum Cryptography support,
-and polished the UI across all platforms ... 
-and there are pinned messages 🎉 ... last things first:
+we've added Post-Quantum Cryptography support.
+But let's start with a long awaited feature:
+
 
 ## Pinned Messages are here
 
 **XXX: add screenshot**
 
-A long-awaited feature to keep important information right at hand.
+**Keep important information** right at hand.
 You can now pin relevant or frequently needed messages to the top of your chats.
 This makes it easy to find group rules,
-important announcements or quickly access mini-apps that are used often,
+important announcements or quickly **access mini-apps** that are used often,
 without endless scrolling.
+
 
 ## More decentralized, but just as simple
 
 **XXX: add screenshot from desktop or iOS showing the instant onboarding screen without the nine.testrun.org and another one showing 3 random relays selected**
+XXX: maybe add to relay FAQ
+
 
 The moment we introduced nine.testrun.org as default onboarding relay,
-we knew that we should work towards removing it,
-to avoid it becoming a central point of failure.
-We couldn't just onboard users in a random single relay
-because if it goes down then its users would be left unable to communicate,
-and we give great value to stability and reliability.
+we already knew that we would work towards removing it.
+It should not become a central point of failure.
+At the same time, we could not just onboard users to a random single relay
+because if it goes down then its users would be left unable to communicate.
 
-Today we've finally reached that milestone:
-we are no longer onboarding new users into a single default relay.
-Instead, new setups are automatically distributed across multiple independent relays.
+Today we've finally reached a milestone:
+
+**New profiles are automatically distributed across multiple independent relays.**
 This ensures no single point of failure
-and keeps the network truly decentralized
-while for the users the onboarding experience is just as simple as before.
+and keeps the network truly decentralized.
+For the users, however, the onboarding experience is just **as simple as before.**
 
-## Improved Resilience: Relay auto-fallback & seamless sync
+
+## Improved Resilience: Relay auto-fallback
 
 <img src="../assets/blog/2026-10-28-chat-us-east-1.jpg" />
 
-If one of your relays fails, Delta Chat automatically falls back to another,
-ensuring your messages always get through.
-If you add or remove relays, the changes sync seamlessly with your contacts.
-You don't need to manually notify your contacts,
-avoiding the loss of messages while you are giving your profile a new home.
+If one of your relays fails on sending a message,
+Delta Chat automatically falls back to another,
+ensuring your **messages always get through.**
+
+If you add or remove relays,
+your contacts follow these changes automatically,
+so that **messages will always reach you** seamlessly.
+
+To be clear: Most user do not need to change relays manually,
+and in the future we aim to detect and replace broken relays automatically.
+
 
 ## Preparations for a Post-Quantum Future
 
@@ -57,10 +66,10 @@ avoiding the loss of messages while you are giving your profile a new home.
 <!-- original image source: https://www.publicdomainpictures.net/en/view-image.php?image=221604&picture=future-downloading -->
 
 Delta Chat now supports Post-Quantum Cryptography (PQC).
-While PQC keys aren't used by default yet,
-this preparation step ensures forward compatibility
-with future versions of Delta Chat where it will be the standard.
-Older Delta Chat clients will already be able to handle them without any incompatibility issues.
+While PQC keys are not used by default yet,
+this preparation step ensures forward compatibility to future versions of Delta Chat 
+without incompatibility issues.
+
 
 ## End-to-end encrypted, always
 
