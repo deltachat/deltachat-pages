@@ -15,7 +15,7 @@ But let's start with a long awaited feature:
 
 ## Pinned Messages are here
 
-<img src="../assets/blog/2026-10-28-pin-msg-desktop.png" />
+<img src="../assets/blog/2026-10-28-pin-msg-android.jpg" />
 <img src="../assets/blog/2026-10-28-pin-msg-ios.png"
 alt="XXX: add iOS screenshot" />
 
