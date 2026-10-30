@@ -29,7 +29,7 @@ From the very moment we introduced nine.testrun.org relay as default relay for o
 we knew that we should work towards removing it to avoid it becoming a central point of failure.
 We couldn't just onboard users in a random single relay because if it goes down then its users would be left incommunicated, and we give great value to stability and reliability.
 
-Today we finally reached that milestone:
+Today we've finally reached that milestone:
 we are no longer onboarding new users into a single default relay.
 Instead, new setups are automatically distributed across multiple independent relays.
 This ensures no single point of failure
