@@ -132,6 +132,7 @@ stay tuned!
 Delta Chat iOS added support for Apple's new Liquid Glass UI language,
 looking more integrated in such devices.
 
+
 ### In-app upgrades on Android
 
 **XXX: add screenshot**
@@ -140,9 +141,12 @@ If you like to get the Android APK-file directly from us,
 without any big tech store in the middle,
 we have great news for you!
 
-Now the app will notify you when there is a new release and smoothly allow you to directly download and install the new version.
+Now the app will notify you when there is a new release
+and smoothly allow you to directly download and install the new version.
+
 Don't worry, this doesn't work by pinging some central server,
 instead the information is provided by the chatmail relays you are already connecting to!
+
 
 ### And more!
 
@@ -169,10 +173,13 @@ including a long-requested implementation for Desktop.
 Mini-apps now have access to the new `webxdc.isAppSender` and `webxdc.isBroadcast` APIs,
 enabling smarter and more context-aware app experiences within groups and channels.
 
+
 ## Get the Update
 
-Visit [get.delta.chat](https://get.delta.chat) or your preferred store to grab the update and try out the new features.
+Visit [get.delta.chat](https://get.delta.chat) or your preferred store to grab the update
+and try out the new features.
 Please [let us know](/contribute#translations-and-bug-reports) if you encounter any problems.
+
 
 ## Final Remarks
 
