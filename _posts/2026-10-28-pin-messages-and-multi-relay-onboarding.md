@@ -60,10 +60,11 @@ To be clear: Most user do not need to change relays manually,
 and in the future we aim to detect and replace broken relays automatically.
 
 
-## Preparations for a Post-Quantum Future
-
-<img src="../assets/blog/2026-10-28-pqc-future-loading.webp" />
+<img src="../assets/blog/2026-10-28-pqc-future-loading.webp" style="margin-top: 3em;" />
 <!-- original image source: https://www.publicdomainpictures.net/en/view-image.php?image=221604&picture=future-downloading -->
+
+
+## Preparations for a Post-Quantum Future
 
 Delta Chat now supports Post-Quantum Cryptography (PQC).
 While PQC keys are not used by default yet,
