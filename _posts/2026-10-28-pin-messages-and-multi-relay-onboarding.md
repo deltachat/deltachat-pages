@@ -68,7 +68,7 @@ and in the future we aim to detect and replace broken relays automatically.
 
 ## Preparations for a Post-Quantum Future
 
-Delta Chat now supports Post-Quantum Cryptography (PQC).
+Delta Chat now supports **Post-Quantum Cryptography (PQC)**.
 While PQC keys are not used by default yet,
 this preparation step ensures forward compatibility to future versions of Delta Chat 
 without incompatibility issues.
@@ -80,7 +80,7 @@ Speaking of the future:
 with upcoming releases,
 Users will have the guarantee,
 that everything sent or received is encrypted,
-without exception.
+**without exception.**
 
 If you still use Delta Chat for unencrypted messages with classic email addresses,
 now is a good time to move to a dedicated email app
@@ -106,9 +106,9 @@ So let's recap.
 
 <img src="../assets/blog/2026-10-28-msg-info-android.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
 
-Checking who has read your message is now much cleaner across all platforms.
+Checking **who has read your message** and **when** is now much cleaner across all platforms.
 The list of contacts is clearly visible,
-while advanced debugging information (meant primarily for developers)
+while advanced debugging information (meant primarily for us developers)
 has been moved away into the dialog's menu.
 
 
@@ -116,7 +116,7 @@ has been moved away into the dialog's menu.
 
 <img src="../assets/blog/2026-10-28-reaction-details.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
 
-Channels just got more interactive.
+**Channels just got more interactive.**
 You can now react to messages in channels,
 allowing to get some feedback from subscribers and making them look more alive.
 The reaction details dialog also got polished in the process.
@@ -131,8 +131,10 @@ stay tuned!
 
 <img src="../assets/blog/2026-10-28-liquid-glass.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;">
 
-Delta Chat iOS added support for Apple's new Liquid Glass UI language,
-looking more integrated in such devices.
+The Delta Chat iOS app added support for Apple's new Liquid Glass UI language,
+making it look much **more integrated.**
+But we not only switched to some new controls,
+but also took the chance and **renovated** quite some views and menus.
 
 
 ### In-app upgrades on Android
@@ -141,8 +143,8 @@ If you like to get the Android APK-file directly from us,
 without any big tech store in the middle,
 we have great news for you!
 
-Now the app will notify you when there is a new release
-and smoothly allow you to directly download and install the new version.
+Now the app will **notify you when there is a new release**
+and smoothly allow you to **directly download and install** the new version.
 
 Don't worry, this doesn't work by pinging some central server,
 instead the information is provided by the chatmail relays you are already connecting to!
