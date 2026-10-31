@@ -77,9 +77,10 @@ so future versions can turn them on without breaking anything.
 ## End-to-end encrypted, always
 
 Speaking of the future:
-with upcoming releases,
-Users will have the guarantee,
-that everything sent or received is encrypted,
+with [Delta Chat V2](https://delta.chat/en/2025-08-04-encryption-v2),
+chats became end-to-end encrypted _by default_.
+With upcoming releases, we go another step further:
+everything you send or receive will be encrypted,
 **without exception.**
 
 If you still use Delta Chat for unencrypted messages with classic email addresses,
