@@ -147,8 +147,8 @@ we have great news for you!
 Now the app will **notify you when there is a new release**
 and smoothly allow you to **directly download and install** the new version.
 
-Don't worry, this doesn't ping some central server.
-Instead, the information comes from the chatmail relays you are already connected to!
+The information about new versions available
+comes from the chatmail relays you are already connected to.
 
 <img src="../assets/blog/2026-10-28-app-update2-android.jpg" style="width: 320px; margin-right:1em;" />
 <img src="../assets/blog/2026-10-28-app-update-android.jpg" style="width: 320px;" />
