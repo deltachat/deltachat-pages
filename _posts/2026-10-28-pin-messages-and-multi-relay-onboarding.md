@@ -1,5 +1,5 @@
 ---
-title: "Delta Chat 2.64.0: more resilience, decentralization and new features!"
+title: "Delta Chat 2.64: more resilience, decentralization and new features!"
 author: "Delta Chat team"
 image: ../assets/blog/2026-10-28-pqc-future-loading.webp
 ---
@@ -96,7 +96,7 @@ and we share most of their reasoning.
 <img src="../assets/blog/2026-10-28-gemstones.png" />
 <!-- original image source: https://www.pexels.com/photo/person-holding-gemstones-7965819/ -->
 
-Some of the features listed here actually landed before 2.64.0 releases.
+Some of the features listed here actually landed before 2.64 releases.
 Honestly, we were so busy working on the next batch of improvements
 that they didn't get a chance to shine in this blog.
 So let's recap.
