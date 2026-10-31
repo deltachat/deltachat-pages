@@ -5,7 +5,7 @@ image: ../assets/blog/2026-10-28-pqc-future-loading.webp
 ---
 
 Delivery time! Delta Chat has always been decentralized,
-and the latest releases take this even further,
+but the latest releases take this even further,
 along with improvements in resilience and everyday usability.
 
 New users are now spread across multiple independent relays by default
