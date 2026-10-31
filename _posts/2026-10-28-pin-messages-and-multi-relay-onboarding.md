@@ -15,8 +15,8 @@ But let's start with a long awaited feature:
 
 ## Pinned Messages are here
 
-<img src="../assets/blog/2026-10-28-pin-msg-android.jpg" />
-<img src="../assets/blog/2026-10-28-pin-msg-ios.jpg">
+<img src="../assets/blog/2026-10-28-pin-msg-android.jpg" style="width:297px; margin-right:1em;" />
+<img src="../assets/blog/2026-10-28-pin-msg-ios.jpg" style="width:275px;">
 
 
 **Keep important information** right at hand.
@@ -28,8 +28,8 @@ without endless scrolling.
 
 ## More decentralized, but just as simple
 
-<img src="../assets/blog/2026-10-28-instant-onboarding-desktop.png" />
-<img src="../assets/blog/2026-10-28-relays-desktop.png" />
+<img src="../assets/blog/2026-10-28-instant-onboarding-desktop.png" style="width:320px; margin-right:1em;" />
+<img src="../assets/blog/2026-10-28-relays-desktop.png" style="width:442px;" />
 
 
 The moment we introduced nine.testrun.org as default onboarding [relay](/help#relays),
@@ -48,7 +48,7 @@ For the users, however, the onboarding experience is just **as simple as before.
 
 ## Improved Resilience: Relay auto-fallback
 
-<img src="../assets/blog/2026-10-28-chat-us-east-1.jpg" />
+<img src="../assets/blog/2026-10-28-chat-us-east-1.jpg" style="width:380px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
 
 If one of your relays fails on sending a message,
 Delta Chat automatically falls back to another,
