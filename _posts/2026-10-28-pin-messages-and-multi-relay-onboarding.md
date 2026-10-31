@@ -8,9 +8,9 @@ Delivery time! Delta Chat has always been decentralized,
 and the latest releases take this even further,
 along with improvements in resilience and everyday usability.
 
-New users are now spread across multiple independent relays by default,
-we've added Post-Quantum Cryptography support.
-But let's start with a long awaited feature:
+New users are now spread across multiple independent relays by default
+and we've added Post-Quantum Cryptography support.
+But let's start with a long-awaited feature:
 
 
 ## Pinned Messages are here
@@ -35,7 +35,7 @@ without endless scrolling.
 The moment we introduced nine.testrun.org as default onboarding [relay](/help#relays),
 we already knew that we would work towards removing it.
 It should not become a central point of failure.
-At the same time, we could not just onboard users to a random single relay
+At the same time, we could not just onboard users to a single random relay
 because if it goes down then its users would be left unable to communicate.
 
 Today we've finally reached a milestone:
@@ -43,14 +43,14 @@ Today we've finally reached a milestone:
 **New profiles are automatically distributed across multiple independent relays.**
 This ensures no single point of failure
 and keeps the network truly decentralized.
-For the users, however, the onboarding experience is just **as simple as before.**
+For users, however, the onboarding experience is just **as simple as before.**
 
 
 ## Improved Resilience: Relay auto-fallback
 
 <img src="../assets/blog/2026-10-28-chat-us-east-1.jpg" style="width:380px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
 
-If one of your relays fails on sending a message,
+If one of your relays fails to send a message,
 Delta Chat automatically falls back to another,
 ensuring your **messages always get through.**
 
@@ -58,7 +58,7 @@ If you add or remove relays,
 your contacts follow these changes automatically,
 so that **messages will always reach you** seamlessly.
 
-To be clear: Most user do not need to change relays manually,
+To be clear: most users do not need to change relays manually,
 and in the future we aim to detect and replace broken relays automatically.
 
 
@@ -70,8 +70,8 @@ and in the future we aim to detect and replace broken relays automatically.
 
 Delta Chat now supports **Post-Quantum Cryptography (PQC)**.
 While PQC keys are not used by default yet,
-this preparation step ensures forward compatibility to future versions of Delta Chat 
-without incompatibility issues.
+this release can already handle them,
+so future versions can turn them on without breaking anything.
 
 
 ## End-to-end encrypted, always
@@ -96,7 +96,7 @@ and we share most of their reasoning.
 <img src="../assets/blog/2026-10-28-gemstones.png" />
 <!-- original image source: https://www.pexels.com/photo/person-holding-gemstones-7965819/ -->
 
-Some of the features listed here actually landed before 2.64 releases.
+Some of the features listed here actually landed before the 2.64 releases.
 Honestly, we were so busy working on the next batch of improvements
 that they didn't get a chance to shine in this blog.
 So let's recap.
@@ -118,13 +118,13 @@ has been moved away into the dialog's menu.
 
 **Channels just got more interactive.**
 You can now react to messages in channels,
-allowing to get some feedback from subscribers and making them look more alive.
+letting you get feedback from subscribers and making them look more alive.
 The reaction details dialog also got polished in the process.
 
-For now just a handful of default reactions are allowed
-but the idea is to allow channel owners
-to personalize what reactions are allowed in their channel,
-stay tuned!
+For now, there is a small set of default reactions,
+but the idea is to let channel owners
+choose which reactions are allowed in their channel.
+Stay tuned!
 
 
 ### Delta Chat iOS now has Liquid Glass support
@@ -133,24 +133,25 @@ stay tuned!
 
 The Delta Chat iOS app added support for Apple's new Liquid Glass UI language,
 making it look much **more integrated.**
-But we not only switched to some new controls,
-but also took the chance and **renovated** quite some views and menus.
+Beyond the new controls,
+we also took the chance to **renovate** quite a few views and menus.
 
 
 ### In-app upgrades on Android
 
-If you like to get the Android APK-file directly from us,
+If you prefer to get the Android APK file directly from us,
 without any big tech store in the middle,
 we have great news for you!
 
 Now the app will **notify you when there is a new release**
 and smoothly allow you to **directly download and install** the new version.
 
-Don't worry, this doesn't work by pinging some central server,
-instead the information is provided by the chatmail relays you are already connecting to!
+Don't worry, this doesn't ping some central server.
+Instead, the information comes from the chatmail relays you are already connected to!
 
 <img src="../assets/blog/2026-10-28-app-update2-android.jpg" style="width: 320px; margin-right:1em;" />
 <img src="../assets/blog/2026-10-28-app-update-android.jpg" style="width: 320px;" />
+
 
 ### And more!
 
