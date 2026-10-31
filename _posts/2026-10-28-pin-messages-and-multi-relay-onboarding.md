@@ -16,8 +16,7 @@ But let's start with a long awaited feature:
 ## Pinned Messages are here
 
 <img src="../assets/blog/2026-10-28-pin-msg-android.jpg" />
-<img src="../assets/blog/2026-10-28-pin-msg-ios.png"
-alt="XXX: add iOS screenshot" />
+<img src="../assets/blog/2026-10-28-pin-msg-ios.jpg">
 
 
 **Keep important information** right at hand.
@@ -130,7 +129,7 @@ stay tuned!
 
 ### Delta Chat iOS now has Liquid Glass support
 
-**XXX: add screenshot**
+<img src="../assets/blog/2026-10-28-liquid-glass.jpg">
 
 Delta Chat iOS added support for Apple's new Liquid Glass UI language,
 looking more integrated in such devices.
