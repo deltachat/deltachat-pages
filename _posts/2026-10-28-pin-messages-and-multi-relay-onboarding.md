@@ -104,7 +104,7 @@ So let's recap.
 
 ### Better Message Info
 
-<img src="../assets/blog/2026-10-28-msg-info-android.jpg" />
+<img src="../assets/blog/2026-10-28-msg-info-android.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
 
 Checking who has read your message is now much cleaner across all platforms.
 The list of contacts is clearly visible,
@@ -114,7 +114,7 @@ has been moved away into the dialog's menu.
 
 ### Reactions in channels and nicer reaction details
 
-<img src="../assets/blog/2026-10-28-reaction-details.jpg" />
+<img src="../assets/blog/2026-10-28-reaction-details.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
 
 Channels just got more interactive.
 You can now react to messages in channels,
@@ -129,16 +129,13 @@ stay tuned!
 
 ### Delta Chat iOS now has Liquid Glass support
 
-<img src="../assets/blog/2026-10-28-liquid-glass.jpg">
+<img src="../assets/blog/2026-10-28-liquid-glass.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;">
 
 Delta Chat iOS added support for Apple's new Liquid Glass UI language,
 looking more integrated in such devices.
 
 
 ### In-app upgrades on Android
-
-<img src="../assets/blog/2026-10-28-app-update2-android.jpg" />
-<img src="../assets/blog/2026-10-28-app-update-android.jpg" />
 
 If you like to get the Android APK-file directly from us,
 without any big tech store in the middle,
@@ -150,6 +147,8 @@ and smoothly allow you to directly download and install the new version.
 Don't worry, this doesn't work by pinging some central server,
 instead the information is provided by the chatmail relays you are already connecting to!
 
+<img src="../assets/blog/2026-10-28-app-update2-android.jpg" style="width: 320px; margin-right:1em;" />
+<img src="../assets/blog/2026-10-28-app-update-android.jpg" style="width: 320px;" />
 
 ### And more!
 
