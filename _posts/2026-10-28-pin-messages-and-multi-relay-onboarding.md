@@ -40,7 +40,7 @@ because if it goes down then its users would be left unable to communicate.
 
 Today we've finally reached a milestone:
 
-**New profiles are automatically distributed across multiple independent relays.**
+**New profiles are automatically distributed across multiple independent relays**, operated by a rapidly growing community of volunteer server administrators.
 This ensures no single point of failure
 and keeps the network truly decentralized.
 For users, however, the onboarding experience is just **as simple as before.**
