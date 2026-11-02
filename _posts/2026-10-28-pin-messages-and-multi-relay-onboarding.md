@@ -8,7 +8,7 @@ Delivery time! Delta Chat has always been decentralized,
 but the latest releases take this even further,
 along with improvements in resilience and everyday usability.
 
-New users are now spread across multiple independent relays by default
+Each new profile is set up with multiple independent relays by default
 and we've added Post-Quantum Cryptography support.
 But let's start with a long-awaited feature:
 
