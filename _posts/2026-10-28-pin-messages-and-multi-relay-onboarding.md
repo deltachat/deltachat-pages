@@ -1,5 +1,5 @@
 ---
-title: "Delta Chat 2.64: more resilience, decentralization and new features!"
+title: "Delta Chat 2.64: more resilience, decentralization and pinned messages!"
 author: "Delta Chat team"
 image: ../assets/blog/2026-10-28-pqc-future-loading.webp
 ---
