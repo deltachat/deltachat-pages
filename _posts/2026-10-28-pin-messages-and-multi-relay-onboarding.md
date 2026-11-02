@@ -118,8 +118,8 @@ has been moved away into the dialog's menu.
 <img src="../assets/blog/2026-10-28-reaction-details.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
 
 **Channels just got more interactive.**
-You can now react to messages in channels,
-letting you get feedback from subscribers and making them look more alive.
+Reactions now work in channels,
+so subscribers are no longer a silent audience and owners can see what resonates.
 The reaction details dialog also got polished in the process.
 
 For now, there is a small set of default reactions,
