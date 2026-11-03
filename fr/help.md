@@ -588,7 +588,7 @@ end-to-end encrypted messages with your communication partners.
 
 ## Avancé
 
-Fonctionnalités Avancées {#experiments}
+### Fonctionnalités Avancées {#experiments}
 
 Dans **Paramètres → Avancé → Fonctionnalités expérimentales**
 vous pouvez essayer des fonctionnalités sur lesquelles nous travaillons encore.
@@ -596,9 +596,9 @@ vous pouvez essayer des fonctionnalités sur lesquelles nous travaillons encore.
 Ces fonctionnalités peuvent être **instables** et sont susceptibles d'être **modifiées ou supprimées**.
 
 Vous trouverez plus d'informations
-et pourrez donner votre avis sur le [Forum](https://forum.delta.discussion).
+et pourrez donner votre avis sur le [Forum](https://forum.delta.chat).
 
-### Qu'est ce que sont les relais ? {#relais}
+### Qu'est ce que sont les relais ? {#relays}
 
 Les relais servent à stocker temporairement les messages au cas où votre appareil serait hors ligne.
 Les relais sont des serveurs basiques et peu coûteux,
