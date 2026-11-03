@@ -82,7 +82,7 @@ Pour des raisons de confidentialité, personne ne peut voir votre photo de profi
 Oui, vous pouvez le faire dans **Paramètres → Profil → Signature**.
 À partir du moment ou vous échangez avec quelqu'un, cette personne pourra voir votre Signature en regardant les détails de votre profil.
 
-### Pin, mute and archive a chat {#pin-chats}
+### Épingler, mettre en sourdine et archiver une discussion {#pin-chats}
 
 Ces options vous permettent d'organiser et trier vos discussions :
 
@@ -115,27 +115,27 @@ En touchant <img style="vertical-align:middle; width:1.2em; margin:1px" src="../
 
 Les messages restent enregistrés même lorsqu'ils sont édités ou supprimés, que ça soit par [l'expéditeur⋅rice](#edit), par [suppression des anciens messages de l'appareil](#delold) ou par [disparition des messages éphémères au sein d'une discussion](#ephemeralmsgs).
 
-### How do pinned messages work? {#pin-messages}
+### Comment fonctionnent les messages épinglés ? {#pin-messages}
 
-**Pin important messages** such as an address, a meeting time or the rules of a group,
-so everyone can find them quickly.
-Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
-pinned messages are visible to **all chat members**.
+**Épinglez les messages importants** comme une adresse, une heure de rendez-vous ou le règlement d'un groupe,
+afin que tout le monde puisse les trouver rapidement.
+Contrairement aux  [Discussions épinglées](#pin-chats) qui ne servent qu'à organiser _votre_ liste de discussion,
+les messages épinglés sont visibles par **tous les membres de discussion **.
 
-- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
-  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
-  Unpinning also affects all chat members, not only you.
+- Dans une discussion, appuyez longuement ou faites un clic droit sur un message, puis sélectionnez <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Épingler**.
+  Pour le désépingler, sélectionnez <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Désépingler** dans le même menu.
+  Le fait de désépingler un message s'applique à tous tous les membres de discussion, et pas seulement vous.
 
-- Pinned messages are shown in a **bar at the top of the chat**.
-  Tap the bar to jump to the pinned message.
-  If there are several, you can step through them.
+- Les messages épinglés s'affichent dans une **barre en haut de la discussion**.
+  Appuyez sur la barre pour accéder au message épinglé.
+  S'il y en a plusieurs, vous pouvez les parcourir les uns après les autres.
 
-- If you pin an [app](#webxdc), it gets a **start button**
-  so that everyone has easy access to it without scrolling or searching around.
+- Si vous épinglez une [appli](#webxdc), un bouton **Démarrer** s'affiche,
+  ce qui permet à tout le monde d'y accéder facilement, sans avoir à faire défiler la page ni à chercher.
 
-- There is no limit on the number of pinned messages or on how long they stay pinned.
+- Il n'y a pas de limite du nombre de messages épinglés ni de durée pendant laquelle ils restent épinglés.
 
-To keep messages just for yourself, use [Saved Messages](#save).
+Pour conserver des messages rien que pour vous, utilisez la fonction [Messages enregistrés](#save).
 
 ### Que signifie le point vert ?
 
@@ -194,9 +194,9 @@ Pour activer cette option, ouvrez les paramètres des "Discussions et fichiers m
 
 Si vous utilisez plus d'un profil dans l'application, vous pouvez supprimer un profil spécifique via le menu (en haut sur Android et iOS), ou dans la barre latérale (sur l'application de bureau) permettant de passer d'un profil à un autre. Les profils ne sont toujours supprimés que sur l'appareil en question. Les profils continueront donc d'exister sur les autres appareils le cas échéant.
 
-If you use a single default chat profile you can simply uninstall the app.
-This will still automatically trigger deletion of all associated address data on the chatmail server.
-For more info, please refer to the respective page from your [3rd party chatmail server](https://chatmail.at/relays).
+Si vous utilisez un unique profil par défaut, vous pouvez simplement désinstaller l'application.
+Cela déclenchera quand même automatiquement la suppression de toutes les données associées à l'adresse sur le serveur chatmail.
+Pour plus d'informations, veuillez vous référer à la page de votre [fournisseur de serveur chatmail](https://chatmail.at/relays).
 
 ## Groupes {#groups}
 
@@ -219,19 +219,19 @@ Puisque tous les membres d'une discussion ont les mêmes droits, les groupes fon
 Tous les membres d'un groupe disposent des **mêmes droits**.
 C'est pourquoi chacun peut supprimer des membres ou en ajouter de nouveaux.
 
-- To **add or delete members**, tap the group name in the chat and select the member to add or remove.
+- Pour **ajouter ou supprimer des mambres**, cliquez sur le nom du groupe dans la discussion et sélectionnez le membre à ajouter ou supprimer.
 
-- If the member is not yet in your contact list, but **face to face** with you,
-  from the same screen, show a **QR code**.  
-  Ask your chat partner to **scan** the QR image with their Delta Chat app by tapping
-  <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> on the main screen.
+- Si le membre ne figure pas encore dans votre liste de contacts, mais qu’il se trouve **face à vous**,
+  depuis le même écran, affichez un **code QR**.  
+  Demandez à votre partenaire de **scanner** le QR code avec son application Delta Chat en appuyant sur
+ <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> sur l’écran principal.
 
-- For a **remote** member addition,
-  click "Copy" or "Share" and send the **invite link**
-  through another private chat to the new member.
+- Pour ajouter un membre **à distance**,
+  cliquez sur "Copier" ou "Partager" et envoyez le **lien d'invitation**
+  au nouveau membre via un autre message privé.
 
-QR code and invite link can be used to add several members.
-However, since groups are [meant for trusted people](#groups), avoid sharing them publicly.
+Le QR code et le lien d'invitation peuvent être utilisés pour ajouter plusieurs membres.
+Toutefois, les groupes étant [destinés à des personnes de confiance](#groups), évitez de les partager publiquement.
 
 ### J'ai quitté un groupe par accident.
 
@@ -245,23 +245,22 @@ Si souhaitez rejoindre le groupe plus tard, demandez à un autre membre du group
 
 Vous pouvez également mettre un groupe en "Sourdine" : vous recevrez tous les messages et pourrez toujours écrire, mais n'aurez plus les notifications des nouveaux messages.
 
-### Cloning a group
+### Cloner un groupe
 
-You can duplicate a group to start a separate discussion
-or to exclude members without them noticing.
+Vous pouvez dupliquer un groupe pour démarrer une conversation séparée
+ou pour exclure des membres sans qu'ils puissent s'en apercevoir.
 
-- Open the group profile and tap **Clone Chat** (Android/iOS),
-  or right-click the group in the chat list (Desktop).
+- Ouvrez le profil du groupe et cliquez sur **Cloner la discussion**.
 
-- Set a new name, choose an avatar, and adjust the member list if needed.
+- Définissez un nouveau nom, choisissez un avatar et modifiez la liste des membres si nécessaire.
 
-The new group is **fully independent** from the original,
-which continues to work as before.
+Le nouveau groupe est **totalement indépendant** de l'original,
+qui continuer de fonctionner comme auparavant.
 
-### How many members can participate in a single group?
+### Combien de membres peut contenir un groupe ?
 
-There is no strict technical limit,
-but more than 150 is not recommended.
+Il n'y a pas de limite technique stricte,
+mais il n'est pas recommandé de dépasser 150.
 
 As groups get larger, they can become socially unstable and may need a hierarchy -
 where Delta Chat is a private messenger for chatting with [equal rights](#groups).
@@ -269,84 +268,84 @@ See [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar%27s_number) for more 
 
 ## Canaux {#channels}
 
-Channels are a one-to-many tool for broadcasting messages.
+Un canal est un outil qui permet à une personne de diffuser des messages à de multiples destinataires.
 
 ### S'abonner à un canal
 
-- Scan the <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
-  or tap the **invite link** you got from the channel owner.
+- Scannez le <img style="vertical-align:middle; height:1.3em; margin:1px" src="../assets/help/qr-icon.png" /> **QR code**
+  ou cliquez sur le **lien d’invitation** que vous avez obtenu de la part du propriétaire du canal.
 
-That's all!
-You will receive a few of the messages from the channel history
-and, from that point on, all new messages from the channel.
+C'est tout !
+Vous recevrez quelques uns des derniers messages du canal
+et, à partir de ce moment, tous les nouveaux messages du canal.
 
-**Don't worry,** if that does not happen immediately.
-Once the channel owner comes online, your join request will be processed.
+**Ne vous inquiétez pas** si cela ne se fait pas tout de suite.
+Dès que le propriétaire du canal sera en ligne, votre demande d'accès sera traitée.
 
-As all of Delta Chat, also Channels are private and decentralized,
-there is no public discovery.
+Comme l'ensemble de Delta Chat, les canaux sont privés et décentralisés,
+il n'y a pas de découverte publique.
 
-Other channel subscribers will not see that you subscribed and cannot message you.
-The channel owner, however, can message you.
-They will also see that you read a message unless you have read receipts disabled.
+Les autres abonnés du canal ne verront pas que vous vous êtes abonné et ne pourront pas vous envoyer de messages.
+Le propriétaire du canal, en revanche, pourra vous envoyer des messages.
+Il verra également que vous avez lu un message, sauf si vous avez désactivé les confirmations de lecture.
 
-If you do not want to share your main profile,
-you can also create a [dedicated profile](#multiple-accounts) for joining a channel.
+Si vous ne souhaitez pas partager votre profil principal,
+vous pouvez également créer une [profil dédié](#multiple-accounts) pour rejoindre un canal.
 
 ### Créer un canal
 
-- Tap **New Chat** and choose **New Channel**.
+- Appuyez sur **Nouvelle discussion**, puis sélectionnez **Nouveau canal**.
 
-- Enter a **name**, optionally set an **image** and **description**, and hit the **Create** button.
+- Choisissez un **nom**, éventuellment, choisissez une **image** et une **description**, et cliquer sur le bouton **Créer**.
 
-- You can now send and manage messages as usual.
+- Vous pouvez à présent envoyer et gérer des messages, comme d'habitude.
 
-- From the channel's profile, **share the QR code or invite link with others**.
+- Depuis le profil du canal, **partagez le QR code ou le lien d'invitation avec d'autres personnes**.
 
-Subscribers will receive your messages,
-but they cannot send messages in your channel.
-When subscribing, they will receive **a few of the latest messages of the channel history**.
+Les abonnés recevront vos messages,
+mais ils ne pourront pas envoyer de messages dans votre canal.
+Lorsqu'ils s'abonneront, ils recevront **quelques-uns des derniers messages de l'historique de la chaîne**.
 
-You can see the **view count** beside each message.
-Note that this only counts subscribers who have read receipts enabled,
-so the real view count may be larger.
+Vous pouvez voir le **nombre de vues** à côté de chaque message.
+Notez que ce chiffre ne prend en compte que les abonnés ayant activé les accusés de lecture ;
+le nombre réel de vues peut donc être plus élevé.
 
-### How many subscribers can a channel have?
+### Combien d'abonnés un canal peut-il avoir ?
 
-Channels are designed for much larger audiences than [groups](#groups).
+Les canaux sont destinées à un public bien plus large que les [groupes](#groups).
 
-The practical limit depends on the used [relay](#relays),
-so there is no single fixed number that applies everywhere.
+La limite pratique dépend des [relais](#relays) utilisés,
+il n'existe donc pas de chiffre fixe unique valable dans tous les cas.
 
-For really large channels with several tens of thousands of subscribers,
-we recommend using a [dedicated profile](#multiple-accounts) for the channel
-and checking whether the relay is suitable.
+Pour les canaux de très grande taille comptant plusieurs dizaines de milliers d'abonnés,
+nous vous recommandons d'utiliser un [profil dédié](#multiple-accounts) pour le canal
+et de vérifier si le relai est adapté.
 
-But don't be too hesitant: Delta Chat is designed to be relay-agnostic,
-so you can change your relay at any point easily -
-your existing subscribers will not even notice.
-You only have to update the invite link you share with new subscribers in that case.
+Mais n'hésitez pas trop: Delta Chat est conçu pour être compatible avec n'importe quel relai,
+vous pouvez donc changer facilement de relai à tout moment -
+vos abonnés actuels ne s'en rendront même pas compte.
+Dans ce cas, il vous suffira de mettre à jour le lien d'invitation que vous partagez avec les nouveaux abonnés.
 
 ## Appels {#calls}
 
-Delta Chat supports one-to-one **audio calls** and **video calls**.
+Delta Chat prend en charge les **appels audio** et les **appels vidéo** en tête-à-tête.
 
-Calls are supported on Desktop, Ubuntu Touch, iOS and Android 8 and newer.
+Les appels fonctionnent sur le client de bureau, Ubuntu Touch, iOS et Android 8 et versions supérieures.
 
 ### Passer un appel
 
-- In a one-to-one chat, tap the 📞 **call icon**.
+- Dans une discussion entre deux personnes, cliquez sur 📞 **l'icône  appel**.
 
-- This opens a small menu
-  where you can choose whether to place an **Audio Call** or a **Video Call**.
+- Cela ouvre un menu
+  depuis lequel vous pouvez choisir de passer **Appel audio** ou un **vidéo audio**.
 
 ### Accepter ou rejeter un appel
 
-- When someone calls you,
-  Delta Chat shows an **incoming call screen** or notification.
+- Quand quelqu'un vous appelle,
+  Delta Chat affiche un **écran appel entrant** ou une notification.
 
-- Tap **Accept** to answer
-  or **Decline** to reject the call.
+- Cliquez sur **Accepter** pour répondre
+  ou **Refuser** pour rejeter l'appel.
 
 ### Durant un appel
 
@@ -360,150 +359,150 @@ Selon l'appareil utilisé, vous pouvez aussi choisir la sortie audio ou utiliser
 Sur un ordinateur de bureau, l'appel s'affiche dans une fenêtre dédiée
 et vous pouvez continuer à utiliser la fenêtre principale de Delta Chat comme d'habitude.
 
-### Missed calls and notifications
+### Appels manqués et notifications
 
-- If you do not answer, do not hear the ringing, or do not have your device at hand,
-  the call appears as a **missed call**.
+- Si vous ne répondez pas, si vous n'entendez pas la sonnerie ou si vous n'avez pas votre appareil à portée de main,
+  l'appel apparaît comme un **appel manqué**.
 
-- **Only your accepted contacts** can make your device ring.
-  Contact requests will appear as usual and will not ring.
+- **Seuls vos contacts acceptés** peuvent faire sonner votre appareil.
+  Les demandes de contact s'afficheront comme d'habitude, mais ne feront pas sonner l'appareil.
 
-- At **Settings → Notifications → Calls**,
-  you can disable the special call ringing screen completely.
-  If you do so, you will not be disturbed by any ringing notification,
-  you can still pick up the call by tapping the incoming call message bubble in its chat.
+- Dans **Paramètres → Notifications → Appels**,
+  vous pouvez complètement désactiver l'écran spécial d'appel entrant.
+  Si vous faites cela, vouos ne serez réranger par aucune notification de sonnerie.
+  Vous pourrez toujours répondre à l'appel en cliquant sur l'info-bulle d'appel entrant dans la discussion.
 
-## In-chat apps {#webxdc}
+## Applis de discussion {#webxdc}
 
-You can send apps to a chat - games, editors, polls and other tools.
-This makes Delta Chat a truly extensible messenger.
+Vous pouvez envoyer des applications dans une discussion: jeux, éditeurs, sondages et autres outils.
+Cela fait de Delta Chat une messagerie aux fonctionnalités réellement étendues.
 
-### Where can I get in-chat apps?
+### Où puis-je trouver des applis de discussion ?
 
-- In a chat, using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → Apps**
+- Dans une discussion, utilisez le bouton<img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pièce jointe → Appli**
 
-- You can also [create your own app](#create-xdc) and attach it using <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Attachment Button → File**
+- Vous pouvez aussi [créer votre propre appli](#create-xdc) et l'envoyer en utilisant le bouton <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pièce jointe → Fichier**
 
-### How private are in-chat apps?
+### En quoi les applis de discussion sont-elles privées ?
 
-- In-chat apps can not send data to the Internet, or download anything.
+- les applis de discussion ne peuvent pas envoyer de données vers Internet ou télécharger quoi que ce soit.
 
-- An in-chat app can only exchange data within a chat, with its
-  copies on the devices of your chat partners. Other than that, it's completely
-  isolated from the Internet.
+- Une appli de discussion ne peut échanger des données qu'au sein d'une discussion, ainsi que ses
+  copies stockées sur les appareils de vos partenaires discussion. En dehors de cela, c'est totalement
+  isolé d'Internet.
 
-- The privacy an in-chat app offers is the privacy of your chat - as long as you
-  trust the people you chat with, you can trust the in-chat app as well.
+- La confidentialité qu'offre une appli de discussion est du même niveau que la discussion – tant que vous
+  faites confiance aux personnes avec lesquelles vous échangez, vous pouvez également faire confiance l'appli de discussion.
 
-- This also means: Just like for web links, do not open apps from untrusted contacts.
+- Ce qui veut aussi dire: comme pour les liens web, n'ouvrez pas les applis venant de contacts dans lesquels vous n'avez pas confiance.
 
-### How can I create my own in-chat apps? {#create-xdc}
+### Comment je peux créer mes propres applis de discussion ? {#create-xdc}
 
-- In-chat apps are zip files with `.xdc` extension containing html, css, and javascript code.
+- Les applis de discussion sont des fichiers ZIP portant l'extension `.xdc` et contenant du code HTML, CSS et JavaScript.
 
-- You can extend the [Hello World example app](https://github.com/webxdc/hello)
-  to get started.
+- Vous pouvez consulter [l'exemple d'application Hello World](https://github.com/webxdc/hello)
+  pour commencer.
 
-- All else you need to know is written in the
-  [Webxdc documentation](https://webxdc.org/docs).
+- Tout ce que vous devez savoir se trouve dans la
+  [documentation Webxdc](https://webxdc.org/docs).
 
-- If you have question, you can ask others with experience
-  in the [Forum](https://forum.delta.chat/c/webxdc/20).
+- Si vous avez des questions, vous pouvez les poser à des personnes expérimentées
+  sur le [forum](https://forum.delta.chat/c/webxdc/20).
 
-## Instant message delivery and Push Notifications {#instant-delivery}
+## Distribution immédiate des messages et notifications Push {#instant-delivery}
 
-### What are Push Notifications? How can I get instant message delivery?
+### Qu'est-ce que les notifications Push ? Comment puis-je bénéficier de la distribution immédiate des messages ?
 
-Push Notifications are sent by Apple and Google "Push services" to a user's device
-so that an inactive Delta Chat app can fetch messages in the background
-and show notifications on a user's phone if needed.
+Les notifications Push sont envoyées par les "services Push" d'Apple et de Google vers l'appareil d'un utilisateur
+afin que l'application Delta Chat inactive puisse récupérer des messages en arrière-plan
+et afficher des notifications sur le téléphone de l'utilisateur si nécessaire.
 
-Push Notifications work with all [chatmail](https://delta.chat/chatmail) servers on
+Les notifications Push fonctionnent avec tous les serveurs [chatmail](https://delta.chat/chatmail) sur:
 
-- iOS devices, by integrating with Apple Push services.
+- Les appareils iOS, en s'intégrant avec les services Apple Push.
 
-- Android devices, by integrating with the Google FCM Push service,
-  including on devices that use [microG](https://microg.org)
-  instead of proprietary Google code on the phone.
+- Les appareils Android, en s'intégrant avec le service Google FCM Push,
+  y compris sur les appareils qui utilisent [microG](https://microg.org)
+  à la place de code Google propriétaire sur le téléphone.
 
-### Are Push Notifications enabled on iOS devices? Is there an alternative?
+### Est-ce que les notifications Push  sont activées sur les appareils iOS ? Y a-t-il une alternative ?
 
-Yes, Delta Chat automatically uses Push Notifications for [chatmail](https://delta.chat/chatmail) profiles.
-And no, there is no alternative on Apple's phones to achieve instant message delivery
-because Apple devices do not allow Delta Chat to fetch data in the background.
-Push notifications are automatically activated for iOS users because
-[Delta Chat's privacy-preserving Push Notification system](#privacy-notifications)
-does not expose data to Apple that it doesn't already have.
+Oui, Delta Chat utilise automatiquement les notifications Push pour les profils [chatmail](https://delta.chat/chatmail).
+Et non, il n'existe aucune alternative sur les téléphones Apple pour garantir la distribution immédiate des messages,
+car les appareils Apple n'autorisent pas Delta Chat à récupérer des données en arrière-plan.
+Les notifications Push sont automatiquement activées pour les utilisateurs sous iOS car
+[le système de notifications Push de confidentialité Delta Chat qui préserve la confidentialité](#privacy-notifications)
+ne divulgue pas à Apple des données dont elle ne dispose pas déjà.
 
-### Are Push notifications enabled / needed on Android devices? {#android-push}
+### Est-ce que les notifications Push sont activées / requises sur les appareils Android ? {#android-push}
 
-If a "Push Service" is available, Delta Chat enables Push Notifications
-to achieve instant message delivery for all chatmail users.
+Si un "service Push" est disponible, Delta Chat active les notifications Push
+afin de permettre la distribution immédiate des messages pour tous les utilisateurs chatmail.
 
-In the Delta Chat "Notifications" settings for "Instant delivery"
-you can change the following settings effecting all chat profiles:
+Dans les paramètres "Notifications" de Delta Chat pour "Distribution immédiate"
+vous pouvez changer les paramètres suivants qui s'appliquent à tous les profils de discussion:
 
-- Use Background Connection: If you are not using a Push service,
-  you may disable "battery optimizations" for Delta Chat,
-  allowing it to fetch messages in the background.
-  However, there could be delays from minutes to hours.
-  Some Android vendors even restrict apps completely
-  (see [dontkillmyapp.com](https://dontkillmyapp.com))
-  and Delta Chat might not show  incoming messages
-  until you manually open the app again.
+- Utiliser la connexion en arrière-plan : si vous n'utilisez pas de service Push,
+  vous pouvez désactiver les "optimisations de batterie" pour Delta Chat,
+  ce qui lui permettra de récupérer les messages en arrière-plan.
+  Cependant, cela peut entraîner des délais allant de quelques minutes à plusieurs heures.
+  Certains fabricants d’appareils Android restreignent même complètement l’accès aux applications
+  (voir [dontkillmyapp.com](https://dontkillmyapp.com))
+  et il se peut que Delta Chat n’affiche pas les messages entrants
+  tant que vous n’avez pas rouvert manuellement l’ application.
 
-- Force Background Connection: This is the fallback option
-  if the previous options are not available or do not achieve "instant delivery".
-  Enabling it causes a permanent notification on your phone
-  which may sometimes be "minified" with recent Android phones.
+- Forcer la connexion en arrière-plan: il s'agit de l'option de secours
+  si les options précédentes ne sont pas disponible ou ne permettent pas une "distribution immédiate".
+  Son activation entraîne l'affichage d'une notification permanente sur votre téléphone,
+  qui peut parfois être "réduite" sur les téléphones Android récents.
 
-Both "Background Connection" options are energy-efficient and
-safe to try if you experience messages arrive only with long delays.
+Les deux options "Connexion en arrière-plan" efficaces d'un point de vue énergétique et
+vous pouvez les utiliser sans risques si vous vous constatez que les messages arrivent après un délais long délais.
 
-### How private are Delta Chat Push Notifications? {#privacy-notifications}
+### Quel est le niveau de confidentialité des notifications Push de Delta Chat? {#privacy-notifications}
 
-Delta Chat Push Notification support avoids leakage of private information.
-It does not leak profile data, IP address or message content (not even encrypted)
-to any system involved in the delivery of Push Notifications.
+Le service de notifications Push Delta Chat empêche toute fuite d'informations confidentielles.
+Il ne divulgue aucune donnée de profil, aucune adresse IP ni aucun contenu de message (pas même chiffré)
+à aucun système intervenant dans la distribution des notifications Push.
 
-Here is how Delta Chat apps perform Push Notification delivery:
+Voici comment Delta Chat effectue la distribution des notifications Push:
 
-- A Delta Chat app obtains a "device token" locally, encrypts it and stores it
-  on the [chatmail](https://delta.chat/chatmail) server.
+- Une application Delta Chat obtient localement un "jeton d'appareil", le chiffre et le socke
+  sur le serveur [chatmail](https://delta.chat/chatmail).
 
-- When a [chatmail](https://delta.chat/chatmail) server receives a message for a Delta Chat user
-  it forwards the encrypted device token to the central Delta Chat notification proxy.
+- Lorsque qu'un serveur [chatmail](https://delta.chat/chatmail) reçoit un message pour un utilisateur de Delta Chat
+  il transfert le jeton chiffré au proxy central de notification Delta Chat.
 
-- The central Delta Chat notification proxy decrypts the device token
-  and forwards it to the respective Push service (Apple, Google, etc.),
-  without ever knowing the IP or profile data of Delta Chat users.
+- Le proxy central de notification Delta Chat déchiffre le jeton d'appareil
+  et le transfert au service Push respectif (Apple, Google, etc),
+  sans jamais connaître l'adresse IP ou des données du profil des utilisateurs de Delta Chat.
 
-- The central Push Service (Apple, Google, etc.)
-  wakes up the Delta Chat app on your device
-  to check for new messages in the background.
-  It does not know about the profile data of the device it wakes up.
-  The central Apple/Google Push services never see any profile data (sender or receiver)
-  and also never see any message content (also not in encrypted forms).
+- Le service central Push (Apple, Google, etc)
+  réveille l'application Delta Chat sur votre appareil
+  pour qu'elle vérifie, en arrière-plan,n, si des nouveaux messages sont arrivés.
+  Il n'a pas connaissance des données de profil de l'appareil qu'il réveille.
+  Le service Push central Apple/Google ne voit jamais aucune données de profil (émetteur ou destinataire)
+  et également, ne voit jamais aucun contenu de message (y compris non chiffré).
 
-The central Delta Chat notification proxy [is small and fully implemented in Rust](https://github.com/deltachat/notifiers)
-and forgets about device-tokens as soon as Apple/Google/etc processed them,
-usually in a matter of milliseconds.
+Le proxy central de notification Delta Chat [est un petit programme entièrement, implémenté en Rust](https://github.com/deltachat/notifiers)
+et efface les jetons d'appareil dès qu'Apple, Google, etc les ont traités,
+généralement en quelques millisecondes.
 
-Note that the device token is encrypted between apps and notification proxy
-but it is not signed. 
-The notification proxy thus never sees profile data, IP-addresses or
-any cryptographic identity information associated with a user's device (token). 
+Il convient de noter que le jeton de l'appareil est chiffré entre les applications et le proxy de notification,
+mais qu'il n'est pas signé.
+Le proxy de notification n'a donc jamais accès aux données de profil, aux adresses IP ni
+à aucune information d'identité cryptographique associée à l'appareil d'un utilisateur (jeton). 
 
-Resulting from this overall privacy design, even the seizure of a chatmail server,
-or the full seizure of the central Delta Chat notification proxy
-would not reveal private information that Push services do not already have.
+Compte tenu de cette conception globale de la confidentialité, même la saisie d'un serveur chatmail,
+ou la saisie intégrale du proxy central de notification Delta Chat,
+ne permettrait pas de révéler des informations privées dont les services Push ne disposent pas déjà.
 
-### Why does Delta Chat integrate with centralized proprietary Apple/Google push services?
+### Pourquoi Delta Chat s'integre avec les services Push centralisés et propriétaires d'Apple/Google ?
 
-Delta Chat is a free and open source decentralized messenger with free server choice,
-but we want users to reliably experience "instant delivery" of messages,
-like they experience from WhatsApp, Signal or Telegram apps,
-without asking questions up-front that are more suited to expert users or developers.
+Delta Chat est une application de messagerie décentralisée, libre et open source, offrant le libre choix du serveur,
+mais nous souhaitons que les utilisateurs bénéficient d’une "distribution immédiate" fiable des messages,
+à l’instar de ce qu’ils connaissent avec les applications WhatsApp, Signal ou Telegram,
+sans avoir à répondre dès le départ à des questions qui s’adressent davantage aux utilisateurs experts ou aux développeurs.
 
 Note that Delta Chat has a [small and privacy-preserving Push Notification system](#privacy-notifications)
 that achieves "instant delivery" of messages for all chatmail servers
@@ -514,9 +513,9 @@ Welcome to the power of the interoperable chatmail relay network :)
 
 ### Puis-je utiliser Delta Chat sur plusieurs appareils en même temps?
 
-Yes. You can use the same profile on different devices:
+Oui. Vous pouvez utiliser le même profil sur des appareils différents:
 
-- Make sure both devices are on the same Wi-Fi or network
+- Assurez-vous que les deux appareils se trouvent sur le même réseau Wi-Fi ou le même réseau local
 
 - Sur le premier appareil, allez dans **Paramètres → Ajouter un deuxième appareil**, déverrouillez l'écran si nécessaire, et patientez un peu jusqu'à ce qu'un code QR s'affiche.
 
@@ -563,7 +562,7 @@ L'un n'a pas besoin de l'autre pour pouvoir fonctionner.
 
 - Si les problèmes persistent, ou si vous **ne pouvez pas scanner de code QR**,  essayez la méthode de **transfert manuel** décrite ci-dessous.
 
-### Manual Transfer {#backup}
+### Transfert manuel {#backup}
 
 Recourez à cette méthode uniquement si les instructions ci-dessus pour "Ajouter un deuxième appareil" ont échoué.
 
@@ -587,42 +586,41 @@ end-to-end encrypted messages with your communication partners.
 - Si vous avez besoin d'un client Web parce que vous n'êtes pas autorisé à installer des logiciels sur l'ordinateur sur lequel vous travaillez, vous pouvez utiliser le Client Portable pour bureaux Windows ou l'AppImage pour Linux. Vous pouvez les trouver sur 
 [get.delta.chat](https://get.delta.chat).
 
-## Advanced
+## Avancé
 
-### Experimental Features {#experiments}
+Fonctionnalités Avancées {#experiments}
 
-At **Settings → Advanced → Experimental Features**
-you can try out features we are working on.
+Dans **Paramètres → Avancé → Fonctionnalités expérimentales**
+vous pouvez essayer des fonctionnalités sur lesquelles nous travaillons encore.
 
-The features may be **unstable** and may be **changed or removed**.
+Ces fonctionnalités peuvent être **instables** et sont susceptibles d'être **modifiées ou supprimées**.
 
-You can find more information
-and give feedback in the [Forum](https://forum.delta.chat).
+Vous trouverez plus d'informations
+et pourrez donner votre avis sur le [Forum](https://forum.delta.discussion).
 
-### What are Relays? {#relays}
+### Qu'est ce que sont les relais ? {#relais}
 
-Relays are used to temporarily hold messages in case your device is offline.
-Relays are cheap and dumb servers,
-that do not store any user data as group states, your name or avatar -
-all those exist only on your device.
-Relays are operated by different groups and people,
-not under the control of Delta Chat developers.
+Les relais servent à stocker temporairement les messages au cas où votre appareil serait hors ligne.
+Les relais sont des serveurs basiques et peu coûteux,
+qui ne stockent aucune donnée utilisateur comme l'état des groupes, votre nom ou votre avatar —
+toutes ces informations n'existent que sur votre appareil.
+Les relais sont gérés par différents groupes et personnes.
+Ils ne sont pas sous le contrôle des développeurs de Delta Chat.
 
-By default, relays are **automatically set up**,
-so you do not need to care about that.
-However, if you want to,
-you can configure relays at **Settings → Advanced → Relays**:
+Par défaut, les relais sont **définis automatiquement**,
+donc vous n'avez pas besoin de vous en soucier.
+Cependant, si vous voulez,
+vous pouvez configurer les relais dans **Paramètres → Avancé → Relais**:
 
-- You can **remove** a relay from the relay list (by long-tapping on it)
-  and choosing the remove action. Before you remove your last relay,
-  you will need to add another relay first.
+- Vous pouvez **supprimer** un relai de la liste (en appuyant longuement dessus)
+  et en sélectionnant l'action de suppression. Avant de supprimer votre dernière relai,
+  vous devrez d'abord en ajouter un autre.
 
-- You can **add** a relay by scanning its QR code or pasting its invite link;
-  [chatmail.at/relays](https://chatmail.at/relays) shows some publically known ones.
-  If you have multiple relays, you will receive messages on all of them.
+- Vous pouvez **ajouter** un relai en scannant son QR code ou en collant son lien d'invitation;
+  [chatmail.at/relays](https://chatmail.at/relays) liste quelques relais publics connus.
+  Si vous avez configuré plusieurs relais, vous recevrez les messages sur chacun d'entre eux.
 
-Adding or removing a relay will automatically inform your chat partners
-so they start or stop using a relay for chatting with you, respectively.
+L'ajout ou la suppression d'un relai informera automatiquement vos partenaires de discussion afin qu'ils commencent ou arrêtent d'utiliser un relai pour discuter avec vous.
 
 ### Can I use a classic email address with Delta Chat?
 
@@ -655,15 +653,15 @@ A chat profile using a classic email address allows to to send and receive unenc
 These messages, and the chats they appear in, are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-### I want to manage my own server for Delta Chat. What do you recommend?
+### Je veux gérer mon propre serveur pour Delta Chat. Que recommandez-vous ?
 
-Any well behaving email server setup will do fine 
-except if your users' devices require Google/Apple [Push Notifications](#instant-delivery) to work properly.
+Toute configuration de serveur mail fonctionnel fera l'affaire, 
+sauf si les appareils de vos utilisateurs nécessitent les [notifications push](#instant-delivery) de Google/Apple pour fonctionner correctement.
 
-We generally recommend to [set up a chatmail relay](https://chatmail.at/doc/relay/getting_started.html). 
-[Chatmail](https://chatmail.at) is a community-driven project that encompasses both the setup of relays
-and [core Rust developments](https://github.com/chatmail/core) 
-that power [chatmail clients](https://chatmail.at/clients) of which Delta Chat is the most well known. 
+De manière générale, nous recommandons de [mettre en place un relai chatmail](https://chatmail.at/doc/relay/getting_started.html). 
+[Chatmail](https://chatmail.at) est un projet communautaire qui comprend à la fois la mise en place des relais
+et le [développement central en Rust](https://github.com/chatmail/core) 
+sur lesquels se basent les [clients chatmail](https://chatmail.at/clients), dont le plus connu est Delta Chat. 
 
 ### What is "Send statistics to Delta Chat's developers"? {#statssending}
 
@@ -691,79 +689,78 @@ We will _not_ collect any personally identifiable information about you.
 
 Consultez les [standards utilisés dans Delta Chat]({% include standards-url %}).
 
-## Encryption and Security {#e2ee}
+## Chiffrement et sécurité {#e2ee}
 
-### Which standards are used for end-to-end encryption? 
+### Quels standards sont utilisés pour le chiffrement de bout en bout ?
 
-Delta Chat uses a [secure subset of the OpenPGP standard](#openpgp-secure)
-to provide automatic end-to-end encryption using these protocols: 
+Delta Chat utilise une [partie sécurisée du standard OpenPGP](#openpgp-secure)
+pour fournir du chiffrement de bout en bout automatique, en utilisant ces protocoles: 
 
 - [Secure-Join](https://securejoin.delta.chat/en/latest/new.html)
-  to exchange encryption setup information through QR-code scanning or "invite links". 
+  pour échanger les informations de chiffrement par le scan de QR-code ou les "liens d'invitation". 
 
-- [Autocrypt](https://autocrypt.org) is used for automatically
-  establishing end-to-end encryption between contacts and all members of a group chat. 
+- [Autocrypt](https://autocrypt.org) est utilisé pour établir
+  automatiquement le chiffrement de bout en bout entre les contacts et tous les membres d'une discussion de groupe. 
 
 - [Autocrypt v2](https://autocrypt2.org), qui est prévu pour 2026, amènera un chiffrement avec résistance post-quantique ainsi que la confidentialité persistante ("forward secrecy").
 
-- [Sharing a contact to a
-  chat](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
-  enables receivers to use end-to-end encryption with the contact. 
+- [Partager un contact dans une
+  discussion](https://github.com/chatmail/core/blob/main/spec.md#attaching-a-contact-to-a-message)
+  permet au destinataire d'utiliser le chiffrement de bout en bout avec le contact. 
 
-Delta Chat does not query, publish or interact with any OpenPGP key servers. 
+Delta Chat n'interroge, ne publie ni n'interagit avec aucun serveur de clés OpenPGP. 
 
-### How can I know if messages are end-to-end encrypted? {#whene2e}
+### Comment je peux savoir si les messages sont chiffrés de bout en bout ? {#whene2e}
 
-All messages in Delta Chat are **end-to-end encrypted by default**.
-Since the Delta Chat Version 2 release series (July 2025) 
-there are no lock or similar markers on end-to-end encrypted messages, anymore. 
+Tous les messages de Delta Chat sont **chiffrés de bout en bout par défaut**.
+Depuis les versions 2 de Delta Chat (juillet 2025), 
+les messages chiffrés de bout en bout ne comportent plus de marqueurs de verrouillage ni d'autres marqueurs similaires. 
 
-### Can I still receive or send messages without end-to-end encryption?
+### Puis-je toujours recevoir ou envoyer des messages sans chiffrement de bout en bout ?
 
-If you use default [chatmail relays](https://chatmail.at/relays),
-it is impossible to receive or send messages without end-to-end encryption. 
+Si vous utilisez les [relais chatmail](https://chatmail.at/relays) par défaut,
+c'est impossible de recevoir en envoyer des messages sans chiffrement de bout en bout.
 
 If you instead use a [classic email server](#classic-email),
 you can send and receive messages with or without end-to-end encryption.
 Messages lacking end-to-end encryption are marked with an email icon
 <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
-### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
+### Est-ce que les pièces jointes (images, fichiers, audio, etc) sont chiffrés de bout en bout ?
 
 Oui.
 
-When we talk about an "end-to-end encrypted message"
-we always mean a whole message is encrypted,
-including all the attachments
-and attachment metadata such as filenames.
+Lorsque nous parlons d’un "message chiffré de bout en bout",
+nous entendons toujours un message complet,
+y compris toutes les pièces jointes
+et les métadonnées associées à ces pièces jointes, telles que les noms de fichiers.
 
-### Is OpenPGP secure? {#openpgp-secure}
+### OpenPGP est-il sûr ? {#openpgp-secure}
 
-Yes, Delta Chat uses a secure subset of OpenPGP
-requiring the whole message to be properly encrypted and signed.
-For example, "Detached signatures" are not treated as secure.
+Oui, Delta Chat utilise une partie sécurisée d'OpenPGP
+qui requiert que le message complet soit correctement chiffré et signé.
+Par exemple, les "signatures détachées" ne sont pas considérées comme sûres. 
 
-OpenPGP is not insecure by itself.
-Most publicly discussed OpenPGP security problems
-actually stem from bad usability or bad implementations of tools or apps (or both).
-It is particularly important to distinguish between OpenPGP, the IETF encryption standard, 
-and GnuPG (GPG), a command line tool implementing OpenPGP. 
-Many public critiques of OpenPGP actually discuss GnuPG which Delta Chat has never used. 
-Delta Chat rather uses the OpenPGP Rust implementation [rPGP](https://github.com/rpgp/rpgp),
-available as [an independent "pgp" package](https://crates.io/crates/pgp),
-and [security-audited in 2019 and 2024](#security-audits). 
+OpenPGP n'est pas en soi peu sûr.
+La plupart des problèmes de sécurité d'OpenPGP dont on parle publiquement
+proviennent en réalité d'une mauvaise ergonomie ou de mauvaises implémentations des outils ou des applications (ou les deux).
+Il est particulièrement important de faire la distinction entre OpenPGP, la norme de chiffrement de l'IETF, 
+et GnuPG (GPG), un outil en ligne de commande implémentant OpenPGP. 
+De nombreuses critiques publiques d’OpenPGP portent en réalité sur GnuPG, que Delta Chat n’a jamais utilisé. Delta Chat utilise plutôt l’implémentation Rust d’OpenPGP [rPGP](https://github.com/rpgp/rpgp),
+disponible sous la forme d’[un paquet « pgp » indépendant](https://crates.io/crates/pgp),
+et [dont la sécurité a été auditée en 2019 et 2024](#security-audits). 
 
-We aim, along with other OpenPGP implementors, 
-to further improve security characteristics by implementing the
-[new IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) 
-which was thankfully adopted in summer 2023. 
+Notre objectif, en collaboration avec d'autres développeurs d'OpenPGP, 
+est d'améliorer encore les caractéristiques de sécurité en mettant en œuvre la
+[nouvelle spécification IETF OpenPGP Crypto-Refresh](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) 
+qui a heureusement été adopté à l’été 2023. 
 
-### Did you consider using alternatives to OpenPGP for end-to-end-encryption? {#openpgp-alternatives}
+### Avez-vous pensé à utiliser des alternatives à OpenPGP pour le chiffrement de bout en bout ? {#openpgp-alternatives}
 
-Yes, we are following efforts like [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
-but adopting them would mean breaking end-to-end encryption interoperability.
-So it would not be a light decision to take 
-and there must be tangible improvements for users. 
+Oui, nous suivons de près des initiatives telles que [MLS](https://en.wikipedia.org/wiki/Messaging_Layer_Security)
+mais leur adoption impliquerait de rompre l'interopérabilité du chiffrement de bout en bout.
+Ce ne serait donc pas une décision à prendre à la légère 
+et il faudrait que cela apporte des améliorations concrètes pour utilisateurs. 
 
 Delta Chat takes a holistic "usable security" approach 
 and works with a wide range of activist groupings as well as 
@@ -830,22 +827,21 @@ with the knowledge that all their data, along with all metadata, will be deleted
 Moreover, if a device is seized then chat contacts using short-lived profiles
 can not be identified easily. 
 
-### Who sees my IP Address?
+### Qui voit mon adresse IP ?
 
-The used [relays](#relays) need to know your IP Address,
-as well as sometimes your contact's devices if you have a [call](#calls)
-or use [apps](#webxdc) together.
+Les [relays](#relays) utilisés ont besoin de voir votre adresse IP,
+de même que, parfois, les appareils de vos contacts, si vous avez un [appel vocal](#calls)
+ou que vous utilisez ensemble une [Applis de discussion](#webxdc).
 
-IP Addresses are needed for connectivity and efficiency.
-Delta Chat neither persists nor exposes them.
-Note that IP Addresses
-are not like an address you give to a delivery service,
-but typically less precise, often defining city or region only.
+Les adresses IP sont indispensables à la connectivité et à l'efficacité. Delta Chat ne les conserve ni ne les divulgue.
+Notez que les adresses IP
+ne sont pas comparables à une adresse que l'on communique à un service de livraison,
+mais sont généralement moins précises, ne désignant souvent qu'une ville ou une région.
 
-If you see your IP Address as a risk,
-we recommend to use a VPN for the whole system.
-Per-app options leave gaps across your system.
-For example, tapping a link can expose IP Addresses to unknown parties, which is by far the larger risk.
+Si vous considérez que votre adresse IP représente un risque,
+nous vous recommandons d'utiliser un VPN au niveau du système.
+Les options de protection "par applications" laissent des failles dans votre système.
+Par exemple, le simple fait de cliquer sur un lien peut exposer votre adresse IP à des tiers inconnus, ce qui constitue de loin le risque le plus important.
 
 ### Does Delta Chat support "Sealed Sender"? {#sealedsender}
 
@@ -896,7 +892,7 @@ the connection is safe.
 
 ### Puis-je ré-utiliser ma clé privée existante ? {#importkey}
 
-No. 
+Non.
 
 Delta Chat generates secure OpenPGP keys according to the Autocrypt specification 1.1.
 We do not recommend or offer users to perform manual key management.
@@ -907,9 +903,9 @@ you need to look it up in the "keypairs" SQLite table of a profile backup tar-fi
 
 ### Est-ce qu'un audit indépendant des failles de sécurité a été réalisé sur Delta Chat ? {#security-audits}
 
-Yes, multiple times. 
-The Delta Chat project continuously undergoes independent security audits and analysis,
-from most recent to older: 
+Oui, à plusieurs reprises. 
+Le projet Delta Chat fait l'objet d'audits et d'analyses de sécurité indépendants en continu,
+du plus récent au plus ancien : 
 
 - 2024 December, an [NLNET-commissioned Evaluation of
   rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
@@ -1019,4 +1015,4 @@ Recevoir plus de dons aide notre communauté de contributrices et contributeurs 
 
 Les financements mentionnés précédemment sont gérés principalement par merlinux GmbH à Fribourg (Allemagne) et redistribués à plus d'une douzaine de contributeurs et contributrices du monde entier.
 
-N'hésitez pas à consulter les [Canaux de contribution à Delta Chat Contribution](contribute) pour en savoir plus sur les différentes manières de contribuer, financières ou non.  
+N'hésitez pas à consulter les [manières de contribution à Delta Chat](contribute) pour en savoir plus sur les différentes manières de contribuer, financières ou non.  

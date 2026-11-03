@@ -31,11 +31,11 @@ Entre los ejemplos de comportamiento que pedimos a todo el mundo que evite se in
 * La publicación de información privada de otras personas, como una dirección física o electrónica,
   sin permiso explícito
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behavior. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Somos conscientes de que, a veces, las personas pueden tener un mal día o no ser conscientes
+del impacto que tiene su comportamiento. Cuando eso ocurra, puedes hacérselo saber con tacto
+en público o en privado, según lo que resulte más adecuado. Asume que actúan de buena fe;
+es más probable que los participantes no sean conscientes de ello que que estén intentando intencionadamente
+denigrar a los demás o mermar la calidad del debate.
 
 ## Normas de mantenimiento colectivo
 
@@ -58,39 +58,39 @@ y los colaboradores deben comprenderlas y mantenerlas plenamente a través de
 
 - evitar la introducción de cualquier dependencia de tiempo de ejecución o de desarrollo en la infraestructura de modelos LLM.
 
-If LLMs were used in any substantial way,
-contributors are invited to write in their own words how they made use of them.
-Automated "assisted/co-authored-by" trailers
-naming generative tools or models are discouraged
-as they do not properly disclose how those tools were used
-and provide free advertisement for a toxic billionaire-dominated industry.
+Si se han utilizado los modelos de lenguaje grande (LLM) de forma significativa,
+se invita a los colaboradores a explicar con sus propias palabras cómo los han utilizado.
+Se desaconseja el uso de sinopsis automatizadas del tipo «con la ayuda de» o «en colaboración con»,
+en las que se mencionen herramientas o modelos generativos,
+ya que no revelan adecuadamente cómo se utilizaron dichas herramientas
+y suponen publicidad gratuita para una industria tóxica dominada por multimillonarios.
 
-In specific cases,
-maintainers may agree to configure bots (such as "dependabot")
-to automatically generate pull requests.
-However, these changes must never be automatically merged
-and always require strict human review before merging.
+En casos concretos,
+los responsables del mantenimiento pueden acordar configurar bots (como "dependabot")
+para que generen automáticamente solicitudes de incorporación de cambios.
+Sin embargo, estos cambios nunca deben fusionarse automáticamente
+y siempre deben someterse a una revisión rigurosa por parte de una persona antes de su fusión.
 
 ## Mantenedores y Responsabilidades
 
-Project maintainers are those with commit rights to collective repositories
-or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned with our standards or do not match current project plans.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Los responsables del proyecto son aquellas personas con derechos de commit en los repositorios compartidos
+o con derechos de administración en los canales de comunicación de la comunidad.
+Se pide a cada responsable que asuma su responsabilidad y adopte las medidas adecuadas y prudentes
+ante cualquier caso de comportamiento cuestionable del que sea testigo.
+Los responsables del proyecto tienen el derecho y la responsabilidad de eliminar, editar o
+rechazar comentarios, commits, código, ediciones en la wiki, incidencias y otras contribuciones
+que no se ajusten a nuestras normas o no se correspondan con los planes actuales del proyecto.
+También pueden expulsar, de forma temporal o permanente, a un colaborador por
+otros comportamientos que consideren inapropiados, amenazantes, ofensivos o perjudiciales.
 
 ## Alcance
 
-Our Community Standards apply to project repositories, communication channels, and gatherings,
-as well as to public spaces,
-when an individual is representing the project or its community.
-Examples of representing a project or community include using an official project e-mail
-address, posting via a social media account associated with the project,
-or acting as a representative at an online or offline event.
+Nuestras Normas Comunitarias se aplican a los repositorios de proyectos, los canales de comunicación y las reuniones,
+así como a los espacios públicos,
+cuando una persona representa al proyecto o a su comunidad.
+Algunos ejemplos de representación de un proyecto o una comunidad son el uso de una dirección de correo electrónico oficial del proyecto,
+la publicación a través de una cuenta de redes sociales asociada al proyecto
+o actuar como representante en un evento, ya sea en línea o presencial.
 
 ## Informes y Respuestas
 
@@ -108,6 +108,6 @@ según lo determinen otras responsables del mantenimiento.
 
 ## Atribución
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>,
-with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
+Nuestro documento de Normas Comunitarias es una adaptación del [Contributor Covenant](https://contributor-covenant.org), versión 1.4,
+disponible en <https://contributor-covenant.org/version/1/4>,
+al que se le añadieron en septiembre de 2026 secciones adicionales y un enfoque en el "mantenimiento colectivo" y la "autoría humana".

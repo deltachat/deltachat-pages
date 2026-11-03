@@ -5,15 +5,11 @@ lang: eu
 
 # Komunitate-arauak
 
-In the interest of fostering an open and welcoming environment,
-we as contributors and maintainers strive to make participation
-in our communities a pleasurable, harassment-free experience.
+Ingurune ireki eta abegikorra sustatzeko asmoz, laguntzaile eta mantentzaile garen aldetik, gure komunitateetan parte hartzea esperientzia atsegina eta jazarpenik gabea izan dadin ahalegintzen gara.
 
-We also recognize that authentic human-to-human collaboration and
-collective maintenance of our repositories are key to keeping
-our development sustainable and resilient.
+Era berean, onartzen dugu gizakien arteko benetako lankidetza eta gure biltegien mantentze kolektiboa funtsezkoak direla gure garapena jasangarria eta erresilientea izan dadin.
 
-## Participation Standards
+## Parte hartzeko arauak
 
 Giro positiboa sortzen laguntzen duten jokabide-adibideak dira, besteak beste:
 
@@ -30,66 +26,33 @@ Guztiei saihesteko eskatzen diegun jokabide-adibideak dira, besteak beste:
 * Jazarpen publikoa zein pribatua
 * Besteen informazio pribatua argitaratzea, helbide fisikoak edo elektronikoak, adibidez, berariazko baimenik gabe
 
-We recognize that sometimes people may have a bad day, or may be unaware of
-the impact of their behavior. When that happens, you may carefully remind
-them in public or private, whatever is more appropriate. Assume good faith;
-it's more likely that participants are unaware than that they are intentionally
-trying to denigrate others or reduce the quality of discussion.
+Onartzen dugu batzuetan jendeak egun txarra izan dezakeela, edo bere jokabideak duen eraginaz jabetu gabe egon daitekeela. Hori gertatzen denean, kontu handiz gogorarazi diezaiokezu, publikoki edo pribatuan, egokiena den moduan. Jo ezazu fede onez jokatzen dutela: litekeenagoa da parte-hartzaileak horretaz jabetu ez izana, nahita besteak gutxiesten edo eztabaidaren kalitatea jaisten saiatzea baino.
 
-## Collective Maintenance Standards
+## Mantentze kolektiboaren arauak
 
-Our organizational repositories are collectively maintained, not individually owned.
-To avoid and mitigate single points of knowledge and control,
-we encourage everyone to find and educate other maintainers
-to share knowledge and maintenance responsibilities.
+Gure erakundearen biltegiak kolektiboki mantentzen dira; ez dira inoren jabetza indibiduala. Ezagutza eta kontrola pertsona bakar batean pilatzea saihesteko eta arintzeko, mantentzaile berriak aurkitzera eta prestatzera animatzen ditugu guztiak, ezagutza eta mantentze-erantzukizunak partekatzeko.
 
-All contributions must be human-authored,
-and fully understood and maintained by the contributors through
+Ekarpen guztiak gizakiek idatzitakoak izan behar dira, eta laguntzaileek erabat ulertu eta mantendu behar dituzte, honako hauen bidez:
 
-- writing all pull request, issue descriptions,
-  comments, documentation and commit messages by hand,
+- pull request, issue deskribapen, iruzkin, dokumentazio eta commit mezu guztiak eskuz idatziz,
 
-- performing extensive self-review
-  and taking full responsibility for submissions,
+- autoberrikuspen sakona eginez eta bidalitakoen erantzukizun osoa hartuz,
 
-- caring for clarity and minimalism to ease the job of reviewers
-  who accept changes into collective maintenance,
+- argitasuna eta minimalismoa zainduz, aldaketak mantentze kolektibora onartzen dituzten berrikusleen lana errazteko,
 
-- avoiding the introduction of any runtime or development dependencies on LLM machinery.
+- LLM makineriaren mendeko inolako exekuzio- edo garapen-mendekotasunik ez sartuz.
 
-If LLMs were used in any substantial way,
-contributors are invited to write in their own words how they made use of them.
-Automated "assisted/co-authored-by" trailers
-naming generative tools or models are discouraged
-as they do not properly disclose how those tools were used
-and provide free advertisement for a toxic billionaire-dominated industry.
+LLMak modu esanguratsuan erabili badira, laguntzaileak gonbidatzen ditugu beren hitzekin azaltzera nola erabili dituzten. Ez da gomendatzen tresna edo eredu sortzaileak aipatzen dituzten "assisted/co-authored-by" amaiera-lerro automatikoak erabiltzea, ez baitute behar bezala azaltzen tresna horiek nola erabili diren, eta doako publizitatea egiten baitiote multimilioidun toxikoek menderatutako industria bati.
 
-In specific cases,
-maintainers may agree to configure bots (such as "dependabot")
-to automatically generate pull requests.
-However, these changes must never be automatically merged
-and always require strict human review before merging.
+Kasu jakin batzuetan, mantentzaileek adostu dezakete botak ("dependabot", adibidez) konfiguratzea, pull requestak automatikoki sortzeko. Hala ere, aldaketa horiek ez dira inoiz automatikoki bateratu behar, eta bateratu aurretik gizakien berrikuspen zorrotza behar dute beti.
 
 ## Mantentzaileak eta erantzukizunak
 
-Project maintainers are those with commit rights to collective repositories
-or administrative rights to community communication channels.
-Each maintainer is asked to take responsibility and appropriate, careful action
-in response to witnessed instances of questionable behavior.
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned with our standards or do not match current project plans.
-They may also ban temporarily or permanently a contributor for
-other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Proiektu-mantentzaileak biltegi kolektiboetan commit-eskubideak edo komunitatearen komunikazio-kanaletan administrazio-eskubideak dituztenak dira. Mantentzaile bakoitzari eskatzen zaio erantzukizuna har dezala eta neurri egoki eta zuhurrak har ditzala jokabide zalantzagarriak ikusten dituenean. Proiektu-mantentzaileek eskubidea eta erantzukizuna dute gure arauekin edo proiektuaren egungo planekin bat ez datozen iruzkinak, commitak, kodea, wikiko edizioak, issueak eta bestelako ekarpenak kentzeko, editatzeko edo baztertzeko. Era berean, laguntzaile bat aldi baterako edo betiko debekatu dezakete desegokitzat, mehatxagarritzat, iraingarritzat edo kaltegarritzat jotzen dituzten beste jokabide batzuengatik.
 
 ## Esparrua
 
-Our Community Standards apply to project repositories, communication channels, and gatherings,
-as well as to public spaces,
-when an individual is representing the project or its community.
-Examples of representing a project or community include using an official project e-mail
-address, posting via a social media account associated with the project,
-or acting as a representative at an online or offline event.
+Gure komunitate-arauak proiektuaren biltegietan, komunikazio-kanaletan eta topaketetan aplikatzen dira, baita gune publikoetan ere, norbaitek proiektua edo haren komunitatea ordezkatzen duenean. Proiektua edo komunitatea ordezkatzearen adibide dira proiektuaren helbide elektroniko ofiziala erabiltzea, proiektuari lotutako sare sozialetako kontu baten bidez argitaratzea, edo lineako zein aurrez aurreko ekitaldi batean ordezkari gisa jardutea.
 
 ## Salaketak eta erantzunak
 
@@ -99,6 +62,4 @@ Mantentzaileak gertakari baten berri ematen duen pertsonaren konfidentzialtasuna
 
 ## Aitortza
 
-Our Community Standards document is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at <https://contributor-covenant.org/version/1/4>,
-with additional sections and a focus on "collective maintenance" and "human authoring" added in September 2026.
+Gure komunitate-arauen dokumentua [Contributor Covenant](https://contributor-covenant.org) 1.4 bertsiotik egokitua da, <https://contributor-covenant.org/version/1/4> helbidean eskuragarri dagoena; 2026ko irailean atal gehigarriak gehitu zitzaizkion, "mantentze kolektiboa" eta "gizakiek idaztea" ardatz hartuta.

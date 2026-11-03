@@ -9,10 +9,9 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 
 - [Fediverse](https://chaos.social/web/@delta) do ogłoszeń i informacji zwrotnych.
 
-- [Forum wsparcia Delta Chat](https://support.delta.chat) do
-  szerszych dyskusji na temat funkcji i uzyskania wsparcia.
+- [Forum](https://forum.delta.chat) służące do szerszych dyskusji na temat funkcji oraz wzajemnej pomocy.
 
-- [Repozytoria Delta Chat](https://github.com/deltachat/) gdzie można znaleźć kod aplikacji Delta Chat i tej strony internetowej.
+- [Repozytoria](https://github.com/deltachat/) gdzie można znaleźć kod aplikacji Delta Chat.
 
 - Więcej linków można znaleźć w [kosmosie](https://cosmos.delta.chat)
 
@@ -24,7 +23,7 @@ Aby zapoznać się z interakcjami społeczności wokół Delta Chat, przeczytaj 
 - [Problemy z Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
 - [Problemy z Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
 - [Problemy z Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problemy z Core Library + Python Bindings](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Problemy z Core Library + Python Bindings](https://github.com/chatmail/core/issues)
 
 # Kanały komunikacji stron trzecich
 

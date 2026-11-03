@@ -24,4 +24,4 @@ lang: pl
 
 🔒 [Audytowane szyfrowanie end-to-end](help#security-audits) zabezpieczające przed atakami sieciowymi i serwerowymi
 
-👉 Oprogramowanie [F](https://pl.wikipedia.org/wiki/Wolne_oprogramowanie)[OSS](https://pl.wikipedia.org/wiki/Otwarte_oprogramowanie), stworzone w oparciu o [standardy internetowe](https://github.com/deltachat/deltachat-core-rust/blob/master/standards.md), unikające [xkcd927](https://xkcd.com/927/) :)
+👉 Oprogramowanie [F](https://pl.wikipedia.org/wiki/Wolne_oprogramowanie)[OSS](https://pl.wikipedia.org/wiki/Otwarte_oprogramowanie), stworzone w oparciu o [standardy internetowe](https://github.com/chatmail/core/blob/main/standards.md), unikające [xkcd927](https://xkcd.com/927/) :)

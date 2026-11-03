@@ -286,8 +286,7 @@ Alternativ kannst du eine Gruppe auch "stummschalten" - dies bedeutet, dass du w
 Du kannst eine Gruppe duplizieren, um eine separate Diskussion zu starten
 oder um Mitglieder auszuschließen, ohne dass diese es bemerken.
 
-- Öffnen das Gruppenprofil und tippe auf **Chat klonen** (Android/iOS)
-oder klicken mit der rechten Maustaste auf die Gruppe in der Chat-Liste (Desktop).
+- Gruppenprofil öffnen und **Chat klonen** wählen.
 
 - Legen einen neuen Namen fest, wähle einen Avatar und passe gegebenenfalls die Mitgliederliste an.
 

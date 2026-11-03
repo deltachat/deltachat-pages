@@ -322,8 +322,7 @@ Uma alternativa é "silenciar" um grupo. Fazendo isso, você receberá todas as 
 Você pode duplicar um grupo para iniciar uma discussão separada
 ou para excluir membros sem que eles percebam.
 
-- Abra o perfil do grupo e toque em **Clonar conversa** (Android/iOS),
- ou clique com o botão direito do mouse no grupo na lista de conversa (desktop).
+- Open the group profile and tap **Clone Chat**.
 
 - Defina um novo nome, escolha um avatar e ajuste a lista de membros, se necessário.
 
