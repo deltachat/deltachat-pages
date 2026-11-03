@@ -76,7 +76,7 @@ Ze względów prywatności nikt nie widzi twojego zdjęcia profilowego, dopóki 
 
 Tak, możesz to zrobić w **Ustawieniach → Profil → Biografia**. Po wysłaniu wiadomości do kontaktu zostanie ona wyświetlona, ​​gdy będzie on przeglądał twoje dane kontaktowe.
 
-### Pin, mute and archive a chat {#pin-chats}
+### Przypnij, wycisz i zarchiwizuj czat {#pin-chats}
 
 Użyj tych narzędzi, aby uporządkować swoje czaty i mieć wszystko na swoim miejscu:
 
@@ -107,27 +107,19 @@ Aby skorzystać z tych funkcji, przytrzymaj dłużej lub kliknij prawym przycisk
 
 Wiadomości pozostają zapisane, nawet jeśli zostaną edytowane lub usunięte — może to być przez [nadawcę](#edit), [czyszczenie urządzenia](#delold) lub [znikające wiadomości z innych czatów](#ephemeralmsgs).
 
-### How do pinned messages work? {#pin-messages}
+### Jak działają przypięte wiadomości? {#pin-messages}
 
-**Pin important messages** such as an address, a meeting time or the rules of a group,
-so everyone can find them quickly.
-Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
-pinned messages are visible to **all chat members**.
+Możesz **przypinać ważne wiadomości** – na przykład adres, godzinę spotkania lub zasady grupy – aby wszyscy mogli je szybko znaleźć. W przeciwieństwie do [przypiętych czatów](#pin-chats), które służą jedynie do porządkowania _twojej_ listy rozmów, przypięte wiadomości są widoczne dla **wszystkich uczestników czatu**.
 
-- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
-  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
-  Unpinning also affects all chat members, not only you.
+- W dowolnym czacie przytrzymaj wiadomość (na urządzeniu mobilnym) lub kliknij ją prawym przyciskiem myszy (na komputerze) i wybierz <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Przypnij**. Aby usunąć przypięcie, wybierz z tego samego menu <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Odepnij**. Zmiana ta będzie widoczna u wszystkich uczestników czatu, a nie tylko u ciebie.
 
-- Pinned messages are shown in a **bar at the top of the chat**.
-  Tap the bar to jump to the pinned message.
-  If there are several, you can step through them.
+- Przypięte wiadomości wyświetlają się na **pasku u góry czatu**. Dotknij lub kliknij ten pasek, aby przejść do przypiętej wiadomości. Jeśli przypięto ich więcej, możesz przełączać się między nimi.
 
-- If you pin an [app](#webxdc), it gets a **start button**
-  so that everyone has easy access to it without scrolling or searching around.
+- Jeśli przypniesz [aplikację](#webxdc), pojawi się **przycisk jej uruchamiania*, dzięki czemu każdy będzie miał do niej łatwy dostęp bez konieczności przewijania ekranu czy przeszukiwania czatu.
 
-- There is no limit on the number of pinned messages or on how long they stay pinned.
+- Liczba przypiętych wiadomości oraz czas, przez jaki pozostają one przypięte, nie są ograniczone.
 
-To keep messages just for yourself, use [Saved Messages](#save).
+Jeśli chcesz zachować wiadomości tylko dla siebie, skorzystaj z [Zapisanych wiadomości](#save).
 
 ### Co oznacza zielona kropka?
 
@@ -231,7 +223,7 @@ Alternatywnie możesz też „Wyłączyć powiadomienia” dla grupy, dzięki te
 
 Możesz zduplikować grupę, aby rozpocząć osobną dyskusję lub wykluczyć członków bez ich wiedzy.
 
-- Otwórz profil grupy i dotknij opcji **Klonuj czat** (Android/iOS) lub kliknij prawym przyciskiem myszy grupę na liście czatów (komputer).
+- Otwórz profil grupu i dotknij **Klonuj czat**.
 
 - Ustaw nową nazwę, wybierz awatar i w razie potrzeby dostosuj listę członków.
 
@@ -349,7 +341,7 @@ Możesz wysyłać aplikacje do czatu – gry, edytory, ankiety i inne narzędzia
 
 - Wszystko, co musisz wiedzieć, znajdziesz w [dokumentacji Webxdc](https://webxdc.org/docs).
 
-- W razie pytań możesz je zadać innym osobom z doświadczeniem na [forum Delta Chat](https://support.delta.chat/c/webxdc/20).
+- W razie pytań możesz je zadać innym osobom z doświadczeniem na [forum](https://forum.delta.chat/c/webxdc/20).
 
 ## Natychmiastowe dostarczanie wiadomości i powiadomienia push {#instant-delivery}
 
@@ -455,7 +447,7 @@ Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne
 
 - Na starym urządzeniu przejdź do **Ustawienia → Czaty → Eksport kopii zapasowej**. Wprowadź swój PIN odblokowania ekranu, wzór lub hasło. Następnie możesz nacisnąć „Utwórz kopię”. Spowoduje to zapisanie pliku kopii zapasowej na urządzeniu. Teraz musisz jakoś przenieść go na inne urządzenie.
 
-- Na nowym urządzeniu wybierz: **Mam już profil → Przywróć z kopii zapasowej**. Jeśli korzystasz z iOS i napotykasz trudności, może [ten poradnik](https://support.delta.chat/t/import-backup-to-ios/1628) ci pomoże.
+- Na nowym urządzeniu wybierz: **Mam już profil → Przywróć z kopii zapasowej**. Jeśli korzystasz z iOS i napotykasz trudności, może [ten poradnik](https://forum.delta.chat/t/import-backup-to-ios/1628) ci pomoże.
 
 Jesteś teraz zsynchronizowany i w komunikacji ze swoimi partnerami możesz używać obu urządzeń do wysyłania i odbierania wiadomości zaszyfrowanych metodą end-to-end.
 
@@ -473,7 +465,7 @@ W **Ustawienia → Zaawansowane → Funkcje eksperymentalne** możesz wypróbowa
 
 Funkcje mogą być **niestabilne** i mogą zostać **zmienione lub usunięte**.
 
-Więcej informacji i opinii znajdziesz na [forum](https://support.delta.chat).
+Więcej informacji i opinii znajdziesz na [forum](https://forum.delta.chat).
 
 ### Czym są przekaźniki? {#relays}
 
@@ -667,7 +659,7 @@ Problemy opisane w tych ostrzeżeniach zostały naprawione i są częścią wyda
 
 - W marcu 2023 r. firma [Cure53](https://cure53.de) przeanalizowała zarówno szyfrowanie transportu połączeń sieciowych Delta Chat, jak i powtarzalną konfigurację serwera pocztowego zgodnie z [zaleceniami na tej stronie](https://delta.chat/serverguide). Możesz przeczytać więcej o audycie [na naszym blogu](https://delta.chat/en/2023-03-27-third-independent-security-audit) lub przeczytać pełny raport [tutaj](../assets/blog/MER-01-report.pdf).
 
-- W 2020 r. firma [Include Security](https://includesecurity.com) przeanalizowała biblioteki Rust [core](https://github.com/deltachat/deltachat-core-rust/), [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) i [TLS](https://github.com/async-email/async-native-tls) Delta Chat. Nie znalazła żadnych problemów krytycznych ani poważnych. W raporcie zwrócono uwagę na kilka słabych punktów o średniej wadze – same w sobie nie stanowią zagrożenia dla użytkowników Delta Chat, ponieważ zależą od środowiska, w którym używany jest Delta Chat. Ze względu na użyteczność i kompatybilność nie możemy złagodzić wszystkich z nich i zdecydowaliśmy się przedstawić zalecenia dotyczące bezpieczeństwa zagrożonym użytkownikom. Pełny raport można przeczytać [tutaj](../assets/blog/2020-second-security-review.pdf).
+- W 2020 r. firma [Include Security](https://includesecurity.com) przeanalizowała biblioteki Rust [core](https://github.com/chatmail/core/), [IMAP](https://github.com/async-email/async-imap), [SMTP](https://github.com/async-email/async-smtp) i [TLS](https://github.com/async-email/async-native-tls) Delta Chat. Nie znalazła żadnych problemów krytycznych ani poważnych. W raporcie zwrócono uwagę na kilka słabych punktów o średniej wadze – same w sobie nie stanowią zagrożenia dla użytkowników Delta Chat, ponieważ zależą od środowiska, w którym używany jest Delta Chat. Ze względu na użyteczność i kompatybilność nie możemy złagodzić wszystkich z nich i zdecydowaliśmy się przedstawić zalecenia dotyczące bezpieczeństwa zagrożonym użytkownikom. Pełny raport można przeczytać [tutaj](../assets/blog/2020-second-security-review.pdf).
 
 - W 2019 r. firma [Include Security](https://includesecurity.com) przeanalizowała biblioteki [PGP](https://github.com/rpgp/rpgp) i [RSA](https://github.com/RustCrypto/RSA) Delta Chat. Nie znaleziono żadnych krytycznych problemów, ale dwa poważne problemy, które później naprawiliśmy. Ujawniła również jeden problem o średniej wadze i kilka mniej poważnych, ale nie było możliwości wykorzystania tych luk w implementacji Delta Chat. Niektóre z nich jednak naprawiliśmy od czasu zakończenia kontroli. Pełny raport można przeczytać [tutaj](../assets/blog/2019-first-security-review.pdf).
 
@@ -677,7 +669,7 @@ Problemy opisane w tych ostrzeżeniach zostały naprawione i są częścią wyda
 
 Niektóre funkcje wymagają określonych uprawnień, np. musisz udzielić pozwolenia na korzystanie z aparatu, aby [zeskanować kod QR zaproszenia](#howtoe2ee).
 
-Szczegółowe informacje znajdują się w [Polityce prywatności](https://delta.chat/en/gdpr#app-permissions).
+Szczegółowe informacje znajdują się w [Polityce prywatności](https://delta.chat/privacy#app-permissions).
 
 ### Gdzie moi znajomi mogą znaleźć Delta Chat?
 

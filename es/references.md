@@ -10,12 +10,12 @@ lang: es
 
 ### Roskomsvoboda: Delta Chat vuelve a negarse a cooperar con las autoridades rusas
 
-Translated summary:
-_"In its response to the agency,
-the service also clarified that it is an app
-that allows users to choose email providers at will,
-and it does not have access to the contents of messages,
-let alone the encryption keys that only exist on users' devices."_
+Resumen traducido:
+_"En su respuesta a la agencia,
+el servicio también aclaró que se trata de una aplicación
+que permite a los usuarios elegir los proveedores de correo electrónico que deseen,
+y que no tiene acceso al contenido de los mensajes,
+y mucho menos a las claves de cifrado, que solo se encuentran en los dispositivos de los usuarios."_
 
 2024-06-14, <https://roskomsvoboda.org/ru/post/delta-chat-snova-otkazal-roskomnadzoru/>
 

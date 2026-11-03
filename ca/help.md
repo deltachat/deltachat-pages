@@ -274,8 +274,7 @@ Com a alternativa, també pots silenciar un grup, així rebràs tots els missatg
 
 Podeu duplicar un grup per iniciar una discussió separada o per excloure'n membres sense que s'adonin.
 
-- Obre el perfil del grup i prem **Clonar xat** (Android/iOS),
-  o fes clic amb el botó dret al grup des de la llista de xats (escriptori).
+- Open the group profile and tap **Clone Chat**.
 
 - Estableix un nom nou, tria un avatar i ajusta la llista de membres si cal.
 

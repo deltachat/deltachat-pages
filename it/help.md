@@ -320,8 +320,7 @@ puoi ancora scrivere, ma non viene più notificato alcun nuovo messaggio.
 Puoi duplicare un gruppo per avviare una discussione separata
 o per escludere membri senza che se ne accorgano.
 
-- Apri il profilo del gruppo e tocca **Clona Chat** (Android/iOS),
-  oppure fai clic con il pulsante destro del mouse sul gruppo nell'elenco delle chat (Desktop).
+- Apri il profilo del gruppo e tocca **Clona Chat**.
 
 - Imposta un nuovo nome, scegli un avatar e modifica l'elenco dei membri, se necessario.
 

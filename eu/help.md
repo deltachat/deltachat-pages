@@ -108,7 +108,7 @@ jar dezakezu, honela: **Ezarpenak → Profila → Sinaduraren testua**.
 Kontaktu bati mezu bat bidaltzen diozunean,
 hark zure kontaktuko datuak begiratutakoan ikusiko du.
 
-### Pin, mute and archive a chat {#pin-chats}
+### Finkatu, mututu eta artxibatu txat bat {#pin-chats}
 
 Txatak antolatzeko tresnak dira, eta honela erabil ditzakezu:
 
@@ -146,27 +146,27 @@ jatorrizko mezura joango zara, jatorrizko txatera.
 Mezuak gordeta geratzen dira, baita gerora editatu edo ezabatuz gero ere,
 bai [igorleak](#edit) hala egin duenean, bai [gailutik mezuak ezabatzea](#delold) aukeratuta dagoenean, bai [beste txat batzuetatik mezuak desagertzea](#ephemeralmsgs) aukeratuta dagoenean.
 
-### How do pinned messages work? {#pin-messages}
+### Nola funtzionatzen dute finkatutako mezuek? {#pin-messages}
 
-**Pin important messages** such as an address, a meeting time or the rules of a group,
-so everyone can find them quickly.
-Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
-pinned messages are visible to **all chat members**.
+**Finkatu mezu garrantzitsuak**, hala nola helbide bat, bilera-ordu bat edo talde baten arauak,
+denek azkar aurki ditzaten.
+[Finkatutako txatek](#pin-chats) _zure_ txaten zerrenda soilik antolatzen dute;
+finkatutako mezuak, aldiz, **txateko kide guztiek** ikusten dituzte.
 
-- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
-  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
-  Unpinning also affects all chat members, not only you.
+- Edozein txatetan, eduki sakatuta mezua edo egin klik eskuineko botoiarekin gainean, eta hautatu <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Finkatu**.
+  Kentzeko, hautatu <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Desfinkatu** menu berean.
+  Desfinkatzeak txateko kide guztiei eragiten die, ez zuri bakarrik.
 
-- Pinned messages are shown in a **bar at the top of the chat**.
-  Tap the bar to jump to the pinned message.
-  If there are several, you can step through them.
+- Finkatutako mezuak **txataren goialdeko barra batean** erakusten dira.
+  Ukitu barra finkatutako mezura joateko.
+  Bat baino gehiago badaude, banan-banan igaro zaitezke haien artean.
 
-- If you pin an [app](#webxdc), it gets a **start button**
-  so that everyone has easy access to it without scrolling or searching around.
+- [Aplikazio](#webxdc) bat finkatzen baduzu, **abiarazteko botoi** bat izango du,
+  denek erraz eskura dezaten, korritu edo bilatu beharrik gabe.
 
-- There is no limit on the number of pinned messages or on how long they stay pinned.
+- Ez dago mugarik finkatutako mezuen kopuruan, ezta finkatuta egon daitezkeen denboran ere.
 
-To keep messages just for yourself, use [Saved Messages](#save).
+Mezuak zuretzat bakarrik gordetzeko, erabili [Gordetako mezuak](#save).
 
 ### Zer esan nahi du puntu berdeak?
 
@@ -324,8 +324,7 @@ eta taldean idazten jarraitu ahalko duzu, baina mezuen jakinarazpenik ez duzu ja
 Agian talderen bat bikoiztea komeni zaizu, zerbaiti buruz aparte hitz egiteko
 edo kide batzuk kanpo uzteko, haiek ohartu gabe. Horretarako:
 
-- Ireki taldearen profila eta ukitu **Klonatu txata** (Android/iOS),
-edo egin klik eskuineko botoiarekin taldearen gainean, txaten zerrendan (mahaigainekoa).
+- Ireki taldearen profila eta ukitu **Klonatu txata**.
 
 - Idatzi izen berria, aukeratu abatar bat eta doitu kideen zerrenda, beharrezkoa bada.
 
@@ -955,32 +954,31 @@ helbideen arteko metadatu erlazionalak babestea.
 Ez dugu uste arazo handirik egongo denik bidalketa zifraturako behin baliatzeko
 ausazko helbideak erabiltzeko, baina horren ezarpena lehentasun izatea ez da erabaki oraindik. 
 
-### Does Delta Chat support Perfect Forward Secrecy? {#pfs}
+### Onartzen al du Delta Chatek konfidentzialtasun aurreratu perfektua (PFS)? {#pfs}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org). 
+Oraindik ez, baina [Autocrypt v2](https://autocrypt2.org) bertsioarekin etorriko da. 
 
-Delta Chat today doesn't support Perfect Forward Secrecy (PFS).
-This means that if your private decryption key is leaked,
-and someone has collected your prior in-transit messages,
-they will be able to decrypt and read them using the leaked decryption key.
-Note that Forward Secrecy only increases security if you delete messages. 
-Otherwise, someone obtaining your decryption keys
-is typically also able to get all your non-deleted messages
-and doesn't even need to decrypt any previously collected messages. 
+Gaur egun, Delta Chatek ez du konfidentzialtasun aurreratu perfektua (PFS) onartzen.
+Horrek esan nahi du zure deszifratze-gako pribatua filtratzen bada,
+eta norbaitek zure lehenagoko mezuak garraioan bildu baditu,
+filtratutako deszifratze-gakoa erabiliz deszifratu eta irakurri ahal izango dituela.
+Kontuan izan konfidentzialtasun aurreratuak mezuak ezabatzen badituzu bakarrik handitzen duela segurtasuna. 
+Bestela, zure deszifratze-gakoak lortzen dituenak, normalean, ezabatu gabeko zure mezu guztiak ere lor ditzake,
+eta ez du lehenago bildutako mezurik deszifratu beharrik ere. 
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will provide reliable deletion (forward secrecy) through automatic key rotation.
-This approach is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[Autocrypt v2](https://autocrypt2.org) bertsioak, 2026an guztiz inplementatzea aurreikusita dagoenak,
+ezabatze fidagarria (konfidentzialtasun aurreratua) eskainiko du, gakoen errotazio automatikoaren bidez.
+Ikuspegi hori [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) zirriborroan zehazten da. 
 
-### Does Delta Chat support Post-Quantum-Cryptography? {#pqc}
+### Onartzen al du Delta Chatek kriptografia postkuantikoa? {#pqc}
 
-Not yet, but it's coming with [Autocrypt v2](https://autocrypt2.org).
+Oraindik ez, baina [Autocrypt v2](https://autocrypt2.org) bertsioarekin etorriko da.
 
-[Autocrypt v2](https://autocrypt2.org), scheduled for full implementation in 2026,
-will bring post-quantum resistant encryption to protect against quantum computer attacks.
-Delta Chat uses the Rust OpenPGP library [rPGP](https://github.com/rpgp/rpgp)
-which supports the latest [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
-The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) draft. 
+[Autocrypt v2](https://autocrypt2.org) bertsioak, 2026an guztiz inplementatzea aurreikusita dagoenak,
+zifratze postkuantikoa ekarriko du, ordenagailu kuantikoen erasoetatik babesteko.
+Delta Chatek Rust-en idatzitako [rPGP](https://github.com/rpgp/rpgp) OpenPGP liburutegia erabiltzen du,
+eta liburutegi horrek [IETFren OpenPGPrako kriptografia postkuantikoaren zirriborroaren](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/) azken bertsioa onartzen du.
+Inplementazioa [Autocrypt v2 OpenPGP Certificates](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/) zirriborroan zehazten da. 
 
 ### Nola egiazta dezaket gailuan zifratze-informazioa?
 
@@ -1008,58 +1006,58 @@ Bai, behin baino gehiagotan.
 Delta Chati etengabe egiten zaizkio segurtasun-auditoria eta -azterketa independenteak.
 Hona hemen zerrenda, ordena kronologikoan:
 
-- 2024 December, an [NLNET-commissioned Evaluation of
-  rPGP](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf) by [Radically Open Security](https://www.radicallyopensecurity.com/) took place.
-  rPGP serves as the end-to-end encryption [OpenPGP](https://openpgp.org) engine of Delta Chat. 
-  Two advisories were released related to the findings of this audit:
+- 2024ko abendua: [Radically Open Security](https://www.radicallyopensecurity.com/) enpresak [rPGPren ebaluazio bat egin zuen,
+  NLNETek enkargatuta](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf).
+  rPGP da Delta Chaten muturretik muturrerako zifratzearen [OpenPGP](https://openpgp.org) motorra. 
+  Auditoria horren aurkikuntzei lotuta, bi segurtasun-aholku argitaratu ziren:
 
   - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
   - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
 
-  The issues outlined in these advisories have been fixed and are part of Delta Chat 
-  releases on all appstores since December 2024. 
+  Aholku horietan azaldutako arazoak konponduta daude, eta konponbideak 2024ko abenduaz geroztik 
+  aplikazio-denda guztietako Delta Chat bertsioetan daude. 
 
-- 2024 March, we received a deep security analysis from the Applied Cryptography
-  research group at ETH Zuerich and addressed all raised issues. 
-  See our blog post about [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) for more detailed information and the
-  [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
-  research paper published afterwards. 
+- 2024ko martxoa: ETH Zuricheko Kriptografia Aplikatuko ikerketa-taldeak
+  segurtasun-azterketa sakona egin zigun, eta aipatutako arazo guztiei heldu genien. 
+  Informazio zehatzagoa nahi baduzu, ikus gure blogeko [Hardening Guaranteed End-to-End encryption](https://delta.chat/en/2024-03-25-crypto-analysis-securejoin) artikulua eta
+  geroago argitaratutako [Cryptographic Analysis of Delta Chat](https://eprint.iacr.org/2024/918.pdf) 
+  ikerketa-artikulua. 
 
-- 2023 April, we fixed security and privacy issues with the "web
-  apps shared in a chat" feature, related to failures of sandboxing
-  especially with Chromium. We subsequently got an independent security
-  audit from Cure53 and all issues found were fixed in the 1.36 app series released in April 2023.
-  See [here for the full background story on end-to-end security in the web](https://delta.chat/en/2023-05-22-webxdc-security).
+- 2023ko apirila: "txat batean partekatutako web-aplikazioak" funtzioaren segurtasun- eta
+  pribatutasun-arazoak konpondu genituen, isolamenduaren (sandboxing) hutsegiteei lotutakoak,
+  batez ere Chromium-ekin. Ondoren, Cure53ren segurtasun-auditoria independente bat jaso genuen,
+  eta aurkitutako arazo guztiak 2023ko apirilean argitaratutako 1.36 bertsioetan konpondu ziren.
+  Ikus [hemen webeko muturretik muturrerako segurtasunaren testuinguru osoa](https://delta.chat/en/2023-05-22-webxdc-security).
 
-- 2023 March, [Cure53](https://cure53.de) analyzed both the transport encryption of
-  Delta Chat's network connections and a reproducible mail server setup as
-  [recommended on this site](https://delta.chat/serverguide).
-  You can read more about the audit [on our blog](https://delta.chat/en/2023-03-27-third-independent-security-audit)
-  or read the [full report here](../assets/blog/MER-01-report.pdf).
+- 2023ko martxoa: [Cure53](https://cure53.de) enpresak aztertu zituen, batetik, Delta Chaten sare-konexioen
+  garraio-zifratzea eta, bestetik, [webgune honetan gomendatzen den](https://delta.chat/serverguide)
+  posta-zerbitzari konfigurazio erreproduzigarria.
+  Auditoriari buruzko informazio gehiago [gure blogean](https://delta.chat/en/2023-03-27-third-independent-security-audit) irakur dezakezu,
+  edo [txosten osoa hemen](../assets/blog/MER-01-report.pdf).
 
-- 2020, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's Rust [core](https://github.com/chatmail/core/),
+- 2020: [Include Security](https://includesecurity.com) enpresak Delta
+  Chaten Rust-eko [core](https://github.com/chatmail/core/),
   [IMAP](https://github.com/async-email/async-imap),
-  [SMTP](https://github.com/async-email/async-smtp), and
-  [TLS](https://github.com/async-email/async-native-tls) libraries.
-  It did not find any critical or high-severity issues.
-  The report raised a few medium-severity weaknesses -
-  they are no threat to Delta Chat users on their own
-  because they depend on the environment in which Delta Chat is used.
-  For usability and compatibility reasons,
-  we can not mitigate all of them
-  and decided to provide security recommendations to threatened users.
-  You can read the [full report here](../assets/blog/2020-second-security-review.pdf).
+  [SMTP](https://github.com/async-email/async-smtp) eta
+  [TLS](https://github.com/async-email/async-native-tls) liburutegiak aztertu zituen.
+  Ez zuen arazo kritikorik edo larritasun handikorik aurkitu.
+  Txostenak larritasun ertaineko ahulezia batzuk aipatu zituen;
+  berez ez dira mehatxu Delta Chaten erabiltzaileentzat,
+  Delta Chat erabiltzen den ingurunearen araberakoak baitira.
+  Erabilgarritasun- eta bateragarritasun-arrazoiengatik,
+  ezin ditugu denak arindu,
+  eta mehatxatuta dauden erabiltzaileei segurtasun-gomendioak ematea erabaki genuen.
+  [Txosten osoa hemen](../assets/blog/2020-second-security-review.pdf) irakur dezakezu.
 
-- 2019, [Include Security](https://includesecurity.com) analyzed Delta
-  Chat's [PGP](https://github.com/rpgp/rpgp) and
-  [RSA](https://github.com/RustCrypto/RSA) libraries.
-  It found no critical issues,
-  but two high-severity issues that we subsequently fixed.
-  It also revealed one medium-severity and some less severe issues,
-  but there was no way to exploit these vulnerabilities in the Delta Chat implementation.
-  Some of them we nevertheless fixed since the audit was concluded.
-  You can read the [full report here](../assets/blog/2019-first-security-review.pdf).
+- 2019: [Include Security](https://includesecurity.com) enpresak Delta
+  Chaten [PGP](https://github.com/rpgp/rpgp) eta
+  [RSA](https://github.com/RustCrypto/RSA) liburutegiak aztertu zituen.
+  Ez zuen arazo kritikorik aurkitu,
+  baina larritasun handiko bi arazo aurkitu zituen, eta ondoren konpondu genituen.
+  Larritasun ertaineko arazo bat eta larritasun txikiagoko beste batzuk ere agerian utzi zituen,
+  baina ez zegoen ahultasun horiek Delta Chaten inplementazioan ustiatzeko modurik.
+  Hala ere, horietako batzuk konpondu ditugu auditoria amaitu zenetik.
+  [Txosten osoa hemen](../assets/blog/2019-first-security-review.pdf) irakur dezakezu.
 
 ## Saski-naskia
 

@@ -102,7 +102,7 @@ podes facelo en **Configuración → Perfil → Biografía**.
 Unha vez que envíes unha mensaxe a un contacto,
 este poderá vela cando consulte os teus datos de contacto.
 
-### Pin, mute and archive a chat {#pin-chats}
+### Espetar, silenciar e arquivar unha conversa {#pin-chats}
 
 Emprega estas ferramentas para organizar as túas conversas e manter todo no seu lugar:
 
@@ -117,13 +117,13 @@ Emprega estas ferramentas para organizar as túas conversas e manter todo no seu
 - Cando unha conversa arquivada recibe unha nova mensaxe, a non ser que estea silenciada, **sairá do arquivo** e volverá á túa lista de conversas.
   **As conversas silenciadas permanecen arquivadas** ata que as arquives manualmente de novo.
 
-Para usar as funcións, mantén premido durante moito tempo ou fai clic co botón dereito nunha conversa na lista de conversas.
+Para emprega-las funcións, manteña premida ou faga clic co botón dereito nunha conversa na lista de conversas.
 
 ### Como funcionan as "Mensaxes gardadas"? {#save}
 
 **Mensaxes gardadas** é unha conversa que podes usar para lembrar e atopar mensaxes con facilidade.
 
-En calquera conversa, mantén premida unha mensaxe ou fai clic co botón dereito e selecciona **Gardar**
+En calquera conversa, manteña premida unha mensaxe ou faga clic co botón dereito e seleccione **Gardar**
 
 - As mensaxes gardadas están marcadas co símbolo
  <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/saved-icon.png" alt="Saved icon"/>
@@ -140,27 +140,27 @@ xunto ao selo de tempo.
 As mensaxes permanecen gardadas aínda que sexan editadas ou eliminadas -
 xa sexa polo [remitente](#edit), pola [limpeza do dispositivo](#delold) ou polas [mensaxes que desaparecen doutros chats](#ephemeralmsgs).
 
-### How do pinned messages work? {#pin-messages}
+### Como funcionan as mensaxes espetadas? {#pin-messages}
 
-**Pin important messages** such as an address, a meeting time or the rules of a group,
-so everyone can find them quickly.
-Unlike [pinned chats](#pin-chats) that only organize _your_ chat list,
-pinned messages are visible to **all chat members**.
+**Espetar mensaxes importantes** tales como unha dirección, a hora dunha cita ou as regras dun grupo,
+de maneira que tódalas persoas as poidan ve rápidamente.
+A diferencia das [conversas espetadas](#pin-chats)  que só afectan _á súa_ vista da conversa,
+as mensaxes espetadas son visibeis para **tódalas integrantes da conversa**.
 
-- In any chat, long tap or right click a message and select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Pin**.
-  To remove it, select <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Unpin** from the same menu.
-  Unpinning also affects all chat members, not only you.
+- En calquera conversa, manteña premida ou faga clic co botón dereito nunha mensaxe e seleccione <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/pin-icon.png" alt=""/> **Espetar**.
+Para desespetala, seleccione <img style="vertical-align:middle; height:1.2em; margin:1px" src="../assets/help/unpin-icon.png" alt=""/> **Desespetar** no mesmo menú.
+Desespetar afecta a tódolos membros da conversa, non é privado.
 
-- Pinned messages are shown in a **bar at the top of the chat**.
-  Tap the bar to jump to the pinned message.
-  If there are several, you can step through them.
+- As mensaxes espetadas móstranse nunha **barra na parte superior da convesa**.
+Prema na barra para saltar á mensaxe espetada.
+Se hai varias, pode desprazarse por elas.
 
-- If you pin an [app](#webxdc), it gets a **start button**
-  so that everyone has easy access to it without scrolling or searching around.
+- Se espeta unha [aplicación](#webxdc), obtén un **botón de inicio**
+de maneira que tódalas persoas teñan un acceso doado á mesma sen ter que desprazarse ou buscala.
 
-- There is no limit on the number of pinned messages or on how long they stay pinned.
+- A cantidade de mensaxes que se poden espetar e a duración das mensaxes espetadas son ilimtadas.
 
-To keep messages just for yourself, use [Saved Messages](#save).
+Para mante-las mensaxes en privado, empregue [Mensaxes gardadas](#save).
 
 ### Que significa o punto verde?
 
@@ -186,8 +186,8 @@ Só obterás a segunda marca de lectura se tanto ti como unha das persoas destin
 
 ### Corrixir erros tipográficos e eliminar mensaxes despois de envialas {#edit}
 
-- Podes editar o texto das túas mensaxes despois de envialas.
-  Para iso, mantén preme ou fai clic co botón dereito na mensaxe e selecciona **Editar**
+- Pode edita-lo texto das súas mensaxes despois de envialas.
+  Para iso, manteña premida ou faga clic co botón dereito na mensaxe e seleccione **Editar**
   ou <img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/edit-icon.png" alt="Edit icon"/>.
 
 - Se enviaches unha mensaxe por accidente,
@@ -318,8 +318,7 @@ segues podendo escribir, pero xa non recibes notificacións de mensaxes novas.
 Podes duplicar un grupo para iniciar unha discusión separada
  ou para excluír membros sen que se decaten.
 
-- Abre o perfil do grupo e preme **Clonar Chat** (Android/iOS),
-  ou preme co botón dereito no grupo na lista de conversas (Ordenador).
+Abra o perfil do grupo e prema **Clonar conversa**.
 
 - Establece un novo nome, escolle un avatar e axusta a lista de participantes se é preciso.
 

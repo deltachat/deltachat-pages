@@ -302,8 +302,7 @@ For more info, please refer to the respective page from your [3rd party chatmail
 您可以复制一个组以开始单独的讨论
 或在不被成员察觉的情况下排除成员。
 
-- 打开群组配置文件，然后点击 ** 克隆聊天** （Android/iOS）、
-  或右键单击聊天列表中的群组（桌面）。
+- Open the group profile and tap **Clone Chat**.
 
 - 设置新名称、选择头像，并根据需要调整成员名单。
 

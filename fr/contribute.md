@@ -38,5 +38,4 @@ qui peuvent ou non respecter nos [normes communautaires](community-standards) :
 
 - Une [subreddit DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above).
+Si vous avez connaissance d'autres canaux de communication tiers ou que vous en créez vous-même, merci de nous le faire savoir (voir Canaux et dépôts de données, ci-dessus).

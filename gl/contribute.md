@@ -21,11 +21,11 @@ das funcións e obter apoio.
 
 # Traducións e informes de erros
 
-- [Traducións en Transifex](https://www.transifex.com/delta-chat/public/)
-- [Problemas Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
-- [Problemas Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
-- [Problemas Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
-- [Problemas entre Rust Core Library e Python](https://github.com/deltachat/deltachat-core-rust/issues)
+- [Traducións en Transifex](https://explore.transifex.com/delta-chat/)
+- [Asuntos con Delta Chat para Android](https://github.com/deltachat/deltachat-android/issues)
+- [Asuntos con Delta Chat para escritorio](https://github.com/deltachat/deltachat-desktop/issues)
+- [Asuntos con Delta Chat para iOS](https://github.com/deltachat/deltachat-ios/issues)
+- [Asuntos coa librería do núcleo en Rust Core Library e os vínculos con Python](https://github.com/chatmail/core/issues)
 
 # Canles de comunicación de terceiros 
 
