@@ -3,7 +3,7 @@ title: Standards de la Communauté
 lang: fr
 ---
 
-# Community Standards
+# Standards de la communauté
 
 In the interest of fostering an open and welcoming environment,
 we as contributors and maintainers strive to make participation

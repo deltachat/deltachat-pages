@@ -20,15 +20,15 @@ Veuillez lire nos [Standards de la communauté](community-standards) pour en sav
 # Traductions et rapports de bugs
 
 - [Traductions sur Transifex](https://explore.transifex.com/delta-chat/)
-- [Delta Chat Android Issues](https://github.com/deltachat/deltachat-android/issues)
-- [Delta Chat Desktop Issues](https://github.com/deltachat/deltachat-desktop/issues)
-- [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
+- [Bugs Delta Chat Android](https://github.com/deltachat/deltachat-android/issues)
+- [Bugs Delta Chat Desktop](https://github.com/deltachat/deltachat-desktop/issues)
+- [Bugs Delta Chat iOS](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/deltachat/deltachat-core-rust/issues)
 
 # Canaux de communication tiers 
 
 Les canaux de communication suivants, liés à Delta Chat, sont gérés par des tiers
-qui peuvent ou non respecter nos [normes communautaires](community-standards) : 
+qui peuvent respecter, ou pas, nos [Standards de la communauté](community-standards) : 
 
 - [PixelSocial]({% include dc-community-url %}) un réseau social anonyme opérant dans Delta Chat.
 
@@ -36,6 +36,6 @@ qui peuvent ou non respecter nos [normes communautaires](community-standards) :
   que vous pouvez suivre en ajoutant `!delta_chat@lemmy.zip` 
   dans le champ de recherche de votre app fediverse.
 
-- Une [subreddit DeltaChat](https://old.reddit.com/r/DeltaChat/).
+- Un [subreddit DeltaChat](https://old.reddit.com/r/DeltaChat/).
 
 Si vous avez connaissance d'autres canaux de communication tiers ou que vous en créez vous-même, merci de nous le faire savoir (voir Canaux et dépôts de données, ci-dessus).
