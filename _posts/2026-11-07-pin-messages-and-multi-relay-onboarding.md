@@ -25,16 +25,15 @@ or the **mini-apps** you use most, without endless scrolling.
 
 ## Delta Chat iOS now has Liquid Glass support
 
-<img src="../assets/blog/2026-11-07-liquid-glass.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:52px;">
-
 The iOS app now supports Apple's new Liquid Glass design language
 and looks much **more integrated.**
 Beyond the new controls,
 we also took the chance to **renovate** quite a few views and menus.
 
+<img src="../assets/blog/2026-11-07-liquid-glass.jpg" style="width:300px;" />
+
 
 ## In-app upgrades on Android
-{: style="clear:both"}
 
 If you [download the Android APK directly from us](https://delta.chat/en/download),
 without a big tech store in the middle,
@@ -61,18 +60,16 @@ Stay tuned!
 
 
 ## Better Message Info
-{: style="clear:both"}
-
-<img src="../assets/blog/2026-11-07-msg-info-android.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:52px;" />
 
 Checking **who has read your message** and **when** now looks much nicer on all platforms.
 The list of contacts is clearly visible,
 while debugging information meant mostly for us developers
 has moved into the dialog's menu.
 
+<img src="../assets/blog/2026-11-07-msg-info-android.jpg" style="width:300px;" />
+
 
 ## Other noticeable improvements
-{: style="clear:both"}
 
 Some more improvements deserving an honorable mention:
 
