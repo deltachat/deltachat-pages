@@ -32,6 +32,7 @@ zh_CN:
     dl_mac_appstore: 从 Apple Mac AppStore 上下载
     dl_appstore: 从 Apple AppStore 上下载
     dl_fdroid: 从 F-Droid 获取
+    dl_ghs: 从 GitHub Store 获取
     gplay: 从 Google Play 获取
 
   help:

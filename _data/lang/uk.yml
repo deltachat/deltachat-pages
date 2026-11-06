@@ -32,6 +32,7 @@ uk:
     dl_mac_appstore: Завантажити з Apple Mac AppStore
     dl_appstore: Завантажити з Apple AppStore
     dl_fdroid: Отримати з F-Droid
+    dl_ghs: Отримати з GitHub Store
     gplay: Отримати з Google Play
 
   help:

@@ -32,6 +32,7 @@ cs:
     dl_mac_appstore: Stáhnout z AppStore pro Apple Mac
     dl_appstore: Stáhnout z Apple AppStore
     dl_fdroid: Získat z F-Droid
+    dl_ghs: Získat z GitHub Store
     gplay: Získat z Google Play
 
   help:
