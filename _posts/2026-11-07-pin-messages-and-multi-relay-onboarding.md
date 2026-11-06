@@ -110,8 +110,8 @@ as happens with Matrix and the Fediverse today.
 <img src="../assets/blog/2026-11-07-relays-desktop.png" style="width:415px;" />
 
 The newest Delta Chat releases offer *actual decentralization*,
-which means higher resilience to server outages and network degradation
-and keeps you securely chat-connected during critical times.
+which means higher resilience to server outages and network degradation,
+keeping you securely chat-connected during critical times.
 Moreover, the many community [chatmail relay](https://chatmail.at/doc/relay) operators
 can sleep easier, knowing that their users can keep chatting
 even when their server has temporary trouble.
@@ -217,7 +217,7 @@ Delta Chat is end-to-end encrypted by default,
 and [chatmail relays](https://chatmail.at/relays) do not support sending or receiving unencrypted messages.
 But some users have used Delta Chat since the early years, when unencrypted messaging was the default.
 Others switched off "Enforce Encryption" somewhere deep in the relay settings
-to use Delta Chat as a somewhat convenient email client on a dedicated profile.
+to use Delta Chat as a somewhat convenient email client on a classic email provider or own server.
 Many of our contributors have used Delta Chat this way, actually!
 However, supporting unencrypted email gets in the way of explaining what Delta Chat is:
 a secure and resilient decentralized messenger.
