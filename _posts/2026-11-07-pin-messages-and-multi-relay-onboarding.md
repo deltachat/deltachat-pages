@@ -25,7 +25,7 @@ or the **mini-apps** you use most, without endless scrolling.
 
 ## Delta Chat iOS now has Liquid Glass support
 
-<img src="../assets/blog/2026-11-07-liquid-glass.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;">
+<img src="../assets/blog/2026-11-07-liquid-glass.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:52px;">
 
 The iOS app now supports Apple's new Liquid Glass design language
 and looks much **more integrated.**
@@ -34,6 +34,7 @@ we also took the chance to **renovate** quite a few views and menus.
 
 
 ## In-app upgrades on Android
+{: style="clear:both"}
 
 If you [download the Android APK directly from us](https://delta.chat/en/download),
 without a big tech store in the middle,
@@ -60,8 +61,9 @@ Stay tuned!
 
 
 ## Better Message Info
+{: style="clear:both"}
 
-<img src="../assets/blog/2026-11-07-msg-info-android.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
+<img src="../assets/blog/2026-11-07-msg-info-android.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:52px;" />
 
 Checking **who has read your message** and **when** now looks much nicer on all platforms.
 The list of contacts is clearly visible,
@@ -70,6 +72,7 @@ has moved into the dialog's menu.
 
 
 ## Other noticeable improvements
+{: style="clear:both"}
 
 Some more improvements deserving an honorable mention:
 
@@ -136,7 +139,7 @@ But please make sure that all your devices run app version `2.62` or later befor
 <script src="../assets/blog/2026-11-07-relay-flow.js"></script>
 
 
-<img src="../assets/blog/2026-11-07-chat-us-east-1.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
+<img src="../assets/blog/2026-11-07-chat-us-east-1.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:1.5em;" />
 Incoming messages are fetched from all your relays,
 outgoing ones leave through whichever relay answers,
 and the connectivity view says "connected" as long as one relay is up.
@@ -271,11 +274,11 @@ is maintained within the "chatmail core" library.
 <img src="../assets/blog/2026-11-07-pqc-future-loading-anim.webp" alt="Loading: Post-Quantum Cryptography, Reliable Deletion, Autocrypt v2, Security Hardening" />
 <!-- original image source: https://www.publicdomainpictures.net/en/view-image.php?image=221604&picture=future-downloading -->
 
-Since May 2026, Delta Chat supports **[Post-Quantum Cryptography (PQC)](https://delta.chat/en/help#pqc)**,
+Since May 2026, Delta Chat supports **Post-Quantum Cryptography (PQC)**
 but does not actively send messages with it yet.
-This phased rollout aims to make the transition smooth for users,
+Phased rollout aims to make the transition smooth for users,
 so future versions can enable PQC for sending without breaking compatibility with older releases.
-We are working on support for [Autocrypt v2](https://autocrypt2.org),
+This is part of our security-hardening efforts around [Autocrypt v2](https://autocrypt2.org),
 which will also bring [reliable deletion](https://delta.chat/en/help#pfs),
 better known as "Forward Secrecy", to Delta Chat.
 Check out the [FOSDEM 2026 slides](https://autocrypt2.org/#/what-is-autocrypt-v2) for more details.
