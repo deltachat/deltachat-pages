@@ -1,5 +1,5 @@
 ---
-title: "Pinned messages, Liquid Glass and resilient decentralized instant onboarding"
+title: "Pinned messages, Liquid Glass, resilient decentralized onboarding and security-hardening efforts"
 author: "Delta Chat team"
 image: ../assets/blog/2026-11-07-pqc-future-loading-anim.webp
 ---
@@ -146,7 +146,7 @@ and the people using it just keep chatting through their other relays :)
 
 
 <details markdown="1" style="clear:both;">
-<summary>For the curious: details on current and upcoming relay handling (tap to expand)</summary>
+<summary>For the curious: details on current and upcoming multi-relay handling (tap to expand)</summary>
 
 **How community relays are selected for new profiles.**
 Just like two years ago, creating a profile asks for a name and a picture, nothing more.
