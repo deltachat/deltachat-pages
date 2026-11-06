@@ -5,7 +5,8 @@ image: ../assets/blog/2026-11-07-pqc-future-loading-anim.webp
 ---
 
 Announcement time! This blog has been quiet for over half a year,
-so please get ready for enough news to fill three separate posts:
+but we continously released new app versions throughout.
+Please get ready for enough news to fill three separate posts:
 new user-visible and often-requested features,
 how new profiles use the growing chatmail relay network without anyone choosing one,
 and our ongoing security hardening efforts, including the announcement that we are dropping unencrypted email,
