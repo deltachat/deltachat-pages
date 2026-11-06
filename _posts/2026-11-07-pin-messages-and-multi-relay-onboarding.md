@@ -1,5 +1,5 @@
 ---
-title: "Pinned messages, Liquid Glass, and big steps for decentralization, resilience and security"
+title: "Pinned messages, Liquid Glass and resilient decentralized instant onboarding"
 author: "Delta Chat team"
 image: ../assets/blog/2026-11-07-pqc-future-loading-anim.webp
 ---
