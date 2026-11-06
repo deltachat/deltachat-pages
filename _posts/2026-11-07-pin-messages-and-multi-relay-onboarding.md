@@ -216,7 +216,7 @@ and we aim to detect and replace broken relays automatically in the future.
 
 Delta Chat is end-to-end encrypted by default,
 and [chatmail relays](https://chatmail.at/relays) do not support sending or receiving unencrypted messages.
-But some users have used Delta Chat since the early years, when unencrypted messaging was the default.
+But some have used Delta Chat since the early years, when unencrypted messaging was the default.
 Others switched off "Enforce Encryption" somewhere deep in the relay settings
 to use Delta Chat as a somewhat convenient email client on a classic email provider or own server.
 Many of our contributors have used Delta Chat this way, actually!
