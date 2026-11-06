@@ -285,13 +285,15 @@ Check out the [FOSDEM 2026 slides](https://autocrypt2.org/#/what-is-autocrypt-v2
 ## Get the Update and join the fun
 
 Visit [get.delta.chat](https://get.delta.chat) or your preferred store to grab the update.
-Please [let us know](https://delta.chat/en/contribute#translations-and-bug-reports)
-if you run into any problems.
 
 If you would like to support our efforts, please consider
-[contributing or donating](https://delta.chat/en/contribute),
-running a [chatmail relay](https://chatmail.at/relays),
-creating [mini-apps](https://webxdc.org),
-or just leaving us a nice review in your app store of choice.
+
+- [contributing or donating](https://delta.chat/en/contribute),
+
+- [setting up a chatmail relay](https://chatmail.at/doc/relay), or
+
+- [creating mini-apps](https://webxdc.org)
+
+or just leave us a nice review in your app store of choice.
 
 ♥ **thanks for following and supporting us** ♥
