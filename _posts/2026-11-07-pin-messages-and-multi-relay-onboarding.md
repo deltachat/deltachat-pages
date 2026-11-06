@@ -296,4 +296,4 @@ If you would like to support our efforts, please consider
 
 or just leave us a nice review in your app store of choice.
 
-♥ **thanks for following and supporting us** ♥
+♥ **thanks** ♥
