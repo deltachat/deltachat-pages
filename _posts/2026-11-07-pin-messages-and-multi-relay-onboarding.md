@@ -244,7 +244,7 @@ and their reasoning applies to our efforts as well:
 If you still use Delta Chat for unencrypted messages with classic email providers,
 please move to a dedicated email app such as Thunderbird, FairEmail or K-9 Mail.
 An upcoming release will
-and turn all unencrypted email chats read-only;
+turn all unencrypted email chats read-only;
 they will not receive any more messages.
 
 
