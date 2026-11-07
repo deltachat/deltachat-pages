@@ -31,7 +31,7 @@ and looks much **more integrated.**
 Beyond the new controls,
 we also took the chance to **renovate** quite a few views and menus.
 
-<img src="../assets/blog/2026-11-07-liquid-glass.jpg" style="width:340px;" />
+<img src="../assets/blog/2026-11-07-liquid-glass1.jpg" style="width:300px;" />
 <img src="../assets/blog/2026-11-07-liquid-glass-blue2.jpg" style="width:260px;" />
 
 
