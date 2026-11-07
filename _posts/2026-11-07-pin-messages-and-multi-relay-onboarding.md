@@ -253,7 +253,7 @@ they will not receive any more messages.
 <img src="../assets/blog/2026-11-07-ietf-standards.png" alt="RFC document with a checkmark" style="width:100px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
 
 While we are dropping unencrypted email,
-we remain committed to interoperability,
+we **remain committed to interoperability,**
 take part in IETF standardization
 and implement the most recent IETF standards for encrypted email:
 OpenPGP ([RFC 9580](https://www.rfc-editor.org/rfc/rfc9580)
