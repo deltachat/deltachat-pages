@@ -31,7 +31,7 @@ and looks much **more integrated.**
 Beyond the new controls,
 we also took the chance to **renovate** quite a few views and menus.
 
-<img src="../assets/blog/2026-11-07-liquid-glass1.jpg" style="width:300px;" />
+<img src="../assets/blog/2026-11-07-liquid-glass1.jpg" style="width:300px; margin-right:1em;" />
 <img src="../assets/blog/2026-11-07-liquid-glass-blue2.jpg" style="width:260px;" />
 
 
@@ -108,8 +108,8 @@ as happens with Matrix and the Fediverse today.
 
 **New profiles now use multiple community relays automatically**
 
-<img src="../assets/blog/2026-11-07-instant-onboarding-desktop.png" style="width:300px; margin-right:1em;" />
-<img src="../assets/blog/2026-11-07-relays-desktop.png" style="width:415px;" />
+<img src="../assets/blog/2026-11-07-instant-onboarding-desktop.png" style="width:320px; margin-right:1em;" />
+<img src="../assets/blog/2026-11-07-relays-desktop.png" style="width:395px;" />
 
 The newest Delta Chat releases offer *actual decentralization*,
 which means higher resilience to server outages and network degradation,
