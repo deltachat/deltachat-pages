@@ -31,7 +31,8 @@ and looks much **more integrated.**
 Beyond the new controls,
 we also took the chance to **renovate** quite a few views and menus.
 
-<img src="../assets/blog/2026-11-07-liquid-glass.jpg" style="width:300px;" />
+<img src="../assets/blog/2026-11-07-liquid-glass.jpg" style="width:340px;" />
+<img src="../assets/blog/2026-11-07-liquid-glass-blue2.jpg" style="width:260px;" />
 
 
 ## In-app upgrades on Android
@@ -242,7 +243,7 @@ and their reasoning applies to our efforts as well:
 
 If you still use Delta Chat for unencrypted messages with classic email providers,
 please move to a dedicated email app such as Thunderbird, FairEmail or K-9 Mail.
-An upcoming release will drop unencrypted messages
+An upcoming release will
 and turn all unencrypted email chats read-only;
 they will not receive any more messages.
 
