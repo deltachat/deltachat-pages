@@ -5,12 +5,11 @@ image: ../assets/blog/2026-11-07-pqc-future-loading-anim.webp
 ---
 
 Announcement time! This blog has been quiet for over half a year,
-but we continously released new app versions throughout.
+but we continuously released new app versions throughout.
 Please get ready for enough news to fill three separate posts:
 new user-visible and often-requested features,
 how new profiles use the growing chatmail relay network without anyone choosing one,
-and our ongoing security hardening efforts, including the announcement that we are dropping unencrypted email,
-much like Signal dropped unencrypted SMS in 2022.
+and our ongoing security hardening efforts, including the announcement that we are dropping unencrypted email.
 
 
 ## Pinned Messages are here
@@ -140,7 +139,7 @@ But please make sure that all your devices run app version `2.62` or later befor
 
 <img src="../assets/blog/2026-11-07-chat-us-east-1.jpg" style="width:300px; float:right; clear:both; margin-left:1em; margin-bottom:1.5em;" />
 Incoming messages are fetched from all your relays,
-outgoing ones leave through whichever relay answers,
+outgoing ones go out through one relay and fall back to another if it fails,
 and the connectivity view says "connected" as long as one relay is up.
 A relay operator can reboot or move their machine,
 and the people using it just keep chatting through their other relays :)
@@ -175,8 +174,7 @@ and against a server that accepts a message but never forwards it to the recipie
 **No email address for your profile.**
 Profile screens, the profile switcher and chat titles no longer show one.
 A profile is identified by its encryption key
-and reachable through whichever relays it currently uses,
-so your IP address never leaks to us.
+and reachable through whichever relays it currently uses.
 Each relay still knows your profile by an address,
 but not one you need to know or hand out.
 In 2024 we said email addresses should
@@ -205,12 +203,6 @@ and we aim to detect and replace broken relays automatically in the future.
 </details>
 
 
-
-
-
-<!-- screenshot wanted: Settings > Connectivity with one relay "Not connected" and two "Connected", overall state Connected. -->
-
-
 ## Delta Chat will soon stop supporting unencrypted email
 
 <img src="../assets/blog/2026-11-07-no-unencrypted-email.png" alt="Crossed-out email icon" style="width:100px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" />
@@ -226,9 +218,8 @@ a secure and resilient decentralized messenger.
 
 **In the next releases,
 everything you send or receive will be encrypted, without exception or opt-out.**
-Signal took a similar step in 2022 by
-[dropping plain-text SMS support](https://signal.org/blog/sms-removal-android/),
-and their reasoning applies to our efforts as well:
+Our reasons are much the same as those Signal gave in 2022
+when it [dropped plain-text SMS support](https://signal.org/blog/sms-removal-android/):
 
 - **Security and privacy**: unencrypted email leaks content and metadata to providers,
   which runs counter to Delta Chat's private messaging, just as unencrypted SMS ran counter to Signal's.
