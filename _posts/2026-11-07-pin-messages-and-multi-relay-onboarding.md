@@ -2,6 +2,7 @@
 title: "Pinned messages, Liquid Glass, resilient decentralized onboarding and security-hardening efforts"
 author: "Delta Chat team"
 image: ../assets/blog/2026-11-07-pqc-future-loading-anim.webp
+com_id: 117576290520968674
 ---
 
 Announcement time! This blog has been quiet for over half a year,
