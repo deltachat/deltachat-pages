@@ -17,4 +17,4 @@ Tribunal Amtsgericht Freiburg: HRB709589
 TVA: DE814082730  
 Directeur Général: Holger Krekel
 
-[Website Privacy Policy](gdpr-website)
+[Politique de confidentialité du site](gdpr-website)

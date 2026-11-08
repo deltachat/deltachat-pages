@@ -15,15 +15,15 @@ Pour Android, vous pouvez vérifier que le certificat de signature sur l'APK cor
 * Pour les téléchargements d'autres APK :  
   `{% include fingerprint-local %}`
 
-Pour imprimer les empreintes SHA256 du certificat de signature de l'APK vous pouvez utiliser, par ex. `keytool -printcert -jarfile <APK-file>`
+Pour afficher les empreintes SHA256 du certificat de signature de l'APK vous pouvez utiliser, par exemple `keytool -printcert -jarfile <APK-file>`
 
 ## Version PC
 
-1. Open your terminal and **change directory** to the file you want to verify, eg.  
+1. Ouvrez un terminal et **placez vous dans le dossier** où se trouve le fichier que vous voulez vérifier, par exemple  
    `deltachat-desktop_<VERSION>_amd64.deb`
 
-2. **Download signed checksums and import key;**
-   `<VERSION>` needs to be replaced by the version number, eg. `2.33.0`
+2. **Téléchargez les sommes de contrôle signées et importez la clé;**
+   `<VERSION>` doit être remplacé par le numéro de version, par exemple `2.33.0`
 
    ```
    wget https://download.delta.chat/desktop/v<VERSION>/signed-checksums.txt
@@ -31,15 +31,15 @@ Pour imprimer les empreintes SHA256 du certificat de signature de l'APK vous pou
    gpg --import deltachat_certificate.asc.txt
    ```
 
-   The key is also available at [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
+   La clé est également disponible sur [keys.openpgp.org](https://keys.openpgp.org/search?q=deltachat-signing@merlinux.eu)
 
-3. **Verify and check results**
+3. **Vérifiez et contrôlez le résultat**
 
    ```
    gpg --decrypt signed-checksums.txt | shasum -a 512 --ignore-missing -c -
    ```
 
-   Expected output:
+   Résultat attendu:
 
    ```
    gpg: Good signature from "deltachat-signing@merlinux.eu" [unknown]
@@ -49,10 +49,10 @@ Pour imprimer les empreintes SHA256 du certificat de signature de l'APK vous pou
    <FILE>: OK
    ```
 
-   Make sure the fingerprint matches and that the file you want to verify is listed.
-   The warning is normal as you have not explicitly trusted the key.
+   Assurez-vous que l'empreinte corresponde et que le fichier que vous voulez vérifier est listé.
+   L'alerte (warning) est normale puisque vous n'avez pas explicitement défini la clé comme de confiance.
 
-If gpg is broken on your system, you can use  
+Si gpg ne fonctionne pas sur votre système, vous pouvez faire  
 `cat signed-checksums.txt | rsop inline-verify deltachat_certificate.asc.txt` or  
 `cat signed-checksums.txt | grep deltachat | shasum -a 512 --ignore-missing -c -` -
-note, that the latter checks integrity but _not_ the developer's key.
+Notez que les commandes précédentes contrôlent l'intégrité mais _pas_ la clé du développeur.

@@ -67,9 +67,9 @@ Lors de la première installation de Delta Chat un premier profil est créé.
 
 Par la suite vous pourrez cliquer sur votre image de profil en haut à gauche de l'écran principal pour **Ajouter un profil** ou **Changer de profil**.
 
-Vous souhaiterez peut être utiliser des profils différents pour vos activités familiales, professionnelles ou politiques.
+Vous devriez utiliser des profils différents pour vos activités familiales, professionnelles ou politiques.
 
-Vous souhaiterez peut être aussi apprendre [comment utiliser le même profil sur plusieurs appareils](#multiclient).
+Vous pourriez aussi être intéressé par apprendre [comment utiliser le même profil sur plusieurs appareils](#multiclient).
 
 ### Qui peut voir ma photo de profil ?
 
@@ -152,7 +152,7 @@ Ceci n'est donc pas un indicateur temps réel de présence en ligne et vos conta
 
 Au sein des [groupes](#groups) la seconde marque veut dire qu'au moins un membre du groupe a pu lire le message.
 
-La seconde marque ne peut s'afficher que si vous et l'un de vos destinataires du message avez activé **Paramètres → Discussions → Accusés de lecture**.
+La seconde marque ne peut s'afficher que si vous et l'un des destinataires ayant lu le message avez activé **Paramètres → Discussions → Accusés de lecture**.
 
 ### Corriger des fautes et supprimer des messages après les avoir envoyés {#edit}
 
@@ -166,7 +166,7 @@ Remarque : le message original peut toutefois encore exister s'il a déjà été
 
 ### Comment est gérée la qualité des médias envoyés ? {#mediaquality}
 
-Images, vidéos, fichiers, messages vocaux etc. peuvent être envoyé avec les boutons <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pièce jointe** ou <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Message vocal**.
+Des images, vidéos, fichiers, messages vocaux, etc, peuvent être envoyés avec les boutons <img style="vertical-align:middle; width:1.0em; margin:1px" src="../assets/help/paperclip.png" alt="Paperclip"/> **Pièce jointe** ou <img style="vertical-align:middle; width:0.8em; margin:1px" src="../assets/help/mic.png" alt="Microphone"/> **Message vocal**.
 
 - Par défaut le niveau de compression choisi permet un **envoi rapide et efficace** des messages en respectant les limites de données et de stockage de tout le monde. C'est un réglage idéal pour des échanges standards.
 
@@ -200,7 +200,7 @@ Pour plus d'informations, veuillez vous référer à la page de votre [fournisse
 
 ## Groupes {#groups}
 
-Les groupes permettent à plusieurs personnes d'avoir une discussion. Chaque membre du groupe à les **même droits**.
+Les groupes permettent à plusieurs personnes d'avoir une discussion. Chaque membre du groupe à les **mêmes droits**.
 
 Chaque membre du groupe peut changer le nom du groupe ou l'avatar, [ajouter ou supprimer des membres](#addmembers), activer/désactiver [les messages éphémères](#ephemeralmsgs), et [supprimer leurs propres messages](#edit) sur tous les appareils des membres de la discussion.
 
@@ -548,8 +548,8 @@ L'un n'a pas besoin de l'autre pour pouvoir fonctionner.
 - **Les réseaux invités** peuvent empêcher les appareils de communiquer entre eux.
   Si possible, utilisez un réseau autre que le réseau invité.
 
-- If you still have troubles using the same network,
-  try to open **Mobile Hotspot** on one device and join that Wi-Fi from the other one
+- Si vous ne parvenez toujours pas à utiliser le même réseau,
+  essayez d'activer le **Point d'accès/partage de connexion** sur un des appareils et de vous connectez à ce réseau Wi-Fi depuis l'autre appareil.
 
 - Assurez-vous de disposer d'un **espace de stockage suffisant** sur l'appareil de destination.
 
@@ -571,12 +571,11 @@ Recourez à cette méthode uniquement si les instructions ci-dessus pour "Ajoute
   Backup". This saves the backup file to your device. Now you have to transfer
   it to the other device somehow.
 
-- On the new device, select **I Already Have a Profile → Restore from Backup**.
-  If you use iOS and encounter difficulties,
-  [this guide](https://forum.delta.chat/t/import-backup-to-ios/1628) might help you.
+- Sur le nouvel appareil, sélectionnez **J'ai déjà un profil → Rétablir une sauvegarde**.
+  Si vous utilisez iOS et rencontrez des difficultés,
+  [ce guide](https://forum.delta.chat/t/import-backup-to-ios/1628) pourrait vous aider.
 
-You are now synchronized, and can use both devices for sending and receiving
-end-to-end encrypted messages with your communication partners.
+Vous êtes désormais synchronisé et pouvez utiliser vos deux appareils pour envoyer et recevoir des messages chiffrés de bout en bout avec vos interlocuteurs.
 
 ### Le lancement d'un client Web Delta Chat est-il prévu ?
 
@@ -733,7 +732,7 @@ Oui.
 Lorsque nous parlons d’un "message chiffré de bout en bout",
 nous entendons toujours un message complet,
 y compris toutes les pièces jointes
-et les métadonnées associées à ces pièces jointes, telles que les noms de fichiers.
+et les métadonnées associées à ces pièces jointes, comme le nom des fichiers.
 
 ### OpenPGP est-il sûr ? {#openpgp-secure}
 
