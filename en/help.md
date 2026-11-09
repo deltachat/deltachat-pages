@@ -1037,8 +1037,8 @@ The implementation is specified in the [Autocrypt v2 OpenPGP Certificates](https
 
 ### How can I manually check encryption information?
 
-You may check the end-to-end encryption status manually in the "Encryption" dialog
-(user profile on Android/iOS or right-click a user's chat-list item on desktop).
+You may check the end-to-end encryption status manually in the "Encryption Info" dialog
+from the user's profile.
 Delta Chat shows two fingerprints there.
 If the same fingerprints appear on your own and your contact's device,
 the connection is safe.
