@@ -11,7 +11,7 @@ Veuillez lire nos [Standards de la communauté](community-standards) pour en sav
 
 - Le [forum d'assistance Delta Chat](https://support.delta.chat) pour discuter plus amplement des fonctionnalités et obtenir de l'aide.
 
-- Le [dépôt Delta Chat](https://github.com/deltachat/) où vous trouverez le code des appli DeltaChat et du présent site internet.
+- Les [dépôts](https://github.com/deltachat/) où vous trouverez le code des applications Delta Chat.
 
 - Vous trouverez des liens supplémentaires dans le [cosmos](https://cosmos.delta.chat).
 
