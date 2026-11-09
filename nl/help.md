@@ -640,10 +640,10 @@ op beide apparaten**. Hierdoor hoef je niet het ene apparaat bij de hand te hebb
 
 Deze methode is vooral bedoeld voor situaties waarin ‘Tweede apparaat toevoegen’ niet lukt.
 
-- On the old device, go to **Settings → Chats → Export Backup**. Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
+- On the old device, go to **Settings → Chats → Export Backup**,
+  unlock the screen if needed,
+  and tap **Export This Profile**.
+  This saves the backup file to your device. Now you have to transfer it to the other device somehow.
 
 - On the new device, select **I Already Have a Profile → Restore from Backup**.
   If you use iOS and encounter difficulties,

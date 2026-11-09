@@ -646,10 +646,10 @@ Njëra pajisja s’ka nevojë për tjetrën që të funksionojë.
 
 Kjo metodë rekomandohet vetëm nëse “Shtoni Pajisje të Dytë” si përshkruhet më sipër s’funksionon.
 
-- On the old device, go to **Settings → Chats → Export Backup**. Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
+- On the old device, go to **Settings → Chats → Export Backup**,
+  unlock the screen if needed,
+  and tap **Export This Profile**.
+  This saves the backup file to your device. Now you have to transfer it to the other device somehow.
 
 - On the new device, select **I Already Have a Profile → Restore from Backup**.
   If you use iOS and encounter difficulties,

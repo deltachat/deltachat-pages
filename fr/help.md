@@ -11,7 +11,9 @@ Delta Chat est une application de messagerie fiable, décentralisée et sécuris
 
 - Création à la volée de **profils de discussion privés** grâce à des [relais chatmail](https://chatmail.at/relays) sécurisés et interopérables qui permettent des échanges instantanés et des notifications Push pour les appareils iOS et Android.
 
-- Fonctionne en [multi-profils](#multiple-accounts) et [multi-appareils](#multiclient) sur toutes les plateformes et quelle que soit [l'application chatmail](https://chatmail.at/clients) utilisée.
+- Prise en charge étendue du [multi-profils](#multiple-accounts) et
+  [multi-appareils](#multiclient) sur toutes les plateformes
+  et entre différentes [applications chatmail](https://chatmail.at/clients).
 
 - [Applications](#webxdc) interactives permettant de jouer et collaborer au sein des discussions.
 
@@ -330,7 +332,7 @@ Dans ce cas, il vous suffira de mettre à jour le lien d'invitation que vous par
 
 Delta Chat prend en charge les **appels audio** et les **appels vidéo** en tête-à-tête.
 
-Les appels fonctionnent sur le client de bureau, Ubuntu Touch, iOS et Android 8 et versions supérieures.
+Les appels sont pris en charge sur le client de bureau, Ubuntu Touch, iOS et Android 8 et versions supérieures.
 
 ### Passer un appel
 
@@ -566,10 +568,10 @@ L'un n'a pas besoin de l'autre pour pouvoir fonctionner.
 
 Recourez à cette méthode uniquement si les instructions ci-dessus pour "Ajouter un deuxième appareil" ont échoué.
 
-- On the old device, go to **Settings → Chats → Export Backup**. Enter your
-  screen unlock PIN, pattern, or password. Then you can click on "Start
-  Backup". This saves the backup file to your device. Now you have to transfer
-  it to the other device somehow.
+- On the old device, go to **Settings → Chats → Export Backup**,
+  unlock the screen if needed,
+  and tap **Export This Profile**.
+  This saves the backup file to your device. Now you have to transfer it to the other device somehow.
 
 - Sur le nouvel appareil, sélectionnez **J'ai déjà un profil → Rétablir une sauvegarde**.
   Si vous utilisez iOS et rencontrez des difficultés,
@@ -634,7 +636,7 @@ pour les raisons suivantes :
 - Les applications non basées sur chatmail utilisent les serveurs de mail comme archive de messages sur le long terme,
   tandis que les applications chatmail utilisent les serveurs de mail pour le transfert instantanés éphémères des messages.
 
-- Prendre en compte la grande variété des configurations d'email classique
+- Prendre en charge la grande variété des configurations de courriel classique
   demanderait des efforts de développement et de maintenance considérables,
   et compliquerait le fait de rendre les messageries basées sur chatmail plus robustes, fiables et rapides.
 
@@ -761,14 +763,11 @@ mais leur adoption impliquerait de rompre l'interopérabilité du chiffrement de
 Ce ne serait donc pas une décision à prendre à la légère 
 et il faudrait que cela apporte des améliorations concrètes aux utilisateurs. 
 
-Delta Chat takes a holistic "usable security" approach 
-and works with a wide range of activist groupings as well as 
-renowned researchers such as [TeamUSEC](https://teamusec.de) 
-to improve actual user outcomes against security threats. 
-The wire protocol and standard for establishing end-to-end encryption is
-only one part of "user outcomes",
-see also our answers to [device-seizure](#device-seizure)
-and [message-metadata](#message-metadata) questions. 
+Delta Chat adopte une approche globale axée sur la « sécurité utilisable » et collabore avec un large éventail de groupes militants ainsi qu’avec des chercheurs de renom, tels que ceux de [TeamUSEC](https://teamusec.de), afin d’améliorer concrètement la protection des utilisateurs face aux menaces de sécurité.
+Le protocole réseau et la norme permettant d’établir un chiffrement de bout
+ne constituent qu’un aspect de cette protection.
+Consultez également nos réponses aux questions de [saisie d'appareil](#device-seizure)
+et [des métadonnées des messages](#message-metadata). 
 
 ### Est-ce que Delta Chat est vulnérable à EFAIL?
 
@@ -841,7 +840,7 @@ nous vous recommandons d'utiliser un VPN au niveau du système.
 Les options de protection "par applications" laissent des failles dans votre système.
 Par exemple, le simple fait de cliquer sur un lien peut exposer votre adresse IP à des tiers inconnus, ce qui constitue de loin le risque le plus important.
 
-### Est-ce que Delta Chat supporte "Sealed Sender"? {#sealedsender}
+### Est-ce que Delta Chat prend en charge "Sealed Sender"? {#sealedsender}
 
 Non, pas encore.
 
@@ -856,7 +855,7 @@ ne demandent aucune données privées (ni même de numéro de téléphone),
 Nous ne voyons pas de problème à utiliser des adresses aléatoires jetables pour l'envoi "sealed"
 mais pour l'instant, implémenter “Sealed Sender” n'est pas notre priorité.
 
-### Est-ce que Delta Chat supporte Perfect Forward Secrecy? {#pfs}
+### Est-ce que Delta Chat prend en charge Perfect Forward Secrecy? {#pfs}
 
 Pas encore mais cela arrive avec [Autocrypt v2](https://autocrypt2.org).
 
@@ -872,13 +871,13 @@ and doesn't even need to decrypt any previously collected messages.
 [Autocrypt v2](https://autocrypt2.org), prévu pour 2026, permettra la suppression fiable (forward secrecy) grâce à une rotation automatique des clefs.
 Cette approche est détaillée dans le brouillon du  [certificat Autocrypt v2 OpenPGP](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/).
 
-### Est-ce que Delta Chat supporte la Cryptographie Post-Quantique ? {#pqc}
+### Est-ce que Delta Chat prend en charge la Cryptographie Post-Quantique ? {#pqc}
 
 Pas encore mais cela arrive avec [Autocrypt v2](https://autocrypt2.org).
 
 [Autocrypt v2](https://autocrypt2.org), prévu pour 2026, amènera un chiffrement avec résistance post-quantique pour protéger contre les attaques effectuées par des ordinateurs quantiques.
-Delta Chat utilise la librairie Rust OpenPGP [rPGP](https://github.com/rpgp/rpgp) qui supporte les dernières [IETF Post-Quantum-Cryptography OpenPGP draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/).
-L'implémentation est détaillée dans le brouillon du [certificat Autocrypt v2 OpenPGP](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/).
+Delta Chat utilise la bibliothèque Rust OpenPGP [rPGP](https://github.com/rpgp/rpgp) qui prend en charge le [brouillon de l'IETF Cryptographie Post-Quantique dans OpenPGP](https://datatracker.ietf.org/doc/draft-ietf-openpgp-pqc/) le plus récent.
+L'implémentation est détaillée dans le brouillon [Certificats OpenPGP Autocrypt v2 ](https://datatracker.ietf.org/doc/draft-autocrypt-openpgp-v2-cert/).
 
 ### Comment vérifier manuellement les informations de chiffrement ?
 
@@ -950,7 +949,7 @@ Consultez [Politique de confidentialité](https://delta.chat/privacy#app-permiss
 
 ### Où est-ce que mes amis peuvent obtenir Delta Chat?
 
-Delta Chat est disponible sur toutes plateformes principales et sur d'autres moins connues:
+Delta Chat est disponible sur toutes les plateformes principales et sur d'autres moins connues:
 
 - Le **site officiel**, <https://delta.chat/download> montre en détail toutes les options
 
@@ -971,17 +970,17 @@ Nous préférons utiliser des fonds provenant d'institutions publiques, jusqu'à
 Plus précisément, voici les sources de financement pour le développement de Delta Chat,
 par ordre chronologique:
 
-- In 2023 and 2024 we got accepted in the Next Generation Internet (NGI)
-  program for our work in [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
-  along with collaboration partners working on
+- En 2023 et 2024, nous avons été acceptés au programme Next Generation Internet (NGI)
+pour nos travaux sur [webxdc PUSH](https://nlnet.nl/project/WebXDC-Push/),
+  en collaboration avec des partenaires travaillant sur
   [webxdc evolve](https://nlnet.nl/project/Webxdc-Evolve/),
   [webxdc XMPP](https://nlnet.nl/project/WebXDC-XMPP/),
-  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) and
+  [DeltaTouch](https://nlnet.nl/project/DeltaTouch/) et
   [DeltaTauri](https://nlnet.nl/project/DeltaTauri/).
-  All of these projects are partially completed or to be completed in early 2025.
+  Tous ces projets sont partiellement réalisés ou doivent être achevés début 2025.
 
-- In 2021 we received further EU funding for two Next-Generation-Internet
-  proposals, namely for [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97K EUR) and [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90K EUR) which resulted in better multi-profile support, improved QR-code contact and group setups and many networking improvements on all platforms.
+- En 2021, nous avons obtenu un financement supplémentaire de l’UE pour deux projets Next-Generation-Internet,
+ à savoir [EPPD - email provider portability directory](https://dapsi.ngi.eu/hall-of-fame/eppd/) (~97000€) et [AEAP - email address porting](https://nlnet.nl/project/EmailPorting/) (~90000€), qui ont permis d’améliorer la prise en charge du multi-profils, de faciliter la mise en relation et la création de groupes via QR code, et d’apporter de nombreuses optimisations réseau sur toutes les plateformes.
 
 - The [NLnet foundation](https://nlnet.nl/) granted in 2019/2020 EUR 46K for
   completing Rust/Python bindings and instigating a Chat-bot eco-system.

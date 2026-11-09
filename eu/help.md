@@ -108,9 +108,9 @@ jar dezakezu, honela: **Ezarpenak → Profila → Sinaduraren testua**.
 Kontaktu bati mezu bat bidaltzen diozunean,
 hark zure kontaktuko datuak begiratutakoan ikusiko du.
 
-### Finkatu, mututu eta artxibatu txat bat {#pin-chats}
+### Nola finkatu, mututu eta artxibatu txatak {#pin-chats}
 
-Txatak antolatzeko tresnak dira, eta honela erabil ditzakezu:
+Hiru aukera horiek txatak antolatzeko tresnak dira, eta honela erabil ditzakezu:
 
 - **Finkatu txatak**, zerrendan goian egotea nahi baduzu. Txat gogokoenetara beti azkar iristeko erabil dezakezu, edo aldi baterako, zerbait ez ahazteko.
 
@@ -161,8 +161,8 @@ finkatutako mezuak, aldiz, **txateko kide guztiek** ikusten dituzte.
   Ukitu barra finkatutako mezura joateko.
   Bat baino gehiago badaude, banan-banan igaro zaitezke haien artean.
 
-- [Aplikazio](#webxdc) bat finkatzen baduzu, **abiarazteko botoi** bat izango du,
-  denek erraz eskura dezaten, korritu edo bilatu beharrik gabe.
+- [Aplikazio](#webxdc) bat finkatzen baduzu, **abiarazteko botoi bat** izango du,
+  denek erraz eskuratu ahal izan dezaten, mezuetan beherantz korritzen bila ibili beharrik gabe.
 
 - Ez dago mugarik finkatutako mezuen kopuruan, ezta finkatuta egon daitezkeen denboran ere.
 
@@ -679,7 +679,7 @@ oraintxe lantzen ari garen funtzioak probatzeko aukera izango duzu.
 
 Baliteke ezaugarri horiek **ezegonkorrak** izatea eta gerora **aldatzea edo kentzea**.
 
-Informazio gehiago lortu edo iruzkinak egin nahi badituzu,
+Informazio gehiago lortu edo iruzkinik egin nahi baduzu,
 sartu [foroan](https://forum.delta.chat).
 
 ### Zer dira erreleak? {#relays}
@@ -1009,7 +1009,7 @@ Hona hemen zerrenda, ordena kronologikoan:
 - 2024ko abendua: [Radically Open Security](https://www.radicallyopensecurity.com/) enpresak [rPGPren ebaluazio bat egin zuen,
   NLNETek enkargatuta](https://github.com/rpgp/docs/blob/main/audits/NGI%20Core%20rPGP%20penetration%20test%20report%202024%201.0.pdf).
   rPGP da Delta Chaten muturretik muturrerako zifratzearen [OpenPGP](https://openpgp.org) motorra. 
-  Auditoria horren aurkikuntzei lotuta, bi segurtasun-aholku argitaratu ziren:
+  Auditoria horren aurkikuntzekin lotuta, bi segurtasun-aholku argitaratu ziren:
 
   - ["Panics on Malformed Untrusted Input"](https://github.com/rpgp/rpgp/security/advisories/GHSA-9rmp-2568-59rv) CVE-2024-53856
   - ["Potential Resource Exhaustion when handling Untrusted Messages"](https://github.com/rpgp/rpgp/security/advisories/GHSA-4grw-m28r-q285) CVE-2024-53857
@@ -1024,7 +1024,7 @@ Hona hemen zerrenda, ordena kronologikoan:
   ikerketa-artikulua. 
 
 - 2023ko apirila: "txat batean partekatutako web-aplikazioak" funtzioaren segurtasun- eta
-  pribatutasun-arazoak konpondu genituen, isolamenduaren (sandboxing) hutsegiteei lotutakoak,
+  pribatutasun-arazoak konpondu genituen, isolamenduaren (sandboxing) hutsegiteekin lotutakoak,
   batez ere Chromium-ekin. Ondoren, Cure53ren segurtasun-auditoria independente bat jaso genuen,
   eta aurkitutako arazo guztiak 2023ko apirilean argitaratutako 1.36 bertsioetan konpondu ziren.
   Ikus [hemen webeko muturretik muturrerako segurtasunaren testuinguru osoa](https://delta.chat/en/2023-05-22-webxdc-security).
