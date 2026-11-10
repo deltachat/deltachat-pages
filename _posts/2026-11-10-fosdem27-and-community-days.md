@@ -31,25 +31,33 @@ or bring your phone and leave with a few new contacts,
 made the way we like it best: by personally scanning each other's QR codes,
 and getting to know new circles in a people-to-people manner.
 
+## Steal some time with us: Delta Chat Community Day(s) right after FOSDEM.
+{: style="clear: both; margin-top: 1.5em;"}
+
 <style>
 .community-fade { position: relative; width: 240px; height: 180px; float: right; clear: both; margin: 0 0 .3em 1em; overflow: hidden; }
-.community-fade a { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; visibility: hidden; animation: community-fade 50.05s linear infinite; }
-.community-fade img { width: 100%; height: 100%; object-fit: cover; }
-.community-fade a:nth-child(1) { animation-delay: -1.15s; }
-.community-fade a:nth-child(2) { animation-delay: 2.70s; }
-.community-fade a:nth-child(3) { animation-delay: 6.55s; }
-.community-fade a:nth-child(4) { animation-delay: 10.40s; }
-.community-fade a:nth-child(5) { animation-delay: 14.25s; }
-.community-fade a:nth-child(6) { animation-delay: 18.10s; }
-.community-fade a:nth-child(7) { animation-delay: 21.95s; }
-.community-fade a:nth-child(8) { animation-delay: 25.80s; }
-.community-fade a:nth-child(9) { animation-delay: 29.65s; }
-.community-fade a:nth-child(10) { animation-delay: 33.50s; }
-.community-fade a:nth-child(11) { animation-delay: 37.35s; }
-.community-fade a:nth-child(12) { animation-delay: 41.20s; }
-.community-fade a:nth-child(13) { animation-delay: 45.05s; }
-@keyframes community-fade { 0% { opacity: 0; visibility: hidden; } 2.30% { opacity: 1; visibility: visible; } 7.69% { opacity: 1; visibility: visible; } 10.00% { opacity: 0; visibility: hidden; } 100% { opacity: 0; visibility: hidden; } }
-@media (prefers-reduced-motion: reduce) { .community-fade a { animation: none; } .community-fade a:first-child { opacity: 1; visibility: visible; } }
+.community-fade > * { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; visibility: hidden; animation: community-fade 61.60s linear infinite; }
+.community-fade > a > img { width: 100%; height: 100%; object-fit: cover; }
+.community-fade .logos { display: flex; align-items: center; justify-content: space-evenly; background: #fff; }
+.community-fade .logos img { width: 64px; height: 64px; }
+.community-fade > :nth-child(1) { animation-delay: -1.15s; }
+.community-fade > :nth-child(2) { animation-delay: 2.70s; }
+.community-fade > :nth-child(3) { animation-delay: 6.55s; }
+.community-fade > :nth-child(4) { animation-delay: 10.40s; }
+.community-fade > :nth-child(5) { animation-delay: 14.25s; }
+.community-fade > :nth-child(6) { animation-delay: 18.10s; }
+.community-fade > :nth-child(7) { animation-delay: 21.95s; }
+.community-fade > :nth-child(8) { animation-delay: 25.80s; }
+.community-fade > :nth-child(9) { animation-delay: 29.65s; }
+.community-fade > :nth-child(10) { animation-delay: 33.50s; }
+.community-fade > :nth-child(11) { animation-delay: 37.35s; }
+.community-fade > :nth-child(12) { animation-delay: 41.20s; }
+.community-fade > :nth-child(13) { animation-delay: 45.05s; }
+.community-fade > :nth-child(14) { animation-delay: 48.90s; }
+.community-fade > :nth-child(15) { animation-delay: 52.75s; }
+.community-fade > :nth-child(16) { animation-delay: 56.60s; }
+@keyframes community-fade { 0% { opacity: 0; visibility: hidden; } 1.87% { opacity: 1; visibility: visible; } 6.25% { opacity: 1; visibility: visible; } 8.12% { opacity: 0; visibility: hidden; } 100% { opacity: 0; visibility: hidden; } }
+@media (prefers-reduced-motion: reduce) { .community-fade > * { animation: none; } .community-fade > :first-child { opacity: 1; visibility: visible; } }
 @media only screen and (max-width: 640px) { .community-fade { float: none; margin: 0 0 1em 0; } }
 </style>
 
@@ -67,9 +75,15 @@ and getting to know new circles in a people-to-people manner.
 <a href="../assets/blog/xi-party3.jpg"><img src="../assets/blog/xi-party3.jpg" width="240" height="180" loading="lazy" style="object-position: 50% 15%;" alt="Someone in a monster mask at the Delta XI party in Kyiv, 2018" /></a>
 <a href="../assets/blog/2020-03-31-needfinding_frontpage.png"><img src="../assets/blog/2020-03-31-needfinding_frontpage.png" width="240" height="180" loading="lazy" style="object-position: 50% 45%;" alt="Cover of the 2020 Delta Chat needfinding report on multi-tool contexts, with a photo of a protester holding up a phone" /></a>
 <a href="../assets/blog/2022-12-ux-studies.jpg"><img src="../assets/blog/2022-12-ux-studies.jpg" width="240" height="180" loading="lazy" alt="Delta Chat testers sitting on the ground, scanning printed QR codes with their phones" /></a>
+<a href="../assets/blog/reclaim.jpg"><img src="../assets/blog/reclaim.jpg" width="240" height="180" loading="lazy" alt="An orange banner reading RECLAIM" /></a>
+<a href="../assets/logos/kap-logo.jpg"><img src="../assets/logos/kap-logo.jpg" width="240" height="180" loading="lazy" alt="The spiral door handle of the Kapriole school in Freiburg, where the DIFF gathering took place in 2025" /></a>
+<div class="logos">
+<a href="https://delta.chat/en/"><img src="../assets/logos/delta-chat.svg" alt="Delta Chat logo" /></a>
+<a href="https://chatmail.at/"><img src="../assets/logos/chatmail.svg" alt="chatmail logo" /></a>
+<a href="https://webxdc.org/"><img src="../assets/logos/webxdc2.png" alt="webxdc logo" /></a>
+</div>
 </div>
 
-**Save the date: Delta Chat Community Day(s) right after FOSDEM.**
 The devroom has only so many slots and the FOSDEM weekend is always too short,
 so starting on **Monday, 1 February 2027, we invite everyone to Delta Chat Community Day(s)**
 for talks, sessions and hanging out across our user and contributor communities.
