@@ -102,7 +102,10 @@ for talks, sessions and hanging out across our user and contributor communities.
 Anyone who submits a talk to the devroom and does not get a slot
 can thus just do a session on Monday instead 💜
 Speaking of which: we have not actually looked for a location yet,
-so if you know a good place with room for a little crowd, with some technical and preferably also kitchen infra,
+so if you know a good place with room for a little crowd,
+with some technical and preferably also kitchen infra,
 please be so kind to tell us at [delta@merlinux.eu](mailto:delta@merlinux.eu)
 or DM us on the fediverse at [@delta@chaos.social](https://chaos.social/@delta).
+We can also mobilize some money for renting.
+
 For everybody else: more details when we have them :)
