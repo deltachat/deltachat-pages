@@ -10,12 +10,13 @@ com_id: /117597576424709435
 FOSDEM happens in Brussels on 30 and 31 January 2027,
 and together with our friends from XMPP and Matrix
 we are co-organizing the [Decentralised Messaging devroom on SUNDAY](https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/DB5STPFXLG25PIVQNEJ4CRHCFKNJP434/)
-(see also the [XMPP blog post](https://xmpp.org/2026/10/fosdem-2027-decentralised-messaging-devroom/)).
+(see also the [XMPP blog post](https://xmpp.org/2026/10/fosdem-2027-decentralised-messaging-devroom/)
+and the [Matrix blog post](https://matrix.org/blog/2026/10/30/fosdem-devroom/).
 
-If you hack on [chatmail relays](https://chatmail.at/relays),
-[the growing number of chatmail clients](https://chatmail.at/clients),
-write [webxdc mini-apps](https://webxdc.org) or bots like a lunatic,
-or research decentralized messaging or just use things in your communities,
+If you hack on [chatmail](https://chatmail.at) relays, 
+[Delta Chat](https://delta.chat) or the growing number of chatmail clients,
+or write [webxdc mini-apps](https://webxdc.org) or bots like a *lunatic*,
+or research decentralized messaging or just successfully use things in your communities,
 please consider submitting a talk:
 Share something others can learn from rather than a product pitch,
 in a 25 minute slot or a 5 to 10 minute lightning talk.
