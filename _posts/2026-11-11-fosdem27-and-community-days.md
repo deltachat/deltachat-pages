@@ -9,8 +9,8 @@ com_id: /117597576424709435
 **Calling chatmail, Delta Chat and webxdc hackers and communities!**
 FOSDEM happens in Brussels on 30 and 31 January 2027,
 and together with our friends from XMPP and Matrix
-we are co-organizing the [Decentralised Messaging devroom on SUNDAY](https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/DB5STPFXLG25PIVQNEJ4CRHCFKNJP434/)
-(see also the [XMPP blog post](https://xmpp.org/2026/10/fosdem-2027-decentralised-messaging-devroom/)
+we are co-organizing the [Decentralised Messaging devroom on SUNDAY](https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/DB5STPFXLG25PIVQNEJ4CRHCFKNJP434/), 
+see also the [XMPP blog post](https://xmpp.org/2026/10/fosdem-2027-decentralised-messaging-devroom/)
 and the [Matrix blog post](https://matrix.org/blog/2026/10/30/fosdem-devroom/).
 
 If you hack on [chatmail](https://chatmail.at) relays, 
