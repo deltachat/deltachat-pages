@@ -19,19 +19,20 @@ please consider submitting a talk:
 Share something others can learn from rather than a product pitch,
 in a 25 minute slot or a 5 to 10 minute lightning talk.
 
-**Submission deadline is Friday, 20 November, 23:55 UTC on [FOSDEM pretalx](https://fosdem.org/submit) soon**.
+**Submission deadline is Friday, 20 November, 23:55 UTC on [FOSDEM pretalx](https://fosdem.org/submit)**.
+{: style="font-size: 1.3em;"}
 
 <a href="../assets/blog/stickers.jpeg"><img src="../assets/blog/stickers.jpeg" alt="Rolls of Delta Chat stickers on a wooden board" style="width:130px; height:185px; object-fit:cover; float:left; margin-right:1em; margin-bottom:.3em;" /></a>
 **Meet us at our stand.**
 We also have a confirmed Delta Chat stand at FOSDEM (location to be announced).
-Expect fresh stickers and some of the people behind Delta Chat, chatmail relays and webxdc.
+Expect fresh stickers and some of the people behind or involved with Delta Chat, chatmail relays and webxdc.
 Drop by with your questions, ideas and bug reports,
 try out mini-apps together,
 or bring your phone and leave with a few new contacts,
 made the way we like it best: by personally scanning each other's QR codes,
 and getting to know new circles in a people-to-people manner.
 
-## Steal some time with us: Delta Chat Community Day(s) right after FOSDEM.
+## Delta Chat Community Day(s) right after FOSDEM.
 {: style="clear: both; margin-top: 1.5em;"}
 
 <style>
@@ -97,15 +98,26 @@ and getting to know new circles in a people-to-people manner.
 </div>
 
 The devroom has only so many slots and the FOSDEM weekend is always too short,
-so starting on **Monday, 1 February 2027, we invite everyone to Delta Chat Community Day(s)**
+so starting on **Monday, 1 February 2027, we invite to Delta Chat Community Day(s)**
 for talks, sessions and hanging out across our user and contributor communities.
 Anyone who submits a talk to the devroom and does not get a slot
-can thus just do a session on Monday instead 💜
+might thus just do a session on Monday instead 💜
 Speaking of which: we have not actually looked for a location yet,
 so if you know a good place with room for a little crowd,
 with some technical and preferably also kitchen infra,
 please be so kind to tell us at [delta@merlinux.eu](mailto:delta@merlinux.eu)
 or DM us on the fediverse at [@delta@chaos.social](https://chaos.social/@delta).
 We can also mobilize some money for renting.
+Oh, and if you want to chip in, [donations](https://delta.chat/en/donate) are always welcome
+and helping exactly such events and contributors's travels costs 💜
 
-For everybody else: more details when we have them :)
+
+## Stay tuned: join the Delta FOSDEM 2027 channel
+{: style="clear: both; margin-top: 1.5em;"}
+
+We will announce the devroom schedule, the location of our stand
+and where the community day(s) happen in a new Delta Chat channel.
+If you have Delta Chat installed, just tap [**Join "Delta FOSDEM2027"**](https://i.delta.chat/#7F7700F0AED30FF44C8AB3A7D806D4B96489C408&v=3&x=sBxcnxxsR2cuuJySniqhLWbb&j=rRyzz4Vkg6TPs6636mT0VYHc&s=llYGSHGD4dZ7KXzOHPHWdd8k&a=8jcqmzreq%40chtml.ca&r=fhbaifhc8%40chatmail.uk,m4pq4fghf%40chat.nuvon.app&n=Delta+Community_&b=Delta+FOSDEM2027),
+or scan the code with Delta Chat or your phone's camera:
+
+[![QR code to join the Delta FOSDEM2027 channel](../assets/blog/2026-11-10-fosdem27-channel.png){: style="width:300px"}](https://i.delta.chat/#7F7700F0AED30FF44C8AB3A7D806D4B96489C408&v=3&x=sBxcnxxsR2cuuJySniqhLWbb&j=rRyzz4Vkg6TPs6636mT0VYHc&s=llYGSHGD4dZ7KXzOHPHWdd8k&a=8jcqmzreq%40chtml.ca&r=fhbaifhc8%40chatmail.uk,m4pq4fghf%40chat.nuvon.app&n=Delta+Community_&b=Delta+FOSDEM2027)
