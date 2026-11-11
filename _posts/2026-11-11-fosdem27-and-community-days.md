@@ -39,7 +39,7 @@ and getting to know new circles in a people-to-people manner.
 .community-fade { position: relative; width: 240px; height: 180px; float: right; clear: both; margin: 0 0 .3em 1em; overflow: hidden; }
 .community-fade > * { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; visibility: hidden; animation: community-fade 84.70s linear infinite; }
 .community-fade > a > img { width: 100%; height: 100%; object-fit: cover; }
-.community-fade .logos { display: flex; align-items: center; justify-content: space-evenly; background: #fff; }
+.community-fade .logos { display: flex; align-items: center; justify-content: space-evenly; }
 .community-fade .logos img { width: 64px; height: 64px; }
 .community-fade > :nth-child(1) { animation-delay: -1.15s; }
 .community-fade > :nth-child(2) { animation-delay: 2.70s; }
