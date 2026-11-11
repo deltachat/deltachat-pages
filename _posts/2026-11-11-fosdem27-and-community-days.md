@@ -2,6 +2,7 @@
 title: "FOSDEM 2027 and Delta Chat Community Day(s)"
 author: "Delta Chat team"
 image: ../assets/blog/2026-11-10-fosdem27.png
+com_id: /117597576424709435
 ---
 
 <a href="../assets/blog/2026-11-10-fosdem27.png"><img src="../assets/blog/2026-11-10-fosdem27.png" alt="Delta Chat, chatmail and webxdc logos above the words FOSDEM 2027: devroom, stand, community day(s)" style="width:280px; float:right; clear:both; margin-left:1em; margin-bottom:.5em;" /></a>
