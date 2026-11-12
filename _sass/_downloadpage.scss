@@ -71,6 +71,136 @@ div.download-content {
     code {
         background: transparent;
     }
+
+    /* Linux install options */
+
+    div.install-group {
+        margin: 1.25em 7pt 1em 0;
+        padding: .75em;
+        border-radius: 6px;
+        font-size: .9375rem;
+        background: #fff;
+        border: 1px solid #ddd;
+    }
+
+    div.install-group.community {
+        background: #fafafa;
+        border-style: dashed;
+    }
+
+    div.install-heading {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: .4em .6em;
+        font-size: 1.05rem;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: .5em;
+    }
+
+    span.tag {
+        display: inline-block;
+        font-size: .75rem;
+        font-weight: normal;
+        line-height: 1.4;
+        padding: 1px 8px;
+        border-radius: 999px;
+        white-space: nowrap;
+        vertical-align: middle;
+        color: #555;
+        border: 1px solid #ccc;
+    }
+
+    p.install-note {
+        margin: 0 0 .75em 0;
+        color: #555;
+        font-size: .875rem;
+    }
+
+    .install-option {
+        margin-bottom: .75em;
+    }
+
+    /* collapsible option (e.g. Debian APT): label acts as toggle */
+    summary.install-label {
+        cursor: pointer;
+        color: #1e6bb8;
+        &:hover { text-decoration: underline; }
+    }
+    details.install-option[open] summary.install-label {
+        margin-bottom: .3em;
+    }
+
+    .install-label {
+        font-weight: bold;
+        color: #333;
+        margin-bottom: .2em;
+        small {
+            font-weight: normal;
+            color: #666;
+        }
+    }
+
+    .install-option pre {
+        position: relative;
+        margin: 0;
+        padding: .5em 3em .5em .75em;
+        background: #f0f0f0;
+        border-radius: 5px;
+        overflow-x: auto;
+        font-size: .875rem;
+        line-height: 1.5;
+        /* wrap long commands on small screens; copy keeps the original text */
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+    }
+
+    button.copy-btn {
+        position: absolute;
+        top: .3em;
+        right: .3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+        &:hover { background: #eee; }
+    }
+
+    ul.install-links {
+        margin: 0;
+        padding-left: 1.2em;
+        li { margin: .2em 0; }
+    }
+
+    div.arch-label {
+        font-weight: bold;
+        color: #444;
+        margin-top: .75em;
+    }
+    /* 4 buttons per row on desktop, 2 on phones */
+    div.install-group details div.buttons {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        margin: .25em 0 .5em 0;
+        a:not(.img-badge) {
+            min-width: 0;
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        div.install-group {
+            margin-right: 5px;
+            padding: .6em;
+        }
+    }
 }
 
 #boxes-summary {

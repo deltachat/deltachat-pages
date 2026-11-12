@@ -33,6 +33,13 @@ de:
     dl_appstore: Download aus dem Apple AppStore
     dl_fdroid: Beziehe es auf F-Droid
     gplay: Beziehe es auf Google Play
+    official_packages: Offizielle Pakete
+    by_delta_chat: von Delta Chat
+    community_packages: Community-Pakete
+    community_maintained: von der Community gepflegt
+    community_note: Diese Pakete werden von Linux-Distributionen und Community-Mitgliedern gepflegt, nicht vom Delta-Chat-Team. Sie sind möglicherweise nicht immer auf dem neuesten Stand.
+    copy: Kopieren
+    copied: Kopiert
 
   help:
     offline_hint: "In Eile? Du kannst diese Hilfe jederzeit entspannt in der App lesen, auch ohne Internet."
