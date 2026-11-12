@@ -33,6 +33,13 @@ en:
     dl_appstore: Download on Apple AppStore
     dl_fdroid: Get it on F-Droid
     gplay: Get it on Google Play
+    official_packages: Official packages
+    by_delta_chat: by Delta Chat
+    community_packages: Community packages
+    community_maintained: community maintained
+    community_note: These packages are maintained by Linux distributions and community members, not by the Delta Chat team. They may lag behind the latest release.
+    copy: Copy
+    copied: Copied
 
   help:
     offline_hint: In a hurry? You can read this help relaxed at anytime within the app, also without internet.
