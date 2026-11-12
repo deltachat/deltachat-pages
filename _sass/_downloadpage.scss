@@ -200,10 +200,45 @@ div.download-content {
         }
     }
 
+    /* download buttons with distro logo, styled like the store badges */
+    div.box div.buttons a.icon-btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 5px 8px;
+        span.btn-icons {
+            display: flex;
+            gap: 3px;
+            flex-shrink: 0;
+        }
+        img {
+            width: 22px;
+            height: 22px;
+            display: block;
+        }
+        /* full-colour Tux on a light tile so the black body doesn't vanish on the black button */
+        img.tux {
+            width: 24px;
+            height: 24px;
+            padding: 2px;
+            box-sizing: border-box;
+            background: #fff;
+            border-radius: 5px;
+        }
+    }
+
     @media only screen and (max-width: 640px) {
         div.install-group {
             margin-right: 5px;
             padding: .6em;
+        }
+        /* keep "Debian/Ubuntu" on one line next to two logos */
+        div.box div.buttons a.icon-btn {
+            gap: 6px;
+            padding: 5px 6px;
+            span.btn-icons { gap: 2px; }
+            img { width: 18px; height: 18px; }
+            small { white-space: nowrap; font-size: .6875rem; }
         }
     }
 }
