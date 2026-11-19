@@ -783,10 +783,10 @@ You can configure a email address for chatting at **New Profile → Use Other Se
 Note that classic email providers will generally not support [Push Notifications](#instant-delivery)
 and have other limitations, see [Provider Overview](https://providers.delta.chat).
 Chatmail uses the default INBOX for relay; ensure the provider setup does too. 
-A chat profile using a classic email address allows to to send and receive unencrypted messages.
-These messages, and the chats they appear in, are marked with an email icon
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
 
+Also note that Delta Chat does not support sending or receiving unencrypted emails.
+See the [announcement blog post](https://delta.chat/en/2026-11-07-pin-messages-and-multi-relay-onboarding#delta-chat-will-soon-stop-supporting-unencrypted-email)
+for more.
 
 ### I want to manage my own server for Delta Chat. What do you recommend?
 
@@ -850,21 +850,15 @@ to provide automatic end-to-end encryption using these protocols:
 
 Delta Chat does not query, publish or interact with any OpenPGP key servers. 
 
-### How can I know if messages are end-to-end encrypted? {#whene2e}
 
-All messages in Delta Chat are **end-to-end encrypted by default**.
-Since the Delta Chat Version 2 release series (July 2025) 
-there are no lock or similar markers on end-to-end encrypted messages, anymore. 
+### Are messages end-to-end encrypted? {#whene2e}
 
-### Can I still receive or send messages without end-to-end encryption?
+All messages in Delta Chat are **end-to-end encrypted**.
+Since the Delta Chat Version 2.70 release series (November 2026) 
+messages can't be unencrypted anymore.
 
-If you use default [chatmail relays](https://chatmail.at/relays),
-it is impossible to receive or send messages without end-to-end encryption. 
-
-If you instead use a [classic email server](#classic-email),
-you can send and receive messages with or without end-to-end encryption.
-Messages lacking end-to-end encryption are marked with an email icon
-<img style="vertical-align:middle; width:1.2em; margin:1px" src="../assets/help/email-icon.png" alt="email"/>.
+See the [announcement blog post](https://delta.chat/en/2026-11-07-pin-messages-and-multi-relay-onboarding#delta-chat-will-soon-stop-supporting-unencrypted-email)
+for more.
 
 
 ### Are attachments (pictures, files, audio etc.) end-to-end encrypted?
@@ -928,25 +922,6 @@ Delta Chat also never was vulnerable to the "Direct Exfiltration" EFAIL attack
 because it only decrypts `multipart/encrypted` messages
 which contain exactly one encrypted and signed part,
 as defined by the Autocrypt Level 1 specification. 
-
-
-### Are messages marked with the mail icon exposed on the Internet? {#tls}
-
-If you are sending or receiving email messages without end-to-end encryption (using a classic email server),
-they are still protected from cell or cable companies who can not read or modify your email messages.
-But both your and your recipient's email providers
-may read, analyze or modify your messages, including any attachments. 
-
-Delta Chat by default uses strict 
-[TLS encryption](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
-which secures connections between your device and your email provider.
-All of Delta Chat's TLS-handling has been independently [security audited](#security-audits).
-Moreover, the connection between your and the recipient's email provider
-will typically be transport-encrypted as well.
-If the involved email servers support [MTA-STS](https://datatracker.ietf.org/doc/html/rfc8461)
-then transport encryption will be enforced between email providers
-in which case Delta Chat communications will never be exposed in cleartext to the Internet
-even if the message was not end-to-end encrypted.
 
 
 ### How does Delta Chat protect metadata in messages? {#message-metadata}
