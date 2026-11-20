@@ -35,4 +35,37 @@ function userAgentToOS() {
         return '';
 }
 
+var COPY_ICON = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+var CHECK_ICON = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
+
+function addCopyButtons() {
+    if (!navigator.clipboard) return;
+    var root = document.querySelector('.download-content');
+    var label = root.dataset.copyLabel || 'Copy';
+    var copied = root.dataset.copiedLabel || 'Copied';
+    document.querySelectorAll('.install-option pre').forEach(function (pre) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'copy-btn';
+        // icon instead of text: fits every language without covering the command
+        btn.innerHTML = COPY_ICON;
+        btn.title = label;
+        btn.setAttribute('aria-label', label);
+        btn.addEventListener('click', function () {
+            navigator.clipboard.writeText(pre.querySelector('code').textContent).then(function () {
+                btn.innerHTML = CHECK_ICON;
+                btn.title = copied;
+                btn.setAttribute('aria-label', copied);
+                setTimeout(function () {
+                    btn.innerHTML = COPY_ICON;
+                    btn.title = label;
+                    btn.setAttribute('aria-label', label);
+                }, 1500);
+            });
+        });
+        pre.appendChild(btn);
+    });
+}
+
 main();
+addCopyButtons();
