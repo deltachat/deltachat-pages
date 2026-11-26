@@ -33,8 +33,8 @@ en:
     dl_appstore: Download on Apple AppStore
     dl_fdroid: Get it on F-Droid
     gplay: Get it on Google Play
-    community_packages: Community packages
-    community_note: These packages are maintained by Linux distributions and community members, not by the Delta Chat team. They may lag behind the latest release.
+    community_packages: Community Packages
+    community_note: Maintained by Linux distributions and community members. They may lag behind the latest release.
     copy: Copy
     copied: Copied
 
