@@ -76,7 +76,7 @@
             </div>
             <div class="install-option">
                 <div class="install-label">Homebrew</div>
-                <pre><code>brew install --cask deltachat</code></pre>
+                <pre>brew install --cask deltachat</pre>
             </div>
             <details>
                 <summary class="noupgrades">
@@ -101,7 +101,7 @@
             </div>
             <div class="install-option">
                 <div class="install-label">Winget</div>
-                <pre><code>winget install 9PJTXX7HN3PK</code></pre>
+                <pre>winget install 9PJTXX7HN3PK</pre>
             </div>
             <details>
                 <summary class="noupgrades">
@@ -131,17 +131,17 @@
 
             <div class="install-option">
                 <div class="install-label">Flatpak</div>
-                <pre><code>flatpak install flathub chat.delta.desktop</code></pre>
+                <pre>flatpak install flathub chat.delta.desktop</pre>
             </div>
             <div class="install-option">
                 <div class="install-label">Debian / Ubuntu</div>
-<pre><code>sudo mkdir -p /etc/apt/keyrings
+<pre>sudo mkdir -p /etc/apt/keyrings
 
 curl -fsSL https://delta.chat/assets/deltachat_certificate.asc.txt | sudo tee /etc/apt/keyrings/deltachat.asc > /dev/null
 
 echo 'deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/deltachat.asc] https://download.delta.chat/desktop/ stable main' | sudo tee /etc/apt/sources.list.d/deltachat-desktop.list
 
-sudo apt update &amp;&amp; sudo apt install deltachat-desktop</code></pre>
+sudo apt update &amp;&amp; sudo apt install deltachat-desktop</pre>
             </div>
             <details>
                 <summary class="noupgrades">
@@ -167,19 +167,19 @@ sudo apt update &amp;&amp; sudo apt install deltachat-desktop</code></pre>
             <div class="descr">{{ tx.download.community_note | default: txEn.download.community_note }}</div>
             <div class="install-option">
                 <div class="install-label">Arch Linux</div>
-                <pre><code>sudo pacman -S deltachat-desktop</code></pre>
+                <pre>sudo pacman -S deltachat-desktop</pre>
             </div>
             <div class="install-option">
                 <div class="install-label">Nix</div>
-                <pre><code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code></pre>
+                <pre>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</pre>
             </div>
             <div class="install-option">
                 <div class="install-label">Snap</div>
-                <pre><code>sudo snap install deltachat-desktop</code></pre>
+                <pre>sudo snap install deltachat-desktop</pre>
             </div>
             <div class="install-option">
                 <div class="install-label">FreeBSD</div>
-                <pre><code>pkg install deltachat-desktop</code></pre>
+                <pre>pkg install deltachat-desktop</pre>
             </div>
             <ul class="install-links">
                 <li><a href="https://git.chaotic.ninja/shinyoukai/deltachat-overlay#usage">Gentoo overlay</a></li>

@@ -44,6 +44,7 @@ function addCopyButtons() {
     var label = root.dataset.copyLabel || 'Copy';
     var copied = root.dataset.copiedLabel || 'Copied';
     document.querySelectorAll('.install-option pre').forEach(function (pre) {
+        var text = pre.textContent;
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'copy-btn';
@@ -52,7 +53,7 @@ function addCopyButtons() {
         btn.title = label;
         btn.setAttribute('aria-label', label);
         btn.addEventListener('click', function () {
-            navigator.clipboard.writeText(pre.querySelector('code').textContent).then(function () {
+            navigator.clipboard.writeText(text).then(function () {
                 btn.innerHTML = CHECK_ICON;
                 btn.title = copied;
                 btn.setAttribute('aria-label', copied);
