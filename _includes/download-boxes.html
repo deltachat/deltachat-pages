@@ -83,6 +83,7 @@
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="descr">
+                    {{ tx.download.no_upgrades_note | default: txEn.download.no_upgrades_note }}<br />
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-universal.dmg">Universal .dmg</a><br>
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.dmg">Apple Silicon .dmg</a>
                 </div>
@@ -108,6 +109,7 @@
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="descr">
+                    {{ tx.download.no_upgrades_note | default: txEn.download.no_upgrades_note }}<br />
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-Setup.x64.exe">Setup.exe</a><br>
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-Portable.x64.exe">Portable .exe (experimental)</a>
                 </div>
@@ -143,6 +145,7 @@ sudo apt update &amp;&amp; sudo apt install deltachat-desktop</pre>
                     {{ tx.download.no_upgrades | default: txEn.download.no_upgrades }}
                 </summary>
                 <div class="descr">
+                    {{ tx.download.no_upgrades_note | default: txEn.download.no_upgrades_note }}<br />
                     x86_64:
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb">.deb</a>,
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.x86_64.rpm">.rpm</a>,

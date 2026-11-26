@@ -23,7 +23,8 @@ en:
 
   download:
     other: Download options for other platforms
-    no_upgrades: Download options without automatic updates
+    no_upgrades: Options without automatic updates
+    no_upgrades_note: The following download options are discouraged as they do not have automatic updates
     source_code: Source Code
     outdated: outdated
     minimum: Minimum requirements
