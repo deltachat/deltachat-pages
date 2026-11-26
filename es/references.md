@@ -19,31 +19,31 @@ y mucho menos a las claves de cifrado, que solo se encuentran en los dispositivo
 
 2024-06-14, <https://roskomsvoboda.org/ru/post/delta-chat-snova-otkazal-roskomnadzoru/>
 
-### РБК (Major Russian Newspaper): Why are Russian Internet outages becoming more frequent and how to stay connected?
+### РБК (importante periódico ruso): ¿Por qué son cada vez más frecuentes los cortes de Internet en Rusia y cómo mantenerse conectado?
 
-Translated summary:
-_"Another messenger that is also resistant to communication problems is Delta Chat.
-It sends messages using regular e-mail protocols,
-and e-mail, as experts note,
-is very resistant to common communication problems."_
+Resumen traducido:
+_«Otro servicio de mensajería que también es resistente a los problemas de comunicación es Delta Chat.
+Envía mensajes utilizando los protocolos habituales de correo electrónico,
+y correos electrónicos, tal y como señalan los expertos,
+es muy resistente a los problemas de comunicación habituales»._
 
 2024-04-21, <https://www.rbc.ru/spb_sz/21/04/2024/662216e09a79475ba9366e20>
 
-### c't, a german technology magazine, tested Delta Chat 1½ years
+### La revista alemana de tecnología «c't» ha probado el Delta Chat durante un año y medio.
 
-Translated summary:
-_"Delta Chat is definitely worth a longer look.
-The app harmoniously combines chat as a form of communication
-with the tried-and-tested medium of email
-and even offers some features that you won't find in other messengers,
-such as small "webxdc" apps that you can embed directly in chats and use with conversation partners.
-It's a shame that Delta Chat didn't exist before WhatsApp and the like."_
+Resumen traducido:
+_«Delta Chat merece sin duda una mirada más en detalle.
+La aplicación combina armoniosamente el chat como forma de comunicación
+con el medio tan consolidado que es el correo electrónico
+e incluso ofrece algunas funciones que no encontrarás en otras aplicaciones de mensajería,
+como pequeñas aplicaciones «webxdc» que puedes incrustar directamente en los chats y utilizar con tus interlocutores.
+Es una pena que Delta Chat no existiera antes de WhatsApp y aplicaciones similares.»_
 
 11/2023, <https://www.heise.de/ratgeber/Per-E-Mail-chatten-Delta-Chat-als-Messenger-und-Mailsoftware-nutzen-9432335.html>
 
-### Ubuntubuzz: Features You May Find Excellent...
+### Ubuntubuzz: Funciones que puedes encontrar geniales...
 
-_"Apple and alike could be forced to give users' data to government, Delta could not, because it does not have users' data. [...] No server, no data collection, and no phone number required. Modern, fancy, WhatsApp-like user interface. Can message people who do not use Delta Chat."_
+_«Apple y otras empresas similares podrían verse obligadas a facilitar los datos de los usuarios al Gobierno, mientras que Delta no, ya que no dispone de dichos datos. [...] Sin servidor, sin recopilación de datos y sin necesidad de número de teléfono. Una interfaz de usuario moderna y elegante, similar a la de WhatsApp. Permite enviar mensajes a personas que no utilizan Delta Chat »._
 
 2021-09-20, Ade Malsasa Akbar, <https://www.ubuntubuzz.com/2021/09/delta-chat-overview-and-installation.html>
 

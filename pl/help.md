@@ -445,7 +445,7 @@ W przeciwieństwie do wielu innych komunikatorów, po udanym przenoszeniu oba **
 
 Ta metoda jest zalecana tylko wtedy, gdy opisana powyżej opcja „Dodaj kolejne urządzenie” nie działa.
 
-- Na starym urządzeniu przejdź do **Ustawienia → Czaty → Eksport kopii zapasowej**. Wprowadź swój PIN odblokowania ekranu, wzór lub hasło. Następnie możesz nacisnąć „Utwórz kopię”. Spowoduje to zapisanie pliku kopii zapasowej na urządzeniu. Teraz musisz jakoś przenieść go na inne urządzenie.
+- Na starym urządzeniu przejdź do **Ustawienia → Czaty → Eksport kopii zapasowej**, w razie potrzeby odblokuj ekran i dotknij **Eksportuj ten profil**. Spowoduje to zapisanie pliku kopii zapasowej na urządzeniu. Teraz musisz jakoś przenieść go na inne urządzenie.
 
 - Na nowym urządzeniu wybierz: **Mam już profil → Przywróć z kopii zapasowej**. Jeśli korzystasz z iOS i napotykasz trudności, może [ten poradnik](https://forum.delta.chat/t/import-backup-to-ios/1628) ci pomoże.
 
@@ -632,7 +632,7 @@ Jeszcze nie, ale pojawi się w [Autocrypt v2](https://autocrypt2.org).
 
 ### Jak mogę ręcznie sprawdzić informacje o szyfrowaniu?
 
-Możesz sprawdzić stan szyfrowania end-to-end ręcznie w oknie dialogowym „Szyfrowanie” (profil użytkownika w systemie Android/iOS lub kliknij prawym przyciskiem myszy element listy czatu użytkownika na komputerze). Delta Chat pokazuje tam dwa odciski palców. Jeśli te same odciski palców pojawią się u ciebie i urządzeniu twojego kontaktu, połączenie jest bezpieczne.
+Możesz sprawdzić stan szyfrowania end-to-end ręcznie w oknie dialogowym „Informacje o szyfrowaniu” na profilu użytkownika. Delta Chat pokazuje tam dwa odciski palców. Jeśli te same odciski palców pojawią się u ciebie i urządzeniu twojego kontaktu, połączenie jest bezpieczne.
 
 ### Czy mogę ponownie wykorzystać mój istniejący klucz prywatny? {#importkey}
 
