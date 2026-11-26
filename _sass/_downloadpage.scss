@@ -70,12 +70,6 @@ div.download-content {
 
     /* install commands */
 
-    div.install-heading {
-        font-size: 1rem;
-        color: #222;
-        margin: 1.5em 0 .3em 0;
-    }
-
     .install-option {
         margin: .75em 7pt .75em 0;
     }
@@ -112,11 +106,6 @@ div.download-content {
         color: #333;
         cursor: pointer;
         &:hover { background: #eee; }
-    }
-
-    ul.install-links {
-        margin: 0;
-        padding-left: 1.2em;
     }
 
     div.arch-label {
