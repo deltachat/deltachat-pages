@@ -70,17 +70,21 @@ div.download-content {
 
     /* install commands */
 
-    .install-option {
+    .install-command {
         margin: .75em 7pt .75em 0;
     }
 
-    .install-label {
+    /* label as a tab on top of the command */
+    .install-command span {
+        display: block;
+        width: fit-content;
+        padding: .3em .75em 0 .75em;
+        background: #fff;
         font-weight: bold;
         color: #222;
-        margin-bottom: .2em;
     }
 
-    .install-option pre {
+    .install-command pre {
         position: relative;
         margin: 0;
         padding: .5em 3em .5em .75em;

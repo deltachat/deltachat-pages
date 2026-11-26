@@ -74,8 +74,8 @@
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 macOS 12.0 Monterey
             </div>
-            <div class="install-option">
-                <div class="install-label">Homebrew</div>
+            <div class="install-command">
+                <span>Homebrew</span>
                 <pre>brew install --cask deltachat</pre>
             </div>
             <details>
@@ -99,8 +99,8 @@
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Windows 10
             </div>
-            <div class="install-option">
-                <div class="install-label">Winget</div>
+            <div class="install-command">
+                <span>Winget</span>
                 <pre>winget install 9PJTXX7HN3PK</pre>
             </div>
             <details>
@@ -129,12 +129,12 @@
                 Ubuntu 18.04, Fedora 29, Debian 10, Compatible Systems
             </div>
 
-            <div class="install-option">
-                <div class="install-label">Flatpak</div>
+            <div class="install-command">
+                <span>Flatpak</span>
                 <pre>flatpak install flathub chat.delta.desktop</pre>
             </div>
-            <div class="install-option">
-                <div class="install-label">Debian / Ubuntu</div>
+            <div class="install-command">
+                <span>Debian / Ubuntu</span>
 <pre>sudo mkdir -p /etc/apt/keyrings
 
 curl -fsSL https://delta.chat/assets/deltachat_certificate.asc.txt | sudo tee /etc/apt/keyrings/deltachat.asc > /dev/null
@@ -166,20 +166,20 @@ sudo apt update &amp;&amp; sudo apt install deltachat-desktop</pre>
             <br>
             <div class="title">{{ tx.download.community_packages | default: txEn.download.community_packages }}</div>
             <div class="descr">{{ tx.download.community_note | default: txEn.download.community_note }}</div>
-            <div class="install-option">
-                <div class="install-label">Arch Linux</div>
+            <div class="install-command">
+                <span>Arch Linux</span>
                 <pre>sudo pacman -S deltachat-desktop</pre>
             </div>
-            <div class="install-option">
-                <div class="install-label">Nix</div>
+            <div class="install-command">
+                <span>Nix</span>
                 <pre>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</pre>
             </div>
-            <div class="install-option">
-                <div class="install-label">Snap</div>
+            <div class="install-command">
+                <span>Snap</span>
                 <pre>sudo snap install deltachat-desktop</pre>
             </div>
-            <div class="install-option">
-                <div class="install-label">FreeBSD</div>
+            <div class="install-command">
+                <span>FreeBSD</span>
                 <pre>pkg install deltachat-desktop</pre>
             </div>
             <div class="descr">

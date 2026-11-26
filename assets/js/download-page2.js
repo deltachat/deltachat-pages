@@ -43,7 +43,7 @@ function addCopyButtons() {
     var root = document.querySelector('.download-content');
     var label = root.dataset.copyLabel || 'Copy';
     var copied = root.dataset.copiedLabel || 'Copied';
-    document.querySelectorAll('.install-option pre').forEach(function (pre) {
+    document.querySelectorAll('.install-command pre').forEach(function (pre) {
         var text = pre.textContent;
         var btn = document.createElement('button');
         btn.type = 'button';
