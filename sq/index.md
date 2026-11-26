@@ -3,17 +3,17 @@ title: Delta Chat, shkëmbyes mesazhesh i siguruar, i decentralizuar
 lang: sq
 ---
 
-# Decentralized & Secure Messaging {#homepage-heading}
+# Shkëmbim Mesazhesh i Decentralizuar & Siguruar {#homepage-heading}
 
 <div style="text-align: center">
 <picture>
 <source srcset="../assets/home/screenshots/desktop-and-mobile-thumbnail.webp" type="image/webp" />
-<img src="../assets/home/screenshots/desktop-and-mobile.png" style="width:500px; max-width:100%; height:auto;" alt="A screenshot of Delta Chat on Desktop and Mobile" />
+<img src="../assets/home/screenshots/desktop-and-mobile.png" style="width:500px; max-width:100%; height:auto;" alt="Një foto ekrani e Delta Chat-t në Desktop dhe Celular" />
 </picture>
 </div>
 
 <p style="text-align: center; margin-top: 0!important">
-<a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
+<a href="https://get.delta.chat" class="download-btn">Merrni Delta Chat-in</a>
 </p>
 
 💬 Shkëmbim mesazhesh aty për aty, i qëndrueshëm, me aftësi për të pasur profile të shumtë dhe mbulim të shumë pajisjeve

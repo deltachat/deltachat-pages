@@ -846,8 +846,7 @@ Die Implementierung ist in [Autocrypt v2 OpenPGP Certificates](https://datatrack
 
 ### Wie kann ich die Verschlüsselung manuell überprüfen?
 
-Du kannst den Status der Ende-zu-Ende-Verschlüsselung manuell im Dialog "Verschlüsselung"
-(Android/iOS: Benutzerprofil, Desktop: Rechtsklick auf den Chat eines Benutzers) überprüfen.
+Du kannst den Status der Ende-zu-Ende-Verschlüsselung manuell im Dialog "Verschlüsselung" überprüfen.
 Delta Chat zeigt dort zwei Fingerabdrücke an.
 Wenn die gleichen Fingerabdrücke auf deinem eigenen Gerät und auf dem Gerät deines Kontakts erscheinen,
 ist die Verbindung sicher.
