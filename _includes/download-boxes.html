@@ -45,9 +45,6 @@
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Android 5.0 Lollipop
             </div>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-android">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
         </div>
         <div class="box" id="ios">
             <div class="title">iPhone/iPad</div>
@@ -63,9 +60,6 @@
             <div class="descr">
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 iOS 15.6, iPhone 6s, iPad 5/Air 2/Mini 4
-            </div>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-ios">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
         </div>
         <div class="box" id="macos">
@@ -92,9 +86,6 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.dmg"><small>Download Apple Silicon</small> DeltaChat.dmg</a>
                 </div>
             </details>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
         </div>
         <div class="box" id="windows">
             <div class="title">Windows</div>
@@ -121,9 +112,6 @@
                     <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-Portable.x64.exe">Get portable version (experimental)</a>
                 </div>
             </details>
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
-            </div>
         </div>
         <div class="box" id="linux">
             <div class="title">GNU/Linux</div>
@@ -195,10 +183,6 @@ sudo apt update &amp;&amp; sudo apt install deltachat-desktop</code></pre>
                 <li><a href="https://git.chaotic.ninja/shinyoukai/deltachat-overlay#usage">Gentoo overlay</a></li>
                 <li><a href="https://software.opensuse.org/download.html?project=home%3Aoberkut&package=deltachat-desktop">Fedora, Mageia &amp; openSUSE (OBS)</a></li>
             </ul>
-
-            <div class="descr">
-                <a href="https://github.com/deltachat/deltachat-desktop">{{ tx.download.source_code | default: txEn.download.source_code }}</a>
-            </div>
         </div>
         <div class="box" id="ubuntutouch">
             <div class="title">Ubuntu Touch</div>
@@ -217,7 +201,6 @@ sudo apt update &amp;&amp; sudo apt install deltachat-desktop</code></pre>
             </div>
             <div class="descr">
                 See <a href="https://delta.chat/en/2023-07-02-deltatouch">blog</a> for details about this community driven effort<br />
-                <a href="https://codeberg.org/lk108/deltatouch">{%if tx.download.source_code != ""%}{{ tx.download.source_code }}{%else%}{{ txEn.download.source_code }}{%endif%}</a>
             </div>
         </div>
     </details>
