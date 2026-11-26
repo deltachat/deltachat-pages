@@ -71,6 +71,7 @@ div.download-content {
     /* install commands */
 
     .install-command {
+        position: relative;
         margin: .75em 7pt .75em 0;
     }
 
@@ -78,26 +79,25 @@ div.download-content {
     .install-command span {
         display: block;
         width: fit-content;
-        padding: .3em .75em 0 .75em;
+        padding: 0 .75em;
+        line-height: 24px;
         background: #fff;
         font-weight: bold;
         color: #222;
     }
 
     .install-command pre {
-        position: relative;
         margin: 0;
-        padding: .5em 3em .5em .75em;
+        padding: .5em .75em;
         background: #fff;
         line-height: 1.5;
-        /* wrap long commands on small screens; copy keeps the original text */
-        white-space: pre-wrap;
-        overflow-wrap: anywhere;
+        overflow-x: auto;
     }
 
+    /* copy button on the code, but outside of the scrolling <pre>; 27px = label height + 3px */
     button.copy-btn {
         position: absolute;
-        top: 3px;
+        top: 27px;
         right: 3px;
         display: flex;
         width: 24px;

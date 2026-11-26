@@ -64,7 +64,7 @@ function addCopyButtons() {
                 }, 1500);
             });
         });
-        pre.appendChild(btn);
+        pre.parentNode.appendChild(btn);
     });
 }
 
