@@ -75,7 +75,6 @@ div.download-content {
         margin: .75em 7pt .75em 0;
     }
 
-    /* label as a tab on top of the command */
     .install-command span {
         display: block;
         width: fit-content;
@@ -94,15 +93,15 @@ div.download-content {
         overflow-x: auto;
     }
 
-    /* copy button on the code, but outside of the scrolling <pre>; 27px = label height + 3px */
     button.copy-btn {
         position: absolute;
-        top: 27px;
-        right: 3px;
+        top: 24px;
+        right: 0;
         display: flex;
+        box-sizing: content-box;
         width: 24px;
         height: 24px;
-        padding: 0;
+        padding: 3px 3px 0 0;
         align-items: center;
         justify-content: center;
         border: none;
