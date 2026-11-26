@@ -139,17 +139,12 @@
                 Ubuntu 18.04, Fedora 29, Debian 10, Compatible Systems
             </div>
 
-            <div class="install-group official">
-                <div class="install-heading">
-                    {{ tx.download.official_packages | default: txEn.download.official_packages }}
-                    <span class="tag official">{{ tx.download.by_delta_chat | default: txEn.download.by_delta_chat }}</span>
-                </div>
-                <div class="install-option">
-                    <div class="install-label">Flatpak</div>
-                    <pre><code>flatpak install flathub chat.delta.desktop</code></pre>
-                </div>
-                <details class="install-option">
-                    <summary class="install-label">Debian / Ubuntu <small>(APT, amd64 &amp; arm64)</small></summary>
+            <div class="install-option">
+                <div class="install-label">Flatpak</div>
+                <pre><code>flatpak install flathub chat.delta.desktop</code></pre>
+            </div>
+            <div class="install-option">
+                <div class="install-label">Debian / Ubuntu</div>
 <pre><code>sudo mkdir -p /etc/apt/keyrings
 
 curl -fsSL https://delta.chat/assets/deltachat_certificate.asc.txt | sudo tee /etc/apt/keyrings/deltachat.asc > /dev/null
@@ -157,62 +152,56 @@ curl -fsSL https://delta.chat/assets/deltachat_certificate.asc.txt | sudo tee /e
 echo 'deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/deltachat.asc] https://download.delta.chat/desktop/ stable main' | sudo tee /etc/apt/sources.list.d/deltachat-desktop.list
 
 sudo apt update &amp;&amp; sudo apt install deltachat-desktop</code></pre>
-                </details>
-                <details>
-                    <summary class="noupgrades">
-                        {{ tx.download.no_upgrades | default: txEn.download.no_upgrades }}
-                    </summary>
-                    <div class="arch-label">x86_64</div>
-                    <div class="buttons">
-                        <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Debian/Ubuntu</small> .deb</a>
-                        <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.x86_64.rpm"><small>Fedora</small> .rpm</a>
-                        <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-x86_64.AppImage"><small>Linux</small> AppImage</a>
-                        <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.tar.gz"><small>Linux</small> .tar.gz</a>
-                    </div>
-                    <div class="arch-label">arm64</div>
-                    <div class="buttons">
-                        <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_arm64.deb"><small>Debian/Ubuntu</small> .deb</a>
-                        <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.aarch64.rpm"><small>Fedora</small> .rpm</a>
-                        <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.AppImage"><small>Linux</small> AppImage</a>
-                        <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}-arm64.tar.gz"><small>Linux</small> .tar.gz</a>
-                    </div>
-                </details>
             </div>
+            <details>
+                <summary class="noupgrades">
+                    {{ tx.download.no_upgrades | default: txEn.download.no_upgrades }}
+                </summary>
+                <div class="arch-label">x86_64</div>
+                <div class="buttons">
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_amd64.deb"><small>Debian/Ubuntu</small> .deb</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.x86_64.rpm"><small>Fedora</small> .rpm</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-x86_64.AppImage"><small>Linux</small> AppImage</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.tar.gz"><small>Linux</small> .tar.gz</a>
+                </div>
+                <div class="arch-label">arm64</div>
+                <div class="buttons">
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop_{{VERSION_DESKTOP}}_arm64.deb"><small>Debian/Ubuntu</small> .deb</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}.aarch64.rpm"><small>Fedora</small> .rpm</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/DeltaChat-{{VERSION_DESKTOP}}-arm64.AppImage"><small>Linux</small> AppImage</a>
+                    <a href="https://download.delta.chat/desktop/v{{VERSION_DESKTOP}}/deltachat-desktop-{{VERSION_DESKTOP}}-arm64.tar.gz"><small>Linux</small> .tar.gz</a>
+                </div>
+            </details>
 
-            <div class="install-group community">
-                <div class="install-heading">
-                    {{ tx.download.community_packages | default: txEn.download.community_packages }}
-                    <span class="tag community">{{ tx.download.community_maintained | default: txEn.download.community_maintained }}</span>
-                </div>
-                <p class="install-note">{{ tx.download.community_note | default: txEn.download.community_note }}</p>
-                <div class="install-option">
-                    <div class="install-label">Arch Linux</div>
-                    <pre><code>sudo pacman -S deltachat-desktop</code></pre>
-                </div>
-                <div class="install-option">
-                    <div class="install-label">Nix</div>
-                    <pre><code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code></pre>
-                </div>
-                <div class="install-option">
-                    <div class="install-label">Snap</div>
-                    <pre><code>sudo snap install deltachat-desktop</code></pre>
-                </div>
-                <div class="install-option">
-                    <div class="install-label">FreeBSD</div>
-                    <pre><code>pkg install deltachat-desktop</code></pre>
-                </div>
-                <ul class="install-links">
-                    <li><a href="https://git.chaotic.ninja/shinyoukai/deltachat-overlay#usage">Gentoo overlay</a></li>
-                    <li><a href="https://software.opensuse.org/download.html?project=home%3Aoberkut&package=deltachat-desktop">Fedora, Mageia &amp; openSUSE (OBS)</a></li>
-                </ul>
+            <div class="install-heading">{{ tx.download.community_packages | default: txEn.download.community_packages }}</div>
+            <div class="descr">{{ tx.download.community_note | default: txEn.download.community_note }}</div>
+            <div class="install-option">
+                <div class="install-label">Arch Linux</div>
+                <pre><code>sudo pacman -S deltachat-desktop</code></pre>
             </div>
+            <div class="install-option">
+                <div class="install-label">Nix</div>
+                <pre><code>nix-env -f "&lt;nixpkgs&gt;" -iA deltachat-desktop</code></pre>
+            </div>
+            <div class="install-option">
+                <div class="install-label">Snap</div>
+                <pre><code>sudo snap install deltachat-desktop</code></pre>
+            </div>
+            <div class="install-option">
+                <div class="install-label">FreeBSD</div>
+                <pre><code>pkg install deltachat-desktop</code></pre>
+            </div>
+            <ul class="install-links">
+                <li><a href="https://git.chaotic.ninja/shinyoukai/deltachat-overlay#usage">Gentoo overlay</a></li>
+                <li><a href="https://software.opensuse.org/download.html?project=home%3Aoberkut&package=deltachat-desktop">Fedora, Mageia &amp; openSUSE (OBS)</a></li>
+            </ul>
 
             <div class="descr">
                 <a href="https://github.com/deltachat/deltachat-desktop">{{ tx.download.source_code | default: txEn.download.source_code }}</a>
             </div>
         </div>
         <div class="box" id="ubuntutouch">
-            <div class="title">Ubuntu Touch <span class="tag community">{{ tx.download.community_maintained | default: txEn.download.community_maintained }}</span></div>
+            <div class="title">Ubuntu Touch</div>
             <div class="buttons">
                 <a class="img-badge" href="https://open-store.io/app/deltatouch.lotharketterer">
                     <picture>
