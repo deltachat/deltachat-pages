@@ -1,4 +1,8 @@
 <div class="socials">
+	<details class="languages">
+		<summary>🌐 {%if tx.language != ""%}{{ tx.language }}{%else%}{{ txEn.language }}{%endif%}</summary>
+		<div>{% include footer-languages.html %}</div>
+	</details>
 	<a href="../feed.xml">
 		<img src="../assets/css/feed-icon.png" alt="">
 		RSS-Feed

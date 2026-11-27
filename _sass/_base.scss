@@ -61,9 +61,6 @@ footer {
 footer a, footer a:visited {
     color: #757575;
 }
-#languages {
-    margin-block: 1em;
-}
 
 .featured-image {
     margin-top: 1em;
@@ -140,7 +137,6 @@ footer a, footer a:visited {
         margin-left: 20px;
     }
 
-    #languages,
     main {
         margin-inline: auto;
         width: 75%;
@@ -248,6 +244,32 @@ table {
             display: block;
             height: 1em;
             width: auto;
+        }
+    }
+
+    /* language menu: list opens as a popup above */
+    .languages {
+        position: relative;
+
+        summary {
+            cursor: pointer;
+            list-style: none;
+        }
+        div {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            margin-bottom: 8px;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-items: start;
+            gap: .3em 1.5em;
+            padding: .8em 1em;
+            background: #fff;
+            border: 1px solid #BBB;
+            border-radius: 5px;
+            text-align: start;
+            white-space: nowrap;
         }
     }
 }
