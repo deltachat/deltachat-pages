@@ -88,6 +88,22 @@ footer a, footer a:visited {
   text-align: center;
 }
 
+/* homepage cards: 2 columns on mobile, 3 on desktop (see below) */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 2em 0;
+}
+.cards > div {
+  padding: 1em;
+  background: #eee;
+}
+.cards b {
+  display: block;
+  margin-bottom: .3em;
+}
+
 /* rough layout: desktop second 
 *******************************************************************************/
 
@@ -103,6 +119,10 @@ footer a, footer a:visited {
         a, a:visited {
             font-size: 1.125rem;
         }
+    }
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .post-box {
