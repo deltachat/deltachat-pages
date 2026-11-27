@@ -27,20 +27,8 @@ For community interactions around Delta Chat please read our [Community Standard
 - [Delta Chat iOS Issues](https://github.com/deltachat/deltachat-ios/issues)
 - [Rust Core Library + Python Bindings Issues](https://github.com/chatmail/core/issues)
 
+# Become a Tester
 
-# Third party communication channels 
-
-The following Delta Chat related communication channels are run by third parties
-which may or may not follow our [Community Standards](community-standards): 
-
-- [PixelSocial]({% include dc-community-url %}) an anonymous
-  social network inside Delta Chat.
-
-- A [Lemmy community](https://lemmy.zip/c/delta_chat)
-  which you can follow by putting `!delta_chat@lemmy.zip` 
-  into the search field of your fediverse app.
-
-- A [Delta Chat subreddit](https://old.reddit.com/r/DeltaChat/).
-
-If you know of, or setup yourself, additional channels,
-please let us know (see Channels and repositories above).
+- Preview Builds: [Desktop]({% include desktop-previews-url %}),
+  [Android](https://download.delta.chat/android/beta),
+  [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
