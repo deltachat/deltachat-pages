@@ -28,6 +28,6 @@ lang: en
 
 <div><b>Sovereign &amp; Open Source</b>Keep your chats on your device, and not in someone else's cloud</div>
 
-<div><b>Decentralized</b>Experience chatting without interruptions, thanks to our decentralized architecture</div>
+<div><b>Decentralized</b>Chat without interruptions across independent relays, built on open standards</div>
 
 </div>
