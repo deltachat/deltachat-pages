@@ -78,6 +78,7 @@ div.download-content {
         font-size: .8125rem;
         line-height: 1.5;
         overflow-x: auto;
+        border-radius: 5px;
     }
 
     button.copy-btn {
@@ -96,6 +97,7 @@ div.download-content {
         color: #333;
         cursor: pointer;
         &:hover { background: #ddd; }
+        border-radius: 5px;
     }
 }
 

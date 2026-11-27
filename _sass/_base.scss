@@ -77,7 +77,6 @@ footer a, footer a:visited {
 	width: 100%;
 }
 
-/* larger font on homepage, may be removed or adapted whenever homepage changes */
 #homepage-heading ~ p {
   font-size: 1.2em;
   margin-top: 1.6em !important;
@@ -86,6 +85,27 @@ footer a, footer a:visited {
 
 #homepage-heading {
   text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 2em 0;
+}
+@media only screen and (max-width: 420px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+.cards > div {
+  padding: 1em;
+  background: #eee;
+  border-radius: 8px;
+}
+.cards b {
+  display: block;
+  margin-bottom: .3em;
 }
 
 /* rough layout: desktop second 
@@ -103,6 +123,10 @@ footer a, footer a:visited {
         a, a:visited {
             font-size: 1.125rem;
         }
+    }
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .post-box {

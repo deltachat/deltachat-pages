@@ -16,12 +16,18 @@ lang: en
 <a href="https://get.delta.chat" class="download-btn">Get Delta Chat</a>
 </p>
 
-💬 Reliable instant messaging with multi-profile and multi-device support
+<div class="cards">
 
-⚡️ Sign up to secure and interoperable [chatmail relays](https://chatmail.at/relays)
+<div><b>No Phone Number</b>Chat without phone numbers or other private data</div>
 
-🥳 Interactive [web apps in chats](https://webxdc.org/) for gaming and collaboration
+<div><b>Mini Apps</b>Use in-chat Mini Apps for gaming, polls, calendars, shopping lists and more</div>
 
-🔒 [Audited end-to-end encryption](help#security-audits) safe against network and server attacks
+<div><b>Secure</b>Video calls and messages with secure encryption</div>
 
-👉 [F](https://en.wikipedia.org/wiki/Free_software)[OSS](https://en.wikipedia.org/wiki/Open-source_software) software, built on [Internet Standards](https://github.com/chatmail/core/blob/main/standards.md), avoiding [xkcd927](https://xkcd.com/927/) :)
+<div><b>Multi-Device</b>Pick your conversation where you left with great multi device support</div>
+
+<div><b>Sovereign</b>Keep your chats on your device, and not in someone else's cloud.</div>
+
+<div><b>Decentralized</b>Experience chatting without interruptions, thanks to our decentralized architecture</div>
+
+</div>
