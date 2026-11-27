@@ -8,20 +8,9 @@ div.download-content {
         display: none;
     }
 
-    div.box {
-        margin: 1em 0pt;
-        padding: 2px 2px 7pt 7pt;
-        background-color: #eee;
-        background-image: linear-gradient(120deg, #f3f3f3, #eee);
-        font-size: .75rem;
-    }
-
-    div.box div.title {
-        font-size: 1.25rem;
-        margin-top: 5pt;
-        margin-bottom: 8px;
-        margin-right: .5em;
-        color: #222;
+    /* same space above all headlines, except for the recommended os on top */
+    #boxes h1 {
+        margin-top: 2em;
     }
 
     div.box div.buttons {
@@ -72,15 +61,12 @@ div.download-content {
 
     .install-command {
         position: relative;
-        margin: .75em 7pt .75em 0;
+        margin: .75em 0;
     }
 
     .install-command span {
         display: block;
-        width: fit-content;
-        padding: 0 .75em;
         line-height: 24px;
-        background: #fff;
         font-weight: bold;
         color: #222;
     }
@@ -88,7 +74,8 @@ div.download-content {
     .install-command pre {
         margin: 0;
         padding: .5em .75em;
-        background: #fff;
+        background: #eee;
+        font-size: .8125rem;
         line-height: 1.5;
         overflow-x: auto;
     }
@@ -99,25 +86,37 @@ div.download-content {
         right: 0;
         display: flex;
         box-sizing: content-box;
-        width: 24px;
-        height: 24px;
+        width: 26px;
+        height: 26px;
         padding: 3px 3px 0 0;
         align-items: center;
         justify-content: center;
         border: none;
-        background: #fff;
+        background: #eee;
         color: #333;
         cursor: pointer;
-        &:hover { background: #eee; }
+        &:hover { background: #ddd; }
     }
 }
 
 #boxes-summary {
+    margin-top: 1em;
     font-weight: bold;
     cursor: pointer;
 }
 
-summary.noupgrades {
+details.noupgrades summary {
     color: #1e6bb8;
     cursor: pointer;
+    list-style: none;
+}
+details.noupgrades .descr {
+    padding-left: 2em;
+}
+
+
+/* "Changelogs & More" list below the boxes, without dots and indent */
+div.download-content ~ ul {
+    list-style: none;
+    padding-left: 0;
 }

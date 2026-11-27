@@ -5,12 +5,11 @@
 {% assign VERSION_ANDROID = "2.69.0" %}
 
 <div class="download-content" data-copy-label="{{ tx.download.copy | default: txEn.download.copy }}" data-copied-label="{{ tx.download.copied | default: txEn.download.copied }}">
-    <h1>{%if tx.menu.download != ""%}{{ tx.menu.download }}{%else%}{{ txEn.menu.download }}{%endif%}</h1>
     <div id="recommendation"></div>
     <details id="boxes" open>
         <summary id="boxes-summary" hidden>{%if tx.download.other != ""%}{{ tx.download.other }}{%else%}{{ txEn.download.other }}{%endif%}</summary>
         <div class="box" id="android">
-            <div class="title">Android</div>
+            <h1>Android</h1>
             <div class="buttons">
                 <a href="https://play.google.com/store/apps/details?id=chat.delta" class="img-badge">
                     <picture>
@@ -47,7 +46,7 @@
             </div>
         </div>
         <div class="box" id="ios">
-            <div class="title">iPhone/iPad</div>
+            <h1>iPhone/iPad</h1>
             <div class="buttons">
                 <a class="img-badge" href="https://apps.apple.com/us/app/delta-chat/id1459523234">
                     <picture>
@@ -63,7 +62,7 @@
             </div>
         </div>
         <div class="box" id="macos">
-            <div class="title">macOS</div>
+            <h1>macOS</h1>
             <div class="buttons">
                 <a href="https://apps.apple.com/us/app/delta-chat-desktop/id1462750497" class="img-badge">
                     <img src="../assets/badges/mac-appstore.svg" alt="{%if tx.download.dl_mac_appstore != ""%}{{ tx.download.dl_mac_appstore }}{%else%}{{ txEn.download.dl_mac_appstore }}{%endif%}" width=187 height=48 />
@@ -71,6 +70,7 @@
                 <a href="https://formulae.brew.sh/cask/deltachat"><small>Install with</small>Homebrew</a>
             </div>
             <div class="descr">
+                {{ tx.download.no_phone | default: txEn.download.no_phone }}
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 macOS 12.0 Monterey
             </div>
@@ -78,8 +78,8 @@
                 <span>Homebrew</span>
                 <pre>brew install --cask deltachat</pre>
             </div>
-            <details>
-                <summary class="noupgrades">
+            <details class="noupgrades">
+                <summary>
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="descr">
@@ -90,13 +90,14 @@
             </details>
         </div>
         <div class="box" id="windows">
-            <div class="title">Windows</div>
+            <h1>Windows</h1>
             <div class="buttons">
                 <a href="https://apps.microsoft.com/detail/9pjtxx7hn3pk" class="img-badge">
                     <img src="../assets/badges/microsoft.svg" alt="{%if tx.download.dl_microsoft != ""%}{{ tx.download.dl_microsoft }}{%else%}{{ txEn.download.dl_microsoft }}{%endif%}" width=133 height=48 />
                 </a>
             </div>
             <div class="descr">
+                {{ tx.download.no_phone | default: txEn.download.no_phone }}
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Windows 10
             </div>
@@ -104,8 +105,8 @@
                 <span>Winget</span>
                 <pre>winget install 9PJTXX7HN3PK</pre>
             </div>
-            <details>
-                <summary class="noupgrades">
+            <details class="noupgrades">
+                <summary>
                     {%if tx.download.no_upgrades != ""%}{{ tx.download.no_upgrades }}{%else%}{{ txEn.download.no_upgrades }}{%endif%}
                 </summary>
                 <div class="descr">
@@ -116,7 +117,7 @@
             </details>
         </div>
         <div class="box" id="linux">
-            <div class="title">GNU/Linux</div>
+            <h1>Linux</h1>
             <div class="buttons">
                 <a href="https://flathub.org/apps/details/chat.delta.desktop" class="img-badge">
                     <picture>
@@ -125,8 +126,9 @@
                 </a>
             </div>
             <div class="descr">
+                {{ tx.download.no_phone | default: txEn.download.no_phone }}
                 {{ tx.download.minimum | default: txEn.download.minimum }}:
-                Ubuntu 18.04, Fedora 29, Debian 10, Compatible Systems
+                Ubuntu 18.04, Fedora 29, Debian 10 and compatible
             </div>
 
             <div class="install-command">
@@ -140,8 +142,8 @@ curl -fsSL https://delta.chat/assets/deltachat_certificate.asc.txt | sudo tee /e
 echo 'deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/deltachat.asc] https://download.delta.chat/desktop/ stable main' | sudo tee /etc/apt/sources.list.d/deltachat-desktop.list
 sudo apt update &amp;&amp; sudo apt install deltachat-desktop</pre>
             </div>
-            <details>
-                <summary class="noupgrades">
+            <details class="noupgrades">
+                <summary>
                     {{ tx.download.no_upgrades | default: txEn.download.no_upgrades }}
                 </summary>
                 <div class="descr">
@@ -159,8 +161,7 @@ sudo apt update &amp;&amp; sudo apt install deltachat-desktop</pre>
                 </div>
             </details>
 
-            <br>
-            <div class="title">{{ tx.download.community_packages | default: txEn.download.community_packages }}</div>
+            <h1>{{ tx.download.community_packages | default: txEn.download.community_packages }}</h1>
             <div class="descr">{{ tx.download.community_note | default: txEn.download.community_note }}</div>
             <div class="install-command">
                 <span>Arch Linux</span>
@@ -184,7 +185,7 @@ sudo apt update &amp;&amp; sudo apt install deltachat-desktop</pre>
             </div>
         </div>
         <div class="box" id="ubuntutouch">
-            <div class="title">Ubuntu Touch</div>
+            <h1>Ubuntu Touch</h1>
             <div class="buttons">
                 <a class="img-badge" href="https://open-store.io/app/deltatouch.lotharketterer">
                     <picture>
