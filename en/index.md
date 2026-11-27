@@ -22,11 +22,11 @@ lang: en
 
 <div><b>Mini Apps</b>Use in-chat Mini Apps for gaming, polls, calendars, shopping lists and more</div>
 
-<div><b>Secure</b>Video calls and messages with secure, audited end-to-end encryption</div>
+<div><b>Secure</b>Video calls, Audio calls and messages with audited end-to-end encryption</div>
 
 <div><b>Multi-Device</b>Pick up your conversations where you left off, on any device</div>
 
-<div><b>Sovereign &amp; Open Source</b>Keep your chats on your device, and not in someone else's cloud.</div>
+<div><b>Sovereign &amp; Open Source</b>Keep your chats on your device, and not in someone else's cloud</div>
 
 <div><b>Decentralized</b>Experience chatting without interruptions, thanks to our decentralized architecture</div>
 
