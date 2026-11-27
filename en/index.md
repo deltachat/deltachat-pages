@@ -18,7 +18,7 @@ lang: en
 
 <div class="cards">
 
-<div><b>No Phone Number</b>Chat without phone numbers or other private data</div>
+<div><b>No Phone Number</b>Chat without phone numbers or other private data. Create as many profiles as you like</div>
 
 <div><b>Mini Apps</b>Use in-chat Mini Apps for gaming, polls, calendars, shopping lists and more</div>
 
