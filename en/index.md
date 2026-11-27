@@ -22,7 +22,7 @@ lang: en
 
 <div><b>Mini Apps</b>Use in-chat Mini Apps for gaming, polls, calendars, shopping lists and more</div>
 
-<div><b>Secure</b>Video calls and messages with secure, audited encryption</div>
+<div><b>Secure</b>Video calls and messages with secure, audited end-to-end encryption</div>
 
 <div><b>Multi-Device</b>Pick your conversation where you left with great multi device support</div>
 
