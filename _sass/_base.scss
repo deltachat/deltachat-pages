@@ -77,7 +77,6 @@ footer a, footer a:visited {
 	width: 100%;
 }
 
-/* larger font on homepage, may be removed or adapted whenever homepage changes */
 #homepage-heading ~ p {
   font-size: 1.2em;
   margin-top: 1.6em !important;
@@ -88,12 +87,16 @@ footer a, footer a:visited {
   text-align: center;
 }
 
-/* homepage cards: 2 columns on mobile, 3 on desktop (see below) */
 .cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   margin: 2em 0;
+}
+@media only screen and (max-width: 380px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
 .cards > div {
   padding: 1em;
