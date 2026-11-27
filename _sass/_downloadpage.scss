@@ -66,10 +66,7 @@ div.download-content {
 
     .install-command span {
         display: block;
-        width: fit-content;
-        padding: 0 .6em;
         line-height: 24px;
-        background: #eee;
         font-weight: bold;
         color: #222;
     }
@@ -104,7 +101,6 @@ div.download-content {
 
 #boxes-summary {
     margin-top: 1em;
-    color: #1e6bb8;
     font-weight: bold;
     cursor: pointer;
 }
