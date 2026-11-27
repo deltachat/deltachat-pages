@@ -12,3 +12,10 @@
 		Mastodon
 	</a>
 </div>
+<script>
+// close the language menu when tapping outside
+document.addEventListener('click', function (e) {
+	var menu = document.querySelector('details.languages');
+	if (menu.open && !menu.contains(e.target)) menu.open = false;
+});
+</script>
