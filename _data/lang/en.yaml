@@ -28,6 +28,7 @@ en:
     source_code: Source Code
     outdated: outdated
     minimum: Minimum requirements
+    no_phone: Works without a phone.
     dl_flathub: Download from Flathub
     dl_microsoft: Download from Microsoft Store
     dl_mac_appstore: Download on Apple Mac AppStore

@@ -70,6 +70,7 @@
                 <a href="https://formulae.brew.sh/cask/deltachat"><small>Install with</small>Homebrew</a>
             </div>
             <div class="descr">
+                {{ tx.download.no_phone | default: txEn.download.no_phone }}
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 macOS 12.0 Monterey
             </div>
@@ -96,6 +97,7 @@
                 </a>
             </div>
             <div class="descr">
+                {{ tx.download.no_phone | default: txEn.download.no_phone }}
                 {%if tx.download.minimum != ""%}{{ tx.download.minimum }}{%else%}{{ txEn.download.minimum }}{%endif%}:
                 Windows 10
             </div>
@@ -124,8 +126,9 @@
                 </a>
             </div>
             <div class="descr">
+                {{ tx.download.no_phone | default: txEn.download.no_phone }}
                 {{ tx.download.minimum | default: txEn.download.minimum }}:
-                Ubuntu 18.04, Fedora 29, Debian 10, Compatible Systems
+                Ubuntu 18.04, Fedora 29, Debian 10 and compatible
             </div>
 
             <div class="install-command">
