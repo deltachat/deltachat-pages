@@ -118,3 +118,9 @@ details.noupgrades .descr {
     padding-left: 2em;
 }
 
+
+/* "Changelogs & More" list below the boxes, without dots and indent */
+div.download-content ~ ul {
+    list-style: none;
+    padding-left: 0;
+}
