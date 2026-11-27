@@ -16,5 +16,3 @@ downloads: true
   [iOS Testflight](https://testflight.apple.com/join/uEMc1NxS)
 
 - [Verify Downloads](verify-downloads)
-
-- [Alternative Clients](https://chatmail.at/clients)
