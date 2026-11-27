@@ -23,7 +23,8 @@ en:
 
   download:
     other: Download options for other platforms
-    no_upgrades: Download options without automatic updates
+    no_upgrades: Options without automatic updates
+    no_upgrades_note: The following download options are discouraged as they do not have automatic updates
     source_code: Source Code
     outdated: outdated
     minimum: Minimum requirements
@@ -33,11 +34,8 @@ en:
     dl_appstore: Download on Apple AppStore
     dl_fdroid: Get it on F-Droid
     gplay: Get it on Google Play
-    official_packages: Official packages
-    by_delta_chat: by Delta Chat
-    community_packages: Community packages
-    community_maintained: community maintained
-    community_note: These packages are maintained by Linux distributions and community members, not by the Delta Chat team. They may lag behind the latest release.
+    community_packages: Community Packages
+    community_note: Thanks to Linux distributions and the community for these packages! Updates may arrive a bit later
     copy: Copy
     copied: Copied
 
