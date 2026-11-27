@@ -103,7 +103,12 @@ div.download-content {
     cursor: pointer;
 }
 
-summary.noupgrades {
+details.noupgrades summary {
     color: #1e6bb8;
     cursor: pointer;
+    list-style: none;
 }
+details.noupgrades .descr {
+    padding-left: 2em;
+}
+
