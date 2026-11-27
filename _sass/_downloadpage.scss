@@ -8,6 +8,11 @@ div.download-content {
         display: none;
     }
 
+    /* same space above all headlines, except for the recommended os on top */
+    #boxes h1 {
+        margin-top: 2em;
+    }
+
     div.box div.buttons {
         display: flex;
         flex-direction: row;
