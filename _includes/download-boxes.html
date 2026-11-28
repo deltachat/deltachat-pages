@@ -139,7 +139,14 @@
                 <span>Debian &amp; Ubuntu</span>
 <pre>sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://delta.chat/assets/deltachat_certificate.asc.txt | sudo tee /etc/apt/keyrings/deltachat.asc &gt; /dev/null
-echo 'deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/deltachat.asc] https://download.delta.chat/desktop/ stable main' | sudo tee /etc/apt/sources.list.d/deltachat-desktop.list
+sudo tee /etc/apt/sources.list.d/deltachat-desktop.sources &gt; /dev/null &lt;&lt;'EOF'
+Types: deb
+URIs: https://download.delta.chat/desktop/
+Suites: stable
+Components: main
+Architectures: amd64 arm64
+Signed-By: /etc/apt/keyrings/deltachat.asc
+EOF
 sudo apt update &amp;&amp; sudo apt install deltachat-desktop</pre>
             </div>
             <details class="noupgrades">
